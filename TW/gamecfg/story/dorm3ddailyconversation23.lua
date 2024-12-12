@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，天狼星应该怎样料理“红豆”这种食物呢？无论怎么处理都是硬硬的……",
+			say = "{dorm3d}，天狼星該怎麼料理「紅豆」這種食物呢？無論怎麼處理都是硬硬的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？怎么突然对这个食材产生兴趣了？",
+			say = "嗯？怎麼突然對這個食材產生興趣了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因、因为听说重樱有在一些特殊场合结束之后，用红豆饭庆祝的习俗。",
+			say = "因、因為聽說重櫻有在一些特殊場合結束之後，用紅豆飯慶祝的習俗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以天狼星想学习如何做好红豆饭……",
+			say = "所以天狼星想學習如何做好紅豆飯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您说还早？欸……怎、怎么会……又是天狼星迫不及待了吗……",
+			say = "您說還早？欸……怎、怎麼會……又是天狼星迫不及待了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

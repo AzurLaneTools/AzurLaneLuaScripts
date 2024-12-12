@@ -12020,10 +12020,10 @@ pg.base.skill_data_template = {
 	},
 	[60500] = {
 		desc_get = "",
-		name = "星海B2O区通行证",
+		name = "星海B2O區通行證",
 		type = 0,
 		max_level = 0,
-		desc = "由普林斯顿装备时，自身空中支援整备完成后8秒，额外触发一轮迎击舰载机",
+		desc = "普林斯頓裝備時，自身空中支援整備完成後8秒，額外觸發一輪迎擊艦載機",
 		id = 60500,
 		system_transform = {},
 		world_death_mark = {

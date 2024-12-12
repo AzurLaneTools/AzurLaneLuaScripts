@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch22",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}想让天狼星提供怎样的侍奉呢？",
+			say = "{dorm3d}想讓天狼星提供怎樣的侍奉呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

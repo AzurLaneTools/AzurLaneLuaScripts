@@ -158755,6 +158755,143 @@ _G.pg.base.equip_data_statistics[150191] = {
 }
 
 
+_G.pg.base.equip_data_statistics[150200] = {
+	name = "星海B2O區通行證",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 150200,
+	value_2 = 8,
+	icon = "150200",
+	value_1 = "14",
+	attribute_2 = "antiaircraft",
+	rarity = 4,
+	nationality = 1,
+	descrip = "出入星海B2O區所需的通行證，請妥善保管。",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "air",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		60500
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150201] = {
+	id = 150201,
+	value_1 = "16",
+	base = 150200,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150202] = {
+	id = 150202,
+	base = 150200,
+	value_2 = 9,
+	value_1 = "18",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150203] = {
+	id = 150203,
+	base = 150200,
+	value_2 = 10,
+	value_1 = "20",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150204] = {
+	id = 150204,
+	base = 150200,
+	value_2 = 11,
+	value_1 = "22",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150205] = {
+	id = 150205,
+	base = 150200,
+	value_2 = 12,
+	value_1 = "24",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150206] = {
+	id = 150206,
+	base = 150200,
+	value_2 = 13,
+	value_1 = "26",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150207] = {
+	id = 150207,
+	base = 150200,
+	value_2 = 14,
+	value_1 = "28",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150208] = {
+	id = 150208,
+	base = 150200,
+	value_2 = 16,
+	value_1 = "30",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150209] = {
+	id = 150209,
+	base = 150200,
+	value_2 = 18,
+	value_1 = "32",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150210] = {
+	id = 150210,
+	base = 150200,
+	value_2 = 20,
+	value_1 = "35",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150211] = {
+	id = 150211,
+	anti_siren = 100,
+	base = 150200,
+	value_2 = 22,
+	value_1 = "38",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[150260] = {
 	name = "通天之匣",
 	tech = 0,

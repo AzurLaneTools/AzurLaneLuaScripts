@@ -17,18 +17,18 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，天狼星可以问你一个小问题吗？",
+			say = "{dorm3d}，天狼星可以問你一個小問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "当然可以",
+					content = "當然可以",
 					flag = 1
 				},
 				{
-					content = "想问什么？",
+					content = "想問什麼？",
 					flag = 2
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您最近有没有什么特别喜欢的食物？我想……多做些厨艺方面的特训。",
+			say = "您最近有沒有特別喜歡的食物？我想……多做些廚藝方面的特訓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，不过这样一来好像就没有办法为您准备惊喜了。",
+			say = "啊，不過這樣一來好像就沒有辦法為您準備驚喜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "呜……还请您忘了这个问题吧，我的{dorm3d}。",
+			say = "嗚……還請您忘了這個問題吧，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

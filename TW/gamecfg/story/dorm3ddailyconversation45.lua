@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}是想了解，天狼星是从什么时候开始对您怀抱这样的情愫的？",
+			say = "{dorm3d}是想了解，天狼星是從什麼時候開始對您懷抱這樣的情愫的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "其实从见到您的瞬间，天狼星就……",
+			say = "其實從見到您的瞬間，天狼星就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,18 +64,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}您呢？您是何时开始对天狼星……",
+			say = "{dorm3d}您呢？您何時開始對天狼星……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "和天狼星一样。",
+					content = "和天狼星一樣。",
 					flag = 1
 				},
 				{
-					content = "不知不觉就……",
+					content = "不知不覺就……",
 					flag = 2
 				}
 			}

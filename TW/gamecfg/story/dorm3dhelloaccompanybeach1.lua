@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……{dorm3d}……\n海水凉凉的，这样非常舒服哦……{dorm3d}也想试试吗？",
+			say = "唔……{dorm3d}……\n海海水涼涼的，這樣非常舒服喔……{dorm3d}也想試試嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "先和天狼星互动一下吧！",
+				text = "先跟天狼星互動一下吧！",
 				mode = 1,
 				char = "char",
 				posY = -269,
@@ -43,7 +43,7 @@ return {
 			alpha = 0.4,
 			delay = 2,
 			style = {
-				text = "和她说说话吧！",
+				text = "和她說說話吧！",
 				mode = 1,
 				char = "char",
 				posY = -217,
@@ -94,7 +94,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "领取到了新的礼物呢，去看看吧",
+				text = "領到了新的禮物呢，去看看吧",
 				mode = 1,
 				char = "char",
 				posY = -230,

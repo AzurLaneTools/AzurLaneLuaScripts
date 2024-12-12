@@ -50,18 +50,18 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "感受到了天狼星强烈的视线。",
+			say = "感受到了天狼星強烈的視線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "怎么了？",
+					content = "怎麼了？",
 					flag = 1
 				},
 				{
-					content = "我脸上有什么东西吗？",
+					content = "我臉上有東西嗎？",
 					flag = 2
 				}
 			}
@@ -72,7 +72,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，没什么……",
+			say = "啊，沒什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然早就将{dorm3d}您的身影牢牢记在脑海之中了，但偶尔还是会情不自禁盯着您看呢……///",
+			say = "雖然早就將{dorm3d}您的身影牢牢記在腦海之中了，但偶爾還是會情不自禁盯著您看呢……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

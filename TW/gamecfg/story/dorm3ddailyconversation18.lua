@@ -17,18 +17,18 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}平时总是很辛苦呢，天狼星这为您准备一杯果蔬汁来补充营养吧……！",
+			say = "{dorm3d}平常總是很辛苦呢，天狼星這就為您準備一杯果蔬汁來補充營養吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不用麻烦了。",
+					content = "不用麻煩了。",
 					flag = 1
 				},
 				{
-					content = "有你在身边就够了。",
+					content = "有妳在身邊就夠了。",
 					flag = 2
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可是为了您的健康着想的话……",
+			say = "可是為了您的健康著想的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那、那么，就请用天狼星的身体来……！",
+			say = "那、那麼，就請用天狼星的身體來……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

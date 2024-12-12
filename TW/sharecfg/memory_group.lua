@@ -159,6 +159,7 @@ pg.memory_group = setmetatable({
 		266,
 		267,
 		268,
+		269,
 		277,
 		278,
 		279,
@@ -175,6 +176,7 @@ pg.memory_group = setmetatable({
 		300,
 		301,
 		303,
+		304,
 		309,
 		310,
 		311,
@@ -3804,6 +3806,23 @@ pg.base.memory_group = {
 			3207
 		}
 	},
+	[269] = {
+		title = "晴空之下",
+		subtype = 1,
+		link_event = 5105,
+		type = 2,
+		id = 269,
+		icon = "title_event",
+		memories = {
+			3221,
+			3222,
+			3223,
+			3224,
+			3225,
+			3226,
+			3227
+		}
+	},
 	[277] = {
 		title = "向山而行",
 		subtype = 1,
@@ -4168,6 +4187,17 @@ pg.base.memory_group = {
 		icon = "title_event",
 		memories = {
 			3908
+		}
+	},
+	[304] = {
+		title = "宿舍煥新計劃！",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 304,
+		icon = "title_event",
+		memories = {
+			3921
 		}
 	},
 	[309] = {

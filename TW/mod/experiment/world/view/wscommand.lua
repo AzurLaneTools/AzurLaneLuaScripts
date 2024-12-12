@@ -24,7 +24,12 @@ slot0.OpSwitchMap = function(slot0, slot1, slot2)
 	if not uv0:GetInMap() then
 		slot0:OpDone()
 		slot1:Apply()
-		slot3:TriggerAutoFight(slot3.isAutoSwitch or World.ReplacementMapType(slot3:GetActiveEntrance(), slot3:GetActiveMap()) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
+
+		if World.ReplacementMapType(slot3:GetActiveEntrance(), slot3:GetActiveMap()) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area") then
+			PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
+		end
+
+		slot3:TriggerAutoFight(slot3.isAutoSwitch or World.ReplacementMapType(slot5, slot6) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
 		slot0:OpSetInMap(true, slot2)
 	elseif slot1.destMapId ~= slot4.id or slot1.destGridId ~= slot4.gid then
 		slot5 = {}
@@ -43,10 +48,13 @@ slot0.OpSwitchMap = function(slot0, slot1, slot2)
 		table.insert(slot5, function (slot0)
 			uv0:Apply()
 
-			slot2 = uv1:GetActiveMap()
+			if World.ReplacementMapType(uv1:GetActiveEntrance(), uv1:GetActiveMap()) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area") then
+				PlayerPrefs.SetInt("autoBotIsAcitve" .. AutoBotCommand.GetAutoBotMark(SYSTEM_WORLD), 1)
+			end
+
 			slot3 = uv1
 
-			slot3:TriggerAutoFight(uv1.isAutoSwitch or World.ReplacementMapType(uv1:GetActiveEntrance(), slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
+			slot3:TriggerAutoFight(uv1.isAutoSwitch or World.ReplacementMapType(slot1, slot2) == "complete_chapter" and getProxy(SettingsProxy):GetWorldFlag("auto_save_area"))
 			assert(slot2, "active map not exist")
 			parallelAsync({
 				function (slot0)

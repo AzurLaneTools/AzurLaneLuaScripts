@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击此处可进行区域切换选择",
+				text = "點擊此處進行區域切換選擇",
 				mode = 4,
 				char = "char",
 				posY = -439,
@@ -21,7 +21,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "选择餐厅，即可将天狼星呼唤至该区域",
+				text = "選擇餐廳，即可將天狼星呼喚至該區域",
 				mode = 4,
 				char = "char",
 				posY = -285,

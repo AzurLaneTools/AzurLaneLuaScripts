@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "您想知道皇家有没有流传什么怪奇故事？",
+			say = "您想知道皇家有沒有流傳什麼怪奇故事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……就像是剧院中会出现旧时的亡灵、酒店房间墙壁中填埋着骸骨……之类的故事吗？",
+			say = "嗯……就像是劇院中會出現舊時的亡靈、飯店房間牆壁中填埋骸骨……之類的故事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，它们在天狼星眼里都没什么区别，无论是幽灵还是别的什么超自然生物……",
+			say = "不過，它們在天狼星眼裡都沒什麼差別，無論是幽靈還是別的超自然生物……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

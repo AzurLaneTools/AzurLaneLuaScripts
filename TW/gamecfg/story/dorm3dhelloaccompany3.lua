@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_bed1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "怎么了，{dorm3d}？\n天狼星正在整理床铺哦……以便您随时想休息一会。",
+			say = "怎麼了，{dorm3d}？\n天狼星正在整理床鋪哦……以便您隨時想休息一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

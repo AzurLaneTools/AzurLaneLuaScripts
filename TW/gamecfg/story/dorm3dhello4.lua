@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello4",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "贵安，我骄傲的{dorm3d}，天狼星已经在这里恭候您多时了。不过……只要能够侍奉{dorm3d}，天狼星无论付出多久的等待都是值得的。 ",
+			say = "貴安，我驕傲的{dorm3d}，天狼星已經在這裡恭候您多時了。不過……只要能夠侍奉{dorm3d}，天狼星無論付出多久的等待都是值得的。 ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

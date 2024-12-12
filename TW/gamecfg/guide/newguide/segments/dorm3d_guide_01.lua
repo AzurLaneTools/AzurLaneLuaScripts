@@ -10,7 +10,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击生活区",
+				text = "點選生活區",
 				mode = 4,
 				char = "char",
 				posY = -383,
@@ -32,7 +32,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍计划",
+				text = "點擊宿舍計劃",
 				mode = 4,
 				char = "char",
 				posY = -326,
@@ -49,7 +49,7 @@ return {
 			delay = 1.5,
 			alpha = 0.4,
 			style = {
-				text = "点击宿舍",
+				text = "點擊宿舍",
 				mode = 4,
 				char = "char",
 				posY = -136,
@@ -66,7 +66,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "下载所需资源后即可进入对应角色宿舍",
+				text = "下載所需資源後即可進入對應角色宿舍",
 				mode = 4,
 				char = "char",
 				posY = -135,

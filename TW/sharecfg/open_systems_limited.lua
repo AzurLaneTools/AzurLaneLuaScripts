@@ -168,6 +168,14 @@ pg.open_systems_limited = {
 		mediator = "EducateMediator",
 		level = 30
 	},
+	[25] = {
+		scene = "MAINUI",
+		name = "宿舍",
+		story_id = "",
+		id = 25,
+		mediator = "SelectDorm3DMediator",
+		level = 80
+	},
 	all = {
 		1,
 		2,
@@ -189,6 +197,7 @@ pg.open_systems_limited = {
 		19,
 		20,
 		21,
-		24
+		24,
+		25
 	}
 }

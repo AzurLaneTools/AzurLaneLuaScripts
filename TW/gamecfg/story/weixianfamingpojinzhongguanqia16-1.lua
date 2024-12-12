@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle",
+			bgm = "story-richang-6",
 			say = "在眾人的掩護下，金色闇影成功救回了唯和春菜。",
 			typewriter = {
 				speed = 0.05,

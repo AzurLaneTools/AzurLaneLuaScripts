@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "等天气再冷一点，起床工作的难度就会增加啊……",
+			say = "等天氣再冷一點，起床工作的難度就會增加啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "啊，{dorm3d}的这种情况，是会伴随气温下降出现的起床困难综合征啊。",
+			say = "啊，{dorm3d}這種情況，是會伴隨氣溫下降出現的起床困難綜合症啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "等{dorm3d}出现了这种症状，就让天狼星去您那里整夜侍奉吧！",
+			say = "等到{dorm3d}出現了這種症狀，就讓天狼星去您那裡整夜侍奉吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样……才方便更好地叫醒赖床的{dorm3d}~",
+			say = "這樣……才方便更好地叫醒賴床的{dorm3d}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

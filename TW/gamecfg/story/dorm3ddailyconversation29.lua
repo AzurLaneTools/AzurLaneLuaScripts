@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "欸？您问天狼星会不会唱歌？",
+			say = "欸？您問天狼星會不會唱歌？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……嗯，该说不太擅长好呢？还是说很少有这方面的尝试才好呢？",
+			say = "……嗯，該說不太擅長好呢？還是說很少有這方面的嘗試才好呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "需要的话，我可以陪你练习。",
+			say = "需要的話，我可以陪妳練習。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "真的吗？！这样就可以和指挥官在狭小的空间中独处……",
+			say = "真的嗎？！這樣就可以和指揮官在狹小的空間獨處……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果您愿意亲自教导天狼星，如何才能拥有动听的歌声……就再好不过了。",
+			say = "如果您願意親自教導天狼星，如何才能擁有動聽的歌聲……就再好不過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

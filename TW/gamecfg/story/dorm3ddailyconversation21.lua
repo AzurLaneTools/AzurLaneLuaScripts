@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "天狼星很喜欢今天的天气哦！",
+			say = "天狼星很喜歡今天的天氣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "准确来说，是喜欢和{dorm3d}一起度过的今天的天气……！",
+			say = "準確來說，是喜歡和{dorm3d}一起度過的今天的天氣……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不管是下雨还是天晴，只要是陪伴在{dorm3d}身边，对天狼星而言都是喜欢的好天气呢。",
+			say = "不管是下雨還是天晴，只要是陪伴在{dorm3d}身邊，對天狼星而言都是喜歡的好天氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

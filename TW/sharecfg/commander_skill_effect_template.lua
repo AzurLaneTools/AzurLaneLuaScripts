@@ -1640,7 +1640,18 @@ pg.commander_skill_effect_template = {
 		args = {
 			40490
 		},
-		condition = {}
+		condition = {
+			{
+				"count",
+				{
+					22,
+					23,
+					24
+				},
+				1,
+				6
+			}
+		}
 	},
 	[9600412] = {
 		id = 9600412,

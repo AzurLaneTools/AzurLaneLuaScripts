@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "前几天港区下雨后出了彩虹，不过天狼星那时候在打扫房间，没看到彩虹呢……",
+			say = "前幾天港區下雨後出了彩虹，不過天狼星那時在打掃房間，沒看到彩虹呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "听大家说，对着彩虹许愿也很灵验，这么一想就觉得有些可惜了……",
+			say = "聽大家說，對著彩虹許願也很靈驗，這麼一想就覺得有些可惜了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "说不定对着彩虹的照片许愿也能实现，要试试么？",
+			say = "說不定對著彩虹的照片許願也能實現，要試試看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "啊，剩下的说出来就实现不了了……还请{dorm3d}原谅天狼星在这一点上对您保密哦。",
+			say = "啊，剩下的說出來就實現不了了……還請{dorm3d}原諒天狼星在這一點上對您保密哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

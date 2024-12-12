@@ -11,7 +11,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "没想到{dorm3d}您会送天狼星这本书呢，一定是天狼星的觉悟还不够……！",
+			say = "沒想到{dorm3d}您會送天狼星這本書呢，一定是天狼星的覺悟還不夠……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			}
 		},
 		{
-			say = "天狼星一定会好好研读这本书，成为让{dorm3d}赞不绝口的完美女仆！",
+			say = "天狼星一定會好好研讀這本書，成為讓{dorm3d}讚不絕口的完美女僕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

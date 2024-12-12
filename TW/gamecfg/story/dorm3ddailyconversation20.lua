@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}……天狼星想占用您一点时间，来复习与您的双人舞。",
+			say = "{dorm3d}……天狼星想佔用您一點時間，來複習與您的雙人舞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果您觉得单纯跳舞有些乏味的话，还可以直接……",
+			say = "如果您覺得單純跳舞有些無聊的話，還可以直接……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？您现在只想和天狼星跳舞？呜……好、好吧……！",
+			say = "欸？您現在只想跟天狼星跳舞？嗚……好、好吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

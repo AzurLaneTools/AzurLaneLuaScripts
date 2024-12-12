@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			bgm = "tl-theme-2",
+			bgm = "story-richang-7",
 			say = "眾人根據超級遊戲製作機所顯示的數據，來到了一處陌生的海域。",
 			typewriter = {
 				speed = 0.05,

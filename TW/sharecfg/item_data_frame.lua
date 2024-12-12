@@ -414,6 +414,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「人生須臾，不可辜負。」</color>\n「須臾望月抄」活動獲取",
 		scene = {}
 	},
+	[328] = {
+		name = "穹界逐光",
+		gain_by = "星海逐光",
+		time_second = 0,
+		id = 328,
+		time_limit_type = 0,
+		desc = "透過後續活動獲取",
+		scene = {}
+	},
 	[329] = {
 		name = "雪域寒星",
 		gain_by = "雪境迷蹤",
@@ -549,6 +558,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>歡迎所有來到港區報到的新晉指揮官們！</color>\n「開幕慶典」活動獲得",
 		scene = {}
 	},
+	[1002] = {
+		name = "悠然下午茶",
+		gain_by = "",
+		time_second = 0,
+		id = 1002,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>不論何時，總有一杯冒著熱氣的紅茶在靜靜等候。</color>\n透過提升「宿舍計畫」中天狼星的契合度等級來獲取",
+		scene = {}
+	},
 	[10001] = {
 		name = "極限的挑戰者·雙子座",
 		gain_by = "",
@@ -612,6 +630,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>結晶之中閃爍著射手座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.12.01-24.12.31）",
 		scene = {}
 	},
+	[40001] = {
+		name = "甜蜜邀約",
+		gain_by = "",
+		time_second = 0,
+		id = 40001,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>每一口都充滿甜蜜的回憶。</color>\n透過提升「宿舍計畫」中天狼星的契合度等級來獲取",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -659,6 +686,7 @@ pg.item_data_frame = {
 		325,
 		326,
 		327,
+		328,
 		329,
 		401,
 		402,
@@ -674,12 +702,14 @@ pg.item_data_frame = {
 		605,
 		606,
 		1001,
+		1002,
 		10001,
 		10002,
 		10003,
 		10004,
 		10005,
 		10006,
-		10007
+		10007,
+		40001
 	}
 }

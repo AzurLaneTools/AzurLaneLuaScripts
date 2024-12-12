@@ -20,11 +20,11 @@ pg.dorm3d_resource = {
 	},
 	[202202] = {
 		ship_group = 20220,
-		name = "天狼星泳装",
+		name = "天狼星泳裝",
 		type = 1,
 		animator = "",
 		picture = "regular",
-		unlock_text = "在沙滩中邀请天狼星解锁",
+		unlock_text = "在沙灘中邀請天狼星解鎖",
 		model_id = "tianlangxing_swim",
 		id = 202202,
 		head_Icon = "dorm3Dchar/tianlangxing",

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "刚刚获得了一件新家具，去换上吧！",
+				text = "剛剛獲得了一件新傢俱，去換上吧！",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -20,7 +20,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "选择切换按钮",
+				text = "選擇切換按鈕",
 				mode = 1,
 				char = "char",
 				posY = 0,
@@ -36,7 +36,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "切换到卧室区域",
+				text = "切換到臥室區域",
 				mode = 1,
 				char = "char",
 				posY = 0,

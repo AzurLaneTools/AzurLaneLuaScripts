@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……{dorm3d}？\n不，天狼星没有睡着哦？",
+			say = "唔……{dorm3d}？\n不，天狼星沒有睡著喔？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

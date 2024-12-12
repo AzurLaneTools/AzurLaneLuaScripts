@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "喜欢的东西？",
+			say = "喜歡的東西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然是您……我骄傲的{dorm3d}。",
+			say = "當然是您……我驕傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，采用“东西”这样的措辞好像容易有歧义呢……",
+			say = "不過，採用「東西」這樣的措詞好像容易有歧義呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这个问题果然还是换成“天狼星喜欢的人”才比较恰当……",
+			say = "這個問題果然還是換成「天狼星喜歡的人」才比較恰當……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "天狼星想泡温泉吗？",
+			say = "天狼星想泡溫泉嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？{dorm3d}问这个……是您想去泡温泉吗？",
+			say = "嗯？{dorm3d}問這個……是您想去泡溫泉嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那事不宜迟，我的骄傲的{dorm3d}，您有这个想法的话……",
+			say = "那事不宜遲，我的驕傲的{dorm3d}，您有這個想法的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星这就与您一同前往温泉……！",
+			say = "天狼星這就與您一同前往溫泉…！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

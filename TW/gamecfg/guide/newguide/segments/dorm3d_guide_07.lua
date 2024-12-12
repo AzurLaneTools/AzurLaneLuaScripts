@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开契合度面板",
+				text = "點擊此處，打開契合度面板",
 				mode = 4,
 				char = "char",
 				posY = 350,
@@ -24,7 +24,7 @@ return {
 			delay = 0.8,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，打开昼夜切换界面",
+				text = "點擊此處，打開晝夜切換介面",
 				mode = 4,
 				char = "char",
 				posY = -450,
@@ -52,7 +52,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点选后即可切换时间。在夜间，宿舍的物品摆设也会略有不同哦~",
+				text = "點選後即可切換時間。在夜間，宿舍的物品擺設也會略有不同~~",
 				mode = 4,
 				char = "char",
 				posY = -400,

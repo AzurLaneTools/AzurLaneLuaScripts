@@ -9,7 +9,7 @@ return {
 			bgm = "theme-camelot",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿瓦隆之门·卡美洛之庭",
+			say = "阿瓦隆之門·卡美洛之庭",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……一环至三环的强化工程完毕。",
+			say = "……一環至三環的強化工程完畢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来开始新增区域的修建……",
+			say = "接下來開始新增區域的建造……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			actor = 205020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "陛下……差不多该出门看看了，活动的邀请函都快把办公桌压塌了。",
+			say = "陛下……差不多該出門看看了，活動的邀請函都快把辦公桌壓塌了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就再搬张新桌子来！",
+			say = "那就再搬張新桌子來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本王现在在这里有更重要的事要做！",
+			say = "本王現在在這裡有更重要的事要做！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿瓦隆之门的隐患排查完毕之前，本王哪儿都不去！",
+			say = "阿瓦隆之門的隱患排查完畢之前，本王哪裡都不去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯！说不去就不去！哪里都不去！",
+			say = "嗯！說不去就不去！哪裡都不去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……刚才说到哪里来着……哦对，要设置防御系统的「红玫瑰区」、「白玫瑰区」，还有「蓟花区」……",
+			say = "……剛才說到哪裡來著……喔對，要設置防禦系統的「紅玫瑰區」、「白玫瑰區」，還有「薊花區」……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 205100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……她这症状持续多久了？",
+			say = "……她這症狀持續多久了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从听到鸢尾宣布合并的消息后，陛下就一直是这样闷闷不乐呢。",
+			say = "自從聽到鳶尾宣布合併的消息後，陛下就一直是這樣悶悶不樂呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "胡说！本王才没有闷闷不乐！",
+			say = "胡說！本王才沒有悶悶不樂！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啧……啊啊啊！克莱蒙梭！！！！！！",
+			say = "嘖……啊啊啊！克里蒙梭！！！！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -250,7 +250,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算了……然后是用来代替卡美洛之庭的全新中枢区——「女王之冠」。",
+			say = "算了……接著是用來取代卡美洛之庭的全新中樞區——「女王之冠」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -267,7 +267,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要这些区域新建完成的话……阿瓦隆之门的防御就算万全了。",
+			say = "只要這些區域新建完成的話…阿瓦隆之門的防禦就算萬全了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -284,7 +284,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好了好了，你们要是没其他事话就别都围在这里了。",
+			say = "好了好了，妳們要是沒其他事的話就別都圍在這裡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "堆积如山的事务就交给你们全权处理了，去吧去吧。",
+			say = "堆積如山的事務就交給妳們全權處理了，去吧去吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			actor = 205100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼，既然你都说到这个份上了，那我就勉为其难咯~",
+			say = "呼呼呼，既然妳都說到這個份上了，那我就勉為其難了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,7 +335,7 @@ return {
 			actor = 205020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……陛下，后天我会再来的。",
+			say = "欸……陛下，後天我會再來的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,9 +353,9 @@ return {
 			bgName = "bg_camelot_15",
 			bgm = "theme-shallowoftheworld",
 			portrait = 9705040,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			hidePaintObj = true,
-			say = "噢~这套防护装置倒是有点意思。",
+			say = "噢~這套防護裝置倒是有點意思。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她们还没走远呢，你现在出来说话不要紧么？",
+			say = "她們還沒走遠呢，現在出來說話不要緊嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不要紧，除了你之外没人能听到本王的声音。",
+			say = "不要緊，除了妳之外沒人能聽到本王的聲音。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -425,7 +425,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没想到短短数周，你居然能做到如此程度……",
+			say = "沒想到短短數週，妳居然能做到如此程度……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -443,7 +443,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过，对于你们即将要面对的危险而言，还是远远不够的。",
+			say = "不過，對於妳們即將要面對的危險而言，還是遠遠不夠的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -461,7 +461,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不得不说，真是人不可貌相，以你们这种科技等级的实验场居然能在陆间海整出那么大的动静。",
+			say = "不得不說，真是人不可貌相，以妳們這種科技等級的實驗場居然能在地中海整出那麼大的動靜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "洒向虚空的光芒连本王都看得清清楚楚哦。",
+			say = "灑向虛空的光芒連本王都看得清清楚楚哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "因此我很确信，你们的世界已经被某些更加危险的存在盯上了。",
+			say = "因此我很確信，妳們的世界已經被某些更危險的存在盯上了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然本应立即开始清盘程序的塞壬却迟迟没有行动，这一点让我有些意外……",
+			say = "雖然本應立即開始清盤程序的塞壬卻遲遲沒有行動，這一點讓我有些意外……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "但从某种意义上来说，这样反而更糟糕，或许是它们判定这个世界已经绝对没救了吧。",
+			say = "但從某種意義上來說，這樣反而更糟糕，或許是它們判定這個世界已經絕對沒救了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "正如之前所说，我有把皇家的所有重要人员与物资，甚至包括你们的盟友一同撤离到安全世界的能力。",
+			say = "如同之前所說，我有把皇家的所有重要人員與物資，甚至包括妳們的盟友一同撤離到安全世界的能力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "与其在这里浪费时间，不如考虑一下本王的撤离计划如何？",
+			say = "與其在這裡浪費時間，不如考慮一下本王的撤離計畫如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -586,7 +586,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不考虑。",
+			say = "不考慮。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天下岂有未战先降的道理？本王誓要奋战到底。",
+			say = "天下豈有未戰先降的道理？本王誓要奮戰到底。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反而是你，要是想来结盟的话，就过来全力帮我。",
+			say = "反而是妳，要是想來結盟的話，就過來全力幫我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -638,7 +638,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……现在明明是你有求于本王吧。",
+			say = "……現在明明是妳有求於本王吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -655,7 +655,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？真的么？",
+			say = "哦？真的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1

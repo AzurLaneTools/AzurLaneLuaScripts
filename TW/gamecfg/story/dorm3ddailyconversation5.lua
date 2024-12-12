@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
+			say = "聽說東煌有一道叫做「剁椒魚頭」的料理，而皇家也有吃魚的傳統……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,18 +52,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星就想将“剁椒”这种风味，融入仰望星空派。您觉得这个创意如何？",
+			say = "天狼星想將「剁椒」這種風味，融入仰望星空派。您覺得這個創意如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "难度会不会太高了？",
+					content = "難度會不會太高了？",
 					flag = 1
 				},
 				{
-					content = "这个创意很好！",
+					content = "這個創意很好！",
 					flag = 2
 				}
 			}
@@ -75,7 +75,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 1,
-			say = "说的也是呢……不过天狼星会努力的！",
+			say = "說的也是呢……不過天狼星會努力的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			optionFlag = 2,
-			say = "真、真的么！果然还是{dorm3d}您最支持天狼星了！",
+			say = "真、真的嗎！果然還是{dorm3d}您最支持天狼星了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

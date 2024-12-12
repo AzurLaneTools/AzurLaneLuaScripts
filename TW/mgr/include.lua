@@ -48,6 +48,7 @@ require("Mgr/NodeCanvasMgr")
 require("Mgr/ClickEffectMgr")
 require("Mgr/CameraRTMgr")
 require("Mgr/GameTracker/GameTrackerMgr")
+require("Mgr/GMTMgr")
 
 if PLATFORM_CODE == PLATFORM_CHT then
 	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")

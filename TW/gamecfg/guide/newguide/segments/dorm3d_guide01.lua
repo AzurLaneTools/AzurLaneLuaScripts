@@ -10,7 +10,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "先前往生活区吧喵~",
+				text = "先前往生活區吧喵~~",
 				mode = 1,
 				char = "char",
 				posY = -221,
@@ -32,7 +32,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击这里进入喵~",
+				text = "點這裡進入喵~~",
 				mode = 1,
 				char = "char",
 				posY = -114,
@@ -48,7 +48,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "先去天狼星的房间看看吧喵~！",
+				text = "先去天狼星的房間看看吧喵~！",
 				mode = 1,
 				char = "char",
 				posY = 232,

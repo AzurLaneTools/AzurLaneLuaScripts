@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello2",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "您来了呢，我骄傲的{dorm3d}。有什么是天狼星可以为您效劳的吗？",
+			say = "您來了呢，我驕傲的{dorm3d}。有什麼是天狼星可以為您效勞的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

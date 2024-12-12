@@ -5,7 +5,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，可选择一起前往沙滩的角色",
+				text = "點擊此處，可選擇一起前往海灘的角色",
 				mode = 4,
 				char = "char",
 				posY = -300,
@@ -22,7 +22,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "目前尚未解锁该角色的邀约，请点击角色",
+				text = "目前尚未解鎖該角色的邀約，請點擊角色",
 				mode = 4,
 				char = "char",
 				posY = -40,
@@ -45,7 +45,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处，即可解锁该角色的邀约",
+				text = "點擊此處，即可解鎖該角色的邀約",
 				mode = 4,
 				char = "char",
 				posY = -435,
@@ -62,7 +62,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "现在，请点击天狼星，与她共同前往沙滩吧！",
+				text = "現在，請點擊天狼星，與她共同前往沙灘吧！",
 				mode = 4,
 				char = "char",
 				posY = -100,

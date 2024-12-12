@@ -5,15 +5,15 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene skinshop",
+			"dorm 3d select",
 			{}
 		},
 		time = {
 			{
 				{
 					2024,
-					11,
-					27
+					12,
+					12
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2024,
 					12,
-					11
+					26
 				},
 				{
 					23,
@@ -36,18 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5104",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"TOLOVE_COLLAB_BACKHILL"
-		},
 		time = {
 			{
 				{
 					2024,
-					11,
-					27
+					12,
+					12
 				},
 				{
 					0,
@@ -57,9 +55,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2024,
-					12,
-					12
+					2025,
+					1,
+					8
 				},
 				{
 					23,
@@ -70,22 +68,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5105",
+		type = 3,
 		id = 3,
 		pic = "temp3",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
 		time = {
 			{
 				{
 					2024,
-					11,
-					27
+					12,
+					12
 				},
 				{
 					0,
@@ -95,9 +87,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2024,
-					12,
-					12
+					2025,
+					1,
+					8
 				},
 				{
 					23,
@@ -108,74 +100,25 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 4,
 		pic = "temp4",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 5,
 		pic = "temp5",
 		param = {
 			"puzzle connect"
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp6",
@@ -183,32 +126,6 @@ pg.activity_banner = {
 			"scene shop",
 			{
 				warp = "shopstreet"
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					11,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -709,8 +626,6 @@ pg.activity_banner = {
 		},
 		[2] = {
 			1,
-			2,
-			3,
 			4,
 			5,
 			6,
@@ -739,6 +654,11 @@ pg.activity_banner = {
 			1023,
 			1024
 		},
+		[3] = {
+			2,
+			3,
+			1003
+		},
 		[9] = {
 			98
 		},
@@ -761,9 +681,6 @@ pg.activity_banner = {
 			202,
 			203,
 			204
-		},
-		[3] = {
-			1003
 		},
 		[8] = {
 			1015

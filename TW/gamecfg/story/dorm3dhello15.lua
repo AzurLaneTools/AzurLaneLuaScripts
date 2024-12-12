@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello15",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "我献上永远忠诚的{dorm3d}，真希望时间愿意为今天多停留片刻。因为……天狼星想用全身全心来服侍您，爱您。",
+			say = "我獻上永遠忠誠的{dorm3d}，真希望時間願意為今天多停留片刻。因為……天狼星想用全心服事您，愛您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

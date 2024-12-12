@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "tl-theme-1",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "tl-theme-1"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -138,12 +138,12 @@ pg.voice_bgm = {
 	NewShopsScene = {
 		default_bgm = "story-richang-light",
 		special_bgm = "",
-		bgm = "story-richang-light"
+		bgm = "main"
 	},
 	BuildShipScene = {
-		default_bgm = "story-richang-light",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "story-richang-light"
+		bgm = "main"
 	},
 	VolleyballGameView = {
 		default_bgm = "doa_minigame",
@@ -1605,6 +1605,41 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-fantasyland-light"
 	},
+	Dorm3dVolleyballScene = {
+		default_bgm = "main-SeaAndSun",
+		special_bgm = "",
+		bgm = "main-SeaAndSun"
+	},
+	Dorm3dRoomScene = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
+	},
+	DormSignPage = {
+		default_bgm = "story-room-sirius",
+		special_bgm = "",
+		bgm = "story-room-sirius"
+	},
+	WorldCruiseTaskPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	WorldCruiseShopPage = {
+		default_bgm = "theme-SeaAndSun-soft",
+		special_bgm = "",
+		bgm = "theme-SeaAndSun-soft"
+	},
+	WorldCruiseAwardPage = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
+	},
+	EatFoodLayer = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		bgm = "bar-soft"
+	},
 	CryptolaliaScene = {
 		default_bgm = "story-richang-quiet",
 		special_bgm = "",
@@ -1633,31 +1668,31 @@ pg.voice_bgm = {
 	ToLoveMainPage = {
 		default_bgm = "story-richang-rosy-short",
 		special_bgm = "",
-		bgm = "story-richang-rosy-short"
+		bgm = "main"
 	},
 	ToLovePtPage = {
 		default_bgm = "story-richang-rosy-short",
 		special_bgm = "",
-		bgm = "story-richang-rosy-short"
+		bgm = "main"
 	},
 	ToloveCollectPage = {
 		default_bgm = "story-richang-rosy-short",
 		special_bgm = "",
-		bgm = "story-richang-rosy-short"
+		bgm = "main"
 	},
 	ToLoveCollabBackHillScene = {
-		default_bgm = "tl-battle",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "tl-battle"
+		bgm = "main"
 	},
 	PuzzleConnectLayer = {
 		default_bgm = "story-richang-refreshing",
 		special_bgm = "",
-		bgm = "story-richang-refreshing"
+		bgm = "main"
 	},
 	PuzzleConnectPlayingUI = {
 		default_bgm = "story-richang-refreshing",
 		special_bgm = "",
-		bgm = "story-richang-refreshing"
+		bgm = "main"
 	}
 }

@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_1",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "一段時間後——",
 			typewriter = {
 				speed = 0.05,

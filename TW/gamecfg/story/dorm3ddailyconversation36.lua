@@ -17,18 +17,18 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最近……天狼星也有在看除了食谱以外的书了。",
+			say = "最近……天狼星也有在看除了食譜以外的書了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "居然不看食谱了！？",
+					content = "居然不看食譜了！？",
 					flag = 1
 				},
 				{
-					content = "那天狼星最近在看什么？",
+					content = "那天狼星最近在看什麼？",
 					flag = 2
 				}
 			},
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是和恋爱话题有关的杂志和小说……",
+			say = "是和戀愛話題有關的雜誌和小說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然作为女仆侍奉在{dorm3d}身边就很幸福了，但贪心的天狼星还想在这方面再好好钻研一下呢。",
+			say = "雖然身為女僕侍奉在{dorm3d}身邊就很幸福了，但貪心的天狼星還想在這方面再好好鑽研一下呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "请您好好见证天狼星未来的蜕变吧，我的{dorm3d}。",
+			say = "請您好好見證天狼星未來的蛻變吧，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

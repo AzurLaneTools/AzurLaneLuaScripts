@@ -143,6 +143,7 @@ pg.furniture_data_template = setmetatable({
 			280,
 			281,
 			288,
+			290,
 			292,
 			100002,
 			100003,
@@ -4968,6 +4969,7 @@ pg.furniture_data_template = setmetatable({
 			280,
 			281,
 			288,
+			290,
 			100002,
 			100003,
 			100004,
@@ -5960,6 +5962,7 @@ pg.furniture_data_template = setmetatable({
 			278,
 			280,
 			288,
+			290,
 			292,
 			100002,
 			100004,
@@ -8686,6 +8689,7 @@ pg.furniture_data_template = setmetatable({
 		280,
 		281,
 		288,
+		290,
 		292,
 		100002,
 		100003,
@@ -18197,6 +18201,73 @@ pg.base.furniture_data_template = {
 			},
 			{},
 			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[290] = {
+		can_rotate = 1,
+		describe = "堅持傳統，不斷創新。將拉麵的美味帶入港區！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yifengtanglamianwanicon",
+		count = 1,
+		name = "一風堂港區聯名拉麵",
+		advice = 0,
+		id = 290,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yifengtanglamianwan",
+				"normal"
+			},
+			[3] = {
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					0
+				}
+			},
+			[4] = {},
+			[5] = {
 				0,
 				0
 			}

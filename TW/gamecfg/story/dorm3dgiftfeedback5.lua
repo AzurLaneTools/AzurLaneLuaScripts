@@ -10,7 +10,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "好可爱的玩偶……咦？{dorm3d}不在时就由它来陪伴天狼星……？",
+			say = "好可愛的玩偶……咦？{dorm3d}不在時就由它來陪伴天狼星……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "明白了，天狼星一定会把它当成{dorm3d}一样好好爱护，二十四小时寸步不离。",
+			say = "明白了，天狼星一定會把它當成{dorm3d}一樣好好愛護，二十四小時寸步不離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

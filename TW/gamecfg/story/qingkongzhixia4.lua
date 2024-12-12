@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"审判庭秘密据点",
+					"審判庭秘密據點",
 					1
 				},
 				{
-					"鸢尾教国·某地",
+					"鳶尾教國·某地",
 					2
 				},
 				{
-					"地下：？？米",
+					"地下：？？公尺",
 					3
 				}
 			},
@@ -41,7 +41,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特伦托女士，今日感觉如何？",
+			say = "特倫托女士，今日感覺如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -59,7 +59,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "克莱蒙梭主教，承蒙您的关心！",
+			say = "克里蒙梭主教，承蒙您的關心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实从昨天开始，我就已经没有任何不舒服的感觉了。",
+			say = "其實從昨天開始，我就已經沒有任何不舒服的感覺了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,7 +93,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过为了以防万一，今天还是又吃了一次药~",
+			say = "不過為了以防萬一，今天還是又吃了一次藥~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的做法很正确，只有按照疗程吃药，才能确保病灶被根除哦。",
+			say = "妳的做法很正確，只有按照療程吃藥，才能確保病灶被根除哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是！克莱蒙梭主教。",
+			say = "是！克里蒙梭主教。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，归根结底，审判庭能拥有这项技术，还得“感谢”你们的马可波罗呢，所以你也不用太过拘谨。",
+			say = "呵呵，歸根究底，審判庭能擁有這項技術，還得「感謝」妳們的馬可波羅呢，所以妳也不用太過拘謹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看到你恢复得这么好，马可波罗想必也会很开心吧。",
+			say = "看到妳恢復得這麼好，馬可波羅想必也會很開心吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "特伦托，你恨她么？",
+			say = "特倫托，妳恨她嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -200,7 +200,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……其实，在这期间发生的所有事对我来说就像做了一场模糊的梦。",
+			say = "嗯……其實，在這段期間發生的所有事對我來說就像做了一場模糊的夢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "梦醒之后，留存在脑海中的记忆……倒还不如你们告诉我的故事细致。",
+			say = "夢醒之後，留存在腦海中的記憶……倒還不如妳們告訴我的故事細緻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -235,7 +235,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以老实说……我其实到现在都没太搞清楚状况，更不可能恨了……",
+			say = "所以老實說……我其實到現在都沒太搞清楚狀況，更不可能恨了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此，呵呵，没关系，你能这么想真是太好了。",
+			say = "原來如此，呵呵，沒關係，妳能這麼想真是太好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "克莱蒙梭主教，请问马可波罗大人现在……情况如何？",
+			say = "克里蒙梭主教，請問馬可波羅大人現在……情況如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她啊……还在沉睡中，不过生命体征一直很平稳，不用担心。",
+			say = "她啊……還在沉睡中，不過生命跡象一直很平穩，不用擔心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，你近几日睡眠状况如何？有做过奇怪的梦么？",
+			say = "說起來，妳近幾日睡眠狀況如何？有做過奇怪的夢嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -340,7 +340,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奇怪的梦……好像也没什么特别的。",
+			say = "奇怪的夢……好像也沒什麼特別的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过偶尔有梦到过一个相同的场景……",
+			say = "不過偶爾有夢到過一個相同的場景……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -375,7 +375,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说来听听？",
+			say = "說來聽聽？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,7 +392,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是一片被白色覆盖的空间，天空与海水都是纯白的……",
+			say = "那是一片被白色覆蓋的空間，天空與海水都是純白的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "梦里的我站在白色的沙滩上，周围堆满了白色的骨螺……",
+			say = "夢裡的我站在白色的沙灘上，周圍堆滿了白色的骨螺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "骨螺……？你的META化症状应该正在消退才对。",
+			say = "骨螺……？妳的META化症狀應該正在消退才對。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你与祂之间的联系难道……与META现象无关么……",
+			say = "妳與祂之間的連結難道……與META現象無關……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你在梦里，有听到什么么？骨螺有向你说话么？",
+			say = "妳在夢裡，有聽到什麼嗎？骨螺有跟妳說話嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 603010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那倒没有……克莱蒙梭主教，骨螺……应该向我说话么？",
+			say = "那倒沒有……克里蒙梭主教，骨螺……該跟我說話嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过假如……梦里的骨螺真的向你说话了，你一定要第一时间通知我。",
+			say = "不過假如……夢裡的骨螺真的跟妳說話了，妳一定要第一時間通知我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "马可波罗的安危，还有我们所有人的安危——",
+			say = "馬可波羅的安危，還有我們所有人的安危——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——就全靠你了。",
+			say = "——就全靠妳了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

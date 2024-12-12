@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "继续和天狼星互动",
+				text = "繼續和天狼星互動",
 				mode = 1,
 				char = "char",
 				posY = -269,
@@ -43,7 +43,7 @@ return {
 			alpha = 0.4,
 			delay = 2,
 			style = {
-				text = "将准备好的礼物送给天狼星吧！",
+				text = "將準備好的禮物送給天狼星吧！",
 				mode = 1,
 				char = "char",
 				posY = -236,
@@ -59,7 +59,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "点击此处选中礼物",
+				text = "點此選取禮物",
 				mode = 1,
 				char = "char",
 				posY = 172,
@@ -80,7 +80,7 @@ return {
 			alpha = 0.4,
 			delay = 0.1,
 			style = {
-				text = "将它送给天狼星吧！",
+				text = "將它送給天狼星吧！",
 				mode = 1,
 				char = "char",
 				posY = -224,

@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在，就留在这里熟悉一下环境吧！",
+				text = "現在，就留在這裡熟悉一下環境吧！",
 				mode = 1,
 				char = "char",
 				posY = -232,
@@ -21,7 +21,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "让我们去卧室看看",
+				text = "讓我們去臥室看看",
 				mode = 1,
 				char = "char",
 				posY = -217,
@@ -48,7 +48,7 @@ return {
 			alpha = 0.4,
 			delay = 2,
 			style = {
-				text = "接下来，就请在宿舍中和天狼星好好相处吧~",
+				text = "接下來，就請在宿舍和天狼星好好相處吧~~",
 				mode = 1,
 				char = "char",
 				posY = -252,

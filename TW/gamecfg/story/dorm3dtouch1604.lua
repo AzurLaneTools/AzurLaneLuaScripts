@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch14",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "嗯？您觉得这样的感觉会更好吗？",
+			say = "嗯？您覺得這樣的感覺會更好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

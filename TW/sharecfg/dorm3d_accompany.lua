@@ -21,7 +21,7 @@ pg.dorm3d_accompany = {
 	},
 	{
 		sceneInfo = "map_beach_02|Common/Beach",
-		name = "休闲相伴",
+		name = "休閒相伴",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
 		ship_id = 20220,

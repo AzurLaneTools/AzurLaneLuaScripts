@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，要过来一起坐一会吗？\n天狼星还为您准备了点心和红茶哦。",
+			say = "{dorm3d}，要來一起坐一下嗎？\n天狼星還為您準備了點心和紅茶哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

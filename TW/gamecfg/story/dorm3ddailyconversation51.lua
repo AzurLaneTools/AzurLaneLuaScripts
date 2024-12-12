@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，您的脸看上去有点红呢……是不是被太阳晒伤了？",
+			say = "{dorm3d}，您的臉看起來有點紅呢……是不是被太陽曬傷了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不注重防晒问题可不行呢……！",
+			say = "不注重防曬問題可不行呢……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "请{dorm3d}随天狼星移步至阳伞下吧~！天狼星来帮您涂防晒霜。",
+			say = "请{dorm3d}隨天狼星移步至陽傘下吧~！天狼星來幫您塗防曬乳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就请将您的身体尽管交给天狼星吧，我骄傲的{dorm3d}~！",
+			say = "就請將您的身體儘管交給天狼星吧，我驕傲的{dorm3d}~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

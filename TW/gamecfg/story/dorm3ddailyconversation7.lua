@@ -17,14 +17,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，天狼星最近在练习插花，希望之后您能给天狼星一些意见和建议。",
+			say = "{dorm3d}，天狼星最近在練習插花，希望之後您能給天狼星一些意見和建議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "练习插花？",
+					content = "練習插花？",
 					flag = 1
 				}
 			},
@@ -58,7 +58,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为{dorm3d}提供舒适和赏心悦目的环境是女仆的职责，所以说插花是必修课也不为过……",
+			say = "為{dorm3d}提供舒適和賞心悅目的環境是女僕的職責，所以說插花是必修課也不為過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然天狼星是个笨手笨脚的女仆……但是插花这方面应该能做好的！",
+			say = "雖然天狼星是個笨手笨腳的女僕……但是插花這方面應該能做好的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

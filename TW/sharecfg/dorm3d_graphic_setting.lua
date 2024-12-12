@@ -5,7 +5,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 1,
 		dispaySelectName = "",
-		settingName = "允许GPGPU",
+		settingName = "允許GPGPU",
 		isShow = 1
 	},
 	{
@@ -20,18 +20,18 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 3,
-		settingName = "绘制深度",
+		settingName = "繪製深度",
 		isShow = 1,
 		dispaySelectName = {
-			"自动",
-			"强制启用"
+			"自動",
+			"強制啟用"
 		}
 	},
 	{
 		parentSetting = 0,
 		displayType = 2,
 		id = 4,
-		settingName = "着色器精度",
+		settingName = "著色器精度",
 		isShow = 1,
 		dispaySelectName = {
 			"低",
@@ -43,7 +43,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 5,
-		settingName = "硬件抗锯齿",
+		settingName = "硬件抗鋸齒",
 		isShow = 1,
 		dispaySelectName = {
 			"None",
@@ -56,7 +56,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 6,
-		settingName = "最大分辨率",
+		settingName = "最大解析度",
 		isShow = 1,
 		dispaySelectName = {
 			"720P",
@@ -69,7 +69,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 7,
-		settingName = "场景分辨率",
+		settingName = "場景解析度",
 		isShow = 0,
 		dispaySelectName = {
 			"Full",
@@ -88,7 +88,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 8,
-		settingName = "场景最低分辨率",
+		settingName = "場景最低解析度",
 		isShow = 0,
 		dispaySelectName = {
 			"360P",
@@ -100,7 +100,7 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 9,
-		settingName = "贴图分辨率",
+		settingName = "貼圖解析度",
 		isShow = 0,
 		dispaySelectName = {
 			"低",
@@ -113,12 +113,12 @@ pg.dorm3d_graphic_setting = {
 		parentSetting = 0,
 		displayType = 2,
 		id = 10,
-		settingName = "静态阴影",
+		settingName = "靜態陰影",
 		isShow = 0,
 		dispaySelectName = {
 			"禁用",
-			"静态硬阴影",
-			"静态软阴影"
+			"靜態硬陰影",
+			"靜態軟陰影"
 		}
 	},
 	{
@@ -126,7 +126,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 11,
 		dispaySelectName = "",
-		settingName = "实时阴影",
+		settingName = "即時陰影",
 		isShow = 1
 	},
 	{
@@ -150,19 +150,19 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 14,
 		dispaySelectName = "",
-		settingName = "角色描边",
+		settingName = "角色描邊",
 		isShow = 1
 	},
 	{
 		parentSetting = 0,
 		displayType = 2,
 		id = 15,
-		settingName = "后处理",
+		settingName = "後處理",
 		isShow = 1,
 		dispaySelectName = {
-			"关",
-			"开",
-			"高品质"
+			"關",
+			"開",
+			"高品質"
 		}
 	},
 	{
@@ -170,7 +170,7 @@ pg.dorm3d_graphic_setting = {
 		displayType = 1,
 		id = 16,
 		dispaySelectName = "",
-		settingName = "抗锯齿",
+		settingName = "抗鋸齒",
 		isShow = 1
 	},
 	{

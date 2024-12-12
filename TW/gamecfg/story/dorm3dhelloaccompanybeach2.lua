@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/dorm3d_sirus_wait_table1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？天狼星在画什么吗……\n本来是想画{dorm3d}的样子……太有点太难了，所以就画一个象征对{dorm3d}爱意的心形哦。",
+			say = "嗯？天狼星在畫什麼嗎……\n本來是想畫{dorm3d}的樣子……太有點太難了，所以就畫一個象徵對{dorm3d}愛意的心形哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

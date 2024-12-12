@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "说起来，似乎存在这样的刻板印象呢……像“皇家的人都会喜欢茶会”之类的。",
+			say = "說起來，似乎存在這樣的刻板印象呢……像「皇家的人都會喜歡茶會」之類的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所以，天狼星喜欢茶会吗？",
+			say = "所以，天狼星喜歡茶會嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我吗……硬要说的话，可能会更喜欢负责茶会的警备工作之类的？",
+			say = "我嗎……硬要說的話，可能會比較喜歡負責茶會的警備工作之類的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "天狼星更想去成为守护这种平和、悠闲时光的人呢。",
+			say = "天狼星更想去成為守護這種平和、悠閒時光的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

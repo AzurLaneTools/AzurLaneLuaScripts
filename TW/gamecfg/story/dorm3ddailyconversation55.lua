@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，这么热的天气，要来一起吃点冰淇淋消暑吗？",
+			say = "{dorm3d}，這麼熱的天氣，要來一起吃點冰淇淋消暑嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "听起来不错。",
+			say = "聽起來不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那么……{dorm3d}您是想让天狼星喂给您吃呢？",
+			say = "那么……{dorm3d}您是想讓天狼星餵給您吃呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还是想和天狼星分享同一个冰淇淋呢……？",
+			say = "還是想跟天狼星分享同一個冰淇淋呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

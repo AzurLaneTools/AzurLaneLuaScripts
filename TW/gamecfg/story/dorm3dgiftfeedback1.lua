@@ -12,7 +12,7 @@ return {
 	scripts = {
 		{
 			actorName = 20220,
-			say = "这是您送给我的茶具……？天狼星真是受宠若惊……我慷慨的{dorm3d}！",
+			say = "這是您送給我的茶具……？天狼星真是受寵若驚……我慷慨的{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 		},
 		{
 			actorName = 20220,
-			say = "天狼星一定会好好爱惜它，然后用它冲泡美味的红茶来招待{dorm3d}！",
+			say = "天狼星一定會好好愛惜它，然後用它沖泡美味的紅茶來招待{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

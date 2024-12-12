@@ -23,7 +23,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "在第二訊號點，茉茉、西連寺春菜以及天狼星、黛朵、斯庫拉等人組成的搜索隊，也遭遇了敵人的襲擊。",
 			typewriter = {
 				speed = 0.05,

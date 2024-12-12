@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "映入眼帘的是一片死亡之地。",
+			say = "映入眼簾的是一片死亡之地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "无数有规律的敲击声中，机械都市正在肆无忌惮的扩展。",
+			say = "無數規律的敲擊聲中，機械都市正在肆無忌憚的擴展。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "金属与非金属、天然与人工造物、乃至大地与海洋都在以一定规律进行着重组。",
+			say = "金屬與非金屬、天然與人工造物、乃至大地與海洋都在以一定規律進行著重組。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "其中的一些成为了存储在都市中的对象。",
+			say = "其中的一些成為了儲存在都市中的物件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,19 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
-			say = "另一些，则变为了都市的一部分。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900191,
-			side = 2,
-			bgName = "bg_camelot_6",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "拉沃斯在这里的工作……已经到重组回收阶段了啊。",
+			say = "另一些，則變為了都市的一部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +93,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来来得正是时候。",
+			say = "拉沃斯在這裡的工作……已經到重組回收階段了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +105,19 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有了一个额外世界的资源作为储备，应该可以增加些胜算了……",
+			say = "看來來得正是時候。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900191,
+			side = 2,
+			bgName = "bg_camelot_6",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "有了一個額外世界的資源作為儲備，應該可以增加些勝算了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			actor = 900136,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恩普雷斯，实验场β不能被放弃。",
+			say = "恩普雷斯，實驗場β不能被放棄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「自然进化验算系统」有需要在实验场β验证的内容，准备进行防御战。",
+			say = "「自然進化驗算系統」有需要在實驗場β驗證的內容，準備進行防禦戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 900191,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "计算结果显示，这场冲突胜算渺茫，毫无疑问是一项「错误」的决定。",
+			say = "計算結果顯示，這場衝突勝算渺茫，毫無疑問是一項「錯誤」的決定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "既然如此……零的意图难道是，主动出错……？",
+			say = "既然如此……零的意圖是，主動出錯……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……与其它安蒂克丝的型号不同，仲裁机关是被允许出现「错误」的。",
+			say = "……與其它安蒂克絲的型號不同，仲裁機關是被允許出現「錯誤」的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……难道这也是仲裁机关被赋予完整人格的原因之一么。",
+			say = "……這也是仲裁機關被賦予完整人格的原因之一嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呵呵……这个问题已经得不到答案了啊。",
+			say = "呵呵……這個問題已經得不到答案了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			actorName = "仲裁者·拉沃斯·VI",
-			say = "恩普雷斯……？我收到你的消息就赶来了哦。",
+			say = "恩普雷斯……？我收到妳的消息就趕來了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来要和你一同行动了么？",
+			say = "接下來要和妳一同行動了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不错，汝要前往实验场β外围设置防线。",
+			say = "不錯，汝要前往實驗場β外圍設置防線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "与我，还有当地的研究机关一同为零做一场实验。",
+			say = "與我，還有當地的研究機關一同為零做一場實驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "任务期限呢？",
+			say = "任務期限呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "直到零满意，或者全军覆没为止。",
+			say = "直到零滿意，或全軍覆沒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此……",
+			say = "原來如此……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_camelot_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯——我很乐意哦~",
+			say = "嗯——我很樂意哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

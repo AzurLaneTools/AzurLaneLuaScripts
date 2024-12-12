@@ -11,15 +11,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"鸢尾教国·首都",
+					"鳶尾教國·首都",
 					1
 				},
 				{
-					"碧蓝航线临时办公楼",
+					"碧藍航線臨時辦公大樓",
 					2
 				},
 				{
-					"「陆上神国」事件结束三周后",
+					"「陸上神國」事件結束三週後",
 					3
 				}
 			},
@@ -39,7 +39,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			bgm = "blueocean-image",
-			say = "宽敞的空间、豪华的家具、舒适的地毯，再加上刚烘焙出的茶点。",
+			say = "寬敞的空間、豪華的傢俱、舒適的地毯，再加上剛烘焙的茶點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "眼前的房间与其说是临时办公室，或许称之为豪华客房更加恰当。",
+			say = "眼前的房間與其說是臨時辦公室，或許稱之為豪華客房更加恰當。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "自从鸢尾教国宣布合并后，教国以何种方式重回碧蓝航线的问题也被随即提上了日程",
+			say = "自從鳶尾教國宣布合併後，教國以何種方式重回碧藍航線的問題也被隨即提上了日程",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "出于指挥官的工作需要，加之黎塞留一方的强烈要求。",
+			say = "出於指揮官的工作需要，加之黎胥留一方的強烈要求。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,19 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
-			say = "我以碧蓝航线指挥部代表的身份在加冕典礼结束后顺势留在了鸢尾，直至今日。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_502",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不过虽说是工作，主要出席的都是社交性活动就是了……",
+			say = "我以碧藍航線指揮部代表的身份在加冕典禮結束後順勢留在了鳶尾，直至今日。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +95,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么想来反而更像是在休假……",
+			say = "不過雖說是工作，主要出席的都是社交性活動就是了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +107,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "上一次休这么长的假，好像还是在军事学院的时候。",
+			say = "這麼想來反而更像是在休假……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +119,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不对……就算在学院放假的时候好像也没像现在这么悠闲吧……",
+			say = "上一次休這麼長的假，好像還是在軍事學院的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +131,19 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "记得当时临放假前的景象，大概是这样的……",
+			say = "不對……就算在學院放假的時候好像也沒像現在這麼悠閒吧……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_502",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "記得當時快放假前的景象，似乎是這樣的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,15 +157,15 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"碧蓝航线特别军事学院",
+					"碧藍航線特別軍事學院",
 					1
 				},
 				{
-					"欧罗巴某地",
+					"歐羅巴某地",
 					2
 				},
 				{
-					"过去",
+					"過去",
 					3
 				}
 			},
@@ -188,7 +188,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——以上，就是关于舰载机的舰装模块介绍。嗯……距离下课还有点时间呢。",
+			say = "——以上，就是關於艦載機的艦裝模組介紹。嗯……距離下課還有一點時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在请同学们把教材翻到第七章——",
+			say = "現在請同學把教材翻到第七章——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在进一步展开说明航空母舰战斗辅助设备之前，我想先介绍一下航空母舰编队的作战战术。",
+			say = "在進一步展開說明航空母艦戰鬥輔助設備之前，我想先介紹一下航空母艦編隊的作戰戰術。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -240,7 +240,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算是给各位开个题，就算在放假期间也不要忘记学习哦！",
+			say = "算是為各位開個題，就算在放假期間也不要忘記學習哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“……航空母舰，一种与大舰巨炮采用截然不同的攻击方式的新型军舰……”",
+			say = "「…航空母艦，一種與大艦巨炮採用截然不同的攻擊方式的新型軍艦…」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“……航空母舰自诞生的那一刻起，就在无言地宣告着，海上的天空从此不再独属于塞壬一方了……”",
+			say = "「……航空母艦自誕生的那一刻起，就在無言地宣告著，海上的天空從此不再獨屬於塞壬一方了……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“……但因为航空母舰的特点，比起单独作战，或者将多艘航母编制在一起……”",
+			say = "「……但因為航空母艦的特點，比起單獨作戰，或者將多艘航母編制在一起……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“……构建以航空母舰为核心的，多舰种护航编队更能发挥其优势，形成一加一大于二的效果……”",
+			say = "「…建造以航空母艦為核心的，多艦種護航編隊更能發揮其優勢，形成一加一大於二的效果…」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……确实是一种跨时代的兵器。",
+			say = "……確實是一種跨時代的兵器。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喔~这位同学很有眼光嘛~",
+			say = "喔~這位同學很有眼光嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，航空母舰才是未来哟！",
+			say = "沒錯，航空母艦才是未來喲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~可是我觉得更厚的装甲、更大的口径才是未来欸~~",
+			say = "欸~可是我覺得更厚的裝甲、更大的口徑才是未來欸~~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "航空母舰的甲板十分脆弱对吧？飞在空中的舰载机就更脆弱了。",
+			say = "航空母艦的甲板十分脆弱對吧？飛在空中的艦載機就更脆弱了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -389,7 +389,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且在损失掉之后无法及时补充，面对塞壬厚重的装甲时也缺乏攻坚能力……果然还是大舰巨炮好啊~",
+			say = "而且在損失掉之後無法及時補充，面對塞壬厚重的裝甲時也缺乏攻堅能力……果然還是大艦巨炮好啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -407,7 +407,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:199:新泽西}同学————你，是不是完全没在听课！",
+			say = "紐澤西同學————妳，是不是完全沒在聽課！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "罚你回去重新看一遍教材的引言和序章部分！！！",
+			say = "罰妳回去重新看一次教材的引言和序章部分！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -453,7 +453,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的……要不是你的舰装还在重构中，我们真应该演习场上见！让萨拉妹妹好好教教你！",
+			say = "真是的……要不是妳的艦裝還在重構中，我們真應該演習場上見！讓薩拉妹妹好好教教妳！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -471,7 +471,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……可是我舰装的重构方向，就是更厚的装甲和更大口径的火炮啊……",
+			say = "……可是我艦裝的重構方向，就是更厚的裝甲和更大口徑的火炮啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说，我身为战列舰，学航空母舰的知识……也用不上啊……",
+			say = "再說，我身為戰列艦，學航空母艦的知識……也用不上啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -506,7 +506,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些知识，等你以后指挥自己的舰队之后就用得上了！",
+			say = "這些知識，等妳以後指揮自己的艦隊之後就用得上了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -524,7 +524,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们这里可是培养军官的学校，不要忘了你是为什么来的！",
+			say = "我們這裡可是培養軍官的學校，不要忘了妳是為什麼要來的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -542,7 +542,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……我来这里好像也不是自愿的……都是我大姐……",
+			say = "呃……我來這裡好像也不是自願的……都是我大姊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -560,7 +560,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，那再抬杠我就去找你大姐！！",
+			say = "好，那再抬槓我就去找妳大姊！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别、您千万别，我一定好好学习！",
+			say = "不要、您千萬不要，我一定好好學習！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,7 +606,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……真是的，时间都被浪费掉了。那现在让我们来看教材的——",
+			say = "呼……真是的，時間都被浪費掉了。那現在讓我們來看教材的——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -621,7 +621,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "叮铃铃——",
+			say = "叮鈴鈴——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下——课——咯！放——假——喽！",
+			say = "下——課——了！放——假——嘍！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……欸，好吧，那我们本学期的课程就到此为止。",
+			say = "……欸，好吧，那我們這學期的課程就到此為止。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -676,7 +676,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家收拾好东西之后，就可以自由享受假期了。",
+			say = "大家收拾好東西之後，就可以自由享受假期了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -691,7 +691,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "萨拉，还没忙完么？",
+			say = "薩拉，還沒忙完嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -722,7 +722,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐~忙完啦忙完啦，刚刚就已经下课了，我们走吧~",
+			say = "姐姐~忙完啦忙完啦，剛剛就已經下課了，我們走吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -740,7 +740,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，在今晚回白鹰之前，订了一家据说很不错的餐厅的晚餐哦。",
+			say = "哼哼，在今晚回白鷹之前，訂了一家據說很不錯的餐廳的晚餐哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,7 +758,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶，想吃——不过飞机来得及么？",
+			say = "好耶，想吃——不過飛機來得及嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -776,7 +776,7 @@ return {
 			actor = 107020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们没到的话，飞机是不会起飞的，所谓专机，就是这样的存在哦。",
+			say = "我們沒到的話，飛機是不會起飛的，所謂專機，就是這樣的存在哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -794,7 +794,7 @@ return {
 			actor = 107030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是姐姐，那我们快点出发吧——！",
+			say = "不愧是姐姐，那我們快點出發吧——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……现在的萨拉托加，相比过去也变了很多呢。",
+			say = "……現在的薩拉托加，比起過去也變了很多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一切都是从珊瑚海的那场战斗之后开始的……",
+			say = "一切都是從珊瑚海的那場戰鬥之後開始的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -864,7 +864,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……原本以为依靠II型舰装的技术，在成功康复约克城后，治好列克星敦也只是时间问题。",
+			say = "……原本以為靠著II型艦裝的技術，在成功康復約克鎮後，治好列星頓也只是時間問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -876,7 +876,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "可是……普及II型舰装的努力至今没取得的任何进展。",
+			say = "可是……普及II型艦裝的努力至今仍未取得的任何進展。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -888,7 +888,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……列克星敦，此刻依然躺在冰冷的生命维持装置中。",
+			say = "……列星頓，此刻仍躺在冰冷的維生裝置中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……只能希望星海之中展开的新一轮研究计划能够顺利进行了。",
+			say = "……只能希望星海之中展開的新一輪研究計畫能夠順利進行了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -912,7 +912,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……列克星敦，我一定会救你回来的。",
+			say = "……列星頓，我一定會救妳回來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

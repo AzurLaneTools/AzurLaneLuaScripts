@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "接下来，了解一下“契合度”吧！",
+				text = "接下來，來了解一下「契合度」吧！",
 				mode = 4,
 				dir = -1,
 				posY = 186,
@@ -20,7 +20,7 @@ return {
 			alpha = 0.4,
 			delay = 0.3,
 			style = {
-				text = "可通过提升契合度，与天狼星产生更多深入的互动哦！",
+				text = "可透過提升契合度，與天狼星產生更多深入的互動哦！",
 				mode = 1,
 				char = "char",
 				posY = 7,
@@ -48,7 +48,7 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "现在，继续回到之前宿舍里吧",
+				text = "現在，繼續回到之前宿舍吧",
 				mode = 1,
 				char = "char",
 				posY = 144,

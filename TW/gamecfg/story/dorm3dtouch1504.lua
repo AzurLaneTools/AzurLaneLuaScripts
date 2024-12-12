@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch06",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "这里，沾到了什么吗……？",
+			say = "這裡，沾到了什麼嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

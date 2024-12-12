@@ -22992,6 +22992,11 @@ _G.pg.base.gametip.setting_resdownload_title_manga = {
 }
 
 
+_G.pg.base.gametip.setting_resdownload_title_dorm = {
+	tip = "宿舍資源更新"
+}
+
+
 _G.pg.base.gametip.setting_resdownload_title_main_group = {
 	tip = "完整資源更新"
 }
@@ -31727,6 +31732,36 @@ _G.pg.base.gametip.senrankagura_backhill_help = {
 }
 
 
+_G.pg.base.gametip.dorm3d_furnitrue_type_wallpaper = {
+	tip = "壁紙"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_floor = {
+	tip = "地板"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_decoration = {
+	tip = "裝飾"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_bed = {
+	tip = "床"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_couch = {
+	tip = "沙發"
+}
+
+
+_G.pg.base.gametip.dorm3d_furnitrue_type_table = {
+	tip = "桌子"
+}
+
+
 _G.pg.base.gametip.vote_lable_not_start = {
 	tip = "未開啟"
 }
@@ -32650,6 +32685,96 @@ _G.pg.base.gametip.idol3rd_practice = {
 }
 
 
+_G.pg.base.gametip.dorm3d_furniture_window_acesses = {
+	tip = "獲取途徑"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_count = {
+	tip = "數量：$1"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_used = {
+	tip = "<color=#00a3ef>[已擺放]</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_unfit = {
+	tip = "不可使用"
+}
+
+
+_G.pg.base.gametip.dorm3d_waiting = {
+	tip = "等待入住"
+}
+
+
+_G.pg.base.gametip.dorm3d_daily_favor = {
+	tip = "今日互動契合度"
+}
+
+
+_G.pg.base.gametip.dorm3d_favor_level = {
+	tip = "當前契合度等級："
+}
+
+
+_G.pg.base.gametip.dorm3d_time_choose = {
+	tip = "選擇時間"
+}
+
+
+_G.pg.base.gametip.dorm3d_now_time = {
+	tip = "目前時間"
+}
+
+
+_G.pg.base.gametip.dorm3d_is_auto_time = {
+	tip = "隨時間自動切換晝夜裝扮"
+}
+
+
+_G.pg.base.gametip.dorm3d_clothing_choose = {
+	tip = "選擇換裝"
+}
+
+
+_G.pg.base.gametip.dorm3d_now_clothing = {
+	tip = "目前"
+}
+
+
+_G.pg.base.gametip.dorm3d_talk = {
+	tip = "對話"
+}
+
+
+_G.pg.base.gametip.dorm3d_touch = {
+	tip = "觸摸"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift = {
+	tip = "贈禮"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_owner_num = {
+	tip = "數量："
+}
+
+
+_G.pg.base.gametip.dorm3d_unlock_tips = {
+	tip = "契合度達$1級解鎖"
+}
+
+
+_G.pg.base.gametip.dorm3d_daily_favor_tips = {
+	tip = "今日互動契合度:"
+}
+
+
 _G.pg.base.gametip.main_silent_tip_1 = {
 	tip = "隻艦隊已歸航"
 }
@@ -33062,6 +33187,286 @@ _G.pg.base.gametip["202406_main_help"] = {
 }
 
 
+_G.pg.base.gametip.dorm3d_photo_len = {
+	tip = "鏡頭"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_depthoffield = {
+	tip = "鏡頭虛化"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_focusdistance = {
+	tip = "虛化距離"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_focusstrength = {
+	tip = "虛化強度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_paramaters = {
+	tip = "參數"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_postexposure = {
+	tip = "曝光度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_saturation = {
+	tip = "飽和度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_contrast = {
+	tip = "對比"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_Others = {
+	tip = "其它"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_hidecharacter = {
+	tip = "隱藏角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_facecamera = {
+	tip = "面向鏡頭"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_lighting = {
+	tip = "燈光"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_filter = {
+	tip = "濾鏡"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_alpha = {
+	tip = "透明度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_strength = {
+	tip = "強度"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_regular_anim = {
+	tip = "基礎"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_special_anim = {
+	tip = "特殊"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_animspeed = {
+	tip = "動作$1x"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_furniture_lock = {
+	tip = "dorm3d_photo_furniture_lock"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift = {
+	tip = "是否花費$1 <color=#169fff>$2</color> 購買<color=#169fff>$3</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_tip = {
+	tip = "<color=#7c7e81>贈送後可解鎖角色<color=#169fff>專屬劇情</color></color>"
+}
+
+
+_G.pg.base.gametip.word_unlock = {
+	tip = "已解鎖"
+}
+
+
+_G.pg.base.gametip.word_lock = {
+	tip = "未解鎖"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_favor_plus = {
+	tip = "獎勵：契合度+"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_nothing = {
+	tip = "- 暫未取得該物品 -"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_locked = {
+	tip = "契合度$1檔解鎖"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_not_found = {
+	tip = "前往$1獲取"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_table = {
+	tip = "餐廳"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_chair = {
+	tip = "客廳"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_bed = {
+	tip = "臥室"
+}
+
+
+_G.pg.base.gametip.dorm3d_sirius_bath = {
+	tip = "換衣間"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_beach = {
+	tip = "沙灘"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_unlock = {
+	tip = "- 待解鎖 -"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_unlock_name = {
+	tip = "?????"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_favor = {
+	tip = "契合度劇情"
+}
+
+
+_G.pg.base.gametip.dorm3d_reload_gift = {
+	tip = "專屬禮物劇情"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_unlock = {
+	tip = "- 待解鎖 -"
+}
+
+
+_G.pg.base.gametip.dorm3d_pledge_favor = {
+	tip = "和角色進行誓約，增加100點契合度"
+}
+
+
+_G.pg.base.gametip.dorm3d_own_favor = {
+	tip = "擁有該角色，增加100點契合度"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_choose = {
+	tip = "選擇宿舍"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_buy = {
+	tip = "是否消耗<color=#39bfff>$1</color> 解鎖 <color=#169fff>沙灘</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_role = {
+	tip = "解鎖後可以與<color=#39bfff>$1</color>進行互動"
+}
+
+
+_G.pg.base.gametip.dorm3d_beach_download = {
+	tip = "需要下載$1的資源"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_check_in = {
+	tip = "是否讓<color=#39bfff>$1</color>入住該房間"
+}
+
+
+_G.pg.base.gametip.dorm3d_data_choose = {
+	tip = "約會選擇"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_manage = {
+	tip = "宿舍管理"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_manage_role = {
+	tip = "角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_manage_public_area = {
+	tip = "公共區域"
+}
+
+
+_G.pg.base.gametip.dorm3d_data_go = {
+	tip = "請選擇一起前往<color=#39bfff>$1</color>的角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_assets_delete = {
+	tip = "是否確認刪除<color=#39bfff>$1</color>的全部資源"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_assets_download = {
+	tip = "是否讓<color=#39bfff>$1</color>入住該房間\n<color=#848484>需要下載$2的資源</color>"
+}
+
+
+_G.pg.base.gametip.volleyball_end_tip = {
+	tip = "和天狼星度過了美好的下午"
+}
+
+
+_G.pg.base.gametip.volleyball_end_award = {
+	tip = "精力-1，天狼星契合度+40"
+}
+
+
+_G.pg.base.gametip.sure_exit_volleyball = {
+	tip = "是否確認退出沙灘排球"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_active_zone = {
+	tip = "1$"
+}
+
+
+_G.pg.base.gametip.apartment_level_unenough = {
+	tip = "等級$1解鎖"
+}
+
+
 _G.pg.base.gametip.help_dorm3d_info = {
 	tip = {
 		{
@@ -33119,6 +33524,76 @@ _G.pg.base.gametip.help_dorm3d_info = {
 }
 
 
+_G.pg.base.gametip.dorm3d_shop_gift_already_given = {
+	tip = "該禮物已贈送"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_not_owned = {
+	tip = "目前未擁有該禮物"
+}
+
+
+_G.pg.base.gametip.dorm3d_select_tip = {
+	tip = "公共房間邀請"
+}
+
+
+_G.pg.base.gametip.dorm3d_volleyball_title = {
+	tip = "沙灘"
+}
+
+
+_G.pg.base.gametip.dorm3d_minigame_again = {
+	tip = "再來一局"
+}
+
+
+_G.pg.base.gametip.dorm3d_minigame_close = {
+	tip = "關閉"
+}
+
+
+_G.pg.base.gametip.dorm3d_data_Invite_lack = {
+	tip = "邀請角色數量不足"
+}
+
+
+_G.pg.base.gametip.dorm3d_item_num = {
+	tip = "已擁有："
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_not_owned = {
+	tip = "暫未收集到該物品"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_sure_save = {
+	tip = "是否確認保存傢俱"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_save_success = {
+	tip = "家具保存成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_removable = {
+	tip = "(滑動螢幕左側移動，靠近角色吧）"
+}
+
+
+_G.pg.base.gametip.report_cannot_comment_level_1 = {
+	tip = "指揮官等級達到$1級後，才可以發送評論哦。"
+}
+
+
+_G.pg.base.gametip.report_cannot_comment_level_2 = {
+	tip = "目前處於評論受限狀態，無法發送評論！"
+}
+
+
 _G.pg.base.gametip.attire_combatui_preview = {
 	tip = "前往預覽"
 }
@@ -33126,6 +33601,71 @@ _G.pg.base.gametip.attire_combatui_preview = {
 
 _G.pg.base.gametip.attire_combatui_confirm = {
 	tip = "裝扮"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality = {
+	tip = "畫質品質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_low = {
+	tip = "低畫質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_medium = {
+	tip = "中畫質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_high = {
+	tip = "高畫質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_quality_option_custom = {
+	tip = "自訂"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_universal = {
+	tip = "通用3D設定"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_gpgpu_warning = {
+	tip = "開啟該選項，有可能導致部分機型閃退"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag1 = {
+	tip = "解鎖專屬互動動作"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag2 = {
+	tip = "解鎖特殊拍照姿勢"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag3 = {
+	tip = "解鎖心動模式新互動"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag4 = {
+	tip = "解鎖專屬劇情"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag5 = {
+	tip = "解鎖額外對話內容"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_tag6 = {
+	tip = "解鎖互動遊戲"
 }
 
 
@@ -33141,6 +33681,41 @@ _G.pg.base.gametip.dorm3d_beach_switch = {
 
 _G.pg.base.gametip.dorm3d_AR_switch = {
 	tip = "AR維護中……"
+}
+
+
+_G.pg.base.gametip.dorm3d_invite_confirm_original = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>解鎖<color=#39bfff>$3</color>的$4邀約"
+}
+
+
+_G.pg.base.gametip.dorm3d_invite_confirm_discount = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>(原價$3)解鎖<color=#39bfff>$4</color>的$5邀約"
+}
+
+
+_G.pg.base.gametip.dorm3d_invite_confirm_free = {
+	tip = "$1<color=#fc4670><size=34>免費</size></color>(原價$2)解鎖<color=#39bfff>$3</color>的$4邀約"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_original = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>購買<color=#39bfff>$3</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_discount = {
+	tip = "是否消耗$1<color=#39bfff>$2</color>(原價$3)購買<color=#39bfff>$4</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_free = {
+	tip = "$1<color=#fc4670><size=34>免費</size></color>(原價$2)購買<color=#39bfff>$3</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
+	tip = "專屬"
 }
 
 
@@ -33239,6 +33814,156 @@ _G.pg.base.gametip.cruise_shop_title = {
 }
 
 
+_G.pg.base.gametip.dorm3d_favor_level_story = {
+	tip = "契合度劇情"
+}
+
+
+_G.pg.base.gametip.dorm3d_already_gifted = {
+	tip = "已贈送"
+}
+
+
+_G.pg.base.gametip.dorm3d_story_unlock_tip = {
+	tip = "已解鎖劇情"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_locked = {
+	tip = "未解鎖換裝"
+}
+
+
+_G.pg.base.gametip.dorm3d_photo_no_role = {
+	tip = "未邀約角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_locked = {
+	tip = "未解鎖該家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_accompany_locked = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.dorm3d_role_locked = {
+	tip = "請先解鎖角色房間"
+}
+
+
+_G.pg.base.gametip.dorm3d_volleyball_button = {
+	tip = "沙灘排球"
+}
+
+
+_G.pg.base.gametip.dorm3d_minigame_button1 = {
+	tip = "遊戲"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_title_en = {
+	tip = "Azur Lane"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_cost_tip = {
+	tip = "相伴5分鐘，<icon name=stamina/>精力-1，天狼星契合度<color=#fc4670>+40</color>"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_story_unlock = {
+	tip = "已解鎖專屬劇情"
+}
+
+
+_G.pg.base.gametip.dorm3d_furniture_replace_tip = {
+	tip = "請更換對應家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_recall_locked = {
+	tip = "待解鎖？？？？？？"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_maximum = {
+	tip = "已達最大數量限制"
+}
+
+
+_G.pg.base.gametip.dorm3d_need_construct_item = {
+	tip = "缺少建設券"
+}
+
+
+_G.pg.base.gametip.AR_plane_check = {
+	tip = "請偵測一個平面"
+}
+
+
+_G.pg.base.gametip.AR_plane_long_press_to_summon = {
+	tip = "長按平面叫出角色"
+}
+
+
+_G.pg.base.gametip.AR_plane_distance_near = {
+	tip = "距離過近角色將會隱藏"
+}
+
+
+_G.pg.base.gametip.AR_plane_summon_fail_by_near = {
+	tip = "距離過近叫出角色失敗"
+}
+
+
+_G.pg.base.gametip.AR_plane_summon_success = {
+	tip = "叫出角色成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_day_night_switching1 = {
+	tip = "目前已經為白天"
+}
+
+
+_G.pg.base.gametip.dorm3d_day_night_switching2 = {
+	tip = "目前已經為夜晚"
+}
+
+
+_G.pg.base.gametip.dorm3d_download_complete = {
+	tip = "資源下載成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_downloading = {
+	tip = "資源正在下載中"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_delete = {
+	tip = "資源刪除成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_favor_maximize = {
+	tip = "契合度已滿，是否繼續贈禮？"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
+	tip = "（本週購買$1/$2）"
+}
+
+
+_G.pg.base.gametip.world_file_tip = {
+	tip = "※上下滑動查看，點選空白處關閉"
+}
+
+
 _G.pg.base.gametip.levelscene_mapselect_part1 = {
 	tip = "上篇"
 }
@@ -33266,6 +33991,46 @@ _G.pg.base.gametip.levelscene_mapselect_normal = {
 
 _G.pg.base.gametip.levelscene_mapselect_advanced = {
 	tip = "進階"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_title = {
+	tip = "你希望她稱呼你為"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_cd = {
+	tip = "$1後可以再次修改專屬稱呼"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_interval = {
+	tip = "專屬稱呼每48小時可以修改一次"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring1 = {
+	tip = "目前稱呼存在屏蔽字"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring2 = {
+	tip = "目前稱呼過長"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring3 = {
+	tip = "目前稱呼過短"
+}
+
+
+_G.pg.base.gametip.dorm3d_appellation_waring4 = {
+	tip = "修改冷卻中"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift_owned = {
+	tip = "購買次數已達上限"
 }
 
 
@@ -33549,4 +34314,29 @@ _G.pg.base.gametip.tolovegame_puzzle_line_tip = {
 
 _G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
 	tip = "所有元件都需要放在點位上哦"
+}
+
+
+_G.pg.base.gametip.maintenance_message_text = {
+	tip = "服务器将于$1后进行维护，届时将强制下线，请指挥官合理安排游戏规划。"
+}
+
+
+_G.pg.base.gametip.maintenance_message_stop_text = {
+	tip = "服务器正在关闭中"
+}
+
+
+_G.pg.base.gametip.task_get = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.notify_clock_tip = {
+	tip = "未开启闹钟权限，无法进行通知"
+}
+
+
+_G.pg.base.gametip.notify_clock_button = {
+	tip = "开启闹钟权限"
 }

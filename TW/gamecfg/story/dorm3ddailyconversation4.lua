@@ -16,18 +16,18 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "（这段时间天狼星都没提过什么要求……还是问问她吧。）",
+			say = "（這段時間天狼星都沒提過什麼要求……還是問她吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要不要添置一些家具？",
+					content = "要不要添置一些傢俱？",
 					flag = 1
 				},
 				{
-					content = "有没有想要的东西？",
+					content = "有沒有想要的東西？",
 					flag = 2
 				}
 			}
@@ -38,7 +38,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "感谢您的关怀和慷慨，不过天狼星目前还不需要这些，我的{dorm3d}。",
+			say = "感謝您的關懷與慷慨，不過天狼星目前還不需要這些，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要能够留在这里，并且还能够这样侍奉您，天狼星就满足了。",
+			say = "只要能夠留在這裡，而且還能夠這樣侍奉您，天狼星就滿足了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

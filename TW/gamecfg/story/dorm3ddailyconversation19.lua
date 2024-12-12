@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？{dorm3d}想知道天狼星有没有考虑过换个发型？",
+			say = "嗯？{dorm3d}想知道天狼星有沒有考慮過換髮型？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这倒是没有考虑过呢……毕竟短发方便打理，也不会影响战斗。",
+			say = "這倒是沒有考慮過呢……畢竟短髮方便整理，也不會影響戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真是实用主义的发言啊。",
+			say = "真是實用主義的發言。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "为了更好的侍奉{dorm3d}，节约自身一切不必要的时间也是女仆的必修课哦。",
+			say = "為了更好的侍奉{dorm3d}，節約自身一切不必要的時間也是女僕的必修課哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

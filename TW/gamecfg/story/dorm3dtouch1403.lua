@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}，您再继续的话，天狼星就要……",
+			say = "{dorm3d}，再往上摸的話，天狼星要……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

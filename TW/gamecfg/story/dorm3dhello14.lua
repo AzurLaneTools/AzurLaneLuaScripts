@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello14",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "我最爱的{dorm3d}，您的到来是天狼星最大的幸福。如果可以的话……请允许天狼星拥抱您。",
+			say = "我最愛的{dorm3d}，您的到來是天狼星最大的幸福。如果可以的話……請允許天狼星擁抱您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "在这里的体验怎么样……？",
+			say = "在這裡的體驗怎麼樣……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "很好哦……因为和您的见面频率和独处时间都大大增加了，所以天狼星觉得很幸福。",
+			say = "很好哦……因為和您的見面頻率和獨處時間都大大增加了，所以天狼星覺得很幸福。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过还是有一点不太方便呢。",
+			say = "不過還是有一點不太方便。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "就是……没办法像在指挥室一样，在晚上也侍奉{dorm3d}呢……",
+			say = "就是……沒辦法像在指揮室一樣，在晚上也侍奉{dorm3d}呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

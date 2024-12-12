@@ -2569,6 +2569,13 @@ pg.memory_template = setmetatable({
 		3216,
 		3217,
 		3218,
+		3221,
+		3222,
+		3223,
+		3224,
+		3225,
+		3226,
+		3227,
 		3291,
 		3292,
 		3293,
@@ -2789,6 +2796,7 @@ pg.memory_template = setmetatable({
 		3868,
 		3869,
 		3908,
+		3921,
 		4021,
 		4022,
 		4023,
@@ -31181,6 +31189,83 @@ pg.base.memory_template = {
 		icon = "memory_renqixinzexi",
 		is_open = 0
 	},
+	[3221] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "歐羅巴假日",
+		condition = "解鎖「晴空之下」DAY1",
+		story = "QINGKONGZHIXIA1",
+		id = 3221,
+		icon = "memory_qingkongzhixia",
+		is_open = 0
+	},
+	[3222] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "女王間的博弈",
+		condition = "解鎖「晴空之下」DAY2",
+		story = "QINGKONGZHIXIA2",
+		id = 3222,
+		icon = "memory_qingkongzhixia",
+		is_open = 0
+	},
+	[3223] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "大神木評定",
+		condition = "解鎖「晴空之下」DAY3",
+		story = "QINGKONGZHIXIA3",
+		id = 3223,
+		icon = "memory_qingkongzhixia",
+		is_open = 0
+	},
+	[3224] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "螺中之音",
+		condition = "解鎖「晴空之下」DAY4",
+		story = "QINGKONGZHIXIA4",
+		id = 3224,
+		icon = "memory_qingkongzhixia",
+		is_open = 0
+	},
+	[3225] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "外圍防線",
+		condition = "解鎖「晴空之下」DAY5",
+		story = "QINGKONGZHIXIA5",
+		id = 3225,
+		icon = "memory_qingkongzhixia",
+		is_open = 0
+	},
+	[3226] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "利劍歸鞘",
+		condition = "解鎖「晴空之下」DAY6",
+		story = "QINGKONGZHIXIA6",
+		id = 3226,
+		icon = "memory_qingkongzhixia",
+		is_open = 0
+	},
+	[3227] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "美好未來",
+		condition = "解鎖「晴空之下」DAY7",
+		story = "QINGKONGZHIXIA7",
+		id = 3227,
+		icon = "memory_qingkongzhixia",
+		is_open = 0
+	},
 	[3291] = {
 		mask = "bg/bg_memory",
 		subtitle = "",
@@ -33599,6 +33684,17 @@ pg.base.memory_template = {
 		story = "HUANRAOXINJIANZHIWU",
 		id = 3908,
 		icon = "memory_huanrao",
+		is_open = 0
+	},
+	[3921] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "宿舍煥新計劃！",
+		condition = "開始「宿舍煥新計畫！」活動",
+		story = "SUSHEHUANXINJIHUA1",
+		id = 3921,
+		icon = "memory_sushehuanxinjihua",
 		is_open = 0
 	},
 	[4021] = {

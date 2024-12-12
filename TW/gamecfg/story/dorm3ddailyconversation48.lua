@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "之前天狼星在打扫指挥室的时候，有看到书架上有一些侦探小说呢。",
+			say = "之前天狼星在打掃指揮室的時候，有看到書架上有一些偵探小說呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,18 +52,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然知道推理案件之类的内容很有趣，但天狼星之前很少看这类型的小说呢。",
+			say = "雖然知道推理案件之類的內容很有趣，但天狼星之前很少看這類型的小說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我们可以一起看。",
+					content = "我們可以一起看。",
 					flag = 1
 				},
 				{
-					content = "我可以讲给你听。",
+					content = "我可以講給妳聽。",
 					flag = 2
 				}
 			}
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那、那么，和您一起读侦探小说，能作为睡前的必备环节吗？",
+			say = "那、那麼，和您一起讀偵探小說，能作為睡前的必備環節嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这次……您应该不会再拒绝天狼星的请求了吧？",
+			say = "這次……您應該不會再拒絕天狼星的請求了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

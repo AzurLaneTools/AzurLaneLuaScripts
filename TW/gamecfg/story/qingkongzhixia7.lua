@@ -11,11 +11,11 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"NY司令部专机",
+					"NY司令部專機",
 					1
 				},
 				{
-					"白鹰境内空域",
+					"白鷹境內空域",
 					2
 				},
 				{
@@ -39,7 +39,7 @@ return {
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
 			bgm = "theme-starsea-explo",
-			say = "一架隶属于NY司令部的飞机正平稳地穿行在无云的夜色中。",
+			say = "一架隸屬於NY司令部的飛機正平穩地穿梭在無雲的夜色中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "机型虽然不大，不过对于仅有的两名乘客来说，经过改造的机舱依然可以被称为宽敞又舒适。",
+			say = "機型雖然不大，不過對於僅有的兩名乘客來說，經過改造的機艙依然可以稱為寬敞又舒適。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "舱内时间显示，现在是白鹰山地时间深夜1点26分。",
+			say = "艙內時間顯示，現在是白鷹山區時間深夜1點26分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_aircraft_future",
 			hidePaintObj = true,
-			say = "机舱中的一名乘客早已进入梦乡，而另一名乘客却是辗转反侧，难以入眠——",
+			say = "機艙中的一名乘客早已進入夢鄉，另一名乘客卻是輾轉反側，難以入眠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真没想到传说中的神秘机构「星海」，居然是真实存在的。",
+			say = "……真沒想到傳說中的神秘機構「星海」，居然是真實存在的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汇聚着各行各业的顶尖人才……",
+			say = "匯聚著各行各業的頂尖人才……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -121,7 +121,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "传说中至少领先外界三十年的科技……",
+			say = "傳說中至少領先外界三十年的科技……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不但萨拉前辈深度参与了星海的建造过程……",
+			say = "不但薩拉前輩深度參與了星海的建造過程……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "令人敬佩的阿拉斯加所长也在其中任职！",
+			say = "令人敬佩的阿拉斯加所長也在其中任職！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而我、普林斯顿！",
+			say = "而我、普林斯頓！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然也收到了前往星海的调动命令！！",
+			say = "居然也收到了前往星海的調動指令！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是——何其幸运啊！",
+			say = "真是——何其幸運啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -253,7 +253,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幸运！！！",
+			say = "幸運！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,7 +281,7 @@ return {
 			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……普林斯顿，好吵。",
+			say = "……普林斯頓，好吵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，抱歉抱歉，吵到你了么，我会小声一些的！",
+			say = "啊，抱歉抱歉，吵到妳了嗎，我會小聲一點的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -393,7 +393,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "萨拉前辈……阿拉斯加所长……还有星海的「银河之心」……",
+			say = "薩拉前輩……阿拉斯加所長……還有星海的「銀河之心」……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "美好的未来——我、来、了！",
+			say = "美好的未來——我、來、了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

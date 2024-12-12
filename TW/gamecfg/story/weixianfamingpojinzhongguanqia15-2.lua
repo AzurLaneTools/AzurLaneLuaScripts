@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			bgm = "tl-theme-2",
+			bgm = "story-richang-7",
 			say = "經過一番奮戰，眾人終於來到了訊號所示的位置。",
 			typewriter = {
 				speed = 0.05,

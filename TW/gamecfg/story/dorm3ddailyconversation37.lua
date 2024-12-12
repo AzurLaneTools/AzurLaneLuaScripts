@@ -24,7 +24,7 @@ return {
 			},
 			options = {
 				{
-					content = "遇到了好事吗？",
+					content = "遇到好事了嗎？",
 					flag = 1
 				}
 			},
@@ -58,7 +58,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是的，因为和我骄傲的{dorm3d}独处一室，实在是令天狼星心潮澎湃，接下来的时间，不如就……",
+			say = "是的，因為和我驕傲的{dorm3d}獨處一室，實在是令天狼星心潮澎湃，接下來的時間，不如就",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？难道您还没有这方面的想法吗？",
+			say = "欸？難道您還沒有這方面的想法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

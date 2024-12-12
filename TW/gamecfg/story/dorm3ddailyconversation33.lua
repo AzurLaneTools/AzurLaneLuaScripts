@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "在和天狼星说话的时候，忍不住打了个哈欠。",
+			say = "在跟天狼星說話的時候，忍不住打了個哈欠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,7 +27,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，需要在这里小憩一下吗？您需要的话，随时告诉天狼星就好。",
+			say = "{dorm3d}，需要在這裡小憩一下嗎？您需要的話，隨時告訴天狼星就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "房间里有新换好的床品、松软的枕头……还有状态绝佳的天狼星本人……！",
+			say = "房間裡有新換好的床品、鬆軟的枕頭……還有狀態絕佳的天狼星本人……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "当然……！您需要哄睡服务的话，天狼星也准备了小说、采耳工具，还有……",
+			say = "當然……！您需要哄睡服務的話，天狼星也準備了小說、采耳工具，還有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "咦……？难道您其实不需要天狼星的哄睡服务吗？看、看来是天狼星又会错意了……",
+			say = "咦……？難道您其實不需要天狼星的哄睡服務嗎？看、看來天狼星又會錯意了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

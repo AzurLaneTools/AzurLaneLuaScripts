@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，天狼星有个不情之请……能请您能陪天狼星一起练习化妆技术么？",
+			say = "{dorm3d}，天狼星有個不情之請……能請您能陪天狼星一起練習化妝技術嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,14 +52,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "尽管练习了很多次，我的化妆技术却一直没有精进呢。",
+			say = "儘管練習了很多次，我的化妝技術卻一直沒有精進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你无论什么时候都很好看。",
+					content = "妳無論什麼時候都很好看。",
 					flag = 1
 				}
 			}
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "可是……在您的面前，天狼星还是想要尽可能的……再美丽一些。",
+			say = "可是……在您的面前，天狼星還是想要盡可能的……再美麗一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我们就从……涂口红开始，可以吗？",
+			say = "我們就從……塗口紅開始，可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

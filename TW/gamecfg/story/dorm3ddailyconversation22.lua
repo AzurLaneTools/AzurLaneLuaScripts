@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "天狼星会觉得错过夕阳可惜么？",
+			say = "天狼星會覺得錯過夕陽可惜？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "可惜……？是因为错失了景色的可惜吗？天狼星不太明白。",
+			say = "可惜……？是因為錯失了景色的可惜嗎？天狼星不太明白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？您说夕阳是白天与晚上的重要分界线，错过了就觉得一天过得很混沌？",
+			say = "欸？您說夕陽是白天與晚上的重要分界線，錯過了就覺得一天過得很混亂？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那，天狼星之后会帮{dorm3d}一起处理文书工作！努力让您早点下班……！",
+			say = "那，天狼星之後會幫{dorm3d}一起處理文書工作！努力讓您早點下班……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "只要是{dorm3d}的愿望，天狼星无论如何都会替您达成！",
+			say = "只要是{dorm3d}的願望，天狼星無論如何都會替您達成！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

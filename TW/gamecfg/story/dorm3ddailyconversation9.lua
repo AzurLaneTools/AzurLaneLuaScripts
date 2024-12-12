@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "这个房间里，天狼星最喜欢部分之一就是壁炉哦！",
+			say = "這個房間裡，天狼星最喜歡的部分之一就是壁爐喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "一想到天气再冷一些的时候，就能够和您依偎着坐在暖暖的壁炉旁，天狼星就……///",
+			say = "一想到天氣再冷一點的時候，就能夠和您依偎著坐在暖暖的壁爐旁，天狼星就……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

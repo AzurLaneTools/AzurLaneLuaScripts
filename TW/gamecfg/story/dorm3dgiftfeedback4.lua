@@ -10,7 +10,7 @@ return {
 	},
 	scripts = {
 		{
-			say = "这是{dorm3d}担心天狼星的冰箱空间不够用，而特意买来送给天狼星的？",
+			say = "這是{dorm3d}擔心天狼星的冰箱空間不夠用，而刻意買來送給天狼星的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			}
 		},
 		{
-			say = "区区一介女仆竟然让{dorm3d}这么费心……天狼星今后一定要做出美味的料理来回报{dorm3d}。",
+			say = "區區一介女僕竟然讓{dorm3d}這麼費心……天狼星今後一定要做出美味的料理來回報{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

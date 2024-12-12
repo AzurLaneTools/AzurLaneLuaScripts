@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "由菈菈，金色闇影、伊莉莎白女王以及貝爾法斯特組成的搜索艦隊主力，正朝著第三個能量反應點前進著。",

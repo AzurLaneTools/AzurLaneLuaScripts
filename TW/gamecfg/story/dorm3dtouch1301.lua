@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "只要被{dorm3d}这样触摸，就会有一种安定的感觉，很不可思议呢。",
+			say = "只要被{dorm3d}這樣觸摸，就會有一種安定的感覺，很不可思議呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

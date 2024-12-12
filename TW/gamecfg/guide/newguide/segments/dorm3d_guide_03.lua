@@ -4,7 +4,7 @@ return {
 		{
 			alpha = 0,
 			style = {
-				text = "点击天狼星，打开互动面板",
+				text = "點擊天狼星，打開互動面板",
 				mode = 4,
 				char = "char",
 				posY = -269,
@@ -43,7 +43,7 @@ return {
 			delay = 1.5,
 			alpha = 0.4,
 			style = {
-				text = "在互动面板中选择进行对话、触摸等操作",
+				text = "在互動面板中選擇對話、觸控等操作",
 				mode = 4,
 				char = "char",
 				posY = -207,
@@ -62,7 +62,7 @@ return {
 			alpha = 0.4,
 			delay = 0.5,
 			style = {
-				text = "接下来，请点击对话按钮与天狼星聊聊天吧！",
+				text = "接下來，請點擊對話按鈕與天狼星聊聊天吧！",
 				mode = 4,
 				char = "char",
 				posY = 107,

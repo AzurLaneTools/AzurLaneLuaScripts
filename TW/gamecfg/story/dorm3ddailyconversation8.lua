@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "听说白鹰的同伴偶尔会用微波炉来烧开水泡茶呢……",
+			say = "聽說白鷹的同伴偶爾會用微波爐來燒開水泡茶呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "您也想尝试看看？不行不行！用微波炉来烧开水什么的……",
+			say = "您也想嘗試看看？不行不行！用微波爐來燒開水什麼的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样会影响茶叶的风味的！就算是{dorm3d}，天狼星也绝对不会退让哦！",
+			say = "這樣會影響茶葉的風味的！就算是{dorm3d}，天狼星絕對不會退讓哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

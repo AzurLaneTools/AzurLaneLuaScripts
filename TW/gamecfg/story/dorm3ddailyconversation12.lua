@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}！天狼星最近在女仆长的帮助下，在做料理方面有一点点自信了……！",
+			say = "{dorm3d}！天狼星最近在女僕長的幫助下，在做料理方面有一點點自信了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但是独自下厨练习的时候，还是容易手忙脚乱……",
+			say = "但是獨自下廚練習的時候，還是容易手忙腳亂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过天狼星会努力克服这种紧张的情绪！争取早日做出让{dorm3d}赞不绝口的料理的！",
+			say = "不過天狼星會努力克服這種緊張的情緒！爭取早日做出讓{dorm3d}讚不絕口的料理的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

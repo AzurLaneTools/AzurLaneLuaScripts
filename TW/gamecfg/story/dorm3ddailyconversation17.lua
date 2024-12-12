@@ -15,7 +15,7 @@ return {
 			actor = 0,
 			side = 0,
 			hidePaintObj = true,
-			say = "天狼星现在在想什么？"
+			say = "天狼星現在在想什麼？"
 		},
 		{
 			actorName = 20220,
@@ -23,7 +23,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……在想云朵的形状。",
+			say = "嗯……在想雲朵的形狀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,14 +58,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因为听其他同伴说，在看云的时候所见到的云朵形状，就代表着人内心最期待的事物。",
+			say = "因為聽其他同伴說，在看雲的時候所見到的雲朵形狀，就代表著人內心最期待的事物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "最期待的事物是 ？",
+					content = "最期待的事物是？",
 					flag = 1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……您是在明知故问哦。",
+			say = "{dorm3d}……您是在明知故問哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "天狼星有喜欢的音乐吗？",
+			say = "天狼星有喜歡的音樂嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……过去似乎没有什么好好聆听音乐的机会……",
+			say = "嗯……過去似乎沒有好好聆聽音樂的機會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "所以在音乐这方面，也没有什么可以称得上“喜欢”或是“不喜欢”的内容。",
+			say = "所以在音樂這方面，也沒有什麼可以稱得上「喜歡」或是「不喜歡」的內容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "但是，此时此刻，想更进一步了解天狼星的您的声音，就是我最喜欢的“音乐”哦！",
+			say = "但是，此時此刻，想更進一步了解天狼星的您的聲音，就是我最喜歡的「音樂」喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

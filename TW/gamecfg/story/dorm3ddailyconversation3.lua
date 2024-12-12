@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}喜欢吃泡芙吗？天狼星最近觉得做泡芙可能不容易出错。",
+			say = "{dorm3d}喜歡吃泡芙嗎？天狼星最近覺得做泡芙可能不容易出錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？泡芙的酥皮应该比较难烤，天狼星已经掌握了么？",
+			say = "嗯？泡芙的酥皮應該比較難烤，天狼星已經掌握了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "欸？原来做泡芙不是只要挤奶油就好……？",
+			say = "欸？原來做泡芙不是只要擠奶油就好…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

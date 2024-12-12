@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello5",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "呵呵，其实天狼星知道{dorm3d}会在这个时候前来呢，所以已经做好了万全的侍奉准备。嗯……该怎么说呢，这可能也是我和{dorm3d}形成的某种默契吧？",
+			say = "呵呵，其實天狼星知道{dorm3d}會在這個時候前來呢，所以已經做好了萬全的侍奉準備。嗯……該怎麼說呢，這可能也是我和{dorm3d}形成的某種默契吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

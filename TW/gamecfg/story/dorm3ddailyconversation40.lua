@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯？{dorm3d}手里拿着梳子，是想要帮天狼星梳头发……？",
+			say = "嗯？{dorm3d}手裡拿著梳子，是想要幫天狼星梳頭髮……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "从您的表情来看，是觉得天狼星的反应有点太惊讶了？",
+			say = "從您的表情來看，是覺得天狼星的反應有點太驚訝了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "因、因为……之前听东煌的同伴们讲过一些有关“梳头”的典故……///",
+			say = "因、因為……之前聽東煌的同伴們講過一些有關「梳頭」的典故……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "总、总之，请您为天狼星梳头吧，我骄傲的{dorm3d}！",
+			say = "總、總之，請您為天狼星梳頭吧，我驕傲的{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

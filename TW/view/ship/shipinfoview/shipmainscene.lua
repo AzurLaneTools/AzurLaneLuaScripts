@@ -81,9 +81,9 @@ slot0.setShip = function(slot0, slot1)
 	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO.skinId].rarity_bg and slot3.rarity_bg ~= ""
 
 	slot0:updatePreference(slot1)
-	slot0.shipDetailView:ActionInvoke("UpdateUI")
-	slot0.shipFashionView:ActionInvoke("UpdateUI")
-	slot0.shipEquipView:ActionInvoke("UpdateUI")
+	slot0.shipDetailView:ActionInvokeExclusive("UpdateUI")
+	slot0.shipFashionView:ActionInvokeExclusive("UpdateUI")
+	slot0.shipEquipView:ActionInvokeExclusive("UpdateUI")
 end
 
 slot0.equipmentChange = function(slot0)

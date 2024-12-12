@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近光是存放各种食材之类的，就已经占用了冰箱很多空间呢。",
+			say = "最近光是存放各種食材之類的，就已經佔用冰箱很多空間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我帮天狼星换个更大的冰箱吧？",
+			say = "我幫天狼星換個更大的冰箱吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "比起这个……天狼星其实更希望您能陪我进行厨艺特训……消耗掉这些食材……呜……",
+			say = "比起這個……天狼星其實更希望您能陪我進行廚藝特訓……消耗掉這些食材……嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
