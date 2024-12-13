@@ -63,7 +63,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那么……{dorm3d}您是想讓天狼星餵給您吃呢？",
+			say = "那麼……{dorm3d}您是想讓天狼星餵給您吃呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

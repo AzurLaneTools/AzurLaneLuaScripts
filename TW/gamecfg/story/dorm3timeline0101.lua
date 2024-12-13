@@ -33,10 +33,10 @@ return {
 								},
 								[5] = {
 									{
-										content = "不是那个意思……"
+										content = "不是那個意思……"
 									},
 									{
-										content = "你误会了……"
+										content = "妳誤會了……"
 									}
 								}
 							},
