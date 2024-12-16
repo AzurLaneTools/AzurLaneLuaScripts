@@ -84,7 +84,7 @@ return {
 			}
 		},
 		{
-			actor = 399010,
+			actor = 399011,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
@@ -97,7 +97,7 @@ return {
 			}
 		},
 		{
-			actor = 399010,
+			actor = 399011,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
@@ -124,7 +124,7 @@ return {
 			}
 		},
 		{
-			actor = 399010,
+			actor = 399011,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
@@ -151,7 +151,7 @@ return {
 			}
 		},
 		{
-			actor = 399010,
+			actor = 399011,
 			side = 2,
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
