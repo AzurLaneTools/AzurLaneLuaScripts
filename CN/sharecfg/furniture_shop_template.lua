@@ -231,9 +231,9 @@ pg.furniture_shop_template = {
 					19
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -267,9 +267,9 @@ pg.furniture_shop_template = {
 					19
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -303,9 +303,9 @@ pg.furniture_shop_template = {
 					19
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -339,9 +339,9 @@ pg.furniture_shop_template = {
 					19
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -375,9 +375,9 @@ pg.furniture_shop_template = {
 					19
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -411,9 +411,9 @@ pg.furniture_shop_template = {
 					19
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
@@ -447,9 +447,9 @@ pg.furniture_shop_template = {
 					19
 				},
 				{
-					23,
-					59,
-					59
+					10,
+					0,
+					0
 				}
 			}
 		}
