@@ -3851,8 +3851,8 @@ pg.backyard_theme_template = {
 	},
 	[106] = {
 		Cfg_1 = 5,
-		name = "港区喧嚣夜",
-		desc = "灯光！音乐！一起彻夜狂欢吧~",
+		name = "港區喧囂夜",
+		desc = "燈光！音樂！一起徹夜狂歡吧~",
 		deblocking = 1,
 		new = 0,
 		hot = 0,
