@@ -89,7 +89,7 @@ pg.item_data_chat = {
 		scene = {}
 	},
 	[10001] = {
-		name = "極限的挑戰者·雙子座",
+		name = "限界的挑戰者·雙子座",
 		time_second = 0,
 		id = 10001,
 		time_limit_type = 0,
@@ -97,7 +97,7 @@ pg.item_data_chat = {
 		scene = {}
 	},
 	[10002] = {
-		name = "極限的挑戰者·巨蟹座",
+		name = "限界的挑戰者·巨蟹座",
 		time_second = 0,
 		id = 10002,
 		time_limit_type = 0,
@@ -121,7 +121,7 @@ pg.item_data_chat = {
 		scene = {}
 	},
 	[10005] = {
-		name = "極限的挑戰者·天秤座",
+		name = "限界的挑戰者·天秤座",
 		time_second = 0,
 		id = 10005,
 		time_limit_type = 0,
@@ -137,9 +137,17 @@ pg.item_data_chat = {
 		scene = {}
 	},
 	[10007] = {
-		name = "極限的挑戰者·射手座",
+		name = "限界的挑戰者·射手座",
 		time_second = 0,
 		id = 10007,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>獻給勇於挑戰極限的指揮官！</color>\n<color=#A7A7AAFF>透過參與「限界挑戰」取得 </color>",
+		scene = {}
+	},
+	[10008] = {
+		name = "限界的挑戰者·摩羯座",
+		time_second = 0,
+		id = 10008,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>獻給勇於挑戰極限的指揮官！</color>\n<color=#A7A7AAFF>透過參與「限界挑戰」取得 </color>",
 		scene = {}
@@ -171,6 +179,7 @@ pg.item_data_chat = {
 		10005,
 		10006,
 		10007,
+		10008,
 		1001
 	}
 }

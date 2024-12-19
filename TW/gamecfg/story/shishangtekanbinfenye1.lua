@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：炫彩缤纷夜\n\n<size=45>魅力舞台</size>",
+					"港區時尚特刊：炫彩繽紛夜\n\n<size=45>1 魅力舞台</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "欢迎光临兔兔主题店~",
+			say = "歡迎光臨兔兔主題店~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -43,7 +43,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚走进店门，关岛热情的声音就迎面而来。",
+			say = "才剛走進店門，關島熱情的聲音就迎面而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这是在进行什么艺人的活动么……？",
+			say = "這是在進行什麼藝人的活動嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "嗨嗨~现在开始，是关岛兔兔的魔术时间——关岛变变变！",
+			say = "嗨嗨~現在開始，是關島兔兔的魔術時間——關島變變變！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接下来，就是见证奇迹的时刻！",
+			say = "接下來，就是見證奇蹟的時刻！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -120,7 +120,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（变魔术？没想到关岛会的技能还挺多啊？）",
+			say = "（變魔術？沒想到關島會的技能還挺多啊？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不知道会变出什么……）",
+			say = "（不知道會變出什麼……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "锵锵~首先，关岛兔兔要骑上这辆独轮车！",
+			say = "鏘鏘~首先，關島兔兔要騎上這輛單輪車！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不是要变魔术么？不过……居然把独轮车凭空变出来了，好厉害——）",
+			say = "（不是要變魔術嗎？不過……居然把單輪車憑空變出來了，好厲害——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "现在，关岛兔兔已经靠着她完美的平衡力顺利骑上了独轮车♪~",
+			say = "現在，關島兔兔已經靠著她完美的平衡力順利騎上了單輪車♪~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "以为这样就要结束了吗？当然不是~接下来，关岛兔兔要让手中的3个沙包消失——",
+			say = "以為這樣就要結束了嗎？當然不是~接下來，關島兔兔要讓手中的3個沙包消失——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（居然又变出来了三个沙包在手里……究竟是从什么地方……）",
+			say = "（居然又變出來了三個沙包在手裡……究竟是從什麼地方……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "然后变出三只美丽又可爱的白鸽！不要眨眼哦~",
+			say = "然後變出三隻美麗又可愛的白鴿！不要眨眼哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -242,7 +242,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独轮车上的少女将手中的小沙包一个个接连抛向半空中。",
+			say = "單輪車上的少女將手中的小沙包一個個接連拋向半空中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快速抛动的双手让人眼花缭乱，在用力将沙包同时抛向高空后，她拿下了头上的礼帽。",
+			say = "快速拋動的雙手讓人眼花撩亂，在用力將沙包同時拋向高空後，她拿下了頭上的禮帽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "千万千万不要眨眼哦~",
+			say = "千萬不要眨眼哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "奇迹——即将发生！",
+			say = "奇蹟——即將發生！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -306,7 +306,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三个沙包稳稳地掉进了礼帽中。",
+			say = "三個沙包穩穩地掉進了禮帽中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女用手中凭空出现的指挥棒轻轻点了点帽子的边缘，伴随着“呯”——的一声。",
+			say = "少女用手中憑空出現的指揮棒輕輕點了點帽子的邊緣，伴隨著「呯」——的一聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三只美丽的白鸽和彩带同时从帽子里飞出——",
+			say = "三隻美麗的白鴿和彩帶同時從帽子裡飛出——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 118021,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "关岛兔兔的表演现在结束，让我们下一场演出见~",
+			say = "關島兔兔的表演現在結束，讓我們下一場表演見~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_145",
-			say = "短暂又精彩的表演结束了。",
+			say = "短暫又精彩的表演結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "但穿着侍者服装的关岛骑在独轮车上抛沙包变魔术的画面，怎么也忘不掉……",
+			say = "但穿著侍者服裝的關島騎在單輪車上拋沙包變魔術的畫面，怎麼也忘不掉……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "真是一次令人印象深刻的新奇体验……",
+			say = "真是一次令人印象深刻的新奇體驗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "关岛，真不愧是你！",
+			say = "關島，真不愧是妳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -131,6 +131,9 @@ pg.ship_data_group = setmetatable({
 		[10150] = {
 			576
 		},
+		[10151] = {
+			615
+		},
 		[10201] = {
 			29
 		},
@@ -269,8 +272,14 @@ pg.ship_data_group = setmetatable({
 		[10326] = {
 			575
 		},
+		[10327] = {
+			619
+		},
 		[10325] = {
 			478
+		},
+		[10401] = {
+			617
 		},
 		[10501] = {
 			52
@@ -380,6 +389,9 @@ pg.ship_data_group = setmetatable({
 		[10729] = {
 			403
 		},
+		[10730] = {
+			618
+		},
 		[10738] = {
 			378
 		},
@@ -407,8 +419,14 @@ pg.ship_data_group = setmetatable({
 		[10807] = {
 			519
 		},
+		[10808] = {
+			620
+		},
 		[11201] = {
 			80
+		},
+		[11802] = {
+			616
 		},
 		[20123] = {
 			103
@@ -2085,6 +2103,7 @@ pg.ship_data_group = setmetatable({
 			444,
 			28,
 			576,
+			615,
 			29,
 			30,
 			303,
@@ -2131,7 +2150,9 @@ pg.ship_data_group = setmetatable({
 			50,
 			443,
 			575,
+			619,
 			478,
+			617,
 			52,
 			53,
 			54,
@@ -2168,6 +2189,7 @@ pg.ship_data_group = setmetatable({
 			473,
 			573,
 			403,
+			618,
 			378,
 			516,
 			358,
@@ -2177,7 +2199,9 @@ pg.ship_data_group = setmetatable({
 			477,
 			513,
 			519,
+			620,
 			80,
+			616,
 			103,
 			81,
 			82,
@@ -2773,6 +2797,7 @@ pg.ship_data_group = setmetatable({
 		444,
 		28,
 		576,
+		615,
 		29,
 		30,
 		303,
@@ -2819,7 +2844,9 @@ pg.ship_data_group = setmetatable({
 		50,
 		443,
 		575,
+		619,
 		478,
+		617,
 		52,
 		53,
 		54,
@@ -2856,6 +2883,7 @@ pg.ship_data_group = setmetatable({
 		473,
 		573,
 		403,
+		618,
 		378,
 		516,
 		358,
@@ -2865,7 +2893,9 @@ pg.ship_data_group = setmetatable({
 		477,
 		513,
 		519,
+		620,
 		80,
+		616,
 		103,
 		81,
 		82,
@@ -4110,7 +4140,9 @@ pg.base.ship_data_group = {
 		group_type = 10117,
 		index_id = 15,
 		code = 19,
-		share_group_id = {},
+		share_group_id = {
+			10151
+		},
 		property_hexagon = {
 			"B",
 			"C",
@@ -5403,6 +5435,40 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：定向折疊",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[615] = {
+		nationality = 1,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10151,
+		index_id = 45,
+		code = 615,
+		share_group_id = {
+			10117
+		},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"S",
+			"A",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：星海逐光",
 				{
 					""
 				},
@@ -7513,6 +7579,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[619] = {
+		nationality = 1,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10327,
+		index_id = 94,
+		code = 619,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：星海逐光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[478] = {
 		nationality = 1,
 		type = 3,
@@ -7553,6 +7651,38 @@ pg.base.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[617] = {
+		nationality = 1,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10401,
+		index_id = 96,
+		code = 617,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：星海逐光",
+				{
+					""
 				},
 				0
 			}
@@ -9324,6 +9454,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[618] = {
+		nationality = 1,
+		type = 6,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10730,
+		index_id = 134,
+		code = 618,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"A",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：星海逐光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[378] = {
 		nationality = 1,
 		type = 7,
@@ -9662,6 +9824,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[620] = {
+		nationality = 1,
+		type = 8,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10808,
+		index_id = 144,
+		code = 620,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：星海逐光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[80] = {
 		nationality = 1,
 		type = 12,
@@ -9713,6 +9907,38 @@ pg.base.ship_data_group = {
 						projectName = "special",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[616] = {
+		nationality = 1,
+		type = 18,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 11802,
+		index_id = 147,
+		code = 616,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"A",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：星海逐光",
+				{
+					""
 				},
 				0
 			}

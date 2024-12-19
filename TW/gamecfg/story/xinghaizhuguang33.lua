@@ -11,11 +11,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·首都",
+					"鳶尾教國·首都",
 					1
 				},
 				{
-					"碧蓝航线临时办公楼",
+					"碧藍航線臨時辦公大樓",
 					2
 				}
 			}
@@ -26,7 +26,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			bgm = "theme-ucnf-image",
-			say = "加密终端中，收到了星海基地发来的事故报告。",
+			say = "加密終端機中，收到了星海基地發出的事故報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "“事故”啊……还真是足够自适应的分类标准。",
+			say = "「事故」啊……還真是足夠自適應的分類標準。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……对方，是自称为联合理事会的舰队么。",
+			say = "……對方，是自稱為聯合理事會的艦隊嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那个理事会的徽记同样在水下密室的行动中见到过。",
+			say = "那個理事會的徽記同樣在水下密室的行動中見過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这么说来……那次看到的场景就发生在理事会的会议大厅中了。",
+			say = "這麼說來……那次看到的場景就發生在理事會的會議大廳裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而这位「银狐」女士是理事会的常任委员，且知道奥斯塔的存在……",
+			say = "而這位「銀狐」女士是理事會的常任委員，且知道奧斯塔的存在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道安洁和奥斯塔在理事会中任职……？",
+			say = "難道安潔和奧斯塔在理事會中任職……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我曾经与他们一起，所以我也应该在理事会中任职……？",
+			say = "我曾經與他們一起，所以我也應該在理事會中任職……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……还有新的安蒂克丝系统，战争协议。",
+			say = "……還有新的安蒂克絲系統，戰爭協議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么一直以来从来都没有见过隶属于这个系统的塞壬出现过……",
+			say = "為什麼一直以來從來沒有看過隸屬於這個系統的塞壬出現過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "再加上心智魔方上的限制，可控的META化……",
+			say = "再加上心智魔方上的限制，可控的META化…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不行，脑海中什么信息都没有。",
+			say = "不行，腦海中什麼訊息都沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……明明有些时候这些闪回的记忆会不分时间场合地跳出来。",
+			say = "……明明有些時候這些閃回的記憶會不分時間場合地跳出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "说起来……每次有这种感觉的时候，都是在特殊的镜面海域中或者星海的模拟世界中……",
+			say = "說起來……每次有這種感覺的時候，都是在特殊的鏡面海域中或是星海的模擬世界中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且在星海中的次数最多……",
+			say = "而且在星海中的次數最多……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那个迪贝路所提出的疑问……“银河之心生成的模拟世界在哪里”。",
+			say = "那個迪貝路所提出的疑問……「銀河之心生成的模擬世界在哪裡」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "以我的权限能查到的答案里看不出任何异常……",
+			say = "以我的權限能查到的答案裡看不出任何異常……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这支神秘的理事会舰队的存在，或许是揭开一切谜团的关键……",
+			say = "這隻神秘的理事會艦隊的存在，或許是揭開一切謎團的關鍵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果能再次见到的话……",
+			say = "如果能再見到的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是那个信标本身……更像是个充满恶意的惊喜盒子。",
+			say = "但那個信標本身……更像是個充滿惡意的驚喜盒子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "关于黑色风暴……也就是「噩兆天象」的事，伊丽莎白还专门发消息警告过其危险性。",
+			say = "關於黑色風暴……也就是「噩兆天象」的事，伊莉莎白也特別傳訊息警告過其危險性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……信标绝对不能被复原。",
+			say = "……信標絕對不能被復原。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			bgName = "star_level_bg_502",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现阶段没有任何激进研究的必要，将研究重心转移回到II型舰装项目中吧……",
+			say = "現階段沒有任何激進研究的必要，將研究重心轉移回II型艦裝計畫……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -70,10 +70,18 @@ slot0.init = function(slot0)
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.top)
 	slot0.leftPanel = slot0:findTF("left")
 	slot0.timeTF = slot0:findTF("time", slot0.leftPanel)
+	slot1 = slot0:findTF("frame/toggle_group/task", slot0.leftPanel)
+	slot2 = slot0:findTF("frame/toggle_group/shop", slot0.leftPanel)
+	slot3 = slot0:findTF("frame/toggle_group/gift", slot0.leftPanel)
+
+	setText(slot1:Find("Image"), i18n("blackfriday_task"))
+	setText(slot2:Find("Image"), i18n("blackfriday_shop"))
+	setText(slot3:Find("Image"), i18n("blackfriday_gift"))
+
 	slot0.toggles = {
-		slot0:findTF("frame/toggle_group/task", slot0.leftPanel),
-		slot0:findTF("frame/toggle_group/shop", slot0.leftPanel),
-		slot0:findTF("frame/toggle_group/gift", slot0.leftPanel)
+		slot1,
+		slot2,
+		slot3
 	}
 	slot0.main = slot0:findTF("main")
 	slot0.pages = {
@@ -94,7 +102,7 @@ slot0.didEnter = function(slot0)
 			helps = pg.gametip.blackfriday_main_tip.tip
 		})
 	end, SFX_PANEL)
-	onButton(slot0, slot0:findTF("gem/add_btn", slot0.resPanel), function ()
+	onButton(slot0, slot0:findTF("gem", slot0.resPanel), function ()
 		slot0 = function()
 			if not pg.m02:hasMediator(ChargeMediator.__cname) then
 				pg.m02:sendNotification(GAME.GO_SCENE, SCENE.CHARGE, {
@@ -201,9 +209,7 @@ slot0.updateTime = function(slot0)
 	slot3 = (slot0.taskActivity and slot0.taskActivity.stopTime or slot0.shopActivity.stopTime) - pg.TimeMgr.GetInstance():GetServerTime()
 	slot4 = math.floor(slot3 / 86400)
 
-	setText(slot0.timeTF, i18n("newserver_time", slot4, math.floor((slot3 - slot4 * 86400) / 3600)))
-	setActive(slot0:findTF("title_activity", slot0.timeTF), slot0.taskActivity)
-	setActive(slot0:findTF("title_shop", slot0.timeTF), not slot0.taskActivity)
+	setText(slot0.timeTF, i18n("time_remaining_tip") .. i18n("newserver_time", slot4, math.floor((slot3 - slot4 * 86400) / 3600)))
 end
 
 slot0.onUpdateTask = function(slot0)

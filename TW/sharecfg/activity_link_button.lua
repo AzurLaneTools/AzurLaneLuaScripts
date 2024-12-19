@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5679
+			5131
 		}
 	},
 	{
@@ -51,15 +51,18 @@ pg.activity_link_button = {
 	},
 	[20] = {
 		name = "event_minigame",
-		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 2,
 		pic = "event_minigame",
 		id = 20,
 		group_id = 5,
 		order = 1,
+		time = {
+			"default",
+			5141
+		},
 		param = {
-			"TOLOVE_COLLAB_BACKHILL"
+			"NEWYEAR_BACKHILL_2024"
 		}
 	},
 	[30] = {

@@ -420,7 +420,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 328,
 		time_limit_type = 0,
-		desc = "透過後續活動獲取",
+		desc = "<color=#ffffff>「事件之穹界，因果之盡頭。禁地不可逾越，跨越即為永恆。」</color>\n「星海逐光」活動獲取",
 		scene = {}
 	},
 	[329] = {
@@ -630,6 +630,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>結晶之中閃爍著射手座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.12.01-24.12.31）",
 		scene = {}
 	},
+	[10008] = {
+		name = "限界的挑戰者·摩羯座",
+		gain_by = "",
+		time_second = 0,
+		id = 10008,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>結晶之中閃爍著摩羯座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （25.01.01-25.01.31）",
+		scene = {}
+	},
 	[40001] = {
 		name = "甜蜜邀約",
 		gain_by = "",
@@ -710,6 +719,7 @@ pg.item_data_frame = {
 		10005,
 		10006,
 		10007,
+		10008,
 		40001
 	}
 }

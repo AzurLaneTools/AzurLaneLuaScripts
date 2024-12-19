@@ -1224,33 +1224,35 @@ slot0.UpdateSkinList = function(slot0)
 						uv0.scene.SwitchCharacterSkin(uv1, uv2, uv3, slot0)
 					end,
 					function (slot0)
-						if not uv0.animInfo then
+						setActive(uv0.ladySafeCollider, true)
+
+						if not uv1.animInfo then
 							return slot0()
 						end
 
-						for slot5 = #uv0.animInfo.animPlayList, 1, -1 do
+						for slot5 = #uv1.animInfo.animPlayList, 1, -1 do
 							if #slot1.animPlayList[slot5]:GetStartPoint() > 0 then
-								uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot7)
+								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot7)
 
 								break
 							end
 
 							if slot5 == 1 then
-								uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", uv0.room:GetCameraZones()[uv0.zoneIndex]:GetWatchCameraName())
+								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", uv1.room:GetCameraZones()[uv1.zoneIndex]:GetWatchCameraName())
 							end
 						end
 
-						uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+						uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
 
 						slot2 = slot1.animPlayList[#slot1.animPlayList]
 
-						uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlaySingleAction", slot2:GetStateName())
-						uv0.scene.ladyDict[uv0.scene.apartment:GetConfigID()].ladyAnimator:Update(slot2:GetAnimTime())
-						uv0.timerAnim:Stop()
+						uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlaySingleAction", slot2:GetStateName())
+						uv1.scene.ladyDict[uv2].ladyAnimator:Update(slot2:GetAnimTime())
+						uv1.timerAnim:Stop()
 
-						uv0.timerAnim = nil
-						uv0.animInfo = nil
-						uv0.animPlaying = nil
+						uv1.timerAnim = nil
+						uv1.animInfo = nil
+						uv1.animPlaying = nil
 
 						slot0()
 					end,

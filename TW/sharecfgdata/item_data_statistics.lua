@@ -14,7 +14,6 @@ _G.pg.base.item_data_statistics[1] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -25,7 +24,8 @@ _G.pg.base.item_data_statistics[1] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45,7 +45,6 @@ _G.pg.base.item_data_statistics[2] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56,7 +55,8 @@ _G.pg.base.item_data_statistics[2] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -76,7 +76,6 @@ _G.pg.base.item_data_statistics[3] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -87,7 +86,8 @@ _G.pg.base.item_data_statistics[3] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -107,7 +107,6 @@ _G.pg.base.item_data_statistics[4] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -118,7 +117,8 @@ _G.pg.base.item_data_statistics[4] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -138,7 +138,6 @@ _G.pg.base.item_data_statistics[5] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -149,7 +148,8 @@ _G.pg.base.item_data_statistics[5] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -169,7 +169,6 @@ _G.pg.base.item_data_statistics[6] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -180,7 +179,8 @@ _G.pg.base.item_data_statistics[6] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -200,7 +200,6 @@ _G.pg.base.item_data_statistics[7] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -211,7 +210,8 @@ _G.pg.base.item_data_statistics[7] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -231,7 +231,6 @@ _G.pg.base.item_data_statistics[8] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -242,7 +241,8 @@ _G.pg.base.item_data_statistics[8] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -262,7 +262,6 @@ _G.pg.base.item_data_statistics[9] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -273,7 +272,8 @@ _G.pg.base.item_data_statistics[9] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -293,7 +293,6 @@ _G.pg.base.item_data_statistics[10] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -304,7 +303,8 @@ _G.pg.base.item_data_statistics[10] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -324,7 +324,6 @@ _G.pg.base.item_data_statistics[11] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -335,7 +334,8 @@ _G.pg.base.item_data_statistics[11] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -355,7 +355,6 @@ _G.pg.base.item_data_statistics[12] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -366,7 +365,8 @@ _G.pg.base.item_data_statistics[12] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -386,7 +386,6 @@ _G.pg.base.item_data_statistics[13] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -397,7 +396,8 @@ _G.pg.base.item_data_statistics[13] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -417,7 +417,6 @@ _G.pg.base.item_data_statistics[14] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -428,7 +427,8 @@ _G.pg.base.item_data_statistics[14] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -448,7 +448,6 @@ _G.pg.base.item_data_statistics[15] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -459,7 +458,8 @@ _G.pg.base.item_data_statistics[15] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -479,7 +479,6 @@ _G.pg.base.item_data_statistics[16] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -490,7 +489,8 @@ _G.pg.base.item_data_statistics[16] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -510,7 +510,6 @@ _G.pg.base.item_data_statistics[17] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -521,7 +520,8 @@ _G.pg.base.item_data_statistics[17] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -541,7 +541,6 @@ _G.pg.base.item_data_statistics[18] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -552,7 +551,8 @@ _G.pg.base.item_data_statistics[18] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -572,7 +572,6 @@ _G.pg.base.item_data_statistics[19] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -583,7 +582,8 @@ _G.pg.base.item_data_statistics[19] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -603,7 +603,6 @@ _G.pg.base.item_data_statistics[20] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -614,7 +613,8 @@ _G.pg.base.item_data_statistics[20] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -634,7 +634,6 @@ _G.pg.base.item_data_statistics[21] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -645,7 +644,8 @@ _G.pg.base.item_data_statistics[21] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -665,7 +665,6 @@ _G.pg.base.item_data_statistics[22] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -676,7 +675,8 @@ _G.pg.base.item_data_statistics[22] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -696,7 +696,6 @@ _G.pg.base.item_data_statistics[23] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -707,7 +706,8 @@ _G.pg.base.item_data_statistics[23] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -727,7 +727,6 @@ _G.pg.base.item_data_statistics[24] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -738,7 +737,8 @@ _G.pg.base.item_data_statistics[24] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -758,7 +758,6 @@ _G.pg.base.item_data_statistics[25] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -769,7 +768,8 @@ _G.pg.base.item_data_statistics[25] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -789,7 +789,6 @@ _G.pg.base.item_data_statistics[26] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -800,7 +799,8 @@ _G.pg.base.item_data_statistics[26] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -820,7 +820,6 @@ _G.pg.base.item_data_statistics[27] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -831,7 +830,8 @@ _G.pg.base.item_data_statistics[27] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -851,7 +851,6 @@ _G.pg.base.item_data_statistics[28] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -862,7 +861,8 @@ _G.pg.base.item_data_statistics[28] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -882,7 +882,6 @@ _G.pg.base.item_data_statistics[29] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -893,7 +892,8 @@ _G.pg.base.item_data_statistics[29] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -913,7 +913,6 @@ _G.pg.base.item_data_statistics[30] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -924,7 +923,8 @@ _G.pg.base.item_data_statistics[30] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -944,7 +944,6 @@ _G.pg.base.item_data_statistics[31] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -955,7 +954,8 @@ _G.pg.base.item_data_statistics[31] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -975,7 +975,6 @@ _G.pg.base.item_data_statistics[32] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -986,7 +985,8 @@ _G.pg.base.item_data_statistics[32] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1006,7 +1006,6 @@ _G.pg.base.item_data_statistics[33] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1017,7 +1016,8 @@ _G.pg.base.item_data_statistics[33] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1037,7 +1037,6 @@ _G.pg.base.item_data_statistics[34] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1048,7 +1047,8 @@ _G.pg.base.item_data_statistics[34] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1068,7 +1068,6 @@ _G.pg.base.item_data_statistics[35] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1079,7 +1078,8 @@ _G.pg.base.item_data_statistics[35] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1099,7 +1099,6 @@ _G.pg.base.item_data_statistics[36] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1110,7 +1109,8 @@ _G.pg.base.item_data_statistics[36] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1130,7 +1130,6 @@ _G.pg.base.item_data_statistics[37] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1141,7 +1140,8 @@ _G.pg.base.item_data_statistics[37] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1161,7 +1161,6 @@ _G.pg.base.item_data_statistics[38] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1172,7 +1171,8 @@ _G.pg.base.item_data_statistics[38] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1192,7 +1192,6 @@ _G.pg.base.item_data_statistics[39] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1203,7 +1202,8 @@ _G.pg.base.item_data_statistics[39] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1223,7 +1223,6 @@ _G.pg.base.item_data_statistics[40] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1234,7 +1233,8 @@ _G.pg.base.item_data_statistics[40] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1254,7 +1254,6 @@ _G.pg.base.item_data_statistics[41] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1265,7 +1264,8 @@ _G.pg.base.item_data_statistics[41] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1285,7 +1285,6 @@ _G.pg.base.item_data_statistics[42] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1296,7 +1295,8 @@ _G.pg.base.item_data_statistics[42] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1316,7 +1316,6 @@ _G.pg.base.item_data_statistics[43] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1327,7 +1326,8 @@ _G.pg.base.item_data_statistics[43] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1347,7 +1347,6 @@ _G.pg.base.item_data_statistics[44] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1358,7 +1357,8 @@ _G.pg.base.item_data_statistics[44] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1378,7 +1378,6 @@ _G.pg.base.item_data_statistics[45] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1389,7 +1388,8 @@ _G.pg.base.item_data_statistics[45] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1409,7 +1409,6 @@ _G.pg.base.item_data_statistics[46] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1420,7 +1419,8 @@ _G.pg.base.item_data_statistics[46] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1440,7 +1440,6 @@ _G.pg.base.item_data_statistics[47] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1451,7 +1450,8 @@ _G.pg.base.item_data_statistics[47] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1471,7 +1471,6 @@ _G.pg.base.item_data_statistics[48] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1482,7 +1481,8 @@ _G.pg.base.item_data_statistics[48] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1502,7 +1502,6 @@ _G.pg.base.item_data_statistics[49] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1513,7 +1512,8 @@ _G.pg.base.item_data_statistics[49] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1533,7 +1533,6 @@ _G.pg.base.item_data_statistics[50] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1544,7 +1543,8 @@ _G.pg.base.item_data_statistics[50] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1564,7 +1564,6 @@ _G.pg.base.item_data_statistics[51] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1575,7 +1574,8 @@ _G.pg.base.item_data_statistics[51] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1595,7 +1595,6 @@ _G.pg.base.item_data_statistics[52] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1606,7 +1605,8 @@ _G.pg.base.item_data_statistics[52] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1626,7 +1626,6 @@ _G.pg.base.item_data_statistics[53] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1637,7 +1636,8 @@ _G.pg.base.item_data_statistics[53] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1657,7 +1657,6 @@ _G.pg.base.item_data_statistics[54] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1668,7 +1667,8 @@ _G.pg.base.item_data_statistics[54] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1688,7 +1688,6 @@ _G.pg.base.item_data_statistics[55] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1699,7 +1698,8 @@ _G.pg.base.item_data_statistics[55] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1719,7 +1719,6 @@ _G.pg.base.item_data_statistics[56] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1730,7 +1729,8 @@ _G.pg.base.item_data_statistics[56] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1750,7 +1750,6 @@ _G.pg.base.item_data_statistics[57] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1761,7 +1760,8 @@ _G.pg.base.item_data_statistics[57] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1781,7 +1781,6 @@ _G.pg.base.item_data_statistics[58] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1792,7 +1791,8 @@ _G.pg.base.item_data_statistics[58] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1812,7 +1812,6 @@ _G.pg.base.item_data_statistics[59] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1823,7 +1822,8 @@ _G.pg.base.item_data_statistics[59] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1843,7 +1843,6 @@ _G.pg.base.item_data_statistics[60] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1854,7 +1853,8 @@ _G.pg.base.item_data_statistics[60] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1874,7 +1874,6 @@ _G.pg.base.item_data_statistics[61] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1885,7 +1884,8 @@ _G.pg.base.item_data_statistics[61] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1905,7 +1905,6 @@ _G.pg.base.item_data_statistics[62] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1916,7 +1915,8 @@ _G.pg.base.item_data_statistics[62] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1936,7 +1936,6 @@ _G.pg.base.item_data_statistics[63] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1947,7 +1946,8 @@ _G.pg.base.item_data_statistics[63] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1967,7 +1967,6 @@ _G.pg.base.item_data_statistics[64] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -1978,7 +1977,8 @@ _G.pg.base.item_data_statistics[64] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -1998,7 +1998,6 @@ _G.pg.base.item_data_statistics[65] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2009,7 +2008,8 @@ _G.pg.base.item_data_statistics[65] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2029,7 +2029,6 @@ _G.pg.base.item_data_statistics[66] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2040,7 +2039,8 @@ _G.pg.base.item_data_statistics[66] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2060,7 +2060,6 @@ _G.pg.base.item_data_statistics[67] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2071,7 +2070,8 @@ _G.pg.base.item_data_statistics[67] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2091,7 +2091,6 @@ _G.pg.base.item_data_statistics[68] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2102,7 +2101,8 @@ _G.pg.base.item_data_statistics[68] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2122,7 +2122,6 @@ _G.pg.base.item_data_statistics[70] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2133,7 +2132,8 @@ _G.pg.base.item_data_statistics[70] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2153,7 +2153,6 @@ _G.pg.base.item_data_statistics[71] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2164,7 +2163,8 @@ _G.pg.base.item_data_statistics[71] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2184,7 +2184,6 @@ _G.pg.base.item_data_statistics[73] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2195,7 +2194,8 @@ _G.pg.base.item_data_statistics[73] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2215,7 +2215,6 @@ _G.pg.base.item_data_statistics[74] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2226,7 +2225,8 @@ _G.pg.base.item_data_statistics[74] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2246,7 +2246,6 @@ _G.pg.base.item_data_statistics[75] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2257,7 +2256,8 @@ _G.pg.base.item_data_statistics[75] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2277,7 +2277,6 @@ _G.pg.base.item_data_statistics[76] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2288,7 +2287,8 @@ _G.pg.base.item_data_statistics[76] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2308,7 +2308,6 @@ _G.pg.base.item_data_statistics[77] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2319,7 +2318,8 @@ _G.pg.base.item_data_statistics[77] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2339,7 +2339,6 @@ _G.pg.base.item_data_statistics[78] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2350,7 +2349,8 @@ _G.pg.base.item_data_statistics[78] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2370,7 +2370,6 @@ _G.pg.base.item_data_statistics[79] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2381,7 +2380,8 @@ _G.pg.base.item_data_statistics[79] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2401,7 +2401,6 @@ _G.pg.base.item_data_statistics[80] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2412,7 +2411,8 @@ _G.pg.base.item_data_statistics[80] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2432,7 +2432,6 @@ _G.pg.base.item_data_statistics[81] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2443,7 +2442,8 @@ _G.pg.base.item_data_statistics[81] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2463,7 +2463,6 @@ _G.pg.base.item_data_statistics[82] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2474,7 +2473,8 @@ _G.pg.base.item_data_statistics[82] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2494,7 +2494,6 @@ _G.pg.base.item_data_statistics[83] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2505,7 +2504,8 @@ _G.pg.base.item_data_statistics[83] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2525,7 +2525,6 @@ _G.pg.base.item_data_statistics[1001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2536,7 +2535,8 @@ _G.pg.base.item_data_statistics[1001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2556,7 +2556,6 @@ _G.pg.base.item_data_statistics[1004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2567,7 +2566,8 @@ _G.pg.base.item_data_statistics[1004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2587,7 +2587,6 @@ _G.pg.base.item_data_statistics[1005] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2598,7 +2597,8 @@ _G.pg.base.item_data_statistics[1005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2618,7 +2618,6 @@ _G.pg.base.item_data_statistics[1006] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2629,7 +2628,8 @@ _G.pg.base.item_data_statistics[1006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2649,7 +2649,6 @@ _G.pg.base.item_data_statistics[1008] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2660,7 +2659,8 @@ _G.pg.base.item_data_statistics[1008] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2680,7 +2680,6 @@ _G.pg.base.item_data_statistics[1009] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2691,7 +2690,8 @@ _G.pg.base.item_data_statistics[1009] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2711,7 +2711,6 @@ _G.pg.base.item_data_statistics[1010] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2722,7 +2721,8 @@ _G.pg.base.item_data_statistics[1010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2742,7 +2742,6 @@ _G.pg.base.item_data_statistics[1011] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2753,7 +2752,8 @@ _G.pg.base.item_data_statistics[1011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2773,7 +2773,6 @@ _G.pg.base.item_data_statistics[1012] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2784,7 +2783,8 @@ _G.pg.base.item_data_statistics[1012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2804,7 +2804,6 @@ _G.pg.base.item_data_statistics[1013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2815,7 +2814,8 @@ _G.pg.base.item_data_statistics[1013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2835,7 +2835,6 @@ _G.pg.base.item_data_statistics[1014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2846,7 +2845,8 @@ _G.pg.base.item_data_statistics[1014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2866,7 +2866,6 @@ _G.pg.base.item_data_statistics[10000] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2877,7 +2876,8 @@ _G.pg.base.item_data_statistics[10000] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2897,7 +2897,6 @@ _G.pg.base.item_data_statistics[10001] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2908,7 +2907,8 @@ _G.pg.base.item_data_statistics[10001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2928,7 +2928,6 @@ _G.pg.base.item_data_statistics[10002] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2939,7 +2938,8 @@ _G.pg.base.item_data_statistics[10002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2959,7 +2959,6 @@ _G.pg.base.item_data_statistics[10003] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -2970,7 +2969,8 @@ _G.pg.base.item_data_statistics[10003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -2990,7 +2990,6 @@ _G.pg.base.item_data_statistics[10004] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3001,7 +3000,8 @@ _G.pg.base.item_data_statistics[10004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3021,7 +3021,6 @@ _G.pg.base.item_data_statistics[10005] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3032,7 +3031,8 @@ _G.pg.base.item_data_statistics[10005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3052,7 +3052,6 @@ _G.pg.base.item_data_statistics[10006] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3063,7 +3062,8 @@ _G.pg.base.item_data_statistics[10006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3083,7 +3083,6 @@ _G.pg.base.item_data_statistics[10007] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3094,7 +3093,8 @@ _G.pg.base.item_data_statistics[10007] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3114,7 +3114,6 @@ _G.pg.base.item_data_statistics[10008] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3125,7 +3124,8 @@ _G.pg.base.item_data_statistics[10008] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3145,7 +3145,6 @@ _G.pg.base.item_data_statistics[10009] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3156,7 +3155,8 @@ _G.pg.base.item_data_statistics[10009] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3176,7 +3176,6 @@ _G.pg.base.item_data_statistics[10010] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3187,7 +3186,8 @@ _G.pg.base.item_data_statistics[10010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3207,7 +3207,6 @@ _G.pg.base.item_data_statistics[10011] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3218,7 +3217,8 @@ _G.pg.base.item_data_statistics[10011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3238,7 +3238,6 @@ _G.pg.base.item_data_statistics[10012] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3249,7 +3248,8 @@ _G.pg.base.item_data_statistics[10012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3269,7 +3269,6 @@ _G.pg.base.item_data_statistics[10013] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3280,7 +3279,8 @@ _G.pg.base.item_data_statistics[10013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3300,7 +3300,6 @@ _G.pg.base.item_data_statistics[10014] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3311,7 +3310,8 @@ _G.pg.base.item_data_statistics[10014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3331,7 +3331,6 @@ _G.pg.base.item_data_statistics[10015] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3342,7 +3341,8 @@ _G.pg.base.item_data_statistics[10015] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3362,7 +3362,6 @@ _G.pg.base.item_data_statistics[10016] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3373,7 +3372,8 @@ _G.pg.base.item_data_statistics[10016] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3393,7 +3393,6 @@ _G.pg.base.item_data_statistics[10017] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3404,7 +3403,8 @@ _G.pg.base.item_data_statistics[10017] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3424,7 +3424,6 @@ _G.pg.base.item_data_statistics[10018] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3435,7 +3434,8 @@ _G.pg.base.item_data_statistics[10018] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3455,7 +3455,6 @@ _G.pg.base.item_data_statistics[10019] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3466,7 +3465,8 @@ _G.pg.base.item_data_statistics[10019] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3486,7 +3486,6 @@ _G.pg.base.item_data_statistics[10021] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3497,7 +3496,8 @@ _G.pg.base.item_data_statistics[10021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3517,7 +3517,6 @@ _G.pg.base.item_data_statistics[10022] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3528,7 +3527,8 @@ _G.pg.base.item_data_statistics[10022] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3548,7 +3548,6 @@ _G.pg.base.item_data_statistics[10024] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3559,7 +3558,8 @@ _G.pg.base.item_data_statistics[10024] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3579,7 +3579,6 @@ _G.pg.base.item_data_statistics[10025] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3590,7 +3589,8 @@ _G.pg.base.item_data_statistics[10025] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3610,7 +3610,6 @@ _G.pg.base.item_data_statistics[10026] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3621,7 +3620,8 @@ _G.pg.base.item_data_statistics[10026] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3641,7 +3641,6 @@ _G.pg.base.item_data_statistics[10027] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3652,7 +3651,8 @@ _G.pg.base.item_data_statistics[10027] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3672,7 +3672,6 @@ _G.pg.base.item_data_statistics[10028] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3683,7 +3682,8 @@ _G.pg.base.item_data_statistics[10028] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3703,7 +3703,6 @@ _G.pg.base.item_data_statistics[10029] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3714,7 +3713,8 @@ _G.pg.base.item_data_statistics[10029] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3734,7 +3734,6 @@ _G.pg.base.item_data_statistics[10030] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3745,7 +3744,8 @@ _G.pg.base.item_data_statistics[10030] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3765,7 +3765,6 @@ _G.pg.base.item_data_statistics[10031] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3776,7 +3775,8 @@ _G.pg.base.item_data_statistics[10031] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3796,7 +3796,6 @@ _G.pg.base.item_data_statistics[10032] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3807,7 +3806,8 @@ _G.pg.base.item_data_statistics[10032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3827,7 +3827,6 @@ _G.pg.base.item_data_statistics[10033] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3838,7 +3837,8 @@ _G.pg.base.item_data_statistics[10033] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3858,7 +3858,6 @@ _G.pg.base.item_data_statistics[10034] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3869,7 +3868,8 @@ _G.pg.base.item_data_statistics[10034] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3889,7 +3889,6 @@ _G.pg.base.item_data_statistics[10035] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3900,7 +3899,8 @@ _G.pg.base.item_data_statistics[10035] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3920,7 +3920,6 @@ _G.pg.base.item_data_statistics[10036] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3931,7 +3930,8 @@ _G.pg.base.item_data_statistics[10036] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3951,7 +3951,6 @@ _G.pg.base.item_data_statistics[10037] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3962,7 +3961,8 @@ _G.pg.base.item_data_statistics[10037] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -3982,7 +3982,6 @@ _G.pg.base.item_data_statistics[10038] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -3993,7 +3992,8 @@ _G.pg.base.item_data_statistics[10038] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4013,7 +4013,6 @@ _G.pg.base.item_data_statistics[10039] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4024,7 +4023,8 @@ _G.pg.base.item_data_statistics[10039] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4044,7 +4044,6 @@ _G.pg.base.item_data_statistics[10040] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4055,7 +4054,8 @@ _G.pg.base.item_data_statistics[10040] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4075,7 +4075,6 @@ _G.pg.base.item_data_statistics[10041] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4086,7 +4085,8 @@ _G.pg.base.item_data_statistics[10041] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4106,7 +4106,6 @@ _G.pg.base.item_data_statistics[10042] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4117,7 +4116,8 @@ _G.pg.base.item_data_statistics[10042] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4137,7 +4137,6 @@ _G.pg.base.item_data_statistics[10043] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4148,7 +4147,8 @@ _G.pg.base.item_data_statistics[10043] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4168,7 +4168,6 @@ _G.pg.base.item_data_statistics[10044] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4179,7 +4178,8 @@ _G.pg.base.item_data_statistics[10044] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4199,7 +4199,6 @@ _G.pg.base.item_data_statistics[10045] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4210,7 +4209,8 @@ _G.pg.base.item_data_statistics[10045] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4230,7 +4230,6 @@ _G.pg.base.item_data_statistics[10046] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4241,7 +4240,8 @@ _G.pg.base.item_data_statistics[10046] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4261,7 +4261,6 @@ _G.pg.base.item_data_statistics[10047] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4272,7 +4271,8 @@ _G.pg.base.item_data_statistics[10047] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4292,7 +4292,6 @@ _G.pg.base.item_data_statistics[10048] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4303,7 +4302,8 @@ _G.pg.base.item_data_statistics[10048] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4323,7 +4323,6 @@ _G.pg.base.item_data_statistics[10049] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4334,7 +4333,8 @@ _G.pg.base.item_data_statistics[10049] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4354,7 +4354,6 @@ _G.pg.base.item_data_statistics[10050] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4365,7 +4364,8 @@ _G.pg.base.item_data_statistics[10050] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4385,7 +4385,6 @@ _G.pg.base.item_data_statistics[10051] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4396,7 +4395,8 @@ _G.pg.base.item_data_statistics[10051] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4416,7 +4416,6 @@ _G.pg.base.item_data_statistics[10052] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4427,7 +4426,8 @@ _G.pg.base.item_data_statistics[10052] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4447,7 +4447,6 @@ _G.pg.base.item_data_statistics[10053] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4458,7 +4457,8 @@ _G.pg.base.item_data_statistics[10053] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4478,7 +4478,6 @@ _G.pg.base.item_data_statistics[10054] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4489,7 +4488,8 @@ _G.pg.base.item_data_statistics[10054] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4509,7 +4509,6 @@ _G.pg.base.item_data_statistics[10055] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4520,7 +4519,8 @@ _G.pg.base.item_data_statistics[10055] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4540,7 +4540,6 @@ _G.pg.base.item_data_statistics[10056] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4551,7 +4550,8 @@ _G.pg.base.item_data_statistics[10056] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4571,7 +4571,6 @@ _G.pg.base.item_data_statistics[10057] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4582,7 +4581,8 @@ _G.pg.base.item_data_statistics[10057] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4602,7 +4602,6 @@ _G.pg.base.item_data_statistics[10059] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4613,7 +4612,8 @@ _G.pg.base.item_data_statistics[10059] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4633,7 +4633,6 @@ _G.pg.base.item_data_statistics[10060] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4644,7 +4643,8 @@ _G.pg.base.item_data_statistics[10060] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4664,7 +4664,6 @@ _G.pg.base.item_data_statistics[10062] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4675,7 +4674,8 @@ _G.pg.base.item_data_statistics[10062] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4695,7 +4695,6 @@ _G.pg.base.item_data_statistics[10063] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4706,7 +4705,8 @@ _G.pg.base.item_data_statistics[10063] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4726,7 +4726,6 @@ _G.pg.base.item_data_statistics[10064] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4737,7 +4736,8 @@ _G.pg.base.item_data_statistics[10064] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4757,7 +4757,6 @@ _G.pg.base.item_data_statistics[10065] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4768,7 +4767,8 @@ _G.pg.base.item_data_statistics[10065] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4788,7 +4788,6 @@ _G.pg.base.item_data_statistics[10066] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4799,7 +4798,8 @@ _G.pg.base.item_data_statistics[10066] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4819,7 +4819,6 @@ _G.pg.base.item_data_statistics[10067] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4830,7 +4829,8 @@ _G.pg.base.item_data_statistics[10067] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4850,7 +4850,6 @@ _G.pg.base.item_data_statistics[10068] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4861,7 +4860,8 @@ _G.pg.base.item_data_statistics[10068] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4881,7 +4881,6 @@ _G.pg.base.item_data_statistics[10069] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4892,7 +4891,8 @@ _G.pg.base.item_data_statistics[10069] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4912,7 +4912,6 @@ _G.pg.base.item_data_statistics[10070] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4923,7 +4922,8 @@ _G.pg.base.item_data_statistics[10070] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4943,7 +4943,6 @@ _G.pg.base.item_data_statistics[10071] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4954,7 +4953,8 @@ _G.pg.base.item_data_statistics[10071] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -4974,7 +4974,6 @@ _G.pg.base.item_data_statistics[10072] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -4985,7 +4984,8 @@ _G.pg.base.item_data_statistics[10072] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5005,7 +5005,6 @@ _G.pg.base.item_data_statistics[10073] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5016,7 +5015,8 @@ _G.pg.base.item_data_statistics[10073] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5036,7 +5036,6 @@ _G.pg.base.item_data_statistics[10074] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5047,7 +5046,8 @@ _G.pg.base.item_data_statistics[10074] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5067,7 +5067,6 @@ _G.pg.base.item_data_statistics[10075] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5078,7 +5077,8 @@ _G.pg.base.item_data_statistics[10075] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5098,7 +5098,6 @@ _G.pg.base.item_data_statistics[10076] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5109,7 +5108,8 @@ _G.pg.base.item_data_statistics[10076] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5129,7 +5129,6 @@ _G.pg.base.item_data_statistics[10077] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5140,7 +5139,8 @@ _G.pg.base.item_data_statistics[10077] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5160,7 +5160,6 @@ _G.pg.base.item_data_statistics[10078] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5171,7 +5170,8 @@ _G.pg.base.item_data_statistics[10078] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5191,7 +5191,6 @@ _G.pg.base.item_data_statistics[10079] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5202,7 +5201,8 @@ _G.pg.base.item_data_statistics[10079] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5222,7 +5222,6 @@ _G.pg.base.item_data_statistics[10080] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5233,7 +5232,8 @@ _G.pg.base.item_data_statistics[10080] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5253,7 +5253,6 @@ _G.pg.base.item_data_statistics[10081] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5264,7 +5263,8 @@ _G.pg.base.item_data_statistics[10081] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5284,7 +5284,6 @@ _G.pg.base.item_data_statistics[10082] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5295,7 +5294,8 @@ _G.pg.base.item_data_statistics[10082] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5315,7 +5315,6 @@ _G.pg.base.item_data_statistics[10083] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5326,7 +5325,8 @@ _G.pg.base.item_data_statistics[10083] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5346,7 +5346,6 @@ _G.pg.base.item_data_statistics[10084] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5357,7 +5356,8 @@ _G.pg.base.item_data_statistics[10084] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5377,7 +5377,6 @@ _G.pg.base.item_data_statistics[10085] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5388,7 +5387,8 @@ _G.pg.base.item_data_statistics[10085] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5408,7 +5408,6 @@ _G.pg.base.item_data_statistics[10086] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5419,7 +5418,8 @@ _G.pg.base.item_data_statistics[10086] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5439,7 +5439,6 @@ _G.pg.base.item_data_statistics[10087] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5450,7 +5449,8 @@ _G.pg.base.item_data_statistics[10087] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5470,7 +5470,6 @@ _G.pg.base.item_data_statistics[10088] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5481,7 +5480,8 @@ _G.pg.base.item_data_statistics[10088] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5501,7 +5501,6 @@ _G.pg.base.item_data_statistics[10089] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5512,7 +5511,8 @@ _G.pg.base.item_data_statistics[10089] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5532,7 +5532,6 @@ _G.pg.base.item_data_statistics[10090] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5543,7 +5542,8 @@ _G.pg.base.item_data_statistics[10090] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5563,7 +5563,6 @@ _G.pg.base.item_data_statistics[10091] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5574,7 +5573,8 @@ _G.pg.base.item_data_statistics[10091] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5594,7 +5594,6 @@ _G.pg.base.item_data_statistics[10092] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5605,7 +5604,8 @@ _G.pg.base.item_data_statistics[10092] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5625,7 +5625,6 @@ _G.pg.base.item_data_statistics[10093] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5636,7 +5635,8 @@ _G.pg.base.item_data_statistics[10093] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5656,7 +5656,6 @@ _G.pg.base.item_data_statistics[10094] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5667,7 +5666,8 @@ _G.pg.base.item_data_statistics[10094] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5687,7 +5687,6 @@ _G.pg.base.item_data_statistics[10095] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5698,7 +5697,8 @@ _G.pg.base.item_data_statistics[10095] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5718,7 +5718,6 @@ _G.pg.base.item_data_statistics[10096] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5729,7 +5728,8 @@ _G.pg.base.item_data_statistics[10096] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5749,7 +5749,6 @@ _G.pg.base.item_data_statistics[10097] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5760,7 +5759,8 @@ _G.pg.base.item_data_statistics[10097] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5780,7 +5780,6 @@ _G.pg.base.item_data_statistics[10098] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5791,7 +5790,8 @@ _G.pg.base.item_data_statistics[10098] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5811,7 +5811,6 @@ _G.pg.base.item_data_statistics[10099] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5822,7 +5821,8 @@ _G.pg.base.item_data_statistics[10099] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5842,7 +5842,6 @@ _G.pg.base.item_data_statistics[10100] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5853,7 +5852,8 @@ _G.pg.base.item_data_statistics[10100] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5873,7 +5873,6 @@ _G.pg.base.item_data_statistics[10101] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5884,7 +5883,8 @@ _G.pg.base.item_data_statistics[10101] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5904,7 +5904,6 @@ _G.pg.base.item_data_statistics[10102] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5915,7 +5914,8 @@ _G.pg.base.item_data_statistics[10102] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5935,7 +5935,6 @@ _G.pg.base.item_data_statistics[10103] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5946,7 +5945,8 @@ _G.pg.base.item_data_statistics[10103] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5966,7 +5966,6 @@ _G.pg.base.item_data_statistics[10104] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -5977,7 +5976,8 @@ _G.pg.base.item_data_statistics[10104] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -5997,7 +5997,6 @@ _G.pg.base.item_data_statistics[10105] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6008,7 +6007,8 @@ _G.pg.base.item_data_statistics[10105] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6028,7 +6028,6 @@ _G.pg.base.item_data_statistics[10106] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6039,7 +6038,8 @@ _G.pg.base.item_data_statistics[10106] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6059,7 +6059,6 @@ _G.pg.base.item_data_statistics[10107] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6070,7 +6069,8 @@ _G.pg.base.item_data_statistics[10107] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6090,7 +6090,6 @@ _G.pg.base.item_data_statistics[10108] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6101,7 +6100,8 @@ _G.pg.base.item_data_statistics[10108] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6121,7 +6121,6 @@ _G.pg.base.item_data_statistics[10109] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6132,7 +6131,8 @@ _G.pg.base.item_data_statistics[10109] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6152,7 +6152,6 @@ _G.pg.base.item_data_statistics[10110] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6163,7 +6162,8 @@ _G.pg.base.item_data_statistics[10110] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6183,7 +6183,6 @@ _G.pg.base.item_data_statistics[10111] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6194,7 +6193,8 @@ _G.pg.base.item_data_statistics[10111] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6214,7 +6214,6 @@ _G.pg.base.item_data_statistics[10113] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6225,7 +6224,8 @@ _G.pg.base.item_data_statistics[10113] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6245,7 +6245,6 @@ _G.pg.base.item_data_statistics[10114] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6256,7 +6255,8 @@ _G.pg.base.item_data_statistics[10114] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6276,7 +6276,6 @@ _G.pg.base.item_data_statistics[10116] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6287,7 +6286,8 @@ _G.pg.base.item_data_statistics[10116] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6307,7 +6307,6 @@ _G.pg.base.item_data_statistics[10117] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6318,7 +6317,8 @@ _G.pg.base.item_data_statistics[10117] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6338,7 +6338,6 @@ _G.pg.base.item_data_statistics[10118] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6349,7 +6348,8 @@ _G.pg.base.item_data_statistics[10118] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6369,7 +6369,6 @@ _G.pg.base.item_data_statistics[10119] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6380,7 +6379,8 @@ _G.pg.base.item_data_statistics[10119] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6400,7 +6400,6 @@ _G.pg.base.item_data_statistics[10120] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6411,7 +6410,8 @@ _G.pg.base.item_data_statistics[10120] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6431,7 +6431,6 @@ _G.pg.base.item_data_statistics[10121] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6442,7 +6441,8 @@ _G.pg.base.item_data_statistics[10121] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6462,7 +6462,6 @@ _G.pg.base.item_data_statistics[10122] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6473,7 +6472,8 @@ _G.pg.base.item_data_statistics[10122] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6493,7 +6493,6 @@ _G.pg.base.item_data_statistics[10123] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6504,7 +6503,8 @@ _G.pg.base.item_data_statistics[10123] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6524,7 +6524,6 @@ _G.pg.base.item_data_statistics[10124] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6535,7 +6534,8 @@ _G.pg.base.item_data_statistics[10124] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6555,7 +6555,6 @@ _G.pg.base.item_data_statistics[10125] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6566,7 +6565,8 @@ _G.pg.base.item_data_statistics[10125] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6586,7 +6586,6 @@ _G.pg.base.item_data_statistics[11000] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6597,7 +6596,8 @@ _G.pg.base.item_data_statistics[11000] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6617,7 +6617,6 @@ _G.pg.base.item_data_statistics[11001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6628,7 +6627,8 @@ _G.pg.base.item_data_statistics[11001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6648,7 +6648,6 @@ _G.pg.base.item_data_statistics[11002] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6659,7 +6658,8 @@ _G.pg.base.item_data_statistics[11002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6679,7 +6679,6 @@ _G.pg.base.item_data_statistics[11003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6690,7 +6689,8 @@ _G.pg.base.item_data_statistics[11003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6710,7 +6710,6 @@ _G.pg.base.item_data_statistics[11004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6721,7 +6720,8 @@ _G.pg.base.item_data_statistics[11004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6741,7 +6741,6 @@ _G.pg.base.item_data_statistics[11005] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6752,7 +6751,8 @@ _G.pg.base.item_data_statistics[11005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6772,7 +6772,6 @@ _G.pg.base.item_data_statistics[11006] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6783,7 +6782,8 @@ _G.pg.base.item_data_statistics[11006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6803,7 +6803,6 @@ _G.pg.base.item_data_statistics[11009] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6814,7 +6813,8 @@ _G.pg.base.item_data_statistics[11009] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6834,7 +6834,6 @@ _G.pg.base.item_data_statistics[11010] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6845,7 +6844,8 @@ _G.pg.base.item_data_statistics[11010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6865,7 +6865,6 @@ _G.pg.base.item_data_statistics[11011] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6876,7 +6875,8 @@ _G.pg.base.item_data_statistics[11011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6896,7 +6896,6 @@ _G.pg.base.item_data_statistics[11012] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6907,7 +6906,8 @@ _G.pg.base.item_data_statistics[11012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6927,7 +6927,6 @@ _G.pg.base.item_data_statistics[11013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6938,7 +6937,8 @@ _G.pg.base.item_data_statistics[11013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6958,7 +6958,6 @@ _G.pg.base.item_data_statistics[11014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -6969,7 +6968,8 @@ _G.pg.base.item_data_statistics[11014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -6989,7 +6989,6 @@ _G.pg.base.item_data_statistics[11015] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7000,7 +6999,8 @@ _G.pg.base.item_data_statistics[11015] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7020,7 +7020,6 @@ _G.pg.base.item_data_statistics[11016] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7031,7 +7030,8 @@ _G.pg.base.item_data_statistics[11016] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7051,7 +7051,6 @@ _G.pg.base.item_data_statistics[11017] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7062,7 +7061,8 @@ _G.pg.base.item_data_statistics[11017] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7082,7 +7082,6 @@ _G.pg.base.item_data_statistics[11018] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7093,7 +7092,8 @@ _G.pg.base.item_data_statistics[11018] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7113,7 +7113,6 @@ _G.pg.base.item_data_statistics[11019] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7124,7 +7123,8 @@ _G.pg.base.item_data_statistics[11019] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7144,7 +7144,6 @@ _G.pg.base.item_data_statistics[11021] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7155,7 +7154,8 @@ _G.pg.base.item_data_statistics[11021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7175,7 +7175,6 @@ _G.pg.base.item_data_statistics[11023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7186,7 +7185,8 @@ _G.pg.base.item_data_statistics[11023] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7206,7 +7206,6 @@ _G.pg.base.item_data_statistics[11024] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7217,7 +7216,8 @@ _G.pg.base.item_data_statistics[11024] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7237,7 +7237,6 @@ _G.pg.base.item_data_statistics[11025] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7248,7 +7247,8 @@ _G.pg.base.item_data_statistics[11025] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7268,7 +7268,6 @@ _G.pg.base.item_data_statistics[11026] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7279,7 +7278,8 @@ _G.pg.base.item_data_statistics[11026] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7299,7 +7299,6 @@ _G.pg.base.item_data_statistics[11027] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7310,7 +7309,8 @@ _G.pg.base.item_data_statistics[11027] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7330,7 +7330,6 @@ _G.pg.base.item_data_statistics[11028] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7341,7 +7340,8 @@ _G.pg.base.item_data_statistics[11028] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7361,7 +7361,6 @@ _G.pg.base.item_data_statistics[11029] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7372,7 +7371,8 @@ _G.pg.base.item_data_statistics[11029] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7392,7 +7392,6 @@ _G.pg.base.item_data_statistics[11030] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7403,7 +7402,8 @@ _G.pg.base.item_data_statistics[11030] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7423,7 +7423,6 @@ _G.pg.base.item_data_statistics[11031] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7434,7 +7433,8 @@ _G.pg.base.item_data_statistics[11031] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7454,7 +7454,6 @@ _G.pg.base.item_data_statistics[11032] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7465,7 +7464,8 @@ _G.pg.base.item_data_statistics[11032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7485,7 +7485,6 @@ _G.pg.base.item_data_statistics[11033] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7496,7 +7495,8 @@ _G.pg.base.item_data_statistics[11033] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7516,7 +7516,6 @@ _G.pg.base.item_data_statistics[11034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7527,7 +7526,8 @@ _G.pg.base.item_data_statistics[11034] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7547,7 +7547,6 @@ _G.pg.base.item_data_statistics[11035] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7558,7 +7557,8 @@ _G.pg.base.item_data_statistics[11035] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7578,7 +7578,6 @@ _G.pg.base.item_data_statistics[11036] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7589,7 +7588,8 @@ _G.pg.base.item_data_statistics[11036] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7609,7 +7609,6 @@ _G.pg.base.item_data_statistics[11037] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7620,7 +7619,8 @@ _G.pg.base.item_data_statistics[11037] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7640,7 +7640,6 @@ _G.pg.base.item_data_statistics[11038] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7651,7 +7650,8 @@ _G.pg.base.item_data_statistics[11038] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7671,7 +7671,6 @@ _G.pg.base.item_data_statistics[11039] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7682,7 +7681,8 @@ _G.pg.base.item_data_statistics[11039] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7702,7 +7702,6 @@ _G.pg.base.item_data_statistics[11040] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7713,7 +7712,8 @@ _G.pg.base.item_data_statistics[11040] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7733,7 +7733,6 @@ _G.pg.base.item_data_statistics[11041] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7744,7 +7743,8 @@ _G.pg.base.item_data_statistics[11041] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7764,7 +7764,6 @@ _G.pg.base.item_data_statistics[11042] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7775,7 +7774,8 @@ _G.pg.base.item_data_statistics[11042] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7795,7 +7795,6 @@ _G.pg.base.item_data_statistics[11043] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7806,7 +7805,8 @@ _G.pg.base.item_data_statistics[11043] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7826,7 +7826,6 @@ _G.pg.base.item_data_statistics[11046] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7837,7 +7836,8 @@ _G.pg.base.item_data_statistics[11046] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7857,7 +7857,6 @@ _G.pg.base.item_data_statistics[11047] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7868,7 +7867,8 @@ _G.pg.base.item_data_statistics[11047] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7888,7 +7888,6 @@ _G.pg.base.item_data_statistics[11048] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7899,7 +7898,8 @@ _G.pg.base.item_data_statistics[11048] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7919,7 +7919,6 @@ _G.pg.base.item_data_statistics[11049] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7930,7 +7929,8 @@ _G.pg.base.item_data_statistics[11049] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7950,7 +7950,6 @@ _G.pg.base.item_data_statistics[11050] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7961,7 +7960,8 @@ _G.pg.base.item_data_statistics[11050] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -7981,7 +7981,6 @@ _G.pg.base.item_data_statistics[11051] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -7992,7 +7991,8 @@ _G.pg.base.item_data_statistics[11051] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8012,7 +8012,6 @@ _G.pg.base.item_data_statistics[11052] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8023,7 +8022,8 @@ _G.pg.base.item_data_statistics[11052] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8043,7 +8043,6 @@ _G.pg.base.item_data_statistics[11053] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8054,7 +8053,8 @@ _G.pg.base.item_data_statistics[11053] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8074,7 +8074,6 @@ _G.pg.base.item_data_statistics[11054] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8085,7 +8084,8 @@ _G.pg.base.item_data_statistics[11054] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8105,7 +8105,6 @@ _G.pg.base.item_data_statistics[11055] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8116,7 +8115,8 @@ _G.pg.base.item_data_statistics[11055] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8136,7 +8136,6 @@ _G.pg.base.item_data_statistics[12000] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8147,7 +8146,8 @@ _G.pg.base.item_data_statistics[12000] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8167,7 +8167,6 @@ _G.pg.base.item_data_statistics[12003] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8178,7 +8177,8 @@ _G.pg.base.item_data_statistics[12003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8198,7 +8198,6 @@ _G.pg.base.item_data_statistics[13000] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8209,7 +8208,8 @@ _G.pg.base.item_data_statistics[13000] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8229,7 +8229,6 @@ _G.pg.base.item_data_statistics[13001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8240,7 +8239,8 @@ _G.pg.base.item_data_statistics[13001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8260,7 +8260,6 @@ _G.pg.base.item_data_statistics[13002] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8271,7 +8270,8 @@ _G.pg.base.item_data_statistics[13002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8291,7 +8291,6 @@ _G.pg.base.item_data_statistics[13003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8302,7 +8301,8 @@ _G.pg.base.item_data_statistics[13003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8322,7 +8322,6 @@ _G.pg.base.item_data_statistics[13004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8333,7 +8332,8 @@ _G.pg.base.item_data_statistics[13004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8353,7 +8353,6 @@ _G.pg.base.item_data_statistics[13005] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8364,7 +8363,8 @@ _G.pg.base.item_data_statistics[13005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8384,7 +8384,6 @@ _G.pg.base.item_data_statistics[13006] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8395,7 +8394,8 @@ _G.pg.base.item_data_statistics[13006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8415,7 +8415,6 @@ _G.pg.base.item_data_statistics[13007] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8426,7 +8425,8 @@ _G.pg.base.item_data_statistics[13007] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8446,7 +8446,6 @@ _G.pg.base.item_data_statistics[13008] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8457,7 +8456,8 @@ _G.pg.base.item_data_statistics[13008] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8477,7 +8477,6 @@ _G.pg.base.item_data_statistics[13009] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8488,7 +8487,8 @@ _G.pg.base.item_data_statistics[13009] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8508,7 +8508,6 @@ _G.pg.base.item_data_statistics[13010] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8519,7 +8518,8 @@ _G.pg.base.item_data_statistics[13010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8539,7 +8539,6 @@ _G.pg.base.item_data_statistics[13011] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8550,7 +8549,8 @@ _G.pg.base.item_data_statistics[13011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8570,7 +8570,6 @@ _G.pg.base.item_data_statistics[13012] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8581,7 +8580,8 @@ _G.pg.base.item_data_statistics[13012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8601,7 +8601,6 @@ _G.pg.base.item_data_statistics[13013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8612,7 +8611,8 @@ _G.pg.base.item_data_statistics[13013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8632,7 +8632,6 @@ _G.pg.base.item_data_statistics[13014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8643,7 +8642,8 @@ _G.pg.base.item_data_statistics[13014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8663,7 +8663,6 @@ _G.pg.base.item_data_statistics[13015] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8674,7 +8673,8 @@ _G.pg.base.item_data_statistics[13015] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8694,7 +8694,6 @@ _G.pg.base.item_data_statistics[13016] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8705,7 +8704,8 @@ _G.pg.base.item_data_statistics[13016] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8725,7 +8725,6 @@ _G.pg.base.item_data_statistics[13017] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8736,7 +8735,8 @@ _G.pg.base.item_data_statistics[13017] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8756,7 +8756,6 @@ _G.pg.base.item_data_statistics[13018] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8767,7 +8766,8 @@ _G.pg.base.item_data_statistics[13018] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8787,7 +8787,6 @@ _G.pg.base.item_data_statistics[13019] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8798,7 +8797,8 @@ _G.pg.base.item_data_statistics[13019] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8818,7 +8818,6 @@ _G.pg.base.item_data_statistics[13020] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8829,7 +8828,8 @@ _G.pg.base.item_data_statistics[13020] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8849,7 +8849,6 @@ _G.pg.base.item_data_statistics[13021] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8860,7 +8859,8 @@ _G.pg.base.item_data_statistics[13021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8880,7 +8880,6 @@ _G.pg.base.item_data_statistics[13022] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8891,7 +8890,8 @@ _G.pg.base.item_data_statistics[13022] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8911,7 +8911,6 @@ _G.pg.base.item_data_statistics[13023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8922,7 +8921,8 @@ _G.pg.base.item_data_statistics[13023] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8942,7 +8942,6 @@ _G.pg.base.item_data_statistics[13024] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8953,7 +8952,8 @@ _G.pg.base.item_data_statistics[13024] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -8973,7 +8973,6 @@ _G.pg.base.item_data_statistics[13025] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -8984,7 +8983,8 @@ _G.pg.base.item_data_statistics[13025] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9004,7 +9004,6 @@ _G.pg.base.item_data_statistics[13026] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9015,7 +9014,8 @@ _G.pg.base.item_data_statistics[13026] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9035,7 +9035,6 @@ _G.pg.base.item_data_statistics[13027] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9046,7 +9045,8 @@ _G.pg.base.item_data_statistics[13027] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9066,7 +9066,6 @@ _G.pg.base.item_data_statistics[13028] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9077,7 +9076,8 @@ _G.pg.base.item_data_statistics[13028] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9097,7 +9097,6 @@ _G.pg.base.item_data_statistics[13029] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9108,7 +9107,8 @@ _G.pg.base.item_data_statistics[13029] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9128,7 +9128,6 @@ _G.pg.base.item_data_statistics[13030] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9139,7 +9138,8 @@ _G.pg.base.item_data_statistics[13030] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9159,7 +9159,6 @@ _G.pg.base.item_data_statistics[13031] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9170,7 +9169,8 @@ _G.pg.base.item_data_statistics[13031] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9190,7 +9190,6 @@ _G.pg.base.item_data_statistics[13032] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9201,7 +9200,8 @@ _G.pg.base.item_data_statistics[13032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9221,7 +9221,6 @@ _G.pg.base.item_data_statistics[13033] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9232,7 +9231,8 @@ _G.pg.base.item_data_statistics[13033] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9252,7 +9252,6 @@ _G.pg.base.item_data_statistics[13034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9263,7 +9262,8 @@ _G.pg.base.item_data_statistics[13034] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9283,7 +9283,6 @@ _G.pg.base.item_data_statistics[13035] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9294,7 +9293,8 @@ _G.pg.base.item_data_statistics[13035] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9314,7 +9314,6 @@ _G.pg.base.item_data_statistics[13036] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9325,7 +9324,8 @@ _G.pg.base.item_data_statistics[13036] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9345,7 +9345,6 @@ _G.pg.base.item_data_statistics[13037] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9356,7 +9355,8 @@ _G.pg.base.item_data_statistics[13037] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9376,7 +9376,6 @@ _G.pg.base.item_data_statistics[13038] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9387,7 +9386,8 @@ _G.pg.base.item_data_statistics[13038] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9407,7 +9407,6 @@ _G.pg.base.item_data_statistics[13039] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9418,7 +9417,8 @@ _G.pg.base.item_data_statistics[13039] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9438,7 +9438,6 @@ _G.pg.base.item_data_statistics[13040] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9449,7 +9448,8 @@ _G.pg.base.item_data_statistics[13040] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9469,7 +9469,6 @@ _G.pg.base.item_data_statistics[13041] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9480,7 +9479,8 @@ _G.pg.base.item_data_statistics[13041] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9500,7 +9500,6 @@ _G.pg.base.item_data_statistics[13042] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -9511,7 +9510,8 @@ _G.pg.base.item_data_statistics[13042] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -9539,7 +9539,6 @@ _G.pg.base.item_data_statistics[14001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 14001,
@@ -9612,7 +9611,8 @@ _G.pg.base.item_data_statistics[14001] = {
 			13008,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -9639,7 +9639,6 @@ _G.pg.base.item_data_statistics[14002] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 14002,
@@ -9702,7 +9701,8 @@ _G.pg.base.item_data_statistics[14002] = {
 			13017,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -9730,7 +9730,6 @@ _G.pg.base.item_data_statistics[14003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 14003,
@@ -9793,7 +9792,8 @@ _G.pg.base.item_data_statistics[14003] = {
 			13023,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -9821,7 +9821,6 @@ _G.pg.base.item_data_statistics[14004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 14004,
@@ -9884,7 +9883,8 @@ _G.pg.base.item_data_statistics[14004] = {
 			13029,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -9912,7 +9912,6 @@ _G.pg.base.item_data_statistics[14005] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 14005,
@@ -9975,7 +9974,8 @@ _G.pg.base.item_data_statistics[14005] = {
 			13036,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -9995,7 +9995,6 @@ _G.pg.base.item_data_statistics[15001] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10006,7 +10005,8 @@ _G.pg.base.item_data_statistics[15001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10026,7 +10026,6 @@ _G.pg.base.item_data_statistics[15002] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10037,7 +10036,8 @@ _G.pg.base.item_data_statistics[15002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10057,7 +10057,6 @@ _G.pg.base.item_data_statistics[15003] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10068,7 +10067,8 @@ _G.pg.base.item_data_statistics[15003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10088,7 +10088,6 @@ _G.pg.base.item_data_statistics[15004] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10099,7 +10098,8 @@ _G.pg.base.item_data_statistics[15004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10119,7 +10119,6 @@ _G.pg.base.item_data_statistics[15005] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10130,7 +10129,8 @@ _G.pg.base.item_data_statistics[15005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10150,7 +10150,6 @@ _G.pg.base.item_data_statistics[15006] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10161,7 +10160,8 @@ _G.pg.base.item_data_statistics[15006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10181,7 +10181,6 @@ _G.pg.base.item_data_statistics[15008] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10192,7 +10191,8 @@ _G.pg.base.item_data_statistics[15008] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10212,7 +10212,6 @@ _G.pg.base.item_data_statistics[15009] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10223,7 +10222,8 @@ _G.pg.base.item_data_statistics[15009] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10243,7 +10243,6 @@ _G.pg.base.item_data_statistics[15010] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "15010",
@@ -10254,7 +10253,8 @@ _G.pg.base.item_data_statistics[15010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10274,7 +10274,6 @@ _G.pg.base.item_data_statistics[15011] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10285,7 +10284,8 @@ _G.pg.base.item_data_statistics[15011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10305,7 +10305,6 @@ _G.pg.base.item_data_statistics[15012] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10316,7 +10315,8 @@ _G.pg.base.item_data_statistics[15012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10336,7 +10336,6 @@ _G.pg.base.item_data_statistics[15013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10347,7 +10346,8 @@ _G.pg.base.item_data_statistics[15013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10367,7 +10367,6 @@ _G.pg.base.item_data_statistics[15014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10378,7 +10377,8 @@ _G.pg.base.item_data_statistics[15014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10398,7 +10398,6 @@ _G.pg.base.item_data_statistics[15015] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 15015,
@@ -10411,7 +10410,8 @@ _G.pg.base.item_data_statistics[15015] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -10431,7 +10431,6 @@ _G.pg.base.item_data_statistics[15016] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 15016,
@@ -10444,7 +10443,8 @@ _G.pg.base.item_data_statistics[15016] = {
 	combination_display = {},
 	usage_arg = {
 		100
-	}
+	},
+	limit = {}
 }
 
 
@@ -10464,7 +10464,6 @@ _G.pg.base.item_data_statistics[15017] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 15017,
@@ -10477,7 +10476,8 @@ _G.pg.base.item_data_statistics[15017] = {
 	combination_display = {},
 	usage_arg = {
 		1000
-	}
+	},
+	limit = {}
 }
 
 
@@ -10497,7 +10497,6 @@ _G.pg.base.item_data_statistics[15020] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10508,7 +10507,8 @@ _G.pg.base.item_data_statistics[15020] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10528,7 +10528,6 @@ _G.pg.base.item_data_statistics[15021] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10539,7 +10538,8 @@ _G.pg.base.item_data_statistics[15021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10559,7 +10559,6 @@ _G.pg.base.item_data_statistics[15022] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -10570,7 +10569,8 @@ _G.pg.base.item_data_statistics[15022] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -10590,7 +10590,6 @@ _G.pg.base.item_data_statistics[16001] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16001,
@@ -10606,7 +10605,8 @@ _G.pg.base.item_data_statistics[16001] = {
 		100,
 		1,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10626,7 +10626,6 @@ _G.pg.base.item_data_statistics[16002] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16002,
@@ -10642,7 +10641,8 @@ _G.pg.base.item_data_statistics[16002] = {
 		300,
 		1,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10662,7 +10662,6 @@ _G.pg.base.item_data_statistics[16003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16003,
@@ -10678,7 +10677,8 @@ _G.pg.base.item_data_statistics[16003] = {
 		800,
 		1,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10698,7 +10698,6 @@ _G.pg.base.item_data_statistics[16004] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16004,
@@ -10714,7 +10713,8 @@ _G.pg.base.item_data_statistics[16004] = {
 		1500,
 		1,
 		100
-	}
+	},
+	limit = {}
 }
 
 
@@ -10734,7 +10734,6 @@ _G.pg.base.item_data_statistics[16011] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16011,
@@ -10750,7 +10749,8 @@ _G.pg.base.item_data_statistics[16011] = {
 		100,
 		2,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10770,7 +10770,6 @@ _G.pg.base.item_data_statistics[16012] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16012,
@@ -10786,7 +10785,8 @@ _G.pg.base.item_data_statistics[16012] = {
 		300,
 		2,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10806,7 +10806,6 @@ _G.pg.base.item_data_statistics[16013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16013,
@@ -10822,7 +10821,8 @@ _G.pg.base.item_data_statistics[16013] = {
 		800,
 		2,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10842,7 +10842,6 @@ _G.pg.base.item_data_statistics[16014] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16014,
@@ -10858,7 +10857,8 @@ _G.pg.base.item_data_statistics[16014] = {
 		1500,
 		2,
 		100
-	}
+	},
+	limit = {}
 }
 
 
@@ -10878,7 +10878,6 @@ _G.pg.base.item_data_statistics[16021] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16021,
@@ -10894,7 +10893,8 @@ _G.pg.base.item_data_statistics[16021] = {
 		100,
 		3,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10914,7 +10914,6 @@ _G.pg.base.item_data_statistics[16022] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16022,
@@ -10930,7 +10929,8 @@ _G.pg.base.item_data_statistics[16022] = {
 		300,
 		3,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10950,7 +10950,6 @@ _G.pg.base.item_data_statistics[16023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16023,
@@ -10966,7 +10965,8 @@ _G.pg.base.item_data_statistics[16023] = {
 		800,
 		3,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -10986,7 +10986,6 @@ _G.pg.base.item_data_statistics[16024] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 16024,
@@ -11002,7 +11001,8 @@ _G.pg.base.item_data_statistics[16024] = {
 		1500,
 		3,
 		100
-	}
+	},
+	limit = {}
 }
 
 
@@ -11022,7 +11022,6 @@ _G.pg.base.item_data_statistics[16031] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "100",
@@ -11033,7 +11032,8 @@ _G.pg.base.item_data_statistics[16031] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11053,7 +11053,6 @@ _G.pg.base.item_data_statistics[16032] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "1000",
@@ -11064,7 +11063,8 @@ _G.pg.base.item_data_statistics[16032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11084,7 +11084,6 @@ _G.pg.base.item_data_statistics[16033] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "10000",
@@ -11095,7 +11094,8 @@ _G.pg.base.item_data_statistics[16033] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11115,7 +11115,6 @@ _G.pg.base.item_data_statistics[16501] = {
 	rarity = 2,
 	max_num = 3000,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "3000",
@@ -11126,7 +11125,8 @@ _G.pg.base.item_data_statistics[16501] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11146,7 +11146,6 @@ _G.pg.base.item_data_statistics[16502] = {
 	rarity = 3,
 	max_num = 500,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "15000",
@@ -11157,7 +11156,8 @@ _G.pg.base.item_data_statistics[16502] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11177,7 +11177,6 @@ _G.pg.base.item_data_statistics[17001] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11188,7 +11187,8 @@ _G.pg.base.item_data_statistics[17001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11208,7 +11208,6 @@ _G.pg.base.item_data_statistics[17002] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11219,7 +11218,8 @@ _G.pg.base.item_data_statistics[17002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11239,7 +11239,6 @@ _G.pg.base.item_data_statistics[17003] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11250,7 +11249,8 @@ _G.pg.base.item_data_statistics[17003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11270,7 +11270,6 @@ _G.pg.base.item_data_statistics[17004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11281,7 +11280,8 @@ _G.pg.base.item_data_statistics[17004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11301,7 +11301,6 @@ _G.pg.base.item_data_statistics[17011] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11312,7 +11311,8 @@ _G.pg.base.item_data_statistics[17011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11332,7 +11332,6 @@ _G.pg.base.item_data_statistics[17012] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11343,7 +11342,8 @@ _G.pg.base.item_data_statistics[17012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11363,7 +11363,6 @@ _G.pg.base.item_data_statistics[17013] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11374,7 +11373,8 @@ _G.pg.base.item_data_statistics[17013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11394,7 +11394,6 @@ _G.pg.base.item_data_statistics[17014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11405,7 +11404,8 @@ _G.pg.base.item_data_statistics[17014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11425,7 +11425,6 @@ _G.pg.base.item_data_statistics[17021] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11436,7 +11435,8 @@ _G.pg.base.item_data_statistics[17021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11456,7 +11456,6 @@ _G.pg.base.item_data_statistics[17022] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11467,7 +11466,8 @@ _G.pg.base.item_data_statistics[17022] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11487,7 +11487,6 @@ _G.pg.base.item_data_statistics[17023] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11498,7 +11497,8 @@ _G.pg.base.item_data_statistics[17023] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11518,7 +11518,6 @@ _G.pg.base.item_data_statistics[17024] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11529,7 +11528,8 @@ _G.pg.base.item_data_statistics[17024] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11549,7 +11549,6 @@ _G.pg.base.item_data_statistics[17031] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11560,7 +11559,8 @@ _G.pg.base.item_data_statistics[17031] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11580,7 +11580,6 @@ _G.pg.base.item_data_statistics[17032] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11591,7 +11590,8 @@ _G.pg.base.item_data_statistics[17032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11611,7 +11611,6 @@ _G.pg.base.item_data_statistics[17033] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11622,7 +11621,8 @@ _G.pg.base.item_data_statistics[17033] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11642,7 +11642,6 @@ _G.pg.base.item_data_statistics[17034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11653,7 +11652,8 @@ _G.pg.base.item_data_statistics[17034] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11673,7 +11673,6 @@ _G.pg.base.item_data_statistics[17041] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11684,7 +11683,8 @@ _G.pg.base.item_data_statistics[17041] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11704,7 +11704,6 @@ _G.pg.base.item_data_statistics[17042] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11715,7 +11714,8 @@ _G.pg.base.item_data_statistics[17042] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11735,7 +11735,6 @@ _G.pg.base.item_data_statistics[17043] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11746,7 +11745,8 @@ _G.pg.base.item_data_statistics[17043] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11766,7 +11766,6 @@ _G.pg.base.item_data_statistics[17044] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11777,7 +11776,8 @@ _G.pg.base.item_data_statistics[17044] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11797,7 +11797,6 @@ _G.pg.base.item_data_statistics[17990] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11808,7 +11807,8 @@ _G.pg.base.item_data_statistics[17990] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11828,7 +11828,6 @@ _G.pg.base.item_data_statistics[17991] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11839,7 +11838,8 @@ _G.pg.base.item_data_statistics[17991] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11859,7 +11859,6 @@ _G.pg.base.item_data_statistics[18000] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11870,7 +11869,8 @@ _G.pg.base.item_data_statistics[18000] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11890,7 +11890,6 @@ _G.pg.base.item_data_statistics[18001] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11901,7 +11900,8 @@ _G.pg.base.item_data_statistics[18001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11921,7 +11921,6 @@ _G.pg.base.item_data_statistics[18002] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11932,7 +11931,8 @@ _G.pg.base.item_data_statistics[18002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11952,7 +11952,6 @@ _G.pg.base.item_data_statistics[18003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11963,7 +11962,8 @@ _G.pg.base.item_data_statistics[18003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -11983,7 +11983,6 @@ _G.pg.base.item_data_statistics[18011] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -11994,7 +11993,8 @@ _G.pg.base.item_data_statistics[18011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12014,7 +12014,6 @@ _G.pg.base.item_data_statistics[18012] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12025,7 +12024,8 @@ _G.pg.base.item_data_statistics[18012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12045,7 +12045,6 @@ _G.pg.base.item_data_statistics[18013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12056,7 +12055,8 @@ _G.pg.base.item_data_statistics[18013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12076,7 +12076,6 @@ _G.pg.base.item_data_statistics[18021] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12087,7 +12086,8 @@ _G.pg.base.item_data_statistics[18021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12107,7 +12107,6 @@ _G.pg.base.item_data_statistics[18022] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12118,7 +12117,8 @@ _G.pg.base.item_data_statistics[18022] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12138,7 +12138,6 @@ _G.pg.base.item_data_statistics[18023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12149,7 +12148,8 @@ _G.pg.base.item_data_statistics[18023] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12169,7 +12169,6 @@ _G.pg.base.item_data_statistics[18031] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12180,7 +12179,8 @@ _G.pg.base.item_data_statistics[18031] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12200,7 +12200,6 @@ _G.pg.base.item_data_statistics[18032] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12211,7 +12210,8 @@ _G.pg.base.item_data_statistics[18032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12231,7 +12231,6 @@ _G.pg.base.item_data_statistics[18033] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12242,7 +12241,8 @@ _G.pg.base.item_data_statistics[18033] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12262,7 +12262,6 @@ _G.pg.base.item_data_statistics[18101] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12273,7 +12272,8 @@ _G.pg.base.item_data_statistics[18101] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12293,7 +12293,6 @@ _G.pg.base.item_data_statistics[18102] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12304,7 +12303,8 @@ _G.pg.base.item_data_statistics[18102] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12324,7 +12324,6 @@ _G.pg.base.item_data_statistics[18103] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12335,7 +12334,8 @@ _G.pg.base.item_data_statistics[18103] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12355,7 +12355,6 @@ _G.pg.base.item_data_statistics[18104] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12366,7 +12365,8 @@ _G.pg.base.item_data_statistics[18104] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12386,7 +12386,6 @@ _G.pg.base.item_data_statistics[18105] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12397,7 +12396,8 @@ _G.pg.base.item_data_statistics[18105] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12417,7 +12417,6 @@ _G.pg.base.item_data_statistics[18106] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12428,7 +12427,8 @@ _G.pg.base.item_data_statistics[18106] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12448,7 +12448,6 @@ _G.pg.base.item_data_statistics[18107] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12459,7 +12458,8 @@ _G.pg.base.item_data_statistics[18107] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12479,7 +12479,6 @@ _G.pg.base.item_data_statistics[18108] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12490,7 +12489,8 @@ _G.pg.base.item_data_statistics[18108] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12510,7 +12510,6 @@ _G.pg.base.item_data_statistics[18109] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12521,7 +12520,8 @@ _G.pg.base.item_data_statistics[18109] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12541,7 +12541,6 @@ _G.pg.base.item_data_statistics[18110] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12552,7 +12551,8 @@ _G.pg.base.item_data_statistics[18110] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12572,7 +12572,6 @@ _G.pg.base.item_data_statistics[18111] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12583,7 +12582,8 @@ _G.pg.base.item_data_statistics[18111] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12603,7 +12603,6 @@ _G.pg.base.item_data_statistics[18112] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12614,7 +12613,8 @@ _G.pg.base.item_data_statistics[18112] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12634,7 +12634,6 @@ _G.pg.base.item_data_statistics[18113] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12645,7 +12644,8 @@ _G.pg.base.item_data_statistics[18113] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12665,7 +12665,6 @@ _G.pg.base.item_data_statistics[18114] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12676,7 +12675,8 @@ _G.pg.base.item_data_statistics[18114] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12696,7 +12696,6 @@ _G.pg.base.item_data_statistics[18115] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12707,7 +12706,8 @@ _G.pg.base.item_data_statistics[18115] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12727,7 +12727,6 @@ _G.pg.base.item_data_statistics[18116] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12738,7 +12737,8 @@ _G.pg.base.item_data_statistics[18116] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12758,7 +12758,6 @@ _G.pg.base.item_data_statistics[18117] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12769,7 +12768,8 @@ _G.pg.base.item_data_statistics[18117] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12789,7 +12789,6 @@ _G.pg.base.item_data_statistics[18118] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12800,7 +12799,8 @@ _G.pg.base.item_data_statistics[18118] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12820,7 +12820,6 @@ _G.pg.base.item_data_statistics[18119] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12831,7 +12830,8 @@ _G.pg.base.item_data_statistics[18119] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12851,7 +12851,6 @@ _G.pg.base.item_data_statistics[18120] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12862,7 +12861,8 @@ _G.pg.base.item_data_statistics[18120] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12882,7 +12882,6 @@ _G.pg.base.item_data_statistics[18121] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12893,7 +12892,8 @@ _G.pg.base.item_data_statistics[18121] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12913,7 +12913,6 @@ _G.pg.base.item_data_statistics[18122] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12924,7 +12923,8 @@ _G.pg.base.item_data_statistics[18122] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12944,7 +12944,6 @@ _G.pg.base.item_data_statistics[18123] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12955,7 +12954,8 @@ _G.pg.base.item_data_statistics[18123] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -12975,7 +12975,6 @@ _G.pg.base.item_data_statistics[18124] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -12986,7 +12985,8 @@ _G.pg.base.item_data_statistics[18124] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13006,7 +13006,6 @@ _G.pg.base.item_data_statistics[18125] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13017,7 +13016,8 @@ _G.pg.base.item_data_statistics[18125] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13037,7 +13037,6 @@ _G.pg.base.item_data_statistics[18126] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13048,7 +13047,8 @@ _G.pg.base.item_data_statistics[18126] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13068,7 +13068,6 @@ _G.pg.base.item_data_statistics[18127] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13079,7 +13078,8 @@ _G.pg.base.item_data_statistics[18127] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13099,7 +13099,6 @@ _G.pg.base.item_data_statistics[20001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13113,7 +13112,8 @@ _G.pg.base.item_data_statistics[20001] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13133,7 +13133,6 @@ _G.pg.base.item_data_statistics[20010] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 20010,
@@ -13146,7 +13145,8 @@ _G.pg.base.item_data_statistics[20010] = {
 	combination_display = {},
 	usage_arg = {
 		1200
-	}
+	},
+	limit = {}
 }
 
 
@@ -13166,7 +13166,6 @@ _G.pg.base.item_data_statistics[20011] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13180,7 +13179,8 @@ _G.pg.base.item_data_statistics[20011] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13200,7 +13200,6 @@ _G.pg.base.item_data_statistics[20012] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13214,7 +13213,8 @@ _G.pg.base.item_data_statistics[20012] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13234,7 +13234,6 @@ _G.pg.base.item_data_statistics[20013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13248,7 +13247,8 @@ _G.pg.base.item_data_statistics[20013] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13268,7 +13268,6 @@ _G.pg.base.item_data_statistics[20101] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13282,7 +13281,8 @@ _G.pg.base.item_data_statistics[20101] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13302,7 +13302,6 @@ _G.pg.base.item_data_statistics[20102] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13316,7 +13315,8 @@ _G.pg.base.item_data_statistics[20102] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13336,7 +13336,6 @@ _G.pg.base.item_data_statistics[20103] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13350,7 +13349,8 @@ _G.pg.base.item_data_statistics[20103] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13370,7 +13370,6 @@ _G.pg.base.item_data_statistics[20104] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13384,7 +13383,8 @@ _G.pg.base.item_data_statistics[20104] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13404,7 +13404,6 @@ _G.pg.base.item_data_statistics[21000] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13415,7 +13414,8 @@ _G.pg.base.item_data_statistics[21000] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13435,7 +13435,6 @@ _G.pg.base.item_data_statistics[21001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13446,7 +13445,8 @@ _G.pg.base.item_data_statistics[21001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13466,7 +13466,6 @@ _G.pg.base.item_data_statistics[21002] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13477,7 +13476,8 @@ _G.pg.base.item_data_statistics[21002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13497,7 +13497,6 @@ _G.pg.base.item_data_statistics[21003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13508,7 +13507,8 @@ _G.pg.base.item_data_statistics[21003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13528,7 +13528,6 @@ _G.pg.base.item_data_statistics[21004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13539,7 +13538,8 @@ _G.pg.base.item_data_statistics[21004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13559,7 +13559,6 @@ _G.pg.base.item_data_statistics[21005] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13570,7 +13569,8 @@ _G.pg.base.item_data_statistics[21005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13590,7 +13590,6 @@ _G.pg.base.item_data_statistics[21006] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13601,7 +13600,8 @@ _G.pg.base.item_data_statistics[21006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13621,7 +13621,6 @@ _G.pg.base.item_data_statistics[21007] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13632,7 +13631,8 @@ _G.pg.base.item_data_statistics[21007] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13652,7 +13652,6 @@ _G.pg.base.item_data_statistics[21008] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13663,7 +13662,8 @@ _G.pg.base.item_data_statistics[21008] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13683,7 +13683,6 @@ _G.pg.base.item_data_statistics[21009] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13694,7 +13693,8 @@ _G.pg.base.item_data_statistics[21009] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13714,7 +13714,6 @@ _G.pg.base.item_data_statistics[21010] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13725,7 +13724,8 @@ _G.pg.base.item_data_statistics[21010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13745,7 +13745,6 @@ _G.pg.base.item_data_statistics[21011] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13756,7 +13755,8 @@ _G.pg.base.item_data_statistics[21011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13776,7 +13776,6 @@ _G.pg.base.item_data_statistics[21012] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13787,7 +13786,8 @@ _G.pg.base.item_data_statistics[21012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13807,7 +13807,6 @@ _G.pg.base.item_data_statistics[21013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13818,7 +13817,8 @@ _G.pg.base.item_data_statistics[21013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13838,7 +13838,6 @@ _G.pg.base.item_data_statistics[21014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13849,7 +13848,8 @@ _G.pg.base.item_data_statistics[21014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13869,7 +13869,6 @@ _G.pg.base.item_data_statistics[21015] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13880,7 +13879,8 @@ _G.pg.base.item_data_statistics[21015] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13900,7 +13900,6 @@ _G.pg.base.item_data_statistics[21016] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13911,7 +13910,8 @@ _G.pg.base.item_data_statistics[21016] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13931,7 +13931,6 @@ _G.pg.base.item_data_statistics[21017] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13942,7 +13941,8 @@ _G.pg.base.item_data_statistics[21017] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13962,7 +13962,6 @@ _G.pg.base.item_data_statistics[21018] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -13973,7 +13972,8 @@ _G.pg.base.item_data_statistics[21018] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -13993,7 +13993,6 @@ _G.pg.base.item_data_statistics[21019] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14004,7 +14003,8 @@ _G.pg.base.item_data_statistics[21019] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14024,7 +14024,6 @@ _G.pg.base.item_data_statistics[21020] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14035,7 +14034,8 @@ _G.pg.base.item_data_statistics[21020] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14055,7 +14055,6 @@ _G.pg.base.item_data_statistics[21021] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14066,7 +14065,8 @@ _G.pg.base.item_data_statistics[21021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14086,7 +14086,6 @@ _G.pg.base.item_data_statistics[21022] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14097,7 +14096,8 @@ _G.pg.base.item_data_statistics[21022] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14117,7 +14117,6 @@ _G.pg.base.item_data_statistics[21023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14128,7 +14127,8 @@ _G.pg.base.item_data_statistics[21023] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14148,7 +14148,6 @@ _G.pg.base.item_data_statistics[21024] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14159,7 +14158,8 @@ _G.pg.base.item_data_statistics[21024] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14179,7 +14179,6 @@ _G.pg.base.item_data_statistics[21025] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14190,7 +14189,8 @@ _G.pg.base.item_data_statistics[21025] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14210,7 +14210,6 @@ _G.pg.base.item_data_statistics[21026] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14221,7 +14220,8 @@ _G.pg.base.item_data_statistics[21026] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14241,7 +14241,6 @@ _G.pg.base.item_data_statistics[21027] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14252,7 +14251,8 @@ _G.pg.base.item_data_statistics[21027] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14272,7 +14272,6 @@ _G.pg.base.item_data_statistics[21028] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14283,7 +14282,8 @@ _G.pg.base.item_data_statistics[21028] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14303,7 +14303,6 @@ _G.pg.base.item_data_statistics[21029] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14314,7 +14313,8 @@ _G.pg.base.item_data_statistics[21029] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14334,7 +14334,6 @@ _G.pg.base.item_data_statistics[21030] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14345,7 +14344,8 @@ _G.pg.base.item_data_statistics[21030] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14365,7 +14365,6 @@ _G.pg.base.item_data_statistics[21032] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14376,7 +14375,8 @@ _G.pg.base.item_data_statistics[21032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14396,7 +14396,6 @@ _G.pg.base.item_data_statistics[21034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14407,7 +14406,8 @@ _G.pg.base.item_data_statistics[21034] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14427,7 +14427,6 @@ _G.pg.base.item_data_statistics[21036] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14438,7 +14437,8 @@ _G.pg.base.item_data_statistics[21036] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14458,7 +14458,6 @@ _G.pg.base.item_data_statistics[21101] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14469,7 +14468,8 @@ _G.pg.base.item_data_statistics[21101] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14489,7 +14489,6 @@ _G.pg.base.item_data_statistics[21111] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14500,7 +14499,8 @@ _G.pg.base.item_data_statistics[21111] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14520,7 +14520,6 @@ _G.pg.base.item_data_statistics[21121] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14531,7 +14530,8 @@ _G.pg.base.item_data_statistics[21121] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14551,7 +14551,6 @@ _G.pg.base.item_data_statistics[21131] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14562,7 +14561,8 @@ _G.pg.base.item_data_statistics[21131] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14582,7 +14582,6 @@ _G.pg.base.item_data_statistics[21901] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14593,7 +14592,8 @@ _G.pg.base.item_data_statistics[21901] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14613,7 +14613,6 @@ _G.pg.base.item_data_statistics[21902] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14624,7 +14623,8 @@ _G.pg.base.item_data_statistics[21902] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14644,7 +14644,6 @@ _G.pg.base.item_data_statistics[21903] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14655,7 +14654,8 @@ _G.pg.base.item_data_statistics[21903] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14675,7 +14675,6 @@ _G.pg.base.item_data_statistics[21904] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14686,7 +14685,8 @@ _G.pg.base.item_data_statistics[21904] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14706,7 +14706,6 @@ _G.pg.base.item_data_statistics[21905] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14717,7 +14716,8 @@ _G.pg.base.item_data_statistics[21905] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14737,7 +14737,6 @@ _G.pg.base.item_data_statistics[21906] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14748,7 +14747,8 @@ _G.pg.base.item_data_statistics[21906] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14768,7 +14768,6 @@ _G.pg.base.item_data_statistics[21907] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14779,7 +14778,8 @@ _G.pg.base.item_data_statistics[21907] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14799,7 +14799,6 @@ _G.pg.base.item_data_statistics[21908] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14810,7 +14809,8 @@ _G.pg.base.item_data_statistics[21908] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14830,7 +14830,6 @@ _G.pg.base.item_data_statistics[21909] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14841,7 +14840,8 @@ _G.pg.base.item_data_statistics[21909] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14861,7 +14861,6 @@ _G.pg.base.item_data_statistics[21910] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14872,7 +14871,8 @@ _G.pg.base.item_data_statistics[21910] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14892,7 +14892,6 @@ _G.pg.base.item_data_statistics[21911] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14903,7 +14902,8 @@ _G.pg.base.item_data_statistics[21911] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14923,7 +14923,6 @@ _G.pg.base.item_data_statistics[21912] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14934,7 +14933,8 @@ _G.pg.base.item_data_statistics[21912] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14954,7 +14954,6 @@ _G.pg.base.item_data_statistics[21913] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -14965,7 +14964,8 @@ _G.pg.base.item_data_statistics[21913] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -14985,7 +14985,6 @@ _G.pg.base.item_data_statistics[30001] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30001",
@@ -14999,7 +14998,8 @@ _G.pg.base.item_data_statistics[30001] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15019,7 +15019,6 @@ _G.pg.base.item_data_statistics[30011] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30011",
@@ -15033,7 +15032,8 @@ _G.pg.base.item_data_statistics[30011] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15057,7 +15057,6 @@ _G.pg.base.item_data_statistics[30012] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30012",
@@ -15071,7 +15070,8 @@ _G.pg.base.item_data_statistics[30012] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15091,7 +15091,6 @@ _G.pg.base.item_data_statistics[30013] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30013",
@@ -15105,7 +15104,8 @@ _G.pg.base.item_data_statistics[30013] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15125,7 +15125,6 @@ _G.pg.base.item_data_statistics[30014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30014",
@@ -15139,7 +15138,8 @@ _G.pg.base.item_data_statistics[30014] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15159,7 +15159,6 @@ _G.pg.base.item_data_statistics[30015] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30015",
@@ -15173,7 +15172,8 @@ _G.pg.base.item_data_statistics[30015] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15193,7 +15193,6 @@ _G.pg.base.item_data_statistics[30021] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30021",
@@ -15207,7 +15206,8 @@ _G.pg.base.item_data_statistics[30021] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15231,7 +15231,6 @@ _G.pg.base.item_data_statistics[30022] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30022",
@@ -15245,7 +15244,8 @@ _G.pg.base.item_data_statistics[30022] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15265,7 +15265,6 @@ _G.pg.base.item_data_statistics[30023] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30023",
@@ -15279,7 +15278,8 @@ _G.pg.base.item_data_statistics[30023] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15299,7 +15299,6 @@ _G.pg.base.item_data_statistics[30024] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30024",
@@ -15313,7 +15312,8 @@ _G.pg.base.item_data_statistics[30024] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15333,7 +15333,6 @@ _G.pg.base.item_data_statistics[30025] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30025",
@@ -15347,7 +15346,8 @@ _G.pg.base.item_data_statistics[30025] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15367,7 +15367,6 @@ _G.pg.base.item_data_statistics[30031] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30031",
@@ -15381,7 +15380,8 @@ _G.pg.base.item_data_statistics[30031] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15405,7 +15405,6 @@ _G.pg.base.item_data_statistics[30032] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30032",
@@ -15419,7 +15418,8 @@ _G.pg.base.item_data_statistics[30032] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15439,7 +15439,6 @@ _G.pg.base.item_data_statistics[30033] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30033",
@@ -15453,7 +15452,8 @@ _G.pg.base.item_data_statistics[30033] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15473,7 +15473,6 @@ _G.pg.base.item_data_statistics[30034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30034",
@@ -15487,7 +15486,8 @@ _G.pg.base.item_data_statistics[30034] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15507,7 +15507,6 @@ _G.pg.base.item_data_statistics[30035] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30035",
@@ -15521,7 +15520,8 @@ _G.pg.base.item_data_statistics[30035] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15541,7 +15541,6 @@ _G.pg.base.item_data_statistics[30041] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30041",
@@ -15555,7 +15554,8 @@ _G.pg.base.item_data_statistics[30041] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15579,7 +15579,6 @@ _G.pg.base.item_data_statistics[30042] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30042",
@@ -15593,7 +15592,8 @@ _G.pg.base.item_data_statistics[30042] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15613,7 +15613,6 @@ _G.pg.base.item_data_statistics[30043] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30043",
@@ -15627,7 +15626,8 @@ _G.pg.base.item_data_statistics[30043] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15647,7 +15647,6 @@ _G.pg.base.item_data_statistics[30044] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30044",
@@ -15661,7 +15660,8 @@ _G.pg.base.item_data_statistics[30044] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15681,7 +15681,6 @@ _G.pg.base.item_data_statistics[30045] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30045",
@@ -15695,7 +15694,8 @@ _G.pg.base.item_data_statistics[30045] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15715,7 +15715,6 @@ _G.pg.base.item_data_statistics[30103] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30103",
@@ -15729,7 +15728,8 @@ _G.pg.base.item_data_statistics[30103] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15749,7 +15749,6 @@ _G.pg.base.item_data_statistics[30104] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "300220",
@@ -15760,7 +15759,8 @@ _G.pg.base.item_data_statistics[30104] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -15780,7 +15780,6 @@ _G.pg.base.item_data_statistics[30111] = {
 	rarity = 1,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30111,
@@ -15843,7 +15842,8 @@ _G.pg.base.item_data_statistics[30111] = {
 			17041,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -15863,7 +15863,6 @@ _G.pg.base.item_data_statistics[30112] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30112,
@@ -15926,7 +15925,8 @@ _G.pg.base.item_data_statistics[30112] = {
 			17042,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -15946,7 +15946,6 @@ _G.pg.base.item_data_statistics[30113] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30113,
@@ -16009,7 +16008,8 @@ _G.pg.base.item_data_statistics[30113] = {
 			17043,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -16029,7 +16029,6 @@ _G.pg.base.item_data_statistics[30114] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30114,
@@ -16092,7 +16091,8 @@ _G.pg.base.item_data_statistics[30114] = {
 			17044,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -16112,7 +16112,6 @@ _G.pg.base.item_data_statistics[30121] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30121,
@@ -16133,7 +16132,8 @@ _G.pg.base.item_data_statistics[30121] = {
 		30121,
 		0,
 		1000
-	}
+	},
+	limit = {}
 }
 
 
@@ -16153,7 +16153,6 @@ _G.pg.base.item_data_statistics[30132] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30132,
@@ -16206,7 +16205,8 @@ _G.pg.base.item_data_statistics[30132] = {
 			18032,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -16226,7 +16226,6 @@ _G.pg.base.item_data_statistics[30133] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30133,
@@ -16279,7 +16278,8 @@ _G.pg.base.item_data_statistics[30133] = {
 			18033,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -16299,7 +16299,6 @@ _G.pg.base.item_data_statistics[30202] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30202,
@@ -16532,7 +16531,8 @@ _G.pg.base.item_data_statistics[30202] = {
 			47140,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -16552,7 +16552,6 @@ _G.pg.base.item_data_statistics[30203] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30203,
@@ -16635,7 +16634,8 @@ _G.pg.base.item_data_statistics[30203] = {
 			48040,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -16655,7 +16655,6 @@ _G.pg.base.item_data_statistics[30204] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30204,
@@ -16758,7 +16757,8 @@ _G.pg.base.item_data_statistics[30204] = {
 			46340,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -16778,7 +16778,6 @@ _G.pg.base.item_data_statistics[30205] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30205",
@@ -16789,7 +16788,8 @@ _G.pg.base.item_data_statistics[30205] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -16809,7 +16809,6 @@ _G.pg.base.item_data_statistics[30301] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30301,
@@ -16827,7 +16826,8 @@ _G.pg.base.item_data_statistics[30301] = {
 		30301,
 		300,
 		200
-	}
+	},
+	limit = {}
 }
 
 
@@ -16847,7 +16847,6 @@ _G.pg.base.item_data_statistics[30302] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30302",
@@ -16967,7 +16966,8 @@ _G.pg.base.item_data_statistics[30302] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -16987,7 +16987,6 @@ _G.pg.base.item_data_statistics[30303] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30303",
@@ -17077,7 +17076,8 @@ _G.pg.base.item_data_statistics[30303] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17097,7 +17097,6 @@ _G.pg.base.item_data_statistics[30304] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30304",
@@ -17197,7 +17196,8 @@ _G.pg.base.item_data_statistics[30304] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17217,7 +17217,6 @@ _G.pg.base.item_data_statistics[30305] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30305",
@@ -17317,7 +17316,8 @@ _G.pg.base.item_data_statistics[30305] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17337,7 +17337,6 @@ _G.pg.base.item_data_statistics[30306] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30306",
@@ -17457,7 +17456,8 @@ _G.pg.base.item_data_statistics[30306] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17477,7 +17477,6 @@ _G.pg.base.item_data_statistics[30307] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30307",
@@ -17582,7 +17581,8 @@ _G.pg.base.item_data_statistics[30307] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17602,7 +17602,6 @@ _G.pg.base.item_data_statistics[30308] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30308",
@@ -17707,7 +17706,8 @@ _G.pg.base.item_data_statistics[30308] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17727,7 +17727,6 @@ _G.pg.base.item_data_statistics[30309] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30306",
@@ -17847,7 +17846,8 @@ _G.pg.base.item_data_statistics[30309] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17867,7 +17867,6 @@ _G.pg.base.item_data_statistics[30310] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30310",
@@ -17972,7 +17971,8 @@ _G.pg.base.item_data_statistics[30310] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -17992,7 +17992,6 @@ _G.pg.base.item_data_statistics[30311] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30311",
@@ -18097,7 +18096,8 @@ _G.pg.base.item_data_statistics[30311] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18117,7 +18117,6 @@ _G.pg.base.item_data_statistics[30312] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30312",
@@ -18217,7 +18216,8 @@ _G.pg.base.item_data_statistics[30312] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18237,7 +18237,6 @@ _G.pg.base.item_data_statistics[30314] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30314",
@@ -18342,7 +18341,8 @@ _G.pg.base.item_data_statistics[30314] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18362,7 +18362,6 @@ _G.pg.base.item_data_statistics[30315] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30315",
@@ -18467,7 +18466,8 @@ _G.pg.base.item_data_statistics[30315] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18487,7 +18487,6 @@ _G.pg.base.item_data_statistics[30317] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30317",
@@ -18592,7 +18591,8 @@ _G.pg.base.item_data_statistics[30317] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18612,7 +18612,6 @@ _G.pg.base.item_data_statistics[30318] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30318",
@@ -18717,7 +18716,8 @@ _G.pg.base.item_data_statistics[30318] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18737,7 +18737,6 @@ _G.pg.base.item_data_statistics[30319] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30319",
@@ -18842,7 +18841,8 @@ _G.pg.base.item_data_statistics[30319] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18862,7 +18862,6 @@ _G.pg.base.item_data_statistics[30320] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30320",
@@ -18967,7 +18966,8 @@ _G.pg.base.item_data_statistics[30320] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -18987,7 +18987,6 @@ _G.pg.base.item_data_statistics[30321] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30321",
@@ -19092,7 +19091,8 @@ _G.pg.base.item_data_statistics[30321] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19112,7 +19112,6 @@ _G.pg.base.item_data_statistics[30322] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30322",
@@ -19217,7 +19216,8 @@ _G.pg.base.item_data_statistics[30322] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19237,7 +19237,6 @@ _G.pg.base.item_data_statistics[30323] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30323",
@@ -19342,7 +19341,8 @@ _G.pg.base.item_data_statistics[30323] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19362,7 +19362,6 @@ _G.pg.base.item_data_statistics[30324] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30324",
@@ -19467,7 +19466,8 @@ _G.pg.base.item_data_statistics[30324] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19487,7 +19487,6 @@ _G.pg.base.item_data_statistics[30325] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30325",
@@ -19592,7 +19591,8 @@ _G.pg.base.item_data_statistics[30325] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19612,7 +19612,6 @@ _G.pg.base.item_data_statistics[30326] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30326",
@@ -19717,7 +19716,8 @@ _G.pg.base.item_data_statistics[30326] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19737,7 +19737,6 @@ _G.pg.base.item_data_statistics[30327] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30327",
@@ -19842,7 +19841,8 @@ _G.pg.base.item_data_statistics[30327] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19862,7 +19862,6 @@ _G.pg.base.item_data_statistics[30328] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30328",
@@ -19967,7 +19966,8 @@ _G.pg.base.item_data_statistics[30328] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -19987,7 +19987,6 @@ _G.pg.base.item_data_statistics[30329] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30329",
@@ -20092,7 +20091,8 @@ _G.pg.base.item_data_statistics[30329] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20112,7 +20112,6 @@ _G.pg.base.item_data_statistics[30330] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30330",
@@ -20217,7 +20216,8 @@ _G.pg.base.item_data_statistics[30330] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20237,7 +20237,6 @@ _G.pg.base.item_data_statistics[30331] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30331",
@@ -20342,7 +20341,8 @@ _G.pg.base.item_data_statistics[30331] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20362,7 +20362,6 @@ _G.pg.base.item_data_statistics[30332] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30332",
@@ -20467,7 +20466,8 @@ _G.pg.base.item_data_statistics[30332] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20487,7 +20487,6 @@ _G.pg.base.item_data_statistics[30333] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30333",
@@ -20592,7 +20591,8 @@ _G.pg.base.item_data_statistics[30333] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20612,7 +20612,6 @@ _G.pg.base.item_data_statistics[30334] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30334",
@@ -20717,7 +20716,8 @@ _G.pg.base.item_data_statistics[30334] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20737,7 +20737,6 @@ _G.pg.base.item_data_statistics[30335] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30335",
@@ -20842,7 +20841,8 @@ _G.pg.base.item_data_statistics[30335] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20862,7 +20862,6 @@ _G.pg.base.item_data_statistics[30336] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30336",
@@ -20967,7 +20966,8 @@ _G.pg.base.item_data_statistics[30336] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -20987,7 +20987,6 @@ _G.pg.base.item_data_statistics[30337] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30337",
@@ -21092,7 +21091,8 @@ _G.pg.base.item_data_statistics[30337] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21112,7 +21112,6 @@ _G.pg.base.item_data_statistics[30338] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30338",
@@ -21217,7 +21216,8 @@ _G.pg.base.item_data_statistics[30338] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21237,7 +21237,6 @@ _G.pg.base.item_data_statistics[30339] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30339",
@@ -21342,7 +21341,8 @@ _G.pg.base.item_data_statistics[30339] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21362,7 +21362,6 @@ _G.pg.base.item_data_statistics[30340] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30340",
@@ -21467,7 +21466,8 @@ _G.pg.base.item_data_statistics[30340] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21487,7 +21487,6 @@ _G.pg.base.item_data_statistics[30341] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -21589,7 +21588,8 @@ _G.pg.base.item_data_statistics[30341] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21609,7 +21609,6 @@ _G.pg.base.item_data_statistics[30342] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30342",
@@ -21714,7 +21713,8 @@ _G.pg.base.item_data_statistics[30342] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21734,7 +21734,6 @@ _G.pg.base.item_data_statistics[30343] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30343",
@@ -21839,7 +21838,8 @@ _G.pg.base.item_data_statistics[30343] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21859,7 +21859,6 @@ _G.pg.base.item_data_statistics[30344] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30344",
@@ -21964,7 +21963,8 @@ _G.pg.base.item_data_statistics[30344] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -21984,7 +21984,6 @@ _G.pg.base.item_data_statistics[30345] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30345",
@@ -22089,7 +22088,8 @@ _G.pg.base.item_data_statistics[30345] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22109,7 +22109,6 @@ _G.pg.base.item_data_statistics[30346] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30346",
@@ -22214,7 +22213,8 @@ _G.pg.base.item_data_statistics[30346] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22234,7 +22234,6 @@ _G.pg.base.item_data_statistics[30347] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30347",
@@ -22339,7 +22338,8 @@ _G.pg.base.item_data_statistics[30347] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22359,7 +22359,6 @@ _G.pg.base.item_data_statistics[30348] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30348",
@@ -22464,7 +22463,8 @@ _G.pg.base.item_data_statistics[30348] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22484,7 +22484,6 @@ _G.pg.base.item_data_statistics[30349] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30349",
@@ -22589,7 +22588,8 @@ _G.pg.base.item_data_statistics[30349] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22609,7 +22609,6 @@ _G.pg.base.item_data_statistics[30350] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30350",
@@ -22714,7 +22713,133 @@ _G.pg.base.item_data_statistics[30350] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30351] = {
+	open_directly = 1,
+	name = "外觀裝備箱(港區喧囂夜)",
+	type = 11,
+	display = "可以獲得一件隨機的港區喧囂夜風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyedian",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30351",
+	id = 30351,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			870,
+			1
+		},
+		{
+			9,
+			871,
+			1
+		},
+		{
+			9,
+			872,
+			1
+		},
+		{
+			9,
+			873,
+			1
+		},
+		{
+			9,
+			874,
+			1
+		},
+		{
+			9,
+			875,
+			1
+		},
+		{
+			9,
+			876,
+			1
+		},
+		{
+			9,
+			877,
+			1
+		},
+		{
+			9,
+			878,
+			1
+		},
+		{
+			9,
+			879,
+			1
+		},
+		{
+			9,
+			880,
+			1
+		},
+		{
+			9,
+			881,
+			1
+		},
+		{
+			9,
+			882,
+			1
+		},
+		{
+			9,
+			883,
+			1
+		},
+		{
+			9,
+			884,
+			1
+		},
+		{
+			9,
+			885,
+			1
+		},
+		{
+			9,
+			886,
+			1
+		},
+		{
+			9,
+			887,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22734,7 +22859,6 @@ _G.pg.base.item_data_statistics[30353] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30353",
@@ -22839,7 +22963,8 @@ _G.pg.base.item_data_statistics[30353] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22859,7 +22984,6 @@ _G.pg.base.item_data_statistics[30354] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30354",
@@ -22964,7 +23088,8 @@ _G.pg.base.item_data_statistics[30354] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -22984,7 +23109,6 @@ _G.pg.base.item_data_statistics[30355] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30355",
@@ -23089,7 +23213,8 @@ _G.pg.base.item_data_statistics[30355] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23109,7 +23234,6 @@ _G.pg.base.item_data_statistics[30356] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30356",
@@ -23214,7 +23338,8 @@ _G.pg.base.item_data_statistics[30356] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23234,7 +23359,6 @@ _G.pg.base.item_data_statistics[30357] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -23336,7 +23460,8 @@ _G.pg.base.item_data_statistics[30357] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23356,7 +23481,6 @@ _G.pg.base.item_data_statistics[30358] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30358",
@@ -23461,7 +23585,8 @@ _G.pg.base.item_data_statistics[30358] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23481,7 +23606,6 @@ _G.pg.base.item_data_statistics[30360] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30360",
@@ -23586,7 +23710,8 @@ _G.pg.base.item_data_statistics[30360] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23606,7 +23731,6 @@ _G.pg.base.item_data_statistics[30362] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30362",
@@ -23711,7 +23835,8 @@ _G.pg.base.item_data_statistics[30362] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23731,7 +23856,6 @@ _G.pg.base.item_data_statistics[30401] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30401",
@@ -23763,7 +23887,8 @@ _G.pg.base.item_data_statistics[30401] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23783,7 +23908,6 @@ _G.pg.base.item_data_statistics[30402] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30402",
@@ -23815,7 +23939,8 @@ _G.pg.base.item_data_statistics[30402] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23835,7 +23960,6 @@ _G.pg.base.item_data_statistics[30403] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30403",
@@ -23867,7 +23991,8 @@ _G.pg.base.item_data_statistics[30403] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23887,7 +24012,6 @@ _G.pg.base.item_data_statistics[30404] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30404",
@@ -23919,7 +24043,8 @@ _G.pg.base.item_data_statistics[30404] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23939,7 +24064,6 @@ _G.pg.base.item_data_statistics[30405] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30405",
@@ -23971,7 +24095,8 @@ _G.pg.base.item_data_statistics[30405] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -23991,7 +24116,6 @@ _G.pg.base.item_data_statistics[30406] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30406",
@@ -24023,7 +24147,8 @@ _G.pg.base.item_data_statistics[30406] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24043,7 +24168,6 @@ _G.pg.base.item_data_statistics[30407] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30407",
@@ -24085,7 +24209,8 @@ _G.pg.base.item_data_statistics[30407] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24105,7 +24230,6 @@ _G.pg.base.item_data_statistics[30408] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30408",
@@ -24132,7 +24256,8 @@ _G.pg.base.item_data_statistics[30408] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24152,7 +24277,6 @@ _G.pg.base.item_data_statistics[30409] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30409",
@@ -24184,7 +24308,8 @@ _G.pg.base.item_data_statistics[30409] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24204,7 +24329,6 @@ _G.pg.base.item_data_statistics[30410] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30410",
@@ -24236,7 +24360,8 @@ _G.pg.base.item_data_statistics[30410] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24256,7 +24381,6 @@ _G.pg.base.item_data_statistics[30411] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30411",
@@ -24298,7 +24422,8 @@ _G.pg.base.item_data_statistics[30411] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24318,7 +24443,6 @@ _G.pg.base.item_data_statistics[30412] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30412",
@@ -24345,7 +24469,8 @@ _G.pg.base.item_data_statistics[30412] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24365,7 +24490,6 @@ _G.pg.base.item_data_statistics[30413] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30413",
@@ -24397,7 +24521,8 @@ _G.pg.base.item_data_statistics[30413] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24417,7 +24542,6 @@ _G.pg.base.item_data_statistics[30414] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30414",
@@ -24459,7 +24583,8 @@ _G.pg.base.item_data_statistics[30414] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24479,7 +24604,6 @@ _G.pg.base.item_data_statistics[30415] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30415",
@@ -24506,7 +24630,8 @@ _G.pg.base.item_data_statistics[30415] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24526,7 +24651,6 @@ _G.pg.base.item_data_statistics[30416] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30416",
@@ -24558,7 +24682,8 @@ _G.pg.base.item_data_statistics[30416] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24578,7 +24703,6 @@ _G.pg.base.item_data_statistics[30417] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30417",
@@ -24610,7 +24734,8 @@ _G.pg.base.item_data_statistics[30417] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24630,7 +24755,6 @@ _G.pg.base.item_data_statistics[30418] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30418",
@@ -24662,7 +24786,8 @@ _G.pg.base.item_data_statistics[30418] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24682,7 +24807,6 @@ _G.pg.base.item_data_statistics[30419] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30419",
@@ -24709,7 +24833,8 @@ _G.pg.base.item_data_statistics[30419] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24729,7 +24854,6 @@ _G.pg.base.item_data_statistics[30420] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30420",
@@ -24771,7 +24895,8 @@ _G.pg.base.item_data_statistics[30420] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24791,7 +24916,6 @@ _G.pg.base.item_data_statistics[30421] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30421",
@@ -24823,7 +24947,8 @@ _G.pg.base.item_data_statistics[30421] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24843,7 +24968,6 @@ _G.pg.base.item_data_statistics[30422] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30422",
@@ -24875,7 +24999,8 @@ _G.pg.base.item_data_statistics[30422] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24895,7 +25020,6 @@ _G.pg.base.item_data_statistics[30424] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30424",
@@ -24922,7 +25046,8 @@ _G.pg.base.item_data_statistics[30424] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -24942,7 +25067,6 @@ _G.pg.base.item_data_statistics[30501] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30501,
@@ -25135,7 +25259,8 @@ _G.pg.base.item_data_statistics[30501] = {
 			118,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -25155,7 +25280,6 @@ _G.pg.base.item_data_statistics[30502] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30502,
@@ -25338,7 +25462,8 @@ _G.pg.base.item_data_statistics[30502] = {
 			38,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -25358,7 +25483,6 @@ _G.pg.base.item_data_statistics[30503] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30503,
@@ -25531,7 +25655,8 @@ _G.pg.base.item_data_statistics[30503] = {
 			65,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -25551,7 +25676,6 @@ _G.pg.base.item_data_statistics[30504] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30504,
@@ -25744,7 +25868,8 @@ _G.pg.base.item_data_statistics[30504] = {
 			577,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -25764,7 +25889,6 @@ _G.pg.base.item_data_statistics[30505] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30505,
@@ -25957,7 +26081,8 @@ _G.pg.base.item_data_statistics[30505] = {
 			157,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -25977,7 +26102,6 @@ _G.pg.base.item_data_statistics[30506] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30506,
@@ -26170,7 +26294,8 @@ _G.pg.base.item_data_statistics[30506] = {
 			597,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -26190,7 +26315,6 @@ _G.pg.base.item_data_statistics[30507] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30507,
@@ -26383,7 +26507,8 @@ _G.pg.base.item_data_statistics[30507] = {
 			617,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -26403,7 +26528,6 @@ _G.pg.base.item_data_statistics[30508] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30508,
@@ -26596,7 +26720,8 @@ _G.pg.base.item_data_statistics[30508] = {
 			177,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -26616,7 +26741,6 @@ _G.pg.base.item_data_statistics[30509] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30509,
@@ -26809,7 +26933,8 @@ _G.pg.base.item_data_statistics[30509] = {
 			637,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -26829,7 +26954,6 @@ _G.pg.base.item_data_statistics[30510] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30510,
@@ -27022,7 +27146,8 @@ _G.pg.base.item_data_statistics[30510] = {
 			655,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -27042,7 +27167,6 @@ _G.pg.base.item_data_statistics[30511] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30511,
@@ -27235,7 +27359,8 @@ _G.pg.base.item_data_statistics[30511] = {
 			237,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -27255,7 +27380,6 @@ _G.pg.base.item_data_statistics[30512] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30512,
@@ -27448,7 +27572,8 @@ _G.pg.base.item_data_statistics[30512] = {
 			687,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -27468,7 +27593,6 @@ _G.pg.base.item_data_statistics[30513] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30513,
@@ -27661,7 +27785,8 @@ _G.pg.base.item_data_statistics[30513] = {
 			1217,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -27681,7 +27806,6 @@ _G.pg.base.item_data_statistics[30514] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30514,
@@ -27874,7 +27998,8 @@ _G.pg.base.item_data_statistics[30514] = {
 			257,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -27894,7 +28019,6 @@ _G.pg.base.item_data_statistics[30516] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30516,
@@ -28087,7 +28211,8 @@ _G.pg.base.item_data_statistics[30516] = {
 			707,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -28107,7 +28232,6 @@ _G.pg.base.item_data_statistics[30517] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30517,
@@ -28300,7 +28424,8 @@ _G.pg.base.item_data_statistics[30517] = {
 			727,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -28320,7 +28445,6 @@ _G.pg.base.item_data_statistics[30518] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30518,
@@ -28513,7 +28637,8 @@ _G.pg.base.item_data_statistics[30518] = {
 			277,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -28533,7 +28658,6 @@ _G.pg.base.item_data_statistics[30519] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30519,
@@ -28726,7 +28850,8 @@ _G.pg.base.item_data_statistics[30519] = {
 			747,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -28746,7 +28871,6 @@ _G.pg.base.item_data_statistics[30520] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30520,
@@ -28939,7 +29063,8 @@ _G.pg.base.item_data_statistics[30520] = {
 			297,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -28959,7 +29084,6 @@ _G.pg.base.item_data_statistics[30521] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30521,
@@ -29152,7 +29276,8 @@ _G.pg.base.item_data_statistics[30521] = {
 			357,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -29172,7 +29297,6 @@ _G.pg.base.item_data_statistics[30522] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30522,
@@ -29365,7 +29489,8 @@ _G.pg.base.item_data_statistics[30522] = {
 			767,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -29385,7 +29510,6 @@ _G.pg.base.item_data_statistics[30523] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30523,
@@ -29578,7 +29702,8 @@ _G.pg.base.item_data_statistics[30523] = {
 			317,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -29598,7 +29723,6 @@ _G.pg.base.item_data_statistics[30524] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30524,
@@ -29791,7 +29915,8 @@ _G.pg.base.item_data_statistics[30524] = {
 			417,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -29811,7 +29936,6 @@ _G.pg.base.item_data_statistics[30525] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30525,
@@ -30004,7 +30128,8 @@ _G.pg.base.item_data_statistics[30525] = {
 			797,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -30024,7 +30149,6 @@ _G.pg.base.item_data_statistics[30526] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30526,
@@ -30217,7 +30341,8 @@ _G.pg.base.item_data_statistics[30526] = {
 			377,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -30237,7 +30362,6 @@ _G.pg.base.item_data_statistics[30527] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30527,
@@ -30430,7 +30554,8 @@ _G.pg.base.item_data_statistics[30527] = {
 			497,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -30450,7 +30575,6 @@ _G.pg.base.item_data_statistics[30528] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30528,
@@ -30643,7 +30767,8 @@ _G.pg.base.item_data_statistics[30528] = {
 			827,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -30663,7 +30788,6 @@ _G.pg.base.item_data_statistics[30529] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30529,
@@ -30856,7 +30980,8 @@ _G.pg.base.item_data_statistics[30529] = {
 			847,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -30876,7 +31001,6 @@ _G.pg.base.item_data_statistics[30530] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30530,
@@ -31069,7 +31193,8 @@ _G.pg.base.item_data_statistics[30530] = {
 			397,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -31089,7 +31214,6 @@ _G.pg.base.item_data_statistics[30531] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30531,
@@ -31282,7 +31406,8 @@ _G.pg.base.item_data_statistics[30531] = {
 			867,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -31302,7 +31427,6 @@ _G.pg.base.item_data_statistics[30532] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30532,
@@ -31495,7 +31619,8 @@ _G.pg.base.item_data_statistics[30532] = {
 			477,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -31515,7 +31640,6 @@ _G.pg.base.item_data_statistics[30533] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30533,
@@ -31708,7 +31832,221 @@ _G.pg.base.item_data_statistics[30533] = {
 			1417,
 			1
 		}
-	}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30534] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(港區喧囂夜)",
+	type = 13,
+	display = "使用後可從「港區喧囂夜」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxyedianzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30534,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			870,
+			1
+		},
+		{
+			9,
+			871,
+			1
+		},
+		{
+			9,
+			872,
+			1
+		},
+		{
+			9,
+			873,
+			1
+		},
+		{
+			9,
+			874,
+			1
+		},
+		{
+			9,
+			875,
+			1
+		},
+		{
+			9,
+			876,
+			1
+		},
+		{
+			9,
+			877,
+			1
+		},
+		{
+			9,
+			878,
+			1
+		},
+		{
+			9,
+			879,
+			1
+		},
+		{
+			9,
+			880,
+			1
+		},
+		{
+			9,
+			881,
+			1
+		},
+		{
+			9,
+			882,
+			1
+		},
+		{
+			9,
+			883,
+			1
+		},
+		{
+			9,
+			884,
+			1
+		},
+		{
+			9,
+			885,
+			1
+		},
+		{
+			9,
+			886,
+			1
+		},
+		{
+			9,
+			887,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			870,
+			1
+		},
+		{
+			9,
+			871,
+			1
+		},
+		{
+			9,
+			872,
+			1
+		},
+		{
+			9,
+			873,
+			1
+		},
+		{
+			9,
+			874,
+			1
+		},
+		{
+			9,
+			875,
+			1
+		},
+		{
+			9,
+			876,
+			1
+		},
+		{
+			9,
+			877,
+			1
+		},
+		{
+			9,
+			878,
+			1
+		},
+		{
+			9,
+			879,
+			1
+		},
+		{
+			9,
+			880,
+			1
+		},
+		{
+			9,
+			881,
+			1
+		},
+		{
+			9,
+			882,
+			1
+		},
+		{
+			9,
+			883,
+			1
+		},
+		{
+			9,
+			884,
+			1
+		},
+		{
+			9,
+			885,
+			1
+		},
+		{
+			9,
+			886,
+			1
+		},
+		{
+			9,
+			887,
+			1
+		}
+	},
+	limit = {}
 }
 
 
@@ -31728,7 +32066,6 @@ _G.pg.base.item_data_statistics[30536] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30536,
@@ -31921,7 +32258,8 @@ _G.pg.base.item_data_statistics[30536] = {
 			457,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -31941,7 +32279,6 @@ _G.pg.base.item_data_statistics[30537] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30537,
@@ -32134,7 +32471,8 @@ _G.pg.base.item_data_statistics[30537] = {
 			927,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -32154,7 +32492,6 @@ _G.pg.base.item_data_statistics[30538] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30538,
@@ -32347,7 +32684,8 @@ _G.pg.base.item_data_statistics[30538] = {
 			947,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -32367,7 +32705,6 @@ _G.pg.base.item_data_statistics[30539] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30539,
@@ -32560,7 +32897,8 @@ _G.pg.base.item_data_statistics[30539] = {
 			967,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -32580,7 +32918,6 @@ _G.pg.base.item_data_statistics[30540] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30540,
@@ -32773,7 +33110,8 @@ _G.pg.base.item_data_statistics[30540] = {
 			987,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -32793,7 +33131,6 @@ _G.pg.base.item_data_statistics[30541] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30541,
@@ -32986,7 +33323,8 @@ _G.pg.base.item_data_statistics[30541] = {
 			517,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -33006,7 +33344,6 @@ _G.pg.base.item_data_statistics[30542] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30542,
@@ -33199,7 +33536,8 @@ _G.pg.base.item_data_statistics[30542] = {
 			4018,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -33219,7 +33557,6 @@ _G.pg.base.item_data_statistics[30543] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30543,
@@ -33412,7 +33749,8 @@ _G.pg.base.item_data_statistics[30543] = {
 			537,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -33432,7 +33770,6 @@ _G.pg.base.item_data_statistics[30545] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30545,
@@ -33625,7 +33962,8 @@ _G.pg.base.item_data_statistics[30545] = {
 			4058,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -33645,7 +33983,6 @@ _G.pg.base.item_data_statistics[30548] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30548,
@@ -33838,7 +34175,8 @@ _G.pg.base.item_data_statistics[30548] = {
 			1467,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -33858,7 +34196,6 @@ _G.pg.base.item_data_statistics[30900] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30900,
@@ -33921,7 +34258,8 @@ _G.pg.base.item_data_statistics[30900] = {
 			17044,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -33941,7 +34279,6 @@ _G.pg.base.item_data_statistics[30911] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30911,
@@ -33994,7 +34331,8 @@ _G.pg.base.item_data_statistics[30911] = {
 			18110,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -34014,7 +34352,6 @@ _G.pg.base.item_data_statistics[30912] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30912,
@@ -34087,7 +34424,8 @@ _G.pg.base.item_data_statistics[30912] = {
 			18115,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -34107,7 +34445,6 @@ _G.pg.base.item_data_statistics[30913] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30913,
@@ -34180,7 +34517,8 @@ _G.pg.base.item_data_statistics[30913] = {
 			18116,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -34200,7 +34538,6 @@ _G.pg.base.item_data_statistics[30914] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30914,
@@ -34253,7 +34590,8 @@ _G.pg.base.item_data_statistics[30914] = {
 			18123,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -34273,7 +34611,6 @@ _G.pg.base.item_data_statistics[30915] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 30915,
@@ -34326,7 +34663,8 @@ _G.pg.base.item_data_statistics[30915] = {
 			18124,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -34346,7 +34684,6 @@ _G.pg.base.item_data_statistics[40000] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40000,
@@ -34392,7 +34729,8 @@ _G.pg.base.item_data_statistics[40000] = {
 		4017,
 		0,
 		4000
-	}
+	},
+	limit = {}
 }
 
 
@@ -34412,7 +34750,6 @@ _G.pg.base.item_data_statistics[40003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40003,
@@ -34433,7 +34770,8 @@ _G.pg.base.item_data_statistics[40003] = {
 		4003,
 		0,
 		3000
-	}
+	},
+	limit = {}
 }
 
 
@@ -34453,7 +34791,6 @@ _G.pg.base.item_data_statistics[40004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40004,
@@ -34484,7 +34821,8 @@ _G.pg.base.item_data_statistics[40004] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -34504,7 +34842,6 @@ _G.pg.base.item_data_statistics[40005] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4005",
@@ -34541,7 +34878,8 @@ _G.pg.base.item_data_statistics[40005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -34561,7 +34899,6 @@ _G.pg.base.item_data_statistics[40006] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4006",
@@ -34598,7 +34935,8 @@ _G.pg.base.item_data_statistics[40006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -34618,7 +34956,6 @@ _G.pg.base.item_data_statistics[40007] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4007",
@@ -34670,7 +35007,8 @@ _G.pg.base.item_data_statistics[40007] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -34690,7 +35028,6 @@ _G.pg.base.item_data_statistics[40008] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4008",
@@ -34742,7 +35079,8 @@ _G.pg.base.item_data_statistics[40008] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -34762,7 +35100,6 @@ _G.pg.base.item_data_statistics[40009] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40009,
@@ -34798,7 +35135,8 @@ _G.pg.base.item_data_statistics[40009] = {
 		4009,
 		8000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -34818,7 +35156,6 @@ _G.pg.base.item_data_statistics[40011] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4011",
@@ -34870,7 +35207,8 @@ _G.pg.base.item_data_statistics[40011] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -34890,7 +35228,6 @@ _G.pg.base.item_data_statistics[40012] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4012",
@@ -34942,7 +35279,8 @@ _G.pg.base.item_data_statistics[40012] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -34962,7 +35300,6 @@ _G.pg.base.item_data_statistics[40013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4013",
@@ -35039,7 +35376,8 @@ _G.pg.base.item_data_statistics[40013] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35059,7 +35397,6 @@ _G.pg.base.item_data_statistics[40014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4014",
@@ -35136,7 +35473,8 @@ _G.pg.base.item_data_statistics[40014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35156,7 +35494,6 @@ _G.pg.base.item_data_statistics[40016] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4018",
@@ -35178,7 +35515,8 @@ _G.pg.base.item_data_statistics[40016] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35198,7 +35536,6 @@ _G.pg.base.item_data_statistics[40017] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4019",
@@ -35215,7 +35552,8 @@ _G.pg.base.item_data_statistics[40017] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35235,7 +35573,6 @@ _G.pg.base.item_data_statistics[40018] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4020",
@@ -35252,7 +35589,8 @@ _G.pg.base.item_data_statistics[40018] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35272,7 +35610,6 @@ _G.pg.base.item_data_statistics[40019] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4021",
@@ -35294,7 +35631,8 @@ _G.pg.base.item_data_statistics[40019] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35314,7 +35652,6 @@ _G.pg.base.item_data_statistics[40020] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4022",
@@ -35331,7 +35668,8 @@ _G.pg.base.item_data_statistics[40020] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35351,7 +35689,6 @@ _G.pg.base.item_data_statistics[40021] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4023",
@@ -35368,7 +35705,8 @@ _G.pg.base.item_data_statistics[40021] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35388,7 +35726,6 @@ _G.pg.base.item_data_statistics[40022] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4024",
@@ -35565,7 +35902,8 @@ _G.pg.base.item_data_statistics[40022] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35585,7 +35923,6 @@ _G.pg.base.item_data_statistics[40023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4025",
@@ -35627,7 +35964,8 @@ _G.pg.base.item_data_statistics[40023] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35647,7 +35985,6 @@ _G.pg.base.item_data_statistics[40026] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4028",
@@ -35669,7 +36006,8 @@ _G.pg.base.item_data_statistics[40026] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35689,7 +36027,6 @@ _G.pg.base.item_data_statistics[40027] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4029",
@@ -35706,7 +36043,8 @@ _G.pg.base.item_data_statistics[40027] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35726,7 +36064,6 @@ _G.pg.base.item_data_statistics[40028] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4030",
@@ -35743,7 +36080,70 @@ _G.pg.base.item_data_statistics[40028] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40029] = {
+	open_directly = 1,
+	name = "冬至禮包(2023冬)",
+	type = 17,
+	display = "購買禮包可獲得大量材料獎勵",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4031",
+	id = 40029,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			3880
+		},
+		{
+			4,
+			100021,
+			1
+		},
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			16502,
+			60
+		},
+		{
+			2,
+			30113,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35763,7 +36163,6 @@ _G.pg.base.item_data_statistics[40030] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4032",
@@ -35795,7 +36194,8 @@ _G.pg.base.item_data_statistics[40030] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35815,7 +36215,6 @@ _G.pg.base.item_data_statistics[40031] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4033",
@@ -35832,7 +36231,8 @@ _G.pg.base.item_data_statistics[40031] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35852,7 +36252,6 @@ _G.pg.base.item_data_statistics[40032] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4034",
@@ -35869,7 +36268,8 @@ _G.pg.base.item_data_statistics[40032] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35889,7 +36289,6 @@ _G.pg.base.item_data_statistics[40033] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4035",
@@ -35906,7 +36305,8 @@ _G.pg.base.item_data_statistics[40033] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35926,7 +36326,6 @@ _G.pg.base.item_data_statistics[40034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4036",
@@ -35948,7 +36347,8 @@ _G.pg.base.item_data_statistics[40034] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -35968,7 +36368,6 @@ _G.pg.base.item_data_statistics[40035] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40035,
@@ -36024,7 +36423,8 @@ _G.pg.base.item_data_statistics[40035] = {
 		4037,
 		0,
 		800
-	}
+	},
+	limit = {}
 }
 
 
@@ -36044,7 +36444,6 @@ _G.pg.base.item_data_statistics[40036] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40036,
@@ -36105,7 +36504,8 @@ _G.pg.base.item_data_statistics[40036] = {
 		4038,
 		0,
 		1600
-	}
+	},
+	limit = {}
 }
 
 
@@ -36125,7 +36525,6 @@ _G.pg.base.item_data_statistics[40037] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4039",
@@ -36182,7 +36581,8 @@ _G.pg.base.item_data_statistics[40037] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36202,7 +36602,6 @@ _G.pg.base.item_data_statistics[40038] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4040",
@@ -36264,7 +36663,8 @@ _G.pg.base.item_data_statistics[40038] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36284,7 +36684,6 @@ _G.pg.base.item_data_statistics[40039] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4041",
@@ -36346,7 +36745,8 @@ _G.pg.base.item_data_statistics[40039] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36366,7 +36766,6 @@ _G.pg.base.item_data_statistics[40040] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4042",
@@ -36423,7 +36822,8 @@ _G.pg.base.item_data_statistics[40040] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36443,7 +36843,6 @@ _G.pg.base.item_data_statistics[40041] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4043",
@@ -36500,7 +36899,8 @@ _G.pg.base.item_data_statistics[40041] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36520,7 +36920,6 @@ _G.pg.base.item_data_statistics[40042] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4044",
@@ -36577,7 +36976,8 @@ _G.pg.base.item_data_statistics[40042] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36597,7 +36997,6 @@ _G.pg.base.item_data_statistics[40043] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4045",
@@ -36619,7 +37018,8 @@ _G.pg.base.item_data_statistics[40043] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36639,7 +37039,6 @@ _G.pg.base.item_data_statistics[40100] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4100",
@@ -36656,7 +37055,8 @@ _G.pg.base.item_data_statistics[40100] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36676,7 +37076,6 @@ _G.pg.base.item_data_statistics[40101] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4101",
@@ -36703,7 +37102,8 @@ _G.pg.base.item_data_statistics[40101] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36723,7 +37123,6 @@ _G.pg.base.item_data_statistics[40102] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40102,
@@ -36744,7 +37143,8 @@ _G.pg.base.item_data_statistics[40102] = {
 		4102,
 		0,
 		2000
-	}
+	},
+	limit = {}
 }
 
 
@@ -36764,7 +37164,6 @@ _G.pg.base.item_data_statistics[40103] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4103",
@@ -36786,7 +37185,8 @@ _G.pg.base.item_data_statistics[40103] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36806,7 +37206,6 @@ _G.pg.base.item_data_statistics[40104] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40104,
@@ -36837,7 +37236,8 @@ _G.pg.base.item_data_statistics[40104] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -36857,7 +37257,6 @@ _G.pg.base.item_data_statistics[40105] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40105,
@@ -36878,7 +37277,8 @@ _G.pg.base.item_data_statistics[40105] = {
 		4102,
 		0,
 		2000
-	}
+	},
+	limit = {}
 }
 
 
@@ -36898,7 +37298,6 @@ _G.pg.base.item_data_statistics[40106] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4106",
@@ -36920,7 +37319,8 @@ _G.pg.base.item_data_statistics[40106] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -36940,7 +37340,6 @@ _G.pg.base.item_data_statistics[40107] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40107,
@@ -36961,7 +37360,8 @@ _G.pg.base.item_data_statistics[40107] = {
 		4003,
 		0,
 		3000
-	}
+	},
+	limit = {}
 }
 
 
@@ -36981,7 +37381,6 @@ _G.pg.base.item_data_statistics[40108] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40108,
@@ -37012,7 +37411,8 @@ _G.pg.base.item_data_statistics[40108] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -37032,7 +37432,6 @@ _G.pg.base.item_data_statistics[40109] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40109,
@@ -37053,7 +37452,8 @@ _G.pg.base.item_data_statistics[40109] = {
 		4003,
 		0,
 		3000
-	}
+	},
+	limit = {}
 }
 
 
@@ -37073,7 +37473,6 @@ _G.pg.base.item_data_statistics[40110] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40110,
@@ -37104,7 +37503,8 @@ _G.pg.base.item_data_statistics[40110] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -37124,7 +37524,6 @@ _G.pg.base.item_data_statistics[40111] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40111,
@@ -37145,7 +37544,8 @@ _G.pg.base.item_data_statistics[40111] = {
 		4102,
 		0,
 		2000
-	}
+	},
+	limit = {}
 }
 
 
@@ -37165,7 +37565,6 @@ _G.pg.base.item_data_statistics[40112] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40112,
@@ -37196,7 +37595,8 @@ _G.pg.base.item_data_statistics[40112] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -37216,7 +37616,6 @@ _G.pg.base.item_data_statistics[40113] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40113,
@@ -37237,7 +37636,8 @@ _G.pg.base.item_data_statistics[40113] = {
 		4102,
 		0,
 		2000
-	}
+	},
+	limit = {}
 }
 
 
@@ -37257,7 +37657,6 @@ _G.pg.base.item_data_statistics[40114] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40114,
@@ -37288,7 +37687,8 @@ _G.pg.base.item_data_statistics[40114] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -37308,7 +37708,6 @@ _G.pg.base.item_data_statistics[40115] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40115,
@@ -37329,7 +37728,8 @@ _G.pg.base.item_data_statistics[40115] = {
 		4102,
 		0,
 		2000
-	}
+	},
+	limit = {}
 }
 
 
@@ -37349,7 +37749,6 @@ _G.pg.base.item_data_statistics[40116] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40116,
@@ -37380,7 +37779,8 @@ _G.pg.base.item_data_statistics[40116] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -37400,7 +37800,6 @@ _G.pg.base.item_data_statistics[40117] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40117,
@@ -37421,7 +37820,8 @@ _G.pg.base.item_data_statistics[40117] = {
 		4102,
 		0,
 		2000
-	}
+	},
+	limit = {}
 }
 
 
@@ -37441,7 +37841,6 @@ _G.pg.base.item_data_statistics[40118] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40118,
@@ -37472,7 +37871,8 @@ _G.pg.base.item_data_statistics[40118] = {
 		4004,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -37492,7 +37892,6 @@ _G.pg.base.item_data_statistics[40119] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4016",
@@ -37509,7 +37908,8 @@ _G.pg.base.item_data_statistics[40119] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -37536,7 +37936,6 @@ _G.pg.base.item_data_statistics[40124] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[{ship_unlock,29901},{ship_unlock,29902},{ship_unlock,39901},{ship_unlock,39902},{ship_unlock,49901},{ship_unlock,89901}]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4203",
@@ -37573,7 +37972,33 @@ _G.pg.base.item_data_statistics[40124] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			29901
+		},
+		{
+			ship_unlock,
+			29902
+		},
+		{
+			ship_unlock,
+			39901
+		},
+		{
+			ship_unlock,
+			39902
+		},
+		{
+			ship_unlock,
+			49901
+		},
+		{
+			ship_unlock,
+			89901
+		}
+	}
 }
 
 
@@ -37600,7 +38025,6 @@ _G.pg.base.item_data_statistics[40125] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[{ship_unlock,19901},{ship_unlock,19902},{ship_unlock,39903},{ship_unlock,99901}]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4204",
@@ -37637,7 +38061,25 @@ _G.pg.base.item_data_statistics[40125] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			19901
+		},
+		{
+			ship_unlock,
+			19902
+		},
+		{
+			ship_unlock,
+			39903
+		},
+		{
+			ship_unlock,
+			99901
+		}
+	}
 }
 
 
@@ -37657,7 +38099,6 @@ _G.pg.base.item_data_statistics[40128] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4206",
@@ -37684,7 +38125,8 @@ _G.pg.base.item_data_statistics[40128] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -37704,7 +38146,6 @@ _G.pg.base.item_data_statistics[40129] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4207",
@@ -37761,7 +38202,8 @@ _G.pg.base.item_data_statistics[40129] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -37788,7 +38230,6 @@ _G.pg.base.item_data_statistics[40130] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[{ship_unlock,29903},{ship_unlock,49903},{ship_unlock,49904},{ship_unlock,89902}]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4208",
@@ -37825,7 +38266,25 @@ _G.pg.base.item_data_statistics[40130] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {
+		{
+			ship_unlock,
+			29903
+		},
+		{
+			ship_unlock,
+			49903
+		},
+		{
+			ship_unlock,
+			49904
+		},
+		{
+			ship_unlock,
+			89902
+		}
+	}
 }
 
 
@@ -37845,7 +38304,6 @@ _G.pg.base.item_data_statistics[40131] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40131,
@@ -37871,7 +38329,8 @@ _G.pg.base.item_data_statistics[40131] = {
 		4131,
 		0,
 		150
-	}
+	},
+	limit = {}
 }
 
 
@@ -37891,7 +38350,6 @@ _G.pg.base.item_data_statistics[40132] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40132,
@@ -37917,7 +38375,8 @@ _G.pg.base.item_data_statistics[40132] = {
 		4132,
 		0,
 		150
-	}
+	},
+	limit = {}
 }
 
 
@@ -37937,7 +38396,6 @@ _G.pg.base.item_data_statistics[40133] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40133,
@@ -37963,7 +38421,8 @@ _G.pg.base.item_data_statistics[40133] = {
 		4133,
 		0,
 		150
-	}
+	},
+	limit = {}
 }
 
 
@@ -37983,7 +38442,6 @@ _G.pg.base.item_data_statistics[40134] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40134,
@@ -38009,7 +38467,8 @@ _G.pg.base.item_data_statistics[40134] = {
 		4134,
 		0,
 		150
-	}
+	},
+	limit = {}
 }
 
 
@@ -38029,7 +38488,6 @@ _G.pg.base.item_data_statistics[40135] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40135,
@@ -38055,7 +38513,8 @@ _G.pg.base.item_data_statistics[40135] = {
 		4135,
 		0,
 		150
-	}
+	},
+	limit = {}
 }
 
 
@@ -38075,7 +38534,6 @@ _G.pg.base.item_data_statistics[40136] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40136,
@@ -38101,7 +38559,8 @@ _G.pg.base.item_data_statistics[40136] = {
 		4136,
 		0,
 		150
-	}
+	},
+	limit = {}
 }
 
 
@@ -38121,7 +38580,6 @@ _G.pg.base.item_data_statistics[40137] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40137,
@@ -38147,7 +38605,8 @@ _G.pg.base.item_data_statistics[40137] = {
 		4137,
 		0,
 		150
-	}
+	},
+	limit = {}
 }
 
 
@@ -38167,7 +38626,6 @@ _G.pg.base.item_data_statistics[40138] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 40138,
@@ -38198,7 +38656,8 @@ _G.pg.base.item_data_statistics[40138] = {
 		4138,
 		15000,
 		0
-	}
+	},
+	limit = {}
 }
 
 
@@ -38218,7 +38677,6 @@ _G.pg.base.item_data_statistics[40701] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89601",
@@ -38240,7 +38698,8 @@ _G.pg.base.item_data_statistics[40701] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38260,7 +38719,6 @@ _G.pg.base.item_data_statistics[40702] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89602",
@@ -38282,7 +38740,8 @@ _G.pg.base.item_data_statistics[40702] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38302,7 +38761,6 @@ _G.pg.base.item_data_statistics[40703] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89603",
@@ -38324,7 +38782,8 @@ _G.pg.base.item_data_statistics[40703] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38344,7 +38803,6 @@ _G.pg.base.item_data_statistics[40704] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89604",
@@ -38366,7 +38824,8 @@ _G.pg.base.item_data_statistics[40704] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38386,7 +38845,6 @@ _G.pg.base.item_data_statistics[40705] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89605",
@@ -38413,7 +38871,8 @@ _G.pg.base.item_data_statistics[40705] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38433,7 +38892,6 @@ _G.pg.base.item_data_statistics[40706] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89606",
@@ -38460,7 +38918,8 @@ _G.pg.base.item_data_statistics[40706] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38480,7 +38939,6 @@ _G.pg.base.item_data_statistics[40707] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89607",
@@ -38502,7 +38960,8 @@ _G.pg.base.item_data_statistics[40707] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38522,7 +38981,6 @@ _G.pg.base.item_data_statistics[40708] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89608",
@@ -38544,7 +39002,8 @@ _G.pg.base.item_data_statistics[40708] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38564,7 +39023,6 @@ _G.pg.base.item_data_statistics[40709] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89609",
@@ -38586,7 +39044,8 @@ _G.pg.base.item_data_statistics[40709] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38606,7 +39065,6 @@ _G.pg.base.item_data_statistics[40710] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89610",
@@ -38628,7 +39086,8 @@ _G.pg.base.item_data_statistics[40710] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38648,7 +39107,6 @@ _G.pg.base.item_data_statistics[40711] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89611",
@@ -38670,7 +39128,8 @@ _G.pg.base.item_data_statistics[40711] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38690,7 +39149,6 @@ _G.pg.base.item_data_statistics[40712] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89612",
@@ -38712,7 +39170,8 @@ _G.pg.base.item_data_statistics[40712] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38732,7 +39191,6 @@ _G.pg.base.item_data_statistics[40713] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89613",
@@ -38754,7 +39212,8 @@ _G.pg.base.item_data_statistics[40713] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38774,7 +39233,6 @@ _G.pg.base.item_data_statistics[40714] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89614",
@@ -38796,7 +39254,8 @@ _G.pg.base.item_data_statistics[40714] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38816,7 +39275,6 @@ _G.pg.base.item_data_statistics[40715] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89615",
@@ -38838,7 +39296,8 @@ _G.pg.base.item_data_statistics[40715] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38858,7 +39317,6 @@ _G.pg.base.item_data_statistics[40716] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89616",
@@ -38880,7 +39338,8 @@ _G.pg.base.item_data_statistics[40716] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38900,7 +39359,6 @@ _G.pg.base.item_data_statistics[40717] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89617",
@@ -38922,7 +39380,8 @@ _G.pg.base.item_data_statistics[40717] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38942,7 +39401,6 @@ _G.pg.base.item_data_statistics[40718] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89618",
@@ -38964,7 +39422,8 @@ _G.pg.base.item_data_statistics[40718] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -38984,7 +39443,6 @@ _G.pg.base.item_data_statistics[40719] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89619",
@@ -39006,7 +39464,8 @@ _G.pg.base.item_data_statistics[40719] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39026,7 +39485,6 @@ _G.pg.base.item_data_statistics[40720] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89620",
@@ -39048,7 +39506,8 @@ _G.pg.base.item_data_statistics[40720] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39068,7 +39527,6 @@ _G.pg.base.item_data_statistics[40721] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89621",
@@ -39090,7 +39548,8 @@ _G.pg.base.item_data_statistics[40721] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39110,7 +39569,6 @@ _G.pg.base.item_data_statistics[40722] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89622",
@@ -39132,7 +39590,8 @@ _G.pg.base.item_data_statistics[40722] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39152,7 +39611,6 @@ _G.pg.base.item_data_statistics[40723] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89623",
@@ -39174,7 +39632,8 @@ _G.pg.base.item_data_statistics[40723] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39194,7 +39653,6 @@ _G.pg.base.item_data_statistics[40724] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89624",
@@ -39216,7 +39674,8 @@ _G.pg.base.item_data_statistics[40724] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39236,7 +39695,6 @@ _G.pg.base.item_data_statistics[40725] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89625",
@@ -39258,7 +39716,8 @@ _G.pg.base.item_data_statistics[40725] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39278,7 +39737,6 @@ _G.pg.base.item_data_statistics[40726] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89626",
@@ -39300,7 +39758,8 @@ _G.pg.base.item_data_statistics[40726] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39320,7 +39779,6 @@ _G.pg.base.item_data_statistics[40727] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89627",
@@ -39342,7 +39800,8 @@ _G.pg.base.item_data_statistics[40727] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39362,7 +39821,6 @@ _G.pg.base.item_data_statistics[40728] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "89628",
@@ -39384,7 +39842,8 @@ _G.pg.base.item_data_statistics[40728] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39404,7 +39863,6 @@ _G.pg.base.item_data_statistics[40908] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4908",
@@ -39446,7 +39904,8 @@ _G.pg.base.item_data_statistics[40908] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39466,7 +39925,6 @@ _G.pg.base.item_data_statistics[40909] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4909",
@@ -39508,7 +39966,8 @@ _G.pg.base.item_data_statistics[40909] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39528,7 +39987,6 @@ _G.pg.base.item_data_statistics[40910] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4910",
@@ -39575,7 +40033,8 @@ _G.pg.base.item_data_statistics[40910] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39595,7 +40054,6 @@ _G.pg.base.item_data_statistics[40918] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4918",
@@ -39612,7 +40070,8 @@ _G.pg.base.item_data_statistics[40918] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39632,7 +40091,6 @@ _G.pg.base.item_data_statistics[40921] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4921",
@@ -39719,7 +40177,8 @@ _G.pg.base.item_data_statistics[40921] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39739,7 +40198,6 @@ _G.pg.base.item_data_statistics[40922] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4922",
@@ -39786,7 +40244,8 @@ _G.pg.base.item_data_statistics[40922] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39806,7 +40265,6 @@ _G.pg.base.item_data_statistics[40923] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4923",
@@ -39853,7 +40311,8 @@ _G.pg.base.item_data_statistics[40923] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39873,7 +40332,6 @@ _G.pg.base.item_data_statistics[40924] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4924",
@@ -39920,7 +40378,8 @@ _G.pg.base.item_data_statistics[40924] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -39940,7 +40399,6 @@ _G.pg.base.item_data_statistics[40925] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4925",
@@ -39987,7 +40445,8 @@ _G.pg.base.item_data_statistics[40925] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40007,7 +40466,6 @@ _G.pg.base.item_data_statistics[40927] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4927",
@@ -40054,7 +40512,8 @@ _G.pg.base.item_data_statistics[40927] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40074,7 +40533,6 @@ _G.pg.base.item_data_statistics[40930] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4930",
@@ -40116,7 +40574,8 @@ _G.pg.base.item_data_statistics[40930] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40136,7 +40595,6 @@ _G.pg.base.item_data_statistics[40931] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4931",
@@ -40178,7 +40636,8 @@ _G.pg.base.item_data_statistics[40931] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40198,7 +40657,6 @@ _G.pg.base.item_data_statistics[40932] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4932",
@@ -40245,7 +40703,8 @@ _G.pg.base.item_data_statistics[40932] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40265,7 +40724,6 @@ _G.pg.base.item_data_statistics[40933] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4933",
@@ -40312,7 +40770,8 @@ _G.pg.base.item_data_statistics[40933] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40332,7 +40791,6 @@ _G.pg.base.item_data_statistics[40934] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4934",
@@ -40379,7 +40837,8 @@ _G.pg.base.item_data_statistics[40934] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40399,7 +40858,6 @@ _G.pg.base.item_data_statistics[40935] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4935",
@@ -40446,7 +40904,8 @@ _G.pg.base.item_data_statistics[40935] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40466,7 +40925,6 @@ _G.pg.base.item_data_statistics[40936] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4936",
@@ -40513,7 +40971,8 @@ _G.pg.base.item_data_statistics[40936] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40533,7 +40992,6 @@ _G.pg.base.item_data_statistics[40937] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4937",
@@ -40580,7 +41038,8 @@ _G.pg.base.item_data_statistics[40937] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40600,7 +41059,6 @@ _G.pg.base.item_data_statistics[40938] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4938",
@@ -40647,7 +41105,8 @@ _G.pg.base.item_data_statistics[40938] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40667,7 +41126,6 @@ _G.pg.base.item_data_statistics[40939] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4939",
@@ -40714,7 +41172,8 @@ _G.pg.base.item_data_statistics[40939] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40734,7 +41193,6 @@ _G.pg.base.item_data_statistics[40940] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "300235",
@@ -40771,7 +41229,8 @@ _G.pg.base.item_data_statistics[40940] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40791,7 +41250,6 @@ _G.pg.base.item_data_statistics[40990] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4990",
@@ -40813,7 +41271,8 @@ _G.pg.base.item_data_statistics[40990] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40833,7 +41292,6 @@ _G.pg.base.item_data_statistics[40991] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4991",
@@ -40850,7 +41308,8 @@ _G.pg.base.item_data_statistics[40991] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40870,7 +41329,6 @@ _G.pg.base.item_data_statistics[40992] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4992",
@@ -40892,7 +41350,8 @@ _G.pg.base.item_data_statistics[40992] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40912,7 +41371,6 @@ _G.pg.base.item_data_statistics[40993] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4993",
@@ -40934,7 +41392,8 @@ _G.pg.base.item_data_statistics[40993] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40954,7 +41413,6 @@ _G.pg.base.item_data_statistics[40994] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4994",
@@ -40971,7 +41429,8 @@ _G.pg.base.item_data_statistics[40994] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -40991,7 +41450,6 @@ _G.pg.base.item_data_statistics[40995] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4995",
@@ -41013,7 +41471,8 @@ _G.pg.base.item_data_statistics[40995] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41033,7 +41492,6 @@ _G.pg.base.item_data_statistics[40996] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "4996",
@@ -41055,7 +41513,8 @@ _G.pg.base.item_data_statistics[40996] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41075,7 +41534,6 @@ _G.pg.base.item_data_statistics[41201] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41086,7 +41544,8 @@ _G.pg.base.item_data_statistics[41201] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41106,7 +41565,6 @@ _G.pg.base.item_data_statistics[41202] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41117,7 +41575,8 @@ _G.pg.base.item_data_statistics[41202] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41137,7 +41596,6 @@ _G.pg.base.item_data_statistics[41203] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41148,7 +41606,8 @@ _G.pg.base.item_data_statistics[41203] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41168,7 +41627,6 @@ _G.pg.base.item_data_statistics[41204] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41179,7 +41637,8 @@ _G.pg.base.item_data_statistics[41204] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41199,7 +41658,6 @@ _G.pg.base.item_data_statistics[41205] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41210,7 +41668,8 @@ _G.pg.base.item_data_statistics[41205] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41230,7 +41689,6 @@ _G.pg.base.item_data_statistics[41206] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41241,7 +41699,8 @@ _G.pg.base.item_data_statistics[41206] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41261,7 +41720,6 @@ _G.pg.base.item_data_statistics[41207] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41272,7 +41730,8 @@ _G.pg.base.item_data_statistics[41207] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41292,7 +41751,6 @@ _G.pg.base.item_data_statistics[41208] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41303,7 +41761,8 @@ _G.pg.base.item_data_statistics[41208] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41323,7 +41782,6 @@ _G.pg.base.item_data_statistics[41209] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41334,7 +41792,8 @@ _G.pg.base.item_data_statistics[41209] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41354,7 +41813,6 @@ _G.pg.base.item_data_statistics[41210] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41365,7 +41823,8 @@ _G.pg.base.item_data_statistics[41210] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41385,7 +41844,6 @@ _G.pg.base.item_data_statistics[41211] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41396,7 +41854,8 @@ _G.pg.base.item_data_statistics[41211] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41416,7 +41875,6 @@ _G.pg.base.item_data_statistics[41212] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41427,7 +41885,8 @@ _G.pg.base.item_data_statistics[41212] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41447,7 +41906,6 @@ _G.pg.base.item_data_statistics[41213] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41458,7 +41916,8 @@ _G.pg.base.item_data_statistics[41213] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41478,7 +41937,6 @@ _G.pg.base.item_data_statistics[41214] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41489,7 +41947,8 @@ _G.pg.base.item_data_statistics[41214] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41509,7 +41968,6 @@ _G.pg.base.item_data_statistics[41215] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41520,7 +41978,8 @@ _G.pg.base.item_data_statistics[41215] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41540,7 +41999,6 @@ _G.pg.base.item_data_statistics[41216] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41551,7 +42009,8 @@ _G.pg.base.item_data_statistics[41216] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41571,7 +42030,6 @@ _G.pg.base.item_data_statistics[41217] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41582,7 +42040,8 @@ _G.pg.base.item_data_statistics[41217] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41602,7 +42061,6 @@ _G.pg.base.item_data_statistics[41218] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41613,7 +42071,8 @@ _G.pg.base.item_data_statistics[41218] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41633,7 +42092,6 @@ _G.pg.base.item_data_statistics[41219] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41644,7 +42102,8 @@ _G.pg.base.item_data_statistics[41219] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41664,7 +42123,6 @@ _G.pg.base.item_data_statistics[41220] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41675,7 +42133,8 @@ _G.pg.base.item_data_statistics[41220] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41695,7 +42154,6 @@ _G.pg.base.item_data_statistics[41221] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41706,7 +42164,8 @@ _G.pg.base.item_data_statistics[41221] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41726,7 +42185,6 @@ _G.pg.base.item_data_statistics[41222] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41737,7 +42195,8 @@ _G.pg.base.item_data_statistics[41222] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41757,7 +42216,6 @@ _G.pg.base.item_data_statistics[41223] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41768,7 +42226,8 @@ _G.pg.base.item_data_statistics[41223] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41788,7 +42247,6 @@ _G.pg.base.item_data_statistics[41224] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41799,7 +42257,8 @@ _G.pg.base.item_data_statistics[41224] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41819,7 +42278,6 @@ _G.pg.base.item_data_statistics[41225] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41830,7 +42288,8 @@ _G.pg.base.item_data_statistics[41225] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41850,7 +42309,6 @@ _G.pg.base.item_data_statistics[41226] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41861,7 +42319,8 @@ _G.pg.base.item_data_statistics[41226] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41881,7 +42340,6 @@ _G.pg.base.item_data_statistics[41227] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41892,7 +42350,8 @@ _G.pg.base.item_data_statistics[41227] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41912,7 +42371,6 @@ _G.pg.base.item_data_statistics[41228] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41923,7 +42381,8 @@ _G.pg.base.item_data_statistics[41228] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41943,7 +42402,6 @@ _G.pg.base.item_data_statistics[41229] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41954,7 +42412,8 @@ _G.pg.base.item_data_statistics[41229] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -41974,7 +42433,6 @@ _G.pg.base.item_data_statistics[41230] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -41985,7 +42443,8 @@ _G.pg.base.item_data_statistics[41230] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42005,7 +42464,6 @@ _G.pg.base.item_data_statistics[41231] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42016,7 +42474,8 @@ _G.pg.base.item_data_statistics[41231] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42036,7 +42495,6 @@ _G.pg.base.item_data_statistics[41232] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42047,7 +42505,8 @@ _G.pg.base.item_data_statistics[41232] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42067,7 +42526,6 @@ _G.pg.base.item_data_statistics[41233] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42078,7 +42536,8 @@ _G.pg.base.item_data_statistics[41233] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42098,7 +42557,6 @@ _G.pg.base.item_data_statistics[41234] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42109,7 +42567,8 @@ _G.pg.base.item_data_statistics[41234] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42129,7 +42588,6 @@ _G.pg.base.item_data_statistics[41235] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42140,7 +42598,8 @@ _G.pg.base.item_data_statistics[41235] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42160,7 +42619,6 @@ _G.pg.base.item_data_statistics[41236] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42171,7 +42629,8 @@ _G.pg.base.item_data_statistics[41236] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42191,7 +42650,6 @@ _G.pg.base.item_data_statistics[41237] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42202,7 +42660,8 @@ _G.pg.base.item_data_statistics[41237] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42222,7 +42681,6 @@ _G.pg.base.item_data_statistics[41238] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42233,7 +42691,8 @@ _G.pg.base.item_data_statistics[41238] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42253,7 +42712,6 @@ _G.pg.base.item_data_statistics[41239] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42264,7 +42722,8 @@ _G.pg.base.item_data_statistics[41239] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42284,7 +42743,6 @@ _G.pg.base.item_data_statistics[41240] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42295,7 +42753,8 @@ _G.pg.base.item_data_statistics[41240] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42315,7 +42774,6 @@ _G.pg.base.item_data_statistics[41241] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42326,7 +42784,8 @@ _G.pg.base.item_data_statistics[41241] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42346,7 +42805,6 @@ _G.pg.base.item_data_statistics[41242] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42357,7 +42815,8 @@ _G.pg.base.item_data_statistics[41242] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42377,7 +42836,6 @@ _G.pg.base.item_data_statistics[41243] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42388,7 +42846,8 @@ _G.pg.base.item_data_statistics[41243] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42408,7 +42867,6 @@ _G.pg.base.item_data_statistics[41244] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42419,7 +42877,8 @@ _G.pg.base.item_data_statistics[41244] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42439,7 +42898,6 @@ _G.pg.base.item_data_statistics[41245] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42450,7 +42908,8 @@ _G.pg.base.item_data_statistics[41245] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42470,7 +42929,6 @@ _G.pg.base.item_data_statistics[41246] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42481,7 +42939,8 @@ _G.pg.base.item_data_statistics[41246] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42501,7 +42960,6 @@ _G.pg.base.item_data_statistics[41247] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42512,7 +42970,8 @@ _G.pg.base.item_data_statistics[41247] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42532,7 +42991,6 @@ _G.pg.base.item_data_statistics[41248] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42543,7 +43001,8 @@ _G.pg.base.item_data_statistics[41248] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42563,7 +43022,6 @@ _G.pg.base.item_data_statistics[41249] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42574,7 +43032,8 @@ _G.pg.base.item_data_statistics[41249] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42594,7 +43053,6 @@ _G.pg.base.item_data_statistics[41250] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42605,7 +43063,8 @@ _G.pg.base.item_data_statistics[41250] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42625,7 +43084,6 @@ _G.pg.base.item_data_statistics[41251] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42636,7 +43094,8 @@ _G.pg.base.item_data_statistics[41251] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42656,7 +43115,6 @@ _G.pg.base.item_data_statistics[41252] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42667,7 +43125,8 @@ _G.pg.base.item_data_statistics[41252] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42687,7 +43146,6 @@ _G.pg.base.item_data_statistics[41253] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42698,7 +43156,8 @@ _G.pg.base.item_data_statistics[41253] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42718,7 +43177,6 @@ _G.pg.base.item_data_statistics[41254] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42729,7 +43187,8 @@ _G.pg.base.item_data_statistics[41254] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42749,7 +43208,6 @@ _G.pg.base.item_data_statistics[41255] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42760,7 +43218,8 @@ _G.pg.base.item_data_statistics[41255] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42780,7 +43239,6 @@ _G.pg.base.item_data_statistics[41256] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42791,7 +43249,8 @@ _G.pg.base.item_data_statistics[41256] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42811,7 +43270,6 @@ _G.pg.base.item_data_statistics[41257] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42822,7 +43280,8 @@ _G.pg.base.item_data_statistics[41257] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42842,7 +43301,6 @@ _G.pg.base.item_data_statistics[41258] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42853,7 +43311,8 @@ _G.pg.base.item_data_statistics[41258] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42873,7 +43332,6 @@ _G.pg.base.item_data_statistics[41259] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42884,7 +43342,8 @@ _G.pg.base.item_data_statistics[41259] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42904,7 +43363,6 @@ _G.pg.base.item_data_statistics[41260] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42915,7 +43373,8 @@ _G.pg.base.item_data_statistics[41260] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42935,7 +43394,6 @@ _G.pg.base.item_data_statistics[41261] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42946,7 +43404,8 @@ _G.pg.base.item_data_statistics[41261] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42966,7 +43425,6 @@ _G.pg.base.item_data_statistics[41262] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -42977,7 +43435,8 @@ _G.pg.base.item_data_statistics[41262] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -42997,7 +43456,6 @@ _G.pg.base.item_data_statistics[41263] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43008,7 +43466,8 @@ _G.pg.base.item_data_statistics[41263] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43028,7 +43487,6 @@ _G.pg.base.item_data_statistics[41264] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43039,7 +43497,8 @@ _G.pg.base.item_data_statistics[41264] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43059,7 +43518,6 @@ _G.pg.base.item_data_statistics[41265] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43070,7 +43528,8 @@ _G.pg.base.item_data_statistics[41265] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43090,7 +43549,6 @@ _G.pg.base.item_data_statistics[41266] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43101,7 +43559,8 @@ _G.pg.base.item_data_statistics[41266] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43121,7 +43580,6 @@ _G.pg.base.item_data_statistics[41267] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43132,7 +43590,8 @@ _G.pg.base.item_data_statistics[41267] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43152,7 +43611,6 @@ _G.pg.base.item_data_statistics[41268] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43163,7 +43621,8 @@ _G.pg.base.item_data_statistics[41268] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43183,7 +43642,6 @@ _G.pg.base.item_data_statistics[41269] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43194,7 +43652,8 @@ _G.pg.base.item_data_statistics[41269] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43214,7 +43673,6 @@ _G.pg.base.item_data_statistics[41270] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43225,7 +43683,8 @@ _G.pg.base.item_data_statistics[41270] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43245,7 +43704,6 @@ _G.pg.base.item_data_statistics[41271] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43256,7 +43714,8 @@ _G.pg.base.item_data_statistics[41271] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43276,7 +43735,6 @@ _G.pg.base.item_data_statistics[41272] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43287,7 +43745,8 @@ _G.pg.base.item_data_statistics[41272] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43307,7 +43766,6 @@ _G.pg.base.item_data_statistics[41273] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43318,7 +43776,8 @@ _G.pg.base.item_data_statistics[41273] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43338,7 +43797,6 @@ _G.pg.base.item_data_statistics[41274] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43349,7 +43807,8 @@ _G.pg.base.item_data_statistics[41274] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43369,7 +43828,6 @@ _G.pg.base.item_data_statistics[41275] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43380,7 +43838,8 @@ _G.pg.base.item_data_statistics[41275] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43400,7 +43859,6 @@ _G.pg.base.item_data_statistics[41276] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43411,7 +43869,8 @@ _G.pg.base.item_data_statistics[41276] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43431,7 +43890,6 @@ _G.pg.base.item_data_statistics[41277] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43442,7 +43900,8 @@ _G.pg.base.item_data_statistics[41277] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43462,7 +43921,6 @@ _G.pg.base.item_data_statistics[41278] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43473,7 +43931,8 @@ _G.pg.base.item_data_statistics[41278] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43493,7 +43952,6 @@ _G.pg.base.item_data_statistics[41279] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43504,7 +43962,8 @@ _G.pg.base.item_data_statistics[41279] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43524,7 +43983,6 @@ _G.pg.base.item_data_statistics[41280] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43535,7 +43993,8 @@ _G.pg.base.item_data_statistics[41280] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43555,7 +44014,6 @@ _G.pg.base.item_data_statistics[41281] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43566,7 +44024,8 @@ _G.pg.base.item_data_statistics[41281] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43586,7 +44045,6 @@ _G.pg.base.item_data_statistics[41282] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43597,7 +44055,8 @@ _G.pg.base.item_data_statistics[41282] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43617,7 +44076,6 @@ _G.pg.base.item_data_statistics[41283] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43628,7 +44086,8 @@ _G.pg.base.item_data_statistics[41283] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43648,7 +44107,6 @@ _G.pg.base.item_data_statistics[41284] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43659,7 +44117,8 @@ _G.pg.base.item_data_statistics[41284] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43679,7 +44138,6 @@ _G.pg.base.item_data_statistics[41285] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43690,7 +44148,8 @@ _G.pg.base.item_data_statistics[41285] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43710,7 +44169,6 @@ _G.pg.base.item_data_statistics[41286] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43721,7 +44179,8 @@ _G.pg.base.item_data_statistics[41286] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43741,7 +44200,6 @@ _G.pg.base.item_data_statistics[41287] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43752,7 +44210,8 @@ _G.pg.base.item_data_statistics[41287] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43772,7 +44231,6 @@ _G.pg.base.item_data_statistics[41288] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43783,7 +44241,8 @@ _G.pg.base.item_data_statistics[41288] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43803,7 +44262,6 @@ _G.pg.base.item_data_statistics[41289] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43814,7 +44272,8 @@ _G.pg.base.item_data_statistics[41289] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43834,7 +44293,6 @@ _G.pg.base.item_data_statistics[41290] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43845,7 +44303,8 @@ _G.pg.base.item_data_statistics[41290] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43865,7 +44324,6 @@ _G.pg.base.item_data_statistics[41291] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43876,7 +44334,8 @@ _G.pg.base.item_data_statistics[41291] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43896,7 +44355,6 @@ _G.pg.base.item_data_statistics[41292] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43907,7 +44365,8 @@ _G.pg.base.item_data_statistics[41292] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43927,7 +44386,6 @@ _G.pg.base.item_data_statistics[41293] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43938,7 +44396,8 @@ _G.pg.base.item_data_statistics[41293] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43958,7 +44417,6 @@ _G.pg.base.item_data_statistics[41294] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -43969,7 +44427,8 @@ _G.pg.base.item_data_statistics[41294] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -43989,7 +44448,6 @@ _G.pg.base.item_data_statistics[41295] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44000,7 +44458,8 @@ _G.pg.base.item_data_statistics[41295] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44020,7 +44479,6 @@ _G.pg.base.item_data_statistics[41296] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44031,7 +44489,8 @@ _G.pg.base.item_data_statistics[41296] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44051,7 +44510,6 @@ _G.pg.base.item_data_statistics[41297] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44062,7 +44520,8 @@ _G.pg.base.item_data_statistics[41297] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44082,7 +44541,6 @@ _G.pg.base.item_data_statistics[41298] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44093,7 +44551,8 @@ _G.pg.base.item_data_statistics[41298] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44113,7 +44572,6 @@ _G.pg.base.item_data_statistics[41299] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44124,7 +44582,8 @@ _G.pg.base.item_data_statistics[41299] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44144,7 +44603,6 @@ _G.pg.base.item_data_statistics[41300] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44155,7 +44613,8 @@ _G.pg.base.item_data_statistics[41300] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44175,7 +44634,6 @@ _G.pg.base.item_data_statistics[41301] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44186,7 +44644,8 @@ _G.pg.base.item_data_statistics[41301] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44206,7 +44665,6 @@ _G.pg.base.item_data_statistics[41302] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44217,7 +44675,8 @@ _G.pg.base.item_data_statistics[41302] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44237,7 +44696,6 @@ _G.pg.base.item_data_statistics[41303] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44248,7 +44706,8 @@ _G.pg.base.item_data_statistics[41303] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44268,7 +44727,6 @@ _G.pg.base.item_data_statistics[41304] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44279,7 +44737,8 @@ _G.pg.base.item_data_statistics[41304] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44299,7 +44758,6 @@ _G.pg.base.item_data_statistics[41305] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44310,7 +44768,8 @@ _G.pg.base.item_data_statistics[41305] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44330,7 +44789,6 @@ _G.pg.base.item_data_statistics[41306] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44341,7 +44799,8 @@ _G.pg.base.item_data_statistics[41306] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44361,7 +44820,6 @@ _G.pg.base.item_data_statistics[41307] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44372,7 +44830,8 @@ _G.pg.base.item_data_statistics[41307] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44392,7 +44851,6 @@ _G.pg.base.item_data_statistics[41308] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44403,7 +44861,8 @@ _G.pg.base.item_data_statistics[41308] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44423,7 +44882,6 @@ _G.pg.base.item_data_statistics[41309] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44434,7 +44892,8 @@ _G.pg.base.item_data_statistics[41309] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44454,7 +44913,6 @@ _G.pg.base.item_data_statistics[41310] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44465,7 +44923,8 @@ _G.pg.base.item_data_statistics[41310] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44485,7 +44944,6 @@ _G.pg.base.item_data_statistics[41311] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44496,7 +44954,8 @@ _G.pg.base.item_data_statistics[41311] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44516,7 +44975,6 @@ _G.pg.base.item_data_statistics[41312] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44527,7 +44985,8 @@ _G.pg.base.item_data_statistics[41312] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44547,7 +45006,6 @@ _G.pg.base.item_data_statistics[41313] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44558,7 +45016,8 @@ _G.pg.base.item_data_statistics[41313] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44578,7 +45037,6 @@ _G.pg.base.item_data_statistics[41314] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44589,7 +45047,8 @@ _G.pg.base.item_data_statistics[41314] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44609,7 +45068,6 @@ _G.pg.base.item_data_statistics[41315] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44620,7 +45078,8 @@ _G.pg.base.item_data_statistics[41315] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44640,7 +45099,6 @@ _G.pg.base.item_data_statistics[41316] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44651,7 +45109,8 @@ _G.pg.base.item_data_statistics[41316] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44671,7 +45130,6 @@ _G.pg.base.item_data_statistics[41317] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44682,7 +45140,8 @@ _G.pg.base.item_data_statistics[41317] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44702,7 +45161,6 @@ _G.pg.base.item_data_statistics[41318] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44713,7 +45171,8 @@ _G.pg.base.item_data_statistics[41318] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44733,7 +45192,6 @@ _G.pg.base.item_data_statistics[41319] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44744,7 +45202,8 @@ _G.pg.base.item_data_statistics[41319] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44764,7 +45223,6 @@ _G.pg.base.item_data_statistics[41320] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44775,7 +45233,8 @@ _G.pg.base.item_data_statistics[41320] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44795,7 +45254,6 @@ _G.pg.base.item_data_statistics[41321] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44806,7 +45264,8 @@ _G.pg.base.item_data_statistics[41321] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44826,7 +45285,6 @@ _G.pg.base.item_data_statistics[41322] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44837,7 +45295,8 @@ _G.pg.base.item_data_statistics[41322] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44857,7 +45316,6 @@ _G.pg.base.item_data_statistics[41323] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44868,7 +45326,8 @@ _G.pg.base.item_data_statistics[41323] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44888,7 +45347,6 @@ _G.pg.base.item_data_statistics[41324] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44899,7 +45357,8 @@ _G.pg.base.item_data_statistics[41324] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44919,7 +45378,6 @@ _G.pg.base.item_data_statistics[41325] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44930,7 +45388,8 @@ _G.pg.base.item_data_statistics[41325] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44950,7 +45409,6 @@ _G.pg.base.item_data_statistics[41326] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44961,7 +45419,8 @@ _G.pg.base.item_data_statistics[41326] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -44981,7 +45440,6 @@ _G.pg.base.item_data_statistics[41327] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -44992,7 +45450,8 @@ _G.pg.base.item_data_statistics[41327] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45012,7 +45471,6 @@ _G.pg.base.item_data_statistics[41328] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45023,7 +45481,8 @@ _G.pg.base.item_data_statistics[41328] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45043,7 +45502,6 @@ _G.pg.base.item_data_statistics[41329] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45054,7 +45512,8 @@ _G.pg.base.item_data_statistics[41329] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45074,7 +45533,6 @@ _G.pg.base.item_data_statistics[41330] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45085,7 +45543,8 @@ _G.pg.base.item_data_statistics[41330] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45105,7 +45564,6 @@ _G.pg.base.item_data_statistics[41331] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45116,7 +45574,8 @@ _G.pg.base.item_data_statistics[41331] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45136,7 +45595,6 @@ _G.pg.base.item_data_statistics[41332] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45147,7 +45605,8 @@ _G.pg.base.item_data_statistics[41332] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45167,7 +45626,6 @@ _G.pg.base.item_data_statistics[41333] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45178,7 +45636,8 @@ _G.pg.base.item_data_statistics[41333] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45198,7 +45657,6 @@ _G.pg.base.item_data_statistics[41334] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45209,7 +45667,8 @@ _G.pg.base.item_data_statistics[41334] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45229,7 +45688,6 @@ _G.pg.base.item_data_statistics[41335] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45240,7 +45698,8 @@ _G.pg.base.item_data_statistics[41335] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45260,7 +45719,6 @@ _G.pg.base.item_data_statistics[41336] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45271,7 +45729,8 @@ _G.pg.base.item_data_statistics[41336] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45291,7 +45750,6 @@ _G.pg.base.item_data_statistics[41337] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45302,7 +45760,8 @@ _G.pg.base.item_data_statistics[41337] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45322,7 +45781,6 @@ _G.pg.base.item_data_statistics[41338] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45333,7 +45791,8 @@ _G.pg.base.item_data_statistics[41338] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45353,7 +45812,6 @@ _G.pg.base.item_data_statistics[41339] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45364,7 +45822,8 @@ _G.pg.base.item_data_statistics[41339] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45384,7 +45843,6 @@ _G.pg.base.item_data_statistics[41340] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45395,7 +45853,8 @@ _G.pg.base.item_data_statistics[41340] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45415,7 +45874,6 @@ _G.pg.base.item_data_statistics[41341] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45426,7 +45884,8 @@ _G.pg.base.item_data_statistics[41341] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45446,7 +45905,6 @@ _G.pg.base.item_data_statistics[41342] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45457,7 +45915,8 @@ _G.pg.base.item_data_statistics[41342] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45477,7 +45936,6 @@ _G.pg.base.item_data_statistics[41343] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45488,7 +45946,8 @@ _G.pg.base.item_data_statistics[41343] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45508,7 +45967,6 @@ _G.pg.base.item_data_statistics[41344] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45519,7 +45977,8 @@ _G.pg.base.item_data_statistics[41344] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45539,7 +45998,6 @@ _G.pg.base.item_data_statistics[41345] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45550,7 +46008,8 @@ _G.pg.base.item_data_statistics[41345] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45570,7 +46029,6 @@ _G.pg.base.item_data_statistics[41346] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45581,7 +46039,8 @@ _G.pg.base.item_data_statistics[41346] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45601,7 +46060,6 @@ _G.pg.base.item_data_statistics[41347] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45612,7 +46070,8 @@ _G.pg.base.item_data_statistics[41347] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45632,7 +46091,6 @@ _G.pg.base.item_data_statistics[41348] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45643,7 +46101,8 @@ _G.pg.base.item_data_statistics[41348] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45663,7 +46122,6 @@ _G.pg.base.item_data_statistics[41349] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45674,7 +46132,8 @@ _G.pg.base.item_data_statistics[41349] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45694,7 +46153,6 @@ _G.pg.base.item_data_statistics[41350] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45705,7 +46163,8 @@ _G.pg.base.item_data_statistics[41350] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45725,7 +46184,6 @@ _G.pg.base.item_data_statistics[41351] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45736,7 +46194,8 @@ _G.pg.base.item_data_statistics[41351] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45756,7 +46215,6 @@ _G.pg.base.item_data_statistics[41352] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45767,7 +46225,8 @@ _G.pg.base.item_data_statistics[41352] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45787,7 +46246,6 @@ _G.pg.base.item_data_statistics[41353] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45798,7 +46256,8 @@ _G.pg.base.item_data_statistics[41353] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45818,7 +46277,6 @@ _G.pg.base.item_data_statistics[41354] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45829,7 +46287,8 @@ _G.pg.base.item_data_statistics[41354] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45849,7 +46308,6 @@ _G.pg.base.item_data_statistics[41355] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45860,7 +46318,8 @@ _G.pg.base.item_data_statistics[41355] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45880,7 +46339,6 @@ _G.pg.base.item_data_statistics[41356] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45891,7 +46349,8 @@ _G.pg.base.item_data_statistics[41356] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45911,7 +46370,6 @@ _G.pg.base.item_data_statistics[41357] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45922,7 +46380,8 @@ _G.pg.base.item_data_statistics[41357] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45942,7 +46401,6 @@ _G.pg.base.item_data_statistics[41358] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45953,7 +46411,8 @@ _G.pg.base.item_data_statistics[41358] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -45973,7 +46432,6 @@ _G.pg.base.item_data_statistics[41359] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -45984,7 +46442,8 @@ _G.pg.base.item_data_statistics[41359] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46004,7 +46463,6 @@ _G.pg.base.item_data_statistics[41360] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46015,7 +46473,8 @@ _G.pg.base.item_data_statistics[41360] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46035,7 +46494,6 @@ _G.pg.base.item_data_statistics[41361] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46046,7 +46504,8 @@ _G.pg.base.item_data_statistics[41361] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46066,7 +46525,6 @@ _G.pg.base.item_data_statistics[41362] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46077,7 +46535,8 @@ _G.pg.base.item_data_statistics[41362] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46097,7 +46556,6 @@ _G.pg.base.item_data_statistics[41363] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46108,7 +46566,8 @@ _G.pg.base.item_data_statistics[41363] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46128,7 +46587,6 @@ _G.pg.base.item_data_statistics[41364] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46139,7 +46597,8 @@ _G.pg.base.item_data_statistics[41364] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46159,7 +46618,6 @@ _G.pg.base.item_data_statistics[41365] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46170,7 +46628,8 @@ _G.pg.base.item_data_statistics[41365] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46190,7 +46649,6 @@ _G.pg.base.item_data_statistics[41366] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46201,7 +46659,8 @@ _G.pg.base.item_data_statistics[41366] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46221,7 +46680,6 @@ _G.pg.base.item_data_statistics[41367] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46232,7 +46690,8 @@ _G.pg.base.item_data_statistics[41367] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46252,7 +46711,6 @@ _G.pg.base.item_data_statistics[41368] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46263,7 +46721,8 @@ _G.pg.base.item_data_statistics[41368] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46283,7 +46742,6 @@ _G.pg.base.item_data_statistics[41369] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46294,7 +46752,8 @@ _G.pg.base.item_data_statistics[41369] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46314,7 +46773,6 @@ _G.pg.base.item_data_statistics[41370] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46325,7 +46783,8 @@ _G.pg.base.item_data_statistics[41370] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46345,7 +46804,6 @@ _G.pg.base.item_data_statistics[41371] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46356,7 +46814,8 @@ _G.pg.base.item_data_statistics[41371] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46376,7 +46835,6 @@ _G.pg.base.item_data_statistics[41372] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46387,7 +46845,8 @@ _G.pg.base.item_data_statistics[41372] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46407,7 +46866,6 @@ _G.pg.base.item_data_statistics[41373] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46418,7 +46876,8 @@ _G.pg.base.item_data_statistics[41373] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46438,7 +46897,6 @@ _G.pg.base.item_data_statistics[41374] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46449,7 +46907,8 @@ _G.pg.base.item_data_statistics[41374] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46469,7 +46928,6 @@ _G.pg.base.item_data_statistics[41375] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46480,7 +46938,8 @@ _G.pg.base.item_data_statistics[41375] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46500,7 +46959,6 @@ _G.pg.base.item_data_statistics[41376] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46511,7 +46969,8 @@ _G.pg.base.item_data_statistics[41376] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46531,7 +46990,6 @@ _G.pg.base.item_data_statistics[41377] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46542,7 +47000,8 @@ _G.pg.base.item_data_statistics[41377] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46562,7 +47021,6 @@ _G.pg.base.item_data_statistics[41378] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46573,7 +47031,8 @@ _G.pg.base.item_data_statistics[41378] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46593,7 +47052,6 @@ _G.pg.base.item_data_statistics[41379] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46604,7 +47062,8 @@ _G.pg.base.item_data_statistics[41379] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46624,7 +47083,6 @@ _G.pg.base.item_data_statistics[41380] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46635,7 +47093,8 @@ _G.pg.base.item_data_statistics[41380] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46655,7 +47114,6 @@ _G.pg.base.item_data_statistics[41381] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46666,7 +47124,8 @@ _G.pg.base.item_data_statistics[41381] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46686,7 +47145,6 @@ _G.pg.base.item_data_statistics[41382] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46697,7 +47155,8 @@ _G.pg.base.item_data_statistics[41382] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46717,7 +47176,6 @@ _G.pg.base.item_data_statistics[41383] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46728,7 +47186,8 @@ _G.pg.base.item_data_statistics[41383] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46748,7 +47207,6 @@ _G.pg.base.item_data_statistics[41384] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46759,7 +47217,8 @@ _G.pg.base.item_data_statistics[41384] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46779,7 +47238,6 @@ _G.pg.base.item_data_statistics[41385] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46790,7 +47248,8 @@ _G.pg.base.item_data_statistics[41385] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46810,7 +47269,6 @@ _G.pg.base.item_data_statistics[41386] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46821,7 +47279,8 @@ _G.pg.base.item_data_statistics[41386] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46841,7 +47300,6 @@ _G.pg.base.item_data_statistics[41387] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46852,7 +47310,8 @@ _G.pg.base.item_data_statistics[41387] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46872,7 +47331,6 @@ _G.pg.base.item_data_statistics[41388] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46883,7 +47341,8 @@ _G.pg.base.item_data_statistics[41388] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46903,7 +47362,6 @@ _G.pg.base.item_data_statistics[41389] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46914,7 +47372,8 @@ _G.pg.base.item_data_statistics[41389] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46934,7 +47393,6 @@ _G.pg.base.item_data_statistics[41390] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46945,7 +47403,8 @@ _G.pg.base.item_data_statistics[41390] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46965,7 +47424,6 @@ _G.pg.base.item_data_statistics[41391] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -46976,7 +47434,8 @@ _G.pg.base.item_data_statistics[41391] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -46996,7 +47455,6 @@ _G.pg.base.item_data_statistics[41392] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47007,7 +47465,8 @@ _G.pg.base.item_data_statistics[41392] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47027,7 +47486,6 @@ _G.pg.base.item_data_statistics[41393] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47038,7 +47496,8 @@ _G.pg.base.item_data_statistics[41393] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47058,7 +47517,6 @@ _G.pg.base.item_data_statistics[41394] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47069,7 +47527,8 @@ _G.pg.base.item_data_statistics[41394] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47089,7 +47548,6 @@ _G.pg.base.item_data_statistics[41395] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47100,7 +47558,8 @@ _G.pg.base.item_data_statistics[41395] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47120,7 +47579,6 @@ _G.pg.base.item_data_statistics[41396] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47131,7 +47589,8 @@ _G.pg.base.item_data_statistics[41396] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47151,7 +47610,6 @@ _G.pg.base.item_data_statistics[41397] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47162,7 +47620,8 @@ _G.pg.base.item_data_statistics[41397] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47182,7 +47641,6 @@ _G.pg.base.item_data_statistics[41398] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47193,7 +47651,8 @@ _G.pg.base.item_data_statistics[41398] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47213,7 +47672,6 @@ _G.pg.base.item_data_statistics[41399] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47224,7 +47682,8 @@ _G.pg.base.item_data_statistics[41399] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47244,7 +47703,6 @@ _G.pg.base.item_data_statistics[41400] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47255,7 +47713,8 @@ _G.pg.base.item_data_statistics[41400] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47275,7 +47734,6 @@ _G.pg.base.item_data_statistics[41401] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47286,7 +47744,8 @@ _G.pg.base.item_data_statistics[41401] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47306,7 +47765,6 @@ _G.pg.base.item_data_statistics[41402] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47317,7 +47775,8 @@ _G.pg.base.item_data_statistics[41402] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47337,7 +47796,6 @@ _G.pg.base.item_data_statistics[41403] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47348,7 +47806,8 @@ _G.pg.base.item_data_statistics[41403] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47368,7 +47827,6 @@ _G.pg.base.item_data_statistics[41404] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47379,7 +47837,8 @@ _G.pg.base.item_data_statistics[41404] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47399,7 +47858,6 @@ _G.pg.base.item_data_statistics[41405] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47410,7 +47868,8 @@ _G.pg.base.item_data_statistics[41405] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47430,7 +47889,6 @@ _G.pg.base.item_data_statistics[41406] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47441,7 +47899,8 @@ _G.pg.base.item_data_statistics[41406] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47461,7 +47920,6 @@ _G.pg.base.item_data_statistics[41407] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47472,7 +47930,8 @@ _G.pg.base.item_data_statistics[41407] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47492,7 +47951,6 @@ _G.pg.base.item_data_statistics[41408] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47503,7 +47961,8 @@ _G.pg.base.item_data_statistics[41408] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47523,7 +47982,6 @@ _G.pg.base.item_data_statistics[41409] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47534,7 +47992,8 @@ _G.pg.base.item_data_statistics[41409] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47554,7 +48013,6 @@ _G.pg.base.item_data_statistics[41410] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47565,7 +48023,8 @@ _G.pg.base.item_data_statistics[41410] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47585,7 +48044,6 @@ _G.pg.base.item_data_statistics[41411] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47596,7 +48054,8 @@ _G.pg.base.item_data_statistics[41411] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47616,7 +48075,6 @@ _G.pg.base.item_data_statistics[41412] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47627,7 +48085,8 @@ _G.pg.base.item_data_statistics[41412] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47647,7 +48106,6 @@ _G.pg.base.item_data_statistics[41413] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47658,7 +48116,8 @@ _G.pg.base.item_data_statistics[41413] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47678,7 +48137,6 @@ _G.pg.base.item_data_statistics[41414] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47689,7 +48147,8 @@ _G.pg.base.item_data_statistics[41414] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47709,7 +48168,6 @@ _G.pg.base.item_data_statistics[41415] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47720,7 +48178,8 @@ _G.pg.base.item_data_statistics[41415] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47740,7 +48199,6 @@ _G.pg.base.item_data_statistics[41416] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47751,7 +48209,8 @@ _G.pg.base.item_data_statistics[41416] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47771,7 +48230,6 @@ _G.pg.base.item_data_statistics[41417] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47782,7 +48240,8 @@ _G.pg.base.item_data_statistics[41417] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47802,7 +48261,6 @@ _G.pg.base.item_data_statistics[41418] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47813,7 +48271,8 @@ _G.pg.base.item_data_statistics[41418] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47833,7 +48292,6 @@ _G.pg.base.item_data_statistics[41419] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47844,7 +48302,8 @@ _G.pg.base.item_data_statistics[41419] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47864,7 +48323,6 @@ _G.pg.base.item_data_statistics[41420] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47875,7 +48333,8 @@ _G.pg.base.item_data_statistics[41420] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47895,7 +48354,6 @@ _G.pg.base.item_data_statistics[41421] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47906,7 +48364,8 @@ _G.pg.base.item_data_statistics[41421] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47926,7 +48385,6 @@ _G.pg.base.item_data_statistics[41422] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47937,7 +48395,8 @@ _G.pg.base.item_data_statistics[41422] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47957,7 +48416,6 @@ _G.pg.base.item_data_statistics[41423] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47968,7 +48426,8 @@ _G.pg.base.item_data_statistics[41423] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -47988,7 +48447,6 @@ _G.pg.base.item_data_statistics[41424] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -47999,7 +48457,8 @@ _G.pg.base.item_data_statistics[41424] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48019,7 +48478,6 @@ _G.pg.base.item_data_statistics[41425] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48030,7 +48488,8 @@ _G.pg.base.item_data_statistics[41425] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48050,7 +48509,6 @@ _G.pg.base.item_data_statistics[41426] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48061,7 +48519,8 @@ _G.pg.base.item_data_statistics[41426] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48081,7 +48540,6 @@ _G.pg.base.item_data_statistics[41427] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48092,7 +48550,8 @@ _G.pg.base.item_data_statistics[41427] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48112,7 +48571,6 @@ _G.pg.base.item_data_statistics[41428] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48123,7 +48581,8 @@ _G.pg.base.item_data_statistics[41428] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48143,7 +48602,6 @@ _G.pg.base.item_data_statistics[41429] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48154,7 +48612,8 @@ _G.pg.base.item_data_statistics[41429] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48174,7 +48633,6 @@ _G.pg.base.item_data_statistics[41430] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48185,7 +48643,8 @@ _G.pg.base.item_data_statistics[41430] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48205,7 +48664,6 @@ _G.pg.base.item_data_statistics[41431] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48216,7 +48674,8 @@ _G.pg.base.item_data_statistics[41431] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48236,7 +48695,6 @@ _G.pg.base.item_data_statistics[41432] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48247,7 +48705,8 @@ _G.pg.base.item_data_statistics[41432] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48267,7 +48726,6 @@ _G.pg.base.item_data_statistics[41433] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48278,7 +48736,8 @@ _G.pg.base.item_data_statistics[41433] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48298,7 +48757,6 @@ _G.pg.base.item_data_statistics[41434] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48309,7 +48767,8 @@ _G.pg.base.item_data_statistics[41434] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48329,7 +48788,6 @@ _G.pg.base.item_data_statistics[41435] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48340,7 +48798,8 @@ _G.pg.base.item_data_statistics[41435] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48360,7 +48819,6 @@ _G.pg.base.item_data_statistics[41436] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48371,7 +48829,8 @@ _G.pg.base.item_data_statistics[41436] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48391,7 +48850,6 @@ _G.pg.base.item_data_statistics[41437] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48402,7 +48860,8 @@ _G.pg.base.item_data_statistics[41437] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48422,7 +48881,6 @@ _G.pg.base.item_data_statistics[41438] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48433,7 +48891,8 @@ _G.pg.base.item_data_statistics[41438] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48453,7 +48912,6 @@ _G.pg.base.item_data_statistics[41439] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48464,7 +48922,8 @@ _G.pg.base.item_data_statistics[41439] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48484,7 +48943,6 @@ _G.pg.base.item_data_statistics[41440] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48495,7 +48953,8 @@ _G.pg.base.item_data_statistics[41440] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48515,7 +48974,6 @@ _G.pg.base.item_data_statistics[41441] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48526,7 +48984,8 @@ _G.pg.base.item_data_statistics[41441] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48546,7 +49005,6 @@ _G.pg.base.item_data_statistics[41442] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48557,7 +49015,8 @@ _G.pg.base.item_data_statistics[41442] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48577,7 +49036,6 @@ _G.pg.base.item_data_statistics[41443] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48588,7 +49046,8 @@ _G.pg.base.item_data_statistics[41443] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48608,7 +49067,6 @@ _G.pg.base.item_data_statistics[41444] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48619,7 +49077,8 @@ _G.pg.base.item_data_statistics[41444] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48639,7 +49098,6 @@ _G.pg.base.item_data_statistics[41445] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48650,7 +49108,8 @@ _G.pg.base.item_data_statistics[41445] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48670,7 +49129,6 @@ _G.pg.base.item_data_statistics[41446] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48681,7 +49139,8 @@ _G.pg.base.item_data_statistics[41446] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48701,7 +49160,6 @@ _G.pg.base.item_data_statistics[41447] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48712,7 +49170,8 @@ _G.pg.base.item_data_statistics[41447] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48732,7 +49191,6 @@ _G.pg.base.item_data_statistics[41448] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48743,7 +49201,8 @@ _G.pg.base.item_data_statistics[41448] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48763,7 +49222,6 @@ _G.pg.base.item_data_statistics[41449] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48774,7 +49232,8 @@ _G.pg.base.item_data_statistics[41449] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48794,7 +49253,6 @@ _G.pg.base.item_data_statistics[41450] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48805,7 +49263,8 @@ _G.pg.base.item_data_statistics[41450] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48825,7 +49284,6 @@ _G.pg.base.item_data_statistics[41451] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48836,7 +49294,8 @@ _G.pg.base.item_data_statistics[41451] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48856,7 +49315,6 @@ _G.pg.base.item_data_statistics[41452] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48867,7 +49325,8 @@ _G.pg.base.item_data_statistics[41452] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48887,7 +49346,6 @@ _G.pg.base.item_data_statistics[41453] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48898,7 +49356,8 @@ _G.pg.base.item_data_statistics[41453] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48918,7 +49377,6 @@ _G.pg.base.item_data_statistics[41454] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48929,7 +49387,8 @@ _G.pg.base.item_data_statistics[41454] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48949,7 +49408,6 @@ _G.pg.base.item_data_statistics[41455] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48960,7 +49418,8 @@ _G.pg.base.item_data_statistics[41455] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -48980,7 +49439,6 @@ _G.pg.base.item_data_statistics[41456] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -48991,7 +49449,8 @@ _G.pg.base.item_data_statistics[41456] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49011,7 +49470,6 @@ _G.pg.base.item_data_statistics[41457] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49022,7 +49480,8 @@ _G.pg.base.item_data_statistics[41457] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49042,7 +49501,6 @@ _G.pg.base.item_data_statistics[41458] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49053,7 +49511,8 @@ _G.pg.base.item_data_statistics[41458] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49073,7 +49532,6 @@ _G.pg.base.item_data_statistics[41459] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49084,7 +49542,8 @@ _G.pg.base.item_data_statistics[41459] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49104,7 +49563,6 @@ _G.pg.base.item_data_statistics[41460] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49115,7 +49573,8 @@ _G.pg.base.item_data_statistics[41460] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49135,7 +49594,6 @@ _G.pg.base.item_data_statistics[41461] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49146,7 +49604,8 @@ _G.pg.base.item_data_statistics[41461] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49166,7 +49625,6 @@ _G.pg.base.item_data_statistics[41462] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49177,7 +49635,8 @@ _G.pg.base.item_data_statistics[41462] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49197,7 +49656,6 @@ _G.pg.base.item_data_statistics[41463] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49208,7 +49666,8 @@ _G.pg.base.item_data_statistics[41463] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49228,7 +49687,6 @@ _G.pg.base.item_data_statistics[41464] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49239,7 +49697,8 @@ _G.pg.base.item_data_statistics[41464] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49259,7 +49718,6 @@ _G.pg.base.item_data_statistics[41465] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49270,7 +49728,8 @@ _G.pg.base.item_data_statistics[41465] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49290,7 +49749,6 @@ _G.pg.base.item_data_statistics[41466] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49301,7 +49759,8 @@ _G.pg.base.item_data_statistics[41466] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49321,7 +49780,6 @@ _G.pg.base.item_data_statistics[41467] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49332,7 +49790,8 @@ _G.pg.base.item_data_statistics[41467] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49352,7 +49811,6 @@ _G.pg.base.item_data_statistics[41468] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49363,7 +49821,8 @@ _G.pg.base.item_data_statistics[41468] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49383,7 +49842,6 @@ _G.pg.base.item_data_statistics[41469] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49394,7 +49852,8 @@ _G.pg.base.item_data_statistics[41469] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49414,7 +49873,6 @@ _G.pg.base.item_data_statistics[41470] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49425,7 +49883,8 @@ _G.pg.base.item_data_statistics[41470] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49445,7 +49904,6 @@ _G.pg.base.item_data_statistics[41471] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49456,7 +49914,8 @@ _G.pg.base.item_data_statistics[41471] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49476,7 +49935,6 @@ _G.pg.base.item_data_statistics[41472] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49487,7 +49945,8 @@ _G.pg.base.item_data_statistics[41472] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49507,7 +49966,6 @@ _G.pg.base.item_data_statistics[41473] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49518,7 +49976,8 @@ _G.pg.base.item_data_statistics[41473] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49538,7 +49997,6 @@ _G.pg.base.item_data_statistics[41474] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49549,7 +50007,8 @@ _G.pg.base.item_data_statistics[41474] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49569,7 +50028,6 @@ _G.pg.base.item_data_statistics[41475] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49580,7 +50038,8 @@ _G.pg.base.item_data_statistics[41475] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49600,7 +50059,6 @@ _G.pg.base.item_data_statistics[41476] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49611,7 +50069,8 @@ _G.pg.base.item_data_statistics[41476] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49631,7 +50090,6 @@ _G.pg.base.item_data_statistics[41477] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49642,7 +50100,8 @@ _G.pg.base.item_data_statistics[41477] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49662,7 +50121,6 @@ _G.pg.base.item_data_statistics[41478] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49673,7 +50131,8 @@ _G.pg.base.item_data_statistics[41478] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49693,7 +50152,6 @@ _G.pg.base.item_data_statistics[41479] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49704,7 +50162,8 @@ _G.pg.base.item_data_statistics[41479] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49724,7 +50183,6 @@ _G.pg.base.item_data_statistics[41480] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49735,7 +50193,8 @@ _G.pg.base.item_data_statistics[41480] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49755,7 +50214,6 @@ _G.pg.base.item_data_statistics[41481] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49766,7 +50224,8 @@ _G.pg.base.item_data_statistics[41481] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49786,7 +50245,6 @@ _G.pg.base.item_data_statistics[41498] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49797,7 +50255,8 @@ _G.pg.base.item_data_statistics[41498] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49817,7 +50276,6 @@ _G.pg.base.item_data_statistics[41499] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49828,7 +50286,8 @@ _G.pg.base.item_data_statistics[41499] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49848,7 +50307,6 @@ _G.pg.base.item_data_statistics[41500] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49859,7 +50317,8 @@ _G.pg.base.item_data_statistics[41500] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49879,7 +50338,6 @@ _G.pg.base.item_data_statistics[41501] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49890,7 +50348,8 @@ _G.pg.base.item_data_statistics[41501] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49910,7 +50369,6 @@ _G.pg.base.item_data_statistics[41502] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49921,7 +50379,8 @@ _G.pg.base.item_data_statistics[41502] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49941,7 +50400,6 @@ _G.pg.base.item_data_statistics[41503] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49952,7 +50410,8 @@ _G.pg.base.item_data_statistics[41503] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -49972,7 +50431,6 @@ _G.pg.base.item_data_statistics[41601] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -49983,7 +50441,8 @@ _G.pg.base.item_data_statistics[41601] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50003,7 +50462,6 @@ _G.pg.base.item_data_statistics[41602] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50014,7 +50472,8 @@ _G.pg.base.item_data_statistics[41602] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50034,7 +50493,6 @@ _G.pg.base.item_data_statistics[41603] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50045,7 +50503,8 @@ _G.pg.base.item_data_statistics[41603] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50065,7 +50524,6 @@ _G.pg.base.item_data_statistics[41604] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50076,7 +50534,8 @@ _G.pg.base.item_data_statistics[41604] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50096,7 +50555,6 @@ _G.pg.base.item_data_statistics[41605] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50107,7 +50565,8 @@ _G.pg.base.item_data_statistics[41605] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50127,7 +50586,6 @@ _G.pg.base.item_data_statistics[41606] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50138,7 +50596,8 @@ _G.pg.base.item_data_statistics[41606] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50158,7 +50617,6 @@ _G.pg.base.item_data_statistics[41607] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50169,7 +50627,8 @@ _G.pg.base.item_data_statistics[41607] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50189,7 +50648,6 @@ _G.pg.base.item_data_statistics[41608] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50200,7 +50658,8 @@ _G.pg.base.item_data_statistics[41608] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50220,7 +50679,6 @@ _G.pg.base.item_data_statistics[41609] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50231,7 +50689,8 @@ _G.pg.base.item_data_statistics[41609] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50251,7 +50710,6 @@ _G.pg.base.item_data_statistics[41610] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50262,7 +50720,8 @@ _G.pg.base.item_data_statistics[41610] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50282,7 +50741,6 @@ _G.pg.base.item_data_statistics[41611] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50293,7 +50751,8 @@ _G.pg.base.item_data_statistics[41611] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50313,7 +50772,6 @@ _G.pg.base.item_data_statistics[41612] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50324,7 +50782,8 @@ _G.pg.base.item_data_statistics[41612] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50344,7 +50803,6 @@ _G.pg.base.item_data_statistics[41613] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50355,7 +50813,8 @@ _G.pg.base.item_data_statistics[41613] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50375,7 +50834,6 @@ _G.pg.base.item_data_statistics[41614] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50386,7 +50844,8 @@ _G.pg.base.item_data_statistics[41614] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50406,7 +50865,6 @@ _G.pg.base.item_data_statistics[41615] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50417,7 +50875,8 @@ _G.pg.base.item_data_statistics[41615] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50437,7 +50896,6 @@ _G.pg.base.item_data_statistics[41616] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50448,7 +50906,8 @@ _G.pg.base.item_data_statistics[41616] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50468,7 +50927,6 @@ _G.pg.base.item_data_statistics[41617] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50479,7 +50937,8 @@ _G.pg.base.item_data_statistics[41617] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50499,7 +50958,6 @@ _G.pg.base.item_data_statistics[41618] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50510,7 +50968,8 @@ _G.pg.base.item_data_statistics[41618] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50530,7 +50989,6 @@ _G.pg.base.item_data_statistics[41619] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50541,7 +50999,8 @@ _G.pg.base.item_data_statistics[41619] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50561,7 +51020,6 @@ _G.pg.base.item_data_statistics[41620] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50572,7 +51030,8 @@ _G.pg.base.item_data_statistics[41620] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50592,7 +51051,6 @@ _G.pg.base.item_data_statistics[41621] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50603,7 +51061,8 @@ _G.pg.base.item_data_statistics[41621] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50623,7 +51082,6 @@ _G.pg.base.item_data_statistics[41622] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50634,7 +51092,8 @@ _G.pg.base.item_data_statistics[41622] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50654,7 +51113,6 @@ _G.pg.base.item_data_statistics[41623] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50665,7 +51123,8 @@ _G.pg.base.item_data_statistics[41623] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50685,7 +51144,6 @@ _G.pg.base.item_data_statistics[41624] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50696,7 +51154,8 @@ _G.pg.base.item_data_statistics[41624] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50716,7 +51175,6 @@ _G.pg.base.item_data_statistics[41625] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50727,7 +51185,8 @@ _G.pg.base.item_data_statistics[41625] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50747,7 +51206,6 @@ _G.pg.base.item_data_statistics[41626] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50758,7 +51216,8 @@ _G.pg.base.item_data_statistics[41626] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50778,7 +51237,6 @@ _G.pg.base.item_data_statistics[41627] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50789,7 +51247,8 @@ _G.pg.base.item_data_statistics[41627] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50809,7 +51268,6 @@ _G.pg.base.item_data_statistics[41628] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50820,7 +51278,8 @@ _G.pg.base.item_data_statistics[41628] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50840,7 +51299,6 @@ _G.pg.base.item_data_statistics[41629] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50851,7 +51309,8 @@ _G.pg.base.item_data_statistics[41629] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50871,7 +51330,6 @@ _G.pg.base.item_data_statistics[41630] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50882,7 +51340,8 @@ _G.pg.base.item_data_statistics[41630] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50902,7 +51361,6 @@ _G.pg.base.item_data_statistics[41631] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50913,7 +51371,8 @@ _G.pg.base.item_data_statistics[41631] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50933,7 +51392,6 @@ _G.pg.base.item_data_statistics[41632] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50944,7 +51402,8 @@ _G.pg.base.item_data_statistics[41632] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50964,7 +51423,6 @@ _G.pg.base.item_data_statistics[41633] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -50975,7 +51433,8 @@ _G.pg.base.item_data_statistics[41633] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -50995,7 +51454,6 @@ _G.pg.base.item_data_statistics[41634] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51006,7 +51464,8 @@ _G.pg.base.item_data_statistics[41634] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51026,7 +51485,6 @@ _G.pg.base.item_data_statistics[41635] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51037,7 +51495,8 @@ _G.pg.base.item_data_statistics[41635] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51057,7 +51516,6 @@ _G.pg.base.item_data_statistics[41636] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51068,7 +51526,8 @@ _G.pg.base.item_data_statistics[41636] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51088,7 +51547,6 @@ _G.pg.base.item_data_statistics[41637] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51099,7 +51557,8 @@ _G.pg.base.item_data_statistics[41637] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51119,7 +51578,6 @@ _G.pg.base.item_data_statistics[41638] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51130,7 +51588,8 @@ _G.pg.base.item_data_statistics[41638] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51150,7 +51609,6 @@ _G.pg.base.item_data_statistics[41639] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51161,7 +51619,8 @@ _G.pg.base.item_data_statistics[41639] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51181,7 +51640,6 @@ _G.pg.base.item_data_statistics[41640] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51192,7 +51650,8 @@ _G.pg.base.item_data_statistics[41640] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51212,7 +51671,6 @@ _G.pg.base.item_data_statistics[41641] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51223,7 +51681,8 @@ _G.pg.base.item_data_statistics[41641] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51243,7 +51702,6 @@ _G.pg.base.item_data_statistics[41642] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51254,7 +51712,8 @@ _G.pg.base.item_data_statistics[41642] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51274,7 +51733,6 @@ _G.pg.base.item_data_statistics[41643] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51285,7 +51743,8 @@ _G.pg.base.item_data_statistics[41643] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51305,7 +51764,6 @@ _G.pg.base.item_data_statistics[41644] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51316,7 +51774,8 @@ _G.pg.base.item_data_statistics[41644] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51336,7 +51795,6 @@ _G.pg.base.item_data_statistics[41645] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51347,7 +51805,8 @@ _G.pg.base.item_data_statistics[41645] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51367,7 +51826,6 @@ _G.pg.base.item_data_statistics[41646] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51378,7 +51836,8 @@ _G.pg.base.item_data_statistics[41646] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51398,7 +51857,6 @@ _G.pg.base.item_data_statistics[41647] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51409,7 +51867,8 @@ _G.pg.base.item_data_statistics[41647] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51429,7 +51888,6 @@ _G.pg.base.item_data_statistics[41648] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51440,7 +51898,8 @@ _G.pg.base.item_data_statistics[41648] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51460,7 +51919,6 @@ _G.pg.base.item_data_statistics[41649] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51471,7 +51929,8 @@ _G.pg.base.item_data_statistics[41649] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51491,7 +51950,6 @@ _G.pg.base.item_data_statistics[41650] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51502,7 +51960,8 @@ _G.pg.base.item_data_statistics[41650] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51522,7 +51981,6 @@ _G.pg.base.item_data_statistics[41651] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51533,7 +51991,8 @@ _G.pg.base.item_data_statistics[41651] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51553,7 +52012,6 @@ _G.pg.base.item_data_statistics[41652] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51564,7 +52022,8 @@ _G.pg.base.item_data_statistics[41652] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51584,7 +52043,6 @@ _G.pg.base.item_data_statistics[41653] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51595,7 +52053,8 @@ _G.pg.base.item_data_statistics[41653] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51615,7 +52074,6 @@ _G.pg.base.item_data_statistics[41654] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51626,7 +52084,8 @@ _G.pg.base.item_data_statistics[41654] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51646,7 +52105,6 @@ _G.pg.base.item_data_statistics[41655] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51657,7 +52115,8 @@ _G.pg.base.item_data_statistics[41655] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51677,7 +52136,6 @@ _G.pg.base.item_data_statistics[41656] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51688,7 +52146,8 @@ _G.pg.base.item_data_statistics[41656] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51708,7 +52167,6 @@ _G.pg.base.item_data_statistics[41657] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51719,7 +52177,8 @@ _G.pg.base.item_data_statistics[41657] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51739,7 +52198,6 @@ _G.pg.base.item_data_statistics[41658] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51750,7 +52208,8 @@ _G.pg.base.item_data_statistics[41658] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51770,7 +52229,6 @@ _G.pg.base.item_data_statistics[41659] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51781,7 +52239,8 @@ _G.pg.base.item_data_statistics[41659] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51801,7 +52260,6 @@ _G.pg.base.item_data_statistics[41660] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51812,7 +52270,8 @@ _G.pg.base.item_data_statistics[41660] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51832,7 +52291,6 @@ _G.pg.base.item_data_statistics[41661] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51843,7 +52301,8 @@ _G.pg.base.item_data_statistics[41661] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51863,7 +52322,6 @@ _G.pg.base.item_data_statistics[41662] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51874,7 +52332,8 @@ _G.pg.base.item_data_statistics[41662] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51894,7 +52353,6 @@ _G.pg.base.item_data_statistics[41663] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51905,7 +52363,8 @@ _G.pg.base.item_data_statistics[41663] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51925,7 +52384,6 @@ _G.pg.base.item_data_statistics[41664] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51936,7 +52394,8 @@ _G.pg.base.item_data_statistics[41664] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51956,7 +52415,6 @@ _G.pg.base.item_data_statistics[41665] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51967,7 +52425,8 @@ _G.pg.base.item_data_statistics[41665] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -51987,7 +52446,6 @@ _G.pg.base.item_data_statistics[41666] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -51998,7 +52456,8 @@ _G.pg.base.item_data_statistics[41666] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52018,7 +52477,6 @@ _G.pg.base.item_data_statistics[41667] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52029,7 +52487,8 @@ _G.pg.base.item_data_statistics[41667] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52049,7 +52508,6 @@ _G.pg.base.item_data_statistics[41668] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52060,7 +52518,8 @@ _G.pg.base.item_data_statistics[41668] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52080,7 +52539,6 @@ _G.pg.base.item_data_statistics[41669] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52091,7 +52549,8 @@ _G.pg.base.item_data_statistics[41669] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52111,7 +52570,6 @@ _G.pg.base.item_data_statistics[41670] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52122,7 +52580,8 @@ _G.pg.base.item_data_statistics[41670] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52142,7 +52601,6 @@ _G.pg.base.item_data_statistics[41671] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52153,7 +52611,8 @@ _G.pg.base.item_data_statistics[41671] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52173,7 +52632,6 @@ _G.pg.base.item_data_statistics[41672] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52184,7 +52642,8 @@ _G.pg.base.item_data_statistics[41672] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52204,7 +52663,6 @@ _G.pg.base.item_data_statistics[41673] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52215,7 +52673,8 @@ _G.pg.base.item_data_statistics[41673] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52235,7 +52694,6 @@ _G.pg.base.item_data_statistics[41674] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52246,7 +52704,8 @@ _G.pg.base.item_data_statistics[41674] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52266,7 +52725,6 @@ _G.pg.base.item_data_statistics[41675] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52277,7 +52735,8 @@ _G.pg.base.item_data_statistics[41675] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52297,7 +52756,6 @@ _G.pg.base.item_data_statistics[41676] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52308,7 +52766,8 @@ _G.pg.base.item_data_statistics[41676] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52328,7 +52787,6 @@ _G.pg.base.item_data_statistics[41677] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52339,7 +52797,8 @@ _G.pg.base.item_data_statistics[41677] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52359,7 +52818,6 @@ _G.pg.base.item_data_statistics[41678] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52370,7 +52828,8 @@ _G.pg.base.item_data_statistics[41678] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52390,7 +52849,6 @@ _G.pg.base.item_data_statistics[41679] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52401,7 +52859,8 @@ _G.pg.base.item_data_statistics[41679] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52421,7 +52880,6 @@ _G.pg.base.item_data_statistics[41680] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52432,7 +52890,8 @@ _G.pg.base.item_data_statistics[41680] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52452,7 +52911,6 @@ _G.pg.base.item_data_statistics[41681] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52463,7 +52921,8 @@ _G.pg.base.item_data_statistics[41681] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52483,7 +52942,6 @@ _G.pg.base.item_data_statistics[41682] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52494,7 +52952,8 @@ _G.pg.base.item_data_statistics[41682] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52514,7 +52973,6 @@ _G.pg.base.item_data_statistics[41683] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52525,7 +52983,8 @@ _G.pg.base.item_data_statistics[41683] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52545,7 +53004,6 @@ _G.pg.base.item_data_statistics[41684] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52556,7 +53014,8 @@ _G.pg.base.item_data_statistics[41684] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52576,7 +53035,6 @@ _G.pg.base.item_data_statistics[41685] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52587,7 +53045,8 @@ _G.pg.base.item_data_statistics[41685] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52607,7 +53066,6 @@ _G.pg.base.item_data_statistics[41686] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52618,7 +53076,8 @@ _G.pg.base.item_data_statistics[41686] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52638,7 +53097,6 @@ _G.pg.base.item_data_statistics[41687] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52649,7 +53107,8 @@ _G.pg.base.item_data_statistics[41687] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52669,7 +53128,6 @@ _G.pg.base.item_data_statistics[41688] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52680,7 +53138,8 @@ _G.pg.base.item_data_statistics[41688] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52700,7 +53159,6 @@ _G.pg.base.item_data_statistics[41689] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52711,7 +53169,8 @@ _G.pg.base.item_data_statistics[41689] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52731,7 +53190,6 @@ _G.pg.base.item_data_statistics[41690] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52742,7 +53200,8 @@ _G.pg.base.item_data_statistics[41690] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52762,7 +53221,6 @@ _G.pg.base.item_data_statistics[41691] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52773,7 +53231,8 @@ _G.pg.base.item_data_statistics[41691] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52793,7 +53252,6 @@ _G.pg.base.item_data_statistics[41692] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52804,7 +53262,8 @@ _G.pg.base.item_data_statistics[41692] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52824,7 +53283,6 @@ _G.pg.base.item_data_statistics[41693] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52835,7 +53293,8 @@ _G.pg.base.item_data_statistics[41693] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52855,7 +53314,6 @@ _G.pg.base.item_data_statistics[41694] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52866,7 +53324,8 @@ _G.pg.base.item_data_statistics[41694] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52886,7 +53345,6 @@ _G.pg.base.item_data_statistics[41695] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52897,7 +53355,8 @@ _G.pg.base.item_data_statistics[41695] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52917,7 +53376,6 @@ _G.pg.base.item_data_statistics[41696] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52928,7 +53386,8 @@ _G.pg.base.item_data_statistics[41696] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52948,7 +53407,6 @@ _G.pg.base.item_data_statistics[41697] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52959,7 +53417,8 @@ _G.pg.base.item_data_statistics[41697] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -52979,7 +53438,6 @@ _G.pg.base.item_data_statistics[41698] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -52990,7 +53448,8 @@ _G.pg.base.item_data_statistics[41698] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53010,7 +53469,6 @@ _G.pg.base.item_data_statistics[41699] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53021,7 +53479,8 @@ _G.pg.base.item_data_statistics[41699] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53041,7 +53500,6 @@ _G.pg.base.item_data_statistics[41700] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53052,7 +53510,8 @@ _G.pg.base.item_data_statistics[41700] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53072,7 +53531,6 @@ _G.pg.base.item_data_statistics[41701] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53083,7 +53541,8 @@ _G.pg.base.item_data_statistics[41701] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53103,7 +53562,6 @@ _G.pg.base.item_data_statistics[41702] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53114,7 +53572,8 @@ _G.pg.base.item_data_statistics[41702] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53134,7 +53593,6 @@ _G.pg.base.item_data_statistics[41703] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53145,7 +53603,8 @@ _G.pg.base.item_data_statistics[41703] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53165,7 +53624,6 @@ _G.pg.base.item_data_statistics[41704] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53176,7 +53634,8 @@ _G.pg.base.item_data_statistics[41704] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53196,7 +53655,6 @@ _G.pg.base.item_data_statistics[41705] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53207,7 +53665,8 @@ _G.pg.base.item_data_statistics[41705] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53227,7 +53686,6 @@ _G.pg.base.item_data_statistics[41706] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53238,7 +53696,8 @@ _G.pg.base.item_data_statistics[41706] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53258,7 +53717,6 @@ _G.pg.base.item_data_statistics[41707] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53269,7 +53727,8 @@ _G.pg.base.item_data_statistics[41707] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53289,7 +53748,6 @@ _G.pg.base.item_data_statistics[41708] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53300,7 +53758,8 @@ _G.pg.base.item_data_statistics[41708] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53320,7 +53779,6 @@ _G.pg.base.item_data_statistics[41709] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53331,7 +53789,8 @@ _G.pg.base.item_data_statistics[41709] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53351,7 +53810,6 @@ _G.pg.base.item_data_statistics[41710] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53362,7 +53820,8 @@ _G.pg.base.item_data_statistics[41710] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53382,7 +53841,6 @@ _G.pg.base.item_data_statistics[41711] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53393,7 +53851,8 @@ _G.pg.base.item_data_statistics[41711] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53413,7 +53872,6 @@ _G.pg.base.item_data_statistics[41712] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53424,7 +53882,8 @@ _G.pg.base.item_data_statistics[41712] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53444,7 +53903,6 @@ _G.pg.base.item_data_statistics[41713] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53455,7 +53913,8 @@ _G.pg.base.item_data_statistics[41713] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53475,7 +53934,6 @@ _G.pg.base.item_data_statistics[41714] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53486,7 +53944,8 @@ _G.pg.base.item_data_statistics[41714] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53506,7 +53965,6 @@ _G.pg.base.item_data_statistics[41715] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53517,7 +53975,8 @@ _G.pg.base.item_data_statistics[41715] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53537,7 +53996,6 @@ _G.pg.base.item_data_statistics[41716] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53548,7 +54006,8 @@ _G.pg.base.item_data_statistics[41716] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53568,7 +54027,6 @@ _G.pg.base.item_data_statistics[41717] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53579,7 +54037,8 @@ _G.pg.base.item_data_statistics[41717] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53599,7 +54058,6 @@ _G.pg.base.item_data_statistics[41718] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53610,7 +54068,8 @@ _G.pg.base.item_data_statistics[41718] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53630,7 +54089,6 @@ _G.pg.base.item_data_statistics[41719] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53641,7 +54099,8 @@ _G.pg.base.item_data_statistics[41719] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53661,7 +54120,6 @@ _G.pg.base.item_data_statistics[41720] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53672,7 +54130,8 @@ _G.pg.base.item_data_statistics[41720] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53692,7 +54151,6 @@ _G.pg.base.item_data_statistics[41721] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53703,7 +54161,8 @@ _G.pg.base.item_data_statistics[41721] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53723,7 +54182,6 @@ _G.pg.base.item_data_statistics[41722] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53734,7 +54192,8 @@ _G.pg.base.item_data_statistics[41722] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53754,7 +54213,6 @@ _G.pg.base.item_data_statistics[41723] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53765,7 +54223,8 @@ _G.pg.base.item_data_statistics[41723] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53785,7 +54244,6 @@ _G.pg.base.item_data_statistics[41724] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53796,7 +54254,8 @@ _G.pg.base.item_data_statistics[41724] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53816,7 +54275,6 @@ _G.pg.base.item_data_statistics[41725] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53827,7 +54285,8 @@ _G.pg.base.item_data_statistics[41725] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53847,7 +54306,6 @@ _G.pg.base.item_data_statistics[41726] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53858,7 +54316,8 @@ _G.pg.base.item_data_statistics[41726] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53878,7 +54337,6 @@ _G.pg.base.item_data_statistics[41727] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53889,7 +54347,8 @@ _G.pg.base.item_data_statistics[41727] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53909,7 +54368,6 @@ _G.pg.base.item_data_statistics[41728] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53920,7 +54378,8 @@ _G.pg.base.item_data_statistics[41728] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53940,7 +54399,6 @@ _G.pg.base.item_data_statistics[41729] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53951,7 +54409,8 @@ _G.pg.base.item_data_statistics[41729] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -53971,7 +54430,6 @@ _G.pg.base.item_data_statistics[41730] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -53982,7 +54440,8 @@ _G.pg.base.item_data_statistics[41730] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54002,7 +54461,6 @@ _G.pg.base.item_data_statistics[41731] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54013,7 +54471,8 @@ _G.pg.base.item_data_statistics[41731] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54033,7 +54492,6 @@ _G.pg.base.item_data_statistics[41732] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54044,7 +54502,8 @@ _G.pg.base.item_data_statistics[41732] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54064,7 +54523,6 @@ _G.pg.base.item_data_statistics[41733] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54075,7 +54533,8 @@ _G.pg.base.item_data_statistics[41733] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54095,7 +54554,6 @@ _G.pg.base.item_data_statistics[41734] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54106,7 +54564,8 @@ _G.pg.base.item_data_statistics[41734] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54126,7 +54585,6 @@ _G.pg.base.item_data_statistics[41735] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54137,7 +54595,8 @@ _G.pg.base.item_data_statistics[41735] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54157,7 +54616,6 @@ _G.pg.base.item_data_statistics[41736] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54168,7 +54626,8 @@ _G.pg.base.item_data_statistics[41736] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54188,7 +54647,6 @@ _G.pg.base.item_data_statistics[41737] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54199,7 +54657,8 @@ _G.pg.base.item_data_statistics[41737] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54219,7 +54678,6 @@ _G.pg.base.item_data_statistics[41738] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54230,7 +54688,8 @@ _G.pg.base.item_data_statistics[41738] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54250,7 +54709,6 @@ _G.pg.base.item_data_statistics[41739] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54261,7 +54719,8 @@ _G.pg.base.item_data_statistics[41739] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54281,7 +54740,6 @@ _G.pg.base.item_data_statistics[41740] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54292,7 +54750,8 @@ _G.pg.base.item_data_statistics[41740] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54312,7 +54771,6 @@ _G.pg.base.item_data_statistics[41741] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54323,7 +54781,8 @@ _G.pg.base.item_data_statistics[41741] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54343,7 +54802,6 @@ _G.pg.base.item_data_statistics[41742] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54354,7 +54812,8 @@ _G.pg.base.item_data_statistics[41742] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54374,7 +54833,6 @@ _G.pg.base.item_data_statistics[41743] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54385,7 +54843,8 @@ _G.pg.base.item_data_statistics[41743] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54405,7 +54864,6 @@ _G.pg.base.item_data_statistics[41744] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54416,7 +54874,8 @@ _G.pg.base.item_data_statistics[41744] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54436,7 +54895,6 @@ _G.pg.base.item_data_statistics[41745] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54447,7 +54905,8 @@ _G.pg.base.item_data_statistics[41745] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54467,7 +54926,6 @@ _G.pg.base.item_data_statistics[41746] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54478,7 +54936,8 @@ _G.pg.base.item_data_statistics[41746] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54498,7 +54957,6 @@ _G.pg.base.item_data_statistics[41747] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54509,7 +54967,8 @@ _G.pg.base.item_data_statistics[41747] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54529,7 +54988,6 @@ _G.pg.base.item_data_statistics[41748] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54540,7 +54998,8 @@ _G.pg.base.item_data_statistics[41748] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54560,7 +55019,6 @@ _G.pg.base.item_data_statistics[41749] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54571,7 +55029,8 @@ _G.pg.base.item_data_statistics[41749] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54591,7 +55050,6 @@ _G.pg.base.item_data_statistics[41750] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54602,7 +55060,8 @@ _G.pg.base.item_data_statistics[41750] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54622,7 +55081,6 @@ _G.pg.base.item_data_statistics[41751] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54633,7 +55091,8 @@ _G.pg.base.item_data_statistics[41751] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54653,7 +55112,6 @@ _G.pg.base.item_data_statistics[41752] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54664,7 +55122,8 @@ _G.pg.base.item_data_statistics[41752] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54684,7 +55143,6 @@ _G.pg.base.item_data_statistics[41753] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54695,7 +55153,8 @@ _G.pg.base.item_data_statistics[41753] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54715,7 +55174,6 @@ _G.pg.base.item_data_statistics[41754] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54726,7 +55184,8 @@ _G.pg.base.item_data_statistics[41754] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54746,7 +55205,6 @@ _G.pg.base.item_data_statistics[41755] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54757,7 +55215,8 @@ _G.pg.base.item_data_statistics[41755] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54777,7 +55236,6 @@ _G.pg.base.item_data_statistics[41756] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54788,7 +55246,8 @@ _G.pg.base.item_data_statistics[41756] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54808,7 +55267,6 @@ _G.pg.base.item_data_statistics[41757] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54819,7 +55277,8 @@ _G.pg.base.item_data_statistics[41757] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54839,7 +55298,6 @@ _G.pg.base.item_data_statistics[41758] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54850,7 +55308,8 @@ _G.pg.base.item_data_statistics[41758] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54870,7 +55329,6 @@ _G.pg.base.item_data_statistics[41759] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54881,7 +55339,8 @@ _G.pg.base.item_data_statistics[41759] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54901,7 +55360,6 @@ _G.pg.base.item_data_statistics[41760] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54912,7 +55370,8 @@ _G.pg.base.item_data_statistics[41760] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54932,7 +55391,6 @@ _G.pg.base.item_data_statistics[41761] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54943,7 +55401,8 @@ _G.pg.base.item_data_statistics[41761] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54963,7 +55422,6 @@ _G.pg.base.item_data_statistics[41762] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -54974,7 +55432,8 @@ _G.pg.base.item_data_statistics[41762] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -54994,7 +55453,6 @@ _G.pg.base.item_data_statistics[41763] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55005,7 +55463,8 @@ _G.pg.base.item_data_statistics[41763] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55025,7 +55484,6 @@ _G.pg.base.item_data_statistics[41764] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55036,7 +55494,8 @@ _G.pg.base.item_data_statistics[41764] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55056,7 +55515,6 @@ _G.pg.base.item_data_statistics[41765] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55067,7 +55525,8 @@ _G.pg.base.item_data_statistics[41765] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55087,7 +55546,6 @@ _G.pg.base.item_data_statistics[41766] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55098,7 +55556,8 @@ _G.pg.base.item_data_statistics[41766] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55118,7 +55577,6 @@ _G.pg.base.item_data_statistics[41767] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55129,7 +55587,8 @@ _G.pg.base.item_data_statistics[41767] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55149,7 +55608,6 @@ _G.pg.base.item_data_statistics[41768] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55160,7 +55618,8 @@ _G.pg.base.item_data_statistics[41768] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55180,7 +55639,6 @@ _G.pg.base.item_data_statistics[41769] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55191,7 +55649,8 @@ _G.pg.base.item_data_statistics[41769] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55211,7 +55670,6 @@ _G.pg.base.item_data_statistics[41770] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55222,7 +55680,8 @@ _G.pg.base.item_data_statistics[41770] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55242,7 +55701,6 @@ _G.pg.base.item_data_statistics[41771] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55253,7 +55711,8 @@ _G.pg.base.item_data_statistics[41771] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55273,7 +55732,6 @@ _G.pg.base.item_data_statistics[41772] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55284,7 +55742,8 @@ _G.pg.base.item_data_statistics[41772] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55304,7 +55763,6 @@ _G.pg.base.item_data_statistics[41773] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55315,7 +55773,8 @@ _G.pg.base.item_data_statistics[41773] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55335,7 +55794,6 @@ _G.pg.base.item_data_statistics[41774] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55346,7 +55804,8 @@ _G.pg.base.item_data_statistics[41774] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55366,7 +55825,6 @@ _G.pg.base.item_data_statistics[41775] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55377,7 +55835,8 @@ _G.pg.base.item_data_statistics[41775] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55397,7 +55856,6 @@ _G.pg.base.item_data_statistics[41776] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55408,7 +55866,8 @@ _G.pg.base.item_data_statistics[41776] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55428,7 +55887,6 @@ _G.pg.base.item_data_statistics[41777] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55439,7 +55897,8 @@ _G.pg.base.item_data_statistics[41777] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55459,7 +55918,6 @@ _G.pg.base.item_data_statistics[41778] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55470,7 +55928,8 @@ _G.pg.base.item_data_statistics[41778] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55490,7 +55949,6 @@ _G.pg.base.item_data_statistics[41779] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55501,7 +55959,8 @@ _G.pg.base.item_data_statistics[41779] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55521,7 +55980,6 @@ _G.pg.base.item_data_statistics[41780] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55532,7 +55990,8 @@ _G.pg.base.item_data_statistics[41780] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55552,7 +56011,6 @@ _G.pg.base.item_data_statistics[41781] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55563,7 +56021,8 @@ _G.pg.base.item_data_statistics[41781] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55583,7 +56042,6 @@ _G.pg.base.item_data_statistics[41782] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55594,7 +56052,8 @@ _G.pg.base.item_data_statistics[41782] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55614,7 +56073,6 @@ _G.pg.base.item_data_statistics[41783] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55625,7 +56083,8 @@ _G.pg.base.item_data_statistics[41783] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55645,7 +56104,6 @@ _G.pg.base.item_data_statistics[41784] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55656,7 +56114,8 @@ _G.pg.base.item_data_statistics[41784] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55676,7 +56135,6 @@ _G.pg.base.item_data_statistics[41785] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55687,7 +56145,8 @@ _G.pg.base.item_data_statistics[41785] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55707,7 +56166,6 @@ _G.pg.base.item_data_statistics[41786] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55718,7 +56176,8 @@ _G.pg.base.item_data_statistics[41786] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55738,7 +56197,6 @@ _G.pg.base.item_data_statistics[41787] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55749,7 +56207,8 @@ _G.pg.base.item_data_statistics[41787] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55769,7 +56228,6 @@ _G.pg.base.item_data_statistics[41788] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55780,7 +56238,8 @@ _G.pg.base.item_data_statistics[41788] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55800,7 +56259,6 @@ _G.pg.base.item_data_statistics[41789] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55811,7 +56269,8 @@ _G.pg.base.item_data_statistics[41789] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55831,7 +56290,6 @@ _G.pg.base.item_data_statistics[41790] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55842,7 +56300,8 @@ _G.pg.base.item_data_statistics[41790] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55862,7 +56321,6 @@ _G.pg.base.item_data_statistics[41791] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55873,7 +56331,8 @@ _G.pg.base.item_data_statistics[41791] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55893,7 +56352,6 @@ _G.pg.base.item_data_statistics[41792] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55904,7 +56362,8 @@ _G.pg.base.item_data_statistics[41792] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55924,7 +56383,6 @@ _G.pg.base.item_data_statistics[41793] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55935,7 +56393,8 @@ _G.pg.base.item_data_statistics[41793] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55955,7 +56414,6 @@ _G.pg.base.item_data_statistics[41794] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55966,7 +56424,8 @@ _G.pg.base.item_data_statistics[41794] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -55986,7 +56445,6 @@ _G.pg.base.item_data_statistics[41795] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -55997,7 +56455,8 @@ _G.pg.base.item_data_statistics[41795] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56017,7 +56476,6 @@ _G.pg.base.item_data_statistics[41796] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56028,7 +56486,8 @@ _G.pg.base.item_data_statistics[41796] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56048,7 +56507,6 @@ _G.pg.base.item_data_statistics[41797] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56059,7 +56517,8 @@ _G.pg.base.item_data_statistics[41797] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56079,7 +56538,6 @@ _G.pg.base.item_data_statistics[41798] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56090,7 +56548,8 @@ _G.pg.base.item_data_statistics[41798] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56110,7 +56569,6 @@ _G.pg.base.item_data_statistics[41799] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56121,7 +56579,8 @@ _G.pg.base.item_data_statistics[41799] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56141,7 +56600,6 @@ _G.pg.base.item_data_statistics[41800] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56152,7 +56610,8 @@ _G.pg.base.item_data_statistics[41800] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56172,7 +56631,6 @@ _G.pg.base.item_data_statistics[41801] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56183,7 +56641,8 @@ _G.pg.base.item_data_statistics[41801] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56203,7 +56662,6 @@ _G.pg.base.item_data_statistics[41802] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56214,7 +56672,8 @@ _G.pg.base.item_data_statistics[41802] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56234,7 +56693,6 @@ _G.pg.base.item_data_statistics[41803] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56245,7 +56703,8 @@ _G.pg.base.item_data_statistics[41803] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56265,7 +56724,6 @@ _G.pg.base.item_data_statistics[41804] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56276,7 +56734,8 @@ _G.pg.base.item_data_statistics[41804] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56296,7 +56755,6 @@ _G.pg.base.item_data_statistics[41805] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56307,7 +56765,8 @@ _G.pg.base.item_data_statistics[41805] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56327,7 +56786,6 @@ _G.pg.base.item_data_statistics[41806] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56338,7 +56796,8 @@ _G.pg.base.item_data_statistics[41806] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56358,7 +56817,6 @@ _G.pg.base.item_data_statistics[41807] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56369,7 +56827,8 @@ _G.pg.base.item_data_statistics[41807] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56389,7 +56848,6 @@ _G.pg.base.item_data_statistics[41808] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56400,7 +56858,8 @@ _G.pg.base.item_data_statistics[41808] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56420,7 +56879,6 @@ _G.pg.base.item_data_statistics[41809] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56431,7 +56889,8 @@ _G.pg.base.item_data_statistics[41809] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56451,7 +56910,6 @@ _G.pg.base.item_data_statistics[41810] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56462,7 +56920,8 @@ _G.pg.base.item_data_statistics[41810] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56482,7 +56941,6 @@ _G.pg.base.item_data_statistics[41811] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56493,7 +56951,8 @@ _G.pg.base.item_data_statistics[41811] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56513,7 +56972,6 @@ _G.pg.base.item_data_statistics[41812] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56524,7 +56982,8 @@ _G.pg.base.item_data_statistics[41812] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56544,7 +57003,6 @@ _G.pg.base.item_data_statistics[41813] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56555,7 +57013,8 @@ _G.pg.base.item_data_statistics[41813] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56575,7 +57034,6 @@ _G.pg.base.item_data_statistics[41814] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56586,7 +57044,8 @@ _G.pg.base.item_data_statistics[41814] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56606,7 +57065,6 @@ _G.pg.base.item_data_statistics[41815] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56617,7 +57075,8 @@ _G.pg.base.item_data_statistics[41815] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56637,7 +57096,6 @@ _G.pg.base.item_data_statistics[41816] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56648,7 +57106,8 @@ _G.pg.base.item_data_statistics[41816] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56668,7 +57127,6 @@ _G.pg.base.item_data_statistics[41817] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56679,7 +57137,8 @@ _G.pg.base.item_data_statistics[41817] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56699,7 +57158,6 @@ _G.pg.base.item_data_statistics[41818] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56710,7 +57168,8 @@ _G.pg.base.item_data_statistics[41818] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56730,7 +57189,6 @@ _G.pg.base.item_data_statistics[41819] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56741,7 +57199,8 @@ _G.pg.base.item_data_statistics[41819] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56761,7 +57220,6 @@ _G.pg.base.item_data_statistics[41820] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56772,7 +57230,8 @@ _G.pg.base.item_data_statistics[41820] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56792,7 +57251,6 @@ _G.pg.base.item_data_statistics[41821] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56803,7 +57261,8 @@ _G.pg.base.item_data_statistics[41821] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56823,7 +57282,6 @@ _G.pg.base.item_data_statistics[41822] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56834,7 +57292,8 @@ _G.pg.base.item_data_statistics[41822] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56854,7 +57313,6 @@ _G.pg.base.item_data_statistics[41823] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56865,7 +57323,8 @@ _G.pg.base.item_data_statistics[41823] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56885,7 +57344,6 @@ _G.pg.base.item_data_statistics[41824] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56896,7 +57354,8 @@ _G.pg.base.item_data_statistics[41824] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56916,7 +57375,6 @@ _G.pg.base.item_data_statistics[41825] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56927,7 +57385,8 @@ _G.pg.base.item_data_statistics[41825] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56947,7 +57406,6 @@ _G.pg.base.item_data_statistics[41826] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56958,7 +57416,8 @@ _G.pg.base.item_data_statistics[41826] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -56978,7 +57437,6 @@ _G.pg.base.item_data_statistics[41827] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -56989,7 +57447,8 @@ _G.pg.base.item_data_statistics[41827] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57009,7 +57468,6 @@ _G.pg.base.item_data_statistics[41828] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57020,7 +57478,8 @@ _G.pg.base.item_data_statistics[41828] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57040,7 +57499,6 @@ _G.pg.base.item_data_statistics[41829] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57051,7 +57509,8 @@ _G.pg.base.item_data_statistics[41829] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57071,7 +57530,6 @@ _G.pg.base.item_data_statistics[41830] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57082,7 +57540,8 @@ _G.pg.base.item_data_statistics[41830] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57102,7 +57561,6 @@ _G.pg.base.item_data_statistics[41831] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57113,7 +57571,8 @@ _G.pg.base.item_data_statistics[41831] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57133,7 +57592,6 @@ _G.pg.base.item_data_statistics[41832] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57144,7 +57602,8 @@ _G.pg.base.item_data_statistics[41832] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57164,7 +57623,6 @@ _G.pg.base.item_data_statistics[41833] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57175,7 +57633,8 @@ _G.pg.base.item_data_statistics[41833] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57195,7 +57654,6 @@ _G.pg.base.item_data_statistics[41834] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57206,7 +57664,8 @@ _G.pg.base.item_data_statistics[41834] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57226,7 +57685,6 @@ _G.pg.base.item_data_statistics[41835] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57237,7 +57695,8 @@ _G.pg.base.item_data_statistics[41835] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57257,7 +57716,6 @@ _G.pg.base.item_data_statistics[41836] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57268,7 +57726,8 @@ _G.pg.base.item_data_statistics[41836] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57288,7 +57747,6 @@ _G.pg.base.item_data_statistics[41837] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57299,7 +57757,8 @@ _G.pg.base.item_data_statistics[41837] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57319,7 +57778,6 @@ _G.pg.base.item_data_statistics[41838] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57330,7 +57788,8 @@ _G.pg.base.item_data_statistics[41838] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57350,7 +57809,6 @@ _G.pg.base.item_data_statistics[41839] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57361,7 +57819,8 @@ _G.pg.base.item_data_statistics[41839] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57381,7 +57840,6 @@ _G.pg.base.item_data_statistics[41840] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57392,7 +57850,8 @@ _G.pg.base.item_data_statistics[41840] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57412,7 +57871,6 @@ _G.pg.base.item_data_statistics[41841] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57423,7 +57881,8 @@ _G.pg.base.item_data_statistics[41841] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57443,7 +57902,6 @@ _G.pg.base.item_data_statistics[41842] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57454,7 +57912,8 @@ _G.pg.base.item_data_statistics[41842] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57474,7 +57933,6 @@ _G.pg.base.item_data_statistics[41843] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57485,7 +57943,8 @@ _G.pg.base.item_data_statistics[41843] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57505,7 +57964,6 @@ _G.pg.base.item_data_statistics[41844] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57516,7 +57974,8 @@ _G.pg.base.item_data_statistics[41844] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57536,7 +57995,6 @@ _G.pg.base.item_data_statistics[41845] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57547,7 +58005,8 @@ _G.pg.base.item_data_statistics[41845] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57567,7 +58026,6 @@ _G.pg.base.item_data_statistics[41846] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57578,7 +58036,8 @@ _G.pg.base.item_data_statistics[41846] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57598,7 +58057,6 @@ _G.pg.base.item_data_statistics[41847] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57609,7 +58067,8 @@ _G.pg.base.item_data_statistics[41847] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57629,7 +58088,6 @@ _G.pg.base.item_data_statistics[41848] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57640,7 +58098,8 @@ _G.pg.base.item_data_statistics[41848] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57660,7 +58119,6 @@ _G.pg.base.item_data_statistics[41849] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57671,7 +58129,8 @@ _G.pg.base.item_data_statistics[41849] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57691,7 +58150,6 @@ _G.pg.base.item_data_statistics[41850] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57702,7 +58160,8 @@ _G.pg.base.item_data_statistics[41850] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57722,7 +58181,6 @@ _G.pg.base.item_data_statistics[41851] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57733,7 +58191,8 @@ _G.pg.base.item_data_statistics[41851] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57753,7 +58212,6 @@ _G.pg.base.item_data_statistics[41852] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57764,7 +58222,8 @@ _G.pg.base.item_data_statistics[41852] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57784,7 +58243,6 @@ _G.pg.base.item_data_statistics[41853] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57795,7 +58253,8 @@ _G.pg.base.item_data_statistics[41853] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57815,7 +58274,6 @@ _G.pg.base.item_data_statistics[41854] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57826,7 +58284,8 @@ _G.pg.base.item_data_statistics[41854] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57846,7 +58305,6 @@ _G.pg.base.item_data_statistics[41855] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57857,7 +58315,8 @@ _G.pg.base.item_data_statistics[41855] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57877,7 +58336,6 @@ _G.pg.base.item_data_statistics[41856] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57888,7 +58346,8 @@ _G.pg.base.item_data_statistics[41856] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57908,7 +58367,6 @@ _G.pg.base.item_data_statistics[41857] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57919,7 +58377,8 @@ _G.pg.base.item_data_statistics[41857] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57939,7 +58398,6 @@ _G.pg.base.item_data_statistics[41858] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57950,7 +58408,8 @@ _G.pg.base.item_data_statistics[41858] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -57970,7 +58429,6 @@ _G.pg.base.item_data_statistics[41859] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -57981,7 +58439,8 @@ _G.pg.base.item_data_statistics[41859] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58001,7 +58460,6 @@ _G.pg.base.item_data_statistics[41860] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58012,7 +58470,8 @@ _G.pg.base.item_data_statistics[41860] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58032,7 +58491,6 @@ _G.pg.base.item_data_statistics[41861] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58043,7 +58501,8 @@ _G.pg.base.item_data_statistics[41861] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58063,7 +58522,6 @@ _G.pg.base.item_data_statistics[41862] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58074,7 +58532,8 @@ _G.pg.base.item_data_statistics[41862] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58094,7 +58553,6 @@ _G.pg.base.item_data_statistics[41863] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58105,7 +58563,8 @@ _G.pg.base.item_data_statistics[41863] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58125,7 +58584,6 @@ _G.pg.base.item_data_statistics[41864] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58136,7 +58594,8 @@ _G.pg.base.item_data_statistics[41864] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58156,7 +58615,6 @@ _G.pg.base.item_data_statistics[41865] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58167,7 +58625,8 @@ _G.pg.base.item_data_statistics[41865] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58187,7 +58646,6 @@ _G.pg.base.item_data_statistics[41866] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58198,7 +58656,8 @@ _G.pg.base.item_data_statistics[41866] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58218,7 +58677,6 @@ _G.pg.base.item_data_statistics[41867] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58229,7 +58687,8 @@ _G.pg.base.item_data_statistics[41867] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58249,7 +58708,6 @@ _G.pg.base.item_data_statistics[41868] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58260,7 +58718,8 @@ _G.pg.base.item_data_statistics[41868] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58280,7 +58739,6 @@ _G.pg.base.item_data_statistics[41869] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58291,7 +58749,8 @@ _G.pg.base.item_data_statistics[41869] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58311,7 +58770,6 @@ _G.pg.base.item_data_statistics[41870] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58322,7 +58780,8 @@ _G.pg.base.item_data_statistics[41870] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58342,7 +58801,6 @@ _G.pg.base.item_data_statistics[41871] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58353,7 +58811,8 @@ _G.pg.base.item_data_statistics[41871] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58373,7 +58832,6 @@ _G.pg.base.item_data_statistics[41872] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58384,7 +58842,8 @@ _G.pg.base.item_data_statistics[41872] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58404,7 +58863,6 @@ _G.pg.base.item_data_statistics[41873] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58415,7 +58873,8 @@ _G.pg.base.item_data_statistics[41873] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58435,7 +58894,6 @@ _G.pg.base.item_data_statistics[41874] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58446,7 +58904,8 @@ _G.pg.base.item_data_statistics[41874] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58466,7 +58925,6 @@ _G.pg.base.item_data_statistics[41875] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58477,7 +58935,8 @@ _G.pg.base.item_data_statistics[41875] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58497,7 +58956,6 @@ _G.pg.base.item_data_statistics[41876] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58508,7 +58966,8 @@ _G.pg.base.item_data_statistics[41876] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58528,7 +58987,6 @@ _G.pg.base.item_data_statistics[41877] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58539,7 +58997,8 @@ _G.pg.base.item_data_statistics[41877] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58559,7 +59018,6 @@ _G.pg.base.item_data_statistics[41878] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58570,7 +59028,8 @@ _G.pg.base.item_data_statistics[41878] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58590,7 +59049,6 @@ _G.pg.base.item_data_statistics[41879] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58601,7 +59059,8 @@ _G.pg.base.item_data_statistics[41879] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58621,7 +59080,6 @@ _G.pg.base.item_data_statistics[41880] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58632,7 +59090,8 @@ _G.pg.base.item_data_statistics[41880] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58652,7 +59111,6 @@ _G.pg.base.item_data_statistics[41881] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58663,7 +59121,8 @@ _G.pg.base.item_data_statistics[41881] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58683,7 +59142,6 @@ _G.pg.base.item_data_statistics[41882] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58694,7 +59152,8 @@ _G.pg.base.item_data_statistics[41882] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58714,7 +59173,6 @@ _G.pg.base.item_data_statistics[41883] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58725,7 +59183,8 @@ _G.pg.base.item_data_statistics[41883] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58745,7 +59204,6 @@ _G.pg.base.item_data_statistics[41884] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58756,7 +59214,8 @@ _G.pg.base.item_data_statistics[41884] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58776,7 +59235,6 @@ _G.pg.base.item_data_statistics[41885] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58787,7 +59245,8 @@ _G.pg.base.item_data_statistics[41885] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58807,7 +59266,6 @@ _G.pg.base.item_data_statistics[41886] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58818,7 +59276,8 @@ _G.pg.base.item_data_statistics[41886] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58838,7 +59297,6 @@ _G.pg.base.item_data_statistics[41887] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58849,7 +59307,8 @@ _G.pg.base.item_data_statistics[41887] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58869,7 +59328,6 @@ _G.pg.base.item_data_statistics[41888] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58880,7 +59338,8 @@ _G.pg.base.item_data_statistics[41888] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58900,7 +59359,6 @@ _G.pg.base.item_data_statistics[41889] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58911,7 +59369,8 @@ _G.pg.base.item_data_statistics[41889] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58931,7 +59390,6 @@ _G.pg.base.item_data_statistics[41890] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58942,7 +59400,8 @@ _G.pg.base.item_data_statistics[41890] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58962,7 +59421,6 @@ _G.pg.base.item_data_statistics[41891] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -58973,7 +59431,8 @@ _G.pg.base.item_data_statistics[41891] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -58993,7 +59452,6 @@ _G.pg.base.item_data_statistics[41892] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59004,7 +59462,8 @@ _G.pg.base.item_data_statistics[41892] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59024,7 +59483,6 @@ _G.pg.base.item_data_statistics[41893] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59035,7 +59493,8 @@ _G.pg.base.item_data_statistics[41893] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59055,7 +59514,6 @@ _G.pg.base.item_data_statistics[41894] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59066,7 +59524,8 @@ _G.pg.base.item_data_statistics[41894] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59086,7 +59545,6 @@ _G.pg.base.item_data_statistics[41895] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59097,7 +59555,8 @@ _G.pg.base.item_data_statistics[41895] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59117,7 +59576,6 @@ _G.pg.base.item_data_statistics[41896] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59128,7 +59586,8 @@ _G.pg.base.item_data_statistics[41896] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59148,7 +59607,6 @@ _G.pg.base.item_data_statistics[41897] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59159,7 +59617,8 @@ _G.pg.base.item_data_statistics[41897] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59179,7 +59638,6 @@ _G.pg.base.item_data_statistics[41898] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59190,7 +59648,8 @@ _G.pg.base.item_data_statistics[41898] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59210,7 +59669,6 @@ _G.pg.base.item_data_statistics[41899] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59221,7 +59679,8 @@ _G.pg.base.item_data_statistics[41899] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59241,7 +59700,6 @@ _G.pg.base.item_data_statistics[41900] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59252,7 +59710,8 @@ _G.pg.base.item_data_statistics[41900] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59272,7 +59731,6 @@ _G.pg.base.item_data_statistics[41901] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59283,7 +59741,8 @@ _G.pg.base.item_data_statistics[41901] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59303,7 +59762,6 @@ _G.pg.base.item_data_statistics[41902] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59314,7 +59772,8 @@ _G.pg.base.item_data_statistics[41902] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59334,7 +59793,6 @@ _G.pg.base.item_data_statistics[41903] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59345,7 +59803,8 @@ _G.pg.base.item_data_statistics[41903] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59365,7 +59824,6 @@ _G.pg.base.item_data_statistics[41904] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59376,7 +59834,8 @@ _G.pg.base.item_data_statistics[41904] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59396,7 +59855,6 @@ _G.pg.base.item_data_statistics[41905] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59407,7 +59865,8 @@ _G.pg.base.item_data_statistics[41905] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59427,7 +59886,6 @@ _G.pg.base.item_data_statistics[41906] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59438,7 +59896,8 @@ _G.pg.base.item_data_statistics[41906] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59458,7 +59917,6 @@ _G.pg.base.item_data_statistics[41907] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59469,7 +59927,8 @@ _G.pg.base.item_data_statistics[41907] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59489,7 +59948,6 @@ _G.pg.base.item_data_statistics[41908] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59500,7 +59958,8 @@ _G.pg.base.item_data_statistics[41908] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59520,7 +59979,6 @@ _G.pg.base.item_data_statistics[41909] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59531,7 +59989,8 @@ _G.pg.base.item_data_statistics[41909] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59551,7 +60010,6 @@ _G.pg.base.item_data_statistics[41910] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59562,7 +60020,8 @@ _G.pg.base.item_data_statistics[41910] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59582,7 +60041,6 @@ _G.pg.base.item_data_statistics[41911] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59593,7 +60051,8 @@ _G.pg.base.item_data_statistics[41911] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59613,7 +60072,6 @@ _G.pg.base.item_data_statistics[41912] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59624,7 +60082,8 @@ _G.pg.base.item_data_statistics[41912] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59644,7 +60103,6 @@ _G.pg.base.item_data_statistics[41913] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59655,7 +60113,8 @@ _G.pg.base.item_data_statistics[41913] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59675,7 +60134,6 @@ _G.pg.base.item_data_statistics[41914] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59686,7 +60144,8 @@ _G.pg.base.item_data_statistics[41914] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59706,7 +60165,6 @@ _G.pg.base.item_data_statistics[41915] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59717,7 +60175,8 @@ _G.pg.base.item_data_statistics[41915] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59737,7 +60196,6 @@ _G.pg.base.item_data_statistics[41916] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59748,7 +60206,8 @@ _G.pg.base.item_data_statistics[41916] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59768,7 +60227,6 @@ _G.pg.base.item_data_statistics[41917] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59779,7 +60237,8 @@ _G.pg.base.item_data_statistics[41917] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59799,7 +60258,6 @@ _G.pg.base.item_data_statistics[41918] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59810,7 +60268,8 @@ _G.pg.base.item_data_statistics[41918] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59830,7 +60289,6 @@ _G.pg.base.item_data_statistics[41919] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59841,7 +60299,8 @@ _G.pg.base.item_data_statistics[41919] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59861,7 +60320,6 @@ _G.pg.base.item_data_statistics[41921] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59872,7 +60330,8 @@ _G.pg.base.item_data_statistics[41921] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59892,7 +60351,6 @@ _G.pg.base.item_data_statistics[41922] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59903,7 +60361,8 @@ _G.pg.base.item_data_statistics[41922] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59923,7 +60382,6 @@ _G.pg.base.item_data_statistics[41923] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59934,7 +60392,8 @@ _G.pg.base.item_data_statistics[41923] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59954,7 +60413,6 @@ _G.pg.base.item_data_statistics[41924] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59965,7 +60423,8 @@ _G.pg.base.item_data_statistics[41924] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -59985,7 +60444,6 @@ _G.pg.base.item_data_statistics[41925] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -59996,7 +60454,8 @@ _G.pg.base.item_data_statistics[41925] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60016,7 +60475,6 @@ _G.pg.base.item_data_statistics[41926] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60027,7 +60485,8 @@ _G.pg.base.item_data_statistics[41926] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60047,7 +60506,6 @@ _G.pg.base.item_data_statistics[41927] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60058,7 +60516,8 @@ _G.pg.base.item_data_statistics[41927] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60078,7 +60537,6 @@ _G.pg.base.item_data_statistics[41928] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60089,7 +60547,8 @@ _G.pg.base.item_data_statistics[41928] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60109,7 +60568,6 @@ _G.pg.base.item_data_statistics[41929] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60120,7 +60578,8 @@ _G.pg.base.item_data_statistics[41929] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60140,7 +60599,6 @@ _G.pg.base.item_data_statistics[41930] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60151,7 +60609,8 @@ _G.pg.base.item_data_statistics[41930] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60171,7 +60630,6 @@ _G.pg.base.item_data_statistics[41931] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60182,7 +60640,8 @@ _G.pg.base.item_data_statistics[41931] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60202,7 +60661,6 @@ _G.pg.base.item_data_statistics[41932] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60213,7 +60671,8 @@ _G.pg.base.item_data_statistics[41932] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60233,7 +60692,6 @@ _G.pg.base.item_data_statistics[41933] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60244,7 +60702,8 @@ _G.pg.base.item_data_statistics[41933] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60264,7 +60723,6 @@ _G.pg.base.item_data_statistics[41934] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60275,7 +60733,8 @@ _G.pg.base.item_data_statistics[41934] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60295,7 +60754,6 @@ _G.pg.base.item_data_statistics[41935] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60306,7 +60764,8 @@ _G.pg.base.item_data_statistics[41935] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60326,7 +60785,6 @@ _G.pg.base.item_data_statistics[41936] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60337,7 +60795,8 @@ _G.pg.base.item_data_statistics[41936] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60357,7 +60816,6 @@ _G.pg.base.item_data_statistics[41937] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60368,7 +60826,8 @@ _G.pg.base.item_data_statistics[41937] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60388,7 +60847,6 @@ _G.pg.base.item_data_statistics[41938] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60399,7 +60857,8 @@ _G.pg.base.item_data_statistics[41938] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60419,7 +60878,6 @@ _G.pg.base.item_data_statistics[41939] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60430,7 +60888,8 @@ _G.pg.base.item_data_statistics[41939] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60450,7 +60909,6 @@ _G.pg.base.item_data_statistics[41940] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60461,7 +60919,8 @@ _G.pg.base.item_data_statistics[41940] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60481,7 +60940,6 @@ _G.pg.base.item_data_statistics[41941] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60492,7 +60950,8 @@ _G.pg.base.item_data_statistics[41941] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60512,7 +60971,6 @@ _G.pg.base.item_data_statistics[41942] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60523,7 +60981,8 @@ _G.pg.base.item_data_statistics[41942] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60543,7 +61002,6 @@ _G.pg.base.item_data_statistics[41943] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60554,7 +61012,8 @@ _G.pg.base.item_data_statistics[41943] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60574,7 +61033,6 @@ _G.pg.base.item_data_statistics[41944] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60585,7 +61043,8 @@ _G.pg.base.item_data_statistics[41944] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60605,7 +61064,6 @@ _G.pg.base.item_data_statistics[41945] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60616,7 +61074,8 @@ _G.pg.base.item_data_statistics[41945] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60636,7 +61095,6 @@ _G.pg.base.item_data_statistics[41946] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60647,7 +61105,8 @@ _G.pg.base.item_data_statistics[41946] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60667,7 +61126,6 @@ _G.pg.base.item_data_statistics[41947] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60678,7 +61136,8 @@ _G.pg.base.item_data_statistics[41947] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60698,7 +61157,6 @@ _G.pg.base.item_data_statistics[41948] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60709,7 +61167,8 @@ _G.pg.base.item_data_statistics[41948] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60729,7 +61188,6 @@ _G.pg.base.item_data_statistics[41949] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60740,7 +61198,8 @@ _G.pg.base.item_data_statistics[41949] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60760,7 +61219,6 @@ _G.pg.base.item_data_statistics[41950] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60771,7 +61229,8 @@ _G.pg.base.item_data_statistics[41950] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60791,7 +61250,6 @@ _G.pg.base.item_data_statistics[41951] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60802,7 +61260,8 @@ _G.pg.base.item_data_statistics[41951] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60822,7 +61281,6 @@ _G.pg.base.item_data_statistics[41952] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60833,7 +61291,8 @@ _G.pg.base.item_data_statistics[41952] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60853,7 +61312,6 @@ _G.pg.base.item_data_statistics[41953] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60864,7 +61322,8 @@ _G.pg.base.item_data_statistics[41953] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60884,7 +61343,6 @@ _G.pg.base.item_data_statistics[41954] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60895,7 +61353,8 @@ _G.pg.base.item_data_statistics[41954] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60915,7 +61374,6 @@ _G.pg.base.item_data_statistics[41955] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60926,7 +61384,8 @@ _G.pg.base.item_data_statistics[41955] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60946,7 +61405,6 @@ _G.pg.base.item_data_statistics[41956] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60957,7 +61415,8 @@ _G.pg.base.item_data_statistics[41956] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -60977,7 +61436,6 @@ _G.pg.base.item_data_statistics[41957] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -60988,7 +61446,8 @@ _G.pg.base.item_data_statistics[41957] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -61008,7 +61467,6 @@ _G.pg.base.item_data_statistics[41958] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -61019,7 +61477,8 @@ _G.pg.base.item_data_statistics[41958] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -61039,7 +61498,6 @@ _G.pg.base.item_data_statistics[41959] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -61050,7 +61508,8 @@ _G.pg.base.item_data_statistics[41959] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -61070,7 +61529,6 @@ _G.pg.base.item_data_statistics[41960] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -61081,7 +61539,8 @@ _G.pg.base.item_data_statistics[41960] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -61101,7 +61560,6 @@ _G.pg.base.item_data_statistics[41961] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -61112,7 +61570,8 @@ _G.pg.base.item_data_statistics[41961] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -61132,7 +61591,6 @@ _G.pg.base.item_data_statistics[42000] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42000,
@@ -61205,7 +61663,8 @@ _G.pg.base.item_data_statistics[42000] = {
 			42006,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -61225,7 +61684,6 @@ _G.pg.base.item_data_statistics[42001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42001,
@@ -61241,7 +61699,8 @@ _G.pg.base.item_data_statistics[42001] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61261,7 +61720,6 @@ _G.pg.base.item_data_statistics[42002] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42002,
@@ -61277,7 +61735,8 @@ _G.pg.base.item_data_statistics[42002] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61297,7 +61756,6 @@ _G.pg.base.item_data_statistics[42003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42003,
@@ -61313,7 +61771,8 @@ _G.pg.base.item_data_statistics[42003] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61333,7 +61792,6 @@ _G.pg.base.item_data_statistics[42004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42004,
@@ -61349,7 +61807,8 @@ _G.pg.base.item_data_statistics[42004] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61369,7 +61828,6 @@ _G.pg.base.item_data_statistics[42005] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42005,
@@ -61385,7 +61843,8 @@ _G.pg.base.item_data_statistics[42005] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61405,7 +61864,6 @@ _G.pg.base.item_data_statistics[42006] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42006,
@@ -61421,7 +61879,8 @@ _G.pg.base.item_data_statistics[42006] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61441,7 +61900,6 @@ _G.pg.base.item_data_statistics[42010] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42010,
@@ -61554,7 +62012,8 @@ _G.pg.base.item_data_statistics[42010] = {
 			42006,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -61574,7 +62033,6 @@ _G.pg.base.item_data_statistics[42011] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42011,
@@ -61590,7 +62048,8 @@ _G.pg.base.item_data_statistics[42011] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61610,7 +62069,6 @@ _G.pg.base.item_data_statistics[42012] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42012,
@@ -61626,7 +62084,8 @@ _G.pg.base.item_data_statistics[42012] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61646,7 +62105,6 @@ _G.pg.base.item_data_statistics[42013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42013,
@@ -61662,7 +62120,8 @@ _G.pg.base.item_data_statistics[42013] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61682,7 +62141,6 @@ _G.pg.base.item_data_statistics[42014] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42014,
@@ -61698,7 +62156,8 @@ _G.pg.base.item_data_statistics[42014] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61718,7 +62177,6 @@ _G.pg.base.item_data_statistics[42015] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42015,
@@ -61734,7 +62192,8 @@ _G.pg.base.item_data_statistics[42015] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61754,7 +62213,6 @@ _G.pg.base.item_data_statistics[42016] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42016,
@@ -61770,7 +62228,8 @@ _G.pg.base.item_data_statistics[42016] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -61790,7 +62249,6 @@ _G.pg.base.item_data_statistics[42017] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42017,
@@ -61823,7 +62281,8 @@ _G.pg.base.item_data_statistics[42017] = {
 			42015,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -61843,7 +62302,6 @@ _G.pg.base.item_data_statistics[42020] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42020,
@@ -61996,7 +62454,8 @@ _G.pg.base.item_data_statistics[42020] = {
 			42006,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -62016,7 +62475,6 @@ _G.pg.base.item_data_statistics[42021] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42021,
@@ -62032,7 +62490,8 @@ _G.pg.base.item_data_statistics[42021] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62052,7 +62511,6 @@ _G.pg.base.item_data_statistics[42022] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42022,
@@ -62068,7 +62526,8 @@ _G.pg.base.item_data_statistics[42022] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62088,7 +62547,6 @@ _G.pg.base.item_data_statistics[42023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42023,
@@ -62104,7 +62562,8 @@ _G.pg.base.item_data_statistics[42023] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62124,7 +62583,6 @@ _G.pg.base.item_data_statistics[42024] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42024,
@@ -62140,7 +62598,8 @@ _G.pg.base.item_data_statistics[42024] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62160,7 +62619,6 @@ _G.pg.base.item_data_statistics[42025] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42025,
@@ -62176,7 +62634,8 @@ _G.pg.base.item_data_statistics[42025] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62196,7 +62655,6 @@ _G.pg.base.item_data_statistics[42026] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42026,
@@ -62239,7 +62697,8 @@ _G.pg.base.item_data_statistics[42026] = {
 			42015,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -62259,7 +62718,6 @@ _G.pg.base.item_data_statistics[42030] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42030,
@@ -62442,7 +62900,8 @@ _G.pg.base.item_data_statistics[42030] = {
 			42006,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -62462,7 +62921,6 @@ _G.pg.base.item_data_statistics[42031] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42031,
@@ -62478,7 +62936,8 @@ _G.pg.base.item_data_statistics[42031] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62498,7 +62957,6 @@ _G.pg.base.item_data_statistics[42032] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42032,
@@ -62514,7 +62972,8 @@ _G.pg.base.item_data_statistics[42032] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62534,7 +62993,6 @@ _G.pg.base.item_data_statistics[42033] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42033,
@@ -62550,7 +63008,8 @@ _G.pg.base.item_data_statistics[42033] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62570,7 +63029,6 @@ _G.pg.base.item_data_statistics[42034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42034,
@@ -62586,7 +63044,8 @@ _G.pg.base.item_data_statistics[42034] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62606,7 +63065,6 @@ _G.pg.base.item_data_statistics[42035] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42035,
@@ -62622,7 +63080,8 @@ _G.pg.base.item_data_statistics[42035] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62642,7 +63101,6 @@ _G.pg.base.item_data_statistics[42036] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42036,
@@ -62705,7 +63163,8 @@ _G.pg.base.item_data_statistics[42036] = {
 			42015,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -62725,7 +63184,6 @@ _G.pg.base.item_data_statistics[42040] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42040,
@@ -62938,7 +63396,8 @@ _G.pg.base.item_data_statistics[42040] = {
 			42006,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -62958,7 +63417,6 @@ _G.pg.base.item_data_statistics[42041] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42041,
@@ -62974,7 +63432,8 @@ _G.pg.base.item_data_statistics[42041] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -62994,7 +63453,6 @@ _G.pg.base.item_data_statistics[42042] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42042,
@@ -63010,7 +63468,8 @@ _G.pg.base.item_data_statistics[42042] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63030,7 +63489,6 @@ _G.pg.base.item_data_statistics[42043] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42043,
@@ -63046,7 +63504,8 @@ _G.pg.base.item_data_statistics[42043] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63066,7 +63525,6 @@ _G.pg.base.item_data_statistics[42044] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42044,
@@ -63082,7 +63540,8 @@ _G.pg.base.item_data_statistics[42044] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63102,7 +63561,6 @@ _G.pg.base.item_data_statistics[42045] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42045,
@@ -63118,7 +63576,8 @@ _G.pg.base.item_data_statistics[42045] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63138,7 +63597,6 @@ _G.pg.base.item_data_statistics[42046] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42046,
@@ -63221,7 +63679,8 @@ _G.pg.base.item_data_statistics[42046] = {
 			42015,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -63241,7 +63700,6 @@ _G.pg.base.item_data_statistics[42050] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42050,
@@ -63484,7 +63942,8 @@ _G.pg.base.item_data_statistics[42050] = {
 			42006,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -63504,7 +63963,6 @@ _G.pg.base.item_data_statistics[42051] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42051,
@@ -63520,7 +63978,8 @@ _G.pg.base.item_data_statistics[42051] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63540,7 +63999,6 @@ _G.pg.base.item_data_statistics[42052] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42052,
@@ -63556,7 +64014,8 @@ _G.pg.base.item_data_statistics[42052] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63576,7 +64035,6 @@ _G.pg.base.item_data_statistics[42053] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42053,
@@ -63592,7 +64050,8 @@ _G.pg.base.item_data_statistics[42053] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63612,7 +64071,6 @@ _G.pg.base.item_data_statistics[42054] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42054,
@@ -63628,7 +64086,8 @@ _G.pg.base.item_data_statistics[42054] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63648,7 +64107,6 @@ _G.pg.base.item_data_statistics[42055] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42055,
@@ -63664,7 +64122,8 @@ _G.pg.base.item_data_statistics[42055] = {
 	combination_display = {},
 	usage_arg = {
 		10
-	}
+	},
+	limit = {}
 }
 
 
@@ -63684,7 +64143,6 @@ _G.pg.base.item_data_statistics[42056] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 42056,
@@ -63787,7 +64245,8 @@ _G.pg.base.item_data_statistics[42056] = {
 			42015,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -63808,7 +64267,6 @@ _G.pg.base.item_data_statistics[44001] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -63818,7 +64276,8 @@ _G.pg.base.item_data_statistics[44001] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -63839,7 +64298,6 @@ _G.pg.base.item_data_statistics[44002] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -63849,7 +64307,8 @@ _G.pg.base.item_data_statistics[44002] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -63870,7 +64329,6 @@ _G.pg.base.item_data_statistics[44011] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -63880,7 +64338,8 @@ _G.pg.base.item_data_statistics[44011] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -63901,7 +64360,6 @@ _G.pg.base.item_data_statistics[44012] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -63911,7 +64369,8 @@ _G.pg.base.item_data_statistics[44012] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -63932,7 +64391,6 @@ _G.pg.base.item_data_statistics[44013] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -63942,7 +64400,8 @@ _G.pg.base.item_data_statistics[44013] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -63963,7 +64422,6 @@ _G.pg.base.item_data_statistics[44014] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -63973,7 +64431,8 @@ _G.pg.base.item_data_statistics[44014] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -63994,7 +64453,6 @@ _G.pg.base.item_data_statistics[44015] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64004,7 +64462,8 @@ _G.pg.base.item_data_statistics[44015] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64025,7 +64484,6 @@ _G.pg.base.item_data_statistics[44016] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64035,7 +64493,8 @@ _G.pg.base.item_data_statistics[44016] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64056,7 +64515,6 @@ _G.pg.base.item_data_statistics[44017] = {
 	rarity = 8,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64066,7 +64524,8 @@ _G.pg.base.item_data_statistics[44017] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64086,7 +64545,6 @@ _G.pg.base.item_data_statistics[50001] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 50001,
@@ -64102,7 +64560,8 @@ _G.pg.base.item_data_statistics[50001] = {
 	combination_display = {},
 	usage_arg = {
 		1000
-	}
+	},
+	limit = {}
 }
 
 
@@ -64122,7 +64581,6 @@ _G.pg.base.item_data_statistics[50002] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 50002,
@@ -64138,7 +64596,8 @@ _G.pg.base.item_data_statistics[50002] = {
 	combination_display = {},
 	usage_arg = {
 		2000
-	}
+	},
+	limit = {}
 }
 
 
@@ -64158,7 +64617,6 @@ _G.pg.base.item_data_statistics[50003] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 50003,
@@ -64174,7 +64632,8 @@ _G.pg.base.item_data_statistics[50003] = {
 	combination_display = {},
 	usage_arg = {
 		3000
-	}
+	},
+	limit = {}
 }
 
 
@@ -64194,7 +64653,6 @@ _G.pg.base.item_data_statistics[50004] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 50004,
@@ -64212,7 +64670,8 @@ _G.pg.base.item_data_statistics[50004] = {
 		5000,
 		1,
 		3600
-	}
+	},
+	limit = {}
 }
 
 
@@ -64232,7 +64691,6 @@ _G.pg.base.item_data_statistics[50005] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 50005,
@@ -64250,7 +64708,8 @@ _G.pg.base.item_data_statistics[50005] = {
 		10000,
 		2,
 		10800
-	}
+	},
+	limit = {}
 }
 
 
@@ -64270,7 +64729,6 @@ _G.pg.base.item_data_statistics[50006] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 50006,
@@ -64288,7 +64746,8 @@ _G.pg.base.item_data_statistics[50006] = {
 		20000,
 		3,
 		21600
-	}
+	},
+	limit = {}
 }
 
 
@@ -64308,7 +64767,6 @@ _G.pg.base.item_data_statistics[59010] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64319,7 +64777,8 @@ _G.pg.base.item_data_statistics[59010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64339,7 +64798,6 @@ _G.pg.base.item_data_statistics[59488] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64350,7 +64808,8 @@ _G.pg.base.item_data_statistics[59488] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64370,7 +64829,6 @@ _G.pg.base.item_data_statistics[59489] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64381,7 +64839,8 @@ _G.pg.base.item_data_statistics[59489] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64401,7 +64860,6 @@ _G.pg.base.item_data_statistics[59490] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64412,7 +64870,8 @@ _G.pg.base.item_data_statistics[59490] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64432,7 +64891,6 @@ _G.pg.base.item_data_statistics[59503] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 59503,
@@ -64735,7 +65193,8 @@ _G.pg.base.item_data_statistics[59503] = {
 		},
 		99999,
 		59551
-	}
+	},
+	limit = {}
 }
 
 
@@ -64755,7 +65214,6 @@ _G.pg.base.item_data_statistics[59550] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 59550,
@@ -64804,7 +65262,8 @@ _G.pg.base.item_data_statistics[59550] = {
 		},
 		0,
 		59552
-	}
+	},
+	limit = {}
 }
 
 
@@ -64824,7 +65283,6 @@ _G.pg.base.item_data_statistics[59551] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 59551,
@@ -64840,7 +65298,8 @@ _G.pg.base.item_data_statistics[59551] = {
 			0
 		},
 		780
-	}
+	},
+	limit = {}
 }
 
 
@@ -64860,7 +65319,6 @@ _G.pg.base.item_data_statistics[59552] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 59552,
@@ -64876,7 +65334,8 @@ _G.pg.base.item_data_statistics[59552] = {
 			0
 		},
 		1080
-	}
+	},
+	limit = {}
 }
 
 
@@ -64896,7 +65355,6 @@ _G.pg.base.item_data_statistics[59711] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "90913",
@@ -64907,7 +65365,8 @@ _G.pg.base.item_data_statistics[59711] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -64927,7 +65386,6 @@ _G.pg.base.item_data_statistics[59720] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 59720,
@@ -64949,6 +65407,7 @@ _G.pg.base.item_data_statistics[59720] = {
 		108,
 		109
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_first"
@@ -64972,7 +65431,6 @@ _G.pg.base.item_data_statistics[59721] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -64983,7 +65441,8 @@ _G.pg.base.item_data_statistics[59721] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65003,7 +65462,6 @@ _G.pg.base.item_data_statistics[59722] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65014,7 +65472,8 @@ _G.pg.base.item_data_statistics[59722] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65034,7 +65493,6 @@ _G.pg.base.item_data_statistics[59723] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65045,7 +65503,8 @@ _G.pg.base.item_data_statistics[59723] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65065,7 +65524,6 @@ _G.pg.base.item_data_statistics[59724] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65076,7 +65534,8 @@ _G.pg.base.item_data_statistics[59724] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65096,7 +65555,6 @@ _G.pg.base.item_data_statistics[59725] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65107,7 +65565,8 @@ _G.pg.base.item_data_statistics[59725] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65127,7 +65586,6 @@ _G.pg.base.item_data_statistics[59726] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65138,7 +65596,8 @@ _G.pg.base.item_data_statistics[59726] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65158,7 +65617,6 @@ _G.pg.base.item_data_statistics[59727] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65169,7 +65627,8 @@ _G.pg.base.item_data_statistics[59727] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65189,7 +65648,6 @@ _G.pg.base.item_data_statistics[59728] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65200,7 +65658,8 @@ _G.pg.base.item_data_statistics[59728] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65220,7 +65679,6 @@ _G.pg.base.item_data_statistics[59729] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65231,7 +65689,8 @@ _G.pg.base.item_data_statistics[59729] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65251,7 +65710,6 @@ _G.pg.base.item_data_statistics[59730] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8872",
@@ -65262,7 +65720,8 @@ _G.pg.base.item_data_statistics[59730] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65282,7 +65741,6 @@ _G.pg.base.item_data_statistics[59731] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8873",
@@ -65293,7 +65751,8 @@ _G.pg.base.item_data_statistics[59731] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65313,7 +65772,6 @@ _G.pg.base.item_data_statistics[59732] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8874",
@@ -65324,7 +65782,8 @@ _G.pg.base.item_data_statistics[59732] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65344,7 +65803,6 @@ _G.pg.base.item_data_statistics[59733] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8875",
@@ -65355,7 +65813,8 @@ _G.pg.base.item_data_statistics[59733] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65375,7 +65834,6 @@ _G.pg.base.item_data_statistics[59734] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8876",
@@ -65386,7 +65844,8 @@ _G.pg.base.item_data_statistics[59734] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65406,7 +65865,6 @@ _G.pg.base.item_data_statistics[59735] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8877",
@@ -65417,7 +65875,8 @@ _G.pg.base.item_data_statistics[59735] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65437,7 +65896,6 @@ _G.pg.base.item_data_statistics[59736] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8878",
@@ -65448,7 +65906,8 @@ _G.pg.base.item_data_statistics[59736] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65468,7 +65927,6 @@ _G.pg.base.item_data_statistics[59737] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8879",
@@ -65479,7 +65937,8 @@ _G.pg.base.item_data_statistics[59737] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65499,7 +65958,6 @@ _G.pg.base.item_data_statistics[59738] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8880",
@@ -65510,7 +65968,8 @@ _G.pg.base.item_data_statistics[59738] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65530,7 +65989,6 @@ _G.pg.base.item_data_statistics[59739] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8872",
@@ -65541,7 +65999,8 @@ _G.pg.base.item_data_statistics[59739] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65561,7 +66020,6 @@ _G.pg.base.item_data_statistics[59740] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8873",
@@ -65572,7 +66030,8 @@ _G.pg.base.item_data_statistics[59740] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65592,7 +66051,6 @@ _G.pg.base.item_data_statistics[59741] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8874",
@@ -65603,7 +66061,8 @@ _G.pg.base.item_data_statistics[59741] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65623,7 +66082,6 @@ _G.pg.base.item_data_statistics[59742] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8875",
@@ -65634,7 +66092,8 @@ _G.pg.base.item_data_statistics[59742] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65654,7 +66113,6 @@ _G.pg.base.item_data_statistics[59743] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8876",
@@ -65665,7 +66123,8 @@ _G.pg.base.item_data_statistics[59743] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65685,7 +66144,6 @@ _G.pg.base.item_data_statistics[59744] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8877",
@@ -65696,7 +66154,8 @@ _G.pg.base.item_data_statistics[59744] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65716,7 +66175,6 @@ _G.pg.base.item_data_statistics[59745] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8878",
@@ -65727,7 +66185,8 @@ _G.pg.base.item_data_statistics[59745] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65747,7 +66206,6 @@ _G.pg.base.item_data_statistics[59746] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8879",
@@ -65758,7 +66216,8 @@ _G.pg.base.item_data_statistics[59746] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65778,7 +66237,6 @@ _G.pg.base.item_data_statistics[59747] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "8880",
@@ -65789,7 +66247,8 @@ _G.pg.base.item_data_statistics[59747] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65809,7 +66268,6 @@ _G.pg.base.item_data_statistics[59749] = {
 	rarity = 4,
 	max_num = 1,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65822,7 +66280,8 @@ _G.pg.base.item_data_statistics[59749] = {
 	shiptrans_id = {
 		102174
 	},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65842,7 +66301,6 @@ _G.pg.base.item_data_statistics[59762] = {
 	rarity = 4,
 	max_num = 1,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65855,7 +66313,8 @@ _G.pg.base.item_data_statistics[59762] = {
 	shiptrans_id = {
 		205124
 	},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65875,7 +66334,6 @@ _G.pg.base.item_data_statistics[59773] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65886,7 +66344,8 @@ _G.pg.base.item_data_statistics[59773] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65906,7 +66365,6 @@ _G.pg.base.item_data_statistics[59774] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65917,7 +66375,8 @@ _G.pg.base.item_data_statistics[59774] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65937,7 +66396,6 @@ _G.pg.base.item_data_statistics[59841] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65948,7 +66406,8 @@ _G.pg.base.item_data_statistics[59841] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -65968,7 +66427,6 @@ _G.pg.base.item_data_statistics[59843] = {
 	rarity = 4,
 	max_num = 1,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -65981,7 +66439,8 @@ _G.pg.base.item_data_statistics[59843] = {
 	shiptrans_id = {
 		301874
 	},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66001,7 +66460,6 @@ _G.pg.base.item_data_statistics[59844] = {
 	rarity = 4,
 	max_num = 1,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66015,7 +66473,8 @@ _G.pg.base.item_data_statistics[59844] = {
 		520014,
 		521014
 	},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66035,7 +66494,6 @@ _G.pg.base.item_data_statistics[59845] = {
 	rarity = 4,
 	max_num = 1,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66049,7 +66507,8 @@ _G.pg.base.item_data_statistics[59845] = {
 		520034,
 		521034
 	},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66069,7 +66528,6 @@ _G.pg.base.item_data_statistics[59846] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66080,7 +66538,8 @@ _G.pg.base.item_data_statistics[59846] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66100,7 +66559,6 @@ _G.pg.base.item_data_statistics[59848] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66111,7 +66569,8 @@ _G.pg.base.item_data_statistics[59848] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66131,7 +66590,6 @@ _G.pg.base.item_data_statistics[59900] = {
 	rarity = 2,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66142,7 +66600,8 @@ _G.pg.base.item_data_statistics[59900] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66162,7 +66621,6 @@ _G.pg.base.item_data_statistics[59901] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66173,7 +66631,8 @@ _G.pg.base.item_data_statistics[59901] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66193,7 +66652,6 @@ _G.pg.base.item_data_statistics[59902] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66204,7 +66662,8 @@ _G.pg.base.item_data_statistics[59902] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66224,7 +66683,6 @@ _G.pg.base.item_data_statistics[59939] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66235,7 +66693,8 @@ _G.pg.base.item_data_statistics[59939] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66255,7 +66714,6 @@ _G.pg.base.item_data_statistics[59940] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 59940,
@@ -66311,6 +66769,7 @@ _G.pg.base.item_data_statistics[59940] = {
 		406,
 		407
 	},
+	limit = {},
 	open_ui = {
 		"shrine_year",
 		"t_shrine"
@@ -66334,7 +66793,6 @@ _G.pg.base.item_data_statistics[59941] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "92337",
@@ -66356,7 +66814,8 @@ _G.pg.base.item_data_statistics[59941] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66376,7 +66835,6 @@ _G.pg.base.item_data_statistics[59942] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "92338",
@@ -66398,7 +66856,8 @@ _G.pg.base.item_data_statistics[59942] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66418,7 +66877,6 @@ _G.pg.base.item_data_statistics[59943] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "92339",
@@ -66440,7 +66898,8 @@ _G.pg.base.item_data_statistics[59943] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66460,7 +66919,6 @@ _G.pg.base.item_data_statistics[59944] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "92340",
@@ -66482,7 +66940,8 @@ _G.pg.base.item_data_statistics[59944] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66502,7 +66961,6 @@ _G.pg.base.item_data_statistics[59945] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "92341",
@@ -66524,7 +66982,8 @@ _G.pg.base.item_data_statistics[59945] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66544,7 +67003,6 @@ _G.pg.base.item_data_statistics[59946] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "92342",
@@ -66566,7 +67024,8 @@ _G.pg.base.item_data_statistics[59946] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66586,7 +67045,6 @@ _G.pg.base.item_data_statistics[59947] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "92343",
@@ -66608,7 +67066,8 @@ _G.pg.base.item_data_statistics[59947] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66628,7 +67087,6 @@ _G.pg.base.item_data_statistics[59948] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66639,7 +67097,8 @@ _G.pg.base.item_data_statistics[59948] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66659,7 +67118,6 @@ _G.pg.base.item_data_statistics[59949] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66670,7 +67128,8 @@ _G.pg.base.item_data_statistics[59949] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66690,7 +67149,6 @@ _G.pg.base.item_data_statistics[59950] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66701,7 +67159,8 @@ _G.pg.base.item_data_statistics[59950] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66721,7 +67180,6 @@ _G.pg.base.item_data_statistics[59951] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66732,7 +67190,8 @@ _G.pg.base.item_data_statistics[59951] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66752,7 +67211,6 @@ _G.pg.base.item_data_statistics[59952] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66763,7 +67221,8 @@ _G.pg.base.item_data_statistics[59952] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66783,7 +67242,6 @@ _G.pg.base.item_data_statistics[59953] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66794,7 +67252,8 @@ _G.pg.base.item_data_statistics[59953] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66814,7 +67273,6 @@ _G.pg.base.item_data_statistics[59954] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -66825,7 +67283,8 @@ _G.pg.base.item_data_statistics[59954] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66845,7 +67304,6 @@ _G.pg.base.item_data_statistics[60011] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60011,
@@ -66861,7 +67319,8 @@ _G.pg.base.item_data_statistics[60011] = {
 		1,
 		1,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -66881,7 +67340,6 @@ _G.pg.base.item_data_statistics[60012] = {
 	rarity = 5,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60012,
@@ -66897,7 +67355,8 @@ _G.pg.base.item_data_statistics[60012] = {
 		10000,
 		1,
 		50
-	}
+	},
+	limit = {}
 }
 
 
@@ -66917,7 +67376,6 @@ _G.pg.base.item_data_statistics[61001] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[5,8,9,47,48]",
@@ -66928,7 +67386,8 @@ _G.pg.base.item_data_statistics[61001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -66948,7 +67407,6 @@ _G.pg.base.item_data_statistics[60105] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60105,
@@ -66968,6 +67426,7 @@ _G.pg.base.item_data_statistics[60105] = {
 		806,
 		807
 	},
+	limit = {},
 	open_ui = {
 		"shrine_year",
 		"t_shrine"
@@ -66991,7 +67450,6 @@ _G.pg.base.item_data_statistics[60106] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94205",
@@ -67013,7 +67471,8 @@ _G.pg.base.item_data_statistics[60106] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67033,7 +67492,6 @@ _G.pg.base.item_data_statistics[60107] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94206",
@@ -67055,7 +67513,8 @@ _G.pg.base.item_data_statistics[60107] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67075,7 +67534,6 @@ _G.pg.base.item_data_statistics[60108] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94207",
@@ -67097,7 +67555,8 @@ _G.pg.base.item_data_statistics[60108] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67117,7 +67576,6 @@ _G.pg.base.item_data_statistics[60109] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94208",
@@ -67139,7 +67597,8 @@ _G.pg.base.item_data_statistics[60109] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67159,7 +67618,6 @@ _G.pg.base.item_data_statistics[60110] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94209",
@@ -67181,7 +67639,8 @@ _G.pg.base.item_data_statistics[60110] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67201,7 +67660,6 @@ _G.pg.base.item_data_statistics[60111] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94210",
@@ -67223,7 +67681,8 @@ _G.pg.base.item_data_statistics[60111] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67243,7 +67702,6 @@ _G.pg.base.item_data_statistics[60112] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94211",
@@ -67265,7 +67723,8 @@ _G.pg.base.item_data_statistics[60112] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67285,7 +67744,6 @@ _G.pg.base.item_data_statistics[60113] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67296,7 +67754,8 @@ _G.pg.base.item_data_statistics[60113] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67316,7 +67775,6 @@ _G.pg.base.item_data_statistics[60114] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67327,7 +67785,8 @@ _G.pg.base.item_data_statistics[60114] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67347,7 +67806,6 @@ _G.pg.base.item_data_statistics[60115] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67358,7 +67816,8 @@ _G.pg.base.item_data_statistics[60115] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67378,7 +67837,6 @@ _G.pg.base.item_data_statistics[60116] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67389,7 +67847,8 @@ _G.pg.base.item_data_statistics[60116] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67409,7 +67868,6 @@ _G.pg.base.item_data_statistics[60117] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67420,7 +67878,8 @@ _G.pg.base.item_data_statistics[60117] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67440,7 +67899,6 @@ _G.pg.base.item_data_statistics[60118] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67451,7 +67909,8 @@ _G.pg.base.item_data_statistics[60118] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67471,7 +67930,6 @@ _G.pg.base.item_data_statistics[60119] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67482,7 +67940,8 @@ _G.pg.base.item_data_statistics[60119] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67503,7 +67962,6 @@ _G.pg.base.item_data_statistics[60129] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60129,
@@ -67520,6 +67978,7 @@ _G.pg.base.item_data_statistics[60129] = {
 		904,
 		905
 	},
+	limit = {},
 	open_ui = {
 		"greeting_year",
 		"t_greeting"
@@ -67544,7 +68003,6 @@ _G.pg.base.item_data_statistics[60130] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94619",
@@ -67565,7 +68023,8 @@ _G.pg.base.item_data_statistics[60130] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67586,7 +68045,6 @@ _G.pg.base.item_data_statistics[60131] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94620",
@@ -67607,7 +68065,8 @@ _G.pg.base.item_data_statistics[60131] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67628,7 +68087,6 @@ _G.pg.base.item_data_statistics[60132] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94621",
@@ -67649,7 +68107,8 @@ _G.pg.base.item_data_statistics[60132] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67670,7 +68129,6 @@ _G.pg.base.item_data_statistics[60133] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94622",
@@ -67691,7 +68149,8 @@ _G.pg.base.item_data_statistics[60133] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67712,7 +68171,6 @@ _G.pg.base.item_data_statistics[60134] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "94623",
@@ -67733,7 +68191,8 @@ _G.pg.base.item_data_statistics[60134] = {
 	},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67754,7 +68213,6 @@ _G.pg.base.item_data_statistics[60135] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67764,7 +68222,8 @@ _G.pg.base.item_data_statistics[60135] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67785,7 +68244,6 @@ _G.pg.base.item_data_statistics[60136] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67795,7 +68253,8 @@ _G.pg.base.item_data_statistics[60136] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67816,7 +68275,6 @@ _G.pg.base.item_data_statistics[60137] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67826,7 +68284,8 @@ _G.pg.base.item_data_statistics[60137] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67847,7 +68306,6 @@ _G.pg.base.item_data_statistics[60138] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67857,7 +68315,8 @@ _G.pg.base.item_data_statistics[60138] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67878,7 +68337,6 @@ _G.pg.base.item_data_statistics[60139] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -67888,7 +68346,8 @@ _G.pg.base.item_data_statistics[60139] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -67908,7 +68367,6 @@ _G.pg.base.item_data_statistics[60149] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60149,
@@ -67970,6 +68428,7 @@ _G.pg.base.item_data_statistics[60149] = {
 		1007,
 		1008
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_fourth"
@@ -67993,7 +68452,6 @@ _G.pg.base.item_data_statistics[60150] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95352",
@@ -68015,7 +68473,8 @@ _G.pg.base.item_data_statistics[60150] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68035,7 +68494,6 @@ _G.pg.base.item_data_statistics[60151] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95353",
@@ -68057,7 +68515,8 @@ _G.pg.base.item_data_statistics[60151] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68077,7 +68536,6 @@ _G.pg.base.item_data_statistics[60152] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95354",
@@ -68099,7 +68557,8 @@ _G.pg.base.item_data_statistics[60152] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68119,7 +68578,6 @@ _G.pg.base.item_data_statistics[60153] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95355",
@@ -68141,7 +68599,8 @@ _G.pg.base.item_data_statistics[60153] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68161,7 +68620,6 @@ _G.pg.base.item_data_statistics[60154] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95356",
@@ -68183,7 +68641,8 @@ _G.pg.base.item_data_statistics[60154] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68203,7 +68662,6 @@ _G.pg.base.item_data_statistics[60155] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95357",
@@ -68225,7 +68683,8 @@ _G.pg.base.item_data_statistics[60155] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68245,7 +68704,6 @@ _G.pg.base.item_data_statistics[60156] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95358",
@@ -68267,7 +68725,8 @@ _G.pg.base.item_data_statistics[60156] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68287,7 +68746,6 @@ _G.pg.base.item_data_statistics[60157] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "95359",
@@ -68309,7 +68767,8 @@ _G.pg.base.item_data_statistics[60157] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68329,7 +68788,6 @@ _G.pg.base.item_data_statistics[60158] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68340,7 +68798,8 @@ _G.pg.base.item_data_statistics[60158] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68360,7 +68819,6 @@ _G.pg.base.item_data_statistics[60159] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68371,7 +68829,8 @@ _G.pg.base.item_data_statistics[60159] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68391,7 +68850,6 @@ _G.pg.base.item_data_statistics[60160] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68402,7 +68860,8 @@ _G.pg.base.item_data_statistics[60160] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68422,7 +68881,6 @@ _G.pg.base.item_data_statistics[60161] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68433,7 +68891,8 @@ _G.pg.base.item_data_statistics[60161] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68453,7 +68912,6 @@ _G.pg.base.item_data_statistics[60162] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68464,7 +68922,8 @@ _G.pg.base.item_data_statistics[60162] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68484,7 +68943,6 @@ _G.pg.base.item_data_statistics[60163] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68495,7 +68953,8 @@ _G.pg.base.item_data_statistics[60163] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68515,7 +68974,6 @@ _G.pg.base.item_data_statistics[60164] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68526,7 +68984,8 @@ _G.pg.base.item_data_statistics[60164] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68546,7 +69005,6 @@ _G.pg.base.item_data_statistics[60165] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68557,7 +69015,8 @@ _G.pg.base.item_data_statistics[60165] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68577,7 +69036,6 @@ _G.pg.base.item_data_statistics[60199] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68588,7 +69046,8 @@ _G.pg.base.item_data_statistics[60199] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68608,7 +69067,6 @@ _G.pg.base.item_data_statistics[60200] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68619,7 +69077,8 @@ _G.pg.base.item_data_statistics[60200] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68639,7 +69098,6 @@ _G.pg.base.item_data_statistics[60201] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68650,7 +69108,8 @@ _G.pg.base.item_data_statistics[60201] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68670,7 +69129,6 @@ _G.pg.base.item_data_statistics[60202] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68681,7 +69139,8 @@ _G.pg.base.item_data_statistics[60202] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68701,7 +69160,6 @@ _G.pg.base.item_data_statistics[60203] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68712,7 +69170,8 @@ _G.pg.base.item_data_statistics[60203] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68732,7 +69191,6 @@ _G.pg.base.item_data_statistics[60204] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68743,7 +69201,8 @@ _G.pg.base.item_data_statistics[60204] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68763,7 +69222,6 @@ _G.pg.base.item_data_statistics[60205] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68774,7 +69232,8 @@ _G.pg.base.item_data_statistics[60205] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68794,7 +69253,6 @@ _G.pg.base.item_data_statistics[60206] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68805,7 +69263,8 @@ _G.pg.base.item_data_statistics[60206] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68825,7 +69284,6 @@ _G.pg.base.item_data_statistics[60207] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68836,7 +69294,8 @@ _G.pg.base.item_data_statistics[60207] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68856,7 +69315,6 @@ _G.pg.base.item_data_statistics[60208] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60208,
@@ -68878,6 +69336,7 @@ _G.pg.base.item_data_statistics[60208] = {
 		1208,
 		1209
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_fourth_jp"
@@ -68901,7 +69360,6 @@ _G.pg.base.item_data_statistics[60209] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68912,7 +69370,8 @@ _G.pg.base.item_data_statistics[60209] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68932,7 +69391,6 @@ _G.pg.base.item_data_statistics[60210] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68943,7 +69401,8 @@ _G.pg.base.item_data_statistics[60210] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68963,7 +69422,6 @@ _G.pg.base.item_data_statistics[60211] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -68974,7 +69432,8 @@ _G.pg.base.item_data_statistics[60211] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -68994,7 +69453,6 @@ _G.pg.base.item_data_statistics[60212] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69005,7 +69463,8 @@ _G.pg.base.item_data_statistics[60212] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69025,7 +69484,6 @@ _G.pg.base.item_data_statistics[60213] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69036,7 +69494,8 @@ _G.pg.base.item_data_statistics[60213] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69056,7 +69515,6 @@ _G.pg.base.item_data_statistics[60214] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69067,7 +69525,8 @@ _G.pg.base.item_data_statistics[60214] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69087,7 +69546,6 @@ _G.pg.base.item_data_statistics[60215] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69098,7 +69556,8 @@ _G.pg.base.item_data_statistics[60215] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69118,7 +69577,6 @@ _G.pg.base.item_data_statistics[60216] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60216,
@@ -69138,6 +69596,7 @@ _G.pg.base.item_data_statistics[60216] = {
 		1306,
 		1307
 	},
+	limit = {},
 	open_ui = {
 		"shrine_year",
 		"t_shrine"
@@ -69162,7 +69621,6 @@ _G.pg.base.item_data_statistics[60226] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60226,
@@ -69181,6 +69639,7 @@ _G.pg.base.item_data_statistics[60226] = {
 		1401,
 		1403
 	},
+	limit = {},
 	open_ui = {
 		"greeting_year",
 		"t_greeting"
@@ -69205,7 +69664,6 @@ _G.pg.base.item_data_statistics[60227] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69215,7 +69673,8 @@ _G.pg.base.item_data_statistics[60227] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69236,7 +69695,6 @@ _G.pg.base.item_data_statistics[60228] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69246,7 +69704,8 @@ _G.pg.base.item_data_statistics[60228] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69267,7 +69726,6 @@ _G.pg.base.item_data_statistics[60229] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69277,7 +69735,8 @@ _G.pg.base.item_data_statistics[60229] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69298,7 +69757,6 @@ _G.pg.base.item_data_statistics[60230] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69308,7 +69766,8 @@ _G.pg.base.item_data_statistics[60230] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69329,7 +69788,6 @@ _G.pg.base.item_data_statistics[60231] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69339,7 +69797,8 @@ _G.pg.base.item_data_statistics[60231] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69360,7 +69819,6 @@ _G.pg.base.item_data_statistics[60232] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69370,7 +69828,8 @@ _G.pg.base.item_data_statistics[60232] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69391,7 +69850,6 @@ _G.pg.base.item_data_statistics[60233] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69401,7 +69859,8 @@ _G.pg.base.item_data_statistics[60233] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69422,7 +69881,6 @@ _G.pg.base.item_data_statistics[60235] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60235,
@@ -69442,6 +69900,7 @@ _G.pg.base.item_data_statistics[60235] = {
 		1507,
 		1508
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_fifth"
@@ -69466,7 +69925,6 @@ _G.pg.base.item_data_statistics[60236] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69476,7 +69934,8 @@ _G.pg.base.item_data_statistics[60236] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69497,7 +69956,6 @@ _G.pg.base.item_data_statistics[60237] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69507,7 +69965,8 @@ _G.pg.base.item_data_statistics[60237] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69528,7 +69987,6 @@ _G.pg.base.item_data_statistics[60238] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69538,7 +69996,8 @@ _G.pg.base.item_data_statistics[60238] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69559,7 +70018,6 @@ _G.pg.base.item_data_statistics[60239] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69569,7 +70027,8 @@ _G.pg.base.item_data_statistics[60239] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69590,7 +70049,6 @@ _G.pg.base.item_data_statistics[60240] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69600,7 +70058,8 @@ _G.pg.base.item_data_statistics[60240] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69621,7 +70080,6 @@ _G.pg.base.item_data_statistics[60241] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69631,7 +70089,8 @@ _G.pg.base.item_data_statistics[60241] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69652,7 +70111,6 @@ _G.pg.base.item_data_statistics[60242] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69662,7 +70120,8 @@ _G.pg.base.item_data_statistics[60242] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69683,7 +70142,6 @@ _G.pg.base.item_data_statistics[60243] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69693,7 +70151,8 @@ _G.pg.base.item_data_statistics[60243] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69713,7 +70172,6 @@ _G.pg.base.item_data_statistics[60260] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60260,
@@ -69734,6 +70192,7 @@ _G.pg.base.item_data_statistics[60260] = {
 		1707,
 		1708
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_fifth_jp"
@@ -69757,7 +70216,6 @@ _G.pg.base.item_data_statistics[60261] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69768,7 +70226,8 @@ _G.pg.base.item_data_statistics[60261] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69788,7 +70247,6 @@ _G.pg.base.item_data_statistics[60262] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69799,7 +70257,8 @@ _G.pg.base.item_data_statistics[60262] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69819,7 +70278,6 @@ _G.pg.base.item_data_statistics[60263] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69830,7 +70288,8 @@ _G.pg.base.item_data_statistics[60263] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69850,7 +70309,6 @@ _G.pg.base.item_data_statistics[60264] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69861,7 +70319,8 @@ _G.pg.base.item_data_statistics[60264] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69881,7 +70340,6 @@ _G.pg.base.item_data_statistics[60265] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69892,7 +70350,8 @@ _G.pg.base.item_data_statistics[60265] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69912,7 +70371,6 @@ _G.pg.base.item_data_statistics[60266] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69923,7 +70381,8 @@ _G.pg.base.item_data_statistics[60266] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69943,7 +70402,6 @@ _G.pg.base.item_data_statistics[60267] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69954,7 +70412,8 @@ _G.pg.base.item_data_statistics[60267] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -69974,7 +70433,6 @@ _G.pg.base.item_data_statistics[60268] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -69985,7 +70443,8 @@ _G.pg.base.item_data_statistics[60268] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70005,7 +70464,6 @@ _G.pg.base.item_data_statistics[60276] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70016,7 +70474,8 @@ _G.pg.base.item_data_statistics[60276] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70036,7 +70495,6 @@ _G.pg.base.item_data_statistics[60277] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70047,7 +70505,8 @@ _G.pg.base.item_data_statistics[60277] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70067,7 +70526,6 @@ _G.pg.base.item_data_statistics[60278] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70078,7 +70536,8 @@ _G.pg.base.item_data_statistics[60278] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70098,7 +70557,6 @@ _G.pg.base.item_data_statistics[60279] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70109,7 +70567,8 @@ _G.pg.base.item_data_statistics[60279] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70129,7 +70588,6 @@ _G.pg.base.item_data_statistics[60280] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70140,7 +70598,8 @@ _G.pg.base.item_data_statistics[60280] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70160,7 +70619,6 @@ _G.pg.base.item_data_statistics[60281] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70171,7 +70629,8 @@ _G.pg.base.item_data_statistics[60281] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70191,7 +70650,6 @@ _G.pg.base.item_data_statistics[60282] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70202,7 +70660,8 @@ _G.pg.base.item_data_statistics[60282] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70222,7 +70681,6 @@ _G.pg.base.item_data_statistics[60283] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60283,
@@ -70242,6 +70700,7 @@ _G.pg.base.item_data_statistics[60283] = {
 		1807,
 		1808
 	},
+	limit = {},
 	open_ui = {
 		"shrine_year",
 		"t_shrine"
@@ -70265,7 +70724,6 @@ _G.pg.base.item_data_statistics[60284] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70276,7 +70734,8 @@ _G.pg.base.item_data_statistics[60284] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70297,7 +70756,6 @@ _G.pg.base.item_data_statistics[60290] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60290,
@@ -70317,6 +70775,7 @@ _G.pg.base.item_data_statistics[60290] = {
 		1907,
 		1908
 	},
+	limit = {},
 	open_ui = {
 		"greeting_year",
 		"t_greeting"
@@ -70341,7 +70800,6 @@ _G.pg.base.item_data_statistics[60291] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70351,7 +70809,8 @@ _G.pg.base.item_data_statistics[60291] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70372,7 +70831,6 @@ _G.pg.base.item_data_statistics[60292] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70382,7 +70840,8 @@ _G.pg.base.item_data_statistics[60292] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70403,7 +70862,6 @@ _G.pg.base.item_data_statistics[60293] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70413,7 +70871,8 @@ _G.pg.base.item_data_statistics[60293] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70434,7 +70893,6 @@ _G.pg.base.item_data_statistics[60294] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70444,7 +70902,8 @@ _G.pg.base.item_data_statistics[60294] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70465,7 +70924,6 @@ _G.pg.base.item_data_statistics[60295] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70475,7 +70933,8 @@ _G.pg.base.item_data_statistics[60295] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70496,7 +70955,6 @@ _G.pg.base.item_data_statistics[60296] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70506,7 +70964,8 @@ _G.pg.base.item_data_statistics[60296] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70527,7 +70986,6 @@ _G.pg.base.item_data_statistics[60297] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70537,7 +70995,8 @@ _G.pg.base.item_data_statistics[60297] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70558,7 +71017,6 @@ _G.pg.base.item_data_statistics[60298] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70568,7 +71026,8 @@ _G.pg.base.item_data_statistics[60298] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70588,7 +71047,6 @@ _G.pg.base.item_data_statistics[60316] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60316,
@@ -70609,6 +71067,7 @@ _G.pg.base.item_data_statistics[60316] = {
 		2007,
 		2008
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_sixth"
@@ -70632,7 +71091,6 @@ _G.pg.base.item_data_statistics[60317] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70643,7 +71101,8 @@ _G.pg.base.item_data_statistics[60317] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70663,7 +71122,6 @@ _G.pg.base.item_data_statistics[60318] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70674,7 +71132,8 @@ _G.pg.base.item_data_statistics[60318] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70694,7 +71153,6 @@ _G.pg.base.item_data_statistics[60319] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70705,7 +71163,8 @@ _G.pg.base.item_data_statistics[60319] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70725,7 +71184,6 @@ _G.pg.base.item_data_statistics[60320] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70736,7 +71194,8 @@ _G.pg.base.item_data_statistics[60320] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70756,7 +71215,6 @@ _G.pg.base.item_data_statistics[60321] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70767,7 +71225,8 @@ _G.pg.base.item_data_statistics[60321] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70787,7 +71246,6 @@ _G.pg.base.item_data_statistics[60322] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70798,7 +71256,8 @@ _G.pg.base.item_data_statistics[60322] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70818,7 +71277,6 @@ _G.pg.base.item_data_statistics[60323] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70829,7 +71287,8 @@ _G.pg.base.item_data_statistics[60323] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70849,7 +71308,6 @@ _G.pg.base.item_data_statistics[60324] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70860,7 +71318,8 @@ _G.pg.base.item_data_statistics[60324] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70880,7 +71339,6 @@ _G.pg.base.item_data_statistics[60423] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60423,
@@ -70901,6 +71359,7 @@ _G.pg.base.item_data_statistics[60423] = {
 		2207,
 		2208
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_sixth_jp"
@@ -70924,7 +71383,6 @@ _G.pg.base.item_data_statistics[60424] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70935,7 +71393,8 @@ _G.pg.base.item_data_statistics[60424] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70955,7 +71414,6 @@ _G.pg.base.item_data_statistics[60425] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70966,7 +71424,8 @@ _G.pg.base.item_data_statistics[60425] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -70986,7 +71445,6 @@ _G.pg.base.item_data_statistics[60426] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -70997,7 +71455,8 @@ _G.pg.base.item_data_statistics[60426] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71017,7 +71476,6 @@ _G.pg.base.item_data_statistics[60427] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71028,7 +71486,8 @@ _G.pg.base.item_data_statistics[60427] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71048,7 +71507,6 @@ _G.pg.base.item_data_statistics[60428] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71059,7 +71517,8 @@ _G.pg.base.item_data_statistics[60428] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71079,7 +71538,6 @@ _G.pg.base.item_data_statistics[60429] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71090,7 +71548,8 @@ _G.pg.base.item_data_statistics[60429] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71110,7 +71569,6 @@ _G.pg.base.item_data_statistics[60430] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71121,7 +71579,8 @@ _G.pg.base.item_data_statistics[60430] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71141,7 +71600,6 @@ _G.pg.base.item_data_statistics[60431] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71152,7 +71610,268 @@ _G.pg.base.item_data_statistics[60431] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60450] = {
+	open_directly = 0,
+	name = "{namecode:203}的年賀狀",
+	type = 1,
+	display = "由{namecode:203}處收到的，新年年賀狀",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60450,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60451] = {
+	open_directly = 0,
+	name = "黎胥留的年賀狀",
+	type = 1,
+	display = "由黎胥留處收到的，新年年賀狀",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60451,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60452] = {
+	open_directly = 0,
+	name = "{namecode:418}的年賀狀",
+	type = 1,
+	display = "由{namecode:418}處收到的，新年年賀狀",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60452,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60453] = {
+	open_directly = 0,
+	name = "可畏的年賀狀",
+	type = 1,
+	display = "由可畏處收到的，新年年賀狀",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60453,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60454] = {
+	open_directly = 0,
+	name = "香格里拉的年賀狀",
+	type = 1,
+	display = "由香格里拉處收到的，新年年賀狀",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60454,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60455] = {
+	open_directly = 0,
+	name = "{namecode:526}的年賀狀",
+	type = 1,
+	display = "由{namecode:526}處收到的，新年年賀狀",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60455,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60456] = {
+	open_directly = 0,
+	name = "塔什干的年賀狀",
+	type = 1,
+	display = "由塔什干收到的，新年年賀狀",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60456,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60457] = {
+	open_directly = 0,
+	name = "年賀狀",
+	type = 21,
+	display = "飽含祝福的年賀狀。使用後可選擇特定角色贈送（獲得指定角色）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/nianhezhuang2025-tw",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60457,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2301,
+		2302,
+		2303,
+		2304,
+		2305,
+		2306,
+		2307
+	},
+	limit = {},
+	open_ui = {
+		"shrine_year",
+		"t_shrine"
+	}
 }
 
 
@@ -71172,7 +71891,6 @@ _G.pg.base.item_data_statistics[60459] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71183,7 +71901,8 @@ _G.pg.base.item_data_statistics[60459] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71203,7 +71922,6 @@ _G.pg.base.item_data_statistics[60460] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71214,7 +71932,8 @@ _G.pg.base.item_data_statistics[60460] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71234,7 +71953,6 @@ _G.pg.base.item_data_statistics[60461] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71245,7 +71963,8 @@ _G.pg.base.item_data_statistics[60461] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71265,7 +71984,6 @@ _G.pg.base.item_data_statistics[60462] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71276,7 +71994,8 @@ _G.pg.base.item_data_statistics[60462] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71296,7 +72015,6 @@ _G.pg.base.item_data_statistics[60463] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71307,7 +72025,8 @@ _G.pg.base.item_data_statistics[60463] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71327,7 +72046,6 @@ _G.pg.base.item_data_statistics[60464] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71338,7 +72056,8 @@ _G.pg.base.item_data_statistics[60464] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71358,7 +72077,6 @@ _G.pg.base.item_data_statistics[60465] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71369,7 +72087,8 @@ _G.pg.base.item_data_statistics[60465] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71389,7 +72108,6 @@ _G.pg.base.item_data_statistics[60466] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60466,
@@ -71409,6 +72127,7 @@ _G.pg.base.item_data_statistics[60466] = {
 		2406,
 		2407
 	},
+	limit = {},
 	open_ui = {
 		"greeting_year",
 		"t_greeting"
@@ -71432,7 +72151,6 @@ _G.pg.base.item_data_statistics[60491] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60491,
@@ -71453,6 +72171,7 @@ _G.pg.base.item_data_statistics[60491] = {
 		2507,
 		2508
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_seventh"
@@ -71476,7 +72195,6 @@ _G.pg.base.item_data_statistics[60492] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71487,7 +72205,8 @@ _G.pg.base.item_data_statistics[60492] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71507,7 +72226,6 @@ _G.pg.base.item_data_statistics[60493] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71518,7 +72236,8 @@ _G.pg.base.item_data_statistics[60493] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71538,7 +72257,6 @@ _G.pg.base.item_data_statistics[60494] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71549,7 +72267,8 @@ _G.pg.base.item_data_statistics[60494] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71569,7 +72288,6 @@ _G.pg.base.item_data_statistics[60495] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71580,7 +72298,8 @@ _G.pg.base.item_data_statistics[60495] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71600,7 +72319,6 @@ _G.pg.base.item_data_statistics[60496] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71611,7 +72329,8 @@ _G.pg.base.item_data_statistics[60496] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71631,7 +72350,6 @@ _G.pg.base.item_data_statistics[60497] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71642,7 +72360,8 @@ _G.pg.base.item_data_statistics[60497] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71662,7 +72381,6 @@ _G.pg.base.item_data_statistics[60498] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71673,7 +72391,8 @@ _G.pg.base.item_data_statistics[60498] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71693,7 +72412,6 @@ _G.pg.base.item_data_statistics[60499] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71704,7 +72422,8 @@ _G.pg.base.item_data_statistics[60499] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71724,7 +72443,6 @@ _G.pg.base.item_data_statistics[60510] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 60510,
@@ -71745,6 +72463,7 @@ _G.pg.base.item_data_statistics[60510] = {
 		2707,
 		2708
 	},
+	limit = {},
 	open_ui = {
 		"login_year",
 		"t_seventh_jp"
@@ -71768,7 +72487,6 @@ _G.pg.base.item_data_statistics[60511] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71779,7 +72497,8 @@ _G.pg.base.item_data_statistics[60511] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71799,7 +72518,6 @@ _G.pg.base.item_data_statistics[60512] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71810,7 +72528,8 @@ _G.pg.base.item_data_statistics[60512] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71830,7 +72549,6 @@ _G.pg.base.item_data_statistics[60513] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71841,7 +72559,8 @@ _G.pg.base.item_data_statistics[60513] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71861,7 +72580,6 @@ _G.pg.base.item_data_statistics[60514] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71872,7 +72590,8 @@ _G.pg.base.item_data_statistics[60514] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71892,7 +72611,6 @@ _G.pg.base.item_data_statistics[60515] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71903,7 +72621,8 @@ _G.pg.base.item_data_statistics[60515] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71923,7 +72642,6 @@ _G.pg.base.item_data_statistics[60516] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71934,7 +72652,8 @@ _G.pg.base.item_data_statistics[60516] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71954,7 +72673,6 @@ _G.pg.base.item_data_statistics[60517] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71965,7 +72683,8 @@ _G.pg.base.item_data_statistics[60517] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -71985,7 +72704,6 @@ _G.pg.base.item_data_statistics[60518] = {
 	rarity = 9,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -71996,7 +72714,8 @@ _G.pg.base.item_data_statistics[60518] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -72016,7 +72735,6 @@ _G.pg.base.item_data_statistics[70051] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "300038",
@@ -72048,7 +72766,8 @@ _G.pg.base.item_data_statistics[70051] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -72068,7 +72787,6 @@ _G.pg.base.item_data_statistics[70052] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "300139",
@@ -72090,7 +72808,8 @@ _G.pg.base.item_data_statistics[70052] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -72110,7 +72829,6 @@ _G.pg.base.item_data_statistics[80002] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "300400",
@@ -72121,7 +72839,8 @@ _G.pg.base.item_data_statistics[80002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -72141,7 +72860,6 @@ _G.pg.base.item_data_statistics[80004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 80004,
@@ -72334,7 +73052,8 @@ _G.pg.base.item_data_statistics[80004] = {
 			417,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -72354,7 +73073,6 @@ _G.pg.base.item_data_statistics[80015] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 80015,
@@ -72547,7 +73265,8 @@ _G.pg.base.item_data_statistics[80015] = {
 			337,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -72567,7 +73286,6 @@ _G.pg.base.item_data_statistics[80018] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "30322",
@@ -72669,7 +73387,8 @@ _G.pg.base.item_data_statistics[80018] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -72689,7 +73408,6 @@ _G.pg.base.item_data_statistics[80019] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 80019,
@@ -72882,7 +73600,8 @@ _G.pg.base.item_data_statistics[80019] = {
 			477,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -72902,7 +73621,6 @@ _G.pg.base.item_data_statistics[80033] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 80033,
@@ -73095,7 +73813,8 @@ _G.pg.base.item_data_statistics[80033] = {
 			517,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -73115,7 +73834,6 @@ _G.pg.base.item_data_statistics[80034] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 80034,
@@ -73308,7 +74026,8 @@ _G.pg.base.item_data_statistics[80034] = {
 			557,
 			1
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -73328,7 +74047,6 @@ _G.pg.base.item_data_statistics[80036] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 80036,
@@ -73348,10 +74066,58 @@ _G.pg.base.item_data_statistics[80036] = {
 		1806,
 		1807
 	},
+	limit = {},
 	open_ui = {
 		"shrine_year",
 		"t_shrine"
 	}
+}
+
+
+_G.pg.base.item_data_statistics[80100] = {
+	open_directly = 1,
+	name = "艦船教材T3捆綁包",
+	type = 17,
+	display = "使用後可獲得艦艇攻擊教材T3*1、艦艇防禦教材T3*1、艦艇輔助教材T3*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/80100",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998000",
+	id = 80100,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16003,
+			1
+		},
+		{
+			2,
+			16013,
+			1
+		},
+		{
+			2,
+			16023,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73371,7 +74137,6 @@ _G.pg.base.item_data_statistics[81000] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998100",
@@ -73418,7 +74183,8 @@ _G.pg.base.item_data_statistics[81000] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73438,7 +74204,6 @@ _G.pg.base.item_data_statistics[81001] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998101",
@@ -73485,7 +74250,8 @@ _G.pg.base.item_data_statistics[81001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73505,7 +74271,6 @@ _G.pg.base.item_data_statistics[81002] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998102",
@@ -73552,7 +74317,8 @@ _G.pg.base.item_data_statistics[81002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73572,7 +74338,6 @@ _G.pg.base.item_data_statistics[81003] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998103",
@@ -73619,7 +74384,8 @@ _G.pg.base.item_data_statistics[81003] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73639,7 +74405,6 @@ _G.pg.base.item_data_statistics[81004] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998104",
@@ -73686,7 +74451,8 @@ _G.pg.base.item_data_statistics[81004] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73706,7 +74472,6 @@ _G.pg.base.item_data_statistics[81005] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998105",
@@ -73753,7 +74518,8 @@ _G.pg.base.item_data_statistics[81005] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73773,7 +74539,6 @@ _G.pg.base.item_data_statistics[81006] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998106",
@@ -73820,7 +74585,8 @@ _G.pg.base.item_data_statistics[81006] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73840,7 +74606,6 @@ _G.pg.base.item_data_statistics[81007] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998107",
@@ -73887,7 +74652,8 @@ _G.pg.base.item_data_statistics[81007] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73907,7 +74673,6 @@ _G.pg.base.item_data_statistics[81008] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998108",
@@ -73964,7 +74729,8 @@ _G.pg.base.item_data_statistics[81008] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -73984,7 +74750,6 @@ _G.pg.base.item_data_statistics[81009] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998109",
@@ -74046,7 +74811,8 @@ _G.pg.base.item_data_statistics[81009] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -74066,7 +74832,6 @@ _G.pg.base.item_data_statistics[81010] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998110",
@@ -74113,7 +74878,8 @@ _G.pg.base.item_data_statistics[81010] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -74133,7 +74899,6 @@ _G.pg.base.item_data_statistics[81011] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 81011,
@@ -74176,7 +74941,8 @@ _G.pg.base.item_data_statistics[81011] = {
 			20001,
 			20
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -74196,7 +74962,6 @@ _G.pg.base.item_data_statistics[81012] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 81012,
@@ -74279,7 +75044,8 @@ _G.pg.base.item_data_statistics[81012] = {
 			20001,
 			30
 		}
-	}
+	},
+	limit = {}
 }
 
 
@@ -74299,7 +75065,6 @@ _G.pg.base.item_data_statistics[81013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	id = 81013,
@@ -74697,7 +75462,8 @@ _G.pg.base.item_data_statistics[81013] = {
 		},
 		99999,
 		59551
-	}
+	},
+	limit = {}
 }
 
 
@@ -74717,7 +75483,6 @@ _G.pg.base.item_data_statistics[81014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998112",
@@ -74764,7 +75529,8 @@ _G.pg.base.item_data_statistics[81014] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -74784,7 +75550,6 @@ _G.pg.base.item_data_statistics[81015] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998113",
@@ -74831,7 +75596,8 @@ _G.pg.base.item_data_statistics[81015] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -74851,7 +75617,6 @@ _G.pg.base.item_data_statistics[81016] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998114",
@@ -74898,7 +75663,142 @@ _G.pg.base.item_data_statistics[81016] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81200] = {
+	open_directly = 1,
+	name = "絢爛繽紛夜福袋·I",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2024，心智單元*50，心智魔方*20，高級定向藍圖·六期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai9",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998300",
+	id = 81200,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86200,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81201] = {
+	open_directly = 1,
+	name = "絢爛繽紛夜福袋·II",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2024，心智單元*50，心智魔方*20，高級定向藍圖·六期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai10",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998301",
+	id = 81201,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86201,
+			1
+		},
+		{
+			1,
+			4,
+			2024
+		},
+		{
+			2,
+			42056,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -74918,7 +75818,6 @@ _G.pg.base.item_data_statistics[81205] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "998305",
@@ -74965,7 +75864,8 @@ _G.pg.base.item_data_statistics[81205] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -74985,7 +75885,6 @@ _G.pg.base.item_data_statistics[89001] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -74996,7 +75895,8 @@ _G.pg.base.item_data_statistics[89001] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75016,7 +75916,6 @@ _G.pg.base.item_data_statistics[89002] = {
 	rarity = 3,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75027,7 +75926,8 @@ _G.pg.base.item_data_statistics[89002] = {
 	price = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75048,7 +75948,6 @@ _G.pg.base.item_data_statistics[100011] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75058,7 +75957,8 @@ _G.pg.base.item_data_statistics[100011] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75079,7 +75979,6 @@ _G.pg.base.item_data_statistics[100012] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75089,7 +75988,8 @@ _G.pg.base.item_data_statistics[100012] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75110,7 +76010,6 @@ _G.pg.base.item_data_statistics[100013] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75120,7 +76019,8 @@ _G.pg.base.item_data_statistics[100013] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75141,7 +76041,6 @@ _G.pg.base.item_data_statistics[100014] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75151,7 +76050,8 @@ _G.pg.base.item_data_statistics[100014] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75172,7 +76072,6 @@ _G.pg.base.item_data_statistics[100015] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75182,7 +76081,8 @@ _G.pg.base.item_data_statistics[100015] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75203,7 +76103,6 @@ _G.pg.base.item_data_statistics[100016] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75213,7 +76112,8 @@ _G.pg.base.item_data_statistics[100016] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75234,7 +76134,6 @@ _G.pg.base.item_data_statistics[100017] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75244,7 +76143,8 @@ _G.pg.base.item_data_statistics[100017] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75265,7 +76165,6 @@ _G.pg.base.item_data_statistics[100018] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75275,7 +76174,8 @@ _G.pg.base.item_data_statistics[100018] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75296,7 +76196,6 @@ _G.pg.base.item_data_statistics[100019] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75306,7 +76205,8 @@ _G.pg.base.item_data_statistics[100019] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75327,7 +76227,6 @@ _G.pg.base.item_data_statistics[100020] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75337,7 +76236,8 @@ _G.pg.base.item_data_statistics[100020] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75358,7 +76258,6 @@ _G.pg.base.item_data_statistics[100021] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75368,7 +76267,8 @@ _G.pg.base.item_data_statistics[100021] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75389,7 +76289,6 @@ _G.pg.base.item_data_statistics[100022] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75399,7 +76298,8 @@ _G.pg.base.item_data_statistics[100022] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75420,7 +76320,6 @@ _G.pg.base.item_data_statistics[100023] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75430,7 +76329,8 @@ _G.pg.base.item_data_statistics[100023] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75451,7 +76351,6 @@ _G.pg.base.item_data_statistics[100024] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75461,7 +76360,8 @@ _G.pg.base.item_data_statistics[100024] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }
 
 
@@ -75482,7 +76382,6 @@ _G.pg.base.item_data_statistics[100025] = {
 	rarity = 4,
 	max_num = 0,
 	time_limit = 0,
-	limit = "[]",
 	virtual_type = 0,
 	other_item_cost = "[]",
 	usage_arg = "[]",
@@ -75492,5 +76391,6 @@ _G.pg.base.item_data_statistics[100025] = {
 	display_icon = {},
 	index = {},
 	shiptrans_id = {},
-	combination_display = {}
+	combination_display = {},
+	limit = {}
 }

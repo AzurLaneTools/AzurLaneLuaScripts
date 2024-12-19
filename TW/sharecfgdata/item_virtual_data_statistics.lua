@@ -161442,8 +161442,8 @@ _G.pg.base.item_virtual_data_statistics[59514] = {
 
 _G.pg.base.item_virtual_data_statistics[59515] = {
 	drop_gold_max = 0,
-	name = "打捞数据",
-	display = "用于「星海逐光」活动的常规兑换，活动结束后将会消失",
+	name = "打撈數據",
+	display = "用於「星海逐光」活動的常規兌換，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -161467,8 +161467,8 @@ _G.pg.base.item_virtual_data_statistics[59515] = {
 
 _G.pg.base.item_virtual_data_statistics[59516] = {
 	drop_gold_max = 0,
-	name = "破损信标",
-	display = "用于「星海逐光」活动的特殊兑换，活动结束后将会消失",
+	name = "破損信標",
+	display = "用於「星海逐光」活動的特殊兌換，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -170686,7 +170686,7 @@ _G.pg.base.item_virtual_data_statistics[69921] = {
 
 _G.pg.base.item_virtual_data_statistics[69922] = {
 	drop_gold_max = 0,
-	name = "隨機新年換裝2024①",
+	name = "隨機泳裝換裝2024①",
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉換為該換裝等價的鑽石)
 包含的換裝和機率如下：
@@ -170750,7 +170750,7 @@ _G.pg.base.item_virtual_data_statistics[69922] = {
 
 _G.pg.base.item_virtual_data_statistics[69923] = {
 	drop_gold_max = 0,
-	name = "隨機新年換裝2024②",
+	name = "隨機泳裝換裝2024②",
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉換為該換裝等價的鑽石)
 包含的換裝和機率如下：
@@ -176510,6 +176510,31 @@ _G.pg.base.item_virtual_data_statistics[80035] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[80101] = {
+	drop_gold_max = 0,
+	name = "單次建造券",
+	display = "於『Z23的建造援助計畫』活動期間獲取，可以在『星海逐光』活動期間免費進行一次期間限定建造（活動結束後消失）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 45047,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 80101,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[80500] = {
 	drop_gold_max = 0,
 	name = "外觀裝備(美食)",
@@ -177464,6 +177489,252 @@ _G.pg.base.item_virtual_data_statistics[86011] = {
 		{
 			206022,
 			800
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86200] = {
+	drop_gold_max = 0,
+	name = "隨機繽紛夜換裝·I",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86200,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			118021,
+			800
+		},
+		{
+			101511,
+			800
+		},
+		{
+			102097,
+			800
+		},
+		{
+			104011,
+			800
+		},
+		{
+			103271,
+			800
+		},
+		{
+			108081,
+			1600
+		},
+		{
+			102311,
+			1600
+		},
+		{
+			107301,
+			1400
+		},
+		{
+			401352,
+			1400
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86201] = {
+	drop_gold_max = 0,
+	name = "随机缤纷夜换装·II",
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>13.0%</color>）羅恩換裝 蒼翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>15.0%</color>）豪換裝 奢華之夜宴；
+（<color=#92fc63>15.0%</color>）鐵必制換裝 獨秀的冰華；
+（<color=#92fc63>15.0%</color>）華盛頓換裝 微笑嘉年華；
+（<color=#92fc63>14.0%</color>）波夕換裝 翠玉的海人魚；
+（<color=#92fc63>14.0%</color>）{namecode:103}換裝 水墨麗色；
+（<color=#92fc63>14.0%</color>）威嚴換裝 別樣的品茶時光；
+ ]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86201,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			199041,
+			800
+		},
+		{
+			499091,
+			800
+		},
+		{
+			301863,
+			800
+		},
+		{
+			399061,
+			1900
+		},
+		{
+			499081,
+			1900
+		},
+		{
+			999021,
+			1900
+		},
+		{
+			201353,
+			1900
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86202] = {
+	drop_gold_max = 0,
+	name = "随机春节换装2024·I",
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>13.0%</color>）羅恩換裝 蒼翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>15.0%</color>）豪換裝 奢華之夜宴；
+（<color=#92fc63>15.0%</color>）鐵必制換裝 獨秀的冰華；
+（<color=#92fc63>15.0%</color>）華盛頓換裝 微笑嘉年華；
+（<color=#92fc63>14.0%</color>）波夕換裝 翠玉的海人魚；
+（<color=#92fc63>14.0%</color>）{namecode:103}換裝 水墨麗色；
+（<color=#92fc63>14.0%</color>）威嚴換裝 別樣的品茶時光；
+ ]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86202,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			501051,
+			1200
+		},
+		{
+			504011,
+			1200
+		},
+		{
+			501061,
+			1200
+		},
+		{
+			103262,
+			1900
+		},
+		{
+			501071,
+			1500
+		},
+		{
+			502091,
+			1500
+		},
+		{
+			402083,
+			1500
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86203] = {
+	drop_gold_max = 0,
+	name = "随机春节换装2024·II",
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>13.0%</color>）羅恩換裝 蒼翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>15.0%</color>）豪換裝 奢華之夜宴；
+（<color=#92fc63>15.0%</color>）鐵必制換裝 獨秀的冰華；
+（<color=#92fc63>15.0%</color>）華盛頓換裝 微笑嘉年華；
+（<color=#92fc63>14.0%</color>）波夕換裝 翠玉的海人魚；
+（<color=#92fc63>14.0%</color>）{namecode:103}換裝 水墨麗色；
+（<color=#92fc63>14.0%</color>）威嚴換裝 別樣的品茶時光；
+ ]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86203,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			206072,
+			1300
+		},
+		{
+			206062,
+			1300
+		},
+		{
+			199032,
+			1300
+		},
+		{
+			407033,
+			3230
+		},
+		{
+			204011,
+			2870
 		}
 	}
 }

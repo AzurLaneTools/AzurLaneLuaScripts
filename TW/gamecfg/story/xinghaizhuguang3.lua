@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「星海」基地-连接通道",
+			say = "「星海」基地-連接通道",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,12 +36,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轨道电车坐了……整整二十分钟，不愧是星海基地……",
+			say = "軌道電車坐了……整整二十分鐘，不愧是星海基地……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -55,12 +55,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里的规模究竟有多大啊……",
+			say = "這裡的規模究竟有多大……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,12 +73,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，我们现在差不多位于星海基地的中部位置，离位于底部独立区域的银河之心还有段距离呢。",
+			say = "呵呵，我們現在差不多位於星海基地的中部位置，離位於底部獨立區域的銀河之心還有段距離呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -91,12 +91,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来要步行前往电梯间，两位这边请。",
+			say = "接下來要步行前往電梯間，兩位這邊請。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_503",
-			say = "星海基地-核心区-「银河之心」-综合区",
+			say = "星海基地-核心區-「銀河之心」-綜合區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "先進艦船研究計劃局",
 			dir = 1,
 			actor = 199010,
 			nameColor = "#A9F548FF",
@@ -156,12 +156,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "早上好，西雅图，奇尔沙治。两位是刚完成测试么？",
+			say = "早上好，西雅圖，奇爾沙治。兩位是剛完成測試嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,12 +175,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "先進艦船研究計劃局",
 			dir = 1,
 			actor = 199040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "例行检查，及，看望安克雷奇的状态。",
+			say = "例行檢查，及，探望安克拉治的狀態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,12 +193,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "先進艦船研究計劃局",
 			dir = 1,
 			actor = 199010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你是来带新人做测试的么？那就快去吧，银河之心现在正空着呢~",
+			say = "妳是來帶新人做測試的嗎？那就快去吧，銀河之心現在正空著呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,12 +212,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "先进舰船研究计划局",
+			factiontag = "先進艦船研究計劃局",
 			dir = 1,
 			actor = 199040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们还有后续检查项目，告辞。",
+			say = "我們還有後續檢查項目，告辭。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,12 +231,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "两位慢走。",
+			say = "兩位慢走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,13 +249,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			bgName = "star_level_bg_503",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚才的这两位都是……没见过的身影呢。",
+			say = "剛才的這兩位都是……沒見過的身影呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,12 +285,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……出于保密的原因，星海之外知道她们二人存在的人相当有限。",
+			say = "嗯……出於保密的原因，星海之外知道他們兩人存在的人相當有限。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -304,12 +304,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过之前跟随指挥官一同参与过作战行动的佐治亚，你们应该有所了解吧。",
+			say = "不過之前跟隨指揮官一同參與過作戰行動的喬治亞，妳們應該要有所了解吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -322,12 +322,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "西雅图与奇尔沙治和她一样，都是我们的计划舰。所属是三角座-先进舰船研究计划局。",
+			say = "西雅圖和奇爾沙治和她一樣，都是我們的計畫艦。所屬是三角座-先進艦船研究計畫局。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,12 +341,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里……居然也是我们的计划舰研究中心啊……不愧是星海。",
+			say = "這裡……居然也是我們的計畫艦研究中心啊……不愧是星海。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -359,12 +359,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来还需要再坐一段轨道车，就能抵达本次的目的地X区了。",
+			say = "接下來還需要再坐一段軌道車，就能抵達本次的目的地X區了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,12 +377,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……好漫长。",
+			say = "……好漫長。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,12 +395,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "加油，接下来就是最后一段路了~！",
+			say = "加油，接下來就是最後一段路了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			bgm = "theme-starsea-core",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "星海基地-核心区-「银河之心」-X区",
+			say = "星海基地-核心區-「銀河之心」-X區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,12 +443,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "访问：银河之心。权限：已归档。欢迎，普林斯顿、拉菲。领航员-TB向你们问好。",
+			say = "訪問：銀河之心。權限：已歸檔。歡迎，普林斯頓、拉菲。領航員-TB向妳們問好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,12 +462,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在本次模拟测试中，你们的目标如下：",
+			say = "在本次模擬測驗中，妳們的目標如下：",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,12 +481,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "任务目标一：同仲裁者·迪贝路交战，并收集高价值数据。",
+			say = "任務目標一：與仲裁者·迪貝路交戰，並收集高價值資料。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,12 +500,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "任务目标二：验证拉菲II型舰装的可靠性与作战能力。",
+			say = "任務目標二：驗證拉菲II型艦裝的可靠性與作戰能力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,12 +519,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第三，验证本次拉菲II型舰装测试方案的可行性。",
+			say = "第三，驗證本次拉菲II型艦裝測試方案的可行性。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -537,12 +537,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……拉菲，没有II型舰装。",
+			say = "……拉菲，沒有II型艦裝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,12 +556,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "解答：采取「模拟」方式进行部署。",
+			say = "解答：採取「模擬」方式進行部署。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,12 +575,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "引导：按照最新指引手册，向首次参与模拟测试的成员，介绍本次测试的内容与流程。",
+			say = "引導：依照最新指引手冊，向首次參與模擬測試的成員，介紹本次測試的內容與流程。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -594,12 +594,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "场地：模拟世界：「NY」，训练数据集：「未来」，数据集提供者：指挥官。",
+			say = "場地：模擬世界：「NY」，訓練資料集：「未來」，資料集提供者：指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -613,12 +613,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "包含：场地布局、建筑风格，民用产品，军事技术等。",
+			say = "包含：場地佈局、建築風格，民用產品，軍事技術等。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -632,12 +632,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……来自未来的资料数据？！",
+			say = "等等……來自未來的資料數據？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,12 +661,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……如果有这些资料的话，我们的科技水平岂不是可以跃迁式提升了！？",
+			say = "……如果有這些資料的話，我們的科技水準豈不是可以躍遷式提升了！？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,10 +680,10 @@ return {
 			actor = 900284,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "否定。仅有外形数据，无内部结构参数，无法进行完整复现。",
+			say = "否定。僅有外形數據，無內部結構參數，無法進行完整復現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,12 +693,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，你理解成逼真的科幻电影布景就好，虽然看上去像那么回事，但也只是看上去而已。",
+			say = "嗯，妳理解成逼真的科幻電影佈景就好，雖然看起來像那麼一回事，但也只是看起來而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,11 +712,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "肯定。数据集所包含高价值技术，已整合入本次测试。",
+			say = "肯定。資料集所包含高價值技術，已整合入本次測試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,12 +725,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第一阶段流程：与未来舰队交战。已校准未来舰队战斗力至合理水准。主要目的：适应性测试。",
+			say = "第一階段流程：與未來艦隊交戰。已校準未來艦隊戰鬥力至合理水準。主要目的：適應性測試。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -744,12 +744,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "第二阶段流程：与仲裁者·迪贝路交战。已最大程度还原迪贝路作战性能。",
+			say = "第二階段流程：與仲裁者·迪貝路交戰。已最大程度還原迪貝路作戰性能。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -762,49 +762,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目标：击败迪贝路。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
-			dir = 1,
-			actor = 900284,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "宣读：重要内容·本次模拟测试之守则——撰写者，深海数据解析局·星座。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
-			dir = 1,
-			actor = 900284,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "一，任何情况下，都不得离开指定实验区域，包括舰载机飞离行为，否则测试中断。",
+			say = "目標：擊敗迪貝路。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -818,12 +781,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "二，进入模拟世界后，不得接通外部频道、收发任何信息。领航员系统将对此执行严格管制。",
+			say = "宣讀：重要內容·本次模擬測試之守則——撰寫者，深海資料解析局·星座。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -836,12 +799,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三，不得攻击实验区域外的任何目标，否则测试中断。",
+			say = "一，任何情況下，都不得離開指定實驗區域，包括艦載機飛離行為，否則測試中斷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -855,12 +818,49 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "四，禁止在模拟世界中与迪贝路进行任何形式的交谈，否则测试中断。",
+			say = "二，進入模擬世界後，不得接通外部頻道、收發任何訊息。領航員系統將對此執行嚴格管制。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_starsea_core_2",
+			factiontag = "星海主機",
+			dir = 1,
+			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "三，不得攻擊實驗區域外的任何目標，否則測試中斷。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_starsea_core_2",
+			factiontag = "星海主機",
+			dir = 1,
+			actor = 900284,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "四，禁止在模擬世界中與迪貝路進行任何形式的交談，否則測試中斷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -874,12 +874,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_starsea_core_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，请诸位进入准备区，测试即将开始——",
+			say = "那麼，請諸位進入準備區，測試即將開始——",
 			painting = {
 				alpha = 0.3,
 				time = 1

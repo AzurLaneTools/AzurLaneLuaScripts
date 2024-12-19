@@ -4600,6 +4600,121 @@ pg.ship_meta_repair_effect = {
 		},
 		effect_dialog = {}
 	},
+	[4101] = {
+		id = 4101,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				129
+			},
+			{
+				"antiaircraft",
+				6
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[4102] = {
+		id = 4102,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				194
+			},
+			{
+				"antiaircraft",
+				9
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[4103] = {
+		id = 4103,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				258
+			},
+			{
+				"antiaircraft",
+				12
+			},
+			{
+				"hit",
+				8
+			},
+			{
+				"dodge",
+				4
+			}
+		},
+		effect_dialog = {}
+	},
+	[4104] = {
+		id = 4104,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				323
+			},
+			{
+				"antiaircraft",
+				15
+			},
+			{
+				"hit",
+				0
+			},
+			{
+				"dodge",
+				0
+			}
+		},
+		effect_dialog = {}
+	},
+	[4105] = {
+		id = 4105,
+		effect_desc = "",
+		effect_attr = {
+			{
+				"durability",
+				386
+			},
+			{
+				"antiaircraft",
+				18
+			},
+			{
+				"hit",
+				13
+			},
+			{
+				"dodge",
+				6
+			}
+		},
+		effect_dialog = {}
+	},
 	all = {
 		101,
 		102,
@@ -4800,6 +4915,11 @@ pg.ship_meta_repair_effect = {
 		4002,
 		4003,
 		4004,
-		4005
+		4005,
+		4101,
+		4102,
+		4103,
+		4104,
+		4105
 	}
 }

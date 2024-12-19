@@ -9,7 +9,7 @@ return {
 			bgm = "theme-starsea-core",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「星海」基地-实验层-「长蛇座」-联合行动组办公室",
+			say = "「星海」基地-實驗層-「長蛇座」-聯合行動小組辦公室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一行人推门进入办公室后，自动感应电灯随即点亮了这间干脆能当做会议室使用的宽阔房间。",
+			say = "一行人推門進入辦公室後，自動感應電燈隨即點亮了這間乾脆能當做會議室使用的寬闊房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,12 +46,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "两位随便坐吧，不用客气。",
+			say = "兩位隨便坐吧，不用客氣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,12 +65,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……没想到咱们来得还挺早，其他人都还没到呢？",
+			say = "呼……沒想到我們來得還蠻早的，其他人都還沒到呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,12 +84,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……其实你是最晚的。在成功抓到你之前，我已经给其他部门的人分配好各自的任务了。",
+			say = "不……其實妳是最晚的。在成功抓到妳之前，我已經分配給其他部門的人各自的任務了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -102,31 +102,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "叫你来主要是为了当面向你说明一下本次打捞行动的任务内容。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
-			dir = 1,
-			actor = 104010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "——这很重要，所以不要走神。",
+			say = "叫妳來主要是為了當面向妳說明一下這次打撈行動的任務內容。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -140,12 +121,31 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "深海資料解析局",
+			dir = 1,
+			actor = 104010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "——這很重要，所以不要分心。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……？等等……我还以为你叫我来是为了例会的事呢……",
+			say = "咦……？等等……我以為妳叫我來是為了例會的事呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,12 +169,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打捞任务的话，你自己的部门不是可以全权处理么？我也不懂相关的技术，帮不上忙呀……",
+			say = "打撈任務的話，妳自己的部門不是可以全權處理嗎？我也不懂相關的技術，幫不上忙呀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -188,12 +188,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为现在……实在人手不足。而且本次行动……或许会遭遇“战斗”。",
+			say = "因為現在……實在人手不足。而且本次行動……或許會遭遇「戰鬥」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,12 +206,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于打捞本身，交给松鲷就好。她已经完成过很多次打捞任务了，能力出色。",
+			say = "至於打撈本身，交給松鯛就好。她已經完成過很多次打撈任務了，能力出色。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -224,12 +224,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你和路易斯维尔只需要在她进行打捞时保护她的安全就好。",
+			say = "妳和路易斯維爾只需要在她進行打撈時保護她的安全就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,12 +243,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来是业务对口的保镖任务啊~那就没问题了，放心交给美少女关岛吧！",
+			say = "原來是業務專業的保鑣任務啊~那就沒問題了，放心交給美少女關島吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -261,12 +261,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "任务目标的时间和地点呢？",
+			say = "那任務目標的時間和地點呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,12 +279,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "珊瑚海，发生海战的那一天。",
+			say = "珊瑚海，海戰發生的那一天。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,12 +297,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我要再调查一次那片战场。",
+			say = "……我要再調查一次那片戰場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -316,12 +316,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通过总结此前历次失败的经验教训，我已经制定了一份全新的打捞计划，这次一定能成功。",
+			say = "透過總結先前歷次失敗的經驗教訓，我已經制定了一份全新的打撈計劃，這次一定能成功。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -335,12 +335,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "打捞行动，代号「逐光」……",
+			say = "打撈行動，代號「逐光」……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "关岛仔细查看着星座递来的打捞计划书，表情逐渐凝重起来。",
+			say = "關島仔細查看著星座遞來的打撈計畫書，表情逐漸凝重起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,12 +364,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这次的打捞区域，是在此前的历次模拟中都被划为禁区，严禁进入的区域吧。",
+			say = "……這次的打撈區域，是在先前的歷次模擬中都被劃為禁區，嚴禁進入的區域吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,12 +383,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样的行动不会违反禁令么？",
+			say = "這樣的行動不會違反禁令嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,12 +401,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心，萨拉托加已经拿到了本次行动所需的全部许可，行动不会有任何阻碍的。",
+			say = "放心，薩拉托加已經拿到了本次行動所需的全部許可，行動不會有任何阻礙的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -419,7 +419,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
@@ -437,12 +437,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……还有顾虑？",
+			say = "……還有顧慮？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -456,12 +456,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……好嘛好嘛~本美少女替你跑一趟就是了~",
+			say = "欸……好嘛好嘛~本美少女替妳跑一趟就是了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,12 +474,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……谢了。",
+			say = "……謝了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -493,12 +493,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么圣哈辛托，关岛和路易斯维尔就拜托你了。你带她们与松鲷汇合，然后执行打捞程序吧。",
+			say = "那麼聖哈辛托，關島和路易斯維爾就拜託了妳。妳帶她們與松鯛匯合，然後執行打撈程序吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -511,12 +511,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，两位请随我来~",
+			say = "遵命，兩位請隨我來~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -532,7 +532,7 @@ return {
 			bgm = "story-richang-11",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「星海」基地-实验层-「长蛇座」-打捞行动出发区",
+			say = "「星海」基地-實驗層-「長蛇座」-打撈行動出發區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "虽然被称为打捞行动出发区，不过，任何与“打捞”这个字眼相关的设备，都没有出现在众人眼中。",
+			say = "雖然被稱為打撈行動出發區，不過，任何與「打撈」這個字眼相關的設備，都沒有出現在眾人眼中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "能够搭乘的，可以称之为“交通工具”的事物，更是全然没有。",
+			say = "能夠搭乘的，可以稱之為「交通工具」的事物，更是全然沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "取而代之的，就是一个如同门的巨型设备——作为实验室中最与众不同的东西，这扇“门”自然也吸引了全部的目光。",
+			say = "取而代之的，就是一個如同門的巨型設備——作為實驗室中最與眾不同的東西，這扇「門」自然也吸引了全部的目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,12 +592,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……那扇门……难道是你们深海数据解析局进入模拟世界的专用设备？！",
+			say = "……那扇門……難道是妳們深海資料解析局進入模擬世界的專用設備？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -611,12 +611,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来你们一直是通过这个设备进行实验的，怪不得在银河之心那里从来没遇到过你们！",
+			say = "原來妳們一直是透過這個設備進行實驗的，怪不得在銀河之心那裡從來沒遇見過妳們！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,12 +629,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，毕竟我们进入模拟世界的需求，比其他部门要多得多嘛。",
+			say = "呵呵，畢竟我們進入模擬世界的需求，比其他部門多得多。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -648,12 +648,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除了我们局之外，类似的设备在星海之中还有几台。",
+			say = "除了我們局之外，類似的設備在星海之中還有幾台。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -666,12 +666,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "每一台机器的设计思路都不同，大概算是技术的并行化研究？",
+			say = "每一台機器的設計想法都不同，大概算是技術的平行化研究？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -684,12 +684,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，正好介绍一下。我旁边的这位是松鲷。",
+			say = "對了，剛好介紹一下。我旁邊的這位是松鯛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -703,12 +703,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "松鲷，这两位是战术行动局的关岛和装备设计局的路易斯维尔。",
+			say = "松鯛，這兩位是戰術行動局的關島和裝備設計局的路易斯維爾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -721,12 +721,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家好！我是松鲷，隶属于深海数据解析局的打捞员！接下来的行动请多指教！",
+			say = "大家好！我是松鯛，隸屬於深海資料解析局的打撈員！接下來的行動請多指教！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,12 +739,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "关岛姐姐，你的星海vlog都拍得十分有趣，我、我是你的粉丝！",
+			say = "關島姐姐，妳的星海vlog都拍得十分有趣，我、我是妳的粉絲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -758,12 +758,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请问……在行动结束之后……能、能给我一份签名么！",
+			say = "請問……在行動結束之後……能、能給我一份簽名嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -777,12 +777,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦~没想到在这里遇到粉丝了！No Problem~等回来之后一定给你签一张又大又漂亮的☆~",
+			say = "哇~沒想到在這裡遇到粉絲了！No Problem~等回來之後一定會幫妳簽一張又大又漂亮的☆~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -796,12 +796,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "非、非常感谢！",
+			say = "非、非常感謝！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -815,12 +815,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是个可爱的孩子……要吃饼干么？",
+			say = "真是個可愛的孩子……要吃餅乾嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -834,7 +834,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
@@ -862,12 +862,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吃……但是，我可不是小动物哦。",
+			say = "吃……但是，我可不是小動物哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,12 +881,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……非常抱歉，我一不小心走神了。我们还是专注于任务吧……",
+			say = "啊……非常抱歉，我一不小心恍神了。我們還是專注於任務吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -900,12 +900,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这个属性难道说……迷糊？电波？",
+			say = "……這個屬性難道說……迷糊？電波？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -918,12 +918,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_503",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼呼呼……感觉以后能合作出些有趣的节目了。",
+			say = "呼呼呼……感覺以後能合作出些有趣的節目了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
-			say = "一串仅有圣哈辛托本人才能理解的复杂指令，被键入到了控制台中。",
+			say = "一串只有聖哈辛托本人才能理解的複雜指令，被鍵入到了控制台中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -949,7 +949,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
-			say = "圆形的门框震动起来，发出了轻微的嗡鸣声。",
+			say = "圓形的門框震動起來，發出了輕微的嗡鳴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +960,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
-			say = "几秒钟后，震动也消失了，只剩下控制面板规律的嘀嗒声。",
+			say = "幾秒鐘後，震動也消失了，只剩下控制面板規律的嘀嗒聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,21 +971,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg2",
 			hidePaintObj = true,
-			say = "一道轻柔的光幕从门框中飘荡出来，形成了一道明亮但温和的光之门。",
+			say = "一道輕柔的光幕從門框中飄蕩出來，形成了一道明亮但溫和的光之門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "路易斯维尔",
+			actorName = "路易斯維爾",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好像科幻电影中会出现的场景一样……",
+			say = "好像科幻電影中會出現的場景一樣…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -996,14 +996,14 @@ return {
 			}
 		},
 		{
-			actorName = "路易斯维尔",
+			actorName = "路易斯維爾",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我再确认一下……我们其实是要进入模拟世界，不是要穿越时空……对吧？",
+			say = "我再確認一下……我們其實是要進入模擬世界，不是要穿越時空……對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1017,12 +1017,12 @@ return {
 			portrait = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
-			actorName = "关岛",
+			actorName = "關島",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错哦。我感觉之所以做成这个外形，可能只是设计者觉得比较酷罢了。",
+			say = "沒錯哦。我感覺之所以做成這個外形，可能只是設計者覺得比較酷罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1036,13 +1036,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			portrait = 118020,
-			actorName = "关岛",
+			actorName = "關島",
 			hidePaintObj = true,
-			say = "毕竟长得不够酷的东西，怎么能让使用者相信它的强大呢~",
+			say = "畢竟長得不夠酷的東西，怎麼能讓使用者相信它的強大呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1053,14 +1053,14 @@ return {
 			}
 		},
 		{
-			actorName = "路易斯维尔",
+			actorName = "路易斯維爾",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有道理……可是从模拟世界里，要怎么把东西“打捞”出来呢？",
+			say = "有道理……可是從模擬世界裡，怎麼把東西「打撈」出來呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1074,12 +1074,12 @@ return {
 			portrait = 118020,
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
-			actorName = "关岛",
+			actorName = "關島",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……这个涉及到诸多专业知识……",
+			say = "呃……這牽涉到許多專業知識……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1093,11 +1093,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			portrait = 118020,
-			actorName = "关岛",
+			actorName = "關島",
 			hidePaintObj = true,
 			say = "本美少女不知道哦，欸嘿☆~",
 			painting = {
@@ -1110,14 +1110,14 @@ return {
 			}
 		},
 		{
-			actorName = "松鲷",
+			actorName = "松鯛",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噗嗤……两位姐姐都是第一次参加打捞行动对吧。",
+			say = "噗嗤……兩位姊姊都是第一次參加打撈行動對吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1128,14 +1128,14 @@ return {
 			}
 		},
 		{
-			actorName = "松鲷",
+			actorName = "松鯛",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心，打捞的事包在我身上就好！",
+			say = "不用擔心，打撈的事包在我身上就好！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1146,10 +1146,10 @@ return {
 			}
 		},
 		{
-			actorName = "路易斯维尔",
+			actorName = "路易斯維爾",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -1164,14 +1164,14 @@ return {
 			}
 		},
 		{
-			actorName = "松鲷",
+			actorName = "松鯛",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也……也没有啦……嘿嘿。",
+			say = "也……也沒有啦……嘿嘿。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1182,14 +1182,14 @@ return {
 			}
 		},
 		{
-			actorName = "圣哈辛托",
+			actorName = "聖哈辛托",
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "深海数据解析局",
+			factiontag = "深海資料解析局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "各位如果已经准备完毕的话，我们就出发吧？",
+			say = "各位如果已經準備好的話，我們就出發吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1203,13 +1203,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg2",
-			factiontag = "战术行动局",
+			factiontag = "戰術行動局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			portrait = 118020,
-			actorName = "关岛",
+			actorName = "關島",
 			hidePaintObj = true,
-			say = "没问题，出发~！",
+			say = "沒問題，出發~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

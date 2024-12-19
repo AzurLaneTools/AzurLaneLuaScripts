@@ -302,6 +302,12 @@ pg.expedition_data_by_map = setmetatable({
 		1770002,
 		1770003,
 		1770004,
+		1780001,
+		1780002,
+		1780011,
+		1780012,
+		1780025,
+		1780026,
 		1790001,
 		1790002,
 		1790011,
@@ -16006,6 +16012,421 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 1770002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1780001] = {
+		map = 1780001,
+		name = "星海逐光·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-ucnf-image",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XINGHAIZHUGUANG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1780002",
+		default_background = "",
+		on_activity = 5131,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1780002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1780011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1780001,
+					"map_1700003",
+					"effect_1700003",
+					"bgm_theme-aostelab"
+				}
+			},
+			{
+				2,
+				{
+					1780002,
+					"map_1780001",
+					"effect_1780001",
+					"bgm_battle-pacific"
+				}
+			},
+			{
+				1,
+				{
+					1780003,
+					"map_1700002_zhuanzhi"
+				}
+			},
+			{
+				2,
+				{
+					1780003,
+					"bgm_theme-threat-typeV"
+				}
+			}
+		}
+	},
+	[1780002] = {
+		map = 1780002,
+		name = "星海逐光·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-ucnf-beacon",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XINGHAIZHUGUANG17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1780003",
+		default_background = "",
+		on_activity = 5131,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1780003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1780012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1780006,
+					"map_1700003_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1780011] = {
+		map = 1780011,
+		name = "星海逐光·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-ucnf-image",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XINGHAIZHUGUANG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1780002",
+		default_background = "",
+		on_activity = 5131,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1780002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1780001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1780021,
+					"map_1700003",
+					"effect_1700003",
+					"bgm_theme-aostelab"
+				}
+			},
+			{
+				2,
+				{
+					1780022,
+					"map_1780001",
+					"effect_1780001",
+					"bgm_battle-pacific"
+				}
+			},
+			{
+				1,
+				{
+					1780023,
+					"map_1700002_zhuanzhi"
+				}
+			},
+			{
+				2,
+				{
+					1780023,
+					"bgm_theme-threat-typeV"
+				}
+			}
+		}
+	},
+	[1780012] = {
+		map = 1780012,
+		name = "星海逐光·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-ucnf-beacon",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XINGHAIZHUGUANG17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1780003",
+		default_background = "",
+		on_activity = 5131,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1780003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1780002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					1780026,
+					"map_1700003_zhuanzhi"
+				}
+			}
+		}
+	},
+	[1780025] = {
+		map = 1780025,
+		name = "星海逐光·SP|| ||CHAPTER EX||E.X.",
+		bgm = "battle-boss-ucnf",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1780004",
+		default_background = "",
+		on_activity = 5131,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1780004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1780012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1780001,
+					"map_1700003",
+					"effect_1700003",
+					"bgm_theme-aostelab"
+				}
+			},
+			{
+				2,
+				{
+					1780002,
+					"map_1780001",
+					"effect_1780001",
+					"bgm_battle-pacific"
+				}
+			},
+			{
+				1,
+				{
+					1780003,
+					"map_1700002_zhuanzhi"
+				}
+			},
+			{
+				2,
+				{
+					1780003,
+					"bgm_theme-threat-typeV"
+				}
+			}
+		}
+	},
+	[1780026] = {
+		map = 1780026,
+		name = "星海逐光·EX|| ||CHAPTER EX||E.X.",
+		bgm = "theme-ucnf-flagship",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1780005",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 5131,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1780005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1780012,
 		clouds_pos = {
 			{
 				332,

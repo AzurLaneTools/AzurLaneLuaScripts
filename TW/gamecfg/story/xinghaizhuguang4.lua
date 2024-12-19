@@ -10,27 +10,27 @@ return {
 			bgm = "theme-ucnf-image",
 			sequence = {
 				{
-					"—第1180次通信联络。",
+					"—第1180次通訊聯絡。",
 					1.5
 				},
 				{
-					"—无回应。",
+					"—無回應。",
 					3
 				},
 				{
-					"—快三个月了啊。",
+					"—快三個月了啊。",
 					4.5
 				},
 				{
-					"—无需担心，我们的储备消耗还不足3%。",
+					"—無需擔心，我們的儲備消耗還不足3%。",
 					6
 				},
 				{
-					"—嗯……情况还不算太糟。",
+					"—嗯……情況還不算太糟。",
 					7.5
 				},
 				{
-					"—只要坚持下去…",
+					"—只要堅持下去……",
 					9
 				},
 				{
@@ -45,7 +45,7 @@ return {
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
 			bgm = "theme-aostelab",
-			say = "模拟世界「未来NY」-测试海域",
+			say = "模擬世界「未來NY」-測試海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "视觉回归后，一个色彩斑斓的世界出现在众人眼前。",
+			say = "視覺回歸後，一個色彩繽紛的世界出現在眾人眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,12 +66,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就是……未来的世界？",
+			say = "這就是……未來的世界？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -84,13 +84,13 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			bgName = "bg_zhedie_2",
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太……太神奇了，我们来到了……未来？！",
+			say = "太……太神奇了，我們來到了……未來？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,12 +114,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冷静一点，普林斯顿，我们依旧在星海之中，还记得我之前提到的么，就像逼真的电影布景一样。",
+			say = "冷靜一點，普林斯頓，我們依舊在星海之中，還記得我之前提到的麼，就像逼真的電影佈景一樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,12 +132,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（逼真的电影布景……逼真的电影布景……）",
+			say = "（逼真的電影佈景……逼真的電影佈景……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,12 +150,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（呜啊……不愧是星海基地！看来外界传闻的，领先三十年科技还是保守了……）",
+			say = "（嗚啊……不愧是星海基地！看來外界傳聞的，領先三十年科技還是保守了……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -168,11 +168,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "……拉菲感觉，变强了……这是什么装备？",
+			say = "……拉菲感覺，變強了……這是什麼裝備？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -186,12 +186,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……咦？拉菲你的舰装……已经变得和进来之前完全不一样了？！",
+			say = "……咦？拉菲妳的艦裝……已經變得跟進來之前完全不一樣了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -204,12 +204,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这身装备是……II型舰装？这就是领航员小姐之前提到的新型测试方案？",
+			say = "這套裝備是……II型艦裝？這就是領航員小姐之前提到的新型測試方案？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,13 +223,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "肯定。现状：模拟世界构建，一切正常。II型舰装数据覆写，一切顺利。",
+			say = "肯定。現況：模擬世界構建，一切正常。II型艦裝資料覆寫，一切順利。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,13 +243,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "播放：诸位，欢迎来到本日的模拟世界NY~☆。录制人：关岛。",
+			say = "播放：諸位，歡迎來到本日的模擬世界NY~☆。錄音人：關島。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,12 +263,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈……所以舰装数据覆写是？",
+			say = "啊哈哈……所以艦裝資料覆寫是？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,12 +281,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个问题我来回答吧。",
+			say = "這個問題我來回答吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,49 +299,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为II型舰装制造消耗资源巨大，建造周期也很长。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
-			dir = 1,
-			actor = 103260,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "此前的诸多失败迫使研发部门开始尝试一种新型的测试方式——覆写模拟测试。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
-			dir = 1,
-			actor = 103260,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "其原理为在银河之心生成的模拟世界中，直接将II型舰装数据覆写在参加模拟的舰船资料之上。",
+			say = "因為II型艦裝製造消耗資源龐大，建造週期也很長。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,12 +318,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为拉菲的II型舰装资料是目前我们手中最接近理论成功的方案，所以才会将拉菲小姐调动来星海基地协助测试。",
+			say = "先前的許多失敗迫使研發部門開始嘗試一種新型的測試方式——覆寫模擬測試。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -373,12 +336,49 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请放心，实验中的覆写只是一种数据计算层面上的操作，模拟出的II型舰装并没有与心智魔方实际相连。",
+			say = "其原理為在銀河之心生成的模擬世界中，直接將II型艦裝資料覆寫在參與模擬的船艦資料之上。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_zhedie_2",
+			factiontag = "裝備設計局",
+			dir = 1,
+			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "因為拉菲的II型艦裝資料是目前我們手中最接近理論成功的方案，所以才會將拉菲小姐調動來星海基地協助測試。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_zhedie_2",
+			factiontag = "裝備設計局",
+			dir = 1,
+			actor = 103260,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "請放心，實驗中的覆寫只是一種數據計算層面上的操作，模擬出的II型艦裝並沒有與心智魔方實際相連。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -392,12 +392,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无论在任何情况下，都不会对拉菲的身体产生实际的负面影响。",
+			say = "無論在任何情況下，都不會對拉菲的身體產生實際的負面影響。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,12 +410,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（能进行这种精度的模拟，说明舰装本身的资料也已经相当完善，可以随时投入生产了吧……星海的研发速度，真厉害！）",
+			say = "（能進行這種精確度的模擬，說明艦裝本身的資料也已經相當完善，可以隨時投入生產了吧……星海的研發速度，真厲害！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
@@ -447,11 +447,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "不过……力量变强了……可以更好地战斗了。",
+			say = "不過……力量變強了……可以更好地戰鬥了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,11 +464,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "TB，什么时候开始战斗？",
+			say = "TB，什麼時候開始戰鬥？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -482,13 +482,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请稍后，正在生成模拟敌人数据——",
+			say = "請稍後，正在產生模擬敵人數據——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -503,7 +503,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_zhedie_2",
-			say = "随着TB的指令，一支舰队凭空出现在了远方的海平线上。",
+			say = "隨著TB的指令，一隻艦隊憑空出現在了遠方的海平線上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhedie_2",
 			hidePaintObj = true,
-			say = "舰队之中的每一艘船，都有着普林斯顿从未见过的前卫外观。",
+			say = "艦隊之中的每一艘船，都有普林斯頓從未見過的前衛外觀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,12 +541,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从未见过的军舰……与从未见过的武器…这些难道就是未来的舰队么？！",
+			say = "從未見過的軍艦……與從未見過的武器……這些難道就是未來的艦隊嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,12 +569,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从外表上来说没错，这批舰队也是从之前由指挥官回收到的数据中复现的。",
+			say = "從外表來說沒錯，這批艦隊也是從先前由指揮官回收的資料中復現的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -588,12 +588,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遗憾的是，我们从那些数据中只复原出了这支舰队的外观数据，舰队编制，作战战术以及其应该能够达到的战斗能力。",
+			say = "遺憾的是，我們從那些數據中只復原出了這隻艦隊的外觀數據，艦隊編制，作戰戰術以及其應該能夠達到的戰鬥能力。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -606,12 +606,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除此之外的细节……嗯，只能说完全没有，更别说制造出来了。",
+			say = "除此之外的細節……嗯，只能說完全沒有，更別說製造出來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,11 +625,11 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "……有点像游戏？",
+			say = "……有點像遊戲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -643,12 +643,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 103260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，是很像。",
+			say = "沒錯，是很像。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -661,12 +661,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……",
+			say = "原來如此……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,12 +680,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那支舰队里最为巨大的，就是舰队旗舰么？",
+			say = "那隻艦隊裡最巨大的，就是艦隊旗艦嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -699,13 +699,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "肯定。OFS舰队旗舰，深水情报舰「厄庇墨透斯」。",
+			say = "肯定。OFS艦隊旗艦，深水情報艦「艾比米修斯」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -719,13 +719,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "备注：已根据对比实力，进行平衡处理。",
+			say = "備註：已根據對比實力，進行平衡處理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,13 +739,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "强调：请确保遵守测试守则。",
+			say = "強調：請確保遵守測試守則。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -759,13 +759,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "模拟战将在一分钟后正式开始——",
+			say = "模擬戰將在一分鐘後正式開始——",
 			painting = {
 				alpha = 0.3,
 				time = 1

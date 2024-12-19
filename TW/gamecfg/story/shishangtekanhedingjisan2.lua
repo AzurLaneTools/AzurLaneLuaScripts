@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：合订集[3]\n\n<size=45>微醺胜负</size>",
+					"港區時尚特刊：淺斟低酌\n\n<size=45>2 微醺勝負</size>",
 					1
 				}
 			}
@@ -16,12 +16,12 @@ return {
 		{
 			portrait = 499091,
 			side = 2,
-			actorName = "{namecode:521:兴登堡}",
+			actorName = "興登堡",
 			dir = 1,
 			blackBg = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦呀~契约者终于醒了呢。",
+			say = "喔呀~契約者終於醒了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -37,7 +37,7 @@ return {
 			bgm = "story-richang-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "熟悉的声音在耳边响起，睁开眼看到的却不是熟悉的场景。",
+			say = "熟悉的聲音在耳邊響起，睜開眼看到的卻不是熟悉的場景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔……这里是……？",
+			say = "嗯……這裡是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = "touch",
 			hidePaintObj = true,
-			say = "陌生的房间中，只看得到昏暗的灯光、散乱的纸牌、复古的装饰，还有——",
+			say = "在陌生的房間中，只看得到昏暗的燈光、散亂的紙牌、復古的裝飾，還有——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "半躺在沙发上，穿着侍者制服一脸笑意的{namecode:521:兴登堡}。",
+			say = "半躺在沙發上，穿著侍者制服一臉笑意的興登堡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看契约者这副懵懂的样子……呵呵~不记得了吗？我们之间可还没有分出胜负呢~",
+			say = "看契約者這副懵懂的樣子……呵呵~不記得了嗎？我們之間可還沒有分出勝負呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -119,7 +119,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "胜负？",
+			say = "勝負？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "没错哟~",
+			say = "沒錯喲~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "想要离开此处，唯有在恶魔的试炼中取胜才行呢。",
+			say = "想要離開此處，唯有在惡魔的試煉中取勝才行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -167,7 +167,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（脑海中一片空白，依旧什么都没能回忆起来……）",
+			say = "（腦海中一片空白，依舊什麼都沒能回想起來……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过既然{namecode:521:兴登堡}这么说……那就……应该是有这么一回事？）",
+			say = "（不過既然興登堡這麼說……那就……應該是有這麼一回事？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "呵呵~虽然我也不介意中场休息的时间再延长一些……",
+			say = "呵呵~雖然我也不介意中場休息的時間再延長一些……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -211,7 +211,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不，应该说——",
+			say = "不，應該說——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我倒是想将你囚禁于此，好让契约者只被我支配。成为……独属于我的珍宝。",
+			say = "我倒是想將你囚禁於此，好讓契約者只被我支配。成為……獨屬於我的珍寶。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -247,7 +247,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "呵呵~契约者无需惶恐。",
+			say = "呵呵~契約者無需惶恐。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -265,7 +265,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "胜负未分，我是不会对你做什么的。",
+			say = "勝負未分，我是不會對你做什麼的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -283,7 +283,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "但是~如果你输了的话……那可就不好说了哟~契约者，准备好了吗？",
+			say = "但是~如果你輸了的話……那可就不好說了喲~契約者，準備好了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,11 +294,11 @@ return {
 			},
 			options = {
 				{
-					content = "开、开始吧。",
+					content = "開、開始吧。",
 					flag = 1
 				},
 				{
-					content = "我一定会赢！",
+					content = "我一定會贏！",
 					flag = 2
 				}
 			}
@@ -311,7 +311,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "呵呵~有自信是好事，希望一会儿的你还能这么自信。",
+			say = "呵呵~有自信是好事，希望等一下的你還能這麼自信。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -329,7 +329,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "很遗憾，看起来今天的幸运女神并没有站在契约者的身边呢？",
+			say = "很遺憾，看起來今天的幸運女神並沒有站在契約者的身邊呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好奇怪？我明明算过，不应该啊……",
+			say = "好奇怪？我明明算過，不應該啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "手中的纸牌让局面陷入了两难的境地，之前算好的牌面究竟是哪里出现了偏差？",
+			say = "手中的紙牌讓局面陷入了兩難的境地，之前算好的牌面究竟是哪裡出現了偏差？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "看来契约者还在思考？罢了~多挣扎一会儿也无妨，这有助于你认清现实。",
+			say = "看來契約者還在思考？罷了~多掙扎一下也無妨，這有助於你認清現實。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -402,7 +402,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "{namecode:521:兴登堡}端着饮料惬意地靠在沙发上，像是一只慵懒的黑豹，正等待着她的猎物自投罗网。",
+			say = "興登堡拿著飲料愜意地靠在沙發上，像是一隻慵懶的黑豹，正等待著她的獵物自投網。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "而此时，随着她的动作，我所产生的困惑终于得到了解答！",
+			say = "而此時，隨著她的動作，我所產生的困惑終於得到了解答！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……原来是这样！）",
+			say = "（……原來是這樣！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "哦？契约者这是终于等不及……咦？",
+			say = "哦？契約者這是終於等不及……咦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
-			say = "将不小心卡在某处的纸牌——这场胜负的关键——拿了出来。",
+			say = "將不小心卡在某處的紙牌——這場勝負的關鍵——拿了出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸呀呀~这调皮的小家伙是什么时候跑进去的？",
+			say = "欸呀呀~這調皮的小傢伙是什麼時候跑進去的？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "现在看来，这场对局又要重新开始了呢。",
+			say = "現在看來，這場對局又要重新開始了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			actor = 499091,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "呵呵~你准备好了吗？亲爱的契约者~",
+			say = "呵呵~準備好了嗎？親愛的契約者~",
 			painting = {
 				alpha = 0.3,
 				time = 1

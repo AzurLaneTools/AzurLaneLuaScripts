@@ -9,7 +9,7 @@ return {
 			bgm = "theme-aostelab",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "模拟世界「未来NY」-测试海域",
+			say = "模擬世界「未來NY」-測試海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,13 +36,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再次宣读本次测试中的第四条禁令：禁止在模拟世界中与迪贝路进行任何形式的交谈，否则测试中断。",
+			say = "再次宣讀本次測試中的第四條禁令：禁止在模擬世界中與迪貝路進行任何形式的交談，否則測試中斷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,13 +56,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请再次确认。",
+			say = "請再次確認。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,12 +76,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明白，我们会严格遵守规定的。",
+			say = "明白，我們會嚴格遵守規定的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,13 +95,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhedie_2",
-			factiontag = "星海主机",
+			factiontag = "星海主機",
 			dir = 1,
 			paintingNoise = true,
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回复已确认：迪贝路数据已生成在指定区域，对抗测试即将开始。",
+			say = "回復已確認：迪貝路數據已生成在指定區域，對抗測試即將開始。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "远方，一台巨大的黑色机甲正在接近。",
+			say = "遠方，一台巨大的黑色機甲正在接近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "机甲的背部矗立着一个巨大的储存罐，其中存放的不明液态物质正散发着骇人的红色烟雾。",
+			say = "機甲的背部矗立著一個巨大的儲存罐，其中存放的不明液態物質正散發著駭人的紅色煙霧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "正面的装甲板则扭曲成了一副狰狞的图案，宛如一颗地狱骑士的头颅。",
+			say = "正面的裝甲板則扭曲成了一副猙獰的圖案，宛如一顆地獄騎士的頭顱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,55 +149,55 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
-			say = "而头颅之上，坐着一位娇小的少女。",
+			say = "而頭顱之上，坐著一位嬌小的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在正式开始测试前，请先允许我向各位介绍一下基本情况。",
+			say = "在正式開始測試前，請先允許我向各位介紹一下基本情況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我的名字叫迪贝路·XV，大家可以称呼我为迪贝路。",
+			say = "我的名字叫迪貝路·XV，大家可以稱呼我為迪貝路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然我是新一代的ANTI-X，不过我最擅长的是支援与协助，而不是攻坚与正面作战。",
+			say = "雖然我是新一代的ANTI-X，不過我最擅長的是支援與協助，而不是攻堅與正面作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以接下来的对抗测试，还请各位手下留情，点到为止了哦。",
+			say = "所以接下來的對抗測試，還請各位手下留情，點到為止了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,12 +207,12 @@ return {
 			portrait = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
-			actorName = "普林斯顿",
+			actorName = "普林斯頓",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……好有礼貌？！）",
+			say = "（……好有禮貌？！）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,13 +226,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			portrait = 107230,
-			actorName = "普林斯顿",
+			actorName = "普林斯頓",
 			hidePaintObj = true,
-			say = "（感觉……和印象中的塞壬差距好大……）",
+			say = "（感覺……和印象中的塞壬差距好大……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,24 +243,24 @@ return {
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……怎么都不说话？",
+			say = "嗯……怎麼都不說話？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有什么问题都可以问我哦？",
+			say = "有什麼問題都可以問我哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actorName = "拉菲II",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -285,12 +285,12 @@ return {
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来是沉默寡言的类型呢，那就让我们——",
+			say = "看來是沉默寡言的類型呢，那就讓我們——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			actorName = "拉菲II",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -366,12 +366,12 @@ return {
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "喂！我还没说演习开始，你怎么能偷袭呢！",
+			say = "喂！我還沒說演習開始，妳怎麼能偷襲呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,12 +381,12 @@ return {
 			portrait = 107230,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
-			actorName = "普林斯顿",
+			actorName = "普林斯頓",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（怎么感觉……好可爱。）",
+			say = "（怎麼感覺……好可愛。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,13 +400,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			portrait = 107230,
-			actorName = "普林斯顿",
+			actorName = "普林斯頓",
 			hidePaintObj = true,
-			say = "（这些真的是……TB按照仲裁机关的数据模拟出来的？）",
+			say = "（這些真的是……TB按照仲裁機關的數據模擬出來的？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			bgName = "bg_zhuguang_cg3",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			actorName = "拉菲II",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -486,12 +486,12 @@ return {
 			}
 		},
 		{
-			actorName = "迪贝路·XV",
+			actorName = "迪貝路·XV",
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔……！那就让我们全力一战吧！",
+			say = "唔……！那就讓我們全力一戰吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,11 +500,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhuguang_cg3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "正合我意……歼灭模式，启动——！",
+			say = "正合我意……殲滅模式，啟動——！",
 			painting = {
 				alpha = 0.3,
 				time = 1

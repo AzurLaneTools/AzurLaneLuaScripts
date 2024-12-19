@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：炫彩缤纷夜\n\n<size=45>营业前的意外邂逅</size>",
+					"港區時尚特刊：炫彩繽紛夜\n\n<size=45>3 營業前的意外邂逅</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			bgm = "bar-soft",
-			say = "主题店后台的道路错综复杂，只是一个不小心拐错了弯，就回不到原来的路上了。",
+			say = "主題店後台的道路錯綜複雜，只是一個不小心拐錯了彎，就回不到原來的路上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "一筹莫展之际，我听到了隔壁房间中传来的声音。",
+			say = "一籌莫展之際，我聽到了隔壁房間傳來的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？你怎么会在这里？",
+			say = "指揮官？你怎麼會在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "出现在眼前的是侍者打扮的克利夫兰，领结和外套都被她随意地挂在身上。",
+			say = "出現在眼前的是侍者打扮的克里夫蘭，領結和外套都被她隨意地掛在身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "房间里装饰着五彩又奇怪的灯，打开的电视机上正显示着“游戏暂停中”的字样。",
+			say = "房間裡裝飾著五彩又奇怪的燈，打開的電視機上正顯示著「遊戲暫停中」的字樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而克利夫兰的手中还拿着游戏手柄。——看来是偷偷躲在这里打游戏啊。",
+			say = "而克里夫蘭的手中還拿著遊戲手把。——看來是偷偷躲在這裡打遊戲啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,14 +124,14 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~难不成是迷路了？",
+			say = "啊~難不成是迷路了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "无奈地点头",
+					content = "無奈地點頭",
 					flag = 1
 				}
 			}
@@ -144,7 +144,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "哈哈哈~后台的走廊多得像迷宫一样，会迷路也正常啦。",
+			say = "哈哈哈~後台的走廊多得像迷宮一樣，會迷路也正常啦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯？问我这身衣服是怎么回事？",
+			say = "嗯？問我這套衣服是怎麼回事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "答案不是一目了然吗？今天我可是店里的侍者哟～",
+			say = "答案不是一目了然嗎？今天我可是店裡的侍者喲～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -198,7 +198,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "克利夫兰的秘密空间，欢迎你的到来～",
+			say = "克里夫蘭的秘密空間，歡迎你的到來～",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -216,7 +216,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我是您的专属侍者，需要为您介绍今日的特殊饮品单吗？",
+			say = "我是您的專屬侍者，需要為您介紹今日的特殊飲品單嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,7 +246,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "不想喝饮料？那……您需要其它服务吗？",
+			say = "不想喝飲料？那……您需要其它服務嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么样怎么样？是不是很有感觉？",
+			say = "怎麼樣怎麼樣？是不是很有感覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "什么感觉？",
+			say = "什麼感覺？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "当然是少女感啦！",
+			say = "當然是少女感啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,11 +321,11 @@ return {
 					flag = 1
 				},
 				{
-					content = "……没关系，我们下次努力。",
+					content = "……沒關係，我們下次再努力。",
 					flag = 2
 				},
 				{
-					content = "…………克爹你怎么了克爹！",
+					content = "…………克爹妳怎麼了克爹！",
 					flag = 3
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "什么啦！这次不行吗？",
+			say = "什麼啦！這次不行嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "真是的，难道真的一点少女感都没有么……",
+			say = "真是的，難道真的一點少女感都沒有嗎…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……虽然不是少女感，但是也很不错？",
+			say = "……雖然不是少女感，但也很不錯？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -412,7 +412,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "什么嘛……这种微妙的评价……",
+			say = "什麼嘛……這種微妙的評價……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -448,7 +448,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实这里是我的秘密小屋，趁着开店前过来休息一下。",
+			say = "其實這裡是我的秘密小屋，趁著開店前來休息。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -466,7 +466,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "忙里偷闲，玩会游戏。",
+			say = "忙裡偷閒，玩一下遊戲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "指挥官现在应该不忙吧？要不和我来一局？",
+			say = "指揮官現在應該不忙吧？要不跟我來一局？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "既然是因为迷路才到这里来的，那只要赢过我，我就送你出去，怎么样？",
+			say = "既然是因為迷路才到這裡來的，那只要贏過我，我就送你出去，怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -518,7 +518,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要是输了呢？",
+			say = "要是輸了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "哼哼，要是输了嘛——",
+			say = "哼哼，要是輸了嘛——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -550,7 +550,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那指挥官想回到前台就要费一番额外的功夫了哟~",
+			say = "那指揮官想回到前台就要費一番額外的功夫了喲~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -568,7 +568,7 @@ return {
 			actor = 102097,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "来一决胜负吧！",
+			say = "來一決勝負吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

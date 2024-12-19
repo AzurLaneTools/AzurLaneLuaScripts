@@ -10,7 +10,7 @@ return {
 			bgm = "theme-threat-typev",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰—————！",
+			say = "轟—————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,11 +75,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhuguang_3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "还好么，普林斯顿。",
+			say = "還好嗎，普林斯頓。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -93,11 +93,11 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_zhuguang_3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
-			say = "多谢掩护……！",
+			say = "多謝掩護……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,11 +110,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhuguang_3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 107230,
 			nameColor = "#A9F548FF",
-			say = "敌人实在太多了……而且凭空从身边出现，根本拉不开距离！",
+			say = "敵人實在太多了……而且憑空從身邊出現，根本拉不開距離！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,11 +128,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_zhuguang_3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "不用担心……拉菲现在……很强。",
+			say = "不用擔心……拉菲現在……很強。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,11 +145,11 @@ return {
 		{
 			side = 2,
 			bgName = "bg_zhuguang_3",
-			factiontag = "装备设计局",
+			factiontag = "裝備設計局",
 			dir = 1,
 			actor = 101510,
 			nameColor = "#A9F548FF",
-			say = "拉菲……来保护你。",
+			say = "拉菲……來保護妳。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11751,6 +11751,292 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101510] = {
+		name = "拉菲II",
+		ship_group = 10151,
+		desc = "艾倫·M·桑拿級驅逐艦—拉菲II，舷號DD-724",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 0,
+		prefab = "lafeiII",
+		painting = "lafeiII",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 0,
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = true,
+		skin_type = -1,
+		id = 101510,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 35,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.89,
+					1.061,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.96,
+					1.095,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.164,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.762,
+					1.145,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.274,
+							2.494,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-30,
+				-626,
+				0
+			},
+			{
+				0.7
+			}
+		},
+		special_effects = {
+			"lihui_lafeiII",
+			{
+				-73,
+				-18,
+				0
+			},
+			{
+				0.7
+			}
+		}
+	},
+	[101511] = {
+		name = "睡意滿滿忙碌DAY",
+		ship_group = 10151,
+		desc = "拉菲在店裡……幫忙……指揮官，隨意坐，只要是空位都可以吧，大概。",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 1,
+		prefab = "lafeiII_3",
+		painting = "lafeiII_3",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 16,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_drag_rate = "",
+		bg = "145",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 101511,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70937,
+		voice_actor = 35,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			70,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.674,
+					0.853,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.623,
+					0.879,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.069,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.615,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.023,
+							2.486,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			10151101,
+			10151102,
+			10151103,
+			10151104,
+			10151105,
+			10151106,
+			10151107,
+			10151108,
+			10151109,
+			10151110,
+			10151111,
+			10151112,
+			10151113,
+			10151114,
+			10151115,
+			10151116,
+			10151117,
+			10151118,
+			10151119,
+			10151120,
+			10151121,
+			10151122
+		}
+	},
 	[102010] = {
 		name = "奧馬哈",
 		ship_group = 10201,

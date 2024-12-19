@@ -75,6 +75,13 @@ pg.benefit_buff_template = setmetatable({
 		71,
 		72,
 		73,
+		74,
+		75,
+		76,
+		77,
+		78,
+		79,
+		80,
 		103,
 		110,
 		111,
@@ -1383,6 +1390,125 @@ pg.base.benefit_buff_template = {
 		id = 73,
 		type_priority = 0,
 		benefit_type = "dorm_energy"
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "{namecode:418}的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:418}的祈願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 74,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "{namecode:203}的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:203}的祈願——主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 75,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "可畏的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "可畏的祈願——後宅經驗加成提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 76,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "黎胥留的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "黎胥留的祈願——後宅經驗加成提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 77,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "塔什干的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "塔什干的祈願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 78,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "香格里拉的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "香格里拉的祈願——主線、困難、活動、作戰檔案關卡中，受到的傷害減少3%\n剩餘時間:$1",
+		benefit_effect = "520",
+		id = 79,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "{namecode:526}的祈願",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:526}的祈願－主線、困難、活動、作戰檔案關卡中，角色經驗獲取提高3%\n剩餘時間:$1",
+		benefit_effect = "3",
+		id = 80,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5142,
+			0
+		}
 	},
 	[103] = {
 		icon = "Props/newserver_skill",

@@ -5257,7 +5257,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2024.9.12-2024.12.19</color>期間限時開放「基洛夫·META」的挑戰，在此期間指揮官可挑戰「基洛夫META」累積其同步值取得<color=#92fc63>「基洛夫META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2024.9.12-2025.1.2</color>期間限時開放「基洛夫·META」的挑戰，在此期間指揮官可挑戰「基洛夫META」累積其同步值取得<color=#92fc63>「基洛夫META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標資料」取得與解析
@@ -5286,7 +5286,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標基洛夫·META挑戰的進行，從第31天開始，即2024.10.12~2024.12.19期間，艦隊挑戰「基洛夫·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標基洛夫·META開放的日期增加，火力支援提供的傷害也會增加。
+隨著信標基洛夫·META挑戰的進行，從第31天開始，即2024.10.12~2025.1.2期間，艦隊挑戰「基洛夫·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標基洛夫·META開放的日期增加，火力支援提供的傷害也會增加。
 ※此支援只會在指揮官自己發現的信標基洛夫·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
@@ -5645,6 +5645,11 @@ _G.pg.base.gametip.quota_shop_good_limit = {
 
 
 _G.pg.base.gametip.quota_shop_limit_error = {
+	tip = "該道具已經達到持有上限，無法兌換"
+}
+
+
+_G.pg.base.gametip.item_assigned_type_limit_error = {
 	tip = "該道具已經達到持有上限，無法兌換"
 }
 
@@ -11372,7 +11377,7 @@ _G.pg.base.gametip.ai_change_2 = {
 
 
 _G.pg.base.gametip.activity_shop_lable = {
-	tip = "*兌換開放時間:<color=#68F9D7>$1</color>"
+	tip = "*兌換開放時間:<color=#68F9D7>\n$1</color>"
 }
 
 
@@ -11952,7 +11957,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "菈菈·撒塔琳·戴比路克、娜娜·阿絲達·戴比路克、金色闇影等建造追加！"
+	tip = "每累計建造200次可獲得海上傳奇艦船 關島(最多4次)"
 }
 
 
@@ -26103,12 +26108,12 @@ _G.pg.base.gametip.mini_cookgametip = {
 		{
 			info = [[
 活動規則：
-1.<color=#92fc63>9月21日</color>為止每日0點開放<color=#92fc63>1</color>場新的遊戲，總計<color=#92fc63>7</color>場，可累計。完成遊戲可以獲得限定傢俱在內的豐富獎勵。
+1.<color=#92fc63>12月25日</color>為止每日0點開放<color=#92fc63>1</color>場新的遊戲，總計<color=#92fc63>7</color>場，可累計。完成遊戲可以獲得限定傢俱在內的豐富獎勵。
 
 遊戲規則：
-1.指揮官需要操控角色獲取對應甜點送給場中的黃雞裁判，上對甜點加1分，上錯扣1分，時間結束時分數高的一方獲勝
-2.甜點大作戰共計8位角色，指揮官可以選擇任意角色和隊友進行作戰
-3.時間歸零或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。 ]]
+1.指揮官需要操控角色取得對應甜品送給場中的啾啾裁判，上對甜品加分，上錯扣分，時間結束時分數高的一方獲勝
+2.甜品大作戰共計12位角色，指揮官可以選擇任意角色和隊友進行戰鬥
+3.時間歸零或點擊遊戲內退出按鈕均視為遊戲完成。因為其他原因中途退出遊戲則視為未完成。]]
 		}
 	}
 }
@@ -26151,6 +26156,36 @@ _G.pg.base.gametip.cook_game_noshiro = {
 
 _G.pg.base.gametip.cook_game_pnelope = {
 	tip = "每成功上兩個甜點額外加1分"
+}
+
+
+_G.pg.base.gametip.cook_game_laffey = {
+	tip = "上對甜品後，下一次上對甜品分數+1"
+}
+
+
+_G.pg.base.gametip.cook_game_janus = {
+	tip = "上對分數隨機增加，上錯分數隨機減少"
+}
+
+
+_G.pg.base.gametip.cook_game_flandre = {
+	tip = "擁有一名女僕啾助者"
+}
+
+
+_G.pg.base.gametip.cook_game_constellation = {
+	tip = "上對甜品有機率讓評審進入<color=#FFE555>【特殊狀態】</color>"
+}
+
+
+_G.pg.base.gametip.cook_game_constellation_skill_name = {
+	tip = "<color=#FFE555>「希望占卜狀態」</color>"
+}
+
+
+_G.pg.base.gametip.cook_game_constellation_skill_desc = {
+	tip = "使評審拒絕對方陣營的甜品，同時我方成員給該狀態的黃雞評審上任何甜品會獲得雙倍分數，持續7秒"
 }
 
 
@@ -31952,6 +31987,36 @@ _G.pg.base.gametip.rect_ship_card_tpl_add = {
 }
 
 
+_G.pg.base.gametip.newyear2024_backhill_help = {
+	tip = {
+		{
+			info = [[
+活動時間：<color=#92fc63>2024.12.19-2025.1.2維護</color>
+活動簡介：
+「甜品大作戰II」：參與小遊戲取得限定傢俱「炫彩聚光燈」、「喧囂驚喜燈」等獎勵
+「繪馬祈願」：參與繪馬祈願獲取獎勵「年賀狀」
+「換裝商店」：購買限時換裝
+「限時建造」：建造限時角色]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.last_times_sign = {
+	tip = "剩餘簽到次數：$1"
+}
+
+
+_G.pg.base.gametip.skin_page_sign = {
+	tip = "點選簽到"
+}
+
+
+_G.pg.base.gametip.skin_page_desc = {
+	tip = "活動期間，每日解鎖$1次簽到機會\n完成簽到可以獲取限時獎勵並解鎖限定劇情"
+}
+
+
 _G.pg.base.gametip.live2d_reset_desc = {
 	tip = "Live2D狀態已重置"
 }
@@ -34344,4 +34409,34 @@ _G.pg.base.gametip.notify_clock_tip = {
 
 _G.pg.base.gametip.notify_clock_button = {
 	tip = "开启闹钟权限"
+}
+
+
+_G.pg.base.gametip.TW_build_chase_tip = {
+	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>星海逐光</color>關卡，可獲得單建券獎勵"
+}
+
+
+_G.pg.base.gametip.TW_build_chase_phase = {
+	tip = "$1/12"
+}
+
+
+_G.pg.base.gametip.TW_build_chase_time = {
+	tip = "獎勵領取時間截止至2025.1.2維護"
+}
+
+
+_G.pg.base.gametip.ship_task_lottery_title = {
+	tip = "星海逐光活動期間累積通關「星海逐光」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+}
+
+
+_G.pg.base.gametip.activity_shop_template_normaltext = {
+	tip = "活動常規道具兌換"
+}
+
+
+_G.pg.base.gametip.activity_shop_template_extratext = {
+	tip = "活動追趕道具兌換"
 }

@@ -3849,6 +3849,38 @@ pg.backyard_theme_template = {
 			305306
 		}
 	},
+	[106] = {
+		Cfg_1 = 5,
+		name = "港区喧嚣夜",
+		desc = "灯光！音乐！一起彻夜狂欢吧~",
+		deblocking = 1,
+		new = 0,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 107,
+		id = 106,
+		icon = "yydthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			306001,
+			306002,
+			306101,
+			306102,
+			306103,
+			306104,
+			306105,
+			306106,
+			306107,
+			306108,
+			306110,
+			306111,
+			306112,
+			306114
+		}
+	},
 	[108] = {
 		Cfg_1 = 5,
 		name = "怪盜謎題",
@@ -4161,6 +4193,7 @@ pg.backyard_theme_template = {
 		103,
 		104,
 		105,
+		106,
 		108,
 		109,
 		110,

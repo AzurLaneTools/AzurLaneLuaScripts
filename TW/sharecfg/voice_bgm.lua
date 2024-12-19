@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-richang-light",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	},

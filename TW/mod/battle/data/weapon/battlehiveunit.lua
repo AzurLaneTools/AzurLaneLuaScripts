@@ -119,6 +119,11 @@ end
 
 slot3.SpwanAircraft = function(slot0, slot1)
 	slot2 = slot0._dataProxy:CreateAircraft(slot0._host, slot0._tmpData.id, slot0:GetPotential(), slot0._skinID)
+
+	if slot0:GetStandHost() then
+		slot2:SetAttr(slot0:GetStandHost())
+	end
+
 	slot4 = math.deg2Rad * (slot0:GetBaseAngle() + slot1)
 
 	slot0:TriggerBuffWhenSpawnAircraft(slot2)

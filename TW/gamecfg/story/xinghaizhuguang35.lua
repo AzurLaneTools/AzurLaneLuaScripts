@@ -9,7 +9,7 @@ return {
 			bgm = "battle-deepecho",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "北方联合·某处设施",
+			say = "北方聯合·某處設施",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此刻，{namecode:529:苏维埃同盟}正躺在大厅中央的某个机械装置中。",
+			say = "此刻，蘇維埃聯盟正躺在大廳中央的某個機械裝置中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她舰装上的龙头已经被取下，其余部分也进行了最大限度的拆除。",
+			say = "她艦裝上的龍頭已經被取下，其餘部分也進行了最大限度的拆除。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintEquip = true,
 			nameColor = "#A9F548FF",
-			say = "灵敏，契卡洛夫，检查结果如何？",
+			say = "靈敏，契卡洛夫，檢查結果如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 799010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……结论依旧是，存在损坏，原因不明。",
+			say = "……結論依舊是，有損壞，原因不明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是奇怪……我原本以为这次舰装升级一定能成功呢。",
+			say = "真是奇怪……我原本以為這次艦裝升級一定能成功。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟之前经过那么多次测试都没问题……",
+			say = "畢竟之前經過那麼多次測試都沒問題……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 799010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是在「陆上神国」事件中，经过与迪洛伊的高强度战斗。",
+			say = "但是在「陸上神國」事件中，經過與迪洛伊的高強度戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			actor = 799010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……最后还是和之前一样，出现了不可逆的损伤。",
+			say = "……最後還是和之前一樣，出現了不可逆的損傷。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或许……是{namecode:530:同盟}同志的心智魔方里存在某种固有限制。",
+			say = "或許……是聯盟同志的心智魔方裡存在某種固有限制。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -181,7 +181,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……导致其无论如何都无法与新型舰装兼容，只能使用旧式舰装？",
+			say = "……導致其無論如何都無法與新型艦裝相容，只能使用舊式艦裝？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 799010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也怀疑这一点，但是没有证据。",
+			say = "我也懷疑這一點，但沒有證據。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 799010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在我们还是先着眼于改善制作材料这一点吧。",
+			say = "現在我們還是先著眼於改善製作材料這一點吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 799010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "希望安塔迪卡研究所那边的开采研究工作能有所突破。",
+			say = "希望安塔提卡研究所那邊的開採研究工作能有所突破。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			hidePaintEquip = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			say = "这部分的研究就交给你们了。",
+			say = "這部分的研究就交給妳們了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			hidePaintEquip = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			say = "至少这次的舰装耐久度已经足够应付常规战斗了。",
+			say = "至少這次的艦裝耐久度已經足夠應付常規戰鬥了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -287,7 +287,7 @@ return {
 			hidePaintEquip = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			say = "就按照此前的配置方案再给我换一身新的吧。",
+			say = "就按照先前的配置方案再給我換一套新的吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			hidePaintEquip = true,
 			actor = 900218,
 			nameColor = "#A9F548FF",
-			say = "现在时局飘摇，我必须尽快恢复战斗能力才行——",
+			say = "現在時局飄搖，我必須盡快恢復戰鬥能力才行——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：炫彩缤纷夜\n\n<size=45>睡意满满忙碌DAY</size>",
+					"港區時尚特刊：炫彩繽紛夜\n\n<size=45>2 睡意滿滿忙碌DAY</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			bgm = "bar-soft",
-			say = "不远处，一位穿着侍者制服的娇小少女正端着托盘穿梭在店里。",
+			say = "不遠處，一位穿著侍者制服的嬌小少女正端著托盤穿梭在店裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "不过，她一直睡眼惺忪地打着哈欠，令人不禁有些担心托盘中饮料的安危……",
+			say = "不過，她一直睡眼惺忪地打著哈欠，令人不禁有些擔心托盤中飲料的安危……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = "main1",
-			say = "欢迎光临……指挥官，随便坐……只要是空位都可以的。大概……",
+			say = "歡迎光臨……指揮官，隨便坐……只要是空位都可以的。大概……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "指挥官今天……是特意来捧场的吗？",
+			say = "指揮官今天……是特意來捧場的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟是开业第一天，就特地抽空过来看看。拉菲呢？",
+			say = "畢竟是開業第一天，就特地抽空過來看看。拉菲呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = "touch",
-			say = "唔……拉菲……是答应了来帮忙……哈啊——好困……",
+			say = "嗯……拉菲……是答應了來幫忙……哈啊——好睏……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -134,7 +134,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "不过……指挥官放心……只是把托盘从吧台运到桌子上就行了。",
+			say = "不過……指揮官放心……只是把托盤從吧台運到桌上就行了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,7 +153,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "拉菲……没问题的……嗯，大概。",
+			say = "拉菲……沒問題的……嗯，大概。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "对了……指挥官，要点餐么？",
+			say = "對了……指揮官，要點餐嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = "main3",
-			say = "……这是今天的菜单……有什么需要……都可以和拉菲说……",
+			say = "……這是今天的菜單……有什麼需要……都可以跟拉菲說……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "……推荐的饮品？拉菲的话……推荐……可乐！",
+			say = "……推薦的飲品？拉菲的話……推薦……可樂！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "冰爽的口感，还有……碳酸气泡爆炸的感觉……",
+			say = "冰爽的口感，還有……碳酸氣泡爆炸的感覺……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -248,7 +248,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "指挥官一定会喜欢的……",
+			say = "指揮官一定會喜歡的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -264,7 +264,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "话虽如此，但是可乐……",
+			say = "話雖如此，但可樂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（没有必要特意来店里喝啊……？）",
+			say = "（沒有必要特意來店裡喝啊……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = "main2",
-			say = "指挥官……不喜欢可乐吗？",
+			say = "指揮官……不喜歡可樂嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，不是不喜欢……",
+			say = "啊，不是不喜歡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,11 +333,11 @@ return {
 			},
 			options = {
 				{
-					content = "……好、好吧，就可乐吧！",
+					content = "……好、好吧，就可樂吧！",
 					flag = 1
 				},
 				{
-					content = "麻烦来一杯可乐！",
+					content = "麻煩來一杯可樂！",
 					flag = 2
 				}
 			}
@@ -351,7 +351,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = "mission_complete",
-			say = "一杯可乐……请指挥官稍等一下，马上就来。",
+			say = "一杯可樂……請指揮官稍等一下，馬上就來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "指挥官，久等了……你的可乐。",
+			say = "指揮官，久等了……你的可樂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女将可乐放在了桌上，然后直接在身旁坐下。",
+			say = "少女將可樂放在了桌上，然後直接坐在身旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			actor = 101511,
 			actorName = "拉菲",
 			live2d = true,
-			say = "对了，可乐……指挥官，尝尝？",
+			say = "對了，可樂……指揮官，嚐嚐？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -438,7 +438,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冰凉的液体划过口腔，碳酸气泡在口中破裂炸开……嗯，就是普通的加冰可乐呢。",
+			say = "冰涼的液體劃過口腔，碳酸氣泡在口中破裂炸開……嗯，就是普通的加冰可樂呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "拉菲，可乐很好喝，谢——",
+			say = "拉菲，可樂很好喝，謝——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_145",
 			hidePaintObj = true,
-			say = "手臂上，突然感受到一阵重量。",
+			say = "手臂上，突然感受到一陣重量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女浅浅的呼吸拂过我的手臂，她闭着眼睛，如同小白兔一样进入了梦乡。",
+			say = "少女淺淺的呼吸拂過我的手臂，她閉著眼睛，如同小白兔一樣進入了夢鄉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 101511,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来，手中的这杯可乐得多喝一段时间才行了——",
+			say = "看來，手中的這杯可樂得多喝一段時間才行了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

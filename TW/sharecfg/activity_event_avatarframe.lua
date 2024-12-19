@@ -1422,7 +1422,7 @@ pg.activity_event_avatarframe = {
 			{
 				2024,
 				12,
-				20
+				19
 			},
 			{
 				0,

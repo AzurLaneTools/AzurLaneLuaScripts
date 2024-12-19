@@ -9,7 +9,7 @@ return {
 			bgm = "theme-theloversvi",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "？？？·外围防线",
+			say = "？？？·外圍防線",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "这里是拉沃斯与恩普雷斯为防御X而设立的防御体系的最外围。",
+			say = "這裡是拉沃斯與恩普雷斯為防禦X而設立的防禦體系的最外圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "放眼望去，映入眼帘的是令人眼花缭乱的武器与一望无际的要塞群。",
+			say = "放眼望去，映入眼簾的是令人眼花撩亂的武器與一望無際的要塞群。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "陆地、海面、天空——说是防线，更像是一堵直通天穹的钢铁长城。",
+			say = "陸地、海面、天空——說是防線，更像是直通天穹的鋼鐵長城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "安蒂克丝的舰队如蜂群般在防线中涌动着，等待着一场真正的战争的降临。",
+			say = "安蒂克絲的艦隊如蜂群般在防線中湧動著，等待著一場真正的戰爭的降臨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "就像那些沉默的要塞一样，这些舰队也占据了海洋、陆地与天空。",
+			say = "就像那些沉默的要塞一樣，這些艦隊也佔據了海洋、陸地與天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "这套防御系统的指挥官，是一位从未将自己定义为少女的少女。",
+			say = "這套防禦系統的指揮官，是一位從未將自己定義為少女的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuguang_cg5",
 			hidePaintObj = true,
-			say = "她，连同这套防御体系一起，正一同注视着远方逐渐逼近的黑暗。",
+			say = "她，連同這套防禦體系一起，正一同注視著遠方逐漸逼近的黑暗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "……安蒂克丝，好久没见你们这么舍得拿出好东西来了。",
+			say = "……安蒂克絲，好久沒見過妳們這麼捨得拿出好東西來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "这算是对于我的特别欢迎礼？",
+			say = "這算是對於我的特別歡迎禮？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……发现第V类威胁正在迫近，唯一选项：歼灭。",
+			say = "……發現第V類威脅迫近，唯一選項：殲滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "唔……其实我更想叙叙旧呢。",
+			say = "嗯……其實我更想敘敘舊呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "你看到刚才那个闪耀出光辉的信标了么？",
+			say = "妳看到剛才那個閃耀出光輝的信標了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "那可是一个令人怀念的东西啊。",
+			say = "那可是一個令人懷念的東西啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "我已经送了点礼物去了，你呢？",
+			say = "我已經送了點禮物去了，妳呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……小小把戏，我已经处理完毕了。",
+			say = "……小小把戲，我已經處理完畢了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……你的战场在这里，我才是你的对手。",
+			say = "……妳的戰場在這裡，我才是妳的對手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "嗯~好像确实还没和你交过手呢，看来你对于自己很自信啊。",
+			say = "嗯~好像確實還沒跟妳交過手呢，看來妳對於自己很有自信啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "让我猜猜，你的计划是耐力比拼，用消耗战的方式拖垮我？",
+			say = "讓我猜猜，妳的計畫是耐力比拼，用消耗戰的方式拖垮我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "哼哼~告诉你个小秘密。",
+			say = "哼哼~告訴妳個小秘密。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			say = "——其实，我意外有耐心哦。",
+			say = "——其實，我意外的有耐心哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
