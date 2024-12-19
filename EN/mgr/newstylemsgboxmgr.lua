@@ -240,7 +240,7 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 
 			updateDorm3dIcon(slot2:Find("Dorm3dIconTpl"), slot0.drop)
 			setText(slot2:Find("info/name"), slot1:getName())
-			setText(slot2:Find("info/desc"), cancelColorRich(slot1.desc))
+			setText(slot2:Find("info/scroll/desc"), cancelColorRich(slot1.desc))
 
 			slot3, slot4 = slot1:getOwnedCount()
 
@@ -260,7 +260,7 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 			slot2 = Dorm3dIconHelper.Data2Config(slot0.data)
 
 			setText(slot1:Find("info/name"), slot2.name)
-			setText(slot1:Find("info/desc"), slot2.desc)
+			setText(slot1:Find("info/scroll/desc"), slot2.desc)
 		end,
 		[uv0.TYPE_COMMON_MSGBOX] = function (slot0)
 			slot1 = uv0._tf:Find("window/middle/content")

@@ -547,7 +547,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			side = 2,
-			actorName = 305070,
+			actor = 305070,
 			say = "As long as I'm still me, I don't mind.",
 			typewriter = {
 				speed = 0.05,

@@ -36794,16 +36794,16 @@ _G.pg.base.gametip.notify_clock_button = {
 _G.pg.base.gametip.help_starLightAlbum = {
 	tip = {
 		{
-			info = "纪念手册："
+			info = "- Commemorative Album -"
 		},
 		{
 			info = [[
-1. 回忆页面内新增「纪念手册」系统入口。
-2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得本次活动纪念章「抵抗军总部大楼」和活动勋章「抵抗之星纪念勋章」。
- ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
- ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
- ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将保留至1月8日23:59；]]
+1.  The Commemorative Album tab has been added to the Memories screen. 
+2.  During the event, you can complete event missions to receive <color=#92fc63>commemorative stickers</color>. Finishing your collection will award you with the Resistance Headquarters Building, a limited furniture piece, and the Stellar Resistance Medal. 
+ Note:   While the event is available, tapping the <color=#92fc63>Commemoration button on the event banner or the Commemorative Album tab under Memories</color>will bring you to the commemorative stickers menu. 
+ Note:   Following the end of the event, <color=#92fc63>you can only access the stickers menu from the Commemorative Album tab under Memories</color>. 
+ Note:   Commemorative stickers are earned by completing event missions. 
+ Note:   Rewards may be claimed up to January 8th.]]
 		}
 	}
 }

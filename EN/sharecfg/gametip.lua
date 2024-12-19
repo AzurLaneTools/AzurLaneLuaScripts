@@ -27988,26 +27988,26 @@ cs.gametip = {
 	},
 	help_starLightAlbum = {
 		1056404,
-		822,
+		977,
 		true
 	},
 	word_gain_date = {
-		1057226,
+		1057381,
 		93,
 		true
 	},
 	word_limited_activity = {
-		1057319,
+		1057474,
 		97,
 		true
 	},
 	word_show_expire_content = {
-		1057416,
+		1057571,
 		118,
 		true
 	},
 	word_got_pt = {
-		1057534,
+		1057689,
 		84,
 		true
 	}

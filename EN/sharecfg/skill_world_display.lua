@@ -2447,7 +2447,7 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 [Operation Siren]
 Every 10s: fires a $2 special barrage (DMG is based on the skill's level).
 If this ship has a CL Main Gun equipped in her third weapon slot: sets that CL Main Gun's Detection Range and Range to $1 and makes its shells penetrate enemy shields. 
-This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy 8 times: increases that enemy's DMG taken by 8.0%.]],
+This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy 8 times: increases that enemy's DMG taken by 8.0% (this effect is unaffected by the Tolls of War debuff).]],
 		desc_get_add = {
 			{
 				"80",
@@ -3442,7 +3442,7 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 	[801561] = {
 		desc_get = "",
 		id = 801561,
-		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 3.0%",
+		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 3.0%.",
 		desc_get_add = {},
 		desc_add = {}
 	},

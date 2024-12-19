@@ -23719,7 +23719,7 @@ pg.activity_template = {
 			activitytime = 5714,
 			shopId = 5719,
 			ptId = 448,
-			expedition = 9802,
+			expedition = 9803,
 			taskConfig = {
 				{
 					1,
@@ -49078,7 +49078,7 @@ pg.activity_template = {
 		},
 		config_client = {
 			link_act_id = 30891,
-			url = "https://test-web-azurlane.yo-star.com/ChristmasGachapon/home"
+			url = "https://azurlane.yo-star.com/ChristmasGachapon/"
 		}
 	},
 	[30891] = {

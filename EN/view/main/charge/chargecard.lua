@@ -52,7 +52,9 @@ end
 slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.goods = slot1
 
-	setActive(slot0.shipIcon, false)
+	if not IsNil(slot0.shipIcon) then
+		setActive(slot0.shipIcon, false)
+	end
 
 	slot4 = slot1:isChargeType() and slot1:getShowType() ~= ""
 
@@ -234,6 +236,10 @@ slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.UpdateShipIcon = function(slot0, slot1)
+	if IsNil(slot0.shipIcon) then
+		return
+	end
+
 	setActive(slot0.shipIcon, true)
 
 	slot2 = slot0.shipIcon

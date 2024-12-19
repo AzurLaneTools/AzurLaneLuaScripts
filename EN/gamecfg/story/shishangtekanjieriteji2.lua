@@ -161,12 +161,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
-			actor = 401521,
 			actorName = "{playername}",
+			hideRecordIco = true,
+			actor = 401521,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Need a hand there?",
 			typewriter = {
@@ -243,13 +245,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
-			optionFlag = 1,
-			actor = 401521,
 			actorName = "{playername}",
+			optionFlag = 1,
+			hideRecordIco = true,
+			actor = 401521,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Easy there, speedster. You can tell me all about it after you find that tape to hold up your tights.",
 			typewriter = {
@@ -289,13 +293,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
-			optionFlag = 1,
-			actor = 401521,
 			actorName = "{playername}",
+			optionFlag = 1,
+			hideRecordIco = true,
+			actor = 401521,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "I'll hold your bag for you.",
 			typewriter = {
@@ -304,13 +310,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
-			optionFlag = 2,
-			actor = 401521,
 			actorName = "{playername}",
+			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 401521,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Want me to hold your bag? Since you have your hands full.",
 			typewriter = {
@@ -319,13 +327,15 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
-			optionFlag = 2,
-			actor = 401521,
 			actorName = "{playername}",
+			optionFlag = 2,
+			hideRecordIco = true,
+			actor = 401521,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "We can talk after you've found the tape and secured your tights.",
 			typewriter = {
@@ -452,12 +462,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
-			actor = 401521,
 			actorName = "{playername}",
+			hideRecordIco = true,
+			actor = 401521,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Right. Oh, by the way, I ordered a cake and some drinks.",
 			typewriter = {
@@ -510,12 +522,14 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_story_task",
 			spine = true,
-			actor = 401521,
 			actorName = "{playername}",
+			hideRecordIco = true,
+			actor = 401521,
+			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "No, it's over THAT way.",
 			typewriter = {
