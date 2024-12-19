@@ -12377,7 +12377,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "菈菈·撒塔琳·戴比路克、娜娜·阿丝达·戴比路克 等角色建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:542}(最多4次)"
 }
 
 
@@ -24085,7 +24085,7 @@ _G.pg.base.gametip.CurlingGame_tips1 = {
 		{
 			info = [[
 活动规则：
-1.<color=#92fc63>12月21日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括南安普顿限定皮肤在内的丰富奖励。
+1.<color=#92fc63>12月25日</color>为止每日0点开放<color=#92fc63>1</color>场新游戏，总计<color=#92fc63>7</color>场，可累计。完成7场游戏可以获得包括限定家具在内的奖励。
 游戏规则：
 1.每局游戏由三小局组成，最终得分为三小局的分数和
 2.按住左侧肌肉指挥喵可进行蓄力，上下移动可改变冰球发射的方向；松开后将会发射冰壶。冰壶碰到障碍则会根据碰撞角度进行反弹，<color=#92fc63>反弹时获得额外积分</color>
@@ -29177,6 +29177,11 @@ _G.pg.base.gametip.battle_text_tianchengCV_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_lumei_1 = {
+	tip = "「还愣着干嘛，跟紧我！」"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -34021,6 +34026,11 @@ _G.pg.base.gametip.dorm3d_furniture_used = {
 }
 
 
+_G.pg.base.gametip.dorm3d_furniture_lack = {
+	tip = "[未拥有]"
+}
+
+
 _G.pg.base.gametip.dorm3d_furniture_unfit = {
 	tip = "不可使用"
 }
@@ -35409,22 +35419,37 @@ _G.pg.base.gametip.dorm3d_invite_confirm_free = {
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_original = {
-	tip = "是否消耗$1<color=#39bfff>$2</color>购买<color=#39bfff>$3</color>"
+	tip = "是否消耗$1<color=#169fff>$2</color>购买<color=#169fff>$3</color>"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_discount = {
-	tip = "是否消耗$1<color=#39bfff>$2</color>(原价$3)购买<color=#39bfff>$4</color>"
+	tip = "是否消耗$1<color=#169fff>$2</color>(原价$3)购买<color=#169fff>$4</color>"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_free = {
-	tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)购买<color=#39bfff>$3</color>"
+	tip = "$1<color=#fc4670><size=34>免费</size></color>(原价$2)购买<color=#169fff>$3</color>"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
 	tip = "专属"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_label_special = {
+	tip = "特典"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_outtime = {
+	tip = "该家具已下架"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
+	tip = "该物品被家具”$1“替换，暂时无法收集"
 }
 
 
@@ -36307,4 +36332,115 @@ _G.pg.base.gametip.blackfriday_ptshop = {
 
 _G.pg.base.gametip.blackfriday_specialpack = {
 	tip = "特惠礼包"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_tran_tip = {
+	tip = "指挥官不在的时间里，有以下道具已经过期并转换"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_expired_tip = {
+	tip = "以下道具的有效期不足24小时"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_repeat_remind_label = {
+	tip = "今日不再提示"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_return_tip = {
+	tip = "换装抵扣券可返还为300钻石"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_extra_bounds = {
+	tip = "额外赠送："
+}
+
+
+_G.pg.base.gametip.recycle_btn_label = {
+	tip = "转化为钻石"
+}
+
+
+_G.pg.base.gametip.go_skinshop_btn_label = {
+	tip = "前往使用"
+}
+
+
+_G.pg.base.gametip.skin_shop_nonuse_label = {
+	tip = "不使用优惠"
+}
+
+
+_G.pg.base.gametip.skin_shop_use_label = {
+	tip = "使用优惠"
+}
+
+
+_G.pg.base.gametip.skin_shop_discount_item_link = {
+	tip = "<color=#92fc63>抵扣券</color><color=#ffea00>-$1</color>"
+}
+
+
+_G.pg.base.gametip.go_skinexperienceshop_btn_label = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_notice = {
+	tip = {
+		{
+			info = "说明："
+		},
+		{
+			info = "1.当仓库内有特定换装的换装体验券、换装抵扣券的有效期不足24小时时，会弹出道具即将超时的预告弹窗。"
+		},
+		{
+			info = "2.特定换装的换装体验券过期后将消失，特定换装的换装抵扣券过期后将兑换为指定数量的钻石。"
+		},
+		{
+			info = "3.各道具实际过期时间与详情请在道具描述中确认。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.skin_discount_item_recycle_tip = {
+	tip = "抵扣券可转化为钻石，\n是否消耗<color=#92fc63>$1*1</color>兑换为<color=#92fc63>钻石*$2</color>"
+}
+
+
+_G.pg.base.gametip.help_starLightAlbum = {
+	tip = {
+		{
+			info = "纪念手册："
+		},
+		{
+			info = [[
+1. 回忆页面内新增「纪念手册」系统入口。
+2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得本次活动纪念章「抵抗军总部大楼」和活动勋章「抵抗之星纪念勋章」。
+ ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
+ ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
+ ※ 「纪念贴纸」可以通过完成对应活动任务获取；
+ ※ 奖励领取界面将保留至1月8日23:59；]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.word_gain_date = {
+	tip = "获取时间："
+}
+
+
+_G.pg.base.gametip.word_limited_activity = {
+	tip = "限时活动"
+}
+
+
+_G.pg.base.gametip.word_show_expire_content = {
+	tip = "查看已无法获取的内容"
 }

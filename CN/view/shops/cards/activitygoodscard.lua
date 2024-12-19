@@ -66,20 +66,12 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 			onButton(slot0, slot0.mask, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
 			end, SFX_PANEL)
-		elseif slot8 == 1 or slot8 == 2 or slot8 == ShopArgs.LIMIT_ARGS_UNIQUE_SHIP then
+		else
 			setText(slot0.unexchangeTag, slot9)
 
 			slot10 = ""
 
-			if slot8 == 1 or slot8 == ShopArgs.LIMIT_ARGS_UNIQUE_SHIP then
-				slot10 = "LIMIT"
-			end
-
-			if slot8 == 2 then
-				slot10 = "LOCK"
-			end
-
-			setText(slot0.unexchangeTag:Find("sellout_tag_en"), slot10)
+			setText(slot0.unexchangeTag:Find("sellout_tag_en"), slot8 == ShopArgs.LIMIT_ARGS_SALE_START_TIME and "LOCK" or "LIMIT")
 			setActive(slot0.unexchangeTag, true)
 		end
 	end

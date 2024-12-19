@@ -9,8 +9,18 @@ slot0.ON_SHOPPING_BY_ACT = "NewSkinShopMediator:ON_SHOPPING_BY_ACT"
 slot0.ON_SHOPPING = "NewSkinShopMediator:ON_SHOPPING"
 slot0.ON_RECORD_ANIM_PREVIEW_BTN = "NewSkinShopMediator:ON_RECORD_ANIM_PREVIEW_BTN"
 slot0.ON_ITEM_PURCHASE = "NewSkinShopMediator:ON_ITEM_PURCHASE"
+slot0.ON_ITEM_EXPERIENCE = "NewSkinShopMediator:ON_ITEM_EXPERIENCE"
 
 slot0.register = function(slot0)
+	slot0:bind(uv0.ON_ITEM_EXPERIENCE, function (slot0, slot1, slot2, slot3)
+		uv0:sendNotification(GAME.USE_ITEM, {
+			id = slot1,
+			count = slot3,
+			arg = {
+				slot2
+			}
+		})
+	end)
 	slot0:bind(uv0.ON_ITEM_PURCHASE, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.USE_ITEM, {
 			count = 1,

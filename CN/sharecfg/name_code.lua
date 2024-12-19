@@ -2517,14 +2517,14 @@ pg.name_code = {
 		name = "Z9",
 		type = 1,
 		id = 495,
-		code = "沃尔特劳",
+		code = "沃尔普加",
 		nation = 0
 	},
 	[496] = {
 		name = "Z11",
 		type = 1,
 		id = 496,
-		code = "贝尔纳黛特",
+		code = "伯莎",
 		nation = 0
 	},
 	[497] = {
@@ -2812,6 +2812,48 @@ pg.name_code = {
 		type = 1,
 		id = 537,
 		code = "希咪",
+		nation = 0
+	},
+	[538] = {
+		name = "Z9",
+		type = 1,
+		id = 538,
+		code = "沃尔普加",
+		nation = 0
+	},
+	[539] = {
+		name = "Z11",
+		type = 1,
+		id = 539,
+		code = "伯莎",
+		nation = 0
+	},
+	[540] = {
+		name = "Z52",
+		type = 1,
+		id = 540,
+		code = "柯妮",
+		nation = 0
+	},
+	[541] = {
+		name = "杜伊斯堡",
+		type = 1,
+		id = 541,
+		code = "多琳妮娅",
+		nation = 0
+	},
+	[542] = {
+		name = "弗里茨·鲁梅",
+		type = 1,
+		id = 542,
+		code = "菲莉西娅·鲁梅",
+		nation = 0
+	},
+	[543] = {
+		name = "希佩尔海军上将·META",
+		type = 1,
+		id = 543,
+		code = "芙兰希卡·META",
 		nation = 0
 	},
 	[10000] = {

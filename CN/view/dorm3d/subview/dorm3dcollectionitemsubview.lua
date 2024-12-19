@@ -43,9 +43,10 @@ slot0.OnLoaded = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot1 = getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId)
-	slot0.unlockDic = slot1.collectItemDic
-	slot0.ids = Clone(pg.dorm3d_collection_template.get_id_list_by_room_id[slot1:GetConfigID()] or {})
+	slot0.dorm3dmainscene = pg.m02:retrieveMediator(Dorm3dRoomMediator.__cname):getViewComponent()
+	slot2 = getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId)
+	slot0.unlockDic = slot2.collectItemDic
+	slot0.ids = Clone(pg.dorm3d_collection_template.get_id_list_by_room_id[slot2:GetConfigID()] or {})
 
 	table.sort(slot0.ids, CompareFuncs({
 		function (slot0)
@@ -59,30 +60,46 @@ slot0.OnInit = function(slot0)
 		end
 	}))
 	setText(slot0.rtInfo:Find("count"), string.format("<color=#2d1dfc>%d</color>/%d", table.getCount(slot0.unlockDic), #slot0.ids))
-	setText(slot0.rtInfo:Find("empty"), i18n("dorm3d_collect_nothing"))
 	slot0.itemList:align(#slot0.ids)
 	triggerToggle(slot0.itemList.container:GetChild(0), true)
 end
 
 slot0.UpdateDisplay = function(slot0, slot1, slot2)
-	slot3 = slot0.unlockDic[slot2]
+	slot3 = pg.dorm3d_collection_template[slot2]
+	slot4 = slot0.unlockDic[slot2]
 
-	setActive(slot0.rtInfo:Find("empty"), not slot3)
-	setActive(slot0.rtInfo:Find("content"), slot3)
+	setActive(slot0.rtInfo:Find("empty"), not slot4)
 
-	if not slot3 then
+	if not slot4 then
+		slot5 = nil
+
+		if not _.any(slot3.model, function (slot0)
+			slot1 = nil
+			slot2, uv0 = uv1.dorm3dmainscene:CheckSceneItemActiveByPath(slot0)
+
+			return slot2
+		end) then
+			setText(slot0.rtInfo:Find("empty"), i18n("dorm3d_collect_block_by_furniture", Dorm3dFurniture.New({
+				configId = slot5
+			}):GetName()))
+		else
+			setText(slot0.rtInfo:Find("empty"), i18n("dorm3d_collect_nothing"))
+		end
+	end
+
+	setActive(slot0.rtInfo:Find("content"), slot4)
+
+	if not slot4 then
 		return
 	end
 
-	slot5 = pg.dorm3d_collection_template[slot2]
+	GetImageSpriteFromAtlasAsync("dorm3dcollection/" .. slot3.icon, "", slot5:Find("icon"), true)
+	setText(slot5:Find("name/Text"), slot3.name)
+	setText(slot5:Find("desc"), slot3.desc)
+	setActive(slot5:Find("favor"), slot3.award > 0)
 
-	GetImageSpriteFromAtlasAsync("dorm3dcollection/" .. slot5.icon, "", slot4:Find("icon"), true)
-	setText(slot4:Find("name/Text"), slot5.name)
-	setText(slot4:Find("desc"), slot5.desc)
-	setActive(slot4:Find("favor"), slot5.award > 0)
-
-	if slot5.award > 0 then
-		setText(slot4:Find("favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot5.award].num)
+	if slot3.award > 0 then
+		setText(slot5:Find("favor/Text"), i18n("dorm3d_collect_favor_plus") .. pg.dorm3d_favor_trigger[slot3.award].num)
 	end
 end
 

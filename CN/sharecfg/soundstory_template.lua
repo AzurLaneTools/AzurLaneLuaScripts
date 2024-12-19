@@ -797,6 +797,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "圣夜的惊喜 ",
+		story_resource_JP = "soundStory18_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "巽悠衣子",
+		audition_resource_JP = "ss-10324-1",
+		overview = "圣诞夜，打扮成圣诞老人的布莱默顿准备翻窗送上礼物，\n却被安全窗卡住了身体。无奈之下，只能展开一场特殊的“救援”行动……",
+		order = 2,
+		audition_text = "嗯……还可以再用力一点哦，我不怕疼的……！",
+		ship_id = 10324,
+		id = 18,
+		captions_color = "#42342f",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -814,6 +867,7 @@ pg.soundstory_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

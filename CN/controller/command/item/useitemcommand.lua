@@ -27,7 +27,7 @@ slot0.execute = function(slot0, slot1)
 
 			return
 		end
-	elseif slot8 == ItemUsage.SKIN_SHOP_DISCOUNT then
+	elseif slot8 == ItemUsage.SKIN_SHOP_DISCOUNT or slot8 == ItemUsage.USAGE_SHOP_DISCOUNT then
 		slot11, slot12 = slot7:GetConsumeForSkinShopDiscount(slot5[1])
 		slot13 = getProxy(PlayerProxy):getRawData():getResource(slot12)
 
@@ -47,8 +47,13 @@ slot0.execute = function(slot0, slot1)
 	}, 15003, function (slot0)
 		if slot0.result == 0 then
 			slot1 = {}
+			slot5 = uv2
 
-			uv0:removeItemById(uv1, uv2)
+			uv0:removeItemById(uv1, slot5)
+
+			for slot5, slot6 in ipairs(slot0.drop_list) do
+				print(slot5, slot6)
+			end
 
 			if uv3 == ItemUsage.FOOD then
 				uv4:sendNotification(GAME.ADD_FOOD, {
@@ -57,9 +62,20 @@ slot0.execute = function(slot0, slot1)
 				})
 			elseif uv3 == ItemUsage.DROP or uv3 == ItemUsage.DROP_TEMPLATE or uv3 == ItemUsage.DROP_APPOINTED or uv3 == ItemUsage.INVITATION or uv3 == ItemUsage.SKIN_SELECT or uv3 == ItemUsage.RANDOM_SKIN then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
-			elseif uv3 == ItemUsage.SKIN_SHOP_DISCOUNT then
+			elseif uv3 == ItemUsage.USAGE_SKIN_EXP then
+				slot3 = uv5[1]
+				slot4 = pg.shop_template[slot3]
+
+				getProxy(ShipSkinProxy):addSkin(ShipSkin.New({
+					id = slot4.effect_args[1],
+					end_time = pg.TimeMgr.GetInstance():GetServerTime() + slot4.time_second
+				}))
+				uv4:sendNotification(GAME.SKIN_SHOPPIGN_DONE, {
+					id = slot3
+				})
+			elseif uv3 == ItemUsage.SKIN_SHOP_DISCOUNT or uv3 == ItemUsage.USAGE_SHOP_DISCOUNT then
 				slot1 = PlayerConst.addTranDrop(slot0.drop_list)
-				slot2, slot3 = uv5:GetConsumeForSkinShopDiscount(uv6[1])
+				slot2, slot3 = uv6:GetConsumeForSkinShopDiscount(uv5[1])
 
 				if slot2 > 0 then
 					slot4 = getProxy(PlayerProxy):getData()
@@ -71,7 +87,7 @@ slot0.execute = function(slot0, slot1)
 				end
 
 				uv4:sendNotification(GAME.SKIN_SHOPPIGN_DONE, {
-					id = uv6[1]
+					id = uv5[1]
 				})
 			elseif uv3 == ItemUsage.DORM_LV_UP then
 				uv4:sendNotification(GAME.EXTEND_BACKYARD_AREA)

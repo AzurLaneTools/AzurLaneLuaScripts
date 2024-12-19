@@ -76,6 +76,8 @@ pg.pay_data_display = setmetatable({
 		76,
 		80,
 		81,
+		82,
+		83,
 		1000,
 		1001,
 		1002,
@@ -132,6 +134,10 @@ pg.pay_data_display = setmetatable({
 		2034,
 		2035,
 		2036,
+		2037,
+		2038,
+		2039,
+		2040,
 		5001,
 		5002,
 		5003,
@@ -7731,6 +7737,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 2,
 		picture = "fudai17",
 		skin_inquire_relation = 86411,
@@ -7773,32 +7780,6 @@ pg.base.pay_data_display = {
 				1,
 				6,
 				100
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -7845,6 +7826,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 2,
 		picture = "fudai18",
 		skin_inquire_relation = 86412,
@@ -7874,32 +7856,6 @@ pg.base.pay_data_display = {
 				20
 			}
 		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
-			}
-		},
 		display = {
 			{
 				2,
@@ -7924,6 +7880,234 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81420,
+				1
+			}
+		}
+	},
+	[82] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "港区游戏之夜礼盒·I",
+		first_pay_double = 0,
+		name_display = "港区游戏之夜礼盒·I",
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		subject = "港区游戏之夜礼盒·I",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai19",
+		skin_inquire_relation = 86208,
+		id_str = "com.bilibili.blhx.zuanshi182",
+		extra_service = 3,
+		id = 82,
+		airijp_id = "com.yostarjp.azurlane.diamond170",
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		}
+	},
+	[83] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "绚烂缤纷夜福袋·I复刻",
+		first_pay_double = 0,
+		name_display = "绚烂缤纷夜福袋·I复刻",
+		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
+		subject = "绚烂缤纷夜福袋·I复刻",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai9",
+		skin_inquire_relation = 86200,
+		id_str = "com.bilibili.blhx.zuanshi183",
+		extra_service = 3,
+		id = 83,
+		airijp_id = "com.yostarjp.azurlane.diamond171",
+		extra_service_item = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81200,
 				1
 			}
 		}
@@ -12237,6 +12421,341 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[2037] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		name = "圣诞雪境主题礼包",
+		first_pay_double = 0,
+		name_display = "圣诞雪境主题礼包",
+		descrip = "可获得战斗界面主题 圣诞雪境*1",
+		subject = "圣诞雪境主题礼包",
+		money = 78,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui3",
+		extra_service = 3,
+		id = 2037,
+		airijp_id = "com.yostarjp.azurlane.ui3",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2038] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "圣诞雪境主题礼包（基础版）",
+		first_pay_double = 0,
+		name_display = "圣诞雪境主题礼包（基础版）",
+		descrip = "可获得战斗界面主题 圣诞雪境*1",
+		subject = "圣诞雪境主题礼包（基础版）",
+		money = 78,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui4",
+		extra_service = 3,
+		id = 2038,
+		airijp_id = "com.yostarjp.azurlane.ui4",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40051,
+				1
+			}
+		}
+	},
+	[2039] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "圣诞雪境主题礼包（豪华版）",
+		first_pay_double = 0,
+		name_display = "圣诞雪境主题礼包（豪华版）",
+		descrip = "可获得战斗界面主题 圣诞雪境*1,3060钻石",
+		subject = "圣诞雪境主题礼包（豪华版）",
+		money = 258,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui5",
+		extra_service = 3,
+		id = 2039,
+		airijp_id = "com.yostarjp.azurlane.ui5",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40052,
+				1
+			}
+		}
+	},
+	[2040] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "冬至礼包(2024冬)",
+		first_pay_double = 0,
+		name_display = "冬至礼包(2024冬)",
+		descrip = "可获得3880钻，和特装型布里MKIII*1和其他奖励",
+		subject = "冬至礼包(2024冬)",
+		money = 258,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		picture = "dongzhi3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao122",
+		extra_service = 3,
+		id = 2040,
+		airijp_id = "com.yostarjp.azurlane.package122",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40053,
+				1
+			}
+		}
+	},
 	[5001] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -12646,6 +13165,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 5,
 		sub_display = "",
 		picture = "pack_day1",
@@ -12664,32 +13184,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -12730,6 +13224,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 5,
 		sub_display = "",
 		picture = "pack_day2",
@@ -12743,32 +13238,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				200
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -12804,6 +13273,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 5,
 		sub_display = "",
 		picture = "pack_day3",
@@ -12822,32 +13292,6 @@ pg.base.pay_data_display = {
 				2,
 				15008,
 				200
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -12888,6 +13332,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 5,
 		sub_display = "",
 		picture = "pack_day4",
@@ -12906,32 +13351,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -12972,6 +13391,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 5,
 		sub_display = "",
 		picture = "pack_day5",
@@ -12985,32 +13405,6 @@ pg.base.pay_data_display = {
 				2,
 				16502,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -13046,6 +13440,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 5,
 		sub_display = "",
 		picture = "pack_day6",
@@ -13064,32 +13459,6 @@ pg.base.pay_data_display = {
 				2,
 				15003,
 				5
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {
@@ -13130,6 +13499,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
+		time = "stop",
 		type_order = 5,
 		sub_display = "",
 		picture = "pack_day7",
@@ -13148,32 +13518,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					10,
-					0,
-					0
-				}
 			}
 		},
 		display = {

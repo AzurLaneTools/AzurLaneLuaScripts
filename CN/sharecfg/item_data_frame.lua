@@ -479,11 +479,11 @@ pg.item_data_frame = {
 	},
 	[333] = {
 		name = "天外星光",
-		gain_by = "",
+		gain_by = "星光下的余晖",
 		time_second = 0,
 		id = 333,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「天地万物，皆在星光的注视之下」</color>\n「星光下的余晖」活动获取",
 		scene = {}
 	},
 	[401] = {

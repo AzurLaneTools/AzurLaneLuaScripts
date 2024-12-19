@@ -52,7 +52,7 @@ pg.item_data_battleui = {
 		unlock = "世界巡游二十期获取",
 		name = "幻光律动 ",
 		key = "SkinNormal_20241107",
-		display_icon = "Ui_104",
+		display_icon = "ui_104",
 		is_unlock = 1,
 		rare = 3,
 		desc = "霓虹色彩与律动光束交相辉映，元素交织出流畅的节奏，为指挥作战带来独特的视觉体验。 ",
@@ -60,11 +60,24 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[201] = {
+		unlock = "圣诞雪境战斗主题礼包获取",
+		name = "圣诞雪境",
+		key = "SkinNormal_20241209",
+		display_icon = "ui_201",
+		is_unlock = 1,
+		rare = 4,
+		desc = "这款界面为喜爱冬季气氛的指挥官打造，让指挥官在驾驭战场的同时，感受浪漫的冬日氛围。",
+		id = 201,
+		icon = "201",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
-		104
+		104,
+		201
 	}
 }

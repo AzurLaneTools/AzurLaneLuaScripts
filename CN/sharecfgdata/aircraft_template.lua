@@ -83535,6 +83535,376 @@ _G.pg.base.aircraft_template[165290] = {
 }
 
 
+_G.pg.base.aircraft_template[166991] = {
+	name = "弗里茨鲁梅一技能",
+	max_hp = 42,
+	accuracy = 23,
+	model_ID = "BF109G",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 0.315,
+	attack_power = 2,
+	dodge_limit = 10,
+	type = 1,
+	AP_growth = 2000,
+	icon = "BF109G",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 4,
+	hp_growth = 1613,
+	speed = 50,
+	id = 166991,
+	scale = 1,
+	weapon_ID = {
+		167001
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[166992] = {
+	id = 166992,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 48,
+	hp_growth = 1855,
+	weapon_ID = {
+		167002
+	}
+}
+
+
+_G.pg.base.aircraft_template[166993] = {
+	id = 166993,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 55,
+	hp_growth = 2097,
+	weapon_ID = {
+		167003
+	}
+}
+
+
+_G.pg.base.aircraft_template[166994] = {
+	id = 166994,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 61,
+	hp_growth = 2339,
+	weapon_ID = {
+		167004
+	}
+}
+
+
+_G.pg.base.aircraft_template[166995] = {
+	id = 166995,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 67,
+	hp_growth = 2580,
+	weapon_ID = {
+		167005
+	}
+}
+
+
+_G.pg.base.aircraft_template[166996] = {
+	id = 166996,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 73,
+	hp_growth = 2822,
+	weapon_ID = {
+		167006
+	}
+}
+
+
+_G.pg.base.aircraft_template[166997] = {
+	id = 166997,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 80,
+	hp_growth = 3064,
+	weapon_ID = {
+		167007
+	}
+}
+
+
+_G.pg.base.aircraft_template[166998] = {
+	id = 166998,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 86,
+	hp_growth = 3306,
+	weapon_ID = {
+		167008
+	}
+}
+
+
+_G.pg.base.aircraft_template[166999] = {
+	id = 166999,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 92,
+	hp_growth = 3548,
+	weapon_ID = {
+		167009
+	}
+}
+
+
+_G.pg.base.aircraft_template[167000] = {
+	id = 167000,
+	spawn_brownian = 1,
+	base = 166991,
+	max_hp = 99,
+	hp_growth = 3790,
+	weapon_ID = {
+		167010
+	}
+}
+
+
+_G.pg.base.aircraft_template[167021] = {
+	name = "弗里茨鲁梅跨队",
+	max_hp = 42,
+	accuracy = 23,
+	model_ID = "BF109G",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 0.315,
+	attack_power = 2,
+	dodge_limit = 10,
+	type = 1,
+	AP_growth = 2000,
+	icon = "BF109G",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 4,
+	hp_growth = 1613,
+	speed = 50,
+	id = 167021,
+	scale = 1,
+	weapon_ID = {
+		167131
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.51,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[167022] = {
+	id = 167022,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 48,
+	hp_growth = 1855,
+	weapon_ID = {
+		167132
+	}
+}
+
+
+_G.pg.base.aircraft_template[167023] = {
+	id = 167023,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 55,
+	hp_growth = 2097,
+	weapon_ID = {
+		167133
+	}
+}
+
+
+_G.pg.base.aircraft_template[167024] = {
+	id = 167024,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 61,
+	hp_growth = 2339,
+	weapon_ID = {
+		167134
+	}
+}
+
+
+_G.pg.base.aircraft_template[167025] = {
+	id = 167025,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 67,
+	hp_growth = 2580,
+	weapon_ID = {
+		167135
+	}
+}
+
+
+_G.pg.base.aircraft_template[167026] = {
+	id = 167026,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 73,
+	hp_growth = 2822,
+	weapon_ID = {
+		167136
+	}
+}
+
+
+_G.pg.base.aircraft_template[167027] = {
+	id = 167027,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 80,
+	hp_growth = 3064,
+	weapon_ID = {
+		167137
+	}
+}
+
+
+_G.pg.base.aircraft_template[167028] = {
+	id = 167028,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 86,
+	hp_growth = 3306,
+	weapon_ID = {
+		167138
+	}
+}
+
+
+_G.pg.base.aircraft_template[167029] = {
+	id = 167029,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 92,
+	hp_growth = 3548,
+	weapon_ID = {
+		167139
+	}
+}
+
+
+_G.pg.base.aircraft_template[167030] = {
+	id = 167030,
+	spawn_brownian = 1,
+	base = 167021,
+	max_hp = 99,
+	hp_growth = 3790,
+	weapon_ID = {
+		167140
+	}
+}
+
+
 _G.pg.base.aircraft_template[165411] = {
 	name = "凤翔META技能鱼雷机Lv1",
 	max_hp = 30,
@@ -205968,6 +206338,396 @@ _G.pg.base.aircraft_template[1008069] = {
 }
 
 
+_G.pg.base.aircraft_template[1009070] = {
+	name = "【量产型】未知X结晶-航母舰载机（随时间推移加快发射频率） Lv1",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 1009070,
+	scale = 0.75,
+	weapon_ID = {
+		1009075,
+		1009080
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1009071] = {
+	name = "【量产型】未知X结晶-航母舰载机（随时间推移加快发射频率） Lv2",
+	max_hp = 90,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 1009071,
+	scale = 0.75,
+	weapon_ID = {
+		1009076,
+		1009081
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1009072] = {
+	name = "【量产型】未知X结晶-航母舰载机（随时间推移加快发射频率） Lv3",
+	max_hp = 120,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 33,
+	id = 1009072,
+	scale = 0.75,
+	weapon_ID = {
+		1009077,
+		1009082
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1009073] = {
+	name = "【量产型】未知X结晶-航母舰载机（随时间推移加快发射频率） Lv4",
+	max_hp = 150,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 1009073,
+	scale = 0.75,
+	weapon_ID = {
+		1009078,
+		1009083
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[1009074] = {
+	name = "【量产型】未知X结晶-航母舰载机（随时间推移加快发射频率） Lv5",
+	max_hp = 180,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 1009074,
+	scale = 0.75,
+	weapon_ID = {
+		1009079,
+		1009084
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 _G.pg.base.aircraft_template[1100765] = {
 	name = "美系舰载-战斗机I（大世界通用飞机）",
 	max_hp = 64,
@@ -264964,6 +265724,633 @@ _G.pg.base.aircraft_template[3227217] = {
 	id = 3227217,
 	name = "【2024tolove联动 剧情战】支援弹幕 光辉鱼雷机",
 	base = 28433
+}
+
+
+_G.pg.base.aircraft_template[3231101] = {
+	name = "【2024鲁梅活动B2】BOSS 未知X结晶 航母 舰载机（随时间推移加快发射频率）",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3231101,
+	scale = 0.75,
+	weapon_ID = {
+		3231102,
+		3231103
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3231215] = {
+	name = "【2024鲁梅活动B3】BOSS 星之兽 第三波 舰载机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3231215,
+	scale = 0.75,
+	weapon_ID = {
+		3231216,
+		3231217
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3233101] = {
+	name = "【2024鲁梅活动D2】BOSS 未知X结晶 航母 舰载机（随时间推移加快发射频率）",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3233101,
+	scale = 0.75,
+	weapon_ID = {
+		3233102,
+		3233103
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3233215] = {
+	name = "【2024鲁梅活动D3】BOSS 星之兽 第三波 舰载机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3233215,
+	scale = 0.75,
+	weapon_ID = {
+		3233216,
+		3233217
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3234015] = {
+	name = "【2024鲁梅活动SP】BOSS 星之兽 第三波 舰载机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "feiji_unknownV02",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_unknownV02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3234015,
+	scale = 0.75,
+	weapon_ID = {
+		3234016,
+		3234017
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3236002] = {
+	name = "【2024鲁梅活动 剧情战】我方铁血航母 战斗机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "Fw190A6",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "Fw190A6",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3236002,
+	scale = 0.75,
+	weapon_ID = {
+		59053,
+		59453,
+		59913,
+		59933
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3236003] = {
+	name = "【2024鲁梅活动 剧情战】我方铁血航母 鱼雷机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "Ju87D4",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "Ju87D4",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3236003,
+	scale = 0.75,
+	weapon_ID = {
+		59353,
+		59713
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3236004] = {
+	name = "【2024鲁梅活动 剧情战】我方铁血航母 轰炸机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "JU87C",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "JU87C",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3236004,
+	scale = 0.75,
+	weapon_ID = {
+		59351,
+		52651,
+		53051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
 }
 
 

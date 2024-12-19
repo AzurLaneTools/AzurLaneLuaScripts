@@ -125769,6 +125769,3264 @@ _G.pg.base.task_data_template[20971] = {
 }
 
 
+_G.pg.base.task_data_template[20972] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904559,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅版本』外观装备箱保底",
+	desc = "在商店中获取20个外观装备箱(荒野力量)。",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20972,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30363",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30550,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20973] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904560,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』-日常建造",
+	desc = "建造舰船3次。",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20973,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65063,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20974] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904561,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』-日常出击",
+	desc = "舰队出征，获得15次胜利。",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20974,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65063,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20975] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904562,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』-日常困难本",
+	desc = "通关1次任意困难关卡 ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20975,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65063,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20976] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904563,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关A1/C1",
+	desc = "通关A1或C1",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20977",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20976,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880001,
+		1880021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65063,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20977] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904564,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关A2/C2",
+	desc = "通关A2或C2",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20978",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20977,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880002,
+		1880022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65063,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20978] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904565,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关A3/C3",
+	desc = "通关A3或C3",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20979",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20978,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880003,
+		1880023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65063,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20979] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904566,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关B1/D1",
+	desc = "通关B1或D1",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20980",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20979,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880004,
+		1880024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65063,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5712
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20980] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904567,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关B2/D2",
+	desc = "通关B2或D2",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20981",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20980,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880005,
+		1880025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65063,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5712
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20981] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904568,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关B3/D3",
+	desc = "通关B3或D3",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20982",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20981,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880006,
+		1880026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65063,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5712
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20982] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904569,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关SP",
+	desc = "通关SP",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20982,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1880041",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			50
+		},
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1880025,
+			chapterId = 1880041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20983] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904570,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关EX",
+	desc = "通关EX关卡",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20983,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880051,
+		1880052
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1880026,
+			chapterId = 1880051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20985] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904572,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』A1/C1的3星",
+	desc = "完成A1或C1的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20986",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20985,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880001,
+		1880021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20986] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904573,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』A2/C2的3星",
+	desc = "完成A2或C2的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20987",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20986,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880002,
+		1880022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20987] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904574,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』A3/C3的3星",
+	desc = "完成A3或C3的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20988",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20987,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880003,
+		1880023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20988] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904575,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』B1/D1的3星",
+	desc = "完成B1或D1的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20989",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20988,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880004,
+		1880024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5712
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20989] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904576,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』B2/D2的3星",
+	desc = "完成B2或D2的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "20990",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20989,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880005,
+		1880025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5712
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20990] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904577,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』B3/D3的3星",
+	desc = "完成B3或D3的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20990,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1880006,
+		1880026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5712
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20992] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904578,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关任务10次",
+	desc = "通关10次「星光下的余晖」特别作战关卡",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20992,
+	target_num = 10,
+	fix_task = 0,
+	target_id = {
+		1880001,
+		1880002,
+		1880003,
+		1880004,
+		1880005,
+		1880006,
+		1880021,
+		1880022,
+		1880023,
+		1880024,
+		1880025,
+		1880026,
+		1880041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65063,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20993] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904579,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关任务30次",
+	desc = "通关30次「星光下的余晖」特别作战关卡",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20993,
+	target_num = 30,
+	fix_task = 0,
+	target_id = {
+		1880001,
+		1880002,
+		1880003,
+		1880004,
+		1880005,
+		1880006,
+		1880021,
+		1880022,
+		1880023,
+		1880024,
+		1880025,
+		1880026,
+		1880041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65063,
+			1500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20994] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904580,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』通关任务60次",
+	desc = "通关60次「星光下的余晖」特别作战关卡",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20994,
+	target_num = 60,
+	fix_task = 0,
+	target_id = {
+		1880001,
+		1880002,
+		1880003,
+		1880004,
+		1880005,
+		1880006,
+		1880021,
+		1880022,
+		1880023,
+		1880024,
+		1880025,
+		1880026,
+		1880041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65063,
+			3000
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21009] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第一弹1",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21009,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21010] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第一弹2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21010,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21011] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第一弹3",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21011,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21012] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第一弹4",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21012,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21013] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第一弹5",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21013,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21014] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第一弹6",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21014,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21015] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "通过3次任意活动关卡",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21015,
+	target_num = 3,
+	fix_task = 0,
+	target_id = {
+		1880001,
+		1880002,
+		1880003,
+		1880004,
+		1880005,
+		1880006,
+		1880021,
+		1880022,
+		1880023,
+		1880024,
+		1880025,
+		1880026,
+		1880041
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21016] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "强化装备2次 ",
+	sub_type = 40,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21016,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21017] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "完成军事委托2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21017,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21018] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21018,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21019] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "舰船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21019,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21020] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "建造舰船1次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21020,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21021] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "进行2次战术训练",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21021,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21022] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21022,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21023] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "后宅补充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21023,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21024] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "累计消耗300石油",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21024,
+	target_num = 300,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21025] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "舰船强化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21025,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21026] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21026,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21027] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "进行1次科研",
+	sub_type = 110,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21027,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21028] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "与后宅的舰船互动1次",
+	sub_type = 2010,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21028,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21029] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904630,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT每日随机任务",
+	desc = "与秘书舰互动1次",
+	sub_type = 2011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21029,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21030] = {
+	guild_coin_award = 0,
+	award = 904631,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT挑战任务-弗里茨·鲁梅",
+	desc = "使用{namecode:542}击败B3或D3敌方旗舰且存活",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21030,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1881213,
+		1883213
+	},
+	target_id_2 = {
+		407041,
+		407042,
+		407043,
+		407044
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21031] = {
+	guild_coin_award = 0,
+	award = 904631,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT挑战任务-杜伊斯堡",
+	desc = "使用{namecode:541}击败B3或D3敌方旗舰且存活",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21031,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1881213,
+		1883213
+	},
+	target_id_2 = {
+		402111,
+		402112,
+		402113,
+		402114
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21032] = {
+	guild_coin_award = 0,
+	award = 904631,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT挑战任务-Z9",
+	desc = "使用{namecode:538}击败B3或D3敌方旗舰且存活",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21032,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1881213,
+		1883213
+	},
+	target_id_2 = {
+		401091,
+		401092,
+		401093,
+		401094
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21033] = {
+	guild_coin_award = 0,
+	award = 904631,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT挑战任务-希佩尔海军上将·META",
+	desc = "使用{namecode:543}击败B3或D3敌方旗舰且存活",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21033,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1881213,
+		1883213
+	},
+	target_id_2 = {
+		9703051,
+		9703052,
+		9703053,
+		9703054
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21034] = {
+	guild_coin_award = 0,
+	award = 904631,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "进阶PT挑战任务-Z11",
+	desc = "使用{namecode:539}击败B3或D3敌方旗舰且存活",
+	sub_type = 16,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21034,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1881213,
+		1883213
+	},
+	target_id_2 = {
+		401111,
+		401112,
+		401113,
+		401114
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			449,
+			10
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5711
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21035] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904632,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取1",
+	desc = "收集7个「星光下的余晖」纪念贴纸",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21035,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "5711",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65501,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21036] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904633,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取2",
+	desc = "通关SP",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21036,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1880041",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65502,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21037] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904634,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取3",
+	desc = "完成「星光下的余晖」剧情模式 ",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21037,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6545
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65503,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21038] = {
+	target_id_2 = "5716",
+	guild_coin_award = 0,
+	award = 904635,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取4",
+	desc = "累计获取10000个「天外之兽生物质」",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21038,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "448",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65504,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21039] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904636,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取5",
+	desc = "完成C3的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21039,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1880023",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65505,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21040] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904637,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取6",
+	desc = "完成D3的3星收集",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21040,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1880026",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65506,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21041] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904638,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取7",
+	desc = "通关40次「星光下的余晖」特别作战关卡",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21041,
+	target_num = 40,
+	fix_task = 0,
+	target_id = {
+		1880001,
+		1880002,
+		1880003,
+		1880004,
+		1880005,
+		1880006,
+		1880021,
+		1880022,
+		1880023,
+		1880024,
+		1880025,
+		1880026,
+		1880041
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65507,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21042] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904639,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念贴纸获取8",
+	desc = "参与1次啾啾冰壶战",
+	sub_type = 415,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21042,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "60",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65508,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21043] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904640,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』纪念任务1",
+	desc = "收集8个「星光下的余晖」纪念贴纸。",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 1,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21043,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "5711",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			293,
+			1
+		},
+		{
+			8,
+			65500,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21045] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99852,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤1",
+	desc = "舰队出征，以S评价通关10次",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21045,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21046] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99853,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21046,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21047] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99854,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤3",
+	desc = "完成军事委托2次",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21047,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21048] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99855,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤4",
+	desc = "进行2次演习",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21048,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21049] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99856,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤5",
+	desc = "完成3次每日挑战",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21049,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21050] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99857,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤6",
+	desc = "舰船退役2次",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21050,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21051] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99858,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤7",
+	desc = "进行战术训练2次",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21051,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21052] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99859,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤8",
+	desc = "舰船强化5次",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21052,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21053] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99860,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤9",
+	desc = "击沉任意敌人20艘",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21053,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21054] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99861,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤10",
+	desc = "后宅补充食物5次",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21054,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21055] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99862,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤11",
+	desc = "打开任意科技箱1个",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21055,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21056] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99863,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤12",
+	desc = "建造舰船2次",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21056,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21057] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 99864,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤13",
+	desc = "进行2次战术训练",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21057,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21058] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904641,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『鲁梅活动』双任务活动送皮肤14",
+	desc = "击败旗舰3次 ",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21058,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			7,
+			201235,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21059] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903339,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』剧情模式通关",
+	desc = "完成「剧情模式」 ",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21059,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6545
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			5
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1880001,
+			displayMode = 2
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

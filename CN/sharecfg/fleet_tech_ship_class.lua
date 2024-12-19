@@ -2057,6 +2057,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 113,
 		nation = 4,
 		ships = {
+			40109,
+			40111,
 			40116
 		}
 	},
@@ -2080,6 +2082,17 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			49908
+		}
+	},
+	[40109] = {
+		shiptype = 1,
+		name = "1944型",
+		t_level = 10,
+		id = 40109,
+		t_level_1 = 120,
+		nation = 4,
+		ships = {
+			40152
 		}
 	},
 	[40201] = {
@@ -2127,7 +2140,8 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			40206,
-			40210
+			40210,
+			40211
 		}
 	},
 	[40205] = {
@@ -2391,6 +2405,17 @@ pg.fleet_tech_ship_class = {
 		nation = 4,
 		ships = {
 			49906
+		}
+	},
+	[40703] = {
+		shiptype = 7,
+		name = "弗里茨·鲁梅",
+		t_level = 8,
+		id = 40703,
+		t_level_1 = 127,
+		nation = 4,
+		ships = {
+			40704
 		}
 	},
 	[40801] = {
@@ -3727,6 +3752,17 @@ pg.fleet_tech_ship_class = {
 			970304
 		}
 	},
+	[970305] = {
+		shiptype = 3,
+		name = "希佩尔海军上将·META",
+		t_level = 3,
+		id = 970305,
+		t_level_1 = 6,
+		nation = 97,
+		ships = {
+			970305
+		}
+	},
 	[970401] = {
 		shiptype = 4,
 		name = "格奈森瑙·META",
@@ -4159,6 +4195,7 @@ pg.fleet_tech_ship_class = {
 		40106,
 		40107,
 		40108,
+		40109,
 		40201,
 		40202,
 		40203,
@@ -4186,6 +4223,7 @@ pg.fleet_tech_ship_class = {
 		40602,
 		40701,
 		40702,
+		40703,
 		40801,
 		40802,
 		40803,
@@ -4303,6 +4341,7 @@ pg.fleet_tech_ship_class = {
 		970302,
 		970303,
 		970304,
+		970305,
 		970401,
 		970402,
 		970403,
