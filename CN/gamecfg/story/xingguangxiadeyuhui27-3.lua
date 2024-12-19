@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "一阵{namecode:150:海风}吹过，{namecode:427:欧根亲王}和{namecode:450:布吕歇尔}的幻影似乎又淡了一些。",
+			say = "一阵海风吹过，{namecode:427:欧根亲王}和{namecode:450:布吕歇尔}的幻影似乎又淡了一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -474,13 +474,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 0,
 			side = 2,
 			bgName = "bg_yuhui_3",
-			dir = 1,
-			actor = 407040,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "我先带一半舰队护送矿物回能源塔，你带另一半舰队把{namecode:426:希佩尔}·META叫过来。",
 			typewriter = {
 				speed = 0.05,

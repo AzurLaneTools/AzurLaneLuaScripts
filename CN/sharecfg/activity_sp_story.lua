@@ -2156,7 +2156,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[123] = {
-		story_type = 2,
+		story_type = 1,
 		name = "EP3-2 基地回防",
 		change_prefab = "",
 		unlock_conditions = "完成EP3-1",
@@ -2175,7 +2175,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[124] = {
-		story_type = 1,
+		story_type = 2,
 		name = "EP3-3 星空的主宰者",
 		change_prefab = "",
 		unlock_conditions = "完成EP3-2",

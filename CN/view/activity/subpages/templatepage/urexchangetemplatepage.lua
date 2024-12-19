@@ -111,12 +111,16 @@ slot0.taskTypeDic = {
 		end or nil
 	end,
 	[slot0.SP_DAILY] = function (slot0, slot1)
-		slot4 = getProxy(ChapterProxy):getChapterById(slot1[1]):isUnlock() and slot3:isPlayerLVUnlock() and not slot3:enoughTimes2Start()
+		slot4 = getProxy(ChapterProxy):getChapterById(slot1[1]):isUnlock() and slot2:isPlayerLVUnlock() and not slot2:enoughTimes2Start()
 
 		return slot4 and "1/1" or "0/1", not slot4 and function ()
-			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LEVEL, {
-				mapIdx = pg.chapter_template[uv1[1]].map
-			})
+			if uv0:isUnlock() then
+				uv1:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.LEVEL, {
+					mapIdx = pg.chapter_template[uv2[1]].map
+				})
+			else
+				uv1:emit(ActivityMediator.SPECIAL_BATTLE_OPERA)
+			end
 		end or nil
 	end,
 	[slot0.RANDOM_DAILY] = function (slot0, slot1)

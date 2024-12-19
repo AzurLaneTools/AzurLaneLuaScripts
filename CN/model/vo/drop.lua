@@ -1080,6 +1080,9 @@ slot0.InitSwitch = function()
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
 		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0, slot1, slot2)
+			setText(slot2, slot0:getConfig("display"))
+		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
 		end

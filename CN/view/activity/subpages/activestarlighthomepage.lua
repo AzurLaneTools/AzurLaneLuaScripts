@@ -26,13 +26,10 @@ slot0.OnFirstFlush = function(slot0)
 		uv0:emit(ActivityMediator.GO_CHANGE_SHOP)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.Manual, function ()
-		pg.m02:sendNotification(GAME.LOAD_LAYERS, {
-			parentContext = getProxy(ContextProxy):getCurrentContext(),
-			context = Context.New({
-				mediator = MedalAlbumTemplateMediator,
-				viewComponent = StarLightMedalAlbumView
-			})
-		})
+		uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
+			mediator = MedalAlbumTemplateMediator,
+			viewComponent = StarLightMedalAlbumView
+		}))
 	end, SFX_PANEL)
 end
 

@@ -25,7 +25,7 @@ slot0.SetMedalGroup = function(slot0, slot1)
 	slot0._taskList = {}
 
 	for slot6, slot7 in ipairs(slot0._medalGroup:GetMedalGroupActivityConfig()[3]) do
-		table.insert(slot0._taskList, getProxy(TaskProxy):getTaskById(slot7))
+		table.insert(slot0._taskList, getProxy(TaskProxy):getTaskById(slot7) or getProxy(TaskProxy):getFinishTaskById(slot7))
 	end
 end
 

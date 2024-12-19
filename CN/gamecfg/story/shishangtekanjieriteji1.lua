@@ -426,13 +426,12 @@ return {
 			}
 		},
 		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "star_level_bg_501",
-			actorName = "{playername}",
 			actor = 407041,
 			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_501",
 			live2d = true,
+			withoutActorName = true,
+			side = 2,
 			say = "鲁梅的目光中罕见的染上了一丝茫然。",
 			typewriter = {
 				speed = 0.05,

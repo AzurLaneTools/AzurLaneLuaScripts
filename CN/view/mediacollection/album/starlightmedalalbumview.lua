@@ -9,8 +9,11 @@ slot0.SetMedalGroupData = function(slot0, slot1)
 	slot0.medalGroupList = slot1
 	slot0.currentMedalGroup = slot0.medalGroupList[uv0.GROUP_ID] or ActivityMedalGroup.New(uv0.GROUP_ID)
 
+	if slot0.currentMedalGroup:GetMedalGroupState() == ActivityMedalGroup.STATE_ACTIVE then
+		slot0.medalTaskView:SetMedalGroup(slot0.currentMedalGroup)
+	end
+
 	slot0.medalDetailView:SetMedalGroup(slot0.currentMedalGroup)
-	slot0.medalTaskView:SetMedalGroup(slot0.currentMedalGroup)
 
 	slot2 = slot0.currentMedalGroup:getConfig("activity_medal_ids")
 
@@ -136,15 +139,15 @@ slot0.UpdateView = function(slot0)
 		end
 	end
 
-	slot0._taskVO = getProxy(TaskProxy):getTaskById(slot0.currentMedalGroup:getConfig("activity_link")[1][3][1])
+	slot0.trophyLock:GetComponent(typeof(Image)).enabled = getProxy(TaskProxy):getTaskById(slot0.currentMedalGroup:getConfig("activity_link")[1][3][1]) ~= nil
+	slot0.medalLock:GetComponent(typeof(Image)).enabled = slot3 ~= nil
 
-	if not slot0._taskVO then
-		slot0.trophyLock:GetComponent(typeof(Image)).enabled = false
-		slot0.medalLock:GetComponent(typeof(Image)).enabled = false
-	else
-		slot0.trophyLock:GetComponent(typeof(Image)).enabled = slot0._taskVO:getTaskStatus() ~= 2
-		slot0.medalLock:GetComponent(typeof(Image)).enabled = slot0._taskVO:getTaskStatus() ~= 2
-	end
+	setActive(slot0.taskBtn, slot0.currentMedalGroup:GetMedalGroupState() == ActivityMedalGroup.STATE_ACTIVE)
+end
+
+slot0.FlushTaskPanel = function(slot0)
+	slot0.medalTaskView:SetMedalGroup(slot0.currentMedalGroup)
+	slot0.medalTaskView:ShowMedalTask()
 end
 
 slot0.willExit = function(slot0)

@@ -19,7 +19,7 @@ pg.activity_medal_group = {
 		activity_link = {
 			{
 				1,
-				5714,
+				5733,
 				{
 					21043,
 					21035,

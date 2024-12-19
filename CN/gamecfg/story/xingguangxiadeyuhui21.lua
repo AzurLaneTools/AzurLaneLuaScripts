@@ -672,7 +672,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今非昔比，就算我这里的防御再好，和当年塞壬留下的大型要塞也什么可比性。",
+			say = "今非昔比，就算我这里的防御再好，和当年塞壬留下的大型要塞也没什么可比性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

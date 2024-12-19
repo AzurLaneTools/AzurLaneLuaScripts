@@ -305,11 +305,11 @@ return {
 		},
 		{
 			expression = 6,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
 			side = 2,
-			actor = 9703040,
+			actor = 9703050,
 			say = "……以{namecode:425:希佩尔海军上将}级之名，为汝等奏响镇魂之歌！",
 			typewriter = {
 				speed = 0.05,

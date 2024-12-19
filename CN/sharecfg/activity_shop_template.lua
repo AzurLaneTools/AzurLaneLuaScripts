@@ -34982,7 +34982,7 @@ pg.activity_shop_template = {
 				2,
 				{
 					{
-						2024,
+						2025,
 						1,
 						9
 					},
