@@ -74,6 +74,8 @@ pg.pay_data_display = setmetatable({
 		74,
 		75,
 		76,
+		82,
+		83,
 		1000,
 		1001,
 		1002,
@@ -128,6 +130,9 @@ pg.pay_data_display = setmetatable({
 		2034,
 		2035,
 		2036,
+		2037,
+		2038,
+		2039,
 		5001,
 		5002,
 		5003,
@@ -7774,6 +7779,234 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[82] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		name = "新年福袋2025A",
+		first_pay_double = 0,
+		name_display = "新年福袋2025A",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		subject = "新年福袋2025A",
+		money = 3800,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai19",
+		skin_inquire_relation = 86208,
+		id_str = "com.bilibili.blhx.zuanshi182",
+		extra_service = 3,
+		id = 82,
+		airijp_id = "com.yostarjp.azurlane.diamond170",
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		}
+	},
+	[83] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		name = "新年福袋2024A(復刻)",
+		first_pay_double = 0,
+		name_display = "新年福袋2024A(復刻)",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		subject = "新年福袋2024A(復刻)",
+		money = 3800,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai9",
+		skin_inquire_relation = 86200,
+		id_str = "com.bilibili.blhx.zuanshi183",
+		extra_service = 3,
+		id = 83,
+		airijp_id = "com.yostarjp.azurlane.diamond171",
+		extra_service_item = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81200,
+				1
+			}
+		}
+	},
 	[1000] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -11861,6 +12094,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2037] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・クリスマス",
+		first_pay_double = 0,
+		name_display = "戦闘UI・クリスマス",
+		descrip = "戦闘UI・クリスマスを入手できます",
+		subject = "戦闘UI・クリスマス",
+		money = 1600,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui3",
+		extra_service = 3,
+		id = 2037,
+		airijp_id = "com.yostarjp.azurlane.ui3",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2038] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・クリスマス（単品）",
+		first_pay_double = 0,
+		name_display = "戦闘UI・クリスマス（単品）",
+		descrip = "戦闘UI・クリスマスを入手できます",
+		subject = "戦闘UI・クリスマス（単品）",
+		money = 1600,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui4",
+		extra_service = 3,
+		id = 2038,
+		airijp_id = "com.yostarjp.azurlane.ui4",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40051,
+				1
+			}
+		}
+	},
+	[2039] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・クリスマス（セット）",
+		first_pay_double = 0,
+		name_display = "戦闘UI・クリスマス（セット）",
+		descrip = "戦闘UI・クリスマス,ダイヤ×3060を入手できます",
+		subject = "戦闘UI・クリスマス（セット）",
+		money = 4700,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui5",
+		extra_service = 3,
+		id = 2039,
+		airijp_id = "com.yostarjp.azurlane.ui5",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40052,
 				1
 			}
 		}

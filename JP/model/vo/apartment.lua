@@ -267,8 +267,8 @@ slot0.getIconTip = function(slot0, slot1)
 		return "main"
 	elseif getProxy(ApartmentProxy):getApartmentGiftCount(slot0.configId) then
 		return "gift"
-	elseif false then
-		return "furnitrue"
+	elseif Dorm3dFurniture.IsTimelimitShopTip(slot1) then
+		return "furniture"
 	elseif false then
 		return "talk"
 	else

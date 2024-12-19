@@ -272,6 +272,11 @@ pg.task_meta_data_template = setmetatable({
 		100363,
 		100364,
 		100365,
+		100371,
+		100372,
+		100373,
+		100374,
+		100375,
 		200001,
 		200002,
 		200003,
@@ -379,7 +384,11 @@ pg.task_meta_data_template = setmetatable({
 		200271,
 		200272,
 		200273,
-		200274
+		200274,
+		200281,
+		200282,
+		200283,
+		200284
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2544,6 +2553,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "大鳳(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100371] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100371,
+		target_num = 1,
+		desc = "アドミラル・ヒッパー(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100372] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100372,
+		target_num = 1,
+		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100373] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100373,
+		target_num = 1,
+		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100374] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100374,
+		target_num = 1,
+		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100375] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100375,
+		target_num = 1,
+		desc = "アドミラル・ヒッパー(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3407,5 +3456,37 @@ pg.base.task_meta_data_template = {
 		id = 200274,
 		target_num = 1,
 		desc = "セイレーン作戦で大鳳(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200281] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200281,
+		target_num = 1,
+		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊で1回勝利する"
+	},
+	[200282] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200282,
+		target_num = 1,
+		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200283] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200283,
+		target_num = 1,
+		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200284] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200284,
+		target_num = 1,
+		desc = "セイレーン作戦でアドミラル・ヒッパー(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

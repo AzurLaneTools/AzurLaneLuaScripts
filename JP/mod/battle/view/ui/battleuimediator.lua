@@ -54,6 +54,14 @@ slot7.EnableJoystick = function(slot0, slot1)
 	end
 
 	setActive(slot0._joystick, slot1)
+
+	if slot0._joystick:Find("Area/BG/spine") then
+		slot5 = slot4:GetComponent(typeof(SpineAnimUI))
+
+		if slot1 then
+			slot5:SetAction("cut_in", 0)
+		end
+	end
 end
 
 slot7.EnableWeaponButton = function(slot0, slot1)
@@ -148,6 +156,18 @@ slot7.InitJoystick = function(slot0)
 	slot0._stickController = slot0._joystick:GetComponent("StickController")
 
 	slot0._uiMGR:AttachStickOb(slot0._joystick)
+
+	if slot0._joystick:Find("Area/BG/spine") then
+		slot7:GetComponent(typeof(SpineAnimUI)):SetActionCallBack(function (slot0)
+			if slot0 == "finish" then
+				if uv0._stickController.enabled then
+					uv1:SetAction("normal", 0)
+				else
+					SetActive(uv0._joystick, false)
+				end
+			end
+		end)
+	end
 end
 
 slot7.InitTimer = function(slot0)

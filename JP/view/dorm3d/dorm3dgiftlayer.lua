@@ -148,13 +148,12 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 	end, SFX_PANEL)
 
 	slot9 = slot6 and slot0.proxy:isGiveGiftDone(slot2)
-	slot11 = Dorm3dGift.New({
+
+	setActive(slot4:Find("info/lack"), Dorm3dGift.New({
 		configId = slot2
-	}):GetShopID()
+	}):GetShopID() ~= 0)
 
-	setActive(slot4:Find("info/lack"), tobool(slot11))
-
-	if slot11 then
+	if slot11 ~= 0 then
 		slot12 = CommonCommodity.New({
 			id = slot11
 		}, Goods.TYPE_SHOPSTREET)

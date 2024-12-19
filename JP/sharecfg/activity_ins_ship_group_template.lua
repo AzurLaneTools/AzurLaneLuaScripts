@@ -4352,6 +4352,62 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[40704] = {
+		ship_group = 40704,
+		name = "Fritz Rumey",
+		background = "",
+		sculpture = "fulici",
+		nationality = 4,
+		type = 1
+	},
+	[40211] = {
+		ship_group = 40211,
+		name = "Duisburg",
+		background = "",
+		sculpture = "duyisibao",
+		nationality = 4,
+		type = 1
+	},
+	[40109] = {
+		ship_group = 40109,
+		name = "Wolke9",
+		background = "",
+		sculpture = "Z9",
+		nationality = 4,
+		type = 1
+	},
+	[40111] = {
+		ship_group = 40111,
+		name = "Z11_Spielefan",
+		background = "",
+		sculpture = "Z11",
+		nationality = 4,
+		type = 1
+	},
+	[40152] = {
+		ship_group = 40152,
+		name = "Blitz-Z52",
+		background = "",
+		sculpture = "Z52",
+		nationality = 4,
+		type = 1
+	},
+	[20216] = {
+		ship_group = 20216,
+		name = "Fiji",
+		background = "",
+		sculpture = "feiji",
+		nationality = 0,
+		type = 1
+	},
+	[20202] = {
+		ship_group = 20202,
+		name = "Achilles",
+		background = "",
+		sculpture = "ajilisi",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -4896,6 +4952,13 @@ pg.activity_ins_ship_group_template = {
 		1110004,
 		1110005,
 		1110006,
-		30141
+		30141,
+		40704,
+		40211,
+		40109,
+		40111,
+		40152,
+		20216,
+		20202
 	}
 }

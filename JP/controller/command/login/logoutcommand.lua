@@ -44,6 +44,7 @@ slot0.execute = function(slot0, slot1)
 	LevelMediator2.prevRefreshBossTimeTime = nil
 	ActivityMainScene.FetchReturnersTime = nil
 	ActivityMainScene.Data2Time = nil
+	MainSkinDiscountItemTipSequence.TipFlag = nil
 	COMBAT_SKIN_KEY = nil
 
 	pg.BrightnessMgr.GetInstance():ExitManualMode()

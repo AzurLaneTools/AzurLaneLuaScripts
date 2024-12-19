@@ -12748,7 +12748,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = " 「ララ・サタリン・デビルーク」「金色の闇」など出現率UP！"
+	tip = "期間限定建造を累計200回行うと「フリッツ・ルメイ」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -24448,17 +24448,17 @@ _G.pg.base.gametip.CurlingGame_tips1 = {
 ■概要
 ミニゲーム「饅頭カーリング」とは、マッスルオフニャを操作し、SDキャラを表面上の赤枠内に滑らせて届け、得点を稼ぐミニゲームになります。
 
-12/21（水）まで毎日1回開放される試合を全部クリアすると、「サウサンプトン」の着せ替え「午後のクロチェット」を入手できます。
+12/25（水）まで毎日1回開放される試合を全部クリアすると、家具「ウォー・ビークル」を入手できます。
 
 ■遊び方
 ・マッスルオフニャを長押しすると、SDキャラの初期速度を変える事ができます（長押しするほどスピードが上昇します）、長押しを解除すると、SDキャラを滑らせることができます
-・長押し中、画面上下をスライドすることで、マッスルオフニャの位置を変えSDキャラの移動方向を変えることが出来ます
+・長押し中、画面上下をスライドすることで、マッスルオフニャの位置を変えSDキャラの移動方向を変えることができます
 ・SDキャラが障害物にぶつかると方向を変え、またスコアを得ることができます
-・SDキャラが最後に画面右の枠内に止まると、得点を得ることが出来ます（青枠1000点、黄枠2000点、赤枠3000点）
+・SDキャラが最後に画面右の枠内に止まると、得点を獲得します（青枠1000点、黄枠2000点、赤枠3000点）
 ・SDキャラを3回滑らせると、ゲームクリアになります
 ・キャンペーン期間中、毎日1回ゲーム回数が加算されます
 ・ゲーム回数を所持している状態でプレイすると、ゲーム回数を1回消費し、試合を1回クリアできます
-・試合を全部クリアすると、サウサンプトンの限定着せ替えを入手出来ます]]
+・試合を全部クリアすると、家具「ウォー・ビークル」を入手できます。]]
 		}
 	}
 }
@@ -29611,6 +29611,11 @@ _G.pg.base.gametip.battle_text_tianchengCV_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_lumei_1 = {
+	tip = "「ついて来てっての！」"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "戦意低下"
 }
@@ -34627,6 +34632,11 @@ _G.pg.base.gametip.dorm3d_furniture_used = {
 }
 
 
+_G.pg.base.gametip.dorm3d_furniture_lack = {
+	tip = "[未所持]"
+}
+
+
 _G.pg.base.gametip.dorm3d_furniture_unfit = {
 	tip = "適用不可"
 }
@@ -36032,22 +36042,37 @@ _G.pg.base.gametip.dorm3d_invite_confirm_free = {
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_original = {
-	tip = "$1<color=#39bfff>$2</color>を消費し、<color=#39bfff>$3</color>を購入しますか？"
+	tip = "$1<color=#169fff>$2</color>を消費し、<color=#169fff>$3</color>を購入しますか？"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_discount = {
-	tip = "$1<color=#39bfff>$2</color>（割引前価格$3）を消費し、<color=#39bfff>$4</color>を購入しますか？"
+	tip = "$1<color=#169fff>$2</color>（割引前価格$3）を消費し、<color=#169fff>$4</color>を購入しますか？"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_free = {
-	tip = "$1<color=#fc4670><size=34>無料</size></color>(割引前価格$2)で<color=#39bfff>$3</color>を購入しますか？"
+	tip = "$1<color=#fc4670><size=34>無料</size></color>(割引前価格$2)で<color=#169fff>$3</color>を購入しますか？"
 }
 
 
 _G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
 	tip = "専用"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_label_special = {
+	tip = "特典"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_outtime = {
+	tip = "販売期間外です"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
+	tip = "アイテムは家具$1に入れ替えられたため、現在入手できません"
 }
 
 
@@ -36858,4 +36883,52 @@ _G.pg.base.gametip.notify_clock_tip = {
 
 _G.pg.base.gametip.notify_clock_button = {
 	tip = "アラーム権限を許可する"
+}
+
+
+_G.pg.base.gametip.skin_shop_nonuse_label = {
+	tip = "割引適用しない"
+}
+
+
+_G.pg.base.gametip.skin_shop_use_label = {
+	tip = "割引適用する"
+}
+
+
+_G.pg.base.gametip.skin_shop_discount_item_link = {
+	tip = "<color=#92fc63>割引クーポン</color><color=#ffea00>-$1</color>"
+}
+
+
+_G.pg.base.gametip.help_starLightAlbum = {
+	tip = {
+		{
+			info = "作戦実績："
+		},
+		{
+			info = [[
+1. 「思い出」画面に「作戦実績」が新規追加されます。
+2. イベント開催時、当該イベントの任務をクリアすると<color=#92fc63>「記念ステッカー」</color>を入手でき、さらにステッカーを集めると、記念章家具「レジスタンス本部ビル」と勲章「レジスタンス記念勲章」を入手できます。
+ ※ イベント開催中、<color=#92fc63>イベントバナーの「実績」か、「思い出」の「作戦実績」</color>から「記念ステッカー」ページに移動できます；
+ ※ イベント終了後、<color=#92fc63>「思い出」の「作戦実績」</color>でのみ「記念ステッカー」を確認できます；
+ ※ 「記念ステッカー」はイベント任務クリアで入手できます；
+ ※ 報酬受け取り画面の開放期間は1月8日（水）23:59まで；]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.word_gain_date = {
+	tip = "入手時間："
+}
+
+
+_G.pg.base.gametip.word_limited_activity = {
+	tip = "イベント"
+}
+
+
+_G.pg.base.gametip.word_show_expire_content = {
+	tip = "絶版中のコンテンツを表示"
 }

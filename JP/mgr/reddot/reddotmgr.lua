@@ -28,8 +28,9 @@ slot0.TYPES = {
 	ATTIRE = 6,
 	FRIEND = 8,
 	NEW_SERVER = 20,
-	DORM3D_FURNITURE = 24,
+	DORM3D_SHOP_TIMELIMIT = 25,
 	TASK = 2,
+	DORM3D_FURNITURE = 24,
 	MAIL = 3,
 	BUILD = 4,
 	SETTTING = 11,
@@ -139,6 +140,9 @@ slot0.BindConditions = function(slot0)
 	end)
 	slot0:BindCondition(uv0.TYPES.DORM3D_FURNITURE, function ()
 		return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "SelectDorm3DMediator") and Dorm3dFurniture.NeedViewTip()
+	end)
+	slot0:BindCondition(uv0.TYPES.DORM3D_SHOP_TIMELIMIT, function ()
+		return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "SelectDorm3DMediator") and Dorm3dFurniture.IsTimelimitShopTip()
 	end)
 end
 

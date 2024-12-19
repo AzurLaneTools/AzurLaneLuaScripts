@@ -15,6 +15,8 @@ slot0.DRAG_CLICK_MANY = 6
 slot0.DRAG_LISTENER_EVENT = 7
 slot0.DRAG_DOWN_TOUCH = 8
 slot0.DRAG_CLICK_PARAMETER = 9
+slot0.DRAG_ANIMATION_PLAY = 10
+slot0.DRAG_CLICK_RANGE = 11
 slot0.ON_ACTION_PLAY = 1
 slot0.ON_ACTION_DRAG_CLICK = 2
 slot0.ON_ACTION_CHANGE_IDLE = 3
@@ -46,6 +48,7 @@ slot0.EVENT_ADD_PARAMETER_COM = "event add parameter com "
 slot0.EVENT_REMOVE_PARAMETER_COM = "event remove parameter com "
 slot0.EVENT_CHANGE_IDLE_INDEX = "event change idle index"
 slot0.EVENT_GET_PARAMETER = "event get parameter num"
+slot0.EVENT_GET_WORLD_POSITION = "event get world position"
 slot0.relation_type_drag_x = 101
 slot0.relation_type_drag_y = 102
 slot0.relation_type_action_index = 103
@@ -128,6 +131,10 @@ slot10 = function(slot0, slot1)
 		return false
 	end
 
+	if slot1 == "idle" then
+		return true
+	end
+
 	if slot0.enablePlayActions and #slot0.enablePlayActions > 0 and not table.contains(slot0.enablePlayActions, slot1) then
 		print(tostring(slot1) .. "不在白名单中,不播放该动作")
 
@@ -167,7 +174,12 @@ slot11 = function(slot0, slot1, slot2)
 			slot0.playActionName = slot1
 
 			slot0.liveCom:SetAction(slot3)
-			slot0:live2dActionChange(true)
+
+			if slot1 == "idle" then
+				slot0:live2dActionChange(false)
+			else
+				slot0:live2dActionChange(true)
+			end
 
 			return true
 		else
@@ -215,6 +227,7 @@ slot14 = function(slot0, slot1, slot2)
 			end
 
 			if uv1(slot0, slot4, slot8 or false) then
+				print("id = " .. slot3 .. " 触发成功")
 				slot0:onListenerHandle(Live2D.ON_ACTION_PLAY, {
 					action = slot4
 				})
@@ -265,6 +278,12 @@ slot14 = function(slot0, slot1, slot2)
 		if slot2.callback then
 			slot2.callback(slot3)
 		end
+	elseif slot1 == Live2D.EVENT_GET_WORLD_POSITION then
+		slot3 = slot0._tf:TransformPoint(Vector3(slot2.pos[1], slot2.pos[2], slot2.pos[3]))
+
+		if slot2.callback then
+			slot2.callback(slot3)
+		end
 	end
 end
 
@@ -294,29 +313,33 @@ slot15 = function(slot0, slot1)
 	end
 
 	slot2 = false
-	slot3 = ReflectionHelp.RefGetField(typeof(Live2dChar), "reactPos", slot0.liveCom)
+	slot4 = slot0._animator:GetCurrentAnimatorStateInfo(0)
+	slot5 = {
+		reactPos = ReflectionHelp.RefGetField(typeof(Live2dChar), "reactPos", slot0.liveCom),
+		normalTime = slot4.normalizedTime,
+		stateInfo = slot4
+	}
 
-	for slot7 = 1, #slot0.drags do
-		slot0.drags[slot7]:changeReactValue(slot3)
-		slot0.drags[slot7]:stepParameter()
+	for slot9 = 1, #slot0.drags do
+		slot0.drags[slot9]:stepParameter(slot5)
 
-		slot9 = slot0.drags[slot7]:getActive()
+		slot11 = slot0.drags[slot9]:getActive()
 
-		if (slot0.drags[slot7]:getParameToTargetFlag() or slot9) and slot0.drags[slot7]:getIgnoreReact() then
+		if (slot0.drags[slot9]:getParameToTargetFlag() or slot11) and slot0.drags[slot9]:getIgnoreReact() then
 			slot2 = true
-		elseif slot0.drags[slot7]:getReactCondition() then
+		elseif slot0.drags[slot9]:getReactCondition() then
 			slot2 = true
 		end
 
-		slot11 = slot0.drags[slot7]:getParameterUpdateFlag()
+		slot13 = slot0.drags[slot9]:getParameterUpdateFlag()
 
-		if slot0.drags[slot7]:getParameter() and slot11 and slot0.drags[slot7]:getParameterCom() then
-			slot0.liveCom:ChangeParameterData(slot12, slot10)
+		if slot0.drags[slot9]:getParameter() and slot13 and slot0.drags[slot9]:getParameterCom() then
+			slot0.liveCom:ChangeParameterData(slot14, slot12)
 		end
 
-		for slot16, slot17 in ipairs(slot0.drags[slot7]:getRelationParameterList()) do
-			if slot17.enable then
-				slot0.liveCom:ChangeParameterData(slot17.com, slot17.value)
+		for slot18, slot19 in ipairs(slot0.drags[slot9]:getRelationParameterList()) do
+			if slot19.enable then
+				slot0.liveCom:ChangeParameterData(slot19.com, slot19.value)
 			end
 		end
 	end
@@ -386,17 +409,25 @@ slot16 = function(slot0)
 	slot0.eventTrigger = GetOrAddComponent(slot0.liveCom.transform.parent, typeof(EventTriggerListener))
 	slot1 = slot0.eventTrigger
 
-	slot1:AddPointDownFunc(function ()
+	slot1:AddPointDownFunc(function (slot0, slot1)
 		if uv0.useEventTriggerFlag then
-			uv0:onPointDown()
+			uv0:onPointDown(slot1)
 		end
 	end)
 
 	slot1 = slot0.eventTrigger
 
-	slot1:AddPointUpFunc(function ()
+	slot1:AddPointUpFunc(function (slot0, slot1)
 		if uv0.useEventTriggerFlag then
-			uv0:onPointUp()
+			uv0:onPointUp(slot1)
+		end
+	end)
+
+	slot1 = slot0.eventTrigger
+
+	slot1:AddDragFunc(function (slot0, slot1)
+		if uv0.useEventTriggerFlag then
+			uv0:onPointDrag(slot1)
 		end
 	end)
 
@@ -449,7 +480,7 @@ slot0.onListenerHandle = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.onPointDown = function(slot0)
+slot0.onPointDown = function(slot0, slot1)
 	if not slot0._l2dCharEnable then
 		return
 	end
@@ -457,20 +488,20 @@ slot0.onPointDown = function(slot0)
 	slot0.mouseInputDown = true
 
 	if #slot0.drags > 0 and slot0.liveCom:GetDragPart() > 0 then
-		slot1 = slot0.liveCom:GetDragPart()
-		slot2 = slot0.dragParts[slot1]
+		slot2 = slot0.liveCom:GetDragPart()
+		slot3 = slot0.dragParts[slot2]
 
-		if slot1 > 0 and slot2 then
-			for slot6, slot7 in ipairs(slot0.drags) do
-				if slot7.drawAbleName == slot2 then
-					slot7:startDrag()
+		if slot2 > 0 and slot3 then
+			for slot7, slot8 in ipairs(slot0.drags) do
+				if slot8.drawAbleName == slot3 then
+					slot8:startDrag(slot1)
 				end
 			end
 		end
 	end
 end
 
-slot0.onPointUp = function(slot0)
+slot0.onPointUp = function(slot0, slot1)
 	if not slot0._l2dCharEnable then
 		return
 	end
@@ -479,11 +510,23 @@ slot0.onPointUp = function(slot0)
 
 	if slot0.drags and #slot0.drags > 0 then
 		if slot0.liveCom:GetDragPart() > 0 then
-			slot2 = slot0.dragParts[slot1]
+			slot3 = slot0.dragParts[slot2]
 		end
 
+		for slot6 = 1, #slot0.drags do
+			slot0.drags[slot6]:stopDrag(slot1)
+		end
+	end
+end
+
+slot0.onPointDrag = function(slot0, slot1)
+	if not slot0._l2dCharEnable then
+		return
+	end
+
+	if slot0.drags and #slot0.drags > 0 then
 		for slot5 = 1, #slot0.drags do
-			slot0.drags[slot5]:stopDrag()
+			slot0.drags[slot5]:onDrag(slot1)
 		end
 	end
 end
@@ -769,7 +812,9 @@ slot0.saveLive2dData = function(slot0)
 end
 
 slot0.changeActionIdle = function(slot0)
-	slot0.liveCom:SetAction(uv0.idleActions[math.ceil(math.random(#uv0.idleActions))])
+	slot1 = uv0.idleActions[math.ceil(math.random(#uv0.idleActions))]
+
+	uv1(slot0, "idle", true)
 end
 
 slot0.enablePlayAction = function(slot0, slot1)

@@ -988,7 +988,7 @@ pg.mini_game = {
 		request_data = 0
 	},
 	{
-		is_ranking = 0,
+		is_ranking = 1,
 		view_name = "CurlingGameView",
 		game_room = 0,
 		type = 2,
@@ -2524,6 +2524,116 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "Shrine2022View",
+		game_room = 0,
+		type = 5,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2024神社舰娘许愿",
+		config_csv = "",
+		id = 70,
+		hub_id = 60,
+		request_data = 1,
+		simple_config_data = {
+			8,
+			65066,
+			1
+		},
+		config_data = {
+			0,
+			{
+				82,
+				83,
+				84,
+				85,
+				86,
+				87,
+				88
+			},
+			1
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "Shrine2022View",
+		game_room = 0,
+		type = 3,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		name = "2024神社指挥官许愿",
+		config_csv = "",
+		id = 71,
+		hub_id = 60,
+		request_data = 1,
+		simple_config_data = {
+			target = 100000,
+			shipGameID = 70
+		},
+		config_data = {
+			5,
+			{
+				10,
+				11,
+				12
+			},
+			2
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "CurlingGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "冰壶小游戏",
+		config_csv = "",
+		id = 72,
+		hub_id = 60,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					1,
+					449,
+					15
+				},
+				{
+					1,
+					449,
+					15
+				},
+				{
+					5,
+					317304,
+					1
+				},
+				{
+					1,
+					449,
+					25
+				},
+				{
+					1,
+					449,
+					25
+				},
+				{
+					1,
+					449,
+					25
+				},
+				{
+					5,
+					317107,
+					1
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3122,6 +3232,9 @@ pg.mini_game = {
 		67,
 		68,
 		69,
+		70,
+		71,
+		72,
 		1001,
 		1002,
 		1003,

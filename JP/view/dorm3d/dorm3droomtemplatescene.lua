@@ -287,7 +287,7 @@ slot0.BindEvent = function(slot0)
 		uv0:OnStickMove(slot1)
 	end)
 	slot0:bind(uv0.ON_BEGIN_DRAG_CHARACTER_BODY, function (slot0, slot1, slot2, slot3)
-		if slot1.blockIK then
+		if uv0.scene.blockIK then
 			return
 		end
 
@@ -382,6 +382,7 @@ slot0.BindEvent = function(slot0)
 			return
 		end
 
+		slot1.scene.blockIK = nil
 		slot2 = slot1.ikHandler
 		slot1.ikHandler = nil
 		slot1.ikNextCheckStamp = nil
@@ -680,7 +681,8 @@ slot0.InitSlots = function(slot0)
 		assert(slot3)
 
 		slot4 = {
-			trans = slot3
+			trans = slot3,
+			sceneHides = {}
 		}
 
 		if slot3:Find("Selector") then
@@ -753,19 +755,19 @@ slot0.UpdateContactDisplay = function(slot0, slot1, slot2)
 			-- Nothing
 		elseif not slot0.modelRoot:Find(slot8) then
 			warning(slot1, slot8)
-		else
-			slot10 = GetComponent(slot0.modelRoot:Find(slot8), typeof(EventTriggerListener))
+		elseif slot0:CheckSceneItemActive(slot0.modelRoot:Find(slot8)) then
+			slot11 = GetComponent(slot9, typeof(EventTriggerListener))
 
 			if slot2 == ApartmentRoom.ITEM_FIRST then
-				slot10 = slot10 or GetOrAddComponent(slot9, typeof(EventTriggerListener))
+				slot11 = slot11 or GetOrAddComponent(slot9, typeof(EventTriggerListener))
 
-				slot10:AddPointClickFunc(function (slot0, slot1)
+				slot11:AddPointClickFunc(function (slot0, slot1)
 					uv0:emit(uv1.CLICK_CONTACT, uv2)
 				end)
 
-				slot10.enabled = true
-			elseif slot10 then
-				slot10.enabled = false
+				slot11.enabled = true
+			elseif slot11 then
+				slot11.enabled = false
 			end
 
 			setActive(slot9, ApartmentRoom.ITEM_LOCK < slot2)
@@ -1484,30 +1486,46 @@ slot0.Update = function(slot0)
 				uv0:ResetIKTipTimer()
 			end)()
 
-			if slot0.enableIKTip then
+			if slot0.scene.enableIKTip then
 				slot3 = slot0:GetIKTipsRootTF()
 
 				if slot0.nextTipIKTime < Time.time then
-					UIItemList.StaticAlign(slot3, slot3:GetChild(0), #slot0.readyIKLayers, function (slot0, slot1, slot2)
+					slot4 = slot0
+
+					UIItemList.StaticAlign(slot3, slot3:GetChild(0), #slot4.readyIKLayers + #slot4.ikConfig.touch_data, function (slot0, slot1, slot2)
 						if slot0 ~= UIItemList.EventUpdate then
 							return
 						end
 
-						if (uv0.readyIKLayers[slot1 + 1].ikData:GetTriggerBoneName() and uv0.ladyColliders[slot4] or nil) and not (function ()
-							if CameraMgr.instance:Raycast(uv0.sceneRaycaster, uv0.raycastCamera:WorldToScreenPoint(uv1.position)).Length == 0 then
-								return
+						slot3 = nil
+						slot4 = Vector2.zero
+
+						if slot1 + 1 > #uv0.readyIKLayers then
+							if #pg.dorm3d_ik_touch[uv1.touch_data[slot1 - #uv0.readyIKLayers][1]].scene_item > 0 then
+								slot3 = uv2:GetSceneItem(slot7.scene_item)
+							else
+								slot3 = uv2.ladyColliders[slot7.body]
 							end
-
-							return uv1 == slot1[0].gameObject.transform
-						end)() then
-							slot5 = nil
+						else
+							slot3 = uv0.readyIKLayers[slot1].ikData:GetTriggerBoneName() and uv2.ladyColliders[slot6] or nil
+							slot4 = slot5:GetIKTipOffset()
 						end
 
-						if slot5 then
-							setLocalPosition(slot2, uv0:GetLocalPosition(uv0:GetScreenPosition(slot5.position), uv1) + slot3:GetIKTipOffset())
+						if slot3 then
+							slot5 = function()
+								if CameraMgr.instance:Raycast(uv0.sceneRaycaster, uv0.raycastCamera:WorldToScreenPoint(uv1.position)).Length == 0 then
+									return
+								end
+
+								return uv1 == slot1[0].gameObject.transform
+							end
 						end
 
-						setActive(slot2, slot5)
+						if slot3 then
+							setLocalPosition(slot2, uv2:GetLocalPosition(uv2:GetScreenPosition(slot3.position), uv3) + slot4)
+						end
+
+						setActive(slot2, slot3)
 					end)
 				end
 
@@ -1586,20 +1604,43 @@ slot0.RefreshSlots = function(slot0, slot1)
 		end) and slot4:GetModel() or false
 		slot6 = uv1.slotDict[slot3].model
 		uv1.slotDict[slot3].displayModelName = slot5
+		uv1.slotDict[slot3].furnitureId = slot4 and slot4:GetConfigID()
+
+		slot7 = function(slot0)
+			if uv0 then
+				setActive(uv0, uv1 == "")
+			end
+
+			table.Foreach(uv2.slotDict[uv3].sceneHides or {}, function (slot0, slot1)
+				setActive(slot1.trans, slot1.visible)
+			end)
+
+			uv2.slotDict[uv3].sceneHides = {}
+
+			if slot0 and #slot0:getConfig("scene_hides") > 0 then
+				table.Ipairs(slot1, function (slot0, slot1)
+					slot2 = uv0.modelRoot:Find(slot1)
+
+					assert(slot2, string.format("dorm3d_furniture_template:%d scene_hides missing scene item :%s", uv1:GetConfigID(), slot1))
+					table.insert(uv0.slotDict[uv2].sceneHides, {
+						name = slot1,
+						trans = slot2,
+						visible = isActive(slot2)
+					})
+					setActive(slot2, false)
+				end)
+			end
+		end
 
 		if slot5 == false or slot5 == "" then
 			uv1.loader:ClearRequest("slot_" .. slot3)
-
-			if slot6 then
-				setActive(slot6, slot5 == "")
-			end
-
+			slot7()
 			slot2()
 
 			return
 		end
 
-		slot7 = uv1.slotDict[slot3].trans
+		slot8 = uv1.slotDict[slot3].trans
 
 		if uv1.loader:GetLoadingRP("slot_" .. slot3) then
 			uv1:emit(uv2.HIDE_BLOCK)
@@ -1609,17 +1650,30 @@ slot0.RefreshSlots = function(slot0, slot1)
 			uv0()
 			assert(slot0)
 			setParent(slot0, uv1)
-
-			if uv2 then
-				table.IpairsCArray(slot0:GetComponentsInChildren(typeof(Renderer), true), function (slot0, slot1)
-					LuaHelper.CopyLightMap(slot1.gameObject, uv0)
-				end)
-				setActive(uv2, false)
-			end
+			uv2(uv3)
 		end, "slot_" .. slot3)
 	end, function ()
 		uv0:emit(uv1.HIDE_BLOCK)
 	end)
+end
+
+slot0.CheckSceneItemActiveByPath = function(slot0, slot1)
+	return slot0:CheckSceneItemActive(slot0:GetSceneItem(slot1))
+end
+
+slot0.CheckSceneItemActive = function(slot0, slot1)
+	table.Checkout(slot0.slotDict, function (slot0, slot1)
+		if underscore.detect(slot1.sceneHides, function (slot0)
+			return slot0.trans == uv0
+		end) then
+			uv1 = false
+			uv2 = slot1.furnitureId
+
+			return false
+		end
+	end)
+
+	return true, nil
 end
 
 slot0.ChangeCharacterPosition = function(slot0)
@@ -1879,10 +1933,28 @@ slot0.ActiveStateCamera = function(slot0, slot1, slot2)
 	seriesAsync(slot4, slot2)
 end
 
+slot0.GetSceneItem = function(slot0, slot1)
+	slot2 = nil
+
+	if string.find(slot1, "fbx/") == 1 then
+		slot2 = slot0.modelRoot:Find(slot1)
+	elseif string.find(slot1, "FurnitureSlots/") == 1 then
+		slot2 = slot0.slotRoot:Find(string.gsub(slot1, "^FurnitureSlots/", "", 1))
+	end
+
+	if not slot2 then
+		warning(string.format("Missing scene item path: %s", slot1))
+	end
+
+	return slot2
+end
+
 slot0.SetIKStatus = function(slot0, slot1, slot2)
+	slot3 = slot0
+
 	warning("Set IKStatus " .. (slot1.id or "NIL"))
 
-	slot0.enableIKTip = true
+	slot0.scene.enableIKTip = true
 
 	setActive(slot0.ladyCollider, false)
 	_.each(slot0.ladyTouchColliders, function (slot0)
@@ -1890,7 +1962,7 @@ slot0.SetIKStatus = function(slot0, slot1, slot2)
 	end)
 	table.clear(slot0.readyIKLayers)
 
-	slot0.blockIK = nil
+	slot0.scene.blockIK = nil
 
 	table.Foreach(_.map(slot1.ik_id, function (slot0)
 		return slot0[1]
@@ -1915,6 +1987,39 @@ slot0.SetIKStatus = function(slot0, slot1, slot2)
 			return slot0.IKPositionWeight
 		end)
 	end)
+	table.Foreach(_.map(slot1.touch_data, function (slot0)
+		return slot0[1]
+	end), function (slot0, slot1)
+		if #pg.dorm3d_ik_touch[slot1].scene_item == 0 then
+			return
+		end
+
+		if not uv0:GetSceneItem(slot2.scene_item) then
+			warning(string.format("dorm3d_ik_touch:%d without scene_item:%s", slot1, slot2.scene_item))
+
+			return
+		end
+
+		if IsNil(GetComponent(slot3, typeof(UnityEngine.Collider))) then
+			go(slot3):AddComponent(typeof(UnityEngine.BoxCollider))
+		end
+
+		slot4 = GetOrAddComponent(slot3, typeof(EventTriggerListener))
+		slot4.enabled = true
+
+		slot4:AddPointClickFunc(function ()
+			uv0.scene.blockIK = true
+			slot1, slot2, slot3 = unpack(uv1.touch_data[uv2])
+
+			uv0:TouchModeAction(uv3, unpack(slot3))(function ()
+				uv0.scene.enableIKTip = true
+
+				uv0:ResetIKTipTimer()
+
+				uv0.scene.blockIK = nil
+			end)
+		end)
+	end)
 
 	slot0.camBrain.enabled = false
 
@@ -1924,23 +2029,36 @@ slot0.SetIKStatus = function(slot0, slot1, slot2)
 		slot0.cameras[uv0.CAMERA.IK_WATCH] = nil
 	end
 
-	slot4 = slot0.cameraRoot:Find(slot1.ik_camera)
+	slot6 = slot0.cameraRoot:Find(slot1.ik_camera)
 
-	assert(slot4, "Missing IKCamera")
+	assert(slot6, "Missing IKCamera")
 
-	slot0.cameras[uv0.CAMERA.IK_WATCH] = slot4
+	slot0.cameras[uv0.CAMERA.IK_WATCH] = slot6
 
 	slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.IK_WATCH])
 
 	slot0.camBrain.enabled = true
 
-	if slot4:GetComponent(typeof(Cinemachine.CinemachineFreeLook)) then
-		slot0:RegisterOrbits(slot5)
+	if slot6:GetComponent(typeof(Cinemachine.CinemachineFreeLook)) then
+		slot0:RegisterOrbits(slot7)
 	end
 
 	slot0:SettingHeadAimIK(slot0, slot0.ikConfig.head_track)
 	slot0:ResetIKTipTimer()
 	slot0:SwitchAnim(slot1.character_action)
+
+	slot9 = {}
+
+	if slot1.enter_scene_anim and #slot8 > 0 then
+		table.Ipairs(slot8, function (slot0, slot1)
+			uv0.scene:PlaySceneItemAnim(slot1[1], slot1[2])
+			table.insert(uv1, slot1[1])
+		end)
+	end
+
+	slot10 = slot0.scene
+
+	slot10:ResetSceneItemAnimators(slot9)
 	onNextTick(function ()
 		slot0 = uv0.furnitures:Find(uv1.character_position)
 		uv0.lady.position = slot0:Find("StayPoint").position
@@ -1953,7 +2071,8 @@ slot0.SetIKStatus = function(slot0, slot1, slot2)
 end
 
 slot0.ExitIKStatus = function(slot0, slot1, slot2)
-	slot0.enableIKTip = false
+	slot3 = slot0
+	slot0.scene.enableIKTip = false
 
 	setActive(slot0.ladyCollider, true)
 	_.each(slot0.ladyTouchColliders, function (slot0)
@@ -1968,6 +2087,23 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2)
 		setActive(slot0, false)
 	end)
 	setActive(slot0:GetIKTipsRootTF(), false)
+	table.Foreach(_.map(slot1.touch_data or {}, function (slot0)
+		return slot0[1]
+	end), function (slot0, slot1)
+		if #pg.dorm3d_ik_touch[slot1].scene_item == 0 then
+			return
+		end
+
+		if not uv0.modelRoot:Find(slot2.scene_item) then
+			return
+		end
+
+		slot4 = GetOrAddComponent(slot3, typeof(EventTriggerListener))
+
+		slot4:ClearEvents()
+
+		slot4.enabled = false
+	end)
 	slot0:RevertCameraOrbit()
 	setActive(slot0.cameras[uv0.CAMERA.IK_WATCH], false)
 
@@ -1976,6 +2112,7 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2)
 	slot0:EnableCloth(false)
 	slot0:ResetHeadAimIK(slot0)
 	slot0:SwitchAnim(slot1.character_action)
+	slot0.scene:ResetSceneItemAnimators()
 	onNextTick(function ()
 		if uv0.character_position then
 			uv1.ladyActiveZone = uv0.character_position
@@ -2172,12 +2309,12 @@ end
 
 slot0.PlayIKAction = function(slot0, slot1)
 	warning("Trigger IK", slot1:GetConfigID())
-	slot0:emit(uv0.ON_IK_STATUS_CHANGED, slot1:GetConfigID(), uv0.IK_STATUS.TRIGGER)
 	slot0:OnTriggerIK(slot1:GetConfigID())
+	slot0:emit(uv0.ON_IK_STATUS_CHANGED, slot1:GetConfigID(), uv0.IK_STATUS.TRIGGER)
 end
 
 slot0.ResetIKTipTimer = function(slot0)
-	if not slot0.enableIKTip then
+	if not slot0.scene.enableIKTip then
 		return
 	end
 
@@ -2500,6 +2637,24 @@ slot0.SwitchCameraZone = function(slot0, slot1, slot2, slot3)
 			onNextTick(function ()
 				uv0:ResetCharPoint(uv1:GetWatchCameraName())
 				uv0:SyncInterestTransform(uv0)
+
+				if uv0.contextData.photoFreeMode then
+					uv0.camBrain.enabled = false
+					slot0 = uv0
+
+					slot0:SwitchPhotoCamera()
+
+					uv0.camBrain.enabled = true
+
+					onDelayTick(function ()
+						uv0.camBrain.enabled = false
+
+						uv0:SwitchPhotoCamera()
+
+						uv0.camBrain.enabled = true
+					end, 0.1)
+				end
+
 				uv2()
 			end)
 		end,
@@ -2747,58 +2902,115 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 end
 
 slot0.PlaySingleAction = function(slot0, slot1, slot2)
+	slot3 = slot0
+
 	if tobool(string.find(slot1, "^Face_")) then
 		slot0:PlayFaceAnim(slot1, slot2)
 
 		return
 	end
 
-	slot0.animNameMap = slot0.animNameMap or {}
-	slot0.animNameMap[slot0.ladyAnimator.StringToHash(slot1)] = slot1
-	slot5 = {}
+	if slot3.ladyAnimator:GetCurrentAnimatorStateInfo(slot3.ladyAnimBaseLayerIndex):IsName(slot1) then
+		return
+	end
 
-	if not slot0.ladyAnimator:GetCurrentAnimatorStateInfo(slot0.ladyAnimBaseLayerIndex):IsName(slot1) then
-		table.insert(slot5, function (slot0)
+	existCall(slot3.animExtraItemCallback)
+
+	slot3.animExtraItemCallback = nil
+	slot3.animNameMap = slot3.animNameMap or {}
+	slot3.animNameMap[slot3.ladyAnimator.StringToHash(slot1)] = slot1
+	slot8 = _.detect(pg.dorm3d_anim_extraitem.get_id_list_by_ship_id[slot3:GetBlackboardValue("groupId")] or {}, function (slot0)
+		return pg.dorm3d_anim_extraitem[slot0].anim == uv0
+	end) and pg.dorm3d_anim_extraitem[slot7]
+	slot9 = nil
+
+	seriesAsync({
+		function (slot0)
+			if not uv0 or uv0.item_prefab == "" then
+				slot0()
+
+				return
+			end
+
+			uv1.loader:GetPrefab(string.lower("dorm3d/furniture/item/" .. uv0.item_prefab), "", function (slot0)
+				setParent(slot0, uv0.lady)
+
+				if uv1.item_shield ~= "" then
+					uv2 = {}
+
+					for slot4, slot5 in ipairs(uv1.item_shield) do
+						if not uv3.modelRoot:Find(slot5) then
+							warning(string.format("dorm3d_anim_extraitem:%d without hide item:%s", uv1.id, slot5))
+						else
+							uv2[slot5] = isActive(slot6)
+
+							setActive(slot6, false)
+						end
+					end
+				end
+
+				uv3.animExtraItemCallback = function()
+					uv0.loader:ClearRequest("AnimExtraItem")
+
+					if uv1 then
+						for slot3, slot4 in pairs(uv1) do
+							setActive(uv0.modelRoot:Find(slot3), slot4)
+						end
+					end
+				end
+
+				uv4()
+			end, "AnimExtraItem")
+		end,
+		function (slot0)
 			uv0.nowState = uv1
 			uv0.stateCallback = slot0
 
 			uv0.ladyAnimator:CrossFadeInFixedTime(uv1, 0.25, uv0.ladyAnimBaseLayerIndex)
-		end)
-		table.insert(slot5, function (slot0)
+		end,
+		function (slot0)
 			uv0.nowState = nil
 			uv0.stateCallback = nil
 
-			slot0()
-		end)
-	end
+			existCall(uv1.animExtraItemCallback)
 
-	seriesAsync(slot5, slot2)
+			uv1.animExtraItemCallback = nil
+
+			slot0()
+		end,
+		slot2
+	})
 end
 
 slot0.SwitchAnim = function(slot0, slot1, slot2)
+	slot3 = slot0
+
 	if tobool(string.find(slot1, "^Face_")) then
 		slot0:PlayFaceAnim(slot1, slot2)
 
 		return
 	end
 
+	existCall(slot3.animExtraItemCallback)
+
+	slot3.animExtraItemCallback = nil
 	slot0.animNameMap = slot0.animNameMap or {}
 	slot0.animNameMap[slot0.ladyAnimator.StringToHash(slot1)] = slot1
-	slot5 = {}
+	slot6 = {}
 
-	table.insert(slot5, function (slot0)
+	table.insert(slot6, function (slot0)
 		uv0.nowState = uv1
 		uv0.stateCallback = slot0
 
 		uv0.ladyAnimator:PlayInFixedTime(uv1, uv0.ladyAnimBaseLayerIndex)
 	end)
-	table.insert(slot5, function (slot0)
+	table.insert(slot6, function (slot0)
 		uv0.nowState = nil
 		uv0.stateCallback = nil
 
 		slot0()
 	end)
-	seriesAsync(slot5, slot2)
+	seriesAsync(slot6, slot2)
 end
 
 slot0.PlayFaceAnim = function(slot0, slot1, slot2)
@@ -2835,6 +3047,53 @@ end
 
 slot0.RegisterAnimEventCallback = function(slot0, slot1, slot2)
 	slot0.animEventCallbacks[slot1] = slot2
+end
+
+slot0.PlaySceneItemAnim = function(slot0, slot1, slot2)
+	slot0.sceneAnimatorDict = slot0.sceneAnimatorDict or {}
+
+	if not slot0.sceneAnimatorDict[slot1] then
+		slot3 = pg.dorm3d_scene_animator[slot1]
+		slot4 = slot0:GetSceneItem(slot3.item_name)
+
+		assert(slot4, "Missing Scene Animator in pg.dorm3d_scene_animator: " .. slot1 .. " " .. slot3.item_name)
+
+		if not slot4 then
+			return
+		end
+
+		if not slot4:GetComponent(typeof(Animator)) then
+			return
+		end
+
+		slot0.sceneAnimatorDict[slot1] = {
+			trans = slot4,
+			animator = slot5
+		}
+	end
+
+	if slot0.sceneAnimatorDict[slot1].animator:GetCurrentAnimatorStateInfo(0):IsName(slot2) then
+		return
+	end
+
+	slot0.sceneAnimatorDict[slot1].animator:PlayInFixedTime(slot2)
+end
+
+slot0.ResetSceneItemAnimators = function(slot0, slot1)
+	if not slot0.sceneAnimatorDict then
+		return
+	end
+
+	table.Foreach(slot0.sceneAnimatorDict, function (slot0, slot1)
+		if uv0 and table.contains(uv0, slot0) then
+			return
+		end
+
+		setActive(slot1.trans, false)
+		setActive(slot1.trans, true)
+
+		uv1.sceneAnimatorDict[slot0] = nil
+	end)
 end
 
 slot0.RegisterCameraBlendFinished = function(slot0, slot1, slot2)

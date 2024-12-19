@@ -52,7 +52,7 @@ pg.item_data_battleui = {
 		unlock = "クルーズパス20期報酬",
 		name = "ネオン",
 		key = "SkinNormal_20241107",
-		display_icon = "Ui_104",
+		display_icon = "ui_104",
 		is_unlock = 1,
 		rare = 3,
 		desc = "煌めくネオンにリズミックなビーム演出で流れるような体験をもたらす",
@@ -60,11 +60,24 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[201] = {
+		unlock = "ショップ購入（戦闘UI・クリスマス）",
+		name = "クリスマス",
+		key = "SkinNormal_20241209",
+		display_icon = "ui_201",
+		is_unlock = 1,
+		rare = 4,
+		desc = "舞い散る雪と霜が描き出すおとぎ話の景色。冬の雰囲気を愛する指揮官にもたらす戦場のウィンターロマンス",
+		id = 201,
+		icon = "201",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
-		104
+		104,
+		201
 	}
 }

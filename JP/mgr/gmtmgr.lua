@@ -61,12 +61,12 @@ slot0.showGMT = function(slot0, slot1)
 		slot0._gmtTimer:Start()
 	end
 
-	slot0.focusShowTip = true
-
-	slot0:onTimer()
+	slot0._triggerStop = false
 end
 
 slot0.showTip = function(slot0)
+	print(slot0._subTime)
+
 	slot1 = false
 
 	if slot0.focusShowTip then

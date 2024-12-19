@@ -15040,6 +15040,37 @@ _G.pg.base.item_data_statistics[21041] = {
 }
 
 
+_G.pg.base.item_data_statistics[21042] = {
+	open_directly = 0,
+	name = "結晶：アドミラル・ヒッパー(META)",
+	type = 4,
+	display = "アドミラル・ヒッパー(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21042",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21042,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -25233,6 +25264,131 @@ _G.pg.base.item_data_statistics[30362] = {
 		{
 			9,
 			1467,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30363] = {
+	open_directly = 1,
+	name = "装備外装箱(ラフフォース)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuangyeliliang",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30363",
+	id = 30363,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4077,
+			1
+		},
+		{
+			9,
+			4078,
+			1
+		},
+		{
+			9,
+			4079,
+			1
+		},
+		{
+			9,
+			4080,
+			1
+		},
+		{
+			9,
+			4081,
+			1
+		},
+		{
+			9,
+			4082,
+			1
+		},
+		{
+			9,
+			4083,
+			1
+		},
+		{
+			9,
+			4084,
+			1
+		},
+		{
+			9,
+			4085,
+			1
+		},
+		{
+			9,
+			4086,
+			1
+		},
+		{
+			9,
+			4087,
+			1
+		},
+		{
+			9,
+			4088,
+			1
+		},
+		{
+			9,
+			4089,
+			1
+		},
+		{
+			9,
+			4090,
+			1
+		},
+		{
+			9,
+			4091,
+			1
+		},
+		{
+			9,
+			4092,
+			1
+		},
+		{
+			9,
+			4093,
+			1
+		},
+		{
+			9,
+			4094,
 			1
 		}
 	},
@@ -36357,7 +36513,7 @@ _G.pg.base.item_data_statistics[30546] = {
 
 
 _G.pg.base.item_data_statistics[30547] = {
-	open_directly = 1,
+	open_directly = 0,
 	name = "選択装備外装箱（ハロウィンホラー）",
 	type = 13,
 	display = "使用すると、装備外装（ハロウィンホラー）から任意の装備外装を1個選択して入手できます",
@@ -36988,6 +37144,219 @@ _G.pg.base.item_data_statistics[30549] = {
 		{
 			9,
 			577,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30550] = {
+	open_directly = 0,
+	name = "選択装備外装箱（ラフフォース）",
+	type = 13,
+	display = "使用すると、装備外装（ラフフォース）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuangyeliliangzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30550,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4077,
+			1
+		},
+		{
+			9,
+			4078,
+			1
+		},
+		{
+			9,
+			4079,
+			1
+		},
+		{
+			9,
+			4080,
+			1
+		},
+		{
+			9,
+			4081,
+			1
+		},
+		{
+			9,
+			4082,
+			1
+		},
+		{
+			9,
+			4083,
+			1
+		},
+		{
+			9,
+			4084,
+			1
+		},
+		{
+			9,
+			4085,
+			1
+		},
+		{
+			9,
+			4086,
+			1
+		},
+		{
+			9,
+			4087,
+			1
+		},
+		{
+			9,
+			4088,
+			1
+		},
+		{
+			9,
+			4089,
+			1
+		},
+		{
+			9,
+			4090,
+			1
+		},
+		{
+			9,
+			4091,
+			1
+		},
+		{
+			9,
+			4092,
+			1
+		},
+		{
+			9,
+			4093,
+			1
+		},
+		{
+			9,
+			4094,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4077,
+			1
+		},
+		{
+			9,
+			4078,
+			1
+		},
+		{
+			9,
+			4079,
+			1
+		},
+		{
+			9,
+			4080,
+			1
+		},
+		{
+			9,
+			4081,
+			1
+		},
+		{
+			9,
+			4082,
+			1
+		},
+		{
+			9,
+			4083,
+			1
+		},
+		{
+			9,
+			4084,
+			1
+		},
+		{
+			9,
+			4085,
+			1
+		},
+		{
+			9,
+			4086,
+			1
+		},
+		{
+			9,
+			4087,
+			1
+		},
+		{
+			9,
+			4088,
+			1
+		},
+		{
+			9,
+			4089,
+			1
+		},
+		{
+			9,
+			4090,
+			1
+		},
+		{
+			9,
+			4091,
+			1
+		},
+		{
+			9,
+			4092,
+			1
+		},
+		{
+			9,
+			4093,
+			1
+		},
+		{
+			9,
+			4094,
 			1
 		}
 	},
@@ -40224,6 +40593,147 @@ _G.pg.base.item_data_statistics[40050] = {
 			2,
 			16502,
 			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40051] = {
+	open_directly = 1,
+	name = "戦闘UI・クリスマス（単品） ",
+	type = 17,
+	display = "購入すると戦闘UIテーマ・クリスマスを入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4053",
+	id = 40051,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			201,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40052] = {
+	open_directly = 1,
+	name = "戦闘UI・クリスマス（セット） ",
+	type = 17,
+	display = "購入すると戦闘UIテーマ・クリスマス、ダイヤ×3060を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4054",
+	id = 40052,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			201,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40053] = {
+	open_directly = 1,
+	name = "冬至礼包(2024冬)",
+	type = 17,
+	display = "购买礼包可获得大量材料奖励",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4031",
+	id = 40053,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			3880
+		},
+		{
+			4,
+			100021,
+			1
+		},
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			16502,
+			60
+		},
+		{
+			2,
+			30113,
+			150
 		}
 	},
 	price = {},
@@ -104343,6 +104853,266 @@ _G.pg.base.item_data_statistics[60518] = {
 }
 
 
+_G.pg.base.item_data_statistics[60519] = {
+	open_directly = 0,
+	name = "正月招待状2025",
+	type = 21,
+	display = "使用すると、SSR艦船から1名選んで入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60519",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60519,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2801,
+		2802,
+		2803,
+		2804,
+		2805,
+		2806,
+		2807
+	},
+	limit = {},
+	open_ui = {
+		"shrine_year",
+		"t_shrine"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60520] = {
+	open_directly = 0,
+	name = "グラーフ・ツェッペリンからの返礼",
+	type = 1,
+	display = "招待に対しての、グラーフ・ツェッペリンからの返礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60520,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60521] = {
+	open_directly = 0,
+	name = "ベルファストからの返礼",
+	type = 1,
+	display = "招待に対しての、ベルファストからの返礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60521,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60522] = {
+	open_directly = 0,
+	name = "サウスダコタからの返礼",
+	type = 1,
+	display = "招待に対しての、サウスダコタからの返礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60522,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60523] = {
+	open_directly = 0,
+	name = "フォーミダブルからの返礼",
+	type = 1,
+	display = "招待に対しての、フォーミダブルからの返礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60523,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60524] = {
+	open_directly = 0,
+	name = "能代からの返礼",
+	type = 1,
+	display = "招待に対しての、能代からの返礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60524,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60525] = {
+	open_directly = 0,
+	name = "ビスマルクからの返礼",
+	type = 1,
+	display = "招待に対しての、ビスマルクからの返礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60525,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60526] = {
+	open_directly = 0,
+	name = "リシュリューからの返礼",
+	type = 1,
+	display = "招待に対しての、リシュリューからの返礼",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60526,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "新年福袋2024①",
@@ -104844,6 +105614,73 @@ _G.pg.base.item_data_statistics[81207] = {
 			1,
 			14,
 			2024
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81208] = {
+	open_directly = 1,
+	name = "新年福袋2025A",
+	type = 17,
+	display = "ランダムな（ランダム2025新年衣装Aの）着せ替え衣装、上級指向型強化ユニット・七期目×2、ダイヤ×2025、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai19",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998310",
+	id = 81208,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86208,
+			1
+		},
+		{
+			1,
+			14,
+			2025
 		},
 		{
 			2,

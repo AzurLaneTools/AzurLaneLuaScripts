@@ -35,94 +35,99 @@ slot32 = pg.strategy_data_template
 slot0.Battle.BattleDataFunction = slot0.Battle.BattleDataFunction or {}
 slot33 = slot0.Battle.BattleDataFunction
 
-slot33.CreateBattleUnitData = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11)
-	slot12, slot13 = nil
+slot33.CreateBattleUnitData = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9, slot10, slot11, slot12)
+	slot13, slot14 = nil
 
 	if slot1 == uv0.UnitType.PLAYER_UNIT then
-		slot12 = uv1.Battle.BattlePlayerUnit.New(slot0, slot2)
+		slot13 = uv1.Battle.BattlePlayerUnit.New(slot0, slot2)
 
-		slot12:SetSkinId(slot4)
-		slot12:SetWeaponInfo(slot9, slot10)
+		slot13:SetSkinId(slot4)
+		slot13:SetWeaponInfo(slot9, slot10)
 
-		slot13 = Ship.WEAPON_COUNT
+		slot14 = Ship.WEAPON_COUNT
 	elseif slot1 == uv0.UnitType.SUB_UNIT then
-		slot12 = uv1.Battle.BattleSubUnit.New(slot0, slot2)
+		slot13 = uv1.Battle.BattleSubUnit.New(slot0, slot2)
 
-		slot12:SetSkinId(slot4)
-		slot12:SetWeaponInfo(slot9, slot10)
+		slot13:SetSkinId(slot4)
+		slot13:SetWeaponInfo(slot9, slot10)
 
-		slot13 = Ship.WEAPON_COUNT
+		slot14 = Ship.WEAPON_COUNT
 	elseif slot1 == uv0.UnitType.ENEMY_UNIT then
 		uv1.Battle.BattleEnemyUnit.New(slot0, slot2):SetOverrideLevel(slot11)
 	elseif slot1 == uv0.UnitType.MINION_UNIT then
-		slot12 = uv1.Battle.BattleMinionUnit.New(slot0, slot2)
+		slot13 = uv1.Battle.BattleMinionUnit.New(slot0, slot2)
 	elseif slot1 == uv0.UnitType.BOSS_UNIT then
 		uv1.Battle.BattleBossUnit.New(slot0, slot2):SetOverrideLevel(slot11)
 	elseif slot1 == uv0.UnitType.CONST_UNIT then
-		slot12 = uv1.Battle.BattleConstPlayerUnit.New(slot0, slot2)
+		slot13 = uv1.Battle.BattleConstPlayerUnit.New(slot0, slot2)
 
-		slot12:SetSkinId(slot4)
-		slot12:SetWeaponInfo(slot9, slot10)
+		slot13:SetSkinId(slot4)
+		slot13:SetWeaponInfo(slot9, slot10)
 
-		slot13 = Ship.WEAPON_COUNT
+		slot14 = Ship.WEAPON_COUNT
 	elseif slot1 == uv0.UnitType.CARDPUZZLE_PLAYER_UNIT then
-		slot12 = uv1.Battle.BattleCardPuzzlePlayerUnit.New(slot0, slot2)
+		slot13 = uv1.Battle.BattleCardPuzzlePlayerUnit.New(slot0, slot2)
 
-		slot12:SetSkinId(slot4)
-		slot12:SetWeaponInfo(slot9, slot10)
+		slot13:SetSkinId(slot4)
+		slot13:SetWeaponInfo(slot9, slot10)
 	elseif slot1 == uv0.UnitType.SUPPORT_UNIT then
-		slot12 = uv1.Battle.BattleSupportUnit.New(slot0, slot2)
+		slot13 = uv1.Battle.BattleSupportUnit.New(slot0, slot2)
 
-		slot12:SetSkinId(slot4)
-		slot12:SetWeaponInfo(slot9, slot10)
+		slot13:SetSkinId(slot4)
+		slot13:SetWeaponInfo(slot9, slot10)
 	end
 
-	slot12:SetTemplate(slot3, slot6, slot7)
+	slot13:SetTemplate(slot3, slot6, slot7)
 
-	slot14 = {}
+	if slot1 == uv0.UnitType.MINION_UNIT then
+		slot13:SetMaster(slot12)
+		slot13:InheritMasterAttr()
+	end
+
+	slot15 = {}
 
 	if slot1 == uv0.UnitType.ENEMY_UNIT or slot1 == uv0.UnitType.MINION_UNIT or slot1 == uv0.UnitType.BOSS_UNIT then
-		for slot18, slot19 in ipairs(slot5) do
-			slot14[#slot14 + 1] = {
+		for slot19, slot20 in ipairs(slot5) do
+			slot15[#slot15 + 1] = {
 				equipment = {
 					weapon_id = {
-						slot19.id
+						slot20.id
 					}
 				}
 			}
 		end
 	else
-		for slot18, slot19 in ipairs(slot5) do
-			if not slot19.id then
-				slot14[#slot14 + 1] = {
+		for slot19, slot20 in ipairs(slot5) do
+			if not slot20.id then
+				slot15[#slot15 + 1] = {
 					equipment = false,
 					torpedoAmmo = 0,
-					skin = slot19.skin
+					skin = slot20.skin
 				}
 			else
-				slot20 = slot19.equipmentInfo and slot19.equipmentInfo:getConfig("torpedo_ammo") or 0
+				slot21 = slot20.equipmentInfo and slot20.equipmentInfo:getConfig("torpedo_ammo") or 0
 
-				if not slot13 or slot18 <= slot13 or #uv2.GetWeaponDataFromID(slot19.id).weapon_id then
-					slot14[#slot14 + 1] = {
-						equipment = uv2.GetWeaponDataFromID(slot19.id),
-						skin = slot19.skin,
-						torpedoAmmo = slot20
+				if not slot14 or slot19 <= slot14 or #uv2.GetWeaponDataFromID(slot20.id).weapon_id then
+					slot15[#slot15 + 1] = {
+						equipment = uv2.GetWeaponDataFromID(slot20.id),
+						skin = slot20.skin,
+						torpedoAmmo = slot21
 					}
 				else
-					slot14[#slot14 + 1] = {
+					slot15[#slot15 + 1] = {
 						equipment = false,
-						skin = slot19.skin,
-						torpedoAmmo = slot20
+						skin = slot20.skin,
+						torpedoAmmo = slot21
 					}
 				end
 			end
 		end
 	end
 
-	slot12:SetProficiencyList(slot8)
-	slot12:SetEquipment(slot14)
+	slot13:SetProficiencyList(slot8)
+	slot13:SetEquipment(slot15)
 
-	return slot12
+	return slot13
 end
 
 slot33.InitUnitSkill = function(slot0, slot1, slot2)

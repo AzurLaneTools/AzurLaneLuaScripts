@@ -149,7 +149,11 @@ slot0.InitList = function(slot0)
 			return slot1.order < slot0.order
 		end
 	end)
-	slot0.list:SetTotalCount(#slot0.display)
+
+	if isActive(slot0.listTF) then
+		slot0.list:SetTotalCount(#slot0.display)
+	end
+
 	setActive(slot0.noMsgTF, #slot0.display == 0)
 	setActive(slot0.scrollBarTF, not #slot0.display == 0)
 end
