@@ -35269,7 +35269,7 @@ _G.pg.base.gametip.cruise_title_2410 = {
 
 
 _G.pg.base.gametip.cruise_title_2412 = {
-	tip = "월드 투어·XX기"
+	tip = "월드 투어·20기"
 }
 
 
@@ -35990,4 +35990,29 @@ _G.pg.base.gametip.tolovegame_puzzle_line_tip = {
 
 _G.pg.base.gametip.tolovegame_puzzle_puzzle_tip = {
 	tip = "부품은 이음점에 맞춰서 배치 가능"
+}
+
+
+_G.pg.base.gametip.maintenance_message_text = {
+	tip = "서버가 $1 후에 점검에 들어갈 예정입니다. 점검 중에는 게임을 플레이하실 수 없습니다. 모쪼록 너른 양해와 협력 부탁드립니다."
+}
+
+
+_G.pg.base.gametip.maintenance_message_stop_text = {
+	tip = "서버 정지 중"
+}
+
+
+_G.pg.base.gametip.task_get = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.notify_clock_tip = {
+	tip = "해당 권한이 허가되지 않아 알림 기능을 유효화할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.notify_clock_button = {
+	tip = "알람 권한 허가"
 }

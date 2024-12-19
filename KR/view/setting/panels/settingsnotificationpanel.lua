@@ -1,4 +1,5 @@
 slot0 = class("SettingsNotificationPanel", import(".SettingsBasePanel"))
+slot0.UPDATE_ALARM_PANEL = "SettingsNotificationPanel.UPDATE_ALARM_PANEL"
 
 slot0.GetUIName = function(slot0)
 	return "SettingsNotifications"
@@ -13,16 +14,39 @@ slot0.GetTitleEn = function(slot0)
 end
 
 slot0.OnInit = function(slot0)
-	slot2 = slot0._tf
-	slot3 = slot0._tf
-	slot0.uilist = UIItemList.New(slot2:Find("options"), slot3:Find("options/notify_tpl"))
-	slot1 = slot0.uilist
+	slot0.uilist = UIItemList.New(slot0._tf:Find("options"), slot0._tf:Find("options/notify_tpl"))
 
-	slot1:make(function (slot0, slot1, slot2)
+	slot0.uilist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:UpdateItem(slot1 + 1, slot2)
 		end
 	end)
+	slot0:UpdateAndroidAlarm()
+end
+
+slot0.UpdateAndroidAlarm = function(slot0)
+	slot0.alarmBtn = slot0._tf:Find("android_alarm_btn")
+	slot0.alarmPanel = slot0._tf:Find("android_alarm_panel")
+	slot2 = NotificationMgr.Inst:CanScheduleExactAlarms()
+
+	if not CameraHelper.IsAndroid() or LOCK_ANDROID_EXACT_ALARM then
+		setActive(slot0.alarmBtn, false)
+		setActive(slot0.alarmPanel, false)
+	elseif not slot2 then
+		setActive(slot0.alarmBtn, true)
+		setActive(slot0.alarmPanel, true)
+
+		slot3 = slot0.alarmPanel
+		slot0.alarmPanelTipText = slot3:Find("tip/Text")
+
+		setText(slot0.alarmPanelTipText, i18n("notify_clock_tip"))
+		onButton(slot0, slot0.alarmBtn, function ()
+			NotificationMgr.Inst:RequestScheduleExactAlarms()
+		end, SFX_PANEL)
+	else
+		setActive(slot0.alarmBtn, false)
+		setActive(slot0.alarmPanel, false)
+	end
 end
 
 slot0.UpdateItem = function(slot0, slot1, slot2)

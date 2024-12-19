@@ -28,6 +28,11 @@ slot0.OnBindEvent = function(slot0)
 			slot0:OnRandomFlagshipFlagUpdate()
 		end
 	end)
+	slot0:bind(SettingsNotificationPanel.UPDATE_ALARM_PANEL, function ()
+		if uv0:GetPanel(SettingsNotificationPanel) then
+			slot0:UpdateAndroidAlarm()
+		end
+	end)
 end
 
 slot0.GetPanels = function(slot0)

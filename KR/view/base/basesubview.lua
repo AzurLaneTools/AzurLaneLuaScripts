@@ -142,6 +142,20 @@ slot0.ActionInvoke = function(slot0, slot1, ...)
 	slot0:HandleFuncQueue()
 end
 
+slot0.ActionInvokeExclusive = function(slot0, slot1, ...)
+	slot3 = #slot0._funcQueue
+
+	while slot3 > 0 do
+		if slot0._funcQueue[slot3].funcName == slot1 then
+			table.remove(slot0._funcQueue, slot3)
+		end
+
+		slot3 = slot3 - 1
+	end
+
+	slot0:ActionInvoke(slot1, ...)
+end
+
 slot0.CallbackInvoke = function(slot0, slot1, ...)
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
 		func = slot1,

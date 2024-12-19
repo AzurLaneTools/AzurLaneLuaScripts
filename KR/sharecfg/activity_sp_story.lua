@@ -1707,7 +1707,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EP3-1 클리어",
 		change_background = "bg_tolove_2",
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA10",
-		change_bgm = "tl-battle-inst",
+		change_bgm = "main",
 		id = 99,
 		pre_event = {
 			98
@@ -1726,7 +1726,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EP3-2 클리어",
 		change_background = "bg_tolove_2",
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA11",
-		change_bgm = "tl-battle-inst",
+		change_bgm = "main",
 		id = 100,
 		pre_event = {
 			98
@@ -1745,7 +1745,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EP3-3 클리어",
 		change_background = "bg_tolove_2",
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA12",
-		change_bgm = "tl-battle-inst",
+		change_bgm = "main",
 		id = 101,
 		pre_event = {
 			98
@@ -1764,7 +1764,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EP3-4 클리어",
 		change_background = "bg_tolove_2",
 		story = "1878003",
-		change_bgm = "tl-battle-inst",
+		change_bgm = "main",
 		id = 102,
 		pre_event = {
 			99,
@@ -1785,7 +1785,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EP4-1 클리어",
 		change_background = "bg_tolove_2",
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA14",
-		change_bgm = "tl-battle-inst",
+		change_bgm = "main",
 		id = 103,
 		pre_event = {
 			102
@@ -1804,7 +1804,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EP4-2 클리어",
 		change_background = "bg_tolove_2",
 		story = "1878004",
-		change_bgm = "tl-battle-inst",
+		change_bgm = "main",
 		id = 104,
 		pre_event = {
 			103
@@ -1823,7 +1823,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EP5-1 클리어",
 		change_background = "bg_tolove_2",
 		story = "1878005",
-		change_bgm = "tl-battle-inst",
+		change_bgm = "main",
 		id = 105,
 		pre_event = {
 			104
@@ -1842,7 +1842,7 @@ pg.activity_sp_story = {
 		unlock_conditions = "EPS-3 클리어",
 		change_background = "bg_tolove_3",
 		story = "WEIXIANFAMINGPOJINZHONGGUANQIA17",
-		change_bgm = "tl-battle",
+		change_bgm = "main",
 		id = 106,
 		pre_event = {
 			105

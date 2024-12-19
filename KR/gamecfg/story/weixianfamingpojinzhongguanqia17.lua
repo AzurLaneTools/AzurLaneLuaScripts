@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_1",
-			bgm = "tl-theme-1",
+			bgm = "story-richang-8",
 			say = "복제체 라라가 완전히 소멸하자, 코어가 있던 부분에서 수많은 에너지 스톤이 떨어졌다.",
 			typewriter = {
 				speed = 0.05,

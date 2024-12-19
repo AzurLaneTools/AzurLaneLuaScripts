@@ -25090,6 +25090,7 @@ pg.activity_template = {
 	[5634] = {
 		mark = 20241114,
 		page_info = "",
+		time = "stop",
 		type = 10,
 		login_pop = 0,
 		config_id = 5633,
@@ -25097,34 +25098,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5634,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5637] = {
 		mark = 20241114,
@@ -25141,6 +25115,7 @@ pg.activity_template = {
 	},
 	[5638] = {
 		mark = 20241114,
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 24,
@@ -25149,33 +25124,6 @@ pg.activity_template = {
 		title_res_tag = "yidaliV2_login_text",
 		id = 5638,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "JapanV3FrameRePage",
 			ui_name = "JapanV3FrameRePage"
@@ -25300,6 +25248,7 @@ pg.activity_template = {
 	[5644] = {
 		mark = 20241114,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 437,
@@ -25307,34 +25256,7 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 5644,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5644
 	},
 	[5645] = {
 		mark = 20241114,
@@ -25358,6 +25280,7 @@ pg.activity_template = {
 	},
 	[5646] = {
 		mark = 20241114,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 5646,
@@ -25366,33 +25289,6 @@ pg.activity_template = {
 		title_res_tag = "japanV3_pt",
 		id = 5646,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "JapanV3PtPage",
 			ui_name = "JapanV3PtPage"
@@ -25401,6 +25297,7 @@ pg.activity_template = {
 	[5647] = {
 		mark = 20241114,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -25435,33 +25332,6 @@ pg.activity_template = {
 			2771,
 			2772,
 			2773
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					28
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_wuzang",
@@ -25504,8 +25374,71 @@ pg.activity_template = {
 			20770
 		}
 	},
+	[5656] = {
+		mark = 20241114,
+		time = "stop",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		title_res_tag = "japanV3_skin",
+		id = 5656,
+		config_data = {
+			{
+				20771
+			},
+			{
+				20772
+			},
+			{
+				20773
+			},
+			{
+				20774
+			},
+			{
+				20775
+			},
+			{
+				20776
+			},
+			{
+				20777
+			}
+		},
+		page_info = {
+			class_name = "JapanV3SkinPage",
+			ui_name = "JapanV3SkinPage"
+		},
+		config_client = {
+			story = {
+				{
+					"JINGHAIJINGLEI1"
+				},
+				{
+					"JINGHAIJINGLEI2"
+				},
+				{
+					"JINGHAIJINGLEI3"
+				},
+				{
+					"JINGHAIJINGLEI4"
+				},
+				{
+					"JINGHAIJINGLEI5"
+				},
+				{
+					"JINGHAIJINGLEI6"
+				},
+				{
+					"JINGHAIJINGLEI7"
+				}
+			}
+		}
+	},
 	[5679] = {
 		mark = 20241121,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -25527,33 +25460,6 @@ pg.activity_template = {
 			1870051,
 			1870052
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ToLoveMainPage",
 			ui_name = "ToLoveMainPage"
@@ -25568,6 +25474,7 @@ pg.activity_template = {
 	[5680] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -25590,33 +25497,6 @@ pg.activity_template = {
 			20832,
 			20833
 		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			task_ids = {
 				20820,
@@ -25638,6 +25518,7 @@ pg.activity_template = {
 	},
 	[5681] = {
 		mark = 20241121,
+		time = "stop",
 		type = 57,
 		login_pop = 0,
 		config_id = 59,
@@ -25646,33 +25527,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 5681,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ToLoveGame",
 			ui_name = "ToLoveGame"
@@ -25681,6 +25535,7 @@ pg.activity_template = {
 	[5682] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -25748,33 +25603,6 @@ pg.activity_template = {
 			20890,
 			20891,
 			20892
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5683] = {
@@ -25992,6 +25820,7 @@ pg.activity_template = {
 	[5687] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -25999,38 +25828,12 @@ pg.activity_template = {
 		config_data = "[{31941,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 5687,
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5687
 	},
 	[5688] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -26040,33 +25843,6 @@ pg.activity_template = {
 		id = 5688,
 		config_data = {
 			20894
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5689] = {
@@ -26144,6 +25920,7 @@ pg.activity_template = {
 	},
 	[5690] = {
 		mark = 20241121,
+		time = "stop",
 		type = 103,
 		login_pop = 0,
 		config_id = 0,
@@ -26151,33 +25928,6 @@ pg.activity_template = {
 		title_res_tag = "tolovecollect",
 		id = 5690,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ToloveCollectPage",
 			ui_name = "ToloveCollectPage"
@@ -26216,7 +25966,7 @@ pg.activity_template = {
 							"scene level",
 							{}
 						},
-						"이벤트 스테이지에서 등장"
+						"이벤트 스테이지에 등장"
 					}
 				}
 			}
@@ -26224,6 +25974,7 @@ pg.activity_template = {
 	},
 	[5691] = {
 		mark = 20241121,
+		time = "stop",
 		type = 1001,
 		login_pop = 0,
 		config_id = 0,
@@ -26238,33 +25989,6 @@ pg.activity_template = {
 			5,
 			6,
 			7
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "PuzzleConnectSceneUI",
@@ -26285,6 +26009,7 @@ pg.activity_template = {
 	[5692] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -26292,38 +26017,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5692,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5693] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -26338,38 +26037,12 @@ pg.activity_template = {
 			515,
 			516,
 			517
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5694] = {
 		mark = 20241121,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 441,
@@ -26377,14 +26050,32 @@ pg.activity_template = {
 		config_data = "0",
 		config_client = "",
 		title_res_tag = "",
-		id = 5694,
+		id = 5694
+	},
+	[5695] = {
+		mark = 20241205,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5695,
+		config_data = {
+			10185,
+			10186,
+			10187,
+			10188,
+			10189
+		},
 		time = {
 			"timer",
 			{
 				{
 					2024,
 					12,
-					5
+					19
 				},
 				{
 					0,
@@ -26396,7 +26087,7 @@ pg.activity_template = {
 				{
 					2024,
 					12,
-					19
+					26
 				},
 				{
 					23,
@@ -26437,94 +26128,6 @@ pg.activity_template = {
 				"battlepass_main_tip_2110",
 				"battlepass_main_help_2110",
 				"cruise_task_help_2110"
-			}
-		}
-	},
-	[5656] = {
-		mark = 20241114,
-		type = 18,
-		login_pop = 0,
-		config_id = 3,
-		is_show = 48,
-		title_res_tag = "japanV3_skin",
-		id = 5656,
-		config_data = {
-			{
-				20771
-			},
-			{
-				20772
-			},
-			{
-				20773
-			},
-			{
-				20774
-			},
-			{
-				20775
-			},
-			{
-				20776
-			},
-			{
-				20777
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					11,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					5
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
-		page_info = {
-			class_name = "JapanV3SkinPage",
-			ui_name = "JapanV3SkinPage"
-		},
-		config_client = {
-			story = {
-				{
-					"JINGHAIJINGLEI1"
-				},
-				{
-					"JINGHAIJINGLEI2"
-				},
-				{
-					"JINGHAIJINGLEI3"
-				},
-				{
-					"JINGHAIJINGLEI4"
-				},
-				{
-					"JINGHAIJINGLEI5"
-				},
-				{
-					"JINGHAIJINGLEI6"
-				},
-				{
-					"JINGHAIJINGLEI7"
-				}
 			}
 		}
 	},
@@ -35641,6 +35244,7 @@ pg.activity_template = {
 			5680,
 			5682,
 			5688,
+			5695,
 			1079,
 			1080,
 			1081,
@@ -37333,6 +36937,7 @@ pg.activity_template = {
 		5647,
 		5648,
 		5649,
+		5656,
 		5679,
 		5680,
 		5681,
@@ -37349,8 +36954,8 @@ pg.activity_template = {
 		5692,
 		5693,
 		5694,
+		5695,
 		7001,
-		5656,
 		7004,
 		7005,
 		7006,

@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_106",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			hidePaintEquip = true,
 			nameColor = "#A9F548FF",
 			say = "상쾌한 바닷바람이 모래사장을 부드럽게 어루만진다.",

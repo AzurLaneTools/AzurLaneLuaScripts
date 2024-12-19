@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			bgm = "tl-theme-2",
+			bgm = "story-richang-7",
 			say = "일행은 게임 메이커 그레이트에 표시된 좌표에 따라 낯선 해역에 발을 들여놓았다.",
 			typewriter = {
 				speed = 0.05,

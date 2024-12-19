@@ -23,7 +23,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "모모와 하루나, 시리우스, 다이도, 스킬라로 구성된 탐색대도 두 번째 체크 포인트에서 적의 습격을 받고 있었다.",
 			typewriter = {
 				speed = 0.05,

@@ -1078,8 +1078,6 @@ slot0.SwitchCharacterSkin = function(slot0, slot1, slot2, slot3)
 	assert(table.contains(slot0.skinIdList, slot2))
 
 	slot7 = slot0.skinDict[slot0.skinId].ladyGameobject
-	slot8 = slot7.transform.position
-	slot9 = slot7.transform.rotation
 
 	setActive(slot7, false)
 
@@ -1091,14 +1089,10 @@ slot0.SwitchCharacterSkin = function(slot0, slot1, slot2, slot3)
 	slot0.ladyCollider = nil
 
 	slot0:InitCharacter(slot0, slot1)
-
-	slot10 = slot0.ladyAnimator
-
-	slot10:Play(slot0:GetCurrentAnim(), slot0.ladyAnimBaseLayerIndex)
-	onNextTick(function ()
-		uv0.lady:SetPositionAndRotation(uv1, uv2)
-		existCall(uv3)
-	end)
+	slot0.ladyAnimator:Play(slot0:GetCurrentAnim(), slot0.ladyAnimBaseLayerIndex)
+	slot0.ladyAnimator:Update(0)
+	slot0.lady:SetPositionAndRotation(slot7.transform.position, slot7.transform.rotation)
+	existCall(slot3)
 end
 
 slot0.SetCameraLady = function(slot0)

@@ -19,7 +19,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "나나와 유이, 그리고 로열 메이드대의 리버풀, 데본셔, 누비안으로 구성된 탐색대가 주변 해역을 수색하고 있다.",
 			typewriter = {
 				speed = 0.05,

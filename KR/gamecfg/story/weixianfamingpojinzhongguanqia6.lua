@@ -421,7 +421,7 @@ return {
 			side = 2,
 			bgName = "bg_tolove_1",
 			soundeffect = "event:/battle/boom2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			nameColor = "#A9F548FF",
 			say = "――!",
 			typewriter = {

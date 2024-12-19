@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_539",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "전투가 계속됨에 따라 항구 주변은 온통 포화가 내뿜는 불길과 연기로 휩싸여 있다.",
 			typewriter = {
 				speed = 0.05,

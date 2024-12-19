@@ -71623,6 +71623,40 @@ _G.pg.base.shop_template[100106] = {
 }
 
 
+_G.pg.base.shop_template[100107] = {
+	group_type = 0,
+	resource_num = 800,
+	time_second = 0,
+	type = 20,
+	type_order = 0,
+	desc = "档案坐标记录仪8",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 3002,
+	id = 100107,
+	genre = "world_collection_task",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		2057,
+		10070
+	}
+}
+
+
 _G.pg.base.shop_template[105001] = {
 	group_type = 0,
 	resource_num = 880,

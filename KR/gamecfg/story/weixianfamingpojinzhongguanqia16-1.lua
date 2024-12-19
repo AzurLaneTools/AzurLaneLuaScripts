@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle",
+			bgm = "story-richang-6",
 			say = "금빛 어둠의 활약과 다른 일행의 엄호 덕분에 유이와 하루나는 무사히 구출되었다.",
 			typewriter = {
 				speed = 0.05,

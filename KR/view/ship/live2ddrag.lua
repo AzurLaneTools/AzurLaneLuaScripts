@@ -127,11 +127,16 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 
 					if slot20 then
 						slot9 = true
-						slot21 = slot0:fixParameterTargetValue(slot20, slot0.range, slot0.rangeAbs, slot0.dragDirect)
+						slot20 = slot0:fixParameterTargetValue(slot20, slot0.range, slot0.rangeAbs, slot0.dragDirect)
 
-						slot0:setTargetValue(slot21)
-						slot0:setParameterValue(slot21)
-						print("数值变更为" .. slot0.parameterTargetValue)
+						if slot0.actionTrigger.change_focus == false then
+							slot0.prepareTargetValue = slot20
+
+							print(slot0.parameterName .. "等待动作结束后的target赋值" .. slot0.parameterTargetValue)
+						else
+							slot0:setTargetValue(slot20)
+							print(slot0.parameterName .. " 数值变更为" .. slot0.parameterTargetValue)
+						end
 					end
 
 					if slot19 and slot19 > 0 then
@@ -147,6 +152,11 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 
 			if slot0.listenerApply[1] == 1 and slot9 then
 				slot12 = slot0.parameterTargetValue
+
+				if slot0.prepareTargetValue ~= nil then
+					slot12 = slot0.prepareTargetValue
+				end
+
 				slot13 = nil
 
 				for slot17 = 1, #slot11 do
@@ -640,6 +650,12 @@ slot0.updateReactValue = function(slot0)
 end
 
 slot0.updateParameterValue = function(slot0)
+	if slot0.prepareTargetValue and not slot0.l2dIsPlaying then
+		slot0:setTargetValue(slot0.prepareTargetValue)
+
+		slot0.prepareTargetValue = nil
+	end
+
 	if slot0._parameterUpdateFlag and slot0.parameterValue ~= slot0.parameterTargetValue then
 		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
 			slot0:setParameterValue(slot0.parameterTargetValue)

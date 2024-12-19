@@ -76,7 +76,11 @@ slot0.AddListener = function(slot0)
 	end, SFX_PANEL)
 
 	slot4 = function()
-		uv0:emit(MedalCollectionTemplateMediator.MEMORYBOOK_GO, uv0.taskList[uv0.contextData.ChipIndex])
+		if getProxy(ActivityProxy):getActivityById(ActivityConst.TOLOVE_TASK_ID) and not slot0:isEnd() then
+			uv0:emit(MedalCollectionTemplateMediator.MEMORYBOOK_GO, uv0.taskList[uv0.contextData.ChipIndex])
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+		end
 	end
 
 	onButton(slot0, slot0.taskBtnGo, slot4, SFX_PANEL)

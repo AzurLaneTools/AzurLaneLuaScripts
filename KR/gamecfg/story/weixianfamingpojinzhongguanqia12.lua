@@ -22,7 +22,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_tolove_2",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "라라와 금빛 어둠, 그리고 퀸 엘리자베스와 벨파스트로 구성된 주력 탐색대는 세 번째 체크 포인트를 향해 전진하고 있었다.",

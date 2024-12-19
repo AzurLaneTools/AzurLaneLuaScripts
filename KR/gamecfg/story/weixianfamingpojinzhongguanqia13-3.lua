@@ -7,7 +7,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
-			bgm = "tl-battle-inst",
+			bgm = "story-richang-refreshing",
 			say = "하지만 적의 포위를 뚫고 후퇴하기란 쉽지 않았다.",
 			typewriter = {
 				speed = 0.05,

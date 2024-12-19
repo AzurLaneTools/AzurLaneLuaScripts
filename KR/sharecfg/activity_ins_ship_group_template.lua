@@ -2709,7 +2709,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Lützow ",
 		background = "",
 		sculpture = "lvzuofu",
-		nationality = 0,
+		nationality = 4,
 		type = 1
 	},
 	[40504] = {
