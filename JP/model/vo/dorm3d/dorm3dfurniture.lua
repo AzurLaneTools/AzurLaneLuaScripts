@@ -118,6 +118,7 @@ slot0.SetViewedFlag = function(slot0)
 	end
 
 	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dFurnitureViewed_" .. slot0, 1)
+	PlayerPrefs.Save()
 
 	return true
 end
@@ -132,6 +133,49 @@ slot0.IsTimelimitShopTip = function(slot0)
 			return Dorm3dFurniture.New({
 				configId = slot0
 			}):GetEndTime() > 0 and slot1:InShopTime() and not _.detect(uv0, function (slot0)
+				return slot0:GetConfigID() == uv0
+			end)
+		end)
+	end)
+end
+
+slot0.RecordLastTimelimitShopFurniture = function()
+	slot0 = getProxy(PlayerProxy)
+	slot1 = PlayerPrefs.GetInt(slot0:getRawData().id .. "_dorm3dTimelimitFurniture", 0)
+
+	underscore.each(underscore.values(getProxy(ApartmentProxy).roomData), function (slot0)
+		_.each(pg.dorm3d_furniture_template.get_id_list_by_room_id[slot0:GetConfigID()] or {}, function (slot0)
+			if Dorm3dFurniture.New({
+				configId = slot0
+			}):GetEndTime() > 0 and slot1:InShopTime() then
+				uv0 = math.max(uv0, slot0)
+			end
+		end)
+	end)
+
+	if slot1 <= slot1 then
+		return
+	end
+
+	PlayerPrefs.SetInt(slot0 .. "_dorm3dTimelimitFurniture", slot2)
+	PlayerPrefs.Save()
+end
+
+slot0.IsOnceTimelimitShopTip = function()
+	slot0 = getProxy(PlayerProxy)
+	slot1 = PlayerPrefs.GetInt(slot0:getRawData().id .. "_dorm3dTimelimitFurniture", 0)
+
+	return underscore.any(underscore.values(getProxy(ApartmentProxy).roomData), function (slot0)
+		slot1 = slot0:GetFurnitures()
+
+		return _.any(pg.dorm3d_furniture_template.get_id_list_by_room_id[slot0:GetConfigID()] or {}, function (slot0)
+			if slot0 <= uv0 then
+				return
+			end
+
+			return Dorm3dFurniture.New({
+				configId = slot0
+			}):GetEndTime() > 0 and slot1:InShopTime() and not _.detect(uv1, function (slot0)
 				return slot0:GetConfigID() == uv0
 			end)
 		end)

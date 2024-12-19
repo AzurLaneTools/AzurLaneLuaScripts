@@ -6589,7 +6589,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900468] = {
-		name = "星之兽",
+		name = "星の獣",
 		id = 900468,
 		desc = "无描述",
 		illustrator2 = -1,
@@ -6701,7 +6701,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900469] = {
-		name = "审判机·「魔术师」",
+		name = "メカアービトレイター「マジシャン」",
 		id = 900469,
 		desc = "无描述",
 		illustrator2 = -1,

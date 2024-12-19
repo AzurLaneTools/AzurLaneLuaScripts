@@ -187,6 +187,8 @@ slot0.register = function(slot0)
 	else
 		PlayerPrefs.SetString(string.format("room%d_invite_list", slot0.contextData.roomId), table.concat(slot0.contextData.groupIds, "|"))
 	end
+
+	Dorm3dFurniture.RecordLastTimelimitShopFurniture()
 end
 
 slot0.initNotificationHandleDic = function(slot0)
