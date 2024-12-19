@@ -177558,7 +177558,7 @@ _G.pg.base.item_virtual_data_statistics[86200] = {
 
 _G.pg.base.item_virtual_data_statistics[86201] = {
 	drop_gold_max = 0,
-	name = "随机缤纷夜换装·II",
+	name = "隨機繽紛夜換裝‧II",
 	display = [[
 從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
 包含的換裝和機率如下：
