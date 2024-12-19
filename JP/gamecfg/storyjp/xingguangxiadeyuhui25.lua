@@ -474,13 +474,12 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			actor = 0,
 			side = 2,
 			bgName = "bg_yuhui_3",
-			dir = 1,
-			actor = 407040,
-			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "とにかく艦隊を2つに分け、回収した「エナジーミネラル」を一度基地に持ち帰り、もう半分の艦隊でヒッパーを見つけて、基地に合流してほしい",
 			typewriter = {
 				speed = 0.05,

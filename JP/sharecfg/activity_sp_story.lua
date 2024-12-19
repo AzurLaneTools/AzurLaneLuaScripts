@@ -2156,7 +2156,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[123] = {
-		story_type = 2,
+		story_type = 1,
 		name = "EP3-2基地防衛",
 		change_prefab = "",
 		unlock_conditions = "EP3-1をクリア",
@@ -2175,7 +2175,7 @@ pg.activity_sp_story = {
 		}
 	},
 	[124] = {
-		story_type = 1,
+		story_type = 2,
 		name = "EP3-3星空の支配者",
 		change_prefab = "",
 		unlock_conditions = "EP3-2をクリア",

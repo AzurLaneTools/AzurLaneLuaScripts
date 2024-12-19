@@ -167082,6 +167082,36 @@ _G.pg.base.equip_data_statistics[170652] = {
 }
 
 
+_G.pg.base.equip_data_statistics[180000] = {
+	name = "弗里茨副炮",
+	tech = 1,
+	speciality = "<[LOCK]>",
+	type = 3,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "默认装备",
+	nationality = 4,
+	ammo = 3,
+	value_3 = 0,
+	id = 180000,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {}
+}
+
+
 _G.pg.base.equip_data_statistics[594017] = {
 	name = "美系剧情海伦娜主炮",
 	speciality = "<[LOCK]>",

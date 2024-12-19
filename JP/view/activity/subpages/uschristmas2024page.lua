@@ -105,8 +105,13 @@ end
 
 slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity:GetCurrentDay()
+	slot1 = 0
 
-	setText(slot0.awardNum, slot0.activity.data1)
+	if getProxy(ActivityProxy):getActivityById(slot0.activity:getConfig("config_client").link_act_id) then
+		slot1 = slot3.data1
+	end
+
+	setText(slot0.awardNum, slot1)
 	onButton(slot0, slot0.linkBtn, function ()
 		Application.OpenURL(uv0.activity:getConfig("config_client").url)
 	end, SFX_PANEL)

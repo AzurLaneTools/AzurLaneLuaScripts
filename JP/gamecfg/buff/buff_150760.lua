@@ -40,20 +40,6 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddBuff",
-			trigger = {
-				"onBulletHit"
-			},
-			arg_list = {
-				buff_id = 150762,
-				weaponType = 2,
-				rant = 10000,
-				index = {
-					4
-				}
-			}
-		},
-		{
 			type = "BattleBuffCastSkill",
 			trigger = {
 				"onUpdate"

@@ -207,7 +207,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（デットラインぎりぎりの上にやるべきことは多い……まずは新しい作戦計画から作ろう）",
+			say = "（デッドラインぎりぎりの上にやるべきことは多い……まずは新しい作戦計画から作ろう）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

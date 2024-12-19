@@ -17589,7 +17589,7 @@ pg.activity_template = {
 				1,
 				1
 			},
-			pt_id = 449,
+			pt_id = 448,
 			use_secretary = false,
 			painting = "xipeier_pt"
 		}

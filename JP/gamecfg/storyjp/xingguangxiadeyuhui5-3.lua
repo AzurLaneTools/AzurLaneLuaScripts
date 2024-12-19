@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			actorName = "謎の声",
+			actorName = "謎の音",
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

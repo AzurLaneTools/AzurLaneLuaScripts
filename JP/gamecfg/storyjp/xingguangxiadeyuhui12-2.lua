@@ -75,7 +75,7 @@ return {
 				}
 			},
 			location = {
-				"ID-AX-92号海域",
+				"IB-AX-92号海域",
 				3
 			}
 		},

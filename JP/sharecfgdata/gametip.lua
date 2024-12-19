@@ -36932,3 +36932,8 @@ _G.pg.base.gametip.word_limited_activity = {
 _G.pg.base.gametip.word_show_expire_content = {
 	tip = "絶版中のコンテンツを表示"
 }
+
+
+_G.pg.base.gametip.word_got_pt = {
+	tip = "入手済"
+}

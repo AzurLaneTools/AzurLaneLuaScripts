@@ -305,11 +305,11 @@ return {
 		},
 		{
 			expression = 6,
-			nameColor = "#A9F548FF",
+			nameColor = "#FFC960",
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
 			side = 2,
-			actor = 9703040,
+			actor = 9703050,
 			say = "……我らがアドミラル・ヒッパー級の名を以て、あんたらの魂を鎮める楽章を奏でてやるわ！",
 			typewriter = {
 				speed = 0.05,
