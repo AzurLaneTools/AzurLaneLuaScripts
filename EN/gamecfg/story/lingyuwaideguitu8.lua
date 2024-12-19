@@ -1015,7 +1015,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "It's as if $1 was erased from reality, with everything else being rewritten to conform to that change.",
+			say = "It's as if {playername} was erased from reality, with everything else being rewritten to conform to that change.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1557,7 +1557,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "\"For the good of not only us, but for $1 as well.\"",
+			say = "\"For the good of not only us, but for {playername} as well.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1599,7 +1599,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1 must not vanish tracelessly from this world...",
+			say = "{playername} must not vanish tracelessly from this world...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

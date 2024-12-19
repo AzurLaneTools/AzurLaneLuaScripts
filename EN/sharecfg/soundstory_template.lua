@@ -797,6 +797,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "Christmas Surprise",
+		story_resource_JP = "soundStory18_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "巽悠衣子",
+		audition_resource_JP = "ss-10324-1",
+		overview = "It's Christmas Eve, and Bremerton is here to see you, but then bad luck strikes and she gets stuck in the window.\nIn order to free her, you might have to touch her in a few places...",
+		order = 2,
+		audition_text = "Mgh... You can pull a little harder, it's not hurting me...",
+		ship_id = 10324,
+		id = 18,
+		captions_color = "#42342f",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -814,6 +867,7 @@ pg.soundstory_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

@@ -60,6 +60,8 @@ pg.pay_data_display = setmetatable({
 		77,
 		78,
 		79,
+		82,
+		83,
 		1000,
 		1001,
 		1002,
@@ -152,6 +154,10 @@ pg.pay_data_display = setmetatable({
 		2034,
 		2035,
 		2036,
+		2037,
+		2038,
+		2039,
+		2040,
 		5011,
 		5012,
 		5013,
@@ -6234,6 +6240,234 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81409,
+				1
+			}
+		}
+	},
+	[82] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		name = "Game Night Lucky Bag A",
+		first_pay_double = 0,
+		name_display = "Game Night Lucky Bag A",
+		descrip = "Contains items, resources, and a random skin.",
+		subject = "Game Night Lucky Bag A",
+		money = 2999,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai19",
+		skin_inquire_relation = 86208,
+		id_str = "com.yostaren.azurlane.luckybag45",
+		extra_service = 3,
+		id = 82,
+		airijp_id = "com.yostaren.azurlane.luckybag45",
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		}
+	},
+	[83] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Bag will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit.",
+		type = 1,
+		name = "Resplendent Night Lucky Bag I Rerun",
+		first_pay_double = 0,
+		name_display = "Resplendent Night Lucky Bag I Rerun",
+		descrip = "Contains items, resources, and a random skin.",
+		subject = "Resplendent Night Lucky Bag I Rerun",
+		money = 2999,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai9",
+		skin_inquire_relation = 86200,
+		id_str = "com.yostaren.azurlane.luckybag46",
+		extra_service = 3,
+		id = 83,
+		airijp_id = "com.yostaren.azurlane.luckybag46",
+		extra_service_item = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81200,
 				1
 			}
 		}
@@ -14341,6 +14575,341 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2037] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Battle UI Pack - Christmas",
+		first_pay_double = 0,
+		name_display = "Battle UI Pack - Christmas",
+		descrip = "Contains a new combat UI theme.",
+		subject = "Battle UI Pack - Christmas",
+		money = 1199,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack17",
+		extra_service = 3,
+		id = 2037,
+		airijp_id = "com.yostaren.azurlane.pack17",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2038] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Battle UI Pack - Christmas (Basic)",
+		first_pay_double = 0,
+		name_display = "Battle UI Pack - Christmas (Basic)",
+		descrip = "Contains a new combat UI theme.",
+		subject = "Battle UI Pack - Christmas (Basic)",
+		money = 1199,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack17",
+		extra_service = 3,
+		id = 2038,
+		airijp_id = "com.yostaren.azurlane.pack17",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40051,
+				1
+			}
+		}
+	},
+	[2039] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Battle UI Pack - Christmas (Premium)",
+		first_pay_double = 0,
+		name_display = "Battle UI Pack - Christmas (Premium)",
+		descrip = "Contains a new combat UI theme and Gems x 3,060.",
+		subject = "Battle UI Pack - Christmas (Premium)",
+		money = 3699,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack18",
+		extra_service = 3,
+		id = 2039,
+		airijp_id = "com.yostaren.azurlane.pack18",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40052,
+				1
+			}
+		}
+	},
+	[2040] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Premium Winter Gift Pack",
+		first_pay_double = 0,
+		name_display = "Premium Winter Gift Pack",
+		descrip = "Contains 3880 Gems, 1 Specialized Bulin Custom MKIII and other rewards.",
+		subject = "Premium Winter Gift Pack",
+		money = 3699,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		picture = "dongzhi3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack16",
+		extra_service = 3,
+		id = 2040,
+		airijp_id = "com.yostaren.azurlane.pack16",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40053,
 				1
 			}
 		}

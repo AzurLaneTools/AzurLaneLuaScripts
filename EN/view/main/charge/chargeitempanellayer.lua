@@ -1,7 +1,11 @@
 slot0 = class("ChargeItemPanelLayer", import("...base.BaseUI"))
 
 slot0.getUIName = function(slot0)
-	return "ChargeItemPanelUI"
+	if slot0:ExistSkinExperienceItem(slot0.contextData.panelConfig.extraItems and slot1.extraItems or {}) then
+		return "ChargeItem4SkinDiscountItemUI"
+	else
+		return "ChargeItemPanelUI"
+	end
 end
 
 slot0.init = function(slot0)
@@ -34,7 +38,7 @@ slot0.findUI = function(slot0)
 	slot0.detailWindow = slot0:findTF("window")
 	slot0.cancelBtn = slot0:findTF("button_container/button_cancel", slot0.detailWindow)
 	slot0.confirmBtn = slot0:findTF("button_container/button_ok", slot0.detailWindow)
-	slot0.detailName = slot0:findTF("goods/name", slot0.detailWindow)
+	slot0.detailName = slot0:findTF("goods/mask/name/Text", slot0.detailWindow)
 	slot0.detailIcon = slot0:findTF("goods/icon", slot0.detailWindow)
 	slot0.detailExtraDrop = slot0:findTF("goods/extra_drop", slot0.detailWindow)
 	slot0.detailRmb = slot0:findTF("prince_bg/contain/icon_rmb", slot0.detailWindow)
@@ -143,7 +147,7 @@ slot0.updatePanel = function(slot0)
 	end
 
 	GetImageSpriteFromAtlasAsync(slot1, "", slot0.detailIcon, false)
-	setText(slot0.detailName, slot2)
+	setScrollText(slot0.detailName, slot2)
 
 	if slot0.detailExtraDrop then
 		setActive(slot0.detailExtraDrop, slot13)
@@ -195,33 +199,101 @@ slot0.updatePanel = function(slot0)
 
 		setText(slot0.extraTip, slot5)
 
-		for slot18 = #slot6, slot0.detailItemList.childCount - 1 do
-			Destroy(slot0.detailItemList:GetChild(slot18))
-		end
-
-		for slot18 = slot0.detailItemList.childCount, #slot6 - 1 do
-			cloneTplTo(slot0.detailItem, slot0.detailItemList)
-		end
-
-		for slot18 = 1, #slot6 do
-			updateDrop(slot0.detailItemList:GetChild(slot18 - 1), slot6[slot18])
-
-			slot20, slot21 = contentWrap(slot6[slot18]:getConfig("name"), 8, 2)
-
-			if slot20 then
-				slot21 = slot21 .. "..."
-			end
-
-			setText(slot0:findTF("name", slot19), slot21)
-			onButton(slot0, slot19, function ()
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					hideNo = true,
-					type = MSGBOX_TYPE_SINGLE_ITEM,
-					drop = uv0[uv1]
-				})
-			end, SFX_PANEL)
+		if slot0:ExistSkinExperienceItem(slot6) then
+			slot0:UpdateSkinDiscountItemItems(slot6)
+		else
+			slot0:UpdateItems(slot6)
 		end
 	end
+end
+
+slot0.UpdateItems = function(slot0, slot1)
+	for slot5 = #slot1, slot0.detailItemList.childCount - 1 do
+		Destroy(slot0.detailItemList:GetChild(slot5))
+	end
+
+	for slot5 = slot0.detailItemList.childCount, #slot1 - 1 do
+		cloneTplTo(slot0.detailItem, slot0.detailItemList)
+	end
+
+	for slot5 = 1, #slot1 do
+		updateDrop(slot0.detailItemList:GetChild(slot5 - 1), slot1[slot5])
+
+		slot7, slot8 = contentWrap(slot1[slot5]:getConfig("name"), 8, 2)
+
+		if slot7 then
+			slot8 = slot8 .. "..."
+		end
+
+		setText(slot0:findTF("name", slot6), slot8)
+		onButton(slot0, slot6, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				hideNo = true,
+				type = MSGBOX_TYPE_SINGLE_ITEM,
+				drop = uv0[uv1]
+			})
+		end, SFX_PANEL)
+	end
+end
+
+slot0.UpdateSkinDiscountItemItems = function(slot0, slot1)
+	slot2, slot3 = slot0:SplitItemAndSkinExperienceItem(slot1)
+
+	slot0:UpdateItems(slot2)
+
+	slot4 = UIItemList.New(slot0:findTF("window/container/bonus_gift/bg/scrollview/list"), slot0:findTF("window/container/normal_items/item_tpl"))
+
+	slot4:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			uv0:UpdateItem(uv1[slot1 + 1], slot2)
+		end
+	end)
+	slot4:align(#slot3)
+	setText(slot0:findTF("window/container/bonus_gift/bg/Text"), i18n("skin_discount_item_return_tip"))
+	setText(slot0:findTF("window/container/bonus_gift/bg/label"), i18n("skin_discount_item_extra_bounds"))
+end
+
+slot0.UpdateItem = function(slot0, slot1, slot2)
+	slot3 = Drop.Create({
+		DROP_TYPE_ITEM,
+		slot1.id,
+		slot1.count
+	})
+
+	updateDrop(slot2, slot3)
+	setText(slot0:findTF("name", slot2), shortenString(slot3:getName(), 4))
+	onButton(slot0, slot2, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			hideNo = true,
+			type = MSGBOX_TYPE_SINGLE_ITEM,
+			drop = uv0
+		})
+	end, SFX_PANEL)
+end
+
+slot0.SplitItemAndSkinExperienceItem = function(slot0, slot1)
+	slot2 = {}
+	slot3 = {}
+
+	for slot7, slot8 in ipairs(slot1) do
+		if uv0.IsSkinExperienceItem(slot8) then
+			table.insert(slot3, slot8)
+		else
+			table.insert(slot2, slot8)
+		end
+	end
+
+	return slot2, slot3
+end
+
+slot0.IsSkinExperienceItem = function(slot0)
+	return slot0:getConfigTable() and slot1.usage == ItemUsage.USAGE_SKIN_EXP
+end
+
+slot0.ExistSkinExperienceItem = function(slot0, slot1)
+	return _.any(slot1, function (slot0)
+		return uv0.IsSkinExperienceItem(slot0)
+	end)
 end
 
 return slot0

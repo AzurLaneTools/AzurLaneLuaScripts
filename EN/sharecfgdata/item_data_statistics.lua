@@ -15054,6 +15054,37 @@ _G.pg.base.item_data_statistics[21041] = {
 }
 
 
+_G.pg.base.item_data_statistics[21042] = {
+	open_directly = 0,
+	name = "META Crystal - Admiral Hipper ",
+	type = 4,
+	display = "An item that increases the potential of Admiral Hipper META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21042",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21042,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -25127,6 +25158,131 @@ _G.pg.base.item_data_statistics[30362] = {
 		{
 			9,
 			1467,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30363] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Wilderness Force) ",
+	type = 11,
+	display = "Contains a random gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuangyeliliang",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30363",
+	id = 30363,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4077,
+			1
+		},
+		{
+			9,
+			4078,
+			1
+		},
+		{
+			9,
+			4079,
+			1
+		},
+		{
+			9,
+			4080,
+			1
+		},
+		{
+			9,
+			4081,
+			1
+		},
+		{
+			9,
+			4082,
+			1
+		},
+		{
+			9,
+			4083,
+			1
+		},
+		{
+			9,
+			4084,
+			1
+		},
+		{
+			9,
+			4085,
+			1
+		},
+		{
+			9,
+			4086,
+			1
+		},
+		{
+			9,
+			4087,
+			1
+		},
+		{
+			9,
+			4088,
+			1
+		},
+		{
+			9,
+			4089,
+			1
+		},
+		{
+			9,
+			4090,
+			1
+		},
+		{
+			9,
+			4091,
+			1
+		},
+		{
+			9,
+			4092,
+			1
+		},
+		{
+			9,
+			4093,
+			1
+		},
+		{
+			9,
+			4094,
 			1
 		}
 	},
@@ -36251,7 +36407,7 @@ _G.pg.base.item_data_statistics[30546] = {
 
 
 _G.pg.base.item_data_statistics[30547] = {
-	open_directly = 1,
+	open_directly = 0,
 	name = "Selection Gear Skin Box (Halloween Horrors)",
 	type = 13,
 	display = "Can be opened to receive 1 Halloween Horrors-themed gear skin of your choosing.",
@@ -36882,6 +37038,219 @@ _G.pg.base.item_data_statistics[30549] = {
 		{
 			9,
 			577,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30550] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Wilderness Force)",
+	type = 13,
+	display = "Can be opened to receive 1 Wilderness Force-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhuangyeliliangzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30550,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4077,
+			1
+		},
+		{
+			9,
+			4078,
+			1
+		},
+		{
+			9,
+			4079,
+			1
+		},
+		{
+			9,
+			4080,
+			1
+		},
+		{
+			9,
+			4081,
+			1
+		},
+		{
+			9,
+			4082,
+			1
+		},
+		{
+			9,
+			4083,
+			1
+		},
+		{
+			9,
+			4084,
+			1
+		},
+		{
+			9,
+			4085,
+			1
+		},
+		{
+			9,
+			4086,
+			1
+		},
+		{
+			9,
+			4087,
+			1
+		},
+		{
+			9,
+			4088,
+			1
+		},
+		{
+			9,
+			4089,
+			1
+		},
+		{
+			9,
+			4090,
+			1
+		},
+		{
+			9,
+			4091,
+			1
+		},
+		{
+			9,
+			4092,
+			1
+		},
+		{
+			9,
+			4093,
+			1
+		},
+		{
+			9,
+			4094,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4077,
+			1
+		},
+		{
+			9,
+			4078,
+			1
+		},
+		{
+			9,
+			4079,
+			1
+		},
+		{
+			9,
+			4080,
+			1
+		},
+		{
+			9,
+			4081,
+			1
+		},
+		{
+			9,
+			4082,
+			1
+		},
+		{
+			9,
+			4083,
+			1
+		},
+		{
+			9,
+			4084,
+			1
+		},
+		{
+			9,
+			4085,
+			1
+		},
+		{
+			9,
+			4086,
+			1
+		},
+		{
+			9,
+			4087,
+			1
+		},
+		{
+			9,
+			4088,
+			1
+		},
+		{
+			9,
+			4089,
+			1
+		},
+		{
+			9,
+			4090,
+			1
+		},
+		{
+			9,
+			4091,
+			1
+		},
+		{
+			9,
+			4092,
+			1
+		},
+		{
+			9,
+			4093,
+			1
+		},
+		{
+			9,
+			4094,
 			1
 		}
 	},
@@ -39953,6 +40322,147 @@ _G.pg.base.item_data_statistics[40050] = {
 			2,
 			16502,
 			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40051] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Christmas (Basic)",
+	type = 17,
+	display = "Contains the Battle UI - Christmas theme.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4053",
+	id = 40051,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			201,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40052] = {
+	open_directly = 1,
+	name = "Battle UI Pack - Christmas (Premium)",
+	type = 17,
+	display = "Contains the Battle UI - Christmas theme and 3,060 Gems.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4054",
+	id = 40052,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			201,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40053] = {
+	open_directly = 1,
+	name = "冬至礼包(2024冬)",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4031",
+	id = 40053,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			3880
+		},
+		{
+			4,
+			100021,
+			1
+		},
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			16502,
+			60
+		},
+		{
+			2,
+			30113,
+			150
 		}
 	},
 	price = {},
@@ -97029,6 +97539,266 @@ _G.pg.base.item_data_statistics[60508] = {
 }
 
 
+_G.pg.base.item_data_statistics[60519] = {
+	open_directly = 0,
+	name = "New Year's Invitation (2025)",
+	type = 21,
+	display = "Use to receive an SR shipgirl of your choosing and a commemorative item.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/60519",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60519,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2801,
+		2802,
+		2803,
+		2804,
+		2805,
+		2806,
+		2807
+	},
+	limit = {},
+	open_ui = {
+		"shrine_year",
+		"t_shrine"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60520] = {
+	open_directly = 0,
+	name = "Graf Zeppelin's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from Graf Zeppelin. It reads: \"May the cold of this world recede ever so slightly this year, ushering in a quantum of warmth...\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60520,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60521] = {
+	open_directly = 0,
+	name = "Belfast's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from Belfast. It reads: \"Though a new year may be upon us, my desire to stand by your side has not changed, Master.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60521,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60522] = {
+	open_directly = 0,
+	name = "South Dakota's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from South Dakota. It reads: \"My New Year's resolution? To hone my will even further, to become an even sturdier shield.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60522,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60523] = {
+	open_directly = 0,
+	name = "Formidable's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from Formidable. It reads: \"A new year, a new me! A perfect lady, I shall be! For the Commander to see!\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60523,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60524] = {
+	open_directly = 0,
+	name = "Noshiro's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from Noshiro. It reads: \"I hope that this coming year, there will be plenty more wonderful moments for the two of us to share, Commander.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60524,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60525] = {
+	open_directly = 0,
+	name = "Bismarck's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from Bismarck. It reads: \"A new year calls for a new venture. Now, let us venture bravely into the future.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60525,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60526] = {
+	open_directly = 0,
+	name = "Richelieu's Gift (New Year 2025)",
+	type = 1,
+	display = "A card from Richelieu. It reads: \"May our efforts and our faith find favor this coming year, such that victory shall never leave our sides.\"",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60526,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[69959] = {
 	open_directly = 0,
 	name = "Mystery T5 Tech Pack",
@@ -97564,6 +98334,73 @@ _G.pg.base.item_data_statistics[81207] = {
 			1,
 			14,
 			2024
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81208] = {
+	open_directly = 1,
+	name = "Game Night Lucky Bag A",
+	type = 17,
+	display = "Contains 1x random skin (Game Night Lucky Bag A), 2x Special General Blueprints - Series 7, 2025x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai19",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998310",
+	id = 81208,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86208,
+			1
+		},
+		{
+			1,
+			14,
+			2025
 		},
 		{
 			2,

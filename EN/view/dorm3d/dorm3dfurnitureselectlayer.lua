@@ -130,6 +130,14 @@ slot0.didEnter = function(slot0)
 		uv0:UpdateViewFurnitureItem(slot0)
 	end
 
+	slot0.furnitureScroll.onReturnItem = function(slot0, slot1)
+		if uv0.exited then
+			return
+		end
+
+		uv0.furnitureItems[slot0 + 1] = nil
+	end
+
 	slot0.replaceFurnitures = {}
 
 	slot0:UpdateDataZone()
@@ -232,7 +240,9 @@ slot0.UpdateDataDisplayFurnitures = function(slot0)
 		end
 	end)
 
-	slot0.displayFurnitures = {}
+	slot0.displayFurnitures = _.filter({}, function (slot0)
+		return slot0.count > 0 or slot0.template:InShopTime()
+	end)
 
 	slot0:FilterDataFurnitures()
 end
@@ -369,8 +379,24 @@ slot0.UpdateView = function(slot0)
 
 		setActive(slot2:Find("Selected"), uv0.furnitureType == uv0.activeFurnitureTypes[slot1 + 1])
 	end)
+
+	slot0.furnitureItems = {}
+
 	slot0.furnitureScroll:SetTotalCount(#slot0.displayFurnitures)
 	setActive(slot0.furnitureEmpty, #slot0.displayFurnitures == 0)
+
+	if slot0.timerRefreshShop then
+		slot0.timerRefreshShop:Stop()
+	end
+
+	slot0.timerRefreshShop = Timer.New(function ()
+		table.Foreach(uv0.furnitureItems, function (slot0, slot1)
+			uv0:UpdateViewFurnitureItem(slot0)
+		end)
+	end, 1, -1)
+	slot4 = slot0.timerRefreshShop
+
+	slot4:Start()
 
 	slot4 = {}
 	slot5 = slot0.furnitureType
@@ -445,6 +471,8 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 
 	if slot3.useable < slot3.count then
 		slot5 = i18n("dorm3d_furniture_used") .. slot5
+	elseif slot3.count == 0 then
+		slot5 = i18n("dorm3d_furniture_lack") .. slot5
 	end
 
 	setText(slot4:Find("Item/Count"), slot5)
@@ -453,18 +481,31 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 	slot6 = slot0.selectMode == uv0.SELECT_MODE.SLOT and not slot3.fit
 
 	setActive(slot4:Find("Unfit"), slot6)
+	setCanvasGroupAlpha(slot4:Find("Item"), slot6 and 0.4 or 1)
 
-	slot7 = not slot6 and slot3.count == 0
+	slot7 = slot3.template:IsValuable()
+	slot9 = 0
 
-	setActive(slot4:Find("Lack"), slot7)
-	setCanvasGroupAlpha(slot4:Find("Item"), (slot6 or slot7) and 0.4 or 1)
+	if slot3.template:IsSpecial() then
+		slot9 = 2
+	elseif slot7 then
+		slot9 = 1
+	end
 
-	slot8 = slot3.template:IsValuable()
-
-	setActive(slot4:Find("Item/BG/Normal"), not slot8)
-	setActive(slot4:Find("Item/BG/Pro"), slot8)
-	setActive(slot4:Find("Item/LabelPro"), slot8)
+	setActive(slot4:Find("Item/BG/Pro"), slot9 == 1)
+	setActive(slot4:Find("Item/LabelPro"), slot9 == 1)
+	setActive(slot4:Find("Item/BG/SP"), slot9 == 2)
+	setActive(slot4:Find("Item/LabelSP"), slot9 == 2)
 	setActive(slot4:Find("Item/Action"), false)
+
+	slot11 = slot3.template:GetEndTime() > 0 and pg.TimeMgr.GetInstance():GetServerTime() < slot10
+
+	setActive(slot4:Find("TimeLimit"), slot11)
+
+	if slot11 then
+		setText(slot4:Find("TimeLimit/Text"), skinCommdityTimeStamp(slot10))
+	end
+
 	onButton(slot0, slot4:Find("Item/Tip"), function ()
 		uv0:emit(Dorm3dFurnitureSelectMediator.SHOW_FURNITURE_ACESSES, {
 			showGOBtn = true,
@@ -552,38 +593,45 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 		end
 	end)
 
-	slot9 = slot3.count == 0 and slot3.template:GetShopID() or nil
+	slot12 = slot3.count == 0 and slot3.template:GetShopID() or 0
 
-	setActive(slot4:Find("GO"), slot9)
+	setActive(slot4:Find("GO"), slot12 ~= 0)
 
-	if slot9 then
-		slot10 = CommonCommodity.New({
-			id = slot9
+	if slot12 ~= 0 then
+		slot13 = CommonCommodity.New({
+			id = slot12
 		}, Goods.TYPE_SHOPSTREET)
-		slot11, slot12, slot13 = slot10:GetPrice()
-		slot14 = Drop.New({
+		slot14, slot15, slot16 = slot13:GetPrice()
+		slot17 = Drop.New({
 			type = DROP_TYPE_RESOURCE,
-			id = slot10:GetResType(),
-			count = slot11
+			id = slot13:GetResType(),
+			count = slot14
 		})
-		slot15 = pg.shop_template[slot9]
+		slot18 = pg.shop_template[slot12]
 
 		onButton(slot0, slot4:Find("GO"), function ()
-			uv0:emit(Dorm3dFurnitureSelectMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
+			uv1:emit(Dorm3dFurnitureSelectMediator.SHOW_SHOPPING_CONFIRM_WINDOW, {
 				content = {
-					icon = "<icon name=" .. uv1:GetResIcon() .. " w=1.1 h=1.1/>",
-					off = uv2,
-					cost = "x" .. uv3.count,
-					old = uv4,
-					name = uv5.template:GetName()
+					icon = "<icon name=" .. uv2:GetResIcon() .. " w=1.1 h=1.1/>",
+					off = uv3,
+					cost = "x" .. uv4.count,
+					old = uv5,
+					name = uv0.template:GetName()
 				},
 				tip = i18n("dorm3d_shop_gift_tip"),
-				drop = uv5.template,
+				drop = uv0.template,
+				endTime = uv0.template:GetEndTime(),
 				onYes = function ()
-					uv0:emit(GAME.SHOPPING, {
+					if not uv0.template:InShopTime() then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_purchase_outtime"))
+
+						return
+					end
+
+					uv1:emit(GAME.SHOPPING, {
 						silentTip = true,
 						count = 1,
-						shopId = uv1
+						shopId = uv2
 					})
 				end
 			})
@@ -731,6 +779,12 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0.furnitureScroll.enabled = false
+
+	if slot0.timerRefreshShop then
+		slot0.timerRefreshShop:Stop()
+	end
+
 	slot0.scene:ExitFurnitureWatchMode()
 end
 

@@ -52,7 +52,7 @@ pg.item_data_battleui = {
 		unlock = "Cruise Missions S20",
 		name = "Neon",
 		key = "SkinNormal_20241107",
-		display_icon = "Ui_104",
+		display_icon = "ui_104",
 		is_unlock = 1,
 		rare = 3,
 		desc = "Augment your combat experience with neon lights and rhythmic light beams.",
@@ -60,11 +60,24 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[201] = {
+		unlock = "Buy the Battle UI Pack - Christmas",
+		name = "Christmas",
+		key = "SkinNormal_20241209",
+		display_icon = "ui_201",
+		is_unlock = 1,
+		rare = 4,
+		desc = "An interface for those who adore the atmosphere of winter. Embrace the holiday spirit and watch the snowflakes fall while you take command of the battle.",
+		id = 201,
+		icon = "201",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
-		104
+		104,
+		201
 	}
 }

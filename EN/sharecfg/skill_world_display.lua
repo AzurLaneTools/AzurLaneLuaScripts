@@ -2440,6 +2440,100 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 			}
 		}
 	},
+	[150760] = {
+		desc_get = "",
+		id = 150760,
+		desc = [[
+[Operation Siren]
+Every 10s: fires a $2 special barrage (DMG is based on the skill's level).
+If this ship has a CL Main Gun equipped in her third weapon slot: sets that CL Main Gun's Detection Range and Range to $1 and makes its shells penetrate enemy shields. 
+This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy 8 times: increases that enemy's DMG taken by 8.0%.]],
+		desc_get_add = {
+			{
+				"80",
+				"105"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"80",
+					"+2"
+				},
+				{
+					"82",
+					"+3"
+				},
+				{
+					"85",
+					"+2"
+				},
+				{
+					"87",
+					"+3"
+				},
+				{
+					"90",
+					"+2"
+				},
+				{
+					"92",
+					"+3"
+				},
+				{
+					"95",
+					"+2"
+				},
+				{
+					"97",
+					"+3"
+				},
+				{
+					"100",
+					"+5"
+				},
+				{
+					"105"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
 	[19260] = {
 		desc_get = "",
 		id = 19260,
@@ -3345,6 +3439,20 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[801561] = {
+		desc_get = "",
+		id = 801561,
+		desc = "[Operation Siren]\nEvery 9 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: decreases your META ships' DMG taken by 3.0%",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801562] = {
+		desc_get = "",
+		id = 801562,
+		desc = "[Operation Siren]\nEvery 6 times this ship fires her Main Guns: fires a special barrage. Inflicts the Coiling Flames status to enemies hit by this barrage. When fighting humanoid Siren fleets or Boss fleets: decreases this ship's DMG taken by 8.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -3369,6 +3477,7 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		16220,
 		16450,
 		16510,
+		150760,
 		19260,
 		19510,
 		105010,
@@ -3410,6 +3519,8 @@ When the HP of a CV or CVL in your fleet falls below 20.0% as a result of DMG ta
 		801301,
 		801302,
 		801341,
-		801342
+		801342,
+		801561,
+		801562
 	}
 }

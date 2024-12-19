@@ -34,11 +34,27 @@ slot0.initActList = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.finishActTask = function(slot0, slot1, slot2)
-	for slot6 = 1, #slot0.actTasks do
-		if slot0.actTasks[slot6].actId == slot1 then
-			table.insert(slot0.actTasks[slot6].finish_tasks, slot0:createTask(slot1, {
-				id = slot2
-			}))
+	if not table.contains(TotalTaskProxy.act_task_onece_type, pg.task_data_template[slot2].type) then
+		return
+	end
+
+	for slot8 = 1, #slot0.actTasks do
+		if slot0.actTasks[slot8].actId == slot1 then
+			slot9 = true
+
+			for slot13, slot14 in ipairs(slot0.actTasks[slot8].finish_tasks) do
+				if slot14.id == slot2 then
+					slot9 = false
+
+					break
+				end
+			end
+
+			if slot9 then
+				table.insert(slot0.actTasks[slot8].finish_tasks, slot0:createTask(slot1, {
+					id = slot2
+				}))
+			end
 		end
 	end
 end
@@ -112,12 +128,10 @@ slot0.removeActList = function(slot0, slot1, slot2)
 			if slot0.actTasks[slot11].actId == slot1 then
 				for slot16 = #slot0.actTasks[slot11].tasks, 1, -1 do
 					if slot12[slot16].id == slot7.id then
-						if not slot12[slot16]:isCircle() then
+						if slot12[slot16]:isCircle() then
 							slot12[slot16]:updateProgress(0)
-						end
-
-						if not slot12[slot16]:isCircle() then
-							table.remove(slot12, slot16)
+						else
+							slot0:finishActTask(slot1, table.remove(slot12, slot16).id)
 						end
 					end
 				end

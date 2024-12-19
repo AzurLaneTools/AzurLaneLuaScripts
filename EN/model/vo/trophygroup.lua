@@ -120,4 +120,12 @@ slot0.sortGroup = function(slot0)
 	end)
 end
 
+slot0.GetTrophyPage = function(slot0)
+	return slot0._trophyList[1]:getConfig("page")
+end
+
+slot0.IsExpire = function(slot0)
+	return slot0._trophyList[1]:getConfig("is_out_of_print")
+end
+
 return slot0

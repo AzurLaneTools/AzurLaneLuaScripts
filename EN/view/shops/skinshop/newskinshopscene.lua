@@ -1,11 +1,13 @@
 slot0 = class("NewSkinShopScene", import("view.base.BaseUI"))
 slot0.MODE_OVERVIEW = 1
 slot0.MODE_EXPERIENCE = 2
+slot0.MODE_EXPERIENCE_FOR_ITEM = 3
 slot2 = -2
 slot3 = -3
-slot4 = 9999
-slot5 = 9997
-slot6 = 9998
+slot4 = -4
+slot5 = 9999
+slot6 = 9997
+slot7 = 9998
 slot0.PAGE_ALL = -1
 slot0.optionsPath = {
 	"overlay/blur_panel/adapt/top/option"
@@ -65,7 +67,15 @@ slot0.GetSkinClassify = function(slot0, slot1, slot2)
 		slot4[slot11] = (slot4[slot11] or 0) + 1
 	end
 
-	if #slot0:GetReturnSkins() > 0 then
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot0:GetReturnSkins()) do
+		slot5[slot10] = true
+	end
+
+	if underscore.any(slot1, function (slot0)
+		return uv0[slot0]
+	end) then
 		table.insert(slot3, uv1)
 	end
 
@@ -79,7 +89,11 @@ slot0.GetSkinClassify = function(slot0, slot1, slot2)
 		table.insert(slot3, 1, uv5)
 	end
 
-	table.insert(slot3, 1, uv6)
+	if slot2 == uv4.MODE_EXPERIENCE_FOR_ITEM then
+		table.insert(slot3, 1, uv6)
+	end
+
+	table.insert(slot3, 1, uv7)
 
 	return slot3
 end
@@ -160,7 +174,7 @@ slot0.init = function(slot0)
 	slot0.rollingCircleRect:SetCallback(slot0, uv0.OnSelectSkinPage, uv0.OnConfirmSkinPage)
 
 	slot0.rollingCircleMaskTr = slot0:findTF("overlay/left")
-	slot0.mainView = NewSkinShopMainView.New(slot0._tf, slot0.event)
+	slot0.mainView = NewSkinShopMainView.New(slot0._tf, slot0.event, slot0.contextData)
 	slot0.title = slot0:findTF("overlay/blur_panel/adapt/top/title"):GetComponent(typeof(Image))
 	slot0.titleEn = slot0:findTF("overlay/blur_panel/adapt/top/title_en"):GetComponent(typeof(Image))
 	slot1 = slot0:findTF("overlay/bottom/scroll")
@@ -314,8 +328,19 @@ slot0.OnSearch = function(slot0)
 	end
 end
 
+slot8 = function(slot0)
+	if slot0 == uv0.MODE_EXPERIENCE then
+		return uv1
+	elseif slot0 == uv0.MODE_EXPERIENCE_FOR_ITEM then
+		return uv2
+	else
+		return uv3
+	end
+end
+
 slot0.SetUp = function(slot0)
 	slot1 = slot0.contextData.mode or uv0.MODE_OVERVIEW
+	slot0.mode = slot1
 	slot2 = slot0:GetAllCommodity()
 	slot0.cgGroup.blocksRaycasts = false
 
@@ -324,11 +349,11 @@ slot0.SetUp = function(slot0)
 	slot0:UpdateVoucherBtn()
 	setActive(slot0.rollingCircleMaskTr, slot1 == uv0.MODE_OVERVIEW)
 
-	if slot1 == uv0.MODE_EXPERIENCE then
+	if slot1 == uv0.MODE_EXPERIENCE or slot1 == uv0.MODE_EXPERIENCE_FOR_ITEM then
 		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
 	end
 
-	slot0.skinPageID = slot1 == uv0.MODE_EXPERIENCE and uv1 or uv2
+	slot0.skinPageID = uv1(slot1)
 
 	parallelAsync({
 		function (slot0)
@@ -357,6 +382,7 @@ end
 slot0.UpdateTitle = function(slot0, slot1)
 	slot0.title.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", ({
 		"huanzhuangshagndian",
+		"title_01",
 		"title_01"
 	})[slot1])
 
@@ -364,20 +390,21 @@ slot0.UpdateTitle = function(slot0, slot1)
 
 	slot0.titleEn.sprite = GetSpriteFromAtlas("ui/SkinShopUI_atlas", ({
 		"huanzhuangshagndian_en",
+		"title_en_01",
 		"title_en_01"
 	})[slot1])
 
 	slot0.titleEn:SetNativeSize()
 end
 
-slot7 = function(slot0, slot1)
+slot9 = function(slot0, slot1)
 	slot2 = pg.skin_page_template
 	slot4, slot5 = nil
 
-	if slot1:GetID() == uv0 or slot3 == uv1 then
+	if slot1:GetID() == uv0 or slot3 == uv1 or slot3 == uv2 then
 		slot5 = "ALL"
 		slot4 = "text_all"
-	elseif slot3 == uv2 then
+	elseif slot3 == uv3 then
 		slot5 = "RETURN"
 		slot4 = "text_fanchang"
 	else
@@ -437,15 +464,29 @@ slot0.InitSkinClassify = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
+slot10 = function(slot0)
+	if not uv0.cacheSkinExperienceItems then
+		uv0.cacheSkinExperienceItems = getProxy(BagProxy):GetSkinExperienceItems()
+	end
+
+	return _.any(uv0.cacheSkinExperienceItems, function (slot0)
+		return slot0:CanUseForShop(uv0)
+	end)
+end
+
 slot0.IsType = function(slot0, slot1, slot2)
 	if slot2:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-		return slot1 == uv0
-	elseif slot1 == uv1 then
+		if slot0.mode == uv0.MODE_EXPERIENCE_FOR_ITEM then
+			return slot1 == uv1 and uv2(slot2.id)
+		else
+			return slot1 == uv3
+		end
+	elseif slot1 == uv4 then
 		return true
-	elseif slot1 == uv2 and slot0:GetReturnSkinMap()[slot2.id] then
+	elseif slot1 == uv5 and slot0:GetReturnSkinMap()[slot2.id] then
 		return true
 	else
-		return (slot0:GetShopTypeIdBySkinId(slot2:getSkinId()) == 0 and uv3 or slot3) == slot1
+		return (slot0:GetShopTypeIdBySkinId(slot2:getSkinId()) == 0 and uv6 or slot3) == slot1
 	end
 
 	return false
@@ -504,7 +545,7 @@ slot0.IsSearchType = function(slot0, slot1, slot2)
 	}):IsMatchKey(slot1)
 end
 
-slot8 = function(slot0, slot1, slot2)
+slot11 = function(slot0, slot1, slot2)
 	if slot2[slot0.id] == slot2[slot1.id] then
 		return slot0.id < slot1.id
 	else
@@ -751,6 +792,7 @@ slot0.willExit = function(slot0)
 	end
 
 	uv0.shopTypeIdList = nil
+	uv0.cacheSkinExperienceItems = nil
 end
 
 return slot0

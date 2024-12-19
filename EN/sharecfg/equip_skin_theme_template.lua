@@ -1332,7 +1332,7 @@ pg.equip_skin_theme_template = {
 	},
 	[62] = {
 		id = 62,
-		name = "To LOVE-Ru ",
+		name = "To LOVE-Ru",
 		ids = {
 			1450,
 			1451,
@@ -1352,6 +1352,30 @@ pg.equip_skin_theme_template = {
 			1465,
 			1466,
 			1467
+		}
+	},
+	[63] = {
+		id = 63,
+		name = "Wilderness Force",
+		ids = {
+			4077,
+			4078,
+			4079,
+			4080,
+			4081,
+			4082,
+			4083,
+			4084,
+			4085,
+			4086,
+			4087,
+			4088,
+			4089,
+			4090,
+			4091,
+			4092,
+			4093,
+			4094
 		}
 	},
 	[101] = {
@@ -1560,6 +1584,7 @@ pg.equip_skin_theme_template = {
 		60,
 		61,
 		62,
+		63,
 		101,
 		102,
 		103,

@@ -12834,7 +12834,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Lala Satalin Deviluke, Golden Darkness, and more!"
+	tip = "Get Fritz Rumey guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -24372,14 +24372,14 @@ _G.pg.base.gametip.CurlingGame_tips1 = {
 			info = [[
 - Overview -
 · Strategically position the swole Meowfficer and slide the curling stone as close to the red circle as you can to score points.
-· A new round of Manjuu Curling will be unlocked every day at midnight up to December 21st. Complete them all to obtain Southampton's Afternoon Impromptu skin.
+· A new round of Manjuu Curling will be unlocked every day at midnight up to December 25th.
 
 - How to Play -
 · Every round of Manjuu Curling consists of 3 curling stone slides. One new round a day is unlocked during the event period.
-· Press and hold the Meowfficer to change the curling stone's launch speed. The longer you press, the faster it will go. Let go when you wish to launch the curling stone.
-· While your finger is on the Meowfficer, you move it up and down on the screen to change the curling stone's course.
+· Press and hold the Meowfficer to change the curling stone's launch speed. The longer you hold, the faster it will go. Let go when you wish to launch the curling stone.
+· While your finger is on the Meowfficer, move it up and down on the screen to change the curling stone's course.
 · The curling stone's course will change if it bumps into an object.
-· When the curling stone comes to a stop, you will score points based on which circle it stopped inside. Stopping in the blue circle gives you 300 points, the yellow circle gives you 500 points, and the red circle gives you 1,000 points.]]
+· When the curling stone comes to a stop, you will score points based on which circle it stopped inside. Stopping in the blue circle gives you 1,000 points, the yellow circle gives you 2,000 points, and the red circle gives you 3,000 points.]]
 		}
 	}
 }
@@ -29566,6 +29566,11 @@ _G.pg.base.gametip.battle_text_tianchengCV_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_lumei_1 = {
+	tip = "\"Don't just stand there! Follow me!\""
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "Low Morale"
 }
@@ -34566,6 +34571,11 @@ _G.pg.base.gametip.dorm3d_furniture_used = {
 }
 
 
+_G.pg.base.gametip.dorm3d_furniture_lack = {
+	tip = "[Unobtained]"
+}
+
+
 _G.pg.base.gametip.dorm3d_furniture_unfit = {
 	tip = "Unusable"
 }
@@ -35984,6 +35994,21 @@ _G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_purchase_label_special = {
+	tip = "Bonus"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_outtime = {
+	tip = "Not currently available."
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
+	tip = "This item has been replaced by $1, and cannot be obtained now."
+}
+
+
 _G.pg.base.gametip.cruise_phase_title = {
 	tip = "Phase"
 }
@@ -36763,4 +36788,42 @@ _G.pg.base.gametip.notify_clock_tip = {
 
 _G.pg.base.gametip.notify_clock_button = {
 	tip = "Enable alarm"
+}
+
+
+_G.pg.base.gametip.help_starLightAlbum = {
+	tip = {
+		{
+			info = "纪念手册："
+		},
+		{
+			info = [[
+1. 回忆页面内新增「纪念手册」系统入口。
+2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得本次活动纪念章「抵抗军总部大楼」和活动勋章「抵抗之星纪念勋章」。
+ ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
+ ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
+ ※ 「纪念贴纸」可以通过完成对应活动任务获取；
+ ※ 奖励领取界面将保留至1月8日23:59；]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.word_gain_date = {
+	tip = "获取时间："
+}
+
+
+_G.pg.base.gametip.word_limited_activity = {
+	tip = "限时活动"
+}
+
+
+_G.pg.base.gametip.word_show_expire_content = {
+	tip = "查看已无法获取的内容"
+}
+
+
+_G.pg.base.gametip.word_got_pt = {
+	tip = "已获得"
 }

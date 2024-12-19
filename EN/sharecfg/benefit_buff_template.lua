@@ -83,6 +83,13 @@ pg.benefit_buff_template = setmetatable({
 		79,
 		80,
 		81,
+		82,
+		83,
+		84,
+		85,
+		86,
+		87,
+		88,
 		101,
 		102,
 		103,
@@ -1526,6 +1533,125 @@ pg.base.benefit_buff_template = {
 		id = 81,
 		type_priority = 0,
 		benefit_type = "dorm_energy"
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "{namecode:437}的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:437}的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_effect = "520",
+		id = 82,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "贝尔法斯特的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "贝尔法斯特的祈愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
+		benefit_effect = "3",
+		id = 83,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "南达科他的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "南达科他的祈愿——后宅经验加成提高3%\n剩余时间:$1",
+		benefit_effect = "3",
+		id = 84,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "Formidable's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "Formidable's Blessings: Your ships gain 3.0% more EXP in the Dorm.\nBuff duration: $1",
+		benefit_effect = "3",
+		id = 85,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "{namecode:50}的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:50}的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_effect = "520",
+		id = 86,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "{namecode:435}的祈愿",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "{namecode:435}的祈愿——主线、困难、活动、作战档案关卡中，受到的伤害减少3%\n剩余时间:$1",
+		benefit_effect = "520",
+		id = 87,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	{
+		icon = "Props/jianchuanqiyuan",
+		name = "Richelieu's Blessings",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "黎塞留的祈愿——主线、困难、活动、作战档案关卡中，角色经验获取提高3%\n剩余时间:$1",
+		benefit_effect = "3",
+		id = 88,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
 	},
 	[101] = {
 		icon = "Props/newserver_xinshou",

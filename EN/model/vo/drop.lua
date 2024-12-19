@@ -281,6 +281,13 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
 			return pg.item_data_battleui[slot0.id]
+		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
+			slot2 = pg.item_virtual_data_statistics[pg.activity_medal_template[slot0.id].item]
+
+			print(slot2)
+
+			return slot2
 		end
 	}
 
@@ -450,6 +457,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0)
 			return slot0:getConfig("rare")
+		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
+			return slot0:getConfig("rarity")
 		end
 	}
 
@@ -575,6 +585,16 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_SKIN] = function (slot0)
 			slot0.isNew = not getProxy(ShipSkinProxy):hasOldNonLimitSkin(slot0.id)
+
+			return slot0
+		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
+			getProxy(PlayerProxy):getRawData():updateMedalList({
+				{
+					key = slot0.id,
+					value = pg.TimeMgr.GetInstance():GetServerTime()
+				}
+			})
 
 			return slot0
 		end
@@ -1060,6 +1080,9 @@ slot0.InitSwitch = function()
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
 		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0, slot1, slot2)
+			setText(slot2, slot0:getConfig("display"))
+		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
 		end
@@ -1198,6 +1221,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_COMBAT_UI_STYLE] = function (slot0, slot1, slot2)
 			updateAttireCombatUI(slot1, AttireConst.TYPE_ICON_FRAME, slot0:getConfigTable(), slot2)
+		end,
+		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0, slot1, slot2)
+			updateActivityMedal(slot1, slot0:getConfigTable(), slot2)
 		end
 	}
 

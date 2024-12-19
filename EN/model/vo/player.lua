@@ -208,6 +208,9 @@ slot0.Ctor = function(slot0, slot1)
 		[AttireConst.TYPE_ICON_FRAME] = slot0.iconFrame,
 		[AttireConst.TYPE_CHAT_FRAME] = slot0.chatFrame
 	}
+	slot0.activityMedalGroupList = {}
+
+	slot0:updateMedalList(slot1.activity_medals or {})
 end
 
 slot0.updateAttireFrame = function(slot0, slot1, slot2)
@@ -924,6 +927,18 @@ end
 
 slot0.IsStoreLevelMax = function(slot0)
 	return not pg.mail_storeroom[slot0.mailStoreLevel + 1]
+end
+
+slot0.updateMedalList = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot0.activityMedalGroupList[slot9] = slot0.activityMedalGroupList[pg.activity_medal_template[slot6.key].group] or ActivityMedalGroup.New(slot9)
+
+		slot0.activityMedalGroupList[slot9]:UpdateMedal(slot7, slot6.value)
+	end
+end
+
+slot0.getActivityMedalGroup = function(slot0)
+	return slot0.activityMedalGroupList
 end
 
 return slot0

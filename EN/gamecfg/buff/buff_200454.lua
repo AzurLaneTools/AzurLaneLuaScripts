@@ -8,5 +8,16 @@ return {
 	id = 200454,
 	icon = 200454,
 	last_effect = "",
-	effect_list = {}
+	effect_list = {
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "xiyinxiaoguo"
+			}
+		}
+	}
 }

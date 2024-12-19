@@ -43,7 +43,7 @@ slot0.GetShopID = function(slot0)
 		end
 	end
 
-	return slot1[#slot1]
+	return slot1[#slot1] or 0
 end
 
 slot0.CheckBuyLimit = function(slot0)

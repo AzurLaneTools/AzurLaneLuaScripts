@@ -1,10 +1,15 @@
 slot0 = class("TotalTaskProxy", import(".NetProxy"))
+slot0.act_task_onece_type = {
+	6,
+	26
+}
 slot0.avatar_task_type = {
 	ActivityConst.ACTIVITY_TYPE_PT_OTHER
 }
 slot0.activity_task_type = {
 	ActivityConst.ACTIVITY_TYPE_TASK_RYZA,
-	ActivityConst.ACTIVITY_TYPE_HOTSPRING_2
+	ActivityConst.ACTIVITY_TYPE_HOTSPRING_2,
+	ActivityConst.ACTIVITY_TYPE_NOT_TRACEABLE
 }
 slot0.normal_task_type = {
 	ActivityConst.ACTIVITY_TYPE_TASKS,

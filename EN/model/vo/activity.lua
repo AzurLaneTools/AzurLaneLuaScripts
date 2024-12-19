@@ -30,7 +30,8 @@ slot0.GetType2Class = function()
 		[ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE] = SingleEventActivity,
 		[ActivityConst.ACTIVITY_TYPE_LINER] = LinerActivity,
 		[ActivityConst.ACTIVITY_TYPE_TOWN] = TownActivity,
-		[ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE] = AirFightActivity
+		[ActivityConst.ACTIVITY_TYPE_AIRFIGHT_BATTLE] = AirFightActivity,
+		[ActivityConst.ACTIVITY_TYPE_NOT_TRACEABLE] = NotTraceableTaskActivity
 	}
 
 	return uv0

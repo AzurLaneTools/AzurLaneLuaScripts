@@ -153,6 +153,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			291,
 			292,
+			293,
 			100002,
 			100003,
 			100004,
@@ -3266,6 +3267,25 @@ pg.furniture_data_template = setmetatable({
 			316307,
 			316308,
 			316309
+		},
+		[117] = {
+			317001,
+			317002,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317107,
+			317108,
+			317109,
+			317110,
+			317111,
+			317301,
+			317302,
+			317303,
+			317304
 		}
 	},
 	get_id_list_by_tag = {
@@ -5209,7 +5229,17 @@ pg.furniture_data_template = setmetatable({
 			316119,
 			316120,
 			316121,
-			316122
+			316122,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317107,
+			317108,
+			317109,
+			317110
 		},
 		{
 			1108,
@@ -5581,7 +5611,8 @@ pg.furniture_data_template = setmetatable({
 			284,
 			287,
 			289,
-			292
+			292,
+			293
 		},
 		[7] = {
 			211,
@@ -5778,7 +5809,8 @@ pg.furniture_data_template = setmetatable({
 			313113,
 			314113,
 			315113,
-			316123
+			316123,
+			317111
 		},
 		[4] = {
 			1001,
@@ -5882,7 +5914,8 @@ pg.furniture_data_template = setmetatable({
 			313001,
 			314001,
 			315001,
-			316001
+			316001,
+			317001
 		},
 		[3] = {
 			1002,
@@ -5987,7 +6020,8 @@ pg.furniture_data_template = setmetatable({
 			313002,
 			314002,
 			315002,
-			316002
+			316002,
+			317002
 		},
 		[5] = {
 			1301,
@@ -6340,7 +6374,11 @@ pg.furniture_data_template = setmetatable({
 			316306,
 			316307,
 			316308,
-			316309
+			316309,
+			317301,
+			317302,
+			317303,
+			317304
 		}
 	},
 	get_id_list_by_type = {
@@ -6447,7 +6485,8 @@ pg.furniture_data_template = setmetatable({
 			313002,
 			314002,
 			315002,
-			316002
+			316002,
+			317002
 		},
 		[7] = {
 			1,
@@ -6576,6 +6615,7 @@ pg.furniture_data_template = setmetatable({
 			288,
 			289,
 			292,
+			293,
 			100002,
 			100004,
 			100005,
@@ -8562,7 +8602,17 @@ pg.furniture_data_template = setmetatable({
 			316119,
 			316120,
 			316122,
-			316123
+			316123,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317108,
+			317109,
+			317110,
+			317111
 		},
 		[11] = {
 			131,
@@ -8611,7 +8661,8 @@ pg.furniture_data_template = setmetatable({
 			301105,
 			312115,
 			316112,
-			316121
+			316121,
+			317107
 		},
 		[14] = {
 			214,
@@ -8738,7 +8789,8 @@ pg.furniture_data_template = setmetatable({
 			313001,
 			314001,
 			315001,
-			316001
+			316001,
+			317001
 		},
 		[5] = {
 			1101,
@@ -9395,7 +9447,11 @@ pg.furniture_data_template = setmetatable({
 			316306,
 			316307,
 			316308,
-			316309
+			316309,
+			317301,
+			317302,
+			317303,
+			317304
 		},
 		[8] = {
 			17121
@@ -9585,6 +9641,7 @@ pg.furniture_data_template = setmetatable({
 		289,
 		291,
 		292,
+		293,
 		100002,
 		100003,
 		100004,
@@ -12489,7 +12546,24 @@ pg.furniture_data_template = setmetatable({
 		316306,
 		316307,
 		316308,
-		316309
+		316309,
+		317001,
+		317002,
+		317101,
+		317102,
+		317103,
+		317104,
+		317105,
+		317106,
+		317107,
+		317108,
+		317109,
+		317110,
+		317111,
+		317301,
+		317302,
+		317303,
+		317304
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20022,6 +20096,43 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				"tolovexunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[293] = {
+		can_rotate = 0,
+		name = "Resistance Headquarters Building",
+		gain_by = "Substellar Crepuscule",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 8,
+		icon = "fulicixunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/fulicixunzhang",
+		canputon = 0,
+		count = 1,
+		describe = "A scale model of the Iron Blood Duchy's Resistance headquarters found in another realm. Circuitry fills the inside, letting it serve as a floor lamp during night.",
+		advice = 0,
+		deblocking = 1,
+		id = 293,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -149240,6 +149351,862 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		comfortable = 0,
 		size = {
 			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317001] = {
+		can_rotate = 0,
+		name = "Wilderness Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanfticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 117,
+		spine_action_replace = "",
+		picture = "ft/dibanft",
+		canputon = 0,
+		count = 1,
+		describe = "Better hit the hay before you hit the floor.",
+		advice = 0,
+		deblocking = 1,
+		id = 317001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317002] = {
+		can_rotate = 0,
+		name = "Wilderness Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbifticon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 117,
+		spine_action_replace = "",
+		picture = "ft/qiangbift",
+		canputon = 0,
+		count = 1,
+		describe = "Better hit the hay before you hit the floor.",
+		advice = 0,
+		deblocking = 1,
+		id = 317002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317101] = {
+		can_rotate = 0,
+		name = "Rusty Bed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "chuangftcion",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ft/chuangft",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "Like many of us, it's seen better days, but it'll have to do.",
+		advice = 0,
+		id = 317101,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					21,
+					28
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317102] = {
+		can_rotate = 0,
+		name = "Motorhome",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "fangchefticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ft/fangcheft",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "A fortified motorhome. It's not just a home, it's a fortress.",
+		advice = 0,
+		id = 317102,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-108.9,
+					-124
+				},
+				{
+					-1,
+					1
+				},
+				"ft/fangcheft_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317103] = {
+		can_rotate = 0,
+		name = "Crafting Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "gongzuotaifticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "You might be able to craft weapons to save the world here. Just be careful not to get blinded by the lamp.",
+		advice = 0,
+		id = 317103,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gongzuotaift",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317104] = {
+		can_rotate = 0,
+		name = "Wilderness Campfire",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "gouhuofticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "Starting a fire indoors is a bad idea, but braving the wilds is an even worse idea, so...",
+		advice = 0,
+		id = 317104,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouhuoft",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317105] = {
+		can_rotate = 0,
+		name = "Wilderness Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shafafticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ft/shafaft",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "Those springs sting like hell. Watch your rear.",
+		advice = 0,
+		id = 317105,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12,
+					-2.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317106] = {
+		can_rotate = 0,
+		name = "Wilderness Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yizifticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ft/yizift",
+		canputon = 0,
+		themeId = 117,
+		count = 3,
+		describe = "A regular old chair. Could work as a blunt weapon in a pinch.",
+		advice = 0,
+		id = 317106,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15.7,
+					29.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317107] = {
+		can_rotate = 0,
+		name = "Beast Machine",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 117,
+		icon = "yueyechefticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "A souped-up off-roader loaded with fuel and weapons – your most loyal ride!",
+		advice = 0,
+		id = 317107,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yueyecheftB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"yueyecheftT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[317108] = {
+		can_rotate = 0,
+		name = "Wilderness Bath Barrel",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zaotongfticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "ft/zaotongft",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "Watch the lid, or someone might take the opportunity to trap you.",
+		advice = 0,
+		id = 317108,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-19.1,
+					-100.8
+				},
+				{
+					-1,
+					1
+				},
+				"ft/zaotongft_using",
+				0,
+				{
+					{
+						0.5,
+						143.7
+					},
+					{
+						232,
+						200
+					},
+					"ft/zaotongft_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317109] = {
+		can_rotate = 0,
+		name = "Wilderness Scrap Pile 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zawuxiangfticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 117,
+		spine_action_replace = "",
+		picture = "ft/zawuxiangft",
+		canputon = 0,
+		count = 1,
+		describe = "There might be something of value inside, if you have the patience.",
+		advice = 0,
+		deblocking = 1,
+		id = 317109,
+		comfortable = 3,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317110] = {
+		can_rotate = 0,
+		name = "Wilderness Scrap Pile 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		themeId = 117,
+		icon = "zawuduifticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "There might be something of value inside, if you have the patience.",
+		advice = 0,
+		id = 317110,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zawuduift",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[317111] = {
+		can_rotate = 0,
+		name = "\"Hammer\" Solar Power System",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 117,
+		icon = "taiyangnengdianchifticon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "A solar power system that looks completely out of place in its surroundings. Could it be a component from some kind of solar weapon?",
+		advice = 0,
+		id = 317111,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taiyangnengdianchiftB",
+				"normal"
+			},
+			{
+				"taiyangnengdianchiftT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[317301] = {
+		can_rotate = 0,
+		name = "Target Board 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "bazi1fticon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "Need to practice your aim? This thing's got you covered.",
+		advice = 0,
+		id = 317301,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bazi1ft",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317302] = {
+		can_rotate = 0,
+		name = "Target Board 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "bazi2fticon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		describe = "Need to practice your aim? This thing's got you covered.",
+		advice = 0,
+		id = 317302,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bazi2ft",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317303] = {
+		can_rotate = 0,
+		name = "Survival Tool Rack",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "gongjujiafticon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 117,
+		spine_action_replace = "",
+		picture = "ft/gongjujiaft",
+		canputon = 0,
+		count = 1,
+		describe = "Your best friends in the wild. Perfect for organizing gear and tools.",
+		advice = 0,
+		deblocking = 1,
+		id = 317303,
+		comfortable = 3,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317304] = {
+		can_rotate = 0,
+		name = "Wilderness Doodle Wall",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "haibaofticon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 117,
+		spine_action_replace = "",
+		picture = "ft/haibaoft",
+		canputon = 0,
+		count = 1,
+		describe = "A corner that might remind you of a bygone era's art... or just the doodles of some nutcase.",
+		advice = 0,
+		deblocking = 1,
+		id = 317304,
+		comfortable = 2,
+		size = {
+			6,
 			0
 		},
 		offset = {},

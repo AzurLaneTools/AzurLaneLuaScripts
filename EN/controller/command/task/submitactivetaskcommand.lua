@@ -127,11 +127,7 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.updateTaskActivityData = function(slot0, slot1, slot2)
-	slot3 = pg.task_data_template[slot1]
-	slot4 = slot3.type
-	slot5 = slot3.sub_type
-
-	if getProxy(ActivityProxy):getActivityById(slot2) and slot4 == 6 then
+	if getProxy(ActivityProxy):getActivityById(slot2) then
 		getProxy(ActivityTaskProxy):finishActTask(slot2, slot1)
 	end
 end

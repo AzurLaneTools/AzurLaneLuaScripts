@@ -18,6 +18,8 @@ slot0.Ctor = function(slot0)
 		MainRemoveNpcSequence.New(),
 		MainReplaceFoodSequence.New(),
 		MainOverDueEquipmentSequence.New(),
+		MainSkinDiscountItemTipSequence.New(),
+		MainOverDueSkinDiscountItemSequence.New(),
 		MainOverDueAttireSequence.New(),
 		MainOverDueSkinSequence.New(),
 		MainGuildSequence.New(),

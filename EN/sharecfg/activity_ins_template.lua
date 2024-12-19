@@ -13289,72 +13289,218 @@ pg.activity_ins_template = {
 	[512] = {
 		ship_group = 1110001,
 		name = "Lala Satalin Deviluke",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_512",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241121_lalafzpGPiykLy5ew6rB.png",
+		is_active = 0,
 		sculpture = "lala_tolove",
 		id = 512,
 		group_id = 512,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				11,
+				21
+			},
+			{
+				12,
+				30,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5119,
+			5125,
+			5128
+		}
 	},
 	[513] = {
 		ship_group = 1110002,
 		name = "Nana Asta Deviluke",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_513",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241121_nana1yb8ZqLqMLwHdjJt.png",
+		is_active = 0,
 		sculpture = "nana_tolove",
 		id = 513,
 		group_id = 513,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				11,
+				22
+			},
+			{
+				11,
+				58,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5138,
+			5143
+		}
 	},
 	[514] = {
 		ship_group = 1110003,
 		name = "Momo Belia Deviluke",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_514",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241121_mengmengeOmXbbq9AeoElwyC.png",
+		is_active = 0,
 		sculpture = "mengmeng_tolove",
 		id = 514,
 		group_id = 514,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				11,
+				23
+			},
+			{
+				15,
+				19,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5152,
+			5158,
+			5162
+		}
 	},
 	[515] = {
 		ship_group = 1110005,
 		name = "Sairenji Haruna",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_515",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241121_xiliansigJzsetj11JJd08rP.png",
+		is_active = 0,
 		sculpture = "xiliansi_tolove",
 		id = 515,
 		group_id = 515,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				11,
+				24
+			},
+			{
+				20,
+				13,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5172,
+			5178
+		}
 	},
 	[516] = {
 		ship_group = 1110004,
 		name = "Konjiki no Yami",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_516",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241121_jinseanyingMikRnH0ri8ZVrNSu.png",
+		is_active = 0,
 		sculpture = "jinseanying_tolove",
 		id = 516,
 		group_id = 516,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2024,
+				11,
+				25
+			},
+			{
+				12,
+				45,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5188,
+			5193
+		}
 	},
 	[517] = {
 		ship_group = 1110006,
 		name = "Kotegawa Yui",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_517",
+		picture_persist = "https://blhxusstatic.yo-star.com/pic/241121_gushouchuanwn8JVTJkdQuFY9mQ.png",
+		is_active = 0,
 		sculpture = "gushouchuan_tolove",
 		id = 517,
 		group_id = 517,
+		time_persist = {
+			{
+				2024,
+				11,
+				26
+			},
+			{
+				10,
+				38,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5205,
+			5210
+		}
+	},
+	[518] = {
+		ship_group = 40704,
+		name = "Fritz Rumey",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "fulici",
+		id = 518,
+		group_id = 518,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[519] = {
+		ship_group = 40211,
+		name = "Duisburg",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "duyisibao",
+		id = 519,
+		group_id = 519,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[520] = {
+		ship_group = 40152,
+		name = "Blitz-Z52",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Z52",
+		id = 520,
+		group_id = 520,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[521] = {
+		ship_group = 40109,
+		name = "Wolke9",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Z9",
+		id = 521,
+		group_id = 521,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[522] = {
+		ship_group = 40111,
+		name = "Z11_Spielefan",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Z11",
+		id = 522,
+		group_id = 522,
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
@@ -13866,6 +14012,11 @@ pg.activity_ins_template = {
 		514,
 		515,
 		516,
-		517
+		517,
+		518,
+		519,
+		520,
+		521,
+		522
 	}
 }

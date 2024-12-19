@@ -1854,6 +1854,632 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[107] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EP1-1 Fated Meeting",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_597",
+		story = "XINGGUANGXIADEYUHUI1",
+		change_bgm = "story-ironblood-light",
+		id = 107,
+		lock = ""
+	},
+	[108] = {
+		story_type = 1,
+		name = "EP1-2 Building Rapport",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-1.",
+		change_background = "bg_yuhui_cg_1",
+		story = "XINGGUANGXIADEYUHUI2",
+		change_bgm = "battle-ironblood-defence",
+		id = 108,
+		pre_event = {
+			107
+		},
+		lock = {
+			{
+				4,
+				107
+			}
+		}
+	},
+	[109] = {
+		story_type = 1,
+		name = "EP1-3 The Resistance",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-2.",
+		change_background = "bg_yuhui_cg_2",
+		story = "XINGGUANGXIADEYUHUI3",
+		change_bgm = "story-richang-partynight",
+		id = 109,
+		pre_event = {
+			108
+		},
+		lock = {
+			{
+				4,
+				108
+			}
+		}
+	},
+	[110] = {
+		story_type = 1,
+		name = "EP1-4 The Base at Sunset",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-3.",
+		change_background = "star_level_bg_597",
+		story = "XINGGUANGXIADEYUHUI4",
+		change_bgm = "story-ironblood-light",
+		id = 110,
+		pre_event = {
+			109
+		},
+		lock = {
+			{
+				4,
+				109
+			}
+		}
+	},
+	[111] = {
+		story_type = 2,
+		name = "EP1-5 That Sinking Feeling",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-4.",
+		change_background = "bg_port_chongdong",
+		story = "1886001",
+		change_bgm = "story-startravel",
+		id = 111,
+		pre_event = {
+			110
+		},
+		lock = {
+			{
+				4,
+				110
+			}
+		}
+	},
+	[112] = {
+		story_type = 1,
+		name = "EPS1-1 A Distant Bout",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-5.",
+		change_background = "star_level_bg_111",
+		story = "XINGGUANGXIADEYUHUI6",
+		change_bgm = "theme-amagi-cv",
+		id = 112,
+		pre_event = {
+			111
+		},
+		lock = {
+			{
+				4,
+				111
+			}
+		}
+	},
+	[113] = {
+		story_type = 1,
+		name = "EPS1-2 In the Sakura Pavilion",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS1-1.",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI7",
+		change_bgm = "theme-themagicianI",
+		id = 113,
+		pre_event = {
+			111
+		},
+		lock = {
+			{
+				4,
+				112
+			}
+		}
+	},
+	[114] = {
+		story_type = 1,
+		name = "EPS1-3 An Old Friend",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS1-2.",
+		change_background = "star_level_bg_300",
+		story = "XINGGUANGXIADEYUHUI8",
+		change_bgm = "story-ironblood-light",
+		id = 114,
+		pre_event = {
+			111
+		},
+		lock = {
+			{
+				4,
+				113
+			}
+		}
+	},
+	[115] = {
+		story_type = 1,
+		name = "EP2-1 A Second Chance",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS1-3.",
+		change_background = "bg_yuhui_1",
+		story = "XINGGUANGXIADEYUHUI9",
+		change_bgm = "story-ironblood-light",
+		id = 115,
+		pre_event = {
+			112,
+			113,
+			114
+		},
+		lock = {
+			{
+				4,
+				114
+			}
+		}
+	},
+	[116] = {
+		story_type = 1,
+		name = "EP2-2 Restoring the Eternal Stars",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-1.",
+		change_background = "bg_story_chuansong",
+		story = "XINGGUANGXIADEYUHUI10",
+		change_bgm = "story-ironblood-strong",
+		id = 116,
+		pre_event = {
+			115
+		},
+		lock = {
+			{
+				4,
+				115
+			}
+		}
+	},
+	[117] = {
+		story_type = 1,
+		name = "EP2-3 Crystallized Power",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-2.",
+		change_background = "star_level_bg_596",
+		story = "XINGGUANGXIADEYUHUI11",
+		change_bgm = "story-ironblood-strong",
+		id = 117,
+		pre_event = {
+			116
+		},
+		lock = {
+			{
+				4,
+				116
+			}
+		}
+	},
+	[118] = {
+		story_type = 2,
+		name = "EP2-4 Sacrificial Hunt",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-3.",
+		change_background = "bg_port_chongdong",
+		story = "1886002",
+		change_bgm = "story-startravel",
+		id = 118,
+		pre_event = {
+			117
+		},
+		lock = {
+			{
+				4,
+				117
+			}
+		}
+	},
+	[119] = {
+		story_type = 1,
+		name = "EPS2-1 Indirect Positioning",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-4.",
+		change_background = "star_level_bg_111",
+		story = "XINGGUANGXIADEYUHUI13",
+		change_bgm = "theme-unzen",
+		id = 119,
+		pre_event = {
+			118
+		},
+		lock = {
+			{
+				4,
+				118
+			}
+		}
+	},
+	[120] = {
+		story_type = 1,
+		name = "EPS2-2 About the Commander",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS2-1.",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI14",
+		change_bgm = "theme-themagicianI",
+		id = 120,
+		pre_event = {
+			118
+		},
+		lock = {
+			{
+				4,
+				119
+			}
+		}
+	},
+	[121] = {
+		story_type = 1,
+		name = "EPS2-3 Deliberation and Discussion",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS2-2.",
+		change_background = "bg_story_chuansong",
+		story = "XINGGUANGXIADEYUHUI15",
+		change_bgm = "story-ironblood-strong",
+		id = 121,
+		pre_event = {
+			118
+		},
+		lock = {
+			{
+				4,
+				120
+			}
+		}
+	},
+	[122] = {
+		story_type = 1,
+		name = "EP3-1 Preparations",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS2-3.",
+		change_background = "bg_yuhui_3",
+		story = "XINGGUANGXIADEYUHUI16",
+		change_bgm = "story-ironblood-strong",
+		id = 122,
+		pre_event = {
+			119,
+			120,
+			121
+		},
+		lock = {
+			{
+				4,
+				121
+			}
+		}
+	},
+	[123] = {
+		story_type = 1,
+		name = "EP3-2 To the Headquarters' Defense",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-1.",
+		change_background = "bg_yuhui_cg_4",
+		story = "XINGGUANGXIADEYUHUI17",
+		change_bgm = "theme-starbeast",
+		id = 123,
+		pre_event = {
+			122
+		},
+		lock = {
+			{
+				4,
+				122
+			}
+		}
+	},
+	[124] = {
+		story_type = 2,
+		name = "EP3-3 Ruler of the Stars",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-2.",
+		change_background = "star_level_bg_111",
+		story = "1886003",
+		change_bgm = "battle-xinnong-image",
+		id = 124,
+		pre_event = {
+			123
+		},
+		lock = {
+			{
+				4,
+				123
+			}
+		}
+	},
+	[125] = {
+		story_type = 1,
+		name = "EPS3-1 Within the Magic Circle",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-3.",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI19",
+		change_bgm = "theme-themagicianI",
+		id = 125,
+		pre_event = {
+			124
+		},
+		lock = {
+			{
+				4,
+				124
+			}
+		}
+	},
+	[126] = {
+		story_type = 1,
+		name = "EPS3-2 The Limits of Possibility",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS3-1.",
+		change_background = "bg_yuhui_3",
+		story = "XINGGUANGXIADEYUHUI20",
+		change_bgm = "story-ironblood-strong",
+		id = 126,
+		pre_event = {
+			124
+		},
+		lock = {
+			{
+				4,
+				125
+			}
+		}
+	},
+	[127] = {
+		story_type = 1,
+		name = "EP4-1 Prepare for the Showdown",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS3-2.",
+		change_background = "bg_yuhui_cg_6",
+		story = "XINGGUANGXIADEYUHUI21",
+		change_bgm = "battle-ironblood-defence",
+		id = 127,
+		pre_event = {
+			125,
+			126
+		},
+		lock = {
+			{
+				4,
+				126
+			}
+		}
+	},
+	[128] = {
+		story_type = 2,
+		name = "EP4-2 Vanish in the Mist",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-1.",
+		change_background = "bg_yuhui_4",
+		story = "1886004",
+		change_bgm = "story-ironblood-strong",
+		id = 128,
+		pre_event = {
+			127
+		},
+		lock = {
+			{
+				4,
+				127
+			}
+		}
+	},
+	[129] = {
+		story_type = 1,
+		name = "EPS4-1 Recollection",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-2.",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI23",
+		change_bgm = "theme-akagi-meta",
+		id = 129,
+		pre_event = {
+			128
+		},
+		lock = {
+			{
+				4,
+				128
+			}
+		}
+	},
+	[130] = {
+		story_type = 1,
+		name = "EPS4-2 United as One",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS4-1.",
+		change_background = "bg_yuhui_3",
+		story = "XINGGUANGXIADEYUHUI24",
+		change_bgm = "battle-ironblood-defence",
+		id = 130,
+		pre_event = {
+			128
+		},
+		lock = {
+			{
+				4,
+				129
+			}
+		}
+	},
+	[131] = {
+		story_type = 1,
+		name = "EP5-1 Another Plan",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS4-2.",
+		change_background = "star_level_bg_499",
+		story = "XINGGUANGXIADEYUHUI25",
+		change_bgm = "story-ironblood-light",
+		id = 131,
+		pre_event = {
+			129,
+			130
+		},
+		lock = {
+			{
+				4,
+				130
+			}
+		}
+	},
+	[132] = {
+		story_type = 1,
+		name = "EP5-2 Emotion Given Form",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-1.",
+		change_background = "bg_yuhui_cg_7",
+		story = "XINGGUANGXIADEYUHUI26",
+		change_bgm = "story-ironblood-light",
+		id = 132,
+		pre_event = {
+			131
+		},
+		lock = {
+			{
+				4,
+				131
+			}
+		}
+	},
+	[133] = {
+		story_type = 2,
+		name = "EP5-3 Side by Side",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-2.",
+		change_background = "bg_yuhui_cg_11",
+		story = "1886005",
+		change_bgm = "theme-themagicianI",
+		id = 133,
+		pre_event = {
+			132
+		},
+		lock = {
+			{
+				4,
+				132
+			}
+		}
+	},
+	[134] = {
+		story_type = 1,
+		name = "EP5-4 The Magician's Divination",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-3.",
+		change_background = "star_level_bg_589",
+		story = "XINGGUANGXIADEYUHUI28",
+		change_bgm = "story-mirrorheart-mystic",
+		id = 134,
+		pre_event = {
+			133
+		},
+		lock = {
+			{
+				4,
+				133
+			}
+		}
+	},
+	[135] = {
+		story_type = 1,
+		name = "EP5-5 Epilogue",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-4.",
+		change_background = "bg_port_chongdong",
+		story = "XINGGUANGXIADEYUHUI29",
+		change_bgm = "story-startravel",
+		id = 135,
+		pre_event = {
+			134
+		},
+		lock = {
+			{
+				4,
+				134
+			}
+		}
+	},
+	[136] = {
+		story_type = 1,
+		name = "EX-1 The Tip of the Iceberg",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-5.",
+		change_background = "bg_guild_blue_n",
+		story = "XINGGUANGXIADEYUHUI30",
+		change_bgm = "story-newsakura",
+		id = 136,
+		pre_event = {
+			135
+		},
+		lock = {
+			{
+				4,
+				135
+			}
+		}
+	},
+	[137] = {
+		story_type = 1,
+		name = "EX-2 Onwards to the Future",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-1.",
+		change_background = "star_level_bg_589",
+		story = "XINGGUANGXIADEYUHUI31",
+		change_bgm = "theme-richard",
+		id = 137,
+		pre_event = {
+			136
+		},
+		lock = {
+			{
+				4,
+				136
+			}
+		}
+	},
+	[138] = {
+		story_type = 1,
+		name = "EX-3 Her New Toy",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-2.",
+		change_background = "bg_underheaven_0",
+		story = "XINGGUANGXIADEYUHUI32",
+		change_bgm = "theme-underheaven",
+		id = 138,
+		pre_event = {
+			137
+		},
+		lock = {
+			{
+				4,
+				137
+			}
+		}
+	},
+	[139] = {
+		story_type = 1,
+		name = "EX-4 The Chosen Few",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-3.",
+		change_background = "bg_yuhui_2",
+		story = "XINGGUANGXIADEYUHUI33",
+		change_bgm = "story-ironblood-light",
+		id = 139,
+		pre_event = {
+			138
+		},
+		lock = {
+			{
+				4,
+				138
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1953,6 +2579,39 @@ pg.activity_sp_story = {
 		103,
 		104,
 		105,
-		106
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139
 	}
 }

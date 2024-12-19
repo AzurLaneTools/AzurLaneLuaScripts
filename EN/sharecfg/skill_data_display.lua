@@ -1753,6 +1753,23 @@ pg.skill_data_display = setmetatable({
 		150632,
 		150640,
 		150642,
+		150670,
+		150671,
+		150673,
+		150680,
+		150683,
+		150690,
+		150691,
+		150702,
+		150730,
+		150731,
+		150740,
+		150741,
+		150781,
+		150650,
+		150652,
+		150660,
+		150761,
 		18010,
 		18040,
 		18041,
@@ -3021,6 +3038,12 @@ pg.skill_data_display = setmetatable({
 		801482,
 		801485,
 		801487,
+		801542,
+		801551,
+		801561,
+		801562,
+		801565,
+		801567,
 		902201,
 		1010140,
 		1010143,
@@ -3198,6 +3221,15 @@ pg.skill_data_display = setmetatable({
 		201172,
 		201173,
 		201175,
+		201191,
+		201192,
+		201193,
+		201196,
+		201197,
+		201198,
+		201199,
+		201200,
+		201220,
 		1011540,
 		1011541,
 		1090010,
@@ -10359,6 +10391,74 @@ pg.base.skill_data_display = {
 		id = 150642,
 		name = "\"Spiritual\" Healing"
 	},
+	[150670] = {
+		id = 150670,
+		name = "Thundering Seal"
+	},
+	[150671] = {
+		id = 150671,
+		name = "Thundering Seal"
+	},
+	[150673] = {
+		id = 150673,
+		name = "Thundering Seal"
+	},
+	[150680] = {
+		id = 150680,
+		name = "Soaring Heart"
+	},
+	[150683] = {
+		id = 150683,
+		name = "Anti-Air Guns, Fire!"
+	},
+	[150690] = {
+		id = 150690,
+		name = "Thunder Guardian"
+	},
+	[150691] = {
+		id = 150691,
+		name = "Thunder Guardian"
+	},
+	[150702] = {
+		id = 150702,
+		name = "Soaring Heart"
+	},
+	[150730] = {
+		id = 150730,
+		name = "Shocking Shield"
+	},
+	[150731] = {
+		id = 150731,
+		name = "Shocking Shield"
+	},
+	[150740] = {
+		id = 150740,
+		name = "Simple-Yet-Flashy DIY"
+	},
+	[150741] = {
+		id = 150741,
+		name = "Simple-Yet-Flashy DIY"
+	},
+	[150781] = {
+		id = 150781,
+		name = "Dauntless Wings of the Hero"
+	},
+	[150650] = {
+		id = 150650,
+		name = "Tearful Torpedo Tactics"
+	},
+	[150652] = {
+		id = 150652,
+		name = "Tearful Torpedo Tactics"
+	},
+	[150660] = {
+		id = 150660,
+		name = "Spirited Defense"
+	},
+	[150761] = {
+		id = 150761,
+		name = "Ruinous Blade of the Slayer"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -15431,6 +15531,30 @@ pg.base.skill_data_display = {
 		id = 801487,
 		name = "Cinders of Hope - Giulio Cesare II"
 	},
+	[801542] = {
+		id = 801542,
+		name = "Hot-and-Cold Armaments"
+	},
+	[801551] = {
+		id = 801551,
+		name = "The Grumbling Ally"
+	},
+	[801561] = {
+		id = 801561,
+		name = "Cinders of Hope - Admiral Hipper I"
+	},
+	[801562] = {
+		id = 801562,
+		name = "Cinders of Hope - Admiral Hipper II"
+	},
+	[801565] = {
+		id = 801565,
+		name = "Cinders of Hope - Admiral Hipper I"
+	},
+	[801567] = {
+		id = 801567,
+		name = "Cinders of Hope - Admiral Hipper II"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -16138,6 +16262,42 @@ pg.base.skill_data_display = {
 	[201175] = {
 		id = 201175,
 		name = "Otherworldly Domain"
+	},
+	[201191] = {
+		id = 201191,
+		name = "IB-50 Pterosaur"
+	},
+	[201192] = {
+		id = 201192,
+		name = "IB-50 Pterosaur"
+	},
+	[201193] = {
+		id = 201193,
+		name = "IB-50 Pterosaur"
+	},
+	[201196] = {
+		id = 201196,
+		name = "Eternal Star"
+	},
+	[201197] = {
+		id = 201197,
+		name = "Eternal Star"
+	},
+	[201198] = {
+		id = 201198,
+		name = "Eternal Star"
+	},
+	[201199] = {
+		id = 201199,
+		name = "Eternal Star"
+	},
+	[201200] = {
+		id = 201200,
+		name = "Eternal Star"
+	},
+	[201220] = {
+		id = 201220,
+		name = "In the Name of the Admiral Hipper Class"
 	},
 	[1011540] = {
 		id = 1011540,

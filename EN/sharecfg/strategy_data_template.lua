@@ -285,6 +285,11 @@ pg.strategy_data_template = setmetatable({
 		201155,
 		201157,
 		201158,
+		201193,
+		201194,
+		201197,
+		201198,
+		201199,
 		205001,
 		205002,
 		205003,
@@ -3432,7 +3437,7 @@ The battle will initiate in challenge mode if a ship in your fleet has the Fargo
 	},
 	[201100] = {
 		buff_id = 0,
-		name = "Challenge Conditions",
+		name = "Challenge Mode",
 		desc = [[
 - Hard Mode Details -
 Enemies deal significantly more DMG. Their shells ignore shields and penetrate through targets.
@@ -3492,7 +3497,7 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 	},
 	[201158] = {
 		buff_id = 0,
-		name = "Challenge Conditions",
+		name = "Challenge Mode",
 		desc = [[
 - Hard Mode Details -
 · Enemies deal significantly more DMG. Their shells ignore shields and penetrate through targets, but their DMG taken also increases the more time elapses.
@@ -3502,6 +3507,65 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		iconSize = "",
 		buff_type = 0,
 		id = 201158,
+		icon = "200908",
+		arg = {}
+	},
+	[201193] = {
+		buff_id = 201193,
+		name = "Beneath the Stars",
+		desc = "Everything is clear under the starry sky. \nDuring battle, enemy barrages will descend on your fleet from above at irregular intervals.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201193,
+		icon = "201193",
+		arg = {}
+	},
+	[201194] = {
+		buff_id = 201194,
+		name = "IB-50 Pterosaurs",
+		desc = "During battle, the Resistance HQ provides your fleet with support from Pterosaur ornithopters.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201194,
+		icon = "201194",
+		arg = {}
+	},
+	[201197] = {
+		buff_id = 201197,
+		name = "Eternal Star",
+		desc = "During battle, the Eternal Stars provide support at regular intervals. They inflict DMG and Armor Break to enemies hit.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201197,
+		icon = "201197",
+		arg = {}
+	},
+	[201198] = {
+		buff_id = 0,
+		name = "Extradimensional Horde",
+		desc = "The horde of extradimensionals has come. Such is their might that the line between sea and sky blurs. \nExtradimensionals cannot take Burning DMG. Outside of Clearing Mode, enemy fleets will pursue you on the map.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201198,
+		icon = "201198",
+		arg = {}
+	},
+	[201199] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+- Hard Mode Details -
+Enemies deal significantly more DMG. Their shells ignore shields and penetrate through targets.
+· When enemies perform certain unavoidable attacks, Admiral Hipper META will provide support.
+· The skills "Operation Rainbow" and "Fiercer When Cornered" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201199,
 		icon = "200908",
 		arg = {}
 	},

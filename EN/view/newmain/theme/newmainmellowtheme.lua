@@ -202,7 +202,8 @@ slot0.GetRedDots = function(slot0)
 		RedDotNode.New(slot0._tf:Find("frame/bottom/frame/live/tip"), {
 			pg.RedDotMgr.TYPES.COURTYARD,
 			pg.RedDotMgr.TYPES.SCHOOL,
-			pg.RedDotMgr.TYPES.COMMANDER
+			pg.RedDotMgr.TYPES.COMMANDER,
+			pg.RedDotMgr.TYPES.DORM3D_SHOP_TIMELIMIT
 		}),
 		SwitcherRedDotNode.New(slot0._tf:Find("frame/right/switch"), {
 			pg.RedDotMgr.TYPES.COLLECTION,

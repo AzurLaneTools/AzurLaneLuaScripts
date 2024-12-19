@@ -832,10 +832,7 @@ slot0.initData = function(slot0)
 		slot1 = 60
 	end
 
-	if not Physics2D.autoSimulation then
-		slot0.needManualSimulate = true
-	end
-
+	slot0.needManualSimulate = true
 	slot0.timer = Timer.New(function ()
 		uv0:onTimer()
 
@@ -858,6 +855,9 @@ slot0.initUI = function(slot0)
 	onButton(slot0, slot0:findTF("return_btn", slot0.mainUI), function ()
 		uv0:emit(uv1.ON_BACK_PRESSED)
 	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("main_btn", slot0.mainUI), function ()
+		uv0:emit(uv1.ON_HOME)
+	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("help_btn", slot0.mainUI), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -866,6 +866,8 @@ slot0.initUI = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0:findTF("start_btn", slot0.mainUI), function ()
 		uv0:readyStart()
+	end, SFX_PANEL)
+	onButton(slot0, slot0:findTF("rank_btn", slot0.mainUI), function ()
 	end, SFX_PANEL)
 
 	slot0.totalTimes = slot0:getGameTotalTime()
@@ -911,6 +913,31 @@ slot0.initUI = function(slot0)
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
 	end
+
+	slot0.rankUI = findTF(slot0._tf, "ui/rank_ui")
+
+	slot0:openRankUI(false)
+
+	slot4 = GetComponent(findTF(slot0.rankUI, "ad/img/score"), typeof(Image))
+
+	slot4:SetNativeSize()
+
+	slot0._rankImg = findTF(slot0.rankUI, "ad/img")
+	slot0._rankBtnClose = findTF(slot0.rankUI, "ad/btnClose")
+	slot0._rankContent = findTF(slot0.rankUI, "ad/list/content")
+	slot0._rankItemTpl = findTF(slot0.rankUI, "ad/list/content/itemTpl")
+	slot0._rankEmpty = findTF(slot0.rankUI, "ad/empty")
+	slot0._rankDesc = findTF(slot0.rankUI, "ad/desc")
+	slot0._rankItems = {}
+
+	setActive(slot0._rankItemTpl, false)
+	onButton(slot0._event, findTF(slot0.rankUI, "ad/close"), function ()
+		uv0:openRankUI(false)
+	end, SFX_CANCEL)
+	onButton(slot0._event, slot0._rankBtnClose, function ()
+		uv0:openRankUI(false)
+	end, SFX_CANCEL)
+	setText(slot0._rankDesc, i18n("pipe_minigame_rank"))
 
 	slot0.countUI = slot0:findTF("ui/count_ui")
 	slot0.countAnimator = GetComponent(slot0:findTF("count", slot0.countUI), typeof(Animator))
@@ -1011,7 +1038,6 @@ slot0.updateMainUI = function(slot0)
 		elseif slot6 == slot1 + 1 and slot2 >= 1 then
 			-- Nothing
 		elseif slot1 >= slot6 or slot6 > slot1 + slot2 then
-			setActive(slot0:findTF("award", slot0.itemList[slot6]), false)
 			setActive(slot0:findTF("lock", slot0.itemList[slot6]), true)
 		end
 	end
@@ -1024,6 +1050,32 @@ slot0.updateMainUI = function(slot0)
 
 	scrollTo(slot0.listScrollRect, 0, slot4)
 	slot0:checkGet()
+end
+
+slot0.updateRankUI = function(slot0, slot1)
+	for slot5 = 1, #slot1 do
+		slot6 = nil
+
+		if slot5 > #slot0._rankItems then
+			slot7 = tf(instantiate(slot0._rankItemTpl))
+
+			setActive(slot7, false)
+			setParent(slot7, slot0._rankContent)
+			table.insert(slot0._rankItems, slot7)
+		end
+
+		slot6 = slot0._rankItems[slot5]
+
+		slot0:setRankItemData(slot6, slot1[slot5], slot5)
+		setActive(slot6, true)
+	end
+
+	for slot5 = #slot1 + 1, #slot0._rankItems do
+		setActive(slot0._rankItems, false)
+	end
+
+	setActive(slot0._rankEmpty, #slot1 == 0)
+	setActive(slot0._rankImg, #slot1 > 0)
 end
 
 slot0.checkGet = function(slot0)
@@ -1044,6 +1096,40 @@ slot0.openMainUI = function(slot0)
 	setActive(slot0.gameUI, false)
 	setActive(slot0.mainUI, true)
 	slot0:updateMainUI()
+end
+
+slot0.openRankUI = function(slot0, slot1)
+	setActive(slot0.rankUI, slot1)
+
+	if slot1 then
+		pg.m02:sendNotification(GAME.MINI_GAME_FRIEND_RANK, {
+			id = slot0:GetMGData().id,
+			callback = function (slot0)
+				slot1 = {}
+
+				for slot5 = 1, #slot0 do
+					slot6 = {}
+
+					for slot10, slot11 in pairs(slot0[slot5]) do
+						slot6[slot10] = slot11
+					end
+
+					table.insert(slot1, slot6)
+				end
+
+				table.sort(slot1, function (slot0, slot1)
+					if slot0.score ~= slot1.score then
+						return slot1.score < slot0.score
+					elseif slot0.time_data ~= slot1.time_data then
+						return slot1.time_data < slot0.time_data
+					else
+						return slot0.player_id < slot1.player_id
+					end
+				end)
+				uv0:updateRankUI(slot1)
+			end
+		})
+	end
 end
 
 slot0.readyStart = function(slot0)
@@ -1325,19 +1411,21 @@ end
 slot0.showEndUI = function(slot0)
 	setActive(slot0.endUI, true)
 
-	slot2 = slot0.scoreNum
-	slot3 = slot0:GetMGData():GetRuntimeData("elements") and #slot1 > 0 and slot1[1] or 0
+	slot1 = slot0.scoreNum
+	slot3 = getProxy(MiniGameProxy):GetHighScore(slot0:GetMGData().id) and #slot2 > 0 and slot2[1] or 0
+	slot4 = slot2 and #slot2 > 1 and slot2[2] or 0
 
-	setActive(slot0:findTF("ad/panel/cur_score/new", slot0.endUI), slot3 < slot2)
+	setActive(slot0:findTF("ad/panel/cur_score/new", slot0.endUI), slot3 < slot1)
 
-	if slot3 <= slot2 then
-		slot0:StoreDataToServer({
-			slot2
+	if slot3 <= slot1 then
+		getProxy(MiniGameProxy):UpdataHighScore(slot0:GetMGData().id, {
+			slot1,
+			slot4
 		})
 	end
 
 	setText(slot0:findTF("ad/panel/highest_score", slot0.endUI), slot3)
-	setText(slot0:findTF("ad/panel/cur_score", slot0.endUI), slot2)
+	setText(slot0:findTF("ad/panel/cur_score", slot0.endUI), slot1)
 
 	if slot0:getGameTimes() and slot0:getGameTimes() > 0 then
 		slot0:SendSuccess(0)
