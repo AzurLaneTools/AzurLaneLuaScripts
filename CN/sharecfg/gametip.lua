@@ -27160,5 +27160,15 @@ cs.gametip = {
 		980073,
 		118,
 		true
+	},
+	word_got_pt = {
+		980191,
+		84,
+		true
+	},
+	word_activity_not_open = {
+		980275,
+		101,
+		true
 	}
 }

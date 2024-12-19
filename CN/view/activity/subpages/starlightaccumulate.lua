@@ -158,7 +158,7 @@ slot0.OnUpdateFlush = function(slot0)
 		slot0.scrollCom:ScrollTo(math.clamp(slot0.scrollCom:HeadIndexToValue(slot0.ptData:GetLevel()) / slot0.impTotalPos + slot1, 0, 1), true)
 	end
 
-	setText(slot0.get, i18n("word_got"))
+	setText(slot0.get, i18n("word_got_pt"))
 	setText(slot0.ptCount, slot0.ptData.count)
 	setActive(slot0.getBtnGray, slot0.ptData:GetMaxAvailableTargetIndex() == slot0.ptData:GetLevel())
 	setActive(slot0.getBtn, slot0.ptData:GetMaxAvailableTargetIndex() ~= slot0.ptData:GetLevel())

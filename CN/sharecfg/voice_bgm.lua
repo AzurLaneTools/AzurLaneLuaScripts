@@ -1844,5 +1844,10 @@ pg.voice_bgm = {
 		default_bgm = "story-newsakura",
 		special_bgm = "",
 		bgm = "story-newsakura"
+	},
+	NavalAcademyScene = {
+		default_bgm = "main-christmas",
+		special_bgm = "",
+		bgm = "main-christmas"
 	}
 }

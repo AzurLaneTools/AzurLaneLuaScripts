@@ -36444,3 +36444,13 @@ _G.pg.base.gametip.word_limited_activity = {
 _G.pg.base.gametip.word_show_expire_content = {
 	tip = "查看已无法获取的内容"
 }
+
+
+_G.pg.base.gametip.word_got_pt = {
+	tip = "已获得"
+}
+
+
+_G.pg.base.gametip.word_activity_not_open = {
+	tip = "活动未开启"
+}

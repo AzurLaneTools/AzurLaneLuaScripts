@@ -394,6 +394,8 @@ pg.base.ship_skin_template_12 = {
 		special_effects = "",
 		gyro = 0,
 		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
 		l2d_drag_rate = "",
 		bg = "145",
 		spine_use_live2d = 0,
@@ -409,9 +411,11 @@ pg.base.ship_skin_template_12 = {
 		illustrator = -1,
 		rarity_bg = "",
 		time = "",
+		l2d_para_range = "",
 		lip_sync_gain = 0,
 		live2d_offset_profile = "",
 		show_skin = "stand",
+		l2d_voice_calibrate = "",
 		tag = {
 			6,
 			2
@@ -488,45 +492,6 @@ pg.base.ship_skin_template_12 = {
 				}
 			}
 		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-20,
-				20
-			},
-			ParamEyeBallX = {
-				-0.6,
-				0.3
-			},
-			ParamEyeBallY = {
-				-0.5,
-				0.5
-			},
-			ParamBodyAngleX = {
-				-8,
-				8
-			},
-			ParamBodyAngleY = {
-				-5,
-				5
-			}
-		},
 		spine_offset = {
 			{
 				33.75,
@@ -534,12 +499,8 @@ pg.base.ship_skin_template_12 = {
 				0
 			},
 			{
-				0.99
+				0.49
 			}
-		},
-		ship_l2d_id = {
-			4021011,
-			4021012
 		}
 	},
 	[403010] = {

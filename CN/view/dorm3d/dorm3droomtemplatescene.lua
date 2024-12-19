@@ -1522,7 +1522,13 @@ slot0.Update = function(slot0)
 						end
 
 						if slot3 then
-							setLocalPosition(slot2, uv2:GetLocalPosition(uv2:GetScreenPosition(slot3.position), uv3) + slot4)
+							slot5 = slot3.position
+
+							if slot3:GetComponent(typeof(UnityEngine.Collider)) then
+								slot5 = slot6.bounds.center
+							end
+
+							setLocalPosition(slot2, uv2:GetLocalPosition(uv2:GetScreenPosition(slot5), uv3) + slot4)
 						end
 
 						setActive(slot2, slot3)

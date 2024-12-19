@@ -59,7 +59,7 @@ slot0.set = function(slot0, slot1, slot2)
 			setActive(slot8:Find("Bonus" .. slot12), slot15)
 
 			if slot15 then
-				slot0.loader:GetSprite("ui/levelmainscene_atlas", getProxy(ChapterProxy):getMapById(slot14:getConfig("map")):getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot13)
+				slot0.loader:GetSprite("ui/levelmainscene_atlas", getProxy(ChapterProxy):getMapById(slot14:getConfig("map")):getConfig("type") == Map.ACTIVITY_HARD and "bonus_us_hard" or "bonus_us", slot13:Find("Image"))
 			end
 		end
 	end

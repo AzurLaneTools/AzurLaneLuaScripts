@@ -1315,7 +1315,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也不是，我已经向总部汇报了情况，并的到了总部的许可。",
+			say = "也不是，我已经向总部汇报了情况，并得到了总部的许可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

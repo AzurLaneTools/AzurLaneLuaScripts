@@ -123,7 +123,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前{namecode:540:Z52}带领的侦察舰队先行前往了ID-AX-108至110一线，鲁梅女士已经带领主力舰队也已经起航。",
+			say = "目前{namecode:540:Z52}带领的侦察舰队先行前往了ID-AX-108至110一线，鲁梅女士带领主力舰队也已经起航。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
