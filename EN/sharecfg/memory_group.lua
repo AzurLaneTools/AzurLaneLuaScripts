@@ -5033,7 +5033,7 @@ pg.base.memory_group = {
 		}
 	},
 	[314] = {
-		title = "港区时尚特刊·节日特辑",
+		title = "Port Fashion Collection: Holiday Special",
 		subtype = 3,
 		link_event = 5721,
 		type = 2,

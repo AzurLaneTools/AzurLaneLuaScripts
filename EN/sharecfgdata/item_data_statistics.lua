@@ -15056,7 +15056,7 @@ _G.pg.base.item_data_statistics[21041] = {
 
 _G.pg.base.item_data_statistics[21042] = {
 	open_directly = 0,
-	name = "META Crystal - Admiral Hipper ",
+	name = "META Crystal - Admiral Hipper",
 	type = 4,
 	display = "An item that increases the potential of Admiral Hipper META. Used in the META Lab during Somatic Activation.",
 	other_resource_cost = "[]",
@@ -25174,7 +25174,7 @@ _G.pg.base.item_data_statistics[30362] = {
 
 _G.pg.base.item_data_statistics[30363] = {
 	open_directly = 1,
-	name = "Gear Skin Box (Wilderness Force) ",
+	name = "Gear Skin Box (Wilderness Force)",
 	type = 11,
 	display = "Contains a random gear skin.",
 	other_resource_cost = "[]",

@@ -2086,7 +2086,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[40109] = {
 		shiptype = 1,
-		name = "1944型",
+		name = "Type 1944",
 		t_level = 10,
 		id = 40109,
 		t_level_1 = 120,

@@ -36810,20 +36810,25 @@ _G.pg.base.gametip.help_starLightAlbum = {
 
 
 _G.pg.base.gametip.word_gain_date = {
-	tip = "获取时间："
+	tip = "Date Obtained:"
 }
 
 
 _G.pg.base.gametip.word_limited_activity = {
-	tip = "限时活动"
+	tip = "Event"
 }
 
 
 _G.pg.base.gametip.word_show_expire_content = {
-	tip = "查看已无法获取的内容"
+	tip = "Show Unobtainable"
 }
 
 
 _G.pg.base.gametip.word_got_pt = {
-	tip = "已获得"
+	tip = "Granted"
+}
+
+
+_G.pg.base.gametip.word_activity_not_open = {
+	tip = "Event has not started yet"
 }

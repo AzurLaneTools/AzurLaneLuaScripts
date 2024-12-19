@@ -21627,6 +21627,7 @@ pg.base.ship_skin_words_extra = {
 		win_mvp = "",
 		upgrade = "",
 		expedition = "",
+		main_extra = "",
 		home = "",
 		mission = "",
 		id = 207054,
@@ -21654,12 +21655,6 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"nil|nil|I finished tuning, so I can finally start my solo concert♪ I prepared this just for you, so listen closely... It's not even started yet, and you're already watching so intently. Heehee, I really am your favorite, aren't I?"
-			}
-		},
-		main_extra = {
-			{
-				1100,
-				"I finished tuning, so I can finally start my solo concert♪ I prepared this just for you, so listen closely... It's not even started yet, and you're already watching so intently. Heehee, I really am your favorite, aren't I?"
 			}
 		},
 		touch2 = {

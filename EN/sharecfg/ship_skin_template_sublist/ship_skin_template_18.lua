@@ -7149,7 +7149,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900468] = {
-		name = "星之兽",
+		name = "Star Beast",
 		id = 900468,
 		desc = "No description",
 		illustrator2 = -1,
@@ -7261,7 +7261,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900469] = {
-		name = "审判机·「魔术师」",
+		name = "Arbiter: The Magician I",
 		id = 900469,
 		desc = "No description",
 		illustrator2 = -1,

@@ -18743,7 +18743,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[1878] = {
-		param = "Sticker: Lazy",
+		param = "57",
 		ship_group = 0,
 		option = "",
 		type = 4,

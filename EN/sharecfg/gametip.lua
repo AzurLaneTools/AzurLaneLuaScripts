@@ -27993,22 +27993,27 @@ cs.gametip = {
 	},
 	word_gain_date = {
 		1057381,
-		93,
+		92,
 		true
 	},
 	word_limited_activity = {
-		1057474,
-		97,
+		1057473,
+		90,
 		true
 	},
 	word_show_expire_content = {
-		1057571,
-		118,
+		1057563,
+		105,
 		true
 	},
 	word_got_pt = {
-		1057689,
-		84,
+		1057668,
+		82,
+		true
+	},
+	word_activity_not_open = {
+		1057750,
+		111,
 		true
 	}
 }

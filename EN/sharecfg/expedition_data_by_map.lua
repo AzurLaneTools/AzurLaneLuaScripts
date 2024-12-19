@@ -21350,7 +21350,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880001] = {
 		map = 1880001,
-		name = "星光下的余晖·上篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-ironblood-strong",
 		type = 4,
 		anchor = "",
@@ -21447,7 +21447,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880002] = {
 		map = 1880002,
-		name = "星光下的余晖·下篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starbeast",
 		type = 4,
 		anchor = "",
@@ -21544,7 +21544,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880011] = {
 		map = 1880011,
-		name = "星光下的余晖·上篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 1|| ||CHAPTER EX||E.X.",
 		bgm = "story-ironblood-strong",
 		type = 5,
 		anchor = "",
@@ -21641,7 +21641,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880012] = {
 		map = 1880012,
-		name = "星光下的余晖·下篇|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - PT. 2|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starbeast",
 		type = 5,
 		anchor = "",
@@ -21738,7 +21738,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880025] = {
 		map = 1880025,
-		name = "星光下的余晖·SP|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - SP|| ||CHAPTER EX||E.X.",
 		bgm = "story-ironblood-light",
 		type = 8,
 		anchor = "",
@@ -21826,7 +21826,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1880026] = {
 		map = 1880026,
-		name = "星光下的余晖·EX|| ||CHAPTER EX||E.X.",
+		name = "Substellar Crepuscule - EX|| ||CHAPTER EX||E.X.",
 		bgm = "story-antix-past",
 		type = 8,
 		anchor = "",

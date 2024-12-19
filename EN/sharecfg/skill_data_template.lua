@@ -101766,7 +101766,7 @@ When this ship fires her Main Guns, the following effects activate:
 		name = "Shocking Shield",
 		type = 2,
 		max_level = 10,
-		desc = "Every 20s: deploys 2 shields (lasting $1s) that can negate up to 6 enemy shells. When the battle starts, if there is another Iron Blood ship in your Vanguard: increases your Vanguard's FP by $2 and TRP by $3 until the battle ends.",
+		desc = "Every 20s: deploys 2 shields (lasting $1s) that can negate up to 6 enemy shells. When the battle starts, if there is another Iron Blood ship in your Vanguard: increases your Vanguard's FP by $2 and TRP by $2 until the battle ends.",
 		id = 150730,
 		system_transform = {},
 		world_death_mark = {
