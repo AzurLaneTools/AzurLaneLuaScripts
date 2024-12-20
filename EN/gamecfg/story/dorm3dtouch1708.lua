@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone/touch30",
 			actorName = 20220,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}？是天狼星的裙子沾了东西吗？",
+			say = "{dorm3d}? Is there something on my clothes?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
