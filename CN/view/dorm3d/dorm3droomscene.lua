@@ -207,6 +207,9 @@ slot0.init = function(slot0)
 			uv1:ExitTouchMode()
 		end
 	end, "ui-dorm_back_v2")
+	onButton(slot0, slot3:Find("btn_back_heartbeat"), function ()
+		uv0:ExitHeartbeatMode()
+	end, "ui-dorm_back_v2")
 	onButton(slot0, slot3:Find("btn_back/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -1468,9 +1471,13 @@ slot0.UpdateTouchGameDisplay = function(slot0)
 	setActive(slot0.rtTouchGamePanel:Find("slider/icon/beating"), slot0.touchLevel == 2)
 
 	if slot0.touchLevel == 1 then
+		setActive(slot0.uiContianer:Find("ik/btn_back"), true)
+		setActive(slot0.uiContianer:Find("ik/btn_back_heartbeat"), false)
 		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change_out")
 		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon")
 	elseif slot0.touchLevel == 2 then
+		setActive(slot0.uiContianer:Find("ik/btn_back"), false)
+		setActive(slot0.uiContianer:Find("ik/btn_back_heartbeat"), true)
 		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change")
 		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon_1")
 		pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_heartbeat")
@@ -1540,6 +1547,16 @@ slot0.UpdateTouchCount = function(slot0, slot1)
 	end
 
 	slot0.topCount = math.max(slot0.topCount, slot0.touchCount)
+end
+
+slot0.ExitHeartbeatMode = function(slot0)
+	if not slot0.touchLevel or slot0.touchLevel == 1 then
+		return
+	end
+
+	slot0.touchCount = 0
+
+	slot0:UpdateTouchCount(0)
 end
 
 slot0.DoTouch = function(slot0, slot1, slot2)

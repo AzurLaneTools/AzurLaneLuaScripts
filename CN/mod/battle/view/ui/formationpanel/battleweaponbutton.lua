@@ -334,7 +334,7 @@ slot1.updateProgressBar = function(slot0)
 	slot0._progressBar.fillAmount = slot0._progressInfo:GetCurrent() / slot0._progressInfo:GetMax()
 
 	if slot0._bgEff then
-		if slot0._progressInfo:GetCount() > 0 then
+		if slot0._progressInfo.GetCount and slot0._progressInfo:GetCount() > 0 then
 			slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
 		else
 			slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = slot1
