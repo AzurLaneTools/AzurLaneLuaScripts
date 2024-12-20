@@ -22,7 +22,7 @@ pg.dorm3d_set = {
 	reduce_heartbeat = {
 		key_value_varchar = "",
 		key = "reduce_heartbeat",
-		key_value_int = -4
+		key_value_int = 0
 	},
 	rapport_interaction = {
 		key_value_varchar = "",
@@ -32,7 +32,7 @@ pg.dorm3d_set = {
 	rapport_heartbeat = {
 		key_value_varchar = "",
 		key = "rapport_heartbeat",
-		key_value_int = 3
+		key_value_int = 2
 	},
 	rapport_heartbeat_trriger = {
 		key_value_varchar = "",
@@ -42,7 +42,7 @@ pg.dorm3d_set = {
 	reduce_interaction = {
 		key_value_varchar = "",
 		key = "reduce_interaction",
-		key_value_int = -1
+		key_value_int = 0
 	},
 	heartbeat_unlock = {
 		key_value_varchar = "",

@@ -36937,3 +36937,8 @@ _G.pg.base.gametip.word_show_expire_content = {
 _G.pg.base.gametip.word_got_pt = {
 	tip = "入手済"
 }
+
+
+_G.pg.base.gametip.word_activity_not_open = {
+	tip = "開催期間外"
+}

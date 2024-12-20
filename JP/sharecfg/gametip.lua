@@ -27650,5 +27650,10 @@ cs.gametip = {
 		1144719,
 		84,
 		true
+	},
+	word_activity_not_open = {
+		1144803,
+		101,
+		true
 	}
 }
