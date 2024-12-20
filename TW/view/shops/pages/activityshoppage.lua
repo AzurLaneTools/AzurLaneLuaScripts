@@ -74,7 +74,10 @@ slot0.OnLoaded = function(slot0)
 	}
 	slot0.eventResCnt = slot0:findTF("event_res_battery/Text"):GetComponent(typeof(Text))
 	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
-	slot0.groupList = UIItemList.New(slot0:findTF("viewport/view", slot0.scrollRectSpecial), slot0:findTF("viewport/view/group", slot0.scrollRectSpecial))
+
+	if slot0.scrollRectSpecial then
+		slot0.groupList = UIItemList.New(slot0:findTF("viewport/view", slot0.scrollRectSpecial), slot0:findTF("viewport/view/group", slot0.scrollRectSpecial))
+	end
 end
 
 slot0.OnInit = function(slot0)
@@ -280,7 +283,11 @@ slot0.Show = function(slot0)
 		slot0:ShowOrHideResUI(true)
 	else
 		setActive(go(slot0.lScrollrect), true)
-		setActive(slot0.scrollRectSpecial, false)
+
+		if slot0.scrollRectSpecial then
+			setActive(slot0.scrollRectSpecial, false)
+		end
+
 		uv0.super.Show(slot0)
 	end
 
@@ -307,7 +314,10 @@ slot0.Hide = function(slot0)
 	end
 
 	setActive(go(slot0.lScrollrect), true)
-	setActive(slot0.scrollRectSpecial, false)
+
+	if slot0.scrollRectSpecial then
+		setActive(slot0.scrollRectSpecial, false)
+	end
 
 	if slot0.shop:GetBGM() ~= "" then
 		pg.BgmMgr.GetInstance():Pop(slot0.__cname)
