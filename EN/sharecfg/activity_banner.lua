@@ -393,7 +393,7 @@ pg.activity_banner = {
 		}
 	},
 	[100] = {
-		param = "Osmanthus Cake|A sweet and aromatic cake said to have come from the Moon Palace! Delicious! <color=#6dd329>(Increase EXP by 5 for 60 minutes)</color>",
+		param = "Candy Cane|It is said that the first candy canes were pure white like the snow. <color=#6dd329>(Increases EXP gained by 5% for 60 minutes).</color> ",
 		type = 10,
 		id = 100,
 		pic = "christmas",

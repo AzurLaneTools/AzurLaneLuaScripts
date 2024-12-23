@@ -19121,7 +19121,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	[1919] = {
 		param = "With pleasure! You have no idea how happy I am that I get to cook for you!",
-		ship_group = 0,
+		ship_group = 40111,
 		option = "",
 		type = 1,
 		id = 1919,
