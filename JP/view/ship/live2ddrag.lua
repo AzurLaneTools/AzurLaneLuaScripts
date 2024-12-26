@@ -1203,13 +1203,33 @@ slot0.saveData = function(slot0)
 end
 
 slot0.loadData = function(slot0)
-	if slot0.revert == -1 and slot0.saveParameterFlag and Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
-		slot0:setParameterValue(slot1)
-		slot0:setTargetValue(slot1)
+	if slot0.revert == -1 and slot0.saveParameterFlag then
+		if Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
+			slot0:setParameterValue(slot1)
+			slot0:setTargetValue(slot1)
+		end
+
+		if slot1 == slot0.startValue and slot0._relationParameterList and #slot0._relationParameterList > 0 then
+			slot0:clearRelationValue()
+		end
 	end
 
 	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
 		slot0.actionListIndex = Live2dConst.GetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
+	end
+end
+
+slot0.clearRelationValue = function(slot0)
+	if slot0._relationParameterList and #slot0._relationParameterList > 0 then
+		for slot4 = 1, #slot0._relationParameterList do
+			if slot0._relationParameterList[slot4].data.type == Live2D.relation_type_drag_x or slot5.data.type == Live2D.relation_type_drag_y then
+				slot5.value = slot5.start or slot0.startValue or 0
+				slot5.enable = true
+			end
+
+			slot0.offsetDragY = slot0.startValue
+			slot0.offsetDragX = slot0.startValue
+		end
 	end
 end
 
@@ -1223,6 +1243,7 @@ slot0.clearData = function(slot0)
 
 		slot0:setParameterValue(slot0.startValue)
 		slot0:setTargetValue(slot0.startValue)
+		slot0:clearRelationValue()
 	end
 end
 

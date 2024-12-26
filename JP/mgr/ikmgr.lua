@@ -202,7 +202,7 @@ slot0.HandleBodyDrag = function(slot0, slot1)
 	if not slot2.rect:Contains(slot1 - slot2.originScreenPosition) and slot6:GetActionType() == Dorm3dIK.ACTION_TRIGGER.TOUCH_TARGET and slot9 then
 		slot0.ikHandler = nil
 
-		existCall(slot0.onIKLayerDeactive, slot2)
+		existCall(slot0.onIKLayerDeactive, slot2, true)
 		table.insert(slot0.activeIKLayers, slot6)
 		slot0:PlayIKAction(slot2)
 
@@ -271,7 +271,7 @@ slot0.ReleaseDrag = function(slot0)
 
 	slot0.ikHandler = nil
 
-	existCall(slot0.onIKLayerDeactive, slot1)
+	existCall(slot0.onIKLayerDeactive, slot1, slot3)
 
 	if slot3 then
 		table.insert(slot0.activeIKLayers, slot2)
