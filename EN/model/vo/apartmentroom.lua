@@ -76,26 +76,44 @@ slot0.bindConfigTable = function(slot0)
 end
 
 slot0.getDownloadNameList = function(slot0)
-	if slot0:getConfig("type") == 1 then
-		return {}, DormGroupConst.GetDownloadResourceDic().common or {}
-	elseif slot1 == 2 then
-		return DormGroupConst.GetDownloadResourceDic()[slot0:getConfig("resource_name")] or {}, slot2.common or {}
-	else
-		assert(false)
+	slot1 = DormGroupConst.GetDownloadResourceDic()
+	slot2 = string.lower(slot0:getConfig("resource_name"))
+
+	switch(slot0:getConfig("type"), {
+		function ()
+			uv0 = {
+				"room_" .. uv1,
+				"common"
+			}
+		end,
+		function ()
+			uv0 = {
+				"room_" .. uv1,
+				"apartment_" .. uv1,
+				"common"
+			}
+		end
+	}, function ()
+		assert(false, "without room type:" .. uv0:getConfig("type"))
+	end)
+
+	slot4 = {}
+
+	for slot8, slot9 in ipairs({}) do
+		table.insertto(slot4, slot1[slot9] or {})
 	end
+
+	return slot4
 end
 
 slot0.needDownload = function(slot0)
-	slot1, slot2 = slot0:getDownloadNameList()
-
-	return #slot1 > 0 or #slot2 > 0
+	return #slot0:getDownloadNameList() > 0
 end
 
 slot0.getDownloadNeedSize = function(slot0)
-	slot1, slot2 = slot0:getDownloadNameList()
-	slot4, slot5 = DormGroupConst.CalcDormListSize(table.mergeArray(slot1, slot2))
+	slot1, slot2 = DormGroupConst.CalcDormListSize(slot0:getDownloadNameList())
 
-	return slot4, slot5
+	return slot1, slot2
 end
 
 slot0.getState = function(slot0)
@@ -282,6 +300,10 @@ end
 
 slot0.getAllARAnimationListByShip = function(slot0, slot1)
 	return slot0.shipArAnimationDic[slot1]
+end
+
+slot0.getMiniGames = function(slot0)
+	return underscore.rest(pg.dorm3d_minigame.get_id_list_by_room_id[slot0.configId] or {}, 1)
 end
 
 return slot0

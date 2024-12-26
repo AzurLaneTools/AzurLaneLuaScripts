@@ -84,6 +84,10 @@ slot0.GetRevertTime = function(slot0)
 	return slot0:getConfig("back_time")
 end
 
+slot0.GetActionRevertTime = function(slot0)
+	return slot0:getConfig("action_back_time")
+end
+
 slot0.GetHeadTrackPath = function(slot0)
 	return slot0:getConfig("head_track")
 end
@@ -98,6 +102,30 @@ slot0.GetIKTipOffset = function(slot0)
 	end
 
 	return Vector2.New(unpack(slot1))
+end
+
+slot0.GetTimelineAction = function(slot0)
+	if type(slot0:getConfig("timeline_action")) ~= "table" then
+		return
+	end
+
+	switch(slot1[1], {
+		TimelineIKStart = function (slot0)
+			uv0.intParameter = slot0
+		end,
+		TimelineSelect = function (slot0)
+			uv0.intParameter = slot0
+		end,
+		TimelinePlayOnTime = function (slot0)
+			uv0.floatParameter = slot0
+		end
+	}, nil, unpack(slot1, 2))
+
+	return {
+		intParameter = 0,
+		floatParameter = 0,
+		stringParameter = slot1[1]
+	}
 end
 
 return slot0

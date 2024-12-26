@@ -79,6 +79,12 @@ slot0.addTranDrop = function(slot0, slot1)
 		end
 	end
 
+	for slot7, slot8 in ipairs(slot0) do
+		if slot8.type == DROP_TYPE_SHIP and Ship.isMetaShipByConfigID(slot8.id) and not Player.isMetaShipNeedToTrans(slot8.id) then
+			getProxy(MetaCharacterProxy):setMetaIDMark(slot8.id)
+		end
+	end
+
 	slot4 = {}
 
 	for slot8, slot9 in ipairs(slot0) do

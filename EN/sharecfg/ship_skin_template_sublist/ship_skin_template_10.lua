@@ -1,6 +1,118 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
+	[304060] = {
+		name = "Hiei-chan",
+		id = 304060,
+		desc = "Fast Battleship, second ship of the Kongou-class Hiei.",
+		illustrator2 = -1,
+		ship_group = 30406,
+		group_index = 0,
+		prefab = "birui_younv",
+		painting = "birui_younv",
+		hand_id = 6,
+		bgm = "",
+		shop_type_id = 0,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 76,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.49,
+					0.74,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.51,
+					0.72,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.18,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.24,
+					1.69,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[304070] = {
 		name = "Amagi-chan",
 		id = 304070,
@@ -12651,133 +12763,33 @@ pg.base.ship_skin_template_10 = {
 			0.33
 		}
 	},
-	[307090] = {
-		name = "Akagi-chan",
-		id = 307090,
-		desc = "Aircraft carrier Akagi.",
+	[307084] = {
+		name = "Visions of Fantasy",
+		id = 307084,
+		desc = "As a flickering, quivering phantasm... Welcome to the dream this one made for you, Commander. Do you like this magic, in which this one appears in an instant?",
 		illustrator2 = -1,
-		ship_group = 30709,
-		group_index = 0,
-		prefab = "chicheng_younv",
-		painting = "chicheng_younv",
-		hand_id = 6,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 44,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			30,
-			-55,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.98,
-					0.67,
-					0
-				}
-			},
-			plane = {
-				{
-					1.07,
-					0.56,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.45,
-							2.19,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[307100] = {
-		name = "Akagi μ",
-		id = 307100,
-		desc = "With the magicks of the Sakura Empire, changing my form like this is a trifle... Hehehe, Commander? Does this Akagi please you?",
-		illustrator2 = -1,
-		ship_group = 30710,
-		group_index = 0,
-		prefab = "chicheng_idol",
-		painting = "chicheng_idol",
+		ship_group = 30708,
+		group_index = 4,
+		prefab = "xinnong_5",
+		painting = "xinnong_5",
 		hand_id = 2,
 		bgm = "",
-		shop_type_id = 0,
+		shop_type_id = 16,
 		special_effects = "",
 		gyro = 0,
 		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
 		l2d_drag_rate = "",
-		bg = "121",
+		bg = "608",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
-		skin_type = -1,
+		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 44,
+		shop_id = 71090,
+		voice_actor = 192,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -12786,11 +12798,13 @@ pg.base.ship_skin_template_10 = {
 		lip_sync_gain = 0,
 		live2d_offset_profile = "",
 		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
+		tag = {
+			1,
+			2
+		},
 		live2d_offset = {
 			0,
-			0,
+			15,
 			0
 		},
 		fx_container = {
@@ -12818,15 +12832,15 @@ pg.base.ship_skin_template_10 = {
 		bound_bone = {
 			antiaircraft = {
 				{
-					1.381,
-					1.021,
+					1.405,
+					0.94,
 					0
 				}
 			},
 			plane = {
 				{
-					1.362,
-					1.012,
+					1.405,
+					0.94,
 					0
 				}
 			}
@@ -12838,13 +12852,84 @@ pg.base.ship_skin_template_10 = {
 					{
 						"smoke",
 						{
-							-0.342,
-							2.332,
+							-0.34,
+							2.32,
 							0
 						}
 					}
 				}
 			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			30708401,
+			30708402,
+			30708403,
+			30708404,
+			30708405,
+			30708406,
+			30708407,
+			30708408,
+			30708409,
+			30708410,
+			30708411,
+			30708412,
+			30708413,
+			30708414,
+			30708415,
+			30708416,
+			30708417,
+			30708418,
+			30708419,
+			30708420,
+			30708421,
+			30708422,
+			30708423,
+			30708424,
+			30708425,
+			30708426,
+			30708427,
+			30708428,
+			30708429,
+			30708430,
+			30708431,
+			30708432,
+			30708433,
+			30708434,
+			30708435,
+			30708436,
+			30708437,
+			30708438,
+			30708439,
+			30708440,
+			30708441,
+			30708442,
+			30708443,
+			30708444,
+			30708445,
+			30708446,
+			30708447,
+			30708448,
+			30708449,
+			30708450,
+			30708451,
+			30708452
 		}
 	}
 }

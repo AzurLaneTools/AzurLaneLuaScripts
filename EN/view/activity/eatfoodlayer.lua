@@ -463,9 +463,11 @@ slot0.addScore = function(slot0, slot1, slot2, slot3)
 			slot5 = false
 		end
 
-		slot0:emit(EatFoodMediator.GAME_HIT_AREA, {
+		slot0:emit(Dorm3dMiniGameMediator.GAME_OPERATION, {
+			operationCode = "GAME_HIT_AREA",
 			success = slot5,
-			index = slot3
+			index = slot3,
+			miniGameId = uv1
 		})
 		setActive(slot0.sceneScoreTf, true)
 	end
@@ -540,9 +542,11 @@ slot0.onGameOver = function(slot0, slot1)
 end
 
 slot0.showSettlement = function(slot0)
-	slot0:emit(EatFoodMediator.GAME_RESULT, {
+	slot0:emit(Dorm3dMiniGameMediator.GAME_OPERATION, {
+		operationCode = "GAME_RESULT",
 		win = uv0 <= slot0.scoreNum,
-		score = slot0.scoreNum
+		score = slot0.scoreNum,
+		miniGameId = uv1
 	})
 	setActive(slot0.settlementUI, true)
 
@@ -585,8 +589,12 @@ end
 
 slot0.checkGameExit = function(slot0)
 	if not slot0.gameStartFlag then
-		slot0:emit(EatFoodMediator.GAME_CLOSE, true)
-		slot0:emit(uv0.ON_BACK_PRESSED)
+		slot0:emit(Dorm3dMiniGameMediator.GAME_OPERATION, {
+			operationCode = "GAME_CLOSE",
+			doTrack = true,
+			miniGameId = uv0
+		})
+		slot0:emit(uv1.ON_BACK_PRESSED)
 	else
 		if slot0.gameStop then
 			return
@@ -598,8 +606,12 @@ slot0.checkGameExit = function(slot0)
 			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_MSGBOX, {
 				contentText = i18n("mini_game_leave"),
 				onConfirm = function ()
-					uv0:emit(EatFoodMediator.GAME_CLOSE, false)
-					uv0:emit(uv1.ON_BACK_PRESSED)
+					uv0:emit(Dorm3dMiniGameMediator.GAME_OPERATION, {
+						operationCode = "GAME_CLOSE",
+						doTrack = false,
+						miniGameId = uv1
+					})
+					uv0:emit(uv2.ON_BACK_PRESSED)
 				end,
 				onClose = function ()
 					uv0:resumeGame()
@@ -609,8 +621,12 @@ slot0.checkGameExit = function(slot0)
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("mini_game_leave"),
 				onYes = function ()
-					uv0:emit(EatFoodMediator.GAME_CLOSE, false)
-					uv0:emit(uv1.ON_BACK_PRESSED)
+					uv0:emit(Dorm3dMiniGameMediator.GAME_OPERATION, {
+						operationCode = "GAME_CLOSE",
+						doTrack = false,
+						miniGameId = uv1
+					})
+					uv0:emit(uv2.ON_BACK_PRESSED)
 				end,
 				onNo = function ()
 					uv0:resumeGame()

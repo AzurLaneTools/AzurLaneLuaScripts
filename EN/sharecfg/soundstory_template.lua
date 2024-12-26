@@ -850,6 +850,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "The Dragon God's Gift of Udon",
+		story_resource_JP = "soundStory19_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Hime Sawada",
+		audition_resource_JP = "ss-39906-1",
+		overview = "Shimanto challenged herself to make udon in the traditional Sakuran way for the New Year.\nThe dough can get quite slippery, and only you can help her correct a misstep.",
+		order = 2,
+		audition_text = "You have to really dig your heels in... where the dough is still stiff... And if that's not enough... You do it again...",
+		ship_id = 39906,
+		id = 19,
+		captions_color = "#2e2f31",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -868,6 +921,7 @@ pg.soundstory_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

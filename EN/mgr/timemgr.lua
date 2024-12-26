@@ -152,6 +152,10 @@ slot1.GetServerWeek = function(slot0)
 	return slot0:GetServerTimestampWeek(slot0:GetServerTime())
 end
 
+slot1.GetServerOverWeek = function(slot0, slot1)
+	return math.ceil((slot0:GetServerTime() - (slot1 - (slot0:GetServerTimestampWeek(slot1) - 1) * 86400)) / 604800)
+end
+
 slot1.GetServerTimestampWeek = function(slot0, slot1)
 	return math.ceil(((slot1 - slot0._sAnchorTime) % uv0 + 1) / uv1)
 end

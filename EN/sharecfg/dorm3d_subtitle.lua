@@ -1,5 +1,62 @@
 pg = pg or {}
-pg.dorm3d_subtitle = {
+pg.dorm3d_subtitle = setmetatable({
+	__name = "dorm3d_subtitle",
+	all = {
+		101,
+		102,
+		103,
+		104,
+		105,
+		201,
+		202,
+		203,
+		301,
+		302,
+		303,
+		401,
+		402,
+		501,
+		601,
+		602,
+		603,
+		604,
+		605,
+		606,
+		701,
+		702,
+		703,
+		801,
+		802,
+		803,
+		804,
+		805,
+		806,
+		807,
+		808,
+		809,
+		901,
+		902,
+		903,
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		2101,
+		2102,
+		2103,
+		2201,
+		2202,
+		2301,
+		2302,
+		2303
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.dorm3d_subtitle = {
 	[101] = {
 		id = 101,
 		subtitle = "Honourable $dorm3d, allow me to show you how a truly great Royal Maid cleans a vase."
@@ -172,49 +229,36 @@ pg.dorm3d_subtitle = {
 		id = 1008,
 		subtitle = "Phew... That should do it!"
 	},
-	all = {
-		101,
-		102,
-		103,
-		104,
-		105,
-		201,
-		202,
-		203,
-		301,
-		302,
-		303,
-		401,
-		402,
-		501,
-		601,
-		602,
-		603,
-		604,
-		605,
-		606,
-		701,
-		702,
-		703,
-		801,
-		802,
-		803,
-		804,
-		805,
-		806,
-		807,
-		808,
-		809,
-		901,
-		902,
-		903,
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007,
-		1008
+	[2101] = {
+		id = 2101,
+		subtitle = "Gueeess who?"
+	},
+	[2102] = {
+		id = 2102,
+		subtitle = "Hmm... On second thought, I'm not suited for this little tease Sakawa taught me..."
+	},
+	[2103] = {
+		id = 2103,
+		subtitle = "You thought it was cute? Oh, okay..."
+	},
+	[2201] = {
+		id = 2201,
+		subtitle = "Alright, that should do it."
+	},
+	[2202] = {
+		id = 2202,
+		subtitle = "Aren't we leaving yet?"
+	},
+	[2301] = {
+		id = 2301,
+		subtitle = "$dorm3d, lend me your hand."
+	},
+	[2302] = {
+		id = 2302,
+		subtitle = "Do you feel how hard my heart is beating?"
+	},
+	[2303] = {
+		id = 2303,
+		subtitle = "It gets like this when... I'm with you..."
 	}
 }

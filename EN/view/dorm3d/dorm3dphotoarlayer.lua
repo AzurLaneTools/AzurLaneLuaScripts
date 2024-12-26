@@ -131,7 +131,7 @@ slot0.didEnter = function(slot0)
 
 	setSlider(slot1, 0, 1, 0)
 	onSlider(slot0, slot1, function (slot0)
-		uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SetPinchValue", (1 - slot0) * 0.5 + 0.5)
+		uv0:emit(Dorm3dPhotoARMediator.SCENE_CALL, "SetPinchValue", (1 - slot0) * 0.5 + 0.5)
 	end)
 
 	slot0.activeSetting = false
@@ -173,7 +173,7 @@ slot0.didEnter = function(slot0)
 		uv0.hideUI = false
 	end)
 	onButton(slot0, slot0.btnReset, function ()
-		uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetPhotoCameraPosition")
+		uv0:emit(Dorm3dPhotoARMediator.SCENE_CALL, "ResetPhotoCameraPosition")
 	end, SFX_PANEL)
 
 	slot0.recordState = false

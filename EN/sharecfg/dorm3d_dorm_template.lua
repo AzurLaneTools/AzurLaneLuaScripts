@@ -8,7 +8,16 @@ pg.dorm3d_dorm_template = {
 		id = 20220,
 		default_appellation = "Master"
 	},
+	[30221] = {
+		skin_model = 302211,
+		name = "Noshiro",
+		bind_room = 2,
+		asset_name = "nengdai_db",
+		id = 30221,
+		default_appellation = "Commander"
+	},
 	all = {
-		20220
+		20220,
+		30221
 	}
 }

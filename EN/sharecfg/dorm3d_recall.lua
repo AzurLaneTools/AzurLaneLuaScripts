@@ -96,6 +96,61 @@ pg.dorm3d_recall = {
 			2022002
 		}
 	},
+	[21] = {
+		story_id = 20500,
+		name = "Surprise for Sore Eyes",
+		type = 1,
+		id = 21,
+		image = "recall_21",
+		unlock_text = "Unlocked at Intimacy Lv. 4.",
+		desc = "All of a sudden, two warm hands cover your eyes. Guess who it is?",
+		unlock = {
+			1,
+			30221,
+			4
+		}
+	},
+	[22] = {
+		story_id = 20510,
+		name = "The Warmth of Her Hand",
+		type = 1,
+		id = 22,
+		image = "recall_22",
+		unlock_text = "Unlocked at Intimacy Lv. 8.",
+		desc = "A moment of closeness is the prelude to a wonderful memory.",
+		unlock = {
+			1,
+			30221,
+			8
+		}
+	},
+	[23] = {
+		story_id = 20520,
+		name = "Heart-Racing Touch",
+		type = 1,
+		id = 23,
+		image = "recall_23",
+		unlock_text = "Unlocked at Intimacy Lv. 12.",
+		desc = "Did you feel that? Her heart only races like that when your eyes meet.",
+		unlock = {
+			1,
+			30221,
+			12
+		}
+	},
+	[31] = {
+		story_id = 29991,
+		name = "Intimate Assistance",
+		type = 1,
+		id = 31,
+		image = "recall_31",
+		unlock_text = "Unlocked after gifting Sincere Loafers.",
+		desc = "As you share a private moment, your hands join in a delicate touch, making your hearts race...",
+		unlock = {
+			3,
+			3022101
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -117,6 +172,18 @@ pg.dorm3d_recall = {
 		},
 		[10070] = {
 			7
+		},
+		[20500] = {
+			21
+		},
+		[20510] = {
+			22
+		},
+		[20520] = {
+			23
+		},
+		[29991] = {
+			31
 		}
 	},
 	all = {
@@ -126,6 +193,10 @@ pg.dorm3d_recall = {
 		4,
 		5,
 		6,
-		7
+		7,
+		21,
+		22,
+		23,
+		31
 	}
 }

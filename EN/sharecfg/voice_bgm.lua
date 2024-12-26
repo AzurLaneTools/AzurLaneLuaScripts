@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "story-richang-partynight",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "story-richang-partynight"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -1849,5 +1849,10 @@ pg.voice_bgm = {
 		default_bgm = "main-christmas",
 		special_bgm = "",
 		bgm = "main-christmas"
+	},
+	SkinMagazinePage7 = {
+		default_bgm = "story-richang-partynight",
+		special_bgm = "",
+		bgm = "story-richang-partynight"
 	}
 }

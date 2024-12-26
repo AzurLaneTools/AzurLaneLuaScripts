@@ -99,6 +99,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.rangeOffset = slot0.range[2] - slot0.range[1]
 	slot0.offsetDragTargetX = slot0.startValue
 	slot0.offsetDragTargetY = slot0.startValue
+	slot0.extendActionFlag = false
 	slot0.parameterComAdd = true
 	slot0.reactConditionFlag = false
 	slot0.loadL2dStep = true
@@ -461,6 +462,8 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 		print("change idle")
 	elseif slot1 == Live2D.EVENT_GET_PARAMETER then
 		slot2.callback = slot3
+	elseif slot1 == Live2D.EVENT_GET_DRAG_PARAMETER then
+		slot2.callback = slot3
 	elseif slot1 == Live2D.EVENT_GET_WORLD_POSITION then
 		slot2.callback = slot3
 	end
@@ -491,15 +494,6 @@ slot0.getCommonNoticeData = function(slot0)
 end
 
 slot0.setTargetValue = function(slot0, slot1)
-	if table.contains({
-		49905314,
-		49905315,
-		49905316,
-		49905317
-	}, slot0.id) then
-		print(slot0.parameterName .. " 设置目标数值.." .. slot1)
-	end
-
 	slot0.parameterTargetValue = slot1
 end
 
@@ -1047,7 +1041,48 @@ slot0.updateTrigger = function(slot0)
 			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function ()
 			end)
 		end
+	elseif slot1 == Live2D.DRAG_EXTEND_ACTION_RULE and not slot0.extendActionFlag then
+		slot0.extendActionFlag = true
 	end
+end
+
+slot0.getExtendAction = function(slot0)
+	return slot0.extendActionFlag
+end
+
+slot0.checkActionInExtendFlag = function(slot0, slot1)
+	slot2 = false
+	slot3 = false
+
+	if not slot0.extendActionFlag then
+		return slot2, slot3
+	end
+
+	slot5 = slot0.actionTrigger.num
+
+	slot0:onEventCallback(Live2D.EVENT_GET_DRAG_PARAMETER, {
+		name = slot0.actionTrigger.parameter
+	}, function (slot0)
+		if uv0[1] < slot0 and slot0 <= uv0[2] then
+			uv1 = true
+		end
+	end)
+
+	if not false then
+		return slot2, slot2
+	end
+
+	slot8 = slot0.actionTriggerActive.enable
+
+	if slot0.actionTriggerActive.ignore and table.contains(slot7, slot1) then
+		slot2 = true
+	end
+
+	if slot8 and table.contains(slot8, slot1) then
+		slot3 = true
+	end
+
+	return slot2, slot3
 end
 
 slot0.setAbleWithFlag = function(slot0, slot1)
