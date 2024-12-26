@@ -468,6 +468,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「여우가 울면, 봉황이 춤추며 불꽃을 받아 다시 태어나리라. 생은 바뀌어도 마음은 변하지 않으리니. 」</color>「깨워라 창홍의 바람」이벤트 참가 보상",
 		scene = {}
 	},
+	[333] = {
+		name = "하늘 밖의 별빛",
+		gain_by = "",
+		time_second = 0,
+		id = 333,
+		time_limit_type = 0,
+		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -764,6 +773,7 @@ pg.item_data_frame = {
 		330,
 		331,
 		332,
+		333,
 		401,
 		402,
 		413,

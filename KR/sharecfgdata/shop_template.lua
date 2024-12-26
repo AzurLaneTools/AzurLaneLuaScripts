@@ -40235,8 +40235,8 @@ _G.pg.base.shop_template[70728] = {
 		{
 			{
 				2024,
-				3,
-				14
+				12,
+				26
 			},
 			{
 				0,
@@ -40246,9 +40246,9 @@ _G.pg.base.shop_template[70728] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				1,
+				2
 			},
 			{
 				23,
@@ -45050,8 +45050,8 @@ _G.pg.base.shop_template[70845] = {
 		{
 			{
 				2024,
-				3,
-				14
+				12,
+				26
 			},
 			{
 				0,
@@ -45061,9 +45061,9 @@ _G.pg.base.shop_template[70845] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				1,
+				2
 			},
 			{
 				23,
@@ -48569,8 +48569,8 @@ _G.pg.base.shop_template[70937] = {
 		{
 			{
 				2024,
-				3,
-				14
+				12,
+				26
 			},
 			{
 				0,
@@ -48580,9 +48580,9 @@ _G.pg.base.shop_template[70937] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				1,
+				2
 			},
 			{
 				23,
@@ -48622,8 +48622,8 @@ _G.pg.base.shop_template[70938] = {
 		{
 			{
 				2024,
-				3,
-				14
+				12,
+				26
 			},
 			{
 				0,
@@ -48633,9 +48633,9 @@ _G.pg.base.shop_template[70938] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				1,
+				2
 			},
 			{
 				23,
@@ -52634,7 +52634,7 @@ _G.pg.base.shop_template[71026] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52687,7 +52687,7 @@ _G.pg.base.shop_template[71027] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52740,7 +52740,7 @@ _G.pg.base.shop_template[71028] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52793,7 +52793,7 @@ _G.pg.base.shop_template[71029] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52846,7 +52846,7 @@ _G.pg.base.shop_template[71030] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52899,7 +52899,7 @@ _G.pg.base.shop_template[71031] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -52952,7 +52952,7 @@ _G.pg.base.shop_template[71032] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53005,7 +53005,7 @@ _G.pg.base.shop_template[71033] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53058,7 +53058,7 @@ _G.pg.base.shop_template[71034] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53111,7 +53111,7 @@ _G.pg.base.shop_template[71035] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 4,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53164,7 +53164,7 @@ _G.pg.base.shop_template[71036] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 2,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53217,7 +53217,7 @@ _G.pg.base.shop_template[71037] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 4,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53323,7 +53323,7 @@ _G.pg.base.shop_template[71039] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 4,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53429,7 +53429,7 @@ _G.pg.base.shop_template[71041] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 4,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -53482,7 +53482,7 @@ _G.pg.base.shop_template[71042] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 4,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -54542,7 +54542,7 @@ _G.pg.base.shop_template[71062] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 3,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -54648,7 +54648,7 @@ _G.pg.base.shop_template[71064] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -54807,7 +54807,7 @@ _G.pg.base.shop_template[71067] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 4,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -54913,7 +54913,7 @@ _G.pg.base.shop_template[71069] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 5,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,

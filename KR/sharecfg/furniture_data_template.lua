@@ -220,6 +220,7 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100066,
 			100067,
+			100068,
 			200001,
 			200002,
 			200003,
@@ -5496,6 +5497,7 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100066,
 			100067,
+			100068,
 			54104,
 			54105
 		},
@@ -6594,7 +6596,8 @@ pg.furniture_data_template = setmetatable({
 			100061,
 			100062,
 			100065,
-			100067
+			100067,
+			100068
 		},
 		[2] = {
 			120,
@@ -9603,6 +9606,7 @@ pg.furniture_data_template = setmetatable({
 		100065,
 		100066,
 		100067,
+		100068,
 		200001,
 		200002,
 		200003,
@@ -24768,6 +24772,53 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100068] = {
+		can_rotate = 0,
+		describe = "이 신비로운 보물은 주인이 둘인 것 같은데, 모두 건드리기가 쉽지 않습니다...!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "보물 1호",
+		advice = 0,
+		id = 100068,
+		icon = "touhaobaowuicon",
+		comfortable = 0,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"touhaobaowu",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
 		},
 		interAction_group = {}
 	},

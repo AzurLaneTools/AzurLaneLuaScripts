@@ -267,6 +267,11 @@ pg.task_meta_data_template = setmetatable({
 		100353,
 		100354,
 		100355,
+		100361,
+		100362,
+		100363,
+		100364,
+		100365,
 		200001,
 		200002,
 		200003,
@@ -370,7 +375,11 @@ pg.task_meta_data_template = setmetatable({
 		200261,
 		200262,
 		200263,
-		200264
+		200264,
+		200271,
+		200272,
+		200273,
+		200274
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2495,6 +2504,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "줄리오 체사레·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100361] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100361,
+		target_num = 1,
+		desc = "다이호·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100362] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100362,
+		target_num = 1,
+		desc = "다이호·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100363] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100363,
+		target_num = 1,
+		desc = "다이호·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100364] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100364,
+		target_num = 1,
+		desc = "다이호·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100365] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970705",
+		id = 100365,
+		target_num = 1,
+		desc = "다이호·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3326,5 +3375,37 @@ pg.base.task_meta_data_template = {
 		id = 200264,
 		target_num = 1,
 		desc = "<size=24>대형작전에서 줄리오 체사레·META를 포함한 함대로 Lv100 이상의 적 격파</size>"
+	},
+	[200271] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200271,
+		target_num = 1,
+		desc = "대형작전에서 다이호·META를 포함한 함대로 1회 승리"
+	},
+	[200272] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200272,
+		target_num = 1,
+		desc = "대형작전에서 다이호·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200273] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200273,
+		target_num = 1,
+		desc = "대형작전에서 다이호·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200274] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970705",
+		id = 200274,
+		target_num = 1,
+		desc = "대형작전에서 다이호·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

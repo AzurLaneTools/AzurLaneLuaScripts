@@ -950,6 +950,12 @@ slot0.InitCharacter = function(slot0, slot1, slot2)
 	table.IpairsCArray(slot4:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
 		if slot1.name == "BodyCollider" then
 			uv0.ladyCollider = slot1
+
+			setActive(slot1, true)
+		elseif slot1.name == "SafeCollider" then
+			uv0.ladySafeCollider = slot1
+
+			setActive(slot1, false)
 		elseif slot1.name == "Interest" then
 			uv0.ladyInterestRoot = slot1
 		elseif slot1.name == "Head Center" then
@@ -2414,6 +2420,7 @@ slot0.EnterPhotoMode = function(slot0, slot1, slot2)
 			slot1.ladyAnimator:Update(0)
 			slot1:ResetCharPoint(uv2:GetWatchCameraName())
 			uv0:SyncInterestTransform(slot1)
+			setActive(slot1.ladySafeCollider, true)
 
 			slot2 = uv0.cameras[uv3.CAMERA.PHOTO]
 			slot3 = slot2.m_XAxis
@@ -2449,9 +2456,11 @@ slot0.ExitPhotoMode = function(slot0)
 
 			slot1:RevertCameraOrbit()
 
-			slot1 = uv0
+			slot2 = uv0.apartment
+			slot2 = uv0
 
-			slot1:SwitchAnim(uv1.ANIM.IDLE)
+			slot2:SwitchAnim(uv1.ANIM.IDLE)
+			setActive(uv0.ladyDict[slot2:GetConfigID()].ladySafeCollider, false)
 			onNextTick(function ()
 				uv0:ChangeCharacterPosition()
 			end)
@@ -2463,10 +2472,10 @@ slot0.ExitPhotoMode = function(slot0)
 				uv0.contextData.photoFreeMode = nil
 			end
 
-			slot1 = uv0.cameras[uv1.CAMERA.POV]
+			slot2 = uv0.cameras[uv1.CAMERA.POV]
 
-			uv0:RegisterCameraBlendFinished(slot1, slot0)
-			uv0:ActiveCamera(slot1)
+			uv0:RegisterCameraBlendFinished(slot2, slot0)
+			uv0:ActiveCamera(slot2)
 		end,
 		function (slot0)
 			uv0:ShowBlackScreen(false, slot0)

@@ -1,5 +1,108 @@
 pg = pg or {}
 pg.enemy_data_statistics_289 = {
+	[16504203] = {
+		cannon = 210,
+		name = "라 갈리소니에르 통제 무장-「Annihilate」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 5,
+		type = 5,
+		id = 16504203,
+		antiaircraft = 235,
+		antiaircraft_growth = 3600,
+		dodge_growth = 156,
+		fog_fx = "",
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90442,
+		durability = 23200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 18,
+		antisub = 0,
+		cannon_growth = 2500,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 32,
+		torpedo = 0,
+		durability_growth = 368400,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_liandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_liandao"
+		},
+		equipment_list = {
+			1101094,
+			1101114,
+			1101119,
+			1101124,
+			1101099
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
+	[16504204] = {
+		cannon = 145,
+		name = "르 마르스 통제 무장-「Moderate」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 325,
+		icon_type = 7,
+		type = 7,
+		id = 16504204,
+		antiaircraft = 260,
+		antiaircraft_growth = 3200,
+		fog_fx = "",
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 3500,
+		base = 90279,
+		durability = 18700,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 20,
+		antisub = 0,
+		cannon_growth = 1800,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 0,
+		durability_growth = 312000,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_kandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_kandao"
+		},
+		equipment_list = {
+			784318,
+			1101094,
+			1101079,
+			1101119,
+			1100929,
+			1100939
+		}
+	},
 	[16504301] = {
 		cannon = 330,
 		air = 390,
@@ -1137,76 +1240,6 @@ pg.enemy_data_statistics_289 = {
 		equipment_list = {
 			1000865,
 			1000875
-		}
-	},
-	[16511007] = {
-		cannon = 8,
-		air = 0,
-		torpedo = 30,
-		cannon_growth = 310,
-		pilot_ai_template_id = 10002,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 2300,
-		hit_growth = 120,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 8,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 65,
-		base = 90507,
-		durability = 66,
-		armor_growth = 0,
-		durability_growth = 2200,
-		antiaircraft = 0,
-		speed = 10,
-		luck = 0,
-		antiaircraft_growth = 0,
-		id = 16511007,
-		antisub = 0,
-		fog_fx = "",
-		equipment_list = {
-			1002091,
-			1002096
-		}
-	},
-	[16511101] = {
-		cannon = 6,
-		air = 0,
-		torpedo = 54,
-		cannon_growth = 468,
-		id = 16511101,
-		reload = 150,
-		armor = 0,
-		dodge = 15,
-		torpedo_growth = 4491,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 222,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 50,
-		base = 90423,
-		durability = 510,
-		armor_growth = 0,
-		durability_growth = 18800,
-		antiaircraft = 20,
-		speed = 33,
-		luck = 0,
-		antiaircraft_growth = 1638,
-		fog_fx = "",
-		antisub = 0,
-		equipment_list = {
-			1002101,
-			1002106,
-			1002111
 		}
 	}
 }

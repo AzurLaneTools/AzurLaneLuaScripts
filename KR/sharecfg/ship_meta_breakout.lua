@@ -150,6 +150,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707042,
 		9707043,
 		9707044,
+		9707051,
+		9707052,
+		9707053,
+		9707054,
 		9708011,
 		9708012,
 		9708013,
@@ -2585,6 +2589,75 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9707044,
 		item1 = 21033,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9707051] = {
+		breakout_view = "[일렁이는 불꽃 - 다이호] 습득 / 폭격기 수 +1 / 폭격기 보정 +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707052,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707051,
+		item1 = 21041,
+		level = 10,
+		weapon_ids = {
+			60331,
+			54014
+		}
+	},
+	[9707052] = {
+		breakout_view = "격납고 용량 +1 / 뇌격기 수 +1 / 전투기 보정 +10%",
+		item2 = 21001,
+		pre_id = 9707051,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707053,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707052,
+		item1 = 21041,
+		level = 30,
+		weapon_ids = {
+			60332,
+			54014,
+			60332,
+			54014
+		}
+	},
+	[9707053] = {
+		breakout_view = "[일렁이는 불꽃 - 다이호] 강화 / 함재기 수 +1 / 뇌격기 보정 +15%",
+		item2 = 21001,
+		pre_id = 9707052,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707054,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707053,
+		item1 = 21041,
+		level = 70,
+		weapon_ids = {
+			60333,
+			54015,
+			60333,
+			54015
+		}
+	},
+	[9707054] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9707053,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707054,
+		item1 = 21041,
 		level = 0,
 		weapon_ids = {}
 	},

@@ -31,6 +31,12 @@ slot0.initUI = function(slot0)
 		slot0:findTF("pagefooter/dailyPacks"),
 		slot0:findTF("pagefooter/specialPacks")
 	}
+
+	setText(slot0:findTF("pagefooter/dailyPacks/Text"), i18n("blackfriday_dailypack"))
+	setText(slot0:findTF("pagefooter/dailyPacks/mark"), i18n("blackfriday_dailypack"))
+	setText(slot0:findTF("pagefooter/specialPacks/Text"), i18n("blackfriday_specialpack"))
+	setText(slot0:findTF("pagefooter/specialPacks/mark"), i18n("blackfriday_specialpack"))
+
 	slot0.pagefooterWid = slot0.pagefooters[1].rect.width
 	slot0.pagefooterStartPosX = slot0.pagefooters[1].anchoredPosition.x
 	slot0.giftItemList = UIItemList.New(slot0.content, slot0:findTF("gift_tpl"))
@@ -280,6 +286,7 @@ end
 
 slot0.isTip = function(slot0)
 	slot1 = false
+	slot2 = pg.TimeMgr.GetInstance()
 
 	return (function (slot0)
 		slot1 = false
@@ -293,13 +300,13 @@ slot0.isTip = function(slot0)
 
 			slot7:updateBuyCount(count)
 
-			if slot7:canPurchase() then
+			if slot7:canPurchase() and not slot7:isChargeType() and uv1:inTime(slot7:getConfig("time")) then
 				slot1 = true
 			end
 		end
 
 		return slot1
-	end)(1) or slot2(2)
+	end)(1) or slot3(2)
 end
 
 slot0.OnDestroy = function(slot0)

@@ -1,36 +1,14 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene dailylevel"
-		},
-		time = {
+			"scene charge",
 			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
+				wrap = 2
 			}
 		}
 	},
@@ -39,18 +17,15 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2024,
 					12,
-					19
+					26
 				},
 				{
 					0,
@@ -60,9 +35,9 @@ pg.activity_banner = {
 			},
 			{
 				{
-					2024,
-					12,
-					26
+					2025,
+					1,
+					2
 				},
 				{
 					23,
@@ -83,40 +58,139 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
+		param = "5699",
+		type = 3,
 		id = 4,
 		pic = "temp4",
-		param = {
-			"scene get boat",
+		time = {
 			{
-				projectName = "new",
-				page = 1
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
+		param = "5700",
+		type = 3,
 		id = 5,
-		pic = "temp5",
-		param = {
-			"puzzle connect"
+		pic = "temp6",
+		time = {
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
+		param = "5698",
+		type = 3,
 		id = 6,
-		pic = "temp6",
-		param = {
-			"TOLOVE_COLLAB_BACKHILL"
+		pic = "temp5",
+		time = {
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
 		type = 2,
 		id = 7,
 		pic = "temp7",
+		param = {
+			"metacharacter"
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 8,
+		pic = "temp8",
 		param = {
 			"crusing"
 		},
@@ -137,7 +211,7 @@ pg.activity_banner = {
 				{
 					2024,
 					12,
-					12
+					19
 				},
 				{
 					23,
@@ -148,27 +222,22 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene court yard"
-		}
-	},
-	{
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
-			"dorm 3d select"
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
 		},
 		time = {
 			{
 				{
 					2024,
 					12,
-					1
+					5
 				},
 				{
 					0,
@@ -180,7 +249,7 @@ pg.activity_banner = {
 				{
 					2024,
 					12,
-					12
+					19
 				},
 				{
 					23,
@@ -192,10 +261,35 @@ pg.activity_banner = {
 	},
 	[90] = {
 		param = "",
-		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99"
+		pic = "temp99",
+		time = {
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[91] = {
 		param = "",
@@ -244,12 +338,14 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
-			4,
-			5,
-			6,
 			7,
 			8,
 			9
+		},
+		[3] = {
+			4,
+			5,
+			6
 		},
 		[9] = {
 			90,

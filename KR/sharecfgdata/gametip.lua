@@ -5628,8 +5628,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2024.9.19 ~ 2024.12.26</color>
-META전 나가토·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다.
+<color=#92fc63>2024.12.26 ~ 2025.3.27</color>
+META전 다이호·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다.
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
 ■ META전에 대해
@@ -6020,6 +6020,11 @@ _G.pg.base.gametip.quota_shop_good_limit = {
 
 _G.pg.base.gametip.quota_shop_limit_error = {
 	tip = "이미 소지 한도 수에 도달하여 더 이상 획득할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.item_assigned_type_limit_error = {
+	tip = "이미 소지 한도 수에 도달하여 교환할 수 없습니다."
 }
 
 

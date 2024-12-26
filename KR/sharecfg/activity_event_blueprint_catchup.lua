@@ -140,6 +140,11 @@ pg.activity_event_blueprint_catchup = {
 		obtain_max = 30,
 		char_choice = 29905
 	},
+	{
+		id = 29,
+		obtain_max = 30,
+		char_choice = 59901
+	},
 	all = {
 		1,
 		2,
@@ -168,6 +173,7 @@ pg.activity_event_blueprint_catchup = {
 		25,
 		26,
 		27,
-		28
+		28,
+		29
 	}
 }

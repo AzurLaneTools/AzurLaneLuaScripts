@@ -119,7 +119,29 @@ slot0.updateValue = function(slot0)
 		end
 
 		setText(slot1:Find("item/icon_bg/count"), uv0.count * uv0.displayDrops[slot0 + 1].count)
+
+		slot2 = uv0:isOverLimit(slot0 + 1, uv0.count)
+
+		setActive(slot1:Find("block_mask"), slot2)
+
+		if slot2 and uv0.selectedIndex == slot0 + 1 then
+			triggerToggle(slot1, false)
+		end
 	end)
+end
+
+slot0.isOverLimit = function(slot0, slot1, slot2)
+	slot3 = slot0.displayDrops[slot1]
+
+	if not (underscore.detect(slot0.itemVO:getConfig("limit"), function (slot0)
+		slot1, slot2, slot3 = unpack(slot0)
+
+		return slot1 == uv0.type and slot2 == uv0.id
+	end) and slot4[3] or nil) then
+		return false
+	else
+		return slot4 < slot3:getOwnedCount() + slot3.count * slot0.count
+	end
 end
 
 slot1 = function(slot0)
@@ -140,27 +162,41 @@ slot0.update = function(slot0, slot1)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			updateDrop(slot2:Find("item"), uv0.displayDrops[slot1])
+			slot3 = uv0.displayDrops[slot1]
+
+			updateDrop(slot2:Find("item"), slot3)
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					uv0.selectedIndex = uv1
 					uv0.selectedItem = uv2
+				elseif uv0.selectedIndex == uv1 then
+					uv0.selectedIndex = nil
+					uv0.selectedItem = nil
 				end
 			end, SFX_PANEL)
 			triggerToggle(slot2, false)
-			setScrollText(slot2:Find("name_bg/Text"), uv0.displayDrops[slot1]:getConfig("name"))
-
-			uv0.selectedItem = uv0.selectedItem or slot2
+			setScrollText(slot2:Find("name_bg/Text"), slot3:getConfig("name"))
 
 			if uv1 and slot3.type == DROP_TYPE_SHIP and uv2(slot3.id) then
 				setText(slot2:Find("item/tip/Text"), i18n("tech_character_get"))
 			end
 
 			setActive(slot2:Find("item/tip"), slot4)
+			onButton(uv0, slot2:Find("block_mask"), function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("item_assigned_type_limit_error"))
+			end, SFX_CANCEL)
+
+			if not uv0.selectedItem and not uv0:isOverLimit(slot1, uv0.count) then
+				uv0.selectedItem = slot2
+			end
 		end
 	end)
 	slot0.ulist:align(#slot0.displayDrops)
-	triggerToggle(slot0.selectedItem, true)
+
+	if slot0.selectedItem then
+		triggerToggle(slot0.selectedItem, true)
+	end
+
 	slot0:updateValue()
 
 	slot3 = Drop.New({
@@ -168,13 +204,17 @@ slot0.update = function(slot0, slot1)
 		id = slot1.id,
 		count = slot1.count
 	})
+	slot5 = slot0.itemTF
 
-	updateDrop(slot0.itemTF:Find("left/IconTpl"), setmetatable({
+	updateDrop(slot5:Find("left/IconTpl"), setmetatable({
 		count = 0
 	}, {
 		__index = slot3
 	}))
-	UpdateOwnDisplay(slot0.itemTF:Find("left/own"), slot3)
+
+	slot5 = slot0.itemTF
+
+	UpdateOwnDisplay(slot5:Find("left/own"), slot3)
 
 	if underscore.any(slot0.displayDrops, function (slot0)
 		return slot0.type == DROP_TYPE_ITEM and slot0:getConfig("type") == Item.SKIN_ASSIGNED_TYPE

@@ -15288,6 +15288,37 @@ _G.pg.base.item_data_statistics[21040] = {
 }
 
 
+_G.pg.base.item_data_statistics[21041] = {
+	open_directly = 0,
+	name = "결정: 다이호·META",
+	type = 4,
+	display = "다이호·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21041",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21041,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -15898,6 +15929,37 @@ _G.pg.base.item_data_statistics[21916] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21916,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[21917] = {
+	open_directly = 0,
+	name = "다이호·META 동기화 수치",
+	type = 4,
+	display = "다이호·META 동기화 수치",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21917",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21917,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
