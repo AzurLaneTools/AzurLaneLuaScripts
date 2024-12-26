@@ -105113,6 +105113,53 @@ _G.pg.base.item_data_statistics[60526] = {
 }
 
 
+_G.pg.base.item_data_statistics[80003] = {
+	open_directly = 1,
+	name = "舰船教材T3捆绑包*1 ",
+	type = 17,
+	display = "使用后可获得舰艇攻击教材T3*1、舰艇防御教材T3*1、舰艇辅助教材T3*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/54002",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998000",
+	id = 80003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			16003,
+			1
+		},
+		{
+			2,
+			16013,
+			1
+		},
+		{
+			2,
+			16023,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "新年福袋2024①",
@@ -105713,6 +105760,73 @@ _G.pg.base.item_data_statistics[81208] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81209] = {
+	open_directly = 1,
+	name = "新年福袋2025B",
+	type = 17,
+	display = "ランダムな（ランダム2025新年衣装Bの）着せ替え衣装、上級指向型強化ユニット・七期目×2、ダイヤ×2025、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai20",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998311",
+	id = 81209,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86209,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

@@ -19121,7 +19121,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	[1919] = {
 		param = "よ、喜んで！指揮官のために料理を作れるなんて…嬉しすぎます！",
-		ship_group = 0,
+		ship_group = 40111,
 		option = "",
 		type = 1,
 		id = 1919,

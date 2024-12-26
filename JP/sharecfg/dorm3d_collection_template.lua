@@ -34,6 +34,35 @@ pg.dorm3d_collection_template = setmetatable({
 			29,
 			30
 		},
+		{
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67,
+			68,
+			70,
+			72,
+			71,
+			76,
+			77,
+			78,
+			79,
+			74,
+			75
+		},
 		[4] = {
 			31,
 			32,
@@ -85,7 +114,34 @@ pg.dorm3d_collection_template = setmetatable({
 		36,
 		37,
 		38,
-		39
+		39,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		70,
+		72,
+		71,
+		76,
+		77,
+		78,
+		79,
+		74,
+		75
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -907,6 +963,603 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/litmap04/pre_desklamp01/vfx_wupintishi01"
+		}
+	},
+	[51] = {
+		name = "花見団子",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "美味しそうなお団子が陶製の小皿に置かれ、\nテーブルクロスの柄と見事に調和している。\n後で彼女と一緒に味わおう。",
+		text = "dorm3d_sirius_chair",
+		id = 51,
+		icon = "3Ddrom_nengdai_item1",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14/vfx_wupintishi01"
+		}
+	},
+	[52] = {
+		name = "菱餅",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "草、雪、桃の花\n 健康、純潔、厄除け\n もっちりとした食感の中に、彼女の想いが込められて……",
+		text = "dorm3d_sirius_chair",
+		id = 52,
+		icon = "3Ddrom_nengdai_item2",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15/vfx_wupintishi01"
+		}
+	},
+	[53] = {
+		name = "開かれた本",
+		award = 0,
+		time = 1,
+		room_id = 2,
+		desc = [[
+重桜伝統の茶道作法について書かれた本。
+ページの角は少し古びている。
+能代はよくこの本を読み返しているようで、
+後ろのページには几帳面なメモが残されている。]],
+		text = "dorm3d_sirius_bed",
+		id = 53,
+		icon = "3Ddrom_nengdai_item3",
+		model = {
+			"fbx/litmap_03/day/pre_db_book01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_book01/vfx_wupintishi01"
+		}
+	},
+	[54] = {
+		name = "寝具",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "きちんと畳まれた寝具。\n角の揃え方が持ち主の真面目さをよく表している。",
+		text = "dorm3d_sirius_bed",
+		id = 54,
+		icon = "3Ddrom_nengdai_item4",
+		model = {
+			"fbx/litmap_04/pre_db_quilt01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_04/pre_db_quilt01/vfx_wupintishi01"
+		}
+	},
+	[55] = {
+		name = "洋装",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "普段の制服とは違う雰囲気の、優雅な洋装。\n能代は制服を着ることに慣れているが、\nたまには違う衣装に着替えるのも悪くない。",
+		text = "dorm3d_sirius_bed",
+		id = 55,
+		icon = "3Ddrom_nengdai_item5",
+		model = {
+			"fbx/litmap_03/pre_db_cloth02_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_cloth02_01/vfx_wupintishi01"
+		}
+	},
+	[56] = {
+		name = "重桜菓子",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "美しく盛り付けられた重桜菓子の詰め合わせ。\n一つ一つが能代の手作り。\n彼女の想いに応えるよう、後でしっかり頂こう！",
+		text = "dorm3d_sirius_chair",
+		id = 56,
+		icon = "3Ddrom_nengdai_item6",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13/vfx_wupintishi01"
+		}
+	},
+	[57] = {
+		name = "風鈴",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "窓辺に飾られている風鈴。\nそよ風に揺られて涼やかな音色を奏でている。\n能代曰く、夏の暑さを紛らわす最高の方法の一つだそうだ。",
+		text = "dorm3d_sirius_chair",
+		id = 57,
+		icon = "3Ddrom_nengdai_item7",
+		model = {
+			"fbx/litmap_03/pre_db_curtain04"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_curtain04/vfx_wupintishi01"
+		}
+	},
+	[58] = {
+		name = "風鈴・II",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "ガラスの風鈴より深みのある音色を奏でる。\n能代が意図的に別々の場所に飾ったのは、\n二つの音色それぞれの風情を出すため。",
+		text = "dorm3d_sirius_table",
+		id = 58,
+		icon = "3Ddrom_nengdai_item8",
+		model = {
+			"fbx/litmap_03/pre_db_decoration06"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_decoration06/vfx_wupintishi01"
+		}
+	},
+	[59] = {
+		name = "ショッピングバッグ",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "コーヒーショップのロゴが印刷された紙袋。\nただの買い物袋に過ぎないにしても、\n能代はそれを大切にしているようだ。",
+		text = "dorm3d_sirius_table",
+		id = 59,
+		icon = "3Ddrom_nengdai_item9",
+		model = {
+			"fbx/litmap_03/pre_db_bag01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag01/vfx_wupintishi01"
+		}
+	},
+	[60] = {
+		name = "重桜着物",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+金糸の刺繍が施された振袖、
+衣桁に飾っているだけでも上品さが伝わってくる。
+能代のお気に入りの衣装のようで、
+着て外出する時はいつも細心の注意を払っている。]],
+		text = "dorm3d_sirius_bed",
+		id = 60,
+		icon = "3Ddrom_nengdai_item10",
+		model = {
+			"fbx/litmap_03/pre_db_frame06"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_frame06/vfx_wupintishi01"
+		}
+	},
+	[61] = {
+		name = "プリザーブドフラワー",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "ガラスドームに大切に保管されているバラ。\n花びらは今も鮮やかな色合いを保っている。",
+		text = "dorm3d_sirius_chair",
+		id = 61,
+		icon = "3Ddrom_nengdai_item11",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration07"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration07/vfx_wupintishi01"
+		}
+	},
+	[62] = {
+		name = "盆栽",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+小さな松の盆栽。
+シンプルながら趣がある枝ぶり。
+能代は毎日時間をかけて手入れをし、
+この自然の芸術を最高の状態に保っている。]],
+		text = "dorm3d_sirius_chair",
+		id = 62,
+		icon = "3Ddrom_nengdai_item12",
+		model = {
+			"fbx/litmap_03/pre_db_bonsai03_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bonsai03_01/vfx_wupintishi01"
+		}
+	},
+	[63] = {
+		name = "水琴窟",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "竹製のししおどしが部屋の隅に佇んでおり、\n竹筒に水が溜まった時、澄んだ音を奏でる。",
+		text = "dorm3d_sirius_chair",
+		id = 63,
+		icon = "3Ddrom_nengdai_item13",
+		model = {
+			"fbx/litmap_03/pre_db_noshirohostel01_02"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_noshirohostel01_02/vfx_wupintishi01"
+		}
+	},
+	[64] = {
+		name = "重桜傘",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "畳まれた重桜傘が壁に立て掛けられている。\n能代が外出時によく持ち歩く。\nもちろん、雨の日に限るが。",
+		text = "dorm3d_sirius_table",
+		id = 64,
+		icon = "3Ddrom_nengdai_item14",
+		model = {
+			"fbx/litmap_03/pre_db_decoration05_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_decoration05_01/vfx_wupintishi01"
+		}
+	},
+	[65] = {
+		name = "座蒲",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "薄い色の丸い座蒲。\n見た目は硬そうだが、座ると意外と快適。\n執務室にも一つ置いてみようかな……？",
+		text = "dorm3d_sirius_chair",
+		id = 65,
+		icon = "3Ddrom_nengdai_item15",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08/vfx_wupintishi01"
+		}
+	},
+	[66] = {
+		name = "寿司盛り合わせ",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+盛り付けられた寿司…とその他色々。
+バランも繊細に仕上げられており、
+能代の細やかな心遣いが感じ取れる。
+しかしまさか裏巻きまで……
+そこまで伝統に拘っていないのはちょっと意外だ。]],
+		text = "dorm3d_sirius_table",
+		id = 66,
+		icon = "3Ddrom_nengdai_item16",
+		model = {
+			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01/vfx_wupintishi01"
+		}
+	},
+	[67] = {
+		name = "桜の小枝",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "テーブルに置かれている桜の小枝。\nピンクの花が枝に寄り添い、\n春の趣を出してくれる。",
+		text = "dorm3d_sirius_chair",
+		id = 67,
+		icon = "3Ddrom_nengdai_item17",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04/vfx_wupintishi01"
+		}
+	},
+	[68] = {
+		name = "本の山",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+積み上げられている本。
+茶道以外にも、華道や礼儀作法の本がある。
+挟まれた栞から判断するに、
+能代は新しい生け花の技法を学んでいるようだ。]],
+		text = "dorm3d_sirius_bed",
+		id = 68,
+		icon = "3Ddrom_nengdai_item18",
+		model = {
+			"fbx/litmap_03/pre_db_book04_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_book04_01/vfx_wupintishi01"
+		}
+	},
+	[70] = {
+		name = "やかん",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "普通のやかん。\n能代がよくお茶を淹れる時に使っているもの。\n長く使われているようだが、いい感じに手入れされている。",
+		text = "dorm3d_sirius_bed",
+		id = 70,
+		icon = "3Ddrom_nengdai_item19",
+		model = {
+			"fbx/litmap_02/pre_db_tableware09"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_tableware09/vfx_wupintishi01"
+		}
+	},
+	[72] = {
+		name = "掛け軸",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+巻物が書斎の隅に置かれ、
+紐は几帳面に結ばれている。
+広げられてはいないが、
+能代の細やかさが伝わってくる。
+]],
+		text = "dorm3d_sirius_bed",
+		id = 72,
+		icon = "3Ddrom_nengdai_item20",
+		model = {
+			"fbx/litmap_03/pre_db_cupboard08_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_cupboard08_01/vfx_wupintishi01"
+		}
+	},
+	[71] = {
+		name = "石灯籠",
+		award = 0,
+		time = 1,
+		room_id = 2,
+		desc = "重桜の伝統的な庭園灯籠をモチーフとした石材調のフロアライト。\n落ち着いた雰囲気を醸し出してくれる。",
+		text = "dorm3d_sirius_chair",
+		id = 71,
+		icon = "3Ddrom_nengdai_item21",
+		model = {
+			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02/vfx_wupintishi01"
+		}
+	},
+	[76] = {
+		name = "加湿器",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = [[
+白い加湿器が静かに動いており、
+時折かすかな振動音を立てている。
+能代が部屋の隅に置いたおかげで、湿った空気をゆっくりと広げている。
+彼女曰く、肌にいいのだそうだ。]],
+		text = "dorm3d_sirius_bed",
+		id = 76,
+		icon = "3Ddrom_nengdai_item24",
+		model = {
+			"fbx/litmap_03/night/pre_db_electrical08"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_electrical08/vfx_wupintishi01"
+		}
+	},
+	[77] = {
+		name = "スキンケアオイル",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "ガラス瓶の中のオイルが淡い香りを漂わせている。\n能代によると、椿から抽出されたものだという。\n彼女のお気に入りの一品でもある。",
+		text = "dorm3d_sirius_bed",
+		id = 77,
+		icon = "3Ddrom_nengdai_item25",
+		model = {
+			"fbx/litmap_03/night/pre_db_cosmetic10"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_cosmetic10/vfx_wupintishi01"
+		}
+	},
+	[78] = {
+		name = "香水瓶",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "シンプルなデザインの香水瓶。\nガラスから柔らかな光を反射している。\nよく見ると、以前能代にプレゼントしたものだ。",
+		text = "dorm3d_sirius_bed",
+		id = 78,
+		icon = "3Ddrom_nengdai_item26",
+		model = {
+			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c/vfx_wupintishi01"
+		}
+	},
+	[79] = {
+		name = "アロマディフューザー",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "ふんわりと香りが広がり、\n繊細な芳香が部屋に満ちている。\n能代からいつも感じる香りだ。",
+		text = "dorm3d_sirius_bed",
+		id = 79,
+		icon = "3Ddrom_nengdai_item27",
+		model = {
+			"fbx/litmap_04/night/pre_db_cosmetic02a_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_04/night/pre_db_cosmetic02a_01/vfx_wupintishi01"
+		}
+	},
+	[74] = {
+		name = "行灯",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "角に置かれている四角い木製の行灯。\n灯心からの光が障子紙を通して柔らかさを演出する。\n能代が心を込めて選んだ部屋のインテリアの一つ。",
+		text = "dorm3d_sirius_bed",
+		id = 74,
+		icon = "3Ddrom_nengdai_item23",
+		model = {
+			"fbx/litmap_03/night/pre_db_chandelier11_on"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_chandelier11_on/vfx_wupintishi01"
+		}
+	},
+	[75] = {
+		name = "フロアスタンド",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "柔らかな光を放つシンプルな重桜風フロアスタンド。\nカバーの下には小さな風鈴の飾りが吊り下げられており、\n能代と一緒にここで静かな時間を過ごしている。",
+		text = "dorm3d_sirius_chair",
+		id = 75,
+		icon = "3Ddrom_nengdai_item22",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on/vfx_wupintishi01"
 		}
 	}
 }

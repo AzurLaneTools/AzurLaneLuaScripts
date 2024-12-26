@@ -59,7 +59,6 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	for slot9, slot10 in slot6(slot7) do
 		slot11 = uv0.PlaceholderMap[slot10] or 0
 
-		warning(slot11)
 		assert(slot11 > 0, slot10)
 
 		slot0.placeholder = bit.bor(slot0.placeholder, slot11)

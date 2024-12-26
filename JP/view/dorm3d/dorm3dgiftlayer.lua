@@ -289,9 +289,9 @@ slot0.AfterGiveGift = function(slot0, slot1)
 
 	slot5 = {}
 
-	if pg.dorm3d_gift[slot2].reply_dialogue_id ~= 0 and ApartmentProxy.CheckUnlockConfig(pg.dorm3d_dialogue_group[slot4.reply_dialogue_id].unlock) then
+	if Apartment.getGroupConfig(slot0.apartment.configId, pg.dorm3d_gift[slot2].reply_dialogue_id) and ApartmentProxy.CheckUnlockConfig(pg.dorm3d_dialogue_group[slot6].unlock) then
 		table.insert(slot5, function (slot0)
-			uv0:emit(Dorm3dGiftMediator.DO_TALK, uv1.reply_dialogue_id, slot0)
+			uv0:emit(Dorm3dGiftMediator.DO_TALK, uv1, slot0)
 		end)
 	end
 

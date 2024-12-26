@@ -838,11 +838,13 @@ slot0.UpdateRecordSpWeapons = function(slot0, slot1)
 		if slot2 then
 			UpdateSpWeaponSlot(slot3, slot2)
 
-			slot5 = not slot2:IsReal() or slot2:GetShipId() ~= nil and slot2:GetShipId() ~= uv2:GetShipVO().id
+			if slot2:GetConfigID() ~= (uv2:GetShipVO():GetSpWeapon() and slot5:GetConfigID() or 0) and getProxy(EquipmentProxy):GetSameTypeSpWeapon(slot2) and slot8:GetConfigID() == slot2:GetConfigID() then
+				slot7 = false
+			end
 
-			setActive(slot3:Find("Icon/tip"), slot5)
+			setActive(slot3:Find("Icon/tip"), slot7)
 
-			if slot5 then
+			if slot7 then
 				onButton(uv2, slot3, function ()
 					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_nofreeequip"))
 				end, SFX_PANEL)

@@ -2041,14 +2041,7 @@ slot0.GetSpWeaponRecord = function(slot0, slot1)
 			return false
 		end
 
-		if not getProxy(EquipmentProxy):GetSpWeaponByUid(slot2) then
-			slot6 = getProxy(BayProxy)
-			slot4 = _.detect(slot6:GetSpWeaponsInShips(), function (slot0)
-				return slot0:GetUID() == uv0
-			end)
-		end
-
-		return slot4 or SpWeapon.New({
+		return SpWeapon.New({
 			id = slot3
 		})
 	end)

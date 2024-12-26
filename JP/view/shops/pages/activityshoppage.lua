@@ -1,5 +1,11 @@
 slot0 = class("ActivityShopPage", import(".BaseShopPage"))
 
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
+	uv0.super.Ctor(slot0, slot1, slot2, slot3, slot4)
+
+	slot0.scrollRectSpecial = slot5
+end
+
 slot0.getUIName = function(slot0)
 	return "ActivityShop"
 end
@@ -68,6 +74,10 @@ slot0.OnLoaded = function(slot0)
 	}
 	slot0.eventResCnt = slot0:findTF("event_res_battery/Text"):GetComponent(typeof(Text))
 	slot0.time = slot0:findTF("Text"):GetComponent(typeof(Text))
+
+	if slot0.scrollRectSpecial then
+		slot0.groupList = UIItemList.New(slot0:findTF("viewport/view", slot0.scrollRectSpecial), slot0:findTF("viewport/view/group", slot0.scrollRectSpecial))
+	end
 end
 
 slot0.OnInit = function(slot0)
@@ -235,7 +245,50 @@ slot0.OnClickCommodity = function(slot0, slot1, slot2)
 end
 
 slot0.Show = function(slot0)
-	uv0.super.Show(slot0)
+	if pg.activity_template[slot0.shop.activityId] and slot1.config_client and slot1.config_client.category then
+		setActive(go(slot0.lScrollrect), false)
+		setActive(slot0.scrollRectSpecial, true)
+		slot0.groupList:make(function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				setText(slot2:Find("title/name"), i18n(uv0.spiltNameCodes[slot1 + 1]))
+
+				slot4 = UIItemList.New(slot2:Find("items"), slot2:Find("items/ActivityShopTpl"))
+
+				slot4:make(function (slot0, slot1, slot2)
+					if slot0 == UIItemList.EventUpdate then
+						slot3 = ActivityGoodsCard.New(slot2)
+						uv0.cards[slot2] = slot3
+						slot3.tagImg.raycastTarget = false
+
+						onButton(uv0, slot3.tr, function ()
+							uv0:OnClickCommodity(uv1.goodsVO, function (slot0, slot1)
+								uv0:OnPurchase(slot0, slot1)
+							end)
+						end, SFX_PANEL)
+
+						slot5, slot6, slot7 = uv0.shop:getBgPath()
+
+						slot3:update(uv1[slot1 + 1], nil, slot6, slot7)
+					end
+				end)
+				slot4:align(#uv0.splitCommodities[slot1 + 1])
+			end
+		end)
+		slot0.groupList:align(#slot0.splitCommodities)
+
+		slot0.canvasGroup.alpha = 1
+		slot0.canvasGroup.blocksRaycasts = true
+
+		slot0:ShowOrHideResUI(true)
+	else
+		setActive(go(slot0.lScrollrect), true)
+
+		if slot0.scrollRectSpecial then
+			setActive(slot0.scrollRectSpecial, false)
+		end
+
+		uv0.super.Show(slot0)
+	end
 
 	if slot0.shop:GetBGM() ~= "" then
 		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot0.shop:GetBGM())
@@ -243,10 +296,53 @@ slot0.Show = function(slot0)
 end
 
 slot0.Hide = function(slot0)
-	uv0.super.Hide(slot0)
+	if pg.activity_template[slot0.shop.activityId] and slot1.config_client and slot1.config_client.category then
+		for slot5, slot6 in pairs(slot0.cards) do
+			slot6:Dispose()
+		end
+
+		slot0.splitCommodities = {}
+		slot0.spiltNameCodes = {}
+		slot0.cards = {}
+		slot0.canvasGroup.alpha = 0
+		slot0.canvasGroup.blocksRaycasts = false
+
+		slot0:ShowOrHideResUI(false)
+	else
+		uv0.super.Hide(slot0)
+	end
+
+	setActive(go(slot0.lScrollrect), true)
+
+	if slot0.scrollRectSpecial then
+		setActive(slot0.scrollRectSpecial, false)
+	end
 
 	if slot0.shop:GetBGM() ~= "" then
 		pg.BgmMgr.GetInstance():Pop(slot0.__cname)
+	end
+end
+
+slot0.SetUp = function(slot0, slot1, slot2, slot3)
+	slot0:SetShop(slot1)
+	slot0:InitCommodities()
+
+	slot0.cards = {}
+
+	slot0:Show()
+	slot0:SetPlayer(slot2)
+	slot0:SetItems(slot3)
+	slot0:InitCommodities()
+	slot0:OnSetUp()
+	slot0:SetPainting()
+end
+
+slot0.InitCommodities = function(slot0)
+	if pg.activity_template[slot0.shop.activityId] and slot1.config_client and slot1.config_client.category then
+		slot0.splitCommodities = slot0.shop:GetSplitCommodities()
+		slot0.spiltNameCodes = slot0.shop:GetSplitNameCodes()
+	else
+		uv0.super.InitCommodities(slot0)
 	end
 end
 

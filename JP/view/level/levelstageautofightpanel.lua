@@ -35,20 +35,25 @@ slot0.OnInit = function(slot0)
 	slot0.btnOff = slot0._tf:Find("Off")
 
 	onButton(slot0, slot0.btnOn, function ()
+		if uv0.isFrozen then
+			return
+		end
+
 		getProxy(ChapterProxy):SetChapterAutoFlag(uv0.contextData.chapterVO.id, false, ChapterConst.AUTOFIGHT_STOP_REASON.MANUAL)
 		PlayerPrefs.SetInt("chapter_autofight_flag_" .. uv0.contextData.chapterVO.id, 0)
 		PlayerPrefs.Save()
 		uv0:UpdateAutoFightMark()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnOff, function ()
+		if uv0.isFrozen then
+			return
+		end
+
 		getProxy(ChapterProxy):SetChapterAutoFlag(uv0.contextData.chapterVO.id, true)
 		PlayerPrefs.SetInt("chapter_autofight_flag_" .. uv0.contextData.chapterVO.id, 1)
 		PlayerPrefs.Save()
 		uv0:UpdateAutoFightMark()
-
-		if not uv0.isFrozen then
-			uv0:emit(LevelUIConst.TRIGGER_ACTION)
-		end
+		uv0:emit(LevelUIConst.TRIGGER_ACTION)
 	end, SFX_PANEL)
 
 	slot0.restTime = slot0.btnOn:Find("Rest")

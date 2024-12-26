@@ -850,6 +850,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "龍神さまのありがたーいうどん？",
+		story_resource_JP = "soundStory19_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "澤田姫",
+		audition_resource_JP = "ss-39906-1",
+		overview = "年越しに重桜伝統のうどん作りに挑戦する龍神さま。\n滑りやすい生地に苦戦する彼女を助けられるのは、指揮官のみ",
+		order = 2,
+		audition_text = "固いところは……足でしっかり押し込んで……それでもまだ足りなかったら……もう一回……",
+		ship_id = 39906,
+		id = 19,
+		captions_color = "#2e2f31",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -868,6 +921,7 @@ pg.soundstory_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

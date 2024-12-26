@@ -48,10 +48,49 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100103_icon"
 	},
+	[100201] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "窓辺にて",
+		nighttime_res = "100201_bg_night",
+		daytime_res = "100201_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「窓辺にて」にすることが可能",
+		unlock_text = "シリアス親愛度Lv2で開放",
+		id = 100201,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100201_icon"
+	},
+	[100202] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "午後のお誘い",
+		nighttime_res = "100202_bg_night",
+		daytime_res = "100202_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「午後のお誘い」にすることが可能",
+		unlock_text = "シリアス親愛度Lv6で開放",
+		id = 100202,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100202_icon"
+	},
+	[100203] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "休憩時間",
+		nighttime_res = "100203_bg_night",
+		daytime_res = "100203_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「休憩時間」にすることが可能",
+		unlock_text = "シリアス親愛度Lv14で開放",
+		id = 100203,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100203_icon"
+	},
 	all = {
 		0,
 		100101,
 		100102,
-		100103
+		100103,
+		100201,
+		100202,
+		100203
 	}
 }

@@ -100,11 +100,53 @@ pg.dorm3d_camera_photo_frame = {
 			0
 		}
 	},
+	[1006] = {
+		name = "トレンド",
+		rarity = 3,
+		farme_path = "photo_frame_ins",
+		frameTfName = "InsFrame",
+		desc = "入手するとカメラ機能で「トレンド」フレームを適用可能",
+		unlock_text = "親愛度Lv5で開放",
+		id = 1006,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_ins_small",
+		unlock = {
+			1,
+			30221,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1007] = {
+		name = "フィルム",
+		rarity = 3,
+		farme_path = "photo_frame_film",
+		frameTfName = "FilmFrame",
+		desc = "入手するとカメラ機能で「フィルム」フレームを適用可能",
+		unlock_text = "親愛度Lv13で開放",
+		id = 1007,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_film_small",
+		unlock = {
+			1,
+			30221,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
 	all = {
 		1001,
 		1002,
 		1003,
 		1004,
-		1005
+		1005,
+		1006,
+		1007
 	}
 }

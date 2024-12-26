@@ -1309,7 +1309,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9704011] = {
-		breakout_view = "【焔追の灰】スキル習得/主砲砲座+1/主砲補正+5%",
+		breakout_view = "习得技能【逐光之焰·{namecode:434}】/主炮底座+1/主炮效率提高5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1326,7 +1326,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704012] = {
-		breakout_view = "特殊副砲を追加/主砲補正+10%",
+		breakout_view = "装备特殊副炮/主炮效率提高10%",
 		item2 = 21001,
 		pre_id = 9704011,
 		repair = 0,
@@ -1342,7 +1342,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704013] = {
-		breakout_view = "【焔追の灰】スキル強化/主砲砲座+1/主砲補正+15%",
+		breakout_view = "【逐光之焰·{namecode:434}】升级/主炮底座+1/主炮效率提高15%",
 		item2 = 21001,
 		pre_id = 9704012,
 		repair = 0,
@@ -1360,7 +1360,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9704014] = {
-		breakout_view = "なし",
+		breakout_view = "无",
 		item2 = 21001,
 		pre_id = 9704013,
 		repair = 0,

@@ -648,6 +648,24 @@ pg.item_data_frame = {
 		desc = "どんな時でも、温かい紅茶が静かにあなたを待っている。\n「交流宿舎」でシリアスの親愛度報酬で入手可能",
 		scene = {}
 	},
+	[1003] = {
+		name = "金桜の風華",
+		gain_by = "",
+		time_second = 0,
+		id = 1003,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>空舞う金色の桜が表すは、誇りと凛とした心。</color>\n「交流宿舎」能代の親密度Lv報酬",
+		scene = {}
+	},
+	[1004] = {
+		name = "花雨と帰鳥と",
+		gain_by = "",
+		time_second = 0,
+		id = 1004,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>重桜傘から眺める、誰かの愛しい情緒</color>\n「交流宿舎」能代の親密度Lv報酬",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界挑戦・ふたご座",
 		gain_by = "",
@@ -829,6 +847,8 @@ pg.item_data_frame = {
 		607,
 		1001,
 		1002,
+		1003,
+		1004,
 		10001,
 		10002,
 		10003,

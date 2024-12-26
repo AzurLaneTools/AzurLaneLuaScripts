@@ -35577,12 +35577,12 @@ _G.pg.base.gametip.dorm3d_role_assets_download = {
 
 
 _G.pg.base.gametip.volleyball_end_tip = {
-	tip = "シリアスと楽しい午後を過ごした"
+	tip = "$1と楽しい午後を過ごした"
 }
 
 
 _G.pg.base.gametip.volleyball_end_award = {
-	tip = "行動力-1、シリアス親愛度+40"
+	tip = "行動力-1、$1親愛度+40"
 }
 
 
@@ -36476,6 +36476,141 @@ _G.pg.base.gametip.dorm3d_shop_gift_owned = {
 }
 
 
+_G.pg.base.gametip.dorm3d_accompany_not_download = {
+	tip = "$1のアセットを先にDLする必要があります"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
+	tip = "月"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day2 = {
+	tip = "火"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
+	tip = "水"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
+	tip = "木"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day5 = {
+	tip = "金"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
+	tip = "土"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day7 = {
+	tip = "日"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
+	tip = "今日の予定を覚えてね"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
+	tip = "今日の予定を教えてね："
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior1 = {
+	tip = "読書"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior2 = {
+	tip = "絵描き"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior3 = {
+	tip = "勉強"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior4 = {
+	tip = "舞踊"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior5 = {
+	tip = "球技"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
+	tip = "運動"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
+	tip = "掃除"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
+	tip = "料理"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior9 = {
+	tip = "洗濯"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior10 = {
+	tip = "ゲーム"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
+	tip = "散歩"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior12 = {
+	tip = "睡眠"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
+	tip = "達人"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate2 = {
+	tip = "超人"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate3 = {
+	tip = "好き"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate4 = {
+	tip = "嗜好"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate5 = {
+	tip = "バランス"
+}
+
+
 _G.pg.base.gametip.BoatAdGame_minigame_help = {
 	tip = {
 		{
@@ -36941,4 +37076,34 @@ _G.pg.base.gametip.word_got_pt = {
 
 _G.pg.base.gametip.word_activity_not_open = {
 	tip = "開催期間外"
+}
+
+
+_G.pg.base.gametip.activity_shop_template_normaltext = {
+	tip = "活動常規道具兌換 "
+}
+
+
+_G.pg.base.gametip.activity_shop_template_extratext = {
+	tip = "活動追趕道具兌換 "
+}
+
+
+_G.pg.base.gametip.dorm3d_now_is_downloading = {
+	tip = "アセットDL中"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_download_complete = {
+	tip = "ダウンロード完了"
+}
+
+
+_G.pg.base.gametip.dorm3d_delete_finish = {
+	tip = "削除しました"
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_tip = {
+	tip = "シリアスの部屋を見てみよう"
 }

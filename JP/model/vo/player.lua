@@ -25,24 +25,32 @@ itemId2Id = function(slot0)
 end
 
 slot0.isMetaShipNeedToTrans = function(slot0)
-	return getProxy(BayProxy):getMetaShipByGroupId(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0)) and true or false
+	return (getProxy(BayProxy):getMetaShipByGroupId(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0)) or getProxy(MetaCharacterProxy):getMetaIDMark(slot0) and slot3 > 0) and true or false
 end
 
 slot0.metaShip2Res = function(slot0)
-	slot4 = getProxy(BayProxy):getMetaShipByGroupId(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0)):getMetaCharacter():getSpecialMaterialInfoToMaxStar()
-	slot9 = nil
-	slot9 = (not (slot4.count <= getProxy(BagProxy):getItemCountById(slot4.itemID)) or pg.ship_transform[slot1].common_item) and pg.ship_transform[slot1].exclusive_item
-	slot10 = {}
+	slot3 = nil
 
-	for slot14, slot15 in ipairs(slot9) do
-		table.insert(slot10, {
-			type = slot15[1],
-			id = slot15[2],
-			count = slot15[3]
+	if not getProxy(BayProxy):getMetaShipByGroupId(MetaCharacterConst.GetMetaShipGroupIDByConfigID(slot0)) then
+		slot3 = false
+	else
+		slot5 = slot2:getMetaCharacter():getSpecialMaterialInfoToMaxStar()
+		slot3 = slot5.count <= getProxy(BagProxy):getItemCountById(slot5.itemID)
+	end
+
+	slot4 = nil
+	slot4 = (not slot3 or pg.ship_transform[slot1].common_item) and pg.ship_transform[slot1].exclusive_item
+	slot5 = {}
+
+	for slot9, slot10 in ipairs(slot4) do
+		table.insert(slot5, {
+			type = slot10[1],
+			id = slot10[2],
+			count = slot10[3]
 		})
 	end
 
-	return slot10
+	return slot5
 end
 
 slot0.getSkinTicket = function(slot0)

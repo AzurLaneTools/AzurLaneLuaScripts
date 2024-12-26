@@ -146,8 +146,17 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.OPEN_MINIGAME_WINDOW, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
-			viewComponent = EatFoodLayer,
-			mediator = EatFoodMediator,
+			viewComponent = switch(slot1.minigameId, {
+				[67] = function ()
+					return EatFoodLayer
+				end,
+				[70] = function ()
+					return NengDaiScheduleGameView
+				end
+			}, function ()
+				assert(false, "without dorm minigame config in id:" .. uv0.minigameId)
+			end),
+			mediator = Dorm3dMiniGameMediator,
 			data = slot1,
 			onRemoved = slot2
 		}))
@@ -174,8 +183,10 @@ slot0.register = function(slot0)
 	slot0:bind(Dorm3dPhotoMediator.CAMERA_STICK_MOVE, function (slot0, slot1)
 		uv0:sendNotification(Dorm3dPhotoMediator.CAMERA_STICK_MOVE, slot1)
 	end)
-	slot0:bind(uv0.ENTER_VOLLEYBALL, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_VOLLEYBALL)
+	slot0:bind(uv0.ENTER_VOLLEYBALL, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_VOLLEYBALL, {
+			groupId = slot1
+		})
 	end)
 	slot0:bind(uv0.ON_DROP_CLIENT, function (slot0, slot1)
 		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP_CLIENT, slot1)
@@ -280,14 +291,8 @@ slot0.initNotificationHandleDic = function(slot0)
 		[Dorm3dInviteMediator.ON_DORM] = function (slot0, slot1)
 			slot0:sendNotification(GAME.CHANGE_SCENE, SCENE.DORM3D_ROOM, slot1:getBody())
 		end,
-		[EatFoodMediator.HIT_AREA] = function (slot0, slot1)
-			slot0.viewComponent:HandleGameNotification(EatFoodMediator.HIT_AREA, slot1:getBody())
-		end,
-		[EatFoodMediator.RESULT] = function (slot0, slot1)
-			slot0.viewComponent:HandleGameNotification(EatFoodMediator.RESULT, slot1:getBody())
-		end,
-		[EatFoodMediator.LEAVE_GAME] = function (slot0, slot1)
-			slot0.viewComponent:HandleGameNotification(EatFoodMediator.LEAVE_GAME, slot1:getBody())
+		[Dorm3dMiniGameMediator.OPERATION] = function (slot0, slot1)
+			slot0.viewComponent:HandleGameNotification(Dorm3dMiniGameMediator.OPERATION, slot1:getBody())
 		end,
 		[ApartmentProxy.ZERO_HOUR_REFRESH] = function (slot0, slot1)
 			slot2 = slot1:getBody()

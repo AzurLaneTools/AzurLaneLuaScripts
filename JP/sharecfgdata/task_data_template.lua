@@ -41141,7 +41141,7 @@ _G.pg.base.task_data_template[7205] = {
 	is_head = 1,
 	count_inherit = 0,
 	name = "每日困难",
-	desc = "任意のハード海域を1回クリアする",
+	desc = "通常海域ハードを１回クリアする ",
 	sub_type = 182,
 	task_fold = 0,
 	story_icon = "",
@@ -125845,7 +125845,7 @@ _G.pg.base.task_data_template[20975] = {
 	is_head = 1,
 	count_inherit = 0,
 	name = "『鲁梅活动』-日常困难本",
-	desc = "任意のハードステージを1回クリアせよ",
+	desc = "通常海域ハードを1回クリアする",
 	sub_type = 182,
 	task_fold = 0,
 	story_icon = "",
@@ -129001,6 +129001,252 @@ _G.pg.base.task_data_template[21059] = {
 		{
 			mapIdx = 1880001,
 			displayMode = 2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21062] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹1",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21062,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21063] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21063,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21064] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹3",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21064,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21065] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹4",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21065,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21066] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹5",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21066,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21067] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904491,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动第二弹』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21067,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			450,
+			3
 		}
 	}
 }

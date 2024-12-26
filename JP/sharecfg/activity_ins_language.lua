@@ -5975,7 +5975,136 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_522_1_1",
 		"op_reply_522_1_1",
 		"ins_op_522_1_2",
-		"op_reply_522_1_2"
+		"op_reply_522_1_2",
+		"ins_523",
+		"ins_discuss_523_1",
+		"ins_reply_523_1_1",
+		"ins_discuss_523_2",
+		"ins_reply_523_2_1",
+		"ins_discuss_523_3",
+		"ins_reply_523_3_1",
+		"ins_discuss_523_4",
+		"ins_op_523_1_1",
+		"op_reply_523_1_1",
+		"ins_op_523_1_2",
+		"op_reply_523_1_2",
+		"ins_524",
+		"ins_discuss_524_1",
+		"ins_reply_524_1_1",
+		"ins_reply_524_1_2",
+		"ins_reply_524_1_3",
+		"ins_discuss_524_2",
+		"ins_reply_524_2_1",
+		"ins_reply_524_2_2",
+		"ins_reply_524_2_3",
+		"ins_discuss_524_3",
+		"ins_reply_524_3_1",
+		"ins_reply_524_3_2",
+		"ins_reply_524_3_3",
+		"ins_reply_524_3_4",
+		"ins_op_524_1_1",
+		"op_reply_524_1_1",
+		"ins_op_524_1_2",
+		"op_reply_524_1_2",
+		"ins_525",
+		"ins_discuss_525_1",
+		"ins_reply_525_1_1",
+		"ins_reply_525_1_2",
+		"ins_discuss_525_2",
+		"ins_reply_525_2_1",
+		"ins_reply_525_2_2",
+		"ins_discuss_525_3",
+		"ins_reply_525_3_1",
+		"ins_reply_525_3_2",
+		"ins_reply_525_3_3",
+		"ins_op_525_1_1",
+		"op_reply_525_1_1",
+		"ins_op_525_1_2",
+		"op_reply_525_1_2",
+		"ins_526",
+		"ins_discuss_526_1",
+		"ins_reply_526_1_1",
+		"ins_reply_526_1_2",
+		"ins_reply_526_1_3",
+		"ins_discuss_526_2",
+		"ins_reply_526_2_1",
+		"ins_reply_526_2_2",
+		"ins_discuss_526_3",
+		"ins_reply_526_3_1",
+		"ins_reply_526_3_2",
+		"ins_op_526_1_1",
+		"op_reply_526_1_1",
+		"ins_op_526_1_2",
+		"op_reply_526_1_2",
+		"ins_527",
+		"ins_discuss_527_1",
+		"ins_reply_527_1_1",
+		"ins_reply_527_1_2",
+		"ins_reply_527_1_3",
+		"ins_reply_527_1_4",
+		"ins_discuss_527_2",
+		"ins_reply_527_2_1",
+		"ins_reply_527_2_2",
+		"ins_reply_527_2_3",
+		"ins_reply_527_2_4",
+		"ins_discuss_527_3",
+		"ins_reply_527_3_1",
+		"ins_reply_527_3_2",
+		"ins_reply_527_3_3",
+		"ins_reply_527_3_4",
+		"ins_op_527_1_1",
+		"op_reply_527_1_1",
+		"ins_op_527_1_2",
+		"op_reply_527_1_2",
+		"ins_528",
+		"ins_discuss_528_1",
+		"ins_reply_528_1_1",
+		"ins_reply_528_1_2",
+		"ins_reply_528_1_3",
+		"ins_discuss_528_2",
+		"ins_reply_528_2_1",
+		"ins_reply_528_2_2",
+		"ins_reply_528_2_3",
+		"ins_reply_528_2_4",
+		"ins_reply_528_2_5",
+		"ins_discuss_528_3",
+		"ins_reply_528_3_1",
+		"ins_reply_528_3_2",
+		"ins_reply_528_3_3",
+		"ins_reply_528_3_4",
+		"ins_op_528_1_1",
+		"op_reply_528_1_1",
+		"ins_op_528_1_2",
+		"op_reply_528_1_2",
+		"ins_529",
+		"ins_discuss_529_1",
+		"ins_reply_529_1_1",
+		"ins_reply_529_1_2",
+		"ins_reply_529_1_3",
+		"ins_reply_529_1_4",
+		"ins_discuss_529_2",
+		"ins_reply_529_2_1",
+		"ins_reply_529_2_2",
+		"ins_reply_529_2_3",
+		"ins_reply_529_2_4",
+		"ins_op_529_1_1",
+		"op_reply_529_1_1",
+		"ins_op_529_1_2",
+		"op_reply_529_1_2",
+		"ins_530",
+		"ins_discuss_530_1",
+		"ins_reply_530_1_1",
+		"ins_reply_530_1_2",
+		"ins_discuss_530_2",
+		"ins_reply_530_2_1",
+		"ins_reply_530_2_2",
+		"ins_reply_530_2_3",
+		"ins_reply_530_2_4",
+		"ins_reply_530_2_5",
+		"ins_op_530_1_1",
+		"op_reply_530_1_1",
+		"ins_op_530_1_2",
+		"op_reply_530_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23630,276 +23759,663 @@ pg.base.activity_ins_language = {
 		value = "ううん、確かに大変だけど慣れてるから一人で十分。でも、ありがとう！"
 	},
 	ins_518 = {
-		value = ""
+		value = "「指揮官の胸に倒れ込んで、その温もりを感じる……」これで本当に距離が縮まるのか……？！"
 	},
 	ins_discuss_518_1 = {
-		value = ""
+		value = "無理ですわ！"
 	},
 	ins_reply_518_1_1 = {
-		value = ""
+		value = "無理ですよ～"
 	},
 	ins_reply_518_1_2 = {
-		value = ""
+		value = "無理に決まってますわ！"
 	},
 	ins_reply_518_1_3 = {
-		value = ""
+		value = "……え？ああ……"
 	},
 	ins_discuss_518_2 = {
-		value = ""
+		value = "し、指揮官の胸に倒れ込む？！アルザス、考えただけで感情モジュールがオーバーヒートしそうに…！？"
 	},
 	ins_reply_518_2_1 = {
-		value = ""
+		value = "落ち着け！爆発に巻き込むな！"
 	},
 	ins_discuss_518_3 = {
-		value = ""
+		value = "なかなか面白いことが書いてありますね～。あとでお借りしてもよろしいでしょうか？"
 	},
 	ins_reply_518_3_1 = {
-		value = ""
+		value = "これはオイゲンの本だ。借りたいなら彼女に聞いてみてくれ"
 	},
 	ins_reply_518_3_2 = {
-		value = ""
+		value = "もちろんいいわよ？『デートで指揮官の心を盗む方法』も合わせておすすめするわ"
 	},
 	ins_reply_518_3_3 = {
-		value = ""
+		value = "ありがとうございます〜"
 	},
 	ins_reply_518_3_4 = {
-		value = ""
+		value = "それにしても、これらの本はどこから手に入れたの？"
 	},
 	ins_reply_518_3_5 = {
-		value = ""
+		value = "それは秘密よ〜♪"
 	},
 	ins_op_518_1_1 = {
-		value = ""
+		value = "こっちの胸に倒れ込んで……？"
 	},
 	op_reply_518_1_1 = {
-		value = ""
+		value = "そうだ。貴殿の胸に倒れ込むと書いてあるぞ"
 	},
 	ins_op_518_1_2 = {
-		value = ""
+		value = "……なんでそんな本が存在するんだ？"
 	},
 	op_reply_518_1_2 = {
-		value = ""
+		value = "ニーズが高いからかもな。貴殿も読んでみるか？"
 	},
 	ins_519 = {
-		value = ""
+		value = "新しいメイク、セルフィーでシェアしちゃお♪"
 	},
 	ins_discuss_519_1 = {
-		value = ""
+		value = "このフィルターとポーズを試したけど、全然同じ雰囲気にならなくてつら…"
 	},
 	ins_reply_519_1_1 = {
-		value = ""
+		value = "私もやってみたよ！可愛いけどなーんか違うよね！"
 	},
 	ins_reply_519_1_2 = {
-		value = ""
+		value = "多分メイクのせい？あとで見てあげるわ"
 	},
 	ins_reply_519_1_3 = {
-		value = ""
+		value = "メイクを調整してあげるわよ"
 	},
 	ins_reply_519_1_4 = {
-		value = ""
+		value = "何が足りないかなんて見ればすぐにわかるんじゃなくて？"
 	},
 	ins_reply_519_1_5 = {
-		value = ""
+		value = "(▼へ▼メ)！"
 	},
 	ins_discuss_519_2 = {
-		value = ""
+		value = "この猫耳フィルター、可愛いね♪ どこで手に入れたの？"
 	},
 	ins_reply_519_2_1 = {
-		value = ""
+		value = "フィルターショップで買ったものよ♪"
 	},
 	ins_reply_519_2_2 = {
-		value = ""
+		value = "え、有料なの？"
 	},
 	ins_reply_519_2_3 = {
-		value = ""
+		value = "交渉してくるからちょっと待ちな！"
 	},
 	ins_reply_519_2_4 = {
-		value = ""
+		value = "太っ腹にゃ！7日間限定の無料体験に変更したゃ！"
 	},
 	ins_discuss_519_3 = {
-		value = ""
+		value = "\\(0.<)V この顔文字、デュイスブルクとそっくりよ♪"
 	},
 	ins_reply_519_3_1 = {
-		value = ""
+		value = "ほんとだ！可愛い♪ \\(0.<)V"
 	},
 	ins_reply_519_3_2 = {
-		value = ""
+		value = "\\(0.<)V！"
 	},
 	ins_reply_519_3_3 = {
-		value = ""
+		value = "\\(0.<)V~"
 	},
 	ins_op_519_1_1 = {
-		value = ""
+		value = "似合ってるし、すごく可愛い！"
 	},
 	op_reply_519_1_1 = {
-		value = ""
+		value = "ふふ♪ 指揮官がそう言ってくれるなんて嬉しいわ"
 	},
 	ins_op_519_1_2 = {
-		value = ""
+		value = "そのフィルターいいね。他のも試してみたら？"
 	},
 	op_reply_519_1_2 = {
-		value = ""
+		value = "うん♪じゃあ次はウサ耳フィルターに挑戦してみる！"
 	},
 	ins_520 = {
-		value = ""
+		value = "よし、全力で飛ばすよー！"
 	},
 	ins_discuss_520_1 = {
-		value = ""
+		value = "そこの君！骨がありそうで大冒険の才能もなかなかと見た！一緒に組まない？"
 	},
 	ins_reply_520_1_1 = {
-		value = ""
+		value = "…大冒険って何？全然わからないんだけど？"
 	},
 	ins_reply_520_1_2 = {
-		value = ""
+		value = "平気平気！私が分かってるから！なんたって一番詳しいからね！"
 	},
 	ins_reply_520_1_3 = {
-		value = ""
+		value = "なんだか面白そう！……後で詳しく教えて！"
 	},
 	ins_reply_520_1_4 = {
-		value = ""
+		value = "もちろん！後でじっくり教えるよ！"
 	},
 	ins_discuss_520_2 = {
-		value = ""
+		value = "この写真、誰が撮ったの？火花を散らしながら猛ダッシュしてるのに、こんなに綺麗に映ってるなんて……！"
 	},
 	ins_reply_520_2_1 = {
-		value = ""
+		value = "もちろんうちだよ！すごいでしょ？"
 	},
 	ins_reply_520_2_2 = {
-		value = ""
+		value = "でも、感謝すべきは――【広告募集中！】"
 	},
 	ins_discuss_520_3 = {
-		value = ""
+		value = "ん？この間発明した「スーパーハムハムランニングマシン3号」じゃない。でもまだネジを全部つけてないよ……？"
 	},
 	ins_reply_520_3_1 = {
-		value = ""
+		value = "…………"
 	},
 	ins_reply_520_3_2 = {
-		value = ""
+		value = "Z52、いるなら返信して？"
 	},
 	ins_reply_520_3_3 = {
-		value = ""
+		value = "ん？今すごくいい感じで飛ばしてるところ"
 	},
 	ins_reply_520_3_4 = {
-		value = ""
+		value = "ふむふむ、こういうのがいいのか……じゃあネジはもういいかな～。グッドラック！"
 	},
 	ins_op_520_1_1 = {
-		value = ""
+		value = "ブーストモード、起動！"
 	},
 	op_reply_520_1_1 = {
-		value = ""
+		value = "えへへ、起動――！"
 	},
 	ins_op_520_1_2 = {
-		value = ""
+		value = "安全には気をつけて！"
 	},
 	op_reply_520_1_2 = {
-		value = ""
+		value = "あれ……なんだかどんどんスピードが上がってる気がするけど……？！"
 	},
 	ins_521 = {
-		value = ""
+		value = "うぅぅ…また破けてしまいました…"
 	},
 	ins_discuss_521_1 = {
-		value = ""
+		value = "ストッキングを引っかけて伝線してしまう痛みなら…エペも分かるよ…すぐそっちに行くから泣かないで…くすん…"
 	},
 	ins_reply_521_1_1 = {
-		value = ""
+		value = "Z9ちゃん泣かないで、わたしも手伝うから！うぇえええ…やだ、こっちまでもらい泣きしちゃった…"
 	},
 	ins_reply_521_1_2 = {
-		value = ""
+		value = "うえええ……"
 	},
 	ins_reply_521_1_3 = {
-		value = ""
+		value = "泣かない泣かない。裁縫キットを持って行きますね"
 	},
 	ins_discuss_521_2 = {
-		value = ""
+		value = "穴あきのソックスって、イマドキの流行りじゃなかったの？"
 	},
 	ins_reply_521_2_1 = {
-		value = ""
+		value = "そ、そうなんですか？でも膝の辺りに穴が開いてるなんて、おかしくないですか…？"
 	},
 	ins_reply_521_2_2 = {
-		value = ""
+		value = "ちょっと待った！イマドキも何も、そんなのもうとっくにアウトよ！"
 	},
 	ins_discuss_521_3 = {
-		value = ""
+		value = "新品のまま三年、着古して三年、縫ったり繕ったりしてさらに三年！"
 	},
 	ins_reply_521_3_1 = {
-		value = ""
+		value = "でもこれ…今日買ったばかりなんです…"
 	},
 	ins_reply_521_3_2 = {
-		value = ""
+		value = "え、えっと、ご愁傷様…"
 	},
 	ins_op_521_1_1 = {
-		value = ""
+		value = "転んじゃった？すぐそっちに行く"
 	},
 	op_reply_521_1_1 = {
-		value = ""
+		value = "だ、大丈夫……靴下が引っかかっただけで…うぅ、指揮官…ぎゅってしてくださぁい……"
 	},
 	ins_op_521_1_2 = {
-		value = ""
+		value = "予備はある？"
 	},
 	op_reply_521_1_2 = {
-		value = ""
+		value = "頑張って探しています…うぅ、指揮官…ぎゅってしてくださぁい……"
 	},
 	ins_522 = {
-		value = ""
+		value = "非番日はやっぱりぐーだらするに限るね…"
 	},
 	ins_discuss_522_1 = {
-		value = ""
+		value = "えー！せっかくの休みなのに出かけないの？一緒にグルメを楽しんだり映画を見たり遊園地に行ったりとか！"
 	},
 	ins_reply_522_1_1 = {
-		value = ""
+		value = "パーティーも欠かせないっす！余興にカラオケやマダミスとか！"
 	},
 	ins_reply_522_1_2 = {
-		value = ""
+		value = "り、リア充たちが眩しすぎて目を開けられない…！もうこのまま寝ちゃおう…Zzz……"
 	},
 	ins_reply_522_1_3 = {
-		value = ""
+		value = "出かけると化粧とかも必要だと思うと…ごめんなさい！無理！"
 	},
 	ins_discuss_522_2 = {
-		value = ""
+		value = "非番日ね…非番日…？あなた、まだ仕事が残ってるはずよね…？"
 	},
 	ins_reply_522_2_1 = {
-		value = ""
+		value = "オシゴトを残して…おちおち休んでいるヒマなんて……！？"
 	},
 	ins_reply_522_2_2 = {
-		value = ""
+		value = "うわぁなんですかこのワーカホリックの集いは…過労自慢は勘弁してくださぁい"
 	},
 	ins_reply_522_2_3 = {
-		value = ""
+		value = "えぇ……いいじゃないですか…仕事の締切は休み明けですし、その時の私がなんとかしてくれますよ…"
 	},
 	ins_reply_522_2_4 = {
-		value = ""
+		value = "そうそう。休みの時くらい仕事のこと忘れましょー"
 	},
 	ins_discuss_522_3 = {
-		value = ""
+		value = "レース。空き1。すぐ"
 	},
 	ins_reply_522_3_1 = {
-		value = ""
+		value = "早く来てー。もう少しで宅配来るよー"
 	},
 	ins_reply_522_3_2 = {
-		value = ""
+		value = "待っている、です"
 	},
 	ins_reply_522_3_3 = {
-		value = ""
+		value = "今リクエスト送りました！混ぜて混ぜてー"
 	},
 	ins_reply_522_3_4 = {
-		value = ""
+		value = "レース？会場はどこ？私も行く！"
 	},
 	ins_reply_522_3_5 = {
-		value = ""
+		value = "幽霊さんの部屋なのー"
 	},
 	ins_reply_522_3_6 = {
-		value = ""
+		value = "…え？"
 	},
 	ins_op_522_1_1 = {
-		value = ""
+		value = "休みをしっかり楽しんで！"
 	},
 	op_reply_522_1_1 = {
-		value = ""
+		value = "あ、ありがとうシッキー！でもちょっと会いたくなっちゃった♪ビデ通でもする？"
 	},
 	ins_op_522_1_2 = {
-		value = ""
+		value = "明日からまた仕事だ（小声）"
 	},
 	op_reply_522_1_2 = {
+		value = "うぅぅ…冷たすぎる…指揮官は人の心を持たないんですか！！"
+	},
+	ins_523 = {
+		value = ""
+	},
+	ins_discuss_523_1 = {
+		value = ""
+	},
+	ins_reply_523_1_1 = {
+		value = ""
+	},
+	ins_discuss_523_2 = {
+		value = ""
+	},
+	ins_reply_523_2_1 = {
+		value = ""
+	},
+	ins_discuss_523_3 = {
+		value = ""
+	},
+	ins_reply_523_3_1 = {
+		value = ""
+	},
+	ins_discuss_523_4 = {
+		value = ""
+	},
+	ins_op_523_1_1 = {
+		value = ""
+	},
+	op_reply_523_1_1 = {
+		value = ""
+	},
+	ins_op_523_1_2 = {
+		value = ""
+	},
+	op_reply_523_1_2 = {
+		value = ""
+	},
+	ins_524 = {
+		value = ""
+	},
+	ins_discuss_524_1 = {
+		value = ""
+	},
+	ins_reply_524_1_1 = {
+		value = ""
+	},
+	ins_reply_524_1_2 = {
+		value = ""
+	},
+	ins_reply_524_1_3 = {
+		value = ""
+	},
+	ins_discuss_524_2 = {
+		value = ""
+	},
+	ins_reply_524_2_1 = {
+		value = ""
+	},
+	ins_reply_524_2_2 = {
+		value = ""
+	},
+	ins_reply_524_2_3 = {
+		value = ""
+	},
+	ins_discuss_524_3 = {
+		value = ""
+	},
+	ins_reply_524_3_1 = {
+		value = ""
+	},
+	ins_reply_524_3_2 = {
+		value = ""
+	},
+	ins_reply_524_3_3 = {
+		value = ""
+	},
+	ins_reply_524_3_4 = {
+		value = ""
+	},
+	ins_op_524_1_1 = {
+		value = ""
+	},
+	op_reply_524_1_1 = {
+		value = ""
+	},
+	ins_op_524_1_2 = {
+		value = ""
+	},
+	op_reply_524_1_2 = {
+		value = ""
+	},
+	ins_525 = {
+		value = ""
+	},
+	ins_discuss_525_1 = {
+		value = ""
+	},
+	ins_reply_525_1_1 = {
+		value = ""
+	},
+	ins_reply_525_1_2 = {
+		value = ""
+	},
+	ins_discuss_525_2 = {
+		value = ""
+	},
+	ins_reply_525_2_1 = {
+		value = ""
+	},
+	ins_reply_525_2_2 = {
+		value = ""
+	},
+	ins_discuss_525_3 = {
+		value = ""
+	},
+	ins_reply_525_3_1 = {
+		value = ""
+	},
+	ins_reply_525_3_2 = {
+		value = ""
+	},
+	ins_reply_525_3_3 = {
+		value = ""
+	},
+	ins_op_525_1_1 = {
+		value = ""
+	},
+	op_reply_525_1_1 = {
+		value = ""
+	},
+	ins_op_525_1_2 = {
+		value = ""
+	},
+	op_reply_525_1_2 = {
+		value = ""
+	},
+	ins_526 = {
+		value = ""
+	},
+	ins_discuss_526_1 = {
+		value = ""
+	},
+	ins_reply_526_1_1 = {
+		value = ""
+	},
+	ins_reply_526_1_2 = {
+		value = ""
+	},
+	ins_reply_526_1_3 = {
+		value = ""
+	},
+	ins_discuss_526_2 = {
+		value = ""
+	},
+	ins_reply_526_2_1 = {
+		value = ""
+	},
+	ins_reply_526_2_2 = {
+		value = ""
+	},
+	ins_discuss_526_3 = {
+		value = ""
+	},
+	ins_reply_526_3_1 = {
+		value = ""
+	},
+	ins_reply_526_3_2 = {
+		value = ""
+	},
+	ins_op_526_1_1 = {
+		value = ""
+	},
+	op_reply_526_1_1 = {
+		value = ""
+	},
+	ins_op_526_1_2 = {
+		value = ""
+	},
+	op_reply_526_1_2 = {
+		value = ""
+	},
+	ins_527 = {
+		value = ""
+	},
+	ins_discuss_527_1 = {
+		value = ""
+	},
+	ins_reply_527_1_1 = {
+		value = ""
+	},
+	ins_reply_527_1_2 = {
+		value = ""
+	},
+	ins_reply_527_1_3 = {
+		value = ""
+	},
+	ins_reply_527_1_4 = {
+		value = ""
+	},
+	ins_discuss_527_2 = {
+		value = ""
+	},
+	ins_reply_527_2_1 = {
+		value = ""
+	},
+	ins_reply_527_2_2 = {
+		value = ""
+	},
+	ins_reply_527_2_3 = {
+		value = ""
+	},
+	ins_reply_527_2_4 = {
+		value = ""
+	},
+	ins_discuss_527_3 = {
+		value = ""
+	},
+	ins_reply_527_3_1 = {
+		value = ""
+	},
+	ins_reply_527_3_2 = {
+		value = ""
+	},
+	ins_reply_527_3_3 = {
+		value = ""
+	},
+	ins_reply_527_3_4 = {
+		value = ""
+	},
+	ins_op_527_1_1 = {
+		value = ""
+	},
+	op_reply_527_1_1 = {
+		value = ""
+	},
+	ins_op_527_1_2 = {
+		value = ""
+	},
+	op_reply_527_1_2 = {
+		value = ""
+	},
+	ins_528 = {
+		value = ""
+	},
+	ins_discuss_528_1 = {
+		value = ""
+	},
+	ins_reply_528_1_1 = {
+		value = ""
+	},
+	ins_reply_528_1_2 = {
+		value = ""
+	},
+	ins_reply_528_1_3 = {
+		value = ""
+	},
+	ins_discuss_528_2 = {
+		value = ""
+	},
+	ins_reply_528_2_1 = {
+		value = ""
+	},
+	ins_reply_528_2_2 = {
+		value = ""
+	},
+	ins_reply_528_2_3 = {
+		value = ""
+	},
+	ins_reply_528_2_4 = {
+		value = ""
+	},
+	ins_reply_528_2_5 = {
+		value = ""
+	},
+	ins_discuss_528_3 = {
+		value = ""
+	},
+	ins_reply_528_3_1 = {
+		value = ""
+	},
+	ins_reply_528_3_2 = {
+		value = ""
+	},
+	ins_reply_528_3_3 = {
+		value = ""
+	},
+	ins_reply_528_3_4 = {
+		value = ""
+	},
+	ins_op_528_1_1 = {
+		value = ""
+	},
+	op_reply_528_1_1 = {
+		value = ""
+	},
+	ins_op_528_1_2 = {
+		value = ""
+	},
+	op_reply_528_1_2 = {
+		value = ""
+	},
+	ins_529 = {
+		value = ""
+	},
+	ins_discuss_529_1 = {
+		value = ""
+	},
+	ins_reply_529_1_1 = {
+		value = ""
+	},
+	ins_reply_529_1_2 = {
+		value = ""
+	},
+	ins_reply_529_1_3 = {
+		value = ""
+	},
+	ins_reply_529_1_4 = {
+		value = ""
+	},
+	ins_discuss_529_2 = {
+		value = ""
+	},
+	ins_reply_529_2_1 = {
+		value = ""
+	},
+	ins_reply_529_2_2 = {
+		value = ""
+	},
+	ins_reply_529_2_3 = {
+		value = ""
+	},
+	ins_reply_529_2_4 = {
+		value = ""
+	},
+	ins_op_529_1_1 = {
+		value = ""
+	},
+	op_reply_529_1_1 = {
+		value = ""
+	},
+	ins_op_529_1_2 = {
+		value = ""
+	},
+	op_reply_529_1_2 = {
+		value = ""
+	},
+	ins_530 = {
+		value = ""
+	},
+	ins_discuss_530_1 = {
+		value = ""
+	},
+	ins_reply_530_1_1 = {
+		value = ""
+	},
+	ins_reply_530_1_2 = {
+		value = ""
+	},
+	ins_discuss_530_2 = {
+		value = ""
+	},
+	ins_reply_530_2_1 = {
+		value = ""
+	},
+	ins_reply_530_2_2 = {
+		value = ""
+	},
+	ins_reply_530_2_3 = {
+		value = ""
+	},
+	ins_reply_530_2_4 = {
+		value = ""
+	},
+	ins_reply_530_2_5 = {
+		value = ""
+	},
+	ins_op_530_1_1 = {
+		value = ""
+	},
+	op_reply_530_1_1 = {
+		value = ""
+	},
+	ins_op_530_1_2 = {
+		value = ""
+	},
+	op_reply_530_1_2 = {
 		value = ""
 	}
 }
