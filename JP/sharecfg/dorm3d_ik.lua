@@ -9069,12 +9069,12 @@ pg.dorm3d_ik = {
 		back_time = 0.3,
 		head_track = "",
 		timeline_action = "",
-		controller = "Td1Idle1LeftHandIK",
+		controller = "Td1Idle1RightHandIK",
 		action_emote = "",
 		id = 20051001,
 		trigger_param = {
 			2,
-			"LeftHand"
+			"RightHand"
 		},
 		action_trigger = {
 			3

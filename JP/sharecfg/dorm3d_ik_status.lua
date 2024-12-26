@@ -5297,7 +5297,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1
+			0
 		},
 		enter_scene_anim = {
 			{
@@ -5348,7 +5348,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1
+			0
 		},
 		enter_scene_anim = {
 			{
@@ -5407,7 +5407,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1
+			0
 		},
 		enter_scene_anim = {
 			{
@@ -5468,7 +5468,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1
+			0
 		},
 		enter_scene_anim = {
 			{
@@ -5494,7 +5494,7 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					20224,
+					20223,
 					200511
 				}
 			}
@@ -5519,7 +5519,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1
+			0
 		},
 		enter_scene_anim = {
 			{
@@ -5545,7 +5545,7 @@ pg.dorm3d_ik_status = {
 				{
 					4,
 					0.3,
-					20223,
+					20224,
 					200510
 				}
 			}
@@ -5570,7 +5570,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1
+			0
 		},
 		enter_scene_anim = {
 			{
@@ -5629,7 +5629,7 @@ pg.dorm3d_ik_status = {
 		},
 		cloth_colliders = {},
 		head_track = {
-			1
+			0
 		},
 		enter_scene_anim = {
 			{

@@ -44242,7 +44242,7 @@ pg.ship_l2d = {
 		offset_circle = "",
 		range = {
 			0,
-			670
+			650
 		},
 		listener_data = {
 			type = 1,

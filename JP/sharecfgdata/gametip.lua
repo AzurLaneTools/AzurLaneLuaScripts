@@ -37107,3 +37107,23 @@ _G.pg.base.gametip.dorm3d_delete_finish = {
 _G.pg.base.gametip.dorm3d_guide_tip = {
 	tip = "シリアスの部屋を見てみよう"
 }
+
+
+_G.pg.base.gametip.dorm3d_noshiro_table = {
+	tip = "広縁"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_chair = {
+	tip = "居間"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_bed = {
+	tip = "寝室"
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_beach_tip = {
+	tip = "対応キャラのアセットをDLする必要があります"
+}

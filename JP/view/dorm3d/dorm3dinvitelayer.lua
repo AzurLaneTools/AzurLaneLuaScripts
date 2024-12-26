@@ -133,7 +133,7 @@ slot0.ShowSelectPanel = function(slot0)
 					elseif uv0[uv1] == "room" then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_role_locked"))
 					elseif uv0[uv1] == "download" then
-						pg.TipsMgr.GetInstance():ShowTips("please exit and download character resource in build scene ~")
+						pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_guide_beach_tip"))
 					end
 				end, SFX_PANEL)
 				eachChild(slot2:Find("base/operation"), function (slot0)
