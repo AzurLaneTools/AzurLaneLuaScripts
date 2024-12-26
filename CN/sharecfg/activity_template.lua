@@ -138,7 +138,7 @@ pg.activity_template = {
 		}
 	},
 	[40] = {
-		mark = 20241010,
+		mark = 20250102,
 		page_info = "",
 		type = 0,
 		login_pop = 0,
@@ -152,9 +152,9 @@ pg.activity_template = {
 			"timer",
 			{
 				{
-					2024,
-					10,
-					11
+					2025,
+					1,
+					3
 				},
 				{
 					0,
@@ -164,9 +164,9 @@ pg.activity_template = {
 			},
 			{
 				{
-					2024,
-					10,
-					20
+					2025,
+					1,
+					12
 				},
 				{
 					23,
@@ -8005,6 +8005,7 @@ pg.activity_template = {
 	[5138] = {
 		mark = 20231221,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -8042,34 +8043,11 @@ pg.activity_template = {
 			2384,
 			2385,
 			2386,
-			2387
-		},
-		time = {
-			"timer",
-			{
-				{
-					2023,
-					12,
-					21
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					1,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
+			2387,
+			99001,
+			99002,
+			99003,
+			99004
 		},
 		config_client = {
 			"commonbg/bg_pt_guandao",
@@ -8081,7 +8059,54 @@ pg.activity_template = {
 			},
 			pt_id = 384,
 			use_secretary = false,
-			painting = "lafeiii_pt"
+			painting = "lafeiii_pt",
+			category = {
+				{
+					"activity_shop_template_extratext",
+					{
+						99001,
+						99002,
+						99003,
+						99004
+					}
+				},
+				{
+					"activity_shop_template_normaltext",
+					{
+						2357,
+						2358,
+						2359,
+						2360,
+						2361,
+						2362,
+						2363,
+						2364,
+						2365,
+						2366,
+						2367,
+						2368,
+						2369,
+						2370,
+						2371,
+						2372,
+						2373,
+						2374,
+						2375,
+						2376,
+						2377,
+						2378,
+						2379,
+						2380,
+						2381,
+						2382,
+						2383,
+						2384,
+						2385,
+						2386,
+						2387
+					}
+				}
+			}
 		}
 	},
 	[5140] = {
@@ -18282,7 +18307,7 @@ pg.activity_template = {
 			},
 			{
 				{
-					2025,
+					2024,
 					12,
 					25
 				},
@@ -18599,6 +18624,7 @@ pg.activity_template = {
 	[5732] = {
 		mark = 20241219,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -18612,33 +18638,6 @@ pg.activity_template = {
 			520,
 			521,
 			522
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5733] = {
@@ -18759,6 +18758,120 @@ pg.activity_template = {
 		page_info = {
 			class_name = "VampireSkinPage2",
 			ui_name = "VampireSkinPage2"
+		}
+	},
+	[5735] = {
+		mark = 20241226,
+		type = 86,
+		login_pop = 0,
+		config_id = 2,
+		is_show = 45,
+		title_res_tag = "skin_magazine5",
+		id = 5735,
+		config_data = {
+			21062,
+			21063,
+			21064,
+			21065,
+			21066
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2024,
+					12,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinMagazinePage7",
+			ui_name = "SkinMagazinePage7"
+		},
+		config_client = {
+			story = {
+				{
+					"SHISHANGTEKANHEDINGJIWU1"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU2"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU3"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU4"
+				},
+				{
+					"SHISHANGTEKANHEDINGJIWU5"
+				}
+			}
+		}
+	},
+	[5739] = {
+		mark = 20241226,
+		page_info = "",
+		type = 60,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5739,
+		config_data = {
+			523,
+			524,
+			525,
+			526,
+			527,
+			528,
+			529,
+			530
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[7011] = {
@@ -26529,7 +26642,8 @@ pg.activity_template = {
 			5295,
 			5311,
 			5504,
-			5721
+			5721,
+			5735
 		},
 		[60] = {
 			4921,
@@ -26552,7 +26666,8 @@ pg.activity_template = {
 			5549,
 			5622,
 			5693,
-			5732
+			5732,
+			5739
 		},
 		[46] = {
 			4922,
@@ -27358,6 +27473,8 @@ pg.activity_template = {
 		5732,
 		5733,
 		5734,
+		5735,
+		5739,
 		7011,
 		7012,
 		7013,

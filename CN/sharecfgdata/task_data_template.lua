@@ -129027,6 +129027,211 @@ _G.pg.base.task_data_template[21059] = {
 }
 
 
+_G.pg.base.task_data_template[21062] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹1",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21062,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21063] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹2",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21063,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21064] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹3",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21064,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21065] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹4",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21065,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21066] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904629,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『鲁梅活动』皮肤剧情签到活动第二弹5",
+	desc = "登录游戏",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21066,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			58993,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

@@ -13,6 +13,10 @@ slot0.register = function(slot0)
 	slot2 = slot0.viewComponent
 
 	slot2:SetRoom(slot1.room)
+
+	slot2 = slot0.viewComponent
+
+	slot2:SetGroupId(slot0.contextData.groupId)
 	slot0:bind(uv0.SHARE_PANEL, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
 			mediator = Dorm3dPhotoShareLayerMediator,

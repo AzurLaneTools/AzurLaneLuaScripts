@@ -173,6 +173,263 @@ pg.dorm3d_furniture_template = {
 			"banner_furniture121"
 		}
 	},
+	[201] = {
+		rarity = 3,
+		name = "简然舒眠",
+		unlock_tips = "",
+		type = 4,
+		room_id = 2,
+		desc = "配色素雅的榻榻米床铺，清爽大方，柔软而舒适。\n躺下的一刻，疲惫尽散。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 201,
+		target_slots = {
+			120103
+		},
+		touch_id = {
+			{
+				30221,
+				2200310
+			}
+		},
+		shop_id = {}
+	},
+	[202] = {
+		rarity = 3,
+		name = "惬意一餐",
+		unlock_tips = "",
+		type = 6,
+		room_id = 2,
+		desc = "相对而坐，轻声细语间，食物的气味在空气中弥漫。\n在她的笑容中，连时光都变得温柔起来。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 202,
+		target_slots = {
+			120203
+		},
+		touch_id = {
+			{
+				30221,
+				2200210
+			}
+		},
+		shop_id = {}
+	},
+	[203] = {
+		rarity = 3,
+		name = "午后微风",
+		unlock_tips = "",
+		type = 5,
+		room_id = 2,
+		desc = "令人安心的植物材质上，承载着闲适的小憩时光。\n微风带来阵阵清香，伴随着细碎的响声，编织着完美的午后。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 203,
+		target_slots = {
+			120303
+		},
+		touch_id = {
+			{
+				30221,
+				2200110
+			}
+		},
+		shop_id = {}
+	},
+	[204] = {
+		rarity = 2,
+		name = "瓶中暖意",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 2,
+		desc = "素雅的瓷器勾勒出优美的线条，盛开的花朵是最美的点缀。\n花香与器形相得益彰，为空间增添一份生机与雅致。",
+		is_exclusive = 0,
+		model = "Pay_Noshirohostel/pre_db_nh_vase01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 204,
+		target_slots = {
+			120101
+		},
+		shop_id = {}
+	},
+	[205] = {
+		rarity = 2,
+		name = "啾啾玩偶",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 2,
+		desc = "可爱的形态总能勾起会心的微笑，细腻的做工传递着温暖的心意。\n它安静地守候在角落，却是空间里最暖心的存在。",
+		is_exclusive = 0,
+		model = "Pay_Noshirohostel/pre_db_nh_toy02",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 205,
+		target_slots = {
+			120102
+		},
+		shop_id = {}
+	},
+	[206] = {
+		rarity = 2,
+		name = "杯沿春色",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 2,
+		desc = "春日，粉嫩花瓣轻抚杯沿，如同一抹温柔的风景。\n让人想起与她置身于浪漫唯美的樱花雨下，尽享茶韵与春意的美妙时光。",
+		is_exclusive = 0,
+		model = "Pay_Noshirohostel/pre_db_nh_tableware02",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 206,
+		target_slots = {
+			120201
+		},
+		shop_id = {}
+	},
+	[207] = {
+		rarity = 2,
+		name = "一支青霄",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 2,
+		desc = "挺拔的枝干优雅延伸，如同云端的诗意。\n疏密有致的枝叶间，是生命向往闲适与自得的悠然姿态。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 207,
+		target_slots = {
+			120202
+		},
+		shop_id = {}
+	},
+	[208] = {
+		rarity = 2,
+		name = "闲时留白",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 2,
+		desc = "简约的瓷盆与翠绿的植物，演绎着留白的艺术。\n不张扬的生命力，却能让整个空间充满禅意般的宁静。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 208,
+		target_slots = {
+			120301
+		},
+		shop_id = {}
+	},
+	[209] = {
+		rarity = 2,
+		name = "瓶中灿景",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 2,
+		desc = "玲珑的器形中绽放着季节的色彩，花枝自然舒展，仿佛一幅流动的画卷。\n每一次插花都是对美的重新诠释。",
+		is_exclusive = 0,
+		model = "Pay_Noshirohostel/pre_db_nh_vase02",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture9",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 209,
+		target_slots = {
+			120302
+		},
+		shop_id = {}
+	},
+	[210] = {
+		rarity = 2,
+		name = "好运将至",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 2,
+		desc = "福气降至，吉祥如意。\n圆滚可爱的造型为整个空间都带来了温馨的韵味。",
+		is_exclusive = 0,
+		model = "Pay_Noshirohostel/pre_db_nh_decoration02",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_CommonFurniture10",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 210,
+		target_slots = {
+			120202
+		},
+		shop_id = {}
+	},
+	[221] = {
+		rarity = 3,
+		name = "柔软怀抱",
+		type = 4,
+		room_id = 2,
+		desc = "柔软的触感，适宜的温度，能将整个人温柔地包裹。\n不论是依偎还是拥抱，都是和它相处的最舒适姿态。",
+		is_exclusive = 1,
+		model = "Pay_Noshirohostel/pre_db_nh_bed01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture1",
+		scene_hides = "",
+		acesses = "",
+		id = 221,
+		target_slots = {
+			120103
+		},
+		touch_id = {
+			{
+				30221,
+				2200410
+			}
+		},
+		shop_id = {
+			270201
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture221"
+		}
+	},
 	[122] = {
 		rarity = 4,
 		name = "午后遐乡",
@@ -243,6 +500,40 @@ pg.dorm3d_furniture_template = {
 			"fbx/litmap_03/pre_db_book01"
 		}
 	},
+	[251] = {
+		rarity = 5,
+		name = "暖意入梦",
+		type = 5,
+		room_id = 2,
+		desc = "被炉里温暖的气息，让人想起冬日里懒洋洋的午后。\n阳光透过窗棂，洒在榻榻米上，与被炉的暖意交织，仿佛能融化所有的疲惫。",
+		is_exclusive = 1,
+		model = "Pay_Noshirohostel/Nh_Sp_NewYearsDay/pre_db_nh_sp_nyd_livingroom01",
+		is_special = 1,
+		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture251",
+		acesses = "",
+		id = 251,
+		target_slots = {
+			120303
+		},
+		touch_id = {
+			{
+				30221,
+				2200510
+			}
+		},
+		shop_id = {
+			270105
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture251"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/livingroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -254,6 +545,20 @@ pg.dorm3d_furniture_template = {
 			121,
 			122,
 			151
+		},
+		{
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			221,
+			251
 		}
 	},
 	all = {
@@ -264,7 +569,19 @@ pg.dorm3d_furniture_template = {
 		5,
 		6,
 		121,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		221,
 		122,
-		151
+		151,
+		251
 	}
 }

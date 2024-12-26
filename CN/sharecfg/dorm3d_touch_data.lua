@@ -261,7 +261,6 @@ pg.dorm3d_touch_data = {
 			}
 		},
 		ik_status = {
-			100210,
 			100210
 		}
 	},
@@ -314,6 +313,151 @@ pg.dorm3d_touch_data = {
 			100310
 		}
 	},
+	[2200110] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 2200110,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			200110
+		}
+	},
+	[2200210] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 2200210,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			200310
+		}
+	},
+	[2200310] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 2200310,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			200210
+		}
+	},
+	[2200410] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 2200410,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			200410
+		}
+	},
+	[2200510] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 2200510,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 1,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			200510,
+			200540
+		}
+	},
+	[2210110] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 2210110,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			215110
+		}
+	},
 	all = {
 		101,
 		102,
@@ -327,6 +471,12 @@ pg.dorm3d_touch_data = {
 		10100201,
 		10100202,
 		10100203,
-		10100303
+		10100303,
+		2200110,
+		2200210,
+		2200310,
+		2200410,
+		2200510,
+		2210110
 	}
 }

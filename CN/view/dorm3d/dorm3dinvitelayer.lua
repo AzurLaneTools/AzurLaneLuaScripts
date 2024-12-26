@@ -199,8 +199,11 @@ slot0.HideSelectPanel = function(slot0)
 	setActive(slot0.rtSelectPanel, false)
 end
 
+slot0.UpdateRoom = function(slot0, slot1)
+	slot0.room = slot1
+end
+
 slot0.didEnter = function(slot0)
-	slot0.room = getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId)
 	slot0.selectIds = underscore.filter(slot0.contextData.groupIds or {}, function (slot0)
 		return uv0.room.unlockCharacter[slot0] and tobool(getProxy(ApartmentProxy):getApartment(slot0)) and not Apartment.New({
 			ship_group = slot0

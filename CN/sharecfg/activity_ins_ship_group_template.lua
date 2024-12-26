@@ -708,7 +708,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 40501,
 		name = "Bismarck",
 		background = "",
-		sculpture = "bisimai",
+		sculpture = "bisimai_4",
 		nationality = 0,
 		type = 1
 	},
@@ -2836,7 +2836,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 49905,
 		name = "Aegir",
 		background = "",
-		sculpture = "aijier_2",
+		sculpture = "aijier_4",
 		nationality = 0,
 		type = 1
 	},
@@ -3052,7 +3052,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 20135,
 		name = "Janus",
 		background = "",
-		sculpture = "yanusi_5",
+		sculpture = "yanusi_6",
 		nationality = 0,
 		type = 1
 	},
@@ -4084,7 +4084,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 69902,
 		name = "Napoli",
 		background = "",
-		sculpture = "nabulesi",
+		sculpture = "nabulesi_2",
 		nationality = 0,
 		type = 1
 	},
@@ -4140,7 +4140,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 19905,
 		name = "Halford",
 		background = "",
-		sculpture = "haerfude",
+		sculpture = "haerfude_2",
 		nationality = 0,
 		type = 1
 	},
@@ -4292,7 +4292,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 79902,
 		name = "Admiral Nakhimov",
 		background = "",
-		sculpture = "naximofu",
+		sculpture = "naximofu_2",
 		nationality = 0,
 		type = 1
 	},
@@ -4405,6 +4405,30 @@ pg.activity_ins_ship_group_template = {
 		name = "Achilles",
 		background = "",
 		sculpture = "ajilisi",
+		nationality = 0,
+		type = 1
+	},
+	[39907] = {
+		ship_group = 39907,
+		name = "Daisen",
+		background = "",
+		sculpture = "dashan_2",
+		nationality = 0,
+		type = 1
+	},
+	[89904] = {
+		ship_group = 89904,
+		name = "Bayard",
+		background = "",
+		sculpture = "beiyade_2",
+		nationality = 0,
+		type = 1
+	},
+	[40126] = {
+		ship_group = 40126,
+		name = "Zuverlässig_26",
+		background = "",
+		sculpture = "Z26",
 		nationality = 0,
 		type = 1
 	},
@@ -4959,6 +4983,9 @@ pg.activity_ins_ship_group_template = {
 		40111,
 		40152,
 		20216,
-		20202
+		20202,
+		39907,
+		89904,
+		40126
 	}
 }

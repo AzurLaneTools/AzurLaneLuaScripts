@@ -7,11 +7,16 @@ end
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
-	slot0.regulaAnims = _.map(slot0:GetRegularAnimIDList(), function (slot0)
-		return Dorm3dCameraAnim.New({
-			configId = slot0
-		})
-	end)
+	slot0.regulaShipAnimsdDic = {}
+
+	for slot5, slot6 in ipairs(slot0:GetRegularAnimIDList()) do
+		slot0.regulaShipAnimsdDic[slot6[1]] = _.map(slot6[2], function (slot0)
+			return Dorm3dCameraAnim.New({
+				configId = slot0
+			})
+		end)
+	end
+
 	slot0.specialFurnitureDic = {}
 	slot0.specialAnims = _.map(slot0:GetSpecialFurnitureIDList(), function (slot0)
 		slot1 = slot0[1]
@@ -42,8 +47,8 @@ slot0.GetRegularAnimIDList = function(slot0)
 	return slot0:getConfig("regular_anim") or {}
 end
 
-slot0.GetRegularAnims = function(slot0)
-	return slot0.regulaAnims
+slot0.GetRegularAnimsByShipId = function(slot0, slot1)
+	return slot0.regulaShipAnimsdDic[slot1] or {}
 end
 
 slot0.GetSpecialFurnitureIDList = function(slot0)

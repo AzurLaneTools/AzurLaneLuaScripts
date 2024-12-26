@@ -114,6 +114,10 @@ slot0.SetRoom = function(slot0, slot1)
 	slot0.room = slot1
 end
 
+slot0.SetGroupId = function(slot0, slot1)
+	slot0.groupId = slot1
+end
+
 slot0.onBackPressed = function(slot0)
 	if slot0.recordState then
 		triggerButton(slot0.btnFilm)
@@ -460,7 +464,7 @@ end
 
 slot0.RefreshData = function(slot0)
 	slot2 = slot0.room:GetCameraZones()[slot0.zoneIndex]
-	slot0.animID = slot2:GetRegularAnims()[1]:GetConfigID()
+	slot0.animID = slot2:GetRegularAnimsByShipId(slot0.groupId)[1]:GetConfigID()
 
 	slot4 = function(slot0, slot1)
 		slot0.min = slot1[1]
@@ -479,7 +483,6 @@ slot0.RefreshData = function(slot0)
 end
 
 slot0.FirstEnterZone = function(slot0)
-	slot0.scene:HideCharacter(slot0.scene.apartment:GetConfigID())
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnterPhotoMode", slot0.room:GetCameraZones()[slot0.zoneIndex], Dorm3dCameraAnim.New({
 		configId = slot0.animID
 	}):GetStateName())
@@ -647,7 +650,7 @@ slot0.UpdateActionPanel = function(slot0)
 			slot0.startStamp = slot4
 
 			if #slot1:GetStartPoint() > 0 then
-				uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot7)
+				uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot7)
 			end
 
 			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
@@ -662,18 +665,18 @@ slot0.UpdateActionPanel = function(slot0)
 				return
 			end
 
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlaySingleAction", slot0.animPlayList[slot0.index]:GetStateName())
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot0.animPlayList[slot0.index]:GetStateName())
 		end, 1, -1)
 		slot9 = uv0.animInfo.animPlayList[1]
 
 		if slot5 == 1 then
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchAnim", slot9:GetStateName())
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SwitchCurrentAnim", slot9:GetStateName())
 			onNextTick(function ()
 				if #uv0:GetStartPoint() == 0 then
 					slot0 = uv1:GetWatchCameraName()
 				end
 
-				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot0)
+				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot0)
 				uv2.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
 
 				if uv2.freeMode then
@@ -691,13 +694,13 @@ slot0.UpdateActionPanel = function(slot0)
 				end
 			end)
 		else
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlaySingleAction", slot9:GetStateName())
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot9:GetStateName())
 		end
 
 		uv0.timerAnim:Start()
 	end
 
-	UIItemList.StaticAlign(slot3, slot3:GetChild(0), #slot1:GetRegularAnims(), function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot3, slot3:GetChild(0), #slot1:GetRegularAnimsByShipId(slot0.groupId), function (slot0, slot1, slot2)
 		if slot0 ~= UIItemList.EventUpdate then
 			return
 		end
@@ -994,7 +997,7 @@ slot0.UpdateCameraPanel = function(slot0)
 		onToggle(uv0, slot0, function (slot0)
 			uv0.settingFaceCamera = slot0
 
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableHeadIK", slot0)
+			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", slot0)
 		end, SFX_UI_TAG, SFX_UI_CANCEL)
 	end)()
 	(function ()
@@ -1221,7 +1224,7 @@ slot0.UpdateSkinList = function(slot0)
 							uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
 						end
 
-						uv0.scene.SwitchCharacterSkin(uv1, uv2, uv3, slot0)
+						uv0.scene:SwitchCharacterSkin(uv1, uv2, uv3, slot0)
 					end,
 					function (slot0)
 						setActive(uv0.ladySafeCollider, true)
@@ -1246,7 +1249,7 @@ slot0.UpdateSkinList = function(slot0)
 
 						slot2 = slot1.animPlayList[#slot1.animPlayList]
 
-						uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlaySingleAction", slot2:GetStateName())
+						uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot2:GetStateName())
 						uv1.scene.ladyDict[uv2].ladyAnimator:Update(slot2:GetAnimTime())
 						uv1.timerAnim:Stop()
 
@@ -1298,7 +1301,7 @@ slot0.willExit = function(slot0)
 	slot2 = slot0.scene.ladyDict[slot0.scene.apartment:GetConfigID()]
 
 	if slot2.skinId ~= slot2.skinIdList[1] then
-		slot0.scene.SwitchCharacterSkin(slot2, slot1, slot3[1])
+		slot0.scene:SwitchCharacterSkin(slot2, slot1, slot3[1])
 	end
 
 	if slot0.animSpeed ~= 1 then
@@ -1310,14 +1313,13 @@ slot0.willExit = function(slot0)
 	end
 
 	if not slot0.settingFaceCamera then
-		slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableHeadIK", true)
+		slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "EnableCurrentHeadIK", true)
 	end
 
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterLight")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertVolumeProfile")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCameraSettings")
 	slot0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ExitPhotoMode")
-	slot0.scene:RevertCharacter(slot0.scene.apartment:GetConfigID())
 end
 
 slot0.SetPhotoCameraSliderValue = function(slot0, slot1)

@@ -192,6 +192,12 @@ slot0.InitIconTrigger = function(slot0, slot1)
 			return
 		end
 
+		if not pg.NewStoryMgr.GetInstance():IsPlayed("DORM3D_GUIDE_02") and uv0 ~= 1 then
+			pg.TipsMgr.GetInstance(i18n("dorm3d_guide_tip"))
+
+			return
+		end
+
 		slot0 = getProxy(ApartmentProxy):getRoom(uv0)
 
 		if pg.dorm3d_rooms[uv0].type == 1 then
@@ -329,41 +335,50 @@ slot0.InitCardTrigger = function(slot0, slot1)
 	assert(slot2)
 
 	slot3 = slot0.cardDic[slot1]
-	slot4 = slot2:getConfig("assets_prefix")
 
 	if slot2:isPersonalRoom() then
-		slot5 = slot2:getPersonalGroupId()
+		slot4 = slot2:getPersonalGroupId()
 
-		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", slot5), "", slot3:Find("Image"))
-		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot5), "", slot3:Find("name"))
-		onButton(slot0, slot3, function ()
-			slot0 = uv0
-
-			slot0:TryDownloadResource({
-				click = true,
-				roomId = uv1
-			}, function ()
-				pg.MsgboxMgr.GetInstance():ShowMsgBox({
-					content = i18n("dorm3d_role_assets_delete", ShipGroup.getDefaultShipNameByGroupID(uv0)),
-					onYes = function ()
-						if IsUnityEditor then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))
-
-							return
-						end
-
-						DormGroupConst.DelDir("dorm3d/character/" .. string.lower(uv0:getConfig("resource_name")))
-						pg.TipsMgr.GetInstance():ShowTips("delete finish !")
-					end
-				})
-			end)
-		end, SFX_PANEL)
-
-		return
+		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", slot4), "", slot3:Find("Image"))
+		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot4), "", slot3:Find("name"))
+	else
+		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_%s", string.lower(slot2:getConfig("assets_prefix"))), "", slot3:Find("Image"))
 	end
 
-	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_%s", string.lower(slot4)), "", slot3:Find("Image"))
-	removeOnButton(slot3)
+	onButton(slot0, slot3, function ()
+		slot0 = uv0
+
+		slot0:TryDownloadResource({
+			click = true,
+			roomId = uv1
+		}, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				content = i18n("dorm3d_role_assets_delete", uv0:getConfig("room")),
+				onYes = function ()
+					if IsUnityEditor then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))
+
+						return
+					end
+
+					if uv0:isPersonalRoom() then
+						DormGroupConst.DelRoom(string.lower(uv0:getConfig("resource_name")), {
+							"room",
+							"apartment"
+						})
+					else
+						DormGroupConst.DelRoom(string.lower(uv0:getConfig("resource_name")), {
+							"room"
+						})
+					end
+
+					pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_delete_finish"))
+					pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(uv0.id, 3))
+					uv1:DownloadUpdate(uv2, "delete")
+				end
+			})
+		end)
+	end, SFX_PANEL)
 end
 
 slot0.UpdateCardState = function(slot0, slot1)
@@ -377,12 +392,9 @@ slot0.UpdateCardState = function(slot0, slot1)
 		setText(slot3:Find("favor_level/Text"), getProxy(ApartmentProxy):getApartment(slot2:getPersonalGroupId()) and slot5.level or "?")
 	end
 
-	slot5 = slot3:Find("operation")
-
-	eachChild(slot5, function (slot0)
+	eachChild(slot3:Find("operation"), function (slot0)
 		setActive(slot0, slot0.name == uv0)
 	end)
-	setImageAlpha(slot5:Find("complete"), slot2:isPersonalRoom() and 1 or 0)
 
 	if DormGroupConst.DormDownloadLock and DormGroupConst.DormDownloadLock.roomId == slot1 then
 		slot0:UpdateCardProgess()
@@ -450,20 +462,25 @@ slot0.DownloadUpdate = function(slot0, slot1, slot2)
 			end
 		end,
 		finish = function ()
-			for slot3, slot4 in pairs(uv0.roomDic) do
-				if slot3 == uv1 or pg.dorm3d_rooms[slot3].type == 1 then
-					uv0:UpdateIconState(slot3)
-				end
+			if uv0.roomDic[uv1] then
+				uv0:UpdateIconState(uv1)
 			end
 
 			if uv0.cardDic then
-				for slot3, slot4 in pairs(uv0.cardDic) do
-					if slot3 == uv1 or pg.dorm3d_rooms[slot3].type == 1 then
-						uv0:UpdateCardState(slot3)
-					end
+				if uv0.cardDic[uv1] then
+					uv0:UpdateCardState(uv1)
 				end
 			else
 				uv0:CheckGuide("DORM3D_GUIDE_02")
+			end
+		end,
+		delete = function ()
+			if uv0.roomDic[uv1] then
+				uv0:UpdateIconState(uv1)
+			end
+
+			if uv0.cardDic and uv0.cardDic[uv1] then
+				uv0:UpdateCardState(uv1)
 			end
 		end
 	})
@@ -558,28 +575,18 @@ end
 
 slot0.TryDownloadResource = function(slot0, slot1, slot2)
 	if DormGroupConst.IsDownloading() then
-		pg.TipsMgr.GetInstance():ShowTips("now is downloading")
+		pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_now_is_downloading"))
 
 		return
 	end
 
-	slot4, slot5 = getProxy(ApartmentProxy):getRoom(slot1.roomId):getDownloadNameList()
-
-	if #slot4 > 0 or #slot5 > 0 then
+	if #getProxy(ApartmentProxy):getRoom(slot1.roomId):getDownloadNameList() > 0 then
 		DormGroupConst.DormDownload({
 			isShowBox = true,
-			fileList = table.mergeArray(slot4, slot5),
+			fileList = slot4,
 			finishFunc = function (slot0)
 				if slot0 then
-					pg.TipsMgr.GetInstance():ShowTips("dorm resource download complete !")
-				end
-
-				if uv0.exited then
-					return
-				end
-
-				if uv0.roomDic[uv1.configId] then
-					uv0:UpdateIconState(uv1.configId)
+					pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_resource_download_complete"))
 				end
 			end,
 			roomId = slot3.configId

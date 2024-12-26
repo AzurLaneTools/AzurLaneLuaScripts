@@ -99,6 +99,14 @@ pg.dorm3d_ik_touch = {
 		id = 1002801,
 		scene_item = "FurnitureSlots/100301/pre_db_sp_sh_xmas01(Clone)/pre_db_sp_sh_xmas_decoration02"
 	},
+	[2002501] = {
+		vibrate = "",
+		char_id = 30221,
+		body = "",
+		action_emote = "",
+		id = 2002501,
+		scene_item = "FurnitureSlots/120303/pre_db_nh_sp_nyd_livingroom01(Clone)/pre_db_nh_sp_nyd_decoration02"
+	},
 	all = {
 		1002101,
 		1003101,
@@ -107,6 +115,7 @@ pg.dorm3d_ik_touch = {
 		1004101,
 		1007101,
 		1107102,
-		1002801
+		1002801,
+		2002501
 	}
 }

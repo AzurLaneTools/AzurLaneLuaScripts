@@ -19131,7 +19131,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	[1919] = {
 		param = "不、不会麻烦的！能为指挥官做料理，我很开心！",
-		ship_group = 0,
+		ship_group = 40111,
 		option = "",
 		type = 1,
 		id = 1919,

@@ -34967,12 +34967,12 @@ _G.pg.base.gametip.dorm3d_role_assets_download = {
 
 
 _G.pg.base.gametip.volleyball_end_tip = {
-	tip = "和天狼星度过了美好的下午"
+	tip = "和$1度过了美好的下午"
 }
 
 
 _G.pg.base.gametip.volleyball_end_award = {
-	tip = "精力-1，天狼星契合度+40"
+	tip = "精力-1，$1契合度+40"
 }
 
 
@@ -35604,7 +35604,7 @@ _G.pg.base.gametip.dorm3d_collection_title_en = {
 
 
 _G.pg.base.gametip.dorm3d_collection_cost_tip = {
-	tip = "相伴5分钟，<icon name=stamina/>精力-1，天狼星契合度<color=#fc4670>+40</color>"
+	tip = "相伴5分钟，<icon name=stamina/>精力-1，契合度<color=#fc4670>+40</color>"
 }
 
 
@@ -35850,6 +35850,141 @@ _G.pg.base.gametip.dorm3d_appellation_waring4 = {
 
 _G.pg.base.gametip.dorm3d_shop_gift_owned = {
 	tip = "购买次数已达上限"
+}
+
+
+_G.pg.base.gametip.dorm3d_accompany_not_download = {
+	tip = "请先下载$1相关资源"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
+	tip = "周一"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day2 = {
+	tip = "周二"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
+	tip = "周三"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
+	tip = "周四"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day5 = {
+	tip = "周五"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
+	tip = "周六"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day7 = {
+	tip = "周日"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
+	tip = "请记住角色今日的行程 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
+	tip = "请选择角色今日的行程： "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior1 = {
+	tip = "阅读"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior2 = {
+	tip = "画画 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior3 = {
+	tip = "学习 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior4 = {
+	tip = "舞蹈 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior5 = {
+	tip = "排球 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
+	tip = "跑步 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
+	tip = "打扫"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
+	tip = "做饭"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior9 = {
+	tip = "洗衣服 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior10 = {
+	tip = "游戏 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
+	tip = "散步 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior12 = {
+	tip = "睡觉 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
+	tip = "达人 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate2 = {
+	tip = "超人 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate3 = {
+	tip = "热爱 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate4 = {
+	tip = "痴迷 "
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate5 = {
+	tip = "均衡发展 "
 }
 
 
@@ -36453,4 +36588,34 @@ _G.pg.base.gametip.word_got_pt = {
 
 _G.pg.base.gametip.word_activity_not_open = {
 	tip = "活动未开启"
+}
+
+
+_G.pg.base.gametip.activity_shop_template_normaltext = {
+	tip = "活動常規道具兌換 "
+}
+
+
+_G.pg.base.gametip.activity_shop_template_extratext = {
+	tip = "活動追趕道具兌換 "
+}
+
+
+_G.pg.base.gametip.dorm3d_now_is_downloading = {
+	tip = "资源下载中"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_download_complete = {
+	tip = "下载完成"
+}
+
+
+_G.pg.base.gametip.dorm3d_delete_finish = {
+	tip = "删除成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_tip = {
+	tip = "先去天狼星的房间看看吧"
 }

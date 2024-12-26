@@ -25,7 +25,7 @@ pg.dorm3d_zone_template = {
 		touch_id = {
 			{
 				20220,
-				10100104
+				7
 			}
 		},
 		special_action = {
@@ -84,6 +84,51 @@ pg.dorm3d_zone_template = {
 			}
 		}
 	},
+	[2001] = {
+		is_global = 0,
+		name = "卧室",
+		type_prioritys = "",
+		id = 2001,
+		room_id = 2,
+		watch_camera = "Bed",
+		special_action = "",
+		touch_id = {
+			{
+				30221,
+				2200310
+			}
+		}
+	},
+	[2002] = {
+		is_global = 0,
+		name = "餐厅",
+		type_prioritys = "",
+		id = 2002,
+		room_id = 2,
+		watch_camera = "Table",
+		special_action = "",
+		touch_id = {
+			{
+				30221,
+				2200210
+			}
+		}
+	},
+	[2003] = {
+		is_global = 0,
+		name = "客厅",
+		type_prioritys = "",
+		id = 2003,
+		room_id = 2,
+		watch_camera = "Chair",
+		special_action = "",
+		touch_id = {
+			{
+				30221,
+				2200110
+			}
+		}
+	},
 	[4001] = {
 		is_global = 0,
 		name = "入口",
@@ -130,6 +175,21 @@ pg.dorm3d_zone_template = {
 			}
 		}
 	},
+	[4003] = {
+		is_global = 0,
+		name = "遮阳伞",
+		type_prioritys = "",
+		id = 4003,
+		room_id = 4,
+		watch_camera = "Nengdai",
+		touch_id = {
+			{
+				30221,
+				2210110
+			}
+		},
+		special_action = {}
+	},
 	get_id_list_by_room_id = {
 		{
 			1000,
@@ -137,9 +197,15 @@ pg.dorm3d_zone_template = {
 			1002,
 			1003
 		},
+		{
+			2001,
+			2002,
+			2003
+		},
 		[4] = {
 			4001,
-			4002
+			4002,
+			4003
 		}
 	},
 	all = {
@@ -147,7 +213,11 @@ pg.dorm3d_zone_template = {
 		1001,
 		1002,
 		1003,
+		2001,
+		2002,
+		2003,
 		4001,
-		4002
+		4002,
+		4003
 	}
 }

@@ -136,8 +136,13 @@ slot0.init = function(slot0)
 	slot0.switchBtn = slot0:findTF("blur_panel/adapt/switch_btn")
 	slot0.skinBtn = slot0:findTF("blur_panel/adapt/skin_btn")
 	slot1 = slot0:findTF("frame/bg/pages/scrollrect"):GetComponent("LScrollRect")
+	slot2 = slot0:findTF("frame/bg/pages/scrollRectSpecial")
+
+	setActive(go(slot1), true)
+	setActive(slot2, false)
+
 	slot0.pages = {
-		[uv0.TYPE_ACTIVITY] = ActivityShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData, slot1),
+		[uv0.TYPE_ACTIVITY] = ActivityShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData, slot1, slot2),
 		[uv0.TYPE_SHOP_STREET] = StreetShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData, slot1),
 		[uv0.TYPE_MILITARY_SHOP] = MilitaryShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData, slot1),
 		[uv0.TYPE_GUILD] = GuildShopPage.New(slot0.pageContainer, slot0.event, slot0.contextData, slot1),
@@ -152,9 +157,9 @@ slot0.init = function(slot0)
 	slot0.contextData.multiWindow = ShopMultiWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.singleWindowForESkin = EquipmentSkinInfoUIForShopWindow.New(slot0._tf, slot0.event)
 	slot0.contextData.paintingView = ShopPaintingView.New(slot0:findTF("paint/paint"), slot0:findTF("frame/chat"))
-	slot2 = slot0.contextData.paintingView
+	slot3 = slot0.contextData.paintingView
 
-	slot2:setSecretaryPos(slot0:findTF("paint/secretaryPos"))
+	slot3:setSecretaryPos(slot0:findTF("paint/secretaryPos"))
 
 	slot0.contextData.bgView = ShopBgView.New(slot0:findTF("bg"))
 	slot0.recorder = {

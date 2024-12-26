@@ -1,3 +1,9 @@
+slot1 = {
+	room = "dorm3d/scenesres/scenes/",
+	apartment = "dorm3d/character/"
+}
+slot2 = nil
+
 return {
 	DormGroupName = "DORM",
 	DormMgr = nil,
@@ -80,10 +86,9 @@ return {
 					uv0.ExtraDownload(slot2.dataList[1], slot2.onFinish)
 				end)
 				table.insert(slot1, function (slot0, slot1)
-					pg.m02:sendNotification(uv0.NotifyDormDownloadFinish, uv0.DormDownloadLock.roomId)
-
 					uv0.DormDownloadLock = nil
 
+					pg.m02:sendNotification(uv0.NotifyDormDownloadFinish, uv0.DormDownloadLock.roomId)
 					slot0(slot1)
 				end)
 			end
@@ -122,16 +127,10 @@ return {
 			uv0.isPauseUpdateD = false
 
 			warning("----------------------Tag 单组下载完成,调用groupComplete----------------------")
-
-			if pg.dorm3d_rooms[uv1.DormDownloadLock.roomId].type == 2 then
-				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(pg.dorm3d_rooms[uv1.DormDownloadLock.roomId].character[1], 1))
-			end
-
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(uv1.DormDownloadLock.roomId, 1))
 			uv2(true)
 		end, function (slot0, slot1)
-			if pg.dorm3d_rooms[uv0.DormDownloadLock.roomId].type == 2 then
-				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(pg.dorm3d_rooms[uv0.DormDownloadLock.roomId].character[1], 1))
-			end
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(uv0.DormDownloadLock.roomId, 2))
 
 			slot3 = function()
 				uv0.isPauseUpdateD = false
@@ -173,16 +172,26 @@ return {
 		return slot0
 	end,
 	GetDownloadResourceDic = function ()
+		if not uv0 then
+			uv0 = {}
+
+			for slot3, slot4 in ipairs(pg.dorm3d_rooms.all) do
+				uv0[string.lower(pg.dorm3d_rooms[slot4].resource_name)] = true
+			end
+		end
+
 		slot0 = {}
 
 		for slot4, slot5 in ipairs(DormGroupConst.GetDownloadList()) do
 			slot6 = "common"
 
-			for slot10, slot11 in ipairs({
-				"assets/dorm3d/character"
-			}) do
-				if string.find(slot5, slot11) then
-					slot6 = string.split(string.gsub(slot5, slot11, ""), "/")[1]
+			for slot10, slot11 in pairs(uv1) do
+				slot12, slot13 = string.find(slot5, slot11)
+
+				if slot13 then
+					if uv0[string.split(string.sub(slot5, slot13 + 1), "/")[1]] then
+						slot6 = slot10 .. "_" .. slot14
+					end
 
 					break
 				end
@@ -230,6 +239,11 @@ return {
 			end
 
 			uv0.GetDormMgr():DelFile(slot7)
+		end
+	end,
+	DelRoom = function (slot0, slot1)
+		for slot5, slot6 in ipairs(slot1) do
+			uv0.DelDir(uv1[slot6] .. slot0)
 		end
 	end
 }
