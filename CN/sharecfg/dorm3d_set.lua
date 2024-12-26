@@ -54,11 +54,6 @@ pg.dorm3d_set = {
 		key = "drom3d_time_unlock",
 		key_value_int = 5
 	},
-	drom3d_clothing_unlock = {
-		key_value_varchar = "",
-		key = "drom3d_clothing_unlock",
-		key_value_int = 10
-	},
 	drom3d_photograph_unlock = {
 		key_value_varchar = "",
 		key = "drom3d_photograph_unlock",
@@ -157,7 +152,6 @@ pg.dorm3d_set = {
 		"reduce_interaction",
 		"heartbeat_unlock",
 		"drom3d_time_unlock",
-		"drom3d_clothing_unlock",
 		"drom3d_photograph_unlock",
 		"drom3d_illumination_color",
 		"drom3d_illumination_intensity",

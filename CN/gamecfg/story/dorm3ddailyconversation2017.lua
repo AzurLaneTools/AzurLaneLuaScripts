@@ -46,7 +46,7 @@ return {
 							type = "action"
 						},
 						{
-							time = 1.5,
+							time = 2.5,
 							type = "wait"
 						}
 					}

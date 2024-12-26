@@ -406,8 +406,8 @@ slot0.RegisterIKFunc = function(slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
 		end)
 
-		uv0:emit(uv1.ON_IK_STATUS_CHANGED, slot2:GetConfigID(), uv1.IK_STATUS.TRIGGER)
 		uv0:OnTriggerIK(slot2)
+		uv0:emit(uv1.ON_IK_STATUS_CHANGED, slot2:GetConfigID(), uv1.IK_STATUS.TRIGGER)
 	end)
 end
 
@@ -2800,7 +2800,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 				end,
 				TimelineSelectLoop = function ()
 					if not uv0.selectIndex then
-						uv1:SetTime(uv2.floatParameter)
+						uv1:RawSetTime(uv2.floatParameter)
 					end
 				end,
 				TimelineSelect = function ()

@@ -19,10 +19,12 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = false,
+							sceneRoot = "Nengdai_DB/Noshirohostel",
 							name = "Qihe_xintiaochumo",
 							time = 0,
 							type = "timeline",
+							scene = "map_noshirohostel_02",
+							skip = false,
 							options = {
 								{
 									{

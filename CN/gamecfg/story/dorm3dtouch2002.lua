@@ -16,7 +16,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "要一起放松一下吗？",
+			say = "等、等一下，这样会……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 						},
 						{
 							skip = false,
-							time = 1.5,
+							time = 2.5,
 							type = "wait"
 						}
 					}

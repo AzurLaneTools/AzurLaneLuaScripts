@@ -1,5 +1,13 @@
 return {
 	{
+		name = "other",
+		type = 8,
+		params = {
+			scene = "map_noshirohostel_02",
+			sceneRoot = "Nengdai_DB/Noshirohostel"
+		}
+	},
+	{
 		name = "load",
 		type = 9,
 		params = {
@@ -61,5 +69,9 @@ return {
 		params = {
 			name = "FFliwu_chuanxie"
 		}
+	},
+	{
+		name = "base",
+		type = 8
 	}
 }

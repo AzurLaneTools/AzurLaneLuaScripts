@@ -860,6 +860,7 @@ end
 slot0.GetAnimPlayList = function(slot0, slot1)
 	slot2 = slot1
 	slot3 = {}
+	slot4 = 10
 
 	while true do
 		if not Dorm3dCameraAnim.New({
@@ -868,11 +869,13 @@ slot0.GetAnimPlayList = function(slot0, slot1)
 			return slot3
 		end
 
-		table.insert(slot3, 1, slot4)
+		table.insert(slot3, 1, slot5)
 
-		if slot4:GetPreAnimID() == 0 then
+		if slot5:GetPreAnimID() == 0 then
 			return slot3
 		end
+
+		assert(slot4 - 1 > 0)
 	end
 end
 

@@ -275,13 +275,7 @@ pg.dorm3d_favor = {
 		levelup_trigger_param = "10001",
 		favor_exp = 0,
 		level = 1,
-		levelup_item = {
-			{
-				27,
-				1021001,
-				1
-			}
-		},
+		levelup_item = {},
 		levelup_client_item = {}
 	},
 	[2002] = {
@@ -292,6 +286,11 @@ pg.dorm3d_favor = {
 		favor_exp = 40,
 		level = 2,
 		levelup_item = {
+			{
+				27,
+				1021001,
+				1
+			},
 			{
 				29,
 				100201,

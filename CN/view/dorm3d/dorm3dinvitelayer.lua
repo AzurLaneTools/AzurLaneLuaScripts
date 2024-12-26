@@ -165,18 +165,20 @@ slot0.ShowSelectPanel = function(slot0)
 end
 
 slot0.UpdateSelectableCard = function(slot0, slot1, slot2, slot3)
-	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d_%d", slot2, slot0.contextData.roomId), "", slot1:Find("Image"))
+	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", Apartment.New({
+		ship_group = slot2
+	}):GetSkinModelID(slot0.room:getConfig("tag"))), "", slot1:Find("Image"))
 	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot2), "", slot1:Find("name"))
 
-	slot5 = not getProxy(ApartmentProxy):getApartment(slot2) or slot4:needDownload()
+	slot6 = not getProxy(ApartmentProxy):getApartment(slot2) or slot5:needDownload()
 
-	setActive(slot1:Find("lock"), slot5)
-	setActive(slot1:Find("mask"), slot5)
-	setActive(slot1:Find("unlock"), not slot5)
-	setActive(slot1:Find("favor_level"), slot4)
+	setActive(slot1:Find("lock"), slot6)
+	setActive(slot1:Find("mask"), slot6)
+	setActive(slot1:Find("unlock"), not slot6)
+	setActive(slot1:Find("favor_level"), slot5)
 
-	if slot4 then
-		setText(slot1:Find("favor_level/Text"), slot4.level)
+	if slot5 then
+		setText(slot1:Find("favor_level/Text"), slot5.level)
 	end
 
 	onToggle(slot0, slot1, function (slot0)

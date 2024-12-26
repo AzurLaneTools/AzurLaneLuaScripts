@@ -64,6 +64,10 @@ slot0.SetTime = function(slot0, slot1)
 	slot0.comDirector:RebuildGraph()
 end
 
+slot0.RawSetTime = function(slot0, slot1)
+	slot0.comDirector.time = slot1
+end
+
 slot0.Dispose = function(slot0)
 end
 
