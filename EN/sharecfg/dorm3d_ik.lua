@@ -9081,10 +9081,10 @@ pg.dorm3d_ik = {
 		},
 		sub_targets = {
 			{
-				"LeftHand"
+				"RightHand"
 			},
 			{
-				"LeftUpperArm"
+				"RightUpperArm"
 			},
 			{
 				"LeftUpperArm"
@@ -9092,7 +9092,7 @@ pg.dorm3d_ik = {
 		},
 		rect = {
 			-490.3,
-			-429.9,
+			-350,
 			1100,
 			650
 		},
@@ -9104,10 +9104,10 @@ pg.dorm3d_ik = {
 		},
 		plane_rotation = {
 			{
-				-0.6148498,
-				0.03517574,
-				-0.06426407,
-				-0.7852341
+				-0.695685,
+				0.02806489,
+				-0.06767244,
+				-0.7146016
 			},
 			{
 				0.002360249,
@@ -9171,15 +9171,15 @@ pg.dorm3d_ik = {
 		},
 		rect = {
 			-538.4,
-			-339.8,
+			-350,
 			1200,
-			600
+			700
 		},
 		trigger_rect = {
 			-753.2,
-			-563.5,
+			-500,
 			1500,
-			900
+			1000
 		},
 		plane_rotation = {
 			{
@@ -9246,13 +9246,13 @@ pg.dorm3d_ik = {
 			}
 		},
 		rect = {
-			-449.5,
-			-215,
+			-600,
+			-300,
 			1200,
-			450
+			700
 		},
 		trigger_rect = {
-			-542,
+			-650,
 			-350,
 			1600,
 			1000
@@ -9265,10 +9265,10 @@ pg.dorm3d_ik = {
 				-0.6144196
 			},
 			{
-				0.01507265,
-				-0.1056186,
-				0.04276061,
-				-0.9933726
+				0.00785982,
+				-0.267016,
+				0.04465288,
+				-0.962625
 			}
 		},
 		plane_scale = {
@@ -9278,8 +9278,8 @@ pg.dorm3d_ik = {
 				0.39136
 			},
 			{
-				0.3172243,
-				0.1377818,
+				0.1870925,
+				0.09541389,
 				0.96
 			}
 		}
@@ -9311,13 +9311,13 @@ pg.dorm3d_ik = {
 			}
 		},
 		rect = {
-			-555,
-			-215.5,
+			-300,
+			-300,
 			1200,
-			450
+			700
 		},
 		trigger_rect = {
-			-683.9,
+			-555,
 			-350,
 			1600,
 			1000
@@ -9330,10 +9330,10 @@ pg.dorm3d_ik = {
 				-0.6144196
 			},
 			{
-				0.02272066,
-				-0.0244613,
-				0.03923556,
-				-0.9986721
+				0.03121205,
+				0.208155,
+				0.03288565,
+				-0.9770445
 			}
 		},
 		plane_scale = {
@@ -9343,8 +9343,8 @@ pg.dorm3d_ik = {
 				0.39136
 			},
 			{
-				0.3471213,
-				0.1334702,
+				0.2595981,
+				0.08607493,
 				1
 			}
 		}
@@ -9382,7 +9382,7 @@ pg.dorm3d_ik = {
 			-490.3,
 			-429.9,
 			1100,
-			650
+			800
 		},
 		trigger_rect = {
 			-773.7,
@@ -9534,10 +9534,10 @@ pg.dorm3d_ik = {
 			}
 		},
 		rect = {
-			-552.3,
+			-400,
 			-317,
 			1103.9,
-			500
+			600
 		},
 		trigger_rect = {
 			-754,
@@ -9547,10 +9547,10 @@ pg.dorm3d_ik = {
 		},
 		plane_rotation = {
 			{
-				0.6782142,
-				0.06407699,
-				-0.001902464,
-				0.7320629
+				-0.03469605,
+				0.9971906,
+				0.05922223,
+				0.0300005
 			},
 			{
 				-0.3587618,
@@ -9599,10 +9599,10 @@ pg.dorm3d_ik = {
 			}
 		},
 		rect = {
-			-552.3,
-			-317,
-			1103.9,
-			500
+			-50,
+			-50,
+			100,
+			100
 		},
 		trigger_rect = {
 			-754,
@@ -9612,10 +9612,10 @@ pg.dorm3d_ik = {
 		},
 		plane_rotation = {
 			{
-				0.6782142,
-				0.06407699,
-				-0.001902464,
-				0.7320629
+				-0.08450422,
+				0.675973,
+				-0.7316725,
+				-0.02398247
 			},
 			{
 				-0.3587618,
@@ -9710,33 +9710,36 @@ pg.dorm3d_ik = {
 		back_time = 0.4,
 		head_track = "",
 		timeline_action = "",
-		controller = "Td1Idle5LeftThighIK",
+		controller = "Td1Idle5ChestIK",
 		action_emote = "",
 		id = 20054001,
 		trigger_param = {
 			2,
-			"LeftThigh"
+			"Chest"
 		},
 		action_trigger = {
 			3
 		},
 		sub_targets = {
 			{
-				"LeftThigh"
+				"Pelvis"
 			},
 			{
-				"LeftFoot"
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
 			}
 		},
 		rect = {
-			-412.1,
-			-300,
+			-500,
+			-400,
 			1200,
-			500
+			800
 		},
 		trigger_rect = {
 			-515.6,
-			-350,
+			-550,
 			1600,
 			1000
 		},
@@ -9752,6 +9755,12 @@ pg.dorm3d_ik = {
 				0.9950079,
 				0.02520696,
 				-0.08890349
+			},
+			{
+				0.6122996,
+				0.3551773,
+				-0.3607327,
+				0.6072975
 			}
 		},
 		plane_scale = {
@@ -9763,6 +9772,11 @@ pg.dorm3d_ik = {
 			{
 				0.3471213,
 				0.05211236,
+				1
+			},
+			{
+				0.1180465,
+				0.1432278,
 				1
 			}
 		}
@@ -12879,6 +12893,805 @@ pg.dorm3d_ik = {
 			}
 		}
 	},
+	[21051000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle1HeadIK",
+		action_emote = "",
+		id = 21051000,
+		trigger_param = {
+			2,
+			"Head"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-538.4,
+			-339.8,
+			1200,
+			600
+		},
+		trigger_rect = {
+			-753.2,
+			-563.5,
+			1500,
+			900
+		},
+		plane_rotation = {
+			{
+				-0.4507583,
+				-0.5664634,
+				0.5587006,
+				-0.4047095
+			},
+			{
+				-0.4947867,
+				-0.3816394,
+				-0.1153841,
+				0.7721555
+			},
+			{
+				-0.4786097,
+				-0.3965792,
+				-0.2847635,
+				0.7297722
+			}
+		},
+		plane_scale = {
+			{
+				0.3279402,
+				0.1913936,
+				1.2254
+			},
+			{
+				0.161946,
+				0.2148469,
+				1
+			},
+			{
+				0.1738839,
+				0.2744101,
+				0.7426552
+			}
+		}
+	},
+	[21051001] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle1RightHandIK",
+		action_emote = "",
+		id = 21051001,
+		trigger_param = {
+			2,
+			"RightHand"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightHand"
+			},
+			{
+				"RightUpperArm"
+			},
+			{
+				"LeftUpperArm"
+			}
+		},
+		rect = {
+			-490.3,
+			-350,
+			1100,
+			650
+		},
+		trigger_rect = {
+			-773.7,
+			-764.4,
+			1500,
+			1200
+		},
+		plane_rotation = {
+			{
+				0.05436747,
+				0.7116836,
+				-0.6934174,
+				0.09860514
+			},
+			{
+				0.002360249,
+				0.1047715,
+				0.003261862,
+				-0.9944882
+			},
+			{
+				0.002360249,
+				0.1047715,
+				0.003261862,
+				-0.9944882
+			}
+		},
+		plane_scale = {
+			{
+				0.3442796,
+				0.3623598,
+				0.65382
+			},
+			{
+				0.1929346,
+				0.1012162,
+				0.90707
+			},
+			{
+				0.1929346,
+				0.1012162,
+				0.90707
+			}
+		}
+	},
+	[21052000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle1HeadIK",
+		action_emote = "",
+		id = 21052000,
+		trigger_param = {
+			2,
+			"Head"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-538.4,
+			-350,
+			1200,
+			700
+		},
+		trigger_rect = {
+			-753.2,
+			-500,
+			1500,
+			1000
+		},
+		plane_rotation = {
+			{
+				-0.4507583,
+				-0.5664634,
+				0.5587006,
+				-0.4047095
+			},
+			{
+				-0.1124651,
+				-0.7715627,
+				0.4984668,
+				-0.378911
+			},
+			{
+				-0.2820849,
+				-0.7300552,
+				0.4822635,
+				-0.3935345
+			}
+		},
+		plane_scale = {
+			{
+				0.3279402,
+				0.1913936,
+				1.2254
+			},
+			{
+				0.161946,
+				0.2148469,
+				1
+			},
+			{
+				0.1738839,
+				0.2744101,
+				0.7426552
+			}
+		}
+	},
+	[21053000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.4,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle1RightFootIK",
+		action_emote = "",
+		id = 21053000,
+		trigger_param = {
+			2,
+			"RightFoot"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightThigh"
+			},
+			{
+				"RightFoot"
+			}
+		},
+		rect = {
+			-600,
+			-300,
+			1200,
+			700
+		},
+		trigger_rect = {
+			-650,
+			-350,
+			1600,
+			1000
+		},
+		plane_rotation = {
+			{
+				0.5874314,
+				-0.4020253,
+				0.3402771,
+				-0.6144196
+			},
+			{
+				-0.04471494,
+				-0.9604368,
+				0.007498881,
+				0.2747829
+			}
+		},
+		plane_scale = {
+			{
+				0.1,
+				0.1,
+				0.39136
+			},
+			{
+				0.1870925,
+				0.09541389,
+				0.96
+			}
+		}
+	},
+	[21053001] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle1LeftFootIK",
+		action_emote = "",
+		id = 21053001,
+		trigger_param = {
+			2,
+			"LeftFoot"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"LeftThigh"
+			},
+			{
+				"LeftFoot"
+			}
+		},
+		rect = {
+			-300,
+			-300,
+			1200,
+			700
+		},
+		trigger_rect = {
+			-555,
+			-350,
+			1600,
+			1000
+		},
+		plane_rotation = {
+			{
+				0.5874314,
+				-0.4020253,
+				0.3402771,
+				-0.6144196
+			},
+			{
+				-0.03150535,
+				-0.9671304,
+				0.03260482,
+				-0.2502064
+			}
+		},
+		plane_scale = {
+			{
+				0.1,
+				0.1,
+				0.39136
+			},
+			{
+				0.2595981,
+				0.08607493,
+				1
+			}
+		}
+	},
+	[21051100] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle2LeftHandIK",
+		action_emote = "",
+		id = 21051100,
+		trigger_param = {
+			2,
+			"LeftHand"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"LeftHand"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"LeftUpperArm"
+			}
+		},
+		rect = {
+			-490.3,
+			-429.9,
+			1100,
+			800
+		},
+		trigger_rect = {
+			-773.7,
+			-764.4,
+			1500,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.6148498,
+				0.03517574,
+				-0.06426407,
+				-0.7852341
+			},
+			{
+				0.002360249,
+				0.1047715,
+				0.003261862,
+				-0.9944882
+			},
+			{
+				0.002360249,
+				0.1047715,
+				0.003261862,
+				-0.9944882
+			}
+		},
+		plane_scale = {
+			{
+				0.3442796,
+				0.3623598,
+				0.65382
+			},
+			{
+				0.1929346,
+				0.1012162,
+				0.90707
+			},
+			{
+				0.1929346,
+				0.1012162,
+				0.90707
+			}
+		}
+	},
+	[21051101] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle2HeadIK",
+		action_emote = "",
+		id = 21051101,
+		trigger_param = {
+			2,
+			"Head"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-538.4,
+			-339.8,
+			1200,
+			600
+		},
+		trigger_rect = {
+			-753.2,
+			-563.5,
+			1500,
+			900
+		},
+		plane_rotation = {
+			{
+				-0.4507583,
+				-0.5664634,
+				0.5587006,
+				-0.4047095
+			},
+			{
+				-0.1124651,
+				-0.7715627,
+				0.4984668,
+				-0.378911
+			},
+			{
+				-0.2820849,
+				-0.7300552,
+				0.4822635,
+				-0.3935345
+			}
+		},
+		plane_scale = {
+			{
+				0.3279402,
+				0.1913936,
+				1.2254
+			},
+			{
+				0.161946,
+				0.2148469,
+				1
+			},
+			{
+				0.1738839,
+				0.2744101,
+				0.7426552
+			}
+		}
+	},
+	[21051200] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle3RightHandIK",
+		action_emote = "",
+		id = 21051200,
+		trigger_param = {
+			2,
+			"RightHand"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightHand"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-400,
+			-317,
+			1103.9,
+			600
+		},
+		trigger_rect = {
+			-754,
+			-430,
+			1500,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.0568602,
+				-0.03440258,
+				-0.03844489,
+				-0.9970484
+			},
+			{
+				-0.3587618,
+				0.5049089,
+				-0.5079976,
+				-0.5985779
+			}
+		},
+		plane_scale = {
+			{
+				0.2200033,
+				0.1800896,
+				1
+			},
+			{
+				0.1929346,
+				0.1025181,
+				1
+			}
+		}
+	},
+	[21052200] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle4RightHandIK",
+		action_emote = "",
+		id = 21052200,
+		trigger_param = {
+			2,
+			"RightHand"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightHand"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-50,
+			-50,
+			100,
+			100
+		},
+		trigger_rect = {
+			-754,
+			-430,
+			1500,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.08450422,
+				0.675973,
+				-0.7316725,
+				-0.02398247
+			},
+			{
+				-0.3587618,
+				0.5049089,
+				-0.5079976,
+				-0.5985779
+			}
+		},
+		plane_scale = {
+			{
+				0.2200033,
+				0.1800896,
+				1
+			},
+			{
+				0.1929346,
+				0.1025181,
+				1
+			}
+		}
+	},
+	[21054000] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.3,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle5RightHandIK",
+		action_emote = "",
+		id = 21054000,
+		trigger_param = {
+			2,
+			"RightHand"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightHand"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-552.3,
+			-317,
+			1103.9,
+			500
+		},
+		trigger_rect = {
+			-754,
+			-430,
+			1500,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.06514251,
+				0.6781126,
+				-0.7320591,
+				-0.003052364
+			},
+			{
+				-0.3587618,
+				0.5049089,
+				-0.5079976,
+				-0.5985779
+			}
+		},
+		plane_scale = {
+			{
+				0.2402216,
+				0.1800896,
+				1
+			},
+			{
+				0.1929346,
+				0.1025181,
+				1
+			}
+		}
+	},
+	[21054001] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.4,
+		head_track = "",
+		timeline_action = "",
+		controller = "Td1Idle5ChestIK",
+		action_emote = "",
+		id = 21054001,
+		trigger_param = {
+			2,
+			"Chest"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"Pelvis"
+			},
+			{
+				"LeftUpperArm"
+			},
+			{
+				"RightUpperArm"
+			}
+		},
+		rect = {
+			-500,
+			-400,
+			1200,
+			800
+		},
+		trigger_rect = {
+			-515.6,
+			-550,
+			1600,
+			1000
+		},
+		plane_rotation = {
+			{
+				0.108287,
+				-0.8532434,
+				0.2645511,
+				-0.4361907
+			},
+			{
+				-0.03768632,
+				0.9950079,
+				0.02520696,
+				-0.08890349
+			},
+			{
+				0.6122996,
+				0.3551773,
+				-0.3607327,
+				0.6072975
+			}
+		},
+		plane_scale = {
+			{
+				0.1591991,
+				0.1629937,
+				0.3936299
+			},
+			{
+				0.3471213,
+				0.05211236,
+				1
+			},
+			{
+				0.1180465,
+				0.1432278,
+				1
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -13065,6 +13878,17 @@ pg.dorm3d_ik = {
 		11025101,
 		29999100,
 		29999101,
-		29999200
+		29999200,
+		21051000,
+		21051001,
+		21052000,
+		21053000,
+		21053001,
+		21051100,
+		21051101,
+		21051200,
+		21052200,
+		21054000,
+		21054001
 	}
 }

@@ -28210,5 +28210,10 @@ cs.gametip = {
 		1061849,
 		89,
 		true
+	},
+	dorm3d_guide_beach_tip = {
+		1061938,
+		148,
+		true
 	}
 }
