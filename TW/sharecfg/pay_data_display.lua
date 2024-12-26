@@ -78,6 +78,7 @@ pg.pay_data_display = setmetatable({
 		4043,
 		4044,
 		4045,
+		4046,
 		4850,
 		4851,
 		4852,
@@ -7625,6 +7626,105 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81007,
+				1
+			}
+		}
+	},
+	[4046] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將會寄送到信箱，請注意查收。\n*擁有清單中的所有換裝則轉換為獲得1080鑽石。",
+		type = 1,
+		name = "聖誕促銷禮盒2024",
+		first_pay_double = 0,
+		name_display = "聖誕促銷禮盒2024",
+		descrip = "可獲得清單中未擁有的L2D換裝*1（擁有清單中所有換裝則轉換為獲得鑽石）和其他獎勵",
+		subject = "聖誕促銷禮盒2024",
+		money = 330,
+		limit_arg = 2,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai18",
+		skin_inquire_relation = 86012,
+		id_str = "com.hkmanjuu.azurlane.package47",
+		extra_service = 3,
+		id = 4046,
+		airijp_id = "com.hkmanjuu.azurlane.package47",
+		extra_service_item = {
+			{
+				2,
+				86012,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2024,
+					12,
+					25
+				},
+				{
+					14,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86012,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81017,
 				1
 			}
 		}
