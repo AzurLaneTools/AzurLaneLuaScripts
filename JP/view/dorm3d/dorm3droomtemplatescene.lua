@@ -3114,9 +3114,9 @@ slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5
 		return
 	end
 
-	slot8 = slot0.loader
+	slot7 = slot0.loader
 
-	slot8:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
+	slot7:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
 		setParent(slot0, uv0)
 
 		if uv1 then

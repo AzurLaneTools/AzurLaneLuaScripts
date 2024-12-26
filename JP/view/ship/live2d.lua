@@ -634,6 +634,9 @@ slot17 = function(slot0, slot1)
 	uv4(slot0)
 	uv5(slot0)
 	uv6(slot0)
+	slot0:setEnableActions({})
+	slot0:setIgnoreActions({})
+	slot0:changeIdleIndex(0)
 
 	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
 		uv7(slot0)
@@ -660,10 +663,6 @@ slot17 = function(slot0, slot1)
 
 		slot0.delayChangeParamater = nil
 	end
-
-	slot0:setEnableActions({})
-	slot0:setIgnoreActions({})
-	slot0:changeIdleIndex(0)
 end
 
 slot0.Ctor = function(slot0, slot1, slot2)

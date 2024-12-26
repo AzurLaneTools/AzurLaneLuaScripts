@@ -494,15 +494,6 @@ slot0.getCommonNoticeData = function(slot0)
 end
 
 slot0.setTargetValue = function(slot0, slot1)
-	if table.contains({
-		49905314,
-		49905315,
-		49905316,
-		49905317
-	}, slot0.id) then
-		print(slot0.parameterName .. " 设置目标数值.." .. slot1)
-	end
-
 	slot0.parameterTargetValue = slot1
 end
 
