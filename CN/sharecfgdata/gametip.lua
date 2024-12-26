@@ -36619,3 +36619,23 @@ _G.pg.base.gametip.dorm3d_delete_finish = {
 _G.pg.base.gametip.dorm3d_guide_tip = {
 	tip = "先去天狼星的房间看看吧"
 }
+
+
+_G.pg.base.gametip.dorm3d_noshiro_table = {
+	tip = "餐厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_bed = {
+	tip = "卧室"
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_beach_tip = {
+	tip = "请先下载相应角色资源 "
+}

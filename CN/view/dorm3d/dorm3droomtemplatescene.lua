@@ -383,25 +383,23 @@ slot0.RegisterIKFunc = function(slot0)
 
 	slot1 = pg.IKMgr.GetInstance()
 
-	slot1:RegisterOnIKLayerDeactive(function (slot0)
-		slot2 = uv0.apartment
-		slot3 = uv0
-
-		slot3:DeactiveIKLayer(_.detect(uv0.ladyDict[slot2:GetConfigID()].readyIKLayers, function (slot0)
+	slot1:RegisterOnIKLayerDeactive(function (slot0, slot1)
+		slot3 = _.detect(uv0.ladyDict[uv0.apartment:GetConfigID()].readyIKLayers, function (slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
-		end))
+		end)
+
+		uv0:DeactiveIKLayer(slot3)
 
 		uv0.ikHandler = nil
-		uv0.blockIK = nil
+		uv0.blockIK = slot1
 
-		onNextTick(function ()
-			uv0:emit(uv1.ON_IK_STATUS_CHANGED, uv2:GetConfigID(), uv1.IK_STATUS.RELEASE)
-		end)
+		uv0:emit(uv1.ON_IK_STATUS_CHANGED, slot3:GetConfigID(), uv1.IK_STATUS.RELEASE)
 	end)
 
 	slot1 = pg.IKMgr.GetInstance()
 
 	slot1:RegisterOnIKLayerAction(function (slot0)
+		uv0.blockIK = nil
 		slot2 = _.detect(uv0.ladyDict[uv0.apartment:GetConfigID()].readyIKLayers, function (slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
 		end)
@@ -3114,9 +3112,9 @@ slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5
 		return
 	end
 
-	slot8 = slot0.loader
+	slot7 = slot0.loader
 
-	slot8:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
+	slot7:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
 		setParent(slot0, uv0)
 
 		if uv1 then

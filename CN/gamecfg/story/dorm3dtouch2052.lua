@@ -35,7 +35,7 @@ return {
 						},
 						{
 							id = 2002,
-							name = "ND_TD_beilu_ZJD_shou_01-start_item",
+							name = "ND_TD_beilu_ZJD_shou_01_item-start",
 							type = "item_action"
 						},
 						{

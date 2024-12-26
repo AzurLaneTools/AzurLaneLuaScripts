@@ -852,7 +852,7 @@ pg.soundstory_template = {
 	},
 	{
 		story_pic = "",
-		name = "拉近关系的秘诀",
+		name = "乌冬面的制作方法？！",
 		story_resource_JP = "soundStory19_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "",

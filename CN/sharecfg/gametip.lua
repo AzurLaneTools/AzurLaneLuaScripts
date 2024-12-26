@@ -27335,5 +27335,25 @@ cs.gametip = {
 		983742,
 		113,
 		true
+	},
+	dorm3d_noshiro_table = {
+		983855,
+		90,
+		true
+	},
+	dorm3d_noshiro_chair = {
+		983945,
+		90,
+		true
+	},
+	dorm3d_noshiro_bed = {
+		984035,
+		88,
+		true
+	},
+	dorm3d_guide_beach_tip = {
+		984123,
+		117,
+		true
 	}
 }
