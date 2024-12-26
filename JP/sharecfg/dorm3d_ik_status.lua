@@ -4538,7 +4538,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4595,7 +4596,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4652,7 +4654,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4696,7 +4699,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4731,7 +4735,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4784,7 +4789,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4840,7 +4846,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4899,7 +4906,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -4958,7 +4966,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5036,12 +5045,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5089,17 +5099,17 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
 			1,
 			1,
 			1,
 			1,
-			0
+			1,
+			1
 		},
 		cloth_colliders = {
 			{
@@ -5153,12 +5163,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5216,12 +5227,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5271,12 +5283,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5321,12 +5334,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5379,12 +5393,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5439,12 +5454,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5489,12 +5505,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5539,12 +5556,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5597,12 +5615,13 @@ pg.dorm3d_ik_status = {
 				0,
 				{
 					6,
-					vfx_hualan01
+					"vfx_hualan01"
 				}
 			}
 		},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5651,7 +5670,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5708,7 +5729,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5752,7 +5775,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5796,7 +5821,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5831,7 +5858,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5884,7 +5913,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5927,7 +5958,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -5986,7 +6019,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6045,7 +6080,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6106,7 +6143,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6150,12 +6189,13 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
 			1,
 			1,
 			1,
 			1,
-			0
+			1,
+			1,
+			1
 		},
 		cloth_colliders = {},
 		head_track = {
@@ -6186,7 +6226,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6240,7 +6282,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6283,7 +6327,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6335,7 +6381,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6371,7 +6419,9 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6412,7 +6462,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,
@@ -6461,7 +6512,8 @@ pg.dorm3d_ik_status = {
 		},
 		touch_data = {},
 		use_cloth = {
-			0,
+			1,
+			1,
 			1,
 			1,
 			1,

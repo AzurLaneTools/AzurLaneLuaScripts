@@ -962,7 +962,7 @@ pg.dorm3d_camera_anim_template = {
 	},
 	[2404] = {
 		anim_time = 0,
-		finish_anim = 2405,
+		finish_anim = 2404,
 		pre_anim = 0,
 		state = "ND_IK_FF_chuang_ZJD_idle_01",
 		unlock = "",
@@ -977,8 +977,8 @@ pg.dorm3d_camera_anim_template = {
 	},
 	[2405] = {
 		anim_time = 14,
-		finish_anim = 2405,
-		pre_anim = 2405,
+		finish_anim = 2404,
+		pre_anim = 2401,
 		state = "ND_IK_FF_chuang_ZJD_tui_01",
 		unlock = "",
 		ship_group = 30221,

@@ -53,7 +53,7 @@ pg.dorm3d_resource = {
 		unlock_text = "",
 		model_id = "nengdai_noshoes",
 		id = 302211,
-		head_Icon = "dorm3Dchar/tianlangxing",
+		head_Icon = "dorm3Dchar/nengdai",
 		unlock = {
 			1,
 			30221,
@@ -70,7 +70,7 @@ pg.dorm3d_resource = {
 		unlock_text = "能代をビーチ配置で開放",
 		model_id = "nengdai_swim",
 		id = 302212,
-		head_Icon = "dorm3Dchar/tianlangxing",
+		head_Icon = "dorm3Dchar/nengdai",
 		unlock = {
 			1,
 			30221,

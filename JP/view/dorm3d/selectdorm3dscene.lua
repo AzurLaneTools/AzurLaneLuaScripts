@@ -339,7 +339,9 @@ slot0.InitCardTrigger = function(slot0, slot1)
 	if slot2:isPersonalRoom() then
 		slot4 = slot2:getPersonalGroupId()
 
-		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", slot4), "", slot3:Find("Image"))
+		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", Apartment.New({
+			ship_group = slot4
+		}):GetSkinModelID(slot2:getConfig("tag"))), "", slot3:Find("Image"))
 		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot4), "", slot3:Find("name"))
 	else
 		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_%s", string.lower(slot2:getConfig("assets_prefix"))), "", slot3:Find("Image"))
@@ -409,36 +411,6 @@ slot0.UpdateCardProgess = function(slot0)
 	setSlider(slot0.cardDic[slot1.roomId]:Find("operation/loading"), 0, slot1.totalSize, slot1.curSize)
 end
 
-slot0.UpdateSelectableCard = function(slot0, slot1, slot2, slot3)
-	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", slot2), "", slot1:Find("Image"))
-	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot2), "", slot1:Find("name"))
-
-	slot5 = not getProxy(ApartmentProxy):getApartment(slot2) or slot4:needDownload()
-
-	setActive(slot1:Find("lock"), slot5)
-	setActive(slot1:Find("mask"), slot5)
-	setActive(slot1:Find("unlock"), not slot5)
-	setActive(slot1:Find("favor_level"), slot4)
-
-	if slot4 then
-		setText(slot1:Find("favor_level/Text"), slot4.level)
-	end
-
-	onToggle(slot0, slot1, function (slot0)
-		uv0(slot0)
-
-		if slot0 then
-			if not uv1 then
-				pg.TipsMgr.GetInstance():ShowTips(string.format("need unlock apartment{%d}", uv2))
-				triggerToggle(uv3, false)
-			elseif uv1:needDownload() then
-				pg.TipsMgr.GetInstance():ShowTips(string.format("need download resource{%d}", uv2))
-				triggerToggle(uv3, false)
-			end
-		end
-	end, SFX_UI_CLICK)
-end
-
 slot0.DownloadUpdate = function(slot0, slot1, slot2)
 	switch(slot2, {
 		start = function ()
@@ -462,13 +434,13 @@ slot0.DownloadUpdate = function(slot0, slot1, slot2)
 			end
 		end,
 		finish = function ()
-			if uv0.roomDic[uv1] then
-				uv0:UpdateIconState(uv1)
+			for slot3, slot4 in pairs(uv0.roomDic) do
+				uv0:UpdateIconState(slot3)
 			end
 
 			if uv0.cardDic then
-				if uv0.cardDic[uv1] then
-					uv0:UpdateCardState(uv1)
+				for slot3, slot4 in pairs(uv0.cardDic) do
+					uv0:UpdateCardState(slot3)
 				end
 			else
 				uv0:CheckGuide("DORM3D_GUIDE_02")
@@ -571,6 +543,7 @@ slot0.HideMgrPanel = function(slot0)
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMgrPanel, slot0.rtLayer)
 	setActive(slot0.rtMgrPanel, false)
+	slot0:CheckGuide("DORM3D_GUIDE_02")
 end
 
 slot0.TryDownloadResource = function(slot0, slot1, slot2)

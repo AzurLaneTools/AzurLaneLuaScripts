@@ -223,7 +223,6 @@ pg.dorm3d_rooms = {
 			{
 				30221,
 				{
-					"banner_beach1",
 					"banner_beach3"
 				}
 			}

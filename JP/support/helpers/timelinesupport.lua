@@ -57,7 +57,7 @@ slot0.InitSubtitle = function(slot0, slot1)
 						return slot0
 					end
 
-					return string.gsub(pg.dorm3d_subtitle[slot1].subtitle, "$dorm3d", uv0)
+					return HXSet.hxLan(string.gsub(pg.dorm3d_subtitle[slot1].subtitle, "$dorm3d", uv0))
 				end
 			else
 				table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("Lens.Gameplay.Tools.SubtitleTrack"), "GetClips", slot1), function (slot0, slot1)
@@ -68,7 +68,7 @@ slot0.InitSubtitle = function(slot0, slot1)
 						return
 					end
 
-					ReflectionHelp.RefSetField(slot3:GetType(), "subtitle", slot3, string.gsub(pg.dorm3d_subtitle[slot4].subtitle, "$dorm3d", uv0))
+					ReflectionHelp.RefSetField(slot3:GetType(), "subtitle", slot3, HXSet.hxLan(string.gsub(pg.dorm3d_subtitle[slot4].subtitle, "$dorm3d", uv0)))
 				end)
 			end
 		end

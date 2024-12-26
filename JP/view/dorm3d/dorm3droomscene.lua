@@ -550,7 +550,7 @@ slot0.init = function(slot0)
 	onButton(slot0, slot10:Find("Performance"), function ()
 		slot0 = uv0
 
-		slot0:PerformanceQueue("DormLvPerformance204", function ()
+		slot0:DoTalk(20500, function ()
 			pg.TipsMgr.GetInstance():ShowTips("Success!")
 		end)
 	end, "ui-dorm_click_v2")
@@ -839,7 +839,7 @@ slot0.SetUI = function(slot0, slot1, ...)
 			setActive(uv0.rtRole:Find("Gift/bg/Tip"), Dorm3dGift.NeedViewTip(uv0.apartment:GetConfigID()))
 		end,
 		ik = function ()
-			setActive(uv0.uiContianer:Find("ik/Right/MenuSmall"), uv0.room:isPersonalRoom())
+			setActive(uv0.uiContianer:Find("ik/Right/MenuSmall"), uv0.room:isPersonalRoom() and not uv0.performanceInfo)
 			setActive(uv0.uiContianer:Find("ik/Right/Menu"), false)
 		end,
 		walk = function ()
@@ -1882,7 +1882,7 @@ slot0.DoTimelineOption = function(slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
-			setText(slot2:Find("Text"), uv0[slot1].content)
+			setText(slot2:Find("Text"), HXSet.hxLan(uv0[slot1].content))
 			onButton(uv1, slot2, function ()
 				uv0(uv1)
 			end, SFX_CONFIRM)
@@ -2096,6 +2096,9 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 
 	warning(slot1)
 
+	slot0.performanceInfo = {
+		name = slot1
+	}
 	slot5 = {}
 
 	table.insert(slot5, function (slot0)
@@ -2291,6 +2294,8 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 	end))
 	table.insert(slot5, function (slot0)
 		uv0:SetUI(slot0, "back")
+
+		uv0.performanceInfo = nil
 	end)
 	seriesAsync(slot5, slot2)
 end
