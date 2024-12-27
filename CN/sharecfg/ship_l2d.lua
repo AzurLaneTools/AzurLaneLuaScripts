@@ -26775,7 +26775,6 @@ pg.ship_l2d = {
 		ship_skin_id = 207037,
 		mode = 1,
 		react_pos_y = 0,
-		action_trigger = "",
 		revert = -1,
 		react_pos_x = 0,
 		shop_action = 0,
@@ -26852,6 +26851,9 @@ pg.ship_l2d = {
 					}
 				}
 			}
+		},
+		action_trigger = {
+			type = 7
 		},
 		action_trigger_active = {
 			idle_enable = {
@@ -31672,7 +31674,6 @@ pg.ship_l2d = {
 		revert_smooth = 100,
 		limit_time = 1,
 		parts_data = "",
-		relation_parameter = "",
 		ignore_react = 1,
 		gyro = 0,
 		gyro_x = 0,
@@ -31698,6 +31699,42 @@ pg.ship_l2d = {
 			idle = 2,
 			enable = {},
 			ignore = {}
+		},
+		relation_parameter = {
+			list = {
+				{
+					mode = 1,
+					name = "touch_drag15",
+					idle = 2,
+					type = 104,
+					time = 0,
+					target = 0
+				},
+				{
+					mode = 1,
+					name = "touch_drag16",
+					idle = 2,
+					type = 104,
+					time = 0,
+					target = 1
+				},
+				{
+					mode = 1,
+					name = "touch_drag17",
+					idle = 2,
+					type = 104,
+					time = 0,
+					target = 1
+				},
+				{
+					mode = 1,
+					name = "touch_drag18",
+					idle = 2,
+					type = 104,
+					time = 0,
+					target = 0
+				}
+			}
 		}
 	},
 	[49902205] = {
@@ -31719,7 +31756,6 @@ pg.ship_l2d = {
 		revert_smooth = 100,
 		limit_time = 1,
 		parts_data = "",
-		relation_parameter = "",
 		ignore_react = 1,
 		gyro = 0,
 		gyro_x = 0,
@@ -31745,6 +31781,42 @@ pg.ship_l2d = {
 			idle = 3,
 			enable = {},
 			ignore = {}
+		},
+		relation_parameter = {
+			list = {
+				{
+					mode = 1,
+					name = "touch_drag15",
+					idle = 3,
+					type = 104,
+					time = 0,
+					target = 0
+				},
+				{
+					mode = 1,
+					name = "touch_drag16",
+					idle = 3,
+					type = 104,
+					time = 0,
+					target = 1
+				},
+				{
+					mode = 1,
+					name = "touch_drag17",
+					idle = 3,
+					type = 104,
+					time = 0,
+					target = 1
+				},
+				{
+					mode = 1,
+					name = "touch_drag18",
+					idle = 3,
+					type = 104,
+					time = 0,
+					target = 0
+				}
+			}
 		}
 	},
 	[49902206] = {
