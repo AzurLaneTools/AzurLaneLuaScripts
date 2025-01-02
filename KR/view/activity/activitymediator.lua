@@ -46,6 +46,9 @@ slot0.STORE_DATE = "ActivityMediator.STORE_DATE"
 slot0.ON_ACT_SHOPPING = "ActivityMediator.ON_ACT_SHOPPING"
 slot0.GO_MONOPOLY2024 = "ActivityMediator:GO_MONOPOLY2024"
 slot0.ON_ACTIVITY_TASK_SUBMIT = "ActivityMediator.ON_ACTIVITY_TASK_SUBMIT"
+slot0.GO_CHANGE_SHOP = "go Change shop"
+slot0.GO_Activity_level = "go Activity level"
+slot0.ON_ADD_SUBLAYER = "ActivityMediator.ON_ADD_SUBLAYER"
 
 slot0.register = function(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -62,6 +65,34 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.ON_AWARD_WINDOW, function (slot0, slot1, slot2, slot3)
 		uv0.viewComponent:ShowAwardWindow(slot1, slot2, slot3)
+	end)
+	slot0:bind(uv0.GO_CHANGE_SHOP, function ()
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+	end)
+	slot0:bind(uv0.GO_Activity_level, function (slot0)
+		slot2, slot3 = getProxy(ChapterProxy):getLastMapForActivity()
+
+		if not slot2 or not slot1:getMapById(slot2):isUnlock() then
+			slot2 = getProxy(ChapterProxy):getActiveChapter() and slot5:getConfig("map")
+
+			if not slot5 then
+				slot2 = slot4:GetLastNormalMap()
+			end
+
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot5 and slot5.id,
+				mapIdx = slot2
+			})
+		else
+			if not chapter then
+				slot2 = slot1:GetLastNormalMap()
+			end
+
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.LEVEL, {
+				chapterId = slot3,
+				mapIdx = slot2
+			})
+		end
 	end)
 	slot0:bind(uv0.GO_DECODE_MINI_GAME, function (slot0)
 		pg.m02:sendNotification(GAME.REQUEST_MINI_GAME, {
@@ -216,6 +247,9 @@ slot0.register = function(slot0)
 				mapIdx = slot1
 			})
 		end
+	end)
+	slot0:bind(uv0.ON_ADD_SUBLAYER, function (slot0, slot1)
+		uv0:addSubLayers(slot1)
 	end)
 	slot0:bind(uv0.GO_LOTTERY, function (slot0)
 		uv0:addSubLayers(Context.New({

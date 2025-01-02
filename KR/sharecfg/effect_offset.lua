@@ -2166,5 +2166,16 @@ pg.effect_offset = {
 			3,
 			0
 		}
+	},
+	xipeiermeta_shufu = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			-0.5,
+			0
+		}
 	}
 }

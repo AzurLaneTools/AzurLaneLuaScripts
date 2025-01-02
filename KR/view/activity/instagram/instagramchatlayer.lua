@@ -980,7 +980,7 @@ slot0.SetTopicPanel = function(slot0, slot1)
 
 				slot3 = uv0.topics[slot1 + 1]
 
-				setScrollText(slot2:Find("mask/name"), slot3.name)
+				setScrollText(slot2:Find("mask/name"), HXSet.hxLan(slot3.name))
 				SetActive(slot2:Find("lock"), not slot3.active)
 				SetActive(slot2:Find("waiting"), slot3.active and slot3:isWaiting())
 				SetActive(slot2:Find("complete"), slot3.active and slot3:IsCompleted())

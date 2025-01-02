@@ -1147,10 +1147,8 @@ slot9.SpawnNPC = function(slot0, slot1, slot2)
 		})
 	end
 
-	slot7 = uv1.CreateBattleUnitData(slot3, slot4, slot2:GetIFF(), slot1.monsterTemplateID, nil, slot6, slot1.extraInfo, nil, , , , slot1.level)
+	slot7 = uv1.CreateBattleUnitData(slot3, slot4, slot2:GetIFF(), slot1.monsterTemplateID, nil, slot6, slot1.extraInfo, nil, , , , slot1.level, slot2)
 
-	slot7:SetMaster(slot2)
-	slot7:InheritMasterAttr()
 	slot7:SetCurrentHP(slot7:GetMaxHP())
 
 	slot9 = nil

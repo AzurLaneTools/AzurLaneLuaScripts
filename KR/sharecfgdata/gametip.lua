@@ -28943,6 +28943,11 @@ _G.pg.base.gametip.battle_text_tianchengCV_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_lumei_1 = {
+	tip = "「따라오라구! 」"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "감정 부족"
 }
@@ -33839,6 +33844,11 @@ _G.pg.base.gametip.dorm3d_furniture_used = {
 }
 
 
+_G.pg.base.gametip.dorm3d_furniture_lack = {
+	tip = "[미소지]"
+}
+
+
 _G.pg.base.gametip.dorm3d_furniture_unfit = {
 	tip = "적용 불가"
 }
@@ -35263,6 +35273,21 @@ _G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_purchase_label_special = {
+	tip = "특전"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_outtime = {
+	tip = "판매 기간이 아닙니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
+	tip = "아이템이 가구 $1으로 교체되어, 획득할 수 없습니다."
+}
+
+
 _G.pg.base.gametip.cruise_phase_title = {
 	tip = "단계"
 }
@@ -36020,4 +36045,62 @@ _G.pg.base.gametip.notify_clock_tip = {
 
 _G.pg.base.gametip.notify_clock_button = {
 	tip = "알람 권한 허가"
+}
+
+
+_G.pg.base.gametip.skin_shop_nonuse_label = {
+	tip = "할인 미적용"
+}
+
+
+_G.pg.base.gametip.skin_shop_use_label = {
+	tip = "할인 적용"
+}
+
+
+_G.pg.base.gametip.skin_shop_discount_item_link = {
+	tip = "<color=#92fc63>할인 쿠폰</color> <color=#ffea00>-$1</color>"
+}
+
+
+_G.pg.base.gametip.help_starLightAlbum = {
+	tip = {
+		{
+			info = "작전 실적:"
+		},
+		{
+			info = [[
+1. 「추억」 화면에 「작전 실적」이 새로 추가됩니다. 
+2. 이벤트 진행 시에 해당 이벤트의 임무를 클리어하면, <color=#92fc63>「기념 스티커」</color>를 획득할 수 있으며, 스티커를 모으면, 기념장 가구 「레지스탕스 본부 빌딩」과 훈장 「레지스탕스 기념 훈장」을 획득할 수 있습니다. 
+ ※ 이벤트 진행 중에 <color=#92fc63>이벤트 배너의 「실적」이나 「추억」의 「작전 실적」</color>에서 「기념 스티커」 페이지로 이동할 수 있습니다.
+ ※ 이벤트 종료 후에는 <color=#92fc63>「추억」의 「작전 실적」</color>에서만 「기념 스티커」를 확인할 수 있습니다.
+ ※ 「기념 스티커」는 이벤트 임무를 클리어하여 획득할 수 있습니다.
+ ※ 보상 수령 화면의 개방 기간: 1월 22일(수)까지]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.word_gain_date = {
+	tip = "획득 시간:"
+}
+
+
+_G.pg.base.gametip.word_limited_activity = {
+	tip = "이벤트"
+}
+
+
+_G.pg.base.gametip.word_show_expire_content = {
+	tip = "획득 불가능 콘텐츠 표시"
+}
+
+
+_G.pg.base.gametip.word_got_pt = {
+	tip = "획득 완료"
+}
+
+
+_G.pg.base.gametip.word_activity_not_open = {
+	tip = "진행 기간 외"
 }

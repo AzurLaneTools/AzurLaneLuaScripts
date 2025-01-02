@@ -1854,6 +1854,632 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[107] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EP1-1 만남",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_597",
+		story = "XINGGUANGXIADEYUHUI1",
+		change_bgm = "story-ironblood-light",
+		id = 107,
+		lock = ""
+	},
+	[108] = {
+		story_type = 1,
+		name = "EP1-2 관계 구축",
+		change_prefab = "",
+		unlock_conditions = "EP1-1 클리어",
+		change_background = "bg_yuhui_cg_1",
+		story = "XINGGUANGXIADEYUHUI2",
+		change_bgm = "battle-ironblood-defence",
+		id = 108,
+		pre_event = {
+			107
+		},
+		lock = {
+			{
+				4,
+				107
+			}
+		}
+	},
+	[109] = {
+		story_type = 1,
+		name = "EP1-3 레지스탕스",
+		change_prefab = "",
+		unlock_conditions = "EP1-2 클리어",
+		change_background = "bg_yuhui_cg_2",
+		story = "XINGGUANGXIADEYUHUI3",
+		change_bgm = "story-richang-partynight",
+		id = 109,
+		pre_event = {
+			108
+		},
+		lock = {
+			{
+				4,
+				108
+			}
+		}
+	},
+	[110] = {
+		story_type = 1,
+		name = "EP1-4 황혼에 물드는 기지",
+		change_prefab = "",
+		unlock_conditions = "EP1-3 클리어",
+		change_background = "star_level_bg_597",
+		story = "XINGGUANGXIADEYUHUI4",
+		change_bgm = "story-ironblood-light",
+		id = 110,
+		pre_event = {
+			109
+		},
+		lock = {
+			{
+				4,
+				109
+			}
+		}
+	},
+	[111] = {
+		story_type = 2,
+		name = "EP1-5 바다에 가라앉아",
+		change_prefab = "",
+		unlock_conditions = "EP1-4 클리어",
+		change_background = "bg_port_chongdong",
+		story = "1886001",
+		change_bgm = "story-startravel",
+		id = 111,
+		pre_event = {
+			110
+		},
+		lock = {
+			{
+				4,
+				110
+			}
+		}
+	},
+	[112] = {
+		story_type = 1,
+		name = "EPS1-1 아득한 대국",
+		change_prefab = "",
+		unlock_conditions = "EP1-5 클리어",
+		change_background = "star_level_bg_111",
+		story = "XINGGUANGXIADEYUHUI6",
+		change_bgm = "theme-amagi-cv",
+		id = 112,
+		pre_event = {
+			111
+		},
+		lock = {
+			{
+				4,
+				111
+			}
+		}
+	},
+	[113] = {
+		story_type = 1,
+		name = "EPS1-2 사쿠라 엠파이어의 파빌리온",
+		change_prefab = "",
+		unlock_conditions = "EPS 1-1 클리어",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI7",
+		change_bgm = "theme-themagicianI",
+		id = 113,
+		pre_event = {
+			111
+		},
+		lock = {
+			{
+				4,
+				112
+			}
+		}
+	},
+	[114] = {
+		story_type = 1,
+		name = "EPS1-3 오랜 인연?",
+		change_prefab = "",
+		unlock_conditions = "EPS 1-2 클리어",
+		change_background = "star_level_bg_300",
+		story = "XINGGUANGXIADEYUHUI8",
+		change_bgm = "story-ironblood-light",
+		id = 114,
+		pre_event = {
+			111
+		},
+		lock = {
+			{
+				4,
+				113
+			}
+		}
+	},
+	[115] = {
+		story_type = 1,
+		name = "EP2-1 두 번째 기회",
+		change_prefab = "",
+		unlock_conditions = "EPS 1-3 클리어",
+		change_background = "bg_yuhui_1",
+		story = "XINGGUANGXIADEYUHUI9",
+		change_bgm = "story-ironblood-light",
+		id = 115,
+		pre_event = {
+			112,
+			113,
+			114
+		},
+		lock = {
+			{
+				4,
+				114
+			}
+		}
+	},
+	[116] = {
+		story_type = 1,
+		name = "EP2-2 이터널 스타 수복 작전",
+		change_prefab = "",
+		unlock_conditions = "EP2-1 클리어",
+		change_background = "bg_story_chuansong",
+		story = "XINGGUANGXIADEYUHUI10",
+		change_bgm = "story-ironblood-strong",
+		id = 116,
+		pre_event = {
+			115
+		},
+		lock = {
+			{
+				4,
+				115
+			}
+		}
+	},
+	[117] = {
+		story_type = 1,
+		name = "EP2-3 에너지 미네랄",
+		change_prefab = "",
+		unlock_conditions = "EP2-2 클리어",
+		change_background = "star_level_bg_596",
+		story = "XINGGUANGXIADEYUHUI11",
+		change_bgm = "story-ironblood-strong",
+		id = 117,
+		pre_event = {
+			116
+		},
+		lock = {
+			{
+				4,
+				116
+			}
+		}
+	},
+	[118] = {
+		story_type = 2,
+		name = "EP2-4 사냥 중의 희생",
+		change_prefab = "",
+		unlock_conditions = "EP2-3 클리어",
+		change_background = "bg_port_chongdong",
+		story = "1886002",
+		change_bgm = "story-startravel",
+		id = 118,
+		pre_event = {
+			117
+		},
+		lock = {
+			{
+				4,
+				117
+			}
+		}
+	},
+	[119] = {
+		story_type = 1,
+		name = "EPS2-1 간접적 위치 파악",
+		change_prefab = "",
+		unlock_conditions = "EP2-4 클리어",
+		change_background = "star_level_bg_111",
+		story = "XINGGUANGXIADEYUHUI13",
+		change_bgm = "theme-unzen",
+		id = 119,
+		pre_event = {
+			118
+		},
+		lock = {
+			{
+				4,
+				118
+			}
+		}
+	},
+	[120] = {
+		story_type = 1,
+		name = "EPS2-2 지휘관에 대해",
+		change_prefab = "",
+		unlock_conditions = "EPS2-1 클리어",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI14",
+		change_bgm = "theme-themagicianI",
+		id = 120,
+		pre_event = {
+			118
+		},
+		lock = {
+			{
+				4,
+				119
+			}
+		}
+	},
+	[121] = {
+		story_type = 1,
+		name = "EPS2-3 고찰과 논의",
+		change_prefab = "",
+		unlock_conditions = "EPS2-2 클리어",
+		change_background = "bg_story_chuansong",
+		story = "XINGGUANGXIADEYUHUI15",
+		change_bgm = "story-ironblood-strong",
+		id = 121,
+		pre_event = {
+			118
+		},
+		lock = {
+			{
+				4,
+				120
+			}
+		}
+	},
+	[122] = {
+		story_type = 1,
+		name = "EP3-1 준비",
+		change_prefab = "",
+		unlock_conditions = "EPS2-3 클리어",
+		change_background = "bg_yuhui_3",
+		story = "XINGGUANGXIADEYUHUI16",
+		change_bgm = "story-ironblood-strong",
+		id = 122,
+		pre_event = {
+			119,
+			120,
+			121
+		},
+		lock = {
+			{
+				4,
+				121
+			}
+		}
+	},
+	[123] = {
+		story_type = 1,
+		name = "EP3-2 기지 방호",
+		change_prefab = "",
+		unlock_conditions = "EP3-1 클리어",
+		change_background = "bg_yuhui_cg_4",
+		story = "XINGGUANGXIADEYUHUI17",
+		change_bgm = "theme-starbeast",
+		id = 123,
+		pre_event = {
+			122
+		},
+		lock = {
+			{
+				4,
+				122
+			}
+		}
+	},
+	[124] = {
+		story_type = 2,
+		name = "EP3-3 밤하늘의 지배자",
+		change_prefab = "",
+		unlock_conditions = "EP3-2 클리어",
+		change_background = "star_level_bg_111",
+		story = "1886003",
+		change_bgm = "battle-xinnong-image",
+		id = 124,
+		pre_event = {
+			123
+		},
+		lock = {
+			{
+				4,
+				123
+			}
+		}
+	},
+	[125] = {
+		story_type = 1,
+		name = "EPS3-1 법진 속",
+		change_prefab = "",
+		unlock_conditions = "EP3-3 클리어",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI19",
+		change_bgm = "theme-themagicianI",
+		id = 125,
+		pre_event = {
+			124
+		},
+		lock = {
+			{
+				4,
+				124
+			}
+		}
+	},
+	[126] = {
+		story_type = 1,
+		name = "EPS3-2 가능성의 한계",
+		change_prefab = "",
+		unlock_conditions = "EPS3-1 클리어",
+		change_background = "bg_yuhui_3",
+		story = "XINGGUANGXIADEYUHUI20",
+		change_bgm = "story-ironblood-strong",
+		id = 126,
+		pre_event = {
+			124
+		},
+		lock = {
+			{
+				4,
+				125
+			}
+		}
+	},
+	[127] = {
+		story_type = 1,
+		name = "EP4-1 결전 준비",
+		change_prefab = "",
+		unlock_conditions = "EPS3-2 클리어",
+		change_background = "bg_yuhui_cg_6",
+		story = "XINGGUANGXIADEYUHUI21",
+		change_bgm = "battle-ironblood-defence",
+		id = 127,
+		pre_event = {
+			125,
+			126
+		},
+		lock = {
+			{
+				4,
+				126
+			}
+		}
+	},
+	[128] = {
+		story_type = 2,
+		name = "EP4-2 안개 속에서 사라지다",
+		change_prefab = "",
+		unlock_conditions = "EP4-1 클리어",
+		change_background = "bg_yuhui_4",
+		story = "1886004",
+		change_bgm = "story-ironblood-strong",
+		id = 128,
+		pre_event = {
+			127
+		},
+		lock = {
+			{
+				4,
+				127
+			}
+		}
+	},
+	[129] = {
+		story_type = 1,
+		name = "EPS4-1 마음",
+		change_prefab = "",
+		unlock_conditions = "EP4-2 클리어",
+		change_background = "star_level_bg_147",
+		story = "XINGGUANGXIADEYUHUI23",
+		change_bgm = "theme-akagi-meta",
+		id = 129,
+		pre_event = {
+			128
+		},
+		lock = {
+			{
+				4,
+				128
+			}
+		}
+	},
+	[130] = {
+		story_type = 1,
+		name = "EPS4-2 하나로 이어진 마음",
+		change_prefab = "",
+		unlock_conditions = "EPS4-1 클리어",
+		change_background = "bg_yuhui_3",
+		story = "XINGGUANGXIADEYUHUI24",
+		change_bgm = "battle-ironblood-defence",
+		id = 130,
+		pre_event = {
+			128
+		},
+		lock = {
+			{
+				4,
+				129
+			}
+		}
+	},
+	[131] = {
+		story_type = 1,
+		name = "EP5-1 또 다른 계획",
+		change_prefab = "",
+		unlock_conditions = "EPS4-2 클리어",
+		change_background = "star_level_bg_499",
+		story = "XINGGUANGXIADEYUHUI25",
+		change_bgm = "story-ironblood-light",
+		id = 131,
+		pre_event = {
+			129,
+			130
+		},
+		lock = {
+			{
+				4,
+				130
+			}
+		}
+	},
+	[132] = {
+		story_type = 1,
+		name = "EP5-2 마음의 구현화",
+		change_prefab = "",
+		unlock_conditions = "EP5-1 클리어",
+		change_background = "bg_yuhui_cg_7",
+		story = "XINGGUANGXIADEYUHUI26",
+		change_bgm = "story-ironblood-light",
+		id = 132,
+		pre_event = {
+			131
+		},
+		lock = {
+			{
+				4,
+				131
+			}
+		}
+	},
+	[133] = {
+		story_type = 2,
+		name = "EP5-3 나란히 서서",
+		change_prefab = "",
+		unlock_conditions = "EP5-2 클리어",
+		change_background = "bg_yuhui_cg_11",
+		story = "1886005",
+		change_bgm = "theme-themagicianI",
+		id = 133,
+		pre_event = {
+			132
+		},
+		lock = {
+			{
+				4,
+				132
+			}
+		}
+	},
+	[134] = {
+		story_type = 1,
+		name = "EP5-4 매지션의 점술",
+		change_prefab = "",
+		unlock_conditions = "EP5-3 클리어",
+		change_background = "star_level_bg_589",
+		story = "XINGGUANGXIADEYUHUI28",
+		change_bgm = "story-mirrorheart-mystic",
+		id = 134,
+		pre_event = {
+			133
+		},
+		lock = {
+			{
+				4,
+				133
+			}
+		}
+	},
+	[135] = {
+		story_type = 1,
+		name = "EP5-5 에필로그",
+		change_prefab = "",
+		unlock_conditions = "EP5-4 클리어",
+		change_background = "bg_port_chongdong",
+		story = "XINGGUANGXIADEYUHUI29",
+		change_bgm = "story-startravel",
+		id = 135,
+		pre_event = {
+			134
+		},
+		lock = {
+			{
+				4,
+				134
+			}
+		}
+	},
+	[136] = {
+		story_type = 1,
+		name = "EX-1 빙산의 일각",
+		change_prefab = "",
+		unlock_conditions = "EP5-5 클리어",
+		change_background = "bg_guild_blue_n",
+		story = "XINGGUANGXIADEYUHUI30",
+		change_bgm = "story-newsakura",
+		id = 136,
+		pre_event = {
+			135
+		},
+		lock = {
+			{
+				4,
+				135
+			}
+		}
+	},
+	[137] = {
+		story_type = 1,
+		name = "EX-2 미래를 향해",
+		change_prefab = "",
+		unlock_conditions = "EX-1 클리어",
+		change_background = "star_level_bg_589",
+		story = "XINGGUANGXIADEYUHUI31",
+		change_bgm = "theme-richard",
+		id = 137,
+		pre_event = {
+			136
+		},
+		lock = {
+			{
+				4,
+				136
+			}
+		}
+	},
+	[138] = {
+		story_type = 1,
+		name = "EX-3 새로운 장난감",
+		change_prefab = "",
+		unlock_conditions = "EX-2 클리어",
+		change_background = "bg_underheaven_0",
+		story = "XINGGUANGXIADEYUHUI32",
+		change_bgm = "theme-underheaven",
+		id = 138,
+		pre_event = {
+			137
+		},
+		lock = {
+			{
+				4,
+				137
+			}
+		}
+	},
+	[139] = {
+		story_type = 1,
+		name = "EX-4 선택받은 자",
+		change_prefab = "",
+		unlock_conditions = "EX-3 클리어",
+		change_background = "bg_yuhui_2",
+		story = "XINGGUANGXIADEYUHUI33",
+		change_bgm = "story-ironblood-light",
+		id = 139,
+		pre_event = {
+			138
+		},
+		lock = {
+			{
+				4,
+				138
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1953,6 +2579,39 @@ pg.activity_sp_story = {
 		103,
 		104,
 		105,
-		106
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139
 	}
 }

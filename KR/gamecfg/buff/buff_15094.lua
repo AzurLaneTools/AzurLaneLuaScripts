@@ -10,5 +10,16 @@ return {
 	color = "red",
 	icon = 15090,
 	last_effect = "",
-	effect_list = {}
+	effect_list = {
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
+				tag = "xiyinxiaoguo"
+			}
+		}
+	}
 }

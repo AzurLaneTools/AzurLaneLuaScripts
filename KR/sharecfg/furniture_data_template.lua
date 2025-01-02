@@ -154,6 +154,7 @@ pg.furniture_data_template = setmetatable({
 			288,
 			289,
 			292,
+			293,
 			100002,
 			100003,
 			100004,
@@ -3248,6 +3249,25 @@ pg.furniture_data_template = setmetatable({
 			316307,
 			316308,
 			316309
+		},
+		[117] = {
+			317001,
+			317002,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317107,
+			317108,
+			317109,
+			317110,
+			317111,
+			317301,
+			317302,
+			317303,
+			317304
 		}
 	},
 	get_id_list_by_tag = {
@@ -5180,7 +5200,17 @@ pg.furniture_data_template = setmetatable({
 			316119,
 			316120,
 			316121,
-			316122
+			316122,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317107,
+			317108,
+			317109,
+			317110
 		},
 		{
 			1108,
@@ -5559,7 +5589,8 @@ pg.furniture_data_template = setmetatable({
 			284,
 			287,
 			289,
-			292
+			292,
+			293
 		},
 		[7] = {
 			213,
@@ -5753,7 +5784,8 @@ pg.furniture_data_template = setmetatable({
 			313113,
 			314113,
 			315113,
-			316123
+			316123,
+			317111
 		},
 		[4] = {
 			1001,
@@ -5856,7 +5888,8 @@ pg.furniture_data_template = setmetatable({
 			313001,
 			314001,
 			315001,
-			316001
+			316001,
+			317001
 		},
 		[3] = {
 			1002,
@@ -5960,7 +5993,8 @@ pg.furniture_data_template = setmetatable({
 			313002,
 			314002,
 			315002,
-			316002
+			316002,
+			317002
 		},
 		[5] = {
 			1301,
@@ -6308,7 +6342,11 @@ pg.furniture_data_template = setmetatable({
 			316306,
 			316307,
 			316308,
-			316309
+			316309,
+			317301,
+			317302,
+			317303,
+			317304
 		}
 	},
 	get_id_list_by_type = {
@@ -6414,7 +6452,8 @@ pg.furniture_data_template = setmetatable({
 			313002,
 			314002,
 			315002,
-			316002
+			316002,
+			317002
 		},
 		[7] = {
 			1,
@@ -6547,6 +6586,7 @@ pg.furniture_data_template = setmetatable({
 			288,
 			289,
 			292,
+			293,
 			100002,
 			100004,
 			100005,
@@ -8530,7 +8570,17 @@ pg.furniture_data_template = setmetatable({
 			316119,
 			316120,
 			316122,
-			316123
+			316123,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317108,
+			317109,
+			317110,
+			317111
 		},
 		[11] = {
 			131,
@@ -8581,7 +8631,8 @@ pg.furniture_data_template = setmetatable({
 			301105,
 			312115,
 			316112,
-			316121
+			316121,
+			317107
 		},
 		[14] = {
 			214,
@@ -8707,7 +8758,8 @@ pg.furniture_data_template = setmetatable({
 			313001,
 			314001,
 			315001,
-			316001
+			316001,
+			317001
 		},
 		[5] = {
 			1101,
@@ -9349,7 +9401,11 @@ pg.furniture_data_template = setmetatable({
 			316306,
 			316307,
 			316308,
-			316309
+			316309,
+			317301,
+			317302,
+			317303,
+			317304
 		},
 		[8] = {
 			17121
@@ -9540,6 +9596,7 @@ pg.furniture_data_template = setmetatable({
 		288,
 		289,
 		292,
+		293,
 		100002,
 		100003,
 		100004,
@@ -12429,7 +12486,24 @@ pg.furniture_data_template = setmetatable({
 		316306,
 		316307,
 		316308,
-		316309
+		316309,
+		317001,
+		317002,
+		317101,
+		317102,
+		317103,
+		317104,
+		317105,
+		317106,
+		317107,
+		317108,
+		317109,
+		317110,
+		317111,
+		317301,
+		317302,
+		317303,
+		317304
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20095,6 +20169,43 @@ pg.base.furniture_data_template = {
 				"tolovexunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[293] = {
+		can_rotate = 0,
+		describe = "어느 세계에 있는 메탈 블러드 공국 레지스탕스의 본부 빌딩 미니어쳐. 전자 회로가 내장되어 있어, 밤이 되면 스탠드 조명으로도 활용할 수 있다.",
+		gain_by = "별빛 아래의 석양",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/fulicixunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "레지스탕스 본부 빌딩",
+		advice = 0,
+		icon = "fulicixunzhangicon",
+		id = 293,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -149007,6 +149118,862 @@ pg.base.furniture_data_template = {
 		comfortable = 0,
 		size = {
 			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317001] = {
+		can_rotate = 0,
+		describe = "쓰러지기 전에 푹 쉬어둬.",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/dibanft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "러프 셸터 바닥",
+		advice = 0,
+		icon = "dibanfticon",
+		id = 317001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317002] = {
+		can_rotate = 0,
+		describe = "쓰러지기 전에 푹 쉬어둬.",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/qiangbift",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "러프 셸터 벽",
+		advice = 0,
+		icon = "qiangbifticon",
+		id = 317002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317101] = {
+		can_rotate = 0,
+		describe = "녹은 슬었지만…… 자기에는 나쁘지 않다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/chuangft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "녹슨 침대",
+		advice = 0,
+		id = 317101,
+		icon = "chuangftcion",
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					21,
+					28
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317102] = {
+		can_rotate = 0,
+		describe = "개조한 캠핑 카. 편안한 집이자 요새이기도 하다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/fangcheft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "캠핑 카",
+		advice = 0,
+		id = 317102,
+		icon = "fangchefticon",
+		comfortable = 4,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-108.9,
+					-124
+				},
+				{
+					-1,
+					1
+				},
+				"ft/fangcheft_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317103] = {
+		can_rotate = 0,
+		describe = "세상을 구할 무기도 만들 수 있을지도 모르지만, 빛에 눈이 멀지 않도록 조심해야 한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "작업대",
+		advice = 0,
+		id = 317103,
+		icon = "gongzuotaifticon",
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gongzuotaift",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317104] = {
+		can_rotate = 0,
+		describe = "연기. 냄새. 온기. 눈이 점점 무거워지는 느낌이다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "러프 셸터 화톳불",
+		advice = 0,
+		id = 317104,
+		icon = "gouhuofticon",
+		comfortable = 4,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouhuoft",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317105] = {
+		can_rotate = 0,
+		describe = "용수철에 엉덩이를 찔리지 않도록 주의할 것!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/shafaft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "러프 셸터 소파",
+		advice = 0,
+		id = 317105,
+		icon = "shafafticon",
+		comfortable = 3,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12,
+					-2.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317106] = {
+		can_rotate = 0,
+		describe = "어디서든 흔히 볼 수 있는 평범한 의자. 무기로 사용할 수 있을지도 모른다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/yizift",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 3,
+		name = "러프 셸터 의자",
+		advice = 0,
+		id = 317106,
+		icon = "yizifticon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15.7,
+					29.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317107] = {
+		can_rotate = 0,
+		describe = "연로와 무기 모두 충분한 차량. 내 애마는 난폭하다고 쥬쥬…",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 117,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yueyechefticon",
+		count = 1,
+		name = "전투용 오프로드 카",
+		advice = 0,
+		id = 317107,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yueyecheftB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"yueyecheftT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[317108] = {
+		can_rotate = 0,
+		describe = "뚜껑을 누가 닫기라도 하면……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/zaotongft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "러프 셸터 욕탕",
+		advice = 0,
+		id = 317108,
+		icon = "zaotongfticon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-19.1,
+					-100.8
+				},
+				{
+					-1,
+					1
+				},
+				"ft/zaotongft_using",
+				0,
+				{
+					{
+						0.5,
+						143.7
+					},
+					{
+						232,
+						200
+					},
+					"ft/zaotongft_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317109] = {
+		can_rotate = 0,
+		describe = "무언가 놀라운 게 들어있을지도 모른다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/zawuxiangft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "러프 셸터 창고",
+		advice = 0,
+		icon = "zawuxiangfticon",
+		id = 317109,
+		comfortable = 3,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317110] = {
+		can_rotate = 0,
+		describe = "무언가 놀라운 게 들어있을지도 모른다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 117,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "zawuduifticon",
+		count = 1,
+		name = "러프 셸터 창고 2",
+		advice = 0,
+		id = 317110,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zawuduift",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[317111] = {
+		can_rotate = 0,
+		describe = "주변 분위기와 비교해도 이질적인 태양광 시스템. 무슨 무기에서 떼어낸 장치인 듯하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 117,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "taiyangnengdianchifticon",
+		count = 1,
+		name = "솔라 토르",
+		advice = 0,
+		id = 317111,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taiyangnengdianchiftB",
+				"normal"
+			},
+			{
+				"taiyangnengdianchiftT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[317301] = {
+		can_rotate = 0,
+		describe = "서바이벌 스킬을 단련하고 싶다고? 이걸 사용해 봐!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "다트 보드 1",
+		advice = 0,
+		id = 317301,
+		icon = "bazi1fticon",
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bazi1ft",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317302] = {
+		can_rotate = 0,
+		describe = "서바이벌 스킬을 단련하고 싶다고? 이걸 사용해 봐!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "다트 보드 2",
+		advice = 0,
+		id = 317302,
+		icon = "bazi2fticon",
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bazi2ft",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317303] = {
+		can_rotate = 0,
+		describe = "서바이벌 아이템을 둘 수 있는 선반. 이 아이템들이야말로 친한 친구!",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/gongjujiaft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "서바이벌 보관 선반",
+		advice = 0,
+		icon = "gongjujiafticon",
+		id = 317303,
+		comfortable = 3,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317304] = {
+		can_rotate = 0,
+		describe = "낙서와 너덜너덜한 포스터는 옛 시대를 떠올리게 해 줄…지도 모른다.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/haibaoft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "낙서된 벽",
+		advice = 0,
+		icon = "haibaofticon",
+		id = 317304,
+		comfortable = 2,
+		size = {
+			6,
 			0
 		},
 		offset = {},

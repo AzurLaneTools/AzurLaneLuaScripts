@@ -30,7 +30,7 @@ slot0.init = function(slot0)
 	end)
 
 	slot4 = i18n
-	slot5 = "msgbox_text_use"
+	slot5 = "go_skinexperienceshop_btn_label"
 
 	for slot4, slot5 in pairs({
 		okBtn = {
@@ -59,13 +59,25 @@ slot0.init = function(slot0)
 		},
 		metaskillBtn = {
 			"metaskill_use_btn",
-			slot4(slot5)
+			i18n("msgbox_text_use")
 		},
 		blueBtn = {
 			"blue_btn"
 		},
 		yellowBtn = {
 			"yellow_btn"
+		},
+		recycleBtn = {
+			"recycle_btn",
+			i18n("recycle_btn_label")
+		},
+		skinShopBtn = {
+			"skin_shop_btn",
+			i18n("go_skinshop_btn_label")
+		},
+		skinExperienceShopBtn = {
+			"skin_experience_shop_btn",
+			slot4(slot5)
 		}
 	}) do
 		slot6, slot7 = unpack(slot5)
@@ -76,33 +88,62 @@ slot0.init = function(slot0)
 		end
 	end
 
-	slot0.itemTF = slot0.window:Find("item")
+	slot1 = slot0.window
+	slot0.itemTF = slot1:Find("item")
 	slot0.operatePanel = slot0:findTF("operate")
-	slot0.countTF = slot0.operatePanel:Find("item/left/own/Text"):GetComponent(typeof(Text))
-	slot0.keepFateTog = slot0.operatePanel:Find("got/keep_tog")
+	slot1 = slot0.operatePanel
+	slot1 = slot1:Find("item/left/own/Text")
+	slot0.countTF = slot1:GetComponent(typeof(Text))
+	slot1 = slot0.operatePanel
+	slot0.keepFateTog = slot1:Find("got/keep_tog")
+	slot2 = slot0.keepFateTog
 
-	setText(slot0.keepFateTog:Find("label"), i18n("keep_fate_tip"))
+	setText(slot2:Find("label"), i18n("keep_fate_tip"))
 
-	slot0.operateBtns = {
-		Confirm = slot0.operatePanel:Find("actions/confirm_button"),
-		Cancel = slot0.operatePanel:Find("actions/cancel_button"),
-		Resolve = slot0.operatePanel:Find("actions/resolve_button")
-	}
+	slot0.operateBtns = {}
+	slot2 = slot0.operatePanel
+	slot0.operateBtns.Confirm = slot2:Find("actions/confirm_button")
+	slot2 = slot0.operatePanel
+	slot0.operateBtns.Cancel = slot2:Find("actions/cancel_button")
+	slot2 = slot0.operatePanel
+	slot0.operateBtns.Resolve = slot2:Find("actions/resolve_button")
+	slot2 = slot0.operateBtns.Confirm
 
-	setText(slot0.operateBtns.Confirm:Find("label"), i18n("msgbox_text_confirm"))
-	setText(slot0.operateBtns.Cancel:Find("label"), i18n("msgbox_text_cancel"))
-	setText(slot0.operateBtns.Resolve:Find("label"), i18n("msgbox_text_analyse"))
+	setText(slot2:Find("label"), i18n("msgbox_text_confirm"))
+
+	slot2 = slot0.operateBtns.Cancel
+
+	setText(slot2:Find("label"), i18n("msgbox_text_cancel"))
+
+	slot2 = slot0.operateBtns.Resolve
+
+	setText(slot2:Find("label"), i18n("msgbox_text_analyse"))
 	SetActive(slot0.operatePanel, false)
 	SetActive(slot0.window, true)
 
 	slot0.operateMode = nil
-	slot0.operateBonusList = slot0.operatePanel:Find("got/panel_bg/list")
-	slot0.operateBonusTpl = slot0.operatePanel:Find("got/panel_bg/list/item")
-	slot0.operateCountdesc = slot0.operatePanel:Find("count/image_text")
-	slot0.operateValue = slot0.operatePanel:Find("count/number_panel/value")
-	slot0.operateLeftButton = slot0.operatePanel:Find("count/number_panel/left")
-	slot0.operateRightButton = slot0.operatePanel:Find("count/number_panel/right")
-	slot0.operateMaxButton = slot0.operatePanel:Find("count/max")
+	slot1 = slot0.operatePanel
+	slot0.operateBonusList = slot1:Find("got/panel_bg/list")
+	slot1 = slot0.operatePanel
+	slot0.operateBonusTpl = slot1:Find("got/panel_bg/list/item")
+	slot1 = slot0.operatePanel
+	slot0.operateCountdesc = slot1:Find("count/image_text")
+	slot1 = slot0.operatePanel
+	slot0.operateValue = slot1:Find("count/number_panel/value")
+	slot1 = slot0.operatePanel
+	slot0.operateLeftButton = slot1:Find("count/number_panel/left")
+	slot1 = slot0.operatePanel
+	slot0.operateRightButton = slot1:Find("count/number_panel/right")
+	slot1 = slot0.operatePanel
+	slot0.operateMaxButton = slot1:Find("count/max")
+	slot0.recycleConfirmationPage = ItemRecycleConfirmationPage.New(pg.UIMgr.GetInstance().OverlayMain)
+	slot1 = slot0.recycleConfirmationPage
+
+	slot1:SetCallback(function ()
+		setActive(uv0._tf, false)
+	end, function ()
+		setActive(uv0._tf, true)
+	end)
 end
 
 slot0.getButton = function(slot0, slot1, slot2)
@@ -274,6 +315,11 @@ slot0.setItem = function(slot0, slot1)
 			uv0:closeView()
 		end, SFX_PANEL)
 		setActive(slot0.okBtn, true)
+	elseif slot0.itemVO:IsExclusiveDiscountType() then
+		setActive(slot0.recycleBtn, true)
+		setActive(slot0.skinShopBtn, true)
+	elseif slot0.itemVO:IsSkinExperienceType() then
+		setActive(slot0.skinExperienceShopBtn, true)
 	else
 		setActive(slot0.okBtn, true)
 	end
@@ -363,6 +409,25 @@ slot0.didEnter = function(slot0)
 		else
 			uv0:SetOperateCount(1)
 		end
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.recycleBtn, function ()
+		uv0.recycleConfirmationPage:ExecuteAction("Show", {
+			content = i18n("skin_discount_item_recycle_tip", uv0.itemVO:getName(), (uv0.itemVO:GetPrice() or {
+				0,
+				0
+			})[2]),
+			itemId = uv0.itemVO.id
+		})
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.skinShopBtn, function ()
+		uv0:closeView()
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
+	end, SFX_CONFIRM)
+	onButton(slot0, slot0.skinExperienceShopBtn, function ()
+		uv0:closeView()
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP, {
+			mode = NewSkinShopScene.MODE_EXPERIENCE_FOR_ITEM
+		})
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.operateBtns.Resolve, function ()
 		uv0:emit(ItemInfoMediator.SELL_BLUEPRINT, Drop.New({
@@ -546,6 +611,12 @@ slot0.willExit = function(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+
+	if slot0.recycleConfirmationPage then
+		slot0.recycleConfirmationPage:Destroy()
+
+		slot0.recycleConfirmationPage = nil
+	end
 end
 
 slot0.PlayOpenBox = function(slot0, slot1, slot2)

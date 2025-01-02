@@ -470,7 +470,7 @@ pg.item_data_frame = {
 	},
 	[333] = {
 		name = "하늘 밖의 별빛",
-		gain_by = "",
+		gain_by = "星光下的余晖",
 		time_second = 0,
 		id = 333,
 		time_limit_type = 0,

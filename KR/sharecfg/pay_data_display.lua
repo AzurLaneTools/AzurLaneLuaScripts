@@ -70,6 +70,8 @@ pg.pay_data_display = setmetatable({
 		74,
 		75,
 		76,
+		82,
+		83,
 		1000,
 		1001,
 		1002,
@@ -123,7 +125,10 @@ pg.pay_data_display = setmetatable({
 		2033,
 		2034,
 		2035,
-		2036
+		2036,
+		2037,
+		2038,
+		2039
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -7286,6 +7291,234 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[82] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다.\n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "게임의 밤 패키지·I",
+		first_pay_double = 0,
+		name_display = "게임의 밤 패키지·I",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "게임의 밤 패키지·I",
+		money = 36300,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai19",
+		skin_inquire_relation = 86208,
+		id_str = "alkrgift110",
+		extra_service = 3,
+		id = 82,
+		airijp_id = "com.yostarjp.azurlane.diamond170",
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		}
+	},
+	[83] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다.\n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "현란한 밤 패키지·I 복각",
+		first_pay_double = 0,
+		name_display = "현란한 밤 패키지·I 복각",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "현란한 밤 패키지·I 복각",
+		money = 36300,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai9",
+		skin_inquire_relation = 86200,
+		id_str = "alkrgift111",
+		extra_service = 3,
+		id = 83,
+		airijp_id = "com.yostarjp.azurlane.diamond171",
+		extra_service_item = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81200,
+				1
+			}
+		}
+	},
 	[1000] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -11373,6 +11606,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2037] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·크리스마스",
+		first_pay_double = 0,
+		name_display = "전투 UI·크리스마스",
+		descrip = "전투 UI 테마·크리스마스를 획득할 수 있습니다.",
+		subject = "전투 UI·크리스마스",
+		money = 19000,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift112",
+		extra_service = 3,
+		id = 2037,
+		airijp_id = "com.yostarjp.azurlane.ui3",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2038] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·크리스마스 (기초판)",
+		first_pay_double = 0,
+		name_display = "전투 UI·크리스마스 (기초판)",
+		descrip = "전투 UI 테마·크리스마스를 획득할 수 있습니다.",
+		subject = "전투 UI·크리스마스 (기초판)",
+		money = 19000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift112",
+		extra_service = 3,
+		id = 2038,
+		airijp_id = "com.yostarjp.azurlane.ui4",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40051,
+				1
+			}
+		}
+	},
+	[2039] = {
+		extra_gem = 0,
+		limit_group = 102,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·크리스마스 (럭셔리판)",
+		first_pay_double = 0,
+		name_display = "전투 UI·크리스마스 (럭셔리판)",
+		descrip = "전투 UI·크리스마스, 다이아 3,060개를 획득할 수 있습니다.",
+		subject = "전투 UI·크리스마스 (럭셔리판)",
+		money = 56000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui2",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift113",
+		extra_service = 3,
+		id = 2039,
+		airijp_id = "com.yostarjp.azurlane.ui5",
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40052,
 				1
 			}
 		}

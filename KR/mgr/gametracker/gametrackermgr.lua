@@ -107,8 +107,6 @@ slot0.FetchCache = function(slot0)
 		return
 	end
 
-	slot0.readBuffer = {}
-
 	for slot8, slot9 in ipairs(_.map(string.split(slot2, uv1), function (slot0)
 		return GameTrackerBuilder.DeSerializedItem(slot0)
 	end)) do

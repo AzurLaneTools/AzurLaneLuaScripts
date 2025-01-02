@@ -3978,6 +3978,87 @@ pg.drop_data_restore = {
 		drop_id = 0,
 		target_id = 322
 	},
+	[509] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 509,
+		resource_num = 1180,
+		drop_id = 998310,
+		target_id = 407041
+	},
+	[510] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 510,
+		resource_num = 1180,
+		drop_id = 998310,
+		target_id = 405013
+	},
+	[511] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 511,
+		resource_num = 1180,
+		drop_id = 998310,
+		target_id = 499053
+	},
+	[512] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 512,
+		resource_num = 980,
+		drop_id = 998310,
+		target_id = 401521
+	},
+	[513] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 513,
+		resource_num = 980,
+		drop_id = 998310,
+		target_id = 402111
+	},
+	[514] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 514,
+		resource_num = 980,
+		drop_id = 998310,
+		target_id = 207054
+	},
+	[515] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 515,
+		resource_num = 880,
+		drop_id = 998310,
+		target_id = 201354
+	},
+	[516] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 516,
+		resource_num = 780,
+		drop_id = 998310,
+		target_id = 401091
+	},
+	[517] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 517,
+		resource_num = 780,
+		drop_id = 998310,
+		target_id = 401111
+	},
 	[998] = {
 		target_type = 7,
 		resource_type = 1,
@@ -4544,6 +4625,15 @@ pg.drop_data_restore = {
 		resource_num = 2000,
 		drop_id = 65273,
 		target_id = 302041
+	},
+	[5021] = {
+		target_type = 7,
+		resource_type = 1,
+		type = 1,
+		id = 5021,
+		resource_num = 2000,
+		drop_id = 904641,
+		target_id = 201235
 	},
 	[6000] = {
 		target_type = 5,
@@ -5276,6 +5366,15 @@ pg.drop_data_restore = {
 		506,
 		507,
 		508,
+		509,
+		510,
+		511,
+		512,
+		513,
+		514,
+		515,
+		516,
+		517,
 		998,
 		1020,
 		1142,
@@ -5339,6 +5438,7 @@ pg.drop_data_restore = {
 		5018,
 		5019,
 		5020,
+		5021,
 		6000,
 		7001,
 		7002,

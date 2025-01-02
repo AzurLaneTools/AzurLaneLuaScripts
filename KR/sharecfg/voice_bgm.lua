@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "story-ironblood-light",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-ironblood-light"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1046,9 +1046,9 @@ pg.voice_bgm = {
 		bgm = "story-dazy-style"
 	},
 	VampireSkinPage2 = {
-		default_bgm = "main-christmas",
+		default_bgm = "theme-highseasfleet-reborn",
 		special_bgm = "",
-		bgm = "main-christmas"
+		bgm = "theme-highseasfleet-reborn"
 	},
 	NewYearShrinePage2024 = {
 		default_bgm = "newyear2",
@@ -1741,24 +1741,24 @@ pg.voice_bgm = {
 		bgm = "story-richang-quiet"
 	},
 	WorldMediaCollectionEntranceScene = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	WorldMediaCollectionMemoryLayer = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	WorldMediaCollectionRecordLayer = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	WorldMediaCollectionFileLayer = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	ToLoveMainPage = {
 		default_bgm = "story-richang-rosy-short",
@@ -1804,5 +1804,50 @@ pg.voice_bgm = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
 		bgm = "theme-designshipVI"
+	},
+	ActiveStarlightHomepage = {
+		default_bgm = "story-ironblood-strong",
+		special_bgm = "",
+		bgm = "story-ironblood-strong"
+	},
+	StarlightAccumulate = {
+		default_bgm = "story-ironblood-light",
+		special_bgm = "",
+		bgm = "story-ironblood-light"
+	},
+	NewYearShrinePage2025 = {
+		default_bgm = "newyear2",
+		special_bgm = "",
+		bgm = "newyear2"
+	},
+	UrExchangeZ52Page = {
+		default_bgm = "story-richang-partynight",
+		special_bgm = "",
+		bgm = "story-richang-partynight"
+	},
+	SkinMagazinePage6 = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	},
+	USChristmas2024Page = {
+		default_bgm = "main-christmas",
+		special_bgm = "",
+		bgm = "main-christmas"
+	},
+	CurlingGameView = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		bgm = "bar-soft"
+	},
+	WorldMediaCollectionAlbumGroupLayer = {
+		default_bgm = "story-newsakura",
+		special_bgm = "",
+		bgm = "story-newsakura"
+	},
+	NavalAcademyScene = {
+		default_bgm = "main-christmas",
+		special_bgm = "",
+		bgm = "main-christmas"
 	}
 }

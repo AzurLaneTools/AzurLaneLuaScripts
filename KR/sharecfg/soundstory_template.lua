@@ -797,6 +797,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "크리스마스 서프라이즈",
+		story_resource_JP = "soundStory18_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "타츠미 유이코",
+		audition_resource_JP = "ss-10324-1",
+		overview = "성스러운 밤에 찾아온 브레머튼 산타는 불행하게도 그만 창문에 끼어버리고 만다.\n 그녀를 구하기 위해 지휘관이 취한 행동은……",
+		order = 2,
+		audition_text = "읏…… 조금만 더 세게 해도 괜찮아. 안 아파…",
+		ship_id = 10324,
+		id = 18,
+		captions_color = "#42342f",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -814,6 +867,7 @@ pg.soundstory_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

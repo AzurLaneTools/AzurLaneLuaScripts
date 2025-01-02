@@ -207,6 +207,9 @@ slot0.init = function(slot0)
 			uv1:ExitTouchMode()
 		end
 	end, "ui-dorm_back_v2")
+	onButton(slot0, slot3:Find("btn_back_heartbeat"), function ()
+		uv0:ExitHeartbeatMode()
+	end, "ui-dorm_back_v2")
 	onButton(slot0, slot3:Find("btn_back/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
@@ -1002,25 +1005,30 @@ slot0.EnterTouchMode = function(slot0)
 		return
 	end
 
-	slot0.touchConfig = slot0.room:getApartmentZoneConfig(slot0.ladyDict[slot0.apartment:GetConfigID()].ladyBaseZone, "touch_id", slot0.apartment:GetConfigID()) and pg.dorm3d_touch_data[slot3] or nil
+	slot0.touchConfig = pg.dorm3d_touch_data[slot0.room:getApartmentZoneConfig(slot0.ladyDict[slot0.apartment:GetConfigID()].ladyBaseZone, "touch_id", slot0.apartment:GetConfigID())]
 	slot0.inTouchGame = slot0.touchConfig.heartbeat_enable > 0
 
 	setActive(slot0.rtTouchGamePanel, slot0.inTouchGame)
 
 	if slot0.inTouchGame then
 		slot0.touchCount = 0
+		slot0.touchLevel = 1
 		slot0.lastCount = 0
 		slot0.topCount = 0
 
 		slot0:UpdateTouchGameDisplay()
-		setSlider(slot0.rtTouchGamePanel:Find("slider"), 0, 100, slot0.touchCount >= 500 and 100 or slot0.touchCount % 100)
+		setSlider(slot0.rtTouchGamePanel:Find("slider"), 0, 100, slot0.touchCount >= 200 and 100 or slot0.touchCount % 100)
 		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_in")
 		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon")
 
 		slot0.downTimer = Timer.New(function ()
-			if not uv0.ladyDict[uv0.apartment:GetConfigID()]:GetBlackboardValue("inTalking") then
-				uv0:UpdateTouchCount(-2)
+			slot0 = pg.dorm3d_set.reduce_interaction.key_value_int
+
+			if uv0.touchLevel > 1 then
+				slot0 = pg.dorm3d_set.reduce_heartbeat.key_value_int
 			end
+
+			uv0:UpdateTouchCount(slot0)
 		end, 1, -1)
 
 		slot0.downTimer:Start()
@@ -1034,7 +1042,7 @@ slot0.EnterTouchMode = function(slot0)
 		uv1:SetUI(slot0, "blank")
 	end)
 	table.insert(slot4, function (slot0)
-		uv0:SwitchIKConfig(uv1, uv0.touchConfig.ik_status[(uv0.inTouchGame and math.floor(uv0.touchCount / 100) or 0) + 1])
+		uv0:SwitchIKConfig(uv1, uv0.touchConfig.ik_status[1])
 		setActive(uv0.uiContianer:Find("ik/btn_back"), true)
 		uv0:SetIKState(true, slot0)
 	end)
@@ -1076,6 +1084,7 @@ slot0.ExitTouchMode = function(slot0)
 			end
 
 			uv0.touchCount = nil
+			uv0.touchLevel = nil
 			uv0.topCount = nil
 
 			if uv0.downTimer then
@@ -1113,7 +1122,7 @@ slot0.ExitTouchMode = function(slot0)
 	end)
 	table.insert(slot2, function (slot0)
 		uv0.ikConfig = nil
-		uv1.blockIK = nil
+		uv1.scene.blockIK = nil
 
 		uv1:SetUI(slot0, "back")
 	end)
@@ -1122,7 +1131,6 @@ slot0.ExitTouchMode = function(slot0)
 		uv1:emit(uv1.HIDE_BLOCK)
 
 		uv1.touchConfig = nil
-		uv1.blockIK = nil
 		uv1.touchExitCall = nil
 
 		existCall(uv1.touchExitCall)
@@ -1295,6 +1303,7 @@ slot0.SetIKState = function(slot0, slot1, slot2)
 		table.insert(slot4, function (slot0)
 			warning(uv0.ikConfig.character_action)
 			uv0:ExitIKStatus(uv0.ikConfig, slot0)
+			uv1.scene:ResetSceneItemAnimators()
 		end)
 		table.insert(slot4, function (slot0)
 			uv0:SetUI(slot0, "back")
@@ -1370,6 +1379,14 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, ...)
 					slot0
 				})
 			end
+		end,
+		function (slot0, slot1, slot2, slot3)
+			return function (slot0)
+				uv0.RevertAllIKLayer(uv1, uv2, function ()
+					uv0.scene:PlaySceneItemAnim(uv1, uv2)
+					uv0:PlaySingleAction(uv3, uv4)
+				end)
+			end
 		end
 	}, function ()
 		return function ()
@@ -1386,14 +1403,14 @@ slot0.OnTriggerIK = function(slot0, slot1)
 		slot8, slot9, slot10 = unpack(slot7)
 
 		if slot8 == slot1 then
-			slot0.blockIK = true
+			slot0.scene.blockIK = true
 
 			slot0:TouchModeAction(slot2, unpack(slot10))(function ()
-				uv0.enableIKTip = true
+				uv0.scene.enableIKTip = true
 
 				uv0:ResetIKTipTimer()
 
-				uv0.blockIK = nil
+				uv0.scene.blockIK = nil
 			end)
 
 			return
@@ -1434,14 +1451,14 @@ slot0.OnTouchCharacterBody = function(slot0, slot1)
 				end
 			end
 
-			slot0.blockIK = true
+			slot0.scene.blockIK = true
 
 			slot0:TouchModeAction(slot2, unpack(slot10))(function ()
-				uv0.enableIKTip = true
+				uv0.scene.enableIKTip = true
 
 				uv0:ResetIKTipTimer()
 
-				uv0.blockIK = nil
+				uv0.scene.blockIK = nil
 			end)
 
 			return
@@ -1450,13 +1467,17 @@ slot0.OnTouchCharacterBody = function(slot0, slot1)
 end
 
 slot0.UpdateTouchGameDisplay = function(slot0)
-	setActive(slot0.rtTouchGamePanel:Find("effect_bg"), slot0.touchCount > 100)
-	setActive(slot0.rtTouchGamePanel:Find("slider/icon/beating"), slot0.touchCount > 100)
+	setActive(slot0.rtTouchGamePanel:Find("effect_bg"), slot0.touchLevel == 2)
+	setActive(slot0.rtTouchGamePanel:Find("slider/icon/beating"), slot0.touchLevel == 2)
 
-	if slot0.touchCount < 100 then
+	if slot0.touchLevel == 1 then
+		setActive(slot0.uiContianer:Find("ik/btn_back"), true)
+		setActive(slot0.uiContianer:Find("ik/btn_back_heartbeat"), false)
 		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change_out")
 		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon")
-	elseif slot0.touchCount < 200 then
+	elseif slot0.touchLevel == 2 then
+		setActive(slot0.uiContianer:Find("ik/btn_back"), false)
+		setActive(slot0.uiContianer:Find("ik/btn_back_heartbeat"), true)
 		quickPlayAnimation(slot0.rtTouchGamePanel, "anim_dorm3d_touch_change")
 		quickPlayAnimation(slot0.rtTouchGamePanel:Find("slider/icon"), "anim_dorm3d_touch_icon_1")
 		pg.CriMgr.GetInstance():PlaySE_V3("ui-dorm_heartbeat")
@@ -1464,54 +1485,94 @@ slot0.UpdateTouchGameDisplay = function(slot0)
 end
 
 slot0.UpdateTouchCount = function(slot0, slot1)
-	slot2 = slot0.touchCount
-	slot0.touchCount = math.clamp(slot0.touchCount + slot1, 100 * math.floor(slot0.touchCount / 100), 500)
+	if slot0.touchLevel > 1 then
+		slot1 = math.min(0, slot1)
+	end
 
-	warning(slot0.touchCount)
+	slot0.touchCount = math.clamp(slot0.touchCount + slot1, 0, 100)
 
 	if slot0.sliderLT and LeanTween.isTweening(slot0.sliderLT) then
-		slot2 = LeanTween.descr(slot0.sliderLT).val
-
 		LeanTween.cancel(slot0.sliderLT)
 
 		slot0.sliderLT = nil
 	end
 
-	if math.clamp(slot2, 0, 500) ~= math.clamp(slot0.touchCount, 0, 500) then
-		slot3 = GetComponent(slot0.rtTouchGamePanel:Find("slider"), typeof(Slider))
-		slot0.sliderLT = LeanTween.value(slot2, slot0.touchCount, math.abs(slot0.touchCount - slot2) / 50):setOnUpdate(System.Action_float(function (slot0)
-			uv0.value = slot0 >= 500 and 100 or slot0 % 100
-		end)):setEase(LeanTweenType.easeInOutCubic).uniqueId
-	else
-		setSlider(slot0.rtTouchGamePanel:Find("slider"), 0, 100, slot0.touchCount >= 500 and 100 or slot0.touchCount % 100)
+	setSlider(slot0.rtTouchGamePanel:Find("slider"), 0, 100, slot0.touchCount)
+
+	slot2 = nil
+
+	if slot0.touchCount >= 100 then
+		slot2 = 2
+	elseif slot0.touchCount <= 0 then
+		slot2 = 1
 	end
 
-	if math.floor(slot0.touchCount / 100) ~= math.floor(slot2 / 100) then
-		slot0:UpdateTouchGameDisplay()
-
-		if slot0.touchConfig.ik_status[math.floor(slot0.touchCount / 100) + 1] then
-			slot0:SwitchIKConfig(slot0, slot3)
-			slot0:SetIKState(true)
+	if slot2 and slot2 ~= slot0.touchLevel then
+		if slot0.scene.blockIK then
+			return
 		end
+
+		slot0.touchLevel = slot2
+
+		if slot0.touchConfig.ik_status[slot2] then
+			if slot2 > 1 then
+				slot0.touchCount = 200
+			elseif slot2 == 1 then
+				slot0.touchCount = 0
+			end
+
+			slot5 = slot0.apartment
+			slot4 = slot0.ladyDict[slot5:GetConfigID()]
+
+			seriesAsync({
+				function (slot0)
+					uv0:ShowBlackScreen(true, slot0)
+				end,
+				function (slot0)
+					uv0:SwitchIKConfig(uv1, uv2)
+					uv0:SetIKState(true, slot0)
+
+					if uv3 > 1 and uv0.touchConfig.heartbeat_enter_anim ~= "" then
+						uv1:SwitchAnim(uv0.touchConfig.heartbeat_enter_anim)
+					end
+				end,
+				function (slot0)
+					uv0:ShowBlackScreen(false, slot0)
+				end
+			})
+		end
+
+		slot0:UpdateTouchCount(0)
+		slot0:UpdateTouchGameDisplay()
 	end
 
 	slot0.topCount = math.max(slot0.topCount, slot0.touchCount)
+end
+
+slot0.ExitHeartbeatMode = function(slot0)
+	if not slot0.touchLevel or slot0.touchLevel == 1 then
+		return
+	end
+
+	slot0.touchCount = 0
+
+	slot0:UpdateTouchCount(0)
 end
 
 slot0.DoTouch = function(slot0, slot1, slot2)
 	if slot0.inTouchGame then
 		switch(slot2, {
 			function ()
-				uv0:UpdateTouchCount(10)
+				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat.key_value_int)
 			end,
 			function ()
-				uv0:UpdateTouchCount(2)
+				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat.key_value_int)
 			end,
 			function ()
-				uv0:UpdateTouchCount(10)
+				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat.key_value_int)
 			end,
 			function ()
-				uv0:UpdateTouchCount(20)
+				uv0:UpdateTouchCount(pg.dorm3d_set.rapport_heartbeat_trriger.key_value_int)
 			end
 		})
 	end
@@ -2067,12 +2128,11 @@ slot0.UpdateFavorDisplay = function(slot0)
 end
 
 slot0.UpdateBtnState = function(slot0)
-	if slot0.room:isPersonalRoom() then
-		setActive(slot0.uiContianer:Find("base/left/btn_furniture/tip"), slot0:CheckSystemOpen("Furniture") and Dorm3dFurniture.NeedViewTip(slot0.room:GetConfigID()))
-	else
-		setActive(slot0.uiContianer:Find("base/left/btn_furniture/tip"), Dorm3dFurniture.NeedViewTip(slot0.room:GetConfigID()))
-	end
+	slot1 = not slot0.room:isPersonalRoom() or slot0:CheckSystemOpen("Furniture")
+	slot2 = Dorm3dFurniture.IsTimelimitShopTip(slot0.room:GetConfigID())
 
+	setActive(slot0.uiContianer:Find("base/left/btn_furniture/tipTimelimit"), slot1 and slot2)
+	setActive(slot0.uiContianer:Find("base/left/btn_furniture/tip"), slot1 and not slot2 and Dorm3dFurniture.NeedViewTip(slot0.room:GetConfigID()))
 	setActive(slot0.uiContianer:Find("base/btn_back/main"), underscore(getProxy(ApartmentProxy):getRawData()):chain():values():filter(function (slot0)
 		return tobool(slot0)
 	end):any(function (slot0)
@@ -2287,6 +2347,10 @@ slot0.TalkingEventHandle = function(slot0, slot1)
 				switch(uv0.type, {
 					action = function ()
 						uv0.ladyDict[uv0.apartment:GetConfigID()]:PlaySingleAction(uv1.name, uv2)
+					end,
+					item_action = function ()
+						uv0.scene:PlaySceneItemAnim(uv1.id, uv1.name)
+						uv2()
 					end,
 					timeline = function ()
 						if uv0.inTouchGame then

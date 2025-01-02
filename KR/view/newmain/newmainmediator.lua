@@ -18,6 +18,8 @@ slot0.REFRESH_VIEW = "NewMainMediator:REFRESH_VIEW"
 slot0.OPEN_DORM_SELECT_LAYER = "NewMainMediator.OPEN_DORM_SELECT_LAYER"
 slot0.OPEN_KINK_BUTTON_LAYER = "NewMainMediator.OPEN_KINK_BUTTON_LAYER"
 slot0.OPEN_Compensate = "NewMainMediator:OPEN_Compensate"
+slot0.ON_DROP = "NewMainMediator:ON_DROP"
+slot0.ON_AWRADS = "NewMainMediator:ON_AWRADS"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
@@ -176,7 +178,9 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.CHANGE_LIVINGAREA_COVER_DONE,
 		CompensateProxy.UPDATE_ATTACHMENT_COUNT,
 		CompensateProxy.All_Compensate_Remove,
-		GAME.ACT_INSTAGRAM_CHAT_DONE
+		GAME.ACT_INSTAGRAM_CHAT_DONE,
+		NewMainMediator.ON_DROP,
+		NewMainMediator.ON_AWRADS
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
@@ -231,6 +235,10 @@ slot0.handleNotification = function(slot0, slot1)
 		if slot0.viewComponent.theme then
 			slot0.viewComponent.theme:Refresh(slot4)
 		end
+	elseif slot2 == NewMainMediator.ON_DROP then
+		slot0.viewComponent:emit(BaseUI.ON_DROP, slot3)
+	elseif slot2 == NewMainMediator.ON_AWRADS then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	end
 
 	slot0.viewComponent:emit(slot2, slot3)

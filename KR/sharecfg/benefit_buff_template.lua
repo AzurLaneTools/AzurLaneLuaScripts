@@ -82,6 +82,13 @@ pg.benefit_buff_template = setmetatable({
 		79,
 		80,
 		81,
+		82,
+		83,
+		84,
+		85,
+		86,
+		87,
+		88,
 		103,
 		110,
 		111,
@@ -1509,6 +1516,125 @@ pg.base.benefit_buff_template = {
 		id = 81,
 		type_priority = 0,
 		benefit_type = "dorm_energy"
+	},
+	[82] = {
+		icon = "Props/jianchuanqiyuan",
+		name = "그라프 체펠린의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "그라프 체펠린 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 82,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	[83] = {
+		icon = "Props/jianchuanqiyuan",
+		name = "벨파스트의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "벨파스트 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 83,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	[84] = {
+		icon = "Props/jianchuanqiyuan",
+		name = "사우스다코타의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "사우스다코타 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 84,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	[85] = {
+		icon = "Props/jianchuanqiyuan",
+		name = "포미더블의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "포미더블 축복——숙소 경험치 보너스 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 85,
+		type_priority = 0,
+		benefit_type = "dorm_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	[86] = {
+		icon = "Props/jianchuanqiyuan",
+		name = "노시로의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "노시로  축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 86,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	[87] = {
+		icon = "Props/jianchuanqiyuan",
+		name = "비스마르크의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "비스마르크 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 받는 대미지 3% 감소\n남은 시간: $1",
+		benefit_effect = "520",
+		id = 87,
+		type_priority = 0,
+		benefit_type = "battle_buff",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
+	},
+	[88] = {
+		icon = "Props/jianchuanqiyuan",
+		name = "리슐리외의 축복",
+		hide = 0,
+		max_time = 86400,
+		act_id = 0,
+		desc = "리슐리외 축복——메인, 어려움, 이벤트, 작전 파일 스테이지에서 캐릭터 경험치 획득 3% 증가\n남은 시간: $1",
+		benefit_effect = "3",
+		id = 88,
+		type_priority = 0,
+		benefit_type = "ship_battle_exp",
+		benefit_condition = {
+			"activity",
+			5720,
+			0
+		}
 	},
 	[103] = {
 		icon = "Props/newserver_skill",

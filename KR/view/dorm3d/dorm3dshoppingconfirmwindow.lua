@@ -24,7 +24,7 @@ slot0.init = function(slot0)
 		Dorm3dGift = function ()
 			uv0.unlockTips = pg.dorm3d_gift[uv0.contextData.drop.configId].unlock_tips or {}
 			uv0.unlockBanners = pg.dorm3d_gift[uv0.contextData.drop.configId].unlock_banners or {}
-			uv0.isSP = pg.dorm3d_gift[uv0.contextData.drop.configId].ship_group_id ~= 0
+			uv0.isExclusive = pg.dorm3d_gift[uv0.contextData.drop.configId].ship_group_id ~= 0
 			uv0.addFavor = pg.dorm3d_favor_trigger[pg.dorm3d_gift[uv0.contextData.drop.configId].favor_trigger_id].num
 
 			setActive(uv0._tf:Find("Window/Title/gift"), true)
@@ -32,7 +32,8 @@ slot0.init = function(slot0)
 		Dorm3dFurniture = function ()
 			uv0.unlockTips = pg.dorm3d_furniture_template[uv0.contextData.drop.configId].unlock_tips or {}
 			uv0.unlockBanners = pg.dorm3d_furniture_template[uv0.contextData.drop.configId].unlock_banners or {}
-			uv0.isSP = pg.dorm3d_furniture_template[uv0.contextData.drop.configId].is_exclusive == 1
+			uv0.isExclusive = pg.dorm3d_furniture_template[uv0.contextData.drop.configId].is_exclusive == 1
+			uv0.isSpecial = pg.dorm3d_furniture_template[uv0.contextData.drop.configId].is_special == 1
 
 			setActive(uv0._tf:Find("Window/Title/furniture"), true)
 		end
@@ -65,6 +66,26 @@ slot0.didEnter = function(slot0)
 			end
 		end,
 		Dorm3dFurniture = function ()
+			if uv0.contextData.endTime and slot0 > 0 then
+				slot2 = uv1
+				uv0.timerRefreshTime = Timer.New(function ()
+					setText(uv3._tf:Find("Window/Content"), uv0 .. string.format("\n<size=28><color=#7c7e81>%s</color><color=#169fff>%s</color></size>", i18n("time_remaining_tip"), uv1(uv2)))
+				end, 1, -1)
+
+				uv0.timerRefreshTime:Start()
+
+				uv1 = uv1 .. string.format("\n<size=28><color=#7c7e81>%s</color><color=#169fff>%s</color></size>", i18n("time_remaining_tip"), (function (slot0)
+					if math.floor(math.max(slot0 - pg.TimeMgr.GetInstance():GetServerTime(), 0) / 86400) > 0 then
+						return slot3 .. i18n("word_date")
+					elseif math.floor(slot2 / 3600) > 0 then
+						return slot4 .. i18n("word_hour")
+					elseif math.floor(slot2 / 60) > 0 then
+						return slot5 .. i18n("word_minute")
+					else
+						return slot2 .. i18n("word_second")
+					end
+				end)(slot0))
+			end
 		end
 	})
 	setText(slot0._tf:Find("Window/Content"), (slot0.contextData.content.cost ~= 0 or i18n("dorm3d_purchase_confirm_free", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.name)) and (slot0.contextData.content.off <= 0 or i18n("dorm3d_purchase_confirm_discount", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.old, slot0.contextData.content.name)) and i18n("dorm3d_purchase_confirm_original", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.name))
@@ -104,8 +125,13 @@ end
 slot0.InitDropIcon = function(slot0)
 	LoadImageSpriteAtlasAsync(slot0.contextData.drop:GetIcon(), "", slot0._tf:Find("Window/Item/Dorm3dIconTpl/icon"), true)
 	GetImageSpriteFromAtlasAsync("weaponframes", "dorm3d_" .. ItemRarity.Rarity2Print(slot0.contextData.drop:GetRarity()), slot0._tf:Find("Window/Item/Dorm3dIconTpl"))
-	setActive(slot0._tf:Find("Window/Item/sp"), slot0.isSP)
-	setText(slot0._tf:Find("Window/Item/sp/Text"), i18n("dorm3d_purchase_confirm_tip"))
+	setActive(slot0._tf:Find("Window/Item/sp"), slot0.isExclusive or slot0.isSpecial)
+
+	if slot0.isSpecial then
+		setText(slot0._tf:Find("Window/Item/sp/Text"), i18n("dorm3d_purchase_label_special"))
+	elseif slot0.isExclusive then
+		setText(slot0._tf:Find("Window/Item/sp/Text"), i18n("dorm3d_purchase_confirm_tip"))
+	end
 
 	if slot0.addFavor then
 		setActive(slot0._tf:Find("Window/Item/gift"), true)
@@ -114,6 +140,12 @@ slot0.InitDropIcon = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	if slot0.timerRefreshTime then
+		slot0.timerRefreshTime:Stop()
+
+		slot0.timerRefreshTime = nil
+	end
+
 	slot0.scrollSnap:Dispose()
 
 	slot0.scrollSnap = nil

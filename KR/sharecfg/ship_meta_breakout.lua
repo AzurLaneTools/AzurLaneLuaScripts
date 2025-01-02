@@ -70,6 +70,10 @@ pg.ship_meta_breakout = setmetatable({
 		9703042,
 		9703043,
 		9703044,
+		9703051,
+		9703052,
+		9703053,
+		9703054,
 		9704011,
 		9704012,
 		9704013,
@@ -1238,6 +1242,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9703044,
 		item1 = 21035,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9703051] = {
+		breakout_view = "스킬【염추의 재·아드미랄 히퍼】습득 / 주포 보정 + 5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9703052,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703051,
+		item1 = 21042,
+		level = 10,
+		weapon_ids = {
+			80401
+		}
+	},
+	[9703052] = {
+		breakout_view = "어뢰 장전 수+1 / 시작 시 어뢰 +1 / 주포 효율 10% 증가",
+		item2 = 21001,
+		pre_id = 9703051,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9703053,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703052,
+		item1 = 21042,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9703053] = {
+		breakout_view = "스킬【염추의 재·아드미랄 히퍼】강화/ 어뢰 보정 + 5%",
+		item2 = 21001,
+		pre_id = 9703052,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9703054,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9703053,
+		item1 = 21042,
+		level = 70,
+		weapon_ids = {
+			80402
+		}
+	},
+	[9703054] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9703053,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9703054,
+		item1 = 21042,
 		level = 0,
 		weapon_ids = {}
 	},

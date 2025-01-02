@@ -1,10 +1,11 @@
 pg = pg or {}
 pg.dorm3d_ik_touch = {
 	[1002101] = {
-		body = "chest",
 		char_id = 20220,
+		body = "chest",
 		action_emote = "",
 		id = 1002101,
+		scene_item = "",
 		vibrate = {
 			{
 				0,
@@ -13,10 +14,11 @@ pg.dorm3d_ik_touch = {
 		}
 	},
 	[1003101] = {
-		body = "head",
 		char_id = 20220,
+		body = "head",
 		action_emote = "",
 		id = 1003101,
+		scene_item = "",
 		vibrate = {
 			{
 				0,
@@ -25,10 +27,11 @@ pg.dorm3d_ik_touch = {
 		}
 	},
 	[1001301] = {
-		body = "head",
 		char_id = 20220,
+		body = "head",
 		action_emote = "",
 		id = 1001301,
+		scene_item = "",
 		vibrate = {
 			{
 				0,
@@ -37,10 +40,11 @@ pg.dorm3d_ik_touch = {
 		}
 	},
 	[1001302] = {
-		body = "chest",
 		char_id = 20220,
+		body = "chest",
 		action_emote = "",
 		id = 1001302,
+		scene_item = "",
 		vibrate = {
 			{
 				0,
@@ -49,10 +53,11 @@ pg.dorm3d_ik_touch = {
 		}
 	},
 	[1004101] = {
-		body = "hand",
 		char_id = 20220,
+		body = "hand",
 		action_emote = "",
 		id = 1004101,
+		scene_item = "",
 		vibrate = {
 			{
 				0,
@@ -61,10 +66,11 @@ pg.dorm3d_ik_touch = {
 		}
 	},
 	[1007101] = {
-		body = "foot",
 		char_id = 20220,
+		body = "foot",
 		action_emote = "",
 		id = 1007101,
+		scene_item = "",
 		vibrate = {
 			{
 				0,
@@ -73,16 +79,25 @@ pg.dorm3d_ik_touch = {
 		}
 	},
 	[1107102] = {
-		body = "head",
 		char_id = 20220,
+		body = "head",
 		action_emote = "",
 		id = 1107102,
+		scene_item = "",
 		vibrate = {
 			{
 				0,
 				0.3
 			}
 		}
+	},
+	[1002801] = {
+		vibrate = "",
+		char_id = 20220,
+		body = "",
+		action_emote = "",
+		id = 1002801,
+		scene_item = "FurnitureSlots/100301/pre_db_sp_sh_xmas01(Clone)/pre_db_sp_sh_xmas_decoration02"
 	},
 	all = {
 		1002101,
@@ -91,6 +106,7 @@ pg.dorm3d_ik_touch = {
 		1001302,
 		1004101,
 		1007101,
-		1107102
+		1107102,
+		1002801
 	}
 }

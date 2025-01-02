@@ -169,11 +169,11 @@ slot0.confirm = function(slot0, slot1)
 
 		if type(Item.getConfigData(slot1:getConfig("effect_args")[1]).display_icon) == "table" then
 			for slot9, slot10 in ipairs(slot5) do
-				table.insert(slot2, {
+				table.insert(slot2, Drop.New({
 					type = slot10[1],
 					id = slot10[2],
 					count = slot10[3]
-				})
+				}))
 			end
 		end
 

@@ -60,6 +60,7 @@ slot2 = {
 	SC_11003_MAIL_STOREROOM_LV_FIELD = slot0.FieldDescriptor(),
 	SC_11003_BATTLE_UI_LIST_FIELD = slot0.FieldDescriptor(),
 	SC_11003_BATTLE_UI_FIELD = slot0.FieldDescriptor(),
+	SC_11003_ACTIVITY_MEDALS_FIELD = slot0.FieldDescriptor(),
 	SC_11004_RESOURCE_LIST_FIELD = slot0.FieldDescriptor(),
 	CS_11005_TYPE_FIELD = slot0.FieldDescriptor(),
 	CS_11005_ID_FIELD = slot0.FieldDescriptor(),
@@ -983,6 +984,16 @@ slot2.SC_11003_BATTLE_UI_FIELD.has_default_value = false
 slot2.SC_11003_BATTLE_UI_FIELD.default_value = 0
 slot2.SC_11003_BATTLE_UI_FIELD.type = 13
 slot2.SC_11003_BATTLE_UI_FIELD.cpp_type = 3
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.name = "activity_medals"
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.full_name = "p11.sc_11003.activity_medals"
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.number = 51
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.index = 50
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.label = 3
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.has_default_value = false
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.default_value = {}
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.message_type = slot1.KVDATA
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.type = 11
+slot2.SC_11003_ACTIVITY_MEDALS_FIELD.cpp_type = 10
 SC_11003.name = "sc_11003"
 SC_11003.full_name = "p11.sc_11003"
 SC_11003.nested_types = {}
@@ -1037,7 +1048,8 @@ SC_11003.fields = {
 	slot2.SC_11003_COVER_FIELD,
 	slot2.SC_11003_MAIL_STOREROOM_LV_FIELD,
 	slot2.SC_11003_BATTLE_UI_LIST_FIELD,
-	slot2.SC_11003_BATTLE_UI_FIELD
+	slot2.SC_11003_BATTLE_UI_FIELD,
+	slot2.SC_11003_ACTIVITY_MEDALS_FIELD
 }
 SC_11003.is_extendable = false
 SC_11003.extensions = {}

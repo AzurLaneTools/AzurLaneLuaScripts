@@ -272,6 +272,11 @@ pg.task_meta_data_template = setmetatable({
 		100363,
 		100364,
 		100365,
+		100371,
+		100372,
+		100373,
+		100374,
+		100375,
 		200001,
 		200002,
 		200003,
@@ -379,7 +384,11 @@ pg.task_meta_data_template = setmetatable({
 		200271,
 		200272,
 		200273,
-		200274
+		200274,
+		200281,
+		200282,
+		200283,
+		200284
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2544,6 +2553,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "다이호·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100371] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100371,
+		target_num = 1,
+		desc = "아드미랄 히퍼·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100372] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100372,
+		target_num = 1,
+		desc = "아드미랄 히퍼·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100373] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100373,
+		target_num = 1,
+		desc = "아드미랄 히퍼·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100374] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100374,
+		target_num = 1,
+		desc = "아드미랄 히퍼·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100375] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970305",
+		id = 100375,
+		target_num = 1,
+		desc = "아드미랄 히퍼·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3407,5 +3456,37 @@ pg.base.task_meta_data_template = {
 		id = 200274,
 		target_num = 1,
 		desc = "대형작전에서 다이호·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200281] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200281,
+		target_num = 1,
+		desc = "대형작전에서 아드미랄 히퍼·META를 포함한 함대로 1회 승리"
+	},
+	[200282] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200282,
+		target_num = 1,
+		desc = "대형작전에서 아드미랄 히퍼·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200283] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200283,
+		target_num = 1,
+		desc = "대형작전에서 아드미랄 히퍼·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200284] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970305",
+		id = 200284,
+		target_num = 1,
+		desc = "대형작전에서 아드미랄 히퍼·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

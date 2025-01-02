@@ -1208,6 +1208,17 @@ temp = function()
 											}
 										}
 									}
+								},
+								["·"] = {
+									M = {
+										E = {
+											T = {
+												A = {
+													this = true
+												}
+											}
+										}
+									}
 								}
 							}
 						},
@@ -3873,6 +3884,17 @@ temp = function()
 						}
 					}
 				}
+			},
+			["츠"] = {
+				[" "] = {
+					["루"] = {
+						["메"] = {
+							["이"] = {
+								this = true
+							}
+						}
+					}
+				}
 			}
 		}
 	}
@@ -5525,6 +5547,9 @@ temp = function()
 	uv0.Z = {
 		["1"] = {
 			this = true,
+			["1"] = {
+				this = true
+			},
 			["6"] = {
 				this = true
 			},
@@ -5558,6 +5583,9 @@ temp = function()
 			["8"] = {
 				this = true
 			}
+		},
+		["9"] = {
+			this = true
 		},
 		["3"] = {
 			["5"] = {
@@ -5594,6 +5622,11 @@ temp = function()
 						}
 					}
 				}
+			}
+		},
+		["5"] = {
+			["2"] = {
+				this = true
 			}
 		}
 	}
@@ -5656,6 +5689,22 @@ temp = function()
 	uv0["엠"] = {
 		["덴"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["뒤"] = {
+		["스"] = {
+			["부"] = {
+				["르"] = {
+					["크"] = {
+						this = true
+					}
+				}
+			}
 		}
 	}
 end

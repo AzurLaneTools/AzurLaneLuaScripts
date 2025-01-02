@@ -210,7 +210,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.FRAG_SELL_DONE,
 		GAME.TRANSFORM_EQUIPMENT_AWARD_FINISHED,
 		EquipmentProxy.SPWEAPONS_UPDATED,
-		GAME.LOVE_ITEM_MAIL_REPAIR_DONE
+		GAME.LOVE_ITEM_MAIL_REPAIR_DONE,
+		GAME.SELL_ITEM_DONE
 	}
 end
 
@@ -293,10 +294,14 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == EquipmentProxy.SPWEAPONS_UPDATED then
 		slot0:UpdateSpWeapons()
 		slot0.viewComponent:SetSpWeaponUpdate()
-	elseif slot2 == GAME.LOVE_ITEM_MAIL_REPAIR_DONE and #slot3.awards > 0 then
-		slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-			items = slot3.awards
-		})
+	elseif slot2 == GAME.LOVE_ITEM_MAIL_REPAIR_DONE then
+		if #slot3.awards > 0 then
+			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
+				items = slot3.awards
+			})
+		end
+	elseif slot2 == GAME.SELL_ITEM_DONE then
+		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	end
 end
 

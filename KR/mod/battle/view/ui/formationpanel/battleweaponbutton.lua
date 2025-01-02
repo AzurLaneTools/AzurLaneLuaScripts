@@ -85,6 +85,9 @@ slot1.ConfigSkin = function(slot0, slot1)
 	end)
 
 	slot0._animtor = slot1:GetComponent(typeof(Animator))
+	slot0._bgEff = slot1:Find("ActCtl/bg_eff")
+	slot0._chargeEff = slot1:Find("ActCtl/gizmos_1")
+	slot0._fullChargeEff = slot1:Find("ActCtl/gizmos_xue")
 end
 
 slot1.GetSkin = function(slot0)
@@ -126,6 +129,11 @@ slot1.OnFilled = function(slot0)
 	SetActive(slot0._unfill, false)
 end
 
+slot1.OnUnfill = function(slot0)
+	SetActive(slot0._filled, false)
+	SetActive(slot0._unfill, true)
+end
+
 slot1.OnfilledEffect = function(slot0)
 	SetActive(slot0._filledEffect, true)
 end
@@ -156,11 +164,6 @@ slot1.OnOverLoadChange = function(slot0, slot1)
 	end
 end
 
-slot1.OnUnfill = function(slot0)
-	SetActive(slot0._filled, false)
-	SetActive(slot0._unfill, true)
-end
-
 slot1.SetProgressActive = function(slot0, slot1)
 	slot0._progress.gameObject:SetActive(slot1)
 end
@@ -187,6 +190,11 @@ slot1.OnCountChange = function(slot0)
 		slot0:SwitchIcon(slot3)
 		slot0:SwitchIconEffect(slot3)
 	end
+
+	if slot0._chargeEff then
+		SetActive(slot0._chargeEff, slot1 > 0)
+		SetActive(slot0._fullChargeEff, slot1 == slot2)
+	end
 end
 
 slot1.OnTotalChange = function(slot0, slot1)
@@ -194,6 +202,11 @@ slot1.OnTotalChange = function(slot0, slot1)
 		slot0._block:SetActive(true)
 
 		slot0._progressBar.fillAmount = 0
+
+		if slot0._bgEff then
+			slot0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
+		end
+
 		slot0._text:GetComponent(typeof(Text)).text = "0/0"
 
 		slot0:SetControllerActive(false)
@@ -287,18 +300,46 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 		SetActive(slot0._unfill, false)
 
 		slot0._progressBar.fillAmount = 1
+
+		if slot0._bgEff then
+			slot0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 1
+		end
+
 		slot0._countTxt.text = "1/1"
+
+		if slot0._chargeEff then
+			SetActive(slot0._chargeEff, true)
+			SetActive(slot0._fullChargeEff, true)
+		end
 	else
 		SetActive(slot0._unfill, true)
 		SetActive(slot0._filled, false)
 
 		slot0._progressBar.fillAmount = 0
+
+		if slot0._bgEff then
+			slot0._skin:Find("ActCtl/bg_eff"):GetComponent(typeof(CanvasGroup)).alpha = 0
+		end
+
 		slot0._countTxt.text = "0/0"
+
+		if slot0._chargeEff then
+			SetActive(slot0._chargeEff, false)
+			SetActive(slot0._fullChargeEff, false)
+		end
 	end
 end
 
 slot1.updateProgressBar = function(slot0)
 	slot0._progressBar.fillAmount = slot0._progressInfo:GetCurrent() / slot0._progressInfo:GetMax()
+
+	if slot0._bgEff then
+		if slot0._progressInfo.GetCount and slot0._progressInfo:GetCount() > 0 then
+			slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
+		else
+			slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = slot1
+		end
+	end
 end
 
 slot1.Dispose = function(slot0)

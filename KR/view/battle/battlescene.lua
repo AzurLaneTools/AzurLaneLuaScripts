@@ -190,25 +190,40 @@ slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 
 	setText(findTF(slot9, "skill/skill_name/Text"), HXSet.hxLan(slot1))
 
-	findTF(slot9, "skill/icon_mask/icon"):GetComponent(typeof(Image)).sprite = slot7
-	slot12, slot13 = slot2:GetIFF()
-	slot13 = (slot2:GetIFF() ~= ys.Battle.BattleConfig.FRIENDLY_CODE or Color.New(1, 1, 1, 1)) and Color.New(1, 0.33, 0.33, 1)
-	findTF(slot9, "skill/skill_name"):GetComponent(typeof(Image)).color = slot13
-	findTF(slot9, "skill"):GetComponent(typeof(Image)).color = slot13
+	slot10 = findTF(slot9, "skill/icon_mask/icon")
+	slot11 = findTF(slot9, "skill/skill_name")
+
+	if slot9:GetComponent(typeof(Animation)) then
+		slot13 = 1
+
+		while slot12:GetClip("anim_skinui_skill_" .. slot13) do
+			slot13 = slot13 + 1
+		end
+
+		if slot13 > 1 then
+			slot12:Play("anim_skinui_skill_" .. math.random(slot13 - 1))
+		end
+	end
+
+	slot10:GetComponent(typeof(Image)).sprite = slot7
+	slot13, slot14 = slot2:GetIFF()
+	slot14 = (slot2:GetIFF() ~= ys.Battle.BattleConfig.FRIENDLY_CODE or Color.New(1, 1, 1, 1)) and Color.New(1, 0.33, 0.33, 1)
+	slot11:GetComponent(typeof(Image)).color = slot14
+	findTF(slot9, "skill"):GetComponent(typeof(Image)).color = slot14
 
 	if slot3 then
 		slot0:commanderSkillFloat(slot3, slot1, slot8)
 	else
-		slot16 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
-		slot17 = slot2:GetMainUnitIndex()
+		slot17 = table.contains(TeamType.SubShipType, slot2:GetTemplate().type)
+		slot18 = slot2:GetMainUnitIndex()
 
-		if ys.Battle.BattleCameraUtil.GetInstance():GetCharacterArrowBarPosition(uv1.CameraPosToUICamera(slot2:GetPosition():Clone())) == nil or slot15 == nil and slot16 and not slot2:IsMainFleetUnit() then
-			slot14 = (slot12 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FRIEND_SKILL_OFFSET))) and uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FOE_SKILL_OFFSET))
-			slot9.position = Vector3(slot14.x, slot14.y, -2)
+		if ys.Battle.BattleCameraUtil.GetInstance():GetCharacterArrowBarPosition(uv1.CameraPosToUICamera(slot2:GetPosition():Clone())) == nil or slot16 == nil and slot17 and not slot2:IsMainFleetUnit() then
+			slot15 = (slot13 ~= ys.Battle.BattleConfig.FRIENDLY_CODE or uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FRIEND_SKILL_OFFSET))) and uv1.CameraPosToUICamera(slot2:GetPosition():Clone():Add(uv0.IN_VIEW_FOE_SKILL_OFFSET))
+			slot9.position = Vector3(slot15.x, slot15.y, -2)
 
 			if Screen.width * 0.5 < rtf(slot9).rect.width * 0.5 + slot9.anchoredPosition.x then
-				slot19.x = slot20 - rtf(slot9).rect.width
-				slot9.anchoredPosition = slot19
+				slot20.x = slot21 - rtf(slot9).rect.width
+				slot9.anchoredPosition = slot20
 			end
 
 			if slot0._preSkillTF then
@@ -216,41 +231,41 @@ slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			slot0._preSkillTF = slot9
-			slot22 = slot9:GetComponent(typeof(DftAniEvent))
+			slot23 = slot9:GetComponent(typeof(DftAniEvent))
 
-			slot22:SetEndEvent(function (slot0)
+			slot23:SetEndEvent(function (slot0)
 				uv0._preSkillTF = nil
 
 				uv1:Recycle(uv2)
 			end)
 		else
-			slot18 = nil
-			slot19 = uv0.SIDE_ALIGNMENT[slot17]
+			slot19 = nil
+			slot20 = uv0.SIDE_ALIGNMENT[slot18]
 
-			for slot24 = 1, #slot0._sideSkillFloatStateList[slot12][slot17] do
-				if slot20[slot24] then
-					slot18 = slot24
+			for slot25 = 1, #slot0._sideSkillFloatStateList[slot13][slot18] do
+				if slot21[slot25] then
+					slot19 = slot25
 
 					break
 				end
 			end
 
-			if slot18 == nil then
-				slot18 = #slot20 + 1
+			if slot19 == nil then
+				slot19 = #slot21 + 1
 			end
 
-			slot20[slot18] = false
-			slot9.position = slot15
-			slot9.anchoredPosition.y = slot19[slot18]
+			slot21[slot19] = false
+			slot9.position = slot16
+			slot9.anchoredPosition.y = slot20[slot19]
 
-			if slot12 == ys.Battle.BattleConfig.FOE_CODE then
-				slot21.x = uv0.FOE_SIDE_X_OFFSET
+			if slot13 == ys.Battle.BattleConfig.FOE_CODE then
+				slot22.x = uv0.FOE_SIDE_X_OFFSET
 			end
 
-			slot9.anchoredPosition = slot21
-			slot22 = slot9:GetComponent(typeof(DftAniEvent))
+			slot9.anchoredPosition = slot22
+			slot23 = slot9:GetComponent(typeof(DftAniEvent))
 
-			slot22:SetEndEvent(function (slot0)
+			slot23:SetEndEvent(function (slot0)
 				uv0[uv1] = true
 
 				uv2:Recycle(uv3)
@@ -573,12 +588,12 @@ slot0.initPauseWindow = function(slot0)
 	onButton(slot0, slot0.leaveBtn, function ()
 		uv0:emit(BattleMediator.ON_LEAVE)
 
-		if uv0.leaveBtn:GetComponent(typeof(Animation)) then
+		if uv0.leaveBtn:GetComponent(typeof(Animation)) and slot0:GetClip("msgbox_btn_blink") then
 			slot0:Play("msgbox_btn_blink")
 		end
 	end)
 	onButton(slot0, slot0.continueBtn, function ()
-		if uv0.continueBtn:GetComponent(typeof(Animation)) then
+		if uv0.continueBtn:GetComponent(typeof(Animation)) and slot0:GetClip("msgbox_btn_blink") then
 			slot0:Play("msgbox_btn_blink")
 		end
 

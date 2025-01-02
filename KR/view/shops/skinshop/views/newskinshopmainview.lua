@@ -30,10 +30,11 @@ slot12 = function(slot0)
 	return uv0.obtainBtnSpriteNames[slot0]
 end
 
-slot0.Ctor = function(slot0, slot1, slot2)
+slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	pg.DelegateInfo.New(slot0)
 	uv0.super.Ctor(slot0, slot2)
 
+	slot0.contextData = slot3
 	slot0._go = slot1.gameObject
 	slot0._tf = slot1
 	slot0.overlay = slot0._tf:Find("overlay")
@@ -662,7 +663,7 @@ slot0.GetObtainBtnState = function(slot0, slot1)
 		return uv1
 	elseif slot1:isDisCount() and slot1:IsItemDiscountType() then
 		return uv4
-	elseif slot1:CanUseVoucherType() then
+	elseif slot1:CanUseVoucherType() or slot1:ExistExclusiveDiscountItem() then
 		return uv5
 	elseif #slot1:GetGiftList() > 0 then
 		return uv6
@@ -671,11 +672,19 @@ slot0.GetObtainBtnState = function(slot0, slot1)
 	end
 end
 
+slot0.GetMode = function(slot0)
+	return slot0.contextData.mode or NewSkinShopScene.MODE_OVERVIEW
+end
+
 slot0.FlushPrice = function(slot0, slot1)
 	slot3 = slot1.type == Goods.TYPE_ACTIVITY or slot1.type == Goods.TYPE_ACTIVITY_EXTRA
 
 	if slot1:getConfig("genre") == ShopArgs.SkinShopTimeLimit then
-		slot0:UpdateExperiencePrice(slot1)
+		if slot0:GetMode() == NewSkinShopScene.MODE_EXPERIENCE_FOR_ITEM then
+			slot0:UpdateExperiencePrice4Item(slot1)
+		else
+			slot0:UpdateExperiencePrice(slot1)
+		end
 	elseif slot0.isPreviewFurniture then
 		slot0:UpdateFurniturePrice(slot1)
 	elseif not slot3 then
@@ -684,6 +693,14 @@ slot0.FlushPrice = function(slot0, slot1)
 
 	setActive(slot0.experienceTr, slot2 and not slot3)
 	setActive(slot0.consumeTr, slot1.type == Goods.TYPE_SKIN and not slot2 and not slot3)
+end
+
+slot0.UpdateExperiencePrice4Item = function(slot0, slot1)
+	slot2 = slot1:getConfig("resource_num")
+	slot5 = _.detect(getProxy(BagProxy):GetSkinExperienceItems(), function (slot0)
+		return slot0:CanUseForShop(uv0.id)
+	end) and slot4.count or 0
+	slot0.experienceTxt.text = (slot2 > slot5 and "<color=" .. COLOR_RED .. ">" or "") .. slot5 .. (slot5 < slot2 and "</color>" or "") .. "/" .. slot2
 end
 
 slot0.UpdateExperiencePrice = function(slot0, slot1)
@@ -747,7 +764,11 @@ slot0.OnClickBtn = function(slot0, slot1, slot2)
 	elseif slot1 == uv5 then
 		slot0:OnBackyard(slot2)
 	elseif slot1 == uv6 then
-		slot0:OnExperience(slot2)
+		if slot0:GetMode() == NewSkinShopScene.MODE_EXPERIENCE_FOR_ITEM then
+			slot0:OnExperience4Item(slot2)
+		else
+			slot0:OnExperience(slot2)
+		end
 	end
 end
 
@@ -769,16 +790,28 @@ slot0.OnItemPurchase = function(slot0, slot1)
 		return
 	end
 
-	if #slot1:GetVoucherIdList() <= 0 then
+	slot3 = getProxy(BagProxy):GetExclusiveDiscountItem4Shop(slot1.id)
+
+	if #slot1:GetVoucherIdList() <= 0 and #slot3 <= 0 then
 		return
 	end
 
-	slot3 = slot1:getSkinId()
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot2) do
+		table.insert(slot4, slot9)
+	end
+
+	for slot8, slot9 in ipairs(slot3) do
+		table.insert(slot4, slot9.id)
+	end
+
+	slot5 = slot1:getSkinId()
 
 	slot0.voucherMsgBox:ExecuteAction("Show", {
-		itemList = slot2,
-		skinId = slot3,
-		skinName = SwitchSpecialChar(pg.ship_skin_template[slot3].name, true),
+		itemList = slot4,
+		skinId = slot5,
+		skinName = SwitchSpecialChar(pg.ship_skin_template[slot5].name, true),
 		price = slot1:GetPrice(),
 		onYes = function (slot0)
 			if slot0 then
@@ -854,6 +887,33 @@ slot0.OnExperience = function(slot0, slot1)
 			end
 
 			uv1:emit(NewSkinShopMediator.ON_SHOPPING, uv2.id, 1)
+		end
+	})
+end
+
+slot0.OnExperience4Item = function(slot0, slot1)
+	if getProxy(ShipSkinProxy):getSkinById(slot1:getSkinId()) and not slot3:isExpireType() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
+
+		return
+	end
+
+	slot4 = slot1:getConfig("resource_num")
+	slot6, slot7, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot1:getConfig("time_second") * slot4)
+	slot12 = _.detect(getProxy(BagProxy):GetSkinExperienceItems(), function (slot0)
+		return slot0:CanUseForShop(uv0.id)
+	end)
+
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		content = i18n("exchange_limit_skin_tip", slot4, pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
+		onYes = function ()
+			if not uv0 or uv0.count < uv1 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
+
+				return
+			end
+
+			uv2:emit(NewSkinShopMediator.ON_ITEM_EXPERIENCE, uv0.id, uv3.id, 1)
 		end
 	})
 end

@@ -2814,6 +2814,48 @@ pg.name_code = {
 		code = "Z43",
 		nation = 0
 	},
+	[538] = {
+		name = "Z9",
+		type = 1,
+		id = 538,
+		code = "Z9",
+		nation = 0
+	},
+	[539] = {
+		name = "Z11",
+		type = 1,
+		id = 539,
+		code = "Z11",
+		nation = 0
+	},
+	[540] = {
+		name = "Z52",
+		type = 1,
+		id = 540,
+		code = "Z52",
+		nation = 0
+	},
+	[541] = {
+		name = "뒤스부르크",
+		type = 1,
+		id = 541,
+		code = "뒤스부르크",
+		nation = 0
+	},
+	[542] = {
+		name = "프리츠 루메이",
+		type = 1,
+		id = 542,
+		code = "프리츠 루메이",
+		nation = 0
+	},
+	[543] = {
+		name = "아드미랄 히퍼·META",
+		type = 1,
+		id = 543,
+		code = "아드미랄 히퍼·META",
+		nation = 0
+	},
 	[10000] = {
 		name = "제로센 52형",
 		type = 2,

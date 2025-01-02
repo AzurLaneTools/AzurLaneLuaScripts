@@ -52,7 +52,7 @@ pg.item_data_battleui = {
 		unlock = "특허 투어 패스 20기 보상",
 		name = "네온",
 		key = "SkinNormal_20241107",
-		display_icon = "Ui_104",
+		display_icon = "ui_104",
 		is_unlock = 1,
 		rare = 3,
 		desc = "반짝이는 네온에 리드미컬한 빔 연출로 부드러운 사용감 제공",
@@ -60,11 +60,24 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[201] = {
+		unlock = "상점 구매 (전투 UI·크리스마스)",
+		name = "크리스마스",
+		key = "SkinNormal_20241209",
+		display_icon = "ui_201",
+		is_unlock = 1,
+		rare = 4,
+		desc = "흩날리는 눈과 서리가 그리는 동화 속 경치. 겨울 분위기를 사랑하는 지휘관을 위해 준비한 전장의 겨울 로맨스.",
+		id = 201,
+		icon = "201",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
-		104
+		104,
+		201
 	}
 }
