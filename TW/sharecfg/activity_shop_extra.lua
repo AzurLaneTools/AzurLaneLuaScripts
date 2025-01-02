@@ -3150,6 +3150,90 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[113] = {
+		num_limit = 1,
+		activity = 5188,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 501021,
+		end_by_maintenance = 0,
+		id = 113,
+		order = 9,
+		scene = {
+			"springfestival town",
+			{
+				isOpenRedPacket = true
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[114] = {
+		num_limit = 1,
+		activity = 5188,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 301882,
+		end_by_maintenance = 0,
+		id = 114,
+		order = 9,
+		scene = {
+			"springfestival town",
+			{
+				isOpenRedPacket = true
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[115] = {
 		num_limit = 1,
 		activity = 5243,
@@ -3729,6 +3813,8 @@ pg.activity_shop_extra = {
 			110,
 			111,
 			112,
+			113,
+			114,
 			115,
 			116,
 			117,
@@ -3832,6 +3918,8 @@ pg.activity_shop_extra = {
 		110,
 		111,
 		112,
+		113,
+		114,
 		115,
 		116,
 		117,

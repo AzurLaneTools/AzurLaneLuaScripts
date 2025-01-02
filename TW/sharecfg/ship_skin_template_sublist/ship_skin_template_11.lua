@@ -1,6 +1,215 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[307023] = {
+		name = "白羽風華",
+		ship_group = 30702,
+		desc = "這個雕像的設計，是源自鳶尾信仰的教義嗎？雖然我並不通曉藝術，但也能從中感受到華麗…以及令人心生敬畏的某些東西…你能感覺到什麼嗎，指揮官？",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 3,
+		prefab = "Jiahe_5",
+		painting = "Jiahe_5",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 7,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "135",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 307023,
+		voice_actor_2 = 137,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70424,
+		voice_actor = 9,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.254,
+					1.12,
+					0
+				}
+			},
+			plane = {
+				{
+					1.214,
+					1.114,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[307024] = {
+		name = "淡櫻之息",
+		ship_group = 30702,
+		desc = "沒想到會為了取這件衣服而和你來了這麼一趟旅行…雖然多少還是有點擔心留在港區的姐姐，不過，還是按你說的稍微放鬆放鬆吧。",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 4,
+		prefab = "jiahe_4",
+		painting = "jiahe_4",
+		hand_id = 2,
+		bgm = "",
+		shop_type_id = 2,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "142",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 307024,
+		voice_actor_2 = 137,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70532,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.1,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.007,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.088,
+					1.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.4,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[307025] = {
 		name = "鸞翔影集",
 		ship_group = 30702,
@@ -11990,234 +12199,6 @@ pg.base.ship_skin_template_11 = {
 						{
 							-0.058,
 							2.326,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401353] = {
-		name = "由愛延展的天空",
-		ship_group = 40135,
-		desc = "為了成為更優秀的偶像，小{namecode:410}已經完成換裝了哦~「讓我用魔法和熱情，為指揮官帶來幸福吧~☆」這句小{namecode:410}自創的台詞，指揮官感覺如何呢~♪",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 3,
-		prefab = "z35_4",
-		painting = "z35_4",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 26,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "181",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 401353,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 71050,
-		voice_actor = 123,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.619,
-					0.733,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.714,
-					0.666,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.042,
-					0.034,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.4,
-					0.8,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.058,
-							2.326,
-							-1.05
-						}
-					}
-				}
-			}
-		}
-	},
-	[401360] = {
-		name = "Z36",
-		ship_group = 40136,
-		desc = "1936B型驅逐艦—Z36",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 0,
-		prefab = "Z36",
-		painting = "Z36",
-		hand_id = 13,
-		bgm = "",
-		shop_type_id = 0,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 401360,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 185,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.2,
-					0.55,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.22,
-					0.5,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.023,
-					0.028,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.35,
-					0.6,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.62,
-							2.24,
 							-1.05
 						}
 					}

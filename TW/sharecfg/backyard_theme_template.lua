@@ -3881,6 +3881,38 @@ pg.backyard_theme_template = {
 			306114
 		}
 	},
+	[107] = {
+		Cfg_1 = 5,
+		name = "龍年新春",
+		desc = "龍年大吉，新春如意！",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 108,
+		id = 107,
+		icon = "cj6themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			307001,
+			307002,
+			307101,
+			307102,
+			307104,
+			307105,
+			307106,
+			307107,
+			307108,
+			307110,
+			307111,
+			307112,
+			307113,
+			307114
+		}
+	},
 	[108] = {
 		Cfg_1 = 5,
 		name = "怪盜謎題",
@@ -4194,6 +4226,7 @@ pg.backyard_theme_template = {
 		104,
 		105,
 		106,
+		107,
 		108,
 		109,
 		110,

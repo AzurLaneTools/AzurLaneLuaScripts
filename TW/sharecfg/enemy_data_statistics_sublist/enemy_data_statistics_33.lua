@@ -1079,7 +1079,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90891] = {
 		cannon = 0,
-		name = "飞云",
+		name = "飛雲",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1235,7 +1235,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90892] = {
 		cannon = 0,
-		name = "济安",
+		name = "濟安",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1392,7 +1392,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90893] = {
 		cannon = 0,
-		name = "龙武",
+		name = "龍武",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1548,7 +1548,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90894] = {
 		cannon = 0,
-		name = "虎贲",
+		name = "虎賁",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

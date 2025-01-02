@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5679",
+		param = "5191",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5131
+			5191
 		}
 	},
 	{
@@ -58,11 +58,34 @@ pg.activity_link_button = {
 		group_id = 5,
 		order = 1,
 		time = {
-			"default",
-			5141
+			"timer",
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		param = {
-			"NEWYEAR_BACKHILL_2024"
+			"springfestival town"
 		}
 	},
 	[30] = {
@@ -75,7 +98,31 @@ pg.activity_link_button = {
 		group_id = 3,
 		order = 1,
 		time = {
-			"default"
+			"timer",
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[40] = {

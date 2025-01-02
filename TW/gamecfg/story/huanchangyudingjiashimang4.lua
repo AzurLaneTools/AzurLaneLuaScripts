@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			bgm = "main-chunjie3",
-			say = "港区·人工湖边——",
+			say = "港區·人工湖邊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -20,7 +20,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "在寰昌的带领下，众人很快找到了一处位于湖畔的雨棚。",
+			say = "在寰昌的帶領下，眾人很快就找到了位於湖畔的雨棚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "就是这里了。",
+			say = "就是這裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦……没想到湖边还有这样的风水宝地呢！",
+			say = "哇哦……沒想到湖邊還有這樣的風水寶地！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -65,7 +65,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是个钓鱼的好地方！",
+			say = "是個釣魚的好地方！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，我们出门的时候好像没带钓鱼竿……",
+			say = "不過，我們出門的時候好像沒帶釣竿……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "我带了~",
+			say = "我帶了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "正所谓未雨绸缪，机会总是留给有准备的人哦。",
+			say = "正所謂未雨綢繆，機會總是留給有準備的人哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "寰昌一边说着，一边从雨棚下取出了自己的钓鱼竿。",
+			say = "寰昌一邊說著，一邊從雨棚下取出了自己的釣竿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好长……！",
+			say = "好長……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦，这么说，寰昌姐姐是经常在这里钓鱼么？",
+			say = "咦，這麼說，寰昌姊姊是常在這裡釣魚嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……只是喜欢偶尔来放松下心情，算不上经常。",
+			say = "……只是喜歡偶爾來放鬆下心情，不算經常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "而且，喜欢来放松心情的也不止我一位呢。",
+			say = "而且，喜歡來放鬆心情的也不只我一位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "寰昌说着，眼神也飘了过来。",
+			say = "寰昌說著，眼神也飄了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,14 +208,14 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（轮到我了么……）",
+			say = "（輪到我了嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "拿出准备好的钓竿。",
+					content = "拿出準備好的釣竿。",
 					flag = 1
 				}
 			}
@@ -228,7 +228,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "震惊，指挥官也提前准备好鱼竿了！",
+			say = "震驚，指揮官也提前準備好釣竿了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……现在看来，这个棚子不光有存放钓具的柜子，连摆放厨具的置物架和存放食材的冰箱都有呢。",
+			say = "……現在看來，這個棚子不光有存放釣具的櫃子，連擺放廚具的置物架和存放食材的冰箱都有呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,7 +274,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉都能当做郊游和野炊的营地了……",
+			say = "感覺都能當做郊遊和野炊的營地了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不愧是“寰昌姐姐”尽心“卜算”出的宝地呢~",
+			say = "不愧是「寰昌姐姐」盡心「卜算」出的寶地呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实我还挺喜欢这里的氛围和布置啦，麻雀虽小但五脏俱全。",
+			say = "其實我還挺喜歡這裡的氣氛和佈置啦，麻雀雖小但五臟俱全。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "准备到如此周全的程度，莫非你和指挥官经常一起钓鱼么？",
+			say = "準備到如此周全的程度，莫非妳和指揮官經常一起釣魚嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "偶尔……会碰上。",
+			say = "偶爾……會遇到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“偶尔”呢——",
+			say = "「偶爾」呢——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -401,7 +401,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "有一次，我在钓鱼时遇到了场小雨。",
+			say = "有一次，我在釣魚時遇到了一場小雨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "不过这场雨，在出门前我便卜到了，所以早就准备好了遮雨的布棚。",
+			say = "不過這場雨，出門前我便卜到了，所以早就準備好了遮雨的布棚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,14 +426,14 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "本以为会变成一场雨中独钓，结果没想到却遇上了避雨的人……",
+			say = "以為會變成一場雨中獨釣，結果沒想到卻遇上了避雨的人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那时恰巧看到这里有避雨的地方。",
+					content = "那時剛好看到這裡有避雨的地方。",
 					flag = 1
 				}
 			}
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "就是这样，所以布棚也就一直没有拆掉。",
+			say = "就是這樣，所以布棚也就一直沒有拆掉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "然后随着一起钓鱼的次数增多，就渐渐把这里修整成现在这个样子了。",
+			say = "然後隨著一起釣魚的次數增多，就漸漸把這裡修整成現在這個樣子了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "其实，我觉得遇到喜欢钓鱼的朋友也算是不错的收获哦，钓鱼总不能空手而归嘛。",
+			say = "其實，我覺得遇到喜歡釣魚的朋友也算是不錯的收穫哦，釣魚總不能空手而歸嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦哦，很有道理的样子……",
+			say = "哦哦，很有道理的樣子……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -502,7 +502,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……？这么说，寰昌姐姐那天是没钓到鱼……？",
+			say = "欸……？這麼說，寰昌姊姊那天是沒釣到魚……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "咳……钓鱼本就是尽人事以听天命。",
+			say = "咳……釣魚本就是盡人事以聽天命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "明白么？",
+			say = "明白嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没事，不明白就对了……",
+			say = "沒事，不明白就對了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "寰昌姐姐，我可以试试钓鱼么！",
+			say = "寰昌姐姐，我可以試試看釣魚嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "当然，今天的主角可是你们，快开始吧。",
+			say = "當然，今天的主角可是妳們，快開始吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个！飞云也想试试！",
+			say = "那個！飛雲也想試試！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			},
 			options = {
 				{
-					content = "用我这根吧。",
+					content = "用我這根吧。",
 					flag = 1
 				}
 			}
@@ -633,7 +633,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶！谢谢指挥官！",
+			say = "好耶！謝謝指揮官！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -651,7 +651,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼！飞云大人肯定会钓上大鱼的！",
+			say = "哼哼！飛雲大人一定會釣大魚的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……钓鱼，可是需要耐心的。",
+			say = "……釣魚，可是需要耐心的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "太着急的话，会把鱼儿吓走——",
+			say = "太急的話，會把魚嚇走——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "上钩啦！",
+			say = "上鉤啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -730,7 +730,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我这边也是！",
+			say = "我這邊也是！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -745,7 +745,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "还没等寰昌说完，两条大鱼就被虎贲和飞云各自从水里拽了上来。",
+			say = "還沒等寰昌說完，兩條大魚就被虎賁和飛雲各自從水裡拉了上來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "难道说，这就是初学者的运气……",
+			say = "難道說，這就是初學者的運氣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好大的鱼！寰昌姐姐算的没错，这里果然有很棒的食材！",
+			say = "好大的魚！寰昌姊姊算的沒錯，這裡果然有很棒的食材！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -808,7 +808,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又上钩啦！",
+			say = "又上鉤啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -842,7 +842,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "寰昌",
-			say = "这……不对吧？",
+			say = "這……不對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "寰昌",
-			say = "难道说……今天是丰收渔获之日？",
+			say = "難道說……今天是豐收漁獲之日？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "大受震撼的寰昌，连忙掐着手指算了几卦——",
+			say = "大受震撼的寰昌，連忙掐著手指算了幾卦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "不能吧……卦象明明不是这样……",
+			say = "不能吧……卦象明明不是這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,7 +905,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "……是因为经常在这里打窝的缘故么？",
+			say = "……是因為常在這裡打窩的緣故嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -918,7 +918,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "那也说不通啊……怎么会接连有这么大的鱼……",
+			say = "那也說不通啊……怎麼會接連有這麼大的魚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "那个……飞云、还有虎贲，能不能让你们寰昌姐也试试？",
+			say = "那個……飛雲、還有虎賁，能不能讓妳們寰昌姐也試試？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -944,7 +944,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 504010,
-			say = "我想看看……能不能钓上来更大的鱼。",
+			say = "我想看看……能不能釣上來更大的魚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题呀！",
+			say = "沒問題呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -976,7 +976,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们干脆就来比试一下吧，寰昌姐姐！",
+			say = "那我們乾脆就來比賽一下吧，寰昌姊姊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -994,7 +994,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，那我肯定不会输的……",
+			say = "呵呵，那我一定不會輸的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,7 +1008,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这方面，我可是资深玩家……",
+			say = "在這方面，我可是資深玩家……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,7 +1020,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（寰昌身上，是不是有种莫名其妙的胜负欲燃起来了……）",
+			say = "（寰昌身上，是不是有種莫名其妙的勝負欲燃起來了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1032,7 +1032,7 @@ return {
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不过…………祝她好运。）",
+			say = "（不過…………祝她好運。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1043,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_142",
 			hidePaintObj = true,
-			say = "就这样，莫名其妙的钓鱼大赛开始了——",
+			say = "就這樣，莫名其妙的釣魚大賽開始了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1056,7 +1056,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后，作为赛后总结——",
+			say = "最後，作為賽後總結——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1089,7 +1089,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "——算卦救不了钓鱼佬。",
+			say = "——算卦救不了釣魚人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1102,7 +1102,7 @@ return {
 			blackBg = true,
 			actorName = "寰昌",
 			hidePaintObj = true,
-			say = "——指挥官~~！！！",
+			say = "——指揮官~~！！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

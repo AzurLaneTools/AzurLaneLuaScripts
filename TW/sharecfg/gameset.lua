@@ -340,7 +340,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 384
+		key_value = 2020
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1924,7 +1924,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 386
+		key_value = 392
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3709,11 +3709,11 @@ pg.gameset = {
 			{
 				{
 					30507,
-					"no_share_skin_jiahehangmu"
+					"no_share_skin_jiahezhanlie"
 				},
 				{
 					30702,
-					"no_share_skin_jiahezhanlie"
+					"no_share_skin_jiahehangmu"
 				}
 			}
 		}

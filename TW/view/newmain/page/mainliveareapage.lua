@@ -43,10 +43,6 @@ slot0.OnLoaded = function(slot0)
 	pg.redDotHelper:AddNode(SelfRefreshRedDotNode.New(slot0._commanderBtn:Find("tip"), {
 		pg.RedDotMgr.TYPES.COMMANDER
 	}))
-	pg.redDotHelper:AddNode(RedDotNode.New(slot0._dormBtn:Find("tip"), {
-		pg.RedDotMgr.TYPES.DORM3D_GIFT,
-		pg.RedDotMgr.TYPES.DORM3D_FURNITURE
-	}))
 end
 
 slot0.OnInit = function(slot0)
@@ -119,6 +115,12 @@ slot0.Show = function(slot0)
 		slot0._dormBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
+	(function ()
+		slot2 = uv0 and Dorm3dFurniture.IsTimelimitShopTip()
+
+		setActive(uv1._dormBtn:Find("tip"), not slot2 and (uv0 and Dorm3dGift.NeedViewTip() or uv0 and Dorm3dFurniture.NeedViewTip()))
+		setActive(uv1._dormBtn:Find("tagFurniture"), slot2)
+	end)()
 	slot0:UpdateCover()
 	slot0:UpdateCoverTip()
 	slot0:UpdateTime()

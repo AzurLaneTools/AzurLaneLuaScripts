@@ -1,6 +1,132 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201238] = {
+		name = "以羅伊的賜福",
+		ship_group = 20123,
+		desc = "愛上吸血鬼的人，必將遭受七倍的迷戀。畢竟，愛乃致死之毒",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 8,
+		prefab = "xixuegui_h",
+		painting = "xixuegui_h",
+		hand_id = 13,
+		bgm = "",
+		shop_type_id = 9998,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 1,
+		id = 201238,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.599,
+					0.621,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.599,
+					0.621,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.139,
+					0.066,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.599,
+					0.621,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.1,
+							0.8,
+							-0.13
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.8,
+							2.31,
+							-0.57
+						}
+					}
+				}
+			}
+		}
+	},
 	[201240] = {
 		name = "丘比特",
 		ship_group = 20124,
@@ -12742,121 +12868,6 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.44,
 							2.441,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[202291] = {
-		name = "嫣紅深閨",
-		ship_group = 20229,
-		desc = "歐若拉說，東煌的春節是喜慶的節日，而紅色正是代表喜慶的顏色，所以幫我挑了這套衣服。您覺得如何呢？有沒有很“喜慶”的感覺？",
-		illustrator2 = -1,
-		bg_sp = "1102",
-		group_index = 1,
-		prefab = "peineiluopo_2",
-		painting = "peineiluopo_2",
-		hand_id = 1,
-		bgm = "",
-		shop_type_id = 3,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "144",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 202291,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70500,
-		voice_actor = 55,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.99,
-					1.01,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.988,
-					1.002,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.008,
-					-0.003,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.999,
-					0.991,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.512,
-							2.406,
 							0
 						}
 					}

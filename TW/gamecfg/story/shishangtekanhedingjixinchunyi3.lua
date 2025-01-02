@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[1]\n\n<size=45>虎舞迎春</size>",
+					"港區時尚特刊：祥蛇賀春\n\n<size=45>虎舞迎春宴</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			bgm = "main-chunjie-pv",
-			say = "灯笼与烟花点缀下的夜晚，漫步在颇具节日气息的街道上——",
+			say = "燈籠與煙火點綴下的夜晚，漫步在頗具節慶氣息的街道上—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -34,7 +34,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗷呜~嗷呜~！",
+			say = "嗷嗚~嗷嗚~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "一只非常特别的“生物”从阴影中窜出，拦在了我的散步路线上。",
+			say = "一隻非常特別的「生物」從陰影中竄出，攔在了我的散步路線上，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗷呜~嗷呜~嗷呜呜！",
+			say = "嗷嗚~嗷~嗷嗚嗚！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "此刻，这只“嗷呜”叫的拦路虎……",
+			say = "此刻，這隻「嗷嗚」叫的攔路虎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "不，“拦路狮”正摇晃着硕大的脑袋在我面前左右摇摆。",
+			say = "不，「攔路獅」正搖晃著碩大的腦袋在我面前左右搖擺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "它跟着往左移动了一步。",
+			say = "它跟著往左移動了一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "它跟着往右移动了一步。",
+			say = "它跟著往右移動了一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗷呜呜~嗷呜呜呜！",
+			say = "嗷嗚嗚嗚~嗷嗚嗚嗚！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -155,7 +155,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……这只“拦路狮”，正在得意地眨眼睛。）",
+			say = "（……這隻「攔路獅」，正在得意地眨眼睛。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,18 +166,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "（看来得换一种突围方式……）",
+			say = "（看來得換一種突圍方式…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "掀开它的头罩",
+					content = "掀開它的頭罩",
 					flag = 1
 				},
 				{
-					content = "跳过去吧",
+					content = "跳過去吧",
 					flag = 2
 				}
 			}
@@ -188,7 +188,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "“拦路狮”敏捷地向后一跳，成功躲掉了我的突袭。",
+			say = "「攔路獅」敏捷地向後一跳，成功躲掉了我的突襲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不行，这个高度只有梦里能做到。",
+			say = "不行，這個高度只有夢裡能做到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈哈哈哈~耶~恶作剧大成功！",
+			say = "哈哈哈哈哈哈~耶~惡作劇大成功！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（哦？这声音……）",
+			say = "（喔？這聲音……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虎贲，原来是你啊。",
+			say = "虎賁，原來是妳啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "“拦路狮”张开的“嘴巴”里露出了虎贲得意的笑脸。",
+			say = "「攔路獅」張開的「嘴巴」露出了虎賁得意的笑臉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿嘿~指挥官有没有吓一跳呀~",
+			say = "嘿嘿嘿~指揮官有沒有嚇一跳呀~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -288,7 +288,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我和姐姐正在练习舞狮，不过现在是休息时间。",
+			say = "我和姊姊正在練習舞獅，但現在是休息時間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚远远就看到指挥官在散步，就想过来给你个惊喜。",
+			say = "才剛遠遠看到指揮官在散步，就想過來給你個驚喜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样？我的舞狮形态是不是很厉害？",
+			say = "怎麼樣？我的舞獅形態是不是很厲害？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,11 +337,11 @@ return {
 			},
 			options = {
 				{
-					content = "很厉害！",
+					content = "很厲害！",
 					flag = 1
 				},
 				{
-					content = "狮子为什么要嗷呜叫？",
+					content = "獅子為什麼要嗷叫？",
 					flag = 2
 				}
 			}
@@ -356,7 +356,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是吧是吧，我可是用了2000%的努力去练习的！",
+			say = "是吧是吧，我可是用了2000%的努力去練習的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……因为嗷呜比吼吼可爱嘛！",
+			say = "呃……因為嗷比吼吼可愛嘛！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……问我们怎么会想到要表演舞狮？",
+			say = "……問我們怎麼會想到要表演舞獅？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -414,7 +414,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，因为狮子是能消灾除害的瑞兽呀！",
+			say = "嘿嘿，因為舞獅是能消災除害的瑞獸呀！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你说老虎和龙本来也是瑞兽？",
+			say = "……妳說老虎和龍本來也是瑞獸？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -452,7 +452,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……那今年由我和姐姐来表演舞狮，大家一定能福气加倍，幸福加倍的！",
+			say = "嗯……那今年由我和姊姊來表演舞獅，大家一定能福氣加倍，幸福加倍的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,9 +468,9 @@ return {
 			bgName = "star_level_bg_127",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			actorName = "龙武",
+			actorName = "龍武",
 			hidePaintObj = true,
-			say = "虎贲——快点回来练习——不要偷懒啦——",
+			say = "虎賁——快點回來練習——不要偷懶啦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -489,7 +489,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "马上来——",
+			say = "馬上——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -504,7 +504,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "在龙武的呼唤下，虎贲再次戴好舞狮头套——",
+			say = "在龍武的呼喚下，虎賁再次戴好舞獅頭套——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 501061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么指挥官之后就好好期待我们精彩的演出吧~",
+			say = "那麼指揮官之後就好好期待我們精彩的演出吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -534,7 +534,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "留下这句话后，“拦路狮”便朝着龙武的方向飞奔而去。",
+			say = "留下這句話後，「攔路獅」便朝著龍武的方向飛奔而去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
-			say = "看来今年的新春表演，要新增一个亮眼的节目了——",
+			say = "看來今年的新春表演，要新增一個亮眼的節目了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

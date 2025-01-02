@@ -56,5 +56,5 @@ slot1.onBeforeTakeDamage = function(slot0, slot1, slot2, slot3)
 		end
 	end
 
-	slot3.damage = slot5
+	slot3.damage = math.floor(slot5)
 end

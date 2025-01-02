@@ -90,6 +90,14 @@ slot0.couldSell = function(slot0)
 	return table.getCount(slot0:getConfig("price")) > 0
 end
 
+slot0.GetPrice = function(slot0)
+	if slot0:couldSell() then
+		return slot0:getConfig("price")
+	else
+		return nil
+	end
+end
+
 slot0.isEnough = function(slot0, slot1)
 	return slot1 <= slot0.count
 end
@@ -243,6 +251,14 @@ slot0.IsSkinShopDiscountType = function(slot0)
 	return slot0:getConfig("usage") == ItemUsage.SKIN_SHOP_DISCOUNT
 end
 
+slot0.IsExclusiveDiscountType = function(slot0)
+	return slot0:getConfig("usage") == ItemUsage.USAGE_SHOP_DISCOUNT
+end
+
+slot0.IsSkinExperienceType = function(slot0)
+	return slot0:getConfig("usage") == ItemUsage.USAGE_SKIN_EXP
+end
+
 slot0.CanUseForShop = function(slot0, slot1)
 	if slot0:IsSkinShopDiscountType() then
 		if not slot0:getConfig("usage_arg") or type(slot2) ~= "table" then
@@ -252,13 +268,25 @@ slot0.CanUseForShop = function(slot0, slot1)
 		slot3 = slot2[1] or {}
 
 		return #slot3 == 1 and slot3[1] == 0 or table.contains(slot3, slot1)
+	elseif slot0:IsSkinExperienceType() then
+		if not slot0:getConfig("usage_arg") or type(slot2) ~= "table" then
+			return false
+		end
+
+		return (slot2[1] or -1) == slot1
+	elseif slot0:IsExclusiveDiscountType() then
+		if not slot0:getConfig("usage_arg")[1] or type(slot2) ~= "table" then
+			return false
+		end
+
+		return (slot2[1] or -1) == slot1
 	end
 
 	return false
 end
 
 slot0.GetConsumeForSkinShopDiscount = function(slot0, slot1)
-	if slot0:IsSkinShopDiscountType() then
+	if slot0:IsSkinShopDiscountType() or slot0:IsExclusiveDiscountType() and slot0:CanUseForShop(slot1) then
 		slot4 = Goods.Create({
 			shop_id = slot1
 		}, Goods.TYPE_SKIN)

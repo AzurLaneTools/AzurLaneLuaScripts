@@ -1530,6 +1530,46 @@ pg.player_resource = {
 		name = "blackfirday_pt20241212",
 		itemid = 65062
 	},
+	[445] = {
+		id = 445,
+		name = "limit_skinticket1",
+		itemid = 68006
+	},
+	[446] = {
+		id = 446,
+		name = "limit_skinticket2",
+		itemid = 68007
+	},
+	[447] = {
+		id = 447,
+		name = "limit_skinticket3",
+		itemid = 68008
+	},
+	[448] = {
+		id = 448,
+		name = "lumei_pt",
+		itemid = 65063
+	},
+	[449] = {
+		id = 449,
+		name = "lumei_hpt",
+		itemid = 65064
+	},
+	[450] = {
+		id = 450,
+		name = "skinTicket83",
+		itemid = 65067
+	},
+	[451] = {
+		id = 451,
+		name = "Christmax2024_pt",
+		itemid = 86410
+	},
+	[452] = {
+		id = 452,
+		name = "activity_xunzhang",
+		itemid = 65500
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1999,6 +2039,16 @@ pg.player_resource = {
 		id = 40731,
 		name = "Batterytw_2",
 		itemid = 80014
+	},
+	[40732] = {
+		id = 40732,
+		name = "feiciazhixing_twpt",
+		itemid = 59391
+	},
+	[40733] = {
+		id = 40733,
+		name = "chunjie_pt4_tw",
+		itemid = 59528
 	},
 	[40807] = {
 		id = 40807,
@@ -2944,6 +2994,30 @@ pg.player_resource = {
 		blackfirday_pt20241212 = {
 			444
 		},
+		limit_skinticket1 = {
+			445
+		},
+		limit_skinticket2 = {
+			446
+		},
+		limit_skinticket3 = {
+			447
+		},
+		lumei_pt = {
+			448
+		},
+		lumei_hpt = {
+			449
+		},
+		skinTicket83 = {
+			450
+		},
+		Christmax2024_pt = {
+			451
+		},
+		activity_xunzhang = {
+			452
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3225,6 +3299,12 @@ pg.player_resource = {
 		},
 		Batterytw_2 = {
 			40731
+		},
+		feiciazhixing_twpt = {
+			40732
+		},
+		chunjie_pt4_tw = {
+			40733
 		},
 		tw_2022yaoqing = {
 			40807
@@ -3549,6 +3629,14 @@ pg.player_resource = {
 		442,
 		443,
 		444,
+		445,
+		446,
+		447,
+		448,
+		449,
+		450,
+		451,
+		452,
 		950,
 		951,
 		952,
@@ -3643,6 +3731,8 @@ pg.player_resource = {
 		40713,
 		40730,
 		40731,
+		40732,
+		40733,
 		40807,
 		40905,
 		40934,

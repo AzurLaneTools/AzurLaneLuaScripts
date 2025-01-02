@@ -8,6 +8,7 @@ slot4 = 2
 slot5 = 3
 slot6 = 1
 slot7 = 2
+slot8 = 1
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.live2dData = slot2
@@ -52,6 +53,9 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.relationParameter = slot1.relation_parameter
 	slot0.relationParts = slot0.relationParameter.parts
 	slot0.limitTime = slot1.limit_time > 0 and slot1.limit_time or uv0
+	slot0.offsetCircle = slot1.offset_circle or ""
+	slot0.offsetCirclePos = slot0.offsetCircle.pos and slot0.offsetCircle.pos or nil
+	slot0.offsetCircleStart = slot0.offsetCircle.start and slot0.offsetCircle.start or nil
 	slot0.listenerData = slot1.listener_data
 	slot0.listenerType = slot0.listenerData.type
 	slot0.listenerChange = slot0.listenerData.change
@@ -92,6 +96,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._relationParameterList = {}
 	slot0.offsetDragX = slot0.startValue
 	slot0.offsetDragY = slot0.startValue
+	slot0.rangeOffset = slot0.range[2] - slot0.range[1]
 	slot0.offsetDragTargetX = slot0.startValue
 	slot0.offsetDragTargetY = slot0.startValue
 	slot0.parameterComAdd = true
@@ -135,7 +140,7 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 							print(slot0.parameterName .. "等待动作结束后的target赋值" .. slot0.parameterTargetValue)
 						else
 							slot0:setTargetValue(slot20)
-							print(slot0.parameterName .. " 数值变更为" .. slot0.parameterTargetValue)
+							print(slot0.parameterName .. "监听 数值变更为" .. slot0.parameterTargetValue)
 						end
 					end
 
@@ -150,7 +155,7 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 		if slot0.listenerApply and #slot0.listenerApply > 0 then
 			slot11 = slot0.listenerApply[2]
 
-			if slot0.listenerApply[1] == 1 and slot9 then
+			if slot0.listenerApply[1] == uv2 and slot9 then
 				slot12 = slot0.parameterTargetValue
 
 				if slot0.prepareTargetValue ~= nil then
@@ -165,7 +170,7 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 					end
 				end
 
-				if slot13 then
+				if slot13 and slot0.l2dIdleIndex ~= slot13 then
 					slot0:onEventCallback(Live2D.EVENT_CHANGE_IDLE_INDEX, {
 						id = slot0.id,
 						idle = slot13,
@@ -181,7 +186,7 @@ slot0.getChangeCheckName = function(slot0, slot1, slot2)
 	if slot1 == Live2D.ON_ACTION_PLAY then
 		return slot2.action
 	elseif slot1 == Live2D.ON_ACTION_DRAG_CLICK then
-		-- Nothing
+		return slot2.draw_able_name
 	elseif slot1 == Live2D.ON_ACTION_CHANGE_IDLE then
 		return slot2.idle
 	elseif slot1 == Live2D.ON_ACTION_PARAMETER then
@@ -197,10 +202,12 @@ slot0.getChangeCheckName = function(slot0, slot1, slot2)
 	return nil
 end
 
-slot0.startDrag = function(slot0)
+slot0.startDrag = function(slot0, slot1)
 	if slot0.ignoreAction and slot0.l2dIsPlaying then
 		return
 	end
+
+	print(slot0.drawAbleName .. " 按下了")
 
 	if not slot0._active then
 		slot0._active = true
@@ -216,7 +223,7 @@ slot0.startDrag = function(slot0)
 	end
 end
 
-slot0.stopDrag = function(slot0)
+slot0.stopDrag = function(slot0, slot1)
 	if slot0._active then
 		slot0._active = false
 
@@ -237,10 +244,16 @@ slot0.stopDrag = function(slot0)
 
 		slot0.mouseInputUp = Input.mousePosition
 		slot0.mouseInputUpTime = Time.time
+		slot0.mouseWorld = nil
+		slot0.circleDragWorld = nil
 
 		slot0:updatePartsParameter()
 		slot0:saveData()
 	end
+end
+
+slot0.onDrag = function(slot0, slot1)
+	slot0.mouseWorld = slot1.pointerCurrentRaycast.worldPosition
 end
 
 slot0.checkResetTriggerTime = function(slot0)
@@ -268,6 +281,8 @@ slot0.updatePartsParameter = function(slot0)
 		if slot0.offsetX or slot0.offsetY then
 			slot3 = true
 		elseif slot0.actionTrigger and slot0.actionTrigger.type == Live2D.DRAG_DOWN_TOUCH then
+			slot3 = true
+		elseif slot0.offsetCirclePos then
 			slot3 = true
 		end
 
@@ -415,6 +430,8 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			end
 		end
 
+		print("执行aplly数据 id = " .. slot0.id .. "播放action = " .. tostring(slot5) .. " active idle is " .. tostring(slot4.idle))
+
 		if slot7 then
 			slot0:setTargetValue(slot7)
 
@@ -444,6 +461,8 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 		print("change idle")
 	elseif slot1 == Live2D.EVENT_GET_PARAMETER then
 		slot2.callback = slot3
+	elseif slot1 == Live2D.EVENT_GET_WORLD_POSITION then
+		slot2.callback = slot3
 	end
 
 	slot0._eventCallback(slot1, slot2)
@@ -472,6 +491,15 @@ slot0.getCommonNoticeData = function(slot0)
 end
 
 slot0.setTargetValue = function(slot0, slot1)
+	if table.contains({
+		49905314,
+		49905315,
+		49905316,
+		49905317
+	}, slot0.id) then
+		print(slot0.parameterName .. " 设置目标数值.." .. slot1)
+	end
+
 	slot0.parameterTargetValue = slot1
 end
 
@@ -494,18 +522,26 @@ end
 slot0.actionApplyFinish = function(slot0)
 end
 
-slot0.stepParameter = function(slot0)
+slot0.stepParameter = function(slot0, slot1)
+	slot0:updateStepData(slot1)
 	slot0:updateState()
 	slot0:updateTrigger()
 	slot0:updateParameterUpdateFlag()
 	slot0:updateGyro()
 	slot0:updateDrag()
+	slot0:updateCircleDrag()
 	slot0:updateReactValue()
 	slot0:updateParameterValue()
 	slot0:updateRelationValue()
 	slot0:checkReset()
 
 	slot0.loadL2dStep = false
+end
+
+slot0.updateStepData = function(slot0, slot1)
+	slot0.reactPos = slot1.reactPos
+	slot0.normalTime = slot1.normalTime
+	slot0.stateInfo = slot1.stateInfo
 end
 
 slot0.updateParameterUpdateFlag = function(slot0)
@@ -581,6 +617,29 @@ slot0.updateDrag = function(slot0)
 	end
 
 	slot0._parameterUpdateFlag = true
+end
+
+slot0.updateCircleDrag = function(slot0)
+	if not slot0.offsetCirclePos then
+		return
+	end
+
+	if slot0._active and slot0.mouseWorld ~= nil then
+		if not slot0.circleDragWorld then
+			slot0:onEventCallback(Live2D.EVENT_GET_WORLD_POSITION, {
+				pos = slot0.offsetCirclePos,
+				name = slot0.drawAbleName
+			}, function (slot0)
+				uv0.circleDragWorld = slot0
+			end)
+		end
+
+		slot0:setTargetValue(slot0.range[2] * (math.atan2(slot0.mouseWorld.x - slot0.circleDragWorld.x, slot0.mouseWorld.y - slot0.circleDragWorld.y) * math.rad2Deg + 360 - slot0.offsetCircleStart) % 360 / 360)
+
+		slot0._parameterUpdateFlag = true
+	elseif slot0.parameterTargetValue ~= slot0.parameterValue then
+		slot0._parameterUpdateFlag = true
+	end
 end
 
 slot0.updateGyro = function(slot0)
@@ -660,13 +719,22 @@ slot0.updateParameterValue = function(slot0)
 		if math.abs(slot0.parameterValue - slot0.parameterTargetValue) < 0.01 then
 			slot0:setParameterValue(slot0.parameterTargetValue)
 		elseif slot0.parameterSmoothTime and slot0.parameterSmoothTime > 0 then
-			slot1, slot2 = Mathf.SmoothDamp(slot0.parameterValue, slot0.parameterTargetValue, slot0.parameterSmooth, slot0.parameterSmoothTime)
+			slot1 = slot0.parameterValue
+			slot3, slot4 = Mathf.SmoothDamp(slot1, slot0:checkUpdateParameterNum(slot0.parameterTargetValue, slot1), slot0.parameterSmooth, slot0.parameterSmoothTime)
 
-			slot0:setParameterValue(slot1, slot2)
+			slot0:setParameterValue(slot3, slot4)
 		else
 			slot0:setParameterValue(slot0.parameterTargetValue, 0)
 		end
 	end
+end
+
+slot0.checkUpdateParameterNum = function(slot0, slot1, slot2)
+	if slot0.offsetCirclePos and math.abs(slot1 - slot2) >= slot0.rangeOffset / 2 then
+		slot1 = slot2 < slot1 and slot1 - slot0.rangeOffset or slot1 + slot0.rangeOffset
+	end
+
+	return slot1
 end
 
 slot0.updateRelationValue = function(slot0)
@@ -782,10 +850,6 @@ slot0.checkReset = function(slot0)
 	end
 end
 
-slot0.changeReactValue = function(slot0, slot1)
-	slot0.reactPos = slot1
-end
-
 slot0.setParameterValue = function(slot0, slot1, slot2)
 	if slot1 then
 		slot0.parameterValue = slot1
@@ -856,6 +920,25 @@ slot0.updateTrigger = function(slot0)
 			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
 				if slot0 then
 					uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
+				end
+			end)
+		end
+	elseif slot1 == Live2D.DRAG_CLICK_RANGE then
+		if slot0:checkClickAction() then
+			slot7 = slot4
+
+			slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+				name = slot0.actionTrigger.parameter and slot0.actionTrigger.parameter or slot0.parameterName
+			}, function (slot0)
+				print("获取到数值 " .. uv0 .. " = " .. slot0)
+
+				if uv1[1] <= slot0 and slot0 < uv1[2] then
+					print("数值范围内，开始触发")
+					uv2:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+						if slot0 then
+							uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
+						end
+					end)
 				end
 			end)
 		end
@@ -933,24 +1016,37 @@ slot0.updateTrigger = function(slot0)
 		if slot0._active then
 			slot0:setTargetValue(slot0:fixParameterTargetValue(slot0.parameterTargetValue + Time.deltaTime / slot0.actionTrigger.delta, slot0.range, slot0.rangeAbs, slot0.dragDirect))
 		end
-	elseif slot1 == Live2D.DRAG_CLICK_PARAMETER and slot0:checkClickAction() then
-		slot6 = slot4
+	elseif slot1 == Live2D.DRAG_CLICK_PARAMETER then
+		if slot0:checkClickAction() then
+			slot6 = slot4
 
-		slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
-			name = slot0.actionTrigger.parameter
-		}, function (slot0)
-			if math.abs(uv0 - slot0) <= 0.05 then
-				print("数值允许播放，开始执行动作 " .. uv1.actionTrigger.action)
+			slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+				name = slot0.actionTrigger.parameter
+			}, function (slot0)
+				if math.abs(uv0 - slot0) <= 0.05 then
+					print("数值允许播放，开始执行动作 " .. uv1.actionTrigger.action)
 
-				slot1 = uv1
+					slot1 = uv1
 
-				slot1:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
-					if slot0 then
-						uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
-					end
-				end)
-			end
-		end)
+					slot1:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
+						if slot0 then
+							uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
+						end
+					end)
+				end
+			end)
+		end
+	elseif slot1 == Live2D.DRAG_ANIMATION_PLAY then
+		slot5 = slot0.actionTrigger.trigger_name
+
+		if slot0.actionTrigger.trigger_index > 0 and slot0.actionTrigger.trigger_name == "idle" then
+			slot5 = slot5 .. slot0.actionTrigger.trigger_index
+		end
+
+		if slot0.stateInfo:IsName(slot5) and slot0.l2dIdleIndex == slot0.actionTrigger.trigger_index and slot0.actionTrigger.trigger_rate <= slot0.normalTime then
+			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function ()
+			end)
+		end
 	end
 end
 

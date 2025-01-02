@@ -2,6 +2,7 @@ slot0 = class("WorldMediaCollectionScene", require("view.base.BaseUI"))
 slot0.PAGE_MEMORTY = 1
 slot0.PAGE_FILE = 2
 slot0.PAGE_RECORD = 3
+slot0.PAGE_ALBUM = 4
 
 slot0.getUIName = function(slot0)
 	return "WorldMediaCollectionUI"
@@ -26,7 +27,8 @@ end
 slot1 = {
 	import(".WorldMediaCollectionMemoryLayer"),
 	import(".WorldMediaCollectionRecordLayer"),
-	import(".WorldMediaCollectionFileLayer")
+	import(".WorldMediaCollectionFileLayer"),
+	import(".WorldMediaCollectionAlbumLayer")
 }
 
 slot0.GetCurrentPage = function(slot0)

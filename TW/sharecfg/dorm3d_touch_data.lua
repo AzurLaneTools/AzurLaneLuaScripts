@@ -4,6 +4,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "",
 		id = 101,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 1,
 		heartbeat_favor = {
 			{
@@ -27,6 +28,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 102,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -50,6 +52,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 103,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 1,
 		heartbeat_favor = {
 			{
@@ -73,6 +76,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 104,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -96,6 +100,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 105,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 1,
 		heartbeat_favor = {
 			{
@@ -119,6 +124,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 106,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -142,6 +148,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 201,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -165,6 +172,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100104,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -188,6 +196,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100107,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -211,6 +220,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100201,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -234,6 +244,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100202,
+		heartbeat_enter_anim = "PayGoToSofaStart",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{
@@ -250,6 +261,7 @@ pg.dorm3d_touch_data = {
 			}
 		},
 		ik_status = {
+			100210,
 			100210
 		}
 	},
@@ -257,6 +269,7 @@ pg.dorm3d_touch_data = {
 		default_favor = 1001,
 		finish_action = "Idle",
 		id = 10100303,
+		heartbeat_enter_anim = "",
 		heartbeat_enable = 0,
 		heartbeat_favor = {
 			{

@@ -4751,6 +4751,133 @@ pg.activity_ins_language = setmetatable({
 		"op_reply_438_1_1",
 		"ins_op_438_1_2",
 		"op_reply_438_1_2",
+		"ins_439",
+		"ins_discuss_439_1",
+		"ins_reply_439_1_1",
+		"ins_discuss_439_2",
+		"ins_reply_439_2_1",
+		"ins_reply_439_2_2",
+		"ins_discuss_439_3",
+		"ins_reply_439_3_1",
+		"ins_reply_439_3_2",
+		"ins_reply_439_3_3",
+		"ins_op_439_1_1",
+		"op_reply_439_1_1",
+		"ins_op_439_1_2",
+		"op_reply_439_1_2",
+		"ins_440",
+		"ins_discuss_440_1",
+		"ins_reply_440_1_1",
+		"ins_reply_440_1_2",
+		"ins_discuss_440_2",
+		"ins_reply_440_2_1",
+		"ins_reply_440_2_2",
+		"ins_reply_440_2_3",
+		"ins_op_440_1_1",
+		"op_reply_440_1_1",
+		"ins_op_440_1_2",
+		"op_reply_440_1_2",
+		"ins_441",
+		"ins_discuss_441_1",
+		"ins_reply_441_1_1",
+		"ins_discuss_441_2",
+		"ins_reply_441_2_1",
+		"ins_reply_441_2_2",
+		"ins_reply_441_2_3",
+		"ins_reply_441_2_4",
+		"ins_discuss_441_3",
+		"ins_reply_441_3_1",
+		"ins_reply_441_3_2",
+		"ins_reply_441_3_3",
+		"ins_reply_441_3_4",
+		"ins_op_441_1_1",
+		"op_reply_441_1_1",
+		"ins_op_441_1_2",
+		"op_reply_441_1_2",
+		"ins_442",
+		"ins_discuss_442_1",
+		"ins_reply_442_1_1",
+		"ins_discuss_442_2",
+		"ins_reply_442_2_1",
+		"ins_reply_442_2_2",
+		"ins_reply_442_2_3",
+		"ins_discuss_442_3",
+		"ins_reply_442_3_1",
+		"ins_reply_442_3_2",
+		"ins_op_442_1_1",
+		"op_reply_442_1_1",
+		"ins_op_442_1_2",
+		"op_reply_442_1_2",
+		"ins_443",
+		"ins_discuss_443_1",
+		"ins_reply_443_1_1",
+		"ins_discuss_443_2",
+		"ins_reply_443_2_1",
+		"ins_reply_443_2_2",
+		"ins_discuss_443_3",
+		"ins_reply_443_3_1",
+		"ins_op_443_1_1",
+		"op_reply_443_1_1",
+		"ins_op_443_1_2",
+		"op_reply_443_1_2",
+		"ins_444",
+		"ins_discuss_444_1",
+		"ins_reply_444_1_1",
+		"ins_reply_444_1_2",
+		"ins_discuss_444_2",
+		"ins_reply_444_2_1",
+		"ins_op_444_1_1",
+		"op_reply_444_1_1",
+		"ins_op_444_1_2",
+		"op_reply_444_1_2",
+		"ins_445",
+		"ins_discuss_445_1",
+		"ins_reply_445_1_1",
+		"ins_reply_445_1_2",
+		"ins_reply_445_1_3",
+		"ins_discuss_445_2",
+		"ins_reply_445_2_1",
+		"ins_reply_445_2_2",
+		"ins_reply_445_2_3",
+		"ins_op_445_1_1",
+		"op_reply_445_1_1",
+		"ins_op_445_1_2",
+		"op_reply_445_1_2",
+		"ins_446",
+		"ins_discuss_446_1",
+		"ins_reply_446_1_1",
+		"ins_reply_446_1_2",
+		"ins_discuss_446_2",
+		"ins_reply_446_2_1",
+		"ins_reply_446_2_2",
+		"ins_op_446_1_1",
+		"op_reply_446_1_1",
+		"ins_op_446_1_2",
+		"op_reply_446_1_2",
+		"ins_447",
+		"ins_discuss_447_1",
+		"ins_reply_447_1_1",
+		"ins_reply_447_1_2",
+		"ins_discuss_447_2",
+		"ins_reply_447_2_1",
+		"ins_reply_447_2_2",
+		"ins_op_447_1_1",
+		"op_reply_447_1_1",
+		"ins_op_447_1_2",
+		"op_reply_447_1_2",
+		"ins_448",
+		"ins_discuss_448_1",
+		"ins_reply_448_1_1",
+		"ins_reply_448_1_2",
+		"ins_discuss_448_2",
+		"ins_reply_448_2_1",
+		"ins_discuss_448_3",
+		"ins_reply_448_3_1",
+		"ins_reply_448_3_2",
+		"ins_op_448_1_1",
+		"op_reply_448_1_1",
+		"ins_op_448_1_2",
+		"op_reply_448_1_2",
 		"ins_449",
 		"ins_discuss_449_1",
 		"ins_reply_449_1_1",
@@ -19415,344 +19542,725 @@ pg.base.activity_ins_language = {
 	op_reply_438_1_2 = {
 		value = "我、我會加油的！"
 	},
-	ins_449 = {
+	ins_439 = {
 		value = ""
+	},
+	ins_discuss_439_1 = {
+		value = ""
+	},
+	ins_reply_439_1_1 = {
+		value = ""
+	},
+	ins_discuss_439_2 = {
+		value = ""
+	},
+	ins_reply_439_2_1 = {
+		value = ""
+	},
+	ins_reply_439_2_2 = {
+		value = ""
+	},
+	ins_discuss_439_3 = {
+		value = ""
+	},
+	ins_reply_439_3_1 = {
+		value = ""
+	},
+	ins_reply_439_3_2 = {
+		value = ""
+	},
+	ins_reply_439_3_3 = {
+		value = ""
+	},
+	ins_op_439_1_1 = {
+		value = ""
+	},
+	op_reply_439_1_1 = {
+		value = ""
+	},
+	ins_op_439_1_2 = {
+		value = ""
+	},
+	op_reply_439_1_2 = {
+		value = ""
+	},
+	ins_440 = {
+		value = ""
+	},
+	ins_discuss_440_1 = {
+		value = ""
+	},
+	ins_reply_440_1_1 = {
+		value = ""
+	},
+	ins_reply_440_1_2 = {
+		value = ""
+	},
+	ins_discuss_440_2 = {
+		value = ""
+	},
+	ins_reply_440_2_1 = {
+		value = ""
+	},
+	ins_reply_440_2_2 = {
+		value = ""
+	},
+	ins_reply_440_2_3 = {
+		value = ""
+	},
+	ins_op_440_1_1 = {
+		value = ""
+	},
+	op_reply_440_1_1 = {
+		value = ""
+	},
+	ins_op_440_1_2 = {
+		value = ""
+	},
+	op_reply_440_1_2 = {
+		value = ""
+	},
+	ins_441 = {
+		value = ""
+	},
+	ins_discuss_441_1 = {
+		value = ""
+	},
+	ins_reply_441_1_1 = {
+		value = ""
+	},
+	ins_discuss_441_2 = {
+		value = ""
+	},
+	ins_reply_441_2_1 = {
+		value = ""
+	},
+	ins_reply_441_2_2 = {
+		value = ""
+	},
+	ins_reply_441_2_3 = {
+		value = ""
+	},
+	ins_reply_441_2_4 = {
+		value = ""
+	},
+	ins_discuss_441_3 = {
+		value = ""
+	},
+	ins_reply_441_3_1 = {
+		value = ""
+	},
+	ins_reply_441_3_2 = {
+		value = ""
+	},
+	ins_reply_441_3_3 = {
+		value = ""
+	},
+	ins_reply_441_3_4 = {
+		value = ""
+	},
+	ins_op_441_1_1 = {
+		value = ""
+	},
+	op_reply_441_1_1 = {
+		value = ""
+	},
+	ins_op_441_1_2 = {
+		value = ""
+	},
+	op_reply_441_1_2 = {
+		value = ""
+	},
+	ins_442 = {
+		value = ""
+	},
+	ins_discuss_442_1 = {
+		value = ""
+	},
+	ins_reply_442_1_1 = {
+		value = ""
+	},
+	ins_discuss_442_2 = {
+		value = ""
+	},
+	ins_reply_442_2_1 = {
+		value = ""
+	},
+	ins_reply_442_2_2 = {
+		value = ""
+	},
+	ins_reply_442_2_3 = {
+		value = ""
+	},
+	ins_discuss_442_3 = {
+		value = ""
+	},
+	ins_reply_442_3_1 = {
+		value = ""
+	},
+	ins_reply_442_3_2 = {
+		value = ""
+	},
+	ins_op_442_1_1 = {
+		value = ""
+	},
+	op_reply_442_1_1 = {
+		value = ""
+	},
+	ins_op_442_1_2 = {
+		value = ""
+	},
+	op_reply_442_1_2 = {
+		value = ""
+	},
+	ins_443 = {
+		value = ""
+	},
+	ins_discuss_443_1 = {
+		value = ""
+	},
+	ins_reply_443_1_1 = {
+		value = ""
+	},
+	ins_discuss_443_2 = {
+		value = ""
+	},
+	ins_reply_443_2_1 = {
+		value = ""
+	},
+	ins_reply_443_2_2 = {
+		value = ""
+	},
+	ins_discuss_443_3 = {
+		value = ""
+	},
+	ins_reply_443_3_1 = {
+		value = ""
+	},
+	ins_op_443_1_1 = {
+		value = ""
+	},
+	op_reply_443_1_1 = {
+		value = ""
+	},
+	ins_op_443_1_2 = {
+		value = ""
+	},
+	op_reply_443_1_2 = {
+		value = ""
+	},
+	ins_444 = {
+		value = ""
+	},
+	ins_discuss_444_1 = {
+		value = ""
+	},
+	ins_reply_444_1_1 = {
+		value = ""
+	},
+	ins_reply_444_1_2 = {
+		value = ""
+	},
+	ins_discuss_444_2 = {
+		value = ""
+	},
+	ins_reply_444_2_1 = {
+		value = ""
+	},
+	ins_op_444_1_1 = {
+		value = ""
+	},
+	op_reply_444_1_1 = {
+		value = ""
+	},
+	ins_op_444_1_2 = {
+		value = ""
+	},
+	op_reply_444_1_2 = {
+		value = ""
+	},
+	ins_445 = {
+		value = ""
+	},
+	ins_discuss_445_1 = {
+		value = ""
+	},
+	ins_reply_445_1_1 = {
+		value = ""
+	},
+	ins_reply_445_1_2 = {
+		value = ""
+	},
+	ins_reply_445_1_3 = {
+		value = ""
+	},
+	ins_discuss_445_2 = {
+		value = ""
+	},
+	ins_reply_445_2_1 = {
+		value = ""
+	},
+	ins_reply_445_2_2 = {
+		value = ""
+	},
+	ins_reply_445_2_3 = {
+		value = ""
+	},
+	ins_op_445_1_1 = {
+		value = ""
+	},
+	op_reply_445_1_1 = {
+		value = ""
+	},
+	ins_op_445_1_2 = {
+		value = ""
+	},
+	op_reply_445_1_2 = {
+		value = ""
+	},
+	ins_446 = {
+		value = ""
+	},
+	ins_discuss_446_1 = {
+		value = ""
+	},
+	ins_reply_446_1_1 = {
+		value = ""
+	},
+	ins_reply_446_1_2 = {
+		value = ""
+	},
+	ins_discuss_446_2 = {
+		value = ""
+	},
+	ins_reply_446_2_1 = {
+		value = ""
+	},
+	ins_reply_446_2_2 = {
+		value = ""
+	},
+	ins_op_446_1_1 = {
+		value = ""
+	},
+	op_reply_446_1_1 = {
+		value = ""
+	},
+	ins_op_446_1_2 = {
+		value = ""
+	},
+	op_reply_446_1_2 = {
+		value = ""
+	},
+	ins_447 = {
+		value = ""
+	},
+	ins_discuss_447_1 = {
+		value = ""
+	},
+	ins_reply_447_1_1 = {
+		value = ""
+	},
+	ins_reply_447_1_2 = {
+		value = ""
+	},
+	ins_discuss_447_2 = {
+		value = ""
+	},
+	ins_reply_447_2_1 = {
+		value = ""
+	},
+	ins_reply_447_2_2 = {
+		value = ""
+	},
+	ins_op_447_1_1 = {
+		value = ""
+	},
+	op_reply_447_1_1 = {
+		value = ""
+	},
+	ins_op_447_1_2 = {
+		value = ""
+	},
+	op_reply_447_1_2 = {
+		value = ""
+	},
+	ins_448 = {
+		value = ""
+	},
+	ins_discuss_448_1 = {
+		value = ""
+	},
+	ins_reply_448_1_1 = {
+		value = ""
+	},
+	ins_reply_448_1_2 = {
+		value = ""
+	},
+	ins_discuss_448_2 = {
+		value = ""
+	},
+	ins_reply_448_2_1 = {
+		value = ""
+	},
+	ins_discuss_448_3 = {
+		value = ""
+	},
+	ins_reply_448_3_1 = {
+		value = ""
+	},
+	ins_reply_448_3_2 = {
+		value = ""
+	},
+	ins_op_448_1_1 = {
+		value = ""
+	},
+	op_reply_448_1_1 = {
+		value = ""
+	},
+	ins_op_448_1_2 = {
+		value = ""
+	},
+	op_reply_448_1_2 = {
+		value = ""
+	},
+	ins_449 = {
+		value = "這就是……衝擊性的可愛~！"
 	},
 	ins_discuss_449_1 = {
-		value = ""
+		value = "衝擊性的可愛！"
 	},
 	ins_reply_449_1_1 = {
-		value = ""
+		value = "衝擊性的可愛！"
 	},
 	ins_discuss_449_2 = {
-		value = ""
+		value = "嗯？這不是北極兔嘛。雖然看起來溫順，但其實力氣很大哦~"
 	},
 	ins_reply_449_2_1 = {
-		value = ""
+		value = "欸~真的假的？看起來軟軟的很想咬一口呢~"
 	},
 	ins_reply_449_2_2 = {
-		value = ""
+		value = "這種兔子一次能跳3公尺遠，最快每小時能跑60公里。"
 	},
 	ins_reply_449_2_3 = {
-		value = ""
+		value = "新銳航空母艦級的速度？！"
 	},
 	ins_discuss_449_3 = {
-		value = ""
+		value = "好可愛的兔兔！我可以帶去兔兔星嗎！"
 	},
 	ins_reply_449_3_1 = {
-		value = ""
+		value = "兔兔星……是哪裡？"
 	},
 	ins_reply_449_3_2 = {
-		value = ""
+		value = "兔兔星在——兔兔宇宙哦！"
 	},
 	ins_op_449_1_1 = {
-		value = ""
+		value = "衝擊性的可愛！"
 	},
 	op_reply_449_1_1 = {
-		value = ""
+		value = "嗯，衝擊性的可愛！"
 	},
 	ins_op_449_1_2 = {
-		value = ""
+		value = "照片請多寄些給我！"
 	},
 	op_reply_449_1_2 = {
-		value = ""
+		value = "已經發好了，請查收。"
 	},
 	op_reply_449_1_3 = {
-		value = ""
+		value = "抱歉……剛剛錯發成了我的旅行照，請收新檔案。"
 	},
 	ins_450 = {
-		value = ""
+		value = "嗯哼哼♪溫暖的湯~"
 	},
 	ins_discuss_450_1 = {
-		value = ""
+		value = "哇啊！"
 	},
 	ins_reply_450_1_1 = {
-		value = ""
+		value = "火力同志！"
 	},
 	ins_reply_450_1_2 = {
-		value = ""
+		value = "別發動態啦！"
 	},
 	ins_reply_450_1_3 = {
-		value = ""
+		value = "鍋子！鍋子要裂開了！"
 	},
 	ins_reply_450_1_4 = {
-		value = ""
+		value = "嗯？裂開？"
 	},
 	ins_reply_450_1_5 = {
-		value = ""
+		value = "喔~妳是說花紋吧，這只是女巫風格的花紋裝飾啦~"
 	},
 	ins_reply_450_1_6 = {
-		value = ""
+		value = "人氣商品女巫煉金鍋正在熱賣中，快聯絡{namecode:98}採購吧~喵！"
 	},
 	ins_discuss_450_2 = {
-		value = ""
+		value = "妳這熬湯不加蓋子，水很快就耗光了啊！"
 	},
 	ins_reply_450_2_1 = {
-		value = ""
+		value = "攪拌完之後會好好蓋上啦~"
 	},
 	ins_reply_450_2_2 = {
-		value = ""
+		value = "呼……那就好，期待妳的手藝！"
 	},
 	ins_reply_450_2_3 = {
-		value = ""
+		value = "晚上一起來喝吧~"
 	},
 	ins_discuss_450_3 = {
-		value = ""
+		value = "「這鍋湯，十分的珍貴。」"
 	},
 	ins_reply_450_3_1 = {
-		value = ""
+		value = "「不鹹也不淡，味道好極了。」"
 	},
 	ins_reply_450_3_2 = {
-		value = ""
+		value = "人家湯還沒熬好，妳們怎麼說的好像已經喝完了一樣！"
 	},
 	ins_reply_450_3_3 = {
-		value = ""
+		value = "呃……她們只是在對暗號而已，大概……"
 	},
 	ins_op_450_1_1 = {
-		value = ""
+		value = "隔著螢幕都感受到了湯的溫暖！"
 	},
 	op_reply_450_1_1 = {
-		value = ""
+		value = "喝下去更溫暖哦，火力熬好之後就送去給指揮官~"
 	},
 	ins_451 = {
-		value = ""
+		value = "日常保養中~"
 	},
 	ins_discuss_451_1 = {
-		value = ""
+		value = "恕我冒昧，妳的鎖鏈看起來十分具有殺傷力。"
 	},
 	ins_reply_451_1_1 = {
-		value = ""
+		value = "所以也請使用時多加注意並遵守《港區船錨及鎖鏈使用規範》，避免造成無關傷害。"
 	},
 	ins_reply_451_1_2 = {
-		value = ""
+		value = "感謝妳的提議，認真的女僕小姐。"
 	},
 	ins_reply_451_1_3 = {
-		value = ""
+		value = "我會非常小心使用的哦，呵呵~"
 	},
 	ins_discuss_451_2 = {
-		value = ""
+		value = "一張很有衝擊力的自拍照呢。"
 	},
 	ins_reply_451_2_1 = {
-		value = ""
+		value = "就是這種感覺，我們的同志就應該如火焰般奔放！"
 	},
 	ins_reply_451_2_2 = {
-		value = ""
+		value = "說再多好話波爾塔瓦也不會陪妳喝酒的哦。"
 	},
 	ins_reply_451_2_3 = {
-		value = ""
+		value = "沒錯，那這個艱鉅任務就交給妳們了。"
 	},
 	ins_discuss_451_3 = {
-		value = ""
+		value = "鐵鍊的保養確實十分重要呢，要是「斷掉」可就大事不妙了。"
 	},
 	ins_reply_451_3_1 = {
-		value = ""
+		value = "呵呵~沒錯，隨時保持良好狀態可是非常重要的喔。"
 	},
 	ins_reply_451_3_2 = {
-		value = ""
+		value = "呵呵~"
 	},
 	ins_reply_451_3_3 = {
-		value = ""
+		value = "……明明每個字都認識，但連起來就……難道是加密通話？！"
 	},
 	ins_op_451_1_1 = {
-		value = ""
+		value = "真是一條牢固的鎖鏈啊……"
 	},
 	op_reply_451_1_1 = {
-		value = ""
+		value = "沒錯，就如同你我之間的關係一樣牢固哦~"
 	},
 	ins_op_451_1_2 = {
-		value = ""
+		value = "這個鎖鏈，其實是用來做什麼的？"
 	},
 	op_reply_451_1_2 = {
-		value = ""
+		value = "用處其實意外的多哦，指揮官不然現在就來找我，我來給您示範一下？"
 	},
 	ins_452 = {
-		value = ""
+		value = "兇猛軍團出擊！"
 	},
 	ins_discuss_452_1 = {
-		value = ""
+		value = "危機出現！黑兔隊長正帶領白兔隊員趕往現場保衛秩序！"
 	},
 	ins_reply_452_1_1 = {
-		value = ""
+		value = "哈哈哈~來試試看吧！兇猛大人的手下會狠狠收拾妳的！"
 	},
 	ins_discuss_452_2 = {
-		value = ""
+		value = "這個玩偶看起來好眼熟……是妳以自己形象設計的吧？"
 	},
 	ins_reply_452_2_1 = {
-		value = ""
+		value = "哼哼~當然了，是不是為我的才華所驚艷呢？我為其命名為「兇猛軍團1號」！"
 	},
 	ins_reply_452_2_2 = {
-		value = ""
+		value = "靈感來了，馬上做一個達·文西1號。"
 	},
 	ins_reply_452_2_3 = {
-		value = ""
+		value = "這麼有趣的事我也不能落後！靈敏1號立刻開工！"
 	},
 	ins_reply_452_2_4 = {
-		value = ""
+		value = "等、等一下！妳們不要連命名方式都抄襲啊！"
 	},
 	ins_discuss_452_3 = {
-		value = ""
+		value = "領域展開！到此為止了，我不會再讓妳前進半步！"
 	},
 	ins_reply_452_3_1 = {
-		value = ""
+		value = "呵呵呵~就憑這種程度的領域嗎？"
 	},
 	ins_reply_452_3_2 = {
-		value = ""
+		value = "不要太小看我了，兇猛軍團合體攻擊！"
 	},
 	ins_reply_452_3_3 = {
-		value = ""
+		value = "咕……！什、什麼……這就是絨毛絨聖徒的力量嗎！"
 	},
 	ins_reply_452_3_4 = {
-		value = ""
+		value = "乖乖臣服吧~"
 	},
 	ins_op_452_1_1 = {
-		value = ""
+		value = "很有氣勢！"
 	},
 	op_reply_452_1_1 = {
-		value = ""
+		value = "那就來加入我們，成為兇猛3號一同戰役吧！"
 	},
 	ins_op_452_1_2 = {
-		value = ""
+		value = "作戰勝利之後有什麼打算嗎？"
 	},
 	op_reply_452_1_2 = {
-		value = ""
+		value = "乘勝追擊，直到佔領整個港區！"
 	},
 	ins_453 = {
-		value = ""
+		value = "探員阿貝克隆比，正在巡邏！"
 	},
 	ins_discuss_453_1 = {
-		value = ""
+		value = "照片好有速度感！看起來好快！"
 	},
 	ins_reply_453_1_1 = {
-		value = ""
+		value = "論速度的話我可不會輸哦！要比比看嗎？"
 	},
 	ins_reply_453_1_2 = {
-		value = ""
+		value = "隨時奉陪~不過敢超過我的話就算成超速喲！"
 	},
 	ins_discuss_453_2 = {
-		value = ""
+		value = "多注意安全，不要惡作劇給指揮官添麻煩哦。"
 	},
 	ins_reply_453_2_1 = {
-		value = ""
+		value = "知道了，胡德阿姨！"
 	},
 	ins_reply_453_2_2 = {
-		value = ""
+		value = "聽話的話，回來之後獎勵妳好吃的。"
 	},
 	ins_reply_453_2_3 = {
-		value = ""
+		value = "知道了，胡德姐姐！"
 	},
 	ins_op_453_1_1 = {
-		value = ""
+		value = "定期報告，阿貝克隆比探員。"
 	},
 	op_reply_453_1_1 = {
-		value = ""
+		value = "報告指揮官，海域一切正常！港區的安全就交給探員阿貝克比吧~"
 	},
 	ins_op_453_1_2 = {
-		value = ""
+		value = "乘風破浪的感覺真不錯。"
 	},
 	op_reply_453_1_2 = {
-		value = ""
+		value = "嘻嘻~指揮官下次要拉著我的手一起試試看嗎？"
 	},
 	ins_454 = {
-		value = ""
+		value = "哼哼~出演道具準備萬全~"
 	},
 	ins_discuss_454_1 = {
-		value = ""
+		value = "這是那種遊離在雙面身分之間的怪盜劇本嗎？"
 	},
 	ins_reply_454_1_1 = {
-		value = ""
+		value = "不錯不錯~完成度很高嘛，不過細節還可以再打磨一下。"
 	},
 	ins_reply_454_1_2 = {
-		value = ""
+		value = "嘿嘿~有何指教？"
 	},
 	ins_reply_454_1_3 = {
-		value = ""
+		value = "可怖，不然妳跟我一起去看看？"
 	},
 	ins_reply_454_1_4 = {
-		value = ""
+		value = "沒問題，稍後見。"
 	},
 	ins_discuss_454_2 = {
-		value = ""
+		value = "總覺得……有點謝菲的既視感。"
 	},
 	ins_reply_454_2_1 = {
-		value = ""
+		value = "需要澄清，我是擅長潛入而不是喬裝潛入。"
 	},
 	ins_reply_454_2_2 = {
-		value = ""
+		value = "這二者之間的差異相當大。"
 	},
 	ins_reply_454_2_3 = {
-		value = ""
+		value = "啊哈哈~謝菲爾德小姐是硬派實力派呢~"
 	},
 	ins_discuss_454_3 = {
-		value = ""
+		value = "看來不是那種一下子能猜到結局的類型。"
 	},
 	ins_reply_454_3_1 = {
-		value = ""
+		value = "好在意……誰來給我點劇透。"
 	},
 	ins_reply_454_3_2 = {
-		value = ""
+		value = "我來——！"
 	},
 	ins_reply_454_3_3 = {
-		value = ""
+		value = "喂，妳根本沒看過劇本吧！"
 	},
 	ins_op_454_1_1 = {
-		value = ""
+		value = "原來妳就是怪盜「Mystic」！"
 	},
 	op_reply_454_1_1 = {
-		value = ""
+		value = "沒錯，在牢房裡乖乖等著我哦，「指揮官」~"
 	},
 	ins_op_454_1_2 = {
-		value = ""
+		value = "雙面身分可以拿雙份薪水嗎？"
 	},
 	op_reply_454_1_2 = {
-		value = ""
+		value = "不愧是指揮官……你發現盲點了！"
 	},
 	ins_455 = {
-		value = ""
+		value = "尋找線索中……這種小場面可難不倒都會警探。"
 	},
 	ins_discuss_455_1 = {
-		value = ""
+		value = "……這次拍攝的是偵探劇嗎？服裝道具看起來都很帥！"
 	},
 	ins_reply_455_1_1 = {
-		value = ""
+		value = "其實不是……這次拍攝的劇目主題很難一言以蔽之呢。"
 	},
 	ins_reply_455_1_2 = {
-		value = ""
+		value = "不過有槍炮橫飛的大場面，你會喜歡的。"
 	},
 	ins_reply_455_1_3 = {
-		value = ""
+		value = "甚至還有直升機和火箭炮哦~"
 	},
 	ins_reply_455_1_4 = {
-		value = ""
+		value = "期待起來了！"
 	},
 	ins_discuss_455_2 = {
-		value = ""
+		value = "這……難道是失竊現場？沒想到我才出差就發生了這種事……"
 	},
 	ins_reply_455_2_1 = {
-		value = ""
+		value = "沒錯，艾倫·M·桑拿探員，妳有什麼頭緒嗎？"
 	},
 	ins_reply_455_2_2 = {
-		value = ""
+		value = "犯人的手法非常俐落老練，看來我必須盡快回來參與佈置防線了。"
 	},
 	ins_discuss_455_3 = {
-		value = ""
+		value = "根據我多年的補番經驗，我已經猜到犯人是誰了。"
 	},
 	ins_reply_455_3_1 = {
-		value = ""
+		value = "真相永遠只有一個！"
 	},
 	ins_reply_455_3_2 = {
-		value = ""
+		value = "……什麼，竟然比我這個都會警探還要厲害？"
 	},
 	ins_op_455_1_1 = {
-		value = ""
+		value = "這套衣服好帥！"
 	},
 	op_reply_455_1_1 = {
-		value = ""
+		value = "嗯？指揮官原來喜歡這種風格嗎。正好，我也不討厭。"
 	},
 	ins_op_455_1_2 = {
-		value = ""
+		value = "要是怪盜也在看這條動態怎麼辦？"
 	},
 	op_reply_455_1_2 = {
-		value = ""
+		value = "坦白從寬，抗拒從嚴。怪盜，快來自首。"
 	},
 	ins_457 = {
 		value = "……現代的女僕都是這樣嗎？！"

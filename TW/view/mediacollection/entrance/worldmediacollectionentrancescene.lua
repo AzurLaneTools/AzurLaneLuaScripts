@@ -9,6 +9,16 @@ slot0.init = function(slot0)
 	slot0.cryptolaliaBtn = slot0:findTF("Main/cryptolalia")
 	slot0.archiveBtn = slot0:findTF("Main/archive")
 	slot0.recordBtn = slot0:findTF("Main/record")
+	slot0.albumBtn = slot0:findTF("Main/album")
+
+	setActive(slot0.albumBtn, not LOCK_ALBUM)
+
+	slot1 = slot0._tf:Find("Main/empty")
+
+	SetCompomentEnabled(slot1, "Image", LOCK_ALBUM)
+	setActive(slot1:Find("Image"), not LOCK_ALBUM)
+	setActive(slot1:Find("Image1"), LOCK_ALBUM)
+
 	slot0.optionBtn = slot0:findTF("Top/blur_panel/adapt/top/option")
 	slot0.backBtn = slot0:findTF("Top/blur_panel/adapt/top/back_btn")
 
@@ -38,6 +48,9 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.recordBtn, function ()
 		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_RECORD)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.albumBtn, function ()
+		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_ALBUM)
 	end, SFX_PANEL)
 end
 

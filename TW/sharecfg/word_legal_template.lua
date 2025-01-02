@@ -1935,7 +1935,18 @@ temp = function()
 		},
 		["德"] = {
 			["尼"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["恩"] = {
@@ -5001,6 +5012,9 @@ temp = function()
 					}
 				}
 			}
+		},
+		["雲"] = {
+			this = true
 		}
 	}
 end
@@ -5060,6 +5074,9 @@ temp = function()
 			["兵"] = {
 				this = true
 			}
+		},
+		["武"] = {
+			this = true
 		}
 	}
 end
@@ -5557,7 +5574,12 @@ temp()
 temp = function()
 	uv0["太"] = {
 		["原"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6717,7 +6739,12 @@ temp()
 temp = function()
 	uv0["鎮"] = {
 		["海"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -7321,6 +7348,36 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["濟"] = {
+		["安"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["寰"] = {
+		["昌"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["虎"] = {
+		["賁"] = {
+			this = true
 		}
 	}
 end

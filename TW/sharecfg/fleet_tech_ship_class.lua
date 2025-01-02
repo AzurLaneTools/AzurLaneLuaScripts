@@ -2440,6 +2440,29 @@ pg.fleet_tech_ship_class = {
 			50104
 		}
 	},
+	[50102] = {
+		shiptype = 1,
+		name = "飛雲",
+		t_level = 1,
+		id = 50102,
+		t_level_1 = 128,
+		nation = 5,
+		ships = {
+			50107
+		}
+	},
+	[50103] = {
+		shiptype = 1,
+		name = "龍武級",
+		t_level = 1,
+		id = 50103,
+		t_level_1 = 128,
+		nation = 5,
+		ships = {
+			50105,
+			50106
+		}
+	},
 	[50201] = {
 		shiptype = 2,
 		name = "寧海級",
@@ -2496,6 +2519,28 @@ pg.fleet_tech_ship_class = {
 		nation = 5,
 		ships = {
 			59901
+		}
+	},
+	[50206] = {
+		shiptype = 2,
+		name = "濟安",
+		t_level = 1,
+		id = 50206,
+		t_level_1 = 130,
+		nation = 5,
+		ships = {
+			50209
+		}
+	},
+	[50401] = {
+		shiptype = 4,
+		name = "寰昌",
+		t_level = 1,
+		id = 50401,
+		t_level_1 = 130,
+		nation = 5,
+		ships = {
+			50401
 		}
 	},
 	[50601] = {
@@ -3572,6 +3617,17 @@ pg.fleet_tech_ship_class = {
 			970504
 		}
 	},
+	[970505] = {
+		shiptype = 5,
+		name = "罗德尼·META",
+		t_level = 2,
+		id = 970505,
+		t_level_1 = 5,
+		nation = 97,
+		ships = {
+			970505
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "飛鷹·META",
@@ -3870,11 +3926,15 @@ pg.fleet_tech_ship_class = {
 		40806,
 		41801,
 		50101,
+		50102,
+		50103,
 		50201,
 		50202,
 		50203,
 		50204,
 		50205,
+		50206,
+		50401,
 		50601,
 		50602,
 		51901,
@@ -3970,6 +4030,7 @@ pg.fleet_tech_ship_class = {
 		970502,
 		970503,
 		970504,
+		970505,
 		970601,
 		970602,
 		970603,

@@ -1,4 +1,6 @@
 slot0 = class("SkinVoucherMsgBox", import(".SkinCouponMsgBox"))
+slot1 = 0
+slot2 = 1
 
 slot0.getUIName = function(slot0)
 	return "SkinVoucherMsgBoxUI"
@@ -13,8 +15,17 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0._tf:Find("window/top/bg/infomation/title"), i18n("title_info"))
 
+	slot0.nonUseBtn = slot0:findTF("window/frame/option/nonuse")
+	slot0.useBtn = slot0:findTF("window/frame/option/use")
+	slot0.scrollrect = slot0:findTF("window/frame/scrollrect")
+	slot0.optionTr = slot0:findTF("window/frame/option")
+	slot0.switchBtn = slot0:findTF("window/frame/option/use/link")
 	slot0.tipBar = slot0:findTF("window/frame/tipBar")
 	slot0.tipText = slot0:findTF("Text", slot0.tipBar)
+	slot0.linkText = slot0:findTF("window/frame/option/use/link/Text"):GetComponent(typeof(Text))
+
+	setText(slot0:findTF("window/frame/option/nonuse/Text"), i18n("skin_shop_nonuse_label"))
+	setText(slot0:findTF("window/frame/option/use/Text"), i18n("skin_shop_use_label"))
 end
 
 slot0.RegisterBtn = function(slot0, slot1)
@@ -36,6 +47,62 @@ slot0.RegisterBtn = function(slot0, slot1)
 
 		uv1:Hide()
 	end, SFX_PANEL)
+	onButton(slot0, slot0.switchBtn, function ()
+		uv0:UpdateStyle(1 - uv0.style)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.confirmBtn, function ()
+		uv0:UpdateStyle(1 - uv0.style)
+		triggerToggle(uv0.useBtn, true)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.cancelBtn, function ()
+		if uv0.style == uv1 then
+			uv0:UpdateStyle(1 - uv0.style)
+		else
+			uv0:Hide()
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.nonUseBtn, function (slot0)
+		if slot0 then
+			uv0.prevSelId = nil
+
+			uv0:UpdateContent(uv0.settings)
+			uv0:UpdateStyle(uv0.style)
+		end
+	end, SFX_PANEL)
+	onToggle(slot0, slot0.useBtn, function (slot0)
+		if slot0 then
+			uv0.prevSelId = uv0:GetDefaultItem()
+
+			uv0:UpdateContent(uv0.settings)
+			uv0:UpdateStyle(uv0.style)
+		end
+	end, SFX_PANEL)
+end
+
+slot0.GetDefaultItem = function(slot0)
+	slot0.selectedItemId = slot0.selectedItemId or (function ()
+		if #_.map(uv0.settings.itemList, function (slot0)
+			return {
+				gem = pg.item_data_statistics[slot0].usage_arg[2] or 0,
+				id = slot0,
+				time = pg.item_data_statistics[slot0].time_limit
+			}
+		end) == 0 then
+			return nil
+		end
+
+		table.sort(slot0, function (slot0, slot1)
+			if slot0.time ~= slot1.time then
+				return slot1.time < slot0.time
+			else
+				return slot1.gem < slot0.gem
+			end
+		end)
+
+		return slot0[1].id
+	end)()
+
+	return slot0.selectedItemId
 end
 
 slot0.UpdateContent = function(slot0, slot1)
@@ -48,49 +115,34 @@ slot0.UpdateContent = function(slot0, slot1)
 		slot0.label1.text = i18n("charge_scene_buy_confirm", slot3, slot2)
 	end
 
-	setActive(slot0.realPriceBtn, not slot0.prevSelId)
-	setActive(slot0.discountPriceBtn, slot0.prevSelId)
+	slot0:UpdateLink()
 	slot0:SetTipText(slot1.skinId)
+end
+
+slot0.UpdateLink = function(slot0)
+	slot0.linkText.text = i18n("skin_shop_discount_item_link", pg.item_data_statistics[slot0:GetDefaultItem()].usage_arg[2] or 0)
 end
 
 slot0.UpdateItem = function(slot0, slot1)
 	slot0.itemTrs = {}
 
-	UIItemList.StaticAlign(slot0:findTF("window/frame/list"), slot0:findTF("window/frame/left"), #table.mergeArray({
-		0
-	}, slot1.itemList or {}), function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot0:findTF("window/frame/scrollrect/list"), slot0:findTF("window/frame/left"), #slot1.itemList, function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			uv0:FlushItem(uv1[slot1 + 1], slot2)
 		end
 	end)
-	triggerToggle(slot0:findTF("window/frame/list/none"), true)
 end
 
 slot0.FlushItem = function(slot0, slot1, slot2)
-	if slot1 == 0 then
-		setText(slot2:Find("name_bg/Text"), i18n("not_use_ticket_to_buy_skin"))
-	else
-		updateDrop(slot2, {
-			count = 1,
-			type = DROP_TYPE_ITEM,
-			id = slot1
-		})
-		setText(slot2:Find("name_bg/Text"), pg.item_data_statistics[slot1].name)
-	end
-
+	updateDrop(slot2, {
+		count = 1,
+		type = DROP_TYPE_ITEM,
+		id = slot1
+	})
+	setText(slot2:Find("name_bg/Text"), pg.item_data_statistics[slot1].name)
 	onToggle(slot0, slot2, function (slot0)
 		if slot0 then
-			if uv0 == 0 then
-				uv1.prevSelId = nil
-
-				uv1:UpdateContent(uv1.settings)
-			else
-				uv1:ClearPrevSel()
-
-				uv1.prevSelId = uv0
-
-				uv1:UpdateContent(uv1.settings)
-			end
+			uv0.selectedItemId = uv1
 		end
 	end, SFX_PANEL)
 
@@ -101,8 +153,33 @@ slot0.ClearPrevSel = function(slot0)
 	slot0.prevSelId = nil
 end
 
+slot0.Show = function(slot0, slot1)
+	setActive(slot0._tf, true)
+
+	slot0.settings = slot1
+
+	slot0:UpdateItem(slot1)
+	slot0:RegisterBtn(slot1)
+	slot0:UpdateContent(slot1)
+	slot0:UpdateStyle(uv0)
+	triggerToggle(slot0.useBtn, true)
+end
+
+slot0.UpdateStyle = function(slot0, slot1)
+	setActive(slot0.label1, slot1 == uv0)
+	setActive(slot0.optionTr, slot1 == uv0)
+	setActive(slot0.realPriceBtn, slot1 == uv0 and not slot0.prevSelId)
+	setActive(slot0.discountPriceBtn, slot1 == uv0 and slot0.prevSelId)
+	setActive(slot0.confirmBtn, slot1 == uv1)
+	setActive(slot0.scrollrect, slot1 == uv1)
+	triggerToggle(slot0.itemTrs[slot0:GetDefaultItem()], true)
+
+	slot0.style = slot1
+end
+
 slot0.Hide = function(slot0)
 	slot0.settings = nil
+	slot0.selectedItemId = nil
 
 	setActive(slot0._tf, false)
 	slot0:ClearPrevSel()

@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[1]\n\n<size=45>月下翩迁</size>",
+					"港區時尚特刊：祥蛇賀春\n\n<size=45>月下翩遷</size>",
 					1
 				}
 			}
@@ -23,7 +23,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……乾者，天之象也……不行，这里需要更有气势一点……",
+			say = "……乾者，天之象也……不行，這裡需要更有氣勢一點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果换成……区区腐草之荧光……嗯……还是有点……",
+			say = "如果換成……區區腐草之螢光……嗯……還是有點……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -61,7 +61,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了！如果戴上这个面具的话……",
+			say = "對了！如果戴上這個面具的話……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵，腐草之荧光，怎及天心之皓月。",
+			say = "呵，腐草之螢光，怎及天心之皓月。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
-			say = "本来只是想在新年聚会前随意逛逛，结果却看到了这样的景象。",
+			say = "本來只是想在新年聚會前隨意逛逛，結果卻看到了這樣的景象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,18 +106,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
-			say = "这种时候就应该……",
+			say = "這種時候就應該……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "快速离开",
+					content = "快速離開",
 					flag = 1
 				},
 				{
-					content = "悄悄离开",
+					content = "悄悄離開",
 					flag = 2
 				}
 			}
@@ -128,7 +128,7 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "还是快点走吧，别打扰到她——",
+			say = "還是快點走吧，別打擾到她——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "轻手轻脚地，不能让她发现——",
+			say = "輕手輕腳地，不能讓她發現——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
-			say = "“啪”的一声，被踩断的树枝发出了它此生最响亮的绝唱。",
+			say = "「啪」的一聲，被踩斷的樹枝發出了它此生最響亮的絕唱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "谁？",
+			say = "誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（如果保持沉默的话，也许能蒙混过关？）",
+			say = "（如果保持沉默的話，也許能蒙混過關？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官？！你什么时候来的？？？",
+			say = "指、指揮官？！你什麼時候來的？？？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,18 +213,18 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来并不能……）",
+			say = "（看來並不能……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……刚刚？",
+					content = "……剛剛？",
 					flag = 1
 				},
 				{
-					content = "没看见哦！",
+					content = "沒看見哦！",
 					flag = 2
 				}
 			}
@@ -239,7 +239,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你、你全都看到了？！",
+			say = "你、你全都看見了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -259,7 +259,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我还没提问呢！",
+			say = "……我還沒提問呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,7 +292,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
-			say = "少女的脸瞬间红成了一片，就像是装饰在街道上的红灯笼。",
+			say = "少女的臉瞬間紅成了一片，就像是裝飾在街上的紅燈籠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不许告诉别人！！！",
+			say = "不、不准告訴別人！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -326,7 +326,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不然我就……我就……总之不许说！！！",
+			say = "不然我就……我就……總之不許說！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -341,7 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
-			say = "在保证了不会给任何人透露今天发生的事情之后，寰昌总算是放下心来。",
+			say = "在保證了不會給任何人透露今天發生的事情之後，寰昌總算是放下心來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
-			say = "脸色也恢复了正常。不过……似乎还有什么烦恼没有解决的样子。",
+			say = "臉色也恢復正常了。不過……似乎還有什麼煩惱沒有解決的樣子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……烦恼？",
+			say = "……煩惱？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -386,7 +386,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……其实……我总觉得自己好像缺少了一点气势。",
+			say = "嗯……其實……我總覺得自己好像缺少了一點氣勢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -405,7 +405,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为换上了新衣服，所以面具得重新挑选，还有与之配套的对外社交辞令……",
+			say = "因為換上了新衣服，所以面具得重新挑選，還有與之配套的對外社交辭令……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我作为年长者，对外的时候必须更体面更有气势，这样才能保护好其他人。",
+			say = "我身為年長者，對外的時候必須更體面更有氣勢，這樣才能保護好其他人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "原来如此……那么我也来帮帮你吧？",
+			say = "原來如此……那我也來幫妳吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的吗？那就麻烦指挥官了。",
+			say = "真的嗎？那就麻煩指揮官了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个如何？",
+			say = "這個如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -507,7 +507,7 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "威严有余，但是红色眼睛看起来就有点像恐怖故事了。",
+			say = "威嚴有餘，但是紅色眼睛看起來有點像恐怖故事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那纯黑的这个呢？指挥官觉得怎么样？",
+			say = "那純黑的這個呢？指揮官覺得怎麼樣？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -538,7 +538,7 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……或许换个颜色会更搭新衣服？",
+			say = "嗯……或許換個顏色會更搭新衣服？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "粉色……啊，这个不是！这、这是不小心拿错的眼罩。",
+			say = "粉紅色……啊，這個不是！這、這是不小心拿錯的眼罩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "挺可爱的，很适合你……",
+			say = "挺可愛的，很適合妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我个人很喜欢这个白色花朵装饰的，你觉得呢？",
+			say = "我個人很喜歡這個白色花朵裝飾的，你覺得呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -620,7 +620,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "或者这个有鹿角装饰的面具，兼具神秘感和美丽。也不错，对吧？",
+			say = "或是這個有鹿角裝飾的面具，兼具神秘感和美麗。也不錯，對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有这个……啾啾面具……",
+			say = "還有這個……啾啾面具……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			actor = 504011,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然不够威严，但……好可爱……",
+			say = "雖然不夠威嚴，但……好可愛……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_152",
-			say = "最后，在经过了长时间的反复纠结，寰昌终于在满地的面具中挑选出了最适合她的几个。",
+			say = "最後，在經過了長時間的反覆糾結，寰昌終於在滿地的面具中挑選出了最適合她的幾個。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_152",
 			hidePaintObj = true,
-			say = "而新的外交辞令似乎也让寰昌更具有威严性了。",
+			say = "而新的外交辭令似乎也讓寰昌更有威嚴性了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

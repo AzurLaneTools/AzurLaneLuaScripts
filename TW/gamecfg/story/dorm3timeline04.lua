@@ -26,7 +26,7 @@ return {
 							options = {
 								{
 									{
-										content = "让我看看有没有烫伤"
+										content = "讓我看看有沒有燙傷"
 									}
 								}
 							},

@@ -2756,7 +2756,7 @@ pg.enemy_data_statistics_20 = {
 			cannon = {
 				{
 					0,
-					0,
+					0.5,
 					0
 				}
 			},
@@ -2768,34 +2768,7 @@ pg.enemy_data_statistics_20 = {
 				}
 			}
 		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							1.035,
-							0.869,
-							0.099
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.964,
-							1.16,
-							-0.022
-						}
-					}
-				}
-			}
-		},
+		smoke = {},
 		fx_container = {
 			{
 				0,

@@ -163,6 +163,9 @@ pg.memory_group = setmetatable({
 		270,
 		271,
 		272,
+		273,
+		274,
+		275,
 		277,
 		278,
 		279,
@@ -3898,6 +3901,47 @@ pg.base.memory_group = {
 			3281,
 			3282,
 			3283
+		}
+	},
+	[273] = {
+		title = "寰昌宇定家事忙",
+		subtype = 3,
+		link_event = 5178,
+		type = 2,
+		id = 273,
+		icon = "title_event",
+		memories = {
+			3301,
+			3302,
+			3303,
+			3304,
+			3305
+		}
+	},
+	[274] = {
+		title = "新春的冒險之王",
+		subtype = 3,
+		link_event = 5178,
+		type = 2,
+		id = 274,
+		icon = "title_event",
+		memories = {
+			3311,
+			3312,
+			3313
+		}
+	},
+	[275] = {
+		title = "港區時尚特刊：祥蛇賀春",
+		subtype = 3,
+		link_event = 5184,
+		type = 2,
+		id = 275,
+		icon = "title_event",
+		memories = {
+			3331,
+			3332,
+			3333
 		}
 	},
 	[277] = {

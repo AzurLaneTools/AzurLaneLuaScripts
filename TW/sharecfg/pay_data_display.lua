@@ -21,11 +21,14 @@ pg.pay_data_display = setmetatable({
 		62,
 		63,
 		64,
+		65,
+		67,
 		2021,
 		2022,
 		2023,
 		2024,
 		2025,
+		2040,
 		5001,
 		5002,
 		5003,
@@ -1714,6 +1717,209 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[65] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "2025開年福袋·I",
+		first_pay_double = 0,
+		name_display = "2025開年福袋·I",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "2025開年福袋·I",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai11",
+		skin_inquire_relation = 86202,
+		id_str = "com.hkmanjuu.azurlane.libao124",
+		extra_service = 3,
+		id = 65,
+		airijp_id = "com.yostarjp.azurlane.diamond151",
+		extra_service_item = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81202,
+				1
+			}
+		}
+	},
+	[67] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "2025開年福袋·II",
+		first_pay_double = 0,
+		name_display = "2025開年福袋·II",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "2025開年福袋·II",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		time = "stop",
+		type_order = 2,
+		picture = "fudai12",
+		skin_inquire_relation = 86203,
+		id_str = "com.hkmanjuu.azurlane.libao125",
+		extra_service = 3,
+		id = 67,
+		airijp_id = "com.yostarjp.azurlane.diamond153",
+		extra_service_item = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		display = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81203,
+				1
+			}
+		}
+	},
 	[2021] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -2090,6 +2296,115 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40043,
+				1
+			}
+		}
+	},
+	[2040] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "2025開年禮包",
+		first_pay_double = 0,
+		name_display = "2025開年禮包",
+		descrip = "可獲得3880鑽，和特裝型布里MKIII*1和其他獎勵",
+		subject = "2025開年禮包",
+		money = 1320,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		picture = "dongzhi3",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao126",
+		extra_service = 3,
+		id = 2040,
+		airijp_id = "com.yostarjp.azurlane.package122",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40053,
 				1
 			}
 		}
@@ -5898,7 +6213,7 @@ pg.base.pay_data_display = {
 	[4031] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "2024泳裝禮盒·I",
 		first_pay_double = 0,
@@ -6012,7 +6327,7 @@ pg.base.pay_data_display = {
 	[4032] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "2024泳裝禮盒·II",
 		first_pay_double = 0,
@@ -6126,7 +6441,7 @@ pg.base.pay_data_display = {
 	[4033] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "新年福袋2023·復刻",
 		first_pay_double = 0,
@@ -6240,7 +6555,7 @@ pg.base.pay_data_display = {
 	[4034] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "春節福袋2024·I",
 		first_pay_double = 0,
@@ -6354,7 +6669,7 @@ pg.base.pay_data_display = {
 	[4035] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "春節福袋2024·II",
 		first_pay_double = 0,
@@ -6468,13 +6783,13 @@ pg.base.pay_data_display = {
 	[4036] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "春節福袋2023·復刻",
 		first_pay_double = 0,
 		name_display = "春節福袋2023·復刻",
 		descrip = "可獲得一件角色換裝，2023鑽，和大量其他獎勵",
-		subject = "春節福袋2023",
+		subject = "福袋",
 		money = 990,
 		limit_arg = 1,
 		tag = 2,
@@ -7291,7 +7606,7 @@ pg.base.pay_data_display = {
 	[4043] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "金秋禮盒",
 		first_pay_double = 0,
@@ -7405,7 +7720,7 @@ pg.base.pay_data_display = {
 	[4044] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "五週年禮盒",
 		first_pay_double = 0,
@@ -7519,7 +7834,7 @@ pg.base.pay_data_display = {
 	[4045] = {
 		extra_gem = 0,
 		limit_group = 0,
-		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
 		type = 1,
 		name = "四週年禮盒·復刻",
 		first_pay_double = 0,
@@ -7635,11 +7950,11 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		descrip_extra = "*福袋將會寄送到信箱，請注意查收。\n*擁有清單中的所有換裝則轉換為獲得1080鑽石。",
 		type = 1,
-		name = "聖誕促銷禮盒2024",
+		name = "聖誕促銷禮盒(2024)",
 		first_pay_double = 0,
-		name_display = "聖誕促銷禮盒2024",
+		name_display = "聖誕促銷禮盒(2024)",
 		descrip = "可獲得清單中未擁有的L2D換裝*1（擁有清單中所有換裝則轉換為獲得鑽石）和其他獎勵",
-		subject = "聖誕促銷禮盒2024",
+		subject = "聖誕促銷禮盒(2024)",
 		money = 330,
 		limit_arg = 2,
 		tag = 2,
@@ -9367,7 +9682,7 @@ pg.base.pay_data_display = {
 		limit_group = 0,
 		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
 		type = 0,
-		name = "特許巡遊憑證（八期）",
+		name = "特许巡游凭证（八期）",
 		first_pay_double = 0,
 		name_display = "特許巡遊憑證",
 		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·克里夫蘭限定換裝和其他獎勵",
@@ -10054,7 +10369,7 @@ pg.base.pay_data_display = {
 		name = "特許巡遊憑證（十七期）",
 		first_pay_double = 0,
 		name_display = "特許巡遊憑證",
-		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·阿蒂利奧·雷戈洛限定換裝和其他獎勵",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·羅馬限定換裝和其他獎勵",
 		subject = "特許巡遊憑證",
 		money = 330,
 		limit_arg = 1,

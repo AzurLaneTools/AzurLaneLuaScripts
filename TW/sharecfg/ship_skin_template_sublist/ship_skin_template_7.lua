@@ -1,6 +1,128 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[206051] = {
+		name = "東煌之道",
+		ship_group = 20605,
+		desc = "這一身東煌的裝扮，是不是很適合我呢？雖然生在白鷹，長在皇家，但我也在東煌留下過痕跡哦～讓我們來聊聊東煌的茶與文化吧？呵呵～",
+		illustrator2 = -1,
+		bg_sp = "",
+		group_index = 1,
+		prefab = "zhuiganzhe_2",
+		painting = "zhuiganzhe_2",
+		hand_id = 9,
+		bgm = "",
+		shop_type_id = 3,
+		special_effects = "",
+		gyro = 0,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		ship_l2d_id = "",
+		l2d_drag_rate = "",
+		bg = "102",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 206051,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70159,
+		voice_actor = 165,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			80,
+			-120,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.758,
+					1.146,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.758,
+					1.146,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.159,
+					0.053,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.739,
+					1.269,
+					0
+				}
+			},
+			plane = {
+				{
+					0.767,
+					1.231,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.481,
+							2.325,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
 	[206052] = {
 		name = "Gamer Style",
 		ship_group = 20605,
@@ -12374,112 +12496,6 @@ pg.base.ship_skin_template_7 = {
 			expedition = 0.3,
 			mission_complete = 0.26,
 			touch2 = 0.33
-		}
-	},
-	[301168] = {
-		name = "春日的暖風",
-		ship_group = 30116,
-		desc = "這身衣服好漂亮啊，誒嘿嘿……啊——咳咳！從今以後，你就是{namecode:22}大人最重要的另一半了，可不允許擅自消失，明白了嗎！",
-		illustrator2 = -1,
-		bg_sp = "",
-		group_index = 8,
-		prefab = "xuefeng_h",
-		painting = "xuefeng_h",
-		hand_id = 14,
-		bgm = "",
-		shop_type_id = 9998,
-		special_effects = "",
-		gyro = 0,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		ship_l2d_id = "",
-		l2d_drag_rate = "",
-		bg = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		id = 301168,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 42,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.44,
-					0.967,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.147,
-					0.049,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.459,
-					0.997,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.436,
-							2.45,
-							-0.16
-						}
-					}
-				}
-			}
 		}
 	}
 }

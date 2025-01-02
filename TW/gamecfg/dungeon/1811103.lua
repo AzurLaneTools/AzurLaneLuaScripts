@@ -511,6 +511,29 @@ return {
 				},
 				{
 					triggerType = 0,
+					waveIndex = 105,
+					conditionType = 0,
+					preWaves = {
+						104
+					},
+					triggerParam = {},
+					spawn = {
+						{
+							monsterTemplateID = 16695010,
+							sickness = 0.1,
+							delay = 0,
+							deadFX = "None",
+							corrdinate = {
+								-30,
+								0,
+								50
+							},
+							buffList = {}
+						}
+					}
+				},
+				{
+					triggerType = 0,
 					waveIndex = 3001,
 					conditionType = 1,
 					preWaves = {

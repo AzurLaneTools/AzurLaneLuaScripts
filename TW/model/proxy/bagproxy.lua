@@ -257,12 +257,66 @@ slot0.GetSkinShopDiscountItemList = function(slot0)
 	return slot1
 end
 
+slot0.GetExclusiveDiscountItem4Shop = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot7.count > 0 and slot7:IsExclusiveDiscountType() and slot7:CanUseForShop(slot1) then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	return slot2
+end
+
 slot0.SetLoveLetterRepairInfo = function(slot0, slot1, slot2)
 	slot0.loveLetterRepairDic[slot1] = slot2
 end
 
 slot0.GetLoveLetterRepairInfo = function(slot0, slot1)
 	return slot0.loveLetterRepairDic[slot1]
+end
+
+slot0.GetSellingPrice = function(slot0, slot1)
+	slot2 = getProxy(BagProxy)
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot1) do
+		slot10 = slot2:RawGetItemById(slot8.id):GetPrice() or {}
+		slot12 = slot10[2] or 0
+
+		if not slot3[slot10[1] or 0] then
+			slot3[slot11] = 0
+		end
+
+		slot3[slot11] = slot3[slot11] + slot12 * slot8.count
+	end
+
+	slot4 = {}
+
+	for slot8, slot9 in pairs(slot3) do
+		if slot8 > 0 and slot9 > 0 then
+			table.insert(slot4, {
+				DROP_TYPE_RESOURCE,
+				slot8,
+				slot9
+			})
+		end
+	end
+
+	return slot4
+end
+
+slot0.GetSkinExperienceItems = function(slot0)
+	slot1 = {}
+
+	for slot7, slot8 in pairs(getProxy(BagProxy):getRawData()) do
+		if slot8.count > 0 and slot8:IsSkinExperienceType() then
+			table.insert(slot1, slot8)
+		end
+	end
+
+	return slot1
 end
 
 return slot0

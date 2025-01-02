@@ -213,7 +213,6 @@ slot0.OnPurchase = function(slot0, slot1, slot2)
 	end
 
 	slot0:emit(NewShopsMediator.ON_ACT_SHOPPING, slot0.shop.activityId, 1, slot1.id, slot2)
-	slot0:emit(NewShopsMediator.UR_EXCHANGE_TRACKING, slot4)
 end
 
 slot0.OnClickCommodity = function(slot0, slot1, slot2)

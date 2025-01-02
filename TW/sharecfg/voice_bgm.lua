@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "main",
+		default_bgm = "story-ironblood-light",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -1046,9 +1046,9 @@ pg.voice_bgm = {
 		bgm = "story-dazy-style"
 	},
 	VampireSkinPage2 = {
-		default_bgm = "main-christmas",
+		default_bgm = "theme-highseasfleet-reborn",
 		special_bgm = "",
-		bgm = "main-christmas"
+		bgm = "theme-highseasfleet-reborn"
 	},
 	NewYearShrinePage2024 = {
 		default_bgm = "newyear2",
@@ -1646,24 +1646,24 @@ pg.voice_bgm = {
 		bgm = "story-richang-quiet"
 	},
 	WorldMediaCollectionEntranceScene = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	WorldMediaCollectionMemoryLayer = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	WorldMediaCollectionRecordLayer = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	WorldMediaCollectionFileLayer = {
-		default_bgm = "main",
+		default_bgm = "story-2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-2"
 	},
 	ToLoveMainPage = {
 		default_bgm = "story-richang-rosy-short",

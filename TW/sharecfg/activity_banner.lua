@@ -13,9 +13,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -27,7 +27,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					1
+					22
 				},
 				{
 					23,
@@ -38,28 +38,11 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5191",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene shop",
-			{
-				wrap = 1
-			}
-		},
 		time = {
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2025,
@@ -67,6 +50,18 @@ pg.activity_banner = {
 					2
 				},
 				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
 					23,
 					59,
 					59
@@ -75,16 +70,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5150",
+		param = "5184",
 		type = 3,
 		id = 3,
 		pic = "temp3",
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -96,7 +91,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					1
+					22
 				},
 				{
 					23,
@@ -117,9 +112,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -131,7 +126,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					1
+					22
 				},
 				{
 					23,
@@ -155,9 +150,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -169,7 +164,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					2
+					23
 				},
 				{
 					23,
@@ -180,16 +175,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5131",
-		type = 3,
+		type = 2,
 		id = 6,
 		pic = "temp6",
+		param = {
+			"scene court yard"
+		},
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -201,7 +198,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					2
+					22
 				},
 				{
 					23,
@@ -212,16 +209,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5143",
-		type = 3,
+		type = 2,
 		id = 7,
 		pic = "temp8",
+		param = {
+			"metacharacter",
+			{
+				autoOpenShipConfigID = 9705051
+			}
+		},
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -233,7 +235,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					1
+					23
 				},
 				{
 					23,
@@ -285,9 +287,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -299,7 +301,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					1
+					22
 				},
 				{
 					23,
@@ -317,9 +319,9 @@ pg.activity_banner = {
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -331,7 +333,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					1
+					22
 				},
 				{
 					23,
@@ -702,9 +704,10 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
 			4,
 			5,
+			6,
+			7,
 			8,
 			1000,
 			1001,
@@ -731,9 +734,8 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
+			2,
 			3,
-			6,
-			7,
 			1003
 		},
 		[9] = {

@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"新春的冒险之王\n\n<size=45>二　现场抓获？</size>",
+					"新春的冒險之王\n\n<size=45>2 現場抓獲？</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_night",
 			hidePaintObj = true,
 			bgm = "main-chunjie2",
-			say = "晚饭后，被空地方向传来的喧闹声吸引了注意力。",
+			say = "晚餐後，被空地方向傳來的喧鬧聲吸引了注意力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			bgName = "star_level_bg_127",
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "呜呜呜——真的不是我啦！你们抓错人了！",
+			say = "嗚嗚嗚——真的不是我啦！妳們抓錯人了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -77,7 +77,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "案发现场直接人赃并获……飞云，乖乖认错吧。",
+			say = "案發現場直接人贓物並獲……飛雲，乖乖認錯吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "龙武姐今天喝到被你加料的茶之后，可是陷入了暴怒状态哦！",
+			say = "龍武姐今天喝到被妳加料的茶之後，可是陷入了暴怒狀態哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "我不是我没有！真的不是飞云做的QAQ——",
+			say = "我不是我沒有！真的不是飛雲做的QAQ——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真的不是你吗？",
+			say = "真的不是妳嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那为什么我们进入厨房的时候，看到你手里拿着被加了料的茶罐？",
+			say = "那為什麼我們進入廚房的時候，看到妳手裡拿著被加了料的茶罐？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "那……那是因为……总而言之，这次真的不是飞云啦QAQ！",
+			say = "那……那是因為……總而言之，這次真的不是飛雲啦QAQ！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			bgName = "star_level_bg_127",
 			actorName = "英勇",
 			hidePaintObj = true,
-			say = "大老远就听到这里有说话声，你们这里还真热闹啊~",
+			say = "大老遠就聽到這裡有說話聲，妳們這裡還真熱鬧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -227,7 +227,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来如此……今天茶叶的品质出现问题，原来是和飞云小姐的恶作剧有关么。",
+			say = "原來如此……今天茶葉的品質出現問題，原來是和飛雲小姐的惡作劇有關嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实……我觉得味道上还蛮有创意的哦",
+			say = "其實……我覺得味道上還蠻有創意的哦",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -262,7 +262,7 @@ return {
 			actor = 205020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……那不叫创意，相信我。",
+			say = "不……那不叫創意，相信我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			bgName = "star_level_bg_127",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（原来如此……飞云一个人去“冒险”被发现了么。）",
+			say = "（原來如此……飛雲一個人去「冒險」被發現了嗎。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，您也来了啊……",
+			say = "指揮官，您也來了啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,7 +310,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉让诸位见笑了。",
+			say = "抱歉讓各位見笑了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我向诸位保证，在接下来的一个月内，不会让飞云接近厨房和储藏室了。",
+			say = "我向各位保證，在接下來的一個月內，不會讓飛雲接近餐廳和儲藏室了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -346,7 +346,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在先把她挂在这里略施惩戒，相信她在认识到自己的错误之后，一定就……",
+			say = "現在先把她掛在這裡略施懲戒，相信她在認清自己的錯誤之後，一定就……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -364,7 +364,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……飞云，你在吃什么？",
+			say = "……飛雲，妳在吃什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -391,7 +391,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "架子上晒着的果干啊？甜甜的……好吃~",
+			say = "架子上曬著的果乾啊？甜甜的……好吃~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -409,7 +409,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊！那是龙武姐才挂上去的苹果干！",
+			say = "啊！那是龍武姐才掛上去的蘋果乾！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -427,7 +427,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她之前就叮嘱过我好生看管，不准别人偷吃……",
+			say = "她之前就叮囑過我好生看管，不准別人偷吃……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完了完了！被姐姐知道肯定更生气了！",
+			say = "完了完了！被姊姊知道一定更生氣了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿……苹果干的味道真不错，你们吃么？",
+			say = "欸嘿嘿……蘋果乾的味道真不錯，妳們吃嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -480,7 +480,7 @@ return {
 			actor = 501060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "完全没有在反省……！",
+			say = "完全沒有在反省……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,7 +497,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "哼，抓人要讲究证据！",
+			say = "哼，抓人要講究證據！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "说是人赃并获，可是你们实际看到飞云大人把调料加到茶罐里的瞬间了么！",
+			say = "說是人贓並獲，可是妳們實際看到飛雲大人把調味料加到茶罐裡的瞬間了嗎！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那倒……确实没有。",
+			say = "那倒……確實沒有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "对吧对吧~所以说，这件事真的不是飞云大人干的！",
+			say = "對吧~所以說，這件事真的不是飛雲大人幹的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……但也不能因此认定你与这件事完全无关。",
+			say = "等等……但也不能因此認定妳與這件事完全無關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "站在那边的指挥官——！快来救救飞云大人嘛~！寰昌姐姐好不讲道理……",
+			say = "站在那邊的指揮官——！快來救救飛雲大人嘛~！寰昌姐姐好不講道理…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			dir = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "指~挥~官~大~人——救~命~啊QAQ~",
+			say = "指~揮~官~大~人－救~命~啊QAQ~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			optionFlag = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "欸……飞云保证接下来一个月再也不接近厨房了，就放飞云下来吧~",
+			say = "欸…飛雲保證接下來一個月再也不接近廚房了，就放飛雲下來吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -685,7 +685,7 @@ return {
 			optionFlag = 1,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "好不好嘛~好不好嘛QAQ",
+			say = "好不好啊~好不好嘛QAQ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -712,7 +712,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……是，眼泪攻势！）",
+			say = "（……是，眼淚攻勢！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_127",
-			say = "最后，还是将飞云从架子上放了下来。",
+			say = "最後，還是將飛雲從架子上放了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			optionFlag = 2,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "指挥官最好了~！",
+			say = "指揮官最好了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -779,7 +779,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸……既然这是指挥官的决定，这次就先放你一马。",
+			say = "欸……既然這是指揮官的決定，這次就先放妳一馬。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -798,7 +798,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是别忘了，一个月不许接近厨房和储藏室哦。",
+			say = "但別忘了，一個月不准接近廚房和儲藏室喔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -816,7 +816,7 @@ return {
 			optionFlag = 2,
 			actor = 501071,
 			nameColor = "#A9F548FF",
-			say = "好~飞云大人说到做到！",
+			say = "好~飛雲大人說到做到！",
 			painting = {
 				alpha = 0.3,
 				time = 1

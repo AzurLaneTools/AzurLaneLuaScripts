@@ -5,6 +5,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.tr = tf(slot1)
 	slot0.icon = slot0.tr:Find("real_tpl/item_icon")
 	slot0.iconTF = slot0.icon:GetComponent(typeof(Image))
+	slot0.shipIcon = slot0.tr:Find("real_tpl/item_icon/ship")
 	slot0.tipTF = slot0.tr:Find("real_tpl/tip")
 	slot0.tipText = slot0.tipTF:GetComponent(typeof(Text))
 	slot0.count = slot0.tr:Find("real_tpl/count")
@@ -50,6 +51,11 @@ end
 
 slot0.update = function(slot0, slot1, slot2, slot3)
 	slot0.goods = slot1
+
+	if not IsNil(slot0.shipIcon) then
+		setActive(slot0.shipIcon, false)
+	end
+
 	slot4 = slot1:isChargeType() and slot1:getShowType() ~= ""
 
 	setActive(slot0.desc, true)
@@ -229,6 +235,30 @@ slot0.updateCharge = function(slot0, slot1, slot2, slot3)
 	setButtonEnabled(slot0.tr, not isActive(slot0.mask))
 end
 
+slot0.UpdateShipIcon = function(slot0, slot1)
+	if IsNil(slot0.shipIcon) then
+		return
+	end
+
+	setActive(slot0.shipIcon, true)
+
+	slot2 = slot0.shipIcon
+	slot2 = slot2:Find("icon")
+	slot2 = slot2:GetComponent(typeof(Image))
+	slot3 = slot1:getConfigTable().usage_arg[1][1]
+
+	assert(slot3)
+
+	slot5 = pg.shop_template[slot3].effect_args[1]
+
+	assert(slot5)
+	LoadSpriteAsync("qicon/" .. pg.ship_skin_template[slot5].prefab, function (slot0)
+		if slot0 and not IsNil(uv0.shipIcon) then
+			uv1.sprite = slot0
+		end
+	end)
+end
+
 slot0.updateGemItem = function(slot0, slot1, slot2)
 	setActive(slot0.mask, false)
 	setActive(slot0.maskState, false)
@@ -332,6 +362,10 @@ slot0.updateGemItem = function(slot0, slot1, slot2)
 		if Item.getConfigData(slot9[1]) then
 			setScrollText(slot0.name, slot10.name)
 			slot0:updateImport(slot10.display_icon, slot10.display)
+
+			if slot0:CheckSkinDiscounItem(slot10.display_icon) then
+				slot0:UpdateShipIcon(slot11)
+			end
 		end
 
 		slot0.iconTF.sprite = GetSpriteFromAtlas("chargeicon/1", "")
@@ -348,6 +382,24 @@ slot0.updateGemItem = function(slot0, slot1, slot2)
 	setButtonEnabled(slot0.tr, not isActive(slot0.mask))
 end
 
+slot0.CheckSkinDiscounItem = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot1) do
+		if Drop.Create(slot6):getConfigTable().usage and slot8.usage == ItemUsage.USAGE_SHOP_DISCOUNT then
+			return slot7
+		end
+	end
+
+	return nil
+end
+
+slot1 = function(slot0)
+	if slot0:getConfigTable().usage and slot1.usage == ItemUsage.USAGE_SKIN_EXP then
+		return false
+	end
+
+	return true
+end
+
 slot0.updateImport = function(slot0, slot1, slot2)
 	setActive(slot0.important, true)
 
@@ -361,7 +413,7 @@ slot0.updateImport = function(slot0, slot1, slot2)
 		slot8 = slot0.grid:GetChild(slot7 - 1)
 
 		if slot7 <= #slot3 then
-			setActive(slot8, true)
+			setActive(slot8, uv0(slot3[slot7]))
 			updateDrop(slot8, slot3[slot7])
 		else
 			setActive(slot8, false)

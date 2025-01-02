@@ -97,6 +97,10 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.skillContainer = slot5:Find("Skill_Activation/Root")
 	slot0.skill = slot5:Find("Skill_Activation/mask")
+
+	if slot5:Find("Stick/Area/BG/spine") then
+		slot8:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
+	end
 end
 
 slot0.load = function(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -273,7 +277,7 @@ slot0.updatePopUp = function(slot0)
 	LeanTween.cancel(slot0.chatPop)
 
 	if slot0.chatPop.transform:GetComponent(typeof(Animation)) then
-		ys.Battle.BattleCharacter.ChatPopAnimation(slot0.chatPop, pg.ship_skin_words[100000].skill, 5)
+		ys.Battle.BattleCharacter.ChatPopAnimation(slot0.chatPop, pg.ship_skin_words[100000].skill, 4)
 	else
 		slot2 = LeanTween.scale(rtf(slot0.chatPop.gameObject), Vector3.New(0, 0, 1), 0.1)
 		slot2 = slot2:setEase(LeanTweenType.easeInBack)
@@ -289,17 +293,33 @@ slot0.updateSkillFloat = function(slot0)
 
 	slot1 = ys.Battle.BattleResourceManager.GetInstance()
 	slot2 = nil
-	slot3 = slot0.skill.transform
+	slot2 = (slot0.skinKey ~= "Standard" or slot1:GetCharacterIcon(slot0.shipVO:getPrefab())) and slot1:GetCharacterSquareIcon(slot0.shipVO:getPrefab())
 	slot0.skill.localScale = Vector3(1.5, 1.5, 0)
+
+	if slot0.skill.transform:GetComponent(typeof(Animation)) then
+		slot5 = 1
+
+		while slot4:GetClip("anim_skinui_skill_" .. slot5) do
+			slot5 = slot5 + 1
+		end
+
+		if slot5 > 1 then
+			slot4:Play("anim_skinui_skill_" .. math.random(slot5 - 1))
+		end
+	end
 
 	setText(findTF(slot3, "skill/skill_name/Text"), HXSet.hxLan(pg.skill_data_template[9033].name))
 
-	findTF(slot3, "skill/icon_mask/icon"):GetComponent(typeof(Image)).sprite = (slot0.skinKey ~= "Standard" or slot1:GetCharacterIcon(slot0.shipVO:getPrefab())) and slot1:GetCharacterSquareIcon(slot0.shipVO:getPrefab())
-	slot6 = Color.New(1, 1, 1, 1)
-	findTF(slot3, "skill/skill_name"):GetComponent(typeof(Image)).color = slot6
-	findTF(slot3, "skill"):GetComponent(typeof(Image)).color = slot6
+	slot5 = findTF(slot3, "skill/icon_mask/icon")
+	slot6 = findTF(slot3, "skill/skill_name")
+	slot5:GetComponent(typeof(Image)).sprite = slot2
+	slot7 = Color.New(1, 1, 1, 1)
+	slot6:GetComponent(typeof(Image)).color = slot7
+	slot8 = findTF(slot3, "skill")
+	slot8:GetComponent(typeof(Image)).color = slot7
+	slot8 = slot3:GetComponent(typeof(DftAniEvent))
 
-	slot3:GetComponent(typeof(DftAniEvent)):SetEndEvent(function (slot0)
+	slot8:SetEndEvent(function (slot0)
 		setActive(uv0.skill, false)
 	end)
 
