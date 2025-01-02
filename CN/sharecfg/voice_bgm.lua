@@ -76,14 +76,14 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "story-richang-partynight",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "story-richang-partynight"
+		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "newyear2",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "newyear2"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -1846,9 +1846,9 @@ pg.voice_bgm = {
 		bgm = "story-newsakura"
 	},
 	NavalAcademyScene = {
-		default_bgm = "main-christmas",
+		default_bgm = "newyear2",
 		special_bgm = "",
-		bgm = "main-christmas"
+		bgm = "newyear2"
 	},
 	SkinMagazinePage7 = {
 		default_bgm = "story-richang-partynight",

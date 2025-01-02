@@ -170229,6 +170229,31 @@ _G.pg.base.item_virtual_data_statistics[65508] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65509] = {
+	drop_gold_max = 0,
+	name = "军事委托凭证",
+	display = "用于「委托兑换计划Ⅳ」活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/commission_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65509,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "伤害值",

@@ -1972,7 +1972,104 @@ pg.activity_ins_chat_language = setmetatable({
 		1969,
 		1970,
 		1971,
-		1972
+		1972,
+		1973,
+		1974,
+		1975,
+		1976,
+		1977,
+		1978,
+		1979,
+		1980,
+		1981,
+		1982,
+		1983,
+		1984,
+		1985,
+		1986,
+		1987,
+		1988,
+		1989,
+		1990,
+		1991,
+		1992,
+		1993,
+		1994,
+		1995,
+		1996,
+		1997,
+		1998,
+		1999,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2013,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025,
+		2026,
+		2027,
+		2028,
+		2029,
+		2030,
+		2031,
+		2032,
+		2033,
+		2034,
+		2035,
+		2036,
+		2037,
+		2038,
+		2039,
+		2040,
+		2041,
+		2042,
+		2043,
+		2044,
+		2045,
+		2046,
+		2047,
+		2048,
+		2049,
+		2050,
+		2051,
+		2052,
+		2053,
+		2054,
+		2055,
+		2056,
+		2057,
+		2058,
+		2059,
+		2060,
+		2061,
+		2062,
+		2063,
+		2064,
+		2065,
+		2066,
+		2067,
+		2068,
+		2069
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19614,5 +19711,858 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 1972,
 		flag = 7
+	},
+	[1973] = {
+		param = "指挥官……看你最近很忙、很累",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1973,
+		flag = 0
+	},
+	[1974] = {
+		param = "……有按时好好吃饭吗？",
+		ship_group = 50105,
+		type = 1,
+		id = 1974,
+		flag = 0,
+		option = {
+			{
+				1,
+				"稍微有些…"
+			}
+		}
+	},
+	[1975] = {
+		param = "稍微有些……最近事情实在比较多",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1975,
+		flag = 1
+	},
+	[1976] = {
+		param = "……那我来做饭给你吃吧？",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1976,
+		flag = 1
+	},
+	[1977] = {
+		param = "我的拿手菜很多，指挥官可以随便选！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1977,
+		flag = 1
+	},
+	[1978] = {
+		param = "当然，如果能给我说一下近期喜欢的口味就更好了",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1978,
+		flag = 1
+	},
+	[1979] = {
+		param = "我做个参考！",
+		ship_group = 50105,
+		type = 1,
+		id = 1979,
+		flag = 1,
+		option = {
+			{
+				2,
+				"最近吃的比较清淡"
+			},
+			{
+				3,
+				"最近喜欢调味比较重的食物"
+			}
+		}
+	},
+	[1980] = {
+		param = "最近吃的比较清淡，没有什么特别的讲究",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1980,
+		flag = 2
+	},
+	[1981] = {
+		param = "……其实清淡也是有讲究的，比如……开水白菜——",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1981,
+		flag = 2
+	},
+	[1982] = {
+		param = "虽然名字看起来很普通，但需要绝对的用心",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1982,
+		flag = 2
+	},
+	[1983] = {
+		param = "所谓“开水”其实是精心熬制的汤汁，白菜也是鲜甜的白菜心",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1983,
+		flag = 2
+	},
+	[1984] = {
+		param = "整个制作过程既繁琐又精细，最终的摆盘也要注重汤汁和白菜互相承托的美感",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1984,
+		flag = 2
+	},
+	[1985] = {
+		param = "……我说得有点太多了……总之只是给指挥官解释一下",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1985,
+		flag = 2
+	},
+	[1986] = {
+		param = "既然你那么肯定我的厨艺，其实可以对我的要求……再高一点",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1986,
+		flag = 2
+	},
+	[1987] = {
+		param = "指挥官的所有要求，我都能满足",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1987,
+		flag = 2
+	},
+	[1988] = {
+		param = "……在厨房里的所有要求",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1988,
+		flag = 2
+	},
+	[1989] = {
+		param = "最近喜欢调味比较重的食物",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1989,
+		flag = 3
+	},
+	[1990] = {
+		param = "工作繁忙，所以想要刺激一下味蕾",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1990,
+		flag = 3
+	},
+	[1991] = {
+		param = "指挥官的口味……很好！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1991,
+		flag = 3
+	},
+	[1992] = {
+		param = "麻辣鲜香、酱香浓郁、香辣劲爆……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1992,
+		flag = 3
+	},
+	[1993] = {
+		param = "嗯，炒菜的事情我可是很拿手的！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1993,
+		flag = 3
+	},
+	[1994] = {
+		param = "锅铲舞动、菜肴翻腾、火焰飞溅",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1994,
+		flag = 3
+	},
+	[1995] = {
+		param = "这样的美好场面才能成就一道触动味蕾的佳肴！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1995,
+		flag = 3
+	},
+	[1996] = {
+		param = "就算指挥官喜欢其他重口味，我也都可以尝试",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1996,
+		flag = 3
+	},
+	[1997] = {
+		param = "你……可以尽管提要求，我都能满足",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1997,
+		flag = 3
+	},
+	[1998] = {
+		param = "啊，快要到饭点了，我要去厨房了",
+		ship_group = 50105,
+		type = 1,
+		id = 1998,
+		flag = 0,
+		option = {
+			{
+				4,
+				"……现在？"
+			}
+		}
+	},
+	[1999] = {
+		param = "……现在？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1999,
+		flag = 4
+	},
+	[2000] = {
+		param = "应该还有很久才到饭点吧？这么早就开始么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2000,
+		flag = 4
+	},
+	[2001] = {
+		param = "……嗯，我要认真研究一下为你做点什么……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2001,
+		flag = 4
+	},
+	[2002] = {
+		param = "……专属小灶，就从今天开始吧！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2002,
+		flag = 4
+	},
+	[2003] = {
+		param = "指挥官……刚刚是你站在厨房的门口吗？",
+		ship_group = 50105,
+		type = 1,
+		id = 2003,
+		flag = 0,
+		option = {
+			{
+				1,
+				"是的，看到你在战斗！"
+			},
+			{
+				2,
+				"观赏了一场绝妙演出"
+			}
+		}
+	},
+	[2004] = {
+		param = "是的，看到你在战斗！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2004,
+		flag = 1
+	},
+	[2005] = {
+		param = "真的吗……我做饭的样子……会让指挥官想到战斗？",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2005,
+		flag = 1
+	},
+	[2006] = {
+		param = "那你……会感到压力吗？",
+		ship_group = 50105,
+		type = 1,
+		id = 2006,
+		flag = 1,
+		option = {
+			{
+				3,
+				"不会！"
+			}
+		}
+	},
+	[2007] = {
+		param = "不会！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2007,
+		flag = 3
+	},
+	[2008] = {
+		param = "观看散发着幸福味道的战场，可遇而不可求~",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2008,
+		flag = 3
+	},
+	[2009] = {
+		param = "记得你提过，厨房就是战场，感觉很有意思",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2009,
+		flag = 3
+	},
+	[2010] = {
+		param = "嘿嘿……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2010,
+		flag = 3
+	},
+	[2011] = {
+		param = "火候是敌人，要时刻关注",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2011,
+		flag = 3
+	},
+	[2012] = {
+		param = "时间是盟友，是战斗中的重要伙伴",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2012,
+		flag = 3
+	},
+	[2013] = {
+		param = "厨具是我的趁手武器，调味品是我的秘密武器",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2013,
+		flag = 3
+	},
+	[2014] = {
+		param = "我只需要一心一意、专心致志做出来完美的餐品！",
+		ship_group = 50105,
+		type = 1,
+		id = 2014,
+		flag = 3,
+		option = {
+			{
+				5,
+				"这样的状态很不错"
+			}
+		}
+	},
+	[2015] = {
+		param = "观赏了一场绝妙的演出，很好看也很香！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2015,
+		flag = 2
+	},
+	[2016] = {
+		param = "……谢谢指挥官……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2016,
+		flag = 2
+	},
+	[2017] = {
+		param = "307",
+		ship_group = 50105,
+		type = 4,
+		id = 2017,
+		flag = 2,
+		option = {
+			{
+				4,
+				"而且有种武学大师的气质……"
+			}
+		}
+	},
+	[2018] = {
+		param = "而且，你做饭的时候有种武学大师的气质",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2018,
+		flag = 4
+	},
+	[2019] = {
+		param = "一招一式，行云流水",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2019,
+		flag = 4
+	},
+	[2020] = {
+		param = "欸？真的吗……之前大家说在厨房里的我看起来有点凶呢……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2020,
+		flag = 4
+	},
+	[2021] = {
+		param = "难道……是因为指挥官说的……武学大师的气质吗？",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2021,
+		flag = 4
+	},
+	[2022] = {
+		param = "是不是有点太严肃了……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2022,
+		flag = 4
+	},
+	[2023] = {
+		param = "但是我喜欢做饭……是会感到肆意和潇洒~",
+		ship_group = 50105,
+		type = 1,
+		id = 2023,
+		flag = 4,
+		option = {
+			{
+				5,
+				"这样的状态很不错"
+			}
+		}
+	},
+	[2024] = {
+		param = "这样的状态很不错，你起锅的时候我都在暗暗鼓掌了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2024,
+		flag = 5
+	},
+	[2025] = {
+		param = "期待味道！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2025,
+		flag = 5
+	},
+	[2026] = {
+		param = "不会让你失望的~",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2026,
+		flag = 5
+	},
+	[2027] = {
+		param = "……我今天炒了很多菜，可以多吃好几碗饭呢",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2027,
+		flag = 5
+	},
+	[2028] = {
+		param = "……是一起吃……吃好几碗",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2028,
+		flag = 5
+	},
+	[2029] = {
+		param = "我马上到指挥室了",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2029,
+		flag = 5
+	},
+	[2030] = {
+		param = "指挥官，一起来吃饭吧！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2030,
+		flag = 5
+	},
+	[2031] = {
+		param = "……指挥官？！指挥官！！！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2031,
+		flag = 0
+	},
+	[2032] = {
+		param = "喂？是指挥官吗？",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2032,
+		flag = 0
+	},
+	[2033] = {
+		param = "指、挥、官！！！！",
+		ship_group = 50105,
+		type = 1,
+		id = 2033,
+		flag = 0,
+		option = {
+			{
+				1,
+				"喂？我在"
+			},
+			{
+				2,
+				"感觉你的状态不对"
+			}
+		}
+	},
+	[2034] = {
+		param = "喂？我在",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2034,
+		flag = 1
+	},
+	[2035] = {
+		param = "这是在用啾信模拟打电话……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2035,
+		flag = 1
+	},
+	[2036] = {
+		param = "嘘———我在和指挥官说话",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2036,
+		flag = 1
+	},
+	[2037] = {
+		param = "龙武这里 有甜甜的味道",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2037,
+		flag = 1
+	},
+	[2038] = {
+		param = "好像和指挥官在一起的时候",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2038,
+		flag = 1
+	},
+	[2039] = {
+		param = "开心 喜欢，龙武喜欢",
+		ship_group = 50105,
+		type = 1,
+		id = 2039,
+		flag = 1,
+		option = {
+			{
+				3,
+				"果然是喝醉了……"
+			}
+		}
+	},
+	[2040] = {
+		param = "感觉你的状态不对",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2040,
+		flag = 2
+	},
+	[2041] = {
+		param = "是……喝酒了吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2041,
+		flag = 2
+	},
+	[2042] = {
+		param = "酒？没 是荔香迷路",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2042,
+		flag = 2
+	},
+	[2043] = {
+		param = "米露",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2043,
+		flag = 2
+	},
+	[2044] = {
+		param = "龙武想喂到指挥官的嘴里呢",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2044,
+		flag = 2
+	},
+	[2045] = {
+		param = "是甜甜 软软的",
+		ship_group = 50105,
+		type = 1,
+		id = 2045,
+		flag = 2,
+		option = {
+			{
+				3,
+				"果然是喝醉了……"
+			}
+		}
+	},
+	[2046] = {
+		param = "果然是喝醉了？但还能发消息……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2046,
+		flag = 3
+	},
+	[2047] = {
+		param = "你现在是在厨房吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2047,
+		flag = 3
+	},
+	[2048] = {
+		param = "当然！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2048,
+		flag = 3
+	},
+	[2049] = {
+		param = "龙武喜欢厨房",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2049,
+		flag = 3
+	},
+	[2050] = {
+		param = "但要为了指挥官 喜欢指挥室",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2050,
+		flag = 3
+	},
+	[2051] = {
+		param = "嗯……也可以……",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2051,
+		flag = 3
+	},
+	[2052] = {
+		param = "龙武想在指挥室有自己的厨房",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2052,
+		flag = 3
+	},
+	[2053] = {
+		param = "指挥官！！可以吗？！！！",
+		ship_group = 50105,
+		type = 1,
+		id = 2053,
+		flag = 3,
+		option = {
+			{
+				4,
+				"嗯……也可以……"
+			}
+		}
+	},
+	[2054] = {
+		param = "嗯……也可以……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2054,
+		flag = 4
+	},
+	[2055] = {
+		param = "不",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2055,
+		flag = 4
+	},
+	[2056] = {
+		param = "不要学龙武说话",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2056,
+		flag = 4
+	},
+	[2057] = {
+		param = "但要吃龙武做的菜",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2057,
+		flag = 4
+	},
+	[2058] = {
+		param = "龙武准备了很多——很多————————",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2058,
+		flag = 4
+	},
+	[2059] = {
+		param = "适合两个人一起品尝的 好吃的",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2059,
+		flag = 4
+	},
+	[2060] = {
+		param = "偷偷告诉指挥官哦~",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2060,
+		flag = 4
+	},
+	[2061] = {
+		param = "龙武酿的荔枝 一定是东煌",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2061,
+		flag = 4
+	},
+	[2062] = {
+		param = "的这个",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2062,
+		flag = 4
+	},
+	[2063] = {
+		param = "13",
+		ship_group = 50105,
+		type = 4,
+		id = 2063,
+		flag = 4,
+		option = {
+			{
+				5,
+				"是，是最好的"
+			}
+		}
+	},
+	[2064] = {
+		param = "是，肯定是最好的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2064,
+		flag = 5
+	},
+	[2065] = {
+		param = "我马上就到了，等我",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2065,
+		flag = 5
+	},
+	[2066] = {
+		param = "等",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2066,
+		flag = 5
+	},
+	[2067] = {
+		param = "龙武不想等",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2067,
+		flag = 5
+	},
+	[2068] = {
+		param = "龙武想让指挥官吃掉",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2068,
+		flag = 5
+	},
+	[2069] = {
+		param = "幸福的味道",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2069,
+		flag = 5
 	}
 }

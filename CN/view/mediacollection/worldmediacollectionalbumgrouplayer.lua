@@ -32,14 +32,16 @@ slot0.OnInit = function(slot0)
 	setText(slot0:findTF("top/title/text"), i18n("word_limited_activity"))
 	setText(slot0:findTF("top/expireCheckBox/text"), i18n("word_show_expire_content"))
 
-	slot0.hideExpireBtn = slot0:findTF("top/expireCheckBox/click")
-	slot0.hideExpireCheckBox = slot0:findTF("top/expireCheckBox/checkBox/check")
-	slot0.hideExpire = false
+	slot0.showExpireBtn = slot0:findTF("top/expireCheckBox/click")
+	slot0.showExpireCheckBox = slot0:findTF("top/expireCheckBox/checkBox/check")
+	slot0.showExpire = true
 
-	onButton(slot0, slot0.hideExpireBtn, function ()
-		uv0.hideExpire = not uv0.hideExpire
+	onButton(slot0, slot0.showExpireBtn, function ()
+		uv0.showExpire = not uv0.showExpire
 
-		setActive(uv0.hideExpireCheckBox, uv0.hideExpire)
+		uv0:ExpireFilter()
+		uv0:UpdateView()
+		setActive(uv0.showExpireCheckBox, uv0.showExpire)
 	end)
 
 	slot0.rectAnchorX = slot0:findTF("GroupRect").anchoredPosition.x
@@ -67,7 +69,8 @@ slot0.onUpdateAlbumGroup = function(slot0, slot1, slot2)
 	slot3 = slot0.albumGroups[slot1]
 	slot0.albumGroupInfos[slot2] = slot3
 
-	setActive(tf(slot2):Find("expireMask"), ActivityMedalGroup.GetMedalGroupStateByID(slot3.id) < 1)
+	slot0.loader:GetSpriteQuiet(slot3.entrance_picture, "", tf(slot2):Find("BG"))
+	setActive(tf(slot2):Find("expireMask"), ActivityMedalGroup.GetMedalGroupStateByID(slot3.id) < ActivityMedalGroup.STATE_ACTIVE)
 end
 
 slot0.Return2MemoryGroup = function(slot0)
@@ -103,6 +106,20 @@ slot0.GetIndexRatio = function(slot0, slot1)
 	end
 
 	return slot2
+end
+
+slot0.ExpireFilter = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(pg.activity_medal_group.all) do
+		slot8 = ActivityMedalGroup.GetMedalGroupStateByID(pg.activity_medal_group[slot6].id)
+
+		if slot0.showExpire or ActivityMedalGroup.STATE_ACTIVE <= slot8 then
+			table.insert(slot1, slot7)
+		end
+	end
+
+	slot0.albumGroups = slot1
 end
 
 slot0.UpdateView = function(slot0)

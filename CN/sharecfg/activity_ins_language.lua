@@ -13562,7 +13562,7 @@ pg.base.activity_ins_language = {
 		value = "{namecode:197}没戴面具很可爱呀，平时也可以多这么出门哦~"
 	},
 	ins_reply_216_2_1 = {
-		value = "那、那是……\\\\\\"
+		value = "那、那是……\\\\\\\\\\\\"
 	},
 	ins_discuss_216_3 = {
 		value = "唱得挺不错的呀，完全不像是第一次去卡拉OK呢。"
@@ -23846,16 +23846,16 @@ pg.base.activity_ins_language = {
 		value = "老板大气喵！现在改成七天限时免费体验了喵！"
 	},
 	ins_discuss_519_3 = {
-		value = "\\(0.<)V，快看，这个颜表情和你一模一样吧！"
+		value = "\\\\(0.<)V，快看，这个颜表情和你一模一样吧！"
 	},
 	ins_reply_519_3_1 = {
-		value = "一模一样！好可爱\\(0.<)V"
+		value = "一模一样！好可爱\\\\(0.<)V"
 	},
 	ins_reply_519_3_2 = {
-		value = "\\(0.<)V！"
+		value = "\\\\(0.<)V！"
 	},
 	ins_reply_519_3_3 = {
-		value = "\\(0.<)V~"
+		value = "\\\\(0.<)V~"
 	},
 	ins_op_519_1_1 = {
 		value = "好看，很适合你！"

@@ -16,9 +16,29 @@ return {
 				data = {
 					op_list = {
 						{
+							skip = false,
 							name = "FFliwu_cadiban",
 							time = 0,
-							type = "timeline"
+							type = "timeline",
+							options = {},
+							touchs = {
+								[0] = {
+									{
+										pos = {
+											0,
+											-350
+										}
+									}
+								},
+								{
+									{
+										pos = {
+											150,
+											-50
+										}
+									}
+								}
+							}
 						}
 					}
 				},

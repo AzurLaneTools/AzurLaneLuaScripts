@@ -48830,7 +48830,7 @@ pg.ship_l2d = {
 			10
 		},
 		action_trigger = {
-			action = "touch_drag15",
+			action = "touch_drag16",
 			type = 2
 		}
 	},
