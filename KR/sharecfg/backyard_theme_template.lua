@@ -4456,7 +4456,7 @@ pg.backyard_theme_template = {
 	},
 	[117] = {
 		Cfg_1 = 5,
-		name = "러프 셸터",
+		name = "황야 보호소",
 		desc = "위험천만한 황야에서 마음 편히 쉴 수 있는 단 한 곳.",
 		deblocking = 1,
 		new = 1,

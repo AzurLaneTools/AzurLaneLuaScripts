@@ -1404,7 +1404,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 63,
-		name = "러프 포스",
+		name = "황야의 힘",
 		ids = {
 			4077,
 			4078,

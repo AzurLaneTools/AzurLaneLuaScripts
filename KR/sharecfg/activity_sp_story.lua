@@ -1887,7 +1887,7 @@ pg.activity_sp_story = {
 	},
 	[109] = {
 		story_type = 1,
-		name = "EP1-3 레지스탕스",
+		name = "EP1-3 저항",
 		change_prefab = "",
 		unlock_conditions = "EP1-2 클리어",
 		change_background = "bg_yuhui_cg_2",

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_medal_template = {
 	[571101] = {
-		activity_medal_desc = "꼼꼼한 성격의 메탈 레지스탕스의 리더. \"우리는 항상 당신을 보고 있다고도.\"",
+		activity_medal_desc = "꼼꼼한 성격의 메탈 저항의 리더. \"우리는 항상 당신을 보고 있다고도.\"",
 		next_medal = 0,
 		item = 65501,
 		remake_task_id = 0,
@@ -49,7 +49,7 @@ pg.activity_medal_template = {
 		medal_asset = "ActivityMedal/571104"
 	},
 	[571105] = {
-		activity_medal_desc = "경면해역과 이터널 스타가 지키고 있는 레지스탕스 기지. 거주성이 좋다고는 할 수 없지만 방어가 튼튼합니다.",
+		activity_medal_desc = "경면해역과 이터널 스타가 지키고 있는 저항 기지. 거주성이 좋다고는 할 수 없지만 방어가 튼튼합니다.",
 		next_medal = 0,
 		item = 65505,
 		remake_task_id = 0,

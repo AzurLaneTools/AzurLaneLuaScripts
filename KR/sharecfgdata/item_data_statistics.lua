@@ -25541,7 +25541,7 @@ _G.pg.base.item_data_statistics[30362] = {
 
 _G.pg.base.item_data_statistics[30363] = {
 	open_directly = 1,
-	name = "장비 스킨 상자 (러프 포스)",
+	name = "장비 스킨 상자 (황야의 힘)",
 	type = 11,
 	display = "무작위로 장비 스킨 획득 가능",
 	other_resource_cost = "[]",
@@ -37185,9 +37185,9 @@ _G.pg.base.item_data_statistics[30549] = {
 
 _G.pg.base.item_data_statistics[30550] = {
 	open_directly = 0,
-	name = "선택 장비 스킨 상자 (러프 포스)",
+	name = "선택 장비 스킨 상자 (황야의 힘)",
 	type = 13,
-	display = "사용하면 장비 스킨(러프 포스) 중 하나를 선택해서 획득할 수 있습니다.",
+	display = "사용하면 장비 스킨(황야의 힘) 중 하나를 선택해서 획득할 수 있습니다.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop_appointed",
