@@ -3326,6 +3326,10 @@ pg.skill_data_display = setmetatable({
 		1019110,
 		1019111,
 		1019112,
+		1014070,
+		1014071,
+		1014090,
+		1014091,
 		1090020,
 		1090042,
 		1090043,
@@ -16682,6 +16686,22 @@ pg.base.skill_data_display = {
 	[1019112] = {
 		id = 1019112,
 		name = "Augmented HE Ammo+"
+	},
+	[1014070] = {
+		id = 1014070,
+		name = "Purge Evil+"
+	},
+	[1014071] = {
+		id = 1014071,
+		name = "Purge Evil+"
+	},
+	[1014090] = {
+		id = 1014090,
+		name = "Cleanse Impurity+"
+	},
+	[1014091] = {
+		id = 1014091,
+		name = "Cleanse Impurity+"
 	},
 	[1090020] = {
 		id = 1090020,

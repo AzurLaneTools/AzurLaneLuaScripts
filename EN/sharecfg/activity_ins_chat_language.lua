@@ -1972,7 +1972,104 @@ pg.activity_ins_chat_language = setmetatable({
 		1969,
 		1970,
 		1971,
-		1972
+		1972,
+		1973,
+		1974,
+		1975,
+		1976,
+		1977,
+		1978,
+		1979,
+		1980,
+		1981,
+		1982,
+		1983,
+		1984,
+		1985,
+		1986,
+		1987,
+		1988,
+		1989,
+		1990,
+		1991,
+		1992,
+		1993,
+		1994,
+		1995,
+		1996,
+		1997,
+		1998,
+		1999,
+		2000,
+		2001,
+		2002,
+		2003,
+		2004,
+		2005,
+		2006,
+		2007,
+		2008,
+		2009,
+		2010,
+		2011,
+		2012,
+		2013,
+		2014,
+		2015,
+		2016,
+		2017,
+		2018,
+		2019,
+		2020,
+		2021,
+		2022,
+		2023,
+		2024,
+		2025,
+		2026,
+		2027,
+		2028,
+		2029,
+		2030,
+		2031,
+		2032,
+		2033,
+		2034,
+		2035,
+		2036,
+		2037,
+		2038,
+		2039,
+		2040,
+		2041,
+		2042,
+		2043,
+		2044,
+		2045,
+		2046,
+		2047,
+		2048,
+		2049,
+		2050,
+		2051,
+		2052,
+		2053,
+		2054,
+		2055,
+		2056,
+		2057,
+		2058,
+		2059,
+		2060,
+		2061,
+		2062,
+		2063,
+		2064,
+		2065,
+		2066,
+		2067,
+		2068,
+		2069
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19604,5 +19701,858 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 1972,
 		flag = 7
+	},
+	[1973] = {
+		param = "Commander, I noticed you've been very busy of late.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1973,
+		flag = 0
+	},
+	[1974] = {
+		param = "Have you been eating on time?",
+		ship_group = 50105,
+		type = 1,
+		id = 1974,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I try to..."
+			}
+		}
+	},
+	[1975] = {
+		param = "I try to. I've just had so much to do lately.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1975,
+		flag = 1
+	},
+	[1976] = {
+		param = "If time is the issue, do you want me to cook for you?",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1976,
+		flag = 1
+	},
+	[1977] = {
+		param = "I know many recipes like the back of my hand. If you have a favorite dish, I can make it for you!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1977,
+		flag = 1
+	},
+	[1978] = {
+		param = "Also, could you tell me how well you like your food seasoned these days?",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1978,
+		flag = 1
+	},
+	[1979] = {
+		param = "It'd be good to know for reference!",
+		ship_group = 50105,
+		type = 1,
+		id = 1979,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I prefer it lightly seasoned recently."
+			},
+			{
+				3,
+				"I've been fond of heavy seasoning lately."
+			}
+		}
+	},
+	[1980] = {
+		param = "I've found myself mostly eating lightly-seasoned foods these days.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1980,
+		flag = 2
+	},
+	[1981] = {
+		param = "There is a world of depth even to light dishes. Take boiled cabbage, for instance.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1981,
+		flag = 2
+	},
+	[1982] = {
+		param = "It's a dish with an unassuming name, but it requires a very careful technique to make.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1982,
+		flag = 2
+	},
+	[1983] = {
+		param = "It's not simply boiled in water, but rather simmered in a soup. Furthermore, only the freshest and sweetest part of the cabbage core will be used.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1983,
+		flag = 2
+	},
+	[1984] = {
+		param = "It takes time to carefully balance the flavors, and you also need a keen eye to present the cabbage and soup beautifully.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1984,
+		flag = 2
+	},
+	[1985] = {
+		param = "...Sorry, I'm rambling. I just wanted to explain how that dish is made.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1985,
+		flag = 2
+	},
+	[1986] = {
+		param = "If you trust my cooking skills, feel free to request more intricate dishes.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1986,
+		flag = 2
+	},
+	[1987] = {
+		param = "I'll fulfill all your wishes as best as I can.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1987,
+		flag = 2
+	},
+	[1988] = {
+		param = "As long as they're related to the kitchen, that is...",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1988,
+		flag = 2
+	},
+	[1989] = {
+		param = "I've found myself enjoying some heavy seasoning for a while.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1989,
+		flag = 3
+	},
+	[1990] = {
+		param = "Being so busy has made my taste buds crave intense flavors.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1990,
+		flag = 3
+	},
+	[1991] = {
+		param = "Commander, you have... excellent taste!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1991,
+		flag = 3
+	},
+	[1992] = {
+		param = "From fresh, numbing spices, to rich, intense sauces and vibrant, explosive chili flavors...",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1992,
+		flag = 3
+	},
+	[1993] = {
+		param = "And when it comes to stir-frying, it's my number one specialty!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1993,
+		flag = 3
+	},
+	[1994] = {
+		param = "Ahh, the flipping turners, ingredients dancing in the air, and a roar of a big flame!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1994,
+		flag = 3
+	},
+	[1995] = {
+		param = "To make a dish bursting with flavor, you need a kitchen and a chef bursting with energy!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1995,
+		flag = 3
+	},
+	[1996] = {
+		param = "Whatever kind of flavors you like, I'm ready to try my hand at them all.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1996,
+		flag = 3
+	},
+	[1997] = {
+		param = "...Ahem. Feel free to ask for any dish you like. I will not let you down.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 1997,
+		flag = 3
+	},
+	[1998] = {
+		param = "Oh, it's almost dinnertime. I need to head to the kitchen.",
+		ship_group = 50105,
+		type = 1,
+		id = 1998,
+		flag = 0,
+		option = {
+			{
+				4,
+				"What, right now?"
+			}
+		}
+	},
+	[1999] = {
+		param = "What, right now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 1999,
+		flag = 4
+	},
+	[2000] = {
+		param = "It's nowhere near dinnertime yet. Do you need to prepare that early?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2000,
+		flag = 4
+	},
+	[2001] = {
+		param = "No, but I want to carefully consider what I'm going to make for you.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2001,
+		flag = 4
+	},
+	[2002] = {
+		param = "Starting today, my special cooking service begins!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2002,
+		flag = 4
+	},
+	[2003] = {
+		param = "Commander, was that you standing by the kitchen door just now?",
+		ship_group = 50105,
+		type = 1,
+		id = 2003,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yeah. I saw you down in the trenches!"
+			},
+			{
+				2,
+				"It was an amazing performance."
+			}
+		}
+	},
+	[2004] = {
+		param = "Yeah. I saw you down in the trenches!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2004,
+		flag = 1
+	},
+	[2005] = {
+		param = "\"In the trenches\"... Does me cooking in the kitchen look like a battle to you, Commander?",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2005,
+		flag = 1
+	},
+	[2006] = {
+		param = "Does seeing it make you... stressed?",
+		ship_group = 50105,
+		type = 1,
+		id = 2006,
+		flag = 1,
+		option = {
+			{
+				3,
+				"Not really."
+			}
+		}
+	},
+	[2007] = {
+		param = "Not really. No stress here.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2007,
+		flag = 3
+	},
+	[2008] = {
+		param = "I mean, what kind of battlefield smells like savory happiness, right?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2008,
+		flag = 3
+	},
+	[2009] = {
+		param = "I remember you once saying that the kitchen is like a battlefield. Seeing you there was really fun.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2009,
+		flag = 3
+	},
+	[2010] = {
+		param = "Heheh...",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2010,
+		flag = 3
+	},
+	[2011] = {
+		param = "The stove's temperature is like an enemy: You must always be vigilant.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2011,
+		flag = 3
+	},
+	[2012] = {
+		param = "Time is your ally and your indispensable partner.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2012,
+		flag = 3
+	},
+	[2013] = {
+		param = "The cooking utensils are your trusty weapons, and seasoning is the secret ace up your sleeve.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2013,
+		flag = 3
+	},
+	[2014] = {
+		param = "Once you're in position, all that's left is to cook the perfect meal!",
+		ship_group = 50105,
+		type = 1,
+		id = 2014,
+		flag = 3,
+		option = {
+			{
+				5,
+				"Honestly, it's wonderful."
+			}
+		}
+	},
+	[2015] = {
+		param = "Sure was, and what an amazing performance you put on. It looked and smelled incredible.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2015,
+		flag = 2
+	},
+	[2016] = {
+		param = "Thank you...",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2016,
+		flag = 2
+	},
+	[2017] = {
+		param = "307",
+		ship_group = 50105,
+		type = 4,
+		id = 2017,
+		flag = 2,
+		option = {
+			{
+				4,
+				"You were like a martial arts master in their element."
+			}
+		}
+	},
+	[2018] = {
+		param = "When you cook, you have the aura of a martial arts master in their element.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2018,
+		flag = 4
+	},
+	[2019] = {
+		param = "Your movements in the kitchen flow like water. It's so cool!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2019,
+		flag = 4
+	},
+	[2020] = {
+		param = "You really think so? People often tell me I look terrifying in the kitchen...",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2020,
+		flag = 4
+	},
+	[2021] = {
+		param = "Wait, it's precisely because I look like a martial arts master, isn't it?",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2021,
+		flag = 4
+	},
+	[2022] = {
+		param = "I might take my cooking a bit too seriously...",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2022,
+		flag = 4
+	},
+	[2023] = {
+		param = "But I can't help it! I love making food! It makes me feel free and uninhibited.",
+		ship_group = 50105,
+		type = 1,
+		id = 2023,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Honestly, it's wonderful."
+			}
+		}
+	},
+	[2024] = {
+		param = "I honestly think it's wonderful. I almost clapped in awe when you stirred that pan like that.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2024,
+		flag = 5
+	},
+	[2025] = {
+		param = "I'm excited to taste whatever you made.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2025,
+		flag = 5
+	},
+	[2026] = {
+		param = "I promise, you won't be disappointed.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2026,
+		flag = 5
+	},
+	[2027] = {
+		param = "I made quite a lot of stir-fried food today, so you'll definitely want some extra rice to go with it.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2027,
+		flag = 5
+	},
+	[2028] = {
+		param = "We should eat together. Eat A LOT together.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2028,
+		flag = 5
+	},
+	[2029] = {
+		param = "I'll arrive at your office in just a minute.",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2029,
+		flag = 5
+	},
+	[2030] = {
+		param = "I hope you're ready for a hearty meal!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2030,
+		flag = 5
+	},
+	[2031] = {
+		param = "Commander? Commander!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2031,
+		flag = 0
+	},
+	[2032] = {
+		param = "Hello are you there?",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2032,
+		flag = 0
+	},
+	[2033] = {
+		param = "COMMANDER PLEASE ANSWER",
+		ship_group = 50105,
+		type = 1,
+		id = 2033,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yes, hello?"
+			},
+			{
+				2,
+				"You don't usually type like this..."
+			}
+		}
+	},
+	[2034] = {
+		param = "Yes, hello?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2034,
+		flag = 1
+	},
+	[2035] = {
+		param = "I should remind you that this is FleetChat, not a phone call.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2035,
+		flag = 1
+	},
+	[2036] = {
+		param = "Shh! I'm messaging the commander here",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2036,
+		flag = 1
+	},
+	[2037] = {
+		param = "U knwo there's something sweet and soft in the air where I m",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2037,
+		flag = 1
+	},
+	[2038] = {
+		param = "It's just like when I'm with u",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2038,
+		flag = 1
+	},
+	[2039] = {
+		param = "A lot of fun, I love itt",
+		ship_group = 50105,
+		type = 1,
+		id = 2039,
+		flag = 1,
+		option = {
+			{
+				3,
+				"Okay, you're definitely drunk..."
+			}
+		}
+	},
+	[2040] = {
+		param = "You don't usually type like this...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2040,
+		flag = 2
+	},
+	[2041] = {
+		param = "Did you just drink alcohol?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2041,
+		flag = 2
+	},
+	[2042] = {
+		param = "Alcohol? Uh no it's kychere wunw",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2042,
+		flag = 2
+	},
+	[2043] = {
+		param = "Lychee wine....",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2043,
+		flag = 2
+	},
+	[2044] = {
+		param = "I wanna feed it 2 u",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2044,
+		flag = 2
+	},
+	[2045] = {
+		param = "Its a sweet a nd soft drink",
+		ship_group = 50105,
+		type = 1,
+		id = 2045,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Okay, you're definitely drunk..."
+			}
+		}
+	},
+	[2046] = {
+		param = "Okay, you're definitely drunk... and yet, still capable of sending messages.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2046,
+		flag = 3
+	},
+	[2047] = {
+		param = "Are you in the kitchen right now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2047,
+		flag = 3
+	},
+	[2048] = {
+		param = "Off coarse!!!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2048,
+		flag = 3
+	},
+	[2049] = {
+		param = "I lov ether kitchen",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2049,
+		flag = 3
+	},
+	[2050] = {
+		param = "Butt if u want me I can love the office too",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2050,
+		flag = 3
+	},
+	[2051] = {
+		param = "Okay I love it now",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2051,
+		flag = 3
+	},
+	[2052] = {
+		param = "I want my own kitchen in the office",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2052,
+		flag = 3
+	},
+	[2053] = {
+		param = "Commander can u please doo something for me??!!!",
+		ship_group = 50105,
+		type = 1,
+		id = 2053,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Off coarse I can!"
+			}
+		}
+	},
+	[2054] = {
+		param = "Off coarse I can!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2054,
+		flag = 4
+	},
+	[2055] = {
+		param = "Heyy",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2055,
+		flag = 4
+	},
+	[2056] = {
+		param = "Don't imitate me like that!!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2056,
+		flag = 4
+	},
+	[2057] = {
+		param = "No talking just eat my food",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2057,
+		flag = 4
+	},
+	[2058] = {
+		param = "I made sooooooooo much",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2058,
+		flag = 4
+	},
+	[2059] = {
+		param = "Its so good, perfect for just us 2 eating",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2059,
+		flag = 4
+	},
+	[2060] = {
+		param = "Let me tell u a secret",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2060,
+		flag = 4
+	},
+	[2061] = {
+		param = "The lychee wine I made, in the empery it's",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2061,
+		flag = 4
+	},
+	[2062] = {
+		param = "Its this",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2062,
+		flag = 4
+	},
+	[2063] = {
+		param = "13",
+		ship_group = 50105,
+		type = 4,
+		id = 2063,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Yeah, it's definitely the best."
+			}
+		}
+	},
+	[2064] = {
+		param = "Yeah, it's definitely the best.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2064,
+		flag = 5
+	},
+	[2065] = {
+		param = "I'll be right over in a minute, so just wait.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2065,
+		flag = 5
+	},
+	[2066] = {
+		param = "Wait??",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2066,
+		flag = 5
+	},
+	[2067] = {
+		param = "I don't wanna wait",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2067,
+		flag = 5
+	},
+	[2068] = {
+		param = "Mee, I want u to eat",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2068,
+		flag = 5
+	},
+	[2069] = {
+		param = "Taste like happiness",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2069,
+		flag = 5
 	}
 }

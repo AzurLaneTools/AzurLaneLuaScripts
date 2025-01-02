@@ -9655,20 +9655,6 @@ end
 temp()
 
 temp = function()
-	uv0["镇"] = {
-		["海"] = {
-			["."] = {
-				["改"] = {
-					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["É"] = {
 		m = {
 			i = {

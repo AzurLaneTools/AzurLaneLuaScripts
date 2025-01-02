@@ -9,7 +9,7 @@ return {
 	scripts = {
 		{
 			actorName = 20220,
-			say = "This tea set is for me? I'm so flattered. Oh, you're too generous, {dorm3d}.",
+			say = "This tea set is for me? I'm so flattered. Oh, you're too generous, Master.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

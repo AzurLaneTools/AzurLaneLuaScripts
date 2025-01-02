@@ -6203,7 +6203,7 @@ pg.base.activity_ins_language = {
 		value = "If you say you're gonna do something, do it right! Don't make excuses!"
 	},
 	ins_reply_4_2_1 = {
-		value = "My, you seem very serious about this. Pardon me if I'm mistaken, but didn't a certain somebody say, \"It's not like this is worth getting worked up over or anything\""
+		value = "My, you seem very serious about this. Pardon me if I'm mistaken, but didn't a certain somebody say, \\\"It's not like this is worth getting worked up over or anything\\\""
 	},
 	ins_reply_4_2_2 = {
 		value = "Excuse me?! When did I ever say something like that?! You're TOTALLY wrong AND misremembering!"
@@ -6212,7 +6212,7 @@ pg.base.activity_ins_language = {
 		value = "*Sigh*... If only the Commander was here for me..."
 	},
 	ins_discuss_4_3 = {
-		value = "Assessment: \"practice\" seems entertaining."
+		value = "Assessment: \\\"practice\\\" seems entertaining."
 	},
 	ins_discuss_4_4 = {
 		value = "I know you're doing your best in there, Akagi! Keep it up! ^.^"
@@ -6230,19 +6230,19 @@ pg.base.activity_ins_language = {
 		value = "It's okay, Commander! The moment I'm finished, I'll go straight to your office so we can be together!"
 	},
 	ins_5 = {
-		value = "Orders received from Master: \"do whatever you want.\" Attention: unable to deduce meaning of said phrase."
+		value = "Orders received from Master: \\\"do whatever you want.\\\" Attention: unable to deduce meaning of said phrase."
 	},
 	ins_discuss_5_1 = {
 		value = "We have the day off, just play around and have some fun! :D"
 	},
 	ins_reply_5_1_1 = {
-		value = "Requesting examples of activities classified as \"playing around and having fun.\""
+		value = "Requesting examples of activities classified as \\\"playing around and having fun.\\\""
 	},
 	ins_reply_5_1_2 = {
 		value = "Examples? Umm, surfing or sunbathing I guess? Maybe building a sandcastle? I think you'd like that"
 	},
 	ins_reply_5_1_3 = {
-		value = "\"Build a sandcastle.\" Interest piqued..."
+		value = "\\\"Build a sandcastle.\\\" Interest piqued..."
 	},
 	ins_discuss_5_2 = {
 		value = "Are you SERIOUSLY chilling on the beach? We've got stuff to do."
@@ -6257,7 +6257,7 @@ pg.base.activity_ins_language = {
 		value = "Just do whatever you think will be fun."
 	},
 	op_reply_5_1_1 = {
-		value = "Requesting list of conditions necessary for \"fun\" to take place."
+		value = "Requesting list of conditions necessary for \\\"fun\\\" to take place."
 	},
 	ins_op_5_1_2 = {
 		value = "Building a sandcastle sounds like a good idea!"
@@ -6272,7 +6272,7 @@ pg.base.activity_ins_language = {
 		value = "wtf..."
 	},
 	ins_reply_6_1_1 = {
-		value = "Emotion experienced during construction process identified as \"enjoyment.\""
+		value = "Emotion experienced during construction process identified as \\\"enjoyment.\\\""
 	},
 	ins_reply_6_1_2 = {
 		value = "Haha! Sounds like you had fun!"
@@ -6296,7 +6296,7 @@ pg.base.activity_ins_language = {
 		value = "Awesome sandcastle!"
 	},
 	op_reply_6_1_1 = {
-		value = "Conditions for experiencing the emotion known as \"fun\" have been met."
+		value = "Conditions for experiencing the emotion known as \\\"fun\\\" have been met."
 	},
 	ins_7 = {
 		value = "#TrainingGascogne is self-evaluating ability to sing with emotion."
@@ -6305,7 +6305,7 @@ pg.base.activity_ins_language = {
 		value = "What you need is love. Yes, love. LOVE makes everything possible!"
 	},
 	ins_reply_7_1_1 = {
-		value = "Topic: \"love\" identified. Attention: database lacking in records on this emotion."
+		value = "Topic: \\\"love\\\" identified. Attention: database lacking in records on this emotion."
 	},
 	ins_discuss_7_2 = {
 		value = "Just follow your heart and do what feels right! No regrets or second guessing!"
@@ -7325,10 +7325,10 @@ pg.base.activity_ins_language = {
 		value = "Surely you did not mistake that pile of... stuff there as a proper meal, Miss Enteprise."
 	},
 	ins_reply_41_1_2 = {
-		value = "Fine... But who came up with this \"meal\" anyway?"
+		value = "Fine... But who came up with this \\\"meal\\\" anyway?"
 	},
 	ins_reply_41_1_3 = {
-		value = "Miss Nevada gave me this recipe. Her instructions were: \"Who cares if she likes it or not, just make her get it down.\""
+		value = "Miss Nevada gave me this recipe. Her instructions were: \\\"Who cares if she likes it or not, just make her get it down.\\\""
 	},
 	ins_reply_41_1_4 = {
 		value = "Where are my rights..."
@@ -7367,7 +7367,7 @@ pg.base.activity_ins_language = {
 		value = "Miss Enterprise is accustomed to consuming rations, which are densely packed with protein and carbohydrates. We will have to correct this imbalance for now. "
 	},
 	op_reply_41_1_3 = {
-		value = "Since when is force-feeding considered \"ensuring everyone's well-being\"...? "
+		value = "Since when is force-feeding considered \\\"ensuring everyone's well-being\\\"...? "
 	},
 	op_reply_41_1_4 = {
 		value = "She's confiscating my steaks until Saturday. "
@@ -7385,7 +7385,7 @@ pg.base.activity_ins_language = {
 		value = "Hehe... Deutschland, you're so cute~"
 	},
 	ins_reply_42_2_1 = {
-		value = "Spiritual leaders are not supposed to be \"cute.\" You should use that word to praise Spee."
+		value = "Spiritual leaders are not supposed to be \\\"cute.\\\" You should use that word to praise Spee."
 	},
 	ins_reply_42_2_2 = {
 		value = "Yes, yes, that's what makes you so cute~"
@@ -7499,7 +7499,7 @@ pg.base.activity_ins_language = {
 		value = "Is that one of your new products, Akashi?"
 	},
 	ins_reply_45_1_2 = {
-		value = "it's that new \"prototype self-heating frying pan\" thinger. I wanted to give it a try, but..."
+		value = "it's that new \\\"prototype self-heating frying pan\\\" thinger. I wanted to give it a try, but..."
 	},
 	ins_reply_45_1_3 = {
 		value = "I'm sure it's some sort of misunderstanding, nya! I'll come take a look right meow!"
@@ -7580,7 +7580,7 @@ pg.base.activity_ins_language = {
 		value = "Just let her do it, she's being nice after all."
 	},
 	ins_reply_47_2_1 = {
-		value = "i can't even tell anymore if i'm feeling sick because i'm ill or bcuase of akagi's \"treatment\""
+		value = "i can't even tell anymore if i'm feeling sick because i'm ill or bcuase of akagi's \\\"treatment\\\""
 	},
 	ins_discuss_47_3 = {
 		value = "Friends like you are in short supply these days, dear sister."
@@ -7838,7 +7838,7 @@ pg.base.activity_ins_language = {
 		value = "It's finally finished...!"
 	},
 	ins_discuss_55_1 = {
-		value = "Querying \"Postmodern Art Database\" for matches... Not recognized as \"Art.\""
+		value = "Querying \\\"Postmodern Art Database\\\" for matches... Not recognized as \\\"Art.\\\""
 	},
 	ins_reply_55_1_1 = {
 		value = "Ehehe... Unicorn poured her heart and soul into sculpting this though~"
@@ -8045,7 +8045,7 @@ pg.base.activity_ins_language = {
 		value = "As is Iron Blood tradition, we take something and improve it. #CafeteriaCravings"
 	},
 	ins_discuss_62_1 = {
-		value = "Everyone has different tastes, I suppose... Is the Iron Blood's mayo the \"greatest in the world,\" as I've heard?"
+		value = "Everyone has different tastes, I suppose... Is the Iron Blood's mayo the \\\"greatest in the world,\\\" as I've heard?"
 	},
 	ins_reply_62_1_1 = {
 		value = "No? Who the hell said that?"
@@ -8249,10 +8249,10 @@ pg.base.activity_ins_language = {
 		value = "Huh? Why in moderation? I thought grownups can drink all they want?? Why is that, anyway?"
 	},
 	ins_reply_68_2_3 = {
-		value = "Hahaha. I think I just figured out who actuakky does the \"PR\" for this account, and ot isn't Nagato."
+		value = "Hahaha. I think I just figured out who actuakky does the \\\"PR\\\" for this account, and ot isn't Nagato."
 	},
 	ins_op_68_1_1 = {
-		value = "Sponsor, eh? If I wear a uniform with \"Akashi's Shop\" on the back, will you pay me?"
+		value = "Sponsor, eh? If I wear a uniform with \\\"Akashi's Shop\\\" on the back, will you pay me?"
 	},
 	op_reply_68_1_1 = {
 		value = "Your back is always hidden by your office chair, nya! Nobody would see it, nya."
@@ -8276,13 +8276,13 @@ pg.base.activity_ins_language = {
 		value = "Looks colder than Taihou when the Commander isn't around!"
 	},
 	ins_reply_69_2_1 = {
-		value = "Affirmative; it is cold. However, this so-called \"feeling of accomplishment\" counteracts the freezing temperatures."
+		value = "Affirmative; it is cold. However, this so-called \\\"feeling of accomplishment\\\" counteracts the freezing temperatures."
 	},
 	ins_discuss_69_3 = {
 		value = "well it's like my ma' always used to say: one small step for a ship, one giant leap for mankind :D"
 	},
 	ins_reply_69_3_1 = {
-		value = "I don't know what's weirder: you having a \"ma'\" or how misappropriated that quote is..."
+		value = "I don't know what's weirder: you having a \\\"ma'\\\" or how misappropriated that quote is..."
 	},
 	ins_op_69_1_1 = {
 		value = "Must've taken a lot of fuel to reach the top, huh?"
@@ -8294,7 +8294,7 @@ pg.base.activity_ins_language = {
 		value = "Aren't you freezing?"
 	},
 	op_reply_69_1_2 = {
-		value = "Analysis: abnormal temperature stimulus recorded by tactile system. Closest description recorded in database: \"the chills.\""
+		value = "Analysis: abnormal temperature stimulus recorded by tactile system. Closest description recorded in database: \\\"the chills.\\\""
 	},
 	ins_70 = {
 		value = "I watched the destroyers for an afternoon. It was quite enjoyable, in fact."
@@ -8408,7 +8408,7 @@ pg.base.activity_ins_language = {
 		value = "You wannabe paparazzo! Nobody gave you permission to photograph me in my sleep!"
 	},
 	ins_reply_73_1_1 = {
-		value = "I bet you love the attention anyway lol. And by the way, I heard you sleeptalking like a baby. \"Yukikaze is the greatest everest on the planet!!!\""
+		value = "I bet you love the attention anyway lol. And by the way, I heard you sleeptalking like a baby. \\\"Yukikaze is the greatest everest on the planet!!!\\\""
 	},
 	ins_reply_73_1_2 = {
 		value = "DELET THIS! You're ruining Yukikaze's great reputation!"
@@ -8447,7 +8447,7 @@ pg.base.activity_ins_language = {
 		value = "Is that a giant tuna?? You look cool as heck riding it, Lord Bismarck!"
 	},
 	ins_reply_74_1_1 = {
-		value = "It is designed to look like one, yes. They're calling the project the \"High-Speed Camouflaged Marine Vessel.\""
+		value = "It is designed to look like one, yes. They're calling the project the \\\"High-Speed Camouflaged Marine Vessel.\\\""
 	},
 	ins_reply_74_1_2 = {
 		value = "Ooh! Can I ride it next? It looks fun!"
@@ -8717,7 +8717,7 @@ pg.base.activity_ins_language = {
 		value = "Absolutely, hun! You can invite Maya too. Tell her the hot spring can relieve stiffness, both of the muscle and social varieties, hehe."
 	},
 	ins_reply_81_2_2 = {
-		value = "\"Social\" stiffness? Come again?"
+		value = "\\\"Social\\\" stiffness? Come again?"
 	},
 	ins_op_81_1_1 = {
 		value = "This is an open-air hot spring, right? Sounds comfy."
@@ -8753,7 +8753,7 @@ pg.base.activity_ins_language = {
 		value = "Shopped? I don't quite understand, but I can buy you one as well if you'd like, Commander!"
 	},
 	ins_op_82_1_2 = {
-		value = "Care to explain this whole \"elder\" thing to me?"
+		value = "Care to explain this whole \\\"elder\\\" thing to me?"
 	},
 	op_reply_82_1_2 = {
 		value = "It is my way of showing respect for those born before me or with more experience. I am but a Childe compared to my Elders!"
@@ -8924,7 +8924,7 @@ pg.base.activity_ins_language = {
 		value = "Well, nothing too extreme. I'd just ask you to apologize to me, then extract the pudding from you in one way or another."
 	},
 	ins_reply_87_2_2 = {
-		value = "Fair enough. But what do you mean \"extract\"? Actually, never mind, I don't want to know..."
+		value = "Fair enough. But what do you mean \\\"extract\\\"? Actually, never mind, I don't want to know..."
 	},
 	ins_op_87_1_1 = {
 		value = "Let's forget the whodunit and just get you a new cup of pudding."
@@ -8954,7 +8954,7 @@ pg.base.activity_ins_language = {
 		value = "I am honoured, Miss Belfast! And Edinburgh, you must be quite cordial with one another, having a go at her like that!"
 	},
 	ins_reply_88_2_3 = {
-		value = "Cordial? Let's just call it a \"friendly\" rivalry :|"
+		value = "Cordial? Let's just call it a \\\"friendly\\\" rivalry :|"
 	},
 	ins_op_88_1_1 = {
 		value = "This is the quintessential maid style, that's for sure."
@@ -9086,7 +9086,7 @@ pg.base.activity_ins_language = {
 		value = "You're the first! If you ever have the time, I'd love to revisit them with you!"
 	},
 	ins_92 = {
-		value = "\"Hey there, little one. Are you lost?\""
+		value = "\\\"Hey there, little one. Are you lost?\\\""
 	},
 	ins_discuss_92_1 = {
 		value = "That's my pet eagle. Thanks for finding her."
@@ -9170,7 +9170,7 @@ pg.base.activity_ins_language = {
 		value = "Well done, Howe! A handshake is the first step to reconciliation."
 	},
 	ins_reply_94_1_2 = {
-		value = "\"Reconciliation\"? Oh please, don't paint it as something greater than it is"
+		value = "\\\"Reconciliation\\\"? Oh please, don't paint it as something greater than it is"
 	},
 	ins_reply_94_1_3 = {
 		value = "More than it is? What is it, then?"
@@ -9452,7 +9452,7 @@ pg.base.activity_ins_language = {
 		value = "Haha, Essex is always such an industrious young lady."
 	},
 	ins_reply_101_1_1 = {
-		value = "\"I've already done my research! Just a bit longer... Beef tongue must be grilled to perfection before it is optimal for consumption...\" So she says."
+		value = "\\\"I've already done my research! Just a bit longer... Beef tongue must be grilled to perfection before it is optimal for consumption...\\\" So she says."
 	},
 	ins_discuss_101_2 = {
 		value = "Umm... can I eat already?"
@@ -9464,7 +9464,7 @@ pg.base.activity_ins_language = {
 		value = "Is she facing down a Siren?!"
 	},
 	op_reply_101_1_1 = {
-		value = "\"Grilling meat IS a battle!\" said Essex."
+		value = "\\\"Grilling meat IS a battle!\\\" said Essex."
 	},
 	ins_102 = {
 		value = "The ravenous Enterprise took the initiative, breaking Essex's focus."
@@ -9980,7 +9980,7 @@ pg.base.activity_ins_language = {
 		value = "You should consider that as your great comeback."
 	},
 	ins_reply_115_2_4 = {
-		value = "I don't feel like I \"won\" at all!"
+		value = "I don't feel like I \\\"won\\\" at all!"
 	},
 	ins_op_115_1_1 = {
 		value = "That reminds me..."
@@ -10058,7 +10058,7 @@ pg.base.activity_ins_language = {
 		value = "Well, Commander? How about joining me for some snacks and a drink under the serene moon?"
 	},
 	ins_op_117_1_2 = {
-		value = "You know what they say... \"The moon really is beautiful today.\""
+		value = "You know what they say... \\\"The moon really is beautiful today.\\\""
 	},
 	op_reply_117_1_2 = {
 		value = "Are you trying to hit on me? Hehehe!"
@@ -10118,7 +10118,7 @@ pg.base.activity_ins_language = {
 		value = "If that's what Miss Victorious desires, then by all means, please join us next time."
 	},
 	ins_reply_119_2_4 = {
-		value = "Their tea preparation ceremony seemed like a lot of needless extra work... Or should I say, \"seemed like it took a lot of planning.\""
+		value = "Their tea preparation ceremony seemed like a lot of needless extra work... Or should I say, \\\"seemed like it took a lot of planning.\\\""
 	},
 	ins_op_119_1_1 = {
 		value = "Don't try to rush it. Enjoy the wabi-sabi for what it is."
@@ -10139,7 +10139,7 @@ pg.base.activity_ins_language = {
 		value = "I wouldn't say that. Seeing my brethren have fun brought joy to my soul, too."
 	},
 	ins_discuss_120_2 = {
-		value = "So this is the Sakura Empire's \"Nebuta Festival.\" It seems like you had a wild time!"
+		value = "So this is the Sakura Empire's \\\"Nebuta Festival.\\\" It seems like you had a wild time!"
 	},
 	ins_reply_120_2_1 = {
 		value = "The jostling crowd and the marvelous flashing display made me flush with excitement!"
@@ -10151,7 +10151,7 @@ pg.base.activity_ins_language = {
 		value = "Yes, let's. I'll go invite some other girls too."
 	},
 	ins_op_120_1_1 = {
-		value = "What's the wishing slip say? \"Sound Health\"?"
+		value = "What's the wishing slip say? \\\"Sound Health\\\"?"
 	},
 	op_reply_120_1_1 = {
 		value = "Yep. I offered a prayer for you, for my compatriots, and for all that stand near and dear to me."
@@ -10217,7 +10217,7 @@ pg.base.activity_ins_language = {
 		value = "Is that the competition where you're supposed to eat as much as you can in the alloted time?"
 	},
 	ins_discuss_122_2 = {
-		value = "Oh, if you cover up your bowl, you're saying \"I give up!\" so you can stop whenever you'd like."
+		value = "Oh, if you cover up your bowl, you're saying \\\"I give up!\\\" so you can stop whenever you'd like."
 	},
 	ins_reply_122_2_1 = {
 		value = "All this time, that was an option?!"
@@ -10286,13 +10286,13 @@ pg.base.activity_ins_language = {
 		value = "Looking back at it, it's a bit embarrassing, but thanks for taking the picture, Cleveland!"
 	},
 	ins_discuss_124_2 = {
-		value = "Those \"namahage\" might look scary, but they're servants of the gods who punish bad children and bring happiness to families... Or so the legends say."
+		value = "Those \\\"namahage\\\" might look scary, but they're servants of the gods who punish bad children and bring happiness to families... Or so the legends say."
 	},
 	ins_reply_124_2_1 = {
 		value = "Is that so?! I had always thought they were some sort of movie villain..."
 	},
 	ins_reply_124_2_2 = {
-		value = "It's perfectly fine~ If anything, thanks for protecting Fumizuki. She's been talking about \"her hero, Reno\" ever since~"
+		value = "It's perfectly fine~ If anything, thanks for protecting Fumizuki. She's been talking about \\\"her hero, Reno\\\" ever since~"
 	},
 	ins_op_124_1_1 = {
 		value = "Reno, to the rescuuueee!"
@@ -10397,7 +10397,7 @@ pg.base.activity_ins_language = {
 		value = "Summer kiritanpo. Ah, what a treat."
 	},
 	ins_discuss_128_1 = {
-		value = "Hah, look at the doggie in the back. I can imagine the \"GIMME MEAT!\" so vividly."
+		value = "Hah, look at the doggie in the back. I can imagine the \\\"GIMME MEAT!\\\" so vividly."
 	},
 	ins_reply_128_1_1 = {
 		value = "Everyone loves meat, but don't forget to eat your vegetables."
@@ -10622,7 +10622,7 @@ pg.base.activity_ins_language = {
 		value = "Not at all...! As long as I think about you and the others, I feel like I can do anything!"
 	},
 	ins_134 = {
-		value = "So, I signed up because I heard there would be an \"Idol Basketball Showdown,\" but I can't break any ankles in this outfit."
+		value = "So, I signed up because I heard there would be an \\\"Idol Basketball Showdown,\\\" but I can't break any ankles in this outfit."
 	},
 	ins_discuss_134_1 = {
 		value = "You're not supposed to play hard. Just play cute."
@@ -10781,7 +10781,7 @@ pg.base.activity_ins_language = {
 		value = "It wouldn't be a surprise if I told you. But don't worry, you're not missing out."
 	},
 	ins_op_137_1_2 = {
-		value = "I swear your \"surprises\" are more anxiety-inducing than enemy attacks."
+		value = "I swear your \\\"surprises\\\" are more anxiety-inducing than enemy attacks."
 	},
 	op_reply_137_1_2 = {
 		value = "Eh? Do you think I'm that sus or something? I never hurt anyone~"
@@ -10832,7 +10832,7 @@ pg.base.activity_ins_language = {
 		value = "You took a perfectly good Meowfficer, and look, it has anxiety!"
 	},
 	ins_reply_139_1_1 = {
-		value = "Eh, really? All I said was, \"I'll help you return to the wild.\""
+		value = "Eh, really? All I said was, \\\"I'll help you return to the wild.\\\""
 	},
 	ins_reply_139_1_2 = {
 		value = "Return to the wild? You know, about the meowfficers..."
@@ -10874,13 +10874,13 @@ pg.base.activity_ins_language = {
 		value = "In that case, I'm coming to see you right now, Commander~♡"
 	},
 	ins_140 = {
-		value = "I'm not exactly your image of \"a cute girl shining on stage,\" now am I?"
+		value = "I'm not exactly your image of \\\"a cute girl shining on stage,\\\" now am I?"
 	},
 	ins_discuss_140_1 = {
 		value = "Of course you are, Baltimore! Well, I do know where you're coming from though, haha..."
 	},
 	ins_reply_140_1_1 = {
-		value = "Cleveland, you were always the model of \"cool.\" Are you also into this cutesy stuff?"
+		value = "Cleveland, you were always the model of \\\"cool.\\\" Are you also into this cutesy stuff?"
 	},
 	ins_reply_140_1_2 = {
 		value = "They're equally important! But, what's most important is that we all work hard, together."
@@ -11426,7 +11426,7 @@ pg.base.activity_ins_language = {
 		value = "There's more than one thing only meant for adults in this image..."
 	},
 	ins_reply_154_1_2 = {
-		value = "How long would it take for us to learn this \"poker\" game?"
+		value = "How long would it take for us to learn this \\\"poker\\\" game?"
 	},
 	ins_reply_154_1_3 = {
 		value = "THAT type of poker requires a certain type of... adult mindset."
@@ -11456,7 +11456,7 @@ pg.base.activity_ins_language = {
 		value = "Eyes on the prize, Commander. Whatever that might be~"
 	},
 	ins_155 = {
-		value = "Humans make such curious things. Be it this \"cell-fee\" gadget or that airborne metal bird."
+		value = "Humans make such curious things. Be it this \\\"cell-fee\\\" gadget or that airborne metal bird."
 	},
 	ins_discuss_155_1 = {
 		value = "Mikasa says the same sorta stuff sometimes!"
@@ -11480,10 +11480,10 @@ pg.base.activity_ins_language = {
 		value = "I do so wish to try your foreign spirits. Let us decide on a date in person."
 	},
 	ins_op_155_1_1 = {
-		value = "You mean \"selfie\"? A cell-fee is a bail."
+		value = "You mean \\\"selfie\\\"? A cell-fee is a bail."
 	},
 	op_reply_155_1_1 = {
-		value = "That is how you spell it? Well, I would say I've taken quite the picturesque \"selfie.\""
+		value = "That is how you spell it? Well, I would say I've taken quite the picturesque \\\"selfie.\\\""
 	},
 	ins_op_155_1_2 = {
 		value = "Man. I wish I could fly through the air."
@@ -11504,13 +11504,13 @@ pg.base.activity_ins_language = {
 		value = "Hehe~ I would share mine if I could. At least that's all behind you now!"
 	},
 	ins_discuss_156_2 = {
-		value = "Is that supposed to be a big deal? I've gotten \"exceptional luck\" for as long as I can remember."
+		value = "Is that supposed to be a big deal? I've gotten \\\"exceptional luck\\\" for as long as I can remember."
 	},
 	ins_reply_156_2_1 = {
 		value = "Gee, I wonder if that's because you just have stupidly good luck"
 	},
 	ins_reply_156_2_2 = {
-		value = "You guys get good fortunes? My average one reads something like \"disastrous misfortune\"..."
+		value = "You guys get good fortunes? My average one reads something like \\\"disastrous misfortune\\\"..."
 	},
 	ins_reply_156_2_3 = {
 		value = "Oh dear... Don't worry! Luck is relative, so every instance of bad luck will be offset eventually!"
@@ -11600,7 +11600,7 @@ pg.base.activity_ins_language = {
 		value = "Literally setting up the christmas tree with the girls, pretty good if I do say so myself"
 	},
 	ins_discuss_159_1 = {
-		value = "Wow! Nothing says \"Christmas\" like a huge Christmas tree! Nice job, everyone!"
+		value = "Wow! Nothing says \\\"Christmas\\\" like a huge Christmas tree! Nice job, everyone!"
 	},
 	ins_reply_159_1_1 = {
 		value = "Sorry, what? I'm planting the star while you're taking a selfie!"
@@ -11678,7 +11678,7 @@ pg.base.activity_ins_language = {
 		value = "WTF! I told you not to upload this! UGH!!"
 	},
 	ins_reply_161_1_1 = {
-		value = "Aww, but you were so into it! \"Ho-ho-ho! You'd best not be on Hammann's perverted idiot list, or you're getting a scolding for Christmas!\""
+		value = "Aww, but you were so into it! \\\"Ho-ho-ho! You'd best not be on Hammann's perverted idiot list, or you're getting a scolding for Christmas!\\\""
 	},
 	ins_reply_161_1_2 = {
 		value = "Enough already! Delete this or Santa really will put you on his naughty list!"
@@ -11855,7 +11855,7 @@ pg.base.activity_ins_language = {
 		value = "All I did was offer a morsel of my experience. It is the Royal Maids who deserve all the praise."
 	},
 	ins_discuss_166_2 = {
-		value = "And might I ask what \"osechi\" is?"
+		value = "And might I ask what \\\"osechi\\\" is?"
 	},
 	ins_reply_166_2_1 = {
 		value = "A beautifully-assembled collection of traditional Sakura Empire foods eaten around New Year's."
@@ -11978,7 +11978,7 @@ pg.base.activity_ins_language = {
 		value = "What's so special about drawing water for the first time of the year? "
 	},
 	ins_reply_170_1_1 = {
-		value = "\"Wakamizu\" it's called. The first scoop of water of the year is meant to be holy, according to folklore. "
+		value = "\\\"Wakamizu\\\" it's called. The first scoop of water of the year is meant to be holy, according to folklore. "
 	},
 	ins_reply_170_1_2 = {
 		value = "Someone's cultured. Unlike Hipper, who spent New Year's Day sleeping in. "
@@ -11993,7 +11993,7 @@ pg.base.activity_ins_language = {
 		value = "Couldn't agree more. Watching the sun rise, a cup of Pharisäer in hand... That's the dream. "
 	},
 	ins_reply_170_2_2 = {
-		value = "I can do without the \"waking up early to catch the sunrise\" part, personally. "
+		value = "I can do without the \\\"waking up early to catch the sunrise\\\" part, personally. "
 	},
 	ins_reply_170_2_3 = {
 		value = "See ↑THIS↑, Eugen? And when *I* do it, it's wrong?! "
@@ -12068,7 +12068,7 @@ pg.base.activity_ins_language = {
 		value = "So... you're a sheeple, then? You wrote down a wish too."
 	},
 	ins_reply_172_2_2 = {
-		value = "Indeed. I believe it went: \"I wish to never have to do homework again.\""
+		value = "Indeed. I believe it went: \\\"I wish to never have to do homework again.\\\""
 	},
 	ins_reply_172_2_3 = {
 		value = "The both of you, that is so rude! Peeping toms! Spies!"
@@ -12077,10 +12077,10 @@ pg.base.activity_ins_language = {
 		value = "I feel you, Lebe. It's not easy."
 	},
 	op_reply_172_1_1 = {
-		value = "It's tough, I tell you... Heard it's called \"decision fatigue\" when you get tired of trying to decide on one of many things"
+		value = "It's tough, I tell you... Heard it's called \\\"decision fatigue\\\" when you get tired of trying to decide on one of many things"
 	},
 	ins_173 = {
-		value = "Bought this thing called an \"omamori\" while on a shrine visit."
+		value = "Bought this thing called an \\\"omamori\\\" while on a shrine visit."
 	},
 	ins_discuss_173_1 = {
 		value = "You're gonna have to explain what that means."
@@ -12152,7 +12152,7 @@ pg.base.activity_ins_language = {
 		value = "I got this close to passing out... Way, way too many people..."
 	},
 	ins_175 = {
-		value = "Mmm! I don't know what \"shiruko\" or \"zouni\" actually are, but boy do they smell delish!"
+		value = "Mmm! I don't know what \\\"shiruko\\\" or \\\"zouni\\\" actually are, but boy do they smell delish!"
 	},
 	ins_discuss_175_1 = {
 		value = "I can tell you one thing they have in common: they both have mochi in them!"
@@ -12290,7 +12290,7 @@ pg.base.activity_ins_language = {
 		value = "The Sakura Empire's got sweet drinks for New Year's. Bottoms up."
 	},
 	ins_discuss_179_1 = {
-		value = "Do you mean \"sweet\" literally? Are you having amazake, by any chance?"
+		value = "Do you mean \\\"sweet\\\" literally? Are you having amazake, by any chance?"
 	},
 	ins_reply_179_1_1 = {
 		value = "sounds like it! sure it's okay for her to drink that though?"
@@ -12437,7 +12437,7 @@ pg.base.activity_ins_language = {
 		value = "What's it for? Some Sakura Empire tradition? If so, where do I sign up? "
 	},
 	ins_reply_183_1_1 = {
-		value = "As Shouhou explained to me, it is part of their custom called \"kagamibiraki.\" It is for smashing mochi. "
+		value = "As Shouhou explained to me, it is part of their custom called \\\"kagamibiraki.\\\" It is for smashing mochi. "
 	},
 	ins_reply_183_1_2 = {
 		value = "Why wouldn't a knife just cut it? No pun intended... "
@@ -12500,7 +12500,7 @@ pg.base.activity_ins_language = {
 		value = "As long as it stays under control, it's all well and good..."
 	},
 	ins_op_184_1_2 = {
-		value = "\"Sagichou.\" It's got a nice ring to it."
+		value = "\\\"Sagichou.\\\" It's got a nice ring to it."
 	},
 	op_reply_184_1_2 = {
 		value = "There are many theories as to the word's origin. Stop by and I'll tell you some of them, Commander!"
@@ -12590,10 +12590,10 @@ pg.base.activity_ins_language = {
 		value = "Nice. I made a snow кролик."
 	},
 	ins_reply_187_3_1 = {
-		value = "Wh-what does milk \"do\" to you? I just have a bottle or two after a bath..."
+		value = "Wh-what does milk \\\"do\\\" to you? I just have a bottle or two after a bath..."
 	},
 	ins_op_187_1_1 = {
-		value = "A collar is, let's say, a \"novel\" item to put on a snowman..."
+		value = "A collar is, let's say, a \\\"novel\\\" item to put on a snowman..."
 	},
 	op_reply_187_1_1 = {
 		value = "I've got normal-sized ones too! Interested in trying one out, Commander?"
@@ -12986,7 +12986,7 @@ pg.base.activity_ins_language = {
 		value = "Is THIS what milk does to you?! This is simply ridiculous! How long have you been drinking it for?!"
 	},
 	ins_reply_199_2_1 = {
-		value = "Wh-what does milk \"do\" to you? I just have a bottle or two after a bath..."
+		value = "Wh-what does milk \\\"do\\\" to you? I just have a bottle or two after a bath..."
 	},
 	ins_discuss_199_3 = {
 		value = "I smell money to be made, nya! @Shiranui Place an order for 50 crates of milk, nya!"
@@ -13355,10 +13355,10 @@ pg.base.activity_ins_language = {
 		value = "A Sardegnian dignitary must always act with splendor, no matter the task at hand."
 	},
 	ins_discuss_210_1 = {
-		value = "Uncorking a bottle with a rapier isn't \"splendor,\" that's just showing off! Ngl though I wanna learn how to do it!"
+		value = "Uncorking a bottle with a rapier isn't \\\"splendor,\\\" that's just showing off! Ngl though I wanna learn how to do it!"
 	},
 	ins_reply_210_1_1 = {
-		value = "When you've grown, I will teach you. A rapier is too much for a \"fun-sized\" girl to handle."
+		value = "When you've grown, I will teach you. A rapier is too much for a \\\"fun-sized\\\" girl to handle."
 	},
 	ins_reply_210_1_2 = {
 		value = "Aww come on! How can I be old enough to serve in the navy but a rapier's outta my league?!"
@@ -13670,7 +13670,7 @@ pg.base.activity_ins_language = {
 		value = "A bit TOO exciting, probably..."
 	},
 	ins_reply_219_2_2 = {
-		value = "Ain't no such thing as\"too exciting\"! Try it, you won't regret it!"
+		value = "Ain't no such thing as\\\"too exciting\\\"! Try it, you won't regret it!"
 	},
 	ins_discuss_219_3 = {
 		value = "Wild roller coasters are so on-brand for SF."
@@ -13889,7 +13889,7 @@ pg.base.activity_ins_language = {
 		value = "I think I've solved the mystery of things that go bump in the night... It's just Champagne walking into furniture."
 	},
 	ins_reply_225_2_1 = {
-		value = "I wouldn't be so quick to dismiss \"night bumps\" as mere fiction. I know many spirits who'd haunt you for it."
+		value = "I wouldn't be so quick to dismiss \\\"night bumps\\\" as mere fiction. I know many spirits who'd haunt you for it."
 	},
 	ins_reply_225_2_2 = {
 		value = "And besides, you can't sell horror fiction if there's a rational explanation for every spooky thing, nya!"
@@ -14099,7 +14099,7 @@ pg.base.activity_ins_language = {
 		value = "Oh yeah, true. Everything's better with friends, I guess!"
 	},
 	ins_discuss_231_3 = {
-		value = "Boy that fresh woodland air tho. Y'know when books say a smell is \"intoxicating\"? This is what they mean."
+		value = "Boy that fresh woodland air tho. Y'know when books say a smell is \\\"intoxicating\\\"? This is what they mean."
 	},
 	ins_reply_231_3_1 = {
 		value = "It was something else for sure. Wonder how the air on a snowy mountain would smell..."
@@ -14132,7 +14132,7 @@ pg.base.activity_ins_language = {
 		value = "Sharing is caring, and what could be sweeter than that?"
 	},
 	op_reply_232_1_1 = {
-		value = "Well said, \"sweetie\"! Hehe~"
+		value = "Well said, \\\"sweetie\\\"! Hehe~"
 	},
 	ins_233 = {
 		value = "Dear, oh dear. Now I know how tea feels..."
@@ -14141,7 +14141,7 @@ pg.base.activity_ins_language = {
 		value = "Minus the unpleasant feeling of being drunk... As you do with tea."
 	},
 	ins_reply_233_1_1 = {
-		value = "Incidentally, our cup broke shortly after we got on. They said my \"gravity\" caused it to tip..."
+		value = "Incidentally, our cup broke shortly after we got on. They said my \\\"gravity\\\" caused it to tip..."
 	},
 	ins_reply_233_1_2 = {
 		value = "I've had that happen to me as well. They really ought to build these rides of stronger stuff."
@@ -14180,7 +14180,7 @@ pg.base.activity_ins_language = {
 		value = "Infantilizing? Forgive me. I simply cherish the commander... and my Iron Blood comrades... like you were my own children."
 	},
 	ins_reply_234_1_2 = {
-		value = "Well, \"motherly comfort\" is fittingly the words I'd use to describe how sitting next to Friedrich feels..."
+		value = "Well, \\\"motherly comfort\\\" is fittingly the words I'd use to describe how sitting next to Friedrich feels..."
 	},
 	ins_discuss_234_2 = {
 		value = "After knowing solitude for so long, I welcome this chance at solidarity..."
@@ -14450,7 +14450,7 @@ pg.base.activity_ins_language = {
 		value = "Absolutely. It's just, somehow I get the feeling Kasumi and I have met somewhere before..."
 	},
 	ins_243 = {
-		value = "Out on a morning jog! \"Gotta go fast,\" as they say!"
+		value = "Out on a morning jog! \\\"Gotta go fast,\\\" as they say!"
 	},
 	ins_discuss_243_1 = {
 		value = "This early? Although, the early bird gets the worm, I suppose."
@@ -14918,7 +14918,7 @@ pg.base.activity_ins_language = {
 		value = "Glad you liked it! Stop by again if you're ever in the mood for more!"
 	},
 	ins_260 = {
-		value = "Brainstorming titles for my video. \"Streamer Girl Ends Up in AL Universe\" maybe."
+		value = "Brainstorming titles for my video. \\\"Streamer Girl Ends Up in AL Universe\\\" maybe."
 	},
 	ins_discuss_260_1 = {
 		value = "Getting used to life here, from the sound of it."
@@ -14996,7 +14996,7 @@ pg.base.activity_ins_language = {
 		value = "Hell yeah! I wanna get a feel for all of 'em!"
 	},
 	ins_263 = {
-		value = "These \"riggings\" you have are very intriguing..."
+		value = "These \\\"riggings\\\" you have are very intriguing..."
 	},
 	ins_discuss_263_1 = {
 		value = "Are you curious about Iron Blood riggings?"
@@ -15149,7 +15149,7 @@ pg.base.activity_ins_language = {
 		value = "I'm having the time of my life with this big button!"
 	},
 	ins_discuss_268_1 = {
-		value = "Despite the huge \"don't push me\" warning on it?"
+		value = "Despite the huge \\\"don't push me\\\" warning on it?"
 	},
 	ins_reply_268_1_1 = {
 		value = "The warning only makes me wanna push it more!"
@@ -15329,13 +15329,13 @@ pg.base.activity_ins_language = {
 		value = "You're welcome, Commander! Remember to take regular breaks and stay hydrated."
 	},
 	ins_274 = {
-		value = "Hehe... I pull off the \"master strategist\" look quite well, don't I?"
+		value = "Hehe... I pull off the \\\"master strategist\\\" look quite well, don't I?"
 	},
 	ins_discuss_274_1 = {
-		value = "\"A heroic stature, a wave of feathered fan. With a word and a smile, comes a flawless plan.\""
+		value = "\\\"A heroic stature, a wave of feathered fan. With a word and a smile, comes a flawless plan.\\\""
 	},
 	ins_reply_274_1_1 = {
-		value = "If Chen Hai is the tactician, then I'll be the fearless general! \"A thousand challenges, a thousand victories!\""
+		value = "If Chen Hai is the tactician, then I'll be the fearless general! \\\"A thousand challenges, a thousand victories!\\\""
 	},
 	ins_discuss_274_2 = {
 		value = "An unpredictable military tactician with no shortage of stratagems... Indeed, that does fit Chen Hai's personality well."
@@ -15509,7 +15509,7 @@ pg.base.activity_ins_language = {
 		value = "I heard you're supposed to boil all of these together into a really bitter decoction."
 	},
 	ins_reply_280_1_1 = {
-		value = "Indeed. As they say in the Dragon Empery, \"a good medicine tastes bitter.\""
+		value = "Indeed. As they say in the Dragon Empery, \\\"a good medicine tastes bitter.\\\""
 	},
 	ins_discuss_280_2 = {
 		value = "Wh-what if I don't like bitter things..."
@@ -15617,7 +15617,7 @@ pg.base.activity_ins_language = {
 		value = "No way! You're already like a bat out of hell. And I'm not giving that bat a spear."
 	},
 	ins_discuss_283_2 = {
-		value = "\"A flourish of a white spear below, a flurry of pink petals above.\" A truly poetic scenery."
+		value = "\\\"A flourish of a white spear below, a flurry of pink petals above.\\\" A truly poetic scenery."
 	},
 	ins_reply_283_2_1 = {
 		value = "Hehe... It's still kinda embarrassing when you bust out the poetry while talking about me..."
@@ -15980,7 +15980,7 @@ pg.base.activity_ins_language = {
 		value = "Are you playing against yourself? You do you, but you'd learn more by playing another opponent."
 	},
 	ins_reply_295_3_1 = {
-		value = "\"That is exactly what Emden's doing.\""
+		value = "\\\"That is exactly what Emden's doing.\\\""
 	},
 	ins_op_295_1_1 = {
 		value = "We should clearly do a port chess tournament."
@@ -16610,7 +16610,7 @@ pg.base.activity_ins_language = {
 		value = "Unless I'm mistaken, aren't you meant to play Red Riding Hood, not the Sleeping Beauty?"
 	},
 	ins_reply_316_1_1 = {
-		value = "Le Malin said this is the best way to \"get in touch with my vulnerable side,\" so..."
+		value = "Le Malin said this is the best way to \\\"get in touch with my vulnerable side,\\\" so..."
 	},
 	ins_discuss_316_2 = {
 		value = "Looking good! God I wish my rehearsals were as laid-back as yours... Anyway! Keep it up! Your role is important!"
@@ -16694,7 +16694,7 @@ pg.base.activity_ins_language = {
 		value = "A determined wolf does not rest for one minute until it has achieved its goal."
 	},
 	ins_319 = {
-		value = "\"What's in a name? That which we call a rose, by any other name would smell as sweet.\""
+		value = "\\\"What's in a name? That which we call a rose, by any other name would smell as sweet.\\\""
 	},
 	ins_discuss_319_1 = {
 		value = "Reciting your lines, I presume?"
@@ -17111,7 +17111,7 @@ pg.base.activity_ins_language = {
 		value = "A relaxing haven away from the summer's lingering rays, a perfect opportunity to clear one's mind."
 	},
 	ins_discuss_332_1 = {
-		value = "\"A single moment of leisure, snatched from an eternity of labor.\" A literal breath of fresh air, so to speak~"
+		value = "\\\"A single moment of leisure, snatched from an eternity of labor.\\\" A literal breath of fresh air, so to speak~"
 	},
 	ins_reply_332_1_1 = {
 		value = "It is always good to snatch some free time for yourself, but there's something else I'd like to get my hands on. Heehee~"
@@ -17246,7 +17246,7 @@ pg.base.activity_ins_language = {
 		value = "Feast your eyes upon my splendid new dress!"
 	},
 	ins_discuss_336_1 = {
-		value = "\"Splendid\" really is the word! You're literally glimmering! *o*"
+		value = "\\\"Splendid\\\" really is the word! You're literally glimmering! *o*"
 	},
 	ins_reply_336_1_1 = {
 		value = "Why, thank you! Filters and postprocessing are like magic sometimes~"
@@ -17285,7 +17285,7 @@ pg.base.activity_ins_language = {
 		value = "Hey how come they're so calm around you but they run away when I get close???"
 	},
 	ins_reply_337_2_1 = {
-		value = "Maybe because you run at them, shouting \"hey white duckies, let's play\"? I'd be startled too if I were a swan..."
+		value = "Maybe because you run at them, shouting \\\"hey white duckies, let's play\\\"? I'd be startled too if I were a swan..."
 	},
 	ins_reply_337_2_2 = {
 		value = "Be calm with them, and they'll be calm with you, I think..."
@@ -17621,7 +17621,7 @@ pg.base.activity_ins_language = {
 		value = "Choices, choices... Which should I wear today?"
 	},
 	ins_discuss_349_1 = {
-		value = "Why not let the Commander decide? \"Hey, which makes me look the cutest~?\""
+		value = "Why not let the Commander decide? \\\"Hey, which makes me look the cutest~?\\\""
 	},
 	ins_reply_349_1_1 = {
 		value = "What?! No way in hell! I'd die from embarrassment if I asked that outright!"
@@ -17651,7 +17651,7 @@ pg.base.activity_ins_language = {
 		value = "Flattery won't get you far with me, okay?! I'm so NOT over the moon!"
 	},
 	ins_350 = {
-		value = "Reading \"Adventures in the Forest of Fables.\" It's harder to follow than I expected..."
+		value = "Reading \\\"Adventures in the Forest of Fables.\\\" It's harder to follow than I expected..."
 	},
 	ins_discuss_350_1 = {
 		value = "Isn't that a children's book? How is it hard to follow?"
@@ -17672,13 +17672,13 @@ pg.base.activity_ins_language = {
 		value = "So wait, doesn't that make this nonfiction?"
 	},
 	ins_reply_350_2_4 = {
-		value = "I believe the phrase \"based on a true story\" is applicable here."
+		value = "I believe the phrase \\\"based on a true story\\\" is applicable here."
 	},
 	ins_op_350_1_1 = {
 		value = "They made a book of it? Where are my royalties?"
 	},
 	op_reply_350_1_1 = {
-		value = "Were you the \"human lost in the forest\"? That would explain a few things..."
+		value = "Were you the \\\"human lost in the forest\\\"? That would explain a few things..."
 	},
 	ins_351 = {
 		value = "This will be on the exam, so make sure you review it closely!"
@@ -17870,7 +17870,7 @@ pg.base.activity_ins_language = {
 		value = "I'd need the Champion's permission to divulge such things."
 	},
 	ins_reply_357_2_3 = {
-		value = "I'm clearly missing something here. Who the hell is \"our champion\"?"
+		value = "I'm clearly missing something here. Who the hell is \\\"our champion\\\"?"
 	},
 	ins_op_357_1_1 = {
 		value = "Who comes up with all these tales, anyway?"
@@ -17888,7 +17888,7 @@ pg.base.activity_ins_language = {
 		value = "Many spots around the office were long overdue a thorough tidying, so I took it upon myself."
 	},
 	ins_reply_358_1_2 = {
-		value = "What you MEAN by \"tidying\" and \"cleaning\"?! Please tell me you didn't do anything drastic!"
+		value = "What you MEAN by \\\"tidying\\\" and \\\"cleaning\\\"?! Please tell me you didn't do anything drastic!"
 	},
 	ins_reply_358_1_3 = {
 		value = "What is there to clarify? I used a set of tools to take care of some filth."
@@ -17984,13 +17984,13 @@ pg.base.activity_ins_language = {
 		value = "Are you the Iron Blood Scissorhands I've heard about, Rupprecht? Just curious."
 	},
 	ins_reply_361_2_1 = {
-		value = "Who? I don't know anything about a \"scissorhands\"!"
+		value = "Who? I don't know anything about a \\\"scissorhands\\\"!"
 	},
 	ins_discuss_361_3 = {
 		value = "Feels good, doesn't it? Cutting down everything that stands in your path. It's even more fun when you intentionally leave survivors."
 	},
 	ins_reply_361_3_1 = {
-		value = "Yeah! Wait, what do you mean \"survivors\"?"
+		value = "Yeah! Wait, what do you mean \\\"survivors\\\"?"
 	},
 	ins_op_361_1_1 = {
 		value = "Why'd you go grass-cutting out of the blue?"
@@ -18065,7 +18065,7 @@ pg.base.activity_ins_language = {
 		value = "What curfew...?"
 	},
 	ins_reply_364_1_1 = {
-		value = "Umm, it's just something I hold myself to. \"Return to your nest before the ordained time,\" or something like that?"
+		value = "Umm, it's just something I hold myself to. \\\"Return to your nest before the ordained time,\\\" or something like that?"
 	},
 	ins_reply_364_1_2 = {
 		value = "...Speaking of bird analogies, you look like a chicken that's been dropped in a pot and stewed for a few hours."
@@ -18404,7 +18404,7 @@ pg.base.activity_ins_language = {
 		value = "sure! what do we call ourselves?"
 	},
 	ins_reply_375_1_2 = {
-		value = "How about \"Cat & Rabbit\"? Cause you bring the bunny energy and I bring the cat energy ^w^"
+		value = "How about \\\"Cat & Rabbit\\\"? Cause you bring the bunny energy and I bring the cat energy ^w^"
 	},
 	ins_reply_375_1_3 = {
 		value = "it's got a nice ring to it! we're SO doing a duet next time I'm on stage"
@@ -18632,7 +18632,7 @@ pg.base.activity_ins_language = {
 		value = "yeah, yeah, real clever..."
 	},
 	ins_discuss_390_2 = {
-		value = "I could use your help with \"balancing\" the amount of tasks on my plate right now..."
+		value = "I could use your help with \\\"balancing\\\" the amount of tasks on my plate right now..."
 	},
 	ins_reply_390_2_1 = {
 		value = "Oh, but I work behind the scenes. On-stage work is your field of expertise."
@@ -18665,7 +18665,7 @@ pg.base.activity_ins_language = {
 		value = "Allow me to help by absolving you of all your worries."
 	},
 	ins_reply_391_2_1 = {
-		value = "While I'm curious about what you mean by \"absolve,\" I think I'll gracefully pass on the offer..."
+		value = "While I'm curious about what you mean by \\\"absolve,\\\" I think I'll gracefully pass on the offer..."
 	},
 	ins_discuss_391_3 = {
 		value = "Have you tried the Sacrament of Prayer?"
@@ -18944,7 +18944,7 @@ pg.base.activity_ins_language = {
 		value = "But of course! Expect no less of a dragon such as I!"
 	},
 	ins_reply_399_1_2 = {
-		value = "Gascogne requests knowledge pertaining to \"playing at the beach.\" Knowledge is required to better carry out Master's orders during next beach visit."
+		value = "Gascogne requests knowledge pertaining to \\\"playing at the beach.\\\" Knowledge is required to better carry out Master's orders during next beach visit."
 	},
 	ins_reply_399_1_3 = {
 		value = "Come again? Is playing in the sand truly a subject one needs to study?"
@@ -19457,7 +19457,7 @@ pg.base.activity_ins_language = {
 		value = "What a good girl Argo is. Just like my Self."
 	},
 	ins_reply_413_3_1 = {
-		value = "Candy for everyone! For Argo, for you, and for your... \"self\" I guess?"
+		value = "Candy for everyone! For Argo, for you, and for your... \\\"self\\\" I guess?"
 	},
 	ins_reply_413_3_2 = {
 		value = "Argo must be working hard to look after her..."
@@ -19694,7 +19694,7 @@ pg.base.activity_ins_language = {
 		value = "I hope these little guys will all grow up well."
 	},
 	op_reply_419_1_2 = {
-		value = "I... assume based on your reply that there have been \"incidents\" in the past."
+		value = "I... assume based on your reply that there have been \\\"incidents\\\" in the past."
 	},
 	ins_420 = {
 		value = "Goodness, I'm sorry... I knew I shouldn't have set foot outside my room."
@@ -20387,7 +20387,7 @@ pg.base.activity_ins_language = {
 		value = "Oh, not exactly... Let's discuss it later in person."
 	},
 	ins_op_439_1_1 = {
-		value = "\"Something good\" like what?"
+		value = "\\\"Something good\\\" like what?"
 	},
 	op_reply_439_1_1 = {
 		value = "You won't know until it happens."
@@ -20729,7 +20729,7 @@ pg.base.activity_ins_language = {
 		value = "Glad to hear you like it."
 	},
 	op_reply_448_1_1 = {
-		value = "More than just \"like,\" I love it. Thank you so much!"
+		value = "More than just \\\"like,\\\" I love it. Thank you so much!"
 	},
 	ins_op_448_1_2 = {
 		value = "Yes! Gloves are a must!"
@@ -21098,10 +21098,10 @@ pg.base.activity_ins_language = {
 		value = "I've seen that mag before but I don't remember when..."
 	},
 	ins_reply_457_2_1 = {
-		value = "p sure thats \"the 199 techniques of a maid\" cuz i've got it too"
+		value = "p sure thats \\\"the 199 techniques of a maid\\\" cuz i've got it too"
 	},
 	ins_reply_457_2_2 = {
-		value = "I see, I see! This is what they call \"yabai\"!"
+		value = "I see, I see! This is what they call \\\"yabai\\\"!"
 	},
 	ins_reply_457_2_3 = {
 		value = "Yabai really is the word."
@@ -21134,7 +21134,7 @@ pg.base.activity_ins_language = {
 		value = "Oh. I never knew you could prepare eel that way."
 	},
 	ins_reply_458_1_3 = {
-		value = "Yes, Royal cuisine is very \"innovative.\""
+		value = "Yes, Royal cuisine is very \\\"innovative.\\\""
 	},
 	ins_discuss_458_2 = {
 		value = "Ooh you must be pretty good at cooking! I've gotta start taking notes!"
@@ -21515,13 +21515,13 @@ pg.base.activity_ins_language = {
 		value = "A treasure trove of info about the Commander! Dangit I wish I'd thought of that first!"
 	},
 	ins_reply_467_2_1 = {
-		value = "Yes, I suppose it is a treasure trove, in that sense. \"This treasure is Emden's. No one else may have it.\""
+		value = "Yes, I suppose it is a treasure trove, in that sense. \\\"This treasure is Emden's. No one else may have it.\\\""
 	},
 	ins_op_467_1_1 = {
-		value = "How did you... learn about these \"observations\"?"
+		value = "How did you... learn about these \\\"observations\\\"?"
 	},
 	op_reply_467_1_1 = {
-		value = "That's a secret between us. \"If you're truly curious, plead and beg and Emden shall tell you.\""
+		value = "That's a secret between us. \\\"If you're truly curious, plead and beg and Emden shall tell you.\\\""
 	},
 	ins_op_467_1_2 = {
 		value = "I feel like I've been made into a zoo animal..."
@@ -21905,7 +21905,7 @@ pg.base.activity_ins_language = {
 		value = "I CAAAN'T! I NEED MY SWORD! I NEED IT!"
 	},
 	ins_discuss_478_2 = {
-		value = "Is this what is meant by, \"it isn't the blade that matters, but the hand that holds it\"? The path of bushido is a long one."
+		value = "Is this what is meant by, \\\"it isn't the blade that matters, but the hand that holds it\\\"? The path of bushido is a long one."
 	},
 	ins_reply_478_2_1 = {
 		value = "The path of the sword never ends. The strong must ever look forward."
@@ -22259,7 +22259,7 @@ pg.base.activity_ins_language = {
 		value = "I'm getting deja vu... At any rate, my sword does not shimmer. I'm not Marseillaise."
 	},
 	ins_op_485_1_2 = {
-		value = "You look so cool. \"Ready to cut the baddies in half\" kind of cool."
+		value = "You look so cool. \\\"Ready to cut the baddies in half\\\" kind of cool."
 	},
 	op_reply_485_1_2 = {
 		value = "I still don't know how she took this picture of me... regardless, thank you, I suppose."
@@ -22268,7 +22268,7 @@ pg.base.activity_ins_language = {
 		value = "Fast, convenient, reliable. That's Fargo Shipping. V(o_o)V"
 	},
 	ins_discuss_486_1 = {
-		value = "Unable to determine the meaning of the word \"V(o_o)V\"."
+		value = "Unable to determine the meaning of the word \\\"V(o_o)V\\\"."
 	},
 	ins_reply_486_1_1 = {
 		value = "It's text made to look like a facial expression. Fargo is presumably trying to say that she's happy."
@@ -22439,7 +22439,7 @@ pg.base.activity_ins_language = {
 		value = "Take it easy Sheffy! Don't go blowing things up!"
 	},
 	ins_discuss_489_3 = {
-		value = "That's +1 to my \"never allowed inside the kitchen\" list."
+		value = "That's +1 to my \\\"never allowed inside the kitchen\\\" list."
 	},
 	ins_reply_489_3_1 = {
 		value = "What?"
@@ -22667,7 +22667,7 @@ pg.base.activity_ins_language = {
 		value = "Party, eh? Sounds good! I'll bring some low-carb snacks loaded with protein."
 	},
 	ins_reply_494_2_3 = {
-		value = "\"Loaded with protein\" better not mean \"literally made of protein powder\" like last time lmao."
+		value = "\\\"Loaded with protein\\\" better not mean \\\"literally made of protein powder\\\" like last time lmao."
 	},
 	ins_op_494_1_1 = {
 		value = "What if we merged them all into a single dessert?"
@@ -22844,7 +22844,7 @@ pg.base.activity_ins_language = {
 		value = "Yeah, I had fun cause this horse wasn't scared of me."
 	},
 	ins_discuss_498_3 = {
-		value = "Scans indicate that the merry-go-round is inanimate. The probability that you \"made friends\" is nonexistent."
+		value = "Scans indicate that the merry-go-round is inanimate. The probability that you \\\"made friends\\\" is nonexistent."
 	},
 	ins_reply_498_3_1 = {
 		value = "My analysis also failed to conclude any change whatsoever in its emotion index."
@@ -22871,7 +22871,7 @@ pg.base.activity_ins_language = {
 		value = "These wings are quite practical."
 	},
 	ins_discuss_499_1 = {
-		value = "You look like the spitting image of Murasaki no Choumu, AKA Lois \"Brilliant Kirial\" Lolita Purple."
+		value = "You look like the spitting image of Murasaki no Choumu, AKA Lois \\\"Brilliant Kirial\\\" Lolita Purple."
 	},
 	ins_reply_499_1_1 = {
 		value = "Who the heck is that?"
@@ -22982,7 +22982,7 @@ pg.base.activity_ins_language = {
 		value = "Milk makes you grow big, doesn't it? Hipper could use that, so I'll buy a bottle."
 	},
 	ins_reply_501_3_1 = {
-		value = "EXCUSE ME??? What do you MEAN I \"could use that\"???"
+		value = "EXCUSE ME??? What do you MEAN I \\\"could use that\\\"???"
 	},
 	ins_reply_501_3_2 = {
 		value = "Okay! I'll be right there!"
@@ -23195,7 +23195,7 @@ pg.base.activity_ins_language = {
 		value = "r u srsly chomping on TREES??? theres perfectly good meat out there smh"
 	},
 	ins_reply_506_1_1 = {
-		value = "I need to consume some fiber if I'm to \"maintain a well-balanced diet.\""
+		value = "I need to consume some fiber if I'm to \\\"maintain a well-balanced diet.\\\""
 	},
 	ins_reply_506_1_2 = {
 		value = "thats some advanced vocab who taught u that?"
@@ -23216,7 +23216,7 @@ pg.base.activity_ins_language = {
 		value = "I think you should stick to scanning and analysis modules..."
 	},
 	ins_reply_506_2_3 = {
-		value = "What's an \"analysis module\"? Can you consume it?"
+		value = "What's an \\\"analysis module\\\"? Can you consume it?"
 	},
 	ins_op_506_1_1 = {
 		value = "My office plants were eaten. Do you know who did this?"
@@ -23387,7 +23387,7 @@ pg.base.activity_ins_language = {
 		value = "aww thanks! if you ever do play it again you gotta invite me!"
 	},
 	ins_op_510_1_1 = {
-		value = "\"Grown with magic\" makes for a nice marketing slogan."
+		value = "\\\"Grown with magic\\\" makes for a nice marketing slogan."
 	},
 	op_reply_510_1_1 = {
 		value = "it's not JUST a slogan! you'll see for yourself next time i cook for you!"
@@ -23423,7 +23423,7 @@ pg.base.activity_ins_language = {
 		value = "Head Hunter: The Ace Investigator's Secret Dealings"
 	},
 	ins_reply_511_2_3 = {
-		value = "What \"secret dealings\"?"
+		value = "What \\\"secret dealings\\\"?"
 	},
 	ins_reply_511_2_4 = {
 		value = "Gotta subscribe to read the full story!"
@@ -23759,7 +23759,7 @@ pg.base.activity_ins_language = {
 		value = "I'm fine. This is hard work, but I'm used to it. I can do it alone. Thanks, though!"
 	},
 	ins_518 = {
-		value = "\"Fall into the Commander's arms and feel the warmth...\" Will this truly bring us closer?"
+		value = "\\\"Fall into the Commander's arms and feel the warmth...\\\" Will this truly bring us closer?"
 	},
 	ins_discuss_518_1 = {
 		value = "No, never!"
@@ -23786,7 +23786,7 @@ pg.base.activity_ins_language = {
 		value = "It belongs to Eugen. You'll have to ask her."
 	},
 	ins_reply_518_3_2 = {
-		value = "Sure, go ahead. I'll also recommend \"How to Steal the Commander's Heart on a Date\" to you."
+		value = "Sure, go ahead. I'll also recommend \\\"How to Steal the Commander's Heart on a Date\\\" to you."
 	},
 	ins_reply_518_3_3 = {
 		value = "Why, thank you!"
@@ -23798,7 +23798,7 @@ pg.base.activity_ins_language = {
 		value = "Sorry, that's confidential."
 	},
 	ins_op_518_1_1 = {
-		value = "\"Fall into my arms\"? Really?"
+		value = "\\\"Fall into my arms\\\"? Really?"
 	},
 	op_reply_518_1_1 = {
 		value = "Yes. That's word-for-word what the book says."
@@ -23846,16 +23846,16 @@ pg.base.activity_ins_language = {
 		value = "How generous, nya! There's now a 7-day trial available, nya!"
 	},
 	ins_discuss_519_3 = {
-		value = "You look just like this \\(0.<)v kaomoji emote thingy!"
+		value = "You look just like this \\\\(0.<)v kaomoji emote thingy!"
 	},
 	ins_reply_519_3_1 = {
-		value = "Wow you're right! Cute \\(0.<)v"
+		value = "Wow you're right! Cute \\\\(0.<)v"
 	},
 	ins_reply_519_3_2 = {
-		value = "\\(0.<)v!"
+		value = "\\\\(0.<)v!"
 	},
 	ins_reply_519_3_3 = {
-		value = "Don't mind if I do \\(0.<)v"
+		value = "Don't mind if I do \\\\(0.<)v"
 	},
 	ins_op_519_1_1 = {
 		value = "It's a perfect fit! You look really cute!"
@@ -23945,7 +23945,7 @@ pg.base.activity_ins_language = {
 		value = "Are they? But having holes around the knees seems really weird, or maybe that's just me..."
 	},
 	ins_reply_521_2_2 = {
-		value = "wait, \"these days\"? no lmao, that's way outta fashion"
+		value = "wait, \\\"these days\\\"? no lmao, that's way outta fashion"
 	},
 	ins_discuss_521_3 = {
 		value = "new for 3 years, worn for 3 more, and with some mending, they can last another 3!"

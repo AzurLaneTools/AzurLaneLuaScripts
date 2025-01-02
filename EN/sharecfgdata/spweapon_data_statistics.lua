@@ -26574,3 +26574,327 @@ _G.pg.base.spweapon_data_statistics[13770] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[13780] = {
+	attribute_1 = "cannon",
+	name = "Ambrosial Violet Whispers",
+	type = 2,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 5,
+	effect_id = 901010,
+	attribute_2 = "dodge",
+	next = 13781,
+	upgrade_id = 101,
+	value_2 = 1,
+	icon = "13780",
+	value_1 = 13,
+	level = 1,
+	descrip = "A custom-designed piece of gear made from an Augment Module core.",
+	uncraftable = 0,
+	unique = 50204,
+	important = 2,
+	prev = 0,
+	id = 13780,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1014070
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13781] = {
+	upgrade_id = 102,
+	prev = 13780,
+	next = 13782,
+	base = 13780,
+	id = 13781,
+	value_2 = 1,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[13782] = {
+	upgrade_id = 103,
+	prev = 13781,
+	next = 13783,
+	base = 13780,
+	id = 13782,
+	value_2 = 2,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[13783] = {
+	upgrade_id = 104,
+	prev = 13782,
+	next = 13784,
+	base = 13780,
+	id = 13783,
+	value_2 = 3,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[13784] = {
+	upgrade_id = 105,
+	prev = 13783,
+	next = 13785,
+	base = 13780,
+	id = 13784,
+	value_2 = 4,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[13785] = {
+	upgrade_id = 106,
+	prev = 13784,
+	next = 13786,
+	base = 13780,
+	id = 13785,
+	value_2 = 5,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[13786] = {
+	upgrade_id = 107,
+	prev = 13785,
+	next = 13787,
+	base = 13780,
+	id = 13786,
+	value_2 = 6,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[13787] = {
+	upgrade_id = 108,
+	prev = 13786,
+	next = 13788,
+	base = 13780,
+	id = 13787,
+	value_2 = 7,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[13788] = {
+	upgrade_id = 109,
+	prev = 13787,
+	next = 13789,
+	base = 13780,
+	id = 13788,
+	value_2 = 8,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[13789] = {
+	upgrade_id = 110,
+	prev = 13788,
+	next = 13790,
+	base = 13780,
+	id = 13789,
+	value_2 = 9,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[13790] = {
+	id = 13790,
+	upgrade_id = 111,
+	base = 13780,
+	next = 0,
+	prev = 13789,
+	value_2 = 10,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			14070,
+			1014070
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13800] = {
+	attribute_1 = "cannon",
+	name = "Plum-Red Silksteps",
+	type = 2,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 5,
+	effect_id = 901010,
+	attribute_2 = "dodge",
+	next = 13801,
+	upgrade_id = 101,
+	value_2 = 1,
+	icon = "13800",
+	value_1 = 13,
+	level = 1,
+	descrip = "A custom-designed piece of gear made from an Augment Module core.",
+	uncraftable = 0,
+	unique = 50205,
+	important = 2,
+	prev = 0,
+	id = 13800,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1014090
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13801] = {
+	upgrade_id = 102,
+	prev = 13800,
+	next = 13802,
+	base = 13800,
+	id = 13801,
+	value_2 = 1,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[13802] = {
+	upgrade_id = 103,
+	prev = 13801,
+	next = 13803,
+	base = 13800,
+	id = 13802,
+	value_2 = 2,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[13803] = {
+	upgrade_id = 104,
+	prev = 13802,
+	next = 13804,
+	base = 13800,
+	id = 13803,
+	value_2 = 3,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[13804] = {
+	upgrade_id = 105,
+	prev = 13803,
+	next = 13805,
+	base = 13800,
+	id = 13804,
+	value_2 = 4,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[13805] = {
+	upgrade_id = 106,
+	prev = 13804,
+	next = 13806,
+	base = 13800,
+	id = 13805,
+	value_2 = 5,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[13806] = {
+	upgrade_id = 107,
+	prev = 13805,
+	next = 13807,
+	base = 13800,
+	id = 13806,
+	value_2 = 6,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[13807] = {
+	upgrade_id = 108,
+	prev = 13806,
+	next = 13808,
+	base = 13800,
+	id = 13807,
+	value_2 = 7,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[13808] = {
+	upgrade_id = 109,
+	prev = 13807,
+	next = 13809,
+	base = 13800,
+	id = 13808,
+	value_2 = 8,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[13809] = {
+	upgrade_id = 110,
+	prev = 13808,
+	next = 13810,
+	base = 13800,
+	id = 13809,
+	value_2 = 9,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[13810] = {
+	id = 13810,
+	upgrade_id = 111,
+	base = 13800,
+	next = 0,
+	prev = 13809,
+	value_2 = 10,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			14090,
+			1014090
+		}
+	}
+}

@@ -188,7 +188,7 @@ slot0.SkillHrzPop = function(slot0, slot1, slot2, slot3, slot4)
 	slot9 = slot6:GetObject().transform
 	slot9.localScale = uv0.SKILL_FLOAT_SCALE
 
-	setText(findTF(slot9, "skill/skill_name/Text"), HXSet.hxLan(slot1))
+	setText(findTF(slot9, "skill/skill_name/Text"), SwitchSpecialChar(HXSet.hxLan(slot1)))
 
 	slot10 = findTF(slot9, "skill/icon_mask/icon")
 	slot11 = findTF(slot9, "skill/skill_name")

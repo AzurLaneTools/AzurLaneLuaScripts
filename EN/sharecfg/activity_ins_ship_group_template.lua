@@ -3789,7 +3789,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Lung Wu",
 		background = "",
 		sculpture = "longwu",
-		nationality = 0,
+		nationality = 5,
 		type = 1
 	},
 	[50106] = {
