@@ -53888,6 +53888,7 @@ pg.activity_template = {
 	},
 	[45045] = {
 		mark = 20241219,
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -53908,33 +53909,6 @@ pg.activity_template = {
 			80476,
 			80477,
 			80478
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "ShipTaskLotteryPage",
@@ -53985,6 +53959,7 @@ pg.activity_template = {
 	[45047] = {
 		mark = 20241219,
 		page_info = "",
+		time = "stop",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
@@ -53993,33 +53968,6 @@ pg.activity_template = {
 		id = 45047,
 		config_data = {
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			80101

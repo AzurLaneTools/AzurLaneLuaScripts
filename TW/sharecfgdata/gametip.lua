@@ -5261,7 +5261,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2024.9.12-2025.1.2</color>期間限時開放「基洛夫·META」的挑戰，在此期間指揮官可挑戰「基洛夫META」累積其同步值取得<color=#92fc63>「基洛夫META」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2025.1.2-2025.3.20</color>期間限時開放「羅德尼·META」的挑戰，在此期間指揮官可挑戰「羅德尼·META 」累積其同步值取得<color=#92fc63>「羅德尼·META 」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標資料」取得與解析
@@ -5282,7 +5282,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一個信標最多能允許累積30位指揮官進行挑戰
 
 5.戰鬥說明
-·挑戰信標基洛夫·META暫不可使用指揮喵與潛艇
+·挑戰信標羅德尼·META暫不可使用指揮喵與潛艇
 ·戰鬥結算時不會獲得經驗值，不會影響艦船心情值
 ·戰鬥中不可中途退出，如果出現網路波動導致斷線的情況：
 ①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害
@@ -5290,8 +5290,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標基洛夫·META挑戰的進行，從第31天開始，即2024.10.12~2025.1.2期間，艦隊挑戰「基洛夫·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標基洛夫·META開放的日期增加，火力支援提供的傷害也會增加。
-※此支援只會在指揮官自己發現的信標基洛夫·META戰鬥中出現，每次挑戰均會觸發。]]
+隨著信標羅德尼·META挑戰的進行，從第31天開始，即2025.2.3~2025.3.20期間，艦隊挑戰「羅德尼·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標羅德尼·META開放的日期增加，火力支援提供的傷害也會增加。
+※此支援只會在指揮官自己發現的信標羅德尼·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
 }
@@ -9163,19 +9163,19 @@ _G.pg.base.gametip.ship_remould_warning_521034 = {
 
 _G.pg.base.gametip.ship_remould_warning_520044 = {
 	tip = [[
-此次改造操作后舰艇类型变化为：
-导弹驱逐舰（先锋舰队模式）
-舰船数值及特性将有部分调整
-是否确认继续操作？]]
+此次改造操作後艦艇類型變化為：
+飛彈驅逐艦（先鋒艦隊模式）
+艦船數值及特性將有部分調整
+是否確認繼續操作？]]
 }
 
 
 _G.pg.base.gametip.ship_remould_warning_521044 = {
 	tip = [[
-此次改造操作后舰艇类型变化为：
-导弹驱逐舰（主力舰队模式）
-舰船数值及特性将有部分调整
-是否确认继续操作？]]
+此次改造操作後艦艇類型變化為：
+飛彈驅逐艦（主力艦隊模式）
+艦船數值及特性將有部分調整
+是否確認繼續操作？]]
 }
 
 
@@ -19773,8 +19773,7 @@ _G.pg.base.gametip.fushun_adventure_help = {
 	完成第6關獲得紅包x1；
 	完成第7關獲得限定角色<color=#92fc63>「撫順」</color> x1
 遊戲規則：
-1.當年獸進入可攻擊區域時，指揮官可以點擊<color=#92fc63>A鍵</color>、<color=#92fc63>B鍵</color>進
-行攻擊，當可攻擊區域內沒有年獸時點擊A、B鍵，則會
+1.當年獸進入可攻擊區域時，指揮官可以點擊<color=#92fc63>A鍵</color>、<color=#92fc63>B鍵</color>進行攻擊，當可攻擊區域內沒有年獸時點擊A、B鍵，則會
 對自身造成硬直
 2.若指揮官沒有及時擊敗年獸則會被年獸攻擊，每被年獸
 攻擊一次，扣除一顆生命值
@@ -34462,6 +34461,84 @@ _G.pg.base.gametip.TW_build_chase_time = {
 
 _G.pg.base.gametip.ship_task_lottery_title = {
 	tip = "星海逐光活動期間累積通關「星海逐光」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_tran_tip = {
+	tip = "指揮官不在的時間裡，有以下道具已經過期並轉換"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_expired_tip = {
+	tip = "以下道具的有效期限不足24小時"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_repeat_remind_label = {
+	tip = "今日不再提示"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_return_tip = {
+	tip = "換裝抵扣券可返還為300鑽石"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_extra_bounds = {
+	tip = "額外贈送："
+}
+
+
+_G.pg.base.gametip.recycle_btn_label = {
+	tip = "轉化為鑽石"
+}
+
+
+_G.pg.base.gametip.go_skinshop_btn_label = {
+	tip = "前往使用"
+}
+
+
+_G.pg.base.gametip.skin_shop_nonuse_label = {
+	tip = "不使用優惠"
+}
+
+
+_G.pg.base.gametip.skin_shop_use_label = {
+	tip = "使用優惠"
+}
+
+
+_G.pg.base.gametip.skin_shop_discount_item_link = {
+	tip = "<color=#92fc63>抵扣券</color><color=#ffea00>-$1</color>"
+}
+
+
+_G.pg.base.gametip.go_skinexperienceshop_btn_label = {
+	tip = "前往"
+}
+
+
+_G.pg.base.gametip.skin_discount_item_notice = {
+	tip = {
+		{
+			info = "說明："
+		},
+		{
+			info = "1.當倉庫內有特定換裝的換裝體驗券、換裝抵扣券的有效期不足24小時時，會彈出道具即將超時的預告彈窗。"
+		},
+		{
+			info = "2.特定換裝的換裝體驗券過期後將消失，特定換裝的換裝抵扣券過期後將兌換為指定數量的鑽石。"
+		},
+		{
+			info = "3.各道具實際過期時間與詳情請在道具描述中確認。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.skin_discount_item_recycle_tip = {
+	tip = "抵扣券可轉換為鑽石，\n是否消耗<color=#92fc63>$1*1</color>兌換為<color=#92fc63>鑽石*$2</color>"
 }
 
 

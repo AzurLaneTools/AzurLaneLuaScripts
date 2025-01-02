@@ -111,14 +111,14 @@ pg.recommend_shop = {
 		pic = "",
 		shop_type = 1,
 		id = 5,
-		shop_id = 61,
+		shop_id = 65,
 		order = 1,
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -130,7 +130,7 @@ pg.recommend_shop = {
 				{
 					2025,
 					1,
-					1
+					22
 				},
 				{
 					23,
@@ -144,14 +144,14 @@ pg.recommend_shop = {
 		pic = "",
 		shop_type = 1,
 		id = 6,
-		shop_id = 62,
+		shop_id = 2040,
 		order = 2,
 		time = {
 			{
 				{
-					2024,
-					12,
-					19
+					2025,
+					1,
+					2
 				},
 				{
 					0,
@@ -163,7 +163,7 @@ pg.recommend_shop = {
 				{
 					2025,
 					1,
-					1
+					22
 				},
 				{
 					23,

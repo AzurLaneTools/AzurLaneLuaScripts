@@ -6377,7 +6377,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295196] = {
 		cannon = 137,
-		name = "罗德尼·META(Tier.1)",
+		name = "羅德尼·META(Tier.1)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6418,7 +6418,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295197] = {
 		cannon = 156,
-		name = "罗德尼·META(Tier.2)",
+		name = "羅德尼·META(Tier.2)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6459,7 +6459,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295198] = {
 		cannon = 176,
-		name = "罗德尼·META(Tier.3)",
+		name = "羅德尼·META(Tier.3)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6500,7 +6500,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295199] = {
 		cannon = 196,
-		name = "罗德尼·META(Tier.4)",
+		name = "羅德尼·META(Tier.4)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6541,7 +6541,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295200] = {
 		cannon = 215,
-		name = "罗德尼·META(Tier.5)",
+		name = "羅德尼·META(Tier.5)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6582,7 +6582,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295201] = {
 		cannon = 235,
-		name = "罗德尼·META(Tier.6)",
+		name = "羅德尼·META(Tier.6)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6623,7 +6623,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295202] = {
 		cannon = 255,
-		name = "罗德尼·META(Tier.7)",
+		name = "羅德尼·META(Tier.7)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6664,7 +6664,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295203] = {
 		cannon = 275,
-		name = "罗德尼·META(Tier.8)",
+		name = "羅德尼·META(Tier.8)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6705,7 +6705,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295204] = {
 		cannon = 294,
-		name = "罗德尼·META(Tier.9)",
+		name = "羅德尼·META(Tier.9)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6746,7 +6746,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295205] = {
 		cannon = 314,
-		name = "罗德尼·META(Tier.10)",
+		name = "羅德尼·META(Tier.10)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6787,7 +6787,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295206] = {
 		cannon = 334,
-		name = "罗德尼·META(Tier.11)",
+		name = "羅德尼·META(Tier.11)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6828,7 +6828,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295207] = {
 		cannon = 353,
-		name = "罗德尼·META(Tier.12)",
+		name = "羅德尼·META(Tier.12)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6869,7 +6869,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295208] = {
 		cannon = 373,
-		name = "罗德尼·META(Tier.13)",
+		name = "羅德尼·META(Tier.13)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6910,7 +6910,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295209] = {
 		cannon = 393,
-		name = "罗德尼·META(Tier.14)",
+		name = "羅德尼·META(Tier.14)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,
@@ -6951,7 +6951,7 @@ pg.enemy_data_statistics_400 = {
 	},
 	[295210] = {
 		cannon = 413,
-		name = "罗德尼·META(Tier.15)",
+		name = "羅德尼·META(Tier.15)",
 		torpedo = 0,
 		cannon_growth = 0,
 		air = 0,

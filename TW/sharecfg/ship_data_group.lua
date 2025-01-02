@@ -14201,6 +14201,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24110,6 +24121,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"核心兌換獲取",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -24140,6 +24161,16 @@ pg.base.ship_data_group = {
 				"限時活動：海天與海圻的畫中世界",
 				{
 					""
+				},
+				0
+			},
+			{
+				"核心兌換獲取",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -24288,6 +24319,17 @@ pg.base.ship_data_group = {
 				"限時活動：新春限時建造",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25901,6 +25943,17 @@ pg.base.ship_data_group = {
 				"限時活動：新春限時建造",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
