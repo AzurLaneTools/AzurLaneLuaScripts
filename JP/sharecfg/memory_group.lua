@@ -323,6 +323,7 @@ pg.memory_group = setmetatable({
 		603,
 		604,
 		605,
+		606,
 		1000,
 		1001,
 		1002
@@ -6994,6 +6995,23 @@ pg.base.memory_group = {
 			4065,
 			4066,
 			4067
+		}
+	},
+	[606] = {
+		title = "それゆけグルメファーム！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 606,
+		icon = "title_chara_longwu",
+		memories = {
+			4141,
+			4142,
+			4143,
+			4144,
+			4145,
+			4146,
+			4147
 		}
 	},
 	[1000] = {

@@ -1,8 +1,112 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "5736",
+		type = 3,
 		id = 1,
+		pic = "temp4",
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp6",
+		param = {
+			"scene level"
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp7",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
 		pic = "temp3",
 		param = {
 			"scene skinshop",
@@ -37,7 +141,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 5,
 		pic = "temp5",
 		param = {
 			"scene charge",
@@ -73,43 +177,18 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
-		id = 3,
+		id = 6,
 		pic = "temp8",
 		param = {
 			"scene Cryptolalia",
 			{}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 7,
 		pic = "temp9",
 		param = {
 			"dorm 3d select"
@@ -131,7 +210,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					8
+					9
 				},
 				{
 					23,
@@ -142,180 +221,23 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
-		id = 5,
+		id = 8,
 		pic = "temp2",
 		param = {
 			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
-		id = 6,
+		id = 9,
 		pic = "temp1",
 		param = {
 			"scene charge",
 			{
 				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					1
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp6",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5711",
-		type = 3,
-		id = 9,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
@@ -399,67 +321,17 @@ pg.activity_banner = {
 	},
 	[100] = {
 		param = "キャンディケイン|美味しくて面白い形をしたクリスマスキャンディ<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		time = "stop",
 		type = 10,
 		id = 100,
-		pic = "christmas",
-		time = {
-			{
-				{
-					2024,
-					12,
-					19
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					12,
-					26
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "christmas"
 	},
 	[101] = {
 		param = "鏡餅|割ってから食べちゃうぞー<color=#92fc63>（60分間寮舎経験値効率が5%アップ）</color>",
+		time = "stop",
 		type = 10,
 		id = 101,
-		pic = "jingbing",
-		time = {
-			{
-				{
-					2024,
-					12,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "jingbing"
 	},
 	[200] = {
 		param = "",
@@ -502,48 +374,23 @@ pg.activity_banner = {
 	},
 	[202] = {
 		param = "",
+		time = "always",
 		type = 13,
 		id = 202,
-		pic = "newyear",
-		time = {
-			{
-				{
-					2024,
-					12,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "winter"
 	},
 	get_id_list_by_type = {
+		[3] = {
+			1
+		},
 		[2] = {
-			1,
 			2,
 			3,
 			4,
 			5,
 			6,
 			7,
-			8
-		},
-		[3] = {
+			8,
 			9
 		},
 		[9] = {

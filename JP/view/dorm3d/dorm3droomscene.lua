@@ -1532,7 +1532,7 @@ slot0.TouchModePointAction = function(slot0, slot1, slot2, slot3, ...)
 			end
 		end
 	}, function (...)
-		return uv0:TouchModeAction(uv1, ...)
+		return uv0:TouchModeAction(uv1, uv2, ...)
 	end, ...)
 end
 

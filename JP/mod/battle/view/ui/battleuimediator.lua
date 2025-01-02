@@ -140,7 +140,8 @@ slot7.InitJoystick = function(slot0)
 	slot0._joystick = slot0._ui:findTF("Stick")
 	slot1 = uv0.JOY_STICK_DEFAULT_PREFERENCE
 	slot2 = slot0._joystick
-	slot3 = Screen.dpi / CameraMgr.instance.finalWidth * 5
+
+	originalPrint("DPI: ", Screen.dpi, CameraMgr.instance.finalWidth, Screen.dpi / CameraMgr.instance.finalWidth * 5)
 
 	if PLATFORM == PLATFORM_WINDOWSEDITOR or slot3 <= 0 then
 		slot3 = 1

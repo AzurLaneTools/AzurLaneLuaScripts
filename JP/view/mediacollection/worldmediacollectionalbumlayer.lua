@@ -130,12 +130,12 @@ slot0.SwitchReddotMemory = function(slot0)
 	slot0:GetGroupLayer().buffer:SwitchReddotMemory()
 end
 
-slot0.ShowAlbum = function(slot0, ...)
+slot0.ShowAlbum = function(slot0, slot1)
 	pg.m02:sendNotification(GAME.LOAD_LAYERS, {
 		parentContext = getProxy(ContextProxy):getCurrentContext(),
 		context = Context.New({
-			mediator = MedalAlbumTemplateMediator,
-			viewComponent = StarLightMedalAlbumView
+			mediator = _G[slot1.ui_prefab.mediator],
+			viewComponent = _G[slot1.ui_prefab.scene]
 		})
 	})
 end

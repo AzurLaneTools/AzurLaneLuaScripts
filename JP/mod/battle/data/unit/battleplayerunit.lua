@@ -392,6 +392,10 @@ end
 
 slot7.AddFleetAntiAirWeapon = function(slot0, slot1)
 	slot0._fleetAAList[#slot0._fleetAAList + 1] = slot1
+
+	if slot0._fleet and slot0._fleet:GetFleetAntiAirWeapon() then
+		slot0._fleet:GetFleetAntiAirWeapon():FlushCrewUnit(slot0)
+	end
 end
 
 slot7.RemoveFleetAntiAirWeapon = function(slot0, slot1)
@@ -402,6 +406,8 @@ slot7.RemoveFleetAntiAirWeapon = function(slot0, slot1)
 			return
 		end
 	end
+
+	slot0._fleet:GetFleetAntiAirWeapon():FlushCrewUnit(slot0)
 end
 
 slot7.AddFleetRangeAntiAirWeapon = function(slot0, slot1)
