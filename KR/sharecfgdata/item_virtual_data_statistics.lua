@@ -175661,7 +175661,7 @@ _G.pg.base.item_virtual_data_statistics[86207] = {
 
 _G.pg.base.item_virtual_data_statistics[86208] = {
 	drop_gold_max = 0,
-	name = "랜덤 정월 스킨 2025A",
+	name = "랜덤 게임의 밤 스킨",
 	display = "不会被看到",
 	type = 98,
 	is_world = 0,

@@ -86623,7 +86623,7 @@ pg.base.skill_data_template = {
 	},
 	[17360] = {
 		desc_get = "",
-		name = "战况报告·现场放送",
+		name = "라이브캐스트 사이드 어시스트",
 		type = 1,
 		max_level = 10,
 		desc = "跨队效果占用ID",

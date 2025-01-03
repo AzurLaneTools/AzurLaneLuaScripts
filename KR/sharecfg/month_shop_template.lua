@@ -90,7 +90,6 @@ pg.month_shop_template = {
 			10091
 		},
 		blueprint_shop_goods = {
-			11003,
 			11004,
 			11005,
 			11006,
@@ -106,12 +105,16 @@ pg.month_shop_template = {
 			11019,
 			11020,
 			11021,
-			11023
+			11023,
+			11024,
+			11025,
+			11026
 		},
 		blueprint_shop_limit_goods = {
 			11009,
 			11016,
-			11022
+			11022,
+			11027
 		},
 		honormedal_shop_goods = {
 			10000,
@@ -139,8 +142,8 @@ pg.month_shop_template = {
 			10024,
 			10025,
 			10028,
-			10029,
-			10030,
+			10031,
+			10032,
 			10033,
 			20001,
 			20002,
