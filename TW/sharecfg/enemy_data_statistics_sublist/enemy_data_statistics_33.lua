@@ -1860,7 +1860,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90896] = {
 		cannon = 0,
-		name = "锦鲤礼花",
+		name = "錦鯉禮花",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1989,7 +1989,7 @@ pg.enemy_data_statistics_33 = {
 	},
 	[90897] = {
 		cannon = 0,
-		name = "仙鹤礼花",
+		name = "仙鶴禮花",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
