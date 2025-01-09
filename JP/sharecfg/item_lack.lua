@@ -29,39 +29,9 @@ pg.item_lack = {
 		},
 		description = {
 			{
-				"デイリーチャレンジをクリア",
+				"演習を行う",
 				{
-					"scene dailylevel",
-					{
-						dailyLevelId = 301
-					}
-				},
-				0
-			},
-			{
-				"購買部でランダム出現",
-				{
-					"scene shop",
-					{
-						warp = 2
-					}
-				},
-				0
-			},
-			{
-				"一部の軍事委託で入手",
-				{
-					"scene event"
-				},
-				0
-			},
-			{
-				"ショップ勲章交換",
-				{
-					"scene shop",
-					{
-						warp = 8
-					}
+					" scene militaryexercise"
 				},
 				0
 			}
