@@ -25,7 +25,7 @@ pg.dorm3d_zone_template = {
 		touch_id = {
 			{
 				20220,
-				10100104
+				7
 			}
 		},
 		special_action = {

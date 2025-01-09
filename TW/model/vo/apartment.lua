@@ -109,7 +109,7 @@ slot0.GetSkinModelID = function(slot0, slot1)
 	slot2 = slot0:getConfig("skin_model")
 
 	if slot1 and slot1 ~= "" then
-		slot2 = underscore.detect(pg.dorm3d_resource.get_id_list_by_ship_group[slot0.configId], function (slot0)
+		slot2 = underscore.detect(pg.dorm3d_resource.get_id_list_by_ship_group[slot0.configId] or {}, function (slot0)
 			return table.contains(pg.dorm3d_resource[slot0].tags, uv0)
 		end)
 	end
@@ -130,7 +130,7 @@ slot0.GetSetCallCd = function(slot0)
 end
 
 slot0.getTalkingList = function(slot0, slot1)
-	return underscore.filter(pg.dorm3d_dialogue_group.get_id_list_by_char_id[slot0.configId], function (slot0)
+	return underscore.filter(pg.dorm3d_dialogue_group.get_id_list_by_char_id[slot0.configId] or {}, function (slot0)
 		slot1 = pg.dorm3d_dialogue_group[slot0]
 
 		return (not uv0.typeDic or tobool(uv0.typeDic[slot1.type])) and (not uv0.roomId or slot1.room_id == 0 or uv0.roomId == slot1.room_id) and (not uv0.unplay or not uv1.talkDic[slot0]) and (not uv0.unlock or ApartmentProxy.CheckUnlockConfig(slot1.unlock))
@@ -249,11 +249,9 @@ slot0.getGiftIds = function(slot0)
 end
 
 slot0.needDownload = function(slot0)
-	slot2, slot3 = ApartmentRoom.New({
+	return #ApartmentRoom.New({
 		id = slot0:getConfig("bind_room")
-	}):getDownloadNameList()
-
-	return #slot2 > 0 or #slot3 > 0
+	}):getDownloadNameList() > 0
 end
 
 slot0.filterUnlockTalkList = function(slot0, slot1)

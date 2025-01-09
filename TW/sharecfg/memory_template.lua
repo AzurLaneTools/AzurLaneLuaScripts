@@ -2638,6 +2638,9 @@ pg.memory_template = setmetatable({
 		3331,
 		3332,
 		3333,
+		3341,
+		3342,
+		3343,
 		3351,
 		3352,
 		3353,
@@ -32001,6 +32004,39 @@ pg.base.memory_template = {
 		story = "SHISHANGTEKANHEDINGJIXINCHUNYI3",
 		id = 3333,
 		icon = "memory_shishangtekanxinchun1",
+		is_open = 0
+	},
+	[3341] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "一夜魚龍舞",
+		condition = "完成「港區時尚特刊：祥蛇賀春[2]」阿爾比恩的簽到",
+		story = "SHISHANGTEKANHEDINGJIXINCHUNER1",
+		id = 3341,
+		icon = "memory_shishangtekanxinchun2",
+		is_open = 0
+	},
+	[3342] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "慵懶的春光",
+		condition = "完成「港區時尚特刊：祥蛇賀春[2]」英仙座的簽到",
+		story = "SHISHANGTEKANHEDINGJIXINCHUNER2",
+		id = 3342,
+		icon = "memory_shishangtekanxinchun2",
+		is_open = 0
+	},
+	[3343] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "舟畔共明月",
+		condition = "完成「港區時尚特刊：祥蛇賀春[2]」安克拉治的簽到",
+		story = "SHISHANGTEKANHEDINGJIXINCHUNER3",
+		id = 3343,
+		icon = "memory_shishangtekanxinchun2",
 		is_open = 0
 	},
 	[3351] = {

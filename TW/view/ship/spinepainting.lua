@@ -133,7 +133,9 @@ slot0.SetVisible = function(slot0, slot1)
 	setActive(slot0._spinePaintingData.effectParent, slot1)
 	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
 
-	slot0._skeletonGraphic.timeScale = slot1 and 1 or 0
+	if slot0._skeletonGraphic then
+		slot0._skeletonGraphic.timeScale = slot1 and 1 or 0
+	end
 
 	if not slot1 then
 		slot0.mainSpineAnim:SetActionCallBack(nil)
@@ -147,7 +149,10 @@ slot0.SetVisible = function(slot0, slot1)
 		end
 
 		if slot0._baseShader then
-			slot0._skeletonGraphic.material.shader = slot0._baseShader
+			if slot0._skeletonGraphic then
+				slot0._skeletonGraphic.material.shader = slot0._baseShader
+			end
+
 			slot0._baseShader = nil
 		end
 

@@ -43,14 +43,63 @@ pg.dorm3d_resource = {
 			20220
 		}
 	},
+	[302211] = {
+		ship_group = 30221,
+		name = "能代常服",
+		type = 1,
+		animator = "",
+		picture = "regular",
+		unlock = "",
+		unlock_text = "",
+		model_id = "nengdai_noshoes",
+		id = 302211,
+		head_Icon = "dorm3Dchar/nengdai",
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		tags = {}
+	},
+	[302212] = {
+		ship_group = 30221,
+		name = "能代泳装",
+		type = 1,
+		animator = "",
+		picture = "regular",
+		unlock_text = "在沙滩中邀请能代解锁",
+		model_id = "nengdai_swim",
+		id = 302212,
+		head_Icon = "dorm3Dchar/nengdai",
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		tags = {
+			"beach",
+			"touch"
+		},
+		unlock = {
+			5,
+			4,
+			30221
+		}
+	},
 	get_id_list_by_ship_group = {
 		[20220] = {
 			202201,
 			202202
+		},
+		[30221] = {
+			302211,
+			302212
 		}
 	},
 	all = {
 		202201,
-		202202
+		202202,
+		302211,
+		302212
 	}
 }

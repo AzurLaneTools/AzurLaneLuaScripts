@@ -1847,7 +1847,6 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		time = "stop",
 		type_order = 2,
 		picture = "fudai12",
 		skin_inquire_relation = 86203,
@@ -1890,6 +1889,32 @@ pg.base.pay_data_display = {
 				1,
 				6,
 				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		},
 		display = {

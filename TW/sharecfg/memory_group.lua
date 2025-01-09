@@ -166,6 +166,7 @@ pg.memory_group = setmetatable({
 		273,
 		274,
 		275,
+		276,
 		277,
 		278,
 		279,
@@ -3942,6 +3943,19 @@ pg.base.memory_group = {
 			3331,
 			3332,
 			3333
+		}
+	},
+	[276] = {
+		title = "港區時尚特刊：祥蛇賀春[2]",
+		subtype = 3,
+		link_event = 5184,
+		type = 2,
+		id = 276,
+		icon = "title_event",
+		memories = {
+			3341,
+			3342,
+			3343
 		}
 	},
 	[277] = {

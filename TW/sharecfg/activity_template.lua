@@ -11924,10 +11924,10 @@ pg.activity_template = {
 			2385,
 			2386,
 			2387,
-			5201,
-			5202,
-			5203,
-			5204
+			99001,
+			99002,
+			99003,
+			99004
 		},
 		time = {
 			"timer",
@@ -11971,10 +11971,10 @@ pg.activity_template = {
 				{
 					"activity_shop_template_extratext",
 					{
-						5201,
-						5202,
-						5203,
-						5204
+						99001,
+						99002,
+						99003,
+						99004
 					}
 				},
 				{
@@ -13808,9 +13808,8 @@ pg.activity_template = {
 		}
 	},
 	[5196] = {
-		mark = 20240206,
+		mark = 20250109,
 		page_info = "",
-		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -13820,6 +13819,33 @@ pg.activity_template = {
 		id = 5196,
 		config_data = {
 			19755
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[5197] = {
@@ -13864,18 +13890,44 @@ pg.activity_template = {
 		}
 	},
 	[5200] = {
-		mark = 20240206,
-		time = "stop",
+		mark = 20250109,
 		type = 86,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 49,
+		is_show = 60,
 		title_res_tag = "skin_spring2",
 		id = 5200,
 		config_data = {
 			19770,
 			19771,
 			19772
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		page_info = {
 			class_name = "SkinMagazineSpringPage2",
@@ -18429,6 +18481,120 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5694
+	},
+	[5736] = {
+		mark = 20250109,
+		type = 11,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 49,
+		title_res_tag = "collection_event_pt",
+		id = 5736,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "CollectionEventPtPage",
+			ui_name = "CollectionEventPtPage"
+		},
+		config_client = {
+			shopActID = 5737
+		}
+	},
+	[5737] = {
+		mark = 20250109,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5737,
+		config_data = {
+			2836,
+			2837,
+			2838,
+			2839,
+			2840,
+			2841,
+			2842,
+			2843,
+			2844,
+			2845,
+			2846,
+			2847
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_commission",
+			{
+				0.925,
+				0.925,
+				0.925,
+				1
+			},
+			painting = "mengfeisi_pt",
+			pt_id = 453,
+			use_secretary = false,
+			event_shop = true,
+			outline = {
+				0,
+				0,
+				0,
+				0
+			}
+		}
 	},
 	[7104] = {
 		mark = 20240926,
@@ -28753,6 +28919,30 @@ pg.activity_template = {
 						51179
 					},
 					51180
+				},
+				{
+					{
+						51181,
+						51182,
+						51183,
+						51184,
+						51185,
+						51186,
+						51187,
+						51188,
+						51189,
+						51190,
+						51191,
+						51192,
+						51193,
+						51194,
+						51195,
+						51196,
+						51197,
+						51198,
+						51199
+					},
+					51200
 				}
 			}
 		}
@@ -53959,7 +54149,6 @@ pg.activity_template = {
 	[45047] = {
 		mark = 20241219,
 		page_info = "",
-		time = "stop",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
@@ -53968,6 +54157,33 @@ pg.activity_template = {
 		id = 45047,
 		config_data = {
 			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2024,
+					12,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		},
 		config_client = {
 			80101
@@ -53978,7 +54194,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 45048,
-		is_show = 60,
+		is_show = 50,
 		title_res_tag = "fireworks_pt_2024",
 		id = 45048,
 		config_data = {},
@@ -54077,6 +54293,7 @@ pg.activity_template = {
 			}
 		},
 		config_client = {
+			ActID = 45048,
 			story = {
 				{
 					0,
@@ -56194,6 +56411,7 @@ pg.activity_template = {
 			5245,
 			5317,
 			5686,
+			5737,
 			40160,
 			40186,
 			40213,
@@ -57094,6 +57312,7 @@ pg.activity_template = {
 		[11] = {
 			4729,
 			5078,
+			5736,
 			41357
 		},
 		[23] = {
@@ -57925,6 +58144,8 @@ pg.activity_template = {
 		5692,
 		5693,
 		5694,
+		5736,
+		5737,
 		7104,
 		7501,
 		8009,

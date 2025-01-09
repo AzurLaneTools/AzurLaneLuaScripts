@@ -708,7 +708,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 40501,
 		name = "Bismarck",
 		background = "",
-		sculpture = "bisimai",
+		sculpture = "bisimai_4",
 		nationality = 0,
 		type = 1
 	},
@@ -3052,7 +3052,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 20135,
 		name = "Janus",
 		background = "",
-		sculpture = "yanusi_5",
+		sculpture = "yanusi_6",
 		nationality = 0,
 		type = 1
 	},
@@ -3789,7 +3789,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Lung Wu",
 		background = "",
 		sculpture = "longwu",
-		nationality = 0,
+		nationality = 5,
 		type = 1
 	},
 	[50106] = {
@@ -4084,7 +4084,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 69902,
 		name = "Napoli",
 		background = "",
-		sculpture = "nabulesi",
+		sculpture = "nabulesi_2",
 		nationality = 0,
 		type = 1
 	},
@@ -4140,7 +4140,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 19905,
 		name = "Halford",
 		background = "",
-		sculpture = "haerfude",
+		sculpture = "haerfude_2",
 		nationality = 0,
 		type = 1
 	},

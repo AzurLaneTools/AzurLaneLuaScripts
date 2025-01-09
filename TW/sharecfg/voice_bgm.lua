@@ -81,7 +81,7 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "newyear2",
 		special_bgm = "",
 		bgm = "main"
 	},

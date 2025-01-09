@@ -648,10 +648,11 @@ slot0.performance = function(slot0, slot1, slot2, slot3, slot4)
 				end
 			end
 
-			slot2 = getProxy(ActivityProxy)
+			getProxy(ActivityProxy):updateActivity(uv1)
 
-			slot2:updateActivity(uv1)
-			slot2:updateActivity(slot2:getActivityById(45048))
+			if uv1:getConfig("config_client").ActID and slot2:getActivityById(slot3) then
+				slot2:updateActivity(slot4)
+			end
 		end
 
 		if #uv5 > 0 then

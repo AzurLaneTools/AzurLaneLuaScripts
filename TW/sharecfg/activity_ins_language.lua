@@ -12748,7 +12748,7 @@ pg.base.activity_ins_language = {
 		value = "{namecode:197}沒戴面具很可愛呀，平時也可以多這麼出門哦~"
 	},
 	ins_reply_216_2_1 = {
-		value = "那、那是……\\\\\\"
+		value = "那、那是……\\\\\\\\\\\\"
 	},
 	ins_discuss_216_3 = {
 		value = "唱得挺不錯的呀，完全不像是第一次去卡拉OK呢。"

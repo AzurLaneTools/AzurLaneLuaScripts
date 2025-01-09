@@ -10,6 +10,7 @@ slot0.register = function(slot0)
 	slot0.metaSkillLevelMaxInfoList = nil
 	slot0.lastMetaSkillExpInfoList = nil
 	slot0.startRecordTag = false
+	slot0.metaIDMark = {}
 
 	for slot4, slot5 in pairs(uv0.all) do
 		slot6 = MetaProgress.New({
@@ -376,6 +377,14 @@ end
 
 slot0.clearLastMetaSkillExpInfoList = function(slot0)
 	slot0.lastMetaSkillExpInfoList = nil
+end
+
+slot0.setMetaIDMark = function(slot0, slot1)
+	slot0.metaIDMark[slot1] = (slot0.metaIDMark[slot1] or -1) + 1
+end
+
+slot0.getMetaIDMark = function(slot0, slot1)
+	return slot0.metaIDMark[slot1]
 end
 
 return slot0

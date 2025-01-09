@@ -826,6 +826,40 @@ pg.honormedal_goods_list = {
 			408091
 		}
 	},
+	{
+		goods_rarity = 4,
+		goods_purchase_limit = 15,
+		price = 20,
+		type = 2,
+		group = 10031,
+		num = 1,
+		goods_name = "定向藍圖・六期",
+		goods_type = 1,
+		id = 46,
+		is_ship = 0,
+		goods_icon = "Props/42050",
+		order = 5,
+		goods = {
+			42050
+		}
+	},
+	{
+		goods_rarity = 5,
+		goods_purchase_limit = 5,
+		price = 20,
+		type = 2,
+		group = 10032,
+		num = 1,
+		goods_name = "高級定向藍圖・六期",
+		goods_type = 1,
+		id = 47,
+		is_ship = 0,
+		goods_icon = "Props/42056",
+		order = 4,
+		goods = {
+			42056
+		}
+	},
 	all = {
 		1,
 		2,
@@ -871,6 +905,8 @@ pg.honormedal_goods_list = {
 		42,
 		43,
 		44,
-		45
+		45,
+		46,
+		47
 	}
 }

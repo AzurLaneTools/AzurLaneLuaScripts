@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"港区时尚特刊：新春合集[2]\n\n<size=45>慵懒的春光</size>",
+					"港區時尚特刊：祥蛇賀春[2]\n\n<size=45>慵懶的春光</size>",
 					1
 				}
 			}
@@ -21,7 +21,7 @@ return {
 			bgm = "story-china",
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "指挥官，醒了吗？",
+			say = "指揮官，醒了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是……",
+			say = "這裡是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "终于醒了呢。",
+			say = "終於醒了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "看来今天的指挥官是想成为饿肚子的鸟儿？",
+			say = "看來今天的指揮官是想成為餓肚子的鳥兒？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -126,7 +126,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……英仙座？你怎么……躺在我旁边？",
+			say = "……英仙座？妳怎麼……躺在我旁邊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main3",
-			say = "指挥官忘了吗？",
+			say = "指揮官忘了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -158,7 +158,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "早上，你来给我送新年礼物——",
+			say = "早上，你來送我新年禮物——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -176,7 +176,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "就是我身上的这件。",
+			say = "就是我身上的這件。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "expedition",
-			say = "结果等我换好了衣服回来，就看到一只偷懒的鸟儿在我床上打盹。",
+			say = "結果等我換了衣服回來，就看到一隻偷懶的鳥兒在我床上打盹。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "混沌的大脑渐渐清晰了起来，好像……是有这么一回事。",
+			say = "混沌的大腦漸漸清晰了起來，好像……有這麼一回事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "占了你的床！",
+					content = "佔了妳的床！",
 					flag = 2
 				}
 			}
@@ -245,7 +245,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "道歉的话就不必了。",
+			say = "道歉的話就不必了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -263,7 +263,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在美好的日子里偷一下懒也没什么问题。",
+			say = "在美好的日子裡偷一下懶也沒什麼問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "似乎也有些道理，不过……",
+			say = "似乎也有些道理，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你为什么也躺在床上？",
+			say = "妳為什麼也躺在床上？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "自然是在扮演在打盹的虫子。",
+			say = "自然是在扮演在打盹的蟲子。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -338,7 +338,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "打盹的……虫子？",
+			say = "打盹的……蟲？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "是啊——如果指挥官不介意的话，我打算继续打盹了。",
+			say = "是啊——如果指揮官不介意的話，我打算繼續打盹了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,7 +370,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "至于你之前说的新年拜访什么的……之后再说吧。",
+			say = "至於你之前說的新年拜訪什麼的…之後再說吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "早起的意义……就是为了让回笼觉睡得更香甜……zZZZ",
+			say = "早起的意義……就是為了讓回籠覺睡得更香甜……zZZZ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -406,7 +406,7 @@ return {
 			actor = 206062,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "早起的虫儿被鸟吃……早起的鸟儿被虫吃……zZZZ",
+			say = "早起的蟲兒被鳥吃……早起的鳥兒被蟲吃……zZZZ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -422,7 +422,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……一边说着梦话，一边进入了梦乡？",
+			say = "……一邊說著夢話，一邊進入夢鄉了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……感觉头也变得愈发昏沉了。",
+			say = "呼……感覺頭也變得越發昏沉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "或许是因为房间里昏暗的光线，又或许仅仅是被少女均匀的呼吸声所感染。",
+			say = "或許是因為房間裡昏暗的光線，又或許只是被少女均勻的呼吸聲所感染。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……反正是假日，稍微偷懒一下好了。",
+			say = "……反正是假日，稍微偷懶一下好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_175",
 			hidePaintObj = true,
-			say = "睡意渐渐袭来——",
+			say = "睡意漸漸襲來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			blackBg = true,
 			actorName = "英仙座",
 			hidePaintObj = true,
-			say = "现在，早起的虫子和鸟儿，都被早起的被窝恶魔吞噬掉了……",
+			say = "現在，早起的蟲子和鳥兒，都被早起的被窩惡魔吞噬掉了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -535,7 +535,7 @@ return {
 			blackBg = true,
 			actorName = "英仙座",
 			hidePaintObj = true,
-			say = "好好休息吧，我最喜欢的指挥官……",
+			say = "好好休息吧，我最喜歡的指揮官……",
 			painting = {
 				alpha = 0.3,
 				time = 1

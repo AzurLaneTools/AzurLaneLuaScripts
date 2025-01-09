@@ -67,7 +67,7 @@ slot0.AfterSelectFrame = function(slot0, slot1)
 		setActive(slot6, false)
 	end
 
-	slot0:LoadFrame(slot1.imagePos, slot1.imageScale)
+	slot0:LoadFrame(slot1.imagePos, slot1.imageScale, slot1.specialPosDic)
 end
 
 slot0.InitFrame = function(slot0)
@@ -79,10 +79,11 @@ slot0.InitFrame = function(slot0)
 	})
 end
 
-slot0.LoadFrame = function(slot0, slot1, slot2)
-	slot3 = pg.dorm3d_camera_photo_frame[slot0.selectFrameId]
+slot0.LoadFrame = function(slot0, slot1, slot2, slot3)
+	slot5 = pg.dorm3d_camera_photo_frame[slot0.selectFrameId].frameTfName == "FilmFrame"
+	slot6 = slot4.frameTfName == "InsFrame"
 
-	slot4 = function(slot0)
+	slot7 = function(slot0)
 		slot1 = slot0:Find("mask/realImage")
 		slot2 = slot1:GetComponent(typeof(RawImage))
 		slot2.texture = uv0.contextData.photoTex
@@ -96,11 +97,52 @@ slot0.LoadFrame = function(slot0, slot1, slot2)
 		if uv2 then
 			slot1.localScale = uv2
 		end
+
+		if uv3 then
+			slot4 = {
+				"mask_up/realImage"
+			}
+
+			if uv4 then
+				table.insert(slot4, "mask_down/realImage")
+			end
+
+			slot5 = {
+				"upPos",
+				"downPos"
+			}
+			slot6 = {
+				"upScale",
+				"downScale"
+			}
+
+			for slot10, slot11 in ipairs(slot4) do
+				slot0:Find(slot11):GetComponent(typeof(RawImage)).texture = uv0.contextData.photoTex
+				slot14 = GameObject.Find("OverlayCamera").transform:GetChild(0)
+
+				if uv5 and slot11 == "mask_up/realImage" then
+					slot12.sizeDelta = Vector2(slot14.sizeDelta.x / 10, slot14.sizeDelta.y / 10)
+				else
+					slot12.sizeDelta = slot14.sizeDelta
+				end
+
+				slot15 = slot5[slot10]
+
+				setAnchoredPosition(slot13, {
+					x = uv3[slot15].x,
+					y = uv3[slot15].y
+				})
+
+				if uv3[slot6[slot10]] then
+					slot12.localScale = slot16
+				end
+			end
+		end
 	end
 
 	if slot0.frameDic[slot0.selectFrameId] then
-		setActive(slot5, true)
-		slot4(slot5)
+		setActive(slot8, true)
+		slot7(slot8)
 
 		return
 	end
@@ -109,10 +151,10 @@ slot0.LoadFrame = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot6 = slot0.selectFrameId
-	slot7 = ResourceMgr.Inst
+	slot9 = slot0.selectFrameId
+	slot10 = ResourceMgr.Inst
 
-	slot7:getAssetAsync("ui/" .. slot3.frameTfName, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot10:getAssetAsync("ui/" .. slot4.frameTfName, "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		uv0.loadingDic[uv1] = false
 		uv0.frameDic[uv1] = Object.Instantiate(slot0, uv0.photoAdapter).transform
 
@@ -124,6 +166,15 @@ slot0.LoadFrame = function(slot0, slot1, slot2)
 
 		slot1:Find("mask/realImage"):GetComponent(typeof(ScrollRect)).enabled = false
 		slot1:Find("mask/realImage"):GetComponent(typeof(PinchZoom)).enabled = false
+		slot5 = slot1:Find("mask_down/realImage")
+
+		if slot1:Find("mask_up/realImage") then
+			slot4:GetComponent(typeof(PinchZoom)).enabled = false
+		end
+
+		if slot5 then
+			slot5:GetComponent(typeof(PinchZoom)).enabled = false
+		end
 
 		uv2(slot1)
 	end), true, true)

@@ -32,8 +32,8 @@ if not IsUnityEditor then
 end
 
 QualitySettings.vSyncCount = 0
+QualitySettings.skinWeights = ReflectionHelp.RefGetField(typeof("UnityEngine.SkinWeights"), "Unlimited", nil)
 
-UnityEngine.Physics.IgnoreLayerCollision(21, LayerMask.NameToLayer("Default"))
 tolua.loadassembly("com.blhx.builtin-pipeline.runtime")
 Dorm3dRoomTemplateScene.InitDefautQuality()
 Dorm3dRoomTemplateScene.SettingQuality()

@@ -71,28 +71,36 @@ slot0.Ctor = function(slot0, ...)
 end
 
 slot0.preload = function(slot0, slot1)
-	slot2 = slot0.contextData.groupId or 20220
+	slot2 = slot0.contextData.groupId
+	slot5 = getProxy(ApartmentProxy)
 
-	slot0:SetApartment(getProxy(ApartmentProxy):getApartment(slot2))
+	slot0:SetApartment(slot5:getApartment(slot2))
 
 	slot0.volleyballCfg = pg.dorm3d_volleyball[slot2]
 	slot0.sceneRootName = "beach"
 	slot0.sceneName = "map_beach_01"
 	slot0.timelineSceneRootName = pg.dorm3d_dorm_template[slot2].asset_name
-	slot0.timelineSceneName = slot0.volleyballCfg.scene_name
+	slot0.timelineSceneName = string.lower(slot0.volleyballCfg.scene_name)
 
 	seriesAsync({
 		function (slot0)
-			pg.UIMgr.GetInstance():LoadingOn(false)
-			SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/common/" .. uv0.sceneRootName .. "/" .. uv0.sceneName .. "_scene"), uv0.sceneName, LoadSceneMode.Additive, function (slot0, slot1)
+			slot1 = pg.UIMgr.GetInstance()
+
+			slot1:LoadingOn(false)
+
+			slot1 = SceneOpMgr.Inst
+
+			slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0.sceneRootName .. "/" .. uv0.sceneName .. "_scene"), uv0.sceneName, LoadSceneMode.Additive, function (slot0, slot1)
+				uv0:InitGameParam()
 				SceneManager.SetActiveScene(slot0)
-				onNextTick(uv0)
+				onNextTick(uv1)
 			end)
 		end,
 		function (slot0)
 			slot2 = uv0.timelineSceneName
+			slot3 = SceneOpMgr.Inst
 
-			SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/character/" .. uv0.timelineSceneRootName .. "/timeline/" .. slot2 .. "/" .. slot2 .. "_scene"), slot2, LoadSceneMode.Additive, function (slot0, slot1)
+			slot3:LoadSceneAsync(string.lower("dorm3d/character/" .. uv0.timelineSceneRootName .. "/timeline/" .. slot2 .. "/" .. slot2 .. "_scene"), slot2, LoadSceneMode.Additive, function (slot0, slot1)
 				uv0()
 			end)
 		end,
@@ -102,6 +110,12 @@ slot0.preload = function(slot0, slot1)
 		end,
 		slot1
 	})
+end
+
+slot0.InitGameParam = function(slot0)
+	uv0.BallSpeed = slot0.volleyballCfg.BallSpeedParam[1]
+	uv0.BallQTESpeed = slot0.volleyballCfg.BallSpeedParam[2]
+	uv0.endScore = slot0.volleyballCfg.endScore
 end
 
 slot0.init = function(slot0)
@@ -214,9 +228,17 @@ slot0.initScene = function(slot0)
 			slot3 = slot2:GetComponent(typeof(UnityEngine.MeshCollider)).sharedMesh
 			uv0.ballCreatePlane = Plane.New(slot3.normals[0], -Vector3.Dot(slot2.position, slot3.normals[0]))
 			slot4 = tf(slot1):Find("BallQte")
+
+			setLocalPosition(slot4, Vector3(uv0.volleyballCfg.BallQtePlane[1][1], uv0.volleyballCfg.BallQtePlane[1][2], uv0.volleyballCfg.BallQtePlane[1][3]))
+			setLocalEulerAngles(slot4, Vector3(uv0.volleyballCfg.BallQtePlane[2][1], uv0.volleyballCfg.BallQtePlane[2][2], uv0.volleyballCfg.BallQtePlane[2][3]))
+
 			slot5 = slot4:GetComponent(typeof(UnityEngine.MeshCollider)).sharedMesh
 			uv0.ballQtePlane = Plane.New(slot5.normals[0], -Vector3.Dot(slot4.position, slot5.normals[0]))
 			slot6 = tf(slot1):Find("BallMiss")
+
+			setLocalPosition(slot6, Vector3(uv0.volleyballCfg.BallMissPlane[1][1], uv0.volleyballCfg.BallMissPlane[1][2], uv0.volleyballCfg.BallMissPlane[1][3]))
+			setLocalEulerAngles(slot6, Vector3(uv0.volleyballCfg.BallMissPlane[2][1], uv0.volleyballCfg.BallMissPlane[2][2], uv0.volleyballCfg.BallMissPlane[2][3]))
+
 			slot7 = slot6:GetComponent(typeof(UnityEngine.MeshCollider)).sharedMesh
 			uv0.ballMissPlane = Plane.New(slot7.normals[0], -Vector3.Dot(slot6.position, slot7.normals[0]))
 		end
@@ -552,7 +574,7 @@ end
 slot0.ShowResultUI = function(slot0, slot1)
 	(function ()
 		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataRoom(uv0.contextData.roomId, 8, table.concat(uv0.contextData.groupIds or {
-			uv0.contextData.groupId or 20220
+			uv0.contextData.groupId
 		}, ","), uv0.ourScore .. ":" .. uv0.otherScore))
 	end)()
 
@@ -581,11 +603,11 @@ slot0.ShowResultUI = function(slot0, slot1)
 
 		slot0 = uv0.gameResult == uv1.GAME_RESULT.VICTORY and "Victory" or "Defeat"
 
-		setText(uv0.resultUI:Find("Panel/Text"), i18n("volleyball_end_tip"))
+		setText(uv0.resultUI:Find("Panel/Text"), i18n("volleyball_end_tip", uv0.apartment:getConfig("name")))
 
 		if uv2 then
 			setActive(uv0.resultUI:Find("Panel/Award"), true)
-			setText(uv0.resultUI:Find("Panel/Award/Text"), i18n("volleyball_end_award", uv2.cost, uv2.delta))
+			setText(uv0.resultUI:Find("Panel/Award/Text"), i18n("volleyball_end_award", uv0.apartment:getConfig("name")))
 		else
 			setActive(uv0.resultUI:Find("Panel/Award"), false)
 		end

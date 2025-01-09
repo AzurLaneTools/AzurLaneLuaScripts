@@ -71,11 +71,6 @@ slot0.setShip = function(slot0, slot1)
 	slot0.shipVO = slot1
 
 	setActive(slot0.npcFlagTF, slot1:isActivityNpc())
-
-	if slot2 and not slot0:checkToggleActive(ShipViewConst.currentPage) then
-		triggerToggle(slot0.detailToggle, true)
-	end
-
 	slot0:setToggleEnable()
 
 	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO.skinId].rarity_bg and slot3.rarity_bg ~= ""
@@ -84,6 +79,10 @@ slot0.setShip = function(slot0, slot1)
 	slot0.shipDetailView:ActionInvokeExclusive("UpdateUI")
 	slot0.shipFashionView:ActionInvokeExclusive("UpdateUI")
 	slot0.shipEquipView:ActionInvokeExclusive("UpdateUI")
+
+	if slot2 and not slot0:checkToggleActive(ShipViewConst.currentPage) then
+		triggerToggle(slot0.detailToggle, true)
+	end
 end
 
 slot0.equipmentChange = function(slot0)

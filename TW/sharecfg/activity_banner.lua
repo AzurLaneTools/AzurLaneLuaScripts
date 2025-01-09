@@ -70,7 +70,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5184",
+		param = "5200",
 		type = 3,
 		id = 3,
 		pic = "temp3",
@@ -209,21 +209,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5736",
+		type = 3,
 		id = 7,
 		pic = "temp8",
-		param = {
-			"metacharacter",
-			{
-				autoOpenShipConfigID = 9705051
-			}
-		},
 		time = {
 			{
 				{
 					2025,
 					1,
-					2
+					9
 				},
 				{
 					0,
@@ -707,7 +702,6 @@ pg.activity_banner = {
 			4,
 			5,
 			6,
-			7,
 			8,
 			1000,
 			1001,
@@ -736,6 +730,7 @@ pg.activity_banner = {
 		[3] = {
 			2,
 			3,
+			7,
 			1003
 		},
 		[9] = {

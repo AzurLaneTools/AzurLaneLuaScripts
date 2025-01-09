@@ -20,12 +20,18 @@ slot0.register = function(slot0)
 			end
 		}))
 	end)
+	slot0.viewComponent:UpdateRoom(getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId))
 end
 
 slot0.initNotificationHandleDic = function(slot0)
 	slot0.handleDic = {
 		[GAME.APARTMENT_ROOM_INVITE_UNLOCK_DONE] = function (slot0, slot1)
 			slot2 = slot1:getBody()
+		end,
+		[ApartmentProxy.UPDATE_ROOM] = function (slot0, slot1)
+			if slot1:getBody().id == slot0.contextData.roomId then
+				slot0.viewComponent:UpdateRoom(slot2)
+			end
 		end
 	}
 end

@@ -16,7 +16,7 @@ slot0.CATCHUP_CLASSES = {
 	import("view.technology.TargetCatchup.TargetCatchupPanel4"),
 	import("view.technology.TargetCatchup.TargetCatchupPanel5")
 }
-slot0.CATCHUP_VERSION = 4
+slot0.CATCHUP_VERSION = 5
 
 slot0.getUIName = function(slot0)
 	return "TechnologySettingsUI"

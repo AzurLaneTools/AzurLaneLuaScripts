@@ -17,6 +17,9 @@ slot0.DRAG_DOWN_TOUCH = 8
 slot0.DRAG_CLICK_PARAMETER = 9
 slot0.DRAG_ANIMATION_PLAY = 10
 slot0.DRAG_CLICK_RANGE = 11
+slot0.DRAG_EXTEND_ACTION_RULE = 12
+slot0.DRAG_ANIMATION_PLAY = 10
+slot0.DRAG_CLICK_RANGE = 11
 slot0.ON_ACTION_PLAY = 1
 slot0.ON_ACTION_DRAG_CLICK = 2
 slot0.ON_ACTION_CHANGE_IDLE = 3
@@ -49,6 +52,7 @@ slot0.EVENT_REMOVE_PARAMETER_COM = "event remove parameter com "
 slot0.EVENT_CHANGE_IDLE_INDEX = "event change idle index"
 slot0.EVENT_GET_PARAMETER = "event get parameter num"
 slot0.EVENT_GET_WORLD_POSITION = "event get world position"
+slot0.EVENT_GET_DRAG_PARAMETER = "event get drag parameter"
 slot0.relation_type_drag_x = 101
 slot0.relation_type_drag_y = 102
 slot0.relation_type_action_index = 103
@@ -135,6 +139,20 @@ slot10 = function(slot0, slot1)
 		return true
 	end
 
+	if slot0.drags then
+		for slot5, slot6 in ipairs(slot0.drags) do
+			if slot6:getExtendAction() then
+				slot7, slot8 = slot6:checkActionInExtendFlag(slot1)
+
+				if slot7 then
+					return false
+				elseif slot8 then
+					return true
+				end
+			end
+		end
+	end
+
 	if slot0.enablePlayActions and #slot0.enablePlayActions > 0 and not table.contains(slot0.enablePlayActions, slot1) then
 		print(tostring(slot1) .. "不在白名单中,不播放该动作")
 
@@ -210,12 +228,14 @@ slot14 = function(slot0, slot1, slot2)
 		slot8 = slot2.focus
 		slot9 = slot2.react
 		slot10 = slot2.activeData.idle_focus
+		slot12 = uv0(slot0)
+		slot13 = false
 
-		if (not slot2.action or slot4 == "") and slot5 then
-			slot5(uv0(slot0))
+		if not slot2.action or slot4 == "" then
+			slot13 = true
 		end
 
-		if uv0(slot0) then
+		if slot11 then
 			if slot9 ~= nil then
 				slot0:setReactPos(tobool(slot9))
 			end
@@ -232,6 +252,9 @@ slot14 = function(slot0, slot1, slot2)
 					action = slot4
 				})
 				slot0:applyActiveData(slot2)
+			elseif slot13 then
+				print("id = " .. slot3 .. " 空触发成功")
+				slot0:applyActiveData(slot2)
 			end
 
 			if slot10 and slot10 == 1 then
@@ -240,9 +263,11 @@ slot14 = function(slot0, slot1, slot2)
 				slot0:live2dActionChange(false)
 			end
 
-			if slot5 then
-				slot5(slot11)
-			end
+			slot12 = actionPlaySuccess
+		end
+
+		if slot5 then
+			slot5(slot12)
 		end
 	elseif slot1 == Live2D.EVENT_ACTION_ABLE then
 		if slot0.ableFlag ~= slot2.ableFlag then
@@ -280,6 +305,18 @@ slot14 = function(slot0, slot1, slot2)
 		end
 	elseif slot1 == Live2D.EVENT_GET_WORLD_POSITION then
 		slot3 = slot0._tf:TransformPoint(Vector3(slot2.pos[1], slot2.pos[2], slot2.pos[3]))
+
+		if slot2.callback then
+			slot2.callback(slot3)
+		end
+	elseif slot1 == Live2D.EVENT_GET_DRAG_PARAMETER then
+		slot3 = 0
+
+		for slot7, slot8 in ipairs(slot0.drags) do
+			if slot8.parameterName == slot2.name then
+				slot3 = slot8.parameterValue
+			end
+		end
 
 		if slot2.callback then
 			slot2.callback(slot3)
@@ -453,13 +490,6 @@ slot16 = function(slot0)
 
 		table.insert(slot0.destinations, slot1[slot5])
 	end
-
-	slot0.timer = Timer.New(function ()
-		uv0(uv1)
-	end, 0.03333333333333333, -1)
-
-	slot0.timer:Start()
-	uv4(slot0)
 end
 
 slot0.checkActionExist = function(slot0, slot1)
@@ -604,14 +634,25 @@ slot17 = function(slot0, slot1)
 	uv4(slot0)
 	uv5(slot0)
 	uv6(slot0)
+	slot0:setEnableActions({})
+	slot0:setIgnoreActions({})
+	slot0:changeIdleIndex(0)
 
 	if slot0.live2dData.shipL2dId and #slot0.live2dData.shipL2dId > 0 then
 		uv7(slot0)
+		slot0:loadLive2dData()
+
+		slot0.timer = Timer.New(function ()
+			uv0(uv1)
+		end, 0.03333333333333333, -1)
+
+		slot0.timer:Start()
+		uv8(slot0)
 	end
 
 	slot0:addKeyBoard()
 
-	slot0.state = uv8.STATE_INITED
+	slot0.state = uv9.STATE_INITED
 
 	if slot0.delayChangeParamater and #slot0.delayChangeParamater > 0 then
 		for slot6 = 1, #slot0.delayChangeParamater do
@@ -622,11 +663,6 @@ slot17 = function(slot0, slot1)
 
 		slot0.delayChangeParamater = nil
 	end
-
-	slot0:setEnableActions({})
-	slot0:setIgnoreActions({})
-	slot0:changeIdleIndex(0)
-	slot0:loadLive2dData()
 end
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -919,6 +955,10 @@ slot0.resetL2dData = function(slot0)
 end
 
 slot0.applyActiveData = function(slot0, slot1)
+	if not slot1 then
+		return
+	end
+
 	slot2 = slot1.activeData
 	slot4 = slot2.idle_enable
 	slot5 = slot2.idle_ignore

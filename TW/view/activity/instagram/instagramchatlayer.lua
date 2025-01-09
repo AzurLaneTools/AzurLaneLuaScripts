@@ -711,11 +711,7 @@ slot0.SetEmoji = function(slot0, slot1, slot2)
 			tf(slot0).anchoredPosition = Vector2.zero
 
 			if slot0:GetComponent("Animator") then
-				slot1.enabled = false
-			end
-
-			if slot0:GetComponent("CriManaEffectUI") then
-				slot1:Pause(true)
+				slot1.enabled = true
 			end
 
 			setParent(slot0, uv0, false)

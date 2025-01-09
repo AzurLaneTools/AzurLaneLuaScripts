@@ -18428,6 +18428,162 @@ pg.ship_strengthen_blueprint = {
 			"魚雷機欄位可以裝備轟炸機"
 		}
 	},
+	[1931] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+3",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1931,
+		need_exp = 200,
+		lv = 31,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				3
+			}
+		}
+	},
+	[1932] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+4",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1932,
+		need_exp = 300,
+		lv = 32,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				4
+			}
+		}
+	},
+	[1933] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+5|【白龍雲影】技能強化為【白龍雲影 +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1933,
+		need_exp = 400,
+		lv = 33,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				5
+			}
+		},
+		change_skill = {
+			19400,
+			18400
+		}
+	},
+	[1934] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+6",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 70,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1934,
+		need_exp = 500,
+		lv = 34,
+		change_skill = "",
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				6
+			}
+		}
+	},
+	[1935] = {
+		effect_breakout = 0,
+		effect_desc = "幸運+7|【天雷罪滅】技能強化為【天雷罪滅 +】",
+		extra_desc = "",
+		effect_base = "",
+		effect_preload = "",
+		need_lv = 100,
+		effect_equipment_proficiency = "",
+		effect_skill = "",
+		effect_dialog = "",
+		special = 1,
+		effect_skin = 0,
+		id = 1935,
+		need_exp = 750,
+		lv = 35,
+		effect = {
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		effect_attr = {
+			{
+				"luck",
+				7
+			}
+		},
+		change_skill = {
+			19380,
+			18380
+		}
+	},
 	[2001] = {
 		effect_breakout = 0,
 		effect_desc = "鑑賞解鎖：登入、回港、圖鑑",
@@ -30576,6 +30732,11 @@ pg.ship_strengthen_blueprint = {
 		1928,
 		1929,
 		1930,
+		1931,
+		1932,
+		1933,
+		1934,
+		1935,
 		2001,
 		2002,
 		2003,

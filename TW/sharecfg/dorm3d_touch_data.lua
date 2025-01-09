@@ -261,7 +261,6 @@ pg.dorm3d_touch_data = {
 			}
 		},
 		ik_status = {
-			100210,
 			100210
 		}
 	},

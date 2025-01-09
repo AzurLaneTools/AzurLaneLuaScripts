@@ -10,7 +10,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399050,
-			say = "这是新的力量么，感觉不赖呢，指挥官。",
+			say = "這是新的力量嗎，感覺不賴呢，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399050,
-			say = "唔，我就夸下你吧……不愧是我所选的、与我携手共进之人。",
+			say = "唔，我就誇下你吧……不愧是我所選的、與我攜手共進之人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -42,7 +42,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399050,
-			say = "不过，接下来等着我们的，还有更多挑战——当然，我的实力可是无可置疑的！",
+			say = "不過，接下來等著我們的，還有更多挑戰——當然，我的實力可是無可置疑的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 399050,
-			say = "指挥官，就让我来展示“碾压”的真正意思吧。",
+			say = "指揮官，就讓我來展示「碾壓」的真正意思吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "我倒要看看，还有什么能与我们两人为敌！",
+			say = "我倒要看看，還有什麼能與我們兩人為敵！",
 			painting = {
 				alpha = 0.3,
 				time = 1

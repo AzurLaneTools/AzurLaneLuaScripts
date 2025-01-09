@@ -9979,6 +9979,97 @@ _G.pg.base.item_data_statistics[14005] = {
 }
 
 
+_G.pg.base.item_data_statistics[14006] = {
+	open_directly = 0,
+	name = "原型科研圖紙·S-VI",
+	type = 13,
+	display = [[
+使用後可從超稀有科研裝備(VI期)的設計圖中任意選擇一張
+兌換清單如下：
+「試作型三聯裝406mm主炮Mk6改T0設計圖」
+「試作型三聯裝150mm五式高平兩用炮T0設計圖」
+「試作型雙聯裝TbtsKC42T式150mm主炮T0設計圖」
+「試作型三聯裝380mm主炮Mle1935T0設計圖」
+「試作型55mm防空炮Gerät 58T0設計圖」
+]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14006",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13037,
+			1
+		},
+		{
+			2,
+			13039,
+			1
+		},
+		{
+			2,
+			13040,
+			1
+		},
+		{
+			2,
+			13041,
+			1
+		},
+		{
+			2,
+			13042,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13037,
+			1
+		},
+		{
+			2,
+			13039,
+			1
+		},
+		{
+			2,
+			13040,
+			1
+		},
+		{
+			2,
+			13041,
+			1
+		},
+		{
+			2,
+			13042,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[15001] = {
 	open_directly = 0,
 	name = "榮譽勳章",
@@ -13358,7 +13449,7 @@ _G.pg.base.item_data_statistics[20104] = {
 	open_directly = 0,
 	name = "科研測試數據·四期",
 	type = 18,
-	display = "研發部門總結的測試數據，<color=#92fc63>在開發船塢內使用</color>可增加10000點科研四期角色技術測試經驗進度<color=#ff5c5c>（在倉庫中解析會獲得設計原型，  無法獲得經驗）</color>",
+	display = "研發部門總結的測試數據，<color=#92fc63>在開發船塢內使用</color>可增加10000點科研四期角色技術測試經驗進度<color=#ff5c5c>（在倉庫中解析會獲得設計原型，無法獲得經驗）</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -13374,6 +13465,40 @@ _G.pg.base.item_data_statistics[20104] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20104,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20105] = {
+	open_directly = 0,
+	name = "科研測試數據·五期",
+	type = 18,
+	display = "研發部門總結的測試數據，<color=#92fc63>在開發船塢內使用</color>可增加10000點科研五期角色技術測試經驗進度<color=#ff5c5c>（在倉庫中解析會獲得設計原型，無法獲得經驗）</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20105",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20105,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
