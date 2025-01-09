@@ -12748,22 +12748,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「フリッツ・ルメイ」を確定で入手可能！（最大4隻まで）"
+	tip = "期間限定建造を累計200回行うと「ヨークタウンⅡ」を確定で入手可能！（最大4隻まで）"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ウルリッヒ・フォン・フッテン」常設実装！"
+	tip = "「クロンシュタット」「アルハンゲリスク」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ジェーナス」「マンチェスター」常設実装！"
+	tip = "「キエフ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「アルビオン」常設実装！"
+	tip = "「クロンシュタット」「ヴォルガ」常設実装！"
 }
 
 
@@ -37126,4 +37126,9 @@ _G.pg.base.gametip.dorm3d_noshiro_bed = {
 
 _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 	tip = "対応キャラのアセットをDLする必要があります"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_favor_max = {
+	tip = "親愛度が上限に達しています。プレゼントを贈っても親愛度は上昇しません。プレゼントを贈りますか？"
 }

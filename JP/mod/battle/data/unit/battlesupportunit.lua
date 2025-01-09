@@ -61,7 +61,7 @@ slot7.setWeapon = function(slot0, slot1)
 	slot6 = #slot2
 
 	for slot11, slot12 in ipairs(slot0._tmpData.fix_equip_list) do
-		if slot12 and slot12 ~= -1 then
+		if slot12 and slot12 ~= -1 and uv0.GetWeaponPropertyDataFromID(slot12).type == uv1.EquipmentType.INTERCEPT_AIRCRAFT then
 			slot0:AddWeapon(slot12, nil, , slot4[slot11 + slot6] or 1, slot11 + slot6):SetFixedFlag()
 		end
 	end

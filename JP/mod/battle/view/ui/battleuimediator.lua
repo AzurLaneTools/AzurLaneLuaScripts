@@ -140,17 +140,13 @@ slot7.InitJoystick = function(slot0)
 	slot0._joystick = slot0._ui:findTF("Stick")
 	slot1 = uv0.JOY_STICK_DEFAULT_PREFERENCE
 	slot2 = slot0._joystick
-
-	originalPrint("DPI: ", Screen.dpi, CameraMgr.instance.finalWidth, Screen.dpi / CameraMgr.instance.finalWidth * 5)
-
-	if PLATFORM == PLATFORM_WINDOWSEDITOR or slot3 <= 0 then
-		slot3 = 1
-	end
-
 	slot5 = PlayerPrefs.GetFloat("joystick_anchorX", slot1.x)
 	slot6 = PlayerPrefs.GetFloat("joystick_anchorY", slot1.y)
-	slot3 = slot3 * PlayerPrefs.GetFloat("joystick_scale", slot1.scale)
+	slot3 = 1 * PlayerPrefs.GetFloat("joystick_scale", slot1.scale)
 	slot0._joystick.localScale = Vector3(slot3, slot3, 1)
+
+	originalPrint("scale: ", slot0._joystick.localScale)
+
 	slot2.anchoredPosition = slot2.anchoredPosition * slot3
 	slot0._joystick.anchorMin = Vector2(slot5, slot6)
 	slot0._joystick.anchorMax = Vector2(slot5, slot6)

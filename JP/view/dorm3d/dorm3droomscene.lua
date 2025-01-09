@@ -2037,17 +2037,14 @@ slot0.HandleGameNotification = function(slot0, slot1, slot2)
 						slot0 = nil
 
 						seriesAsync(underscore.map((not uv0.success or {
-							"shuohua_sikao_end",
 							"shuohua_wenhou",
 							"shuohua_sikao"
 						}) and {
-							"shuohua_sikao_end",
 							"shuohua_yaotou",
 							"shuohua_sikao"
 						}, function (slot0)
 							return function (slot0)
-								warning(uv0)
-								uv1:PlaySingleAction(uv2, uv0, slot0)
+								uv0:PlaySingleAction(uv1, uv2, slot0)
 							end
 						end), function ()
 						end)
@@ -2058,21 +2055,15 @@ slot0.HandleGameNotification = function(slot0, slot1, slot2)
 						slot0.position = slot0.position + slot0.right * 0.11
 
 						seriesAsync(underscore.map({
-							"shuohua_sikao_end",
-							"shuohua_wenhou",
-							"shuohua_sikao"
+							"shuohua_gandong"
 						}, function (slot0)
 							return function (slot0)
 								uv0:PlaySingleAction(uv1, uv2, slot0)
 							end
 						end), function ()
 						end)
-					elseif uv0.operationCode == "GAME_CLOSE" then
-						uv1:PlaySingleAction(uv2, "shuohua_sikao_end")
-
-						if uv0.doTrack == false then
-							pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(3))
-						end
+					elseif uv0.operationCode == "GAME_CLOSE" and uv0.doTrack == false then
+						pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(3))
 					end
 				end
 			}, function ()
@@ -2322,7 +2313,10 @@ slot0.UpdateFavorDisplay = function(slot0)
 		setText(slot0.rtFavorLevel:Find("rank/Text"), slot0.apartment.level)
 
 		slot3, slot4 = slot0.apartment:getFavor()
+		slot5 = slot0.apartment:isMaxFavor()
 
+		setActive(slot0.rtFavorLevel:Find("Max"), slot5)
+		setActive(slot0.rtFavorLevel:Find("Text"), not slot5)
 		setText(slot0.rtFavorLevel:Find("Text"), string.format("<color=#ff6698>%d</color>/%d", slot3, slot4))
 	end
 

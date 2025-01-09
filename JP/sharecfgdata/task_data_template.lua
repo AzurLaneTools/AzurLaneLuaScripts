@@ -129252,6 +129252,1409 @@ _G.pg.base.task_data_template[21067] = {
 }
 
 
+_G.pg.base.task_data_template[21090] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904671,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』-日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21090,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65071,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21091] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904672,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』-日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21091,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65071,
+			300
+		},
+		{
+			2,
+			65070,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21092] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904673,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』-日常困难本",
+	desc = "通常海域ハードを１回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21092,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65071,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21093] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904674,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』-日常活动关卡",
+	desc = "任意のイベントステージを1回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21093,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700001,
+		1700002,
+		1700003,
+		1700004,
+		1700005,
+		1700006,
+		1700021,
+		1700022,
+		1700023,
+		1700024,
+		1700025,
+		1700026,
+		1700041,
+		1700051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65071,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5750
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21094] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904675,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关A1/C1",
+	desc = "A1かC1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21094,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700001,
+		1700021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65070,
+			1
+		},
+		{
+			2,
+			65071,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5749
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21095] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904676,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关A2/C2",
+	desc = "A2かC2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21095,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700002,
+		1700022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65070,
+			1
+		},
+		{
+			2,
+			65071,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5749
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21096] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904677,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关A3/C3",
+	desc = "A3かC3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21096,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700003,
+		1700023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65070,
+			2
+		},
+		{
+			2,
+			65071,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5749
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21097] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904678,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关B1/D1",
+	desc = "B1かD1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21097,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700004,
+		1700024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65070,
+			1
+		},
+		{
+			2,
+			65071,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5750
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21098] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904679,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关B2/D2",
+	desc = "B2かD2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21098,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700005,
+		1700025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65070,
+			1
+		},
+		{
+			2,
+			65071,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5750
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21099] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904680,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关B3/D3",
+	desc = "B3かD3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21099,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700006,
+		1700026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65070,
+			2
+		},
+		{
+			2,
+			65071,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5750
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21100] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904681,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关SP",
+	desc = "イベントステージSPをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21100,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1700041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65070,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1700025,
+			chapterId = 1700041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21101] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904682,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关D3",
+	desc = "D3クリア(2個目は取得できません)",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21101,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1700026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			241,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1700012,
+			chapterId = 1700026
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21102] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904683,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21102,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1700051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1700026,
+			chapterId = 1700051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21103] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904684,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』A1/C1的3星",
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21104",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21103,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700001,
+		1700021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5749
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21104] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904685,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』A2/C2的3星",
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21105",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21104,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700002,
+		1700022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5749
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21105] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904686,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』A3/C3的3星",
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21106",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21105,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700003,
+		1700023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5749
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21106] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904687,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』B1/D1的3星",
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21107",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21106,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700004,
+		1700024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5750
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21107] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904688,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』B2/D2的3星",
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21108",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21107,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700005,
+		1700025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5750
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21108] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904689,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』B3/D3的3星",
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21108,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1700006,
+		1700026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5750
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21109] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904690,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』外观装备箱保底",
+	desc = "装備外装箱（海）を20個開ける",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21109,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30342",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30516,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21110] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904691,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『约克城II复刻』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21110,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			459,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21111] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904726,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』前哨战七日任务1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21111,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21112] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904727,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』前哨战七日任务2",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21112,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21113] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904728,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』前哨战七日任务3",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21113,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21114] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904729,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』前哨战七日任务4",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21114,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21115] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904730,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』前哨战七日任务5",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21115,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21116] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904731,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』前哨战七日任务6",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21116,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21117] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904732,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『约克城II复刻』前哨战七日任务7",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21117,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3780,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

@@ -278,7 +278,7 @@ return {
 			hideOther = true,
 			actorName = "二人",
 			hidePaintObj = true,
-			say = "もちろんにゃ！ なるほど、その手があったね！",
+			say = " なるほど、その手があったね！もちろんにゃ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -461,7 +461,6 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -479,7 +478,6 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,
@@ -550,10 +548,9 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			paintingNoise = false,
 			side = 2,
 			bgName = "bg_story_task",
-			paintingNoise = false,
 			dir = 1,
 			actor = 101260,
 			nameColor = "#a9f548",
@@ -569,7 +566,6 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			side = 2,
 			bgName = "bg_story_task",
 			dir = 1,

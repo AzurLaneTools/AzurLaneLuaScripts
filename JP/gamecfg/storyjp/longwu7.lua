@@ -117,7 +117,7 @@ return {
 			actor = 202200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "誇らしき御主人様、シリアスたちにも協力させてください。料理の勉強も兼ねて…",
+			say = "誇らしきご主人様、シリアスたちにも協力させてください。料理の勉強も兼ねて…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			actor = 202200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "誇らしき御主人様、龍武さんと一緒に真ん中でお願い申し上げます！",
+			say = "誇らしきご主人様、龍武さんと一緒に真ん中でお願い申し上げます！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
