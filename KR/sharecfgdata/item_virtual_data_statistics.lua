@@ -168872,6 +168872,31 @@ _G.pg.base.item_virtual_data_statistics[65067] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65068] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65068,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "저항의 별 기념 훈장",
@@ -169089,6 +169114,31 @@ _G.pg.base.item_virtual_data_statistics[65508] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65508,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65509] = {
+	drop_gold_max = 0,
+	name = "군사 의뢰 Pt",
+	display = "「의뢰 보상 계획」 이벤트에서 보상으로 교환할 수 있는 Pt입니다. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/commission_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65509,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -175716,6 +175766,64 @@ _G.pg.base.item_virtual_data_statistics[86208] = {
 		{
 			401111,
 			1500
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86209] = {
+	drop_gold_max = 0,
+	name = "랜덤 게임의 밤 스킨 II",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86209,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			307084,
+			1000
+		},
+		{
+			699021,
+			1000
+		},
+		{
+			799021,
+			1000
+		},
+		{
+			199051,
+			1100
+		},
+		{
+			399071,
+			1100
+		},
+		{
+			899041,
+			1600
+		},
+		{
+			402102,
+			1600
+		},
+		{
+			303061,
+			1600
 		}
 	}
 }

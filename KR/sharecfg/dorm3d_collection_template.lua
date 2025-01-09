@@ -34,6 +34,35 @@ pg.dorm3d_collection_template = setmetatable({
 			29,
 			30
 		},
+		{
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67,
+			68,
+			70,
+			72,
+			71,
+			76,
+			77,
+			78,
+			79,
+			74,
+			75
+		},
 		[4] = {
 			31,
 			32,
@@ -85,7 +114,34 @@ pg.dorm3d_collection_template = setmetatable({
 		36,
 		37,
 		38,
-		39
+		39,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		70,
+		72,
+		71,
+		76,
+		77,
+		78,
+		79,
+		74,
+		75
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -907,6 +963,603 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/litmap04/pre_desklamp01/vfx_wupintishi01"
+		}
+	},
+	[51] = {
+		name = "삼색 경단",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "먹음직스러운 경단이 도기 그릇에 담겨\n테이블보와 조화롭게 어우러지고 있다.\n나중에 그녀와 함께 맛보도록 하자.",
+		text = "dorm3d_noshiro_chair",
+		id = 51,
+		icon = "3Ddrom_nengdai_item1",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14/vfx_wupintishi01"
+		}
+	},
+	[52] = {
+		name = "삼색떡",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "풀, 눈, 복숭아꽃\n건강, 순결, 액막이\n 쫀득한 식감 속에 그녀의 마음이 담겨 있다……",
+		text = "dorm3d_noshiro_chair",
+		id = 52,
+		icon = "3Ddrom_nengdai_item2",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15/vfx_wupintishi01"
+		}
+	},
+	[53] = {
+		name = "펼쳐진 책",
+		award = 0,
+		time = 1,
+		room_id = 2,
+		desc = [[
+사쿠라 엠파이어의 전통 다도 예절에 대해 적힌 책.
+페이지의 귀퉁이에서 세월이 느껴진다.
+노시로가 여러 번 이 책을 되읽으며 남긴 메모가
+뒷장에 꼼꼼하게 남겨져 있다.]],
+		text = "dorm3d_noshiro_bed",
+		id = 53,
+		icon = "3Ddrom_nengdai_item3",
+		model = {
+			"fbx/litmap_03/day/pre_db_book01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_book01/vfx_wupintishi01"
+		}
+	},
+	[54] = {
+		name = "침구",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "자로 잰 듯 깔끔하게 접힌 침구.\n그 날카로움에서 주인의 성실함이 느껴진다.",
+		text = "dorm3d_noshiro_bed",
+		id = 54,
+		icon = "3Ddrom_nengdai_item4",
+		model = {
+			"fbx/litmap_04/pre_db_quilt01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_04/pre_db_quilt01/vfx_wupintishi01"
+		}
+	},
+	[55] = {
+		name = "교복",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "벽에 장식된 교복.\n평소 입는 것과 큰 차이는 없지만,\n노시로가 특별히 아끼는 듯하다.",
+		text = "dorm3d_noshiro_bed",
+		id = 55,
+		icon = "3Ddrom_nengdai_item5",
+		model = {
+			"fbx/litmap_03/pre_db_cloth02_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_cloth02_01/vfx_wupintishi01"
+		}
+	},
+	[56] = {
+		name = "사쿠라 엠파이어 디저트",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "아름답게 플레이팅 된 사쿠라 엠파이어 디저트들.\n노시로가 하나하나 정성껏 만들었다.\n맛있게 먹어서 그녀의 기대에 부응하자!",
+		text = "dorm3d_noshiro_chair",
+		id = 56,
+		icon = "3Ddrom_nengdai_item6",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13/vfx_wupintishi01"
+		}
+	},
+	[57] = {
+		name = "풍경",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "창가에 장식된 풍경.\n산들바람이 불 때마다 청량한 소리가 울린다.\n노시로 말로는 더위를 물리치기에는 최고라고 한다.",
+		text = "dorm3d_noshiro_chair",
+		id = 57,
+		icon = "3Ddrom_nengdai_item7",
+		model = {
+			"fbx/litmap_03/pre_db_curtain04"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_curtain04/vfx_wupintishi01"
+		}
+	},
+	[58] = {
+		name = "풍경 2",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "창가의 풍경보다 더 깊은 소리를 낸다.\n두 가지 음색이 서로 다른 정취를 자아낼 수 있도록\n노시로가 일부러 다른 곳에 장식했다.",
+		text = "dorm3d_noshiro_table",
+		id = 58,
+		icon = "3Ddrom_nengdai_item8",
+		model = {
+			"fbx/litmap_03/pre_db_decoration06"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_decoration06/vfx_wupintishi01"
+		}
+	},
+	[59] = {
+		name = "쇼핑백",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "카페 로고가 인쇄된 쇼핑백.\n그저 평범한 쇼핑백에 지나지 않지만\n노시로는 소중히 간직하고 있는 듯하다.",
+		text = "dorm3d_noshiro_table",
+		id = 59,
+		icon = "3Ddrom_nengdai_item9",
+		model = {
+			"fbx/litmap_03/pre_db_bag01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag01/vfx_wupintishi01"
+		}
+	},
+	[60] = {
+		name = "사쿠라 엠파이어 의상",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+금빛 자수가 수 놓인 후리소데 기모노.
+횃대에 장식한 것만으로도 우아함이 느껴진다.
+노시로가 특별히 아끼는 의상으로
+입고 외출할 때는 늘 세심한 주의를 기울인다.]],
+		text = "dorm3d_noshiro_bed",
+		id = 60,
+		icon = "3Ddrom_nengdai_item10",
+		model = {
+			"fbx/litmap_03/pre_db_frame06"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_frame06/vfx_wupintishi01"
+		}
+	},
+	[61] = {
+		name = "프리저브드 플라워",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "유리 돔 안에 소중히 보관된 장미.\n꽃잎은 아직도 선명한 색채를 유지하고 있다.",
+		text = "dorm3d_noshiro_chair",
+		id = 61,
+		icon = "3Ddrom_nengdai_item11",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration07"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration07/vfx_wupintishi01"
+		}
+	},
+	[62] = {
+		name = "분재",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+작은 소나무 분재.
+뻗은 가지에서 단출한 정취가 느껴진다.
+노시로가 매일 시간을 들여 가꾸는 덕에
+이 예술품은 늘 완벽한 상태를 유지하고 있다.]],
+		text = "dorm3d_noshiro_chair",
+		id = 62,
+		icon = "3Ddrom_nengdai_item12",
+		model = {
+			"fbx/litmap_03/pre_db_bonsai03_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bonsai03_01/vfx_wupintishi01"
+		}
+	},
+	[63] = {
+		name = "스이킨쿠츠",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "대나무로 만든 통이 방 한쪽에 자리 잡고 있고,\n대통에 물이 차오를 때마다 맑은 소리를 낸다.",
+		text = "dorm3d_noshiro_chair",
+		id = 63,
+		icon = "3Ddrom_nengdai_item13",
+		model = {
+			"fbx/litmap_03/pre_db_noshirohostel01_02"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_noshirohostel01_02/vfx_wupintishi01"
+		}
+	},
+	[64] = {
+		name = "사쿠라 엠파이어 우산",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "접힌 사쿠라 엠파이어 우산이 벽에 기대어 서 있다.\n노시로가 외출할 때마다 애용한다.\n물론 비 오는 날 한정으로.",
+		text = "dorm3d_noshiro_table",
+		id = 64,
+		icon = "3Ddrom_nengdai_item14",
+		model = {
+			"fbx/litmap_03/pre_db_decoration05_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_decoration05_01/vfx_wupintishi01"
+		}
+	},
+	[65] = {
+		name = "방석",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "옅은 색상의 둥근 방석.\n보기에는 딱딱해 보이지만, 앉으면 의외로 쾌적하다.\n집무실에도 하나 놔볼까…?",
+		text = "dorm3d_noshiro_chair",
+		id = 65,
+		icon = "3Ddrom_nengdai_item15",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08/vfx_wupintishi01"
+		}
+	},
+	[66] = {
+		name = "모듬초밥",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+직접 만든 초밥과 여러 별미가 담긴 쟁반.
+균형적인 면에서도 나무랄 데 없어
+노시로의 섬세한 마음 씀씀이가 느껴진다.
+그나저나 롤 초밥까지 있는 걸 보면…
+노시로가 전통만 고수하는 스타일은 아닌가 보다.]],
+		text = "dorm3d_noshiro_table",
+		id = 66,
+		icon = "3Ddrom_nengdai_item16",
+		model = {
+			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01/vfx_wupintishi01"
+		}
+	},
+	[67] = {
+		name = "벚나무 가지",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "테이블에 놓인 벚나무 가지.\n분홍색 꽃이 가지 한가득 피어\n봄의 정취를 자아낸다.",
+		text = "dorm3d_noshiro_chair",
+		id = 67,
+		icon = "3Ddrom_nengdai_item17",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04/vfx_wupintishi01"
+		}
+	},
+	[68] = {
+		name = "책더미",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+층층이 쌓인 책더미.
+다도 말고도 꽃꽂이나 예의범절에 대한 책이 있다.
+페이지에 꽂힌 책갈피를 보니
+노시로가 새로 꽃꽂이 기술을 공부하는 모양이다.]],
+		text = "dorm3d_noshiro_bed",
+		id = 68,
+		icon = "3Ddrom_nengdai_item18",
+		model = {
+			"fbx/litmap_03/pre_db_book04_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_book04_01/vfx_wupintishi01"
+		}
+	},
+	[70] = {
+		name = "주전자",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "평범한 주전자.\n노시로가 차를 우릴 때 자주 사용한다.\n오래됐지만, 잘 관리하고 있다는 것이 느껴진다.",
+		text = "dorm3d_noshiro_bed",
+		id = 70,
+		icon = "3Ddrom_nengdai_item19",
+		model = {
+			"fbx/litmap_02/pre_db_tableware09"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_tableware09/vfx_wupintishi01"
+		}
+	},
+	[72] = {
+		name = "족자",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+서재의 구석에 놓인 두루마리의 끈은
+꼼꼼하고 단단히 고정되어 있다.
+펼쳐보지는 않았지만
+노시로의 섬세함이 느껴진다.
+]],
+		text = "dorm3d_noshiro_bed",
+		id = 72,
+		icon = "3Ddrom_nengdai_item20",
+		model = {
+			"fbx/litmap_03/pre_db_cupboard08_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_cupboard08_01/vfx_wupintishi01"
+		}
+	},
+	[71] = {
+		name = "석등",
+		award = 0,
+		time = 1,
+		room_id = 2,
+		desc = "사쿠라 엠파이어의 전통적인 정원등을 모티브로 한 석재 플로어 조명.\n차분한 분위기를 연출해 준다.",
+		text = "dorm3d_sirius_chair",
+		id = 71,
+		icon = "3Ddrom_nengdai_item21",
+		model = {
+			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02/vfx_wupintishi01"
+		}
+	},
+	[76] = {
+		name = "가습기",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = [[
+하얀 가습기가 조용히 작동하며,
+가끔 희미한 진동음을 낸다.
+방 구석에서 공기를 늘 촉촉하게 유지해 준다.
+노시로 말로는 피부에 좋다고 한다.]],
+		text = "dorm3d_noshiro_bed",
+		id = 76,
+		icon = "3Ddrom_nengdai_item24",
+		model = {
+			"fbx/litmap_03/night/pre_db_electrical08"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_electrical08/vfx_wupintishi01"
+		}
+	},
+	[77] = {
+		name = "스킨케어 오일",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "유리병에 담긴 오일이 은은한 향기를 뿜어낸다.\n노시로 말로는 동백에서 추출했다고 한다.\n그녀가 좋아하는 제품 중 하나이기도 하다.",
+		text = "dorm3d_noshiro_bed",
+		id = 77,
+		icon = "3Ddrom_nengdai_item25",
+		model = {
+			"fbx/litmap_03/night/pre_db_cosmetic10"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_cosmetic10/vfx_wupintishi01"
+		}
+	},
+	[78] = {
+		name = "향수병",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "심플한 디자인의 향수병.\n유리에서 부드러운 빛을 반사한다.\n잘 보니, 예전에 노시로에게 선물한 것 같다.",
+		text = "dorm3d_noshiro_bed",
+		id = 78,
+		icon = "3Ddrom_nengdai_item26",
+		model = {
+			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c/vfx_wupintishi01"
+		}
+	},
+	[79] = {
+		name = "아로마 디퓨저",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "섬세한 아로마로 방안을 가득 채워주는\n포근한 향이 나는 디퓨저.\n늘 노시로에게서 맡을 수 있는 향기다.",
+		text = "dorm3d_noshiro_bed",
+		id = 79,
+		icon = "3Ddrom_nengdai_item27",
+		model = {
+			"fbx/litmap_04/night/pre_db_cosmetic02a_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_04/night/pre_db_cosmetic02a_01/vfx_wupintishi01"
+		}
+	},
+	[74] = {
+		name = "행등",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "방 모퉁이에 놓인 네모난 목제 행등.\n창호지를 통해 새어나온 불빛이 부드러운 분위기를 자아낸다.\n노시로가 정성껏 고른 인테리어 소품 중 하나다.",
+		text = "dorm3d_noshiro_bed",
+		id = 74,
+		icon = "3Ddrom_nengdai_item23",
+		model = {
+			"fbx/litmap_03/night/pre_db_chandelier11_on"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_chandelier11_on/vfx_wupintishi01"
+		}
+	},
+	[75] = {
+		name = "플로어 스탠드",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "부드러운 빛을 발하는 심플한 사쿠라 엠파이어 스타일 플로어 스탠드.\n커버 아래에는 작은 풍경 장식이 달려 있어\n노시로와 함께 조용한 시간을 보내고는 한다.",
+		text = "dorm3d_noshiro_chair",
+		id = 75,
+		icon = "3Ddrom_nengdai_item22",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on/vfx_wupintishi01"
 		}
 	}
 }

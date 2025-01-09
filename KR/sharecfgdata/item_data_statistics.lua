@@ -93726,6 +93726,73 @@ _G.pg.base.item_data_statistics[81208] = {
 }
 
 
+_G.pg.base.item_data_statistics[81209] = {
+	open_directly = 1,
+	name = "게임의 밤 패키지·II",
+	type = 17,
+	display = "랜덤 스킨, 상급 지향형 강화 유닛·7기×2, 다이아×2025, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai20",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998311",
+	id = 81209,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86209,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[99952] = {
 	open_directly = 0,
 	name = "SP 해역 드랍 관련 우편",

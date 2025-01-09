@@ -100,11 +100,53 @@ pg.dorm3d_camera_photo_frame = {
 			0
 		}
 	},
+	[1006] = {
+		name = "트렌드",
+		rarity = 3,
+		farme_path = "photo_frame_ins",
+		frameTfName = "InsFrame",
+		desc = "획득하면 카메라 기능에서 「트렌드」 프레임 적용 가능",
+		unlock_text = "친밀도 Lv5 달성 시 오픈",
+		id = 1006,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_ins_small",
+		unlock = {
+			1,
+			30221,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1007] = {
+		name = "필름",
+		rarity = 3,
+		farme_path = "photo_frame_film",
+		frameTfName = "FilmFrame",
+		desc = "획득하면 카메라 기능에서 「필름」 프레임 적용 가능",
+		unlock_text = "친밀도 Lv13 달성 시 오픈",
+		id = 1007,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_film_small",
+		unlock = {
+			1,
+			30221,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
 	all = {
 		1001,
 		1002,
 		1003,
 		1004,
-		1005
+		1005,
+		1006,
+		1007
 	}
 }

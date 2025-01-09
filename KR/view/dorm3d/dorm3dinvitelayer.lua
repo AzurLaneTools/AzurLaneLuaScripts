@@ -133,7 +133,7 @@ slot0.ShowSelectPanel = function(slot0)
 					elseif uv0[uv1] == "room" then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_role_locked"))
 					elseif uv0[uv1] == "download" then
-						pg.TipsMgr.GetInstance():ShowTips("please exit and download character resource in build scene ~")
+						pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_guide_beach_tip"))
 					end
 				end, SFX_PANEL)
 				eachChild(slot2:Find("base/operation"), function (slot0)
@@ -165,18 +165,20 @@ slot0.ShowSelectPanel = function(slot0)
 end
 
 slot0.UpdateSelectableCard = function(slot0, slot1, slot2, slot3)
-	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d_%d", slot2, slot0.contextData.roomId), "", slot1:Find("Image"))
+	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", Apartment.New({
+		ship_group = slot2
+	}):GetSkinModelID(slot0.room:getConfig("tag"))), "", slot1:Find("Image"))
 	GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot2), "", slot1:Find("name"))
 
-	slot5 = not getProxy(ApartmentProxy):getApartment(slot2) or slot4:needDownload()
+	slot6 = not getProxy(ApartmentProxy):getApartment(slot2) or slot5:needDownload()
 
-	setActive(slot1:Find("lock"), slot5)
-	setActive(slot1:Find("mask"), slot5)
-	setActive(slot1:Find("unlock"), not slot5)
-	setActive(slot1:Find("favor_level"), slot4)
+	setActive(slot1:Find("lock"), slot6)
+	setActive(slot1:Find("mask"), slot6)
+	setActive(slot1:Find("unlock"), not slot6)
+	setActive(slot1:Find("favor_level"), slot5)
 
-	if slot4 then
-		setText(slot1:Find("favor_level/Text"), slot4.level)
+	if slot5 then
+		setText(slot1:Find("favor_level/Text"), slot5.level)
 	end
 
 	onToggle(slot0, slot1, function (slot0)
@@ -199,8 +201,11 @@ slot0.HideSelectPanel = function(slot0)
 	setActive(slot0.rtSelectPanel, false)
 end
 
+slot0.UpdateRoom = function(slot0, slot1)
+	slot0.room = slot1
+end
+
 slot0.didEnter = function(slot0)
-	slot0.room = getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId)
 	slot0.selectIds = underscore.filter(slot0.contextData.groupIds or {}, function (slot0)
 		return uv0.room.unlockCharacter[slot0] and tobool(getProxy(ApartmentProxy):getApartment(slot0)) and not Apartment.New({
 			ship_group = slot0

@@ -13478,6 +13478,102 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[523] = {
+		ship_group = 40501,
+		name = "Bismarck",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "bisimai_4",
+		id = 523,
+		group_id = 523,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[524] = {
+		ship_group = 49905,
+		name = "Aegir",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "aijier_4",
+		id = 524,
+		group_id = 524,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[525] = {
+		ship_group = 20135,
+		name = "Janus",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yanusi_6",
+		id = 525,
+		group_id = 525,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[526] = {
+		ship_group = 69902,
+		name = "Napoli",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "nabulesi_2",
+		id = 526,
+		group_id = 526,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[527] = {
+		ship_group = 79902,
+		name = "Admiral Nakhimov",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "naximofu_2",
+		id = 527,
+		group_id = 527,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[528] = {
+		ship_group = 19905,
+		name = "Halford",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "haerfude_2",
+		id = 528,
+		group_id = 528,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[529] = {
+		ship_group = 89904,
+		name = "Bayard",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "beiyade_2",
+		id = 529,
+		group_id = 529,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[530] = {
+		ship_group = 39907,
+		name = "Daisen",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "dashan_2",
+		id = 530,
+		group_id = 530,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -13990,6 +14086,14 @@ pg.activity_ins_template = {
 		519,
 		520,
 		521,
-		522
+		522,
+		523,
+		524,
+		525,
+		526,
+		527,
+		528,
+		529,
+		530
 	}
 }

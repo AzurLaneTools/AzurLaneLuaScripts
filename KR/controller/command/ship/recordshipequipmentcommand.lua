@@ -76,15 +76,16 @@ slot0.execute = function(slot0, slot1)
 			end
 		end
 
-		slot16 = slot13
+		slot16 = slot8:GetSpWeapon()
+		slot17 = slot13 and slot13:GetConfigID() or 0
+		slot18 = slot16 and slot16:GetConfigID() or 0
+		slot19 = nil
 
-		if slot13 and (not slot13:IsReal() or slot13:GetShipId() ~= nil and slot13:GetShipId() ~= slot8.id) then
+		if slot13 and slot17 ~= slot18 and (not slot11:GetSameTypeSpWeapon(slot13) or slot19:GetConfigID() ~= slot17) then
 			table.insert(slot15, string.format("<color=%s>%s+%s</color>", uv0[slot13:GetRarity()], slot13:GetName(), slot13:GetLevel() - 1))
-
-			slot16 = slot11:GetSameTypeSpWeapon(slot13)
 		end
 
-		slot17 = function(slot0)
+		slot20 = function(slot0)
 			slot1 = {}
 
 			for slot5, slot6 in ipairs(slot0) do
@@ -114,25 +115,25 @@ slot0.execute = function(slot0, slot1)
 
 			if not LOCK_SP_WEAPON then
 				table.insert(slot1, function (slot0)
-					slot1 = uv0:GetSpWeapon()
+					if uv0 then
+						if uv1 ~= uv2 then
+							if not uv3 then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_noequip"))
 
-					if uv1 then
-						if not uv2 then
-							pg.TipsMgr.GetInstance():ShowTips(i18n("ship_quick_change_noequip"))
+								return
+							else
+								uv4:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
+									spWeaponUid = uv3:GetUID(),
+									shipId = uv5,
+									callback = slot0
+								})
 
-							return
-						elseif not slot1 or slot1:GetUID() ~= uv2:GetUID() then
-							uv3:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
-								spWeaponUid = uv2:GetUID(),
-								shipId = uv4,
-								callback = slot0
-							})
-
-							return
+								return
+							end
 						end
-					elseif slot1 then
-						uv3:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
-							shipId = uv4,
+					elseif uv6 then
+						uv4:sendNotification(GAME.EQUIP_SPWEAPON_TO_SHIP, {
+							shipId = uv5,
 							callback = slot0
 						})
 
@@ -147,7 +148,7 @@ slot0.execute = function(slot0, slot1)
 		end
 
 		if #slot15 > 0 then
-			slot18 = ""
+			slot21 = ""
 
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("no_found_record_equipment", #slot15 > 2 and table.concat(_.slice(slot15, 1, 2), ",") .. i18n("word_wait") or table.concat(slot15, ",")),
@@ -156,7 +157,7 @@ slot0.execute = function(slot0, slot1)
 				end
 			})
 		else
-			slot17(slot12)
+			slot20(slot12)
 		end
 	end
 

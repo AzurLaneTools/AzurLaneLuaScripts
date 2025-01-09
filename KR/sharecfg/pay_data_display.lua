@@ -72,6 +72,8 @@ pg.pay_data_display = setmetatable({
 		76,
 		82,
 		83,
+		84,
+		85,
 		1000,
 		1001,
 		1002,
@@ -7301,7 +7303,7 @@ pg.base.pay_data_display = {
 		name_display = "게임의 밤 패키지·I",
 		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
 		subject = "게임의 밤 패키지·I",
-		money = 36300,
+		money = 37000,
 		limit_arg = 1,
 		tag = 2,
 		gem = 0,
@@ -7415,7 +7417,7 @@ pg.base.pay_data_display = {
 		name_display = "현란한 밤 패키지·I 복각",
 		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
 		subject = "현란한 밤 패키지·I 복각",
-		money = 36300,
+		money = 37000,
 		limit_arg = 1,
 		tag = 2,
 		gem = 0,
@@ -7515,6 +7517,234 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81200,
+				1
+			}
+		}
+	},
+	[84] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다.\n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "게임의 밤 패키지·II",
+		first_pay_double = 0,
+		name_display = "게임의 밤 패키지·II",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "게임의 밤 패키지·II",
+		money = 37000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai20",
+		skin_inquire_relation = 86209,
+		id_str = "alkrgift114",
+		extra_service = 3,
+		id = 84,
+		airijp_id = "com.yostarjp.azurlane.diamond172",
+		extra_service_item = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86209,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81209,
+				1
+			}
+		}
+	},
+	[85] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다.\n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "현란한 밤 패키지·II (복각)",
+		first_pay_double = 0,
+		name_display = "현란한 밤 패키지·II (복각)",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "현란한 밤 패키지·II (복각)",
+		money = 37000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai10",
+		skin_inquire_relation = 86201,
+		id_str = "alkrgift115",
+		extra_service = 3,
+		id = 85,
+		airijp_id = "com.yostarjp.azurlane.diamond173",
+		extra_service_item = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86201,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81201,
 				1
 			}
 		}
@@ -11615,11 +11845,11 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
 		type = 0,
-		name = "전투 UI·크리스마스",
+		name = "성탄설경 테마 패키지",
 		first_pay_double = 0,
-		name_display = "전투 UI·크리스마스",
+		name_display = "성탄설경 테마 패키지",
 		descrip = "전투 UI 테마·크리스마스를 획득할 수 있습니다.",
-		subject = "전투 UI·크리스마스",
+		subject = "성탄설경 테마 패키지",
 		money = 19000,
 		limit_arg = 0,
 		tag = 2,
@@ -11683,11 +11913,11 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
 		type = 0,
-		name = "전투 UI·크리스마스 (기초판)",
+		name = "성탄설경 테마 패키지(기초)",
 		first_pay_double = 0,
-		name_display = "전투 UI·크리스마스 (기초판)",
+		name_display = "성탄설경 테마 패키지(기초)",
 		descrip = "전투 UI 테마·크리스마스를 획득할 수 있습니다.",
-		subject = "전투 UI·크리스마스 (기초판)",
+		subject = "성탄설경 테마 패키지(기초)",
 		money = 19000,
 		limit_arg = 1,
 		tag = 2,
@@ -11757,11 +11987,11 @@ pg.base.pay_data_display = {
 		limit_group = 102,
 		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
 		type = 0,
-		name = "전투 UI·크리스마스 (럭셔리판)",
+		name = "성탄설경 테마 패키지(럭셔리)",
 		first_pay_double = 0,
-		name_display = "전투 UI·크리스마스 (럭셔리판)",
+		name_display = "성탄설경 테마 패키지(럭셔리)",
 		descrip = "전투 UI·크리스마스, 다이아 3,060개를 획득할 수 있습니다.",
-		subject = "전투 UI·크리스마스 (럭셔리판)",
+		subject = "성탄설경 테마 패키지(럭셔리)",
 		money = 56000,
 		limit_arg = 1,
 		tag = 2,

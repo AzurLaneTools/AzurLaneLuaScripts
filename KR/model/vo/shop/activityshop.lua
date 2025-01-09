@@ -42,6 +42,12 @@ slot0.getSortGoods = function(slot0)
 		table.insert(slot1, slot6)
 	end
 
+	slot0:SortGoods(slot1)
+
+	return slot1
+end
+
+slot0.SortGoods = function(slot0, slot1)
 	table.sort(slot1, CompareFuncs({
 		function (slot0)
 			return (slot0:canPurchase() or slot0:CheckArgLimit()) and slot0:CheckCntLimit() and 0 or 1
@@ -58,6 +64,35 @@ slot0.getSortGoods = function(slot0)
 			return slot0.id
 		end
 	}))
+end
+
+slot0.GetSplitNameCodes = function(slot0)
+	slot1 = {}
+
+	if slot0.config and slot0.config.config_client and slot0.config.config_client.category then
+		for slot5, slot6 in ipairs(slot0.config.config_client.category) do
+			table.insert(slot1, slot6[1])
+		end
+	end
+
+	return slot1
+end
+
+slot0.GetSplitCommodities = function(slot0)
+	slot1 = {}
+
+	if slot0.config and slot0.config.config_client and slot0.config.config_client.category then
+		for slot5, slot6 in ipairs(slot0.config.config_client.category) do
+			slot7 = {}
+
+			for slot11, slot12 in ipairs(slot6[2]) do
+				table.insert(slot7, slot0.goods[slot12])
+			end
+
+			slot0:SortGoods(slot7)
+			table.insert(slot1, slot7)
+		end
+	end
 
 	return slot1
 end

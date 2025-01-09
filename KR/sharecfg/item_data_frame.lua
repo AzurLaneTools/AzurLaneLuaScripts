@@ -470,11 +470,11 @@ pg.item_data_frame = {
 	},
 	[333] = {
 		name = "하늘 밖의 별빛",
-		gain_by = "星光下的余晖",
+		gain_by = "별빛 아래의 석양 ",
 		time_second = 0,
 		id = 333,
 		time_limit_type = 0,
-		desc = "추후 진행 예정인 이벤트에서 획득 가능",
+		desc = "「천지 만상은 별들이 지켜보는 아래에 있나니」",
 		scene = {}
 	},
 	[401] = {
@@ -610,6 +610,24 @@ pg.item_data_frame = {
 		id = 1002,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>언제든 따뜻한 홍차가 고요히 당신을 기다리고 있다. </color>\n「교류 숙소」에서 시리우스의 친밀도 보상으로 획득 가능",
+		scene = {}
+	},
+	[1003] = {
+		name = "금벚꽃의 풍화",
+		gain_by = "",
+		time_second = 0,
+		id = 1003,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>하늘에 휘날리는 금빛 벚꽃이 보여주는 긍지와 늠름한 마음. </color>\n「교류 숙소」의 노시로 친밀도 Lv 보상",
+		scene = {}
+	},
+	[1004] = {
+		name = "꽃비와 돌아가는 새",
+		gain_by = "",
+		time_second = 0,
+		id = 1004,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>사쿠라 엠파이어 우산 아래서 바라보는, 누군가의 애틋한 마음</color>\n「교류 숙소」의 노시로 친밀도 Lv 보상",
 		scene = {}
 	},
 	[10001] = {
@@ -789,6 +807,8 @@ pg.item_data_frame = {
 		607,
 		1001,
 		1002,
+		1003,
+		1004,
 		10001,
 		10002,
 		10003,

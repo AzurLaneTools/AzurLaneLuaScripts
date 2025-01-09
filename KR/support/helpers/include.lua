@@ -9,6 +9,7 @@ require("Support/Helpers/CameraHelper")
 require("Support/Helpers/MediaSaver")
 require("Support/Helpers/TimelineSupport")
 
+TimelinePlayer = require("Support/Helpers/TimelinePlayer")
 ReflectionHelp = require("Support/Helpers/ReflectionHelp")
 Heap = require("Support/Helpers/Heap")
 ProxyRegister = require("Support/Helpers/ProxyRegister")

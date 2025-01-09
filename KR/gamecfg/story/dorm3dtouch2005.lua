@@ -1,0 +1,56 @@
+return {
+	dialogbox = 2,
+	alpha = 0,
+	hideSkip = true,
+	hideAuto = true,
+	hideRecord = true,
+	mode = 2,
+	id = "DORM3DTOUCH2005",
+	placeholder = {
+		"dorm3d"
+	},
+	scripts = {
+		{
+			actorName = 30221,
+			side = 2,
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
+			say = "이걸로 {dorm3d}께… 힘이 될 수 있다면…!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			},
+			dispatcher = {
+				name = STORY_EVENT.TEST,
+				data = {
+					op_list = {
+						{
+							param = "Play",
+							name = "table_sit_shou_start",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							param = "Play",
+							name = "Face_weixiao",
+							time = 0,
+							type = "action",
+							skip = true
+						},
+						{
+							skip = false,
+							time = 2.5,
+							type = "wait"
+						}
+					}
+				},
+				callbackData = {
+					hideUI = false,
+					name = STORY_EVENT.TEST_DONE
+				}
+			}
+		}
+	}
+}

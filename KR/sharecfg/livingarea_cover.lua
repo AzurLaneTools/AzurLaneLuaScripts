@@ -48,10 +48,49 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100103_icon"
 	},
+	[100201] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "창가에서",
+		nighttime_res = "100201_bg_night",
+		daytime_res = "100201_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「창가에서」으로 적용 가능",
+		unlock_text = "노시로 친밀도 Lv2 달성 시 오픈",
+		id = 100201,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100201_icon"
+	},
+	[100202] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "오후의 초대",
+		nighttime_res = "100202_bg_night",
+		daytime_res = "100202_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「오후의 초대」로 적용 가능",
+		unlock_text = "노시로 친밀도 Lv7 달성 시 오픈",
+		id = 100202,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100202_icon"
+	},
+	[100203] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "휴식 시간",
+		nighttime_res = "100203_bg_night",
+		daytime_res = "100203_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「휴식 시간」으로 적용 가능",
+		unlock_text = "노시로 친밀도 Lv10 달성 시 오픈",
+		id = 100203,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100203_icon"
+	},
 	all = {
 		0,
 		100101,
 		100102,
-		100103
+		100103,
+		100201,
+		100202,
+		100203
 	}
 }

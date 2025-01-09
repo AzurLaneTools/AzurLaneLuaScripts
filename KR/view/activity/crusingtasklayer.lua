@@ -173,14 +173,14 @@ slot0.setActivity = function(slot0, slot1)
 	end
 
 	slot0.taskGroupList = {}
-	slot2 = slot1:getNDay()
+	slot2 = pg.TimeMgr.GetInstance():GetServerOverWeek(slot1:getStartTime())
 	slot6 = "config_data"
 
 	for slot6, slot7 in ipairs(slot1:getConfig(slot6)) do
 		slot8 = pg.battlepass_task_group[slot7]
 		slot0.taskGroupList[slot8.group_mask] = {
 			task_group = slot8.task_group,
-			isLock = slot2 < slot8.time
+			isLock = slot2 < slot8.group_mask
 		}
 	end
 end

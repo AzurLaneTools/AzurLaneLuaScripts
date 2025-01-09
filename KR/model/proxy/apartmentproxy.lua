@@ -269,7 +269,7 @@ slot0.PendingRandom = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot1) do
 		if underscore.detect(pg.dorm3d_rooms[slot0].character_welcome, function (slot0)
 			return slot0[1] == uv0
-		end)[2] > math.random() * 10000 then
+		end) and slot8[2] > math.random() * 10000 then
 			slot2[slot7] = {}
 		end
 	end

@@ -1,14 +1,11 @@
 return {
+	hideRecord = true,
 	dialogbox = 2,
+	mode = 2,
+	id = "DORM3DGIFTFEEDBACK1",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
-	hideRecord = true,
-	mode = 2,
-	id = "DORM3DGIFTFEEDBACK1",
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			actorName = 20220,
@@ -23,7 +20,7 @@ return {
 					op_list = {
 						{
 							skip = true,
-							name = "jidong",
+							name = "ganjin",
 							type = "action"
 						},
 						{

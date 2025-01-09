@@ -1,14 +1,11 @@
 return {
+	hideRecord = true,
 	dialogbox = 2,
+	mode = 2,
+	id = "DORM3DPAIDGIFTFEEDBACK2",
 	alpha = 0,
 	hideSkip = true,
 	hideAuto = true,
-	hideRecord = true,
-	mode = 2,
-	id = "DORM3DPAIDGIFTFEEDBACK2",
-	placeholder = {
-		"dorm3d"
-	},
 	scripts = {
 		{
 			stopbgm = true,
@@ -28,16 +25,16 @@ return {
 								[0] = {
 									{
 										pos = {
-											50,
-											-30
+											0,
+											-350
 										}
 									}
 								},
 								{
 									{
 										pos = {
-											0,
-											50
+											150,
+											-50
 										}
 									}
 								}

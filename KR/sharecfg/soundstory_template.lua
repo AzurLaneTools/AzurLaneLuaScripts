@@ -850,6 +850,59 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "용신님의 귀한 우동?",
+		story_resource_JP = "soundStory19_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "사와다 히메",
+		audition_resource_JP = "ss-39906-1",
+		overview = "새해를 맞이하여 전통 방식으로 우동 만들기에 여념이 없는 용신님.\n미끄러운 반죽을 상대로 고전하는 그녀를 구할 수 있는 것은 오로지 지휘관뿐.",
+		order = 2,
+		audition_text = "뭉친 부분은…… 발로 확실하게 풀어주고…… 그래도 아직 부족하면…… 다시……",
+		ship_id = 39906,
+		id = 19,
+		captions_color = "#2e2f31",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					9
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					15
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -868,6 +921,7 @@ pg.soundstory_template = {
 		15,
 		16,
 		17,
-		18
+		18,
+		19
 	}
 }

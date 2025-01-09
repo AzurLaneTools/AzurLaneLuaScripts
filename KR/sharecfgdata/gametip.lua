@@ -34789,12 +34789,12 @@ _G.pg.base.gametip.dorm3d_role_assets_download = {
 
 
 _G.pg.base.gametip.volleyball_end_tip = {
-	tip = "시리우스와 즐거운 오후를 보냈다"
+	tip = "$1(와)과 즐거운 오후를 보냈다."
 }
 
 
 _G.pg.base.gametip.volleyball_end_award = {
-	tip = "행동력 -1, 시리우스의 친밀도 +40"
+	tip = "행동력 -1, $1 친밀도 +40"
 }
 
 
@@ -35688,6 +35688,141 @@ _G.pg.base.gametip.dorm3d_shop_gift_owned = {
 }
 
 
+_G.pg.base.gametip.dorm3d_accompany_not_download = {
+	tip = "$1의 리소스를 먼저 다운로드해야 합니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
+	tip = "월"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day2 = {
+	tip = "화"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
+	tip = "수"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
+	tip = "목"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day5 = {
+	tip = "금"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
+	tip = "토"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day7 = {
+	tip = "일"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
+	tip = "오늘 계획을 기억하자"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
+	tip = "오늘 계획을 알려줘:"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior1 = {
+	tip = "독서"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior2 = {
+	tip = "그림 그리기"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior3 = {
+	tip = "공부"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior4 = {
+	tip = "무용"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior5 = {
+	tip = "구기"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
+	tip = "운동"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
+	tip = "청소"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
+	tip = "요리"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior9 = {
+	tip = "세탁"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior10 = {
+	tip = "게임"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
+	tip = "산책"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior12 = {
+	tip = "수면"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
+	tip = "달인"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate2 = {
+	tip = "초인"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate3 = {
+	tip = "좋아함"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate4 = {
+	tip = "기호"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate5 = {
+	tip = "밸런스"
+}
+
+
 _G.pg.base.gametip.BoatAdGame_minigame_help = {
 	tip = {
 		{
@@ -36103,4 +36238,54 @@ _G.pg.base.gametip.word_got_pt = {
 
 _G.pg.base.gametip.word_activity_not_open = {
 	tip = "진행 기간 외"
+}
+
+
+_G.pg.base.gametip.activity_shop_template_normaltext = {
+	tip = "活動常規道具兌換 "
+}
+
+
+_G.pg.base.gametip.activity_shop_template_extratext = {
+	tip = "活動追趕道具兌換 "
+}
+
+
+_G.pg.base.gametip.dorm3d_now_is_downloading = {
+	tip = "리소스 다운로드 중"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_download_complete = {
+	tip = "다운로드 완료"
+}
+
+
+_G.pg.base.gametip.dorm3d_delete_finish = {
+	tip = "삭제했습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_tip = {
+	tip = "시리우스의 방을 둘러보자"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_table = {
+	tip = "툇마루"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_chair = {
+	tip = "거실"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_bed = {
+	tip = "침실"
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_beach_tip = {
+	tip = "해당 캐릭터의 리소스를 다운로드해야 합니다."
 }
