@@ -473,7 +473,6 @@ slot0.initScene = function(slot0)
 
 	setActive(slot0.cameras[uv0.CAMERA.PHOTO_FREE]:Find("PhotoFree Camera"), true)
 
-	slot0.compDolly = slot0.cameraAim:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Body)
 	slot6 = slot0.cameras[uv0.CAMERA.POV]
 	slot0.compPovAim = slot6:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
 	slot0.cameraRoot = slot4
@@ -1698,22 +1697,6 @@ slot0.ShiftZone = function(slot0, slot1, slot2)
 			slot0()
 		end
 	}, slot2)
-end
-
-slot0.WalkByRootMotionLoop = function(slot0, slot1, slot2)
-	if slot1.pathPending then
-		slot2:SetFloat("Speed", 0)
-
-		return
-	end
-
-	slot2:SetFloat("Speed", 1)
-
-	if slot1.path.corners.Length > 1 then
-		slot5 = slot4[1] - slot1.transform.position
-		slot5.y = 0
-		slot1.transform.rotation = Quaternion.Lerp(slot1.transform.rotation, Quaternion.LookRotation(slot5), Damp(1, 1, Time.deltaTime))
-	end
 end
 
 slot0.ActiveCamera = function(slot0, slot1)
