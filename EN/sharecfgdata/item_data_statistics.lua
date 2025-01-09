@@ -40473,6 +40473,58 @@ _G.pg.base.item_data_statistics[40053] = {
 }
 
 
+_G.pg.base.item_data_statistics[40054] = {
+	open_directly = 1,
+	name = "Outfit Pack (Kronshtadt)",
+	type = 17,
+	display = "Contains loads of valuable rewards.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4055",
+	id = 40054,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59561,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "Promise Crate",
@@ -86984,6 +87036,51 @@ _G.pg.base.item_data_statistics[59560] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59561] = {
+	open_directly = 0,
+	name = "Outfit Voucher (Kronshtadt)",
+	type = 26,
+	display = "Can be used from your Depot to select 1 skin of your choosing.\n(<color=#ff5c5c>You may only choose from the skins presented. If you already own all the skins, you will instead receive a Skin Voucher.</color>)",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			718011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			718011
+		},
+		0,
+		59552
+	},
 	limit = {}
 }
 

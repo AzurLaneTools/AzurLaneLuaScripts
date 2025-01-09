@@ -262,7 +262,7 @@ return {
 	name = "",
 	init_effect = "jinengchufared",
 	id = 16921,
-	time = 8,
+	time = 0,
 	picture = "",
 	desc = "自身机动提高，航速提升",
 	stack = 1,

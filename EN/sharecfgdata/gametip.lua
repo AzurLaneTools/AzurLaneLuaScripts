@@ -12834,22 +12834,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Fritz Rumey guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Yorktown II guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Ulrich von Hutten, Prinz Adalbert added to standard build pool!"
+	tip = "Kronshtadt and Arkhangelsk added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Janus, Manchester added to standard build pool!"
+	tip = "Kiev added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Albion added to standard build pool!"
+	tip = "Kronshtadt and Volga added to standard build pool!"
 }
 
 
@@ -37031,4 +37031,9 @@ _G.pg.base.gametip.dorm3d_noshiro_bed = {
 
 _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 	tip = "Please download assets for the corresponding character first "
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_favor_max = {
+	tip = "You have reached the maximum Intimacy level, and giving this gift won't increase Intimacy further, continue?"
 }

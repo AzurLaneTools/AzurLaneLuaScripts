@@ -1595,6 +1595,16 @@ pg.player_resource = {
 		name = "skinTicket84",
 		itemid = 65068
 	},
+	[458] = {
+		id = 458,
+		name = "meixierxing_pt2",
+		itemid = 65071
+	},
+	[459] = {
+		id = 459,
+		name = "skinTicket85",
+		itemid = 65072
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2958,6 +2968,12 @@ pg.player_resource = {
 		skinTicket84 = {
 			457
 		},
+		meixierxing_pt2 = {
+			458
+		},
+		skinTicket85 = {
+			459
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3522,6 +3538,8 @@ pg.player_resource = {
 		455,
 		456,
 		457,
+		458,
+		459,
 		950,
 		951,
 		952,

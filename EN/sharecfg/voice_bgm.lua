@@ -81,9 +81,9 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "newyear2",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "newyear2"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-ironblood-light",
+		default_bgm = "theme-schoolfuture",
 		special_bgm = "",
-		bgm = "story-ironblood-light"
+		bgm = "theme-schoolfuture"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1846,13 +1846,38 @@ pg.voice_bgm = {
 		bgm = "story-newsakura"
 	},
 	NavalAcademyScene = {
-		default_bgm = "newyear2",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "newyear2"
+		bgm = "main"
 	},
 	SkinMagazinePage7 = {
 		default_bgm = "story-richang-partynight",
 		special_bgm = "",
 		bgm = "story-richang-partynight"
+	},
+	AmericanIIPtPage = {
+		default_bgm = "theme-aostelab",
+		special_bgm = "",
+		bgm = "theme-aostelab"
+	},
+	SeaStarsPage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	AmericanIISkinRePage = {
+		default_bgm = "theme-starsea-core",
+		special_bgm = "",
+		bgm = "theme-starsea-core"
+	},
+	HornetLoginRePage = {
+		default_bgm = "theme-starsea-explo",
+		special_bgm = "",
+		bgm = "theme-starsea-explo"
+	},
+	OrientedFoldingAmericanIIMainPage = {
+		default_bgm = "Beverly_short_inst",
+		special_bgm = "",
+		bgm = "Beverly_short_inst"
 	}
 }

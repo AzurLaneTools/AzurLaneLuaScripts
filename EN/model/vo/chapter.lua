@@ -620,8 +620,14 @@ slot0.SupportShipTypeFilter = function(slot0)
 end
 
 slot0.activeAlways = function(slot0)
-	if getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isActivity() and type(pg.activity_template[slot0:GetBindActID()].config_client) == "table" then
-		return table.contains(slot3.config_client.prevs or {}, slot0.id)
+	if getProxy(ChapterProxy):getMapById(slot0:getConfig("map")):isActivity() then
+		slot2 = slot0:GetBindActID()
+
+		warning(slot2)
+
+		if type(pg.activity_template[slot2].config_client) == "table" then
+			return table.contains(slot3.config_client.prevs or {}, slot0.id)
+		end
 	end
 
 	return false

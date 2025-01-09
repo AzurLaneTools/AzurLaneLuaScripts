@@ -28,6 +28,7 @@ slot6.Init = function(slot0)
 	slot0._bulletCache = {}
 	slot0._weaponRegisterList = {}
 	slot0._characterPos = Vector3.zero
+	slot0._orbitCount = 0
 	slot0._orbitList = {}
 	slot0._orbitActionCacheList = {}
 	slot0._orbitSpeedUpdateList = {}
@@ -1062,29 +1063,44 @@ slot6.AddOrbit = function(slot0, slot1, slot2)
 		slot6.followBoneRotation = false
 	end
 
+	slot7 = slot0._orbitCount + 1
 	slot0._orbitList[slot1] = {
 		hiddenAction = slot5,
-		boundBone = slot3
+		boundBone = slot3,
+		index = slot7
 	}
+	slot0._orbitCount = slot7
 
 	if slot2.orbit_combat_anima_change.default then
-		slot11 = slot7
+		slot12 = slot8
 
-		slot0:changeOrbitAction(slot1, slot11)
+		slot0:changeOrbitAction(slot1, slot12)
 
-		for slot11, slot12 in ipairs(slot2.orbit_combat_anima_change.change) do
-			if slot12.condition.type == 1 then
+		for slot12, slot13 in ipairs(slot2.orbit_combat_anima_change.change) do
+			if slot13.condition.type == 1 then
 				table.insert(slot0._orbitSpeedUpdateList, {
 					orbit = slot1,
-					change = Clone(slot12)
+					change = Clone(slot13)
 				})
-			elseif slot12.condition.type == 2 then
+			elseif slot13.condition.type == 2 then
 				table.insert(slot0._orbitActionUpdateList, {
 					orbit = slot1,
-					change = Clone(slot12)
+					change = Clone(slot13)
 				})
 			end
 		end
+	end
+
+	slot0:sortOrbitZOrder()
+end
+
+slot6.sortOrbitZOrder = function(slot0)
+	for slot4, slot5 in pairs(slot0._orbitList) do
+		eachChild(slot4, function (slot0)
+			if slot0 and slot0:GetComponent("MeshRenderer") and slot0:GetComponent("MeshRenderer").sortingOrder > 0 then
+				slot0:GetComponent("MeshRenderer").sortingOrder = uv0._orbitCount - uv1.index + 2
+			end
+		end)
 	end
 end
 
