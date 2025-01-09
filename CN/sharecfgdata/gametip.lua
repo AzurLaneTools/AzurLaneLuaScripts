@@ -12377,22 +12377,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:542}(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 约克城II(最多4次)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "{namecode:463}、{namecode:455} 等角色建造追加！"
+	tip = "喀琅施塔得、阿尔汉格尔斯克 等角色建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "雅努斯、曼彻斯特 建造追加！"
+	tip = "基辅 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "阿尔比恩 建造追加！"
+	tip = "喀琅施塔得、伏尔加 建造追加！"
 }
 
 
@@ -36638,4 +36638,9 @@ _G.pg.base.gametip.dorm3d_noshiro_bed = {
 
 _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 	tip = "请先下载相应角色资源 "
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_favor_max = {
+	tip = "契合度已经到达上限，送礼将不会获得契合度，是否确认赠送？"
 }

@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不如还是由{dorm3d}来挑一部{namecode:14:电}影吧。",
+			say = "不如还是由{dorm3d}来挑一部电影吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

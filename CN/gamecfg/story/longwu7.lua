@@ -384,7 +384,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_190",
 			hidePaintObj = true,
-			say = "一道道色香味俱全的菜品白上了桌——松鼠鳜鱼，蛤蜊抱蛋，鲜虾豆腐煲，花椒小煎鸡……",
+			say = "一道道色香味俱全的菜品摆上了桌——松鼠鳜鱼，蛤蜊抱蛋，鲜虾豆腐煲，花椒小煎鸡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

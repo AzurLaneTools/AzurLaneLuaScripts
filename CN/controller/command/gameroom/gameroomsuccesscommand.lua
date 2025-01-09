@@ -28,11 +28,11 @@ slot0.execute = function(slot0, slot1)
 				slot3 = slot4
 			end
 
+			getProxy(GameRoomProxy):setMonthlyTicket(slot3)
+
 			if getProxy(GameRoomProxy):lastTicketMax() < slot3 then
 				slot3 = slot5
 			end
-
-			getProxy(GameRoomProxy):setMonthlyTicket(slot3)
 
 			if slot3 > pg.gameset.game_room_remax.key_value - getProxy(GameRoomProxy):getTicket() then
 				slot2[1].count = slot8

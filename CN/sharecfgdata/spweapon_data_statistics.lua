@@ -26740,7 +26740,7 @@ _G.pg.base.spweapon_data_statistics[13790] = {
 
 _G.pg.base.spweapon_data_statistics[13800] = {
 	attribute_1 = "cannon",
-	name = "红梅轻舞 ",
+	name = "红梅轻舞",
 	type = 2,
 	tech = 0,
 	value_1_random = 10,

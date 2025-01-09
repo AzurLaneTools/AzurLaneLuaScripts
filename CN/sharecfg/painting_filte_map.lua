@@ -3611,6 +3611,7 @@ pg.painting_filte_map = {
 		key = "daofeng_6",
 		res_list = {
 			"painting/daofeng_6_tex",
+			"painting/daofeng_6_rw_tex",
 			"painting/daofeng_6_n_tex",
 			"painting/daofeng_6_n",
 			"painting/daofeng_6"
@@ -16188,6 +16189,7 @@ pg.painting_filte_map = {
 		key = "xinnong_4",
 		res_list = {
 			"painting/xinnong_4_tex",
+			"painting/xinnong_4_rw_tex",
 			"painting/xinnong_4"
 		}
 	},
@@ -18311,6 +18313,7 @@ pg.painting_filte_map = {
 		key = "zhenhai_3",
 		res_list = {
 			"painting/zhenhai_3_tex",
+			"painting/zhenhai_3_rw_tex",
 			"painting/zhenhai_3"
 		}
 	},

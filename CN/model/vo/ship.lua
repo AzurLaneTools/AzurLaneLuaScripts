@@ -577,7 +577,10 @@ slot0.getAttachmentPrefab = function(slot0)
 	for slot5, slot6 in ipairs(slot0.equipments) do
 		if slot6 and slot6:hasSkinOrbit() then
 			slot7 = slot6:getSkinId()
-			slot1[slot7] = uv0[slot7]
+			slot1[slot7] = {
+				config = uv0[slot7],
+				index = slot5
+			}
 		end
 	end
 
@@ -1183,7 +1186,7 @@ slot0.getShipSkillEffects = function(slot0)
 	slot1 = {}
 
 	for slot6, slot7 in ipairs(slot0:getSkillList()) do
-		slot0:FilterActiveSkill(slot1, require("GameCfg.buff.buff_" .. slot0:RemapSkillId(slot7)), slot0.skills[slot7])
+		slot0:FilterActiveSkill(slot1, pg.buffCfg["buff_" .. slot0:RemapSkillId(slot7)], slot0.skills[slot7])
 	end
 
 	return slot1
@@ -1196,7 +1199,7 @@ slot0.getEquipmentSkillEffects = function(slot0)
 		slot8 = nil
 
 		if slot7 and slot7:getConfig("skill_id")[1] then
-			slot8 = require("GameCfg.buff.buff_" .. slot9)
+			slot8 = pg.buffCfg["buff_" .. slot9]
 		end
 
 		slot0:FilterActiveSkill(slot1, slot8)
@@ -1206,7 +1209,7 @@ slot0.getEquipmentSkillEffects = function(slot0)
 		slot2 = nil
 
 		if (uv0:GetSpWeapon() and slot0:GetEffect() or 0) > 0 then
-			slot2 = require("GameCfg.buff.buff_" .. slot1)
+			slot2 = pg.buffCfg["buff_" .. slot1]
 		end
 
 		uv0:FilterActiveSkill(uv1, slot2)

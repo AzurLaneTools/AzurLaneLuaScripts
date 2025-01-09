@@ -41484,6 +41484,58 @@ _G.pg.base.item_data_statistics[40053] = {
 }
 
 
+_G.pg.base.item_data_statistics[40054] = {
+	open_directly = 1,
+	name = "海上传奇支援组合包(250109)",
+	type = 17,
+	display = "购买礼包可获得大量材料奖励",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4055",
+	id = 40054,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59561,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "比翼双飞",
@@ -95861,6 +95913,51 @@ _G.pg.base.item_data_statistics[59560] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59561] = {
+	open_directly = 0,
+	name = "换装自选券（喀琅施塔得）",
+	type = 26,
+	display = "在「仓库」中使用，可以从指定列表中选择一件换装兑换\n（<color=#ff5c5c>换装兑换券仅能兑换指定列表中的换装。若当前已全部拥有，兑换券将可转化为换装抵扣券</color>）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			718011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			718011
+		},
+		0,
+		59552
+	},
 	limit = {}
 }
 

@@ -6,7 +6,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.level = slot1.skill_lv or slot1.lv or slot1.level
 	slot0.exp = slot1.skill_exp or slot1.exp
 	slot0.maxLevel = slot0:getConfig("max_level")
-	slot0.buff = require("GameCfg.buff.buff_" .. slot0.id)
+	slot0.buff = pg.buffCfg["buff_" .. slot0.id]
 	slot0.shipId = slot2
 end
 
@@ -75,7 +75,7 @@ end
 
 slot0.GetIcon = function(slot0)
 	if slot0:GetDisplayId() ~= slot0.id then
-		return require("GameCfg.buff.buff_" .. slot1).icon
+		return pg.buffCfg["buff_" .. slot1].icon
 	else
 		return slot0.buff.icon
 	end

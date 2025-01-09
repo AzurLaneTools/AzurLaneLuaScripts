@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，今天要一起看{namecode:14:电}影吗？",
+			say = "{dorm3d}，今天要一起看电影吗？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "嗯……那我们一起挑选要看的{namecode:14:电}影影片吧。",
+			say = "嗯……那我们一起挑选要看的电影影片吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "对了，要不要约定一天作为我们每周的专属{namecode:14:电}影时间呢？",
+			say = "对了，要不要约定一天作为我们每周的专属电影时间呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

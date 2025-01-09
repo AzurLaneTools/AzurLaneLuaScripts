@@ -354,8 +354,14 @@ slot0.InitCardTrigger = function(slot0, slot1)
 			click = true,
 			roomId = uv1
 		}, function ()
+			slot0 = uv0:getConfig("room")
+
+			if uv0:isPersonalRoom() then
+				slot0 = ShipGroup.getDefaultShipNameByGroupID(uv0:getPersonalGroupId())
+			end
+
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("dorm3d_role_assets_delete", uv0:getConfig("room")),
+				content = i18n("dorm3d_role_assets_delete", slot0),
 				onYes = function ()
 					if IsUnityEditor then
 						pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))
