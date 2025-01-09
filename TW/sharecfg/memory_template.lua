@@ -2635,6 +2635,7 @@ pg.memory_template = setmetatable({
 		3311,
 		3312,
 		3313,
+		3321,
 		3331,
 		3332,
 		3333,
@@ -31971,6 +31972,17 @@ pg.base.memory_template = {
 		story = "XINCHUNDEMAOXIANZHIWANG3",
 		id = 3313,
 		icon = "memory_xinchundemaoxainzhiwang",
+		is_open = 0
+	},
+	[3321] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "新的旅程-{namecode:204}",
+		condition = "對應艦船科研等級達到30級",
+		story = "LUCK39905",
+		id = 3321,
+		icon = "memory_bailong",
 		is_open = 0
 	},
 	[3331] = {
