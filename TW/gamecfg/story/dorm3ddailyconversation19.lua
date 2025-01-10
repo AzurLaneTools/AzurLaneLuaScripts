@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "而且，天狼星也希望侍奉在您身边的时间能够更长一些，我骄傲的{dorm3d}……",
+			say = "而且，天狼星也希望侍奉在您身邊的時間能夠更長一些，我驕傲的{dorm3d}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

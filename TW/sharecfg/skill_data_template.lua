@@ -111199,10 +111199,10 @@ pg.base.skill_data_template = {
 	},
 	[30191] = {
 		desc_get = "",
-		name = "全弹发射III",
+		name = "全彈發射III",
 		type = 1,
 		max_level = 1,
-		desc = "主炮每进行16次攻击，触发全弹发射-鞍山级III",
+		desc = "主炮每進行16次攻擊，觸發全彈發射-鞍山級III",
 		id = 30191,
 		system_transform = {},
 		world_death_mark = {
@@ -111213,10 +111213,10 @@ pg.base.skill_data_template = {
 	},
 	[30192] = {
 		desc_get = "",
-		name = "全弹发射III",
+		name = "全彈發射III",
 		type = 1,
 		max_level = 1,
-		desc = "导弹每进行1次攻击，触发全弹发射-鞍山级III",
+		desc = "飛彈每進行1次攻擊，觸發全彈發射-鞍山級III",
 		id = 30192,
 		system_transform = {},
 		world_death_mark = {
