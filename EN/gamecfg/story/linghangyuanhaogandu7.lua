@@ -1,8 +1,11 @@
 return {
-	defaultTb = 1100,
-	mode = 2,
 	fadeOut = 1.5,
+	mode = 2,
+	defaultTb = 1100,
 	id = "LINGHANGYUANHAOGANDU7",
+	placeholder = {
+		"playername"
+	},
 	scripts = {
 		{
 			mode = 1,
@@ -79,7 +82,7 @@ return {
 			actor = 1100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Oh, it's nothing serious or anything. I was just wondering if you had an unfulfilled wish, $1.",
+			say = "Oh, it's nothing serious or anything. I was just wondering if you had an unfulfilled wish,{playername}.",
 			painting = {
 				alpha = 0.3,
 				time = 1

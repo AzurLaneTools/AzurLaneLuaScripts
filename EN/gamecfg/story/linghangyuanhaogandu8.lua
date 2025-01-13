@@ -1,8 +1,11 @@
 return {
-	defaultTb = 1300,
-	mode = 2,
 	fadeOut = 1.5,
+	mode = 2,
+	defaultTb = 1300,
 	id = "LINGHANGYUANHAOGANDU8",
+	placeholder = {
+		"playername"
+	},
 	scripts = {
 		{
 			mode = 1,
@@ -91,7 +94,7 @@ return {
 			actor = 1300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "You know what I'm talking about, $1. I say I wanna do something, and you make it happen, every time.",
+			say = "You know what I'm talking about,{playername}. I say I wanna do something, and you make it happen, every time.",
 			painting = {
 				alpha = 0.3,
 				time = 1
