@@ -17,7 +17,9 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SS레어</color>：7%",
 			"<color=#d797ff>S레어</color>：12%",
 			"<color=#3dc6ff>레어</color>：51%",
-			"노멀：28.8%"
+			"노멀：28.8%",
+			"",
+			"※같은 레어도의 건조 획득 확률은 동일합니다."
 		}
 	},
 	{
@@ -36,7 +38,8 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SS Rare</color>：7%",
 			"<color=#d797ff>S Rare</color>：12%",
 			"<color=#3dc6ff>Rare</color>：26%",
-			"Normal：55%"
+			"Normal：55%",
+			"※같은 레어도의 건조 획득 확률은 동일합니다."
 		}
 	},
 	{
@@ -56,7 +59,9 @@ pg.ship_data_create_material = {
 			"<color=#ffde38>SS레어</color>：7%",
 			"<color=#d797ff>S레어</color>：12%",
 			"<color=#3dc6ff>레어</color>：51%",
-			"노멀：28.8%"
+			"노멀：28.8%",
+			"",
+			"※같은 레어도의 건조 획득 확률은 동일합니다."
 		}
 	},
 	{
