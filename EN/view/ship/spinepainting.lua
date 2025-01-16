@@ -358,6 +358,8 @@ slot0.changeSpecialIdle = function(slot0, slot1)
 end
 
 slot0.SetAction = function(slot0, slot1, slot2, slot3)
+	print("播放动作1" .. slot1)
+
 	slot4, slot5 = slot0:getMultipFaceFlag()
 
 	if slot4 then
@@ -371,6 +373,8 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 	if not slot1 then
 		return
 	end
+
+	print("播放动作2" .. slot1)
 
 	if slot1 == slot0:getNormalName() and slot0._idleName then
 		slot1 = slot0._idleName or slot1
@@ -400,7 +404,6 @@ end
 slot0.SetActionWithFinishCallback = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.inAction = true
 
-	print("播放动作" .. slot1)
 	slot0:SetAction(slot1, slot2, slot4)
 
 	if slot0.mainSpineAnim then
@@ -421,6 +424,8 @@ end
 
 slot0.SetOnceAction = function(slot0, slot1, slot2, slot3, slot4)
 	slot0:SetActionWithFinishCallback(slot1, 0, function ()
+		uv0.lockLayer = false
+
 		uv0:SetMainAction(uv0:getIdleName(), 0)
 
 		if uv1 then
@@ -431,6 +436,8 @@ slot0.SetOnceAction = function(slot0, slot1, slot2, slot3, slot4)
 			uv0()
 		end
 	end)
+
+	slot0.lockLayer = true
 end
 
 slot0.SetMainAction = function(slot0, slot1, slot2)

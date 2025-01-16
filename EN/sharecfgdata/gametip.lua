@@ -3812,9 +3812,9 @@ _G.pg.base.gametip.coloring_help_tip = {
 7. The rewards for completing each page are as follows: 
 · Page 1: Random Skill Book T3 x2
 · Page 2: Red Envelope x2
-· Page 3: The limited furniture ""Bamboo Bubble-Blower""
+· Page 3: The limited furniture "Bamboo Bubble-Blower"
 · Page 4: Red Envelope x2
-· Page 5: The limited furniture ""Bamboo Bubble-Blower""
+· Page 5: The limited furniture "Bamboo Bubble-Blower"
 · Page 6: Red Envelope x2
 · Page 7: Dragon Empery DD An Shan & Red Envelope x1
 8. After the event ends, all unused paint will be removed.
