@@ -12389,22 +12389,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조 누적 200회마다 「프리츠 루메이」 획득 가능!(최대 4회)"
+	tip = "기간 한정 건조를 총 200회 실시하면, 「요크타운Ⅱ」 100% 획득 가능! (최대 4척까지)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「울리히 폰 후텐」 상시 건조 추가!"
+	tip = "「크론시타트」, 「아르한겔스크」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「재너스」, 「맨체스터」 상시 건조 추가!"
+	tip = "「키예프」 상시 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「알비온」 상시 건조 추가!"
+	tip = "「크론시타트」, 「볼가」 상시 건조 추가!"
 }
 
 
@@ -36288,4 +36288,9 @@ _G.pg.base.gametip.dorm3d_noshiro_bed = {
 
 _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 	tip = "해당 캐릭터의 리소스를 다운로드해야 합니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_favor_max = {
+	tip = "친밀도가 최대치에 달했습니다. 선물을 줘도 친밀도는 상승하지 않습니다. 선물하시겠습니까?"
 }

@@ -470,11 +470,11 @@ pg.item_data_frame = {
 	},
 	[333] = {
 		name = "하늘 밖의 별빛",
-		gain_by = "별빛 아래의 석양 ",
+		gain_by = "별빛 아래의 석양",
 		time_second = 0,
 		id = 333,
 		time_limit_type = 0,
-		desc = "「천지 만상은 별들이 지켜보는 아래에 있나니」",
+		desc = "추후 진행 예정인 이벤트에서 획득 가능",
 		scene = {}
 	},
 	[401] = {

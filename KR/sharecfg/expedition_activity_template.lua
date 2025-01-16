@@ -6512,8 +6512,9 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4607,
-				292
+				5749,
+				458,
+				30
 			}
 		}
 	},
@@ -6522,8 +6523,9 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4607,
-				292
+				5749,
+				458,
+				40
 			}
 		}
 	},
@@ -6532,8 +6534,9 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4607,
-				292
+				5749,
+				458,
+				50
 			}
 		}
 	},
@@ -6542,8 +6545,9 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4608,
-				292
+				5750,
+				458,
+				60
 			}
 		}
 	},
@@ -6552,8 +6556,9 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4608,
-				292
+				5750,
+				458,
+				70
 			}
 		}
 	},
@@ -6562,68 +6567,75 @@ pg.expedition_activity_template = {
 		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4608,
-				292
+				5750,
+				458,
+				80
 			}
 		}
 	},
 	[1702013] = {
 		id = 1702013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4607,
-				292
+				5749,
+				458,
+				90
 			}
 		}
 	},
 	[1702113] = {
 		id = 1702113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4607,
-				292
+				5749,
+				458,
+				100
 			}
 		}
 	},
 	[1702213] = {
 		id = 1702213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4607,
-				292
+				5749,
+				458,
+				110
 			}
 		}
 	},
 	[1703013] = {
 		id = 1703013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4608,
-				292
+				5750,
+				458,
+				120
 			}
 		}
 	},
 	[1703113] = {
 		id = 1703113,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4608,
-				292
+				5750,
+				458,
+				150
 			}
 		}
 	},
 	[1703213] = {
 		id = 1703213,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4608,
-				292
+				5750,
+				458,
+				180
 			}
 		}
 	},
@@ -6632,8 +6644,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4608,
-				292
+				5750,
+				458,
+				800
 			}
 		}
 	},

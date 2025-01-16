@@ -40601,6 +40601,120 @@ _G.pg.base.item_data_statistics[40052] = {
 }
 
 
+_G.pg.base.item_data_statistics[40053] = {
+	open_directly = 1,
+	name = "프리미엄 윈터 패키지",
+	type = 17,
+	display = "구입하면 재료를 대량으로 얻을 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/dongzhi3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4031",
+	id = 40053,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			1,
+			14,
+			3880
+		},
+		{
+			4,
+			100021,
+			1
+		},
+		{
+			4,
+			100011,
+			2
+		},
+		{
+			2,
+			15012,
+			150
+		},
+		{
+			2,
+			16502,
+			60
+		},
+		{
+			2,
+			30113,
+			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40054] = {
+	open_directly = 1,
+	name = "UR 지원 패키지(250116)",
+	type = 17,
+	display = "아이템을 대량으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4055",
+	id = 40054,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59561,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "백년가약 패키지",
@@ -82652,6 +82766,51 @@ _G.pg.base.item_data_statistics[59554] = {
 }
 
 
+_G.pg.base.item_data_statistics[59561] = {
+	open_directly = 0,
+	name = "선택 선택권(크론시타트)",
+	type = 26,
+	display = "창고에서 사용할 수 있으며, 스킨 1개를 골라 획득 가능. \n(<color=#ff5c5c>지정된 일부 스킨만 획득 가능. 획득 가능한 스킨을 이미 모두 소지하고 있는 경우에는 획득 아이템이 자동으로 「스킨 쿠폰」으로 변환됩니다.</color>)",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59561,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			718011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			718011
+		},
+		0,
+		59552
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59711] = {
 	open_directly = 0,
 	name = "재탄생의 새벽 ",
@@ -90439,9 +90598,9 @@ _G.pg.base.item_data_statistics[60276] = {
 
 _G.pg.base.item_data_statistics[60277] = {
 	open_directly = 0,
-	name = "그라프 체펠린의 연하장",
+	name = "그라프 체펠린의 답례 (새해)",
 	type = 1,
-	display = "그라프 체펠린에게 받은 신년 연하장",
+	display = "「경의 새해는 미움이 아닌 사랑으로 채우자고.」――그라프 체펠린의 새해 초대 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -90501,9 +90660,9 @@ _G.pg.base.item_data_statistics[60278] = {
 
 _G.pg.base.item_data_statistics[60279] = {
 	open_directly = 0,
-	name = "벨파스트의 연하장",
+	name = "벨파스트의 답례 (새해)",
 	type = 1,
-	display = "벨파스트에게 받은 신년 연하장",
+	display = "「주인님, 새해에는 무리하지 마시고 느긋하게 보내세요.」――벨파스트의 새해 초대 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -90594,9 +90753,9 @@ _G.pg.base.item_data_statistics[60281] = {
 
 _G.pg.base.item_data_statistics[60282] = {
 	open_directly = 0,
-	name = "사우스다코타의 연하장",
+	name = "사우스다코타의 답례 (새해)",
 	type = 1,
-	display = "사우스다코타에게 받은 신년 연하장",
+	display = "「새해에는… 뭘 배우는 게 좋을까? 」――사우스다코타의 새해 초대 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -91608,7 +91767,7 @@ _G.pg.base.item_data_statistics[60451] = {
 	open_directly = 0,
 	name = "리슐리외의 답례 (새해)",
 	type = 1,
-	display = "\"통하고, 알고, 믿는 마음의 빛으로 가득 찬 인간 세상이길.\"――리슐리외의 새해 초대 답례",
+	display = "「새해에도 지휘관님께 아이리스의 가호가 깃들기를…」――리슐리외의 새해 초대 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -91670,7 +91829,7 @@ _G.pg.base.item_data_statistics[60453] = {
 	open_directly = 0,
 	name = "포미더블의 답례 (새해)",
 	type = 1,
-	display = "\"새로운 한 해도 지휘관에게 의지할 수 있는 완벽한 로열 레이디가 되도록 노력하겠습니다.\"――포미더블의 새해 초대 답례",
+	display = "「과식하지 않도록 조심하면서... 으흠, 우아하게 새해를 보내자구요. 」――포미더블의 새해 초대 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -92731,7 +92890,7 @@ _G.pg.base.item_data_statistics[60520] = {
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/yaoqinghan",
+	icon = "Props/60519",
 	order = 0,
 	rarity = 9,
 	max_num = 0,
@@ -92762,7 +92921,7 @@ _G.pg.base.item_data_statistics[60521] = {
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/yaoqinghan",
+	icon = "Props/60519",
 	order = 0,
 	rarity = 9,
 	max_num = 0,
@@ -92793,7 +92952,7 @@ _G.pg.base.item_data_statistics[60522] = {
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/yaoqinghan",
+	icon = "Props/60519",
 	order = 0,
 	rarity = 9,
 	max_num = 0,
@@ -92824,7 +92983,7 @@ _G.pg.base.item_data_statistics[60523] = {
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/yaoqinghan",
+	icon = "Props/60519",
 	order = 0,
 	rarity = 9,
 	max_num = 0,
@@ -92848,14 +93007,14 @@ _G.pg.base.item_data_statistics[60524] = {
 	open_directly = 0,
 	name = "노시로의 답례",
 	type = 1,
-	display = "초대에 대한 노시로의 답례",
+	display = "「새해 복 많이 받으세요. 괜찮으면 새해를… 같이 보내시지 않으시겠어요?」――노시로의 새해 초대 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/yaoqinghan",
+	icon = "Props/60519",
 	order = 0,
 	rarity = 9,
 	max_num = 0,
@@ -92879,14 +93038,14 @@ _G.pg.base.item_data_statistics[60525] = {
 	open_directly = 0,
 	name = "비스마르크의 답례",
 	type = 1,
-	display = "초대에 대한 비스마르크의 답례",
+	display = "「새해 복 많이 받아. 올해도 함께 나아가자.」――비스마르크의 새해 초대 답례",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/yaoqinghan",
+	icon = "Props/60519",
 	order = 0,
 	rarity = 9,
 	max_num = 0,
@@ -92917,7 +93076,7 @@ _G.pg.base.item_data_statistics[60526] = {
 	display_effect = "",
 	link_id = 0,
 	is_world = 0,
-	icon = "Props/yaoqinghan",
+	icon = "Props/60519",
 	order = 0,
 	rarity = 9,
 	max_num = 0,

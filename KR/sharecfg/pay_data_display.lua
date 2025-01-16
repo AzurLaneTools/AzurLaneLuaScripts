@@ -130,7 +130,9 @@ pg.pay_data_display = setmetatable({
 		2036,
 		2037,
 		2038,
-		2039
+		2039,
+		2040,
+		2041
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -9209,7 +9211,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		type_order = 4,
+		type_order = 6,
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
 		id_str = "alkrgift109",
@@ -12062,6 +12064,214 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40052,
+				1
+			}
+		}
+	},
+	[2040] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		name = "프리미엄 윈터 패키지・2025",
+		first_pay_double = 0,
+		name_display = "프리미엄 윈터 패키지・2025",
+		descrip = "다이아 3,880개, 특장형 부린 MKⅢ 등 획득 가능",
+		subject = "프리미엄 윈터 패키지・2025",
+		money = 56000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 4,
+		picture = "dongzhi3",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift117",
+		extra_service = 3,
+		id = 2040,
+		airijp_id = "com.yostarjp.azurlane.package122",
+		extra_service_item = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				16502,
+				60
+			},
+			{
+				2,
+				30113,
+				150
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				3880
+			},
+			{
+				4,
+				100021,
+				1
+			},
+			{
+				4,
+				100011,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40053,
+				1
+			}
+		}
+	},
+	[2041] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*패키지는 우편으로 발송되니 확인 후 수령해 주시기 바랍니다.",
+		type = 0,
+		name = "UR 지원 패키지",
+		first_pay_double = 0,
+		name_display = "UR 지원 패키지",
+		descrip = "선택 가능한 스킨 티켓, 성정 큐브, 경험치 패키지 T2 등 획득 가능",
+		subject = "UR 지원 패키지",
+		money = 27000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "huteng_package",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift116",
+		extra_service = 3,
+		id = 2041,
+		airijp_id = "com.yostarjp.azurlane.package123",
+		extra_service_item = {
+			{
+				2,
+				59561,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59561,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40050,
 				1
 			}
 		}

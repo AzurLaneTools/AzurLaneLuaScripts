@@ -8,7 +8,8 @@ pg.ship_data_create_exchange = {
 			105171,
 			307081,
 			301291,
-			405031
+			405031,
+			718011
 		}
 	},
 	[4856] = {
@@ -115,6 +116,14 @@ pg.ship_data_create_exchange = {
 			407041
 		}
 	},
+	[5758] = {
+		exchange_request = 200,
+		exchange_available_times = 4,
+		id = 5758,
+		exchange_ship_id = {
+			107101
+		}
+	},
 	[8034] = {
 		exchange_request = 40,
 		exchange_available_times = 1,
@@ -178,6 +187,7 @@ pg.ship_data_create_exchange = {
 		5573,
 		5633,
 		5724,
+		5758,
 		8034,
 		8044,
 		8056,

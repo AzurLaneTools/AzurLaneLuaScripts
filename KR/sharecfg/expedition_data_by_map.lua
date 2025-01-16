@@ -492,6 +492,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100422,
 		2100431,
 		2100432,
+		2100441,
+		2100442,
+		2100451,
+		2100452,
 		2200000,
 		2200010,
 		2200020,
@@ -16090,7 +16094,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700001] = {
 		map = 1700001,
-		name = "거듭되는 평행세계·상편|| ||CHAPTER EX||E.X.",
+		name = "거듭되는 평행 세계·상편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-schoolfuture",
 		type = 4,
 		anchor = "",
@@ -16102,7 +16106,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1700001",
 		default_background = "",
-		on_activity = 4607,
+		on_activity = 5749,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16148,7 +16152,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700002] = {
 		map = 1700002,
-		name = "거듭되는 평행세계·하편|| ||CHAPTER EX||E.X.",
+		name = "거듭되는 평행 세계·하편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-aostelab",
 		type = 4,
 		anchor = "",
@@ -16160,7 +16164,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1700002",
 		default_background = "",
-		on_activity = 4607,
+		on_activity = 5749,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16206,7 +16210,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700011] = {
 		map = 1700011,
-		name = "거듭되는 평행세계·상편|| ||CHAPTER EX||E.X.",
+		name = "거듭되는 평행 세계·상편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-schoolfuture",
 		type = 5,
 		anchor = "",
@@ -16218,7 +16222,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1700003",
 		default_background = "",
-		on_activity = 4607,
+		on_activity = 5749,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16264,7 +16268,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700012] = {
 		map = 1700012,
-		name = "거듭되는 평행세계·하편|| ||CHAPTER EX||E.X.",
+		name = "거듭되는 평행 세계·하편|| ||CHAPTER EX||E.X.",
 		bgm = "theme-aostelab",
 		type = 5,
 		anchor = "",
@@ -16276,7 +16280,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1700004",
 		default_background = "",
-		on_activity = 4607,
+		on_activity = 5749,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16322,7 +16326,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700025] = {
 		map = 1700025,
-		name = "거듭되는 평행세계·SP|| ||CHAPTER EX||E.X.",
+		name = "거듭되는 평행 세계·SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starsea-core",
 		type = 8,
 		anchor = "",
@@ -16335,7 +16339,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1700005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4607,
+		on_activity = 5749,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16372,7 +16376,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1700026] = {
 		map = 1700026,
-		name = "거듭되는 평행세계·EX|| ||CHAPTER EX||E.X.",
+		name = "거듭되는 평행 세계·EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-starsea-core",
 		type = 8,
 		anchor = "",
@@ -16385,7 +16389,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1700006",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4607,
+		on_activity = 5749,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -26616,7 +26620,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
-		bind_map = 1600011,
+		bind_map = 2100431,
 		clouds_pos = {
 			{
 				332,
@@ -26666,7 +26670,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
-		bind_map = 1600012,
+		bind_map = 2100432,
 		clouds_pos = {
 			{
 				332,
@@ -26716,7 +26720,7 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
-		bind_map = 1600001,
+		bind_map = 2100421,
 		clouds_pos = {
 			{
 				332,
@@ -26766,7 +26770,207 @@ pg.base.expedition_data_by_map = {
 		destory_icon_suffix = "blue",
 		default_bgm = "",
 		uifx = "",
-		bind_map = 1600002,
+		bind_map = 2100422,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100441] = {
+		map = 2100441,
+		name = "깊게 울리는 메아리·상편|| ||CHAPTER EX||E.X.",
+		bgm = "battle-deepecho",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENDUHUIYIN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1610001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1610001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100451,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100442] = {
+		map = 2100442,
+		name = "깊게 울리는 메아리·하편|| ||CHAPTER EX||E.X.",
+		bgm = "deepblue-image",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENDUHUIYIN16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1610002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1610002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100452,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100451] = {
+		map = 2100451,
+		name = "깊게 울리는 메아리·상편|| ||CHAPTER EX||E.X.",
+		bgm = "battle-deepecho",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENDUHUIYIN1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1610003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1610003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100441,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100452] = {
+		map = 2100452,
+		name = "깊게 울리는 메아리·하편|| ||CHAPTER EX||E.X.",
+		bgm = "deepblue-image",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "SHENDUHUIYIN16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1610004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1610004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100442,
 		clouds_pos = {
 			{
 				332,

@@ -339,7 +339,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 448
+		key_value = 458
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1910,7 +1910,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 450
+		key_value = 459
 	},
 	order_pt_max = {
 		key_value = 0,

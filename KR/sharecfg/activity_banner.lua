@@ -3,7 +3,7 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp3",
+		pic = "temp1",
 		param = {
 			"scene skinshop",
 			{}
@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					9
+					16
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					22
+					29
 				},
 				{
 					23,
@@ -36,21 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5749",
+		type = 3,
 		id = 2,
-		pic = "temp5",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		pic = "temp2",
 		time = {
 			{
 				{
 					2025,
 					1,
-					9
+					16
 				},
 				{
 					0,
@@ -62,7 +57,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					22
+					23
 				},
 				{
 					23,
@@ -75,9 +70,9 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 3,
-		pic = "temp8",
+		pic = "temp3",
 		param = {
-			"scene Cryptolalia",
+			"scene skinshop",
 			{}
 		},
 		time = {
@@ -85,41 +80,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp9",
-		param = {
-			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					9
+					16
 				},
 				{
 					0,
@@ -143,116 +104,8 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 5,
-		pic = "temp2",
-		param = {
-			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp1",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
+		id = 4,
 		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					15
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp6",
 		param = {
 			"scene get boat",
 			{
@@ -265,7 +118,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					2
+					16
 				},
 				{
 					0,
@@ -277,7 +130,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					16
+					23
 				},
 				{
 					23,
@@ -288,16 +141,21 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5711",
-		type = 3,
-		id = 9,
-		pic = "temp7",
+		type = 2,
+		id = 5,
+		pic = "temp5",
+		param = {
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					1,
-					2
+					16
 				},
 				{
 					0,
@@ -309,7 +167,246 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp6",
+		param = {
+			"scene court yard"
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
 					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp7",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5760",
+		type = 3,
+		id = 8,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5746",
+		type = 3,
+		id = 9,
+		pic = "temp9",
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					22
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5736",
+		type = 3,
+		id = 10,
+		pic = "temp10",
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 11,
+		pic = "temp11",
+		param = {
+			"scene level"
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 12,
+		pic = "temp12",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					30
 				},
 				{
 					23,
@@ -398,68 +495,18 @@ pg.activity_banner = {
 		}
 	},
 	[100] = {
-		param = "지팡이 사탕|가장 오리지널 지팡이 사탕은 흰색이라고 해요.<color=#6dd329>(경험치 보너스 5% 증가, 60분 지속)</color>",
+		param = "拐杖糖|据说最原始的拐杖糖是白色的呢。<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		time = "stop",
 		type = 10,
 		id = 100,
-		pic = "christmas",
-		time = {
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "christmas"
 	},
 	[101] = {
-		param = "가가미모치|포장을 풀고 먹어야 해요.<color=#6dd329>(경험치 보너스 5% 증가, 60분 지속)</color>",
+		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		time = "stop",
 		type = 10,
 		id = 101,
-		pic = "jingbing",
-		time = {
-			{
-				{
-					2025,
-					1,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "jingbing"
 	},
 	[200] = {
 		param = "",
@@ -470,81 +517,34 @@ pg.activity_banner = {
 	},
 	[201] = {
 		param = "",
+		time = "stop",
 		type = 13,
 		id = 201,
-		pic = "christmas",
-		time = {
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "christmas"
 	},
 	[202] = {
 		param = "",
+		time = "always",
 		type = 13,
 		id = 202,
-		pic = "newyear",
-		time = {
-			{
-				{
-					2025,
-					1,
-					9
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "winter"
 	},
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
 			3,
 			4,
 			5,
 			6,
 			7,
-			8
+			11,
+			12
 		},
 		[3] = {
-			9
+			2,
+			8,
+			9,
+			10
 		},
 		[9] = {
 			90,
@@ -576,6 +576,9 @@ pg.activity_banner = {
 		7,
 		8,
 		9,
+		10,
+		11,
+		12,
 		90,
 		91,
 		95,

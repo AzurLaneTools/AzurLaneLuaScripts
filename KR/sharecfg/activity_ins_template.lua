@@ -13421,62 +13421,137 @@ pg.activity_ins_template = {
 	[518] = {
 		ship_group = 40704,
 		name = "Fritz Rumey",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_518",
+		picture_persist = "http://blcdn.imtxwy.com/pic/241219_fulicijQ2RcbGSfGIZca9S.png",
+		is_active = 0,
 		sculpture = "fulici",
 		id = 518,
 		group_id = 518,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				1,
+				2
+			},
+			{
+				15,
+				30,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5220,
+			5224,
+			5226
+		}
 	},
 	[519] = {
 		ship_group = 40211,
 		name = "Duisburg",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_519",
+		picture_persist = "http://blcdn.imtxwy.com/pic/241219_duyisibaovoyIEnc8KUJat4G1.png",
+		is_active = 0,
 		sculpture = "duyisibao",
 		id = 519,
 		group_id = 519,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				1,
+				3
+			},
+			{
+				14,
+				45,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5237,
+			5243,
+			5248
+		}
 	},
 	[520] = {
 		ship_group = 40152,
 		name = "Blitz-Z52",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_520",
+		picture_persist = "http://blcdn.imtxwy.com/pic/241219_Z52f4Ntpn5et5WEeWb3.png",
+		is_active = 0,
 		sculpture = "Z52",
 		id = 520,
 		group_id = 520,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				1,
+				4
+			},
+			{
+				10,
+				13,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5257,
+			5262,
+			5265
+		}
 	},
 	[521] = {
 		ship_group = 40109,
 		name = "Wolke9",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_521",
+		picture_persist = "http://blcdn.imtxwy.com/pic/241219_Z96mMVunp3vWUSU2Yi.png",
+		is_active = 0,
 		sculpture = "Z9",
 		id = 521,
 		group_id = 521,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				1,
+				5
+			},
+			{
+				15,
+				20,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5275,
+			5279,
+			5282
+		}
 	},
 	[522] = {
 		ship_group = 40111,
 		name = "Z11_Spielefan",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_522",
+		picture_persist = "http://blcdn.imtxwy.com/pic/241219_Z11rPiwrLCgnkV2f9Gm.png",
+		is_active = 0,
 		sculpture = "Z11",
 		id = 522,
 		group_id = 522,
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				1,
+				6
+			},
+			{
+				11,
+				35,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5290,
+			5294,
+			5299
+		}
 	},
 	[523] = {
 		ship_group = 40501,

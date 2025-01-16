@@ -8,7 +8,6 @@ slot0.register = function(slot0)
 end
 
 slot0.initListData = function(slot0, slot1, slot2, slot3)
-	slot0.avatarFrames = {}
 	slot4 = {}
 	slot5 = {}
 

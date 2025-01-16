@@ -636,7 +636,7 @@ end
 slot0.MakeBuff = function(slot0, slot1)
 	slot2 = getSkillConfig(slot1)
 	slot4 = slot2.effect_list[1].arg_list.time
-	slot5 = require("GameCfg.skill.skill_" .. slot2.effect_list[1].arg_list.skill_id)
+	slot5 = pg.skillCfg["skill_" .. slot2.effect_list[1].arg_list.skill_id]
 
 	if slot0.buffTimer then
 		pg.TimeMgr.GetInstance():RemoveBattleTimer(slot0.buffTimer)
