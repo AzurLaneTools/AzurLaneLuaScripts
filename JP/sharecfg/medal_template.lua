@@ -2427,7 +2427,7 @@ pg.medal_template = {
 		name = "レジスタンス記念勲章",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 0,
+		is_out_of_print = 1,
 		count_inherit = 0,
 		desc = "「星の獣」に対する偉大なる勝利を記念する、鉄血レジスタンスの記念勲章。\n—— 我々の世界は滅びぬ。今日も。明日も。",
 		next = 0,
@@ -2441,6 +2441,27 @@ pg.medal_template = {
 		rank = 1,
 		id = 200001,
 		explain1 = "「星降る夕影の残光」",
+		explain2 = "イベント"
+	},
+	[200011] = {
+		target_id = "5769",
+		name = "新春華裳記念証",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "波乱あれど祈願成就。霓裳絢爛、一夜に咲き誇る",
+		next = 0,
+		icon = "9011",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9011",
+		condition = "「新春華裳協奏曲」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200011,
+		explain1 = "「新春華裳協奏曲」",
 		explain2 = "イベント"
 	},
 	all = {
@@ -2554,6 +2575,7 @@ pg.medal_template = {
 		100933,
 		100934,
 		100935,
-		200001
+		200001,
+		200011
 	}
 }

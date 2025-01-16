@@ -165307,6 +165307,31 @@ _G.pg.base.item_virtual_data_statistics[60025] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[60026] = {
+	drop_gold_max = 0,
+	name = "年玉",
+	display = "「饅頭の年玉」で開封可能",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5779,
+	icon = "props/red_packet2",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 11,
+	id = 60026,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[60030] = {
 	drop_gold_max = 0,
 	name = "ヒント「M」",
@@ -167432,6 +167457,181 @@ _G.pg.base.item_virtual_data_statistics[60339] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[60340] = {
+	drop_gold_max = 0,
+	name = "絵の具A",
+	display = "絵の具A",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5780,
+	icon = "props/draw_a",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 4,
+	id = 60340,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60341] = {
+	drop_gold_max = 0,
+	name = "絵の具B",
+	display = "絵の具B",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5780,
+	icon = "props/draw_b",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 4,
+	id = 60341,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60342] = {
+	drop_gold_max = 0,
+	name = "絵の具C",
+	display = "絵の具C",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5780,
+	icon = "props/draw_c",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 4,
+	id = 60342,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60343] = {
+	drop_gold_max = 0,
+	name = "絵の具D",
+	display = "絵の具D",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5780,
+	icon = "props/draw_d",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 4,
+	id = 60343,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60344] = {
+	drop_gold_max = 0,
+	name = "絵の具E",
+	display = "絵の具E",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5780,
+	icon = "props/draw_e",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 4,
+	id = 60344,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60345] = {
+	drop_gold_max = 0,
+	name = "絵の具F",
+	display = "絵の具F",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5780,
+	icon = "props/draw_f",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 4,
+	id = 60345,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60346] = {
+	drop_gold_max = 0,
+	name = "絵の具G",
+	display = "絵の具G",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5780,
+	icon = "props/draw_g",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 4,
+	id = 60346,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[60401] = {
 	drop_gold_max = 0,
 	name = "海天活动道具1",
@@ -168199,6 +168399,56 @@ _G.pg.base.item_virtual_data_statistics[60486] = {
 	drop_oil_max = 0,
 	virtual_type = 99,
 	id = 60486,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60487] = {
+	drop_gold_max = 0,
+	name = "特製生地",
+	display = "イベント「新春華裳協奏曲」で得られるイベントポイント。イベントバナーで「累計Pt報酬」を入手可能",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "props/jianwu_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 60487,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[60488] = {
+	drop_gold_max = 0,
+	name = "特別戦闘券",
+	display = "「新春華裳協奏曲」EXステージ出撃、もしくはボーナス出撃回数回復時に使用可能",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/nvpu_ticket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 60488,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -169407,6 +169657,31 @@ _G.pg.base.item_virtual_data_statistics[65072] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65073] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2025.2.5まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2025.2.5まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65073,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "レジスタンス記念勲章",
@@ -169650,6 +169925,375 @@ _G.pg.base.item_virtual_data_statistics[65509] = {
 	virtual_type = 0,
 	id = 65509,
 	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65510] = {
+	drop_gold_max = 0,
+	name = "新春華裳記念章",
+	display = "波乱あれど祈願成就。霓裳絢爛、一夜に咲き誇る",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Medal/9011",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65510,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65511] = {
+	drop_gold_max = 0,
+	name = "ステッカー；風華霓裳",
+	display = "「刺繍羅裳晩春を照らし、輝かせば金孔雀に銀麒麟」",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576901",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65511,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65512] = {
+	drop_gold_max = 0,
+	name = "ステッカー：旭日東天",
+	display = "「空ゆく雁は鳴きわたり、朝の日は初めて昇る。士もし妻をめとらば、氷のいまだとけぬまに」",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576902",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65512,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65513] = {
+	drop_gold_max = 0,
+	name = "ステッカー：掛け軸",
+	display = "「詩を推敲すは雪月風花の夜、絵をしたためるは江湖煙雨の空」",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576903",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65513,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65514] = {
+	drop_gold_max = 0,
+	name = "ステッカー：雪中観梅",
+	display = "「梅は須く雪に三分の白を遜るべく、雪は却って梅に一段の香を輸す」",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576904",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65514,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65515] = {
+	drop_gold_max = 0,
+	name = "ステッカー：朱雀乗風",
+	display = "大冒険はもっと派手に！もっと熱く！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576905",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65515,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65516] = {
+	drop_gold_max = 0,
+	name = "ステッカー：捲き雲",
+	display = "「行いては到る、水の窮まるところ。 坐しては看る、雲の起こるとき」",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576906",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65516,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65517] = {
+	drop_gold_max = 0,
+	name = "ステッカー：縁糸",
+	display = "「折に穫る同心の蓮、繋ぐ縁糸はいと長し」",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576907",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65517,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65518] = {
+	drop_gold_max = 0,
+	name = "ステッカー：秘密計画書",
+	display = "建武大魔王を打倒し（削除線が引かれている）、新春大冒険を祝う計画書！",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/576908",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65518,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65519] = {
+	drop_gold_max = 0,
+	name = "東煌結び",
+	display = "「新春祝福」イベントの交換アイテム。イベント終了後に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/donghuangjie",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65519,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65520] = {
+	{
+		{
+			9,
+			4107,
+			1
+		},
+		{
+			9,
+			4108,
+			1
+		},
+		{
+			9,
+			4109,
+			1
+		},
+		{
+			9,
+			4110,
+			1
+		},
+		{
+			9,
+			4111,
+			1
+		},
+		{
+			9,
+			4112,
+			1
+		}
+	},
+	time_limit = 0,
+	display = "一定の確率で下記の装備外装を入手できます",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	name = "装備外装箱（瑞光迎春）",
+	drop_gold_max = 0,
+	link_id = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65520,
+	display_icon = {
+		{
+			9,
+			4095,
+			1
+		},
+		{
+			9,
+			4096,
+			1
+		},
+		{
+			9,
+			4097,
+			1
+		},
+		{
+			9,
+			4098,
+			1
+		},
+		{
+			9,
+			4099,
+			1
+		},
+		{
+			9,
+			4100,
+			1
+		},
+		{
+			9,
+			4101,
+			1
+		},
+		{
+			9,
+			4102,
+			1
+		},
+		{
+			9,
+			4103,
+			1
+		},
+		{
+			9,
+			4104,
+			1
+		},
+		{
+			9,
+			4105,
+			1
+		},
+		{
+			9,
+			4106,
+			1
+		},
+		1
+	},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -176280,6 +176924,56 @@ _G.pg.base.item_virtual_data_statistics[86209] = {
 		{
 			303061,
 			1600
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86210] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86210,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			899032,
+			1500
+		},
+		{
+			199042,
+			1550
+		},
+		{
+			305055,
+			1550
+		},
+		{
+			502101,
+			1800
+		},
+		{
+			501081,
+			1800
+		},
+		{
+			501091,
+			1800
 		}
 	}
 }
@@ -204285,4 +204979,157 @@ _G.pg.base.item_virtual_data_statistics[200364] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200365] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "有几率获得以下设计图",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200365,
+	display_icon = {
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		},
+		{
+			2,
+			83,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200366] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "有几率获得以下设计图",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200366,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200367] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "有几率获得以下设计图",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200367,
+	display_icon = {
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10037,
+			1
+		},
+		{
+			2,
+			10014,
+			1
+		},
+		{
+			2,
+			10120,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

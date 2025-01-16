@@ -133,6 +133,7 @@ slot0.Reload = function(slot0, slot1)
 	slot0.painting = slot4
 	slot0.state = slot2
 	slot0.bgToggle = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.painting.paintingName, 0)
+	slot0.skinId = slot1.skinId
 end
 
 slot0.Refresh = function(slot0, slot1, slot2)
@@ -147,7 +148,7 @@ slot0.ShouldReLoad = function(slot0, slot1)
 	slot2 = uv0.GetAssistantStatus(slot1)
 	slot3 = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.painting.paintingName, 0)
 
-	if slot1.skinId == slot0.ship.skinId and slot1.id == slot0.ship.id and slot0.state == slot2 and slot0.bgToggle == slot3 and slot1:GetRecordPosKey() == slot0.ship:GetRecordPosKey() and not slot0.reloadOnResume then
+	if slot0.skinId == slot0.ship.skinId and slot1.id == slot0.ship.id and slot0.state == slot2 and slot0.bgToggle == slot3 and slot1:GetRecordPosKey() == slot0.ship:GetRecordPosKey() and not slot0.reloadOnResume then
 		return false
 	else
 		if slot0.reloadOnResume then
@@ -156,6 +157,18 @@ slot0.ShouldReLoad = function(slot0, slot1)
 
 		return true
 	end
+end
+
+slot0.SetOnceLoadedCall = function(slot0, slot1)
+	slot0.painting:SetOnceLoadedCall(slot1)
+end
+
+slot0.PlayChangeSkinActionIn = function(slot0, slot1)
+	slot0.painting:PlayChangeSkinActionIn(slot1)
+end
+
+slot0.PlayChangeSkinActionOut = function(slot0, slot1)
+	slot0.painting:PlayChangeSkinActionOut(slot1)
 end
 
 slot0.Disable = function(slot0)

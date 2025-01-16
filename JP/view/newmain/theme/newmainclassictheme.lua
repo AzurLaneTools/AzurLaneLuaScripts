@@ -30,6 +30,14 @@ slot0.OnDestroy = function(slot0)
 	end
 end
 
+slot0.SetEffectPanelVisible = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.panels) do
+		if isa(slot6, MainRightPanel) then
+			slot6:SetVisible(slot1)
+		end
+	end
+end
+
 slot0.GetCalibrationBG = function(slot0)
 	return "mainui_calibration"
 end
@@ -101,6 +109,10 @@ end
 
 slot0.GetCalibrationView = function(slot0)
 	return MainCalibrationPage.New(slot0._tf, slot0.event)
+end
+
+slot0.GetChangeSkinView = function(slot0)
+	return MainChangeSkinView.New(slot0:findTF("frame/left/change_skin"), slot0.event)
 end
 
 slot0.GetRedDots = function(slot0)

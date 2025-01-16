@@ -16,6 +16,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.actBtnView = slot0:GetActBtnView()
 	slot0.buffView = slot0:GetBuffView()
 	slot0.wordView = slot0:GetWordView()
+	slot0.changeView = slot0:GetChangeSkinView()
 
 	pg.redDotHelper:Init(slot0:GetRedDots())
 end
@@ -45,6 +46,7 @@ slot0.init = function(slot0, slot1)
 	slot0.chatRoomView:Init()
 	slot0.buffView:Init()
 	slot0.tagView:Init()
+	slot0.changeView:Init(slot1)
 	pg.LayerWeightMgr.GetInstance():Add2Overlay(LayerWeightConst.UI_TYPE_OVERLAY_FOREVER, slot0._tf, {
 		pbList = slot0:GetPbList(),
 		weight = LayerWeightConst.BASE_LAYER + 1
@@ -63,6 +65,7 @@ slot0._FoldPanels = function(slot0, slot1, slot2)
 	slot0.buffView:Fold(slot1, slot2)
 	slot0.wordView:Fold(slot1, slot2)
 	slot0.tagView:Fold(slot1, slot2)
+	slot0.changeView:Fold(slot1, slot2)
 end
 
 slot0.OnFoldPanels = function(slot0, slot1)
@@ -81,6 +84,11 @@ end
 
 slot0.OnSwitchToNextShip = function(slot0, slot1)
 	slot0.iconView:Refresh(slot1)
+	slot0.changeView:Refresh(slot1)
+
+	for slot5, slot6 in ipairs(slot0.panels) do
+		slot6:Refresh()
+	end
 end
 
 slot0.Refresh = function(slot0, slot1)
@@ -94,6 +102,7 @@ slot0.Refresh = function(slot0, slot1)
 	slot0.actBtnView:Refresh()
 	slot0.bannerView:Refresh()
 	slot0.tagView:Refresh()
+	slot0.changeView:Refresh(slot1)
 	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0._tf, true)
 end
 
@@ -108,7 +117,11 @@ slot0.Disable = function(slot0)
 	slot0.actBtnView:Disable()
 	slot0.bannerView:Disable()
 	slot0.wordView:Disable()
+	slot0.changeView:Disable()
 	pg.LayerWeightMgr.GetInstance():SetVisibleViaLayer(slot0._tf, false)
+end
+
+slot0.SetEffectPanelVisible = function(slot0, slot1)
 end
 
 slot0.OnDestroy = function(slot0)
@@ -163,6 +176,12 @@ slot0.OnDestroy = function(slot0)
 		slot0.wordView:Dispose()
 
 		slot0.wordView = nil
+	end
+
+	if slot0.changeView then
+		slot0.changeView:Dispose()
+
+		slot0.changeView = nil
 	end
 
 	pg.redDotHelper:Clear()
@@ -235,6 +254,10 @@ slot0.GetActBtnView = function(slot0)
 end
 
 slot0.GetBuffView = function(slot0)
+	assert(false)
+end
+
+slot0.GetChangeSkinView = function(slot0)
 	assert(false)
 end
 

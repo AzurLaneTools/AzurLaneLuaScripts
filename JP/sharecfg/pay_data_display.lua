@@ -78,6 +78,8 @@ pg.pay_data_display = setmetatable({
 		83,
 		84,
 		85,
+		86,
+		88,
 		1000,
 		1001,
 		1002,
@@ -8235,6 +8237,234 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81201,
+				1
+			}
+		}
+	},
+	[86] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		name = "春節福袋2025A",
+		first_pay_double = 0,
+		name_display = "春節福袋2025A",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		subject = "春節福袋2025A",
+		money = 3800,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai21",
+		skin_inquire_relation = 86210,
+		id_str = "com.bilibili.blhx.zuanshi186",
+		extra_service = 3,
+		id = 86,
+		airijp_id = "com.yostarjp.azurlane.diamond174",
+		extra_service_item = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81210,
+				1
+			}
+		}
+	},
+	[88] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		name = "春節福袋2024A(復刻)",
+		first_pay_double = 0,
+		name_display = "春節福袋2024A(復刻)",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		subject = "春節福袋2024A(復刻)",
+		money = 3800,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai11",
+		skin_inquire_relation = 86202,
+		id_str = "com.bilibili.blhx.zuanshi188",
+		extra_service = 3,
+		id = 88,
+		airijp_id = "com.yostarjp.azurlane.diamond176",
+		extra_service_item = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81202,
 				1
 			}
 		}

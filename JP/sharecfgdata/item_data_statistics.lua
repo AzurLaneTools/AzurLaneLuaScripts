@@ -8213,6 +8213,37 @@ _G.pg.base.item_data_statistics[11056] = {
 }
 
 
+_G.pg.base.item_data_statistics[11057] = {
+	open_directly = 0,
+	name = "533mm魚雷Mark35（四連射）T0設計図",
+	type = 9,
+	display = "533mm魚雷Mark35（四連射）T0設計図",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/15300",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[13000] = {
 	open_directly = 0,
 	name = "381mm連装砲.改T0設計図",
@@ -10272,6 +10303,96 @@ _G.pg.base.item_data_statistics[14006] = {
 		{
 			2,
 			13042,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[14007] = {
+	open_directly = 0,
+	name = "プロト設計図・S-Ⅶ",
+	type = 13,
+	display = [[
+下記任意のSSレアの装備（Ⅶ期）の設計図と交換可能
+「試作型VIT-2(モードチェンジ)T0設計図」
+「試作型254mm三連装砲Model1939T0設計図」
+「試作型152mm三連装砲Model1936T0設計図」
+「試作型F8Fベアキャット（フロート）T0設計図」
+「試作型410mm連装砲mod.ATT0設計図」
+]],
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/14007",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 14007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			13044,
+			1
+		},
+		{
+			2,
+			13045,
+			1
+		},
+		{
+			2,
+			13046,
+			1
+		},
+		{
+			2,
+			13047,
+			1
+		},
+		{
+			2,
+			13048,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			2,
+			13044,
+			1
+		},
+		{
+			2,
+			13045,
+			1
+		},
+		{
+			2,
+			13046,
+			1
+		},
+		{
+			2,
+			13047,
+			1
+		},
+		{
+			2,
+			13048,
 			1
 		}
 	},
@@ -13724,6 +13845,40 @@ _G.pg.base.item_data_statistics[20105] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 20105,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		9,
+		2
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[20106] = {
+	open_directly = 0,
+	name = "戦術データパック・Ⅵ期",
+	type = 18,
+	display = "科学部が作成した戦術データベース。特別計画6期の開発任務経験値を10000蓄積させることができる<color=#ff5c5c>（倉庫でプロトコアに分解可能）</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/20106",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 20106,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -25389,6 +25544,131 @@ _G.pg.base.item_data_statistics[30363] = {
 		{
 			9,
 			4094,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30364] = {
+	open_directly = 1,
+	name = "装備外装箱(瑞光迎春)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxruiguangyingsui",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30364",
+	id = 30364,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4095,
+			1
+		},
+		{
+			9,
+			4096,
+			1
+		},
+		{
+			9,
+			4097,
+			1
+		},
+		{
+			9,
+			4098,
+			1
+		},
+		{
+			9,
+			4099,
+			1
+		},
+		{
+			9,
+			4100,
+			1
+		},
+		{
+			9,
+			4101,
+			1
+		},
+		{
+			9,
+			4102,
+			1
+		},
+		{
+			9,
+			4103,
+			1
+		},
+		{
+			9,
+			4104,
+			1
+		},
+		{
+			9,
+			4105,
+			1
+		},
+		{
+			9,
+			4106,
+			1
+		},
+		{
+			9,
+			4107,
+			1
+		},
+		{
+			9,
+			4108,
+			1
+		},
+		{
+			9,
+			4109,
+			1
+		},
+		{
+			9,
+			4110,
+			1
+		},
+		{
+			9,
+			4111,
+			1
+		},
+		{
+			9,
+			4112,
 			1
 		}
 	},
@@ -37357,6 +37637,219 @@ _G.pg.base.item_data_statistics[30550] = {
 		{
 			9,
 			4094,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30551] = {
+	open_directly = 0,
+	name = "選択装備外装箱（瑞光迎春）",
+	type = 13,
+	display = "使用すると、装備外装（瑞光迎春）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxruiguangyingsuizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30551,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4095,
+			1
+		},
+		{
+			9,
+			4096,
+			1
+		},
+		{
+			9,
+			4097,
+			1
+		},
+		{
+			9,
+			4098,
+			1
+		},
+		{
+			9,
+			4099,
+			1
+		},
+		{
+			9,
+			4100,
+			1
+		},
+		{
+			9,
+			4101,
+			1
+		},
+		{
+			9,
+			4102,
+			1
+		},
+		{
+			9,
+			4103,
+			1
+		},
+		{
+			9,
+			4104,
+			1
+		},
+		{
+			9,
+			4105,
+			1
+		},
+		{
+			9,
+			4106,
+			1
+		},
+		{
+			9,
+			4107,
+			1
+		},
+		{
+			9,
+			4108,
+			1
+		},
+		{
+			9,
+			4109,
+			1
+		},
+		{
+			9,
+			4110,
+			1
+		},
+		{
+			9,
+			4111,
+			1
+		},
+		{
+			9,
+			4112,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4095,
+			1
+		},
+		{
+			9,
+			4096,
+			1
+		},
+		{
+			9,
+			4097,
+			1
+		},
+		{
+			9,
+			4098,
+			1
+		},
+		{
+			9,
+			4099,
+			1
+		},
+		{
+			9,
+			4100,
+			1
+		},
+		{
+			9,
+			4101,
+			1
+		},
+		{
+			9,
+			4102,
+			1
+		},
+		{
+			9,
+			4103,
+			1
+		},
+		{
+			9,
+			4104,
+			1
+		},
+		{
+			9,
+			4105,
+			1
+		},
+		{
+			9,
+			4106,
+			1
+		},
+		{
+			9,
+			4107,
+			1
+		},
+		{
+			9,
+			4108,
+			1
+		},
+		{
+			9,
+			4109,
+			1
+		},
+		{
+			9,
+			4110,
+			1
+		},
+		{
+			9,
+			4111,
+			1
+		},
+		{
+			9,
+			4112,
 			1
 		}
 	},
@@ -96468,6 +96961,40 @@ _G.pg.base.item_data_statistics[59853] = {
 }
 
 
+_G.pg.base.item_data_statistics[59854] = {
+	open_directly = 0,
+	name = "朱雀の印",
+	type = 7,
+	display = "東煌四神獣の一つである朱雀の姿が彫られた玉器、特別な力を発揮する。ーー駆逐艦「撫順」の改造素材",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/symbolzhuque",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59854,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		520024,
+		521024
+	},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "コアデータ",
@@ -105210,6 +105737,266 @@ _G.pg.base.item_data_statistics[60526] = {
 }
 
 
+_G.pg.base.item_data_statistics[60527] = {
+	open_directly = 0,
+	name = "春節招待状（2025）",
+	type = 21,
+	display = "祝福の年賀状も兼ねて。使用すると、艦船と記念アイテムを入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60527,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2901,
+		2902,
+		2903,
+		2904,
+		2905,
+		2906,
+		2907
+	},
+	limit = {},
+	open_ui = {
+		"greeting_year",
+		"t_greeting"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60528] = {
+	open_directly = 0,
+	name = "春節招待状（大鳳）",
+	type = 1,
+	display = "大鳳から受け取った、春節の年賀状（春節2025）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60528,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60529] = {
+	open_directly = 0,
+	name = "春節招待状（華甲）",
+	type = 1,
+	display = "華甲から受け取った、春節の年賀状（春節2025）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60529,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60530] = {
+	open_directly = 0,
+	name = "春節招待状（逸仙）",
+	type = 1,
+	display = "逸仙から受け取った、春節の年賀状（春節2025）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60530,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60531] = {
+	open_directly = 0,
+	name = "春節招待状（鎮海）",
+	type = 1,
+	display = "鎮海から受け取った、春節の年賀状（春節2025）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60531,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60532] = {
+	open_directly = 0,
+	name = "春節招待状（太原）",
+	type = 1,
+	display = "太原から受け取った、春節の年賀状（春節2025）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60532,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60533] = {
+	open_directly = 0,
+	name = "春節招待状（クイビシェフ）",
+	type = 1,
+	display = "クイビシェフから受け取った、春節の年賀状（春節2025）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60533,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60534] = {
+	open_directly = 0,
+	name = "春節招待状（シーシュース）",
+	type = 1,
+	display = "シーシュースから受け取った、春節の年賀状（春節2025）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60534,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[80003] = {
 	open_directly = 1,
 	name = "舰船教材T3捆绑包*1 ",
@@ -105393,9 +106180,9 @@ _G.pg.base.item_data_statistics[81201] = {
 
 _G.pg.base.item_data_statistics[81202] = {
 	open_directly = 1,
-	name = "春節福袋2024①",
+	name = "春節福袋2024A(復刻)",
 	type = 17,
-	display = "ランダムな（母港春節2024①）着せ替え衣装、上級指向型強化ユニット・六期目×2、ダイヤ×2024、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	display = "ランダムな（ランダム春節福袋2024Aの）着せ替え衣装、上級指向型強化ユニット・六期目×2、ダイヤ×2024、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -105460,9 +106247,9 @@ _G.pg.base.item_data_statistics[81202] = {
 
 _G.pg.base.item_data_statistics[81203] = {
 	open_directly = 1,
-	name = "春節福袋2024②",
+	name = "春節福袋2024B(復刻)",
 	type = 17,
-	display = "ランダムな（母港春節2024②）着せ替え衣装、上級指向型強化ユニット・六期目×2、ダイヤ×2024、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	display = "ランダムな（ランダム春節福袋2024Bの）着せ替え衣装、上級指向型強化ユニット・六期目×2、ダイヤ×2024、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -105887,6 +106674,73 @@ _G.pg.base.item_data_statistics[81209] = {
 		{
 			2,
 			86209,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81210] = {
+	open_directly = 1,
+	name = "春節福袋2025A",
+	type = 17,
+	display = "ランダムな（ランダム春節福袋2025Aの）着せ替え衣装、上級指向型強化ユニット・七期目×2、ダイヤ×2025、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai21",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998312",
+	id = 81210,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86210,
 			1
 		},
 		{

@@ -1446,6 +1446,25 @@ slot9.GetCldData = function(slot0)
 	return slot0._cldComponent:GetCldData()
 end
 
+slot9.ShiftCldComponent = function(slot0, slot1, slot2)
+	slot0:updateCldComponet(slot1, slot2)
+end
+
+slot9.ResetCldComponent = function(slot0)
+	slot0:updateCldComponet(slot0:GetTemplate().cld_box, slot0:GetTemplate().cld_offset)
+end
+
+slot9.updateCldComponet = function(slot0, slot1, slot2)
+	slot3 = slot2[1]
+
+	if slot0:GetDirection() == uv0.UnitDir.LEFT then
+		slot3 = slot3 * -1
+	end
+
+	slot0._cldComponent:ResetOffset(slot3, slot2[3] + slot1[3] / 2)
+	slot0._cldComponent:ResetSize(slot1[1], slot1[2], slot1[3])
+end
+
 slot9.InitOxygen = function(slot0)
 	slot0._maxOxy = slot0:GetAttrByName("oxyMax")
 	slot0._currentOxy = slot0:GetAttrByName("oxyMax")

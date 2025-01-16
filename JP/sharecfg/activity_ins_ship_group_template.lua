@@ -532,7 +532,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 50102,
 		name = "Fushun2",
 		background = "",
-		sculpture = "fushun",
+		sculpture = "fushun_g",
 		nationality = 0,
 		type = 1
 	},
@@ -3188,7 +3188,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 50602,
 		name = "Hua Jia",
 		background = "",
-		sculpture = "huajia_2",
+		sculpture = "huajia_g",
 		nationality = 0,
 		type = 1
 	},
@@ -4432,6 +4432,46 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[50301] = {
+		ship_group = 50301,
+		name = "Chien Wu",
+		background = "",
+		sculpture = "jianwu",
+		nationality = 5,
+		type = 1
+	},
+	[50210] = {
+		ship_group = 50210,
+		name = "Hai Yung",
+		background = "",
+		sculpture = "hairong",
+		nationality = 5,
+		type = 1
+	},
+	[50108] = {
+		ship_group = 50108,
+		name = "Chang Feng",
+		background = "",
+		sculpture = "changfeng",
+		nationality = 5,
+		type = 1
+	},
+	[50109] = {
+		ship_group = 50109,
+		name = "Fu Po",
+		background = "",
+		sculpture = "fubo",
+		nationality = 5,
+		type = 1
+	},
+	[10222] = {
+		ship_group = 10222,
+		name = "San Juan",
+		background = "",
+		sculpture = "shenghuan",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -4986,6 +5026,11 @@ pg.activity_ins_ship_group_template = {
 		20202,
 		39907,
 		89904,
-		40126
+		40126,
+		50301,
+		50210,
+		50108,
+		50109,
+		10222
 	}
 }

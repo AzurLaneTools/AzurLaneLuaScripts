@@ -42,7 +42,8 @@ slot0.listNotificationInterests = function(slot0)
 		ShipSkinProxy.SHIP_SKINS_UPDATE,
 		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
-		BayProxy.SHIP_UPDATED
+		BayProxy.SHIP_UPDATED,
+		GAME.CHANGE_SKIN_UPDATE
 	}
 end
 
@@ -62,7 +63,13 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == ShipSkinProxy.SHIP_SKINS_UPDATE then
 		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
 		slot0.viewComponent:openSelectSkinPanel()
-	elseif slot2 == BayProxy.SHIP_UPDATED and slot3.id == slot0.shipVO.id then
+	elseif slot2 == BayProxy.SHIP_UPDATED then
+		if slot3.id == slot0.shipVO.id then
+			slot0.viewComponent:setShip(slot3)
+			slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
+			slot0.viewComponent:openSelectSkinPanel()
+		end
+	elseif slot2 == GAME.CHANGE_SKIN_UPDATE and slot3.id == slot0.shipVO.id then
 		slot0.viewComponent:setShip(slot3)
 		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
 		slot0.viewComponent:openSelectSkinPanel()

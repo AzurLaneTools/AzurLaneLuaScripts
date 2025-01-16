@@ -19,6 +19,13 @@ slot1.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0._box = pg.CldNode.New()
 end
 
+slot1.ResetOffset = function(slot0, slot1, slot2)
+	slot0._offsetX = slot1
+	slot0._offsetZ = slot2
+	slot0._offset.x = slot1
+	slot0._offset.z = slot2
+end
+
 slot1.ResetSize = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1 * 0.5
 	slot5 = slot2 * 0.5

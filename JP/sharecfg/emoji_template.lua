@@ -470,7 +470,7 @@ pg.emoji_template = {
 	},
 	{
 		achieve = 1,
-		index = 77,
+		index = 83,
 		pic = "37",
 		desc = "<color=#92fc63>[まだ寝ないの]</color>",
 		item_name = "スタンプ：まだ寝ないの",
@@ -483,7 +483,7 @@ pg.emoji_template = {
 	},
 	{
 		achieve = 1,
-		index = 78,
+		index = 84,
 		pic = "38",
 		desc = "<color=#92fc63>[ねむねむ]</color>",
 		item_name = "スタンプ：ねむねむ",
@@ -494,7 +494,33 @@ pg.emoji_template = {
 			1
 		}
 	},
-	[41] = {
+	{
+		achieve = 1,
+		index = 85,
+		pic = "39",
+		desc = "<color=#92fc63>[準備万端]</color>",
+		item_name = "スタンプ：準備万端",
+		item_desc = "スタンプ：準備万端。チャットの「デフォルト」から使用できます",
+		id = 39,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		index = 86,
+		pic = "40",
+		desc = "<color=#92fc63>[もうちょっと]</color>",
+		item_name = "スタンプ：もうちょっと",
+		item_desc = "スタンプ：もうちょっと。チャットの「デフォルト」から使用できます",
+		id = 40,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
 		achieve = 0,
 		index = 1001,
 		pic = "akk",
@@ -507,7 +533,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[42] = {
+	{
 		achieve = 0,
 		index = 1002,
 		pic = "beifa",
@@ -520,7 +546,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[43] = {
+	{
 		achieve = 0,
 		index = 1003,
 		pic = "biaoqiang",
@@ -533,7 +559,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[44] = {
+	{
 		achieve = 0,
 		index = 1004,
 		pic = "buli",
@@ -546,7 +572,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[45] = {
+	{
 		achieve = 0,
 		index = 1005,
 		pic = "dujiaoshou",
@@ -559,7 +585,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[46] = {
+	{
 		achieve = 0,
 		index = 1006,
 		pic = "fangzhou",
@@ -572,7 +598,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[47] = {
+	{
 		achieve = 0,
 		index = 1007,
 		pic = "gaoxiong",
@@ -585,7 +611,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[48] = {
+	{
 		achieve = 0,
 		index = 1008,
 		pic = "haiwangxing",
@@ -598,7 +624,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[49] = {
+	{
 		achieve = 0,
 		index = 1009,
 		pic = "haman",
@@ -611,7 +637,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[50] = {
+	{
 		achieve = 0,
 		index = 1010,
 		pic = "kedie",
@@ -624,7 +650,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[51] = {
+	{
 		achieve = 0,
 		index = 1011,
 		pic = "lafei",
@@ -637,7 +663,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[52] = {
+	{
 		achieve = 0,
 		index = 1012,
 		pic = "lingbo",
@@ -650,7 +676,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[53] = {
+	{
 		achieve = 0,
 		index = 1013,
 		pic = "logo",
@@ -663,7 +689,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[54] = {
+	{
 		achieve = 0,
 		index = 1014,
 		pic = "mingshi",
@@ -676,7 +702,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[55] = {
+	{
 		achieve = 0,
 		index = 1015,
 		pic = "muyue",
@@ -689,7 +715,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[56] = {
+	{
 		achieve = 0,
 		index = 1016,
 		pic = "naerxun",
@@ -702,7 +728,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[57] = {
+	{
 		achieve = 0,
 		index = 1017,
 		pic = "neet",
@@ -715,7 +741,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[58] = {
+	{
 		achieve = 0,
 		index = 1018,
 		pic = "ninghai",
@@ -728,7 +754,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[59] = {
+	{
 		achieve = 0,
 		index = 1019,
 		pic = "qiye",
@@ -741,7 +767,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[60] = {
+	{
 		achieve = 0,
 		index = 1020,
 		pic = "ruihe",
@@ -754,7 +780,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[61] = {
+	{
 		achieve = 0,
 		index = 1021,
 		pic = "ruyue",
@@ -767,7 +793,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[62] = {
+	{
 		achieve = 0,
 		index = 1022,
 		pic = "shancheng",
@@ -780,7 +806,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[63] = {
+	{
 		achieve = 0,
 		index = 1023,
 		pic = "xiefei",
@@ -2236,6 +2262,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[1041] = {
+		achieve = 1,
+		index = 87,
+		pic = "1041",
+		desc = "<color=#92fc63>[わっ]</color>",
+		item_name = "スタンプ：わっ",
+		item_desc = "スタンプ：わっ。チャットの「デフォルト」から使用できます",
+		id = 1041,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2275,6 +2314,8 @@ pg.emoji_template = {
 		36,
 		37,
 		38,
+		39,
+		40,
 		41,
 		42,
 		43,
@@ -2408,6 +2449,7 @@ pg.emoji_template = {
 		372,
 		373,
 		374,
-		375
+		375,
+		1041
 	}
 }

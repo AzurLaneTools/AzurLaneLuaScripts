@@ -66,6 +66,14 @@ slot0.OnDestroy = function(slot0)
 	slot0.dftAniEvent:SetStartEvent(nil)
 end
 
+slot0.SetEffectPanelVisible = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.panels) do
+		if isa(slot6, MainRightPanel4Mellow) then
+			slot6:SetVisible(slot1)
+		end
+	end
+end
+
 slot0.ApplyDefaultResUI = function(slot0)
 	return false
 end
@@ -158,6 +166,10 @@ end
 
 slot0.GetBuffView = function(slot0)
 	return MainBuffView4Mellow.New(slot0:findTF("frame/top/buff_list"), slot0.event)
+end
+
+slot0.GetChangeSkinView = function(slot0)
+	return MainChangeSkinView.New(slot0:findTF("frame/right/change_skin"), slot0.event)
 end
 
 slot0.GetRedDots = function(slot0)

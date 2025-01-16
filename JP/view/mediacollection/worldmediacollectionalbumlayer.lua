@@ -131,13 +131,10 @@ slot0.SwitchReddotMemory = function(slot0)
 end
 
 slot0.ShowAlbum = function(slot0, slot1)
-	pg.m02:sendNotification(GAME.LOAD_LAYERS, {
-		parentContext = getProxy(ContextProxy):getCurrentContext(),
-		context = Context.New({
-			mediator = _G[slot1.ui_prefab.mediator],
-			viewComponent = _G[slot1.ui_prefab.scene]
-		})
-	})
+	slot0.viewParent:emit(WorldMediaCollectionMediator.ON_ADD_SUBLAYER, Context.New({
+		mediator = _G[slot1.ui_prefab.mediator],
+		viewComponent = _G[slot1.ui_prefab.scene]
+	}))
 end
 
 slot0.Return2MemoryGroup = function(slot0)

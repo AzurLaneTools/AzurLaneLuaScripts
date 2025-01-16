@@ -5924,6 +5924,9 @@ temp = function()
 			["改"] = {
 				this = true
 			}
+		},
+		["風"] = {
+			this = true
 		}
 	}
 end
@@ -5966,6 +5969,9 @@ temp = function()
 			this = true
 		},
 		["圻"] = {
+			this = true
+		},
+		["容"] = {
 			this = true
 		},
 		["伦"] = {
@@ -7345,6 +7351,16 @@ end
 temp()
 
 temp = function()
+	uv0["伏"] = {
+		["波"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["逸"] = {
 		["仙"] = {
 			this = true,
@@ -7408,6 +7424,16 @@ end
 temp()
 
 temp = function()
+	uv0["建"] = {
+		["武"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["寰"] = {
 		["昌"] = {
 			this = true
@@ -7441,9 +7467,37 @@ end
 temp()
 
 temp = function()
+	uv0["华"] = {
+		["甲"] = {
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["定"] = {
 		["安"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["抚"] = {
+		["顺"] = {
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end

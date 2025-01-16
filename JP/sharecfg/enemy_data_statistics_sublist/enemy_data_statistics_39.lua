@@ -1,5 +1,214 @@
 pg = pg or {}
 pg.enemy_data_statistics_39 = {
+	[820] = {
+		cannon = 45,
+		name = "護衛コルベットPowered",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		antisub = 100,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 30,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90123,
+		durability = 580,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 820,
+		scale = 150,
+		cannon_growth = 0,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 80,
+		torpedo = 140,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				2.6,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong3 = 0.75
+		},
+		equipment_list = {
+			300140,
+			300141,
+			300142
+		}
+	},
+	[821] = {
+		cannon = 65,
+		name = "護衛フリゲートPowered",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		antisub = 60,
+		armor = 0,
+		rarity = 2,
+		antiaircraft = 30,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90124,
+		durability = 860,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 821,
+		scale = 150,
+		cannon_growth = 0,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 10,
+		torpedo = 80,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 30,
+		cld_box = {
+			9.75,
+			5.625,
+			6.75
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0.66,
+				-0.19,
+				-0.02
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuazhong2 = 0.75
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			300140,
+			300143,
+			300144
+		}
+	},
+	[822] = {
+		cannon = 0,
+		name = "輸送艦",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		reload = 150,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 30,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90090,
+		durability = 600,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 822,
+		scale = 150,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 0,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		cld_box = {
+			4.125,
+			5.625,
+			6
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				-0.48,
+				0
+			},
+			{
+				0.2,
+				0.006,
+				0.5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {
+			danchuanlanghuaxiao = 0.75
+		},
+		appear_fx = {
+			"appearsmall"
+		}
+	},
 	[823] = {
 		cannon = 80,
 		antisub = 140,
@@ -1227,79 +1436,6 @@ pg.enemy_data_statistics_39 = {
 		equipment_list = {
 			473011,
 			473012
-		}
-	},
-	[903] = {
-		cannon = 20,
-		name = "重巡「Bishop」",
-		air = 0,
-		torpedo = 20,
-		id = 903,
-		reload = 150,
-		speed = 15,
-		dodge = 0,
-		armor = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90125,
-		durability = 4000,
-		antiaircraft = 150,
-		battle_unit_type = 3,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			473021,
-			473022,
-			473023
-		}
-	},
-	[904] = {
-		cannon = 30,
-		name = "戦艦「Rook」",
-		air = 0,
-		torpedo = 0,
-		id = 904,
-		reload = 150,
-		speed = 15,
-		dodge = 0,
-		armor = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90126,
-		durability = 6000,
-		antiaircraft = 150,
-		battle_unit_type = 4,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			473031,
-			473032,
-			473033
-		}
-	},
-	[905] = {
-		cannon = 0,
-		name = "空母「Queen」",
-		air = 50,
-		torpedo = 0,
-		id = 905,
-		reload = 150,
-		speed = 15,
-		dodge = 0,
-		armor = 0,
-		fog_fx = "",
-		hit = 0,
-		base = 90127,
-		durability = 5000,
-		antiaircraft = 150,
-		battle_unit_type = 4,
-		luck = 0,
-		antisub = 0,
-		equipment_list = {
-			473041,
-			473042,
-			473043,
-			473044
 		}
 	}
 }
