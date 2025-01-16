@@ -2065,7 +2065,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100171,
 		target_num = 1,
-		desc = "使用罗德尼·META获得1次胜利"
+		desc = "使用羅德尼·META獲得1次勝利"
 	},
 	[100172] = {
 		target_id = "30",
@@ -2073,7 +2073,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100172,
 		target_num = 1,
-		desc = "使用罗德尼·META击破等级＞30的敌方1次"
+		desc = "使用羅德尼·META擊破等級＞30的敵方1次 "
 	},
 	[100173] = {
 		target_id = "55",
@@ -2081,7 +2081,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100173,
 		target_num = 1,
-		desc = "使用罗德尼·META击破等级＞55的敌方1次"
+		desc = "使用羅德尼·META擊破等級＞55的敵方1次"
 	},
 	[100174] = {
 		target_id = "80",
@@ -2089,7 +2089,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100174,
 		target_num = 1,
-		desc = "使用罗德尼·META击破等级＞80的敌方1次"
+		desc = "使用羅德尼·META擊破等級＞80的敵方1次"
 	},
 	[100175] = {
 		target_id = "100",
@@ -2097,7 +2097,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 100175,
 		target_num = 1,
-		desc = "使用罗德尼·META击破等级＞100的敌方1次"
+		desc = "使用羅德尼·META擊破等級＞100的敵方1次"
 	},
 	[100181] = {
 		target_id = "0",

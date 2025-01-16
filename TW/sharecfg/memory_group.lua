@@ -277,6 +277,7 @@ pg.memory_group = setmetatable({
 		590,
 		591,
 		592,
+		593,
 		594,
 		595,
 		1000,
@@ -5938,6 +5939,23 @@ pg.base.memory_group = {
 			3135,
 			3136,
 			3137
+		}
+	},
+	[593] = {
+		title = "主持人、藝人與秘書艦",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 593,
+		icon = "title_chara_guandao",
+		memories = {
+			3265,
+			3266,
+			3267,
+			3268,
+			3269,
+			3270,
+			3271
 		}
 	},
 	[594] = {

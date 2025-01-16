@@ -470,7 +470,9 @@ slot0.initScene = function(slot0)
 		[uv0.CAMERA.PHOTO_FREE] = slot4:Find("PhotoFree Controller"),
 		[uv0.CAMERA.POV] = slot4:Find("FP Camera"):GetComponent(typeof(Cinemachine.CinemachineVirtualCamera))
 	}
-	slot0.compDolly = slot0.cameraAim:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Body)
+
+	setActive(slot0.cameras[uv0.CAMERA.PHOTO_FREE]:Find("PhotoFree Camera"), true)
+
 	slot6 = slot0.cameras[uv0.CAMERA.POV]
 	slot0.compPovAim = slot6:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
 	slot0.cameraRoot = slot4
@@ -1027,8 +1029,8 @@ end
 
 slot0.SetCameraLady = function(slot0, slot1)
 	slot0.cameraAim2.LookAt = slot1.ladyInterestRoot
-	slot0.cameras[uv0.CAMERA.TALK].Follow = slot1.ladyInterest
-	slot0.cameras[uv0.CAMERA.TALK].LookAt = slot1.ladyInterest
+	slot0.cameras[uv0.CAMERA.TALK].Follow = slot0.ladyInterest
+	slot0.cameras[uv0.CAMERA.TALK].LookAt = slot0.ladyInterest
 	slot0.cameraGift.Follow = slot0.ladyInterest
 	slot0.cameraGift.LookAt = slot0.ladyInterest
 	slot0.cameraRole2.LookAt = slot1.ladyInterestRoot
@@ -1695,22 +1697,6 @@ slot0.ShiftZone = function(slot0, slot1, slot2)
 			slot0()
 		end
 	}, slot2)
-end
-
-slot0.WalkByRootMotionLoop = function(slot0, slot1, slot2)
-	if slot1.pathPending then
-		slot2:SetFloat("Speed", 0)
-
-		return
-	end
-
-	slot2:SetFloat("Speed", 1)
-
-	if slot1.path.corners.Length > 1 then
-		slot5 = slot4[1] - slot1.transform.position
-		slot5.y = 0
-		slot1.transform.rotation = Quaternion.Lerp(slot1.transform.rotation, Quaternion.LookRotation(slot5), Damp(1, 1, Time.deltaTime))
-	end
 end
 
 slot0.ActiveCamera = function(slot0, slot1)
@@ -2935,7 +2921,7 @@ slot0.PlaySingleAction = function(slot0, slot1, slot2, slot3)
 					end
 				end
 
-				uv3.animExtraItemCallback = function()
+				uv0.animExtraItemCallback = function()
 					uv0.loader:ClearRequest("AnimExtraItem")
 
 					if uv1 then
@@ -2958,9 +2944,9 @@ slot0.PlaySingleAction = function(slot0, slot1, slot2, slot3)
 			uv0.nowState = nil
 			uv0.stateCallback = nil
 
-			existCall(uv1.animExtraItemCallback)
+			existCall(uv0.animExtraItemCallback)
 
-			uv1.animExtraItemCallback = nil
+			uv0.animExtraItemCallback = nil
 
 			slot0()
 		end,

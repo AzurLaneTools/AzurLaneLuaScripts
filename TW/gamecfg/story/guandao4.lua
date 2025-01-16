@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>四　表里音轨</size>",
+					"主持人、藝人與秘書艦\n\n<size=45>4.表裡音軌</size>",
 					1
 				}
 			}
@@ -21,9 +21,9 @@ return {
 			dir = 1,
 			portrait = 118020,
 			bgm = "story-richang-11",
-			actorName = "关岛",
+			actorName = "關島",
 			hidePaintObj = true,
-			say = "“欸？我抢到了？唔、答案、答案是……呜啊啊啊！时间怎么这么快就到了！“",
+			say = "「欸？我搶到了？唔、答案、答案是……嗚啊啊啊！時間怎麼這麼快就到了！」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "指挥室中，熟悉的声音从屏幕里传来。",
+			say = "指揮室中，熟悉的聲音從螢幕傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "演播室中的关岛随着游戏提示音响起，露出了夸张的笑容。",
+			say = "攝影棚中的關島隨著遊戲提示音響起，露出了誇張的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~指挥官这是在看我参加的节目吗？",
+			say = "啊~指揮官這是在看我參加的節目嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当时这一段在录制现场也超有趣的！难得看到埃塞克斯笑得那么厉害啊~",
+			say = "當時這一段在錄音現場也超有趣的！難得看到艾塞克斯笑得那麼厲害~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "现实中的关岛，亦伴随着爽朗的笑声推门而入。",
+			say = "現實中的關島，亦伴隨著爽朗的笑聲推門而入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官感觉怎么样，还算喜欢么？",
+			say = "指揮官感覺怎麼樣，還算喜歡嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "非常有节目效果",
+					content = "非常有節目效果",
 					flag = 2
 				}
 			}
@@ -146,7 +146,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~太好了，听到指挥官这么说我就放心了！",
+			say = "嘿嘿~太好了，聽到指揮官這麼說我就放心了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过也不用特意趁我出门不在的时候偷偷看嘛，直接当着我的面看也可以哦。",
+			say = "不過也不用特意趁我出門不在的時候偷偷看嘛，直接當著我的面看也可以哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -182,7 +182,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "跟你一起看屏幕里的我多有趣啊，就像！！唔……就像表里音轨录制节目的感觉？",
+			say = "跟你一起看螢幕裡的我多有趣啊，就像！！嗯……就像表裡音軌錄製節目的感覺？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -199,7 +199,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官能理解么？！",
+			say = "指揮官能理解嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好像能……？不过你日程安排的这么满真的没问题么？",
+			say = "好像能……？不過你行程安排的這麼滿真的沒問題？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果一直把怀表上满发条的话，反而会出现突然崩坏的情况哦。",
+			say = "如果一直把懷錶上滿發條的話，反而會出現突然崩壞的情況哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没问题啦，而且我可是美少女舰船，不是什么发条怀表哦♪",
+			say = "沒問題啦，而且我可是美少女艦船，不是什麼發條懷錶哦♪",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -257,7 +257,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这时候使出装傻技能？",
+			say = "這時候使出裝傻技能？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸嘿嘿，不是时机恰到好处嘛~从日常生活中获取灵感也是创作节目所需的必备技能哦！",
+			say = "欸嘿嘿，不是時機恰到好處嘛~從日常生活中獲取靈感也是創作節目所需的必備技能哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -281,11 +281,11 @@ return {
 			},
 			options = {
 				{
-					content = "时机是很好，但是——",
+					content = "時機是很好，但是——",
 					flag = 1
 				},
 				{
-					content = "不要转移话题！",
+					content = "不要轉移話題！",
 					flag = 2
 				}
 			}
@@ -298,7 +298,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔、这么细想下来，最近的行程确实有一点紧呢……",
+			say = "唔、這麼細想下來，最近的行程確實有一點緊呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也不知道你是怎么忙得过来的，如果觉得累的话申请休假也是可以的。",
+			say = "也不知道妳是怎麼忙得過來的，如果覺得累的話申請休假也是可以的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无论是新闻主持、参加电视节目、成为艺人还是当指挥官的秘书舰——",
+			say = "無論是新聞主持、參加電視節目、成為藝人或是當指揮官的秘書艦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些都是关岛感兴趣的事，所以就直接去做啦~",
+			say = "這些都是關島有興趣的事，所以就直接去做吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于会不会累……呼呼~关岛可是有着无穷活力的！",
+			say = "至於會不會累……呼呼~關島可是有著無窮活力的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "下午的工作，也尽管放马过来吧~！",
+			say = "下午的工作，也儘管放馬過來吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“嗡————嗡————”",
+			say = "「嗡————嗡————」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "关岛伸开双臂，模仿着轰炸机的样子冲向了文件堆，宣告了午后工作的正式开始。",
+			say = "關島伸開雙臂，模仿轟炸機的樣子衝向了文件堆，宣告了午後工作的正式開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……不愧是艺人，打断话题的技巧真是层出不穷。",
+			say = "……不愧是藝人，打斷話題的技巧真是層出不窮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿……多谢指挥官的关心啦，我会注意的！",
+			say = "嘿嘿……多謝指揮官的關心啦，我會注意的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -473,7 +473,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "适度削减日程表的密度，注意休息，同时文书处理工作也不落下，这样就可以了吧~？",
+			say = "適度削減行程表的密度，注意休息，同時文書處理工作也不落下，這樣就可以了吧~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -488,7 +488,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说着，少女便蹦蹦跳跳地回到了座位用文件把自己的头盖了起来。",
+			say = "說著，少女便蹦蹦跳跳地回到了座位用文件把自己的頭蓋了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "——感觉今天下午的工作，也要在热热闹闹的气氛中度过了。",
+			say = "——感覺今天下午的工作，也要在熱鬧的氣氛中度過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

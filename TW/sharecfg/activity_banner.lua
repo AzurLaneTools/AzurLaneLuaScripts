@@ -179,14 +179,17 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"scene court yard"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					1,
-					2
+					16
 				},
 				{
 					0,
@@ -198,7 +201,7 @@ pg.activity_banner = {
 				{
 					2025,
 					1,
-					22
+					23
 				},
 				{
 					23,
@@ -209,16 +212,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5736",
-		type = 3,
+		type = 2,
 		id = 7,
 		pic = "temp8",
+		param = {
+			"seltechnology"
+		},
 		time = {
 			{
 				{
 					2025,
 					1,
-					9
+					16
 				},
 				{
 					0,
@@ -702,6 +707,7 @@ pg.activity_banner = {
 			4,
 			5,
 			6,
+			7,
 			8,
 			1000,
 			1001,
@@ -730,7 +736,6 @@ pg.activity_banner = {
 		[3] = {
 			2,
 			3,
-			7,
 			1003
 		},
 		[9] = {

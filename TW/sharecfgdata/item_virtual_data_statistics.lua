@@ -698,7 +698,7 @@ _G.pg.base.item_virtual_data_statistics[52004] = {
 
 _G.pg.base.item_virtual_data_statistics[52011] = {
 	drop_gold_max = 0,
-	name = "未知蓝图",
+	name = "未知藍圖",
 	display = "有機率獲得以下藍圖",
 	type = 99,
 	is_world = 0,
@@ -754,7 +754,7 @@ _G.pg.base.item_virtual_data_statistics[52011] = {
 
 _G.pg.base.item_virtual_data_statistics[52012] = {
 	drop_gold_max = 0,
-	name = "未知限定装备設計圖",
+	name = "未知限定裝備設計圖",
 	display = "有機率獲得以下設計圖",
 	type = 99,
 	is_world = 0,
@@ -835,7 +835,7 @@ _G.pg.base.item_virtual_data_statistics[52012] = {
 
 _G.pg.base.item_virtual_data_statistics[52021] = {
 	drop_gold_max = 0,
-	name = "未知蓝图",
+	name = "未知藍圖",
 	display = "有機率獲得以下藍圖",
 	type = 99,
 	is_world = 0,
@@ -886,7 +886,7 @@ _G.pg.base.item_virtual_data_statistics[52021] = {
 
 _G.pg.base.item_virtual_data_statistics[52022] = {
 	drop_gold_max = 0,
-	name = "未知限定装备設計圖",
+	name = "未知限定裝備設計圖",
 	display = "有機率獲得以下設計圖",
 	type = 99,
 	is_world = 0,
@@ -967,7 +967,7 @@ _G.pg.base.item_virtual_data_statistics[52022] = {
 
 _G.pg.base.item_virtual_data_statistics[52031] = {
 	drop_gold_max = 0,
-	name = "未知蓝图",
+	name = "未知藍圖",
 	display = "有機率獲得以下藍圖",
 	type = 99,
 	is_world = 0,
@@ -1018,7 +1018,7 @@ _G.pg.base.item_virtual_data_statistics[52031] = {
 
 _G.pg.base.item_virtual_data_statistics[52032] = {
 	drop_gold_max = 0,
-	name = "未知限定装备設計圖",
+	name = "未知限定裝備設計圖",
 	display = "有機率獲得以下設計圖",
 	type = 99,
 	is_world = 0,
@@ -1559,7 +1559,7 @@ _G.pg.base.item_virtual_data_statistics[52051] = {
 
 _G.pg.base.item_virtual_data_statistics[52061] = {
 	drop_gold_max = 0,
-	name = "未知蓝图",
+	name = "未知藍圖",
 	display = "有機率獲得以下藍圖",
 	type = 99,
 	is_world = 0,
@@ -1610,7 +1610,7 @@ _G.pg.base.item_virtual_data_statistics[52061] = {
 
 _G.pg.base.item_virtual_data_statistics[52062] = {
 	drop_gold_max = 0,
-	name = "未知限定装备設計圖",
+	name = "未知限定裝備設計圖",
 	display = "有機率獲得以下設計圖",
 	type = 99,
 	is_world = 0,
@@ -1691,7 +1691,7 @@ _G.pg.base.item_virtual_data_statistics[52062] = {
 
 _G.pg.base.item_virtual_data_statistics[52071] = {
 	drop_gold_max = 0,
-	name = "未知蓝图",
+	name = "未知藍圖",
 	display = "有機率獲得以下藍圖",
 	type = 99,
 	is_world = 0,
@@ -1742,7 +1742,7 @@ _G.pg.base.item_virtual_data_statistics[52071] = {
 
 _G.pg.base.item_virtual_data_statistics[52072] = {
 	drop_gold_max = 0,
-	name = "未知限定装备設計圖",
+	name = "未知限定裝備設計圖",
 	display = "有機率獲得以下設計圖",
 	type = 99,
 	is_world = 0,
@@ -1786,6 +1786,138 @@ _G.pg.base.item_virtual_data_statistics[52072] = {
 		{
 			2,
 			13042,
+			1
+		},
+		{
+			2,
+			13024,
+			1
+		},
+		{
+			2,
+			13007,
+			1
+		},
+		{
+			2,
+			13010,
+			1
+		},
+		{
+			2,
+			13009,
+			1
+		},
+		{
+			2,
+			13011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[52081] = {
+	drop_gold_max = 0,
+	name = "未知藍圖",
+	display = "有機率獲得以下藍圖",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/52001",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52081,
+	display_icon = {
+		{
+			2,
+			42061,
+			1
+		},
+		{
+			2,
+			42062,
+			1
+		},
+		{
+			2,
+			42063,
+			1
+		},
+		{
+			2,
+			42064,
+			1
+		},
+		{
+			2,
+			42065,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[52082] = {
+	drop_gold_max = 0,
+	name = "未知限定裝備設計圖",
+	display = "有機率獲得以下設計圖",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 52082,
+	display_icon = {
+		{
+			2,
+			13043,
+			1
+		},
+		{
+			2,
+			13044,
+			1
+		},
+		{
+			2,
+			13045,
+			1
+		},
+		{
+			2,
+			13046,
+			1
+		},
+		{
+			2,
+			13047,
+			1
+		},
+		{
+			2,
+			13048,
 			1
 		},
 		{

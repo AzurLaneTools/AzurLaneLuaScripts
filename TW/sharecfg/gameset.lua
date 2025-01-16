@@ -2679,7 +2679,9 @@ pg.gameset = {
 			42040,
 			42046,
 			42050,
-			42056
+			42056,
+			42060,
+			42066
 		}
 	},
 	submarine_chapter_activate_time = {

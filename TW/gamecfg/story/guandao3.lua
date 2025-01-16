@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"主持人、艺人与秘书舰\n\n<size=45>三　新闻采访中的秘书舰</size>",
+					"主持人、藝人與秘書艦\n\n<size=45>3.新聞採訪中的秘書艦</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Morning Everybody~这里是由白鹰CB-2关岛所主持的演习现场直播！",
+			say = "Morning Everybody~這裡是由白鷹CB-2關島所主持的演習現場直播！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -39,7 +39,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在我们看到，战斗已经进入到了白热化阶段……胜利的桂冠究竟会花落谁家呢？",
+			say = "現在我們看到，戰鬥已經進入到了白熱化階段……勝利的桂冠究竟會花落誰家呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -57,7 +57,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "快看！是克利夫兰！她准备孤注一掷……漂亮！相当漂亮的一击！接下来轮到……",
+			say = "快看！是克里夫蘭！她準備孤注一擲……漂亮！相當漂亮的一擊！接下來輪到……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦！冠军小组发现！",
+			say = "哦！冠軍小組發現！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天真是精彩的一战！请问作为冠军队代表您有什么想说的吗？",
+			say = "今天真是精彩的一戰！請問身為冠軍隊代表您有什麼想說的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？今天竟然还有采访环节的吗？",
+			say = "欸？今天竟然還有採訪環節的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -145,7 +145,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简单对我们的观众发表一下感想就好~relax~relax~",
+			say = "簡單對我們的觀眾發表一下感想就好~relax~relax~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈~总之，靠着一鼓作气的气势就这么赢了下来……",
+			say = "啊哈哈哈~總之，靠著一鼓作氣的氣勢就這麼贏了下來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -210,7 +210,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~是指挥官！今天不休息吗？哦？特地来观看白鹰的演习？",
+			say = "啊~是指揮官！今天不休息嗎？哦？特地來觀看白鷹的演習？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -228,7 +228,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~我们上场的两支队伍是不是很厉害？",
+			say = "嘿嘿~我們上場的兩隊是不是很厲害？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -245,7 +245,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了对了~指挥官对于这场演习有没有什么要点评的？不如来发表一点专业意见吧！",
+			say = "對了對了~指揮官對於這場演習有沒有什麼要點評的？不如來發表一點專業意見吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "说着，少女迫不及待地把手中的话筒伸到了过来。",
+			say = "說著，少女迫不及待地把手中的麥克風伸到了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……怎么变成采访我了？我还以为直播工作已经结束了。",
+			say = "……怎麼變成採訪我了？我還以為直播工作已經結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "直播确实已经结束了，现在是在为晚间节目录制素材！",
+			say = "直播確實已經結束了，現在是在為晚間節目錄製素材！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -303,7 +303,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以指挥官可以放心大胆地发表意见~反正是会进行剪辑处理的。",
+			say = "所以指揮官可以放心大膽地發表意見~反正是會進行剪輯處理的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -321,7 +321,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说这不是正好遇到你了么~指挥官您可是流量密码，为了我的收视率，请务必对这场演习点评一二！",
+			say = "再說這不是剛好遇到你了嗎~指揮官您可是流量密碼，為了我的收視率，請務必對這場演習點評一二！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -351,7 +351,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦……两支队伍在战术选择上，居然进行了如此多的考量……",
+			say = "哇哦……兩支隊伍在戰術選擇上，居然進行了如此多的考量……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -385,7 +385,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好~非常感谢指挥官愿意抽出宝贵的时光来配合录制，有了这段素材，我一定能做出精彩的节目！",
+			say = "好~非常感謝指揮官願意抽出寶貴的時光來配合錄製，有了這段素材，我一定能做出精彩的節目！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_outdoor",
 			hidePaintObj = true,
-			say = "摄影机前的关岛，似乎散发着与平时不同的气场。",
+			say = "攝影機前的關島，似乎散發著與平常不同的氣場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，毕竟现在是主持人模式嘛~",
+			say = "嘿嘿，畢竟現在是主持人模式嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -432,7 +432,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，秘书舰的工作我也不会落下~！等今天的节目结束后，我会回寝室努力学习处理文书的！",
+			say = "當然，秘書艦的工作我也不會落下~！等今天的節目結束後，我會回寢室努力學習處理文書的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -450,7 +450,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈……♪指挥官的表情，看起来好像是在担心我哦~？",
+			say = "啊哈……♪指揮官的表情，看起來好像是在擔心我哦~？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -468,7 +468,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~你担心我我是很开心啦，不过不要小瞧了身为美少女多栖艺人的关岛我哦！",
+			say = "哼哼~你擔心我我很開心啦，不過不要小看了身為美少女多棲藝人的關島我哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -486,7 +486,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "即便是活动日程全部排满需要通宵，我也能精神满满去应对！",
+			say = "即便是活動行程全部排滿需要通宵，我也能精神滿滿地應付！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -513,7 +513,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么时间差不多了，我该去采访其他选手咯~",
+			say = "那麼時間差不多了，該去採訪其他選手了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -531,7 +531,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今晚如果方便的话，请务必准时收看晚间节目哦~",
+			say = "今晚如果方便的話，請務必準時收看晚間節目~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -549,7 +549,7 @@ return {
 			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们隔着屏幕不见不散~",
+			say = "我們隔著螢幕不見不散~",
 			painting = {
 				alpha = 0.3,
 				time = 1

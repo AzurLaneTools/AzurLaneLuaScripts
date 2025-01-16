@@ -13870,6 +13870,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_99902 = {
 }
 
 
+_G.pg.base.gametip.blueprint_simulation_confirm_19905 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+127mm單裝炮
+五聯裝533mm魚雷
+試作型F8F熊貓（浮筒型）
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_39907 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型雙聯裝410mm主炮Mod.A
+140mm單裝炮
+試作型五式40mm高射機關炮
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69902 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作型三聯裝254mm主炮Model1939
+試作型三聯裝152mm主炮Model1936
+試作型雙聯90mm高角炮Model1939
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_89904 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+三聯裝152mm主炮Mle1930(高爆彈)
+三聯裝550mm魚雷
+雙聯裝57mm/L60博福斯對空機炮Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
+	tip = [[
+<size=28>
+是否開始戰術模擬？ (模擬中我方艦船將受到某些特殊加成影響，
+<color=#ff5c5c>實際性能以獲得艦船為準</color>）
+使用裝備：<color=#92fc63>
+試作艦載型La-9
+試作艦載型La-9
+試作型VIT-2（模式調整）
+</color></size>]]
+}
+
+
 _G.pg.base.gametip.electrotherapy_wanning = {
 	tip = "鏡面海域擴展中"
 }

@@ -213,15 +213,21 @@ slot0.didEnter = function(slot0)
 	slot1, slot2 = slot0.apartment:getFavor()
 
 	setText(slot0.rtLevelPanel:Find("bg/favor/level"), string.format("Lv.%d : ", slot0.apartment.level))
-	setText(slot0.rtLevelPanel:Find("bg/favor/level/Text"), string.format("%d/%d", slot1, slot2))
+
+	if slot0.apartment:isMaxFavor() then
+		setText(slot0.rtLevelPanel:Find("bg/favor/level/Text"), "MAX")
+	else
+		setText(slot0.rtLevelPanel:Find("bg/favor/level/Text"), string.format("%d/%d", slot1, slot2))
+	end
+
 	setSlider(slot0.rtLevelPanel:Find("bg/favor/progressBg/progress"), 0, slot2, slot1)
 	slot0.levelItemList:align(getDorm3dGameset("favor_level")[1])
 
 	slot0.rtLevelContainer:GetComponent(typeof(ScrollRect)).horizontalNormalizedPosition = 0
-	slot3 = getDorm3dGameset("drom3d_time_unlock")[1] <= slot0.apartment.level
+	slot4 = getDorm3dGameset("drom3d_time_unlock")[1] <= slot0.apartment.level
 
-	setImageAlpha(slot0.rtLevelPanel:Find("bg/bottom/btn_time"), not slot3 and 0.2 or 1)
-	setActive(slot0.rtLevelPanel:Find("bg/bottom/btn_time/lock"), not slot3)
+	setImageAlpha(slot0.rtLevelPanel:Find("bg/bottom/btn_time"), not slot4 and 0.2 or 1)
+	setActive(slot0.rtLevelPanel:Find("bg/bottom/btn_time/lock"), not slot4)
 	setText(slot0.rtLevelPanel:Find("bg/left/rot/Text"), i18n("dorm3d_appellation_title"))
 	setText(slot0.rtRenameWindow:Find("panel/cancel/Text"), i18n("word_cancel"))
 	setText(slot0.rtRenameWindow:Find("panel/confirm/Text"), i18n("word_ok"))

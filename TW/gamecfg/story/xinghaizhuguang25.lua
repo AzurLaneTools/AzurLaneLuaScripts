@@ -1241,7 +1241,7 @@ return {
 			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好奇怪，模擬世界中應給沒有設定過會讓人「餓」才對……",
+			say = "好奇怪，模擬世界中應該沒有設定過會讓人「餓」才對……",
 			painting = {
 				alpha = 0.3,
 				time = 1

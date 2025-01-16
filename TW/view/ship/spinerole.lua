@@ -52,6 +52,7 @@ slot0.Load = function(slot0, slot1, slot2, slot3)
 			end
 
 			uv0:AttachOrbit(uv3)
+			uv0:sortAttachmentGO()
 		end
 	end)
 end
@@ -68,17 +69,18 @@ slot0.AttachOrbit = function(slot0, slot1)
 	slot2 = slot1 or uv0.ORBIT_KEY_UI
 
 	for slot7, slot8 in pairs(slot0:GetAttachmentList()) do
-		slot9 = slot8[slot2]
+		slot10 = slot8.index
+		slot11 = slot8.config[slot2]
 
-		if slot2 ~= uv0.ORBIT_KEY_UI and slot9 == "" then
-			slot9 = slot8.orbit_ui
+		if slot2 ~= uv0.ORBIT_KEY_UI and slot11 == "" then
+			slot11 = slot9.orbit_ui
 			slot2 = uv0.ORBIT_KEY_UI
 		end
 
-		if slot9 ~= "" then
-			slot11 = ResourceMgr.Inst
+		if slot11 ~= "" then
+			slot13 = ResourceMgr.Inst
 
-			slot11:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot9), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			slot13:getAssetAsync(ys.Battle.BattleResourceManager.GetOrbitPath(slot11), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 				if uv0.state ~= uv1.STATE_DISPOSE then
 					slot1 = uv2 .. "_bound"
 					slot2 = uv3[slot1][1]
@@ -91,7 +93,12 @@ slot0.AttachOrbit = function(slot0, slot1)
 					slot4.transform.localPosition = Vector2(slot3[1], slot3[2])
 					slot6 = SpineAnimUI.AddFollower(slot2, uv0.model.transform, slot4.transform)
 					slot4.transform.localScale = Vector3.one
-					uv0._attachmentList[slot6] = uv3.orbit_hidden_action
+					uv0._attachmentList[slot6] = {
+						p = uv4,
+						hiddenActionList = uv3.orbit_hidden_action,
+						index = uv5,
+						back = uv3.orbit_ui_back
+					}
 					slot7 = slot6:GetComponent("Spine.Unity.BoneFollowerGraphic")
 
 					if uv3.orbit_rotate then
@@ -111,8 +118,34 @@ slot0.AttachOrbit = function(slot0, slot1)
 					end
 
 					SetActive(slot4, uv0._visible)
+					uv0:sortAttachmentGO()
 				end
 			end), true, true)
+		end
+	end
+end
+
+slot0.sortAttachmentGO = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0._attachmentList) do
+		table.insert(slot1, {
+			tf = slot5,
+			index = slot6.index,
+			back = slot6.back,
+			p = slot6.p
+		})
+	end
+
+	table.sort(slot1, function (slot0, slot1)
+		return slot0.index < slot1.index
+	end)
+
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6.back ~= 1 then
+			slot6.tf:SetAsLastSibling()
+
+			break
 		end
 	end
 end
@@ -190,7 +223,7 @@ end
 
 slot0.HiddenAttachmentByAction = function(slot0, slot1)
 	for slot5, slot6 in pairs(slot0._attachmentList) do
-		SetActive(slot5, not table.contains(slot6, slot1))
+		SetActive(slot5, not table.contains(slot6.hiddenActionList, slot1))
 	end
 end
 

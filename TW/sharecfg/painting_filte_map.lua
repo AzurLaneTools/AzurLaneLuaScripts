@@ -1725,6 +1725,23 @@ pg.painting_filte_map = {
 			"painting/beiqi_3"
 		}
 	},
+	beiyade = {
+		key = "beiyade",
+		res_list = {
+			"painting/beiyade_tex",
+			"painting/beiyade_rw_tex",
+			"painting/beiyade_2_tex",
+			"painting/beiyade_2_rw_tex",
+			"painting/beiyade_2_n_tex",
+			"painting/beiyade_2_n_hx_tex",
+			"painting/beiyade_2_n_hx",
+			"painting/beiyade_2_n",
+			"painting/beiyade_2_hx_tex",
+			"painting/beiyade_2_hx",
+			"painting/beiyade_2",
+			"painting/beiyade"
+		}
+	},
 	beiyaen = {
 		key = "beiyaen",
 		res_list = {
@@ -3421,6 +3438,7 @@ pg.painting_filte_map = {
 		key = "daofeng_6",
 		res_list = {
 			"painting/daofeng_6_tex",
+			"painting/daofeng_6_rw_tex",
 			"painting/daofeng_6_n_tex",
 			"painting/daofeng_6_n",
 			"painting/daofeng_6"
@@ -3461,6 +3479,21 @@ pg.painting_filte_map = {
 			"painting/daqinghuayu_idol_middle_tex",
 			"painting/daqinghuayu_idol_front_tex",
 			"painting/daqinghuayu_idol"
+		}
+	},
+	dashan = {
+		key = "dashan",
+		res_list = {
+			"painting/dashan_tex",
+			"painting/dashan_rw_tex",
+			"painting/dashan_n_tex",
+			"painting/dashan_n",
+			"painting/dashan_2_tex",
+			"painting/dashan_2_rw_tex",
+			"painting/dashan_2_n_tex",
+			"painting/dashan_2_n",
+			"painting/dashan_2",
+			"painting/dashan"
 		}
 	},
 	deleike = {
@@ -5070,6 +5103,24 @@ pg.painting_filte_map = {
 			"painting/haerbin_h_n_tex",
 			"painting/haerbin_h_n",
 			"painting/haerbin_h"
+		}
+	},
+	haerfude = {
+		key = "haerfude",
+		res_list = {
+			"painting/haerfude_tex",
+			"painting/haerfude_rw_tex",
+			"painting/haerfude_n_tex",
+			"painting/haerfude_n_bj_tex",
+			"painting/haerfude_n",
+			"painting/haerfude_bj_tex",
+			"painting/haerfude_2_tex",
+			"painting/haerfude_2_rw_tex",
+			"painting/haerfude_2_n_tex",
+			"painting/haerfude_2_n_rw_tex",
+			"painting/haerfude_2_n",
+			"painting/haerfude_2",
+			"painting/haerfude"
 		}
 	},
 	haerxibaoweier = {
@@ -10044,6 +10095,22 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/nandaketa_2_tex",
 			"painting/nandaketa_2"
+		}
+	},
+	naximofu = {
+		key = "naximofu",
+		res_list = {
+			"painting/naximofu_tex",
+			"painting/naximofu_rw_tex",
+			"painting/naximofu_2_tex",
+			"painting/naximofu_2_rw_tex",
+			"painting/naximofu_2_n_tex",
+			"painting/naximofu_2_n_hx",
+			"painting/naximofu_2_n",
+			"painting/naximofu_2_hx_tex",
+			"painting/naximofu_2_hx",
+			"painting/naximofu_2",
+			"painting/naximofu"
 		}
 	},
 	nazhi = {
@@ -15110,6 +15177,7 @@ pg.painting_filte_map = {
 		key = "xinnong_4",
 		res_list = {
 			"painting/xinnong_4_tex",
+			"painting/xinnong_4_rw_tex",
 			"painting/xinnong_4"
 		}
 	},
@@ -17142,6 +17210,7 @@ pg.painting_filte_map = {
 		key = "zhenhai_3",
 		res_list = {
 			"painting/zhenhai_3_tex",
+			"painting/zhenhai_3_rw_tex",
 			"painting/zhenhai_3"
 		}
 	},

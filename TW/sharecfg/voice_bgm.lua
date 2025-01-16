@@ -81,7 +81,7 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "newyear2",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-ironblood-light",
+		default_bgm = "theme-schoolfuture",
 		special_bgm = "",
 		bgm = "main"
 	},

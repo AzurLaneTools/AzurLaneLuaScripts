@@ -26,7 +26,7 @@ pg.livingarea_cover = {
 	},
 	[100102] = {
 		get_tips = "獲得了新的契合度封面",
-		name = "沙发谈心",
+		name = "沙發談心",
 		nighttime_res = "100102_bg_night",
 		daytime_res = "100102_bg_day",
 		rarity = 3,

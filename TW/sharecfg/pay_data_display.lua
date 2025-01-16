@@ -28,6 +28,10 @@ pg.pay_data_display = setmetatable({
 		2023,
 		2024,
 		2025,
+		2027,
+		2028,
+		2029,
+		2030,
 		2040,
 		5001,
 		5002,
@@ -2325,6 +2329,236 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[2027] = {
+		extra_gem = 0,
+		limit_group = 4,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		name = "最高方案研發禮包(四期)",
+		first_pay_double = 0,
+		name_display = "最高方案研發禮包四期",
+		descrip = "可獲得最高方案快速研​​發券·四期*1、定向藍圖·四期*343",
+		subject = "最高方案研發禮包(四期)",
+		money = 490,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		type_order = 0,
+		picture = "tech4_display",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan",
+		extra_service = 3,
+		id = 2027,
+		airijp_id = "com.yostarjp.azurlane.tech",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2028] = {
+		extra_gem = 0,
+		limit_group = 4,
+		descrip_extra = "*最高方案快速研​​發券·四期獎勵可能發生變化，點擊道具查看詳情",
+		type = 0,
+		name = "最高方案研發禮包(四期)高級版",
+		first_pay_double = 0,
+		name_display = "高級版",
+		descrip = "禮包内容",
+		subject = "最高方案研發禮包(四期)高級版",
+		money = 490,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		type_order = 0,
+		picture = "tech4_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan10",
+		extra_service = 3,
+		id = 2028,
+		airijp_id = "com.yostarjp.azurlane.tech10",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			},
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40044,
+				1
+			}
+		}
+	},
+	[2029] = {
+		extra_gem = 0,
+		limit_group = 4,
+		descrip_extra = "*最高方案快速研​​發券·四期獎勵可能發生變化，點擊道具查看詳情",
+		type = 0,
+		name = "最高方案研發禮包(四期)標準版",
+		first_pay_double = 0,
+		name_display = "標準版",
+		descrip = "禮包内容",
+		subject = "最高方案研發禮包(四期)標準版",
+		money = 330,
+		limit_arg = 2,
+		tag = 2,
+		gem = 0,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		type_order = 0,
+		picture = "tech4_normal",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan11",
+		extra_service = 3,
+		id = 2029,
+		airijp_id = "com.yostarjp.azurlane.tech11",
+		extra_service_item = {
+			{
+				2,
+				40139,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40139,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40045,
+				1
+			}
+		}
+	},
+	[2030] = {
+		extra_gem = 0,
+		limit_group = 4,
+		descrip_extra = "升級為高級版後可獲得定向藍圖·四期x343",
+		type = 0,
+		name = "最高方案研發禮包(四期)升級版",
+		first_pay_double = 0,
+		name_display = "升級版",
+		descrip = "禮包内容",
+		subject = "最高方案研發禮包(四期)升級版",
+		money = 190,
+		limit_arg = 3,
+		tag = 2,
+		gem = 0,
+		show_group = "tech",
+		limit_type = 3,
+		time = "always",
+		type_order = 0,
+		picture = "tech4_promotion",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.keyan12",
+		extra_service = 3,
+		id = 2030,
+		airijp_id = "com.yostarjp.azurlane.tech12",
+		extra_service_item = {
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42030,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40046,
+				1
+			}
+		}
+	},
 	[2040] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -2341,7 +2575,7 @@ pg.base.pay_data_display = {
 		gem = 0,
 		show_group = "",
 		limit_type = 2,
-		type_order = 2,
+		type_order = 4,
 		picture = "dongzhi3",
 		skin_inquire_relation = 0,
 		id_str = "com.hkmanjuu.azurlane.libao126",
