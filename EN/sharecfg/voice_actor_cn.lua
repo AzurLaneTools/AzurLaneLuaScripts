@@ -1703,5 +1703,13 @@ pg.voice_actor_CN = {
 	[438] = {
 		actor_name = "Momoka Terasawa",
 		code = 438
+	},
+	[439] = {
+		actor_name = "Saku Mizuno",
+		code = 439
+	},
+	[440] = {
+		actor_name = "Hinano Sakikawa",
+		code = 440
 	}
 }

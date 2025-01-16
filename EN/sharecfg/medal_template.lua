@@ -2427,7 +2427,7 @@ pg.medal_template = {
 		name = "Stellar Resistance Medal",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 0,
+		is_out_of_print = 1,
 		count_inherit = 0,
 		desc = "A commemorative medal issued by the Iron Blood Resistance celebrating your triumph over the Star Beast.\n—Our world shall not perish. Not today, not ever.",
 		next = 0,
@@ -2441,6 +2441,27 @@ pg.medal_template = {
 		rank = 1,
 		id = 200001,
 		explain1 = "Substellar Crepuscule",
+		explain2 = "Event"
+	},
+	[200011] = {
+		target_id = "5769",
+		name = "Spring Fashion Festa Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Despite twists and turns, long last are wishes granted. Amidst flowing light, colorfully is the night painted.",
+		next = 0,
+		icon = "9011",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9011",
+		condition = "Collect 8 commemorative stickers from Spring Fashion Festa.",
+		rank = 1,
+		id = 200011,
+		explain1 = "Spring Fashion Festa",
 		explain2 = "Event"
 	},
 	all = {
@@ -2554,6 +2575,7 @@ pg.medal_template = {
 		100933,
 		100934,
 		100935,
-		200001
+		200001,
+		200011
 	}
 }

@@ -213,6 +213,8 @@ pg.memory_group = setmetatable({
 		313,
 		314,
 		315,
+		316,
+		317,
 		501,
 		502,
 		503,
@@ -5063,6 +5065,35 @@ pg.base.memory_group = {
 			4133,
 			4134,
 			4135
+		}
+	},
+	[316] = {
+		title = "Port Fashion Collection: Spring Festival III",
+		subtype = 3,
+		link_event = 5777,
+		type = 2,
+		id = 316,
+		icon = "title_event",
+		memories = {
+			4151,
+			4152,
+			4153,
+			4154
+		}
+	},
+	[317] = {
+		title = "Spring Fashion Festa",
+		subtype = 3,
+		link_event = 5772,
+		type = 2,
+		id = 317,
+		icon = "title_event",
+		memories = {
+			4161,
+			4162,
+			4163,
+			4164,
+			4165
 		}
 	},
 	[501] = {

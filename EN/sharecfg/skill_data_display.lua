@@ -1770,6 +1770,19 @@ pg.skill_data_display = setmetatable({
 		150652,
 		150660,
 		150761,
+		150790,
+		150791,
+		150800,
+		150802,
+		150810,
+		150820,
+		150851,
+		150880,
+		150881,
+		150882,
+		150883,
+		150884,
+		150890,
 		18010,
 		18040,
 		18041,
@@ -2230,6 +2243,10 @@ pg.skill_data_display = setmetatable({
 		28032,
 		28111,
 		28112,
+		28231,
+		28232,
+		28241,
+		28242,
 		29011,
 		29012,
 		29021,
@@ -2412,6 +2429,10 @@ pg.skill_data_display = setmetatable({
 		30362,
 		30371,
 		30372,
+		30410,
+		30415,
+		30412,
+		30416,
 		39000,
 		39001,
 		39002,
@@ -10463,6 +10484,58 @@ pg.base.skill_data_display = {
 		id = 150761,
 		name = "Ruinous Blade of the Slayer"
 	},
+	[150790] = {
+		id = 150790,
+		name = "Strict and Rigorous"
+	},
+	[150791] = {
+		id = 150791,
+		name = "Strict and Rigorous"
+	},
+	[150800] = {
+		id = 150800,
+		name = "Spring Cleaning"
+	},
+	[150802] = {
+		id = 150802,
+		name = "Spring Cleaning"
+	},
+	[150810] = {
+		id = 150810,
+		name = "Emergency Measures"
+	},
+	[150820] = {
+		id = 150820,
+		name = "Effortless Crisis Response"
+	},
+	[150851] = {
+		id = 150851,
+		name = "Intoxicating Beauty"
+	},
+	[150880] = {
+		id = 150880,
+		name = "Fu Po's \"Masterstroke\""
+	},
+	[150881] = {
+		id = 150881,
+		name = "Fu Po's \"Masterstroke\""
+	},
+	[150882] = {
+		id = 150882,
+		name = "Fu Po's \"Masterstroke\""
+	},
+	[150883] = {
+		id = 150883,
+		name = "Fu Po's \"Masterstroke\""
+	},
+	[150884] = {
+		id = 150884,
+		name = "Fu Po's \"Masterstroke\""
+	},
+	[150890] = {
+		id = 150890,
+		name = "Blast Off Into the Future"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12303,6 +12376,22 @@ pg.base.skill_data_display = {
 		id = 28112,
 		name = "All Out Assault Ⅱ"
 	},
+	[28231] = {
+		id = 28231,
+		name = "All Out Assault I"
+	},
+	[28232] = {
+		id = 28232,
+		name = "All Out Assault II"
+	},
+	[28241] = {
+		id = 28241,
+		name = "All Out Assault I"
+	},
+	[28242] = {
+		id = 28242,
+		name = "All Out Assault II"
+	},
 	[29011] = {
 		id = 29011,
 		name = "EX Barrage: England Ⅰ"
@@ -13030,6 +13119,22 @@ pg.base.skill_data_display = {
 	[30372] = {
 		id = 30372,
 		name = "All Out Assault II"
+	},
+	[30410] = {
+		id = 30410,
+		name = "All Out Assault III"
+	},
+	[30415] = {
+		id = 30415,
+		name = "All Out Assault III"
+	},
+	[30412] = {
+		id = 30412,
+		name = "All Out Assault III"
+	},
+	[30416] = {
+		id = 30416,
+		name = "All Out Assault III"
 	},
 	[39000] = {
 		id = 39000,

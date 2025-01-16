@@ -96,6 +96,102 @@ pg.activity_medal_template = {
 		id = 571108,
 		medal_asset = "ActivityMedal/571108"
 	},
+	[576901] = {
+		activity_medal_desc = "\"Late-spring reflected in embroidered silk, resplendent as golden peacock and silver qilin.\"",
+		next_medal = 0,
+		item = 65511,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "1",
+		task_id = 21118,
+		activity_medal_name = "Sticker: Regal Raiment",
+		id = 576901,
+		medal_asset = "ActivityMedal/576901"
+	},
+	[576902] = {
+		activity_medal_desc = "\"The geese call, the first rays of dawn come. If you wish to marry me, do so before the ice melts.\"",
+		next_medal = 0,
+		item = 65512,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "2",
+		task_id = 21119,
+		activity_medal_name = "Sticker: Empery Sunrise",
+		id = 576902,
+		medal_asset = "ActivityMedal/576902"
+	},
+	[576903] = {
+		activity_medal_desc = "\"Poems, I compose beneath nights moonlit and snowy; paintings, I compose beneath clouds rainy and hazy.\"",
+		next_medal = 0,
+		item = 65513,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "3",
+		task_id = 21120,
+		activity_medal_name = "Sticker: Scroll Painting",
+		id = 576903,
+		medal_asset = "ActivityMedal/576903"
+	},
+	[576904] = {
+		activity_medal_desc = "\"By three times does the plum blossom lack snow's pure white, yet the latter hath not a single portion of the former's fragrance.\"",
+		next_medal = 0,
+		item = 65514,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "4",
+		task_id = 21121,
+		activity_medal_name = "Sticker: Plum Blossoms in the Snow",
+		id = 576904,
+		medal_asset = "ActivityMedal/576904"
+	},
+	[576905] = {
+		activity_medal_desc = "Great adventures are all about the passion and flair!",
+		next_medal = 0,
+		item = 65515,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "5",
+		task_id = 21122,
+		activity_medal_name = "Sticker: Zhuque Aflight",
+		id = 576905,
+		medal_asset = "ActivityMedal/576905"
+	},
+	[576906] = {
+		activity_medal_desc = "\"I sit at water's edge, watching the ever-changing clouds rise.\"",
+		next_medal = 0,
+		item = 65516,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "6",
+		task_id = 21123,
+		activity_medal_name = "Sticker: Roiling Clouds",
+		id = 576906,
+		medal_asset = "ActivityMedal/576906"
+	},
+	[576907] = {
+		activity_medal_desc = "\"As lotus roots grow in pairs, too lengthy are the ties between us.\"",
+		next_medal = 0,
+		item = 65517,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "7",
+		task_id = 21124,
+		activity_medal_name = "Sticker: Plucked Silk",
+		id = 576907,
+		medal_asset = "ActivityMedal/576907"
+	},
+	[576908] = {
+		activity_medal_desc = "Plan to topple the dastardly supervillain Chien Wu (crossed out) and celebrate the New Year!",
+		next_medal = 0,
+		item = 65518,
+		remake_task_id = 0,
+		group = 5769,
+		prefab_node = "8",
+		task_id = 21125,
+		activity_medal_name = "Sticker: Book of Secret Plans",
+		id = 576908,
+		medal_asset = "ActivityMedal/576908"
+	},
 	all = {
 		571101,
 		571102,
@@ -104,6 +200,14 @@ pg.activity_medal_template = {
 		571105,
 		571106,
 		571107,
-		571108
+		571108,
+		576901,
+		576902,
+		576903,
+		576904,
+		576905,
+		576906,
+		576907,
+		576908
 	}
 }

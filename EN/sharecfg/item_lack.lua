@@ -1063,6 +1063,23 @@ pg.item_lack = {
 			}
 		}
 	},
+	[208] = {
+		config_client = "",
+		id = 208,
+		drop_type = 2,
+		itemids = {
+			59854
+		},
+		description = {
+			{
+				"\"Fu Shun's Great Adventure IV Rerun\" Event Reward",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	get_id_list_by_drop_type = {
 		[2] = {
 			1,
@@ -1093,7 +1110,8 @@ pg.item_lack = {
 			204,
 			205,
 			206,
-			207
+			207,
+			208
 		}
 	},
 	all = {
@@ -1125,6 +1143,7 @@ pg.item_lack = {
 		204,
 		205,
 		206,
-		207
+		207,
+		208
 	}
 }

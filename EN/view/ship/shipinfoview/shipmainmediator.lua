@@ -532,6 +532,7 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.HIDE_Ship_MAIN_SCENE_WORD,
 		GAME.PROPOSE_SHIP_DONE,
 		GAME.USE_ADD_SHIPEXP_ITEM_DONE,
+		GAME.CHANGE_SKIN_UPDATE,
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		GAME.WILL_LOGOUT,
 		PaintingGroupConst.NotifyPaintingDownloadFinish
@@ -542,6 +543,12 @@ slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == BayProxy.SHIP_UPDATED then
+		if slot3.id == slot0.contextData.shipId then
+			slot0.showTrans = slot3:isRemoulded()
+
+			slot0.viewComponent:setShip(slot3)
+		end
+	elseif slot2 == GAME.CHANGE_SKIN_UPDATE then
 		if slot3.id == slot0.contextData.shipId then
 			slot0.showTrans = slot3:isRemoulded()
 

@@ -514,7 +514,10 @@ pg.honormedal_goods_list = {
 			301161,
 			401461,
 			801011,
-			901111
+			901111,
+			101451,
+			301861,
+			701051
 		}
 	},
 	{
@@ -534,7 +537,8 @@ pg.honormedal_goods_list = {
 			102081,
 			202121,
 			202201,
-			202041
+			202041,
+			202281
 		}
 	},
 	{
@@ -554,7 +558,10 @@ pg.honormedal_goods_list = {
 			303111,
 			303121,
 			403031,
-			103131
+			103131,
+			103161,
+			603021,
+			603031
 		}
 	},
 	{
@@ -583,7 +590,10 @@ pg.honormedal_goods_list = {
 			905011,
 			304051,
 			305081,
-			405011
+			405011,
+			105201,
+			305141,
+			905031
 		}
 	},
 	{
@@ -603,7 +613,11 @@ pg.honormedal_goods_list = {
 			107061,
 			207031,
 			307051,
-			307061
+			307061,
+			207051,
+			306071,
+			307101,
+			307111
 		}
 	},
 	{
@@ -623,7 +637,10 @@ pg.honormedal_goods_list = {
 			301161,
 			401461,
 			801011,
-			901111
+			901111,
+			101451,
+			301861,
+			701051
 		}
 	},
 	{
@@ -643,7 +660,8 @@ pg.honormedal_goods_list = {
 			102081,
 			202121,
 			202201,
-			202041
+			202041,
+			202281
 		}
 	},
 	{
@@ -663,7 +681,10 @@ pg.honormedal_goods_list = {
 			303111,
 			303121,
 			403031,
-			103131
+			103131,
+			103161,
+			603021,
+			603031
 		}
 	},
 	{
@@ -692,7 +713,10 @@ pg.honormedal_goods_list = {
 			905011,
 			304051,
 			305081,
-			405011
+			405011,
+			105201,
+			305141,
+			905031
 		}
 	},
 	{
@@ -712,7 +736,11 @@ pg.honormedal_goods_list = {
 			107061,
 			207031,
 			307051,
-			307061
+			307061,
+			207051,
+			306071,
+			307101,
+			307111
 		}
 	},
 	{
@@ -885,6 +913,40 @@ pg.honormedal_goods_list = {
 			59010
 		}
 	},
+	{
+		goods_rarity = 4,
+		goods_purchase_limit = 15,
+		price = 20,
+		type = 2,
+		group = 10034,
+		num = 1,
+		goods_name = "General Blueprint - Series 7",
+		goods_type = 1,
+		id = 49,
+		is_ship = 0,
+		goods_icon = "Props/42060",
+		order = 6,
+		goods = {
+			42060
+		}
+	},
+	{
+		goods_rarity = 5,
+		goods_purchase_limit = 5,
+		price = 20,
+		type = 2,
+		group = 10035,
+		num = 1,
+		goods_name = "Special General Blueprint - Series 7",
+		goods_type = 1,
+		id = 50,
+		is_ship = 0,
+		goods_icon = "Props/42066",
+		order = 5,
+		goods = {
+			42066
+		}
+	},
 	all = {
 		1,
 		2,
@@ -933,6 +995,8 @@ pg.honormedal_goods_list = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49,
+		50
 	}
 }

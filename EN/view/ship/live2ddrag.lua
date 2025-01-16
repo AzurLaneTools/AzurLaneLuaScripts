@@ -99,6 +99,12 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.rangeOffset = slot0.range[2] - slot0.range[1]
 	slot0.offsetDragTargetX = slot0.startValue
 	slot0.offsetDragTargetY = slot0.startValue
+	slot0._relationFlag = false
+
+	if slot0.relationParameter and slot0.relationParameter.list then
+		slot0._relationFlag = true
+	end
+
 	slot0.extendActionFlag = false
 	slot0.parameterComAdd = true
 	slot0.reactConditionFlag = false
@@ -1192,24 +1198,36 @@ slot0.checkClickAction = function(slot0)
 end
 
 slot0.saveData = function(slot0)
+	slot1 = slot0.id
+	slot2 = slot0.live2dData:GetShipSkinConfig().id
+	slot3 = slot0.live2dData.ship.id
+
 	if slot0.revert == -1 and slot0.saveParameterFlag then
-		Live2dConst.SaveDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.parameterTargetValue)
+		Live2dConst.SaveDragData(slot1, slot2, slot3, slot0.parameterTargetValue)
 	end
 
 	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
 		print("保存actionListIndex" .. slot0.actionListIndex)
-		Live2dConst.SetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id, slot0.actionListIndex)
+		Live2dConst.SetDragActionIndex(slot1, slot2, slot3, slot0.actionListIndex)
+	end
+
+	if slot0._relationFlag then
+		Live2dConst.SetRelationData(slot1, slot2, slot3, slot0:getRelationSaveData())
 	end
 end
 
 slot0.loadData = function(slot0)
+	slot1 = slot0.id
+	slot2 = slot0.live2dData:GetShipSkinConfig().id
+	slot3 = slot0.live2dData.ship.id
+
 	if slot0.revert == -1 and slot0.saveParameterFlag then
 		if Live2dConst.GetDragData(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) then
-			slot0:setParameterValue(slot1)
-			slot0:setTargetValue(slot1)
+			slot0:setParameterValue(slot4)
+			slot0:setTargetValue(slot4)
 		end
 
-		if slot1 == slot0.startValue and slot0._relationParameterList and #slot0._relationParameterList > 0 then
+		if slot4 == slot0.startValue and slot0._relationParameterList and #slot0._relationParameterList > 0 then
 			slot0:clearRelationValue()
 		end
 	end
@@ -1217,6 +1235,18 @@ slot0.loadData = function(slot0)
 	if slot0.actionTrigger.type == Live2D.DRAG_CLICK_MANY then
 		slot0.actionListIndex = Live2dConst.GetDragActionIndex(slot0.id, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
 	end
+
+	if slot0._relationFlag then
+		slot0.offsetDragX = Live2dConst.GetRelationData(slot1, slot2, slot3).drag_x and slot4.drag_x or slot0.startValue
+		slot0.offsetDragY = slot4.drag_y and slot4.drag_y or slot0.startValue
+	end
+end
+
+slot0.getRelationSaveData = function(slot0)
+	return {
+		[Live2dConst.RELATION_DRAG_X] = slot0.offsetDragX,
+		[Live2dConst.RELATION_DRAG_Y] = slot0.offsetDragY
+	}
 end
 
 slot0.clearRelationValue = function(slot0)

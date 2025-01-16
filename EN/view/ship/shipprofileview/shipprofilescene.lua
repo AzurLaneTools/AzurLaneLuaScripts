@@ -18,7 +18,7 @@ end
 
 slot0.setShipGroup = function(slot0, slot1)
 	slot0.shipGroup = slot1
-	slot0.groupSkinList = slot1:getDisplayableSkinList()
+	slot0.groupSkinList = ShipGroup.GetDisplayableSkinList(slot1.id)
 	slot0.isBluePrintGroup = slot0.shipGroup:isBluePrintGroup()
 	slot0.isMetaGroup = slot0.shipGroup:isMetaGroup()
 end
@@ -61,6 +61,8 @@ slot0.init = function(slot0)
 	slot0.bottomTF = slot0:findTF("bottom")
 	slot0.labelHeart = slot0:findTF("adapt/detail_left_panel/heart/label", slot0.blurPanel)
 	slot0.btnLike = slot0:findTF("adapt/detail_left_panel/heart/btnLike", slot0.blurPanel)
+	slot0.btnChangeSkin = slot0:findTF("adapt/detail_left_panel/change_skin", slot0.blurPanel)
+	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.btnChangeSkin, "toggle_ui"))
 	slot0.btnLikeAct = slot0.btnLike:Find("like")
 	slot0.btnLikeDisact = slot0.btnLike:Find("unlike")
 	slot0.obtainBtn = slot0:findTF("bottom/others/obtain_btn")
@@ -193,8 +195,16 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:InitCommon()
-	slot0.live2DBtn:Update(slot0.paintingName, false)
+
+	slot1 = slot0.live2DBtn
+
+	slot1:Update(slot0.paintingName, false)
 	slot0:updateSpinePaintingState()
+	onButton(slot0, slot0.btnChangeSkin, function ()
+		if ShipGroup.IsChangeSkin(uv0.skin.id) then
+			uv0:showSkinProfile(uv0.contextData.skinIndex, pg.ship_skin_template[ShipGroup.GetChangeSkinNextId(slot0.id)], uv0.prevSkinBtn)
+		end
+	end, SFX_CONFIRM)
 	setActive(slot0.bottomTF, false)
 	triggerToggle(slot0.toggles[uv0.INDEX_DETAIL], true)
 end
@@ -216,22 +226,34 @@ slot0.InitSkinList = function(slot0)
 					return
 				end
 
-				uv1.contextData.skinIndex = uv2 + 1
-
-				uv1:ShiftSkin(uv3)
-
-				if uv1.prevSkinBtn then
-					uv1.prevSkinBtn:UnShift()
-				end
-
-				uv0:Shift()
-
-				uv1.prevSkinBtn = uv0
+				uv1:showSkinProfile(uv2, uv3, uv0)
 			end, SFX_PANEL)
 			setActive(slot2, slot3.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or not HXSet.isHxSkin())
 		end
 	end)
 	slot0.UISkinList:align(#slot0.groupSkinList)
+end
+
+slot0.showSkinProfile = function(slot0, slot1, slot2, slot3)
+	slot4 = ShipGroup.IsChangeSkin(slot2.id) and true or false
+
+	setActive(slot0.btnChangeSkin, slot4)
+
+	if slot4 then
+		slot0.changeSkinToggle:setSkinData(slot2.id)
+	end
+
+	slot0.contextData.skinIndex = slot1 + 1
+
+	slot0:ShiftSkin(slot2)
+
+	if slot0.prevSkinBtn then
+		slot0.prevSkinBtn:UnShift()
+	end
+
+	slot3:Shift()
+
+	slot0.prevSkinBtn = slot3
 end
 
 slot0.InitCommon = function(slot0)

@@ -20,6 +20,7 @@ slot0.OPEN_KINK_BUTTON_LAYER = "NewMainMediator.OPEN_KINK_BUTTON_LAYER"
 slot0.OPEN_Compensate = "NewMainMediator:OPEN_Compensate"
 slot0.ON_DROP = "NewMainMediator:ON_DROP"
 slot0.ON_AWRADS = "NewMainMediator:ON_AWRADS"
+slot0.CHANGE_SKIN_TOGGLE = "NewMainMediator:CHANGE_SKIN_TOGGLE"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
@@ -143,6 +144,12 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.OPEN_KINK_BUTTON_LAYER, function (slot0, slot1)
 		uv0:addSubLayers(slot1)
 	end)
+	slot0:bind(uv0.CHANGE_SKIN_TOGGLE, function (slot0, slot1)
+		slot2 = ShipGroup.GetChangeSkinGroupId(slot1.skin_id)
+		slot3 = ShipGroup.GetChangeSkinNextId(slot1.ship_id)
+
+		uv0:sendNotification(GAME.CHANGE_SKIN_AB, slot1)
+	end)
 end
 
 slot0.listNotificationInterests = function(slot0)
@@ -163,6 +170,10 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.LOAD_LAYERS,
 		GAME.GUILD_GET_USER_INFO_DONE,
 		GAME.GET_PUBLIC_GUILD_USER_DATA_DONE,
+		GAME.PLAY_CHANGE_SKIN_OUT,
+		GAME.PLAY_CHANGE_SKIN_IN,
+		GAME.PLAY_CHANGE_SKIN_FINISH,
+		GAME.CHANGE_SKIN_EXCHANGE,
 		NotificationProxy.FRIEND_REQUEST_ADDED,
 		NotificationProxy.FRIEND_REQUEST_REMOVED,
 		FriendProxy.FRIEND_NEW_MSG,
@@ -239,6 +250,21 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:emit(BaseUI.ON_DROP, slot3)
 	elseif slot2 == NewMainMediator.ON_AWRADS then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
+	elseif slot2 == GAME.PLAY_CHANGE_SKIN_OUT then
+		slot0.viewComponent:FoldPanels(true)
+		slot0.viewComponent:SetEffectPanelVisible(false)
+		slot0.viewComponent:PlayChangeSkinActionOut(slot3)
+	elseif slot2 == GAME.PLAY_CHANGE_SKIN_IN then
+		slot0.viewComponent:PlayChangeSkinActionIn(slot3)
+	elseif slot2 == GAME.PLAY_CHANGE_SKIN_FINISH then
+		slot0.viewComponent:SetEffectPanelVisible(true)
+		slot0.viewComponent:FoldPanels(false)
+	elseif slot2 == GAME.CHANGE_SKIN_EXCHANGE then
+		slot4 = slot0.viewComponent:GetFlagShip()
+
+		if slot0.viewComponent then
+			slot0.viewComponent:UpdateFlagShip(slot4, slot3)
+		end
 	end
 
 	slot0.viewComponent:emit(slot2, slot3)

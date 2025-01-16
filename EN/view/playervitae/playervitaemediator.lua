@@ -143,7 +143,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.CHANGE_PLAYER_ICON_DONE,
 		PaintingGroupConst.NotifyPaintingDownloadFinish,
 		GAME.CHANGE_EDUCATE_DONE,
-		GAME.CLEAR_EDUCATE_TIP
+		GAME.CLEAR_EDUCATE_TIP,
+		GAME.CHANGE_SKIN_UPDATE
 	}
 end
 
@@ -170,8 +171,14 @@ slot0.handleNotification = function(slot0, slot1)
 		if slot0.viewComponent.shipsPage and slot0.viewComponent.shipsPage:GetLoaded() then
 			slot0.viewComponent.shipsPage:UpdateEducateChar()
 		end
-	elseif slot2 == GAME.CLEAR_EDUCATE_TIP and slot0.viewComponent.shipsPage and slot0.viewComponent.shipsPage:GetLoaded() then
-		slot0.viewComponent.shipsPage:UpdateEducateCharTrTip()
+	elseif slot2 == GAME.CLEAR_EDUCATE_TIP then
+		if slot0.viewComponent.shipsPage and slot0.viewComponent.shipsPage:GetLoaded() then
+			slot0.viewComponent.shipsPage:UpdateEducateCharTrTip()
+		end
+	elseif slot2 == GAME.CHANGE_SKIN_UPDATE then
+		slot0.viewComponent:OnShipSkinChanged(slot3)
+		slot0.viewComponent:RefreshShips()
+		slot0.viewComponent:UpdatePainting(true)
 	end
 end
 

@@ -324,7 +324,10 @@ slot0.updateResources = function(slot0, slot1)
 end
 
 slot0.getPainting = function(slot0)
-	return pg.ship_skin_template[slot0.skinId] and slot1.painting or "unknown"
+	slot1 = nil
+	slot1 = (not ShipGroup.GetChangeSkinData(slot0.skinId) or pg.ship_skin_template[ShipGroup.GetStoreChangeSkinId(ShipGroup.GetChangeSkinGroupId(slot0.skinId), slot0.character)]) and pg.ship_skin_template[slot0.skinId]
+
+	return slot1 and slot1.painting or "unknown"
 end
 
 slot0.inGuildCDTime = function(slot0)

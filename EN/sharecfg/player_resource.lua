@@ -1605,6 +1605,36 @@ pg.player_resource = {
 		name = "skinTicket85",
 		itemid = 65072
 	},
+	[460] = {
+		id = 460,
+		name = "activity_xunzhang2",
+		itemid = 65510
+	},
+	[461] = {
+		id = 461,
+		name = "chunjie_pt5",
+		itemid = 65519
+	},
+	[462] = {
+		id = 462,
+		name = "limit_skinticket7",
+		itemid = 68025
+	},
+	[463] = {
+		id = 463,
+		name = "limit_skinticket8",
+		itemid = 68025
+	},
+	[464] = {
+		id = 464,
+		name = "limit_skinticket9",
+		itemid = 68026
+	},
+	[465] = {
+		id = 465,
+		name = "skinTicket86",
+		itemid = 65073
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1749,6 +1779,16 @@ pg.player_resource = {
 		id = 2021,
 		name = "worldboss230130_ticket",
 		itemid = 59524
+	},
+	[2022] = {
+		id = 2022,
+		name = "contribution_worldboss250116",
+		itemid = 60487
+	},
+	[2023] = {
+		id = 2023,
+		name = "worldboss250116_ticket",
+		itemid = 60488
 	},
 	[3000] = {
 		id = 3000,
@@ -2974,6 +3014,24 @@ pg.player_resource = {
 		skinTicket85 = {
 			459
 		},
+		activity_xunzhang2 = {
+			460
+		},
+		chunjie_pt5 = {
+			461
+		},
+		limit_skinticket7 = {
+			462
+		},
+		limit_skinticket8 = {
+			463
+		},
+		limit_skinticket9 = {
+			464
+		},
+		skinTicket86 = {
+			465
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3060,6 +3118,12 @@ pg.player_resource = {
 		},
 		worldboss230130_ticket = {
 			2021
+		},
+		contribution_worldboss250116 = {
+			2022
+		},
+		worldboss250116_ticket = {
+			2023
 		},
 		guild_boss_damage = {
 			3000
@@ -3540,6 +3604,12 @@ pg.player_resource = {
 		457,
 		458,
 		459,
+		460,
+		461,
+		462,
+		463,
+		464,
+		465,
 		950,
 		951,
 		952,
@@ -3569,6 +3639,8 @@ pg.player_resource = {
 		2019,
 		2020,
 		2021,
+		2022,
+		2023,
 		3000,
 		3001,
 		3002,

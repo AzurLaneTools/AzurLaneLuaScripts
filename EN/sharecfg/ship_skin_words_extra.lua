@@ -308,7 +308,11 @@ pg.ship_skin_words_extra = setmetatable({
 		401090,
 		401110,
 		499050,
-		207054
+		207054,
+		503010,
+		502100,
+		501080,
+		501090
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21661,6 +21665,293 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Keep going, and you're in trouble! ...Apologize all you want, I'm not listening! Ahh..."
+			}
+		}
+	},
+	[503010] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		id = 503010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"You've arrived... Why aren't you wearing the clothes I made? ...You want to keep them in pristine condition? There's no point – I can always just make more. I made those clothes just for you, so go and put them on right now."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Get me some coffee with... No, I knew you'd be too busy to remember, so I already made my own. Hmm... Why does it taste so odd? I could've sworn I made it the right way..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Using your time on such pointless things again? Remember to comb out my hair later."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"These outfits I designed for myself, and here is a list of elements that you like. It was just for reference. I didn't use the ones that didn't match or were too tacky."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'm busy, so keep it brief. Mh... No, I can set some time aside just for you.|Your collar is too tight? Let's see if I can change it... I'm not compromising for the sake of comfort, I'm simply not opposed to some variety.|You want to try your hand at sewing? It just so happens I have a minute. Here, take this sewing kit. Oh, and please be careful not to prick your fingers."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You want to see me in a different style of dress? Sure. While I'm at it, I'll prepare a matching set of clothes for you."
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team has returned. Remember to inspect the wares. I'll go as soon as I finish drawing out this design."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Get started on your missions. Finish them ahead of schedule and I'll give you a reward."
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"You completed your missions? Alright, come here for your reward. Iiit's... a chocolate sandwich! Heehee. What did you imagine you were going to get? The pleasure of doing something to me?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"There are clothes better suited for this occasion... Heehee. Satisfy me and I'll let you see them♥"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I used to only care about clothes and the wearer's looks. Now, I place more importance on the wearer themselves. You've changed my perception, and that's allowed me to create even more perfect garments. For that, I'm grateful, Commander."
+			}
+		}
+	},
+	[502100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 502100,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, I trust you're in tip-top shape to begin today's work. Before that, though, do you notice something different about me? Heheh, right, it's my makeup. After all, I... A-actually, it's not like I wanted to get dolled up or anything! Ahh, jeez! Fine, I just wanted to give you a little surprise, okay? Hmph!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back. I brought you tea and some towels. Dry yourself off, take a seat, and relax... I'm being pretty thoughtful? W-well, yeah! I want to try being more open and straightforward... Hey, what's with that look on your face?!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Ugh, I knew you had something against my forehead— Huh? You LIKE it? ...S-seriously?!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'm taking some sweets over to Chen Hai and her friends shortly, but there aren't any for you! ...H-hey, why do you look so disappointed? Here, I baked a caramel cake for you instead as a way of expressing my feelings! So go get it yourself!|What's wrong? You look awfully beat. Has work been too stressful? Here, give me your hand... I read a book that says, holding hands with someone is a good way to relieve stress. So, do you feel better?|I've already completed my work to perfection, so what's wrong with me looking at you? You, on the other hand... Seeing as how you still have time to pay attention to me, have YOU finished your work?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"So you finally noticed what's different about me? ...I-it's not like I did it or anything because you said you liked it or anything! Hmph!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Just because this isn't the first time we are doing this... doesn't make it any less embarrassing! Jeez!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I thought that the heart-throbbing honeymoon phase was supposed to be short-lived... so why does my heart still pound like crazy whenever I'm near the Commander? ...Ugh, whatever, forget that stupid book! What's more important is that we can both move forward into the future while being truly happy!"
+			}
+		}
+	},
+	[501080] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 501080,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"The documents have been organized, the desk has been wiped clean, and tea is ready... Now, Commander will be able to work with peace of mind~"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, I know you've been hard at work. Would you like to unwind by taking a bath? I've already made the tub nice and clean for you, and I'll even give you a massage if you'd like~"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Mmhmm~ Getting headpats from you always fills me with motivation~"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"If you do this, then this... you'll be able to fold your laundry quickly and neatly. Convenient, right? More time to spare is more time to spend with you, Commander~"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Hm? I'm reading the recipes for your favorite dishes, given to me by Lung Wu. If I can memorize them all, we won't have to go out to eat anymore~ After all, I can just make them for you at home~♪|Why is this place such a mess...? Oh, I see. Fei Yuen and Fu Po came by? Well, I suppose I'll clean up first. The scolding can wait until later. Heehee.|Commander, do you have a ladder I can borrow? I'd like to dust off the top of the bookshelves... Huh? Y-you can just lift me up? O-okay then... *blushes*"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hm? What's wrong? Are you in a bad mood? Come to me, then... There, there~ Everything will be okay~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Please don't do this in public, Commander... At least wait until it's just the two of us... Hauuu... *blushes*"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, I've made the bed for you— Hmm? What's wrong? You'd like me to stay with you...? Sure, I don't mind~ But first, let me take a shower, then change into some clean pajamas~♪"
+			}
+		}
+	},
+	[501090] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		mission = "",
+		id = 501090,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"(......Why aren't you heaping praise on me yet?! I even prepared a surprise for you by putting away all your documents! ...Huh? Wh-what's going on? Why do you have such a stern look on your face...?)"
+			}
+		},
+		home = {
+			{
+				1100,
+				"...Welcome back! Pa-POW! ...Huh? Why isn't the popper going off? Lemme see—WHUUUUAH!! Why'd it explode all of a sudden?! That was freakin' scary..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"H-hey! I didn't even do anything!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'll just glue these pieces of paper together, then draw a little sump'n sump'n on it... and voila! What an ingenious idea! ...AH! Commander! Don't touch that—AHHHHH!! Our hands are stuck together now! What do we do?!!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, take a look at my next plan! It's already perfect, but I'm willing to take your input! ...Huh? What do you mean you don't get it? You're right here, and Fei Yuen's right here...|Commander, I made a matcha latte for you~! Ehehe, I'm not playing around this time, so go ahead and drink it! ...Huh?! Is it really that nasty? Let me try, then... *cough* *hack*! BLEHHH... Wait, was that a can of wasabi powder?!|While you're busy with work, I'm gonna replace your shoes with cute animal plushie slippers... H-hey, I can't get them off...! Commander, lift your feet up!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I'll just sneak up behind the Commander and— Huh?! How'd you know I was there! Nooo! Now I'm being hugged!!"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"The commission team's back! Let's go greet them! ...Oh, give me just a sec. Lemme grab some prank items to give them a little scare... Huh? No good? Aww..."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Wh-what is this?! This wasn't in the plaaaan!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, let's go grab some cake together! Ehehe, this time for sure, my plan will— Hey, hey! Don't just swallow the thing in one go! I wrote you something on a slip of paper! Spit it out!"
 			}
 		}
 	}

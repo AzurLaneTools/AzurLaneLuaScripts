@@ -3810,15 +3810,15 @@ _G.pg.base.gametip.coloring_help_tip = {
 5. Paint can be obtained by completing event missions to consume a total amount of Oil. 
 6. Completing pages in the Drawing Book will grant rewards. 
 7. The rewards for completing each page are as follows: 
- Complete Page 1: Random Skill Book T3 x2
- Complete Page 2: Red Envelope x2
- Complete Page 3: T3 Main Gun Part x2
- Complete Page 4: Red Envelope x2
- Complete Page 5: Yat Sen's special gear "Plum-Petal Poetry"
- Complete Page 6: Red Envelope x2
- Complete Page 7: Dragon Empery DD An Shan & Red Envelope x1
+· Page 1: Random Skill Book T3 x2
+· Page 2: Red Envelope x2
+· Page 3: The limited furniture ""Bamboo Bubble-Blower""
+· Page 4: Red Envelope x2
+· Page 5: The limited furniture ""Bamboo Bubble-Blower""
+· Page 6: Red Envelope x2
+· Page 7: Dragon Empery DD An Shan & Red Envelope x1
 8. After the event ends, all unused paint will be removed.
-9. A new page will be unlocked every day until February 5th.]]
+9. A new page will be unlocked every day until January 22nd.]]
 		}
 	}
 }
@@ -10067,6 +10067,29 @@ Proceed with retrofit?]]
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_506124 = {
+	tip = "Completing the retrofit will let this ship <color=#92fc63>equip Fighters in her 1st gear slot</color> and <color=#92fc63>equip any aircraft type in her 2nd gear slot</color>.\nProceed with retrofit?"
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_520024 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Vanguard Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_521024 = {
+	tip = [[
+Completing the retrofit will change the ship's designation into:
+Guided-Missile Destroyer (Main Fleet Mode)
+Her stats and combat performance may change significantly.
+Proceed with retrofit?]]
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "Download Language Pack"
 }
@@ -12839,12 +12862,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Kronshtadt and Arkhangelsk added to standard build pool!"
+	tip = "Huan Ch'ang added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Kiev added to standard build pool!"
+	tip = "Chi An, Lung Wu, and Hu Pen added to standard build pool!"
 }
 
 
@@ -13017,6 +13040,11 @@ _G.pg.base.gametip.tec_catchup_4 = {
 
 _G.pg.base.gametip.tec_catchup_5 = {
 	tip = "Series 5"
+}
+
+
+_G.pg.base.gametip.tec_catchup_6 = {
+	tip = "Series 6"
 }
 
 
@@ -13922,31 +13950,31 @@ _G.pg.base.gametip.world_boss_help = {
 			info = "<color=#92fc63>- Overview -</color>"
 		},
 		{
-			info = "During Spring Festive Fiasco event, your goal is to accumulate <color=#92fc63>Contribution Points (CP)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
+			info = "During the Spring Fashion Festa event, your goal is to accumulate <color=#92fc63>Contribution Points (CPts)</color> which will progress the mission and can be used to claim both individual rewards and milestone rewards.\n"
 		},
 		{
 			info = [[
-During the event period, you will play on a special stage and face off against an exercise fleet led by the battlecruiser Huan Ch'ang.
-All Commanders on the same server will need to work together by gathering CP and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
+During the event period, you will play on a special stage and face off against an opposing exercise fleet.
+All Commanders on the same server will need to work together by gathering CPts and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
 Be aware that you will not be able to claim this reward if your Mailbox is completely full (i.e. you have 1,000 mail stored).
-<color=#92fc63>Note that you can still earn CP through the event stage even once the progress gauge has hit 0%.</color>
+<color=#92fc63>Note that you can still earn CPts through the event stage even once the progress gauge has hit 0%.</color>
 ]]
 		},
 		{
 			info = [[
 <color=#92fc63>- Contribution Points Info -</color>
 1. You earn Contribution Points by clearing the Special Stage.
-2. The progress gauge is affected by the total number of CP earned by all Commanders on your server.
+2. The progress gauge is affected by the total number of CPts earned by all Commanders on your server.
 3. Once the progress bar hits <color=#92fc63>0%</color>, the mission is complete. Note that each server's progress bar is independent of the others.
-4. You can claim nice rewards from the event banner by collecting a lot of CP.
+4. You can claim nice rewards from the event banner by collecting a lot of CPts.
 ]]
 		},
 		{
 			info = [[
 <color=#92fc63>- Event Stage Info -</color>
 1. The event stage can be played on 4 difficulty modes: <color=#92fc63>Easy</color>, <color=#92fc63>Normal</color>, <color=#92fc63>Hard</color>, and <color=#92fc63>EX</color>.
-2. You earn a <color=#92fc63>fixed amount</color> of CP from the first 3 difficulties, but the amount of CP and which rewards you receive on <color=#92fc63>EX difficulty</color> are based on how much damage you dealt during the battle.
+2. You earn a <color=#92fc63>fixed amount</color> of CPts from the first 3 difficulties, but the amount of CPts and which rewards you receive on <color=#92fc63>EX difficulty</color> are based on how much damage you dealt during the battle.
 3. The event stage uses a <color=#92fc63>different fleet composition</color> to regular maps. You can change its formation beforehand.
 4. <color=#92fc63>Oil</color> will be consumed when you sortie for and win on the event stage. When you complete the map, you receive <color=#92fc63>EXP</color> and <color=#92fc63>clear rewards</color> as per usual, and Morale changes will take effect.
 · Note that the EX difficulty also imposes a <color=#92fc63>60-second time limit</color>. Your EX difficulty run concludes when you run out of time, when you defeat the boss, or when your Flagship sinks.
@@ -13967,7 +13995,7 @@ Be aware that you will not be able to claim this reward if your Mailbox is compl
 		{
 			info = [[
 <color=#ff5c5c>- Miscellaneous Info -</color>
-1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed,<color=#ff5c5c>but you will not receive any rewards or CP</color>.
+1. If you abort an EX difficulty run partway through, your Bonus Ticket will still be consumed, <color=#ff5c5c>but you will not receive any rewards or CPts</color>.
 2. We recommend you play the game on <color=#92fc63>Manual Mode</color> when doing a run on EX difficulty.
 3. You can do practice runs of EX mode from the Formation screen. Practice runs do not cost Bonus Tickets or Oil, and do not affect your shipgirls' Morale, but they do not award EXP or rewards either. 
 4. A Reward Sortie will <color=#92fc63>not be deducted from your daily 15</color> if you choose to abort a run partway through on Easy, Normal, or Hard difficulty.
@@ -17208,10 +17236,10 @@ _G.pg.base.gametip.help_chunjie_jiulou = {
 			info = [[
 - Manjuu Resort Info -
 · You can visit the Manjuu Resort to open the Red Envelopes you've collected through playing minigames.
-· Red Envelopes can be acquired from Fu Shun's Great Adventure V, An Shan's Drawing Book, Spring Blossoms in the Sky, and Fei Yuen's Spring Adventure.
+· Red Envelopes can be acquired from Fu Shun's Great Adventure IV, Fu Po's Flawless Plan, and Spring Fireworks Party.
 · Opening envelopes will grant you a number of randomly chosen rewards, potentially including Gems.
 · Your first 15 envelopes are Special Red Envelopes and will yield better rewards than regular Red Envelopes.
-· After opening 15 envelopes in total, you will receive <color=#92fc63>a limited skin for the Dragon Empery DD Fu Shun</color> skin as a bonus reward, and after 25 envelopes you'll also receive <color=#92fc63>a limited skin for Wakatsuki</color>.]]
+· After opening 15 envelopes in total, you will receive <color=#92fc63>a skin for Fu Shun</color>, and after 25 envelopes you'll also receive <color=#92fc63>a skin for Wakatsuki</color>.]]
 		}
 	}
 }
@@ -29076,20 +29104,18 @@ _G.pg.base.gametip["2023spring_minigame_help"] = {
 	tip = {
 		{
 			info = [[
-In the "Fu Shun's Great Adventure IV" minigame, your goal is to control Fu Shun's chibi and collect food dishes indicated by the Target displayed onscreen, avoiding dangerous Nianjuus in the process.
-A new stage will be unlocked every day until <color=#92fc63>1/24</color>. Clear all 7 stages to obtain the destroyer, Fu Shun.
+- Overview -
+In the Fu Shun's Great Adventure IV minigame, take control of Fu Shun and help her avoid obstacles while defeating enemies and collecting items to rack up points.
 
-How to Play:
-1) You can move Fu Shun by using the joypad at the bottom left-hand side of the screen. Use the buttons on the bottom right-hand side of the screen to use various skills and items.
+A new stage will be unlocked every day up to <color=#92fc63>January 22nd</color>. Completing all stages will award you with the destroyer Fu Shun and the Seal of the Vermilion Bird, an item needed to retrofit Fu Shun.
 
-2) Earn points by collecting the item indicated by the "Target" displayed onscreen. The game ends when the timer runs out, or you quit the game.
-
-3) Tap on the "Settings" button to use your accumulated score to unlock and equip skills and items.
-
-4) Upon starting a stage, you will be able to view the abilities of the Nianjuus appearing on that stage. Disabling certain Nianjuu abilities will make the game easier, but also reduces your score potential.
-
-5) In each stage, Nianjuus have different abilities, and the score multiplier that can be attained from each stage differs as well.
-
+- How to Play -
+· Use the button in the bottom left to move Fu Shun around, and use the one in the bottom right to use items and skills you've unlocked.
+· Collect the same item as displayed on the top side of the screen to gain points.
+· The minigame concludes when the timer reaches 0 or when you exit it.
+· Using the points you've accumulated, you can unlock new items or skills to use in the minigame.
+· On the stage select screen, you can view the abilities of the enemies you'll be going up against on a given stage. Negating these abilities will decrease your score multiplier.
+· Enemy abilities as well as your multiplier vary depending on the stage.
 ]]
 		}
 	}
@@ -36948,12 +36974,12 @@ _G.pg.base.gametip.help_starLightAlbum = {
 		},
 		{
 			info = [[
-1.  The Commemorative Album tab has been added to the Memories screen. 
-2.  During the event, you can complete event missions to receive <color=#92fc63>commemorative stickers</color>. Finishing your collection will award you with the Resistance Headquarters Building, a limited furniture piece, and the Stellar Resistance Medal. 
- Note:   While the event is available, tapping the <color=#92fc63>Commemoration button on the event banner or the Commemorative Album tab under Memories</color>will bring you to the commemorative stickers menu. 
- Note:   Following the end of the event, <color=#92fc63>you can only access the stickers menu from the Commemorative Album tab under Memories</color>. 
- Note:   Commemorative stickers are earned by completing event missions. 
- Note:   Rewards may be claimed up to January 8th.]]
+1.  The Commemorative Album tab has been added to the Memories screen.
+2.  During the event, you can complete event missions to receive <color=#92fc63>commemorative stickers</color>. Finishing your collection will award you with a limited furniture piece and a medal.
+ Note:   While the event is available, tapping the <color=#92fc63>Commemoration button on the event banner or the Commemorative Album tab under Memories</color> will bring you to the commemorative stickers menu.
+ Note:   Following the end of the event, <color=#92fc63>you can only access the stickers menu from the Commemorative Album tab under Memories</color>.
+ Note:   Commemorative stickers are earned by completing event missions.
+ Note:   Rewards may be claimed for a period even after the event ends.]]
 		}
 	}
 }
@@ -37036,4 +37062,9 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "You have reached the maximum Intimacy level, and giving this gift won't increase Intimacy further, continue?"
+}
+
+
+_G.pg.base.gametip.please_input_1_99 = {
+	tip = "Enter a number from 1 to 99"
 }

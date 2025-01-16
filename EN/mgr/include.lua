@@ -50,6 +50,7 @@ require("Mgr/CameraRTMgr")
 require("Mgr/GameTracker/GameTrackerMgr")
 require("Mgr/GMTMgr")
 require("Mgr/IKMgr")
+require("Mgr/ChangeSkinMgr")
 
 if PLATFORM_CODE == PLATFORM_CHT then
 	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")

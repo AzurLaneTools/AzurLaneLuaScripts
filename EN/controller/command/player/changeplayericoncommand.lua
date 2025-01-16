@@ -70,7 +70,7 @@ slot0.UpdayePlayerCharas = function(slot0, slot1)
 	slot0.character = slot1[1]
 	slot0.characters = slot1
 	slot0.icon = slot3.configId
-	slot0.skinId = slot3.skinId
+	slot0.skinId = slot3:getSkinId()
 end
 
 return slot0

@@ -3287,6 +3287,30 @@ pg.furniture_data_template = setmetatable({
 			317302,
 			317303,
 			317304
+		},
+		[118] = {
+			318001,
+			318002,
+			318101,
+			318102,
+			318103,
+			318104,
+			318105,
+			318106,
+			318107,
+			318108,
+			318109,
+			318110,
+			318111,
+			318112,
+			318113,
+			318114,
+			318115,
+			318301,
+			318302,
+			318303,
+			318304,
+			318305
 		}
 	},
 	get_id_list_by_tag = {
@@ -5240,7 +5264,22 @@ pg.furniture_data_template = setmetatable({
 			317107,
 			317108,
 			317109,
-			317110
+			317110,
+			318101,
+			318102,
+			318103,
+			318104,
+			318105,
+			318106,
+			318107,
+			318108,
+			318109,
+			318110,
+			318111,
+			318112,
+			318113,
+			318114,
+			318115
 		},
 		{
 			1108,
@@ -5812,7 +5851,8 @@ pg.furniture_data_template = setmetatable({
 			314113,
 			315113,
 			316123,
-			317111
+			317111,
+			318305
 		},
 		[4] = {
 			1001,
@@ -5917,7 +5957,8 @@ pg.furniture_data_template = setmetatable({
 			314001,
 			315001,
 			316001,
-			317001
+			317001,
+			318001
 		},
 		[3] = {
 			1002,
@@ -6023,7 +6064,8 @@ pg.furniture_data_template = setmetatable({
 			314002,
 			315002,
 			316002,
-			317002
+			317002,
+			318002
 		},
 		[5] = {
 			1301,
@@ -6380,7 +6422,11 @@ pg.furniture_data_template = setmetatable({
 			317301,
 			317302,
 			317303,
-			317304
+			317304,
+			318301,
+			318302,
+			318303,
+			318304
 		}
 	},
 	get_id_list_by_type = {
@@ -6488,7 +6534,8 @@ pg.furniture_data_template = setmetatable({
 			314002,
 			315002,
 			316002,
-			317002
+			317002,
+			318002
 		},
 		[7] = {
 			1,
@@ -8615,7 +8662,21 @@ pg.furniture_data_template = setmetatable({
 			317108,
 			317109,
 			317110,
-			317111
+			317111,
+			318101,
+			318102,
+			318103,
+			318104,
+			318105,
+			318106,
+			318107,
+			318108,
+			318109,
+			318111,
+			318112,
+			318113,
+			318114,
+			318115
 		},
 		[11] = {
 			131,
@@ -8793,7 +8854,8 @@ pg.furniture_data_template = setmetatable({
 			314001,
 			315001,
 			316001,
-			317001
+			317001,
+			318001
 		},
 		[5] = {
 			1101,
@@ -9454,7 +9516,12 @@ pg.furniture_data_template = setmetatable({
 			317301,
 			317302,
 			317303,
-			317304
+			317304,
+			318301,
+			318302,
+			318303,
+			318304,
+			318305
 		},
 		[8] = {
 			17121
@@ -9470,7 +9537,8 @@ pg.furniture_data_template = setmetatable({
 			97105,
 			97119,
 			307108,
-			314105
+			314105,
+			318110
 		},
 		[10] = {
 			28306,
@@ -12567,7 +12635,29 @@ pg.furniture_data_template = setmetatable({
 		317301,
 		317302,
 		317303,
-		317304
+		317304,
+		318001,
+		318002,
+		318101,
+		318102,
+		318103,
+		318104,
+		318105,
+		318106,
+		318107,
+		318108,
+		318109,
+		318110,
+		318111,
+		318112,
+		318113,
+		318114,
+		318115,
+		318301,
+		318302,
+		318303,
+		318304,
+		318305
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -150267,6 +150357,973 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[318001] = {
+		can_rotate = 0,
+		name = "Spring-Seeker Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibancj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/dibancj7",
+		canputon = 0,
+		count = 1,
+		describe = "Let us cross the snow, seeking the plum blossoms that arrive on the spring breeze.",
+		advice = 0,
+		deblocking = 1,
+		id = 318001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318002] = {
+		can_rotate = 0,
+		name = "Spring-Seeker Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbicj7icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 1,
+		describe = "Let us cross the snow, seeking the plum blossoms that arrive on the spring breeze.",
+		advice = 0,
+		id = 318002,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicj7",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[318101] = {
+		can_rotate = 0,
+		name = "Snow-White Round Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "baishiyicj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "cj7/baishiyicj7",
+		canputon = 0,
+		themeId = 118,
+		count = 2,
+		describe = "A round stone stool with a serious, dignified aura. Perfect for a moment's leisure.",
+		advice = 0,
+		id = 318101,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					47.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318102] = {
+		can_rotate = 0,
+		name = "Ink-Black Round Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "heishiyicj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "cj7/heishiyicj7",
+		canputon = 0,
+		themeId = 118,
+		count = 2,
+		describe = "Someone's footprints seemed to be stamped on this ink-black stool...",
+		advice = 0,
+		id = 318102,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					47.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318103] = {
+		can_rotate = 0,
+		name = "Visitor Manjuus",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "canguanjiucj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 1,
+		describe = "They've come to appreciate the scenery!",
+		advice = 0,
+		id = 318103,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"canguanjiucj7",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[318104] = {
+		can_rotate = 0,
+		name = "Traditional Attire Display 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jiaren1cj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/jiaren1cj7",
+		canputon = 0,
+		count = 1,
+		describe = "What an elegant outfit... Is it waiting for its owner to return?",
+		advice = 0,
+		deblocking = 1,
+		id = 318104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318105] = {
+		can_rotate = 0,
+		name = "Traditional Attire Display 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jiaren2cj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/jiaren2cj7",
+		canputon = 0,
+		count = 1,
+		describe = "What an elegant outfit... Is it waiting for its owner to return?",
+		advice = 0,
+		deblocking = 1,
+		id = 318105,
+		comfortable = 2,
+		size = {
+			0,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318106] = {
+		can_rotate = 0,
+		name = "Traditional Attire Display 3",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jiaren3cj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/jiaren3cj7",
+		canputon = 0,
+		count = 1,
+		describe = "What an elegant outfit... Is it waiting for its owner to return?",
+		advice = 0,
+		deblocking = 1,
+		id = 318106,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318107] = {
+		can_rotate = 0,
+		name = "Bamboo Bubble-Blower",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "paopaojicj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 2,
+		describe = "The bubbles rise, glistening like pearls.",
+		advice = 0,
+		id = 318107,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"paopaojicj7",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[318108] = {
+		can_rotate = 0,
+		name = "Lotus Firework Launcher",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yanhuajicj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 2,
+		describe = "Ignite the sky with dazzling firework blooms!",
+		advice = 0,
+		id = 318108,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yanhuajicj7",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[318109] = {
+		can_rotate = 0,
+		name = "Stone Go Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "qipancj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 1,
+		describe = "It is said that all the wisdom in the cosmos is reflected in a single decisive match. Want to play a game?",
+		advice = 0,
+		id = 318109,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qipancj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[318110] = {
+		can_rotate = 0,
+		name = "Gate of Plum Blossoms",
+		gain_by = "",
+		type = 9,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "rukoumencj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/rukoumencj7",
+		canputon = 1,
+		count = 1,
+		describe = "What new encounters await you on the other side of this gate?",
+		advice = 0,
+		deblocking = 1,
+		id = 318110,
+		comfortable = 3,
+		size = {
+			6,
+			1
+		},
+		offset = {
+			0,
+			0
+		},
+		canputonGrid = {
+			{
+				1,
+				0
+			},
+			{
+				2,
+				0
+			},
+			{
+				3,
+				0
+			},
+			{
+				4,
+				0
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318111] = {
+		can_rotate = 0,
+		name = "Mountain-Water Landscape",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shanshuicj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 1,
+		describe = "A mysterious, serene world captured in a scenic landscape sculpture.",
+		advice = 0,
+		id = 318111,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shanshuicj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[318112] = {
+		can_rotate = 0,
+		name = "Hilly Landscape",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shitoujingcj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 1,
+		describe = "Do the echoes of ancient legends whisper through these hills?",
+		advice = 0,
+		id = 318112,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			6,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shitoujingcj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[318113] = {
+		can_rotate = 0,
+		name = "Auspicious Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shucj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/shucj7",
+		canputon = 0,
+		count = 2,
+		describe = "A decorative tree adorned with red ribbons. May fortune smile upon you this year!",
+		advice = 0,
+		deblocking = 1,
+		id = 318113,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318114] = {
+		can_rotate = 0,
+		name = "Streams of Spring Light Stage",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 118,
+		icon = "wutaicj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "The melody of flowing water illuminates the twists and turns of the stage.",
+		advice = 0,
+		id = 318114,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			6,
+			12
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"wutaicj7",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[318115] = {
+		can_rotate = 0,
+		name = "Streams of Spring Light Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zhantaicj7icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/zhantaicj7",
+		canputon = 0,
+		count = 1,
+		describe = "Even water may tarry for a moment... to see what is written on this board.",
+		advice = 0,
+		deblocking = 1,
+		id = 318115,
+		comfortable = 4,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318301] = {
+		can_rotate = 0,
+		name = "Bamboo Embroidery",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "fangzhiwucj7icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/fangzhiwucj7",
+		canputon = 0,
+		count = 1,
+		describe = "Within the bamboo leaves, the sentiments of the artisan are tucked away.",
+		advice = 0,
+		deblocking = 1,
+		id = 318301,
+		comfortable = 3,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318302] = {
+		can_rotate = 0,
+		name = "Lotus Ink Wash Painting",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "shuimohuacj7icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/shuimohuacj7",
+		canputon = 0,
+		count = 1,
+		describe = "Under the lotus leaves, the flowers appear to emerge from the painting.",
+		advice = 0,
+		deblocking = 1,
+		id = 318302,
+		comfortable = 3,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318303] = {
+		can_rotate = 0,
+		name = "Blooming Plum Tapestry",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "weimucj7icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 118,
+		spine_action_replace = "",
+		picture = "cj7/weimucj7",
+		canputon = 0,
+		count = 1,
+		describe = "The sanguine plum blossoms eagerly await the coming of the spring.",
+		advice = 0,
+		deblocking = 1,
+		id = 318303,
+		comfortable = 4,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[318304] = {
+		can_rotate = 0,
+		name = "Moonbeam Mirror",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "yuanyuecj7icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 1,
+		describe = "Something seems to be hopping around inside the full moon!",
+		advice = 0,
+		id = 318304,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuanyuecj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[318305] = {
+		can_rotate = 0,
+		name = "Lucky Cloud Painting",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 7,
+		icon = "zhuangshiguahuacj7icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 118,
+		count = 1,
+		describe = "Good fortune arrives on colorful clouds!",
+		advice = 0,
+		id = 318305,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhuangshiguahuacj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
 		},
 		interAction_group = {}
 	}

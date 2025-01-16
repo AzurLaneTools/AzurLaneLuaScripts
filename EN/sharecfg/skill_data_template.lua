@@ -355,6 +355,7 @@ pg.skill_data_template = setmetatable({
 		60780,
 		60790,
 		60800,
+		60810,
 		7000,
 		9010,
 		9020,
@@ -1240,6 +1241,18 @@ pg.skill_data_template = setmetatable({
 		150760,
 		150770,
 		150780,
+		150790,
+		150800,
+		150810,
+		150820,
+		150830,
+		150840,
+		150850,
+		150860,
+		150865,
+		150870,
+		150880,
+		150890,
 		18010,
 		18040,
 		18050,
@@ -1603,6 +1616,14 @@ pg.skill_data_template = setmetatable({
 		28212,
 		28221,
 		28222,
+		28231,
+		28232,
+		28241,
+		28242,
+		28251,
+		28252,
+		28261,
+		28262,
 		29011,
 		29012,
 		29021,
@@ -1876,6 +1897,8 @@ pg.skill_data_template = setmetatable({
 		30392,
 		30401,
 		30402,
+		30411,
+		30412,
 		101010,
 		101020,
 		101030,
@@ -2510,8 +2533,8 @@ pg.skill_data_template = setmetatable({
 		1090320,
 		1090330,
 		1090340,
-		1090360,
-		1090350
+		1090350,
+		1090360
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12771,6 +12794,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "When equipped by a particular character: 20s after the battle starts, deploys a barrier (lasts 20s) around a random ship in your Vanguard that can negate DMG equal to 2.0% max HP.",
 		id = 60800,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60810] = {
+		desc_get = "",
+		name = "Fu Po's Flawless Plan",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Fu Po, Fei Yuen, or Fu Shun: increases the wearer's TRP by 5.0%. Once per battle, 30s after the battle starts: restores 2.0% of the wearer's max HP.",
+		id = 60810,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -102226,6 +102263,1393 @@ When this ship fires her Main Guns, the following effects activate:
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[150790] = {
+		desc_get = "",
+		name = "Strict and Rigorous",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's TRP by $1; if there is another Dragon Empery ship in the same fleet, increases this ship's DMG dealt by $3. Every 20s: fires a $2 special barrage (DMG is based on the skill's level), increases this ship's Crit Rate by 10.0% for 10s, and deploys a shield (lasting 10s) for other Chang Feng-class DDs, blocking up to 6 enemy shells but decreasing the shielded ship's SPD by 1.",
+		id = 150790,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[150800] = {
+		desc_get = "",
+		name = "Spring Cleaning",
+		type = 2,
+		max_level = 10,
+		desc = "Decreases Dragon Empery ships' DMG taken by $1 and shortens the Burn duration inflicted on them by 2s. If a ship in your Vanguard is Burning: cleanses normal Burn ailments from all ships in your Vanguard, launches a $2 special barrage (DMG is based on the skill's level), and increases the LCK of all ships in your Vanguard by $3 for 9s. This effect has a 15s cooldown.",
+		id = 150800,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1",
+				"10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1",
+					"+1"
+				},
+				{
+					"2",
+					"+1"
+				},
+				{
+					"3",
+					"+1"
+				},
+				{
+					"4",
+					"+1"
+				},
+				{
+					"5",
+					"+1"
+				},
+				{
+					"6",
+					"+1"
+				},
+				{
+					"7",
+					"+1"
+				},
+				{
+					"8",
+					"+1"
+				},
+				{
+					"9",
+					"+1"
+				},
+				{
+					"10"
+				}
+			}
+		}
+	},
+	[150810] = {
+		desc_get = "",
+		name = "Emergency Measures",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and RLD by $1. Every 15s: $2 chance to fire a $3 special barrage (DMG is based on the skill's level) that decreases the SPD of enemies hit by 20.0% for 8s (this effect does not stack).",
+		id = 150810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[150820] = {
+		desc_get = "",
+		name = "Effortless Crisis Response",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's SPD by 8 and EVA and AA by $1. Once per battle, when this ship's HP falls below 75.0% as a result of DMG taken: restores $2 of your Vanguard's max HP.",
+		id = 150820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[150830] = {
+		desc_get = "",
+		name = "Insurmountable Seamstress",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. Once per battle, when this ship sinks an enemy: increases this ship's SPD by 10 until the battle ends. Every 4 times this ship fires her Secondary Weapon: increases this ship's DMG dealt by $2 (can stack up to 3 times) and fires a $3 special barrage (DMG is based on the skill's level). Enemies hit by this barrage take $4 increased DMG from Dragon Empery ships for 10s.",
+		id = 150830,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"4.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"3.5%",
+				"8.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.3%"
+				},
+				{
+					"1.3%",
+					"+0.3%"
+				},
+				{
+					"1.6%",
+					"+0.4%"
+				},
+				{
+					"2.0%",
+					"+0.3%"
+				},
+				{
+					"2.3%",
+					"+0.3%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.3%"
+				},
+				{
+					"3.3%",
+					"+0.3%"
+				},
+				{
+					"3.6%",
+					"+0.4%"
+				},
+				{
+					"4.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%"
+				}
+			}
+		}
+	},
+	[150840] = {
+		desc_get = "",
+		name = "Dressed for Success",
+		type = 2,
+		max_level = 10,
+		desc = "When the battle starts: decreases this ship's torpedo DMG taken by $1, increases her EVA by $1, and deploys a barrier (lasting 15s) that can negate DMG equal to $2 of this ship's max HP. Once per battle, when this ship's HP falls below 50.0% as a result of DMG taken: increases this ship's Evasion Rate by $3 and deploys a barrier (lasting 15s) that can negate DMG equal to $4 of this ship's max HP. Once per ship per battle, when the HP of any other ship in your Vanguard drops below 50.0% as a result of DMG taken: grants that ship 2 shields (lasting 15s) that can negate up to 10 enemy shells. If a Dragon Empery ship gains this shield: decreases that ship's and this ship's DMG taken by $3 until the battle ends (this DMG decreasing effect does not stack on this ship).",
+		id = 150840,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[150850] = {
+		desc_get = "",
+		name = "Intoxicating Beauty",
+		type = 1,
+		max_level = 10,
+		desc = "If there is another CV, CVL, or Dragon Empery ship in the same fleet (excluding this ship): increases the efficiency of this ship's first and second gear slots by $1. 10s after the battle starts and 5s after this ship readies an airstrike: launches a $2 special airstrike (DMG is based on the skill's level) that reduces the SPD of enemies hit by 20.0% for 10s.",
+		id = 150850,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"4.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"4.0%",
+					"+0.6%"
+				},
+				{
+					"4.6%",
+					"+0.6%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+0.6%"
+				},
+				{
+					"6.6%",
+					"+0.6%"
+				},
+				{
+					"7.2%",
+					"+0.8%"
+				},
+				{
+					"8.0%",
+					"+0.6%"
+				},
+				{
+					"8.6%",
+					"+0.6%"
+				},
+				{
+					"9.2%",
+					"+0.8%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[150860] = {
+		desc_get = "",
+		name = "Rezkiy Assault+",
+		type = 1,
+		max_level = 10,
+		desc = "Increases the Crit Rate of this ship's Main Gun and Missiles by $1, and increases this ship's FP, TRP, and RLD by $2.",
+		id = 150860,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"20.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.6%"
+				},
+				{
+					"6.6%",
+					"+1.6%"
+				},
+				{
+					"8.2%",
+					"+1.8%"
+				},
+				{
+					"10.0%",
+					"+1.6%"
+				},
+				{
+					"11.6%",
+					"+1.6%"
+				},
+				{
+					"13.2%",
+					"+1.8%"
+				},
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.8%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			}
+		}
+	},
+	[150865] = {
+		desc_get = "",
+		name = "抚顺4鞍山剑气彩蛋",
+		type = 1,
+		max_level = 1,
+		desc = "抚顺4鞍山剑气彩蛋",
+		id = 150865,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[150870] = {
+		desc_get = "",
+		name = "Zhuque's Flamebinds",
+		type = 1,
+		max_level = 10,
+		desc = "Provides 1 Missile Strike charge. Decreases this ship's Burn DMG taken by $1 and decreases the duration of Burns by 3s. Every 15s: fires a $2 special barrage (DMG is based on the skill's level) that inflicts a special Burn ailment to enemies hit, causing them to take 102 DMG per second for 15s.",
+		id = 150870,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"80.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+3.3%"
+				},
+				{
+					"53.3%",
+					"+3.3%"
+				},
+				{
+					"56.6%",
+					"+3.3%"
+				},
+				{
+					"59.9%",
+					"+3.3%"
+				},
+				{
+					"63.2%",
+					"+3.3%"
+				},
+				{
+					"66.5%",
+					"+3.3%"
+				},
+				{
+					"69.8%",
+					"+3.3%"
+				},
+				{
+					"73.1%",
+					"+3.3%"
+				},
+				{
+					"76.4%",
+					"+3.6%"
+				},
+				{
+					"80.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[150880] = {
+		desc_get = "",
+		name = "Fu Po's \"Masterstroke\"",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's TRP by $1. Every 20s: 70.0% chance to fire a $2 special barrage (DMG is based on the skill's level; if there is another Dragon Empery ship in your fleet, the barrage's activation chance increases to 100.0%). When this barrage fires, selects 1 random enemy and applies 1 of the following debuffs to them, lasting 8s: 1) Decreases FP and TRP by 10.0%; 2) Decreases AA and EVA by 10.0%; 3) Inflicts a special Armor Break.",
+		id = 150880,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[150890] = {
+		desc_get = "",
+		name = "Blast Off Into the Future",
+		type = 3,
+		max_level = 10,
+		desc = "When the battle starts: lights a firecracker; 15s after this, there is a $1 chance to set off a bianpao. The bianpao inflicts a special Burn ailment to your Vanguard for 8s; ships with this Burn have their Crit Rate increased by 10.0% and take 1 DMG every 2s.",
+		id = 150890,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells+",
@@ -118418,6 +119842,118 @@ When the battle starts: increases this ship's FP and TRP by $1. When this ship f
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[28231] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Chang Feng once every 15 times the Main Guns are fired.",
+		id = 28231,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28232] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Chang Feng once every 10 times the Main Guns are fired.",
+		id = 28232,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28241] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Hai Yung once every 18 times the Main Guns are fired.",
+		id = 28241,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28242] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Hai Yung once every 12 times the Main Guns are fired.",
+		id = 28242,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28251] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Chien Wu once every 9 times the Main Guns are fired.",
+		id = 28251,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28252] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Chien Wu once every 6 times the Main Guns are fired.",
+		id = 28252,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28261] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Fu Po once every 15 times the Main Guns are fired.",
+		id = 28261,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28262] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Fu Po once every 10 times the Main Guns are fired.",
+		id = 28262,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
 	[29011] = {
 		desc_get = "",
 		name = "All Out Assault Ⅰ",
@@ -122241,6 +123777,34 @@ When the battle starts: increases this ship's FP and TRP by $1. When this ship f
 		max_level = 1,
 		desc = "Activates All Out Assault II: Duisburg once every 8 times the Main Guns are fired.",
 		id = 30402,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30411] = {
+		desc_get = "",
+		name = "All Out Assault III",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault III: Anshan Class once every 16 times the Main Guns are fired.",
+		id = 30411,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30412] = {
+		desc_get = "",
+		name = "All Out Assault III",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault III: Anshan Class every time this ship launches a Missile attack.",
+		id = 30412,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -168551,148 +170115,6 @@ The DMG of both these barrages is based on the skill's level.]],
 			}
 		}
 	},
-	[1090360] = {
-		desc_get = "",
-		name = "Air Support - Houshou",
-		type = 3,
-		max_level = 10,
-		desc = "When this ship launches an airstrike: increases your CVs' and CVLs' AVI and ACC by $1 for 8s, then activates the following effect 3 times over 3 seconds:\nThe ship in your Main Fleet with the lowest current HP percentage recovers HP equal to $2 of Houshou's max HP.\nIf this effect activates on a CV or CVL, the healing potency is increased by 100.0%, and this ship fires a $3 special airstrike (DMG is based on the skill's level).",
-		id = 1090360,
-		system_transform = {},
-		world_death_mark = {
-			1
-		},
-		desc_get_add = {
-			{
-				"5%",
-				"15%"
-			},
-			{
-				"1.0%",
-				"3.5%"
-			},
-			{
-				"Lv.1",
-				"Lv.10"
-			}
-		},
-		desc_add = {
-			{
-				{
-					"5.0%",
-					"+1.1%"
-				},
-				{
-					"6.1%",
-					"+1.1%"
-				},
-				{
-					"7.2%",
-					"+1.1%"
-				},
-				{
-					"8.3%",
-					"+1.1%"
-				},
-				{
-					"9.4%",
-					"+1.1%"
-				},
-				{
-					"10.5%",
-					"+1.1%"
-				},
-				{
-					"11.6%",
-					"+1.1%"
-				},
-				{
-					"12.7%",
-					"+1.1%"
-				},
-				{
-					"13.8%",
-					"+1.2%"
-				},
-				{
-					"15.0%"
-				}
-			},
-			{
-				{
-					"1.0%",
-					"+0.2%"
-				},
-				{
-					"1.2%",
-					"+0.2%"
-				},
-				{
-					"1.4%",
-					"+0.2%"
-				},
-				{
-					"1.6%",
-					"+0.2%"
-				},
-				{
-					"1.8%",
-					"+0.3%"
-				},
-				{
-					"2.1%",
-					"+0.3%"
-				},
-				{
-					"2.4%",
-					"+0.3%"
-				},
-				{
-					"2.7%",
-					"+0.4%"
-				},
-				{
-					"3.1%",
-					"+0.4%"
-				},
-				{
-					"3.5%"
-				}
-			},
-			{
-				{
-					"Lv.1"
-				},
-				{
-					"Lv.2"
-				},
-				{
-					"Lv.3"
-				},
-				{
-					"Lv.4"
-				},
-				{
-					"Lv.5"
-				},
-				{
-					"Lv.6"
-				},
-				{
-					"Lv.7"
-				},
-				{
-					"Lv.8"
-				},
-				{
-					"Lv.9"
-				},
-				{
-					"Lv.10"
-				}
-			}
-		}
-	},
 	[1090350] = {
 		desc_get = "",
 		name = "Full Firepower - Yuubari",
@@ -168831,6 +170253,148 @@ The DMG of both these barrages is based on the skill's level.]],
 				},
 				{
 					"40.0%"
+				}
+			}
+		}
+	},
+	[1090360] = {
+		desc_get = "",
+		name = "Air Support - Houshou",
+		type = 3,
+		max_level = 10,
+		desc = "When this ship launches an airstrike: increases your CVs' and CVLs' AVI and ACC by $1 for 8s, then activates the following effect 3 times over 3 seconds:\nThe ship in your Main Fleet with the lowest current HP percentage recovers HP equal to $2 of Houshou's max HP.\nIf this effect activates on a CV or CVL, the healing potency is increased by 100.0%, and this ship fires a $3 special airstrike (DMG is based on the skill's level).",
+		id = 1090360,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5%",
+				"15%"
+			},
+			{
+				"1.0%",
+				"3.5%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.3%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.4%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
 				}
 			}
 		}

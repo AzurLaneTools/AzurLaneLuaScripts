@@ -2633,6 +2633,59 @@ pg.mini_game = {
 			}
 		}
 	},
+	{
+		is_ranking = 0,
+		view_name = "NenjuuMiniGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "年兽小游戏(抚顺大冒险4 IV 复刻)",
+		config_csv = "",
+		id = 73,
+		hub_id = 61,
+		request_data = 0,
+		simple_config_data = {
+			drop = {
+				{
+					2,
+					60026,
+					1
+				},
+				{
+					2,
+					60026,
+					1
+				},
+				{
+					2,
+					60026,
+					2
+				},
+				{
+					4,
+					501021,
+					1
+				},
+				{
+					2,
+					60026,
+					1
+				},
+				{
+					2,
+					60026,
+					2
+				},
+				{
+					2,
+					59854,
+					1
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3234,6 +3287,7 @@ pg.mini_game = {
 		70,
 		71,
 		72,
+		73,
 		1001,
 		1002,
 		1003,

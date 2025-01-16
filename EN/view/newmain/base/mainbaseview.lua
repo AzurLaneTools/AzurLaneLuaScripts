@@ -26,6 +26,10 @@ slot0.GetDirection = function(slot0)
 	return Vector2.zero
 end
 
+slot0.SetVisible = function(slot0, slot1)
+	setActive(slot0._tf, slot1)
+end
+
 slot0.Dispose = function(slot0)
 	slot0.exited = true
 

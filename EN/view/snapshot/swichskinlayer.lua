@@ -79,29 +79,33 @@ slot0.Flush = function(slot0, slot1)
 		setActive(slot0.skinContainer:GetChild(slot5), false)
 	end
 
-	slot2 = slot0.skinContainer.childCount
+	slot2 = getProxy(ShipSkinProxy)
+	slot3 = slot0.skinContainer.childCount
 
-	for slot6, slot7 in ipairs(slot1) do
-		if not slot0.skinCardMap[slot0.skinContainer:GetChild(slot6 - 1)] then
-			slot0.skinCardMap[slot8] = ShipSkinCard.New(slot8.gameObject)
+	for slot7, slot8 in ipairs(slot1) do
+		if not slot0.skinCardMap[slot0.skinContainer:GetChild(slot7 - 1)] then
+			slot0.skinCardMap[slot9] = ShipSkinCard.New(slot9.gameObject)
 		end
 
-		slot9:updateData(slot0.shipVO, slot7, slot0.shipVO:proposeSkinOwned(slot7) or table.contains(slot0.skinList, slot7.id) or slot0.shipVO:getRemouldSkinId() == slot7.id and slot0.shipVO:isRemoulded() or slot7.skin_type == ShipSkin.SKIN_TYPE_OLD)
-		slot9:updateUsing(slot0.shipVO.skinId == slot7.id)
-		removeOnButton(slot8)
+		slot10:updateData(slot0.shipVO, slot8, slot0.shipVO:proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0.shipVO:getRemouldSkinId() == slot8.id and slot0.shipVO:isRemoulded() or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD or slot2:hasSkin(slot8.id))
+		slot10:updateUsing(slot0.shipVO:useSkin(slot8.id))
+		removeOnButton(slot9)
 
-		slot14 = slot7.shop_id > 0 and pg.shop_template[slot7.shop_id] or nil
-		slot15 = slot14 and not pg.TimeMgr.GetInstance():inTime(slot14.time)
-		slot16 = slot7.id == slot0.shipVO.skinId
-		slot17 = slot7.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot7) or table.contains(slot0.skinList, slot7.id) or slot0.shipVO:getRemouldSkinId() == slot7.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot7.skin_type == ShipSkin.SKIN_TYPE_OLD
-		slot18 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot7.id)
+		slot16 = slot8.shop_id > 0 and pg.shop_template[slot8.shop_id] or nil
+		slot17 = slot16 and not pg.TimeMgr.GetInstance():inTime(slot16.time)
+		slot18 = slot8.id == slot0.shipVO.skinId
+		slot19 = slot8.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0.shipVO:getRemouldSkinId() == slot8.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD or slot2:hasSkin(slot8.id)
+		slot20 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot8.id)
 
-		onToggle(slot0, slot9.hideObjToggleTF, function (slot0)
+		onToggle(slot0, slot10.hideObjToggleTF, function (slot0)
 			PlayerPrefs.SetInt("paint_hide_other_obj_" .. uv0.paintingName, slot0 and 1 or 0)
 			uv0:flushSkin()
 			uv1:emit(SwichSkinMediator.UPDATE_SKINCONFIG, uv1.shipVO.skinId)
 		end, SFX_PANEL)
-		onButton(slot0, slot8, function ()
+		onButton(slot0, slot10.changeSkinTF, function (slot0)
+			ShipGroup.SetShipChangeSkin(uv1.shipVO.id, ShipGroup.GetChangeSkinGroupId(uv0.id), ShipGroup.GetChangeSkinNextId(uv0.id), true)
+		end, SFX_PANEL)
+		onButton(slot0, slot9, function ()
 			if uv0 then
 				uv1:back()
 			elseif ShipSkin.IsShareSkin(uv1.shipVO, uv2.id) and not ShipSkin.CanUseShareSkinForShip(uv1.shipVO, uv2.id) then
@@ -126,7 +130,7 @@ slot0.Flush = function(slot0, slot1)
 				end
 			end
 		end)
-		setActive(slot8, true)
+		setActive(slot9, true)
 	end
 end
 
