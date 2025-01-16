@@ -43,6 +43,8 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.shipNameTxt = slot0._tf:Find("overlay/title/name"):GetComponent(typeof(Text))
 	slot0.timeLimitTr = slot0._tf:Find("overlay/title/limit_time")
 	slot0.timeLimitTxt = slot0.timeLimitTr:Find("Text"):GetComponent(typeof(Text))
+	slot0.changeSkinUI = slot0._tf:Find("overlay/left/change_skin")
+	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkinUI, "toggle_ui"))
 	slot0.rightTr = slot0._tf:Find("overlay/right")
 	slot0.uiTagList = UIItemList.New(slot0._tf:Find("overlay/right/tags"), slot0._tf:Find("overlay/right/tags/tpl"))
 	slot0.charContainer = slot0._tf:Find("overlay/right/char")
@@ -94,6 +96,13 @@ slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.EVT_ON_PURCHASE, function (slot0, slot1)
 		uv0:OnClickBtn(uv0:GetObtainBtnState(slot1), slot1)
 	end)
+	onButton(slot0, slot0.changeSkinUI, function ()
+		if ShipGroup.IsChangeSkin(uv0.skinId) then
+			uv0.changeSkinId = ShipGroup.GetChangeSkinNextId(uv0.skinId)
+
+			uv0:Flush(uv0.commodity)
+		end
+	end, SFX_PANEL)
 end
 
 slot0.Flush = function(slot0, slot1)
@@ -105,6 +114,11 @@ slot0.Flush = function(slot0, slot1)
 
 	slot0:FlushStyle(false)
 
+	slot3 = ShipGroup.IsChangeSkin(slot0.skinId)
+	slot0.skinId = slot1:getSkinId()
+
+	slot0:FlushChangeSkin(slot1)
+
 	if not (slot0.commodity and slot0.commodity.id == slot1.id) then
 		slot0:FlushName(slot1)
 		slot0:FlushPreviewBtn(slot1)
@@ -114,6 +128,11 @@ slot0.Flush = function(slot0, slot1)
 		slot0:FlushPaintingToggle(slot1)
 		slot0:FlushBG(slot1)
 		slot0:FlushPainting(slot1)
+	elseif slot3 then
+		slot0:FlushBG(slot1)
+		slot0:FlushPainting(slot1)
+		slot0:FlushTag(slot1)
+		slot0:SwitchPreview(slot1, slot0.isPreviewFurniture, false)
 	else
 		slot0:FlushBG(slot1)
 		slot0:FlushPainting(slot1)
@@ -123,6 +142,24 @@ slot0.Flush = function(slot0, slot1)
 	slot0:FlushObtainBtn(slot1)
 
 	slot0.commodity = slot1
+end
+
+slot0.FlushChangeSkin = function(slot0, slot1)
+	setActive(slot0.changeSkinUI, ShipGroup.IsChangeSkin(slot0.skinId) and true or false)
+
+	if slot3 then
+		slot4 = ShipGroup.GetChangeSkinGroupId(slot2)
+
+		if not slot0.changeSkinId then
+			slot0.changeSkinId = slot2
+		elseif ShipGroup.GetChangeSkinGroupId(slot0.changeSkinId) == slot4 then
+			slot0.skinId = slot0.changeSkinId
+		else
+			slot0.changeSkinId = slot0.skinId
+		end
+
+		slot0.changeSkinToggle:setSkinData(slot0.skinId)
+	end
 end
 
 slot0.FlushStyle = function(slot0, slot1)
@@ -176,7 +213,7 @@ slot0.ClearSwitchBgAnim = function(slot0)
 end
 
 slot0.FlushBG = function(slot0, slot1, slot2)
-	slot3 = slot1:getSkinId()
+	slot3 = slot0.skinId
 	slot7 = Ship.New({
 		id = 999,
 		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot3].ship_group).id,
@@ -213,7 +250,7 @@ slot0.FlushBG = function(slot0, slot1, slot2)
 end
 
 slot0.FlushName = function(slot0, slot1)
-	slot3 = pg.ship_skin_template[slot1:getSkinId()]
+	slot3 = pg.ship_skin_template[slot0.skinId]
 	slot0.skinNameTxt.text = SwitchSpecialChar(slot3.name, true)
 	slot0.shipNameTxt.text = ShipGroup.getDefaultShipConfig(slot3.ship_group).name
 end
@@ -223,7 +260,7 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 	removeOnToggle(slot0.showBgToggle)
 
 	slot3 = checkABExist("painting/" .. ShipSkin.New({
-		id = slot1:getSkinId()
+		id = slot0.skinId
 	}):getConfig("painting") .. "_n")
 
 	if slot0.isToggleShowBg and not slot3 then
@@ -311,7 +348,7 @@ slot0.FlushDynamicPaintingResState = function(slot0, slot1)
 
 	slot3 = false
 	slot4 = ""
-	slot5 = pg.ship_skin_template[slot1:getSkinId()].painting
+	slot5 = pg.ship_skin_template[slot0.skinId].painting
 
 	if uv0 == slot0:GetPaintingState(slot1) then
 		slot3, slot4 = slot0:ExistL2dRes(slot5)
@@ -331,7 +368,7 @@ slot0.FlushDynamicPaintingResState = function(slot0, slot1)
 end
 
 slot0.DownloadDynamicPainting = function(slot0, slot1, slot2)
-	if slot0.downloads[slot2:getSkinId()] then
+	if slot0.downloads[slot0.skinId] then
 		return
 	end
 
@@ -352,7 +389,7 @@ end
 
 slot0.GetPaintingState = function(slot0, slot1)
 	slot2 = ShipSkin.New({
-		id = slot1:getSkinId()
+		id = slot0.skinId
 	})
 
 	if slot0.isToggleDynamic and slot2:IsLive2d() then
@@ -369,13 +406,14 @@ slot0.GetPaintingState = function(slot0, slot1)
 end
 
 slot0.FlushPainting = function(slot0, slot1)
-	slot3 = pg.ship_skin_template[slot1:getSkinId()].painting
+	slot3 = pg.ship_skin_template[slot0.skinId].painting
+	slot4 = ShipGroup.GetChangeSkinData(slot0.skinId) and true or false
 
 	if slot0:GetPaintingState(slot1) == uv0 and not slot0:ExistL2dRes(slot3) or slot2 == uv1 and not slot0:ExistSpineRes(slot3) then
 		slot2 = uv2
 	end
 
-	if slot0.paintingState and slot0.paintingState.state == slot2 and slot0.paintingState.id == slot1.id and slot0.paintingState.showBg == slot0.isToggleShowBg and slot0.paintingState.purchaseFlag == slot1.buyCount then
+	if slot0.paintingState and slot0.paintingState.state == slot2 and slot0.paintingState.id == slot1.id and slot0.paintingState.showBg == slot0.isToggleShowBg and slot0.paintingState.purchaseFlag == slot1.buyCount and not slot4 then
 		return
 	end
 
@@ -417,7 +455,7 @@ slot0.LoadMeshPainting = function(slot0, slot1, slot2)
 	slot4 = GetOrAddComponent(findTF(slot0.paintingTF, "fitter"), "PaintingScaler")
 	slot4.FrameName = "chuanwu"
 	slot4.Tween = 1
-	slot6 = pg.ship_skin_template[slot1:getSkinId()].painting
+	slot6 = pg.ship_skin_template[slot0.skinId].painting
 
 	if not slot2 and checkABExist("painting/" .. slot5 .. "_n") then
 		slot5 = slot5 .. "_n"
@@ -462,7 +500,7 @@ slot0.ClearMeshPainting = function(slot0)
 end
 
 slot0.LoadL2dPainting = function(slot0, slot1)
-	slot2 = slot1:getSkinId()
+	slot2 = slot0.skinId
 	slot5 = Live2D.GenerateData({
 		ship = Ship.New({
 			id = 999,
@@ -500,7 +538,7 @@ slot0.ClearL2dPainting = function(slot0)
 end
 
 slot0.LoadSpinePainting = function(slot0, slot1)
-	slot2 = slot1:getSkinId()
+	slot2 = slot0.skinId
 	slot6 = pg.UIMgr.GetInstance()
 
 	slot6:LoadingOn()
@@ -627,7 +665,7 @@ slot0.StartSwitchAnim = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.SwitchPreview = function(slot0, slot1, slot2, slot3)
-	slot4 = slot1:getSkinId()
+	slot4 = slot0.skinId
 
 	slot0:StartSwitchAnim(slot0.furnitureBg, slot0.charBg, slot3 and 0.3 or 0, function ()
 		setActive(uv0.charContainer, not uv1)
@@ -806,7 +844,7 @@ slot0.OnItemPurchase = function(slot0, slot1)
 		table.insert(slot4, slot9.id)
 	end
 
-	slot5 = slot1:getSkinId()
+	slot5 = slot0.skinId
 
 	slot0.voucherMsgBox:ExecuteAction("Show", {
 		itemList = slot4,
@@ -868,7 +906,7 @@ slot0.OnBackyard = function(slot0, slot1)
 end
 
 slot0.OnExperience = function(slot0, slot1)
-	if getProxy(ShipSkinProxy):getSkinById(slot1:getSkinId()) and not slot3:isExpireType() then
+	if getProxy(ShipSkinProxy):getSkinById(slot0.skinId) and not slot3:isExpireType() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
 
 		return
@@ -878,7 +916,7 @@ slot0.OnExperience = function(slot0, slot1)
 	slot6, slot7, slot8, slot9 = pg.TimeMgr.GetInstance():parseTimeFrom(slot1:getConfig("time_second") * slot4)
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("exchange_limit_skin_tip", slot4, pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
+		content = i18n("exchange_limit_skin_tip", slot4, pg.ship_skin_template[slot0.skinId].name, slot6, slot7),
 		onYes = function ()
 			if getProxy(PlayerProxy):getRawData():getSkinTicket() < uv0 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
@@ -892,7 +930,7 @@ slot0.OnExperience = function(slot0, slot1)
 end
 
 slot0.OnExperience4Item = function(slot0, slot1)
-	if getProxy(ShipSkinProxy):getSkinById(slot1:getSkinId()) and not slot3:isExpireType() then
+	if getProxy(ShipSkinProxy):getSkinById(slot0.skinId) and not slot3:isExpireType() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("already_have_the_skin"))
 
 		return
@@ -905,7 +943,7 @@ slot0.OnExperience4Item = function(slot0, slot1)
 	end)
 
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
-		content = i18n("exchange_limit_skin_tip", slot4, pg.ship_skin_template[slot1:getSkinId()].name, slot6, slot7),
+		content = i18n("exchange_limit_skin_tip", slot4, pg.ship_skin_template[slot0.skinId].name, slot6, slot7),
 		onYes = function ()
 			if not uv0 or uv0.count < uv1 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_item_1"))
@@ -933,7 +971,7 @@ slot0.FlushTag = function(slot0, slot1)
 			end)
 		end
 	end)
-	slot0.uiTagList:align(#pg.ship_skin_template[slot1:getSkinId()].tag)
+	slot0.uiTagList:align(#pg.ship_skin_template[slot0.skinId].tag)
 end
 
 slot0.FlushChar = function(slot0, slot1, slot2)
@@ -964,7 +1002,7 @@ slot0.FlushChar = function(slot0, slot1, slot2)
 end
 
 slot0.FlushTimeline = function(slot0, slot1)
-	slot2 = slot1:getSkinId()
+	slot2 = slot0.skinId
 	slot3 = false
 	slot4 = nil
 

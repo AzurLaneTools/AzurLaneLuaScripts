@@ -13,6 +13,7 @@ slot0.WITH_DYNAMIC_BG = 4
 slot0.WITH_BGM = 5
 slot0.WITH_SPINE = 6
 slot0.WITH_SPINE_PLUS = 7
+slot0.WITH_CHANGE = 8
 
 slot0.Tag2Name = function(slot0)
 	if not uv0.Tag2NameTab then
@@ -23,7 +24,8 @@ slot0.Tag2Name = function(slot0)
 			[uv0.WITH_EFFECT] = "effect",
 			[uv0.WITH_LIVE2D] = "live2d",
 			[uv0.WITH_SPINE] = "spine",
-			[uv0.WITH_SPINE_PLUS] = "spine_plus"
+			[uv0.WITH_SPINE_PLUS] = "spine_plus",
+			[uv0.WITH_CHANGE] = "change"
 		}
 	end
 
@@ -251,6 +253,26 @@ end
 
 slot0.IsProposeSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_PROPOSE
+end
+
+slot0.IsChangeSkin = function(slot0)
+	return table.contains(slot0:getConfig("tag"), uv0.WITH_CHANGE)
+end
+
+slot0.IsChangeSkinMainIndex = function(slot0)
+	if slot0:IsChangeSkin() then
+		return slot0:getConfig("change_skin").index == 1
+	end
+
+	return false
+end
+
+slot0.MatchChangeSkinMain = function(slot0)
+	if slot0:IsChangeSkin() and not slot0:IsChangeSkinMainIndex() then
+		return false
+	end
+
+	return true
 end
 
 slot0.CanShare = function(slot0)

@@ -159,6 +159,18 @@ slot0.SetRoom = function(slot0, slot1)
 end
 
 slot0.preload = function(slot0, slot1)
+	tolua.loadassembly("MagicaCloth")
+	tolua.loadassembly("ParadoxNotion")
+
+	for slot5, slot6 in pairs({
+		_MonoManager = "ParadoxNotion.Services.MonoManager",
+		MagicaPhysicsManager = "MagicaCloth.MagicaPhysicsManager"
+	}) do
+		if not GameObject.Find(slot5) then
+			GetOrAddComponent(GameObject.New(slot5), typeof(slot6))
+		end
+	end
+
 	slot2 = getProxy(ApartmentProxy)
 	slot0.room = slot2:getRoom(slot0.contextData.roomId)
 	slot3 = slot0.room
@@ -441,7 +453,6 @@ slot0.initScene = function(slot0)
 	slot0.resTF = GameObject.Find("Res").transform
 
 	tolua.loadassembly("Cinemachine")
-	tolua.loadassembly("MagicaCloth")
 
 	slot4 = GameObject.Find("CM Cameras").transform
 

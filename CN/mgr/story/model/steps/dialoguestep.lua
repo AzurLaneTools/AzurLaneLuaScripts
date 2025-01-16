@@ -99,6 +99,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.showNPainting = slot1.hidePaintObj
 	slot0.hasPaintbg = slot1.hasPaintbg
 	slot0.showWJZPainting = slot1.hidePaintEquip
+	slot0.hideDialogFragment = slot1.hideDialogFragment
 	slot0.nohead = slot1.nohead
 	slot0.live2d = slot1.live2d
 	slot0.live2dIdleIndex = slot1.live2dIdleIndex
@@ -184,6 +185,10 @@ slot0.GetPortrait = function(slot0)
 	else
 		return nil
 	end
+end
+
+slot0.ShouldHideDialogue = function(slot0)
+	return slot0.hideDialogFragment
 end
 
 slot0.ShouldGlitchArtForPortrait = function(slot0)

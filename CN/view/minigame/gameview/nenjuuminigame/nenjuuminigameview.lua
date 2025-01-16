@@ -68,10 +68,6 @@ slot0.updateMainUI = function(slot0)
 		triggerToggle(slot13, slot11 == slot5)
 	end
 
-	slot9 = slot6.rect.height
-	slot10 = slot6:GetComponent(typeof(ScrollRect)).viewport.rect.height
-
-	scrollTo(slot6, nil, 1 - math.clamp(slot6:GetChild(0).anchoredPosition.y - slot6:GetChild(slot5 - 1).anchoredPosition.y, 0, slot9 - slot10) / (slot9 - slot10))
 	slot0:checkGet()
 end
 
@@ -97,6 +93,9 @@ slot0.initPageUI = function(slot0)
 
 	onButton(slot0, slot1:Find("btn_back"), function ()
 		uv0:closeView()
+	end, SFX_CANCEL)
+	onButton(slot0, slot1:Find("btn_home"), function ()
+		uv0:emit(BaseUI.ON_HOME)
 	end, SFX_CANCEL)
 	onButton(slot0, slot1:Find("btn_help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({

@@ -115,11 +115,35 @@ pg.technology_catchup_template = {
 			89903
 		}
 	},
+	{
+		obtain_max = 300,
+		obtain_max_per_ur = 150,
+		id = 6,
+		char_choice = {
+			39906,
+			49908,
+			99902,
+			19904,
+			49909
+		},
+		blueprint_max = {
+			508,
+			508,
+			508,
+			728,
+			728
+		},
+		ur_char = {
+			19904,
+			49909
+		}
+	},
 	all = {
 		1,
 		2,
 		3,
 		4,
-		5
+		5,
+		6
 	}
 }

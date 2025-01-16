@@ -4337,6 +4337,45 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[127] = {
+		num_limit = 1,
+		activity = 5779,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 501021,
+		end_by_maintenance = 0,
+		id = 127,
+		order = 7,
+		scene = {
+			"scene RED PACKEY"
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	get_id_list_by_commodity_type = {
 		[7] = {
 			1,
@@ -4460,7 +4499,8 @@ pg.activity_shop_extra = {
 			123,
 			124,
 			125,
-			126
+			126,
+			127
 		}
 	},
 	all = {
@@ -4585,6 +4625,7 @@ pg.activity_shop_extra = {
 		123,
 		124,
 		125,
-		126
+		126,
+		127
 	}
 }

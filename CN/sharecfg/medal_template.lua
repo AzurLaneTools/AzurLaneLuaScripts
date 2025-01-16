@@ -2443,6 +2443,27 @@ pg.medal_template = {
 		explain1 = "「星光下的余晖」",
 		explain2 = "活动纪念"
 	},
+	[200011] = {
+		target_id = "5769",
+		name = "华裳巧展纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "虽有波折，终遂人愿。光华流转，一夜霓裳。",
+		next = 0,
+		icon = "9011",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9011",
+		condition = "收集8个「华裳巧展喜事长」纪念贴纸。",
+		rank = 1,
+		id = 200011,
+		explain1 = "「华裳巧展喜事长」",
+		explain2 = "活动纪念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2554,6 +2575,7 @@ pg.medal_template = {
 		100933,
 		100934,
 		100935,
-		200001
+		200001,
+		200011
 	}
 }

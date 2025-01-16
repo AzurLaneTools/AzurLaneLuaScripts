@@ -74,12 +74,17 @@ pg.pay_data_display = setmetatable({
 		74,
 		75,
 		76,
+		77,
+		78,
+		79,
 		80,
 		81,
 		82,
 		83,
 		84,
 		85,
+		86,
+		88,
 		1000,
 		1001,
 		1002,
@@ -7724,6 +7729,328 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[77] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "冬日自选礼包1",
+		first_pay_double = 0,
+		name_display = "冬日自选礼包1",
+		descrip = "可获得980钻，冬日自选礼物盒1*1，和大量其他奖励",
+		subject = "冬日自选礼包1",
+		money = 98,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_98",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi177",
+		extra_service = 3,
+		id = 77,
+		airijp_id = "com.yostarjp.azurlane.diamond165",
+		extra_service_item = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81407,
+				1
+			}
+		}
+	},
+	[78] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "冬日自选礼包2",
+		first_pay_double = 0,
+		name_display = "冬日自选礼包2",
+		descrip = "可获得1980钻，冬日自选礼物盒2*1，和大量其他奖励",
+		subject = "冬日自选礼包2",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_198",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi178",
+		extra_service = 3,
+		id = 78,
+		airijp_id = "com.yostarjp.azurlane.diamond166",
+		extra_service_item = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81408,
+				1
+			}
+		}
+	},
+	[79] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "冬日自选礼包3",
+		first_pay_double = 0,
+		name_display = "冬日自选礼包3",
+		descrip = "可获得3280钻，冬日自选礼物盒3*1，和大量其他奖励",
+		subject = "冬日自选礼包3",
+		money = 328,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_328",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi179",
+		extra_service = 3,
+		id = 79,
+		airijp_id = "com.yostarjp.azurlane.diamond167",
+		extra_service_item = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81421,
+				1
+			}
+		}
+	},
 	[80] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -8339,6 +8666,234 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81201,
+				1
+			}
+		}
+	},
+	[86] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "2025年春节福袋一",
+		first_pay_double = 0,
+		name_display = "2025年春节福袋一",
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		subject = "2025年春节福袋一",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai21",
+		skin_inquire_relation = 86210,
+		id_str = "com.bilibili.blhx.zuanshi186",
+		extra_service = 3,
+		id = 86,
+		airijp_id = "com.yostarjp.azurlane.diamond174",
+		extra_service_item = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86210,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81210,
+				1
+			}
+		}
+	},
+	[88] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "2024年春节福袋·I复刻",
+		first_pay_double = 0,
+		name_display = "2024年春节福袋·I复刻",
+		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
+		subject = "2024年春节福袋·I复刻",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai11",
+		skin_inquire_relation = 86202,
+		id_str = "com.bilibili.blhx.zuanshi188",
+		extra_service = 3,
+		id = 88,
+		airijp_id = "com.yostarjp.azurlane.diamond176",
+		extra_service_item = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86202,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81202,
 				1
 			}
 		}

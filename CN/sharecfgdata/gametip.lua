@@ -3141,13 +3141,13 @@ _G.pg.base.gametip.coloring_help_tip = {
 7.各图完成奖励明细如下：
 	完成图1获得T3随机教材 x2；
 	完成图2获得红包 x2；
-	完成图3获得T3主炮改造部件 x2；
+	完成图3获得玉竹泡泡机*1；
 	完成图4获得红包 x2；
-	完成图5获得逸仙设备·梅之语 x1；
+	完成图5获得玉竹泡泡机*1；
 	完成图6获得红包 x2；
 	完成图7获得鞍山 x1、 红包 x1。
 8.活动结束后，未消耗的颜料会被清除。
-9.<color=#92fc63>2月5日</color>为止每天解锁一个可完成的绘图。]]
+9.<color=#92fc63>1月22日</color>为止每天解锁一个可完成的绘图。]]
 		}
 	}
 }
@@ -9335,6 +9335,29 @@ _G.pg.base.gametip.ship_remould_warning_506114 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_506124 = {
+	tip = "此次改造操作后<color=#92fc63>【第一武器栏位可以装备战斗机】【第二武器栏位可装备任意类型舰载机】</color>、<color=#92fc63>【第一武器栏位、第二武器栏位位武器效率+10%】</color>\n是否确认继续操作？"
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_520024 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（先锋舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_521024 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（主力舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "语音包下载"
 }
@@ -12382,12 +12405,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "喀琅施塔得、阿尔汉格尔斯克 等角色建造追加！"
+	tip = "寰昌 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "基辅 建造追加！"
+	tip = "济安、龙武、虎贲 建造追加！"
 }
 
 
@@ -12559,6 +12582,11 @@ _G.pg.base.gametip.tec_catchup_4 = {
 
 _G.pg.base.gametip.tec_catchup_5 = {
 	tip = "五期"
+}
+
+
+_G.pg.base.gametip.tec_catchup_6 = {
+	tip = "六期"
 }
 
 
@@ -13485,7 +13513,7 @@ _G.pg.base.gametip.world_boss_help = {
 8.当「演习据点」耐久下降至<color=#92fc63>75%</color>、<color=#92fc63>50%</color>、<color=#92fc63>25%</color>以及<color=#92fc63>完全耗尽</color>后，会记录本服达成的里程碑时间，同时，在演习中获得过「贡献值」的玩家可以获得相应奖励
 9.奖励将在「演习据点」完全耗尽后，通过邮件发放，如果活动结束时耐久未被耗尽，则会根据据点推进进度，为在演习中获得过「贡献值」的玩家发放对应进度的奖励
 10.活动期间，可以领取个人贡献奖励，个人贡献奖励需要当据点攻略进度和拥有的「贡献值」达到指定要求后才能领取
-11.1月30日维护后-2月22日维护前可以参与演习战斗，奖励领取的截止时间为2月26日24时]]
+11.1月16日维护后-2月6日维护前可以参与演习战斗，奖励领取的截止时间为2月6日维护]]
 		},
 		{
 			info = [[
@@ -16802,7 +16830,7 @@ _G.pg.base.gametip.help_chunjie_jiulou = {
 		{
 			info = [[
 活动说明：
-1.活动期间可以通过<color=#92fc63>「抚顺大冒险Ⅴ」</color>、<color=#92fc63>「绘图日记」</color>、<color=#92fc63>「飞彩迎新春」</color>、<color=#92fc63>「新春的冒险之王」</color>获得红包，开启红包可以获得钻石及其他丰厚奖励
+1.活动期间可以通过<color=#92fc63>「抚顺大冒险」</color>、<color=#92fc63>「绘图日记」</color>、<color=#92fc63>「伏波的完美计划」</color>、<color=#92fc63>「新春烟花会」</color>获得红包，开启红包可以获得钻石及其他丰厚奖励
 2.红包分为bonus和普通红包，其中有<color=#92fc63>15</color>个bonus红包，其余为普通红包，开启红包时优先开启bonus红包，bonus红包开完后开启普通红包
 3.累计打开<color=#92fc63>15</color>个红包，可获得<color=#92fc63>「抚顺」限定换装</color>，累计打开<color=#92fc63>25</color>个红包，可获得<color=#92fc63>「{namecode:225}」限定换装</color>]]
 		}
@@ -28689,7 +28717,7 @@ _G.pg.base.gametip["2023spring_minigame_help"] = {
 		{
 			info = [[
 活动规则：
-1.<color=#92fc63>2023.1.24</color>为止每日0点开放<color=#92fc63>1</color>关新的游戏，总计<color=#92fc63>7</color>关，可累计。完成游戏可以获得限定角色「抚顺」。
+1.<color=#92fc63>2025.1.22</color>为止每日0点开放<color=#92fc63>1</color>关新的游戏，总计<color=#92fc63>7</color>关，可累计。完成游戏可以获得限定角色<color=#92fc63>「抚顺」</color>、改造道具<color=#92fc63>「朱雀之印」</color>。
 
 游戏规则：
 1.指挥官需要帮助抚顺躲避年兽，收集地图上的资源完成大冒险！
@@ -36556,11 +36584,11 @@ _G.pg.base.gametip.help_starLightAlbum = {
 		{
 			info = [[
 1. 回忆页面内新增「纪念手册」系统入口。
-2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得本次活动纪念章「抵抗军总部大楼」和活动勋章「抵抗之星纪念勋章」。
+2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动纪念章家具和活动勋章。
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将保留至1月8日23:59；]]
+ ※ 奖励领取界面将延长保留；]]
 		}
 	}
 }
@@ -36643,4 +36671,9 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "契合度已经到达上限，送礼将不会获得契合度，是否确认赠送？"
+}
+
+
+_G.pg.base.gametip.please_input_1_99 = {
+	tip = "请输入1~99"
 }

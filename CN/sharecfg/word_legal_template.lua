@@ -1517,6 +1517,9 @@ temp = function()
 		["圻"] = {
 			this = true
 		},
+		["容"] = {
+			this = true
+		},
 		["豚"] = {
 			["号"] = {
 				this = true
@@ -2746,7 +2749,12 @@ temp = function()
 			}
 		},
 		["甲"] = {
-			this = true
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -2804,6 +2812,9 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["风"] = {
+			this = true
 		}
 	}
 end
@@ -6741,7 +6752,12 @@ temp()
 temp = function()
 	uv0["抚"] = {
 		["顺"] = {
-			this = true
+			this = true,
+			["."] = {
+				["改"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6786,6 +6802,30 @@ temp = function()
 						this = true
 					}
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["伏"] = {
+		["波"] = {
+			this = true
+		},
+		["罗"] = {
+			["希"] = {
+				["洛"] = {
+					["夫"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["尔"] = {
+			["加"] = {
+				this = true
 			}
 		}
 	}
@@ -6851,6 +6891,16 @@ temp()
 temp = function()
 	uv0["济"] = {
 		["安"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["建"] = {
+		["武"] = {
 			this = true
 		}
 	}
@@ -7185,27 +7235,6 @@ temp = function()
 						this = true
 					}
 				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["伏"] = {
-		["罗"] = {
-			["希"] = {
-				["洛"] = {
-					["夫"] = {
-						this = true
-					}
-				}
-			}
-		},
-		["尔"] = {
-			["加"] = {
-				this = true
 			}
 		}
 	}

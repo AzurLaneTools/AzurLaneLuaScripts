@@ -470,7 +470,7 @@ pg.emoji_template = {
 	},
 	{
 		achieve = 1,
-		index = 77,
+		index = 83,
 		pic = "37",
 		desc = "<color=#92fc63>[还不睡]</color>",
 		item_name = "聊天表情：还不睡",
@@ -483,7 +483,7 @@ pg.emoji_template = {
 	},
 	{
 		achieve = 1,
-		index = 78,
+		index = 84,
 		pic = "38",
 		desc = "<color=#92fc63>[眠眠]</color>",
 		item_name = "聊天表情：眠眠",
@@ -494,7 +494,33 @@ pg.emoji_template = {
 			1
 		}
 	},
-	[41] = {
+	{
+		achieve = 1,
+		index = 85,
+		pic = "39",
+		desc = "<color=#92fc63>[准备万全]</color>",
+		item_name = "聊天表情：准备万全",
+		item_desc = "聊天表情：准备万全，可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 39,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
+		achieve = 1,
+		index = 86,
+		pic = "40",
+		desc = "<color=#92fc63>[再等等]</color>",
+		item_name = "聊天表情：再等等",
+		item_desc = "聊天表情：再等等，可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 40,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	{
 		achieve = 0,
 		index = 1001,
 		pic = "akk",
@@ -507,7 +533,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[42] = {
+	{
 		achieve = 0,
 		index = 1002,
 		pic = "beifa",
@@ -520,7 +546,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[43] = {
+	{
 		achieve = 0,
 		index = 1003,
 		pic = "biaoqiang",
@@ -533,7 +559,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[44] = {
+	{
 		achieve = 0,
 		index = 1004,
 		pic = "buli",
@@ -546,7 +572,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[45] = {
+	{
 		achieve = 0,
 		index = 1005,
 		pic = "dujiaoshou",
@@ -559,7 +585,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[46] = {
+	{
 		achieve = 0,
 		index = 1006,
 		pic = "fangzhou",
@@ -572,7 +598,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[47] = {
+	{
 		achieve = 0,
 		index = 1007,
 		pic = "gaoxiong",
@@ -585,7 +611,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[48] = {
+	{
 		achieve = 0,
 		index = 1008,
 		pic = "haiwangxing",
@@ -598,7 +624,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[49] = {
+	{
 		achieve = 0,
 		index = 1009,
 		pic = "haman",
@@ -611,7 +637,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[50] = {
+	{
 		achieve = 0,
 		index = 1010,
 		pic = "kedie",
@@ -624,7 +650,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[51] = {
+	{
 		achieve = 0,
 		index = 1011,
 		pic = "lafei",
@@ -637,7 +663,7 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[52] = {
+	{
 		achieve = 0,
 		index = 1012,
 		pic = "lingbo",
@@ -2223,6 +2249,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[1041] = {
+		achieve = 1,
+		index = 87,
+		pic = "1041",
+		desc = "<color=#92fc63>[惊]</color>",
+		item_name = "聊天表情：惊",
+		item_desc = "聊天表情：惊，可以在表情选项的「默认」选项卡中找到并发出此表情。",
+		id = 1041,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2262,6 +2301,8 @@ pg.emoji_template = {
 		36,
 		37,
 		38,
+		39,
+		40,
 		41,
 		42,
 		43,
@@ -2394,6 +2435,7 @@ pg.emoji_template = {
 		372,
 		373,
 		374,
-		375
+		375,
+		1041
 	}
 }

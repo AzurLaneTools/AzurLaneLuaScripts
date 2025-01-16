@@ -26,6 +26,8 @@ slot0.OnLoaded = function(slot0)
 		ShipAtlasBgBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0.event, slot0.bgFlag),
 		ShipAtlasLive2dBtn.New(slot1, PlayerVitaeBaseBtn.HRZ_TYPE, slot0.event, slot0.l2dFlag)
 	}
+	slot0.changeSkinUI = slot0:findTF("main/bottom/changeSkin")
+	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkinUI, "ChangeSkinToggleUI"))
 	slot0.bgView = SkinAtlasBgView.New(slot0:findTF("bg/bg"))
 	slot0.paintingView = SkinAtlasPaintingView.New(slot0:findTF("paint"))
 	slot0.selectShipPage = ChangeShipSkinPage.New(slot0._parentTf, slot0.event)
@@ -82,6 +84,13 @@ slot0.OnInit = function(slot0)
 			mediatorName = SkinAtlasMediator.__cname
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot0.changeSkinUI, function ()
+		if ShipGroup.GetChangeSkinData(uv0.skin.id) then
+			uv0:Flush(ShipSkin.New({
+				id = ShipGroup.GetChangeSkinNextId(uv0.skin.id)
+			}), uv0.index)
+		end
+	end, SFX_PANEL)
 	slot0:bind(uv0.ON_BG_SWITCH_DONE, function (slot0, slot1)
 		uv0.bgFlag = slot1
 
@@ -134,6 +143,8 @@ slot0.Show = function(slot0, slot1, slot2)
 
 	setActive(slot0.changeBtnDis, slot4)
 	setActive(slot0.changeBtnEn, not slot4)
+	setActive(slot0.changeSkinUI, ShipGroup.GetChangeSkinData(slot0.skin.id) and true or false)
+	slot0.changeSkinToggle:setSkinData(slot0.skin.id)
 	setActive(slot0.obtainBtn, not slot0.skin:OwnShip())
 end
 

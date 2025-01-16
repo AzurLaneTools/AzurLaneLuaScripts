@@ -1871,7 +1871,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 4,
 		id = 39905,
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60191
 		},
@@ -1976,7 +1976,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 4,
 		id = 49905,
 		price = 6000,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60201
 		},
@@ -2363,7 +2363,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 5,
 		id = 49907,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60241
 		},
@@ -2464,7 +2464,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 5,
 		id = 59901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60251
 		},
@@ -2565,7 +2565,7 @@ pg.ship_data_blueprint = {
 		blueprint_version = 5,
 		id = 79901,
 		price = 1500,
-		is_pursuing = 0,
+		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60260,
 			60261

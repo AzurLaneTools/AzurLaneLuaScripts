@@ -514,7 +514,10 @@ pg.honormedal_goods_list = {
 			301161,
 			401461,
 			801011,
-			901111
+			901111,
+			101451,
+			301861,
+			701051
 		}
 	},
 	{
@@ -532,7 +535,8 @@ pg.honormedal_goods_list = {
 		order = 0,
 		goods = {
 			102081,
-			202041
+			202041,
+			202281
 		}
 	},
 	{
@@ -552,7 +556,10 @@ pg.honormedal_goods_list = {
 			303111,
 			303121,
 			403031,
-			103131
+			103131,
+			103161,
+			603021,
+			603031
 		}
 	},
 	{
@@ -581,7 +588,10 @@ pg.honormedal_goods_list = {
 			905011,
 			304051,
 			305081,
-			405011
+			405011,
+			105201,
+			305141,
+			905031
 		}
 	},
 	{
@@ -600,7 +610,11 @@ pg.honormedal_goods_list = {
 		goods = {
 			107061,
 			307051,
-			307061
+			307061,
+			207051,
+			306071,
+			307101,
+			307111
 		}
 	},
 	{
@@ -620,7 +634,10 @@ pg.honormedal_goods_list = {
 			301161,
 			401461,
 			801011,
-			901111
+			901111,
+			101451,
+			301861,
+			701051
 		}
 	},
 	{
@@ -638,7 +655,8 @@ pg.honormedal_goods_list = {
 		order = 1,
 		goods = {
 			102081,
-			202041
+			202041,
+			202281
 		}
 	},
 	{
@@ -658,7 +676,10 @@ pg.honormedal_goods_list = {
 			303111,
 			303121,
 			403031,
-			103131
+			103131,
+			103161,
+			603021,
+			603031
 		}
 	},
 	{
@@ -687,7 +708,10 @@ pg.honormedal_goods_list = {
 			905011,
 			304051,
 			305081,
-			405011
+			405011,
+			105201,
+			305141,
+			905031
 		}
 	},
 	{
@@ -706,7 +730,11 @@ pg.honormedal_goods_list = {
 		goods = {
 			107061,
 			307051,
-			307061
+			307061,
+			207051,
+			306071,
+			307101,
+			307111
 		}
 	},
 	[41] = {
@@ -845,6 +873,40 @@ pg.honormedal_goods_list = {
 			59010
 		}
 	},
+	[49] = {
+		goods_rarity = 4,
+		goods_purchase_limit = 15,
+		price = 20,
+		type = 2,
+		group = 10034,
+		num = 1,
+		goods_name = "定向蓝图・七期",
+		goods_type = 1,
+		id = 49,
+		is_ship = 0,
+		goods_icon = "Props/42060",
+		order = 6,
+		goods = {
+			42060
+		}
+	},
+	[50] = {
+		goods_rarity = 5,
+		goods_purchase_limit = 5,
+		price = 20,
+		type = 2,
+		group = 10035,
+		num = 1,
+		goods_name = "高级定向蓝图・七期",
+		goods_type = 1,
+		id = 50,
+		is_ship = 0,
+		goods_icon = "Props/42066",
+		order = 5,
+		goods = {
+			42066
+		}
+	},
 	all = {
 		1,
 		2,
@@ -891,6 +953,8 @@ pg.honormedal_goods_list = {
 		45,
 		46,
 		47,
-		48
+		48,
+		49,
+		50
 	}
 }

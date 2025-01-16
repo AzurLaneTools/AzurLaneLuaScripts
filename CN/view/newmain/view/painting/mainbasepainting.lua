@@ -33,6 +33,10 @@ slot0.IsLoaded = function(slot0)
 	return slot0.state == uv0
 end
 
+slot0.SetOnceLoadedCall = function(slot0, slot1)
+	slot0.loadedCallback = slot1
+end
+
 slot0.Load = function(slot0, slot1)
 	slot0.isPuase = false
 	slot0.isExited = false
@@ -171,7 +175,7 @@ end
 
 slot0.OnFirstTimeTriggerEvent = function(slot0)
 	slot1 = function(slot0)
-		uv0:_TriggerEvent(slot0)
+		uv0:PrepareTriggerAction(slot0)
 	end
 
 	if getProxy(PlayerProxy):getFlag("login") then
@@ -183,6 +187,14 @@ slot0.OnFirstTimeTriggerEvent = function(slot0)
 	else
 		slot0:TriggerNextEventAuto()
 	end
+end
+
+slot0.PrepareTriggerAction = function(slot0, slot1)
+	slot0:TryToTriggerEvent(slot1)
+end
+
+slot0.TryToTriggerEvent = function(slot0, slot1)
+	slot0:_TriggerEvent(slot1)
 end
 
 slot0._TriggerEvent = function(slot0, slot1)
@@ -203,7 +215,7 @@ slot0.TriggerEvent = function(slot0, slot1)
 	end
 
 	slot0:RemoveTimer()
-	slot0:_TriggerEvent(slot1)
+	slot0:PrepareTriggerAction(slot1)
 	slot0:OnTriggerEvent()
 end
 
@@ -442,6 +454,12 @@ end
 
 slot0.IslimitYPos = function(slot0)
 	return false
+end
+
+slot0.PlayChangeSkinActionIn = function(slot0, slot1)
+end
+
+slot0.PlayChangeSkinActionOut = function(slot0, slot1)
 end
 
 slot0.PauseForSilent = function(slot0)

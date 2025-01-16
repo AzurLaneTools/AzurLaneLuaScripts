@@ -1751,5 +1751,13 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "寺泽百花",
 		code = 438
+	},
+	{
+		actor_name = "水野朔",
+		code = 439
+	},
+	{
+		actor_name = "咲川雏乃",
+		code = 440
 	}
 }

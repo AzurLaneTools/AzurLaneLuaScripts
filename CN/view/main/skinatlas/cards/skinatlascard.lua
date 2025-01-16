@@ -11,6 +11,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.tags = {
 		findTF(slot0._tf, "tags/icon")
 	}
+	slot0.changeSkinUI = findTF(slot0._tf, "changeSkin")
+	slot0.changeSkinToggle = nil
 end
 
 slot0.Update = function(slot0, slot1, slot2)
@@ -28,13 +30,31 @@ slot0.Update = function(slot0, slot1, slot2)
 	slot4 = getProxy(BayProxy):findShipsByGroup(slot1:getConfig("ship_group"))
 
 	setActive(slot0.usingTr, #slot4 > 0 and _.any(slot4, function (slot0)
-		return slot0.skinId == uv0.id
+		return ShipGroup.IsSameChangeSkinGroup(slot0.skinId, uv0.id) or slot0.skinId == uv0.id
 	end))
 	setActive(slot0.unavailableTr, #slot4 == 0 or getProxy(CollectionProxy).shipGroups[slot3] == nil)
 
 	slot0.name.text = shortenString(slot1:getConfig("name"), 7)
 
+	setActive(slot0.changeSkinUI, ShipGroup.GetChangeSkinData(slot0.skin.id) and true or false)
+
+	if slot8 then
+		if not slot0.changeSkinToggle then
+			slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkinUI, "ChangeSkinToggleUI"))
+		end
+
+		slot0.changeSkinToggle:setSkinData(slot0.skin.id)
+	end
+
 	slot0:FlushTags(slot1:getConfig("tag"))
+end
+
+slot0.changeSkinNext = function(slot0)
+	if ShipGroup.GetChangeSkinData(slot0.skin.id) then
+		slot0:Update(ShipSkin.New({
+			id = ShipGroup.GetChangeSkinNextId(slot0.skin.id)
+		}), slot0.index)
+	end
 end
 
 slot0.FlushTags = function(slot0, slot1)
