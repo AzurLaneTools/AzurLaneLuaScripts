@@ -4,9 +4,9 @@ return {
 	cd = 0,
 	picture = "0",
 	desc = "",
-	painting = 0,
+	painting = 1,
 	id = 150880,
-	castCV = "",
+	castCV = "skill",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

@@ -130729,7 +130729,6 @@ _G.pg.base.task_data_template[21121] = {
 	sub_type = 30,
 	task_fold = 0,
 	story_icon = "",
-	scene = "",
 	quick_finish = 0,
 	level = 1,
 	award_choice = "",
@@ -130754,6 +130753,9 @@ _G.pg.base.task_data_template[21121] = {
 			65514,
 			1
 		}
+	},
+	scene = {
+		"GETBOAT"
 	}
 }
 
@@ -130811,7 +130813,6 @@ _G.pg.base.task_data_template[21123] = {
 	sub_type = 20,
 	task_fold = 0,
 	story_icon = "",
-	scene = "",
 	quick_finish = 0,
 	level = 1,
 	award_choice = "",
@@ -130842,6 +130843,9 @@ _G.pg.base.task_data_template[21123] = {
 			65516,
 			1
 		}
+	},
+	scene = {
+		"ACT_BOSS_BATTLE"
 	}
 }
 
