@@ -252,9 +252,9 @@ slot0.getShips = function(slot0, slot1)
 			table.insert(uv0, slot0)
 		end)
 	elseif slot3 == FleetType.Support then
-		for slot7, slot8 in pairs(slot0.ships) do
-			table.insert(slot2, slot8)
-		end
+		_.each(slot0:getShipsByTeam(TeamType.Main, slot1), function (slot0)
+			table.insert(uv0, slot0)
+		end)
 	end
 
 	return slot2
