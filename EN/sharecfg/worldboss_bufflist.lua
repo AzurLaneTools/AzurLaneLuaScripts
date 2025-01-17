@@ -70,7 +70,7 @@ pg.worldboss_bufflist = {
 		bonus = "0.03",
 		id = 1009,
 		buff_target = 1,
-		desc = "When an enemy Flagship drops below 20% HP, it will generate a permanent shield that can block incoming bullets"
+		desc = "When an enemy Flagship drops below 20% HP, it will generate a permanent shield that blocks bullets"
 	},
 	[1010] = {
 		buff_icon = "1010",
