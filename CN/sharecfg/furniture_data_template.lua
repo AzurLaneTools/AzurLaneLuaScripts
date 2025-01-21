@@ -160114,8 +160114,8 @@ pg.base.furniture_data_template = {
 		id = 318105,
 		comfortable = 2,
 		size = {
-			0,
-			0
+			2,
+			2
 		},
 		offset = {},
 		canputonGrid = {},
