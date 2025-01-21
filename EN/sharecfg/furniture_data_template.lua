@@ -150641,8 +150641,8 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		id = 318105,
 		comfortable = 2,
 		size = {
-			0,
-			0
+			2,
+			2
 		},
 		offset = {},
 		canputonGrid = {},
