@@ -9606,6 +9606,29 @@ _G.pg.base.gametip.ship_remould_warning_506114 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_506124 = {
+	tip = "此次改造操作后<color=#92fc63>【第一武器栏位可以装备战斗机】【第二武器栏位可装备任意类型舰载机】</color>、<color=#92fc63>【第一武器栏位、第二武器栏位位武器效率+10%】</color>\n是否确认继续操作？"
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_520024 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（先锋舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_521024 = {
+	tip = [[
+此次改造操作后舰艇类型变化为：
+导弹驱逐舰（主力舰队模式）
+舰船数值及特性将有部分调整
+是否确认继续操作？]]
+}
+
+
 _G.pg.base.gametip.word_soundfiles_download_title = {
 	tip = "보이스 갱신"
 }
@@ -12564,6 +12587,11 @@ _G.pg.base.gametip.tec_catchup_4 = {
 
 _G.pg.base.gametip.tec_catchup_5 = {
 	tip = "제5기"
+}
+
+
+_G.pg.base.gametip.tec_catchup_6 = {
+	tip = "六期"
 }
 
 
@@ -36293,4 +36321,9 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "친밀도가 최대치에 달했습니다. 선물을 줘도 친밀도는 상승하지 않습니다. 선물하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.please_input_1_99 = {
+	tip = "请输入1~99"
 }

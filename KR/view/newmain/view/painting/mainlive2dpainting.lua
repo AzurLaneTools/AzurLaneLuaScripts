@@ -38,6 +38,12 @@ slot0.OnLoad = function(slot0, slot1)
 	}), function (slot0)
 		uv0:AdJustOrderInLayer(slot0)
 		uv1()
+
+		if uv0._initTriggerAction then
+			uv0:TriggerEvent(uv0._initTriggerAction)
+
+			uv0._initTriggerAction = nil
+		end
 	end)
 	slot0.shipGroup = getProxy(CollectionProxy):getShipGroup(slot0.ship.groupId)
 
@@ -216,6 +222,28 @@ slot0.RemoveSeTimer = function(slot0)
 		slot0.seTimer:Stop()
 
 		slot0.seTimer = nil
+	end
+end
+
+slot0.PlayChangeSkinActionIn = function(slot0, slot1)
+	if slot0.live2dChar:IsLoaded() then
+		slot0:TriggerEvent("event_login")
+	else
+		slot0._initTriggerAction = "event_login"
+	end
+
+	if slot1 and slot1.callback then
+		slot1.callback({
+			flag = true
+		})
+	end
+end
+
+slot0.PlayChangeSkinActionOut = function(slot0, slot1)
+	if slot1 and slot1.callback then
+		slot1.callback({
+			flag = true
+		})
 	end
 end
 

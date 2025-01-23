@@ -67,8 +67,23 @@ slot0.didEnter = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			GetImageSpriteFromAtlasAsync("extra_page/" .. uv2.style .. "/i_" .. slot3, "", slot2:Find("unselected/icon"))
 			GetImageSpriteFromAtlasAsync("extra_page/" .. uv2.style .. "/i_" .. slot3, "", slot2:Find("selected/icon"))
+
+			if slot1 == 5 then
+				slot2:Find("unselected/icon"):GetComponent("Image"):SetNativeSize()
+
+				slot2:Find("unselected/icon"):GetComponent("Image").rectTransform.sizeDelta = Vector2(96, 228)
+				slot2:Find("unselected/icon"):GetComponent("Image").rectTransform.anchoredPosition = Vector2(0, -20)
+			end
+
 			onToggle(uv2, slot2, function (slot0)
 				if slot0 and uv0.selectTarget ~= uv1 then
+					if uv1 == 5 then
+						uv2:Find("unselected/icon"):GetComponent("Image"):SetNativeSize()
+
+						uv2:Find("unselected/icon"):GetComponent("Image").rectTransform.sizeDelta = Vector2(96, 228)
+						uv2:Find("unselected/icon"):GetComponent("Image").rectTransform.anchoredPosition = Vector2(0, -20)
+					end
+
 					LeanTween.cancel(uv0.print)
 
 					if uv0.rtName then

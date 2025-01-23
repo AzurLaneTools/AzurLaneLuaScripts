@@ -5,6 +5,12 @@ slot0.ON_TASK_SUBMIT = "ON_TASK_SUBMIT"
 slot0.register = function(slot0)
 	slot0:BindEvent()
 	slot0.viewComponent:SetMedalGroupData(getProxy(PlayerProxy):getRawData():getActivityMedalGroup())
+
+	if slot0:GetContext().parent.mediator.__cname == "WorldMediaCollectionMediator" then
+		slot0.viewComponent:ShowPageBtn(true)
+	else
+		slot0.viewComponent:ShowPageBtn(false)
+	end
 end
 
 slot0.BindEvent = function(slot0)

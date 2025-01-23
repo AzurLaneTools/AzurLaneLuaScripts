@@ -1197,6 +1197,10 @@ slot0.UpdateContent = function(slot0, slot1, slot2)
 		uv1()
 	end
 
+	slot7 = slot1
+
+	setActive(slot0.dialoguePanel, not slot1.ShouldHideDialogue(slot7))
+
 	for slot7, slot8 in ipairs(slot0.tags) do
 		setActive(slot8, slot7 == slot1:GetTag())
 	end

@@ -76,6 +76,16 @@ pg.activity_banner_notice = {
 			{}
 		}
 	},
+	{
+		id = 11,
+		param = {
+			"scene get boat",
+			{
+				projectName = "light",
+				page = 1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -86,6 +96,7 @@ pg.activity_banner_notice = {
 		7,
 		8,
 		9,
-		10
+		10,
+		11
 	}
 }

@@ -488,6 +488,14 @@ temp = function()
 			this = true
 		},
 		["슌"] = {
+			this = true,
+			["·"] = {
+				["改"] = {
+					this = true
+				}
+			}
+		},
+		["보"] = {
 			this = true
 		}
 	}
@@ -952,6 +960,9 @@ temp = function()
 				}
 			},
 			["치"] = {
+				this = true
+			},
+			["롱"] = {
 				this = true
 			}
 		},
@@ -5934,6 +5945,9 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["펑"] = {
+			this = true
 		}
 	}
 end
@@ -6007,6 +6021,11 @@ temp = function()
 	uv0["지"] = {
 		["안"] = {
 			this = true
+		},
+		["엔"] = {
+			["우"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6027,7 +6046,12 @@ temp = function()
 	uv0["화"] = {
 		["지"] = {
 			["아"] = {
-				this = true
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["이"] = {

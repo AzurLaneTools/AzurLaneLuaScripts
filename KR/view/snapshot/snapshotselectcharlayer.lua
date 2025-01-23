@@ -258,7 +258,7 @@ slot3 = function(slot0)
 
 	if getProxy(CollectionProxy):getShipGroup(slot0) then
 		for slot9, slot10 in ipairs(ShipGroup.getSkinList(slot0)) do
-			if slot10.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(slot3, slot10.id) or slot10.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot4.trans or slot10.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot4.married == 1 then
+			if slot10.skin_type == ShipSkin.SKIN_TYPE_DEFAULT or table.contains(slot3, slot10.id) or slot10.skin_type == ShipSkin.SKIN_TYPE_REMAKE and slot4.trans or slot10.skin_type == ShipSkin.SKIN_TYPE_PROPOSE and slot4.married == 1 or slot2:hasSkin(slot10.id) then
 				slot1[slot10.id] = true
 			end
 		end

@@ -4,7 +4,10 @@ slot0.FRAME_TASK_TIME_OUT = "frame task time out"
 
 slot0.register = function(slot0)
 	slot0.avatarFrames = {}
-	slot0.actTasks = {}
+end
+
+slot0.clearData = function(slot0)
+	slot0.avatarFrames = {}
 end
 
 slot0.initListData = function(slot0, slot1, slot2, slot3)

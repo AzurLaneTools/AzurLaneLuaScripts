@@ -114,7 +114,21 @@ slot0.removeSkinById = function(slot0, slot1)
 end
 
 slot0.hasSkin = function(slot0, slot1)
+	if ShipGroup.IsChangeSkin(slot1) then
+		return slot0:hasChangeSkin(ShipGroup.GetChangeSkinGroupId(slot1))
+	end
+
 	return slot0.skins[slot1] ~= nil
+end
+
+slot0.hasChangeSkin = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.skins) do
+		if slot6:IsChangeSkin() and ShipGroup.GetChangeSkinGroupId(slot5) == slot1 then
+			return true
+		end
+	end
+
+	return false
 end
 
 slot0.hasNonLimitSkin = function(slot0, slot1)
@@ -324,6 +338,18 @@ slot0.GetAllSkinForShip = function(slot0, slot1)
 		end
 	end
 
+	for slot7 = #slot3, 1, -1 do
+		if slot3[slot7] and slot8.change_skin and slot8.change_skin.group then
+			if ShipGroup.GetStoreChangeSkinId(slot8.change_skin.group, slot1.id) and slot10 ~= slot8.id then
+				print("有缓存的id = " .. slot10 .. "移除了id" .. slot8.id)
+				table.remove(slot3, slot7)
+			elseif not slot10 and slot8.change_skin.index ~= 1 then
+				print("没有缓存的id ，" .. "移除了id" .. slot8.id)
+				table.remove(slot3, slot7)
+			end
+		end
+	end
+
 	return slot3
 end
 
@@ -399,6 +425,12 @@ slot0.GetAllSkinForARCamera = function(slot0, slot1)
 			if not slot0:hasSkin(slot2[slot7].id) and slot0:InForbiddenSkinListAndHide(slot8) then
 				table.remove(slot2, slot7)
 			end
+		end
+	end
+
+	for slot7 = #slot2, 1, -1 do
+		if slot2[slot7] and slot8.change_skin and slot8.change_skin.index and slot8.change_skin.index ~= 1 then
+			table.remove(slot2, slot7)
 		end
 	end
 

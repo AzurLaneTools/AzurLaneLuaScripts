@@ -1699,5 +1699,13 @@ pg.voice_actor_CN = {
 	[438] = {
 		actor_name = "테라사와 모모카",
 		code = 438
+	},
+	[439] = {
+		actor_name = "水野朔",
+		code = 439
+	},
+	[440] = {
+		actor_name = "咲川雏乃",
+		code = 440
 	}
 }

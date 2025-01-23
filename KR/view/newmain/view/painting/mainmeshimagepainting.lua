@@ -67,6 +67,22 @@ slot0.GetCenterPos = function(slot0)
 	end
 end
 
+slot0.PlayChangeSkinActionIn = function(slot0, slot1)
+	if slot1 and slot1.callback then
+		slot1.callback({
+			flag = true
+		})
+	end
+end
+
+slot0.PlayChangeSkinActionOut = function(slot0, slot1)
+	if slot1 and slot1.callback then
+		slot1.callback({
+			flag = true
+		})
+	end
+end
+
 slot0.InitSpecialTouch = function(slot0)
 	if not findTF(findTF(slot0.container, "fitter"):GetChild(0), "Touch") then
 		return

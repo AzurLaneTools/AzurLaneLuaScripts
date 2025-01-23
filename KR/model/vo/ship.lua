@@ -57,6 +57,20 @@ skinId2bgPrint = function(slot0)
 	end
 end
 
+slot0.useSkin = function(slot0, slot1)
+	if slot0.skinId == slot1 then
+		return true
+	end
+
+	slot3 = ShipGroup.GetChangeSkinGroupId(slot1)
+
+	if ShipGroup.GetChangeSkinGroupId(slot0.skinId) and slot3 and slot2 == slot3 then
+		return true
+	end
+
+	return false
+end
+
 slot0.rarity2bgPrint = function(slot0)
 	return shipRarity2bgPrint(slot0:getRarity(), slot0:isBluePrintShip(), slot0:isMetaShip())
 end
@@ -426,16 +440,17 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot0.maxIntimacy = pg.intimacy_template[#pg.intimacy_template.all].upper_bound
+	slot6 = 0
 
 	if not HXSet.isHxSkin() then
-		slot0.skinId = slot1.skin_id or 0
-	else
-		slot0.skinId = 0
+		slot6 = slot1.skin_id or 0
 	end
 
-	if slot0.skinId == 0 then
-		slot0.skinId = slot0:getConfig("skin_id")
+	if slot6 == 0 then
+		slot6 = slot0:getConfig("skin_id")
 	end
+
+	slot0:updateSkinId(slot6)
 
 	if slot1.name and slot1.name ~= "" then
 		slot0.name = slot1.name
@@ -516,8 +531,20 @@ slot0.isBluePrintShip = function(slot0)
 	return slot0.bluePrintFlag == 1
 end
 
+slot0.getSkinId = function(slot0)
+	return slot0.skinId
+end
+
 slot0.updateSkinId = function(slot0, slot1)
-	slot0.skinId = slot1
+	if not slot1 or slot1 == 0 then
+		slot1 = slot0:getConfig("skin_id")
+	end
+
+	if ShipGroup.GetChangeSkinGroupId(slot1) then
+		slot0.skinId = ShipGroup.GetStoreChangeSkinId(slot2, slot0.id) and slot3 or slot1
+	else
+		slot0.skinId = slot1
+	end
 end
 
 slot0.updateName = function(slot0)

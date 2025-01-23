@@ -1910,7 +1910,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 459
+		key_value = 465
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -1981,6 +1981,10 @@ pg.gameset = {
 			},
 			{
 				20105,
+				10000
+			},
+			{
+				20106,
 				10000
 			}
 		}
