@@ -140,10 +140,16 @@ slot0.SetDefaultSide = function(slot0)
 end
 
 slot0.GetBgName = function(slot0)
-	if slot0.dynamicBgType and slot0.dynamicBgType == uv0.ACTOR_TYPE_TB and getProxy(EducateProxy) and not pg.NewStoryMgr.GetInstance():IsReView() then
-		slot1, slot2, slot3 = getProxy(EducateProxy):GetStoryInfo()
+	if slot0.dynamicBgType and slot0.dynamicBgType == uv0.ACTOR_TYPE_TB and getProxy(EducateProxy) and getProxy(NewEducateProxy) and not pg.NewStoryMgr.GetInstance():IsReView() then
+		slot1 = ""
 
-		return slot0:Convert2StoryBg(slot3)
+		if not getProxy(NewEducateProxy):GetCurChar() then
+			slot2, slot3, slot1 = getProxy(EducateProxy):GetStoryInfo()
+		else
+			slot2, slot3, slot1 = getProxy(NewEducateProxy):GetStoryInfo()
+		end
+
+		return slot0:Convert2StoryBg(slot1)
 	else
 		return uv0.super.GetBgName(slot0)
 	end
@@ -496,6 +502,8 @@ slot0.GetPaintingAndName = function(slot0)
 
 			slot1 = slot3.name or ""
 			slot2 = slot3.prefab
+		elseif getProxy(NewEducateProxy) and getProxy(NewEducateProxy):GetCurChar() then
+			slot2, slot1 = getProxy(NewEducateProxy):GetStoryInfo()
 		elseif EducateProxy and getProxy(EducateProxy) then
 			slot2, slot1 = getProxy(EducateProxy):GetStoryInfo()
 		else

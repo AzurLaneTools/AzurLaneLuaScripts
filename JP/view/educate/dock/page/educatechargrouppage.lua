@@ -10,7 +10,8 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.confirmBtn = findTF(slot1, "confirm_btn")
 	slot0.cancelBtn = findTF(slot1, "cancel_btn")
 	slot0.uiItemList = UIItemList.New(findTF(slot1, "main/list"), findTF(slot1, "main/list/tpl"))
-	slot0.profileBtn = findTF(slot1, "left/icon")
+	slot0.tabItemList = UIItemList.New(findTF(slot1, "tab/list"), findTF(slot1, "tab/list/tpl"))
+	slot0.profileBtn = findTF(slot1, "right/icon")
 	slot0.animation = slot1:GetComponent(typeof(Animation))
 	slot0.dftAniEvent = slot1:GetComponent(typeof(DftAniEvent))
 	slot0.timers = {}
@@ -20,7 +21,7 @@ end
 
 slot0.RegisterEvent = function(slot0)
 	onButton(slot0, slot0.profileBtn, function ()
-		uv0:emit(EducateCharDockMediator.GO_PROFILE)
+		uv0:emit(EducateCharDockMediator.GO_PROFILE, uv0.selectedCharacterId)
 	end, SFX_PANEL)
 	slot0:bind(EducateCharDockScene.MSG_CLEAR_TIP, function (slot0, slot1)
 		uv0:FlushList(uv0.selectedId)
@@ -28,7 +29,10 @@ slot0.RegisterEvent = function(slot0)
 end
 
 slot0.Update = function(slot0)
+	slot0:InitData()
+	slot0:InitTabs()
 	slot0:InitList()
+	slot0:CheckChangeFormShop()
 end
 
 slot0.Show = function(slot0)
@@ -44,10 +48,82 @@ slot0.GetSelectedId = function(slot0)
 	return getProxy(PlayerProxy):getRawData():GetEducateCharacter()
 end
 
+slot0.GetSelectedCharacterId = function(slot0)
+	slot1 = slot0:GetSelectedId()
+
+	if slot0.contextData.tbSkinId then
+		slot1 = NewEducateHelper.GetSecIdBySkinId(slot0.contextData.tbSkinId)
+	end
+
+	for slot5, slot6 in ipairs(slot0.characterList) do
+		if slot6:IsSelected(slot1) then
+			return slot5
+		end
+	end
+
+	for slot5, slot6 in ipairs(slot0.characterList) do
+		if not slot6:IsLock() then
+			return slot5
+		end
+	end
+end
+
+slot0.InitData = function(slot0)
+	slot0.characterList = NewEducateHelper.GetEducateCharacterList()
+	slot0.selectedCharacterId = slot0:GetSelectedCharacterId()
+	slot0.selectedId = slot0:GetSelectedId()
+end
+
+slot0.CheckChangeFormShop = function(slot0)
+	if not slot0.contextData.tbSkinId then
+		return
+	end
+
+	slot2 = slot0.characterList[slot0.selectedCharacterId].id
+	slot3 = pg.secretary_special_ship[NewEducateHelper.GetSecIdBySkinId(slot0.contextData.tbSkinId)].group
+
+	for slot7, slot8 in ipairs(slot0.characterList) do
+		if slot8.id == slot2 then
+			slot0:emit(EducateCharDockScene.ON_SELECT, slot8:GetGroupById(slot3), slot0.selectedId)
+
+			return
+		end
+	end
+end
+
+slot0.InitTabs = function(slot0)
+	slot0.tabItemList:make(function (slot0, slot1, slot2)
+		slot4 = uv0.characterList[slot1 + 1]
+
+		if slot0 == UIItemList.EventUpdate then
+			setActive(slot2:Find("lock"), slot4:IsLock())
+			setActive(slot2:Find("border/selected"), slot3 == uv0.selectedCharacterId)
+			setActive(slot2:Find("border/normal"), slot3 ~= uv0.selectedCharacterId)
+			setActive(slot2:Find("tip"), slot4:ShouldTip())
+		elseif slot0 == UIItemList.EventInit then
+			GetImageSpriteFromAtlasAsync("qicon/" .. slot4:GetDefaultFrame(), "", slot2:Find("frame"))
+			onButton(uv0, slot2, function ()
+				if uv0:IsLock() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("secretary_special_character_unlock"))
+
+					return
+				end
+
+				if uv1 ~= uv2.selectedCharacterId then
+					uv2.selectedCharacterId = uv1
+
+					uv2.tabItemList:align(#uv2.characterList)
+					uv2:InitList()
+				end
+			end)
+		end
+	end)
+	slot0.tabItemList:align(#slot0.characterList)
+end
+
 slot0.InitList = function(slot0)
 	slot0.cards = {}
-	slot0.selectedId = slot0:GetSelectedId()
-	slot1 = getProxy(EducateProxy):GetEducateGroupList()
+	slot1 = slot0.characterList[slot0.selectedCharacterId]:GetGroupList()
 
 	table.sort(slot1, function (slot0, slot1)
 		return slot0:GetSortWeight() < slot1:GetSortWeight()
@@ -69,18 +145,34 @@ end
 slot0.FlushList = function(slot0, slot1)
 	slot0.selectedId = slot1
 
-	for slot5, slot6 in pairs(slot0.cards) do
-		slot0:UpdateCard(slot5, slot6)
-	end
+	slot0:InitList()
+	slot0.tabItemList:align(#slot0.characterList)
 end
 
 slot0.InitCard = function(slot0, slot1, slot2, slot3)
 	slot4 = slot1:Find("anim_root")
-	slot5 = slot4:Find("label/Text"):GetComponent(typeof(Image))
-	slot5.sprite = GetSpriteFromAtlas("ui/EducateDockUI_atlas", slot2:GetSpriteName())
+	slot5 = slot2:IsSp()
 
-	slot5:SetNativeSize()
-	setPaintingPrefab(slot4:Find("mask/painting"), slot2:GetShowPainting(), "tb2")
+	setActive(slot4:Find("bg"), not slot5)
+	setActive(slot4:Find("sp_bg"), slot5)
+	setActive(slot4:Find("mask"), not slot5)
+	setActive(slot4:Find("sp_mask"), slot5)
+	setActive(slot4:Find("sp"), slot5)
+	setActive(slot4:Find("label"), not slot5)
+	setActive(slot4:Find("sp_label"), slot5)
+
+	slot6 = slot2:GetShowPainting()
+
+	if slot5 then
+		setPaintingPrefabAsync(slot4:Find("sp_mask/painting"), slot6, "tb2")
+	else
+		slot7 = slot4:Find("label/Text"):GetComponent(typeof(Image))
+		slot7.sprite = GetSpriteFromAtlas("ui/EducateDockUI_atlas", slot2:GetSpriteName())
+
+		slot7:SetNativeSize()
+		setPaintingPrefabAsync(slot4:Find("mask/painting"), slot6, "tb2")
+	end
+
 	onButton(slot0, slot4, function ()
 		if uv0.doAnim then
 			return
@@ -117,7 +209,7 @@ slot0.UpdateCard = function(slot0, slot1, slot2)
 
 	setActive(slot3:Find("lock"), slot2:IsLock())
 	setActive(slot3:Find("mark"), slot2:IsSelected(slot0.selectedId))
-	setText(slot3:Find("lock/desc/Text"), slot2:GetUnlockDesc())
+	setScrollText(slot3:Find("lock/desc/Text"), slot2:GetUnlockDesc())
 	setActive(slot3:Find("tip"), slot2:ShouldTip())
 end
 
@@ -136,7 +228,7 @@ slot0.Destroy = function(slot0)
 	slot2 = slot0.cards or {}
 
 	for slot4, slot5 in slot1(slot2) do
-		retPaintingPrefab(slot4:Find("mask/painting"), slot5:GetShowPainting())
+		retPaintingPrefab(slot5:IsSp() and slot4:Find("sp_mask/painting") or slot4:Find("mask/painting"), slot5:GetShowPainting())
 	end
 
 	pg.DelegateInfo.Dispose(slot0)

@@ -937,16 +937,23 @@ end
 
 slot0.UpdateEducateCharTip = function(slot0, slot1)
 	slot2 = getProxy(PlayerProxy):getRawData().id
-	slot3 = getProxy(EducateProxy):GetSecretaryIDs()
+	slot3 = NewEducateHelper.GetAllUnlockSecretaryIds()
 	slot4 = {}
+	slot5 = ipairs
+	slot6 = slot1 or {}
 
-	for slot8, slot9 in ipairs(slot1) do
+	for slot8, slot9 in slot5(slot6) do
 		slot4[slot9] = true
 	end
 
-	for slot8, slot9 in ipairs(slot3) do
-		if slot4[slot9] ~= true then
-			PlayerPrefs.SetInt(slot2 .. "educate_char_tip" .. slot9, 1)
+	slot5 = ipairs
+	slot6 = slot3 or {}
+
+	for slot8, slot9 in slot5(slot6) do
+		slot10 = slot2 .. "educate_char_tip" .. slot9
+
+		if slot4[slot9] ~= true and PlayerPrefs.GetInt(slot10, 1) == 1 then
+			PlayerPrefs.SetInt(slot10, 1)
 			PlayerPrefs.Save()
 		end
 	end
@@ -963,7 +970,7 @@ slot0.RefillEducateCharTipList = function(slot0)
 	end
 
 	slot3 = ipairs
-	slot4 = getProxy(EducateProxy):GetSecretaryIDs() or {}
+	slot4 = NewEducateHelper.GetAllUnlockSecretaryIds() or {}
 
 	for slot6, slot7 in slot3(slot4) do
 		if PlayerPrefs.GetInt(slot1 .. "educate_char_tip" .. slot7, 0) == 1 then
@@ -973,11 +980,17 @@ slot0.RefillEducateCharTipList = function(slot0)
 end
 
 slot0.ShouldEducateCharTip = function(slot0)
+	if NewEducateHelper.GetEducateCharSlotMaxCnt() == 0 then
+		return false
+	end
+
 	if not slot0.educateCharTipList or #slot0.educateCharTipList == 0 then
 		slot0:RefillEducateCharTipList()
 	end
 
-	return #slot0.educateCharTipList > 0
+	return _.any(slot0.educateCharTipList, function (slot0)
+		return NewEducateHelper.IsUnlockDefaultShip(slot0)
+	end)
 end
 
 slot0._ShouldEducateCharTip = function(slot0, slot1)
@@ -985,7 +998,7 @@ slot0._ShouldEducateCharTip = function(slot0, slot1)
 		slot0:RefillEducateCharTipList()
 	end
 
-	if table.contains(slot0.educateCharTipList, slot1) then
+	if table.contains(slot0.educateCharTipList, slot1) and NewEducateHelper.IsUnlockDefaultShip(slot1) then
 		return true
 	end
 
@@ -1000,7 +1013,7 @@ slot0.ClearEducateCharTip = function(slot0, slot1)
 	table.removebyvalue(slot0.educateCharTipList, slot1)
 
 	if PlayerPrefs.HasKey(getProxy(PlayerProxy):getRawData().id .. "educate_char_tip" .. slot1) then
-		PlayerPrefs.DeleteKey(slot3)
+		PlayerPrefs.SetInt(slot3, 0)
 		PlayerPrefs.Save()
 	end
 

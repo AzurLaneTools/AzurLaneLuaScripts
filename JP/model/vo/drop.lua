@@ -160,14 +160,22 @@ slot0.InitSwitch = function()
 			return slot1
 		end,
 		[DROP_TYPE_SKIN] = function (slot0)
-			slot2, slot3, slot0.desc = ShipWordHelper.GetWordAndCV(slot0.id, ShipWordHelper.WORD_TYPE_DROP)
+			if pg.ship_skin_template[slot0.id].skin_type == ShipSkin.SKIN_TYPE_TB then
+				slot2, slot3, slot0.desc = EducateCharWordHelper.GetWordAndCV(NewEducateHelper.GetSecIdBySkinId(slot0.id), EducateCharWordHelper.WORD_KEY_LOGIN)
+			else
+				slot2, slot3, slot0.desc = ShipWordHelper.GetWordAndCV(slot0.id, ShipWordHelper.WORD_TYPE_DROP)
+			end
 
-			return pg.ship_skin_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_SKIN_TIMELIMIT] = function (slot0)
-			slot2, slot3, slot0.desc = ShipWordHelper.GetWordAndCV(slot0.id, ShipWordHelper.WORD_TYPE_DROP)
+			if pg.ship_skin_template[slot0.id].skin_type == ShipSKin.SKIN_TYPE_TB then
+				slot2, slot3, slot0.desc = EducateCharWordHelper.GetWordAndCV(NewEducateHelper.GetSecIdBySkinId(slot0.id), EducateCharWordHelper.WORD_KEY_LOGIN)
+			else
+				slot2, slot3, slot0.desc = ShipWordHelper.GetWordAndCV(slot0.id, ShipWordHelper.WORD_TYPE_DROP)
+			end
 
-			return pg.ship_skin_template[slot0.id]
+			return slot1
 		end,
 		[DROP_TYPE_EQUIPMENT_SKIN] = function (slot0)
 			slot1 = pg.equip_skin_template[slot0.id]

@@ -52,7 +52,7 @@ slot0.init = function(slot0)
 	end, SFX_PANEL)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		groupName = slot0:getGroupNameFromData(),
-		weight = slot0:getWeightFromData() + 2
+		weight = LayerWeightConst.SECOND_LAYER + 2
 	})
 end
 

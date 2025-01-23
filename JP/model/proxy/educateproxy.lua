@@ -146,6 +146,15 @@ slot0.SetEndings = function(slot0, slot1)
 	slot0:updateSecretaryIDs()
 end
 
+slot0.GetSelectInfo = function(slot0)
+	return {
+		bg = slot0.char:GetBGName(),
+		name = slot0.char:GetName(),
+		gameCnt = slot0.gameCount,
+		progressStr = slot0.isUnlockSecretary and EducateHelper.GetShowMonthNumber(slot0.curTime.month) .. i18n("word_month") .. i18n("word_which_week", slot0.curTime.week) or i18n("child2_not_start")
+	}
+end
+
 slot0.IsFirstGame = function(slot0)
 	return slot0.gameCount == 1
 end
@@ -301,7 +310,6 @@ slot0.AddEnding = function(slot0, slot1)
 
 	table.insert(slot0.endings, slot1)
 	slot0:updateSecretaryIDs()
-	getProxy(SettingsProxy):UpdateEducateCharTip(Clone(slot0:GetSecretaryIDs()))
 	slot0:sendNotification(uv0.ENDING_ADDED)
 end
 
@@ -508,7 +516,6 @@ slot0.AddPolaroid = function(slot0, slot1)
 
 	EducateTipHelper.SetNewTip(EducateTipHelper.NEW_POLAROID)
 	slot0:updateSecretaryIDs()
-	getProxy(SettingsProxy):UpdateEducateCharTip(Clone(slot0:GetSecretaryIDs()))
 	slot0:sendNotification(uv0.POLAROID_ADDED)
 end
 
@@ -645,13 +652,14 @@ slot0.updateSecretaryIDs = function(slot0)
 		return
 	end
 
+	slot1 = Clone(NewEducateHelper.GetAllUnlockSecretaryIds())
 	slot0.unlockSecretaryIds = {}
-	slot1 = #slot0:GetPolaroidIdList()
+	slot2 = #slot0:GetPolaroidIdList()
 
-	for slot5, slot6 in ipairs(pg.secretary_special_ship.all) do
-		slot8 = pg.secretary_special_ship[slot6].unlock
+	for slot6, slot7 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[0]) do
+		slot9 = pg.secretary_special_ship[slot7].unlock
 
-		switch(pg.secretary_special_ship[slot6].unlock_type, {
+		switch(pg.secretary_special_ship[slot7].unlock_type, {
 			[EducateConst.SECRETARY_UNLCOK_TYPE_DEFAULT] = function ()
 				if uv0:IsUnlockSecretary() then
 					table.insert(uv0.unlockSecretaryIds, uv1)
@@ -672,9 +680,18 @@ slot0.updateSecretaryIDs = function(slot0)
 						table.insert(uv1.unlockSecretaryIds, uv2)
 					end
 				end
+			end,
+			[EducateConst.SECRETARY_UNLCOK_TYPE_SHOP] = function ()
+				if uv0[1] and getProxy(ShipSkinProxy):hasSkin(uv0[1]) then
+					table.insert(uv1.unlockSecretaryIds, uv2)
+				end
+			end,
+			[EducateConst.SECRETARY_UNLCOK_TYPE_STORY] = function ()
 			end
 		})
 	end
+
+	getProxy(SettingsProxy):UpdateEducateCharTip(slot1)
 end
 
 slot0.GetEducateGroupList = function(slot0)

@@ -169682,6 +169682,31 @@ _G.pg.base.item_virtual_data_statistics[65073] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65074] = {
+	drop_gold_max = 0,
+	name = "進捗Pt",
+	display = "キャンペーン「シーズン任務」で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7021,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65074,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "レジスタンス記念勲章",
@@ -170294,6 +170319,356 @@ _G.pg.base.item_virtual_data_statistics[65520] = {
 		},
 		1
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65521] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅰ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65521,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65522] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅱ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65522,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65523] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅲ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65523,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65524] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅳ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_14",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65524,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65525] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅴ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_17",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65525,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65526] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅵ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65526,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65527] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅶ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65527,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65528] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅷ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65528,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65529] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅸ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_9",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65529,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65530] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅹ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_10",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65530,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65531] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅺ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_13",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65531,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65532] = {
+	drop_gold_max = 0,
+	name = "新春花火・Ⅻ",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_18",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65532,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65533] = {
+	drop_gold_max = 0,
+	name = "掉落用烟花",
+	display = "不会被看见，转换用",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_13",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65533,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65534] = {
+	drop_gold_max = 0,
+	name = "花火大会雰囲気Pt",
+	display = "「母港花火大会」のイベントアイテム。イベント終了後に削除されます。",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65534",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65534,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -176974,6 +177349,60 @@ _G.pg.base.item_virtual_data_statistics[86210] = {
 		{
 			501091,
 			1800
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86211] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86211,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			499033,
+			1500
+		},
+		{
+			905014,
+			1500
+		},
+		{
+			105173,
+			1500
+		},
+		{
+			702062,
+			1500
+		},
+		{
+			802022,
+			1450
+		},
+		{
+			301132,
+			1290
+		},
+		{
+			603043,
+			1260
 		}
 	}
 }

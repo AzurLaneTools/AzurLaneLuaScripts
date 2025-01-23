@@ -2441,7 +2441,74 @@ pg.activity_ins_chat_language = setmetatable({
 		2438,
 		2439,
 		2440,
-		2441
+		2441,
+		2442,
+		2443,
+		2444,
+		2445,
+		2446,
+		2447,
+		2448,
+		2449,
+		2450,
+		2451,
+		2452,
+		2453,
+		2454,
+		2455,
+		2456,
+		2457,
+		2458,
+		2459,
+		2460,
+		2461,
+		2462,
+		2463,
+		2464,
+		2465,
+		2466,
+		2467,
+		2468,
+		2469,
+		2470,
+		2471,
+		2472,
+		2473,
+		2474,
+		2475,
+		2476,
+		2477,
+		2478,
+		2479,
+		2480,
+		2481,
+		2482,
+		2483,
+		2484,
+		2485,
+		2486,
+		2487,
+		2488,
+		2489,
+		2490,
+		2491,
+		2492,
+		2493,
+		2494,
+		2495,
+		2496,
+		2497,
+		2498,
+		2499,
+		2500,
+		2501,
+		2502,
+		2503,
+		2504,
+		2505,
+		2506,
+		2507,
+		2508
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -18309,7 +18376,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"没受伤就好"
+				"なら良かった。"
 			}
 		}
 	},
@@ -24271,6 +24338,574 @@ pg.base.activity_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 2441,
+		flag = 7
+	},
+	[2442] = {
+		param = "新年快楽！！",
+		ship_group = 50103,
+		option = "",
+		type = 1,
+		id = 2442,
+		flag = 0
+	},
+	[2443] = {
+		param = "わああああ！新年だ！みんな新年快楽！",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 2443,
+		flag = 0
+	},
+	[2444] = {
+		param = "43",
+		ship_group = 50106,
+		option = "",
+		type = 4,
+		id = 2444,
+		flag = 0
+	},
+	[2445] = {
+		param = "みなさん、新年おめでとうございます〜",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2445,
+		flag = 0
+	},
+	[2446] = {
+		param = "45",
+		ship_group = 50210,
+		option = "",
+		type = 4,
+		id = 2446,
+		flag = 0
+	},
+	[2447] = {
+		param = "1000",
+		ship_group = 51901,
+		option = "1000",
+		type = 3,
+		id = 2447,
+		flag = 0
+	},
+	[2448] = {
+		param = "わ！！！紅包だ！！！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2448,
+		flag = 0
+	},
+	[2449] = {
+		param = "定安さん、ありがとうございます！",
+		ship_group = 50101,
+		type = 1,
+		id = 2449,
+		flag = 0,
+		option = {
+			{
+				1,
+				"みんな、新年おめでとう！"
+			},
+			{
+				2,
+				"紅包ありがとう！"
+			}
+		}
+	},
+	[2450] = {
+		param = "みんな、新年おめでとう！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2450,
+		flag = 1
+	},
+	[2451] = {
+		param = "紅包ありがとう！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2451,
+		flag = 2
+	},
+	[2452] = {
+		param = "みんな、新年おめでとう！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2452,
+		flag = 2
+	},
+	[2453] = {
+		param = "指揮官、新年おめでとうございます",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2453,
+		flag = 0
+	},
+	[2454] = {
+		param = "新しい一年がどうか順風満帆となりますようにお祈り申し上げます",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 2454,
+		flag = 0
+	},
+	[2455] = {
+		param = "さっき占ったけど、指揮官も皆も新しい一年では気運がますます良くなる結果が出たよ",
+		ship_group = 50401,
+		type = 1,
+		id = 2455,
+		flag = 0,
+		option = {
+			{
+				3,
+				"ありがたやありがたや"
+			},
+			{
+				4,
+				"皆にも……"
+			}
+		}
+	},
+	[2456] = {
+		param = "ありがたやありがたや。新年はきっと「大吉大利」だ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2456,
+		flag = 3
+	},
+	[2457] = {
+		param = "皆にも新年が「心想事成」、「万事順調」でありますように！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2457,
+		flag = 4
+	},
+	[2458] = {
+		param = "通知が止まらないと思ったら、もう0時を過ぎてたね！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2458,
+		flag = 0
+	},
+	[2459] = {
+		param = "指揮官、皆、新年快楽！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2459,
+		flag = 0
+	},
+	[2460] = {
+		param = "紅包を配るぞ！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2460,
+		flag = 0
+	},
+	[2461] = {
+		param = "1001",
+		ship_group = 59901,
+		option = "1001",
+		type = 3,
+		id = 2461,
+		flag = 0
+	},
+	[2462] = {
+		param = "運が一番良かった人が次の番だ！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2462,
+		flag = 0
+	},
+	[2463] = {
+		param = "50",
+		ship_group = 59901,
+		option = "",
+		type = 4,
+		id = 2463,
+		flag = 0
+	},
+	[2464] = {
+		param = "ああ！また取れなかった！",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 2464,
+		flag = 0
+	},
+	[2465] = {
+		param = "皆の反応が早すぎる……",
+		ship_group = 50203,
+		option = "",
+		type = 1,
+		id = 2465,
+		flag = 0
+	},
+	[2466] = {
+		param = "65",
+		ship_group = 50208,
+		option = "",
+		type = 4,
+		id = 2466,
+		flag = 0
+	},
+	[2467] = {
+		param = "誰が一番運が良かったの？！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2467,
+		flag = 0
+	},
+	[2468] = {
+		param = "この飛雲さまだ！",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 2468,
+		flag = 0
+	},
+	[2469] = {
+		param = "飛雲、紅包を頼むわね～",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 2469,
+		flag = 0
+	},
+	[2470] = {
+		param = "ちょっと待って！飛雲さまはまだ紅包の送り方を研究中だ！",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 2470,
+		flag = 0
+	},
+	[2471] = {
+		param = "わたしがなんとかしますね。ふふふ",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 2471,
+		flag = 0
+	},
+	[2472] = {
+		param = "飛雲、紅包まだ？",
+		ship_group = 50205,
+		option = "",
+		type = 1,
+		id = 2472,
+		flag = 0
+	},
+	[2473] = {
+		param = "44",
+		ship_group = 50205,
+		option = "",
+		type = 4,
+		id = 2473,
+		flag = 0
+	},
+	[2474] = {
+		param = "1002",
+		ship_group = 50108,
+		option = "1002",
+		type = 3,
+		id = 2474,
+		flag = 0
+	},
+	[2475] = {
+		param = "飛雲は方法が分からなかったみたいですので、わたしが代わりに送りましたよ～",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 2475,
+		flag = 0
+	},
+	[2476] = {
+		param = "総額はいくら？！って私6しか取れなかったけど！どんどん少なくなってるよ！！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2476,
+		flag = 0
+	},
+	[2477] = {
+		param = "214",
+		ship_group = 50102,
+		option = "",
+		type = 4,
+		id = 2477,
+		flag = 0
+	},
+	[2478] = {
+		param = "悪運も運のうちよ",
+		ship_group = 50401,
+		type = 1,
+		id = 2478,
+		flag = 0,
+		option = {
+			{
+				5,
+				"六六大順だ！"
+			},
+			{
+				6,
+				"みんな、紅包ありがとう！"
+			}
+		}
+	},
+	[2479] = {
+		param = "六六大順だ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2479,
+		flag = 5
+	},
+	[2480] = {
+		param = "六六大順、確かに縁起が良いですね～",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2480,
+		flag = 5
+	},
+	[2481] = {
+		param = "そういえば、指揮官も良い数字が出てましたね。資金88、ずばり「八八大發」です",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 2481,
+		flag = 5
+	},
+	[2482] = {
+		param = "みんな、紅包ありがとう！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2482,
+		flag = 6
+	},
+	[2483] = {
+		param = "どういたしまして。春節はみんなで運気を分け合うのが楽しいですから～",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 2483,
+		flag = 6
+	},
+	[2484] = {
+		param = "今回の一番運が良かったのは私ですから、次は私が配ります〜",
+		ship_group = 50602,
+		option = "",
+		type = 1,
+		id = 2484,
+		flag = 0
+	},
+	[2485] = {
+		param = "1003",
+		ship_group = 50602,
+		option = "1003",
+		type = 3,
+		id = 2485,
+		flag = 0
+	},
+	[2486] = {
+		param = "華甲ったら、わざとやったのですか？うっかりじゃないですよね～",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 2486,
+		flag = 0
+	},
+	[2487] = {
+		param = "もちろん、うっかりやってしまいました♪",
+		ship_group = 50602,
+		option = "",
+		type = 1,
+		id = 2487,
+		flag = 0
+	},
+	[2488] = {
+		param = "専属紅包ですか……じゃあ、私も負けてられないですね♪",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2488,
+		flag = 0
+	},
+	[2489] = {
+		param = "私が用意したのは実物の紅包ですよ～",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2489,
+		flag = 0
+	},
+	[2490] = {
+		param = "今すぐ指揮官に届けにいきますね♪",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2490,
+		flag = 0
+	},
+	[2491] = {
+		param = "実は私も用意してありますよ～",
+		ship_group = 50207,
+		option = "",
+		type = 1,
+		id = 2491,
+		flag = 0
+	},
+	[2492] = {
+		param = "私も！しかもデザインも流行りのものなの！",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 2492,
+		flag = 0
+	},
+	[2493] = {
+		param = "みんな実物を用意してあります、今から指揮官に紅包を届けに行きましょうか！",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 2493,
+		flag = 0
+	},
+	[2494] = {
+		param = "いいね！そのまま新年の挨拶を兼ねて！ハハッ！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2494,
+		flag = 0
+	},
+	[2495] = {
+		param = "深夜に新年の挨拶をするなんて初めて聞きましたけど……",
+		ship_group = 50301,
+		option = "",
+		type = 1,
+		id = 2495,
+		flag = 0
+	},
+	[2496] = {
+		param = "まあ、悪くありませんね。年の始まりは賑やかな方がいいですから",
+		ship_group = 50301,
+		option = "",
+		type = 1,
+		id = 2496,
+		flag = 0
+	},
+	[2497] = {
+		param = "夜食もちょうどできあがったところです！一緒に持って行きましょう！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2497,
+		flag = 0
+	},
+	[2498] = {
+		param = "えっ！？夜食まであるの！？",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 2498,
+		flag = 0
+	},
+	[2499] = {
+		param = "そうだよ！お姉ちゃんが特別にみんなのために用意した新年サプライズだ！",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 2499,
+		flag = 0
+	},
+	[2500] = {
+		param = "358",
+		ship_group = 50106,
+		option = "",
+		type = 4,
+		id = 2500,
+		flag = 0
+	},
+	[2501] = {
+		param = "そうそう、龍武がみんなのために豪華な新年夜食を用意してくれましたよ",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2501,
+		flag = 0
+	},
+	[2502] = {
+		param = "龍武、ありがとう！",
+		ship_group = 50202,
+		type = 1,
+		id = 2502,
+		flag = 0,
+		option = {
+			{
+				7,
+				"龍武、お疲れさま。みんなにも感謝を……"
+			}
+		}
+	},
+	[2503] = {
+		param = "夜食の準備お疲れ様。みんなの気持ちに感謝してるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2503,
+		flag = 7
+	},
+	[2504] = {
+		param = "新年の最初の日に、みんなと一緒に賑やかに過ごせて嬉しいよ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2504,
+		flag = 7
+	},
+	[2505] = {
+		param = "こっちで一緒に夜食を食べよう！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2505,
+		flag = 7
+	},
+	[2506] = {
+		param = "373",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2506,
+		flag = 7
+	},
+	[2507] = {
+		param = "今向かってるよ～",
+		ship_group = 50103,
+		option = "",
+		type = 1,
+		id = 2507,
+		flag = 7
+	},
+	[2508] = {
+		param = "いけいけ！新年だー！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2508,
 		flag = 7
 	}
 }

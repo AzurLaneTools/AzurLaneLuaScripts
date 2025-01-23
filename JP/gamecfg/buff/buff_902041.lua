@@ -17,9 +17,9 @@ return {
 	},
 	effect_list = {
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddBulletAttr",
 			trigger = {
-				"onAttach"
+				"onBulletCreate"
 			},
 			arg_list = {
 				number = -0.05,
@@ -30,9 +30,9 @@ return {
 			}
 		},
 		{
-			type = "BattleBuffAddAttr",
+			type = "BattleBuffAddBulletAttr",
 			trigger = {
-				"onAttach"
+				"onBulletCreate"
 			},
 			arg_list = {
 				number = 0.05,

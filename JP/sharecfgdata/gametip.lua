@@ -26228,6 +26228,75 @@ _G.pg.base.gametip.cruise_task_help_2412 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2502 = {
+	tip = "2025/2/1-2025/3/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ボルツァーノ(META)」</color>などを入手可能"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2502 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2025.2.1（日）0:00～2025.3.31（月）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ボルツァーノ(META)」、SP報酬からは巡洋戦艦「レパルス」の限定着せ替え「春華の演舞」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+ さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+ ①通常報酬
+ 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+ ②SP報酬
+ 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+ シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+ ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+ 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません。
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2502 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません……
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "リセット"
 }
@@ -30614,7 +30683,7 @@ _G.pg.base.gametip.notice_label_recv = {
 
 
 _G.pg.base.gametip.notice_label_tip = {
-	tip = "ルームがいっぱいになると入室できません"
+	tip = "<size=25>ルームがいっぱいになると入室できません</size>"
 }
 
 
@@ -32098,7 +32167,7 @@ _G.pg.base.gametip.flagship_display_mode_3 = {
 
 
 _G.pg.base.gametip.flagship_educate_slot_lock_tip = {
-	tip = "<color=#39bfff>「TB育成」</color>ストーリー「新生活」解放後に機能が開放されます"
+	tip = "<color=#39bfff>「TB育成」</color>の任意のチュートリアルクリア後に機能が開放されます"
 }
 
 
@@ -36119,6 +36188,11 @@ _G.pg.base.gametip.cruise_title_2412 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2502 = {
+	tip = "シーズン任務・21期"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "今期残り時間："
 }
@@ -36344,6 +36418,314 @@ _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 }
 
 
+_G.pg.base.gametip.child2_cur_round = {
+	tip = "$1ターン目"
+}
+
+
+_G.pg.base.gametip.child2_assess_round = {
+	tip = "判定：($1ターン後）"
+}
+
+
+_G.pg.base.gametip.child2_assess_target = {
+	tip = "能力目標：$1/$2"
+}
+
+
+_G.pg.base.gametip.child2_ending_stage = {
+	tip = "エンディング段階"
+}
+
+
+_G.pg.base.gametip.child2_reset_stage = {
+	tip = "情報一覧"
+}
+
+
+_G.pg.base.gametip.child2_main_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help8"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help9"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help10"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help11"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help12"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_personality_title = {
+	tip = "性格"
+}
+
+
+_G.pg.base.gametip.child2_attr_title = {
+	tip = "パラメータ"
+}
+
+
+_G.pg.base.gametip.child2_talent_title = {
+	tip = "アビリティ"
+}
+
+
+_G.pg.base.gametip.child2_status_title = {
+	tip = "状態"
+}
+
+
+_G.pg.base.gametip.child2_talent_unlock_tip = {
+	tip = "$1ターン目で開放"
+}
+
+
+_G.pg.base.gametip.child2_status_time1 = {
+	tip = "$1ターン目"
+}
+
+
+_G.pg.base.gametip.child2_status_time2 = {
+	tip = "永続"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip = {
+	tip = "$1ターン後に<color=#393a3c>判定開始</color>"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip_target = {
+	tip = "パラメータ合計<color=#39bfff>$1</color>が必要"
+}
+
+
+_G.pg.base.gametip.child2_site_exit = {
+	tip = "離れる"
+}
+
+
+_G.pg.base.gametip.child2_shop_limit_cnt = {
+	tip = "限定"
+}
+
+
+_G.pg.base.gametip.child2_unlock_site_round = {
+	tip = "次のレベル解放まであと$1ターン"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_add = {
+	tip = "$1が $2 → $3 にアップ(合計で $4 )"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_reduce = {
+	tip = "$1が $2 → $3 にダウン(合計で $4 )"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_item = {
+	tip = "状態【$1】入手"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag1 = {
+	tip = "大人しい"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "ワガママ"
+}
+
+
+_G.pg.base.gametip.child2_personal_change = {
+	tip = "性格変化"
+}
+
+
+_G.pg.base.gametip.child2_ship_upgrade_favor = {
+	tip = "$1とのイベント進捗度が$2になりました"
+}
+
+
+_G.pg.base.gametip.child2_plan_title_front = {
+	tip = "第"
+}
+
+
+_G.pg.base.gametip.child2_plan_title_back = {
+	tip = "ターン目"
+}
+
+
+_G.pg.base.gametip.child2_plan_upgrade_condition = {
+	tip = "[レベルアップ条件]"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_on = {
+	tip = "エンディング確認"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_off = {
+	tip = "解放条件確認"
+}
+
+
+_G.pg.base.gametip.child2_game_cnt = {
+	tip = "$1週目"
+}
+
+
+_G.pg.base.gametip.child2_enter = {
+	tip = "育成を開始する"
+}
+
+
+_G.pg.base.gametip.child2_select_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_not_start = {
+	tip = "まだ開始していません"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip = {
+	tip = "まだ設定されていない予定があります。次のターンに進みますか？"
+}
+
+
+_G.pg.base.gametip.child2_reset_sure_tip = {
+	tip = "リセットすると1ターン目に戻ります。リセットを行いますか？"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip2 = {
+	tip = "まだ使用されていない行動力があります。次のターンに進みますか？"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip3 = {
+	tip = "まだ使用されていない行動力/設定されていない予定があります。次のターンに進みますか？"
+}
+
+
+_G.pg.base.gametip.child2_assess_start_tip = {
+	tip = "判定開始"
+}
+
+
+_G.pg.base.gametip.child2_site_again = {
+	tip = "もう1回"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure = {
+	tip = "状態持続中です（残り$1ターン）。購入すると持続時間がリセットされます。続けますか？"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure2 = {
+	tip = "すでにこの「状態」を所持しているため、購入しても新たに「状態」を獲得できません。続けますか？"
+}
+
+
 _G.pg.base.gametip.world_file_tip = {
 	tip = "※画面スライドでページスクロール可能。画面タップで閉じる"
 }
@@ -36451,6 +36833,11 @@ _G.pg.base.gametip.juuschat_filter_subtitle2 = {
 
 _G.pg.base.gametip.juuschat_filter_subtitle3 = {
 	tip = "陣営"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_show_detail = {
+	tip = "受け取り詳細"
 }
 
 
@@ -37162,6 +37549,134 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 }
 
 
+_G.pg.base.gametip.dorm3d_gift_favor_exceed = {
+	tip = "プレゼントすると、上限を越えた$1の親密度が無効になります。続けますか?"
+}
+
+
 _G.pg.base.gametip.please_input_1_99 = {
 	tip = "1～99を入力"
+}
+
+
+_G.pg.base.gametip.child2_empty_plan = {
+	tip = "予定はありません"
+}
+
+
+_G.pg.base.gametip.child2_replay_tip = {
+	tip = "ゲーム中断を検出しました。中断時の進捗に戻りますか？（ボタン「戻る」をタップすると前の画面に戻ります）"
+}
+
+
+_G.pg.base.gametip.child2_replay_clear = {
+	tip = "戻る"
+}
+
+
+_G.pg.base.gametip.child2_replay_continue = {
+	tip = "続ける"
+}
+
+
+_G.pg.base.gametip.firework_2025_level = {
+	tip = "レベル$1"
+}
+
+
+_G.pg.base.gametip.firework_2025_pt = {
+	tip = "雰囲気Pt"
+}
+
+
+_G.pg.base.gametip.firework_2025_get = {
+	tip = "受取可"
+}
+
+
+_G.pg.base.gametip.firework_2025_got = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.firework_2025_tip1 = {
+	tip = "海域クリアで花火が確率で開放されます"
+}
+
+
+_G.pg.base.gametip.firework_2025_tip2 = {
+	tip = "コンディション回復速度："
+}
+
+
+_G.pg.base.gametip.firework_2025_unlock_tip1 = {
+	tip = "雰囲気が"
+}
+
+
+_G.pg.base.gametip.firework_2025_unlock_tip2 = {
+	tip = "$1達成"
+}
+
+
+_G.pg.base.gametip.firework_2025_tip = {
+	tip = {
+		{
+			info = "遊び方："
+		},
+		{
+			info = "1.花火を開放したり、花火大会限定任務をクリアすると「母港花火大会雰囲気Pt（雰囲気Pt）」を入手可能。「雰囲気Pt」累計報酬で「年玉」装備外装「瑞蛇花火箱」、「红包」などを入手可能。"
+		},
+		{
+			info = "2.メイン海域３章以降のステージをクリアしたり、共闘イベントに参加すると、確率で「新春花火」を開放可能。「花火打上」で花火を開放すると、「雰囲気Pt」などの報酬を入手可能。"
+		},
+		{
+			info = "3.イベント期間中、「大会広場」で、艦船を配置枠に配置し、配置艦船のコンディション回復速度を上げることができます。「大会広場」はイベントの「進捗Lv」に応じて配置枠を増やせることができます（最大10枠まで）"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.secretary_special_character_unlock = {
+	tip = "<color=#39bfff>「育成」</color>コンテンツで開放可能"
+}
+
+
+_G.pg.base.gametip.secretary_special_character_buy_unlock = {
+	tip = "キャラクターを所持していません。<color=#39bfff>「育成」</color>コンテンツで開放可能"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc1 = {
+	tip = "現在の気分：絶不調； <color=#ee4a4a>報酬獲得-40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc2 = {
+	tip = "現在の気分：不調； <color=#ff6767>報酬獲得-20%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc3 = {
+	tip = "現在の気分：普通； 報酬獲得に影響しません"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc4 = {
+	tip = "現在の気分：絶好調； <color=#00c79b>報酬獲得+40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc5 = {
+	tip = "現在の気分：絶好調； <color=#00c79b>報酬獲得+40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_schedule_target = {
+	tip = "合計パラメータ目標："
+}
+
+
+_G.pg.base.gametip.child2_shop_point_sure = {
+	tip = "行動力は上限までしか所持できません（上限を超えた行動力は自動で破棄されます）。続けますか？"
 }

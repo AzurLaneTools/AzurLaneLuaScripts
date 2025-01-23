@@ -84,69 +84,23 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "「特殊秘書艦」では、TBを秘書艦に設定することができます。また、ノーマルTB以外のTBは、「TB育成」のそれぞれのエンディング達成で開放できます。",
+				text = "開放した特殊秘書艦はここで配置できます",
 				mode = 2,
 				dir = -1,
 				char = 1,
 				posY = -59.66,
 				posX = 90.1
-			},
-			ui = {
-				pathIndex = -1,
-				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/groupPage/main/list/tpl/anim_root",
-				fingerPos = {
-					posY = -121.3,
-					posX = 85.9
-				}
-			}
-		},
-		{
-			delay = 1,
-			alpha = 0,
-			style = {
-				text = "TBの衣装は「TB育成」の「大事な瞬間」を集めることで開放できます",
-				mode = 2,
-				dir = 1,
-				char = 1,
-				posY = -147.2,
-				posX = -469.33
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "ノーマルTBを選択し、「特殊秘書艦」に設定しましょう",
+				text = "「育成」では様々なモジュール（外見）を開放できます",
 				mode = 2,
-				dir = -1,
-				char = 1,
-				posY = -76,
-				posX = 230
-			},
-			ui = {
-				pathIndex = 0,
-				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/list/content",
-				fingerPos = {
-					posY = -115,
-					posX = 52
-				}
-			}
-		},
-		{
-			alpha = 0.4,
-			style = {
-				text = "「確定」をタップすると、設定を反映することができます",
-				mode = 2,
-				char = 1,
-				posY = -244.8,
 				dir = 1,
-				posX = 624.4,
-				uiset = {
-					{
-						pathIndex = -1,
-						lineMode = 2,
-						path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/confirm_btn"
-					}
-				}
+				char = 1,
+				posY = -59.66,
+				posX = 90.1
 			}
 		}
 	}

@@ -68,7 +68,7 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == ApartmentProxy.UPDATE_ROOM then
 		-- Nothing
 	elseif slot2 == Dorm3dRoomMediator.ON_CLICK_FURNITURE_SLOT then
-		slot0.viewComponent:OnClickFurnitureSlot(slot3)
+		-- Nothing
 	elseif slot2 == GAME.APARTMENT_REPLACE_FURNITURE_DONE then
 		slot0.viewComponent:OnReplaceFurnitureDone()
 	elseif slot2 == GAME.APARTMENT_REPLACE_FURNITURE_ERROR then

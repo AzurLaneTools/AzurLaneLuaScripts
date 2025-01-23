@@ -317,9 +317,9 @@ slot0.init = function(slot0)
 
 	setActive(slot0.ikTipsRoot, false)
 
-	slot6 = slot0.ikTipsRoot
+	slot0.ikClickTipsRoot = slot3:Find("ClickTips")
 
-	GetOrAddComponent(slot6:GetChild(0), typeof(RectTransform))
+	setActive(slot0.ikClickTipsRoot, false)
 
 	slot0.ikHand = slot3:Find("Handler")
 
@@ -734,12 +734,11 @@ slot0.BindEvent = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	uv0.super.didEnter(slot0)
-	slot0:UpdateZoneList()
-
 	slot0.resumeCallback = slot0.contextData.resumeCallback
 	slot0.contextData.resumeCallback = nil
 
+	uv0.super.didEnter(slot0)
+	slot0:UpdateZoneList()
 	slot0:SetUI(function ()
 		uv0:didEnterCheck()
 	end, "base")
@@ -982,7 +981,7 @@ slot0.EnterAccompanyMode = function(slot0, slot1)
 
 	slot8 = pg.m02
 
-	slot8:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataAccompany(1, slot2.ship_id, slot2.performance_time, 0, slot3 or slot0.artSceneInfo))
+	slot8:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataAccompany(1, slot2.ship_id, slot2.performance_time, 0, slot3 or slot0.dormSceneMgr.artSceneInfo))
 
 	slot8 = {}
 
@@ -999,8 +998,6 @@ slot0.EnterAccompanyMode = function(slot0, slot1)
 
 		uv0.accompanyPerformanceTimer = Timer.New(function ()
 			uv0.canTriggerAccompanyPerformance = true
-
-			warning(uv0.canTriggerAccompanyPerformance)
 		end, uv2.performance_time, -1)
 
 		uv0.accompanyPerformanceTimer:Start()
@@ -1034,7 +1031,7 @@ slot0.EnterAccompanyMode = function(slot0, slot1)
 			slot1 = pg.TimeMgr.GetInstance():GetServerTime() - slot2
 		end
 
-		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataAccompany(2, uv2.ship_id, uv2.performance_time, slot1, uv3 or uv0.artSceneInfo))
+		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataAccompany(2, uv2.ship_id, uv2.performance_time, slot1, uv3 or uv0.dormSceneMgr.artSceneInfo))
 		uv0:SetUI(nil, "back", "back")
 	end)
 end
@@ -1207,7 +1204,7 @@ slot0.ChangeWalkScene = function(slot0, slot1, slot2)
 		function (slot0)
 			uv0:emit(uv0.SHOW_BLOCK)
 
-			if uv1 == uv0.sceneInfo then
+			if uv1 == uv0.dormSceneMgr.sceneInfo then
 				uv0:SetUI(slot0, "back")
 			elseif uv0.uiState ~= "walk" then
 				uv0:SetUI(slot0, "walk")
@@ -1217,7 +1214,7 @@ slot0.ChangeWalkScene = function(slot0, slot1, slot2)
 		end
 	}, function ()
 		uv0:emit(uv0.HIDE_BLOCK)
-		uv0:SetBlackboardValue(uv1, "inWalk", uv2 ~= uv0.sceneInfo)
+		uv0:SetBlackboardValue(uv1, "inWalk", uv2 ~= uv0.dormSceneMgr.sceneInfo)
 		existCall(uv3)
 	end)
 end
@@ -2129,7 +2126,7 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 				return function (slot0)
 					uv0.contextData.timeIndex = uv1.params[1]
 
-					if uv0.artSceneInfo == uv0.sceneInfo then
+					if uv0.dormSceneMgr.artSceneInfo == uv0.dormSceneMgr.sceneInfo then
 						slot1 = uv0
 
 						slot1:SwitchDayNight(uv0.contextData.timeIndex)
@@ -2150,7 +2147,7 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 			function ()
 				return function (slot0)
 					if uv0.name == "base" then
-						uv1:ChangeArtScene(uv1.sceneInfo, slot0)
+						uv1:ChangeArtScene(uv1.dormSceneMgr.sceneInfo, slot0)
 					else
 						uv1:ChangeArtScene(uv0.params.scene .. "|" .. uv0.params.sceneRoot, slot0)
 					end
@@ -2161,9 +2158,11 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 					slot1 = uv0.params.name
 
 					if uv0.name == "load" then
-						uv1.waitForTimeline = tobool(uv0.params.wait_timeline)
+						func = tobool(uv0.params.wait_timeline) and function (slot0)
+							uv0.waitForTimeline = slot0
+						end
 
-						uv1:LoadTimelineScene(slot1, true, slot0)
+						uv1:LoadTimelineScene(slot1, true, func, slot0)
 					elseif uv0.name == "unload" then
 						uv1:UnloadTimelineScene(slot1, true, slot0)
 					else
@@ -2184,7 +2183,7 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 					elseif uv1.name == "back" then
 						slot1.walkBornPoint = nil
 
-						uv0:ChangeWalkScene(uv0.sceneInfo, slot0)
+						uv0:ChangeWalkScene(uv0.dormSceneMgr.sceneInfo, slot0)
 					else
 						if uv1.name == "set" then
 							slot2 = function()
@@ -2363,7 +2362,7 @@ slot0.PopFavorTrigger = function(slot0, slot1)
 		slot7, slot8 = slot5:getFavor()
 		slot9 = slot7 + slot3
 
-		setText(slot0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=30>+%d</size>", slot3))
+		setText(slot0.rtFavorUpDaily:Find("bg/Text"), string.format("<size=30>+%d</size>", math.min(9999, slot3)))
 		setSlider(slot0.rtFavorUpDaily:Find("bg/slider"), 0, slot8, slot7)
 		setAnchoredPosition(slot0.rtFavorUpDaily:Find("bg"), slot1.isGift and NewPos(-354, 223) or NewPos(-208, 105))
 
@@ -2877,10 +2876,6 @@ slot0.CheckLevelUp = function(slot0)
 	end
 
 	return false
-end
-
-slot0.GetIKTipsRootTF = function(slot0)
-	return slot0.ikTipsRoot
 end
 
 slot0.GetIKHandTF = function(slot0)
