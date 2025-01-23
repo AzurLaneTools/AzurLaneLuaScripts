@@ -8703,10 +8703,10 @@ pg.base.pay_data_display = {
 		type_order = 6,
 		picture = "battlepass_1",
 		skin_inquire_relation = 0,
-		id_str = "com.bilibili.blhx.battlepass22",
+		id_str = "com.yostaren.azurlane.passport23",
 		extra_service = 4,
 		id = 1020,
-		airijp_id = "com.yostarjp.azurlane.seasonpass21",
+		airijp_id = "com.yostaren.azurlane.passport23",
 		extra_service_item = {
 			{
 				1,

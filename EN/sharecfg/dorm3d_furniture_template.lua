@@ -464,7 +464,7 @@ pg.dorm3d_furniture_template = {
 	},
 	[222] = {
 		rarity = 3,
-		name = "Podcast Table",
+		name = "Table for Two",
 		type = 6,
 		room_id = 2,
 		desc = "A spacious table full of joy and anticipation for great conversations.\nAll that remains is for two minds to meet.",
