@@ -726,8 +726,10 @@ end
 slot0.PlayerOneFirework = function(slot0)
 	if slot0.fireworkIndex == #slot0.fireworks then
 		slot0:managedTween(LeanTween.delayedCall, function ()
-			uv0:StopPlayFireworks()
-			uv0:PlayFireworks()
+			if uv0.fireworks then
+				uv0:StopPlayFireworks()
+				uv0:PlayFireworks()
+			end
 		end, uv0.DelayPop, nil)
 	end
 

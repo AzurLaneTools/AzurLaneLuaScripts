@@ -405,7 +405,7 @@ pg.child2_shop = {
 	},
 	{
 		resource_type = 1,
-		name = "感受性ランダム・次発強化",
+		name = "感受性ﾗﾝﾀﾞﾑ・次発強化",
 		icon = "benefit_2_ganzhi_3",
 		is_refresh = 1,
 		limit_num = 1,

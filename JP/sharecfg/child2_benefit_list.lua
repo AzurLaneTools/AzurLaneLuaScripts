@@ -12444,7 +12444,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[2017] = {
-		name = "感受性ランダム・次発強化",
+		name = "感受性ﾗﾝﾀﾞﾑ・次発強化",
 		during_time = 2,
 		type = 2,
 		is_show = 1,
@@ -13572,7 +13572,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[2101] = {
-		name = "感受性ランダム・次発強化",
+		name = "感受性ﾗﾝﾀﾞﾑ・次発強化",
 		during_time = 1,
 		type = 2,
 		is_show = 0,
