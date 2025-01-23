@@ -183,7 +183,7 @@ slot0.InitRightPanel = function(slot0)
 		if slot0 == UIItemList.EventInit then
 			slot4 = pg.child2_attr[uv0.attrIds[slot1 + 1]]
 
-			setImageSprite(slot2:Find("icon_bg/icon"), LoadSprite("neweducateicon/" .. slot4.icon))
+			LoadImageSpriteAsync("neweducateicon/" .. slot4.icon, slot2:Find("icon_bg/icon"))
 			setScrollText(slot2:Find("name_mask/name"), slot4.name)
 		elseif slot0 == UIItemList.EventUpdate then
 			uv0:UpdateAttr(slot1, slot2)

@@ -28,7 +28,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "ND_FF_IK_zhuozi_jiao_01",
+							name = "ND_FF_IK_zhuozi_tou_01",
 							time = 0,
 							type = "action",
 							skip = true

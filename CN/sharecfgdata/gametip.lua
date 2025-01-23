@@ -37064,6 +37064,11 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 }
 
 
+_G.pg.base.gametip.dorm3d_gift_favor_exceed = {
+	tip = "赠送后会溢出$1点契合度，是否确定赠送"
+}
+
+
 _G.pg.base.gametip.please_input_1_99 = {
 	tip = "请输入1~99"
 }

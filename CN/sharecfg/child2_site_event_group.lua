@@ -545,7 +545,7 @@ pg.child2_site_event_group = {
 	},
 	[4134] = {
 		node_id = 4134001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（2）",
 		id = 4134,
 		event_title = "新口味罐头",
 		weight = 100,
@@ -560,7 +560,7 @@ pg.child2_site_event_group = {
 	},
 	[4135] = {
 		node_id = 4135001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（3）",
 		id = 4135,
 		event_title = "新口味罐头",
 		weight = 100,
@@ -1487,7 +1487,7 @@ pg.child2_site_event_group = {
 	},
 	[4234] = {
 		node_id = 4234001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（2）",
 		id = 4234,
 		event_title = "新口味罐头",
 		weight = 100,
@@ -1502,7 +1502,7 @@ pg.child2_site_event_group = {
 	},
 	[4235] = {
 		node_id = 4235001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（3）",
 		id = 4235,
 		event_title = "新口味罐头",
 		weight = 100,
@@ -2429,7 +2429,7 @@ pg.child2_site_event_group = {
 	},
 	[4334] = {
 		node_id = 4334001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（2）",
 		id = 4334,
 		event_title = "新口味罐头",
 		weight = 100,
@@ -2444,7 +2444,7 @@ pg.child2_site_event_group = {
 	},
 	[4335] = {
 		node_id = 4335001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（3）",
 		id = 4335,
 		event_title = "新口味罐头",
 		weight = 100,
@@ -3371,7 +3371,7 @@ pg.child2_site_event_group = {
 	},
 	[4434] = {
 		node_id = 4434001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（2）",
 		id = 4434,
 		event_title = "新口味罐头",
 		weight = 100,
@@ -3386,7 +3386,7 @@ pg.child2_site_event_group = {
 	},
 	[4435] = {
 		node_id = 4435001,
-		option_word = "进入随机事件",
+		option_word = "新口味罐头（3）",
 		id = 4435,
 		event_title = "新口味罐头",
 		weight = 100,

@@ -27616,118 +27616,123 @@ cs.gametip = {
 		170,
 		true
 	},
-	please_input_1_99 = {
+	dorm3d_gift_favor_exceed = {
 		994627,
+		142,
+		true
+	},
+	please_input_1_99 = {
+		994769,
 		94,
 		true
 	},
 	child2_empty_plan = {
-		994721,
+		994863,
 		93,
 		true
 	},
 	child2_replay_tip = {
-		994814,
+		994956,
 		175,
 		true
 	},
 	child2_replay_clear = {
-		994989,
+		995131,
 		89,
 		true
 	},
 	child2_replay_continue = {
-		995078,
+		995220,
 		92,
 		true
 	},
 	firework_2025_level = {
-		995170,
+		995312,
 		88,
 		true
 	},
 	firework_2025_pt = {
-		995258,
+		995400,
 		92,
 		true
 	},
 	firework_2025_get = {
-		995350,
+		995492,
 		90,
 		true
 	},
 	firework_2025_got = {
-		995440,
+		995582,
 		90,
 		true
 	},
 	firework_2025_tip1 = {
-		995530,
+		995672,
 		115,
 		true
 	},
 	firework_2025_tip2 = {
-		995645,
+		995787,
 		107,
 		true
 	},
 	firework_2025_unlock_tip1 = {
-		995752,
+		995894,
 		104,
 		true
 	},
 	firework_2025_unlock_tip2 = {
-		995856,
+		995998,
 		94,
 		true
 	},
 	firework_2025_tip = {
-		995950,
+		996092,
 		784,
 		true
 	},
 	secretary_special_character_unlock = {
-		996734,
+		996876,
 		173,
 		true
 	},
 	secretary_special_character_buy_unlock = {
-		996907,
+		997049,
 		201,
 		true
 	},
 	child2_mood_desc1 = {
-		997108,
+		997250,
 		156,
 		true
 	},
 	child2_mood_desc2 = {
-		997264,
+		997406,
 		156,
 		true
 	},
 	child2_mood_desc3 = {
-		997420,
+		997562,
 		135,
 		true
 	},
 	child2_mood_desc4 = {
-		997555,
+		997697,
 		156,
 		true
 	},
 	child2_mood_desc5 = {
-		997711,
+		997853,
 		156,
 		true
 	},
 	child2_schedule_target = {
-		997867,
+		998009,
 		104,
 		true
 	},
 	child2_shop_point_sure = {
-		997971,
+		998113,
 		141,
 		true
 	}

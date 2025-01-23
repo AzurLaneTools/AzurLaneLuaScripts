@@ -35649,7 +35649,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12023,
 		commodity_id_list_show = 0,
-		order = 4,
+		order = 3,
 		limit_args = {
 			{
 				"uniqueship",
@@ -35756,7 +35756,7 @@ pg.activity_shop_template = {
 		resource_type = 21000,
 		id = 12026,
 		commodity_id_list_show = 0,
-		order = 4,
+		order = 3,
 		limit_args = {
 			{
 				"uniqueship",

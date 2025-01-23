@@ -955,7 +955,7 @@ slot0.IsShowMainTip = function(slot0)
 
 	for slot16, slot17 in pairs(slot10) do
 		if slot17:getTaskStatus() == 1 then
-			slot18 = true
+			slot12 = true
 
 			break
 		end

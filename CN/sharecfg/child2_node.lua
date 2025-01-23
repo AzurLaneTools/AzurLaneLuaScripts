@@ -26304,6 +26304,7 @@ pg.child2_node = {
 	},
 	[4323003] = {
 		performance_type = 0,
+		name = 0,
 		type = 100,
 		option_condition_show = 0,
 		performance_param = "",
@@ -26312,7 +26313,6 @@ pg.child2_node = {
 		next = "4323004",
 		id = 4323003,
 		drop_type_client = 0,
-		name = bu,
 		option_condition = {},
 		option_cost = {}
 	},

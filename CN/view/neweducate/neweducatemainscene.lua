@@ -687,6 +687,10 @@ slot0.OnNextRound = function(slot0)
 end
 
 slot0.OnNodeStart = function(slot0, slot1)
+	if slot1 == 0 then
+		return
+	end
+
 	assert(pg.child2_node[slot1], "child2_node缺少id:" .. slot1)
 	slot0.nodePanel:ExecuteAction("StartNode", slot1)
 

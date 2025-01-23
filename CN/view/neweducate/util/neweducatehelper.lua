@@ -289,11 +289,14 @@ end
 
 slot0.GetAllUnlockSecretaryIds = function()
 	slot0 = getProxy(EducateProxy):GetSecretaryIDs() or {}
-	slot1 = getProxy(NewEducateProxy)
 
-	for slot5, slot6 in ipairs(pg.child2_data.all) do
-		if slot1:GetChar(slot6) and slot1:GetChar(slot6):GetPermanentData() then
-			slot0 = table.mergeArray(slot0, slot1:GetChar(slot6):GetPermanentData():GetUnlockSecretaryIds())
+	if not LOCK_NEW_EDUCATE_SYSTEM then
+		slot1 = getProxy(NewEducateProxy)
+
+		for slot5, slot6 in ipairs(pg.child2_data.all) do
+			if slot1:GetChar(slot6) and slot1:GetChar(slot6):GetPermanentData() then
+				slot0 = table.mergeArray(slot0, slot1:GetChar(slot6):GetPermanentData():GetUnlockSecretaryIds())
+			end
 		end
 	end
 
@@ -304,7 +307,9 @@ slot0.GetEducateCharacterList = function()
 	slot0 = {}
 
 	for slot4, slot5 in pairs(pg.secretary_special_ship.get_id_list_by_character_id) do
-		table.insert(slot0, EducateCharCharacter.New(slot4))
+		if not LOCK_NEW_EDUCATE_SYSTEM or slot4 == 1000 then
+			table.insert(slot0, EducateCharCharacter.New(slot4))
+		end
 	end
 
 	return slot0

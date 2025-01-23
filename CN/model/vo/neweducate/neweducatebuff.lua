@@ -32,7 +32,7 @@ end
 
 slot0.GetBenefitIdsByEffectType = function(slot0, slot1)
 	slot2 = {}
-	slot6 = "content"
+	slot6 = "show_content"
 
 	for slot6, slot7 in ipairs(slot0:getConfig(slot6)) do
 		if underscore.any(pg.child2_benefit[slot7].effect, function (slot0)

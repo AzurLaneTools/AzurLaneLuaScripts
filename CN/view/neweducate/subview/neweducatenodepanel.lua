@@ -44,6 +44,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.siteHandler = NewEducateSiteHandler.New(slot0._tf:Find("site"))
 	slot0.optionsHandler = NewEducateOptionsHandler.New(slot0._tf:Find("options"))
 	slot0.scheduleTF = slot0._tf:Find("scheduleBg")
+
+	setText(slot0.scheduleTF:Find("root/window/left/title/Text"), i18n("child_plan_perform_title"))
+
 	slot1 = slot0.scheduleTF:Find("root/window/left/content")
 	slot0.planUIList = UIItemList.New(slot1, slot1:Find("tpl"))
 end

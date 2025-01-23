@@ -557,7 +557,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 43,
-		resource_num = 50
+		resource_num = 120
 	},
 	{
 		resource_type = 1,
@@ -570,7 +570,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 44,
-		resource_num = 180
+		resource_num = 240
 	},
 	{
 		resource_type = 1,
@@ -583,7 +583,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 45,
-		resource_num = 200
+		resource_num = 400
 	},
 	{
 		resource_type = 1,
@@ -596,7 +596,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 46,
-		resource_num = 50
+		resource_num = 120
 	},
 	{
 		resource_type = 1,
@@ -609,7 +609,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 47,
-		resource_num = 180
+		resource_num = 240
 	},
 	{
 		resource_type = 1,
@@ -622,7 +622,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 48,
-		resource_num = 200
+		resource_num = 400
 	},
 	{
 		resource_type = 1,
@@ -635,7 +635,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 49,
-		resource_num = 50
+		resource_num = 120
 	},
 	{
 		resource_type = 1,
@@ -648,7 +648,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 50,
-		resource_num = 180
+		resource_num = 240
 	},
 	{
 		resource_type = 1,
@@ -661,7 +661,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 51,
-		resource_num = 200
+		resource_num = 400
 	},
 	{
 		resource_type = 1,
@@ -674,7 +674,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 52,
-		resource_num = 50
+		resource_num = 120
 	},
 	{
 		resource_type = 1,
@@ -687,7 +687,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 53,
-		resource_num = 180
+		resource_num = 240
 	},
 	{
 		resource_type = 1,
@@ -700,7 +700,7 @@ pg.child2_shop = {
 		goods_num = 1,
 		goods_type = 1,
 		id = 54,
-		resource_num = 200
+		resource_num = 400
 	},
 	{
 		resource_type = 1,

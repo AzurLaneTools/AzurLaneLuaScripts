@@ -145,7 +145,7 @@ end
 
 slot0.OnInitRes = function(slot0, slot1, slot2)
 	setActive(slot2:Find("line"), slot1 + 1 ~= #slot0.resIds)
-	setImageSprite(slot2:Find("icon"), LoadSprite("neweducateicon/" .. pg.child2_resource[slot0.resIds[slot1 + 1]].icon))
+	LoadImageSpriteAsync("neweducateicon/" .. pg.child2_resource[slot0.resIds[slot1 + 1]].icon, slot2:Find("icon"))
 	onButton(slot0, slot2, function ()
 		uv0:emit(NewEducateBaseUI.ON_ITEM, {
 			drop = {

@@ -100,7 +100,7 @@ end
 slot0.UpdateAttr = function(slot0, slot1, slot2)
 	slot4 = pg.child2_attr[slot0.attrIds[slot1 + 1]]
 
-	setImageSprite(slot2:Find("icon_bg/icon"), LoadSprite("neweducateicon/" .. slot4.icon))
+	LoadImageSpriteAsync("neweducateicon/" .. slot4.icon, slot2:Find("icon_bg/icon"))
 	setScrollText(slot2:Find("name_mask/name"), slot4.name)
 
 	slot5 = slot0.attrIds[slot1 + 1]
@@ -127,7 +127,7 @@ end
 slot0.UpdateRes = function(slot0, slot1, slot2)
 	slot3 = slot0.resIds[slot1 + 1]
 
-	setImageSprite(slot2:Find("icon"), LoadSprite("neweducateicon/" .. pg.child2_resource[slot3].icon))
+	LoadImageSpriteAsync("neweducateicon/" .. pg.child2_resource[slot3].icon, slot2:Find("icon"))
 	setText(slot2:Find("name"), pg.child2_resource[slot3].name)
 
 	slot4 = slot0.contextData.char:GetRes(slot3)

@@ -68,7 +68,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 	setText(slot2:Find("name/Text"), slot3.name)
 	setText(slot2:Find("desc/Text"), slot3.desc)
 	LoadImageSpriteAtlasAsync("ui/neweducatetalentui_atlas", slot0:GetRarityBg(slot3.rare), slot2, true)
-	setImageSprite(slot2:Find("icon"), LoadSprite("neweducateicon/" .. slot3.item_icon), true)
+	LoadImageSpriteAsync("neweducateicon/" .. slot3.item_icon, slot2:Find("icon"), true)
 
 	slot4 = not table.contains(slot0.reTalentList, slot1)
 

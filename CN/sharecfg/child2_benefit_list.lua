@@ -770,8 +770,8 @@ pg.child2_benefit_list = setmetatable({
 pg.base = pg.base or {}
 pg.base.child2_benefit_list = {
 	[40001] = {
-		during_time = -1,
 		name = "526",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -782,11 +782,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400011
+		},
+		show_content = {
+			400011
 		}
 	},
 	[40002] = {
-		during_time = -1,
 		name = "621",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -797,11 +800,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400021
+		},
+		show_content = {
+			400021
 		}
 	},
 	[40011] = {
-		during_time = -1,
 		name = "610",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -812,11 +818,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400111
+		},
+		show_content = {
+			400111
 		}
 	},
 	[40012] = {
-		during_time = -1,
 		name = "611",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -827,11 +836,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400121
+		},
+		show_content = {
+			400121
 		}
 	},
 	[40013] = {
-		during_time = -1,
 		name = "612",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -842,11 +854,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400131
+		},
+		show_content = {
+			400131
 		}
 	},
 	[40014] = {
-		during_time = -1,
 		name = "619",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -857,11 +872,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400141
+		},
+		show_content = {
+			400141
 		}
 	},
 	[40015] = {
-		during_time = 3,
 		name = "探索加持",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -872,11 +890,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			400151
+		},
+		show_content = {
+			400151
 		}
 	},
 	[40021] = {
-		during_time = -1,
 		name = "610",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -887,11 +908,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400211
+		},
+		show_content = {
+			400211
 		}
 	},
 	[40022] = {
-		during_time = -1,
 		name = "611",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -902,11 +926,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400221
+		},
+		show_content = {
+			400221
 		}
 	},
 	[40023] = {
-		during_time = -1,
 		name = "612",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -917,11 +944,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400231
+		},
+		show_content = {
+			400231
 		}
 	},
 	[40024] = {
-		during_time = -1,
 		name = "619",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -932,11 +962,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400241
+		},
+		show_content = {
+			400241
 		}
 	},
 	[40025] = {
-		during_time = 3,
 		name = "探索加持",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -947,11 +980,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			400251
+		},
+		show_content = {
+			400251
 		}
 	},
 	[40031] = {
-		during_time = -1,
 		name = "610",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -962,11 +998,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400311
+		},
+		show_content = {
+			400311
 		}
 	},
 	[40032] = {
-		during_time = -1,
 		name = "611",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -977,11 +1016,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400321
+		},
+		show_content = {
+			400321
 		}
 	},
 	[40033] = {
-		during_time = -1,
 		name = "612",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -992,11 +1034,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400331
+		},
+		show_content = {
+			400331
 		}
 	},
 	[40034] = {
-		during_time = -1,
 		name = "619",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1007,11 +1052,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400341
+		},
+		show_content = {
+			400341
 		}
 	},
 	[40035] = {
-		during_time = 3,
 		name = "探索加持",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1022,11 +1070,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			400351
+		},
+		show_content = {
+			400351
 		}
 	},
 	[40041] = {
-		during_time = -1,
 		name = "610",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1037,11 +1088,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400411
+		},
+		show_content = {
+			400411
 		}
 	},
 	[40042] = {
-		during_time = -1,
 		name = "611",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1052,11 +1106,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400421
+		},
+		show_content = {
+			400421
 		}
 	},
 	[40043] = {
-		during_time = -1,
 		name = "612",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1067,11 +1124,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400431
+		},
+		show_content = {
+			400431
 		}
 	},
 	[40044] = {
-		during_time = -1,
 		name = "619",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1082,11 +1142,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			400441
+		},
+		show_content = {
+			400441
 		}
 	},
 	[40045] = {
-		during_time = 3,
 		name = "探索加持",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1097,11 +1160,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			400451
+		},
+		show_content = {
+			400451
 		}
 	},
 	[41011] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1110,11 +1176,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 41011,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[41021] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1125,11 +1192,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410211
+		},
+		show_content = {
+			410211
 		}
 	},
 	[41022] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1140,11 +1210,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410221
+		},
+		show_content = {
+			410221
 		}
 	},
 	[41023] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1155,11 +1228,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410231
+		},
+		show_content = {
+			410231
 		}
 	},
 	[41024] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1170,11 +1246,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410241
+		},
+		show_content = {
+			410241
 		}
 	},
 	[41031] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1183,11 +1262,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 41031,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[41041] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1196,11 +1276,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 41041,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[41051] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1209,11 +1290,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 41051,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[41061] = {
-		during_time = -1,
 		name = "509",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1224,11 +1306,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410611
+		},
+		show_content = {
+			410611
 		}
 	},
 	[41062] = {
-		during_time = -1,
 		name = "510",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1239,11 +1324,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410621
+		},
+		show_content = {
+			410621
 		}
 	},
 	[41063] = {
-		during_time = -1,
 		name = "511",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1254,11 +1342,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410631
+		},
+		show_content = {
+			410631
 		}
 	},
 	[41064] = {
-		during_time = -1,
 		name = "512",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1269,11 +1360,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410641
+		},
+		show_content = {
+			410641
 		}
 	},
 	[41071] = {
-		during_time = -1,
 		name = "513",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1284,11 +1378,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410711
+		},
+		show_content = {
+			410711
 		}
 	},
 	[41072] = {
-		during_time = -1,
 		name = "514",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1299,11 +1396,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410721
+		},
+		show_content = {
+			410721
 		}
 	},
 	[41073] = {
-		during_time = -1,
 		name = "515",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1314,11 +1414,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410731
+		},
+		show_content = {
+			410731
 		}
 	},
 	[41074] = {
-		during_time = -1,
 		name = "516",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1329,11 +1432,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410741
+		},
+		show_content = {
+			410741
 		}
 	},
 	[41081] = {
-		during_time = -1,
 		name = "517",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1344,11 +1450,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410811
+		},
+		show_content = {
+			410811
 		}
 	},
 	[41082] = {
-		during_time = -1,
 		name = "613",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1359,11 +1468,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410821
+		},
+		show_content = {
+			410821
 		}
 	},
 	[41091] = {
-		during_time = -1,
 		name = "518",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1374,11 +1486,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410911
+		},
+		show_content = {
+			410911
 		}
 	},
 	[41092] = {
-		during_time = -1,
 		name = "519",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1389,11 +1504,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410921
+		},
+		show_content = {
+			410921
 		}
 	},
 	[41093] = {
-		during_time = -1,
 		name = "520",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1404,11 +1522,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			410931
+		},
+		show_content = {
+			410931
 		}
 	},
 	[41101] = {
-		during_time = -1,
 		name = "521",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1419,11 +1540,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411011
+		},
+		show_content = {
+			411011
 		}
 	},
 	[41102] = {
-		during_time = -1,
 		name = "614",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1434,11 +1558,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411021
+		},
+		show_content = {
+			411021
 		}
 	},
 	[41111] = {
-		during_time = -1,
 		name = "522",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1449,11 +1576,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411111
+		},
+		show_content = {
+			411111
 		}
 	},
 	[41112] = {
-		during_time = -1,
 		name = "523",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1464,11 +1594,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411121
+		},
+		show_content = {
+			411121
 		}
 	},
 	[41113] = {
-		during_time = -1,
 		name = "524",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1479,11 +1612,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411131
+		},
+		show_content = {
+			411131
 		}
 	},
 	[41114] = {
-		during_time = -1,
 		name = "525",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1494,11 +1630,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411141
+		},
+		show_content = {
+			411141
 		}
 	},
 	[41115] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1507,11 +1646,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 41115,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[41121] = {
-		during_time = -1,
 		name = "527",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1522,11 +1662,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411211
+		},
+		show_content = {
+			411211
 		}
 	},
 	[41122] = {
-		during_time = -1,
 		name = "615",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1537,11 +1680,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411221
+		},
+		show_content = {
+			411221
 		}
 	},
 	[41131] = {
-		during_time = -1,
 		name = "528",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1552,11 +1698,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411311
+		},
+		show_content = {
+			411311
 		}
 	},
 	[41132] = {
-		during_time = -1,
 		name = "529",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1567,11 +1716,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411321
+		},
+		show_content = {
+			411321
 		}
 	},
 	[41133] = {
-		during_time = -1,
 		name = "530",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1582,11 +1734,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411331
+		},
+		show_content = {
+			411331
 		}
 	},
 	[41134] = {
-		during_time = -1,
 		name = "531",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1597,11 +1752,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411341
+		},
+		show_content = {
+			411341
 		}
 	},
 	[41135] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1610,11 +1768,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 41135,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[41141] = {
-		during_time = -1,
 		name = "533",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1625,11 +1784,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411411
+		},
+		show_content = {
+			411411
 		}
 	},
 	[41142] = {
-		during_time = -1,
 		name = "534",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1640,11 +1802,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411421
+		},
+		show_content = {
+			411421
 		}
 	},
 	[41151] = {
-		during_time = -1,
 		name = "535",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1655,11 +1820,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411511
+		},
+		show_content = {
+			411511
 		}
 	},
 	[41161] = {
-		during_time = 3,
 		name = "知识精要·速成",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1670,11 +1838,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			411611
+		},
+		show_content = {
+			411611
 		}
 	},
 	[41162] = {
-		during_time = -1,
 		name = "616",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1685,11 +1856,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411621
+		},
+		show_content = {
+			411621
 		}
 	},
 	[41171] = {
-		during_time = -1,
 		name = "知识精要·持续",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1700,11 +1874,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			411711
+		},
+		show_content = {
+			411711
 		}
 	},
 	[41172] = {
-		during_time = -1,
 		name = "617",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1715,11 +1892,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411721
+		},
+		show_content = {
+			411721
 		}
 	},
 	[41181] = {
-		during_time = 3,
 		name = "突破极限",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1730,11 +1910,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tinengzhishi_1",
 		content = {
 			411811
+		},
+		show_content = {
+			411811
 		}
 	},
 	[41182] = {
-		during_time = -1,
 		name = "618",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1745,11 +1928,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411821
+		},
+		show_content = {
+			411821
 		}
 	},
 	[41191] = {
-		during_time = -1,
 		name = "稳步前行",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1760,11 +1946,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			411911
+		},
+		show_content = {
+			411911
 		}
 	},
 	[41192] = {
-		during_time = -1,
 		name = "540",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1775,11 +1964,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			411921
+		},
+		show_content = {
+			411921
 		}
 	},
 	[41201] = {
-		during_time = 1,
 		name = "醍醐灌顶",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1790,11 +1982,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			412011
+		},
+		show_content = {
+			412011
 		}
 	},
 	[41202] = {
-		during_time = 1,
 		name = "慧眼初开",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1805,11 +2000,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			412021
+		},
+		show_content = {
+			412021
 		}
 	},
 	[41203] = {
-		during_time = 1,
 		name = "豁然开朗",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1820,11 +2018,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			412031
+		},
+		show_content = {
+			412031
 		}
 	},
 	[41204] = {
-		during_time = 1,
 		name = "融会贯通",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1835,11 +2036,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			412041
+		},
+		show_content = {
+			412041
 		}
 	},
 	[41211] = {
-		during_time = 2,
 		name = "超频模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1850,11 +2054,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chaopin",
 		content = {
 			412111
+		},
+		show_content = {
+			412111
 		}
 	},
 	[41212] = {
-		during_time = -1,
 		name = "546",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1865,11 +2072,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412121
+		},
+		show_content = {
+			412121
 		}
 	},
 	[41221] = {
-		during_time = -1,
 		name = "547",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1880,11 +2090,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412211
+		},
+		show_content = {
+			412211
 		}
 	},
 	[41222] = {
-		during_time = -1,
 		name = "548",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1895,11 +2108,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412221
+		},
+		show_content = {
+			412221
 		}
 	},
 	[41231] = {
-		during_time = 3,
 		name = "极限训练",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1910,11 +2126,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_2",
 		content = {
 			412311
+		},
+		show_content = {
+			412311
 		}
 	},
 	[41232] = {
-		during_time = 3,
 		name = "常规训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1925,11 +2144,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412321
+		},
+		show_content = {
+			412321
 		}
 	},
 	[41233] = {
-		during_time = 3,
 		name = "基础训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1940,11 +2162,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412331
+		},
+		show_content = {
+			412331
 		}
 	},
 	[41234] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1955,11 +2180,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412341
+		},
+		show_content = {
+			412341
 		}
 	},
 	[41241] = {
-		during_time = 3,
 		name = "博览群书",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -1970,11 +2198,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_2",
 		content = {
 			412411
+		},
+		show_content = {
+			412411
 		}
 	},
 	[41242] = {
-		during_time = 3,
 		name = "深度阅读",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -1985,11 +2216,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412421
+		},
+		show_content = {
+			412421
 		}
 	},
 	[41243] = {
-		during_time = 3,
 		name = "略读速览",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2000,11 +2234,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412431
+		},
+		show_content = {
+			412431
 		}
 	},
 	[41244] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2015,11 +2252,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412441
+		},
+		show_content = {
+			412441
 		}
 	},
 	[41251] = {
-		during_time = 3,
 		name = "精益求精",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2030,11 +2270,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_2",
 		content = {
 			412511
+		},
+		show_content = {
+			412511
 		}
 	},
 	[41252] = {
-		during_time = 3,
 		name = "渐入佳境",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2045,11 +2288,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412521
+		},
+		show_content = {
+			412521
 		}
 	},
 	[41253] = {
-		during_time = 3,
 		name = "入门之路",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2060,11 +2306,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412531
+		},
+		show_content = {
+			412531
 		}
 	},
 	[41254] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2075,11 +2324,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412541
+		},
+		show_content = {
+			412541
 		}
 	},
 	[41261] = {
-		during_time = 3,
 		name = "巅峰状态",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2090,11 +2342,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_2",
 		content = {
 			412611
+		},
+		show_content = {
+			412611
 		}
 	},
 	[41262] = {
-		during_time = 3,
 		name = "全神贯注",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2105,11 +2360,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412621
+		},
+		show_content = {
+			412621
 		}
 	},
 	[41263] = {
-		during_time = 3,
 		name = "专注时刻",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2120,11 +2378,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412631
+		},
+		show_content = {
+			412631
 		}
 	},
 	[41264] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2135,11 +2396,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412641
+		},
+		show_content = {
+			412641
 		}
 	},
 	[41271] = {
-		during_time = -1,
 		name = "561",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2150,11 +2414,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412711
+		},
+		show_content = {
+			412711
 		}
 	},
 	[41272] = {
-		during_time = -1,
 		name = "562",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2165,11 +2432,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412721
+		},
+		show_content = {
+			412721
 		}
 	},
 	[41281] = {
-		during_time = 5,
 		name = "漫步收获",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2180,11 +2450,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			412811
+		},
+		show_content = {
+			412811
 		}
 	},
 	[41282] = {
-		during_time = -1,
 		name = "564",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2195,11 +2468,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412821
+		},
+		show_content = {
+			412821
 		}
 	},
 	[41291] = {
-		during_time = -1,
 		name = "幸运之财",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2210,11 +2486,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			412911
+		},
+		show_content = {
+			412911
 		}
 	},
 	[41292] = {
-		during_time = -1,
 		name = "幸运馈赠",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2225,11 +2504,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			412921
+		},
+		show_content = {
+			412921
 		}
 	},
 	[41293] = {
-		during_time = -1,
 		name = "567",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2240,11 +2522,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			412931
+		},
+		show_content = {
+			412931
 		}
 	},
 	[41301] = {
-		during_time = 1,
 		name = "敏锐感官",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2255,11 +2540,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_minruiganguan",
 		content = {
 			413011
+		},
+		show_content = {
+			413011
 		}
 	},
 	[41302] = {
-		during_time = -1,
 		name = "569",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2270,11 +2558,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413021
+		},
+		show_content = {
+			413021
 		}
 	},
 	[41311] = {
-		during_time = 1,
 		name = "澄明心境",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2285,11 +2576,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chengmingxinjing",
 		content = {
 			413111
+		},
+		show_content = {
+			413111
 		}
 	},
 	[41312] = {
-		during_time = -1,
 		name = "571",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2300,11 +2594,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413121
+		},
+		show_content = {
+			413121
 		}
 	},
 	[41321] = {
-		during_time = -1,
 		name = "默契时光",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2315,11 +2612,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			413211
+		},
+		show_content = {
+			413211
 		}
 	},
 	[41322] = {
-		during_time = -1,
 		name = "畅谈欢愉",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2330,11 +2630,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			413221
+		},
+		show_content = {
+			413221
 		}
 	},
 	[41323] = {
-		during_time = -1,
 		name = "574",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2345,11 +2648,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413231
+		},
+		show_content = {
+			413231
 		}
 	},
 	[41331] = {
-		during_time = -1,
 		name = "575",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2360,11 +2666,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413311
+		},
+		show_content = {
+			413311
 		}
 	},
 	[41332] = {
-		during_time = -1,
 		name = "576",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2375,11 +2684,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413321
+		},
+		show_content = {
+			413321
 		}
 	},
 	[41341] = {
-		during_time = -1,
 		name = "577",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2390,11 +2702,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413411
+		},
+		show_content = {
+			413411
 		}
 	},
 	[41342] = {
-		during_time = -1,
 		name = "578",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2405,11 +2720,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413421
+		},
+		show_content = {
+			413421
 		}
 	},
 	[41351] = {
-		during_time = -1,
 		name = "惊喜口味",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2420,11 +2738,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_2",
 		content = {
 			413511
+		},
+		show_content = {
+			413511
 		}
 	},
 	[41361] = {
-		during_time = -1,
 		name = "580",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2435,11 +2756,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413611
+		},
+		show_content = {
+			413611
 		}
 	},
 	[41362] = {
-		during_time = -1,
 		name = "581",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2450,11 +2774,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413621
+		},
+		show_content = {
+			413621
 		}
 	},
 	[41363] = {
-		during_time = -1,
 		name = "582",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2465,11 +2792,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413631
+		},
+		show_content = {
+			413631
 		}
 	},
 	[41364] = {
-		during_time = -1,
 		name = "583",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2480,11 +2810,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413641
+		},
+		show_content = {
+			413641
 		}
 	},
 	[41365] = {
-		during_time = -1,
 		name = "迷径感知",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2495,11 +2828,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_mijingganzhi",
 		content = {
 			413651
+		},
+		show_content = {
+			413651
 		}
 	},
 	[41366] = {
-		during_time = -1,
 		name = "585",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2510,11 +2846,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413661
+		},
+		show_content = {
+			413661
 		}
 	},
 	[41371] = {
-		during_time = 2,
 		name = "节能模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2525,11 +2864,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jieneng",
 		content = {
 			413711
+		},
+		show_content = {
+			413711
 		}
 	},
 	[41372] = {
-		during_time = -1,
 		name = "587",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2540,11 +2882,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413721
+		},
+		show_content = {
+			413721
 		}
 	},
 	[41381] = {
-		during_time = 3,
 		name = "实感强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2555,11 +2900,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			413811
+		},
+		show_content = {
+			413811
 		}
 	},
 	[41382] = {
-		during_time = 3,
 		name = "体智强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2570,11 +2918,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			413821
+		},
+		show_content = {
+			413821
 		}
 	},
 	[41383] = {
-		during_time = 3,
 		name = "实感强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2585,11 +2936,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			413831
+		},
+		show_content = {
+			413831
 		}
 	},
 	[41384] = {
-		during_time = 3,
 		name = "体智强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2600,11 +2954,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			413841
+		},
+		show_content = {
+			413841
 		}
 	},
 	[41385] = {
-		during_time = 5,
 		name = "实感持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2615,11 +2972,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			413851
+		},
+		show_content = {
+			413851
 		}
 	},
 	[41386] = {
-		during_time = 5,
 		name = "体智持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2630,11 +2990,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			413861
+		},
+		show_content = {
+			413861
 		}
 	},
 	[41387] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2645,11 +3008,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			413871
+		},
+		show_content = {
+			413871
 		}
 	},
 	[41388] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2660,11 +3026,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			413881
+		},
+		show_content = {
+			413881
 		}
 	},
 	[41389] = {
-		during_time = 10,
 		name = "幸运祝福",
+		during_time = 10,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2675,11 +3044,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			413891
+		},
+		show_content = {
+			413891
 		}
 	},
 	[41391] = {
-		during_time = -1,
 		name = "598",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2690,11 +3062,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413911
+		},
+		show_content = {
+			413911
 		}
 	},
 	[41392] = {
-		during_time = -1,
 		name = "599",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2705,11 +3080,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			413921
+		},
+		show_content = {
+			413921
 		}
 	},
 	[41401] = {
-		during_time = -1,
 		name = "600",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2720,11 +3098,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414011
+		},
+		show_content = {
+			414011
 		}
 	},
 	[41402] = {
-		during_time = -1,
 		name = "601",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2735,11 +3116,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414021
+		},
+		show_content = {
+			414021
 		}
 	},
 	[41411] = {
-		during_time = -1,
 		name = "引擎之心",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2754,11 +3138,18 @@ pg.base.child2_benefit_list = {
 			414113,
 			414114,
 			414115
+		},
+		show_content = {
+			414111,
+			414112,
+			414113,
+			414114,
+			414115
 		}
 	},
 	[41412] = {
-		during_time = -1,
 		name = "603",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2769,11 +3160,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414121
+		},
+		show_content = {
+			414121
 		}
 	},
 	[41421] = {
-		during_time = -1,
 		name = "604",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2784,11 +3178,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414211
+		},
+		show_content = {
+			414211
 		}
 	},
 	[41422] = {
-		during_time = -1,
 		name = "605",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2799,11 +3196,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414221
+		},
+		show_content = {
+			414221
 		}
 	},
 	[41431] = {
-		during_time = -1,
 		name = "606",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2814,11 +3214,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414311
+		},
+		show_content = {
+			414311
 		}
 	},
 	[41432] = {
-		during_time = -1,
 		name = "607",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2829,11 +3232,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414321
+		},
+		show_content = {
+			414321
 		}
 	},
 	[41441] = {
-		during_time = -1,
 		name = "疗愈之语",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2848,11 +3254,18 @@ pg.base.child2_benefit_list = {
 			414413,
 			414414,
 			414415
+		},
+		show_content = {
+			414411,
+			414412,
+			414413,
+			414414,
+			414415
 		}
 	},
 	[41442] = {
-		during_time = -1,
 		name = "609",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2863,11 +3276,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414421
+		},
+		show_content = {
+			414421
 		}
 	},
 	[41451] = {
-		during_time = -1,
 		name = "623",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2878,11 +3294,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414511
+		},
+		show_content = {
+			414511
 		}
 	},
 	[41452] = {
-		during_time = -1,
 		name = "622",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2893,11 +3312,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414521
+		},
+		show_content = {
+			414521
 		}
 	},
 	[41461] = {
-		during_time = -1,
 		name = "625",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2908,11 +3330,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414611
+		},
+		show_content = {
+			414611
 		}
 	},
 	[41462] = {
-		during_time = 5,
 		name = "幸运心情",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2923,11 +3348,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_3",
 		content = {
 			414621
+		},
+		show_content = {
+			414621
 		}
 	},
 	[41463] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2938,11 +3366,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414631
+		},
+		show_content = {
+			414631
 		}
 	},
 	[41464] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2953,11 +3384,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414641
+		},
+		show_content = {
+			414641
 		}
 	},
 	[41465] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2968,11 +3402,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414651
+		},
+		show_content = {
+			414651
 		}
 	},
 	[41466] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -2983,11 +3420,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			414661
+		},
+		show_content = {
+			414661
 		}
 	},
 	[41467] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -2998,11 +3438,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			414671
+		},
+		show_content = {
+			414671
 		}
 	},
 	[41468] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3013,11 +3456,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			414681
+		},
+		show_content = {
+			414681
 		}
 	},
 	[41469] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3028,11 +3474,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			414691
+		},
+		show_content = {
+			414691
 		}
 	},
 	[41470] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3043,11 +3492,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			414701
+		},
+		show_content = {
+			414701
 		}
 	},
 	[41471] = {
-		during_time = 1,
 		name = "抽王牌惩罚-体能惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3058,11 +3510,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			414711
+		},
+		show_content = {
+			414711
 		}
 	},
 	[41472] = {
-		during_time = 1,
 		name = "抽王牌惩罚-知识惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3073,11 +3528,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			414721
+		},
+		show_content = {
+			414721
 		}
 	},
 	[41473] = {
-		during_time = 1,
 		name = "抽王牌惩罚-实践惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3088,11 +3546,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			414731
+		},
+		show_content = {
+			414731
 		}
 	},
 	[41474] = {
-		during_time = 1,
 		name = "抽王牌惩罚-感知惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3103,11 +3564,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			414741
+		},
+		show_content = {
+			414741
 		}
 	},
 	[42011] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3116,11 +3580,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 42011,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[42021] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3131,11 +3596,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420211
+		},
+		show_content = {
+			420211
 		}
 	},
 	[42022] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3146,11 +3614,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420221
+		},
+		show_content = {
+			420221
 		}
 	},
 	[42023] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3161,11 +3632,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420231
+		},
+		show_content = {
+			420231
 		}
 	},
 	[42024] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3176,11 +3650,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420241
+		},
+		show_content = {
+			420241
 		}
 	},
 	[42031] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3189,11 +3666,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 42031,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[42041] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3202,11 +3680,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 42041,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[42051] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3215,11 +3694,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 42051,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[42061] = {
-		during_time = -1,
 		name = "509",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3230,11 +3710,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420611
+		},
+		show_content = {
+			420611
 		}
 	},
 	[42062] = {
-		during_time = -1,
 		name = "510",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3245,11 +3728,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420621
+		},
+		show_content = {
+			420621
 		}
 	},
 	[42063] = {
-		during_time = -1,
 		name = "511",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3260,11 +3746,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420631
+		},
+		show_content = {
+			420631
 		}
 	},
 	[42064] = {
-		during_time = -1,
 		name = "512",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3275,11 +3764,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420641
+		},
+		show_content = {
+			420641
 		}
 	},
 	[42071] = {
-		during_time = -1,
 		name = "513",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3290,11 +3782,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420711
+		},
+		show_content = {
+			420711
 		}
 	},
 	[42072] = {
-		during_time = -1,
 		name = "514",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3305,11 +3800,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420721
+		},
+		show_content = {
+			420721
 		}
 	},
 	[42073] = {
-		during_time = -1,
 		name = "515",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3320,11 +3818,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420731
+		},
+		show_content = {
+			420731
 		}
 	},
 	[42074] = {
-		during_time = -1,
 		name = "516",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3335,11 +3836,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420741
+		},
+		show_content = {
+			420741
 		}
 	},
 	[42081] = {
-		during_time = -1,
 		name = "517",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3350,11 +3854,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420811
+		},
+		show_content = {
+			420811
 		}
 	},
 	[42082] = {
-		during_time = -1,
 		name = "613",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3365,11 +3872,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420821
+		},
+		show_content = {
+			420821
 		}
 	},
 	[42091] = {
-		during_time = -1,
 		name = "518",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3380,11 +3890,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420911
+		},
+		show_content = {
+			420911
 		}
 	},
 	[42092] = {
-		during_time = -1,
 		name = "519",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3395,11 +3908,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420921
+		},
+		show_content = {
+			420921
 		}
 	},
 	[42093] = {
-		during_time = -1,
 		name = "520",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3410,11 +3926,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			420931
+		},
+		show_content = {
+			420931
 		}
 	},
 	[42101] = {
-		during_time = -1,
 		name = "521",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3425,11 +3944,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421011
+		},
+		show_content = {
+			421011
 		}
 	},
 	[42102] = {
-		during_time = -1,
 		name = "614",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3440,11 +3962,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421021
+		},
+		show_content = {
+			421021
 		}
 	},
 	[42111] = {
-		during_time = -1,
 		name = "522",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3455,11 +3980,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421111
+		},
+		show_content = {
+			421111
 		}
 	},
 	[42112] = {
-		during_time = -1,
 		name = "523",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3470,11 +3998,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421121
+		},
+		show_content = {
+			421121
 		}
 	},
 	[42113] = {
-		during_time = -1,
 		name = "524",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3485,11 +4016,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421131
+		},
+		show_content = {
+			421131
 		}
 	},
 	[42114] = {
-		during_time = -1,
 		name = "525",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3500,11 +4034,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421141
+		},
+		show_content = {
+			421141
 		}
 	},
 	[42115] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3513,11 +4050,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 42115,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[42121] = {
-		during_time = -1,
 		name = "527",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3528,11 +4066,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421211
+		},
+		show_content = {
+			421211
 		}
 	},
 	[42122] = {
-		during_time = -1,
 		name = "615",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3543,11 +4084,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421221
+		},
+		show_content = {
+			421221
 		}
 	},
 	[42131] = {
-		during_time = -1,
 		name = "528",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3558,11 +4102,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421311
+		},
+		show_content = {
+			421311
 		}
 	},
 	[42132] = {
-		during_time = -1,
 		name = "529",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3573,11 +4120,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421321
+		},
+		show_content = {
+			421321
 		}
 	},
 	[42133] = {
-		during_time = -1,
 		name = "530",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3588,11 +4138,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421331
+		},
+		show_content = {
+			421331
 		}
 	},
 	[42134] = {
-		during_time = -1,
 		name = "531",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3603,11 +4156,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421341
+		},
+		show_content = {
+			421341
 		}
 	},
 	[42135] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3616,11 +4172,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 42135,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[42141] = {
-		during_time = -1,
 		name = "533",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3631,11 +4188,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421411
+		},
+		show_content = {
+			421411
 		}
 	},
 	[42142] = {
-		during_time = -1,
 		name = "534",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3646,11 +4206,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421421
+		},
+		show_content = {
+			421421
 		}
 	},
 	[42151] = {
-		during_time = -1,
 		name = "535",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3661,11 +4224,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421511
+		},
+		show_content = {
+			421511
 		}
 	},
 	[42161] = {
-		during_time = 3,
 		name = "知识精要·速成",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3676,11 +4242,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			421611
+		},
+		show_content = {
+			421611
 		}
 	},
 	[42162] = {
-		during_time = -1,
 		name = "616",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3691,11 +4260,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421621
+		},
+		show_content = {
+			421621
 		}
 	},
 	[42171] = {
-		during_time = -1,
 		name = "知识精要·持续",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3706,11 +4278,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			421711
+		},
+		show_content = {
+			421711
 		}
 	},
 	[42172] = {
-		during_time = -1,
 		name = "617",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3721,11 +4296,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421721
+		},
+		show_content = {
+			421721
 		}
 	},
 	[42181] = {
-		during_time = 3,
 		name = "突破极限",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3736,11 +4314,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tinengzhishi_1",
 		content = {
 			421811
+		},
+		show_content = {
+			421811
 		}
 	},
 	[42182] = {
-		during_time = -1,
 		name = "618",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3751,11 +4332,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421821
+		},
+		show_content = {
+			421821
 		}
 	},
 	[42191] = {
-		during_time = -1,
 		name = "稳步前行",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3766,11 +4350,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			421911
+		},
+		show_content = {
+			421911
 		}
 	},
 	[42192] = {
-		during_time = -1,
 		name = "540",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3781,11 +4368,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			421921
+		},
+		show_content = {
+			421921
 		}
 	},
 	[42201] = {
-		during_time = 1,
 		name = "醍醐灌顶",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3796,11 +4386,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			422011
+		},
+		show_content = {
+			422011
 		}
 	},
 	[42202] = {
-		during_time = 1,
 		name = "慧眼初开",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3811,11 +4404,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			422021
+		},
+		show_content = {
+			422021
 		}
 	},
 	[42203] = {
-		during_time = 1,
 		name = "豁然开朗",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3826,11 +4422,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			422031
+		},
+		show_content = {
+			422031
 		}
 	},
 	[42204] = {
-		during_time = 1,
 		name = "融会贯通",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3841,11 +4440,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			422041
+		},
+		show_content = {
+			422041
 		}
 	},
 	[42211] = {
-		during_time = 2,
 		name = "超频模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3856,11 +4458,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chaopin",
 		content = {
 			422111
+		},
+		show_content = {
+			422111
 		}
 	},
 	[42212] = {
-		during_time = -1,
 		name = "546",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3871,11 +4476,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422121
+		},
+		show_content = {
+			422121
 		}
 	},
 	[42221] = {
-		during_time = -1,
 		name = "547",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3886,11 +4494,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422211
+		},
+		show_content = {
+			422211
 		}
 	},
 	[42222] = {
-		during_time = -1,
 		name = "548",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3901,11 +4512,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422221
+		},
+		show_content = {
+			422221
 		}
 	},
 	[42231] = {
-		during_time = 3,
 		name = "极限训练",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3916,11 +4530,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_2",
 		content = {
 			422311
+		},
+		show_content = {
+			422311
 		}
 	},
 	[42232] = {
-		during_time = 3,
 		name = "常规训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3931,11 +4548,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_2",
 		content = {
 			422321
+		},
+		show_content = {
+			422321
 		}
 	},
 	[42233] = {
-		during_time = 3,
 		name = "基础训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3946,11 +4566,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			422331
+		},
+		show_content = {
+			422331
 		}
 	},
 	[42234] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3961,11 +4584,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422341
+		},
+		show_content = {
+			422341
 		}
 	},
 	[42241] = {
-		during_time = 3,
 		name = "博览群书",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -3976,11 +4602,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_2",
 		content = {
 			422411
+		},
+		show_content = {
+			422411
 		}
 	},
 	[42242] = {
-		during_time = 3,
 		name = "深度阅读",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -3991,11 +4620,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_2",
 		content = {
 			422421
+		},
+		show_content = {
+			422421
 		}
 	},
 	[42243] = {
-		during_time = 3,
 		name = "略读速览",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4006,11 +4638,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			422431
+		},
+		show_content = {
+			422431
 		}
 	},
 	[42244] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4021,11 +4656,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422441
+		},
+		show_content = {
+			422441
 		}
 	},
 	[42251] = {
-		during_time = 3,
 		name = "精益求精",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4036,11 +4674,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_2",
 		content = {
 			422511
+		},
+		show_content = {
+			422511
 		}
 	},
 	[42252] = {
-		during_time = 3,
 		name = "渐入佳境",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4051,11 +4692,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_2",
 		content = {
 			422521
+		},
+		show_content = {
+			422521
 		}
 	},
 	[42253] = {
-		during_time = 3,
 		name = "入门之路",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4066,11 +4710,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_1",
 		content = {
 			422531
+		},
+		show_content = {
+			422531
 		}
 	},
 	[42254] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4081,11 +4728,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422541
+		},
+		show_content = {
+			422541
 		}
 	},
 	[42261] = {
-		during_time = 3,
 		name = "巅峰状态",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4096,11 +4746,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_2",
 		content = {
 			422611
+		},
+		show_content = {
+			422611
 		}
 	},
 	[42262] = {
-		during_time = 3,
 		name = "全神贯注",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4111,11 +4764,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_2",
 		content = {
 			422621
+		},
+		show_content = {
+			422621
 		}
 	},
 	[42263] = {
-		during_time = 3,
 		name = "专注时刻",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4126,11 +4782,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_1",
 		content = {
 			422631
+		},
+		show_content = {
+			422631
 		}
 	},
 	[42264] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4141,11 +4800,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422641
+		},
+		show_content = {
+			422641
 		}
 	},
 	[42271] = {
-		during_time = -1,
 		name = "561",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4156,11 +4818,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422711
+		},
+		show_content = {
+			422711
 		}
 	},
 	[42272] = {
-		during_time = -1,
 		name = "562",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4171,11 +4836,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422721
+		},
+		show_content = {
+			422721
 		}
 	},
 	[42281] = {
-		during_time = 5,
 		name = "漫步收获",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4186,11 +4854,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			422811
+		},
+		show_content = {
+			422811
 		}
 	},
 	[42282] = {
-		during_time = -1,
 		name = "564",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4201,11 +4872,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422821
+		},
+		show_content = {
+			422821
 		}
 	},
 	[42291] = {
-		during_time = -1,
 		name = "幸运之财",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4216,11 +4890,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			422911
+		},
+		show_content = {
+			422911
 		}
 	},
 	[42292] = {
-		during_time = -1,
 		name = "幸运馈赠",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4231,11 +4908,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			422921
+		},
+		show_content = {
+			422921
 		}
 	},
 	[42293] = {
-		during_time = -1,
 		name = "567",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4246,11 +4926,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			422931
+		},
+		show_content = {
+			422931
 		}
 	},
 	[42301] = {
-		during_time = 1,
 		name = "敏锐感官",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4261,11 +4944,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_minruiganguan",
 		content = {
 			423011
+		},
+		show_content = {
+			423011
 		}
 	},
 	[42302] = {
-		during_time = -1,
 		name = "569",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4276,11 +4962,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423021
+		},
+		show_content = {
+			423021
 		}
 	},
 	[42311] = {
-		during_time = 1,
 		name = "澄明心境",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4291,11 +4980,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chengmingxinjing",
 		content = {
 			423111
+		},
+		show_content = {
+			423111
 		}
 	},
 	[42312] = {
-		during_time = -1,
 		name = "571",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4306,11 +4998,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423121
+		},
+		show_content = {
+			423121
 		}
 	},
 	[42321] = {
-		during_time = -1,
 		name = "默契时光",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4321,11 +5016,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			423211
+		},
+		show_content = {
+			423211
 		}
 	},
 	[42322] = {
-		during_time = -1,
 		name = "畅谈欢愉",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4336,11 +5034,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			423221
+		},
+		show_content = {
+			423221
 		}
 	},
 	[42323] = {
-		during_time = -1,
 		name = "574",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4351,11 +5052,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423231
+		},
+		show_content = {
+			423231
 		}
 	},
 	[42331] = {
-		during_time = -1,
 		name = "575",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4366,11 +5070,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423311
+		},
+		show_content = {
+			423311
 		}
 	},
 	[42332] = {
-		during_time = -1,
 		name = "576",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4381,11 +5088,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423321
+		},
+		show_content = {
+			423321
 		}
 	},
 	[42341] = {
-		during_time = -1,
 		name = "577",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4396,11 +5106,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423411
+		},
+		show_content = {
+			423411
 		}
 	},
 	[42342] = {
-		during_time = -1,
 		name = "578",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4411,11 +5124,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423421
+		},
+		show_content = {
+			423421
 		}
 	},
 	[42351] = {
-		during_time = -1,
 		name = "惊喜口味",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4426,11 +5142,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			423511
+		},
+		show_content = {
+			423511
 		}
 	},
 	[42361] = {
-		during_time = -1,
 		name = "580",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4441,11 +5160,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423611
+		},
+		show_content = {
+			423611
 		}
 	},
 	[42362] = {
-		during_time = -1,
 		name = "581",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4456,11 +5178,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423621
+		},
+		show_content = {
+			423621
 		}
 	},
 	[42363] = {
-		during_time = -1,
 		name = "582",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4471,11 +5196,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423631
+		},
+		show_content = {
+			423631
 		}
 	},
 	[42364] = {
-		during_time = -1,
 		name = "583",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4486,11 +5214,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423641
+		},
+		show_content = {
+			423641
 		}
 	},
 	[42365] = {
-		during_time = -1,
 		name = "迷径感知",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4501,11 +5232,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_mijingganzhi",
 		content = {
 			423651
+		},
+		show_content = {
+			423651
 		}
 	},
 	[42366] = {
-		during_time = -1,
 		name = "585",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4516,11 +5250,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423661
+		},
+		show_content = {
+			423661
 		}
 	},
 	[42371] = {
-		during_time = 2,
 		name = "节能模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4531,11 +5268,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jieneng",
 		content = {
 			423711
+		},
+		show_content = {
+			423711
 		}
 	},
 	[42372] = {
-		during_time = -1,
 		name = "587",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4546,11 +5286,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423721
+		},
+		show_content = {
+			423721
 		}
 	},
 	[42381] = {
-		during_time = 3,
 		name = "实感强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4561,11 +5304,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			423811
+		},
+		show_content = {
+			423811
 		}
 	},
 	[42382] = {
-		during_time = 3,
 		name = "体智强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4576,11 +5322,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			423821
+		},
+		show_content = {
+			423821
 		}
 	},
 	[42383] = {
-		during_time = 3,
 		name = "实感强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4591,11 +5340,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			423831
+		},
+		show_content = {
+			423831
 		}
 	},
 	[42384] = {
-		during_time = 3,
 		name = "体智强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4606,11 +5358,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			423841
+		},
+		show_content = {
+			423841
 		}
 	},
 	[42385] = {
-		during_time = 5,
 		name = "实感持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4621,11 +5376,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			423851
+		},
+		show_content = {
+			423851
 		}
 	},
 	[42386] = {
-		during_time = 5,
 		name = "体智持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4636,11 +5394,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			423861
+		},
+		show_content = {
+			423861
 		}
 	},
 	[42387] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4651,11 +5412,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			423871
+		},
+		show_content = {
+			423871
 		}
 	},
 	[42388] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4666,11 +5430,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			423881
+		},
+		show_content = {
+			423881
 		}
 	},
 	[42389] = {
-		during_time = 10,
 		name = "幸运祝福",
+		during_time = 10,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4681,11 +5448,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			423891
+		},
+		show_content = {
+			423891
 		}
 	},
 	[42391] = {
-		during_time = -1,
 		name = "598",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4696,11 +5466,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423911
+		},
+		show_content = {
+			423911
 		}
 	},
 	[42392] = {
-		during_time = -1,
 		name = "599",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4711,11 +5484,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			423921
+		},
+		show_content = {
+			423921
 		}
 	},
 	[42401] = {
-		during_time = -1,
 		name = "600",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4726,11 +5502,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424011
+		},
+		show_content = {
+			424011
 		}
 	},
 	[42402] = {
-		during_time = -1,
 		name = "601",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4741,11 +5520,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424021
+		},
+		show_content = {
+			424021
 		}
 	},
 	[42411] = {
-		during_time = -1,
 		name = "引擎之心",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4760,11 +5542,18 @@ pg.base.child2_benefit_list = {
 			424113,
 			424114,
 			424115
+		},
+		show_content = {
+			424111,
+			424112,
+			424113,
+			424114,
+			424115
 		}
 	},
 	[42412] = {
-		during_time = -1,
 		name = "603",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4775,11 +5564,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424121
+		},
+		show_content = {
+			424121
 		}
 	},
 	[42421] = {
-		during_time = -1,
 		name = "604",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4790,11 +5582,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424211
+		},
+		show_content = {
+			424211
 		}
 	},
 	[42422] = {
-		during_time = -1,
 		name = "605",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4805,11 +5600,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424221
+		},
+		show_content = {
+			424221
 		}
 	},
 	[42431] = {
-		during_time = -1,
 		name = "606",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4820,11 +5618,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424311
+		},
+		show_content = {
+			424311
 		}
 	},
 	[42432] = {
-		during_time = -1,
 		name = "607",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4835,11 +5636,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424321
+		},
+		show_content = {
+			424321
 		}
 	},
 	[42441] = {
-		during_time = -1,
 		name = "疗愈之语",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4854,11 +5658,18 @@ pg.base.child2_benefit_list = {
 			424413,
 			424414,
 			424415
+		},
+		show_content = {
+			424411,
+			424412,
+			424413,
+			424414,
+			424415
 		}
 	},
 	[42442] = {
-		during_time = -1,
 		name = "609",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4869,11 +5680,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424421
+		},
+		show_content = {
+			424421
 		}
 	},
 	[42451] = {
-		during_time = -1,
 		name = "623",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4884,11 +5698,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424511
+		},
+		show_content = {
+			424511
 		}
 	},
 	[42452] = {
-		during_time = -1,
 		name = "622",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4899,11 +5716,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424521
+		},
+		show_content = {
+			424521
 		}
 	},
 	[42461] = {
-		during_time = -1,
 		name = "625",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4914,11 +5734,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424611
+		},
+		show_content = {
+			424611
 		}
 	},
 	[42462] = {
-		during_time = 5,
 		name = "幸运心情",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -4929,11 +5752,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_3",
 		content = {
 			424621
+		},
+		show_content = {
+			424621
 		}
 	},
 	[42463] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4944,11 +5770,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424631
+		},
+		show_content = {
+			424631
 		}
 	},
 	[42464] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4959,11 +5788,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424641
+		},
+		show_content = {
+			424641
 		}
 	},
 	[42465] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4974,11 +5806,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424651
+		},
+		show_content = {
+			424651
 		}
 	},
 	[42466] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -4989,11 +5824,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			424661
+		},
+		show_content = {
+			424661
 		}
 	},
 	[42467] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5004,11 +5842,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			424671
+		},
+		show_content = {
+			424671
 		}
 	},
 	[42468] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5019,11 +5860,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			424681
+		},
+		show_content = {
+			424681
 		}
 	},
 	[42469] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5034,11 +5878,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			424691
+		},
+		show_content = {
+			424691
 		}
 	},
 	[42470] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5049,11 +5896,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			424701
+		},
+		show_content = {
+			424701
 		}
 	},
 	[42471] = {
-		during_time = 1,
 		name = "抽王牌惩罚-体能惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5064,11 +5914,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			424711
+		},
+		show_content = {
+			424711
 		}
 	},
 	[42472] = {
-		during_time = 1,
 		name = "抽王牌惩罚-知识惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5079,11 +5932,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			424721
+		},
+		show_content = {
+			424721
 		}
 	},
 	[42473] = {
-		during_time = 1,
 		name = "抽王牌惩罚-实践惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5094,11 +5950,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			424731
+		},
+		show_content = {
+			424731
 		}
 	},
 	[42474] = {
-		during_time = 1,
 		name = "抽王牌惩罚-感知惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5109,11 +5968,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			424741
+		},
+		show_content = {
+			424741
 		}
 	},
 	[43011] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5122,11 +5984,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 43011,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[43021] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5137,11 +6000,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430211
+		},
+		show_content = {
+			430211
 		}
 	},
 	[43022] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5152,11 +6018,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430221
+		},
+		show_content = {
+			430221
 		}
 	},
 	[43023] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5167,11 +6036,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430231
+		},
+		show_content = {
+			430231
 		}
 	},
 	[43024] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5182,11 +6054,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430241
+		},
+		show_content = {
+			430241
 		}
 	},
 	[43031] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5195,11 +6070,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 43031,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[43041] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5208,11 +6084,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 43041,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[43051] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5221,11 +6098,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 43051,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[43061] = {
-		during_time = -1,
 		name = "509",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5236,11 +6114,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430611
+		},
+		show_content = {
+			430611
 		}
 	},
 	[43062] = {
-		during_time = -1,
 		name = "510",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5251,11 +6132,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430621
+		},
+		show_content = {
+			430621
 		}
 	},
 	[43063] = {
-		during_time = -1,
 		name = "511",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5266,11 +6150,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430631
+		},
+		show_content = {
+			430631
 		}
 	},
 	[43064] = {
-		during_time = -1,
 		name = "512",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5281,11 +6168,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430641
+		},
+		show_content = {
+			430641
 		}
 	},
 	[43071] = {
-		during_time = -1,
 		name = "513",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5296,11 +6186,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430711
+		},
+		show_content = {
+			430711
 		}
 	},
 	[43072] = {
-		during_time = -1,
 		name = "514",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5311,11 +6204,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430721
+		},
+		show_content = {
+			430721
 		}
 	},
 	[43073] = {
-		during_time = -1,
 		name = "515",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5326,11 +6222,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430731
+		},
+		show_content = {
+			430731
 		}
 	},
 	[43074] = {
-		during_time = -1,
 		name = "516",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5341,11 +6240,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430741
+		},
+		show_content = {
+			430741
 		}
 	},
 	[43081] = {
-		during_time = -1,
 		name = "517",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5356,11 +6258,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430811
+		},
+		show_content = {
+			430811
 		}
 	},
 	[43082] = {
-		during_time = -1,
 		name = "613",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5371,11 +6276,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430821
+		},
+		show_content = {
+			430821
 		}
 	},
 	[43091] = {
-		during_time = -1,
 		name = "518",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5386,11 +6294,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430911
+		},
+		show_content = {
+			430911
 		}
 	},
 	[43092] = {
-		during_time = -1,
 		name = "519",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5401,11 +6312,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430921
+		},
+		show_content = {
+			430921
 		}
 	},
 	[43093] = {
-		during_time = -1,
 		name = "520",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5416,11 +6330,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			430931
+		},
+		show_content = {
+			430931
 		}
 	},
 	[43101] = {
-		during_time = -1,
 		name = "521",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5431,11 +6348,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431011
+		},
+		show_content = {
+			431011
 		}
 	},
 	[43102] = {
-		during_time = -1,
 		name = "614",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5446,11 +6366,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431021
+		},
+		show_content = {
+			431021
 		}
 	},
 	[43111] = {
-		during_time = -1,
 		name = "522",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5461,11 +6384,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431111
+		},
+		show_content = {
+			431111
 		}
 	},
 	[43112] = {
-		during_time = -1,
 		name = "523",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5476,11 +6402,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431121
+		},
+		show_content = {
+			431121
 		}
 	},
 	[43113] = {
-		during_time = -1,
 		name = "524",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5491,11 +6420,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431131
+		},
+		show_content = {
+			431131
 		}
 	},
 	[43114] = {
-		during_time = -1,
 		name = "525",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5506,11 +6438,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431141
+		},
+		show_content = {
+			431141
 		}
 	},
 	[43115] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5519,11 +6454,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 43115,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[43121] = {
-		during_time = -1,
 		name = "527",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5534,11 +6470,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431211
+		},
+		show_content = {
+			431211
 		}
 	},
 	[43122] = {
-		during_time = -1,
 		name = "615",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5549,11 +6488,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431221
+		},
+		show_content = {
+			431221
 		}
 	},
 	[43131] = {
-		during_time = -1,
 		name = "528",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5564,11 +6506,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431311
+		},
+		show_content = {
+			431311
 		}
 	},
 	[43132] = {
-		during_time = -1,
 		name = "529",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5579,11 +6524,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431321
+		},
+		show_content = {
+			431321
 		}
 	},
 	[43133] = {
-		during_time = -1,
 		name = "530",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5594,11 +6542,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431331
+		},
+		show_content = {
+			431331
 		}
 	},
 	[43134] = {
-		during_time = -1,
 		name = "531",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5609,11 +6560,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431341
+		},
+		show_content = {
+			431341
 		}
 	},
 	[43135] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5622,11 +6576,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 43135,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[43141] = {
-		during_time = -1,
 		name = "533",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5637,11 +6592,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431411
+		},
+		show_content = {
+			431411
 		}
 	},
 	[43142] = {
-		during_time = -1,
 		name = "534",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5652,11 +6610,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431421
+		},
+		show_content = {
+			431421
 		}
 	},
 	[43151] = {
-		during_time = -1,
 		name = "535",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5667,11 +6628,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431511
+		},
+		show_content = {
+			431511
 		}
 	},
 	[43161] = {
-		during_time = 3,
 		name = "知识精要·速成",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5682,11 +6646,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			431611
+		},
+		show_content = {
+			431611
 		}
 	},
 	[43162] = {
-		during_time = -1,
 		name = "616",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5697,11 +6664,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431621
+		},
+		show_content = {
+			431621
 		}
 	},
 	[43171] = {
-		during_time = -1,
 		name = "知识精要·持续",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5712,11 +6682,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			431711
+		},
+		show_content = {
+			431711
 		}
 	},
 	[43172] = {
-		during_time = -1,
 		name = "617",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5727,11 +6700,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431721
+		},
+		show_content = {
+			431721
 		}
 	},
 	[43181] = {
-		during_time = 3,
 		name = "突破极限",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5742,11 +6718,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tinengzhishi_1",
 		content = {
 			431811
+		},
+		show_content = {
+			431811
 		}
 	},
 	[43182] = {
-		during_time = -1,
 		name = "618",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5757,11 +6736,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431821
+		},
+		show_content = {
+			431821
 		}
 	},
 	[43191] = {
-		during_time = -1,
 		name = "稳步前行",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5772,11 +6754,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			431911
+		},
+		show_content = {
+			431911
 		}
 	},
 	[43192] = {
-		during_time = -1,
 		name = "540",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5787,11 +6772,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			431921
+		},
+		show_content = {
+			431921
 		}
 	},
 	[43201] = {
-		during_time = 1,
 		name = "醍醐灌顶",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5802,11 +6790,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			432011
+		},
+		show_content = {
+			432011
 		}
 	},
 	[43202] = {
-		during_time = 1,
 		name = "慧眼初开",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5817,11 +6808,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			432021
+		},
+		show_content = {
+			432021
 		}
 	},
 	[43203] = {
-		during_time = 1,
 		name = "豁然开朗",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5832,11 +6826,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			432031
+		},
+		show_content = {
+			432031
 		}
 	},
 	[43204] = {
-		during_time = 1,
 		name = "融会贯通",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5847,11 +6844,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			432041
+		},
+		show_content = {
+			432041
 		}
 	},
 	[43211] = {
-		during_time = 2,
 		name = "超频模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5862,11 +6862,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chaopin",
 		content = {
 			432111
+		},
+		show_content = {
+			432111
 		}
 	},
 	[43212] = {
-		during_time = -1,
 		name = "546",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5877,11 +6880,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432121
+		},
+		show_content = {
+			432121
 		}
 	},
 	[43221] = {
-		during_time = -1,
 		name = "547",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5892,11 +6898,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432211
+		},
+		show_content = {
+			432211
 		}
 	},
 	[43222] = {
-		during_time = -1,
 		name = "548",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5907,11 +6916,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432221
+		},
+		show_content = {
+			432221
 		}
 	},
 	[43231] = {
-		during_time = 3,
 		name = "极限训练",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5922,11 +6934,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			432311
+		},
+		show_content = {
+			432311
 		}
 	},
 	[43232] = {
-		during_time = 3,
 		name = "常规训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5937,11 +6952,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_2",
 		content = {
 			432321
+		},
+		show_content = {
+			432321
 		}
 	},
 	[43233] = {
-		during_time = 3,
 		name = "基础训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5952,11 +6970,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			432331
+		},
+		show_content = {
+			432331
 		}
 	},
 	[43234] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5967,11 +6988,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432341
+		},
+		show_content = {
+			432341
 		}
 	},
 	[43241] = {
-		during_time = 3,
 		name = "博览群书",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -5982,11 +7006,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			432411
+		},
+		show_content = {
+			432411
 		}
 	},
 	[43242] = {
-		during_time = 3,
 		name = "深度阅读",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -5997,11 +7024,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_2",
 		content = {
 			432421
+		},
+		show_content = {
+			432421
 		}
 	},
 	[43243] = {
-		during_time = 3,
 		name = "略读速览",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6012,11 +7042,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			432431
+		},
+		show_content = {
+			432431
 		}
 	},
 	[43244] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6027,11 +7060,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432441
+		},
+		show_content = {
+			432441
 		}
 	},
 	[43251] = {
-		during_time = 3,
 		name = "精益求精",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6042,11 +7078,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			432511
+		},
+		show_content = {
+			432511
 		}
 	},
 	[43252] = {
-		during_time = 3,
 		name = "渐入佳境",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6057,11 +7096,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_2",
 		content = {
 			432521
+		},
+		show_content = {
+			432521
 		}
 	},
 	[43253] = {
-		during_time = 3,
 		name = "入门之路",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6072,11 +7114,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_1",
 		content = {
 			432531
+		},
+		show_content = {
+			432531
 		}
 	},
 	[43254] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6087,11 +7132,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432541
+		},
+		show_content = {
+			432541
 		}
 	},
 	[43261] = {
-		during_time = 3,
 		name = "巅峰状态",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6102,11 +7150,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			432611
+		},
+		show_content = {
+			432611
 		}
 	},
 	[43262] = {
-		during_time = 3,
 		name = "全神贯注",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6117,11 +7168,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_2",
 		content = {
 			432621
+		},
+		show_content = {
+			432621
 		}
 	},
 	[43263] = {
-		during_time = 3,
 		name = "专注时刻",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6132,11 +7186,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_1",
 		content = {
 			432631
+		},
+		show_content = {
+			432631
 		}
 	},
 	[43264] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6147,11 +7204,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432641
+		},
+		show_content = {
+			432641
 		}
 	},
 	[43271] = {
-		during_time = -1,
 		name = "561",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6162,11 +7222,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432711
+		},
+		show_content = {
+			432711
 		}
 	},
 	[43272] = {
-		during_time = -1,
 		name = "562",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6177,11 +7240,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432721
+		},
+		show_content = {
+			432721
 		}
 	},
 	[43281] = {
-		during_time = 5,
 		name = "漫步收获",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6192,11 +7258,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			432811
+		},
+		show_content = {
+			432811
 		}
 	},
 	[43282] = {
-		during_time = -1,
 		name = "564",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6207,11 +7276,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432821
+		},
+		show_content = {
+			432821
 		}
 	},
 	[43291] = {
-		during_time = -1,
 		name = "幸运之财",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6222,11 +7294,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			432911
+		},
+		show_content = {
+			432911
 		}
 	},
 	[43292] = {
-		during_time = -1,
 		name = "幸运馈赠",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6237,11 +7312,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			432921
+		},
+		show_content = {
+			432921
 		}
 	},
 	[43293] = {
-		during_time = -1,
 		name = "567",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6252,11 +7330,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			432931
+		},
+		show_content = {
+			432931
 		}
 	},
 	[43301] = {
-		during_time = 1,
 		name = "敏锐感官",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6267,11 +7348,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_minruiganguan",
 		content = {
 			433011
+		},
+		show_content = {
+			433011
 		}
 	},
 	[43302] = {
-		during_time = -1,
 		name = "569",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6282,11 +7366,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433021
+		},
+		show_content = {
+			433021
 		}
 	},
 	[43311] = {
-		during_time = 1,
 		name = "澄明心境",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6297,11 +7384,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chengmingxinjing",
 		content = {
 			433111
+		},
+		show_content = {
+			433111
 		}
 	},
 	[43312] = {
-		during_time = -1,
 		name = "571",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6312,11 +7402,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433121
+		},
+		show_content = {
+			433121
 		}
 	},
 	[43321] = {
-		during_time = -1,
 		name = "默契时光",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6327,11 +7420,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			433211
+		},
+		show_content = {
+			433211
 		}
 	},
 	[43322] = {
-		during_time = -1,
 		name = "畅谈欢愉",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6342,11 +7438,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			433221
+		},
+		show_content = {
+			433221
 		}
 	},
 	[43323] = {
-		during_time = -1,
 		name = "574",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6357,11 +7456,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433231
+		},
+		show_content = {
+			433231
 		}
 	},
 	[43331] = {
-		during_time = -1,
 		name = "575",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6372,11 +7474,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433311
+		},
+		show_content = {
+			433311
 		}
 	},
 	[43332] = {
-		during_time = -1,
 		name = "576",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6387,11 +7492,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433321
+		},
+		show_content = {
+			433321
 		}
 	},
 	[43341] = {
-		during_time = -1,
 		name = "577",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6402,11 +7510,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433411
+		},
+		show_content = {
+			433411
 		}
 	},
 	[43342] = {
-		during_time = -1,
 		name = "578",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6417,11 +7528,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433421
+		},
+		show_content = {
+			433421
 		}
 	},
 	[43351] = {
-		during_time = -1,
 		name = "惊喜口味",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6432,11 +7546,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			433511
+		},
+		show_content = {
+			433511
 		}
 	},
 	[43361] = {
-		during_time = -1,
 		name = "580",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6447,11 +7564,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433611
+		},
+		show_content = {
+			433611
 		}
 	},
 	[43362] = {
-		during_time = -1,
 		name = "581",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6462,11 +7582,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433621
+		},
+		show_content = {
+			433621
 		}
 	},
 	[43363] = {
-		during_time = -1,
 		name = "582",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6477,11 +7600,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433631
+		},
+		show_content = {
+			433631
 		}
 	},
 	[43364] = {
-		during_time = -1,
 		name = "583",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6492,11 +7618,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433641
+		},
+		show_content = {
+			433641
 		}
 	},
 	[43365] = {
-		during_time = -1,
 		name = "迷径感知",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6507,11 +7636,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_mijingganzhi",
 		content = {
 			433651
+		},
+		show_content = {
+			433651
 		}
 	},
 	[43366] = {
-		during_time = -1,
 		name = "585",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6522,11 +7654,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433661
+		},
+		show_content = {
+			433661
 		}
 	},
 	[43371] = {
-		during_time = 2,
 		name = "节能模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6537,11 +7672,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jieneng",
 		content = {
 			433711
+		},
+		show_content = {
+			433711
 		}
 	},
 	[43372] = {
-		during_time = -1,
 		name = "587",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6552,11 +7690,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433721
+		},
+		show_content = {
+			433721
 		}
 	},
 	[43381] = {
-		during_time = 3,
 		name = "实感强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6567,11 +7708,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			433811
+		},
+		show_content = {
+			433811
 		}
 	},
 	[43382] = {
-		during_time = 3,
 		name = "体智强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6582,11 +7726,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			433821
+		},
+		show_content = {
+			433821
 		}
 	},
 	[43383] = {
-		during_time = 3,
 		name = "实感强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6597,11 +7744,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			433831
+		},
+		show_content = {
+			433831
 		}
 	},
 	[43384] = {
-		during_time = 3,
 		name = "体智强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6612,11 +7762,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			433841
+		},
+		show_content = {
+			433841
 		}
 	},
 	[43385] = {
-		during_time = 5,
 		name = "实感持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6627,11 +7780,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			433851
+		},
+		show_content = {
+			433851
 		}
 	},
 	[43386] = {
-		during_time = 5,
 		name = "体智持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6642,11 +7798,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			433861
+		},
+		show_content = {
+			433861
 		}
 	},
 	[43387] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6657,11 +7816,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			433871
+		},
+		show_content = {
+			433871
 		}
 	},
 	[43388] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6672,11 +7834,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			433881
+		},
+		show_content = {
+			433881
 		}
 	},
 	[43389] = {
-		during_time = 10,
 		name = "幸运祝福",
+		during_time = 10,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6687,11 +7852,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			433891
+		},
+		show_content = {
+			433891
 		}
 	},
 	[43391] = {
-		during_time = -1,
 		name = "598",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6702,11 +7870,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433911
+		},
+		show_content = {
+			433911
 		}
 	},
 	[43392] = {
-		during_time = -1,
 		name = "599",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6717,11 +7888,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			433921
+		},
+		show_content = {
+			433921
 		}
 	},
 	[43401] = {
-		during_time = -1,
 		name = "600",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6732,11 +7906,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434011
+		},
+		show_content = {
+			434011
 		}
 	},
 	[43402] = {
-		during_time = -1,
 		name = "601",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6747,11 +7924,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434021
+		},
+		show_content = {
+			434021
 		}
 	},
 	[43411] = {
-		during_time = -1,
 		name = "引擎之心",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6766,11 +7946,18 @@ pg.base.child2_benefit_list = {
 			434113,
 			434114,
 			434115
+		},
+		show_content = {
+			434111,
+			434112,
+			434113,
+			434114,
+			434115
 		}
 	},
 	[43412] = {
-		during_time = -1,
 		name = "603",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6781,11 +7968,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434121
+		},
+		show_content = {
+			434121
 		}
 	},
 	[43421] = {
-		during_time = -1,
 		name = "604",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6796,11 +7986,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434211
+		},
+		show_content = {
+			434211
 		}
 	},
 	[43422] = {
-		during_time = -1,
 		name = "605",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6811,11 +8004,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434221
+		},
+		show_content = {
+			434221
 		}
 	},
 	[43431] = {
-		during_time = -1,
 		name = "606",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6826,11 +8022,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434311
+		},
+		show_content = {
+			434311
 		}
 	},
 	[43432] = {
-		during_time = -1,
 		name = "607",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6841,11 +8040,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434321
+		},
+		show_content = {
+			434321
 		}
 	},
 	[43441] = {
-		during_time = -1,
 		name = "疗愈之语",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6860,11 +8062,18 @@ pg.base.child2_benefit_list = {
 			434413,
 			434414,
 			434415
+		},
+		show_content = {
+			434411,
+			434412,
+			434413,
+			434414,
+			434415
 		}
 	},
 	[43442] = {
-		during_time = -1,
 		name = "609",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6875,11 +8084,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434421
+		},
+		show_content = {
+			434421
 		}
 	},
 	[43451] = {
-		during_time = -1,
 		name = "623",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6890,11 +8102,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434511
+		},
+		show_content = {
+			434511
 		}
 	},
 	[43452] = {
-		during_time = -1,
 		name = "622",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6905,11 +8120,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434521
+		},
+		show_content = {
+			434521
 		}
 	},
 	[43461] = {
-		during_time = -1,
 		name = "625",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6920,11 +8138,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434611
+		},
+		show_content = {
+			434611
 		}
 	},
 	[43462] = {
-		during_time = 5,
 		name = "幸运心情",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -6935,11 +8156,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_3",
 		content = {
 			434621
+		},
+		show_content = {
+			434621
 		}
 	},
 	[43463] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6950,11 +8174,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434631
+		},
+		show_content = {
+			434631
 		}
 	},
 	[43464] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6965,11 +8192,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434641
+		},
+		show_content = {
+			434641
 		}
 	},
 	[43465] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6980,11 +8210,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434651
+		},
+		show_content = {
+			434651
 		}
 	},
 	[43466] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -6995,11 +8228,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			434661
+		},
+		show_content = {
+			434661
 		}
 	},
 	[43467] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7010,11 +8246,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			434671
+		},
+		show_content = {
+			434671
 		}
 	},
 	[43468] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7025,11 +8264,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			434681
+		},
+		show_content = {
+			434681
 		}
 	},
 	[43469] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7040,11 +8282,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			434691
+		},
+		show_content = {
+			434691
 		}
 	},
 	[43470] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7055,11 +8300,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			434701
+		},
+		show_content = {
+			434701
 		}
 	},
 	[43471] = {
-		during_time = 1,
 		name = "抽王牌惩罚-体能惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7070,11 +8318,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			434711
+		},
+		show_content = {
+			434711
 		}
 	},
 	[43472] = {
-		during_time = 1,
 		name = "抽王牌惩罚-知识惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7085,11 +8336,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			434721
+		},
+		show_content = {
+			434721
 		}
 	},
 	[43473] = {
-		during_time = 1,
 		name = "抽王牌惩罚-实践惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7100,11 +8354,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			434731
+		},
+		show_content = {
+			434731
 		}
 	},
 	[43474] = {
-		during_time = 1,
 		name = "抽王牌惩罚-感知惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7115,11 +8372,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			434741
+		},
+		show_content = {
+			434741
 		}
 	},
 	[44011] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7128,11 +8388,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 44011,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[44021] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7143,11 +8404,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440211
+		},
+		show_content = {
+			440211
 		}
 	},
 	[44022] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7158,11 +8422,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440221
+		},
+		show_content = {
+			440221
 		}
 	},
 	[44023] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7173,11 +8440,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440231
+		},
+		show_content = {
+			440231
 		}
 	},
 	[44024] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7188,11 +8458,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440241
+		},
+		show_content = {
+			440241
 		}
 	},
 	[44031] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7201,11 +8474,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 44031,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[44041] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7214,11 +8488,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 44041,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[44051] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7227,11 +8502,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 44051,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[44061] = {
-		during_time = -1,
 		name = "509",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7242,11 +8518,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440611
+		},
+		show_content = {
+			440611
 		}
 	},
 	[44062] = {
-		during_time = -1,
 		name = "510",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7257,11 +8536,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440621
+		},
+		show_content = {
+			440621
 		}
 	},
 	[44063] = {
-		during_time = -1,
 		name = "511",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7272,11 +8554,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440631
+		},
+		show_content = {
+			440631
 		}
 	},
 	[44064] = {
-		during_time = -1,
 		name = "512",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7287,11 +8572,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440641
+		},
+		show_content = {
+			440641
 		}
 	},
 	[44071] = {
-		during_time = -1,
 		name = "513",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7302,11 +8590,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440711
+		},
+		show_content = {
+			440711
 		}
 	},
 	[44072] = {
-		during_time = -1,
 		name = "514",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7317,11 +8608,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440721
+		},
+		show_content = {
+			440721
 		}
 	},
 	[44073] = {
-		during_time = -1,
 		name = "515",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7332,11 +8626,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440731
+		},
+		show_content = {
+			440731
 		}
 	},
 	[44074] = {
-		during_time = -1,
 		name = "516",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7347,11 +8644,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440741
+		},
+		show_content = {
+			440741
 		}
 	},
 	[44081] = {
-		during_time = -1,
 		name = "517",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7362,11 +8662,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440811
+		},
+		show_content = {
+			440811
 		}
 	},
 	[44082] = {
-		during_time = -1,
 		name = "613",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7377,11 +8680,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440821
+		},
+		show_content = {
+			440821
 		}
 	},
 	[44091] = {
-		during_time = -1,
 		name = "518",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7392,11 +8698,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440911
+		},
+		show_content = {
+			440911
 		}
 	},
 	[44092] = {
-		during_time = -1,
 		name = "519",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7407,11 +8716,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440921
+		},
+		show_content = {
+			440921
 		}
 	},
 	[44093] = {
-		during_time = -1,
 		name = "520",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7422,11 +8734,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			440931
+		},
+		show_content = {
+			440931
 		}
 	},
 	[44101] = {
-		during_time = -1,
 		name = "521",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7437,11 +8752,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441011
+		},
+		show_content = {
+			441011
 		}
 	},
 	[44102] = {
-		during_time = -1,
 		name = "614",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7452,11 +8770,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441021
+		},
+		show_content = {
+			441021
 		}
 	},
 	[44111] = {
-		during_time = -1,
 		name = "522",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7467,11 +8788,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441111
+		},
+		show_content = {
+			441111
 		}
 	},
 	[44112] = {
-		during_time = -1,
 		name = "523",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7482,11 +8806,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441121
+		},
+		show_content = {
+			441121
 		}
 	},
 	[44113] = {
-		during_time = -1,
 		name = "524",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7497,11 +8824,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441131
+		},
+		show_content = {
+			441131
 		}
 	},
 	[44114] = {
-		during_time = -1,
 		name = "525",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7512,11 +8842,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441141
+		},
+		show_content = {
+			441141
 		}
 	},
 	[44115] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7525,11 +8858,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 44115,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[44121] = {
-		during_time = -1,
 		name = "527",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7540,11 +8874,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441211
+		},
+		show_content = {
+			441211
 		}
 	},
 	[44122] = {
-		during_time = -1,
 		name = "615",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7555,11 +8892,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441221
+		},
+		show_content = {
+			441221
 		}
 	},
 	[44131] = {
-		during_time = -1,
 		name = "528",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7570,11 +8910,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441311
+		},
+		show_content = {
+			441311
 		}
 	},
 	[44132] = {
-		during_time = -1,
 		name = "529",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7585,11 +8928,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441321
+		},
+		show_content = {
+			441321
 		}
 	},
 	[44133] = {
-		during_time = -1,
 		name = "530",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7600,11 +8946,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441331
+		},
+		show_content = {
+			441331
 		}
 	},
 	[44134] = {
-		during_time = -1,
 		name = "531",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7615,11 +8964,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441341
+		},
+		show_content = {
+			441341
 		}
 	},
 	[44135] = {
-		during_time = -1,
 		name = "不该有",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7628,11 +8980,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 44135,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[44141] = {
-		during_time = -1,
 		name = "533",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7643,11 +8996,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441411
+		},
+		show_content = {
+			441411
 		}
 	},
 	[44142] = {
-		during_time = -1,
 		name = "534",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7658,11 +9014,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441421
+		},
+		show_content = {
+			441421
 		}
 	},
 	[44151] = {
-		during_time = -1,
 		name = "535",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7673,11 +9032,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441511
+		},
+		show_content = {
+			441511
 		}
 	},
 	[44161] = {
-		during_time = 3,
 		name = "知识精要·速成",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7688,11 +9050,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			441611
+		},
+		show_content = {
+			441611
 		}
 	},
 	[44162] = {
-		during_time = -1,
 		name = "616",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7703,11 +9068,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441621
+		},
+		show_content = {
+			441621
 		}
 	},
 	[44171] = {
-		during_time = -1,
 		name = "知识精要·持续",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7718,11 +9086,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			441711
+		},
+		show_content = {
+			441711
 		}
 	},
 	[44172] = {
-		during_time = -1,
 		name = "617",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7733,11 +9104,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441721
+		},
+		show_content = {
+			441721
 		}
 	},
 	[44181] = {
-		during_time = 3,
 		name = "突破极限",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7748,11 +9122,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tinengzhishi_1",
 		content = {
 			441811
+		},
+		show_content = {
+			441811
 		}
 	},
 	[44182] = {
-		during_time = -1,
 		name = "618",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7763,11 +9140,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441821
+		},
+		show_content = {
+			441821
 		}
 	},
 	[44191] = {
-		during_time = -1,
 		name = "稳步前行",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7778,11 +9158,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			441911
+		},
+		show_content = {
+			441911
 		}
 	},
 	[44192] = {
-		during_time = -1,
 		name = "540",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7793,11 +9176,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			441921
+		},
+		show_content = {
+			441921
 		}
 	},
 	[44201] = {
-		during_time = 1,
 		name = "醍醐灌顶",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7808,11 +9194,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			442011
+		},
+		show_content = {
+			442011
 		}
 	},
 	[44202] = {
-		during_time = 1,
 		name = "慧眼初开",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7823,11 +9212,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			442021
+		},
+		show_content = {
+			442021
 		}
 	},
 	[44203] = {
-		during_time = 1,
 		name = "豁然开朗",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7838,11 +9230,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			442031
+		},
+		show_content = {
+			442031
 		}
 	},
 	[44204] = {
-		during_time = 1,
 		name = "融会贯通",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7853,11 +9248,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			442041
+		},
+		show_content = {
+			442041
 		}
 	},
 	[44211] = {
-		during_time = 2,
 		name = "超频模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7868,11 +9266,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chaopin",
 		content = {
 			442111
+		},
+		show_content = {
+			442111
 		}
 	},
 	[44212] = {
-		during_time = -1,
 		name = "546",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7883,11 +9284,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442121
+		},
+		show_content = {
+			442121
 		}
 	},
 	[44221] = {
-		during_time = -1,
 		name = "547",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7898,11 +9302,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442211
+		},
+		show_content = {
+			442211
 		}
 	},
 	[44222] = {
-		during_time = -1,
 		name = "548",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7913,11 +9320,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442221
+		},
+		show_content = {
+			442221
 		}
 	},
 	[44231] = {
-		during_time = 3,
 		name = "极限训练",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7928,11 +9338,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			442311
+		},
+		show_content = {
+			442311
 		}
 	},
 	[44232] = {
-		during_time = 3,
 		name = "常规训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7943,11 +9356,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			442321
+		},
+		show_content = {
+			442321
 		}
 	},
 	[44233] = {
-		during_time = 3,
 		name = "基础训练",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7958,11 +9374,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_2",
 		content = {
 			442331
+		},
+		show_content = {
+			442331
 		}
 	},
 	[44234] = {
-		during_time = -1,
 		name = "505",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -7973,11 +9392,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442341
+		},
+		show_content = {
+			442341
 		}
 	},
 	[44241] = {
-		during_time = 3,
 		name = "博览群书",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -7988,11 +9410,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			442411
+		},
+		show_content = {
+			442411
 		}
 	},
 	[44242] = {
-		during_time = 3,
 		name = "深度阅读",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8003,11 +9428,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			442421
+		},
+		show_content = {
+			442421
 		}
 	},
 	[44243] = {
-		during_time = 3,
 		name = "略读速览",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8018,11 +9446,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_2",
 		content = {
 			442431
+		},
+		show_content = {
+			442431
 		}
 	},
 	[44244] = {
-		during_time = -1,
 		name = "502",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8033,11 +9464,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442441
+		},
+		show_content = {
+			442441
 		}
 	},
 	[44251] = {
-		during_time = 3,
 		name = "精益求精",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8048,11 +9482,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			442511
+		},
+		show_content = {
+			442511
 		}
 	},
 	[44252] = {
-		during_time = 3,
 		name = "渐入佳境",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8063,11 +9500,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			442521
+		},
+		show_content = {
+			442521
 		}
 	},
 	[44253] = {
-		during_time = 3,
 		name = "入门之路",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8078,11 +9518,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_2",
 		content = {
 			442531
+		},
+		show_content = {
+			442531
 		}
 	},
 	[44254] = {
-		during_time = -1,
 		name = "503",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8093,11 +9536,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442541
+		},
+		show_content = {
+			442541
 		}
 	},
 	[44261] = {
-		during_time = 3,
 		name = "巅峰状态",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8108,11 +9554,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			442611
+		},
+		show_content = {
+			442611
 		}
 	},
 	[44262] = {
-		during_time = 3,
 		name = "全神贯注",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8123,11 +9572,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			442621
+		},
+		show_content = {
+			442621
 		}
 	},
 	[44263] = {
-		during_time = 3,
 		name = "专注时刻",
+		during_time = 3,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8138,11 +9590,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_2",
 		content = {
 			442631
+		},
+		show_content = {
+			442631
 		}
 	},
 	[44264] = {
-		during_time = -1,
 		name = "504",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8153,11 +9608,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442641
+		},
+		show_content = {
+			442641
 		}
 	},
 	[44271] = {
-		during_time = -1,
 		name = "561",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8168,11 +9626,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442711
+		},
+		show_content = {
+			442711
 		}
 	},
 	[44272] = {
-		during_time = -1,
 		name = "562",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8183,11 +9644,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442721
+		},
+		show_content = {
+			442721
 		}
 	},
 	[44281] = {
-		during_time = 5,
 		name = "漫步收获",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8198,11 +9662,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			442811
+		},
+		show_content = {
+			442811
 		}
 	},
 	[44282] = {
-		during_time = -1,
 		name = "564",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8213,11 +9680,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442821
+		},
+		show_content = {
+			442821
 		}
 	},
 	[44291] = {
-		during_time = -1,
 		name = "幸运之财",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8228,11 +9698,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			442911
+		},
+		show_content = {
+			442911
 		}
 	},
 	[44292] = {
-		during_time = -1,
 		name = "幸运馈赠",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8243,11 +9716,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jinqian_1",
 		content = {
 			442921
+		},
+		show_content = {
+			442921
 		}
 	},
 	[44293] = {
-		during_time = -1,
 		name = "567",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8258,11 +9734,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			442931
+		},
+		show_content = {
+			442931
 		}
 	},
 	[44301] = {
-		during_time = 1,
 		name = "敏锐感官",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8273,11 +9752,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_minruiganguan",
 		content = {
 			443011
+		},
+		show_content = {
+			443011
 		}
 	},
 	[44302] = {
-		during_time = -1,
 		name = "569",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8288,11 +9770,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443021
+		},
+		show_content = {
+			443021
 		}
 	},
 	[44311] = {
-		during_time = 1,
 		name = "澄明心境",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8303,11 +9788,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_chengmingxinjing",
 		content = {
 			443111
+		},
+		show_content = {
+			443111
 		}
 	},
 	[44312] = {
-		during_time = -1,
 		name = "571",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8318,11 +9806,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443121
+		},
+		show_content = {
+			443121
 		}
 	},
 	[44321] = {
-		during_time = -1,
 		name = "默契时光",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8333,11 +9824,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			443211
+		},
+		show_content = {
+			443211
 		}
 	},
 	[44322] = {
-		during_time = -1,
 		name = "畅谈欢愉",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8348,11 +9842,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			443221
+		},
+		show_content = {
+			443221
 		}
 	},
 	[44323] = {
-		during_time = -1,
 		name = "574",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8363,11 +9860,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443231
+		},
+		show_content = {
+			443231
 		}
 	},
 	[44331] = {
-		during_time = -1,
 		name = "575",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8378,11 +9878,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443311
+		},
+		show_content = {
+			443311
 		}
 	},
 	[44332] = {
-		during_time = -1,
 		name = "576",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8393,11 +9896,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443321
+		},
+		show_content = {
+			443321
 		}
 	},
 	[44341] = {
-		during_time = -1,
 		name = "577",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8408,11 +9914,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443411
+		},
+		show_content = {
+			443411
 		}
 	},
 	[44342] = {
-		during_time = -1,
 		name = "578",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8423,11 +9932,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443421
+		},
+		show_content = {
+			443421
 		}
 	},
 	[44351] = {
-		during_time = -1,
 		name = "惊喜口味",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8438,11 +9950,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_3",
 		content = {
 			443511
+		},
+		show_content = {
+			443511
 		}
 	},
 	[44361] = {
-		during_time = -1,
 		name = "580",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8453,11 +9968,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443611
+		},
+		show_content = {
+			443611
 		}
 	},
 	[44362] = {
-		during_time = -1,
 		name = "581",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8468,11 +9986,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443621
+		},
+		show_content = {
+			443621
 		}
 	},
 	[44363] = {
-		during_time = -1,
 		name = "582",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8483,11 +10004,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443631
+		},
+		show_content = {
+			443631
 		}
 	},
 	[44364] = {
-		during_time = -1,
 		name = "583",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8498,11 +10022,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443641
+		},
+		show_content = {
+			443641
 		}
 	},
 	[44365] = {
-		during_time = -1,
 		name = "迷径感知",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8513,11 +10040,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_mijingganzhi",
 		content = {
 			443651
+		},
+		show_content = {
+			443651
 		}
 	},
 	[44366] = {
-		during_time = -1,
 		name = "585",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8528,11 +10058,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443661
+		},
+		show_content = {
+			443661
 		}
 	},
 	[44371] = {
-		during_time = 2,
 		name = "节能模式",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8543,11 +10076,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_jieneng",
 		content = {
 			443711
+		},
+		show_content = {
+			443711
 		}
 	},
 	[44372] = {
-		during_time = -1,
 		name = "587",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8558,11 +10094,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443721
+		},
+		show_content = {
+			443721
 		}
 	},
 	[44381] = {
-		during_time = 3,
 		name = "实感强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8573,11 +10112,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			443811
+		},
+		show_content = {
+			443811
 		}
 	},
 	[44382] = {
-		during_time = 3,
 		name = "体智强化·低",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8588,11 +10130,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			443821
+		},
+		show_content = {
+			443821
 		}
 	},
 	[44383] = {
-		during_time = 3,
 		name = "实感强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8603,11 +10148,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			443831
+		},
+		show_content = {
+			443831
 		}
 	},
 	[44384] = {
-		during_time = 3,
 		name = "体智强化·中",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8618,11 +10166,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			443841
+		},
+		show_content = {
+			443841
 		}
 	},
 	[44385] = {
-		during_time = 5,
 		name = "实感持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8633,11 +10184,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			443851
+		},
+		show_content = {
+			443851
 		}
 	},
 	[44386] = {
-		during_time = 5,
 		name = "体智持续·中",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8648,11 +10202,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			443861
+		},
+		show_content = {
+			443861
 		}
 	},
 	[44387] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8663,11 +10220,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shiganqianghua",
 		content = {
 			443871
+		},
+		show_content = {
+			443871
 		}
 	},
 	[44388] = {
-		during_time = 5,
 		name = "实感持续·高",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8678,11 +10238,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tizhiqianghua",
 		content = {
 			443881
+		},
+		show_content = {
+			443881
 		}
 	},
 	[44389] = {
-		during_time = 10,
 		name = "幸运祝福",
+		during_time = 10,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8693,11 +10256,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_all_1",
 		content = {
 			443891
+		},
+		show_content = {
+			443891
 		}
 	},
 	[44391] = {
-		during_time = -1,
 		name = "598",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8708,11 +10274,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443911
+		},
+		show_content = {
+			443911
 		}
 	},
 	[44392] = {
-		during_time = -1,
 		name = "599",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8723,11 +10292,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			443921
+		},
+		show_content = {
+			443921
 		}
 	},
 	[44401] = {
-		during_time = -1,
 		name = "600",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8738,11 +10310,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444011
+		},
+		show_content = {
+			444011
 		}
 	},
 	[44402] = {
-		during_time = -1,
 		name = "601",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8753,11 +10328,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444021
+		},
+		show_content = {
+			444021
 		}
 	},
 	[44411] = {
-		during_time = -1,
 		name = "引擎之心",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8772,11 +10350,18 @@ pg.base.child2_benefit_list = {
 			444113,
 			444114,
 			444115
+		},
+		show_content = {
+			444111,
+			444112,
+			444113,
+			444114,
+			444115
 		}
 	},
 	[44412] = {
-		during_time = -1,
 		name = "603",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8787,11 +10372,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444121
+		},
+		show_content = {
+			444121
 		}
 	},
 	[44421] = {
-		during_time = -1,
 		name = "604",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8802,11 +10390,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444211
+		},
+		show_content = {
+			444211
 		}
 	},
 	[44422] = {
-		during_time = -1,
 		name = "605",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8817,11 +10408,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444221
+		},
+		show_content = {
+			444221
 		}
 	},
 	[44431] = {
-		during_time = -1,
 		name = "606",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8832,11 +10426,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444311
+		},
+		show_content = {
+			444311
 		}
 	},
 	[44432] = {
-		during_time = -1,
 		name = "607",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8847,11 +10444,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444321
+		},
+		show_content = {
+			444321
 		}
 	},
 	[44441] = {
-		during_time = -1,
 		name = "疗愈之语",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8866,11 +10466,18 @@ pg.base.child2_benefit_list = {
 			444413,
 			444414,
 			444415
+		},
+		show_content = {
+			444411,
+			444412,
+			444413,
+			444414,
+			444415
 		}
 	},
 	[44442] = {
-		during_time = -1,
 		name = "609",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8881,11 +10488,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444421
+		},
+		show_content = {
+			444421
 		}
 	},
 	[44451] = {
-		during_time = -1,
 		name = "623",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8896,11 +10506,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444511
+		},
+		show_content = {
+			444511
 		}
 	},
 	[44452] = {
-		during_time = -1,
 		name = "622",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8911,11 +10524,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444521
+		},
+		show_content = {
+			444521
 		}
 	},
 	[44461] = {
-		during_time = -1,
 		name = "625",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8926,11 +10542,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444611
+		},
+		show_content = {
+			444611
 		}
 	},
 	[44462] = {
-		during_time = 5,
 		name = "幸运心情",
+		during_time = 5,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -8941,11 +10560,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_3",
 		content = {
 			444621
+		},
+		show_content = {
+			444621
 		}
 	},
 	[44463] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8956,11 +10578,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444631
+		},
+		show_content = {
+			444631
 		}
 	},
 	[44464] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8971,11 +10596,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444641
+		},
+		show_content = {
+			444641
 		}
 	},
 	[44465] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -8986,11 +10614,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444651
+		},
+		show_content = {
+			444651
 		}
 	},
 	[44466] = {
-		during_time = -1,
 		name = "",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -9001,11 +10632,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			444661
+		},
+		show_content = {
+			444661
 		}
 	},
 	[44467] = {
-		during_time = 2,
 		name = "",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9016,11 +10650,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			444671
+		},
+		show_content = {
+			444671
 		}
 	},
 	[44468] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9031,11 +10668,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			444681
+		},
+		show_content = {
+			444681
 		}
 	},
 	[44469] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9046,11 +10686,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			444691
+		},
+		show_content = {
+			444691
 		}
 	},
 	[44470] = {
-		during_time = 2,
 		name = "抽王牌惩罚",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9061,11 +10704,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			444701
+		},
+		show_content = {
+			444701
 		}
 	},
 	[44471] = {
-		during_time = 1,
 		name = "抽王牌惩罚-体能惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9076,11 +10722,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_5",
 		content = {
 			444711
+		},
+		show_content = {
+			444711
 		}
 	},
 	[44472] = {
-		during_time = 1,
 		name = "抽王牌惩罚-知识惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9091,11 +10740,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_5",
 		content = {
 			444721
+		},
+		show_content = {
+			444721
 		}
 	},
 	[44473] = {
-		during_time = 1,
 		name = "抽王牌惩罚-实践惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9106,11 +10758,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_5",
 		content = {
 			444731
+		},
+		show_content = {
+			444731
 		}
 	},
 	[44474] = {
-		during_time = 1,
 		name = "抽王牌惩罚-感知惩罚",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9121,11 +10776,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_5",
 		content = {
 			444741
+		},
+		show_content = {
+			444741
 		}
 	},
 	[1001] = {
-		during_time = -1,
 		name = "轻松一刻",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1001_l",
@@ -9136,11 +10794,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1001",
 		content = {
 			1001
+		},
+		show_content = {
+			1001
 		}
 	},
 	[1002] = {
-		during_time = -1,
 		name = "零花钱",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1002_l",
@@ -9151,11 +10812,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1002",
 		content = {
 			1002
+		},
+		show_content = {
+			1002
 		}
 	},
 	[1003] = {
-		during_time = -1,
 		name = "欢乐加倍",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1003_l",
@@ -9166,11 +10830,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1003",
 		content = {
 			1003
+		},
+		show_content = {
+			1003
 		}
 	},
 	[1004] = {
-		during_time = -1,
 		name = "心想事成",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1004_l",
@@ -9181,11 +10848,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1004",
 		content = {
 			1004
+		},
+		show_content = {
+			1004
 		}
 	},
 	[1005] = {
-		during_time = -1,
 		name = "双重收获",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1005_l",
@@ -9196,11 +10866,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1005",
 		content = {
 			1005
+		},
+		show_content = {
+			1005
 		}
 	},
 	[1006] = {
-		during_time = -1,
 		name = "欢愉时刻",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1006_l",
@@ -9211,11 +10884,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1006",
 		content = {
 			1006
+		},
+		show_content = {
+			1006
 		}
 	},
 	[1007] = {
-		during_time = -1,
 		name = "聚财之道",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1007_l",
@@ -9226,11 +10902,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1007",
 		content = {
 			1007
+		},
+		show_content = {
+			1007
 		}
 	},
 	[1008] = {
-		during_time = -1,
 		name = "富贵吉运",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1008_l",
@@ -9241,11 +10920,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1008",
 		content = {
 			1008
+		},
+		show_content = {
+			1008
 		}
 	},
 	[1009] = {
-		during_time = -1,
 		name = "金库盈满",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1009_l",
@@ -9256,11 +10938,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1009",
 		content = {
 			1009
+		},
+		show_content = {
+			1009
 		}
 	},
 	[1010] = {
-		during_time = -1,
 		name = "聚宝盆",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1009_l",
@@ -9271,11 +10956,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1009",
 		content = {
 			1010
+		},
+		show_content = {
+			1010
 		}
 	},
 	[1011] = {
-		during_time = -1,
 		name = "熟能生巧",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1011_l",
@@ -9286,11 +10974,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1011",
 		content = {
 			1011
+		},
+		show_content = {
+			1011
 		}
 	},
 	[1012] = {
-		during_time = -1,
 		name = "知识萌芽",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1012_l",
@@ -9301,11 +10992,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1012",
 		content = {
 			1012
+		},
+		show_content = {
+			1012
 		}
 	},
 	[1013] = {
-		during_time = -1,
 		name = "活力起点",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1013_l",
@@ -9316,11 +11010,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1013",
 		content = {
 			1013
+		},
+		show_content = {
+			1013
 		}
 	},
 	[1014] = {
-		during_time = -1,
 		name = "观察入门",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1014_l",
@@ -9331,11 +11028,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1014",
 		content = {
 			1014
+		},
+		show_content = {
+			1014
 		}
 	},
 	[1041] = {
-		during_time = -1,
 		name = "身心畅悟",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1041_l",
@@ -9346,11 +11046,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1041",
 		content = {
 			1041
+		},
+		show_content = {
+			1041
 		}
 	},
 	[1042] = {
-		during_time = -1,
 		name = "静心求知",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1042_l",
@@ -9361,11 +11064,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1042",
 		content = {
 			1042
+		},
+		show_content = {
+			1042
 		}
 	},
 	[1043] = {
-		during_time = -1,
 		name = "浑然天成",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1043_l",
@@ -9376,11 +11082,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1043",
 		content = {
 			1043
+		},
+		show_content = {
+			1043
 		}
 	},
 	[1044] = {
-		during_time = -1,
 		name = "知行超越",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1044_l",
@@ -9391,11 +11100,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1044",
 		content = {
 			1044
+		},
+		show_content = {
+			1044
 		}
 	},
 	[1045] = {
-		during_time = -1,
 		name = "精打细算",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1045_l",
@@ -9406,11 +11118,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1045",
 		content = {
 			1045
+		},
+		show_content = {
+			1045
 		}
 	},
 	[1046] = {
-		during_time = -1,
 		name = "明智之选",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1046_l",
@@ -9421,11 +11136,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1046",
 		content = {
 			1046
+		},
+		show_content = {
+			1046
 		}
 	},
 	[1047] = {
-		during_time = -1,
 		name = "乐享生活",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1047_l",
@@ -9436,11 +11154,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1047",
 		content = {
 			1047
+		},
+		show_content = {
+			1047
 		}
 	},
 	[1048] = {
-		during_time = -1,
 		name = "均衡发展",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1048_l",
@@ -9451,11 +11172,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1048",
 		content = {
 			1048
+		},
+		show_content = {
+			1048
 		}
 	},
 	[1049] = {
-		during_time = -1,
 		name = "均衡发展+",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1049_l",
@@ -9466,11 +11190,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1049",
 		content = {
 			1049
+		},
+		show_content = {
+			1049
 		}
 	},
 	[1050] = {
-		during_time = -1,
 		name = "均衡发展++",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1050_l",
@@ -9481,11 +11208,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1050",
 		content = {
 			1050
+		},
+		show_content = {
+			1050
 		}
 	},
 	[1051] = {
-		during_time = -1,
 		name = "均衡发展+++",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1051_l",
@@ -9496,11 +11226,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1051",
 		content = {
 			1051
+		},
+		show_content = {
+			1051
 		}
 	},
 	[1052] = {
-		during_time = -1,
 		name = "归途补给",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1052_l",
@@ -9511,11 +11244,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1052",
 		content = {
 			1052
+		},
+		show_content = {
+			1052
 		}
 	},
 	[1053] = {
-		during_time = -1,
 		name = "不倦之旅",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1053_l",
@@ -9526,11 +11262,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1053",
 		content = {
 			1053
+		},
+		show_content = {
+			1053
 		}
 	},
 	[1054] = {
-		during_time = -1,
 		name = "灵光眷顾",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1054_l",
@@ -9541,11 +11280,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1054",
 		content = {
 			1054
+		},
+		show_content = {
+			1054
 		}
 	},
 	[1055] = {
-		during_time = -1,
 		name = "机缘之助",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1055_l",
@@ -9556,11 +11298,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1055",
 		content = {
 			1055
+		},
+		show_content = {
+			1055
 		}
 	},
 	[1056] = {
-		during_time = 1,
 		name = "灵光眷顾-体能",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9571,11 +11316,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_2",
 		content = {
 			1056
+		},
+		show_content = {
+			1056
 		}
 	},
 	[1057] = {
-		during_time = 1,
 		name = "灵光眷顾-实践",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9586,11 +11334,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_2",
 		content = {
 			1057
+		},
+		show_content = {
+			1057
 		}
 	},
 	[1058] = {
-		during_time = 1,
 		name = "灵光眷顾-感知",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9601,11 +11352,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_2",
 		content = {
 			1058
+		},
+		show_content = {
+			1058
 		}
 	},
 	[1059] = {
-		during_time = 1,
 		name = "灵光眷顾-知识",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9616,11 +11370,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_2",
 		content = {
 			1059
+		},
+		show_content = {
+			1059
 		}
 	},
 	[1060] = {
-		during_time = 1,
 		name = "机缘之助-体能",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9631,11 +11388,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			1060
+		},
+		show_content = {
+			1060
 		}
 	},
 	[1061] = {
-		during_time = 1,
 		name = "机缘之助-实践",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9646,11 +11406,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			1061
+		},
+		show_content = {
+			1061
 		}
 	},
 	[1062] = {
-		during_time = 1,
 		name = "机缘之助-感知",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9661,11 +11424,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			1062
+		},
+		show_content = {
+			1062
 		}
 	},
 	[1063] = {
-		during_time = 1,
 		name = "机缘之助-知识",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -9676,11 +11442,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			1063
+		},
+		show_content = {
+			1063
 		}
 	},
 	[1064] = {
-		during_time = -1,
 		name = "奇位增益",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1064_l",
@@ -9691,11 +11460,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1064",
 		content = {
 			1064
+		},
+		show_content = {
+			1064
 		}
 	},
 	[1065] = {
-		during_time = -1,
 		name = "偶数飞跃",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1065_l",
@@ -9706,11 +11478,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1065",
 		content = {
 			1065
+		},
+		show_content = {
+			1065
 		}
 	},
 	[1066] = {
-		during_time = -1,
 		name = "奇位无双",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1066_l",
@@ -9721,11 +11496,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1066",
 		content = {
 			1066
+		},
+		show_content = {
+			1066
 		}
 	},
 	[1067] = {
-		during_time = -1,
 		name = "偶数巅峰",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1067_l",
@@ -9736,11 +11514,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1067",
 		content = {
 			1067
+		},
+		show_content = {
+			1067
 		}
 	},
 	[1068] = {
-		during_time = -1,
 		name = "开门红",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1068_l",
@@ -9751,11 +11532,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1068",
 		content = {
 			1068
+		},
+		show_content = {
+			1068
 		}
 	},
 	[1069] = {
-		during_time = -1,
 		name = "完美开局",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1069_l",
@@ -9766,11 +11550,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1069",
 		content = {
 			1069
+		},
+		show_content = {
+			1069
 		}
 	},
 	[1070] = {
-		during_time = -1,
 		name = "活力充沛",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1070_l",
@@ -9785,11 +11572,14 @@ pg.base.child2_benefit_list = {
 			10703,
 			10704,
 			10705
+		},
+		show_content = {
+			10701
 		}
 	},
 	[1071] = {
-		during_time = -1,
 		name = "得心应手",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1071_l",
@@ -9804,11 +11594,14 @@ pg.base.child2_benefit_list = {
 			10713,
 			10714,
 			10715
+		},
+		show_content = {
+			10711
 		}
 	},
 	[1072] = {
-		during_time = -1,
 		name = "心领神会",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1072_l",
@@ -9823,11 +11616,14 @@ pg.base.child2_benefit_list = {
 			10723,
 			10724,
 			10725
+		},
+		show_content = {
+			10721
 		}
 	},
 	[1073] = {
-		during_time = -1,
 		name = "乐学不倦",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1073_l",
@@ -9842,11 +11638,14 @@ pg.base.child2_benefit_list = {
 			10733,
 			10734,
 			10735
+		},
+		show_content = {
+			10731
 		}
 	},
 	[1074] = {
-		during_time = -1,
 		name = "悦动之心",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1074_l",
@@ -9861,11 +11660,14 @@ pg.base.child2_benefit_list = {
 			10743,
 			10744,
 			10745
+		},
+		show_content = {
+			10741
 		}
 	},
 	[1075] = {
-		during_time = -1,
 		name = "举重若轻",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1075_l",
@@ -9880,11 +11682,14 @@ pg.base.child2_benefit_list = {
 			10753,
 			10754,
 			10755
+		},
+		show_content = {
+			10751
 		}
 	},
 	[1076] = {
-		during_time = -1,
 		name = "悦然明察",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1076_l",
@@ -9899,11 +11704,14 @@ pg.base.child2_benefit_list = {
 			10763,
 			10764,
 			10765
+		},
+		show_content = {
+			10761
 		}
 	},
 	[1077] = {
-		during_time = -1,
 		name = "学无所忧",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1077_l",
@@ -9918,11 +11726,14 @@ pg.base.child2_benefit_list = {
 			10773,
 			10774,
 			10775
+		},
+		show_content = {
+			10771
 		}
 	},
 	[1078] = {
-		during_time = -1,
 		name = "节约之道",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1078_l",
@@ -9933,11 +11744,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1078",
 		content = {
 			1078
+		},
+		show_content = {
+			1078
 		}
 	},
 	[1079] = {
-		during_time = -1,
 		name = "省钱有道",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1079_l",
@@ -9948,11 +11762,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1079",
 		content = {
 			1079
+		},
+		show_content = {
+			1079
 		}
 	},
 	[1080] = {
-		during_time = -1,
 		name = "省钱圣手",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1080_l",
@@ -9963,11 +11780,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1080",
 		content = {
 			1080
+		},
+		show_content = {
+			1080
 		}
 	},
 	[1081] = {
-		during_time = -1,
 		name = "奇偶馈赠（奇）",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1081_l",
@@ -9979,11 +11799,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			1081,
 			1082
+		},
+		show_content = {
+			1081,
+			1082
 		}
 	},
 	[1083] = {
-		during_time = -1,
 		name = "奇偶馈赠（偶）",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1081_l",
@@ -9995,11 +11819,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			1083,
 			1084
+		},
+		show_content = {
+			1083,
+			1084
 		}
 	},
 	[1084] = {
-		during_time = -1,
 		name = "1084",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -10008,11 +11836,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1084,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1085] = {
-		during_time = -1,
 		name = "1085",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -10021,11 +11850,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1085,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1086] = {
-		during_time = -1,
 		name = "1086",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -10034,11 +11864,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1086,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1087] = {
-		during_time = -1,
 		name = "1087",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -10047,11 +11878,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1087,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1088] = {
-		during_time = -1,
 		name = "实践专精",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1088_l",
@@ -10066,11 +11898,18 @@ pg.base.child2_benefit_list = {
 			10883,
 			10884,
 			10885
+		},
+		show_content = {
+			10881,
+			10882,
+			10883,
+			10884,
+			10885
 		}
 	},
 	[1089] = {
-		during_time = -1,
 		name = "求知若渴",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1089_l",
@@ -10085,11 +11924,18 @@ pg.base.child2_benefit_list = {
 			10893,
 			10894,
 			10895
+		},
+		show_content = {
+			10891,
+			10892,
+			10893,
+			10894,
+			10895
 		}
 	},
 	[1090] = {
-		during_time = -1,
 		name = "锻炼达人",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1090_l",
@@ -10104,11 +11950,18 @@ pg.base.child2_benefit_list = {
 			10903,
 			10904,
 			10905
+		},
+		show_content = {
+			10901,
+			10902,
+			10903,
+			10904,
+			10905
 		}
 	},
 	[1091] = {
-		during_time = -1,
 		name = "慧眼如炬",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1091_l",
@@ -10123,11 +11976,18 @@ pg.base.child2_benefit_list = {
 			10913,
 			10914,
 			10915
+		},
+		show_content = {
+			10911,
+			10912,
+			10913,
+			10914,
+			10915
 		}
 	},
 	[1092] = {
-		during_time = -1,
 		name = "融会贯通",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1092_l",
@@ -10136,11 +11996,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1092,
 		item_icon = "benefit_1_1092",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1093] = {
-		during_time = -1,
 		name = "举一反三",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1093_l",
@@ -10149,11 +12010,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1093,
 		item_icon = "benefit_1_1093",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1094] = {
-		during_time = -1,
 		name = "超越极限",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1094_l",
@@ -10162,11 +12024,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1094,
 		item_icon = "benefit_1_1094",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1095] = {
-		during_time = -1,
 		name = "全知感应",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1095_l",
@@ -10175,11 +12038,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1095,
 		item_icon = "benefit_1_1095",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1096] = {
-		during_time = -1,
 		name = "实践出真知",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1096_l",
@@ -10190,11 +12054,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1096",
 		content = {
 			10961
+		},
+		show_content = {
+			10961
 		}
 	},
 	[1097] = {
-		during_time = -1,
 		name = "学以致用",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1097_l",
@@ -10205,11 +12072,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1097",
 		content = {
 			10971
+		},
+		show_content = {
+			10971
 		}
 	},
 	[1098] = {
-		during_time = -1,
 		name = "形神合一",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1098_l",
@@ -10220,11 +12090,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1098",
 		content = {
 			10981
+		},
+		show_content = {
+			10981
 		}
 	},
 	[1099] = {
-		during_time = -1,
 		name = "体察入微",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1099_l",
@@ -10235,11 +12108,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_1_1099",
 		content = {
 			10991
+		},
+		show_content = {
+			10991
 		}
 	},
 	[1100] = {
-		during_time = -1,
 		name = "愉悦成长",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1100_l",
@@ -10248,11 +12124,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1100,
 		item_icon = "benefit_1_1100",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1101] = {
-		during_time = -1,
 		name = "财智双收",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1101_l",
@@ -10261,11 +12138,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1101,
 		item_icon = "benefit_1_1101",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[1102] = {
-		during_time = -1,
 		name = "满载而归",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1102_l",
@@ -10274,11 +12152,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 1102,
 		item_icon = "benefit_1_1102",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[2001] = {
-		during_time = 3,
 		name = "体能增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10289,11 +12168,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			2001
+		},
+		show_content = {
+			2001
 		}
 	},
 	[2002] = {
-		during_time = 3,
 		name = "知识增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10304,11 +12186,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			2002
+		},
+		show_content = {
+			2002
 		}
 	},
 	[2003] = {
-		during_time = 3,
 		name = "实践增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10319,11 +12204,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_1",
 		content = {
 			2003
+		},
+		show_content = {
+			2003
 		}
 	},
 	[2004] = {
-		during_time = 3,
 		name = "感知增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10334,11 +12222,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_1",
 		content = {
 			2004
+		},
+		show_content = {
+			2004
 		}
 	},
 	[2005] = {
-		during_time = -1,
 		name = "幸运奖券",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10349,11 +12240,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_2005",
 		content = {
 			2005
+		},
+		show_content = {
+			2005
 		}
 	},
 	[2006] = {
-		during_time = 3,
 		name = "体能随机增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10364,11 +12258,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_1",
 		content = {
 			2006
+		},
+		show_content = {
+			2006
 		}
 	},
 	[2007] = {
-		during_time = 3,
 		name = "知识随机增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10379,11 +12276,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_1",
 		content = {
 			2007
+		},
+		show_content = {
+			2007
 		}
 	},
 	[2008] = {
-		during_time = 3,
 		name = "实践随机增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10394,11 +12294,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_1",
 		content = {
 			2008
+		},
+		show_content = {
+			2008
 		}
 	},
 	[2009] = {
-		during_time = 3,
 		name = "感知随机增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10409,11 +12312,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_1",
 		content = {
 			2009
+		},
+		show_content = {
+			2009
 		}
 	},
 	[2010] = {
-		during_time = 3,
 		name = "体能随机增益+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10424,11 +12330,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_2",
 		content = {
 			2010
+		},
+		show_content = {
+			2010
 		}
 	},
 	[2011] = {
-		during_time = 3,
 		name = "知识随机增益+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10439,11 +12348,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_2",
 		content = {
 			2011
+		},
+		show_content = {
+			2011
 		}
 	},
 	[2012] = {
-		during_time = 3,
 		name = "实践随机增益+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10454,11 +12366,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_2",
 		content = {
 			2012
+		},
+		show_content = {
+			2012
 		}
 	},
 	[2013] = {
-		during_time = 3,
 		name = "感知随机增益+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10469,11 +12384,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_2",
 		content = {
 			2013
+		},
+		show_content = {
+			2013
 		}
 	},
 	[2014] = {
-		during_time = 2,
 		name = "体能随机·预增益",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10484,11 +12402,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			2014
+		},
+		show_content = {
+			2014
 		}
 	},
 	[2015] = {
-		during_time = 2,
 		name = "知识随机·预增益",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10499,11 +12420,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			2015
+		},
+		show_content = {
+			2015
 		}
 	},
 	[2016] = {
-		during_time = 2,
 		name = "实践随机·预增益",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10514,11 +12438,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			2016
+		},
+		show_content = {
+			2016
 		}
 	},
 	[2017] = {
-		during_time = 2,
 		name = "感知随机·预增益",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10529,11 +12456,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			2017
+		},
+		show_content = {
+			2017
 		}
 	},
 	[2018] = {
-		during_time = 3,
 		name = "心情随机回复",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10544,11 +12474,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_1",
 		content = {
 			2018
+		},
+		show_content = {
+			2018
 		}
 	},
 	[2019] = {
-		during_time = 3,
 		name = "心情随机回复+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10559,11 +12492,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_2",
 		content = {
 			2019
+		},
+		show_content = {
+			2019
 		}
 	},
 	[2020] = {
-		during_time = 3,
 		name = "心情随机回复++",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10574,11 +12510,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_3",
 		content = {
 			2020
+		},
+		show_content = {
+			2020
 		}
 	},
 	[2021] = {
-		during_time = -1,
 		name = "心情随机回复(永久)",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10589,11 +12528,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xinqing_3",
 		content = {
 			2021
+		},
+		show_content = {
+			2021
 		}
 	},
 	[2022] = {
-		during_time = -1,
 		name = "体能+10",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10604,11 +12546,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2022
+		},
+		show_content = {
+			2022
 		}
 	},
 	[2023] = {
-		during_time = -1,
 		name = "知识+10",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10619,11 +12564,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2023
+		},
+		show_content = {
+			2023
 		}
 	},
 	[2024] = {
-		during_time = -1,
 		name = "实践+10",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10634,11 +12582,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2024
+		},
+		show_content = {
+			2024
 		}
 	},
 	[2025] = {
-		during_time = -1,
 		name = "感知+10",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10649,11 +12600,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2025
+		},
+		show_content = {
+			2025
 		}
 	},
 	[2026] = {
-		during_time = -1,
 		name = "心情+2",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10664,11 +12618,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2026
+		},
+		show_content = {
+			2026
 		}
 	},
 	[2027] = {
-		during_time = -1,
 		name = "体能+20",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10679,11 +12636,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2027
+		},
+		show_content = {
+			2027
 		}
 	},
 	[2028] = {
-		during_time = -1,
 		name = "知识+20",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10694,11 +12654,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2028
+		},
+		show_content = {
+			2028
 		}
 	},
 	[2029] = {
-		during_time = -1,
 		name = "实践+20",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10709,11 +12672,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2029
+		},
+		show_content = {
+			2029
 		}
 	},
 	[2030] = {
-		during_time = -1,
 		name = "感知+20",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10724,11 +12690,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2030
+		},
+		show_content = {
+			2030
 		}
 	},
 	[2031] = {
-		during_time = -1,
 		name = "心情+4",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10739,11 +12708,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2031
+		},
+		show_content = {
+			2031
 		}
 	},
 	[2032] = {
-		during_time = -1,
 		name = "体能+40",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10754,11 +12726,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2032
+		},
+		show_content = {
+			2032
 		}
 	},
 	[2033] = {
-		during_time = -1,
 		name = "知识+40",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10769,11 +12744,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2033
+		},
+		show_content = {
+			2033
 		}
 	},
 	[2034] = {
-		during_time = -1,
 		name = "实践+40",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10784,11 +12762,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2034
+		},
+		show_content = {
+			2034
 		}
 	},
 	[2035] = {
-		during_time = -1,
 		name = "感知+40",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10799,11 +12780,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2035
+		},
+		show_content = {
+			2035
 		}
 	},
 	[2036] = {
-		during_time = -1,
 		name = "心情+6",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -10814,11 +12798,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			2036
+		},
+		show_content = {
+			2036
 		}
 	},
 	[2037] = {
-		during_time = 3,
 		name = "体能转化·知识",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10829,11 +12816,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tinengzhishiz",
 		content = {
 			2037
+		},
+		show_content = {
+			2037
 		}
 	},
 	[2038] = {
-		during_time = 3,
 		name = "知识转化·体能",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10844,11 +12834,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishitinengz",
 		content = {
 			2038
+		},
+		show_content = {
+			2038
 		}
 	},
 	[2039] = {
-		during_time = 3,
 		name = "实践转化·感知",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10859,11 +12852,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijianganzhiz",
 		content = {
 			2039
+		},
+		show_content = {
+			2039
 		}
 	},
 	[2040] = {
-		during_time = 3,
 		name = "感知转化·实践",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10874,11 +12870,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhishijianz",
 		content = {
 			2040
+		},
+		show_content = {
+			2040
 		}
 	},
 	[2041] = {
-		during_time = 1,
 		name = "实践增益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10890,11 +12889,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2041,
 			2065
+		},
+		show_content = {
+			2041,
+			2065
 		}
 	},
 	[2042] = {
-		during_time = 1,
 		name = "实践减益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10906,11 +12909,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2042,
 			2066
+		},
+		show_content = {
+			2042,
+			2066
 		}
 	},
 	[2043] = {
-		during_time = 1,
 		name = "实践增益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10922,11 +12929,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2043,
 			2067
+		},
+		show_content = {
+			2043,
+			2067
 		}
 	},
 	[2044] = {
-		during_time = 1,
 		name = "实践减益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10938,11 +12949,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2044,
 			2068
+		},
+		show_content = {
+			2044,
+			2068
 		}
 	},
 	[2045] = {
-		during_time = 1,
 		name = "实践增益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10954,11 +12969,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2045,
 			2069
+		},
+		show_content = {
+			2045,
+			2069
 		}
 	},
 	[2046] = {
-		during_time = 1,
 		name = "实践减益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10970,11 +12989,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2046,
 			2070
+		},
+		show_content = {
+			2046,
+			2070
 		}
 	},
 	[2047] = {
-		during_time = 1,
 		name = "体能增益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -10986,11 +13009,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2047,
 			2071
+		},
+		show_content = {
+			2047,
+			2071
 		}
 	},
 	[2048] = {
-		during_time = 1,
 		name = "体能减益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11002,11 +13029,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2048,
 			2072
+		},
+		show_content = {
+			2048,
+			2072
 		}
 	},
 	[2049] = {
-		during_time = 1,
 		name = "体能增益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11018,11 +13049,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2049,
 			2073
+		},
+		show_content = {
+			2049,
+			2073
 		}
 	},
 	[2050] = {
-		during_time = 1,
 		name = "体能减益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11034,11 +13069,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2050,
 			2074
+		},
+		show_content = {
+			2050,
+			2074
 		}
 	},
 	[2051] = {
-		during_time = 1,
 		name = "体能增益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11050,11 +13089,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2051,
 			2075
+		},
+		show_content = {
+			2051,
+			2075
 		}
 	},
 	[2052] = {
-		during_time = 1,
 		name = "体能减益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11066,11 +13109,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2052,
 			2076
+		},
+		show_content = {
+			2052,
+			2076
 		}
 	},
 	[2053] = {
-		during_time = 1,
 		name = "感知增益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11082,11 +13129,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2053,
 			2077
+		},
+		show_content = {
+			2053,
+			2077
 		}
 	},
 	[2054] = {
-		during_time = 1,
 		name = "感知减益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11098,11 +13149,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2054,
 			2078
+		},
+		show_content = {
+			2054,
+			2078
 		}
 	},
 	[2055] = {
-		during_time = 1,
 		name = "感知增益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11114,11 +13169,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2055,
 			2079
+		},
+		show_content = {
+			2055,
+			2079
 		}
 	},
 	[2056] = {
-		during_time = 1,
 		name = "感知减益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11130,11 +13189,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2056,
 			2080
+		},
+		show_content = {
+			2056,
+			2080
 		}
 	},
 	[2057] = {
-		during_time = 1,
 		name = "感知增益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11146,11 +13209,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2057,
 			2081
+		},
+		show_content = {
+			2057,
+			2081
 		}
 	},
 	[2058] = {
-		during_time = 1,
 		name = "感知减益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11162,11 +13229,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2058,
 			2082
+		},
+		show_content = {
+			2058,
+			2082
 		}
 	},
 	[2059] = {
-		during_time = 1,
 		name = "知识增益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11178,11 +13249,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2059,
 			2083
+		},
+		show_content = {
+			2059,
+			2083
 		}
 	},
 	[2060] = {
-		during_time = 1,
 		name = "知识减益(切换)",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11194,11 +13269,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2060,
 			2084
+		},
+		show_content = {
+			2060,
+			2084
 		}
 	},
 	[2061] = {
-		during_time = 1,
 		name = "知识增益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11210,11 +13289,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2061,
 			2085
+		},
+		show_content = {
+			2061,
+			2085
 		}
 	},
 	[2062] = {
-		during_time = 1,
 		name = "知识减益(切换)+",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11226,11 +13309,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2062,
 			2086
+		},
+		show_content = {
+			2062,
+			2086
 		}
 	},
 	[2063] = {
-		during_time = 1,
 		name = "知识增益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11242,11 +13329,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2063,
 			2087
+		},
+		show_content = {
+			2063,
+			2087
 		}
 	},
 	[2064] = {
-		during_time = 1,
 		name = "知识减益(切换)++",
+		during_time = 1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11258,11 +13349,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			2064,
 			2088
+		},
+		show_content = {
+			2064,
+			2088
 		}
 	},
 	[2089] = {
-		during_time = 3,
 		name = "特殊行程格·一",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11273,11 +13368,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingcheng1_1",
 		content = {
 			2089
+		},
+		show_content = {
+			2089
 		}
 	},
 	[2090] = {
-		during_time = 3,
 		name = "特殊行程格·一+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11288,11 +13386,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingcheng1_2",
 		content = {
 			2090
+		},
+		show_content = {
+			2090
 		}
 	},
 	[2091] = {
-		during_time = 3,
 		name = "特殊行程格·一++",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11303,11 +13404,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingcheng1_3",
 		content = {
 			2091
+		},
+		show_content = {
+			2091
 		}
 	},
 	[2092] = {
-		during_time = 3,
 		name = "奇数行程格增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11318,11 +13422,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingchengji_1",
 		content = {
 			2092
+		},
+		show_content = {
+			2092
 		}
 	},
 	[2093] = {
-		during_time = 3,
 		name = "奇数行程格增益+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11333,11 +13440,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingchengji_2",
 		content = {
 			2093
+		},
+		show_content = {
+			2093
 		}
 	},
 	[2094] = {
-		during_time = 3,
 		name = "奇数行程格增益++",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11348,11 +13458,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingchengji_3",
 		content = {
 			2094
+		},
+		show_content = {
+			2094
 		}
 	},
 	[2095] = {
-		during_time = 3,
 		name = "偶数行程格增益",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11363,11 +13476,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingchengou_1",
 		content = {
 			2095
+		},
+		show_content = {
+			2095
 		}
 	},
 	[2096] = {
-		during_time = 3,
 		name = "偶数行程格增益+",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11378,11 +13494,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingchengou_2",
 		content = {
 			2096
+		},
+		show_content = {
+			2096
 		}
 	},
 	[2097] = {
-		during_time = 3,
 		name = "偶数行程格增益++",
+		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11393,11 +13512,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_xingchengou_3",
 		content = {
 			2097
+		},
+		show_content = {
+			2097
 		}
 	},
 	[2098] = {
-		during_time = 1,
 		name = "体能随机·预增益",
+		during_time = 1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11408,11 +13530,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_tineng_3",
 		content = {
 			2098
+		},
+		show_content = {
+			2098
 		}
 	},
 	[2099] = {
-		during_time = 1,
 		name = "知识随机·预增益",
+		during_time = 1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11423,11 +13548,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_zhishi_3",
 		content = {
 			2099
+		},
+		show_content = {
+			2099
 		}
 	},
 	[2100] = {
-		during_time = 1,
 		name = "实践随机·预增益",
+		during_time = 1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11438,11 +13566,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_shijian_3",
 		content = {
 			2100
+		},
+		show_content = {
+			2100
 		}
 	},
 	[2101] = {
-		during_time = 1,
 		name = "感知随机·预增益",
+		during_time = 1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11453,11 +13584,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_ganzhi_3",
 		content = {
 			2101
+		},
+		show_content = {
+			2101
 		}
 	},
 	[3001] = {
-		during_time = -1,
 		name = "独角兽的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11468,11 +13602,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30011
+		},
+		show_content = {
+			30011
 		}
 	},
 	[3002] = {
-		during_time = -1,
 		name = "独角兽的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11483,11 +13620,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30021
+		},
+		show_content = {
+			30021
 		}
 	},
 	[3003] = {
-		during_time = -1,
 		name = "独角兽的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11502,11 +13642,14 @@ pg.base.child2_benefit_list = {
 			30033,
 			30034,
 			30035
+		},
+		show_content = {
+			30031
 		}
 	},
 	[3004] = {
-		during_time = -1,
 		name = "海天的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11517,11 +13660,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30041
+		},
+		show_content = {
+			30041
 		}
 	},
 	[3005] = {
-		during_time = -1,
 		name = "海天的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11532,11 +13678,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30051
+		},
+		show_content = {
+			30051
 		}
 	},
 	[3006] = {
-		during_time = -1,
 		name = "海天的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11547,11 +13696,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "benefit_2_haitian",
 		content = {
 			30061
+		},
+		show_content = {
+			30061
 		}
 	},
 	[3007] = {
-		during_time = -1,
 		name = "安克雷奇的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11562,11 +13714,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30071
+		},
+		show_content = {
+			30071
 		}
 	},
 	[3008] = {
-		during_time = -1,
 		name = "安克雷奇的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11577,11 +13732,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30081
+		},
+		show_content = {
+			30081
 		}
 	},
 	[3009] = {
-		during_time = -1,
 		name = "安克雷奇的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11593,11 +13751,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			30091,
 			30092
+		},
+		show_content = {
+			30091,
+			30092
 		}
 	},
 	[3010] = {
-		during_time = -1,
 		name = "{namecode:491}的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11608,11 +13770,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30101
+		},
+		show_content = {
+			30101
 		}
 	},
 	[3011] = {
-		during_time = -1,
 		name = "{namecode:491}的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11623,11 +13788,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30111
+		},
+		show_content = {
+			30111
 		}
 	},
 	[3012] = {
-		during_time = -1,
 		name = "{namecode:491}的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11642,11 +13810,14 @@ pg.base.child2_benefit_list = {
 			30123,
 			30124,
 			30125
+		},
+		show_content = {
+			30121
 		}
 	},
 	[3013] = {
-		during_time = -1,
 		name = "凶猛的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11657,11 +13828,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30131
+		},
+		show_content = {
+			30131
 		}
 	},
 	[3014] = {
-		during_time = -1,
 		name = "凶猛的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11672,11 +13846,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30141
+		},
+		show_content = {
+			30141
 		}
 	},
 	[3015] = {
-		during_time = -1,
 		name = "凶猛的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11691,11 +13868,14 @@ pg.base.child2_benefit_list = {
 			30153,
 			30154,
 			30155
+		},
+		show_content = {
+			30151
 		}
 	},
 	[3016] = {
-		during_time = -1,
 		name = "{namecode:439}的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11706,11 +13886,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30161
+		},
+		show_content = {
+			30161
 		}
 	},
 	[3017] = {
-		during_time = -1,
 		name = "{namecode:439}的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11721,11 +13904,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30171
+		},
+		show_content = {
+			30171
 		}
 	},
 	[3018] = {
-		during_time = -1,
 		name = "{namecode:439}的祝福",
+		during_time = -1,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -11740,11 +13926,14 @@ pg.base.child2_benefit_list = {
 			30183,
 			30184,
 			30185
+		},
+		show_content = {
+			30181
 		}
 	},
 	[3051] = {
-		during_time = -1,
 		name = "安克雷奇的祝福·三衍生1",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11755,11 +13944,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30511
+		},
+		show_content = {
+			30511
 		}
 	},
 	[3052] = {
-		during_time = -1,
 		name = "安克雷奇的祝福·三衍生2",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11770,11 +13962,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30521
+		},
+		show_content = {
+			30521
 		}
 	},
 	[3053] = {
-		during_time = -1,
 		name = "安克雷奇的祝福·三衍生3",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11785,11 +13980,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30531
+		},
+		show_content = {
+			30531
 		}
 	},
 	[3054] = {
-		during_time = -1,
 		name = "安克雷奇的祝福·三衍生4",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11800,11 +13998,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			30541
+		},
+		show_content = {
+			30541
 		}
 	},
 	[3501] = {
-		during_time = -1,
 		name = "20回合目标属性奖励D",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11815,11 +14016,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35011
+		},
+		show_content = {
+			35011
 		}
 	},
 	[3502] = {
-		during_time = -1,
 		name = "20回合目标属性奖励C",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11830,11 +14034,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35021
+		},
+		show_content = {
+			35021
 		}
 	},
 	[3503] = {
-		during_time = -1,
 		name = "20回合目标属性奖励B",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11845,11 +14052,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35031
+		},
+		show_content = {
+			35031
 		}
 	},
 	[3504] = {
-		during_time = -1,
 		name = "20回合目标属性奖励A",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11860,11 +14070,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35041
+		},
+		show_content = {
+			35041
 		}
 	},
 	[3505] = {
-		during_time = -1,
 		name = "5回合目标奖励D",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11875,11 +14088,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35051
+		},
+		show_content = {
+			35051
 		}
 	},
 	[3506] = {
-		during_time = -1,
 		name = "5回合目标奖励C",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11890,11 +14106,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35061
+		},
+		show_content = {
+			35061
 		}
 	},
 	[3507] = {
-		during_time = -1,
 		name = "5回合目标奖励B",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11905,11 +14124,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35071
+		},
+		show_content = {
+			35071
 		}
 	},
 	[3508] = {
-		during_time = -1,
 		name = "5回合目标奖励A",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11920,11 +14142,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35081
+		},
+		show_content = {
+			35081
 		}
 	},
 	[3509] = {
-		during_time = -1,
 		name = "10回合目标奖励D",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11935,11 +14160,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35091
+		},
+		show_content = {
+			35091
 		}
 	},
 	[3510] = {
-		during_time = -1,
 		name = "10回合目标奖励C",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11950,11 +14178,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35101
+		},
+		show_content = {
+			35101
 		}
 	},
 	[3511] = {
-		during_time = -1,
 		name = "10回合目标奖励B",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11965,11 +14196,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35111
+		},
+		show_content = {
+			35111
 		}
 	},
 	[3512] = {
-		during_time = -1,
 		name = "10回合目标奖励A",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11980,11 +14214,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35121
+		},
+		show_content = {
+			35121
 		}
 	},
 	[3513] = {
-		during_time = -1,
 		name = "15回合目标奖励D",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -11995,11 +14232,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35131
+		},
+		show_content = {
+			35131
 		}
 	},
 	[3514] = {
-		during_time = -1,
 		name = "15回合目标奖励C",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12010,11 +14250,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35141
+		},
+		show_content = {
+			35141
 		}
 	},
 	[3515] = {
-		during_time = -1,
 		name = "15回合目标奖励B",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12025,11 +14268,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35151
+		},
+		show_content = {
+			35151
 		}
 	},
 	[3516] = {
-		during_time = -1,
 		name = "15回合目标奖励A",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12040,11 +14286,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			35161
+		},
+		show_content = {
+			35161
 		}
 	},
 	[3521] = {
-		during_time = -1,
 		name = "结局锚点benefit",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12053,11 +14302,12 @@ pg.base.child2_benefit_list = {
 		is_tip = 0,
 		id = 3521,
 		item_icon = "buff_colours_1",
-		content = {}
+		content = {},
+		show_content = {}
 	},
 	[3601] = {
-		during_time = -1,
 		name = "好感度掉落1",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12068,11 +14318,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			36011
+		},
+		show_content = {
+			36011
 		}
 	},
 	[3602] = {
-		during_time = -1,
 		name = "好感度掉落2",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12083,11 +14336,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			36021
+		},
+		show_content = {
+			36021
 		}
 	},
 	[3603] = {
-		during_time = -1,
 		name = "好感度掉落3",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12098,11 +14354,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			36031
+		},
+		show_content = {
+			36031
 		}
 	},
 	[3604] = {
-		during_time = -1,
 		name = "好感度掉落4",
+		during_time = -1,
 		type = 2,
 		is_show = 0,
 		item_icon_little = "",
@@ -12113,11 +14372,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			36041
+		},
+		show_content = {
+			36041
 		}
 	},
 	[41] = {
-		during_time = -1,
 		name = "41",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -12128,11 +14390,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			41
+		},
+		show_content = {
+			41
 		}
 	},
 	[42] = {
-		during_time = -1,
 		name = "42",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -12143,11 +14408,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			42
+		},
+		show_content = {
+			42
 		}
 	},
 	[43] = {
-		during_time = 3,
 		name = "43",
+		during_time = 3,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -12158,11 +14426,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			43
+		},
+		show_content = {
+			43
 		}
 	},
 	[44] = {
-		during_time = 2,
 		name = "44",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -12173,11 +14444,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			44
+		},
+		show_content = {
+			44
 		}
 	},
 	[45] = {
-		during_time = 2,
 		name = "45",
+		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
@@ -12188,11 +14462,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			45
+		},
+		show_content = {
+			45
 		}
 	},
 	[46] = {
-		during_time = -1,
 		name = "46",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -12203,11 +14480,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			46
+		},
+		show_content = {
+			46
 		}
 	},
 	[60] = {
-		during_time = -1,
 		name = "间隔+心情",
+		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -12218,11 +14498,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			62
+		},
+		show_content = {
+			62
 		}
 	},
 	[61] = {
-		during_time = 2,
 		name = "间隔+心情隐藏1",
+		during_time = 2,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -12234,11 +14517,15 @@ pg.base.child2_benefit_list = {
 		content = {
 			1001,
 			60
+		},
+		show_content = {
+			1001,
+			60
 		}
 	},
 	[62] = {
-		during_time = 2,
 		name = "间隔+心情隐藏2",
+		during_time = 2,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "",
@@ -12249,11 +14536,14 @@ pg.base.child2_benefit_list = {
 		item_icon = "buff_colours_1",
 		content = {
 			61
+		},
+		show_content = {
+			61
 		}
 	},
 	[10000] = {
-		during_time = -1,
 		name = "心情用",
+		during_time = -1,
 		type = 1,
 		is_show = 0,
 		item_icon_little = "",
@@ -12263,6 +14553,12 @@ pg.base.child2_benefit_list = {
 		id = 10000,
 		item_icon = "592",
 		content = {
+			10001,
+			10002,
+			10003,
+			10004
+		},
+		show_content = {
 			10001,
 			10002,
 			10003,
