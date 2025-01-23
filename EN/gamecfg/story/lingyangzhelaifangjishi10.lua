@@ -118,7 +118,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "You really like teasing $1, huh...",
+			say = "You really like teasing {tb}, huh...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "Wow, she really pushes the envelope when talking with $1...",
+			say = "Wow, she really pushes the envelope when talking with {tb}...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "Wait...? You can just force requests on $1 like this?",
+			say = "Wait...? You can just force requests on {tb} like this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

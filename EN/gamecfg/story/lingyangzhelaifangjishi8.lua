@@ -299,7 +299,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "Hmm... Yeah, I guess I do wanna write about the things $1 and I see together.",
+			say = "Hmm... Yeah, I guess I do wanna write about the things {tb} and I see together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

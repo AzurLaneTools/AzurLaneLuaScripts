@@ -2518,7 +2518,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50102] = {
 		shiptype = 1,
-		name = "Fei Yuen",
+		name = "Chang Feng Class",
 		t_level = 1,
 		id = 50102,
 		t_level_1 = 128,

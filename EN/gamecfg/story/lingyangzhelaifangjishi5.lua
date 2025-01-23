@@ -170,7 +170,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "Ooh, that's one way of messing with people... Thanks for the tip. $1 I'd be on my guard from now on if I were you ♪",
+			say = "Ooh, that's one way of messing with people... Thanks for the tip. {tb} I'd be on my guard from now on if I were you ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "Come on, you're fooling nobody. Anyone can see you're craving approval. Am I right, $1?",
+			say = "Come on, you're fooling nobody. Anyone can see you're craving approval. Am I right, {tb}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1555,8 +1555,6 @@ slot0.OnTriggerIK = function(slot0, slot1)
 	slot0.blockIK = true
 
 	slot0:TouchModeAction(slot2, unpack(slot4))(function ()
-		uv0.enableIKTip = true
-
 		uv0:ResetIKTipTimer()
 
 		uv0.blockIK = nil
@@ -1601,8 +1599,6 @@ slot0.OnTouchCharacterBody = function(slot0, slot1)
 			slot0.blockIK = true
 
 			slot0:TouchModeAction(slot2, unpack(slot10))(function ()
-				uv0.enableIKTip = true
-
 				uv0:ResetIKTipTimer()
 
 				uv0.blockIK = nil

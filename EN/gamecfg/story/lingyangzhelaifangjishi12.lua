@@ -70,7 +70,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "$1... I dunno about this...",
+			say = "{tb}... I dunno about this...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = -2,
 			actorName = "Navi",
 			hidePaintObj = true,
-			say = "Uhh... I'll come with $1 next time!",
+			say = "Uhh... I'll come with {tb} next time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
