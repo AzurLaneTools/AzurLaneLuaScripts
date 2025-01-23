@@ -46,11 +46,12 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.changeSkinUI = slot0._tf:Find("overlay/left/change_skin")
 	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkinUI, "toggle_ui"))
 	slot0.rightTr = slot0._tf:Find("overlay/right")
-	slot0.uiTagList = UIItemList.New(slot0._tf:Find("overlay/right/tags"), slot0._tf:Find("overlay/right/tags/tpl"))
-	slot0.charContainer = slot0._tf:Find("overlay/right/char")
+	slot0.uiTagList = UIItemList.New(slot0._tf:Find("overlay/right/container/tags_container/tags"), slot0._tf:Find("overlay/right/container/tags_container/tags/tpl"))
+	slot0.charContainer = slot0._tf:Find("overlay/right/container/char_container")
+	slot0.charTf = slot0._tf:Find("overlay/right/container/char_container/char")
 	slot0.furnitureContainer = slot0._tf:Find("overlay/right/fur")
-	slot0.charBg = slot0._tf:Find("overlay/right/bg/char")
-	slot0.furnitureBg = slot0._tf:Find("overlay/right/bg/furn")
+	slot0.charBg = slot0._tf:Find("overlay/right/container/char_container/bg/char")
+	slot0.furnitureBg = slot0._tf:Find("overlay/right/container/char_container/bg/furn")
 	slot0.switchPreviewBtn = slot0._tf:Find("overlay/right/switch")
 	slot0.obtainBtn = slot0._tf:Find("overlay/right/price/btn")
 	slot0.obtainBtnImg = slot0.obtainBtn:GetComponent(typeof(Image))
@@ -213,22 +214,22 @@ slot0.ClearSwitchBgAnim = function(slot0)
 end
 
 slot0.FlushBG = function(slot0, slot1, slot2)
-	slot3 = slot0.skinId
-	slot7 = Ship.New({
+	slot5 = nil
+	slot6 = ((pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot3))) and Ship.New({
 		id = 999,
-		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot3].ship_group).id,
+		configId = ShipGroup.getDefaultShipConfig(slot4.ship_group).id,
 		skin_id = slot3
-	}):getShipBgPrint(true)
-	slot8 = pg.ship_skin_template[slot3].painting
+	})):getShipBgPrint(true)
+	slot7 = pg.ship_skin_template[slot3].painting
 
-	if (slot0.isToggleShowBg or not checkABExist("painting/" .. slot8 .. "_n")) and slot4.bg_sp ~= "" then
-		slot7 = slot4.bg_sp
+	if (slot0.isToggleShowBg or not checkABExist("painting/" .. slot7 .. "_n")) and slot4.bg_sp ~= "" then
+		slot6 = slot4.bg_sp
 	end
 
-	if slot7 ~= slot6:rarity2bgPrintForGet() then
-		slot10 = pg.DynamicBgMgr.GetInstance()
+	if slot6 ~= slot5:rarity2bgPrintForGet() then
+		slot9 = pg.DynamicBgMgr.GetInstance()
 
-		slot10:LoadBg(slot0, slot7, slot0.diffBg.parent, slot0.diffBg, function (slot0)
+		slot9:LoadBg(slot0, slot6, slot0.diffBg.parent, slot0.diffBg, function (slot0)
 			if uv0 then
 				uv0()
 			end
@@ -245,14 +246,19 @@ slot0.FlushBG = function(slot0, slot1, slot2)
 		end
 	end
 
-	setActive(slot0.diffBg, slot9)
-	setActive(slot0.defaultBg, not slot9)
+	setActive(slot0.diffBg, slot8)
+	setActive(slot0.defaultBg, not slot8)
 end
 
 slot0.FlushName = function(slot0, slot1)
 	slot3 = pg.ship_skin_template[slot0.skinId]
 	slot0.skinNameTxt.text = SwitchSpecialChar(slot3.name, true)
-	slot0.shipNameTxt.text = ShipGroup.getDefaultShipConfig(slot3.ship_group).name
+
+	if slot3.skin_type == ShipSkin.SKIN_TYPE_TB then
+		slot0.shipNameTxt.text = NewEducateHelper.GetShipNameBySecId(NewEducateHelper.GetSecIdBySkinId(slot2))
+	else
+		slot0.shipNameTxt.text = ShipGroup.getDefaultShipConfig(slot3.ship_group).name
+	end
 end
 
 slot0.FlushPaintingToggle = function(slot0, slot1)
@@ -500,9 +506,9 @@ slot0.ClearMeshPainting = function(slot0)
 end
 
 slot0.LoadL2dPainting = function(slot0, slot1)
-	slot2 = slot0.skinId
+	slot4 = nil
 	slot5 = Live2D.GenerateData({
-		ship = Ship.New({
+		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
 			id = 999,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
 			skin_id = slot2
@@ -512,9 +518,8 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 		parent = slot0.live2dContainer
 	})
 	slot5.shopPreView = true
-	slot6 = pg.UIMgr.GetInstance()
 
-	slot6:LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 
 	slot0.live2dChar = Live2D.New(slot5, function (slot0)
 		slot0:IgonreReactPos(true)
@@ -538,13 +543,12 @@ slot0.ClearL2dPainting = function(slot0)
 end
 
 slot0.LoadSpinePainting = function(slot0, slot1)
-	slot2 = slot0.skinId
-	slot6 = pg.UIMgr.GetInstance()
+	slot4 = nil
 
-	slot6:LoadingOn()
+	pg.UIMgr.GetInstance():LoadingOn()
 
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
-		ship = Ship.New({
+		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
 			id = 999,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
 			skin_id = slot2
@@ -665,10 +669,15 @@ slot0.StartSwitchAnim = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.SwitchPreview = function(slot0, slot1, slot2, slot3)
-	slot4 = slot0.skinId
+	if pg.ship_skin_template[slot0.skinId].skin_type == ShipSkin.SKIN_TYPE_TB then
+		setActive(slot0.charContainer, false)
 
+		return
+	end
+
+	setActive(slot0.charContainer, true)
 	slot0:StartSwitchAnim(slot0.furnitureBg, slot0.charBg, slot3 and 0.3 or 0, function ()
-		setActive(uv0.charContainer, not uv1)
+		setActive(uv0.charTf, not uv1)
 		setActive(uv0.furnitureContainer, uv1)
 	end)
 
@@ -996,7 +1005,7 @@ slot0.FlushChar = function(slot0, slot1, slot2)
 		uv0.spineChar.localPosition = Vector3(0, 0, 0)
 
 		pg.ViewUtils.SetLayer(uv0.spineChar, Layer.UI)
-		setParent(uv0.spineChar, uv0.charContainer)
+		setParent(uv0.spineChar, uv0.charTf)
 		slot0:GetComponent("SpineAnimUI"):SetAction("normal", 0)
 	end)
 end

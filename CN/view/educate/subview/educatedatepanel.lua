@@ -32,6 +32,9 @@ slot0.OnInit = function(slot0)
 			viewComponent = EducateNewsLayer
 		}))
 	end, SFX_PANEL)
+	onButton(slot0, slot0._tf:Find("content/back"), function ()
+		uv0:emit(EducateBaseUI.ON_BACK)
+	end, SFX_PANEL)
 
 	slot0.targetSetDays = getProxy(EducateProxy):GetTaskProxy():GetTargetSetDays()
 

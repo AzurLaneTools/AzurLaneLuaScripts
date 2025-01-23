@@ -2441,7 +2441,74 @@ pg.activity_ins_chat_language = setmetatable({
 		2438,
 		2439,
 		2440,
-		2441
+		2441,
+		2442,
+		2443,
+		2444,
+		2445,
+		2446,
+		2447,
+		2448,
+		2449,
+		2450,
+		2451,
+		2452,
+		2453,
+		2454,
+		2455,
+		2456,
+		2457,
+		2458,
+		2459,
+		2460,
+		2461,
+		2462,
+		2463,
+		2464,
+		2465,
+		2466,
+		2467,
+		2468,
+		2469,
+		2470,
+		2471,
+		2472,
+		2473,
+		2474,
+		2475,
+		2476,
+		2477,
+		2478,
+		2479,
+		2480,
+		2481,
+		2482,
+		2483,
+		2484,
+		2485,
+		2486,
+		2487,
+		2488,
+		2489,
+		2490,
+		2491,
+		2492,
+		2493,
+		2494,
+		2495,
+		2496,
+		2497,
+		2498,
+		2499,
+		2500,
+		2501,
+		2502,
+		2503,
+		2504,
+		2505,
+		2506,
+		2507,
+		2508
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -24281,6 +24348,574 @@ pg.base.activity_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 2441,
+		flag = 7
+	},
+	[2442] = {
+		param = "新年快乐！！",
+		ship_group = 50103,
+		option = "",
+		type = 1,
+		id = 2442,
+		flag = 0
+	},
+	[2443] = {
+		param = "啊啊啊！！是新年！大家新年快乐！",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 2443,
+		flag = 0
+	},
+	[2444] = {
+		param = "43",
+		ship_group = 50106,
+		option = "",
+		type = 4,
+		id = 2444,
+		flag = 0
+	},
+	[2445] = {
+		param = "大家新年快乐~",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2445,
+		flag = 0
+	},
+	[2446] = {
+		param = "45",
+		ship_group = 50210,
+		option = "",
+		type = 4,
+		id = 2446,
+		flag = 0
+	},
+	[2447] = {
+		param = "1000",
+		ship_group = 51901,
+		option = "1000",
+		type = 3,
+		id = 2447,
+		flag = 0
+	},
+	[2448] = {
+		param = "哇！！！是红包！！！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2448,
+		flag = 0
+	},
+	[2449] = {
+		param = "谢谢定安！",
+		ship_group = 50101,
+		type = 1,
+		id = 2449,
+		flag = 0,
+		option = {
+			{
+				1,
+				"大家新年快乐！"
+			},
+			{
+				2,
+				"谢谢老板！"
+			}
+		}
+	},
+	[2450] = {
+		param = "大家新年快乐！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2450,
+		flag = 1
+	},
+	[2451] = {
+		param = "谢谢老板！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2451,
+		flag = 2
+	},
+	[2452] = {
+		param = "大家新年快乐！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2452,
+		flag = 2
+	},
+	[2453] = {
+		param = "指挥官，新年快乐",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2453,
+		flag = 0
+	},
+	[2454] = {
+		param = "新的一年希望指挥官工作顺利，事事顺遂",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 2454,
+		flag = 0
+	},
+	[2455] = {
+		param = "我方才卜了一卦，新年无论是指挥官还是大家，皆是鸿运连连。",
+		ship_group = 50401,
+		type = 1,
+		id = 2455,
+		flag = 0,
+		option = {
+			{
+				3,
+				"承大家吉言……"
+			},
+			{
+				4,
+				"希望大家新年……"
+			}
+		}
+	},
+	[2456] = {
+		param = "承大家吉言，新年一定大吉大利！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2456,
+		flag = 3
+	},
+	[2457] = {
+		param = "希望大家新年也能心想事成，事事如意！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2457,
+		flag = 4
+	},
+	[2458] = {
+		param = "我说怎么消息不断，原来是零点已经过了啊！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2458,
+		flag = 0
+	},
+	[2459] = {
+		param = "新年快乐啊，指挥官和大家！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2459,
+		flag = 0
+	},
+	[2460] = {
+		param = "我也来发个红包！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2460,
+		flag = 0
+	},
+	[2461] = {
+		param = "1001",
+		ship_group = 59901,
+		option = "1001",
+		type = 3,
+		id = 2461,
+		flag = 0
+	},
+	[2462] = {
+		param = "手气最佳的继续发！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2462,
+		flag = 0
+	},
+	[2463] = {
+		param = "50",
+		ship_group = 59901,
+		option = "",
+		type = 4,
+		id = 2463,
+		flag = 0
+	},
+	[2464] = {
+		param = "啊！又没抢到！",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 2464,
+		flag = 0
+	},
+	[2465] = {
+		param = "大家的手速也太快了",
+		ship_group = 50203,
+		option = "",
+		type = 1,
+		id = 2465,
+		flag = 0
+	},
+	[2466] = {
+		param = "65",
+		ship_group = 50208,
+		option = "",
+		type = 4,
+		id = 2466,
+		flag = 0
+	},
+	[2467] = {
+		param = "谁的手气最佳！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2467,
+		flag = 0
+	},
+	[2468] = {
+		param = "是我，飞云大人哒！",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 2468,
+		flag = 0
+	},
+	[2469] = {
+		param = "飞云，请~",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 2469,
+		flag = 0
+	},
+	[2470] = {
+		param = "等等！飞云大人还在研究怎么发红包！",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 2470,
+		flag = 0
+	},
+	[2471] = {
+		param = "果然还是需要姐姐我来帮你吧！嘿嘿嘿！",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 2471,
+		flag = 0
+	},
+	[2472] = {
+		param = "飞云的红包呢？",
+		ship_group = 50205,
+		option = "",
+		type = 1,
+		id = 2472,
+		flag = 0
+	},
+	[2473] = {
+		param = "44",
+		ship_group = 50205,
+		option = "",
+		type = 4,
+		id = 2473,
+		flag = 0
+	},
+	[2474] = {
+		param = "1002",
+		ship_group = 50108,
+		option = "1002",
+		type = 3,
+		id = 2474,
+		flag = 0
+	},
+	[2475] = {
+		param = "飞云有些搞不明白，我先发帮她发了~",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 2475,
+		flag = 0
+	},
+	[2476] = {
+		param = "多少？！我怎么才6物资！越来越少了！！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2476,
+		flag = 0
+	},
+	[2477] = {
+		param = "214",
+		ship_group = 50102,
+		option = "",
+		type = 4,
+		id = 2477,
+		flag = 0
+	},
+	[2478] = {
+		param = "这未尝不是一种运气~",
+		ship_group = 50401,
+		type = 1,
+		id = 2478,
+		flag = 0,
+		option = {
+			{
+				5,
+				"六六大顺！"
+			},
+			{
+				6,
+				"谢谢大家的红包！"
+			}
+		}
+	},
+	[2479] = {
+		param = "六六大顺！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2479,
+		flag = 5
+	},
+	[2480] = {
+		param = "六六大顺倒是喜庆~",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2480,
+		flag = 5
+	},
+	[2481] = {
+		param = "说起来指挥官也是个好数字，八八大发",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 2481,
+		flag = 5
+	},
+	[2482] = {
+		param = "谢谢大家的红包！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2482,
+		flag = 6
+	},
+	[2483] = {
+		param = "不用客气，春节就是要一起沾沾喜气",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 2483,
+		flag = 6
+	},
+	[2484] = {
+		param = "这次是我的手气最好了呢，我来发~",
+		ship_group = 50602,
+		option = "",
+		type = 1,
+		id = 2484,
+		flag = 0
+	},
+	[2485] = {
+		param = "1003",
+		ship_group = 50602,
+		option = "1003",
+		type = 3,
+		id = 2485,
+		flag = 0
+	},
+	[2486] = {
+		param = "你是故意的还是不小心的~",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 2486,
+		flag = 0
+	},
+	[2487] = {
+		param = "当然是故意不小心的啦！",
+		ship_group = 50602,
+		option = "",
+		type = 1,
+		id = 2487,
+		flag = 0
+	},
+	[2488] = {
+		param = "专属红包啊……那姐姐我也来~",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2488,
+		flag = 0
+	},
+	[2489] = {
+		param = "不过我准备的是实体红包",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2489,
+		flag = 0
+	},
+	[2490] = {
+		param = "现在就给指挥官送过去吧♪",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2490,
+		flag = 0
+	},
+	[2491] = {
+		param = "其实我也准备了",
+		ship_group = 50207,
+		option = "",
+		type = 1,
+		id = 2491,
+		flag = 0
+	},
+	[2492] = {
+		param = "我也准备了，而且还定制了时下最流行的红包款式~！",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 2492,
+		flag = 0
+	},
+	[2493] = {
+		param = "既然大家都准备了，不如我们现在就去给指挥官送红包吧~",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 2493,
+		flag = 0
+	},
+	[2494] = {
+		param = "可以可以，就当拜年了，哈哈！",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2494,
+		flag = 0
+	},
+	[2495] = {
+		param = "？凌晨拜年也是第一次听说",
+		ship_group = 50301,
+		option = "",
+		type = 1,
+		id = 2495,
+		flag = 0
+	},
+	[2496] = {
+		param = "但也没什么不好的，新年伊始，热闹些也好",
+		ship_group = 50301,
+		option = "",
+		type = 1,
+		id = 2496,
+		flag = 0
+	},
+	[2497] = {
+		param = "正好，我给大家准备的夜宵刚做好，也一起送过去吧！",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2497,
+		flag = 0
+	},
+	[2498] = {
+		param = "什么！居然还有夜宵！",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 2498,
+		flag = 0
+	},
+	[2499] = {
+		param = "是姐姐特地为大家准备的新年惊喜！",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 2499,
+		flag = 0
+	},
+	[2500] = {
+		param = "358",
+		ship_group = 50106,
+		option = "",
+		type = 4,
+		id = 2500,
+		flag = 0
+	},
+	[2501] = {
+		param = "龙武专门为大家备下了新年豪华夜宵",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2501,
+		flag = 0
+	},
+	[2502] = {
+		param = "谢谢龙武！",
+		ship_group = 50202,
+		type = 1,
+		id = 2502,
+		flag = 0,
+		option = {
+			{
+				7,
+				"辛苦龙武，更是谢谢大家……"
+			}
+		}
+	},
+	[2503] = {
+		param = "辛苦龙武的准备，更是谢谢大家的心意",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2503,
+		flag = 7
+	},
+	[2504] = {
+		param = "新年第一天，能和大家热热闹闹地在一起，我很开心！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2504,
+		flag = 7
+	},
+	[2505] = {
+		param = "大家一起过来我这边吃夜宵吧！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2505,
+		flag = 7
+	},
+	[2506] = {
+		param = "373",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2506,
+		flag = 7
+	},
+	[2507] = {
+		param = "来了来了！我们马上到~",
+		ship_group = 50103,
+		option = "",
+		type = 1,
+		id = 2507,
+		flag = 7
+	},
+	[2508] = {
+		param = "冲啊，过年咯！",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2508,
 		flag = 7
 	}
 }

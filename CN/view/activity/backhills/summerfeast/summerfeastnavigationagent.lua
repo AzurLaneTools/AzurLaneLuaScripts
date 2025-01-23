@@ -9,7 +9,7 @@ end
 slot0.init = function(slot0)
 end
 
-slot0.normalSpeed = 150
+slot0.normalSpeed = 15
 slot0.normalScale = 0.5
 
 slot0.SetOnTransEdge = function(slot0, slot1)
@@ -80,7 +80,7 @@ slot0.updateLogic = function(slot0)
 	slot0:clearLogic()
 
 	if slot0.state == uv0.ShipState.Walk then
-		slot4 = Vector2.Distance(slot0.currentPoint, slot0.targetPoint) / 15
+		slot4 = Vector2.Distance(slot0.currentPoint, slot0.targetPoint) / slot0.normalSpeed
 
 		if slot0.posTable[slot0.currentPoint.id] == slot0 then
 			slot0.posTable[slot0.currentPoint.id] = nil

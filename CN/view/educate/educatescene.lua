@@ -511,7 +511,7 @@ slot0.FlushView = function(slot0)
 end
 
 slot0.onBackPressed = function(slot0)
-	slot0:emit(EducateBaseUI.ON_HOME)
+	slot0:emit(uv0.EDUCATE_GO_SCENE, SCENE.NEW_EDUCATE_SELECT)
 end
 
 slot0.willExit = function(slot0)

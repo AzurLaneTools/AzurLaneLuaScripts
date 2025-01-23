@@ -62,6 +62,11 @@ slot0.addSkin = function(slot0, slot1)
 	slot0.prevNewSkin = slot1
 
 	slot0:addExpireTimer(slot1)
+
+	if slot1:getConfig("skin_type") == ShipSkin.SKIN_TYPE_TB then
+		NewEducateHelper.UpdateUnlockBySkinId(slot1.id)
+	end
+
 	slot0.facade:sendNotification(uv0.SHIP_SKINS_UPDATE)
 end
 

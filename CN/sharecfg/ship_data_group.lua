@@ -2287,6 +2287,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970305] = {
 			30042
+		},
+		[970306] = {
+			30043
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3058,7 +3061,8 @@ pg.ship_data_group = setmetatable({
 			30039,
 			30040,
 			30041,
-			30042
+			30042,
+			30043
 		}
 	},
 	all = {
@@ -3823,7 +3827,8 @@ pg.ship_data_group = setmetatable({
 		30039,
 		30040,
 		30041,
-		30042
+		30042,
+		30043
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -35389,6 +35394,41 @@ pg.base.ship_data_group = {
 				"限时活动：星光下的余晖",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30043] = {
+		nationality = 97,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970306,
+		index_id = 30043,
+		code = 30043,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9703061
+					}
 				},
 				0
 			}

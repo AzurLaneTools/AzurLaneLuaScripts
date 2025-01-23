@@ -264,6 +264,22 @@ pg.activity_link_button = {
 			"TOLOVE_COLLAB_BACKHILL"
 		}
 	},
+	[108] = {
+		name = "event_minigame",
+		text_pic = "text_event_minigame",
+		type = 2,
+		pic = "event_minigame",
+		id = 108,
+		group_id = 13,
+		order = 1,
+		time = {
+			"default",
+			5785
+		},
+		param = {
+			"firework and spring"
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -274,7 +290,8 @@ pg.activity_link_button = {
 			10
 		},
 		event_minigame = {
-			20
+			20,
+			108
 		},
 		event_boss = {
 			30
@@ -338,6 +355,7 @@ pg.activity_link_button = {
 		104,
 		105,
 		106,
-		107
+		107,
+		108
 	}
 }

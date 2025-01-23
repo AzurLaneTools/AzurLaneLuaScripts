@@ -277,6 +277,11 @@ pg.task_meta_data_template = setmetatable({
 		100373,
 		100374,
 		100375,
+		100381,
+		100382,
+		100383,
+		100384,
+		100385,
 		200001,
 		200002,
 		200003,
@@ -388,7 +393,11 @@ pg.task_meta_data_template = setmetatable({
 		200281,
 		200282,
 		200283,
-		200284
+		200284,
+		200291,
+		200292,
+		200293,
+		200294
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2567,7 +2576,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100372,
 		target_num = 1,
-		desc = "使用{namecode:543}·META击破等级＞30的敌方1次"
+		desc = "使用{namecode:543}击破等级＞30的敌方1次"
 	},
 	[100373] = {
 		target_id = "55",
@@ -2575,7 +2584,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100373,
 		target_num = 1,
-		desc = "使用{namecode:543}·META击破等级＞55的敌方1次"
+		desc = "使用{namecode:543}击破等级＞55的敌方1次"
 	},
 	[100374] = {
 		target_id = "80",
@@ -2583,7 +2592,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100374,
 		target_num = 1,
-		desc = "使用{namecode:543}·META击破等级＞80的敌方1次"
+		desc = "使用{namecode:543}击破等级＞80的敌方1次"
 	},
 	[100375] = {
 		target_id = "100",
@@ -2591,7 +2600,47 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 100375,
 		target_num = 1,
-		desc = "使用{namecode:543}·META击破等级＞100的敌方1次"
+		desc = "使用{namecode:543}击破等级＞100的敌方1次"
+	},
+	[100381] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100381,
+		target_num = 1,
+		desc = "使用博尔扎诺·META获得1次胜利"
+	},
+	[100382] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100382,
+		target_num = 1,
+		desc = "使用博尔扎诺·META击破等级＞30的敌方1次"
+	},
+	[100383] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100383,
+		target_num = 1,
+		desc = "使用博尔扎诺·META击破等级＞55的敌方1次"
+	},
+	[100384] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100384,
+		target_num = 1,
+		desc = "使用博尔扎诺·META击破等级＞80的敌方1次"
+	},
+	[100385] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100385,
+		target_num = 1,
+		desc = "使用博尔扎诺·META击破等级＞100的敌方1次"
 	},
 	[200001] = {
 		target_id = "0",
@@ -3463,7 +3512,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200281,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:543}·META获得1次胜利"
+		desc = "大型作战内使用{namecode:543}获得1次胜利"
 	},
 	[200282] = {
 		target_id = "70",
@@ -3471,7 +3520,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200282,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:543}·META击破等级＞70的敌方1次"
+		desc = "大型作战内使用{namecode:543}击破等级＞70的敌方1次"
 	},
 	[200283] = {
 		target_id = "90",
@@ -3479,7 +3528,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200283,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:543}·META击破等级＞90的敌方1次"
+		desc = "大型作战内使用{namecode:543}击破等级＞90的敌方1次"
 	},
 	[200284] = {
 		target_id = "100",
@@ -3487,6 +3536,38 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970305",
 		id = 200284,
 		target_num = 1,
-		desc = "大型作战内使用{namecode:543}·META击破等级＞100的敌方1次"
+		desc = "大型作战内使用{namecode:543}击破等级＞100的敌方1次"
+	},
+	[200291] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200291,
+		target_num = 1,
+		desc = "大型作战内使用博尔扎诺·META获得1次胜利"
+	},
+	[200292] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200292,
+		target_num = 1,
+		desc = "大型作战内使用博尔扎诺·META击破等级＞70的敌方1次"
+	},
+	[200293] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200293,
+		target_num = 1,
+		desc = "大型作战内使用博尔扎诺·META击破等级＞90的敌方1次"
+	},
+	[200294] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200294,
+		target_num = 1,
+		desc = "大型作战内使用博尔扎诺·META击破等级＞100的敌方1次"
 	}
 }

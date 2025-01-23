@@ -435,7 +435,7 @@ pg.activity_month_sign = {
 		day21 = {
 			{
 				5,
-				100058,
+				100070,
 				1
 			}
 		},
@@ -491,8 +491,8 @@ pg.activity_month_sign = {
 		day29 = {
 			{
 				1,
-				2,
-				450
+				1,
+				1
 			}
 		},
 		day30 = {

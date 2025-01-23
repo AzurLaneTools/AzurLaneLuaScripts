@@ -1,4 +1,4 @@
-slot0 = class("ShoppingCommand", pm.SimpleCommand)
+slot0 = class("SkinShoppingCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()

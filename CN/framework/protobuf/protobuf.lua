@@ -275,11 +275,11 @@ slot32 = function(slot0)
 		slot1 = slot0.message_type
 
 		return function (slot0)
-			slot1 = uv0._concrete_class()
+			result = uv0._concrete_class()
 
-			slot1._SetListener(slot0._listener_for_children)
+			result._SetListener(slot0._listener_for_children)
 
-			return slot1
+			return result
 		end
 	end
 
@@ -320,7 +320,8 @@ slot35 = function(slot0)
 			_fields = {},
 			_is_present_in_parent = false,
 			_listener = uv0.NullMessageListener(),
-			_listener_for_children = uv0.Listener(slot0)
+			_listener_for_children = uv0.Listener(slot0),
+			_is_message_exist = false
 		}
 
 		return uv1(slot0, uv2)
@@ -397,7 +398,8 @@ slot38 = function(slot0, slot1)
 end
 
 slot39 = function(slot0, slot1)
-	slot1._member[slot0.name:upper() .. "_FIELD_NUMBER"] = slot0.number
+	constant_name = slot0.name:upper() .. "_FIELD_NUMBER"
+	slot1._member[constant_name] = slot0.number
 
 	if slot0.label == uv0.LABEL_REPEATED then
 		uv1(slot0, slot1)
@@ -555,14 +557,18 @@ slot47 = function(slot0, slot1)
 	end
 
 	slot1._member.HasField = function(slot0, slot1)
-		if uv0[slot1] == nil then
+		field = uv0[slot1]
+
+		if field == nil then
 			uv1("Protocol message has no singular \"" .. slot1 .. "\" field.")
 		end
 
-		if slot2.cpp_type == uv2.CPPTYPE_MESSAGE then
-			return slot0._fields[slot2] ~= nil and slot3._is_present_in_parent
+		if field.cpp_type == uv2.CPPTYPE_MESSAGE then
+			value = slot0._fields[field]
+
+			return value ~= nil and value._is_present_in_parent
 		else
-			return slot0._fields[slot2] ~= nil
+			return slot0._fields[field] ~= nil
 		end
 	end
 end
@@ -624,7 +630,9 @@ slot52 = function(slot0)
 		end
 
 		if slot1.cpp_type == uv0.CPPTYPE_MESSAGE then
-			return slot0._fields[slot1] ~= nil and slot2._is_present_in_parent
+			value = slot0._fields[slot1]
+
+			return value ~= nil and value._is_present_in_parent
 		else
 			return slot0._fields[slot1]
 		end
@@ -713,6 +721,7 @@ slot57 = function(slot0, slot1)
 	slot1._member._InternalParse = function(slot0, slot1, slot2, slot3)
 		uv0._member._Modified(slot0)
 
+		slot0._is_message_exist = true
 		slot4 = slot0._fields
 		slot5, slot6, slot7 = nil
 
@@ -799,31 +808,34 @@ slot58 = function(slot0, slot1)
 
 		for slot5, slot6 in uv0(uv1) do
 			if not uv2._member.HasField(slot0, slot6.name) then
-				slot1[#slot1 + 1] = slot6.name
+				uv3.insert(slot1, slot6.name)
 			end
 		end
 
-		slot2, slot3, slot4 = nil
+		for slot5, slot6 in uv2._member.ListFields(slot0) do
+			if slot5.cpp_type == uv4.CPPTYPE_MESSAGE then
+				if slot5.is_extension then
+					name = uv5.format("(%s)", slot5.full_name)
+				else
+					name = slot5.name
+				end
 
-		for slot8, slot9 in uv2._member.ListFields(slot0) do
-			if slot8.cpp_type == uv3.CPPTYPE_MESSAGE then
-				slot2 = (not slot8.is_extension or io:format("(%s)", slot8.full_name)) and slot8.name
+				if slot5.label == uv4.LABEL_REPEATED then
+					for slot10, slot11 in uv0(slot6) do
+						slot15 = slot10
+						prefix = uv5.format("%s[%d].", name, slot15)
+						sub_errors = slot11:FindInitializationErrors()
 
-				if slot8.label == uv3.LABEL_REPEATED then
-					for slot13, slot14 in uv0(slot9) do
-						slot18 = slot2
-						slot19 = slot13
-						slot3 = io:format("%s[%d].", slot18, slot19)
-
-						for slot18, slot19 in uv0(slot14:FindInitializationErrors()) do
-							slot1[#slot1 + 1] = slot3 .. slot19
+						for slot15, slot16 in uv0(sub_errors) do
+							slot1[#slot1 + 1] = prefix .. slot16
 						end
 					end
 				else
-					slot3 = slot2 .. "."
+					prefix = name .. "."
+					sub_errors = slot6:FindInitializationErrors()
 
-					for slot13, slot14 in uv0(slot9:FindInitializationErrors()) do
-						slot1[#slot1 + 1] = slot3 .. slot14
+					for slot10, slot11 in uv0(sub_errors) do
+						slot1[#slot1 + 1] = prefix .. slot11
 					end
 				end
 			end
@@ -845,11 +857,14 @@ slot59 = function(slot0)
 
 		for slot6, slot7 in uv1(slot1._fields) do
 			if slot6.label == uv2 or slot6.cpp_type == uv3 then
-				if slot2[slot6] == nil then
-					slot2[slot6] = slot6._default_constructor(slot0)
+				field_value = slot2[slot6]
+
+				if field_value == nil then
+					field_value = slot6._default_constructor(slot0)
+					slot2[slot6] = field_value
 				end
 
-				slot8:MergeFrom(slot7)
+				field_value:MergeFrom(slot7)
 			else
 				slot0._fields[slot6] = slot7
 			end

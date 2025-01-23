@@ -12,6 +12,7 @@ slot0.init = function(slot0)
 	slot0.chatTxt = slot0.chatTf:Find("Text"):GetComponent(typeof(Text))
 	slot0.toggleUIItemList = UIItemList.New(slot0:findTF("main/tag"), slot0:findTF("main/tag/tpl"))
 	slot0.wordUIItemList = UIItemList.New(slot0:findTF("main/list/content"), slot0:findTF("main/list/content/tpl"))
+	slot0.tabItemList = UIItemList.New(slot0:findTF("tab/list"), slot0:findTF("tab/list/tpl"))
 	slot0.cvLoader = EducateCharCvLoader.New()
 	slot0.animation = slot0._tf:GetComponent(typeof(Animation))
 	slot0.timers = {}
@@ -24,11 +25,44 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.homeBtn, function ()
 		uv0:emit(uv1.ON_HOME)
 	end, SFX_PANEL)
+	slot0:InitTabs()
 	slot0:InitToggles()
 end
 
+slot0.InitTabs = function(slot0)
+	slot0.characterList = NewEducateHelper.GetEducateCharacterList()
+	slot0.selectedCharacterId = slot0.contextData.selectedCharacterId
+
+	slot0.tabItemList:make(function (slot0, slot1, slot2)
+		slot4 = uv0.characterList[slot1 + 1]
+
+		if slot0 == UIItemList.EventUpdate then
+			setActive(slot2:Find("lock"), slot4:IsLock())
+			setActive(slot2:Find("border/selected"), slot3 == uv0.selectedCharacterId)
+			setActive(slot2:Find("border/normal"), slot3 ~= uv0.selectedCharacterId)
+		elseif slot0 == UIItemList.EventInit then
+			GetImageSpriteFromAtlasAsync("qicon/" .. slot4:GetDefaultFrame(), "", slot2:Find("frame"))
+			onButton(uv0, slot2, function ()
+				if uv0:IsLock() then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("secretary_special_character_unlock"))
+
+					return
+				end
+
+				if uv1 ~= uv2.selectedCharacterId then
+					uv2.selectedCharacterId = uv1
+
+					uv2.tabItemList:align(#uv2.characterList)
+					uv2:InitToggles()
+				end
+			end)
+		end
+	end)
+	slot0.tabItemList:align(#slot0.characterList)
+end
+
 slot0.InitToggles = function(slot0)
-	slot1 = getProxy(EducateProxy):GetEducateGroupList()
+	slot1 = slot0.characterList[slot0.selectedCharacterId]:GetGroupList()
 
 	table.sort(slot1, function (slot0, slot1)
 		return slot0:GetSortWeight() < slot1:GetSortWeight()
@@ -193,9 +227,9 @@ slot0.InitPainting = function(slot0, slot1)
 
 	slot2 = pg.secretary_special_ship[slot1]
 
-	setPaintingPrefab(slot0.paintingTr, slot2.prefab, "tb3")
+	setPaintingPrefabAsync(slot0.paintingTr, slot2.painting, "tb3")
 
-	slot0.paintingName = slot2.prefab
+	slot0.paintingName = slot2.painting
 end
 
 slot0.ReturnPainting = function(slot0)

@@ -60,6 +60,18 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[105] = {
+		unlock = "世界巡游二十一期获取",
+		name = "光耀之庭",
+		key = "SkinNormal_20250123",
+		display_icon = "ui_105",
+		is_unlock = 1,
+		rare = 3,
+		desc = "金光闪烁的设计为指挥官带来庄重而神圣的视觉享受，让每一次战斗都如同史诗般壮丽。",
+		id = 105,
+		icon = "105",
+		scene = {}
+	},
 	[201] = {
 		unlock = "圣诞雪境战斗主题礼包获取",
 		name = "圣诞雪境",
@@ -78,6 +90,7 @@ pg.item_data_battleui = {
 		102,
 		103,
 		104,
+		105,
 		201
 	}
 }

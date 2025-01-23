@@ -52,7 +52,7 @@ SCENE = {
 	OTHER_WORLD_TEMPLE_SCENE = "other world temple scene",
 	CARD_TOWER_MODE_SELECT = "CARD_TOWER_MODE_SELECT",
 	CARD_TOWER_DIFFICULTY_SELECT = "CARD_TOWER_DIFFICULTY_SELECT",
-	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
+	NEW_EDUCATE_MAP = "NEW_EDUCATE_MAP",
 	DOA_MEDAL_COLLECTION_SCENE = "scene doa medal collection",
 	CARD_TOWER_CELL_SELECT = "CARD_TOWER_CELL_SELECT",
 	REDPACKEY = "scene RED PACKEY",
@@ -76,45 +76,49 @@ SCENE = {
 	SENRANKAGURA_MEDAL = "senrankagura medal",
 	SECRET_SHIPYARD = "SECRET_SHIPYARD",
 	SPRING_FESTIVAL_BACKHILL_2024 = "SPRING_FESTIVAL_BACKHILL_2024",
-	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
+	NEW_EDUCATE = "NEW_EDUCATE",
 	TRANSITION = "scene transition",
 	DOCKYARD = "scene dockyard",
 	TASK = "scene task",
 	SPWEAPON_STOREHOUSE = "spweapon storehouse",
-	EDUCATE_DOCK = "EDUCATE_DOCK",
-	EDUCATE_PROFILE = "EDUCATE_PROFILE",
+	CARD_TOWER_CHARACTER_SELECT_DETAIL = "CARD_TOWER_CHARACTER_SELECT_DETAIL",
+	HOLOLIVE_LINKLINK_SELECT_SCENE = "hololive linklink select scene",
 	SENRANKAGURA_TRAIN = "senrankagura train",
 	CHALLENGE_MAIN_SCENE = "challenge main scene",
 	OTHERWORLD_BACKHILL = "OTHERWORLD_BACKHILL",
+	EDUCATE_PROFILE = "EDUCATE_PROFILE",
 	ISLAND_TASK = "island task",
+	EDUCATE_DOCK = "EDUCATE_DOCK",
 	OTHERWORLD_MAP = "OTHERWORLD_MAP",
-	MUSIC_FESTIVAL3 = "music festival 3",
-	LINER_BACKHILL = "LINER_BACKHILL",
 	WORLD_COLLECTION = "world collection",
 	SNAPSHOT = "snapshot",
 	DORM3D_AR = "DORM3D_AR",
-	MAINUI = "scene mainUI",
+	MUSIC_FESTIVAL3 = "music festival 3",
 	SELTECHNOLOGY = "seltechnology",
-	SHIPINFO = "scene shipinfo",
+	LINER_BACKHILL = "LINER_BACKHILL",
 	INVITATION = "scene invitation",
 	UPGRADESTAR = "scene upgrade star",
-	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
-	CASTLE_MAIN = "CASTLE_MAIN",
+	MAINUI = "scene mainUI",
+	SHIPINFO = "scene shipinfo",
 	CHARGE_MENU = "scene charge_menu",
 	HOTSPRING = "hotSpring",
 	EQUIPSCENE = "scene equip",
-	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
-	DORM3D_ROOM = "dorm 3d room",
+	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
+	CASTLE_MAIN = "CASTLE_MAIN",
 	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	FEAST = "scene Feast",
 	NEWYEAR_BACKHILL_2023 = "NEWYEAR BACKHILL 2023",
+	DORM3D_VOLLEYBALL = "dorm 3d volleyball",
+	DORM3D_ROOM = "dorm 3d room",
+	EXERCISEFORMATION = "scene exerciseformation",
 	GHOSTSKINPAGE = "GhostSkinPage",
 	PUZZLE_CONNECT = "puzzle connect",
-	EXERCISEFORMATION = "scene exerciseformation",
+	FIREWORK_AND_SPRING = "firework and spring",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	BILLBOARD = "scene billboard",
 	DREAMLAND = "DREAMLAND",
 	ROGUE_FINAL_RESULT = "ROGUE_FINAL_RESULT",
+	NEW_EDUCATE_SCHEDULE = "NEW_EDUCATE_SCHEDULE",
 	OTHER_WORLD_TASK_LAYER = "other world task scene",
 	SHOP = "scene shop",
 	SINGLE_ACTIVITY = "single activity",
@@ -123,6 +127,7 @@ SCENE = {
 	IMAS_STAGE = "IdolMaster Stage",
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
 	PROBABILITY_SKINSHOP = "scene probability skinshop",
+	NEW_EDUCATE_SELECT = "NEW_EDUCATE_SELECT",
 	BOSSRUSH_MAIN = "bossrush main",
 	EDUCATE_SCHEDULE = "EDUCATE_SCHEDULE",
 	CHUZHENG = "scene chuzheng",
@@ -197,8 +202,8 @@ slot0 = {
 		slot0.viewComponent = EducateCharProfileScene
 	end,
 	[SCENE.EDUCATE_DOCK] = function (slot0, slot1)
-		slot0.mediator = EducateCharDockScene
-		slot0.viewComponent = EducateCharDockMediator
+		slot0.mediator = EducateCharDockMediator
+		slot0.viewComponent = EducateCharDockScene
 	end,
 	[SCENE.US_CASTLE_2023] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -844,6 +849,22 @@ slot0 = {
 		slot0.mediator = SpringFestival2024Mediator
 		slot0.viewComponent = SpringFestival2024Scene
 	end,
+	[SCENE.NEW_EDUCATE_SELECT] = function (slot0, slot1)
+		slot0.mediator = NewEducateSelectMediator
+		slot0.viewComponent = NewEducateSelectScene
+	end,
+	[SCENE.NEW_EDUCATE] = function (slot0, slot1)
+		slot0.mediator = NewEducateMainMediator
+		slot0.viewComponent = NewEducateMainScene
+	end,
+	[SCENE.NEW_EDUCATE_SCHEDULE] = function (slot0, slot1)
+		slot0.mediator = NewEducateScheduleMediator
+		slot0.viewComponent = NewEducateScheduleScene
+	end,
+	[SCENE.NEW_EDUCATE_MAP] = function (slot0, slot1)
+		slot0.mediator = NewEducateMapMediator
+		slot0.viewComponent = NewEducateMapScene
+	end,
 	[SCENE.EDUCATE] = function (slot0, slot1)
 		slot0.mediator = EducateMediator
 		slot0.viewComponent = EducateScene
@@ -916,6 +937,10 @@ slot0 = {
 	[SCENE.TOLOVE_COLLAB_BACKHILL] = function (slot0, slot1)
 		slot0.mediator = ToLoveCollabBackHillMediator
 		slot0.viewComponent = ToLoveCollabBackHillScene
+	end,
+	[SCENE.FIREWORK_AND_SPRING] = function (slot0, slot1)
+		slot0.mediator = FireworkAndSpringMediator
+		slot0.viewComponent = FireworkAndSpringScene
 	end
 }
 
@@ -1198,6 +1223,25 @@ slot1 = {
 	EducateMediator = function (slot0, slot1)
 		EducateHelper.ReqEducateDataCheck(slot1)
 	end,
+	NewEducateSelectMediator = function (slot0, slot1)
+		seriesAsync({
+			function (slot0)
+				EducateHelper.ReqEducateDataCheck(slot0)
+			end,
+			function (slot0)
+				getProxy(NewEducateProxy):ReqDataCheck(slot0)
+			end
+		}, function ()
+			NewEducateHelper.TrackExitTime()
+			getProxy(NewEducateProxy):SetCurChar(0)
+			uv0()
+		end)
+	end,
+	NewEducateMainMediator = function (slot0, slot1)
+		getProxy(NewEducateProxy):SetCurChar(slot0.context.data.id)
+		NewEducateHelper.TrackEnterTime()
+		slot1()
+	end,
 	CourtYardMediator = function (slot0, slot1)
 		if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "BackYardMediator") then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("word_systemClose"))
@@ -1252,6 +1296,13 @@ slot1 = {
 	SelectDorm3DMediator = function (slot0, slot1)
 		if LOCK_DORM3D_SYSTEM then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_system_switch"))
+		else
+			slot1()
+		end
+	end,
+	NewSkinShopMediator = function (slot0, slot1)
+		if LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipUpgradeLayer2_levelError"))
 		else
 			slot1()
 		end

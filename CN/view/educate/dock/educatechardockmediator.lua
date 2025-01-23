@@ -8,8 +8,10 @@ slot0.register = function(slot0)
 			id = slot1
 		})
 	end)
-	slot0:bind(uv0.GO_PROFILE, function (slot0)
-		uv0:sendNotification(GAME.GO_SCENE, SCENE.EDUCATE_PROFILE)
+	slot0:bind(uv0.GO_PROFILE, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.EDUCATE_PROFILE, {
+			selectedCharacterId = slot1
+		})
 	end)
 end
 

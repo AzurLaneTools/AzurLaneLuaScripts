@@ -612,24 +612,32 @@ slot0.UpdateIcon = function(slot0, slot1, slot2)
 	slot2()
 end
 
-slot0.UpdateOptionTxt = function(slot0, slot1, slot2, slot3)
-	slot4 = slot2:GetComponent(typeof(LayoutElement))
-	slot5 = slot2:Find("content")
+slot0.UpdateOptionTxt = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot2:GetComponent(typeof(LayoutElement))
+	slot6 = slot2:Find("content")
 
 	if slot1 then
-		slot7 = slot2:Find("content_max")
-		slot8 = GetPerceptualSize(slot3) >= 17
-		slot9 = slot8 and slot7 or slot5
+		slot8 = slot2:Find("content_max")
+		slot9 = GetPerceptualSize(slot3) >= 17
+		slot10 = slot9 and slot8 or slot6
 
-		setActive(slot5, not slot8)
-		setActive(slot7, slot8)
-		setText(slot9:Find("Text"), slot3)
+		setActive(slot6, not slot9)
+		setActive(slot8, slot9)
+		setText(slot10:Find("Text"), slot3)
 
-		slot4.preferredHeight = slot9.rect.height
+		slot5.preferredHeight = slot10.rect.height
 	else
-		setText(slot5:Find("Text"), slot3)
+		setText(slot6:Find("Text"), slot3)
 
-		slot4.preferredHeight = slot5.rect.height
+		slot5.preferredHeight = slot6.rect.height
+	end
+
+	if slot6:Find("type1") then
+		setActive(slot6:Find("type1"), slot4 and slot4 == 1)
+	end
+
+	if slot6:Find("type2") then
+		setActive(slot6:Find("type2"), slot4 and slot4 == 2)
 	end
 end
 
@@ -643,7 +651,7 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 	slot7:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = slot2
-			slot6 = table.contains(uv1, uv0[slot1 + 1][2])
+			slot7 = table.contains(uv1, uv0[slot1 + 1][2])
 
 			onButton(uv2, slot3, function ()
 				if uv0.pause or uv0.stop then
@@ -677,11 +685,11 @@ slot0.InitBranches = function(slot0, slot1, slot2, slot3, slot4)
 
 				uv0:HideBranchesWithoutSelected(uv4)
 			end, SFX_PANEL)
-			setButtonEnabled(slot3, not slot6)
+			setButtonEnabled(slot3, not slot7)
 
-			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot6 and 0.5 or 1
+			GetOrAddComponent(slot2, typeof(CanvasGroup)).alpha = slot7 and 0.5 or 1
 
-			uv2:UpdateOptionTxt(uv8, slot3, uv0[slot1 + 1][1])
+			uv2:UpdateOptionTxt(uv8, slot3, uv0[slot1 + 1][1], uv0[slot1 + 1][3])
 
 			if uv2.script:IsDialogueStyle2() then
 				setActive(slot3, slot1 == 0)

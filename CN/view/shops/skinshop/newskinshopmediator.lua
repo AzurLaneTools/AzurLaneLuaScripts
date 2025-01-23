@@ -99,14 +99,26 @@ slot0.handleNotification = function(slot0, slot1)
 
 	if slot1:getName() == GAME.SKIN_SHOPPIGN_DONE or slot2 == GAME.SKIN_COUPON_SHOPPING_DONE then
 		if pg.shop_template[slot3.id] and (slot5.genre == ShopArgs.SkinShop or slot5.genre == ShopArgs.SkinShopTimeLimit) then
-			slot0:addSubLayers(Context.New({
-				mediator = NewSkinMediator,
-				viewComponent = NewSkinLayer,
-				data = {
-					skinId = slot5.effect_args[1],
-					timeLimit = slot5.genre == ShopArgs.SkinShopTimeLimit
-				}
-			}))
+			if pg.ship_skin_template[slot5.effect_args[1]].skin_type == ShipSkin.SKIN_TYPE_TB then
+				slot0:addSubLayers(Context.New({
+					mediator = NewSkinTBMediator,
+					viewComponent = NewSkinTBLayer,
+					data = {
+						skinId = slot5.effect_args[1],
+						timeLimit = slot5.genre == ShopArgs.SkinShopTimeLimit
+					}
+				}))
+			else
+				slot0:addSubLayers(Context.New({
+					mediator = NewSkinMediator,
+					viewComponent = NewSkinLayer,
+					data = {
+						skinId = slot5.effect_args[1],
+						timeLimit = slot5.genre == ShopArgs.SkinShopTimeLimit
+					}
+				}))
+			end
+
 			slot0.viewComponent:OnShopping(slot3.id)
 		end
 	elseif slot2 == GAME.BUY_FURNITURE_DONE then

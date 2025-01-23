@@ -357,11 +357,11 @@ slot0.Ctor = function(slot0, slot1)
 	end
 
 	slot2 = slot1.state or {}
-	slot0.state = slot2.state
-	slot0.state_info_1 = slot2.state_info_1
-	slot0.state_info_2 = slot2.state_info_2
-	slot0.state_info_3 = slot2.state_info_3
-	slot0.state_info_4 = slot2.state_info_4
+	slot0.state = slot2.state or 0
+	slot0.state_info_1 = slot2.state_info_1 or 0
+	slot0.state_info_2 = slot2.state_info_2 or 0
+	slot0.state_info_3 = slot2.state_info_3 or 0
+	slot0.state_info_4 = slot2.state_info_4 or 0
 	slot0.equipmentSkins = {}
 	slot0.equipments = {}
 

@@ -14,6 +14,7 @@ slot0.OnInit = function(slot0)
 	slot0.siteValue = findTF(slot0._go, "res/site/value"):GetComponent(typeof(Text))
 	slot0.siteMaxValue = pg.child_resource[EducateChar.RES_SITE_ID].max_value
 	slot1 = findTF(slot0._go, "res"):GetComponent(typeof(Image))
+	slot2 = findTF(slot0._go, "res")
 
 	if slot0.contextData and slot0.contextData.showBg then
 		slot1.enabled = true

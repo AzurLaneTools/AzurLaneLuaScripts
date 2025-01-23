@@ -84,7 +84,9 @@ pg.pay_data_display = setmetatable({
 		84,
 		85,
 		86,
+		87,
 		88,
+		89,
 		1000,
 		1001,
 		1002,
@@ -105,6 +107,7 @@ pg.pay_data_display = setmetatable({
 		1017,
 		1018,
 		1019,
+		1020,
 		2001,
 		2002,
 		2003,
@@ -8784,6 +8787,120 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[87] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "2025年春节福袋·II",
+		first_pay_double = 0,
+		name_display = "2025年春节福袋二",
+		descrip = "可获得一件角色换装，2025钻，和大量其他奖励",
+		subject = "2025年春节福袋·II",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai22",
+		skin_inquire_relation = 86211,
+		id_str = "com.bilibili.blhx.zuanshi187",
+		extra_service = 3,
+		id = 87,
+		airijp_id = "com.yostarjp.azurlane.diamond175",
+		extra_service_item = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81211,
+				1
+			}
+		}
+	},
 	[88] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -8894,6 +9011,120 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81202,
+				1
+			}
+		}
+	},
+	[89] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋将发送到邮箱，请注意查收。\n*重复获得已拥有的换装时，则自动置换成等价的钻石。",
+		type = 1,
+		name = "2024年春节福袋·II复刻",
+		first_pay_double = 0,
+		name_display = "2024年春节福袋·II复刻",
+		descrip = "可获得一件角色换装，2024钻，和大量其他奖励",
+		subject = "2024年春节福袋·II复刻",
+		money = 198,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai12",
+		skin_inquire_relation = 86203,
+		id_str = "com.bilibili.blhx.zuanshi189",
+		extra_service = 3,
+		id = 89,
+		airijp_id = "com.yostarjp.azurlane.diamond177",
+		extra_service_item = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81203,
 				1
 			}
 		}
@@ -10412,6 +10643,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7020,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1020] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		name = "特许巡游凭证(2025.2)",
+		first_pay_double = 0,
+		name_display = "特许巡游凭证",
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·反击限定换装和其他奖励",
+		subject = "特许巡游凭证",
+		money = 68,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 6,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass22",
+		extra_service = 4,
+		id = 1020,
+		airijp_id = "com.yostarjp.azurlane.seasonpass21",
+		extra_service_item = {
+			{
+				1,
+				4021,
+				1500
+			},
+			{
+				8,
+				65074,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7021,
 			1500
 		},
 		ignorePlatform = {},

@@ -46,12 +46,21 @@ slot0.OnFlush = function(slot0)
 			end)
 		end
 	end)
+	table.Foreach(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING_2), function (slot0, slot1)
+		if slot1 and not slot1:isEnd() then
+			slot2 = slot1:getConfig("config_data")[1]
 
-	slot7 = 0
+			_.each(slot1:getData1List(), function (slot0)
+				uv0[slot0] = (uv0[slot0] or 0) + uv1
+			end)
+		end
+	end)
+
 	slot8 = 0
+	slot9 = 0
 
-	for slot12, slot13 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
-		slot8 = slot8 + tonumber(slot13:getConfig("benefit_effect"))
+	for slot13, slot14 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+		slot9 = slot9 + tonumber(slot14:getConfig("benefit_effect"))
 	end
 
 	if slot0.type == Ship.STATE_TRAIN then
@@ -74,7 +83,7 @@ slot0.OnFlush = function(slot0)
 			},
 			{
 				i18n("word_energy_recov_speed"),
-				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_1F_ENERGY_ADDITION + (slot5[slot1.id] or 0)) .. (slot8 > 0 and setColorStr("+" .. 10 * slot8, COLOR_GREEN) or "") .. "/h"
+				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_1F_ENERGY_ADDITION + (slot5[slot1.id] or 0)) .. (slot9 > 0 and setColorStr("+" .. 10 * slot9, COLOR_GREEN) or "") .. "/h"
 			}
 		})
 	elseif slot0.type == Ship.STATE_REST then
@@ -89,7 +98,7 @@ slot0.OnFlush = function(slot0)
 			},
 			{
 				i18n("word_energy_recov_speed"),
-				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (slot5[slot1.id] or 0)) .. (slot8 > 0 and setColorStr("+" .. 10 * slot8, COLOR_GREEN) or "") .. "/h"
+				10 * (slot1:getRecoverEnergyPoint() + Ship.BACKYARD_2F_ENERGY_ADDITION + (slot5[slot1.id] or 0)) .. (slot9 > 0 and setColorStr("+" .. 10 * slot9, COLOR_GREEN) or "") .. "/h"
 			}
 		})
 	end
