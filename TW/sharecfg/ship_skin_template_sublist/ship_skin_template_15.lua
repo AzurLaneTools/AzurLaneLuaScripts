@@ -1525,7 +1525,7 @@ pg.base.ship_skin_template_15 = {
 				0
 			},
 			{
-				1.071
+				0.535
 			}
 		}
 	},

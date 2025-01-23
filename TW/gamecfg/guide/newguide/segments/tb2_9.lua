@@ -46,7 +46,7 @@ return {
 				char = 1,
 				posY = 0,
 				dir = 1,
-				posX = 0,
+				posX = -100,
 				uiset = {
 					{
 						pathIndex = -1,

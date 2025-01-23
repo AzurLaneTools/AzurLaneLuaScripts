@@ -307,7 +307,9 @@ slot0.GetEducateCharacterList = function()
 	slot0 = {}
 
 	for slot4, slot5 in pairs(pg.secretary_special_ship.get_id_list_by_character_id) do
-		table.insert(slot0, EducateCharCharacter.New(slot4))
+		if not LOCK_NEW_EDUCATE_SYSTEM or slot4 == 1000 then
+			table.insert(slot0, EducateCharCharacter.New(slot4))
+		end
 	end
 
 	return slot0

@@ -456,7 +456,7 @@ slot0.init = function(slot0)
 			uv0:emit(uv0.HIDE_BLOCK)
 		end)
 		uv0:emit(Dorm3dRoomMediator.OPEN_GIFT_LAYER, {
-			apartment = uv0.apartment,
+			groupId = uv0.apartment:GetConfigID(),
 			baseCamera = uv0.mainCameraTF
 		})
 	end, "ui-dorm_click_v2")
@@ -1565,6 +1565,10 @@ end
 
 slot0.OnTouchCharacterBody = function(slot0, slot1)
 	if not slot0.ladyDict[slot0.apartment:GetConfigID()].ikConfig then
+		return
+	end
+
+	if type(slot2.ikConfig.touch_data) ~= "table" then
 		return
 	end
 

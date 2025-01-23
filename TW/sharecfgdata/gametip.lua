@@ -3162,7 +3162,7 @@ _G.pg.base.gametip.coloring_help_tip = {
 	完成圖6獲得紅包 x2；
 	完成圖7獲得鞍山x1、紅包  x1。
 8.活動結束後，未消耗的顏料會被清除。
-9.<color=#92fc63>1月30日</color>為止每天解鎖一個可完成的繪圖。]]
+9.<color=#92fc63>1月29日</color>為止每天解鎖一個可完成的繪圖。]]
 		}
 	}
 }
@@ -27704,7 +27704,7 @@ _G.pg.base.gametip["2023spring_minigame_help"] = {
 		{
 			info = [[
 活動規則：
-1.<color=#92fc63>2025.1.30</color>為止每日0點開放<color=#92fc63>1</color>關新的遊戲，總計<color=#92fc63>7</color>關，可累計。完成遊戲可以獲得限定角色<color=#92fc63>「撫順」</color>、改造道具<color=#92fc63>「朱雀之印」</color>。 
+1.<color=#92fc63>2025.1.29</color>為止每日0點開放<color=#92fc63>1</color>關新的遊戲，總計<color=#92fc63>7</color>關，可累計。完成遊戲可以獲得限定角色<color=#92fc63>「撫順」</color>、改造道具<color=#92fc63>「朱雀之印」</color>。 
 
 遊戲規則：
 1.指揮官需要幫忙撫順躲避年獸，收集地圖上的資源完成大冒險！

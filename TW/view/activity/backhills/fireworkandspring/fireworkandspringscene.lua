@@ -16,11 +16,11 @@ slot0.Id2EffectName = {
 	[65528.0] = "yanhua_jiezhi",
 	[70175.0] = "yanhua_2024",
 	[65527.0] = "yanhua_huangji",
-	[65531.0] = "yanhua_Azurlane",
+	[65531.0] = "yanhua_hongbao",
 	[65526.0] = "yanhua_chuanmao",
-	[65532.0] = "yanhua_hongbao",
-	[65525.0] = "yanhua_long",
-	[65524.0] = "yanhua_mofang",
+	[65532.0] = "yanhua_she",
+	[65525.0] = "yanhua_2025",
+	[65524.0] = "yanhua_denglong",
 	[65523.0] = "yanhua_maomao",
 	[70178.0] = "yanhua_denglong"
 }
@@ -117,18 +117,23 @@ slot0.didEnter = function(slot0)
 	end)
 	onButton(slot0, slot0.subPanel, function ()
 		uv0:CloseSubPanel()
+		uv0:PlayFireworks()
 	end)
 	onButton(slot0, slot0:findTF("btnClose", slot0.ptPanel), function ()
 		uv0:CloseSubPanel()
+		uv0:PlayFireworks()
 	end)
 	onButton(slot0, slot0:findTF("btnClose", slot0.taskPanel), function ()
 		uv0:CloseSubPanel()
+		uv0:PlayFireworks()
 	end)
 	onButton(slot0, slot0:findTF("btnClose", slot0.fireworkPanel), function ()
 		uv0:CloseSubPanel()
+		uv0:PlayFireworks()
 	end)
 	onButton(slot0, slot0:findTF("btnClose", slot0.springPanel), function ()
 		uv0:CloseSubPanel()
+		uv0:PlayFireworks()
 	end)
 	onButton(slot0, slot0.subPtBtn, function ()
 		uv0:SetSubPanel(uv0.ptPanel)
@@ -668,6 +673,7 @@ slot0.CreateSpringUI = function(slot0)
 
 				slot1 = uv3.springUnlockSlotCount
 
+				uv3:StopPlayFireworks()
 				uv3:emit(FireworkAndSpringMediator.OPEN_CHUANWU, uv3.springActId, uv4 + 1, slot0, uv3.springUnlockSlotCount)
 			end, SFX_PANEL)
 
@@ -720,8 +726,10 @@ end
 slot0.PlayerOneFirework = function(slot0)
 	if slot0.fireworkIndex == #slot0.fireworks then
 		slot0:managedTween(LeanTween.delayedCall, function ()
-			uv0:StopPlayFireworks()
-			uv0:PlayFireworks()
+			if uv0.fireworks then
+				uv0:StopPlayFireworks()
+				uv0:PlayFireworks()
+			end
 		end, uv0.DelayPop, nil)
 	end
 

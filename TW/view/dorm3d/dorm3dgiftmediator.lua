@@ -52,7 +52,7 @@ slot0.register = function(slot0)
 			onRemoved = slot2
 		}))
 	end)
-	slot0.viewComponent:SetApartment(slot0.contextData.apartment)
+	slot0.viewComponent:SetApartment(getProxy(ApartmentProxy):getApartment(slot0.contextData.groupId))
 end
 
 slot0.initNotificationHandleDic = function(slot0)

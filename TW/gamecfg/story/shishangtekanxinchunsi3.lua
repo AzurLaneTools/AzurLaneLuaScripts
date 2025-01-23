@@ -66,7 +66,7 @@ return {
 			hideRecordIco = true,
 			actor = 105173,
 			nameColor = "#A9F548FF",
-			say = "裙子飄逸，點捉精緻的東煌刺繡，腰間緞帶更是輕盈靈動。",
+			say = "裙子飄逸，點綴精緻的東煌刺繡，腰間緞帶更是輕盈靈動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

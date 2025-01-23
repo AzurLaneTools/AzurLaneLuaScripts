@@ -148,7 +148,7 @@ return {
 			dir = 1,
 			actor = 305055,
 			nameColor = "#A9F548FF",
-			say = "唔，這怎麼這紅繩……掙脫不開了……",
+			say = "唔，怎麼這紅繩……掙脫不開了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
