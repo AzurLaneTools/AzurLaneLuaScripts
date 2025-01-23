@@ -16,11 +16,11 @@ slot0.Id2EffectName = {
 	[65528.0] = "yanhua_jiezhi",
 	[70175.0] = "yanhua_2024",
 	[65527.0] = "yanhua_huangji",
-	[65531.0] = "yanhua_Azurlane",
+	[65531.0] = "yanhua_hongbao",
 	[65526.0] = "yanhua_chuanmao",
-	[65532.0] = "yanhua_hongbao",
-	[65525.0] = "yanhua_long",
-	[65524.0] = "yanhua_mofang",
+	[65532.0] = "yanhua_she",
+	[65525.0] = "yanhua_2025",
+	[65524.0] = "yanhua_denglong",
 	[65523.0] = "yanhua_maomao",
 	[70178.0] = "yanhua_denglong"
 }

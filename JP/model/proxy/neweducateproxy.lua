@@ -137,7 +137,7 @@ slot0.UpdateUnlock = function(slot0, slot1)
 		return
 	end
 
-	slot0.data[slot1]:GetPermanentData():UpdateSecretaryIDs()
+	slot0.data[slot1]:GetPermanentData():UpdateSecretaryIDs(true)
 end
 
 slot0.Costs = function(slot0, slot1)

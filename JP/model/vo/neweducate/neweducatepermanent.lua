@@ -12,7 +12,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	slot0:InitStroyName2Id()
 	slot0:InitSecretary()
-	slot0:UpdateSecretaryIDs()
+	slot0:UpdateSecretaryIDs(false)
 end
 
 slot0.AddGameCnt = function(slot0)
@@ -86,7 +86,7 @@ slot0.AddPolaroid = function(slot0, slot1)
 
 	if not table.contains(slot0.unlockPolaroidGroups, pg.child2_polaroid[slot1].group) then
 		table.insert(slot0.unlockPolaroidGroups, slot2)
-		slot0:UpdateSecretaryIDs()
+		slot0:UpdateSecretaryIDs(true)
 	end
 end
 
@@ -113,7 +113,7 @@ end
 slot0.AddActivatedEndings = function(slot0, slot1)
 	slot0.activatedEndings = table.mergeArray(slot0.activatedEndings, slot1, true)
 
-	slot0:UpdateSecretaryIDs()
+	slot0:UpdateSecretaryIDs(true)
 end
 
 slot0.InitSecretary = function(slot0)
@@ -148,15 +148,20 @@ slot0.CheckSecretaryID = function(slot0, slot1, slot2)
 	return false
 end
 
-slot0.UpdateSecretaryIDs = function(slot0)
-	slot1 = Clone(NewEducateHelper.GetAllUnlockSecretaryIds())
+slot0.UpdateSecretaryIDs = function(slot0, slot1)
+	slot2 = nil
+
+	if slot1 then
+		slot2 = Clone(NewEducateHelper.GetAllUnlockSecretaryIds())
+	end
+
 	slot0.unlockSecretaryIds = {}
-	slot2 = #slot0.unlockPolaroidGroups
+	slot3 = #slot0.unlockPolaroidGroups
 
-	for slot6, slot7 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[slot0.id]) do
-		slot9 = pg.secretary_special_ship[slot7].unlock
+	for slot7, slot8 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[slot0.id]) do
+		slot10 = pg.secretary_special_ship[slot8].unlock
 
-		switch(pg.secretary_special_ship[slot7].unlock_type, {
+		switch(pg.secretary_special_ship[slot8].unlock_type, {
 			[EducateConst.SECRETARY_UNLCOK_TYPE_DEFAULT] = function ()
 			end,
 			[EducateConst.SECRETARY_UNLCOK_TYPE_POLAROID] = function ()
@@ -188,7 +193,9 @@ slot0.UpdateSecretaryIDs = function(slot0)
 		})
 	end
 
-	getProxy(SettingsProxy):UpdateEducateCharTip(slot1)
+	if slot1 then
+		getProxy(SettingsProxy):UpdateEducateCharTip(slot2)
+	end
 end
 
 slot0.GetUnlockSecretaryIds = function(slot0)
