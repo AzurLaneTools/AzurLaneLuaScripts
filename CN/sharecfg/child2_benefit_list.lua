@@ -1904,7 +1904,7 @@ pg.base.child2_benefit_list = {
 		is_show = 1,
 		item_icon_little = "",
 		rare = 1,
-		desc = "3回合内，<color=#ff9829>「体能」</color>最终获取量 x 1.2\n<color=#ff9829>「知识」</color>最终获取量 x 0.8",
+		desc = "3回合内，<color=#ff9829>「体能」</color>最终获取量 x 1.5\n<color=#ff9829>「知识」</color>最终获取量 x 0.8",
 		is_tip = 0,
 		id = 41181,
 		item_icon = "benefit_2_tinengzhishi_1",

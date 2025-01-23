@@ -28,13 +28,6 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "ND_FF_IK_zhuozi_ZJD_jiao_01-end",
-							time = 0,
-							type = "action",
-							skip = true
-						},
-						{
-							param = "Play",
 							name = "Face_weixiao",
 							time = 0,
 							type = "action",

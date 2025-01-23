@@ -278,10 +278,15 @@ slot0.CheckNewChar = function(slot0, slot1)
 		table.insert(slot3, function (slot0)
 			NewEducateHelper.PlaySpecialStoryList(uv0.after_name, slot0, true)
 		end)
+
+		slot0.lockBackPressed = true
+
 		seriesAsync(slot3, function ()
 			setActive(uv0._tf, true)
 			uv0:_loadSubViews()
 			uv1()
+
+			uv0.lockBackPressed = false
 		end)
 
 		return
@@ -713,6 +718,10 @@ slot0.UpdateCallName = function(slot0)
 end
 
 slot0.onBackPressed = function(slot0)
+	if slot0.lockBackPressed then
+		return
+	end
+
 	if slot0.assessPanel:isShowing() then
 		return
 	end

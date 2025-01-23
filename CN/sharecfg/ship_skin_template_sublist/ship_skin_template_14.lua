@@ -10197,7 +10197,7 @@ pg.base.ship_skin_template_14 = {
 				0
 			},
 			{
-				1.071
+				0.535
 			}
 		}
 	},

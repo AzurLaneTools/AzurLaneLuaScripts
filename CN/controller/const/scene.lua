@@ -1253,12 +1253,12 @@ slot1 = {
 	end,
 	Dorm3dRoomMediator = function (slot0, slot1)
 		if not slot0.context.data.timeIndex then
-			if slot2.roomId == 1 then
+			if pg.dorm3d_rooms[slot2.roomId].type == 2 then
 				if PlayerPrefs.GetInt(ApartmentProxy.GetTimePPName(), 1) == 0 then
-					slot3 = ApartmentProxy.GetTimeIndex(tonumber(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%H")))
+					slot4 = ApartmentProxy.GetTimeIndex(tonumber(pg.TimeMgr.GetInstance():CurrentSTimeDesc("%H")))
 				end
 
-				slot2.timeIndex = slot3
+				slot2.timeIndex = slot4
 			else
 				slot2.timeIndex = 1
 			end

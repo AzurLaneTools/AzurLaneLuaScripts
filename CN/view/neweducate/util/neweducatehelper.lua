@@ -343,7 +343,7 @@ end
 
 slot0.UpdateUnlockBySkinId = function(slot0)
 	if pg.secretary_special_ship[uv0.GetSecIdBySkinId(slot0)].tb_id == 0 then
-		getProxy(EducateProxy):updateSecretaryIDs()
+		getProxy(EducateProxy):updateSecretaryIDs(true)
 	else
 		getProxy(NewEducateProxy):UpdateUnlock(slot2)
 	end
