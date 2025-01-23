@@ -82,6 +82,9 @@ slot0.init = function(slot0)
 	slot0.chatText = slot0:findTF("Text", slot0.chat)
 	slot0.switchBtn = slot0:findTF("blur_panel/adapt/switch_btn")
 	slot0.skinShopBtn = slot0:findTF("blur_panel/adapt/skin_btn")
+
+	setActive(slot0.skinShopBtn, not (LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL))
+
 	slot0.itemToggle = slot0:findTF("toggle_list/item_toggle", slot0.viewContainer)
 	slot0.giftToggle = slot0:findTF("toggle_list/gift_toggle", slot0.viewContainer)
 	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)

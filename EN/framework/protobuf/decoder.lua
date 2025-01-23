@@ -96,9 +96,11 @@ end
 slot17 = function(slot0, slot1, slot2)
 	slot3 = uv0.struct_unpack
 
-	return uv1(slot0, function (slot0, slot1)
+	InnerDecode = function(slot0, slot1)
 		return uv1(uv2, slot0, slot1), slot1 + uv0
-	end)
+	end
+
+	return uv1(slot0, InnerDecode)
 end
 
 Int32Decoder = slot15(slot8.WIRETYPE_VARINT, slot6.signed_varint_decoder)
@@ -300,7 +302,7 @@ _RaiseInvalidWireType = function(slot0, slot1, slot2)
 end
 
 _FieldSkipper = function()
-	slot0 = {
+	WIRETYPE_TO_SKIPPER = {
 		_SkipVarint,
 		_SkipFixed64,
 		_SkipLengthDelimited,
@@ -310,11 +312,11 @@ _FieldSkipper = function()
 		_RaiseInvalidWireType,
 		_RaiseInvalidWireType
 	}
-	slot1 = uv0.byte
-	slot2 = uv0.sub
+	slot0 = uv0.byte
+	slot1 = uv0.sub
 
 	return function (slot0, slot1, slot2, slot3)
-		return uv2[uv0(uv1(slot3, 1, 1)) % 8 + 1](slot0, slot1, slot2)
+		return WIRETYPE_TO_SKIPPER[uv0(uv1(slot3, 1, 1)) % 8 + 1](slot0, slot1, slot2)
 	end
 end
 

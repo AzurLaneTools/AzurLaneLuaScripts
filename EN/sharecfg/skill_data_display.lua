@@ -3065,6 +3065,13 @@ pg.skill_data_display = setmetatable({
 		801562,
 		801565,
 		801567,
+		801571,
+		801573,
+		801581,
+		801591,
+		801592,
+		801595,
+		801597,
 		902201,
 		1010140,
 		1010143,
@@ -15663,6 +15670,34 @@ pg.base.skill_data_display = {
 	[801567] = {
 		id = 801567,
 		name = "Cinders of Hope - Admiral Hipper II"
+	},
+	[801571] = {
+		id = 801571,
+		name = "Flame and Fulminance"
+	},
+	[801573] = {
+		id = 801573,
+		name = "Flame and Fulminance"
+	},
+	[801581] = {
+		id = 801581,
+		name = "The Lone Knight"
+	},
+	[801591] = {
+		id = 801591,
+		name = "Cinders of Hope - Bolzano I"
+	},
+	[801592] = {
+		id = 801592,
+		name = "Cinders of Hope - Bolzano II"
+	},
+	[801595] = {
+		id = 801595,
+		name = "Cinders of Hope - Bolzano I"
+	},
+	[801597] = {
+		id = 801597,
+		name = "Cinders of Hope - Bolzano II"
 	},
 	[902201] = {
 		id = 902201,

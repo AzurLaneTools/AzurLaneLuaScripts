@@ -1914,5 +1914,50 @@ pg.voice_bgm = {
 		default_bgm = "theme-china-jianwu",
 		special_bgm = "",
 		bgm = "theme-china-jianwu"
+	},
+	NewEducateMapScene = {
+		default_bgm = "votefes-start",
+		special_bgm = "",
+		bgm = "votefes-start"
+	},
+	NewEducateMemoryLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	NewEducatePolaroidLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	NewEducateEndingLayer = {
+		default_bgm = "story-richang-quiet",
+		special_bgm = "",
+		bgm = "story-richang-quiet"
+	},
+	NewEducateScheduleScene = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
+	},
+	NewEducateSelectScene = {
+		default_bgm = "qe-ova-10",
+		special_bgm = "",
+		bgm = "qe-ova-10"
+	},
+	FireworkAndSpringScene = {
+		default_bgm = "theme-chunjie2025-2",
+		special_bgm = "",
+		bgm = "theme-chunjie2025-2"
+	},
+	NewSkinMagazinePage4 = {
+		default_bgm = "theme-chunjie2025-2",
+		special_bgm = "",
+		bgm = "theme-chunjie2025-2"
+	},
+	CrusingDisplayActPage2 = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
 	}
 }

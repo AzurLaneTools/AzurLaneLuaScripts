@@ -605,7 +605,7 @@ slot0.ShowResultUI = function(slot0, slot1)
 
 		setText(uv0.resultUI:Find("Panel/Text"), i18n("volleyball_end_tip", uv0.apartment:getConfig("name")))
 
-		if uv2 then
+		if uv2 and uv2.cost > 0 then
 			setActive(uv0.resultUI:Find("Panel/Award"), true)
 			setText(uv0.resultUI:Find("Panel/Award/Text"), i18n("volleyball_end_award", uv0.apartment:getConfig("name")))
 		else

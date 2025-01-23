@@ -20,7 +20,7 @@ slot0.GetCharIdList = function(slot0)
 end
 
 slot0.GetTitle = function(slot0)
-	if pg.secretary_special_ship[slot0:GetShowId()].type == 1 then
+	if pg.secretary_special_ship[slot0:GetShowId()].genghuan_word == 1 then
 		return i18n("secretary_special_title_age")
 	else
 		return i18n("secretary_special_title_physiognomy")
@@ -41,12 +41,16 @@ slot0.GetShowId = function(slot0)
 	end)
 end
 
+slot0.IsSp = function(slot0)
+	return pg.secretary_special_ship[slot0:GetShowId()].type == EducateConst.SECRETARY_TYPE_SP
+end
+
 slot0.GetShowPainting = function(slot0)
 	slot1 = slot0:GetShowId()
 
 	assert(slot1)
 
-	return pg.secretary_special_ship[slot1].prefab
+	return pg.secretary_special_ship[slot1].painting
 end
 
 slot0.IsSelected = function(slot0, slot1)
@@ -58,7 +62,7 @@ end
 slot0.IsLock = function(slot0)
 	slot2 = {}
 
-	for slot6, slot7 in ipairs(getProxy(EducateProxy):GetSecretaryIDs()) do
+	for slot6, slot7 in ipairs(NewEducateHelper.GetAllUnlockSecretaryIds()) do
 		slot2[slot7] = true
 	end
 

@@ -15239,6 +15239,37 @@ _G.pg.base.item_data_statistics[21042] = {
 }
 
 
+_G.pg.base.item_data_statistics[21043] = {
+	open_directly = 0,
+	name = "META Crystal – Bolzano META",
+	type = 4,
+	display = "An item that increases the potential of Bolzano META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21043",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21043,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -26890,6 +26921,58 @@ _G.pg.base.item_data_statistics[30425] = {
 		{
 			9,
 			2088,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30426] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise Missions)",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30426",
+	id = 30426,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2089,
+			1
+		},
+		{
+			9,
+			2090,
+			1
+		},
+		{
+			9,
+			2091,
+			1
+		},
+		{
+			9,
+			2092,
 			1
 		}
 	},
@@ -99460,6 +99543,73 @@ _G.pg.base.item_data_statistics[81210] = {
 		{
 			2,
 			86210,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81211] = {
+	open_directly = 1,
+	name = "Spring Lucky Bag 2025 B",
+	type = 17,
+	display = "Contains 1x random skin (Spring Lucky Bag 2025 B), 2x Special General Blueprints - Series 7, 2025x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai22",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998313",
+	id = 81211,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86211,
 			1
 		},
 		{

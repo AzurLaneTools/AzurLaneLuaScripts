@@ -215,6 +215,7 @@ pg.memory_group = setmetatable({
 		315,
 		316,
 		317,
+		318,
 		501,
 		502,
 		503,
@@ -321,7 +322,10 @@ pg.memory_group = setmetatable({
 		606,
 		1000,
 		1001,
-		1002
+		1002,
+		1003,
+		1004,
+		1005
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5096,6 +5100,20 @@ pg.base.memory_group = {
 			4165
 		}
 	},
+	[318] = {
+		title = "Port Fashion Collection: Spring Festival IV",
+		subtype = 3,
+		link_event = 5790,
+		type = 2,
+		id = 318,
+		icon = "title_event",
+		memories = {
+			4171,
+			4172,
+			4173,
+			4174
+		}
+	},
 	[501] = {
 		title = "{namecode:98}'s Commission",
 		subtype = 0,
@@ -6987,6 +7005,103 @@ pg.base.memory_group = {
 			20079,
 			20080,
 			20081
+		}
+	},
+	[1003] = {
+		title = "Project Identity: Oceana",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 1003,
+		icon = "title_event",
+		memories = {
+			20082,
+			20083,
+			20084,
+			20085,
+			20086,
+			20087,
+			20088,
+			20089,
+			20090,
+			20091,
+			20092,
+			20093,
+			20094,
+			20095,
+			20096,
+			20097,
+			20098,
+			20099,
+			20100,
+			20101,
+			20102,
+			20103,
+			20104,
+			20105,
+			20106,
+			20107,
+			20108,
+			20109,
+			20110,
+			20111,
+			20112,
+			20113,
+			20114,
+			20115,
+			20116,
+			20117,
+			20118,
+			20119,
+			20120,
+			20121,
+			20122,
+			20123,
+			20124,
+			20125,
+			20126,
+			20127
+		}
+	},
+	[1004] = {
+		title = "Navi's Thoughts",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 1004,
+		icon = "title_event",
+		memories = {
+			20128,
+			20129,
+			20130,
+			20131,
+			20132,
+			20133,
+			20134,
+			20135,
+			20136
+		}
+	},
+	[1005] = {
+		title = "Shipgirl Interactions",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 1005,
+		icon = "title_event",
+		memories = {
+			20138,
+			20139,
+			20140,
+			20141,
+			20142,
+			20143,
+			20144,
+			20145,
+			20146,
+			20147,
+			20148,
+			20149
 		}
 	}
 }

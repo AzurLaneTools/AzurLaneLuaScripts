@@ -1522,6 +1522,16 @@ pg.equip_skin_theme_template = {
 			2088
 		}
 	},
+	[107] = {
+		id = 107,
+		name = "Flame and Fulminance",
+		ids = {
+			2089,
+			2090,
+			2091,
+			2092
+		}
+	},
 	[199] = {
 		id = 199,
 		name = "Misc",
@@ -1616,6 +1626,7 @@ pg.equip_skin_theme_template = {
 		104,
 		105,
 		106,
+		107,
 		199
 	}
 }

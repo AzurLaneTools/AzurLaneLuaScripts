@@ -208,6 +208,7 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100058,
 			100059,
+			100060,
 			100064,
 			200001,
 			200002,
@@ -5590,6 +5591,7 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100058,
 			100059,
+			100060,
 			100064,
 			31101,
 			54104,
@@ -6726,6 +6728,7 @@ pg.furniture_data_template = setmetatable({
 			240,
 			242,
 			291,
+			100060,
 			200001,
 			200002,
 			200003,
@@ -9767,6 +9770,7 @@ pg.furniture_data_template = setmetatable({
 		100056,
 		100058,
 		100059,
+		100060,
 		100064,
 		200001,
 		200002,
@@ -24120,6 +24124,43 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					"houzhai_huaban"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100060] = {
+		can_rotate = 0,
+		name = "The Cuddly Geniuses",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "juuswanouicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/juuswanou",
+		canputon = 0,
+		count = 1,
+		describe = "Voila! The genius inventor and the genius mechanic in plush form! Love them like they love their work.",
+		advice = 0,
+		deblocking = 1,
+		id = 100060,
+		comfortable = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},

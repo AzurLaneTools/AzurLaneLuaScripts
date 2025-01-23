@@ -229,6 +229,8 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 			slot3.data1 = 1
 		elseif slot1.cmd == PuzzleActivity.CMD_EARN_EXTRA then
 			slot3.data1 = 2
+		elseif slot1.cmd == PuzzleActivity.CMD_ACTIVATE then
+			table.insert(slot3.data2_list, slot1.arg1)
 		end
 
 		getProxy(ActivityProxy):updateActivity(slot3)

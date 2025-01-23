@@ -277,6 +277,11 @@ pg.task_meta_data_template = setmetatable({
 		100373,
 		100374,
 		100375,
+		100381,
+		100382,
+		100383,
+		100384,
+		100385,
 		200001,
 		200002,
 		200003,
@@ -388,7 +393,11 @@ pg.task_meta_data_template = setmetatable({
 		200281,
 		200282,
 		200283,
-		200284
+		200284,
+		200291,
+		200292,
+		200293,
+		200294
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2593,6 +2602,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Admiral Hipper META in your fleet."
 	},
+	[100381] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100381,
+		target_num = 1,
+		desc = "Win 1 battle with Bolzano META in your fleet."
+	},
+	[100382] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100382,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Bolzano META in your fleet."
+	},
+	[100383] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100383,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Bolzano META in your fleet."
+	},
+	[100384] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100384,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Bolzano META in your fleet."
+	},
+	[100385] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970306",
+		id = 100385,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Bolzano META in your fleet."
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3488,5 +3537,37 @@ pg.base.task_meta_data_template = {
 		id = 200284,
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Admiral Hipper META in your fleet."
+	},
+	[200291] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200291,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Bolzano META in your fleet."
+	},
+	[200292] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200292,
+		target_num = 1,
+		desc = "Defeat a lv. 70+ fleet in Operation Siren with Bolzano META in your fleet."
+	},
+	[200293] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200293,
+		target_num = 1,
+		desc = "Defeat a lv. 90+ fleet in Operation Siren with Bolzano META in your fleet."
+	},
+	[200294] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970306",
+		id = 200294,
+		target_num = 1,
+		desc = "Defeat a lv. 100+ fleet in Operation Siren with Bolzano META in your fleet."
 	}
 }

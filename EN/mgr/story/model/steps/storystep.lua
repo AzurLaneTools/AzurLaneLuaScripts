@@ -37,12 +37,27 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.icon = slot1.icon
 	slot0.dispatcher = slot1.dispatcher
 	slot0.shakeTime = defaultValue(slot1.shakeTime, 0)
+	slot0.code = slot1.code or -1
 	slot0.autoShowOption = defaultValue(slot1.autoShowOption, false)
 	slot0.selectedBranchCode = 0
 	slot0.id = 0
 	slot0.placeholderType = 0
 	slot0.defaultTb = slot1.defaultTb
 	slot0.optionIndex = 0
+end
+
+slot0.IsVaild = function(slot0, slot1)
+	if slot0.code == -1 then
+		return true
+	end
+
+	if type(slot0.code) == "string" or type(slot0.code) == "number" then
+		return slot0.code == slot1
+	elseif type(slot0.code) == "table" then
+		return table.contains(slot0.code, slot1)
+	end
+
+	return false
 end
 
 slot0.ShouldShake = function(slot0)
@@ -88,13 +103,19 @@ slot0.ReplaceTbName = function(slot0, slot1)
 		return string.gsub(slot1, "{tb}", i18n("child_story_name"))
 	end
 
-	if not getProxy(EducateProxy) then
+	if not getProxy(EducateProxy) or not getProxy(NewEducateProxy) then
 		return slot1
 	end
 
-	slot2, slot3 = getProxy(EducateProxy):GetStoryInfo()
+	if not getProxy(NewEducateProxy):GetCurChar() then
+		slot2, slot3 = getProxy(EducateProxy):GetStoryInfo()
+		slot1 = string.gsub(slot1, "{tb}", slot3)
+	else
+		slot2, slot3 = getProxy(NewEducateProxy):GetStoryInfo()
+		slot1 = string.gsub(slot1, "{tb}", slot3)
+	end
 
-	return string.gsub(slot1, "{tb}", slot3)
+	return slot1
 end
 
 slot0.ReplaceDormName = function(slot0, slot1)
@@ -484,7 +505,8 @@ slot0.GetOptions = function(slot0)
 
 		return {
 			HXSet.hxLan(slot1),
-			slot0.flag
+			slot0.flag,
+			slot0.type
 		}
 	end)
 end

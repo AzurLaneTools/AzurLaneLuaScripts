@@ -192,6 +192,14 @@ pg.open_systems_limited = {
 		mediator = "SelectDorm3DMediator",
 		level = 80
 	},
+	[26] = {
+		scene = "MAINUI",
+		name = "Project Identity",
+		story_id = "",
+		id = 26,
+		mediator = "NewEducateSelectMediator",
+		level = 30
+	},
 	all = {
 		1,
 		2,
@@ -216,6 +224,7 @@ pg.open_systems_limited = {
 		22,
 		23,
 		24,
-		25
+		25,
+		26
 	}
 }

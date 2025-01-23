@@ -29,9 +29,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					3
+					2025,
+					1,
+					23
 				},
 				{
 					0,
@@ -41,9 +41,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					10
+					2025,
+					1,
+					30
 				},
 				{
 					23,
@@ -82,9 +82,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					7,
-					13
+					2025,
+					1,
+					23
 				},
 				{
 					0,
@@ -94,9 +94,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					7,
-					19
+					2025,
+					1,
+					30
 				},
 				{
 					23,
@@ -903,6 +903,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "Seaside Date With You",
+		story_resource_JP = "soundStory20_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "ss-59901-1",
+		CV_JP = "Akina Homoto",
+		audition_resource_JP = "ss-59901-2",
+		overview = "You and Harbin share a loving seaside date, with sunbathing and even a small water fight.\nCome nightfall, the romance shall begin.",
+		order = 2,
+		audition_text = "If you're not satisfied with my mark, just lemme know, alright?",
+		ship_id = 59901,
+		id = 20,
+		captions_color = "#7f574e",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "The Forbidden Midnight Confessional",
+		story_resource_JP = "soundStory21_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Yukana",
+		audition_resource_JP = "ss-20707-1",
+		overview = "Moonlight shines through the stained glass windows as a lady dressed in nun's clothes await a lost lamb.\nDoes the night bring salvation or temptation within this confessional?",
+		order = 2,
+		audition_text = "Heehee. I like people who catch my drift. They're my favourite people to do unspeakable things with♥",
+		ship_id = 20707,
+		id = 21,
+		captions_color = "#694348",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					1,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -922,6 +1028,8 @@ pg.soundstory_template = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	}
 }

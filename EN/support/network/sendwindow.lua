@@ -145,15 +145,17 @@ slot1.Send = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 
 	(function (slot0, slot1)
 		for slot5, slot6 in pairs(slot1) do
-			assert(slot0[slot5] ~= nil, "key does not exist: " .. slot5)
-
 			if type(slot6) == "table" then
-				for slot10, slot11 in ipairs(slot6) do
-					if slot0[slot5].add then
+				if slot0[slot5].add then
+					for slot10, slot11 in ipairs(slot6) do
 						uv0(slot0[slot5]:add(), slot11)
-					else
+					end
+				elseif slot0[slot5].append then
+					for slot10, slot11 in ipairs(slot6) do
 						slot0[slot5]:append(slot11)
 					end
+				else
+					uv0(slot0[slot5], slot6)
 				end
 			else
 				slot0[slot5] = slot6

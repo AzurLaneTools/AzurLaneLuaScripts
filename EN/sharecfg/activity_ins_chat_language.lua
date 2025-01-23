@@ -2441,7 +2441,74 @@ pg.activity_ins_chat_language = setmetatable({
 		2438,
 		2439,
 		2440,
-		2441
+		2441,
+		2442,
+		2443,
+		2444,
+		2445,
+		2446,
+		2447,
+		2448,
+		2449,
+		2450,
+		2451,
+		2452,
+		2453,
+		2454,
+		2455,
+		2456,
+		2457,
+		2458,
+		2459,
+		2460,
+		2461,
+		2462,
+		2463,
+		2464,
+		2465,
+		2466,
+		2467,
+		2468,
+		2469,
+		2470,
+		2471,
+		2472,
+		2473,
+		2474,
+		2475,
+		2476,
+		2477,
+		2478,
+		2479,
+		2480,
+		2481,
+		2482,
+		2483,
+		2484,
+		2485,
+		2486,
+		2487,
+		2488,
+		2489,
+		2490,
+		2491,
+		2492,
+		2493,
+		2494,
+		2495,
+		2496,
+		2497,
+		2498,
+		2499,
+		2500,
+		2501,
+		2502,
+		2503,
+		2504,
+		2505,
+		2506,
+		2507,
+		2508
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -24271,6 +24338,574 @@ pg.base.activity_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 2441,
+		flag = 7
+	},
+	[2442] = {
+		param = "Happy new year!",
+		ship_group = 50103,
+		option = "",
+		type = 1,
+		id = 2442,
+		flag = 0
+	},
+	[2443] = {
+		param = "aww yeah! it's the new year! happy new year, everybody!",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 2443,
+		flag = 0
+	},
+	[2444] = {
+		param = "43",
+		ship_group = 50106,
+		option = "",
+		type = 4,
+		id = 2444,
+		flag = 0
+	},
+	[2445] = {
+		param = "Happy New Year, everyone.",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2445,
+		flag = 0
+	},
+	[2446] = {
+		param = "45",
+		ship_group = 50210,
+		option = "",
+		type = 4,
+		id = 2446,
+		flag = 0
+	},
+	[2447] = {
+		param = "1000",
+		ship_group = 51901,
+		option = "1000",
+		type = 3,
+		id = 2447,
+		flag = 0
+	},
+	[2448] = {
+		param = "Holy cow! A red envelope!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2448,
+		flag = 0
+	},
+	[2449] = {
+		param = "Thank you for that, Ting An!",
+		ship_group = 50101,
+		type = 1,
+		id = 2449,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Happy New Year, girls!"
+			},
+			{
+				2,
+				"Thanks for the envelope!"
+			}
+		}
+	},
+	[2450] = {
+		param = "Happy New Year, girls!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2450,
+		flag = 1
+	},
+	[2451] = {
+		param = "Thanks for the envelope!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2451,
+		flag = 2
+	},
+	[2452] = {
+		param = "Also, happy New Year, girls!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2452,
+		flag = 2
+	},
+	[2453] = {
+		param = "And a happy New Year to you too, Commander.",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2453,
+		flag = 0
+	},
+	[2454] = {
+		param = "I hope that the New Year may be smooth sailing for us all.",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 2454,
+		flag = 0
+	},
+	[2455] = {
+		param = "Good news, everyone. I just divined and it said that your collective luck in the new year is only going to get better and better.",
+		ship_group = 50401,
+		type = 1,
+		id = 2455,
+		flag = 0,
+		option = {
+			{
+				3,
+				"What an auspicious omen."
+			},
+			{
+				4,
+				"Allow me to wish you..."
+			}
+		}
+	},
+	[2456] = {
+		param = "What an auspicious omen. This is sure to be a lucky year!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2456,
+		flag = 3
+	},
+	[2457] = {
+		param = "Likewise, I hope you'll all receive what you wish for and that everything goes your way!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2457,
+		flag = 4
+	},
+	[2458] = {
+		param = "Ah, it's past midnight. Was wondering why my notifs were exploding!",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2458,
+		flag = 0
+	},
+	[2459] = {
+		param = "Happy new year, everybody!",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2459,
+		flag = 0
+	},
+	[2460] = {
+		param = "Here comes another red envelope!",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2460,
+		flag = 0
+	},
+	[2461] = {
+		param = "1001",
+		ship_group = 59901,
+		option = "1001",
+		type = 3,
+		id = 2461,
+		flag = 0
+	},
+	[2462] = {
+		param = "Whoever's the luckiest person here, now it's your turn!",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2462,
+		flag = 0
+	},
+	[2463] = {
+		param = "50",
+		ship_group = 59901,
+		option = "",
+		type = 4,
+		id = 2463,
+		flag = 0
+	},
+	[2464] = {
+		param = "dang it! i didn't get it again!",
+		ship_group = 50202,
+		option = "",
+		type = 1,
+		id = 2464,
+		flag = 0
+	},
+	[2465] = {
+		param = "You all react so quickly...",
+		ship_group = 50203,
+		option = "",
+		type = 1,
+		id = 2465,
+		flag = 0
+	},
+	[2466] = {
+		param = "65",
+		ship_group = 50208,
+		option = "",
+		type = 4,
+		id = 2466,
+		flag = 0
+	},
+	[2467] = {
+		param = "So who was the luckiest?",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2467,
+		flag = 0
+	},
+	[2468] = {
+		param = "Me, Lady Yuen!",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 2468,
+		flag = 0
+	},
+	[2469] = {
+		param = "Well, you know what to do, Yuen!",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 2469,
+		flag = 0
+	},
+	[2470] = {
+		param = "Hang on! I'm still figuring out how to send red envelopes!",
+		ship_group = 50107,
+		option = "",
+		type = 1,
+		id = 2470,
+		flag = 0
+	},
+	[2471] = {
+		param = "Hahaha! You still need my help, huh? I'm on it!",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 2471,
+		flag = 0
+	},
+	[2472] = {
+		param = "Are you done yet, Yuen?",
+		ship_group = 50205,
+		option = "",
+		type = 1,
+		id = 2472,
+		flag = 0
+	},
+	[2473] = {
+		param = "44",
+		ship_group = 50205,
+		option = "",
+		type = 4,
+		id = 2473,
+		flag = 0
+	},
+	[2474] = {
+		param = "1002",
+		ship_group = 50108,
+		option = "1002",
+		type = 3,
+		id = 2474,
+		flag = 0
+	},
+	[2475] = {
+		param = "Fei Yuen couldn't quite figure it out, so I sent it on her behalf.",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 2475,
+		flag = 0
+	},
+	[2476] = {
+		param = "What the heck is this?! I only got 6! There's less and less each time!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2476,
+		flag = 0
+	},
+	[2477] = {
+		param = "214",
+		ship_group = 50102,
+		option = "",
+		type = 4,
+		id = 2477,
+		flag = 0
+	},
+	[2478] = {
+		param = "Some are lucky, others are not.",
+		ship_group = 50401,
+		type = 1,
+		id = 2478,
+		flag = 0,
+		option = {
+			{
+				5,
+				"That's a lucky number in the Empery, though!"
+			},
+			{
+				6,
+				"Thanks for the red envelopes, everyone!"
+			}
+		}
+	},
+	[2479] = {
+		param = "Six is considered lucky in the Empery, though!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2479,
+		flag = 5
+	},
+	[2480] = {
+		param = "That is true. It bodes well for you, Fu Shun.",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2480,
+		flag = 5
+	},
+	[2481] = {
+		param = "On the subject, you got some lucky numbers too, didn't you, Commander? We consider 8 to be lucky as well.",
+		ship_group = 50201,
+		option = "",
+		type = 1,
+		id = 2481,
+		flag = 5
+	},
+	[2482] = {
+		param = "Thanks for the red envelopes, everyone!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2482,
+		flag = 6
+	},
+	[2483] = {
+		param = "You're welcome. Sharing the fortune with others on Lunar New Year is so much fun.",
+		ship_group = 50108,
+		option = "",
+		type = 1,
+		id = 2483,
+		flag = 6
+	},
+	[2484] = {
+		param = "Since I was the luckiest one this time, now it's my turn.",
+		ship_group = 50602,
+		option = "",
+		type = 1,
+		id = 2484,
+		flag = 0
+	},
+	[2485] = {
+		param = "1003",
+		ship_group = 50602,
+		option = "1003",
+		type = 3,
+		id = 2485,
+		flag = 0
+	},
+	[2486] = {
+		param = "It all went to the Commander... That's no coincidence or mistake, is it, Hwah Jah?",
+		ship_group = 50204,
+		option = "",
+		type = 1,
+		id = 2486,
+		flag = 0
+	},
+	[2487] = {
+		param = "It's somewhere in between. I made a mistake on purpose!",
+		ship_group = 50602,
+		option = "",
+		type = 1,
+		id = 2487,
+		flag = 0
+	},
+	[2488] = {
+		param = "An exclusive envelope, I see... What a great idea!",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2488,
+		flag = 0
+	},
+	[2489] = {
+		param = "I've prepared a red envelope as well, only in real life.",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2489,
+		flag = 0
+	},
+	[2490] = {
+		param = "I'm coming to you to deliver it in person, Commander ♪",
+		ship_group = 50209,
+		option = "",
+		type = 1,
+		id = 2490,
+		flag = 0
+	},
+	[2491] = {
+		param = "Same here. I've prepared one of my own.",
+		ship_group = 50207,
+		option = "",
+		type = 1,
+		id = 2491,
+		flag = 0
+	},
+	[2492] = {
+		param = "Me too! Got one with a nice, trendy design and everything!",
+		ship_group = 50210,
+		option = "",
+		type = 1,
+		id = 2492,
+		flag = 0
+	},
+	[2493] = {
+		param = "Since we've each prepared one for the Commander, shall we all go and deliver them now?",
+		ship_group = 51901,
+		option = "",
+		type = 1,
+		id = 2493,
+		flag = 0
+	},
+	[2494] = {
+		param = "Good idea! Give your new year's wishes while you're at it, hah!",
+		ship_group = 59901,
+		option = "",
+		type = 1,
+		id = 2494,
+		flag = 0
+	},
+	[2495] = {
+		param = "Coming at midnight to wish someone a happy New Year? That's certainly a concept...",
+		ship_group = 50301,
+		option = "",
+		type = 1,
+		id = 2495,
+		flag = 0
+	},
+	[2496] = {
+		param = "Not a bad one, though. The start of the year should be exciting.",
+		ship_group = 50301,
+		option = "",
+		type = 1,
+		id = 2496,
+		flag = 0
+	},
+	[2497] = {
+		param = "I just finished making a late-night meal too! I'll bring it with me!",
+		ship_group = 50105,
+		option = "",
+		type = 1,
+		id = 2497,
+		flag = 0
+	},
+	[2498] = {
+		param = "Whaaat? You got food ready? No way!",
+		ship_group = 50109,
+		option = "",
+		type = 1,
+		id = 2498,
+		flag = 0
+	},
+	[2499] = {
+		param = "yeah way! it's her new year surprise for all of us!",
+		ship_group = 50106,
+		option = "",
+		type = 1,
+		id = 2499,
+		flag = 0
+	},
+	[2500] = {
+		param = "358",
+		ship_group = 50106,
+		option = "",
+		type = 4,
+		id = 2500,
+		flag = 0
+	},
+	[2501] = {
+		param = "Yes, Lung Wu cooked up a lavish New Year's feast for us.",
+		ship_group = 50601,
+		option = "",
+		type = 1,
+		id = 2501,
+		flag = 0
+	},
+	[2502] = {
+		param = "thanks, lung wu!",
+		ship_group = 50202,
+		type = 1,
+		id = 2502,
+		flag = 0,
+		option = {
+			{
+				7,
+				"Thanks, Lung Wu, and the rest of you as well."
+			}
+		}
+	},
+	[2503] = {
+		param = "You're awesome, Lung Wu. Thank you. And thank you to the rest of you as well.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2503,
+		flag = 7
+	},
+	[2504] = {
+		param = "I'm glad I get to spend the exciting first day of the new year together with all of you!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2504,
+		flag = 7
+	},
+	[2505] = {
+		param = "Come to my place and we'll enjoy a late dinner together!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2505,
+		flag = 7
+	},
+	[2506] = {
+		param = "373",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2506,
+		flag = 7
+	},
+	[2507] = {
+		param = "Yeah! We'll be right there!",
+		ship_group = 50103,
+		option = "",
+		type = 1,
+		id = 2507,
+		flag = 7
+	},
+	[2508] = {
+		param = "Lessgo! Time to celebrate!",
+		ship_group = 50102,
+		option = "",
+		type = 1,
+		id = 2508,
 		flag = 7
 	}
 }

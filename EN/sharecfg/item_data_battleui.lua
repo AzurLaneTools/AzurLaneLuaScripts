@@ -60,6 +60,18 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[105] = {
+		unlock = "Seasonal Missions S21",
+		name = "Holy Light",
+		key = "SkinNormal_20250123",
+		display_icon = "ui_105",
+		is_unlock = 1,
+		rare = 3,
+		desc = "Sacred, profound, glorious. May all your battles be etched into the annals of history.",
+		id = 105,
+		icon = "105",
+		scene = {}
+	},
 	[201] = {
 		unlock = "Buy the Battle UI Pack - Christmas",
 		name = "Christmas",
@@ -78,6 +90,7 @@ pg.item_data_battleui = {
 		102,
 		103,
 		104,
+		105,
 		201
 	}
 }

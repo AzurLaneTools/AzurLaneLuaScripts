@@ -84,69 +84,23 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "You can use this slot to set TB as your secretary. You start with Normal TB, but will unlock others as you reach different endings.",
+				text = "You can select unlocked characters as special secretaries here.",
 				mode = 2,
 				dir = -1,
 				char = 1,
 				posY = -59.66,
-				posX = 150.1
-			},
-			ui = {
-				pathIndex = -1,
-				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/groupPage/main/list/tpl/anim_root",
-				fingerPos = {
-					posY = -121.3,
-					posX = 85.9
-				}
-			}
-		},
-		{
-			delay = 1,
-			alpha = 0,
-			style = {
-				text = "You can change TB's outfit. New outfits are unlocked by collecting Moments.",
-				mode = 2,
-				dir = 1,
-				char = 1,
-				posY = -147.2,
-				posX = -469.33
+				posX = 90.1
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "Select Normal TB and set her as your special secretary.",
+				text = "Unlock different endings in Project Identity to get more clothing modules.",
 				mode = 2,
-				dir = -1,
-				char = 1,
-				posY = -76,
-				posX = 320
-			},
-			ui = {
-				pathIndex = 0,
-				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/list/content",
-				fingerPos = {
-					posY = -115,
-					posX = 52
-				}
-			}
-		},
-		{
-			alpha = 0.4,
-			style = {
-				text = "Tap the Confirm button to confirm your choice.",
-				mode = 2,
-				char = 1,
-				posY = -244.8,
 				dir = 1,
-				posX = 624.4,
-				uiset = {
-					{
-						pathIndex = -1,
-						lineMode = 2,
-						path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/confirm_btn"
-					}
-				}
+				char = 1,
+				posY = -59.66,
+				posX = 90.1
 			}
 		}
 	}

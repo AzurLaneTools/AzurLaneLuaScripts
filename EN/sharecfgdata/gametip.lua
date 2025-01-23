@@ -26012,6 +26012,69 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2502 = {
+	tip = "Complete seasonal missions <icon name=pt w=0.5 h=0.5/> during the 2025.2.1 - 2025.3.31 Cruise Mission season and obtain rewards such as <color=#854747>Bolzano META</color> and more!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2502 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+2/1/2025 00:00 – 31/3/2025 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Bolzano META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Repulse, "Dance of Spring Blooms."
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2502 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
@@ -32053,7 +32116,7 @@ _G.pg.base.gametip.flagship_display_mode_3 = {
 
 
 _G.pg.base.gametip.flagship_educate_slot_lock_tip = {
-	tip = "This feature unlocks after completing the New Life story in <color=#39bfff>Project Identity: TB</color>."
+	tip = "Feature unlocks after completing any tutorial in <color=#39bfff>Project Identity</color>."
 }
 
 
@@ -36050,6 +36113,11 @@ _G.pg.base.gametip.cruise_title_2412 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2502 = {
+	tip = "Seasonal Missions – S21"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "Time Remaining:"
 }
@@ -36275,6 +36343,314 @@ _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 }
 
 
+_G.pg.base.gametip.child2_cur_round = {
+	tip = "Turn $1"
+}
+
+
+_G.pg.base.gametip.child2_assess_round = {
+	tip = "Assessment: (in $1 turn(s))"
+}
+
+
+_G.pg.base.gametip.child2_assess_target = {
+	tip = "Stat Goal: $1/$2"
+}
+
+
+_G.pg.base.gametip.child2_ending_stage = {
+	tip = "Ending Stage"
+}
+
+
+_G.pg.base.gametip.child2_reset_stage = {
+	tip = "Info"
+}
+
+
+_G.pg.base.gametip.child2_main_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help8"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help9"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help10"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help11"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help12"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_personality_title = {
+	tip = "Personality"
+}
+
+
+_G.pg.base.gametip.child2_attr_title = {
+	tip = "Stats"
+}
+
+
+_G.pg.base.gametip.child2_talent_title = {
+	tip = "Abilities"
+}
+
+
+_G.pg.base.gametip.child2_status_title = {
+	tip = "Status"
+}
+
+
+_G.pg.base.gametip.child2_talent_unlock_tip = {
+	tip = "Unlocks on Turn $1"
+}
+
+
+_G.pg.base.gametip.child2_status_time1 = {
+	tip = "Turn $1"
+}
+
+
+_G.pg.base.gametip.child2_status_time2 = {
+	tip = "Permanent"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip = {
+	tip = "<color=#393a3c>Assessment</color> Starts in $1 Turn(s)"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip_target = {
+	tip = "Stat Total of <color=#39bfff>$1</color> Needed"
+}
+
+
+_G.pg.base.gametip.child2_site_exit = {
+	tip = "Leave"
+}
+
+
+_G.pg.base.gametip.child2_shop_limit_cnt = {
+	tip = "Limited"
+}
+
+
+_G.pg.base.gametip.child2_unlock_site_round = {
+	tip = "$1 more turn(s) until the next level unlocks"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_add = {
+	tip = "$1 increased from $2 to $3; $4 in total"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_reduce = {
+	tip = "$1 decreased from $2 to $3; $4 in total"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_item = {
+	tip = "Acquired Status [$1]"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag1 = {
+	tip = "Mild"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "Rebellious"
+}
+
+
+_G.pg.base.gametip.child2_personal_change = {
+	tip = "Personality Change"
+}
+
+
+_G.pg.base.gametip.child2_ship_upgrade_favor = {
+	tip = "Your event progress with $1 went up to $2."
+}
+
+
+_G.pg.base.gametip.child2_plan_title_front = {
+	tip = "Turn"
+}
+
+
+_G.pg.base.gametip.child2_plan_title_back = {
+	tip = ""
+}
+
+
+_G.pg.base.gametip.child2_plan_upgrade_condition = {
+	tip = "[Level-Up Requirements]"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_on = {
+	tip = "View Endings"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_off = {
+	tip = "View Unlock Conditions"
+}
+
+
+_G.pg.base.gametip.child2_game_cnt = {
+	tip = "Session $1"
+}
+
+
+_G.pg.base.gametip.child2_enter = {
+	tip = "Start Raising"
+}
+
+
+_G.pg.base.gametip.child2_select_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_not_start = {
+	tip = "This hasn't opened yet."
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip = {
+	tip = "You have unset activity slots. Proceed to the next turn anyway?"
+}
+
+
+_G.pg.base.gametip.child2_reset_sure_tip = {
+	tip = "Resetting sends you back to turn 1. Are you sure you want to reset?"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip2 = {
+	tip = "You have unspent action points. Proceed to the next turn anyway?"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip3 = {
+	tip = "You have unspent action points or unset activity slots. Proceed to the next turn anyway?"
+}
+
+
+_G.pg.base.gametip.child2_assess_start_tip = {
+	tip = "Start Assessment"
+}
+
+
+_G.pg.base.gametip.child2_site_again = {
+	tip = "Retry"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure = {
+	tip = "This status is in effect with $1 turn(s) remaining. Buying this item will refresh the duration. Do you want to continue?"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure2 = {
+	tip = "目前已持有此状态，继续购买不会产生效果，是否继续？"
+}
+
+
 _G.pg.base.gametip.world_file_tip = {
 	tip = "* Scroll the page by sliding the screen. Close the page by tapping the screen."
 }
@@ -36382,6 +36758,11 @@ _G.pg.base.gametip.juuschat_filter_subtitle2 = {
 
 _G.pg.base.gametip.juuschat_filter_subtitle3 = {
 	tip = "Faction"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_show_detail = {
+	tip = "Details"
 }
 
 
@@ -36943,12 +37324,12 @@ _G.pg.base.gametip.task_get = {
 
 
 _G.pg.base.gametip.notify_clock_tip = {
-	tip = "Alarm not enabled yet, please enable to allow notification"
+	tip = ""
 }
 
 
 _G.pg.base.gametip.notify_clock_button = {
-	tip = "Enable alarm"
+	tip = ""
 }
 
 
@@ -37065,6 +37446,134 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 }
 
 
+_G.pg.base.gametip.dorm3d_gift_favor_exceed = {
+	tip = "赠送后会溢出$1点契合度，是否确定赠送"
+}
+
+
 _G.pg.base.gametip.please_input_1_99 = {
 	tip = "Enter a number from 1 to 99"
+}
+
+
+_G.pg.base.gametip.child2_empty_plan = {
+	tip = "No Activities"
+}
+
+
+_G.pg.base.gametip.child2_replay_tip = {
+	tip = "A game interruption was detected. Do you want to return to prior to the interruption? (Press the Return button to go back to the previous screen.)"
+}
+
+
+_G.pg.base.gametip.child2_replay_clear = {
+	tip = "Return"
+}
+
+
+_G.pg.base.gametip.child2_replay_continue = {
+	tip = "Continue"
+}
+
+
+_G.pg.base.gametip.firework_2025_level = {
+	tip = "Level $1"
+}
+
+
+_G.pg.base.gametip.firework_2025_pt = {
+	tip = "Festivity Pt"
+}
+
+
+_G.pg.base.gametip.firework_2025_get = {
+	tip = "Claimable"
+}
+
+
+_G.pg.base.gametip.firework_2025_got = {
+	tip = "Claimed"
+}
+
+
+_G.pg.base.gametip.firework_2025_tip1 = {
+	tip = "There is a chance of fireworks when clearing a stage."
+}
+
+
+_G.pg.base.gametip.firework_2025_tip2 = {
+	tip = "Morale Recovery Speed:"
+}
+
+
+_G.pg.base.gametip.firework_2025_unlock_tip1 = {
+	tip = "Festivity Has Reached"
+}
+
+
+_G.pg.base.gametip.firework_2025_unlock_tip2 = {
+	tip = "$1"
+}
+
+
+_G.pg.base.gametip.firework_2025_tip = {
+	tip = {
+		{
+			info = "- Overview -"
+		},
+		{
+			info = "1. Fireworks Party Festivity Pts can be obtained by getting fireworks and completing event missions. Accumulate enough Festivity Pts to get rewards such as Red Envelopes, the Lucky Snake Fireworks Box (gear skin,) and more!"
+		},
+		{
+			info = "2. There is a chance for fireworks to drop when you clear a main story stage in chapter 3 or higher, or when you participate in the Joint Operation event. Launch your fireworks to obtain rewards and Festivity Pts."
+		},
+		{
+			info = "3. During the event, you can place your shipgirls around the Venue to increase their Morale recovery speed. As you increase your progress in the Venue, you'll unlock more slots to place your shipgirls in, up to a maximum of 10."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.secretary_special_character_unlock = {
+	tip = "Can be unlocked through playing <color=#39bfff>Project Identity</color>."
+}
+
+
+_G.pg.base.gametip.secretary_special_character_buy_unlock = {
+	tip = "You do not have this character. You can unlock her through playing <color=#39bfff>Project Identity</color>."
+}
+
+
+_G.pg.base.gametip.child2_mood_desc1 = {
+	tip = "Current Mood: Depressed; <color=#ee4a4a>Rewards gained -40%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc2 = {
+	tip = "Current Mood: Sad; <color=#ff6767>Rewards gained -20%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc3 = {
+	tip = "Current Mood: Normal; No effect on rewards"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc4 = {
+	tip = "Current Mood: Happy; <color=#00c79b>Rewards gained +40%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc5 = {
+	tip = "Current Mood: Happy; <color=#00c79b>Rewards gained +40%</color>"
+}
+
+
+_G.pg.base.gametip.child2_schedule_target = {
+	tip = "Total Stat Goal:"
+}
+
+
+_G.pg.base.gametip.child2_shop_point_sure = {
+	tip = "购买后行动力将超出上限，是否继续购买"
 }

@@ -1684,7 +1684,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 49903,
 		name = "Mainz",
 		background = "",
-		sculpture = "meiyinci",
+		sculpture = "meiyinci_3",
 		nationality = 0,
 		type = 1
 	},
@@ -1868,7 +1868,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 80202,
 		name = "Jeanne d'Arc",
 		background = "",
-		sculpture = "shengnvzhende",
+		sculpture = "shengnvzhende_3",
 		nationality = 0,
 		type = 1
 	},
@@ -1956,7 +1956,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 70206,
 		name = "Мурманск",
 		background = "",
-		sculpture = "moermansike",
+		sculpture = "moermansike_3",
 		nationality = 0,
 		type = 1
 	},
@@ -2140,7 +2140,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		background = "",
-		sculpture = "xinzexi",
+		sculpture = "xinzexi_4",
 		nationality = 0,
 		type = 1
 	},
@@ -3716,7 +3716,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 19904,
 		name = "Kearsarge",
 		background = "",
-		sculpture = "qiershazhi_2",
+		sculpture = "qiershazhi_3",
 		nationality = 0,
 		type = 1
 	},
@@ -4472,6 +4472,14 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[40803] = {
+		ship_group = 40803,
+		name = "U-557",
+		background = "",
+		sculpture = "U557",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5031,6 +5039,7 @@ pg.activity_ins_ship_group_template = {
 		50210,
 		50108,
 		50109,
-		10222
+		10222,
+		40803
 	}
 }

@@ -16,7 +16,7 @@ slot0.Flush = function(slot0)
 	slot2 = VirtualEducateCharShip.New(getProxy(PlayerProxy):getRawData():GetEducateCharacter())
 
 	setPaintingPrefabAsync(slot0.paintingTr, slot2:getPainting(), "biandui")
-	slot0.nameTxt:SetText(i18n("secretary_special_name"))
+	slot0.nameTxt:SetText(slot2.name)
 
 	slot0.ship = slot2
 end

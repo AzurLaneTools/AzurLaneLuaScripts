@@ -2518,7 +2518,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50102] = {
 		shiptype = 1,
-		name = "Chang Feng Class",
+		name = "Fei Yuen",
 		t_level = 1,
 		id = 50102,
 		t_level_1 = 128,
@@ -3781,10 +3781,21 @@ pg.fleet_tech_ship_class = {
 		name = "Admiral Hipper META",
 		t_level = 3,
 		id = 970305,
-		t_level_1 = 6,
+		t_level_1 = 13,
 		nation = 97,
 		ships = {
 			970305
+		}
+	},
+	[970306] = {
+		shiptype = 3,
+		name = "Bolzano META",
+		t_level = 3,
+		id = 970306,
+		t_level_1 = 14,
+		nation = 97,
+		ships = {
+			970306
 		}
 	},
 	[970401] = {
@@ -4368,6 +4379,7 @@ pg.fleet_tech_ship_class = {
 		970303,
 		970304,
 		970305,
+		970306,
 		970401,
 		970402,
 		970403,

@@ -202,6 +202,7 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 				},
 				tip = i18n("dorm3d_shop_gift_tip"),
 				drop = uv2,
+				groupId = uv3.apartment:GetConfigID(),
 				onYes = function ()
 					uv0:emit(GAME.SHOPPING, {
 						silentTip = true,
@@ -215,16 +216,50 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 
 	setActive(slot1:Find("mask"), slot9)
 	setText(slot1:Find("mask/Image/Text"), i18n("dorm3d_already_gifted"))
+
+	slot12 = function(slot0)
+		uv0.selectGiftCount = slot0
+
+		setText(uv1:Find("base/PageUtil/Text"), slot0)
+		setGray(uv1:Find("base/PageUtil/Add"), math.min(20, uv2.count) <= slot0)
+		setGray(uv1:Find("base/PageUtil/Minus"), slot0 <= 1)
+	end
+
+	(function ()
+		slot0 = math.min(20, uv0.count)
+		slot2 = uv1
+
+		pressPersistTrigger(slot2:Find("base/PageUtil/Minus"), 0.5, function ()
+			if uv0.selectGiftCount - 1 <= 0 then
+				slot0 = uv0.selectGiftCount or slot0
+			end
+
+			uv1(slot0)
+		end, nil, true, true, 0.1, SFX_PANEL)
+
+		slot2 = uv1
+
+		pressPersistTrigger(slot2:Find("base/PageUtil/Add"), 0.5, function ()
+			if uv1 < uv0.selectGiftCount + 1 then
+				slot0 = uv1 or slot0
+			end
+
+			uv2(slot0)
+		end, nil, true, true, 0.1, SFX_PANEL)
+	end)()
 	onToggle(slot0, slot1, function (slot0)
 		if slot0 then
 			uv0.selectGiftId = uv1
 
 			uv0:UpdateConfirmBtn()
+			uv2(math.min(1, uv3.count))
 		elseif uv0.selectGiftId == uv1 then
 			uv0.selectGiftId = nil
 
 			uv0:UpdateConfirmBtn()
 		end
+
+		setActive(uv4:Find("base/PageUtil"), slot0)
 	end, SFX_PANEL)
 	setToggleEnabled(slot1, not slot9)
 	triggerToggle(slot1, slot3)
@@ -275,10 +310,17 @@ slot0.ConfirmGiveGifts = function(slot0)
 				onConfirm = slot0
 			})
 		end)
+	elseif slot0.apartment.favor + pg.dorm3d_favor_trigger[pg.dorm3d_gift[slot0.selectGiftId].favor_trigger_id].num * slot0.selectGiftCount - slot0.apartment:getMaxFavor() > 0 then
+		table.insert(slot1, function (slot0)
+			pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_MSGBOX, {
+				contentText = i18n("dorm3d_gift_favor_exceed", uv0),
+				onConfirm = slot0
+			})
+		end)
 	end
 
 	seriesAsync(slot1, function ()
-		uv0:emit(Dorm3dGiftMediator.GIVE_GIFT, uv0.selectGiftId)
+		uv0:emit(Dorm3dGiftMediator.GIVE_GIFT, uv0.selectGiftId, uv0.selectGiftCount)
 	end)
 end
 
