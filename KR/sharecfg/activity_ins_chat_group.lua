@@ -2780,10 +2780,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "细节问题",
+		name = "디테일이란",
 		id = 59,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2070,
@@ -2820,10 +2820,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "晚间邀约",
+		name = "밤 약속",
 		id = 60,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2100,
@@ -2858,10 +2858,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50301,
-		name = "正式邀约",
+		name = "포멀 데이트",
 		id = 61,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2128,
@@ -2898,10 +2898,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "过度关注",
+		name = "과도한 주목",
 		id = 62,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2158,
@@ -2935,10 +2935,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "展览邀约",
+		name = "이벤트 초대",
 		id = 63,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2185,
@@ -2975,10 +2975,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50210,
-		name = "心意传递",
+		name = "전하고 싶은 마음",
 		id = 64,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2215,
@@ -3023,10 +3023,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "撤回大法",
+		name = "메시지 취소 마스터",
 		id = 65,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2253,
@@ -3061,10 +3061,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "恶作剧计划",
+		name = "장난 계획",
 		id = 66,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2281,
@@ -3109,10 +3109,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50109,
-		name = "分享灵感",
+		name = "같이 떠올리는 영감",
 		id = 67,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2319,
@@ -3153,10 +3153,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "保持洁净",
+		name = "청결 유지",
 		id = 68,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "캐릭터 획득",
 		trigger_type = 1,
 		content = {
 			2353,
@@ -3190,10 +3190,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "围裙挑选",
+		name = "앞치마 고르기",
 		id = 69,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "호감도 사랑 달성",
 		trigger_type = 2,
 		content = {
 			2380,
@@ -3231,10 +3231,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 50108,
-		name = "到达前的准备",
+		name = "사전 준비",
 		id = 70,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "서약 완료",
 		trigger_type = 2,
 		content = {
 			2411,

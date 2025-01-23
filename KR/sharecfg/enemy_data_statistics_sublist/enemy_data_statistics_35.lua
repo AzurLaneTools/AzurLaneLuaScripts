@@ -1486,7 +1486,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91036] = {
 		cannon = 0,
-		name = "抚顺改",
+		name = "푸슌·改",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1642,7 +1642,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91037] = {
 		cannon = 0,
-		name = "海容",
+		name = "하이롱",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
@@ -1798,7 +1798,7 @@ pg.enemy_data_statistics_35 = {
 	},
 	[91038] = {
 		cannon = 0,
-		name = "建武",
+		name = "지엔우",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

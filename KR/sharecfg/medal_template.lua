@@ -2445,12 +2445,12 @@ pg.medal_template = {
 	},
 	[200011] = {
 		target_id = "5769",
-		name = "华裳巧展纪念勋章",
+		name = "봄맞이 패션 기념증",
 		target_num = 8,
 		type = 0,
 		is_out_of_print = 0,
 		count_inherit = 0,
-		desc = "虽有波折，终遂人愿。光华流转，一夜霓裳。",
+		desc = "우여곡절 끝에 기원 성취. 현란한 옷이 하룻밤 내내 피어나네.",
 		next = 0,
 		icon = "9011",
 		page = 2,
@@ -2458,11 +2458,11 @@ pg.medal_template = {
 		start = 0,
 		hide = 0,
 		label = "l_9011",
-		condition = "收集8个「华裳巧展喜事长」纪念贴纸。",
+		condition = "「봄맞이 패션 협주곡」 기념 스티커 8개 수집",
 		rank = 1,
 		id = 200011,
-		explain1 = "「华裳巧展喜事长」",
-		explain2 = "活动纪念"
+		explain1 = "「봄맞이 패션 협주곡」",
+		explain2 = "이벤트"
 	},
 	all = {
 		10011,

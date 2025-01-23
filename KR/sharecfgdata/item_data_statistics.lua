@@ -8463,9 +8463,9 @@ _G.pg.base.item_data_statistics[11056] = {
 
 _G.pg.base.item_data_statistics[11057] = {
 	open_directly = 0,
-	name = "533mm鱼雷Mark35（4连发射）T0设计图",
+	name = "533mm 어뢰 Mark35 (4연사) T0 설계도",
 	type = 9,
-	display = "533mm鱼雷Mark35（4连发射）T0设计图",
+	display = "533mm 어뢰 Mark35 (4연사) T0 설계도",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -10596,16 +10596,15 @@ _G.pg.base.item_data_statistics[14006] = {
 
 _G.pg.base.item_data_statistics[14007] = {
 	open_directly = 0,
-	name = "原型科研图纸·S-VII",
+	name = "원형 과학 연구 도면·S-Ⅶ",
 	type = 13,
 	display = [[
-使用后可从超稀有科研装备(VII期)的设计图中任意选择一张
-兑换列表如下：
-「试作型VIT-2（模式调整）T0设计图」
-「试作型三联装254mm主炮model1939T0设计图」
-「试作型三联装152mm主炮Model1936T0设计图」
-「试作型F8F熊猫（浮筒型）T0设计图」
-「试作型双联装410mm主炮mod.AT0设计图」
+다음 중 임의의 SSR급 장비(7기) 설계도로 교환 가능
+「시제형 VIT-2(모드 체인지) T0 설계도」
+「시제형 254mm 3연장포 Model 1939 T0 설계도」
+「시제형 152mm 3연장포 Model 1936 T0 설계도」
+「시제형 F8F 베어캣(수상기) T0 설계도」
+「시제형 410mm 연장포 mod.A T0 설계도」
 ]],
 	other_resource_cost = "[]",
 	replace_item = 0,
@@ -14141,9 +14140,9 @@ _G.pg.base.item_data_statistics[20105] = {
 
 _G.pg.base.item_data_statistics[20106] = {
 	open_directly = 0,
-	name = "科研测试数据・六期",
+	name = "전술 데이터 패키지·6기",
 	type = 18,
-	display = "研发部门总结的测试数据，<color=#92fc63>在开发船坞内使用</color>可增加10000点科研六期角色技术测试经验进度<color=#ff5c5c>（在仓库中解析会获得设计原型，无法获得经验）</color>",
+	display = "과학부에서 제작한 전술 데이터베이스. 특별 계획 6기의 개발 임무 경험치를 10,000 축적시킬 수 있다. <color=#ff5c5c>(창고에서 원형 설계로 분석 가능)</color>",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -25822,9 +25821,9 @@ _G.pg.base.item_data_statistics[30363] = {
 
 _G.pg.base.item_data_statistics[30364] = {
 	open_directly = 1,
-	name = "外观装备箱(瑞光迎岁)",
+	name = "장비 스킨 상자 (서광영춘)",
 	type = 11,
-	display = "可以获得一件随机的瑞光迎岁风格外观装备",
+	display = "무작위로 장비 스킨 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -37679,9 +37678,9 @@ _G.pg.base.item_data_statistics[30550] = {
 
 _G.pg.base.item_data_statistics[30551] = {
 	open_directly = 0,
-	name = "定向外观装备箱(瑞光迎岁)",
+	name = "선택 장비 스킨 상자 (서광영춘)",
 	type = 13,
-	display = "使用后可从「瑞光迎岁」主题外观装备中任意选择一种获得1个",
+	display = "사용하면 장비 스킨(서광영춘) 중 하나를 선택해서 획득할 수 있습니다.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop_appointed",
@@ -85125,9 +85124,9 @@ _G.pg.base.item_data_statistics[59853] = {
 
 _G.pg.base.item_data_statistics[59854] = {
 	open_directly = 0,
-	name = "朱雀之印",
+	name = "주작의 인",
 	type = 7,
-	display = "雕刻着东煌四神兽之一——朱雀的玉器，散发着特殊的力量 ——用于完成抚顺近代化改造",
+	display = "이스트 글림의 네 신수 중 하나인 주작의 모습이 새겨진 옥제 장식품. 특별한 힘을 발휘한다. ――구축함 「푸슌」의 개조 재료.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93626,9 +93625,9 @@ _G.pg.base.item_data_statistics[60526] = {
 
 _G.pg.base.item_data_statistics[60527] = {
 	open_directly = 0,
-	name = "贺年卡（乙巳）",
+	name = "춘절 초대장 (2025)",
 	type = 21,
-	display = "饱含祝福的贺年卡。使用后可以选择一名特定角色赠送（获取指定角色）",
+	display = "새해를 축하하는 연하장도 겸한다. 사용하면 함선과 기념 아이템을 획득할 수 있다.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",
@@ -93669,9 +93668,9 @@ _G.pg.base.item_data_statistics[60527] = {
 
 _G.pg.base.item_data_statistics[60528] = {
 	open_directly = 0,
-	name = "{namecode:97}的贺年卡",
+	name = "춘절 초대장 (다이호)",
 	type = 1,
-	display = "由{namecode:97}处收到的，春节贺年卡",
+	display = "다이호에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93700,9 +93699,9 @@ _G.pg.base.item_data_statistics[60528] = {
 
 _G.pg.base.item_data_statistics[60529] = {
 	open_directly = 0,
-	name = "华甲的贺年卡",
+	name = "춘절 초대장 (화지아)",
 	type = 1,
-	display = "由华甲处收到的，春节贺年卡",
+	display = "화지아에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93731,9 +93730,9 @@ _G.pg.base.item_data_statistics[60529] = {
 
 _G.pg.base.item_data_statistics[60530] = {
 	open_directly = 0,
-	name = "逸仙的贺年卡",
+	name = "춘절 초대장 (얏센)",
 	type = 1,
-	display = "由逸仙处收到的，春节贺年卡",
+	display = "얏센에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93762,9 +93761,9 @@ _G.pg.base.item_data_statistics[60530] = {
 
 _G.pg.base.item_data_statistics[60531] = {
 	open_directly = 0,
-	name = "镇海的贺年卡",
+	name = "춘절 초대장 (젠하이)",
 	type = 1,
-	display = "由镇海处收到的，春节贺年卡",
+	display = "젠하이에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93793,9 +93792,9 @@ _G.pg.base.item_data_statistics[60531] = {
 
 _G.pg.base.item_data_statistics[60532] = {
 	open_directly = 0,
-	name = "太原的贺年卡",
+	name = "춘절 초대장 (타이위안)",
 	type = 1,
-	display = "由太原处收到的，春节贺年卡",
+	display = "타이위안에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93824,9 +93823,9 @@ _G.pg.base.item_data_statistics[60532] = {
 
 _G.pg.base.item_data_statistics[60533] = {
 	open_directly = 0,
-	name = "古比雪夫的贺年卡",
+	name = "춘절 초대장 (쿠이비셰프)",
 	type = 1,
-	display = "由古比雪夫处收到的，春节贺年卡",
+	display = "쿠이비셰프에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -93855,9 +93854,9 @@ _G.pg.base.item_data_statistics[60533] = {
 
 _G.pg.base.item_data_statistics[60534] = {
 	open_directly = 0,
-	name = "忒修斯的贺年卡",
+	name = "춘절 초대장 (테세우스)",
 	type = 1,
-	display = "由忒修斯处收到的，春节贺年卡",
+	display = "테세우스에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -94742,9 +94741,9 @@ _G.pg.base.item_data_statistics[81209] = {
 
 _G.pg.base.item_data_statistics[81210] = {
 	open_directly = 1,
-	name = "2025年春节福袋一",
+	name = "2025 춘절 복주머니·I",
 	type = 17,
-	display = "购买礼包可获得随机换装*1，钻石*2025，心智单元*50，心智魔方*20，高级定向蓝图·七期*2，快速完成工具*10，家具币*100",
+	display = "랜덤(랜덤 2025 춘절 복주머니·I의) 스킨, 상급 지향형 강화 유닛·7기×2, 다이아×2025, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

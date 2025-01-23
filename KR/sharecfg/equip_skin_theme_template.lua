@@ -1428,7 +1428,7 @@ pg.equip_skin_theme_template = {
 	},
 	{
 		id = 64,
-		name = "瑞光迎岁 ",
+		name = "서광영춘",
 		ids = {
 			4095,
 			4096,

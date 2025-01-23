@@ -1701,11 +1701,11 @@ pg.voice_actor_CN = {
 		code = 438
 	},
 	[439] = {
-		actor_name = "水野朔",
+		actor_name = "미즈노 사쿠",
 		code = 439
 	},
 	[440] = {
-		actor_name = "咲川雏乃",
+		actor_name = "사키카와 히나노",
 		code = 440
 	}
 }

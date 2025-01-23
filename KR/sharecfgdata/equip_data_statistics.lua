@@ -19802,7 +19802,7 @@ _G.pg.base.equip_data_statistics[3800] = {
 	icon = "3800",
 	value_1 = "250",
 	rarity = 5,
-	descrip = "说明未填写",
+	descrip = "먼곳에서도 눈이 아님을 아는 것은, 은은히 풍기는 향기 덕분에……",
 	nationality = 5,
 	ammo = 10,
 	value_3 = 0,
@@ -168311,7 +168311,7 @@ _G.pg.base.equip_data_statistics[150591] = {
 
 
 _G.pg.base.equip_data_statistics[150600] = {
-	name = "伏波的计划书",
+	name = "푸보의 완벽한 계획",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -168320,7 +168320,7 @@ _G.pg.base.equip_data_statistics[150600] = {
 	icon = "150600",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "在标题《庆祝新春大冒险计划书》之下，隐约可以看到被涂掉的字迹：《打倒建武大魔王大冒险计划书》。 ",
+	descrip = "「봄맞이 패션 축하 대모험」 옆에 누군가에 의해 지워진 「타도! 지엔우 대마왕」이라는 글자가 희미하게 보인다.",
 	nationality = 5,
 	ammo = 10,
 	value_3 = 0,

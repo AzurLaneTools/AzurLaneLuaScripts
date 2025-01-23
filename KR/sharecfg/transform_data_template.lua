@@ -32766,8 +32766,8 @@ pg.base.transform_data_template = {
 	},
 	[25401] = {
 		level_limit = 1,
-		name = "舰体改良I",
-		descrip = "耐久+45",
+		name = "함체 개수Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -32798,8 +32798,8 @@ pg.base.transform_data_template = {
 	},
 	[25402] = {
 		level_limit = 5,
-		name = "雷击强化I",
-		descrip = "雷击+5",
+		name = "뇌격 강화Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -32832,8 +32832,8 @@ pg.base.transform_data_template = {
 	},
 	[25403] = {
 		level_limit = 20,
-		name = "主炮改良I",
-		descrip = "主炮武器效率+5%",
+		name = "주포 개수Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -32866,8 +32866,8 @@ pg.base.transform_data_template = {
 	},
 	[25404] = {
 		level_limit = 25,
-		name = "炮击强化I",
-		descrip = "炮击+10",
+		name = "포격 강화Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -32900,8 +32900,8 @@ pg.base.transform_data_template = {
 	},
 	[25405] = {
 		level_limit = 35,
-		name = "舰体改良II",
-		descrip = "耐久+45/耐久+75",
+		name = "함체 개수Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -32944,8 +32944,8 @@ pg.base.transform_data_template = {
 	},
 	[25406] = {
 		level_limit = 40,
-		name = "机动强化II",
-		descrip = "机动+5/机动+10",
+		name = "기동 강화Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -32989,8 +32989,8 @@ pg.base.transform_data_template = {
 	},
 	[25407] = {
 		level_limit = 50,
-		name = "雷击强化II",
-		descrip = "雷击+5/雷击+10",
+		name = "뇌격 강화Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -33033,8 +33033,8 @@ pg.base.transform_data_template = {
 	},
 	[25408] = {
 		level_limit = 55,
-		name = "雷击强化III",
-		descrip = "雷击+5/雷击+10/雷击+15",
+		name = "뇌격 강화Ⅲ",
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
@@ -33087,8 +33087,8 @@ pg.base.transform_data_template = {
 	},
 	[25409] = {
 		level_limit = 70,
-		name = "主炮改良II",
-		descrip = "主炮武器效率+5%/主炮武器效率+5%",
+		name = "주포 개수Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -33131,8 +33131,8 @@ pg.base.transform_data_template = {
 	},
 	[25410] = {
 		level_limit = 75,
-		name = "炮击强化III",
-		descrip = "炮击+5/炮击+10/炮击+15",
+		name = "포격 강화Ⅲ",
+		descrip = "",
 		max_level = 3,
 		skin_id = 0,
 		use_ship = 0,
@@ -33198,15 +33198,15 @@ pg.base.transform_data_template = {
 	},
 	[25411] = {
 		level_limit = 85,
-		name = "近代化改造",
+		name = "근대화 개수",
 		descrip = [[
-近代化改造完成，雷击+30，机动+15
-改造后全弹发射升级
-技能【尖锐突击】升级为【尖锐突击.改】
-获得新技能【朱雀萦焰】
-【鱼雷底座】变更为【导弹底座】
-【主炮底座+1】
-武器效率调整为100%/150%/105%]],
+근대화 개수를 실시하면, 뇌장 +30, 회피 +15
+전탄 발사 스킬 강화
+스킬 「레스키 돌격」 강화
+신규 스킬 「주작염전」 습득
+어뢰 장비 슬롯이 미사일 장비 슬롯으로 변경
+주포 포좌 +1
+장비 슬록 위력 보정 100%/150%/105%로 변경]],
 		max_level = 1,
 		skin_id = 501029,
 		use_ship = 1,
@@ -33245,8 +33245,8 @@ pg.base.transform_data_template = {
 	},
 	[25412] = {
 		level_limit = 90,
-		name = "主力舰队模式",
-		descrip = "切换为主力舰队模式",
+		name = "주력 배치 모드",
+		descrip = "배치 가능 슬롯을 [주력]으로 전환",
 		max_level = 1,
 		skin_id = 501029,
 		use_ship = 0,
@@ -33277,8 +33277,8 @@ pg.base.transform_data_template = {
 	},
 	[25413] = {
 		level_limit = 90,
-		name = "先锋舰队模式",
-		descrip = "切换为先锋舰队模式",
+		name = "선봉 배치 모드",
+		descrip = "배치 가능 슬롯을 [선봉]으로 전환",
 		max_level = 1,
 		skin_id = 501029,
 		use_ship = 0,
@@ -44280,8 +44280,8 @@ pg.base.transform_data_template = {
 	},
 	[57901] = {
 		level_limit = 1,
-		name = "舰体改良I",
-		descrip = "耐久+60",
+		name = "함체 개수Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -44312,8 +44312,8 @@ pg.base.transform_data_template = {
 	},
 	[57902] = {
 		level_limit = 5,
-		name = "装填强化I",
-		descrip = "装填+5",
+		name = "장전 강화Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -44346,8 +44346,8 @@ pg.base.transform_data_template = {
 	},
 	[57903] = {
 		level_limit = 20,
-		name = "防空炮改良I",
-		descrip = "防空炮武器效率+5%",
+		name = "대공포 강화Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -44380,8 +44380,8 @@ pg.base.transform_data_template = {
 	},
 	[57904] = {
 		level_limit = 25,
-		name = "防空强化I",
-		descrip = "防空+15",
+		name = "대공 강화Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -44414,8 +44414,8 @@ pg.base.transform_data_template = {
 	},
 	[57905] = {
 		level_limit = 35,
-		name = "防空炮改良I",
-		descrip = "防空炮武器效率+5%",
+		name = "대공포 강화Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -44448,8 +44448,8 @@ pg.base.transform_data_template = {
 	},
 	[57906] = {
 		level_limit = 40,
-		name = "航空强化I",
-		descrip = "航空+10",
+		name = "항공 강화Ⅰ",
+		descrip = "",
 		max_level = 1,
 		skin_id = 0,
 		use_ship = 0,
@@ -44482,8 +44482,8 @@ pg.base.transform_data_template = {
 	},
 	[57907] = {
 		level_limit = 50,
-		name = "舰体改良II",
-		descrip = "耐久+60/耐久+90",
+		name = "함체 개수Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -44526,8 +44526,8 @@ pg.base.transform_data_template = {
 	},
 	[57908] = {
 		level_limit = 55,
-		name = "装填强化II",
-		descrip = "装填+5/装填+10",
+		name = "장전 강화Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -44571,8 +44571,8 @@ pg.base.transform_data_template = {
 	},
 	[57909] = {
 		level_limit = 70,
-		name = "防空炮改良II",
-		descrip = "防空炮武器效率+5%/防空炮武器效率+5%",
+		name = "대공포 강화Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -44615,8 +44615,8 @@ pg.base.transform_data_template = {
 	},
 	[57910] = {
 		level_limit = 75,
-		name = "航空强化II",
-		descrip = "航空+10/航空+15",
+		name = "항공 강화Ⅱ",
+		descrip = "",
 		max_level = 2,
 		skin_id = 0,
 		use_ship = 0,
@@ -44667,8 +44667,8 @@ pg.base.transform_data_template = {
 	},
 	[57911] = {
 		level_limit = 85,
-		name = "近代化改造",
-		descrip = "近代化改造完成，防空+35，航空+25\n改造后<color=#92fc63>【第一武器栏位可以装备战斗机】【第二武器栏位可装备任意类型舰载机】</color>、<color=#92fc63>【第一武器栏位、第二武器栏位位武器效率+10%】</color>",
+		name = "근대화 개수",
+		descrip = "개조(근대화 개수) 완료, 대공 +35, 항공 +25\n개조 후 <color=#92fc63>[1번 장비 슬롯에 전투기 장착 가능]</color><color=#92fc63> [2번 장비 슬롯에 임의의 함재기 장착 가능]</color>",
 		max_level = 1,
 		skin_id = 506029,
 		use_ship = 1,
@@ -44708,7 +44708,7 @@ pg.base.transform_data_template = {
 	},
 	[57912] = {
 		level_limit = 90,
-		name = "战术启发",
+		name = "전술 계발",
 		descrip = "习得技能【】",
 		max_level = 1,
 		skin_id = 0,

@@ -4488,8 +4488,8 @@ pg.backyard_theme_template = {
 	},
 	[118] = {
 		Cfg_1 = 5,
-		name = "踏雪寻梅 ",
-		desc = "踏雪寻梅，共赏春光~ ",
+		name = "답설심매",
+		desc = "눈을 밟고 매화를 찾으며, 봄의 숨결을 만끽하자.",
 		deblocking = 1,
 		new = 1,
 		hot = 1,

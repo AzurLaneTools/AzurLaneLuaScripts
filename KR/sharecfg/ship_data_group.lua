@@ -5359,19 +5359,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트 : 샌드 플레이",
+				"이벤트: 샌드플레이",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -5632,19 +5641,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트 : 샌드 플레이",
+				"이벤트: 샌드플레이",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -7027,19 +7045,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트 : 샌드 플레이",
+				"이벤트: 샌드플레이",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -7229,19 +7256,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트：격주의 폴라리스",
+				"이벤트: 격주의 폴라리스",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -7957,19 +7993,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트 : 샌드 플레이",
+				"이벤트: 샌드플레이",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -8143,9 +8188,29 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 격창의 유니버스",
+				"이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			}
@@ -9002,19 +9067,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트 : 샌드 플레이",
+				"이벤트: 샌드플레이",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -10316,9 +10390,29 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 격창의 유니버스",
+				"이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			}
@@ -12389,19 +12483,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"기간 한정 건조",
+				"이벤트: 기간 한정 건조",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -13240,9 +13343,29 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 격창의 유니버스",
+				"이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			}
@@ -15323,19 +15446,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 디바인 트래지코미디",
+				"이벤트: 디바인 트레지코미디",
 				{
 					""
 				},
 				0
 			},
 			{
-				"특형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -16222,19 +16354,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 빛나는 벚꽃의 그림자",
+				"이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -17209,19 +17350,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 빛나는 벚꽃의 그림자",
+				"이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -17709,19 +17859,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 빛나는 벚꽃의 그림자",
+				"이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -18980,19 +19139,18 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 빛나는 벚꽃의 그림자",
+				"이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"특별 보급(랜덤 출현)",
 				{
-					"GETBOAT",
+					"SHOP",
 					{
-						projectName = "light",
-						page = 1
+						warp = "supplies"
 					}
 				},
 				0
@@ -20537,19 +20695,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 빛나는 벚꽃의 그림자",
+				"이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -20845,19 +21012,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 빛나는 벚꽃의 그림자",
+				"이벤트: 빛나는 벚꽃의 그림자",
 				{
 					""
 				},
 				0
 			},
 			{
-				"특형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -21091,19 +21267,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트：격주의 폴라리스",
+				"이벤트: 격주의 폴라리스",
 				{
 					""
 				},
 				0
 			},
 			{
-				"특형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "special",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -21373,9 +21558,29 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 격창의 유니버스",
+				"이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			}
@@ -23404,19 +23609,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트：격주의 폴라리스",
+				"이벤트: 격주의 폴라리스",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조、특형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -24728,9 +24942,39 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트：최고의 보물",
+				"이벤트: 최고의 보물",
 				{
 					""
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
+				},
+				0
+			},
+			{
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"특별 보급(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -25161,9 +25405,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 정신 없는 환창이네",
+				"이벤트: 정신없는 환창이네",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25193,9 +25448,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 정신 없는 환창이네",
+				"이벤트: 정신없는 환창이네",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25225,9 +25491,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트:새봄의 모험왕",
+				"이벤트: 새봄의 모험왕",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 상점",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -25257,7 +25533,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：华裳巧展喜事长",
+				"이벤트: 봄맞이 패션 협주곡",
 				{
 					""
 				},
@@ -25289,7 +25565,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：华裳巧展喜事长",
+				"이벤트: 봄맞이 패션 협주곡",
 				{
 					""
 				},
@@ -25321,19 +25597,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"기간 한정 건조",
+				"이벤트: 기간 한정 건조",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -25364,19 +25649,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"기간 한정 건조",
+				"이벤트: 기간 한정 건조",
 				{
 					""
 				},
 				0
 			},
 			{
-				"소형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "light",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -25604,9 +25898,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 정신 없는 환창이네",
+				"이벤트: 정신없는 환창이네",
 				{
 					""
+				},
+				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25636,7 +25941,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：华裳巧展喜事长",
+				"이벤트: 봄맞이 패션 협주곡",
 				{
 					""
 				},
@@ -25668,7 +25973,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：华裳巧展喜事长",
+				"이벤트: 봄맞이 패션 협주곡",
 				{
 					""
 				},
@@ -25700,9 +26005,20 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 정신 없는 환창이네",
+				"이벤트: 정신없는 환창이네",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -25825,9 +26141,19 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 춘절 폭죽",
+				"이벤트: 춘절 폭죽",
 				{
 					""
+				},
+				0
+			},
+			{
+				"코어 상점",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
 				},
 				0
 			}
@@ -26348,19 +26674,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 디바인 트래지코미디",
+				"이벤트: 디바인 트레지코미디",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -26391,19 +26726,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 디바인 트래지코미디",
+				"이벤트: 디바인 트레지코미디",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -26658,19 +27002,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 디바인 트래지코미디",
+				"이벤트: 디바인 트레지코미디",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조",
+				"상점의 대함대 보급에서 획득 가능",
+				{
+					"SHOP",
+					{
+						warp = "guild"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0
@@ -27184,9 +27537,29 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트: 격창의 유니버스",
+				"이벤트: 격창의 유니버스",
 				{
 					""
+				},
+				0
+			},
+			{
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
+				{
+					"GETBOAT",
+					{
+						page = 3
+					}
 				},
 				0
 			}
@@ -29547,19 +29920,28 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"한정 이벤트：격주의 폴라리스",
+				"이벤트: 격주의 폴라리스",
 				{
 					""
 				},
 				0
 			},
 			{
-				"중형함 건조、특형함 건조",
+				"훈장 교환(랜덤 출현)",
+				{
+					"SHOP",
+					{
+						warp = "medal"
+					}
+				},
+				0
+			},
+			{
+				"지원 신청(랜덤 출현)",
 				{
 					"GETBOAT",
 					{
-						projectName = "heavy",
-						page = 1
+						page = 3
 					}
 				},
 				0

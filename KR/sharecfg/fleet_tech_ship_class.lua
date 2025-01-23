@@ -2612,7 +2612,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50207] = {
 		shiptype = 2,
-		name = "海容级",
+		name = "하이롱급",
 		t_level = 1,
 		id = 50207,
 		t_level_1 = 131,
@@ -2623,7 +2623,7 @@ pg.fleet_tech_ship_class = {
 	},
 	[50301] = {
 		shiptype = 3,
-		name = "建武",
+		name = "지엔우",
 		t_level = 1,
 		id = 50301,
 		t_level_1 = 130,

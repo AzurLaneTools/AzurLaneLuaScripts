@@ -20938,7 +20938,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2070] = {
-		param = "等会儿看看我发给你的穿搭参考",
+		param = "스타일링에 참고하라고 보냈으니, 나중에 한가할 때 보세요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -20946,7 +20946,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2071] = {
-		param = "顺便提醒下，你今天服装的细节问题很多，看起来还是有点……",
+		param = "말이 나와서 말인데, 오늘 스타일링에 몇 가지 사소한 문제가 있더군요. 디테일적으로… 음……",
 		ship_group = 50301,
 		type = 1,
 		id = 2071,
@@ -20954,12 +20954,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么不往下说了？"
+				"디테일적으로……? 뭔데?"
 			}
 		}
 	},
 	[2072] = {
-		param = "怎么不往下说了？",
+		param = "디테일적으로……? 뭔데?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -20967,7 +20967,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2073] = {
-		param = "算了，总之不是称赞",
+		param = "음, 별 거 아니에요. 아무튼 칭찬하는 게 아니란 것만 알아두세요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -20975,7 +20975,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2074] = {
-		param = "……细节不止能表现时尚，还会影响气质和个人风格",
+		param = "……스타일링에 있어서 디테일은 패션 뿐만 아니라 그 사람의 기질이나 개성에도 영향을 줘요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -20983,7 +20983,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2075] = {
-		param = "比如，一个小小的饰品就能为整个穿搭提升档次、增加魅力",
+		param = "예를 들면, 사소한 액세서리 하나로도 전체 스타일링에 고급스러움을 더해서 매력을 더욱 끌어낼 수 있죠.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -20991,7 +20991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2076] = {
-		param = "细微之处的意义就是这样体现的，希望你认清这一点",
+		param = "그렇기에 디테일을 살리는 게 중요한 거죠. 이 점을 잘 이해하셨으면 하네요.",
 		ship_group = 50301,
 		type = 1,
 		id = 2076,
@@ -20999,12 +20999,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"认清了不少，之后……"
+				"무슨 말인지 알았어. 앞으로는……"
 			}
 		}
 	},
 	[2077] = {
-		param = "认清了不少，之后会拜托你帮忙注意的",
+		param = "무슨 말인지 알았어. 앞으로는 모자란 부분이 보이면 언제든 알려줘.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21012,7 +21012,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2078] = {
-		param = "我倒是可以帮你，但你自己也要多注意点细节",
+		param = "도와드리는 건 상관없지만, 자기 스스로 깨달을 수 있어야 해요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21020,7 +21020,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2079] = {
-		param = "总是关注全局和整体就会让一切变得中规中矩，没什么新意",
+		param = "너무 전체적인 부분만 신경쓰면, 결국은 평범해지거나 신선미가 떨어지는 스타일링이 되고 말죠.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21028,7 +21028,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2080] = {
-		param = "这一点，就算我不说你也应该是懂的",
+		param = "그 정도는 제가 굳이 말씀드리지 않아도 이미 아시죠?",
 		ship_group = 50301,
 		type = 1,
 		id = 2080,
@@ -21036,16 +21036,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"感谢建议，已经关注到了你的特别交代"
+				"조언해줘서 고마워. 앞으로는 조심할게."
 			},
 			{
 				4,
-				"有所启发，聚焦细节也不错"
+				"덕분에 많이 배웠어. 디테일이 확실히 중요하긴 해."
 			}
 		}
 	},
 	[2081] = {
-		param = "感谢建议，已经关注到了你的特别交代",
+		param = "조언해줘서 고마워. 앞으로는 조심할게.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21053,7 +21053,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2082] = {
-		param = "突破一些固有思路，说不定可以让你眼前一亮",
+		param = "고정관념을 깨부숴서, 꼭 지엔우를 깜짝 놀라게 해줄 거야.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21061,7 +21061,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2083] = {
-		param = "嗯~倒是挺有觉悟",
+		param = "후후… 의욕은 충분하신 것 같네요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21069,7 +21069,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2084] = {
-		param = "或许培养一下，你能发掘出不错的突破点",
+		param = "센스를 갈고 닦으면 예상하지 못한 돌파구를 찾을 수 있을지도 몰라요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21077,7 +21077,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2085] = {
-		param = "找方向的时候可以问我，我会抽时间回答你的问题",
+		param = "방향성을 상실했을 때는 제게 물어보셔도 괜찮지만……",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21085,7 +21085,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2086] = {
-		param = "不过，为了节约时间，你最好能想到一个不错的方向再来问我",
+		param = "되도록 시간을 절약하기 위해서라도, 어느 정도는 스스로 생각해 보고 물어보시면 더욱 좋겠죠?",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21093,7 +21093,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2087] = {
-		param = "有所启发，聚焦细节也不错，是提升整体的重要一环",
+		param = "덕분에 많이 배웠어. 스타일링 전체를 살리려면, 디테일에 집중해야 한다는 거지? 확실히 중요하긴 하네.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21101,7 +21101,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2088] = {
-		param = "……还挺让人意外的",
+		param = "……어머, 좀 놀랍군요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21109,7 +21109,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2089] = {
-		param = "这就是指挥官吗？优先关注的还是整体……",
+		param = "역시 괜히 지휘관을 하고 계신 게 아니네요. 전체를 주안점으로 놓고 생각하시다니……",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21117,7 +21117,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2090] = {
-		param = "那你之后还是继续考虑战略方向的点睛之处吧",
+		param = "지휘관님은 전술 지휘를 하실 때처럼 전체적인 방향성만 고려하세요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21125,7 +21125,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2091] = {
-		param = "服饰相关的细节，我有空会帮你看看的",
+		param = "의상의 세부적인 디테일은 제가 여유가 있을 때 봐드릴 테니까요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21133,7 +21133,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2092] = {
-		param = "休息时间，让我看看你的其他衣饰吧",
+		param = "마침 쉬는 시간이기도 하니, 다른 의상도 좀 봤으면 하는데… 괜찮을까요?",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21141,7 +21141,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2093] = {
-		param = "如果有看起来太没品味的东西，我可以顺手帮你处理一下",
+		param = "만약 센스가 현저히 떨어지는 스타일링이 있다면, 제가 어떻게든 고쳐볼게요.",
 		ship_group = 50301,
 		type = 1,
 		id = 2093,
@@ -21149,12 +21149,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"拜托了"
+				"잘 부탁해."
 			}
 		}
 	},
 	[2094] = {
-		param = "拜托了，一定给我留一套现穿的",
+		param = "부탁 좀 할게. 그래도 한 벌 정도는 남겨줘……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21162,7 +21162,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2095] = {
-		param = "要全部处理的话，我会难为情的",
+		param = "다 거절당하면… 너무 부끄럽잖아……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21170,7 +21170,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2096] = {
-		param = "……放心吧，看完之后我会做处理计划，不会让你难为情的",
+		param = "…걱정하지 마세요. 고친다고 해도 부끄럽지 않게 차근차근 계획을 세워서 할 테니.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21178,7 +21178,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2097] = {
-		param = "你的品味，多少也没有差到那一步！",
+		param = "애초에 당신 센스가 그 정도로 나쁘지도 않고요.",
 		ship_group = 50301,
 		type = 1,
 		id = 2097,
@@ -21186,12 +21186,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"感觉受到了夸奖"
+				"칭찬처럼 들리네."
 			}
 		}
 	},
 	[2098] = {
-		param = "感觉受到了夸奖，虽然穿着制服，也觉得自己时尚了起来",
+		param = "――혹시… 칭찬하는 거야? 그러고 보니 평소 내 옷차림도 조금은 괜찮아진 것 같기도 하고…?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21199,7 +21199,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2099] = {
-		param = "……好吧，还是到时候见吧，记得给我泡好咖啡",
+		param = "……네. 아무튼 조금 있다가 봐요. 커피 준비하는 것도 잊지 마시고요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21207,7 +21207,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2100] = {
-		param = "还在工作？",
+		param = "아직 일하고 계신가요?",
 		ship_group = 50301,
 		type = 1,
 		id = 2100,
@@ -21215,16 +21215,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"只是还在指挥室"
+				"다 끝나고 그냥 앉아 있어."
 			},
 			{
 				2,
-				"还在"
+				"아직 일하는 중이야."
 			}
 		}
 	},
 	[2101] = {
-		param = "只是还在指挥室，工作已经结束了",
+		param = "일은 다 끝나서, 지금은 그냥 집무실에 앉아 있어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21232,7 +21232,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2102] = {
-		param = "哦，那你帮我带一份夜宵吧",
+		param = "어머, 그러면 야식으로 먹을 것 좀 가져다주시겠어요?",
 		ship_group = 50301,
 		type = 1,
 		id = 2102,
@@ -21240,12 +21240,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"看起来是忙饿了"
+				"작업하느라 배고파서 그래?"
 			}
 		}
 	},
 	[2103] = {
-		param = "看起来是忙饿了，你还在工作吗？",
+		param = "작업하느라 배고파서 그래? 아직 안 끝났어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21253,7 +21253,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2104] = {
-		param = "今天的计划被一些琐事打断了，我正在追赶进度",
+		param = "잡다한 볼일로 계획이 조금 틀어져서요. 지금은 만회하려고 노력하는 중이에요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21261,7 +21261,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2105] = {
-		param = "夜宵品类你挑选，我顾不上",
+		param = "야식 종류는 지휘관님이 마음대로 정하셔도 돼요. 지금은 거기까지 신경 쓸 여유가 없어서…",
 		ship_group = 50301,
 		type = 1,
 		id = 2105,
@@ -21269,16 +21269,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"甜品怎么样"
+				"단 건 어때?"
 			},
 			{
 				5,
-				"烧烤怎么样"
+				"느끼한 건 어때?"
 			}
 		}
 	},
 	[2106] = {
-		param = "甜品怎么样，深夜需要一点愉悦的心情",
+		param = "단 건 어때? 밤도 늦었으니 단 거로 피로를 해소하는 것도 좋을 것 같아서.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21286,7 +21286,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2107] = {
-		param = "补充一点糖分，愉悦一下也不错",
+		param = "당분을 보충하면 기분 전환도 될 테니, 나쁘지 않겠네요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21294,7 +21294,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2108] = {
-		param = "选点造型不错的吧，说不定能为我多带来一些灵感",
+		param = "기왕이면 보기 좋은 걸로 골라주세요. 어쩌면 영감이 떠오를 수도 있으니까요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21302,7 +21302,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2109] = {
-		param = "烧烤怎么样，刺激一下",
+		param = "느끼한 건 어때? 조금 자극적인 걸로…",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21310,7 +21310,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2110] = {
-		param = "也好……偏偏你在这方面的选择，我没什么意见",
+		param = "그것도 좋겠네요…… 느끼한 음식은 제가 잘 모르니……",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21318,7 +21318,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2111] = {
-		param = "说不定能让我更精神一点",
+		param = "먹으면 기운이 날 만한 거로 골라주세요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21326,7 +21326,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2112] = {
-		param = "还在，甚至有点停不下来",
+		param = "응, 아직 일하는 중이야. 하다 보니 멈출 수가 없어서.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21334,7 +21334,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2113] = {
-		param = "那就好，停不下来的不止是我就好",
+		param = "어머, 그러시군요. 이 밤중에 저 혼자만 일하는 게 아니어서 다행이에요.",
 		ship_group = 50301,
 		type = 1,
 		id = 2113,
@@ -21342,16 +21342,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"算是同甘共苦的意思？"
+				"이런 걸 두고 「동고동락」이라고 하던가?"
 			},
 			{
 				7,
-				"能一起停下来也不错"
+				"같이 쉬는 것도 나쁘지 않지."
 			}
 		}
 	},
 	[2114] = {
-		param = "算是同甘共苦的意思？",
+		param = "이런 걸 두고 「동고동락」이라고 하던가?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21359,7 +21359,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2115] = {
-		param = "嗯？你觉得工作停不下来，是很辛苦的事情？",
+		param = "그거 분명… 고통과 즐거움을 함께 나눈다는 의미였죠? 지금 업무 때문에 괴로우신가요?",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21367,7 +21367,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2116] = {
-		param = "想要打造完美的时尚，总要付出些什么",
+		param = "완벽한 걸 창조하기 위해서 희생은 필요한 법이랍니다.",
 		ship_group = 50301,
 		type = 1,
 		id = 2116,
@@ -21375,12 +21375,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"不，此刻我甘之如饴"
+				"아니, 오히려 즐기고 있어."
 			}
 		}
 	},
 	[2117] = {
-		param = "不，此刻我甘之如饴，毕竟和你的频率一致",
+		param = "아니, 오히려 즐기고 있는데? 지엔우와 비슷할 정도로 말이야.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21388,7 +21388,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2118] = {
-		param = "……好吧，但愿你是真的这么认为",
+		param = "……그렇군요. 정말 그렇게 생각하시는 거면 좋겠네요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21396,7 +21396,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 8
 	},
 	[2119] = {
-		param = "能一起停下来也不错，如果累了就放松一下吧",
+		param = "같이 쉬는 것도 나쁘지 않지. 피곤하면 잠깐 쉬자.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21404,7 +21404,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2120] = {
-		param = "也是，偶尔还是可以听从一下你的建议的",
+		param = "그래요. 당신 제안을 따르는 것도 나쁘지 않겠어요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21412,7 +21412,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2121] = {
-		param = "其实和你说第一句话的时候……",
+		param = "사실 전 당신에게 메시지를 보낸 시점부터……",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21420,7 +21420,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2122] = {
-		param = "我就已经开始放松了",
+		param = "이미 쉬고 있었답니다.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21428,7 +21428,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2123] = {
-		param = "算了，现在的心情不错",
+		param = "아무튼 지금은 기분이 좋으니…",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21436,7 +21436,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2124] = {
-		param = "等下我们找个地方见面吧，休息一会儿也不错",
+		param = "조금 있다가 어디서 잠깐 보지 않을래요?",
 		ship_group = 50301,
 		type = 1,
 		id = 2124,
@@ -21444,12 +21444,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				9,
-				"地方你来定，我去买夜宵"
+				"어디 갈지는 지엔우가 골라. 야식은 내가 살 테니까."
 			}
 		}
 	},
 	[2125] = {
-		param = "地方你来定，我去买夜宵",
+		param = "어디 갈지는 지엔우가 골라. 야식은 내가 살 테니까.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21457,7 +21457,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2126] = {
-		param = "等下发给你，来之前记得整理一下自己的穿着",
+		param = "나중에 연락할게요. 오기 전에 복장을 잘 갖추고 와주세요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21465,7 +21465,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2127] = {
-		param = "晚间赴约，要更注意自己的格调哦~",
+		param = "밤에 하는 데이트는 낮보다 더 격조가 높으니까요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21473,7 +21473,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 9
 	},
 	[2128] = {
-		param = "我明天安排了一些空余时间给你",
+		param = "내일은 당신을 위해 조금 시간을 비워뒀어요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21481,7 +21481,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2129] = {
-		param = "提示一下：时间不短",
+		param = "힌트를 주자면…… 「꽤 오래」요.",
 		ship_group = 50301,
 		type = 1,
 		id = 2129,
@@ -21489,12 +21489,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是准备出去吗？"
+				"같이 어디 가려고?"
 			}
 		}
 	},
 	[2130] = {
-		param = "是准备出去吗？难得你会安排很长的空余时间",
+		param = "같이 어디 가려고? 지엔우가 그렇게 오랫동안 시간을 비워두다니 별일이네.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21502,7 +21502,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2131] = {
-		param = "你来我这里吧，有件比较重要的事情需要你参与",
+		param = "아무튼 이쪽으로 일단 와주시겠어요? 잠깐 당신이 참여해 줬으면 하는 게 있어서요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21510,7 +21510,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2132] = {
-		param = "哦，来的时候记得带那件衣服",
+		param = "아, 오실 때는 「그 옷」을 가지고 와주세요.",
 		ship_group = 50301,
 		type = 1,
 		id = 2132,
@@ -21518,16 +21518,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"你觉得缺少品味的那件？"
+				"센스가 모자라다고 말한 그 옷?"
 			},
 			{
 				3,
-				"你觉得还不错的那件？"
+				"잘 입었다고 한 옷?"
 			}
 		}
 	},
 	[2133] = {
-		param = "是你觉得：“多少缺了点品味，没有任何时尚感可言”的那件？",
+		param = "얼마 전에 지엔우가 센스가 모자라다며, 전혀 근사하지 않다고 했던 그 옷?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21535,7 +21535,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2134] = {
-		param = "这次不然先忍忍？毕竟是制服……",
+		param = "그건 제복이잖아… 나도 어쩔 수 없다고…",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21543,7 +21543,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2135] = {
-		param = "……是你的品味提升了，还是我最近帮你调整得太多了？",
+		param = "……지휘관님의 센스가 좋아진 건지, 제가 너무 자주 도와드려서 그런 건지……",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21551,7 +21551,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2136] = {
-		param = "难道被我评价为没品的衣服只有制服了吗？",
+		param = "센스가 없다고 한 소리 듣는 옷이 이제는 제복뿐이네요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21559,7 +21559,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2137] = {
-		param = "好吧，也算是相对完美的发展",
+		param = "뭐, 어찌 보면 완벽에 가까워졌다고 할 수 있겠어요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21567,7 +21567,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2138] = {
-		param = "你觉得还不错的那件？等等——近期的评价似乎都挺好",
+		param = "지엔우가 얼마 전에 잘 입었다고 한 옷? ……음, 그러고 보니 요즘은 웬만하면 괜찮다고 하는 것 같기도……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21575,7 +21575,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2139] = {
-		param = "你夸得我有点飘，忘记具体是哪一件了，能多点提示吗？",
+		param = "어떤 옷이었는지 혹시 더 구체적으로 알려줄 수 있어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21583,7 +21583,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2140] = {
-		param = "……已经有这么多还不错的？",
+		param = "……제가 그렇게 자주 칭찬을 남발했나요?",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21591,7 +21591,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2141] = {
-		param = "之后还是给你更明确一下分类吧",
+		param = "다음에는 확실히 부분별로 평가를 내려드려야겠어요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21599,7 +21599,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2142] = {
-		param = "类似足够时尚、风格不错、细节不错、品味不错……",
+		param = "예를 들면, 멋, 콘셉트, 디테일, 센스……",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21607,7 +21607,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2143] = {
-		param = "还有能够放大你本身魅力的",
+		param = "…그리고 당신의 매력을 최대한으로 끌어내고 있는지 말이죠.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21615,7 +21615,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2144] = {
-		param = "帮你明确一下吧，是我之前亲手给你做的，可以参加宴会的那套",
+		param = "지금 가져와 주셨으면 하는 옷은 얼마 전에 만들어 드린, 파티에 입고 나와도 괜찮겠다고 말씀드린 거예요.",
 		ship_group = 50301,
 		type = 1,
 		id = 2144,
@@ -21623,12 +21623,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我知道了"
+				"그건……"
 			}
 		}
 	},
 	[2145] = {
-		param = "我知道了，那套衣服兼顾时尚与舒适，穿上就不想脱下……",
+		param = "패션과 쾌적함의 양립에 성공해서, 한번 입으면 벗기 싫어지는 그 옷?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21636,7 +21636,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2146] = {
-		param = "已经那么好了，还需要改吗？",
+		param = "이미 충분히 훌륭한 옷인데, 거기서 뭘 더 손보겠다는 거야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21644,7 +21644,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2147] = {
-		param = "……话说得还挺好听，但谁说让你拿来是要改的？",
+		param = "……추켜세우는 건 그 정도만 하세요. 제가 언제 손보겠다고 했나요?",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21652,7 +21652,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2148] = {
-		param = "过段时间我要举办一场时尚晚宴，作为举办人我要给自己设计一套礼服",
+		param = "곧 모항 패션 파티가 열릴 예정이니, 주최자로서 저를 위한 드레스도 다시 만들어야 해서요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21660,7 +21660,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2149] = {
-		param = "重要的是：我的这套礼服，需要参照你那套来完成",
+		param = "그 옷을 참고로 만들 생각이에요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21668,7 +21668,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2150] = {
-		param = "我们的礼服需要相得益彰、相辅相成，展现出属于我们两个人的风格和时尚",
+		param = "당신과 함께 입는 옷이니만큼, 서로의 모자란 부분을 보충하고 더욱 돋보이게 해준다는 콘셉트를 잘 표현해야 해요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21676,7 +21676,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2151] = {
-		param = "所以指挥官，我要正式邀请你",
+		param = "그래서 말인데… 지휘관님, 정식으로 초대하지요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21684,7 +21684,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2152] = {
-		param = "请问你可以作为我的伴侣参加这场晚宴吗？",
+		param = "저의 파트너로서 모항 패션 파티에 함께 참여해 주시겠어요?",
 		ship_group = 50301,
 		type = 1,
 		id = 2152,
@@ -21692,12 +21692,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"很荣幸"
+				"응, 당연하지."
 			}
 		}
 	},
 	[2153] = {
-		param = "很荣幸",
+		param = "응, 당연하지.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21705,7 +21705,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2154] = {
-		param = "不过，相得益彰、相辅相成的或许不止是礼服，还有我们",
+		param = "옷이든 뭐든, 나랑 지엔우가 늘 서로를 보완하고, 더욱 돋보이게 해주는 사이가 되었으면 좋겠어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21713,7 +21713,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2155] = {
-		param = "那……不如你等下休息就来找我吧",
+		param = "그렇군요. 후후… 그러면 쉬기 전에 잠깐 제 쪽으로 오시겠어요?",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21721,7 +21721,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2156] = {
-		param = "我正在量尺寸，一个人测量，可能会不太准",
+		param = "지금 사이즈를 재는 중인데, 아무래도 혼자서는 정확하게 재기가 어려워서요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21729,7 +21729,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2157] = {
-		param = "需要你帮帮忙~",
+		param = "좀 와서 도와주시면 감사하겠네요.",
 		ship_group = 50301,
 		option = "",
 		type = 1,
@@ -21737,7 +21737,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2158] = {
-		param = "今天需要批复的文件已经放在您的桌子上了，我先离开了",
+		param = "오늘 확인해야 하는 서류는 책상에 뒀어. 먼저 가볼게.",
 		ship_group = 50210,
 		type = 1,
 		id = 2158,
@@ -21745,12 +21745,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"你看起来不舒服"
+				"몸은 좀 괜찮아?"
 			}
 		}
 	},
 	[2159] = {
-		param = "你看起来不太舒服，刚刚离开的时候像是发烧了？",
+		param = "아까 보니까 몸 상태가 좀 안 좋은 것 같던데… 어디 아파?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21758,7 +21758,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2160] = {
-		param = "……指挥官，你刚才是不是又盯着我看了很久？",
+		param = "……지휘관, 날 계속 보고 있었어?",
 		ship_group = 50210,
 		type = 1,
 		id = 2160,
@@ -21766,12 +21766,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"因为你的目光过于灼热"
+				"하이롱의 눈빛이 너무 뜨거워서 말이야."
 			}
 		}
 	},
 	[2161] = {
-		param = "因为你的目光太过灼热，我以为你想提醒我工作上的错误，就……",
+		param = "아니, 하이롱의 눈빛이 너무 뜨거워서 말이지. 내가 일하다가 무슨 실수라도 했나 싶어서……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21779,7 +21779,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2162] = {
-		param = "……这就是你总抬头看我的原因？",
+		param = "그래서 날 계속 쳐다봤다고…?",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21787,7 +21787,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2163] = {
-		param = "哼，工作上的事情，你有什么好心虚的",
+		param = "일이랑 관련된 건데, 내가 실수했다고 뭐라고 하겠어?",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21795,7 +21795,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2164] = {
-		param = "我还以为是我犯了什么错，你在欲言又止",
+		param = "오히려 난 내가 무슨 실수를 해서, 그걸 말해줘야 하나 어쩌나 하고 지휘관이 망설이는 줄 알았어.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21803,7 +21803,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2165] = {
-		param = "好吧……还是我不太了解你啦~",
+		param = "하아… 아직은 지휘관이 뭘 생각하는지 잘 모를 때가 많아…",
 		ship_group = 50210,
 		type = 1,
 		id = 2165,
@@ -21811,12 +21811,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"所以，是身体不舒服吗？"
+				"그래서 몸은 괜찮은 거야?"
 			}
 		}
 	},
 	[2166] = {
-		param = "所以，是身体不舒服吗？你的脸当时很红。",
+		param = "그나저나 몸은 괜찮은 거 맞아? 얼굴이 빨갛던데…",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21832,7 +21832,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2168] = {
-		param = "我没有不舒服，只是太热了",
+		param = "딱히 아파서 그런 거 아니야. 그냥…… 좀 더워서 그래.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21840,7 +21840,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2169] = {
-		param = "都怪你啦！",
+		param = "그래, 이건 다 지휘관 너 때문이야!",
 		ship_group = 50210,
 		type = 1,
 		id = 2169,
@@ -21853,7 +21853,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[2170] = {
-		param = "？都怪我？",
+		param = "응? 나 때문이라고?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21861,7 +21861,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2171] = {
-		param = "是的……因为……是这样的……我想想……",
+		param = "그래! 왜냐하면…… 으음…… 이걸 어떻게 설명하지……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21869,7 +21869,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2172] = {
-		param = "您知道吗，据说盯着手心看久了，手心会发烫",
+		param = "손바닥을 계속 쳐다보면 점점 뜨겁게 느껴지는 거…… 알지?",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21877,7 +21877,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2173] = {
-		param = "你盯着我看得那么专注，我的脸当然会发热！",
+		param = "그거랑 똑같아! 그렇게 뚫어져라 쳐다보는데, 몸이 안 뜨거워지고 배겨?",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21885,7 +21885,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2174] = {
-		param = "哼~你不会连这点常识都不知道吧？",
+		param = "설마 그런 상식도 몰랐다고는 하지 않겠지?",
 		ship_group = 50210,
 		type = 1,
 		id = 2174,
@@ -21893,12 +21893,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"似乎不是这样？"
+				"그런 상식이 어디 있어."
 			}
 		}
 	},
 	[2175] = {
-		param = "似乎不是这样？我记得盯着手心发烫是因为注意力集中……",
+		param = "상식…? 난생 처음 들어보는 소리인데… 손바닥이 뜨거워지는 건 집중해서 그런 거 아니야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21906,7 +21906,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2176] = {
-		param = "就是这样啦！肯定是你的潜意识太过专注，才把热度传染给我！",
+		param = "그래! 지휘관이 잠재의식을 너무 집중해서, 그 열기가 나한테 전염된 거야!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21914,7 +21914,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2177] = {
-		param = "……等下，你那么专注在想什么？",
+		param = "……아니, 잠깐. 그때 그렇게 집중하면서 무슨 생각을 한 거야?",
 		ship_group = 50210,
 		type = 1,
 		id = 2177,
@@ -21922,12 +21922,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"除了工作，更多是担心"
+				"일 생각도 했지만, 하이롱 걱정도 했지…"
 			}
 		}
 	},
 	[2178] = {
-		param = "除了工作，更多是担心你的状态，以及你脸红的状态很特别",
+		param = "당연히 일 생각이지만, 하이롱 걱정도 했어… 얼굴이 계속 빨간 게 신경이 쓰여서 말이지.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -21935,7 +21935,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2179] = {
-		param = "什、什么！哪里有特别？！",
+		param = "뭐, 뭐라고?! 방금… 내가 계속 신경이 쓰였다고…?",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21943,7 +21943,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2180] = {
-		param = "我只是觉得你专注的状态让我心跳很快，这才会脸红啦！",
+		param = "난 말이야, 네가 집중하고 있는 모습을 보니까 가슴이 설레어서 얼굴이 빨개진 거야!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21951,7 +21951,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2181] = {
-		param = "……不对",
+		param = "……아니, 잠깐!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21959,7 +21959,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2182] = {
-		param = "我肯定当时喝多了冷水才会心跳加快……",
+		param = "그, 그게 아니라 차가운 물을 너무 많이 마셔서, 심박수가 빨라진 탓에……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21967,7 +21967,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2183] = {
-		param = "哼，总之是你影响到我了！之后如果想看我的话可以提醒我一下",
+		param = "흐, 흥! 아무튼 다 네 잘못이야! 앞으로는 날 보고 싶으면 미리 말해!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21975,7 +21975,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2184] = {
-		param = "我可以大大方方给你看，不会再脸红了！",
+		param = "당당하게 보여주면 얼굴이 붉어질 일도 없겠지!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21983,7 +21983,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2185] = {
-		param = "指挥官，我发现了一个特别有趣的活动",
+		param = "지휘관! 엄청 재밌는 이벤트를 찾아냈어!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21991,7 +21991,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2186] = {
-		param = "据说可以通过你随意画出来的作品洞悉你的内心想法",
+		param = "그림을 그리면, 그걸로 그 사람의 마음을 읽어준대!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -21999,7 +21999,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2187] = {
-		param = "我准备这周的休息时间 一个人 去看看",
+		param = "이번 주 쉬는 날에 가보려고 하는데…",
 		ship_group = 50210,
 		type = 1,
 		id = 2187,
@@ -22007,12 +22007,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"一个人参加活动……"
+				"혼자 가게……?"
 			}
 		}
 	},
 	[2188] = {
-		param = "一个人参加活动……会不会无聊？需要同行的伙伴么？",
+		param = "혼자 가게……? 괜찮아? 같이 가줄까?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22020,7 +22020,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2189] = {
-		param = "既然你都这么说了，要是有空的话，跟我一起去也可以",
+		param = "뭐, 지휘관이 정 원한다면야… 같이 가지, 뭐.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22028,7 +22028,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2190] = {
-		param = "对了，你到时候随便画什么都好，不用练习的",
+		param = "아, 그렇지. 그리는 건 뭐든 상관없으니까, 미리 연습할 필요는 없대.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22036,7 +22036,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2191] = {
-		param = "只要画了，就一定能看到你内心所想！",
+		param = "아무튼 뭐든 그리면 마음속으로 무슨 생각을 하고 있는지 알 수 있어!",
 		ship_group = 50210,
 		type = 1,
 		id = 2191,
@@ -22044,12 +22044,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"……原来是这样啊"
+				"……아하, 그런 거구나."
 			}
 		}
 	},
 	[2192] = {
-		param = "……原来是这样啊，那你画了什么呢？",
+		param = "……아하, 그런 거구나. 그나저나 하이롱은 뭘 그리게?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22057,7 +22057,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2193] = {
-		param = "当然是指",
+		param = "당연히 지……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22065,7 +22065,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2194] = {
-		param = "！……指挥官，你别多想！",
+		param = "지… 지금은 나도 모르겠어…!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22073,7 +22073,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2195] = {
-		param = "你怎么可以随便套话！我只是 曾经 参加过类似的活动！",
+		param = "잠깐! 갑자기 유도신문을 하다니, 너무 치사한 거 아니야?!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22081,7 +22081,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2196] = {
-		param = "这次只是跟你一起去看看……",
+		param = "그렇게 궁금하면 먼저 다녀오지 그래?",
 		ship_group = 50210,
 		type = 1,
 		id = 2196,
@@ -22089,16 +22089,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"那你也要一起参加"
+				"하이롱이랑 같이 가고 싶어."
 			},
 			{
 				4,
-				"难道想知道我内心的想法？"
+				"내가 무슨 생각을 하는지 궁금하지 않아?"
 			}
 		}
 	},
 	[2197] = {
-		param = "那这次的活动你也要一起参加",
+		param = "아니, 갈 거면 하이롱이랑 같이 가고 싶어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22106,7 +22106,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2198] = {
-		param = "我刚好也想了解一下你的内心",
+		param = "평소에 무슨 생각을 하는지 알 수 있는 기회고.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22114,7 +22114,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2199] = {
-		param = "欸？！",
+		param = "뭐?!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22130,7 +22130,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2201] = {
-		param = "你……你想了解什么！",
+		param = "대, 대체 뭘 알아내려는 거야!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22138,7 +22138,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2202] = {
-		param = "哼，我才不会让你轻易看透！",
+		param = "흥! 내가 그렇게 쉽게 속내를 드러낼 것 같아?!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22146,7 +22146,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2203] = {
-		param = "想要探究我的内心……",
+		param = "내 마음속을 알고 싶으면……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22154,7 +22154,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2204] = {
-		param = "你可得足够了解我才行",
+		param = "먼저 나에 대해 더 많이 알아낸 다음에 하라고!",
 		ship_group = 50210,
 		type = 1,
 		id = 2204,
@@ -22162,12 +22162,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"那就休息日见"
+				"아무튼 다음 휴일에 다시 만나자."
 			}
 		}
 	},
 	[2205] = {
-		param = "难道，你想知道我内心的想法？",
+		param = "내가 무슨 생각을 하는지 궁금하지 않아?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22175,7 +22175,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2206] = {
-		param = "你其实可以直接问我",
+		param = "뭐… 굳이 이벤트까지 안 가도, 직접 물어보면 알 수 있을 테지만…",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22183,7 +22183,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2207] = {
-		param = "怎么可能直接问你那种问题啊！",
+		param = "그런 건 물어본다고 알 수 있는 게 아니야!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22191,7 +22191,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2208] = {
-		param = "万一你不在乎我怎么办？！",
+		param = "물어본다고 쳐도, 지휘관이 「난 하이롱한테 별 관심 없는데」라고 대답하면 어떻게 해!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22199,7 +22199,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2209] = {
-		param = "不不不，不是的！",
+		param = "…아, 아니! 내 말은 그게 아니라…!!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22207,7 +22207,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2210] = {
-		param = "就是，大家都想更懂指挥官一些……看看指挥官是否在乎我们的工作",
+		param = "나, 나뿐만 아니라 다른 동료들도… 그러니까 지휘관이 우리가 하는 업무에 관심이 있는지 어떤지 알고 싶은 것뿐이야!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22215,7 +22215,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2211] = {
-		param = "对，工作，我也只是想了解一下……",
+		param = "그래! 이건 다 업무를 위해서야! 그래서 알고 싶은 거라고!",
 		ship_group = 50210,
 		type = 1,
 		id = 2211,
@@ -22223,12 +22223,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"那就休息日见"
+				"아무튼 다음 휴일에 다시 만나자."
 			}
 		}
 	},
 	[2212] = {
-		param = "那就休息日见，看起来参与这场活动，会让我们更加了解彼此",
+		param = "아무튼 서로에 대해 알 수 있는 좋은 기회인 것 같으니까, 다음 휴일에 같이 가보자.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22236,7 +22236,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2213] = {
-		param = "哼，但愿你能更了解我吧",
+		param = "흥, 나에 대해 더 많이 알게 되는 건 상관없지만…",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22244,7 +22244,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2214] = {
-		param = "但我一定会先弄清楚指挥官的内心！",
+		param = "그 전에 꼭 네 마음속도 알아내고 말겠어!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22252,7 +22252,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2215] = {
-		param = "指挥官，我们买的那个情绪感应摆件有反应了！",
+		param = "지휘관, 얼마 전에 같이 산 「감응 오브젝트」에 반응이 왔어!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22260,7 +22260,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2216] = {
-		param = "而且一会儿蓝，一会儿粉，我的现在是橙色~",
+		param = "파란색이 됐다가 분홍색이 됐다가…… 지금은 오렌지색이네.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22268,7 +22268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2217] = {
-		param = "送给你的那个怎么样呢？",
+		param = "지휘관한테 준 건 어때?",
 		ship_group = 50210,
 		type = 1,
 		id = 2217,
@@ -22276,12 +22276,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"我的摆件还是不变色"
+				"내 건 그대로인데……"
 			}
 		}
 	},
 	[2218] = {
-		param = "我的摆件还是不变色，可能因为我取得晚了一点？",
+		param = "딱히 뭐가 변한 것 같지는 않아. 하이롱한테 좀 늦게 받아서 그런가?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22289,7 +22289,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2219] = {
-		param = "之前说是室温下放置2个小时后就可以感应了……",
+		param = "사용 설명서에는 분명 「실온에 두 시간 방치하면 감응한다」고 적혀 있는데……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22297,7 +22297,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2220] = {
-		param = "稍等我问问店家",
+		param = "가게에 직접 물어볼게.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22305,7 +22305,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2221] = {
-		param = "说明：室温下静置2小时后可以正确感应情绪，红色是愤怒等高负面情绪，橙色是惊喜等瞬间情绪，绿色是惬意、平和的情绪，黄色是焦虑，蓝色是忧郁，粉色是心动，其他情绪均在开发中，敬请期待喵。",
+		param = "상품 설명: 실온에 2시간 동안 두면, 감정을 정확히 읽어준다. 빨간색은 분노와 같은 강한 부정적 감정을 나타내고, 오렌지색은 놀라움 등의 순간적인 감정, 녹색은 마음이 놓이는 편안한 감정, 노란색은 불안함, 파란색은 우울, 분홍색은 설렘…… 그 외의 감정 반응 기능은 현재 개발 중. 많은 기대 바란다냥.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22321,7 +22321,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2223] = {
-		param = "她说对于复杂情绪的解析还在开发中，感知不一定准确",
+		param = "복잡한 감정 감지는 아직 개발 중이라서, 늘 정확한 결과가 나오는 건 아니라네.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22329,7 +22329,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2224] = {
-		param = "后面还说情绪是主观概念，说明仅做参考！！",
+		param = "아… 「애초에 감정이란 주관적인 것이므로, 상기 설명은 어디까지나 참고만 할 것」이라고 적혀 있어!",
 		ship_group = 50210,
 		type = 1,
 		id = 2224,
@@ -22337,16 +22337,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"关于你之前的颜色…"
+				"파란색이 됐다가, 분홍색이 됐다가…?"
 			},
 			{
 				3,
-				"关于你现在的颜色…"
+				"지금은 오렌지색이라고 그랬지?"
 			}
 		}
 	},
 	[2225] = {
-		param = "我很好奇，你的情绪为什么一会是蓝色，一会是粉色呢？",
+		param = "조금 신경 쓰이는 부분이 있는데, 파란색이 됐다가 분홍색이 됐다고 했지?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22354,7 +22354,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2226] = {
-		param = "我……在想事情啦！",
+		param = "아, 아마 이런저런 생각을 하다가 그렇게 된 것 같아!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22362,7 +22362,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2227] = {
-		param = "因为不确定你的心情，我也会比较犹豫",
+		param = "지휘관 마음이 어떤지 확신이 안 서니까, 나도 망설일 수밖에 없잖아.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22370,7 +22370,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2228] = {
-		param = "当然，我也不是特意送给你的啦……",
+		param = "그, 그렇다고 그것 때문에 준 건 아니야…",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22378,7 +22378,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2229] = {
-		param = "只是觉得可以知道你的心情很有意思~",
+		param = "그냥 지휘관 마음을 알게 되면 재밌겠다… 싶어서 그런 거야.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22386,7 +22386,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2230] = {
-		param = "那你的情绪现在还是橙色吗？",
+		param = "지금은 오렌지색이라고 그랬지? 아직도 그래?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22394,7 +22394,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2231] = {
-		param = "当然不是啦！",
+		param = "당연히 아니지.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22402,7 +22402,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2232] = {
-		param = "刚刚出现橙色，应该是我觉得能知道你的心情了",
+		param = "방금 오렌지색으로 변한 건, 이제 이걸로 지휘관 마음을 알 수 있겠다 싶어서 그런 거야.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22410,7 +22410,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2233] = {
-		param = "哼~我只是觉得有趣，你可不要乱猜啊",
+		param = "흥, 착각하지 마. 아까도 말했지만 재밌겠다 싶어서 그런 거니까.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22418,7 +22418,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2234] = {
-		param = "奇怪，它突然在莫名其妙地乱变色……",
+		param = "응? 색깔이 또 변하네……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22426,7 +22426,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2235] = {
-		param = "不会坏掉了吧？",
+		param = "설마 고장 난 건가?",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22434,7 +22434,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2236] = {
-		param = "你的摆件还没有反应吗……如果还没有的话就算了，我等下拿去退掉好了",
+		param = "그쪽은 아직도 똑같아? 아무 반응도 없으면 반품하는 편이 좋으려나.",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22442,7 +22442,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2237] = {
-		param = "让大家都知道你的心情也不好……毕竟我只想知道……你对我的真实心情",
+		param = "다들 지휘관의 마음을 알게 되는 것도 사실은 안 내켜…… 나는 그냥… 나에 대한 지휘관의 마음이 궁금했던 거라서…",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22450,7 +22450,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2238] = {
-		param = "……喂！你怎么半天不说话！",
+		param = "……뭐야! 왜 갑자기 아무 말도 안 하는 건데!",
 		ship_group = 50210,
 		type = 1,
 		id = 2238,
@@ -22458,12 +22458,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"我的摆件变颜色了"
+				"색깔이 변했어."
 			}
 		}
 	},
 	[2239] = {
-		param = "我刚刚试了试，摆件一下就变成了橙色",
+		param = "방금 조금 움직이니까, 갑자기 오렌지색으로 변했어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22471,7 +22471,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2240] = {
-		param = "难道是终于放够了两个小时？意外的严谨啊……",
+		param = "이제야 두 시간 방치한 효과가 나오는 건가? 상품 설명서가 틀린 건 아니었네.",
 		ship_group = 50210,
 		type = 1,
 		id = 2240,
@@ -22479,12 +22479,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"也有可能是通过体温判断的"
+				"어쩌면 체온에 반응하는 걸지도 몰라."
 			}
 		}
 	},
 	[2241] = {
-		param = "也有可能是通过体温判断的，刚刚是我第一次碰它",
+		param = "아니, 어쩌면 체온에 반응하는 걸지도 몰라. 방금 살짝 만졌거든.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22492,7 +22492,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2242] = {
-		param = "通过体温的微妙变化来达到相互了解，似乎是个不错的方式！",
+		param = "체온의 미묘한 변화로 서로의 마음을 이해하는 건가…? 나쁘지 않은 방법인데…?",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22500,7 +22500,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2243] = {
-		param = "如果能随时感应体温……",
+		param = "이걸 모항에 여기저기 설치해서 언제든 체온 변화를 감지할 수 있게 해두면……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22508,7 +22508,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2244] = {
-		param = "……不对！！！",
+		param = "이, 이게 아니지…!!!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22516,7 +22516,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2245] = {
-		param = "我觉得这个摆件就足够了！",
+		param = "이런 건 한 개… 아니 두 개만 있으면 충분해!",
 		ship_group = 50210,
 		type = 1,
 		id = 2245,
@@ -22524,12 +22524,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"至少固定的几个颜色不太够？"
+				"잘 생각하면 이거…"
 			}
 		}
 	},
 	[2246] = {
-		param = "想要足够了解彼此，通过几个固定的颜色可能不太够",
+		param = "잘 생각해 보니 이거, 색으로 감정을 표현한다는 게 되게 추상적인 느낌이네…",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22537,7 +22537,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2247] = {
-		param = "还是直接感受体温比较好",
+		param = "체온의 변화 같은 것도 사실 직접 만져보면 알 수 있는 거잖아?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22553,7 +22553,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2249] = {
-		param = "谁？谁要感受你的体温？你可别乱说！",
+		param = "누, 누가 지휘관의 체온이 어떤지 알고 싶대?! 가, 갑자기 무슨 소리야!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22561,7 +22561,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2250] = {
-		param = "我可没有那么随便和人有肌肤之亲！",
+		param = "직접 만져서 확인한다니… 어떻게 그걸 그렇게 아무렇지도 않다는 듯이…?!",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22569,7 +22569,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2251] = {
-		param = "不过……",
+		param = "그래도……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22577,7 +22577,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2252] = {
-		param = "不过……那个人要是你，牵着手感受体温什么的……也不错……",
+		param = "그래도…… 지휘관이라면, 손잡는 것 정도는…… 괜찮기는 해……",
 		ship_group = 50210,
 		option = "",
 		type = 1,
@@ -22585,7 +22585,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2253] = {
-		param = "[1条消息被撤回]",
+		param = "[1건의 메시지 전송이 취소되었습니다]",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22593,7 +22593,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2254] = {
-		param = "[2条消息被撤回]",
+		param = "[2건의 메시지 전송이 취소되었습니다]",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22601,7 +22601,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2255] = {
-		param = "[3条消息被撤回]",
+		param = "[3건의 메시지 전송이 취소되었습니다]",
 		ship_group = 50109,
 		type = 1,
 		id = 2255,
@@ -22609,12 +22609,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"竟然撤回了这么多话"
+				"왜 이렇게 전송 취소를 많이 해…"
 			}
 		}
 	},
 	[2256] = {
-		param = "竟然撤回了这么多话",
+		param = "왜 이렇게 자꾸 취소해…? 무슨 일이야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22622,7 +22622,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2257] = {
-		param = "不会都是些胡言乱语吧",
+		param = "혹시… 스팸인가…?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22630,7 +22630,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2258] = {
-		param = "！！！——谁说是胡言乱语？！",
+		param = "!!! 스팸이라니! 아니야!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22638,7 +22638,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2259] = {
-		param = "都是我对指挥官最真诚的问候",
+		param = "다 지휘관에게 보내는 진심 어린 인사 메시지였다고!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22646,7 +22646,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2260] = {
-		param = "……只是我发的消息很厉害！",
+		param = "……아무튼 내 메시지는 진짜 대단해!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22654,7 +22654,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2261] = {
-		param = "……如果指挥官不诚心看的话就会被撤回！",
+		param = "……지휘관이 제대로 안 읽으면, 자동으로 취소되거든♪",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22670,12 +22670,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"还没见过这样的消息"
+				"그런 메시지도 있어?"
 			}
 		}
 	},
 	[2263] = {
-		param = "还没见过这样的消息，不然问问还有谁收到过？",
+		param = "그런 메시지도 있어? 처음 알았네. 다른 사람도 받아본 적 있나 물어봐야겠다.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22683,7 +22683,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2264] = {
-		param = "欸——别别别！！！",
+		param = "앗! 자, 잠깐!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22691,7 +22691,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2265] = {
-		param = "——只有指挥官你一个人收到了！嘿嘿嘿~",
+		param = "그건 지휘관한테만 보낸 특별한 메시지거든! 헤헤헤~",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22699,7 +22699,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2266] = {
-		param = "三条消息全都是伏波对指挥官的崇拜！",
+		param = "3개 모두 지휘관에 대한 존경하는 마음을 담은 거야!",
 		ship_group = 50109,
 		type = 1,
 		id = 2266,
@@ -22707,12 +22707,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"【对方隐藏了一条消息】"
+				"[메시지 1건이 비공개 처리되었습니다]"
 			}
 		}
 	},
 	[2267] = {
-		param = "【对方隐藏了一条消息】",
+		param = "[메시지 1건이 비공개 처리되었습니다]",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22728,7 +22728,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2269] = {
-		param = "为什么指挥官可以隐藏消息？！",
+		param = "메시지를 숨길 수도 있어?!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22736,7 +22736,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2270] = {
-		param = "——怎么做到的？！",
+		param = "어떻게 하는 거야?",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22744,7 +22744,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2271] = {
-		param = "我怎么找不到隐藏的办法？！",
+		param = "아무리 찾아봐도 그런 기능은 안 보이는데……",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22752,7 +22752,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2272] = {
-		param = "指挥官？指挥官你能看到我的消息吗？",
+		param = "지휘관? 내 메시지 보고 있는 거 맞지?",
 		ship_group = 50109,
 		type = 1,
 		id = 2272,
@@ -22760,12 +22760,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"【对方隐藏了一条消息】"
+				"[메시지 1건이 비공개 처리되었습니다]"
 			}
 		}
 	},
 	[2273] = {
-		param = "【对方隐藏了一条消息】",
+		param = "[메시지 1건이 비공개 처리되었습니다]",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22781,7 +22781,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2275] = {
-		param = "——急急急！指挥官快告诉我啦！",
+		param = "지휘관, 빨리 알려줘!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22789,7 +22789,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2276] = {
-		param = "我发的撤回……其实是自己写的……",
+		param = "사실 방금 보낸 메시지 전송 취소는 내가 그냥 타이핑해서 입력한 거야…!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22797,7 +22797,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2277] = {
-		param = "你告诉我怎么隐藏好吗？",
+		param = "부탁이야! 어떻게 숨기는지 알려줘!",
 		ship_group = 50109,
 		type = 1,
 		id = 2277,
@@ -22805,12 +22805,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"【100条惩罚消息被撤回】"
+				"[100번 혼내주기가 취소되었습니다]"
 			}
 		}
 	},
 	[2278] = {
-		param = "【100条惩罚消息被撤回】",
+		param = "[100번 혼내주기가 취소되었습니다]",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22818,7 +22818,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2279] = {
-		param = "——！！不要惩罚我啊！",
+		param = "으아아! 미안해! 혼내지 마!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22826,7 +22826,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2280] = {
-		param = "我就想试试你的反应嘛——以后不乱发消息就是了！",
+		param = "그냥 지휘관이 어떻게 반응할지 궁금해서 그런 거야! 이젠 이상한 메시지 안 보낼게!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22834,7 +22834,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2281] = {
-		param = "指挥官，我最近日思夜想，饭都顾不上吃——",
+		param = "지휘관! 요즘 밥도 거를 정도로 밤낮으로 계속 고민했는데…",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22842,7 +22842,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2282] = {
-		param = "想到了一个绝妙的点子！",
+		param = "엄청난 아이디어가 떠올랐어!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22850,7 +22850,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2283] = {
-		param = "怎么样，想不想跟我一起恶作剧？！",
+		param = "헤헤헤~ 내 장난에 동참할래?!",
 		ship_group = 50109,
 		type = 1,
 		id = 2283,
@@ -22858,12 +22858,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"详细说说"
+				"어떤 장난인데?"
 			}
 		}
 	},
 	[2284] = {
-		param = "我在听，详细说说",
+		param = "어떤 장난인지부터 듣고…",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22871,7 +22871,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2285] = {
-		param = "咳咳——那你可要看仔细了！",
+		param = "후훗, 어떤 계획인지 잘 봐~!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22879,7 +22879,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2286] = {
-		param = "我在厨房门口假装↓",
+		param = "우선은 내가 주방 입구에서 ↓ 이렇게 하고 있을 거야.",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22895,7 +22895,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2288] = {
-		param = "把长风姐姐骗进厨房后，我们就前后夹击",
+		param = "그 다음에는 창펑 언니를 주방으로 유인해서, 앞뒤에서 협공하는 거야!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22903,7 +22903,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2289] = {
-		param = "指挥官从墙里↓",
+		param = "지휘관은 벽에서 ↓ 이렇게…",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22919,7 +22919,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2291] = {
-		param = "我在她身后↓",
+		param = "나는 뒤에서 ↓ 이렇게!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22935,12 +22935,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"就这些么？"
+				"이게 끝이야?"
 			}
 		}
 	},
 	[2293] = {
-		param = "嗯……就这些么？",
+		param = "음…… 이게 다야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22948,7 +22948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2294] = {
-		param = "是啊……怎么了？",
+		param = "그렇기는 한데…… 왜?",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22956,7 +22956,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2295] = {
-		param = "听上去你顾虑重重，是不愿意从墙里蹦出来的那部分嘛！",
+		param = "아! 벽 뒤에서 뛰어나오는 게 안 내켜서 그래?",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22964,7 +22964,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2296] = {
-		param = "那那那——那指挥官直接说哪里不好！",
+		param = "그, 그게 아니라… 다른 문제라도 있으면 알려줘!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -22972,7 +22972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2297] = {
-		param = "我这么聪明~肯定会找的解决办法的！",
+		param = "나는 똑똑하니까 뭐든 해결할 수 있어!",
 		ship_group = 50109,
 		type = 1,
 		id = 2297,
@@ -22980,12 +22980,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"行动情报太少了"
+				"정보가 너무 부족한데…"
 			}
 		}
 	},
 	[2298] = {
-		param = "关于行动本身的情报太少了，还有其他同伙参与么？",
+		param = "그보다 정보가 너무 부족한데…… 우리 말고 다른 동료는 없어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -22993,7 +22993,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2299] = {
-		param = "当然没有——",
+		param = "당연히 없지!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23001,7 +23001,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2300] = {
-		param = "恶！作！剧！肯定是人越少，越好逃！",
+		param = "장난은 말이지, 되도록 적은 인원으로 해야 해! 그래야 도망가기 쉽거든!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23009,7 +23009,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2301] = {
-		param = "唔——倒也不是逃跑……",
+		param = "아…… 그게 아니라……",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23017,7 +23017,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2302] = {
-		param = "嗯！是要享受成功的喜悦！",
+		param = "그래! 성공했을 때 기쁨이 더 커지는 법이지!",
 		ship_group = 50109,
 		type = 1,
 		id = 2302,
@@ -23025,12 +23025,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那行动时间呢？"
+				"그래서 결행 시간은…?"
 			}
 		}
 	},
 	[2303] = {
-		param = "准备几点开始这次的恶作剧呢？",
+		param = "그래서 장난은 언제 결행하려고?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23038,7 +23038,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2304] = {
-		param = "暂定在一小时后！",
+		param = "음… 계획대로면 1시간 뒤야!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23046,7 +23046,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2305] = {
-		param = "怎么样，情报足够了么？",
+		param = "어때? 정보는 이 정도면 충분해?",
 		ship_group = 50109,
 		type = 1,
 		id = 2305,
@@ -23054,12 +23054,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"足够了，我都记下了"
+				"충분해. 다 기억했어."
 			}
 		}
 	},
 	[2306] = {
-		param = "足够了，我都记下了",
+		param = "충분해. 다 기억했어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23067,7 +23067,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2307] = {
-		param = "嘿嘿~虽然我已经做好了计划——但如果——",
+		param = "헤헤헤~ 내 계획은 완벽해! 그래도…!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23075,7 +23075,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2308] = {
-		param = "指挥官还有什么想法的话！",
+		param = "만약 지휘관한테 다른 좋은 생각이 있으면…!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23083,7 +23083,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2309] = {
-		param = "哼哼~聪明如我，可以立刻帮你加进去的！",
+		param = "이 똑똑한 푸보가 계획에 추가해 줄게!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23091,7 +23091,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2310] = {
-		param = "然后就是——我和指挥官一起计划！一起完成的恶作剧了！",
+		param = "그러면 이 장난은 나랑 지휘관이 함께 계획해서 함께 성공시킨 장난이 되는 거지!",
 		ship_group = 50109,
 		type = 1,
 		id = 2310,
@@ -23099,12 +23099,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"你已经在厨房了吗？"
+				"지금은 주방이야?"
 			}
 		}
 	},
 	[2311] = {
-		param = "你已经在厨房了吗？",
+		param = "지금은 주방이야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23112,7 +23112,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2312] = {
-		param = "当然~要提前踩点的嘛",
+		param = "당연하지! 사전 답사는 중요하니까!",
 		ship_group = 50109,
 		type = 1,
 		id = 2312,
@@ -23120,12 +23120,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好"
+				"좋아. 기다려ーー"
 			}
 		}
 	},
 	[2313] = {
-		param = "好，我一会和长风一起过去",
+		param = "좋아. 조금만 기다려. 지금 창펑이랑 가는 중이니까.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23141,7 +23141,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2315] = {
-		param = "等下————",
+		param = "잠깐만…",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23149,7 +23149,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2316] = {
-		param = "没有————",
+		param = "아니, 아니야! 잘못 말했어!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23157,7 +23157,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2317] = {
-		param = "我不在！！！！",
+		param = "나 지금 주방 아니야!!!!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23165,7 +23165,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2318] = {
-		param = "你不要过来啊！！QAQ！！！",
+		param = "오지 마!!! QAQ!!!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23173,7 +23173,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2319] = {
-		param = "我有一个灵感！准备先告诉指挥官~",
+		param = "엄청난 아이디어가 떠올랐어! 궁금하면 알려줄 수도 있는데, 어때?",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23189,12 +23189,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"请分享，可参与"
+				"알려주면 도와줄 수도 있어."
 			}
 		}
 	},
 	[2321] = {
-		param = "请放心分享，可积极参与",
+		param = "알려주면 도와줄 수도 있어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23202,7 +23202,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2322] = {
-		param = "——？只是灵感！！还不能用呢！！",
+		param = "응? 아직 아이디어 단계야! 작전 계획은 지금부터 세워야 해!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23210,7 +23210,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2323] = {
-		param = "——————略略略！！",
+		param = "으헤헤헤!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23218,7 +23218,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2324] = {
-		param = "聪明如我~已经猜到指挥官的坏心眼了——！",
+		param = "후보는 말이지~ 너무 똑똑해서 지휘관에 대한 거라면 뭐든 알고 있거든!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23226,7 +23226,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2325] = {
-		param = "这次——我是来向指挥官请教的！",
+		param = "그래서 이번에는 지휘관한테 조언을 얻으려고 왔어!",
 		ship_group = 50109,
 		type = 1,
 		id = 2325,
@@ -23234,16 +23234,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"那灵感是什么？"
+				"그나저나 아이디어란 건 뭔데?"
 			},
 			{
 				3,
-				"灵感来自哪里？"
+				"영감은 어디서 얻었어?"
 			}
 		}
 	},
 	[2326] = {
-		param = "那灵感是什么？",
+		param = "그나저나 아이디어란 건 뭔데?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23251,7 +23251,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2327] = {
-		param = "手电筒！",
+		param = "바로 손전등이야!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23259,7 +23259,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2328] = {
-		param = "我准备用手电筒干一件大事！",
+		param = "손전등을 활용해서 화려하게 저질러 볼 생각이라는 거지!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23267,7 +23267,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2329] = {
-		param = "嘿嘿，这场表演，肯定超级有趣——！",
+		param = "헤헤~ 다들 놀라서 뒤집어지겠지!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23275,7 +23275,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2330] = {
-		param = "哈哈……指挥官会帮我想一场表演的吧~",
+		param = "그래서 말인데…… 뭐 좋은 연출 아이디어 없을까?",
 		ship_group = 50109,
 		type = 1,
 		id = 2330,
@@ -23283,12 +23283,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那你为什么要先告诉我？"
+				"왜 먼저 알려준 거야?"
 			}
 		}
 	},
 	[2331] = {
-		param = "这个灵感是怎么来的呢？",
+		param = "영감은 어디서 얻었어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23296,7 +23296,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2332] = {
-		param = "嘿嘿嘿，是你带我看电影的时候发觉的~",
+		param = "헤헤헤, 지휘관이 영화관에 데려다줬을 때 생각났지~",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23304,7 +23304,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2333] = {
-		param = "没想到吧——",
+		param = "전혀 몰랐지?",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23312,7 +23312,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2334] = {
-		param = "要不是我注意观察！怎么会有这么棒的主意！",
+		param = "내가 잘 안 봤으면, 이렇게 좋은 아이디어를 떠올리지도 못했겠지!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23320,7 +23320,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2335] = {
-		param = "嘿嘿嘿，灵感，灵感~",
+		param = "헤헤헤, 정말 푸보는 대단하다니까!",
 		ship_group = 50109,
 		type = 1,
 		id = 2335,
@@ -23328,12 +23328,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"那你为什么要先告诉我？"
+				"왜 먼저 알려준 거야?"
 			}
 		}
 	},
 	[2336] = {
-		param = "那你为什么要先告诉我？",
+		param = "왜 먼저 알려준 거야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23341,7 +23341,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2337] = {
-		param = "其中必然有诈",
+		param = "뭐 또 숨기는 게 있지?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23349,7 +23349,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2338] = {
-		param = "没有——！！",
+		param = "그런 거 없어!!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23357,7 +23357,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2339] = {
-		param = "指挥官你不信任我！（打滚，哼唧唧，捶你捶你！）",
+		param = "왜 날 안 믿는 거야! °･(((p( □ )q)))･° 너무해!!!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23365,7 +23365,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2340] = {
-		param = "我只是想让指挥官帮我扩展一下思路！（哭唧唧，期盼着看向指挥官）",
+		param = "생각의 폭을 넓히는 걸 좀 도와달라는 건데! (｡இ﹏இ｡) 흑흑…",
 		ship_group = 50109,
 		type = 1,
 		id = 2340,
@@ -23373,16 +23373,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"你正常点，我害怕"
+				"무서우니까, 진정해."
 			},
 			{
 				6,
-				"（勾唇笑）"
+				"어디 날 속이려고… ( ´,_ゝ｀)"
 			}
 		}
 	},
 	[2341] = {
-		param = "你正常点，我害怕",
+		param = "무서우니까, 진정해.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23390,7 +23390,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2342] = {
-		param = "嘿嘿~(＾－＾)V",
+		param = "헤헤~ (＾－＾)V",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23398,7 +23398,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2343] = {
-		param = "好啊，小调皮（勾唇笑、伸手点了点伏波的小脑袋）",
+		param = "어디 날 속이려고! ( ´,_ゝ｀) σ\")`-' ) 찌르기 공격!",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23414,7 +23414,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2345] = {
-		param = "我输了——我错了——我有罪——我放弃——",
+		param = "내가 졌어! 내가 나빴어! 미안…! 이제 안 할게!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23422,7 +23422,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2346] = {
-		param = "那指挥官，天黑之后我来找你可以吗？",
+		param = "지휘관, 어두워 지면 이쪽으로 와 줄래?",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23430,7 +23430,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2347] = {
-		param = "我只是找你拓展灵感啦！",
+		param = "아까도 말했다시피 생각의 폭을 넓히려는 것뿐이야!",
 		ship_group = 50109,
 		type = 1,
 		id = 2347,
@@ -23438,12 +23438,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"可以，但是不能恶作剧"
+				"상관없지만, 장난치면 바로 돌아갈 거야."
 			}
 		}
 	},
 	[2348] = {
-		param = "可以，但是不能恶作剧",
+		param = "상관없지만, 장난치면 바로 돌아갈 거야.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23451,7 +23451,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2349] = {
-		param = "欸——？那我岂不是白准备了？！",
+		param = "뭐…?! 그, 그럼 내가 준비한 건… 어떻게 하지…?!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23459,7 +23459,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2350] = {
-		param = "没有没有……其实……我准备的是惊喜啦！",
+		param = "아…… 사실…… 지휘관을 위해서 서프라이즈를 준비했거든!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23467,7 +23467,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2351] = {
-		param = "指挥官在光影中，一定会被吓到很开心的！",
+		param = "깜짝 놀라기야 하겠지만… 그래도 엄청 재밌을 거야!",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23475,7 +23475,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2352] = {
-		param = "！！！是——很开心的！嘿嘿嘿~",
+		param = "내가 보증할게!!! 헤헤헤~",
 		ship_group = 50109,
 		option = "",
 		type = 1,
@@ -23483,7 +23483,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2353] = {
-		param = "指挥官……",
+		param = "지휘관님……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23491,7 +23491,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2354] = {
-		param = "那个……我有一件事情，想要告诉你……",
+		param = "저기…… 드릴 말씀이 있는데요……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23499,7 +23499,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2355] = {
-		param = "其实没有那么严肃，只是我……有一点忍不住……",
+		param = "그, 그렇게 중요한 건 아니지만…… 조금 신경 쓰이는 부분이 있어서……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23515,16 +23515,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"是注意到有哪里没打扫干净么？"
+				"청소가 덜 된 곳이라도 찾은 거야?"
 			},
 			{
 				2,
-				"是我的衣服上有污渍么？"
+				"내 옷에 뭐가 묻었어?"
 			}
 		}
 	},
 	[2357] = {
-		param = "是注意到有哪里没打扫干净么？",
+		param = "청소가 덜 된 곳이라도 찾은 거야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23532,7 +23532,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2358] = {
-		param = "……那个，其实……",
+		param = "그걸 따지자면……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23540,7 +23540,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2359] = {
-		param = "其实……在我眼中，是处处都没有很干净啦……",
+		param = "제 기준에서는 어딜 봐도 청소가 덜 된 느낌이긴 해요……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23548,7 +23548,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2360] = {
-		param = "但这个不要紧，只要我看到了，就会让那里干净整洁",
+		param = "그래도 괜찮아요! 그런 곳이 보일 때마다 바로 깨끗하게 만들어 주면 그만이니까요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23556,7 +23556,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2361] = {
-		param = "是我的衣服上有污渍么？我没有注意到？",
+		param = "내 옷에 뭐가 묻었어? 내가 볼 때는 잘 모르겠는데……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23564,7 +23564,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2362] = {
-		param = "不是啦……指挥官是否干净整洁我一定会注意的",
+		param = "아뇨…… 지휘관님의 차림새는 항상 제가 신경 써서 돌보고 있으니 문제없어요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23572,7 +23572,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2363] = {
-		param = "即使您不说，我也会帮您两天收一次换洗衣服",
+		param = "딱히 부탁하지 않으셔도, 이틀에 한 번씩은 세탁물을 회수하고 있고요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23580,7 +23580,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2364] = {
-		param = "不论什么污渍，就算衣服还穿在您的身上",
+		param = "어떤 더러움이든, 그것이 설령 지금 입고 계신 옷이라고 해도…",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23588,7 +23588,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2365] = {
-		param = "我都有办法解决！",
+		param = "해결할 수 있어요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23596,7 +23596,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2366] = {
-		param = "……虽然是大家都不是很在意的问题",
+		param = "아마 저한테만 신경 쓰이는 문제일 것 같은데……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23604,7 +23604,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2367] = {
-		param = "但是……如果您同意的话",
+		param = "만약 지휘관님만 괜찮으시다면……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23612,7 +23612,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2368] = {
-		param = "我帮您准备一双专门在指挥室内穿的鞋子吧？",
+		param = "집무실 전용 신발을 마련해 드릴까 하는데요……",
 		ship_group = 50108,
 		type = 1,
 		id = 2368,
@@ -23620,12 +23620,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"好啊，如果不麻烦的话"
+				"나야 좋지! 창펑만 번거롭지 않으면……"
 			}
 		}
 	},
 	[2369] = {
-		param = "好啊，如果不麻烦的话",
+		param = "나야 좋지! 창펑만 번거롭지 않으면……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23633,7 +23633,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2370] = {
-		param = "真的吗……指挥官答应了？当然不麻烦了！",
+		param = "저, 정말요……?! 번거롭다니요! 전혀요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23649,12 +23649,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不过……"
+				"그래도……"
 			}
 		}
 	},
 	[2372] = {
-		param = "不过……如果我遇到了着急的事情，或许会忘记换",
+		param = "그래도…… 너무 바쁠 때는 갈아 신는 건 깜빡할 수도 있어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23662,7 +23662,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2373] = {
-		param = "没关系的！",
+		param = "괜찮아요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23670,7 +23670,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2374] = {
-		param = "就算你忘记了，回来的时候我也会帮忙清理的",
+		param = "깜빡하셔도 다시 돌아오시면 제가 깨끗하게 만들어 드릴게요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23678,7 +23678,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2375] = {
-		param = "我制作了可以强力去污，但不会伤害鞋子本身的清洗剂",
+		param = "신발을 손상하지 않고 찌든 때만 깨끗하게 지워주는 강력한 세정제도 만들었거든요!",
 		ship_group = 50108,
 		type = 1,
 		id = 2375,
@@ -23686,12 +23686,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"这么厉害"
+				"대단한데…"
 			}
 		}
 	},
 	[2376] = {
-		param = "这么厉害，分享一下清洗剂秘方吧？",
+		param = "대단한데… 어떻게 만드는지 나도 알고 싶어!",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23699,7 +23699,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2377] = {
-		param = "唔……这是我的秘密配方，不太好说~",
+		param = "음…… 그건 비밀이라, 알려드리기 어렵지만……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23707,7 +23707,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2378] = {
-		param = "不过使用方式我可以给指挥官详细解说",
+		param = "사용법이라면 얼마든지 자세하게 알려드릴 수 있어요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23715,7 +23715,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2379] = {
-		param = "等下你回来了，我手把手教你来用吧！",
+		param = "돌아가면 바로 알려드릴게요♪",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23723,7 +23723,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2380] = {
-		param = "指挥官，我遇到了一点小麻烦……",
+		param = "지휘관님, 죄송해요. 조금 문제가 생겨서……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23731,7 +23731,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2381] = {
-		param = "可能会晚一点帮你整理指挥室",
+		param = "집무실 정리가 조금 늦어질 것 같아요.",
 		ship_group = 50108,
 		type = 1,
 		id = 2381,
@@ -23739,12 +23739,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"怎么了？需要帮忙么？"
+				"왜 그래? 무슨 일이야?"
 			}
 		}
 	},
 	[2382] = {
-		param = "怎么了？需要帮忙么？",
+		param = "왜 그래? 무슨 일이야?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23752,7 +23752,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2383] = {
-		param = "没关系的，指挥官放心，只是我的围裙破了",
+		param = "심각한 건 아니에요. 그냥 앞치마가 찢어진 것뿐인데……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23760,7 +23760,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2384] = {
-		param = "麻烦的是——",
+		param = "하필이면 난감하게도…",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23768,7 +23768,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2385] = {
-		param = "备用的10条围裙，也在“刚刚”被飞云和伏波全部弄脏）",
+		param = "예비용으로 마련해 둔 앞치마 10벌까지 조금 전에 페이윈과 푸보 때문에 몽땅 더러워지고 말았어요……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23776,7 +23776,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2386] = {
-		param = "不过，洗衣机马上就会洗好两条了，烘干速度很快的",
+		param = "그래도 세탁기로 두 벌은 빨아뒀으니, 조금만 있으면 다 마를 것 같아요.",
 		ship_group = 50108,
 		type = 1,
 		id = 2386,
@@ -23784,16 +23784,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"还有8条……"
+				"그럼 나머지 8벌도……"
 			},
 			{
 				3,
-				"围裙怎么破了？"
+				"앞치마는 어쩌다 찢어진 거야…?"
 			}
 		}
 	},
 	[2387] = {
-		param = "还有8条……也要处理吧，如果是污渍，得快点洗掉",
+		param = "나머지 8벌도 빨아야 하는 거 아니야? 더러워지고 바로 빨아야 깨끗해질 텐데……",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23801,7 +23801,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2388] = {
-		param = "嗯嗯，她们两个正在努力呢 ）",
+		param = "그렇죠. 그건 페이윈이랑 푸보가 지금 열심히 빨고 있어요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23809,7 +23809,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2389] = {
-		param = "总要创造机会学习做家务……",
+		param = "가사 노동을 배울 좋은 기회다 싶어서요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23817,7 +23817,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2390] = {
-		param = "这样也不错，家务总是需要大家一起承担的嘛",
+		param = "가끔은 이러는 것도 나쁘지 않네요. 가사 노동은 원래 다 함께 분담하는 거잖아요?",
 		ship_group = 50108,
 		type = 1,
 		id = 2390,
@@ -23825,12 +23825,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不然再买一条围裙吧？"
+				"새로 앞치마를 사는 건 어때?"
 			}
 		}
 	},
 	[2391] = {
-		param = "围裙怎么破了，没有受伤吧？",
+		param = "두 사람의 장난은 그렇다 쳐도, 앞치마는 어쩌다 찢어진 거야…? 다친 건 아니지?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23838,7 +23838,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2392] = {
-		param = "谢谢指挥官，我没有受伤",
+		param = "걱정을 끼쳐 죄송해요… 다친 곳은 없어요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23846,7 +23846,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2393] = {
-		param = "围裙……其实是……",
+		param = "사실……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23854,7 +23854,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2394] = {
-		param = "说来惭愧，今天早上的事情有点多，我匆匆忙忙的……",
+		param = "부끄럽지만, 오늘 아침에 조금 정신이 없어서……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23862,7 +23862,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2395] = {
-		param = "跑出门的时候……围裙挂在了门把手上……就……",
+		param = "서둘러서 밖으로 나가다가…… 앞치마가 문손잡이에 걸려서 찢어지고 말았어요……",
 		ship_group = 50108,
 		type = 1,
 		id = 2395,
@@ -23870,12 +23870,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"不然再买一条围裙吧？"
+				"새로 앞치마를 사는 건 어때?"
 			}
 		}
 	},
 	[2396] = {
-		param = "既然围裙破了的话，不然再买一条？",
+		param = "그렇구나, 이 기회에 새로 앞치마를 사는 건 어때?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23883,7 +23883,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2397] = {
-		param = "长风小姐的围裙是维护洁净空间的重要道具",
+		param = "창펑한테 앞치마는 청결한 공간을 유지하는 데 꼭 필요한 아이템이잖아?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23899,7 +23899,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2399] = {
-		param = "好呀，新买一条也不错",
+		param = "맞아요. 새로운 걸 사는 것도 괜찮겠네요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23907,7 +23907,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2400] = {
-		param = "指挥官有什么建议吗？",
+		param = "지휘관님, 어떤 걸 사는 게 좋을까요?",
 		ship_group = 50108,
 		type = 1,
 		id = 2400,
@@ -23915,16 +23915,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"带小猫图案的"
+				"고양이가 그려진 앞치마는 어때?"
 			},
 			{
 				6,
-				"质地特殊的"
+				"특수한 재료로 만들어진 건?"
 			}
 		}
 	},
 	[2401] = {
-		param = "带着小猫图案的",
+		param = "고양이가 그려진 앞치마는 어때?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23932,7 +23932,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2402] = {
-		param = "两只",
+		param = "기왕이면 두 마리가 그려져 있는 걸로!",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23940,7 +23940,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2403] = {
-		param = "嘿嘿~指挥官的意见很好",
+		param = "지휘관님, 좋은 아이디어예요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23948,7 +23948,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2404] = {
-		param = "如果你喜欢这种围裙的话，我可以自己做一条",
+		param = "고양이를 좋아하시는 모양이니, 제가 다음에 직접 만들어 볼게요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23956,7 +23956,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2405] = {
-		param = "质地特殊，能够抵御团伙作案",
+		param = "특수한 재료로 만들어진 건 어때? 누가 어떤 장난을 쳐도 끄떡도 안 할 만한 거로.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -23964,7 +23964,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2406] = {
-		param = "哈哈，是个不错的建议",
+		param = "후훗, 확실히 괜찮은 아이디어네요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23972,7 +23972,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2407] = {
-		param = "抵御团伙作案也一定能好好抵御污渍的",
+		param = "그 정도면 사소한 오염 정도는 확실하게 막아 주겠죠.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23980,7 +23980,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2408] = {
-		param = "这样就完全不用担心会弄脏裙子了",
+		param = "치마가 더러워질 걱정도 사라지겠어요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23988,7 +23988,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2409] = {
-		param = "嘿嘿，我的围裙就快干啦",
+		param = "슬슬 앞치마가 다 마르겠네요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -23996,7 +23996,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2410] = {
-		param = "指挥官，等我过来吧~",
+		param = "지휘관님, 조금만 더 기다리세요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24004,7 +24004,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2411] = {
-		param = "指挥官~之前商量好休息日你会过来找我",
+		param = "지휘관님, 얼마 전에 제가 다음 휴일에 와주실 수 있냐고 말씀드렸죠?",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24012,7 +24012,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2412] = {
-		param = "我想提前做一些准备~",
+		param = "그거랑 관련해서 미리 준비해 두고 싶은 게 있는데……",
 		ship_group = 50108,
 		type = 1,
 		id = 2412,
@@ -24020,16 +24020,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"和什么有关的准备？"
+				"준비?"
 			},
 			{
 				2,
-				"一切都听你的安排"
+				"뭐든 다 좋아."
 			}
 		}
 	},
 	[2413] = {
-		param = "和什么有关的准备？",
+		param = "준비? 무슨?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24037,7 +24037,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2414] = {
-		param = "我说不定能提前准备好？",
+		param = "내가 도와줄 수 있는 거면 얼마든지 도와줄게.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24045,7 +24045,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	[2415] = {
-		param = "其实是您到了之后，能为您提供“家”的感觉的物件~",
+		param = "음… 집에 있는 듯한 편안한 느낌을 낼 수 있는 걸 준비하려고 하는데요…",
 		ship_group = 50108,
 		type = 1,
 		id = 2415,
@@ -24053,16 +24053,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"难道是拖鞋？"
+				"슬리퍼?"
 			},
 			{
 				4,
-				"难道是家居服？"
+				"음… 룸웨어?"
 			}
 		}
 	},
 	[2416] = {
-		param = "这么想来……难道是拖鞋么？",
+		param = "음…… 혹시 슬리퍼 같은 건?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24070,7 +24070,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2417] = {
-		param = "嘿嘿~指挥官一进门就能感受到惬意与放松",
+		param = "현관에 들어선 순간부터 편하게 쉴 수 있어서 좋겠네요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24078,7 +24078,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2418] = {
-		param = "然后尽可能地走遍每一个洁净而明亮的角落",
+		param = "슬리퍼만 있으면 밝고 깨끗한 방을 구석구석 산책할 수 있겠죠♪",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24086,7 +24086,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 3
 	},
 	[2419] = {
-		param = "难道是家居服？",
+		param = "혹시 룸웨어?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24094,7 +24094,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2420] = {
-		param = "嘿嘿~指挥官一进门就被家的温暖包裹……",
+		param = "괜찮네요. 지휘관님이 방에 들어와서 집에 온 것 같은 온기를 느끼면…",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24102,7 +24102,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2421] = {
-		param = "应该会立刻、完全、彻底放松下来吧",
+		param = "눈 깜짝할 사이에 몸도 마음도 노곤해지겠죠♪",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24110,7 +24110,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[2422] = {
-		param = "一切都听你的安排就好，客随主便",
+		param = "나는 초대받아서 가는 입장이니까, 뭘 준비할지는 창펑에게 전적으로 맡길게.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24118,7 +24118,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[2423] = {
-		param = "嗯……我一定会让你体会到“宾至如归”的感觉的",
+		param = "네! 제가 꼭 집에 있는 듯한 느낌을 받으실 수 있게 노력할게요!",
 		ship_group = 50108,
 		type = 1,
 		id = 2423,
@@ -24126,16 +24126,16 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"难道体现在参与感？"
+				"집에 있는 느낌이 중요하다고 했지?"
 			},
 			{
 				6,
-				"难道体现在氛围感？"
+				"편안한 느낌이 중요하다고 했지?"
 			}
 		}
 	},
 	[2424] = {
-		param = "难道是体现在参与感么？",
+		param = "집에 있는 느낌이 중요하다고 했는데…… 누구 집…?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24143,7 +24143,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2425] = {
-		param = "要帮长风管理家庭了？！",
+		param = "내 집? 아니면 같이 가정을 꾸린… 우리 집?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24159,7 +24159,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2427] = {
-		param = "指挥官真的愿意吗？",
+		param = "……그렇게 생각해 주시는 건가요?!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24167,7 +24167,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2428] = {
-		param = "如果是这样的话，我就更期待休息日了！",
+		param = "어서 휴일이 되었으면 좋겠네요♪",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24175,7 +24175,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 5
 	},
 	[2429] = {
-		param = "难道是体现在氛围感么？",
+		param = "편안한 느낌이 중요하다고 했지?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24183,7 +24183,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2430] = {
-		param = "……家的氛围？",
+		param = "내 집에 있는 듯한 편안한 분위기…?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24191,7 +24191,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2431] = {
-		param = "唔~准确说是我认知的……家的氛围",
+		param = "음… 정확히 하자면, 제가 생각하는 「집」의 분위기겠네요……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24199,7 +24199,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2432] = {
-		param = "干净、整洁、温馨、和睦……",
+		param = "청결함, 정리정돈, 화목하고 화기애애한 분위기……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24207,7 +24207,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[2433] = {
-		param = "其实是从指挥官从进门起的一切哦",
+		param = "그것뿐만 아니라, 지휘관님이 보고 만지는 모든 것에 대해서예요.",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24215,7 +24215,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2434] = {
-		param = "一个专属的鞋架，一双专属的拖鞋，一套专属的家居服……",
+		param = "지휘관님 전용 신발 선반에 슬리퍼, 룸웨어……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24223,7 +24223,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2435] = {
-		param = "唔……应该还有专属的擦手巾之类",
+		param = "그리고… 지휘관님이 사용하실 수건도……",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24231,7 +24231,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[2436] = {
-		param = "……要不要……准备专属的洗漱用品什么的……？",
+		param = "아… 전용 세면 세트도 준비하는 편이 좋을까요?",
 		ship_group = 50108,
 		type = 1,
 		id = 2436,
@@ -24239,12 +24239,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				7,
-				"好多的专属……"
+				"「전용」이 너무 많은데……"
 			}
 		}
 	},
 	[2437] = {
-		param = "好多的专属……谢谢你这么细心的考虑",
+		param = "「전용」이 너무 많은데…… 그렇게 신경 쓸 거 없어.",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24252,7 +24252,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2438] = {
-		param = "既然如此，我们可以一起准备的",
+		param = "아니면, 같이 준비해 보는 건 어때?",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -24260,7 +24260,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2439] = {
-		param = "这样吗？太好了……",
+		param = "그렇게 해요! 너무 좋아요……!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24268,7 +24268,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2440] = {
-		param = "能和指挥官一起……不论做什么，都会很……温暖",
+		param = "지휘관님과 함께라면…… 뭘 하든…… 마음이 따뜻해져요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
@@ -24276,7 +24276,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 7
 	},
 	[2441] = {
-		param = "那明天……我们一起去购物吧！",
+		param = "그럼 내일…… 같이 쇼핑하러 가요!",
 		ship_group = 50108,
 		option = "",
 		type = 1,
