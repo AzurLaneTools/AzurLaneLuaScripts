@@ -378,6 +378,42 @@ pg.extraenemy_template = {
 			}
 		}
 	},
+	{
+		name = "建武",
+		hp = 10000,
+		mail_content = "world_boss_content_1",
+		id = 12,
+		background = "",
+		mail_title = "world_boss_title_12",
+		reward = {
+			904790,
+			904791,
+			904792,
+			904793
+		},
+		reward_display = {
+			{
+				2,
+				17003,
+				10
+			},
+			{
+				2,
+				18013,
+				2
+			},
+			{
+				2,
+				11057,
+				5
+			},
+			{
+				3,
+				96020,
+				1
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -389,6 +425,7 @@ pg.extraenemy_template = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

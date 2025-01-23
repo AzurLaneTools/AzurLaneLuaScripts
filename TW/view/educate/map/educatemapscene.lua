@@ -30,6 +30,7 @@ slot0.findUI = function(slot0)
 	slot0.homeBtn = slot0:findTF("ui/home_btn/home_btn")
 
 	setText(slot0:findTF("Text", slot0.homeBtn), i18n("child_btn_home"))
+	setActive(slot0.homeBtn, false)
 
 	slot0.mapTF = slot0:findTF("map")
 	slot0.mapContent = slot0:findTF("content", slot0.mapTF)

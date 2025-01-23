@@ -115,7 +115,7 @@ slot0.SortTopicList = function(slot0)
 end
 
 slot0.SetBackgrounds = function(slot0)
-	slot0.skins = slot0:getDisplayableSkinList()
+	slot0.skins = ShipGroup.GetDisplayableSkinList(slot0.characterId)
 	slot2 = getProxy(CollectionProxy):getGroups()[slot0.characterId]
 
 	for slot6 = #slot0.skins, 1, -1 do
@@ -140,26 +140,6 @@ end
 
 slot0.GetPaintingId = function(slot0)
 	return ShipGroup.getDefaultShipConfig(slot0.characterId).skin_id
-end
-
-slot0.getDisplayableSkinList = function(slot0)
-	slot1 = {}
-
-	slot2 = function(slot0)
-		return slot0.skin_type == ShipSkin.SKIN_TYPE_OLD or slot0.skin_type == ShipSkin.SKIN_TYPE_NOT_HAVE_HIDE and not getProxy(ShipSkinProxy):hasSkin(slot0.id)
-	end
-
-	slot3 = function(slot0)
-		return getProxy(ShipSkinProxy):InShowTime(slot0)
-	end
-
-	for slot7, slot8 in ipairs(pg.ship_skin_template.all) do
-		if pg.ship_skin_template[slot8].ship_group == slot0.characterId and slot9.no_showing ~= "1" and not slot2(slot9) and slot3(slot9.id) then
-			table.insert(slot1, slot9)
-		end
-	end
-
-	return slot1
 end
 
 return slot0

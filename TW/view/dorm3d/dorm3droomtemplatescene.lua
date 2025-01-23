@@ -159,36 +159,29 @@ slot0.SetRoom = function(slot0, slot1)
 end
 
 slot0.preload = function(slot0, slot1)
+	tolua.loadassembly("MagicaCloth")
+	tolua.loadassembly("ParadoxNotion")
+
+	for slot5, slot6 in pairs({
+		_MonoManager = "ParadoxNotion.Services.MonoManager",
+		MagicaPhysicsManager = "MagicaCloth.MagicaPhysicsManager"
+	}) do
+		if not GameObject.Find(slot5) then
+			GetOrAddComponent(GameObject.New(slot5), typeof(slot6))
+		end
+	end
+
 	slot2 = getProxy(ApartmentProxy)
 	slot0.room = slot2:getRoom(slot0.contextData.roomId)
-	slot3 = slot0.room
-	slot0.sceneInfo = string.lower(slot3:getConfig("scene_info"))
-	slot0.artSceneInfo = slot0.sceneInfo
-	slot0.subSceneInfo = slot0.sceneInfo
-	slot2, slot3 = unpack(string.split(slot0.sceneInfo, "|"))
-	slot4 = {
-		function (slot0)
-			slot1 = SceneOpMgr.Inst
+	slot2 = {}
 
-			slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, function (slot0, slot1)
-				SceneManager.SetActiveScene(slot0)
-
-				if getSceneRootTFDic(slot0).MainCamera then
-					setActive(slot2, false)
-				end
-
-				uv0()
-			end)
-		end,
-		function (slot0)
-			SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_base_scene"), uv1 .. "_base", LoadSceneMode.Additive, slot0)
-		end
-	}
-
-	table.insert(slot4, function (slot0)
+	table.insert(slot2, function (slot0)
+		uv0.dormSceneMgr = Dorm3dSceneMgr.New(string.lower(uv0.room:getConfig("scene_info")), slot0)
+	end)
+	table.insert(slot2, function (slot0)
 		uv0:LoadCharacter(uv0.contextData.groupIds, slot0)
 	end)
-	seriesAsync(slot4, slot1)
+	seriesAsync(slot2, slot1)
 end
 
 slot0.init = function(slot0)
@@ -410,7 +403,7 @@ slot0.RegisterIKFunc = function(slot0)
 end
 
 slot0.initScene = function(slot0)
-	slot1, slot2 = unpack(string.split(slot0.sceneInfo, "|"))
+	slot1, slot2 = unpack(string.split(slot0.dormSceneMgr.sceneInfo, "|"))
 
 	slot0:ResetSceneStructure(SceneManager.GetSceneByName(slot1 .. "_base"))
 
@@ -441,7 +434,6 @@ slot0.initScene = function(slot0)
 	slot0.resTF = GameObject.Find("Res").transform
 
 	tolua.loadassembly("Cinemachine")
-	tolua.loadassembly("MagicaCloth")
 
 	slot4 = GameObject.Find("CM Cameras").transform
 
@@ -1097,6 +1089,9 @@ slot0.didEnter = function(slot0)
 		if uv0.surroudCamera and not uv0.pinchMode then
 			slot3(uv0.surroudCamera, "m_XAxis", slot1)
 			slot3(uv0.surroudCamera, "m_YAxis", slot2)
+		elseif uv0.furniturePOV and uv0.cameras[uv2.CAMERA.FURNITURE_WATCH] and isActive(uv0.cameras[uv2.CAMERA.FURNITURE_WATCH]) then
+			slot3(uv0.furniturePOV, "m_HorizontalAxis", slot1)
+			slot3(uv0.furniturePOV, "m_VerticalAxis", slot2)
 		end
 
 		uv0.joystickDelta = Vector2.zero
@@ -1251,7 +1246,25 @@ slot0.didEnter = function(slot0)
 		groupName = LayerWeightConst.GROUP_DORM3D
 	})
 	slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.POV])
-	slot0:RefreshSlots()
+
+	slot4, slot5 = nil
+	slot6 = slot0.resumeCallback
+
+	slot0.resumeCallback = function()
+		uv0 = true
+
+		if uv1 then
+			existCall(uv2)
+		end
+	end
+
+	slot0:RefreshSlots(nil, function ()
+		uv0 = true
+
+		if uv1 then
+			existCall(uv2)
+		end
+	end)
 
 	slot0.updateHandler = UpdateBeat:CreateListener(function ()
 		xpcall(function ()
@@ -1380,30 +1393,20 @@ slot0.Update = function(slot0)
 			end)()
 
 			if uv0.enableIKTip then
-				slot3 = uv0:GetIKTipsRootTF()
-
 				if uv0.nextTipIKTime < Time.time then
-					UIItemList.StaticAlign(slot3, slot3:GetChild(0), #slot0.readyIKLayers + #slot0.ikConfig.touch_data, function (slot0, slot1, slot2)
+					slot6 = uv0.ikTipsRoot
+
+					UIItemList.StaticAlign(uv0.ikTipsRoot, slot6:GetChild(0), #slot0.readyIKLayers, function (slot0, slot1, slot2)
 						if slot0 ~= UIItemList.EventUpdate then
 							return
 						end
 
 						slot3 = nil
 						slot4 = Vector2.zero
+						slot4 = slot5:GetIKTipOffset()
 
-						if slot1 + 1 > #uv0.readyIKLayers then
-							if #pg.dorm3d_ik_touch[uv1.touch_data[slot1 - #uv0.readyIKLayers][1]].scene_item > 0 then
-								slot3 = uv2:GetSceneItem(slot7.scene_item)
-							else
-								slot3 = uv0.IKSettings.Colliders[slot7.body]
-							end
-						else
-							slot3 = uv0.readyIKLayers[slot1]:GetTriggerBoneName() and uv0.IKSettings.Colliders[slot6] or nil
-							slot4 = slot5:GetIKTipOffset()
-						end
-
-						if slot3 then
-							slot5 = function()
+						if uv0.readyIKLayers[slot1 + 1]:GetTriggerBoneName() and uv0.IKSettings.Colliders[slot6] or nil then
+							slot7 = function()
 								if CameraMgr.instance:Raycast(uv0.IKSettings.CameraRaycaster, uv0.IKSettings.CameraRaycaster.eventCamera:WorldToScreenPoint(uv1.position)).Length == 0 then
 									return
 								end
@@ -1413,22 +1416,76 @@ slot0.Update = function(slot0)
 						end
 
 						if slot3 then
-							setLocalPosition(slot2, uv2:GetLocalPosition(uv2:GetScreenPosition(slot3.position, uv0.IKSettings.CameraRaycaster.eventCamera), uv3) + slot4)
-
-							slot5 = slot3.position
+							slot7 = slot3.position
 
 							if slot3:GetComponent(typeof(UnityEngine.Collider)) then
-								slot5 = slot6.bounds.center
+								slot7 = slot8.bounds.center
 							end
 
-							setLocalPosition(slot2, uv2:GetLocalPosition(uv2:GetScreenPosition(slot5), uv3) + slot4)
+							setLocalPosition(slot2, uv1:GetLocalPosition(uv1:GetScreenPosition(slot7, uv0.IKSettings.CameraRaycaster.eventCamera), uv1.ikTipsRoot) + slot4)
+
+							slot12 = Vector2.zero
+
+							if slot5:GetTriggerRect():PointToNormalized(Vector2.zero).x < 0.5 and slot11.y < 0.5 then
+								slot12 = slot10.max
+							elseif slot11.x >= 0.5 and slot11.y < 0.5 then
+								slot12 = Vector2.New(slot10.xMin, slot10.yMax)
+							elseif slot11.x < 0.5 and slot11.y >= 0.5 then
+								slot12 = Vector2.New(slot10.xMax, slot10.yMin)
+							elseif slot11.x >= 0.5 and slot11.y >= 0.5 then
+								slot12 = slot10.min
+							end
+
+							if slot11.x == 0.5 then
+								if slot9.x < 0 then
+									slot12.x = slot10.xMax
+								else
+									slot12.x = slot10.xMin
+								end
+							end
+
+							if slot11.y == 0.5 then
+								if slot9.y < 0 then
+									slot12.y = slot10.yMax
+								else
+									slot12.y = slot10.yMin
+								end
+							end
+
+							slot13 = slot12 - slot10.center
+
+							setLocalRotation(slot2, Quaternion.LookRotation(Vector3.forward, Vector3.New(slot13.x, slot13.y, 0)))
+						end
+
+						setActive(slot2, slot3)
+					end)
+
+					slot6 = uv0.ikClickTipsRoot
+
+					UIItemList.StaticAlign(uv0.ikClickTipsRoot, slot6:GetChild(0), #slot0.ikConfig.touch_data, function (slot0, slot1, slot2)
+						if slot0 ~= UIItemList.EventUpdate then
+							return
+						end
+
+						slot3 = nil
+						slot4 = Vector2.zero
+
+						if (#pg.dorm3d_ik_touch[uv0.touch_data[slot1 + 1][1]].scene_item <= 0 or uv1:GetSceneItem(slot7.scene_item)) and uv2.IKSettings.Colliders[slot7.body] then
+							slot8 = slot3.position
+
+							if slot3:GetComponent(typeof(UnityEngine.Collider)) then
+								slot8 = slot9.bounds.center
+							end
+
+							setLocalPosition(slot2, uv1:GetLocalPosition(uv1:GetScreenPosition(slot8, uv2.IKSettings.CameraRaycaster.eventCamera), uv1.ikClickTipsRoot) + slot4)
 						end
 
 						setActive(slot2, slot3)
 					end)
 				end
 
-				setActive(slot3, slot2)
+				setActive(uv0.ikTipsRoot, slot2)
+				setActive(uv0.ikClickTipsRoot, slot2)
 				setActive(uv0.ikTextTipsRoot, slot2)
 			end
 		end)(slot0.ladyDict[slot3:GetConfigID()])
@@ -1484,9 +1541,9 @@ slot0.SetPOVFOV = function(slot0, slot1)
 	slot0.cameras[uv0.CAMERA.POV].m_Lens = slot2
 end
 
-slot0.RefreshSlots = function(slot0, slot1)
+slot0.RefreshSlots = function(slot0, slot1, slot2)
 	slot1 = slot1 or slot0.room
-	slot3 = slot1:GetFurnitures()
+	slot4 = slot1:GetFurnitures()
 
 	slot0:emit(uv0.SHOW_BLOCK)
 	table.ParallelIpairsAsync(slot1:GetSlots(), function (slot0, slot1, slot2)
@@ -1546,6 +1603,7 @@ slot0.RefreshSlots = function(slot0, slot1)
 		end, "slot_" .. slot3)
 	end, function ()
 		uv0:emit(uv1.HIDE_BLOCK)
+		existCall(uv2)
 	end)
 end
 
@@ -1743,7 +1801,7 @@ slot0.RegisterOrbits = function(slot0, slot1)
 end
 
 slot0.SetCameraObrits = function(slot0)
-	if not slot0.surroudCamera then
+	if not slot0.scene.surroudCamera then
 		return
 	end
 
@@ -1967,6 +2025,8 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 
 	if slot6:GetComponent(typeof(Cinemachine.CinemachineFreeLook)) then
 		slot0:RegisterOrbits(slot7)
+	else
+		slot0:RevertCameraOrbit()
 	end
 
 	slot0:SwitchAnim(slot1, slot2.character_action)
@@ -2033,7 +2093,8 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3)
 	slot1.ikActionDict = nil
 	slot1.readyIKLayers = nil
 
-	setActive(slot0:GetIKTipsRootTF(), false)
+	setActive(slot0.ikTipsRoot, false)
+	setActive(slot0.ikClickTipsRoot, false)
 	table.Foreach(_.map(slot2.touch_data or {}, function (slot0)
 		return slot0[1]
 	end), function (slot0, slot1)
@@ -2171,7 +2232,8 @@ slot0.ExitIKTimelineStatus = function(slot0, slot1, slot2)
 	slot1.readyIKLayers = nil
 	slot1.IKSettings = nil
 
-	setActive(slot0:GetIKTipsRootTF(), false)
+	setActive(slot0.ikTipsRoot, false)
+	setActive(slot0.ikClickTipsRoot, false)
 	existCall(slot2)
 end
 
@@ -2392,24 +2454,29 @@ end
 
 slot0.EnterFurnitureWatchMode = function(slot0)
 	slot0:SetAllBlackbloardValue("inLockLayer", true)
+	slot0:EnableJoystick(true)
 	slot0:HideCharacter()
 end
 
-slot0.ExitFurnitureWatchMode = function(slot0)
+slot0.ExitFurnitureWatchMode = function(slot0, slot1)
 	slot0:HideFurnitureSlots()
 
-	slot1 = slot0.cameras[uv0.CAMERA.POV]
+	slot2 = slot0.cameras[uv0.CAMERA.POV]
 
 	seriesAsync({
 		function (slot0)
+			uv0.furniturePOV = nil
+
+			uv0:EnableJoystick(false)
 			uv0:emit(uv1.SHOW_BLOCK)
 			uv0:ShowBlackScreen(true, slot0)
 		end,
 		function (slot0)
-			uv0:RevertCharacter()
-			uv0:SetAllBlackbloardValue("inLockLayer", false)
-			uv0:RegisterCameraBlendFinished(uv1, slot0)
-			uv0:ActiveCamera(uv1)
+			existCall(uv0)
+			uv1:RevertCharacter()
+			uv1:SetAllBlackbloardValue("inLockLayer", false)
+			uv1:RegisterCameraBlendFinished(uv2, slot0)
+			uv1:ActiveCamera(uv2)
 		end,
 		function (slot0)
 			uv0:ShowBlackScreen(false, slot0)
@@ -2430,6 +2497,7 @@ slot0.SwitchFurnitureZone = function(slot0, slot1)
 
 	slot0.cameraFurnitureWatch = slot3
 	slot0.cameras[uv0.CAMERA.FURNITURE_WATCH] = slot0.cameraFurnitureWatch
+	slot0.furniturePOV = slot0.cameraFurnitureWatch:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
 
 	slot0:RegisterCameraBlendFinished(slot0.cameraFurnitureWatch, function ()
 		uv0:emit(uv1.HIDE_BLOCK)
@@ -2725,7 +2793,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 	end
 
 	table.insert(slot3, function (slot0)
-		uv0:LoadTimelineScene(uv1.name, false, slot0)
+		uv0:LoadTimelineScene(uv1.name, false, nil, slot0)
 	end)
 
 	if slot1.scene and slot1.sceneRoot then
@@ -2850,7 +2918,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 		end)
 	end)
 
-	slot4 = slot0.artSceneInfo
+	slot4 = slot0.dormSceneMgr.artSceneInfo
 
 	table.insert(slot3, function (slot0)
 		uv0:ChangeArtScene(uv1, slot0)
@@ -3386,329 +3454,109 @@ slot0.onBackPressed = function(slot0)
 	end
 end
 
-slot0.EnableSceneDisplay = function(slot0, slot1, slot2)
-	assert(tobool(slot0.lastSceneRootDict[slot1]) == slot2)
-
-	if slot2 then
-		table.Foreach(slot0.lastSceneRootDict[slot1], function (slot0, slot1)
-			if IsNil(slot0) then
-				return
-			end
-
-			setActive(slot0, slot1)
-		end)
-
-		slot0.lastSceneRootDict[slot1] = nil
-	else
-		slot0.lastSceneRootDict[slot1] = {}
-		slot3 = SceneManager.GetSceneByName(slot1)
-
-		table.IpairsCArray(slot3:GetRootGameObjects(), function (slot0, slot1)
-			if tostring(slot1.hideFlags) ~= "None" then
-				return
-			end
-
-			uv0.lastSceneRootDict[uv1][slot1] = isActive(slot1)
-
-			setActive(slot1, false)
-		end)
-	end
-end
-
-slot0.ChangeArtScene = function(slot0, slot1, slot2)
-	if string.lower(slot1) == slot0.artSceneInfo then
-		if slot1 == slot0.sceneInfo then
-			slot0:SwitchDayNight(slot0.contextData.timeIndex)
-			onNextTick(function ()
-				uv0:RefreshSlots()
-				existCall(uv1)
-			end)
-		else
-			existCall(slot2)
-		end
-
-		return
-	end
-
-	slot4 = false
-	slot5 = nil
-
-	table.insert({}, function (slot0)
-		uv0.artSceneInfo = uv1
-
-		if uv2 then
-			slot1 = pg.SceneAnimMgr.GetInstance()
-
-			slot1:Dorm3DSceneChange(function (slot0)
-				uv0 = slot0
-
-				uv1()
-			end)
-		else
-			slot0()
-		end
-	end)
-
-	if slot1 == slot0.sceneInfo then
-		table.insert(slot3, function (slot0)
-			setActive(uv0.slotRoot, true)
-
-			slot1, slot2 = unpack(string.split(uv0.sceneInfo, "|"))
-
-			SceneManager.SetActiveScene(SceneManager.GetSceneByName(slot1))
-
-			slot3 = uv0
-
-			slot3:EnableSceneDisplay(slot1, true)
-
-			slot3 = uv0
-
-			slot3:SwitchDayNight(uv0.contextData.timeIndex)
-			onNextTick(function ()
-				uv0:RefreshSlots()
-			end)
-			slot0()
-		end)
-	else
-		slot4 = true
-		slot6, slot7 = unpack(string.split(slot1, "|"))
-
-		table.insert(slot3, function (slot0)
-			setActive(uv0.slotRoot, false)
-
-			slot1 = SceneOpMgr.Inst
-
-			slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv1 .. "/" .. uv2 .. "_scene"), uv2, LoadSceneMode.Additive, function (slot0, slot1)
-				SceneManager.SetActiveScene(slot0)
-
-				if getSceneRootTFDic(slot0).MainCamera then
-					setActive(slot2, false)
-				end
-
-				uv0()
-			end)
-		end)
-	end
-
-	if slot0.artSceneInfo == slot0.sceneInfo then
-		table.insert(slot3, function (slot0)
-			slot1, slot2 = unpack(string.split(uv0.sceneInfo, "|"))
-
-			uv0:EnableSceneDisplay(slot1, false)
-			slot0()
-		end)
-	else
-		slot6, slot7 = unpack(string.split(slot0.artSceneInfo, "|"))
-
-		table.insert(slot3, function (slot0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, slot0)
-		end)
-	end
-
-	table.insert(slot3, function (slot0)
-		slot0()
-
-		if uv0 then
-			uv1()
-		end
-	end)
-	seriesAsync(slot3, slot2)
-end
-
-slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3)
-	if slot0.cacheSceneDic[string.lower(slot1)] then
-		if not slot2 then
-			slot0.timelineScene = slot1
-
-			slot0:EnableSceneDisplay(slot1, true)
-		end
-
-		return existCall(slot3)
-	end
-
-	slot4 = {}
-	slot5 = nil
-
-	table.insert(slot4, function (slot0)
-		slot1 = pg.SceneAnimMgr.GetInstance()
-
-		slot1:Dorm3DSceneChange(function (slot0)
-			if uv0.waitForTimeline then
-				uv0.waitForTimeline = slot0
-				uv1 = nil
-			else
-				uv1 = slot0
-			end
-
-			uv2()
-		end)
-	end)
-	table.insert(slot4, function (slot0)
-		slot1 = uv0.apartment
-		slot2 = SceneOpMgr.Inst
-
-		slot2:LoadSceneAsync(string.lower("dorm3d/character/" .. slot1:getConfig("asset_name") .. "/timeline/" .. uv1 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, function (slot0, slot1)
+slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
+	slot0.dormSceneMgr:LoadTimelineScene({
+		name = string.lower(slot1),
+		assetRootName = slot0.apartment:getConfig("asset_name"),
+		isCache = slot2,
+		waitForTimeline = slot3,
+		callName = slot0.apartment:GetCallName(),
+		loadSceneFunc = function (slot0, slot1)
 			uv0:HXCharacter(tf(GameObject.Find("[actor]").transform))
-
-			slot4 = GameObject.Find("[sequence]").transform:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
-
-			slot4:Stop()
-			TimelineSupport.InitTimeline(slot4)
-			TimelineSupport.InitSubtitle(slot4, uv0.apartment:GetCallName())
-
-			uv0.unloadDirector = slot4
-
-			uv1()
-		end)
-	end)
-	table.insert(slot4, function (slot0)
-		uv0.sceneGroupDic[uv1] = uv0.apartment:GetConfigID()
-
-		if uv2 then
-			uv0.cacheSceneDic[uv1] = true
-
-			uv0:EnableSceneDisplay(uv1, false)
-		else
-			uv0.timelineScene = uv1
 		end
-
-		slot0()
-		existCall(uv3)
-	end)
-	seriesAsync(slot4, slot3)
+	}, slot4)
 end
 
 slot0.UnloadTimelineScene = function(slot0, slot1, slot2, slot3)
-	if slot0.timelineScene == string.lower(slot1) then
-		slot0.timelineScene = nil
-	end
+	slot0.dormSceneMgr:UnloadTimelineScene(string.lower(slot1), slot2, slot3)
+end
 
-	if tobool(slot2) == tobool(slot0.cacheSceneDic[slot1]) then
-		slot5 = getProxy(ApartmentProxy):getApartment(slot0.sceneGroupDic[slot1]):getConfig("asset_name")
+slot0.ChangeArtScene = function(slot0, slot1, slot2)
+	slot1 = string.lower(slot1)
 
-		if slot0.unloadDirector then
-			TimelineSupport.UnloadPlayable(slot0.unloadDirector)
+	warning(slot0.dormSceneMgr.artSceneInfo, "->", slot1, slot1 == slot0.dormSceneMgr.sceneInfo)
+	table.insert({}, function (slot0)
+		uv0.dormSceneMgr:ChangeArtScene(string.lower(uv1), slot0)
+	end)
 
-			slot0.unloadDirector = nil
-		end
-
-		slot6 = SceneOpMgr.Inst
-
-		slot6:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. slot5 .. "/timeline/" .. slot1 .. "/" .. slot1 .. "_scene"), slot1, function ()
-			uv0.cacheSceneDic[uv1] = nil
-			uv0.sceneGroupDic[uv1] = nil
-			uv0.lastSceneRootDict[uv1] = nil
-
-			existCall(uv2)
+	if slot1 == slot0.dormSceneMgr.sceneInfo or slot0.dormSceneMgr.artSceneInfo == slot0.dormSceneMgr.sceneInfo then
+		table.insert(slot3, function (slot0)
+			setActive(uv0.slotRoot, uv1 == uv0.dormSceneMgr.sceneInfo)
+			slot0()
 		end)
-	else
-		slot0:EnableSceneDisplay(slot1, false)
-		existCall(slot3)
 	end
+
+	if slot1 == slot0.dormSceneMgr.sceneInfo then
+		table.insert(slot3, function (slot0)
+			slot1 = uv0
+
+			slot1:SwitchDayNight(uv0.contextData.timeIndex)
+			onNextTick(function ()
+				uv0:RefreshSlots()
+				uv1()
+			end)
+		end)
+	end
+
+	seriesAsync(slot3, slot2)
 end
 
 slot0.ChangeSubScene = function(slot0, slot1, slot2)
 	slot1 = string.lower(slot1)
 
-	warning(slot0.subSceneInfo, "->", slot1, slot1 == slot0.subSceneInfo)
+	warning(slot0.dormSceneMgr.subSceneInfo, "->", slot1, slot1 == slot0.dormSceneMgr.subSceneInfo)
 
-	slot3 = slot0.ladyDict[slot0.apartment:GetConfigID()]
+	slot3 = {}
 
-	if slot1 == slot0.subSceneInfo then
-		slot3.ladyActiveZone = slot3.walkBornPoint or slot3.ladyBaseZone
-
-		slot0:ChangeCharacterPosition(slot3)
-		slot0:ChangePlayerPosition(slot3.ladyActiveZone)
-		slot0:TriggerLadyDistance()
-		slot0:CheckInSector()
-		existCall(slot2)
-
-		return
-	end
-
-	slot5 = false
-	slot6 = nil
-
-	table.insert({}, function (slot0)
-		uv0.subSceneInfo = uv1
-
-		if uv2 then
-			slot1 = pg.SceneAnimMgr.GetInstance()
-
-			slot1:Dorm3DSceneChange(function (slot0)
-				uv0 = slot0
-
-				uv1()
-			end)
-		else
-			slot0()
-		end
+	table.insert(slot3, function (slot0)
+		uv0.dormSceneMgr:ChangeSubScene(uv1, slot0)
 	end)
 
-	if slot1 == slot0.sceneInfo then
-		table.insert(slot4, function (slot0)
-			slot1, slot2 = unpack(string.split(uv0.sceneInfo, "|"))
+	slot4 = slot0.ladyDict[slot0.apartment:GetConfigID()]
 
-			uv0:ResetSceneStructure(SceneManager.GetSceneByName(slot1 .. "_base"))
-			uv0:RefreshSlots()
+	table.insert(slot3, function (slot0)
+		if uv0 == uv1.dormSceneMgr.sceneInfo then
+			uv2.ladyActiveZone = uv2.walkBornPoint or uv2.ladyBaseZone
+		else
+			uv2.ladyActiveZone = uv2.walkBornPoint or "Default"
+		end
 
-			uv1.ladyActiveZone = uv1.walkBornPoint or uv1.ladyBaseZone
+		slot0()
+	end)
 
+	if slot1 ~= slot0.dormSceneMgr.subSceneInfo then
+		table.insert(slot3, function (slot0)
+			slot1, slot2 = Dorm3dSceneMgr.ParseInfo(uv0)
+
+			uv1:ResetSceneStructure(SceneManager.GetSceneByName(slot1 .. "_base"))
+
+			if uv0 == uv1.dormSceneMgr.sceneInfo then
+				uv1:RefreshSlots()
+			else
+				uv1:SwitchAnim(uv2, uv3.ANIM.IDLE)
+			end
+
+			if uv1.dormSceneMgr.subSceneInfo == uv1.dormSceneMgr.sceneInfo then
+				slot3 = Clone(uv1.room)
+				slot3.furnitures = {}
+
+				uv1:RefreshSlots(slot3)
+			end
+
+			slot0()
+		end)
+	end
+
+	table.insert(slot3, function (slot0)
+		onNextTick(function ()
 			uv0:ChangeCharacterPosition(uv1)
 			uv0:ChangePlayerPosition(uv1.ladyActiveZone)
 			uv0:TriggerLadyDistance()
 			uv0:CheckInSector()
-			slot0()
+			uv2()
 		end)
-	else
-		slot5 = true
-		slot7, slot8 = unpack(string.split(slot1, "|"))
-		slot7 = slot7 .. "_base"
-
-		table.insert(slot4, function (slot0)
-			SceneOpMgr.Inst:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, slot0)
-		end)
-		table.insert(slot4, function (slot0)
-			uv0:ResetSceneStructure(SceneManager.GetSceneByName(uv1))
-
-			uv2.ladyActiveZone = uv2.walkBornPoint or "Default"
-
-			uv0:SwitchAnim(uv2, uv3.ANIM.IDLE)
-			onNextTick(function ()
-				uv0:ChangeCharacterPosition(uv1)
-				uv0:ChangePlayerPosition(uv1.ladyActiveZone)
-				uv0:TriggerLadyDistance()
-				uv0:CheckInSector()
-				uv2()
-			end)
-		end)
-	end
-
-	if slot0.subSceneInfo == slot0.sceneInfo then
-		table.insert(slot4, function (slot0)
-			slot1 = Clone(uv0.room)
-			slot1.furnitures = {}
-
-			uv0:RefreshSlots(slot1)
-			slot0()
-		end)
-	else
-		slot7, slot8 = unpack(string.split(slot0.subSceneInfo, "|"))
-		slot7 = slot7 .. "_base"
-
-		table.insert(slot4, function (slot0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, slot0)
-		end)
-	end
-
-	table.insert(slot4, function (slot0)
-		slot0()
-
-		if uv0 then
-			uv1()
-		end
 	end)
-	seriesAsync(slot4, slot2)
+	seriesAsync(slot3, slot2)
 end
 
 slot0.IsPointInSector = function(slot0, slot1)
@@ -3767,64 +3615,11 @@ slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 	pg.ClickEffectMgr:GetInstance():SetClickEffect("NORMAL")
 	pg.NodeCanvasMgr.GetInstance():Clear()
+	slot0.dormSceneMgr:Dispose()
 
-	slot1 = {}
+	slot0.dormSceneMgr = nil
 
-	if slot0.timelineScene and not slot0.cacheSceneDic[slot0.timelineScene] then
-		slot0.timelineScene = nil
-		slot3 = getProxy(ApartmentProxy)
-		slot3 = slot3:getApartment(slot0.sceneGroupDic[slot0.timelineScene])
-		slot4 = slot3:getConfig("asset_name")
-
-		table.insert(slot1, function (slot0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. uv0 .. "/timeline/" .. uv1 .. "/" .. uv1 .. "_scene"), uv1, slot0)
-		end)
-	end
-
-	for slot5, slot6 in pairs(slot0.cacheSceneDic) do
-		if slot6 then
-			slot7 = getProxy(ApartmentProxy)
-			slot7 = slot7:getApartment(slot0.sceneGroupDic[slot5])
-			slot8 = slot7:getConfig("asset_name")
-
-			table.insert(slot1, function (slot0)
-				SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. uv0 .. "/timeline/" .. uv1 .. "/" .. uv1 .. "_scene"), uv1, slot0)
-			end)
-		end
-	end
-
-	slot2 = ipairs
-	slot3 = {
-		slot0.sceneInfo,
-		slot0.subSceneInfo ~= slot0.sceneInfo and slot0.subSceneInfo or nil
-	}
-
-	for slot5, slot6 in slot2(slot3) do
-		slot7, slot8 = unpack(string.split(slot6, "|"))
-		slot7 = slot7 .. "_base"
-
-		table.insert(slot1, function (slot0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, slot0)
-		end)
-	end
-
-	slot2 = ipairs
-	slot3 = {
-		slot0.sceneInfo,
-		slot0.artSceneInfo ~= slot0.sceneInfo and slot0.artSceneInfo or nil
-	}
-
-	for slot5, slot6 in slot2(slot3) do
-		slot7, slot8 = unpack(string.split(slot6, "|"))
-
-		table.insert(slot1, function (slot0)
-			SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, slot0)
-		end)
-	end
-
-	seriesAsync(slot1, function ()
-		ReflectionHelp.RefSetProperty(typeof("UnityEngine.LightmapSettings"), "lightmaps", nil, )
-	end)
+	ReflectionHelp.RefSetProperty(typeof("UnityEngine.LightmapSettings"), "lightmaps", nil, )
 end
 
 slot0.InitDefautQuality = function()

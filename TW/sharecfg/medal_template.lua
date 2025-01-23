@@ -2422,6 +2422,27 @@ pg.medal_template = {
 		explain1 = "",
 		explain2 = ""
 	},
+	[200011] = {
+		target_id = "5769",
+		name = "華裳巧展紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "雖有波折，終遂人願。光華流轉，一夜霓裳。",
+		next = 0,
+		icon = "9011",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9011",
+		condition = "收集8個「華裳巧展喜事長」紀念貼紙。",
+		rank = 1,
+		id = 200011,
+		explain1 = "「華裳巧展喜事長」",
+		explain2 = "活動紀念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2532,6 +2553,7 @@ pg.medal_template = {
 		100932,
 		100933,
 		100934,
-		100935
+		100935,
+		200011
 	}
 }

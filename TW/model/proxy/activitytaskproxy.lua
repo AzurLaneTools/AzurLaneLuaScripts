@@ -5,6 +5,11 @@ slot0.register = function(slot0)
 	slot0.autoSubmitTasks = {}
 end
 
+slot0.clearData = function(slot0)
+	slot0.actTasks = {}
+	slot0.autoSubmitTasks = {}
+end
+
 slot0.initActList = function(slot0, slot1, slot2, slot3)
 	if not slot2 then
 		return {}

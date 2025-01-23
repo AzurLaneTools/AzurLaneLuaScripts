@@ -50,6 +50,14 @@ slot0.GetTargetSlots = function(slot0)
 	return slot0:getConfig("target_slots")
 end
 
+slot0.GetTargetSlotID = function(slot0)
+	slot1 = slot0:GetTargetSlots()[1]
+
+	assert(slot1, "Missing Target Slot Dorm3dFurniture ID: " .. slot0:GetConfigID())
+
+	return slot1
+end
+
 slot0.GetIcon = function(slot0)
 	return slot0:getConfig("icon")
 end

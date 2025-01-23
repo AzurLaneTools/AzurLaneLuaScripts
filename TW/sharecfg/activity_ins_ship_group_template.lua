@@ -532,7 +532,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 50102,
 		name = "Fushun2",
 		background = "",
-		sculpture = "fushun",
+		sculpture = "fushun_g",
 		nationality = 0,
 		type = 1
 	},
@@ -1684,7 +1684,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 49903,
 		name = "Mainz",
 		background = "",
-		sculpture = "meiyinci",
+		sculpture = "meiyinci_3",
 		nationality = 0,
 		type = 1
 	},
@@ -1868,7 +1868,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 80202,
 		name = "Jeanne d'Arc",
 		background = "",
-		sculpture = "shengnvzhende",
+		sculpture = "shengnvzhende_3",
 		nationality = 0,
 		type = 1
 	},
@@ -1956,7 +1956,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 70206,
 		name = "Мурманск",
 		background = "",
-		sculpture = "moermansike",
+		sculpture = "moermansike_3",
 		nationality = 0,
 		type = 1
 	},
@@ -2140,7 +2140,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 10517,
 		name = "BlackDragon",
 		background = "",
-		sculpture = "xinzexi",
+		sculpture = "xinzexi_4",
 		nationality = 0,
 		type = 1
 	},
@@ -2836,7 +2836,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 49905,
 		name = "Aegir",
 		background = "",
-		sculpture = "aijier_2",
+		sculpture = "aijier_4",
 		nationality = 0,
 		type = 1
 	},
@@ -3188,7 +3188,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 50602,
 		name = "Hua Jia",
 		background = "",
-		sculpture = "huajia_2",
+		sculpture = "huajia_g",
 		nationality = 0,
 		type = 1
 	},
@@ -3716,7 +3716,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 19904,
 		name = "Kearsarge",
 		background = "",
-		sculpture = "qiershazhi_2",
+		sculpture = "qiershazhi_3",
 		nationality = 0,
 		type = 1
 	},
@@ -4144,6 +4144,14 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[960007] = {
+		ship_group = 960007,
+		name = "Ganj-i-sawai",
+		background = "",
+		sculpture = "gangyishawa",
+		nationality = 10,
+		type = 1
+	},
 	[1110001] = {
 		ship_group = 1110001,
 		name = "Lala Satalin Deviluke",
@@ -4197,6 +4205,62 @@ pg.activity_ins_ship_group_template = {
 		name = "Mikazuki",
 		background = "",
 		sculpture = "sanriyue",
+		nationality = 0,
+		type = 1
+	},
+	[40152] = {
+		ship_group = 40152,
+		name = "Blitz-Z52",
+		background = "",
+		sculpture = "Z52",
+		nationality = 4,
+		type = 1
+	},
+	[50301] = {
+		ship_group = 50301,
+		name = "Chien Wu",
+		background = "",
+		sculpture = "jianwu",
+		nationality = 5,
+		type = 1
+	},
+	[50210] = {
+		ship_group = 50210,
+		name = "Hai Yung",
+		background = "",
+		sculpture = "hairong",
+		nationality = 5,
+		type = 1
+	},
+	[50108] = {
+		ship_group = 50108,
+		name = "Chang Feng",
+		background = "",
+		sculpture = "changfeng",
+		nationality = 5,
+		type = 1
+	},
+	[50109] = {
+		ship_group = 50109,
+		name = "Fu Po",
+		background = "",
+		sculpture = "fubo",
+		nationality = 5,
+		type = 1
+	},
+	[10222] = {
+		ship_group = 10222,
+		name = "San Juan",
+		background = "",
+		sculpture = "shenghuan",
+		nationality = 0,
+		type = 1
+	},
+	[40803] = {
+		ship_group = 40803,
+		name = "U-557",
+		background = "",
+		sculpture = "U557",
 		nationality = 0,
 		type = 1
 	},
@@ -4719,12 +4783,20 @@ pg.activity_ins_ship_group_template = {
 		30191,
 		30180,
 		19905,
+		960007,
 		1110001,
 		1110002,
 		1110003,
 		1110004,
 		1110005,
 		1110006,
-		30141
+		30141,
+		40152,
+		50301,
+		50210,
+		50108,
+		50109,
+		10222,
+		40803
 	}
 }

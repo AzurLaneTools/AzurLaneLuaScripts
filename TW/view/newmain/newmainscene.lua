@@ -221,6 +221,33 @@ slot0.SwitchToNextShip = function(slot0)
 	end
 end
 
+slot0.UpdateFlagShip = function(slot0, slot1, slot2)
+	if slot0.paintingView:IsLoading() or slot0.bgView:IsLoading() or not slot0.theme then
+		return
+	end
+
+	slot0.bgView:Refresh(slot1)
+	slot0:PlayBgm(slot1)
+	slot0.paintingView:SetOnceLoadedCall(slot2.callback)
+	slot0.paintingView:Refresh(slot1, slot0.theme:GetPaintingOffset(slot1))
+	slot0.effectView:Refresh(slot1)
+	slot0.theme:OnSwitchToNextShip(slot1)
+end
+
+slot0.PlayChangeSkinActionOut = function(slot0, slot1)
+	slot0.paintingView:PlayChangeSkinActionOut(slot1)
+end
+
+slot0.PlayChangeSkinActionIn = function(slot0, slot1)
+	slot0.paintingView:PlayChangeSkinActionIn(slot1)
+end
+
+slot0.SetEffectPanelVisible = function(slot0, slot1)
+	if slot0.theme then
+		slot0.theme:SetEffectPanelVisible(slot1)
+	end
+end
+
 slot0.OnVisible = function(slot0)
 	if not (not slot0.theme or slot0.themes[slot0:GetThemeStyle()] ~= slot0.theme) then
 		slot0:Refresh()

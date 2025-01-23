@@ -6,6 +6,7 @@ slot0.SKIN_TYPE_REMAKE = 2
 slot0.SKIN_TYPE_OLD = 3
 slot0.SKIN_TYPE_NOT_HAVE_HIDE = 4
 slot0.SKIN_TYPE_SHOW_IN_TIME = 5
+slot0.SKIN_TYPE_TB = 6
 slot0.WITH_LIVE2D = 1
 slot0.WITH_BG = 2
 slot0.WITH_EFFECT = 3
@@ -13,6 +14,7 @@ slot0.WITH_DYNAMIC_BG = 4
 slot0.WITH_BGM = 5
 slot0.WITH_SPINE = 6
 slot0.WITH_SPINE_PLUS = 7
+slot0.WITH_CHANGE = 8
 
 slot0.Tag2Name = function(slot0)
 	if not uv0.Tag2NameTab then
@@ -23,7 +25,8 @@ slot0.Tag2Name = function(slot0)
 			[uv0.WITH_EFFECT] = "effect",
 			[uv0.WITH_LIVE2D] = "live2d",
 			[uv0.WITH_SPINE] = "spine",
-			[uv0.WITH_SPINE_PLUS] = "spine_plus"
+			[uv0.WITH_SPINE_PLUS] = "spine_plus",
+			[uv0.WITH_CHANGE] = "change"
 		}
 	end
 
@@ -102,7 +105,13 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1.id
 	slot0.endTime = slot1.end_time or slot1.time or 0
 	slot0.isNew = true
-	slot0.shipName = ShipGroup.getDefaultShipConfig(slot0:getConfig("ship_group")) and slot3.name or ""
+
+	if slot0:getConfig("skin_type") == uv0.SKIN_TYPE_TB then
+		slot0.shipName = NewEducateHelper.GetShipNameBySecId(NewEducateHelper.GetSecIdBySkinId(slot0.id))
+	else
+		slot0.shipName = ShipGroup.getDefaultShipConfig(slot0:getConfig("ship_group")) and slot3.name or ""
+	end
+
 	slot0.skinName = slot0:getConfig("name")
 end
 
@@ -251,6 +260,26 @@ end
 
 slot0.IsProposeSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_PROPOSE
+end
+
+slot0.IsChangeSkin = function(slot0)
+	return table.contains(slot0:getConfig("tag"), uv0.WITH_CHANGE)
+end
+
+slot0.IsChangeSkinMainIndex = function(slot0)
+	if slot0:IsChangeSkin() then
+		return slot0:getConfig("change_skin").index == 1
+	end
+
+	return false
+end
+
+slot0.MatchChangeSkinMain = function(slot0)
+	if slot0:IsChangeSkin() and not slot0:IsChangeSkinMainIndex() then
+		return false
+	end
+
+	return true
 end
 
 slot0.CanShare = function(slot0)

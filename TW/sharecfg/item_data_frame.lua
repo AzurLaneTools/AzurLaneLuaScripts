@@ -568,7 +568,7 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[10001] = {
-		name = "極限的挑戰者·雙子座",
+		name = "限界的挑戰者·雙子座",
 		gain_by = "",
 		time_second = 0,
 		id = 10001,
@@ -577,7 +577,7 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[10002] = {
-		name = "極限的挑戰者·巨蟹座",
+		name = "限界的挑戰者·巨蟹座",
 		gain_by = "",
 		time_second = 0,
 		id = 10002,
@@ -604,7 +604,7 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[10005] = {
-		name = "極限的挑戰者·天秤座",
+		name = "限界的挑戰者·天秤座",
 		gain_by = "",
 		time_second = 0,
 		id = 10005,
@@ -622,7 +622,7 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[10007] = {
-		name = "極限的挑戰者·射手座",
+		name = "限界的挑戰者·射手座",
 		gain_by = "",
 		time_second = 0,
 		id = 10007,
@@ -637,6 +637,15 @@ pg.item_data_frame = {
 		id = 10008,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>結晶之中閃爍著摩羯座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （25.01.01-25.01.31）",
+		scene = {}
+	},
+	[10009] = {
+		name = "限界的挑戰者·水瓶座",
+		gain_by = "",
+		time_second = 0,
+		id = 10009,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>結晶之中閃爍著水瓶座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （25.02.01-25.02.28）",
 		scene = {}
 	},
 	[40001] = {
@@ -720,6 +729,7 @@ pg.item_data_frame = {
 		10006,
 		10007,
 		10008,
+		10009,
 		40001
 	}
 }

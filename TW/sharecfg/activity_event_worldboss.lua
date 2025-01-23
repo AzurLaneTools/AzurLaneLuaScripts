@@ -1188,6 +1188,7 @@ pg.activity_event_worldboss = {
 	{
 		group_num = 1,
 		submarine_num = 1,
+		time = "stop",
 		ticket = 2021,
 		damage_resource = 2020,
 		ex_expedition = 1789004,
@@ -1220,32 +1221,6 @@ pg.activity_event_worldboss = {
 			500,
 			0,
 			0
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		formula = {
 			10,
@@ -1313,6 +1288,134 @@ pg.activity_event_worldboss = {
 			}
 		}
 	},
+	{
+		group_num = 1,
+		submarine_num = 1,
+		ticket = 2023,
+		damage_resource = 2022,
+		ex_expedition = 1889004,
+		extrachallenge_id = 3,
+		id = 13,
+		boss_id = {
+			12
+		},
+		reward_pt = {
+			9500,
+			9500,
+			9500,
+			9000,
+			8500,
+			8000,
+			7500,
+			7000,
+			6500,
+			6000,
+			5500,
+			5000,
+			4500,
+			4000,
+			3500,
+			3000,
+			2500,
+			2000,
+			1500,
+			1000,
+			500,
+			0,
+			0
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		formula = {
+			10,
+			5,
+			2,
+			60,
+			0.026,
+			0.68,
+			1.3,
+			11.7,
+			0.1
+		},
+		ex_expedition_enemy = {
+			{
+				1889004,
+				{
+					16699401
+				}
+			}
+		},
+		normal_expedition = {
+			1889001,
+			1889002,
+			1889003
+		},
+		normal_expedition_drop_num = {
+			{
+				{
+					1889001
+				},
+				15
+			},
+			{
+				{
+					1889002
+				},
+				15
+			},
+			{
+				{
+					1889003
+				},
+				15
+			}
+		},
+		stage_hp = {},
+		expedition_buff = {},
+		expedition_both_buff = {},
+		use_oil_limit = {
+			{
+				0,
+				0
+			},
+			{
+				0,
+				0
+			},
+			{
+				25,
+				16
+			},
+			{
+				40,
+				16
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1325,6 +1428,7 @@ pg.activity_event_worldboss = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }

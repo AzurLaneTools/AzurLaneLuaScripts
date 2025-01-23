@@ -247,6 +247,10 @@ pg.task_meta_data_template = setmetatable({
 		100313,
 		100314,
 		100315,
+		100341,
+		100342,
+		100343,
+		100344,
 		200001,
 		200002,
 		200003,
@@ -334,7 +338,11 @@ pg.task_meta_data_template = setmetatable({
 		200221,
 		200222,
 		200223,
-		200224
+		200224,
+		200251,
+		200252,
+		200253,
+		200254
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2299,6 +2307,38 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用{namecode:229}擊破等級＞100的敵方1次"
 	},
+	[100341] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100341,
+		target_num = 1,
+		desc = "使用{namecode:237}獲得1次勝利"
+	},
+	[100342] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100342,
+		target_num = 1,
+		desc = "使用{namecode:237}擊破等級＞30的敵方1次"
+	},
+	[100343] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100343,
+		target_num = 1,
+		desc = "使用{namecode:237}擊破等級＞55的敵方1次"
+	},
+	[100344] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100344,
+		target_num = 1,
+		desc = "使用{namecode:237}擊破等級＞80的敵方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3002,5 +3042,37 @@ pg.base.task_meta_data_template = {
 		id = 200224,
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:229}擊破等級＞100的敵方1次"
+	},
+	[200251] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200251,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:237}獲得1次勝利"
+	},
+	[200252] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200252,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:237}擊破等級＞70的敵方1次"
+	},
+	[200253] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200253,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:237}擊破等級＞90的敵方1次"
+	},
+	[200254] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970604",
+		id = 200254,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:237}擊破等級＞100的敵方1次"
 	}
 }

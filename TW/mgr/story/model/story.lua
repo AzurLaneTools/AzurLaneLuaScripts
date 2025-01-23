@@ -42,7 +42,7 @@ slot0.PlaceholderMap = {
 	dorm3d = slot0.DORM
 }
 
-slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
+slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.name = slot1.id
 	slot0.mode = slot1.mode
 	slot0.once = slot1.once
@@ -53,15 +53,15 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.dialogueBox = slot1.dialogbox or 1
 	slot0.defaultTb = slot1.defaultTb
 	slot0.placeholder = 0
-	slot6 = ipairs
-	slot7 = slot1.placeholder or {}
+	slot7 = ipairs
+	slot8 = slot1.placeholder or {}
 
-	for slot9, slot10 in slot6(slot7) do
-		slot11 = uv0.PlaceholderMap[slot10] or 0
+	for slot10, slot11 in slot7(slot8) do
+		slot12 = uv0.PlaceholderMap[slot11] or 0
 
-		assert(slot11 > 0, slot10)
+		assert(slot12 > 0, slot11)
 
-		slot0.placeholder = bit.bor(slot0.placeholder, slot11)
+		slot0.placeholder = bit.bor(slot0.placeholder, slot12)
 	end
 
 	slot0.hideRecord = defaultValue(slot1.hideRecord, false)
@@ -75,49 +75,51 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	slot0.steps = {}
-	slot6 = 0
-	slot7 = slot3 or {}
-	slot8 = {}
-	slot9 = ipairs
-	slot10 = slot1.scripts or {}
+	slot7 = 0
+	slot8 = slot3 or {}
+	slot9 = {}
+	slot10 = ipairs
+	slot11 = slot1.scripts or {}
 
-	for slot12, slot13 in slot9(slot10) do
-		if uv0.GetStoryStepCls(slot13.mode or slot0.mode).New(slot13):IsDialogueMode() and slot0:IsDialogueStyle2() then
-			slot16:SetDefaultSide()
+	for slot13, slot14 in slot10(slot11) do
+		if uv0.GetStoryStepCls(slot14.mode or slot0.mode).New(slot14):IsVaild(slot6) then
+			if slot17:IsDialogueMode() and slot0:IsDialogueStyle2() then
+				slot17:SetDefaultSide()
+			end
+
+			slot17:SetId(slot13)
+			slot17:SetPlaceholderType(slot0:GetPlaceholder())
+			slot17:SetDefaultTb(slot0.defaultTb)
+
+			if slot17:ExistOption() then
+				slot7 = slot7 + 1
+
+				slot17:SetOptionIndex(slot7)
+
+				if slot8[slot7] then
+					slot17:SetOptionSelCodes(slot8[slot7])
+				end
+
+				if slot4 then
+					slot17.important = true
+				end
+
+				table.insert(slot9, slot13)
+
+				if slot5 then
+					slot17:AutoShowOption()
+				end
+			end
+
+			table.insert(slot0.steps, slot17)
 		end
-
-		slot16:SetId(slot12)
-		slot16:SetPlaceholderType(slot0:GetPlaceholder())
-		slot16:SetDefaultTb(slot0.defaultTb)
-
-		if slot16:ExistOption() then
-			slot6 = slot6 + 1
-
-			slot16:SetOptionIndex(slot6)
-
-			if slot7[slot6] then
-				slot16:SetOptionSelCodes(slot7[slot6])
-			end
-
-			if slot4 then
-				slot16.important = true
-			end
-
-			table.insert(slot8, slot12)
-
-			if slot5 then
-				slot16:AutoShowOption()
-			end
-		end
-
-		table.insert(slot0.steps, slot16)
 	end
 
 	if #slot0.steps > 0 then
-		table.insert(slot8, #slot0.steps)
+		table.insert(slot9, #slot0.steps)
 	end
 
-	slot0:HandleRecallOptions(slot8)
+	slot0:HandleRecallOptions(slot9)
 
 	slot0.branchCode = nil
 	slot0.force = slot2

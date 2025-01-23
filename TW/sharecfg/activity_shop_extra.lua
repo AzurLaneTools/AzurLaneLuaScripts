@@ -3160,7 +3160,7 @@ pg.activity_shop_extra = {
 		id = 113,
 		order = 9,
 		scene = {
-			"springfestival town",
+			"SPRING_FESTIVAL_BACKHILL_2024",
 			{
 				isOpenRedPacket = true
 			}
@@ -3202,7 +3202,7 @@ pg.activity_shop_extra = {
 		id = 114,
 		order = 9,
 		scene = {
-			"springfestival town",
+			"SPRING_FESTIVAL_BACKHILL_2024",
 			{
 				isOpenRedPacket = true
 			}
@@ -3539,6 +3539,46 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[125] = {
+		num_limit = 1,
+		activity = 45918,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 803012,
+		end_by_maintenance = 0,
+		id = 125,
+		order = 5,
+		scene = {
+			"crusing",
+			{}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5001] = {
 		num_limit = 1,
 		activity = 40146,
@@ -3724,6 +3764,45 @@ pg.activity_shop_extra = {
 			}
 		}
 	},
+	[5006] = {
+		num_limit = 1,
+		activity = 5779,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 502041,
+		end_by_maintenance = 0,
+		id = 5006,
+		order = 5,
+		scene = {
+			"scene RED PACKEY"
+		},
+		time = {
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	get_id_list_by_commodity_type = {
 		[7] = {
 			1,
@@ -3823,11 +3902,13 @@ pg.activity_shop_extra = {
 			120,
 			123,
 			124,
+			125,
 			5001,
 			5002,
 			5003,
 			5004,
-			5005
+			5005,
+			5006
 		}
 	},
 	all = {
@@ -3928,10 +4009,12 @@ pg.activity_shop_extra = {
 		120,
 		123,
 		124,
+		125,
 		5001,
 		5002,
 		5003,
 		5004,
-		5005
+		5005,
+		5006
 	}
 }

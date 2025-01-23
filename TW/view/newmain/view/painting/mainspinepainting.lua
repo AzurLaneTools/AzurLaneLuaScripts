@@ -23,6 +23,12 @@ slot0.OnLoad = function(slot0, slot1)
 		uv0:AdJustOrderInLayer(slot0)
 		uv0:InitSpecialTouch()
 		uv1()
+
+		if uv0._initTriggerEvent then
+			uv0:TriggerEvent(uv0._initTriggerEvent)
+
+			uv0._initTriggerEvent = nil
+		end
 	end)
 end
 
@@ -84,19 +90,15 @@ slot0.InitSpecialTouch = function(slot0)
 							return
 						end
 
-						if uv0.spinePainting:DoDragClick() then
-							return
-						else
-							slot2 = uv0.uiCam:ScreenToWorldPoint(slot1.position)
+						if not uv0.spinePainting:DoDragClick() then
+							slot3 = uv0.uiCam:ScreenToWorldPoint(slot1.position)
 
-							for slot6 = 1, #uv0.specialClickDic do
-								slot7 = uv0.specialClickDic[slot6]
+							for slot7 = 1, #uv0.specialClickDic do
+								slot8 = uv0.specialClickDic[slot7]
 
-								if math.abs(slot7.tf:InverseTransformPoint(slot2).x) < slot7.bound.x / 2 and math.abs(slot8.y) < slot7.bound.y / 2 then
-									uv0:TriggerEvent(slot7.name)
-									uv0:TriggerPersonalTask(slot7.task)
-
-									return
+								if math.abs(slot8.tf:InverseTransformPoint(slot3).x) < slot8.bound.x / 2 and math.abs(slot9.y) < slot8.bound.y / 2 then
+									uv0:OnPrepareTriggerEvent(slot8.name)
+									uv0:TriggerPersonalTask(slot8.task)
 								end
 							end
 						end
@@ -179,6 +181,28 @@ slot0.OnEnableTimerEvent = function(slot0)
 	return not slot0.spinePainting:isInAction()
 end
 
+slot0.PrepareTriggerAction = function(slot0, slot1)
+	slot2, slot3 = nil
+
+	if pg.AssistantInfo.assistantEvents[slot1] then
+		slot2 = pg.AssistantInfo.assistantEvents[slot1].action
+
+		if SpinePaintingConst.ship_action_extend[slot0.spinePainting:getPaintingName()] and table.contains(slot4, slot2) then
+			slot3 = true
+		end
+	end
+
+	if slot3 then
+		slot4 = slot0.spinePainting
+
+		slot4:SetOnceAction(slot2, nil, function ()
+			uv0:TryToTriggerEvent(uv1)
+		end, true)
+	else
+		slot0:TryToTriggerEvent(slot1)
+	end
+end
+
 slot0.OnDisplayWorld = function(slot0, slot1)
 	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) ~= "" then
 		slot0.spinePainting:SetAction(slot3, 1)
@@ -200,6 +224,28 @@ slot0.OnLongPress = function(slot0)
 	pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SHIPINFO, {
 		shipId = slot0.ship.id
 	})
+end
+
+slot0.PlayChangeSkinActionIn = function(slot0, slot1)
+	if slot0.spinePainting and slot0.spinePainting:getInitFlag() then
+		slot0:TriggerEvent("event_login")
+	else
+		slot0._initTriggerEvent = "event_login"
+	end
+
+	if slot1 and slot1.callback then
+		slot1.callback({
+			flag = true
+		})
+	end
+end
+
+slot0.PlayChangeSkinActionOut = function(slot0, slot1)
+	if slot1 and slot1.callback then
+		slot1.callback({
+			flag = true
+		})
+	end
 end
 
 slot0.OnUnload = function(slot0)

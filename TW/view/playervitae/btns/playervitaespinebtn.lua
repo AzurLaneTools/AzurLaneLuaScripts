@@ -17,6 +17,10 @@ slot0.GetDefaultValue = function(slot0)
 end
 
 slot0.OnSwitch = function(slot0, slot1)
+	if ShipGroup.GetChangeSkinData(slot0.ship.skinId) and true or false then
+		getProxy(SettingsProxy):setCharacterSetting(slot0.ship.id, SHIP_FLAG_L2D, slot1)
+	end
+
 	getProxy(SettingsProxy):setCharacterSetting(slot0.ship.id, SHIP_FLAG_SP, slot1)
 
 	return true

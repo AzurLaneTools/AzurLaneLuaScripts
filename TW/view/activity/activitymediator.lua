@@ -50,6 +50,7 @@ slot0.ON_ACTIVITY_TASK_SUBMIT = "ActivityMediator.ON_ACTIVITY_TASK_SUBMIT"
 slot0.GO_CHANGE_SHOP = "go Change shop"
 slot0.GO_Activity_level = "go Activity level"
 slot0.ON_ADD_SUBLAYER = "ActivityMediator.ON_ADD_SUBLAYER"
+slot0.GO_SPECIAL_EXERCISE = "go Special exercise"
 
 slot0.register = function(slot0)
 	slot0.UIAvalibleCallbacks = {}
@@ -227,6 +228,9 @@ slot0.register = function(slot0)
 				mapIdx = slot1
 			})
 		end
+	end)
+	slot0:bind(uv0.GO_SPECIAL_EXERCISE, function ()
+		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ACT_BOSS_BATTLE)
 	end)
 	slot0:bind(uv0.SPECIAL_BATTLE_OPERA, function ()
 		slot1, slot2 = getProxy(ChapterProxy):getLastMapForActivity()

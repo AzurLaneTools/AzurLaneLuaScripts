@@ -196,7 +196,7 @@ slot0.GetSkinList = function(slot0, slot1, slot2)
 	slot3 = {}
 
 	for slot8, slot9 in pairs(getProxy(ShipSkinProxy):GetOwnSkins()) do
-		if (slot1 == uv0.PAGE_ALL or slot9:IsType(slot1)) and not slot9:IsDefault() and slot9:IsMatchKey(slot2) and slot0:MatchIndex(slot9) then
+		if (slot1 == uv0.PAGE_ALL or slot9:IsType(slot1)) and not slot9:IsDefault() and slot9:IsMatchKey(slot2) and slot0:MatchIndex(slot9) and slot9:MatchChangeSkinMain() then
 			table.insert(slot3, slot9)
 		end
 	end
@@ -227,6 +227,9 @@ slot0.OnInitItem = function(slot0, slot1)
 
 	onButton(slot0, slot2._tf, function ()
 		uv0.previewPage:ExecuteAction("Show", uv1.skin, uv1.index)
+	end, SFX_PANEL)
+	onButton(slot0, slot2.changeSkinUI, function ()
+		uv0:changeSkinNext()
 	end, SFX_PANEL)
 
 	slot0.cards[slot1] = slot2

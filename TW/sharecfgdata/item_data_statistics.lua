@@ -8120,6 +8120,37 @@ _G.pg.base.item_data_statistics[11055] = {
 }
 
 
+_G.pg.base.item_data_statistics[11057] = {
+	open_directly = 0,
+	name = "533mm魚雷Mark35（4連發射）T0設計圖",
+	type = 9,
+	display = "533mm魚雷Mark35（4連發射）T0設計圖",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/15300",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 11057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[12000] = {
 	open_directly = 0,
 	name = "九三式純氧魚雷T3設計圖",
@@ -14773,6 +14804,37 @@ _G.pg.base.item_data_statistics[21036] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21036,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21039] = {
+	open_directly = 0,
+	name = "結晶：{namecode:237}",
+	type = 4,
+	display = "{namecode:237}的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21039",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21039,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -24338,6 +24400,131 @@ _G.pg.base.item_data_statistics[30362] = {
 }
 
 
+_G.pg.base.item_data_statistics[30364] = {
+	open_directly = 1,
+	name = "外觀裝備箱(瑞光迎歲)",
+	type = 11,
+	display = "可以獲得一件隨機的瑞光迎歲風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxruiguangyingsui",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30364",
+	id = 30364,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4095,
+			1
+		},
+		{
+			9,
+			4096,
+			1
+		},
+		{
+			9,
+			4097,
+			1
+		},
+		{
+			9,
+			4098,
+			1
+		},
+		{
+			9,
+			4099,
+			1
+		},
+		{
+			9,
+			4100,
+			1
+		},
+		{
+			9,
+			4101,
+			1
+		},
+		{
+			9,
+			4102,
+			1
+		},
+		{
+			9,
+			4103,
+			1
+		},
+		{
+			9,
+			4104,
+			1
+		},
+		{
+			9,
+			4105,
+			1
+		},
+		{
+			9,
+			4106,
+			1
+		},
+		{
+			9,
+			4107,
+			1
+		},
+		{
+			9,
+			4108,
+			1
+		},
+		{
+			9,
+			4109,
+			1
+		},
+		{
+			9,
+			4110,
+			1
+		},
+		{
+			9,
+			4111,
+			1
+		},
+		{
+			9,
+			4112,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -25491,6 +25678,68 @@ _G.pg.base.item_data_statistics[30422] = {
 		{
 			9,
 			2078,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30423] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30423",
+	id = 30423,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2079,
+			1
+		},
+		{
+			9,
+			2080,
+			1
+		},
+		{
+			9,
+			2081,
+			1
+		},
+		{
+			9,
+			2082,
+			1
+		},
+		{
+			9,
+			2083,
+			1
+		},
+		{
+			9,
+			2084,
 			1
 		}
 	},
@@ -34678,6 +34927,219 @@ _G.pg.base.item_data_statistics[30545] = {
 }
 
 
+_G.pg.base.item_data_statistics[30546] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(紅月)",
+	type = 13,
+	display = "使用後可從「紅月之夜」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhongyuezixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30546,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			540,
+			1
+		},
+		{
+			9,
+			541,
+			1
+		},
+		{
+			9,
+			542,
+			1
+		},
+		{
+			9,
+			543,
+			1
+		},
+		{
+			9,
+			544,
+			1
+		},
+		{
+			9,
+			545,
+			1
+		},
+		{
+			9,
+			546,
+			1
+		},
+		{
+			9,
+			547,
+			1
+		},
+		{
+			9,
+			548,
+			1
+		},
+		{
+			9,
+			549,
+			1
+		},
+		{
+			9,
+			550,
+			1
+		},
+		{
+			9,
+			551,
+			1
+		},
+		{
+			9,
+			552,
+			1
+		},
+		{
+			9,
+			553,
+			1
+		},
+		{
+			9,
+			554,
+			1
+		},
+		{
+			9,
+			555,
+			1
+		},
+		{
+			9,
+			556,
+			1
+		},
+		{
+			9,
+			557,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			540,
+			1
+		},
+		{
+			9,
+			541,
+			1
+		},
+		{
+			9,
+			542,
+			1
+		},
+		{
+			9,
+			543,
+			1
+		},
+		{
+			9,
+			544,
+			1
+		},
+		{
+			9,
+			545,
+			1
+		},
+		{
+			9,
+			546,
+			1
+		},
+		{
+			9,
+			547,
+			1
+		},
+		{
+			9,
+			548,
+			1
+		},
+		{
+			9,
+			549,
+			1
+		},
+		{
+			9,
+			550,
+			1
+		},
+		{
+			9,
+			551,
+			1
+		},
+		{
+			9,
+			552,
+			1
+		},
+		{
+			9,
+			553,
+			1
+		},
+		{
+			9,
+			554,
+			1
+		},
+		{
+			9,
+			555,
+			1
+		},
+		{
+			9,
+			556,
+			1
+		},
+		{
+			9,
+			557,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30548] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(ToLOVE-Ru)",
@@ -34884,6 +35346,219 @@ _G.pg.base.item_data_statistics[30548] = {
 		{
 			9,
 			1467,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30551] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(瑞光迎歲)",
+	type = 13,
+	display = "使用後可從「瑞光迎歲」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxruiguangyingsuizixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30551,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4095,
+			1
+		},
+		{
+			9,
+			4096,
+			1
+		},
+		{
+			9,
+			4097,
+			1
+		},
+		{
+			9,
+			4098,
+			1
+		},
+		{
+			9,
+			4099,
+			1
+		},
+		{
+			9,
+			4100,
+			1
+		},
+		{
+			9,
+			4101,
+			1
+		},
+		{
+			9,
+			4102,
+			1
+		},
+		{
+			9,
+			4103,
+			1
+		},
+		{
+			9,
+			4104,
+			1
+		},
+		{
+			9,
+			4105,
+			1
+		},
+		{
+			9,
+			4106,
+			1
+		},
+		{
+			9,
+			4107,
+			1
+		},
+		{
+			9,
+			4108,
+			1
+		},
+		{
+			9,
+			4109,
+			1
+		},
+		{
+			9,
+			4110,
+			1
+		},
+		{
+			9,
+			4111,
+			1
+		},
+		{
+			9,
+			4112,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4095,
+			1
+		},
+		{
+			9,
+			4096,
+			1
+		},
+		{
+			9,
+			4097,
+			1
+		},
+		{
+			9,
+			4098,
+			1
+		},
+		{
+			9,
+			4099,
+			1
+		},
+		{
+			9,
+			4100,
+			1
+		},
+		{
+			9,
+			4101,
+			1
+		},
+		{
+			9,
+			4102,
+			1
+		},
+		{
+			9,
+			4103,
+			1
+		},
+		{
+			9,
+			4104,
+			1
+		},
+		{
+			9,
+			4105,
+			1
+		},
+		{
+			9,
+			4106,
+			1
+		},
+		{
+			9,
+			4107,
+			1
+		},
+		{
+			9,
+			4108,
+			1
+		},
+		{
+			9,
+			4109,
+			1
+		},
+		{
+			9,
+			4110,
+			1
+		},
+		{
+			9,
+			4111,
+			1
+		},
+		{
+			9,
+			4112,
 			1
 		}
 	},
@@ -68190,6 +68865,40 @@ _G.pg.base.item_data_statistics[59851] = {
 }
 
 
+_G.pg.base.item_data_statistics[59854] = {
+	open_directly = 0,
+	name = "朱雀之印",
+	type = 7,
+	display = "雕刻著東煌四神獸之一——朱雀的玉器，散發著特殊的力量 ——用於完成撫順近代化改造",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/symbolzhuque",
+	order = 0,
+	rarity = 4,
+	max_num = 1,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59854,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {
+		520024,
+		521024
+	},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "核心數據",
@@ -74335,6 +75044,266 @@ _G.pg.base.item_data_statistics[60518] = {
 }
 
 
+_G.pg.base.item_data_statistics[60527] = {
+	open_directly = 0,
+	name = "賀年卡（2025）",
+	type = 21,
+	display = "飽含祝福的賀年卡。使用後可以選擇一名特定角色贈送（獲得指定角色）",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60527,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		2901,
+		2902,
+		2903,
+		2904,
+		2905,
+		2906,
+		2907
+	},
+	limit = {},
+	open_ui = {
+		"greeting_year",
+		"t_greeting"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60528] = {
+	open_directly = 0,
+	name = "{namecode:97}的賀年卡",
+	type = 1,
+	display = "由{namecode:97}處收到的，春節賀年卡",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60528,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60529] = {
+	open_directly = 0,
+	name = "華甲的賀年卡",
+	type = 1,
+	display = "由華甲處收到的，春節賀年卡",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60529,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60530] = {
+	open_directly = 0,
+	name = "逸仙的賀年卡",
+	type = 1,
+	display = "由逸仙處收到的，春節賀年卡",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60530,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60531] = {
+	open_directly = 0,
+	name = "鎮海的賀年卡",
+	type = 1,
+	display = "由鎮海處收到的，春節賀年卡",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60531,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60532] = {
+	open_directly = 0,
+	name = "太原的賀年卡",
+	type = 1,
+	display = "由太原處收到的，春節賀年卡",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60532,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60533] = {
+	open_directly = 0,
+	name = "古比雪夫的賀年卡",
+	type = 1,
+	display = "由古比雪夫處收到的，春節賀年卡",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60533,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60534] = {
+	open_directly = 0,
+	name = "忒修斯的賀年卡",
+	type = 1,
+	display = "由忒修斯處收到的，春節賀年卡",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/henianka2025",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60534,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[70051] = {
 	open_directly = 1,
 	name = "隨機T4裝備箱",
@@ -77984,6 +78953,140 @@ _G.pg.base.item_data_statistics[81205] = {
 	shiptrans_id = {},
 	combination_display = {},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81210] = {
+	open_directly = 1,
+	name = "2025年春節福袋·I",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2025，心智單元*50，心智魔方*20，高級定向藍圖·七期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai21",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998312",
+	id = 81210,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86210,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81211] = {
+	open_directly = 1,
+	name = "2025年春節福袋·II",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2025，心智單元*50，心智魔方*20，高級定向藍圖·七期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai22",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998313",
+	id = 81211,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86211,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

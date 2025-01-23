@@ -21,6 +21,9 @@ slot0.register = function(slot0)
 	slot0.actTasks = {}
 
 	slot0:on(20201, function (slot0)
+		getProxy(AvatarFrameProxy):clearData()
+		getProxy(ActivityTaskProxy):clearData()
+
 		for slot4, slot5 in ipairs(slot0.info) do
 			slot7 = slot5.tasks
 			slot8 = slot5.finish_ids

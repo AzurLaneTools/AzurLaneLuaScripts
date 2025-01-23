@@ -84,69 +84,23 @@ return {
 		{
 			alpha = 0.4,
 			style = {
-				text = "在這裡可以將已解鎖的領航員-TB更換為秘書艦。除預設狀態外，其它個性的領航員-TB需要通關相應的個性結局解鎖",
+				text = "在這裡可以將已解鎖的角色更換為秘書艦。",
 				mode = 2,
 				dir = -1,
 				char = 1,
 				posY = -59.66,
 				posX = 90.1
-			},
-			ui = {
-				pathIndex = -1,
-				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/groupPage/main/list/tpl/anim_root",
-				fingerPos = {
-					posY = -121.3,
-					posX = 85.9
-				}
-			}
-		},
-		{
-			delay = 1,
-			alpha = 0,
-			style = {
-				text = "更多外形可透過在「養成計畫」中收集一定數量的「瞬間」解鎖。",
-				mode = 2,
-				dir = 1,
-				char = 1,
-				posY = -147.2,
-				posX = -469.33
 			}
 		},
 		{
 			alpha = 0.4,
 			style = {
-				text = "選擇特殊秘書艦對應形態。",
+				text = "更多角色外型可透過在「養成計畫」中達成不同條件解鎖。",
 				mode = 2,
-				dir = -1,
-				char = 1,
-				posY = -76,
-				posX = 230
-			},
-			ui = {
-				pathIndex = 0,
-				path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/list/content",
-				fingerPos = {
-					posY = -115,
-					posX = 52
-				}
-			}
-		},
-		{
-			alpha = 0.4,
-			style = {
-				text = "點選「確定」按鈕後可更換特殊秘書艦至主介面。",
-				mode = 2,
-				char = 1,
-				posY = -244.8,
 				dir = 1,
-				posX = 624.4,
-				uiset = {
-					{
-						pathIndex = -1,
-						lineMode = 2,
-						path = "/UICamera/Canvas/UIMain/EducateCharDockUI(Clone)/adapt/pages/EducateCharDockSelectUI(Clone)/confirm_btn"
-					}
-				}
+				char = 1,
+				posY = -59.66,
+				posX = 90.1
 			}
 		}
 	}

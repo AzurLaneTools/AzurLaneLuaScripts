@@ -43,10 +43,11 @@ slot0.OnInit = function(slot0)
 		uv0:UpdateView()
 		setActive(uv0.showExpireCheckBox, uv0.showExpire)
 	end)
+	triggerButton(slot0.showExpireBtn)
 
 	slot0.rectAnchorX = slot0:findTF("GroupRect").anchoredPosition.x
 
-	slot0:UpdateView()
+	slot0:UpdateView(slot0.showExpireBtn)
 end
 
 slot0.onInitAlbumGroup = function(slot0, slot1)

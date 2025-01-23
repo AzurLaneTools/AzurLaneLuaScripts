@@ -19,7 +19,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.timelimitTag = findTF(slot0.tr, "bg/timelimit")
 	slot0.timelimitTimeTxt = findTF(slot0.tr, "bg/timelimit_time")
 	slot0.shareFlag = findTF(slot0.tr, "bg/share")
+	slot0.changeSkinTF = findTF(slot0.tr, "bg/change_skin")
+	slot0.changeSkinToggle = ChangeSkinToggle.New(findTF(slot0.changeSkinTF, "ToggleUI"))
 
+	setActive(slot0.changeSkinTF, false)
 	setActive(slot0.timelimitTag, false)
 	setActive(slot0.timelimitTimeTxt, false)
 
@@ -81,29 +84,36 @@ slot0.updateSkin = function(slot0, slot1, slot2)
 end
 
 slot0.updateData = function(slot0, slot1, slot2, slot3)
-	if slot0.ship ~= slot1 or slot0.skin ~= slot2 or slot0.own ~= slot3 then
+	if slot0.ship ~= slot1 or slot0.skin ~= slot2 or slot0.own ~= slot3 or slot0.skinId ~= slot2.id then
 		slot0.ship = slot1
 		slot0.skin = slot2
 		slot0.own = slot3
+		slot0.skinId = slot0.skin.id
+
+		setActive(slot0.changeSkinTF, ShipGroup.GetChangeSkinData(slot0.skin.id) and true or false)
+
+		if slot4 then
+			slot0.changeSkinToggle:setShipData(slot0.skin.id, slot0.ship.id)
+		end
 
 		setActive(slot0.nameBar, true)
 		setActive(slot0.effectBar, false)
 		setText(slot0.name, shortenString(slot2.name, 7))
 
-		slot4 = slot0.skin.id == slot0.ship:getConfig("skin_id")
-		slot6 = false
+		slot5 = slot0.skin.id == slot0.ship:getConfig("skin_id")
+		slot7 = false
 
 		if ShipSkin.IsShareSkin(slot0.ship, slot0.skin.id) then
-			slot6 = ShipSkin.CanUseShareSkinForShip(slot0.ship, slot0.skin.id)
+			slot7 = ShipSkin.CanUseShareSkinForShip(slot0.ship, slot0.skin.id)
 		end
 
-		setActive(slot0.shareFlag, slot5)
+		setActive(slot0.shareFlag, slot6)
 
-		slot7 = not slot4 and not slot3 or slot5 and not slot6
+		slot8 = not slot5 and not slot3 or slot6 and not slot7
 
-		setActive(slot0.bgMark, slot7)
+		setActive(slot0.bgMark, slot8)
 
-		if slot7 then
+		if slot8 then
 			setActive(slot0.picNotBuy, false)
 			setActive(slot0.picActivity, false)
 			setActive(slot0.picPropose, false)
@@ -119,7 +129,7 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 				return pg.activity_shop_extra[slot0].commodity_type == DROP_TYPE_SKIN and slot1.commodity_id == uv0.skin.id
 			end)) then
 				setActive(slot0.picActivity, true)
-			elseif slot5 and not slot6 then
+			elseif slot6 and not slot7 then
 				setActive(slot0.picShare, true)
 			else
 				setActive(slot0.picActivity, true)
@@ -128,8 +138,8 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 
 		setActive(slot0.tags, true)
 
-		for slot11 = 0, slot0.tags.childCount - 1 do
-			setActive(slot0.tags:GetChild(slot11), false)
+		for slot12 = 0, slot0.tags.childCount - 1 do
+			setActive(slot0.tags:GetChild(slot12), false)
 		end
 
 		_.each(slot2.tag, function (slot0)
@@ -137,16 +147,16 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 		end)
 		slot0:flushSkin()
 
-		slot9 = getProxy(ShipSkinProxy):getSkinById(slot0.skin.id) and slot8:isExpireType() and not slot8:isExpired()
+		slot10 = getProxy(ShipSkinProxy):getSkinById(slot0.skin.id) and slot9:isExpireType() and not slot9:isExpired()
 
-		setActive(slot0.timelimitTag, slot9)
-		setActive(slot0.timelimitTimeTxt, slot9)
+		setActive(slot0.timelimitTag, slot10)
+		setActive(slot0.timelimitTimeTxt, slot10)
 
 		if slot0.skinTimer then
 			slot0.skinTimer:Stop()
 		end
 
-		if slot9 then
+		if slot10 then
 			slot0.skinTimer = Timer.New(function ()
 				setText(uv1.timelimitTimeTxt:Find("Text"), skinTimeStamp(uv0:getRemainTime()))
 			end, 1, -1)

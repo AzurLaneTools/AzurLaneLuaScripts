@@ -252959,7 +252959,8 @@ _G.pg.base.ship_data_statistics[501021] = {
 	},
 	tag_list = {
 		"Zhuque",
-		"Anshan-Class"
+		"Anshan-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -253086,7 +253087,8 @@ _G.pg.base.ship_data_statistics[501022] = {
 	},
 	tag_list = {
 		"Zhuque",
-		"Anshan-Class"
+		"Anshan-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -253213,7 +253215,8 @@ _G.pg.base.ship_data_statistics[501023] = {
 	},
 	tag_list = {
 		"Zhuque",
-		"Anshan-Class"
+		"Anshan-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -253340,7 +253343,8 @@ _G.pg.base.ship_data_statistics[501024] = {
 	},
 	tag_list = {
 		"Zhuque",
-		"Anshan-Class"
+		"Anshan-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -255490,7 +255494,9 @@ _G.pg.base.ship_data_statistics[501071] = {
 		{}
 	},
 	tag_list = {
-		"Fei Yuen"
+		"Fei Yuen",
+		"Chang Feng-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -255616,7 +255622,9 @@ _G.pg.base.ship_data_statistics[501072] = {
 		{}
 	},
 	tag_list = {
-		"Fei Yuen"
+		"Fei Yuen",
+		"Chang Feng-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -255742,7 +255750,9 @@ _G.pg.base.ship_data_statistics[501073] = {
 		{}
 	},
 	tag_list = {
-		"Fei Yuen"
+		"Fei Yuen",
+		"Chang Feng-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -255868,7 +255878,1029 @@ _G.pg.base.ship_data_statistics[501074] = {
 		{}
 	},
 	tag_list = {
-		"Fei Yuen"
+		"Fei Yuen",
+		"Chang Feng-Class",
+		"Fubo's Plan"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501081] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "長風",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501081,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chang Feng",
+	oxy_cost = 0,
+	skin_id = 501080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		298,
+		19,
+		40,
+		23,
+		0,
+		73,
+		0,
+		66,
+		64,
+		43.2,
+		15,
+		30
+	},
+	attrs_growth = {
+		7388,
+		258,
+		554,
+		508,
+		0,
+		510,
+		0,
+		1041,
+		1212,
+		0,
+		0,
+		360
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		0.95
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chang Feng",
+		"Chang Feng-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501082] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "長風",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501082,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chang Feng",
+	oxy_cost = 0,
+	skin_id = 501080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		371,
+		24,
+		50,
+		29,
+		0,
+		73,
+		0,
+		66,
+		64,
+		43.2,
+		15,
+		37
+	},
+	attrs_growth = {
+		7388,
+		258,
+		554,
+		508,
+		0,
+		510,
+		0,
+		1041,
+		1212,
+		0,
+		0,
+		360
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		0.95
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chang Feng",
+		"Chang Feng-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501083] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "長風",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501083,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chang Feng",
+	oxy_cost = 0,
+	skin_id = 501080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		516,
+		33,
+		70,
+		40,
+		0,
+		73,
+		0,
+		66,
+		64,
+		43.2,
+		15,
+		52
+	},
+	attrs_growth = {
+		7388,
+		258,
+		554,
+		508,
+		0,
+		510,
+		0,
+		1041,
+		1212,
+		0,
+		0,
+		360
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chang Feng",
+		"Chang Feng-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501084] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "長風",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501084,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chang Feng",
+	oxy_cost = 0,
+	skin_id = 501080,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		734,
+		47,
+		99,
+		57,
+		0,
+		73,
+		0,
+		66,
+		64,
+		43.2,
+		15,
+		74
+	},
+	attrs_growth = {
+		7388,
+		258,
+		554,
+		508,
+		0,
+		510,
+		0,
+		1041,
+		1212,
+		0,
+		0,
+		360
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.4,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chang Feng",
+		"Chang Feng-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501091] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "伏波",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501091,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Fu Po",
+	oxy_cost = 0,
+	skin_id = 501090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		308,
+		18,
+		40,
+		23,
+		0,
+		74,
+		0,
+		68,
+		64,
+		43.2,
+		45,
+		32
+	},
+	attrs_growth = {
+		7642,
+		247,
+		554,
+		495,
+		0,
+		515,
+		0,
+		1068,
+		1212,
+		0,
+		0,
+		386
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		0.95
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fu Po",
+		"Chang Feng-Class",
+		"Fubo's Plan"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501092] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "伏波",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501092,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Fu Po",
+	oxy_cost = 0,
+	skin_id = 501090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		383,
+		22,
+		50,
+		29,
+		0,
+		74,
+		0,
+		68,
+		64,
+		43.2,
+		45,
+		40
+	},
+	attrs_growth = {
+		7642,
+		247,
+		554,
+		495,
+		0,
+		515,
+		0,
+		1068,
+		1212,
+		0,
+		0,
+		386
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.3,
+		0.95
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fu Po",
+		"Chang Feng-Class",
+		"Fubo's Plan"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501093] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "伏波",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501093,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Fu Po",
+	oxy_cost = 0,
+	skin_id = 501090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		533,
+		31,
+		70,
+		40,
+		0,
+		74,
+		0,
+		68,
+		64,
+		43.2,
+		45,
+		56
+	},
+	attrs_growth = {
+		7642,
+		247,
+		554,
+		495,
+		0,
+		515,
+		0,
+		1068,
+		1212,
+		0,
+		0,
+		386
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.35,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fu Po",
+		"Chang Feng-Class",
+		"Fubo's Plan"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[501094] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 1,
+	name = "伏波",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 501094,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Fu Po",
+	oxy_cost = 0,
+	skin_id = 501090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		759,
+		44,
+		99,
+		56,
+		0,
+		74,
+		0,
+		68,
+		64,
+		43.2,
+		45,
+		80
+	},
+	attrs_growth = {
+		7642,
+		247,
+		554,
+		495,
+		0,
+		515,
+		0,
+		1068,
+		1212,
+		0,
+		0,
+		386
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.4,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Fu Po",
+		"Chang Feng-Class",
+		"Fubo's Plan"
 	}
 }
 
@@ -260116,6 +261148,1014 @@ _G.pg.base.ship_data_statistics[502094] = {
 }
 
 
+_G.pg.base.ship_data_statistics[502101] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 2,
+	name = "海容",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 502101,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hai Yung",
+	oxy_cost = 0,
+	skin_id = 502100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		513,
+		17,
+		47,
+		29,
+		0,
+		57,
+		0,
+		54,
+		25,
+		20.75,
+		45,
+		18
+	},
+	attrs_growth = {
+		12716,
+		233,
+		643,
+		638,
+		0,
+		400,
+		0,
+		793,
+		451,
+		0,
+		0,
+		226
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		105
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.7,
+		0.9,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hai Yung-Class",
+		"Hai Yung"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[502102] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 2,
+	name = "海容",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 502102,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hai Yung",
+	oxy_cost = 0,
+	skin_id = 502100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		638,
+		21,
+		59,
+		36,
+		0,
+		57,
+		0,
+		54,
+		25,
+		20.75,
+		45,
+		23
+	},
+	attrs_growth = {
+		12716,
+		233,
+		643,
+		638,
+		0,
+		400,
+		0,
+		793,
+		451,
+		0,
+		0,
+		226
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		105
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.75,
+		0.9,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hai Yung-Class",
+		"Hai Yung"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[502103] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 2,
+	name = "海容",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 502103,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hai Yung",
+	oxy_cost = 0,
+	skin_id = 502100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		888,
+		29,
+		82,
+		50,
+		0,
+		57,
+		0,
+		54,
+		25,
+		20.75,
+		45,
+		32
+	},
+	attrs_growth = {
+		12716,
+		233,
+		643,
+		638,
+		0,
+		400,
+		0,
+		793,
+		451,
+		0,
+		0,
+		226
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		105
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		0.9,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hai Yung-Class",
+		"Hai Yung"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[502104] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 2,
+	name = "海容",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 502104,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hai Yung",
+	oxy_cost = 0,
+	skin_id = 502100,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1263,
+		42,
+		116,
+		72,
+		0,
+		57,
+		0,
+		54,
+		25,
+		20.75,
+		45,
+		45
+	},
+	attrs_growth = {
+		12716,
+		233,
+		643,
+		638,
+		0,
+		400,
+		0,
+		793,
+		451,
+		0,
+		0,
+		226
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		100,
+		105
+	},
+	depth_charge_list = {
+		147
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		0.9,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hai Yung-Class",
+		"Hai Yung"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[503011] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 3,
+	name = "建武",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 503011,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chien Wu",
+	oxy_cost = 0,
+	skin_id = 503010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		721,
+		27,
+		47,
+		21,
+		0,
+		57,
+		0,
+		55,
+		22,
+		28,
+		54,
+		0
+	},
+	attrs_growth = {
+		17871,
+		370,
+		653,
+		468,
+		0,
+		400,
+		0,
+		816,
+		395,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		105
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.9,
+		1,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chien Wu"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[503012] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 3,
+	name = "建武",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 503012,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chien Wu",
+	oxy_cost = 0,
+	skin_id = 503010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		897,
+		34,
+		59,
+		26,
+		0,
+		57,
+		0,
+		55,
+		22,
+		28,
+		54,
+		0
+	},
+	attrs_growth = {
+		17871,
+		370,
+		653,
+		468,
+		0,
+		400,
+		0,
+		816,
+		395,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		105
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		1,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chien Wu"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[503013] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 3,
+	name = "建武",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 503013,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chien Wu",
+	oxy_cost = 0,
+	skin_id = 503010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1248,
+		47,
+		82,
+		37,
+		0,
+		57,
+		0,
+		55,
+		22,
+		28,
+		54,
+		0
+	},
+	attrs_growth = {
+		17871,
+		370,
+		653,
+		468,
+		0,
+		400,
+		0,
+		816,
+		395,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		105
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		1
+	},
+	equipment_proficiency = {
+		1.05,
+		1,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chien Wu"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[503014] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 3,
+	name = "建武",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 503014,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Chien Wu",
+	oxy_cost = 0,
+	skin_id = 503010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1776,
+		67,
+		118,
+		53,
+		0,
+		57,
+		0,
+		55,
+		22,
+		28,
+		54,
+		0
+	},
+	attrs_growth = {
+		17871,
+		370,
+		653,
+		468,
+		0,
+		400,
+		0,
+		816,
+		395,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		101,
+		105
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		1
+	},
+	equipment_proficiency = {
+		1.2,
+		1,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Chien Wu"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[504011] = {
 	nationality = 5,
 	oxy_max = 0,
@@ -261736,6 +263776,130 @@ _G.pg.base.ship_data_statistics[506024] = {
 }
 
 
+_G.pg.base.ship_data_statistics[506124] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 6,
+	name = "華甲·改",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 506124,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hwah Jah",
+	oxy_cost = 0,
+	skin_id = 506020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1975,
+		0,
+		0,
+		67,
+		154,
+		64,
+		0,
+		28,
+		13,
+		12,
+		53,
+		0
+	},
+	attrs_growth = {
+		21850,
+		0,
+		0,
+		593,
+		815,
+		445,
+		0,
+		458,
+		305,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		152,
+		152,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.5,
+		0.8
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Hwah Jahi"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[519011] = {
 	nationality = 5,
 	oxy_max = 0,
@@ -262364,6 +264528,139 @@ _G.pg.base.ship_data_statistics[520014] = {
 }
 
 
+_G.pg.base.ship_data_statistics[520024] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 20,
+	name = "撫順.改",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.2",
+	rarity = 4,
+	ammo = 0,
+	id = 520024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "PRAN Fu shun",
+	oxy_cost = 0,
+	skin_id = 501020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		904,
+		59,
+		106,
+		80,
+		0,
+		74,
+		0,
+		68,
+		61,
+		45.6,
+		51,
+		122
+	},
+	attrs_growth = {
+		10459,
+		328,
+		590,
+		709,
+		0,
+		515,
+		0,
+		1045,
+		1132,
+		0,
+		0,
+		564
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1.5,
+		1.05
+	},
+	strategy_list = {
+		{
+			18,
+			1
+		}
+	},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Zhuque",
+		"Anshan-Class",
+		"Fubo's Plan"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[520034] = {
 	nationality = 5,
 	oxy_max = 0,
@@ -262757,6 +265054,140 @@ _G.pg.base.ship_data_statistics[521014] = {
 		"Qinglong",
 		"Anshan-Class",
 		"PRE"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[521024] = {
+	nationality = 5,
+	oxy_max = 0,
+	type = 21,
+	name = "撫順.改",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 521024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "PRAN Fu shun",
+	oxy_cost = 0,
+	skin_id = 501020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1409,
+		59,
+		106,
+		80,
+		0,
+		74,
+		0,
+		68,
+		21,
+		45.6,
+		51,
+		122
+	},
+	attrs_growth = {
+		16299,
+		328,
+		590,
+		709,
+		0,
+		515,
+		0,
+		1045,
+		1132,
+		0,
+		0,
+		564
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		0.85,
+		1.5,
+		1.05
+	},
+	strategy_list = {
+		{
+			18,
+			1
+		}
+	},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Zhuque",
+		"Anshan-Class",
+		"PRE",
+		"Fubo's Plan"
 	}
 }
 
@@ -378666,6 +381097,494 @@ _G.pg.base.ship_data_statistics[9706034] = {
 		"PrincetonMETA",
 		"Princeton"
 	}
+}
+
+
+_G.pg.base.ship_data_statistics[9706041] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 6,
+	name = "鳳翔·META",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9706041,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hōshō.META",
+	oxy_cost = 0,
+	skin_id = 9706040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		619,
+		27,
+		0,
+		49,
+		56,
+		65,
+		0,
+		20,
+		14,
+		25,
+		79,
+		27
+	},
+	attrs_growth = {
+		11799,
+		337,
+		0,
+		657,
+		747,
+		450,
+		0,
+		320,
+		304,
+		0,
+		0,
+		379
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		117,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.2,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9706042] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 6,
+	name = "鳳翔·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9706042,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hōshō.META",
+	oxy_cost = 0,
+	skin_id = 9706040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		770,
+		34,
+		0,
+		61,
+		70,
+		65,
+		0,
+		20,
+		14,
+		25,
+		79,
+		34
+	},
+	attrs_growth = {
+		11799,
+		337,
+		0,
+		657,
+		747,
+		450,
+		0,
+		320,
+		304,
+		0,
+		0,
+		379
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		117,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.23,
+		1.23
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9706043] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 6,
+	name = "鳳翔·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9706043,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hōshō.META",
+	oxy_cost = 0,
+	skin_id = 9706040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1072,
+		47,
+		0,
+		85,
+		97,
+		65,
+		0,
+		20,
+		14,
+		25,
+		79,
+		47
+	},
+	attrs_growth = {
+		11799,
+		337,
+		0,
+		657,
+		747,
+		450,
+		0,
+		320,
+		304,
+		0,
+		0,
+		379
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		117,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.28,
+		1.28
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[9706044] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 6,
+	name = "鳳翔·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9706044,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Hōshō.META",
+	oxy_cost = 0,
+	skin_id = 9706040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1525,
+		67,
+		0,
+		121,
+		139,
+		65,
+		0,
+		20,
+		14,
+		25,
+		79,
+		67
+	},
+	attrs_growth = {
+		11799,
+		337,
+		0,
+		657,
+		747,
+		450,
+		0,
+		320,
+		304,
+		0,
+		0,
+		379
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		101,
+		117,
+		118
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		3
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.35,
+		1.35
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
 }
 
 

@@ -449,6 +449,59 @@ pg.dorm3d_ik_status = {
 		},
 		enter_scene_anim = {}
 	},
+	[9] = {
+		ik_camera = "Cam200411",
+		character_action = "ND_IK_FF_chuang_ZJD_idle_01",
+		base = 9,
+		camera_group = 20,
+		skin_id = 302211,
+		character_position = "Pos200411",
+		enter_extra_item = "",
+		id = 9,
+		character_id = 30221,
+		ik_id = {
+			{
+				20041100,
+				0,
+				{
+					2,
+					0
+				}
+			},
+			{
+				20041101,
+				0,
+				{
+					2,
+					0
+				}
+			},
+			{
+				20041102,
+				0,
+				{
+					2,
+					0
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
 	[100] = {
 		ik_camera = "StoolIKCamera2",
 		character_action = "SitH",
@@ -4719,6 +4772,9 @@ pg.dorm3d_ik_status = {
 			115010,
 			115050
 		},
+		[20] = {
+			9
+		},
 		[6] = {
 			100
 		},
@@ -4891,6 +4947,9 @@ pg.dorm3d_ik_status = {
 		},
 		[8] = {
 			8
+		},
+		[9] = {
+			9
 		},
 		[100] = {
 			100
@@ -5069,6 +5128,7 @@ pg.dorm3d_ik_status = {
 		6,
 		7,
 		8,
+		9,
 		100,
 		101,
 		102,

@@ -83535,6 +83535,200 @@ _G.pg.base.aircraft_template[165290] = {
 }
 
 
+_G.pg.base.aircraft_template[165411] = {
+	name = "凤翔META技能鱼雷机Lv1",
+	max_hp = 30,
+	accuracy = 23,
+	model_ID = "97jiangong",
+	ACC_growth = 0,
+	crash_DMG = 148,
+	dodge = 1.17,
+	attack_power = 2,
+	dodge_limit = 4,
+	type = 2,
+	AP_growth = 2000,
+	icon = "97jiangong",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1155,
+	speed = 48,
+	id = 165411,
+	scale = 1,
+	weapon_ID = {
+		165421
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.54,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[165412] = {
+	max_hp = 39,
+	name = "凤翔META技能鱼雷机Lv2",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165412,
+	hp_growth = 1345,
+	weapon_ID = {
+		165422
+	}
+}
+
+
+_G.pg.base.aircraft_template[165413] = {
+	max_hp = 43,
+	name = "凤翔META技能鱼雷机Lv3",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165413,
+	hp_growth = 1507,
+	weapon_ID = {
+		165423
+	}
+}
+
+
+_G.pg.base.aircraft_template[165414] = {
+	max_hp = 47,
+	name = "凤翔META技能鱼雷机Lv4",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165414,
+	hp_growth = 1669,
+	weapon_ID = {
+		165424
+	}
+}
+
+
+_G.pg.base.aircraft_template[165415] = {
+	max_hp = 51,
+	name = "凤翔META技能鱼雷机Lv5",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165415,
+	hp_growth = 1831,
+	weapon_ID = {
+		165425
+	}
+}
+
+
+_G.pg.base.aircraft_template[165416] = {
+	max_hp = 55,
+	name = "凤翔META技能鱼雷机Lv6",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165416,
+	hp_growth = 1994,
+	weapon_ID = {
+		165426
+	}
+}
+
+
+_G.pg.base.aircraft_template[165417] = {
+	max_hp = 59,
+	name = "凤翔META技能鱼雷机Lv7",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165417,
+	hp_growth = 2157,
+	weapon_ID = {
+		165427
+	}
+}
+
+
+_G.pg.base.aircraft_template[165418] = {
+	max_hp = 63,
+	name = "凤翔META技能鱼雷机Lv8",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165418,
+	hp_growth = 2320,
+	weapon_ID = {
+		165428
+	}
+}
+
+
+_G.pg.base.aircraft_template[165419] = {
+	max_hp = 68,
+	name = "凤翔META技能鱼雷机Lv9",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165419,
+	hp_growth = 2483,
+	weapon_ID = {
+		165429
+	}
+}
+
+
+_G.pg.base.aircraft_template[165420] = {
+	max_hp = 73,
+	name = "凤翔META技能鱼雷机Lv10",
+	spawn_brownian = 1,
+	base = 165411,
+	id = 165420,
+	hp_growth = 2646,
+	weapon_ID = {
+		165430
+	}
+}
+
+
 _G.pg.base.aircraft_template[166661] = {
 	name = "古手川唯技能飞机Lv1",
 	max_hp = 42,
@@ -84123,6 +84317,210 @@ _G.pg.base.aircraft_template[166960] = {
 	hp_growth = 3772,
 	weapon_ID = {
 		166970
+	}
+}
+
+
+_G.pg.base.aircraft_template[167231] = {
+	name = "华甲改弹幕特殊舰载机Lv1",
+	max_hp = 42,
+	accuracy = 23,
+	model_ID = "FBA19",
+	ACC_growth = 0,
+	crash_DMG = 208,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "FBA19",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 5,
+	hp_growth = 1846,
+	speed = 48,
+	id = 167231,
+	scale = 1,
+	weapon_ID = {
+		167241,
+		167251
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.64,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[167232] = {
+	max_hp = 48,
+	name = "华甲改弹幕特殊舰载机Lv2",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167232,
+	hp_growth = 2087,
+	weapon_ID = {
+		167242,
+		167252
+	}
+}
+
+
+_G.pg.base.aircraft_template[167233] = {
+	max_hp = 54,
+	name = "华甲改弹幕特殊舰载机Lv3",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167233,
+	hp_growth = 2327,
+	weapon_ID = {
+		167243,
+		167253
+	}
+}
+
+
+_G.pg.base.aircraft_template[167234] = {
+	max_hp = 61,
+	name = "华甲改弹幕特殊舰载机Lv4",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167234,
+	hp_growth = 2568,
+	weapon_ID = {
+		167244,
+		167254
+	}
+}
+
+
+_G.pg.base.aircraft_template[167235] = {
+	max_hp = 67,
+	name = "华甲改弹幕特殊舰载机Lv5",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167235,
+	hp_growth = 2809,
+	weapon_ID = {
+		167245,
+		167255
+	}
+}
+
+
+_G.pg.base.aircraft_template[167236] = {
+	max_hp = 73,
+	name = "华甲改弹幕特殊舰载机Lv6",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167236,
+	hp_growth = 3050,
+	weapon_ID = {
+		167246,
+		167256
+	}
+}
+
+
+_G.pg.base.aircraft_template[167237] = {
+	max_hp = 79,
+	name = "华甲改弹幕特殊舰载机Lv7",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167237,
+	hp_growth = 3290,
+	weapon_ID = {
+		167247,
+		167257
+	}
+}
+
+
+_G.pg.base.aircraft_template[167238] = {
+	max_hp = 86,
+	name = "华甲改弹幕特殊舰载机Lv8",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167238,
+	hp_growth = 3531,
+	weapon_ID = {
+		167248,
+		167258
+	}
+}
+
+
+_G.pg.base.aircraft_template[167239] = {
+	max_hp = 92,
+	name = "华甲改弹幕特殊舰载机Lv9",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167239,
+	hp_growth = 3772,
+	weapon_ID = {
+		167249,
+		167259
+	}
+}
+
+
+_G.pg.base.aircraft_template[167240] = {
+	max_hp = 98,
+	name = "华甲改弹幕特殊舰载机Lv10",
+	spawn_brownian = 1,
+	base = 167231,
+	id = 167240,
+	hp_growth = 4013,
+	weapon_ID = {
+		167250,
+		167260
 	}
 }
 

@@ -22,7 +22,12 @@ pg.dorm3d_gift = {
 		shop_id = {},
 		unlock_tips = {},
 		unlock_banners = {
-			"banner_test"
+			{
+				20220,
+				{
+					"banner_test"
+				}
+			}
 		}
 	},
 	[1021002] = {
@@ -53,7 +58,12 @@ pg.dorm3d_gift = {
 		},
 		unlock_tips = {},
 		unlock_banners = {
-			"banner_test"
+			{
+				20220,
+				{
+					"banner_test"
+				}
+			}
 		}
 	},
 	[1021003] = {
@@ -81,7 +91,12 @@ pg.dorm3d_gift = {
 		},
 		unlock_tips = {},
 		unlock_banners = {
-			"banner_test"
+			{
+				20220,
+				{
+					"banner_test"
+				}
+			}
 		}
 	},
 	[2022001] = {
@@ -106,7 +121,12 @@ pg.dorm3d_gift = {
 			4
 		},
 		unlock_banners = {
-			"banner_gift2022001"
+			{
+				20220,
+				{
+					"banner_gift2022001"
+				}
+			}
 		}
 	},
 	[2022002] = {
@@ -131,7 +151,12 @@ pg.dorm3d_gift = {
 			4
 		},
 		unlock_banners = {
-			"banner_gift2022002"
+			{
+				20220,
+				{
+					"banner_gift2022002"
+				}
+			}
 		}
 	},
 	get_id_list_by_ship_group_id = {

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5191",
+		param = "5768",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5191
+			5768
 		}
 	},
 	{
@@ -51,39 +51,13 @@ pg.activity_link_button = {
 	},
 	[20] = {
 		name = "event_minigame",
+		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 2,
 		pic = "event_minigame",
 		id = 20,
 		group_id = 5,
 		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					1,
-					2
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					23
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		param = {
 			"springfestival town"
 		}
@@ -103,7 +77,7 @@ pg.activity_link_button = {
 				{
 					2025,
 					1,
-					2
+					23
 				},
 				{
 					0,
@@ -114,8 +88,8 @@ pg.activity_link_button = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					19
 				},
 				{
 					23,
@@ -282,6 +256,61 @@ pg.activity_link_button = {
 			"TOLOVE_COLLAB_BACKHILL"
 		}
 	},
+	[105] = {
+		name = "event_boat_ad_game",
+		text_pic = "text_event_boat_ad_game",
+		type = 7,
+		pic = "event_boat_ad_game",
+		id = 105,
+		group_id = 10,
+		order = 1,
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					1,
+					23
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		param = {
+			73
+		}
+	},
+	[108] = {
+		name = "event_minigame",
+		text_pic = "text_event_minigame",
+		type = 2,
+		pic = "event_minigame",
+		id = 108,
+		group_id = 13,
+		order = 1,
+		time = {
+			"default",
+			5785
+		},
+		param = {
+			"firework and spring"
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -293,7 +322,8 @@ pg.activity_link_button = {
 		},
 		event_minigame = {
 			20,
-			1000
+			1000,
+			108
 		},
 		event_boss = {
 			30
@@ -327,6 +357,9 @@ pg.activity_link_button = {
 		},
 		event_tolove = {
 			107
+		},
+		event_boat_ad_game = {
+			105
 		}
 	},
 	all = {
@@ -346,6 +379,8 @@ pg.activity_link_button = {
 		101,
 		102,
 		104,
-		107
+		107,
+		105,
+		108
 	}
 }

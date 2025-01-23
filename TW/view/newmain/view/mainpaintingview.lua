@@ -3,6 +3,8 @@ slot0.STATE_PAINTING = 1
 slot0.STATE_L2D = 2
 slot0.STATE_SPINE_PAINTING = 3
 slot0.STATE_EDUCATE_CHAR = 4
+slot0.STATE_EDUCATE_SPINE = 5
+slot0.STATE_EDUCATE_L2D = 6
 slot0.MESH_POSITION_X_OFFSET = 145
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
@@ -19,7 +21,8 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 		MainMeshImagePainting.New(slot0._tf, slot0.event),
 		MainLive2dPainting.New(slot0._tf, slot0.event),
 		MainSpinePainting.New(slot0._tf, slot0.event, slot0._bgGo),
-		MainEducateCharPainting.New(slot0._tf, slot0.event)
+		MainEducateCharPainting.New(slot0._tf, slot0.event),
+		MainEducateSpinePainting.New(slot0._tf, slot0.event, slot0._bgGo)
 	}
 
 	slot0:Register()
@@ -133,6 +136,7 @@ slot0.Reload = function(slot0, slot1)
 	slot0.painting = slot4
 	slot0.state = slot2
 	slot0.bgToggle = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.painting.paintingName, 0)
+	slot0.skinId = slot1.skinId
 end
 
 slot0.Refresh = function(slot0, slot1, slot2)
@@ -147,7 +151,7 @@ slot0.ShouldReLoad = function(slot0, slot1)
 	slot2 = uv0.GetAssistantStatus(slot1)
 	slot3 = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.painting.paintingName, 0)
 
-	if slot1.skinId == slot0.ship.skinId and slot1.id == slot0.ship.id and slot0.state == slot2 and slot0.bgToggle == slot3 and slot1:GetRecordPosKey() == slot0.ship:GetRecordPosKey() and not slot0.reloadOnResume then
+	if slot0.skinId == slot0.ship.skinId and slot1.id == slot0.ship.id and slot0.state == slot2 and slot0.bgToggle == slot3 and slot1:GetRecordPosKey() == slot0.ship:GetRecordPosKey() and not slot0.reloadOnResume then
 		return false
 	else
 		if slot0.reloadOnResume then
@@ -156,6 +160,18 @@ slot0.ShouldReLoad = function(slot0, slot1)
 
 		return true
 	end
+end
+
+slot0.SetOnceLoadedCall = function(slot0, slot1)
+	slot0.painting:SetOnceLoadedCall(slot1)
+end
+
+slot0.PlayChangeSkinActionIn = function(slot0, slot1)
+	slot0.painting:PlayChangeSkinActionIn(slot1)
+end
+
+slot0.PlayChangeSkinActionOut = function(slot0, slot1)
+	slot0.painting:PlayChangeSkinActionOut(slot1)
 end
 
 slot0.Disable = function(slot0)
@@ -238,14 +254,12 @@ slot0.GetAssistantStatus = function(slot0)
 	slot6 = uv0.Live2dIsDownload(HXSet.autoHxShiftPath("live2d/" .. slot1)) and checkABExist(slot5)
 	slot7 = slot2:getCharacterSetting(slot0.id, SHIP_FLAG_BG)
 
-	if slot2:getCharacterSetting(slot0.id, SHIP_FLAG_SP) and slot4 then
-		return uv0.STATE_SPINE_PAINTING, slot7
-	elseif slot2:getCharacterSetting(slot0.id, SHIP_FLAG_L2D) and slot6 then
-		return uv0.STATE_L2D, slot7
-	elseif isa(slot0, VirtualEducateCharShip) then
-		return uv0.STATE_EDUCATE_CHAR, slot7
+	if slot2:getCharacterSetting(slot0.id, SHIP_FLAG_L2D) and slot6 then
+		return isa(slot0, VirtualEducateCharShip) and uv0.STATE_EDUCATE_L2D or uv0.STATE_L2D, slot7
+	elseif slot2:getCharacterSetting(slot0.id, SHIP_FLAG_SP) and slot4 then
+		return isa(slot0, VirtualEducateCharShip) and uv0.STATE_EDUCATE_SPINE or uv0.STATE_SPINE_PAINTING, slot7
 	else
-		return uv0.STATE_PAINTING, slot7
+		return isa(slot0, VirtualEducateCharShip) and uv0.STATE_EDUCATE_CHAR or uv0.STATE_PAINTING, slot7
 	end
 end
 

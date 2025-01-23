@@ -2,6 +2,7 @@ slot0 = class("EducateCharDockScene", import("view.base.BaseUI"))
 slot0.ON_CLOSE_VIEW = "EducateCharDockScene.ON_CLOSE_VIEW"
 slot0.ON_SELECT = "EducateCharDockScene.ON_SELECT"
 slot0.ON_CONFIRM = "EducateCharDockScene.ON_CONFIRM"
+slot0.ON_SELECTED = "EducateCharDockScene.ON_SELECTED"
 slot0.MSG_CLEAR_TIP = "EducateCharDockScene.MSG_CLEAR_TIP"
 
 slot0.getUIName = function(slot0)
@@ -16,15 +17,17 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	slot1 = slot0.groupPage
-
-	slot1:Update()
 	onButton(slot0, slot0.backBtn, function ()
-		if uv0.selectPage and uv0.selectPage:GetLoaded() and uv0.selectPage:isShowing() then
-			slot0 = uv0.selectPage
+		if uv0.contextData.tbSkinId then
+			uv0:closeView()
 
-			slot0:Back(function ()
+			return
+		end
+
+		if uv0.selectPage and uv0.selectPage:GetLoaded() and uv0.selectPage:isShowing() then
+			uv0.selectPage:Back(function ()
 				uv0.groupPage:Show()
+				uv0.groupPage:InitList()
 				uv0.selectPage:Hide()
 			end)
 
@@ -43,12 +46,21 @@ slot0.didEnter = function(slot0)
 		uv0.groupPage:Hide()
 		uv0.selectPage:ExecuteAction("Update", slot1, slot2)
 	end)
+	slot0:bind(uv0.ON_SELECTED, function (slot0, slot1)
+		uv0:emit(EducateCharDockMediator.ON_SELECTED, slot1)
+	end)
 	slot0:bind(uv0.ON_CONFIRM, function (slot0, slot1)
+		if uv0.contextData.tbSkinId then
+			uv0:closeView()
+
+			return
+		end
+
 		uv0.groupPage:Show()
 		uv0.selectPage:Hide()
 		uv0.groupPage:FlushList(slot1)
-		uv0:emit(EducateCharDockMediator.ON_SELECTED, slot1)
 	end)
+	slot0.groupPage:Update()
 end
 
 slot0.onBackPressed = function(slot0)

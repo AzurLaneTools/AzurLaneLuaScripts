@@ -14,15 +14,24 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._medalLock = findTF(slot0._tf, "lock")
 	slot0._nameText = findTF(slot0._tf, "name")
 	slot0._descText = findTF(slot0._tf, "desc")
-	slot0._progressText = findTF(slot0._tf, "progress")
+	slot0._progressBG = findTF(slot0._tf, "progress")
+	slot0._progressText = findTF(slot0._tf, "progress/label")
 	slot0._conditionText = findTF(slot0._tf, "condition")
 	slot0._stateText = findTF(slot0._tf, "state")
 	slot0._prevBtn = findTF(slot0._tf, "prevBtn")
 	slot0._nextBtn = findTF(slot0._tf, "nextBtn")
+	slot0._closeBtn = findTF(slot0._tf, "backbtn")
 
 	onButton(slot0, slot0._mask, function ()
 		uv0:SetActive(false)
 	end, SFX_CANCEL)
+
+	if slot0._closeBtn then
+		onButton(slot0, slot0._closeBtn, function ()
+			uv0:SetActive(false)
+		end, SFX_CANCEL)
+	end
+
 	onButton(slot0, slot0._prevBtn, function ()
 		uv0._currentIndex = math.max(uv0._currentIndex - 1, 1)
 
@@ -69,13 +78,17 @@ slot0.UpdateMedal = function(slot0)
 		setText(slot0._progressText, i18n("word_lock"))
 	end
 
+	if findTF(slot0._tf, "progress/lock") then
+		SetActive(slot3, not slot0._medal.timeStamp)
+	end
+
 	if slot0._medalGroup:GetMedalGroupState() == ActivityMedalGroup.STATE_EXPIRE then
 		setText(slot0._stateText, setColorStr(i18n("word_cant_gain_anymore"), "#73757f"))
-	elseif slot3 == ActivityMedalGroup.STATE_CLOSE then
+	elseif slot4 == ActivityMedalGroup.STATE_CLOSE then
 		setText(slot0._stateText, setColorStr(i18n("word_activity_not_open"), "#ed4646"))
 	end
 
-	SetActive(slot0._stateText, slot3 ~= ActivityMedalGroup.STATE_ACTIVE)
+	SetActive(slot0._stateText, slot4 ~= ActivityMedalGroup.STATE_ACTIVE)
 	SetActive(slot0._prevBtn, slot0._currentIndex ~= 1)
 	SetActive(slot0._nextBtn, slot0._currentIndex ~= #slot0._medalGroup:getConfig("activity_medal_ids"))
 end

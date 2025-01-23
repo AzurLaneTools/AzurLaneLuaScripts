@@ -69,9 +69,14 @@ slot0.OnInit = function(slot0)
 			return
 		end
 
-		uv0:emit(NewMainMediator.GO_SCENE, SCENE.EDUCATE, {
-			isMainEnter = true
-		})
+		if LOCK_NEW_EDUCATE_SYSTEM then
+			uv0:emit(NewMainMediator.GO_SCENE, SCENE.EDUCATE, {
+				isMainEnter = true
+			})
+		else
+			uv0:emit(NewMainMediator.GO_SCENE, SCENE.NEW_EDUCATE_SELECT)
+		end
+
 		uv0:Hide()
 	end, SFX_MAIN)
 	onButton(slot0, slot0._islandBtn, function ()
@@ -103,11 +108,13 @@ slot0.Show = function(slot0)
 		slot0._haremBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
 
-	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, "EducateMediator") then
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, LOCK_NEW_EDUCATE_SYSTEM and "EducateMediator" or "NewEducateSelectMediator") then
 		slot0._educateBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)
 	else
 		slot0._educateBtn:GetComponent(typeof(Image)).color = Color(1, 1, 1, 1)
 	end
+
+	setActive(slot0._educateBtn:Find("tip"), NewEducateHelper.IsShowNewChildTip())
 
 	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot1.level, "SelectDorm3DMediator") then
 		slot0._dormBtn:GetComponent(typeof(Image)).color = Color(0.5, 0.5, 0.5, 1)

@@ -23,7 +23,18 @@ slot0.init = function(slot0)
 	switch(slot0.contextData.drop.__cname, {
 		Dorm3dGift = function ()
 			uv0.unlockTips = pg.dorm3d_gift[uv0.contextData.drop.configId].unlock_tips or {}
-			uv0.unlockBanners = pg.dorm3d_gift[uv0.contextData.drop.configId].unlock_banners or {}
+			slot0 = uv0.contextData.groupId
+			slot1 = pg.dorm3d_gift[uv0.contextData.drop.configId].unlock_banners or {}
+			slot2 = table.Find(slot1, function (slot0, slot1)
+				if uv0 == nil or slot1[1] == uv0 then
+					return true
+				end
+			end) or table.Find(slot1, function (slot0)
+				if slot0[1] == 0 then
+					return true
+				end
+			end)
+			uv0.unlockBanners = slot2 and slot2[2]
 			uv0.isExclusive = pg.dorm3d_gift[uv0.contextData.drop.configId].ship_group_id ~= 0
 			uv0.addFavor = pg.dorm3d_favor_trigger[pg.dorm3d_gift[uv0.contextData.drop.configId].favor_trigger_id].num
 

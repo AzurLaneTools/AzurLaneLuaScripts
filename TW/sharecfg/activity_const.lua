@@ -1106,5 +1106,17 @@ pg.activity_const = {
 	},
 	TOLOVE_GAMEPLAY_ID = {
 		act_id = 5691
+	},
+	FireworkAndSpring_PT_ID = {
+		act_id = 5785
+	},
+	FireworkAndSpring_TASK_ID = {
+		act_id = 5786
+	},
+	FireworkAndSpring_EMO_ID = {
+		act_id = 5787
+	},
+	FireworkAndSpring_ACT_ID = {
+		act_id = 5788
 	}
 }

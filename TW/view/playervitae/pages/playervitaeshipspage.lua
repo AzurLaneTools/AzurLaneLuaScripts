@@ -17,7 +17,7 @@ slot0.GetSlotIndexList = function()
 		table.insert(slot2, slot6)
 	end
 
-	if uv0.GetEducateCharSlotMaxCnt() > 0 then
+	if NewEducateHelper.GetEducateCharSlotMaxCnt() > 0 then
 		table.insert(slot2, uv0.EDUCATE_CHAR_SLOT_ID)
 	end
 
@@ -27,19 +27,7 @@ end
 slot0.GetAllUnlockSlotCnt = function()
 	slot0, slot1 = uv0.GetSlotMaxCnt()
 
-	return slot1 + uv0.GetEducateCharSlotMaxCnt()
-end
-
-slot0.GetEducateCharSlotMaxCnt = function()
-	if LOCK_EDUCATE_SYSTEM then
-		return 0
-	end
-
-	if getProxy(PlayerProxy):getRawData():ExistEducateChar() or getProxy(EducateProxy):IsUnlockSecretary() then
-		return 1
-	else
-		return 0
-	end
+	return slot1 + NewEducateHelper.GetEducateCharSlotMaxCnt()
 end
 
 slot0.GetSlotMaxCnt = function()
@@ -349,15 +337,15 @@ slot0.UpdateEducateCharTrTip = function(slot0)
 end
 
 slot6 = function()
-	if uv0.GetEducateCharSlotMaxCnt() <= 0 then
-		return uv1
+	if NewEducateHelper.GetEducateCharSlotMaxCnt() <= 0 then
+		return uv0
 	end
 
 	if getProxy(PlayerProxy):getRawData():ExistEducateChar() then
-		return uv2
+		return uv1
 	end
 
-	return uv3
+	return uv2
 end
 
 slot0.UpdateEducateSlot = function(slot0)

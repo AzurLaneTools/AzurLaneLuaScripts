@@ -75,6 +75,12 @@ slot0.findUI = function(slot0)
 	slot0.backBtn = slot0:findTF("back_button", slot0.topTF)
 	slot0.menuTF = slot0:findTF("menu_screen")
 	slot0.skinShopBtn = slot0:findTF("skin_shop", slot0.menuTF)
+	slot0.skinLockIcon = slot0:findTF("skin_lock", slot0.menuTF)
+	slot1 = LOCK_SKIN_SHOP_ENTER and getProxy(PlayerProxy):getData().level < LOCK_SKIN_SHOP_ENTER_LEVEL
+
+	setActive(slot0.skinShopBtn, not slot1)
+	setActive(slot0.skinLockIcon, slot1)
+
 	slot0.diamondShopBtn = slot0:findTF("dimond_shop", slot0.menuTF)
 	slot0.itemShopBtn = slot0:findTF("props", slot0.menuTF)
 	slot0.giftShopBtn = slot0:findTF("gift_shop", slot0.menuTF)

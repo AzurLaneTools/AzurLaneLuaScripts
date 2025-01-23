@@ -11,6 +11,9 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.initSizeY = slot4 or 0
 	slot0.sizeX = slot0.initSizeX
 	slot0.sizeY = slot0.initSizeY
+
+	assert(slot0.sizeX > 0 and slot0.sizeY > 0, "size 必须大于0============>" .. slot2)
+
 	slot0.posX = 0
 	slot0.posY = 0
 	slot0.maxX = 0

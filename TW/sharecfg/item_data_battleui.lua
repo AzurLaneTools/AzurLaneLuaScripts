@@ -24,8 +24,21 @@ pg.item_data_battleui = {
 		icon = "101",
 		scene = {}
 	},
+	[102] = {
+		unlock = "世界巡遊十九期獲取",
+		name = "賽博紀元",
+		key = "SkinNormal_20240912",
+		display_icon = "ui_102",
+		is_unlock = 1,
+		rare = 3,
+		desc = "採用賽博龐克風格的設計，充滿了動態效果與光影變化，為熱愛科幻風格的指揮官提供沉浸式的體驗。",
+		id = 102,
+		icon = "102",
+		scene = {}
+	},
 	all = {
 		0,
-		101
+		101,
+		102
 	}
 }

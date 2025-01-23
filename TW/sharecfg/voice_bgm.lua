@@ -81,7 +81,7 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "main",
+		default_bgm = "theme-china-jianwu",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -261,9 +261,9 @@ pg.voice_bgm = {
 		bgm = "main-chunjie2"
 	},
 	ColoringScene = {
-		default_bgm = "main-chunjie3",
+		default_bgm = "main-chunjie",
 		special_bgm = "",
-		bgm = "main-chunjie3"
+		bgm = "main-chunjie"
 	},
 	Fushun3GameView = {
 		default_bgm = "main-chunjie-pv",
@@ -346,9 +346,9 @@ pg.voice_bgm = {
 		bgm = "bgm-cccp2"
 	},
 	NenjuuMiniGameView = {
-		default_bgm = "main-chunjie2",
+		default_bgm = "main-chunjie",
 		special_bgm = "",
-		bgm = "main-chunjie2"
+		bgm = "main-chunjie"
 	},
 	SpringFestival2023Scene = {
 		default_bgm = "main-chunjie4-1",
@@ -1694,5 +1694,50 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-refreshing",
 		special_bgm = "",
 		bgm = "main"
+	},
+	HuaShangQiaoPage = {
+		default_bgm = "theme-china-jianwu",
+		special_bgm = "",
+		bgm = "theme-china-jianwu"
+	},
+	FuboLoginPage = {
+		default_bgm = "theme-china-jianwu",
+		special_bgm = "",
+		bgm = "theme-china-jianwu"
+	},
+	NewYearWishesPtPage = {
+		default_bgm = "main-chunjie3",
+		special_bgm = "",
+		bgm = "main-chunjie3"
+	},
+	NewYearSkinMagazinePage03 = {
+		default_bgm = "theme-china-jianwu",
+		special_bgm = "",
+		bgm = "theme-china-jianwu"
+	},
+	ActivityBossJianwuScene = {
+		default_bgm = "theme-china-jianwu",
+		special_bgm = "",
+		bgm = "theme-china-jianwu"
+	},
+	SpringFashionFestaMedalAlbumView = {
+		default_bgm = "theme-china-jianwu",
+		special_bgm = "",
+		bgm = "theme-china-jianwu"
+	},
+	FireworkAndSpringScene = {
+		default_bgm = "theme-chunjie2025-2",
+		special_bgm = "",
+		bgm = "theme-chunjie2025-2"
+	},
+	NewSkinMagazinePage4 = {
+		default_bgm = "theme-chunjie2025-2",
+		special_bgm = "",
+		bgm = "theme-chunjie2025-2"
+	},
+	CrusingDisplayActPage2 = {
+		default_bgm = "blueocean-image",
+		special_bgm = "",
+		bgm = "blueocean-image"
 	}
 }
