@@ -470,7 +470,7 @@ pg.child2_site_event_group = {
 	},
 	[4129] = {
 		node_id = 4129001,
-		option_word = "お出かけ②",
+		option_word = "お出かけ③",
 		id = 4129,
 		event_title = "お出かけ",
 		weight = 100,
@@ -545,7 +545,7 @@ pg.child2_site_event_group = {
 	},
 	[4134] = {
 		node_id = 4134001,
-		option_word = "イベント開始",
+		option_word = "イベント開始②",
 		id = 4134,
 		event_title = "シン・缶詰",
 		weight = 100,
@@ -560,7 +560,7 @@ pg.child2_site_event_group = {
 	},
 	[4135] = {
 		node_id = 4135001,
-		option_word = "イベント開始",
+		option_word = "イベント開始③",
 		id = 4135,
 		event_title = "シン・缶詰",
 		weight = 100,
@@ -2429,7 +2429,7 @@ pg.child2_site_event_group = {
 	},
 	[4334] = {
 		node_id = 4334001,
-		option_word = "イベント開始",
+		option_word = "イベント開始②",
 		id = 4334,
 		event_title = "シン・缶詰",
 		weight = 100,
@@ -2444,7 +2444,7 @@ pg.child2_site_event_group = {
 	},
 	[4335] = {
 		node_id = 4335001,
-		option_word = "イベント開始",
+		option_word = "イベント開始③",
 		id = 4335,
 		event_title = "シン・缶詰",
 		weight = 100,
@@ -3296,7 +3296,7 @@ pg.child2_site_event_group = {
 	},
 	[4429] = {
 		node_id = 4429001,
-		option_word = "お出かけ②",
+		option_word = "お出かけ③",
 		id = 4429,
 		event_title = "お出かけ",
 		weight = 100,
@@ -3371,7 +3371,7 @@ pg.child2_site_event_group = {
 	},
 	[4434] = {
 		node_id = 4434001,
-		option_word = "イベント開始",
+		option_word = "イベント開始②",
 		id = 4434,
 		event_title = "シン・缶詰",
 		weight = 100,
@@ -3386,7 +3386,7 @@ pg.child2_site_event_group = {
 	},
 	[4435] = {
 		node_id = 4435001,
-		option_word = "イベント開始",
+		option_word = "イベント開始③",
 		id = 4435,
 		event_title = "シン・缶詰",
 		weight = 100,
