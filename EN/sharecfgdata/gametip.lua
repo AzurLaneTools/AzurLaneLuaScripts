@@ -13957,7 +13957,7 @@ _G.pg.base.gametip.world_boss_help = {
 During the event period, you will play on a special stage and face off against an opposing exercise fleet.
 All Commanders on the same server will need to work together by gathering CPts and <color=#92fc63>lowering the progress gauge to 0%</color> in order to complete the mission.
 Once the mission is completed, all players who participated will be rewarded with a special piece of gear sent to their Mailbox.
-Be aware that you will not be able to claim this reward if your Mailbox is completely full (i.e. you have 1,000 mail stored).
+Be aware that you will not be able to claim this reward if your Mailbox is completely full.
 <color=#92fc63>Note that you can still earn CPts through the event stage even once the progress gauge has hit 0%.</color>
 ]]
 		},
