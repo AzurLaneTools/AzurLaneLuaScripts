@@ -2447,7 +2447,6 @@ pg.base.ship_skin_template_16 = {
 		illustrator = -1,
 		rarity_bg = "",
 		time = "",
-		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		tag = {
@@ -2547,6 +2546,16 @@ pg.base.ship_skin_template_16 = {
 		},
 		l2d_voice_calibrate = {
 			use_event = true
+		},
+		l2d_para_range = {
+			ParamBodyAngleY = {
+				-15,
+				15
+			},
+			ParamBodyAngleX = {
+				-15,
+				15
+			}
 		},
 		ship_l2d_id = {
 			90501401,

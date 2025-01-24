@@ -39,19 +39,6 @@ return {
 				posX = 0,
 				uiset = {}
 			}
-		},
-		{
-			is3dDorm = false,
-			alpha = 0.4,
-			style = {
-				text = "未能击杀也不影响日常培养，但还请注意，部分结局的达成要求与娜比娅的数值和考核评价有关",
-				mode = 2,
-				char = 1,
-				posY = 0,
-				dir = 1,
-				posX = 0,
-				uiset = {}
-			}
 		}
 	}
 }

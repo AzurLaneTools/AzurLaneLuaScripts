@@ -45,7 +45,7 @@ slot0.InitItem = function(slot0, slot1, slot2)
 	slot4 = slot0.endingList[slot1 + 1]
 	slot5 = pg.child2_ending[slot4]
 
-	setText(slot2:Find("name"), slot5.name)
+	setScrollText(slot2:Find("name_mask/name"), slot5.name)
 	LoadImageSpriteAsync("neweducateicon/" .. slot5.pic_preview, slot2:Find("Image"))
 	setActive(slot2:Find("complete"), table.contains(slot0.completeList, slot4))
 	onButton(slot0, slot2, function ()

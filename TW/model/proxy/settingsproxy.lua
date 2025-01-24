@@ -952,7 +952,7 @@ slot0.UpdateEducateCharTip = function(slot0, slot1)
 	for slot8, slot9 in slot5(slot6) do
 		slot10 = slot2 .. "educate_char_tip" .. slot9
 
-		if slot4[slot9] ~= true and PlayerPrefs.GetInt(slot10, 1) == 1 then
+		if slot4[slot9] ~= true then
 			PlayerPrefs.SetInt(slot10, 1)
 			PlayerPrefs.Save()
 		end
@@ -1013,7 +1013,7 @@ slot0.ClearEducateCharTip = function(slot0, slot1)
 	table.removebyvalue(slot0.educateCharTipList, slot1)
 
 	if PlayerPrefs.HasKey(getProxy(PlayerProxy):getRawData().id .. "educate_char_tip" .. slot1) then
-		PlayerPrefs.SetInt(slot3, 0)
+		PlayerPrefs.DeleteKey(slot3)
 		PlayerPrefs.Save()
 	end
 

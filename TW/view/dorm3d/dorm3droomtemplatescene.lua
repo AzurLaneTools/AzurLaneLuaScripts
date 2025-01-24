@@ -1393,7 +1393,7 @@ slot0.Update = function(slot0)
 			end)()
 
 			if uv0.enableIKTip then
-				if uv0.nextTipIKTime < Time.time then
+				if not uv0.blockIK and uv0.nextTipIKTime < Time.time then
 					slot6 = uv0.ikTipsRoot
 
 					UIItemList.StaticAlign(uv0.ikTipsRoot, slot6:GetChild(0), #slot0.readyIKLayers, function (slot0, slot1, slot2)
