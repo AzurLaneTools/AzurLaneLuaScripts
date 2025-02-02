@@ -251,6 +251,7 @@ pg.task_meta_data_template = setmetatable({
 		100342,
 		100343,
 		100344,
+		100345,
 		200001,
 		200002,
 		200003,
@@ -2338,6 +2339,14 @@ pg.base.task_meta_data_template = {
 		id = 100344,
 		target_num = 1,
 		desc = "使用{namecode:237}擊破等級＞80的敵方1次"
+	},
+	[100345] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970604",
+		id = 100345,
+		target_num = 1,
+		desc = "使用{namecode:237}擊破等級＞100的敵方1次"
 	},
 	[200001] = {
 		target_id = "0",
