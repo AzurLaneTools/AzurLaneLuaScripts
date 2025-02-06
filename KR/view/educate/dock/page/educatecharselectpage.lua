@@ -7,7 +7,7 @@ end
 slot0.OnLoaded = function(slot0)
 	slot0.titleTxt = slot0:findTF("title/Text"):GetComponent(typeof(Text))
 	slot0.labelTxt = slot0:findTF("left/label/icon"):GetComponent(typeof(Image))
-	slot0.paintingTr = slot0:findTF("left/print/painting")
+	slot0.paintingTr = slot0:findTF("left/print/mask/painting")
 	slot0.scrollrect = slot0:findTF("list")
 	slot0.uiItemList = UIItemList.New(slot0:findTF("list/content"), slot0:findTF("list/content/tpl"))
 	slot0.dotUIItemList = UIItemList.New(slot0:findTF("list/dots"), slot0:findTF("list/dots/tpl"))
@@ -29,6 +29,10 @@ slot0.OnInit = function(slot0)
 		if not uv0.selectedId then
 			return
 		end
+
+		slot0 = uv0
+
+		slot0:emit(EducateCharDockScene.ON_SELECTED, uv0.selectedId)
 
 		uv0.doAnim = true
 		slot0 = uv0
@@ -80,7 +84,7 @@ end
 
 slot0.FlushPainting = function(slot0, slot1)
 	slot0:ReturnPainting()
-	setPaintingPrefab(slot0.paintingTr, slot1, "tb1")
+	setPaintingPrefabAsync(slot0.paintingTr, slot1, "tb1")
 
 	slot0.paintingName = slot1
 end
@@ -123,7 +127,7 @@ slot0.UpdateDots = function(slot0)
 end
 
 slot0.IsLockCard = function(slot0, slot1)
-	return not table.contains(getProxy(EducateProxy):GetSecretaryIDs(), slot1)
+	return not table.contains(NewEducateHelper.GetAllUnlockSecretaryIds(), slot1)
 end
 
 slot0.UpdateCard = function(slot0, slot1, slot2, slot3)
@@ -132,7 +136,7 @@ slot0.UpdateCard = function(slot0, slot1, slot2, slot3)
 
 	setPaintingPrefab(slot4:Find("mask/painting"), slot5.prefab, "tb")
 	setActive(slot4:Find("lock"), slot0:IsLockCard(slot5.id))
-	setText(slot4:Find("lock/desc/Text"), slot5.unlock_desc)
+	setScrollText(slot4:Find("lock/desc/Text"), slot5.unlock_desc)
 	(function ()
 		setActive(uv0:Find("tip"), getProxy(SettingsProxy):_ShouldEducateCharTip(uv1))
 	end)()
@@ -143,7 +147,7 @@ slot0.UpdateCard = function(slot0, slot1, slot2, slot3)
 		uv1.selectedId = uv2
 
 		uv1:UpdateDots()
-		uv1:FlushPainting(uv3.prefab)
+		uv1:FlushPainting(uv3.painting)
 
 		uv1.prevSelected = uv0
 

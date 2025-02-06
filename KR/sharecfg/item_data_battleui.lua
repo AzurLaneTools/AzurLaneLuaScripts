@@ -60,6 +60,18 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[105] = {
+		unlock = "특허 투어 패스 21기 보상",
+		name = "라이트",
+		key = "SkinNormal_20250123",
+		display_icon = "ui_105",
+		is_unlock = 1,
+		rare = 3,
+		desc = "신성함, 중후함, 찬란함. 지휘관의 모든 전투를 더욱 위엄있게 만들어 준다.",
+		id = 105,
+		icon = "105",
+		scene = {}
+	},
 	[201] = {
 		unlock = "상점 구매 (전투 UI·크리스마스)",
 		name = "크리스마스",
@@ -78,6 +90,7 @@ pg.item_data_battleui = {
 		102,
 		103,
 		104,
+		105,
 		201
 	}
 }

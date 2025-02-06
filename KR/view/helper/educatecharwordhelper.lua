@@ -8,6 +8,7 @@ slot0.WORD_KEY_ALLHALLOWSDAY = "wansheng"
 slot0.WORD_KEY_TELL_TIME = "chime_"
 slot0.WORD_KEY_ACT = "huodong"
 slot0.WORD_KEY_CHANGE_TB = "genghuan"
+slot0.WORD_KEY_LOGIN = "login"
 slot1 = pg.secretary_special_ship
 slot2 = pg.character_voice_special
 slot3 = pg.secretary_special_ship_expression

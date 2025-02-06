@@ -1,462 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
-	[203071] = {
-		name = "truth seeker",
-		change_skin = "",
-		bg_sp = "",
-		desc = "학교 내에서 알 수 없는 사건<†미스터리†>들이 발생했어요, 배후에 분명 커다란 흑막<†마스터 마인드†>이 있을거에요. 이건 저에게 부여된 시련<†트리뷸레이션†>! 좋아, 제가 배후에 숨겨진 모든 진상<†트루스†>을 파헤쳐주겠어요!",
-		illustrator2 = -1,
-		ship_group = 20307,
-		group_index = 1,
-		painting = "yueke_2",
-		prefab = "yueke_2",
-		hand_id = 13,
-		shop_type_id = 4,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "103",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 203071,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70250,
-		voice_actor = 23,
-		spine_offset = "",
-		illustrator = 18,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.666,
-					0.998,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.638,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					0.011,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.614,
-					0.999,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.414,
-							2.501,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203072] = {
-		name = "푸른 물결의 소환사 ",
-		change_skin = "",
-		bg_sp = "",
-		desc = "바다 속에 깊이 잠든 알 수 없는 왕<†언노운†>이여, 푸른 물결<†아주르†>의 마법진을 통해, 나의 힘<†포스†>으로 너를 현세로 부르노라! ...... 에, 지휘관? 어째서 지휘관이 소환된 거죠? ",
-		illustrator2 = -1,
-		ship_group = 20307,
-		group_index = 2,
-		painting = "yueke_3",
-		prefab = "yueke_3",
-		hand_id = 13,
-		shop_type_id = 6,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "133",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 203072,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70401,
-		voice_actor = 23,
-		spine_offset = "",
-		illustrator = 18,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.829,
-					0.877,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.823,
-					0.865,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.806,
-					0.835,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.414,
-							2.501,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203078] = {
-		name = "영백한 서약",
-		change_skin = "",
-		bg_sp = "",
-		desc = "이게 바로 영백한 서약<†퓨어 오스†>란 이름의 작전 유니폼<†배틀 수트†>인가요? 흐흥~ 모든 것은 운명의 계획이죠… 지휘관, 함께 이 세계를 바꿔봐요!",
-		illustrator2 = -1,
-		ship_group = 20307,
-		group_index = 8,
-		painting = "yueke_h",
-		prefab = "yueke_h",
-		hand_id = 13,
-		shop_type_id = 9998,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		id = 203078,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 23,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.781,
-					0.877,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.619,
-					0.865,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.888,
-					1.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.639,
-							2.501,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203079] = {
-		name = "요크·改 ",
-		change_skin = "",
-		bg_sp = "",
-		desc = "이는 단지 승격 <†업그레이드†>일 뿐만 아니라, 각성 <†어웨이크닝†>! 운명 따위, 제가 바꾸어 보이겠어요!",
-		illustrator2 = -1,
-		ship_group = 20307,
-		group_index = 9,
-		painting = "yueke_g",
-		prefab = "yueke_g",
-		hand_id = 13,
-		shop_type_id = 9997,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		id = 203079,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 23,
-		spine_offset = "",
-		illustrator = 18,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.08,
-					0.9,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.03,
-					0.96,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.18,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.14,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[203080] = {
 		name = "엑세터",
 		change_skin = "",
@@ -1892,6 +1436,127 @@ pg.base.ship_skin_template_6 = {
 						{
 							0.608,
 							0.72,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[204021] = {
+		name = "춘화의 연무",
+		change_skin = "",
+		bg_sp = "",
+		desc = "Hey, 지휘관! 후후후, 어디 가? 괜찮으면 검무 리허설 하는 것 좀 보고 가지 않을래? 이스트 글림 검술이랑 내 아이디어를 조합해서 만든, 완전히 새로운 오리지널 무예야♪",
+		illustrator2 = -1,
+		ship_group = 20402,
+		group_index = 1,
+		painting = "fanji_3",
+		prefab = "fanji_3",
+		hand_id = 1,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "157",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 204021,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 41,
+		spine_offset = "",
+		illustrator = 11,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.585,
+					0.66,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.585,
+					0.66,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.836,
+					2.177,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.503,
+							2.209,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.421,
+							2.118,
 							0
 						}
 					}
@@ -13785,6 +13450,466 @@ pg.base.ship_skin_template_6 = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[207051] = {
+		name = "해변의 로열 레이디",
+		change_skin = "",
+		bg_sp = "1103",
+		desc = "로열의 레이디는 수영복이라도 우아하답니다. …… 모, 모르겠어요? 그런가요…… 이상하네……",
+		illustrator2 = -1,
+		ship_group = 20705,
+		group_index = 1,
+		painting = "kewei_2",
+		prefab = "kewei_2",
+		hand_id = 13,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "106",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 207051,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70230,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1,
+					0.72,
+					0
+				}
+			},
+			plane = {
+				{
+					0.84,
+					0.73,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.58,
+							2.27,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
+	[207052] = {
+		name = "클래식 드레스 업!",
+		change_skin = "",
+		bg_sp = "",
+		desc = "음, 다 입었네요! 다들 고생하셨어요! ……후, 드레스 입기가 이렇게 어려울 줄이야, 귀찮네요…… 크흠! 아무튼, 우선 사람들 앞에서는 이미지를 유지해야죠!",
+		illustrator2 = -1,
+		ship_group = 20705,
+		group_index = 2,
+		painting = "kewei_3",
+		prefab = "kewei_3",
+		hand_id = 13,
+		shop_type_id = 7,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "146",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 207052,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70554,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.21,
+					1.21,
+					0
+				}
+			},
+			plane = {
+				{
+					1.2,
+					1.21,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.24,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
+	[207053] = {
+		name = "가슴 설레는 주번 활동",
+		change_skin = "",
+		bg_sp = "",
+		desc = "안녕하세요, 지휘관님. 점심시간인데 왜 교실에 남아있냐고요? 후훗, 보시다시피 오늘은 포미더블이 \"주번\"이거든요. 그러니까 지휘관님, 다음 수업 준비가 끝날 때까지 잠깐만 같이 있어주시겠어요?",
+		illustrator2 = -1,
+		ship_group = 20705,
+		group_index = 3,
+		painting = "kewei_4",
+		prefab = "kewei_4",
+		hand_id = 13,
+		shop_type_id = 4,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		bg = "519",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 207053,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70995,
+		voice_actor = 89,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		live2d_offset_profile = {
+			0,
+			50,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.21,
+					1.21,
+					0
+				}
+			},
+			plane = {
+				{
+					1.2,
+					1.21,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.24,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				20
+			}
+		},
+		ship_l2d_id = {
+			20705301,
+			20705302,
+			20705303,
+			20705304,
+			20705305,
+			20705306,
+			20705307,
+			20705308,
+			20705309,
+			20705310,
+			20705311,
+			20705312,
+			20705313,
+			20705314,
+			20705315,
+			20705316
+		},
+		l2d_drag_rate = {
+			0.5,
+			1,
+			1
+		}
+	},
+	[207054] = {
+		name = "로큰 알코올",
+		change_skin = "",
+		bg_sp = "",
+		desc = "휴우… 가위를 겨우 집었네…… 지, 지휘관님?! 왜 벌써 오신 거죠!? 어서 문을 닫고 나가주…… 아, 아니지! 리본 푸는 것 좀 도와주세요!",
+		illustrator2 = -1,
+		ship_group = 20705,
+		group_index = 4,
+		painting = "kewei_5",
+		prefab = "kewei_5",
+		hand_id = 13,
+		shop_type_id = 16,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "145",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 207054,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71083,
+		voice_actor = 89,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.847,
+					2.104,
+					0
+				}
+			},
+			plane = {
+				{
+					0.914,
+					1.057,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.264,
+							2.231,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-13.5,
+				126.3,
+				0
+			},
+			{
+				0.77
 			}
 		}
 	}

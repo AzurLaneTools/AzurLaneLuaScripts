@@ -3759,6 +3759,28 @@ pg.gameset = {
 		description = "",
 		key_value = 50
 	},
+	child_buff_exclusion = {
+		key_value = 0,
+		description = {
+			{
+				1,
+				2
+			},
+			{
+				7,
+				8
+			}
+		}
+	},
+	child_buff_continue = {
+		key_value = 0,
+		description = {
+			{
+				7,
+				8
+			}
+		}
+	},
 	juuschat_entering_time = {
 		description = "",
 		key_value = 2000

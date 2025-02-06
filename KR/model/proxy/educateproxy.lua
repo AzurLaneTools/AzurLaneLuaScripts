@@ -143,7 +143,16 @@ end
 slot0.SetEndings = function(slot0, slot1)
 	slot0.endings = slot1
 
-	slot0:updateSecretaryIDs()
+	slot0:updateSecretaryIDs(false)
+end
+
+slot0.GetSelectInfo = function(slot0)
+	return {
+		bg = slot0.char:GetBGName(),
+		name = slot0.char:GetName(),
+		gameCnt = slot0.gameCount,
+		progressStr = slot0.isUnlockSecretary and EducateHelper.GetShowMonthNumber(slot0.curTime.month) .. i18n("word_month") .. i18n("word_which_week", slot0.curTime.week) or i18n("child2_not_start")
+	}
 end
 
 slot0.IsFirstGame = function(slot0)
@@ -300,8 +309,7 @@ slot0.AddEnding = function(slot0, slot1)
 	end
 
 	table.insert(slot0.endings, slot1)
-	slot0:updateSecretaryIDs()
-	getProxy(SettingsProxy):UpdateEducateCharTip(Clone(slot0:GetSecretaryIDs()))
+	slot0:updateSecretaryIDs(true)
 	slot0:sendNotification(uv0.ENDING_ADDED)
 end
 
@@ -507,8 +515,7 @@ slot0.AddPolaroid = function(slot0, slot1)
 	})
 
 	EducateTipHelper.SetNewTip(EducateTipHelper.NEW_POLAROID)
-	slot0:updateSecretaryIDs()
-	getProxy(SettingsProxy):UpdateEducateCharTip(Clone(slot0:GetSecretaryIDs()))
+	slot0:updateSecretaryIDs(true)
 	slot0:sendNotification(uv0.POLAROID_ADDED)
 end
 
@@ -602,12 +609,12 @@ end
 slot0.SetSecretaryUnlock = function(slot0)
 	slot0.isUnlockSecretary = true
 
-	slot0:updateSecretaryIDs()
+	slot0:updateSecretaryIDs(false)
 end
 
 slot0.CheckNewSecretaryTip = function(slot0)
 	if table.contains(slot0.unlcokTipByPolaroidCnt, slot0:GetPolaroidGroupCnt()) then
-		slot0:updateSecretaryIDs()
+		slot0:updateSecretaryIDs(false)
 		slot0:sendNotification(uv0.UNLCOK_NEW_SECRETARY_BY_CNT)
 
 		return true
@@ -638,20 +645,26 @@ slot0.checkSecretaryID = function(slot0, slot1, slot2)
 	return false
 end
 
-slot0.updateSecretaryIDs = function(slot0)
+slot0.updateSecretaryIDs = function(slot0, slot1)
 	if not slot0:IsUnlockSecretary() then
 		slot0.unlockSecretaryIds = {}
 
 		return
 	end
 
+	slot2 = nil
+
+	if slot1 then
+		slot2 = Clone(NewEducateHelper.GetAllUnlockSecretaryIds())
+	end
+
 	slot0.unlockSecretaryIds = {}
-	slot1 = #slot0:GetPolaroidIdList()
+	slot3 = #slot0:GetPolaroidIdList()
 
-	for slot5, slot6 in ipairs(pg.secretary_special_ship.all) do
-		slot8 = pg.secretary_special_ship[slot6].unlock
+	for slot7, slot8 in ipairs(pg.secretary_special_ship.get_id_list_by_tb_id[0]) do
+		slot10 = pg.secretary_special_ship[slot8].unlock
 
-		switch(pg.secretary_special_ship[slot6].unlock_type, {
+		switch(pg.secretary_special_ship[slot8].unlock_type, {
 			[EducateConst.SECRETARY_UNLCOK_TYPE_DEFAULT] = function ()
 				if uv0:IsUnlockSecretary() then
 					table.insert(uv0.unlockSecretaryIds, uv1)
@@ -672,8 +685,19 @@ slot0.updateSecretaryIDs = function(slot0)
 						table.insert(uv1.unlockSecretaryIds, uv2)
 					end
 				end
+			end,
+			[EducateConst.SECRETARY_UNLCOK_TYPE_SHOP] = function ()
+				if uv0[1] and getProxy(ShipSkinProxy):hasSkin(uv0[1]) then
+					table.insert(uv1.unlockSecretaryIds, uv2)
+				end
+			end,
+			[EducateConst.SECRETARY_UNLCOK_TYPE_STORY] = function ()
 			end
 		})
+	end
+
+	if slot1 then
+		getProxy(SettingsProxy):UpdateEducateCharTip(slot2)
 	end
 end
 

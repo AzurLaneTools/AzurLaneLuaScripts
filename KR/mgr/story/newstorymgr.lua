@@ -262,14 +262,15 @@ slot0._Init = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	table.insert(slot0.playQueue, {
 		slot1,
-		slot2
+		slot2,
+		slot7
 	})
 
 	if #slot0.playQueue == 1 then
-		slot7 = nil
+		slot8 = nil
 
 		(function ()
 			if #uv0.playQueue == 0 then
@@ -285,7 +286,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 				table.remove(uv1.playQueue, 1)
 				uv2()
-			end, uv2, uv3, uv4, uv5)
+			end, uv2, uv3, uv4, uv5, uv0.playQueue[1][3])
 		end)()
 	end
 end
@@ -336,47 +337,51 @@ slot0.Stop = function(slot0)
 	end
 end
 
-slot0.PlayForWorld = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+slot0.PlayForTb = function(slot0, slot1, slot2, slot3, slot4)
+	slot0:Play(slot1, slot3, slot4, false, false, true, slot2)
+end
+
+slot0.PlayForWorld = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8)
 	slot0.optionSelCodes = slot2 or {}
 	slot0.autoPlayFlag = slot6
 
-	slot0:Play(slot1, slot3, slot4, slot5, slot7, true)
+	slot0:Play(slot1, slot3, slot4, slot5, slot7, true, slot8)
 end
 
-slot0.ForceAutoPlay = function(slot0, slot1, slot2, slot3, slot4)
+slot0.ForceAutoPlay = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.autoPlayFlag = true
 
 	slot0:Play(slot1, function (slot0, slot1)
 		uv0(slot0, slot1, uv1.isAutoPlay)
-	end, slot3, slot4, true)
+	end, slot3, slot4, true, false, slot5)
 end
 
-slot0.ForceManualPlay = function(slot0, slot1, slot2, slot3, slot4)
+slot0.ForceManualPlay = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.banPlayFlag = true
 
 	slot0:Play(slot1, function (slot0, slot1)
 		uv0(slot0, slot1, uv1.isAutoPlay)
-	end, slot3, slot4, true)
+	end, slot3, slot4, true, false, slot5)
 end
 
-slot0.SeriesPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-	slot7 = {}
+slot0.SeriesPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
+	slot8 = {}
 
-	for slot11, slot12 in ipairs(slot1) do
-		table.insert(slot7, function (slot0)
-			uv0:SoloPlay(uv1, slot0, uv2, uv3, uv4, uv5)
+	for slot12, slot13 in ipairs(slot1) do
+		table.insert(slot8, function (slot0)
+			uv0:SoloPlay(uv1, slot0, uv2, uv3, uv4, uv5, uv6)
 		end)
 	end
 
-	seriesAsync(slot7, slot2)
+	seriesAsync(slot8, slot2)
 end
 
-slot0.SoloPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+slot0.SoloPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 	uv0("Play Story:", slot1)
 
-	slot7 = 1
+	slot8 = 1
 
-	slot8 = function(slot0, slot1)
+	slot9 = function(slot0, slot1)
 		uv0 = uv0 - 1
 
 		if uv1 and uv0 == 0 then
@@ -387,7 +392,7 @@ slot0.SoloPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end
 
 	if not uv1(slot1) then
-		slot8(false)
+		slot9(false)
 		uv0("not exist story file")
 
 		return nil
@@ -397,23 +402,23 @@ slot0.SoloPlay = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 		slot3 = true
 	end
 
-	slot0.storyScript = Story.New(slot9, slot3, slot0.optionSelCodes, slot5, slot6)
+	slot0.storyScript = Story.New(slot10, slot3, slot0.optionSelCodes, slot5, slot6, slot7)
 
 	if not slot0:CheckState() then
 		uv0("story state error")
-		slot8(false)
+		slot9(false)
 
 		return nil
 	end
 
 	if not slot0.storyScript:CanPlay() then
 		uv0("story cant be played")
-		slot8(false)
+		slot9(false)
 
 		return nil
 	end
 
-	slot0:ExecuteScript(slot8)
+	slot0:ExecuteScript(slot9)
 end
 
 slot0.ExecuteScript = function(slot0, slot1)

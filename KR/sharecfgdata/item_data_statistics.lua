@@ -15505,6 +15505,37 @@ _G.pg.base.item_data_statistics[21042] = {
 }
 
 
+_G.pg.base.item_data_statistics[21043] = {
+	open_directly = 0,
+	name = "결정: 볼차노·META",
+	type = 4,
+	display = "볼차노·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21043",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21043,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -27258,6 +27289,58 @@ _G.pg.base.item_data_statistics[30425] = {
 		{
 			9,
 			2088,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30426] = {
+	open_directly = 1,
+	name = "무작위 장비 스킨",
+	type = 11,
+	display = "크루즈 보상 장비 스킨을 무작위로 하나 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30426",
+	id = 30426,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2089,
+			1
+		},
+		{
+			9,
+			2090,
+			1
+		},
+		{
+			9,
+			2091,
+			1
+		},
+		{
+			9,
+			2092,
 			1
 		}
 	},
@@ -94766,6 +94849,73 @@ _G.pg.base.item_data_statistics[81210] = {
 		{
 			2,
 			86210,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81211] = {
+	open_directly = 1,
+	name = "춘절 복주머니 2025B",
+	type = 17,
+	display = "랜덤(랜덤 춘절 복주머니 2025B의) 스킨, 상급 지향형 강화 유닛·7기×2, 다이아×2025, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai22",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998313",
+	id = 81211,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86211,
 			1
 		},
 		{

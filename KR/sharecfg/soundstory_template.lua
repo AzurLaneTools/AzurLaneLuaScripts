@@ -6,11 +6,11 @@ pg.soundstory_template = {
 		story_resource_JP = "soundStory1_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "ss-50601-1",
-		CV_JP = "Iwami Manaka",
+		CV_JP = "이와미 마나카",
 		audition_resource_JP = "ss-50601-2",
-		overview = "두 사람만의 평온한 다실. 평소에 피로를 풀어주는 무릎배게뿐만 아니라, 조금 특별한 방법도...",
+		overview = "두 사람만의 평온한 다실. 평소에 피로를 풀어주는 무릎배게뿐만 아니라, 조금 특별한 방법도…",
 		order = 2,
-		audition_text = "오늘은 통째로 빌렸답니다. 모처럼이니, 천천히 쉬다가 가시는 건 어떠세요?",
+		audition_text = "오늘은 통째로 빌렸답니다. 모처럼이니, 천천히 쉬다가 가시는 건 어떠신지요?",
 		ship_id = 50601,
 		id = 1,
 		captions_color = "#4a383e",
@@ -29,9 +29,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					9
+					2025,
+					2,
+					6
 				},
 				{
 					0,
@@ -41,9 +41,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					22
+					2025,
+					2,
+					13
 				},
 				{
 					23,
@@ -59,11 +59,11 @@ pg.soundstory_template = {
 		story_resource_JP = "soundStory2_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "",
-		CV_JP = "Reina Kondo",
+		CV_JP = "콘도 레이나",
 		audition_resource_JP = "ss-31901-1",
-		overview = "\"지휘관님은 바다 좋아하세요? 카시노는 엄청 좋아해요.\"\n햇살 속에서 카시노와 즐기는 바다\n차가운 바닷물로도 숨길 수 없는 뜨거운 마음",
+		overview = "「지휘관님은 바다 좋아하세요? 카시노는 엄청 좋아해요.」\n햇살 속에서 카시노와 즐기는 바다\n차가운 바닷물로도 숨길 수 없는 뜨거운 마음",
 		order = 2,
-		audition_text = "휴우~ 재밌었다♪ 후훗, 너무 들떴나봐요. 이렇게 바다에서 놀아본 게 대체 얼마 만일까요...?",
+		audition_text = "휴우~ 재밌었다♪ 후훗, 너무 들떴나봐요. 이렇게 바다에서 놀아본 게 대체 얼마 만일까요…?",
 		ship_id = 31901,
 		id = 2,
 		captions_color = "#2e78d0",
@@ -82,9 +82,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					8,
-					17
+					2025,
+					2,
+					6
 				},
 				{
 					0,
@@ -94,9 +94,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					8,
-					23
+					2025,
+					2,
+					13
 				},
 				{
 					23,
@@ -509,7 +509,7 @@ pg.soundstory_template = {
 		story_pic = "",
 		name = "비밀스레 즐기는 둘만의 시간",
 		story_resource_JP = "soundStory12_JP",
-		story_resource_CN = "soundStory12_CN",
+		story_resource_CN = "",
 		audition_resource_CN = "ss-50602-1",
 		CV_JP = "누쿠이 유카",
 		audition_resource_JP = "ss-50602-2",
@@ -519,7 +519,7 @@ pg.soundstory_template = {
 		ship_id = 50602,
 		id = 12,
 		captions_color = "#323a83",
-		CV_CN = "村雨",
+		CV_CN = "",
 		cost1 = {
 			1,
 			14,
@@ -805,7 +805,7 @@ pg.soundstory_template = {
 		audition_resource_CN = "",
 		CV_JP = "타츠미 유이코",
 		audition_resource_JP = "ss-10324-1",
-		overview = "성스러운 밤에 찾아온 브레머튼 산타는 불행하게도 그만 창문에 끼어버리고 만다.\n 그녀를 구하기 위해 지휘관이 취한 행동은……",
+		overview = "성스러운 밤에 찾아온 브레머튼 산타는 불행하게도 그만 창문에 끼어버리고 만다. \n 그녀를 구하기 위해 지휘관이 취한 행동은……",
 		order = 2,
 		audition_text = "읏…… 조금만 더 세게 해도 괜찮아. 안 아파…",
 		ship_id = 10324,
@@ -858,7 +858,7 @@ pg.soundstory_template = {
 		audition_resource_CN = "",
 		CV_JP = "사와다 히메",
 		audition_resource_JP = "ss-39906-1",
-		overview = "새해를 맞이하여 전통 방식으로 우동 만들기에 여념이 없는 용신님.\n미끄러운 반죽을 상대로 고전하는 그녀를 구할 수 있는 것은 오로지 지휘관뿐.",
+		overview = "새해를 맞이하여 전통 방식으로 우동 만들기에 여념이 없는 용신님. \n미끄러운 반죽을 상대로 고전하는 그녀를 구할 수 있는 것은 오로지 지휘관뿐.",
 		order = 2,
 		audition_text = "뭉친 부분은…… 발로 확실하게 풀어주고…… 그래도 아직 부족하면…… 다시……",
 		ship_id = 39906,
@@ -903,6 +903,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "둘만의 해변 데이트",
+		story_resource_JP = "soundStory20_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "ss-59901-1",
+		CV_JP = "호모토 아키나",
+		audition_resource_JP = "ss-59901-2",
+		overview = "일광욕부터 물놀이까지 이어지는 달달한 해변 데이트.\n밤이 찾아옴과 동시에 펼쳐지는 둘만의 러브 로맨스.",
+		order = 2,
+		audition_text = "이걸로 만족이 안 되면 얼마든지 말하라고.",
+		ship_id = 59901,
+		id = 20,
+		captions_color = "#7f574e",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "금단의 고해성사실",
+		story_resource_JP = "soundStory21_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Yukana",
+		audition_resource_JP = "ss-20707-1",
+		overview = "달빛이 스테인드 글라스를 비추고, 성스러운 수녀복 차림의 여인이 길 잃은 어린 양을 애타게 기다리고 있다. \n한밤 중의 고해는 구원인가, 아니면 유혹인가…?",
+		order = 2,
+		audition_text = "후후후, 난 눈치가 빠른 사람이 좋더라. 같이… 타락하고 싶어질 정도로♥",
+		ship_id = 20707,
+		id = 21,
+		captions_color = "#694348",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -922,6 +1028,8 @@ pg.soundstory_template = {
 		16,
 		17,
 		18,
-		19
+		19,
+		20,
+		21
 	}
 }

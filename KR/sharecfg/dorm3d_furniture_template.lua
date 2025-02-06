@@ -173,6 +173,38 @@ pg.dorm3d_furniture_template = {
 			"banner_furniture121"
 		}
 	},
+	[122] = {
+		rarity = 4,
+		name = "오후의 고향",
+		type = 5,
+		room_id = 1,
+		desc = "쾌적한 리클라이닝 소파.\n 폭신하고도 부드러우며, 쿠션과 이불이 딸려있다. 언제든 잠깐 눈을 붙일 수 있는 보드라운 감촉,",
+		is_exclusive = 1,
+		model = "Pay_Siriushostel/pre_db_sh_chair02",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture2",
+		scene_hides = "",
+		acesses = "",
+		id = 122,
+		target_slots = {
+			100301
+		},
+		touch_id = {
+			{
+				20220,
+				10100202
+			}
+		},
+		shop_id = {
+			270103
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture122"
+		}
+	},
 	[201] = {
 		rarity = 3,
 		name = "푹신한 이불",
@@ -430,36 +462,38 @@ pg.dorm3d_furniture_template = {
 			"banner_furniture221"
 		}
 	},
-	[122] = {
-		rarity = 4,
-		name = "오후의 몽향",
-		type = 5,
-		room_id = 1,
-		desc = "쾌적한 리클라이닝 소파.\n 폭신하고도 부드러우며, 쿠션과 이불이 딸려있다. 언제든 잠깐 눈을 붙일 수 있는 보드라운 감촉,",
+	[222] = {
+		rarity = 3,
+		name = "마주보는 대화",
+		type = 6,
+		room_id = 2,
+		desc = "넓다란 테이블에 기쁨과 기대감이 가득하다.\n자리 준비는 끝났으니 남은 건 두 사람의 밀회를 조용히 기다리는 것뿐.",
 		is_exclusive = 1,
-		model = "Pay_Siriushostel/pre_db_sh_chair02",
+		model = "Pay_Noshirohostel/pre_db_nh_diningroom01",
 		is_special = 0,
-		icon = "dorm3dIcon/3Ddrom_tianlangxing_PremiumFurniture2",
-		scene_hides = "",
+		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture2",
 		acesses = "",
-		id = 122,
+		id = 222,
 		target_slots = {
-			100301
+			120203
 		},
 		touch_id = {
 			{
-				20220,
-				10100202
+				30221,
+				2200610
 			}
 		},
 		shop_id = {
-			270103
+			270202
 		},
 		unlock_tips = {
 			3
 		},
 		unlock_banners = {
-			"banner_furniture122"
+			"banner_furniture222"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/diningroom"
 		}
 	},
 	[151] = {
@@ -558,6 +592,7 @@ pg.dorm3d_furniture_template = {
 			209,
 			210,
 			221,
+			222,
 			251
 		}
 	},
@@ -569,6 +604,7 @@ pg.dorm3d_furniture_template = {
 		5,
 		6,
 		121,
+		122,
 		201,
 		202,
 		203,
@@ -580,7 +616,7 @@ pg.dorm3d_furniture_template = {
 		209,
 		210,
 		221,
-		122,
+		222,
 		151,
 		251
 	}

@@ -169272,6 +169272,31 @@ _G.pg.base.item_virtual_data_statistics[65073] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65074] = {
+	drop_gold_max = 0,
+	name = "투어 PT",
+	display = "이벤트 「월드 투어」에서 획득 합계 보상을 획득하기 위한 임무 PT 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7021,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65074,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "저항의 별 기념 훈장",
@@ -169884,6 +169909,356 @@ _G.pg.base.item_virtual_data_statistics[65520] = {
 		},
 		1
 	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65521] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅰ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_1",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65521,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65522] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅱ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_2",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65522,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65523] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅲ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_3",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65523,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65524] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅳ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_14",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65524,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65525] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅴ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_17",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65525,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65526] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅵ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_6",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65526,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65527] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅶ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_7",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65527,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65528] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅷ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65528,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65529] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅸ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_9",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65529,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65530] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅹ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_10",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65530,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65531] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅺ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_13",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65531,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65532] = {
+	drop_gold_max = 0,
+	name = "신춘 불꽃·Ⅻ",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_18",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65532,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65533] = {
+	drop_gold_max = 0,
+	name = "掉落用烟花",
+	display = "不会被看见，转换用",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5788,
+	icon = "Props/yanhua_13",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65533,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65534] = {
+	drop_gold_max = 0,
+	name = "불꽃죽제 분위기 Pt",
+	display = "「모항 불꽃축제」 이벤트 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65534",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65534,
+	display_icon = {},
 	price = {},
 	index = {},
 	shiptrans_id = {},
@@ -176618,6 +176993,60 @@ _G.pg.base.item_virtual_data_statistics[86210] = {
 		{
 			501091,
 			1800
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86211] = {
+	drop_gold_max = 0,
+	name = "랜덤 스킨",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86211,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			499033,
+			1500
+		},
+		{
+			905014,
+			1500
+		},
+		{
+			105173,
+			1500
+		},
+		{
+			702062,
+			1500
+		},
+		{
+			802022,
+			1450
+		},
+		{
+			301132,
+			1290
+		},
+		{
+			603043,
+			1260
 		}
 	}
 }

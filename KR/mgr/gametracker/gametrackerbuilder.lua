@@ -151,4 +151,8 @@ slot0.BuildDorm3d = function(slot0)
 	return uv0(slot0.track_typ, slot0.int_args, slot0.str_args)
 end
 
+slot0.BuildNewEducate = function(slot0)
+	return uv0(slot0.track_typ, slot0.int_args, slot0.str_args)
+end
+
 return slot0

@@ -1,238 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103165] = {
-		name = "스플렌디드 기어",
-		change_skin = "",
-		bg_sp = "",
-		desc = "여어, 지휘관. 오늘은 시합 관전하러 온 거야? 마음껏 즐기다 가라고. …이거 말이야? 아아, 이건 레이싱걸 좀 도와달라고 부탁 받아서 말이야. 오늘 시합 분위기를 잘 띄울 수 있으면 좋겠는데….",
-		illustrator2 = -1,
-		ship_group = 10316,
-		group_index = 5,
-		painting = "baerdimo_6",
-		prefab = "baerdimo_6",
-		hand_id = 13,
-		shop_type_id = 14,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		bg = "132",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103165,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70758,
-		voice_actor = 191,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			-40,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.15,
-					0.87,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.13,
-					0.94,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.009,
-					0.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.433,
-							2.34,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		ship_l2d_id = {
-			1031651
-		}
-	},
-	[103240] = {
-		name = "브레머튼",
-		change_skin = "",
-		bg_sp = "",
-		desc = "볼티모어급 중순양함—브레머튼, 현호 CA-130 ",
-		illustrator2 = -1,
-		ship_group = 10324,
-		group_index = 0,
-		painting = "bulaimodun",
-		prefab = "bulaimodun",
-		hand_id = 13,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 103240,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.202,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					1.132,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.009,
-					-0.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103241] = {
 		name = "열정의 테니스 연습",
 		change_skin = "",
@@ -5818,6 +5586,131 @@ pg.base.ship_skin_template_3 = {
 			1051726,
 			1051727,
 			1051728
+		}
+	},
+	[105173] = {
+		name = "달빛 아래 Let's Dance!",
+		change_skin = "",
+		bg_sp = "",
+		desc = "후우… 마무리 동작이 좀 어렵지만, 나한테 이 정도는 아무것도 아니지! 그나저나 자기, 이런 거 좋아해…? 자기? 너무 빠져들어서 말도 안 나오는 거야? 아하하♪",
+		illustrator2 = -1,
+		ship_group = 10517,
+		group_index = 3,
+		painting = "xinzexi_4",
+		prefab = "xinzexi_4",
+		hand_id = 1,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "302",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 105173,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71107,
+		voice_actor = 273,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			40,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.693,
+					1.312,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.673,
+					1.297,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.819,
+					2.203,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.591,
+							2.488,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				185.7,
+				-102.6,
+				0
+			},
+			{
+				0.46
+			}
 		}
 	},
 	[105178] = {
@@ -13239,6 +13132,208 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.573,
 							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107223] = {
+		name = "Relaxation.I",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "음—... 신체가 굳어지지 않게 하려면 역시 스트레칭이지. ??? 옷이 왜? ... 지휘관이 계속 쳐다보고 있지만 않는다면 별 거 없잖아...",
+		illustrator2 = -1,
+		ship_group = 10722,
+		group_index = 3,
+		painting = "duli_6",
+		prefab = "duli_6",
+		hand_id = 1,
+		shop_type_id = 20,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "109",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107223,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70518,
+		voice_actor = 130,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.453,
+					0.992,
+					0
+				}
+			},
+			plane = {
+				{
+					1.464,
+					1.001,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107224] = {
+		name = "해풍의 Lucky Time",
+		change_skin = "",
+		bg_sp = "",
+		desc = "인형뽑기 기계에 동전을 넣고, 조이스틱을 조종한 다음, 갈고리를 내리면……앗, 성공했어! 쥬쥬 인형이다! 엄청 쉬운 것 같은 걸.",
+		illustrator2 = -1,
+		ship_group = 10722,
+		group_index = 4,
+		painting = "duli_3",
+		prefab = "duli_3",
+		hand_id = 1,
+		shop_type_id = 9,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "108",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107224,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70624,
+		voice_actor = 130,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.095,
+					0
+				}
+			},
+			plane = {
+				{
+					0.999,
+					1.075,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.421,
+							2.463,
 							-0.25
 						}
 					}

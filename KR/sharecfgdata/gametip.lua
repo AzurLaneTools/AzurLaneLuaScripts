@@ -24350,23 +24350,18 @@ _G.pg.base.gametip.cruise_task_help_2202 = {
 	tip = {
 		{
 			info = [[
-투어 임무 설명
+■ 월드 투어에 대해
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+　①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 7일이 경과할 때마다 오픈되는 임무. 총 8그룹
+　②전체 기간 임무
+　처음부터 모두 오픈되는 임무. 총 1그룹
 
-·<color=#92fc63>개방 기간</color>
- 2022.2.8 0시 ~ 2022.4.7 23:59:59
+・「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
 
-·<color=#92fc63>투어 임무는 2가지로 나뉘어집니다.</color>
-(1)주간 임무
- 투어 임무에 8세트 주간 임무가 존재합니다. 이벤트 시작 후 1주차 임무가 해제되며, 이후 월요일 0시마다 다음 주간 임무가 해제됩니다.
-(2)S.P. 임무
- S.P. 임무는 특수 임무로, 이벤트 시작 후 모든 임무가 해제됩니다.
-(3)투어 임무는 해제 후 자동으로 접수되며, 임무 완성 조건 만족 시, 자동 완성 및 보상을 획득합니다.
-
-·<color=#92fc63>「투어 임무 완료 쿠폰」설명</color>
-(1)「투어 임무 완료 쿠폰」은 투어 임무 화면에서 사용할 수 있으며, 일정 수량의「투어 임무 완료 쿠폰」을 소비하여 주간 투어 임무를 즉시 완료할 수 있습니다.
-(2)「투어 임무 완료 쿠폰」 수량이 부족할 경우, 다이아를 소비해 보충할 수 있습니다.
-(3)각 투어 임무마다 필요한 「투어 임무 완료 쿠폰」 수량은 제공되는 「투어 PT」와 연관이 있으며, 현재 임무 진도와는 무관합니다.
-(4)「투어 임무 완료 쿠폰」은 <color=#92fc63>이번 이벤트 종료 시 사라지지 않습니다.</color>]]
+・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+　다이아가 소모되므로, 권장하지 않습니다……
+　「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
 		}
 	}
 }
@@ -25716,6 +25711,75 @@ _G.pg.base.gametip.cruise_task_help_2412 = {
 ・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
  다이아가 소모되므로, 권장하지 않습니다……
  「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2502 = {
+	tip = "2025/2/8 ~ 2025/4/7 이벤트 기간 중에 월드 투어 <icon name=pt w=0.5 h=0.5/>획득 합계 보상으로<color=#854747> 「볼차노·META」</color> 등 획득 가능"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2502 = {
+	tip = {
+		{
+			info = [[
+■ 이벤트 진행 기간
+ 2025.2.8(토) 0:00 ~ 2025.4.7(월) 23:59
+
+■ 개요
+「월드 투어」란, 이벤트 진행 중에 임무를 클리어하고 「투어 PT」를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
+또한, 기본 투어 보상에는 추가적으로 「특허 투어 보상」이 존재하며, 상점 아이템 「특허 투어 패스」를 구매하면 특허 투어 보상을 획득할 수 있습니다. 
+기본 투어 보상으로는 함선 「볼차노·META」, 특허 투어 보상으로는 순영전함 「리펄스」의 한정 스킨인 「춘화의 연무」를 획득할 수 있습니다. 
+
+■플레이 방법
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+・상기 「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+ 또한 「특허 투어 패스」를 구매하면, 15단계 분량의 보상(투어 PT 1,500)을 획득할 수 있습니다. 
+・「투어 PT」의 합계에 따라 투어 보상을 얻을 수 있습니다. 투어 보상은 두 가지가 있습니다. 
+ ①기본 투어 보상
+ 「투어 PT」의 획득 수에 따라 얻을 수 있는 보상. 총 100단계가 있습니다.
+ ②특허 투어 보상
+ 「특허 투어 패스」를 구매하면 오픈되는 추가 보상. 기본 투어 보상과 동일하게 총 100단계가 있으며, 기본 투어 보상과 같은 단계의 특허 투어 보상을 획득할 수 있습니다. 
+・이벤트가 종료되면 획득한 투어 PT는 초기화됩니다. 
+
+■Tips
+・플레이 스타일
+　월드 투어에는 총 100단계가 있으며, 단숨에 마지막 단계까지 클리어할 수 없도록 만들어져 있습니다. 평소대로 퀘스트를 클리어하면서 임무를 처리하거나, 원하는 보상을 정해 신속하게 클리어하는 등, 자신의 플레이 스타일에 따라 즐기는 것을 추천합니다. 
+
+・특허 투어 패스
+ 상점에서 「특허 투어 패스」를 구매하면, 특별한 아이템과 함께 「투어 PT」를 1,500PT 획득할 수 있습니다. 또한, 추가 한정 스킨은 「특허 투어 패스」 구매로 오픈되는 「특허 투어 보상」으로만 획득할 수 있습니다. 이 점 주의하시기 바랍니다. 
+
+・임무 스킵(권장하지 않습니다)
+ 「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다. 
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2502 = {
+	tip = {
+		{
+			info = [[
+■ 월드 투어에 대해
+・「월드 투어」 이벤트 시작과 동시에 임무 두 종류가 오픈됩니다. 
+ ①주간 오픈 임무
+　이벤트 시작 시와 이벤트 기간 중 매주 월요일 0시에 오픈되는 임무. 총 8그룹
+ ②전체 기간 임무
+ 처음부터 모두 오픈되는 임무. 총 1그룹
+
+・「월드 투어」는 모두 자동적으로 수령이 완료되고, 「월드 투어」 화면으로 이동 시에 이미 완료 조건을 충족한 임무는 클리어로 처리되며, 「투어 PT」를 자동으로 획득할 수 있습니다. 
+
+・「월드 투어」의 「임무 목록」 화면에서 각 임무 우측의 화살표 버튼을 탭하면, 임무를 자동으로 스킵(클리어 처리)하고, 투어 PT를 획득할 수 있는 「월드 투어 티켓」을 구입하거나 사용할 수 있습니다. 
+ 다이아가 소모되므로, 권장하지 않습니다……
+ 「월드 투어 티켓」은 이벤트가 종료된 후에도 계속 소지할 수 있습니다. ]]
 		}
 	}
 }
@@ -31322,7 +31386,7 @@ _G.pg.base.gametip.flagship_display_mode_3 = {
 
 
 _G.pg.base.gametip.flagship_educate_slot_lock_tip = {
-	tip = "<color=#39bfff>\"TB 육성\"</color> 스토리 \"새로운 생활\" 오픈 후에 기능이 개방됩니다."
+	tip = "<color=#39bfff>「TB 육성」</color>의 임의 튜토리얼을 클리어한 후에 기능이 오픈됩니다."
 }
 
 
@@ -35334,6 +35398,11 @@ _G.pg.base.gametip.cruise_title_2412 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2502 = {
+	tip = "월드 투어·21기"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "이번 남은 시간:"
 }
@@ -35559,6 +35628,314 @@ _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 }
 
 
+_G.pg.base.gametip.child2_cur_round = {
+	tip = "$1턴째"
+}
+
+
+_G.pg.base.gametip.child2_assess_round = {
+	tip = "판정: ($1턴 후)"
+}
+
+
+_G.pg.base.gametip.child2_assess_target = {
+	tip = "능력 목표: $1/$2"
+}
+
+
+_G.pg.base.gametip.child2_ending_stage = {
+	tip = "엔딩 단계"
+}
+
+
+_G.pg.base.gametip.child2_reset_stage = {
+	tip = "정보 목록"
+}
+
+
+_G.pg.base.gametip.child2_main_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help8"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help9"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help10"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help11"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help12"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_personality_title = {
+	tip = "성격"
+}
+
+
+_G.pg.base.gametip.child2_attr_title = {
+	tip = "파라미터"
+}
+
+
+_G.pg.base.gametip.child2_talent_title = {
+	tip = "어빌리티"
+}
+
+
+_G.pg.base.gametip.child2_status_title = {
+	tip = "상태"
+}
+
+
+_G.pg.base.gametip.child2_talent_unlock_tip = {
+	tip = "$1턴째에 오픈"
+}
+
+
+_G.pg.base.gametip.child2_status_time1 = {
+	tip = "$1턴째"
+}
+
+
+_G.pg.base.gametip.child2_status_time2 = {
+	tip = "영구"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip = {
+	tip = "$1턴 후에 <color=#393a3c>판정 시작</color>"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip_target = {
+	tip = "파라미터 총 <color=#39bfff>$1</color> 필요"
+}
+
+
+_G.pg.base.gametip.child2_site_exit = {
+	tip = "떠난다"
+}
+
+
+_G.pg.base.gametip.child2_shop_limit_cnt = {
+	tip = "한정"
+}
+
+
+_G.pg.base.gametip.child2_unlock_site_round = {
+	tip = "다음 레벨 오픈까지 $1턴 남음"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_add = {
+	tip = "$1(이)가 $2 → $3으로 상승(총 $4)"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_reduce = {
+	tip = "$1(이)가 $2 → $3으로 하강(총 $4)"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_item = {
+	tip = "상태 [$1] 획득"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag1 = {
+	tip = "얌전"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "제멋대로"
+}
+
+
+_G.pg.base.gametip.child2_personal_change = {
+	tip = "성격 변화"
+}
+
+
+_G.pg.base.gametip.child2_ship_upgrade_favor = {
+	tip = "$1(와)과의 이벤트 진척도가 $2(이)가 되었습니다."
+}
+
+
+_G.pg.base.gametip.child2_plan_title_front = {
+	tip = "제"
+}
+
+
+_G.pg.base.gametip.child2_plan_title_back = {
+	tip = "턴째"
+}
+
+
+_G.pg.base.gametip.child2_plan_upgrade_condition = {
+	tip = "[레벨 상승 조건]"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_on = {
+	tip = "엔딩 확인"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_off = {
+	tip = "오픈 조건 확인"
+}
+
+
+_G.pg.base.gametip.child2_game_cnt = {
+	tip = "$1주차"
+}
+
+
+_G.pg.base.gametip.child2_enter = {
+	tip = "육성 시작"
+}
+
+
+_G.pg.base.gametip.child2_select_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_not_start = {
+	tip = "아직 시작하지 않았습니다."
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip = {
+	tip = "아직 설정하지 않은 예정이 있습니다. 다음 턴으로 진행하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child2_reset_sure_tip = {
+	tip = "초기화하면 1턴째로 돌아갑니다. 초기화하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip2 = {
+	tip = "아직 사용하지 않은 행동력이 있습니다. 다음 턴으로 진행하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip3 = {
+	tip = "아직 사용하지 않은 행동력/설정하지 않은 예정이 있습니다. 다음 턴으로 진행하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child2_assess_start_tip = {
+	tip = "판정 시작"
+}
+
+
+_G.pg.base.gametip.child2_site_again = {
+	tip = "한 번 더"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure = {
+	tip = "상태 지속 중입니다(잔여 $1턴). 구매하면 지속 시간이 초기화됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure2 = {
+	tip = "이미 이 「상태」를 보유하고 있으므로, 구매하더라도 새로 「상태」를 획득할 수 없습니다. 계속하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.world_file_tip = {
 	tip = "※화면을 슬라이드하여 페이지를 스크롤할 수 있습니다. 화면을 탭하면 닫힙니다."
 }
@@ -35666,6 +36043,11 @@ _G.pg.base.gametip.juuschat_filter_subtitle2 = {
 
 _G.pg.base.gametip.juuschat_filter_subtitle3 = {
 	tip = "진영"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_show_detail = {
+	tip = "수령 상세 정보"
 }
 
 
@@ -36205,7 +36587,7 @@ _G.pg.base.gametip.task_get = {
 
 
 _G.pg.base.gametip.notify_clock_tip = {
-	tip = "해당 권한이 허가되지 않아 알림 기능을 유효화할 수 없습니다."
+	tip = "해당 권한이 허가되어 있지 않아 알림 기능을 유효화할 수 없습니다."
 }
 
 
@@ -36327,6 +36709,134 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 }
 
 
+_G.pg.base.gametip.dorm3d_gift_favor_exceed = {
+	tip = "선물하면 한도를 초과하는 $1의 친밀도는 무효가 됩니다. 계속하시겠습니까?"
+}
+
+
 _G.pg.base.gametip.please_input_1_99 = {
 	tip = "1～99 입력하세요"
+}
+
+
+_G.pg.base.gametip.child2_empty_plan = {
+	tip = "예정이 없습니다."
+}
+
+
+_G.pg.base.gametip.child2_replay_tip = {
+	tip = "게임 중단이 감지되었습니다. 중단 시의 진척 상태로 돌아가시겠습니까? (「돌아가기」 버튼을 탭하면 이전 화면으로 돌아갑니다.)"
+}
+
+
+_G.pg.base.gametip.child2_replay_clear = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.child2_replay_continue = {
+	tip = "계속하기"
+}
+
+
+_G.pg.base.gametip.firework_2025_level = {
+	tip = "레벨 $1"
+}
+
+
+_G.pg.base.gametip.firework_2025_pt = {
+	tip = "분위기 Pt"
+}
+
+
+_G.pg.base.gametip.firework_2025_get = {
+	tip = "수령 가능"
+}
+
+
+_G.pg.base.gametip.firework_2025_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.firework_2025_tip1 = {
+	tip = "해역을 클리어하면 불꽃이 일정 확률로 오픈됩니다."
+}
+
+
+_G.pg.base.gametip.firework_2025_tip2 = {
+	tip = "컨디션 회복 속도:"
+}
+
+
+_G.pg.base.gametip.firework_2025_unlock_tip1 = {
+	tip = "분위기"
+}
+
+
+_G.pg.base.gametip.firework_2025_unlock_tip2 = {
+	tip = "$1 달성"
+}
+
+
+_G.pg.base.gametip.firework_2025_tip = {
+	tip = {
+		{
+			info = "플레이 방법:"
+		},
+		{
+			info = "1. 불꽃을 오픈하거나, 불꽃축제 한정 임무를 클리어하면 「모항 불꽃축제 분위기 Pt(분위기 Pt)를 획득할 수 있습니다. 「분위기 Pt」의 총 합계 보상으로 「세뱃돈」 장비 스킨 「뱀 불꽃 상자」, 「세뱃돈」 등을 획득할 수 있습니다. "
+		},
+		{
+			info = "2. 메인 해역 3장 이후 스테이지를 클리어하거나, 공투 이벤트에 참여하면 일정 확률로 「신춘 불꽃」을 오픈할 수 있습니다. 「불꽃 발사」로 불꽃을 오픈하면 「분위기 Pt」 등의 보상을 획득할 수 있습니다. "
+		},
+		{
+			info = "3. 이벤트 기간 중 「축제 광장」에서 함선을 배치 슬롯에 배치하면, 해당 함선의 컨디션 회복 속도를 상승시킬 수 있습니다. 이벤트의 「진척 Lv」에 따라 「축제 광장」의 배치 슬롯을 늘릴 수 있습니다(최대 10개까지)."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.secretary_special_character_unlock = {
+	tip = "<color=#39bfff>「육성」</color> 컨디션으로 오픈 가능"
+}
+
+
+_G.pg.base.gametip.secretary_special_character_buy_unlock = {
+	tip = "캐릭터를 보유하고 있지 않습니다. <color=#39bfff>「육성」</color> 컨디션으로 오픈 가능"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc1 = {
+	tip = "현재 기분: 낙담, <color=#ee4a4a>보상 획득 -40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc2 = {
+	tip = "현재 기분: 우울, <color=#ff6767>보상 획득 -20%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc3 = {
+	tip = "현재 기분: 보통, 보상 획득에 영향 없음"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc4 = {
+	tip = "현재 기분: 최고, <color=#00c79b>보상 획득 +40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc5 = {
+	tip = "현재 기분: 최고, <color=#00c79b>보상 획득 +40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_schedule_target = {
+	tip = "합계 파라미터 목표:"
+}
+
+
+_G.pg.base.gametip.child2_shop_point_sure = {
+	tip = "행동력은 최대 한도까지만 보유할 수 있습니다(한도를 초과한 행동력은 자동으로 파기됨). 계속하시겠습니까?"
 }

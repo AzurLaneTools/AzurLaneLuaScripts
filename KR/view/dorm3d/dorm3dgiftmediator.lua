@@ -12,11 +12,11 @@ slot0.register = function(slot0)
 			groupId = slot1
 		})
 	end)
-	slot0:bind(uv0.GIVE_GIFT, function (slot0, slot1)
+	slot0:bind(uv0.GIVE_GIFT, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.APARTMENT_GIVE_GIFT, {
-			count = 1,
 			groupId = uv0.viewComponent.apartment.configId,
-			giftId = slot1
+			giftId = slot1,
+			count = slot2
 		})
 	end)
 	slot0:bind(uv0.DO_TALK, function (slot0, slot1, slot2)
@@ -52,7 +52,7 @@ slot0.register = function(slot0)
 			onRemoved = slot2
 		}))
 	end)
-	slot0.viewComponent:SetApartment(slot0.contextData.apartment)
+	slot0.viewComponent:SetApartment(getProxy(ApartmentProxy):getApartment(slot0.contextData.groupId))
 end
 
 slot0.initNotificationHandleDic = function(slot0)

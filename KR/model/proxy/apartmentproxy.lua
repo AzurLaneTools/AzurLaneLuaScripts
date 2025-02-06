@@ -89,24 +89,25 @@ slot0.updateRoom = function(slot0, slot1)
 	slot0:sendNotification(uv0.UPDATE_ROOM, slot1)
 end
 
-slot0.triggerFavor = function(slot0, slot1, slot2)
-	slot3 = slot0.data[slot1]
-	slot5 = 0
+slot0.triggerFavor = function(slot0, slot1, slot2, slot3)
+	slot3 = slot3 or 1
+	slot4 = slot0.data[slot1]
 	slot6 = 0
+	slot7 = 0
 
-	if pg.dorm3d_favor_trigger[slot2].is_daily_max <= slot0.stamina and not slot3:isMaxFavor() then
-		slot6 = slot4.is_daily_max
-		slot5 = math.min(slot4.num, slot3:getMaxFavor())
+	if pg.dorm3d_favor_trigger[slot2].is_daily_max <= slot0.stamina and not slot4:isMaxFavor() then
+		slot7 = slot5.is_daily_max * slot3
+		slot6 = math.min(slot5.num * slot3, slot4:getMaxFavor() - slot4.favor)
 	end
 
-	slot0.stamina = slot0.stamina - slot6
-	slot3.favor = slot3.favor + slot5
-	slot3.triggerCountDic[slot2] = slot3.triggerCountDic[slot2] + 1
+	slot0.stamina = slot0.stamina - slot7
+	slot4.favor = slot4.favor + slot6
+	slot4.triggerCountDic[slot2] = slot4.triggerCountDic[slot2] + 1
 
-	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataFavor(slot1, slot5, slot3.favor, slot4.type, table.CastToString(slot4.param)))
-	slot0:updateApartment(slot3)
+	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataFavor(slot1, slot6, slot4.favor, slot5.type, table.CastToString(slot5.param)))
+	slot0:updateApartment(slot4)
 
-	return slot5, slot6
+	return slot6, slot7
 end
 
 slot0.getStamina = function(slot0)

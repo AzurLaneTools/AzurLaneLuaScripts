@@ -1635,6 +1635,26 @@ pg.player_resource = {
 		name = "skinTicket86",
 		itemid = 65073
 	},
+	[466] = {
+		id = 466,
+		name = "spring_fes_firework",
+		itemid = 65534
+	},
+	[467] = {
+		id = 467,
+		name = "limit_skinticket10",
+		itemid = 68033
+	},
+	[468] = {
+		id = 468,
+		name = "limit_skinticket11",
+		itemid = 68034
+	},
+	[469] = {
+		id = 469,
+		name = "limit_skinticket12",
+		itemid = 68035
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -1994,6 +2014,11 @@ pg.player_resource = {
 		id = 4020,
 		name = "Battlepass_20",
 		itemid = 65057
+	},
+	[4021] = {
+		id = 4021,
+		name = "Battlepass_21",
+		itemid = 65074
 	},
 	[4186] = {
 		id = 4186,
@@ -3032,6 +3057,18 @@ pg.player_resource = {
 		skinTicket86 = {
 			465
 		},
+		spring_fes_firework = {
+			466
+		},
+		limit_skinticket10 = {
+			467
+		},
+		limit_skinticket11 = {
+			468
+		},
+		limit_skinticket12 = {
+			469
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3247,6 +3284,9 @@ pg.player_resource = {
 		},
 		Battlepass_20 = {
 			4020
+		},
+		Battlepass_21 = {
+			4021
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -3610,6 +3650,10 @@ pg.player_resource = {
 		463,
 		464,
 		465,
+		466,
+		467,
+		468,
+		469,
 		950,
 		951,
 		952,
@@ -3682,6 +3726,7 @@ pg.player_resource = {
 		4018,
 		4019,
 		4020,
+		4021,
 		4186,
 		4276,
 		4599,

@@ -43324,7 +43324,7 @@ _G.pg.base.shop_template[70804] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:逸仙春节",
+	desc = "스킨 구매: 얏센(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43352,7 +43352,7 @@ _G.pg.base.shop_template[70805] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:古比雪夫春节",
+	desc = "스킨 구매: 쿠이비셰프(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43380,7 +43380,7 @@ _G.pg.base.shop_template[70806] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:忒修斯春节",
+	desc = "스킨 구매: 테세우스(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43408,7 +43408,7 @@ _G.pg.base.shop_template[70807] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:华甲春节",
+	desc = "스킨 구매: 화지아(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43436,7 +43436,7 @@ _G.pg.base.shop_template[70808] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:定安春节",
+	desc = "스킨 구매: 딩안(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43464,7 +43464,7 @@ _G.pg.base.shop_template[70809] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:U110春节",
+	desc = "스킨 구매: U-110(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43492,7 +43492,7 @@ _G.pg.base.shop_template[70810] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:应瑞春节",
+	desc = "스킨 구매: 잉 루이(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43520,7 +43520,7 @@ _G.pg.base.shop_template[70811] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:肇和春节",
+	desc = "스킨 구매: 차오 호(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43548,7 +43548,7 @@ _G.pg.base.shop_template[70812] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:吕佐夫春节",
+	desc = "스킨 구매: 뤼초(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43576,7 +43576,7 @@ _G.pg.base.shop_template[70813] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:鲁普雷希特亲王春节",
+	desc = "스킨 구매: 프린츠 루프레히트(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43604,7 +43604,7 @@ _G.pg.base.shop_template[70814] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:埃吉尔春节",
+	desc = "스킨 구매: 에기르(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43632,7 +43632,7 @@ _G.pg.base.shop_template[70815] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:不屈春节",
+	desc = "스킨 구매: 랭동타블(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43660,7 +43660,7 @@ _G.pg.base.shop_template[70816] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:阿拉巴马春节",
+	desc = "스킨 구매: 앨라배마(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43688,7 +43688,7 @@ _G.pg.base.shop_template[70817] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:长春春节",
+	desc = "스킨 구매: 창춘(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -43716,7 +43716,7 @@ _G.pg.base.shop_template[70818] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤:U47春节",
+	desc = "스킨 구매: U-47(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
 	tag = 1,
@@ -49657,13 +49657,13 @@ _G.pg.base.shop_template[70969] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤：240206阿尔比恩皮肤",
+	desc = "스킨 구매: 240206 알비온 스킨",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49678,9 +49678,9 @@ _G.pg.base.shop_template[70969] = {
 	time = {
 		{
 			{
-				2024,
+				2025,
 				2,
-				22
+				6
 			},
 			{
 				0,
@@ -49690,9 +49690,9 @@ _G.pg.base.shop_template[70969] = {
 		},
 		{
 			{
-				2024,
+				2025,
 				2,
-				29
+				12
 			},
 			{
 				23,
@@ -49710,13 +49710,13 @@ _G.pg.base.shop_template[70970] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤：240206安克雷奇皮肤",
+	desc = "스킨 구매: 240206 앵커리지 스킨",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49731,9 +49731,9 @@ _G.pg.base.shop_template[70970] = {
 	time = {
 		{
 			{
-				2024,
+				2025,
 				2,
-				22
+				6
 			},
 			{
 				0,
@@ -49743,9 +49743,9 @@ _G.pg.base.shop_template[70970] = {
 		},
 		{
 			{
-				2024,
+				2025,
 				2,
-				29
+				12
 			},
 			{
 				23,
@@ -49869,13 +49869,13 @@ _G.pg.base.shop_template[70974] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤：240206声望皮肤",
+	desc = "스킨 구매: 240206 리나운 스킨",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49890,9 +49890,9 @@ _G.pg.base.shop_template[70974] = {
 	time = {
 		{
 			{
-				2024,
+				2025,
 				2,
-				22
+				6
 			},
 			{
 				0,
@@ -49902,9 +49902,9 @@ _G.pg.base.shop_template[70974] = {
 		},
 		{
 			{
-				2024,
+				2025,
 				2,
-				29
+				12
 			},
 			{
 				23,
@@ -49922,13 +49922,13 @@ _G.pg.base.shop_template[70975] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤：240206英仙座皮肤",
+	desc = "스킨 구매: 240206 퍼시어스 스킨",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49943,9 +49943,9 @@ _G.pg.base.shop_template[70975] = {
 	time = {
 		{
 			{
-				2024,
+				2025,
 				2,
-				22
+				6
 			},
 			{
 				0,
@@ -49955,9 +49955,9 @@ _G.pg.base.shop_template[70975] = {
 		},
 		{
 			{
-				2024,
+				2025,
 				2,
-				29
+				12
 			},
 			{
 				23,
@@ -49975,13 +49975,13 @@ _G.pg.base.shop_template[70976] = {
 	time_second = 0,
 	type = 6,
 	type_order = 0,
-	desc = "购买皮肤：240206彼得史特拉塞皮肤",
+	desc = "스킨 구매: 240206 페터 슈트라서 스킨",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 1,
+	order = 100,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -49996,9 +49996,9 @@ _G.pg.base.shop_template[70976] = {
 	time = {
 		{
 			{
-				2024,
+				2025,
 				2,
-				22
+				6
 			},
 			{
 				0,
@@ -50008,9 +50008,9 @@ _G.pg.base.shop_template[70976] = {
 		},
 		{
 			{
-				2024,
+				2025,
 				2,
-				29
+				12
 			},
 			{
 				23,
@@ -56235,7 +56235,7 @@ _G.pg.base.shop_template[71098] = {
 	tag = 2,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 5,
+	order = 6,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -56590,6 +56590,405 @@ _G.pg.base.shop_template[71104] = {
 				59
 			}
 		}
+	}
+}
+
+
+_G.pg.base.shop_template[71105] = {
+	group_type = 0,
+	resource_num = 1180,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 마인츠 스킨(L2D)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 5,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71105,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		499033
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71106] = {
+	group_type = 0,
+	resource_num = 1180,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 장 바르 스킨(L2D)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71106,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		905014
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71107] = {
+	group_type = 0,
+	resource_num = 980,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 뉴저지 스킨(모션 일러스트)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71107,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		105173
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71108] = {
+	group_type = 0,
+	resource_num = 880,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 무르만스크 스킨(모션 일러스트)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71108,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		702062
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71109] = {
+	group_type = 0,
+	resource_num = 780,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 트리에스테 스킨",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71109,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		603043
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71110] = {
+	group_type = 0,
+	resource_num = 800,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 시라츠유 스킨",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 4,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71110,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301132
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71111] = {
+	group_type = 0,
+	resource_num = 900,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 잔 다르크 스킨",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 5,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71111,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		802022
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71112] = {
+	group_type = 0,
+	resource_num = 880,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "스킨 구매: 250123 네비게이터 스킨",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	time = "stop",
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71112,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		9900011
 	}
 }
 
@@ -70360,6 +70759,165 @@ _G.pg.base.shop_template[90317] = {
 }
 
 
+_G.pg.base.shop_template[90321] = {
+	group_type = 0,
+	resource_num = 1,
+	time_second = 172800,
+	type = 6,
+	type_order = 0,
+	desc = "250123 기간 한정 스킨 체험:  뉴저지(춘절)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 465,
+	id = 90321,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		105173
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[90322] = {
+	group_type = 0,
+	resource_num = 1,
+	time_second = 172800,
+	type = 6,
+	type_order = 0,
+	desc = "250123 기간 한정 스킨 체험: 장 바르(춘절)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 2,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 465,
+	id = 90322,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		905014
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[90323] = {
+	group_type = 0,
+	resource_num = 1,
+	time_second = 172800,
+	type = 6,
+	type_order = 0,
+	desc = "250123 기간 한정 스킨 체험: 마인츠(춘절)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 3,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 465,
+	id = 90323,
+	genre = "skin_shop_timelimit",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		499033
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				6
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				12
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[99047] = {
 	group_type = 0,
 	resource_num = 1,
@@ -73717,7 +74275,7 @@ _G.pg.base.shop_template[105004] = {
 			{
 				2024,
 				12,
-				1
+				8
 			},
 			{
 				0,
@@ -73727,7 +74285,65 @@ _G.pg.base.shop_template[105004] = {
 		},
 		{
 			{
-				2034,
+				2224,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[105005] = {
+	group_type = 0,
+	resource_num = 880,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "通行证复刻-晓换装",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 105005,
+	genre = "cruise_skin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		301094
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2224,
 				10,
 				1
 			},
@@ -74007,7 +74623,7 @@ _G.pg.base.shop_template[106005] = {
 			{
 				2024,
 				12,
-				1
+				8
 			},
 			{
 				0,
@@ -74017,7 +74633,7 @@ _G.pg.base.shop_template[106005] = {
 		},
 		{
 			{
-				2034,
+				2224,
 				10,
 				1
 			},
@@ -74065,7 +74681,7 @@ _G.pg.base.shop_template[106006] = {
 			{
 				2024,
 				12,
-				1
+				8
 			},
 			{
 				0,
@@ -74075,7 +74691,7 @@ _G.pg.base.shop_template[106006] = {
 		},
 		{
 			{
-				2034,
+				2224,
 				10,
 				1
 			},
@@ -74123,7 +74739,7 @@ _G.pg.base.shop_template[106007] = {
 			{
 				2024,
 				12,
-				1
+				8
 			},
 			{
 				0,
@@ -74133,7 +74749,7 @@ _G.pg.base.shop_template[106007] = {
 		},
 		{
 			{
-				2034,
+				2224,
 				10,
 				1
 			},
@@ -74181,7 +74797,7 @@ _G.pg.base.shop_template[106008] = {
 			{
 				2024,
 				12,
-				1
+				8
 			},
 			{
 				0,
@@ -74191,7 +74807,239 @@ _G.pg.base.shop_template[106008] = {
 		},
 		{
 			{
-				2034,
+				2224,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106009] = {
+	group_type = 3,
+	resource_num = 100,
+	time_second = 0,
+	type = 9,
+	type_order = 0,
+	desc = "通行证复刻-耀星鱼雷",
+	group_limit = 4,
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 10,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 106009,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2009
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2224,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106010] = {
+	group_type = 3,
+	resource_num = 100,
+	time_second = 0,
+	type = 9,
+	type_order = 0,
+	desc = "通行证复刻-黑洞炮弹",
+	group_limit = 4,
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 10,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 106010,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2010
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2224,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106011] = {
+	group_type = 3,
+	resource_num = 100,
+	time_second = 0,
+	type = 9,
+	type_order = 0,
+	desc = "通行证复刻-星云子弹(黄)",
+	group_limit = 4,
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 10,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 106011,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2011
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2224,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[106012] = {
+	group_type = 3,
+	resource_num = 100,
+	time_second = 0,
+	type = 9,
+	type_order = 0,
+	desc = "通行证复刻-科伊伯带",
+	group_limit = 4,
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 10,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 106012,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2012
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				8
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2224,
 				10,
 				1
 			},
@@ -74753,6 +75601,40 @@ _G.pg.base.shop_template[270201] = {
 	},
 	effect_args = {
 		221
+	}
+}
+
+
+_G.pg.base.shop_template[270202] = {
+	group_type = 0,
+	resource_num = 480,
+	time_second = 0,
+	type = 26,
+	type_order = 0,
+	desc = "宿舍480钻石购买对坐之谈",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 270202,
+	genre = "dorm3d_gift",
+	discount_time = {},
+	limit_args = {
+		{
+			"count",
+			0,
+			1
+		}
+	},
+	effect_args = {
+		222
 	}
 }
 

@@ -157,6 +157,7 @@ end
 
 slot0.UpdateStamina = function(slot0)
 	setText(slot0.rtStamina:Find("Text"), string.format("%d/%d", getProxy(ApartmentProxy):getStamina()))
+	setActive(slot0.rtStamina:Find("vfx_ui_stamina01"), getProxy(ApartmentProxy):getStamina() > 0)
 end
 
 slot0.SetFloor = function(slot0, slot1)

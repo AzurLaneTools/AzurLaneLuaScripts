@@ -326,7 +326,7 @@ slot0.getPainting = function(slot0)
 	slot1 = nil
 	slot2 = nil
 
-	if (not ShipGroup.GetChangeSkinData(slot0.skinId) or pg.ship_skin_template[ShipGroup.GetStoreChangeSkinId(ShipGroup.GetChangeSkinGroupId(slot0.skinId), slot0.character)]) and pg.ship_skin_template[slot0.skinId] then
+	if ShipGroup.GetChangeSkinData(slot0.skinId) and (ShipGroup.GetStoreChangeSkinId(ShipGroup.GetChangeSkinGroupId(slot0.skinId), slot0.character) and pg.ship_skin_template[slot3] or pg.ship_skin_template[slot0.skinId]) or pg.ship_skin_template[slot0.skinId] then
 		slot2 = (HXSet.isHx() or slot1.painting) and (slot1.painting_hx ~= "" and slot1.painting_hx or slot1.painting)
 	end
 

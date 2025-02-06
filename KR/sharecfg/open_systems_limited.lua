@@ -178,7 +178,7 @@ pg.open_systems_limited = {
 	},
 	[24] = {
 		scene = "MAINUI",
-		name = "TB 육성",
+		name = "한계 챌린지",
 		story_id = "",
 		id = 24,
 		mediator = "EducateMediator",
@@ -191,6 +191,14 @@ pg.open_systems_limited = {
 		id = 25,
 		mediator = "SelectDorm3DMediator",
 		level = 80
+	},
+	[26] = {
+		scene = "MAINUI",
+		name = "육성",
+		story_id = "",
+		id = 26,
+		mediator = "NewEducateSelectMediator",
+		level = 30
 	},
 	all = {
 		1,
@@ -216,6 +224,7 @@ pg.open_systems_limited = {
 		22,
 		23,
 		24,
-		25
+		25,
+		26
 	}
 }

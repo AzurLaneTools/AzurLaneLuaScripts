@@ -27,7 +27,7 @@ slot0.execute = function(slot0, slot1)
 			uv0:changeGiftCount(uv1, -uv2)
 
 			slot1 = pg.dorm3d_gift[uv1].favor_trigger_id
-			slot2, slot3 = uv0:triggerFavor(uv3, slot1)
+			slot2, slot3 = uv0:triggerFavor(uv3, slot1, uv2)
 
 			uv4:sendNotification(GAME.APARTMENT_TRIGGER_FAVOR_DONE, {
 				isGift = true,

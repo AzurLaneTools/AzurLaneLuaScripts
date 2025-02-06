@@ -3,6 +3,8 @@ slot0.STATE_PAINTING = 1
 slot0.STATE_L2D = 2
 slot0.STATE_SPINE_PAINTING = 3
 slot0.STATE_EDUCATE_CHAR = 4
+slot0.STATE_EDUCATE_SPINE = 5
+slot0.STATE_EDUCATE_L2D = 6
 slot0.MESH_POSITION_X_OFFSET = 145
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3)
@@ -19,7 +21,8 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 		MainMeshImagePainting.New(slot0._tf, slot0.event),
 		MainLive2dPainting.New(slot0._tf, slot0.event),
 		MainSpinePainting.New(slot0._tf, slot0.event, slot0._bgGo),
-		MainEducateCharPainting.New(slot0._tf, slot0.event)
+		MainEducateCharPainting.New(slot0._tf, slot0.event),
+		MainEducateSpinePainting.New(slot0._tf, slot0.event, slot0._bgGo)
 	}
 
 	slot0:Register()
@@ -251,14 +254,12 @@ slot0.GetAssistantStatus = function(slot0)
 	slot6 = uv0.Live2dIsDownload(HXSet.autoHxShiftPath("live2d/" .. slot1)) and checkABExist(slot5)
 	slot7 = slot2:getCharacterSetting(slot0.id, SHIP_FLAG_BG)
 
-	if slot2:getCharacterSetting(slot0.id, SHIP_FLAG_SP) and slot4 then
-		return uv0.STATE_SPINE_PAINTING, slot7
-	elseif slot2:getCharacterSetting(slot0.id, SHIP_FLAG_L2D) and slot6 then
-		return uv0.STATE_L2D, slot7
-	elseif isa(slot0, VirtualEducateCharShip) then
-		return uv0.STATE_EDUCATE_CHAR, slot7
+	if slot2:getCharacterSetting(slot0.id, SHIP_FLAG_L2D) and slot6 then
+		return isa(slot0, VirtualEducateCharShip) and uv0.STATE_EDUCATE_L2D or uv0.STATE_L2D, slot7
+	elseif slot2:getCharacterSetting(slot0.id, SHIP_FLAG_SP) and slot4 then
+		return isa(slot0, VirtualEducateCharShip) and uv0.STATE_EDUCATE_SPINE or uv0.STATE_SPINE_PAINTING, slot7
 	else
-		return uv0.STATE_PAINTING, slot7
+		return isa(slot0, VirtualEducateCharShip) and uv0.STATE_EDUCATE_CHAR or uv0.STATE_PAINTING, slot7
 	end
 end
 

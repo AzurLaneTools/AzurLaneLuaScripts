@@ -2,8 +2,10 @@ slot0 = string
 slot1 = table
 slot2 = ipairs
 slot3 = assert
-slot4 = require("pb")
-slot5 = require("wire_format")
+slot4 = uint64
+slot5 = type
+slot6 = require("pb")
+slot7 = require("wire_format")
 
 module("encoder")
 
@@ -24,27 +26,7 @@ _VarintSize = function(slot0)
 		return 4
 	end
 
-	if slot0 <= 34359738367.0 then
-		return 5
-	end
-
-	if slot0 <= 4398046511103.0 then
-		return 6
-	end
-
-	if slot0 <= 562949953421311.0 then
-		return 7
-	end
-
-	if slot0 <= 7.205759403792794e+16 then
-		return 8
-	end
-
-	if slot0 <= 9.223372036854776e+18 then
-		return 9
-	end
-
-	return 10
+	return 5
 end
 
 _SignedVarintSize = function(slot0)
@@ -68,27 +50,120 @@ _SignedVarintSize = function(slot0)
 		return 4
 	end
 
-	if slot0 <= 34359738367.0 then
+	return 5
+end
+
+_VarintSize64 = function(slot0)
+	slot1 = 0
+	slot2 = 0
+
+	if uv0(slot0) == "number" then
+		slot2 = slot0
+	else
+		slot2, slot1 = uv1.new(slot0):tonum2()
+	end
+
+	if slot1 == 0 then
+		if slot2 <= 127 then
+			return 1
+		end
+
+		if slot2 <= 16383 then
+			return 2
+		end
+
+		if slot2 <= 2097151 then
+			return 3
+		end
+
+		if slot2 <= 268435455 then
+			return 4
+		end
+
 		return 5
+	else
+		if slot1 <= 7 then
+			return 5
+		end
+
+		if slot1 <= 1023 then
+			return 6
+		end
+
+		if slot1 <= 131071 then
+			return 7
+		end
+
+		if slot1 <= 16777215 then
+			return 8
+		end
+
+		if slot1 <= 2147483647 then
+			return 9
+		end
+
+		return 10
+	end
+end
+
+_SignedVarintSize64 = function(slot0)
+	slot1 = 0
+	slot2 = 0
+	slot3 = 0
+
+	if uv0(slot0) == "number" then
+		slot3 = slot0
+		slot1 = slot0 < 0 and 1 or 0
+	else
+		slot3, slot5 = int64.new(slot0):tonum2()
+		slot1 = slot5 > 2147483647 and 1 or 0
 	end
 
-	if slot0 <= 4398046511103.0 then
-		return 6
+	if slot1 == 1 then
+		return 10
 	end
 
-	if slot0 <= 562949953421311.0 then
-		return 7
-	end
+	if slot2 == 0 then
+		if slot3 <= 127 then
+			return 1
+		end
 
-	if slot0 <= 7.205759403792794e+16 then
-		return 8
-	end
+		if slot3 <= 16383 then
+			return 2
+		end
 
-	if slot0 <= 9.223372036854776e+18 then
-		return 9
-	end
+		if slot3 <= 2097151 then
+			return 3
+		end
 
-	return 10
+		if slot3 <= 268435455 then
+			return 4
+		end
+
+		return 5
+	else
+		if slot2 <= 7 then
+			return 5
+		end
+
+		if slot2 <= 1023 then
+			return 6
+		end
+
+		if slot2 <= 131071 then
+			return 7
+		end
+
+		if slot2 <= 16777215 then
+			return 8
+		end
+
+		if slot2 <= 2147483647 then
+			return 9
+		end
+
+		return 10
+	end
 end
 
 _TagSize = function(slot0)
@@ -192,12 +267,12 @@ _FixedSizer = function(slot0)
 end
 
 Int32Sizer = _SimpleSizer(_SignedVarintSize)
-Int64Sizer = _SimpleSizer(slot4.signed_varint_size)
+Int64Sizer = _SimpleSizer(_SignedVarintSize64)
 EnumSizer = Int32Sizer
 UInt32Sizer = _SimpleSizer(_VarintSize)
-UInt64Sizer = _SimpleSizer(slot4.varint_size)
-SInt32Sizer = _ModifiedSizer(_SignedVarintSize, slot5.ZigZagEncode32)
-SInt64Sizer = SInt32Sizer
+UInt64Sizer = _SimpleSizer(_VarintSize64)
+SInt32Sizer = _ModifiedSizer(_VarintSize, slot7.ZigZagEncode32)
+SInt64Sizer = _ModifiedSizer(_VarintSize64, slot7.ZigZagEncode32)
 Fixed32Sizer = _FixedSizer(4)
 SFixed32Sizer = Fixed32Sizer
 FloatSizer = Fixed32Sizer
@@ -284,8 +359,8 @@ MessageSizer = function(slot0, slot1, slot2)
 	end
 end
 
-slot6 = slot4.varint_encoder
-slot8 = slot4.varint_encoder64
+slot8 = slot6.varint_encoder
+slot10 = slot6.varint_encoder64
 
 _VarintBytes = function(slot0)
 	uv0(function (slot0)
@@ -420,19 +495,19 @@ _StructPackEncoder = function(slot0, slot1, slot2)
 	end
 end
 
-Int32Encoder = _SimpleEncoder(slot5.WIRETYPE_VARINT, slot4.signed_varint_encoder, _SignedVarintSize)
-Int64Encoder = _SimpleEncoder(slot5.WIRETYPE_VARINT, slot4.signed_varint_encoder64, _SignedVarintSize)
+Int32Encoder = _SimpleEncoder(slot7.WIRETYPE_VARINT, slot6.signed_varint_encoder, _SignedVarintSize)
+Int64Encoder = _SimpleEncoder(slot7.WIRETYPE_VARINT, slot6.signed_varint_encoder64, _SignedVarintSize64)
 EnumEncoder = Int32Encoder
-UInt32Encoder = _SimpleEncoder(slot5.WIRETYPE_VARINT, slot6, _VarintSize)
-UInt64Encoder = _SimpleEncoder(slot5.WIRETYPE_VARINT, slot8, _VarintSize)
-SInt32Encoder = _ModifiedEncoder(slot5.WIRETYPE_VARINT, slot6, _VarintSize, slot5.ZigZagEncode32)
-SInt64Encoder = _ModifiedEncoder(slot5.WIRETYPE_VARINT, slot8, _VarintSize, slot5.ZigZagEncode64)
-Fixed32Encoder = _StructPackEncoder(slot5.WIRETYPE_FIXED32, 4, slot0.byte("I"))
-Fixed64Encoder = _StructPackEncoder(slot5.WIRETYPE_FIXED64, 8, slot0.byte("Q"))
-SFixed32Encoder = _StructPackEncoder(slot5.WIRETYPE_FIXED32, 4, slot0.byte("i"))
-SFixed64Encoder = _StructPackEncoder(slot5.WIRETYPE_FIXED64, 8, slot0.byte("q"))
-FloatEncoder = _StructPackEncoder(slot5.WIRETYPE_FIXED32, 4, slot0.byte("f"))
-DoubleEncoder = _StructPackEncoder(slot5.WIRETYPE_FIXED64, 8, slot0.byte("d"))
+UInt32Encoder = _SimpleEncoder(slot7.WIRETYPE_VARINT, slot8, _VarintSize)
+UInt64Encoder = _SimpleEncoder(slot7.WIRETYPE_VARINT, slot10, _VarintSize64)
+SInt32Encoder = _ModifiedEncoder(slot7.WIRETYPE_VARINT, slot8, _VarintSize, slot7.ZigZagEncode32)
+SInt64Encoder = _ModifiedEncoder(slot7.WIRETYPE_VARINT, slot10, _VarintSize64, slot7.ZigZagEncode64)
+Fixed32Encoder = _StructPackEncoder(slot7.WIRETYPE_FIXED32, 4, slot0.byte("I"))
+Fixed64Encoder = _StructPackEncoder(slot7.WIRETYPE_FIXED64, 8, slot0.byte("Q"))
+SFixed32Encoder = _StructPackEncoder(slot7.WIRETYPE_FIXED32, 4, slot0.byte("i"))
+SFixed64Encoder = _StructPackEncoder(slot7.WIRETYPE_FIXED64, 8, slot0.byte("q"))
+FloatEncoder = _StructPackEncoder(slot7.WIRETYPE_FIXED32, 4, slot0.byte("f"))
+DoubleEncoder = _StructPackEncoder(slot7.WIRETYPE_FIXED64, 8, slot0.byte("d"))
 
 BoolEncoder = function(slot0, slot1, slot2)
 	slot3 = " "

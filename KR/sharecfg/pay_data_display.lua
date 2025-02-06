@@ -75,7 +75,9 @@ pg.pay_data_display = setmetatable({
 		84,
 		85,
 		86,
+		87,
 		88,
+		89,
 		1000,
 		1001,
 		1002,
@@ -96,6 +98,7 @@ pg.pay_data_display = setmetatable({
 		1017,
 		1018,
 		1019,
+		1020,
 		2001,
 		2002,
 		2003,
@@ -7867,6 +7870,120 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[87] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "2025 춘절 복주머니·II ",
+		first_pay_double = 0,
+		name_display = "2025 춘절 복주머니·II ",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "2025 춘절 복주머니·II ",
+		money = 37000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai22",
+		skin_inquire_relation = 86211,
+		id_str = "alkrgift120",
+		extra_service = 3,
+		id = 87,
+		airijp_id = "com.yostarjp.azurlane.diamond175",
+		extra_service_item = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81211,
+				1
+			}
+		}
+	},
 	[88] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -7977,6 +8094,120 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81202,
+				1
+			}
+		}
+	},
+	[89] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "2024 춘절 복주머니·II 복각",
+		first_pay_double = 0,
+		name_display = "2024 춘절 복주머니·II 복각",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "2024 춘절 복주머니·II 복각",
+		money = 37000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai12",
+		skin_inquire_relation = 86203,
+		id_str = "alkrgift121",
+		extra_service = 3,
+		id = 89,
+		airijp_id = "com.yostarjp.azurlane.diamond177",
+		extra_service_item = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86203,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81203,
 				1
 			}
 		}
@@ -9495,6 +9726,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7020,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1020] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		type = 0,
+		name = "특허 투어 패스(2025.2)",
+		first_pay_double = 0,
+		name_display = "특허 투어 패스(2025.2)",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스(2025.2)",
+		money = 12000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 6,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift122",
+		extra_service = 4,
+		id = 1020,
+		airijp_id = "com.yostarjp.azurlane.seasonpass21",
+		extra_service_item = {
+			{
+				1,
+				4021,
+				1500
+			},
+			{
+				8,
+				65074,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7021,
 			1500
 		},
 		ignorePlatform = {},

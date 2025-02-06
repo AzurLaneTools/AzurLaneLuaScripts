@@ -45274,6 +45274,179 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2089] = {
+		hit_sfx = "",
+		bullet_name = "zidan_shengguangyumao",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96813",
+		name = "돈 페더탄",
+		desc = "가장 깊은 어둠을 꿰뚫는 깃털!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2089,
+		themeid = 107,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_shengguangyumao_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2090] = {
+		hit_sfx = "",
+		bullet_name = "yulei_diaoxiang",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96814",
+		name = "모닝 썬더 어뢰",
+		desc = "넓게 펼친 날개는 희망을 가져다 주고, 춤추는 빛은 두려움을 몰아낸다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2090,
+		themeid = 107,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_diaoxiang_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2091] = {
+		hit_sfx = "",
+		bullet_name = "paodan_shengqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96815",
+		name = "플래닛 링 포탄",
+		desc = "포탄이 그리는 궤적은 별들이 비춰낸 이정표.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2091,
+		themeid = 107,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_shengqiu_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2092] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96816",
+		name = "레벨레이션 오라클",
+		desc = "세상의 모든 순간을 지켜보며, 빛과 희망의 균형을 지킨다.",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2092,
+		themeid = 107,
+		orbit_rotate = false,
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "shebei_guanglunui",
+		miss_sfx = "",
+		orbit_combat = "shebei_guanglun",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-20,
+				-160
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -45884,6 +46057,60 @@ pg.equip_skin_template = {
 		weapon_ids = {
 			61501,
 			54014
+		}
+	},
+	[3034] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "99157",
+		name = "뱀 불꽃 상자",
+		desc = "새해에 축복 있으라! 금빛 뱀이 춤추면 행운이 찾아오리라!",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 3034,
+		themeid = 199,
+		orbit_rotate = false,
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "shebei_shenianyanhuaui",
+		miss_sfx = "",
+		orbit_combat = "shebei_shenianyanhua",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-130
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
 		}
 	},
 	all = {
@@ -47041,6 +47268,10 @@ pg.equip_skin_template = {
 		2086,
 		2087,
 		2088,
+		2089,
+		2090,
+		2091,
+		2092,
 		3001,
 		3003,
 		3010,
@@ -47054,6 +47285,7 @@ pg.equip_skin_template = {
 		3030,
 		3031,
 		3032,
-		3033
+		3033,
+		3034
 	}
 }

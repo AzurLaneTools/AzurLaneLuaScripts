@@ -10,7 +10,7 @@ slot0.execute = function(slot0, slot1)
 		ending_id = slot1:getBody().id
 	}, 27042, function (slot0)
 		if slot0.result == 0 then
-			if uv0 > 0 and uv1 and pg.secretary_special_ship[uv1] and pg.secretary_special_ship[uv1].group == pg.secretary_special_ship[uv0].group and slot1 == 1000 then
+			if uv0 > 0 and uv1 and pg.secretary_special_ship[uv1] and pg.secretary_special_ship[uv1].group == pg.secretary_special_ship[uv0].group and pg.secretary_special_ship[uv0].genghuan_word == 1 then
 				getProxy(PlayerProxy):setFlag("change_tb", true)
 			end
 

@@ -1,208 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107223] = {
-		name = "Relaxation.I",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "음—... 신체가 굳어지지 않게 하려면 역시 스트레칭이지. ??? 옷이 왜? ... 지휘관이 계속 쳐다보고 있지만 않는다면 별 거 없잖아...",
-		illustrator2 = -1,
-		ship_group = 10722,
-		group_index = 3,
-		painting = "duli_6",
-		prefab = "duli_6",
-		hand_id = 1,
-		shop_type_id = 20,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "109",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107223,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70518,
-		voice_actor = 130,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.453,
-					0.992,
-					0
-				}
-			},
-			plane = {
-				{
-					1.464,
-					1.001,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107224] = {
-		name = "해풍의 Lucky Time",
-		change_skin = "",
-		bg_sp = "",
-		desc = "인형뽑기 기계에 동전을 넣고, 조이스틱을 조종한 다음, 갈고리를 내리면……앗, 성공했어! 쥬쥬 인형이다! 엄청 쉬운 것 같은 걸.",
-		illustrator2 = -1,
-		ship_group = 10722,
-		group_index = 4,
-		painting = "duli_3",
-		prefab = "duli_3",
-		hand_id = 1,
-		shop_type_id = 9,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "108",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107224,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70624,
-		voice_actor = 130,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.16,
-					1.095,
-					0
-				}
-			},
-			plane = {
-				{
-					0.999,
-					1.075,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.421,
-							2.463,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
 	[107229] = {
 		name = "인디펜던스·改",
 		change_skin = "",
@@ -13104,6 +12902,337 @@ pg.base.ship_skin_template_4 = {
 			},
 			{
 				1.8
+			}
+		}
+	},
+	[201353] = {
+		name = "불 끄지 마세요",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "괜찮아, 재너스! 램프가 부서진 정도면 혼자서도 괜찮을 거야…… 우으… 꺅?! 지, 지휘관님?! 제가 걱정돼서 마중 나와주신 건가요…?",
+		illustrator2 = -1,
+		ship_group = 20135,
+		group_index = 3,
+		painting = "yanusi_5",
+		prefab = "yanusi_5",
+		hand_id = 13,
+		shop_type_id = 17,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "174",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201353,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70954,
+		voice_actor = 345,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.465,
+					0.743,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					1.34,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.513,
+							2.111,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-48,
+				-907,
+				0
+			},
+			{
+				1
+			}
+		}
+	},
+	[201354] = {
+		name = "당구 레슨",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "괜찮아, 재너스. 조금 있으면 고양이들도 갈 거야…… 앗… ! 지, 지휘관님…? 죄, 죄송해요! 일부러 올라온 건 아니고… 고양이들이… 으아…",
+		illustrator2 = -1,
+		ship_group = 20135,
+		group_index = 4,
+		painting = "yanusi_6",
+		prefab = "yanusi_6",
+		hand_id = 13,
+		shop_type_id = 16,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "608",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 201354,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71084,
+		voice_actor = 345,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.948,
+					1.048,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.762,
+					2.179,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.09,
+							2.31,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201360] = {
+		name = "히어로",
+		change_skin = "",
+		bg_sp = "",
+		desc = "H급 구축함 - 히어로",
+		illustrator2 = -1,
+		ship_group = 20136,
+		group_index = 0,
+		painting = "yingxiong",
+		prefab = "yingxiong",
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 201360,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 359,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.26,
+					0.71,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.18,
+					0.65,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.14,
+							0
+						}
+					}
+				}
 			}
 		}
 	}
