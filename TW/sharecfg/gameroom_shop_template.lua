@@ -516,6 +516,522 @@ pg.gameroom_shop_template = {
 			}
 		}
 	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 1,
+		type = 6,
+		price = 7500,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 5,
+		goods_name = "Candy Magic！",
+		goods_type = 1,
+		id = 13,
+		drop_type = 7,
+		order = 1,
+		goods = {
+			101291
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 1,
+		type = 6,
+		price = 7500,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 5,
+		goods_name = "迎春的神樂舞",
+		goods_type = 1,
+		id = 14,
+		drop_type = 7,
+		order = 2,
+		goods = {
+			301571
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(鳶尾)",
+		goods_type = 1,
+		id = 15,
+		drop_type = 2,
+		order = 101,
+		goods = {
+			30319
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(醫療)",
+		goods_type = 1,
+		id = 16,
+		drop_type = 2,
+		order = 102,
+		goods = {
+			30320
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(重櫻)",
+		goods_type = 1,
+		id = 17,
+		drop_type = 2,
+		order = 103,
+		goods = {
+			30321
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(激唱)",
+		goods_type = 1,
+		id = 18,
+		drop_type = 2,
+		order = 104,
+		goods = {
+			30322
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(鐵血)",
+		goods_type = 1,
+		id = 19,
+		drop_type = 2,
+		order = 105,
+		goods = {
+			30324
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(2021春節)",
+		goods_type = 1,
+		id = 20,
+		drop_type = 2,
+		order = 106,
+		goods = {
+			30325
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(遊樂園)",
+		goods_type = 1,
+		id = 21,
+		drop_type = 2,
+		order = 107,
+		goods = {
+			30326
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(牛仔)",
+		goods_type = 1,
+		id = 22,
+		drop_type = 2,
+		order = 108,
+		goods = {
+			30328
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(水上樂園)",
+		goods_type = 1,
+		id = 23,
+		drop_type = 2,
+		order = 109,
+		goods = {
+			30329
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外觀裝備箱(女僕咖啡)",
+		goods_type = 1,
+		id = 24,
+		drop_type = 2,
+		order = 110,
+		goods = {
+			30331
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2035,
+					2,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -528,6 +1044,18 @@ pg.gameroom_shop_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24
 	}
 }

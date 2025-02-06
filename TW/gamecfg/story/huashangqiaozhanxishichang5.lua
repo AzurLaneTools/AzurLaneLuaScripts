@@ -199,7 +199,7 @@ return {
 			actor = 199030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好漂亮……安克雷奇，也喜歡！",
+			say = "好漂亮……安克拉治，也喜歡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

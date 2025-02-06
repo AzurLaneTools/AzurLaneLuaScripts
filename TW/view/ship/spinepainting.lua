@@ -136,6 +136,7 @@ end
 
 slot0.SetVisible = function(slot0, slot1)
 	setActive(slot0._spinePaintingData.effectParent, slot1)
+	pg.ViewUtils.SetLayer(slot0._tf, slot1 and Layer.UI or Layer.UIHidden)
 	setActiveViaLayer(slot0._spinePaintingData.effectParent, slot1)
 
 	if slot0._skeletonGraphic then

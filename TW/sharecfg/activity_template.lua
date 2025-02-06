@@ -16559,6 +16559,226 @@ pg.activity_template = {
 			ui_name = "HaitianSkinPage"
 		}
 	},
+	[5511] = {
+		mark = 20250206,
+		type = 69,
+		login_pop = 0,
+		config_id = 27,
+		is_show = 44,
+		title_res_tag = "Georgia_catchup",
+		id = 5511,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "RupprechtTecCatchupPage",
+			ui_name = "RupprechtTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42042
+		}
+	},
+	[5512] = {
+		mark = 20250206,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		title_res_tag = "zhuhongmiju",
+		id = 5512,
+		config_data = {
+			{
+				20401,
+				20402
+			},
+			{
+				20403,
+				20404
+			},
+			{
+				20405,
+				20406
+			},
+			{
+				20407,
+				20408
+			},
+			{
+				20409,
+				20410
+			},
+			{
+				20411,
+				20412
+			},
+			{
+				20413,
+				20414
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "OutPostTaskPage",
+			ui_name = "OutPostTaskPage"
+		},
+		config_client = {
+			story = {
+				{
+					"ZHUHONGMIJU1"
+				},
+				{
+					"ZHUHONGMIJU2"
+				},
+				{
+					"ZHUHONGMIJU3"
+				},
+				{
+					"ZHUHONGMIJU4"
+				},
+				{
+					"ZHUHONGMIJU5"
+				},
+				{
+					"ZHUHONGMIJU6"
+				},
+				{
+					"ZHUHONGMIJU7"
+				}
+			}
+		}
+	},
+	[5513] = {
+		mark = 20250206,
+		type = 87,
+		login_pop = 0,
+		config_id = 21,
+		is_show = 45,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 5513,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "MeixiV5FramePage",
+			ui_name = "MeixiV5FramePage"
+		}
+	},
+	[5514] = {
+		mark = 20250206,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 31,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5514,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5541] = {
 		mark = 20241031,
 		page_info = "",
@@ -19331,6 +19551,47 @@ pg.activity_template = {
 					59
 				}
 			}
+		}
+	},
+	[5803] = {
+		mark = 20250206,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 62,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5803,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			miniGame = 74
 		}
 	},
 	[7104] = {
@@ -57036,6 +57297,7 @@ pg.activity_template = {
 			5324,
 			5360,
 			5415,
+			5512,
 			5548,
 			5581,
 			6000,
@@ -57198,6 +57460,7 @@ pg.activity_template = {
 			5564,
 			5681,
 			5765,
+			5803,
 			40211,
 			40229,
 			40232,
@@ -57789,6 +58052,7 @@ pg.activity_template = {
 			4950,
 			4975,
 			5210,
+			5511,
 			40400,
 			40489,
 			40557,
@@ -57818,6 +58082,7 @@ pg.activity_template = {
 			5104,
 			5162,
 			5211,
+			5513,
 			40724,
 			40783,
 			40831,
@@ -57849,6 +58114,7 @@ pg.activity_template = {
 			5213,
 			5249,
 			5316,
+			5514,
 			40178,
 			40201,
 			40250,
@@ -58849,6 +59115,10 @@ pg.activity_template = {
 		5409,
 		5410,
 		5415,
+		5511,
+		5512,
+		5513,
+		5514,
 		5541,
 		5542,
 		5543,
@@ -58908,6 +59178,7 @@ pg.activity_template = {
 		5789,
 		5790,
 		5791,
+		5803,
 		7104,
 		7501,
 		8009,

@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"谈心小屋，今日休假！\n\n<size=45>六　假日的陪伴</size>",
+					"談心小屋，今日休假！\n\n<size=45>6 假日的陪伴</size>",
 					1
 				}
 			}
@@ -19,18 +19,18 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			bgm = "story-richang-4",
-			say = "此时，我的手上仅剩下一张牌，而布莱默顿手中还有两张，鬼牌就在她手中。",
+			say = "此時，我的手上僅剩下一張牌，而布雷默頓手中還有兩張，鬼牌就在她手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "抽取左边的牌",
+					content = "抽取左邊的牌",
 					flag = 1
 				},
 				{
-					content = "抽取右边的牌",
+					content = "抽取右邊的牌",
 					flag = 2
 				}
 			}
@@ -41,7 +41,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "抽出了靠左的数字纸牌，游戏结束，布莱默顿抓着鬼牌仰躺在懒人沙发上。",
+			say = "抽出了靠左的數位紙牌，遊戲結束，布雷默頓抓著鬼牌仰躺在懶人沙發上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼~又输了——真是的，指挥官怎么这么聪明啊！",
+			say = "呼~又輸了——真是的，指揮官怎麼這麼聰明啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "抽出了靠右的鬼牌，游戏结束，布莱默顿欢呼着朝我扑来。",
+			say = "抽出了靠右的鬼牌，遊戲結束，布雷默頓歡呼著朝我撲來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶，赢啦！——这是庆祝我今日首胜的拥抱哦！",
+			say = "好耶，贏啦！——這是慶祝我今日首勝的擁抱哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不玩啦，难得能从指挥官这里赢得一局，我要保证战绩！",
+			say = "不玩啦，難得能從指揮官這裡贏得一局，我要保證戰績！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来玩点别的什么吧！",
+			say = "接下來玩點別的什麼吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "在那之后，又和布莱默顿玩了一会儿桌游，直到少女伸了个懒腰——",
+			say = "在那之後，又和布雷默頓玩了一些桌遊，直到少女伸了個懶腰——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔~玩游戏还真是蛮消耗精力的，还是找点更轻松的事情做吧~",
+			say = "唔~玩遊戲還真是蠻消耗精力的，還是找點更輕鬆的事情做吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "更轻松的事情指什么？",
+			say = "更輕鬆的事情指什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如……一起看部电影！怎么样？",
+			say = "比如……一起看部電影！怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_109",
-			say = "屏幕上正演绎着主人公们互诉忧虑，最终解开心结、走向彼此的情节。",
+			say = "螢幕上正演繹著主角們互訴憂慮，最終解開心結、走向彼此的情節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "布莱默顿揽着我的手臂，头靠在我的肩膀上。",
+			say = "布雷默頓攬著我的手臂，頭靠在我的肩膀上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿，果然，有些事情还是要说出来会更好~",
+			say = "嘿嘿，果然，有些事情還是要說出來會比較好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无论是要解决问题，还是要纾解情绪，将自己真实的感受说出来都是前提……",
+			say = "無論是要解決問題，或是要紓解情緒，將自己真實的感受說出來都是前提……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明明一直在倾听别人的烦恼，居然到现在才反应过来……嘿嘿，这次有点迟钝了呢~",
+			say = "明明一直在傾聽別人的煩惱，居然到現在才反應過來……嘿嘿，這次有點遲鈍了呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，以后如果还有烦恼，随时都可以说给我听。",
+			say = "嗯，以後如果還有煩惱，隨時都可以說給我聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好啊~那就这么说定了！不过就算不是烦恼，指挥官也要听哦~",
+			say = "好~那就這麼說定了！不過就算不是煩惱，指揮官也要聽哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有……今天真的谢谢你啦，指挥官~",
+			say = "還有……今天真的謝謝你啦，指揮官~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 103244,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为我准备了休息日，还留下来陪我……",
+			say = "為我準備了休息日，還留下來陪我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "布莱默顿？",
+			say = "布雷默頓？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "少女不再回应，在温和的夜中，在电影悠扬的音乐声中，靠着我的肩头沉沉睡去。",
+			say = "少女不再回應，在溫和的夜中，在電影悠揚的音樂聲中，靠著我的肩頭沉沉睡去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "她的唇角微微上扬，看起来放松而满足。",
+			say = "她的唇角微微上揚，看起來放鬆而滿足。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1181,9 +1181,9 @@ pg.voice_bgm = {
 		bgm = "Main-chunjie4-2"
 	},
 	LanternFestivalView = {
-		default_bgm = "story-china",
+		default_bgm = "main-chunjie2",
 		special_bgm = "",
-		bgm = "story-china"
+		bgm = "main-chunjie2"
 	},
 	ChkalovTecCatchupPage = {
 		default_bgm = "theme-designshipVI",

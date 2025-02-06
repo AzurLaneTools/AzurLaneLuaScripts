@@ -179,6 +179,7 @@ pg.memory_group = setmetatable({
 		288,
 		290,
 		292,
+		295,
 		298,
 		300,
 		301,
@@ -283,6 +284,7 @@ pg.memory_group = setmetatable({
 		593,
 		594,
 		595,
+		601,
 		1000,
 		1001,
 		1002
@@ -4251,6 +4253,23 @@ pg.base.memory_group = {
 			3690
 		}
 	},
+	[295] = {
+		title = "朱紅迷局",
+		subtype = 1,
+		link_event = 5512,
+		type = 2,
+		id = 295,
+		icon = "title_event",
+		memories = {
+			3731,
+			3732,
+			3733,
+			3734,
+			3735,
+			3736,
+			3737
+		}
+	},
 	[298] = {
 		title = "葬於彼岸之花",
 		subtype = 1,
@@ -6036,6 +6055,23 @@ pg.base.memory_group = {
 			3355,
 			3356,
 			3357
+		}
+	},
+	[601] = {
+		title = "談心小屋，今日休假！",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 601,
+		icon = "title_chara_bulaimodun",
+		memories = {
+			3721,
+			3722,
+			3723,
+			3724,
+			3725,
+			3726,
+			3727
 		}
 	},
 	[1000] = {

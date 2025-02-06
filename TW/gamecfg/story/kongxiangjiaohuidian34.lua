@@ -240,12 +240,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			paintingNoise = true,
-			dir = 1,
 			nameColor = "#ffa500",
+			dir = 1,
 			actor = 900192,
 			actorName = "高雄·META",
 			say = "……沒想到這麼胡來的計畫真能成功。",

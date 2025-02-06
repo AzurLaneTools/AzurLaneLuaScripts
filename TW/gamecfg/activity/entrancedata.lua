@@ -220,9 +220,17 @@ return {
 	{
 		banner = "LanternFestival",
 		event = ActivityMediator.GO_MINI_GAME,
-		data = {
-			MainLanternFestivalBtn.LANTERNFESTIVAL_MINIGAME_ID
-		},
+		data = setmetatable({}, {
+			__index = function (slot0, slot1)
+				if slot1 == 1 and getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot2.isEnd(slot2) then
+					slot0[slot1] = slot2.getConfig(slot2, "config_client").miniGame
+
+					return slot0[slot1]
+				end
+
+				return nil
+			end
+		}),
 		isShow = function ()
 			return getProxy(ActivityProxy):getActivityById(ActivityConst.LANTERNFESTIVAL) and not slot0:isEnd()
 		end,

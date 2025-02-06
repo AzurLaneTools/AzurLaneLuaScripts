@@ -1,159 +1,159 @@
 pg = pg or {}
 pg.activity_event_question = {
-	[57] = {
-		question = "下列哪個選項不是轟炸機的轟炸方式？",
-		answer_right = "上升轟炸",
-		answer_false1 = "跳彈轟炸",
+	[71] = {
+		question = "看不見北極星的南半球，水手用來導航的天體是（）",
+		answer_right = "南十字座",
+		answer_false1 = "南極星",
 		type = 1,
-		id = 57,
+		id = 71,
 		wrong_time = 30,
-		answer_false3 = "水平轟炸",
-		answer_false2 = "俯衝轟炸"
+		answer_false3 = "半人馬座α星",
+		answer_false2 = "人馬座"
 	},
-	[58] = {
-		question = "軍艦上射擊鐘的作用為()",
-		answer_right = "指示目標距離",
-		answer_false1 = "指示裝填時間",
+	[72] = {
+		question = "曾經取得間接擊沉潛艇戰績的食材是（）",
+		answer_right = "馬鈴薯",
+		answer_false1 = "火雞",
 		type = 1,
-		id = 58,
+		id = 72,
 		wrong_time = 30,
-		answer_false3 = "指示開飯時間",
-		answer_false2 = "指示當前時間"
+		answer_false3 = "青椒",
+		answer_false2 = "菠菜"
 	},
-	[59] = {
-		question = "世界上第一艘擁有全通飛行甲板的航空母艦是？",
-		answer_right = "百眼巨人",
-		answer_false1 = "蘭利",
+	[73] = {
+		question = "不屬於損管部隊職責範圍的是（）",
+		answer_right = "暈船",
+		answer_false1 = "火災",
 		type = 1,
-		id = 59,
+		id = 73,
 		wrong_time = 30,
-		answer_false3 = "博格",
-		answer_false2 = "鎮海"
+		answer_false3 = "機械損壞",
+		answer_false2 = "進水"
 	},
-	[60] = {
-		question = "世界上第一架噴射機是？",
-		answer_right = "He-178",
-		answer_false1 = "Me-262",
+	[74] = {
+		question = "海上航行時，和地面通訊能信賴的手段是（）",
+		answer_right = "長波無線電",
+		answer_false1 = "信鴿",
 		type = 1,
-		id = 60,
+		id = 74,
 		wrong_time = 30,
-		answer_false3 = "MiG-9",
-		answer_false2 = "F9F"
+		answer_false3 = "游泳健將",
+		answer_false2 = "空心郵件炮彈"
 	},
-	[61] = {
-		question = "以「下餃子」著稱的艾塞克斯級航空母艦總共建造了幾艘？",
-		answer_right = "24",
-		answer_false1 = "28",
+	[75] = {
+		question = "就算是特殊情況下，也不能當成燃料丟進蒸汽鍋爐的是（）",
+		answer_right = "炮彈發射藥",
+		answer_false1 = "去掉鈕扣的制服",
 		type = 1,
-		id = 61,
+		id = 75,
 		wrong_time = 30,
-		answer_false3 = "25",
-		answer_false2 = "17"
+		answer_false3 = "廚師拿來的肥肉",
+		answer_false2 = "拆了把手的門板"
 	},
-	[62] = {
-		question = "下列哪種軍艦間人員轉運方式最受歡迎 ？",
-		answer_right = "吊籃",
-		answer_false1 = "滑翔傘",
+	[76] = {
+		question = "對護航編隊保護商船免受潛艇攻擊基本上無法運作的是（）",
+		answer_right = "拖著破雷衛航行",
+		answer_false1 = "全方向聲納探聽",
 		type = 1,
-		id = 62,
+		id = 76,
 		wrong_time = 30,
-		answer_false3 = "魚雷管",
-		answer_false2 = "炸彈掛架"
+		answer_false3 = "間歇性調整航向",
+		answer_false2 = "借助偵察機探路"
 	},
-	[63] = {
-		question = "就算是單座艦載機，也可以透過飛行製作的食物是()",
-		answer_right = "冰淇淋",
-		answer_false1 = "南瓜湯",
+	[77] = {
+		question = "船舶燈光的布置方式是（）",
+		answer_right = "左紅右綠頂白",
+		answer_false1 = "左紅右黃",
 		type = 1,
-		id = 63,
+		id = 77,
 		wrong_time = 30,
-		answer_false3 = "蘋果派",
-		answer_false2 = "烤牛排"
+		answer_false3 = "前紅後藍",
+		answer_false2 = "前綠後橙頂粉"
 	},
-	[64] = {
-		question = "在大型作戰中，空域偵查消耗的行動點最大數量為()",
-		answer_right = "9",
-		answer_false1 = "7",
+	[78] = {
+		question = "養成計畫中加入的角色是（）",
+		answer_right = "領航員",
+		answer_false1 = "淨化者",
 		type = 2,
-		id = 64,
+		id = 78,
 		wrong_time = 30,
-		answer_false3 = "10",
-		answer_false2 = "8"
+		answer_false3 = "觀察者",
+		answer_false2 = "測試者"
 	},
-	[65] = {
-		question = "透過特裝原型收集計劃，指揮官每月取得的【特裝原型】最大數量為()",
-		answer_right = "4000",
-		answer_false1 = "5000",
+	[79] = {
+		question = "彈藥匱乏狀態下我方造成的傷害會變成原先的（）",
+		answer_right = "50%",
+		answer_false1 = "30%",
 		type = 2,
-		id = 65,
+		id = 79,
 		wrong_time = 30,
-		answer_false3 = "2000",
-		answer_false2 = "3000"
+		answer_false3 = "70%",
+		answer_false2 = "60%"
 	},
-	[66] = {
-		question = "可以提升艦隊防空能力的陣型為 ()",
-		answer_right = "輪型陣",
-		answer_false1 = "復縱陣",
+	[80] = {
+		question = "開啟作戰檔案需要消耗的檔案秘鑰儲存上限是（）",
+		answer_right = "60",
+		answer_false1 = "50",
 		type = 2,
-		id = 66,
+		id = 80,
 		wrong_time = 30,
-		answer_false3 = "梯形陣",
-		answer_false2 = "單縱陣"
+		answer_false3 = "70",
+		answer_false2 = "40"
 	},
-	[67] = {
-		question = "厭戰改造為海上傳奇所需的特殊道具為()",
-		answer_right = "戰士的心得",
-		answer_false1 = "閃耀的麥克風",
+	[81] = {
+		question = "下列哪一種遊戲行為會消耗石油（）",
+		answer_right = "主線出擊",
+		answer_false1 = "撫順大冒險",
 		type = 2,
-		id = 67,
+		id = 81,
 		wrong_time = 30,
-		answer_false3 = "女王的號令",
-		answer_false2 = "烤肉味香水"
+		answer_false3 = "演習",
+		answer_false2 = "限界挑戰"
 	},
-	[68] = {
-		question = "下列哪個選項無法影響艦船的出擊油耗 ？",
-		answer_right = "攜帶特殊裝備",
-		answer_false1 = "艦船稀有度",
+	[82] = {
+		question = "目前遊戲中指揮官等級上限是（）",
+		answer_right = "200",
+		answer_false1 = "100",
 		type = 2,
-		id = 68,
+		id = 82,
 		wrong_time = 30,
-		answer_false3 = "進行艦船突破",
-		answer_false2 = "提升艦船等級"
+		answer_false3 = "180",
+		answer_false2 = "150"
 	},
-	[69] = {
-		question = "大型作戰中領航員的全名為()",
-		answer_right = "領航員-TB",
-		answer_false1 = "領航員-TA",
+	[83] = {
+		question = "後宅最多可以擴建（）次",
+		answer_right = "3",
+		answer_false1 = "1",
 		type = 2,
-		id = 69,
+		id = 83,
 		wrong_time = 30,
-		answer_false3 = "領航員-TD",
-		answer_false2 = "領航員-TC"
+		answer_false3 = "5",
+		answer_false2 = "2"
 	},
-	[70] = {
-		question = "下列哪種艦船突破至滿星後，會獲得三種增益效果的其中一種",
-		answer_right = "驅逐艦",
-		answer_false1 = "戰列艦",
+	[84] = {
+		question = "遊戲中單縱陣突入陣型會降低（）屬性",
+		answer_right = "機動",
+		answer_false1 = "炮擊",
 		type = 2,
-		id = 70,
+		id = 84,
 		wrong_time = 30,
-		answer_false3 = "潛艇",
-		answer_false2 = "航空母艦"
+		answer_false3 = "防空",
+		answer_false2 = "雷擊"
 	},
 	all = {
-		57,
-		58,
-		59,
-		60,
-		61,
-		62,
-		63,
-		64,
-		65,
-		66,
-		67,
-		68,
-		69,
-		70
+		71,
+		72,
+		73,
+		74,
+		75,
+		76,
+		77,
+		78,
+		79,
+		80,
+		81,
+		82,
+		83,
+		84
 	}
 }

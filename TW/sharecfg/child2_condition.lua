@@ -2778,7 +2778,7 @@ pg.child2_condition = {
 		type = 1,
 		param = {
 			1,
-			103,
+			104,
 			">",
 			600
 		}

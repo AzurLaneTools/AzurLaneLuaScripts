@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"朱红迷局\n\n<size=45>纪念日</size>",
+					"朱紅迷局\n\n<size=45>1 紀念日</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
 			bgm = "airraidalarm",
-			say = "皇家斯卡帕湾，尖锐的警报声在空中回荡着。",
+			say = "皇家斯卡帕灣，尖銳的警報聲在空中迴盪著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "然而，警报声下的人群没有选择逃离，而是纷纷驻足——有些还摘下了帽子。",
+			say = "然而，警報聲下的人群沒有選擇逃離，而是紛紛駐足——有些還摘下了帽子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "此时此刻，只为纪念。",
+			say = "此時此刻，只為紀念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			actor = 900262,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感谢诸位致以的思念与敬意。",
+			say = "感謝諸位致以的思念與敬意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "也感谢诸位在今年此时共聚此地，纪念那场艰难的斯卡帕湾保卫战与在战斗中牺牲的英烈们。",
+			say = "也感謝諸位在今年此時共聚此地，紀念那場艱難的斯卡帕灣保衛戰與在戰鬥中犧牲的英烈們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "虽然已经过去了多年，那场战斗的牺牲与精神依然时时鼓舞着我们。",
+			say = "雖然已經過了多年，那場戰鬥的犧牲與精神依然時時鼓舞著我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "那场战斗的痕迹也依然静静躺在此处，向我们诉说着当日的悲壮。",
+			say = "那場戰鬥的痕跡也依然靜靜躺在此處，向我們訴說著當日的悲壯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "那日，正是依靠皇家、铁血、重樱三国舰队的浴血奋战，我们才能挫败塞壬的进攻，皇家本岛也才得以保全。",
+			say = "那日，正是依靠皇家、鐵血、重櫻三國艦隊的浴血奮戰，我們才能挫敗塞壬的進攻，皇家本島也得以保全。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "我们眼前的废墟，正是构建者在失败前那无奈地一击造成的。",
+			say = "我們眼前的廢墟，正是構建者在失敗前無奈地一擊造成的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "它们是伤痕，更是三国友谊的见证。",
+			say = "它們是傷痕，更是三國友誼的見證。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "愿友谊长存——",
+			say = "願友誼長存——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "演讲台上，激昂地演讲持续着——",
+			say = "講台上，激昂地演講持續著——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,15 +202,15 @@ return {
 			},
 			sequence = {
 				{
-					"皇家·斯卡帕湾旅游区",
+					"皇家·斯卡帕灣旅遊區",
 					1
 				},
 				{
-					"友谊酒店",
+					"友誼酒店",
 					2
 				},
 				{
-					"一段时间后",
+					"一段時間後",
 					3
 				}
 			}
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			bgm = "theme-partydress",
-			say = "作为整个斯卡帕湾旅游区最大最豪华的酒店，每年仪式后的宴会都会安排在此地举行。",
+			say = "作為整個斯卡帕灣旅遊區最大最豪華的酒店，每年儀式後的宴會都會安排在這裡舉行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "据说，这座酒店所坐落的位置，就是当年在战争结束后，三国将士召开庆功宴的地方。",
+			say = "據說，這座飯店所坐落的位置，就是當年在戰爭結束後，三國將士召開慶功宴的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈啊……好累好困，今天也辛苦我了。",
+			say = "哈啊……好累好睏，今天也辛苦我了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我要先大吃一顿，补充一下今天的消耗，然后再美美睡上一觉~",
+			say = "我要先大吃一頓，補充今天的消耗，然後再美美睡一覺~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，{namecode:461:吕佐夫}小姐还是和以前一样可爱呢。",
+			say = "呵呵，呂措小姐還是跟以前一樣可愛呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 404040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多谢夸奖~",
+			say = "多謝誇獎~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "诸位贵客远道而来，一路辛苦了。尤其是{namecode:161:天城}女士，每年都从重樱本岛跨越万里而来。",
+			say = "諸位貴客遠道而來，一路辛苦了。尤其是天城女士，每年都從重櫻本島跨越萬里而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我代表皇家向诸位致以最诚挚的问候。",
+			say = "我代表皇家向諸位致以最誠摯的問候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，阁下客气了。每年能有一次这样从沉闷的事务中脱身远游的机会，自然是不辛苦的。",
+			say = "呵呵，閣下客氣了。每年能有一次這樣從沉悶的事務中脫身遠遊的機會，自然是不辛苦的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "况且，我也是自己想来看看过去的老朋友们……",
+			say = "況且，我也是自己想來看看過去的老朋友們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……敬老朋友们！",
+			say = "……敬老朋友們！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,9 +364,9 @@ return {
 			bgName = "star_level_bg_600",
 			dir = 1,
 			actor = 304050,
-			actorName = "{namecode:161}&{namecode:461}",
+			actorName = "天城&呂措",
 			hidePaintObj = true,
-			say = "敬老朋友们——\n敬老朋友们。",
+			say = "敬老朋友們—  敬老朋友們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900262,
-			say = "现在战局逐渐明朗，我们在筹备一场对于塞壬的大型反攻作战，到时候还需要诸位的鼎力相助啊。",
+			say = "現在戰局逐漸明朗，我們在籌備一場對於塞壬的大型反攻作戰，到時候還需要諸位的鼎力相助啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "放心~我来之前{namecode:441:腓特烈}特意跟我说了。你们要是准备作战行动，铁血舰队一定到场。",
+			say = "放心~我來之前腓特烈特意跟我說了。妳們要是準備作戰行動，鐵血艦隊一定會到場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重樱自然也是。来~我也敬大家一杯吧，敬友谊长存。",
+			say = "重櫻自然也是。來~我也敬大家一杯吧，敬友誼長存。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,8 +431,8 @@ return {
 			dir = 1,
 			hidePaintEquip = true,
 			actor = 404040,
-			actorName = "厌战&乔治五世&{namecode:461}",
-			say = "敬友谊长存！\n敬友谊长存——\n友谊长存~！",
+			actorName = "厭戰&喬治五世&呂措",
+			say = "敬友誼長存！  敬友誼長存——  友誼長存~！",
 			actorPosition = {
 				x = 200,
 				y = 0
@@ -492,13 +492,13 @@ return {
 					1
 				},
 				{
-					"阿瓦隆之门",
+					"阿瓦隆之門",
 					2
 				}
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "bg_camelot_1",
 			hidePaintObj = true,
@@ -518,7 +518,7 @@ return {
 			actor = 299020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行……还是无法和外界取得任何联络。",
+			say = "不行……還是無法和外界取得任何聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			actor = 299020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "前卫，你那边情况如何？",
+			say = "前衛，妳那邊情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一样毫无进展。不论重新启动系统多少次，都提示“无法定位出口目标，无法开启通道。”",
+			say = "一樣毫無進展。不論重新啟動系統多少次，都提示「無法定位出口目標，無法開啟通道。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸……和外界失去联络，又没办法主动出去，我们不是完全被困在这里了嘛！",
+			say = "欸……和外界失去聯絡，又沒辦法主動出去，我們不是完全被困在這裡了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没事的，等外面的人发现联系不到我们了，自然会来救援的。",
+			say = "沒事的，等外面的人發現聯絡不到我們了，自然會來救援的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,7 +587,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "话虽如此，但只是原地等待是否有些消极……而且我有点在意无法定位出口目标的事。",
+			say = "話雖如此，但只是原地等待是否有些消極……而且我有點在意無法定位出口目標的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,7 +601,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "阿瓦隆之门内一直一切正常，也就是说……变故发生在外部。",
+			say = "阿瓦隆之門內一直一切正常，也就是說……變故發生在外部。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "或许现在外部的情况和我们一样，也无法开启进入阿瓦隆之门的通道了。",
+			say = "或許現在外部的情況和我們一樣，也無法開啟進入阿瓦隆之門的通道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "如果更严重一些的话……或许完全观测不到我们也有可能，毕竟内外通讯已经全部断绝了。",
+			say = "如果更嚴重的話……或許完全觀測不到我們也有可能，畢竟內外通訊已經全部斷絕了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真、真的么……？！",
+			say = "真、真的嗎……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -655,7 +655,7 @@ return {
 			actor = 9701010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我倒也不能确信……毕竟这里不是我修的。",
+			say = "我倒也不能確信……畢竟這裡不是我修的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "只能说，存在这样的可能性。",
+			say = "只能說，有這樣的可能性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对这里最了解的就是陛下……可是陛下现在人在欧罗巴，我们根本无法与她取得联系。",
+			say = "對這裡最了解的就是陛下……可是陛下現在人在歐羅巴，我們根本無法與她聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -696,7 +696,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对了，你们那边的陛下情况如何？",
+			say = "對了，妳們那邊的陛下情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -710,7 +710,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "完全、联系不上！应该是女王之光号又追到什么信号不好的地方去了吧……倒也不是没发生过这种事。",
+			say = "完全、聯絡不上！應該是女王之光號又追到什麼訊號不好的地方去了吧……倒也不是沒發生過這種事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那……我们该怎么办才好？",
+			say = "那……我們該怎麼辦才好？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -737,7 +737,7 @@ return {
 			actor = 900326,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我倒是有个想法。",
+			say = "我倒是有個想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -751,7 +751,7 @@ return {
 			actor = 900326,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "既然是实验场β的外部出现了问题，那我们开着卡美洛之庭去更远的地方观察一下实验场β，或许就能发现问题所在了。",
+			say = "既然是實驗場β的外部出現了問題，那我們開著卡美洛之庭去更遠的地方觀察一下實驗場β，或許就能發現問題所在了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -766,7 +766,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，陛下专门下过命令。出于安全考虑，没有她的许可，任何人都不能启动卡美洛之庭。",
+			say = "等等，陛下專門下過命令。出於安全考慮，沒有她的許可，任何人都不能啟動卡美洛之庭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -779,7 +779,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "可是如果不启动卡美洛之庭摆脱干扰，要怎么才能联系到你们的陛下？",
+			say = "可是如果不啟動卡美洛之庭擺脫干擾，要怎麼聯絡到妳們的陛下？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "欸呀~这种时候，肯定会有什么预案能用上吧，你仔细想想嘛。",
+			say = "欸呀~這種時候，一定會有什麼預案可以用上吧，妳仔細想想嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -822,7 +822,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……陛下有一次好像随口说过……在紧急情况下，我有权启动一次卡美洛之庭。",
+			say = "嗯……陛下有一次好像隨口說過……在緊急情況下，我有權啟動一次卡美洛之庭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -836,7 +836,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那不就得了~现在就是紧急情况呀！",
+			say = "那不就得了~現在就是緊急狀況呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你说的对，现在就是紧急情况！",
+			say = "……妳說的對，現在就是緊急狀況！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那你们给我一个坐标，我立刻启动卡美洛之庭。",
+			say = "那妳們給我一個座標，我立刻啟動卡美洛之庭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家……都不知道坐标怎么设置么？",
+			say = "大家……都不知道座標怎麼設定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "不知道，我只负责战斗和追踪任务。",
+			say = "不知道，我只負責戰鬥和追蹤任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -959,7 +959,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "人家才刚来不久，每天都待在玫瑰区里改建防御设施，不知道怎么弄哦~",
+			say = "人家才剛來不久，每天都待在玫瑰區改建防禦設施，不知道怎麼弄哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -973,7 +973,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "声望和反击小姐呢？算时间的话，她们才是待得最久的吧？",
+			say = "聲望和反擊小姐呢？算時間的話，她們才是待得最久的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -987,7 +987,7 @@ return {
 			actor = 900327,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "时间长倒是长……不过你看看我和姐姐，你觉得我们会弄么？",
+			say = "時間長倒是長……不過妳看看我和姐姐，妳覺得我們會弄嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,7 +1002,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这下麻烦了……一直以来，坐标都是由陛下亲自提供的。",
+			say = "這下麻煩了……一直以來，座標都是由陛下親自提供的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1017,7 +1017,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有坐标的话，我就算有启动权限……也不知道该怎么让卡美洛之庭动起来。",
+			say = "沒有座標的話，我就算有啟動權限……也不知道該怎麼讓卡美洛之庭動起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1030,7 +1030,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要不然……让我来试试？",
+			say = "不然……讓我來試試？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1043,7 +1043,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "之前我有偷偷研究过卡美洛之庭的坐标结构，也亲自操作过。",
+			say = "之前我有偷偷研究過卡美洛之庭的座標結構，也親自操作過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1058,7 +1058,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你之前那次只是误打误撞吧！",
+			say = "妳之前那次只是誤打誤撞吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1072,7 +1072,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "况且陛下自从那次之后，就已经把机器里预设的所有坐标都删除了。",
+			say = "況且陛下自從那次之後，就已經把機器裡預設的所有座標都刪除了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1086,7 +1086,7 @@ return {
 			actor = 900326,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "看来只能使用最终手段了。我们用暴力手段破开阿瓦隆之门的外壁——",
+			say = "看來只能使用最終手段了。我們用暴力手段破開阿瓦隆之門的外壁——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "绝对不行——！",
+			say = "絕對不行——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1131,7 +1131,7 @@ return {
 			actor = 900326,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那我也没主意了。",
+			say = "那我也沒主意了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,7 +1151,7 @@ return {
 			actor = 9701050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "看来乖乖等在这里才是上策呢~说不定一会我们跟陛下的联络恢复了，或者外面有救援抵达了，危机自然就解除了。",
+			say = "看來乖乖等在這裡才是上策呢~說不定等一下我們跟陛下的聯絡恢復了，或者外面有救援抵達了，危機自然就解除了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1165,7 +1165,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来也只能如此了……那大家回归各自的岗位，继续处理手头的工作吧。",
+			say = "看來只能如此了……那大家回歸各自的崗位，繼續處理手邊的工作吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
