@@ -81,7 +81,7 @@ end
 slot0.RefreshLevels = function(slot0)
 	slot0.levelList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			slot2:Find("Text"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/FushunAdventureGame_atlas", "level_" .. slot1 + 1)
+			slot2:Find("Text"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas("ui/minigameui/FushunAdventureGame_atlas", "level_" .. slot1 + 1)
 			slot4 = slot1 >= uv0.gameData.usedtime + (uv0.gameData.count > 0 and 1 or 0)
 
 			setActive(slot2:Find("lock"), slot4)
