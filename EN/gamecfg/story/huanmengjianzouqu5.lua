@@ -1190,7 +1190,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Oh, one more thing before you go – we came here with an envoy from the Kingdom of Tulpania.",
+			say = "Oh, one more thing before you go – we came here with an envoy from the Kingdom of Tulipa.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1203,7 +1203,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "Yes, Tulpania. The land that for the longest time hasn't had any shipgirls in its military.",
+			say = "Yes, Tulipa. The land that for the longest time hasn't had any shipgirls in its military.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

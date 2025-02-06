@@ -25718,6 +25718,584 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5792] = {
+		mark = 20250206,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5792,
+		config_data = {
+			21226,
+			21227,
+			21228,
+			21229,
+			21230,
+			21231,
+			21232,
+			21233,
+			21234,
+			21235,
+			21236,
+			21237,
+			21238,
+			21239,
+			21240
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5793] = {
+		mark = 20250206,
+		page_info = "",
+		type = 36,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5793,
+		config_data = {
+			1675001,
+			5000,
+			50,
+			0.36,
+			0.6,
+			10
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5794] = {
+		mark = 20250206,
+		page_info = "",
+		type = 16,
+		login_pop = 0,
+		config_id = 470,
+		is_show = 0,
+		config_data = "100",
+		config_client = "",
+		title_res_tag = "",
+		id = 5794,
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5795] = {
+		mark = 20250206,
+		type = 74,
+		login_pop = 0,
+		config_id = 5795,
+		is_show = 49,
+		title_res_tag = "bulvxieersp_pt",
+		id = 5795,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ReproductionBulvxieerSPPtPage",
+			ui_name = "ReproductionBulvxieerSPPtPage"
+		},
+		config_client = {
+			linkActID = 5802
+		}
+	},
+	[5796] = {
+		mark = 20250206,
+		page_info = "",
+		type = 14,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5796,
+		config_data = {
+			2876,
+			2877,
+			2878,
+			2879,
+			2880,
+			2881,
+			2882,
+			2883,
+			2884,
+			2885,
+			2886,
+			2887,
+			2888,
+			2889,
+			2890,
+			2891,
+			2892,
+			2893,
+			2894,
+			2895,
+			2896,
+			2897,
+			2898,
+			2899,
+			2900,
+			2901,
+			2902
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			"commonbg/bg_pt_pata",
+			{
+				1,
+				1,
+				1,
+				1
+			},
+			pt_id = 470,
+			use_secretary = false,
+			painting = "bulvxieer_pt"
+		}
+	},
+	[5797] = {
+		mark = 20250206,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5797,
+		config_data = {
+			21225
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5798] = {
+		mark = 20250206,
+		page_info = "",
+		type = 1,
+		login_pop = 0,
+		config_id = 4,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5798,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			id = 4,
+			bg = "loadingbg/bg_build_4_act",
+			buildship_tip = "Rate UP for Brünhilde and Z16!",
+			rate_tip = {
+				"<color=#ffde38>Super Rare</color>: 7%",
+				"<color=#d797ff>Elite</color>: 12%",
+				"<color=#3dc6ff>Rare</color>: 51%",
+				"Common: 30%",
+				"<color=#ffde38>Brünhilde</color>: 2.0% <color=#92FC63>(up!)</color>",
+				" ",
+				"<color=#ffde38>Blücher</color>: 0.5%",
+				" ",
+				"<color=#d797ff>Z16</color>: 2.5% <color=#92FC63>(up!)</color>"
+			}
+		}
+	},
+	[5799] = {
+		mark = 20250206,
+		page_info = "",
+		type = 80,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5799,
+		config_data = {
+			4
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			65078
+		}
+	},
+	[5800] = {
+		mark = 20250206,
+		type = 3,
+		login_pop = 0,
+		config_id = 68,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "dexiV3_login",
+		id = 5800,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ReproductionHornetLoginRePage",
+			ui_name = "ReproductionHornetLoginRePage"
+		}
+	},
+	[5801] = {
+		mark = 20250206,
+		page_info = "",
+		type = 27,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5801,
+		config_data = {
+			{
+				31964,
+				100
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5802] = {
+		mark = 20250206,
+		type = 12,
+		login_pop = 0,
+		config_id = 1,
+		is_show = 49,
+		title_res_tag = "bulvxieersp_main",
+		id = 5802,
+		config_data = {
+			1670001,
+			1670002,
+			1670003,
+			1670004,
+			1670041,
+			1670051
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ReproductionBulvxieerSPMainPage",
+			ui_name = "ReproductionBulvxieerSPMainPage"
+		},
+		config_client = {
+			entrance_bg = "activitybanner/temp10"
+		}
+	},
+	[5803] = {
+		mark = 20250206,
+		page_info = "",
+		type = 57,
+		login_pop = 0,
+		config_id = 62,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5803,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					19
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			miniGame = 74
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		time = "stop",
@@ -51047,6 +51625,7 @@ pg.activity_template = {
 			5692,
 			5724,
 			5758,
+			5798,
 			30006,
 			30014,
 			30024,
@@ -51105,6 +51684,7 @@ pg.activity_template = {
 			5640,
 			5748,
 			5782,
+			5800,
 			8009,
 			8050,
 			8053,
@@ -51269,6 +51849,7 @@ pg.activity_template = {
 			5773,
 			5783,
 			5785,
+			5795,
 			1086,
 			6006,
 			6010,
@@ -51428,6 +52009,8 @@ pg.activity_template = {
 			5784,
 			5786,
 			5789,
+			5792,
+			5797,
 			1079,
 			1080,
 			1081,
@@ -51581,6 +52164,7 @@ pg.activity_template = {
 			5719,
 			5737,
 			5755,
+			5796,
 			30013,
 			30042,
 			30056,
@@ -51773,6 +52357,7 @@ pg.activity_template = {
 			5684,
 			5715,
 			5753,
+			5793,
 			30019,
 			30046,
 			30053,
@@ -51828,6 +52413,7 @@ pg.activity_template = {
 			5694,
 			5716,
 			5752,
+			5794,
 			30015,
 			30023,
 			30044,
@@ -51905,6 +52491,7 @@ pg.activity_template = {
 			5712,
 			5749,
 			5750,
+			5802,
 			30012,
 			30020,
 			30021,
@@ -51992,6 +52579,7 @@ pg.activity_template = {
 			5756,
 			5770,
 			5771,
+			5801,
 			30003,
 			30033,
 			30045,
@@ -52020,6 +52608,7 @@ pg.activity_template = {
 			5594,
 			5639,
 			5747,
+			5799,
 			30861
 		},
 		[87] = {
@@ -52168,6 +52757,7 @@ pg.activity_template = {
 			5681,
 			5717,
 			5765,
+			5803,
 			30194,
 			30276,
 			30301,
@@ -53183,6 +53773,18 @@ pg.activity_template = {
 		5789,
 		5790,
 		5791,
+		5792,
+		5793,
+		5794,
+		5795,
+		5796,
+		5797,
+		5798,
+		5799,
+		5800,
+		5801,
+		5802,
+		5803,
 		7001,
 		7011,
 		7012,

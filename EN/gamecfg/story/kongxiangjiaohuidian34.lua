@@ -240,12 +240,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			paintingNoise = true,
-			dir = 1,
 			nameColor = "#ffa500",
+			dir = 1,
 			actor = 900192,
 			actorName = "Takao META",
 			say = "This was an insanely risky gamble. I can't believe this fool's errand worked.",

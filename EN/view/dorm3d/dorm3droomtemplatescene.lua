@@ -1021,8 +1021,8 @@ end
 
 slot0.SetCameraLady = function(slot0, slot1)
 	slot0.cameraAim2.LookAt = slot1.ladyInterestRoot
-	slot0.cameras[uv0.CAMERA.TALK].Follow = slot0.ladyInterest
-	slot0.cameras[uv0.CAMERA.TALK].LookAt = slot0.ladyInterest
+	slot0.cameras[uv0.CAMERA.TALK].Follow = slot1.ladyInterestRoot
+	slot0.cameras[uv0.CAMERA.TALK].LookAt = slot1.ladyInterestRoot
 	slot0.cameraGift.Follow = slot0.ladyInterest
 	slot0.cameraGift.LookAt = slot0.ladyInterest
 	slot0.cameraRole2.LookAt = slot1.ladyInterestRoot

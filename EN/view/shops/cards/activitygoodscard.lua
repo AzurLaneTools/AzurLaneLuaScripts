@@ -109,11 +109,7 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
-	if string.match(slot7:getName() or "??", "(%d+)") then
-		setText(slot0.nameTxt, shortenString(slot8, 5))
-	else
-		setText(slot0.nameTxt, shortenString(slot8, 6))
-	end
+	setText(slot0.nameTxt, shortenString(slot7:getName() or "??", 6, 1))
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot0.limitCountTF.text = i18n("common_no_limit")
@@ -161,11 +157,7 @@ slot0.updateSelectable = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
-	if string.match(slot5:getName() or "??", "(%d+)") then
-		setText(slot0.nameTxt, shortenString(slot6, 5))
-	else
-		setText(slot0.nameTxt, shortenString(slot6, 6))
-	end
+	setText(slot0.nameTxt, shortenString(slot5:getName() or "??", 6, 1))
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot0.limitCountTF.text = i18n("common_no_limit")
@@ -193,8 +185,6 @@ end
 
 slot0.StaticUpdate = function(slot0, slot1, slot2, slot3)
 	slot4 = tf(slot0)
-	slot6 = findTF(slot4, "item/name_mask/name")
-	slot7 = findTF(slot4, "item/consume/contain/icon"):GetComponent(typeof(Image))
 
 	setActive(findTF(slot4, "item/discount"), false)
 
@@ -215,13 +205,9 @@ slot0.StaticUpdate = function(slot0, slot1, slot2, slot3)
 
 	findTF(slot4, "item/consume/contain/Text"):GetComponent(typeof(Text)).text = slot1:getConfig("resource_num")
 
-	if string.match(slot16:getConfig("name") or "??", "(%d+)") then
-		setText(slot6, shortenString(slot17, 5))
-	else
-		setText(slot6, shortenString(slot17, 6))
-	end
+	setText(findTF(slot4, "item/name_mask/name"), shortenString(slot16:getConfig("name") or "??", 6, 1))
 
-	slot7.sprite = GetSpriteFromAtlas(Drop.New({
+	findTF(slot4, "item/consume/contain/icon"):GetComponent(typeof(Image)).sprite = GetSpriteFromAtlas(Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
 	}):getIcon(), "")

@@ -9598,16 +9598,6 @@ end
 temp()
 
 temp = function()
-	uv0["安"] = {
-		["森"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0.Z = {
 		u = {
 			i = {

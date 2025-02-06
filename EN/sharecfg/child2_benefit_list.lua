@@ -13744,7 +13744,7 @@ pg.base.child2_benefit_list = {
 		is_show = 1,
 		item_icon_little = "",
 		rare = 4,
-		desc = "When the turn starts, if Mood is less than 70, +20 Mood; if Mood is 70 or above, instead increase a random stat by +25.",
+		desc = "When the turn starts, if Mood is less than 70, +20 Mood; if Mood is 70 or above, instead increase all stats by +25.",
 		is_tip = 0,
 		id = 3009,
 		item_icon = "benefit_2_ankeleiqi",
@@ -13758,7 +13758,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[3010] = {
-		name = "{namecode:491}的祝福",
+		name = "Jade's Blessing ",
 		during_time = -1,
 		type = 2,
 		is_show = 0,
@@ -13776,7 +13776,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[3011] = {
-		name = "{namecode:491}的祝福",
+		name = "Jade's Blessing ",
 		during_time = -1,
 		type = 2,
 		is_show = 0,
@@ -13794,7 +13794,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[3012] = {
-		name = "{namecode:491}的祝福",
+		name = "Jade's Blessing ",
 		during_time = -1,
 		type = 2,
 		is_show = 1,
@@ -13874,7 +13874,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[3016] = {
-		name = "{namecode:439}的祝福",
+		name = "Roon's Blessing ",
 		during_time = -1,
 		type = 2,
 		is_show = 0,
@@ -13892,7 +13892,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[3017] = {
-		name = "{namecode:439}的祝福",
+		name = "Roon's Blessing ",
 		during_time = -1,
 		type = 2,
 		is_show = 0,
@@ -13910,7 +13910,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[3018] = {
-		name = "{namecode:439}的祝福",
+		name = "Roon's Blessing ",
 		during_time = -1,
 		type = 2,
 		is_show = 1,

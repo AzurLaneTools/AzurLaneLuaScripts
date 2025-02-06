@@ -5788,57 +5788,45 @@ pg.expedition_activity_template = {
 	},
 	[1670013] = {
 		id = 1670013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4487,
-				274
-			},
-			{
-				4483,
-				273
+				5802,
+				470,
+				30
 			}
 		}
 	},
 	[1671013] = {
 		id = 1671013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4487,
-				274
-			},
-			{
-				4483,
-				273
+				5802,
+				470,
+				80
 			}
 		}
 	},
 	[1672013] = {
 		id = 1672013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4487,
-				274
-			},
-			{
-				4483,
-				273
+				5802,
+				470,
+				120
 			}
 		}
 	},
 	[1673013] = {
 		id = 1673013,
-		bonus_time = 0,
+		bonus_time = 1,
 		pt_drop_display = {
 			{
-				4487,
-				274
-			},
-			{
-				4483,
-				273
+				5802,
+				470,
+				180
 			}
 		}
 	},
@@ -5847,12 +5835,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				4487,
-				274
-			},
-			{
-				4483,
-				273
+				5802,
+				470,
+				800
 			}
 		}
 	},
