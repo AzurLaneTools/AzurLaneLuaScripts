@@ -5847,19 +5847,19 @@ pg.base.child2_word = {
 	[4146006] = {
 		id = 4146006,
 		main_character_face = 0,
-		word = "1 More Try (40% chance of winning)",
+		word = "1 More Try (40% chance of failing.)",
 		char_type = 2
 	},
 	[4146008] = {
 		id = 4146008,
 		main_character_face = 0,
-		word = "1 More Try (60% chance of winning)",
+		word = "1 More Try (60% chance of failing.)",
 		char_type = 2
 	},
 	[4146010] = {
 		id = 4146010,
 		main_character_face = 0,
-		word = "1 More Try (80% chance of winning)",
+		word = "1 More Try (80% chance of failing.)",
 		char_type = 2
 	},
 	[4146012] = {
