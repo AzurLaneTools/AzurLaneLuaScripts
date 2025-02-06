@@ -134485,6 +134485,822 @@ _G.pg.base.task_data_template[21224] = {
 }
 
 
+_G.pg.base.task_data_template[21225] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905001,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21225,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			471,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21226] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905002,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21226,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65076,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21227] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905003,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21227,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65076,
+			300
+		},
+		{
+			2,
+			65078,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21228] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905004,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』日常困难本",
+	desc = "通常海域ハードを１回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21228,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65076,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21229] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905005,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』日常活动关卡",
+	desc = "任意のイベントステージを1回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21229,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1670001,
+		1670002,
+		1670003,
+		1670004,
+		1670041,
+		1670051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65076,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5802
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21230] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905006,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』通关SP1",
+	desc = "SP1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21230,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1670001
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65078,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65076,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5802
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21231] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905007,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』通关SP2",
+	desc = "SP2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21231,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1670002
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65078,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65076,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5802
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21232] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905008,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』通关SP3",
+	desc = "SP3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21232,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1670003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65078,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65076,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5802
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21233] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905009,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』通关SP4",
+	desc = "SP4を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21233,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1670004
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65078,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65076,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5802
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21234] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905010,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』通关ESP",
+	desc = "ESPを1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21234,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1670041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65078,
+			1
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670002,
+			chapterId = 1670041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21235] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905011,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』SP1三星",
+	desc = "SP1の作戦目標（星3つ）をすべて達成せよ！",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21236",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21235,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1670001",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670001
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21236] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905012,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』SP2三星",
+	desc = "SP2の作戦目標（星3つ）をすべて達成せよ！",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21237",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21236,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1670002",
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670002
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21237] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905013,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』SP3三星",
+	desc = "SP3の作戦目標（星3つ）をすべて達成せよ！",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21238",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21237,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1670003",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670003
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21238] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905014,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』SP4三星",
+	desc = "SP4の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21238,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1670004",
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670001,
+			chapterId = 1670004
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21239] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905015,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21239,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1670051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1670003,
+			chapterId = 1670051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21240] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905016,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『远汇点作战复刻』外观装备箱保底",
+	desc = "イベントショップか購買部で装備外装箱（鉄血カルチャー）を20個購入する",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21240,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30337",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30509,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

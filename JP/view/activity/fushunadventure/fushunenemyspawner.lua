@@ -65,7 +65,7 @@ slot0.Spawn = function(slot0)
 
 	slot4 = ResourceMgr.Inst
 
-	slot4:getAssetAsync("FushunAdventure/" .. slot3.name, "", function (slot0)
+	slot4:getAssetAsync("ui/fa_" .. slot3.name, "", function (slot0)
 		instantiate(slot0).transform:SetParent(uv0.parent, false)
 
 		if uv0.OnSpawn then

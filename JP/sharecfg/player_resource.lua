@@ -1655,6 +1655,16 @@ pg.player_resource = {
 		name = "limit_skinticket12",
 		itemid = 68035
 	},
+	[470] = {
+		id = 470,
+		name = "bulvxieer_pt2",
+		itemid = 65076
+	},
+	[471] = {
+		id = 471,
+		name = "skinTicket87",
+		itemid = 65077
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3069,6 +3079,12 @@ pg.player_resource = {
 		limit_skinticket12 = {
 			469
 		},
+		bulvxieer_pt2 = {
+			470
+		},
+		skinTicket87 = {
+			471
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3654,6 +3670,8 @@ pg.player_resource = {
 		467,
 		468,
 		469,
+		470,
+		471,
 		950,
 		951,
 		952,

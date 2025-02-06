@@ -2029,7 +2029,10 @@ slot0.HandleGameNotification = function(slot0, slot1, slot2)
 				end,
 				[70] = function ()
 					if uv0.operationCode == "GAME_READY" then
-						uv1:PlaySingleAction(uv2, "shuohua_sikao")
+						uv1.cameras[uv2.CAMERA.TALK].Follow = nil
+						uv1.cameras[uv2.CAMERA.TALK].LookAt = nil
+
+						uv1:PlaySingleAction(uv3, "shuohua_sikao")
 					elseif uv0.operationCode == "ROUND_RESULT" then
 						slot0 = nil
 
@@ -2046,9 +2049,7 @@ slot0.HandleGameNotification = function(slot0, slot1, slot2)
 						end), function ()
 						end)
 					elseif uv0.operationCode == "GAME_RESULT" then
-						uv1.cameras[uv3.CAMERA.TALK].Follow = nil
-						uv1.cameras[uv3.CAMERA.TALK].LookAt = nil
-						slot0 = uv1.cameras[uv3.CAMERA.TALK].transform
+						slot0 = uv1.cameras[uv2.CAMERA.TALK].transform
 						slot0.position = slot0.position + slot0.right * 0.11
 
 						seriesAsync(underscore.map({
