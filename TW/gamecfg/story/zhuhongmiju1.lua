@@ -366,7 +366,7 @@ return {
 			actor = 304050,
 			actorName = "天城&呂措",
 			hidePaintObj = true,
-			say = "敬老朋友們—  敬老朋友們。",
+			say = "敬老朋友們—  \n敬老朋友們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

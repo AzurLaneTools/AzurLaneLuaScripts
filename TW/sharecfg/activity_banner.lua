@@ -1,10 +1,12 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5803",
-		type = 3,
+		type = 7,
 		id = 1,
 		pic = "temp1",
+		param = {
+			74
+		},
 		time = {
 			{
 				{
@@ -692,12 +694,8 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[3] = {
-			1,
-			3,
-			4,
-			5,
-			1003
+		[7] = {
+			1
 		},
 		[2] = {
 			2,
@@ -727,6 +725,12 @@ pg.activity_banner = {
 			1022,
 			1023,
 			1024
+		},
+		[3] = {
+			3,
+			4,
+			5,
+			1003
 		},
 		[9] = {
 			98
