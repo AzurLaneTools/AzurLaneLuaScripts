@@ -10638,7 +10638,7 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[44467] = {
-		name = "",
+		name = "抽王牌惩罚",
 		during_time = 2,
 		type = 2,
 		is_show = 1,

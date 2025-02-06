@@ -81,9 +81,9 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "theme-china-jianwu",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-china-jianwu"
+		bgm = "main"
 	},
 	HoloLiveLinkGameView = {
 		default_bgm = "holo-fff-inst",
@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-schoolfuture",
+		default_bgm = "bsm-7",
 		special_bgm = "",
-		bgm = "theme-schoolfuture"
+		bgm = "bsm-7"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1181,9 +1181,9 @@ pg.voice_bgm = {
 		bgm = "Main-chunjie4-2"
 	},
 	LanternFestivalView = {
-		default_bgm = "story-china",
+		default_bgm = "main-chunjie2",
 		special_bgm = "",
-		bgm = "story-china"
+		bgm = "main-chunjie2"
 	},
 	ChkalovTecCatchupPage = {
 		default_bgm = "theme-designshipVI",
@@ -1851,9 +1851,9 @@ pg.voice_bgm = {
 		bgm = "story-newsakura"
 	},
 	NavalAcademyScene = {
-		default_bgm = "theme-china-jianwu",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-china-jianwu"
+		bgm = "main"
 	},
 	SkinMagazinePage7 = {
 		default_bgm = "story-richang-partynight",
@@ -1959,5 +1959,20 @@ pg.voice_bgm = {
 		default_bgm = "blueocean-image",
 		special_bgm = "",
 		bgm = "blueocean-image"
+	},
+	ReproductionBulvxieerSPMainPage = {
+		default_bgm = "story-midgard",
+		special_bgm = "",
+		bgm = "story-midgard"
+	},
+	ReproductionBulvxieerSPPtPage = {
+		default_bgm = "story-midgard",
+		special_bgm = "",
+		bgm = "story-midgard"
+	},
+	ReproductionHornetLoginRePage = {
+		default_bgm = "bsm-7",
+		special_bgm = "",
+		bgm = "bsm-7"
 	}
 }

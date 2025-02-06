@@ -14,7 +14,7 @@ return {
 			actorName = 30221,
 			side = 2,
 			dir = 1,
-			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_furniture1_tone1",
+			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture1_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			say = "嗯？哪里奇怪吗？",

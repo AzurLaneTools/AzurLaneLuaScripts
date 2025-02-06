@@ -117,7 +117,7 @@ slot0.AttachOrbit = function(slot0, slot1)
 						slot6:SetAsLastSibling()
 					end
 
-					SetActive(slot4, uv0._visible)
+					SetActive(slot6, uv0._visible)
 					uv0:sortAttachmentGO()
 				end
 			end), true, true)

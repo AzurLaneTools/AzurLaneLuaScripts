@@ -5,17 +5,15 @@ pg.activity_banner = {
 		id = 1,
 		pic = "temp1",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					6
 				},
 				{
 					0,
@@ -27,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					5
+					12
 				},
 				{
 					23,
@@ -38,19 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5802",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene skinshop",
-			{}
-		},
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					6
 				},
 				{
 					0,
@@ -61,8 +56,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					1,
-					30
+					2,
+					13
 				},
 				{
 					23,
@@ -77,15 +72,18 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
 		},
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					6
 				},
 				{
 					0,
@@ -96,8 +94,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					1,
-					30
+					2,
+					13
 				},
 				{
 					23,
@@ -112,14 +110,17 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"dorm 3d select"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					6
 				},
 				{
 					0,
@@ -131,7 +132,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					6
+					12
 				},
 				{
 					23,
@@ -146,14 +147,14 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp5",
 		param = {
-			"NEW_EDUCATE_SELECT"
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					6
 				},
 				{
 					0,
@@ -165,7 +166,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					6
+					12
 				},
 				{
 					23,
@@ -180,14 +181,17 @@ pg.activity_banner = {
 		id = 6,
 		pic = "temp6",
 		param = {
-			"firework and spring"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					6
 				},
 				{
 					0,
@@ -199,7 +203,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					6
+					12
 				},
 				{
 					23,
@@ -210,106 +214,31 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		time = "stop",
+		type = 3,
 		id = 7,
 		pic = "temp7",
 		param = {
 			"crusing"
-		},
-		time = {
-			{
-				{
-					2025,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp8",
 		param = {
 			"crusing"
-		},
-		time = {
-			{
-				{
-					2025,
-					2,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
 		param = {
 			"scene skinshop",
 			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[90] = {
@@ -321,8 +250,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					1,
-					23
+					2,
+					6
 				},
 				{
 					0,
@@ -333,8 +262,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					1,
-					30
+					2,
+					12
 				},
 				{
 					23,
@@ -367,35 +296,10 @@ pg.activity_banner = {
 	},
 	[100] = {
 		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
+		time = "stop",
 		type = 10,
 		id = 100,
-		pic = "dumpling",
-		time = {
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "dumpling"
 	},
 	[101] = {
 		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
@@ -406,35 +310,10 @@ pg.activity_banner = {
 	},
 	[200] = {
 		param = "",
+		time = "always",
 		type = 13,
 		id = 200,
-		pic = "springfes",
-		time = {
-			{
-				{
-					2025,
-					1,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "winter"
 	},
 	[201] = {
 		param = "",
@@ -453,14 +332,16 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
 			3,
 			4,
 			5,
 			6,
-			7,
 			8,
 			9
+		},
+		[3] = {
+			2,
+			7
 		},
 		[9] = {
 			90,
