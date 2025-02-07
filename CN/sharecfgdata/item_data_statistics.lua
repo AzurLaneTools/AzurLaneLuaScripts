@@ -109351,6 +109351,1410 @@ _G.pg.base.item_data_statistics[60534] = {
 }
 
 
+_G.pg.base.item_data_statistics[68000] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(Schwarzes Kaninchen)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:542}</color>换装<color=#92fc63FF>Schwarzes Kaninchen</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904496",
+	id = 68000,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68003,
+			1
+		},
+		{
+			2,
+			68006,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68001] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(未完成的圣诞惊喜)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:435}</color>换装<color=#92fc63FF>未完成的圣诞惊喜</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904497",
+	id = 68001,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68004,
+			1
+		},
+		{
+			2,
+			68007,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68002] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(私密闲暇时)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:480}</color>换装<color=#92fc63FF>私密闲暇时</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904498",
+	id = 68002,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68005,
+			1
+		},
+		{
+			2,
+			68008,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68003] = {
+	open_directly = 0,
+	name = "换装抵扣券(Schwarzes Kaninchen)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:542}</color>换装<color=#92fc63FF>Schwarzes Kaninchen</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2024年12月25日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68003,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71078
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68004] = {
+	open_directly = 0,
+	name = "换装抵扣券(未完成的圣诞惊喜)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:435}</color>换装<color=#92fc63FF>未完成的圣诞惊喜</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2024年12月25日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68004,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71079
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68005] = {
+	open_directly = 0,
+	name = "换装抵扣券(私密闲暇时)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:480}</color>换装<color=#92fc63FF>私密闲暇时</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2024年12月25日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68005,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71080
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68006] = {
+	open_directly = 0,
+	name = "换装体验券(Schwarzes Kaninchen)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:542}</color>换装<color=#92fc63FF>Schwarzes Kaninchen</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2024年12月25日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68006,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90297
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68007] = {
+	open_directly = 0,
+	name = "换装体验券(未完成的圣诞惊喜)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:435}</color>换装<color=#92fc63FF>未完成的圣诞惊喜</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2024年12月25日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68007,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90298
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68008] = {
+	open_directly = 0,
+	name = "换装体验券(私密闲暇时)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:480}</color>换装<color=#92fc63FF>私密闲暇时</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2024年12月25日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68008,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90299
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68009] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(幻梦奇术)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:182}</color>换装<color=#92fc63FF>幻梦奇术</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904492",
+	id = 68009,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68012,
+			1
+		},
+		{
+			2,
+			68015,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68010] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(Dreamy Night)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>那不勒斯</color>换装<color=#92fc63FF>Dreamy Night</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904493",
+	id = 68010,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68013,
+			1
+		},
+		{
+			2,
+			68016,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68011] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(聚光灯下的初体验)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>纳希莫夫海军上将</color>换装<color=#92fc63FF>聚光灯下的初体验</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904494",
+	id = 68011,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68014,
+			1
+		},
+		{
+			2,
+			68017,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68012] = {
+	open_directly = 0,
+	name = "换装抵扣券(幻梦奇术)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:182}</color>换装<color=#92fc63FF>幻梦奇术</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2024年12月31日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68012,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71090
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68013] = {
+	open_directly = 0,
+	name = "换装抵扣券(Dreamy Night)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>那不勒斯</color>换装<color=#92fc63FF>Dreamy Night</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2024年12月31日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68013,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71091
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68014] = {
+	open_directly = 0,
+	name = "换装抵扣券(聚光灯下的初体验)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>纳希莫夫海军上将</color>换装<color=#92fc63FF>聚光灯下的初体验</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2024年12月31日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68014,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71092
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68015] = {
+	open_directly = 0,
+	name = "换装体验券(幻梦奇术)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:182}</color>换装<color=#92fc63FF>幻梦奇术</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2024年12月31日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68015,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90303
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68016] = {
+	open_directly = 0,
+	name = "换装体验券(Dreamy Night)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>那不勒斯</color>换装<color=#92fc63FF>Dreamy Night</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2024年12月31日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68016,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90304
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68017] = {
+	open_directly = 0,
+	name = "换装体验券(聚光灯下的初体验)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>纳希莫夫海军上将</color>换装<color=#92fc63FF>聚光灯下的初体验</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2024年12月31日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68017,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90305
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68018] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(妆点，只为今夜)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>建武</color>换装<color=#92fc63FF>妆点，只为今夜</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904740",
+	id = 68018,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68021,
+			1
+		},
+		{
+			2,
+			68024,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68019] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(良夜春景)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>布雷斯特</color>换装<color=#92fc63FF>良夜春景</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904741",
+	id = 68019,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68022,
+			1
+		},
+		{
+			2,
+			68025,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68020] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(Springtime Data)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>奇尔沙治</color>换装<color=#92fc63FF>Springtime Data</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904742",
+	id = 68020,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68023,
+			1
+		},
+		{
+			2,
+			68026,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68021] = {
+	open_directly = 0,
+	name = "换装抵扣券(妆点，只为今夜)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>建武</color>换装<color=#92fc63FF>妆点，只为今夜</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68021,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71098
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68022] = {
+	open_directly = 0,
+	name = "换装抵扣券(良夜春景)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>布雷斯特</color>换装<color=#92fc63FF>良夜春景</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年1月22日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68022,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71102
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68023] = {
+	open_directly = 0,
+	name = "换装抵扣券(Springtime Data)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>奇尔沙治</color>换装<color=#92fc63FF>Springtime Data</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年1月22日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68023,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71103
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68024] = {
+	open_directly = 0,
+	name = "换装体验券(妆点，只为今夜)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF></color>换装<color=#92fc63FF>妆点，只为今夜</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68024,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90309
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68025] = {
+	open_directly = 0,
+	name = "换装体验券(良夜春景)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF></color>换装<color=#92fc63FF>良夜春景</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年1月22日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68025,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90310
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68026] = {
+	open_directly = 0,
+	name = "换装体验券(Springtime Data)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF></color>换装<color=#92fc63FF>Springtime Data</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年1月22日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68026,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90311
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68027] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(Let's Dance！月下起舞！)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:199}</color>换装<color=#92fc63FF>Let's Dance！月下起舞！</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904953",
+	id = 68027,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68030,
+			1
+		},
+		{
+			2,
+			68033,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68028] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(灯映星展)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:523}</color>换装<color=#92fc63FF>灯映星展</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904954",
+	id = 68028,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68031,
+			1
+		},
+		{
+			2,
+			68034,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68029] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(静雅之所的安逸)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:479}</color>换装<color=#92fc63FF>静雅之所的安逸</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "904955",
+	id = 68029,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68032,
+			1
+		},
+		{
+			2,
+			68035,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68030] = {
+	open_directly = 0,
+	name = "换装抵扣券(Let's Dance！月下起舞！)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:199}</color>换装<color=#92fc63FF>Let's Dance！月下起舞！</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68030,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71107
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68031] = {
+	open_directly = 0,
+	name = "换装抵扣券(灯映星展)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:523}</color>换装<color=#92fc63FF>灯映星展</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68031,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71106
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68032] = {
+	open_directly = 0,
+	name = "换装抵扣券(静雅之所的安逸)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:479}</color>换装<color=#92fc63FF>静雅之所的安逸</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68032,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71105
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68033] = {
+	open_directly = 0,
+	name = "换装体验券(Let's Dance！月下起舞！)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:199}</color>换装<color=#92fc63FF>Let's Dance！月下起舞！</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68033,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90318
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68034] = {
+	open_directly = 0,
+	name = "换装体验券(灯映星展)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:523}</color>换装<color=#92fc63FF>灯映星展</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68034,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90319
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68035] = {
+	open_directly = 0,
+	name = "换装体验券(静雅之所的安逸)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:479}</color>换装<color=#92fc63FF>静雅之所的安逸</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年1月30日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68035,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90320
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[80003] = {
 	open_directly = 1,
 	name = "舰船教材T3捆绑包*1 ",
