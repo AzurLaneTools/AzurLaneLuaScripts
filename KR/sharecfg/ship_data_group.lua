@@ -25244,7 +25244,7 @@ pg.base.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		trans_skin = 0,
+		trans_skin = 501029,
 		hide = 0,
 		group_type = 50102,
 		index_id = 486,
@@ -25258,7 +25258,14 @@ pg.base.ship_data_group = {
 			"C",
 			"D"
 		},
-		trans_radar_chart = {},
+		trans_radar_chart = {
+			"A",
+			"B",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
 		trans_skill = {},
 		description = {
 			{
