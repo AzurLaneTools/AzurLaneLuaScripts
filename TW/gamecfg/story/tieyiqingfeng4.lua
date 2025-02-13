@@ -9,7 +9,7 @@ return {
 			bgm = "battle-eagleunion",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "海面之上，由印第安纳带领的舰队如同热刀切黄油般撕裂敌方阵线，向着位于舰队中枢的指挥者直奔而去。",
+			say = "海面之上，由印第安納帶領的艦隊如同熱刀切奶油般撕裂敵方陣線，向著位於艦隊中樞的指揮者直奔而去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "各舰注意，敌方指挥者已经进入目视距离。",
+			say = "各艦注意，敵方指揮者已進入目視距離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，你隐藏在面具之下的真面目，就由我们来揭开吧~",
+			say = "呵呵，妳隱藏在面具底下的真面目，就由我們來揭開吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "齐射开火——！",
+			say = "齊射開火——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			say = "在齐射的炮弹抵达之前，头戴狐面的身影随着一阵樱花色的烟雾消散了。",
+			say = "在齊射的炮彈抵達之前，頭戴狐狸面的身影隨著一陣櫻花色的煙霧消散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "竟然凭空消失了？！简直像忍者一样……！",
+			say = "竟然憑空消失了？！簡直像忍者一樣……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来这个领头的，不是单纯的棋子呢……",
+			say = "看來這個領頭的，不是單純的棋子呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道又是一个不知道从哪儿冒出来的META？还是塞壬的新型智能兵器？",
+			say = "難道又是一個不知道從哪裡冒出來的META？還是塞壬的新型智慧兵器？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据幻境之中的情报，带领访问舰队的人为重樱的{namecode:161:天城}。",
+			say = "根據幻境之中的情報，帶領造訪艦隊的人為重櫻的天城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们有人了解{namecode:161:天城}的事么？",
+			say = "妳們有人了解天城的事嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}……不清楚，在重樱的高层里没听说过这么一号人物啊？",
+			say = "天城……不清楚，在重櫻的高層中沒聽過這麼一號人物啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我从来不关注这些的，别问我。",
+			say = "我從來不關注這些的，別問我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贝尔，你平时看重樱的消息比较多，知道些什么么？",
+			say = "貝爾，妳平常看重櫻的消息比較多，知道些什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看的主要是漫画和电影啦……里面没有提到过{namecode:161:天城}的事。",
+			say = "我看的主要是漫畫和電影啦……裡面沒有提到天城的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来关于{namecode:161:天城}的事，只能等到和{namecode:524:圣地亚哥}司令部恢复联系后再说了。",
+			say = "看來關於天城的事，只能等到和聖地牙哥司令部恢復聯繫後再說了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家休整一下，接下来我们去圣诞岛。",
+			say = "大家休息一下，接下來我們就去聖誕島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……圣诞岛？",
+			say = "……聖誕島？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣诞岛上的通讯设备更先进。前往那里，我们或许就能和司令部恢复联系了。",
+			say = "聖誕島上的通訊設備更先進。前往那裡，我們或許就能和司令部恢復聯繫了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不止如此，你们注意到了敌人来的方向了么？",
+			say = "不止如此，妳們注意到了敵人來的方向了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从航线推测，敌人应该是从圣诞岛方向来的。",
+			say = "從航線推測，敵人應該是從聖誕島方向來的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说……在圣诞岛上驻扎的舰队恐怕已经陷入危险中了。",
+			say = "也就是說……在聖誕島上駐紮的艦隊恐怕已經陷入危險了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们是距离她们最近的舰队，必须前去救援！",
+			say = "我們是距離她們最近的艦隊，必須前往救援！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·重樱所罗门群岛基地",
+					"太平洋·重櫻所羅門群島基地",
 					1
 				},
 				{
-					"白鹰所罗门群岛方向特混舰队",
+					"白鷹所羅門群島方向特混艦隊",
 					2
 				},
 				{
-					"虚像幻境中",
+					"虛象幻境中",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
 			bgm = "battle-eagleunion",
-			say = "在击破了几轮阻挠的敌舰后，印第安纳一行人带领企业如法炮制，用符咒进入了幻境之中。",
+			say = "在擊破了幾輪阻撓的敵艦後，印第安納一行人帶領企業如法炮製，用符咒進入了幻境之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_moran_3",
 			hidePaintObj = true,
-			say = "幻境之中，无边无际的樱花林在海域中延展着。视线的远方，还矗立着一棵枯萎的巨树。",
+			say = "幻境之中，無邊無際的櫻花林在海域中延展著。視線的遠方，還矗立著一棵枯萎的巨樹。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "花朵……明明应该代表生机才对。",
+			say = "花朵……明明應該代表生機才對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里繁花似锦，可看上去却如此衰败……",
+			say = "這裡繁花似錦，看起來卻如此衰敗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就是困住重樱众人的虚像幻境么……",
+			say = "這就是困住重櫻眾人的虛像幻境嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……海域中有战斗的痕迹，很新。",
+			say = "……海域中有戰鬥的痕跡，很新。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "企业，从空中有什么发现么？",
+			say = "企業，從空中有什麼發現嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "战斗的痕迹不止一处。",
+			say = "戰鬥的痕跡不只一處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "重樱舰队应该只是被困在幻境里了，但还在抵抗。",
+			say = "重櫻艦隊應該只是被困在幻境裡了，但還在抵抗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说来也奇怪……我们能够在幻境中来去自如，多亏她们的帮助。",
+			say = "說來也奇怪……我們能夠在幻境中來去自如，多虧她們的幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么她们自己反而会被困其中呢？",
+			say = "為什麼她們自己反而會被困其中呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许因为此处幻境与别处不同……是幕后黑手专门设计来对付她们的。",
+			say = "或許因為這裡幻境與別處不同……是幕後黑手專門設計來對付她們的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "被幕后黑手专门针对……那她们的处境岂不是很糟糕啊！",
+			say = "被幕後黑手專門針對……那她們的處境豈不是很糟糕啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "找到了。重樱舰队正在向中心的那颗枯萎大树移动。",
+			say = "找到了。重櫻艦隊正在向中心的枯萎大樹移動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了，来得还不算迟！我们快去支援她们吧~",
+			say = "太好了，來得還不算遲！我們快去支援她們吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

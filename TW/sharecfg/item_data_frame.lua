@@ -434,11 +434,11 @@ pg.item_data_frame = {
 	},
 	[331] = {
 		name = "澎湃之心",
-		gain_by = "铁翼擎风",
+		gain_by = "鐵翼擎風",
 		time_second = 0,
 		id = 331,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「澎湃之心，永不停歇。劈風斬浪，一往無前。」</color>\n「鐵翼擎風」活動獲取",
 		scene = {}
 	},
 	[401] = {
@@ -556,6 +556,15 @@ pg.item_data_frame = {
 		id = 606,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>揚帆起航！ 豪華郵輪與心跳之旅！ </color>透過參與特別限定活動獲取",
+		scene = {}
+	},
+	[607] = {
+		name = "一場荒野之旅",
+		gain_by = "",
+		time_second = 0,
+		id = 607,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>沒人能逃出自己的故事，自由的牛仔也不例外。</color>透過參與「荒野假日開拓」活動獲取",
 		scene = {}
 	},
 	[1001] = {
@@ -729,6 +738,7 @@ pg.item_data_frame = {
 		604,
 		605,
 		606,
+		607,
 		1001,
 		1002,
 		10001,

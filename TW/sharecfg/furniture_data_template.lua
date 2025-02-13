@@ -144,6 +144,8 @@ pg.furniture_data_template = setmetatable({
 			278,
 			280,
 			281,
+			284,
+			285,
 			288,
 			290,
 			292,
@@ -2945,6 +2947,26 @@ pg.furniture_data_template = setmetatable({
 			311115,
 			311116
 		},
+		[113] = {
+			313001,
+			313002,
+			313101,
+			313102,
+			313103,
+			313104,
+			313105,
+			313106,
+			313107,
+			313108,
+			313109,
+			313110,
+			313111,
+			313112,
+			313113,
+			313301,
+			313302,
+			313303
+		},
 		[114] = {
 			314001,
 			314002,
@@ -4800,6 +4822,18 @@ pg.furniture_data_template = setmetatable({
 			311113,
 			311114,
 			311115,
+			313101,
+			313102,
+			313103,
+			313104,
+			313105,
+			313106,
+			313107,
+			313108,
+			313109,
+			313110,
+			313111,
+			313112,
 			314101,
 			314102,
 			314103,
@@ -5072,6 +5106,7 @@ pg.furniture_data_template = setmetatable({
 			269,
 			280,
 			281,
+			285,
 			288,
 			290,
 			100002,
@@ -5169,6 +5204,7 @@ pg.furniture_data_template = setmetatable({
 			273,
 			275,
 			278,
+			284,
 			292
 		},
 		[7] = {
@@ -5344,6 +5380,7 @@ pg.furniture_data_template = setmetatable({
 			309113,
 			310116,
 			311116,
+			313113,
 			314113,
 			316123,
 			318305
@@ -5441,6 +5478,7 @@ pg.furniture_data_template = setmetatable({
 			309001,
 			310001,
 			311001,
+			313001,
 			314001,
 			316001,
 			318001
@@ -5539,6 +5577,7 @@ pg.furniture_data_template = setmetatable({
 			309002,
 			310002,
 			311002,
+			313002,
 			314002,
 			316002,
 			318002
@@ -5853,6 +5892,9 @@ pg.furniture_data_template = setmetatable({
 			310308,
 			310309,
 			310310,
+			313301,
+			313302,
+			313303,
 			314112,
 			316301,
 			316302,
@@ -5964,6 +6006,7 @@ pg.furniture_data_template = setmetatable({
 			309002,
 			310002,
 			311002,
+			313002,
 			314002,
 			316002,
 			318002
@@ -6090,6 +6133,8 @@ pg.furniture_data_template = setmetatable({
 			275,
 			278,
 			280,
+			284,
+			285,
 			288,
 			290,
 			292,
@@ -7895,6 +7940,19 @@ pg.furniture_data_template = setmetatable({
 			311114,
 			311115,
 			311116,
+			313101,
+			313102,
+			313103,
+			313104,
+			313105,
+			313106,
+			313107,
+			313108,
+			313109,
+			313110,
+			313111,
+			313112,
+			313113,
 			314101,
 			314102,
 			314103,
@@ -8100,6 +8158,7 @@ pg.furniture_data_template = setmetatable({
 			309001,
 			310001,
 			311001,
+			313001,
 			314001,
 			316001,
 			318001
@@ -8679,6 +8738,9 @@ pg.furniture_data_template = setmetatable({
 			310308,
 			310309,
 			310310,
+			313301,
+			313302,
+			313303,
 			314112,
 			316301,
 			316302,
@@ -8873,6 +8935,8 @@ pg.furniture_data_template = setmetatable({
 		278,
 		280,
 		281,
+		284,
+		285,
 		288,
 		290,
 		292,
@@ -11487,6 +11551,24 @@ pg.furniture_data_template = setmetatable({
 		311114,
 		311115,
 		311116,
+		313001,
+		313002,
+		313101,
+		313102,
+		313103,
+		313104,
+		313105,
+		313106,
+		313107,
+		313108,
+		313109,
+		313110,
+		313111,
+		313112,
+		313113,
+		313301,
+		313302,
+		313303,
 		314001,
 		314002,
 		314101,
@@ -18584,6 +18666,92 @@ pg.base.furniture_data_template = {
 			{
 				"char3",
 				1
+			}
+		},
+		interAction_group = {}
+	},
+	[284] = {
+		can_rotate = 0,
+		describe = "衝破風暴的桎梏，向未來而行。前路漫漫，仍需努力 ——「鐵翼擎風」活動紀念章",
+		gain_by = "鐵翼擎風",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "里程碑「衝破風暴」",
+		advice = 0,
+		id = 284,
+		icon = "chongpofengbaoxunzhangicon",
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"chongpofengbaoxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[285] = {
+		can_rotate = 0,
+		describe = "自由的火車，即將駛向未知的荒野。——「荒野假日開拓」活動紀念",
+		gain_by = "荒野假日開拓記",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "荒野開拓紀念",
+		advice = 0,
+		id = 285,
+		icon = "zhengqihuocheicon",
+		comfortable = 0,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"zhengqihuoche",
+				"normal"
 			}
 		},
 		interAction_group = {}
@@ -134269,6 +134437,777 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[313001] = {
+		can_rotate = 0,
+		describe = "旅店之內，禁止火拼！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/dibanxb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "西部旅館地板",
+		advice = 0,
+		icon = "dibanxbicon",
+		id = 313001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313002] = {
+		can_rotate = 0,
+		describe = "旅店之內，禁止火拼！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 113,
+		count = 1,
+		name = "西部旅館壁紙",
+		advice = 0,
+		id = 313002,
+		icon = "qiangbixbicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbixb",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[313101] = {
+		can_rotate = 0,
+		describe = "吃飯娛樂兩不誤，但不要出千哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/dayuanzhuoxb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "旅館大圓桌",
+		advice = 0,
+		icon = "dayuanzhuoxbicon",
+		id = 313101,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313102] = {
+		can_rotate = 0,
+		describe = "客人，您的酒水來了啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/fuwujiuxb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "旅館服務啾",
+		advice = 0,
+		icon = "fuwujiuxbicon",
+		id = 313102,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313103] = {
+		can_rotate = 0,
+		describe = "請坐。點一杯，然後說說你的故事吧。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/gaojiaoyixb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 113,
+		count = 3,
+		name = "旅館吧檯椅",
+		advice = 0,
+		id = 313103,
+		icon = "gaojiaoyixbicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					7.3,
+					35.2
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313104] = {
+		can_rotate = 0,
+		describe = "看到可疑人員請立刻報告啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/jingguanjiuxb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "旅館警官啾",
+		advice = 0,
+		icon = "jingguanjiuxbicon",
+		id = 313104,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313105] = {
+		can_rotate = 0,
+		describe = "二樓住房區，同樣禁止火拼哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/loutixb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "旅館樓梯",
+		advice = 0,
+		icon = "loutixbicon",
+		id = 313105,
+		comfortable = 3,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313106] = {
+		can_rotate = 0,
+		describe = "桶子……不，木桶椅！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/mutongyixb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 113,
+		count = 6,
+		name = "旅館木桶椅",
+		advice = 0,
+		id = 313106,
+		icon = "mutongyixbicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					6.4,
+					45.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313107] = {
+		can_rotate = 0,
+		describe = "可以用來坐，不能用來揮。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/yizi1xb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "旅館木質椅（背面）",
+		advice = 0,
+		icon = "yizi1xbicon",
+		id = 313107,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313108] = {
+		can_rotate = 0,
+		describe = "可以用來坐，不能用來揮。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/yizi2xb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 113,
+		count = 3,
+		name = "旅館木質椅（正面）",
+		advice = 0,
+		id = 313108,
+		icon = "yizi2xbicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					23.3,
+					20.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313109] = {
+		can_rotate = 0,
+		describe = "物盡其用，真正耐用。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/jiutongzhuoxb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "旅館木桶桌",
+		advice = 0,
+		icon = "jiutongzhuoxbicon",
+		id = 313109,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313110] = {
+		can_rotate = 0,
+		describe = "不知道會有什麼藏在裡面呢？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 113,
+		count = 1,
+		name = "不起眼的木桶堆",
+		advice = 0,
+		id = 313110,
+		icon = "zhuangshitongxbicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhuangshitongxb",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[313111] = {
+		can_rotate = 1,
+		describe = "新通告，新通告，新通告！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 113,
+		count = 1,
+		name = "旅館通緝令",
+		advice = 0,
+		id = 313111,
+		icon = "tongjilingxbicon",
+		comfortable = 3,
+		size = {
+			2,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tongjilingxb",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[313112] = {
+		can_rotate = 0,
+		describe = "是再來一杯，還是想聽點故事？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/bataixb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "旅館大吧台",
+		advice = 0,
+		icon = "bataixbicon",
+		id = 313112,
+		comfortable = 4,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313113] = {
+		can_rotate = 0,
+		describe = "拿起它們，你也能成為縱橫荒野的傳奇！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 113,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "shouqiangjiaxbicon",
+		count = 1,
+		name = "傳奇手槍組合",
+		advice = 0,
+		id = 313113,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shouqiangjiaxbB",
+				"normal"
+			},
+			{
+				"shouqiangjiaxbT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"yun"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[313301] = {
+		can_rotate = 0,
+		describe = "客人，今天想喝點什麼？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/jiujiaxb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "旅館吧台櫃",
+		advice = 0,
+		icon = "jiujiaxbicon",
+		id = 313301,
+		comfortable = 3,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313302] = {
+		can_rotate = 0,
+		describe = "隨處可見的旅館裝飾畫。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/guahuaxb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "旅館裝飾畫",
+		advice = 0,
+		icon = "guahuaxbicon",
+		id = 313302,
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[313303] = {
+		can_rotate = 0,
+		describe = "非賣品，請勿觸碰。",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xb/chuguixb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 113,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 2,
+		name = "旅館儲藏櫃",
+		advice = 0,
+		icon = "chuguixbicon",
+		id = 313303,
+		comfortable = 2,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},

@@ -17,6 +17,9 @@ slot0.Init = function(slot0)
 	slot0.perfectArea = findTF(slot0._tf, "perfect")
 	slot0.scoreTxt = findTF(slot0._tf, "score/Text"):GetComponent(typeof(Text))
 	slot0.comboTxt = findTF(slot0._tf, "score/combo"):GetComponent(typeof(Text))
+
+	findTF(slot0._tf, "score/label"):GetComponent(typeof(Image)):SetNativeSize()
+
 	slot0.refrigerator = findTF(slot0._tf, "bg/refrigerator"):GetComponent(typeof(SpineAnimUI))
 	slot0.char = findTF(slot0._tf, "bg/char"):GetComponent(typeof(SpineAnimUI))
 	slot0.backBtn = findTF(slot0._tf, "back")
@@ -33,10 +36,10 @@ slot0.Init = function(slot0)
 	slot0.gearTr = slot1:GetComponent(typeof(Image))
 	slot0.gearTrPos = slot0.gearTr.transform.localPosition.y
 	slot0.gearSps = {
-		[ValentineQteGameConst.OP_SCORE_GEAR_PERFECT] = GetSpriteFromAtlas("ui/valentineqtegame_atlas", "Perfect"),
-		[ValentineQteGameConst.OP_SCORE_GEAR_GREAT] = GetSpriteFromAtlas("ui/valentineqtegame_atlas", "Great"),
-		[ValentineQteGameConst.OP_SCORE_GEAR_GOOD] = GetSpriteFromAtlas("ui/valentineqtegame_atlas", "Good"),
-		[ValentineQteGameConst.OP_SCORE_GEAR_MISS] = GetSpriteFromAtlas("ui/valentineqtegame_atlas", "Miss")
+		[ValentineQteGameConst.OP_SCORE_GEAR_PERFECT] = GetSpriteFromAtlas("ui/minigameui/valentineqtegame_atlas", "Perfect"),
+		[ValentineQteGameConst.OP_SCORE_GEAR_GREAT] = GetSpriteFromAtlas("ui/minigameui/valentineqtegame_atlas", "Great"),
+		[ValentineQteGameConst.OP_SCORE_GEAR_GOOD] = GetSpriteFromAtlas("ui/minigameui/valentineqtegame_atlas", "Good"),
+		[ValentineQteGameConst.OP_SCORE_GEAR_MISS] = GetSpriteFromAtlas("ui/minigameui/valentineqtegame_atlas", "Miss")
 	}
 	slot0.msgBox = ValentineQteGameMsgBox.New(slot0._tf:Find("msgbox"))
 	slot0.itemPoolMgr = ValentineQteGamePoolMgr.New(slot0._tf:Find("root/item"), 2, 4)

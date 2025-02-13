@@ -1421,6 +1421,11 @@ temp = function()
 									}
 								}
 							}
+						},
+						["."] = {
+							["改"] = {
+								this = true
+							}
 						}
 					}
 				}
@@ -1495,6 +1500,7 @@ temp = function()
 			this = true
 		},
 		["爾"] = {
+			this = true,
 			["法"] = {
 				["斯"] = {
 					["特"] = {
@@ -2591,6 +2597,7 @@ temp = function()
 		["第"] = {
 			["安"] = {
 				["納"] = {
+					this = true,
 					["波"] = {
 						["利"] = {
 							["斯"] = {
@@ -7194,6 +7201,9 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["戈"] = {
+			this = true
 		}
 	}
 end
@@ -7456,6 +7466,28 @@ temp = function()
 			["里"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["匹"] = {
+		["茲"] = {
+			["堡"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鯡"] = {
+		["魚"] = {
+			this = true
 		}
 	}
 end

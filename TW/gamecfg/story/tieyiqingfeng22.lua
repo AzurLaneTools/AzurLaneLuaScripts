@@ -4,7 +4,7 @@ return {
 	fadeOut = 1.5,
 	scripts = {
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/ui/didi",
@@ -43,7 +43,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，北海风暴解析舰队已经消灭了塞壬的迎击舰队。",
+			say = "指揮官，北海風暴解析艦隊已經消滅了塞壬的迎擊艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战斗全程没有发现高阶塞壬出没。推测这一批仅仅是先遣部队，并非主力。",
+			say = "戰鬥全程沒有發現高階塞壬出沒。推測這一批僅是先遣部隊，並非主力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我们也是这么想的。",
+			say = "嗯，我們也是這麼想的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，南海风暴解析舰队也已经消灭了全部敌人，目前正按照预定计划进行出发前的再次补给。",
+			say = "指揮官，南海風暴解析艦隊也已經消滅了全部敵人，目前正按照預定計畫進行出發前的再次補給。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我们这边的战斗也已经结束了。各舰队的损伤情况呢？",
+			say = "我們這邊的戰鬥也已經結束了。各艦隊的損傷情況呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "在近海支援火力的协助下，东海风暴解析舰队的战斗力损失小于5%。",
+			say = "在近海支援火力的協助下，東海風暴解析艦隊的戰鬥力損失小於5%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我这边也一样。因为接近BP司令部，支援火力更强，北海风暴解析舰队战斗力损失小于3%。",
+			say = "嗯，我這邊也是。因為接近BP司令部，支援火力更強，北海風暴解析艦隊戰鬥力損失小於3%。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "南海风暴解析舰队实力损失接近9%，好像稍微高了一点呢……",
+			say = "南海風暴解析艦隊實力損失接近9%，好像稍微高了一點呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没关系，你那边负责的区域广，舰队整体实力又是三支舰队中最弱的，取得这样的战绩已经很不错了。",
+			say = "沒關係，妳那邊負責的區域廣，艦隊整體實力又是三隻艦隊中最弱的，取得這樣的戰績已經很不錯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "最开始给出的目标是，在第一轮行动中，所有舰队的战斗力损失不得超过15%，大家都完成得很漂亮。",
+			say = "最開始給的目標是，在第一輪行動中，所有艦隊的戰鬥力損失不得超過15%，大家都完成得很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "寰昌，敌情有重大变化么？",
+			say = "寰昌，敵情有重大變化？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据陆续汇总而来的情报，马里亚纳要塞的塞壬舰队正在严阵以待，但其他区域的塞壬并无向其增援的迹象。",
+			say = "根據陸續匯總而來的情報，馬里亞納要塞的塞壬艦隊正在嚴陣以待，但其他區域的塞壬並無向其增援的跡象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可以认为敌情没有重大变化。",
+			say = "可以認為敵情沒有重大變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "就现状而言，三支舰队的战斗力损失程度都在计划之中，敌情也没有发生重大变化，符合第二阶段计划的执行条件。",
+			say = "就現狀而言，三隻艦隊的戰鬥力損失程度都在計畫之中，敵情也沒有發生重大變化，符合第二階段計畫的執行條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			actor = 502010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "许可执行「冰龙破风」行动的第二阶段计划。",
+			say = "許可執行「冰龍破風」行動的第二階段計畫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "很好，各舰队一小时后按照预定进攻路线出发。",
+			say = "很好，各艦隊一小時後依照預定進攻路線出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "同时联络北方联合舰队出航——我们马里亚纳群岛要塞群见！",
+			say = "同時聯絡北方聯合艦隊出航－我們馬里亞納群島要塞群見！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

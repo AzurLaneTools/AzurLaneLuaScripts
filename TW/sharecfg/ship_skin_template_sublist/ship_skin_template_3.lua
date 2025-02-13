@@ -1,6 +1,331 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
+	[103140] = {
+		name = "{namecode:195}",
+		change_skin = "",
+		ship_group = 10314,
+		illustrator2 = -1,
+		desc = "紐奧良級重巡洋艦——{namecode:195}，舷號CA-38",
+		group_index = 0,
+		id = 103140,
+		painting = "jiujinshan",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "jiujinshan",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 275,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.266,
+					1.151,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.301,
+					1.144,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.596,
+							2.323,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103141] = {
+		name = "Funny Bunny！",
+		change_skin = "",
+		ship_group = 10314,
+		illustrator2 = -1,
+		desc = "呼哈~燈光！音樂！美食！都很到位，不錯！嘻嘻，歡迎來到兔女郎{namecode:195}的快樂派對！來享受快樂吧！",
+		group_index = 1,
+		id = 103141,
+		painting = "jiujinshan_3",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 16,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "145",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		prefab = "jiujinshan_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70546,
+		voice_actor = 275,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.062,
+					1.166,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.075,
+					1.103,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.35,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103142] = {
+		name = "It's showtime!",
+		change_skin = "",
+		ship_group = 10314,
+		illustrator2 = -1,
+		desc = "晚上好呀小布丁！歡迎來到{namecode:195}的表演秀！今晚在你徹底被我迷倒之前，我是不會放你走的哦♪",
+		group_index = 2,
+		id = 103142,
+		painting = "jiujinshan_4",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 21,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "159",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		prefab = "jiujinshan_4",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70724,
+		voice_actor = 275,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.851,
+					0.805,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.837,
+					0.797,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					-0.011,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							1.854,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103160] = {
 		name = "巴爾的摩",
 		change_skin = "",
@@ -2258,7 +2583,7 @@ pg.base.ship_skin_template_3 = {
 		change_skin = "",
 		ship_group = 10328,
 		illustrator2 = -1,
-		desc = "巴尔的摩级重巡洋舰—匹兹堡",
+		desc = "巴爾的摩級重巡洋艦—匹茲堡",
 		group_index = 0,
 		id = 103280,
 		painting = "pizibao",
@@ -2365,6 +2690,181 @@ pg.base.ship_skin_template_3 = {
 					}
 				}
 			}
+		}
+	},
+	[103281] = {
+		name = "斟酒女郎的賭局",
+		change_skin = "",
+		ship_group = 10328,
+		illustrator2 = -1,
+		desc = "指揮官，在西部酒館裡，無論是喝果汁還是輪盤遊戲我都會奉陪，當然，還有些更特別的……",
+		group_index = 1,
+		id = 103281,
+		painting = "pizibao_2",
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		shop_type_id = 25,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		bg = "176",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "pizibao_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71033,
+		voice_actor = 421,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			50,
+			0
+		},
+		live2d_offset_profile = {
+			100,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.868,
+					1.042,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.884,
+					1.115,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.147,
+					0.026,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.902,
+					1.237,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.198,
+							2.377,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamEyeBallX = {
+				-0.1,
+				1
+			},
+			ParamEyeBallY = {
+				-1,
+				0.5
+			}
+		},
+		ship_l2d_id = {
+			10328101,
+			10328102,
+			10328103,
+			10328104,
+			10328105,
+			10328106,
+			10328107,
+			10328108,
+			10328109,
+			10328110,
+			10328111,
+			10328112,
+			10328113,
+			10328114,
+			10328115,
+			10328116,
+			10328117,
+			10328118,
+			10328119,
+			10328120,
+			10328121,
+			10328122,
+			10328123,
+			10328124,
+			10328125
+		},
+		l2d_drag_rate = {
+			0.5,
+			0.5,
+			0.5
 		}
 	},
 	[104010] = {
@@ -5394,7 +5894,7 @@ pg.base.ship_skin_template_3 = {
 		change_skin = "",
 		ship_group = 10515,
 		illustrator2 = -1,
-		desc = "南达科他级战列舰—印第安纳",
+		desc = "南達科他級戰列艦—印第安納",
 		group_index = 0,
 		id = 105150,
 		painting = "yindianna",
@@ -5518,6 +6018,132 @@ pg.base.ship_skin_template_3 = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[105151] = {
+		name = "酒館大劫案",
+		change_skin = "",
+		ship_group = 10515,
+		illustrator2 = -1,
+		desc = "指揮官，你在這裡啊？為什麼我在這裡？沒有什麼路徑比直線速度更快——在這樣的想法下，我就直接打穿天花板了。劫匪已經全部被幹掉了，放心把接下來的安全交給我吧。",
+		group_index = 1,
+		id = 105151,
+		painting = "yindianna_2",
+		l2d_ignore_drag = 0,
+		hand_id = 3,
+		shop_type_id = 25,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "176",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "yindianna_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71034,
+		voice_actor = 422,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.22,
+					0.74,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.41,
+					0.84,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.11,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.25,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.4,
+							2.34,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				20,
+				-552,
+				0
+			},
+			{
+				0.45
 			}
 		}
 	},
@@ -12287,430 +12913,6 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.41,
 							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107111] = {
-		name = "無畏的一投",
-		change_skin = "",
-		ship_group = 10711,
-		illustrator2 = -1,
-		desc = "最近港區裡好像要組織棒球比賽，在和白鷹的伙伴們正式組成隊伍前，我想先進行些提高個人能力的訓練，指揮官，能來陪我做投球的練習嗎？",
-		group_index = 1,
-		id = 107111,
-		painting = "wuwei_2",
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		shop_type_id = 13,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "132",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "wuwei_2",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70332,
-		voice_actor = 225,
-		spine_offset = "",
-		illustrator = 8,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.352,
-					1.153,
-					0
-				}
-			},
-			plane = {
-				{
-					1.337,
-					1.258,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107120] = {
-		name = "大黃蜂II",
-		change_skin = "",
-		ship_group = 10712,
-		illustrator2 = -1,
-		desc = "艾塞克斯級航空母艦—大黃蜂II，舷號CV-12",
-		group_index = 0,
-		id = 107120,
-		painting = "dahuangfengII",
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "dahuangfengII",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 24,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.483,
-					1.215,
-					0
-				}
-			},
-			plane = {
-				{
-					1.438,
-					1.01,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.41,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[107121] = {
-		name = "馳騁於大海之上！",
-		change_skin = "",
-		ship_group = 10712,
-		illustrator2 = -1,
-		desc = "這下「港區最快」就是我的啦！……哈哈哈，指揮官！看到剛才大黃蜂的英姿了嗎？雖然很想給你看看，但沒辦法再來一次比賽……之後會來載你的，等著我哦♪",
-		group_index = 1,
-		id = 107121,
-		painting = "dahuangfengII_2",
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		shop_type_id = 6,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "133",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "dahuangfengII_2",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70776,
-		voice_actor = 24,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			6
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.483,
-					1.215,
-					0
-				}
-			},
-			plane = {
-				{
-					1.438,
-					1.01,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.34,
-							2.37,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-138,
-				-1223,
-				0
-			},
-			{
-				0.92
-			}
-		},
-		special_effects = {
-			"lihui_dahuangfengII_2",
-			{
-				2198,
-				-102,
-				0
-			},
-			{
-				1.7
-			}
-		}
-	},
-	[107140] = {
-		name = "{namecode:194}",
-		change_skin = "",
-		ship_group = 10714,
-		illustrator2 = -1,
-		desc = "艾塞克斯級航空母艦—{namecode:194}，舷號CV-14",
-		group_index = 0,
-		id = 107140,
-		painting = "tikangdeluojia",
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "tikangdeluojia",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 179,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.15,
-					1.09,
-					0
-				}
-			},
-			plane = {
-				{
-					1.09,
-					1.07,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.67,
-							2.36,
 							0
 						}
 					}

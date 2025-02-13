@@ -8989,6 +8989,17 @@ _G.pg.base.gametip.ship_remould_sueecss = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_101994 = {
+	tip = [[
+此次改造作業將消耗<color=#92fc63>電氣增幅裝置</color>
+是否確認繼續操作？
+改造後 <color=#92fc63>【防空炮底座+1】、【裝備特殊反潛武器】</color>
+技能<color=#92fc63>【彩虹計畫】</color>將升級為<color=#92fc63>【彩虹計畫·改】</color>
+技能<color=#92fc63>【專屬彈幕-埃爾德里奇II】</color>
+將升級為<color=#92fc63>【專屬彈幕-埃爾德里奇III】</color>]]
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_102174 = {
 	tip = "此次改造操作將消耗<color=#A9F548>閃耀的麥克風</color>\n是否確認繼續操作？"
 }
@@ -11984,7 +11995,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船 關島(最多4次)"
+	tip = "匹茲堡、印第安納 等角色建造機率UP！"
 }
 
 
@@ -21942,7 +21953,7 @@ _G.pg.base.gametip.cowboy_tips = {
 		{
 			info = [[
 活動規則：
-1.<color=#92fc63>4月12日</color>為止每日0點開放<color=#92fc63>1</color>場新的套牛比賽，總計<color=#92fc63>7</color>場，可累計。完成套牛比賽可以獲得豐富獎勵
+1.<color=#92fc63>2月16日</color>為止每日0點開放<color=#92fc63>1</color>場新的套牛比賽，總計<color=#92fc63>7</color>場，可累計。完成套牛比賽可以獲得豐富獎勵
 遊戲規則：
 1.螢幕自右向左會跑過不同身著布偶裝的啾啾，點擊右側套繩按鈕套出繩索，套索套中啾啾後可獲得積分。 
 2.套中不同的啾啾獲得的積分不同：
@@ -27892,17 +27903,17 @@ _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+_G.pg.base.gametip.Valentine_minigame_label1 = {
 	tip = "最終得分："
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+_G.pg.base.gametip.Valentine_minigame_label2 = {
 	tip = "完成次數"
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+_G.pg.base.gametip.Valentine_minigame_label3 = {
 	tip = "當前完成："
 }
 
@@ -28129,6 +28140,16 @@ _G.pg.base.gametip.battle_text_luodeni_2 = {
 
 _G.pg.base.gametip.battle_text_luodeni_3 = {
 	tip = "尚有「羅德尼」留存，無法釋放<color=#ffc038>「我們」的終結</color>。"
+}
+
+
+_G.pg.base.gametip.battle_text_pizibao_1 = {
+	tip = "支援艦隊已就位，<color=#f1f102>引開敵方火力</color>避免其被高威力攻擊命中！"
+}
+
+
+_G.pg.base.gametip.battle_text_pizibao_2 = {
+	tip = "支援艦隊<color=#f1f102>已被摧毀</color>，這場戰鬥將變得更加艱辛！"
 }
 
 
@@ -33453,6 +33474,70 @@ _G.pg.base.gametip["202406_main_help"] = {
 }
 
 
+_G.pg.base.gametip.town_lock_level = {
+	tip = "小鎮等級達$1"
+}
+
+
+_G.pg.base.gametip.town_place_next_title = {
+	tip = "下一等級效果"
+}
+
+
+_G.pg.base.gametip.town_unlcok_new = {
+	tip = "工作地點解鎖"
+}
+
+
+_G.pg.base.gametip.town_unlcok_level = {
+	tip = "等級上限提高"
+}
+
+
+_G.pg.base.gametip["0815_main_help"] = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>2.13-2.27維護</color>期間開啟限時活動「荒野假日開拓記」
+·指揮官可以透過「小鎮開拓」，完成活動任務，獲得限定<color=#92fc63>頭像框</color>、<color=#92fc63>聊天氣泡</color>、<color=#92fc63>限定傢俱</color>等獎勵
+·2.19為止，每日可獲得一次「啾啾牛仔」遊戲次數，參與遊戲可獲取活動獎勵
+·指揮官可通過活動任務獲取「拓荒的回憶」，用於「假日回憶」中解鎖與同伴的假日回憶
+·2月21日0點後，解鎖一組累計消耗石油的活動任務，完成任務可以獲得大量「拓荒金幣」]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.town_help = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>2.13-2.27維護</color>期間開啟限時活動「小鎮開拓」
+·指揮官可以透過解鎖與升級工作地點，提高「拓荒金幣」的產出並獲得<color=#92fc63>「小鎮繁榮度」</color>
+·滿足「小鎮繁榮度」和「拓荒金幣」需求後，可以提高小鎮等級
+·放入拓荒同伴，每隔一段時間可以獲得額外的拓荒金幣，同時參與拓荒的同伴出擊獲得的好感度提高]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_0815_town_memory = {
+	tip = "道具數量不足，完成活動任務可獲得「拓荒的回憶」"
+}
+
+
+_G.pg.base.gametip.town_gold_tip = {
+	tip = "目前拓荒金幣已達上限，繼續領取會導致超出上限部分的拓荒金幣消失，是否確定繼續"
+}
+
+
+_G.pg.base.gametip.award_max_warning_minigame = {
+	tip = "遊戲獎勵因超出上限而<color=#ff5c5c>無法獲得</color>，是否仍要開始遊戲？"
+}
+
+
 _G.pg.base.gametip.dorm3d_photo_len = {
 	tip = "鏡頭"
 }
@@ -34619,7 +34704,7 @@ _G.pg.base.gametip.notify_clock_button = {
 
 
 _G.pg.base.gametip.TW_build_chase_tip = {
-	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>星海逐光</color>關卡，可獲得單建券獎勵"
+	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>鐵翼擎風</color>關卡，可獲得單建券獎勵"
 }
 
 
@@ -34629,12 +34714,12 @@ _G.pg.base.gametip.TW_build_chase_phase = {
 
 
 _G.pg.base.gametip.TW_build_chase_time = {
-	tip = "獎勵領取時間截止至2025.1.2維護"
+	tip = "獎勵領取時間截止至2025.2.27維護"
 }
 
 
 _G.pg.base.gametip.ship_task_lottery_title = {
-	tip = "星海逐光活動期間累積通關「星海逐光」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+	tip = "鐵翼擎風活動期間累積通關「鐵翼擎風」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
 }
 
 
@@ -34829,4 +34914,24 @@ _G.pg.base.gametip.firework_2025_tip = {
 			info = "3.活動期間，指揮官可於「慶典廣場」邀請角色，可提升對應角色的心情回復速度。「慶典廣場」初始可邀請4位角色，透過累積「新春煙火會氛圍值」可最多邀請10位角色。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_s"] = {
+	tip = "太棒了！雖然是新式做法，不過這次大成功哦~指揮官，這份滿載心意的巧克力，請快品嚐看看吧！欸嘿~情人節快樂☆"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_a"] = {
+	tip = "啊，居然做得這麼漂亮！果然有指揮官在就不一樣呢~指揮官，快來試試看，這可是我們一起的成果哦！"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_b"] = {
+	tip = "總算是完成了呢！雖然和想像中的有點差距……但是指揮官幫了我這麼多，應該不會太糟吧？欸嘿☆"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_c"] = {
+	tip = "欸……這個味道真的可以嗎？作為皇家女僕做成這樣，實在是太失態了……指揮官，讓我重新做一份吧！"
 }

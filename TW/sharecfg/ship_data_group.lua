@@ -107,6 +107,9 @@ pg.ship_data_group = setmetatable({
 		[10113] = {
 			15
 		},
+		[10152] = {
+			659
+		},
 		[10111] = {
 			13
 		},
@@ -215,6 +218,9 @@ pg.ship_data_group = setmetatable({
 		[10231] = {
 			609
 		},
+		[10233] = {
+			657
+		},
 		[10220] = {
 			391
 		},
@@ -266,6 +272,9 @@ pg.ship_data_group = setmetatable({
 		[10316] = {
 			50
 		},
+		[10328] = {
+			655
+		},
 		[10324] = {
 			443
 		},
@@ -316,6 +325,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[10514] = {
 			65
+		},
+		[10515] = {
+			66
 		},
 		[10517] = {
 			68
@@ -421,6 +433,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[10808] = {
 			620
+		},
+		[10809] = {
+			658
 		},
 		[11201] = {
 			80
@@ -2143,6 +2158,7 @@ pg.ship_data_group = setmetatable({
 			509,
 			417,
 			15,
+			659,
 			13,
 			427,
 			508,
@@ -2179,6 +2195,7 @@ pg.ship_data_group = setmetatable({
 			405,
 			428,
 			609,
+			657,
 			391,
 			420,
 			39,
@@ -2196,6 +2213,7 @@ pg.ship_data_group = setmetatable({
 			48,
 			49,
 			50,
+			655,
 			443,
 			575,
 			619,
@@ -2213,6 +2231,7 @@ pg.ship_data_group = setmetatable({
 			63,
 			64,
 			65,
+			66,
 			68,
 			354,
 			401,
@@ -2248,6 +2267,7 @@ pg.ship_data_group = setmetatable({
 			513,
 			519,
 			620,
+			658,
 			80,
 			616,
 			103,
@@ -2853,6 +2873,7 @@ pg.ship_data_group = setmetatable({
 		509,
 		417,
 		15,
+		659,
 		13,
 		427,
 		508,
@@ -2889,6 +2910,7 @@ pg.ship_data_group = setmetatable({
 		405,
 		428,
 		609,
+		657,
 		391,
 		420,
 		39,
@@ -2906,6 +2928,7 @@ pg.ship_data_group = setmetatable({
 		48,
 		49,
 		50,
+		655,
 		443,
 		575,
 		619,
@@ -2923,6 +2946,7 @@ pg.ship_data_group = setmetatable({
 		63,
 		64,
 		65,
+		66,
 		68,
 		354,
 		401,
@@ -2958,6 +2982,7 @@ pg.ship_data_group = setmetatable({
 		513,
 		519,
 		620,
+		658,
 		80,
 		616,
 		103,
@@ -5164,6 +5189,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[659] = {
+		nationality = 1,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10152,
+		index_id = 36,
+		code = 659,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵翼擎風",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[13] = {
 		nationality = 1,
 		type = 1,
@@ -5459,7 +5516,7 @@ pg.base.ship_data_group = {
 		trans_type = 0,
 		handbook_type = 0,
 		redirect_id = 101,
-		trans_skin = 0,
+		trans_skin = 101269,
 		hide = 0,
 		group_type = 10126,
 		index_id = 43,
@@ -5473,7 +5530,14 @@ pg.base.ship_data_group = {
 			"C",
 			"C"
 		},
-		trans_radar_chart = {},
+		trans_radar_chart = {
+			"B",
+			"B",
+			"E",
+			"S",
+			"B",
+			"C"
+		},
 		trans_skill = {},
 		description = {
 			{
@@ -6783,6 +6847,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[657] = {
+		nationality = 1,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10233,
+		index_id = 73,
+		code = 657,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵翼擎風",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[391] = {
 		nationality = 1,
 		type = 2,
@@ -7582,6 +7678,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[655] = {
+		nationality = 1,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10328,
+		index_id = 91,
+		code = 655,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵翼擎風",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[443] = {
 		nationality = 1,
 		type = 3,
@@ -8371,6 +8499,38 @@ pg.base.ship_data_group = {
 					{
 						warp = "supplies"
 					}
+				},
+				0
+			}
+		}
+	},
+	[66] = {
+		nationality = 1,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10515,
+		index_id = 109,
+		code = 66,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵翼擎風",
+				{
+					""
 				},
 				0
 			}
@@ -9929,6 +10089,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：星海逐光",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[658] = {
+		nationality = 1,
+		type = 8,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10809,
+		index_id = 145,
+		code = 658,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：鐵翼擎風",
 				{
 					""
 				},

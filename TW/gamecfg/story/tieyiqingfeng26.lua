@@ -9,7 +9,7 @@ return {
 			bgm = "story-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "马绍尔群岛基地，顾名思义，是由一连串分布在不同岛屿上的军事要塞共同构成的重樱海外基地。",
+			say = "馬紹爾群島基地，顧名思義，是由一連串分佈在不同島嶼上的軍事要塞共同構成的重櫻海外基地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "根据在所罗门群岛基地的遭遇，众人已经知晓了覆盖重樱的幻境比覆盖白鹰的幻境更加危险。",
+			say = "根據在所羅門群島基地的遭遇，眾人已經知曉了覆蓋重櫻的幻境比覆蓋白鷹的幻境更加危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "因此，在企业与{namecode:74:长门}的联合舰队就位后，邦克山立即转守为攻，大举施压，吸引了敌人的全部注意力。",
+			say = "因此，在企業與長門的聯合艦隊就位後，碉堡山立即轉守為攻，大舉施壓，吸引了敵人的全部注意力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "与此同时，企业与{namecode:74:长门}等人将舰队分为多支，分头前往了几处最大的岛屿同时进入幻境，力求在最短时间内夺回马里亚纳群岛基地。",
+			say = "同時，企業與長門等人將艦隊分為多支，分頭前往了幾個最大的島嶼同時進入幻境，力求在最短時間內奪回馬里亞納群島基地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,15 +72,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·重樱马绍尔群岛基地",
+					"太平洋·重櫻馬紹爾群島基地",
 					1
 				},
 				{
-					"长门舰队",
+					"長門艦隊",
 					2
 				},
 				{
-					"虚像幻境中",
+					"虛象幻境中",
 					3
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
 			bgm = "theme-unzen",
-			say = "映入眼帘的是一片青山绿水，四处鸟语花香。",
+			say = "映入眼簾的是一片青山綠水，四處鳥語花香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这里的景色真美啊……",
+			say = "這裡的景色真美啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呈现出如此景色的幻境……呵呵，肯定是个美梦呢。",
+			say = "呈現出如此景色的幻境……呵呵，肯定是個美夢呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，这里是……",
+			say = "長門大人，這裡是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "错不了。",
+			say = "錯不了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}面色凝重地环顾着四周的景色。",
+			say = "長門面色凝重地環顧著四周的景色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，您认得这里？",
+			say = "長門大人，您認得這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,34 +180,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错，这里是大神木所在的圣域。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_yunxian_1",
-			dir = 1,
-			actor = 305050,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "那里封锁严密，鲜有人能进入，汝等不认识也正常。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305050,
-			side = 2,
-			bgName = "bg_yunxian_1",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "（一路走来，所见幻境皆由所困之人心中的风景而生。）",
+			say = "不錯，這裡是大神木所在的聖域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +194,34 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（大神木的景色鲜为人知，究竟是何人被困在此处……）",
+			say = "那裡封鎖嚴密，鮮有人能進入，汝等不認識也正常。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_yunxian_1",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "（一路走來，所見幻境皆由所困之人心中的風景而生。）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_yunxian_1",
+			dir = 1,
+			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "（大神木的景色鮮為人知，究竟是何人被困在此處……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（{namecode:294:云仙}……？！不。绝无可能。{namecode:83:大和}早就将{namecode:294:云仙}保护了起来。）",
+			say = "（雲仙……？！不。絕無可能。大和早就將雲仙保護了起來。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（难道是{namecode:84:武藏}……？也不可能，{namecode:84:武藏}绝无在此时离开本岛的理由。）",
+			say = "（難道是武藏……？也不可能，武藏絕無在此時離開本島的理由。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，我们发现前方有一群人正在草坪上沉睡。",
+			say = "長門大人，我們發現前方有一群人正在草坪上沉睡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_yunxian_1",
-			say = "不远处的溪流边有一座古朴的凉亭，而在凉亭外不远处的草坪上，有一群少女正在酣眠。",
+			say = "不遠處的溪流邊有一座古樸的涼亭，而在涼亭外不遠處的草坪上，有一群少女正在酣眠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 304010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:163:伊13}、{namecode:154:伊19}、{namecode:252:伊25}、{namecode:155:伊26}、{namecode:254:伊56}、{namecode:156:伊58}、{namecode:256:伊168}……",
+			say = "伊13、伊19、伊25、伊26、伊56、伊58、伊168……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这些是原本所罗门群岛基地的驻防舰队？怎么会有如此多的潜艇？",
+			say = "這些是原本所羅門群島基地的駐防艦隊？怎麼會有這麼多的潛艇？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不行，{namecode:74:长门}大人，这些人都没反应。",
+			say = "不行，長門大人，這些人都沒反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看上去是这些人正在准备一场赏花野餐会，然后就这样尽数睡了过去……",
+			say = "看起來是這些人正在準備一場賞花野餐會，然後就這樣盡數睡了過去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人，这边还有一个人……是{namecode:179:龙凤}小姐！",
+			say = "長門大人，這邊還有一個人……是龍鳳小姐！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:179:龙凤}……？",
+			say = "龍鳳……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:179:龙凤}原本是{namecode:182:信浓}的近侍……不过也一直是{namecode:91:赤城}看中的后辈。）",
+			say = "（龍鳳原本是信濃的近侍……不過也一直是赤城看中的後輩。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（此时此刻{namecode:182:信浓}远在天边，能调动她的只有{namecode:91:赤城}一人。）",
+			say = "（此時此刻信濃遠在天邊，能調動她的只有赤城一人。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,7 +437,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（可是……如此关键时刻，{namecode:91:赤城}为什么会调派她到如此偏远之地？）",
+			say = "（可是……如此關鍵時刻，赤城為什麼會調派她到如此偏遠之地？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（而且一来就深陷幻境之中……幻境不是{namecode:91:赤城}自己布的局么？）",
+			say = "（而且一來就深陷幻境之中……幻境不是赤城自己佈的局麼？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,7 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}带领一行人在四处又搜索了一阵，没有再找到其他人。",
+			say = "長門帶領一行人在四處又搜索了一陣，沒有再找到其他人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（看来{namecode:179:龙凤}确实就是此处的负责人。）",
+			say = "（看來龍鳳確實就是這裡的負責人。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（可就算是她……也绝无可能见识过大神木圣域内部的景色。）",
+			say = "（可就算是她……也絕無可能見識過大神木聖域內部的景色。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（此处的幻境究竟基于何人的记忆所生……）",
+			say = "（此處的幻境究竟基於何人的記憶所生……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（而且，于幻境之中沉眠属实异常。）",
+			say = "（而且，於幻境之中沉眠屬實異常。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（幻境本就是为了困人心神而编织的美梦，让被困之人在牢笼之中睡去，岂不是白忙一场……）",
+			say = "（幻境本是為了困人心神而編織的美夢，讓被困之人在牢籠之中睡去，豈不是白忙一場……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "在尝试唤醒{namecode:179:龙凤}一行人无果之后，{namecode:74:长门}带着心中的疑惑，向着远方的大神木树下走去。",
+			say = "在嘗試喚醒龍鳳一行人無果之後，長門帶著心中的疑惑，朝著遠方的大神木樹下走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -550,7 +550,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_yunxian_1",
-			say = "与所罗门群岛的幻境不同，这一次众人一路畅通无阻，很快就来到了大神木下。",
+			say = "與所羅門群島的幻境不同，這次眾人一路暢通無阻，很快就來到了大神木下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（幻境中的神木，才是真正的核心之处……亦是让寻常幻境变得如此特殊的原因。）",
+			say = "（幻境中的神木，才是真正的核心之處……亦是讓尋常幻境變得如此特殊的原因。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（在所罗门群岛的幻境中，吾在御神木中发现了埋藏在内的海若碎片。）",
+			say = "（在所羅門群島的幻境中，吾在御神木中發現了埋藏在內的海若碎片。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（御神木虽为幻境制造的假货，可海若碎片……确是真的。）",
+			say = "（御神木雖為幻境製造的假貨，可海若碎片……確是真的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（而且附着在那碎片之上的不祥气息……竟与「息」有些相似。）",
+			say = "（而且附著在那碎片之上的不祥氣息……竟與「息」有些相似。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（之前明明与大贤者一同将神石网络内的污染之源彻底净化，怎么会陡然间污染到这种程度……）",
+			say = "（之前明明與大賢者一同將神石網路內的污染之源徹底淨化，怎麼會陡然間污染到這種程度……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -647,7 +647,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}正打算进入内部对此处的大神木一探究竟，却从眼角的余光中注意到了另一个问题。",
+			say = "長門正打算進入內部對此處的大神木一探究竟，卻從眼角的余光中註意到了另一個問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -660,7 +660,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（从结构来看，整座幻境都是基于大神木的供能而存在的。）",
+			say = "（從結構來看，整座幻境都是基於大神木的供能而存在的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -674,7 +674,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（可大神木周边的樱花树却在向着幻境外部转移能量……）",
+			say = "（但大神木週邊的櫻花樹卻在向著幻境外部轉移能量……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -688,7 +688,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（难道……这些是樱花树每一棵对应着外部的一艘巨舰，源源不断为其输送能量……？）",
+			say = "（難道……這些是櫻花樹每一棵對應著外部的一艘巨艦，源源不斷為其輸送能量……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,7 +701,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（所以外面的白鹰舰队应对起来才如此吃力……）",
+			say = "（所以外面的白鷹艦隊應對起來才如此吃力……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -715,7 +715,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……刻不容缓，必须立刻将其铲除。",
+			say = "……刻不容緩，必須立刻將其剷除。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:292:四万十}、{namecode:70:金刚}，汝等分别带人去把那些向外传输能量的樱花树夷平。",
+			say = "四萬十、金剛，汝等分別帶人去把那些向外傳輸能量的櫻花樹夷平。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大神木这边，吾一人来处理。",
+			say = "大神木這邊，吾一人來處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_1",
 			hidePaintObj = true,
-			say = "说罢，{namecode:74:长门}便将全部精神集中于大神木之上。",
+			say = "說罷，長門便將全部精神集中於大神木之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "顷刻间，周围的环境突变。",
+			say = "頃刻間，周圍的環境突變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（大神木之中别有洞天……？）",
+			say = "（大神木之中別有洞天……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（呵，外部的神木虽然在为结界供能，内部的神木却在为外部的神木供能。）",
+			say = "（呵，外部的神木雖然在為結界供能，內部的神木卻在為外部的神木供能。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -815,7 +815,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（如果此前草草将外部的神木毁掉而不是仔细探查一番，此处就会成为漏网之鱼……不日便死灰复燃。）",
+			say = "（如果先前草草將外部的神木毀掉而不是仔細探查一番，此處就會成為漏網之魚……不日便死灰復燃。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,7 +829,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（幕后布置之人还真是狡猾……）",
+			say = "（幕後佈置之人還真是狡猾……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			actor = 304050,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}，你还是来了。",
+			say = "長門，妳還是來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,7 +857,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……原来是汝做的布置。",
+			say = "……原來是汝做的佈置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原本吾以为汝之灵魂已经被彻底污染了……但，汝却劝吾远离此事。",
+			say = "原本吾以為汝之靈魂已經被徹底污染了……但，汝卻勸吾遠離此事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好不容易才见到汝……吾有好多、好多问题想问汝……",
+			say = "好不容易才見到汝……吾有好多、好多問題想問汝……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			actor = 304050,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你想问我还有几分是{namecode:161:天城}？",
+			say = "妳想問我還有幾分是天城？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			actor = 304050,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "呵呵，此前见你的时候，大致还剩三分吧。",
+			say = "呵呵，此前見妳的時候，大致還剩三分吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			actor = 304050,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "现在剩多少，我也不好说了。",
+			say = "現在剩下多少，我也不好說了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -977,7 +977,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "虽然早就清楚{namecode:161:天城}的魂魄被污染，复活已然彻底无望。",
+			say = "雖然早就清楚天城的魂魄被污染，復活已然徹底無望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +988,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "可是在听到明确无疑的消息时，{namecode:74:长门}心中还是涌出无限悲凉。",
+			say = "可是在聽到明確無疑的消息時，長門心中還是湧出無限悲涼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -999,7 +999,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "不过一想到那句劝说的关心之情至少三分为真，心中又不禁涌现出更为复杂的情绪。",
+			say = "不過一想到那句勸說的關心之情至少三分為真，心中又不禁湧現出更為複雜的情緒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1013,7 +1013,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（{namecode:161:天城}……这次吾绝不会再次置身事外了。）",
+			say = "（天城……這次吾絕對不會再置身事外了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1027,7 +1027,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，汝——为何物？",
+			say = "所以，汝——為何物？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1040,7 +1040,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "{namecode:161:天城}。",
+			say = "天城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1054,7 +1054,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵……汝？{namecode:161:天城}？",
+			say = "呵……汝？天城？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1068,7 +1068,7 @@ return {
 			actor = 304050,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "同样的相貌，同样的性格，同样的记忆，同样的行事方式。",
+			say = "同樣的相貌，同樣的性格，同樣的記憶，同樣的行事方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1082,7 +1082,7 @@ return {
 			actor = 304050,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "我不就是{namecode:161:天城}么？",
+			say = "我不就是天城嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1096,7 +1096,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "胡言乱语。汝之行事，{namecode:161:天城}绝不会做。",
+			say = "胡言亂語。汝之行事，天城絕不會做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1110,7 +1110,7 @@ return {
 			actor = 304050,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "过去的她不会，可将来的她呢？",
+			say = "過去的她不會，可將來的她呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1123,7 +1123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FF9B93",
-			say = "{namecode:161:天城}的过去虽有定论，可是{namecode:161:天城}的将来却可以由我来书写，不是么？",
+			say = "天城的過去雖有定論，但天城的將來卻可以由我來書寫，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1151,7 +1151,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "汝，不是她。现在不是，将来也不会是。",
+			say = "汝，不是她。現在不是，將來也不會是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1164,7 +1164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "汝，只是一个吞噬了她的灵魂，在虚妄与偏执之中诞生的怪物。",
+			say = "汝，只是一個吞噬了她的靈魂，在虛妄與偏執之中誕生的怪物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1178,7 +1178,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾，就算拼尽最后一口气，也要阻止汝之阴谋！",
+			say = "吾，就算盡最後一口氣，也要阻止汝之陰謀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1190,7 +1190,7 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:161}",
+			actorName = "天城",
 			side = 2,
 			dir = 1,
 			bgName = "bg_yunxian_5",
@@ -1198,7 +1198,7 @@ return {
 			actor = 900445,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "果然……只能这样了。",
+			say = "果然……只能這樣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1222,42 +1222,42 @@ return {
 			}
 		},
 		{
-			actorName = "{namecode:161}",
+			actorName = "天城",
 			side = 2,
 			bgName = "bg_yunxian_5",
 			dir = 1,
 			actor = 900445,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "不论如何，我都要达成目标。",
+			say = "不論如何，我都要達成目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:161}",
+			actorName = "天城",
 			side = 2,
 			bgName = "bg_yunxian_5",
 			dir = 1,
 			actor = 900445,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "谁，都不能来阻止我。",
+			say = "誰，都不能來阻止我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "{namecode:161}",
+			actorName = "天城",
 			side = 2,
 			bgName = "bg_yunxian_5",
 			dir = 1,
 			actor = 900445,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "就算是姐姐，你也不行。",
+			say = "就算是姐姐，妳也不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1268,7 +1268,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "符咒尽出，天地一时间染成了樱色。",
+			say = "符咒盡出，天地一時間染成了櫻色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1279,7 +1279,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yunxian_5",
 			hidePaintObj = true,
-			say = "伴随着炮火与光幕，一场激战开始了——",
+			say = "伴隨著炮火與光幕，一場激戰開始了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

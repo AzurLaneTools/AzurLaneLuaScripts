@@ -2866,7 +2866,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200171,
 		target_num = 1,
-		desc = "大型作战内使用罗德尼·META获得1次胜利"
+		desc = "大型戰鬥內使用羅德尼·META獲得1次勝利"
 	},
 	[200172] = {
 		target_id = "70",
@@ -2874,7 +2874,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200172,
 		target_num = 1,
-		desc = "大型作战内使用罗德尼·META击破等级＞70的敌方1次"
+		desc = "大型戰鬥內使用羅德尼·META擊破等級＞70的敵方1次"
 	},
 	[200173] = {
 		target_id = "90",
@@ -2882,7 +2882,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200173,
 		target_num = 1,
-		desc = "大型作战内使用罗德尼·META击破等级＞90的敌方1次"
+		desc = "大型作戰內使用羅德尼·META擊破等級＞90的敵方1次"
 	},
 	[200174] = {
 		target_id = "100",
@@ -2890,7 +2890,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970505",
 		id = 200174,
 		target_num = 1,
-		desc = "大型作战内使用罗德尼·META击破等级＞100的敌方1次"
+		desc = "大型作戰內使用羅德尼·META擊破等級＞100的敵方1次"
 	},
 	[200181] = {
 		target_id = "0",

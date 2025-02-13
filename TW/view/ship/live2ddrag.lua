@@ -100,6 +100,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.offsetDragTargetX = slot0.startValue
 	slot0.offsetDragTargetY = slot0.startValue
 	slot0._relationFlag = false
+	slot0.ableFlag = false
 
 	if slot0.relationParameter and slot0.relationParameter.list then
 		slot0._relationFlag = true

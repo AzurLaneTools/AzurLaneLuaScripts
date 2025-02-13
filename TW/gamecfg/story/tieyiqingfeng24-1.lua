@@ -9,9 +9,9 @@ return {
 			bgName = "star_level_bg_504",
 			bgm = "battle-donghuang-static",
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "測試者",
 			hidePaintObj = true,
-			say = "——通告：东煌舰队，你们正在进行严重的越界行为。",
+			say = "——通告：東煌艦隊，妳們正在進行嚴重的越界行為。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,8 +40,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "就此退回沿海区域，等待大风暴系统的重新启动，我将不会进行追击。",
+			actorName = "測試者",
+			say = "就此退回沿海區域，等待大風暴系統的重新啟動，我將不會進行追擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,8 +53,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "否则，等待着你们的只有全军覆没的结局。",
+			actorName = "測試者",
+			say = "否則，等待妳們的只有全軍覆沒的結局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不让我们突破，那意思就是让我们乖乖的被风暴困上一辈子？",
+			say = "不讓我們突破，那意思就是讓我們乖乖的被風暴困上一輩子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 501030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "痴心妄想，白日做梦~！",
+			say = "痴心妄想，白日做夢~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我看你是抵挡不住了，所以才出来和我们聊天拖延时间的吧。",
+			say = "我看妳是抵擋不住了，所以才出來跟我們聊天拖延時間的吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错，就是就是！",
+			say = "沒錯沒錯，就是就是！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,15 +132,15 @@ return {
 			},
 			options = {
 				{
-					content = "多说无益——",
+					content = "多說無益——",
 					flag = 1
 				},
 				{
-					content = "原话奉还——",
+					content = "原話奉還——",
 					flag = 2
 				},
 				{
-					content = "全军覆没——？",
+					content = "全軍覆沒——？",
 					flag = 3
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "在实验场β中，我们的冲突是不可调和的，多说无益。",
+			say = "在實驗場β中，我們的衝突是不可調和的，多說無益。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 501010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要战便战，要降便降，我军优待俘虏。",
+			say = "要戰便戰，要降便降，我軍優待俘虜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我在这里对你原话奉还，将马里亚纳要塞群拱手相让的话，我可以考虑不继续追击你。",
+			say = "我在這裡對妳原話奉還，將馬里亞納要塞群拱手相讓的話，我可以考慮不繼續追擊妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐劝你乖乖听话比较好哟~",
+			say = "姊姊勸妳乖聽話比較好喲~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "我作为碧蓝航线的指挥官，从PH港战役开始一路征战至今，还没有见到能让我全军覆没的人呢。",
+			say = "我身為碧藍航線的指揮官，從PH港戰役開始一路征戰至今，還沒見過能讓我全軍覆沒的人呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "你也不会例外。",
+			say = "妳也不會例外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,8 +231,8 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
-			say = "——量产型IV型舰队，迎敌。",
+			actorName = "測試者",
+			say = "——量產型IV型艦隊，迎敵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

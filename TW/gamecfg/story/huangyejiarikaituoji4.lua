@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-westdaily",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "翌日清晨，根据手机上大黄蜂发来的消息前往了集合地点。",
+			say = "翌日清晨，根據手機上大黃蜂發出的消息前往了集合地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，指挥官今天居然是准时来而不是提早来？",
+			say = "嘿嘿，指揮官今天居然是準時來而不是提早來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~看来度假酒店的床一定很舒服，让你也赖床了呢。",
+			say = "啊~看來度假飯店的床一定很舒服，讓你也賴床了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好恐怖的发言，准时对指挥官来说居然是赖床么……",
+			say = "好恐怖的發言，準時對指揮官來說居然是賴床嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈哈，这个话题就先到这里吧！",
+			say = "哈哈哈，這個話題就先到這裡吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "今天的活动是“淘金体验”哦！我们给大家准备了不同的淘金装备~",
+			say = "今天的活動是「淘金體驗」喔！我們為大家準備了不同的淘金裝備~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 102090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？可是淘金的装备不就是固定那几样嘛，我昨天还特意问过埃塞克斯了。",
+			say = "欸？可是淘金的裝備不就是固定那幾樣嘛，我昨天還特地問過艾塞克斯了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "话是这么说啦，但是印第安纳觉得加入一些更有新意的玩法更好。",
+			say = "話是這麼說啦，但是印第安納覺得加入一些更有新意的玩法更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以除了基础的河道淘金用装备之外，还准备了全新的“磁铁钓鱼”用装备哦！",
+			say = "所以除了基礎的河道淘金用裝備之外，還準備了全新的「磁鐵釣魚」用裝備喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,9 +147,9 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 504010,
-			actorName = "寰昌&{namecode:158}",
+			actorName = "寰昌&江風",
 			hidePaintObj = true,
-			say = "钓鱼？！",
+			say = "釣魚？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽说是钓鱼，但其实就是用尼龙绳拴住强力磁铁，丢进河道里探宝。",
+			say = "雖說是釣魚，但其實就是用尼龍繩拴住強力磁鐵，丟進河道裡探寶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "想体验的话请来贝尔这边领取尼龙绳和强力磁铁哦。",
+			say = "想體驗的話請來貝爾這邊領取尼龍繩和強力磁鐵哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "想体验传统一点的河道淘金，就从我这里领取铲子和淘金锅这些必需品啦~！",
+			say = "想體驗傳統一點的河道淘金，就從我這裡領取鏟子和淘金鍋這些必需品啦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "听起来磁铁钓鱼要比河道淘金有趣很多耶！",
+			say = "聽起來磁鐵釣魚比河道淘金有趣很多耶！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可……强力磁铁岂不是无论如何都能吸到金属制品？用于淘金的话……",
+			say = "但……強力磁鐵豈不是無論如何都能吸到金屬製品？用於淘金的話…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这不就是“永不空军”么？对寰昌来说应该是好事吧？",
+			say = "這不就是「永不空軍」嗎？對寰昌來說應該是好事吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官说的对……这样无论如何都能钓上东西来了……呜……",
+			say = "指揮官說的對……這樣無論如何都能釣上東西來了……嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之，大家各自选一下喜欢的方式和装备吧！",
+			say = "總之，大家各自選一下喜歡的方式和裝備吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "装备好之后我和贝尔会带大家前往附近的河道开始“淘金”哦！",
+			say = "裝備好之後我和貝爾會帶大家到附近的河道開始「淘金」喔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……该选哪个好？）",
+			say = "（嗯……該選哪個好？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "磁铁钓鱼",
+					content = "磁鐵釣魚",
 					flag = 2
 				}
 			}
@@ -312,7 +312,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "没错，既然是西部，就一定要感受最原汁原味的淘金法！",
+			say = "沒錯，既然是西部，就一定要感受最原汁原味的淘金法！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "完全无法抵抗“永不空军”的诱惑……试试这种不一样的淘金法吧！",
+			say = "完全無法抵抗「永不空軍」的誘惑……試試這種不一樣的淘金法吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "在做了如此的决定后，拿上了装备，和贝尔等人一起前往了度假小镇附近的河道。",
+			say = "在做了如此的決定後，拿上了裝備，和貝爾等人一起前往了度假小鎮附近的河道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "话说回来，只是带大家来体验淘金的话，会不会觉得有点无聊啊？",
+			say = "話說回來，只是帶大家來體驗淘金的話，會不會覺得有點無聊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟淘金也就是重复的机械劳动……要不要干脆比个赛啊？",
+			say = "畢竟淘金也就是重複的機械勞動……要不要乾脆比個賽啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但这样也只是双方比拼劳动所得的成果，趣味性并没有增加多少。",
+			say = "但這樣也只是雙方比拼勞動所得的成果，趣味性並沒有增加多少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不妨对淘金的方式做一些调整？",
+			say = "不妨對淘金的方式做一些調整？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如在不违背河道淘金的前提下，利用手边的材料制作一些额外的工具来辅助。",
+			say = "例如在不違背河道淘金的前提下，利用手邊的材料製作一些額外的工具來輔助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你的意思是让大家各自发挥自己的创意来提高效率……从这个角度增加趣味性么？",
+			say = "妳的意思是讓大家各自發揮自己的創意來提高效率……從這個角度增加趣味性麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，这样一来应该就不用担心枯燥无聊了。",
+			say = "沒錯，這樣一來應該就不用擔心枯燥無聊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "倒是个好主意……大黄蜂，就这么实施吧。",
+			say = "倒是個好主意……大黃蜂，就這樣實施吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			actor = 303030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗨嗨，紧张而又激烈的首届西部淘金比赛正在火热进行中！",
+			say = "嗨嗨，緊張又激烈的首屆西部淘金比賽正在火熱進行中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是本次淘金比赛的解说——{namecode:55:青叶}！",
+			say = "我是這次淘金比賽的解說——青葉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家都在有条不紊地进行着淘金工作呢……那边的是——！",
+			say = "大家都在有條不紊地進行著淘金工作呢……那邊的是——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦哦！原来是达芬奇选手为了加快淘金效率，利用手边已有的工具做了筛金系统啊……",
+			say = "哦哦！原來是達文西選手為了加快淘金效率，利用手邊已有的工具做了篩金系統啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯——？为什么筛上去的只有鹅卵石？",
+			say = "嗯——？為什麼篩上去的只有鵝卵石？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 608020,
-			say = "一定是哪里出了问题……没错……哦！我有新的灵感了——！",
+			say = "一定是哪裡出了問題……沒錯……喔！我有新的靈感了——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "达芬奇选手的筛金系统似乎出现了一些小问题……",
+			say = "達文西選手的篩金系統似乎出現了一些小問題……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "让我们来看看现场的其他选手吧！",
+			say = "讓我們來看看現場的其他選手吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "阿尔弗雷多小姐！更多的现场情况就拜托你了！",
+			say = "阿爾弗雷多小姐！更多的現場情況就拜託妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没问题~包在我身上吧！",
+			say = "沒問題~包在我身上吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "让我们把视线暂时放到磁铁钓鱼组——！",
+			say = "讓我們把視線暫時放到磁鐵釣魚組——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "多么厉害的残影！巴尔的摩选手将绳子扔进了她早早就判断好的方位！",
+			say = "多麼厲害的殘影！巴爾的摩選手將繩子扔進了她早早就判斷好的方位！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 601080,
-			say = "没错，那里一定有着金子！巴尔的摩选手脸上的表情是这么说的！",
+			say = "沒錯，那裡一定有金子！巴爾的摩選手臉上的表情是這麼說的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			actor = 103160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃，其实我只是随便一扔……",
+			say = "呃，其實我只是隨便一丟……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			actor = 103240,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，这就是解说的艺术加工嘛，巴尔的摩大姐也快点习惯一下~",
+			say = "哎呀，這就是解說的藝術加工嘛，巴爾的摩大姊也快點習慣一下~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "{namecode:55:青叶}和阿尔弗雷多在河道中跑来跑去，进行着所谓的“解说”。",
+			say = "青葉和阿爾弗雷多在河道中跑來跑去，進行著所謂的「解說」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（可惜关岛现在每天都把自己关在房间里进行剪辑，不然一定会更热闹吧。）",
+			say = "（可惜關島現在每天都把自己關在房間裡剪輯，不然一定會更熱鬧吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -729,7 +729,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
-			say = "就在思考着这些，继续手上的淘金动作时——",
+			say = "就在思考著這些，繼續手上的淘金動作時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不、不要啦……！我只是来看你们玩的啦，我不参加……！",
+			say = "不、不要啦……！我只是來看你們玩的啦，我不參加……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -757,7 +757,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是鲱鱼看起来就很期待的样子……？",
+			say = "可是鯡魚看起來就很期待的樣子呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且明明也拿了淘金设备，应该是很想和大家一起玩吧？",
+			say = "而且明明也拿了淘金設備，應該是很想跟大家一起玩吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啰、啰嗦！我只是顺手拿的啦！",
+			say = "囉、囉嗦！我只是順手拿的啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,7 +799,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是淘金之后出很多汗的话要怎么办……指挥官离得这么近……",
+			say = "要是淘金之後出很多汗的話要怎麼辦……指揮官離得這麼近……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -813,7 +813,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘻嘻嘻，原来鲱鱼也因为出汗而苦恼啊……那莫加多尔教你一个好方法……",
+			say = "嘻嘻嘻，原來鯡魚也因為出汗而苦惱啊……那莫加多爾教妳一個好方法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么方法？",
+			say = "什麼方法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -841,7 +841,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要把衣服脱掉，就不会那么热了……",
+			say = "只要把衣服脫掉，就不會那麼熱了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请不要向他人灌输这种错误的方法。",
+			say = "請不要向他人灌輸這種錯誤的方法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有，也请你不要试图在我的视线死角将你身上的斗篷脱掉。",
+			say = "還有，也請妳不要試圖在我的視線死角將你身上的斗篷脫掉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -882,7 +882,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可、可是一想到指挥官也跟人家在一起淘金……就是会觉得燥热难耐嘛……",
+			say = "可、可是一想到指揮官也跟人家在一起淘金……就是會覺得燥熱難耐嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,7 +907,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_500",
-			say = "又一段时间后，大黄蜂和贝尔宣布时间用尽，开始检查双方的淘金成果。",
+			say = "又一段時間後，大黃蜂和貝爾宣佈時間用盡，開始檢視雙方的淘金成果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -938,7 +938,7 @@ return {
 			actor = 408130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然我知道从河道里捞出来什么东西都很正常啦……",
+			say = "雖然我知道從河道裡撈出來什麼東西都很正常啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			actor = 408130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是为什么会从河道里捞出鱼雷……？",
+			say = "但為什麼會從河道裡撈出魚雷呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳、这个我们也不知道是怎么一回事呢……",
+			say = "咳咳、這個我們也不知道是怎麼一回事呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之大家忙活了这么久，也是收获颇丰啊！",
+			say = "總之大家忙活了這麼久，也是收穫豐富啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -994,7 +994,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除了鱼雷之外，还有扳手、保险箱、鹅卵石……轮胎……？",
+			say = "除了魚雷之外，還有扳手、保險箱、鵝卵石……輪胎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,7 +1008,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……没有人淘到金子吗？",
+			say = "咦……沒有人淘到金子嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1023,7 +1023,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道{namecode:524:圣地亚哥}前辈在准备的时候放错了……？",
+			say = "難道聖地牙哥前輩在準備的時候放錯了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1035,7 +1035,7 @@ return {
 			bgName = "star_level_bg_500",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？出什么问题了么？",
+			say = "嗯？出什麼問題了麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1048,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有哦！很完美！毕竟在西部淘金就是会有这样一无所获的情况嘛！",
+			say = "沒有哦！很完美！畢竟在西部淘金就是會有這樣一無所獲的情況嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1062,7 +1062,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没、没错！贝尔也是这样认为的！",
+			say = "沒、沒錯！貝爾也是這樣認為的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			actor = 107070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之~今天的活动圆满结束……！",
+			say = "總之~今天的活動圓滿結束……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

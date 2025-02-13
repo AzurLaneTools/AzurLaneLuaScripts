@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·圣诞岛",
+					"太平洋·聖誕島",
 					1
 				},
 				{
-					"岛屿指挥中心",
+					"島嶼指揮中心",
 					2
 				},
 				{
-					"一段时间后",
+					"一段時間後",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_tieyiqingfeng_2",
 			hidePaintObj = true,
 			bgm = "battle-eagleunion",
-			say = "令人遗憾的是，即便依靠圣诞岛上的通讯设备，众人依然没能和{namecode:524:圣地亚哥}司令部取得联络。",
+			say = "令人遺憾的是，即便依靠聖誕島上的通訊設備，眾人依然沒能和聖地牙哥司令部取得聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,36 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_tieyiqingfeng_2",
 			hidePaintObj = true,
-			say = "不过——通讯却接通了一个意外的目标。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_tieyiqingfeng_2",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107060,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这里是帕克菲克洋舰队，我是舰队旗舰，企业。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_tieyiqingfeng_2",
-			dir = 1,
-			actor = 107060,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "很高兴收到来自圣诞岛上的友方联络，我还以为岛屿已经被敌人彻底占领了。",
+			say = "不過——通訊卻接通了一個意外的目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +55,36 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请汇报你们的当前状况。",
+			say = "這裡是太平洋艦隊，我是艦隊旗艦，企業。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_tieyiqingfeng_2",
+			dir = 1,
+			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "很高興收到聖誕島上的友方聯絡，我以為島嶼已經被敵人徹底佔領了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_tieyiqingfeng_2",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "請報告妳們的當前狀況。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……企业？！",
+			say = "……企業？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呼……太好了，我们总算和能够统筹全局的人取得联系了。",
+			say = "呼……太好了，我們總算和能夠統籌全局的人取得聯繫了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "事情的经过是这样的——",
+			say = "事情的經過是這樣的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然……失去联络的萨摩亚群岛也没能在袭击中幸免。",
+			say = "果然……失去聯絡的薩摩亞群島也沒能在攻擊中倖免。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们的应对行动十分正确。",
+			say = "妳們的應對行動十分正確。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是察觉到圣诞岛已经落入敌方手中，并且成为了敌方进一步进攻的跳板后，才带领舰队前来将此处夺回的。",
+			say = "我也是察覺到聖誕島已經落入敵方手中，並且成為了敵方進一步進攻的跳板後，才帶領艦隊前來將此處奪回的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在到底是什么情况？是谁在进攻我们，{namecode:524:圣地亚哥}司令部的情况如何？",
+			say = "現在到底是什麼狀況？是誰在攻擊我們，聖地牙哥司令部的情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，我也在寻找这些问题的答案。",
+			say = "抱歉，我也在尋找這些問題的答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从袭击发生后，海域中就充斥着强烈的干扰，我们分布在大洋各处的基地或许都已经陷入幻境之中了。",
+			say = "自從襲擊發生後，海域中充斥著強烈的干擾，我們分佈在大洋各處的基地或許都已經陷入幻境之中了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且不光是{namecode:524:圣地亚哥}司令部，我也无法与NY司令部，甚至DC特区取得联络。",
+			say = "而且不光是聖地牙哥司令部，我也無法與NY司令部，甚至DC特區取得聯絡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这场袭击的影响范围，恐怕比我们设想中的更广。",
+			say = "這場攻擊的影響範圍，恐怕比我們設想中的更廣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……怎么会这样。",
+			say = "……怎麼會這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "企业，你已经经历过幻境的影响了，对么？",
+			say = "企業，妳已經經歷過幻境的影響了，對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，不过——",
+			say = "嗯，不過——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			bgm = "battle-ash-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "世界在燃烧。",
+			say = "世界在燃燒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "迎面走来的，是那个令人熟悉又陌生的身影。",
+			say = "迎面走來的，是那個令人熟悉又陌生的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,8 +357,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "来这里跟我谈话，你很闲么？",
+			actorName = "企業·META",
+			say = "來這裡跟我談話，妳很閒嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我还有事情要做，不能在这里浪费时间。",
+			say = "……我還有事情要做，不能在這裡浪費時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,8 +384,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "哼，这就对了。",
+			actorName = "企業·META",
+			say = "哼，這就對了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,8 +397,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "回去吧，梦该醒了。",
+			actorName = "企業·META",
+			say = "回去吧，夢該醒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "远方的身影轻轻挥手，掀起了重重烈焰。",
+			say = "遠方的身影輕輕揮手，掀起了重重烈焰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幻境并非牢不可破的。就如同我们已经清醒过来，开始着手处理眼前的战局一样。",
+			say = "幻境並非牢不可破的。就如同我們已經清醒過來，開始著手處理眼前的戰局一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在DC特区、在NY司令部、在更多其他地方，也一定有清醒过来的人正在努力着。",
+			say = "在DC特區、在NY司令部、在更多其他地方，也一定有清醒過來的人正在努力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们只要专心做好自己力所能及的事，然后相信我们的同伴就好。",
+			say = "我們只要專心做好自己所能做的事，然後相信我們的同伴就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -517,7 +517,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没错，企业你说的对。",
+			say = "沒錯，企業妳說的對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +530,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来我们完全听从你的指挥，要我们做些什么好？",
+			say = "接下來我們完全聽從妳的指揮，要我們做些什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如你们所知，帕克菲克洋中的局势此刻不容乐观，我们已经与绝大多数据点失去了联系。",
+			say = "如妳們所知，太平洋中的局勢此刻不容樂觀，我們已經與絕大多數據點失去了聯繫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "由我直接管辖的PH港和AF也不例外。",
+			say = "我直接管轄的PH港和AF也不例外。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这两处地点囤积了大量的补给装备，也有规模不小的驻防舰队守护，如今却音讯全无。",
+			say = "這兩個地點囤積了大量的補給裝備，也有規模不小的駐防艦隊守護，如今卻音訊全無。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "PH港和AF决不能有失，否则我们就再也无力控制帕克菲克洋的战局了。",
+			say = "PH港和AF絕對不能有失，否則我們就再也無力控制太平洋的戰局了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这两处地点必须以高优先级夺回。",
+			say = "這兩處地點必須以高優先級奪回。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我赞同。",
+			say = "我贊同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -632,36 +632,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，邦克山正在带领舰队抵御来自重樱马绍尔群岛基地方向来袭的大规模敌军。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_tieyiqingfeng_2",
-			paintingNoise = true,
-			dir = 1,
-			actor = 107060,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "原本我以为这场袭击是由重樱挑起的，不过结合你们的情报，看来真相并非如此。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			paintingNoise = true,
-			side = 2,
-			bgName = "bg_tieyiqingfeng_2",
-			dir = 1,
-			actor = 107060,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "我已经将情报同步给了邦克山，并取消了她袭击重樱马绍尔群岛要塞的任务。",
+			say = "同時，碉堡山正帶領艦隊抵禦重櫻馬紹爾群島基地方向來襲的大規模敵軍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +647,36 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来她将会专注于防御作战，直到我们成功夺回PH港和AF为止。",
+			say = "原本我以為這場攻擊是由重櫻挑起的，不過結合你們的情報，看來真相並非如此。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			paintingNoise = true,
+			side = 2,
+			bgName = "bg_tieyiqingfeng_2",
+			dir = 1,
+			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "我已經將情報同步給了碉堡山，並取消了她襲擊重櫻馬紹爾群島要塞的任務。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_tieyiqingfeng_2",
+			paintingNoise = true,
+			dir = 1,
+			actor = 107060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "接下來她將會專注於防禦作戰，直到我們成功奪回PH港和AF為止。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，多亏了你们的积极行动，我们比预定时间更早夺回了圣诞岛这一帕克菲克洋中部的关键支点。",
+			say = "同時，多虧了妳們積極的行動，我們比預定時間更早奪回了聖誕島這一太平洋中部的關鍵支點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样，我们就拥有了唤醒各处失联基地防御舰队的时间和空间。",
+			say = "這樣，我們就擁有了喚醒各處失聯基地防禦艦隊的時間與空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，我们虽然可以凭借重樱提供的符咒唤醒被困于幻境中的守军。",
+			say = "等等，我們雖然可以憑藉重櫻提供的符咒喚醒被困於幻境中的守軍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是我们在帕克菲克洋中的基地众多，现在敌暗我明又通讯不畅，贸然分散舰队是十分危险的事。",
+			say = "但是我們在太平洋中的基地眾多，現在敵暗我明又通訊不暢，貿然分散艦隊是十分危險的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -748,7 +748,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这也是我一路上在思考的问题。",
+			say = "這也是我一路上在思考的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -763,7 +763,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在听到你们谈到符咒之后，我有了一个想法。",
+			say = "在聽到妳們談到符咒之後，我有了一個想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -777,7 +777,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用舰载机队前往各处据点空投符咒，是否有破除幻境的可能性？",
+			say = "用艦載機隊前往各處據點空投符咒，是否有破除幻境的可能性？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -791,7 +791,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……恐怕不行。根据我们一路上的经验来看，让符咒顺利发挥作用需要两个条件。",
+			say = "唔……恐怕不行。根據我們一路上的經驗來看，讓符咒順利發揮作用需要兩個條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "第一是要将其飞出，第二是需要语音进行激发。",
+			say = "第一是要將其飛出，第二是需要語音來激發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然还是需要由人来使用么……",
+			say = "果然還是需要由人來使用嗎…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -834,7 +834,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，就只能根据重要性程度，尽可能少的分散舰队执行破除幻境的任务了。",
+			say = "既然如此，就只能根據重要性程度，盡可能少的分散艦隊執行破除幻境的任務了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "否则，我们将被敌人孤立在前线，本土的局势将会变得异常危险。",
+			say = "否則，我們將被敵人孤立在前線，本土的局勢將會變得異常危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -862,7 +862,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不一定……非要由人驱动。",
+			say = "不一定……非要由人驅動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -875,7 +875,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我所使用的高速货运无人机同时拥有投掷和喊话功能。",
+			say = "我所使用的高速貨運無人機同時擁有投擲和喊話功能。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -889,7 +889,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让无人机携带符咒，配合舰载机群前往各处据点执行破除任务就好了。",
+			say = "讓無人機攜帶符咒，配合艦載機群前往各處據點執行破除任務就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -903,7 +903,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "首先由无人机投掷护符开路，然后由舰载机群对幻境中的敌方目标进行直接打击，以物理瓦解幻境。",
+			say = "首先由無人機投擲護符開路，然後由艦載機群對幻境中的敵方目標進行直接打擊，以物理瓦解幻境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "幻境破除后，无人机还可以利用其搭载的设备加强通讯质量，我们就可以与防守方交换情报，并向她们布置任务了。",
+			say = "幻境破除後，無人機還可以利用其搭載的設備加強通訊狀況，我們就可以與防守方交換情報，並向她們佈置任務了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -931,7 +931,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "货运无人机加舰载机的空中力量组合么……确实值得一试。",
+			say = "貨運無人機加艦載機的空中力量組合嗎……確實值得一試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，其他目标就交由空中力量来处理。",
+			say = "那麼，其他目標就交由空中力量來處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -960,7 +960,7 @@ return {
 			actor = 107060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你们在准备好后随我一同返回，我们亲自夺回PH港和AF两处要地。",
+			say = "妳們在準備好後隨我一同返回，我們親自奪回PH港和AF兩處要地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +974,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，让我们一起大干一场吧~！",
+			say = "好，讓我們一起大幹一場吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1019,7 +1019,7 @@ return {
 			hidePainting = true,
 			hidePaintObj = true,
 			bgName = "bg_tieyiqingfeng_cg2",
-			say = "夕阳下，少女站立在无人机群中，进行着最后的调整。",
+			say = "夕陽下，少女站在無人機群中，進行最後的調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,7 +1033,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "联络目标——{namecode:524:圣地亚哥}司令部，语音播放方案调整为NINJABELL。设定完毕，去吧。",
+			say = "聯絡目標－聖地牙哥司令部，語音播放方案調整為NINJABELL。設定完畢，去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			hidePainting = true,
 			hidePaintObj = true,
 			bgName = "bg_tieyiqingfeng_cg2",
-			say = "高速货运无人机将一张符咒收入货仓，升上高空与护航的舰载机编队一同出发了。",
+			say = "高速貨運無人機將一張符咒收入貨倉，升上高空與護航的艦載機編隊一同出發了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1060,7 +1060,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后是……联络目标——巴拿马要塞，语音播放方案调整为NINJABELL。设定完毕，去吧。",
+			say = "然後是……聯絡目標——巴拿馬要塞，語音播放方案調整為NINJABELL。設定完畢，去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1074,7 +1074,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后是……复活节岛基地——",
+			say = "然後是……復活節島基地——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1086,7 +1086,7 @@ return {
 			hidePainting = true,
 			hidePaintObj = true,
 			bgName = "bg_tieyiqingfeng_cg2",
-			say = "一批接着一批，由高速无人机和舰载机群组成的空中特别行动编队，带着希望与决心向着四面八方飞去。",
+			say = "一批接著一批，由高速無人機和艦載機群組成的空中特別行動編隊，帶著希望與決心向四面八方飛去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……一切顺利的话，就能一举扭转局面了。",
+			say = "……一切順利的話，就能一舉扭轉局面了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

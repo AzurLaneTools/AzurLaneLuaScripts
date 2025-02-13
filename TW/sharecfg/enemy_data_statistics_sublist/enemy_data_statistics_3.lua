@@ -1,36 +1,8 @@
 pg = pg or {}
 pg.enemy_data_statistics_3 = {
-	[50059] = {
-		base = 50051,
-		name = "閃流",
-		torpedo_growth = 9400,
-		cannon_growth = 9400,
-		hit_growth = 9400,
-		fog_fx = "",
-		durability_growth = 4500,
-		bubble_fx = "",
-		antiaircraft_growth = 9400,
-		dodge_growth = 10000,
-		reload_growth = 9400,
-		id = 50059
-	},
-	[50060] = {
-		base = 50051,
-		name = "閃流",
-		torpedo_growth = 10000,
-		cannon_growth = 10000,
-		hit_growth = 10000,
-		fog_fx = "",
-		durability_growth = 5000,
-		bubble_fx = "",
-		antiaircraft_growth = 10000,
-		dodge_growth = 10000,
-		reload_growth = 10000,
-		id = 50060
-	},
 	[50061] = {
 		cannon = 0,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		antiaircraft_growth = 5000,
 		speed_growth = 0,
 		luck = 0,
@@ -190,7 +162,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50062] = {
 		antiaircraft_growth = 5500,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 5500,
 		durability_growth = 0,
@@ -214,7 +186,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50063] = {
 		antiaircraft_growth = 6100,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 6100,
 		durability_growth = 0,
@@ -238,7 +210,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50064] = {
 		antiaircraft_growth = 6650,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 6650,
 		durability_growth = 0,
@@ -262,7 +234,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50065] = {
 		antiaircraft_growth = 7200,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 7200,
 		durability_growth = 0,
@@ -286,7 +258,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50066] = {
 		antiaircraft_growth = 7750,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 7750,
 		durability_growth = 0,
@@ -310,7 +282,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50067] = {
 		antiaircraft_growth = 8300,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 8300,
 		durability_growth = 0,
@@ -334,7 +306,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50068] = {
 		antiaircraft_growth = 8850,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 8850,
 		durability_growth = 0,
@@ -358,7 +330,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50069] = {
 		antiaircraft_growth = 9400,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 9400,
 		durability_growth = 0,
@@ -382,7 +354,7 @@ pg.enemy_data_statistics_3 = {
 	},
 	[50070] = {
 		antiaircraft_growth = 10000,
-		name = "兔兔打击者",
+		name = "兔兔打擊者",
 		armor_growth = 0,
 		cannon_growth = 10000,
 		durability_growth = 0,
@@ -789,6 +761,152 @@ pg.enemy_data_statistics_3 = {
 		random_nub = {},
 		buff_list = {}
 	},
+	[50081] = {
+		cannon = 100,
+		name = "貨箱",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 0,
+		type = 19,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "fage_huoxiang",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 400,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 32.5,
+		armor = 0,
+		friendly_cld = 0,
+		id = 50081,
+		scale = 100,
+		prefab = "fage_huoxiang",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 0,
+		dodge = 200,
+		reload_growth = 0,
+		wave_fx = "",
+		bubble_fx = "",
+		hit = 161,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			4,
+			1.6,
+			1.6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.78,
+							0.55,
+							-0.21
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.51,
+							2.28,
+							2.1
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			2
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[50083] = {
 		cannon = 0,
 		name = "GOGO真空君",
@@ -1121,6 +1239,52 @@ pg.enemy_data_statistics_3 = {
 		luck_growth = 10000,
 		hit_growth = 6100,
 		id = 50093,
+		specific_fx_scale = {},
+		appear_fx = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[50094] = {
+		air_growth = 0,
+		name = "加農炮花",
+		armor_growth = 0,
+		cannon_growth = 3600,
+		torpedo_growth = 0,
+		fog_fx = "",
+		bubble_fx = "",
+		antiaircraft_growth = 3600,
+		reload_growth = 6650,
+		dodge_growth = 3600,
+		antisub_growth = 0,
+		base = 50091,
+		durability_growth = 3600,
+		luck_growth = 10000,
+		hit_growth = 6650,
+		id = 50094,
+		specific_fx_scale = {},
+		appear_fx = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[50095] = {
+		air_growth = 0,
+		name = "加農炮花",
+		armor_growth = 0,
+		cannon_growth = 3800,
+		torpedo_growth = 0,
+		fog_fx = "",
+		bubble_fx = "",
+		antiaircraft_growth = 3800,
+		reload_growth = 7200,
+		dodge_growth = 3800,
+		antisub_growth = 0,
+		base = 50091,
+		durability_growth = 3800,
+		luck_growth = 10000,
+		hit_growth = 7200,
+		id = 50095,
 		specific_fx_scale = {},
 		appear_fx = {},
 		random_equipment_list = {},

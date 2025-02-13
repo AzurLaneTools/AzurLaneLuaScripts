@@ -16,7 +16,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "指挥官~这边。",
+			say = "指揮官~這邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "循着声音的方向看去，露天泳池中，一道熟悉的身影正坐在充气床上朝我打招呼。",
+			say = "循著聲音的方向看去，露天泳池中，一道熟悉的身影正坐在充氣床上朝我打招呼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "刚刚在祈祷的时候就期待与您相遇，没想到您真的就出现了……",
+			say = "剛剛在祈禱的時候就期待與您相遇，沒想到您真的就出現了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,18 +77,18 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵，果然在幸运日的时候愿望很快就能实现呢。",
+			say = "呵呵，果然在幸運日的時候願望很快就能實現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "今天是你的幸运日么？",
+					content = "今天是妳的幸運日？",
 					flag = 1
 				},
 				{
-					content = "今天也是我的幸运日",
+					content = "今天也是我的幸運日",
 					flag = 2
 				}
 			}
@@ -102,7 +102,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，是的。而且根据预测的结果，今天还很适合约会……",
+			say = "嗯，是的。而且根據預測的結果，今天還很適合約會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "约会？",
+			say = "約會？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "没、没什么……让您见笑了……///",
+			say = "沒、沒什麼……讓您見笑了……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "欸……？指挥官的意思……觉得遇见我很幸运么……///？",
+			say = "欸……？指揮官的意思……覺得遇見我很幸運嗎……///？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯，毕竟我也是因为工作调整，才能这个时间回来休息。",
+			say = "嗯，畢竟我也是因為工作調整，才能這個時間回來休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "在这种情况下偶遇伴尔维，也算是幸运。",
+			say = "在這種情況下偶遇潘勒韋，也算是幸運。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "啊……这样啊……说的也是呢……",
+			say = "啊……這樣啊……說的也是呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "说起来，指挥官最近都在忙拍电影的事吧。",
+			say = "說起來，指揮官最近都在忙拍電影的事吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "既然现在是休息时间，就请来我身边吧？在泳池里好好放松一下。",
+			say = "既然現在是休息時間，就請來我身邊吧？在泳池裡好好放鬆一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "踏入池水，立刻带来了一片凉意，驱赶了炎热带来的不适感。",
+			say = "踏入池水，立刻帶來了一片涼意，驅趕了炎熱帶來的不適感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等坐到伴尔维身边时——",
+			say = "等坐到潘勒韋身邊時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那、那个，指挥官，能麻烦您帮我拿一下草莓芭菲么？",
+			say = "那、那個，指揮官，能麻煩您幫我拿一下草莓聖代嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "刚刚一直只顾着看您了……芭菲融化得太快，有些滴到身上了……呜……",
+			say = "剛剛一直只顧著看您了……聖代融化得太快，有些滴到身上了……嗚……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女一手举着玻璃杯，另一只手试图擦拭着滴落在胸前的粘稠液体。",
+			say = "少女一手舉著玻璃杯，另一手試圖擦拭著滴落在胸前的黏稠液體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我帮你拿着，你先清理吧。",
+			say = "我幫妳拿著，妳先清理吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "谢谢指挥官……不过指挥官也要小心不要弄脏手哦……",
+			say = "謝謝指揮官……不過指揮官也要小心不要弄髒手喔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从伴尔维手中接过玻璃杯后，少女再度开始了清理的动作。",
+			say = "從潘勒韋手中接過玻璃杯後，少女再度開始了清理的動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……稍微有些不好意思……啊，也、也不是让您移开目光的意思……",
+			say = "……稍微有些不好意思……啊，也、也不是讓您移開目光的意思……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "唔，还是有些黏黏的……",
+			say = "唔，還是有些黏黏的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女一边说着，一边将手伸入泳池中捧了些水，洒在了自己的身上。",
+			say = "少女一邊說著，一邊將手伸入泳池中捧了些水，灑在了自己的身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轻薄的白色布料被水濡湿，以半透明的姿态紧紧包裹住少女的肌肤。",
+			say = "輕薄的白色布料被水濡濕，以半透明的姿態緊緊包裹住少女的肌膚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呼……这样就清理干净了。",
+			say = "呼……這樣就清理乾淨了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "待伴尔维清理干净，重新坐好后，将手中的草莓芭菲朝她递过去。",
+			say = "待潘勒韋清理乾淨，重新坐好後，將手中的草莓聖代朝她遞過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这份草莓芭菲其实是我今日的幸运物品哦。",
+			say = "這份草莓聖代其實是我今日的幸運物品哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少女接过芭菲后，有些羞涩地笑了笑，淡淡的红晕浮上她的面颊。",
+			say = "少女接過聖代後，有些羞澀地笑了笑，淡淡的紅暈浮上她的臉頰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那个……我希望能将这份幸运分享给指挥官。",
+			say = "那個……我希望能將這份幸運分享給指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "分享给我？",
+			say = "分享給我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -504,7 +504,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = "main2",
-			say = "嗯……就是……让我来喂您吃芭菲的意思……///",
+			say = "嗯……就是……讓我來餵您吃聖代的意思……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "虽然这杯芭菲上面的部分有些融化了，但……这个味道，我想指挥官一定会喜欢的……",
+			say = "雖然這杯聖代上面的部分有些融化了，但……這個味道，我想指揮官一定會喜歡的…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着少女的靠近，冰淇淋与草莓的香甜一同在口中化开。",
+			say = "伴隨著少女的靠近，冰淇淋與草莓的香甜一同在口中化開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,18 +548,18 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "如、如何呢……？这个味道……",
+			say = "如、如何呢……？這個味道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "确实很喜欢",
+					content = "確實很喜歡",
 					flag = 1
 				},
 				{
-					content = "还想再品味一次",
+					content = "還想再品味一次",
 					flag = 2
 				}
 			}
@@ -574,7 +574,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这个味道，我确实很喜欢",
+			say = "這個味道，我確實很喜歡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这个味道，我还想再品味一次。",
+			say = "這個味道，我還想再品味一次。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指、指挥官……///",
+			say = "指、指揮官……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			actor = 807022,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后与伴尔维一同享用着幸运草莓芭菲，共同度过了难得休闲的夏日午后。",
+			say = "之後與潘勒韋一同享用著幸運草莓聖代，共同度過了難得休閒的夏日午後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

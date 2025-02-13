@@ -9,9 +9,9 @@ return {
 			bgName = "star_level_bg_504",
 			bgm = "battle-donghuang-static",
 			actor = 900011,
-			actorName = "测试者",
+			actorName = "測試者",
 			hidePaintObj = true,
-			say = "——通告，这是你们回头的最后机会。",
+			say = "——通告，這是你們回頭的最後機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这就是东煌的回复，听懂了没？",
+			say = "這就是東煌的回復，聽懂了沒？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "测试者",
+			actorName = "測試者",
 			say = "……",
 			typewriter = {
 				speed = 0.05,
@@ -117,14 +117,14 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 599010,
-			say = "很好，终于安静了。",
+			say = "很好，終於安靜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
@@ -144,7 +144,7 @@ return {
 			actor = 506010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我方在前进路线上发现了测试者的量产型机体。",
+			say = "指揮官，我方在前進路線上發現了測試者的量產型機體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "能应对么？",
+			say = "能應付嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们这边同样目击到了测试者的量产型机体，数量在十台以上。",
+			say = "我們這邊同樣目擊了測試者的量產型機體，數量在十台以上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "十台以上……你们能处理过来么？",
+			say = "十台以上……妳們能處理過來嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 506020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官请放心，南海风暴解析舰队保证完成战役目标。",
+			say = "指揮官請放心，南海風暴解析艦隊保證完成戰役目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好。我们这边也会全力向测试者施压，让它不得不调配更多主机性能过来，为你们减轻压力。",
+			say = "好。我們這邊也會全力向測試者施壓，讓它必須調度更多主機效能過來，為妳們減輕壓力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "二阶段战役目标不变，我们马里亚纳要塞群见。",
+			say = "二階段戰役目標不變，我們馬里亞納要塞群見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

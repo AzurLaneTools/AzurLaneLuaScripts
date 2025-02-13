@@ -9,7 +9,7 @@ return {
 			bgm = "theme-merkuriameta",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "安塔迪卡洋·某处",
+			say = "南冰洋·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
-			say = "身披黑色大衣的少女哼着歌，若无其事地整理着衣帽。",
+			say = "身穿黑色大衣的少女哼著歌，若無其事地整理著衣帽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
-			say = "在她的四周，无数残骸在燃烧中崩塌着。",
+			say = "在她的四周，無數殘骸在燃燒中崩塌著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "到底是没有和主机连线的观察者，这种程度的防线怎么可能拦住我嘛~",
+			say = "總歸是沒有跟主機連線的觀察者，這種程度的防線怎麼可能攔住我嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "还有那个什么……带着奇怪棋子一起行动的奇怪META。",
+			say = "還有那個什麼……帶著奇怪棋子一起行動的奇怪META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "上次是我大意了才让你偷袭成功的，这次我一认真起来，还不是只有落荒而逃的份？",
+			say = "上次是我大意了才讓妳偷襲成功的，這次我一認真起來，還不是只有落荒而逃的份？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "现在世界各处都乱成了一锅粥，根本就没人注意到我~",
+			say = "現在世界各處都亂成了一鍋粥，根本沒人注意到我~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "这次行动真可以算是势在必得啊~！",
+			say = "這次行動真可以算是勢在必得啊~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,8 +150,8 @@ return {
 			nameColor = "#FFC960",
 			dir = 1,
 			portrait = 900315,
-			actorName = "海伦娜·META",
-			say = "噢？真的么？",
+			actorName = "海倫娜·META",
+			say = "噢？真的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "哈啊……这观察者的保镖还挺多，怎么打完一个又来一个？",
+			say = "哈啊……這觀察者的保鑣還挺多，怎麼打完一個又來一個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9702070,
-			say = "快点出招，有什么本事都使出来吧，我今天赶时间！",
+			say = "快點出招，有什麼本事都使出來吧，我今天趕時間！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900315,
-			say = "数据遮蔽分离模式，调用执行——",
+			say = "資料遮蔽分離模式，啟用執行——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_544",
 			hidePaintObj = true,
-			say = "蓝色的洪流倾泻而出，转瞬间淹没了海洋与天空——",
+			say = "藍色的洪流傾瀉而出，轉瞬間淹沒了海洋與天空——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			bgm = "theme-thetowerxvi",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是——璀璨的星河。",
+			say = "光芒消散後，映入眼簾的是——璀璨的星河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,7 +244,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这里是……？",
+			say = "這裡是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "无、无法调动力量了……你、你究竟是谁？",
+			say = "無、無法調動力量了……妳、你究竟是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你不需要知道。罗德尼。",
+			say = "你不需要知道。羅德尼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "bg_port_chongdong",
 			nameColor = "#C3ABFF",
 			dir = 1,
-			say = "时间已到，迎接属于你的「终结」吧——",
+			say = "時間已到，迎接屬於妳的「終點」吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_port_chongdong",
-			say = "身披黑色大衣的少女消失了，就仿佛从来不曾出现在这片空间中一样。",
+			say = "身穿黑色大衣的少女消失了，就彷彿從來不曾出現在這片空間中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "作为让指挥官内心觉醒的对手，你做得很好。",
+			say = "作為一個讓指揮官內心覺醒的對手，妳做得很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "现在你的使命已经完成，干净利落的退场吧。",
+			say = "現在妳的使命已經完成，乾淨俐落的退場吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "确实是干净利落，你这算是把她挫骨扬灰了？",
+			say = "確實是乾淨俐落，妳這算是把她挫骨揚灰了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没那么简单，不过能让她消停很长一段时间就是了。",
+			say = "沒那麼簡單，不過能讓她消停很長一段時間就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "走吧，接下来该去安塔迪卡做我们的正事了——",
+			say = "走吧，接下來該去南極做我們的正事了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

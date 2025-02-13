@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5768",
+		param = "5521",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5768
+			5521
 		}
 	},
 	{
@@ -51,53 +51,30 @@ pg.activity_link_button = {
 	},
 	[20] = {
 		name = "event_minigame",
-		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 2,
 		pic = "event_minigame",
 		id = 20,
 		group_id = 5,
 		order = 1,
+		time = {
+			"default",
+			5523
+		},
 		param = {
-			"springfestival town"
+			"COWBOY_TOWN_BACKHILL"
 		}
 	},
 	[30] = {
 		param = "0",
 		name = "event_boss",
+		time = "stop",
 		text_pic = "text_event_boss",
 		type = 0,
 		pic = "event_boss",
 		id = 30,
 		group_id = 3,
-		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					1,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		order = 1
 	},
 	[40] = {
 		param = "0",
@@ -255,39 +232,13 @@ pg.activity_link_button = {
 	},
 	[105] = {
 		name = "event_boat_ad_game",
+		time = "stop",
 		text_pic = "text_event_boat_ad_game",
 		type = 7,
 		pic = "event_boat_ad_game",
 		id = 105,
 		group_id = 10,
 		order = 1,
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					1,
-					23
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		param = {
 			73
 		}

@@ -9,7 +9,7 @@ return {
 			bgm = "theme-camelot-up",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家·斯卡帕湾旅游区",
+			say = "皇家·斯卡帕灣旅遊區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_endingsong_3",
 			hidePaintObj = true,
-			say = "人声鼎沸，热闹非凡——本日，一如往日一般洋溢着和平的气息。",
+			say = "人聲鼎沸，熱鬧非凡——本日，一如往日一般洋溢著和平的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说起来……我们的度假时间是不是有些太长了。",
+			say = "說起來……我們的度假時間是不是有些太長了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "反正也没收到让我们回去的命令，就这么度假不是挺好的~",
+			say = "反正也沒收到讓我們回去的命令，就這麼度假不是挺好的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就是，怎么会有人嫌休息时间长呢。",
+			say = "就是，怎麼會有人嫌休息時間長呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……？天上怎么了么——啊，大家快看天上！？！",
+			say = "嗯……？天上怎麼了——啊，大家快看天上！？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			bgm = "theme-vichy-church",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "黑色的太阳，正静静燃烧着。",
+			say = "黑色的太陽，正靜靜燃燒著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是伊丽莎白女王，醒来，皇家的臣民们。",
+			say = "我是伊莉莎白女王，醒來，皇家的臣民們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王命令你们，从这个充斥着死亡的甜蜜陷阱中醒来！",
+			say = "本王命令你們，從這個充滿死亡的甜蜜陷阱中醒來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 203040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……陛下，您怎么在天上？",
+			say = "……陛下，您怎麼在天上？",
 			effects = {
 				{
 					active = true,
@@ -193,7 +193,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这不是重点吧！",
+			say = "這不是重點吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 201160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……我的头好疼……",
+			say = "啊……我的頭痛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这段时间的经历，难道都是梦么，可是又如此逼真……",
+			say = "這段時間的經歷，難道都是夢麼，但又是如此逼真……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "似梦，又不是梦——这是一个精心编制的幻境。",
+			say = "似夢，又不是夢——這是一個精心編制的幻境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过不用担心，黑日凌空，不出三分钟，幻境就会自行瓦解。",
+			say = "不過不用擔心，黑日凌空，不出三分鐘，幻境就會自行瓦解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "现在头疼头晕都没关系，一会彻底清醒过来就没事了。",
+			say = "現在頭痛頭暈都沒關係，等一下徹底清醒過來就沒事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "总之你们先醒着，本王去下一站了！",
+			say = "總之你們先醒著，本王去下一站了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "希望阿瓦隆之门里的人没干出什么傻事来！",
+			say = "希望阿瓦隆之門裡的人沒幹出什麼傻事來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

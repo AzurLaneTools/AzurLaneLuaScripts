@@ -11,6 +11,7 @@ pg.soundstory_template = {
 		overview = "受到鎮海的邀請 \n與她一起共赴茶室度過愉快的閒暇時光 \n茶香陣陣，她遞上茶盞，心中的話語只對你傾訴",
 		order = 2,
 		audition_text = "指揮官，今日的茶室已經由鎮海預定了，藉著這個機會一起休息一下吧。",
+		time = "stop",
 		ship_id = 50601,
 		id = 1,
 		captions_color = "#4a383e",
@@ -24,33 +25,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -64,6 +38,7 @@ pg.soundstory_template = {
 		overview = "「指揮官喜歡大海嗎，樫野我很喜歡哦！」\n和樫野一起享受碧海陽光 \n冰涼的海水也無法掩蓋她熾熱的內心",
 		order = 2,
 		audition_text = "呼，真開心呀♪嘿嘿，有點不小心鬧過頭了呢。 有多久沒在海邊像這樣玩的這麼開心了呢？",
+		time = "stop",
 		ship_id = 31901,
 		id = 2,
 		captions_color = "#2e78d0",
@@ -77,33 +52,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -622,6 +570,7 @@ pg.soundstory_template = {
 		overview = "海灘邊的甜蜜約會，從溫柔的日光浴到戲水打鬧，\n直至夜幕降臨，獨屬於兩人的浪漫時光才剛開始……",
 		order = 2,
 		audition_text = "如果指揮官對我用親吻蓋章不夠滿意的話，也可以大大方方直說哦？",
+		time = "stop",
 		ship_id = 59901,
 		id = 20,
 		captions_color = "#7f574e",
@@ -635,33 +584,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[21] = {
@@ -675,6 +597,7 @@ pg.soundstory_template = {
 		overview = "月光透過彩窗，身著聖潔修女服的她正靜待迷途羔羊的到來。\n這場獨特的深夜告解，究竟是救贖還是誘惑呢……",
 		order = 2,
 		audition_text = "呵呵，我喜歡一點就通的孩子。簡直……想和您一起墮落呢♥",
+		time = "stop",
 		ship_id = 20707,
 		id = 21,
 		captions_color = "#694348",
@@ -688,33 +611,6 @@ pg.soundstory_template = {
 			1,
 			15,
 			3
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	all = {

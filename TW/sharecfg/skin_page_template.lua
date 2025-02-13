@@ -138,6 +138,12 @@ pg.skin_page_template = {
 		res = "qihuanmaoxian",
 		english_name = "RPG Adventure"
 	},
+	[25] = {
+		id = 25,
+		name = "西部風情",
+		res = "xibufengqing",
+		english_name = "Wild West"
+	},
 	[26] = {
 		id = 26,
 		name = "夢幻樂園",
@@ -186,6 +192,7 @@ pg.skin_page_template = {
 		22,
 		23,
 		24,
+		25,
 		26,
 		9997,
 		9998,

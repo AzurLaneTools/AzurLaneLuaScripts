@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋·马利亚纳群岛方向",
+					"太平洋·馬利亞納群島方向",
 					1
 				},
 				{
-					"东煌东海风暴解析舰队",
+					"東煌東海風暴解析艦隊",
 					2
 				},
 				{
-					"指挥舰内",
+					"指揮艦內",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			bgm = "theme-designfleet-vii",
-			say = "东煌舰队三路并进，战线正向着马里亚纳群岛方向缓慢推进着。",
+			say = "東煌艦隊三路並進，戰線正向馬里亞納群島緩慢推進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……当前的推进速度虽然还在计划之内。",
+			say = "指揮官……目前的推進速度雖然還在計畫之內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……我们原本计划的是自主控制推进速度，以等待马绍尔方向作战结束，实行两面夹击的作战计划。",
+			say = "不過……我們原本計畫的是自主控制推進速度，以等待馬紹爾方向作戰結束，實行兩面夾擊的作戰計畫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是现在，我们却是被敌人拖在这里的。",
+			say = "可是現在，我們卻是被敵人拖在這裡的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "前进的阻力越来越大，是否需要我和海伦娜去支援？",
+			say = "前進的阻力越來越大，是否需要我和海倫娜去支援？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "敌情尚不明朗，预备队继续待命。",
+			say = "敵情尚不明朗，預備隊不動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，你还在担心那个头戴狐面的人么？",
+			say = "指揮官，妳還在擔心那個頭戴狐面的人呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。她在海域各处搅扰起了如此风云，可是真实意图却令人捉摸不透。",
+			say = "嗯。她在海域各處攪擾起了如此風雲，但真實意圖卻令人捉摸不透。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在局势彻底明朗之前，还是谨慎些好。",
+			say = "在局勢徹底明朗之前，還是謹慎些好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（……那个头戴狐面，四处以{namecode:161:天城}之名行事之人，究竟在谋划着什么呢。）",
+			say = "（……那個頭戴狐面，四處以天城之名行事之人，究竟在策劃著什麼呢。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			bgm = "nagato-map",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一段时间前的指挥舰——",
+			say = "一段時間前的指揮艦——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——汝之判断不错，制造那些幻境的并非塞壬，而是一个自称{namecode:161:天城}的伪物。",
+			say = "——汝之判斷不錯，製造那些幻境的並非塞壬，而是自稱天城的偽物。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其是利用神石的力量诞生的，具现化的执念。身上还附着有「息」的气息。",
+			say = "其是利用神石的力量誕生的，具現化的執念。身上還附著有「息」的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,34 +221,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“噩兆实体”，为何物？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task",
-			dir = 1,
-			actor = 305050,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "……唔，从汝所提供的资料来看，噩兆实体与「息」确实有一定的相似度。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 305050,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "不过……「息」能够具象化形，或许可以理解为一种更高级的噩兆实体？",
+			say = "……「噩兆實體」，為何物？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +235,34 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而那个伪物，似乎是更高级的「息」……其基于神石网络而存在，并可在网络中自由穿梭而行。",
+			say = "……唔，從汝所提供的資料來看，噩兆實體與「息」確實有一定的相似度。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 305050,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "不過……「息」能夠具象化形，或許可以理解為一種更高級的噩兆實體？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task",
+			dir = 1,
+			actor = 305050,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "而那個偽物，似乎是更高級的「息」……其基於神石網路而存在，並可在網路中自由穿梭而行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……注意神木，神木所在之处皆是它的影响范围。",
+			say = "……注意神木，神木所在之處皆是它的影響範圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……“微层化混合物”，为何物？",
+			say = "……「微層化混合物」，為何物？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……唔，感谢汝提供的资料，待战役结束后吾会仔细阅读的。",
+			say = "……唔，感謝汝提供的資料，待戰役結束後吾會仔細閱讀的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不，伪物只是傀儡，目的是拖延时间而已。",
+			say = "……不，偽物只是傀儡，目的是拖延時間而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "隐于幕后的{namecode:91:赤城}才是关键。她有一个危险的计划，只是吾尚未洞悉其全貌……",
+			say = "隱於幕後的赤城才是關鍵。她有一個危險的計劃，只是吾尚未洞悉其全貌……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……汝也在调查重樱本岛的消息？",
+			say = "……汝也在調查重櫻本島的消息？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -358,7 +358,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如此甚好，吾等保持联络共享情报，一定要尽快查个水落石出。",
+			say = "如此甚好，吾等保持聯絡共享情報，一定要盡快查個水落石出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（{namecode:74:长门}认定此物只是{namecode:91:赤城}的傀儡，在外部搅扰风云是为了给真正的计划拖延时间。）",
+			say = "（長門認定此物只是赤城的傀儡，在外部攪擾風雲是為了給真正的計劃拖延時間。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:74:长门}为重樱的高层，按理说她对于重樱当前的局势应该是最为了解的……）",
+			say = "（長門為重櫻的高層，照理說她對於重櫻當前的局勢應該是最了解的……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（可是从各处提交的报告来看，那个头戴狐面之物似乎有着很强的自我意识，行事亦有很强的自主性。）",
+			say = "（可是從各處提交的報告來看，那個頭戴狐面之物似乎有著很強的自我意識，行事亦有很強的自主性。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（在真相水落石出之前，还是不要把她单纯当成拖延时间的傀儡比较好。）",
+			say = "（在真相水落石出之前，還是不要把她單純當成拖延時間的傀儡比較好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（暗流之下，亦有暗流……么。）",
+			say = "（暗流之下，亦有暗流……嗎。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -11,11 +11,11 @@ return {
 			bgm = "airraidalarm",
 			sequence = {
 				{
-					"帕克菲克洋·圣诞岛",
+					"太平洋·聖誕島",
 					1
 				},
 				{
-					"周边海域",
+					"週邊海域",
 					2
 				},
 				{
@@ -30,7 +30,7 @@ return {
 			bgName = "bg_xiangting_2",
 			hidePaintObj = true,
 			bgm = "story-6",
-			say = "警报与浓烟充斥着夜空，映入眼帘大地正在烈火中燃烧着。",
+			say = "警報與濃煙充斥著夜空，映入眼簾大地正在烈火中燃燒著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……从周围地貌环境来判断，这里是长岛防线。",
+			say = "……從周圍地形環境來判斷，這裡是長島防線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 101520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "长岛防线……？我们不是在圣诞岛么？",
+			say = "長島防線……？我們不是在聖誕島嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可能幻境就是如此不讲逻辑吧……法戈，还有什么发现么?",
+			say = "可能幻境就是如此不講邏輯吧……法戈，還有什麼發現嗎?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "长岛防线在此前的袭击事件后，新增了很多防御设施。但是我在此处中没有看到。",
+			say = "長島防線在先前的攻擊事件後，新增了許多防禦設施。但是我在此處中沒有看到。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "推测，此时此刻呈现在我们眼前的幻境，演绎的就是长岛防线遭遇袭击的那一日。",
+			say = "推測，此時此刻呈現在我們眼前的幻境，演繹的就是長島防線遭遇襲擊的那一日。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "长岛防线遭遇袭击的那一日……",
+			say = "長島防線遭遇襲擊的那一天……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "圣诞岛驻防舰队是由杜威带领的驱逐舰编队……她，恰好是那次袭击事件的亲历者。",
+			say = "聖誕島駐防艦隊是由杜威帶領的驅逐艦編隊……她，剛好是那次攻擊事件的親歷者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 108090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "瞄准心灵受到的创伤而生成的幻境……糟糕啊，杜威她们有危险！",
+			say = "瞄準心靈所受的創傷而生成的幻境……糟糕啊，杜威她們有危險！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "法戈，找到驻防舰队的位置了么？",
+			say = "法戈，找到駐防艦隊的位置了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还没有，正在进一步扩大搜索范围中——",
+			say = "還沒有，正在進一步擴大搜索範圍中——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……从最新侦察画面判断，周边海域中，作为进攻者的塞壬舰队已经被全数消灭了。",
+			say = "嗯……從最新偵察畫面判斷，週邊海域中，身為進攻者的塞壬艦隊已經被全數消滅了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "考虑到此处驻防驱逐舰编队的战斗力，不像是她们能够造成的战果。",
+			say = "考慮到此處駐防驅逐艦編隊的戰鬥力，不像是她們能夠造成的戰果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实很奇怪……",
+			say = "確實很奇怪……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有了。发现一支正在向内陆方向移动的舰队。杜威、哈尔西·鲍威尔，黑泽伍德都在舰队中。",
+			say = "有了。發現一隻正在向內陸移動的艦隊。杜威、海爾賽·鮑威爾，黑澤伍德都在艦隊中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "太好了，我们赶紧去汇合——",
+			say = "太好了，我們趕緊去匯合——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -276,7 +276,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……之前那个戴着面具的奇怪敌人也在舰队中与她们同行。",
+			say = "等等……之前那個戴著面具的奇怪敵人也在艦隊中與她們同行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 102330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "除此之外，舰队中还有大量重樱量产型。",
+			say = "除此之外，艦隊還有大量重櫻量產型。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 103280,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来她们已经……将敌人错认为友军了呢。",
+			say = "看來她們已經……將敵人錯認為友軍了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "情况严峻，我们立刻去救人！",
+			say = "情況嚴峻，我們立刻去救人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

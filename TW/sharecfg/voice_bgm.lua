@@ -81,7 +81,7 @@ pg.voice_bgm = {
 		bgm = "login"
 	},
 	NewMainScene = {
-		default_bgm = "theme-china-jianwu",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-schoolfuture",
+		default_bgm = "bsm-7",
 		special_bgm = "",
-		bgm = "main"
+		bgm = "story-island-soft"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1739,5 +1739,10 @@ pg.voice_bgm = {
 		default_bgm = "blueocean-image",
 		special_bgm = "",
 		bgm = "blueocean-image"
+	},
+	ValentineQte2Page = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		bgm = "story-richang-5"
 	}
 }

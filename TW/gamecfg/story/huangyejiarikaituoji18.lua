@@ -12,7 +12,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奔跑在狭窄潮湿的隧道之中，后方是穷追不舍的、来自{namecode:98:明石}的追兵。",
+			say = "奔跑在狹窄潮濕的隧道之中，後方是窮追不捨的、來自明石的追兵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,13 +39,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
 			actorName = "大黄蜂",
 			hidePaintObj = true,
-			say = "呼…呼……！也就是说……",
+			say = "呼…呼……！也就是說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,13 +55,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
 			actorName = "大黄蜂",
 			hidePaintObj = true,
-			say = "沙尘暴也好、诅咒也好、还是我们会忘记这些事情也好，全都是算计好的？！",
+			say = "沙塵暴也好、詛咒好、還是我們會忘記這些事情也好，全都是算計好的？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,12 +71,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "边境快枪手",
+			factiontag = "邊境快槍手",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……金矿什么的果然是骗人的！只是为了把我们留在这里，榨取油水。",
+			say = "……金礦什麼的果然是騙人的！只是為了把我們留在這裡，榨取油水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,13 +86,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
 			actorName = "大黄蜂",
 			hidePaintObj = true,
-			say = "这样一来没有钱又离不开的话，就只能留在这个小镇上生活了……",
+			say = "這樣一來沒有錢又離不開的話，就只能留在這個小鎮上生活了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "边境快枪手",
+			factiontag = "邊境快槍手",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇，真是好算计……",
+			say = "哇，真是好算計……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,10 +117,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过既然沙尘暴只是{namecode:98:明石}利用机器做出来的幻境的话……就不用担心了。",
+			say = "不過既然沙塵暴只是明石利用機器做出來的幻境的話……就不用擔心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在临近出口时，终于顺利甩开了{namecode:98:明石}的追兵。",
+			say = "在接近出口時，終於順利甩開了明石的追兵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,12 +141,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "边境快枪手",
+			factiontag = "邊境快槍手",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之先回去告诉匹兹堡她们吧！早点离开这个奇怪的地方！",
+			say = "總之先回去告訴匹茲堡她們吧！早點離開這個奇怪的地方！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_story_task",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "嗯。",
@@ -171,7 +171,7 @@ return {
 			bgm = "story-richang-westdaily",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将在矿洞中的所见所闻向匹兹堡等人和盘托出。",
+			say = "將在礦洞中的所見所聞向匹茲堡等人和盤托出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,10 +198,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——戳破了这个小镇的秘密，已经不能再在这里待下去了。",
+			say = "——戳破了這個小鎮的秘密，已經不能再在這裡待下去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 312010,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "没错喵！{namecode:98:明石}要把你们一网打尽喵！",
+			say = "沒錯喵！明石要把你們一網打盡喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "绿色猫咪不知何时出现在了酒馆之中，身旁全都是她在矿洞工坊中派出来追击我们的“追兵”。",
+			say = "綠色貓咪不知何時出現在了酒館之中，身旁全都是她在礦洞工坊中派出來追擊我們的「追兵」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 312010,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}怎么可能没有第二手准备喵！",
+			say = "明石怎麼可能沒有第二手準備喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 312010,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "整个小镇的地下都被{namecode:98:明石}修出了通道喵，就为了第一时间阻止你们这种得知秘密的人离开喵！",
+			say = "整個小鎮的地下都被明石修出了通道喵，就為了第一時間阻止你們這種得知秘密的人離開喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,12 +267,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "赏金猎人",
+			factiontag = "賞金獵人",
 			dir = 1,
 			actor = 105151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就是要开打的意思咯？",
+			say = "那就是要開打的意思囉？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 312010,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "就是这样喵！",
+			say = "就是這樣喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,12 +297,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_160",
-			factiontag = "赏金猎人",
+			factiontag = "賞金獵人",
 			dir = 1,
 			actor = 105151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "求之不得，放马过来吧！",
+			say = "求之不得，放馬過來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_westdaily_cg3",
 			hidePaintObj = true,
-			say = "印第安纳话音刚落，枪声便在酒馆内炸响。",
+			say = "印第安納話音剛落，槍聲便在酒館內爆炸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,20 +352,20 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_westdaily_cg3",
 			hidePaintObj = true,
-			say = "匹兹堡和印第安纳两人的动作快如闪电，同时拔出了各自的左轮手枪。",
+			say = "匹茲堡和印第安納兩人的動作快如閃電，同時拔出了各自的左輪手槍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "匹兹堡&印第安纳",
+			actorName = "匹茲堡&印第安納",
 			side = 1,
 			bgName = "bg_westdaily_cg3",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "准备好了吗，指挥官？",
+			say = "準備好了嗎，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,10 +375,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "随时……！",
+			say = "隨時……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_westdaily_cg3",
 			hidePaintObj = true,
-			say = "两声枪响几乎同时响起，{namecode:98:明石}派出的两个“追兵”应声倒地。",
+			say = "兩聲槍響幾乎同時響起，明石派出的兩個「追兵」應聲倒地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,21 +411,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_westdaily_cg3",
 			hidePaintObj = true,
-			say = "连带着酒馆中的桌椅也倒做一团。",
+			say = "連帶著酒館中的桌椅也倒做一團。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "贝尔",
+			actorName = "貝爾",
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "酒馆女招待",
+			factiontag = "酒館女招待",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……希望之后算损失的时候不要亏太多……",
+			say = "嗚……希望之後算損失的時候不要虧太多……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,49 +435,49 @@ return {
 			actorName = "法戈",
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "友好的牧场主",
+			factiontag = "友善的牧場主人",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我建议找匹兹堡索赔。",
+			say = "我建議找匹茲堡索賠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "大黃蜂",
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的风头居然都被印第安纳给抢了……不行，不能被小看了啊！",
+			say = "我的風頭居然都被印地安納給搶了……不行，不能被小看了啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "鲱鱼",
+			actorName = "鯡魚",
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "边境快枪手",
+			factiontag = "邊境快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就趁这个机会比比谁更快吧！",
+			say = "那就趁這個機會比誰更快吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "大黄蜂",
+			actorName = "大黃蜂",
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -488,38 +488,27 @@ return {
 			}
 		},
 		{
-			actorName = "利托里奥",
+			actorName = "利托里奧",
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "为正统披萨而战的食客A",
+			factiontag = "為正統披薩而戰的食客A",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我早就受不了这里的菠萝披萨了！",
+			say = "我早就受不了這裡的鳳梨披薩了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "维托里奥·维内托",
+			actorName = "維內托",
 			side = 2,
 			bgName = "bg_westdaily_cg3",
-			factiontag = "为正统披萨而战的食客B",
+			factiontag = "為正統披薩而戰的食客B",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为了披萨的正统口味而战！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_westdaily_cg3",
-			hidePaintObj = true,
-			say = "枪战点燃了矛盾的引线，酒馆中其他人也开始了混战。",
+			say = "為了披薩的正統口味而戰！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,7 +519,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_westdaily_cg3",
 			hidePaintObj = true,
-			say = "子弹在空中划出一道道的轨迹，酒瓶碎裂声、桌椅倒塌声不绝于耳。",
+			say = "槍戰點燃了矛盾的引線，酒館中其他人也開始了混戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +530,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_westdaily_cg3",
 			hidePaintObj = true,
-			say = "当最后一声枪响落下，黎明已至，酒馆中也重归平静。",
+			say = "子彈在空中劃出一道道的軌跡，酒瓶碎裂聲、桌椅倒塌聲不絕於耳。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_westdaily_cg3",
+			hidePaintObj = true,
+			say = "當最後一聲槍響落下，黎明已至，酒館中也重歸平靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 312010,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "喵……是{namecode:98:明石}输了喵……",
+			say = "喵……是明石輸了喵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,12 +584,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "赏金猎人",
+			factiontag = "賞金獵人",
 			dir = 1,
 			actor = 105151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "按照这里的规矩，我应该把你交给镇长……不过……",
+			say = "按照這裡的規矩，我應該把妳交給鎮長……不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过听起来，镇长好像也是和你一伙的？虽然她被骗了。",
+			say = "不過聽起來，鎮長好像也是跟妳一夥的？雖然她被騙了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,12 +614,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "赏金猎人",
+			factiontag = "賞金獵人",
 			dir = 1,
 			actor = 105151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样就有点难办了……",
+			say = "這樣就有點難辦了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,12 +629,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "边境快枪手",
+			factiontag = "邊境快槍手",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "发生了这种事情，肯定会重新选举一个新镇长的吧？",
+			say = "發生了這種事情，一定會重新選出一個新鎮長的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,12 +644,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "边境快枪手",
+			factiontag = "邊境快槍手",
 			dir = 1,
 			actor = 108091,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你把{namecode:98:明石}关起来，等新镇长上任之后，再把{namecode:98:明石}交给新镇长处理不就好了么！",
+			say = "妳把明石關起來，等到新鎮長上任之後，再把明石交給新鎮長處理不就好了麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -664,7 +664,7 @@ return {
 			actor = 312010,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}可以把这些异常的事情都解除喵，但是不要关{namecode:98:明石}喵~！",
+			say = "明石可以把這些異常的事情都解除喵，但不要關明石喵~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			actor = 312010,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "还有许多商机等待着{namecode:98:明石}去发掘喵……！",
+			say = "還有許多商機等著明石去發掘喵……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -693,7 +693,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这话就留着和新镇长说吧~",
+			say = "這話就留著跟新鎮長說吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "匹兹堡一边说着，一边系紧了{namecode:98:明石}手腕上的绳子。",
+			say = "匹茲堡一邊說著，一邊繫緊了明石手腕上的繩子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,13 +714,13 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
 			actorName = "大黄蜂",
 			hidePaintObj = true,
-			say = "指挥官呢，接下来有什么打算？",
+			say = "指揮官呢，接下來有什麼打算？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还用问么~？新镇长的人选肯定非指挥官莫属啊~",
+			say = "還用問嗎~？新鎮長的人選肯定非指揮官莫屬啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,13 +745,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
 			actorName = "大黄蜂",
 			hidePaintObj = true,
-			say = "说的也是哦！如果是指挥官当镇长的话，这里一定会成为传奇小镇吧~",
+			say = "說的也是哦！如果是指揮官當鎮長的話，這裡一定會成為傳奇小鎮吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -761,10 +761,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正因如此，我才不能留在这里。",
+			say = "正因如此，我才不能留在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "菠萝披萨快枪手",
+			factiontag = "鳳梨披薩快槍手",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 107120,
@@ -790,10 +790,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "迟早有一天你会明白的。",
+			say = "遲早有一天妳會明白的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -804,7 +804,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "将目光投向远方。阳光之下，小镇中曾经破败的房屋似乎焕发出了新的生机。",
+			say = "將目光投向遠方。陽光之下，小鎮中曾經破敗的房屋似乎煥發了新的生命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -819,7 +819,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你真的要走？",
+			say = "指揮官，你真的要走？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,10 +829,10 @@ return {
 			actor = 0,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还有其它地方在等待着，不是么？",
+			say = "還有其它地方在等待著我，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -847,7 +847,7 @@ return {
 			actor = 103281,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，没错……那就祝你好运了，「指挥官」。",
+			say = "呵呵，沒錯……那就祝你好運了，「指揮官」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -857,12 +857,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_178",
-			factiontag = "猎人",
+			factiontag = "獵人",
 			dir = 1,
 			actor = 105151,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再会，「指挥官」。",
+			say = "再會，「指揮官」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -873,7 +873,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "从印第安纳手中接过缰绳，熟练地翻身上马。",
+			say = "從印第安納手中接過韁繩，熟練地翻身上馬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "轻轻一踢马腹后，它便向前小跑起来。",
+			say = "輕輕一踢馬腹後，它便向前小跑起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -895,7 +895,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "小镇的轮廓渐渐消失在身后，而前方的道路依旧漫长而未知。",
+			say = "小鎮的輪廓漸漸消失在身後，而前方的道路依舊漫長而未知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,7 +906,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_178",
 			hidePaintObj = true,
-			say = "但是，那又有什么关系呢？",
+			say = "但是，那又有什麼關係呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -916,7 +916,7 @@ return {
 			mode = 1,
 			sequence = {
 				{
-					"「沙尘、谎言与诅咒」·FIN",
+					"「沙塵、謊言與詛咒」·FIN。",
 					1
 				}
 			}
@@ -930,226 +930,226 @@ return {
 				{
 					3,
 					{
-						"领衔主演",
-						"（以下排名不分先后）",
-						"荒野游侠/指挥官",
+						"領銜主演",
+						"（以下排名不分先後）",
+						"荒野遊俠/指揮官",
 						"{playername}",
-						"菠萝披萨快枪手",
+						"鳳梨披薩快槍手",
 						"大黄蜂",
-						"边境快枪手",
+						"邊境快槍手",
 						"鲱鱼",
-						"赏金猎人",
-						"印第安纳",
+						"賞金獵人",
+						"印第安納",
 						"神秘女郎",
-						"匹兹堡",
+						"匹茲堡",
 						"主演",
-						"（以下排名不分先后）",
-						"沙尘中的幽灵",
-						"布里斯托尔",
-						"酒馆女招待",
+						"（以下排名不分先後）",
+						"沙塵中的幽靈",
+						"布里斯托爾",
+						"酒館女招待",
 						"贝尔",
-						"友好的牧场主",
+						"友善的牧場主人",
 						"法戈",
-						"运输专家",
-						"U556",
-						"惊慌失措的少女",
-						"凯尔圣",
-						"闪亮的小镇镇长",
-						"{namecode:524:圣地亚哥}",
+						"運輸專家",
+						"U-556",
+						"驚慌失措的少女",
+						"凱爾聖",
+						"閃亮的小鎮鎮長",
+						"聖地牙哥",
 						"野心勃勃的商人",
-						"{namecode:98:明石}",
+						"明石",
 						"客串演出",
-						"（以下排名不分先后）",
-						"兢兢业业的矿工",
-						"恶毒",
-						"消极怠工的矿工",
-						"迪普莱克斯",
-						"埋头苦干的矿工",
-						"帝国",
-						"被诅咒的白兔",
+						"（以下排名不分先後）",
+						"兢兢業業的礦工",
+						"惡毒",
+						"消極怠工的礦工",
+						"杜布雷",
+						"埋頭苦幹的礦工",
+						"帝國",
+						"被詛咒的白兔",
 						"拉菲",
-						"为正统披萨而战的食客A",
-						"维内托",
-						"为正统披萨而战的食客B",
+						"為正統披薩而戰的食客A",
+						"維內托",
+						"為正統披薩而戰的食客B",
 						"利托里奥",
-						"酒馆中的修女",
+						"酒館中的修女",
 						"怨仇",
-						"酒馆中的女巫",
+						"酒館中的女巫",
 						"忒修斯",
-						"酒馆中的女仆",
-						"斯库拉"
+						"酒館中的女僕",
+						"斯庫拉"
 					},
 					2
 				},
 				{
 					1,
-					"出品方 Present"
+					"出品方Present"
 				},
 				{
 					1,
-					"明石摄影集团"
+					"明石攝影集團"
 				},
 				{
 					3,
 					{
-						"董事长",
-						"{namecode:98:明石}",
-						"集团总监",
-						"{namecode:20:不知火}"
+						"董事長",
+						"明石",
+						"集團總監",
+						"不知火"
 					},
 					2
 				},
 				{
 					1,
-					"萨拉托加电影制片厂"
+					"薩拉托加電影製片廠"
 				},
 				{
 					3,
 					{
-						"导演",
-						"关岛",
-						"第一副导演",
-						"阿尔弗雷多",
-						"第二副导演",
-						"{namecode:55:青叶}",
-						"场务",
-						"迪普莱克斯",
+						"導演",
+						"關島",
+						"第一副導演",
+						"阿爾弗雷多",
+						"第二副導演",
+						"青葉",
+						"場務",
+						"杜布雷",
 						"故事原案",
 						"海天",
-						"剧本组长",
-						"布里斯托尔",
-						"剧本助理",
+						"劇本組長",
+						"布里斯托爾",
+						"劇本助理",
 						"大黄蜂",
 						"行政主管",
-						"列克星敦",
-						"财务顾问",
+						"列星頓",
+						"財務顧問",
 						"的里雅斯特",
-						"制片人",
-						"萨拉托加"
+						"製片人",
+						"薩拉托加"
 					},
 					2
 				},
 				{
 					1,
-					"后期制作"
+					"後製"
 				},
 				{
 					3,
 					{
-						"后期剪辑",
-						"关岛"
+						"後期剪輯",
+						"關島"
 					},
 					2
 				},
 				{
 					1,
-					"配乐团队"
+					"配樂團隊"
 				},
 				{
 					3,
 					{
-						"配乐组长",
-						"{namecode:440:腓特烈大帝}",
-						"配乐指导",
-						"{namecode:531:腓特烈·卡尔}",
-						"音乐音效",
-						"斯特拉斯堡",
-						"音乐音效",
+						"配樂組長",
+						"腓特烈大帝",
+						"配樂指導",
+						"腓特烈·卡爾",
+						"音樂音效",
+						"史特拉斯堡",
+						"音樂音效",
 						"普利茅斯"
 					},
 					2
 				},
 				{
 					1,
-					"灯光团队"
+					"燈光團隊"
 				},
 				{
 					3,
 					{
-						"灯光组组长",
+						"燈光組組長",
 						"契卡洛夫",
-						"灯光组指导",
-						"{namecode:39:神通}",
-						"数字灯光工程师",
-						"长春",
-						"数字灯光工程师",
+						"燈光組指導",
+						"神通",
+						"數位燈光工程師",
+						"長春",
+						"數位燈光工程師",
 						"太原"
 					},
 					2
 				},
 				{
 					1,
-					"航拍团队"
+					"航拍團隊"
 				},
 				{
 					3,
 					{
-						"航拍摄影师",
+						"航拍攝影師",
 						"英仙座",
-						"航拍摄影师",
-						"{namecode:491:亚德}",
-						"航拍摄影师",
-						"天鹰"
+						"航拍攝影師",
+						"亞德",
+						"航拍攝影師",
+						"天鷹"
 					},
 					2
 				},
 				{
 					1,
-					"造型团队"
+					"造型團隊"
 				},
 				{
 					3,
 					{
-						"化妆师",
-						"圣路易斯",
+						"化妝師",
+						"聖路易",
 						"",
-						"海伦娜",
+						"海倫娜",
 						"",
-						"{namecode:199:新泽西}",
-						"服装造型",
-						"巴尔的摩",
+						"紐澤西",
+						"服裝造型",
+						"巴爾的摩",
 						"",
-						"布莱默顿",
+						"布雷默頓",
 						"",
-						"埃塞克斯"
+						"艾塞克斯"
 					},
 					2
 				},
 				{
 					1,
-					"道具团队"
+					"道具團隊"
 				},
 				{
 					3,
 					{
-						"道具制作",
-						"奇尔沙治",
+						"道具製作",
+						"奇爾沙治",
 						"",
-						"达·芬奇",
+						"達文西",
 						"",
-						"龙武",
+						"龍武",
 						"",
-						"克利夫兰",
+						"克里夫蘭",
 						"",
-						"{namecode:37:夕张}",
+						"夕張",
 						"",
-						"约克城"
+						"約克鎮"
 					},
 					2
 				},
 				{
 					1,
-					"特别鸣谢名单"
+					"特別鳴謝名單"
 				},
 				{
 					3,
 					{
-						"无人机提供",
+						"無人機提供",
 						"法戈",
-						"拍摄场地提供",
-						"企业",
-						"服装道具提供",
-						"印第安纳"
+						"拍攝場地提供",
+						"企業",
+						"服裝道具提供",
+						"印第安納"
 					},
 					2
 				}
