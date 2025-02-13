@@ -4159,7 +4159,7 @@ pg.base.transform_data_template = {
 		name = "近代改造",
 		descrip = [[
 近代化改造完成，防空+60
-改造後，防空砲底座+1
+改造後，防空炮底座+1
 裝備特殊反潛武器
 <color=#92fc63>【彩虹計畫】</color>技能將升級為<color=#92fc63>【彩虹計畫·改】</color>
 技能<color=#92fc63>【專屬彈幕-埃爾德里奇II】</color>將升級為<color=#92fc63>【專屬彈幕-埃爾德里奇III】</color>]],
