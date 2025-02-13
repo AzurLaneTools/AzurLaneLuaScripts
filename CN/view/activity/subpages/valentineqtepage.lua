@@ -43,8 +43,8 @@ end
 
 slot0.ShowAwards = function(slot0)
 	slot0:emit(ActivityMediator.ON_AWARD_WINDOW, slot0:GetDropList(), getProxy(MiniGameProxy):GetHubByHubId(uv0.MINIGAME_HUB_ID).usedtime, {
-		i18n("2023Valentine_minigame_label3"),
-		i18n("2023Valentine_minigame_label2")
+		i18n("Valentine_minigame_label3"),
+		i18n("Valentine_minigame_label2")
 	})
 end
 

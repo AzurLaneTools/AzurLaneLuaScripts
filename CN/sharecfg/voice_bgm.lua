@@ -1974,5 +1974,10 @@ pg.voice_bgm = {
 		default_bgm = "bsm-7",
 		special_bgm = "",
 		bgm = "bsm-7"
+	},
+	ValentineQte2Page = {
+		default_bgm = "story-richang-5",
+		special_bgm = "",
+		bgm = "story-richang-5"
 	}
 }

@@ -32042,7 +32042,7 @@ pg.equip_skin_template = {
 	},
 	[958] = {
 		hit_sfx = "",
-		bullet_name = "yulei_1jianpan",
+		bullet_name = "yulei_mjianpan",
 		orbit_ui_bound = "",
 		type = 1,
 		preview_hit_distance = 0,
@@ -36573,7 +36573,7 @@ pg.equip_skin_template = {
 		preview_hit_distance = 0,
 		icon = "101167",
 		name = "荒野猎手（轰炸）",
-		desc = "把引擎提升至最大，让敌人瞧瞧飞翔暴君的厉害！",
+		desc = "启动引擎，掀起铁与火的风暴！",
 		ship_config_id = 100011,
 		derivate_boom = "paodan_quantou",
 		id = 4088,

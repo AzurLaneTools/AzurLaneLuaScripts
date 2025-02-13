@@ -20,6 +20,9 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.gridsTF = slot0._tf:Find("grids")
 	slot0.childsTF = slot0._tf:Find("childs")
 	slot0.interactionTF = slot0._tf:Find("interaction")
+
+	slot0.mat:SetAsFirstSibling()
+
 	slot0.bones = {}
 	slot0._tf.localScale = Vector3(slot0.data:GetDirection() == 1 and 1 or -1, 1, 1)
 

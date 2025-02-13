@@ -28977,17 +28977,17 @@ _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+_G.pg.base.gametip.Valentine_minigame_label1 = {
 	tip = "最终得分："
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+_G.pg.base.gametip.Valentine_minigame_label2 = {
 	tip = "完成次数"
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+_G.pg.base.gametip.Valentine_minigame_label3 = {
 	tip = "当前完成："
 }
 
@@ -37194,4 +37194,24 @@ _G.pg.base.gametip.child2_schedule_target = {
 
 _G.pg.base.gametip.child2_shop_point_sure = {
 	tip = "购买后行动力将超出上限，是否继续购买"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_s"] = {
+	tip = "太棒了！虽然是新式做法，不过这次大成功哦~指挥官，这份满载心意的巧克力，请快品尝看看吧！欸嘿~情人节快乐☆"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_a"] = {
+	tip = "啊，居然做得这么漂亮！果然有指挥官在就不一样呢~指挥官，快来尝尝看，这可是我们一起的成果哦！"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_b"] = {
+	tip = "总算是完成了呢！虽然和想象中的有点差距……但是指挥官帮了我这么多，应该不会太糟糕吧？欸嘿☆"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_c"] = {
+	tip = "欸……这个味道真的可以吗？作为皇家女仆做成这样，实在是太失态了……指挥官，让我重新做一份吧！"
 }

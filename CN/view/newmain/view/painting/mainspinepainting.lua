@@ -97,7 +97,7 @@ slot0.InitSpecialTouch = function(slot0)
 								slot8 = uv0.specialClickDic[slot7]
 
 								if math.abs(slot8.tf:InverseTransformPoint(slot3).x) < slot8.bound.x / 2 and math.abs(slot9.y) < slot8.bound.y / 2 then
-									uv0:OnPrepareTriggerEvent(slot8.name)
+									uv0:PrepareTriggerAction(slot8.name)
 									uv0:TriggerPersonalTask(slot8.task)
 								end
 							end

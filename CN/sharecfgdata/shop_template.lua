@@ -16678,6 +16678,64 @@ _G.pg.base.shop_template[60592] = {
 }
 
 
+_G.pg.base.shop_template[60593] = {
+	group_type = 0,
+	resource_num = 980,
+	time_second = 0,
+	type = 2,
+	type_order = 5,
+	desc = "980钻石购买限时礼包-比翼双飞(0213情人节版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60593,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				19
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[61001] = {
 	group_type = 0,
 	resource_num = 200,
@@ -55926,7 +55984,7 @@ _G.pg.base.shop_template[70819] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 7,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -55941,9 +55999,9 @@ _G.pg.base.shop_template[70819] = {
 	time = {
 		{
 			{
-				2024,
-				5,
-				21
+				2025,
+				2,
+				13
 			},
 			{
 				0,
@@ -55953,9 +56011,9 @@ _G.pg.base.shop_template[70819] = {
 		},
 		{
 			{
-				2024,
-				5,
-				26
+				2025,
+				2,
+				19
 			},
 			{
 				23,
@@ -55979,7 +56037,7 @@ _G.pg.base.shop_template[70820] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 7,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -55994,9 +56052,9 @@ _G.pg.base.shop_template[70820] = {
 	time = {
 		{
 			{
-				2024,
-				5,
-				21
+				2025,
+				2,
+				13
 			},
 			{
 				0,
@@ -56006,9 +56064,9 @@ _G.pg.base.shop_template[70820] = {
 		},
 		{
 			{
-				2024,
-				5,
-				26
+				2025,
+				2,
+				19
 			},
 			{
 				23,
@@ -56032,7 +56090,7 @@ _G.pg.base.shop_template[70821] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 10,
+	order = 7,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -56047,9 +56105,9 @@ _G.pg.base.shop_template[70821] = {
 	time = {
 		{
 			{
-				2024,
-				5,
-				21
+				2025,
+				2,
+				13
 			},
 			{
 				0,
@@ -56059,9 +56117,9 @@ _G.pg.base.shop_template[70821] = {
 		},
 		{
 			{
-				2024,
-				5,
-				26
+				2025,
+				2,
+				19
 			},
 			{
 				23,
@@ -62342,10 +62400,10 @@ _G.pg.base.shop_template[70971] = {
 	desc = "购买皮肤：240206赫敏皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 4,
+	order = 7,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -62360,9 +62418,9 @@ _G.pg.base.shop_template[70971] = {
 	time = {
 		{
 			{
-				2024,
+				2025,
 				2,
-				6
+				13
 			},
 			{
 				0,
@@ -62372,9 +62430,9 @@ _G.pg.base.shop_template[70971] = {
 		},
 		{
 			{
-				2024,
+				2025,
 				2,
-				21
+				19
 			},
 			{
 				23,
@@ -62395,10 +62453,10 @@ _G.pg.base.shop_template[70972] = {
 	desc = "购买皮肤：240206雷皮肤",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 2,
+	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 8,
+	order = 7,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -62413,9 +62471,9 @@ _G.pg.base.shop_template[70972] = {
 	time = {
 		{
 			{
-				2024,
+				2025,
 				2,
-				6
+				13
 			},
 			{
 				0,
@@ -62425,9 +62483,9 @@ _G.pg.base.shop_template[70972] = {
 		},
 		{
 			{
-				2024,
+				2025,
 				2,
-				21
+				19
 			},
 			{
 				23,
@@ -69583,6 +69641,59 @@ _G.pg.base.shop_template[71112] = {
 				2025,
 				2,
 				5
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[71113] = {
+	group_type = 0,
+	resource_num = 780,
+	time_second = 0,
+	type = 6,
+	type_order = 0,
+	desc = "购买皮肤:250213长波情人节皮肤",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 6,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 71113,
+	genre = "skin_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		301834
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				19
 			},
 			{
 				23,

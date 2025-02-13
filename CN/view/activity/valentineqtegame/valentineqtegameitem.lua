@@ -18,7 +18,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0:SetPosition(slot2)
 
 	slot0.bound = getBounds(slot0._tf)
-	slot0.image.sprite = GetSpriteFromAtlas("ui/valentineqtegame_atlas", uv0[math.random(1, #uv0)])
+	slot0.image.sprite = GetSpriteFromAtlas("ui/minigameui/valentineqtegame_atlas", uv0[math.random(1, #uv0)])
 
 	slot0.image:SetNativeSize()
 end

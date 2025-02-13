@@ -17,7 +17,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.nameTxt = slot1:Find("frame/Text"):GetComponent(typeof(Text))
 
 	slot0:Init()
-	setText(slot1:Find("frame/score/label"), i18n("2023Valentine_minigame_label1"))
+	setText(slot1:Find("frame/score/label"), i18n("Valentine_minigame_label1"))
 
 	slot0.nameTxt.text = getProxy(PlayerProxy):getRawData():GetName()
 
@@ -74,7 +74,7 @@ slot0.GetChatTxt = function(slot0, slot1)
 	end
 
 	if slot2 then
-		return i18n("2023Valentine_minigame_" .. slot2)
+		return i18n("2025Valentine_minigame_" .. slot2)
 	else
 		return ""
 	end

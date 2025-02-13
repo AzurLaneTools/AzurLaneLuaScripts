@@ -490,6 +490,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 					uv9:SetCharaMessageCardActive(slot4, {
 						4
 					})
+					uv9:ClearEmoji(slot2:Find("charaMessageCard/emoji/emoticon"))
 					uv9:SetEmoji(slot2:Find("charaMessageCard/emoji/emoticon"), uv15[tonumber(slot3.param)].pic)
 
 					if uv3 and uv4 and uv4 < slot1 + 1 then
@@ -571,6 +572,7 @@ slot0.UpdateMessageList = function(slot0, slot1, slot2, slot3, slot4, slot5)
 					uv9:SetPlayerMessageCardActive(slot5, {
 						1
 					})
+					uv9:ClearEmoji(slot2:Find("playerReplyCard/emoji/emoticon"))
 					uv9:SetEmoji(slot2:Find("playerReplyCard/emoji/emoticon"), uv15[tonumber(slot3.param)].pic)
 				elseif slot3.type == 5 then
 					uv9:SetPlayerMessageCardActive(slot5, {
@@ -719,6 +721,14 @@ slot0.SetEmoji = function(slot0, slot1, slot2)
 		else
 			PoolMgr.GetInstance():ReturnPrefab("emoji/" .. uv1, uv1, slot0)
 		end
+	end)
+end
+
+slot0.ClearEmoji = function(slot0, slot1)
+	eachChild(slot1, function (slot0)
+		slot1 = go(slot0)
+
+		PoolMgr.GetInstance():ReturnPrefab("emoji/" .. slot1.name, slot1.name, slot1)
 	end)
 end
 
