@@ -287,6 +287,12 @@ slot0.SplitItemAndSkinExperienceItem = function(slot0, slot1)
 end
 
 slot0.IsSkinExperienceItem = function(slot0)
+	slot1 = nil
+
+	if not isa(slot0, Drop) then
+		slot0 = Drop.New(slot0)
+	end
+
 	return slot0:getConfigTable() and slot1.usage == ItemUsage.USAGE_SKIN_EXP
 end
 
