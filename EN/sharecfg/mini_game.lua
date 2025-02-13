@@ -1611,8 +1611,8 @@ pg.mini_game = {
 		name = "2023情人节小游戏",
 		config_csv = "",
 		id = 50,
-		hub_id = 42,
-		request_data = 0,
+		hub_id = 63,
+		request_data = 1,
 		simple_config_data = {
 			drop_ids = {
 				{
@@ -1646,8 +1646,8 @@ pg.mini_game = {
 					1
 				},
 				{
-					9,
-					1300,
+					7,
+					201372,
 					1
 				}
 			}

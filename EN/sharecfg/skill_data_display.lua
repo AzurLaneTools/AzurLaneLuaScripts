@@ -3414,7 +3414,11 @@ pg.skill_data_display = setmetatable({
 		1090356,
 		1090358,
 		1090359,
-		1090364
+		1090364,
+		1090380,
+		1090381,
+		1090390,
+		1090391
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -17070,5 +17074,21 @@ pg.base.skill_data_display = {
 	[1090364] = {
 		id = 1090364,
 		name = "Shield Generator"
+	},
+	[1090380] = {
+		id = 1090380,
+		name = "Double Torpedo - Atago"
+	},
+	[1090381] = {
+		id = 1090381,
+		name = "Double Torpedo - Atago"
+	},
+	[1090390] = {
+		id = 1090390,
+		name = "Anti-Air Mode - Columbia"
+	},
+	[1090391] = {
+		id = 1090391,
+		name = "Anti-Air Mode - Columbia"
 	}
 }

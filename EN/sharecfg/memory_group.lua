@@ -320,6 +320,7 @@ pg.memory_group = setmetatable({
 		604,
 		605,
 		606,
+		607,
 		1000,
 		1001,
 		1002,
@@ -6893,6 +6894,23 @@ pg.base.memory_group = {
 			4145,
 			4146,
 			4147
+		}
+	},
+	[607] = {
+		title = "Commander, It's Time to Eat!",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 607,
+		icon = "title_chara_jian",
+		memories = {
+			4181,
+			4182,
+			4183,
+			4184,
+			4185,
+			4186,
+			4187
 		}
 	},
 	[1000] = {

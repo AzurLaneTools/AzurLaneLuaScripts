@@ -100,6 +100,7 @@ slot0.submitActivity = function(slot0, slot1, slot2, slot3, slot4)
 				for slot5, slot6 in ipairs(uv3) do
 					uv2:updateTaskBagData(slot6.id, uv1.act_id)
 					SubmitTaskCommand.OnSubmitSuccess(slot6)
+					getProxy(TaskProxy):removeSubmittingTask(slot6.id)
 				end
 
 				uv2:sendNotification(GAME.SUBMIT_ACTIVITY_TASK_DONE, {

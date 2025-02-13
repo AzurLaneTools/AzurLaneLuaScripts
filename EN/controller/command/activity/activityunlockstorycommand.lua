@@ -20,7 +20,7 @@ slot0.execute = function(slot0, slot1)
 			slot1.data1 = slot1.data1 - 1
 
 			getProxy(ActivityProxy):updateActivity(slot1)
-			uv1:sendNotification(GhostSkinMediator.UnlockStoryDone, {
+			uv1:sendNotification(GAME.ACTIVITY_STORYUNLOCKED_DONE, {
 				storyId = uv0.arg1
 			})
 		end

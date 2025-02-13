@@ -62,7 +62,7 @@ pg.activity_event_question = {
 	},
 	[77] = {
 		question = "In what arrangement are navigation lights placed on a ship?",
-		answer_right = "Red on starboard, green on port, white on aft",
+		answer_right = "Red on port, green on starboard, white on aft",
 		answer_false1 = "Red on starboard, yellow on port",
 		type = 1,
 		id = 77,

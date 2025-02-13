@@ -140,9 +140,11 @@ slot2.Deactive = function(slot0)
 		}))
 	end
 
-	slot0._unit:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_SHIELD_BROKEN, {
-		shieldBuffID = slot0._buffID
-	})
+	if slot0._unit:IsAlive() then
+		slot0._unit:TriggerBuff(uv0.Battle.BattleConst.BuffEffectType.ON_SHIELD_BROKEN, {
+			shieldBuffID = slot0._buffID
+		})
+	end
 end
 
 slot2.Clear = function(slot0)

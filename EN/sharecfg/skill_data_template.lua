@@ -2540,7 +2540,9 @@ pg.skill_data_template = setmetatable({
 		1090330,
 		1090340,
 		1090350,
-		1090360
+		1090360,
+		1090380,
+		1090390
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -156842,7 +156844,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		name = "Special Slash - Spread",
 		type = 1,
 		max_level = 1,
-		desc = "The ship in the frontmost position of your Vanguard performs a slash attack. Slash attack pattern, range, and DMG are based on the number of Vanguard ships equipped with slash attack gear, the ships' hull type, and the equipped module's effects.",
+		desc = "The frontmost ship in your Vanguard performs a special slashing attack. The pattern, range, and DMG dealt are based on the number of ships in your Vanguard with slashing-type gear equipped, their hull types, and the effects of the gear.",
 		id = 901010,
 		system_transform = {},
 		world_death_mark = {
@@ -156856,7 +156858,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		name = "Slash Attack - Area",
 		type = 2,
 		max_level = 1,
-		desc = "The ship in the frontmost position of your Vanguard performs a slash attack. Slash attack pattern, range, and DMG are based on the number of ships equipped with slash attack gear, the ships' hull type, and the equipped module's effects.",
+		desc = "The frontmost ship in your Vanguard performs a special slashing attack. The pattern, range, and DMG dealt are based on the number of ships in your Vanguard with slashing-type gear equipped, their hull types, and the effects of the gear.",
 		id = 901020,
 		system_transform = {},
 		world_death_mark = {
@@ -170726,6 +170728,245 @@ The DMG of both these barrages is based on the skill's level.]],
 				},
 				{
 					"3.5%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090380] = {
+		desc_get = "",
+		name = "Double Torpedo - Atago",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP by $1. When this ship fires her torpedoes: fires a $3 special barrage (DMG is based on the skill's level) and, with a $2 chance, fires another wave of torpedoes. Further increases the HE Ammo DMG boosting effect of the skill \"Arsonist\" by 15.0%.",
+		id = 1090380,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[1090390] = {
+		desc_get = "",
+		name = "Anti-Air Mode - Columbia",
+		type = 2,
+		max_level = 10,
+		desc = "When this ship fires her Anti-Air Guns: 25.0% chance to increase this ship's AA by $1 for 3s. Every 20s: fires a $2 special barrage (DMG is based on the skill's level).",
+		id = 1090390,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"20.0%",
+				"40.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"20.0%",
+					"+2.2%"
+				},
+				{
+					"22.2%",
+					"+2.2%"
+				},
+				{
+					"24.4%",
+					"+2.2%"
+				},
+				{
+					"26.6%",
+					"+2.2%"
+				},
+				{
+					"28.8%",
+					"+2.2%"
+				},
+				{
+					"31.0%",
+					"+2.2%"
+				},
+				{
+					"33.2%",
+					"+2.2%"
+				},
+				{
+					"35.4%",
+					"+2.2%"
+				},
+				{
+					"37.6%",
+					"+2.4%"
+				},
+				{
+					"40.0%"
 				}
 			},
 			{
