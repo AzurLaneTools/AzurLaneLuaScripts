@@ -1577,7 +1577,7 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900431] = {
-		name = "仲裁者·沐恩·XVIII",
+		name = "아비터·문·XVIII",
 		change_skin = "",
 		bg_sp = "",
 		desc = "无描述",

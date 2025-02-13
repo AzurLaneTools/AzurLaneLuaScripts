@@ -12552,7 +12552,7 @@ pg.base.ship_skin_template_17 = {
 		}
 	},
 	[900408] = {
-		name = "柯蕾",
+		name = "콜레트",
 		change_skin = "",
 		bg_sp = "",
 		desc = "无描述",

@@ -1025,7 +1025,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "그 미래를 찾아준 건… 바로 「$1」…",
+			say = "그 미래를 찾아준 건… 바로 「{playername}」…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

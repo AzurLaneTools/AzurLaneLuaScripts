@@ -522,7 +522,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「――방문자 앵커리지 인증 실패! 경고! 경고! 인증을 통과해야 출입할 수 있습니다!」",
+			say = "「--방문자 {playername} 인증 실패! 경고! 경고! 인증을 통과해야 출입할수있습니다!」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1219,7 +1219,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「――방문자 $1 인증 실패! 경고! 경고! 인증을 통과해야 출입할 수 있습니다!」",
+			say = "「――방문자 페이윈 인증 실패! 경고! 경고! 인증을 통과해야 출입할 수 있습니다!」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1267,7 +1267,7 @@ return {
 			bgName = "bg_story_childschool",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "「――방문자 페이윈 인증 실패! 경고! 경고! 인증을 통과해야 출입할 수 있습니다!」",
+			say = "「--방문자 앵커리지 인증 실패! 경고! 경고! 인증을 통과해야 출입할수있습니다!」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
