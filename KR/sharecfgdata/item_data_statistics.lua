@@ -93739,7 +93739,7 @@ _G.pg.base.item_data_statistics[60526] = {
 
 _G.pg.base.item_data_statistics[60527] = {
 	open_directly = 0,
-	name = "춘절 초대장 (2025)",
+	name = "연하장(을사)",
 	type = 21,
 	display = "새해를 축하하는 연하장도 겸한다. 사용하면 함선과 기념 아이템을 획득할 수 있다.",
 	other_resource_cost = "[]",
@@ -93782,7 +93782,7 @@ _G.pg.base.item_data_statistics[60527] = {
 
 _G.pg.base.item_data_statistics[60528] = {
 	open_directly = 0,
-	name = "춘절 초대장 (다이호)",
+	name = "다이호의 연하장 ",
 	type = 1,
 	display = "다이호에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
@@ -93813,7 +93813,7 @@ _G.pg.base.item_data_statistics[60528] = {
 
 _G.pg.base.item_data_statistics[60529] = {
 	open_directly = 0,
-	name = "춘절 초대장 (화지아)",
+	name = "화지아의 연하장",
 	type = 1,
 	display = "화지아에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
@@ -93844,7 +93844,7 @@ _G.pg.base.item_data_statistics[60529] = {
 
 _G.pg.base.item_data_statistics[60530] = {
 	open_directly = 0,
-	name = "춘절 초대장 (얏센)",
+	name = "얏센의 연하장",
 	type = 1,
 	display = "얏센에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
@@ -93875,7 +93875,7 @@ _G.pg.base.item_data_statistics[60530] = {
 
 _G.pg.base.item_data_statistics[60531] = {
 	open_directly = 0,
-	name = "춘절 초대장 (젠하이)",
+	name = "젠하이의 연하장",
 	type = 1,
 	display = "젠하이에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
@@ -93906,7 +93906,7 @@ _G.pg.base.item_data_statistics[60531] = {
 
 _G.pg.base.item_data_statistics[60532] = {
 	open_directly = 0,
-	name = "춘절 초대장 (타이위안)",
+	name = "타이위안의 연하장",
 	type = 1,
 	display = "타이위안에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
@@ -93937,7 +93937,7 @@ _G.pg.base.item_data_statistics[60532] = {
 
 _G.pg.base.item_data_statistics[60533] = {
 	open_directly = 0,
-	name = "춘절 초대장 (쿠이비셰프)",
+	name = "쿠이비셰프의 연하장",
 	type = 1,
 	display = "쿠이비셰프에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
@@ -93968,7 +93968,7 @@ _G.pg.base.item_data_statistics[60533] = {
 
 _G.pg.base.item_data_statistics[60534] = {
 	open_directly = 0,
-	name = "춘절 초대장 (테세우스)",
+	name = "테세우스의 연하장",
 	type = 1,
 	display = "테세우스에게 받은 춘절 연하장 (춘절 2025)",
 	other_resource_cost = "[]",
