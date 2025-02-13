@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从在实践课上被这个领域深深吸引，毕业后的娜比娅便一头扎进了机械维修的世界。",
+			say = "Guided by an interest fostered by her handicrafts classes, Navi immediately jumped into the world of machine maintenance after graduating.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg37",
-			say = "在堆满各式机械零件的器材库里，娜比娅正大大咧咧地坐在工作台前。",
+			say = "Inside her equipment storage filled with all kinds of mechanical parts, she sits at her workbench.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
-			say = "她的两只手中都捏着设计图纸，似乎是在比对哪一份是最优解。",
+			say = "She holds a blueprint in each hand, her gaze switching between the two, trying to figure out which is the most optimal solution.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,19 +81,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "每次找你，你都在这里啊。",
+			say = "Every time I come to check, you're always here.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "唔唔？是{tb}啊~",
+			say = "Hm? Oh, {tb}.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,19 +104,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
-			say = "因为叼着扳手的缘故，她有些口齿不清。",
+			say = "Her voice comes through muffled on account of the wrench she's holding with her mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哎呀~{tb}是特意来找我的吗？",
+			say = "What brings you here? Just wanted to say hello?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,43 +129,43 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，就是想来看看你。",
+			say = "Kind of. I wanted to see how you were doing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真拿你没办法呢~那{tb}就乖乖在一边坐好吧，不许打扰我工作。",
+			say = "Oh you. Alright, sit down somewhere over there. Don't get in the way of my work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，有{tb}陪着的话，我会稍微~工作得更卖力一点的！",
+			say = "I guess since you're here, I've got to look my best and get some real work done.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你可不要等太久就哭鼻子哦？人家会心疼的呢~",
+			say = "Just don't come crying if I take a while, alright? You'll make me feel guilty.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

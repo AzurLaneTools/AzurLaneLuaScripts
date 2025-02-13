@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "Port - Office",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "「养成计划」……？不是已经告一段落了么？",
+			say = "\"Project Identity\"? Hang on, haven't we already finished raising you?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看着放在办公桌上的企划书，有些不解地向领航员-TB进行确认。",
+			say = "Staring puzzled at the project papers on my desk, I turn to TB for an explanation.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确认。此份企划实际内容与之前的养成计划并不存在冲突。",
+			say = "Question received. The contents of this project do not clash with the previous project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "分析显示，将标题修改为「养成计划2.0」会更准确。",
+			say = "Analysis complete. It would be appropriate to retitle this project as \"Project Identity 2.0.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我将重新打印修正后的企划书，并联系{namecode:98:明石}同步相关修改。",
+			say = "I will now reprint the document and share it with Akashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "同步{namecode:98:明石}？这是{namecode:98:明石}做的企划么？",
+			say = "Akashi? Did she come up with this?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不完全是。这是我与{namecode:98:明石}合作完成的企划书。",
+			say = "Negative. Akashi and I created this project in collaboration.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "补充说明：她是接受了我的委托才参与合作。",
+			say = "Additionally, I requested assistance from Akashi, which she provided.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？",
+			say = "Huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在我准备追问TB时，另一道熟悉的嗓音响了起来。",
+			say = "Before I can get another word in with TB, a voice I'm well-acquainted with cuts in.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:98:明石}刚刚好像听到有人在呼唤我的名字喵~",
+			say = "Did someone call, nya?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,20 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "方才被提到名字的绿头猫咪适时地出现在指挥室中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "你又是何时来的……",
+			say = "With perfect timing, the green cat appears in my office, like a familiar summoned through the utterance of its name.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +199,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "算了，不重要。",
+			say = "When did you get here?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +212,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "既然你们都在，不如就直接和我讲讲为什么会有这份企划吧？",
+			say = "Actually, don't answer that...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Now that you're both here, could you explain what this project is?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "回答：作为养成计划的实际对象，我从之前的数据中获得了非常多宝贵的认知。",
+			say = "Question received. Thanks to Project Identity, I have gained a tremendous amount of cognitive data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因此，我认为指挥官身上的亲和力、责任心等优秀特质，还能够发挥出更多价值。",
+			say = "Therefore, I believe that your excellent qualities – such as your friendliness and sense of responsibility – have the potential to yield even greater value.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但，指挥官对“我”进行重复培养，帮我寻找“个性”的行为……",
+			say = "I managed to discover a personality of my own thanks to your repeated training. That being said...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我能够从中获得的，始终局限于指挥官这份从无到有的培养过程内容。",
+			say = "The experience I can gain is always limited to the contents of your training process starting from scratch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然每次都有所不同，但数据收集过程已接近极限，即将产生边际递减效应。",
+			say = "While each instance yields different results, the data collection process has presently reached the point of diminishing returns.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样一来，在理解“个性”这件事上，我将无法获得更多进展。",
+			say = "As it stands, there are no prospects of deepening my understanding of individuality.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因此，我向{namecode:98:明石}请求协助处理了这份企划。",
+			say = "That being the case, I asked Akashi for assistance with drafting a new project.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用更通俗的方式来解释就是领航员小姐的学习到了瓶颈期喵~需要更多新数据喵~",
+			say = "Simply put, TB's training has hit a bottleneck, nya. She needs new data, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "但继续培养TB，不还是无法突破瓶颈期么？",
+			say = "But if it has hit a bottleneck, how is training her further going to achieve anything?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,7 +369,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，这个就是这份全新企划的重点所在喵~我们要换培养对象喵！",
+			say = "That's where the new project comes in, nya! You'll be raising someone else this time, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "港区的人工智能不是只有TB一个么……还能培养谁？",
+			say = "You mean another AI? Do we even have another AI besides TB at the port?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然是领洋者了喵~",
+			say = "We do, nya! Oceana, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……为什么是领洋者？",
+			say = "...Why her, in particular?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那当然是因为她有十足的培养潜力了喵！",
+			say = "Because she's got a lot of potential inside her, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "虽然不知道这个判断标准是怎么来的……但她不是没有心智么？",
+			say = "Even assuming you have a way to gauge that, isn't there a bigger problem? Namely, that she has no will of her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~这个问题交给领航员小姐就能轻松解决喵。",
+			say = "Nyahaha. I got TB to fix that, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "基于历史记录分析、港区同伴们的问卷统计，以及{namecode:98:明石}提供的建议参数……",
+			say = "Affirmative. I have created a basic personality for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我已完成领洋者的基础性格建模。",
+			say = "It was based on the analysis of recorded data, surveys filled out by members of the port, and parameters set by Akashi.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果指挥官同意的话，只需要{namecode:98:明石}将基础性格的数据上传至终端内即可。",
+			say = "We only need your consent, then Akashi will upload the personality data to your device.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等，如果已经设定了基础性格，还有什么培养的必要么？",
+			say = "Isn't it kind of pointless to raise her if she already comes with a personality?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这样一来的话，不是已经具备“个性”了么？",
+			say = "I mean... Isn't that the goal? To develop a personality?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确实如此。但我也想了解，已存在的个性，是否会因培养和引导而改变。",
+			say = "That is correct. The question is if an existing personality can change based on upbringing.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以及，如果发生改变，会呈现怎样的结果。",
+			say = "If it can, I will record the results.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这对我的学习很有价值。",
+			say = "This data holds incredible value for my study into personalities.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然，是否继续推进，需要由指挥官决定。我只是提出了“请求”。",
+			say = "You may decide whether or not to proceed with the project. Ultimately, I'm just making a wish to you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（请求……TB以前都不会使用这个词。）",
+			say = "(\"Making a wish\"... TB has never used that phrase before.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（或许这也可以视作为培养“个性”对她颇有帮助的结果？）",
+			say = "(You could take that as proof that cultivating her personality has produced results.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -618,7 +618,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "既然是TB的请求……那试试看也未尝不可。",
+			say = "Well, if it's a personal request from you, then I guess I could try.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "流程上还和之前一样么？",
+			say = "Is the process the same as last time?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "会再简化一些喵~",
+			say = "It's been simplified a little, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟和领航员小姐的情况不一样嘛，已经有性格数据的情况下很多流程就可以省略掉了喵。",
+			say = "Since Oceana already has a foundation to work off of, some of the earlier steps can be skipped, nya.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……那在正式开始推进之前，我还有一件事要确认。",
+			say = "I see. Then I just have one question before we fully go ahead with this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这个「养成计划」，之后还会再继续拓展么？",
+			say = "Are there plans to expand Project Identity in the future?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "答案是不确定。目前的培养可能无法提供足够的数据来突破瓶颈。",
+			say = "It's hard to say at the moment. It is a possibility that this process will not yield sufficient data to break through the bottleneck.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过指挥官可以放心，资料库中还储备了充足的数据，后续可以继续进行性格建模。",
+			say = "However, as there is ample data saved, it will be possible to perform other personality simulations in the future.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果2.0计划的数据不足，我们可以继续推进3.0、4.0……以此类推。",
+			say = "Should the 2.0 version produce insufficient data, we can keep trying with versions 3.0, 4.0, and so forth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,7 +741,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……总感觉自己要拥有丰富的“育儿经验”了。",
+			say = "By the time we're done, I'll be the most experienced parent in the world.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种语气和语境，我可以理解为这是一种“调侃”的情绪。",
+			say = "Judging by context and your phrasing, I will interpret this as a \"joke.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,7 +771,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根据已有的个性学习资料，我应该作出相应的情绪反应。",
+			say = "I will now provide an appropriate emotional response based on my current training data.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈、哈、哈。",
+			say = "Ha. Ha. Ha.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -796,7 +796,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "人工智能少女发出了不带感情色彩的笑声。",
+			say = "A laugh devoid of emotion spills out from TB's mouth.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -807,7 +807,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "但对于她来说，这已经是非常大的进步了，不是么？",
+			say = "While it may not seem like much, it is substantial progress for her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -818,21 +818,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "在企划书末页签下名字后，{namecode:98:明石}立刻将其抽走抱到了怀里。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 312010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "喵呼呼~那接下来的准备工作就交给{namecode:98:明石}吧喵！",
+			say = "I write my signature on the documents. Akashi quickly takes them and cradles them in her arms.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +832,21 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次只是做些调整和修改，再加上领航员小姐帮忙，很快就能搞定的喵~",
+			say = "Nyahaha! I'll go and get things ready then, nya!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "Just need to fine-tune a few things, and with TB's help, I'll be done in no time, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -860,7 +860,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就破例不收指挥官费用了~就当附送的杀必死喵！",
+			say = "Don't worry, I won't charge you anything, nya. Not this time, anyway, nya!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

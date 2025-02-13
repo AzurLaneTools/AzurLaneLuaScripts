@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "秉持着音乐能丰富内心的想法，我送给了娜比娅一套耳机和播放器。",
+			say = "Music enriches the soul – with that sentiment in mind, I gave Navi a pair of headphones and a music player.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,9 +43,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "欸~居然给我准备礼物了？{tb}这个笨蛋居然也知道要讨好我嘛♪",
+			say = "Ooh, for me? You may be a dweeb, {tb}, but you're a surprisingly thoughtful dweeb♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,9 +58,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "哼~看在你这么诚心的份上，就勉强收下好了，要好好感谢我的大恩大德哦？",
+			say = "Since you're so keen on this, I'll accept. Aren't I kind? Aren't you grateful?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,18 +71,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "明明是收礼物的一方，娜比娅却是一副理所应当的口吻。",
+			say = "She's the recipient of this gift, yet for some reason, she thinks I should be thanking her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这种时候应该说谢谢",
+					content = "(Teach her about the magic words.)",
 					flag = 1
 				},
 				{
-					content = "随便她吧",
+					content = "(Forget it.)",
 					flag = 2
 				}
 			}
@@ -95,7 +95,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种时候应该老老实实说谢谢才对吧。",
+			say = "When someone does something like this for you, you're supposed to say, \"Thank you.\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,9 +109,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "哼。还要我说谢谢吗？{tb}真会得寸进尺呢。",
+			say = "You want me to thank you, huh? Wow, getting ahead of yourself much?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,9 +125,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "真是的……这么想听我说那两个字吗？真是个麻烦的大人。",
+			say = "You really crave the appreciation, don't you? What a pain in the butt.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,9 +141,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "算了算了~看在你这么期待的份上……",
+			say = "Well, fine. If you're so excited to hear it...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,9 +157,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "......谢、谢谢啦，笨蛋！",
+			say = "Th-thanks! You dweeb!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（虽然是这个语气，但她看起来还是挺开心的……）",
+			say = "(Underneath that cocky attitude, she seems happy, at least.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（还是个口是心非的小孩子啊。算了，由她吧。）",
+			say = "(If only she'd be more honest with herself. Whatever – better not rock the boat.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,9 +201,9 @@ return {
 			optionFlag = 2,
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "喂喂~{tb}你这个笨蛋用那种眼神看着我做什么？把我当小孩子吗！",
+			say = "Hey! Why're you staring at me like that? You better not be looking down on me as just some kid!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,9 +217,9 @@ return {
 			optionFlag = 2,
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "真是的……！哼！",
+			say = "I swear, if you are... Hmph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "大概是有些不好意思的缘故，娜比娅鼓起了脸颊。",
+			say = "With a slightly embarrassed look on her face, she puffs up her cheeks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "这让她还带着几分婴儿肥的脸此刻看起来更加可爱，也让我不自觉更放轻了口吻。",
+			say = "Her childlike features jump out adorably. I can't help but relax my attitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "差不多要到晚饭时间咯……娜比娅想吃什么？",
+			say = "Ugh... Anyway, it's dinnertime. What do you want to eat?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,9 +267,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "哼，{tb}这个笨蛋终于想起要给我准备晚餐了？",
+			say = "Hah! You finally remembered, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,9 +282,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2002,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "只要是美味的东西我都可以勉强接受啦。不过要是难吃的话我可是会嫌弃的哦？",
+			say = "I'm not picky, so I'll have anything that tastes yummy. No crappy foods, though!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好好……那我就自由发挥了。",
+			say = "Right... I'll see what I can cook up.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "之后用厨房里现有的食材给娜比娅做了一顿晚饭后，我又回到指挥室中处理剩余的工作。",
+			say = "I put together dinner using some ingredients in the kitchen. After that, I returned to my office and got cracking on my incomplete work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "终于将工作处理完毕时，已是夜深。",
+			say = "By the time I wrapped things up, it was already well into the night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "略微活动了下有些僵硬的肩膀，想起了独自一人的娜比娅。",
+			say = "While flexing my stiff shoulders, I remember that I left Navi by herself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……不知道她有没有老实睡觉。先回去看看吧。",
+			say = "Hmm... I wonder if she's gone to bed as she should. I'd better take a quick look.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "深夜·小镇房间",
+			say = "Late at Night - Navi's Room",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "漆黑一片的房间中，从娜比娅的卧室门缝中透出的一丝光亮格外显眼。",
+			say = "The house is pitch black, save for the little bit of light creeping through the door to Navi's room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（门没关又开着灯……是怕黑不敢睡么……？）",
+			say = "(The door is open and the lights are on... Maybe she's scared and can't fall asleep?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "走近她的卧室，抬手敲了敲虚掩的门。",
+			say = "I walk up to her bedroom and gently knock on the half-open door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "并没有得到回应。",
+			say = "There is no response.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,19 +448,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（嗯？难道是开着灯睡着了……？还是进去看看好了。）",
+			say = "(That's odd... Did she fall asleep with the lights on? I should have a look.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……♪",
+			say = "Hmm-hmm♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg2",
 			hidePaintObj = true,
-			say = "在一众玩具的包围之中，娜比娅正戴着耳机，双脚随着音乐的节奏而晃动。",
+			say = "Surrounded by stuffed animals and toys, Navi has her headphones on and is moving her feet in rhythm to the song.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg2",
 			hidePaintObj = true,
-			say = "俨然是一副沉浸其中的模样。",
+			say = "She is completely immersed in the world of music.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,19 +510,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg2",
 			hidePaintObj = true,
-			say = "然而她在不经意间抬头，发现我的到来后，表情立刻变得有些慌乱。",
+			say = "Suddenly, she looks up and notices me. Her expression makes a total change and she loses her cool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……？！谁让你突然进来的啊？！哼！",
+			say = "Huh?! Hey! Didn't your mommy teach you to knock?! Hmph!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,43 +535,43 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我敲过门，大概是因为你戴着耳机所以没听到？",
+			say = "I did, but you probably didn't hear me because of your headphones.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "耳机……不、不要误会了啊！我才不是因为喜欢才听的呢！",
+			say = "My... L-look, don't go jumping to conclusions! I'm not listening to this because I WANT to!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只、只不过是因为……你送的东西如果不听一下的话你也太可怜了……",
+			say = "I just... I just would've felt guilty if I'd never used them!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以勉为其难地听听而已……笨蛋！",
+			say = "I'm only listening to this stuff to not make you sad! Got it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "娜比娅嘟囔着收起了耳机，从地毯上站起身来。",
+			say = "She puts the headphones away whilst muttering under her breath, then rises to her feet on the carpet.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,18 +610,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "看着这样明显有些不好意思的娜比娅，我决定——",
+			say = "Seeing her trying her hardest to play it cool, I decide to...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "摸摸她的头",
+					content = "(Pat her head.)",
 					flag = 1
 				},
 				{
-					content = "提醒她睡觉时间到",
+					content = "(Tell her it's bedtime.)",
 					flag = 2
 				}
 			}
@@ -632,7 +632,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "抬手摸了摸娜比娅的头。",
+			say = "I reach out, placing my hand on her head and patting it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -646,9 +646,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "干嘛啦！……真是的！",
+			say = "H-hey! What're you doing?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,9 +662,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "竟然把人家的头发都弄乱了，笨蛋！",
+			say = "You're gonna mess up my hair! Stupid moron!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -678,7 +678,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好好好，下次不这样了。不过现在时间很晚了，你该去睡了。",
+			say = "Alright, alright, I'll stop. You should go to bed now. It's late.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -692,9 +692,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "我、我又不是真的什么都不懂的小孩子！不用你管……",
+			say = "So what? I'm not a baby who needs nappy time! Leave me alone...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,9 +708,9 @@ return {
 			optionFlag = 1,
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "……不过既然你都这么说了，那我就勉为其难地去睡好了。",
+			say = "Actually... Fine, if you insist on it, I'll go to bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明天再听吧？现在已经很晚了，你该睡觉了。",
+			say = "The music isn't going anywhere. You can listen to it tomorrow. Right now, it's time for bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,9 +738,9 @@ return {
 			optionFlag = 2,
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "哼！才不用你管呢！",
+			say = "Hmph! Leave me alone!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,9 +754,9 @@ return {
 			optionFlag = 2,
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "算了！既然{tb}这个笨蛋都这么求我了，那我就勉为其难地去睡觉好了！",
+			say = "...You know what? Fine, {tb}. If it means so much to you, I'll go to sleep!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "娜比娅说着，爬到了床上，然后钻进了被子里。",
+			say = "With a rebellious attitude, she gets into bed and tucks herself in under the sheets.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -778,7 +778,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "为她将被子掖好后，我关上了她卧室中的灯，房间顿时被黑暗笼罩。",
+			say = "I adjust the sheets for her and turn off the lights. The room is enveloped in blackness.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -789,7 +789,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "只有一抹月光透过窗帘，洒在她的床榻上。",
+			say = "The moon shines through the window, casting a gentle light onto her bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,9 +802,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "哼……这种时候不说点什么吗？{tb}真是个笨蛋。",
+			say = "Hmph... Don't you have something to say? Gosh, you can be such a jerk.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,9 +817,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "不说晚安的话，人家可是会生气的哦？",
+			say = "At least say, \"Good night,\" or I'm gonna be mad.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她小声说。",
+			say = "I hear her grumbling.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,9 +843,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "而且要是我做噩梦的话，那就都是你的责任哦！",
+			say = "If I have a nightmare tonight, it's gonna be all your fault!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -858,7 +858,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "晚安，娜比娅。做个好梦。",
+			say = "Good night, Navi. Sweet dreams.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "无奈地摇了摇头后，我轻手轻脚地退出了她的卧室。",
+			say = "With a strained smile, I shake my head and quietly leave her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

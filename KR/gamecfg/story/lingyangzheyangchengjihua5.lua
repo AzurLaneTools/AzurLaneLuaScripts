@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-2",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "哦~原来如此，想让我用{tb}这个称呼叫你啊。",
+			say = "I see, I see. {tb}. That's what you want me to call you, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "那就这样咯，{tb}~",
+			say = "Alright, then from now on, you're {tb}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "就这样，和她相处的生活正式拉开了帷幕——",
+			say = "And so, the curtains rose on Navi's and my time spent living together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

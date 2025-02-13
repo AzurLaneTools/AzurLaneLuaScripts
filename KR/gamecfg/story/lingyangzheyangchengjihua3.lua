@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "眼前的景象恢复了清晰。",
+			say = "Little by little, my surroundings become clear to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "居然重新又设计了一套房间么……",
+			say = "They even rebuilt the house, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "在环顾四周，确认一切都是全新布置过的之后，我在沙发上坐下。",
+			say = "I take a look around and discover that the layout of the whole place has changed, then take a seat on the couch.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（娜比娅么……有趣的名字。）",
+			say = "(Navi... That's an interesting name.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（从无个性的领洋者，到有性格的娜比娅……）",
+			say = "(Oceana was given a personality, and with it, a new moniker.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不知道TB为她设定的基础性格建模是什么样子，等下又该对她说些什么好。）",
+			say = "(Now I'm curious what her personality is like, and how I should speak to her...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "就在思考着该使用怎样的开场白时，房门前传来了轻微的响动。",
+			say = "While I'm pondering how to introduce myself, I hear a faint noise coming from the entrance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,19 +111,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "伴随着门被推开的声音，一道小小的身影出现在了房间门口。",
+			say = "The door opens, and a young girl steps inside.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼~原来你就是来照顾我的笨蛋大人啊？",
+			say = "Hmph. You're the dweeb who's gonna be looking after me, eh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,12 +147,12 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "初次见面，以后请多关照咯~",
+			say = "Well, nice to meet you! Be a good guardian, or whatever♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "初次见面……",
+			say = "Uh, nice to meet you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（看来具备基础的认知和语言能力，在这方面倒是不需要额外教导了。）",
+			say = "(So they've given her basic cognition and language capabilities. Doesn't look like I'll need to teach her much about those.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,56 +191,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（真厉害的技术啊……这么一看，港区的人工智能要实现从1到2的突破了么。）",
+			say = "(It's incredible how far we've come. Maybe soon we'll have more AIs around the port.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你这是什么语气和表情嘛？整个人也呆头呆脑的，一点也不机灵……",
+			say = "That's it? That's your introduction? Wow, you're living up to your dweeb name already.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "算了，要好好感谢我愿意让你照顾我才对哦♪",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg1",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "原来是这种性格么……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg1",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "怎么，笨蛋大人不服气？",
+			say = "You know what? You should be thanking ME for letting you take care of me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +228,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……",
+			say = "Ohh. So this is how you're gonna be.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg1",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "What's that? Is something not to your liking, huh, dweeb?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（算了，现在的她也只是还未经引导的小孩子罢了。）",
+			say = "......",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,18 +266,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（今后会成长为什么模样，还说不准呢。）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg1",
-			hidePaintObj = true,
-			say = "想到这里，对眼前的小小身影伸出了手。",
+			say = "(She's just a kid. Don't let her get to you.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +279,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "娜比娅，欢迎回家。",
+			say = "(It's a total mystery to me in what way growing up is going to change her...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,19 +290,43 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg1",
 			hidePaintObj = true,
-			say = "小小的手朝我伸来，随即握紧。",
+			say = "While thinking that to myself, I extend a hand to her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg1",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Welcome to your home, Navi.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg1",
+			hidePaintObj = true,
+			say = "She extends her own small hand and grasps mine.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg1",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼~以后我也要多操心你这么个废柴大人了呢~",
+			say = "Hmph. Guess I've got a hopeless adult to babysit now! Oh well!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

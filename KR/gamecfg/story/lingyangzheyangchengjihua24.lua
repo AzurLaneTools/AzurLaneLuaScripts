@@ -10,7 +10,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "前些日子，在路过乐器店时注意到橱窗里摆着一把漂亮的吉他。",
+			say = "When I pass by a music shop one day, I notice a pretty sick guitar on display.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "想起娜比娅经常提到对音乐创作的憧憬，便买下它送给了娜比娅。",
+			say = "Navi has always expressed interest in writing music, so I splurge on it and give it to her as a gift.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,9 +51,9 @@ return {
 			bgName = "bg_project_oceana_room3",
 			tbActor = true,
 			actor = 2100,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "欸？这个……是送给我的吗？",
+			say = "Huh? This is... for me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "她小心翼翼地接过吉他，眼睛里闪烁着惊喜的光芒。",
+			say = "She timidly accepts the guitar. Her eyes are full of surprise and joy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯。不过对于入门来说会不会有点太难……？一般会用木吉他吧？",
+			say = "An electric guitar might be hard for a beginner. Should we start with an acoustic instead?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2100,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "嗯……说的也是呢，但是只要我努力的话，相信一定会没问题的~",
+			say = "Oh... Now that you mention it, maybe. But I'm fine! If I try hard, I know I can do it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "从那以后，她的房间里总是传出断断续续的吉他练习声。",
+			say = "After that, I'd often hear the sounds of guitar practice coming from her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "只是每当想听听她的练习成果时——",
+			say = "But when I asked her to show me what she's learned...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,9 +150,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2100,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "还、还没准备好，等我再练习一下……！",
+			say = "N-not yet! Let me practice a little more!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "她总会这样不好意思地推辞。",
+			say = "She'd always get flustered and refuse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "直到今天，工作提早结束回到家时。",
+			say = "That is, until one day when I left work and came home early...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "推开门的瞬间，一段悠扬的旋律传入耳中。",
+			say = "The instant I opened the door, I heard a calm melody.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "吉他声中夹杂着她轻柔的哼唱，透过半掩的房门飘了出来——",
+			say = "Her soft singing voice accompanied the tones of the guitar.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg17",
-			say = "房间里，娜比娅穿着舒适的家居服，正坐在电脑椅上。",
+			say = "Navi sits in a computer chair in her room, wearing comfy clothes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
-			say = "她怀里抱着那把吉他，身前支着麦克风，电脑上显示着录音软件的界面。",
+			say = "She has a guitar and microphone set up, and recording software is running on her PC.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,19 +269,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
-			say = "听见门响，她停下了演奏，抬起头时露出了一丝惊讶。",
+			say = "When I open the door, she stops and looks up, surprised.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊……被发现了……",
+			say = "Oops. You got me...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,19 +292,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
-			say = "虽然脸颊有些泛红，但这次她没有像往常一样推辞躲避。",
+			say = "She blushes, but she doesn't try to evade the matter this time.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "其实……这段时间我一直在练习写歌。",
+			say = "The truth is... I've been learning songwriting lately.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "写歌？已经能创作了吗？",
+			say = "Songwriting? You're already that good?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,31 +328,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
-			say = "她不好意思地点点头，手指轻轻拨动着琴弦。",
+			say = "Navi nods shyly and just barely plucks the strings.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然是很简单的旋律，但是是我写给你的。",
+			say = "It's still really simple, but I wrote it for you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg17",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我想给你个惊喜，所以一直就没有说……",
+			say = "I wanted it to be a surprise. That's why I never told you...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room3",
-			say = "那个午后，房间里回荡着她创作的旋律和她的歌声。",
+			say = "That afternoon, her melody and singing echoed in her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "这大概就是最珍贵的礼物了吧——少女用心谱写的，只属于一人的歌。",
+			say = "It was the greatest gift of all – a heartfelt song just for one.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

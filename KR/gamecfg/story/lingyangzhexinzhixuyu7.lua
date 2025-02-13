@@ -14,9 +14,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "最近看到了饭团的制作方法哦。",
+			say = "얼마 전에 누가 주먹밥을 만드는 걸 봤어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,9 +46,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "我也想做饭团试试看。",
+			say = "나도 직접 만들어 보고 싶은데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,10 +61,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			important = true,
 			hidePaintObj = true,
-			say = "不过我有点纠结放什么馅料进去呢……",
+			say = "안에 뭘 넣으면 좋을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,12 +72,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "从最简单的开始尝试吧？",
+					content = "우선은 간단한 것부터 넣어 보자",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "把喜欢的馅料都放进去",
+					content = "좋아하는 걸 다 넣어 봐",
 					type = 2
 				}
 			}
@@ -90,9 +90,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "唔，也是哦。",
+			say = "응, 그렇지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,9 +105,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "一步一步来确实比较好呢。",
+			say = "조금씩 도전하는 편이 좋겠지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,9 +121,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "我会努力尝试一下的~争取让{tb}也觉得我捏的饭团好吃。",
+			say = "{tb} 마음에도 들 수 있게 열심히 만들어 볼게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,9 +136,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "欸？要是真的把喜欢的馅料都放进去的话……",
+			say = "뭐? 좋아하는 걸 전부 넣으라니……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,9 +152,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "嗯……说不定能做出独一无二的饭团呢。",
+			say = "어쩌면 유일무이한 주먹밥이 탄생할지도 모르겠네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,9 +167,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "那等我做好了，{tb}一定要尝尝看哦。",
+			say = "완성되면 {tb}한테도 꼭 먹여줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

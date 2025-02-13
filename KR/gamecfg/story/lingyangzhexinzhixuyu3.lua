@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-4",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "那、那个……{tb}……",
+			say = "이, 있잖아…… {tb}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "我稍微超支了一点点……",
+			say = "사, 사실 조금 돈을 많이 써버려서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,10 +62,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			important = true,
 			hidePaintObj = true,
-			say = "可以提前预支下个月的零花钱吗？我会乖乖的哦~",
+			say = "다음 달 용돈, 미리 받을 수 있을까? 착하게 말 잘 들을게~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,12 +73,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "让我们一起算算账",
+					content = "같이 가계부를 쓰자",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "说说看想要多少？",
+					content = "얼마나 필요한데",
 					type = 2
 				}
 			}
@@ -91,9 +91,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "欸？是要一起写明细的意思吗……？",
+			say = "뭐? 내가 쓴 용돈을 같이 적어 보자고…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然。这样更容易养成管理零花钱的意识。",
+			say = "――응, 그러면 다음부터는 낭비하는 일이 적어질 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,9 +121,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "真是麻烦……不过为了零花钱只好听话了……",
+			say = "귀찮게…… 그래도 용돈을 위해서라면 어쩔 수 없지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,9 +137,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "欸？这么痛快？{tb}居然是这么好说话的人啊~",
+			say = "헉? 그렇게 바로…? {tb}… 의외로 자상하잖아~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然。不过要答应我好好规划使用哦。",
+			say = "――이 정도는 괜찮아. 그 대신 이번에는 계획적으로 쓰겠다고 약속해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,9 +167,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "规划什么的……哎呀~",
+			say = "계획적으로……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,9 +183,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "总之先把零花钱给人家吧~",
+			say = "아, 알았으니까 어서 주기나 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

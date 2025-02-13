@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-4",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "{tb}~看在你最近还算努力的份上，我准备了这个特调果汁哦~",
+			say = "{tb}, 요새 고생하는 것 같아서 내가 특제 과일 주스를 만들어 봤어♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "虽然颜色有点奇怪……但是味道肯定很不错！",
+			say = "보기에는 좀 이상해도… 맛은 내가 보증할게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,9 +62,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "是人家自己调制的独家配方哦♪",
+			say = "내가 만든 오리지널 레시피니까 당연하지♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,10 +77,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			important = true,
 			hidePaintObj = true,
-			say = "要不要来一口？保证你终身难忘哦~",
+			say = "자, 마셔 봐. 평생 잊지 못할 맛이 될 거야",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我觉得普通果汁就挺好的",
+					content = "평범한 주스가 좋은데",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "正好渴了，我全部喝掉！",
+					content = "마침 목도 마르니까 잘 마실게!",
 					type = 2
 				}
 			}
@@ -106,9 +106,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "欸……{tb}真无趣。",
+			say = "뭐야…… {tb}, 재미없게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "哎呀~看来今天会很有意思呢♪",
+			say = "그래? 후후, 이거 재밌어지겠는걸.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

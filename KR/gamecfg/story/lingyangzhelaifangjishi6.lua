@@ -15,7 +15,7 @@ return {
 			actor = 499010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，指挥官和娜比娅来得正好呢~我正在研制新的点心哦。",
+			say = "어머, 지휘관에 네비까지… 마침 잘 오셨어요. 새로운 과자를 개발하던 중이었거든요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要来当第一个品尝者吗？这可是我特别准备的“治愈配方”呢~",
+			say = "괜찮으시면 제 첫 시식자가 되어 주시겠어요? 특별히 고안한 「힐링 레시피」로 만들었답니다♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "看着盘中不知为何呈现出鲜红色的点心，我犹豫了一下。",
+			say = "무시무시할 정도로 새빨간 과자를 앞에 두고 나도 모르게 주저하고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,9 +68,9 @@ return {
 			bgName = "star_level_bg_606",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "哼~反正废柴{tb}肯定会踩中这个陷阱吧？",
+			say = "흥, {tb}. 또 멍청하게 함정에 빠지려는 건 아니지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，怎么会是陷阱呢~",
+			say = "어머, 함정이라뇨. 듣기 좀 거북하네요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我可是很认真地想要“治愈”指挥官的哦……",
+			say = "진심으로 지휘관님의 심신을 달래드리고 싶어서 만든 건데…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,18 +109,18 @@ return {
 			actor = 499010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且……能亲眼看着指挥官品尝的表情，一定会很有趣吧？",
+			say = "게다가… 지휘관님께서 맛보는 표정을 바로 눈앞에서 바라보는 건 무척 즐겁답니다?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "接受{namecode:439:罗恩}的好意",
+					content = "먹어본다",
 					flag = 1
 				},
 				{
-					content = "婉拒{namecode:439:罗恩}的提议",
+					content = "사양한다",
 					flag = 2
 				}
 			}
@@ -133,7 +133,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然是你特意准备的，那就尝尝看吧。",
+			say = "――날 위해 만들어 준 거니, 감사히 잘 먹을게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 499010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了呢~指挥官要从头到尾慢慢品尝哦……",
+			say = "다행이에요~ 지휘관님, 꼭꼭 씹으면서 마지막까지 맛을 음미하셔야 해요…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,7 +161,7 @@ return {
 			actor = 499010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，看着点心一点点消失的样子，真是令人……愉悦呢♪",
+			say = "아아… 과자를 조금씩 드시는 그 모습…… 보기만 해도 너무 행복해요♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,9 +174,9 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "欸~原来还能用这种方式对待笨蛋{tb}啊~",
+			say = "아하~ 바보 {tb}한테 이런 식으로 대할 수도 있구나~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉，我们还有其他事情要处理，品尝点心可能要下次了。",
+			say = "――미안한데 지금은 다른 볼일이 있어서… 다음에 먹어볼게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 499010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样啊，真是可惜呢……明明我还想看指挥官享用时的表情的。",
+			say = "그렇군요. 지휘관님이 드시는 표정을 보고 싶었는데… 좀 아쉽네요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 499010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过没关系，下次来的话，我会准备更多能“治愈”指挥官的惊喜哦~",
+			say = "그래도 괜찮아요~ 다음에 지휘관님을 「힐링」할 서프라이즈를 더 많이 준비하면 되니까요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,9 +232,9 @@ return {
 			optionFlag = 2,
 			fontsize = 24,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "总算是看到笨蛋{tb}聪明了一回♪",
+			say = "바보 {tb}답지 않게 웬일로 그런 결단을 다 내렸데? ♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，我倒是发现娜比娅对指挥官很是在意呢……",
+			say = "후후, 네비도 지휘관님에게 꽤 관심이 많은 모양이네요…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过娜比娅要是再敢打扰我和指挥官的“治愈时光”的话……",
+			say = "다음에 또 지휘관님과 저의 「힐링 시간」을 방해하면……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次的“治愈配方”，说不定就会变成专门为你准备的特别版本哦♪",
+			say = "다음 「힐링」은 네비를 위해서만 준비하게 될지도 몰라요♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "{namecode:439:罗恩}的笑容依然温柔，但总觉得今天的气氛突然变得有些微妙。",
+			say = "론의 표정은 언제나처럼 온화했지만, 갑자기 주변 온도가 급격히 낮아진 듯한 기분이 들었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,9 +296,9 @@ return {
 			bgName = "star_level_bg_606",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "呜……废柴{tb}你给我小心点啦！",
+			say = "헉… 바보 {tb}… 너도 조심해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "下次再见面，指挥官~我会准备更多美味的点心的。",
+			say = "지휘관님, 그럼 다음에 또 봬요♪ 맛있는 과자를 잔뜩 준비해서 올게요.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,9 +323,9 @@ return {
 			bgName = "star_level_bg_606",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "哼，我也会跟着来的……！",
+			say = "흥, 이상한 짓 하기만 해 봐…! 내가 똑똑히 지켜볼 거야…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呵呵，随时欢迎哦~",
+			say = "후후후, 마음대로 하세요~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "和{namecode:439:罗恩}道别后，便和娜比娅一起离开了。",
+			say = "론에게 작별 인사를 건넨 후, 네비와 함께 자리를 떠났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "一路上娜比娅都若有所思，似乎获得了什么新的启发。",
+			say = "돌아오는 길에 네비는 무언가를 계속 생각하고 있었다. 아무래도 새로운 영감이 떠오른 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

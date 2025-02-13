@@ -277,14 +277,11 @@ end
 
 slot0.getPaintingName = function(slot0)
 	slot1 = pg.ship_data_statistics[slot0].skin_id
+	slot2 = pg.ship_skin_template[slot1]
 
-	assert(pg.ship_skin_template[slot1], "ship_skin_template not exist: " .. slot0 .. " " .. slot1)
+	assert(slot2, "ship_skin_template not exist: " .. slot0 .. " " .. slot1)
 
-	if not HXSet.isHx() then
-		return slot2.painting
-	else
-		return slot2.painting_hx ~= "" and slot2.painting_hx or slot2.painting
-	end
+	return slot2.painting
 end
 
 slot0.getName = function(slot0)
@@ -308,8 +305,6 @@ slot0.GetDefaultName = function(slot0)
 end
 
 slot0.getShipName = function(slot0)
-	print(slot0)
-
 	return pg.ship_data_statistics[slot0].name
 end
 
@@ -620,13 +615,11 @@ slot0.getAttachmentPrefab = function(slot0)
 end
 
 slot0.getPainting = function(slot0)
-	assert(pg.ship_skin_template[slot0.skinId], "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+	slot1 = pg.ship_skin_template[slot0.skinId]
 
-	if not HXSet.isHx() then
-		return slot1.painting
-	else
-		return slot1.painting_hx ~= "" and slot1.painting_hx or slot1.painting
-	end
+	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+
+	return slot1.painting
 end
 
 slot0.GetSkinConfig = function(slot0)
@@ -638,13 +631,11 @@ slot0.GetSkinConfig = function(slot0)
 end
 
 slot0.getRemouldPainting = function(slot0)
-	assert(pg.ship_skin_template[slot0:getRemouldSkinId()], "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+	slot1 = pg.ship_skin_template[slot0:getRemouldSkinId()]
 
-	if not HXSet.isHx() then
-		return slot1.painting
-	else
-		return slot1.painting_hx ~= "" and slot1.painting_hx or slot1.painting
-	end
+	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+
+	return slot1.painting
 end
 
 slot0.updateStateInfo34 = function(slot0, slot1, slot2)
@@ -2190,7 +2181,7 @@ slot0.hasAvailiableSkin = function(slot0)
 	slot4 = 0
 
 	for slot8, slot9 in ipairs(slot1:GetAllSkinForShip(slot0)) do
-		if slot0:proposeSkinOwned(slot9) or slot3[slot9.id] then
+		if slot0:proposeSkinOwned(slot9) or slot3[slot9.id] or slot1:hasSkin(slot9.id) then
 			slot4 = slot4 + 1
 		end
 	end

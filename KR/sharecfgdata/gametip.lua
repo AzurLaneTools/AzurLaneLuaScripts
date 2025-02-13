@@ -28748,18 +28748,18 @@ _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
-	tip = "최종 점수:"
+_G.pg.base.gametip.Valentine_minigame_label1 = {
+	tip = "최종 득점:"
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
-	tip = "완성 횟수"
+_G.pg.base.gametip.Valentine_minigame_label2 = {
+	tip = "클리어 횟수"
 }
 
 
-_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
-	tip = "현재 완성:"
+_G.pg.base.gametip.Valentine_minigame_label3 = {
+	tip = "현재 진척도"
 }
 
 
@@ -36839,4 +36839,24 @@ _G.pg.base.gametip.child2_schedule_target = {
 
 _G.pg.base.gametip.child2_shop_point_sure = {
 	tip = "행동력은 최대 한도까지만 보유할 수 있습니다(한도를 초과한 행동력은 자동으로 파기됨). 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_s"] = {
+	tip = "대박~! 새로운 레시피인데 이번엔 성공했어~! 지휘관, 이 기쁨과 행복이 잔뜩 담긴 초콜릿을 어서 먹어봐! 헤헤헷, 해피 발렌타인☆"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_a"] = {
+	tip = "우와~ 이렇게나 예쁘게 만들다니! 역시 지휘관은 굉장하다니깐~. 지휘관! 우리가 만든 멋진 작품을 어서 먹어봐야지♪"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_b"] = {
+	tip = "드디어 해냈어! 음, 생각했던 거랑 조금 다르지만...... 지휘관이 많이 도와줬으니 그렇게 나쁘진 않을지도? 에헷☆"
+}
+
+
+_G.pg.base.gametip["2025Valentine_minigame_c"] = {
+	tip = "으음... 이 맛은, 괜찮은..건가? 로열 메이드가 이런 걸 만들다니... 지휘관, 다시 한 번 만들어보자!"
 }

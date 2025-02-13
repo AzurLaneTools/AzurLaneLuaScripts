@@ -12,7 +12,7 @@ return {
 			bgm = "votefes-up",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在音乐之路上继续前行的娜比娅成为了成熟的创作型歌手。",
+			say = "Navi continued on the path of music and has now grown into a powerhouse of a singer and songwriter.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "今天是她的演唱会，我站在台下，看着舞台上熟悉又陌生的她。",
+			say = "She is hosting a concert today. I'm standing in the audience, watching her on the stage. She looks so familiar, yet so different.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg33",
 			hidePaintObj = true,
-			say = "舞台上的娜比娅一手握着麦克风，一手抱着电吉他。",
+			say = "She rocks on her electric guitar and sings into her microphone.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,54 +62,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg33",
 			hidePaintObj = true,
-			say = "她的身后，巨大的荧幕上投影着她的特写。",
+			say = "To her back, an enormous screen, displaying a closeup of her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg33",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这首歌……是为了我最重要的人而作的！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg33",
-			hidePaintObj = true,
-			say = "和平时温柔害羞的她不同，此刻的娜比娅仿佛完全沉浸在音乐为她带来的力量中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg33",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "是音乐给了我勇气，让我可以勇敢地把自己的心意表露出来。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg33",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "那么，{tb}，就好好听着吧——！",
+			say = "This next song, I made for the most important person in my life!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +85,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg33",
 			hidePaintObj = true,
-			say = "伴随着她的话语，电吉他激昂的前奏响起。",
+			say = "Her usual reserved, shy self is gone in this moment. The power of music lets her shine like the brightest stars.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg33",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Thank you for giving me courage and the ability to express myself!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg33",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "{tb}, this one's for you!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +120,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg33",
 			hidePaintObj = true,
-			say = "这样的她是如此闪耀炫目，让人无法移开视线。",
+			say = "As she speaks, she plays a powerful prelude on her guitar.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg33",
+			hidePaintObj = true,
+			say = "She gives off such a dazzling aura that it's impossible to take your eyes off her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

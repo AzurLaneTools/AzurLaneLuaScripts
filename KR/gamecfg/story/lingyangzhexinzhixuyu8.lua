@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "今天的作业有道好难的题哦……我完全不会做……",
+			say = "오늘 숙제에 어려운 게 섞여 있어서 풀 수가 없어……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,10 +47,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			important = true,
 			hidePaintObj = true,
-			say = "{tb}，能帮我看看要怎么做吗？",
+			say = "{tb}, 잠깐만 도와줄래?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我们一起分析解题思路吧",
+					content = "같이 푸는 방법을 생각해 보자",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "要不先玩一会儿再做题吧！",
+					content = "잠깐 놀고 다시 해 봐",
 					type = 2
 				}
 			}
@@ -76,9 +76,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "太好了~",
+			say = "정말?! 고마워!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,9 +92,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "要是能搞懂解题思路的话，下次遇到难题也不怕啦。",
+			say = "푸는 방법만 알면, 다음에 어려운 문제가 나와도 무섭지 않겠지!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,9 +108,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "{tb}的意思是要放松一下大脑吗？",
+			say = "그러니까 잠깐 머리를 식히라는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,9 +123,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "不过确实玩一会儿的话就不会那么烦躁了……",
+			say = "확실히 잠깐 쉬면 기분 전환이 될지도 몰라…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,9 +139,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "我等下再来做题吧~",
+			say = "좋아, 숙제는 조금 있다가 하자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

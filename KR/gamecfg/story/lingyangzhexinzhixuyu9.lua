@@ -14,9 +14,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "我今天看了一个纸雕的制作教程，好想试试看哦。",
+			say = "오늘 말이지, 종이 공예 하는 걸 봤어. 나도 해보고 싶어~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,10 +46,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			important = true,
 			hidePaintObj = true,
-			say = "不过层次稍微有点复杂呢……",
+			say = "그래도… 좀 복잡할 것 같아서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,12 +57,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我们按照教程慢慢来吧？",
+					content = "만드는 방법을 보면서 천천히 만들어 봐",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "不如自己设计新样式？",
+					content = "예 독창적으로 새로운 걸 만들어 봐",
 					type = 2
 				}
 			}
@@ -74,9 +74,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "好呀，跟着教程耐心地做应该不会有问题。",
+			say = "응! 순서대로 차근차근하면 괜찮을 것 같아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,9 +90,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "而且还有{tb}陪着我一起做，那我就更放心啦~",
+			say = "게다가 {tb}도 같이 해주면 든든할 거야~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,9 +106,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "自己设计的话……也不是不行呢。",
+			say = "아예 새로운 걸…… 나쁘지 않을지도 몰라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "也许能做出最特别的纸雕送给{tb}……想想就很期待呢。",
+			say = "{tb}만을 위한 특별한 종이 공예품을 만들 거야! 갑자기 두근거리는걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

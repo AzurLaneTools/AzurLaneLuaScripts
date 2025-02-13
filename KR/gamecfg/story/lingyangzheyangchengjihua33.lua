@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕业后的娜比娅开了一家小小的咖啡店，打算售卖她制作的蛋糕和咖啡。",
+			say = "After graduation, Navi opened a small café that mainly sold cakes and coffee.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "今天是店铺装修完成后的第一天，她特地邀请我去体验。",
+			say = "On the day it was completed, I was invited to the preopening.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg24",
-			say = "柔和的阳光透过娜比娅身后的窗户洒落，让店内简单的布置也显得有几分温馨。",
+			say = "Soft sunlight shines through the window, adding warmth to the café's simple interior.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,24 +75,24 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg24",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那个……这身衣服，是特地为今天准备的。",
+			say = "Umm... I got this dress just for today.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg24",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{tb}觉得……怎么样？",
+			say = "{tb}... Do you like it?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,54 +105,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "很可爱，很适合你。",
+			say = "It's cute. I think it suits you.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg24",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……唔，你果然会喜欢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg24",
-			hidePaintObj = true,
-			say = "她的脸颊微微泛红，小心地从桌上的草莓芭菲中舀起一勺。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg24",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "虽然还是有点不好意思，但是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg24",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "张嘴，啊——",
+			say = "I'm happy you think so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +128,42 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg24",
 			hidePaintObj = true,
-			say = "清凉甜蜜的滋味在口中蔓延。",
+			say = "Her cheeks flush as she digs a spoon into the strawberry parfait on the table.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg24",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "This is a little embarrassing, but...",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg24",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Say \"ah.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg24",
+			hidePaintObj = true,
+			say = "A refreshing, sweet flavor blesses my tongue.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

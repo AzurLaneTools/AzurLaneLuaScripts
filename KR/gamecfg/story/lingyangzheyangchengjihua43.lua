@@ -12,7 +12,7 @@ return {
 			bgm = "votefes-up",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在璀璨的舞台上，娜比娅正为我进行着表演。",
+			say = "Up on the starry stage, Navi delivers a passionate performance to me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg34",
-			say = "蓝白色调的打歌服在聚光灯下闪闪发亮，衬托出她认真的舞姿。",
+			say = "Her white-and-blue costume glitters under the spotlight, elevating every move of her impassioned dance.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "随着最后一个音符落下，她停在了舞台中央。",
+			say = "As the song's final note rings out, she takes to the middle of the stage and holds a pose.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,43 +79,43 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "她朝我的方向看了看，似乎在下定什么决心。",
+			say = "She looks at me, some sort of spark of resolve burning in her eyes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那、那个……",
+			say = "Umm...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "用爱与音乐的魔法，让{tb}的心也为我跳动起来吧！",
+			say = "By the magic of music and love, I bid your heart to beat for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要永远支持我哦！",
+			say = "Give me your support from here on out!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "虽然表情有些害羞，但她还是努力地用手指比出了一个心形。",
+			say = "Although a hint of shyness peeks through, she still tries her best to make a heart shape using her fingers.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,19 +139,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，我会永远支持娜比娅的！",
+			say = "Of course! I'll stick with you no matter what happens!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿……",
+			say = "Heehee...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "少女此刻的闪耀，将永远留在我的记忆之中。",
+			say = "This moment of beautiful brilliance will forever be preserved inside my heart.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

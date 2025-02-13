@@ -15,7 +15,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈！被你们看到本涂鸦艺术大师的创作过程了！",
+			say = "흥! 그래피티 마스터의 작업 현장을 찾아내다니…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是在画什么……？",
+			say = "――뭘 그리고 있는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这可是要让这个无聊的小镇焕然一新的艺术作品！",
+			say = "이 지루한 거리를 다채롭게 바꿔줄 아트지, 뭐겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样？是不是很有叛逆精神？嘿嘿~",
+			say = "어때? 딱 반항적인 느낌이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			bgName = "star_level_bg_704",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "画得还真是独特呢♪",
+			say = "꽤… 특이한 꼬맹이네♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,18 +101,18 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么啊，你那语气是在小看我吗？！",
+			say = "뭐냐, 그 말투는! 바보 취급하는 거야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这样到处涂鸦不太好吧？",
+					content = "그렇게 함부로 낙서하면 안 돼",
 					flag = 1
 				},
 				{
-					content = "这些画得不错！",
+					content = "그림 실력이 대단한걸!",
 					flag = 2
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样到处涂鸦，不太好吧？",
+			say = "――스비레피, 그렇게 함부로 낙서하면 어떻게 해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "切，这种墨守成规的想法最无趣了！",
+			say = "흥! 어디 그런 낡은 잣대를 나한테 들이대!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "艺术就是要打破常规！要让这个小镇的每个角落都充满个性！",
+			say = "예술이란 원래 규칙과 상식을 박살 내는 거야! 이 거리를 구석구석까지 개성으로 채워주고 말겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,9 +168,9 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "欸~原来还可以这样恶作剧啊，真是学到了呢。{tb}要小心咯♪",
+			say = "아하, 이런 장난도 있구나… 한 수 배웠네. {tb}, 앞으로 조심해♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂！这才不是恶作剧！这是艺术！",
+			say = "잠깐! 장난은 무슨! 이건 예술이야, 예술!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而、而且，看到这些涂鸦，指、指挥官心情也会变好的吧！",
+			say = "게, 게다가… 완성된 걸 보면 지휘관도 분명 마음에 들 걸!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "少女气势汹汹的话语突然变得有些磕磕绊绊。",
+			say = "늘 기세등등한 스비레피가 그녀답지 않게 말을 더듬었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些画得不错！而且构图也很独特！",
+			say = "――정말 잘했어, 스비레피! 구도도 독특해서 흥미롭네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是当然！这可是我独创的风格！",
+			say = "당연하지! 이게 바로 이 스비레피 님의 스타일이라고!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不要我教你们几手？……当、当然，不是说我很期待你们来学！",
+			say = "궁금하면 팁 알려줄까? …따, 딱히 그걸 가르쳐 주고 싶어서 여기까지 온 건 아니야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,9 +269,9 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "哼哼~明明很想被夸奖的样子嘛。{tb}，你说是不是？",
+			say = "후훗, 칭찬해달라고 아주 얼굴에 쓰여 있구만. {tb}, 그렇지 않아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你、你这家伙……！",
+			say = "조, 조용히 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "笑着摇了摇头，抬手摸了摸两位少女的发顶。",
+			say = "쓴웃음을 지으며, 두 사람의 머리를 쓰다듬었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那今天就一起进行“艺术创作”吧！",
+			say = "――그럼 오늘은 같이 「예술 활동」을 해볼까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好耶！",
+			say = "좋아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "之后和凶猛度过了一起肆意挥洒创意的时光。",
+			say = "그 후, 스비레피와 함께 마음껏 창작 활동을 펼쳤다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "离开时，娜比娅似乎受到了新的启发。",
+			say = "돌아갈 때는 네비도 새로운 영감을 얻은 모양이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

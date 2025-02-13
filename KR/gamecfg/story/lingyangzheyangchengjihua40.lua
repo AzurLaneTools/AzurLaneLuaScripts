@@ -12,7 +12,7 @@ return {
 			bgm = "votefes-start",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕业后的娜比娅迷上了摩托车，在学习过后考取了驾照。",
+			say = "After she graduated, Navi pursued her interest in motorcycles, taking lessons and getting a license.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "她爱上了这种在风中驰骋的感觉——",
+			say = "Ever since then, she has been hooked on the thrill of the wind rushing past her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg31",
-			say = "蔚蓝的大海在阳光下闪烁着粼粼波光。",
+			say = "Sunlight glimmers off of the crystal clear surface of the cerulean sea.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "几只海鸥在碧空中盘旋，偶尔发出清脆的鸣叫。",
+			say = "A flock of seagulls circles around in the air, occasionally crying out in beautiful notes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,19 +90,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "娜比娅倚靠在她的新摩托车上，一手抱着头盔，黑色的修身骑行服勾勒出曲线。",
+			say = "Navi leans against her motorcycle. Her black protective suit makes the contours of her supple body all the more evident.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么样，{tb}？",
+			say = "How do I look, {tb}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,56 +113,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "她嘴角带着一丝狡黠的笑意，目光中还带着几分得意。",
+			say = "With a slightly devilish grin on her face, she shoots a proud look at me.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要我带你去兜风吗？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg31",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "你确定不是想炫耀你的新车？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg31",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "好吧~被你发现了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg31",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "不过兜风的邀请是认真的哦，去不去嘛？",
+			say = "Want me to take you for a ride?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +138,44 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "去。",
+			say = "A ride? Sounds like you just want to show off your new machine.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg31",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Dang, you got me!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg31",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Still, I DO want to feel the wind with you. Don't you wanna ride with me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg31",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Of course I do.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "海风掠过海岸线，带着咸涩的气息轻轻拂过。",
+			say = "The briny breeze sweeps across the coastline, caressing my cheeks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "引擎声响起，少女载着我向远方驶去。",
+			say = "The engine fires up with a roar, and the motorcycle takes off like a tiger, leading us to the horizon.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

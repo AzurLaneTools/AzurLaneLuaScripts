@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天娜比娅突然说要下厨，这出乎意料的提议让我有些惊讶。",
+			say = "To my surprise, Navi suddenly says that she's going to cook.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			bgName = "bg_project_oceana_room3",
 			tbActor = true,
 			actor = 2202,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "人家今天心情不错，就大发慈悲地让你尝尝我的手艺吧！",
+			say = "I'm in a good mood today, so I'll treat you to some of my home cooking!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,9 +57,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2202,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "嗯哼~笨蛋{tb}就等着被我的料理征服好了。不过这本来也就是理所当然的事嘛~",
+			say = "Heheh! I hope your heart is ready to be captured by my food! Well, ready or not, it will either way!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "看着她难得主动的样子，我也就点头同意了。",
+			say = "It's good to see her take the initiative like this, so I nod in agreement.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "陪她买完所有要用到的食材之后，一回到家，她便把我“赶”出了厨房，不许入内。",
+			say = "We head out and buy the necessary ingredients, then return home. As soon as we get back, she chases me out of the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,9 +94,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2202,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "不准偷看哦！要是敢进来的话……哼哼~",
+			say = "No peeking! Or else you'll regret it! Heheh!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "无聊的我只能在客厅看书，直到厨房里飘出一股难以形容的甜腻香气。",
+			say = "Left with no other choice, I retreat to the living room and kill time with a book. In the midst of my reading, however, an indescribable, sweet smell wafts in from the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……这个味道，怎么感觉有点不妙？",
+			say = "Uh-oh... Did something go wrong?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "出于不安，我无视了娜比娅的“禁令”，推开了厨房的门。",
+			say = "The concern drives me to ignore her no-entry order and open the door to the kitchen.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg18",
-			say = "娜比娅正悠然自得地坐在料理台上，手里握着一瓶散发着诡异粉色光芒的液体。",
+			say = "Navi is sitting leisurely atop the kitchen counter, holding a vial containing a suspicious, pink liquid.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哎呀，这么快就闻到香味了吗？",
+			say = "Oh, already smelled it, huh?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
-			say = "锅里正冒着粉色的泡泡，正是散发出甜到发腻的气味的来源。",
+			say = "Pink bubbles rise from the pot. That looks to be the source of the strangely sweet smell.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,31 +195,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是什么……？",
+			say = "What the hell is that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这可是人家特~制~的秘密佐料哦~",
+			say = "This? It's my secret ingredient!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是家政课上代课的老师教给我的独家配方呢♪",
+			say = "I made it with a special recipe my homeroom teacher taught me♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,31 +230,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
-			say = "她将手中试管中的最后一滴液体倒入锅中，露出一抹危险的笑意。",
+			say = "There is a dangerous smile on her face as she pours the last drop of the liquid into the pot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{tb}，等下你一定要全部吃完哦？",
+			say = "You'll eat it all, won't you, {tb}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟……这可是我专门为你准备的呢~",
+			say = "I made it just for you, so you better not let any go to waste♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room3",
-			say = "最后那锅加入了“秘密佐料”的食物突然凝固，变成了一团不明物质。",
+			say = "That very moment, the contents of the pot suddenly solidify into some material the likes of which I've never seen before.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,9 +295,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2202,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "啊……好可惜啊，明明还想看{tb}吃下去时的表情呢~",
+			say = "Aww, that sucks. I'd hoped to see your reaction when you tasted it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "看着她略显失望的样子，我暗自松了一口气。",
+			say = "The disappointment in her expression brings me great relief.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "用剩下的萝卜和食材，我快速炖了一锅素咖喱，有惊无险地解决了这顿饭。",
+			say = "Using what's left of the daikon and the other ingredients, I throw together a vegetarian curry. I live to tell another tale.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

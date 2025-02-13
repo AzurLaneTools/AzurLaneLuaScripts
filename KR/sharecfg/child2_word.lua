@@ -2283,517 +2283,517 @@ pg.base.child2_word = {
 	{
 		id = 240,
 		main_character_face = 5,
-		word = "喂……废柴$1……",
+		word = "저기, 있잖아…… 바보 $1……",
 		char_type = 6
 	},
 	{
 		id = 241,
 		main_character_face = 5,
-		word = "你…你最近看起来好像很累的样子呢！",
+		word = "요즘 너무 피곤해 보이는 거 아니야?",
 		char_type = 6
 	},
 	{
 		id = 242,
 		main_character_face = 5,
-		word = "尤其今天也还有黑眼圈……",
+		word = "오늘은…… 다크서클까지 생겼고……",
 		char_type = 6
 	},
 	{
 		id = 243,
 		main_character_face = 2,
-		word = "……我给你泡了咖啡，不过别误会了哦，我只是不想看你倒下而已！",
+		word = "……커피 한 잔 만들어 줄 건데, 착각하지 마! 쓰러지면 내가 곤란해서 그런 거니까!",
 		char_type = 6
 	},
 	{
 		id = 244,
 		main_character_face = 0,
-		word = "谢谢你特地为我准备",
+		word = "나한테? 고마워.",
 		char_type = 3
 	},
 	{
 		id = 245,
 		main_character_face = 1,
-		word = "笨、笨蛋！谁说是特地准备的！",
+		word = "흐, 흥! 뭐야! 누가 고맙다고 해달래?!",
 		char_type = 6
 	},
 	{
 		id = 246,
 		main_character_face = 2,
-		word = "不过既然你这么说了，我以后也可以偶尔帮你泡一下啦……",
+		word = "뭐, 뭐어… 그렇게 고마우면…… 가끔 내킬 때마다 만들어 줄 수도 있고……",
 		char_type = 6
 	},
 	{
 		id = 247,
 		main_character_face = 0,
-		word = "正好渴了，谢谢",
+		word = "마침 목이 말랐던 참이야, 고마워.",
 		char_type = 3
 	},
 	{
 		id = 248,
 		main_character_face = 2,
-		word = "哼，真是的……",
+		word = "흥… 그럴 줄 알았어……",
 		char_type = 6
 	},
 	{
 		id = 249,
 		main_character_face = 7,
-		word = "算了，要好好记住人家的这份恩情哦~废柴$1",
+		word = "나한테 빚 하나 진 거다? 이 바보 $1!",
 		char_type = 6
 	},
 	{
 		id = 250,
 		main_character_face = 6,
-		word = "哼哼~$1，整天在家里待着多无聊啊~？",
+		word = "후훗~ $1, 집에서 계속 뒹굴거리면서 안 심심해?",
 		char_type = 6
 	},
 	{
 		id = 251,
 		main_character_face = 8,
-		word = "我要出去跑步了哦，你这种弱不禁风的家伙肯定跟不上吧~？",
+		word = "난 말이야~ 런닝하러 나갈 건데, 어차피 너 같은 바보한테는 힘들겠지~?",
 		char_type = 6
 	},
 	{
 		id = 252,
 		main_character_face = 7,
-		word = "要不要试试看？输了的话就要听人家的命令哦？",
+		word = "날 따라잡을 수 있을지 시험해 볼래? 실패하면 내가 원하는 걸 들어주는 거야!",
 		char_type = 6
 	},
 	{
 		id = 253,
 		main_character_face = 0,
-		word = "这么想看我认输的样子吗？",
+		word = "그렇게 내가 지는 모습이 보고 싶어?",
 		char_type = 3
 	},
 	{
 		id = 254,
 		main_character_face = 7,
-		word = "哼哼，被你发现了呢～",
+		word = "후훗, 눈치는 빠르네.",
 		char_type = 6
 	},
 	{
 		id = 255,
 		main_character_face = 8,
-		word = "既然你都这么有自知之明了，那就快点跟上来吧，弱者～",
+		word = "알았으면 빨리 따라 나오기나 해~ 이 바보야!",
 		char_type = 6
 	},
 	{
 		id = 256,
 		main_character_face = 0,
-		word = "好啊，一起运动吧",
+		word = "알았어, 같이 운동하자!",
 		char_type = 3
 	},
 	{
 		id = 257,
 		main_character_face = 4,
-		word = "真没意思……$1完全不懂人家的点呢。",
+		word = "흥… 재미없긴…… $1, 넌 정말 날 몰라도 한참 몰라!",
 		char_type = 6
 	},
 	{
 		id = 258,
 		main_character_face = 7,
-		word = "不过也无所谓了，反正等会儿有你好受的~！",
+		word = "뭐, 어차피 나한테 된통 당하겠지만. 기대하고 있으라고!",
 		char_type = 6
 	},
 	{
 		id = 259,
 		main_character_face = 6,
-		word = "$1，我今天心情好，所以要问你一个问题~",
+		word = "있잖아, $1. 오늘은 기분이 좋거든. 그래서 말인데…",
 		char_type = 6
 	},
 	{
 		id = 260,
 		main_character_face = 2,
-		word = "如果……人家是说如果哦~？",
+		word = "만약…… 만약에 말이야!",
 		char_type = 6
 	},
 	{
 		id = 261,
 		main_character_face = 2,
-		word = "收到礼物的话，你更喜欢哪种类型的呢？",
+		word = "선물로 어떤 걸 받으면 가장 기쁠 것 같아?",
 		char_type = 6
 	},
 	{
 		id = 262,
 		main_character_face = 0,
-		word = "只要是娜比娅送的我都喜欢",
+		word = "네비가 주는 거면 뭐든 기뻐.",
 		char_type = 3
 	},
 	{
 		id = 263,
 		main_character_face = 1,
-		word = "什、什么啊！？谁、谁说要给你送礼物了！？",
+		word = "뭐, 뭐야, 그게! 누가 너한테 선물 준대?!",
 		char_type = 6
 	},
 	{
 		id = 264,
 		main_character_face = 2,
-		word = "……不过看在你这么期待的份上，到时候就勉为其难地送你一个好了……",
+		word = "뭐… 그렇게까지 기대하니까… 내키면 뭐… 언젠가는 줄 수도 있고……!",
 		char_type = 6
 	},
 	{
 		id = 265,
 		main_character_face = 0,
-		word = "更偏实用性的东西吧",
+		word = "실용적인 게 좋아.",
 		char_type = 3
 	},
 	{
 		id = 266,
 		main_character_face = 5,
-		word = "还是真是无趣的答案呢……",
+		word = "하아…… 대답도 어쩜 그렇게 재미없게……",
 		char_type = 6
 	},
 	{
 		id = 267,
 		main_character_face = 2,
-		word = "算了，反正人家也没打算送你礼物~！",
+		word = "뭐, 어차피 선물 줄 생각도 없었으니까…!",
 		char_type = 6
 	},
 	{
 		id = 268,
 		main_character_face = 8,
-		word = "$1~看得出来人家今天有什么不一样的地方吗~？",
+		word = "$1. 나 오늘 뭔가 다른 것 같지 않아?",
 		char_type = 6
 	},
 	{
 		id = 269,
 		main_character_face = 7,
-		word = "要是猜不出来的话，就要接受我的惩罚游戏哦~",
+		word = "못 맞추면 벌칙이니까 잘 생각해 봐~♪",
 		char_type = 6
 	},
 	{
 		id = 270,
 		main_character_face = 0,
-		word = "又在找机会捉弄人了吧？",
+		word = "또 놀리려고 괜히 그러는 거지?",
 		char_type = 3
 	},
 	{
 		id = 271,
 		main_character_face = 7,
-		word = "欸~被发现了？真没意思……",
+		word = "어머~ 들켰네? 재미없어……",
 		char_type = 6
 	},
 	{
 		id = 272,
 		main_character_face = 8,
-		word = "反正你也发现了，不如就直接陪我玩惩罚游戏吧~！",
+		word = "맞추긴 했지만 그래도~ 어차피 벌칙은 받게 될 거라는 거, 알고 있지?",
 		char_type = 6
 	},
 	{
 		id = 273,
 		main_character_face = 0,
-		word = "是发饰调整了一点角度吧",
+		word = "오늘은 헤어핀 각도가 좀 다르네.",
 		char_type = 3
 	},
 	{
 		id = 274,
 		main_character_face = 2,
-		word = "切……这么认真回答做什么嘛。",
+		word = "뭐야…… 뭘 그렇게 진지하게 대답하고 그래.",
 		char_type = 6
 	},
 	{
 		id = 275,
 		main_character_face = 3,
-		word = "人家明明准备了那么多好玩的惩罚游戏，这下派不上用场了……",
+		word = "벌칙으로 뭘 줄지 잔뜩 생각해 놨는데, 다 수포가 됐잖아……!",
 		char_type = 6
 	},
 	{
 		id = 276,
 		main_character_face = 6,
-		word = "嗯哼~人家今天特意试着做了咖喱哦~",
+		word = "헤헷! 오늘은 카레를 만들어 봤어!",
 		char_type = 6
 	},
 	{
 		id = 277,
 		main_character_face = 8,
-		word = "保证是废柴$1从来没有尝试过的全新口味呢~",
+		word = "$1 같은 바보는 지금까지 한 번도 먹어본 적 없는, 아주 참신한 맛일 걸♪",
 		char_type = 6
 	},
 	{
 		id = 278,
 		main_character_face = 6,
-		word = "我已经放到餐桌上咯，你可不准剩下！",
+		word = "테이블 위에 차려뒀으니까, 남기지 말고 다 먹어!",
 		char_type = 6
 	},
 	{
 		id = 279,
 		main_character_face = 0,
-		word = "总觉得这份咖喱有点可疑",
+		word = "뭔가 수상한데……",
 		char_type = 3
 	},
 	{
 		id = 280,
 		main_character_face = 7,
-		word = "哼哼~那又如何~？",
+		word = "후훗, 수상하긴 뭐가 수상해~",
 		char_type = 6
 	},
 	{
 		id = 281,
 		main_character_face = 8,
-		word = "你现在想逃也已经来不及了哦。",
+		word = "이제 와서 어딜 도망치려고~♪",
 		char_type = 6
 	},
 	{
 		id = 282,
 		main_character_face = 0,
-		word = "谢谢，那我就开动了",
+		word = "고마워, 잘 먹을게.",
 		char_type = 3
 	},
 	{
 		id = 283,
 		main_character_face = 6,
-		word = "真是个一点都不谨慎的笨蛋呢~",
+		word = "…정말 한심한 바보라니까.",
 		char_type = 6
 	},
 	{
 		id = 284,
 		main_character_face = 6,
-		word = "就好好享受人家的特制料理吧。",
+		word = "뭐, 아무튼 내가 준비한 특제 요리, 마음껏 맛봐~",
 		char_type = 6
 	},
 	{
 		id = 285,
 		main_character_face = 2,
-		word = "$1……那个……",
+		word = "$1…… 있잖아……",
 		char_type = 6
 	},
 	{
 		id = 286,
 		main_character_face = 2,
-		word = "我看你一直在处理文件……",
+		word = "계속 서류 처리하느라 바쁜 것 같은데……",
 		char_type = 6
 	},
 	{
 		id = 287,
 		main_character_face = 6,
-		word = "要不要休息一下喝杯红茶呢？",
+		word = "잠깐 쉬면서 홍차라도 마시는 게 어때?",
 		char_type = 6
 	},
 	{
 		id = 288,
 		main_character_face = 0,
-		word = "娜比娅是在关心我么？",
+		word = "신경 써주는 거야?",
 		char_type = 3
 	},
 	{
 		id = 289,
 		main_character_face = 6,
-		word = "嗯……因为希望$1能适当放松一下……",
+		word = "응…… $1도 조금은 쉬는 게 좋을 것 같아서…",
 		char_type = 6
 	},
 	{
 		id = 290,
 		main_character_face = 8,
-		word = "我准备了红茶和饼干，就暂时放下工作，休息一下吧。",
+		word = "홍차랑 쿠키를 준비했으니까, 잠깐이라도 일은 놓고 좀 쉬어.",
 		char_type = 6
 	},
 	{
 		id = 291,
 		main_character_face = 0,
-		word = "不用了，我再忙一会",
+		word = "괜찮아. 조금만 더 하면 돼.",
 		char_type = 3
 	},
 	{
 		id = 292,
 		main_character_face = 3,
-		word = "这样啊……",
+		word = "그렇구나……",
 		char_type = 6
 	},
 	{
 		id = 293,
 		main_character_face = 2,
-		word = "那我……过一会儿再来好了。",
+		word = "그럼 조금 있다가 또 올게.",
 		char_type = 6
 	},
 	{
 		id = 294,
 		main_character_face = 0,
-		word = "$1，我准备整理一下书架……",
+		word = "$1, 책장을 정리하려고 하는데……",
 		char_type = 6
 	},
 	{
 		id = 295,
 		main_character_face = 6,
-		word = "你有什么需要特别放到手边的书吗？",
+		word = "근처에 두고 싶은 책 같은 거 혹시 있어?",
 		char_type = 6
 	},
 	{
 		id = 296,
 		main_character_face = 0,
-		word = "我来帮你一起整理吧",
+		word = "같이 정리할까?",
 		char_type = 3
 	},
 	{
 		id = 297,
 		main_character_face = 2,
-		word = "欸？这样会不会太麻烦你了……",
+		word = "음… 그러면 괜히 수고를 끼치는 것 같아서……",
 		char_type = 6
 	},
 	{
 		id = 298,
 		main_character_face = 6,
-		word = "不过…能和$1一起，我很开心哦……",
+		word = "그래도…… $1랑 같이 하면, 좋긴 하겠다……",
 		char_type = 6
 	},
 	{
 		id = 299,
 		main_character_face = 0,
-		word = "没什么，按照你的习惯来就好",
+		word = "딱히 없어. 네비가 하고싶은 대로 정리하면 돼.",
 		char_type = 3
 	},
 	{
 		id = 300,
 		main_character_face = 8,
-		word = "那就放心交给我吧。",
+		word = "알았어, 나한테 맡겨.",
 		char_type = 6
 	},
 	{
 		id = 301,
 		main_character_face = 6,
-		word = "一定会整理得井井有条的。",
+		word = "깨끗하게 잘 정리해 둘게!",
 		char_type = 6
 	},
 	{
 		id = 302,
 		main_character_face = 6,
-		word = "我整理了一些我们的照片。",
+		word = "같이 찍은 사진을 정리해 봤어.",
 		char_type = 6
 	},
 	{
 		id = 303,
 		main_character_face = 2,
-		word = "想把它们放在相框里……",
+		word = "액자에 넣고 싶은 사진이 몇 장 있는데……",
 		char_type = 6
 	},
 	{
 		id = 304,
 		main_character_face = 5,
-		word = "不过数量有点多呢，我有点纠结装裱哪些了……",
+		word = "숫자가 너무 많아서… 어떻게 추릴지 고민이야……",
 		char_type = 6
 	},
 	{
 		id = 305,
 		main_character_face = 0,
-		word = "你觉得好看的都可以放上去",
+		word = "그러면 다 고르면 되지.",
 		char_type = 3
 	},
 	{
 		id = 306,
 		main_character_face = 1,
-		word = "欸？这样吗？",
+		word = "정말? 그래도 돼?",
 		char_type = 6
 	},
 	{
 		id = 307,
 		main_character_face = 6,
-		word = "唔……虽然也不是不行，但是这样就要买更多相框了……",
+		word = "음…… 그러려면 액자를 더 많이 사둬야겠네……",
 		char_type = 6
 	},
 	{
 		id = 308,
 		main_character_face = 0,
-		word = "一起挑选照片吧！",
+		word = "같이 고르자!",
 		char_type = 3
 	},
 	{
 		id = 309,
 		main_character_face = 8,
-		word = "欸嘿嘿，那太好了~",
+		word = "에헤헤… 좋아!",
 		char_type = 6
 	},
 	{
 		id = 310,
 		main_character_face = 8,
-		word = "这样就像是两个人一起回忆美好时光一样，好幸福~",
+		word = "사진을 고르면서 추억도 같이 되돌아볼 수 있겠네. 재밌겠다!",
 		char_type = 6
 	},
 	{
 		id = 311,
 		main_character_face = 6,
-		word = "我在研究一些瑜伽动作哦。",
+		word = "요즘은 요가에 대해 이것저것 연구 중이야.",
 		char_type = 6
 	},
 	{
 		id = 312,
 		main_character_face = 6,
-		word = "$1平时工作太久了，要不要和我一起活动一下？",
+		word = "$1도 앉아서 하는 업무가 많지? 운동도 할 겸 같이 해볼래?",
 		char_type = 6
 	},
 	{
 		id = 313,
 		main_character_face = 0,
-		word = "教我几个舒展筋骨的动作吧",
+		word = "네비가 알려주려고?",
 		char_type = 3
 	},
 	{
 		id = 314,
 		main_character_face = 8,
-		word = "好~我这就去准备瑜伽垫哦。",
+		word = "응! 요가 매트 가지고 올 테니까 잠깐만 기다려~",
 		char_type = 6
 	},
 	{
 		id = 315,
 		main_character_face = 0,
-		word = "可以先示范给我看看么？",
+		word = "어떻게 하는지 시범 좀 보여줄래?",
 		char_type = 3
 	},
 	{
 		id = 316,
 		main_character_face = 2,
-		word = "嗯……虽然有点害羞……",
+		word = "음…… 좀 부끄럽지만……",
 		char_type = 6
 	},
 	{
 		id = 317,
 		main_character_face = 0,
-		word = "但为了$1的健康着想，我会认真示范的。",
+		word = "그래도 $1한테 도움이 된다면 열심히 해볼게!",
 		char_type = 6
 	},
 	{
 		id = 318,
 		main_character_face = 8,
-		word = "新买的烤箱今天送到啦。",
+		word = "새로 산 오븐이 오늘 도착했어!",
 		char_type = 6
 	},
 	{
 		id = 319,
 		main_character_face = 6,
-		word = "我想拿它烤些曲奇……$1等会儿愿意尝尝看吗？",
+		word = "바로 쿠키를 만들어 봐야지! ……만들면 먹어줄 거지?",
 		char_type = 6
 	},
 	{
 		id = 320,
 		main_character_face = 0,
-		word = "要不要一起做？",
+		word = "같이 만드는 건 어때?",
 		char_type = 3
 	},
 	{
 		id = 321,
 		main_character_face = 8,
-		word = "真的吗？$1愿意和我一起做曲奇？",
+		word = "그래도 돼?! 같이 쿠키를……",
 		char_type = 6
 	},
 	{
 		id = 322,
 		main_character_face = 8,
-		word = "太好了……",
+		word = "너무 기뻐……!",
 		char_type = 6
 	},
 	{
 		id = 323,
 		main_character_face = 0,
-		word = "没问题，期待你的手艺",
+		word = "당연하지. 네비의 요리 솜씨가 궁금한걸.",
 		char_type = 3
 	},
 	{
 		id = 324,
 		main_character_face = 0,
-		word = "嗯嗯，我会小心完成的。",
+		word = "응! 실패하지 않도록 열심히 할게!",
 		char_type = 6
 	},
 	{
 		id = 325,
 		main_character_face = 6,
-		word = "希望能做出让$1赞不绝口的曲奇呢……",
+		word = "$1 입맛에 딱 맞는 쿠키가 만들어졌으면 좋겠다~",
 		char_type = 6
 	},
 	[1001] = {
@@ -3057,7 +3057,7 @@ pg.base.child2_word = {
 	[5004] = {
 		id = 5004,
 		main_character_face = 0,
-		word = "娜比娅",
+		word = "네비",
 		char_type = 0
 	},
 	[5011] = {
@@ -3081,7 +3081,7 @@ pg.base.child2_word = {
 	[5014] = {
 		id = 5014,
 		main_character_face = 0,
-		word = "娜比娅",
+		word = "네비",
 		char_type = 0
 	},
 	[5021] = {
@@ -3105,7 +3105,7 @@ pg.base.child2_word = {
 	[5024] = {
 		id = 5024,
 		main_character_face = 0,
-		word = "娜比娅",
+		word = "네비",
 		char_type = 0
 	},
 	[5031] = {
@@ -3129,7 +3129,7 @@ pg.base.child2_word = {
 	[5034] = {
 		id = 5034,
 		main_character_face = 0,
-		word = "娜比娅",
+		word = "네비",
 		char_type = 0
 	},
 	[5041] = {
@@ -3153,7 +3153,7 @@ pg.base.child2_word = {
 	[5044] = {
 		id = 5044,
 		main_character_face = 0,
-		word = "娜比娅",
+		word = "네비",
 		char_type = 0
 	},
 	[5051] = {
@@ -3177,7 +3177,7 @@ pg.base.child2_word = {
 	[5054] = {
 		id = 5054,
 		main_character_face = 0,
-		word = "娜比娅",
+		word = "네비",
 		char_type = 0
 	},
 	[5101] = {
@@ -3507,259 +3507,259 @@ pg.base.child2_word = {
 	[20002] = {
 		id = 20002,
 		main_character_face = 0,
-		word = "玩皮球玩得很开心，运动出了一身汗！",
+		word = "즐겁게 공놀이를 하고 땀을 많이 흘렸다!",
 		char_type = 3
 	},
 	[20004] = {
 		id = 20004,
 		main_character_face = 0,
-		word = "完美地把积木拼图合上了，真厉害！",
+		word = "블록 퍼즐을 완벽하게 조립했다! 대단해!",
 		char_type = 3
 	},
 	[20006] = {
 		id = 20006,
 		main_character_face = 0,
-		word = "认真看完了整个故事，学到了新知识！",
+		word = "이야기를 마지막까지 집중해서 읽고 새로운 것을 배웠다!",
 		char_type = 3
 	},
 	[20008] = {
 		id = 20008,
 		main_character_face = 0,
-		word = "发挥了想象力，想出了好多有趣的点子！",
+		word = "상상력을 발휘해서 재미있는 아이디어를 잔뜩 떠올렸다!",
 		char_type = 3
 	},
 	[20010] = {
 		id = 20010,
 		main_character_face = 0,
-		word = "跟着音乐跳得很投入，动作也越来越标准了！",
+		word = "음악에 맞춰 춤추는 것이 즐거워서 움직임도 점점 능숙해졌다!",
 		char_type = 3
 	},
 	[20012] = {
 		id = 20012,
 		main_character_face = 0,
-		word = "把小房间清理得干干净净，真棒！",
+		word = "작은 방을 깨끗하게 청소했다! 잘했어!",
 		char_type = 3
 	},
 	[20014] = {
 		id = 20014,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！",
+		word = "체육 시간에 열심히 운동해서 체력에 자신감이 붙었다!",
 		char_type = 3
 	},
 	[20016] = {
 		id = 20016,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！",
+		word = "체육 시간에 열심히 운동해서 체력에 자신감이 붙었다!",
 		char_type = 3
 	},
 	[20018] = {
 		id = 20018,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！",
+		word = "체육 시간에 열심히 운동해서 체력에 자신감이 붙었다!",
 		char_type = 3
 	},
 	[20020] = {
 		id = 20020,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！",
+		word = "진지하게 운반 작업을 하고 보람을 느꼈다!",
 		char_type = 3
 	},
 	[20022] = {
 		id = 20022,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！",
+		word = "진지하게 운반 작업을 하고 보람을 느꼈다!",
 		char_type = 3
 	},
 	[20024] = {
 		id = 20024,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！",
+		word = "진지하게 운반 작업을 하고 보람을 느꼈다!",
 		char_type = 3
 	},
 	[20026] = {
 		id = 20026,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！",
+		word = "교실에서 조용히 책을 읽고 지식을 얻는 기쁨을 느꼈다!",
 		char_type = 3
 	},
 	[20028] = {
 		id = 20028,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！",
+		word = "교실에서 조용히 책을 읽고 지식을 얻는 기쁨을 느꼈다!",
 		char_type = 3
 	},
 	[20030] = {
 		id = 20030,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！",
+		word = "교실에서 조용히 책을 읽고 지식을 얻는 기쁨을 느꼈다!",
 		char_type = 3
 	},
 	[20032] = {
 		id = 20032,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！",
+		word = "꽃과 풀을 관찰하며 새로운 것을 발견했다!",
 		char_type = 3
 	},
 	[20034] = {
 		id = 20034,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！",
+		word = "꽃과 풀을 관찰하며 새로운 것을 발견했다!",
 		char_type = 3
 	},
 	[20036] = {
 		id = 20036,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！",
+		word = "꽃과 풀을 관찰하며 새로운 것을 발견했다!",
 		char_type = 3
 	},
 	[20038] = {
 		id = 20038,
 		main_character_face = 0,
-		word = "通过练习舞蹈，身体的柔韧性变好了！",
+		word = "춤 연습으로 몸이 유연해졌다!",
 		char_type = 3
 	},
 	[20040] = {
 		id = 20040,
 		main_character_face = 0,
-		word = "在庄园度过了一段忙碌的时光，获得了应有的回报！",
+		word = "정원에서 바쁜 시간을 보내고 짭짤한 보수를 받았다!",
 		char_type = 3
 	},
 	[20501] = {
 		id = 20501,
 		main_character_face = 0,
-		word = "离校自由漫步了！呼吸课堂之外的新鲜空气，有了意外收获！",
+		word = "학교 밖을 자유롭게 산책하며 신선한 공기도 마시고 예상 외의 수확도 얻었다!",
 		char_type = 3
 	},
 	[20514] = {
 		id = 20514,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！做得不错！",
+		word = "체육 시간에 열심히 운동해서 체력에 자신감이 붙었다!",
 		char_type = 3
 	},
 	[20516] = {
 		id = 20516,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！做得不错！",
+		word = "체육 시간에 열심히 운동해서 체력에 자신감이 붙었다!",
 		char_type = 3
 	},
 	[20518] = {
 		id = 20518,
 		main_character_face = 0,
-		word = "在体能课上努力锻炼了一番，对自己的体能更自信了！做得不错！",
+		word = "체육 시간에 열심히 운동해서 체력에 자신감이 붙었다!",
 		char_type = 3
 	},
 	[20520] = {
 		id = 20520,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！感觉超棒！",
+		word = "진지하게 작업에 임해서 보람을 느꼈다! 기분 최고야!",
 		char_type = 3
 	},
 	[20522] = {
 		id = 20522,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！感觉超棒！",
+		word = "진지하게 작업에 임해서 보람을 느꼈다! 기분 최고야!",
 		char_type = 3
 	},
 	[20524] = {
 		id = 20524,
 		main_character_face = 0,
-		word = "在认真搬运的过程中获得了踏实感！感觉超棒！",
+		word = "진지하게 작업에 임해서 보람을 느꼈다! 기분 최고야!",
 		char_type = 3
 	},
 	[20526] = {
 		id = 20526,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！产生了更多有关思考的乐趣！",
+		word = "교실에서 조용히 책을 읽고 지식을 얻는 기쁨을 느꼈다! 뇌를 움직이는 게 너무 즐거워!",
 		char_type = 3
 	},
 	[20528] = {
 		id = 20528,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！产生了更多有关思考的乐趣！",
+		word = "교실에서 조용히 책을 읽고 지식을 얻는 기쁨을 느꼈다! 뇌를 움직이는 게 너무 즐거워!",
 		char_type = 3
 	},
 	[20530] = {
 		id = 20530,
 		main_character_face = 0,
-		word = "在教室里安静地阅读，收获了知识的快乐！产生了更多有关思考的乐趣！",
+		word = "교실에서 조용히 책을 읽고 지식을 얻는 기쁨을 느꼈다! 뇌를 움직이는 게 너무 즐거워!",
 		char_type = 3
 	},
 	[20532] = {
 		id = 20532,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！收获颇丰！",
+		word = "꽃과 풀을 관찰하며 새로운 것을 많이 발견했다!",
 		char_type = 3
 	},
 	[20534] = {
 		id = 20534,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！收获颇丰！",
+		word = "꽃과 풀을 관찰하며 새로운 것을 많이 발견했다!",
 		char_type = 3
 	},
 	[20536] = {
 		id = 20536,
 		main_character_face = 0,
-		word = "在观察花草的过程中产生了新的发现！收获颇丰！",
+		word = "꽃과 풀을 관찰하며 새로운 것을 많이 발견했다!",
 		char_type = 3
 	},
 	[30001] = {
 		id = 30001,
 		main_character_face = 0,
-		word = "度过了一段忙碌的时光，获得了应有的回报！",
+		word = "바쁜 시간을 보내고 짭짤한 보수를 받았다!",
 		char_type = 3
 	},
 	[30002] = {
 		id = 30002,
 		main_character_face = 0,
-		word = "度过了一段忙碌的时光，获得了应有的回报！",
+		word = "바쁜 시간을 보내고 짭짤한 보수를 받았다!",
 		char_type = 3
 	},
 	[30003] = {
 		id = 30003,
 		main_character_face = 0,
-		word = "度过了一段忙碌的时光，获得了应有的回报！",
+		word = "바쁜 시간을 보내고 짭짤한 보수를 받았다!",
 		char_type = 3
 	},
 	[30004] = {
 		id = 30004,
 		main_character_face = 0,
-		word = "在旅途中发现新风景，让心情也跟着好起来了！",
+		word = "여행 중에 새로운 풍경을 감상하니 기분도 좋아졌다!",
 		char_type = 3
 	},
 	[30005] = {
 		id = 30005,
 		main_character_face = 0,
-		word = "在旅途中发现新风景，让心情也跟着好起来了！",
+		word = "여행 중에 새로운 풍경을 감상하니 기분도 좋아졌다!",
 		char_type = 3
 	},
 	[30006] = {
 		id = 30006,
 		main_character_face = 0,
-		word = "在旅途中发现新风景，让心情也跟着好起来了！",
+		word = "여행 중에 새로운 풍경을 감상하니 기분도 좋아졌다!",
 		char_type = 3
 	},
 	[31001] = {
 		id = 31001,
 		main_character_face = 0,
-		word = "娜比娅似乎还不太适应考核的节奏，平时要多加练习才行。",
+		word = "네비는 아직 판정이 익숙하지 않은 모양이니, 평소에 더 열심히 해야겠다.",
 		char_type = 3
 	},
 	[31002] = {
 		id = 31002,
 		main_character_face = 0,
-		word = "娜比娅达到了基本要求，不过还需要在某些方面多加训练。",
+		word = "네비는 판정의 기초 목표는 달성했지만, 아직 개선할 부분이 보인다.",
 		char_type = 3
 	},
 	[31003] = {
 		id = 31003,
 		main_character_face = 0,
-		word = "娜比娅的各项能力都发挥得不错，继续保持这个水准吧！",
+		word = "네비는 다양한 능력을 잘 발휘하고 있다. 이 상태를 계속 유지하자!",
 		char_type = 3
 	},
 	[31004] = {
 		id = 31004,
 		main_character_face = 0,
-		word = "娜比娅展现出了出色的综合实力，这样的表现让人印象深刻！",
+		word = "네비는 종합적으로 뛰어난 실력을 보여주었다. 굉장히 인상적인 성과다!",
 		char_type = 3
 	},
 	[4101001] = {
@@ -4683,37 +4683,37 @@ pg.base.child2_word = {
 	[4124013] = {
 		id = 4124013,
 		main_character_face = 0,
-		word = "[Specialist's Thesis] (Knowledge > 240 required.)",
+		word = "전문 논문 (지식 240 이상 필요)",
 		char_type = 2
 	},
 	[4124016] = {
 		id = 4124016,
 		main_character_face = 0,
-		word = "[Practical Textbook] (Knowledge > 120 required.)",
+		word = "응용 교재 (지식 120 이상 필요)",
 		char_type = 2
 	},
 	[4124023] = {
 		id = 4124023,
 		main_character_face = 0,
-		word = "[Specialist's Thesis] (Knowledge > 600 required.)",
+		word = "전문 논문 (지식 600 이상 필요)",
 		char_type = 2
 	},
 	[4124026] = {
 		id = 4124026,
 		main_character_face = 0,
-		word = "[Practical Textbook] (Knowledge > 300 required.)",
+		word = "응용 교재 (지식 300 이상 필요)",
 		char_type = 2
 	},
 	[4124033] = {
 		id = 4124033,
 		main_character_face = 0,
-		word = "[Specialist's Thesis] (Knowledge > 1600 required.)",
+		word = "전문 논문 (지식 1600 이상 필요)",
 		char_type = 2
 	},
 	[4124036] = {
 		id = 4124036,
 		main_character_face = 0,
-		word = "[Practical Textbook] (Knowledge > 800 required.)",
+		word = "응용 교재 (지식 800 이상 필요)",
 		char_type = 2
 	},
 	[4125001] = {
@@ -5883,7 +5883,7 @@ pg.base.child2_word = {
 	[4405003] = {
 		id = 4405003,
 		main_character_face = 0,
-		word = "看着信封中写着奇妙的内容，娜比娅悄然产生了一些微妙的变化",
+		word = "기묘한 내용이 적힌 편지를 보고 네비 마음 속에 작은 변화가 일어났다.",
 		char_type = 0
 	}
 }

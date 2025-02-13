@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又是一个被娜比娅“拽”出门运动的日子。",
+			say = "It's another day where Navi has \"forced\" me to do sports with her.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "虽然她提议时的口吻一如既往地别扭，但其中关心的意味却越来越明显了。",
+			say = "Although she is as discourteous as ever, she is clearly showing more consideration for me than she used to.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "来到网球场后，我们很快就热身完毕，开始了正式的对打。",
+			say = "We arrived at the tennis court and did some warm-up exercises, then started a game right off the bat.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "持续半小时的激烈运动后，她的呼吸明显变得急促起来。",
+			say = "After a 30-minute-long back-and-forth, she was finally starting to pant for air.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg12",
-			say = "网球服的上衣被她的汗水浸透，紧紧贴在身上。",
+			say = "Her tennis clothes are soaked through, sticking to her skin.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg12",
 			hidePaintObj = true,
-			say = "她随手抓起网球服的衣角，擦拭着脸上细密的汗珠。",
+			say = "She grabs the rim of her top and uses it to wipe sweat from her brow.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,31 +111,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "暂停休息一下吧？",
+			say = "Time for a break?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……呼……才打这么一会就不行了？",
+			say = "*pant*... *pant*... Why? You throwing in the towel already?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看来某人平时果然是太缺乏锻炼了呢～",
+			say = "It's sooo obvious you don't get nearly enough exercise!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,19 +148,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "说这话的人自己都快喘不上气了。",
+			say = "So you say, but you're short of breath yourself.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼！这、这种程度根本不算什么！",
+			say = "Hmph! No, I'm just getting started!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,19 +171,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg12",
 			hidePaintObj = true,
-			say = "她甩了甩被汗水打湿的发梢，故作轻松地说着。",
+			say = "She flicks her sweaty hair and tries to look composed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg12",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "休息时间结束！快点继续啦！",
+			say = "Breaktime is over! Get your head back in the game!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_112",
-			say = "在网球场中挥洒汗水的一个下午很快就过去了。",
+			say = "Our sweat-inducing afternoon at the tennis court was over before we knew it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "夕阳西下时，我们收拾好装备准备回家。",
+			say = "As the sun started to set, we packed our things and headed for home.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_112",
 			hidePaintObj = true,
-			say = "看着娜比娅疲惫却满足的侧脸，我想，这样度过一天其实也不错。",
+			say = "Although she should've been exhausted after all this, she seemed strangely content. That made me feel like this wasn't a bad way to spend a day.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

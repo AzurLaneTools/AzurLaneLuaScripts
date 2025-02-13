@@ -15,7 +15,7 @@ return {
 			actor = 206030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……是哥哥来了，还有……娜比娅小姐……",
+			say = "아… 오빠! 그리고 네비까지…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,16 +44,16 @@ return {
 			bgName = "star_level_bg_700",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "哼~废柴{tb}你看，这家伙居然一个人抱着玩偶在这里发呆呢，真是搞不懂~",
+			say = "바보 {tb}, 저거 봐. 왜 혼자 인형을 꼭 껴안고 멍하니 서 있는 거지? 이해가 안 가네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "独角兽在想什么事情么？",
+					content = "유니콘, 무슨 일 있어?",
 					flag = 1
 				}
 			}
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "独角兽是在想什么事情么？",
+			say = "――유니콘, 무슨 일 있어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "而且今天特地来了这边……是有什么事想要做么？",
+			say = "――왜 이런 나무 밑에서… 혹시 고민이라도 있는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,20 +89,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "少女轻轻点了点头，然后又摇了摇头。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 206030,
-			side = 2,
-			bgName = "star_level_bg_700",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "独角兽…是想帮上哥哥和娜比娅小姐的忙…",
+			say = "유니콘은 끄덕이고는, 이내 고개를 가로저었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +102,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "因为其他同伴也都在努力…独角兽也想贡献一下自己的力量……！",
+			say = "사실 유니콘도… 오빠랑 네비한테 도움이 되고 싶어서…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 206030,
+			side = 2,
+			bgName = "star_level_bg_700",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "다들 열심히 하잖아… 그러니까 유니콘도 도와주고 싶어…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,18 +128,18 @@ return {
 			actor = 206030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是来了以后……也不知道自己做什么才好，所以就在这里思考了一会儿……",
+			say = "일단 오긴 했는데… 뭘 하면 좋을지 전혀 모르겠어서, 이렇게 여기서 고민하고 있었어…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "独角兽有这份心意就已经帮上忙了",
+					content = "마음만으로 충분해",
 					flag = 1
 				},
 				{
-					content = "有独角兽在真是太好了",
+					content = "유니콘이 와 준 것만으로도 기뻐",
 					flag = 2
 				}
 			}
@@ -152,7 +152,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "独角兽有这份心意就已经帮上忙了",
+			say = "――그 마음만으로 충분해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有独角兽在真是太好了",
+			say = "――유니콘이 와 준 것만으로도 기뻐.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呜……哥哥能这样说，独角兽很开心……",
+			say = "흑… 오빠가 그렇게 말해줘서 유니콘… 너무 행복해.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "优酱说它也很开心哦……",
+			say = "유우도 행복하다고 하네…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,7 +203,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "少女露出了笑容。",
+			say = "그렇게 말하며 유니콘은 밝은 미소를 지었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,9 +215,9 @@ return {
 			bgName = "star_level_bg_700",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "……原来不用特意表现得很强势，废柴{tb}也会接纳啊。",
+			say = "…흠, 딱히 아무것도 안 했는데, 바보 {tb}한테 인정을 받았네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,9 +229,9 @@ return {
 			bgName = "star_level_bg_700",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "才、才不是说人家想被认可什么的！",
+			say = "아… 따, 딱히 인정받고 싶어서 그러는 건 아니야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -244,9 +244,9 @@ return {
 			nameColor = "#A9F548FF",
 			fontsize = 24,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "只是偶尔试试这样也无所谓啦……",
+			say = "그냥… 가끔은 이렇게 응석 부리는 것도 나쁘지 않겠다 싶은 것뿐이야…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那个……谢谢哥哥今天来安慰独角兽……",
+			say = "오빠… 격려해 줘서 고마워…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "独角兽先回去再思考一下……！",
+			say = "이제 그만 가볼게. 뭘 도와줄지는 조금만 더 고민해 볼게…!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好。",
+			say = "――조심해서 가.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "摸了摸独角兽的头后，和娜比娅一同离开了。",
+			say = "유니콘의 머리를 살짝 쓰다듬은 후, 네비와 함께 자리를 떠났다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

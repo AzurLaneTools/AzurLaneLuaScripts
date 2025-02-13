@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那天咖啡厅谈话过后，娜比娅似乎对未来有了新的思考。",
+			say = "Following our exchange at the café, Navi gained a new perspective on her future career path.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "虽然前方的道路还不够清晰，但我相信她一定会找到属于自己的答案。",
+			say = "Even if the path forward isn't clear, she believes she will eventually find her way on her own.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "不过，不知道在这条崭新的道路上，会出现怎样的风景呢？",
+			say = "What journey will her choice take her on, and what places and things await her?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

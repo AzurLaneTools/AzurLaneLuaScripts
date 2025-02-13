@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大扫除时，从房间的角落翻出了一个尘封的盒子。",
+			say = "While cleaning the house, I found a dusty box hidden away in a corner.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			bgName = "bg_project_oceana_room2",
 			tbActor = true,
 			actor = 2101,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "咦……这是之前{tb}送给我的那个遥控汽车玩具。",
+			say = "Wait... Isn't this that remote-controlled car you gave me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我记得是坏掉了吧。当时想丢掉来着找不到了，正好，这次拿去丢掉。",
+			say = "Yeah. I thought about throwing it away when it broke, but I guess I left it somewhere. Let's get rid of it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "唔，{tb}送给我的礼物……直接丢掉也太可惜了呢。",
+			say = "But you gave me it as a gift... It feels wrong to just throw it away!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "我想试试能不能修好它，可以么？正好学校里最近有教。",
+			say = "Maybe I can fix it? I've been studying repairs at school!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "学校里还教这个……？",
+			say = "They teach you how to do that?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "老师说可以通过这种方式培养思维和动手解决问题的能力。",
+			say = "Yeah. My teacher says it improves your thinking and problem-solving skills.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,9 +128,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "说不定以后还可以做出厉害的发明哦~",
+			say = "Who knows – you might even come up with some crazy invention in the future!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "思维和动手能力倒是挺有道理，至于发明么……",
+			say = "Honing your thinking and problem-solving skills, that's reasonable – but inventing something is setting your sights really high.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,9 +156,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "反正家里也有工具间，让我试试嘛。",
+			say = "Let me try repairing it anyway. We have a workshop for stuff like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好，我去拿点喝的和零食来？",
+			say = "Alright. I'll bring you some drinks and snacks.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,9 +183,9 @@ return {
 			bgName = "bg_project_oceana_room2",
 			tbActor = true,
 			actor = 2101,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "嗯！那就拜托{tb}啦。",
+			say = "Yay! Thanks, {tb}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg11",
-			say = "片刻后，当我端着零食和饮料回来时，娜比娅已经换上了一身行头。",
+			say = "I come to the workshop with some snacks and drinks and see that Navi has already started on the repairs.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
-			say = "她穿着一身工装，戴着护目镜，正认真地站在工作台前。",
+			say = "Donning workwear and protective goggles, she stands in front of the table with a serious look on her face.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,44 +235,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
-			say = "可能是刚刚一直在专注地摆弄着零件，她的脸颊上不知何时蹭上了几道机油印记。",
+			say = "There is an oil stain on her cheek. It looks like she's been tinkering with parts quite a lot.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，{tb}回来啦。",
+			say = "Oh, welcome, {tb}!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "老师说做这种事情的时候要穿得方便一点呢。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg11",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "装备倒是还挺齐全的。",
+			say = "My teacher said you ought to put on breathable clothes when working like this.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,19 +272,32 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过还是要小心别伤到自己。",
+			say = "Well, you sure look the part of a mechanic.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg11",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Just be careful so you don't hurt yourself.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "放心啦，不会的。",
+			say = "I'll be fine, don't worry!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room2",
-			say = "将饮料和零食放下后，我在一旁陪着娜比娅进行修理工作。",
+			say = "I left the refreshments on a table then sat down and watched her work.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "最终在娜比娅的努力下，玩具被修好了。",
+			say = "Her hard work paid off, and she got the toy back in working order.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "在我将它仔细擦拭干净后，娜比娅郑重地把它放进了自己的珍藏箱中。",
+			say = "She gave it to me. I polished it up before giving it back to her. She put it safely inside her personal collection box.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

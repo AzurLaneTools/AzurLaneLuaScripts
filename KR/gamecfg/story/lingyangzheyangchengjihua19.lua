@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当港区的繁忙工作终于告一段落时，又是深夜。",
+			say = "Once I finally wrap up my work at the port for the day, it has already turned to night.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（呼……希望娜比娅今天没有熬夜看小说。）",
+			say = "(Whew... I hope Navi isn't staying up late to read novels again.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "在发现娜比娅的不良习惯后，我就和她谈过话了，虽然她保证不会再偷偷看小说，但……",
+			say = "When I caught on to it, we had a long discussion and she promised not to do it anymore. Even so...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（还是回去看一眼吧。）",
+			say = "(I should check on her.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "戴上终端回去后，果然看到了她房间的门缝中透出的微弱的光。",
+			say = "I put the device on and return to the virtual town. Before long, I notice the light faintly peeking through the crack in the door to her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "轻轻敲了两下门，却发现门并没有关严实。",
+			say = "I give it two knocks. It looks like the door was left slightly open.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "手掌不经意地一碰，门便缓缓打开了。",
+			say = "Pushing against it gently, I slowly open the door.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg13",
-			say = "娜比娅穿着睡衣坐在书桌前，正专注地在一本厚厚的本子上写着什么。",
+			say = "Navi is sitting at her desk in her pajamas, writing something in her big notebook.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,31 +155,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "桌上零散地撕下了几张纸，借着台灯的光，能看到上面密密麻麻的字迹。",
+			say = "A few papers are scattered around her desk, filled with dense handwriting.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{tb}？我以为你今天不回来了……",
+			say = "{tb}? I thought you weren't coming home tonight...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，我不是在看小说……我只是……",
+			say = "Oh, uh, I'm not reading novels, I'm just...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "她慌忙用手去遮挡本子上的内容，脸上泛起了淡淡的红晕。",
+			say = "She hurriedly covers her notes with her hands, cheeks flushed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,30 +203,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这么晚了还不睡，在写什么呢？",
+			say = "Why are you up this late, and what are you writing?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那、那个……就是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg13",
-			hidePaintObj = true,
-			say = "虽然她用手盖住了大部分的内容，但是我从一旁撕下的纸张上瞥见了内容。",
+			say = "I-it's... You know...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,19 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "——记录的是和我相处的点点滴滴，字迹工整，还画着可爱的小涂鸦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我是在写日记……不过我保证以后不会半夜偷偷写了。",
+			say = "While her hands obscure most of what's written in her notes, one of the scattered papers clearly clues me in as to what she's writing about.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +237,30 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "她低着头，小声地做出了保证。",
+			say = "The neat handwriting describes her and my daily life, with cute little doodles accompanying the writing.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg13",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "I'm keeping a diary... I-I won't stay up to write it again, I promise.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg13",
+			hidePaintObj = true,
+			say = "She buries her head and makes a promise under her breath.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "替她收拾好散落的纸张，目送她乖乖钻回被窝后。",
+			say = "Once she gathered her scattered papers, I watched to make sure she went to bed.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我关掉台灯，轻轻带上了她的房门。",
+			say = "I switched off her desk lamp and carefully closed the door to her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "月光从窗外洒落在她卧室门前的走廊上，为这个夜晚画上一个平静的句号。",
+			say = "Moonlight shone in through the window, painting the hallway a silvery blue. A calm and quiet night passed by.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

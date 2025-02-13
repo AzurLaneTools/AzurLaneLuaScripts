@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从那天在街机厅的偶遇后，已经又过了一段时间。",
+			say = "Some time has passed since I bumped into Navi at the arcade.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "虽然约定好了要多花时间在一起，但今天难得有空，她却只是待在房间里发呆。",
+			say = "Although we promised to spend more time together, today it looks like she just wants to stay in her room.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（说好要多陪陪她的，但就这样一直在房间里也不是办法。）",
+			say = "(She can't just sit in there forever...)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（还是提议带她出门比较好吧。）",
+			say = "(This is a good opportunity to take her somewhere.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "对了，娜比娅。现在这个天气也合适……要不要去游泳？",
+			say = "Hey, Navi, the weather's great today. Do you wanna go for a swim?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,9 +93,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "啊？为什么突然说这个？",
+			say = "What? Why a swim all of a sudden?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "之前看你在街机厅跳舞的时候，动作有些手忙脚乱的。",
+			say = "When you were playing that rhythm game at the arcade, I noticed your moves were a bit clumsy.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "多游泳可以帮助提高身体协调性和灵活度。",
+			say = "If you want to sharpen your sense of balance and make yourself more flexible, swimming is the best way to do it.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,9 +134,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "哈？{tb}这是在小看我吗？",
+			say = "Huh? Are you looking down on me?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "她双手叉腰，一脸不服气。",
+			say = "A sour expression. She defiantly places both hands on her hips.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,9 +160,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "明明自己都不怎么灵活，还来指点别人！而且游泳哪有跳舞机好玩嘛！",
+			say = "Don't you give me unsolicited advice when you're just as out-of-shape! Also, gaming is a million times more fun than swimming!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那这样吧，我们来比一场。",
+			say = "I hear you. How about a swimming race, then?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "如果你赢了，我就陪你玩一个礼拜的跳舞机。",
+			say = "If you win, I'll play that rhythm game with you for a whole week. How does that sound?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,9 +201,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "什么嘛，才一个礼拜？起码也得半个月吧！",
+			say = "Wooow, you talk big yet you're only putting one week on the line? Two weeks should be the minimum!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好啊，不过前提是——你得先游得过我才行。",
+			say = "Two weeks it is, then. You still have to beat me, though.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,9 +228,9 @@ return {
 			bgName = "bg_project_oceana_room2",
 			tbActor = true,
 			actor = 2201,
-			actorName = "娜比娅",
+			actorName = "Navi",
 			hidePaintObj = true,
-			say = "那还不简单！你就等着输吧！",
+			say = "Pfft. That's gonna be easy. Hope you like the taste of defeat!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_133",
-			say = "之后和娜比娅来到了泳池游泳",
+			say = "And so, I brought Navi to the pool.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_133",
 			hidePaintObj = true,
-			say = "虽然娜比娅的泳姿很是标准，动作也很流畅，但最终还是输给了我这个成年人的体格优势。",
+			say = "Her swimming form is surprisingly good, and her moves were smooth. However, I had the physical advantage that secured me the victory.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg8",
-			say = "刚爬上岸边，娜比娅就跪趴在在那里，水珠顺着她的手臂和衣物不住滑落。",
+			say = "Navi gets out of the pool and immediately falls flat on her stomach, water dripping off her hair and swimsuit.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,55 +308,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg8",
 			hidePaintObj = true,
-			say = "虽然很是狼狈，但娜比娅还是得意洋洋地抬起头，一副胜券在握的模样。",
+			say = "Despite looking exhausted, she still has the energy to shoot me a proud look, grinning as though she is the real victor.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我输了……但是{tb}肯定还是会陪我去玩的，对吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg8",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "……确实。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg8",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "哼哼~就知道没用的{tb}最后肯定还是会服软的啦！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg8",
-			hidePaintObj = true,
-			say = "她挑衅般地扬起了下巴，满脸都写着“果然如我所料”。",
+			say = "Okay, you got me... but does it matter? You're still going to the arcade with me anyway, right?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,19 +333,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那算了，不去了。",
+			say = "Well... Yes.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg8",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸？！不行不行！我、我错了嘛……",
+			say = "Heheh! Of course. You're such a dweeb that I just knew you'd do it anyway!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +356,43 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg8",
 			hidePaintObj = true,
-			say = "她的嚣张气焰立刻消失得无影无踪，换上了可怜巴巴的表情。",
+			say = "The smug look on her face screams, \"Everything went just as I expected.\"",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg8",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Hmm. On second thought, I'm not doing it.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg8",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Huh?! No, wait! I'm sorry! I'm sorry for being so rude!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg8",
+			hidePaintObj = true,
+			say = "Her facade of superiority crumbles in an instant, giving way to a look of remorse.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_607",
-			say = "那之后，换好了干净衣物，和娜比娅在街机厅玩了一整个下午。",
+			say = "Afterward, we got changed and headed to the arcade just as she'd hoped. There, we played many rounds together.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

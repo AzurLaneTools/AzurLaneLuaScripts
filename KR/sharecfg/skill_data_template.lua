@@ -120027,7 +120027,7 @@ pg.base.skill_data_template = {
 	},
 	[29023] = {
 		desc_get = "",
-		name = "특수 탄막 - 엘드릿지Ⅱ",
+		name = "특수 탄막 – 엘드릿지III",
 		type = 1,
 		max_level = 1,
 		desc = "주포 공격을 10회 실시할 때마다 특수 탄막 - 엘드릿지Ⅱ를 전개한다.",

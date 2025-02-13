@@ -14,7 +14,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“户外游戏是必不可少的一项运动。有效利用户外时间，可以锻炼平衡能力、协调能力……”",
+			say = "\"Outdoor activities are a type of exercise that is indispensable for a child's health. Making effective use of their time outdoors can improve their sense of balance and foster a sense of cooperation...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "合上从图书馆深处找到的教育类藏书，我揉了揉眉心。",
+			say = "I close the book I found in the library and furrow my brow a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "以娜比娅现阶段呈现出的个性来说，她也并不抗拒“出去玩”这件事。",
+			say = "Judging by her current personality, Navi shouldn't be against the idea of playing outdoors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "户外运动么……确实是个不错的选择。",
+			say = "You know, yeah – going outside might be a good choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "想到这里，我再度戴上了终端。",
+			say = "With my mind made, I equip the device again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room1",
-			say = "在熟悉的白光闪过后，回到了小镇的家中。",
+			say = "As always, there's a bright light, followed by the virtual town coming into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "简单做了些准备之后，我便带着娜比娅出发去室外运动。",
+			say = "After quickly getting some things in order, I bring Navi with me outdoors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg5",
-			say = "接力棒被娜比娅紧握在手中，终点线前，她嘴角的弧度微微上扬，带着有些嚣张的笑意。",
+			say = "Just an inch away from the finish line, relay baton in hand, the corners of Navi's lips bend into a rather proud smile.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "看到了吗？{tb}，人家可是以绝对优势获胜的哦！",
+			say = "Did you see that, {tb}? I won by a landslide!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,19 +169,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "干得漂亮，娜比娅。",
+			say = "Yeah. You did great.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼～这种程度的比赛对我来说根本就是小菜一碟啦！",
+			say = "Heh! It was a total walk in the park for me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,56 +192,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg5",
 			hidePaintObj = true,
-			say = "她得意地晃了晃手中的接力棒。",
+			say = "She triumphantly swings the baton around and takes on an even more boastful attitude.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这可是理所当然的胜利呢～反正以{tb}的废柴体能肯定做不到吧？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg5",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "这算是激将法么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "什么激将法！我可都是实话实说！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg5",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "像你这样每天工作个不停的人，体能肯定差得要命吧？废柴～废柴～废柴～",
+			say = "My victory was inevitable! A dweeb with no stamina like you would never beat me!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,31 +217,68 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那要不要来试试看？",
+			say = "Are you taunting me now?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸？{tb}要和我比赛吗？",
+			say = "Taunting? I'm just stating facts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg5",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼哼~温馨提示，你现在提前认输还来得及哦？",
+			say = "You work at a desk all day! It's obvious you don't have any endurance! Losety loser!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg5",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "Oh yeah? Do you wanna try me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg5",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Huh? Are you challenging me?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "Navi",
+			side = 2,
+			bgName = "bg_project_oceana_cg5",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "Heheh! I'll give you a friendly tip – when you lose, you should just admit it!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg5",
 			hidePaintObj = true,
-			say = "最后，我们就这样打打闹闹、赛着跑地踏上了回家的路。",
+			say = "Navi and I run all the way home, messing around along the way.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,7 +14,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“户外游戏是必不可少的一项运动。有效利用户外时间，可以锻炼平衡能力、协调能力……”",
+			say = "\"Outdoor activities are a type of exercise that is indispensable for a child's health. Making effective use of their time outdoors can improve their sense of balance and foster a sense of cooperation...\"",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "合上从图书馆深处找到的教育类藏书，我揉了揉眉心。",
+			say = "I close the book I found in the library and furrow my brow a little.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "以娜比娅现阶段呈现出的个性来说，她也并不抗拒“出去玩”这件事。",
+			say = "Judging by her current personality, Navi shouldn't be against the idea of playing outdoors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "户外运动么……确实是个不错的选择。",
+			say = "You know, yeah – going outside might be a good choice.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "想到这里，我再度戴上了终端。",
+			say = "With my mind made, I equip the device again.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room1",
-			say = "在熟悉的白光闪过后，回到了小镇的家中。",
+			say = "As always, there's a bright light, followed by the virtual town coming into view.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "简单做了些准备之后，我便带着娜比娅出发去室外运动。",
+			say = "After quickly getting some things in order, I bring Navi with me outdoors.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg6",
-			say = "午后的阳光照耀着这片农场中的小花园。",
+			say = "The gentle afternoon sun shines on the garden of a farm.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,12 +151,12 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……这样一来就好啦！",
+			say = "Okay... That's perfect!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,31 +167,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
-			say = "她小心翼翼地把刚刚培好的泥土拍实，生怕弄坏了新种下的花。",
+			say = "Navi carefully piles soil onto the flower that she just planted.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{tb}！你回来得正好哦。",
+			say = "{tb}! Great timing!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "在你去帮我买饮料的时候，我把它种好了呢。",
+			say = "I finished planting the flower while you went away to buy drinks!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
-			say = "注意到我的到来，她立刻扬起了笑脸，脸颊上还沾着一点不知何时蹭上的泥土。",
+			say = "Aware of my arrival, she looks up at me with a beaming smile. There is a small and endearing spot of dirt on her cheek.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,55 +215,55 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没想到，种花才是娜比娅想要的室外运动啊。",
+			say = "I'm surprised that gardening is your preferred kind of outdoor activity.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿~因为这里也是室外哦。",
+			say = "Heehee! It's outdoors, so it counts!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "而且种花也要挖土、搬花盆，所以也算运动呢~",
+			say = "I am getting exercise by digging holes and carrying flower pots around, too.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "对了对了！我想以后好好照顾它，所以就只能拜托{tb}多带我来农场玩啦。",
+			say = "Oh, also, please bring me back here later. I wanna look after this flower.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "Navi",
 			side = 2,
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要一起来看它长大~",
+			say = "We'll make sure it grows big and strong!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg6",
 			hidePaintObj = true,
-			say = "和娜比娅拉勾做好约定之后，悠闲地踏上了回家的路。",
+			say = "We exchange a pinky promise, then walk back home feeling at peace.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
