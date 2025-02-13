@@ -2181,7 +2181,7 @@ slot0.hasAvailiableSkin = function(slot0)
 	slot4 = 0
 
 	for slot8, slot9 in ipairs(slot1:GetAllSkinForShip(slot0)) do
-		if slot0:proposeSkinOwned(slot9) or slot3[slot9.id] then
+		if slot0:proposeSkinOwned(slot9) or slot3[slot9.id] or slot1:hasSkin(slot9.id) then
 			slot4 = slot4 + 1
 		end
 	end

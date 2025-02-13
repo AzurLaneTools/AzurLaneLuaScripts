@@ -13,8 +13,14 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.confirmBtn = slot0._tf:Find("frame/btns/confirm_btn")
-	slot1 = slot0._tf
-	slot0.cancelBtn = slot1:Find("frame/btns/cancel_btn")
+	slot0.cancelBtn = slot0._tf:Find("frame/btns/cancel_btn")
+
+	GetComponent(slot0._tf:Find("frame/exit"), typeof(Image)):SetNativeSize()
+
+	slot1 = GetComponent(slot0._tf:Find("frame/puase"), typeof(Image))
+
+	slot1:SetNativeSize()
+
 	slot0.texts = {
 		[uv0.EXIT_TXT] = slot0._tf:Find("frame/exit"),
 		[uv0.PAUSE_TXT] = slot0._tf:Find("frame/puase")

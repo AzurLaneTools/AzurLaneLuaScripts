@@ -1,6 +1,220 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[705081] = {
+		name = "グレイス・マーフィヤ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "「ふふふ…あら、この世界の統治者に謁見する準備はもうできていて？なら…お行儀よくするのをしっかり覚えておくことね。ポルタヴァ女王の時間はとーーっても貴重なんだから…」",
+		illustrator2 = -1,
+		ship_group = 70508,
+		group_index = 1,
+		painting = "boertawa_2",
+		prefab = "boertawa_2",
+		hand_id = 1,
+		shop_type_id = 12,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "146",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 705081,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70981,
+		voice_actor = 97,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.349,
+					0.458,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.337,
+					0.479,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.993,
+					1.464,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.511,
+							2.474,
+							-0.18
+						}
+					}
+				}
+			}
+		}
+	},
+	[707010] = {
+		name = "ヴォルガ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "72型空母-ヴォルガ",
+		illustrator2 = -1,
+		ship_group = 70701,
+		group_index = 0,
+		painting = "fuerjia",
+		prefab = "fuerjia",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 707010,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 307,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.102,
+					1.651,
+					0
+				}
+			},
+			plane = {
+				{
+					2.156,
+					1.781,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.461,
+							2.503,
+							-1.89
+						}
+					}
+				}
+			}
+		}
+	},
 	[707011] = {
 		name = "美味しいAR探偵体験",
 		change_skin = "",
@@ -13796,258 +14010,6 @@ pg.base.ship_skin_template_15 = {
 							0.6,
 							2.59,
 							-0.38
-						}
-					}
-				}
-			}
-		}
-	},
-	[900003] = {
-		name = "ケルン",
-		change_skin = "",
-		bg_sp = "",
-		desc = "0",
-		illustrator2 = 0,
-		ship_group = 900003,
-		group_index = 0,
-		painting = "kelong-ui",
-		prefab = "kelong",
-		hand_id = 0,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900003,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.92,
-					0.75,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.92,
-					0.75,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.23,
-					0.23,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.44,
-					0.94,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.57,
-							0.81,
-							-0.568
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.606,
-							-0.472
-						}
-					}
-				}
-			}
-		}
-	},
-	[900004] = {
-		name = "サフォーク",
-		change_skin = "",
-		bg_sp = "",
-		desc = "0",
-		illustrator2 = 0,
-		ship_group = 900004,
-		group_index = 0,
-		painting = "safuke",
-		prefab = "safuke",
-		hand_id = 0,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900004,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = 0,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.088,
-					0.776,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.088,
-					0.776,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.251,
-					0.487,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.027,
-					0.936,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.29,
-							0.95,
-							-0.16
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.71,
-							2.52,
-							0.07
 						}
 					}
 				}

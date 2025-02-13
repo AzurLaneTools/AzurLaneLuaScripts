@@ -10,6 +10,10 @@ slot3.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 end
 
+slot3.GetEffectType = function(slot0)
+	return uv0.Battle.BattleBuffEffect.FX_TYPE_COUNTER
+end
+
 slot3.Repeater = function(slot0)
 	return slot0._keepRestCount
 end
@@ -158,6 +162,10 @@ end
 
 slot3.GetCountProgress = function(slot0)
 	return slot0._count / (slot0._hpCountTarget or slot0._countTarget)
+end
+
+slot3.SetCount = function(slot0, slot1)
+	slot0._count = slot1
 end
 
 slot3.ResetCount = function(slot0)

@@ -341,6 +341,8 @@ slot0.InitCommodities = function(slot0)
 	if pg.activity_template[slot0.shop.activityId] and slot1.config_client and slot1.config_client.category then
 		slot0.splitCommodities = slot0.shop:GetSplitCommodities()
 		slot0.spiltNameCodes = slot0.shop:GetSplitNameCodes()
+
+		slot0.groupList:align(#slot0.splitCommodities)
 	else
 		uv0.super.InitCommodities(slot0)
 	end

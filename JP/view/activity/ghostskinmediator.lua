@@ -19,14 +19,15 @@ slot0.listNotificationInterests = function(slot0)
 		uv0.UnlockStoryDone,
 		ActivityProxy.ACTIVITY_UPDATED,
 		GAME.SUBMIT_TASK_DONE,
-		GAME.SUBMIT_ACTIVITY_TASK_DONE
+		GAME.SUBMIT_ACTIVITY_TASK_DONE,
+		GAME.ACTIVITY_STORYUNLOCKED_DONE
 	}
 end
 
 slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
-	if slot1:getName() == uv0.UnlockStoryDone then
+	if slot1:getName() == GAME.ACTIVITY_STORYUNLOCKED_DONE then
 		slot0.viewComponent:UpdataStoryState(slot3)
 	elseif slot2 == ActivityProxy.ACTIVITY_UPDATED then
 		if slot3:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TownSkinStory then

@@ -1,6 +1,206 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[308013] = {
+		name = "ブロッサム・バニー",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "「ばにー」さんの格好をしてみたよ？えへへ、どう？似合ってる？可愛いと思ったら褒めて♪",
+		illustrator2 = -1,
+		ship_group = 30801,
+		group_index = 3,
+		painting = "i19_4",
+		prefab = "i19_4",
+		hand_id = 14,
+		shop_type_id = 16,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "145",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 308013,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70547,
+		voice_actor = 83,
+		spine_offset = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.268,
+					0.442,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[308020] = {
+		name = "伊26",
+		change_skin = "",
+		bg_sp = "",
+		desc = "巡潜乙型伊号第二十六潜水艦",
+		illustrator2 = -1,
+		ship_group = 30802,
+		group_index = 0,
+		painting = "I26",
+		prefab = "I26",
+		hand_id = 17,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 308020,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 121,
+		spine_offset = "",
+		illustrator = 14,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.97,
+					0.24,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.97,
+					0.3,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.64,
+							2.45,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[308021] = {
 		name = "ウサギと深海魚",
 		change_skin = "",
@@ -13472,257 +13672,6 @@ pg.base.ship_skin_template_11 = {
 							-0.718,
 							0.969,
 							-0.081
-						}
-					}
-				}
-			}
-		}
-	},
-	[403022] = {
-		name = "直上へとバーニングハート",
-		change_skin = "",
-		bg_sp = "",
-		desc = "にゃは☆魔王軍所属のドラゴンナイト、ブリュッヒャーだよ～…ドラゴンを操ってるというより引っ張られてる？そうだけど…ってわあああ！ドラゴンが言うことを聞かないよ！指揮官助けてー！",
-		illustrator2 = -1,
-		ship_group = 40302,
-		group_index = 2,
-		painting = "bulvxieer_3",
-		prefab = "bulvxieer_3",
-		hand_id = 13,
-		shop_type_id = 24,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "176",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 403022,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70992,
-		voice_actor = 132,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.751,
-					1.133,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.736,
-					1.133,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.004,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.317,
-					1.414,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.365,
-							2.31,
-							-0.081
-						}
-					}
-				}
-			}
-		}
-	},
-	[403030] = {
-		name = "プリンツ・オイゲン",
-		change_skin = "",
-		bg_sp = "",
-		desc = "アドミラル・ヒッパー級重巡洋艦・プリンツオイゲン",
-		illustrator2 = -1,
-		ship_group = 40303,
-		group_index = 0,
-		painting = "ougen",
-		prefab = "ougen",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 403030,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 21,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.53,
-					0.802,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.235,
-					0.484,
-					0
-				},
-				{
-					0.847,
-					0.34,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.227,
-					0.408,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.235,
-					0.484,
-					0
-				},
-				{
-					0.847,
-					0.34,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.531,
-							0.427,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.711,
-							0.361,
-							0
 						}
 					}
 				}

@@ -24965,6 +24965,16 @@ pg.base.ship_data_group = {
 					}
 				},
 				0
+			},
+			{
+				"特別補給（ランダム出現）",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -25005,16 +25015,6 @@ pg.base.ship_data_group = {
 					{
 						projectName = "special",
 						page = 1
-					}
-				},
-				0
-			},
-			{
-				"特別補給（ランダム出現）",
-				{
-					"SHOP",
-					{
-						warp = "supplies"
 					}
 				},
 				0

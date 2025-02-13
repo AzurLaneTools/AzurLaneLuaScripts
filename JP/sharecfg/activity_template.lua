@@ -11133,7 +11133,7 @@ pg.activity_template = {
 			2525
 		},
 		config_client = {
-			"commonbg/bg_pt_μougen",
+			"commonbg/bg_pt_mougen",
 			{
 				1,
 				1,
@@ -11141,7 +11141,7 @@ pg.activity_template = {
 				1
 			},
 			pt_id = 407,
-			painting = "μougen_pt",
+			painting = "mougen_pt",
 			bgm = "song-Alizarin-full-inst"
 		}
 	},
@@ -19429,6 +19429,7 @@ pg.activity_template = {
 	[5792] = {
 		mark = 20250206,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -19452,33 +19453,6 @@ pg.activity_template = {
 			21238,
 			21239,
 			21240
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5793] = {
@@ -19571,7 +19545,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5795,
-		is_show = 49,
+		is_show = 48,
 		title_res_tag = "bulvxieersp_pt",
 		id = 5795,
 		config_data = {},
@@ -19691,6 +19665,7 @@ pg.activity_template = {
 	[5797] = {
 		mark = 20250206,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -19700,38 +19675,12 @@ pg.activity_template = {
 		id = 5797,
 		config_data = {
 			21225
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5798] = {
 		mark = 20250206,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -19739,33 +19688,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 5798,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -19786,6 +19708,7 @@ pg.activity_template = {
 	[5799] = {
 		mark = 20250206,
 		page_info = "",
+		time = "stop",
 		type = 80,
 		login_pop = 0,
 		config_id = 0,
@@ -19795,39 +19718,13 @@ pg.activity_template = {
 		config_data = {
 			4
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			65078
 		}
 	},
 	[5800] = {
 		mark = 20250206,
+		time = "stop",
 		type = 3,
 		login_pop = 0,
 		config_id = 68,
@@ -19836,33 +19733,6 @@ pg.activity_template = {
 		title_res_tag = "dexiV3_login",
 		id = 5800,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "ReproductionHornetLoginRePage",
 			ui_name = "ReproductionHornetLoginRePage"
@@ -19871,6 +19741,7 @@ pg.activity_template = {
 	[5801] = {
 		mark = 20250206,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -19883,37 +19754,11 @@ pg.activity_template = {
 				31964,
 				100
 			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					12
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5802] = {
 		mark = 20250206,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 1,
@@ -19927,33 +19772,6 @@ pg.activity_template = {
 			1670004,
 			1670041,
 			1670051
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					6
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "ReproductionBulvxieerSPMainPage",
@@ -20002,6 +19820,96 @@ pg.activity_template = {
 		},
 		config_client = {
 			miniGame = 74
+		}
+	},
+	[5806] = {
+		mark = 20250213,
+		type = 57,
+		login_pop = 0,
+		config_id = 63,
+		is_show = 49,
+		config_client = "",
+		title_res_tag = "ValentineQte",
+		id = 5806,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "ValentineQte2Page",
+			ui_name = "ValentineQte2Page"
+		}
+	},
+	[5807] = {
+		mark = 20250213,
+		page_info = "",
+		type = 29,
+		login_pop = 0,
+		config_id = 15,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5807,
+		config_data = {
+			{
+				defaultID,
+				312011
+			},
+			{
+				itemID,
+				44003
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					2,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	[7011] = {
@@ -26131,6 +26039,7 @@ pg.activity_template = {
 			5717,
 			5765,
 			5803,
+			5806,
 			100005
 		},
 		[51] = {
@@ -26227,7 +26136,8 @@ pg.activity_template = {
 			5779
 		},
 		[29] = {
-			5201
+			5201,
+			5807
 		},
 		[70] = {
 			5246,
@@ -26953,6 +26863,8 @@ pg.activity_template = {
 		5801,
 		5802,
 		5803,
+		5806,
+		5807,
 		7011,
 		7012,
 		7013,

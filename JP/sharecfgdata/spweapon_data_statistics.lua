@@ -26898,3 +26898,327 @@ _G.pg.base.spweapon_data_statistics[13810] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[13820] = {
+	attribute_1 = "cannon",
+	name = "超粘着MAX",
+	type = 2,
+	tech = 0,
+	value_1_random = 10,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 20,
+	effect_id = 901010,
+	attribute_2 = "durability",
+	next = 13821,
+	upgrade_id = 101,
+	value_2 = 100,
+	icon = "13820",
+	value_1 = 13,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	unique = 10210,
+	important = 2,
+	prev = 0,
+	id = 13820,
+	usability = {
+		2
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090390
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13821] = {
+	upgrade_id = 102,
+	prev = 13820,
+	next = 13822,
+	base = 13820,
+	id = 13821,
+	value_2 = 110,
+	value_1 = 14,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[13822] = {
+	upgrade_id = 103,
+	prev = 13821,
+	next = 13823,
+	base = 13820,
+	id = 13822,
+	value_2 = 120,
+	value_1 = 15,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[13823] = {
+	upgrade_id = 104,
+	prev = 13822,
+	next = 13824,
+	base = 13820,
+	id = 13823,
+	value_2 = 130,
+	value_1 = 16,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[13824] = {
+	upgrade_id = 105,
+	prev = 13823,
+	next = 13825,
+	base = 13820,
+	id = 13824,
+	value_2 = 140,
+	value_1 = 17,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[13825] = {
+	upgrade_id = 106,
+	prev = 13824,
+	next = 13826,
+	base = 13820,
+	id = 13825,
+	value_2 = 150,
+	value_1 = 18,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[13826] = {
+	upgrade_id = 107,
+	prev = 13825,
+	next = 13827,
+	base = 13820,
+	id = 13826,
+	value_2 = 160,
+	value_1 = 19,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[13827] = {
+	upgrade_id = 108,
+	prev = 13826,
+	next = 13828,
+	base = 13820,
+	id = 13827,
+	value_2 = 170,
+	value_1 = 20,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[13828] = {
+	upgrade_id = 109,
+	prev = 13827,
+	next = 13829,
+	base = 13820,
+	id = 13828,
+	value_2 = 180,
+	value_1 = 21,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[13829] = {
+	upgrade_id = 110,
+	prev = 13828,
+	next = 13830,
+	base = 13820,
+	id = 13829,
+	value_2 = 190,
+	value_1 = 23,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[13830] = {
+	id = 13830,
+	upgrade_id = 111,
+	base = 13820,
+	next = 0,
+	prev = 13829,
+	value_2 = 200,
+	value_1 = 25,
+	level = 11,
+	skill_upgrade = {
+		{
+			4091,
+			1090390
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13840] = {
+	attribute_1 = "dodge",
+	name = "龍奇月輪",
+	type = 4,
+	tech = 0,
+	value_1_random = 5,
+	rarity = 4,
+	effect_id_display = 901010,
+	value_2_random = 10,
+	effect_id = 901010,
+	attribute_2 = "cannon",
+	next = 13841,
+	upgrade_id = 101,
+	value_2 = 15,
+	icon = "13840",
+	value_1 = 5,
+	level = 1,
+	descrip = "特殊装備コアで製造できる艦船の専用兵装 ",
+	uncraftable = 0,
+	unique = 30312,
+	important = 2,
+	prev = 0,
+	id = 13840,
+	usability = {
+		3
+	},
+	skill_upgrade = {
+		{
+			0,
+			1090380
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[13841] = {
+	upgrade_id = 102,
+	prev = 13840,
+	next = 13842,
+	base = 13840,
+	id = 13841,
+	value_2 = 17,
+	value_1 = 6,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[13842] = {
+	upgrade_id = 103,
+	prev = 13841,
+	next = 13843,
+	base = 13840,
+	id = 13842,
+	value_2 = 19,
+	value_1 = 7,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[13843] = {
+	upgrade_id = 104,
+	prev = 13842,
+	next = 13844,
+	base = 13840,
+	id = 13843,
+	value_2 = 21,
+	value_1 = 8,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[13844] = {
+	upgrade_id = 105,
+	prev = 13843,
+	next = 13845,
+	base = 13840,
+	id = 13844,
+	value_2 = 23,
+	value_1 = 9,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[13845] = {
+	upgrade_id = 106,
+	prev = 13844,
+	next = 13846,
+	base = 13840,
+	id = 13845,
+	value_2 = 25,
+	value_1 = 10,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[13846] = {
+	upgrade_id = 107,
+	prev = 13845,
+	next = 13847,
+	base = 13840,
+	id = 13846,
+	value_2 = 27,
+	value_1 = 11,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[13847] = {
+	upgrade_id = 108,
+	prev = 13846,
+	next = 13848,
+	base = 13840,
+	id = 13847,
+	value_2 = 29,
+	value_1 = 12,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[13848] = {
+	upgrade_id = 109,
+	prev = 13847,
+	next = 13849,
+	base = 13840,
+	id = 13848,
+	value_2 = 31,
+	value_1 = 13,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[13849] = {
+	upgrade_id = 110,
+	prev = 13848,
+	next = 13850,
+	base = 13840,
+	id = 13849,
+	value_2 = 33,
+	value_1 = 14,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[13850] = {
+	id = 13850,
+	upgrade_id = 111,
+	base = 13840,
+	next = 0,
+	prev = 13849,
+	value_2 = 35,
+	value_1 = 15,
+	level = 11,
+	skill_upgrade = {
+		{
+			2051,
+			1090380
+		}
+	}
+}

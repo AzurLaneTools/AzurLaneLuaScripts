@@ -212080,3 +212080,322 @@ _G.pg.base.task_data_template[500087] = {
 		}
 	}
 }
+
+
+_G.pg.base.task_data_template[500091] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500091,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "愛の食療",
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "jian",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500092",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "JIAN1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500091,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500092] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500092,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "指揮官、ご飯の時間ですよ！",
+	desc = "任意の艦を10回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "jian",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500093",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "JIAN2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500092,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500093] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500093,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "美味しい料理の作り方！",
+	desc = "済安を含めた艦隊で出撃し、20回勝利する",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "jian",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500094",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "JIAN3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500093,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "50209",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500094] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500094,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "料理の特訓",
+	desc = "燃料を500消費する",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "jian",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500095",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "JIAN4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500094,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500095] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500095,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "諦めたくない",
+	desc = "済安の親密度が100に到達",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "jian",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500096",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "JIAN5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500095,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "50209",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16022,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500096] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500096,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "胃袋を掴む策略",
+	desc = "済安を3回限界突破する",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "jian",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500097",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "JIAN6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500096,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "50209",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500097] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500097,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "隠し味は愛",
+	desc = "済安のレベルが100に到達",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "jian",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "JIAN7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500097,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "50209",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			2
+		}
+	}
+}

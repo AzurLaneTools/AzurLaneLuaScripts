@@ -1,6 +1,234 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[602011] = {
+		name = "貴き黒のシレネッタ",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "ご機嫌よう指揮官殿。そなたもここに羽を伸ばしにやってきたのかな？貴き者として、時々贅沢はしたいものだ。ははは",
+		illustrator2 = -1,
+		ship_group = 60201,
+		group_index = 1,
+		painting = "abuluqi_2",
+		prefab = "abuluqi_2",
+		hand_id = 1,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "133",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 602011,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70530,
+		voice_actor = 270,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.996,
+					0.992,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.989,
+					1.008,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0.019,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.991,
+					1.013,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.526,
+							2.461,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[602020] = {
+		name = "ジュゼッペ・ガリバルディ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "ドゥーカ・デッリ・アブルッツィ級軽巡洋艦-ジュゼッペ・ガリバルディ",
+		illustrator2 = -1,
+		ship_group = 60202,
+		group_index = 0,
+		painting = "zhusaipei",
+		prefab = "zhusaipei",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 602020,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 286,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.08,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.15,
+					1.07,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.11,
+					1.31,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.81,
+							2.09,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[602021] = {
 		name = "黒羽のノービルメンテ",
 		change_skin = "",
@@ -13530,220 +13758,6 @@ pg.base.ship_skin_template_14 = {
 							-0.531,
 							2.487,
 							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[705081] = {
-		name = "グレイス・マーフィヤ",
-		change_skin = "",
-		bg_sp = "",
-		desc = "「ふふふ…あら、この世界の統治者に謁見する準備はもうできていて？なら…お行儀よくするのをしっかり覚えておくことね。ポルタヴァ女王の時間はとーーっても貴重なんだから…」",
-		illustrator2 = -1,
-		ship_group = 70508,
-		group_index = 1,
-		painting = "boertawa_2",
-		prefab = "boertawa_2",
-		hand_id = 1,
-		shop_type_id = 12,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "146",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 705081,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70981,
-		voice_actor = 97,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.349,
-					0.458,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.337,
-					0.479,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.993,
-					1.464,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.511,
-							2.474,
-							-0.18
-						}
-					}
-				}
-			}
-		}
-	},
-	[707010] = {
-		name = "ヴォルガ",
-		change_skin = "",
-		bg_sp = "",
-		desc = "72型空母-ヴォルガ",
-		illustrator2 = -1,
-		ship_group = 70701,
-		group_index = 0,
-		painting = "fuerjia",
-		prefab = "fuerjia",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 707010,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 307,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.102,
-					1.651,
-					0
-				}
-			},
-			plane = {
-				{
-					2.156,
-					1.781,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.461,
-							2.503,
-							-1.89
 						}
 					}
 				}

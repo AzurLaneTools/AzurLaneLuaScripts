@@ -1,6 +1,232 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
+	[305024] = {
+		name = "看板娘大作戦！",
+		change_skin = "",
+		bg_sp = "",
+		desc = "殿様殿様、いらっしゃいませー！今日は山城が看板娘をやりますよ！うんうん！山城、がんばりますよ―！",
+		illustrator2 = -1,
+		ship_group = 30502,
+		group_index = 4,
+		painting = "shancheng_7",
+		prefab = "shancheng_7",
+		hand_id = 14,
+		shop_type_id = 9999,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 305024,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 71,
+		spine_offset = "",
+		illustrator = 22,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.379,
+					0.919,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.348,
+					0.882,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.022,
+					-0.006,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.279,
+					0.909,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.36,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[305025] = {
+		name = "観光地大作戦！",
+		change_skin = "",
+		bg_sp = "",
+		desc = "わあーさすが観光地、空気もいつもとは違う匂いです！殿様殿様、ええとね、ここの空気を瓶詰めにしたらいいことがあるって明石ちゃんが言ってました！殿様も一緒にどうですか？",
+		illustrator2 = -1,
+		ship_group = 30502,
+		group_index = 5,
+		painting = "shancheng_8",
+		prefab = "shancheng_8",
+		hand_id = 14,
+		shop_type_id = 9,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 305025,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 71,
+		spine_offset = "",
+		illustrator = 22,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.379,
+					1.013,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.348,
+					0.994,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.279,
+					0.995,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.496,
+							2.291,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[305026] = {
 		name = "制服大作戦！",
 		change_skin = "",
@@ -12888,206 +13114,6 @@ pg.base.ship_skin_template_10 = {
 				{
 					0.011,
 					-0.417,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[308013] = {
-		name = "ブロッサム・バニー",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "「ばにー」さんの格好をしてみたよ？えへへ、どう？似合ってる？可愛いと思ったら褒めて♪",
-		illustrator2 = -1,
-		ship_group = 30801,
-		group_index = 3,
-		painting = "i19_4",
-		prefab = "i19_4",
-		hand_id = 14,
-		shop_type_id = 16,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "145",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 308013,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70547,
-		voice_actor = 83,
-		spine_offset = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.268,
-					0.442,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[308020] = {
-		name = "伊26",
-		change_skin = "",
-		bg_sp = "",
-		desc = "巡潜乙型伊号第二十六潜水艦",
-		illustrator2 = -1,
-		ship_group = 30802,
-		group_index = 0,
-		painting = "I26",
-		prefab = "I26",
-		hand_id = 17,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 308020,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 121,
-		spine_offset = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.97,
-					0.24,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.97,
-					0.3,
 					0
 				}
 			}

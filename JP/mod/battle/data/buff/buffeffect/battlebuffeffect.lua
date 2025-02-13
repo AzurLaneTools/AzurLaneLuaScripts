@@ -12,6 +12,7 @@ slot3.FX_TYPE_LINK = 3
 slot3.FX_TYPE_MOD_VELOCTIY = 4
 slot3.FX_TYPE_DOT = 5
 slot3.FX_TTPE_MOD_BATTLE_UNIT_TYPE = 6
+slot3.FX_TYPE_COUNTER = 7
 
 slot3.Ctor = function(slot0, slot1)
 	slot0._tempData = Clone(slot1)

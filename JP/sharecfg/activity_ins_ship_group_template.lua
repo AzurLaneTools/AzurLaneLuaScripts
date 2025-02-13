@@ -3781,7 +3781,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Chi An",
 		background = "",
 		sculpture = "jian",
-		nationality = 0,
+		nationality = 5,
 		type = 1
 	},
 	[50105] = {

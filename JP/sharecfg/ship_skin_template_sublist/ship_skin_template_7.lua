@@ -1,6 +1,107 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[207042] = {
+		name = "女神の導き",
+		change_skin = "",
+		bg_sp = "",
+		desc = "母港行事の準備？ふふふ、手伝ってあげようじゃない。安心して、この美しい私がいればイベントでもなんでもうまくいくに決まってるわ！",
+		illustrator2 = -1,
+		ship_group = 20704,
+		group_index = 2,
+		painting = "shengli_3",
+		prefab = "shengli_3",
+		hand_id = 1,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "144",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 207042,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70486,
+		voice_actor = 94,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.322,
+					1.002,
+					0
+				}
+			},
+			plane = {
+				{
+					1.318,
+					1.008,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.366,
+							2.461,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
 	[207043] = {
 		name = "涼しくも美しき夜に",
 		change_skin = "",
@@ -13371,138 +13472,6 @@ pg.base.ship_skin_template_7 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[301290] = {
-		name = "島風",
-		change_skin = "",
-		bg_sp = "",
-		desc = "島風型駆逐艦・島風",
-		illustrator2 = -1,
-		ship_group = 30129,
-		group_index = 0,
-		painting = "daofeng",
-		prefab = "daofeng",
-		hand_id = 14,
-		shop_type_id = 0,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 301290,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 284,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.188,
-					0.97,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.188,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.11,
-					0.14,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.188,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.43,
-							2.46,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				10,
-				-518,
-				0
-			},
-			{
-				0.82
-			}
-		},
-		special_effects = {
-			"lihui_daofeng",
-			{
-				-27,
-				-22,
-				0
-			},
-			{
-				1.2
 			}
 		}
 	}

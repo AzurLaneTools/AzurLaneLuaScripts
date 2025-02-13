@@ -1,6 +1,208 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[408091] = {
+		name = "秘密の遊戯タイム",
+		change_skin = "",
+		bg_sp = "",
+		desc = "いいタイミングで来たじゃないか。今ちょうど「戦闘終了」したところだぜ。結果は…？ふん、アタシの勝ちに決まっているだろう。どうだ？お前もアタシとやってみないか？",
+		illustrator2 = -1,
+		ship_group = 40809,
+		group_index = 1,
+		painting = "U96_2",
+		prefab = "U96_2",
+		hand_id = 13,
+		shop_type_id = 20,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "109",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 408091,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70404,
+		voice_actor = 246,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.341,
+					0.473,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.48,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[408092] = {
+		name = "バーベルは何キロまで？",
+		change_skin = "",
+		bg_sp = "",
+		desc = "んんん…くっ…はぁー！こいつは思ってたよりも強敵だったぜ…お、来たな。お前も筋トレか？冷やかしじゃなかったらいつでも歓迎するぜ",
+		illustrator2 = -1,
+		ship_group = 40809,
+		group_index = 2,
+		painting = "u96_3",
+		prefab = "u96_3",
+		hand_id = 13,
+		shop_type_id = 13,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "112",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 408092,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70730,
+		voice_actor = 246,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.639,
+					0.717,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					-0.023,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.755,
+							2.025,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[408093] = {
 		name = "ウルフェン・ドリー",
 		change_skin = "",
@@ -13423,234 +13625,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.525,
 							2.415,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[602011] = {
-		name = "貴き黒のシレネッタ",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "ご機嫌よう指揮官殿。そなたもここに羽を伸ばしにやってきたのかな？貴き者として、時々贅沢はしたいものだ。ははは",
-		illustrator2 = -1,
-		ship_group = 60201,
-		group_index = 1,
-		painting = "abuluqi_2",
-		prefab = "abuluqi_2",
-		hand_id = 1,
-		shop_type_id = 6,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "133",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 602011,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70530,
-		voice_actor = 270,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.996,
-					0.992,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.989,
-					1.008,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0.019,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.991,
-					1.013,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.526,
-							2.461,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[602020] = {
-		name = "ジュゼッペ・ガリバルディ",
-		change_skin = "",
-		bg_sp = "",
-		desc = "ドゥーカ・デッリ・アブルッツィ級軽巡洋艦-ジュゼッペ・ガリバルディ",
-		illustrator2 = -1,
-		ship_group = 60202,
-		group_index = 0,
-		painting = "zhusaipei",
-		prefab = "zhusaipei",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 602020,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 286,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.08,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.15,
-					1.07,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.11,
-					1.31,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.81,
-							2.09,
 							0
 						}
 					}

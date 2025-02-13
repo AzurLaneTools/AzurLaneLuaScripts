@@ -479,11 +479,11 @@ pg.item_data_frame = {
 	},
 	[333] = {
 		name = "外なる星の光",
-		gain_by = "星光下的余晖",
+		gain_by = "星降る夕影の残光",
 		time_second = 0,
 		id = 333,
 		time_limit_type = 0,
-		desc = "今後開催のイベントにて入手可能",
+		desc = "<color=#ffffff>「天地万象、星の輝きに観測されるがままに」</color>「星降る夕影の残光」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[401] = {
