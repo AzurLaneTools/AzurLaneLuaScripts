@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，来看看「 养成计划2.0」中关于日程的部分吧",
+				text = "다음으로는 네비 육성의 스케줄 부분을 살펴보겠습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "请点击「行程计划」，开始本回合的日程安排吧",
+				text = "「예정」을 눌러 해당 턴의 예정을 조정해 보죠.",
 				mode = 2,
 				char = 1,
 				posY = 0,

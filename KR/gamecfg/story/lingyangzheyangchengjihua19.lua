@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Once I finally wrap up my work at the port for the day, it has already turned to night.",
+			say = "겨우 모항 업무가 일단락되어 주위를 둘러보니, 이미 밤이 깊어져 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "(Whew... I hope Navi isn't staying up late to read novels again.)",
+			say = "(후우…… 네비가 또 밤을 새워서 소설을 읽고 있지는 않겠지…?)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "When I caught on to it, we had a long discussion and she promised not to do it anymore. Even so...",
+			say = "얼마 전에 확실히 이야기를 나눠서 다시는 하지 않겠다는 약속까지 받아내기는 했지만……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "(I should check on her.)",
+			say = "(그래도 혹시 모르니까 보러 가자.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "I put the device on and return to the virtual town. Before long, I notice the light faintly peeking through the crack in the door to her room.",
+			say = "단말기를 장착하고 버추얼 타운으로 들어서자, 나비의 방 문틈 사이로 희미한 빛이 새어 나오고 있는 것이 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "I give it two knocks. It looks like the door was left slightly open.",
+			say = "살짝 두 번 노크했는데, 아무래도 문이 제대로 닫히지 않은 듯했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "Pushing against it gently, I slowly open the door.",
+			say = "살짝 만지자 그대로 천천히 문이 열렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg13",
-			say = "Navi is sitting at her desk in her pajamas, writing something in her big notebook.",
+			say = "잠옷 차림의 네비는 책상에 앉아 두꺼운 공책에 무언가를 적고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,31 +155,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "A few papers are scattered around her desk, filled with dense handwriting.",
+			say = "책상 위에는 종이가 몇 장 흩어져 있고, 거기에는 글자가 빼곡하게 적혀 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{tb}? I thought you weren't coming home tonight...",
+			say = "{tb}? 오늘은 안 돌아오는 줄 알았는데……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Oh, uh, I'm not reading novels, I'm just...",
+			say = "아, 오해하지 마! 소설 읽는 거 아니니까…… 이건……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "She hurriedly covers her notes with her hands, cheeks flushed.",
+			say = "네비는 허둥대며 노트를 뒤에 숨기고는 뺨을 붉혔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,30 +203,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Why are you up this late, and what are you writing?",
+			say = "――이런 늦은 시간까지 안 자고 뭘 적고 있는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I-it's... You know...",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg13",
-			hidePaintObj = true,
-			say = "While her hands obscure most of what's written in her notes, one of the scattered papers clearly clues me in as to what she's writing about.",
+			say = "아, 이건…… 그러니까……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,19 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "The neat handwriting describes her and my daily life, with cute little doodles accompanying the writing.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "Navi",
-			side = 2,
-			bgName = "bg_project_oceana_cg13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "I'm keeping a diary... I-I won't stay up to write it again, I promise.",
+			say = "대부분 손으로 감추고 있어 잘 보이지는 않았지만, 흩어진 종이 중 한 장은 읽을 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +237,30 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "She buries her head and makes a promise under her breath.",
+			say = "나와 함께한 일상이 또박또박 정성스레 적혀 있었고, 그와 함께 아기자기한 삽화도 곁들여져 있었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "네비",
+			side = 2,
+			bgName = "bg_project_oceana_cg13",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "일기를 쓰고 있었어… 앞으로는 한밤중에 몰래 쓰지 않을게…",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg13",
+			hidePaintObj = true,
+			say = "네비는 고개를 숙이고, 작은 목소리로 그렇게 약속했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "Once she gathered her scattered papers, I watched to make sure she went to bed.",
+			say = "흩어진 종이를 치우고, 네비가 침대로 돌아가는 걸 지켜본 뒤…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "I switched off her desk lamp and carefully closed the door to her room.",
+			say = "책상의 스탠드를 끄고 살짝 방문을 닫았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "Moonlight shone in through the window, painting the hallway a silvery blue. A calm and quiet night passed by.",
+			say = "창문으로 들어오는 달빛이 복도를 부드럽게 비추며, 밤이 조용히 흘러간다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

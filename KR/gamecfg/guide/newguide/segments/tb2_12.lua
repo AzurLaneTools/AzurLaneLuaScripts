@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "第一次考核开启！",
+				text = "제1차 성장 판정이 시작되었습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "娜比娅将根据自身的属性数值对课程怪物发起挑战，数值越高攻击越奏效",
+				text = "네비가 자신의 파라미터 수치를 토대로 「수업 몬스터」에게 도전합니다. 파라미터가 높을수록 공격이 효과적입니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "而最终击杀的速度越快，娜比娅所获得的考核评价也就越高",
+				text = "몬스터를 빨리 쓰러뜨릴 수록 네비의 판정 평가도 높아집니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,

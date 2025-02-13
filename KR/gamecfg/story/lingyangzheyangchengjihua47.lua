@@ -13,7 +13,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			bgm = "story-richang-1",
-			say = "Port - Office",
+			say = "모항, 집무실",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "I gaze through the window, thinking about my recent experiences.",
+			say = "창밖을 내다보면서 최근에 일어난 일을 떠올려 보고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "(The project concluded just as planned, yet there's this lingering feeling inside me like I could've done better.)",
+			say = "(육성은 계획대로 완료했지만… 뭔가, 더 잘할 수 있지 않았을까 싶어서 좀 아쉽네.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Nyahaha! There you are, nya. Ready to receive your commendation, nya?",
+			say = "후후후~ 지휘관, 여기 있었구냥~? 표창받을 준비는 됐냥~?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Akashi?! Where did you come from?",
+			say = "――…아카시? 언제 여길…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "And what was that about a commendation?",
+			say = "――그나저나 표창이라니 무슨 말이야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Ahem... As a key person in this project, you're invited to summarize our findings, nya. That's all, nya.",
+			say = "크흠, 내 말은… 핵심 인물끼리 모여서 성과를 정리해 보자는 거다냥!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Synchronizing analysis module. The changes in data gathered during this growth process were very interesting.",
+			say = "분석 모듈을 동기화합니다. 이번 육성 과정에서 나타난 데이터 변화는 실로 「흥미로운」 것이었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "My observation of the influence of interaction on a person has given me a new understanding of individuality.",
+			say = "상호 작용에 따른 영향을 관찰함으로써 TB는 「개성」에 관한 새로운 지견을 얻을 수 있었습니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "That being said, I believe that additional data should be gathered.",
+			say = "데이터 수집은 계속해서 실시해야 할 것으로 보입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,9 +149,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "You're saying we've gotta keep doing this, huh?",
+			say = "흠~ 그러니까 더 해보자는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,9 +165,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Fine. I've got plenty of things I wanna try anyway!",
+			say = "좋아. 나도 아직 해보고 싶은 게 너무 많거든~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "If I understood that right, this is not the end, but rather a new beginning, correct?",
+			say = "――그러니까 이걸로 끝이 아니고, 새로 시작한다는 거지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,9 +193,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2000,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Bingo! That's right.",
+			say = "정답! 맞아♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,9 +209,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Remember, each and every encounter we have is one-of-a-kind as far as I'm concerned.",
+			say = "우리 만남은 내게 있어서 언제든 유일무이하다구.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Correct. Furthermore, all training data will be fully retained.",
+			say = "하나 덧붙이겠습니다. 모든 육성 데이터는 완전성을 유지한 채로 보존됩니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I theorize that these precious records will help me better understand what it means to be a person.",
+			say = "이 중요한 기록들은 모두 「개성」에 대한 이해를 도와줄 것입니다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Alright, more reason for us to keep going!",
+			say = "그러면 계속하는 수밖에 없겠네!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,20 +270,20 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "{tb}, you ready to make more unforgettable memories with me?",
+			say = "{tb}! 나랑 같이 더 많은 추억을 만들 준비는 됐어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "You bet I am.",
+					content = "――당연하지.",
 					flag = 1
 				},
 				{
-					content = "Yes. A lot more.",
+					content = "――추억을 더 많이 만들자.",
 					flag = 2
 				}
 			}
@@ -296,9 +296,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Heheh, I knew you'd say that!",
+			say = "후후, 그렇게 나올 줄 알았어♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "The curtains rise on a new story. What kind of encounters and experiences lie in wait for this time?",
+			say = "새로운 이야기의 막이 오르려고 한다. 이번에는 또 어떤 만남이 기다리고 있을까?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

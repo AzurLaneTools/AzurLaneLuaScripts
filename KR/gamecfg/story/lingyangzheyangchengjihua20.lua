@@ -10,7 +10,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Before I knew it, it was getting to be time for Navi to transition to the next level of education.",
+			say = "어느새 네비에게도 진학할 시기가 찾아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "Seeing how she grew every day made me worry. Was I fulfilling my responsibility to guide her growth?",
+			say = "나날이 성장하는 모습을 보고 있자니, 내가 제대로 잘 이끌어 주고 있는지 걱정이 앞선다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,31 +49,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "On the last day of the semester, even after the school day had long ended, she'd yet to come home.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_706",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "(Is she at the arcade again?)",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_706",
-			hidePaintObj = true,
-			say = "When I go there, however, she's nowhere to be found.",
+			say = "그리고 오늘은 학기의 마지막 등교일… 이미 돌아올 시간이 지났는데, 네비의 모습이 보이질 않는다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +62,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "(I'd better go check at the school.)",
+			say = "(설마 또 게임 센터……?)",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_706",
+			hidePaintObj = true,
+			say = "하지만 그곳에서도 네비의 모습은 찾을 수 없었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_706",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "(학교에 가보자.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg14",
-			say = "The afterglow of sunset illuminates the classroom.",
+			say = "창문 너머로 노을이 남긴 은은한 빛이 교실에 들이치고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg14",
 			hidePaintObj = true,
-			say = "Navi bites the tip of her pen as she gazes out the window, lost in thought.",
+			say = "네비는 자리에 앉아 펜 끝을 깨물면서, 밖을 내다보며 생각에 잠겨 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg14",
 			hidePaintObj = true,
-			say = "The open page of her notebook has been scribbled over, but I can barely make out the words \"future plans.\"",
+			say = "앞에 둔 노트 내용은 빨간 선이 죽죽 그어져 있었지만, 간신히 「진로 제출」이라는 글자만은 읽어낼 수 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,19 +149,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "There you are.",
+			say = "――여기 있었구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg14",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Aah?! Wh-why are you here?!",
+			say = "꺅?! 여, 여긴 무슨 일이야?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "It's late. You never came home, so I came looking for you.",
+			say = "――너무 안 돌아 오길래 마중 나왔어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Are you having any problems?",
+			say = "――……무슨 일 있는 건 아니지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,9 +217,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "No...?",
+			say = "따, 딱히……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,9 +232,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "I'm just thinking about class. Stuff about our future, about our ideals...",
+			say = "그냥 수업 시간에 배운 게 마음에 걸려서… 미래라든가, 이상이라든가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "She unconsciously taps the table. Her voice gradually trails off.",
+			say = "무의식적으로 책상을 손가락으로 두드리는 나비. 점점 작아지는 목소리로 말을 이어 나간다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,9 +258,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "I just don't know about any of it.",
+			say = "뭘 어떻게 해야 할지… 나도 잘 모르겠어.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "You don't need to rush things. Go at your own pace.",
+			say = "――조급해할 거 없어. 천천히 하면 돼.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "No matter what choices you make, I'm on your side.",
+			say = "――어떤 선택을 하든, 난 언제든 네비 편이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,20 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "I gently pat her shoulder.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_147",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "It takes time to find your way. There's nothing wrong with being unsure now.",
+			say = "손을 뻗어 가볍게 그녀의 어깨를 두드렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "I'll stay with you and watch over you while you figure things out.",
+			say = "――원래 자신의 길을 찾는 건 쉬운 일이 아니야. 그러니까 지금은 좀 헤매도 괜찮아.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +323,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Navi, I know that you'll find your own answer someday.",
+			say = "――내가 곁에서 계속 네비가 앞으로 나아가는 걸 지켜볼게.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_147",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "――언젠가는 꼭 답을 찾을 수 있을 거야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,9 +349,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "...You mean it?",
+			say = "……정말?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Of course. I promise you.",
+			say = "――당연하지. 약속할게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "She smiles back at me.",
+			say = "네비는 고개를 끄덕이고, 살짝 미소를 지었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,9 +388,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Then we better go home and eat! I'm starving!",
+			say = "그럼 빨리 가서 밥 먹자! 배고파!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "Seeing her relieved and packing her bag, I can't help but smile.",
+			say = "그녀가 안심한 얼굴로 가방을 정리하는 걸 보자, 나도 모르게 미소가 지어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_147",
 			hidePaintObj = true,
-			say = "Whatever the future may hold, I'll be her guardian until she finds her way.",
+			say = "앞으로 어떻게 되든, 네비가 답을 찾을 때까지는 계속 곁에 있어 주자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

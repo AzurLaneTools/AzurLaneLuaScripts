@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Navi has been studying a curriculum suited to her current cognitive and rational abilities.",
+			say = "요즘은 네비에게 현재 인지나 사고 수준에 맞는 커리큘럼으로 교육을 진행하고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "Unfortunately, studying doesn't seem to affect her personality much. It only nurtures her intellect.",
+			say = "그러나 지식은 아무리 배워도 「성격」에는 별 영향을 주지 않는 모양이다. 오히려 그로써 성장하는 것은 「지혜」이리라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "As she sits next to me on the couch, dangling her feet off the side while munching on snacks, I glance at her and think deeply.",
+			say = "거실 소파에서 다리를 흔들거리며 과자를 먹고 있는 네비를 흘끔 보고, 다시 생각에 빠졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "(As it stands, maybe I should give her more free rein to do what she wants.)",
+			say = "(지금 단계에서는 아직 마음대로 하게 두는 편이 좋겠지.)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "With the freedom to do whatever she wants, I can jump in at suitable moments and guide her.",
+			say = "하고 싶은 걸 자유롭게 하게 두고, 그 안에서 적절한 타이밍을 잡아 지도하는 편이 좋을 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "First of all, though, I have to find out what she wants to do and what she likes.",
+			say = "우선은 하고 싶은 게 뭔지, 좋아하는 건 뭔지부터 물어보기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "After picking her brain with numerous questions, I bring her to a toystore in the commercial area.",
+			say = "네비에게 여러 가지 물어본 뒤, 같이 상점가에 있는 장난감 가게로 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,9 +129,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Hey, {tb}! Look at this! Wait, no, that one's even better! Forget it – I want them ALL!",
+			say = "있잖아, {tb}! 이거…… 아, 저기 있는 게 더 좋은가?! 으아, 다 가지고 싶어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Do you really NEED that many?",
+			say = "――정말 그렇게 많이 필요해……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,9 +157,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "\"That many\"? Hang on, you don't think I'm gonna be happy with just ONE single toy, do you?",
+			say = "뭐? {tb}… 겨우 장난감 하나로 내가 만족할 줄 알았어? 아직 멀었네~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,9 +172,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Ohh. I see how it is...",
+			say = "아! 설마……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "She strikes a pose, placing both hands on her hips while looking at me with pity.",
+			say = "네비는 두 손을 허리에 대고, 불쌍하다는 듯한 눈초리로 날 바라보기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,9 +198,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "You're so broke you can only afford a single toy, am I right?",
+			say = "{tb}… 혹시 이 정도 돈도 못 내서 그러는 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "......",
+			say = "――……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,9 +226,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Fiiine. If you're that miserable, I'll let you off the hook and tolerate fewer toys.",
+			say = "어쩔 수 없지. 불쌍하니까 이번에는 특별히 몇 개 빼줄게~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,9 +241,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "You should be thankful that I'm so magnanimous!",
+			say = "내 상냥함에 감사하도록 해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "Ignoring her smug attitude, I retrieve some of the toys she had her eyes on and present them to her.",
+			say = "화를 부추기는 듯한 네비를 무시하고, 방금 그녀가 마음에 들어 한 장난감을 몇 개 집어 눈앞에 늘어놓았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "You can choose one.",
+			say = "――하나만 골라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,9 +280,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Only ONE?! Wow! You are fricking STINGY! I told you I wanted them ALL!",
+			say = "뭐? 하나만…?! 이 짠돌이! 난 다 가지고 싶다구!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "One. Take it or leave it.",
+			say = "――딱 하나만이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "Realizing that I'm not going to budge, she quickly compromises.",
+			say = "꿈쩍도 하지 않는 내 모습을 본 네비는 바로 타협에 들어갔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,9 +319,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Hmph... Fine! I'll take one!",
+			say = "윽…… 알았어! 고르면 되잖아, 고르면!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,9 +334,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "But only because the other toys don't look that cool! Got it?",
+			say = "사실 이제 하나 말고는 흥미가 사라져서 그런 거야! 알았어?!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "She promptly takes the very first toy she laid eyes on, then tugs on my arm to urge me forward.",
+			say = "그렇게 말하며 네비는 가장 처음 눈독을 들인 장난감을 얼른 집어 내게 들이밀었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,9 +360,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Okay, now go and pay for it!",
+			say = "자! 어서 계산하고 와!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg3",
-			say = "Later, as soon as we return home, she becomes obsessed with her new toy.",
+			say = "――집에 들어오자, 네비는 바로 새 장난감에 푹 빠졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,12 +397,12 @@ return {
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Enemy plane spotted! Shoot it down! Brrrrt!",
+			say = "적기 발견! 전탄 발사! 탕탕탕탕!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,42 +413,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg3",
 			hidePaintObj = true,
-			say = "Mimicking the sound of machine-gun fire, she flies the toy through the air with her hand.",
+			say = "기총 소리를 흉내 내며, 장난감을 들어 하늘을 누비며 노는 네비……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Hm... Hang on, this might work!",
+			say = "응? 잠깐…… 그걸 해봐야겠다!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Combination move! Activate new form! Heheh!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg3",
-			hidePaintObj = true,
-			say = "She takes hold of it with both hands, then pulls on each half and snaps the toy in two.",
+			say = "변신 합체 모드 기동! 에헤헤~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,19 +448,30 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg3",
 			hidePaintObj = true,
-			say = "Holding up the broken halves, her face is filled with pure, childlike happiness.",
+			say = "그렇게 말하며 네비는 양손으로 장난감을 들고, 힘을 주어 억지로 반으로 부러뜨렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg3",
+			hidePaintObj = true,
+			say = "망가진 장난감을 손에 든 네비의 얼굴은 순수한 기쁨으로 가득 차 있었다.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Heh! Look at this, {tb}! It's my ultimate technique – segmented attack mode!",
+			say = "헤헷! {tb}! 이거 봐! 내가 만든 필살기… 「분리 공격 모드」야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "......",
+			say = "――……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg3",
 			hidePaintObj = true,
-			say = "Oh boy. Looks like I'll have to buy a new toy for her.",
+			say = "이런… 아무래도 새로운 장난감을 사러 다시 가야 할 것 같다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

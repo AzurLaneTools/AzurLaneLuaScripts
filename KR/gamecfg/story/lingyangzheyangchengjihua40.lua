@@ -12,7 +12,7 @@ return {
 			bgm = "votefes-start",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "After she graduated, Navi pursued her interest in motorcycles, taking lessons and getting a license.",
+			say = "졸업 후, 오토바이에 푹 빠진 네비는 바로 교습을 받아 면허를 땄다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "Ever since then, she has been hooked on the thrill of the wind rushing past her.",
+			say = "그리고 곧 바람을 가르며 질주하는 도파민의 포로가 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg31",
-			say = "Sunlight glimmers off of the crystal clear surface of the cerulean sea.",
+			say = "맑고 투명한 바다가 햇빛을 받아 반짝반짝 빛난다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "A flock of seagulls circles around in the air, occasionally crying out in beautiful notes.",
+			say = "갈매기 몇 마리가 푸른 하늘을 가르며, 가끔 아름다운 울음소리를 내지른다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,19 +90,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "Navi leans against her motorcycle. Her black protective suit makes the contours of her supple body all the more evident.",
+			say = "오토바이에 기댄 나비의 검은 라이더 슈트가 그 유려한 바디라인을 더욱 돋보이게 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "How do I look, {tb}?",
+			say = "어때, {tb}?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,56 +113,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "With a slightly devilish grin on her face, she shoots a proud look at me.",
+			say = "조금 장난스러운 미소를 머금은 네비는 어딘가 자랑스러운 모습이었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Want me to take you for a ride?",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg31",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "A ride? Sounds like you just want to show off your new machine.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "Navi",
-			side = 2,
-			bgName = "bg_project_oceana_cg31",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Dang, you got me!",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "Navi",
-			side = 2,
-			bgName = "bg_project_oceana_cg31",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Still, I DO want to feel the wind with you. Don't you wanna ride with me?",
+			say = "잠깐 드라이브하러 안 갈래? 내가 태워줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +138,44 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Of course I do.",
+			say = "――새로 산 오토바이를 자랑하고 싶어서 그러는 거지?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "네비",
+			side = 2,
+			bgName = "bg_project_oceana_cg31",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "헤헤~ 들켰네♪",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "네비",
+			side = 2,
+			bgName = "bg_project_oceana_cg31",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "바람을 같이 느끼고 싶은 건 정말이야. 안 갈래?",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg31",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "――당연히 가야지.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "The briny breeze sweeps across the coastline, caressing my cheeks.",
+			say = "바닷바람이 해안선을 훑듯이, 뺨을 살짝 어루만진다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg31",
 			hidePaintObj = true,
-			say = "The engine fires up with a roar, and the motorcycle takes off like a tiger, leading us to the horizon.",
+			say = "엔진의 굉음과 함께 두 사람을 태운 오토바이는 도로를 질주하기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgm = "votefes-up",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Up on the starry stage, Navi delivers a passionate performance to me.",
+			say = "빛나는 무대 위에서 네비는 온 힘을 다해 공연하고 있다. 단 한 사람… 나를 위해서.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg34",
-			say = "Her white-and-blue costume glitters under the spotlight, elevating every move of her impassioned dance.",
+			say = "파란색과 흰색을 바탕으로 만든 무대 의상이 스포트라이트를 받아 빛나며, 그녀의 열성적인 춤을 더욱 돋보이게 해준다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "As the song's final note rings out, she takes to the middle of the stage and holds a pose.",
+			say = "마지막 음표까지 연주가 멈추자, 네비는 무대 중앙에서 포즈를 취하고……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,43 +79,43 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "She looks at me, some sort of spark of resolve burning in her eyes.",
+			say = "이내 결심을 굳힌 듯, 내 쪽으로 눈을 돌렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Umm...",
+			say = "아, 으음……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "By the magic of music and love, I bid your heart to beat for me!",
+			say = "사랑과 음악의 마법으로, {tb}의 마음을 오직 나를 위해서만 울리게 할 거야!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Give me your support from here on out!",
+			say = "앞으로도 계속 응원해 줘!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "Although a hint of shyness peeks through, she still tries her best to make a heart shape using her fingers.",
+			say = "약간 부끄러워하면서 열심히 손하트를 만들어 보여주는 그녀.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,19 +139,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Of course! I'll stick with you no matter what happens!",
+			say = "――당연하지! 영원히 네비 곁에 있을게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Heehee...",
+			say = "에헤헤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg34",
 			hidePaintObj = true,
-			say = "This moment of beautiful brilliance will forever be preserved inside my heart.",
+			say = "이 순간에 그녀가 보여준 빛은 영원토록 내 기억에 새겨질 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

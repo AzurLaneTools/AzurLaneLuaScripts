@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "根据指挥官刚才的选择，娜比娅的性格已经产生了一些变化",
+				text = "지휘관님께서 방금 내린 선택에 따라 네비의 성격에 벌써 변화가 나타나기 시작했군요.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在这个界面中，红色代表叛逆的倾向，蓝色代表乖巧的倾向",
+				text = "적색은 제멋대로인 경향을, 푸른색은 얌전한 경향을 나타냅니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -37,7 +37,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在今后的日常互动和特殊事件中，指挥官的选择也将继续影响娜比娅的性格发展",
+				text = "일상생활이나 특별 이벤트에서도 지휘관님께서 고르시는 선택지는 네비의 성격 형성에 계속 영향을 줍니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,

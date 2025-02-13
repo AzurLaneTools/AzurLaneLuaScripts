@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "To my surprise, Navi suddenly says that she's going to cook.",
+			say = "놀랍게도 네비가 갑자기 요리를 해주겠다고 말을 꺼냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			bgName = "bg_project_oceana_room3",
 			tbActor = true,
 			actor = 2202,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "I'm in a good mood today, so I'll treat you to some of my home cooking!",
+			say = "오늘은 기분이 좋으니까, 내가 직접 만든 요리를 먹게 해줄게!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,9 +57,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2202,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Heheh! I hope your heart is ready to be captured by my food! Well, ready or not, it will either way!",
+			say = "후후후, {tb} 배는 내가 책임지고 호강시켜 줄 테니까 기대해♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "It's good to see her take the initiative like this, so I nod in agreement.",
+			say = "보기 드물게 적극적인 모습을 보이는 그녀를 보고, 고개를 끄덕였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "We head out and buy the necessary ingredients, then return home. As soon as we get back, she chases me out of the kitchen.",
+			say = "필요한 재료를 같이 사서 주방에 놓자마자, 네비에게 등을 떠밀려 거실로 쫓겨나고 말았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,9 +94,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2202,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "No peeking! Or else you'll regret it! Heheh!",
+			say = "몰래 보면 안 돼! 들여다보다 들키면… 알지? 후후후♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "Left with no other choice, I retreat to the living room and kill time with a book. In the midst of my reading, however, an indescribable, sweet smell wafts in from the kitchen.",
+			say = "어쩔 수 없이 책을 읽으며 시간을 때우……려고 했지만, 어느샌가 주방에서 형언할 수 없는 달달한 냄새가 풍겨왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Uh-oh... Did something go wrong?",
+			say = "――이거… 괜찮은 거 맞나?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "The concern drives me to ignore her no-entry order and open the door to the kitchen.",
+			say = "불안감을 억누를 수 없어서, 네비의 금지령을 무시하고 주방 문을 열었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg18",
-			say = "Navi is sitting leisurely atop the kitchen counter, holding a vial containing a suspicious, pink liquid.",
+			say = "내 불안한 모습과는 다르게, 네비는 평온한 표정으로 조리대 위에 앉아, 핑크색으로 섬뜩하게 빛나는 액체가 담긴 병을 손에 들고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,12 +166,12 @@ return {
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Oh, already smelled it, huh?",
+			say = "뭐야? 냄새를 맡고 온 거야?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
-			say = "Pink bubbles rise from the pot. That looks to be the source of the strangely sweet smell.",
+			say = "냄비에서는 정체불명의 핑크빛 거품이 끓어오르고 있었다. 아무래도 저것이 이 달콤한 향기의 원인인 듯하다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,31 +195,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "What the hell is that?",
+			say = "――뭐야, 그건……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "This? It's my secret ingredient!",
+			say = "이건 내 「비장의 맛」이야♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I made it with a special recipe my homeroom teacher taught me♪",
+			say = "가정 과목 선생님이 알려준 비법 레시피로 만들었어♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,31 +230,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
-			say = "There is a dangerous smile on her face as she pours the last drop of the liquid into the pot.",
+			say = "병에 담긴 마지막 한 방울까지 냄비에 붓고는, 음험한 미소를 짓는 네비.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "You'll eat it all, won't you, {tb}?",
+			say = "$!, 다 먹어야 해. 알았지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg18",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I made it just for you, so you better not let any go to waste♪",
+			say = "이건 특별히 널 위해 만든 거니까♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room3",
-			say = "That very moment, the contents of the pot suddenly solidify into some material the likes of which I've never seen before.",
+			say = "그때 「비장의 맛」을 더한 냄비의 내용물이 갑자기 굳어, 정체불명의 무언가로 돌변했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,9 +295,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2202,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Aww, that sucks. I'd hoped to see your reaction when you tasted it!",
+			say = "아~ 아쉽게 됐네. {tb}한테 꼭 이걸 먹여주고 싶었는데~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "The disappointment in her expression brings me great relief.",
+			say = "낙담한 듯한 네비의 표정을 보고, 몰래 안도의 한숨을 내쉬었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "Using what's left of the daikon and the other ingredients, I throw together a vegetarian curry. I live to tell another tale.",
+			say = "나머지 재료로 서둘러 베지테리언 카레를 만들어 겨우 식사를 마무리했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "已选择的天赋可在此处查看",
+				text = "획득한 어빌리티는 여기서 확인할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,

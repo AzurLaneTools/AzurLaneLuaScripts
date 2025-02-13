@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Navi has gotten really into exercising as of late.",
+			say = "요즘 네비는 운동에 푹 빠져있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "Well, \"exercising\" might not be the right word. Specifically, she's become passionate about a kind of training that demands good balance and control of your body.",
+			say = "아니, 균형 감각이나 몸을 제어하는 트레이닝에 힘을 쏟고 있다고 말하는 편이 더 정확할 것이다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "Although she has never shown interest in lifting or aerobic exercises, she's very keen on exercise centered around the core and balance.",
+			say = "근육 단련이나 유산소 운동에는 별 관심이 없는 그녀지만, 코어나 균형을 단련하는 데에는 의외로 열의가 넘친다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "She wanted to do more of it this evening, so she dragged me to the gym again.",
+			say = "그리고 오늘 오후에도 네비의 부탁으로 근처 체육관으로 왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg10",
-			say = "She sits on an exercise ball, feet in the air, trying to stay upright using only her torso.",
+			say = "네비는 밸런스 볼 위에 안정적인 자세로 주저앉아, 두 다리를 들고 몸통만으로 균형을 잡았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,12 +98,12 @@ return {
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{tb}! How long have I balanced for?",
+			say = "{tb}! 얼마나 됐어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,19 +116,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "You're nearing one minute.",
+			say = "――이제 곧 1분이야.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg10",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Heheh! I'll beat my record this time, just you watch!",
+			say = "으읍…! 이번에야말로 지난번 기록을 뛰어넘고야 말겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,32 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg10",
 			hidePaintObj = true,
-			say = "Brimming with confidence, she rocks back and forth slightly.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg10",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "Careful so you don't fall, now.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "Navi",
-			side = 2,
-			bgName = "bg_project_oceana_cg10",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Don't worry! I can– Whuah!",
+			say = "네비는 자신만만한 모습으로 가볍게 몸을 흔들어 보였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +152,32 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Navi!",
+			say = "――떨어지지 않도록 조심해.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "네비",
+			side = 2,
+			bgName = "bg_project_oceana_cg10",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "괜찮다니까! 난… 으앗!",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg10",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "――네비! 괜찮아?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg10",
 			hidePaintObj = true,
-			say = "With a small scream, she falls to the floor.",
+			say = "작은 비명과 함께, 네비는 바닥에 굴러떨어졌다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg10",
 			hidePaintObj = true,
-			say = "I tried to catch her, but I was too slow.",
+			say = "잡아주려고 손을 뻗었지만, 때는 이미 늦었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,9 +212,9 @@ return {
 			bgName = "bg_story_task",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Owch... That stings...",
+			say = "으으…… 아파……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Are you okay?",
+			say = "――괜찮아? 다친 데는 없어?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "I extend my hand to help her back on her feet, but she brushes it off.",
+			say = "일으켜 주려고 손을 내밀었지만, 네비는 그런 나를 오히려 뒤로 살짝 밀어냈다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,9 +273,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "I'm fine! Also, it's your fault for making me fall! I lost my concentration 'cause of you!",
+			say = "괜찮아! 흥! {tb} 때문에 주의력이 산만해져서 떨어진 거잖아!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,9 +288,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2201,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Hmph! That one doesn't count! We're starting over, and this time, I'll set a new record for sure!",
+			say = "흥! 방금 건 무효! 처음부터 다시 할 거야! 이번에는 꼭 신기록을 내고야 말겠어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "We spent a whole hour in the gym trying over and over before finally leaving.",
+			say = "그렇게 1시간 정도 계속한 뒤, 체육관을 나섰다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "On the way back home, Navi kept repeating that she will set another new record next time.",
+			say = "집으로 돌아가는 길에도 네비는 몇 번이나 「다음에는 꼭 신기록을 세우고 말겠다」며 다짐했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

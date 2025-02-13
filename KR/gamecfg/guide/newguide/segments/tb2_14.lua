@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，可以查看各项课程的升级条件",
+				text = "각 수업 예정의 레벨업 조건을 확인할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处按钮，可切换显示该课程的升级条件",
+				text = "버튼을 탭하면, 해당 수업의 레벨업 조건 표시를 전환할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -49,7 +49,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "当升级条件达成时，该课程将会自动升级",
+				text = "레벨업 조건이 달성되면, 다음 레벨의 수업이 자동으로 오픈됩니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -62,7 +62,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "升级后的课程可以获得更多属性数值",
+				text = "레벨이 높은 수업에서는 더 많은 파라미터를 획득할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,

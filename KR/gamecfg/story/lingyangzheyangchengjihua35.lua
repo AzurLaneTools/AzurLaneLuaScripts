@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Navi became fascinated with photography, honed her skills, and became a professional photographer.",
+			say = "촬영의 매력에 심취한 네비는 기술을 더욱 갈고닦아, 풍경 사진가가 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "She always managed to capture nature in its most beautiful moments, as if she was innately able to communicate with the world.",
+			say = "마치 선천적으로 자연과 소통할 수 있는 능력을 갖춘 것처럼, 그녀는 늘 가장 아름다운 순간을 담았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg26",
-			say = "In a forest touched by morning dew, the sun shines through the lush leaves and casts shadowy patterns upon the ground.",
+			say = "아침 안개가 자욱한 숲, 무성한 나뭇잎 사이로 들이치는 햇빛이 지면에 얼룩을 그린다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg26",
 			hidePaintObj = true,
-			say = "With camera in hand, Navi gazes lovingly at the birds flying above.",
+			say = "그 숲에서 네비는 카메라를 손에 들고, 하늘을 나는 새들을 부드러운 눈빛으로 바라보고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg26",
 			hidePaintObj = true,
-			say = "Suddenly, a few birds become curious and land on her head and camera.",
+			say = "어느새 호기심에 이끌린 작은 새 몇 마리가 그녀의 머리 위, 그리고 카메라 앞으로 날아왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,42 +100,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Aww. They like you.",
+			say = "――새들이 잘 따르네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg26",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Shush... Keep it down. You'll scare them off.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg26",
-			hidePaintObj = true,
-			say = "Her words are directed at me, but her eyes stay firmly fixed on the birds flying about.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "Navi",
-			side = 2,
-			bgName = "bg_project_oceana_cg26",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "Quietly open your heart... and small animals will practically come to you.",
+			say = "쉿… 조용히… 놀라서 도망갈지도 몰라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,19 +123,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg26",
 			hidePaintObj = true,
-			say = "She gently adjusts the lens of her camera, being careful not to startle the critters.",
+			say = "그렇게 말하는 그녀의 눈빛은 계속 날아다니는 새들을 쫓고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg26",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "The best way I can return the favor to them is by capturing them in their most natural form.",
+			say = "조용히 마음을 열어주면…… 어떤 동물이든 자연스럽게 다가와 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +146,30 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg26",
 			hidePaintObj = true,
-			say = "With a murmur, Navi snaps a picture.",
+			say = "그렇게 말하며, 작은 생명들이 놀라지 않도록 살짝 카메라 렌즈를 조정하는 그녀.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "네비",
+			side = 2,
+			bgName = "bg_project_oceana_cg26",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "있는 그대로의 모습을 사진으로 담아 주는 게 이 아이들의 믿음에 대한 최고의 보답이야.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg26",
+			hidePaintObj = true,
+			say = "네비는 그렇게 속삭이듯 말을 맺었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

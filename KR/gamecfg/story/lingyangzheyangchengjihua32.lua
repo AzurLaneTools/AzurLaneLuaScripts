@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "After weighing her options, Navi decided to advance in grade.",
+			say = "여러모로 궁리한 끝에 네비는 진학하기로 결심했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,12 +36,12 @@ return {
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "I want to learn more things. A lot more things.",
+			say = "더 많은 걸 배우고 싶어서……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I want to be as ready as I can be by absorbing heaps of knowledge!",
+			say = "지식을 더 많이 익혀서, 더 철저히 준비하고 싶어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "Sunlight shines through the massive windows, lighting up the bookcases of the library evenly.",
+			say = "도서관의 커다란 유리창을 통해 따사로운 햇볕이 실내를 비추고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "Navi kneels in front of one, flipping through the books on the bottom shelf with great interest.",
+			say = "네비는 책장 앞에서 무릎을 꿇고, 가장 아랫단에 있는 책을 열심히 둘러보고 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "Even though there is already a pile of books she picked out next to her, she's still searching for more to add to it.",
+			say = "이미 골라둔 책이 옆에 여러 권 쌓여 있지만, 그래도 진지한 태도로 책을 열심히 고르는 그녀.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,19 +114,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "I walk up to offer my assistance. She speaks before I get the first word in.",
+			say = "도와주려고 다가가니, 내가 온 걸 눈치채고 그녀가 먼저 인사를 건네왔다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Oh, {tb}. You came?",
+			say = "아, {tb}! 왔구나.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "A look of slight annoyance rests on her face. Seems like she hasn't found a book that satisfies her yet.",
+			say = "원하는 책을 아직 찾지 못한 탓인지, 네비는 난감하다는 표정을 얼굴에 띄우고 있었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,31 +150,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "What kind of book are you looking for? Want my help?",
+			say = "――무슨 책을 찾는 거야? 도와줄까/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I'm just looking for any kind of book that looks interesting...",
+			say = "딱 이거다 싶은 재밌는 책을 찾던 중이야……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I want knowledge from various different fields of study, so I wanna start with something that catches my attention.",
+			say = "되도록 다양한 분야에 대해 알고 싶어서, 처음에 흥미가 느껴지는 것부터 파보려고 하거든.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Reading a wide range of things is good. I'll help you find one.",
+			say = "――이것저것 읽어보는 것도 좋지. 같이 찾자.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room3",
-			say = "And so, the preparations for Navi's exams began.",
+			say = "그렇게 네비의 수험 준비가 시작되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "This insatiable thirst for knowledge will no doubt be a guidepost on her path to the future.",
+			say = "지식에 대한 그녀의 이 끝없는 탐구가 분명 미래로 이어지는 이정표가 되리라.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

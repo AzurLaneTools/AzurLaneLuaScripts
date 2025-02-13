@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "随机事件功能已解锁！",
+				text = "랜덤 이벤트 기능이 오픈되었습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可查看可触发的随机事件",
+				text = "「외출」 버튼을 탭하면 발생 가능한 랜덤 이벤트를 확인할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在这里你可以查看随机事件，并选择是否消耗行动力来激活它们",
+				text = "여기서는 랜덤 이벤트를 확인하거나, 행동력을 소모하여 시작할지 여부를 선택할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "通过参与随机事件，可以获得各种状态效果",
+				text = "랜덤 이벤트로는 다양한 「상태」 효과나 버프를 얻을 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -71,7 +71,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可随时查看获得的状态详情",
+				text = "여기를 탭하면 획득한 「상태」의 상세 정보를 언제든 확인할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "包括效果说明和持续时间等",
+				text = "효과에 대한 설명이나 지속 시간도 여기 표시됩니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,

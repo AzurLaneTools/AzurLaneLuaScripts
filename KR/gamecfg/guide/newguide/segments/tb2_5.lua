@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "除了日常交流之外，娜比娅偶尔也会向指挥官寻求建议",
+				text = "일상 대화 외에도 가끔 네비가 지휘관님께 조언을 구할 때가 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "此时，指挥官的选择有可能将会影响娜比娅的性格发展",
+				text = "이때 고르는 선택지는 네비의 성격 형성에 영향을 줄 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "是会让娜比娅更加叛逆，还是会让娜比娅更加乖巧",
+				text = "네비가 제멋대로인 성격이 될지, 아니면 얌전한 성격이 될지는…",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -44,7 +44,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "都取决于指挥官做出的选择",
+				text = "모두 지휘관님 손에 달려있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,

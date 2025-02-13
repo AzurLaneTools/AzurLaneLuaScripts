@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Following our exchange at the café, Navi gained a new perspective on her future career path.",
+			say = "카페에서 대화를 나눈 후, 네비는 장래에 대해 새로운 생각을 가지게 되었다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "Even if the path forward isn't clear, she believes she will eventually find her way on her own.",
+			say = "앞길이 아직 명확하지는 않지만, 네비라면 꼭 답을 찾을 수 있을 거라 믿는다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "What journey will her choice take her on, and what places and things await her?",
+			say = "그녀의 새로운 여정에는 과연 어떤 풍경이 펼쳐질까……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

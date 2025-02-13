@@ -15,9 +15,9 @@ return {
 			bgm = "qe-ova-2",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "I see, I see. {tb}. That's what you want me to call you, huh?",
+			say = "흠~ 그래? {tb}이라고 불러달란 말이지?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Alright, then from now on, you're {tb}!",
+			say = "그럼 오늘부터는 그렇게 부를게, {tb}~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room1",
 			hidePaintObj = true,
-			say = "And so, the curtains rose on Navi's and my time spent living together.",
+			say = "이렇게 네비와의 공동 생활이 정식으로 막을 올렸다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

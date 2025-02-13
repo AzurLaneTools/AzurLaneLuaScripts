@@ -13,7 +13,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "While cleaning the house, I found a dusty box hidden away in a corner.",
+			say = "대청소를 하다가 방구석에서 먼지로 뒤덮인 상자를 발견했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,9 +42,9 @@ return {
 			bgName = "bg_project_oceana_room2",
 			tbActor = true,
 			actor = 2101,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Wait... Isn't this that remote-controlled car you gave me?",
+			say = "어라……? 이거 옛날에 {tb}한테 받은 RC카 같은데…?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Yeah. I thought about throwing it away when it broke, but I guess I left it somewhere. Let's get rid of it.",
+			say = "――망가졌던가 그랬지? 버리려고 한참을 찾았었는데 여기 있었네. 이건 처분해야겠다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,9 +70,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "But you gave me it as a gift... It feels wrong to just throw it away!",
+			say = "음… 그래도 {tb}한테 받은 건데…… 버리려니까 아까워!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Maybe I can fix it? I've been studying repairs at school!",
+			say = "내가 고쳐봐도 돼? 얼마 전에 학교에서 배웠거든♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "They teach you how to do that?",
+			say = "――학교에서 그런 것도 알려줘?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,9 +113,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Yeah. My teacher says it improves your thinking and problem-solving skills.",
+			say = "응, 선생님이 이런 작업으로는 사고력이나 문제 해결 능력을 기를 수 있다고 했어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,9 +128,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Who knows – you might even come up with some crazy invention in the future!",
+			say = "어쩌면 나중에는 엄청난 발명을 할지도 몰라!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Honing your thinking and problem-solving skills, that's reasonable – but inventing something is setting your sights really high.",
+			say = "――사고력이나 문제 해결 능력을 키우는 건 좋지만… 발명은 너무 난이도가……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,9 +156,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2101,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Let me try repairing it anyway. We have a workshop for stuff like this.",
+			say = "아무튼 집에 작업실 있지? 잠깐만 쓰게 해 줘.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Alright. I'll bring you some drinks and snacks.",
+			say = "――좋아. 나중에 마실 거랑 과자도 가져다줄게.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,9 +183,9 @@ return {
 			bgName = "bg_project_oceana_room2",
 			tbActor = true,
 			actor = 2101,
-			actorName = "Navi",
+			actorName = "네비",
 			hidePaintObj = true,
-			say = "Yay! Thanks, {tb}!",
+			say = "신난다~! {tb}! 잘 부탁해!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg11",
-			say = "I come to the workshop with some snacks and drinks and see that Navi has already started on the repairs.",
+			say = "과자와 음료를 들고 작업실에 들어서자, 네비는 이미 작업을 시작한 상태였다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
-			say = "Donning workwear and protective goggles, she stands in front of the table with a serious look on her face.",
+			say = "작업복으로 갈아입고 보호 고글까지 쓰고는 진지한 표정으로 작업대 앞에 서 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,44 +235,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
-			say = "There is an oil stain on her cheek. It looks like she's been tinkering with parts quite a lot.",
+			say = "정신없이 부품을 만진 탓인지, 뺨에는 기름때가 묻어 있다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "Oh, welcome, {tb}!",
+			say = "아, {tb}! 어서 와~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "My teacher said you ought to put on breathable clothes when working like this.",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg11",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "Well, you sure look the part of a mechanic.",
+			say = "선생님이 이런 작업을 할 때는 움직이기 편한 옷을 입어야 한다고 했거든!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,19 +272,32 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "Just be careful so you don't hurt yourself.",
+			say = "――장비는 완벽하게 갖췄네.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "Navi",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg11",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "――그래도 다치지 않게 조심해.",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "네비",
 			side = 2,
 			bgName = "bg_project_oceana_cg11",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "I'll be fine, don't worry!",
+			say = "괜찮아, 걱정하지 마!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room2",
-			say = "I left the refreshments on a table then sat down and watched her work.",
+			say = "음료와 과자를 두고, 잠시 네비 옆에서 수리하는 모습을 지켜보기로 했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "Her hard work paid off, and she got the toy back in working order.",
+			say = "그녀의 노력 덕분에 다행히 장난감은 정상적으로 움직이기 시작했다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room2",
 			hidePaintObj = true,
-			say = "She gave it to me. I polished it up before giving it back to her. She put it safely inside her personal collection box.",
+			say = "장난감을 받아서 깨끗이 닦아 네비에게 돌려주자, 그녀는 그 장난감을 소중히 컬렉션 상자에 담았다.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

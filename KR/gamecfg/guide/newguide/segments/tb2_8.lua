@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "这里是行程计划界面，指挥官每回合可为娜比娅安排最多5项课程",
+				text = "예정 화면입니다. 지휘관님께서는 각 턴마다 네비에게 최대 5개까지 수업을 설정할 수 있습니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -20,7 +20,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "完成安排后，点击此处即可上课并进入下一回合",
+				text = "설정이 끝나면 여기를 탭해서 수업을 시작한 후, 다음 턴으로 넘어갑니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -39,7 +39,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "注意：此处显示本阶段的属性目标总值",
+				text = "여기에는 현 단계에 네비가 가지고 있는 파라미터 수치의 합계가 표시됩니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "各项属性之和达到此数值即为达成目标",
+				text = "각 파라미터 합계가 해당 수치에 달하면 목표를 달성한 것으로 처리됩니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "请根据娜比娅的天赋和您的规划选择合适的课程",
+				text = "네비의 어빌리티와 육성 방침을 토대로 적절한 수업을 선택하시기 바랍니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -96,7 +96,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "此外，娜比娅的心情将影响课程效果：心情越好，获得的数值越高",
+				text = "또한 네비의 「기분」은 수업 효과에 영향을 줍니다. 높을수록 획득하는 능력 상승치가 높아집니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -115,7 +115,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "而心情低落时，能从课程中获得的数值则会减少",
+				text = "반대로 「기분」이 낮으면, 수업으로 얻을 수 있는 능력 상승치가 감소합니다.",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -134,7 +134,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "现在，试着为娜比娅安排课程吧！",
+				text = "자, 이제 네비의 수업을 설정해 보세요.",
 				mode = 2,
 				char = 1,
 				posY = 0,
