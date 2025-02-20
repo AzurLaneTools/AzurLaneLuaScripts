@@ -487,7 +487,7 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[334] = {
-		name = "笔下神光",
+		name = "笔下神光：圣翼之庇",
 		gain_by = "",
 		time_second = 0,
 		id = 334,
