@@ -495,6 +495,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Everything in the cosmos falls under the stars' brilliant gaze.\"</color>\nGiven to Commanders who participated in the Substellar Crepuscule event.",
 		scene = {}
 	},
+	[334] = {
+		name = "Stroke of God's Light",
+		gain_by = "",
+		time_second = 0,
+		id = 334,
+		time_limit_type = 0,
+		desc = "Obtained from an event.",
+		scene = {}
+	},
 	[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -821,6 +830,7 @@ pg.item_data_frame = {
 		331,
 		332,
 		333,
+		334,
 		406,
 		411,
 		412,

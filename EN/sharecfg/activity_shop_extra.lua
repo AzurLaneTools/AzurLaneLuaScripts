@@ -3803,10 +3803,10 @@ pg.activity_shop_extra = {
 		commodity_type = 7,
 		num = 1,
 		commodity_id = 201372,
-		end_by_maintenance = 0,
+		end_by_maintenance = 1,
 		scene = "",
 		id = 130,
-		order = 1,
+		order = 5,
 		time = {
 			{
 				{

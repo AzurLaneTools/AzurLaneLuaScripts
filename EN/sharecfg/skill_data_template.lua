@@ -356,6 +356,8 @@ pg.skill_data_template = setmetatable({
 		60790,
 		60800,
 		60810,
+		60820,
+		60830,
 		7000,
 		9010,
 		9020,
@@ -12816,6 +12818,34 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "When equipped by Fu Po, Fei Yuen, or Fu Shun: increases the wearer's TRP by 5.0%. Once per battle, 30s after the battle starts: restores 2.0% of the wearer's max HP.",
 		id = 60810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60820] = {
+		desc_get = "",
+		name = "Corona Preferita",
+		type = 0,
+		max_level = 0,
+		desc = "When equipped by Marco Polo: increases your Sardegna Empire shipgirls' FP and EVA by 3.0%.",
+		id = 60820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60830] = {
+		desc_get = "",
+		name = "Fairey Gannet",
+		type = 1,
+		max_level = 14,
+		desc = "Every 10s: launches a Fairey Gannet (equipped with 1 aviation torpedo; DMG is based on the gear's level). Can activate up to 5 times per battle.",
+		id = 60830,
 		system_transform = {},
 		world_death_mark = {
 			1

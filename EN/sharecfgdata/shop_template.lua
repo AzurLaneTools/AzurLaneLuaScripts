@@ -4017,6 +4017,34 @@ _G.pg.base.shop_template[31144] = {
 }
 
 
+_G.pg.base.shop_template[31060] = {
+	group_type = 0,
+	resource_num = 900,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "900物资兑换1个撒丁装备研发支援箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 1,
+	id = 31060,
+	genre = "shopping_street",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30207
+	}
+}
+
+
 _G.pg.base.shop_template[31080] = {
 	group_type = 0,
 	resource_num = 900,
@@ -6113,6 +6141,34 @@ _G.pg.base.shop_template[33044] = {
 	limit_args = {},
 	effect_args = {
 		30044
+	}
+}
+
+
+_G.pg.base.shop_template[33060] = {
+	group_type = 0,
+	resource_num = 400,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "400功勋兑换1个撒丁装备研发支援箱",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 9,
+	time = "always",
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 3,
+	id = 33060,
+	genre = "arena_shop",
+	discount_time = {},
+	limit_args = {},
+	effect_args = {
+		30207
 	}
 }
 
@@ -42603,10 +42659,10 @@ _G.pg.base.shop_template[70819] = {
 	desc = "购买皮肤:230209易北情人节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42631,10 +42687,10 @@ _G.pg.base.shop_template[70820] = {
 	desc = "购买皮肤:230209羽黑情人节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -42659,10 +42715,10 @@ _G.pg.base.shop_template[70821] = {
 	desc = "购买皮肤:230209水星纪念情人节",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 250,
+	order = 300,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -48785,7 +48841,7 @@ _G.pg.base.shop_template[70966] = {
 	tag = 1,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 100,
+	order = 250,
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -48801,8 +48857,8 @@ _G.pg.base.shop_template[70966] = {
 		{
 			{
 				2025,
-				1,
-				16
+				2,
+				20
 			},
 			{
 				0,
@@ -48814,7 +48870,7 @@ _G.pg.base.shop_template[70966] = {
 			{
 				2025,
 				2,
-				5
+				26
 			},
 			{
 				23,

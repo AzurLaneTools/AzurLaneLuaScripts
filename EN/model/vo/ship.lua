@@ -1453,7 +1453,7 @@ slot0.getEquipmentSkillEffects = function(slot0)
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
 		slot8 = nil
 
-		if slot7 and slot7:getConfig("skill_id")[1] then
+		if slot7 and slot7:getConfig("skill_id")[1] and slot7:getConfig("skill_id")[1][1] then
 			slot8 = pg.buffCfg["buff_" .. slot9]
 		end
 
@@ -1967,9 +1967,10 @@ slot0.GetEquipmentSkills = function(slot0)
 
 	for slot6, slot7 in ipairs(slot0:getActiveEquipments()) do
 		if slot7 and slot7:getConfig("skill_id")[1] then
+			slot8, slot9 = unpack(slot7:getConfig("skill_id")[1])
 			slot1[slot8] = {
-				level = 1,
-				id = slot8
+				id = slot8,
+				level = slot9
 			}
 		end
 	end

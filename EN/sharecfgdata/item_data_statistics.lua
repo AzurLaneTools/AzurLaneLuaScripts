@@ -17789,6 +17789,37 @@ _G.pg.base.item_data_statistics[30206] = {
 }
 
 
+_G.pg.base.item_data_statistics[30207] = {
+	open_directly = 0,
+	name = "Sardegna Empire Gear Development Pack",
+	type = 5,
+	display = "Contains a random piece of Sardegna Empire gear.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30207",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30207",
+	id = 30207,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30301] = {
 	open_directly = 0,
 	name = "Akashi's Christmas Present ",

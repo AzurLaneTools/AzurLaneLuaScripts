@@ -57,7 +57,10 @@ _G.pg.base.equip_data_statistics[3] = {
 		3
 	},
 	skill_id = {
-		7034
+		{
+			7034,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -94,7 +97,10 @@ _G.pg.base.equip_data_statistics[4] = {
 		4
 	},
 	skill_id = {
-		1
+		{
+			1,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -133,7 +139,10 @@ _G.pg.base.equip_data_statistics[5] = {
 		5
 	},
 	skill_id = {
-		1
+		{
+			1,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -5141,7 +5150,10 @@ _G.pg.base.equip_data_statistics[500] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6000
+		{
+			6000,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -5299,7 +5311,10 @@ _G.pg.base.equip_data_statistics[520] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6130
+		{
+			6130,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -5444,7 +5459,10 @@ _G.pg.base.equip_data_statistics[540] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6170
+		{
+			6170,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -5588,7 +5606,10 @@ _G.pg.base.equip_data_statistics[560] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6180
+		{
+			6180,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -5726,7 +5747,10 @@ _G.pg.base.equip_data_statistics[580] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6190
+		{
+			6190,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -5872,7 +5896,10 @@ _G.pg.base.equip_data_statistics[600] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6200
+		{
+			6200,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -6036,7 +6063,10 @@ _G.pg.base.equip_data_statistics[620] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6210
+		{
+			6210,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -6190,7 +6220,10 @@ _G.pg.base.equip_data_statistics[640] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6230
+		{
+			6230,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -6356,7 +6389,10 @@ _G.pg.base.equip_data_statistics[660] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6300
+		{
+			6300,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -6490,7 +6526,10 @@ _G.pg.base.equip_data_statistics[680] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6310
+		{
+			6310,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -6624,7 +6663,10 @@ _G.pg.base.equip_data_statistics[700] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6360
+		{
+			6360,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -6761,7 +6803,10 @@ _G.pg.base.equip_data_statistics[720] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6410
+		{
+			6410,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -7057,7 +7102,10 @@ _G.pg.base.equip_data_statistics[760] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6440
+		{
+			6440,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -7194,7 +7242,10 @@ _G.pg.base.equip_data_statistics[780] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6440
+		{
+			6440,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -7332,7 +7383,10 @@ _G.pg.base.equip_data_statistics[800] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6560
+		{
+			6560,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -7466,7 +7520,10 @@ _G.pg.base.equip_data_statistics[820] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6740
+		{
+			6740,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -7629,7 +7686,10 @@ _G.pg.base.equip_data_statistics[840] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6750
+		{
+			6750,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -7787,7 +7847,10 @@ _G.pg.base.equip_data_statistics[860] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6760
+		{
+			6760,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -7943,7 +8006,10 @@ _G.pg.base.equip_data_statistics[880] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6770
+		{
+			6770,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -8108,7 +8174,10 @@ _G.pg.base.equip_data_statistics[940] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6850
+		{
+			6850,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -8236,7 +8305,10 @@ _G.pg.base.equip_data_statistics[960] = {
 	weapon_id = {},
 	skill_id = {},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		2,
@@ -8398,7 +8470,10 @@ _G.pg.base.equip_data_statistics[980] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6440
+		{
+			6440,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -8535,7 +8610,10 @@ _G.pg.base.equip_data_statistics[1000] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		10
+		{
+			10,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -8623,7 +8701,10 @@ _G.pg.base.equip_data_statistics[1020] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		11
+		{
+			11,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -8743,7 +8824,10 @@ _G.pg.base.equip_data_statistics[1040] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		12
+		{
+			12,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -8891,7 +8975,10 @@ _G.pg.base.equip_data_statistics[1060] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6960
+		{
+			6960,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -9058,7 +9145,10 @@ _G.pg.base.equip_data_statistics[1100] = {
 	weapon_id = {},
 	skill_id = {},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -9152,7 +9242,10 @@ _G.pg.base.equip_data_statistics[1120] = {
 	weapon_id = {},
 	skill_id = {},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -9267,7 +9360,10 @@ _G.pg.base.equip_data_statistics[1140] = {
 	weapon_id = {},
 	skill_id = {},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -9417,10 +9513,16 @@ _G.pg.base.equip_data_statistics[1160] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6280
+		{
+			6280,
+			1
+		}
 	},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -9590,7 +9692,10 @@ _G.pg.base.equip_data_statistics[1200] = {
 	weapon_id = {},
 	skill_id = {},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		3,
@@ -9666,7 +9771,10 @@ _G.pg.base.equip_data_statistics[1220] = {
 	weapon_id = {},
 	skill_id = {},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		3,
@@ -9768,7 +9876,10 @@ _G.pg.base.equip_data_statistics[1240] = {
 	weapon_id = {},
 	skill_id = {},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		3,
@@ -9910,10 +10021,16 @@ _G.pg.base.equip_data_statistics[1260] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6260
+		{
+			6260,
+			1
+		}
 	},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		4,
@@ -10066,7 +10183,10 @@ _G.pg.base.equip_data_statistics[1300] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6010
+		{
+			6010,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -10152,7 +10272,10 @@ _G.pg.base.equip_data_statistics[1320] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6020
+		{
+			6020,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -10262,7 +10385,10 @@ _G.pg.base.equip_data_statistics[1340] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6030
+		{
+			6030,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -10807,10 +10933,16 @@ _G.pg.base.equip_data_statistics[1500] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6040
+		{
+			6040,
+			1
+		}
 	},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -10931,10 +11063,16 @@ _G.pg.base.equip_data_statistics[1520] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6050
+		{
+			6050,
+			1
+		}
 	},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -11086,10 +11224,16 @@ _G.pg.base.equip_data_statistics[1540] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6060
+		{
+			6060,
+			1
+		}
 	},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -11912,7 +12056,10 @@ _G.pg.base.equip_data_statistics[1760] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6270
+		{
+			6270,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -13235,7 +13382,10 @@ _G.pg.base.equip_data_statistics[2100] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6070
+		{
+			6070,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -13307,7 +13457,10 @@ _G.pg.base.equip_data_statistics[2120] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6080
+		{
+			6080,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -13406,7 +13559,10 @@ _G.pg.base.equip_data_statistics[2140] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6090
+		{
+			6090,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -14300,7 +14456,10 @@ _G.pg.base.equip_data_statistics[2400] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6100
+		{
+			6100,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -14360,7 +14519,10 @@ _G.pg.base.equip_data_statistics[2420] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6110
+		{
+			6110,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -14444,7 +14606,10 @@ _G.pg.base.equip_data_statistics[2440] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6120
+		{
+			6120,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -14569,7 +14734,10 @@ _G.pg.base.equip_data_statistics[2500] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6140
+		{
+			6140,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -14629,7 +14797,10 @@ _G.pg.base.equip_data_statistics[2520] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6150
+		{
+			6150,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -14689,7 +14860,10 @@ _G.pg.base.equip_data_statistics[2540] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6160
+		{
+			6160,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -15511,7 +15685,10 @@ _G.pg.base.equip_data_statistics[2740] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6570
+		{
+			6570,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -16031,7 +16208,10 @@ _G.pg.base.equip_data_statistics[2940] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6620
+		{
+			6620,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -16416,7 +16596,10 @@ _G.pg.base.equip_data_statistics[3040] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6650
+		{
+			6650,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -16868,7 +17051,10 @@ _G.pg.base.equip_data_statistics[3140] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6290
+		{
+			6290,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -16966,7 +17152,10 @@ _G.pg.base.equip_data_statistics[3150] = {
 	id = 3150,
 	value_1 = "15",
 	skill_id = {
-		6291
+		{
+			6291,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	equip_parameters = {
@@ -16981,7 +17170,10 @@ _G.pg.base.equip_data_statistics[3151] = {
 	id = 3151,
 	value_1 = "17",
 	skill_id = {
-		6291
+		{
+			6291,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	equip_parameters = {
@@ -16996,7 +17188,10 @@ _G.pg.base.equip_data_statistics[3152] = {
 	id = 3152,
 	value_1 = "19",
 	skill_id = {
-		6291
+		{
+			6291,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	equip_parameters = {
@@ -17011,7 +17206,10 @@ _G.pg.base.equip_data_statistics[3153] = {
 	id = 3153,
 	value_1 = "21",
 	skill_id = {
-		6291
+		{
+			6291,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	equip_parameters = {
@@ -17044,7 +17242,10 @@ _G.pg.base.equip_data_statistics[3200] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6460
+		{
+			6460,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -17200,7 +17401,10 @@ _G.pg.base.equip_data_statistics[3220] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6470
+		{
+			6470,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -17338,7 +17542,10 @@ _G.pg.base.equip_data_statistics[3300] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6480
+		{
+			6480,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -17490,7 +17697,10 @@ _G.pg.base.equip_data_statistics[3400] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6590
+		{
+			6590,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -17638,7 +17848,10 @@ _G.pg.base.equip_data_statistics[3500] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6660
+		{
+			6660,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -17767,7 +17980,10 @@ _G.pg.base.equip_data_statistics[3520] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6670
+		{
+			6670,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -17896,7 +18112,10 @@ _G.pg.base.equip_data_statistics[3540] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6680
+		{
+			6680,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -18026,7 +18245,10 @@ _G.pg.base.equip_data_statistics[3560] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6950
+		{
+			6950,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -18164,10 +18386,16 @@ _G.pg.base.equip_data_statistics[3580] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6265
+		{
+			6265,
+			1
+		}
 	},
 	hidden_skill_id = {
-		9709
+		{
+			9709,
+			1
+		}
 	},
 	part_main = {
 		4,
@@ -18321,7 +18549,10 @@ _G.pg.base.equip_data_statistics[3600] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6980
+		{
+			6980,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -18459,7 +18690,10 @@ _G.pg.base.equip_data_statistics[3620] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6990
+		{
+			6990,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -18597,7 +18831,10 @@ _G.pg.base.equip_data_statistics[3640] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60100
+		{
+			60100,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -18735,7 +18972,10 @@ _G.pg.base.equip_data_statistics[3660] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60110
+		{
+			60110,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -19408,7 +19648,10 @@ _G.pg.base.equip_data_statistics[3740] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60120
+		{
+			60120,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -19698,7 +19941,10 @@ _G.pg.base.equip_data_statistics[3780] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60290
+		{
+			60290,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -19828,7 +20074,10 @@ _G.pg.base.equip_data_statistics[3800] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60320
+		{
+			60320,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -19973,7 +20222,10 @@ _G.pg.base.equip_data_statistics[3820] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60300
+		{
+			60300,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -20115,7 +20367,10 @@ _G.pg.base.equip_data_statistics[3840] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60310
+		{
+			60310,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -20272,7 +20527,10 @@ _G.pg.base.equip_data_statistics[3860] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60330
+		{
+			60330,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -20410,7 +20668,10 @@ _G.pg.base.equip_data_statistics[3880] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60340
+		{
+			60340,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -20548,7 +20809,10 @@ _G.pg.base.equip_data_statistics[3900] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60350
+		{
+			60350,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -20686,7 +20950,10 @@ _G.pg.base.equip_data_statistics[3920] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60370
+		{
+			60370,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -20823,7 +21090,10 @@ _G.pg.base.equip_data_statistics[3940] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60380
+		{
+			60380,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -20957,7 +21227,10 @@ _G.pg.base.equip_data_statistics[3960] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60410
+		{
+			60410,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -21091,7 +21364,10 @@ _G.pg.base.equip_data_statistics[3980] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60420
+		{
+			60420,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -22387,6 +22663,348 @@ _G.pg.base.equip_data_statistics[4251] = {
 	},
 	weapon_id = {
 		4251
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4260] = {
+	name = "Fairey Gannet",
+	type = 15,
+	speciality = "<[ASW]>",
+	rarity = 5,
+	tech = 0,
+	value_2 = 45,
+	icon = "4260",
+	attribute_2 = "antisub",
+	descrip = "",
+	nationality = 2,
+	ammo = 5,
+	value_3 = 0,
+	id = 4260,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			8,
+			53400
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9,
+		10
+	},
+	weapon_id = {
+		4260
+	},
+	skill_id = {
+		{
+			60830,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {
+		6
+	},
+	part_sub = {
+		6
+	},
+	equip_parameters = {},
+	label = {
+		"ASA"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[4261] = {
+	base = 4260,
+	id = 4261,
+	ammo_info = {
+		{
+			8,
+			53401
+		}
+	},
+	weapon_id = {
+		4261
+	},
+	skill_id = {
+		{
+			60830,
+			2
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4262] = {
+	base = 4260,
+	id = 4262,
+	ammo_info = {
+		{
+			8,
+			53402
+		}
+	},
+	weapon_id = {
+		4262
+	},
+	skill_id = {
+		{
+			60830,
+			3
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4263] = {
+	base = 4260,
+	id = 4263,
+	ammo_info = {
+		{
+			8,
+			53403
+		}
+	},
+	weapon_id = {
+		4263
+	},
+	skill_id = {
+		{
+			60830,
+			4
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4264] = {
+	base = 4260,
+	id = 4264,
+	ammo_info = {
+		{
+			8,
+			53404
+		}
+	},
+	weapon_id = {
+		4264
+	},
+	skill_id = {
+		{
+			60830,
+			5
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4265] = {
+	base = 4260,
+	id = 4265,
+	ammo_info = {
+		{
+			8,
+			53405
+		}
+	},
+	weapon_id = {
+		4265
+	},
+	skill_id = {
+		{
+			60830,
+			6
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4266] = {
+	base = 4260,
+	id = 4266,
+	ammo_info = {
+		{
+			8,
+			53406
+		}
+	},
+	weapon_id = {
+		4266
+	},
+	skill_id = {
+		{
+			60830,
+			7
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4267] = {
+	base = 4260,
+	id = 4267,
+	ammo_info = {
+		{
+			8,
+			53407
+		}
+	},
+	weapon_id = {
+		4267
+	},
+	skill_id = {
+		{
+			60830,
+			8
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4268] = {
+	base = 4260,
+	id = 4268,
+	ammo_info = {
+		{
+			8,
+			53408
+		}
+	},
+	weapon_id = {
+		4268
+	},
+	skill_id = {
+		{
+			60830,
+			9
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4269] = {
+	base = 4260,
+	id = 4269,
+	ammo_info = {
+		{
+			8,
+			53409
+		}
+	},
+	weapon_id = {
+		4269
+	},
+	skill_id = {
+		{
+			60830,
+			10
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4270] = {
+	base = 4260,
+	id = 4270,
+	ammo_info = {
+		{
+			8,
+			53410
+		}
+	},
+	weapon_id = {
+		4270
+	},
+	skill_id = {
+		{
+			60830,
+			11
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4271] = {
+	anti_siren = 100,
+	base = 4260,
+	id = 4271,
+	ammo_info = {
+		{
+			8,
+			53411
+		}
+	},
+	weapon_id = {
+		4271
+	},
+	skill_id = {
+		{
+			60830,
+			12
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4272] = {
+	anti_siren = 200,
+	base = 4260,
+	id = 4272,
+	ammo_info = {
+		{
+			8,
+			53412
+		}
+	},
+	weapon_id = {
+		4272
+	},
+	skill_id = {
+		{
+			60830,
+			13
+		}
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[4273] = {
+	anti_siren = 300,
+	base = 4260,
+	id = 4273,
+	ammo_info = {
+		{
+			8,
+			53413
+		}
+	},
+	weapon_id = {
+		4273
+	},
+	skill_id = {
+		{
+			60830,
+			14
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -36799,7 +37417,10 @@ _G.pg.base.equip_data_statistics[14520] = {
 		14520
 	},
 	skill_id = {
-		6780
+		{
+			6780,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -39076,7 +39697,10 @@ _G.pg.base.equip_data_statistics[15300] = {
 		15300
 	},
 	skill_id = {
-		60360
+		{
+			60360,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -39277,7 +39901,10 @@ _G.pg.base.equip_data_statistics[15500] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6530
+		{
+			6530,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -42361,6 +42988,209 @@ _G.pg.base.equip_data_statistics[16473] = {
 }
 
 
+_G.pg.base.equip_data_statistics[16480] = {
+	name = "Twin 76mm RF Mk 37 Gun Mount",
+	speciality = "<[SRG]>",
+	type = 6,
+	attribute_3 = "hit",
+	tech = 0,
+	value_2 = 50,
+	icon = "16480",
+	attribute_2 = "antiaircraft",
+	rarity = 6,
+	damage = "56<[WAVE]>",
+	nationality = 1,
+	descrip = "No description",
+	ammo = 5,
+	value_3 = 15,
+	id = 16480,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		16480
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"ST",
+		"AA"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16481] = {
+	id = 16481,
+	damage = "64<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16481
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16482] = {
+	id = 16482,
+	damage = "72<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16482
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16483] = {
+	id = 16483,
+	damage = "80<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16483
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16484] = {
+	id = 16484,
+	damage = "88<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16484
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16485] = {
+	id = 16485,
+	damage = "96<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16485
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16486] = {
+	id = 16486,
+	damage = "104<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16486
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16487] = {
+	id = 16487,
+	damage = "112<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16487
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16488] = {
+	id = 16488,
+	damage = "122<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16488
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16489] = {
+	id = 16489,
+	damage = "132<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16489
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16490] = {
+	id = 16490,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16490
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16491] = {
+	anti_siren = 100,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	id = 16491,
+	weapon_id = {
+		16491
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16492] = {
+	anti_siren = 200,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	id = 16492,
+	weapon_id = {
+		16492
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16493] = {
+	anti_siren = 300,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	id = 16493,
+	weapon_id = {
+		16493
+	}
+}
+
+
 _G.pg.base.equip_data_statistics[17000] = {
 	name = "F2A Buffalo",
 	tech = 1,
@@ -42771,7 +43601,10 @@ _G.pg.base.equip_data_statistics[17060] = {
 		81060
 	},
 	skill_id = {
-		6430
+		{
+			6430,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -44427,7 +45260,10 @@ _G.pg.base.equip_data_statistics[17260] = {
 		81260
 	},
 	skill_id = {
-		6250
+		{
+			6250,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -47331,7 +48167,10 @@ _G.pg.base.equip_data_statistics[17460] = {
 		81460
 	},
 	skill_id = {
-		60610
+		{
+			60610,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -47370,7 +48209,10 @@ _G.pg.base.equip_data_statistics[17461] = {
 		81461
 	},
 	skill_id = {
-		60611
+		{
+			60611,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47394,7 +48236,10 @@ _G.pg.base.equip_data_statistics[17462] = {
 		81462
 	},
 	skill_id = {
-		60612
+		{
+			60612,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47418,7 +48263,10 @@ _G.pg.base.equip_data_statistics[17463] = {
 		81463
 	},
 	skill_id = {
-		60613
+		{
+			60613,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47442,7 +48290,10 @@ _G.pg.base.equip_data_statistics[17464] = {
 		81464
 	},
 	skill_id = {
-		60614
+		{
+			60614,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47466,7 +48317,10 @@ _G.pg.base.equip_data_statistics[17465] = {
 		81465
 	},
 	skill_id = {
-		60615
+		{
+			60615,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47490,7 +48344,10 @@ _G.pg.base.equip_data_statistics[17466] = {
 		81466
 	},
 	skill_id = {
-		60616
+		{
+			60616,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47514,7 +48371,10 @@ _G.pg.base.equip_data_statistics[17467] = {
 		81467
 	},
 	skill_id = {
-		60617
+		{
+			60617,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47538,7 +48398,10 @@ _G.pg.base.equip_data_statistics[17468] = {
 		81468
 	},
 	skill_id = {
-		60618
+		{
+			60618,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47562,7 +48425,10 @@ _G.pg.base.equip_data_statistics[17469] = {
 		81469
 	},
 	skill_id = {
-		60619
+		{
+			60619,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47586,7 +48452,10 @@ _G.pg.base.equip_data_statistics[17470] = {
 		81470
 	},
 	skill_id = {
-		60620
+		{
+			60620,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47611,7 +48480,10 @@ _G.pg.base.equip_data_statistics[17471] = {
 		81471
 	},
 	skill_id = {
-		60621
+		{
+			60621,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47636,7 +48508,10 @@ _G.pg.base.equip_data_statistics[17472] = {
 		81472
 	},
 	skill_id = {
-		60622
+		{
+			60622,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -47661,7 +48536,10 @@ _G.pg.base.equip_data_statistics[17473] = {
 		81473
 	},
 	skill_id = {
-		60623
+		{
+			60623,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48128,7 +49006,10 @@ _G.pg.base.equip_data_statistics[18060] = {
 		18060
 	},
 	skill_id = {
-		6320
+		{
+			6320,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -48165,7 +49046,10 @@ _G.pg.base.equip_data_statistics[18061] = {
 		18061
 	},
 	skill_id = {
-		6321
+		{
+			6321,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48188,7 +49072,10 @@ _G.pg.base.equip_data_statistics[18062] = {
 		18062
 	},
 	skill_id = {
-		6322
+		{
+			6322,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48211,7 +49098,10 @@ _G.pg.base.equip_data_statistics[18063] = {
 		18063
 	},
 	skill_id = {
-		6323
+		{
+			6323,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48234,7 +49124,10 @@ _G.pg.base.equip_data_statistics[18064] = {
 		18064
 	},
 	skill_id = {
-		6324
+		{
+			6324,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48257,7 +49150,10 @@ _G.pg.base.equip_data_statistics[18065] = {
 		18065
 	},
 	skill_id = {
-		6325
+		{
+			6325,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48280,7 +49176,10 @@ _G.pg.base.equip_data_statistics[18066] = {
 		18066
 	},
 	skill_id = {
-		6326
+		{
+			6326,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48303,7 +49202,10 @@ _G.pg.base.equip_data_statistics[18067] = {
 		18067
 	},
 	skill_id = {
-		6327
+		{
+			6327,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48326,7 +49228,10 @@ _G.pg.base.equip_data_statistics[18068] = {
 		18068
 	},
 	skill_id = {
-		6328
+		{
+			6328,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48349,7 +49254,10 @@ _G.pg.base.equip_data_statistics[18069] = {
 		18069
 	},
 	skill_id = {
-		6329
+		{
+			6329,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48372,7 +49280,10 @@ _G.pg.base.equip_data_statistics[18070] = {
 		18070
 	},
 	skill_id = {
-		6330
+		{
+			6330,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48396,7 +49307,10 @@ _G.pg.base.equip_data_statistics[18071] = {
 		18071
 	},
 	skill_id = {
-		6331
+		{
+			6331,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48420,7 +49334,10 @@ _G.pg.base.equip_data_statistics[18072] = {
 		18072
 	},
 	skill_id = {
-		6332
+		{
+			6332,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -48444,7 +49361,10 @@ _G.pg.base.equip_data_statistics[18073] = {
 		18073
 	},
 	skill_id = {
-		6333
+		{
+			6333,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49053,7 +49973,10 @@ _G.pg.base.equip_data_statistics[18180] = {
 		18180
 	},
 	skill_id = {
-		6790
+		{
+			6790,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -49090,7 +50013,10 @@ _G.pg.base.equip_data_statistics[18181] = {
 		18181
 	},
 	skill_id = {
-		6791
+		{
+			6791,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49113,7 +50039,10 @@ _G.pg.base.equip_data_statistics[18182] = {
 		18182
 	},
 	skill_id = {
-		6792
+		{
+			6792,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49136,7 +50065,10 @@ _G.pg.base.equip_data_statistics[18183] = {
 		18183
 	},
 	skill_id = {
-		6793
+		{
+			6793,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49159,7 +50091,10 @@ _G.pg.base.equip_data_statistics[18184] = {
 		18184
 	},
 	skill_id = {
-		6794
+		{
+			6794,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49182,7 +50117,10 @@ _G.pg.base.equip_data_statistics[18185] = {
 		18185
 	},
 	skill_id = {
-		6795
+		{
+			6795,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49205,7 +50143,10 @@ _G.pg.base.equip_data_statistics[18186] = {
 		18186
 	},
 	skill_id = {
-		6796
+		{
+			6796,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49228,7 +50169,10 @@ _G.pg.base.equip_data_statistics[18187] = {
 		18187
 	},
 	skill_id = {
-		6797
+		{
+			6797,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49251,7 +50195,10 @@ _G.pg.base.equip_data_statistics[18188] = {
 		18188
 	},
 	skill_id = {
-		6798
+		{
+			6798,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49274,7 +50221,10 @@ _G.pg.base.equip_data_statistics[18189] = {
 		18189
 	},
 	skill_id = {
-		6799
+		{
+			6799,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49297,7 +50247,10 @@ _G.pg.base.equip_data_statistics[18190] = {
 		18190
 	},
 	skill_id = {
-		6800
+		{
+			6800,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49321,7 +50274,10 @@ _G.pg.base.equip_data_statistics[18191] = {
 		18191
 	},
 	skill_id = {
-		6801
+		{
+			6801,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49345,7 +50301,10 @@ _G.pg.base.equip_data_statistics[18192] = {
 		18192
 	},
 	skill_id = {
-		6802
+		{
+			6802,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -49369,7 +50328,10 @@ _G.pg.base.equip_data_statistics[18193] = {
 		18193
 	},
 	skill_id = {
-		6803
+		{
+			6803,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -50218,7 +51180,10 @@ _G.pg.base.equip_data_statistics[19060] = {
 		19060
 	},
 	skill_id = {
-		6240
+		{
+			6240,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -70793,7 +71758,10 @@ _G.pg.base.equip_data_statistics[28060] = {
 		28060
 	},
 	skill_id = {
-		6810
+		{
+			6810,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -70830,7 +71798,10 @@ _G.pg.base.equip_data_statistics[28061] = {
 		28061
 	},
 	skill_id = {
-		6811
+		{
+			6811,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -70853,7 +71824,10 @@ _G.pg.base.equip_data_statistics[28062] = {
 		28062
 	},
 	skill_id = {
-		6812
+		{
+			6812,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -70876,7 +71850,10 @@ _G.pg.base.equip_data_statistics[28063] = {
 		28063
 	},
 	skill_id = {
-		6813
+		{
+			6813,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -70899,7 +71876,10 @@ _G.pg.base.equip_data_statistics[28064] = {
 		28064
 	},
 	skill_id = {
-		6814
+		{
+			6814,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -70922,7 +71902,10 @@ _G.pg.base.equip_data_statistics[28065] = {
 		28065
 	},
 	skill_id = {
-		6815
+		{
+			6815,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -70945,7 +71928,10 @@ _G.pg.base.equip_data_statistics[28066] = {
 		28066
 	},
 	skill_id = {
-		6816
+		{
+			6816,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -70968,7 +71954,10 @@ _G.pg.base.equip_data_statistics[28067] = {
 		28067
 	},
 	skill_id = {
-		6817
+		{
+			6817,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -70991,7 +71980,10 @@ _G.pg.base.equip_data_statistics[28068] = {
 		28068
 	},
 	skill_id = {
-		6818
+		{
+			6818,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -71014,7 +72006,10 @@ _G.pg.base.equip_data_statistics[28069] = {
 		28069
 	},
 	skill_id = {
-		6819
+		{
+			6819,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -71037,7 +72032,10 @@ _G.pg.base.equip_data_statistics[28070] = {
 		28070
 	},
 	skill_id = {
-		6820
+		{
+			6820,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -71061,7 +72059,10 @@ _G.pg.base.equip_data_statistics[28071] = {
 		28071
 	},
 	skill_id = {
-		6821
+		{
+			6821,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -71085,7 +72086,10 @@ _G.pg.base.equip_data_statistics[28072] = {
 		28072
 	},
 	skill_id = {
-		6822
+		{
+			6822,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -71109,7 +72113,10 @@ _G.pg.base.equip_data_statistics[28073] = {
 		28073
 	},
 	skill_id = {
-		6823
+		{
+			6823,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75437,7 +76444,10 @@ _G.pg.base.equip_data_statistics[29300] = {
 		29300
 	},
 	skill_id = {
-		6830
+		{
+			6830,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -75474,7 +76484,10 @@ _G.pg.base.equip_data_statistics[29301] = {
 		29301
 	},
 	skill_id = {
-		6831
+		{
+			6831,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75497,7 +76510,10 @@ _G.pg.base.equip_data_statistics[29302] = {
 		29302
 	},
 	skill_id = {
-		6832
+		{
+			6832,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75520,7 +76536,10 @@ _G.pg.base.equip_data_statistics[29303] = {
 		29303
 	},
 	skill_id = {
-		6833
+		{
+			6833,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75543,7 +76562,10 @@ _G.pg.base.equip_data_statistics[29304] = {
 		29304
 	},
 	skill_id = {
-		6834
+		{
+			6834,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75566,7 +76588,10 @@ _G.pg.base.equip_data_statistics[29305] = {
 		29305
 	},
 	skill_id = {
-		6835
+		{
+			6835,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75589,7 +76614,10 @@ _G.pg.base.equip_data_statistics[29306] = {
 		29306
 	},
 	skill_id = {
-		6836
+		{
+			6836,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75612,7 +76640,10 @@ _G.pg.base.equip_data_statistics[29307] = {
 		29307
 	},
 	skill_id = {
-		6837
+		{
+			6837,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75635,7 +76666,10 @@ _G.pg.base.equip_data_statistics[29308] = {
 		29308
 	},
 	skill_id = {
-		6838
+		{
+			6838,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75658,7 +76692,10 @@ _G.pg.base.equip_data_statistics[29309] = {
 		29309
 	},
 	skill_id = {
-		6839
+		{
+			6839,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75681,7 +76718,10 @@ _G.pg.base.equip_data_statistics[29310] = {
 		29310
 	},
 	skill_id = {
-		6840
+		{
+			6840,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75705,7 +76745,10 @@ _G.pg.base.equip_data_statistics[29311] = {
 		29311
 	},
 	skill_id = {
-		6841
+		{
+			6841,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75729,7 +76772,10 @@ _G.pg.base.equip_data_statistics[29312] = {
 		29312
 	},
 	skill_id = {
-		6842
+		{
+			6842,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -75753,7 +76799,10 @@ _G.pg.base.equip_data_statistics[29313] = {
 		29313
 	},
 	skill_id = {
-		6843
+		{
+			6843,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -80353,7 +81402,10 @@ _G.pg.base.equip_data_statistics[32360] = {
 		32360
 	},
 	skill_id = {
-		60390
+		{
+			60390,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -91461,7 +92513,10 @@ _G.pg.base.equip_data_statistics[36740] = {
 		36740
 	},
 	skill_id = {
-		60600
+		{
+			60600,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -101808,7 +102863,10 @@ _G.pg.base.equip_data_statistics[39300] = {
 		39300
 	},
 	skill_id = {
-		6370
+		{
+			6370,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -102462,7 +103520,10 @@ _G.pg.base.equip_data_statistics[39340] = {
 		39340
 	},
 	skill_id = {
-		6860
+		{
+			6860,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -102503,7 +103564,10 @@ _G.pg.base.equip_data_statistics[39341] = {
 		39341
 	},
 	skill_id = {
-		6861
+		{
+			6861,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102530,7 +103594,10 @@ _G.pg.base.equip_data_statistics[39342] = {
 		39342
 	},
 	skill_id = {
-		6862
+		{
+			6862,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102557,7 +103624,10 @@ _G.pg.base.equip_data_statistics[39343] = {
 		39343
 	},
 	skill_id = {
-		6863
+		{
+			6863,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102584,7 +103654,10 @@ _G.pg.base.equip_data_statistics[39344] = {
 		39344
 	},
 	skill_id = {
-		6864
+		{
+			6864,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102611,7 +103684,10 @@ _G.pg.base.equip_data_statistics[39345] = {
 		39345
 	},
 	skill_id = {
-		6865
+		{
+			6865,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102638,7 +103714,10 @@ _G.pg.base.equip_data_statistics[39346] = {
 		39346
 	},
 	skill_id = {
-		6866
+		{
+			6866,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102665,7 +103744,10 @@ _G.pg.base.equip_data_statistics[39347] = {
 		39347
 	},
 	skill_id = {
-		6867
+		{
+			6867,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102692,7 +103774,10 @@ _G.pg.base.equip_data_statistics[39348] = {
 		39348
 	},
 	skill_id = {
-		6868
+		{
+			6868,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102719,7 +103804,10 @@ _G.pg.base.equip_data_statistics[39349] = {
 		39349
 	},
 	skill_id = {
-		6869
+		{
+			6869,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102746,7 +103834,10 @@ _G.pg.base.equip_data_statistics[39350] = {
 		39350
 	},
 	skill_id = {
-		6870
+		{
+			6870,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102774,7 +103865,10 @@ _G.pg.base.equip_data_statistics[39351] = {
 		39351
 	},
 	skill_id = {
-		6871
+		{
+			6871,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102802,7 +103896,10 @@ _G.pg.base.equip_data_statistics[39352] = {
 		39352
 	},
 	skill_id = {
-		6872
+		{
+			6872,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -102830,7 +103927,10 @@ _G.pg.base.equip_data_statistics[39353] = {
 		39353
 	},
 	skill_id = {
-		6873
+		{
+			6873,
+			1
+		}
 	},
 	hidden_skill_id = {}
 }
@@ -106179,7 +107279,10 @@ _G.pg.base.equip_data_statistics[42360] = {
 		42360
 	},
 	skill_id = {
-		60400
+		{
+			60400,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -118023,6 +119126,282 @@ _G.pg.base.equip_data_statistics[47193] = {
 	},
 	weapon_id = {
 		47193
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47200] = {
+	name = "Prototype Carrier-Based FW-190 G-3/R1",
+	type = 7,
+	speciality = "<[AIR]>",
+	rarity = 5,
+	tech = 0,
+	value_2 = 45,
+	icon = "47200",
+	attribute_2 = "air",
+	descrip = "",
+	nationality = 4,
+	ammo = 5,
+	value_3 = 0,
+	id = 47200,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {
+		{
+			6,
+			59160
+		}
+	},
+	equip_info = {
+		6,
+		7,
+		8,
+		9
+	},
+	weapon_id = {
+		47200,
+		84200
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
+	},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"CV",
+		"FT"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[47201] = {
+	base = 47200,
+	id = 47201,
+	ammo_info = {
+		{
+			6,
+			59161
+		}
+	},
+	weapon_id = {
+		47201,
+		84201
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47202] = {
+	base = 47200,
+	id = 47202,
+	ammo_info = {
+		{
+			6,
+			59162
+		}
+	},
+	weapon_id = {
+		47202,
+		84202
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47203] = {
+	base = 47200,
+	id = 47203,
+	ammo_info = {
+		{
+			6,
+			59163
+		}
+	},
+	weapon_id = {
+		47203,
+		84203
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47204] = {
+	base = 47200,
+	id = 47204,
+	ammo_info = {
+		{
+			6,
+			59164
+		}
+	},
+	weapon_id = {
+		47204,
+		84204
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47205] = {
+	base = 47200,
+	id = 47205,
+	ammo_info = {
+		{
+			6,
+			59165
+		}
+	},
+	weapon_id = {
+		47205,
+		84205
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47206] = {
+	base = 47200,
+	id = 47206,
+	ammo_info = {
+		{
+			6,
+			59166
+		}
+	},
+	weapon_id = {
+		47206,
+		84206
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47207] = {
+	base = 47200,
+	id = 47207,
+	ammo_info = {
+		{
+			6,
+			59167
+		}
+	},
+	weapon_id = {
+		47207,
+		84207
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47208] = {
+	base = 47200,
+	id = 47208,
+	ammo_info = {
+		{
+			6,
+			59168
+		}
+	},
+	weapon_id = {
+		47208,
+		84208
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47209] = {
+	base = 47200,
+	id = 47209,
+	ammo_info = {
+		{
+			6,
+			59169
+		}
+	},
+	weapon_id = {
+		47209,
+		84209
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47210] = {
+	base = 47200,
+	id = 47210,
+	ammo_info = {
+		{
+			6,
+			59170
+		}
+	},
+	weapon_id = {
+		47210,
+		84210
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47211] = {
+	anti_siren = 100,
+	base = 47200,
+	id = 47211,
+	ammo_info = {
+		{
+			6,
+			59171
+		}
+	},
+	weapon_id = {
+		47211,
+		84211
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47212] = {
+	anti_siren = 200,
+	base = 47200,
+	id = 47212,
+	ammo_info = {
+		{
+			6,
+			59172
+		}
+	},
+	weapon_id = {
+		47212,
+		84212
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[47213] = {
+	anti_siren = 300,
+	base = 47200,
+	id = 47213,
+	ammo_info = {
+		{
+			6,
+			59173
+		}
+	},
+	weapon_id = {
+		47213,
+		84213
 	},
 	hidden_skill_id = {}
 }
@@ -143669,7 +145048,10 @@ _G.pg.base.equip_data_statistics[89000] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6380
+		{
+			6380,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -143824,7 +145206,10 @@ _G.pg.base.equip_data_statistics[89020] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6390
+		{
+			6390,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -143972,7 +145357,10 @@ _G.pg.base.equip_data_statistics[89040] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6400
+		{
+			6400,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -144128,7 +145516,10 @@ _G.pg.base.equip_data_statistics[89060] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6490
+		{
+			6490,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -144283,7 +145674,10 @@ _G.pg.base.equip_data_statistics[89080] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6500
+		{
+			6500,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -144427,7 +145821,10 @@ _G.pg.base.equip_data_statistics[89100] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6510
+		{
+			6510,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -144584,7 +145981,10 @@ _G.pg.base.equip_data_statistics[89120] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6520
+		{
+			6520,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -144740,7 +146140,10 @@ _G.pg.base.equip_data_statistics[89140] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6710
+		{
+			6710,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -144897,7 +146300,10 @@ _G.pg.base.equip_data_statistics[89160] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6711
+		{
+			6711,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -145054,7 +146460,10 @@ _G.pg.base.equip_data_statistics[89180] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6712
+		{
+			6712,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -145211,7 +146620,10 @@ _G.pg.base.equip_data_statistics[89200] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6690
+		{
+			6690,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -145365,7 +146777,10 @@ _G.pg.base.equip_data_statistics[89220] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6700
+		{
+			6700,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -145509,7 +146924,10 @@ _G.pg.base.equip_data_statistics[89240] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6720
+		{
+			6720,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -145665,7 +147083,10 @@ _G.pg.base.equip_data_statistics[89260] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6730
+		{
+			6730,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -145822,7 +147243,10 @@ _G.pg.base.equip_data_statistics[89280] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6880
+		{
+			6880,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -145978,7 +147402,10 @@ _G.pg.base.equip_data_statistics[89300] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6890
+		{
+			6890,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -146179,7 +147606,10 @@ _G.pg.base.equip_data_statistics[89320] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6900
+		{
+			6900,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -146323,7 +147753,10 @@ _G.pg.base.equip_data_statistics[89340] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6910
+		{
+			6910,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -146511,7 +147944,10 @@ _G.pg.base.equip_data_statistics[89360] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6920
+		{
+			6920,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -146699,7 +148135,10 @@ _G.pg.base.equip_data_statistics[89380] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6930
+		{
+			6930,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -146858,7 +148297,10 @@ _G.pg.base.equip_data_statistics[89400] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6940
+		{
+			6940,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -147002,7 +148444,10 @@ _G.pg.base.equip_data_statistics[89420] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60130
+		{
+			60130,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -147159,7 +148604,10 @@ _G.pg.base.equip_data_statistics[89440] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60140
+		{
+			60140,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -147302,7 +148750,10 @@ _G.pg.base.equip_data_statistics[89460] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60150
+		{
+			60150,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -147447,7 +148898,10 @@ _G.pg.base.equip_data_statistics[89480] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60160
+		{
+			60160,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -147600,7 +149054,10 @@ _G.pg.base.equip_data_statistics[89500] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60250
+		{
+			60250,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -147752,7 +149209,10 @@ _G.pg.base.equip_data_statistics[89520] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60240
+		{
+			60240,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -147916,7 +149376,10 @@ _G.pg.base.equip_data_statistics[89540] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60210
+		{
+			60210,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -148070,7 +149533,10 @@ _G.pg.base.equip_data_statistics[89560] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60220
+		{
+			60220,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -148236,7 +149702,10 @@ _G.pg.base.equip_data_statistics[89580] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60180
+		{
+			60180,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -148380,7 +149849,10 @@ _G.pg.base.equip_data_statistics[89600] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60190
+		{
+			60190,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -148537,7 +150009,10 @@ _G.pg.base.equip_data_statistics[89620] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60270
+		{
+			60270,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -148693,7 +150168,10 @@ _G.pg.base.equip_data_statistics[89640] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		108340
+		{
+			108340,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -148840,7 +150318,10 @@ _G.pg.base.equip_data_statistics[89660] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		108350
+		{
+			108350,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -148988,7 +150469,10 @@ _G.pg.base.equip_data_statistics[89680] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60470
+		{
+			60470,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -149144,7 +150628,10 @@ _G.pg.base.equip_data_statistics[89700] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60480
+		{
+			60480,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -149288,7 +150775,10 @@ _G.pg.base.equip_data_statistics[89720] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60490
+		{
+			60490,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -149445,7 +150935,10 @@ _G.pg.base.equip_data_statistics[89740] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60560
+		{
+			60560,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -149601,7 +151094,10 @@ _G.pg.base.equip_data_statistics[89760] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60570
+		{
+			60570,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -149744,7 +151240,10 @@ _G.pg.base.equip_data_statistics[89780] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60580
+		{
+			60580,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -157391,7 +158890,10 @@ _G.pg.base.equip_data_statistics[91260] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		6970
+		{
+			6970,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -157562,7 +159064,10 @@ _G.pg.base.equip_data_statistics[91280] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60520
+		{
+			60520,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -157989,7 +159494,10 @@ _G.pg.base.equip_data_statistics[95040] = {
 		95040
 	},
 	skill_id = {
-		6450
+		{
+			6450,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -161055,6 +162563,200 @@ _G.pg.base.equip_data_statistics[95563] = {
 	id = 95563,
 	weapon_id = {
 		95563
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95580] = {
+	name = "Twin 120mm Gun Mount",
+	speciality = "<[LOCK]>",
+	type = 1,
+	tech = 3,
+	value_2 = 25,
+	icon = "55560",
+	attribute_2 = "cannon",
+	descrip = "No description",
+	rarity = 4,
+	damage = "5 x 4",
+	nationality = 6,
+	ammo = 3,
+	value_3 = 0,
+	id = 95580,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			1,
+			2300
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		{
+			3,
+			2300
+		},
+		{
+			4,
+			1022
+		},
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		95580
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DD",
+		"MG",
+		"AP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[95581] = {
+	damage = "6 x 4",
+	base = 95580,
+	id = 95581,
+	weapon_id = {
+		95581
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95582] = {
+	damage = "7 x 4",
+	base = 95580,
+	id = 95582,
+	weapon_id = {
+		95582
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95583] = {
+	damage = "8 x 4",
+	base = 95580,
+	id = 95583,
+	weapon_id = {
+		95583
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95584] = {
+	damage = "9 x 4",
+	base = 95580,
+	id = 95584,
+	weapon_id = {
+		95584
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95585] = {
+	damage = "10 x 4",
+	base = 95580,
+	id = 95585,
+	weapon_id = {
+		95585
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95586] = {
+	damage = "11 x 4",
+	base = 95580,
+	id = 95586,
+	weapon_id = {
+		95586
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95587] = {
+	damage = "12 x 4",
+	base = 95580,
+	id = 95587,
+	weapon_id = {
+		95587
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95588] = {
+	damage = "13 x 4",
+	base = 95580,
+	id = 95588,
+	weapon_id = {
+		95588
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95589] = {
+	damage = "14 x 4",
+	base = 95580,
+	id = 95589,
+	weapon_id = {
+		95589
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95590] = {
+	damage = "15 x 4",
+	base = 95580,
+	id = 95590,
+	weapon_id = {
+		95590
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[95591] = {
+	anti_siren = 100,
+	damage = "15 x 4",
+	base = 95580,
+	id = 95591,
+	weapon_id = {
+		95591
 	},
 	hidden_skill_id = {}
 }
@@ -164782,6 +166484,799 @@ _G.pg.base.equip_data_statistics[96133] = {
 }
 
 
+_G.pg.base.equip_data_statistics[96140] = {
+	name = "Triple 305mm Model 1909 Main Gun Mount",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 3,
+	value_2 = 12,
+	icon = "56140",
+	attribute_2 = "cannon",
+	descrip = "No description",
+	rarity = 3,
+	damage = "47 x 3",
+	nationality = 6,
+	ammo = 3,
+	value_3 = 0,
+	id = 96140,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		1
+	},
+	ammo_info = {
+		{
+			2,
+			1560
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		96140
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"BB",
+		"MG"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[96141] = {
+	damage = "51 x 3",
+	base = 96140,
+	id = 96141,
+	weapon_id = {
+		96141
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96142] = {
+	damage = "57 x 3",
+	base = 96140,
+	id = 96142,
+	weapon_id = {
+		96142
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96143] = {
+	damage = "61 x 3",
+	base = 96140,
+	id = 96143,
+	weapon_id = {
+		96143
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96144] = {
+	damage = "67 x 3",
+	base = 96140,
+	id = 96144,
+	weapon_id = {
+		96144
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96145] = {
+	damage = "71 x 3",
+	base = 96140,
+	id = 96145,
+	weapon_id = {
+		96145
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96146] = {
+	damage = "75 x 3",
+	base = 96140,
+	id = 96146,
+	weapon_id = {
+		96146
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96147] = {
+	damage = "75 x 3",
+	base = 96140,
+	id = 96147,
+	weapon_id = {
+		96147
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96160] = {
+	name = "Twin 381mm Model 1914 Main Gun Mount",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 3,
+	value_2 = 12,
+	icon = "56160",
+	attribute_2 = "cannon",
+	descrip = "No description",
+	rarity = 3,
+	damage = "42 x 2",
+	nationality = 6,
+	ammo = 1,
+	value_3 = 0,
+	id = 96160,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {
+		{
+			2,
+			1501
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		96160
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"BB",
+		"MG",
+		"AP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[96161] = {
+	damage = "50 x 2",
+	base = 96160,
+	id = 96161,
+	weapon_id = {
+		96161
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96162] = {
+	damage = "58 x 2",
+	base = 96160,
+	id = 96162,
+	weapon_id = {
+		96162
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96163] = {
+	damage = "66 x 2",
+	base = 96160,
+	id = 96163,
+	weapon_id = {
+		96163
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96164] = {
+	damage = "74 x 2",
+	base = 96160,
+	id = 96164,
+	weapon_id = {
+		96164
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96165] = {
+	damage = "82 x 2",
+	base = 96160,
+	id = 96165,
+	weapon_id = {
+		96165
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96166] = {
+	damage = "90 x 2",
+	base = 96160,
+	id = 96166,
+	weapon_id = {
+		96166
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96167] = {
+	damage = "90 x 2",
+	base = 96160,
+	id = 96167,
+	weapon_id = {
+		96167
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96180] = {
+	name = "Twin 13.2mm Breda Anti-Air Autocannon",
+	speciality = "<[SRG]>",
+	type = 6,
+	tech = 3,
+	value_2 = 12,
+	icon = "56180",
+	attribute_2 = "antiaircraft",
+	descrip = "No description",
+	rarity = 3,
+	damage = "9<[WAVE]>",
+	nationality = 6,
+	ammo = 5,
+	value_3 = 0,
+	id = 96180,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		96180
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"ST",
+		"AA"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[96181] = {
+	damage = "10<[WAVE]>",
+	base = 96180,
+	id = 96181,
+	weapon_id = {
+		96181
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96182] = {
+	damage = "11<[WAVE]>",
+	base = 96180,
+	id = 96182,
+	weapon_id = {
+		96182
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96183] = {
+	damage = "12<[WAVE]>",
+	base = 96180,
+	id = 96183,
+	weapon_id = {
+		96183
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96184] = {
+	damage = "13<[WAVE]>",
+	base = 96180,
+	id = 96184,
+	weapon_id = {
+		96184
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96185] = {
+	damage = "14<[WAVE]>",
+	base = 96180,
+	id = 96185,
+	weapon_id = {
+		96185
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96186] = {
+	damage = "16<[WAVE]>",
+	base = 96180,
+	id = 96186,
+	weapon_id = {
+		96186
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96187] = {
+	damage = "16<[WAVE]>",
+	base = 96180,
+	id = 96187,
+	weapon_id = {
+		96187
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96200] = {
+	name = "65mm Model 1939 Anti-Air Gun",
+	speciality = "<[SRG]>",
+	type = 6,
+	tech = 3,
+	value_2 = 25,
+	icon = "56200",
+	attribute_2 = "antiaircraft",
+	descrip = "No description",
+	rarity = 4,
+	damage = "50<[WAVE]>",
+	nationality = 6,
+	ammo = 5,
+	value_3 = 0,
+	id = 96200,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		96200
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"ST",
+		"AA"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[96201] = {
+	damage = "52<[WAVE]>",
+	base = 96200,
+	id = 96201,
+	weapon_id = {
+		96201
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96202] = {
+	damage = "54<[WAVE]>",
+	base = 96200,
+	id = 96202,
+	weapon_id = {
+		96202
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96203] = {
+	damage = "56<[WAVE]>",
+	base = 96200,
+	id = 96203,
+	weapon_id = {
+		96203
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96204] = {
+	damage = "58<[WAVE]>",
+	base = 96200,
+	id = 96204,
+	weapon_id = {
+		96204
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96205] = {
+	damage = "60<[WAVE]>",
+	base = 96200,
+	id = 96205,
+	weapon_id = {
+		96205
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96206] = {
+	damage = "62<[WAVE]>",
+	base = 96200,
+	id = 96206,
+	weapon_id = {
+		96206
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96207] = {
+	damage = "64<[WAVE]>",
+	base = 96200,
+	id = 96207,
+	weapon_id = {
+		96207
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96208] = {
+	damage = "66<[WAVE]>",
+	base = 96200,
+	id = 96208,
+	weapon_id = {
+		96208
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96209] = {
+	damage = "68<[WAVE]>",
+	base = 96200,
+	id = 96209,
+	weapon_id = {
+		96209
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96210] = {
+	damage = "70<[WAVE]>",
+	base = 96200,
+	id = 96210,
+	weapon_id = {
+		96210
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96211] = {
+	anti_siren = 100,
+	damage = "70<[WAVE]>",
+	base = 96200,
+	id = 96211,
+	weapon_id = {
+		96211
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96220] = {
+	name = "Twin 20mm Breda Anti-Air Autocannon",
+	speciality = "<[SRG]>",
+	type = 6,
+	tech = 3,
+	value_2 = 25,
+	icon = "56220",
+	attribute_2 = "antiaircraft",
+	descrip = "No description",
+	rarity = 4,
+	damage = "18<[WAVE]>",
+	nationality = 6,
+	ammo = 5,
+	value_3 = 0,
+	id = 96220,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		96220
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"ST",
+		"AA"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[96221] = {
+	damage = "20<[WAVE]>",
+	base = 96220,
+	id = 96221,
+	weapon_id = {
+		96221
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96222] = {
+	damage = "22<[WAVE]>",
+	base = 96220,
+	id = 96222,
+	weapon_id = {
+		96222
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96223] = {
+	damage = "24<[WAVE]>",
+	base = 96220,
+	id = 96223,
+	weapon_id = {
+		96223
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96224] = {
+	damage = "27<[WAVE]>",
+	base = 96220,
+	id = 96224,
+	weapon_id = {
+		96224
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96225] = {
+	damage = "30<[WAVE]>",
+	base = 96220,
+	id = 96225,
+	weapon_id = {
+		96225
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96226] = {
+	damage = "33<[WAVE]>",
+	base = 96220,
+	id = 96226,
+	weapon_id = {
+		96226
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96227] = {
+	damage = "36<[WAVE]>",
+	base = 96220,
+	id = 96227,
+	weapon_id = {
+		96227
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96228] = {
+	damage = "39<[WAVE]>",
+	base = 96220,
+	id = 96228,
+	weapon_id = {
+		96228
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96229] = {
+	damage = "42<[WAVE]>",
+	base = 96220,
+	id = 96229,
+	weapon_id = {
+		96229
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96230] = {
+	damage = "45<[WAVE]>",
+	base = 96220,
+	id = 96230,
+	weapon_id = {
+		96230
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96231] = {
+	anti_siren = 100,
+	damage = "45<[WAVE]>",
+	base = 96220,
+	id = 96231,
+	weapon_id = {
+		96231
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[100000] = {
 	name = "装备模板",
 	tech = 1,
@@ -164839,7 +167334,10 @@ _G.pg.base.equip_data_statistics[150000] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60430
+		{
+			60430,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -164965,7 +167463,10 @@ _G.pg.base.equip_data_statistics[150020] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60440
+		{
+			60440,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -165749,7 +168250,10 @@ _G.pg.base.equip_data_statistics[150160] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60460
+		{
+			60460,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -165884,7 +168388,10 @@ _G.pg.base.equip_data_statistics[150180] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60450
+		{
+			60450,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -166019,7 +168526,10 @@ _G.pg.base.equip_data_statistics[150200] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60500
+		{
+			60500,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -166156,7 +168666,10 @@ _G.pg.base.equip_data_statistics[150240] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60510
+		{
+			60510,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -166301,7 +168814,10 @@ _G.pg.base.equip_data_statistics[150260] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60530
+		{
+			60530,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -166426,7 +168942,10 @@ _G.pg.base.equip_data_statistics[150280] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60540
+		{
+			60540,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -166569,7 +169088,10 @@ _G.pg.base.equip_data_statistics[150300] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60550
+		{
+			60550,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -166699,7 +169221,10 @@ _G.pg.base.equip_data_statistics[150320] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60590
+		{
+			60590,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -166824,7 +169349,10 @@ _G.pg.base.equip_data_statistics[150340] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60650
+		{
+			60650,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -166950,10 +169478,16 @@ _G.pg.base.equip_data_statistics[150360] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60660
+		{
+			60660,
+			1
+		}
 	},
 	hidden_skill_id = {
-		201017
+		{
+			201017,
+			1
+		}
 	},
 	part_main = {
 		1,
@@ -167128,7 +169662,10 @@ _G.pg.base.equip_data_statistics[150380] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60680
+		{
+			60680,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -167280,7 +169817,10 @@ _G.pg.base.equip_data_statistics[150400] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60700
+		{
+			60700,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -167425,7 +169965,10 @@ _G.pg.base.equip_data_statistics[150420] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60720
+		{
+			60720,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -167560,7 +170103,10 @@ _G.pg.base.equip_data_statistics[150440] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60730
+		{
+			60730,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -167695,7 +170241,10 @@ _G.pg.base.equip_data_statistics[150460] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60740
+		{
+			60740,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -167838,7 +170387,10 @@ _G.pg.base.equip_data_statistics[150480] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60750
+		{
+			60750,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -167980,7 +170532,10 @@ _G.pg.base.equip_data_statistics[150500] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60760
+		{
+			60760,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -168123,7 +170678,10 @@ _G.pg.base.equip_data_statistics[150520] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60770
+		{
+			60770,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -168283,7 +170841,10 @@ _G.pg.base.equip_data_statistics[150540] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60780
+		{
+			60780,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {
@@ -168449,7 +171010,10 @@ _G.pg.base.equip_data_statistics[150560] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60790
+		{
+			60790,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -168579,7 +171143,10 @@ _G.pg.base.equip_data_statistics[150580] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60800
+		{
+			60800,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -168704,7 +171271,10 @@ _G.pg.base.equip_data_statistics[150600] = {
 	},
 	weapon_id = {},
 	skill_id = {
-		60810
+		{
+			60810,
+			1
+		}
 	},
 	hidden_skill_id = {},
 	part_main = {},
@@ -168802,6 +171372,155 @@ _G.pg.base.equip_data_statistics[150611] = {
 	base = 150600,
 	id = 150611,
 	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150620] = {
+	name = "Corona Preferita",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	id = 150620,
+	value_2 = 10,
+	icon = "150620",
+	value_1 = "14",
+	attribute_2 = "cannon",
+	rarity = 4,
+	nationality = 6,
+	descrip = "Marco Polo's second most favorite hat.",
+	ammo = 10,
+	value_3 = 0,
+	attribute_1 = "hit",
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			60820,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10
+	},
+	part_sub = {
+		4,
+		5,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150621] = {
+	id = 150621,
+	base = 150620,
+	value_2 = 11,
+	value_1 = "15",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150622] = {
+	id = 150622,
+	base = 150620,
+	value_2 = 12,
+	value_1 = "17",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150623] = {
+	id = 150623,
+	base = 150620,
+	value_2 = 13,
+	value_1 = "18",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150624] = {
+	id = 150624,
+	base = 150620,
+	value_2 = 14,
+	value_1 = "20",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150625] = {
+	id = 150625,
+	base = 150620,
+	value_2 = 15,
+	value_1 = "21",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150626] = {
+	id = 150626,
+	base = 150620,
+	value_2 = 16,
+	value_1 = "23",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150627] = {
+	id = 150627,
+	base = 150620,
+	value_2 = 17,
+	value_1 = "24",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150628] = {
+	id = 150628,
+	base = 150620,
+	value_2 = 18,
+	value_1 = "25",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150629] = {
+	id = 150629,
+	base = 150620,
+	value_2 = 19,
+	value_1 = "26",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150630] = {
+	id = 150630,
+	base = 150620,
+	value_2 = 20,
+	value_1 = "27",
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150631] = {
+	id = 150631,
+	anti_siren = 100,
+	base = 150620,
+	value_2 = 21,
+	value_1 = "28",
 	hidden_skill_id = {}
 }
 

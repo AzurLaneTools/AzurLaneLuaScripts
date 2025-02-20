@@ -290,7 +290,7 @@ slot0.onWeaponUpdate = function(slot0)
 			slot0:MakeWeapon(slot0.weaponIds)
 			slot0:SeaFire()
 		elseif slot0.weaponIds[1] then
-			slot0:MakeBuff(Equipment.getConfigData(slot2).skill_id[1])
+			slot0:MakeBuff(Equipment.getConfigData(slot2).skill_id[1] and slot3[1])
 		end
 	end
 end

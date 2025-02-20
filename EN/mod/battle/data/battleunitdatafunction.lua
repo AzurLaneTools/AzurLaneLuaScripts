@@ -148,19 +148,17 @@ slot33.GetEquipSkill = function(slot0, slot1)
 
 			if uv0.GetWeaponDataFromID(slot9) then
 				for slot15, slot16 in ipairs(slot11.skill_id) do
-					if slot1 then
-						slot16 = uv0.SkillTranform(slot1, slot16) or slot16
-					end
-
-					table.insert(slot3, slot16)
+					table.insert(slot3, {
+						buffID = slot1 and uv0.SkillTranform(slot1, slot16[1]) or slot16[1],
+						buffLV = slot16[2] or 1
+					})
 				end
 
 				for slot15, slot16 in ipairs(slot11.hidden_skill_id) do
-					if slot1 then
-						slot16 = uv0.SkillTranform(slot1, slot16) or slot16
-					end
-
-					table.insert(slot3, slot16)
+					table.insert(slot3, {
+						buffID = slot1 and uv0.SkillTranform(slot1, slot16[1]) or slot16[1],
+						buffLV = slot16[2] or 1
+					})
 				end
 			end
 		end
@@ -235,7 +233,7 @@ end
 
 slot33.InitEquipSkill = function(slot0, slot1, slot2)
 	for slot7, slot8 in ipairs(uv0.GetEquipSkill(slot0, slot2)) do
-		slot1:AddBuff(uv1.Battle.BattleBuffUnit.New(slot8, 1, slot1))
+		slot1:AddBuff(uv1.Battle.BattleBuffUnit.New(slot8.buffID, slot8.buffLV, slot1))
 	end
 end
 
