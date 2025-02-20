@@ -263,7 +263,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……なんでこんなに人が……しかもわたくしに…？",
+			say = "……なんでこんなに人が……しかも私に…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "法聖は目を瞑り、暫し思案してからまた開いた。",
+			say = "法聖は目を瞑り、暫し思案してからまた開けた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
