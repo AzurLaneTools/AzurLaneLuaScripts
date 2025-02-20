@@ -486,6 +486,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「天地万象、星の輝きに観測されるがままに」</color>「星降る夕影の残光」に参加した指揮官に贈る",
 		scene = {}
 	},
+	[334] = {
+		name = "一筆の神光：聖翼の加護",
+		gain_by = "",
+		time_second = 0,
+		id = 334,
+		time_limit_type = 0,
+		desc = "今後開催されるイベントで入手可能",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂入り：エンタープライズ",
 		gain_by = "",
@@ -829,6 +838,7 @@ pg.item_data_frame = {
 		331,
 		332,
 		333,
+		334,
 		401,
 		402,
 		403,

@@ -223,6 +223,7 @@ pg.memory_group = setmetatable({
 		316,
 		317,
 		318,
+		319,
 		501,
 		502,
 		503,
@@ -5281,6 +5282,23 @@ pg.base.memory_group = {
 			4172,
 			4173,
 			4174
+		}
+	},
+	[319] = {
+		title = "被選者の道",
+		subtype = 1,
+		link_event = 5809,
+		type = 2,
+		id = 319,
+		icon = "title_event",
+		memories = {
+			4191,
+			4192,
+			4193,
+			4194,
+			4195,
+			4196,
+			4197
 		}
 	},
 	[501] = {

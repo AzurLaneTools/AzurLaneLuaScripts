@@ -9994,6 +9994,90 @@ _G.pg.base.weapon_name[53393] = {
 }
 
 
+_G.pg.base.weapon_name[53400] = {
+	id = 53400,
+	name = "2 x 航空爆雷-標準"
+}
+
+
+_G.pg.base.weapon_name[53401] = {
+	id = 53401,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53402] = {
+	id = 53402,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53403] = {
+	id = 53403,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53404] = {
+	id = 53404,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53405] = {
+	id = 53405,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53406] = {
+	id = 53406,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53407] = {
+	id = 53407,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53408] = {
+	id = 53408,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53409] = {
+	id = 53409,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53410] = {
+	id = 53410,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53411] = {
+	id = 53411,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53412] = {
+	id = 53412,
+	base = 53400
+}
+
+
+_G.pg.base.weapon_name[53413] = {
+	id = 53413,
+	base = 53400
+}
+
+
 _G.pg.base.weapon_name[59000] = {
 	id = 59000,
 	name = "2 x MG FF 20mm機関砲"
@@ -10495,6 +10579,90 @@ _G.pg.base.weapon_name[59152] = {
 _G.pg.base.weapon_name[59153] = {
 	id = 59153,
 	base = 59140
+}
+
+
+_G.pg.base.weapon_name[59160] = {
+	id = 59160,
+	name = "6 x MG151 20mm機関砲"
+}
+
+
+_G.pg.base.weapon_name[59161] = {
+	id = 59161,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59162] = {
+	id = 59162,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59163] = {
+	id = 59163,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59164] = {
+	id = 59164,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59165] = {
+	id = 59165,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59166] = {
+	id = 59166,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59167] = {
+	id = 59167,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59168] = {
+	id = 59168,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59169] = {
+	id = 59169,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59170] = {
+	id = 59170,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59171] = {
+	id = 59171,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59172] = {
+	id = 59172,
+	base = 59160
+}
+
+
+_G.pg.base.weapon_name[59173] = {
+	id = 59173,
+	base = 59160
 }
 
 

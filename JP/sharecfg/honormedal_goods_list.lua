@@ -913,6 +913,23 @@ pg.honormedal_goods_list = {
 			42066
 		}
 	},
+	[51] = {
+		goods_rarity = 2,
+		goods_purchase_limit = 20,
+		price = 15,
+		type = 2,
+		group = 10036,
+		num = 1,
+		goods_name = "サディア兵装開発支援箱",
+		goods_type = 1,
+		id = 51,
+		is_ship = 0,
+		goods_icon = "Props/30207",
+		order = 33,
+		goods = {
+			30207
+		}
+	},
 	all = {
 		1,
 		2,
@@ -961,6 +978,7 @@ pg.honormedal_goods_list = {
 		47,
 		48,
 		49,
-		50
+		50,
+		51
 	}
 }

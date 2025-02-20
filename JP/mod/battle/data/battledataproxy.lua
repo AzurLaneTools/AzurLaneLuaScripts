@@ -291,9 +291,9 @@ slot9.initBGM = function(slot0)
 
 			if slot5.equipment then
 				for slot11, slot12 in ipairs(uv0.GetEquipSkill(slot5.equipment, uv1._battleInitData.battleType)) do
-					slot6[slot12] = {
-						level = 1,
-						id = slot12
+					slot6[slot12.buffID] = {
+						id = slot12.buffID,
+						level = slot12.buffLV
 					}
 				end
 			end

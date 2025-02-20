@@ -135301,6 +135301,584 @@ _G.pg.base.task_data_template[21240] = {
 }
 
 
+_G.pg.base.task_data_template[21241] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905064,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21241,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21242] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905065,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21242,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21243] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905066,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务3",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21243,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21244] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905067,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务4",
+	desc = "「軍事委託」を2回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21244,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21245] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905068,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务5",
+	desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21245,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21246] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905069,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务6",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21246,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21247] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905070,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务7",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21247,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21248] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905071,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务8",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21248,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21249] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905072,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务9",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21249,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21250] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905073,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务10",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21250,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21251] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905074,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务11",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21251,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21252] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905075,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务12",
+	desc = "装備箱を1個開ける",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21252,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21253] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905076,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务13",
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21253,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21254] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905077,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔前哨站』七日任务14",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21254,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			3,
+			150620,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

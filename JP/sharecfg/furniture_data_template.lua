@@ -162,6 +162,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			293,
+			294,
 			100002,
 			100003,
 			100004,
@@ -5524,6 +5525,7 @@ pg.furniture_data_template = setmetatable({
 			282,
 			285,
 			288,
+			294,
 			100002,
 			100003,
 			100004,
@@ -6672,6 +6674,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			293,
+			294,
 			100002,
 			100004,
 			100005,
@@ -9719,6 +9722,7 @@ pg.furniture_data_template = setmetatable({
 		289,
 		292,
 		293,
+		294,
 		100002,
 		100003,
 		100004,
@@ -20567,6 +20571,87 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[294] = {
+		can_rotate = 1,
+		describe = "全力の感謝を込めて⋯これからも支えていくピョ！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "jp100wicon",
+		count = 1,
+		name = "100万の感謝",
+		advice = 0,
+		id = 294,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jp100w",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit2",
+						nil,
+						"sit2"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sit1",
+						"sit"
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

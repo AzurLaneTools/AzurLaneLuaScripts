@@ -250,7 +250,7 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 		slot18 = underscore.filter(slot2:GetPropertiesInfo().attrs, function (slot0)
 			return not slot0.type or slot0.type ~= AttributeType.AntiSiren
 		end)
-		slot20 = slot2:getConfig("skill_id")[1] and slot2:isDevice() and {
+		slot21 = slot2:getConfig("skill_id")[1] and slot19[1][1] and slot2:isDevice() and {
 			1,
 			2,
 			5
@@ -261,49 +261,49 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 			3
 		}
 
-		for slot24, slot25 in ipairs(slot20) do
-			slot26 = slot17:Find("attr_" .. slot25)
-			slot27 = findTF(slot26, "panel")
-			slot28 = findTF(slot26, "lock")
+		for slot25, slot26 in ipairs(slot21) do
+			slot27 = slot17:Find("attr_" .. slot26)
+			slot28 = findTF(slot27, "panel")
+			slot29 = findTF(slot27, "lock")
 
-			setActive(slot26, true)
+			setActive(slot27, true)
 
-			if slot25 == 5 then
-				setText(slot27:Find("values/value"), "")
+			if slot26 == 5 then
+				setText(slot28:Find("values/value"), "")
 
-				slot29 = getSkillName(slot19)
+				slot30 = getSkillName(slot20)
 
-				if PLATFORM_CODE == PLATFORM_US and string.len(slot29) > 15 then
-					GetComponent(slot27:Find("values/value_1"), typeof(Text)).fontSize = 24
+				if PLATFORM_CODE == PLATFORM_US and string.len(slot30) > 15 then
+					GetComponent(slot28:Find("values/value_1"), typeof(Text)).fontSize = 24
 				end
 
-				setText(slot27:Find("values/value_1"), getSkillName(slot19))
-				setActive(slot28, false)
+				setText(slot28:Find("values/value_1"), getSkillName(slot20))
+				setActive(slot29, false)
 			elseif #slot18 > 0 then
-				slot29 = table.remove(slot18, 1)
+				slot30 = table.remove(slot18, 1)
 
-				if slot2:isAircraft() and slot29.type == AttributeType.CD then
-					slot29 = slot8:getAircraftReloadCD()
+				if slot2:isAircraft() and slot30.type == AttributeType.CD then
+					slot30 = slot8:getAircraftReloadCD()
 				end
 
-				slot30, slot31 = Equipment.GetInfoTrans(slot29, slot8)
+				slot31, slot32 = Equipment.GetInfoTrans(slot30, slot8)
 
-				setText(slot27:Find("tag"), slot30)
+				setText(slot28:Find("tag"), slot31)
 
-				if #string.split(tostring(slot31), "/") >= 2 then
-					setText(slot27:Find("values/value"), slot32[1] .. "/")
-					setText(slot27:Find("values/value_1"), slot32[2])
+				if #string.split(tostring(slot32), "/") >= 2 then
+					setText(slot28:Find("values/value"), slot33[1] .. "/")
+					setText(slot28:Find("values/value_1"), slot33[2])
 				else
-					setText(slot27:Find("values/value"), slot31)
-					setText(slot27:Find("values/value_1"), "")
+					setText(slot28:Find("values/value"), slot32)
+					setText(slot28:Find("values/value_1"), "")
 				end
 
-				setActive(slot28, false)
+				setActive(slot29, false)
 			else
-				setText(slot27:Find("tag"), "")
-				setText(slot27:Find("values/value"), "")
-				setText(slot27:Find("values/value_1"), "")
-				setActive(slot28, true)
+				setText(slot28:Find("tag"), "")
+				setText(slot28:Find("values/value"), "")
+				setText(slot28:Find("values/value_1"), "")
+				setActive(slot29, true)
 			end
 		end
 

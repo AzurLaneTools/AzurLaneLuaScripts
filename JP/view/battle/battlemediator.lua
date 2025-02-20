@@ -387,8 +387,8 @@ slot1 = function(slot0, slot1, slot2, slot3)
 
 	for slot12, slot13 in ipairs(ys.Battle.BattleDataFunction.GetEquipSkill(slot4)) do
 		slot14 = {
-			level = 1,
-			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot13)
+			level = slot13.buffLV,
+			id = ys.Battle.BattleDataFunction.SkillTranform(slot0, slot13.buffID)
 		}
 		slot5[slot14.id] = slot14
 	end

@@ -355,6 +355,8 @@ pg.skill_data_template = setmetatable({
 		60790,
 		60800,
 		60810,
+		60820,
+		60830,
 		7000,
 		9030,
 		9031,
@@ -12800,6 +12802,34 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "伏波・飛雲・撫順が装備している場合、戦闘開始時自身の雷装が5%アップ。戦闘開始30秒後、自分の耐久が1度だけ上限の2％分回復する",
 		id = 60810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60820] = {
+		desc_get = "",
+		name = "マルコ・ポーロの冠",
+		type = 0,
+		max_level = 0,
+		desc = "マルコ・ポーロが装備時、艦隊のサディア艦船の火力・回避が3%アップ",
+		id = 60820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60830] = {
+		desc_get = "",
+		name = "フェアリー ガネット",
+		type = 1,
+		max_level = 14,
+		desc = "戦闘中10秒毎にフェアリー ガネット（航空魚雷1発装備・威力は装備強化レベルによる）を発進させて航空攻撃を行う。一度の戦闘で最大5回まで発動可能",
+		id = 60830,
 		system_transform = {},
 		world_death_mark = {
 			1

@@ -1979,5 +1979,20 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-5",
 		special_bgm = "",
 		bgm = "story-richang-5"
+	},
+	FlandreTecCatchupPage = {
+		default_bgm = "theme-kerguelen",
+		special_bgm = "",
+		bgm = "theme-kerguelen"
+	},
+	YidaliV4SkinPage = {
+		default_bgm = "theme-marcopolo",
+		special_bgm = "",
+		bgm = "theme-marcopolo"
+	},
+	YidaliV4FramePage = {
+		default_bgm = "story-theme-sardinia",
+		special_bgm = "",
+		bgm = "story-theme-sardinia"
 	}
 }
