@@ -356,6 +356,8 @@ pg.skill_data_template = setmetatable({
 		60790,
 		60800,
 		60810,
+		60820,
+		60830,
 		7000,
 		9010,
 		9020,
@@ -12828,6 +12830,34 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "由伏波、飞云、抚顺装备时，战斗中自身雷击属性提高5%，战斗开始30秒后，回复自身2%耐久",
 		id = 60810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60820] = {
+		desc_get = "",
+		name = "黑日之冕",
+		type = 0,
+		max_level = 0,
+		desc = "由马可波罗装备时，队伍中所有撒丁帝国舰船炮击、机动属性提高3%",
+		id = 60820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60830] = {
+		desc_get = "",
+		name = "塘鹅",
+		type = 1,
+		max_level = 14,
+		desc = "战斗中每10秒，使用塘鹅（挂载1枚航空鱼雷，威力依据装备强化等级）进行一次攻击，每场战斗最多触发5次",
+		id = 60830,
 		system_transform = {},
 		world_death_mark = {
 			1

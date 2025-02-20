@@ -404,7 +404,7 @@ slot3.GetShipSkillTriggerCount = function(slot0, slot1)
 
 	for slot10, slot11 in ipairs(uv0.GetEquipSkill(slot0.equipment)) do
 		table.insert(slot6, {
-			id = slot11
+			id = slot11.buffID
 		})
 	end
 

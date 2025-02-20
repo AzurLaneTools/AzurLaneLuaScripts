@@ -1,5 +1,5 @@
 return {
-	time = 0,
+	time = 15,
 	name = "",
 	init_effect = "",
 	picture = "",
@@ -17,17 +17,6 @@ return {
 			},
 			arg_list = {
 				countTarget = 2,
-				countType = 801540
-			}
-		},
-		{
-			type = "BattleBuffCastSkill",
-			trigger = {
-				"onBattleBuffCount"
-			},
-			arg_list = {
-				skill_id = 801542,
-				target = "TargetSelf",
 				countType = 801540
 			}
 		},

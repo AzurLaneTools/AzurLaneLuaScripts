@@ -486,6 +486,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「天地万物，皆在星光的注视之下」</color>\n「星光下的余晖」活动获取",
 		scene = {}
 	},
+	[334] = {
+		name = "笔下神光",
+		gain_by = "",
+		time_second = 0,
+		id = 334,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		gain_by = "",
@@ -847,6 +856,7 @@ pg.item_data_frame = {
 		331,
 		332,
 		333,
+		334,
 		401,
 		402,
 		404,
