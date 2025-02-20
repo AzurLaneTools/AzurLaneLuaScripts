@@ -496,7 +496,7 @@ pg.item_data_frame = {
 		scene = {}
 	},
 	[334] = {
-		name = "Stroke of God's Light",
+		name = "A Stroke of Divine Light: Bastion of Saintly Wings",
 		gain_by = "",
 		time_second = 0,
 		id = 334,
