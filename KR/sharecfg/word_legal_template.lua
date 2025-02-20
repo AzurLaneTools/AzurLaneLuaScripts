@@ -4802,16 +4802,6 @@ end
 temp()
 
 temp = function()
-	uv0["安"] = {
-		["森"] = {
-			this = true
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["밸"] = {
 		["리"] = {
 			["언"] = {

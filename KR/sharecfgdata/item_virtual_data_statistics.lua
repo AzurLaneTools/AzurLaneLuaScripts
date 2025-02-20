@@ -169297,6 +169297,81 @@ _G.pg.base.item_virtual_data_statistics[65074] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65076] = {
+	drop_gold_max = 0,
+	name = "PT 점수",
+	display = "「결상점 작전」보상 교환용. 이벤트 종료 후에 삭제됩니다",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/bulvxieer_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65076,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65077] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권",
+	display = "「한정 체험 상점」대상이 된 스킨을 일정 시간 동안 사용가능하게 하는 티켓. 이벤트 종료 후에 삭제됩니다",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65077,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65078] = {
+	drop_gold_max = 0,
+	name = "1회 건조권 ",
+	display = "이벤트「결상점 작전」에서 입수할 수 있는 기간 한정 건조 티켓. 이벤트 종료 후에 삭제됩니다",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5799,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65078,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "저항의 별 기념 훈장",

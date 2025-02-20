@@ -240,12 +240,11 @@ return {
 			}
 		},
 		{
-			expression = 1,
+			paintingNoise = true,
 			side = 2,
 			bgName = "bg_zhuiluo_2",
-			paintingNoise = true,
-			dir = 1,
 			nameColor = "#ffa500",
+			dir = 1,
 			actor = 900192,
 			actorName = "타카오·META",
 			say = "...이런 엉터리 계획이 정말 성공할 줄이야.",

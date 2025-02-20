@@ -14099,6 +14099,238 @@ _G.pg.base.shop_template[60585] = {
 }
 
 
+_G.pg.base.shop_template[60589] = {
+	group_type = 0,
+	resource_num = 880,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "880钻石购买限时建造补给(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60589,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40138
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				20
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60590] = {
+	group_type = 0,
+	resource_num = 120,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "120钻石购买限时攻略补给(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60590,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			5
+		}
+	},
+	effect_args = {
+		40117
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				20
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60591] = {
+	group_type = 0,
+	resource_num = 500,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "500钻石购买家具币礼包(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60591,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40106
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				20
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
+_G.pg.base.shop_template[60592] = {
+	group_type = 0,
+	resource_num = 300,
+	time_second = 0,
+	type = 2,
+	type_order = 0,
+	desc = "300钻石购买心智单元礼包(0206远汇点作战轻量化复刻版本)",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60592,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			2
+		}
+	},
+	effect_args = {
+		40119
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				20
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[60593] = {
 	group_type = 0,
 	resource_num = 980,
@@ -40908,9 +41140,9 @@ _G.pg.base.shop_template[70727] = {
 	time = {
 		{
 			{
-				2024,
-				3,
-				14
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -40920,9 +41152,9 @@ _G.pg.base.shop_template[70727] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -40947,7 +41179,6 @@ _G.pg.base.shop_template[70728] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 100,
-	time = "stop",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -40958,6 +41189,32 @@ _G.pg.base.shop_template[70728] = {
 	limit_args = {},
 	effect_args = {
 		403021
+	},
+	time = {
+		{
+			{
+				2025,
+				2,
+				20
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				2,
+				26
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
 	}
 }
 
@@ -40989,9 +41246,9 @@ _G.pg.base.shop_template[70729] = {
 	time = {
 		{
 			{
-				2024,
-				3,
-				14
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -41001,9 +41258,9 @@ _G.pg.base.shop_template[70729] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -41042,9 +41299,9 @@ _G.pg.base.shop_template[70730] = {
 	time = {
 		{
 			{
-				2024,
-				3,
-				14
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -41054,9 +41311,9 @@ _G.pg.base.shop_template[70730] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -41095,9 +41352,9 @@ _G.pg.base.shop_template[70731] = {
 	time = {
 		{
 			{
-				2024,
-				3,
-				14
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -41107,9 +41364,9 @@ _G.pg.base.shop_template[70731] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -41148,9 +41405,9 @@ _G.pg.base.shop_template[70732] = {
 	time = {
 		{
 			{
-				2024,
-				3,
-				14
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -41160,9 +41417,9 @@ _G.pg.base.shop_template[70732] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -41201,9 +41458,9 @@ _G.pg.base.shop_template[70733] = {
 	time = {
 		{
 			{
-				2024,
-				3,
-				14
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -41213,9 +41470,9 @@ _G.pg.base.shop_template[70733] = {
 		},
 		{
 			{
-				2024,
-				4,
-				3
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -43385,7 +43642,7 @@ _G.pg.base.shop_template[70804] = {
 	desc = "스킨 구매: 얏센(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43413,7 +43670,7 @@ _G.pg.base.shop_template[70805] = {
 	desc = "스킨 구매: 쿠이비셰프(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43441,7 +43698,7 @@ _G.pg.base.shop_template[70806] = {
 	desc = "스킨 구매: 테세우스(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43469,7 +43726,7 @@ _G.pg.base.shop_template[70807] = {
 	desc = "스킨 구매: 화지아(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43497,7 +43754,7 @@ _G.pg.base.shop_template[70808] = {
 	desc = "스킨 구매: 딩안(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43525,7 +43782,7 @@ _G.pg.base.shop_template[70809] = {
 	desc = "스킨 구매: U-110(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43553,7 +43810,7 @@ _G.pg.base.shop_template[70810] = {
 	desc = "스킨 구매: 잉 루이(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43581,7 +43838,7 @@ _G.pg.base.shop_template[70811] = {
 	desc = "스킨 구매: 차오 호(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43609,7 +43866,7 @@ _G.pg.base.shop_template[70812] = {
 	desc = "스킨 구매: 뤼초(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43637,7 +43894,7 @@ _G.pg.base.shop_template[70813] = {
 	desc = "스킨 구매: 프린츠 루프레히트(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43665,7 +43922,7 @@ _G.pg.base.shop_template[70814] = {
 	desc = "스킨 구매: 에기르(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43693,7 +43950,7 @@ _G.pg.base.shop_template[70815] = {
 	desc = "스킨 구매: 랭동타블(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43721,7 +43978,7 @@ _G.pg.base.shop_template[70816] = {
 	desc = "스킨 구매: 앨라배마(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43749,7 +44006,7 @@ _G.pg.base.shop_template[70817] = {
 	desc = "스킨 구매: 창춘(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -43777,7 +44034,7 @@ _G.pg.base.shop_template[70818] = {
 	desc = "스킨 구매: U-47(춘절)",
 	group_limit = 0,
 	group_buy_count = 0,
-	tag = 1,
+	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 250,
@@ -63728,7 +63985,7 @@ _G.pg.base.shop_template[90156] = {
 	group = 0,
 	num = 1,
 	discount = 0,
-	resource_type = 275,
+	resource_type = 471,
 	id = 90156,
 	genre = "skin_shop_timelimit",
 	discount_time = {},
@@ -63739,9 +63996,9 @@ _G.pg.base.shop_template[90156] = {
 	time = {
 		{
 			{
-				2022,
-				8,
-				25
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -63751,9 +64008,9 @@ _G.pg.base.shop_template[90156] = {
 		},
 		{
 			{
-				2022,
-				9,
-				7
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -63781,7 +64038,7 @@ _G.pg.base.shop_template[90157] = {
 	group = 0,
 	num = 1,
 	discount = 0,
-	resource_type = 275,
+	resource_type = 471,
 	id = 90157,
 	genre = "skin_shop_timelimit",
 	discount_time = {},
@@ -63792,9 +64049,9 @@ _G.pg.base.shop_template[90157] = {
 	time = {
 		{
 			{
-				2022,
-				8,
-				25
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -63804,9 +64061,9 @@ _G.pg.base.shop_template[90157] = {
 		},
 		{
 			{
-				2022,
-				9,
-				7
+				2025,
+				2,
+				26
 			},
 			{
 				23,
@@ -63834,7 +64091,7 @@ _G.pg.base.shop_template[90158] = {
 	group = 0,
 	num = 1,
 	discount = 0,
-	resource_type = 275,
+	resource_type = 471,
 	id = 90158,
 	genre = "skin_shop_timelimit",
 	discount_time = {},
@@ -63845,9 +64102,9 @@ _G.pg.base.shop_template[90158] = {
 	time = {
 		{
 			{
-				2022,
-				8,
-				25
+				2025,
+				2,
+				20
 			},
 			{
 				0,
@@ -63857,9 +64114,9 @@ _G.pg.base.shop_template[90158] = {
 		},
 		{
 			{
-				2022,
-				9,
-				7
+				2025,
+				2,
+				26
 			},
 			{
 				23,

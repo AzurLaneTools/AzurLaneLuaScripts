@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					13
+					20
 				},
 				{
 					0,
@@ -25,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					19
+					26
 				},
 				{
 					23,
@@ -36,53 +36,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5802",
+		type = 3,
 		id = 2,
 		pic = "temp2",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
 		time = {
 			{
 				{
 					2025,
 					2,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5806",
-		type = 3,
-		id = 3,
-		pic = "temp3",
-		time = {
-			{
-				{
-					2025,
-					2,
-					13
+					20
 				},
 				{
 					0,
@@ -105,15 +68,77 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
+		type = 2,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
 		type = 2,
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene equip",
+			"scene shop",
 			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
+				warp = "shopstreet"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
 			}
 		}
 	},
@@ -129,7 +154,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					6
+					20
 				},
 				{
 					0,
@@ -141,7 +166,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					12
+					26
 				},
 				{
 					23,
@@ -166,7 +191,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					6
+					20
 				},
 				{
 					0,
@@ -178,7 +203,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					12
+					26
 				},
 				{
 					23,
@@ -200,7 +225,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					6
+					20
 				},
 				{
 					0,
@@ -211,8 +236,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					2,
-					27
+					3,
+					5
 				},
 				{
 					23,
@@ -234,7 +259,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					6
+					20
 				},
 				{
 					0,
@@ -245,8 +270,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					2,
-					27
+					3,
+					5
 				},
 				{
 					23,
@@ -276,7 +301,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					13
+					20
 				},
 				{
 					0,
@@ -288,7 +313,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					19
+					26
 				},
 				{
 					23,
@@ -314,13 +339,38 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
-		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin"
+		pic = "limit_skin",
+		time = {
+			{
+				{
+					2025,
+					2,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					2,
+					26
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	[100] = {
-		param = "물만두|인기가 많은 전통 음식！<color=#6dd329>（경험치 버프 5% 증가, 60분 지속）</color>",
+		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		time = "stop",
 		type = 10,
 		id = 100,
@@ -357,7 +407,7 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
+			3,
 			4,
 			5,
 			6,
@@ -365,7 +415,7 @@ pg.activity_banner = {
 			9
 		},
 		[3] = {
-			3,
+			2,
 			7
 		},
 		[9] = {

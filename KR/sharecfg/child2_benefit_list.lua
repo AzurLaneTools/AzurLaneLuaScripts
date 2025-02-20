@@ -4302,13 +4302,13 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[42181] = {
-		name = "한계돌파",
+		name = "한계 돌파",
 		during_time = 3,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
 		rare = 1,
-		desc = "3턴 동안 「체력」의 최종 획득량이 1.5배가 되지만, 「지식」은 0.8배가 됨",
+		desc = "3턴간, 「체력」의 최종 획득량이 1.5배가 되지만 「지식」이 0.8배가 된다",
 		is_tip = 0,
 		id = 42181,
 		item_icon = "benefit_2_tinengzhishi_1",
@@ -10638,13 +10638,13 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[44467] = {
-		name = "0",
+		name = "에이스 패널티",
 		during_time = 2,
 		type = 2,
 		is_show = 1,
 		item_icon_little = "",
 		rare = 1,
-		desc = "다음 턴 시작 시에 「에이스 페널티(체력)」 상태를 얻음 (「체력」 획득량 -50%)",
+		desc = "다음 턴 시작시, 상태 「에이스 페널티(체력)」을 얻는다 (「체력」획득량-50%)",
 		is_tip = 0,
 		id = 44467,
 		item_icon = "benefit_2_tineng_5",
@@ -10926,13 +10926,13 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[1009] = {
-		name = "가득한 금고",
+		name = "금고 가득",
 		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1009_l",
 		rare = 4,
-		desc = "턴 시작 시 「금전」이 300보다 큰 경우, 「기분」 +10,「금전」 +200",
+		desc = "턴 시작 시, 「재화」가 300보다 큰 경우, 「기분」+10, 「재화」+200",
 		is_tip = 0,
 		id = 1009,
 		item_icon = "benefit_1_1009",
@@ -10944,13 +10944,13 @@ pg.base.child2_benefit_list = {
 		}
 	},
 	[1010] = {
-		name = "금전운 상승",
+		name = "금전운 초래",
 		during_time = -1,
 		type = 1,
 		is_show = 1,
 		item_icon_little = "benefit_1_1009_l",
 		rare = 4,
-		desc = "턴 시작 시 「금전」이 150보다 큰 경우, 보유 중인 「금전」의 50%만큼 가산됨",
+		desc = "턴 시작 시, 「재화」가 150보다 큰 경우, 소지「재화」의 50%만큼을 가산한다",
 		is_tip = 0,
 		id = 1010,
 		item_icon = "benefit_1_1009",

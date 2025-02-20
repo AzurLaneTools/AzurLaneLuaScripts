@@ -1960,6 +1960,21 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "blueocean-image"
 	},
+	ReproductionBulvxieerSPMainPage = {
+		default_bgm = "story-midgard",
+		special_bgm = "",
+		bgm = "story-midgard"
+	},
+	ReproductionBulvxieerSPPtPage = {
+		default_bgm = "story-midgard",
+		special_bgm = "",
+		bgm = "story-midgard"
+	},
+	ReproductionHornetLoginRePage = {
+		default_bgm = "bsm-7",
+		special_bgm = "",
+		bgm = "bsm-7"
+	},
 	ValentineQte2Page = {
 		default_bgm = "story-richang-5",
 		special_bgm = "",

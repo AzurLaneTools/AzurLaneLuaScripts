@@ -37,6 +37,8 @@ slot0.InitFashion = function(slot0)
 
 	slot0:RegisterShareToggle()
 	slot0:bind(ShipMainMediator.ON_NEXTSHIP_PREPARE, function (slot0, slot1)
+		uv0._lastSelectCard = nil
+
 		if uv0.isShareSkinFlag and slot1 and #uv0:GetShareSkins(slot1) <= 0 then
 			uv0.isShareSkinFlag = false
 		end
@@ -188,17 +190,17 @@ slot0.clickCell = function(slot0, slot1, slot2)
 		slot9:updateUsing(slot0:GetShipVO().skinId == slot7.id)
 	end
 
-	slot3 = checkABExist("painting/" .. slot1.paintingName .. "_n")
+	slot4 = checkABExist("painting/" .. slot2.painting .. "_n")
 
-	setActive(slot0.hideObjToggle, slot3)
+	setActive(slot0.hideObjToggle, slot4)
 
-	if slot3 then
-		slot0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1.paintingName, 0) ~= 0
+	if slot4 then
+		slot0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot3, 0) ~= 0
 
 		onToggle(slot0, slot0.hideObjToggleTF, function (slot0)
-			PlayerPrefs.SetInt("paint_hide_other_obj_" .. uv0.paintingName, slot0 and 1 or 0)
-			uv0:flushSkin()
-			uv1:emit(ShipViewConst.LOAD_PAINTING, uv0.paintingName, true)
+			PlayerPrefs.SetInt("paint_hide_other_obj_" .. uv0, slot0 and 1 or 0)
+			uv1:flushSkin()
+			uv2:emit(ShipViewConst.LOAD_PAINTING, uv0, true)
 		end, SFX_PANEL)
 	end
 end
