@@ -339536,7 +339536,25 @@ _G.pg.base.equip_data_template[150620] = {
 	id = 150620,
 	equip_limit = 0,
 	level = 1,
-	ship_type_forbidden = {},
+	ship_type_forbidden = {
+		1,
+		2,
+		3,
+		6,
+		7,
+		8,
+		11,
+		12,
+		13,
+		17,
+		18,
+		19,
+		20,
+		21,
+		22,
+		23,
+		24
+	},
 	trans_use_item = {
 		{
 			17001,
