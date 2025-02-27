@@ -26808,7 +26808,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"我现在没空自拍……"
+				"I'm a little busy right now..."
 			},
 			{
 				6,

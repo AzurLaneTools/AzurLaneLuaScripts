@@ -208,7 +208,7 @@ pg.ship_data_create_material = {
 			" ",
 			"<color=#ffde38>Maggiore Baracca</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>Andrea Doria·META</color>：0.5%",
+			"<color=#ffde38>Andrea Doria META</color>：0.5%",
 			" ",
 			"<color=#d797ff>Bartolomeo Colleoni</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
