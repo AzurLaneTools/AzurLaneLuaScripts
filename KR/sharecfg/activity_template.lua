@@ -20174,7 +20174,7 @@ pg.activity_template = {
 			2525
 		},
 		config_client = {
-			"commonbg/bg_pt_μougen",
+			"commonbg/bg_pt_mougen",
 			{
 				1,
 				1,
@@ -20182,7 +20182,7 @@ pg.activity_template = {
 				1
 			},
 			pt_id = 407,
-			painting = "μougen_pt",
+			painting = "mougen_pt",
 			bgm = "song-Alizarin-full-inst"
 		}
 	},
@@ -28663,7 +28663,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5795,
-		is_show = 49,
+		is_show = 48,
 		title_res_tag = "bulvxieersp_pt",
 		id = 5795,
 		config_data = {},

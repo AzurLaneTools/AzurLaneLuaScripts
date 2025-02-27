@@ -32042,7 +32042,7 @@ pg.equip_skin_template = {
 	},
 	[958] = {
 		hit_sfx = "",
-		bullet_name = "yulei_1jianpan",
+		bullet_name = "yulei_mjianpan",
 		orbit_ui_bound = "",
 		type = 1,
 		preview_hit_distance = 0,

@@ -37,37 +37,13 @@ pg.activity_banner = {
 	},
 	{
 		param = "5802",
+		time = "stop",
 		type = 3,
 		id = 2,
-		pic = "temp2",
-		time = {
-			{
-				{
-					2025,
-					2,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp2"
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 3,
 		pic = "temp3",
@@ -77,32 +53,6 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					2,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -110,9 +60,10 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene shop",
+			"scene equip",
 			{
-				warp = "shopstreet"
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
 		},
 		time = {
@@ -120,7 +71,7 @@ pg.activity_banner = {
 				{
 					2025,
 					2,
-					20
+					27
 				},
 				{
 					0,
@@ -131,8 +82,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					2,
-					26
+					3,
+					13
 				},
 				{
 					23,

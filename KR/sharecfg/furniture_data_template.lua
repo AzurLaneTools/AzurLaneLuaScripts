@@ -223,6 +223,7 @@ pg.furniture_data_template = setmetatable({
 			100067,
 			100068,
 			100069,
+			100070,
 			200001,
 			200002,
 			200003,
@@ -5569,6 +5570,7 @@ pg.furniture_data_template = setmetatable({
 			100067,
 			100068,
 			100069,
+			100070,
 			54104,
 			54105
 		},
@@ -6706,6 +6708,7 @@ pg.furniture_data_template = setmetatable({
 			240,
 			242,
 			100060,
+			100070,
 			200001,
 			200002,
 			200003,
@@ -9736,6 +9739,7 @@ pg.furniture_data_template = setmetatable({
 		100067,
 		100068,
 		100069,
+		100070,
 		200001,
 		200002,
 		200003,
@@ -25094,6 +25098,43 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100070] = {
+		can_rotate = 0,
+		describe = "나일 문명의 매력을 느껴보세요!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/yingtouebaijian",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "나일 강의 악어상",
+		advice = 0,
+		icon = "yingtouebaijianicon",
+		id = 100070,
+		comfortable = 0,
+		size = {
+			1,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},
