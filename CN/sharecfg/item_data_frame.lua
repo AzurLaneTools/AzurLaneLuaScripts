@@ -693,24 +693,6 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>浪漫的纸伞下，是谁的思绪悄悄飞远？</color>\n通过提升「宿舍计划」中能代的契合度等级获取",
 		scene = {}
 	},
-	[1005] = {
-		name = "天使的星辉",
-		gain_by = "",
-		time_second = 0,
-		id = 1005,
-		time_limit_type = 0,
-		desc = "<color=#ffffff>天使的光环上是星芒在闪闪发亮，散发着纯洁的光。</color>\n通过提升「宿舍计划」中安克雷奇的契合度等级获取",
-		scene = {}
-	},
-	[1006] = {
-		name = "蓝海奇遇",
-		gain_by = "",
-		time_second = 0,
-		id = 1006,
-		time_limit_type = 0,
-		desc = "<color=#ffffff>追逐这跳跃的浪花，开启一段充满欢乐与惊喜的奇遇。</color>\n通过提升「宿舍计划」中安克雷奇的契合度等级获取",
-		scene = {}
-	},
 	[10001] = {
 		name = "限界的挑战者·双子座",
 		gain_by = "",
@@ -897,8 +879,6 @@ pg.item_data_frame = {
 		1002,
 		1003,
 		1004,
-		1005,
-		1006,
 		10001,
 		10002,
 		10003,
