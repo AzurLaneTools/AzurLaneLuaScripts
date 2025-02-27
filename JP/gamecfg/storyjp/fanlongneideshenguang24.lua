@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"大教堂·地下某处",
+				"大聖堂・地下某所",
 				3
 			}
 		},
@@ -495,7 +495,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不器用なのは分かっているけど、ここまでとは⋯",
+			say = "不器用なのは分かっていたけど、ここまでとは⋯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -232,7 +232,7 @@ return {
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ここの検収が終わりれば、「神光の基底」がすべて繋がり、「神光の織網」が完成するわ",
+			say = "ここの検収が終われば、「神光の基底」がすべて繋がり、「神光の織網」が完成するわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

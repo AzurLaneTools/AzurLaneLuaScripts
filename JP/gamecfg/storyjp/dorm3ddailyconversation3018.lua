@@ -118,7 +118,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "アンカレッジ……ほしのボール、ななこみつけて…せんせーを……おなしのおうじさまに…する！",
+			say = "アンカレッジ……ほしのボール、ななこみつけて…せんせいを……おはなしのおうじさまに…する！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

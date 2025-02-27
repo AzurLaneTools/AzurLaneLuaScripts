@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"佛罗伦萨·城市街道",
+				"フィレンツェの街",
 				3
 			}
 		},
@@ -1169,7 +1169,7 @@ return {
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "バルトロメーオ・コレオーニ⋯⋯どうしてあなたがここに？！",
+			say = "バルトロメオ・コレオーニ⋯⋯どうしてあなたがここに？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1262,7 +1262,7 @@ return {
 			bgName = "star_level_bg_305",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "宣戦布告の口上と文書を残すと、バルトロメーオ・コレオーニの姿は突然立ち込めた煙の中に消えていった。",
+			say = "宣戦布告の口上と文書を残すと、バルトロメオ・コレオーニの姿は突然立ち込めた煙の中に消えていった。",
 			effects = {
 				{
 					active = true,
@@ -1325,7 +1325,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ちょっと！バルトロメーオ・コレオーニって、ベネチア共和国の代表として法聖就任を祝ってくれたじゃない？",
+			say = "ちょっと！バルトロメオ・コレオーニって、ベネチア共和国の代表として法聖就任を祝ってくれたじゃない？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

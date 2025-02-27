@@ -366,7 +366,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
@@ -391,7 +391,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
@@ -416,7 +416,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,

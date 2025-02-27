@@ -5304,7 +5304,7 @@ pg.base.memory_group = {
 		}
 	},
 	[320] = {
-		title = "籠檻に囚われた神光",
+		title = "籠檻に囚われし神光",
 		subtype = 1,
 		link_event = 5821,
 		type = 2,
@@ -5350,7 +5350,7 @@ pg.base.memory_group = {
 		}
 	},
 	[321] = {
-		title = "ナイロン文化展",
+		title = "ナイル文化展",
 		subtype = 3,
 		link_event = 5830,
 		type = 2,

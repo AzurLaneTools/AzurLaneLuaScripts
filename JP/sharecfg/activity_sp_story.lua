@@ -3109,7 +3109,7 @@ pg.activity_sp_story = {
 	},
 	[174] = {
 		story_type = 1,
-		name = "EX-3 チュリっぱの新芽",
+		name = "EX-3 チュリッパの新芽",
 		change_prefab = "",
 		unlock_conditions = "EX-2をクリア",
 		change_background = "star_level_bg_589",

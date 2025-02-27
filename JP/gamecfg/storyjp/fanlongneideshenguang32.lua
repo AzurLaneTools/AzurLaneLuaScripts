@@ -116,7 +116,7 @@ return {
 			bgName = "bg_story_task",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			actorName = "通讯器",
+			actorName = "通信",
 			hidePaintObj = true,
 			say = "――――",
 			typewriter = {

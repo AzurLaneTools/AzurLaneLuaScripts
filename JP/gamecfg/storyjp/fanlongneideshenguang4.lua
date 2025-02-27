@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"九号神之军械库·受选者之门",
+				"神の武器庫9号・選ばれし者の門",
 				3
 			}
 		},
@@ -222,7 +222,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"受选者之门·内侧",
+				"選ばれし者の門・内側",
 				3
 			}
 		},
@@ -767,7 +767,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "⋯⋯やっぱり私が操り人形なんかじゃないわ！",
+			say = "⋯⋯やっぱり私は操り人形なんかじゃないわ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -975,7 +975,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "ああ⋯⋯……不对！不行！",
+			say = "うん⋯⋯ってダメよ！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

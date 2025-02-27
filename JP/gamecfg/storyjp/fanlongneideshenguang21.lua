@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"罗马城·周边海域",
+				"ローマ・周辺海域",
 				3
 			}
 		},
@@ -332,7 +332,7 @@ return {
 			bgName = "bg_shenguang_1",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			actorName = "通讯器",
+			actorName = "通信",
 			hidePaintObj = true,
 			say = "――――",
 			typewriter = {
@@ -365,7 +365,7 @@ return {
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "⋯なに、神の軍団だって！？",
+			say = "⋯え、神の軍団ですって！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

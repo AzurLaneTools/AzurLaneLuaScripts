@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"大教堂·圣座办公室",
+				"大聖堂・法聖の執務室",
 				3
 			}
 		},
@@ -388,7 +388,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"圣座专列·车厢",
+				"法聖専用列車・車内",
 				3
 			}
 		},
@@ -520,7 +520,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "よろしい！大儀よ、ヴェネト、リットリオ！",
 			typewriter = {
@@ -534,7 +534,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			say = "あー、それにしてもちょっと肌寒いわー",
 			typewriter = {
 				speed = 0.05,
@@ -560,7 +560,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "よろしい♪それで？私の杖は？",
 			typewriter = {
@@ -587,7 +587,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "おーっほっほっほっほっほー！",
 			typewriter = {
@@ -633,7 +633,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "アルフレード、さっきの写真はまだポーズを決めきれてないからノーカンよ！撮り直しよ！撮り直し！",
 			typewriter = {
@@ -670,7 +670,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "それからラファエロとダ・ヴィンチ、絵の構図もしっかり考えておいてちょうだい！",
 			typewriter = {
@@ -732,7 +732,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			say = "第一陣は⋯⋯リシュリューが率いてるのよね、確か？",
 			typewriter = {
 				speed = 0.05,
@@ -758,7 +758,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "ふふふ⋯⋯いいわね。そのあとは？もう一度編成を読み上げなさい",
 			typewriter = {
@@ -810,7 +810,7 @@ return {
 			bgName = "star_level_bg_545",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			say = "うん⋯⋯え？五柱の天使？",
 			typewriter = {
 				speed = 0.05,
@@ -848,7 +848,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "それって⋯⋯オブザーバー、テスター、ピュリファイアー、オミッター、それからコンパイラー？！",
 			typewriter = {
@@ -867,7 +867,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "あいつらも私の号令に従ってるの？",
 			typewriter = {
@@ -894,7 +894,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "えっ。神って⋯じゃあ私は？",
 			typewriter = {
@@ -926,7 +926,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "い、いや――私は操り人形なんかじゃない！",
 			typewriter = {
@@ -950,7 +950,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "あんなセイレーンの神なんて偽物だし、天使なんて嘘っぱちよ！",
 			typewriter = {
@@ -994,7 +994,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "私こそが「神」の使者であり、選ばれた者だわ！",
 			typewriter = {
@@ -1037,7 +1037,7 @@ return {
 			bgName = "star_level_bg_545",
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "伟大的马可波罗",
+			actorName = "偉大なるマルコ・ポーロ",
 			hidePaintObj = true,
 			say = "「神」よ――私に敵を滅ぼす力を！",
 			typewriter = {

@@ -279,7 +279,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
@@ -317,7 +317,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,
@@ -355,7 +355,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "bg_shenguang_cg_10",
 			hidePaintObj = true,

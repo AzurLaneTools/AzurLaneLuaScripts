@@ -152,7 +152,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "そして「ヘレナ」は「アンジェ博士の選択を信じて」とだけ言い、それ以上は何も語ろうとしなかった。",
+			say = "そして「ヘレナ」は「アンジュ博士の選択を信じて」とだけ言い、それ以上は何も語ろうとしなかった。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1021,7 +1021,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
@@ -1046,7 +1046,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
@@ -1071,7 +1071,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "斉唱の声",
 			side = 2,
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,

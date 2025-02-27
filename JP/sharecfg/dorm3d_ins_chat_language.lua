@@ -1021,7 +1021,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "そんなことないよ",
-		ship_group = 30221,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 99,
@@ -1029,7 +1029,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "むしろ能代らしくてよく真面目に整理整頓できてると思う",
-		ship_group = 30221,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 100,

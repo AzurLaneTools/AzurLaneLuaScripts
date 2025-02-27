@@ -463,7 +463,7 @@ return {
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "众人",
+			actorName = "みんな",
 			say = "ローマで勝利を祝おう！",
 			typewriter = {
 				speed = 0.05,

@@ -78,7 +78,7 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			side = 2,
-			say = "玉座から君臨するマルコ・ポーロの指揮の元、攻撃は怒涛の如く仕掛けられた。",
+			say = "マルコ・ポーロの指揮の元、攻撃は怒涛の如く仕掛けられた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

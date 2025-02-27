@@ -168,7 +168,7 @@ return {
 			dir = 1,
 			actor = 699010,
 			nameColor = "#A9F548FF",
-			say = "（⋯⋯黒い⋯オリジンキューブ？！こんなものまで持ってるの！？）",
+			say = "（⋯⋯黒い⋯オリジンキューブ？！そんなものまで持ってるの！？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -182,7 +182,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			actor = 699010,
-			actorName = "马可波罗&拉斐尔",
+			actorName = "二人",
 			hidePaintObj = true,
 			say = "勝ったー！",
 			typewriter = {
@@ -919,7 +919,7 @@ return {
 			},
 			sequence = {
 				{
-					"――「籠檻に囚われた神光」·END",
+					"――「籠檻に囚われし神光」·END",
 					1
 				}
 			}

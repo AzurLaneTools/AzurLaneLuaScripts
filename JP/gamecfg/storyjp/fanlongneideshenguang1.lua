@@ -69,7 +69,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"大教堂·阳台",
+				"大聖堂・バルコニー",
 				3
 			}
 		},
@@ -118,7 +118,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "実験場Βでの「偽神事件」の後、マルコ・ポーロは昏睡状態に陥ったはずだったが、気づけば違う世界？にいた。",
+			say = "「偽神事件」の後、マルコ・ポーロは昏睡状態に陥ったはずだったが、気づけば違う世界？にいた。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"大教堂·圣座办公室",
+				"大聖堂・法聖の執務室",
 				3
 			}
 		},

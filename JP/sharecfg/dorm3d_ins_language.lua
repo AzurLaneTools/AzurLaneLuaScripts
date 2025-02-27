@@ -21,7 +21,7 @@ pg.dorm3d_ins_language = {
 		is_active = "0"
 	},
 	tianlangxing_1_1 = {
-		value = "こっちもシリアスに満足してもらえたら嬉しいな",
+		value = "満足してもらえたなら嬉しいな",
 		key = "tianlangxing_1_1",
 		is_active = "0"
 	},

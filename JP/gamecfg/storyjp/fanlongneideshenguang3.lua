@@ -32,7 +32,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"撒丁教国·九号神之军械库",
+				"サディア教国・「神の武器庫」9号",
 				3
 			}
 		},
@@ -486,7 +486,7 @@ return {
 			factiontag = "フィレンツェ共和国",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "とはいえ⋯⋯いきなり飛行器に乗って空から写真を撮るのはあまり感心しないわね⋯⋯",
+			say = "とはいえ⋯⋯いきなり飛行機に乗って空から写真を撮るのはあまり感心しないわね⋯⋯",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（なら問題ないわね。せっかくいい気分になってたところだし、実験場Βの出来事をいきなりバラされたらたまったものじゃないわ）",
+			say = "（なら問題ないわね。せっかくいい気分になってたところだし、実験場βでの出来事をいきなりバラされたらたまったものじゃないわ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1432,7 +1432,7 @@ return {
 			bgName = "bg_story_task",
 			actor = 601110,
 			hideOther = true,
-			actorName = "焦苏埃·卡尔杜齐&巴拉卡少校",
+			actorName = "二人",
 			hidePaintObj = true,
 			say = "……………………",
 			typewriter = {

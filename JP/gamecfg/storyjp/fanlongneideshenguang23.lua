@@ -470,7 +470,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "――とはいえ、状況は状況だからマルコ・ポーロはそういう手を使うはずだ。さて、お手並み拝見と行こうか",
+			say = "――とはいえ、状況が状況だからマルコ・ポーロはそういう手を使うはずだ。さて、お手並み拝見と行こうか",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

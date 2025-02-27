@@ -229,7 +229,7 @@ return {
 			side = 2,
 			bgName = "bg_zhedie_1",
 			bgm = "battle-starsea-elec",
-			actorName = "好人理查德的影像",
+			actorName = "ボノム・リシャールの映像",
 			hidePaintObj = true,
 			say = "ユニオン空母、ボノム・リシャールが主演！映画『ラスト・カウントダウン』大ヒット上映中！",
 			flashout = {
@@ -261,7 +261,7 @@ return {
 			}
 		},
 		{
-			actorName = "好人理查德的影像",
+			actorName = "ボノム・リシャールの映像",
 			side = 2,
 			bgName = "bg_zhedie_1",
 			hidePaintObj = true,
@@ -273,7 +273,7 @@ return {
 			}
 		},
 		{
-			actorName = "大厦的广告屏",
+			actorName = "ビルの広告",
 			side = 2,
 			bgName = "bg_zhedie_1",
 			hidePaintObj = true,
@@ -285,7 +285,7 @@ return {
 			}
 		},
 		{
-			actorName = "大厦的广告屏",
+			actorName = "ビルの広告",
 			side = 2,
 			bgName = "bg_zhedie_1",
 			hidePaintObj = true,

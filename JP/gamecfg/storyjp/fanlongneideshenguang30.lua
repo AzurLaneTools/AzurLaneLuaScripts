@@ -412,7 +412,7 @@ return {
 			bgName = "star_level_bg_306",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			actorName = "通讯器",
+			actorName = "通信",
 			hidePaintObj = true,
 			say = "――――",
 			typewriter = {
