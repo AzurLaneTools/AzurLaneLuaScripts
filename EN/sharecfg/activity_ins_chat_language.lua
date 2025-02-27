@@ -2595,7 +2595,459 @@ pg.activity_ins_chat_language = setmetatable({
 		2592,
 		2593,
 		2594,
-		2595
+		2595,
+		2596,
+		2597,
+		2598,
+		2599,
+		2600,
+		2601,
+		2602,
+		2603,
+		2604,
+		2605,
+		2606,
+		2607,
+		2608,
+		2609,
+		2610,
+		2611,
+		2612,
+		2613,
+		2614,
+		2615,
+		2616,
+		2617,
+		2618,
+		2619,
+		2620,
+		2621,
+		2622,
+		2623,
+		2624,
+		2625,
+		2626,
+		2627,
+		2628,
+		2629,
+		2630,
+		2631,
+		2632,
+		2633,
+		2634,
+		2635,
+		2636,
+		2637,
+		2638,
+		2639,
+		2640,
+		2641,
+		2642,
+		2643,
+		2644,
+		2645,
+		2646,
+		2647,
+		2648,
+		2649,
+		2650,
+		2651,
+		2652,
+		2653,
+		2654,
+		2655,
+		2656,
+		2657,
+		2658,
+		2659,
+		2660,
+		2661,
+		2662,
+		2663,
+		2664,
+		2665,
+		2666,
+		2667,
+		2668,
+		2669,
+		2670,
+		2671,
+		2672,
+		2673,
+		2674,
+		2675,
+		2676,
+		2677,
+		2678,
+		2679,
+		2680,
+		2681,
+		2682,
+		2683,
+		2684,
+		2685,
+		2686,
+		2687,
+		2688,
+		2689,
+		2690,
+		2691,
+		2692,
+		2693,
+		2694,
+		2695,
+		2696,
+		2697,
+		2698,
+		2699,
+		2700,
+		2701,
+		2702,
+		2703,
+		2704,
+		2705,
+		2706,
+		2707,
+		2708,
+		2709,
+		2710,
+		2711,
+		2712,
+		2713,
+		2714,
+		2715,
+		2716,
+		2717,
+		2718,
+		2719,
+		2720,
+		2721,
+		2722,
+		2723,
+		2724,
+		2725,
+		2726,
+		2727,
+		2728,
+		2729,
+		2730,
+		2731,
+		2732,
+		2733,
+		2734,
+		2735,
+		2736,
+		2737,
+		2738,
+		2739,
+		2740,
+		2741,
+		2742,
+		2743,
+		2744,
+		2745,
+		2746,
+		2747,
+		2748,
+		2749,
+		2750,
+		2751,
+		2752,
+		2753,
+		2754,
+		2755,
+		2756,
+		2757,
+		2758,
+		2759,
+		2760,
+		2761,
+		2762,
+		2763,
+		2764,
+		2765,
+		2766,
+		2767,
+		2768,
+		2769,
+		2770,
+		2771,
+		2772,
+		2773,
+		2774,
+		2775,
+		2776,
+		2777,
+		2778,
+		2779,
+		2780,
+		2781,
+		2782,
+		2783,
+		2784,
+		2785,
+		2786,
+		2787,
+		2788,
+		2789,
+		2790,
+		2791,
+		2792,
+		2793,
+		2794,
+		2795,
+		2796,
+		2797,
+		2798,
+		2799,
+		2800,
+		2801,
+		2802,
+		2803,
+		2804,
+		2805,
+		2806,
+		2807,
+		2808,
+		2809,
+		2810,
+		2811,
+		2812,
+		2813,
+		2814,
+		2815,
+		2816,
+		2817,
+		2818,
+		2819,
+		2820,
+		2821,
+		2822,
+		2823,
+		2824,
+		2825,
+		2826,
+		2827,
+		2828,
+		2829,
+		2830,
+		2831,
+		2832,
+		2833,
+		2834,
+		2835,
+		2836,
+		2837,
+		2838,
+		2839,
+		2840,
+		2841,
+		2842,
+		2843,
+		2844,
+		2845,
+		2846,
+		2847,
+		2848,
+		2849,
+		2850,
+		2851,
+		2852,
+		2853,
+		2854,
+		2855,
+		2856,
+		2857,
+		2858,
+		2859,
+		2860,
+		2861,
+		2862,
+		2863,
+		2864,
+		2865,
+		2866,
+		2867,
+		2868,
+		2869,
+		2870,
+		2871,
+		2872,
+		2873,
+		2874,
+		2875,
+		2876,
+		2877,
+		2878,
+		2879,
+		2880,
+		2881,
+		2882,
+		2883,
+		2884,
+		2885,
+		2886,
+		2887,
+		2888,
+		2889,
+		2890,
+		2891,
+		2892,
+		2893,
+		2894,
+		2895,
+		2896,
+		2897,
+		2898,
+		2899,
+		2900,
+		2901,
+		2902,
+		2903,
+		2904,
+		2905,
+		2906,
+		2907,
+		2908,
+		2909,
+		2910,
+		2911,
+		2912,
+		2913,
+		2914,
+		2915,
+		2916,
+		2917,
+		2918,
+		2919,
+		2920,
+		2921,
+		2922,
+		2923,
+		2924,
+		2925,
+		2926,
+		2927,
+		2928,
+		2929,
+		2930,
+		2931,
+		2932,
+		2933,
+		2934,
+		2935,
+		2936,
+		2937,
+		2938,
+		2939,
+		2940,
+		2941,
+		2942,
+		2943,
+		2944,
+		2945,
+		2946,
+		2947,
+		2948,
+		2949,
+		2950,
+		2951,
+		2952,
+		2953,
+		2954,
+		2955,
+		2956,
+		2957,
+		2958,
+		2959,
+		2960,
+		2961,
+		2962,
+		2963,
+		2964,
+		2965,
+		2966,
+		2967,
+		2968,
+		2969,
+		2970,
+		2971,
+		2972,
+		2973,
+		2974,
+		2975,
+		2976,
+		2977,
+		2978,
+		2979,
+		2980,
+		2981,
+		2982,
+		2983,
+		2984,
+		2985,
+		2986,
+		2987,
+		2988,
+		2989,
+		2990,
+		2991,
+		2992,
+		2993,
+		2994,
+		2995,
+		2996,
+		2997,
+		2998,
+		2999,
+		3000,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008,
+		3009,
+		3010,
+		3011,
+		3012,
+		3013,
+		3014,
+		3015,
+		3016,
+		3017,
+		3018,
+		3019,
+		3020,
+		3021,
+		3022,
+		3023,
+		3024,
+		3025,
+		3026,
+		3027,
+		3028,
+		3029,
+		3030,
+		3031,
+		3032,
+		3033,
+		3034,
+		3035,
+		3036,
+		3037,
+		3038,
+		3039,
+		3040,
+		3041,
+		3042,
+		3043,
+		3044,
+		3045,
+		3046,
+		3047
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -25774,5 +26226,4081 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 2595,
 		flag = 4
+	},
+	[2596] = {
+		param = "Hey Commander~",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2596,
+		flag = 0
+	},
+	[2597] = {
+		param = "So I was painting on the fountain sculpture in the square today right",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2597,
+		flag = 0
+	},
+	[2598] = {
+		param = "Then a bunch of doves took off and inspiration struck me like lightning!",
+		ship_group = 60508,
+		type = 1,
+		id = 2598,
+		flag = 0,
+		option = {
+			{
+				1,
+				"You shouldn't draw up there..."
+			},
+			{
+				2,
+				"Wait, doves?"
+			}
+		}
+	},
+	[2599] = {
+		param = "Please don't draw up there. It's dangerous.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2599,
+		flag = 1
+	},
+	[2600] = {
+		param = "Well yeah",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2600,
+		flag = 1
+	},
+	[2601] = {
+		param = "But I'll be fine!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2601,
+		flag = 1
+	},
+	[2602] = {
+		param = "Don't forget I'm Raffaello! The big league artist!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2602,
+		flag = 1
+	},
+	[2603] = {
+		param = "When you're as experienced and mature and composed like me, you're never gonna run into any danger!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2603,
+		flag = 1
+	},
+	[2604] = {
+		param = "301",
+		ship_group = 60508,
+		option = "",
+		type = 4,
+		id = 2604,
+		flag = 1
+	},
+	[2605] = {
+		param = "Where did the doves come from? Is someone at the port raising doves?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2605,
+		flag = 2
+	},
+	[2606] = {
+		param = "They probably belonged to some kind passerby",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2606,
+		flag = 2
+	},
+	[2607] = {
+		param = "They were all well raised and plump and cute!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2607,
+		flag = 2
+	},
+	[2608] = {
+		param = "But when you look at them closely, the lines get pretty rough",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2608,
+		flag = 2
+	},
+	[2609] = {
+		param = "That goes to show how important style is, even with doves!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2609,
+		flag = 2
+	},
+	[2610] = {
+		param = "Anyway that's not the point",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2610,
+		flag = 0
+	},
+	[2611] = {
+		param = "The point is that inspiration struck me but then...",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2611,
+		flag = 0
+	},
+	[2612] = {
+		param = "IT WENT POOF!!!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2612,
+		flag = 0
+	},
+	[2613] = {
+		param = "312",
+		ship_group = 60508,
+		type = 4,
+		id = 2613,
+		flag = 0,
+		option = {
+			{
+				3,
+				"So what will you do now?"
+			}
+		}
+	},
+	[2614] = {
+		param = "So what will you do now?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2614,
+		flag = 3
+	},
+	[2615] = {
+		param = "Are you gonna watch a movie or look at some other art to get new inspiration?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2615,
+		flag = 3
+	},
+	[2616] = {
+		param = "I've got it all figured out!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2616,
+		flag = 3
+	},
+	[2617] = {
+		param = "I'm gonna replicate the moment that those doves took flight!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2617,
+		flag = 3
+	},
+	[2618] = {
+		param = "To do that I'll first have to befriend them",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2618,
+		flag = 3
+	},
+	[2619] = {
+		param = "Then I'll ask them to line up and take to the skies!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2619,
+		flag = 3
+	},
+	[2620] = {
+		param = "Anyway that's why I'm going to feed the doves today",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2620,
+		flag = 3
+	},
+	[2621] = {
+		param = "Whatever it takes to get my inspo!",
+		ship_group = 60508,
+		type = 1,
+		id = 2621,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Can doves understand what you're saying?"
+			},
+			{
+				5,
+				"Is there any way I can help?"
+			}
+		}
+	},
+	[2622] = {
+		param = "Can doves actually understand what you're saying?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2622,
+		flag = 4
+	},
+	[2623] = {
+		param = "Art is the dialogue between hearts!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2623,
+		flag = 4
+	},
+	[2624] = {
+		param = "Trust me on this, I believe they'll understand my request for the sake of art!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2624,
+		flag = 4
+	},
+	[2625] = {
+		param = "Of course, if you could come with me, my perfect Commander...",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2625,
+		flag = 4
+	},
+	[2626] = {
+		param = "I think the doves would be more cooperative!",
+		ship_group = 60508,
+		type = 1,
+		id = 2626,
+		flag = 4,
+		option = {
+			{
+				6,
+				"Alright. I'll come with you."
+			}
+		}
+	},
+	[2627] = {
+		param = "Alright. I'll come with you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2627,
+		flag = 6
+	},
+	[2628] = {
+		param = "I still feel like the odds of success are pretty low, though...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2628,
+		flag = 6
+	},
+	[2629] = {
+		param = "Well I still think it's worth giving a try~",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2629,
+		flag = 6
+	},
+	[2630] = {
+		param = "I might even find some other inspo along the way! That'd be sweet",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2630,
+		flag = 6
+	},
+	[2631] = {
+		param = "Anyway we have a plan now! Let's go whenever it's convenient for you",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2631,
+		flag = 6
+	},
+	[2632] = {
+		param = "311",
+		ship_group = 60508,
+		option = "",
+		type = 4,
+		id = 2632,
+		flag = 6
+	},
+	[2633] = {
+		param = "Is there any way I can help you with that?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2633,
+		flag = 5
+	},
+	[2634] = {
+		param = "Like by feeding the doves?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2634,
+		flag = 5
+	},
+	[2635] = {
+		param = "You'll really give me a hand?",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2635,
+		flag = 5
+	},
+	[2636] = {
+		param = "Then forget about the doves! That's just boring!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2636,
+		flag = 5
+	},
+	[2637] = {
+		param = "I want you to be my model!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2637,
+		flag = 5
+	},
+	[2638] = {
+		param = "Go and put something artsy on!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2638,
+		flag = 5
+	},
+	[2639] = {
+		param = "Like a worn out rag with just the right amount of holes in it... or just don't wear anything at all!",
+		ship_group = 60508,
+		type = 1,
+		id = 2639,
+		flag = 5,
+		option = {
+			{
+				7,
+				"I still need to dress properly..."
+			}
+		}
+	},
+	[2640] = {
+		param = "That's just inappropriate. I need to wear something fitting and sharp.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2640,
+		flag = 7
+	},
+	[2641] = {
+		param = "It IS fitting! Besides, art requires a little self-sacrifice!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2641,
+		flag = 7
+	},
+	[2642] = {
+		param = "Just imagining your perfect body has convinced me you'll be the ideal subject!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2642,
+		flag = 7
+	},
+	[2643] = {
+		param = "You know what? Just come straight to my studio!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2643,
+		flag = 7
+	},
+	[2644] = {
+		param = "I'll give you some clothes to put on",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2644,
+		flag = 7
+	},
+	[2645] = {
+		param = "This is gonna be great~",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2645,
+		flag = 7
+	},
+	[2646] = {
+		param = "Commander~ What're you up to?",
+		ship_group = 60508,
+		type = 1,
+		id = 2646,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Filing paperwork."
+			},
+			{
+				2,
+				"I just woke up."
+			}
+		}
+	},
+	[2647] = {
+		param = "Filing paperwork. What's up?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2647,
+		flag = 1
+	},
+	[2648] = {
+		param = "I just got out of bed. What is it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2648,
+		flag = 2
+	},
+	[2649] = {
+		param = "Ohh, in that case...",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2649,
+		flag = 0
+	},
+	[2650] = {
+		param = "302",
+		ship_group = 60508,
+		option = "",
+		type = 4,
+		id = 2650,
+		flag = 0
+	},
+	[2651] = {
+		param = "Send me a selfie!",
+		ship_group = 60508,
+		type = 1,
+		id = 2651,
+		flag = 0,
+		option = {
+			{
+				3,
+				"What do you need it for?"
+			}
+		}
+	},
+	[2652] = {
+		param = "What do you need it for?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2652,
+		flag = 3
+	},
+	[2653] = {
+		param = "So I can closely examine your impeccable jawline",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2653,
+		flag = 3
+	},
+	[2654] = {
+		param = "And those eyes, brimming with both melancholy and charm!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2654,
+		flag = 3
+	},
+	[2655] = {
+		param = "All of it is a boundless source of inspo for me!",
+		ship_group = 60508,
+		type = 1,
+		id = 2655,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Thanks for the compliments, but..."
+			}
+		}
+	},
+	[2656] = {
+		param = "Thanks for the compliments, but is that really me you're describing?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2656,
+		flag = 4
+	},
+	[2657] = {
+		param = "108",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2657,
+		flag = 4
+	},
+	[2658] = {
+		param = "Yes! Obviously it's you!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2658,
+		flag = 4
+	},
+	[2659] = {
+		param = "You really have NO idea how attractive you are, do you?",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2659,
+		flag = 4
+	},
+	[2660] = {
+		param = "A shame but oh well! Just send me a pic already!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2660,
+		flag = 4
+	},
+	[2661] = {
+		param = "*extends hand eagerly*",
+		ship_group = 60508,
+		type = 1,
+		id = 2661,
+		flag = 4,
+		option = {
+			{
+				5,
+				"我现在没空自拍……"
+			},
+			{
+				6,
+				"I'm no good at taking selfies."
+			}
+		}
+	},
+	[2662] = {
+		param = "I don't have time to take a selfie right now. Can it wait until later?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2662,
+		flag = 5
+	},
+	[2663] = {
+		param = "I'm no good at taking selfies, so I rarely ever do.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2663,
+		flag = 6
+	},
+	[2664] = {
+		param = "Sorry to disappoint.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2664,
+		flag = 6
+	},
+	[2665] = {
+		param = "Ahh of course you'd say that my god of inspiration! Even when saying no to me, you say it with such perfect charm!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2665,
+		flag = 0
+	},
+	[2666] = {
+		param = "If a selfie is off the table, that's fine!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2666,
+		flag = 0
+	},
+	[2667] = {
+		param = "I'll handle it myself!",
+		ship_group = 60508,
+		type = 1,
+		id = 2667,
+		flag = 0,
+		option = {
+			{
+				7,
+				"\"Handle it\" meaning what, exactly?"
+			}
+		}
+	},
+	[2668] = {
+		param = "\"Handle it\" meaning what, exactly?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2668,
+		flag = 7
+	},
+	[2669] = {
+		param = "What do you think? I'll take pictures of you on my own!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2669,
+		flag = 7
+	},
+	[2670] = {
+		param = "I'll be at your office pronto for an extended photo sesh!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2670,
+		flag = 7
+	},
+	[2671] = {
+		param = "We're talking about a 360-degree shoot with no blind spots!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2671,
+		flag = 7
+	},
+	[2672] = {
+		param = "To make sure I record your perfection from every possible angle!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2672,
+		flag = 7
+	},
+	[2673] = {
+		param = "BE RIGHT THERE!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2673,
+		flag = 7
+	},
+	[2674] = {
+		param = "7",
+		ship_group = 60508,
+		option = "",
+		type = 4,
+		id = 2674,
+		flag = 7
+	},
+	[2675] = {
+		param = "O my precious partner, my beloved Commander!",
+		ship_group = 60508,
+		type = 1,
+		id = 2675,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yep, that's me."
+			}
+		}
+	},
+	[2676] = {
+		param = "Yep, that's me. At your service.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2676,
+		flag = 1
+	},
+	[2677] = {
+		param = "And an immediate reply! I couldn't be any happier!",
+		ship_group = 60508,
+		type = 1,
+		id = 2677,
+		flag = 1,
+		option = {
+			{
+				2,
+				"So, what's up?"
+			}
+		}
+	},
+	[2678] = {
+		param = "So, what's up? Anything happen?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2678,
+		flag = 2
+	},
+	[2679] = {
+		param = "Well I've been drawing in my studio for the past few days",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2679,
+		flag = 2
+	},
+	[2680] = {
+		param = "I got so caught up in finding inspo",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2680,
+		flag = 2
+	},
+	[2681] = {
+		param = "And now I'm STARVING!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2681,
+		flag = 2
+	},
+	[2682] = {
+		param = "243",
+		ship_group = 60508,
+		type = 4,
+		id = 2682,
+		flag = 2,
+		option = {
+			{
+				3,
+				"So, what's the connection?"
+			}
+		}
+	},
+	[2683] = {
+		param = "Is there any connection between looking for inspo and being hungry?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2683,
+		flag = 3
+	},
+	[2684] = {
+		param = "25",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2684,
+		flag = 3
+	},
+	[2685] = {
+		param = "Of course there is!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2685,
+		flag = 3
+	},
+	[2686] = {
+		param = "See, I was going to find inspo in the shape of my eraser shavings",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2686,
+		flag = 3
+	},
+	[2687] = {
+		param = "But I'm so hungry I can't even muster the strength to use the eraser",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2687,
+		flag = 3
+	},
+	[2688] = {
+		param = "So before I can do anything else, I need to eat!",
+		ship_group = 60508,
+		type = 1,
+		id = 2688,
+		flag = 3,
+		option = {
+			{
+				4,
+				"I'll order takeout for you."
+			},
+			{
+				5,
+				"What do you want to eat?"
+			}
+		}
+	},
+	[2689] = {
+		param = "I'll order takeout for you, then. Anything in particular you want?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2689,
+		flag = 4
+	},
+	[2690] = {
+		param = "Do you mean you're not going to feast with me?",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2690,
+		flag = 4
+	},
+	[2691] = {
+		param = "Then what am I supposed to do with these irrepressible feelings of longing for you? :<",
+		ship_group = 60508,
+		type = 1,
+		id = 2691,
+		flag = 4,
+		option = {
+			{
+				6,
+				"Alright, I'll come over."
+			}
+		}
+	},
+	[2692] = {
+		param = "Alright, I'll come over.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2692,
+		flag = 6
+	},
+	[2693] = {
+		param = "I'll bring the food with me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2693,
+		flag = 6
+	},
+	[2694] = {
+		param = "What do you want to eat? I'll bring it to you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2694,
+		flag = 5
+	},
+	[2695] = {
+		param = "As long as it's from you, I'll eat anything!",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2695,
+		flag = 5
+	},
+	[2696] = {
+		param = "Just don't tell me what you're getting",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2696,
+		flag = 5
+	},
+	[2697] = {
+		param = "Seeing the moment of you entering my studio with food in hand will no doubt give me new inspo!",
+		ship_group = 60508,
+		type = 1,
+		id = 2697,
+		flag = 5,
+		option = {
+			{
+				7,
+				"Alright. I'll find something and bring it over."
+			}
+		}
+	},
+	[2698] = {
+		param = "Alright. I'll find something and bring it over.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2698,
+		flag = 7
+	},
+	[2699] = {
+		param = "Hooray! I'll be over here waiting for you~",
+		ship_group = 60508,
+		option = "",
+		type = 1,
+		id = 2699,
+		flag = 0
+	},
+	[2700] = {
+		param = "Ciao, Commander!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2700,
+		flag = 0
+	},
+	[2701] = {
+		param = "Care to guess where I am right now?",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2701,
+		flag = 0
+	},
+	[2702] = {
+		param = "367",
+		ship_group = 60803,
+		type = 4,
+		id = 2702,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Definitely not in my office."
+			},
+			{
+				2,
+				"No idea. Where?"
+			}
+		}
+	},
+	[2703] = {
+		param = "I checked, and you're definitely not in my office.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2703,
+		flag = 1
+	},
+	[2704] = {
+		param = "I want to say that's not necessarily the case...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2704,
+		flag = 1
+	},
+	[2705] = {
+		param = "But you're right. I'm not.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2705,
+		flag = 1
+	},
+	[2706] = {
+		param = "No idea. Where?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2706,
+		flag = 2
+	},
+	[2707] = {
+		param = "Too lazy to even guess? You're no fun.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2707,
+		flag = 2
+	},
+	[2708] = {
+		param = "I'll just give you the answer then.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2708,
+		flag = 2
+	},
+	[2709] = {
+		param = "I'm outside a now-abandoned construction site. There's a sign that says \"no trespassing.\"",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2709,
+		flag = 0
+	},
+	[2710] = {
+		param = "There's also exposed rebar! Crumbling concrete pillars too!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2710,
+		flag = 0
+	},
+	[2711] = {
+		param = "Just thinking about it gets my blood pumping!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2711,
+		flag = 0
+	},
+	[2712] = {
+		param = "304",
+		ship_group = 60803,
+		type = 4,
+		id = 2712,
+		flag = 0,
+		option = {
+			{
+				3,
+				"It says \"no trespassing\" for a reason!"
+			}
+		}
+	},
+	[2713] = {
+		param = "It says \"no trespassing\" for a reason!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2713,
+		flag = 3
+	},
+	[2714] = {
+		param = "When I'm not allowed to be somewhere, it just makes me want to go there even more.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2714,
+		flag = 3
+	},
+	[2715] = {
+		param = "Otherwise, where's the fun?",
+		ship_group = 60803,
+		type = 1,
+		id = 2715,
+		flag = 3,
+		option = {
+			{
+				4,
+				"You really shouldn't go in."
+			},
+			{
+				5,
+				"Are you by yourself?"
+			}
+		}
+	},
+	[2716] = {
+		param = "That's a really dangerous place. You shouldn't go in.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2716,
+		flag = 4
+	},
+	[2717] = {
+		param = "If you actually want to stop me, you'll have to do better than \"you shouldn't.\"",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2717,
+		flag = 4
+	},
+	[2718] = {
+		param = "Reprimand me. Be strict and stern.",
+		ship_group = 60803,
+		type = 1,
+		id = 2718,
+		flag = 4,
+		option = {
+			{
+				6,
+				"What do you want me to say?"
+			}
+		}
+	},
+	[2719] = {
+		param = "What do you want me to say?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2719,
+		flag = 6
+	},
+	[2720] = {
+		param = "Just as an example...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2720,
+		flag = 6
+	},
+	[2721] = {
+		param = "\"I told you NOT to go inside. Don't make me say it again!\"",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2721,
+		flag = 6
+	},
+	[2722] = {
+		param = "\"Shut up and listen, god dammit!\"",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2722,
+		flag = 6
+	},
+	[2723] = {
+		param = "Something to that tune!",
+		ship_group = 60803,
+		type = 1,
+		id = 2723,
+		flag = 6,
+		option = {
+			{
+				7,
+				"I'll try..."
+			}
+		}
+	},
+	[2724] = {
+		param = "I'll try...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2724,
+		flag = 7
+	},
+	[2725] = {
+		param = "Don't go inside, god dammit. Don't make me say it again.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2725,
+		flag = 7
+	},
+	[2726] = {
+		param = "Oh my...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2726,
+		flag = 7
+	},
+	[2727] = {
+		param = "304",
+		ship_group = 60803,
+		option = "",
+		type = 4,
+		id = 2727,
+		flag = 7
+	},
+	[2728] = {
+		param = "I can hear my heart beating out of my chest!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2728,
+		flag = 7
+	},
+	[2729] = {
+		param = "You telling me off is SO much more exciting than playing in some abandoned building!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2729,
+		flag = 7
+	},
+	[2730] = {
+		param = "I won't go inside. I'll head to your office instead.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2730,
+		flag = 7
+	},
+	[2731] = {
+		param = "By the way... can I expect some punishment for being so reckless?",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2731,
+		flag = 7
+	},
+	[2732] = {
+		param = "Hehe!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2732,
+		flag = 7
+	},
+	[2733] = {
+		param = "Are you by yourself? Want me to join you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2733,
+		flag = 5
+	},
+	[2734] = {
+		param = "Wait, are you serious?",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2734,
+		flag = 5
+	},
+	[2735] = {
+		param = "I've been waiting for you to say that!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2735,
+		flag = 5
+	},
+	[2736] = {
+		param = "Exploring an abandoned building with you would easily be the highlight of my week!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2736,
+		flag = 5
+	},
+	[2737] = {
+		param = "But you know what would make it even better? If you told me off along the way!",
+		ship_group = 60803,
+		type = 1,
+		id = 2737,
+		flag = 5,
+		option = {
+			{
+				8,
+				"I'm not going to do that..."
+			}
+		}
+	},
+	[2738] = {
+		param = "I'm not going to tell you off. Don't expect me to.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2738,
+		flag = 8
+	},
+	[2739] = {
+		param = "Aww... Come on, please? Give it a try at least.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2739,
+		flag = 8
+	},
+	[2740] = {
+		param = "Let's say I knock something over. Then you can say something like...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2740,
+		flag = 8
+	},
+	[2741] = {
+		param = "\"Didn't I tell you to watch your step?! Would it kill you to LISTEN to me for once?\"",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2741,
+		flag = 8
+	},
+	[2742] = {
+		param = "You get the idea!",
+		ship_group = 60803,
+		type = 1,
+		id = 2742,
+		flag = 8,
+		option = {
+			{
+				9,
+				"Like I just said..."
+			}
+		}
+	},
+	[2743] = {
+		param = "I just freaking said I'm not going to tell you off! Is it that hard to understand?!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2743,
+		flag = 9
+	},
+	[2744] = {
+		param = "Yes yes YES! That's exactly what I'm talking about!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2744,
+		flag = 9
+	},
+	[2745] = {
+		param = "304",
+		ship_group = 60803,
+		option = "",
+		type = 4,
+		id = 2745,
+		flag = 9
+	},
+	[2746] = {
+		param = "You're getting better and better at this.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2746,
+		flag = 9
+	},
+	[2747] = {
+		param = "Now come over here. I'll be waiting for you by the no-entry sign.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2747,
+		flag = 9
+	},
+	[2748] = {
+		param = "Hehe!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2748,
+		flag = 9
+	},
+	[2749] = {
+		param = "359",
+		ship_group = 60803,
+		type = 4,
+		id = 2749,
+		flag = 0,
+		option = {
+			{
+				1,
+				"What is it?"
+			}
+		}
+	},
+	[2750] = {
+		param = "What is it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2750,
+		flag = 1
+	},
+	[2751] = {
+		param = "Notification: The Commander poked and scolded Maggiore Baracca.",
+		ship_group = 0,
+		option = "",
+		type = 5,
+		id = 2751,
+		flag = 1
+	},
+	[2752] = {
+		param = "What? Why does your poke message say that?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2752,
+		flag = 1
+	},
+	[2753] = {
+		param = "Because it's what I hope you do to me every day.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2753,
+		flag = 1
+	},
+	[2754] = {
+		param = "317",
+		ship_group = 60803,
+		type = 4,
+		id = 2754,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Back on topic..."
+			}
+		}
+	},
+	[2755] = {
+		param = "Back on topic... Did you want something?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2755,
+		flag = 2
+	},
+	[2756] = {
+		param = "Do you notice anything different about your office desk?",
+		ship_group = 60803,
+		type = 1,
+		id = 2756,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Oh, my paperwork..."
+			}
+		}
+	},
+	[2757] = {
+		param = "Oh, did you organize my paperwork?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2757,
+		flag = 3
+	},
+	[2758] = {
+		param = "When I saw it earlier, I thought I did it in a trance while working overtime or something.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2758,
+		flag = 3
+	},
+	[2759] = {
+		param = "I just assumed I'd forgotten about it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2759,
+		flag = 3
+	},
+	[2760] = {
+		param = "I had no idea you did it for me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2760,
+		flag = 3
+	},
+	[2761] = {
+		param = "Thanks for the help.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2761,
+		flag = 3
+	},
+	[2762] = {
+		param = "321",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2762,
+		flag = 3
+	},
+	[2763] = {
+		param = "What are you talking about?",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2763,
+		flag = 3
+	},
+	[2764] = {
+		param = "41",
+		ship_group = 60803,
+		type = 4,
+		id = 2764,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Huh? Wait..."
+			}
+		}
+	},
+	[2765] = {
+		param = "Wait... So it wasn't you who did it?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2765,
+		flag = 4
+	},
+	[2766] = {
+		param = "58",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2766,
+		flag = 4
+	},
+	[2767] = {
+		param = "No, in fact, I did quite the opposite...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2767,
+		flag = 4
+	},
+	[2768] = {
+		param = "I disorganized them as best as I could.",
+		ship_group = 60803,
+		type = 1,
+		id = 2768,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Then it had the opposite effect..."
+			}
+		}
+	},
+	[2769] = {
+		param = "Then it had the opposite effect, because they're sorted neatly.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2769,
+		flag = 5
+	},
+	[2770] = {
+		param = "214",
+		ship_group = 60803,
+		option = "",
+		type = 4,
+		id = 2770,
+		flag = 5
+	},
+	[2771] = {
+		param = "How is that even possible...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2771,
+		flag = 5
+	},
+	[2772] = {
+		param = "Dammit! How am I gonna get you to punish me now?!",
+		ship_group = 60803,
+		type = 1,
+		id = 2772,
+		flag = 5,
+		option = {
+			{
+				6,
+				"Well, as a gesture of gratitude..."
+			}
+		}
+	},
+	[2773] = {
+		param = "Well, whatever your intentions, I'll do anything you ask for as a gesture of gratitude.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2773,
+		flag = 6
+	},
+	[2774] = {
+		param = "Anything?",
+		ship_group = 60803,
+		type = 1,
+		id = 2774,
+		flag = 6,
+		option = {
+			{
+				7,
+				"Anything."
+			}
+		}
+	},
+	[2775] = {
+		param = "Anything.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2775,
+		flag = 7
+	},
+	[2776] = {
+		param = "Okay, reprimand me!",
+		ship_group = 60803,
+		type = 1,
+		id = 2776,
+		flag = 7,
+		option = {
+			{
+				8,
+				"Is that your idea of a reward?"
+			}
+		}
+	},
+	[2777] = {
+		param = "Is that your idea of a reward?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2777,
+		flag = 8
+	},
+	[2778] = {
+		param = "55",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2778,
+		flag = 8
+	},
+	[2779] = {
+		param = "Yes it is!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2779,
+		flag = 8
+	},
+	[2780] = {
+		param = "Although I could do better than getting yelled at via chat messages...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2780,
+		flag = 8
+	},
+	[2781] = {
+		param = "Since you said \"anything,\" I'll upgrade my wish to the best I could ask for!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2781,
+		flag = 8
+	},
+	[2782] = {
+		param = "Which is to say, I'll come to your place so you can reprimand me in person!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2782,
+		flag = 8
+	},
+	[2783] = {
+		param = "Be sure to get ready, because I'm expecting at least 30 minutes of verbal abuse!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2783,
+		flag = 8
+	},
+	[2784] = {
+		param = "359",
+		ship_group = 60803,
+		option = "",
+		type = 4,
+		id = 2784,
+		flag = 8
+	},
+	[2785] = {
+		param = "Commander, wanna go somewhere with me?",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2785,
+		flag = 0
+	},
+	[2786] = {
+		param = "I've been bored out of my mind lately.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2786,
+		flag = 0
+	},
+	[2787] = {
+		param = "43",
+		ship_group = 60803,
+		type = 4,
+		id = 2787,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Sure. Where are we going?"
+			}
+		}
+	},
+	[2788] = {
+		param = "Sure. Where are we going?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2788,
+		flag = 1
+	},
+	[2789] = {
+		param = "Don't even think about going anywhere dangerous, though.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2789,
+		flag = 1
+	},
+	[2790] = {
+		param = "Oh, perish the thought!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2790,
+		flag = 1
+	},
+	[2791] = {
+		param = "How about that teaching building that's under construction?",
+		ship_group = 60803,
+		type = 1,
+		id = 2791,
+		flag = 1,
+		option = {
+			{
+				2,
+				"That's still dangerous."
+			}
+		}
+	},
+	[2792] = {
+		param = "That's still dangerous. You're not supposed to go inside places under construction anyway.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2792,
+		flag = 2
+	},
+	[2793] = {
+		param = "1",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2793,
+		flag = 2
+	},
+	[2794] = {
+		param = "Ooh, the thought of you sending that sticker with a dead-serious look on your face...",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2794,
+		flag = 2
+	},
+	[2795] = {
+		param = "God, that's so exciting.",
+		ship_group = 60803,
+		type = 1,
+		id = 2795,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Let's get back on topic..."
+			}
+		}
+	},
+	[2796] = {
+		param = "Let's get back on topic. We should settle on a reasonable place to go.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2796,
+		flag = 3
+	},
+	[2797] = {
+		param = "I know, I know. I'll try to control myself.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2797,
+		flag = 3
+	},
+	[2798] = {
+		param = "14",
+		ship_group = 60803,
+		option = "",
+		type = 4,
+		id = 2798,
+		flag = 3
+	},
+	[2799] = {
+		param = "What about you? Have any place in mind?",
+		ship_group = 60803,
+		type = 1,
+		id = 2799,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Why not the amusement park?"
+			},
+			{
+				5,
+				"How about the mountains?"
+			}
+		}
+	},
+	[2800] = {
+		param = "Maybe the amusement park? How's that sound?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2800,
+		flag = 4
+	},
+	[2801] = {
+		param = "They've got exciting attractions. I think you'd love it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2801,
+		flag = 4
+	},
+	[2802] = {
+		param = "OOH!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2802,
+		flag = 4
+	},
+	[2803] = {
+		param = "Rollercoasters! Pendulum rides! The haunted house!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2803,
+		flag = 4
+	},
+	[2804] = {
+		param = "I've always wanted to try them!",
+		ship_group = 60803,
+		type = 1,
+		id = 2804,
+		flag = 4,
+		option = {
+			{
+				6,
+				"Sounds like a plan."
+			}
+		}
+	},
+	[2805] = {
+		param = "How about going to the mountains?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2805,
+		flag = 5
+	},
+	[2806] = {
+		param = "I heard they recently set up facilities for climbing, bungee jumping, and other activities.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2806,
+		flag = 5
+	},
+	[2807] = {
+		param = "I think you'd like it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2807,
+		flag = 5
+	},
+	[2808] = {
+		param = "It's all perfectly safe, too.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2808,
+		flag = 5
+	},
+	[2809] = {
+		param = "Climbing! Bungee jumping! Oh my!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2809,
+		flag = 5
+	},
+	[2810] = {
+		param = "I had no idea the port had been working on stuff like that.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2810,
+		flag = 5
+	},
+	[2811] = {
+		param = "Just thinking about it is getting me fired up!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2811,
+		flag = 5
+	},
+	[2812] = {
+		param = "Let's go there!",
+		ship_group = 60803,
+		type = 1,
+		id = 2812,
+		flag = 5,
+		option = {
+			{
+				6,
+				"Sounds like a plan."
+			}
+		}
+	},
+	[2813] = {
+		param = "Sounds like a plan. I'll get us some tickets. When would be a good time for you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2813,
+		flag = 6
+	},
+	[2814] = {
+		param = "Right now. I want to leave right away.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2814,
+		flag = 6
+	},
+	[2815] = {
+		param = "Hmm... Actually no, let's go tomorrow.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2815,
+		flag = 6
+	},
+	[2816] = {
+		param = "I want some time to prepare.",
+		ship_group = 60803,
+		type = 1,
+		id = 2816,
+		flag = 6,
+		option = {
+			{
+				7,
+				"Prepare what?"
+			}
+		}
+	},
+	[2817] = {
+		param = "Prepare what? Maybe I can help with it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2817,
+		flag = 7
+	},
+	[2818] = {
+		param = "You're not planning another prank, I hope...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2818,
+		flag = 7
+	},
+	[2819] = {
+		param = "Maybe, maybe not. Either way, I can't tell you in advance.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2819,
+		flag = 7
+	},
+	[2820] = {
+		param = "That would spoil the surprise.",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2820,
+		flag = 7
+	},
+	[2821] = {
+		param = "Hope you're excited about this date as I am!",
+		ship_group = 60803,
+		option = "",
+		type = 1,
+		id = 2821,
+		flag = 7
+	},
+	[2822] = {
+		param = "Commander, wanna go somewhere with me?",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2822,
+		flag = 0
+	},
+	[2823] = {
+		param = "I would like to take a moment",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2823,
+		flag = 0
+	},
+	[2824] = {
+		param = "[User is typing...]",
+		ship_group = 60111,
+		type = 1,
+		id = 2824,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Are you writing a poem?"
+			},
+			{
+				2,
+				"Soft taps on the screen, the smartphone chimes..."
+			}
+		}
+	},
+	[2825] = {
+		param = "Are you writing a poem?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2825,
+		flag = 1
+	},
+	[2826] = {
+		param = "No.",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2826,
+		flag = 1
+	},
+	[2827] = {
+		param = "Soft taps on the screen, the smartphone chimes; seconds and minutes passing, down the river of time...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2827,
+		flag = 2
+	},
+	[2828] = {
+		param = "While I appreciate the rhyme, allow me to make a correction.",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2828,
+		flag = 2
+	},
+	[2829] = {
+		param = "A smartphone does not \"chime,\" it \"rings.\"",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2829,
+		flag = 2
+	},
+	[2830] = {
+		param = "Now, what I was going to send you is the following:",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2830,
+		flag = 0
+	},
+	[2831] = {
+		param = "I would like to take a moment to formally say hello.",
+		ship_group = 60111,
+		type = 1,
+		id = 2831,
+		flag = 0,
+		option = {
+			{
+				3,
+				"Ciao. I'm the Commander."
+			}
+		}
+	},
+	[2832] = {
+		param = "Ciao. I'm the Commander.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2832,
+		flag = 3
+	},
+	[2833] = {
+		param = "Yes, I am aware.",
+		ship_group = 60111,
+		type = 1,
+		id = 2833,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Nice to meet you."
+			}
+		}
+	},
+	[2834] = {
+		param = "Nice to meet you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2834,
+		flag = 4
+	},
+	[2835] = {
+		param = "Likewise. From now on, I'll be",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2835,
+		flag = 4
+	},
+	[2836] = {
+		param = "[User is typing...]",
+		ship_group = 60111,
+		type = 1,
+		id = 2836,
+		flag = 4,
+		option = {
+			{
+				5,
+				"Be what?"
+			}
+		}
+	},
+	[2837] = {
+		param = "Be what?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2837,
+		flag = 5
+	},
+	[2838] = {
+		param = "Sorry, I'm just trying to find the right words.",
+		ship_group = 60111,
+		type = 1,
+		id = 2838,
+		flag = 5,
+		option = {
+			{
+				6,
+				"We can just have a casual chat."
+			}
+		}
+	},
+	[2839] = {
+		param = "This isn't work, we can just have a casual chat.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2839,
+		flag = 6
+	},
+	[2840] = {
+		param = "You don't need to overthink every message!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2840,
+		flag = 6
+	},
+	[2841] = {
+		param = "That is true.",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2841,
+		flag = 6
+	},
+	[2842] = {
+		param = "I'll try to speak in a more informal register.",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2842,
+		flag = 6
+	},
+	[2843] = {
+		param = "Alfredo said the same thing to me a while back; that I'm overly formal in our chats.",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2843,
+		flag = 6
+	},
+	[2844] = {
+		param = "She thinks that always finishing with a punctuation mark makes my messages seem cold.",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2844,
+		flag = 6
+	},
+	[2845] = {
+		param = "Do you think so, too?",
+		ship_group = 60111,
+		type = 1,
+		id = 2845,
+		flag = 6,
+		option = {
+			{
+				7,
+				"She might have a point..."
+			},
+			{
+				8,
+				"Whatever's easier for you."
+			}
+		}
+	},
+	[2846] = {
+		param = "She might have a point... You could try omitting them as an experiment.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2846,
+		flag = 7
+	},
+	[2847] = {
+		param = "I think it's up to you whether to change that or not. Whatever is easier for you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2847,
+		flag = 8
+	},
+	[2848] = {
+		param = "Also, using chat stickers might help.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2848,
+		flag = 0
+	},
+	[2849] = {
+		param = "I see...",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2849,
+		flag = 0
+	},
+	[2850] = {
+		param = "I'll start omitting punctuation marks from now on",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2850,
+		flag = 0
+	},
+	[2851] = {
+		param = "We'll see how I adapt to it",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2851,
+		flag = 0
+	},
+	[2852] = {
+		param = "[User is typing...]",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2852,
+		flag = 0
+	},
+	[2853] = {
+		param = "[User has stopped typing]",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2853,
+		flag = 0
+	},
+	[2854] = {
+		param = "210",
+		ship_group = 60111,
+		option = "",
+		type = 4,
+		id = 2854,
+		flag = 0
+	},
+	[2855] = {
+		param = "Commander, the library is temporarily closed due to maintenance",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2855,
+		flag = 0
+	},
+	[2856] = {
+		param = "So I'm looking for a place where I can read a book in peace",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2856,
+		flag = 0
+	},
+	[2857] = {
+		param = "Mind if I come over?",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2857,
+		flag = 0
+	},
+	[2858] = {
+		param = "52",
+		ship_group = 60111,
+		type = 4,
+		id = 2858,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Sure."
+			}
+		}
+	},
+	[2859] = {
+		param = "Sure. Feel free to come.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2859,
+		flag = 1
+	},
+	[2860] = {
+		param = "That being said, why not read in your room?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2860,
+		flag = 1
+	},
+	[2861] = {
+		param = "It should be quiet and nice.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2861,
+		flag = 1
+	},
+	[2862] = {
+		param = "You seem to have a slightly warped perception of our dorm environment",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2862,
+		flag = 1
+	},
+	[2863] = {
+		param = "At night, sure, it's quiet enough to be tolerable",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2863,
+		flag = 1
+	},
+	[2864] = {
+		param = "During the day, however...",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2864,
+		flag = 1
+	},
+	[2865] = {
+		param = "La rue assourdissante autour de moi hurlait",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2865,
+		flag = 1
+	},
+	[2866] = {
+		param = "\"The deafening street screamed around me\"",
+		ship_group = 60111,
+		type = 1,
+		id = 2866,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Is it THAT bad?"
+			}
+		}
+	},
+	[2867] = {
+		param = "Is it THAT bad?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2867,
+		flag = 2
+	},
+	[2868] = {
+		param = "No, I exaggerated for dramatic effect",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2868,
+		flag = 2
+	},
+	[2869] = {
+		param = "But when you're engrossed in a book, you're not making any noise",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2869,
+		flag = 2
+	},
+	[2870] = {
+		param = "So even the smallest of sounds become disproportionately distracting",
+		ship_group = 60111,
+		type = 1,
+		id = 2870,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Well, if you're going to be around me..."
+			}
+		}
+	},
+	[2871] = {
+		param = "Well, if you're going to be around me, I can't guarantee I'll make NO noise whatsoever.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2871,
+		flag = 3
+	},
+	[2872] = {
+		param = "Will that bother you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2872,
+		flag = 3
+	},
+	[2873] = {
+		param = "No, that's fine",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2873,
+		flag = 3
+	},
+	[2874] = {
+		param = "It's a different story with you",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2874,
+		flag = 3
+	},
+	[2875] = {
+		param = "If anything, the sounds you make are reassuring and comforting",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2875,
+		flag = 3
+	},
+	[2876] = {
+		param = "If I had to guess why, it's because...",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2876,
+		flag = 3
+	},
+	[2877] = {
+		param = "Ti amo. Non ho nessun pensiero che non sia tuo",
+		ship_group = 60111,
+		type = 1,
+		id = 2877,
+		flag = 3,
+		option = {
+			{
+				4,
+				"What does that mean?"
+			},
+			{
+				5,
+				"Shall I compare thee to a summer's day?"
+			}
+		}
+	},
+	[2878] = {
+		param = "What does that mean?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2878,
+		flag = 4
+	},
+	[2879] = {
+		param = "Well... it means you hold a special place in my heart",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2879,
+		flag = 4
+	},
+	[2880] = {
+		param = "And that you're perfect no matter what you do",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2880,
+		flag = 4
+	},
+	[2881] = {
+		param = "Is that similar to \"Shall I compare thee to a summer's day?\"",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2881,
+		flag = 5
+	},
+	[2882] = {
+		param = "Yeah",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2882,
+		flag = 5
+	},
+	[2883] = {
+		param = "Something like that...",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2883,
+		flag = 5
+	},
+	[2884] = {
+		param = "307",
+		ship_group = 60111,
+		option = "",
+		type = 4,
+		id = 2884,
+		flag = 5
+	},
+	[2885] = {
+		param = "Anyway...",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2885,
+		flag = 0
+	},
+	[2886] = {
+		param = "I'll go there now",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2886,
+		flag = 0
+	},
+	[2887] = {
+		param = "I'll see you in a bit",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2887,
+		flag = 0
+	},
+	[2888] = {
+		param = "Commander, do you have a minute?",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2888,
+		flag = 0
+	},
+	[2889] = {
+		param = "I was hoping you could help me find some inspiration for a poem",
+		ship_group = 60111,
+		type = 1,
+		id = 2889,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Of course."
+			}
+		}
+	},
+	[2890] = {
+		param = "Of course.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2890,
+		flag = 1
+	},
+	[2891] = {
+		param = "What do you need me to do?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2891,
+		flag = 1
+	},
+	[2892] = {
+		param = "It's simple",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2892,
+		flag = 1
+	},
+	[2893] = {
+		param = "Just give me the first 4 words that come to mind",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2893,
+		flag = 1
+	},
+	[2894] = {
+		param = "Doesn't matter what they are",
+		ship_group = 60111,
+		type = 1,
+		id = 2894,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Barbecue, soda, games, photograph."
+			},
+			{
+				3,
+				"Paperwork, materials, resources, accounting."
+			},
+			{
+				4,
+				"Seasons, zephyr, windowsill, sky."
+			}
+		}
+	},
+	[2895] = {
+		param = "Barbecue, soda, games, photograph.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2895,
+		flag = 2
+	},
+	[2896] = {
+		param = "So those are the first words that you thought of...",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2896,
+		flag = 2
+	},
+	[2897] = {
+		param = "Are you pining for rest and recreation?",
+		ship_group = 60111,
+		type = 1,
+		id = 2897,
+		flag = 2,
+		option = {
+			{
+				5,
+				"That's putting it mildly!"
+			},
+			{
+				6,
+				"I mean, they're everyday words..."
+			}
+		}
+	},
+	[2898] = {
+		param = "That's putting it mildly!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2898,
+		flag = 5
+	},
+	[2899] = {
+		param = "I mean, they're everyday words...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2899,
+		flag = 6
+	},
+	[2900] = {
+		param = "Although, yeah, now that you mention it...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2900,
+		flag = 6
+	},
+	[2901] = {
+		param = "I haven't had some good R&R in a long while.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2901,
+		flag = 6
+	},
+	[2902] = {
+		param = "Wanna go on an outing with me the next time you're free?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2902,
+		flag = 2
+	},
+	[2903] = {
+		param = "Yes, I'd love to",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2903,
+		flag = 2
+	},
+	[2904] = {
+		param = "60",
+		ship_group = 60111,
+		type = 4,
+		id = 2904,
+		flag = 2,
+		option = {
+			{
+				7,
+				"Anyway, back on topic."
+			}
+		}
+	},
+	[2905] = {
+		param = "Anyway, back on topic.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2905,
+		flag = 7
+	},
+	[2906] = {
+		param = "Paperwork, materials, resources, accounting.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2906,
+		flag = 3
+	},
+	[2907] = {
+		param = "Sheesh, Commander...",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2907,
+		flag = 3
+	},
+	[2908] = {
+		param = "You aren't a noted workaholic for nothing, I suppose",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2908,
+		flag = 3
+	},
+	[2909] = {
+		param = "Thanks for everything you do",
+		ship_group = 60111,
+		type = 1,
+		id = 2909,
+		flag = 3,
+		option = {
+			{
+				8,
+				"[就是这样]"
+			},
+			{
+				9,
+				"What can I say..."
+			}
+		}
+	},
+	[2910] = {
+		param = "32",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2910,
+		flag = 8
+	},
+	[2911] = {
+		param = "Being in charge of the port ain't easy.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2911,
+		flag = 8
+	},
+	[2912] = {
+		param = "But someone's gotta do it and do it well.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2912,
+		flag = 8
+	},
+	[2913] = {
+		param = "Yeah, this place couldn't run without you",
+		ship_group = 60111,
+		type = 1,
+		id = 2913,
+		flag = 8,
+		option = {
+			{
+				10,
+				"That aside..."
+			}
+		}
+	},
+	[2914] = {
+		param = "What can I say? Those words came naturally to me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2914,
+		flag = 9
+	},
+	[2915] = {
+		param = "So it's instinctual, is what you mean?",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2915,
+		flag = 9
+	},
+	[2916] = {
+		param = "Your workaholism is getting worse and worse",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2916,
+		flag = 9
+	},
+	[2917] = {
+		param = "54",
+		ship_group = 60111,
+		type = 4,
+		id = 2917,
+		flag = 9,
+		option = {
+			{
+				10,
+				"That aside..."
+			}
+		}
+	},
+	[2918] = {
+		param = "That aside, let's get back on topic.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2918,
+		flag = 10
+	},
+	[2919] = {
+		param = "Seasons, zephyr, windowsill, sky.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2919,
+		flag = 4
+	},
+	[2920] = {
+		param = "All tasteful words that paint a vivid picture in your mind",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2920,
+		flag = 4
+	},
+	[2921] = {
+		param = "Each one is perfect for a poem",
+		ship_group = 60111,
+		type = 1,
+		id = 2921,
+		flag = 4,
+		option = {
+			{
+				11,
+				"[哇哈哈]"
+			},
+			{
+				12,
+				"I may have the makings of a poet..."
+			}
+		}
+	},
+	[2922] = {
+		param = "372",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2922,
+		flag = 11
+	},
+	[2923] = {
+		param = "Pretty good, huh?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2923,
+		flag = 11
+	},
+	[2924] = {
+		param = "When it comes to poetry, those are the first things that come to mind.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2924,
+		flag = 11
+	},
+	[2925] = {
+		param = "It's excellent",
+		ship_group = 60111,
+		type = 1,
+		id = 2925,
+		flag = 11,
+		option = {
+			{
+				13,
+				"Anyway, I was going to ask..."
+			}
+		}
+	},
+	[2926] = {
+		param = "I may have the makings of a poet...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2926,
+		flag = 12
+	},
+	[2927] = {
+		param = "I really think there is",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2927,
+		flag = 12
+	},
+	[2928] = {
+		param = "There aren't many people out there who'd immediately think of such elegant words",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2928,
+		flag = 12
+	},
+	[2929] = {
+		param = "You should write some poetry of your own, I'd love to read it",
+		ship_group = 60111,
+		type = 1,
+		id = 2929,
+		flag = 12,
+		option = {
+			{
+				13,
+				"Anyway, I was going to ask..."
+			}
+		}
+	},
+	[2930] = {
+		param = "Anyway, I was going to ask...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2930,
+		flag = 13
+	},
+	[2931] = {
+		param = "Did you get any inspiration from those words?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2931,
+		flag = 0
+	},
+	[2932] = {
+		param = "I did, thanks for the help",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2932,
+		flag = 0
+	},
+	[2933] = {
+		param = "This conversation gave me even more inspiration than those words, though",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2933,
+		flag = 0
+	},
+	[2934] = {
+		param = "I suppose my number one source of inspiration is you",
+		ship_group = 60111,
+		type = 1,
+		id = 2934,
+		flag = 0,
+		option = {
+			{
+				14,
+				"That's good to hear."
+			}
+		}
+	},
+	[2935] = {
+		param = "That's good to hear. I can't wait to see what poem you come up with.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2935,
+		flag = 14
+	},
+	[2936] = {
+		param = "Of course, I'll have it ready soon",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2936,
+		flag = 14
+	},
+	[2937] = {
+		param = "I will dedicate it to you",
+		ship_group = 60111,
+		option = "",
+		type = 1,
+		id = 2937,
+		flag = 14
+	},
+	[2938] = {
+		param = "Commander, have you had a look at the script for my speech?",
+		ship_group = 60203,
+		type = 1,
+		id = 2938,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yeah. It's written really well."
+			}
+		}
+	},
+	[2939] = {
+		param = "Yeah. It's written really well.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2939,
+		flag = 1
+	},
+	[2940] = {
+		param = "Good job.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2940,
+		flag = 1
+	},
+	[2941] = {
+		param = "I see. Did you read the notes on the side as well?",
+		ship_group = 60203,
+		type = 1,
+		id = 2941,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Yup. It's great how detailed the notes are."
+			}
+		}
+	},
+	[2942] = {
+		param = "Yup. It's great how detailed the notes are. Beautiful font, too.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2942,
+		flag = 2
+	},
+	[2943] = {
+		param = "I picked a tasteful font for readability, that's all.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2943,
+		flag = 2
+	},
+	[2944] = {
+		param = "There's no deeper meaning to it.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2944,
+		flag = 2
+	},
+	[2945] = {
+		param = "Still, I'm glad to hear your praise.",
+		ship_group = 60203,
+		type = 1,
+		id = 2945,
+		flag = 2,
+		option = {
+			{
+				3,
+				"[Excellent]"
+			}
+		}
+	},
+	[2946] = {
+		param = "231",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2946,
+		flag = 3
+	},
+	[2947] = {
+		param = "There were even doodles on there.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2947,
+		flag = 3
+	},
+	[2948] = {
+		param = "What do you mean \"doodles\"...",
+		ship_group = 60203,
+		type = 1,
+		id = 2948,
+		flag = 3,
+		option = {
+			{
+				4,
+				"In the corner..."
+			}
+		}
+	},
+	[2949] = {
+		param = "There was a heart in the corner. You drew it, right?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2949,
+		flag = 4
+	},
+	[2950] = {
+		param = "It was cute.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2950,
+		flag = 4
+	},
+	[2951] = {
+		param = "Cute...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2951,
+		flag = 4
+	},
+	[2952] = {
+		param = "Well, yes, I did draw it...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2952,
+		flag = 4
+	},
+	[2953] = {
+		param = "One novel I read said that art brings people together.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2953,
+		flag = 4
+	},
+	[2954] = {
+		param = "So I gave it a shot.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2954,
+		flag = 4
+	},
+	[2955] = {
+		param = "I was going to erase it, since a doodle on a script is improper...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2955,
+		flag = 4
+	},
+	[2956] = {
+		param = "However, something else came up that required my attention, and I forgot about it.",
+		ship_group = 60203,
+		type = 1,
+		id = 2956,
+		flag = 4,
+		option = {
+			{
+				5,
+				"I think it DID bring us closer together."
+			},
+			{
+				6,
+				"You like reading novels?"
+			}
+		}
+	},
+	[2957] = {
+		param = "I think it DID bring us closer together. It let me learn more about you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2957,
+		flag = 5
+	},
+	[2958] = {
+		param = "231",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2958,
+		flag = 5
+	},
+	[2959] = {
+		param = "Really?",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2959,
+		flag = 5
+	},
+	[2960] = {
+		param = "You don't think it was stupid of me?",
+		ship_group = 60203,
+		type = 1,
+		id = 2960,
+		flag = 5,
+		option = {
+			{
+				7,
+				"Not at all..."
+			}
+		}
+	},
+	[2961] = {
+		param = "Not at all. In fact, I'm glad I got a peek into who you are.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2961,
+		flag = 7
+	},
+	[2962] = {
+		param = "It's nice to be a little more laid back.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2962,
+		flag = 7
+	},
+	[2963] = {
+		param = "You like reading novels? That's a bit surprising.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2963,
+		flag = 6
+	},
+	[2964] = {
+		param = "Just every once in a while...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2964,
+		flag = 6
+	},
+	[2965] = {
+		param = "Please don't tell anyone else.",
+		ship_group = 60203,
+		type = 1,
+		id = 2965,
+		flag = 6,
+		option = {
+			{
+				8,
+				"I won't. Promise."
+			}
+		}
+	},
+	[2966] = {
+		param = "I won't. Promise.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2966,
+		flag = 8
+	},
+	[2967] = {
+		param = "There's nothing wrong with reading novels, though. Read them if you want, I say.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2967,
+		flag = 8
+	},
+	[2968] = {
+		param = "Everyone's entitled to have hobbies.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2968,
+		flag = 8
+	},
+	[2969] = {
+		param = "You should be more relaxed.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2969,
+		flag = 8
+	},
+	[2970] = {
+		param = "[User is typing...]",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2970,
+		flag = 0
+	},
+	[2971] = {
+		param = "[User has stopped typing]",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2971,
+		flag = 0
+	},
+	[2972] = {
+		param = "You're right...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2972,
+		flag = 0
+	},
+	[2973] = {
+		param = "I'll try to adopt a more relaxed attitude in the future.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2973,
+		flag = 0
+	},
+	[2974] = {
+		param = "Um...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2974,
+		flag = 0
+	},
+	[2975] = {
+		param = "370",
+		ship_group = 60203,
+		option = "",
+		type = 4,
+		id = 2975,
+		flag = 0
+	},
+	[2976] = {
+		param = "Commander, are you busy today?",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2976,
+		flag = 0
+	},
+	[2977] = {
+		param = "You're clearly replying to your chat messages less than usual.",
+		ship_group = 60203,
+		type = 1,
+		id = 2977,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I have tons of work to do..."
+			},
+			{
+				2,
+				"Help me!"
+			}
+		}
+	},
+	[2978] = {
+		param = "I have tons of work I need to finish before the end of today...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2978,
+		flag = 1
+	},
+	[2979] = {
+		param = "365",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2979,
+		flag = 1
+	},
+	[2980] = {
+		param = "Help me, O Majestic Colleoni!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2980,
+		flag = 2
+	},
+	[2981] = {
+		param = "352",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 2981,
+		flag = 2
+	},
+	[2982] = {
+		param = "I shall assist you.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2982,
+		flag = 0
+	},
+	[2983] = {
+		param = "I'm heading to your office right now.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2983,
+		flag = 0
+	},
+	[2984] = {
+		param = "Say, would you like some milk tea?",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2984,
+		flag = 0
+	},
+	[2985] = {
+		param = "I'll bring some along.",
+		ship_group = 60203,
+		type = 1,
+		id = 2985,
+		flag = 0,
+		option = {
+			{
+				3,
+				"Do you like milk tea?"
+			},
+			{
+				4,
+				"Can you get me coffee?"
+			}
+		}
+	},
+	[2986] = {
+		param = "Do you like milk tea? That's a bit surprising.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2986,
+		flag = 3
+	},
+	[2987] = {
+		param = "Oh, no, don't be mistaken.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2987,
+		flag = 3
+	},
+	[2988] = {
+		param = "It's a tactical beverage that improves your working efficiency, that is all!",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2988,
+		flag = 3
+	},
+	[2989] = {
+		param = "It's not something I drink for the pleasure of it.",
+		ship_group = 60203,
+		type = 1,
+		id = 2989,
+		flag = 3,
+		option = {
+			{
+				5,
+				"Alright, get me some."
+			}
+		}
+	},
+	[2990] = {
+		param = "Alright, get me some of that tactical drink!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2990,
+		flag = 5
+	},
+	[2991] = {
+		param = "You can pick the same flavor as you're getting.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2991,
+		flag = 5
+	},
+	[2992] = {
+		param = "Okay. I'll buy some.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2992,
+		flag = 5
+	},
+	[2993] = {
+		param = "I hope you'll like the taste.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2993,
+		flag = 5
+	},
+	[2994] = {
+		param = "And if it makes you work more efficiently, that's all the better.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2994,
+		flag = 5
+	},
+	[2995] = {
+		param = "322",
+		ship_group = 60203,
+		option = "",
+		type = 4,
+		id = 2995,
+		flag = 5
+	},
+	[2996] = {
+		param = "Just to be clear, I'm really not that into milk tea!",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2996,
+		flag = 5
+	},
+	[2997] = {
+		param = "Can you get me coffee instead?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 2997,
+		flag = 4
+	},
+	[2998] = {
+		param = "Sure. I'll bring some with me.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 2998,
+		flag = 4
+	},
+	[2999] = {
+		param = "What would you like? An espresso? A latte?",
+		ship_group = 60203,
+		type = 1,
+		id = 2999,
+		flag = 4,
+		option = {
+			{
+				6,
+				"Just black, thanks."
+			}
+		}
+	},
+	[3000] = {
+		param = "Just black, thanks.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3000,
+		flag = 6
+	},
+	[3001] = {
+		param = "Black coffee it is, then.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3001,
+		flag = 6
+	},
+	[3002] = {
+		param = "As for me...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3002,
+		flag = 6
+	},
+	[3003] = {
+		param = "Hmm...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3003,
+		flag = 6
+	},
+	[3004] = {
+		param = "Actually, I think I'll stick with milk tea.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3004,
+		flag = 6
+	},
+	[3005] = {
+		param = "Not because I like it, mind you.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3005,
+		flag = 6
+	},
+	[3006] = {
+		param = "I'm just a bit fed up with coffee.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3006,
+		flag = 6
+	},
+	[3007] = {
+		param = "211",
+		ship_group = 60203,
+		option = "",
+		type = 4,
+		id = 3007,
+		flag = 6
+	},
+	[3008] = {
+		param = "Commander...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3008,
+		flag = 0
+	},
+	[3009] = {
+		param = "I was just wondering...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3009,
+		flag = 0
+	},
+	[3010] = {
+		param = "Did you receive a package meant for me?",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3010,
+		flag = 0
+	},
+	[3011] = {
+		param = "It looks like it got sent to you by mistake...",
+		ship_group = 60203,
+		type = 1,
+		id = 3011,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Yeah, I picked it up for you..."
+			}
+		}
+	},
+	[3012] = {
+		param = "Yeah. I saw it was for you, so I picked it up. I was just about to message you about it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3012,
+		flag = 1
+	},
+	[3013] = {
+		param = "Should I leave it here or bring it to you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3013,
+		flag = 1
+	},
+	[3014] = {
+		param = "I'll come get it! I'll be there in just a while.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3014,
+		flag = 1
+	},
+	[3015] = {
+		param = "Also, the delivery note didn't say anything about its contents, did it?",
+		ship_group = 60203,
+		type = 1,
+		id = 3015,
+		flag = 1,
+		option = {
+			{
+				2,
+				"It did."
+			}
+		}
+	},
+	[3016] = {
+		param = "It did.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3016,
+		flag = 2
+	},
+	[3017] = {
+		param = "I carefully read the slip since I didn't know whose package it was.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3017,
+		flag = 2
+	},
+	[3018] = {
+		param = "Oh no...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3018,
+		flag = 2
+	},
+	[3019] = {
+		param = "I even asked for discreet delivery...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3019,
+		flag = 2
+	},
+	[3020] = {
+		param = "352",
+		ship_group = 60203,
+		option = "",
+		type = 4,
+		id = 3020,
+		flag = 2
+	},
+	[3021] = {
+		param = "[User is typing...]",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3021,
+		flag = 2
+	},
+	[3022] = {
+		param = "I bought that book, Fateful Love: How to Seize a Partner, purely for educational purposes...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3022,
+		flag = 2
+	},
+	[3023] = {
+		param = "It's to help with my nervousness when I'm around you.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3023,
+		flag = 2
+	},
+	[3024] = {
+		param = "Come to think about it, the way I feel about you is just like how in my novels, they",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3024,
+		flag = 2
+	},
+	[3025] = {
+		param = "God, what am I even saying?!",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3025,
+		flag = 2
+	},
+	[3026] = {
+		param = "Please ignore that! Forget I said it!",
+		ship_group = 60203,
+		type = 1,
+		id = 3026,
+		flag = 2,
+		option = {
+			{
+				3,
+				"The delivery note didn't list the title..."
+			},
+			{
+				4,
+				"There's no reason to be so nervous..."
+			}
+		}
+	},
+	[3027] = {
+		param = "Actually, the delivery note didn't list the book's title.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3027,
+		flag = 3
+	},
+	[3028] = {
+		param = "It just said \"Book x 1.\"",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3028,
+		flag = 3
+	},
+	[3029] = {
+		param = "……",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3029,
+		flag = 3
+	},
+	[3030] = {
+		param = "366",
+		ship_group = 60203,
+		type = 4,
+		id = 3030,
+		flag = 3,
+		option = {
+			{
+				5,
+				"Don't worry about it..."
+			}
+		}
+	},
+	[3031] = {
+		param = "Don't worry about it. It'll be our secret.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3031,
+		flag = 5
+	},
+	[3032] = {
+		param = "Okay, if you say so...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3032,
+		flag = 5
+	},
+	[3033] = {
+		param = "Please never tell anyone about this...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3033,
+		flag = 5
+	},
+	[3034] = {
+		param = "There's no reason to be so nervous. We know each other so well.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3034,
+		flag = 4
+	},
+	[3035] = {
+		param = "Besides, it's completely fine to build a relationship little by little.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3035,
+		flag = 4
+	},
+	[3036] = {
+		param = "Yes, I think so too. It's just...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3036,
+		flag = 4
+	},
+	[3037] = {
+		param = "When I'm with you, I become so self-conscious.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3037,
+		flag = 4
+	},
+	[3038] = {
+		param = "Isn't that really silly of me?",
+		ship_group = 60203,
+		type = 1,
+		id = 3038,
+		flag = 4,
+		option = {
+			{
+				6,
+				"No, you're just fine this way."
+			}
+		}
+	},
+	[3039] = {
+		param = "No, you're just fine this way.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3039,
+		flag = 6
+	},
+	[3040] = {
+		param = "And you're just fine the way you are, too...",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3040,
+		flag = 6
+	},
+	[3041] = {
+		param = "Thank you for the kind words.",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3041,
+		flag = 6
+	},
+	[3042] = {
+		param = "307",
+		ship_group = 60203,
+		option = "",
+		type = 4,
+		id = 3042,
+		flag = 0
+	},
+	[3043] = {
+		param = "Anyway, would you mind if I came and picked up the book?",
+		ship_group = 60203,
+		type = 1,
+		id = 3043,
+		flag = 0,
+		option = {
+			{
+				7,
+				"Go ahead."
+			}
+		}
+	},
+	[3044] = {
+		param = "Go ahead. I'm free right now.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3044,
+		flag = 7
+	},
+	[3045] = {
+		param = "Oh, and how about I order some of your fav... tactical milk tea?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3045,
+		flag = 7
+	},
+	[3046] = {
+		param = "Of course! Thank you!",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3046,
+		flag = 7
+	},
+	[3047] = {
+		param = "I'll be there in a bit!",
+		ship_group = 60203,
+		option = "",
+		type = 1,
+		id = 3047,
+		flag = 7
 	}
 }

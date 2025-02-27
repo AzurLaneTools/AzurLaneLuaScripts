@@ -290,6 +290,11 @@ pg.strategy_data_template = setmetatable({
 		201197,
 		201198,
 		201199,
+		201250,
+		201270,
+		201276,
+		201281,
+		201287,
 		205001,
 		205002,
 		205003,
@@ -3567,6 +3572,66 @@ Enemies deal significantly more DMG. Their shells ignore shields and penetrate t
 		buff_type = 0,
 		id = 201199,
 		icon = "200908",
+		arg = {}
+	},
+	[201250] = {
+		buff_id = 201250,
+		name = "Challenge Mode",
+		desc = [[
+- Hard Mode Details -
+· The enemy deals significantly more DMG. When the enemy's HP percentage falls below 40%, their attack pattern changes and they gain significant damage reduction for 3s; when their HP percentage drops below 10%, they enter Last Stand mode.
+<color=#92fc63>· Your Vanguard's hitbox is reduced to only cover the frontmost ship of your Vanguard, and said hitbox becomes substantially smaller in size.</color>
+· When a ship in your fleet is hit, she becomes invulnerable for a while.
+· The skills "Operation Rainbow" and "Fiercer When Cornered" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201250,
+		icon = "200908",
+		arg = {}
+	},
+	[201270] = {
+		buff_id = 201270,
+		name = "Lattice of God's Light",
+		desc = "Once per battle, God's Light produces a shock wave that affects both foes and allies.\nIf the target is a Sardegna Empire unit: said unit recovers a little HP.\nIf not: said unit's EVA and SPD decreases for a while.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201270,
+		icon = "201270",
+		arg = {}
+	},
+	[201276] = {
+		buff_id = 201276,
+		name = "Domain of Eternal Night",
+		desc = "During battle, the Banner of Eternal Night affects both foes and allies.\nIf the target is a META unit: said unit's DMG dealt increases.\nIf not: said unit's ACC decreases slightly and their burn DMG taken increases.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201276,
+		icon = "201276",
+		arg = {}
+	},
+	[201281] = {
+		buff_id = 201281,
+		name = "Mode Change Area of The Chariot",
+		desc = "MECHArbiter: The Chariot VII dominates the battlefield.\nSiren units gain the Overclocked Shooting buff, i.e. RLD increases gradually as time passes.\nOther units have their DMG taken increased slightly.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201281,
+		icon = "201281",
+		arg = {}
+	},
+	[201287] = {
+		buff_id = 201287,
+		name = "Aerial Support",
+		desc = "During battle, your fleet receives aerial support.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201287,
+		icon = "201287",
 		arg = {}
 	},
 	[205001] = {

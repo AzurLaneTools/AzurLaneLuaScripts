@@ -12857,7 +12857,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Yorktown II guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Raffaello guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -29355,6 +29355,21 @@ _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 }
 
 
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "Score:"
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "Laps"
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "Progress"
+}
+
+
 _G.pg.base.gametip.Valentine_minigame_label1 = {
 	tip = "Score:"
 }
@@ -37441,13 +37456,188 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
+	tip = "Amusement Area"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
+	tip = "Living Area"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
+	tip = "Bedroom"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "You have reached the maximum Intimacy level, and giving this gift won't increase Intimacy further, continue?"
 }
 
 
+_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
+	tip = "Request From $1"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_favor = {
+	tip = "Intimacy"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_furniture = {
+	tip = "Owned Furniture"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit = {
+	tip = "Last Visit"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time = {
+	tip = "$1 Day(s) Ago"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
+	tip = "Locked"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_gift = {
+	tip = "Gifts"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_chat = {
+	tip = "Messages"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
+	tip = "New Messages"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_messages = {
+	tip = "Nothing New"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_phone = {
+	tip = "Voice Call"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
+	tip = "New Calls"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
+	tip = "Nothing New"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_topics = {
+	tip = "JUUSTAGRAM"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_ins = {
+	tip = "JUUSTAGRAM"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
+	tip = "New Post from $1"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
+	tip = "Nothing New"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
+	tip = "The seaside, swimsuits, beach volleyball... Enjoy the beach sunshine!"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_character = {
+	tip = "Unlockable Shipgirl"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
+	tip = "You will need to download new assets."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_all = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
+	tip = "Port Beach"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
+	tip = "Today"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_guide = {
+	tip = "Please visit the beach."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_download = {
+	tip = "You will need to download $1 assets."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone = {
+	tip = "Unavailable; please stay tuned."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_welcome = {
+	tip = "Character Invitation"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 	tip = "After giving this gift, the $1 Intimacy Pt that surpass the max limit will be nulled. Continue?"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
+	tip = "Voice Call History"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_call = {
+	tip = "Voice Call"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
+	tip = "Not Viewed"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_msg = {
+	tip = "Nothing New"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_topics = {
+	tip = "Nothing New"
 }
 
 
@@ -37596,4 +37786,9 @@ _G.pg.base.gametip["2025Valentine_minigame_b"] = {
 
 _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 	tip = "Uhh... Is this flavour really passable? This isn't very passable for a Royal Maid... Let me give it another shot, Commander!"
+}
+
+
+_G.pg.base.gametip.rps_game_take_card = {
+	tip = "Confirm Card"
 }

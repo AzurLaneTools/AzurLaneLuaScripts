@@ -2448,7 +2448,7 @@ pg.medal_template = {
 		name = "Spring Fashion Festa Medal",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 0,
+		is_out_of_print = 1,
 		count_inherit = 0,
 		desc = "Despite twists and turns, long last are wishes granted. Amidst flowing light, colorfully is the night painted.",
 		next = 0,
@@ -2462,6 +2462,27 @@ pg.medal_template = {
 		rank = 1,
 		id = 200011,
 		explain1 = "Spring Fashion Festa",
+		explain2 = "Event"
+	},
+	[200021] = {
+		target_id = "5812",
+		name = "Wings of Holy Light Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "A medal awarded by the Sardegnia League. It commemorates their victory against the immensely powerful MECHArbiter.\n—What awaits us outside the cage is hope and glory.",
+		next = 0,
+		icon = "9021",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9021",
+		condition = "Collect 8 commemorative stickers from Paradiso of Shackled Light",
+		rank = 1,
+		id = 200021,
+		explain1 = "「Paradiso of Shackled Light」",
 		explain2 = "Event"
 	},
 	all = {
@@ -2576,6 +2597,7 @@ pg.medal_template = {
 		100934,
 		100935,
 		200001,
-		200011
+		200011,
+		200021
 	}
 }

@@ -249,14 +249,14 @@ slot0.BindEvent = function(slot0)
 			return
 		end
 
-		if uv0.ikHandler then
+		if slot1.ikHandler then
 			return
 		end
 
 		pg.IKMgr.GetInstance():OnDragBegin(slot2, slot3)
 	end)
 	slot0:bind(uv0.ON_DRAG_CHARACTER_BODY, function (slot0, slot1, slot2)
-		if not uv0.ikHandler then
+		if not slot1.ikHandler then
 			return
 		end
 
@@ -354,8 +354,9 @@ slot0.RegisterIKFunc = function(slot0)
 
 	slot1:RegisterOnIKLayerActive(function (slot0)
 		uv0.blockIK = true
-		uv0.ikHandler = slot0
-		slot2 = _.detect(uv0.ladyDict[uv0.apartment:GetConfigID()].readyIKLayers, function (slot0)
+		slot1 = uv0.ladyDict[uv0.apartment:GetConfigID()]
+		slot1.ikHandler = slot0
+		slot2 = _.detect(slot1.readyIKLayers, function (slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
 		end)
 
@@ -369,7 +370,7 @@ slot0.RegisterIKFunc = function(slot0)
 	slot1 = pg.IKMgr.GetInstance()
 
 	slot1:RegisterOnIKLayerDrag(function (slot0)
-		uv0.ikHandler = slot0
+		uv0.ladyDict[uv0.apartment:GetConfigID()].ikHandler = slot0
 
 		uv0:ResetIKTipTimer()
 	end)
@@ -377,13 +378,14 @@ slot0.RegisterIKFunc = function(slot0)
 	slot1 = pg.IKMgr.GetInstance()
 
 	slot1:RegisterOnIKLayerDeactive(function (slot0, slot1)
-		slot3 = _.detect(uv0.ladyDict[uv0.apartment:GetConfigID()].readyIKLayers, function (slot0)
+		slot2 = uv0.ladyDict[uv0.apartment:GetConfigID()]
+		slot3 = _.detect(slot2.readyIKLayers, function (slot0)
 			return slot0:GetControllerPath() == uv0.ikData:GetControllerPath()
 		end)
 
 		uv0:DeactiveIKLayer(slot3)
 
-		uv0.ikHandler = nil
+		slot2.ikHandler = nil
 		uv0.blockIK = slot1
 
 		uv0:emit(uv1.ON_IK_STATUS_CHANGED, slot3:GetConfigID(), uv1.IK_STATUS.RELEASE)
@@ -589,9 +591,12 @@ slot0.InitSlots = function(slot0)
 
 	_.each(slot1:GetSlots(), function (slot0)
 		slot1 = slot0:GetFurnitureName()
-		slot3 = uv0.slotRoot:Find(tostring(slot0:GetConfigID()))
 
-		assert(slot3)
+		if not uv0.slotRoot:Find(tostring(slot0:GetConfigID())) then
+			errorMsg("Not Find Slot: " .. slot2)
+
+			return
+		end
 
 		slot4 = {
 			trans = slot3,
@@ -760,12 +765,15 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 
 		if slot0.room:isPersonalRoom() then
 			if slot10:GetSkinModelID("touch") then
-				if #pg.dorm3d_resource[slot14].model_id > 0 then
+				slot15 = pg.dorm3d_resource[slot14].model_id
+				slot16 = string.format("dorm3d/character/%s/prefabs/%s", slot11, slot15)
+
+				if #slot15 > 0 and checkABExist(slot16) then
 					table.insert(slot9.skinIdList, slot14)
 					table.insert(slot3, function (slot0)
-						slot2 = uv2.loader
+						slot1 = uv0.loader
 
-						slot2:GetPrefab(string.format("dorm3d/character/%s/prefabs/%s", uv0, uv1), "", function (slot0)
+						slot1:GetPrefab(uv1, "", function (slot0)
 							uv0.skinDict[uv1] = {
 								ladyGameobject = slot0
 							}
@@ -964,7 +972,7 @@ slot0.InitCharacter = function(slot0, slot1, slot2)
 		if slot1.rawPointerPress.transform == uv0.ladyCollider then
 			uv0:emit(uv1.CLICK_CHARACTER, uv2)
 		else
-			uv0:emit(uv1.ON_TOUCH_CHARACTER, uv1.BONE_TO_TOUCH[table.keyof(uv0.IKSettings.Colliders, slot1.rawPointerPress.transform)] or slot1.rawPointerPress.name)
+			uv0:emit(uv1.ON_TOUCH_CHARACTER, table.keyof(uv0.IKSettings.Colliders, slot1.rawPointerPress.transform) or slot1.rawPointerPress.name)
 		end
 	end)
 
@@ -1381,14 +1389,14 @@ slot0.Update = function(slot0)
 
 				slot2 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
 
-				setAnchoredPosition(uv0:GetIKHandTF(), uv0.ikHandler.screenPosition - Vector2.New(slot2.width, slot2.height) * 0.5)
+				setAnchoredPosition(uv1:GetIKHandTF(), uv0.ikHandler.screenPosition - Vector2.New(slot2.width, slot2.height) * 0.5)
 
-				if uv0.ikNextCheckStamp < Time.time then
-					uv0.ikNextCheckStamp = uv0.ikNextCheckStamp + uv1.IK_STATUS_DELTA
+				if uv1.ikNextCheckStamp < Time.time then
+					uv1.ikNextCheckStamp = uv1.ikNextCheckStamp + uv2.IK_STATUS_DELTA
 
-					uv0:emit(uv1.ON_IK_STATUS_CHANGED, _.detect(uv2.readyIKLayers, function (slot0)
+					uv1:emit(uv2.ON_IK_STATUS_CHANGED, _.detect(uv0.readyIKLayers, function (slot0)
 						return slot0:GetControllerPath() == uv0.ikHandler.ikData:GetControllerPath()
-					end):GetConfigID(), uv1.IK_STATUS.DRAG)
+					end):GetConfigID(), uv2.IK_STATUS.DRAG)
 				end
 			end)()
 
@@ -1396,7 +1404,9 @@ slot0.Update = function(slot0)
 				if not uv0.blockIK and uv0.nextTipIKTime < Time.time then
 					slot6 = uv0.ikTipsRoot
 
-					UIItemList.StaticAlign(uv0.ikTipsRoot, slot6:GetChild(0), #slot0.readyIKLayers, function (slot0, slot1, slot2)
+					UIItemList.StaticAlign(uv0.ikTipsRoot, slot6:GetChild(0), #_.filter(slot0.readyIKLayers, function (slot0)
+						return not slot0.ignoreDrag
+					end), function (slot0, slot1, slot2)
 						if slot0 ~= UIItemList.EventUpdate then
 							return
 						end
@@ -1405,7 +1415,7 @@ slot0.Update = function(slot0)
 						slot4 = Vector2.zero
 						slot4 = slot5:GetIKTipOffset()
 
-						if uv0.readyIKLayers[slot1 + 1]:GetTriggerBoneName() and uv0.IKSettings.Colliders[slot6] or nil then
+						if uv0[slot1 + 1]:GetTriggerBoneName() and uv1.IKSettings.Colliders[slot6] or nil then
 							slot7 = function()
 								if CameraMgr.instance:Raycast(uv0.IKSettings.CameraRaycaster, uv0.IKSettings.CameraRaycaster.eventCamera:WorldToScreenPoint(uv1.position)).Length == 0 then
 									return
@@ -1422,7 +1432,7 @@ slot0.Update = function(slot0)
 								slot7 = slot8.bounds.center
 							end
 
-							setLocalPosition(slot2, uv1:GetLocalPosition(uv1:GetScreenPosition(slot7, uv0.IKSettings.CameraRaycaster.eventCamera), uv1.ikTipsRoot) + slot4)
+							setLocalPosition(slot2, uv2:GetLocalPosition(uv2:GetScreenPosition(slot7, uv1.IKSettings.CameraRaycaster.eventCamera), uv2.ikTipsRoot) + slot4)
 
 							slot12 = Vector2.zero
 
@@ -1462,7 +1472,7 @@ slot0.Update = function(slot0)
 
 					slot6 = uv0.ikClickTipsRoot
 
-					UIItemList.StaticAlign(uv0.ikClickTipsRoot, slot6:GetChild(0), #slot0.ikConfig.touch_data, function (slot0, slot1, slot2)
+					UIItemList.StaticAlign(uv0.ikClickTipsRoot, slot6:GetChild(0), #slot0.iKTouchDatas, function (slot0, slot1, slot2)
 						if slot0 ~= UIItemList.EventUpdate then
 							return
 						end
@@ -1470,14 +1480,14 @@ slot0.Update = function(slot0)
 						slot3 = nil
 						slot4 = Vector2.zero
 
-						if (#pg.dorm3d_ik_touch[uv0.touch_data[slot1 + 1][1]].scene_item <= 0 or uv1:GetSceneItem(slot7.scene_item)) and uv2.IKSettings.Colliders[slot7.body] then
+						if (#pg.dorm3d_ik_touch[uv0.iKTouchDatas[slot1 + 1][1]].scene_item <= 0 or uv1:GetSceneItem(slot7.scene_item)) and uv0.IKSettings.Colliders[slot7.body] then
 							slot8 = slot3.position
 
 							if slot3:GetComponent(typeof(UnityEngine.Collider)) then
 								slot8 = slot9.bounds.center
 							end
 
-							setLocalPosition(slot2, uv1:GetLocalPosition(uv1:GetScreenPosition(slot8, uv2.IKSettings.CameraRaycaster.eventCamera), uv1.ikClickTipsRoot) + slot4)
+							setLocalPosition(slot2, uv1:GetLocalPosition(uv1:GetScreenPosition(slot8, uv0.IKSettings.CameraRaycaster.eventCamera), uv1.ikClickTipsRoot) + slot4)
 						end
 
 						setActive(slot2, slot3)
@@ -1547,13 +1557,16 @@ slot0.RefreshSlots = function(slot0, slot1, slot2)
 
 	slot0:emit(uv0.SHOW_BLOCK)
 	table.ParallelIpairsAsync(slot1:GetSlots(), function (slot0, slot1, slot2)
-		slot3 = slot1:GetConfigID()
-		slot5 = _.detect(uv0, function (slot0)
+		if not uv0.slotDict[slot1:GetConfigID()] then
+			return slot2()
+		end
+
+		slot5 = _.detect(uv1, function (slot0)
 			return slot0:GetSlotID() == uv0
 		end) and slot4:GetModel() or false
-		slot6 = uv1.slotDict[slot3].model
-		uv1.slotDict[slot3].displayModelName = slot5
-		uv1.slotDict[slot3].furnitureId = slot4 and slot4:GetConfigID()
+		slot6 = uv0.slotDict[slot3].model
+		uv0.slotDict[slot3].displayModelName = slot5
+		uv0.slotDict[slot3].furnitureId = slot4 and slot4:GetConfigID()
 
 		slot7 = function(slot0)
 			if uv0 then
@@ -1582,20 +1595,20 @@ slot0.RefreshSlots = function(slot0, slot1, slot2)
 		end
 
 		if slot5 == false or slot5 == "" then
-			uv1.loader:ClearRequest("slot_" .. slot3)
+			uv0.loader:ClearRequest("slot_" .. slot3)
 			slot7()
 			slot2()
 
 			return
 		end
 
-		slot8 = uv1.slotDict[slot3].trans
+		slot8 = uv0.slotDict[slot3].trans
 
-		if uv1.loader:GetLoadingRP("slot_" .. slot3) then
-			uv1:emit(uv2.HIDE_BLOCK)
+		if uv0.loader:GetLoadingRP("slot_" .. slot3) then
+			uv0:emit(uv2.HIDE_BLOCK)
 		end
 
-		uv1.loader:GetPrefabBYStopLoading("dorm3d/furniture/prefabs/" .. slot5, "", function (slot0)
+		uv0.loader:GetPrefabBYStopLoading("dorm3d/furniture/prefabs/" .. slot5, "", function (slot0)
 			uv0()
 			assert(slot0)
 			setParent(slot0, uv1)
@@ -1638,6 +1651,14 @@ end
 slot0.SyncInterestTransform = function(slot0, slot1)
 	slot0.ladyInterest.position = slot1.ladyInterestRoot.position
 	slot0.ladyInterest.rotation = slot1.ladyInterestRoot.rotation
+end
+
+slot0.SyncCurrentInterestSmooth = function(slot0, slot1)
+	slot2 = slot0.ladyDict[slot0.apartment:GetConfigID()]
+	slot1 = slot1 or 0.5
+
+	slot0:managedTween(LeanTween.move, nil, slot0.ladyInterest.gameObject, slot2.ladyInterestRoot.position, slot1)
+	slot0:managedTween(LeanTween.rotate, nil, slot0.ladyInterest.gameObject, slot2.ladyInterestRoot.rotation:ToEulerAngles(), slot1)
 end
 
 slot0.ChangePlayerPosition = function(slot0, slot1)
@@ -1914,24 +1935,84 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 	slot0.blockIK = nil
 	slot1.ikActionDict = {}
 	slot1.readyIKLayers = {}
+	slot1.iKTouchDatas = slot2.touch_data or {}
 	slot1.IKSettings = {
 		Colliders = slot1.ladyColliders,
 		CameraRaycaster = slot0.sceneRaycaster
 	}
+	slot5 = {}
 
+	_.each(slot1.iKTouchDatas, function (slot0)
+		if slot0[3][1] == 7 then
+			slot3 = pg.dorm3d_ik_touch_move[slot1[2]].target_ik
+
+			if not _.detect(uv0, function (slot0)
+				return slot0[1] == uv0
+			end) then
+				uv1[slot3] = {
+					back_time = slot2.back_time
+				}
+				slot4 = {
+					slot3,
+					0,
+					{}
+				}
+
+				if slot2.trigger_dialogue > 0 then
+					slot4[3] = {
+						4,
+						0,
+						slot2.trigger_dialogue
+					}
+				end
+
+				table.insert(uv0, slot4)
+			end
+		end
+	end)
 	pg.IKMgr.GetInstance():RegisterEnv(slot1.ladyIKRoot, slot1.ladyBoneMaps)
 	slot0:RegisterIKFunc()
-	pg.IKMgr.GetInstance():SetIKStatus(_.map(slot2.ik_id, function (slot0)
+	pg.IKMgr.GetInstance():SetIKStatus(_.map(table.shallowCopy(slot2.ik_id), function (slot0)
 		slot1 = Dorm3dIK.New({
 			configId = slot0[1]
 		})
 		slot2 = slot0[3]
+		slot4 = switch(slot2[1], {
+			function (slot0, slot1)
+				return 0
+			end,
+			function ()
+				return 0
+			end,
+			function (slot0, slot1)
+				return slot0
+			end,
+			function (slot0, slot1)
+				return slot0
+			end,
+			function (slot0, slot1, slot2, slot3)
+				return slot0
+			end,
+			function (slot0)
+				return 0
+			end
+		}, function (slot0)
+			return type(slot0) == "number" and slot0 or 0
+		end, unpack(slot2, 2))
 
 		table.insert(uv0.readyIKLayers, slot1)
 
 		uv0.ikActionDict[slot1:GetControllerPath()] = slot2
-		slot6 = slot1:GetPlaneRotations()
-		slot7 = slot1:GetPlaneScales()
+		slot5 = slot1:GetRevertTime()
+
+		if tobool(uv1[slot1:GetConfigID()]) then
+			slot4 = slot6.back_time
+			slot5 = slot6.back_time
+			slot1.ignoreDrag = true
+		end
+
+		slot9 = slot1:GetPlaneRotations()
+		slot10 = slot1:GetPlaneScales()
 
 		return Dorm3dIKController.New({
 			triggerName = slot1:getConfig("trigger_param")[2],
@@ -1946,32 +2027,12 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 			actionType = slot1:GetActionTriggerParams()[1],
 			controlRect = slot1:GetRect(),
 			actionRect = slot1:GetTriggerRect(),
-			backTime = slot1:GetRevertTime(),
-			actionRevertTime = switch(slot2[1], {
-				function (slot0, slot1)
-					return 0
-				end,
-				function ()
-					return 0
-				end,
-				function (slot0, slot1)
-					return slot0
-				end,
-				function (slot0, slot1)
-					return slot0
-				end,
-				function (slot0, slot1, slot2, slot3)
-					return slot0
-				end,
-				function (slot0)
-					return 0
-				end
-			}, function (slot0)
-				return uv0(slot0) == "number" and slot0 or 0
-			end, unpack(slot2, 2))
+			backTime = slot5,
+			actionRevertTime = slot4,
+			ignoreDrag = slot7
 		})
 	end))
-	table.Foreach(_.map(slot2.touch_data, function (slot0)
+	table.Foreach(_.map(slot1.iKTouchDatas, function (slot0)
 		return slot0[1]
 	end), function (slot0, slot1)
 		if #pg.dorm3d_ik_touch[slot1].scene_item == 0 then
@@ -1993,9 +2054,9 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 
 		slot4:AddPointClickFunc(function ()
 			uv0.blockIK = true
-			slot1, slot2, slot3 = unpack(uv1.touch_data[uv2])
+			slot1, slot2, slot3 = unpack(uv1.iKTouchDatas[uv2])
 
-			uv0:TouchModePointAction(uv3, slot1, unpack(slot3))(function ()
+			uv0:TouchModeAction(uv1, slot1, unpack(slot3))(function ()
 				uv0.enableIKTip = true
 
 				uv0:ResetIKTipTimer()
@@ -2013,18 +2074,18 @@ slot0.SetIKStatus = function(slot0, slot1, slot2, slot3)
 		slot0.cameras[uv0.CAMERA.IK_WATCH] = nil
 	end
 
-	slot6 = slot0.cameraRoot:Find(slot2.ik_camera)
+	slot8 = slot0.cameraRoot:Find(slot2.ik_camera)
 
-	assert(slot6, "Missing IKCamera")
+	assert(slot8, "Missing IKCamera")
 
-	slot0.cameras[uv0.CAMERA.IK_WATCH] = slot6
+	slot0.cameras[uv0.CAMERA.IK_WATCH] = slot8
 
 	slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.IK_WATCH])
 
 	slot0.camBrain.enabled = true
 
-	if slot6:GetComponent(typeof(Cinemachine.CinemachineFreeLook)) then
-		slot0:RegisterOrbits(slot7)
+	if slot8:GetComponent(typeof(Cinemachine.CinemachineFreeLook)) then
+		slot0:RegisterOrbits(slot9)
 	else
 		slot0:RevertCameraOrbit()
 	end
@@ -2087,15 +2148,12 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3)
 	end)
 
 	slot0.blockIK = nil
+	slot4 = pg.IKMgr.GetInstance()
 
-	pg.IKMgr.GetInstance():UnregisterEnv()
-
-	slot1.ikActionDict = nil
-	slot1.readyIKLayers = nil
-
+	slot4:UnregisterEnv()
 	setActive(slot0.ikTipsRoot, false)
 	setActive(slot0.ikClickTipsRoot, false)
-	table.Foreach(_.map(slot2.touch_data or {}, function (slot0)
+	table.Foreach(_.map(slot1.iKTouchDatas, function (slot0)
 		return slot0[1]
 	end), function (slot0, slot1)
 		if #pg.dorm3d_ik_touch[slot1].scene_item == 0 then
@@ -2112,6 +2170,11 @@ slot0.ExitIKStatus = function(slot0, slot1, slot2, slot3)
 
 		slot4.enabled = false
 	end)
+
+	slot1.ikActionDict = nil
+	slot1.readyIKLayers = nil
+	slot1.iKTouchDatas = nil
+
 	slot0:RevertCameraOrbit()
 	setActive(slot0.cameras[uv0.CAMERA.IK_WATCH], false)
 
@@ -2141,16 +2204,24 @@ slot0.SetIKTimelineStatus = function(slot0, slot1, slot2, slot3, slot4, slot5)
 
 	slot0.enableIKTip = true
 
+	setActive(slot0.ikControlUI, true)
 	slot0:ResetIKTipTimer()
 
 	slot0.blockIK = nil
 	slot1.readyIKLayers = {}
+	slot1.iKTouchDatas = {}
 	slot1.IKSettings = {
-		CameraRaycaster = slot4:GetComponent(typeof(UnityEngine.EventSystems.PhysicsRaycaster))
+		CameraRaycaster = GetOrAddComponent(slot4, typeof(UnityEngine.EventSystems.PhysicsRaycaster))
 	}
 
 	assert(slot1.IKSettings.CameraRaycaster)
 	table.IpairsCArray(slot2:GetComponentsInChildren(typeof(UnityEngine.Collider), true), function (slot0, slot1)
+		if slot1.name == "SafeCollider" then
+			setActive(slot1, false)
+
+			return
+		end
+
 		if slot1:GetType():Equals(typeof(UnityEngine.MeshCollider)) then
 			return
 		end
@@ -2163,7 +2234,7 @@ slot0.SetIKTimelineStatus = function(slot0, slot1, slot2, slot3, slot4, slot5)
 			return
 		end
 
-		if string.sub(slot2, 1, slot3 - 1) == "Body" then
+		if string.sub(slot2, 1, slot3 - 1) == "Body" or slot4 == "Safe" then
 			setActive(child, false)
 
 			return
@@ -2179,8 +2250,9 @@ slot0.SetIKTimelineStatus = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end)
 
 	slot1.IKSettings.Colliders = {}
+	slot8 = GetOrAddComponent(slot2, typeof(EventTriggerListener))
 	slot1.ikTimelineMode = true
-	slot11 = {}
+	slot12 = {}
 
 	table.Foreach(uv1, function (slot0, slot1)
 		uv0[slot1] = slot0
@@ -2203,6 +2275,7 @@ slot0.SetIKTimelineStatus = function(slot0, slot1, slot2, slot3, slot4, slot5)
 		slot4 = slot1:GetPlaneScales()
 
 		return Dorm3dIKController.New({
+			ignoreDrag = false,
 			triggerName = slot1:getConfig("trigger_param")[2],
 			controllerName = slot1:GetControllerPath(),
 			subTargets = _.map(_.range(#slot1:GetSubTargets()), function (slot0)
@@ -2220,16 +2293,32 @@ slot0.SetIKTimelineStatus = function(slot0, slot1, slot2, slot3, slot4, slot5)
 			timelineActionEvent = slot1:GetTimelineAction()
 		})
 	end))
+	eachChild(slot0.ikTextTipsRoot, function (slot0)
+		setActive(slot0, false)
+	end)
+	_.each(slot1.readyIKLayers, function (slot0)
+		if not slot0:getConfig("tip_text") or #slot1 == 0 then
+			return
+		end
+
+		if not IsNil(uv0.ikTextTipsRoot:Find(slot1)) then
+			setActive(slot2, true)
+		end
+	end)
 	existCall(slot5)
 end
 
 slot0.ExitIKTimelineStatus = function(slot0, slot1, slot2)
 	slot0.enableIKTip = false
+
+	setActive(slot0.ikControlUI, false)
+
 	slot0.blockIK = nil
 
 	pg.IKMgr.GetInstance():UnregisterEnv()
 
 	slot1.readyIKLayers = nil
+	slot1.iKTouchDatas = nil
 	slot1.IKSettings = nil
 
 	setActive(slot0.ikTipsRoot, false)
@@ -2251,19 +2340,21 @@ slot0.EnableIKLayer = function(slot0, slot1)
 		slot0:PlayFaceAnim(slot2, slot3)
 	end
 
-	setActive(slot0:GetIKHandTF(), true)
-	eachChild(slot0:GetIKHandTF(), function (slot0)
-		setActive(slot0, false)
-	end)
-	slot0:StopIKHandTimer()
-	setActive(slot0:GetIKHandTF():Find("Begin"), true)
+	if not slot1.ignoreDrag then
+		setActive(slot0:GetIKHandTF(), true)
+		eachChild(slot0:GetIKHandTF(), function (slot0)
+			setActive(slot0, false)
+		end)
+		slot0:StopIKHandTimer()
+		setActive(slot0:GetIKHandTF():Find("Begin"), true)
 
-	slot0.ikHandTimer = Timer.New(function ()
-		setActive(uv0:GetIKHandTF():Find("Begin"), false)
-		setActive(uv0:GetIKHandTF():Find("Normal"), true)
-	end, 0.5, 1)
+		slot0.ikHandTimer = Timer.New(function ()
+			setActive(uv0:GetIKHandTF():Find("Begin"), false)
+			setActive(uv0:GetIKHandTF():Find("Normal"), true)
+		end, 0.5, 1)
 
-	slot0.ikHandTimer:Start()
+		slot0.ikHandTimer:Start()
+	end
 
 	if not slot2.ikTimelineMode then
 		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataTouch(slot0.apartment.configId, slot0.apartment.level, slot2.ikConfig.character_action, slot1:GetTriggerParams()[2], slot0.room:GetConfigID()))
@@ -2276,16 +2367,19 @@ slot0.DeactiveIKLayer = function(slot0, slot1)
 	end
 
 	slot0:StopIKHandTimer()
-	setActive(slot0:GetIKHandTF():Find("Begin"), false)
-	setActive(slot0:GetIKHandTF():Find("Normal"), false)
-	setActive(slot0:GetIKHandTF():Find("End"), true)
 
-	slot0.ikHandTimer = Timer.New(function ()
-		setActive(uv0:GetIKHandTF():Find("End"), false)
-		setActive(uv0:GetIKHandTF(), false)
-	end, 0.5, 1)
+	if not slot1.ignoreDrag then
+		setActive(slot0:GetIKHandTF():Find("Begin"), false)
+		setActive(slot0:GetIKHandTF():Find("Normal"), false)
+		setActive(slot0:GetIKHandTF():Find("End"), true)
 
-	slot0.ikHandTimer:Start()
+		slot0.ikHandTimer = Timer.New(function ()
+			setActive(uv0:GetIKHandTF():Find("End"), false)
+			setActive(uv0:GetIKHandTF(), false)
+		end, 0.5, 1)
+
+		slot0.ikHandTimer:Start()
+	end
 end
 
 slot0.StopIKHandTimer = function(slot0)
@@ -2867,7 +2961,9 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 					end
 				end,
 				TimelineIKStart = function ()
-					uv1:SetIKTimelineStatus(uv1.ladyDict[uv1.apartment:GetConfigID()], uv2.gameObject, uv0.intParameter, uv3)
+					uv0.selectIndex = nil
+
+					uv2:SetIKTimelineStatus(uv2.ladyDict[uv2.apartment:GetConfigID()], uv3.gameObject, uv1.intParameter, uv4)
 				end,
 				TimelineEnd = function ()
 					uv0.finish = true

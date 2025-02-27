@@ -83,6 +83,7 @@ slot0.Execute = function(slot0, slot1)
 	end
 
 	slot3:UpdateAllChatBackGrounds()
+	getProxy(Dorm3dChatProxy):UpdateAllChatBackGrounds()
 	slot1()
 end
 

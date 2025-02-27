@@ -94,8 +94,58 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[5812] = {
+		entrance_picture = "medalAlbum/5812",
+		id = 5812,
+		group_name = "Paradiso of Shackled Light",
+		is_out_of_print = 0,
+		activity_medal_ids = {
+			581201,
+			581202,
+			581203,
+			581204,
+			581205,
+			581206,
+			581207,
+			581208
+		},
+		activity_link = {
+			{
+				1,
+				5812,
+				{
+					21286,
+					21278,
+					21279,
+					21280,
+					21281,
+					21282,
+					21283,
+					21284,
+					21285
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "DivineLightMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				295,
+				1
+			},
+			{
+				8,
+				65540,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
-		5769
+		5769,
+		5812
 	}
 }

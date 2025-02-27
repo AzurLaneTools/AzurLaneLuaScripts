@@ -192,6 +192,102 @@ pg.activity_medal_template = {
 		id = 576908,
 		medal_asset = "ActivityMedal/576908"
 	},
+	[581201] = {
+		activity_medal_desc = "\"Sardegnia, the eternal land. As long as God's light shines over us, we shall forever be prosperous.\"",
+		next_medal = 0,
+		item = 65541,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "1",
+		task_id = 21278,
+		activity_medal_name = "Sticker: Holy Wings of Protection",
+		id = 581201,
+		medal_asset = "ActivityMedal/581201"
+	},
+	[581202] = {
+		activity_medal_desc = "It is the power of faith that connects us all.",
+		next_medal = 0,
+		item = 65542,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "2",
+		task_id = 21279,
+		activity_medal_name = "Sticker: Lattice of God's Light",
+		id = 581202,
+		medal_asset = "ActivityMedal/581202"
+	},
+	[581203] = {
+		activity_medal_desc = "That is a Gazer. If you can see it, it can see you.",
+		next_medal = 0,
+		item = 65543,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "3",
+		task_id = 21280,
+		activity_medal_name = "Sticker: Under the Gazer's Watch",
+		id = 581203,
+		medal_asset = "ActivityMedal/581203"
+	},
+	[581204] = {
+		activity_medal_desc = "\"Drawing is my favorite thing in the world!\"",
+		next_medal = 0,
+		item = 65544,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "4",
+		task_id = 21281,
+		activity_medal_name = "Sticker: Rough Sketches",
+		id = 581204,
+		medal_asset = "ActivityMedal/581204"
+	},
+	[581205] = {
+		activity_medal_desc = "Second by second, the time ticks away. When, oh when, will we break free of our cage?",
+		next_medal = 0,
+		item = 65545,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "5",
+		task_id = 21282,
+		activity_medal_name = "Sticker: Countdown",
+		id = 581205,
+		medal_asset = "ActivityMedal/581205"
+	},
+	[581206] = {
+		activity_medal_desc = "Unimaginably strong and unimaginably intimidating – that is MECHArbiter: The Chariot VII.",
+		next_medal = 0,
+		item = 65546,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "6",
+		task_id = 21283,
+		activity_medal_name = "Sticker: The Chariot Comes",
+		id = 581206,
+		medal_asset = "ActivityMedal/581206"
+	},
+	[581207] = {
+		activity_medal_desc = "Heavy is the head that wears the crown.",
+		next_medal = 0,
+		item = 65547,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "7",
+		task_id = 21284,
+		activity_medal_name = "Sticker: Crown of Eternal Night",
+		id = 581207,
+		medal_asset = "ActivityMedal/581207"
+	},
+	[581208] = {
+		activity_medal_desc = "Broad, long, and with a texture like seaweed. Do not eat.",
+		next_medal = 0,
+		item = 65548,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "8",
+		task_id = 21285,
+		activity_medal_name = "Sticker: The Gazer's Tentacles",
+		id = 581208,
+		medal_asset = "ActivityMedal/581208"
+	},
 	all = {
 		571101,
 		571102,
@@ -208,6 +304,14 @@ pg.activity_medal_template = {
 		576905,
 		576906,
 		576907,
-		576908
+		576908,
+		581201,
+		581202,
+		581203,
+		581204,
+		581205,
+		581206,
+		581207,
+		581208
 	}
 }

@@ -312,7 +312,11 @@ pg.ship_skin_words_extra = setmetatable({
 		503010,
 		502100,
 		501080,
-		501090
+		501090,
+		605080,
+		608030,
+		601110,
+		602030
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21952,6 +21956,258 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Commander, let's go grab some cake together! Ehehe, this time for sure, my plan will— Hey, hey! Don't just swallow the thing in one go! I wrote you something on a slip of paper! Spit it out!"
+			}
+		}
+	},
+	[605080] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 605080,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"My precious companion, my personal gemstone of art... It makes me so happy that I get to see your gentle eyes before anyone else! I'm gonna draw every little part of you in incredible detail today!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, my beloved Commander! Gotta say, once again... you make my heart flutter from every angle today!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Ooh! I need to take your hand... and sculpt a copy of it!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"My room's getting full of reference materials. Hm? It's high time I sorted it all out? But each and every one is a source of inspo! Besides, my collection is a lot more modest than it used to be!|I've been studying sketching from different angles lately! Like by hanging upside-down from the ceiling like this... Aww, you won't let me, huh? Oh well! I did figure out that your smile looks 3.7 degrees gentler from this angle.|Even though this pencil is almost completely used up, sharpening it down to this length feels the most comfortable to draw with... Hm? Did I get the desk dusty again? I'll clean it up right now.|Hmm... From an architectural point of view, your office would be perfect for installing a secret door somewhere. It'll be convenient to have – for all sorts of purposes!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Ahh, no matter how you touch me, it makes my heart skip a beat!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Ooh... I-I've gotta draw what you just did!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"First I gazed at you, observed you, then came closer and drew you... and now, you've become an irreplaceable part of my life. My pen and my heart – they both belong to you, my beloved Commander♪"
+			}
+		}
+	},
+	[608030] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 608030,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Commander, I've \"redecorated\" your office and paperwork. By that I mean I attached some pictures so you'll think of me."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back. I did my work exactly as instructed. Heehee... I love how you look when you're surprised♪"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Ugh... Even being gently headpatted makes my heart race..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Say, Commander, could I slip in under your desk? ...There's not enough room? So you believe, but I like to think I'm quite flexible.|Heehee. Let's get some serious work done today. Hm? I mean it. I want to make you happy!|How about we go outside and take a break? I'm not saying we should go anywhere dangerous, just nearby where we can run around."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Oh? Do you have a sortie story to share?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander... I'm going to hug you from behind without warning as payback."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"It used to be that I'd prank you just to see your reaction, but now, my heart races just from being around you... Hm? I never said anything about not pranking you anymore. You scolding me is the best reward I could ask for, you know♥"
+			}
+		}
+	},
+	[601110] = {
+		touch = "",
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 601110,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, I brought suggestions on optimizing the language in your documents. I have three ideas... Oh, right. I made coffee, so have a drink while you read."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Here you drop your sail and lie by me... Hm? Commander, welcome back... Yes, I'm working on that poem I mentioned before. Now that we're together, the things I want to express have changed a little."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Your approval is the greatest compliment I could ever want."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Commander, would you like to read a poetry collection together? Come sit. They're love poems, so I'm sure there's much fun to be had."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Do you need a grammar check? No? It's a poem... for me? Let's see... Oh, very nice. I like it! ...Though your diction COULD be improved a little.|My notes here aren't just for analyzing your linguistic habits. I also just... want to remember your words, too...|They say morning is the most beautiful time of day. Next time you're free, let's watch the sunrise together – just the two of us."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh...! I-I understand your desire. It's described as beauty in many poems... I'm still a little embarrassed, but..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"\"The forests feel thee, and with a cool shiver awake; up soars the falcon, flashing in eager joy.\" This is a poem I wrote for you, Commander."
+			}
+		}
+	},
+	[602030] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 602030,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		detail = "",
+		login = {
+			{
+				1100,
+				"Let's do our best today, Commander. ...My notes here? They're not for work. They're, um... my research on how to get closer to you... D-don't laugh at me, please!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. You're unusually early today. If you'd like, umm... I-I happened to find this lovely café, and my book says that they're a great place for... d-discussing work!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Mm... It's far from appropriate, but I could get used to this..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Umm... I made lunch for you today, Commander. Of course, it's normal for a soldier to eat in the cafeteria, but I just wanted you to eat more nutritionally balanced meals...|Hey, thanks for all of your hard work. I brewed black tea if you'd like to take a break. It'll help you be more efficient, right...?|In one of the romance novels I read recently, there was a girl like me who gazed vacantly at her beloved's profile... Oh, w-was I saying that out loud?! Forget that, please!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Yes, I'm here."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"C-Commander... There's a time and a place for this..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I've written about all of our time together in my diary. Sometimes, I draw my memories with you... It's frankly childish behavior for a soldier, but when I look upon them, I remember you. It makes me... so very happy."
 			}
 		}
 	}

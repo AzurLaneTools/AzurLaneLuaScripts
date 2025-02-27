@@ -1255,6 +1255,15 @@ pg.skill_data_template = setmetatable({
 		150870,
 		150880,
 		150890,
+		150900,
+		150910,
+		150920,
+		150930,
+		150940,
+		150950,
+		150960,
+		150980,
+		150990,
 		18010,
 		18040,
 		18050,
@@ -1626,6 +1635,8 @@ pg.skill_data_template = setmetatable({
 		28252,
 		28261,
 		28262,
+		28271,
+		28272,
 		29011,
 		29012,
 		29021,
@@ -1901,6 +1912,8 @@ pg.skill_data_template = setmetatable({
 		30402,
 		30411,
 		30412,
+		30421,
+		30422,
 		101010,
 		101020,
 		101030,
@@ -2405,6 +2418,13 @@ pg.skill_data_template = setmetatable({
 		801592,
 		801595,
 		801597,
+		801600,
+		801610,
+		801620,
+		801631,
+		801632,
+		801635,
+		801637,
 		901010,
 		901020,
 		902010,
@@ -103688,6 +103708,1143 @@ When this ship fires her Main Guns, the following effects activate:
 			}
 		}
 	},
+	[150900] = {
+		desc_get = "",
+		name = "Combat Analysis Complete!",
+		type = 3,
+		max_level = 10,
+		desc = "Decreases this ship's DMG taken by $1. When the battle starts: increases your Vanguard's DMG dealt by $2 for 30s; after 30s, deploys barriers (lasting until the battle ends) around every ship in your Vanguard, each able to negate DMG equal to $3 of the max HP of its respective ship.",
+		id = 150900,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.0%",
+				"3.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.2%"
+				},
+				{
+					"1.2%",
+					"+0.2%"
+				},
+				{
+					"1.4%",
+					"+0.2%"
+				},
+				{
+					"1.6%",
+					"+0.2%"
+				},
+				{
+					"1.8%",
+					"+0.2%"
+				},
+				{
+					"2.0%",
+					"+0.2%"
+				},
+				{
+					"2.2%",
+					"+0.2%"
+				},
+				{
+					"2.4%",
+					"+0.3%"
+				},
+				{
+					"2.7%",
+					"+0.3%"
+				},
+				{
+					"3.0%"
+				}
+			}
+		}
+	},
+	[150910] = {
+		desc_get = "",
+		name = "Strict Flower of Sardegna",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this ship's FP, TRP, and EVA by $1. When this ship fires her torpedoes: $2 chance to fire a $3 special barrage (DMG is based on the skill's level).",
+		id = 150910,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[150920] = {
+		desc_get = "",
+		name = "Odi Barbare",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her torpedoes: $1 chance to fire a $2 special barrage (DMG is based on the skill's level). When this barrage activates: for 6s, increases your fleet's RLD by $3 and DMG dealt by 5.0%; if it does NOT activate, increases the activation chance to 100.0% the next time this ship fires her torpedoes. Inflicts a special Burn ailment for 9s on enemies hit by this barrage (Burn DMG is based on this ship's TRP stat).",
+		id = 150920,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"40.0%",
+				"70.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.0%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"40.0%",
+					"+3.3%"
+				},
+				{
+					"43.3%",
+					"+3.3%"
+				},
+				{
+					"46.6%",
+					"+3.3%"
+				},
+				{
+					"49.9%",
+					"+3.3%"
+				},
+				{
+					"53.2%",
+					"+3.3%"
+				},
+				{
+					"56.5%",
+					"+3.3%"
+				},
+				{
+					"59.8%",
+					"+3.3%"
+				},
+				{
+					"63.1%",
+					"+3.3%"
+				},
+				{
+					"66.4%",
+					"+3.6%"
+				},
+				{
+					"70.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+0.4%"
+				},
+				{
+					"1.4%",
+					"+0.4%"
+				},
+				{
+					"1.8%",
+					"+0.4%"
+				},
+				{
+					"2.2%",
+					"+0.4%"
+				},
+				{
+					"2.6%",
+					"+0.4%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[150930] = {
+		desc_get = "",
+		name = "Il Canto di Marzo",
+		type = 3,
+		max_level = 10,
+		desc = "During battle, every 9 times this ship takes DMG: fires a $1 special barrage (DMG is based on the skill's level). When this barrage activates: for 9s, increases your Vanguard's EVA by $2 and SPD by 3 (DMG suffered during this effect's uptime does not count; counter resets after the effect ends). The first time this barrage activates each battle: restores 3.0% of your Vanguard's max HP.",
+		id = 150930,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[150940] = {
+		desc_get = "",
+		name = "Jet-Black Dedication",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1.\nWhenever a ship in your Main Fleet ship or the frontmost ship of your Vanguard hits an enemy with the weapon equipped in that ship's first slot: 50% chance to apply 1 stack of Jet-Black Paint to the enemy hit (each weapon that triggers this effect can only apply 1 stack of Jet-Black Paint to the same target every 5s); for each stack of Jet-Black Paint applied, the affected enemy's SPD is reduced by 5.0%, lasting for 10s (can be stacked up to 3 times, subsequent applications of Jet-Black Paint will refresh this duration).\nWhen an enemy accumulates 3 stacks of Jet-Black Paint, that enemy will receive Artist's Dedication, increasing their DMG taken by $2 for 10s. If the attacker is a Sardegna Empire ship: further increases the DMG dealt by $2.",
+		id = 150940,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[150950] = {
+		desc_get = "",
+		name = "Pearlescent Blessing",
+		type = 2,
+		max_level = 10,
+		desc = [[
+Reduces this ship's shelling DMG taken by $1.
+Ships in your fleet gain Pearlescent Paint every time they take DMG equal to 20.0% of their max HP combined. If an allied ship sinks an enemy ship with the Jet-Black Paint debuff, that ship receives Pearlescent Paint stacks equal to the number of Jet-Black Paint applied to the defeated enemy.
+As long as Raffaello remains afloat, each time an ally gains Pearlescent Paint, that ship gains a barrier that can negate DMG equal to 1.0% of Raffaello's max HP, lasting for the duration of Pearlescent Paint (Pearlescent Paint stacks up to 3 times, and lasts for 10s. The barrier does not stack. Subsequent applications of Pearlescent Paint will refresh the duration of the barrier).
+When a ship in your fleet accumulates 3 stacks of Pearlescent Paint, that ship receives Artist's Blessing, increasing her DMG dealt by $2 for 10s; additionally, gives Raffaello 1 stack of Pearlescent Paint. If the recipient of Artist's Blessing is a Sardegna Empire ship: further increases that ship's DMG dealt by $2.]],
+		id = 150950,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"15.0%",
+				"25.0%"
+			},
+			{
+				"1.5%",
+				"6.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			}
+		}
+	},
+	[150960] = {
+		desc_get = "",
+		name = "Apex Artist",
+		type = 1,
+		max_level = 10,
+		desc = [[
+While this ship is afloat, whenever a fleet that this ship is NOT in enters battle for the first three times of each sortie: fires a $2 special barrage 20s after the battle starts (DMG is based on the skill's level).
+When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level). When this barrage activates, the following effects take place based on if Jet-Black Paint and Pearlescent Paint are currently applied on the battlefield:
+If any allies are affected by Pearlescent Paint, restores 2.0% of Raffaello's Max HP to the ship with the lowest current percentage of HP. If any allies are affected by Artist's Blessing, this effect will activate 3 more times (target is determined independently for each activation);
+If any enemies are affected by Jet-Black Paint, the Crit Rate of this special barrage is increased by 50.0% and the barrage is improved. If any enemies are affected by Artist's Dedication, additionally increases the Crit DMG of this barrage by 20.0%, and further improves the special barrage.]],
+		id = 150960,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.5%"
+				},
+				{
+					"55.5%",
+					"+5.5%"
+				},
+				{
+					"61%",
+					"+5.5%"
+				},
+				{
+					"66.5%",
+					"+5.5%"
+				},
+				{
+					"72.0%",
+					"+5.5%"
+				},
+				{
+					"77.5%",
+					"+5.5%"
+				},
+				{
+					"83.0%",
+					"+5.5%"
+				},
+				{
+					"88.5%",
+					"+5.5%"
+				},
+				{
+					"94.0%",
+					"+6.0%"
+				},
+				{
+					"100.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[150980] = {
+		desc_get = "",
+		name = "Thrill-Seeker",
+		type = 1,
+		max_level = 10,
+		desc = "Increases this boat's ACC and Torpedo Crit DMG by $1. During battle, whenever this boat deals DMG with her torpedoes or receives DMG: $2 chance to gain 3.0% increased TRP (can be stacked up to 7 times), and additionally gaining 1 stack of this effect every 4s. When this effect reaches 7 stacks, fires a $3 special torpedo barrage (DMG is based on the skill's level).",
+		id = 150980,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.0%",
+				"10.0%"
+			},
+			{
+				"15.0%",
+				"30.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.6%"
+				},
+				{
+					"16.6%",
+					"+1.6%"
+				},
+				{
+					"18.2%",
+					"+1.6%"
+				},
+				{
+					"19.8%",
+					"+1.6%"
+				},
+				{
+					"21.4%",
+					"+1.6%"
+				},
+				{
+					"23.0%",
+					"+1.6%"
+				},
+				{
+					"24.6%",
+					"+1.8%"
+				},
+				{
+					"26.4%",
+					"+1.8%"
+				},
+				{
+					"28.2%",
+					"+1.8%"
+				},
+				{
+					"30.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[150990] = {
+		desc_get = "",
+		name = "Born Adventurer",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this boat's DMG dealt by $1, increased by an additional $1 when this boat's HP falls beneath 80.0%, lasting until she leaves the battle. Every 5s after entering the battle: if this boat's HP is greater than 30.0%, deducts her HP equal to 3.0% of her max HP to fire a $2 special torpedo barrage (DMG is based on the skill's level).\nOnce per battle, when this boat falls below 30.0% max HP as a result of DMG taken: restores 25.0% of this boat's max HP and increases her Evasion Rate by $3 for 10s.",
+		id = 150990,
+		system_transform = {
+			[11.0] = 3500
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"1.5%",
+				"5.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"15.0%",
+				"25.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"15.0%",
+					"+1.1%"
+				},
+				{
+					"16.1%",
+					"+1.1%"
+				},
+				{
+					"17.2%",
+					"+1.1%"
+				},
+				{
+					"18.3%",
+					"+1.1%"
+				},
+				{
+					"19.4%",
+					"+1.1%"
+				},
+				{
+					"20.5%",
+					"+1.1%"
+				},
+				{
+					"21.6%",
+					"+1.1%"
+				},
+				{
+					"22.7%",
+					"+1.1%"
+				},
+				{
+					"23.8%",
+					"+1.2%"
+				},
+				{
+					"25.0%"
+				}
+			}
+		}
+	},
 	[18010] = {
 		desc_get = "",
 		name = "MKV-Class AP Shells+",
@@ -116508,10 +117665,10 @@ When the battle starts: increases this ship's FP and TRP by $1. When this ship f
 	},
 	[20012] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ",
+		name = "All Out Assault II",
 		type = 1,
 		max_level = 1,
-		desc = "Activates All Out Assault Ⅱ: Farragut Class once every 10 times the Main Guns are fired.",
+		desc = "Activates All Out Assault II: Farragut Class once every 10 times the Main Guns are fired.",
 		id = 20012,
 		system_transform = {},
 		world_death_mark = {
@@ -119297,7 +120454,7 @@ When the battle starts: increases this ship's FP and TRP by $1. When this ship f
 		name = "All Out Assault I",
 		type = 1,
 		max_level = 1,
-		desc = "Activates All-Out Assault I: Alfredo Oriana-class every 15 times the Main Guns are fired.",
+		desc = "Activates All Out Assault I: Alfredo Oriani-class once every 15 times the Main Guns are fired.",
 		id = 25021,
 		system_transform = {},
 		world_death_mark = {
@@ -119308,10 +120465,10 @@ When the battle starts: increases this ship's FP and TRP by $1. When this ship f
 	},
 	[25022] = {
 		desc_get = "",
-		name = "All Out Assault Ⅱ",
+		name = "All Out Assault II",
 		type = 1,
 		max_level = 1,
-		desc = "Activates All-Out Assault Ⅱ: Alfredo Oriana-class every 10 times the Main Guns are fired.",
+		desc = "Activates All Out Assault II: Alfredo Oriani-class once every 10 times the Main Guns are fired.",
 		id = 25022,
 		system_transform = {},
 		world_death_mark = {
@@ -119985,6 +121142,34 @@ When the battle starts: increases this ship's FP and TRP by $1. When this ship f
 		max_level = 1,
 		desc = "Activates All Out Assault II: Fu Po once every 10 times the Main Guns are fired.",
 		id = 28262,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28271] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Alberto di Giussano-class once every 12 times the Main Guns are fired.",
+		id = 28271,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[28272] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Alberto di Giussano-class once every 8 times the Main Guns are fired.",
+		id = 28272,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -123843,6 +125028,34 @@ When the battle starts: increases this ship's FP and TRP by $1. When this ship f
 		max_level = 1,
 		desc = "Activates All Out Assault III: Anshan Class every time this ship launches a Missile attack.",
 		id = 30412,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30421] = {
+		desc_get = "",
+		name = "All Out Assault I",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault I: Maggiore Baracca when entering the battle.",
+		id = 30421,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[30422] = {
+		desc_get = "",
+		name = "All Out Assault II",
+		type = 1,
+		max_level = 1,
+		desc = "Activates All Out Assault II: Maggiore Baracca when entering the battle.",
+		id = 30422,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -156862,6 +158075,649 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		id = 801597,
 		system_transform = {
 			[51.0] = 801597
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801600] = {
+		desc_get = "",
+		name = "Shadow of Eternal Night",
+		type = 1,
+		max_level = 10,
+		desc = "When this ship fires her Main Guns: $1 chance to fire a $2 special barrage (DMG is based on the skill's level); enemies hit by this barrage have their ACC reduced by $3 for 8s. Increases the DMG taken by enemies within a defensive zone around this ship by $4, and additionally triggers a $2 special barrage whenever an enemy enters this defensive zone (DMG is based on the skill's level; can only activate once every 15s).",
+		id = 801600,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"50.0%",
+				"100.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"50.0%",
+					"+5.0%"
+				},
+				{
+					"55.0%",
+					"+5.0%"
+				},
+				{
+					"60.0%",
+					"+5.0%"
+				},
+				{
+					"65.0%",
+					"+5.0%"
+				},
+				{
+					"70.0%",
+					"+5.0%"
+				},
+				{
+					"75.0%",
+					"+5.0%"
+				},
+				{
+					"80.0%",
+					"+5.0%"
+				},
+				{
+					"85.0%",
+					"+5.0%"
+				},
+				{
+					"90.0%",
+					"+10.0%"
+				},
+				{
+					"100%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			}
+		}
+	},
+	[801610] = {
+		desc_get = "",
+		name = "Banner of Eternal Night",
+		type = 3,
+		max_level = 10,
+		desc = "Increases this ship's FP and ACC by $1. When this ship fires her Main Guns: increases this ship's Crit Rate by $2 and reduces the DMG taken by your Vanguard by $3 for 5s. At the start of battle, if another META ship is present in the same fleet: increases this ship's DMG dealt by $4 until the battle ends.",
+		id = 801610,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"4.5%",
+				"12.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"4.5%",
+					"+0.7%"
+				},
+				{
+					"5.2%",
+					"+0.8%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+0.7%"
+				},
+				{
+					"7.7%",
+					"+0.8%"
+				},
+				{
+					"8.5%",
+					"+1.0%"
+				},
+				{
+					"9.5%",
+					"+0.7%"
+				},
+				{
+					"10.2%",
+					"+0.8%"
+				},
+				{
+					"11.0%",
+					"+1.0%"
+				},
+				{
+					"12.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[801620] = {
+		desc_get = "",
+		name = "Veil of Eternal Night",
+		type = 2,
+		max_level = 10,
+		desc = "Reduces the first $1 instance(s) of DMG this ship takes by $2 during each battle. The first time this ship's HP falls beneath 40.0% HP as a result of DMG taken, restores HP equal to $3 of this ship's max HP, and reduces her DMG taken by $4 until the end of battle.",
+		id = 801620,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"2",
+				"4"
+			},
+			{
+				"30.0%",
+				"60.0%"
+			},
+			{
+				"10.0%",
+				"20.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"2"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"3"
+				},
+				{
+					"4"
+				},
+				{
+					"4"
+				}
+			},
+			{
+				{
+					"30.0%",
+					"+3.3%"
+				},
+				{
+					"33.3%",
+					"+3.3%"
+				},
+				{
+					"36.6%",
+					"+3.3%"
+				},
+				{
+					"39.9%",
+					"+3.3%"
+				},
+				{
+					"43.2%",
+					"+3.3%"
+				},
+				{
+					"46.5%",
+					"+3.3%"
+				},
+				{
+					"49.8%",
+					"+3.3%"
+				},
+				{
+					"53.1%",
+					"+3.3%"
+				},
+				{
+					"56.4%",
+					"+3.6%"
+				},
+				{
+					"60.0%"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+1.1%"
+				},
+				{
+					"11.1%",
+					"+1.1%"
+				},
+				{
+					"12.2%",
+					"+1.1%"
+				},
+				{
+					"13.3%",
+					"+1.1%"
+				},
+				{
+					"14.4%",
+					"+1.1%"
+				},
+				{
+					"15.5%",
+					"+1.1%"
+				},
+				{
+					"16.6%",
+					"+1.1%"
+				},
+				{
+					"17.7%",
+					"+1.1%"
+				},
+				{
+					"18.8%",
+					"+1.2%"
+				},
+				{
+					"20.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
+	[801631] = {
+		desc_get = "",
+		name = "Cinders of Hope - Andrea Doria I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 801631,
+		system_transform = {
+			[51.0] = 801635
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801632] = {
+		desc_get = "",
+		name = "Cinders of Hope - Andrea Doria II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 801632,
+		system_transform = {
+			[51.0] = 801637
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801635] = {
+		desc_get = "",
+		name = "Cinders of Hope - Andrea Doria I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 3.0%.",
+		id = 801635,
+		system_transform = {
+			[51.0] = 801635
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801637] = {
+		desc_get = "",
+		name = "Cinders of Hope - Andrea Doria II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nWhen fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 8.0%.",
+		id = 801637,
+		system_transform = {
+			[51.0] = 801637
 		},
 		world_death_mark = {
 			1

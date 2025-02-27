@@ -299,9 +299,9 @@ return {
 		},
 		{
 			side = 2,
+			blackBg = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			blackBg = true,
 			say = "The Apostle closed her eyes, pondered for a moment, then opened them again.",
 			typewriter = {
 				speed = 0.05,
@@ -322,6 +322,12 @@ return {
 				alpha = {
 					1,
 					0
+				}
+			},
+			effects = {
+				{
+					active = true,
+					name = "heimutexiao1"
 				}
 			}
 		},

@@ -4666,6 +4666,46 @@ pg.backyard_theme_template = {
 			318304
 		}
 	},
+	[119] = {
+		Cfg_1 = 5,
+		name = "Pharaoh's Secret Realm",
+		desc = "Setting foot on this golden land, it feels as though you can hear the echoes of ancient times.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 120,
+		id = 119,
+		icon = "ajthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			319001,
+			319002,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
+			319301,
+			319302,
+			319303,
+			319304
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4772,6 +4812,7 @@ pg.backyard_theme_template = {
 		115,
 		116,
 		117,
-		118
+		118,
+		119
 	}
 }

@@ -126,6 +126,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705072,
 		9705073,
 		9705074,
+		9705081,
+		9705082,
+		9705083,
+		9705084,
 		9706011,
 		9706012,
 		9706013,
@@ -2171,6 +2175,73 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9705074,
 		item1 = 21040,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9705081] = {
+		breakout_view = "Unlock Cinders of Hope - Andrea Doria/Main gun base +1/Main gun efficiency +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9705082,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705081,
+		item1 = 21044,
+		level = 10,
+		weapon_ids = {
+			95480,
+			95480
+		}
+	},
+	[9705082] = {
+		breakout_view = "Secondary Gun base +2/Main gun efficiency +10%",
+		item2 = 21001,
+		pre_id = 9705081,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9705083,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705082,
+		item1 = 21044,
+		level = 30,
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[9705083] = {
+		breakout_view = "Improve Cinders of Hope - Andrea Doria/Main gun base +1/Main gun efficiency +15%",
+		item2 = 21001,
+		pre_id = 9705082,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9705084,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9705083,
+		item1 = 21044,
+		level = 70,
+		weapon_ids = {
+			95480,
+			95480,
+			95480
+		}
+	},
+	[9705084] = {
+		breakout_view = "None",
+		item2 = 21001,
+		pre_id = 9705083,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9705084,
+		item1 = 21044,
 		level = 0,
 		weapon_ids = {}
 	},

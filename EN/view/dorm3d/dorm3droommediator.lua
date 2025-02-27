@@ -152,6 +152,9 @@ slot0.register = function(slot0)
 				end,
 				[70] = function ()
 					return NengDaiScheduleGameView
+				end,
+				[75] = function ()
+					return RPSGameLayer
 				end
 			}, function ()
 				assert(false, "without dorm minigame config in id:" .. uv0.minigameId)
@@ -272,6 +275,13 @@ slot0.initNotificationHandleDic = function(slot0)
 		[GAME.APARTMENT_GIVE_GIFT_DONE] = function (slot0, slot1)
 			slot0.viewComponent:PlayHeartFX(slot1:getBody().groupId)
 			slot0.viewComponent:UpdateBtnState()
+			getProxy(Dorm3dChatProxy):TriggerEvent({
+				{
+					value = 1,
+					event_type = slot0.contextData.timeIndex == 1 and 113 or 118,
+					ship_id = slot2.groupId
+				}
+			})
 		end,
 		[uv0.GUIDE_CLICK_LADY] = function (slot0, slot1)
 			warning("this.GUIDE_CLICK_LADY")

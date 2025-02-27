@@ -431,7 +431,7 @@ pg.dorm3d_furniture_template = {
 		shop_id = {}
 	},
 	[221] = {
-		rarity = 3,
+		rarity = 4,
 		name = "Tanuki Cushion",
 		type = 4,
 		room_id = 2,

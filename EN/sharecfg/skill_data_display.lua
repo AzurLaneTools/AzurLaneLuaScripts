@@ -1783,6 +1783,21 @@ pg.skill_data_display = setmetatable({
 		150883,
 		150884,
 		150890,
+		150900,
+		150901,
+		150910,
+		150920,
+		150930,
+		150958,
+		150961,
+		150962,
+		150963,
+		150964,
+		150968,
+		150981,
+		150982,
+		150992,
+		150993,
 		18010,
 		18040,
 		18041,
@@ -2247,6 +2262,8 @@ pg.skill_data_display = setmetatable({
 		28232,
 		28241,
 		28242,
+		28271,
+		28272,
 		29011,
 		29012,
 		29021,
@@ -2433,6 +2450,8 @@ pg.skill_data_display = setmetatable({
 		30415,
 		30412,
 		30416,
+		30421,
+		30422,
 		39000,
 		39001,
 		39002,
@@ -3072,6 +3091,9 @@ pg.skill_data_display = setmetatable({
 		801592,
 		801595,
 		801597,
+		801602,
+		801611,
+		801621,
 		902201,
 		1010140,
 		1010143,
@@ -3258,6 +3280,12 @@ pg.skill_data_display = setmetatable({
 		201199,
 		201200,
 		201220,
+		201238,
+		201240,
+		201289,
+		201295,
+		201303,
+		201307,
 		1011540,
 		1011541,
 		1090010,
@@ -10547,6 +10575,66 @@ pg.base.skill_data_display = {
 		id = 150890,
 		name = "Blast Off Into the Future"
 	},
+	[150900] = {
+		id = 150900,
+		name = "Combat Analysis Complete!"
+	},
+	[150901] = {
+		id = 150901,
+		name = "Combat Analysis Complete!"
+	},
+	[150910] = {
+		id = 150910,
+		name = "Strict Flower of Sardegna"
+	},
+	[150920] = {
+		id = 150920,
+		name = "Odi Barbare"
+	},
+	[150930] = {
+		id = 150930,
+		name = "Il Canto di Marzo"
+	},
+	[150958] = {
+		id = 150958,
+		name = "Pearlescent Paint"
+	},
+	[150961] = {
+		id = 150961,
+		name = "Apex Artist - Pearlescent Paint"
+	},
+	[150962] = {
+		id = 150962,
+		name = "Apex Artist - Artist's Blessing"
+	},
+	[150963] = {
+		id = 150963,
+		name = "Apex Artist - Artist's Dedication"
+	},
+	[150964] = {
+		id = 150964,
+		name = "Apex Artist - Jet-Black Paint"
+	},
+	[150968] = {
+		id = 150968,
+		name = "Apex Artist"
+	},
+	[150981] = {
+		id = 150981,
+		name = "Thrill-Seeker"
+	},
+	[150982] = {
+		id = 150982,
+		name = "Thrill-Seeker"
+	},
+	[150992] = {
+		id = 150992,
+		name = "Born Adventurer"
+	},
+	[150993] = {
+		id = 150993,
+		name = "Born Adventurer"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -12403,6 +12491,14 @@ pg.base.skill_data_display = {
 		id = 28242,
 		name = "All Out Assault II"
 	},
+	[28271] = {
+		id = 28271,
+		name = "All Out Assault I"
+	},
+	[28272] = {
+		id = 28272,
+		name = "All Out Assault II"
+	},
 	[29011] = {
 		id = 29011,
 		name = "EX Barrage: England Ⅰ"
@@ -13146,6 +13242,14 @@ pg.base.skill_data_display = {
 	[30416] = {
 		id = 30416,
 		name = "All Out Assault III"
+	},
+	[30421] = {
+		id = 30421,
+		name = "All Out Assault I"
+	},
+	[30422] = {
+		id = 30422,
+		name = "All Out Assault II"
 	},
 	[39000] = {
 		id = 39000,
@@ -15703,6 +15807,18 @@ pg.base.skill_data_display = {
 		id = 801597,
 		name = "Cinders of Hope - Bolzano II"
 	},
+	[801602] = {
+		id = 801602,
+		name = "Shadow of Eternal Night"
+	},
+	[801611] = {
+		id = 801611,
+		name = "Banner of Eternal Night"
+	},
+	[801621] = {
+		id = 801621,
+		name = "Veil of Eternal Night"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -16446,6 +16562,30 @@ pg.base.skill_data_display = {
 	[201220] = {
 		id = 201220,
 		name = "In the Name of the Admiral Hipper Class"
+	},
+	[201238] = {
+		id = 201238,
+		name = "Overclocked Shooting"
+	},
+	[201240] = {
+		id = 201240,
+		name = "Adaptive Barrier"
+	},
+	[201289] = {
+		id = 201289,
+		name = "Aerial Support"
+	},
+	[201295] = {
+		id = 201295,
+		name = "The Great Apostle's Might"
+	},
+	[201303] = {
+		id = 201303,
+		name = "Polarization"
+	},
+	[201307] = {
+		id = 201307,
+		name = "Heaven's Judgment"
 	},
 	[1011540] = {
 		id = 1011540,

@@ -19,16 +19,28 @@ pg.dorm3d_minigame = {
 		area = "",
 		ship_id = 30221
 	},
+	[75] = {
+		name = "猜拳游戏",
+		action = "",
+		id = 75,
+		room_id = 3,
+		area = "",
+		ship_id = 19903
+	},
 	get_id_list_by_room_id = {
 		{
 			67
 		},
 		{
 			70
+		},
+		{
+			75
 		}
 	},
 	all = {
 		67,
-		70
+		70,
+		75
 	}
 }

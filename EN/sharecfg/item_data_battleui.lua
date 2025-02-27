@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "201",
 		scene = {}
 	},
+	[202] = {
+		unlock = "Buy the Battle UI Pack - Pharaoh",
+		name = "Battle UI - Pharaoh",
+		key = "SkinNormal_20250227",
+		display_icon = "ui_202",
+		is_unlock = 1,
+		rare = 4,
+		desc = "Hieroglyphs and gold emblazonings. They retell the legends of the Nile culture from time immemorial.",
+		id = 202,
+		icon = "202",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -91,6 +103,7 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
-		201
+		201,
+		202
 	}
 }

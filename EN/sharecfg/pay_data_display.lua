@@ -166,6 +166,9 @@ pg.pay_data_display = setmetatable({
 		2039,
 		2040,
 		2041,
+		2042,
+		2043,
+		2044,
 		5011,
 		5012,
 		5013,
@@ -188,7 +191,8 @@ pg.pay_data_display = setmetatable({
 		151,
 		152,
 		153,
-		154
+		154,
+		155
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15781,6 +15785,232 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[2042] = {
+		extra_gem = 0,
+		limit_group = 103,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Battle UI Pack – Pharaoh",
+		first_pay_double = 0,
+		name_display = "Battle UI Pack – Pharaoh",
+		descrip = "Contains a new combat UI theme.",
+		subject = "Battle UI Pack – Pharaoh",
+		money = 1199,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack20",
+		extra_service = 3,
+		id = 2042,
+		airijp_id = "com.yostaren.azurlane.pack20",
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2043] = {
+		extra_gem = 0,
+		limit_group = 103,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Battle UI Pack - Pharaoh (Basic)",
+		first_pay_double = 0,
+		name_display = "Battle UI Pack - Pharaoh (Basic)",
+		descrip = "Contains a new combat UI theme.",
+		subject = " Battle UI Pack - Pharaoh (Basic)",
+		money = 1199,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack20",
+		extra_service = 3,
+		id = 2043,
+		airijp_id = "com.yostaren.azurlane.pack20",
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40055,
+				1
+			}
+		}
+	},
+	[2044] = {
+		extra_gem = 0,
+		limit_group = 103,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Battle UI Pack - Pharaoh (Premium)",
+		first_pay_double = 0,
+		name_display = "Battle UI Pack - Pharaoh (Premium)",
+		descrip = "Contains a new combat UI theme and Gems x 3,060.",
+		subject = "Battle UI Pack - Pharaoh (Premium)",
+		money = 3699,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui3",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack21",
+		extra_service = 3,
+		id = 2044,
+		airijp_id = "com.yostaren.azurlane.pack21",
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40056,
+				1
+			}
+		}
+	},
 	[5011] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -18154,6 +18384,120 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81418,
+				1
+			}
+		}
+	},
+	[155] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		name = "Nile Colors Lucky Box",
+		first_pay_double = 0,
+		name_display = "Nile Colors Lucky Box",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Nile Colors Lucky Box",
+		money = 2999,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai93",
+		skin_inquire_relation = 86413,
+		id_str = "com.yostaren.azurlane.luckybag53",
+		extra_service = 3,
+		id = 155,
+		airijp_id = "com.yostaren.azurlane.luckybag53",
+		extra_service_item = {
+			{
+				2,
+				86413,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86211,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81422,
 				1
 			}
 		}

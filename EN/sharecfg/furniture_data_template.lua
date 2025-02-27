@@ -154,6 +154,7 @@ pg.furniture_data_template = setmetatable({
 			291,
 			292,
 			293,
+			295,
 			100002,
 			100003,
 			100004,
@@ -209,6 +210,7 @@ pg.furniture_data_template = setmetatable({
 			100058,
 			100059,
 			100060,
+			100061,
 			100064,
 			200001,
 			200002,
@@ -3312,6 +3314,31 @@ pg.furniture_data_template = setmetatable({
 			318303,
 			318304,
 			318305
+		},
+		[119] = {
+			319001,
+			319002,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
+			319117,
+			319301,
+			319302,
+			319303,
+			319304
 		}
 	},
 	get_id_list_by_tag = {
@@ -5280,7 +5307,23 @@ pg.furniture_data_template = setmetatable({
 			318112,
 			318113,
 			318114,
-			318115
+			318115,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116
 		},
 		{
 			1108,
@@ -5592,6 +5635,7 @@ pg.furniture_data_template = setmetatable({
 			100058,
 			100059,
 			100060,
+			100061,
 			100064,
 			31101,
 			54104,
@@ -5655,7 +5699,8 @@ pg.furniture_data_template = setmetatable({
 			287,
 			289,
 			292,
-			293
+			293,
+			295
 		},
 		[7] = {
 			211,
@@ -5854,7 +5899,8 @@ pg.furniture_data_template = setmetatable({
 			315113,
 			316123,
 			317111,
-			318305
+			318305,
+			319117
 		},
 		[4] = {
 			1001,
@@ -5960,7 +6006,8 @@ pg.furniture_data_template = setmetatable({
 			315001,
 			316001,
 			317001,
-			318001
+			318001,
+			319001
 		},
 		[3] = {
 			1002,
@@ -6067,7 +6114,8 @@ pg.furniture_data_template = setmetatable({
 			315002,
 			316002,
 			317002,
-			318002
+			318002,
+			319002
 		},
 		[5] = {
 			1301,
@@ -6428,7 +6476,11 @@ pg.furniture_data_template = setmetatable({
 			318301,
 			318302,
 			318303,
-			318304
+			318304,
+			319301,
+			319302,
+			319303,
+			319304
 		}
 	},
 	get_id_list_by_type = {
@@ -6537,7 +6589,8 @@ pg.furniture_data_template = setmetatable({
 			315002,
 			316002,
 			317002,
-			318002
+			318002,
+			319002
 		},
 		[7] = {
 			1,
@@ -6667,6 +6720,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			293,
+			295,
 			100002,
 			100004,
 			100005,
@@ -6708,7 +6762,8 @@ pg.furniture_data_template = setmetatable({
 			100055,
 			100056,
 			100058,
-			100059
+			100059,
+			100061
 		},
 		[2] = {
 			120,
@@ -8679,7 +8734,24 @@ pg.furniture_data_template = setmetatable({
 			318112,
 			318113,
 			318114,
-			318115
+			318115,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
+			319117
 		},
 		[11] = {
 			131,
@@ -8858,7 +8930,8 @@ pg.furniture_data_template = setmetatable({
 			315001,
 			316001,
 			317001,
-			318001
+			318001,
+			319001
 		},
 		[5] = {
 			1101,
@@ -9524,7 +9597,10 @@ pg.furniture_data_template = setmetatable({
 			318302,
 			318303,
 			318304,
-			318305
+			318305,
+			319302,
+			319303,
+			319304
 		},
 		[8] = {
 			17121
@@ -9556,7 +9632,8 @@ pg.furniture_data_template = setmetatable({
 			310303,
 			310304,
 			310305,
-			312301
+			312301,
+			319301
 		},
 		[12] = {
 			46131
@@ -9716,6 +9793,7 @@ pg.furniture_data_template = setmetatable({
 		291,
 		292,
 		293,
+		295,
 		100002,
 		100003,
 		100004,
@@ -9771,6 +9849,7 @@ pg.furniture_data_template = setmetatable({
 		100058,
 		100059,
 		100060,
+		100061,
 		100064,
 		200001,
 		200002,
@@ -12661,7 +12740,30 @@ pg.furniture_data_template = setmetatable({
 		318302,
 		318303,
 		318304,
-		318305
+		318305,
+		319001,
+		319002,
+		319101,
+		319102,
+		319103,
+		319104,
+		319105,
+		319106,
+		319107,
+		319108,
+		319109,
+		319110,
+		319111,
+		319112,
+		319113,
+		319114,
+		319115,
+		319116,
+		319117,
+		319301,
+		319302,
+		319303,
+		319304
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20234,6 +20336,49 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[295] = {
+		can_rotate = 0,
+		name = "Crown of Eternal Night",
+		gain_by = "Paradiso of Shackled Light",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 8,
+		icon = "lafeierxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "A replica of the Crown of Eternal Night. It glows just as brightly but without the META corrosion, so you can admire it with peace of mind.",
+		advice = 0,
+		id = 295,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"lafeierxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -21443,7 +21588,9 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					nil,
 					{
 						"action",
-						"tuozhuai2"
+						"tuozhuai2",
+						false,
+						true
 					},
 					"tuozhuai2"
 				},
@@ -23157,7 +23304,9 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					nil,
 					{
 						"sit1",
-						"sit"
+						"sit",
+						false,
+						true
 					},
 					"sit"
 				},
@@ -24161,6 +24310,98 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[100061] = {
+		can_rotate = 0,
+		name = "Pearly Perfection Bed",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 0,
+		icon = "zhenzhubeichuangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "They say the world is your oyster, so why not sleep in it?",
+		advice = 0,
+		id = 100061,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhenzhubeichuangB",
+				"normal"
+			},
+			{
+				"zhenzhubeichuangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					[3] = {
+						"sleep1",
+						"sleep"
+					},
+					[4] = sleep
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					9.7,
+					19.4
+				},
+				{
+					203.06,
+					170.6
+				},
+				"chuanmo/zhenzhubeichuang_mask"
+			},
+			{
+				-17.6,
+				-27.1
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -74064,7 +74305,9 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				{
 					[3] = {
 						"sit0",
-						"sit"
+						"sit",
+						false,
+						true
 					}
 				},
 				{
@@ -97688,7 +97931,9 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				{
 					[3] = {
 						"action",
-						"dance"
+						"dance",
+						false,
+						true
 					}
 				},
 				{
@@ -141715,7 +141960,9 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					nil,
 					{
 						"sit1",
-						"sit"
+						"sit",
+						false,
+						true
 					},
 					"sit"
 				},
@@ -151359,6 +151606,983 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		spine = {
 			{
 				"zhuangshiguahuacj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319001] = {
+		can_rotate = 0,
+		name = "Pharaoh's Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/dibanaj",
+		canputon = 0,
+		count = 1,
+		describe = "\"It's worn and sandy,\" you complain? That's a feature!",
+		advice = 0,
+		deblocking = 1,
+		id = 319001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319002] = {
+		can_rotate = 0,
+		name = "Pharaoh's Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbiajicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		describe = "Is that an oasis in the distance, or is your mind playing tricks on you?",
+		advice = 0,
+		id = 319002,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiaj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[319101] = {
+		can_rotate = 0,
+		name = "Pharaoh's Pool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "chitangajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "aj/chitangaj",
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		describe = "Don't be fooled by its small size. It possesses powerful healing and cleaning properties.",
+		advice = 0,
+		id = 319101,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			11,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-19.1,
+					-100.8
+				},
+				{
+					-1,
+					1
+				},
+				"aj/chitangaj_using",
+				0,
+				{
+					{
+						0.5,
+						2
+					},
+					{
+						662,
+						399
+					},
+					"aj/chitangaj_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319102] = {
+		can_rotate = 0,
+		name = "Pharaoh's Carpet",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "ditanajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "aj/ditanaj",
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		describe = "Sit down, pick up a book, and chew on some fruits while the wind whispers to you.",
+		advice = 0,
+		id = 319102,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					13.9,
+					12.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319103] = {
+		can_rotate = 0,
+		name = "Sentry Statjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jiudiaoxiang1ajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/jiudiaoxiang1aj",
+		canputon = 0,
+		count = 1,
+		describe = "One of the temple's loyal guards. This one is said to be forceful and might make you return a card to your deck.",
+		advice = 0,
+		deblocking = 1,
+		id = 319103,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319104] = {
+		can_rotate = 0,
+		name = "Sentry Statjuu 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jiudiaoxiang2ajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/jiudiaoxiang2aj",
+		canputon = 0,
+		count = 1,
+		describe = "One of the temple's loyal guards. This one is said to be humble and reveals its hand to you so it can return a card to its deck.",
+		advice = 0,
+		deblocking = 1,
+		id = 319104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319105] = {
+		can_rotate = 0,
+		name = "Sphinx Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shishendiaoxiang1ajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/shishendiaoxiang1aj",
+		canputon = 0,
+		count = 1,
+		describe = "What goes on four feet in the morning, two feet in midday, and three feet in the evening?",
+		advice = 0,
+		deblocking = 1,
+		id = 319105,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319106] = {
+		can_rotate = 0,
+		name = "Sphinx Statue 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shishendiaoxiang2ajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/shishendiaoxiang2aj",
+		canputon = 0,
+		count = 1,
+		describe = "The answer is \"man.\" Everyone knows that these days. Only took a few millennia, but still.",
+		advice = 0,
+		deblocking = 1,
+		id = 319106,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319107] = {
+		can_rotate = 0,
+		name = "Exotic Fruit Stall",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xiaotanajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/xiaotanaj",
+		canputon = 0,
+		count = 1,
+		describe = "This manjuu is selling fruits from foreign lands. If you must try some, be sure to haggle first!",
+		advice = 0,
+		deblocking = 1,
+		id = 319107,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319108] = {
+		can_rotate = 0,
+		name = "Ancient Sand Pile",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shaduiajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/shaduiaj",
+		canputon = 0,
+		count = 2,
+		describe = "Maybe there's a chest under this one? Hope you have a wind skill ready.",
+		advice = 0,
+		deblocking = 1,
+		id = 319108,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319109] = {
+		can_rotate = 0,
+		name = "Guardian Meowfficer Statue",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "maoshixiangajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/maoshixiangaj",
+		canputon = 0,
+		count = 1,
+		describe = "They say that if you salute back to it, you'll receive good luck.",
+		advice = 0,
+		deblocking = 1,
+		id = 319109,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319110] = {
+		can_rotate = 0,
+		name = "Mysterious Bazaar",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "guangchangajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/guangchangaj",
+		canputon = 0,
+		count = 1,
+		describe = "Each and every item here has a story to tell. Won't you pick one and listen to it?",
+		advice = 0,
+		deblocking = 1,
+		id = 319110,
+		comfortable = 4,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319111] = {
+		can_rotate = 0,
+		name = "Snake in a Pot",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "taoqiajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		describe = "It knows secretsss. The quessstion is, can you charm it into giving them up?",
+		advice = 0,
+		id = 319111,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taoqiaj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319112] = {
+		can_rotate = 0,
+		name = "Temple Pillars",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "hengliangajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/hengliangaj",
+		canputon = 0,
+		count = 1,
+		describe = "These pillars have ornate engravings, ranging from bread, to beer, to garlic.",
+		advice = 0,
+		deblocking = 1,
+		id = 319112,
+		comfortable = 2,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319113] = {
+		can_rotate = 0,
+		name = "Mummy Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "bengdaijiuajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/bengdaijiuaj",
+		canputon = 0,
+		count = 1,
+		describe = "Don't be afraid. It's not quite what first comes to mind.",
+		advice = 0,
+		deblocking = 1,
+		id = 319113,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319114] = {
+		can_rotate = 0,
+		name = "Pharaoh's Sarcophagus",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "guanmuajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "aj/guanmuaj",
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		describe = "While it looks golden and shiny on the outside, you probably don't want to see what's inside...",
+		advice = 0,
+		id = 319114,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanmuaj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319115] = {
+		can_rotate = 0,
+		name = "Obelisk",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "fangjianbeiajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/fangjianbeiaj",
+		canputon = 0,
+		count = 1,
+		describe = "Now where's Asterisk?",
+		advice = 0,
+		deblocking = 1,
+		id = 319115,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319116] = {
+		can_rotate = 0,
+		name = "Desert Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "huatanajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/huatanaj",
+		canputon = 0,
+		count = 4,
+		describe = "A little bit of greenery goes a long way in the desert.",
+		advice = 0,
+		deblocking = 1,
+		id = 319116,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319117] = {
+		can_rotate = 0,
+		name = "Throne of the Winged God",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 119,
+		icon = "baozuoajicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Sit upon the throne and fly to the heavens! Spread your wings like a phoenix! Warning: Don't fly too close to the sun.",
+		advice = 0,
+		id = 319117,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baozuoajB",
+				"normal"
+			},
+			{
+				"baozuoajT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[319301] = {
+		can_rotate = 0,
+		name = "Royal Tomb Wall",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "jianzhuqiangajicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/jianzhuqiangaj",
+		canputon = 0,
+		count = 1,
+		describe = "The statues guarding this passage shall judge your character.",
+		advice = 0,
+		deblocking = 1,
+		id = 319301,
+		comfortable = 4,
+		size = {
+			12,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319302] = {
+		can_rotate = 0,
+		name = "Bastet's Gate",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "shixiangdamenajicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		describe = "What lies beyond the thousand-year door? Akashi's ancestors, perhaps?",
+		advice = 0,
+		id = 319302,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shixiangdamenaj",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319303] = {
+		can_rotate = 0,
+		name = "Pyramid Wall Ornaments",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "jinzitaqiangshiajicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 119,
+		spine_action_replace = "",
+		picture = "aj/jinzitaqiangshiaj",
+		canputon = 0,
+		count = 1,
+		describe = "Humans couldn't possibly have built something so impressive! Must've been the Sirens!",
+		advice = 0,
+		deblocking = 1,
+		id = 319303,
+		comfortable = 2,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319304] = {
+		can_rotate = 0,
+		name = "Golden Bird's Stone Slab",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "feiniaoajicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		describe = "A stone slab painted golden by the sands of time. They say the symbols on it describe a poultry recipe.",
+		advice = 0,
+		id = 319304,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiniaoaj",
 				"normal",
 				{
 					"action",

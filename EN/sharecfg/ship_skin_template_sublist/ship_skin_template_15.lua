@@ -1,455 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
-	[707010] = {
-		name = "Volga",
-		change_skin = "",
-		bg_sp = "",
-		desc = "Project 72-class aircraft carrier – Volga",
-		illustrator2 = -1,
-		ship_group = 70701,
-		group_index = 0,
-		painting = "fuerjia",
-		prefab = "fuerjia",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 707010,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 307,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.102,
-					1.651,
-					0
-				}
-			},
-			plane = {
-				{
-					2.156,
-					1.781,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.461,
-							2.503,
-							-1.89
-						}
-					}
-				}
-			}
-		}
-	},
-	[707011] = {
-		name = "An Irresistible AR Adventure",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "Volga here. I'm currently tracking an important witness. *gurgle* ...Is my stomach rumbling because this AR game requires so much stamina? Ugh, lost track of the witness just now...",
-		illustrator2 = -1,
-		ship_group = 70701,
-		group_index = 1,
-		painting = "fuerjia_2",
-		prefab = "fuerjia_2",
-		hand_id = 1,
-		shop_type_id = 12,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "154",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 707011,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70669,
-		voice_actor = 307,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.211,
-					1.633,
-					0
-				}
-			},
-			plane = {
-				{
-					2.31,
-					2.08,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.506,
-							2.359,
-							-1.89
-						}
-					}
-				}
-			}
-		}
-	},
-	[718010] = {
-		name = "Kronshtadt",
-		change_skin = "",
-		bg_sp = "",
-		desc = "Project 69-class cruiser – Kronshtadt",
-		illustrator2 = -1,
-		ship_group = 71801,
-		group_index = 0,
-		painting = "kalangshitade",
-		prefab = "kalangshitade",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 718010,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 272,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.76,
-					1.61,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.07,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.56,
-					1.74,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.386,
-							2.405,
-							-0.16
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-92,
-				-772,
-				0
-			},
-			{
-				0.95
-			}
-		},
-		special_effects = {
-			"lihui_kalangshitade",
-			{
-				1597,
-				229,
-				0
-			},
-			{
-				1.35
-			}
-		}
-	},
-	[718011] = {
-		name = "Begin the Rush!",
-		change_skin = "",
-		bg_sp = "",
-		desc = "Listen up, assholes! We have you surrounded! I'm Kronshtadt, squad leader of the Northern Parliament Special Forces! You have only one option: come out with your hands in the air and surrender!",
-		illustrator2 = -1,
-		ship_group = 71801,
-		group_index = 1,
-		painting = "kalangshitade_2",
-		prefab = "kalangshitade_2",
-		hand_id = 1,
-		shop_type_id = 12,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "154",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 718011,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70667,
-		voice_actor = 272,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			47,
-			-60,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.397,
-					1.306,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.07,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.299,
-					1.316,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.351,
-							2.346,
-							-0.16
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		}
-	},
 	[801010] = {
 		name = "Le Triomphant",
 		change_skin = "",
@@ -14005,6 +13556,613 @@ pg.base.ship_skin_template_15 = {
 							-0.64,
 							2.606,
 							-0.472
+						}
+					}
+				}
+			}
+		}
+	},
+	[900004] = {
+		name = "Suffolk",
+		change_skin = "",
+		bg_sp = "",
+		desc = "Kent-class heavy cruiser—Suffolk, Hull Number 55!",
+		illustrator2 = 0,
+		ship_group = 900004,
+		group_index = 0,
+		painting = "safuke",
+		prefab = "safuke",
+		hand_id = 0,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900004,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.088,
+					0.776,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.088,
+					0.776,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.251,
+					0.487,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.027,
+					0.936,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.29,
+							0.95,
+							-0.16
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.71,
+							2.52,
+							0.07
+						}
+					}
+				}
+			}
+		}
+	},
+	[900005] = {
+		name = "Norfolk",
+		change_skin = "",
+		bg_sp = "",
+		desc = "Norfolk-class heavy cruiser—Norfolk, Hull Number 78!",
+		illustrator2 = 0,
+		ship_group = 900005,
+		group_index = 0,
+		painting = "nuofuke",
+		prefab = "nuofuke",
+		hand_id = 0,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900005,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.606,
+					0.501,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.82,
+							2.19,
+							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[900006] = {
+		name = "Hood",
+		change_skin = "",
+		bg_sp = "",
+		desc = "Admiral-class battlecruiser, Hood, Hull Number 51!",
+		illustrator2 = 0,
+		ship_group = 900006,
+		group_index = 0,
+		painting = "hude",
+		prefab = "hude",
+		hand_id = 0,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900006,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.25,
+					1.291,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0,
+					0.585,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.65,
+					0.823,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.3,
+							0.87,
+							-0.4
+						}
+					}
+				}
+			}
+		}
+	},
+	[900007] = {
+		name = "Prince of Wales",
+		change_skin = "",
+		bg_sp = "",
+		desc = "King George V-class battleship, Prince of Wales. Hull Number 53.",
+		illustrator2 = 0,
+		ship_group = 900007,
+		group_index = 0,
+		painting = "weiershiqinwang",
+		prefab = "weiershiqinwang",
+		hand_id = 0,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900007,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.6,
+					0.11,
+					-0.06
+				}
+			},
+			vicegun = {
+				{
+					-0.235,
+					0.409,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.552,
+					1.098,
+					0
+				},
+				{
+					0.764,
+					0.871,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-1.014,
+							1.52,
+							-0.59
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.57,
+							0.723,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[900008] = {
+		name = "Ark Royal",
+		change_skin = "",
+		bg_sp = "",
+		desc = "No description",
+		illustrator2 = 0,
+		ship_group = 900008,
+		group_index = 0,
+		painting = "huangjiafangzhou",
+		prefab = "huangjiafangzhou",
+		hand_id = 0,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900008,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = -1,
+		spine_offset = "",
+		illustrator = 0,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.333,
+					1.037,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.81,
+					0.757,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.469,
+							0.402,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.34,
+							0.854,
+							0
 						}
 					}
 				}

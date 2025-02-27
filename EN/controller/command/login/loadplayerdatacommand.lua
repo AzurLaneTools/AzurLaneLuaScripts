@@ -259,6 +259,14 @@ slot0.execute = function(slot0, slot1)
 			true
 		},
 		{
+			Dorm3dChatProxy,
+			true
+		},
+		{
+			Dorm3dInsProxy,
+			true
+		},
+		{
 			GMTProxy,
 			true
 		}

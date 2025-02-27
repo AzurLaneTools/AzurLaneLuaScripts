@@ -497,7 +497,7 @@ pg.item_data_frame = {
 	},
 	[334] = {
 		name = "A Stroke of Divine Light: Bastion of Saintly Wings",
-		gain_by = "",
+		gain_by = "樊笼内的神光",
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
