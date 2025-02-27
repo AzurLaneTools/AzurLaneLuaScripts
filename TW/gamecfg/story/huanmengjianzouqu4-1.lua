@@ -10,11 +10,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"鳶尾教國·聖米歇爾山港",
 					1
 				},
 				{
-					"「和平间奏曲」·演习海域",
+					"「和平間奏曲」·演習海域",
 					2
 				},
 				{
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			bgm = "level-french1",
-			say = "阳光明媚，晴空万里。圣米歇尔山上，四大阵营的旗帜随风飘扬。",
+			say = "陽光明媚，晴空萬里。聖米歇爾山上，四大陣營的旗幟隨風飄揚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "此刻，各舰队所属的量产型和舰船依次就位，「和平间奏曲」演习即将开始。",
+			say = "此刻，各艦隊所屬的量產型和艦船依序就位，「和平間奏曲」演習即將開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呜……通宵、加班、加班、通宵……总算按时准备好了。",
+			say = "嗚……通宵、加班、加班、通宵……總算按時準備好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "目前为止都没有出现什么差错……真是太好了。",
+			say = "目前為止都沒有出現什麼差錯……真是太好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "了不起哦，迪普莱克斯。",
+			say = "了不起哦，杜布雷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过也“只是到目前为止”，演习才刚刚开始呢。",
+			say = "不過也「只是到目前為止」，演習才剛剛開始呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我知道我知道，阶段性安心，阶段性安心嘛……",
+			say = "我知道我知道，階段性安心，階段性安心嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……接下来该专心处理演习本身上了。",
+			say = "呼……接下來該專心處理演習本身上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这次赛制要求每支队伍依次与其他三支队伍交手，不根据战果做排名，完成流程就算圆满结束。",
+			say = "這次賽制要求每隊依序與其他三隻隊伍交手，不依戰果做排名，完成流程就算圓滿結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒确实算是体现友好交流的设计。",
+			say = "倒確實算是體現友善交流的設計。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是没有假定目标，直接拿彼此当做假想敌是不是有些……",
+			say = "但沒有假定目標，直接拿彼此當假想敵是不是有些……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳，这件事得换一个角度看。",
+			say = "咳，這件事得換一個角度看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "没有什么比面对面直接交手更能看出彼此的优势和劣势了吧？",
+			say = "沒有什麼比面對面直接交手更能看出彼此的優點和缺點了吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯——有道理。那我们就准备出发吧。",
+			say = "嗯——有道理。那我們就準備出發吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本次演习由我们鸢尾舰队最先开始，黎塞留大人也在圣堂会场看着我们，打起精神来。",
+			say = "這次演習由我們鳶尾艦隊最先開始，黎胥留大人也在聖堂會場看著我們，打起精神來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……斯特拉斯堡？",
+			say = "……史特拉斯堡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉。我刚刚走神了。",
+			say = "抱歉。我剛剛恍神了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯……你说的没错。大家打起精神来，我们出发。",
+			say = "嗯……你說的沒錯。大家打起精神來，我們出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

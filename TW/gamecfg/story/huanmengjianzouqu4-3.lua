@@ -12,7 +12,7 @@ return {
 			actor = 202200,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……看来这场战斗是诸位的胜利。",
+			say = "呼……看來這場戰鬥是諸位的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是一场精彩的战斗，诸位的表现也可圈可点。",
+			say = "真是一場精彩的戰鬥，各位的表現也可圈可點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们彼此的优势与劣势已经在刚才战斗中充分暴露，期待一会与你们的第二场战斗。",
+			say = "我們彼此的優勢與劣勢已經在剛才戰鬥中充分暴露，期待待會與你們的第二場戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 202040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……我们会做好准备的，等待我们的再次挑战吧。",
+			say = "嗯……我們會做好準備的，等待我們的再次挑戰吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "皇家舰队重整队形后，离开了这片水域。",
+			say = "皇家艦隊重整隊形後，離開了這片水域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "接下来我们修整一下，然后前往铁血舰队所在海域，迎接下一场战斗。",
+			say = "接下來我們修整一下，然後前往鐵血艦隊所在海域，迎接下一場戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

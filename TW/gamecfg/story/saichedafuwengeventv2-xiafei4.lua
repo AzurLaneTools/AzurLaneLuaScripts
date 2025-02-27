@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_2",
-			actorName = "霞飞",
+			actorName = "霞飛",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "这是符合规则的吗……？"
+			say = "這是符合規則的嗎……？"
 		}
 	}
 }

@@ -310254,6 +310254,514 @@ _G.pg.base.ship_data_statistics[901134] = {
 }
 
 
+_G.pg.base.ship_data_statistics[901141] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "大膽",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 901141,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF L'Audacieux",
+	oxy_cost = 0,
+	skin_id = 901140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		336,
+		28,
+		52,
+		27,
+		0,
+		76,
+		0,
+		68,
+		79,
+		54,
+		49,
+		49
+	},
+	attrs_growth = {
+		9573,
+		386,
+		702,
+		581,
+		0,
+		531,
+		0,
+		1050,
+		1448,
+		0,
+		0,
+		562
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.2,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"guogan"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901142] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "大膽",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 901142,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF L'Audacieux",
+	oxy_cost = 0,
+	skin_id = 901140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		418,
+		35,
+		65,
+		34,
+		0,
+		76,
+		0,
+		68,
+		79,
+		54,
+		49,
+		61
+	},
+	attrs_growth = {
+		9573,
+		386,
+		702,
+		581,
+		0,
+		531,
+		0,
+		1050,
+		1448,
+		0,
+		0,
+		562
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.35,
+		1.2,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"guogan"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901143] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "大膽",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 901143,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF L'Audacieux",
+	oxy_cost = 0,
+	skin_id = 901140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		582,
+		49,
+		90,
+		47,
+		0,
+		76,
+		0,
+		68,
+		79,
+		54,
+		49,
+		85
+	},
+	attrs_growth = {
+		9573,
+		386,
+		702,
+		581,
+		0,
+		531,
+		0,
+		1050,
+		1448,
+		0,
+		0,
+		562
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.2,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"guogan"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901144] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "大膽",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 901144,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF L'Audacieux",
+	oxy_cost = 0,
+	skin_id = 901140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		828,
+		69,
+		129,
+		66,
+		0,
+		76,
+		0,
+		68,
+		79,
+		54,
+		49,
+		122
+	},
+	attrs_growth = {
+		9573,
+		386,
+		702,
+		581,
+		0,
+		531,
+		0,
+		1050,
+		1448,
+		0,
+		0,
+		562
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.25,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"guogan"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[902011] = {
 	nationality = 9,
 	oxy_max = 0,
@@ -312294,6 +312802,510 @@ _G.pg.base.ship_data_statistics[903024] = {
 }
 
 
+_G.pg.base.ship_data_statistics[903031] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 3,
+	name = "杜布雷",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 903031,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Dupleix",
+	oxy_cost = 0,
+	skin_id = 903030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		694,
+		45,
+		45,
+		48,
+		0,
+		67,
+		0,
+		45,
+		9,
+		25.6,
+		60,
+		0
+	},
+	attrs_growth = {
+		17631,
+		629,
+		629,
+		1044,
+		0,
+		467,
+		0,
+		671,
+		381,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		321
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.4,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[903032] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 3,
+	name = "杜布雷",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 903032,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Dupleix",
+	oxy_cost = 0,
+	skin_id = 903030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		863,
+		56,
+		56,
+		60,
+		0,
+		67,
+		0,
+		45,
+		9,
+		25.6,
+		60,
+		0
+	},
+	attrs_growth = {
+		17631,
+		629,
+		629,
+		1044,
+		0,
+		467,
+		0,
+		671,
+		381,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		322
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.4,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[903033] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 3,
+	name = "杜布雷",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 903033,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Dupleix",
+	oxy_cost = 0,
+	skin_id = 903030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1202,
+		79,
+		79,
+		83,
+		0,
+		67,
+		0,
+		45,
+		9,
+		25.6,
+		60,
+		0
+	},
+	attrs_growth = {
+		17631,
+		629,
+		629,
+		1044,
+		0,
+		467,
+		0,
+		671,
+		381,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		323
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.5,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[903034] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 3,
+	name = "杜布雷",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 903034,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Dupleix",
+	oxy_cost = 0,
+	skin_id = 903030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1709,
+		113,
+		113,
+		119,
+		0,
+		67,
+		0,
+		45,
+		9,
+		25.6,
+		60,
+		0
+	},
+	attrs_growth = {
+		17631,
+		629,
+		629,
+		1044,
+		0,
+		467,
+		0,
+		671,
+		381,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		324
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.65,
+		0.9,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
 _G.pg.base.ship_data_statistics[904011] = {
 	nationality = 9,
 	oxy_max = 0,
@@ -312717,6 +313729,513 @@ _G.pg.base.ship_data_statistics[904014] = {
 		927,
 		0,
 		417,
+		0,
+		365,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.7,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dunkerque-Class",
+		"PRE"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[904021] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 4,
+	name = "史特拉斯堡",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 904021,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Strasbourg",
+	oxy_cost = 0,
+	skin_id = 904020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1170,
+		71,
+		0,
+		44,
+		0,
+		62,
+		0,
+		24,
+		9,
+		31,
+		35,
+		0
+	},
+	attrs_growth = {
+		31642,
+		908,
+		0,
+		964,
+		0,
+		434,
+		0,
+		365,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.4,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dunkerque-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[904022] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 4,
+	name = "史特拉斯堡",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 904022,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Strasbourg",
+	oxy_cost = 0,
+	skin_id = 904020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1455,
+		89,
+		0,
+		55,
+		0,
+		62,
+		0,
+		24,
+		9,
+		31,
+		35,
+		0
+	},
+	attrs_growth = {
+		31642,
+		908,
+		0,
+		964,
+		0,
+		434,
+		0,
+		365,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dunkerque-Class",
+		"PRE"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[904023] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 4,
+	name = "史特拉斯堡",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 904023,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Strasbourg",
+	oxy_cost = 0,
+	skin_id = 904020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2026,
+		124,
+		0,
+		76,
+		0,
+		62,
+		0,
+		24,
+		9,
+		31,
+		35,
+		0
+	},
+	attrs_growth = {
+		31642,
+		908,
+		0,
+		964,
+		0,
+		434,
+		0,
+		365,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.55,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dunkerque-Class",
+		"PRE"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[904024] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 4,
+	name = "史特拉斯堡",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 904024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Strasbourg",
+	oxy_cost = 0,
+	skin_id = 904020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2882,
+		177,
+		0,
+		109,
+		0,
+		62,
+		0,
+		24,
+		9,
+		31,
+		35,
+		0
+	},
+	attrs_growth = {
+		31642,
+		908,
+		0,
+		964,
+		0,
+		434,
 		0,
 		365,
 		257,
@@ -359767,6 +361286,133 @@ _G.pg.base.ship_data_statistics[900443] = {
 }
 
 
+_G.pg.base.ship_data_statistics[900444] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "大膽",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900444,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF L'Audacieux",
+	oxy_cost = 0,
+	skin_id = 901140,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		828,
+		69,
+		129,
+		66,
+		0,
+		76,
+		0,
+		68,
+		79,
+		54,
+		49,
+		122
+	},
+	attrs_growth = {
+		9573,
+		386,
+		702,
+		581,
+		0,
+		531,
+		0,
+		1050,
+		1448,
+		0,
+		0,
+		562
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		90173,
+		5673,
+		90633
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.5,
+		1.25,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Fantasque-Class",
+		"guogan"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[900445] = {
 	nationality = 9,
 	oxy_max = 0,
@@ -359890,6 +361536,133 @@ _G.pg.base.ship_data_statistics[900445] = {
 		{}
 	},
 	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[900446] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 4,
+	name = "史特拉斯堡",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 900446,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Strasbourg",
+	oxy_cost = 0,
+	skin_id = 904020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2882,
+		177,
+		0,
+		109,
+		0,
+		62,
+		0,
+		24,
+		9,
+		31,
+		35,
+		0
+	},
+	attrs_growth = {
+		31642,
+		908,
+		0,
+		964,
+		0,
+		434,
+		0,
+		365,
+		257,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		14473,
+		90153,
+		90633
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.7,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Dunkerque-Class",
+		"PRE"
+	}
 }
 
 

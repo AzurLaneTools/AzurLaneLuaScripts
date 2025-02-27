@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-5",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天的赛程已经基本结束，只剩下最后的颁奖仪式了。",
+			say = "今天的賽程已經基本結束，只剩下最後的頒獎典禮了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "从维修站离开后，就被{namecode:473}迎风招展的旗帜吸引了目光。",
+			say = "從維修站離開後，就被U-96迎風招展的旗幟吸引了目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "哟，指挥官，来这里！",
+			say = "喲，指揮官，來這裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "有着明媚笑容的少女轻轻拍了拍身边的空位，示意我再靠近一些。",
+			say = "有著明媚笑容的少女輕輕拍了拍身邊的空位，示意我再靠近一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "刚刚我可是看着你的赛车冲过终点的，接下来是不是要准备去领奖台开香槟了？",
+			say = "剛剛我可是看著你的賽車衝過終點的，接下來是不是要準備去頒獎台開香檳了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "不是，距离颁奖仪式还有一段时间，就先出来活动活动。",
+			say = "不是，距離頒獎典禮還有一段時間，就先出來活動活動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,18 +97,18 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "原来如此。不过指挥官今天冲线的样子很帅哦，和我预想中的一样夺得了冠军。",
+			say = "原來如此。不過指揮官今天衝線的樣子很帥哦，和我預想中的一樣奪得了冠軍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你的预想之中一样？",
+					content = "和妳的預想中一樣？",
 					flag = 1
 				},
 				{
-					content = "可是万一输了怎么办？",
+					content = "可是萬一輸了怎麼辦？",
 					flag = 2
 				}
 			}
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			optionFlag = 1,
-			say = "{namecode:473}对我会赢这件事，这么有自信么？",
+			say = "U-96對我會贏這件事，這麼有自信嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 408093,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那还用说？因为你是我的指挥官嘛。",
+			say = "那還用說？因為你是我的指揮官嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 408093,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那也没办法~输了的话我就帮你加油打气，然后拭目以待你的下一次胜利咯。",
+			say = "那也沒辦法~輸了的話我就幫你加油打氣，然後拭目以待你的下一次勝利囉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "而且指挥官从来不会让我失望呢。",
+			say = "而且指揮官從來不會讓我失望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "再说了，就是因为指挥官参赛，所以我才会来应援嘛。",
+			say = "再說了，就是因為指揮官參賽，所以我才會來應援嘛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "啊啊，不说这个问题了！指挥官，你不觉得有点热吗？",
+			say = "啊啊，不說這個問題了！指揮官，你不覺得有點熱嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "太阳肆意散发着恐怖的热量，暴露在阳光下的燥热令人感到坐立不安。",
+			say = "太陽肆意散發著恐怖的熱量，暴露在陽光下的燥熱令人感到坐立不安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "热辣的阳光，甚至让空气在视线中都变得扭曲。",
+			say = "熱辣的陽光，甚至讓空氣在視線中都變得扭曲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -230,7 +230,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "要不要，我们去个阴凉一些的地方？",
+			say = "要不要，我們去個陰涼一些的地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "那一起去P房吧？那边有空调。",
+			say = "那一起去P房吧？那邊有空調。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "啊，出发去P房之前，指挥官，就这样先别动哦。",
+			say = "啊，出發去P房之前，指揮官，就這樣先別動哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "脸上传来了柔软的触感，还有轻柔的吐息。",
+			say = "臉上傳來了柔軟的觸感，還有輕柔的吐息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "手持旗帜的胜利女神在我的面颊上落下轻飘飘的吻。",
+			say = "手持旗幟的勝利女神在我的臉頰上落下輕飄飄的吻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
-			say = "少女不自觉地转过了脑袋，因为羞涩，脸上扬起一片红霞。",
+			say = "少女不自覺地轉過了腦袋，因為羞澀，臉上揚起一片紅霞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			actor = 408093,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……别这样看着我，这是给指挥官的奖励！",
+			say = "咳……別這樣看著我，這是給指揮官的獎勵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "而且指挥官今天肌肉也应该僵硬了吧？需要好好按摩放松一下。",
+			say = "而且指揮官今天肌肉也應該僵硬了吧？需要好好按摩放鬆一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "反正……在颁奖仪式前的时间还足够。",
+			say = "反正……在頒獎典禮前的時間還足夠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 7,
-			say = "总之我会给努力得到第一名的指挥官奖励，指挥官也要给努力为你应援的{namecode:473}奖励。",
+			say = "總之我會給努力得到第一名的指揮官獎勵，指揮官也要給努力為你應援的U-96獎勵。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			bgName = "star_level_bg_186",
 			hidePaintObj = true,
 			side = 2,
-			say = "好了，我们现在出发吧——！",
+			say = "好了，我們現在出發吧——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

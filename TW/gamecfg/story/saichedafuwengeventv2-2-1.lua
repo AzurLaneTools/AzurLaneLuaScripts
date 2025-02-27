@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "似乎有人在跑道上大冒险？！临时停车，获得了补给【石油*10】"
+			say = "似乎有人在跑道上大冒險？！臨時停車，獲得了補給【石油*10】"
 		}
 	}
 }

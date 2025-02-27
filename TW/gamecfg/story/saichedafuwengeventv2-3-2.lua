@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "看见了独角兽的努力应援，获得【心智单元*50】"
+			say = "看見了獨角獸的努力應援，獲得【心智單元*50】"
 		}
 	}
 }

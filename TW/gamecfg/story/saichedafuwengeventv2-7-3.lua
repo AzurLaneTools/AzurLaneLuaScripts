@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "猫猫之王也来到了观赛席，获得了【喵箱SSR型*1】"
+			say = "貓貓之王也來到了觀賽席，獲得了【喵箱SSR型*1】"
 		}
 	}
 }

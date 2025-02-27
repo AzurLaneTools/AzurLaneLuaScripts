@@ -1,6 +1,129 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[206071] = {
+		name = "銀月下的夜之眷屬",
+		change_skin = "",
+		ship_group = 20607,
+		illustrator2 = -1,
+		desc = "啊，嗯，這，這樣一直盯著我看的話……啊，這姑且算是夜之眷屬的裝扮，那個，指揮官？總之……能先請您跪下嗎？",
+		group_index = 1,
+		id = 206071,
+		painting = "aerbien_2",
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		shop_type_id = 8,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "156",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "aerbien_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70764,
+		voice_actor = 344,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					1.13,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.04,
+					1.13,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.2,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.39,
+					1.35,
+					0
+				}
+			},
+			plane = {
+				{
+					1.42,
+					1.25,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.21,
+							-0.55
+						}
+					}
+				}
+			}
+		}
+	},
 	[206072] = {
 		name = "香氣來朱閣",
 		change_skin = "",
@@ -12851,115 +12974,6 @@ pg.base.ship_skin_template_7 = {
 						{
 							0.367,
 							0.65,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301181] = {
-		name = "月餅、不來一點嗎？",
-		change_skin = "",
-		ship_group = 30118,
-		illustrator2 = -1,
-		desc = "東煌的「月餅」，也許是個商機……啊，指揮官，要來點「月宮美食」嗎？現在批量購買有特別優惠哦？",
-		group_index = 1,
-		id = 301181,
-		painting = "buzhihuo_2",
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		shop_type_id = 7,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "115",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "1102",
-		voice_actor_2 = -1,
-		prefab = "buzhihuo_2",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 133,
-		spine_offset = "",
-		illustrator = 13,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.46,
-					1.03,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.2,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.47,
-					1.09,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							2.16,
 							0
 						}
 					}

@@ -12,7 +12,7 @@ return {
 			actor = 202270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾教国的诸位，贵安。",
+			say = "鳶尾教國的諸位，貴安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贵安，皇家女仆队的诸位，欢迎来到圣米歇尔山。",
+			say = "貴安，皇家女僕隊的各位，歡迎來到聖米歇爾山。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 202270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "早就听闻鸢尾圣米歇尔山圣堂的宏伟与壮丽，今日一见果真名不虚传。",
+			say = "早就聽聞鳶尾聖米歇爾山聖堂的宏偉與壯麗，今日一見果真名不虛傳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "多谢夸奖，各位客人能够喜欢就好。",
+			say = "多謝誇獎，各位客人能夠喜歡就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "咳……赫敏，好像不是应该互道寒暄的时候。",
+			say = "咳……赫敏，好像不是應該互道寒暄的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 202270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸~确实如此，是我疏忽了。",
+			say = "欸~確實如此，是我疏忽了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			actor = 202270,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么鸢尾教国的诸位，就让我们开始正式的演习日程吧？",
+			say = "那麼鳶尾教國的諸位，就讓我們開始正式的演習行程吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "诸位，请——",
+			say = "諸位，請——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

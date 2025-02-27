@@ -11,9 +11,9 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			bgm = "battle-ironblood-brisk",
 			actor = 402039,
-			actorName = "{namecode:423}.改",
+			actorName = "科隆·改",
 			hidePaintObj = true,
-			say = "诸位，就到此为止，不要再接近了。",
+			say = "諸位，就到此為止，不要再接近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然是改造舰队……在演习名单里可不是这么写的。",
+			say = "居然是改造艦隊……在演習名單裡可不是這麼寫的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,9 +56,9 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			dir = 1,
 			actor = 402039,
-			actorName = "{namecode:423}.改",
+			actorName = "科隆·改",
 			hidePaintObj = true,
-			say = "但是我们参加人员确实和名单完全一致，不是么？",
+			say = "但是我們參加人員確實跟名單完全一致，不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "有趣的惊喜，没想到除了皇家之外，铁血也已经组建起了改造舰队。",
+			say = "有趣的驚喜，沒想到除了皇家之外，鐵血也已經組成了改造艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,9 +83,9 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			dir = 1,
 			actor = 401239,
-			actorName = "{namecode:408}.改",
+			actorName = "Z23·改",
 			hidePaintObj = true,
-			say = "这是我们第一次以改造舰队的形式参加战斗，对于战斗情况我们也很期待。",
+			say = "這是我們第一次以改造艦隊的形式參加戰鬥，對於戰鬥情況我們也很期待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,9 +97,9 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			dir = 1,
 			actor = 401239,
-			actorName = "{namecode:408}.改",
+			actorName = "Z23·改",
 			hidePaintObj = true,
-			say = "所以请各位不要保留实力，让我们全力一战吧！",
+			say = "所以請各位不要保留實力，讓我們全力一戰吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

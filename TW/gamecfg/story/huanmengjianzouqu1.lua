@@ -9,9 +9,9 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/ui/alarm",
 			bgm = "story-french1",
-			actorName = "防空警报",
+			actorName = "防空警報",
 			hidePaintObj = true,
-			say = "（警报音）",
+			say = "（警報音）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "火焰，爆炸与废墟，世界正在眼前扭曲变形着。",
+			say = "火焰，爆炸與廢墟，世界正在眼前扭曲變形著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "尖锐急促的警报声，钢铁倾轧的刺耳声，航弹落下的嘶鸣声。",
+			say = "尖銳急促的警報聲，鋼鐵傾軋的刺耳聲，航彈落下的嘶鳴聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "鸢尾圣地，此刻宛如炼狱。",
+			say = "鳶尾聖地，此刻宛如煉獄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我这是……",
+			say = "我這是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "斯特拉斯堡……终于找到你了！",
+			say = "史特拉斯堡……終於找到妳了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……你没事吧，还好吗？",
+			say = "呼……妳沒事吧，還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我……没事，大概。",
+			say = "我……沒事，大概。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "尝试集中精神，脑海中只有无尽的恍惚。",
+			say = "試著集中精神，腦海中只有無盡的恍惚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,89 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "“我是谁”，“我在哪里”，“我在做什么”，三大经典问题盘旋环绕着。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
-			dir = 1,
-			actor = 904020,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "不对……至少我是斯特拉斯堡，第一个问题无需在意……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 903030,
-			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			dir = 1,
-			side = 2,
-			say = "对啊，你是斯特拉斯堡啊……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
-			dir = 1,
-			actor = 901140,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "第一个问题又是什么……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
-			dir = 1,
-			actor = 904020,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这里到底……发生了什么事……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_zhuiluo_2",
-			dir = 1,
-			actor = 903030,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "坏了坏了，不会被炸到头了吧？！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 901140,
-			nameColor = "#A9F548FF",
-			bgName = "bg_zhuiluo_2",
-			hidePaintObj = true,
-			dir = 1,
-			side = 2,
-			say = "大家都保持冷静。斯特拉斯堡，深呼吸。告诉我，你最后记得的事是什么？",
+			say = "「我是誰」，「我在哪裡」，「我在做什麼」，三大經典問題盤旋環繞著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +214,34 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "最后记得的事……",
+			say = "不對……至少我是史特拉斯堡，第一個問題不用在意……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 903030,
+			nameColor = "#A9F548FF",
+			bgName = "bg_zhuiluo_2",
+			hidePaintObj = true,
+			dir = 1,
+			side = 2,
+			say = "對啊，妳是史特拉斯堡啊……？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 901140,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "第一個問題又是什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +255,62 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们在准备联合演习，还有，之后的宴会……",
+			say = "這裡到底……發生了什麼事……？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 903030,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "壞了壞了，不會被炸到頭了吧？！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 901140,
+			nameColor = "#A9F548FF",
+			bgName = "bg_zhuiluo_2",
+			hidePaintObj = true,
+			dir = 1,
+			side = 2,
+			say = "大家都保持冷靜。史特拉斯堡，深呼吸。告訴我，妳最後記得的事是什麼？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 904020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "最後記得的事……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_zhuiluo_2",
+			dir = 1,
+			actor = 904020,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "我們在準備聯合演習，還有，之後的宴會……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我的身边环绕着鲜花、佳肴与音乐……",
+			say = "我的身邊環繞著花朵、佳餚與音樂……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那都是两天前的事了啊？！",
+			say = "那都是兩天前的事了啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……总而言之，局势已经彻底失控了。",
+			say = "……總而言之，局勢已經完全失控了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战火正在蔓延，我在路上慢慢跟你说……总之我们先逃离这里。",
+			say = "戰火正在蔓延，我在路上慢慢跟妳說……總之我們先逃離這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "逃离……",
+			say = "逃離……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，我们快逃吧！",
+			say = "沒錯，我們快逃吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "一次距离极近的炮击。飞石掠过脸庞，让记忆也清晰了一些。",
+			say = "一次距離極近的炮擊。飛石掠過臉龐，讓記憶也清晰了一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾，皇家，铁血与撒丁，四大阵营的联合演习……本该是一次加深阵营间交流的盛会。",
+			say = "鳶尾，皇家，鐵血與薩丁，四大陣營的聯合演習……本該是一次加深陣營間交流的盛會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为何……演变为了兵戎相向……",
+			say = "為何……演變為了兵戎相向……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好不容易……终于摆脱了战火……",
+			say = "好不容易……終於擺脫戰火了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "凯比尔港……土伦港……圣米歇尔山港……",
+			say = "凱比爾港……土倫港……聖米歇爾山港……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我究竟还能逃去何处……战火究竟要追我到何处才能满意！",
+			say = "我究竟還能逃去何處……戰火究竟要追我到何處才能滿意！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "无情的炮火轻而易举压过了这声不甘的小小怒吼。",
+			say = "無情的炮火輕而易舉地壓過了這聲不甘的小小怒吼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "天旋地转，芳草如岩——",
+			say = "天旋地轉，芳草如岩—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,7 +653,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是纱幕与柔和的阳光。",
+			say = "光芒消散後，映入眼簾的是紗幕與柔和的陽光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这里是……我的房间。",
+			say = "這裡是……我的房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还活着……这么说来，刚才的一切都是梦么。",
+			say = "我還活著……這麼說來，剛才的一切都是夢嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一个逼真的噩梦……",
+			say = "一個逼真的惡夢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_506",
 			hidePaintObj = true,
-			say = "少女用力摇了摇头，可是梦中的画面始终在眼前盘旋。",
+			say = "少女用力搖了搖頭，可是夢中的畫面始終在眼前盤旋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……以防万一，还是得去确认一下。",
+			say = "……以防萬一，還是得去確認一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_shengmixieer_1",
-			say = "圣米歇尔山圣堂，一段时间后——",
+			say = "聖米歇爾山聖堂，一段時間後—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "……斯特拉斯堡，你口中所说的噩梦，其实我也梦到了。",
+			say = "……史特拉斯堡，妳口中所說的惡夢，其實我也夢到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一样是阵营间的混战，一样是燃烧的海滩……",
+			say = "一樣是陣營間的混戰，一樣是燃燒的海灘……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "梦里的我也和你口中描述的一样，正在四处救人……而且，也确实找到了你……",
+			say = "夢裡的我和妳口中描述的一樣，正在四處救人……而且，也確實找到了妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵呵……说不定是加班加过头出现的幻觉……怎么会有如此巧合的事。",
+			say = "呵呵呵……說不定是加班加過頭出現的幻覺……怎麼會有這麼巧合的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你也做了相同的梦么？",
+			say = "……妳也做了相同的夢嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，和你们的噩梦一模一样。",
+			say = "沒錯，和妳們的惡夢一模一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……三个人同时做了同一个噩梦，这件事绝对不简单。",
+			say = "……三個人同時做了同一個惡夢，這件事絕對不簡單。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "集体噩梦……倒是让我想到一件事——「陆上神国」。",
+			say = "集體惡夢……倒是讓我想到一件事——「陸上神國」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道和之前那次由马可波罗所引发的事件一样，我们又被某种异常现象波及了么？",
+			say = "難道和之前那次由馬可波羅所引發的事件一樣，我們又被某種異常現象波及了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +884,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "侵蚀性络合物……",
+			say = "侵蝕性絡合物……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +897,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "绝对没有。我在来的路上看得很清楚，天空、大海还有远方的陆地都一切正常。",
+			say = "絕對沒有。我在來的路上看得很清楚，天空、大海還有遠方的陸地都一切正常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -911,7 +911,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……梦中提到的那个四大阵营间的联合演习，你们有听说过么？",
+			say = "……夢中提到的那個四大陣營間的聯合演習，妳們有聽過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -925,7 +925,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有，至少我完全没听说过这件事。",
+			say = "沒有，至少我完全沒聽過這件事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也没有……",
+			say = "我也沒有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -952,7 +952,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "这样的话，应该就不用担心了。",
+			say = "這樣的話，應該就不用擔心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -966,7 +966,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "噩梦的内容都是基于这场联合演习所展开的。如果连演习本身都不存在，那后面的事也就无需我们担心了。",
+			say = "惡夢的內容都是基於這場聯合演習所展開的。如果連演習本身都不存在，那後面的事就無需我們擔心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说的也有道理……这么看的话，难道是单纯的巧合……？",
+			say = "說的也有道理……這麼看的話，難道是單純的巧合……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -993,7 +993,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "怎么会有这么巧的事……",
+			say = "怎麼會有這麼巧的事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1001,7 +1001,7 @@ return {
 		},
 		{
 			nameColor = "#A9F548FF",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
@@ -1020,7 +1020,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是，克莱蒙梭阁下发来的消息……",
+			say = "這是，克里蒙梭閣下發來的消息……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1034,7 +1034,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说了些什么？",
+			say = "說了些什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1048,7 +1048,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……圣座决定在圣米歇尔山港举行一场联合演习，并邀请了皇家、铁血、与撒丁帝国的舰队，时间定在两日之后。",
+			say = "……聖座決定在聖米歇爾山港舉行一場聯合演習，並邀請了皇家、鐵血、與薩丁帝國的艦隊，時間定在兩日之後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1062,7 +1062,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "演习之日，四大阵营都有高层会来，指挥官也会来……让我们做好迎接准备。",
+			say = "演習之日，四大陣營都有高層會來，指揮官也會來……讓我們做好迎接準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这、这不就是四大阵营的联合演习？！怎么真的要举办啊……？",
+			say = "這、這不就是四大陣營的聯合演習？！怎麼真的要舉辦啊……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1090,7 +1090,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你们联系人员开始准备，我去联系克莱蒙梭阁下说明噩梦的事。",
+			say = "……妳們聯絡人員開始準備，我去聯絡克里蒙梭閣下說明惡夢的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1103,7 +1103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯。希望只是巧合，希望能一切顺利……",
+			say = "嗯。希望只是巧合，希望能一切順利……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1134,11 +1134,11 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"鳶尾教國·聖米歇爾山港",
 					1
 				},
 				{
-					"圣堂大厅",
+					"聖堂大廳",
 					2
 				},
 				{

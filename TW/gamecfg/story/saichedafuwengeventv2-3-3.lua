@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在赛车极速轰鸣的引擎声中有所感悟，获得【心智单元*150】"
+			say = "在賽車極速轟鳴的引擎聲中有所感悟，獲得【心智單元*150】"
 		}
 	}
 }

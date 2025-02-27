@@ -10,11 +10,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山车站",
+					"鳶尾教國·聖米歇爾山車站",
 					1
 				},
 				{
-					"指挥官的包厢",
+					"指揮官的包廂",
 					2
 				},
 				{
@@ -29,7 +29,7 @@ return {
 			bgm = "story-richang-light",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "列车的晃动在不知不觉间停止了，耳边依稀传来了刹车的声音。",
+			say = "列車的晃動在不知不覺間停止了，耳邊依稀傳來了煞車的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			blackBg = true,
-			say = "指挥官……我们已经到站，该起来了。",
+			say = "指揮官……我們已經到站，該起來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "睁开双眼，映入眼帘的是一片黑暗。",
+			say = "睜開雙眼，映入眼簾的是一片黑暗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（这是……眼罩？）",
+			say = "（這是……眼罩？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "摘下眼罩，柔和的光芒映入眼帘。车窗外，屹立在水中的宏伟圣堂清晰可见。",
+			say = "摘下眼罩，柔和的光芒映入眼簾。車窗外，屹立在水中的宏偉聖堂清晰可見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			},
 			options = {
 				{
-					content = "……这个眼罩是怎么回事？",
+					content = "……這個眼罩是怎麼回事？",
 					flag = 1
 				}
 			}
@@ -130,7 +130,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘿嘿~是我给你戴上的。",
+			say = "嘿嘿~是我幫你戴上的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之前在坐车的时候你非要坚持办公，结果没多久就睡着了。",
+			say = "之前在坐車的時候你非要堅持辦公，結果沒多久就睡著了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,14 +158,14 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以就干脆给你戴个眼罩让你休息得更好些咯~",
+			say = "所以就乾脆邦你戴個眼罩讓你休息得更好一點~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "多谢，我休息得很好。",
+					content = "多謝，我休息得很好。",
 					flag = 1
 				},
 				{
@@ -183,7 +183,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~这也是秘书分内的工作，不用客气。",
+			say = "哼哼~這也是秘書分內的工作，不用客氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们就准备下车吧？精彩的联合演习正在等着我们呢~",
+			say = "那我們就準備下車吧？精彩的聯合演習正在等著我們呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂喂喂……这是刚睡醒的人第一句该说的话么？！",
+			say = "喂喂喂……這是剛睡醒的人第一句該說的話？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "准确来说，已经是第二句了……",
+			say = "準確來說，已經是第二句了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸——剩下的工作都被我全部消灭了，指挥官，忘了它们吧。",
+			say = "欸——剩下的工作都被我全部消滅了，指揮官，忘了它們吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦好啦，快下车吧。精彩的联合演习正在等着我们呢~",
+			say = "好啦好啦，快下車吧。精彩的聯合演習正在等著我們呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,11 +293,11 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"鳶尾教國·聖米歇爾山港",
 					1
 				},
 				{
-					"圣堂会场·指挥官的包厢",
+					"聖堂會場·指揮官的包廂",
 					2
 				},
 				{
@@ -312,7 +312,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			bgm = "votefes-up",
-			say = "屏幕之上，多架部署在海域中的无人机正不间断传回着演习海域的战斗画面。",
+			say = "螢幕之上，多架部署在海域中的無人機正不間斷傳回著演習海域的戰鬥畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
-			say = "后台的演习分析系统也在根据战斗结果，在屏幕上对战局进行着实时标注。",
+			say = "後台的演習分析系統也根據戰鬥結果，在螢幕上對戰局勢進行即時標註。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
-			say = "此刻，鸢尾舰队正在与铁血的改造舰队战斗着，局面难解难分。",
+			say = "此刻，鳶尾艦隊正與鐵血的改造艦隊戰鬥著，局面難解難分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这么一看，改造舰果然很厉害。只是巡洋舰就可以和战列巡洋舰的斯特拉斯堡打得有来有回……",
+			say = "這麼一看，改造艦果然很厲害。只是巡洋艦就可以跟戰鬥巡洋艦的史特拉斯堡打得有來有回…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不知道我们什么时候才能成规模列装改造舰队啊~",
+			say = "不知道我們什麼時候才能成規模列裝改造艦隊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			bgName = "bg_guild_blue",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/knockdoor1",
-			say = "咚咚咚——（敲门声）",
+			say = "咚咚咚——（敲門聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请进。",
+			say = "請進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官阁下，{namecode:435:俾斯麦}大人邀请您前往她的包厢一同观看这场演习，不知道您可否赏光？",
+			say = "指揮官閣下，俾斯麥大人邀請您前往她的包廂一同觀看這場演習，不知道您可否賞光？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			bgm = "bsm-5",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣堂会场·{namecode:435:俾斯麦}的包厢",
+			say = "聖堂會場·俾斯麥的包廂",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不必拘谨，随便坐吧，指挥官。",
+			say = "不必拘謹，隨便坐吧，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊，铁血的领袖和碧蓝航线的指挥官同处一个包厢之中，真是一个放在过去难以想象的画面。",
+			say = "是啊，鐵血的領袖和碧藍航線的指揮官同處一個包廂之中，真是一個放在過去難以想像的畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊~无需担心，Zwei型舰装和革律翁一切正常。",
+			say = "啊~無需擔心，Zwei型艦裝和革律翁一切正常。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我选用这副装备前来，只是为了看上去更柔和些，算是制造亲近感的小策略。",
+			say = "我選用這副裝備前來，只是為了看上去更柔和些，算是製造親近感的小策略。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟，此处是鸢尾教国的领土呢。",
+			say = "畢竟，這裡是鳶尾教國的領土。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一码归一码。",
+			say = "一碼歸一碼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然是为了增进了解的演习，那我自然要让各家多了解一下铁血，以免误判。不是么？",
+			say = "既然是為了增進了解的演習，那我自然要讓各家多了解一下鐵血，以免誤判。不是嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕竟是在谈同盟的事，谨慎些总是好的。",
+			say = "畢竟是在談同盟的事，謹慎一點總是好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,34 +555,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "我不否认。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_guild_red",
-			dir = 1,
-			actor = 405010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "我们针对塞壬的战争，至少针对实验机关的战争已经步入尾声，该考虑之后的事了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 405010,
-			nameColor = "#A9F548FF",
-			bgName = "bg_guild_red",
-			hidePaintObj = true,
-			dir = 1,
-			side = 2,
-			say = "你真的相信靠开会能解决问题么？",
+			say = "我不否認。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +569,34 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果能解决的话，当年的碧蓝航线又如何会分裂呢？",
+			say = "我們針對塞壬的戰爭，至少針對實驗機關的戰爭已經步入尾聲，該考慮之後的事了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 405010,
+			nameColor = "#A9F548FF",
+			bgName = "bg_guild_red",
+			hidePaintObj = true,
+			dir = 1,
+			side = 2,
+			say = "你真的相信靠開會能解決問題嗎？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_guild_red",
+			dir = 1,
+			actor = 405010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "如果能解決的話，當年的碧藍航線又如何分裂呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道当年各大阵营就真的什么都不知道么？",
+			say = "難道當年各大陣營真的什麼都不知道嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -624,7 +624,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其实你也不相信联盟合并能够依靠会议取得成功，所以现在才会出现在我的包厢里吧。",
+			say = "其實你也不相信聯盟合併能夠依靠會議成功，所以現在才會出現在我的包廂裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			actor = 405010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心，铁血会支持你达成所愿的，不管使用何种手段，造成何种后果——",
+			say = "別擔心，鐵血會支持你達成所願的，不管使用何種手段，造成何種後果——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,11 +673,11 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"鳶尾教國·聖米歇爾山港",
 					1
 				},
 				{
-					"晚宴会场",
+					"晚宴會場",
 					2
 				},
 				{
@@ -692,7 +692,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			bgm = "story-musicanniversary-gorgeous",
-			say = "符合鸢尾刻板印象的华丽大厅中，一场招待晚宴正在柔和的乐声中进行着——",
+			say = "符合鳶尾刻板印象的華麗大廳中，一場招待晚宴正在柔和的樂聲中進行著——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不得不说，餐点算是颇有水平。",
+			say = "不得不說，餐點算是頗有水準。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "明明是临时决定的日程，准备的倒是真不错。",
+			say = "明明是臨時決定的行程，準備的倒是真不錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
 			side = 2,
-			say = "嗯，确实有心了。",
+			say = "嗯，確實有心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "呵呵，面对此等盛会，自然是不能马虎的。",
+			say = "呵呵，面對此等盛會，自然是不能馬虎的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -754,7 +754,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_600",
 			hidePaintObj = true,
-			say = "音乐在不知不觉间悄然而止，黑发的演奏者来到了餐桌旁。",
+			say = "音樂在不知不覺間悄然而止，黑髮的演奏者來到了餐桌旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "审判庭所属，演奏者，斯特拉斯堡，感谢您今日莅临圣米歇尔山圣堂。",
+			say = "審判庭所屬，演奏者，史特拉斯堡，感謝您今日蒞臨聖米歇爾山聖堂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -782,7 +782,7 @@ return {
 			actor = 904020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，您能喜欢我的演奏是我的荣幸~",
+			say = "呵呵，您能喜歡我的演奏是我的榮幸~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不知接下来——我能否有幸与您共舞一曲呢~？",
+			say = "不知接下來—我能否有幸與您共舞一曲~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,11 +816,11 @@ return {
 			},
 			sequence = {
 				{
-					"鸢尾教国·圣米歇尔山港",
+					"鳶尾教國·聖米歇爾山港",
 					1
 				},
 				{
-					"指挥官休息室",
+					"指揮官休息室",
 					2
 				},
 				{
@@ -835,7 +835,7 @@ return {
 			bgName = "bg_story_shengmixieer_2",
 			hidePaintObj = true,
 			bgm = "story-richang-sooth",
-			say = "美好的一日结束了。",
+			say = "美好的一日結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_2",
 			hidePaintObj = true,
-			say = "而明日，亦是美好的新一天——",
+			say = "而明日，亦是美好的新一天—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -43,7 +43,7 @@ return {
 			actor = 601070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伟大的庞培……居然输了。",
+			say = "偉大的龐培……居然輸了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊哈哈哈……真是一场势均力敌的精彩战斗啊！",
+			say = "啊哈哈哈……真是一場勢均力敵的精彩戰鬥啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳，友谊第一，比赛第二不是嘛！输赢不重要，不重要啦~",
+			say = "咳，友誼第一，比賽第二不是嘛！輸贏不重要，不重要~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "阿尔弗雷多，你是最先出局的，回去该特训了。",
+			say = "阿爾弗雷多，妳是最先出局的，回去該特訓了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次是我故意放水！一会……一会看我的厉害！",
+			say = "這次是我故意放水！等、等一下看我的厲害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我还准备了秘密作战计划呢！",
+			say = "我還準備了秘密作戰計畫！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "秘密作战计划……听上很有趣啊。",
+			say = "秘密作戰計畫……聽起來很有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "实际执行起来更有趣，你们就等着看吧！",
+			say = "實際執行起來更有趣，妳們就等著看吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "那我们就期待一下咯~",
+			say = "那我們就期待一下了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯嗯，敬请期待吧，那么一会见~",
+			say = "嗯嗯，敬請期待吧，那麼待會見~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "撒丁帝国舰队重整队形后，离开了这片水域。",
+			say = "薩丁帝國艦隊重整隊形後，離開了這片水域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "至此鸢尾舰队作为进攻方的三场战斗结束了。但演习日程，尚未过半——",
+			say = "至此鳶尾艦隊作為進攻方的三場戰鬥結束了。但演習日程，尚未過半——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

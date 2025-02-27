@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "{namecode:37}委托测试的轻薄赛车服降温效果良好，获得了奖励【五星装备设计图纸*4】"
+			say = "夕張委託測試的輕薄賽車服降溫效果良好，獲得了獎勵【五星裝備設計圖紙*4】"
 		}
 	}
 }

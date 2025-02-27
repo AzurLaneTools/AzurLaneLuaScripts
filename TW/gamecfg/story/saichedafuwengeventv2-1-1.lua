@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "等待赛道清除阻碍中，获得了补偿奖励【物资*100】"
+			say = "等待賽道清除阻礙中，獲得了補償獎勵【物資*100】"
 		}
 	}
 }

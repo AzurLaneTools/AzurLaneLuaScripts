@@ -1727,6 +1727,9 @@ pg.ship_data_group = setmetatable({
 		[90112] = {
 			481
 		},
+		[90114] = {
+			653
+		},
 		[90201] = {
 			456
 		},
@@ -1739,8 +1742,14 @@ pg.ship_data_group = setmetatable({
 		[90302] = {
 			455
 		},
+		[90303] = {
+			654
+		},
 		[90401] = {
 			352
+		},
+		[90402] = {
+			652
 		},
 		[90501] = {
 			353
@@ -2698,11 +2707,14 @@ pg.ship_data_group = setmetatable({
 			394,
 			556,
 			481,
+			653,
 			456,
 			598,
 			524,
 			455,
+			654,
 			352,
+			652,
 			353,
 			604,
 			418,
@@ -3413,11 +3425,14 @@ pg.ship_data_group = setmetatable({
 		394,
 		556,
 		481,
+		653,
 		456,
 		598,
 		524,
 		455,
+		654,
 		352,
+		652,
 		353,
 		604,
 		418,
@@ -12097,6 +12112,16 @@ pg.base.ship_data_group = {
 				"限時活動：戰鬥！皇家女僕隊2nd",
 				{
 					""
+				},
+				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
 				},
 				0
 			}
@@ -25812,6 +25837,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -25912,6 +25948,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -25944,6 +25990,17 @@ pg.base.ship_data_group = {
 				"限時活動：北境序曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26178,6 +26235,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -26304,6 +26372,17 @@ pg.base.ship_data_group = {
 				"限時活動：北境序曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26445,6 +26524,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -26539,6 +26628,17 @@ pg.base.ship_data_group = {
 				"限時活動：北境序曲",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27627,6 +27727,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[653] = {
+		nationality = 9,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90114,
+		index_id = 595,
+		code = 653,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：幻夢間奏曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[456] = {
 		nationality = 9,
 		type = 2,
@@ -27776,6 +27908,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[654] = {
+		nationality = 9,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90303,
+		index_id = 600,
+		code = 654,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"B",
+			"E",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：幻夢間奏曲",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[352] = {
 		nationality = 9,
 		type = 4,
@@ -27814,6 +27978,38 @@ pg.base.ship_data_group = {
 						projectName = "heavy",
 						page = 1
 					}
+				},
+				0
+			}
+		}
+	},
+	[652] = {
+		nationality = 9,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90402,
+		index_id = 602,
+		code = 652,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：幻夢間奏曲",
+				{
+					""
 				},
 				0
 			}

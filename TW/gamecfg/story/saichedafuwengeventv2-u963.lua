@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_3",
-			actorName = "{namecode:473}",
+			actorName = "U-96",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "好热 —— 奖励里有冰饮吗？给我一杯。"
+			say = "好熱——獎勵裡有冰飲嗎？給我一杯。"
 		}
 	}
 }

@@ -783,6 +783,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10028] = {
+		button_style = 7,
+		information_icon = "yuekegongjue_constellation",
+		painting = "yuekegongjue",
+		id = 10028,
+		dungeon_id = 5130,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"守望相助 ",
+				"双鱼座化身-约克公爵在场时，每20秒对最远的敌方单位发射一组跨射弹幕，6秒内降低被命中的敌方单位航速40%；双鱼座化身-英王乔治五世在场时，每20秒为双鱼座化身-约克公爵回复其<color=#92fc63>1%</color>,最大耐久"
+			},
+			{
+				"双鱼之绊",
+				"双鱼座化身同时在场时，受到的伤害降低<color=#92fc63>10%</color>；双鱼座化身-约克公爵被击破时，双鱼座化身-英王乔治五世受到的伤害降低<color=#92fc63>10%</color>、立即回复自身<color=#92fc63>2%</color>最大耐久，之后每20秒回复自身<color=#92fc63>2%</color>最大耐久；双鱼座化身-英王乔治五世被击破时，双鱼座化身-约克公爵造成的伤害提高<color=#92fc63>10%</color>、跨射弹幕效果强化：对最远和最近的敌方单位发射一组跨射弹幕，之后每20秒再次触发，被命中的敌方单位受到的伤害增加<color=#92fc63>4%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				210,
+				1
+			}
+		}
+	},
+	[10029] = {
+		button_style = 7,
+		information_icon = "yuekegongjue_constellation",
+		painting = "yuekegongjue",
+		id = 10029,
+		dungeon_id = 5129,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"守望相助 ",
+				"双鱼座化身-约克公爵在场时，每20秒对最远的敌方单位发射一组跨射弹幕，6秒内降低被命中的敌方单位航速40%；双鱼座化身-英王乔治五世在场时，每20秒为双鱼座化身-约克公爵回复其<color=#92fc63>2%</color>,最大耐久"
+			},
+			{
+				"双鱼之绊",
+				"双鱼座化身同时在场时，受到的伤害降低<color=#92fc63>20%</color>；双鱼座化身-约克公爵被击破时，双鱼座化身-英王乔治五世受到的伤害降低<color=#92fc63>20%</color>、立即回复自身<color=#92fc63>4%</color>最大耐久，之后每20秒回复自身<color=#92fc63>4%</color>最大耐久；双鱼座化身-英王乔治五世被击破时，双鱼座化身-约克公爵造成的伤害提高<color=#92fc63>20%</color>、跨射弹幕效果强化：对最远和最近的敌方单位发射一组跨射弹幕，之后每20秒再次触发，被命中的敌方单位受到的伤害增加<color=#92fc63>6%</color>"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10010,
+				1
+			}
+		}
+	},
+	[10030] = {
+		button_style = 7,
+		information_icon = "yuekegongjue_constellation",
+		painting = "yuekegongjue",
+		id = 10030,
+		dungeon_id = 5128,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"守望相助 ",
+				"双鱼座化身-约克公爵在场时，每20秒对最远的敌方单位发射一组跨射弹幕，6秒内降低被命中的敌方单位航速40%；双鱼座化身-英王乔治五世在场时，每20秒为双鱼座化身-约克公爵回复其<color=#92fc63>3%</color>,最大耐久"
+			},
+			{
+				"双鱼之绊",
+				"双鱼座化身同时在场时，受到的伤害降低<color=#92fc63>30%</color>；双鱼座化身-约克公爵被击破时，双鱼座化身-英王乔治五世受到的伤害降低<color=#92fc63>30%</color>、立即回复自身<color=#92fc63>6%</color>最大耐久，之后每20秒回复自身<color=#92fc63>6%</color>最大耐久；双鱼座化身-英王乔治五世被击破时，双鱼座化身-约克公爵造成的伤害提高<color=#92fc63>30%</color>、跨射弹幕效果强化：对最远和最近的敌方单位发射一组跨射弹幕，之后每20秒再次触发，被命中的敌方单位受到的伤害增加<color=#92fc63>8%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10010,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -810,6 +897,9 @@ pg.expedition_constellation_challenge_template = {
 		10024,
 		10025,
 		10026,
-		10027
+		10027,
+		10028,
+		10029,
+		10030
 	}
 }

@@ -76,7 +76,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "story-richang-light",
 		special_bgm = "",
 		bgm = "login"
 	},
@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "bsm-7",
+		default_bgm = "theme-clemenceau",
 		special_bgm = "",
 		bgm = "story-island-soft"
 	},

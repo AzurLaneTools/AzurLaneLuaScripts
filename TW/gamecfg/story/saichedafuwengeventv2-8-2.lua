@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "启用了赛车的隐藏后备能源，【前进两格】"
+			say = "啟用了賽車的隱藏後備能源，【前進兩格】"
 		}
 	}
 }

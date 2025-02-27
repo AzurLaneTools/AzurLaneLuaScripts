@@ -817,7 +817,7 @@ pg.login = {
 		}
 	},
 	[56] = {
-		op_play = 1,
+		op_play = 0,
 		id = 56,
 		login_static = "login",
 		login_cri = "",

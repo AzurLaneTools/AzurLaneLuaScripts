@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在布里斯托尔使用DATA-857进行整车检查后，产生了多余零件。获得【强化部件T3*8】"
+			say = "在布里斯托爾使用DATA-857進行整車檢查後，產生了多餘零件。獲得【強化部件T3*8】"
 		}
 	}
 }

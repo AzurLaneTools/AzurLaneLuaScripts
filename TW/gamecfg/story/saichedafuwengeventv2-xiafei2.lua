@@ -10,10 +10,10 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_2",
-			actorName = "霞飞",
+			actorName = "霞飛",
 			side = 0,
 			nameColor = "#5CE6FF",
-			say = "呵呵，这是天使的祝福哦。"
+			say = "呵呵，這是天使的祝福哦。"
 		}
 	}
 }

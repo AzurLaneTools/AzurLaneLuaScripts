@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "在比赛中突破了最佳纪录，获得了奖励【快速完成工具*1】"
+			say = "在比賽中突破了最佳紀錄，獲得了獎勵【快速完成工具*1】"
 		}
 	}
 }

@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "因为急速飞驰带来的好心情，获得【心智单元*10】"
+			say = "因為急速飛馳帶來的好心情，獲得【心智單元*10】"
 		}
 	}
 }

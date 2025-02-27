@@ -12606,6 +12606,45 @@ pg.activity_ins_template = {
 			4660
 		}
 	},
+	[483] = {
+		ship_group = 90402,
+		name = "Strasbourg",
+		sculpture = "sitelasibao",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 483,
+		group_id = 483,
+		order = 51,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[484] = {
+		ship_group = 90303,
+		name = "Dupleix",
+		sculpture = "dipulaikesi",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 484,
+		group_id = 484,
+		order = 51,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[485] = {
+		ship_group = 60108,
+		name = "Alfredo ",
+		sculpture = "aerfuleiduo",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 485,
+		group_id = 485,
+		order = 51,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[486] = {
 		ship_group = 10233,
 		name = "Fargo",
@@ -13453,6 +13492,9 @@ pg.activity_ins_template = {
 		480,
 		481,
 		482,
+		483,
+		484,
+		485,
 		486,
 		487,
 		488,

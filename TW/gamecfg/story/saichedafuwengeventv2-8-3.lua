@@ -7,7 +7,7 @@ return {
 	scripts = {
 		{
 			portrait = "event_icon_common",
-			say = "方格旗飘扬，胜利就在前方，冲啊！【前进三格】"
+			say = "方格旗飄揚，勝利就在前方，衝啊！ 【前進三格】"
 		}
 	}
 }

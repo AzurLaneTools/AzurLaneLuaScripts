@@ -1,6 +1,136 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[102030] = {
+		name = "布魯克林",
+		change_skin = "",
+		ship_group = 10203,
+		illustrator2 = -1,
+		desc = "布魯克林級輕巡洋艦—布魯克林，舷號CL-40",
+		group_index = 0,
+		id = 102030,
+		painting = "bulukelin",
+		l2d_ignore_drag = 0,
+		hand_id = 3,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "bulukelin",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 64,
+		spine_offset = "",
+		illustrator = 7,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.789,
+					0.501,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.789,
+					0.501,
+					0
+				},
+				{
+					-0.238,
+					0.927,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.457,
+					1.102,
+					0
+				},
+				{
+					-0.834,
+					1.234,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.39,
+							0.41,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							0.53,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102040] = {
 		name = "菲尼克斯",
 		change_skin = "",
@@ -13041,113 +13171,6 @@ pg.base.ship_skin_template_2 = {
 						{
 							-0.6,
 							2.492,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103138] = {
-		name = "Trapper white",
-		change_skin = "",
-		ship_group = 10313,
-		illustrator2 = -1,
-		desc = "昆西那傢伙，為什麼看到我穿成這樣就特別開心呢？又不方便活動，零零碎碎的裝飾又不方便打獵…雖說是為了指揮官才穿的，不過，這一身真的沒問題嗎…",
-		group_index = 8,
-		id = 103138,
-		painting = "mingniabolisi_h",
-		l2d_ignore_drag = 0,
-		hand_id = 16,
-		shop_type_id = 9998,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "mingniabolisi_h",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 153,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.584,
-					1.047,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.654,
-					1.041,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					-0.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
 							0.14
 						}
 					}

@@ -11995,17 +11995,17 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "匹茲堡、印第安納 等角色建造機率UP！"
+	tip = "史特拉斯堡、杜布雷 等角色建造機率UP！"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "波拉、扎拉、利托里奧、朱利奧·凱撒 建造追加！"
+	tip = "蘇維埃俄羅斯 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "古比雪夫 建造追加！"
+	tip = "塔什干、恰巴耶夫、威嚴、水星紀念 建造追加！"
 }
 
 
@@ -28003,6 +28003,11 @@ _G.pg.base.gametip.battle_text_common_3 = {
 }
 
 
+_G.pg.base.gametip.battle_text_common_4 = {
+	tip = "<color=#f1f102>敵方傷害大幅提高，同時所有子彈獲得穿透能力。</color>"
+}
+
+
 _G.pg.base.gametip.battle_text_yingxiv4_1 = {
 	tip = "戰爭騎士似乎在向<color=#f1f102>左前方</color>向蓄勢"
 }
@@ -33471,6 +33476,135 @@ _G.pg.base.gametip["202406_main_help"] = {
 ·可於童心樂園中放入角色，加快心情回復，童心樂園擴建道具可於活動任務中獲取]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_title1 = {
+	tip = "完成次數"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_title2 = {
+	tip = "目前完成："
+}
+
+
+_G.pg.base.gametip.help_monopoly_car2024 = {
+	tip = {
+		{
+			info = " 活動說明："
+		},
+		{
+			info = "1. 活動期間，玩家每日登入可獲得 3 次加速機會，完成活動每日任務可額外獲得 2 次加速機會；"
+		},
+		{
+			info = "2. 玩家每次經過終點，可選擇指定角色的其中一人作為協助者；"
+		},
+		{
+			info = "3. 玩家在投出特定點數、抵達指定格子時將觸發協助者的不同台詞；"
+		},
+		{
+			info = "4. 活動期間，玩家完成 3 圈比賽即可獲得限定傢俱獎勵；玩家每次與不同的協助者一同比賽時將獲得物資 * 2000 獎勵 "
+		},
+		{
+			info = "5. 遊戲中，根據玩家停留的格​​子可獲得不同獎勵 "
+		},
+		{
+			info = " ：獲得一定數量物資；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "jinbi"
+			}
+		},
+		{
+			info = " ：獲得一定數量石油；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "shiyou"
+			}
+		},
+		{
+			info = " ：觸發隨機事件；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "minyun"
+			}
+		},
+		{
+			info = " ：觸發隨機獎勵；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "daoju"
+			}
+		},
+		{
+			info = " ：觸發隨機移動事件；",
+			icon = {
+				posX = 0,
+				atlas = "attricon",
+				posY = 0,
+				scale = 0.19,
+				path = "jiasu"
+			}
+		}
+	}
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_pick_tip = {
+	tip = "到達終點時可更換協助人員，初次選擇每位協助人員時可獲得獎勵。"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_sel_label = {
+	tip = "選擇"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_total_award_title = {
+	tip = "合計獲得獎勵"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_lock_auto_tip = {
+	tip = "累計加速10次後解鎖自動加速模式，目前已加速$1次"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_open_auto_tip = {
+	tip = "自動加速模式已開啟，經過終點時將自動更換隨機協助者"
+}
+
+
+_G.pg.base.gametip.MonopolyCar2024Game_total_num_tip = {
+	tip = "目前剩餘加速次數:$1"
+}
+
+
+_G.pg.base.gametip.sitelasibao_expup_name = {
+	tip = "經驗加成"
+}
+
+
+_G.pg.base.gametip.sitelasibao_expup_desc = {
+	tip = "活動期間，<color=#92fc63>史特拉斯堡、大膽、杜布雷、Z23、赫敏、龐培·馬格諾</color>透過出擊所獲得的經驗值提高<color=#92fc63>20%</color>"
+}
+
+
+_G.pg.base.gametip.levelScene_tracking_error_pre_2 = {
+	tip = "通關$1或$2後開啟"
 }
 
 

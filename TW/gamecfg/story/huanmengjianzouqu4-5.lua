@@ -11,7 +11,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到这场战斗会变得如此焦灼……量产型全军覆没，我们所有人也都挂了彩。",
+			say = "沒想到這場戰鬥會變得如此焦灼……量產型全軍覆沒，我們所有人也都掛了彩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果算积分的话……唉，是铁血小胜啊。",
+			say = "如果算積分的話……唉，是鐵血小勝啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "不愧是改造舰队。不但单艘舰船的实力远超改造前，集结成舰队更是进一步放大了优势。",
+			say = "不愧是改造艦隊。不但單艘艦船的實力遠超改造前，集結成艦隊更是進一步放大了優勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,8 +67,8 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:424}.改",
-			say = "你、你们也很厉害啦……",
+			actorName = "萊比錫·改",
+			say = "妳、妳們也很厲害啦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,8 +80,8 @@ return {
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:423}.改",
-			say = "那么接下来我们就去修整一下，然后等待诸位之后的复仇战了？",
+			actorName = "科隆·改",
+			say = "那接下來我們就去修整一下，然後等待諸位之後的復仇戰了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯，等着我们的复仇吧~",
+			say = "嗯，等著我們的復仇吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_shengmixieer_1",
 			hidePaintObj = true,
-			say = "铁血舰队重整队形后，离开了这片水域。",
+			say = "鐵血艦隊重整隊形後，離開了這片水域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 903030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……接下来是由我们作为进攻方的最后一场战斗。",
+			say = "呼……接下來是由我們作為進攻方的最後一場戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "目前是战绩是1胜1负，下一场可绝对不能输啊。",
+			say = "目前是戰績是1勝1負，下一場絕對不能輸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "迪普莱克斯，别太有压力。这次演习目的是友好交流，不要太看重输赢。",
+			say = "杜布雷，別太有壓力。這次演習目的是友好交流，不要太看重輸贏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 901140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "况且这轮之后，我们还会作为防守方再战两场呢。",
+			say = "況且這輪之後，我們還會作為防守方再戰兩場呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			side = 2,
-			say = "嗯。大家修整一下，然后我们前往撒丁帝国舰队所在的海域，迎接下一场战斗。",
+			say = "嗯。大家修整一下，然後我們前往薩丁帝國艦隊所在的海域，迎接下一場戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -318,6 +318,10 @@ pg.expedition_data_by_map = setmetatable({
 		1800002,
 		1800003,
 		1800004,
+		1820001,
+		1820002,
+		1820003,
+		1820004,
 		1830001,
 		1830002,
 		1830011,
@@ -382,6 +386,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100242,
 		2100251,
 		2100252,
+		2100261,
+		2100262,
+		2100271,
+		2100272,
 		2100301,
 		2100302,
 		2100311,
@@ -16996,6 +17004,326 @@ pg.base.expedition_data_by_map = {
 			}
 		}
 	},
+	[1820001] = {
+		map = 1820001,
+		name = "幻夢間奏曲|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		default_background = "bg_zhuiluo_2",
+		on_activity = 5501,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-french1",
+		uifx = "",
+		bind_map = 1820001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1820001,
+				1820021
+			},
+			{
+				1820002,
+				1820022
+			},
+			{
+				1820003,
+				1820023
+			},
+			{
+				1820041
+			},
+			{
+				1820051
+			}
+		},
+		story_id = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10
+		}
+	},
+	[1820002] = {
+		map = 1820002,
+		name = "幻夢間奏曲|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		default_background = "bg_zhuiluo_2",
+		on_activity = 5501,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-french1",
+		uifx = "",
+		bind_map = 1820002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1820001,
+				1820021
+			},
+			{
+				1820002,
+				1820022
+			},
+			{
+				1820003,
+				1820023
+			},
+			{
+				1820041
+			},
+			{
+				1820051
+			}
+		},
+		story_id = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10
+		}
+	},
+	[1820003] = {
+		map = 1820003,
+		name = "幻夢間奏曲·SP|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		default_background = "bg_zhuiluo_2",
+		on_activity = 5501,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-french1",
+		uifx = "",
+		bind_map = 1820002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1820001,
+				1820021
+			},
+			{
+				1820002,
+				1820022
+			},
+			{
+				1820003,
+				1820023
+			},
+			{
+				1820041
+			},
+			{
+				1820051
+			}
+		},
+		story_id = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10
+		}
+	},
+	[1820004] = {
+		map = 1820004,
+		name = "幻夢間奏曲·EX|| ||CHAPTER EX||E.X.",
+		bgm = "story-musicanniversary-gorgeous",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1820001",
+		ani_controller = "",
+		default_background = "bg_zhuiluo_2",
+		on_activity = 5501,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 9,
+		bg = "Map_1820001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-french1",
+		uifx = "",
+		bind_map = 1820002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1820001,
+				1820021
+			},
+			{
+				1820002,
+				1820022
+			},
+			{
+				1820003,
+				1820023
+			},
+			{
+				1820041
+			},
+			{
+				1820051
+			}
+		},
+		story_id = {
+			1,
+			2,
+			3,
+			4,
+			5,
+			6,
+			7,
+			8,
+			9,
+			10
+		}
+	},
 	[1830001] = {
 		map = 1830001,
 		name = "鐵翼擎風·上篇|| ||CHAPTER EX||E.X.",
@@ -20324,6 +20652,206 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 2100242,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100261] = {
+		map = 2100261,
+		name = "北境序曲·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp3",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "MAOZIHUODONG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1290001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1290001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100271,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100262] = {
+		map = 2100262,
+		name = "北境序曲·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-3",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "MAOZIHUODONG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1290002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1290002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100272,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100271] = {
+		map = 2100271,
+		name = "北境序曲·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "bgm-cccp3",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "MAOZIHUODONG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1290003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1290003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100261,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100272] = {
+		map = 2100272,
+		name = "北境序曲·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "xinnong-3",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "MAOZIHUODONG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1290004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1290004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100262,
 		clouds_pos = {
 			{
 				332,

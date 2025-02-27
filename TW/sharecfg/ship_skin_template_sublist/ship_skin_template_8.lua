@@ -1,6 +1,115 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301181] = {
+		name = "月餅、不來一點嗎？",
+		change_skin = "",
+		ship_group = 30118,
+		illustrator2 = -1,
+		desc = "東煌的「月餅」，也許是個商機……啊，指揮官，要來點「月宮美食」嗎？現在批量購買有特別優惠哦？",
+		group_index = 1,
+		id = 301181,
+		painting = "buzhihuo_2",
+		l2d_ignore_drag = 0,
+		hand_id = 14,
+		shop_type_id = 7,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "115",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "1102",
+		voice_actor_2 = -1,
+		prefab = "buzhihuo_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 133,
+		spine_offset = "",
+		illustrator = 13,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.46,
+					1.03,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.15,
+					0.2,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.47,
+					1.09,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.61,
+							2.16,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301189] = {
 		name = "{namecode:20}.改",
 		change_skin = "",
@@ -12831,120 +12940,6 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.407,
 							2.408,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301838] = {
-		name = "永恆相守",
-		change_skin = "",
-		ship_group = 30183,
-		illustrator2 = -1,
-		desc = "沒想到能與指揮官迎來這樣的一刻，感覺好緊張……往、往後此生，敬請多多關照了。",
-		group_index = 8,
-		id = 301838,
-		painting = "changbo_h",
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		shop_type_id = 9998,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "changbo_h",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 233,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.18,
-					1.12,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.14,
-					1.15,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					1.31,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.37,
-							2.26,
 							0
 						}
 					}
