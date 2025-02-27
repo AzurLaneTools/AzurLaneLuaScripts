@@ -192,6 +192,12 @@ slot3.GetResFromBuff = function(slot0, slot1, slot2, slot3)
 		end
 	end
 
+	if slot6.last_effect_stack_list then
+		for slot10, slot11 in pairs(slot6.last_effect_stack_list) do
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot11)
+		end
+	end
+
 	for slot10, slot11 in ipairs(slot6.effect_list) do
 		if slot11.arg_list.skill_id ~= nil then
 			slot17 = slot3

@@ -114,6 +114,10 @@ slot0.getStamina = function(slot0)
 	return slot0.stamina, getDorm3dGameset("daily_vigor_max")[1]
 end
 
+slot0.RawGetApartment = function(slot0, slot1)
+	return slot0.data[slot1]
+end
+
 slot0.getApartment = function(slot0, slot1)
 	return slot0.data[slot1] and slot0.data[slot1]:clone() or nil
 end
@@ -216,8 +220,8 @@ slot0.GetTimeIndex = function(slot0)
 	return slot1
 end
 
-slot0.GetTimePPName = function()
-	return "DORM3D_SCENE_LOCK_TIME_IN_PLAYER:" .. getProxy(PlayerProxy):getRawData().id
+slot0.GetTimePPName = function(slot0)
+	return "DORM3D_SCENE_LOCK_TIME_IN_PLAYER:" .. getProxy(PlayerProxy):getRawData().id .. "_ROOM_" .. slot0
 end
 
 slot0.CheckUnlockConfig = function(slot0)

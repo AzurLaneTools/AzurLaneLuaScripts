@@ -54,10 +54,11 @@ slot0.init = function(slot0)
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	slot3 = slot0.rtMain
+	slot2 = slot0.rtMain
+	slot0.insBtn = Dorm3dInsBtn.New(slot2:Find("btn_ins"))
 
-	onButton(slot0, slot3:Find("btn_mgr"), function ()
-		uv0:ShowMgrPanel()
+	onButton(slot0, slot0.insBtn.root, function ()
+		uv0:emit(SelectDorm3DMediator.OPEN_INS_LAYER, uv0.insBtn.IsNewPhoneCall())
 	end)
 
 	slot1 = slot0.rtMain
@@ -152,7 +153,12 @@ slot0.didEnter = function(slot0)
 	slot0:SetFloor(slot0.contextData.floorName)
 	slot0:UpdateStamina()
 	slot0:CheckGuide("DORM3D_GUIDE_02")
+	slot0:FlushInsBtn()
 	DormProxy.CheckDeviceRAMEnough()
+end
+
+slot0.FlushInsBtn = function(slot0)
+	slot0.insBtn:Flush()
 end
 
 slot0.UpdateStamina = function(slot0)

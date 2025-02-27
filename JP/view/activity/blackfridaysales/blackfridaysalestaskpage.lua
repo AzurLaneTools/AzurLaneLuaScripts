@@ -126,11 +126,11 @@ end
 
 slot0.getColor = function(slot0, slot1, slot2)
 	if slot1 == uv0.TXT_DESC then
-		return slot2 == 1 and "#393a3c" or "#ffffff"
+		return slot2 == 1 and "#494f2f" or "#494f2f"
 	elseif slot1 == uv0.TXT_CURRENT_NUM then
-		return "#30ec80"
+		return "#8bb948"
 	elseif slot1 == uv0.TXT_TARGET_NUM then
-		return "#393a3c"
+		return "#85775e"
 	end
 end
 

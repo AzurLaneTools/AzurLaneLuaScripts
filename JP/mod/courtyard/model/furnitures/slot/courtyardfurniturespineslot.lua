@@ -171,6 +171,7 @@ slot0.GetActions = function(slot0)
 			slot5 = #slot6:GetUsingSlots()
 		end
 
+		preheatOnlyHost = slot0.preheatAction[4]
 		slot3 = slot0.preheatAction[3]
 		slot2 = slot0.preheatAction[2]
 		slot1 = slot4[slot5]
@@ -188,7 +189,7 @@ slot0.GetActions = function(slot0)
 		slot6[0] = true
 	end
 
-	return slot4, slot5, slot6, slot1, slot2, slot0.tailAction
+	return slot4, slot5, slot6, slot1, slot2, slot0.tailAction, preheatOnlyHost
 end
 
 slot0.OnAwake = function(slot0)

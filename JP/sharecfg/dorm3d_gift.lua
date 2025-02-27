@@ -17,6 +17,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20301
+			},
+			{
+				19903,
+				30301
 			}
 		},
 		shop_id = {},
@@ -30,6 +34,12 @@ pg.dorm3d_gift = {
 			},
 			{
 				30221,
+				{
+					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
 				{
 					"banner_nengdaigift"
 				}
@@ -53,6 +63,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20302
+			},
+			{
+				19903,
+				30302
 			}
 		},
 		shop_id = {
@@ -72,6 +86,12 @@ pg.dorm3d_gift = {
 			},
 			{
 				30221,
+				{
+					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
 				{
 					"banner_nengdaigift"
 				}
@@ -95,6 +115,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20303
+			},
+			{
+				19903,
+				30303
 			}
 		},
 		shop_id = {
@@ -111,6 +135,12 @@ pg.dorm3d_gift = {
 			},
 			{
 				30221,
+				{
+					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
 				{
 					"banner_nengdaigift"
 				}
@@ -180,7 +210,7 @@ pg.dorm3d_gift = {
 	[3022101] = {
 		display = "シンプルなデザイン、シンプルな色。軽やかでいい履き心地。\n足裏にも快適にフィットし、日々に寄り添ってくれる。",
 		name = "素直ローファー",
-		unlock_dialogue_id = 10060,
+		unlock_dialogue_id = 29991,
 		rarity = 4,
 		ship_group_id = 30221,
 		favor_trigger_id = 1004,

@@ -74,6 +74,15 @@ slot0.init = function(slot0)
 			uv0:SetApartment(getProxy(ApartmentProxy):getApartment(slot2))
 		end
 
+		slot2 = getProxy(Dorm3dChatProxy)
+
+		slot2:TriggerEvent({
+			{
+				value = 1,
+				event_type = uv0.contextData.timeIndex == 1 and 114 or 119,
+				ship_id = uv0.apartment:GetConfigID()
+			}
+		})
 		uv0:OutOfLazy(uv0.apartment:GetConfigID(), function ()
 			uv0:emit(Dorm3dRoomMediator.OPEN_CAMERA_LAYER, uv0, uv0.apartment:GetConfigID())
 		end)
@@ -313,42 +322,45 @@ slot0.init = function(slot0)
 	setText(slot3:Find("Panel/BG/Scroll/Content/Unlock/Title/Text"), i18n("word_unlock"))
 	setText(slot3:Find("Panel/BG/Scroll/Content/Lock/Title/Text"), i18n("word_lock"))
 
-	slot0.ikTipsRoot = slot3:Find("Tips")
+	slot5 = slot0._tf
+	slot5 = slot5:Find("IKControl")
+	slot0.ikTipsRoot = slot5:Find("Tips")
 
 	setActive(slot0.ikTipsRoot, false)
 
-	slot0.ikClickTipsRoot = slot3:Find("ClickTips")
+	slot0.ikClickTipsRoot = slot5:Find("ClickTips")
 
 	setActive(slot0.ikClickTipsRoot, false)
 
-	slot0.ikHand = slot3:Find("Handler")
+	slot0.ikHand = slot5:Find("Handler")
 
 	setActive(slot0.ikHand, false)
 	eachChild(slot0.ikHand, function (slot0)
 		setActive(slot0, false)
 	end)
 
-	slot0.ikTextTipsRoot = slot3:Find("TextTips")
+	slot0.ikTextTipsRoot = slot5:Find("TextTips")
 
 	setActive(slot0.ikTextTipsRoot, false)
 	eachChild(slot0.ikTextTipsRoot, function (slot0)
 		setActive(slot0, false)
 	end)
 
-	slot5 = slot0.uiContianer
-	slot5 = slot5:Find("accompany")
+	slot0.ikControlUI = slot5
+	slot6 = slot0.uiContianer
+	slot6 = slot6:Find("accompany")
 
-	onButton(slot0, slot5:Find("btn_back"), function ()
+	onButton(slot0, slot6:Find("btn_back"), function ()
 		uv0:ExitAccompanyMode()
 	end, "ui-dorm_back_v2")
 
 	slot0.unlockList = {}
-	slot6 = slot0._tf
-	slot0.rtFavorUp = slot6:Find("Toast/favor_up")
-	slot6 = slot0.rtFavorUp
-	slot6 = slot6:GetComponent("DftAniEvent")
+	slot7 = slot0._tf
+	slot0.rtFavorUp = slot7:Find("Toast/favor_up")
+	slot7 = slot0.rtFavorUp
+	slot7 = slot7:GetComponent("DftAniEvent")
 
-	slot6:SetEndEvent(function (slot0)
+	slot7:SetEndEvent(function (slot0)
 		setActive(uv0.rtFavorUp, false)
 
 		if #uv0.unlockList > 0 then
@@ -358,34 +370,34 @@ slot0.init = function(slot0)
 	end)
 	setActive(slot0.rtFavorUp, false)
 
-	slot6 = slot0._tf
-	slot0.rtFavorUpDaily = slot6:Find("Toast/favor_up_daily")
+	slot7 = slot0._tf
+	slot0.rtFavorUpDaily = slot7:Find("Toast/favor_up_daily")
 
 	setActive(slot0.rtFavorUpDaily, false)
 
-	slot6 = slot0._tf
-	slot0.rtStaminaPop = slot6:Find("Toast/stamina")
-	slot6 = slot0.rtStaminaPop
-	slot6 = slot6:GetComponent("DftAniEvent")
+	slot7 = slot0._tf
+	slot0.rtStaminaPop = slot7:Find("Toast/stamina")
+	slot7 = slot0.rtStaminaPop
+	slot7 = slot7:GetComponent("DftAniEvent")
 
-	slot6:SetTriggerEvent(function (slot0)
+	slot7:SetTriggerEvent(function (slot0)
 		slot1, slot2 = getProxy(ApartmentProxy):getStamina()
 
 		setText(uv0.rtStaminaPop:Find("Text"), string.format("%d/%d", slot1, slot2))
 	end)
-	slot6:SetEndEvent(function (slot0)
+	slot7:SetEndEvent(function (slot0)
 		setActive(uv0.rtStaminaPop, false)
 	end)
 	setActive(slot0.rtStaminaPop, false)
 
-	slot7 = slot0._tf
-	slot0.rtLevelUpWindow = slot7:Find("LevelUpWindow")
+	slot8 = slot0._tf
+	slot0.rtLevelUpWindow = slot8:Find("LevelUpWindow")
 
 	setActive(slot0.rtLevelUpWindow, false)
 
-	slot9 = slot0.rtLevelUpWindow
+	slot10 = slot0.rtLevelUpWindow
 
-	onButton(slot0, slot9:Find("bg"), function ()
+	onButton(slot0, slot10:Find("bg"), function ()
 		if uv0.isLock then
 			return
 		end
@@ -402,25 +414,25 @@ slot0.init = function(slot0)
 		end))
 	end, SFX_PANEL)
 
-	slot7 = slot0.uiContianer
-	slot7 = slot7:Find("watch")
+	slot8 = slot0.uiContianer
+	slot8 = slot8:Find("watch")
 
-	onButton(slot0, slot7:Find("btn_back"), function ()
+	onButton(slot0, slot8:Find("btn_back"), function ()
 		uv0:ExitWatchMode()
 	end, "ui-dorm_back_v2")
-	onButton(slot0, slot7:Find("btn_back/help"), function ()
+	onButton(slot0, slot8:Find("btn_back/help"), function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
 			helps = i18n("roll_gametip")
 		})
 	end, SFX_PANEL)
 
-	slot0.rtStaminaDisplay = slot7:Find("stamina")
-	slot8 = slot0.uiContianer
-	slot0.rtRole = slot8:Find("watch/Role")
-	slot10 = slot0.rtRole
+	slot0.rtStaminaDisplay = slot8:Find("stamina")
+	slot9 = slot0.uiContianer
+	slot0.rtRole = slot9:Find("watch/Role")
+	slot11 = slot0.rtRole
 
-	onButton(slot0, slot10:Find("Talk"), function ()
+	onButton(slot0, slot11:Find("Talk"), function ()
 		if #uv0.apartment:getFurnitureTalking(uv0.room:GetConfigID(), uv0.ladyDict[uv0.apartment:GetConfigID()].ladyBaseZone) == 0 then
 			pg.TipsMgr.GetInstance():ShowTips("without topic")
 
@@ -434,23 +446,35 @@ slot0.init = function(slot0)
 		end)
 	end, "ui-dorm_click_v2")
 
-	slot9 = slot0.rtRole
-
-	setText(slot9:Find("Talk/bg/Text"), i18n("dorm3d_talk"))
-
 	slot10 = slot0.rtRole
 
-	onButton(slot0, slot10:Find("Touch"), function ()
+	setText(slot10:Find("Talk/bg/Text"), i18n("dorm3d_talk"))
+
+	slot11 = slot0.rtRole
+
+	onButton(slot0, slot11:Find("Touch"), function ()
+		getProxy(Dorm3dChatProxy):TriggerEvent({
+			{
+				value = 1,
+				event_type = uv0.contextData.timeIndex == 1 and 111 or 116,
+				ship_id = uv0.apartment:GetConfigID()
+			},
+			{
+				value = 1,
+				event_type = 156,
+				ship_id = uv0.apartment:GetConfigID()
+			}
+		})
 		uv0:EnterTouchMode()
 	end, "ui-dorm_click_v2")
 
-	slot9 = slot0.rtRole
-
-	setText(slot9:Find("Touch/bg/Text"), i18n("dorm3d_touch"))
-
 	slot10 = slot0.rtRole
 
-	onButton(slot0, slot10:Find("Gift"), function ()
+	setText(slot10:Find("Touch/bg/Text"), i18n("dorm3d_touch"))
+
+	slot11 = slot0.rtRole
+
+	onButton(slot0, slot11:Find("Gift"), function ()
 		uv0:emit(uv0.SHOW_BLOCK)
 		uv0:ActiveStateCamera("gift", function ()
 			uv0:emit(uv0.HIDE_BLOCK)
@@ -461,20 +485,31 @@ slot0.init = function(slot0)
 		})
 	end, "ui-dorm_click_v2")
 
-	slot9 = slot0.rtRole
-
-	setText(slot9:Find("Gift/bg/Text"), i18n("dorm3d_gift"))
-
 	slot10 = slot0.rtRole
 
-	onButton(slot0, slot10:Find("MiniGame"), function ()
+	setText(slot10:Find("Gift/bg/Text"), i18n("dorm3d_gift"))
+
+	slot11 = slot0.rtRole
+
+	onButton(slot0, slot11:Find("MiniGame"), function ()
 		assert(not uv0.nowMiniGameId)
 
-		slot1 = uv0.room
-		uv0.nowMiniGameId = slot1:getMiniGames()[1]
-		slot2 = uv0.apartment
-		slot1 = uv0.ladyDict[slot2:GetConfigID()]
+		uv0.nowMiniGameId = uv0.room:getMiniGames()[1]
+		slot1 = uv0.ladyDict[uv0.apartment:GetConfigID()]
+		slot2 = getProxy(Dorm3dChatProxy)
 
+		slot2:TriggerEvent({
+			{
+				value = 1,
+				event_type = uv0.contextData.timeIndex == 1 and 112 or 117,
+				ship_id = uv0.apartment:GetConfigID()
+			},
+			{
+				value = 1,
+				event_type = 158,
+				ship_id = uv0.apartment:GetConfigID()
+			}
+		})
 		table.insert({}, function (slot0)
 			uv0:SetAllBlackbloardValue("inLockLayer", true)
 			uv0:TempHideUI(true, slot0)
@@ -508,6 +543,10 @@ slot0.init = function(slot0)
 		end)
 		table.insert(slot2, function (slot0)
 			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(1))
+			uv0:HandleGameNotification(Dorm3dMiniGameMediator.OPERATION, {
+				operationCode = "BEFORE_OPEN_GAME",
+				miniGameId = uv0.nowMiniGameId
+			})
 			uv0:EnableMiniGameCutIn()
 			uv0:emit(Dorm3dRoomMediator.OPEN_MINIGAME_WINDOW, {
 				isDorm3d = true,
@@ -531,23 +570,23 @@ slot0.init = function(slot0)
 		end)
 	end, "ui-dorm_click_v2")
 
-	slot9 = slot0.rtRole
-
-	setText(slot9:Find("MiniGame/bg/Text"), i18n("dorm3d_minigame_button1"))
-
 	slot10 = slot0.rtRole
 
-	onButton(slot0, slot10:Find("Volleyball"), function ()
+	setText(slot10:Find("MiniGame/bg/Text"), i18n("dorm3d_minigame_button1"))
+
+	slot11 = slot0.rtRole
+
+	onButton(slot0, slot11:Find("Volleyball"), function ()
 		uv0:emit(Dorm3dRoomMediator.ENTER_VOLLEYBALL, uv0.apartment:GetConfigID())
 	end, "ui-dorm_click_v2")
 
-	slot9 = slot0.rtRole
-
-	setText(slot9:Find("Volleyball/bg/Text"), i18n("dorm3d_volleyball_button"))
-
 	slot10 = slot0.rtRole
 
-	onButton(slot0, slot10:Find("Performance"), function ()
+	setText(slot10:Find("Volleyball/bg/Text"), i18n("dorm3d_volleyball_button"))
+
+	slot11 = slot0.rtRole
+
+	onButton(slot0, slot11:Find("Performance"), function ()
 		slot0 = uv0
 
 		slot0:DoTalk(20500, function ()
@@ -555,30 +594,30 @@ slot0.init = function(slot0)
 		end)
 	end, "ui-dorm_click_v2")
 
-	slot8 = slot0._tf
-	slot0.rtFloatPage = slot8:Find("FloatPage")
-	slot8 = slot0.rtFloatPage
-	slot0.tplFloat = slot8:Find("tpl")
+	slot9 = slot0._tf
+	slot0.rtFloatPage = slot9:Find("FloatPage")
+	slot9 = slot0.rtFloatPage
+	slot0.tplFloat = slot9:Find("tpl")
 
 	setActive(slot0.tplFloat, false)
 	eachChild(cloneTplTo(slot0.tplFloat, slot0.rtFloatPage, "lady"), function (slot0)
 		setActive(slot0, slot0.name == "walk")
 	end)
 
-	slot9 = slot0._tf
-	slot0._joystick = slot9:Find("Stick")
+	slot10 = slot0._tf
+	slot0._joystick = slot10:Find("Stick")
 
 	setActive(slot0._joystick, false)
 
-	slot9 = slot0._joystick
-	slot9 = slot9:GetComponent(typeof(SlideController))
+	slot10 = slot0._joystick
+	slot10 = slot10:GetComponent(typeof(SlideController))
 
-	slot9:SetStickFunc(function (slot0)
+	slot10:SetStickFunc(function (slot0)
 		uv0:emit(uv0.ON_STICK_MOVE, slot0)
 	end)
 
-	slot10 = slot0._tf
-	slot0.povLayer = slot10:Find("POVControl")
+	slot11 = slot0._tf
+	slot0.povLayer = slot11:Find("POVControl")
 
 	setActive(slot0.povLayer, false)
 	(function ()
@@ -605,7 +644,7 @@ slot0.init = function(slot0)
 		end)
 	end)()
 
-	slot0.ikControlLayer = slot3:Find("ControlLayer")
+	slot0.ikControlLayer = slot5:Find("ControlLayer")
 
 	(function ()
 		slot0 = nil
@@ -651,15 +690,15 @@ slot0.init = function(slot0)
 		end)
 	end)()
 
-	slot12 = slot0._tf
-	slot0.rtExtraScreen = slot12:Find("ExtraScreen")
-	slot12 = slot0.rtExtraScreen
-	slot0.rtTouchGamePanel = slot12:Find("TouchGame")
-	slot12 = slot0.rtExtraScreen
-	slot0.rtTimelineScreen = slot12:Find("TimelineScreen")
-	slot14 = slot0.rtTimelineScreen
+	slot13 = slot0._tf
+	slot0.rtExtraScreen = slot13:Find("ExtraScreen")
+	slot13 = slot0.rtExtraScreen
+	slot0.rtTouchGamePanel = slot13:Find("TouchGame")
+	slot13 = slot0.rtExtraScreen
+	slot0.rtTimelineScreen = slot13:Find("TimelineScreen")
+	slot15 = slot0.rtTimelineScreen
 
-	onButton(slot0, slot14:Find("btn_skip"), function ()
+	onButton(slot0, slot15:Find("btn_skip"), function ()
 		existCall(uv0.timelineFinishCall)
 	end, SFX_CANCEL)
 
@@ -803,6 +842,7 @@ slot0.SetUI = function(slot0, slot1, ...)
 	slot0:TempHideContact(slot0.uiState ~= "base")
 	slot0:SetFloatEnable(slot0.uiState == "walk")
 	setActive(slot0.rtFloatPage, slot0.uiState == "walk")
+	setActive(slot0.ikControlUI, slot0.uiState == "ik")
 	switch(slot0.uiState, {
 		base = function ()
 			if not uv0.room:isPersonalRoom() then
@@ -977,6 +1017,13 @@ slot0.EnterAccompanyMode = function(slot0, slot1)
 
 	slot6, slot7 = unpack(slot2.favor)
 
+	getProxy(Dorm3dChatProxy):TriggerEvent({
+		{
+			value = 1,
+			event_type = 161,
+			ship_id = slot0.apartment:GetConfigID()
+		}
+	})
 	getProxy(ApartmentProxy):RecordAccompanyTime()
 
 	slot8 = pg.m02
@@ -1392,6 +1439,7 @@ slot0.SetIKState = function(slot0, slot1, slot2)
 			uv0:SetBlackboardValue(uv1, "inIK", true)
 			uv0:emit(uv0.SHOW_BLOCK)
 			setActive(uv0.uiContianer:Find("ik/Right/btn_camera"), #pg.dorm3d_ik_status.get_id_list_by_camera_group[uv1.ikConfig.camera_group] > 1)
+			setActive(uv0.ikControlUI, true)
 			slot0()
 		end)
 
@@ -1412,6 +1460,7 @@ slot0.SetIKState = function(slot0, slot1, slot2)
 	else
 		assert(slot0.uiState == "ik")
 		table.insert(slot4, function (slot0)
+			setActive(uv0.ikControlUI, false)
 			uv0:emit(uv0.SHOW_BLOCK)
 			Shader.SetGlobalFloat("_ScreenClipOff", 1)
 			slot0()
@@ -1440,8 +1489,8 @@ slot0.SetIKState = function(slot0, slot1, slot2)
 	seriesAsync(slot4, slot2)
 end
 
-slot0.TouchModeAction = function(slot0, slot1, slot2, ...)
-	return switch(slot2, {
+slot0.TouchModeAction = function(slot0, slot1, slot2, slot3, ...)
+	return switch(slot3, {
 		function (slot0, slot1)
 			return function (slot0)
 				seriesAsync({
@@ -1499,16 +1548,8 @@ slot0.TouchModeAction = function(slot0, slot1, slot2, ...)
 				uv0:PlaySceneItemAnim(uv1, uv2)
 				uv0:PlaySingleAction(uv3, slot0)
 			end
-		end
-	}, function ()
-		return function ()
-		end
-	end, ...)
-end
-
-slot0.TouchModePointAction = function(slot0, slot1, slot2, slot3, ...)
-	return switch(slot3, {
-		[6] = function (slot0)
+		end,
+		function (slot0)
 			return function (slot0)
 				if #pg.dorm3d_ik_touch[uv0].scene_item == 0 then
 					return
@@ -1527,9 +1568,45 @@ slot0.TouchModePointAction = function(slot0, slot1, slot2, slot3, ...)
 
 				slot0()
 			end
+		end,
+		function (slot0)
+			slot1 = pg.dorm3d_ik_touch_move[slot0]
+			slot2 = slot1.target_ik
+			slot3 = slot1.move_time
+			slot4 = slot1.ik_point
+			slot5 = slot1.touch_step
+			uv0.IKSettings.forceMove = uv0.IKSettings.forceMove or {}
+			slot6[slot2] = uv0.IKSettings.forceMove[slot2] or {}
+			slot6[slot2].count = slot6[slot2].count or 0
+
+			return function (slot0)
+				seriesAsync({
+					function (slot0)
+						if uv0[uv1].count >= #uv2 then
+							return slot0()
+						end
+
+						slot1 = Dorm3dIK.New({
+							configId = uv1
+						})
+						slot3 = uv0[uv1].count
+						slot4 = uv2[slot3 + 1] - (slot3 == 0 and 0 or uv2[slot3])
+						uv0[uv1].count = slot3 + 1
+
+						pg.IKMgr.GetInstance():ResetIK(slot1:GetTriggerBoneName())
+						pg.IKMgr.GetInstance():PlayIKMove(uv5.raycastCamera:WorldToScreenPoint(uv4.IKSettings.Colliders[slot1:GetTriggerBoneName()].position), slot1:GetTriggerBoneName(), Vector2.New(unpack(uv3)), uv2[slot3 + 1], uv6, function ()
+							uv0[uv1].count = 0
+
+							uv2()
+						end)
+					end,
+					slot0
+				})
+			end
 		end
-	}, function (...)
-		return uv0:TouchModeAction(uv1, uv2, ...)
+	}, function ()
+		return function ()
+		end
 	end, ...)
 end
 
@@ -1554,7 +1631,7 @@ slot0.OnTriggerIK = function(slot0, slot1)
 
 	slot0.blockIK = true
 
-	slot0:TouchModeAction(slot2, unpack(slot4))(function ()
+	slot0:TouchModeAction(slot2, slot1:GetConfigID(), unpack(slot4))(function ()
 		uv0:ResetIKTipTimer()
 
 		uv0.blockIK = nil
@@ -1570,7 +1647,7 @@ slot0.OnTouchCharacterBody = function(slot0, slot1)
 		return
 	end
 
-	for slot6, slot7 in ipairs(slot2.ikConfig.touch_data) do
+	for slot6, slot7 in ipairs(slot2.iKTouchDatas) do
 		slot8, slot9, slot10 = unpack(slot7)
 
 		if pg.dorm3d_ik_touch[slot8].body == slot1 then
@@ -1598,7 +1675,7 @@ slot0.OnTouchCharacterBody = function(slot0, slot1)
 
 			slot0.blockIK = true
 
-			slot0:TouchModeAction(slot2, unpack(slot10))(function ()
+			slot0:TouchModeAction(slot2, slot8, unpack(slot10))(function ()
 				uv0:ResetIKTipTimer()
 
 				uv0.blockIK = nil
@@ -1748,6 +1825,19 @@ slot0.DoTalk = function(slot0, slot1, slot2)
 		slot0.firstTimelineTouch = true
 		slot0.firstMoveGuide = true
 	end
+
+	getProxy(Dorm3dChatProxy):TriggerEvent({
+		{
+			value = 1,
+			event_type = slot0.contextData.timeIndex == 1 and 110 or 115,
+			ship_id = slot0.apartment:GetConfigID()
+		},
+		{
+			value = 1,
+			event_type = 155,
+			ship_id = slot0.apartment:GetConfigID()
+		}
+	})
 
 	slot4 = {}
 
@@ -1980,51 +2070,48 @@ slot0.ChangeCanWatchState = function(slot0, slot1)
 	end
 end
 
-slot1 = {
-	{
-		"Face_XYX_1",
-		"zhongji"
-	},
-	{
-		"Face_XYX_2",
-		"qingji"
-	},
-	{
-		"Face_XYX_3",
-		"miss"
-	}
-}
-
 slot0.HandleGameNotification = function(slot0, slot1, slot2)
 	slot4 = slot0.apartment
 	slot3 = slot0.ladyDict[slot4:GetConfigID()]
 
 	switch(slot1, {
 		[Dorm3dMiniGameMediator.OPERATION] = function ()
+			slot0 = uv0.miniGameId
+
 			switch(uv0.miniGameId, {
 				[67] = function ()
 					if uv0.operationCode == "GAME_HIT_AREA" then
-						slot0, slot1 = unpack(uv1[uv0.index])
+						slot1, slot2 = unpack(({
+							{
+								"Face_XYX_1",
+								"zhongji"
+							},
+							{
+								"Face_XYX_2",
+								"qingji"
+							},
+							{
+								"Face_XYX_3",
+								"miss"
+							}
+						})[uv0.index])
 
-						uv2:PlaySingleAction(uv3, slot0)
+						uv1:PlayFaceAnim(uv2, slot1)
 
-						if uv2.tfCutIn then
-							quickPlayAnimator(uv2.modelCutIn.lady, slot1)
-							quickPlayAnimator(uv2.modelCutIn.player, slot1)
+						if uv1.tfCutIn then
+							quickPlayAnimator(uv1.modelCutIn.lady, slot2)
+							quickPlayAnimator(uv1.modelCutIn.player, slot2)
 						end
 					elseif uv0.operationCode == "GAME_RESULT" then
 						if uv0.win then
-							uv2:PlaySingleAction(uv3, "Face_XYX_victory")
-							uv2:PlaySingleAction(uv3, "minigame_win")
+							uv1:PlayFaceAnim(uv2, "Face_XYX_victory")
+							uv1:PlaySingleAction(uv2, "minigame_win")
 						else
-							uv2:PlaySingleAction(uv3, "Face_XYX_lose")
-							uv2:PlaySingleAction(uv3, "minigame_lose")
+							uv1:PlayFaceAnim(uv2, "Face_XYX_lose")
+							uv1:PlaySingleAction(uv2, "minigame_lose")
 						end
 
-						setActive(uv2.rtExtraScreen:Find("MiniGameCutIn"), false)
-						pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(2, uv0.score))
-					elseif uv0.operationCode == "GAME_CLOSE" and uv0.doTrack == false then
-						pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(3))
+						setActive(uv1.rtExtraScreen:Find("MiniGameCutIn"), false)
 					end
 				end,
 				[70] = function ()
@@ -2060,13 +2147,57 @@ slot0.HandleGameNotification = function(slot0, slot1, slot2)
 							end
 						end), function ()
 						end)
-					elseif uv0.operationCode == "GAME_CLOSE" and uv0.doTrack == false then
-						pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(3))
+					end
+				end,
+				[75] = function ()
+					if uv0.operationCode == "BEFORE_OPEN_GAME" then
+						uv1.cameras[uv2.CAMERA.TALK].Follow = nil
+						uv1.cameras[uv2.CAMERA.TALK].LookAt = nil
+					elseif uv0.operationCode == "GAME_RPS_RESULT" then
+						if uv0.index == 1 then
+							uv1:PlaySingleAction(uv3, "ab_shuohua_lianxuyaotou_01")
+							uv1:PlayFaceAnim(uv3, "Face_weixiao")
+						elseif uv0.index == 2 then
+							uv1:PlaySingleAction(uv3, "ab_shuohua_lianxudiantou_01")
+							uv1:PlayFaceAnim(uv3, "Face_kaixin")
+						end
+					elseif uv0.operationCode == "GAME_RESULT" then
+						if not uv0.win then
+							uv1:PlaySingleAction(uv3, "ab_shuohua_taibangle_01")
+						end
+
+						uv1:PlayFaceAnim(uv3, "Face_kaixin")
 					end
 				end
 			}, function ()
 				warning("without miniGameId:" .. uv0.miniGameId)
 			end)
+
+			if uv0.operationCode == "BEFORE_OPEN_GAME" then
+				slot1 = getProxy(PlayerProxy):getPlayerId()
+				slot2 = 0
+				uv1.highScore = (slot0 ~= 67 and slot0 ~= 70 or PlayerPrefs.GetInt("mg_new_score_" .. tostring(slot1) .. "_" .. uv0.miniGameId, 0)) and PlayerPrefs.GetInt("mg_score_" .. tostring(slot1) .. "_" .. uv0.miniGameId, 0)
+			elseif uv0.operationCode == "GAME_RESULT" then
+				slot2 = getProxy(PlayerProxy):getPlayerId()
+
+				if uv1.highScore < uv0.score then
+					if slot0 == 67 or slot0 == 70 then
+						PlayerPrefs.SetInt("mg_new_score_" .. tostring(slot2) .. "_" .. uv0.miniGameId, slot1)
+					end
+
+					getProxy(Dorm3dChatProxy):TriggerEvent({
+						{
+							event_type = 159,
+							value = slot1,
+							ship_id = uv1.apartment:GetConfigID()
+						}
+					})
+				end
+
+				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(2, uv0.score))
+			elseif uv0.operationCode == "GAME_CLOSE" and uv0.doTrack == false then
+				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataMiniGame(3))
+			end
 		end
 	})
 end

@@ -125707,6 +125707,1754 @@ _G.pg.base.task_data_template[20929] = {
 }
 
 
+_G.pg.base.task_data_template[20930] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904542,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』每日任务",
+	desc = "【每日】艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20930,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20931] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904542,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』每日任务",
+	desc = "【每日】艦を1隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20931,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20932] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904542,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』每日任务",
+	desc = "【每日】演習を1回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20932,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20933] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212国服皮肤返场』累计出击1",
+	desc = "【1/12】艦隊を出撃させ、戦闘で1回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20933,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20934] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击2",
+	desc = "【2/12】艦隊を出撃させ、戦闘で4回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20934,
+	target_num = 4,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20935] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击3",
+	desc = "【3/12】艦隊を出撃させ、戦闘で10回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20935,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20936] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击4",
+	desc = "【4/12】艦隊を出撃させ、戦闘で20回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20936,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20937] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击5",
+	desc = "【5/12】艦隊を出撃させ、戦闘で30回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20937,
+	target_num = 30,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20938] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击6",
+	desc = "【6/12】艦隊を出撃させ、戦闘で40回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20938,
+	target_num = 40,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20939] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击7",
+	desc = "【7/12】艦隊を出撃させ、戦闘で50回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20939,
+	target_num = 50,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20940] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击8",
+	desc = "【8/12】艦隊を出撃させ、戦闘で60回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20940,
+	target_num = 60,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20941] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击9",
+	desc = "【9/12】艦隊を出撃させ、戦闘で70回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20941,
+	target_num = 70,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20942] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击10",
+	desc = "【10/12】艦隊を出撃させ、戦闘で80回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20942,
+	target_num = 80,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20943] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击11",
+	desc = "【11/12】艦隊を出撃させ、戦闘で100回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20943,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20944] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』累计出击12",
+	desc = "【12/12】艦隊を出撃させ、戦闘で120回勝利せよ！",
+	sub_type = 20,
+	task_fold = 20933,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20944,
+	target_num = 120,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[20945] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能1",
+	desc = "【1/12】戦術教室で戦術訓練を1回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20945,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20946] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能2",
+	desc = "【2/12】戦術教室で戦術訓練を4回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20946,
+	target_num = 4,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20947] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能3",
+	desc = "【3/12】戦術教室で戦術訓練を10回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20947,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20948] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能4",
+	desc = "【4/12】戦術教室で戦術訓練を20回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20948,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20949] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能5",
+	desc = "【5/12】戦術教室で戦術訓練を30回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20949,
+	target_num = 30,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20950] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能6",
+	desc = "【6/12】戦術教室で戦術訓練を40回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20950,
+	target_num = 40,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20951] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能7",
+	desc = "【7/12】戦術教室で戦術訓練を50回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20951,
+	target_num = 50,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20952] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能8",
+	desc = "【8/12】戦術教室で戦術訓練を60回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20952,
+	target_num = 60,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20953] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能9",
+	desc = "【9/12】戦術教室で戦術訓練を70回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20953,
+	target_num = 70,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20954] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能10",
+	desc = "【10/12】戦術教室で戦術訓練を80回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20954,
+	target_num = 80,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20955] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能11",
+	desc = "【11/12】戦術教室で戦術訓練を100回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20955,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20956] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』学习技能12",
+	desc = "【12/12】戦術教室で戦術訓練を120回遂行せよ！",
+	sub_type = 71,
+	task_fold = 20945,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20956,
+	target_num = 120,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20957] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船1",
+	desc = "【1/12】艦を1隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20957,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20958] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船2",
+	desc = "【2/12】艦を3隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20958,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20959] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船3",
+	desc = "【3/12】艦を6隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20959,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20960] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船4",
+	desc = "【4/12】艦を10隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20960,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20961] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船5",
+	desc = "【5/12】艦を15隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20961,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20962] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船6",
+	desc = "【6/12】艦を20隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20962,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20963] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船7",
+	desc = "【7/12】艦を25隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20963,
+	target_num = 25,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20964] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船8",
+	desc = "【8/12】艦を30隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20964,
+	target_num = 30,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20965] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船9",
+	desc = "【9/12】艦を35隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20965,
+	target_num = 35,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20966] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904540,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船10",
+	desc = "【10/12】艦を40隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20966,
+	target_num = 40,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			200
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20967] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船11",
+	desc = "【11/12】艦を50隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20967,
+	target_num = 50,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20968] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904541,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『241212皮肤返场』建造舰船12",
+	desc = "【12/12】艦を70隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 20957,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20968,
+	target_num = 70,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65062,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20969] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904549,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "241212皮肤返场登陆奖励1",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20969,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20970] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904550,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "241212皮肤返场登陆奖励2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20970,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54051,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[20971] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 904551,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "241212皮肤返场登陆奖励3",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 20971,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			3
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[20972] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -135875,6 +137623,1762 @@ _G.pg.base.task_data_template[21254] = {
 	},
 	scene = {
 		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21255] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905081,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』-日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21255,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65081,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21256] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905082,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』-日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21256,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65081,
+			300
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21257] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905083,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』-日常困难本",
+	desc = "通常海域ハードを１回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21257,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65081,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21258] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905084,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关A1/C1",
+	desc = "イベントステージA1かC1をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21259",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21258,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890001,
+		1890021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65081,
+			200
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5821
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21259] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905085,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关A2/C2",
+	desc = "イベントステージA2かC2をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21260",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21259,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890002,
+		1890022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65081,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5821
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21260] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905086,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关A3/C3",
+	desc = "イベントステージA3かC3をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21261",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21260,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890003,
+		1890023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65081,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5821
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21261] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905087,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关B1/D1",
+	desc = "イベントステージB1かD1をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21262",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21261,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890004,
+		1890024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65081,
+			400
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5822
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21262] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905088,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关B2/D2",
+	desc = "イベントステージB2かD2をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21263",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21262,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890005,
+		1890025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			1,
+			1,
+			600
+		},
+		{
+			2,
+			65081,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5822
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21263] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905089,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关B3/D3",
+	desc = "イベントステージB3かD3をクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21264",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21263,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890006,
+		1890026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		},
+		{
+			2,
+			65081,
+			800
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5822
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21264] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905090,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关SP",
+	desc = "イベントステージSPをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21264,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1890041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1890025,
+			chapterId = 1890041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21265] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905091,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21265,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1890051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1890026,
+			chapterId = 1890051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21267] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905093,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』A1/C1的3星",
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21268",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21267,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890001,
+		1890021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5821
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21268] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905094,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』A2/C2的3星",
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21269",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21268,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890002,
+		1890022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5821
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21269] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905095,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』A3/C3的3星",
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21270",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21269,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890003,
+		1890023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5821
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21270] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905096,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』B1/D1的3星",
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21271",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21270,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890004,
+		1890024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5822
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21271] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905097,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』B2/D2的3星",
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21272",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21271,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890005,
+		1890025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5822
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21272] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905098,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『拉斐尔活动』B3/D3的3星",
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21272,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1890006,
+		1890026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18023,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5822
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21273] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905099,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关任务10次",
+	desc = "『籠檻に囚われし神光』特別ステージ10回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21273,
+	target_num = 10,
+	fix_task = 0,
+	target_id = {
+		1890001,
+		1890002,
+		1890003,
+		1890004,
+		1890005,
+		1890006,
+		1890021,
+		1890022,
+		1890023,
+		1890024,
+		1890025,
+		1890026,
+		1890041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65081,
+			500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21274] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905100,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关任务30次",
+	desc = "『籠檻に囚われし神光』特別ステージ30回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21274,
+	target_num = 30,
+	fix_task = 0,
+	target_id = {
+		1890001,
+		1890002,
+		1890003,
+		1890004,
+		1890005,
+		1890006,
+		1890021,
+		1890022,
+		1890023,
+		1890024,
+		1890025,
+		1890026,
+		1890041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65081,
+			1500
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21275] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905101,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』通关任务60次",
+	desc = "『籠檻に囚われし神光』特別ステージ60回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21275,
+	target_num = 60,
+	fix_task = 0,
+	target_id = {
+		1890001,
+		1890002,
+		1890003,
+		1890004,
+		1890005,
+		1890006,
+		1890021,
+		1890022,
+		1890023,
+		1890024,
+		1890025,
+		1890026,
+		1890041
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65081,
+			3000
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21276] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905102,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』外观装备箱保底",
+	desc = "イベントショップか購買部で装備外装箱（ファラオ）を20個購入する",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21276,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30365",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30552,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21277] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905103,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21277,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			475,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21278] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905104,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取1",
+	desc = "籠檻に囚われし神光",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21278,
+	target_num = 7,
+	fix_task = 0,
+	target_id = "5812",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65541,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21279] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905105,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取2",
+	desc = "「籠檻に囚われし神光」SPステージをクリアする",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21279,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1890041",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65542,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21280] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905106,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取3",
+	desc = "「籠檻に囚われし神光」ストーリーをすべて開放する",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21280,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6675
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65543,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21281] = {
+	target_id_2 = "5824",
+	guild_coin_award = 0,
+	award = 905107,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取4",
+	desc = "「絵描きラフ」を累計10000個集める",
+	sub_type = 1001,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21281,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "476",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65544,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21282] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905108,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取5",
+	desc = "「籠檻に囚われし神光」C3ステージを☆3達成",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21282,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1890023",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65545,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21283] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905109,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取6",
+	desc = "「籠檻に囚われし神光」D3ステージを☆3達成",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21283,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1890026",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65546,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21284] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905110,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取7",
+	desc = "「籠檻に囚われし神光」イベントステージを40回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21284,
+	target_num = 40,
+	fix_task = 0,
+	target_id = {
+		1890001,
+		1890002,
+		1890003,
+		1890004,
+		1890005,
+		1890006,
+		1890021,
+		1890022,
+		1890023,
+		1890024,
+		1890025,
+		1890026,
+		1890041
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65547,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21285] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905111,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念贴纸获取8",
+	desc = "「神光型」の量産艦を100体撃破する",
+	sub_type = 12,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21285,
+	target_num = 100,
+	fix_task = 0,
+	target_id = {
+		16700001,
+		16700002,
+		16700003,
+		16700004,
+		16700005,
+		16700006,
+		16700007,
+		16701001,
+		16701002,
+		16701003,
+		16701004,
+		16701005,
+		16701006,
+		16701007,
+		16702001,
+		16702002,
+		16702003,
+		16702004,
+		16702005,
+		16702006,
+		16702007,
+		16703001,
+		16703002,
+		16703003,
+		16703004,
+		16703005,
+		16703006,
+		16703007
+	},
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65548,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21286] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905112,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』纪念任务1",
+	desc = "「籠檻に囚われし神光」記念ステッカーを8つ集める",
+	sub_type = 131,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 1,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21286,
+	target_num = 8,
+	fix_task = 0,
+	target_id = "5812",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			295,
+			1
+		},
+		{
+			8,
+			65540,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21287] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905244,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』皮肤剧情签到活动1",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21287,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65535,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21288] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905244,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』皮肤剧情签到活动2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21288,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65535,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21289] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905244,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』皮肤剧情签到活动3",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21289,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65535,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21290] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905244,
+	type = 14,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』皮肤剧情签到活动4",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21290,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			8,
+			65535,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21291] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 903339,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『拉斐尔活动』剧情模式通关",
+	desc = "ストーリーモードですべてのストーリーを読む",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21291,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		6675
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			5
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1890001,
+			displayMode = 2
+		}
 	}
 }
 

@@ -147,8 +147,9 @@ pg.dorm3d_recall = {
 		unlock_text = "「素直ローファー」をプレゼントして開放",
 		desc = "二人っきりの時間。繊細な肌触りがもてなす感動の刹那は…",
 		unlock = {
-			3,
-			3022101
+			1,
+			30221,
+			1
 		}
 	},
 	get_id_list_by_story_id = {

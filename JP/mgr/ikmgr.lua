@@ -130,33 +130,37 @@ slot0.Update = function(slot0)
 	end
 end
 
-slot0.OnDragBegin = function(slot0, slot1, slot2)
+slot0.OnDragBegin = function(slot0, slot1, slot2, slot3)
 	if not _.detect(slot0.readyIKLayers, function (slot0)
 		return slot0:GetTriggerName() == uv0
 	end) then
 		return
 	end
 
-	warning("ENABLEIK", slot3:GetControllerPath())
+	if not slot3 and slot4:IsIgnoreDrag() then
+		return
+	end
 
-	slot7 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
-	slot2 = Vector2.New(slot2.x / Screen.width * slot7.width, slot2.y / Screen.height * slot7.height)
-	slot8 = {
-		ikData = slot3,
-		list = slot0.ladyIKRoot:Find(slot3:GetControllerPath()):GetComponent(typeof(RootMotion.FinalIK.IKExecutionOrder))
+	warning("ENABLEIK", slot4:GetControllerPath())
+
+	slot8 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
+	slot2 = Vector2.New(slot2.x / Screen.width * slot8.width, slot2.y / Screen.height * slot8.height)
+	slot9 = {
+		ikData = slot4,
+		list = slot0.ladyIKRoot:Find(slot4:GetControllerPath()):GetComponent(typeof(RootMotion.FinalIK.IKExecutionOrder))
 	}
 
-	if not slot0.holdingStatus[slot3] then
-		slot8.rect = slot3:GetControlRect()
+	if not slot0.holdingStatus[slot4] then
+		slot9.rect = slot4:GetControlRect()
 
-		if slot3:GetActionType() == Dorm3dIK.ACTION_TRIGGER.RELEASE_ON_TARGET or slot9 == Dorm3dIK.ACTION_TRIGGER.TOUCH_TARGET then
-			slot8.triggerRect = slot3:GetActionRect()
+		if slot4:GetActionType() == Dorm3dIK.ACTION_TRIGGER.RELEASE_ON_TARGET or slot10 == Dorm3dIK.ACTION_TRIGGER.TOUCH_TARGET then
+			slot9.triggerRect = slot4:GetActionRect()
 		end
 
-		slot8.originScreenPosition = slot2
+		slot9.originScreenPosition = slot2
 
-		assert(tf(slot5):Find("Container/SubTargets"))
-		_.each(slot3:GetSubTargets(), function (slot0)
+		assert(tf(slot6):Find("Container/SubTargets"))
+		_.each(slot4:GetSubTargets(), function (slot0)
 			slot1 = uv0:Find(slot0.name)
 			slot2 = slot1:Find("Plane")
 			slot3 = slot1:Find("Target")
@@ -173,18 +177,18 @@ slot0.OnDragBegin = function(slot0, slot1, slot2)
 			})
 		end)
 
-		slot8.subPlanes = {}
+		slot9.subPlanes = {}
 
-		setActive(slot5, true)
+		setActive(slot6, true)
 	else
-		slot8 = slot0.holdingStatus[slot3].ikHandler
-		slot8.originScreenPosition = slot8.originScreenPosition + slot2 - slot8.screenPosition
-		slot0.holdingStatus[slot3] = nil
+		slot9 = slot0.holdingStatus[slot4].ikHandler
+		slot9.originScreenPosition = slot9.originScreenPosition + slot2 - slot9.screenPosition
+		slot0.holdingStatus[slot4] = nil
 	end
 
-	slot0.ikHandler = slot8
+	slot0.ikHandler = slot9
 
-	existCall(slot0.onIKLayerActive, slot8)
+	existCall(slot0.onIKLayerActive, slot9)
 end
 
 slot0.HandleBodyDrag = function(slot0, slot1)
@@ -320,6 +324,32 @@ slot0.PlayIKRevert = function(slot0, slot1, slot2)
 	slot0.ikRevertHandler()
 end
 
+slot0.ResetIK = function(slot0, slot1)
+	if not _.detect(slot0.readyIKLayers, function (slot0)
+		return slot0:GetTriggerName() == uv0
+	end) then
+		return
+	end
+
+	setActive(slot0.ladyIKRoot:Find(slot2:GetControllerPath()):GetComponent(typeof(RootMotion.FinalIK.IKExecutionOrder)), false)
+
+	slot6 = slot0.cacheIKInfos[slot2].weights
+
+	table.Foreach(slot0.cacheIKInfos[slot2].solvers, function (slot0, slot1)
+		slot1.IKPositionWeight = uv0[slot0]
+
+		slot1:FixTransforms()
+	end)
+
+	slot0.holdingStatus[slot2] = nil
+
+	if slot0.moveTimer then
+		slot0.moveTimer:Stop()
+
+		slot0.moveTimer = nil
+	end
+end
+
 slot0.ResetActiveIKs = function(slot0)
 	table.insertto(slot0.activeIKLayers, _.keys(slot0.holdingStatus))
 	table.clear(slot0.holdingStatus)
@@ -333,6 +363,12 @@ slot0.ResetActiveIKs = function(slot0)
 		end)
 	end)
 	table.clear(slot0.activeIKLayers)
+
+	if slot0.moveTimer then
+		slot0.moveTimer:Stop()
+
+		slot0.moveTimer = nil
+	end
 end
 
 slot0.PlayIKAction = function(slot0, slot1)
@@ -347,6 +383,52 @@ slot0.PlayIKAction = function(slot0, slot1)
 			existCall(uv0.onIKLayerAction, uv1)
 		end
 	})
+end
+
+slot0.PlayIKMove = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	if not _.detect(slot0.readyIKLayers, function (slot0)
+		return slot0:GetTriggerName() == uv0
+	end) then
+		return
+	end
+
+	warning("PLAY IKMOVE", slot7:GetControllerPath())
+	slot0:OnDragBegin(slot2, slot1, true)
+
+	if not slot0.ikHandler then
+		return
+	end
+
+	slot8 = Time.time + slot5
+	slot9 = slot1
+	slot10 = slot0.ikHandler.originScreenPosition + slot0.ikHandler.rect:NormalizedToPoint(slot3) * slot4
+
+	slot11 = function()
+		if not uv0.ikHandler or uv1 < Time.time then
+			uv0:ReleaseDrag()
+			uv0.moveTimer:Stop()
+
+			uv0.moveTimer = nil
+
+			existCall(uv2)
+
+			return
+		end
+
+		slot1 = Vector2.Lerp(uv4, uv5, math.max(0, uv1 - Time.time) / uv3)
+		slot3 = pg.UIMgr.GetInstance().uiCamera:Find("Canvas").rect
+
+		uv0:HandleBodyDrag(Vector2.New(slot1.x / slot3.width * Screen.width, slot1.y / slot3.height * Screen.height))
+	end
+
+	if slot0.moveTimer then
+		slot0.moveTimer:Stop()
+	end
+
+	slot0.moveTimer = FrameTimer.New(slot11, 1, -1)
+
+	slot0.moveTimer:Start()
+	slot11()
 end
 
 slot0.TransformMesh = function(slot0)

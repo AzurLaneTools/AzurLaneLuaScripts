@@ -3,12 +3,12 @@ slot0.MODE_OVERVIEW = 1
 slot0.MODE_EXPERIENCE = 2
 slot0.MODE_EXPERIENCE_FOR_ITEM = 3
 slot2 = -2
-slot3 = -3
 slot4 = -4
 slot5 = 9999
 slot6 = 9997
 slot7 = 9998
 slot0.PAGE_ALL = -1
+slot0.PAGE_RETURN = -3
 slot0.optionsPath = {
 	"overlay/blur_panel/adapt/top/option"
 }
@@ -74,7 +74,7 @@ slot0.GetSkinClassify = function(slot0, slot1, slot2)
 	end
 
 	if underscore.any(slot1, function (slot0)
-		return uv0[slot0]
+		return uv0[slot0.id]
 	end) then
 		table.insert(slot3, uv1)
 	end
@@ -353,7 +353,7 @@ slot0.SetUp = function(slot0)
 		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
 	end
 
-	slot0.skinPageID = uv1(slot1)
+	slot0.skinPageID = slot0.contextData.warp or uv1(slot1)
 
 	parallelAsync({
 		function (slot0)

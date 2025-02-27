@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "201",
 		scene = {}
 	},
+	[202] = {
+		unlock = "ショップ購入（戦闘UI・ファラオ）",
+		name = "ファラオ",
+		key = "SkinNormal_20250227",
+		display_icon = "ui_202",
+		is_unlock = 1,
+		rare = 4,
+		desc = "古の文字に黄金の模様。ナイル文明の悠久なる伝説を物語っている",
+		id = 202,
+		icon = "202",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -91,6 +103,7 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
-		201
+		201,
+		202
 	}
 }

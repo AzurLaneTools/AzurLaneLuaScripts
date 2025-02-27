@@ -150,6 +150,12 @@ pg.skin_page_template = {
 		res = "menghuanleyuan",
 		english_name = "Dreamland Park "
 	},
+	[27] = {
+		id = 27,
+		name = "尼罗河风情",
+		res = "niluohefengqing",
+		english_name = "Nile Colors"
+	},
 	[9997] = {
 		id = 9997,
 		name = "改造",
@@ -194,6 +200,7 @@ pg.skin_page_template = {
 		24,
 		25,
 		26,
+		27,
 		9997,
 		9998,
 		9999

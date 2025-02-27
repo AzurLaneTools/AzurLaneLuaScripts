@@ -58,7 +58,7 @@ slot0.OnUpdateFlush = function(slot0)
 		slot1 = slot2 or slot1
 	end
 
-	setText(slot0.cur, slot1 / slot2 >= 1 and setColorStr(slot1, COLOR_GREEN) or slot1)
+	setText(slot0.cur, slot1 / slot2 >= 1 and slot1 or slot1)
 	setText(slot0.target, "/" .. slot2)
 	setFillAmount(slot0.bar, slot3)
 

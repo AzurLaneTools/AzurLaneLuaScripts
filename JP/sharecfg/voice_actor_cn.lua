@@ -1687,5 +1687,17 @@ pg.voice_actor_CN = {
 	[440] = {
 		actor_name = "咲川ひなの",
 		code = 440
+	},
+	[441] = {
+		actor_name = "朝井彩加",
+		code = 441
+	},
+	[442] = {
+		actor_name = "結川あさき",
+		code = 442
+	},
+	[443] = {
+		actor_name = "藤本侑里",
+		code = 443
 	}
 }

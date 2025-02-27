@@ -51,17 +51,18 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.buttonContainer = slot5:Find("Weapon_button_container")
 
 	for slot9 = 1, 3 do
-		slot10 = ys.Battle.BattleWeaponButton.New()
-		slot11 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
+		slot11 = nil
+		slot11 = (not ys.Battle["BattleWeaponButton" .. ys.Battle.BattleState.GetCombatSkinKey()] or ys.Battle["BattleWeaponButton" .. slot10].New()) and ys.Battle.BattleWeaponButton.New()
+		slot12 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
 		skinName = "Skill_" .. slot9
-		slot12 = {}
+		slot13 = {}
 
-		ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot11, slot9)
-		slot10:ConfigSkin(slot11)
-		slot10:SwitchIcon(slot9, slot4)
-		slot10:SwitchIconEffect(slot9, slot4)
-		slot10:SetTextActive(true)
-		slot10:SetToCombatUIPreview(slot9 > 1)
+		ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot12, slot9)
+		slot11:ConfigSkin(slot12)
+		slot11:SwitchIcon(slot9, slot4)
+		slot11:SwitchIconEffect(slot9, slot4)
+		slot11:SetTextActive(true)
+		slot11:SetToCombatUIPreview(slot9 > 1)
 	end
 
 	slot0.heroBar = slot2.transform

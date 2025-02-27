@@ -22,6 +22,12 @@ slot0.Ctor = function(slot0, slot1)
 	end
 end
 
+slot0.IsMedalGroupCollectionGrey = function(slot0)
+	player = getProxy(PlayerProxy):getData()
+
+	return not player:getActivityMedalGroup()[slot0]
+end
+
 slot0.GetMedalGroupStateByID = function(slot0)
 	if pg.activity_medal_group[slot0].is_out_of_print == 1 then
 		return uv0.STATE_EXPIRE

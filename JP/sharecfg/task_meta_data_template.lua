@@ -282,6 +282,11 @@ pg.task_meta_data_template = setmetatable({
 		100383,
 		100384,
 		100385,
+		100391,
+		100392,
+		100393,
+		100394,
+		100395,
 		200001,
 		200002,
 		200003,
@@ -397,7 +402,11 @@ pg.task_meta_data_template = setmetatable({
 		200291,
 		200292,
 		200293,
-		200294
+		200294,
+		200301,
+		200302,
+		200303,
+		200304
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2642,6 +2651,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "ボルツァーノ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100391] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970508",
+		id = 100391,
+		target_num = 1,
+		desc = "アンドレア・ドーリア(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100392] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970508",
+		id = 100392,
+		target_num = 1,
+		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100393] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970508",
+		id = 100393,
+		target_num = 1,
+		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100394] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970508",
+		id = 100394,
+		target_num = 1,
+		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100395] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970508",
+		id = 100395,
+		target_num = 1,
+		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3569,5 +3618,37 @@ pg.base.task_meta_data_template = {
 		id = 200294,
 		target_num = 1,
 		desc = "セイレーン作戦でボルツァーノ(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200301] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970508",
+		id = 200301,
+		target_num = 1,
+		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊で1回勝利する"
+	},
+	[200302] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970508",
+		id = 200302,
+		target_num = 1,
+		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200303] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970508",
+		id = 200303,
+		target_num = 1,
+		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200304] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970508",
+		id = 200304,
+		target_num = 1,
+		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

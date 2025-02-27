@@ -488,11 +488,11 @@ pg.item_data_frame = {
 	},
 	[334] = {
 		name = "一筆の神光：聖翼の加護",
-		gain_by = "",
+		gain_by = "籠檻に囚われし神光",
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
-		desc = "今後開催されるイベントで入手可能",
+		desc = "<color=#ffffff>「筆を取り、自分だけの光を描いてみよう☆」</color>――「籠檻に囚われし神光」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {
@@ -637,6 +637,15 @@ pg.item_data_frame = {
 		id = 607,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>誰も己の物語から逃れることができない。例え自由のライダーでもーー</color>「荒野休日開拓記」に参加した指揮官に贈る",
+		scene = {}
+	},
+	[609] = {
+		name = "迎春CP記念",
+		gain_by = "",
+		time_second = 0,
+		id = 609,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「指揮官～キャンペーンに参加してくれてありがとうにゃ～特典を受け取ってにゃ♪」</color>「2025迎春キャンペーン」に参加した指揮官に贈る",
 		scene = {}
 	},
 	[1001] = {
@@ -855,6 +864,7 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		609,
 		1001,
 		1002,
 		1003,

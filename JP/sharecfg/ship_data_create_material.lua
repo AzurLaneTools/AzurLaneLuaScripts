@@ -202,13 +202,13 @@ pg.ship_data_create_material = {
 			"<color=#3dc6ff>レア</color>：51%",
 			"ノーマル：28.8%",
 			" ",
-			"<color=#ff5e39>ヨークタウンⅡ</color>：1.2%(<color=#92fc63>up!</color>)",
+			"<color=#ff5e39>ラファエロ</color>：1.2%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>ノーザンプトンⅡ</color>：2.0%(<color=#92fc63>up!</color>)",
+			"<color=#ffde38>マッジョーレ・バラッカ</color>：2.0%(<color=#92fc63>up!</color>)",
 			" ",
-			"<color=#ffde38>ホーネットⅡ</color>：0.5%",
+			"<color=#ffde38>アンドレア・ドーリア(META)</color>：0.5%",
 			" ",
-			"<color=#d797ff>ハムマンⅡ</color>：2.5%(<color=#92fc63>up!</color>)"
+			"<color=#d797ff>バルトロメオ・コレオーニ</color>：2.5%(<color=#92fc63>up!</color>)"
 		}
 	},
 	{

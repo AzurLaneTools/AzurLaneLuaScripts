@@ -144,7 +144,7 @@ end
 
 slot0.StaticCombinationDisplay = function(slot0)
 	return i18n("skin_gift_desc", table.concat(_.map(slot0, function (slot0)
-		slot1 = string.format("%0.1f", slot0[2] / 100)
+		slot1 = string.format("%0.2f", slot0[2] / 100)
 		slot3 = ""
 
 		if ShipSkin.New({

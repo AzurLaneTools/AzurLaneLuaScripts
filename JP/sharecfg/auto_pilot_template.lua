@@ -10821,6 +10821,146 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70283] = {
+		id = 70283,
+		name = "2025拉菲尔活动 战车机甲移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -8,
+					z = 25
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 2,
+				param = {
+					x = 0,
+					z = -50
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 0,
+				param = {
+					duration = 5
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 2,
+				param = {
+					x = 8,
+					z = 25
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70284] = {
+		id = 70284,
+		name = "2025拉菲尔活动 战车代行者移动1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -8,
+					z = 30
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70285] = {
+		id = 70285,
+		name = "2025拉菲尔活动 战车代行者移动2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 1,
+				param = {
+					x = -8,
+					z = 70
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 3,
+				to = 4,
+				type = 1,
+				param = {
+					x = -8,
+					z = 30
+				}
+			},
+			{
+				index = 4,
+				to = 5,
+				type = 0,
+				param = {
+					duration = 1
+				}
+			},
+			{
+				index = 5,
+				to = 6,
+				type = 1,
+				param = {
+					x = -10,
+					z = 50
+				}
+			},
+			{
+				index = 6,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

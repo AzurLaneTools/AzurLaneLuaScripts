@@ -2448,7 +2448,7 @@ pg.medal_template = {
 		name = "新春華裳記念証",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 0,
+		is_out_of_print = 1,
 		count_inherit = 0,
 		desc = "波乱あれど祈願成就。霓裳絢爛、一夜に咲き誇る",
 		next = 0,
@@ -2462,6 +2462,27 @@ pg.medal_template = {
 		rank = 1,
 		id = 200011,
 		explain1 = "「新春華裳協奏曲」",
+		explain2 = "イベント"
+	},
+	[200021] = {
+		target_id = "5812",
+		name = "聖翼神光記念章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "サルディーニャ同盟から贈られた勲章。強敵のメカアービトレイターに対する偉大なる勝利を記念する。\n――籠檻の外に待ち受けるのは、希望と輝き",
+		next = 0,
+		icon = "9021",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9021",
+		condition = "「籠檻に囚われし神光」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200021,
+		explain1 = "「籠檻に囚われし神光」",
 		explain2 = "イベント"
 	},
 	all = {
@@ -2576,6 +2597,7 @@ pg.medal_template = {
 		100934,
 		100935,
 		200001,
-		200011
+		200011,
+		200021
 	}
 }

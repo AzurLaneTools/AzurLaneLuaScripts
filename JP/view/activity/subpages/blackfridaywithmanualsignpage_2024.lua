@@ -2,7 +2,7 @@ slot0 = class("BlackFridayWithManualSignPage_2024", import(".BlackFridayWithManu
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
-	setActive(slot0.shopBtn, false)
+	setActive(slot0.shopBtn, true)
 	setText(slot0._tf:Find("AD/signMask/Image/Text"), i18n("challenge_end_tip"))
 end
 

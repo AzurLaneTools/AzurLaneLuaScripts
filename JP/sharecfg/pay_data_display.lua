@@ -74,6 +74,11 @@ pg.pay_data_display = setmetatable({
 		74,
 		75,
 		76,
+		77,
+		78,
+		79,
+		80,
+		81,
 		82,
 		83,
 		84,
@@ -142,13 +147,23 @@ pg.pay_data_display = setmetatable({
 		2039,
 		2040,
 		2041,
+		2042,
+		2043,
+		2044,
 		5001,
 		5002,
 		5003,
 		5004,
 		5005,
 		5006,
-		5007
+		5007,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -7788,6 +7803,541 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[77] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		type = 0,
+		name = "選べる迎春パック2025A",
+		first_pay_double = 0,
+		name_display = "選べる迎春パック2025A",
+		descrip = "「ダイヤ」×980、「選べる迎春アイテムボックス2025A」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2025A",
+		money = 2280,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_98",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi177",
+		extra_service = 3,
+		id = 77,
+		airijp_id = "com.yostarjp.azurlane.diamond165",
+		extra_service_item = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81407,
+				1
+			}
+		}
+	},
+	[78] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		type = 0,
+		name = "選べる迎春パック2025B",
+		first_pay_double = 0,
+		name_display = "選べる迎春パック2025B",
+		descrip = "「ダイヤ」×1980、「選べる迎春アイテムボックス2025B」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2025B",
+		money = 3800,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_198",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi178",
+		extra_service = 3,
+		id = 78,
+		airijp_id = "com.yostarjp.azurlane.diamond166",
+		extra_service_item = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81408,
+				1
+			}
+		}
+	},
+	[79] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入すると、アイテムはメールボックスに送られます ",
+		type = 0,
+		name = "選べる迎春パック2025C",
+		first_pay_double = 0,
+		name_display = "選べる迎春パック2025C",
+		descrip = "「ダイヤ」×3280、「選べる迎春アイテムボックス2025C」×1などのアイテムを入手できます",
+		subject = "選べる迎春パック2025C",
+		money = 6800,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_328",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.zuanshi179",
+		extra_service = 3,
+		id = 79,
+		airijp_id = "com.yostarjp.azurlane.diamond167",
+		extra_service_item = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81421,
+				1
+			}
+		}
+	},
+	[80] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※福袋は購入後、メールボックスに送られます。\nすでに所持している着せ替えを入手した場合、自動的に衣装の価格分の無償ダイヤに変換されます。",
+		type = 1,
+		name = "復刻L2D着せ替え福袋2025B",
+		first_pay_double = 0,
+		name_display = "復刻L2D着せ替え福袋2025B",
+		descrip = "アイテム・資源とランダムな着せ替え衣装を入手可能",
+		subject = "復刻L2D着せ替え福袋2025B",
+		money = 3800,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai17",
+		skin_inquire_relation = 86411,
+		id_str = "com.bilibili.blhx.zuanshi180",
+		extra_service = 3,
+		id = 80,
+		airijp_id = "com.yostarjp.azurlane.diamond168",
+		extra_service_item = {
+			{
+				2,
+				86411,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86411,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81419,
+				1
+			}
+		}
+	},
+	[81] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※福袋はメールボックスに贈られます\n※全部所持している場合自動でダイヤ×1080に変換されます",
+		type = 1,
+		name = "復刻L2D着せ替え福袋2025A",
+		first_pay_double = 0,
+		name_display = "復刻L2D着せ替え福袋2025A",
+		descrip = "<size=18>下記L2D着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます</size>",
+		subject = "復刻L2D着せ替え福袋2025A",
+		money = 1200,
+		limit_arg = 2,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai18",
+		skin_inquire_relation = 86412,
+		id_str = "com.bilibili.blhx.zuanshi181",
+		extra_service = 3,
+		id = 81,
+		airijp_id = "com.yostarjp.azurlane.diamond169",
+		extra_service_item = {
+			{
+				2,
+				86412,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86412,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81420,
+				1
+			}
+		}
+	},
 	[82] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -13301,6 +13851,232 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[2042] = {
+		extra_gem = 0,
+		limit_group = 103,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・ファラオ",
+		first_pay_double = 0,
+		name_display = "戦闘UI・ファラオ",
+		descrip = "戦闘UI・ファラオを入手できます",
+		subject = "戦闘UI・ファラオ",
+		money = 1600,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui6",
+		extra_service = 3,
+		id = 2042,
+		airijp_id = "com.yostarjp.azurlane.ui6",
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2043] = {
+		extra_gem = 0,
+		limit_group = 103,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・ファラオ（単品）",
+		first_pay_double = 0,
+		name_display = "戦闘UI・ファラオ（単品）",
+		descrip = "戦闘UI・ファラオを入手できます",
+		subject = "戦闘UI・ファラオ（単品）",
+		money = 1600,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui7",
+		extra_service = 3,
+		id = 2043,
+		airijp_id = "com.yostarjp.azurlane.ui7",
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40055,
+				1
+			}
+		}
+	},
+	[2044] = {
+		extra_gem = 0,
+		limit_group = 103,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・ファラオ（セット）",
+		first_pay_double = 0,
+		name_display = "戦闘UI・ファラオ（セット）",
+		descrip = "戦闘UI・ファラオ,ダイヤ×3060を入手できます",
+		subject = "戦闘UI・ファラオ（セット）",
+		money = 4700,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui8",
+		extra_service = 3,
+		id = 2044,
+		airijp_id = "com.yostarjp.azurlane.ui8",
+		extra_service_item = {
+			{
+				31,
+				202,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				202,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40056,
+				1
+			}
+		}
+	},
 	[5001] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -13865,6 +14641,574 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40996,
+				1
+			}
+		}
+	},
+	[5011] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "お得デイリーパック2025A",
+		first_pay_double = 0,
+		name_display = "お得デイリーパック2025A",
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・Ⅵ期目×2を入手可能",
+		subject = "お得デイリーパック2025A",
+		money = 120,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "pack_day1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao211",
+		extra_service = 3,
+		id = 5011,
+		airijp_id = "com.yostarjp.azurlane.package211",
+		extra_service_item = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81410,
+				1
+			}
+		}
+	},
+	[5012] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "お得デイリーパック2025B",
+		first_pay_double = 0,
+		name_display = "お得デイリーパック2025B",
+		descrip = "ダイヤ×200を入手可能",
+		subject = "お得デイリーパック2025B",
+		money = 120,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "pack_day2",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao212",
+		extra_service = 3,
+		id = 5012,
+		airijp_id = "com.yostarjp.azurlane.package212",
+		extra_service_item = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					2,
+					28
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81411,
+				1
+			}
+		}
+	},
+	[5013] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "お得デイリーパック2025C",
+		first_pay_double = 0,
+		name_display = "お得デイリーパック2025C",
+		descrip = "指向性強化パーツT4×5、メンタルユニット×200を入手可能",
+		subject = "お得デイリーパック2025C",
+		money = 120,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "pack_day3",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao213",
+		extra_service = 3,
+		id = 5013,
+		airijp_id = "com.yostarjp.azurlane.package213",
+		extra_service_item = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81412,
+				1
+			}
+		}
+	},
+	[5014] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "お得デイリーパック2025D",
+		first_pay_double = 0,
+		name_display = "お得デイリーパック2025D",
+		descrip = "ダイヤ×60と、試作型ブリMkⅡを入手可能",
+		subject = "お得デイリーパック2025D",
+		money = 120,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "pack_day4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao214",
+		extra_service = 3,
+		id = 5014,
+		airijp_id = "com.yostarjp.azurlane.package214",
+		extra_service_item = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					2
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81413,
+				1
+			}
+		}
+	},
+	[5015] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "お得デイリーパック2025E",
+		first_pay_double = 0,
+		name_display = "お得デイリーパック2025E",
+		descrip = "艦船経験値パックT2×60を入手可能",
+		subject = "お得デイリーパック2025E",
+		money = 120,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "pack_day5",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao215",
+		extra_service = 3,
+		id = 5015,
+		airijp_id = "com.yostarjp.azurlane.package215",
+		extra_service_item = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81414,
+				1
+			}
+		}
+	},
+	[5016] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "お得デイリーパック2025F",
+		first_pay_double = 0,
+		name_display = "お得デイリーパック2025F",
+		descrip = "キューブ×10と、高速建造材×5を入手可能",
+		subject = "お得デイリーパック2025F",
+		money = 120,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "pack_day6",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao216",
+		extra_service = 3,
+		id = 5016,
+		airijp_id = "com.yostarjp.azurlane.package216",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					4
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81415,
+				1
+			}
+		}
+	},
+	[5017] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "お得デイリーパック2025G",
+		first_pay_double = 0,
+		name_display = "お得デイリーパック2025G",
+		descrip = "ダイヤ×60と、上級指向型強化ユニット・Ⅶ期目×2を入手可能",
+		subject = "お得デイリーパック2025G",
+		money = 120,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "pack_day7",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao217",
+		extra_service = 3,
+		id = 5017,
+		airijp_id = "com.yostarjp.azurlane.package217",
+		extra_service_item = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81416,
 				1
 			}
 		}

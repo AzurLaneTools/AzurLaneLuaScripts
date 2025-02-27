@@ -4121,6 +4121,47 @@ pg.map_event_list = {
 		},
 		help_pictures = {}
 	},
+	[1890006] = {
+		help_open = 0,
+		chapter_id = 1890006,
+		event_list = {
+			924,
+			925
+		},
+		event_list_loop = {
+			924,
+			925
+		},
+		help_pictures = {}
+	},
+	[1890026] = {
+		help_open = 0,
+		chapter_id = 1890026,
+		event_list = {
+			924,
+			926
+		},
+		event_list_loop = {
+			924,
+			926
+		},
+		help_pictures = {}
+	},
+	[1890041] = {
+		help_open = 0,
+		chapter_id = 1890041,
+		event_list = {
+			921,
+			922,
+			923
+		},
+		event_list_loop = {
+			921,
+			922,
+			923
+		},
+		help_pictures = {}
+	},
 	[2100243] = {
 		help_open = 1,
 		chapter_id = 2100243,
@@ -6008,6 +6049,9 @@ pg.map_event_list = {
 		1830026,
 		1830041,
 		1830051,
+		1890006,
+		1890026,
+		1890041,
 		2100243,
 		2100244,
 		2100245,

@@ -12771,7 +12771,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「ヨークタウンⅡ」を確定で入手可能！（最大4隻まで）"
+	tip = "期間限定建造を累計200回行うと「ラファエロ」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -29408,6 +29408,21 @@ _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 }
 
 
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "最终得分："
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "完成次数"
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "当前完成："
+}
+
+
 _G.pg.base.gametip.Valentine_minigame_label1 = {
 	tip = "スコア"
 }
@@ -37128,6 +37143,28 @@ _G.pg.base.gametip.drom3d_memory_limit_tip = {
 }
 
 
+_G.pg.base.gametip.blackfriday_main_tip = {
+	tip = {
+		{
+			info = [[
+遊び方：
+·<color=#92fc63>2.27-3.12 23:59まで</color>キャンペーン「明石の迎春セール」が開催されます。
+·限定任務
+任務をクリアするとキャンペーンPtを入手可能
+·ショップ
+ショップではキャンペーンPtで報酬と交換可能
+·お得パック
+3.5 0時まで每日無料パックとお得パックが1つずつ開放されます]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_shop_tip = {
+	tip = "$1日$2時に開放"
+}
+
+
 _G.pg.base.gametip.tolovegame_buff_name_1 = {
 	tip = "シールドUP！"
 }
@@ -37436,6 +37473,46 @@ _G.pg.base.gametip.notify_clock_button = {
 }
 
 
+_G.pg.base.gametip.blackfriday_gift = {
+	tip = "お得パック"
+}
+
+
+_G.pg.base.gametip.blackfriday_shop = {
+	tip = "ショップ"
+}
+
+
+_G.pg.base.gametip.blackfriday_task = {
+	tip = "限定任務"
+}
+
+
+_G.pg.base.gametip.blackfriday_coinshop = {
+	tip = "物资商店（不需要本地化）"
+}
+
+
+_G.pg.base.gametip.blackfriday_dailypack = {
+	tip = "デイリーパック"
+}
+
+
+_G.pg.base.gametip.blackfriday_gemshop = {
+	tip = "钻石商店（不需要本地化）"
+}
+
+
+_G.pg.base.gametip.blackfriday_ptshop = {
+	tip = "PT商店（不需要本地化）"
+}
+
+
+_G.pg.base.gametip.blackfriday_specialpack = {
+	tip = "お得パック"
+}
+
+
 _G.pg.base.gametip.skin_shop_nonuse_label = {
 	tip = "割引適用しない"
 }
@@ -37544,13 +37621,188 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
+	tip = "娯楽エリア"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
+	tip = "居間"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
+	tip = "寝室"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "親愛度が上限に達しています。プレゼントを贈っても親愛度は上昇しません。プレゼントを贈りますか？"
 }
 
 
+_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
+	tip = "$1からの招待"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_favor = {
+	tip = "親密度"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_furniture = {
+	tip = "所持家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit = {
+	tip = "前回訪問"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time = {
+	tip = "$1日前"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
+	tip = "未開放"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_gift = {
+	tip = "プレゼント"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_chat = {
+	tip = "チャット"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
+	tip = "新着あり"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_messages = {
+	tip = "新着なし"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_phone = {
+	tip = "通話"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
+	tip = "新着あり"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
+	tip = "新着なし"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_topics = {
+	tip = "艦船通信"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_ins = {
+	tip = "艦船通信"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
+	tip = "$1に新しい投稿があります"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
+	tip = "新しい投稿はありません"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
+	tip = "海辺、水着、バレーボール…潮風の中で楽しもう！"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_character = {
+	tip = "開放可能艦船"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
+	tip = "アセットをダウンロードする必要があります"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_all = {
+	tip = "すべて"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
+	tip = "母港ビーチ"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
+	tip = "今日"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_guide = {
+	tip = "ビーチに訪問してください"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_download = {
+	tip = "$1のアセットをDLしておく必要があります"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone = {
+	tip = "未開放です"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_welcome = {
+	tip = "キャラ招待"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 	tip = "プレゼントすると、上限を越えた$1の親密度が無効になります。続けますか?"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
+	tip = "通話記録"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_call = {
+	tip = "通話"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
+	tip = "未確認"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_msg = {
+	tip = "新着なし"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_topics = {
+	tip = "新着なし"
 }
 
 
@@ -37699,4 +37951,9 @@ _G.pg.base.gametip["2025Valentine_minigame_b"] = {
 
 _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 	tip = "えっと……この味、本当に大丈夫かしら？ロイヤルメイドなのにこんな出来栄えじゃ……指揮官、もう一度作り直させて！"
+}
+
+
+_G.pg.base.gametip.rps_game_take_card = {
+	tip = "カード確定"
 }

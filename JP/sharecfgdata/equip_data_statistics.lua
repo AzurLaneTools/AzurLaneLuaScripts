@@ -129812,6 +129812,61 @@ _G.pg.base.equip_data_statistics[75042] = {
 }
 
 
+_G.pg.base.equip_data_statistics[75111] = {
+	name = "全弹发射-朱萨诺级I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 75111,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		61731
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[75112] = {
+	name = "全弹发射-朱萨诺级II",
+	base = 75111,
+	id = 75112,
+	weapon_id = {
+		61732
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[75211] = {
 	name = "全弹发射-特伦托级I",
 	tech = 1,
@@ -137979,6 +138034,61 @@ _G.pg.base.equip_data_statistics[80432] = {
 	id = 80432,
 	weapon_id = {
 		61722
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80441] = {
+	name = "专属弹幕-巴拉卡少校I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80441,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170711
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80442] = {
+	name = "专属弹幕-巴拉卡少校II",
+	base = 80441,
+	id = 80442,
+	weapon_id = {
+		170712
 	},
 	hidden_skill_id = {}
 }
@@ -164685,6 +164795,208 @@ _G.pg.base.equip_data_statistics[96231] = {
 }
 
 
+_G.pg.base.equip_data_statistics[96240] = {
+	name = "試作型406mm三連装砲Model1940改",
+	speciality = "<[VOL]>",
+	type = 4,
+	tech = 0,
+	value_2 = 65,
+	icon = "56240",
+	attribute_2 = "cannon",
+	descrip = "UP.41型戦艦に搭載予定の406mm三連装主砲",
+	rarity = 6,
+	damage = "58 x 3",
+	nationality = 6,
+	ammo = 7,
+	value_3 = 0,
+	id = 96240,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		4
+	},
+	ammo_info = {
+		{
+			2,
+			1566
+		}
+	},
+	equip_info = {
+		1,
+		2,
+		6,
+		10,
+		11,
+		12
+	},
+	weapon_id = {
+		96240
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		4,
+		5,
+		10,
+		13
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"RN",
+		"BB",
+		"MG",
+		"SAP"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[96241] = {
+	damage = "69 x 3",
+	base = 96240,
+	id = 96241,
+	weapon_id = {
+		96241
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96242] = {
+	damage = "80 x 3",
+	base = 96240,
+	id = 96242,
+	weapon_id = {
+		96242
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96243] = {
+	damage = "91 x 3",
+	base = 96240,
+	id = 96243,
+	weapon_id = {
+		96243
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96244] = {
+	damage = "102 x 3",
+	base = 96240,
+	id = 96244,
+	weapon_id = {
+		96244
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96245] = {
+	damage = "113 x 3",
+	base = 96240,
+	id = 96245,
+	weapon_id = {
+		96245
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96246] = {
+	damage = "124 x 3",
+	base = 96240,
+	id = 96246,
+	weapon_id = {
+		96246
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96247] = {
+	damage = "135 x 3",
+	base = 96240,
+	id = 96247,
+	weapon_id = {
+		96247
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96248] = {
+	damage = "146 x 3",
+	base = 96240,
+	id = 96248,
+	weapon_id = {
+		96248
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96249] = {
+	damage = "157 x 3",
+	base = 96240,
+	id = 96249,
+	weapon_id = {
+		96249
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96250] = {
+	damage = "168 x 3",
+	base = 96240,
+	id = 96250,
+	weapon_id = {
+		96250
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96251] = {
+	anti_siren = 100,
+	damage = "168 x 3",
+	base = 96240,
+	id = 96251,
+	weapon_id = {
+		96251
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96252] = {
+	anti_siren = 200,
+	damage = "168 x 3",
+	base = 96240,
+	id = 96252,
+	weapon_id = {
+		96252
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[96253] = {
+	anti_siren = 300,
+	damage = "168 x 3",
+	base = 96240,
+	id = 96253,
+	weapon_id = {
+		96253
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[100000] = {
 	name = "0",
 	tech = 1,
@@ -172784,6 +173096,58 @@ _G.pg.base.equip_data_statistics[3227214] = {
 	weapon_id = {
 		3227214
 	}
+}
+
+
+_G.pg.base.equip_data_statistics[3247001] = {
+	anti_siren = 300,
+	name = "【2025拉斐尔活动 剧情战】我方meta战列主炮",
+	damage = "207 x 2",
+	base = 14500,
+	id = 3247001,
+	weapon_id = {
+		3247001
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3247002] = {
+	anti_siren = 300,
+	name = "【2025拉斐尔活动 剧情战】我方meta重巡主炮",
+	damage = "50 x 6",
+	base = 33120,
+	id = 3247002,
+	weapon_id = {
+		3247002
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3247003] = {
+	anti_siren = 300,
+	name = "【2025拉斐尔活动 剧情战】我方meta副炮",
+	damage = "30 x 4",
+	base = 22280,
+	id = 3247003,
+	weapon_id = {
+		3247003
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3247004] = {
+	anti_siren = 300,
+	name = "【2025拉斐尔活动 剧情战】我方meta鱼雷",
+	damage = "145 x 5",
+	base = 45240,
+	id = 3247004,
+	weapon_id = {
+		3247004
+	},
+	hidden_skill_id = {}
 }
 
 

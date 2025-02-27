@@ -359,8 +359,6 @@ slot0.changeSpecialIdle = function(slot0, slot1)
 end
 
 slot0.SetAction = function(slot0, slot1, slot2, slot3)
-	print("播放动作1" .. slot1)
-
 	slot4, slot5 = slot0:getMultipFaceFlag()
 
 	if slot4 then
@@ -375,8 +373,6 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 		return
 	end
 
-	print("播放动作2" .. slot1)
-
 	if slot1 == slot0:getNormalName() and slot0._idleName then
 		slot1 = slot0._idleName or slot1
 	end
@@ -385,11 +381,9 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 		if table.contains(slot0.shipEffectActionAble, slot1) then
 			if isActive(slot0._effectsTf) then
 				setActive(slot0._effectsTf, false)
-				print("特效层级隐藏生效")
 			end
 		elseif not isActive(slot0._effectsTf) then
 			setActive(slot0._effectsTf, true)
-			print("特效层级显示生效")
 		end
 	end
 
