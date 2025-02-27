@@ -1060,9 +1060,9 @@ return {
 		},
 		{
 			side = 2,
+			bgName = "star_level_bg_305",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_305",
 			say = "マルコ・ポーロは両手を合わせ、心の中で「其れ」の名をそっと唱えた。",
 			typewriter = {
 				speed = 0.05,
@@ -1084,18 +1084,6 @@ return {
 					1,
 					0
 				}
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_305",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actorName = "特效",
-			say = "フィレンツェの街",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
 			},
 			effects = {
 				{

@@ -138186,7 +138186,10 @@ _G.pg.base.task_data_template[21265] = {
 	id = 21265,
 	target_num = 1,
 	fix_task = 0,
-	target_id = "1890051",
+	target_id = {
+		1890051,
+		1890052
+	},
 	open_need = {},
 	award_display = {
 		{
