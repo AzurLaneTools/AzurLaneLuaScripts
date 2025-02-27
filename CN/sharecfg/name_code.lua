@@ -2814,20 +2814,6 @@ pg.name_code = {
 		code = "希咪",
 		nation = 0
 	},
-	[538] = {
-		name = "Z9",
-		type = 1,
-		id = 538,
-		code = "沃尔普加",
-		nation = 0
-	},
-	[539] = {
-		name = "Z11",
-		type = 1,
-		id = 539,
-		code = "伯莎",
-		nation = 0
-	},
 	[540] = {
 		name = "Z52",
 		type = 1,

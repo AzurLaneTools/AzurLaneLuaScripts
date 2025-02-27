@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "bsm-7",
+		default_bgm = "story-theme-sardinia",
 		special_bgm = "",
-		bgm = "bsm-7"
+		bgm = "story-theme-sardinia"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -1991,6 +1991,26 @@ pg.voice_bgm = {
 		bgm = "theme-marcopolo"
 	},
 	YidaliV4FramePage = {
+		default_bgm = "story-theme-sardinia",
+		special_bgm = "",
+		bgm = "story-theme-sardinia"
+	},
+	CagePage = {
+		default_bgm = "battle-shenguang-holy",
+		special_bgm = "",
+		bgm = "battle-shenguang-holy"
+	},
+	RaphaelSPPtPage = {
+		default_bgm = "story-shenguang-holy",
+		special_bgm = "",
+		bgm = "story-shenguang-holy"
+	},
+	TheNileRiverSkinMagazinePage1 = {
+		default_bgm = "story-egypt-mystic",
+		special_bgm = "",
+		bgm = "story-egypt-mystic"
+	},
+	DivineLightMedalAlbumView = {
 		default_bgm = "story-theme-sardinia",
 		special_bgm = "",
 		bgm = "story-theme-sardinia"

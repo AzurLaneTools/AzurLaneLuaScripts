@@ -12400,7 +12400,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 约克城II(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 拉斐尔(最多4次)"
 }
 
 
@@ -28977,6 +28977,21 @@ _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 }
 
 
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "最终得分："
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "完成次数"
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "当前完成："
+}
+
+
 _G.pg.base.gametip.Valentine_minigame_label1 = {
 	tip = "最终得分："
 }
@@ -36978,7 +36993,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长保留；]]
+ ※ 奖励领取界面将延长至3月19日24时；]]
 		}
 	}
 }
@@ -37059,13 +37074,188 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
+	tip = "娱乐区"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
+	tip = "卧室"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "契合度已经到达上限，送礼将不会获得契合度，是否确认赠送？"
 }
 
 
+_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
+	tip = "$1的视频邀请"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_favor = {
+	tip = "契合度"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_furniture = {
+	tip = "拥有家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit = {
+	tip = "上次拜访"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time = {
+	tip = "$1天前"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
+	tip = "未入住"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_gift = {
+	tip = "拥有礼物"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_chat = {
+	tip = "短信"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
+	tip = "有新的消息"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_messages = {
+	tip = "暂无新消息"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_phone = {
+	tip = "通信"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
+	tip = "有新的通话"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
+	tip = "暂无新通话"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_topics = {
+	tip = "好友圈"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_ins = {
+	tip = "好友圈"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
+	tip = "$1更新了好友圈状态 "
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
+	tip = "暂无新好友圈状态"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
+	tip = "沙滩、泳装、排球，尽情在海风中玩耍吧~ "
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_character = {
+	tip = "可邀请角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
+	tip = "请先下载相应房间资源"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_all = {
+	tip = "全部房间"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
+	tip = "听海之畔"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
+	tip = "今天"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_guide = {
+	tip = "请先前往沙滩"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_download = {
+	tip = "请先下载$1相关资源"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone = {
+	tip = "暂未开放，敬请期待"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_welcome = {
+	tip = "邀请角色"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 	tip = "赠送后会溢出$1点契合度，是否确定赠送"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
+	tip = "通话记录"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_call = {
+	tip = "语音通话"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
+	tip = "未查看"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_msg = {
+	tip = "暂无新消息"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_topics = {
+	tip = "暂无新好友圈状态"
 }
 
 
@@ -37214,4 +37404,9 @@ _G.pg.base.gametip["2025Valentine_minigame_b"] = {
 
 _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 	tip = "欸……这个味道真的可以吗？作为皇家女仆做成这样，实在是太失态了……指挥官，让我重新做一份吧！"
+}
+
+
+_G.pg.base.gametip.rps_game_take_card = {
+	tip = "确认出牌"
 }

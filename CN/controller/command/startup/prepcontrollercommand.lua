@@ -540,6 +540,9 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.APARTMENT_TRACK, Dorm3dTrackCommand)
 	slot0.facade:registerCommand(GAME.SELECT_DORM_ENTER, SelectDorm3dEnterCommand)
 	slot0.facade:registerCommand(GAME.DORM_SET_CALL, DormSetCallCommand)
+	slot0.facade:registerCommand(GAME.APARTMENT_INS_OP, ApartmentInstagramOpCommand)
+	slot0.facade:registerCommand(GAME.APARTMENT_CHAT_OP, Dorm3dChatCommand)
+	slot0.facade:registerCommand(GAME.DORM_RECORD_VISIT, Dorm3dRecordVisitCommand)
 end
 
 return slot0

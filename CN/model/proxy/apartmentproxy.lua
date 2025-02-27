@@ -114,6 +114,10 @@ slot0.getStamina = function(slot0)
 	return slot0.stamina, getDorm3dGameset("daily_vigor_max")[1]
 end
 
+slot0.RawGetApartment = function(slot0, slot1)
+	return slot0.data[slot1]
+end
+
 slot0.getApartment = function(slot0, slot1)
 	return slot0.data[slot1] and slot0.data[slot1]:clone() or nil
 end

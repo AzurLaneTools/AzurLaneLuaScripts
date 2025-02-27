@@ -181,6 +181,7 @@ SCENE = {
 	BLACK_FRIDAH_SALES = "BlackFridaySales",
 	GAME_HALL = "game hall",
 	WORLDINPICTURE = "world in picture",
+	RPS_GAME = "rpg game",
 	SIXTH_ANNIVERSARY_JP_DARK = "SIXTH_ANNIVERSARY_JP_DARK",
 	WORLD = "scene world",
 	SELECT_SKIN = "scene select skin",
@@ -941,6 +942,10 @@ slot0 = {
 	[SCENE.FIREWORK_AND_SPRING] = function (slot0, slot1)
 		slot0.mediator = FireworkAndSpringMediator
 		slot0.viewComponent = FireworkAndSpringScene
+	end,
+	[SCENE.RPS_GAME] = function (slot0, slot1)
+		slot0.mediator = Dorm3dMiniGameMediator
+		slot0.viewComponent = RPSGameLayer
 	end
 }
 
@@ -1266,9 +1271,13 @@ slot1 = {
 			slot2.pendingDic = ApartmentProxy.PendingRandom(slot2.roomId, slot2.groupIds)
 		end
 
-		slot4 = pg.m02
+		slot3 = slot0.context.data.roomId
 
-		slot4:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(slot0.context.data.roomId, 1))
+		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataEnter(slot3, 1))
+
+		if pg.dorm3d_rooms[slot3].type == 2 then
+			pg.m02:sendNotification(GAME.DORM_RECORD_VISIT, pg.dorm3d_rooms[slot3].character[1])
+		end
 
 		slot4 = getProxy(ApartmentProxy)
 

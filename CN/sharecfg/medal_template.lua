@@ -2429,7 +2429,7 @@ pg.medal_template = {
 		type = 0,
 		is_out_of_print = 1,
 		count_inherit = 0,
-		desc = "铁血抵抗军颁发的纪念勋章，纪念那场对抗星之兽的伟大胜利。\n—— 我们今日不会毁灭，这个世界亦然，致明日。",
+		desc = "铁血抵抗军颁发的纪念勋章，纪念那场对抗星之兽的伟大胜利。\n——我们今日不会毁灭，这个世界亦然，致明日。",
 		next = 0,
 		icon = "9001",
 		page = 2,
@@ -2448,7 +2448,7 @@ pg.medal_template = {
 		name = "华裳巧展纪念勋章",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 0,
+		is_out_of_print = 1,
 		count_inherit = 0,
 		desc = "虽有波折，终遂人愿。光华流转，一夜霓裳。",
 		next = 0,
@@ -2462,6 +2462,27 @@ pg.medal_template = {
 		rank = 1,
 		id = 200011,
 		explain1 = "「华裳巧展喜事长」",
+		explain2 = "活动纪念"
+	},
+	[200021] = {
+		target_id = "5812",
+		name = "圣翼神光纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "撒丁尼亚联盟颁发的纪念勋章，纪念这场对抗审判机战车的伟大胜利。\n——突破樊笼后，等在前方的是希望与更伟大的辉煌。",
+		next = 0,
+		icon = "9021",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9021",
+		condition = "收集8个「樊笼内的神光」纪念贴纸。",
+		rank = 1,
+		id = 200021,
+		explain1 = "「樊笼内的神光」 ",
 		explain2 = "活动纪念"
 	},
 	all = {
@@ -2576,6 +2597,7 @@ pg.medal_template = {
 		100934,
 		100935,
 		200001,
-		200011
+		200011,
+		200021
 	}
 }

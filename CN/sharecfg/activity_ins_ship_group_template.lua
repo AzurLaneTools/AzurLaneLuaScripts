@@ -4480,6 +4480,38 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[60508] = {
+		ship_group = 60508,
+		name = "Raffaello",
+		background = "",
+		sculpture = "lafeier",
+		nationality = 6,
+		type = 1
+	},
+	[60803] = {
+		ship_group = 60803,
+		name = "Maggiore Baracca",
+		background = "",
+		sculpture = "balaka",
+		nationality = 6,
+		type = 1
+	},
+	[60111] = {
+		ship_group = 60111,
+		name = "Giosuè Carducci",
+		background = "",
+		sculpture = "jiaosuai",
+		nationality = 6,
+		type = 1
+	},
+	[60203] = {
+		ship_group = 60203,
+		name = "Bartolomeo Colleoni",
+		background = "",
+		sculpture = "batuoluomeiao",
+		nationality = 6,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5040,6 +5072,10 @@ pg.activity_ins_ship_group_template = {
 		50108,
 		50109,
 		10222,
-		40803
+		40803,
+		60508,
+		60803,
+		60111,
+		60203
 	}
 }

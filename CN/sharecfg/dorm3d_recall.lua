@@ -147,8 +147,9 @@ pg.dorm3d_recall = {
 		unlock_text = "赠送素色物语后解锁",
 		desc = "相处时刻，掌间纤细的触感，是刹那的心动……",
 		unlock = {
-			3,
-			3022101
+			1,
+			30221,
+			1
 		}
 	},
 	get_id_list_by_story_id = {

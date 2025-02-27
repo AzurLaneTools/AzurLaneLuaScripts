@@ -4,8 +4,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "卧室",
 		record_time = 60,
 		room_id = 1,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 1001,
 		watch_camera = "Bed",
 		regular_anim = {
@@ -69,8 +67,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "餐厅",
 		record_time = 60,
 		room_id = 1,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 1002,
 		watch_camera = "Table",
 		regular_anim = {
@@ -130,8 +126,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "客厅",
 		record_time = 60,
 		room_id = 1,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 1003,
 		watch_camera = "Chair",
 		regular_anim = {
@@ -199,8 +193,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "卧室",
 		record_time = 60,
 		room_id = 2,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 2001,
 		watch_camera = "Bed",
 		regular_anim = {
@@ -265,8 +257,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "餐厅",
 		record_time = 60,
 		room_id = 2,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 2002,
 		watch_camera = "Table",
 		regular_anim = {
@@ -331,8 +321,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "客厅",
 		record_time = 60,
 		room_id = 2,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 2003,
 		watch_camera = "Chair",
 		regular_anim = {
@@ -397,8 +385,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "沙滩椅",
 		record_time = 60,
 		room_id = 4,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 4001,
 		watch_camera = "Tianlangxing",
 		regular_anim = {
@@ -420,6 +406,16 @@ pg.dorm3d_camera_zone_template = {
 					4203,
 					4204,
 					4205
+				}
+			},
+			{
+				19903,
+				{
+					4401,
+					4402,
+					4403,
+					4404,
+					4405
 				}
 			}
 		},
@@ -456,8 +452,6 @@ pg.dorm3d_camera_zone_template = {
 		name = "遮阳伞",
 		record_time = 60,
 		room_id = 4,
-		move_range_horizonal = "",
-		move_range_vertical = "",
 		id = 4002,
 		watch_camera = "Nengdai",
 		regular_anim = {
@@ -479,6 +473,16 @@ pg.dorm3d_camera_zone_template = {
 					4203,
 					4204,
 					4205
+				}
+			},
+			{
+				19903,
+				{
+					4401,
+					4402,
+					4403,
+					4404,
+					4405
 				}
 			}
 		},

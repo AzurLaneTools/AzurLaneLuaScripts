@@ -192,6 +192,102 @@ pg.activity_medal_template = {
 		id = 576908,
 		medal_asset = "ActivityMedal/576908"
 	},
+	[581201] = {
+		activity_medal_desc = "「撒丁尼亚，永恒之地。神光永耀，神国永存。」",
+		next_medal = 0,
+		item = 65541,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "1",
+		task_id = 21278,
+		activity_medal_name = "纪念贴：圣翼之庇",
+		id = 581201,
+		medal_asset = "ActivityMedal/581201"
+	},
+	[581202] = {
+		activity_medal_desc = "信仰的力量让我们彼此相连。",
+		next_medal = 0,
+		item = 65542,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "2",
+		task_id = 21279,
+		activity_medal_name = "纪念贴：神光之网",
+		id = 581202,
+		medal_asset = "ActivityMedal/581202"
+	},
+	[581203] = {
+		activity_medal_desc = "你见过迪洛伊么？没见过也没关系，它正注视着你。",
+		next_medal = 0,
+		item = 65543,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "3",
+		task_id = 21280,
+		activity_medal_name = "纪念贴：迪洛伊之注",
+		id = 581203,
+		medal_asset = "ActivityMedal/581203"
+	},
+	[581204] = {
+		activity_medal_desc = "“画画画，我最会画了！”",
+		next_medal = 0,
+		item = 65544,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "4",
+		task_id = 21281,
+		activity_medal_name = "纪念贴：绘画草稿",
+		id = 581204,
+		medal_asset = "ActivityMedal/581204"
+	},
+	[581205] = {
+		activity_medal_desc = "时间一分一秒流逝，吾等何时能够突破樊笼？",
+		next_medal = 0,
+		item = 65545,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "5",
+		task_id = 21282,
+		activity_medal_name = "纪念贴：倒计时",
+		id = 581205,
+		medal_asset = "ActivityMedal/581205"
+	},
+	[581206] = {
+		activity_medal_desc = "极致的力量，极致的压迫感，这就是 —— 审判机「战车」！",
+		next_medal = 0,
+		item = 65546,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "6",
+		task_id = 21283,
+		activity_medal_name = "纪念贴：审判机「战车」",
+		id = 581206,
+		medal_asset = "ActivityMedal/581206"
+	},
+	[581207] = {
+		activity_medal_desc = "欲戴王冠，必承其重。",
+		next_medal = 0,
+		item = 65547,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "7",
+		task_id = 21284,
+		activity_medal_name = "纪念贴：永夜之冠",
+		id = 581207,
+		medal_asset = "ActivityMedal/581207"
+	},
+	[581208] = {
+		activity_medal_desc = "宽广，绵长，像海带，但请勿食用。",
+		next_medal = 0,
+		item = 65548,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "8",
+		task_id = 21285,
+		activity_medal_name = "纪念贴：迪洛伊之触",
+		id = 581208,
+		medal_asset = "ActivityMedal/581208"
+	},
 	all = {
 		571101,
 		571102,
@@ -208,6 +304,14 @@ pg.activity_medal_template = {
 		576905,
 		576906,
 		576907,
-		576908
+		576908,
+		581201,
+		581202,
+		581203,
+		581204,
+		581205,
+		581206,
+		581207,
+		581208
 	}
 }

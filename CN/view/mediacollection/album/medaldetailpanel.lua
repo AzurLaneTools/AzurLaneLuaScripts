@@ -1,5 +1,8 @@
 slot0 = class("MedalDetailPanel")
-slot0.ICON_SCALE = Vector2.New(1.35, 1.35)
+
+slot0.SetIconScale = function(slot0, slot1)
+	slot0._iconScale = Vector2.New(slot1, slot1)
+end
 
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0._go = slot1
@@ -66,7 +69,7 @@ slot0.UpdateMedal = function(slot0)
 		LoadImageSpriteAsync("activitymedal/" .. slot1 .. "_l", slot0._medalIcon, true)
 	end
 
-	slot0._medalIcon.transform.localScale = uv0.ICON_SCALE
+	slot0._medalIcon.transform.localScale = slot0._iconScale
 
 	SetActive(slot0._medalLock, not slot0._medal.timeStamp)
 

@@ -681,6 +681,21 @@ slot3.TargetDetectedUnit = function(slot0, slot1, slot2)
 	return slot4
 end
 
+slot3.TargetFatalDamageSrc = function(slot0, slot1, slot2)
+	slot3 = slot2 or uv0.TargetEntityUnit()
+	slot5 = {}
+
+	if slot0:GetDeathSrcID() then
+		for slot9, slot10 in pairs(slot3) do
+			if slot4 == slot10:GetUniqueID() and slot10:IsAlive() then
+				slot5[#slot5 + 1] = slot10
+			end
+		end
+	end
+
+	return slot5
+end
+
 slot3.TargetAllHarmBullet = function(slot0)
 	slot2 = {}
 	slot3 = slot0:GetIFF()

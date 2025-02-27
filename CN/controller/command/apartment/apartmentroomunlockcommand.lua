@@ -52,6 +52,7 @@ slot0.execute = function(slot0, slot1)
 
 				pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataRoom(uv1, slot1, slot2))
 			end)()
+			getProxy(Dorm3dInsProxy):HandleInsData(slot0.ins)
 			uv4:sendNotification(GAME.APARTMENT_ROOM_UNLOCK_DONE, {
 				roomId = uv3
 			})
