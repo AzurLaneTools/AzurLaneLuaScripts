@@ -37125,7 +37125,7 @@ _G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_gift = {
-	tip = "拥有礼物"
+	tip = "专属礼物"
 }
 
 

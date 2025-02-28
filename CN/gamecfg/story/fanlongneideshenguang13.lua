@@ -1060,9 +1060,9 @@ return {
 		},
 		{
 			side = 2,
+			bgName = "star_level_bg_305",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_305",
 			say = "马可波罗双手合十，在心中默念起祂的名字。",
 			typewriter = {
 				speed = 0.05,
@@ -1084,18 +1084,6 @@ return {
 					1,
 					0
 				}
-			}
-		},
-		{
-			side = 2,
-			bgName = "star_level_bg_305",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			actorName = "特效",
-			say = "海洛芬特的黑影闪一下",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
 			},
 			effects = {
 				{

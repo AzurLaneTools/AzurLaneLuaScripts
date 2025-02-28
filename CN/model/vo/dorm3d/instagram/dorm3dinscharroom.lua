@@ -12,13 +12,11 @@ slot0.GetName = function(slot0)
 end
 
 slot0.GetFurnitureNum = function(slot0)
-	slot2 = getProxy(ApartmentProxy)
+	if not getProxy(ApartmentProxy):getRoom(slot0.id) then
+		return 0
+	end
 
-	return _.reduce(_.select(pg.dorm3d_furniture_template.get_id_list_by_room_id[slot0.id], function (slot0)
-		return pg.dorm3d_furniture_template[slot0].is_special == 1
-	end), 0, function (slot0, slot1)
-		return slot0 + uv0:GetFurnitureShopCount(slot1)
-	end)
+	return #_.keys(slot1:GetFurnitures())
 end
 
 slot0.GetGiftNum = function(slot0)

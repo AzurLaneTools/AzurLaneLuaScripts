@@ -1021,7 +1021,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "当然不会。",
-		ship_group = 30221,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 99,
@@ -1029,7 +1029,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "倒不如说，{namecode:50}的宿舍就跟{namecode:50}一样认真。",
-		ship_group = 30221,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 100,

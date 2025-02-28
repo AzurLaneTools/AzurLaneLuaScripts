@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_499",
 			hidePaintObj = true,
-			say = "雕像依然沉默无声，不过想必答案就是如此，不然马可波罗没有理由对于仲裁者·海洛芬特·I这一身份毫无反应。",
+			say = "雕像依然沉默无声，不过想必答案就是如此，不然马可波罗没有理由对于仲裁者·海洛芬特·V这一身份毫无反应。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

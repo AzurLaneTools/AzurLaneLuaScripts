@@ -177,6 +177,10 @@ return {
 				{
 					content = "想要接受审判",
 					flag = 1
+				},
+				{
+					content = "询问门后是什么",
+					flag = 2
 				}
 			}
 		},
@@ -224,12 +228,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "询问门后是什么",
-					flag = 1
-				}
 			}
 		},
 		{
@@ -238,7 +236,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 202333,
 			nameColor = "#A9F548FF",
@@ -254,7 +252,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
 			say = "您想看到什么呢？",
@@ -269,7 +267,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
 			say = "门后也许是天堂，也许是地狱……",
@@ -284,7 +282,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
 			say = "您想知道确切的答案的话，我还是建议您选择接受审判呢，呵呵~♪",
@@ -298,7 +296,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			withoutActorName = true,
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 202333,
 			nameColor = "#A9F548FF",
@@ -314,7 +312,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 202333,
 			nameColor = "#A9F548FF",
