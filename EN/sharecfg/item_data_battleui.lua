@@ -61,7 +61,7 @@ pg.item_data_battleui = {
 		scene = {}
 	},
 	[105] = {
-		unlock = "Seasonal Missions S21",
+		unlock = "Cruise Missions S21",
 		name = "Holy Light",
 		key = "SkinNormal_20250123",
 		display_icon = "ui_105",
@@ -86,7 +86,7 @@ pg.item_data_battleui = {
 	},
 	[202] = {
 		unlock = "Buy the Battle UI Pack - Pharaoh",
-		name = "Battle UI - Pharaoh",
+		name = "Pharaoh",
 		key = "SkinNormal_20250227",
 		display_icon = "ui_202",
 		is_unlock = 1,

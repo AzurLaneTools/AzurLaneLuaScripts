@@ -144,6 +144,10 @@ return {
 				{
 					content = "I was drawn here by the aroma...",
 					flag = 1
+				},
+				{
+					content = "I'm a bit lost at the moment...",
+					flag = 2
 				}
 			}
 		},
@@ -221,12 +225,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "I'm a bit lost at the moment...",
-					flag = 1
-				}
 			}
 		},
 		{

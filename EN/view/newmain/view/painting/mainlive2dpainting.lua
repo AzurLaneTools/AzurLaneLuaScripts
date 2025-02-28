@@ -26,6 +26,8 @@ slot0.GetHalfBodyOffsetY = function(slot0)
 end
 
 slot0.OnLoad = function(slot0, slot1)
+	slot0.actionWaiting = false
+
 	slot0:SetContainerVisible(true)
 
 	slot0.cg.blocksRaycasts = true

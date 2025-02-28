@@ -177,6 +177,10 @@ return {
 				{
 					content = "(Accept her judgment.)",
 					flag = 1
+				},
+				{
+					content = "(Ask what's behind the door.)",
+					flag = 2
 				}
 			}
 		},
@@ -224,12 +228,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "(Ask what's behind the door.)",
-					flag = 1
-				}
 			}
 		},
 		{
