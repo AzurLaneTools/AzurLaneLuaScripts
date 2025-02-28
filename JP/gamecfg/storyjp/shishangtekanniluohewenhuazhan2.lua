@@ -144,6 +144,10 @@ return {
 				{
 					content = "実は不思議な香りに誘われて…",
 					flag = 1
+				},
+				{
+					content = "実は道に迷ってしまって…",
+					flag = 2
 				}
 			}
 		},
@@ -221,12 +225,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "実は道に迷ってしまって…",
-					flag = 1
-				}
 			}
 		},
 		{
@@ -235,7 +233,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
@@ -251,7 +249,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",
@@ -267,7 +265,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
 			say = "もちろんよ",
@@ -281,7 +279,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 608031,
 			nameColor = "#A9F548FF",
 			say = "先に辿り着けたということは…指揮官と私は得も言われぬ縁で結び付けられてるようね♪",
@@ -295,7 +293,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			withoutActorName = true,
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 608031,
 			nameColor = "#A9F548FF",

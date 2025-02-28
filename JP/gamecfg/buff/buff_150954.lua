@@ -22,20 +22,13 @@ return {
 	last_effect = "",
 	effect_list = {
 		{
-			type = "BattleBuffAddBuff",
+			type = "BattleBuffCastSkill",
 			trigger = {
 				"onAttach",
 				"onStack"
 			},
 			arg_list = {
-				buff_id = 150953,
-				target = {
-					"TargetAllHelp",
-					"TargetShipTag"
-				},
-				ship_tag_list = {
-					"LAFEIERBAI"
-				}
+				skill_id = 150952
 			}
 		}
 	}

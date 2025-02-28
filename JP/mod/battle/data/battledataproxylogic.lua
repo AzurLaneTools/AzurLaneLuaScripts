@@ -81,8 +81,6 @@ slot0.HandleDamage = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot11, slot12, slot13 = slot0._calculateDamage(slot1, slot2, slot3, slot4)
-	slot14 = slot12.isMiss
-	slot15 = slot12.isCri
 
 	slot1:AppendDamageUnit(slot2:GetUniqueID())
 
@@ -97,12 +95,12 @@ slot0.HandleDamage = function(slot0, slot1, slot2, slot3, slot4)
 	slot1:GetWeapon():WeaponStatistics(slot11, slot15, slot14)
 	slot0:DamageStatistics(slot7.id, slot2:GetAttrByName("id"), -slot2:UpdateHP(slot11 * -1, {
 		isHeal = false,
-		isMiss = slot14,
-		isCri = slot15,
+		isMiss = slot12.isMiss,
+		isCri = slot12.isCri,
 		attr = slot12.damageAttr,
 		font = slot13,
 		cldPos = slot1:GetPosition(),
-		srcID = slot7.battleUID
+		srcID = slot7.hostUID or slot7.battleUID
 	}))
 
 	if not slot14 and slot1:GetWeaponTempData().type ~= uv2.EquipmentType.ANTI_AIR then

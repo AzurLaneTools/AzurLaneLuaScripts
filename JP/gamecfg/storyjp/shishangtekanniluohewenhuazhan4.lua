@@ -177,6 +177,10 @@ return {
 				{
 					content = "裁きを受ける",
 					flag = 1
+				},
+				{
+					content = "扉の向こうに何があるかを聞く",
+					flag = 2
 				}
 			}
 		},
@@ -224,12 +228,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "扉の向こうに何があるかを聞く",
-					flag = 1
-				}
 			}
 		},
 		{
@@ -238,7 +236,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 202333,
 			nameColor = "#A9F548FF",
@@ -254,7 +252,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
 			say = "ご主人様は何を見たいのですか？",
@@ -269,7 +267,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
 			say = "天国かもしれませんし、地獄かもしれません……",
@@ -284,7 +282,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 202333,
 			nameColor = "#A9F548FF",
 			say = "もし予め答えを知りたいのでしたら、ここで一度シラに裁かれることをおすすめしますよ。ふふふ♪",
@@ -298,7 +296,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			withoutActorName = true,
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 202333,
 			nameColor = "#A9F548FF",
@@ -314,7 +312,7 @@ return {
 			bgName = "star_level_bg_303",
 			spine = true,
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 202333,
 			nameColor = "#A9F548FF",

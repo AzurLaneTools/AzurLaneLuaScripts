@@ -215,6 +215,10 @@ return {
 				{
 					content = "許しを乞う",
 					flag = 1
+				},
+				{
+					content = "文化展の動線の不備を指摘する",
+					flag = 2
 				}
 			}
 		},
@@ -277,12 +281,6 @@ return {
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
-			},
-			options = {
-				{
-					content = "文化展の動線の不備を指摘する",
-					flag = 1
-				}
 			}
 		},
 		{
@@ -290,7 +288,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_303",
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 605081,
 			nameColor = "#A9F548FF",
@@ -306,7 +304,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_303",
 			actorName = "{playername}",
-			optionFlag = 1,
+			optionFlag = 2,
 			hideRecordIco = true,
 			actor = 605081,
 			nameColor = "#A9F548FF",
@@ -322,7 +320,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_303",
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 605081,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
@@ -337,7 +335,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_303",
 			dir = 1,
-			optionFlag = 1,
+			optionFlag = 2,
 			actor = 605081,
 			nameColor = "#A9F548FF",
 			live2d = true,
