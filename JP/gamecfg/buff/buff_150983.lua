@@ -105,7 +105,7 @@ return {
 				},
 				arg_list = {
 					rant = 2460,
-					buff_id = 150584,
+					buff_id = 150984,
 					target = "TargetSelf"
 				}
 			}
