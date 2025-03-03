@@ -25,6 +25,17 @@ slot1.OnTotalChange = function(slot0, slot1)
 	end
 end
 
+slot1.ConfigSkin = function(slot0, slot1)
+	uv0.super.ConfigSkin(slot0, slot1)
+
+	slot0._glowEff = slot0._filled:Find("gizmos/animroot")
+end
+
+slot1.OnCountChange = function(slot0)
+	uv0.super.OnCountChange(slot0)
+	SetActive(slot0._glowEff, slot0._progressInfo:GetTotal() == slot0._progressInfo:GetCount())
+end
+
 slot1.SetToCombatUIPreview = function(slot0, slot1)
 	if slot1 then
 		SetActive(slot0._filled, true)
@@ -38,6 +49,8 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 			SetActive(slot0._chargeEff, true)
 			SetActive(slot0._fullChargeEff, true)
 		end
+
+		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
 	else
 		SetActive(slot0._unfill, true)
 		SetActive(slot0._filled, false)
