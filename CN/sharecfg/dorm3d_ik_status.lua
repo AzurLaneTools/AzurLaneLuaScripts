@@ -8223,8 +8223,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0.3,
-			0.5
+			0.06,
+			0.6
 		},
 		enter_scene_anim = {}
 	},
@@ -8361,8 +8361,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0.3,
-			0.5
+			0.06,
+			0.6
 		},
 		enter_scene_anim = {}
 	},
@@ -8513,8 +8513,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0.3,
-			0.5
+			0.06,
+			0.6
 		},
 		enter_scene_anim = {
 			{
@@ -8804,8 +8804,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0.3,
-			0.5
+			0.06,
+			0.6
 		},
 		enter_scene_anim = {}
 	},
@@ -8942,8 +8942,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0.3,
-			0.5
+			0.06,
+			0.6
 		},
 		enter_scene_anim = {}
 	},
@@ -9095,8 +9095,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0.3,
-			0.5
+			0.06,
+			0.6
 		},
 		enter_scene_anim = {
 			{
@@ -9199,8 +9199,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0.3,
-			0.5
+			0,
+			0.2
 		},
 		enter_scene_anim = {}
 	},
