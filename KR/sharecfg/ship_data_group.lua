@@ -35309,7 +35309,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"限时活动：星光下的余晖",
+				"이벤트: 별빛 아래의 석양",
 				{
 					""
 				},
