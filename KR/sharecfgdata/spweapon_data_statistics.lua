@@ -11051,7 +11051,9 @@ _G.pg.base.spweapon_data_statistics[10940] = {
 	important = 2,
 	prev = 0,
 	id = 10940,
-	usability = {},
+	usability = {
+		2
+	},
 	skill_upgrade = {
 		{
 			0,

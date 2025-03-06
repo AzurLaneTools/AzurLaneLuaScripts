@@ -356,6 +356,8 @@ pg.skill_data_template = setmetatable({
 		60790,
 		60800,
 		60810,
+		60820,
+		60830,
 		7000,
 		9030,
 		9031,
@@ -12823,6 +12825,34 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "푸보·페이윈·푸슌이 장착하면, 전투 시작 시에 뇌장이 5% 상승한다. 전투 시작 30초 후, 내구가 1회 한정으로 최대치의 2%만큼 회복된다.",
 		id = 60810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60820] = {
+		desc_get = "",
+		name = "마르코 폴로의 왕관",
+		type = 0,
+		max_level = 0,
+		desc = "마르코 폴로가 장착할 시, 함대 중 사르데냐 엠파이어 함선의 포격·기동이 3% 상승한다.",
+		id = 60820,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60830] = {
+		desc_get = "",
+		name = "페어리 가닛",
+		type = 1,
+		max_level = 14,
+		desc = "전투 중 10마다 페어리 가닛(항공 어뢰 1발 장착, 위력은 장비 강화 레벨에 따라 다름)을 발진시켜서 항공 공격을 실시한다. 한 전투에 최대 5회까지 발동 가능",
+		id = 60830,
 		system_transform = {},
 		world_death_mark = {
 			1

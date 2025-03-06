@@ -556,7 +556,7 @@ end
 slot0.GetSkill = function(slot0)
 	slot1 = nil
 
-	if slot0:getConfig("skill_id")[1] then
+	if slot0:getConfig("skill_id")[1] and slot0:getConfig("skill_id")[1][1] then
 		slot1 = getSkillConfig(slot2)
 	end
 

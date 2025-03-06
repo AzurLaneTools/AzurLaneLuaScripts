@@ -477,6 +477,15 @@ pg.item_data_frame = {
 		desc = "추후 진행 예정인 이벤트에서 획득 가능",
 		scene = {}
 	},
+	[334] = {
+		name = "일필의 신광",
+		gain_by = "",
+		time_second = 0,
+		id = 334,
+		time_limit_type = 0,
+		desc = "추후 진행 예정 이벤트에서 획득 가능",
+		scene = {}
+	},
 	[401] = {
 		name = "전당 기념: 엔터프라이즈",
 		gain_by = "",
@@ -792,6 +801,7 @@ pg.item_data_frame = {
 		331,
 		332,
 		333,
+		334,
 		401,
 		402,
 		413,

@@ -937,12 +937,11 @@ slot5.GetEquipResource = function(slot0, slot1, slot2)
 	end
 
 	for slot10, slot11 in ipairs(slot4.skill_id) do
-		if slot2 then
-			slot11 = uv0.Battle.BattleDataFunction.SkillTranform(slot2, slot11) or slot11
-		end
+		slot12 = slot2 and uv0.Battle.BattleDataFunction.SkillTranform(slot2, slot11[1]) or slot11[1]
+		slot13 = slot11[2] or 1
 
-		for slot16, slot17 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot11, 1, {})) do
-			slot3[#slot3 + 1] = slot17
+		for slot18, slot19 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot12, slot13, {})) do
+			slot3[#slot3 + 1] = slot19
 		end
 	end
 

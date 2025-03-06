@@ -1046,6 +1046,7 @@ pg.painting_filte_map = {
 		key = "anshan_3",
 		res_list = {
 			"painting/anshan_3_tex",
+			"painting/anshan_3_rw_tex",
 			"painting/anshan_3"
 		}
 	},
@@ -9393,6 +9394,7 @@ pg.painting_filte_map = {
 		key = "longwu_2",
 		res_list = {
 			"painting/longwu_2_tex",
+			"painting/longwu_2_rw_tex",
 			"painting/longwu_2_n_tex",
 			"painting/longwu_2_n",
 			"painting/longwu_2"
@@ -11147,6 +11149,14 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/npcaersasi_2_rw_tex",
 			"painting/npcaersasi_2_n"
+		}
+	},
+	npcandelieyaduoliya_alter = {
+		key = "npcandelieyaduoliya_alter",
+		res_list = {
+			"painting/npcandelieyaduoliya_alter_rw_tex",
+			"painting/npcandelieyaduoliya_alter_n_tex",
+			"painting/npcandelieyaduoliya_alter_n"
 		}
 	},
 	npcbulaimodun_6 = {
@@ -17441,6 +17451,13 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/youming_g_tex",
 			"painting/youming_g"
+		}
+	},
+	youtuobiya = {
+		key = "youtuobiya",
+		res_list = {
+			"painting/youtuobiya_tex",
+			"painting/youtuobiya"
 		}
 	},
 	yuanchou = {
