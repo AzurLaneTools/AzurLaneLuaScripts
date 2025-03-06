@@ -2336,7 +2336,7 @@ pg.base.dorm3d_ins_chat_language = {
 		flag = 3
 	},
 	{
-		param = "It's right next to you! ",
+		param = "It's right next to you!",
 		ship_group = 19903,
 		option = "",
 		type = 1,
@@ -2528,7 +2528,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "I have even more gifts for you. Look forward to them.",
-		ship_group = 19903,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 255,

@@ -660,8 +660,6 @@ slot0.UpdateActionPanel = function(slot0)
 				uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot7)
 			end
 
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestSmooth")
-
 			if slot0.index > #slot0.animPlayList then
 				uv4()
 				uv0.timerAnim:Stop()

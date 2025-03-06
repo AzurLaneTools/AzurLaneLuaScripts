@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和安克{namecode:13:雷}齐，贴贴！嘿嘿~",
+			say = "和安克雷齐，贴贴！嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

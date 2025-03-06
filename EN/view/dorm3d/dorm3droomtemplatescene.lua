@@ -1659,14 +1659,6 @@ slot0.SyncInterestTransform = function(slot0, slot1)
 	slot0.ladyInterest.rotation = slot1.ladyInterestRoot.rotation
 end
 
-slot0.SyncCurrentInterestSmooth = function(slot0, slot1)
-	slot2 = slot0.ladyDict[slot0.apartment:GetConfigID()]
-	slot1 = slot1 or 0.5
-
-	slot0:managedTween(LeanTween.move, nil, slot0.ladyInterest.gameObject, slot2.ladyInterestRoot.position, slot1)
-	slot0:managedTween(LeanTween.rotate, nil, slot0.ladyInterest.gameObject, slot2.ladyInterestRoot.rotation:ToEulerAngles(), slot1)
-end
-
 slot0.ChangePlayerPosition = function(slot0, slot1)
 	slot0.player.position = slot0.furnitures:Find(slot1 or slot0.contextData.inFurnitureName):Find("PlayerPoint").position
 	slot0.cameras[uv0.CAMERA.POV].transform.position = slot0.playerEye.position
