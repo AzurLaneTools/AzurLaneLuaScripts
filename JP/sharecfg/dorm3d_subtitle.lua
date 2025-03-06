@@ -311,19 +311,19 @@ pg.base.dorm3d_subtitle = {
 	},
 	[3101] = {
 		id = 3101,
-		subtitle = "アンカレッジ、いっしょ……！"
+		subtitle = "アンカレッジ……たすけて…$dorm3d！"
 	},
 	[3102] = {
 		id = 3102,
-		subtitle = "んん……せん、せい…︙。？"
+		subtitle = "んん……せん、せい…？"
 	},
 	[3103] = {
 		id = 3103,
-		subtitle = "アンカレッジ……たすけて…$dorm3d！"
+		subtitle = "えへへ…せんせいも、いっしょ…？"
 	},
 	[3104] = {
 		id = 3104,
-		subtitle = "えへへ…せんせいも、いっしょ…？"
+		subtitle = "アンカレッジ、いっしょ……！"
 	},
 	[3105] = {
 		id = 3105,
@@ -355,10 +355,10 @@ pg.base.dorm3d_subtitle = {
 	},
 	[3201] = {
 		id = 3201,
-		subtitle = "$dorm3d……ぎゅってして…！"
+		subtitle = "$dorm3d……アンカレッジ……ここ！"
 	},
 	[3202] = {
 		id = 3202,
-		subtitle = "$dorm3d……アンカレッジ……ここ！"
+		subtitle = "$dorm3d……ぎゅってして…！"
 	}
 }
