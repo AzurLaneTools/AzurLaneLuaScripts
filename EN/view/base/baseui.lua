@@ -89,6 +89,10 @@ slot0.load = function(slot0)
 
 	seriesAsync({
 		function (slot0)
+			if tobool(uv0:loadingQueue()) then
+				gcAll(true)
+			end
+
 			uv0:preload(slot0)
 		end,
 		function (slot0)

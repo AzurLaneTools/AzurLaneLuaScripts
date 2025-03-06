@@ -37018,6 +37018,11 @@ _G.pg.base.gametip.drom3d_memory_limit_tip = {
 }
 
 
+_G.pg.base.gametip.drom3d_beach_memory_limit_tip = {
+	tip = "Insufficient device performance detected. Placing 3 characters at the same time might lead to game crash, continue anyway?"
+}
+
+
 _G.pg.base.gametip.blackfriday_main_tip = {
 	tip = {
 		{

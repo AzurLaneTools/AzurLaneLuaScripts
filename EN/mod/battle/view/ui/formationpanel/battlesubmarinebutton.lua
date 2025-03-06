@@ -26,6 +26,14 @@ slot1.ConfigCallback = function(slot0, slot1, slot2, slot3, slot4)
 	end, slot3, slot4)
 end
 
+slot1.OnOverLoadChange = function(slot0, slot1)
+	uv0.super.OnOverLoadChange(slot0, slot1)
+
+	if slot0._progressInfo:GetTotal() == slot0._progressInfo:GetCount() then
+		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_into")
+	end
+end
+
 slot1.Update = function(slot0)
 end
 

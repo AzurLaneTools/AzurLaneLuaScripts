@@ -24,21 +24,7 @@ return {
 							scene = "map_anchoragehostel_02",
 							type = "timeline",
 							skip = false,
-							options = {
-								{
-									{
-										content = "安克雷奇？"
-									}
-								},
-								{
-									{
-										content = "没关系，我来收拾"
-									},
-									{
-										content = "安克雷奇不用担心"
-									}
-								}
-							},
+							options = {},
 							touchs = {
 								{
 									{

@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 19903,
-			say = "What's this...? I put... my pictures in it? I don't get it…",
+			say = "Paint...! Anchorage will use it forever!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 19903,
-			say = "{dorm3d},teach Anchorage...!",
+			say = "Yeah! I'll draw... my favorite {dorm3d}! Hehe...",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

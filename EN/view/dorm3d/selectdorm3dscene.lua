@@ -4,10 +4,6 @@ slot0.getUIName = function(slot0)
 	return "SelectDorm3DUI"
 end
 
-slot0.forceGC = function(slot0)
-	return true
-end
-
 slot0.optionsPath = {
 	"Main/option"
 }
@@ -154,7 +150,10 @@ slot0.didEnter = function(slot0)
 	slot0:UpdateStamina()
 	slot0:CheckGuide("DORM3D_GUIDE_02")
 	slot0:FlushInsBtn()
-	DormProxy.CheckDeviceRAMEnough()
+
+	if not ApartmentProxy.CheckDeviceRAMEnough() then
+		pg.TipsMgr.GetInstance():ShowTips(i18n("drom3d_memory_limit_tip"))
+	end
 end
 
 slot0.FlushInsBtn = function(slot0)

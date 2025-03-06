@@ -155,7 +155,161 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		151,
 		152,
 		153,
-		154
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
+		178,
+		179,
+		180,
+		181,
+		182,
+		183,
+		184,
+		185,
+		186,
+		187,
+		188,
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248,
+		249,
+		250,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		270,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280,
+		281,
+		282,
+		283,
+		284,
+		285,
+		286,
+		287,
+		288,
+		289,
+		290,
+		291,
+		292,
+		293,
+		294,
+		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1500,6 +1654,1343 @@ pg.base.dorm3d_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 154,
+		flag = 2
+	},
+	{
+		param = "Teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 155,
+		flag = 0
+	},
+	{
+		param = "I feel soft",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 156,
+		flag = 0
+	},
+	{
+		param = "The bed and the bedsheets too... so soft",
+		ship_group = 19903,
+		type = 1,
+		id = 157,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Going to bed?"
+			}
+		}
+	},
+	{
+		param = "Feeling tired? Are you going to bed?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 158,
+		flag = 1
+	},
+	{
+		param = "Sleepy...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 159,
+		flag = 1
+	},
+	{
+		param = "My room is so nice... I'm sleepy",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 160,
+		flag = 1
+	},
+	{
+		param = "But I want you here",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 161,
+		flag = 1
+	},
+	{
+		param = "Together... feel the softness",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 162,
+		flag = 1
+	},
+	{
+		param = "And sleep",
+		ship_group = 19903,
+		type = 1,
+		id = 163,
+		flag = 1,
+		option = {
+			{
+				2,
+				"If you're sleepy, start by closing your eyes."
+			}
+		}
+	},
+	{
+		param = "If you're sleepy, start by closing your eyes.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 164,
+		flag = 2
+	},
+	{
+		param = "Okay... I will listen to you",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 165,
+		flag = 2
+	},
+	{
+		param = "But...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 166,
+		flag = 2
+	},
+	{
+		param = "In the stories about the two people...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 167,
+		flag = 2
+	},
+	{
+		param = "They hold hands and hug when they sleep",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 168,
+		flag = 2
+	},
+	{
+		param = "Please... Come here",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 169,
+		flag = 2
+	},
+	{
+		param = "Hold my hand and hug me... then we can sleep",
+		ship_group = 19903,
+		type = 1,
+		id = 170,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Wait until I come back."
+			}
+		}
+	},
+	{
+		param = "Just wait until I come back. Keep your eyes closed until then.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 171,
+		flag = 3
+	},
+	{
+		param = "Okay!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 172,
+		flag = 3
+	},
+	{
+		param = "Teacher...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 173,
+		flag = 0
+	},
+	{
+		param = "Come to my room",
+		ship_group = 19903,
+		type = 1,
+		id = 174,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Alright. I'll be right there."
+			}
+		}
+	},
+	{
+		param = "Alright. I'll be right there.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 175,
+		flag = 1
+	},
+	{
+		param = "Is there something you're missing? I can bring it with me.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 176,
+		flag = 1
+	},
+	{
+		param = "Something I'm missing? I don't know",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 177,
+		flag = 1
+	},
+	{
+		param = "But teacher knows",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 178,
+		flag = 1
+	},
+	{
+		param = "You'll know what's missing when you see it",
+		ship_group = 19903,
+		type = 1,
+		id = 179,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Wait for me to get there..."
+			}
+		}
+	},
+	{
+		param = "Wait for me to get there, then I'll take a look around.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 180,
+		flag = 2
+	},
+	{
+		param = "If you get sleepy, you can take a nap.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 181,
+		flag = 2
+	},
+	{
+		param = "Okay",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 182,
+		flag = 2
+	},
+	{
+		param = "I'm not tired so I'll wait",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 183,
+		flag = 2
+	},
+	{
+		param = "I want you teacher...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 184,
+		flag = 2
+	},
+	{
+		param = "When you're with me and I touch you",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 185,
+		flag = 2
+	},
+	{
+		param = "It makes me so happy",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 186,
+		flag = 2
+	},
+	{
+		param = "Oh I got an idea!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 187,
+		flag = 2
+	},
+	{
+		param = "Teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 188,
+		flag = 2
+	},
+	{
+		param = "I know what I'm missing",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 189,
+		flag = 2
+	},
+	{
+		param = "It's you",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 190,
+		flag = 2
+	},
+	{
+		param = "The thing I want most is you teacher!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 191,
+		flag = 2
+	},
+	{
+		param = "Teacher, my room",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 192,
+		flag = 0
+	},
+	{
+		param = "It's very special today",
+		ship_group = 19903,
+		type = 1,
+		id = 193,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Special?"
+			}
+		}
+	},
+	{
+		param = "Special? What do you mean?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 194,
+		flag = 1
+	},
+	{
+		param = "Hehe",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 195,
+		flag = 1
+	},
+	{
+		param = "It's ready... and so soft",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 196,
+		flag = 1
+	},
+	{
+		param = "And it smells nice",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 197,
+		flag = 1
+	},
+	{
+		param = "It's for you teacher!",
+		ship_group = 19903,
+		type = 1,
+		id = 198,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Did you make food for me?"
+			}
+		}
+	},
+	{
+		param = "Did you make food for me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 199,
+		flag = 2
+	},
+	{
+		param = "No... It's like the thing when we hug",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 200,
+		flag = 2
+	},
+	{
+		param = "I love it!",
+		ship_group = 19903,
+		type = 1,
+		id = 201,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Hang on..."
+			}
+		}
+	},
+	{
+		param = "Hang on, are you talking about...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 202,
+		flag = 3
+	},
+	{
+		param = "A hug pillow?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 203,
+		flag = 3
+	},
+	{
+		param = "Yes!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 204,
+		flag = 3
+	},
+	{
+		param = "I love hugging",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 205,
+		flag = 3
+	},
+	{
+		param = "But now... I don't wanna give it to you teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 206,
+		flag = 3
+	},
+	{
+		param = "I want you to hug me!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 207,
+		flag = 3
+	},
+	{
+		param = "I smell nice...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 208,
+		flag = 3
+	},
+	{
+		param = "And I'm soft...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 209,
+		flag = 3
+	},
+	{
+		param = "Hehe I love you teacher!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 210,
+		flag = 3
+	},
+	{
+		param = "Wow teacher...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 211,
+		flag = 0
+	},
+	{
+		param = "You found so many things I lost",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 212,
+		flag = 0
+	},
+	{
+		param = "But there's still a secret...",
+		ship_group = 19903,
+		type = 1,
+		id = 213,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Secret?"
+			}
+		}
+	},
+	{
+		param = "Secret? What kind? Now I'm curious.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 214,
+		flag = 1
+	},
+	{
+		param = "I have a secret somewhere... but I forgot where",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 215,
+		flag = 1
+	},
+	{
+		param = "I wanted to give it to you at a special time",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 216,
+		flag = 1
+	},
+	{
+		param = "But now I dunno where it is...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 217,
+		flag = 1
+	},
+	{
+		param = "312",
+		ship_group = 19903,
+		type = 4,
+		id = 218,
+		flag = 1,
+		option = {
+			{
+				2,
+				"We'll look for it together."
+			}
+		}
+	},
+	{
+		param = "We'll look for it together.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 219,
+		flag = 2
+	},
+	{
+		param = "By the way, is the secret written down, by any chance?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 220,
+		flag = 2
+	},
+	{
+		param = "I wrote something for you",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 221,
+		flag = 2
+	},
+	{
+		param = "But...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 222,
+		flag = 2
+	},
+	{
+		param = "You might not understand what it says teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 223,
+		flag = 2
+	},
+	{
+		param = "Oh I remembered",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 224,
+		flag = 2
+	},
+	{
+		param = "I drew something too! A picture!",
+		ship_group = 19903,
+		type = 1,
+		id = 225,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Did you draw it in your sketchbook?"
+			}
+		}
+	},
+	{
+		param = "Did you draw it in your sketchbook?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 226,
+		flag = 3
+	},
+	{
+		param = "I did",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 227,
+		flag = 3
+	},
+	{
+		param = "But then I took the drawing and hid it somewhere...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 228,
+		flag = 3
+	},
+	{
+		param = "Ah, I didn't hide it",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 229,
+		flag = 3
+	},
+	{
+		param = "I gave it to you teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 230,
+		flag = 3
+	},
+	{
+		param = "I turned the drawing and words into a paper puppy",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 231,
+		flag = 3
+	},
+	{
+		param = "306",
+		ship_group = 19903,
+		option = "",
+		type = 4,
+		id = 232,
+		flag = 3
+	},
+	{
+		param = "It's right next to you! ",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 233,
+		flag = 3
+	},
+	{
+		param = "Hehe... I'm so happy right now",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 234,
+		flag = 0
+	},
+	{
+		param = "You came to see me again",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 235,
+		flag = 0
+	},
+	{
+		param = "I like you more than anyone else teacher... I'll do anything with you",
+		ship_group = 19903,
+		type = 1,
+		id = 236,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Anything in particular you want to do?"
+			}
+		}
+	},
+	{
+		param = "Is there anything in particular you want to do?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 237,
+		flag = 1
+	},
+	{
+		param = "Just name it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 238,
+		flag = 1
+	},
+	{
+		param = "I don't know... I just want to be with you forever and ever",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 239,
+		flag = 1
+	},
+	{
+		param = "I want more",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 240,
+		flag = 1
+	},
+	{
+		param = "Like...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 241,
+		flag = 1
+	},
+	{
+		param = "You teach me how to draw... and when your hands get dirty you don't wash them by yourself",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 242,
+		flag = 1
+	},
+	{
+		param = "I'll wash them for you",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 243,
+		flag = 1
+	},
+	{
+		param = "I want to become as warm as you and make you happy",
+		ship_group = 19903,
+		type = 1,
+		id = 244,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Alright. You can do it."
+			}
+		}
+	},
+	{
+		param = "Alright. You can wash my hands. Is that the \"more\" you want?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 245,
+		flag = 2
+	},
+	{
+		param = "Not just that...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 246,
+		flag = 2
+	},
+	{
+		param = "You help me tidy up the bed and make it pretty",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 247,
+		flag = 2
+	},
+	{
+		param = "But I don't want it to be pretty...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 248,
+		flag = 2
+	},
+	{
+		param = "Because you made it pretty I don't wanna make it messy",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 249,
+		flag = 2
+	},
+	{
+		param = "I want to be with you teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 250,
+		flag = 2
+	},
+	{
+		param = "Even if it means making the bed messy",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 251,
+		flag = 2
+	},
+	{
+		param = "Lie down with me... I'll be so happy",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 252,
+		flag = 2
+	},
+	{
+		param = "You've given me so many gifts",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 253,
+		flag = 0
+	},
+	{
+		param = "I love them all they're so good",
+		ship_group = 19903,
+		type = 1,
+		id = 254,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I have even more gifts for you."
+			}
+		}
+	},
+	{
+		param = "I have even more gifts for you. Look forward to them.",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 255,
+		flag = 1
+	},
+	{
+		param = "I will!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 256,
+		flag = 1
+	},
+	{
+		param = "My picture book... it says",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 257,
+		flag = 1
+	},
+	{
+		param = "\"Thanks\" is an important word",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 258,
+		flag = 1
+	},
+	{
+		param = "You're always so nice to me teacher...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 259,
+		flag = 1
+	},
+	{
+		param = "I want to tell you thanks in a big way",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 260,
+		flag = 1
+	},
+	{
+		param = "I'm really grateful for you teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 261,
+		flag = 1
+	},
+	{
+		param = "Thank you super duper much",
+		ship_group = 19903,
+		type = 1,
+		id = 262,
+		flag = 1,
+		option = {
+			{
+				2,
+				"You're super duper welcome."
+			}
+		}
+	},
+	{
+		param = "You're super duper welcome. You bring me so much happiness, so it's the least I could do.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 263,
+		flag = 2
+	},
+	{
+		param = "I'm super duper welcome... Does that mean you don't need thanks?",
+		ship_group = 19903,
+		type = 1,
+		id = 264,
+		flag = 2,
+		option = {
+			{
+				3,
+				"It just means I want you to enjoy the gifts..."
+			}
+		}
+	},
+	{
+		param = "It just means I want you to enjoy the gifts and not feel indebted or anything.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 265,
+		flag = 3
+	},
+	{
+		param = "You don't need to thank family members like you thank a guest.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 266,
+		flag = 3
+	},
+	{
+		param = "Family...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 267,
+		flag = 3
+	},
+	{
+		param = "I'm family... That makes me so happy",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 268,
+		flag = 3
+	},
+	{
+		param = "Say \"thank you\" and know...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 269,
+		flag = 3
+	},
+	{
+		param = "That me and you are family teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 270,
+		flag = 3
+	},
+	{
+		param = "I like saying \"thank you\" forever",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 271,
+		flag = 3
+	},
+	{
+		param = "Teacher how come I always lose?",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 272,
+		flag = 0
+	},
+	{
+		param = "Games are so hard...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 273,
+		flag = 0
+	},
+	{
+		param = "But I wanna win",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 274,
+		flag = 0
+	},
+	{
+		param = "!!",
+		ship_group = 19903,
+		type = 1,
+		id = 275,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Why?"
+			}
+		}
+	},
+	{
+		param = "Why?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 276,
+		flag = 1
+	},
+	{
+		param = "I want a reward...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 277,
+		flag = 1
+	},
+	{
+		param = "If I win I get a reward",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 278,
+		flag = 1
+	},
+	{
+		param = "A big hug from you! Hehe",
+		ship_group = 19903,
+		type = 1,
+		id = 279,
+		flag = 1,
+		option = {
+			{
+				2,
+				"It's okay if you lose."
+			}
+		}
+	},
+	{
+		param = "It's okay if you lose.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 280,
+		flag = 2
+	},
+	{
+		param = "Huh?",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 281,
+		flag = 2
+	},
+	{
+		param = "Does that mean I still get a reward?",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 282,
+		flag = 2
+	},
+	{
+		param = "I want your reward teacher...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 283,
+		flag = 2
+	},
+	{
+		param = "I lost... last time",
+		ship_group = 19903,
+		type = 1,
+		id = 284,
+		flag = 2,
+		option = {
+			{
+				3,
+				"What would you like?"
+			}
+		}
+	},
+	{
+		param = "What would you like?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 285,
+		flag = 3
+	},
+	{
+		param = "I... want headpats!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 286,
+		flag = 3
+	},
+	{
+		param = "If I could choose... a hug if I win",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 287,
+		flag = 3
+	},
+	{
+		param = "And if I lose, I get headpats then",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 288,
+		flag = 3
+	},
+	{
+		param = "I love playing games with you teacher",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 289,
+		flag = 3
+	},
+	{
+		param = "Your gift is in my hands...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 290,
+		flag = 0
+	},
+	{
+		param = "We look at the sky together",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 291,
+		flag = 0
+	},
+	{
+		param = "But I'm sad...",
+		ship_group = 19903,
+		type = 1,
+		id = 292,
+		flag = 0,
+		option = {
+			{
+				1,
+				"What's wrong? Why are you sad?"
+			}
+		}
+	},
+	{
+		param = "What's wrong? Why are you sad?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 293,
+		flag = 1
+	},
+	{
+		param = "Did you not like my gift?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 294,
+		flag = 1
+	},
+	{
+		param = "No I do",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 295,
+		flag = 1
+	},
+	{
+		param = "I love it",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 296,
+		flag = 1
+	},
+	{
+		param = "Gifts from you are my favorite",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 297,
+		flag = 1
+	},
+	{
+		param = "But I wanna give you something",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 298,
+		flag = 1
+	},
+	{
+		param = "The sparkles in the sky... The stars",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 299,
+		flag = 1
+	},
+	{
+		param = "The prettiest one",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 300,
+		flag = 1
+	},
+	{
+		param = "But it's so far away",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 301,
+		flag = 1
+	},
+	{
+		param = "I don't know what to do...",
+		ship_group = 19903,
+		type = 1,
+		id = 302,
+		flag = 1,
+		option = {
+			{
+				2,
+				"If you want to give me a star..."
+			}
+		}
+	},
+	{
+		param = "If you want to give me a star...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 303,
+		flag = 2
+	},
+	{
+		param = "Why don't you draw one for me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 304,
+		flag = 2
+	},
+	{
+		param = "Draw...",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 305,
+		flag = 2
+	},
+	{
+		param = "Okay!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 306,
+		flag = 2
+	},
+	{
+		param = "I'll draw a star and give it to you",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 307,
+		flag = 2
+	},
+	{
+		param = "I'll make the prettiest sparkliest star!",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 308,
 		flag = 2
 	}
 }

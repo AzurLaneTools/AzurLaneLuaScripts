@@ -90,7 +90,79 @@ pg.dorm3d_ins_unlock = {
 		content = 30221105,
 		trigger_type = 119
 	},
-	[19] = {
+	{
+		text = "Visit Anchorage's private quarters 1 time.",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 1,
+		id = 11,
+		content = 19903101,
+		trigger_type = 152
+	},
+	{
+		text = "Visit Anchorage's private quarters over 2 days.",
+		trigger_num = 2,
+		trigger_id = 0,
+		type = 1,
+		id = 12,
+		content = 19903102,
+		trigger_type = 151
+	},
+	{
+		text = "Visit Anchorage's private quarters over 4 days.",
+		trigger_num = 4,
+		trigger_id = 0,
+		type = 1,
+		id = 13,
+		content = 19903103,
+		trigger_type = 151
+	},
+	{
+		text = "Collect 20 items in Anchorage's private quarters.",
+		trigger_num = 20,
+		trigger_id = 0,
+		type = 1,
+		id = 14,
+		content = 19903104,
+		trigger_type = 153
+	},
+	{
+		text = "Interact with Anchorage in her private quarters 10 times.",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 1,
+		id = 15,
+		content = 19903105,
+		trigger_type = 156
+	},
+	{
+		text = "Give Anchorage 5 gifts.",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 1,
+		id = 16,
+		content = 19903106,
+		trigger_type = 157
+	},
+	{
+		text = "Obtain 3 points in Anchorage's minigame.",
+		trigger_num = 3,
+		trigger_id = 0,
+		type = 1,
+		id = 17,
+		content = 19903107,
+		trigger_type = 159
+	},
+	{
+		text = "Give Anchorage a gift at night.",
+		trigger_num = 1,
+		trigger_id = 0,
+		type = 1,
+		id = 18,
+		content = 19903108,
+		trigger_type = 118
+	},
+	{
 		text = "Reach Intimacy Lv. 5 with Sirius.",
 		trigger_num = 5,
 		trigger_id = 0,
@@ -99,13 +171,31 @@ pg.dorm3d_ins_unlock = {
 		content = 20220201,
 		trigger_type = 101
 	},
-	[20] = {
+	{
 		text = "Reach Intimacy Lv. 5 with Noshiro.",
 		trigger_num = 5,
 		trigger_id = 0,
 		type = 3,
 		id = 20,
 		content = 30221201,
+		trigger_type = 101
+	},
+	{
+		text = "Reach Intimacy Lv. 5 with Anchorage.",
+		trigger_num = 5,
+		trigger_id = 0,
+		type = 3,
+		id = 21,
+		content = 19903201,
+		trigger_type = 101
+	},
+	{
+		text = "Reach Intimacy Lv. 10 with Anchorage.",
+		trigger_num = 10,
+		trigger_id = 0,
+		type = 3,
+		id = 22,
+		content = 19903202,
 		trigger_type = 101
 	},
 	get_id_list_by_type = {
@@ -119,11 +209,21 @@ pg.dorm3d_ins_unlock = {
 			7,
 			8,
 			9,
-			10
+			10,
+			11,
+			12,
+			13,
+			14,
+			15,
+			16,
+			17,
+			18
 		},
 		[3] = {
 			19,
-			20
+			20,
+			21,
+			22
 		}
 	},
 	all = {
@@ -137,7 +237,17 @@ pg.dorm3d_ins_unlock = {
 		8,
 		9,
 		10,
+		11,
+		12,
+		13,
+		14,
+		15,
+		16,
+		17,
+		18,
 		19,
-		20
+		20,
+		21,
+		22
 	}
 }

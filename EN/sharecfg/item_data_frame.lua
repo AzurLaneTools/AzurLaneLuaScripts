@@ -666,6 +666,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>From underneath the Sakuran parasol, a pair of eyes gazes at you lovingly.</color>\nReward for raising Noshiro's Intimacy in the Private Quarters.",
 		scene = {}
 	},
+	[1005] = {
+		name = "Angelic Light",
+		gain_by = "0",
+		time_second = 0,
+		id = 1005,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>The pure light of the stars makes an angel's halo shine.</color>\nReward for raising Anchorage's Intimacy in the Private Quarters.",
+		scene = {}
+	},
+	[1006] = {
+		name = "Adventure on the Blue Seas",
+		gain_by = "0",
+		time_second = 0,
+		id = 1006,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>Chase the waves and dive into a joyous new quest.</color>\nReward for raising Anchorage's Intimacy in the Private Quarters.",
+		scene = {}
+	},
 	[10001] = {
 		name = "Extreme Challenge - Gemini",
 		gain_by = "",
@@ -849,6 +867,8 @@ pg.item_data_frame = {
 		1002,
 		1003,
 		1004,
+		1005,
+		1006,
 		10001,
 		10002,
 		10003,

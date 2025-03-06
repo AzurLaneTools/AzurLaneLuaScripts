@@ -52,7 +52,27 @@ pg.dorm3d_subtitle = setmetatable({
 		2202,
 		2301,
 		2302,
-		2303
+		2303,
+		3401,
+		3402,
+		3403,
+		3404,
+		3405,
+		3406,
+		3407,
+		3101,
+		3102,
+		3103,
+		3104,
+		3105,
+		3106,
+		3301,
+		3302,
+		3303,
+		3304,
+		3305,
+		3201,
+		3202
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -260,5 +280,85 @@ pg.base.dorm3d_subtitle = {
 	[2303] = {
 		id = 2303,
 		subtitle = "It gets like this when... I'm with you..."
+	},
+	[3401] = {
+		id = 3401,
+		subtitle = "Teacher...! Paint... Anchorage will make art!"
+	},
+	[3402] = {
+		id = 3402,
+		subtitle = "Hum hum~"
+	},
+	[3403] = {
+		id = 3403,
+		subtitle = "Me... and Teacher! And... a heart!"
+	},
+	[3404] = {
+		id = 3404,
+		subtitle = "Teacher! My paints fell..."
+	},
+	[3405] = {
+		id = 3405,
+		subtitle = "It's okay...? Okay! Anchorage will... keep drawing!"
+	},
+	[3406] = {
+		id = 3406,
+		subtitle = "Hmm... Umm..."
+	},
+	[3407] = {
+		id = 3407,
+		subtitle = "Picture... Anchorage and Teacher, together forever...! Yeah!"
+	},
+	[3101] = {
+		id = 3101,
+		subtitle = "Together...!"
+	},
+	[3102] = {
+		id = 3102,
+		subtitle = "Hmm... Teach...er...?"
+	},
+	[3103] = {
+		id = 3103,
+		subtitle = "Help me... Teacher!"
+	},
+	[3104] = {
+		id = 3104,
+		subtitle = "Hehe... Do you wanna play with Anchorage? Together...!"
+	},
+	[3105] = {
+		id = 3105,
+		subtitle = "Tap"
+	},
+	[3106] = {
+		id = 3106,
+		subtitle = "Tap"
+	},
+	[3301] = {
+		id = 3301,
+		subtitle = "Teacher... Your hands are warm!"
+	},
+	[3302] = {
+		id = 3302,
+		subtitle = "Teacher! W-wake up!"
+	},
+	[3303] = {
+		id = 3303,
+		subtitle = "Kissing... learned!"
+	},
+	[3304] = {
+		id = 3304,
+		subtitle = "Anchorage loves you!"
+	},
+	[3305] = {
+		id = 3305,
+		subtitle = "Do you love Anchorage, Teacher...?"
+	},
+	[3201] = {
+		id = 3201,
+		subtitle = "Give me a hug...!"
+	},
+	[3202] = {
+		id = 3202,
+		subtitle = "Teacher... Anchorage is here!"
 	}
 }

@@ -129,6 +129,51 @@ pg.dorm3d_zone_template = {
 			}
 		}
 	},
+	[3001] = {
+		is_global = 0,
+		name = "Bedroom",
+		type_prioritys = "",
+		id = 3001,
+		room_id = 3,
+		watch_camera = "Bed",
+		special_action = "",
+		touch_id = {
+			{
+				19903,
+				1990330
+			}
+		}
+	},
+	[3002] = {
+		is_global = 0,
+		name = "Amusement Area",
+		type_prioritys = "",
+		id = 3002,
+		room_id = 3,
+		watch_camera = "Table",
+		special_action = "",
+		touch_id = {
+			{
+				19903,
+				1990320
+			}
+		}
+	},
+	[3003] = {
+		is_global = 0,
+		name = "Living Area",
+		type_prioritys = "",
+		id = 3003,
+		room_id = 3,
+		watch_camera = "Chair",
+		special_action = "",
+		touch_id = {
+			{
+				19903,
+				1990310
+			}
+		}
+	},
 	[4001] = {
 		is_global = 0,
 		name = "Entrance",
@@ -190,6 +235,21 @@ pg.dorm3d_zone_template = {
 		},
 		special_action = {}
 	},
+	[4004] = {
+		is_global = 0,
+		name = "Beach",
+		type_prioritys = "",
+		id = 4004,
+		room_id = 4,
+		watch_camera = "Ankeleiqi",
+		touch_id = {
+			{
+				19903,
+				1990390
+			}
+		},
+		special_action = {}
+	},
 	get_id_list_by_room_id = {
 		{
 			1000,
@@ -202,10 +262,16 @@ pg.dorm3d_zone_template = {
 			2002,
 			2003
 		},
-		[4] = {
+		{
+			3001,
+			3002,
+			3003
+		},
+		{
 			4001,
 			4002,
-			4003
+			4003,
+			4004
 		}
 	},
 	all = {
@@ -216,8 +282,12 @@ pg.dorm3d_zone_template = {
 		2001,
 		2002,
 		2003,
+		3001,
+		3002,
+		3003,
 		4001,
 		4002,
-		4003
+		4003,
+		4004
 	}
 }

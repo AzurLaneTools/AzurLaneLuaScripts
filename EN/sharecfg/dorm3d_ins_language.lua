@@ -40,6 +40,26 @@ pg.dorm3d_ins_language = {
 		key = "nengdai_1_2",
 		is_active = "0"
 	},
+	ankeleiqi_1_1 = {
+		value = "Every fairy tale needs a lovely princess.",
+		key = "ankeleiqi_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_1_2 = {
+		value = "It's your own fairy tale world!",
+		key = "ankeleiqi_1_2",
+		is_active = "0"
+	},
+	ankeleiqi_2_1 = {
+		value = "What did you dream of?",
+		key = "ankeleiqi_2_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_2 = {
+		value = "Why above the clouds, exactly?",
+		key = "ankeleiqi_2_2",
+		is_active = "0"
+	},
 	tianlangxing_1_1_1 = {
 		value = "Do you really mean that, Master? Then please allow me to use all that I've learned to serve you!",
 		key = "tianlangxing_1_1_1",
@@ -60,6 +80,26 @@ pg.dorm3d_ins_language = {
 		key = "nengdai_1_2_1",
 		is_active = "0"
 	},
+	ankeleiqi_1_1_1 = {
+		value = "Is Anchorage... the princess",
+		key = "ankeleiqi_1_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_1_2_1 = {
+		value = "I want... Teacher in my fairy tale too please!",
+		key = "ankeleiqi_1_2_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_1_1 = {
+		value = "Teacher and me holding hands eating candy... So soft",
+		key = "ankeleiqi_2_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_2_1 = {
+		value = "Pretty... On top of the clouds with Teacher and happy",
+		key = "ankeleiqi_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -69,9 +109,17 @@ pg.dorm3d_ins_language = {
 		"tianlangxing_1_2",
 		"nengdai_1_1",
 		"nengdai_1_2",
+		"ankeleiqi_1_1",
+		"ankeleiqi_1_2",
+		"ankeleiqi_2_1",
+		"ankeleiqi_2_2",
 		"tianlangxing_1_1_1",
 		"tianlangxing_1_2_1",
 		"nengdai_1_1_1",
-		"nengdai_1_2_1"
+		"nengdai_1_2_1",
+		"ankeleiqi_1_1_1",
+		"ankeleiqi_1_2_1",
+		"ankeleiqi_2_1_1",
+		"ankeleiqi_2_2_1"
 	}
 }

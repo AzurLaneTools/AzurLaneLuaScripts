@@ -84,6 +84,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100203_icon"
 	},
+	[100301] = {
+		get_tips = "You obtained an Intimacy wallpaper.",
+		name = "Delicious Amusement",
+		nighttime_res = "100301_bg_night",
+		daytime_res = "100301_bg_day",
+		rarity = 3,
+		desc = "Unlocks the Delicious Amusement wallpaper for the port.",
+		unlock_text = "Unlocked at Intimacy Lv. 2 with Anchorage.",
+		id = 100301,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100301_icon"
+	},
+	[100302] = {
+		get_tips = "You obtained an Intimacy wallpaper.",
+		name = "Story Time",
+		nighttime_res = "100302_bg_night",
+		daytime_res = "100302_bg_day",
+		rarity = 3,
+		desc = "Unlocks the Story Time wallpaper for the port.",
+		unlock_text = "Unlocked at Intimacy Lv. 9 with Anchorage.",
+		id = 100302,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100302_icon"
+	},
+	[100303] = {
+		get_tips = "You obtained an Intimacy wallpaper.",
+		name = "World of Drawing",
+		nighttime_res = "100303_bg_night",
+		daytime_res = "100303_bg_day",
+		rarity = 3,
+		desc = "Unlocks the World of Drawing wallpaper for the port.",
+		unlock_text = "Unlocked at Intimacy Lv. 13 withAnchorage.",
+		id = 100303,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100303_icon"
+	},
 	all = {
 		0,
 		100101,
@@ -91,6 +127,9 @@ pg.livingarea_cover = {
 		100103,
 		100201,
 		100202,
-		100203
+		100203,
+		100301,
+		100302,
+		100303
 	}
 }

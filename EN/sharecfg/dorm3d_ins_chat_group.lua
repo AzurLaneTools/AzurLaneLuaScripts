@@ -15,6 +15,16 @@ pg.dorm3d_ins_chat_group = setmetatable({
 			30221103,
 			30221104,
 			30221105
+		},
+		[19903] = {
+			19903101,
+			19903102,
+			19903103,
+			19903104,
+			19903105,
+			19903106,
+			19903107,
+			19903108
 		}
 	},
 	all = {
@@ -27,7 +37,15 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		30221102,
 		30221103,
 		30221104,
-		30221105
+		30221105,
+		19903101,
+		19903102,
+		19903103,
+		19903104,
+		19903105,
+		19903106,
+		19903107,
+		19903108
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -85,7 +103,7 @@ pg.base.dorm3d_ins_chat_group = {
 	[20220103] = {
 		ship_group = 20220,
 		name = "Cheer You Up",
-		unlock_desc = "Interact with Sirius in her private quarters 10 times.",
+		unlock_desc = "Touch Sirius 10 times in her private quarters.",
 		type = "1",
 		id = 20220103,
 		content = {
@@ -132,7 +150,7 @@ pg.base.dorm3d_ins_chat_group = {
 	[20220105] = {
 		ship_group = 20220,
 		name = "Request",
-		unlock_desc = "Interact with Sirius in her private quarters at night.",
+		unlock_desc = "Touch Sirius at night.",
 		type = "1",
 		id = 20220105,
 		content = {
@@ -230,7 +248,7 @@ pg.base.dorm3d_ins_chat_group = {
 	[30221104] = {
 		ship_group = 30221,
 		name = "Toward the Future",
-		unlock_desc = "Interact with Noshiro in her private quarters 10 times.",
+		unlock_desc = "Touch Noshiro 10 times in her private quarters.",
 		type = "1",
 		id = 30221104,
 		content = {
@@ -274,6 +292,232 @@ pg.base.dorm3d_ins_chat_group = {
 			152,
 			153,
 			154
+		}
+	},
+	[19903101] = {
+		ship_group = 19903,
+		name = "Before Bedtime",
+		unlock_desc = "Visit Anchorage's private quarters 1 time.",
+		type = "1",
+		id = 19903101,
+		content = {
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172
+		}
+	},
+	[19903102] = {
+		ship_group = 19903,
+		name = "What I Want Most",
+		unlock_desc = "Visit Anchorage's private quarters over 2 days.",
+		type = "1",
+		id = 19903102,
+		content = {
+			173,
+			174,
+			175,
+			176,
+			177,
+			178,
+			179,
+			180,
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188,
+			189,
+			190,
+			191
+		}
+	},
+	[19903103] = {
+		ship_group = 19903,
+		name = "What's Special Is...",
+		unlock_desc = "Visit Anchorage's private quarters over 4 days.",
+		type = "1",
+		id = 19903103,
+		content = {
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210
+		}
+	},
+	[19903104] = {
+		ship_group = 19903,
+		name = "Lost Secret",
+		unlock_desc = "Collect 20 items in Anchorage's private quarters.",
+		type = "1",
+		id = 19903104,
+		content = {
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226,
+			227,
+			228,
+			229,
+			230,
+			231,
+			232,
+			233
+		}
+	},
+	[19903105] = {
+		ship_group = 19903,
+		name = "I Want More",
+		unlock_desc = "Touch Anchorage 10 times in her private quarters.",
+		type = "1",
+		id = 19903105,
+		content = {
+			234,
+			235,
+			236,
+			237,
+			238,
+			239,
+			240,
+			241,
+			242,
+			243,
+			244,
+			245,
+			246,
+			247,
+			248,
+			249,
+			250,
+			251,
+			252
+		}
+	},
+	[19903106] = {
+		ship_group = 19903,
+		name = "The Meaning of \"Thank You\"",
+		unlock_desc = "Give Anchorage 5 gifts.",
+		type = "1",
+		id = 19903106,
+		content = {
+			253,
+			254,
+			255,
+			256,
+			257,
+			258,
+			259,
+			260,
+			261,
+			262,
+			263,
+			264,
+			265,
+			266,
+			267,
+			268,
+			269,
+			270,
+			271
+		}
+	},
+	[19903107] = {
+		ship_group = 19903,
+		name = "Reasons to Like",
+		unlock_desc = "Obtain a score of 1,000 in Anchorage's minigame.",
+		type = "1",
+		id = 19903107,
+		content = {
+			272,
+			273,
+			274,
+			275,
+			276,
+			277,
+			278,
+			279,
+			280,
+			281,
+			282,
+			283,
+			284,
+			285,
+			286,
+			287,
+			288,
+			289
+		}
+	},
+	[19903108] = {
+		ship_group = 19903,
+		name = "Return Gift",
+		unlock_desc = "Give Anchorage a gift at night.",
+		type = "1",
+		id = 19903108,
+		content = {
+			290,
+			291,
+			292,
+			293,
+			294,
+			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			308
 		}
 	}
 }

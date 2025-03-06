@@ -568,6 +568,202 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
 	},
+	[301] = {
+		rarity = 3,
+		name = "Beary Comfy Bed",
+		unlock_tips = "",
+		type = 4,
+		room_id = 3,
+		desc = "The headboard, shaped like a teddy bear cookie, is simple yet cute.\nWhen you lie down in this bed, you can practically smell sea salt cookies, forgetting your fatigue and falling into the sweetest of dreams.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 301,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990330
+			}
+		},
+		shop_id = {}
+	},
+	[302] = {
+		rarity = 3,
+		name = "Blue Corner",
+		unlock_tips = "",
+		type = 6,
+		room_id = 3,
+		desc = "The colorful decorations and imaginative design fill this little corner with wonder and adventure.\nEven if it rained outside, this would put you in a sunny mood.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 302,
+		target_slots = {
+			130202
+		},
+		touch_id = {
+			{
+				19903,
+				1990320
+			}
+		},
+		shop_id = {}
+	},
+	[303] = {
+		rarity = 3,
+		name = "Warm Sofa",
+		unlock_tips = "",
+		type = 5,
+		room_id = 3,
+		desc = "A couch with an aroma reminiscent of fresh-baked cookies.\nEvery nook and cranny is as adorable as can be, providing a truly comforting rest.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 303,
+		target_slots = {
+			130302
+		},
+		touch_id = {
+			{
+				19903,
+				1990310
+			}
+		},
+		shop_id = {}
+	},
+	[304] = {
+		rarity = 2,
+		name = "Sacabambaspis Plushies",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "Soft plushies modeled after an adorable aquatic creature.\nWhat could be more comforting?",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_toy05",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 304,
+		target_slots = {
+			130101
+		},
+		shop_id = {}
+	},
+	[305] = {
+		rarity = 2,
+		name = "Breath of Fresh Air",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "Layers on layers of little foliage.\nAnywhere you put it, natural comfort follows.",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_pottedplant01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 305,
+		target_slots = {
+			130102
+		},
+		shop_id = {}
+	},
+	[306] = {
+		rarity = 2,
+		name = "Records of Time",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "Stylish picture frames hold whimsical artwork.\nSomeday, these frames may display the most precious memories of all.",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_billboard01_group01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 306,
+		target_slots = {
+			130201
+		},
+		shop_id = {}
+	},
+	[307] = {
+		rarity = 2,
+		name = "Marine Adventure",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "More than just a decoration, it's like a switch.\nOne touch turns the window into a magical portal into the sea.",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_decoration02",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 307,
+		target_slots = {
+			130301
+		},
+		shop_id = {}
+	},
+	[321] = {
+		rarity = 4,
+		name = "Teatime Indulgence",
+		type = 6,
+		room_id = 3,
+		desc = "This coffee cup holds the contentment and comfort of indulging in a moment of fantasy.\nAnyone here can experience what it would be like to have a fairy-tale tea party.",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_entertainmentarea01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture1",
+		acesses = "",
+		id = 321,
+		target_slots = {
+			130202
+		},
+		touch_id = {
+			{
+				19903,
+				1990340
+			}
+		},
+		shop_id = {
+			270301
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture321"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/entertainmentarea"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -594,6 +790,16 @@ pg.dorm3d_furniture_template = {
 			221,
 			222,
 			251
+		},
+		{
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			321
 		}
 	},
 	all = {
@@ -618,6 +824,14 @@ pg.dorm3d_furniture_template = {
 		221,
 		222,
 		151,
-		251
+		251,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		321
 	}
 }

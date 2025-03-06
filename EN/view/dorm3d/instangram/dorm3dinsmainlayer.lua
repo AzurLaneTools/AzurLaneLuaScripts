@@ -268,6 +268,10 @@ slot0.Flush = function(slot0)
 	slot0:FlushDownload()
 end
 
+slot0.FlushLeft = function(slot0)
+	slot0.roomItemList:align(#slot0.roomIdList)
+end
+
 slot0.InitSelectItem = function(slot0, slot1, slot2)
 	setText(slot2:Find("label"), slot0.selectOptions[slot1 + 1].label)
 	onButton(slot0, slot2, function ()

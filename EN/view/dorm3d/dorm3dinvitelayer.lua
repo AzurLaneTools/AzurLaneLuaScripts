@@ -60,10 +60,23 @@ slot0.ShowInvitePanel = function(slot0)
 			return
 		end
 
-		uv0:emit(Dorm3dInviteMediator.ON_DORM, {
-			roomId = uv0.room.id,
-			groupIds = underscore.rest(uv0.selectIds, 1)
-		})
+		slot0 = {}
+
+		if #uv0.selectIds >= 3 and not ApartmentProxy.CheckDeviceRAMEnough() then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("drom3d_beach_memory_limit_tip"),
+					onYes = slot0
+				})
+			end)
+		end
+
+		seriesAsync(slot0, function ()
+			uv0:emit(Dorm3dInviteMediator.ON_DORM, {
+				roomId = uv0.room.id,
+				groupIds = underscore.rest(uv0.selectIds, 1)
+			})
+		end)
 	end, SFX_CONFIRM)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.rtInvitePanel, {
 		force = true,

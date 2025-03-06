@@ -152,6 +152,61 @@ pg.dorm3d_recall = {
 			1
 		}
 	},
+	[41] = {
+		story_id = 30520,
+		name = "Let's Play!",
+		type = 1,
+		id = 41,
+		image = "recall_41",
+		unlock_text = "Unlocked at Intimacy Lv. 4.",
+		desc = "One quiet afternoon, Anchorage waits in her room...",
+		unlock = {
+			1,
+			19903,
+			4
+		}
+	},
+	[42] = {
+		story_id = 30530,
+		name = "Hide and Seek",
+		type = 1,
+		id = 42,
+		image = "recall_42",
+		unlock_text = "Unlocked at Intimacy Lv. 8.",
+		desc = "Where could she possibly be? Her excitement betrays her.",
+		unlock = {
+			1,
+			19903,
+			8
+		}
+	},
+	[43] = {
+		story_id = 30540,
+		name = "Morning Kiss",
+		type = 1,
+		id = 43,
+		image = "recall_43",
+		unlock_text = "Unlocked at Intimacy Lv. 12.",
+		desc = "A wonderful morning, with Anchorage softly calling you to enjoy the fresh morning light together...",
+		unlock = {
+			1,
+			19903,
+			12
+		}
+	},
+	[51] = {
+		story_id = 30510,
+		name = "Happiness Drawn to Life",
+		type = 1,
+		id = 51,
+		image = "recall_51",
+		unlock_text = "Unlocked after gifting Heart in Crayon.",
+		desc = "Anchorage draws in her room. With paints, she brings to life the joy within...",
+		unlock = {
+			3,
+			1990301
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -185,6 +240,18 @@ pg.dorm3d_recall = {
 		},
 		[29991] = {
 			31
+		},
+		[30520] = {
+			41
+		},
+		[30530] = {
+			42
+		},
+		[30540] = {
+			43
+		},
+		[30510] = {
+			51
 		}
 	},
 	all = {
@@ -198,6 +265,10 @@ pg.dorm3d_recall = {
 		21,
 		22,
 		23,
-		31
+		31,
+		41,
+		42,
+		43,
+		51
 	}
 }
