@@ -2528,7 +2528,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "またプレゼントをもらえる時が来るよ、楽しみにして",
-		ship_group = 19903,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 255,
