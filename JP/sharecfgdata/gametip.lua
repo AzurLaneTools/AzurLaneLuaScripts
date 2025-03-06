@@ -37143,6 +37143,11 @@ _G.pg.base.gametip.drom3d_memory_limit_tip = {
 }
 
 
+_G.pg.base.gametip.drom3d_beach_memory_limit_tip = {
+	tip = "端末スペックが不足しているため、キャラを3人配置するとプレイ中ゲームがクラッシュする可能性があります。配置を確定しますか？"
+}
+
+
 _G.pg.base.gametip.blackfriday_main_tip = {
 	tip = {
 		{
@@ -37627,7 +37632,7 @@ _G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
 
 
 _G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
-	tip = "居間"
+	tip = "リビング"
 }
 
 

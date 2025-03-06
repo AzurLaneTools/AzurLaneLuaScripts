@@ -27,15 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "安克雷奇？"
-									}
-								},
-								{
-									{
-										content = "没关系，我来收拾"
-									},
-									{
-										content = "安克雷奇不用担心"
+										content = "アンカレッジ？"
 									}
 								}
 							},

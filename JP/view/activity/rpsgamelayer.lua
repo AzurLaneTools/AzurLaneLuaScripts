@@ -38,6 +38,11 @@ slot21 = function(slot0, slot1, slot2, slot3)
 			slot0._bottomCardTpl = uv3
 
 			setActive(slot0._tf, false)
+			GetComponent(findTF(slot0._tf, "top/bg/desc/img"), typeof(Image)):SetNativeSize()
+
+			slot4 = Image
+
+			GetComponent(findTF(slot0._tf, "bottom/bg/desc/img"), typeof(slot4)):SetNativeSize()
 
 			slot0._topContent = findTF(slot0._tf, "top/content")
 			slot0._bottomContent = findTF(slot0._tf, "bottom/content")
@@ -57,8 +62,8 @@ slot21 = function(slot0, slot1, slot2, slot3)
 			end
 		end,
 		setCardData = function (slot0, slot1)
-			slot2 = slot1.my_cards
-			slot3 = slot1.other_cards
+			slot2 = slot1.other_cards
+			slot3 = slot1.my_cards
 
 			for slot7 = 1, uv0 do
 				slot0:setCardChildsVisible(findTF(slot0.topCards[slot7], "ad"), false)

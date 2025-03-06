@@ -5,8 +5,6 @@ slot0.CLOSE_CHAT = "Dorm3dInsMainMediator:CLOSE_CHAT"
 slot0.CLOSE_JUUS = "Dorm3dInsMainMediator:CLOSE_JUUS"
 slot0.CHANGE_JUUS_TIP = "Dorm3dInsMainMediator:CHANGE_JUUS_TIP"
 slot0.CHANGE_CHAT_TIP = "Dorm3dInsMainMediator:CHANGE_CHAT_TIP"
-slot0.CLOSE_JUUS_DETAIL = "Dorm3dInsMainMediator.CLOSE_JUUS_DETAIL"
-slot0.JUUS_BACK_PRESSED = "Dorm3dInsMainMediator.JUUS_BACK_PRESSED"
 slot0.NotifyDormDelete = "Dorm3dInsMainMediator.NotifyDormDelete"
 slot0.ON_UNLOCK_DORM_ROOM = "Dorm3dInsMainMediator.ON_UNLOCK_DORM_ROOM"
 slot0.OPEN_INVITE_LAYER = "Dorm3dInsMainMediator.OPEN_INVITE_LAYER"
@@ -61,13 +59,8 @@ slot0.register = function(slot0)
 		uv0:removeSubLayers(Dorm3dChatMediator)
 	end)
 	slot0:bind(uv0.CLOSE_JUUS, function (slot0)
-		uv0:removeSubLayers(Dorm3dInstagramMediator)
-	end)
-	slot0:bind(uv0.CLOSE_JUUS_DETAIL, function (slot0)
-		uv0:sendNotification(Dorm3dInstagramMediator.CLOSE_DETAIL)
-	end)
-	slot0:bind(uv0.JUUS_BACK_PRESSED, function (slot0)
 		uv0:sendNotification(Dorm3dInstagramMediator.BACK_PRESSED)
+		uv0:removeSubLayers(Dorm3dInstagramMediator)
 	end)
 	slot0:bind(uv0.NotifyDormDelete, function (slot0, slot1)
 		uv0:sendNotification(uv1.NotifyDormDelete, slot1)
@@ -109,6 +102,12 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[Dorm3dInsMainMediator.NotifyDormDelete] = function (slot0, slot1)
 			slot0.viewComponent:DownloadUpdate(slot1:getBody(), "delete")
+		end,
+		[GAME.APARTMENT_CHAT_OP_DONE] = function (slot0)
+			slot0.viewComponent:FlushLeft()
+		end,
+		[GAME.APARTMENT_INS_OP_DONE] = function (slot0)
+			slot0.viewComponent:FlushLeft()
 		end
 	}
 end

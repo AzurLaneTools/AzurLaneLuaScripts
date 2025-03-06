@@ -460,12 +460,4 @@ slot0.IsShowRedDot = function(slot0)
 	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CourtYardMediator") and (slot3:isLackOfFood() or slot3:havePopEvent() or getProxy(SettingsProxy):IsTipNewTheme() or getProxy(SettingsProxy):IsTipNewGemFurniture())
 end
 
-slot0.CheckDeviceRAMEnough = function()
-	slot1 = getDorm3dGameset("drom3d_memory_limit")[1]
-
-	if SystemInfo.systemMemorySize ~= 0 and slot0 < slot1 then
-		pg.TipsMgr.GetInstance():ShowTips(i18n("drom3d_memory_limit_tip"))
-	end
-end
-
 return slot0

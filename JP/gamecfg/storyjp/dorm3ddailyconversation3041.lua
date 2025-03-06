@@ -7,11 +7,16 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION3041",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "おんせん、きもちいい！せんせー、おんせん、いこう！",
 			typewriter = {
 				speed = 0.05,
@@ -22,9 +27,11 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = true,
+							param = "Play",
 							name = "ab_shuohua_gandong_01",
-							type = "action"
+							time = 0,
+							type = "action",
+							skip = true
 						},
 						{
 							skip = true,
@@ -32,6 +39,7 @@ return {
 							type = "action"
 						},
 						{
+							skip = false,
 							time = 1.5,
 							type = "wait"
 						}
@@ -44,9 +52,11 @@ return {
 			}
 		},
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
+			nameColor = "#FFFFFF",
 			hidePaintObj = true,
+			dir = 1,
 			say = "じかん、だいじょうぶ！……おんせん、いつでも、だいじょうぶ！",
 			typewriter = {
 				speed = 0.05,
@@ -54,9 +64,11 @@ return {
 			}
 		},
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
+			nameColor = "#FFFFFF",
 			hidePaintObj = true,
+			dir = 1,
 			say = "ぽかぽか、いいきもち……そとのおんせん、おほしさま、みれる！",
 			typewriter = {
 				speed = 0.05,
@@ -64,9 +76,11 @@ return {
 			}
 		},
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "せんせー、アンカレッジに、おほしさまおしえて……なつの、だいさんかく、ほっきょくせい！",
 			typewriter = {
 				speed = 0.05,
@@ -77,16 +91,19 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = true,
+							param = "Play",
 							name = "ab_shuohua_idle_02",
-							type = "action"
+							time = 0,
+							type = "action",
+							skip = true
 						},
 						{
 							skip = true,
-							name = "Face_weixiao",
+							name = "Face_jingya",
 							type = "action"
 						},
 						{
+							skip = false,
 							time = 1.5,
 							type = "wait"
 						}
@@ -99,9 +116,11 @@ return {
 			}
 		},
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
+			nameColor = "#FFFFFF",
 			hidePaintObj = true,
+			dir = 1,
 			say = "アンカレッジと、いっしょ！えへへ",
 			typewriter = {
 				speed = 0.05,

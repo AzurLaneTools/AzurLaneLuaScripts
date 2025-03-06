@@ -92,14 +92,14 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "ab_shuohua_qiaoqiaohua_01",
+							name = "ab_shuohua_gandong_01",
 							time = 0,
 							type = "action",
 							skip = true
 						},
 						{
 							skip = true,
-							name = "Face_jingya",
+							name = "Face_kaixin",
 							type = "action"
 						},
 						{

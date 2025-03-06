@@ -86,6 +86,49 @@ pg.dorm3d_resource = {
 			30221
 		}
 	},
+	[199031] = {
+		ship_group = 19903,
+		name = "アンカレッジ通常",
+		type = 1,
+		animator = "",
+		picture = "regular",
+		unlock = "",
+		unlock_text = "",
+		model_id = "ankeleiqi_noshoes",
+		id = 199031,
+		head_Icon = "dorm3Dchar/ankeleiqi",
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		tags = {}
+	},
+	[199032] = {
+		ship_group = 19903,
+		name = "アンカレッジ水着",
+		type = 1,
+		animator = "",
+		picture = "regular",
+		unlock_text = "アンカレッジをビーチ配置で開放",
+		model_id = "ankeleiqi_swim",
+		id = 199032,
+		head_Icon = "dorm3Dchar/ankeleiqi",
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		tags = {
+			"beach",
+			"touch"
+		},
+		unlock = {
+			5,
+			4,
+			19903
+		}
+	},
 	get_id_list_by_ship_group = {
 		[20220] = {
 			202201,
@@ -94,12 +137,18 @@ pg.dorm3d_resource = {
 		[30221] = {
 			302211,
 			302212
+		},
+		[19903] = {
+			199031,
+			199032
 		}
 	},
 	all = {
 		202201,
 		202202,
 		302211,
-		302212
+		302212,
+		199031,
+		199032
 	}
 }

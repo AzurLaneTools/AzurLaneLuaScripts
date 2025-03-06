@@ -155,7 +155,161 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		151,
 		152,
 		153,
-		154
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
+		178,
+		179,
+		180,
+		181,
+		182,
+		183,
+		184,
+		185,
+		186,
+		187,
+		188,
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248,
+		249,
+		250,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		270,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280,
+		281,
+		282,
+		283,
+		284,
+		285,
+		286,
+		287,
+		288,
+		289,
+		290,
+		291,
+		292,
+		293,
+		294,
+		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1500,6 +1654,1343 @@ pg.base.dorm3d_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 154,
+		flag = 2
+	},
+	{
+		param = "せんせい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 155,
+		flag = 0
+	},
+	{
+		param = "アンカレッジ…ふわふわ…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 156,
+		flag = 0
+	},
+	{
+		param = "おふとん…ベッド…ぜんぶ、ふわふわ…",
+		ship_group = 19903,
+		type = 1,
+		id = 157,
+		flag = 0,
+		option = {
+			{
+				1,
+				"もう寝る？"
+			}
+		}
+	},
+	{
+		param = "アンカレッジ、もう寝たいの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 158,
+		flag = 1
+	},
+	{
+		param = "ねむねむ…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 159,
+		flag = 1
+	},
+	{
+		param = "へや、いいきもち…ねむい…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 160,
+		flag = 1
+	},
+	{
+		param = "でも…せんせいも…ほしい…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 161,
+		flag = 1
+	},
+	{
+		param = "いっしょに…ふわふわで…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 162,
+		flag = 1
+	},
+	{
+		param = "ねむねむ…",
+		ship_group = 19903,
+		type = 1,
+		id = 163,
+		flag = 1,
+		option = {
+			{
+				2,
+				"眠いなら、まず目を閉じてね"
+			}
+		}
+	},
+	{
+		param = "眠いなら、まず目を閉じてね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 164,
+		flag = 2
+	},
+	{
+		param = "アンカレッジ…せんせいのいうこと、きく…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 165,
+		flag = 2
+	},
+	{
+		param = "でも…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 166,
+		flag = 2
+	},
+	{
+		param = "おはなしのなかで…ふたり…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 167,
+		flag = 2
+	},
+	{
+		param = "てをつないで、ぎゅーってして…ねむねむ",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 168,
+		flag = 2
+	},
+	{
+		param = "せんせい…アンカレッジ…せんせいが…ほしい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 169,
+		flag = 2
+	},
+	{
+		param = "てをつなぐ…ぎゅーってして…それで、ねむねむ…",
+		ship_group = 19903,
+		type = 1,
+		id = 170,
+		flag = 2,
+		option = {
+			{
+				3,
+				"戻ってくるまで待ってて"
+			}
+		}
+	},
+	{
+		param = "戻ってくるまで待ってて。目を閉じたままね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 171,
+		flag = 3
+	},
+	{
+		param = "うん！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 172,
+		flag = 3
+	},
+	{
+		param = "せんせい……へやに……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 173,
+		flag = 0
+	},
+	{
+		param = "きて",
+		ship_group = 19903,
+		type = 1,
+		id = 174,
+		flag = 0,
+		option = {
+			{
+				1,
+				"ああ、すぐ行くよ"
+			}
+		}
+	},
+	{
+		param = "ああ、すぐ行くよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 175,
+		flag = 1
+	},
+	{
+		param = "なにか足りないものは？行くときに持って行くよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 176,
+		flag = 1
+	},
+	{
+		param = "たりないもの……わからない……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 177,
+		flag = 1
+	},
+	{
+		param = "うん、せんせいなら、わかる",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 178,
+		flag = 1
+	},
+	{
+		param = "せんせいがみたら、たりないもの、わかる……",
+		ship_group = 19903,
+		type = 1,
+		id = 179,
+		flag = 1,
+		option = {
+			{
+				2,
+				"じゃあ、着いてから確認しようか"
+			}
+		}
+	},
+	{
+		param = "じゃあ、着いてから確認しようか",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 180,
+		flag = 2
+	},
+	{
+		param = "疲れてたら、休んでてもいいよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 181,
+		flag = 2
+	},
+	{
+		param = "うん……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 182,
+		flag = 2
+	},
+	{
+		param = "アンカレッジ、つかれてない……せんせいを、まつ……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 183,
+		flag = 2
+	},
+	{
+		param = "せんせいが、ほしい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 184,
+		flag = 2
+	},
+	{
+		param = "せんせい、そばに……さわさわすると……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 185,
+		flag = 2
+	},
+	{
+		param = "うれしい……すごくうれしい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 186,
+		flag = 2
+	},
+	{
+		param = "……！おもいついた",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 187,
+		flag = 2
+	},
+	{
+		param = "せんせい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 188,
+		flag = 2
+	},
+	{
+		param = "アンカレッジ、たりないもの……おもいだした……！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 189,
+		flag = 2
+	},
+	{
+		param = "それは……せんせい！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 190,
+		flag = 2
+	},
+	{
+		param = "いちばんほしいのは……せんせい！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 191,
+		flag = 2
+	},
+	{
+		param = "せんせい……アンカレッジのへや",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 192,
+		flag = 0
+	},
+	{
+		param = "きょうは……とっても……とくべつ……",
+		ship_group = 19903,
+		type = 1,
+		id = 193,
+		flag = 0,
+		option = {
+			{
+				1,
+				"特別……？"
+			}
+		}
+	},
+	{
+		param = "特別……？なんだろう",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 194,
+		flag = 1
+	},
+	{
+		param = "えへへ",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 195,
+		flag = 1
+	},
+	{
+		param = "アンカレッジ……じゅんびした……とっても、ふわふわ……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 196,
+		flag = 1
+	},
+	{
+		param = "それにいいにおい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 197,
+		flag = 1
+	},
+	{
+		param = "せんせいに、あげる……！",
+		ship_group = 19903,
+		type = 1,
+		id = 198,
+		flag = 1,
+		option = {
+			{
+				2,
+				"食べものなのか？"
+			}
+		}
+	},
+	{
+		param = "食べものなのか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 199,
+		flag = 2
+	},
+	{
+		param = "せんせいと……ぎゅーってするときと……おなじ……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 200,
+		flag = 2
+	},
+	{
+		param = "アンカレッジ……だいすき！",
+		ship_group = 19903,
+		type = 1,
+		id = 201,
+		flag = 2,
+		option = {
+			{
+				3,
+				"もしかして……"
+			}
+		}
+	},
+	{
+		param = "もしかして……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 202,
+		flag = 3
+	},
+	{
+		param = "抱き枕か？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 203,
+		flag = 3
+	},
+	{
+		param = "うん！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 204,
+		flag = 3
+	},
+	{
+		param = "アンカレッジ……ぎゅーってするの、すき……！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 205,
+		flag = 3
+	},
+	{
+		param = "……アンカレッジ……せんせいにあげたくなくなった……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 206,
+		flag = 3
+	},
+	{
+		param = "せんせい……ぎゅーってして",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 207,
+		flag = 3
+	},
+	{
+		param = "アンカレッジも……いいにおい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 208,
+		flag = 3
+	},
+	{
+		param = "それに……ふわふわ",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 209,
+		flag = 3
+	},
+	{
+		param = "えへへ！せんせい……すき！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 210,
+		flag = 3
+	},
+	{
+		param = "せんせいが……アンカレッジの……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 211,
+		flag = 0
+	},
+	{
+		param = "みつけられなかったもの……たくさん……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 212,
+		flag = 0
+	},
+	{
+		param = "でも……ひとつ……ヒミツが、ある……",
+		ship_group = 19903,
+		type = 1,
+		id = 213,
+		flag = 0,
+		option = {
+			{
+				1,
+				"秘密？"
+			}
+		}
+	},
+	{
+		param = "秘密？なんだろう？ちょっと気になるな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 214,
+		flag = 1
+	},
+	{
+		param = "実は……アンカレッジ……ヒミツ……どこにあるか、わすれちゃった……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 215,
+		flag = 1
+	},
+	{
+		param = "とくべつなときに……せんせいに……あげたい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 216,
+		flag = 1
+	},
+	{
+		param = "なのに……どこにしまったか……わすれちゃった……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 217,
+		flag = 1
+	},
+	{
+		param = "312",
+		ship_group = 19903,
+		type = 4,
+		id = 218,
+		flag = 1,
+		option = {
+			{
+				2,
+				"一緒に探そう……"
+			}
+		}
+	},
+	{
+		param = "着いたら一緒に探そう。ちなみに…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 219,
+		flag = 2
+	},
+	{
+		param = "その秘密をなにかにメモしてない？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 220,
+		flag = 2
+	},
+	{
+		param = "……アンカレッジ……せんせいへの、ことば、かいた……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 221,
+		flag = 2
+	},
+	{
+		param = "でも……アンカレッジのかいたことば……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 222,
+		flag = 2
+	},
+	{
+		param = "せんせいにはわからないかも……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 223,
+		flag = 2
+	},
+	{
+		param = "あ、そうだ",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 224,
+		flag = 2
+	},
+	{
+		param = "え…かいた！アンカレッジ、えも…かいた！",
+		ship_group = 19903,
+		type = 1,
+		id = 225,
+		flag = 2,
+		option = {
+			{
+				3,
+				"絵本に描いたの？"
+			}
+		}
+	},
+	{
+		param = "絵本に描いたの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 226,
+		flag = 3
+	},
+	{
+		param = "えほんに……かいた……けど……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 227,
+		flag = 3
+	},
+	{
+		param = "それでアンカレッジ……えをとって……どこかにかくして……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 228,
+		flag = 3
+	},
+	{
+		param = "あ。せんせい……アンカレッジ……かくしてない……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 229,
+		flag = 3
+	},
+	{
+		param = "……もう……せんせいにあげた……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 230,
+		flag = 3
+	},
+	{
+		param = "せんせいにあげたえと……ことば……おりがみ、ワンワンになった……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 231,
+		flag = 3
+	},
+	{
+		param = "306",
+		ship_group = 19903,
+		option = "",
+		type = 4,
+		id = 232,
+		flag = 3
+	},
+	{
+		param = "いま、せんせいの……そばに……！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 233,
+		flag = 3
+	},
+	{
+		param = "えへへ……アンカレッジ……すごいうれしい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 234,
+		flag = 0
+	},
+	{
+		param = "せんせい……きょうもアンカレッジのところ、きてくれた……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 235,
+		flag = 0
+	},
+	{
+		param = "いちばんすき……せんせいといっしょ……なんでもする",
+		ship_group = 19903,
+		type = 1,
+		id = 236,
+		flag = 0,
+		option = {
+			{
+				1,
+				"一緒にやりたいことはある？"
+			}
+		}
+	},
+	{
+		param = "一緒にやりたいことはある？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 237,
+		flag = 1
+	},
+	{
+		param = "なんでも言って",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 238,
+		flag = 1
+	},
+	{
+		param = "アンカレッジ、わからない……でも……せんせいとずっとずっと……いっしょにいたい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 239,
+		flag = 1
+	},
+	{
+		param = "せんせいと、もっと……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 240,
+		flag = 1
+	},
+	{
+		param = "たとえば……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 241,
+		flag = 1
+	},
+	{
+		param = "せんせいがアンカレッジに、えをおしえて……せんせいのて、よごれて……じぶんであらわないで",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 242,
+		flag = 1
+	},
+	{
+		param = "アンカレッジが……せんせいのて……あらう……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 243,
+		flag = 1
+	},
+	{
+		param = "せんせいみたいに……やさしくなる……アンカレッジもやさしくなって……せんせいを、しあわせにする！",
+		ship_group = 19903,
+		type = 1,
+		id = 244,
+		flag = 1,
+		option = {
+			{
+				2,
+				"じゃあ、今度頼むね"
+			}
+		}
+	},
+	{
+		param = "じゃあ、今度頼むね。それがアンカレッジの「もっと」ってことかな？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 245,
+		flag = 2
+	},
+	{
+		param = "それだけじゃない……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 246,
+		flag = 2
+	},
+	{
+		param = "せんせい……アンカレッジといっしょに……ベッドをかたづけて……きれいにする……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 247,
+		flag = 2
+	},
+	{
+		param = "でも……アンカレッジはきれいにしたくない……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 248,
+		flag = 2
+	},
+	{
+		param = "せんせいがきれいにしたのに……アンカレッジ……めちゃくちゃにするの、いや……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 249,
+		flag = 2
+	},
+	{
+		param = "せんせい……いっしょがいい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 250,
+		flag = 2
+	},
+	{
+		param = "ベッド……めちゃくちゃでも、いい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 251,
+		flag = 2
+	},
+	{
+		param = "いっしょにねころんで……アンカレッジ……もっとしあわせ……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 252,
+		flag = 2
+	},
+	{
+		param = "プレゼント……せんせいからたくさんもらった……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 253,
+		flag = 0
+	},
+	{
+		param = "ぜんぶすき……せんせいすごい！",
+		ship_group = 19903,
+		type = 1,
+		id = 254,
+		flag = 0,
+		option = {
+			{
+				1,
+				"またプレゼントをもらえるよ"
+			}
+		}
+	},
+	{
+		param = "またプレゼントをもらえる時が来るよ、楽しみにして",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 255,
+		flag = 1
+	},
+	{
+		param = "たのしみ！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 256,
+		flag = 1
+	},
+	{
+		param = "アンカレッジのえほん……なかにかいてた……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 257,
+		flag = 1
+	},
+	{
+		param = "「ありがとう」は……だいじなことば……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 258,
+		flag = 1
+	},
+	{
+		param = "せんせい、アンカレッジにやさしい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 259,
+		flag = 1
+	},
+	{
+		param = "アンカレッジからも、「ありがとう」……ちゃんといいたい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 260,
+		flag = 1
+	},
+	{
+		param = "せんせい、アンカレッジ、かんしゃ……ありがとう",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 261,
+		flag = 1
+	},
+	{
+		param = "ほんとうに……ありがとう",
+		ship_group = 19903,
+		type = 1,
+		id = 262,
+		flag = 1,
+		option = {
+			{
+				2,
+				"どういたしまして"
+			}
+		}
+	},
+	{
+		param = "どういたしまして。アンカレッジがもっと幸せをくれたからね",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 263,
+		flag = 2
+	},
+	{
+		param = "どういたしまして……どういたしまして……「ありがとう、いらない」ってこと？",
+		ship_group = 19903,
+		type = 1,
+		id = 264,
+		flag = 2,
+		option = {
+			{
+				3,
+				"安心して受け取って"
+			}
+		}
+	},
+	{
+		param = "安心して受け取って",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 265,
+		flag = 3
+	},
+	{
+		param = "お客さんとかじゃないからね。家族の間でそこまでお礼を言う必要はないさ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 266,
+		flag = 3
+	},
+	{
+		param = "アンカレッジ……かぞく……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 267,
+		flag = 3
+	},
+	{
+		param = "うれしい……すごくうれしい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 268,
+		flag = 3
+	},
+	{
+		param = "「ありがとう」をあげると……わかる……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 269,
+		flag = 3
+	},
+	{
+		param = "せんせいとアンカレッジ……かぞく……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 270,
+		flag = 3
+	},
+	{
+		param = "アンカレッジ、せんせいに「ありがとう」をあげる…ずっと……！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 271,
+		flag = 3
+	},
+	{
+		param = "せんせい……アンカレッジ、どうして……いつもまけちゃうの？",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 272,
+		flag = 0
+	},
+	{
+		param = "ゲーム……むずかしい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 273,
+		flag = 0
+	},
+	{
+		param = "でも……かちたい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 274,
+		flag = 0
+	},
+	{
+		param = "！",
+		ship_group = 19903,
+		type = 1,
+		id = 275,
+		flag = 0,
+		option = {
+			{
+				1,
+				"どうして？"
+			}
+		}
+	},
+	{
+		param = "どうして？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 276,
+		flag = 1
+	},
+	{
+		param = "ごほうび……ほしい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 277,
+		flag = 1
+	},
+	{
+		param = "かてば……ごほうび……もらう……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 278,
+		flag = 1
+	},
+	{
+		param = "えへへ……せんせいの……ぎゅーっ！",
+		ship_group = 19903,
+		type = 1,
+		id = 279,
+		flag = 1,
+		option = {
+			{
+				2,
+				"負けても大丈夫だよ"
+			}
+		}
+	},
+	{
+		param = "負けても大丈夫だよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 280,
+		flag = 2
+	},
+	{
+		param = "？……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 281,
+		flag = 2
+	},
+	{
+		param = "それでも……ごほうびある？",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 282,
+		flag = 2
+	},
+	{
+		param = "アンカレッジ……せんせいのごほうび……ほしい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 283,
+		flag = 2
+	},
+	{
+		param = "まえにまけたときの、ごほうび……",
+		ship_group = 19903,
+		type = 1,
+		id = 284,
+		flag = 2,
+		option = {
+			{
+				3,
+				"どんなごほうびがいい？"
+			}
+		}
+	},
+	{
+		param = "どんなごほうびがいい？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 285,
+		flag = 3
+	},
+	{
+		param = "アンカレッジ……なでなでがいい！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 286,
+		flag = 3
+	},
+	{
+		param = "んん……かてば……ぎゅーっと",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 287,
+		flag = 3
+	},
+	{
+		param = "まけたら……なでなで……それで、いい…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 288,
+		flag = 3
+	},
+	{
+		param = "アンカレッジ……せんせいとゲーム……すき！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 289,
+		flag = 3
+	},
+	{
+		param = "プレゼント……アンカレッジのむねのなか……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 290,
+		flag = 0
+	},
+	{
+		param = "いっしょに……そらをみる",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 291,
+		flag = 0
+	},
+	{
+		param = "でも……アンカレッジ……かなしい……",
+		ship_group = 19903,
+		type = 1,
+		id = 292,
+		flag = 0,
+		option = {
+			{
+				1,
+				"どうして悲しいの？"
+			}
+		}
+	},
+	{
+		param = "どうして悲しいの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 293,
+		flag = 1
+	},
+	{
+		param = "プレゼント、気に入らなかったの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 294,
+		flag = 1
+	},
+	{
+		param = "すき",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 295,
+		flag = 1
+	},
+	{
+		param = "だいすき",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 296,
+		flag = 1
+	},
+	{
+		param = "せんせいのプレゼント……いちばんすき",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 297,
+		flag = 1
+	},
+	{
+		param = "でも……アンカレッジ……せんせいにあげたい……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 298,
+		flag = 1
+	},
+	{
+		param = "そらに……きらきらする……ほし",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 299,
+		flag = 1
+	},
+	{
+		param = "いちばんきれい",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 300,
+		flag = 1
+	},
+	{
+		param = "でも……とおすぎて…",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 301,
+		flag = 1
+	},
+	{
+		param = "アンカレッジ……わからない……",
+		ship_group = 19903,
+		type = 1,
+		id = 302,
+		flag = 1,
+		option = {
+			{
+				2,
+				"星をお返しにするなら……"
+			}
+		}
+	},
+	{
+		param = "星をお返しにするなら……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 303,
+		flag = 2
+	},
+	{
+		param = "絵に描いてみたらどう？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 304,
+		flag = 2
+	},
+	{
+		param = "えにかく……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 305,
+		flag = 2
+	},
+	{
+		param = "うん！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 306,
+		flag = 2
+	},
+	{
+		param = "アンカレッジ……ほしをかいて、せんせいにあげる",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 307,
+		flag = 2
+	},
+	{
+		param = "いちばんきれいで……きらきらの…ほし！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 308,
 		flag = 2
 	}
 }

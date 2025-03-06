@@ -29,28 +29,15 @@ slot1.OnTotalChange = function(slot0, slot1)
 	end
 end
 
-slot1.OnOverLoadChange = function(slot0, slot1)
-	if slot0._progressInfo:IsOverLoad() then
-		slot0._block:SetActive(true)
-		slot0:OnUnfill()
-	else
-		slot0._block:SetActive(false)
-		slot0:OnFilled()
+slot1.ConfigSkin = function(slot0, slot1)
+	uv0.super.ConfigSkin(slot0, slot1)
 
-		if slot0._progressInfo:GetTotal() == slot0._progressInfo:GetCount() then
-			quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
-		elseif slot1 and slot1.Data and slot1.Data.preCast then
-			quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_charge")
-		end
-	end
+	slot0._glowEff = slot0._filled:Find("gizmos/animroot")
+end
 
-	if slot1 and slot1.Data and slot1.Data.postCast then
-		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_use")
-	end
-
-	if slot0._progressInfo:GetTotal() > 0 then
-		slot0:updateProgressBar()
-	end
+slot1.OnCountChange = function(slot0)
+	uv0.super.OnCountChange(slot0)
+	SetActive(slot0._glowEff, slot0._progressInfo:GetTotal() == slot0._progressInfo:GetCount())
 end
 
 slot1.SetToCombatUIPreview = function(slot0, slot1)
@@ -67,6 +54,7 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 			SetActive(slot0._fullChargeEff, true)
 		end
 
+		SetActive(slot0._glowEff, true)
 		quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
 	else
 		SetActive(slot0._unfill, true)
@@ -75,6 +63,8 @@ slot1.SetToCombatUIPreview = function(slot0, slot1)
 		slot0._progressBar.fillAmount = 0
 		slot0._bgEff:GetComponent(typeof(CanvasGroup)).alpha = 1
 		slot0._countTxt.text = "0/0"
+
+		SetActive(slot0._glowEff, false)
 
 		if slot0._chargeEff then
 			SetActive(slot0._chargeEff, false)

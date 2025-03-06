@@ -27,15 +27,15 @@ return {
 							options = {
 								{
 									{
-										content = "想好要画什么了？"
+										content = "描きたいものを思いついた？"
 									}
 								},
 								{
 									{
-										content = "没关系，我来收拾"
+										content = "大丈夫、片付けるから"
 									},
 									{
-										content = "安克雷奇不用担心"
+										content = "心配しないで"
 									}
 								}
 							},

@@ -36,12 +36,37 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
 		pic = "temp2",
 		param = {
 			"dorm 3d select"
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					6
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					3,
+					20
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{

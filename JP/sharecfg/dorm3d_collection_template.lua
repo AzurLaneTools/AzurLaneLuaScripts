@@ -63,6 +63,36 @@ pg.dorm3d_collection_template = setmetatable({
 			74,
 			75
 		},
+		{
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128
+		},
 		[4] = {
 			31,
 			32,
@@ -141,7 +171,35 @@ pg.dorm3d_collection_template = setmetatable({
 		78,
 		79,
 		74,
-		75
+		75,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1560,6 +1618,594 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on/vfx_wupintishi01"
+		}
+	},
+	[101] = {
+		name = "風船と額縁",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "選ばれた風船に飾られた銀色の額縁。\nアンカレッジはこの組み合わせをとても気に入っているようだ。\nウサギのリボンには、彼女が整理した時についたシワが残っている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 101,
+		icon = "3Ddrom_ankeleiqi_item1",
+		model = {
+			"fbx/litmap_02/pre_db_billboard14"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_billboard14/vfx_wupintishi01"
+		}
+	},
+	[102] = {
+		name = "御伽ティーセット",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "ウサギの形のティーポットと小さなティーカップ。\nアンカレッジはいつも大事に使っている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 102,
+		icon = "3Ddrom_ankeleiqi_item2",
+		model = {
+			"fbx/litmap_02/pre_db_ceram11_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_ceram11_group01/vfx_wupintishi01"
+		}
+	},
+	[103] = {
+		name = "願いのボード",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "壁に掛けられたチョークボード。\nアンカレッジはよくそこに小さな目標を書き込んでいる。\n時々、可愛らしい落書きの跡も見かける。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 103,
+		icon = "3Ddrom_ankeleiqi_item3",
+		model = {
+			"fbx/litmap_02/pre_db_blackboard01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_blackboard01/vfx_wupintishi01"
+		}
+	},
+	[104] = {
+		name = "知識の宝庫",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "本棚にきちんと並べられたおとぎ話の本。\nすべての本はカバーで丁寧に覆われ、\nアンカレッジ独自に分類したラベルも付けられている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 104,
+		icon = "3Ddrom_ankeleiqi_item4",
+		model = {
+			"fbx/litmap_02/pre_db_book15_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_book15_group01/vfx_wupintishi01"
+		}
+	},
+	[105] = {
+		name = "お城の収納",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "おとぎ話の城をモチーフとした書類用収納。\nアンカレッジはさまざまなノートや大事な書類をそこに保管している。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 105,
+		icon = "3Ddrom_ankeleiqi_item5",
+		model = {
+			"fbx/litmap_02/pre_db_cupboard18"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_cupboard18/vfx_wupintishi01"
+		}
+	},
+	[106] = {
+		name = "古いピアノ",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "部屋の片隅にあるクラシックピアノ。\nアンカレッジが練習中の楽譜が置かれており、\n譜面には彼女がまじめに付けたメモが残っている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 106,
+		icon = "3Ddrom_ankeleiqi_item6",
+		model = {
+			"fbx/litmap_02/pre_db_musicalInstrument02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_musicalInstrument02/vfx_wupintishi01"
+		}
+	},
+	[107] = {
+		name = "クレヨン絵",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "机の上に置かれたクレヨン絵。\nアンカレッジの目に映った最も美しい景色が描かれ、\nこの絵の中の人物は⋯指揮官⋯？",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 107,
+		icon = "3Ddrom_ankeleiqi_item7",
+		model = {
+			"fbx/litmap_02/pre_db_paper02_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_paper02_group01/vfx_wupintishi01"
+		}
+	},
+	[108] = {
+		name = "目覚まし時計",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "シンプルなデザインの目覚まし時計。\nアンカレッジはそれをベッドサイドに置き、\n毎日の大切な時間を逃さないよう気をつけている。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 108,
+		icon = "3Ddrom_ankeleiqi_item8",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02/vfx_wupintishi01"
+		}
+	},
+	[109] = {
+		name = "おもちゃ箱",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "可愛らしいデザインの収納ボックス。\nアンカレッジは様々な小物をその中に収めている。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 109,
+		icon = "3Ddrom_ankeleiqi_item9",
+		model = {
+			"fbx/litmap_02/pre_db_basket04_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_basket04_group01/vfx_wupintishi01"
+		}
+	},
+	[110] = {
+		name = "夏の浮き輪",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "星のシンボルが飾られている浮き輪。\nアンカレッジが選んだ夏の必需品。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 110,
+		icon = "3Ddrom_ankeleiqi_item10",
+		model = {
+			"fbx/litmap_02/pre_db_toy07"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_toy07/vfx_wupintishi01"
+		}
+	},
+	[111] = {
+		name = "初心者の包丁",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "手を切らない特殊な初心者向け包丁。\n最近アンカレッジは野菜を切る動作を真剣に練習していて、\n将来美味しい料理が作れるようになることを夢見ているようだ。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 111,
+		icon = "3Ddrom_ankeleiqi_item11",
+		model = {
+			"fbx/litmap_02/pre_db_kitchenware08_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_kitchenware08_group01/vfx_wupintishi01"
+		}
+	},
+	[112] = {
+		name = "御伽の絵本",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "ハードカバーのおとぎ話の絵本。\nアンカレッジが大切に保管している。\nページに彼女が愛読した形跡が見られる。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 112,
+		icon = "3Ddrom_ankeleiqi_item12",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a/vfx_wupintishi01"
+		}
+	},
+	[113] = {
+		name = "モフモフぬい",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "ナイトキャップをかぶっているペンギンのぬいぐるみ。\nアンカレッジはソファの最も目立つ場所に置き、\n小さなペンギンが見守ってくれる中で、良い夢を見られるように願っているようだ。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 113,
+		icon = "3Ddrom_ankeleiqi_item13",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06/vfx_wupintishi01"
+		}
+	},
+	[114] = {
+		name = "サボテン",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "可愛らしいサボテン。\n植木鉢には鮮やかな色のものが選ばれ、\n小さくも元気な命に温もりを添えている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 114,
+		icon = "3Ddrom_ankeleiqi_item14",
+		model = {
+			"fbx/litmap_02/pre_db_flowerpot10"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_flowerpot10/vfx_wupintishi01"
+		}
+	},
+	[115] = {
+		name = "キッチンセット",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "おままごと用の調理器具セット。\nアンカレッジはそれを専用の棚に整然と並べている。\nうーん⋯料理は彼女にはまだ少し早いようだ⋯",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 115,
+		icon = "3Ddrom_ankeleiqi_item15",
+		model = {
+			"fbx/litmap_02/pre_db_kitchenware01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_kitchenware01/vfx_wupintishi01"
+		}
+	},
+	[116] = {
+		name = "シャチチェア",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "シャチをモチーフとしたロッキングチェア。\nアンカレッジのお気に入りの場所の一つ。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 116,
+		icon = "3Ddrom_ankeleiqi_item16",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16/vfx_wupintishi01"
+		}
+	},
+	[117] = {
+		name = "物入れ",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "籐で編まれた収納かご。\nアンカレッジは日用品をそこに収納している。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 117,
+		icon = "3Ddrom_ankeleiqi_item17",
+		model = {
+			"fbx/litmap_02/pre_db_basket05"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_basket05/vfx_wupintishi01"
+		}
+	},
+	[118] = {
+		name = "クジラぬいぐるみ",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "青いクジラのぬいぐるみ。まんまるな目とフレンドリーな笑顔がチャームポイント。\nこういうぬいぐるみを集めるのが好きなようだ。今度また何個か贈ってあげよう！",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 118,
+		icon = "3Ddrom_ankeleiqi_item18",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10/vfx_wupintishi01"
+		}
+	},
+	[119] = {
+		name = "小さな黒板",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "黒板に子供らしい文字が書かれている。\n1+1=♡\nこれはどういう意味なんだろう⋯？",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 119,
+		icon = "3Ddrom_ankeleiqi_item19",
+		model = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02/vfx_wupintishi01"
+		}
+	},
+	[120] = {
+		name = "サイコロクッション",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "サイコロの形をした淡い色のクッション。\nかわいいエイのシンボルがあり、\n柔らかなカラーリングとも違った安らぎをもたらしている。",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 120,
+		icon = "3Ddrom_ankeleiqi_item20",
+		model = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12/vfx_wupintishi01"
+		}
+	},
+	[121] = {
+		name = "思い出の写真",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "ロープネットと木製のクリップで、大切な写真が飾られている。\nそれぞれの格子にはアンカレッジとの愛おしい思い出が詰まっている。",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 121,
+		icon = "3Ddrom_ankeleiqi_item21",
+		model = {
+			"fbx/litmap_02/pre_db_decoration12"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_decoration12/vfx_wupintishi01"
+		}
+	},
+	[122] = {
+		name = "傘入れ",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "簡素な造形の傘入れ。\nアンカレッジはきっちりと傘を中に入れ、\n雨に備えている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 122,
+		icon = "3Ddrom_ankeleiqi_item22",
+		model = {
+			"fbx/litmap_02/day/pre_db_decoration11"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_decoration11/vfx_wupintishi01"
+		}
+	},
+	[123] = {
+		name = "魔法瓶",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "明るい色の魔法瓶。\nアンカレッジは、寒い日に温かい飲み物を入れて使っている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 123,
+		icon = "3Ddrom_ankeleiqi_item23",
+		model = {
+			"fbx/litmap_02/day/pre_db_tableware26"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_tableware26/vfx_wupintishi01"
+		}
+	},
+	[124] = {
+		name = "ステッカー",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "可愛い饅頭と星のステッカー。\nあまり目立たない場所に貼られていて、\n部屋にちょっとした活気を添えている。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 124,
+		icon = "3Ddrom_ankeleiqi_item24",
+		model = {
+			"fbx/litmap_02/day/pre_db_cupboard19_01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_cupboard19_01/vfx_wupintishi01"
+		}
+	},
+	[125] = {
+		name = "ベッドライト",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "精緻な作りのベッドライト。\nアンカレッジは寝る前にいつも柔らかい明るさに調節し、\nその温かな光が心地よい夢を届けてくれる。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 125,
+		icon = "3Ddrom_ankeleiqi_item25",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03/vfx_wupintishi01"
+		}
+	},
+	[126] = {
+		name = "クジラライト",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "ザトウクジラの形をした天井照明。\nアンカレッジはベッドに横たわる時によくそれを見つめ、\n夢の海底世界にいるかのような雰囲気がある。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 126,
+		icon = "3Ddrom_ankeleiqi_item26",
+		model = {
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night/vfx_wupintishi01"
+		}
+	},
+	[127] = {
+		name = "饅頭マグカップ",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "饅頭をモチーフとしたマグカップ。\nアンカレッジにとって最も目立つ場所に置かれており、\n彼女の愛着をはっきりと感じられる。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 127,
+		icon = "3Ddrom_ankeleiqi_item27",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24/vfx_wupintishi01"
+		}
+	},
+	[128] = {
+		name = "バスタオル",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "きれいに畳まれたバスタオル。\nタオルをぐるぐると巻きつけたアンカレッジの姿は、\nふわふわとした雲を思わせる。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 128,
+		icon = "3Ddrom_ankeleiqi_item28",
+		model = {
+			"fbx/litmap_02/night/pre_db_towel01_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/night/pre_db_towel01_group01/vfx_wupintishi01"
 		}
 	}
 }

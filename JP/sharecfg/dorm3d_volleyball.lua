@@ -214,8 +214,116 @@ pg.dorm3d_volleyball = {
 			}
 		}
 	},
+	[19903] = {
+		scene_name = "AB_volleyball",
+		endScore = 6,
+		id = 19903,
+		jinchang = {
+			{
+				"pre_ab_PQ_jinchang",
+				1
+			}
+		},
+		faqiu = {
+			{
+				"pre_ab_PQ_faqiu",
+				1
+			}
+		},
+		fly = {
+			{
+				"pre_ab_PQ_volleyball_fly",
+				1
+			}
+		},
+		max_fly = {
+			{
+				"pre_ab_PQ_volleyball_MAX_fly",
+				1
+			}
+		},
+		shiqiu = {
+			{
+				"pre_ab_PQ_volleyball_miss",
+				1
+			}
+		},
+		jieqiu = {
+			{
+				"pre_ab_PQ_jieqiu",
+				1
+			},
+			{
+				"pre_ab_PQ_kouqiu",
+				1
+			}
+		},
+		shouji = {
+			{
+				"pre_ab_PQ_shouji_xia",
+				1
+			},
+			{
+				"pre_ab_PQ_shouji_shang",
+				1
+			}
+		},
+		shengli = {
+			{
+				"pre_ab_PQ_shengli",
+				1
+			}
+		},
+		shibai = {
+			{
+				"pre_ab_PQ_shibai",
+				1
+			}
+		},
+		daiji = {
+			{
+				"pre_ab_PQ_daiji_jiesuan",
+				1
+			}
+		},
+		jiangli = {
+			{
+				"pre_ab_PQ_wancheng_jiangli",
+				1
+			}
+		},
+		BallSpeedParam = {
+			0.13,
+			0.016
+		},
+		BallQtePlane = {
+			{
+				0.56,
+				6.2,
+				11.8
+			},
+			{
+				0,
+				0,
+				30
+			}
+		},
+		BallMissPlane = {
+			{
+				0.22,
+				5.45,
+				11.8
+			},
+			{
+				0,
+				0,
+				30
+			}
+		}
+	},
 	all = {
 		20220,
-		30221
+		30221,
+		19903
 	}
 }

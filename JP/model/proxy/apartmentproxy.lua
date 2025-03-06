@@ -312,4 +312,8 @@ slot0.PendingRandom = function(slot0, slot1)
 	return slot3
 end
 
+slot0.CheckDeviceRAMEnough = function()
+	return SystemInfo.systemMemorySize == 0 or getDorm3dGameset("drom3d_memory_limit")[1] < slot0
+end
+
 return slot0

@@ -684,6 +684,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>重桜傘から眺める、誰かの愛しい情緒</color>\n「交流宿舎」能代の親密度Lv報酬",
 		scene = {}
 	},
+	[1005] = {
+		name = "天使の輝き",
+		gain_by = "",
+		time_second = 0,
+		id = 1005,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>天使のオーラを輝かせるのは、純真の光を放つ星星の輝き</color>\n「交流宿舎」でアンカレッジの親密度Lv報酬",
+		scene = {}
+	},
+	[1006] = {
+		name = "青い海の出会い",
+		gain_by = "",
+		time_second = 0,
+		id = 1006,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>跳ねる波を追いかけて、嬉しい楽しい出会いのはじまりはじまり</color>\n「交流宿舎」でアンカレッジの親密度Lv報酬",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界挑戦・ふたご座",
 		gain_by = "",
@@ -869,6 +887,8 @@ pg.item_data_frame = {
 		1002,
 		1003,
 		1004,
+		1005,
+		1006,
 		10001,
 		10002,
 		10003,

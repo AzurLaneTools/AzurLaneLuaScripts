@@ -7,11 +7,16 @@ return {
 	hideRecord = true,
 	mode = 2,
 	id = "DORM3DDAILYCONVERSATION3033",
+	placeholder = {
+		"dorm3d"
+	},
 	scripts = {
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
+			nameColor = "#FFFFFF",
 			hidePaintObj = true,
+			dir = 1,
 			say = "せんせーの、うれしい！うれしくない！",
 			typewriter = {
 				speed = 0.05,
@@ -19,9 +24,11 @@ return {
 			}
 		},
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#FFFFFF",
 			say = "……たべる、どこ？……せんせーの、きもち！",
 			typewriter = {
 				speed = 0.05,
@@ -32,9 +39,11 @@ return {
 				data = {
 					op_list = {
 						{
-							skip = true,
-							name = "ab_shuohua_lianxudiantou_01",
-							type = "action"
+							param = "Play",
+							name = "ab_shuohua_jujue_01",
+							time = 0,
+							type = "action",
+							skip = true
 						},
 						{
 							skip = true,
@@ -42,6 +51,7 @@ return {
 							type = "action"
 						},
 						{
+							skip = false,
 							time = 1.5,
 							type = "wait"
 						}
@@ -54,9 +64,11 @@ return {
 			}
 		},
 		{
+			actorName = 19903,
 			side = 2,
-			actorName = "19903",
+			nameColor = "#FFFFFF",
 			hidePaintObj = true,
+			dir = 1,
 			say = "アンカレッジ、もっとしりたい！……もっと、せんせーのこと、しりたい…！",
 			typewriter = {
 				speed = 0.05,

@@ -13,7 +13,7 @@ pg.dorm3d_scene_animator = {
 	[2003] = {
 		id = 2003,
 		room_id = 3,
-		item_name = "FurnitureSlots/130202/pre_db_entertainmentarea01(Clone)/pre_db_ah_toy04/pre_db_aklq_toy01"
+		item_name = "FurnitureSlots/130202/pre_db_ah_entertainmentarea01(Clone)/pre_db_ah_toy04/pre_db_aklq_toy01"
 	},
 	[2004] = {
 		id = 2004,

@@ -436,6 +436,19 @@ slot0.EQUIPMENT_ACTIVE_LIMITED_BY_TYPE = {
 		20
 	}
 }
+slot0.TRIGGER_PRIORITY = {
+	[ys.Battle.BattleConst.BuffEffectType.ON_TAKE_DAMAGE] = {
+		BattleBuffShield = 20,
+		BattleBuffCount = 30,
+		BattleBuffHPLink = 15,
+		BattleBuffLockHealth = 10,
+		BattleBuffOverHealingShield = 20,
+		BattleBuffCastSkillDamageCount = 25,
+		BattleBuffRecordShield = 20,
+		BattleBuffBarrier = 20
+	}
+}
+slot0.TRIGGER_PRIORITY_LOWEST = 99
 slot0.SWEET_DEATH_NATIONALITY = {
 	107
 }

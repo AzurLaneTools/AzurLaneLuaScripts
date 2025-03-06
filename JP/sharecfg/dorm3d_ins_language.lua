@@ -40,6 +40,26 @@ pg.dorm3d_ins_language = {
 		key = "nengdai_1_2",
 		is_active = "0"
 	},
+	ankeleiqi_1_1 = {
+		value = "おとぎ話ならかわいいお姫様もいないとな",
+		key = "ankeleiqi_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_1_2 = {
+		value = "アンカレッジだけのおとぎ話だ",
+		key = "ankeleiqi_1_2",
+		is_active = "0"
+	},
+	ankeleiqi_2_1 = {
+		value = "どんな夢を見たの？",
+		key = "ankeleiqi_2_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_2 = {
+		value = "どうして雲さんの上で描くの？",
+		key = "ankeleiqi_2_2",
+		is_active = "0"
+	},
 	tianlangxing_1_1_1 = {
 		value = "シリアスを満足させたいとおっしゃるのですか？！では、シリアスが学んだすべてを誇らしきご主人様へのご奉仕に活用させていただければ…！",
 		key = "tianlangxing_1_1_1",
@@ -60,6 +80,26 @@ pg.dorm3d_ins_language = {
 		key = "nengdai_1_2_1",
 		is_active = "0"
 	},
+	ankeleiqi_1_1_1 = {
+		value = "アンカレッジが……おひめさま……？",
+		key = "ankeleiqi_1_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_1_2_1 = {
+		value = "せんせいも……いっしょにおとぎばなしのせかいに……きてほしい…！",
+		key = "ankeleiqi_1_2_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_1_1 = {
+		value = "せんせいとアンカレッジ……てをつないで……あめをたべて……ふわふわ……",
+		key = "ankeleiqi_2_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_2_1 = {
+		value = "きれい……くもさんのうえで……せんせいといっしょ……しあわせ……",
+		key = "ankeleiqi_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -69,9 +109,17 @@ pg.dorm3d_ins_language = {
 		"tianlangxing_1_2",
 		"nengdai_1_1",
 		"nengdai_1_2",
+		"ankeleiqi_1_1",
+		"ankeleiqi_1_2",
+		"ankeleiqi_2_1",
+		"ankeleiqi_2_2",
 		"tianlangxing_1_1_1",
 		"tianlangxing_1_2_1",
 		"nengdai_1_1_1",
-		"nengdai_1_2_1"
+		"nengdai_1_2_1",
+		"ankeleiqi_1_1_1",
+		"ankeleiqi_1_2_1",
+		"ankeleiqi_2_1_1",
+		"ankeleiqi_2_2_1"
 	}
 }

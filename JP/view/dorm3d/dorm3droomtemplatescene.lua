@@ -199,6 +199,12 @@ slot0.init = function(slot0)
 		slot0:ChangeCharacterPosition(slot5)
 	end
 
+	if not slot0.apartment and (underscore.detect(slot0.contextData.groupIds, function (slot0)
+		return uv0.contextData.ladyZone[slot0] == uv0.contextData.inFurnitureName
+	end) or slot0.contextData.groupIds[1]) then
+		slot0:SyncInterestTransform(slot0.ladyDict[slot1])
+	end
+
 	slot0.retainCount = 0
 	slot0.sceneBlockLayer = slot0._tf:Find("SceneBlock")
 
@@ -1305,7 +1311,7 @@ slot0.InitData = function(slot0)
 			slot1 = slot1 or slot0.contextData.ladyZone[slot7]
 		end
 
-		slot0.contextData.inFurnitureName = slot1 or slot0.room:getConfig("default_zone")[1][2]
+		slot0.contextData.inFurnitureName = slot1 or slot2[1][2]
 	end
 
 	slot2 = slot0.room

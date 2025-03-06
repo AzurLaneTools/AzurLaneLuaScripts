@@ -69,13 +69,20 @@ return {
 		{
 			expression = 6,
 			side = 2,
-			factiontag = "サディア教国",
 			dir = 1,
-			bgName = "star_level_bg_598",
+			factiontag = "サディア教国",
 			actor = 699010,
+			bgName = "star_level_bg_598",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "改めて！作戦段階「殲滅」、「クエンチング」を始めるわ！",
+			effects = {
+				{
+					center = true,
+					name = "miwu_dark",
+					active = false
+				}
+			},
 			flashout = {
 				dur = 1,
 				black = true,
