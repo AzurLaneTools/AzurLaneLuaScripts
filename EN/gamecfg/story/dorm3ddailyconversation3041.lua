@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "温泉，舒服，{dorm3d}，去温泉！",
+			say = "Hot springs feel good! {dorm3d}, let's go to one!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不用担心，时间……温泉什么时候，都可以！",
+			say = "Don't worry about the season... They're good any time!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "热腾腾，放松……还可以露天温泉，看星星！",
+			say = "Warm and fun... And outside, you can see the stars!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，教安克雷奇，看星星……夏季，大三角！北极星！",
+			say = "{dorm3d} taught Anchorage about the stars... The Summer... Triangle! Polaris!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和安克雷齐，贴贴！嘿嘿~",
+			say = "All with Anchorage! Hehe!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
