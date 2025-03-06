@@ -84,16 +84,12 @@ slot0.preload = function(slot0, slot1)
 
 	seriesAsync({
 		function (slot0)
-			slot1 = pg.UIMgr.GetInstance()
-
-			slot1:LoadingOn(false)
-
 			slot1 = SceneOpMgr.Inst
 
 			slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0.sceneRootName .. "/" .. uv0.sceneName .. "_scene"), uv0.sceneName, LoadSceneMode.Additive, function (slot0, slot1)
 				uv0:InitGameParam()
 				SceneManager.SetActiveScene(slot0)
-				onNextTick(uv1)
+				uv1()
 			end)
 		end,
 		function (slot0)
@@ -103,13 +99,8 @@ slot0.preload = function(slot0, slot1)
 			slot3:LoadSceneAsync(string.lower("dorm3d/character/" .. uv0.timelineSceneRootName .. "/timeline/" .. slot2 .. "/" .. slot2 .. "_scene"), slot2, LoadSceneMode.Additive, function (slot0, slot1)
 				uv0()
 			end)
-		end,
-		function (slot0)
-			pg.UIMgr.GetInstance():LoadingOff()
-			slot0()
-		end,
-		slot1
-	})
+		end
+	}, slot1)
 end
 
 slot0.InitGameParam = function(slot0)
@@ -140,6 +131,17 @@ slot0.initUI = function(slot0)
 
 	setActive(slot0.qteTF, false)
 	setActive(slot0.gameUI, false)
+	slot0.gameUI:Find("Count"):GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+		if not uv0.isStartGame then
+			return
+		end
+
+		uv0.isStartGame = false
+
+		setActive(uv0.gameUI:Find("Count"), false)
+		uv0:StartOneRound()
+		setActive(uv0.gameUI:Find("Score"), true)
+	end)
 
 	slot0.scoreUI = slot0._tf:Find("ScoreUI")
 
@@ -154,6 +156,25 @@ slot0.initUI = function(slot0)
 	setActive(slot0.resultUI, false)
 	setText(slot0.resultUI:Find("AgainBtn/Text"), i18n("dorm3d_minigame_again"))
 	setText(slot0.resultUI:Find("CloseBtn/Text"), i18n("dorm3d_minigame_close"))
+	slot0.scoreUI:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+		if not uv0.isEndOneRound then
+			return
+		end
+
+		uv0.isEndOneRound = false
+
+		quickPlayAnimation(uv0.scoreUI, "Anim_Dorm3d_volleyball_score_out")
+		onDelayTick(function ()
+			setActive(uv0.scoreUI, false)
+		end, 0.1)
+
+		if uv0:CheckEndGame() then
+			uv0:EndGame()
+		else
+			setActive(uv0.gameUI, true)
+			uv0:StartOneRound()
+		end
+	end)
 
 	slot1 = slot0._tf:Find("Debug")
 
@@ -253,10 +274,15 @@ slot0.initScene = function(slot0)
 			return
 		end
 
-		slot2:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)).playOnAwake = false
+		slot3 = slot2:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
+		slot3.playOnAwake = false
 
-		for slot8 = 0, slot2:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector)).Length - 1 do
+		slot3:Stop()
+
+		for slot8 = 0, slot2:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector), true).Length - 1 do
 			slot4[slot8].playOnAwake = false
+
+			slot4[slot8]:Stop()
 		end
 
 		table.insert(uv0.totalDirectorList, {
@@ -294,26 +320,25 @@ slot0.InitData = function(slot0)
 end
 
 slot0.PlayTimeline = function(slot0, slot1, slot2)
-	slot0:StopPlayingTimeline()
-
-	slot3 = {}
-	slot5 = slot1.track
-	slot6 = _.detect(slot0.totalDirectorList, function (slot0)
+	slot4 = slot1.track
+	slot5 = _.detect(slot0.totalDirectorList, function (slot0)
 		return slot0.name == uv0
 	end)
 
-	assert(slot6, "Missing director " .. slot1.name)
+	assert(slot5, "Missing director " .. slot1.name)
+	slot0:StopPlayingTimeline(tobool(slot5))
 
-	if not slot6 then
+	if not slot5 then
 		existCall(slot2)
 
 		return
 	end
 
-	slot0.playingDirector = slot6.director
+	slot6 = {}
+	slot0.playingDirector = slot5.director
 	slot0.debugTimelineName.text = slot0.playingDirector.transform.parent.name
 
-	table.insert(slot3, function (slot0)
+	table.insert(slot6, function (slot0)
 		if uv0.time then
 			uv1.playingDirector.time = math.clamp(uv0.time, 0, uv1.playingDirector.duration)
 		end
@@ -360,7 +385,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		uv1.activeDirectorInfo = uv3
 	end)
-	seriesAsync(slot3, function ()
+	seriesAsync(slot6, function ()
 		setActive(uv0.mainCamera, true)
 
 		uv0.playingDirector = nil
@@ -370,15 +395,18 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 	end)
 end
 
-slot0.StopPlayingTimeline = function(slot0)
+slot0.StopPlayingTimeline = function(slot0, slot1)
 	if slot0.playingDirector then
 		slot0.playingDirector:Stop()
 		setActive(tf(slot0.playingDirector).parent, false)
 
 		slot0.debugTimelineName.text = ""
 		slot0.debugTrackName.text = ""
+		slot0.playingDirector = nil
 
-		setActive(slot0.mainCamera, true)
+		if not slot1 then
+			setActive(slot0.mainCamera, true)
+		end
 	end
 end
 
@@ -392,16 +420,10 @@ slot0.StartGame = function(slot0)
 
 	setActive(slot0.gameUI, true)
 	setActive(slot0.gameUI:Find("Score"), false)
+	setActive(slot0.gameUI:Find("Count"), true)
 
-	slot1 = slot0.gameUI:Find("Count")
+	slot0.isStartGame = true
 
-	setActive(slot1, true)
-	slot1:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
-		setActive(uv0, false)
-		uv1:StartOneRound()
-		setActive(uv1.gameUI:Find("Score"), true)
-		uv2:SetEndEvent(nil)
-	end)
 	pg.CriMgr.GetInstance():PlaySE_V3(uv0)
 end
 
@@ -481,37 +503,21 @@ slot0.EndOneRound = function(slot0)
 
 	slot1:PlaySE_V3(uv0)
 
-	slot1 = slot0.scoreUI
-	slot1 = slot1:GetComponent(typeof(DftAniEvent))
+	slot0.isEndOneRound = true
 
-	slot1:SetEndEvent(function ()
-		quickPlayAnimation(uv0.scoreUI, "Anim_Dorm3d_volleyball_score_out")
-		onDelayTick(function ()
-			setActive(uv0.scoreUI, false)
-		end, 0.1)
-
-		if uv0:CheckEndGame() then
-			uv0:EndGame()
-		else
-			setActive(uv0.gameUI, true)
-			uv0:StartOneRound()
-		end
-
-		uv1:SetEndEvent(nil)
-	end)
 	setActive(slot0.gameUI, false)
 
-	slot4 = slot0.scoreUI
-
-	slot0:UpdateScoreTpl(slot4:Find("ScoreTpl"))
-
 	slot3 = slot0.scoreUI
 
-	setText(slot3:Find("ScoreTpl/Left/Units/new/newText"), slot0.ourScore % 10)
+	slot0:UpdateScoreTpl(slot3:Find("ScoreTpl"))
 
-	slot3 = slot0.scoreUI
+	slot2 = slot0.scoreUI
 
-	setText(slot3:Find("ScoreTpl/Right/Units/new/newText"), slot0.otherScore % 10)
+	setText(slot2:Find("ScoreTpl/Left/Units/new/newText"), slot0.ourScore % 10)
+
+	slot2 = slot0.scoreUI
+
+	setText(slot2:Find("ScoreTpl/Right/Units/new/newText"), slot0.otherScore % 10)
 	switch(slot0.roundResult, {
 		[uv1.ROUND_RESULT.OUR_WIN] = function ()
 			uv0.ourScore = uv0.ourScore + 1
@@ -598,7 +604,6 @@ slot0.ShowResultUI = function(slot0, slot1)
 			end
 		end
 	}, function ()
-		gcAll(true)
 		setActive(uv0.resultUI, true)
 
 		slot0 = uv0.gameResult == uv1.GAME_RESULT.VICTORY and "Victory" or "Defeat"
@@ -611,6 +616,8 @@ slot0.ShowResultUI = function(slot0, slot1)
 		else
 			setActive(uv0.resultUI:Find("Panel/Award"), false)
 		end
+
+		gcAll()
 	end)
 end
 

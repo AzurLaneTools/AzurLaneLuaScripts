@@ -13,8 +13,9 @@ slot0.assetPath = {
 slot0.settings = {
 	{
 		CsharpValue = "enableGPUDriver",
-		playerPrefsname = "allowGpGpu",
 		cfgId = 1,
+		specialIos = true,
+		playerPrefsname = "allowGpGpu",
 		tips = i18n("grapihcs3d_setting_gpgpu_warning")
 	},
 	{
@@ -185,48 +186,67 @@ slot0.settings = {
 }
 
 slot0.HandleCustomSetting = function()
-	slot0 = PlayerPrefs.GetInt("dorm3d_graphics_settings", 2)
-	slot2 = LoadAny("three3dquaitysettings/defaultsettings", uv0.assetPath[slot0])
+	slot2 = LoadAny("three3dquaitysettings/defaultsettings", uv0.assetPath[PlayerPrefs.GetInt("dorm3d_graphics_settings", 2)])
+
+	if PLATFORM == PLATFORM_IPHONEPLAYER and slot0 == 3 then
+		return uv0.HandleIosSettings(slot2)
+	end
 
 	if slot0 ~= 4 then
 		return slot2
 	end
 
-	for slot6, slot7 in ipairs(uv0.settings) do
-		slot8 = pg.dorm3d_graphic_setting[slot7.cfgId]
+	for slot7, slot8 in ipairs(uv0.settings) do
+		slot9 = pg.dorm3d_graphic_setting[slot8.cfgId]
 
-		if PlayerPrefs.GetInt(slot7.playerPrefsname, 0) ~= 0 then
-			if slot8.displayType == uv1.toggle then
-				slot9 = slot9 == 2 and true or false
+		if PlayerPrefs.GetInt(slot8.playerPrefsname, 0) ~= 0 then
+			if slot9.displayType == uv1.toggle then
+				slot10 = slot10 == 2 and true or false
 			end
 		else
-			slot9 = ReflectionHelp.RefGetField(slot2:GetType(), slot7.CsharpValue, slot2)
+			slot10 = ReflectionHelp.RefGetField(slot2:GetType(), slot8.CsharpValue, slot2)
 		end
 
-		if slot8.displayType == uv1.select then
-			if slot7.childList ~= nil and slot9 == 1 then
+		if slot9.displayType == uv1.select then
+			if slot8.childList ~= nil and slot10 == 1 then
 				print(123)
 			else
-				if slot7.special then
-					slot9 = 1
+				if slot8.special then
+					slot10 = 1
 				end
 
-				for slot13, slot14 in pairs(slot7.Enum) do
-					if slot14 == slot9 then
-						slot9 = slot13
+				for slot14, slot15 in pairs(slot8.Enum) do
+					if slot15 == slot10 then
+						slot10 = slot14
 
 						break
 					end
 				end
 
-				ReflectionHelp.RefSetField(slot2:GetType(), slot7.CsharpValue, slot2, ReflectionHelp.RefGetField(typeof("BLHX.Rendering." .. slot7.EnumType), tostring(slot9), nil))
+				ReflectionHelp.RefSetField(slot2:GetType(), slot8.CsharpValue, slot2, ReflectionHelp.RefGetField(typeof("BLHX.Rendering." .. slot8.EnumType), tostring(slot10), nil))
 			end
 		else
-			ReflectionHelp.RefSetField(slot2:GetType(), slot7.CsharpValue, slot2, slot9)
+			if slot8.specialIos and slot3 then
+				slot10 = false
+			end
+
+			ReflectionHelp.RefSetField(slot2:GetType(), slot8.CsharpValue, slot2, slot10)
 		end
 	end
 
 	return slot2
+end
+
+slot0.HandleIosSettings = function(slot0)
+	for slot4, slot5 in ipairs(uv0.settings) do
+		slot6 = ReflectionHelp.RefGetField(slot0:GetType(), slot5.CsharpValue, slot0)
+
+		if slot5.specialIos then
+			ReflectionHelp.RefSetField(slot0:GetType(), slot5.CsharpValue, slot0, false)
+		end
+	end
+
+	return slot0
 end
 
 return slot0

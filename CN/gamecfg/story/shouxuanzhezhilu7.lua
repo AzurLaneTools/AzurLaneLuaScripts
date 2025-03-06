@@ -299,9 +299,9 @@ return {
 		},
 		{
 			side = 2,
-			blackBg = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
+			blackBg = true,
 			say = "新任圣座冕下闭上双眼，略作沉思，再次睁开。",
 			typewriter = {
 				speed = 0.05,
@@ -322,12 +322,6 @@ return {
 				alpha = {
 					1,
 					0
-				}
-			},
-			effects = {
-				{
-					active = true,
-					name = "heimutexiao1"
 				}
 			}
 		},

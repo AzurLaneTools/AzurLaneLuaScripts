@@ -290,7 +290,7 @@ return {
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "在我带领狼西西里王国军队发起正面进攻，将撒丁教国军队集中到南线之后，你们就从北线和东线乘虚而入。",
+			say = "在我带领两西西里王国军队发起正面进攻，将撒丁教国军队集中到南线之后，你们就从北线和东线乘虚而入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

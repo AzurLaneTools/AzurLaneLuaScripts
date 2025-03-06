@@ -16,8 +16,17 @@ pg.dorm3d_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[19903] = {
+		ship_group = 19903,
+		name = "Anchorage",
+		background = "",
+		sculpture = "ankeleiqi_3",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		20220,
-		30221
+		30221,
+		19903
 	}
 }

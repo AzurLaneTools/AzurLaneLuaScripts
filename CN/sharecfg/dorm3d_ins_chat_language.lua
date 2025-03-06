@@ -155,7 +155,161 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		151,
 		152,
 		153,
-		154
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176,
+		177,
+		178,
+		179,
+		180,
+		181,
+		182,
+		183,
+		184,
+		185,
+		186,
+		187,
+		188,
+		189,
+		190,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226,
+		227,
+		228,
+		229,
+		230,
+		231,
+		232,
+		233,
+		234,
+		235,
+		236,
+		237,
+		238,
+		239,
+		240,
+		241,
+		242,
+		243,
+		244,
+		245,
+		246,
+		247,
+		248,
+		249,
+		250,
+		251,
+		252,
+		253,
+		254,
+		255,
+		256,
+		257,
+		258,
+		259,
+		260,
+		261,
+		262,
+		263,
+		264,
+		265,
+		266,
+		267,
+		268,
+		269,
+		270,
+		271,
+		272,
+		273,
+		274,
+		275,
+		276,
+		277,
+		278,
+		279,
+		280,
+		281,
+		282,
+		283,
+		284,
+		285,
+		286,
+		287,
+		288,
+		289,
+		290,
+		291,
+		292,
+		293,
+		294,
+		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		308
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1500,6 +1654,1343 @@ pg.base.dorm3d_ins_chat_language = {
 		option = "",
 		type = 1,
 		id = 154,
+		flag = 2
+	},
+	{
+		param = "老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 155,
+		flag = 0
+	},
+	{
+		param = "安克雷奇……软软的……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 156,
+		flag = 0
+	},
+	{
+		param = "被子……床……都软软的",
+		ship_group = 19903,
+		type = 1,
+		id = 157,
+		flag = 0,
+		option = {
+			{
+				1,
+				"是累了吗？"
+			}
+		}
+	},
+	{
+		param = "安克雷奇是累了，准备睡觉了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 158,
+		flag = 1
+	},
+	{
+		param = "睡觉……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 159,
+		flag = 1
+	},
+	{
+		param = "宿舍很舒服……想睡觉……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 160,
+		flag = 1
+	},
+	{
+		param = "也……很想老师……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 161,
+		flag = 1
+	},
+	{
+		param = "一起……在软软的里……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 162,
+		flag = 1
+	},
+	{
+		param = "睡觉",
+		ship_group = 19903,
+		type = 1,
+		id = 163,
+		flag = 1,
+		option = {
+			{
+				2,
+				"困了的话，就先乖乖闭上眼睛"
+			}
+		}
+	},
+	{
+		param = "困了的话，就先乖乖闭上眼睛",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 164,
+		flag = 2
+	},
+	{
+		param = "安克雷奇……听老师的话……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 165,
+		flag = 2
+	},
+	{
+		param = "可是……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 166,
+		flag = 2
+	},
+	{
+		param = "故事里……两个人……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 167,
+		flag = 2
+	},
+	{
+		param = "是……牵手、拥抱才能……睡觉",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 168,
+		flag = 2
+	},
+	{
+		param = "老师……安克雷奇……想要老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 169,
+		flag = 2
+	},
+	{
+		param = "牵手 拥抱 才能睡觉",
+		ship_group = 19903,
+		type = 1,
+		id = 170,
+		flag = 2,
+		option = {
+			{
+				3,
+				"等我回来"
+			}
+		}
+	},
+	{
+		param = "等我回来，但要闭上眼睛等哦",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 171,
+		flag = 3
+	},
+	{
+		param = "好！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 172,
+		flag = 3
+	},
+	{
+		param = "老师……宿舍……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 173,
+		flag = 0
+	},
+	{
+		param = "来",
+		ship_group = 19903,
+		type = 1,
+		id = 174,
+		flag = 0,
+		option = {
+			{
+				1,
+				"好，等下就到"
+			}
+		}
+	},
+	{
+		param = "好，等下就到",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 175,
+		flag = 1
+	},
+	{
+		param = "你缺什么吗？我来的时候可以带给你",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 176,
+		flag = 1
+	},
+	{
+		param = "缺什么……不知道……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 177,
+		flag = 1
+	},
+	{
+		param = "嗯，老师知道……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 178,
+		flag = 1
+	},
+	{
+		param = "老师看到，就知道安克雷奇缺什么……",
+		ship_group = 19903,
+		type = 1,
+		id = 179,
+		flag = 1,
+		option = {
+			{
+				2,
+				"那就等我到了之后……"
+			}
+		}
+	},
+	{
+		param = "那就等我到了之后再看缺什么吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 180,
+		flag = 2
+	},
+	{
+		param = "现在如果累了的话，可以先休息一会儿",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 181,
+		flag = 2
+	},
+	{
+		param = "好……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 182,
+		flag = 2
+	},
+	{
+		param = "安克雷奇不累……等老师……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 183,
+		flag = 2
+	},
+	{
+		param = "想要老师……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 184,
+		flag = 2
+	},
+	{
+		param = "老师在身边……摸摸……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 185,
+		flag = 2
+	},
+	{
+		param = "就会开心……很开心……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 186,
+		flag = 2
+	},
+	{
+		param = "……！想到",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 187,
+		flag = 2
+	},
+	{
+		param = "是老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 188,
+		flag = 2
+	},
+	{
+		param = "安克雷奇缺什么……想到了……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 189,
+		flag = 2
+	},
+	{
+		param = "是……老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 190,
+		flag = 2
+	},
+	{
+		param = "最需要的……是老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 191,
+		flag = 2
+	},
+	{
+		param = "老师……安克雷奇的宿舍",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 192,
+		flag = 0
+	},
+	{
+		param = "今天有一个……很特别……",
+		ship_group = 19903,
+		type = 1,
+		id = 193,
+		flag = 0,
+		option = {
+			{
+				1,
+				"特别……？"
+			}
+		}
+	},
+	{
+		param = "特别……？怎么样呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 194,
+		flag = 1
+	},
+	{
+		param = "嘿嘿",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 195,
+		flag = 1
+	},
+	{
+		param = "安克雷奇……准备了……超级软软……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 196,
+		flag = 1
+	},
+	{
+		param = "还香香的……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 197,
+		flag = 1
+	},
+	{
+		param = "老师……可以先享受",
+		ship_group = 19903,
+		type = 1,
+		id = 198,
+		flag = 1,
+		option = {
+			{
+				2,
+				"？是吃的东西吗？"
+			}
+		}
+	},
+	{
+		param = "？是吃的东西吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 199,
+		flag = 2
+	},
+	{
+		param = "是和老师……抱……很像的……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 200,
+		flag = 2
+	},
+	{
+		param = "安克雷奇……喜欢！",
+		ship_group = 19903,
+		type = 1,
+		id = 201,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我猜……"
+			}
+		}
+	},
+	{
+		param = "我猜……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 202,
+		flag = 3
+	},
+	{
+		param = "是抱枕？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 203,
+		flag = 3
+	},
+	{
+		param = "嗯嗯！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 204,
+		flag = 3
+	},
+	{
+		param = "安克雷奇……喜欢抱……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 205,
+		flag = 3
+	},
+	{
+		param = "……安克雷奇……不想给老师了……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 206,
+		flag = 3
+	},
+	{
+		param = "老师……应该……抱安克雷奇",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 207,
+		flag = 3
+	},
+	{
+		param = "安克雷奇……也香香……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 208,
+		flag = 3
+	},
+	{
+		param = "也……超级软软",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 209,
+		flag = 3
+	},
+	{
+		param = "嘿嘿！老师……喜欢！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 210,
+		flag = 3
+	},
+	{
+		param = "老师找到……安克雷奇的……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 211,
+		flag = 0
+	},
+	{
+		param = "好多……找不到的东西……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 212,
+		flag = 0
+	},
+	{
+		param = "可……还有一个……秘密……",
+		ship_group = 19903,
+		type = 1,
+		id = 213,
+		flag = 0,
+		option = {
+			{
+				1,
+				"秘密？"
+			}
+		}
+	},
+	{
+		param = "秘密？是什么~很好奇",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 214,
+		flag = 1
+	},
+	{
+		param = "其实……安克雷奇……忘了秘密……在哪里",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 215,
+		flag = 1
+	},
+	{
+		param = "因为，想要……到时间……再给老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 216,
+		flag = 1
+	},
+	{
+		param = "可是……先忘记……在哪里了……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 217,
+		flag = 1
+	},
+	{
+		param = "312",
+		ship_group = 19903,
+		type = 4,
+		id = 218,
+		flag = 1,
+		option = {
+			{
+				2,
+				"等我来的时候一起找找……"
+			}
+		}
+	},
+	{
+		param = "等我来的时候一起找找……既然是忘记在哪里……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 219,
+		flag = 2
+	},
+	{
+		param = "是不是把秘密记在什么东西上了呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 220,
+		flag = 2
+	},
+	{
+		param = "……写了字……给老师……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 221,
+		flag = 2
+	},
+	{
+		param = "可是……安克雷奇的话……写不出来……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 222,
+		flag = 2
+	},
+	{
+		param = "老师会……看不懂……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 223,
+		flag = 2
+	},
+	{
+		param = "想起来了",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 224,
+		flag = 2
+	},
+	{
+		param = "画画……安克雷奇画下来了",
+		ship_group = 19903,
+		type = 1,
+		id = 225,
+		flag = 2,
+		option = {
+			{
+				3,
+				"是在画本上么？"
+			}
+		}
+	},
+	{
+		param = "是在画本上么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 226,
+		flag = 3
+	},
+	{
+		param = "画本上……有过……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 227,
+		flag = 3
+	},
+	{
+		param = "然后安克雷奇……取下来……藏在哪……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 228,
+		flag = 3
+	},
+	{
+		param = "老师……安克雷奇……没有藏起来",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 229,
+		flag = 3
+	},
+	{
+		param = "……已经……给老师了……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 230,
+		flag = 3
+	},
+	{
+		param = "给老师的画……和字……变成折纸小狗",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 231,
+		flag = 3
+	},
+	{
+		param = "306",
+		ship_group = 19903,
+		option = "",
+		type = 4,
+		id = 232,
+		flag = 3
+	},
+	{
+		param = "在老师……身边……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 233,
+		flag = 3
+	},
+	{
+		param = "嘿嘿……安克雷奇……超级开心",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 234,
+		flag = 0
+	},
+	{
+		param = "老师……今天也来找安克雷奇……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 235,
+		flag = 0
+	},
+	{
+		param = "最喜欢老师……一起……做所有的事情",
+		ship_group = 19903,
+		type = 1,
+		id = 236,
+		flag = 0,
+		option = {
+			{
+				1,
+				"还想要一起做什么事情呢？"
+			}
+		}
+	},
+	{
+		param = "还想要一起做什么事情呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 237,
+		flag = 1
+	},
+	{
+		param = "可以说说看吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 238,
+		flag = 1
+	},
+	{
+		param = "安克雷奇不知道……只是希望……老师能一直一直……和安克雷奇一起",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 239,
+		flag = 1
+	},
+	{
+		param = "想要……更多的……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 240,
+		flag = 1
+	},
+	{
+		param = "就像……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 241,
+		flag = 1
+	},
+	{
+		param = "老师教安克雷奇画画……老师的手脏了……不要自己洗",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 242,
+		flag = 1
+	},
+	{
+		param = "要安克雷奇……给老师洗……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 243,
+		flag = 1
+	},
+	{
+		param = "会像老师一样……温柔……安克雷奇也要温柔……让老师幸福",
+		ship_group = 19903,
+		type = 1,
+		id = 244,
+		flag = 1,
+		option = {
+			{
+				2,
+				"下次就交给你了"
+			}
+		}
+	},
+	{
+		param = "下次就交给你了，这就是安克雷奇要的“更多”？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 245,
+		flag = 2
+	},
+	{
+		param = "还有……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 246,
+		flag = 2
+	},
+	{
+		param = "老师……陪安克雷奇……整理床……好整齐……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 247,
+		flag = 2
+	},
+	{
+		param = "可是……安克雷奇不想……整齐",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 248,
+		flag = 2
+	},
+	{
+		param = "老师整理好……安克雷奇……舍不得弄乱",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 249,
+		flag = 2
+	},
+	{
+		param = "老师……要一起……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 250,
+		flag = 2
+	},
+	{
+		param = "床……乱了也可以……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 251,
+		flag = 2
+	},
+	{
+		param = "躺在一起……安克雷奇……更幸福",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 252,
+		flag = 2
+	},
+	{
+		param = "礼物……老师给安克雷奇很多……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 253,
+		flag = 0
+	},
+	{
+		param = "都喜欢……老师好厉害！",
+		ship_group = 19903,
+		type = 1,
+		id = 254,
+		flag = 0,
+		option = {
+			{
+				1,
+				"还会收到更多礼物的"
+			}
+		}
+	},
+	{
+		param = "还会收到更多礼物的，期待一下吧",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 255,
+		flag = 1
+	},
+	{
+		param = "期待！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 256,
+		flag = 1
+	},
+	{
+		param = "安克雷奇绘本…上面说……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 257,
+		flag = 1
+	},
+	{
+		param = "谢谢……是很重要的话……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 258,
+		flag = 1
+	},
+	{
+		param = "老师对安克雷奇非常好……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 259,
+		flag = 1
+	},
+	{
+		param = "安克雷奇要说谢谢……好好说……要认真……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 260,
+		flag = 1
+	},
+	{
+		param = "老师，安克雷奇感激……谢谢老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 261,
+		flag = 1
+	},
+	{
+		param = "超级谢谢",
+		ship_group = 19903,
+		type = 1,
+		id = 262,
+		flag = 1,
+		option = {
+			{
+				2,
+				"超级不客气"
+			}
+		}
+	},
+	{
+		param = "超级不客气，安克雷奇带给我的快乐更多",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 263,
+		flag = 2
+	},
+	{
+		param = "超级不客气……不客气……是不需要谢谢吗？",
+		ship_group = 19903,
+		type = 1,
+		id = 264,
+		flag = 2,
+		option = {
+			{
+				3,
+				"是希望安克雷奇放心接受"
+			}
+		}
+	},
+	{
+		param = "是希望安克雷奇放心接受",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 265,
+		flag = 3
+	},
+	{
+		param = "不需要像客人一样道谢，家人是不需要道谢的",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 266,
+		flag = 3
+	},
+	{
+		param = "安克雷奇……是家人……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 267,
+		flag = 3
+	},
+	{
+		param = "开心……超级开心……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 268,
+		flag = 3
+	},
+	{
+		param = "说谢谢……就可以知道……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 269,
+		flag = 3
+	},
+	{
+		param = "老师和安克雷奇……是家人……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 270,
+		flag = 3
+	},
+	{
+		param = "安克雷奇喜欢给老师谢谢……永远……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 271,
+		flag = 3
+	},
+	{
+		param = "老师……安克雷奇为什么总是……输",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 272,
+		flag = 0
+	},
+	{
+		param = "游戏……难……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 273,
+		flag = 0
+	},
+	{
+		param = "但是……要赢",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 274,
+		flag = 0
+	},
+	{
+		param = "！",
+		ship_group = 19903,
+		type = 1,
+		id = 275,
+		flag = 0,
+		option = {
+			{
+				1,
+				"为什么呢？"
+			}
+		}
+	},
+	{
+		param = "为什么呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 276,
+		flag = 1
+	},
+	{
+		param = "想要……奖励……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 277,
+		flag = 1
+	},
+	{
+		param = "赢了……就要求奖励……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 278,
+		flag = 1
+	},
+	{
+		param = "嘿嘿……想要老师的……抱抱！",
+		ship_group = 19903,
+		type = 1,
+		id = 279,
+		flag = 1,
+		option = {
+			{
+				2,
+				"输了也不要紧"
+			}
+		}
+	},
+	{
+		param = "输了也不要紧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 280,
+		flag = 2
+	},
+	{
+		param = "？……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 281,
+		flag = 2
+	},
+	{
+		param = "也有……奖励？",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 282,
+		flag = 2
+	},
+	{
+		param = "安克雷奇……想要老师……奖励",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 283,
+		flag = 2
+	},
+	{
+		param = "之前……输了的奖励……",
+		ship_group = 19903,
+		type = 1,
+		id = 284,
+		flag = 2,
+		option = {
+			{
+				3,
+				"想要什么奖励？"
+			}
+		}
+	},
+	{
+		param = "安克雷奇想要什么奖励？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 285,
+		flag = 3
+	},
+	{
+		param = "要……摸摸安克雷奇！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 286,
+		flag = 3
+	},
+	{
+		param = "嗯……赢就奖励……抱抱",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 287,
+		flag = 3
+	},
+	{
+		param = "输了……摸摸……就可以了",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 288,
+		flag = 3
+	},
+	{
+		param = "安克雷奇……喜欢和老师……玩儿游戏",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 289,
+		flag = 3
+	},
+	{
+		param = "礼物……在安克雷奇怀里……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 290,
+		flag = 0
+	},
+	{
+		param = "我们一起看……天空",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 291,
+		flag = 0
+	},
+	{
+		param = "可……安克雷奇……难过……",
+		ship_group = 19903,
+		type = 1,
+		id = 292,
+		flag = 0,
+		option = {
+			{
+				1,
+				"怎么了？为什么难过？"
+			}
+		}
+	},
+	{
+		param = "怎么了？为什么难过？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 293,
+		flag = 1
+	},
+	{
+		param = "是不喜欢送给你的礼物吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 294,
+		flag = 1
+	},
+	{
+		param = "喜欢",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 295,
+		flag = 1
+	},
+	{
+		param = "最喜欢",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 296,
+		flag = 1
+	},
+	{
+		param = "最喜欢……老师的礼物",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 297,
+		flag = 1
+	},
+	{
+		param = "是安克雷奇……想要送老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 298,
+		flag = 1
+	},
+	{
+		param = "天空……闪闪亮亮……星星",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 299,
+		flag = 1
+	},
+	{
+		param = "最好看",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 300,
+		flag = 1
+	},
+	{
+		param = "可是……太远了",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 301,
+		flag = 1
+	},
+	{
+		param = "安克雷奇……想不到办法",
+		ship_group = 19903,
+		type = 1,
+		id = 302,
+		flag = 1,
+		option = {
+			{
+				2,
+				"如果想用星星当做回礼……"
+			}
+		}
+	},
+	{
+		param = "如果想用星星当做回礼的话……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 303,
+		flag = 2
+	},
+	{
+		param = "要不要试试画下来呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 304,
+		flag = 2
+	},
+	{
+		param = "画下来……",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 305,
+		flag = 2
+	},
+	{
+		param = "好！",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 306,
+		flag = 2
+	},
+	{
+		param = "安克雷奇……要画星星……给老师",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 307,
+		flag = 2
+	},
+	{
+		param = "画最好的……最亮晶晶的……星星",
+		ship_group = 19903,
+		option = "",
+		type = 1,
+		id = 308,
 		flag = 2
 	}
 }

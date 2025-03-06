@@ -40,6 +40,26 @@ pg.dorm3d_ins_language = {
 		key = "nengdai_1_2",
 		is_active = "0"
 	},
+	ankeleiqi_1_1 = {
+		value = "童话里有可爱的公主哦",
+		key = "ankeleiqi_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_1_2 = {
+		value = "有自己的童话世界啦！",
+		key = "ankeleiqi_1_2",
+		is_active = "0"
+	},
+	ankeleiqi_2_1 = {
+		value = "梦到什么了呢？",
+		key = "ankeleiqi_2_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_2 = {
+		value = "为什么是在云朵上画呢？",
+		key = "ankeleiqi_2_2",
+		is_active = "0"
+	},
 	tianlangxing_1_1_1 = {
 		value = "主人想要满足天狼星？！那就拜托主人让天狼星将自己所学到的一切全部用在您那里。",
 		key = "tianlangxing_1_1_1",
@@ -60,6 +80,26 @@ pg.dorm3d_ins_language = {
 		key = "nengdai_1_2_1",
 		is_active = "0"
 	},
+	ankeleiqi_1_1_1 = {
+		value = "公主……是安克雷奇？",
+		key = "ankeleiqi_1_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_1_2_1 = {
+		value = "老师……也要在……童话世界里",
+		key = "ankeleiqi_1_2_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_1_1 = {
+		value = "老师……安克雷奇……牵手……吃糖……软软的",
+		key = "ankeleiqi_2_1_1",
+		is_active = "0"
+	},
+	ankeleiqi_2_2_1 = {
+		value = "好看……在云朵上……和老师一起……很幸福",
+		key = "ankeleiqi_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -69,9 +109,17 @@ pg.dorm3d_ins_language = {
 		"tianlangxing_1_2",
 		"nengdai_1_1",
 		"nengdai_1_2",
+		"ankeleiqi_1_1",
+		"ankeleiqi_1_2",
+		"ankeleiqi_2_1",
+		"ankeleiqi_2_2",
 		"tianlangxing_1_1_1",
 		"tianlangxing_1_2_1",
 		"nengdai_1_1_1",
-		"nengdai_1_2_1"
+		"nengdai_1_2_1",
+		"ankeleiqi_1_1_1",
+		"ankeleiqi_1_2_1",
+		"ankeleiqi_2_1_1",
+		"ankeleiqi_2_2_1"
 	}
 }

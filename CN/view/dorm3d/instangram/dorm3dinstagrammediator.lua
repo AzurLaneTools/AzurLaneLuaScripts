@@ -4,6 +4,7 @@ slot0.ON_READ = "Dorm3dInstagramMediator:ON_READ"
 slot0.ON_LIKE = "Dorm3dInstagramMediator:ON_LIKE"
 slot0.ON_SHARE = "Dorm3dInstagramMediator:ON_SHARE"
 slot0.ON_EXIT = "Dorm3dInstagramMediator:ON_EXIT"
+slot0.BACK_PRESSED = "Dorm3dInstagramMediator:BACK_PRESSED"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_DISCUSS, function (slot0, slot1, slot2, slot3)
@@ -47,7 +48,8 @@ end
 
 slot0.listNotificationInterests = function(slot0)
 	return {
-		GAME.APARTMENT_INS_OP_DONE
+		GAME.APARTMENT_INS_OP_DONE,
+		uv0.BACK_PRESSED
 	}
 end
 
@@ -66,6 +68,8 @@ slot0.handleNotification = function(slot0, slot1)
 		elseif slot3.op == Instagram3Dorm.OP_EXIT then
 			-- Nothing
 		end
+	elseif slot2 == uv0.BACK_PRESSED then
+		slot0.viewComponent:onBackPressed()
 	end
 end
 

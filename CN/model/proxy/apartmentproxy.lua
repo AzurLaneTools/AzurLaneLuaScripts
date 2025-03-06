@@ -220,8 +220,8 @@ slot0.GetTimeIndex = function(slot0)
 	return slot1
 end
 
-slot0.GetTimePPName = function()
-	return "DORM3D_SCENE_LOCK_TIME_IN_PLAYER:" .. getProxy(PlayerProxy):getRawData().id
+slot0.GetTimePPName = function(slot0)
+	return "DORM3D_SCENE_LOCK_TIME_IN_PLAYER:" .. getProxy(PlayerProxy):getRawData().id .. "_ROOM_" .. slot0
 end
 
 slot0.CheckUnlockConfig = function(slot0)
@@ -310,6 +310,10 @@ slot0.PendingRandom = function(slot0, slot1)
 	end
 
 	return slot3
+end
+
+slot0.CheckDeviceRAMEnough = function()
+	return SystemInfo.systemMemorySize == 0 or getDorm3dGameset("drom3d_memory_limit")[1] < slot0
 end
 
 return slot0

@@ -63,6 +63,36 @@ pg.dorm3d_collection_template = setmetatable({
 			74,
 			75
 		},
+		{
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128
+		},
 		[4] = {
 			31,
 			32,
@@ -141,7 +171,35 @@ pg.dorm3d_collection_template = setmetatable({
 		78,
 		79,
 		74,
-		75
+		75,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1534,6 +1592,594 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on/vfx_wupintishi01"
+		}
+	},
+	[101] = {
+		name = "温馨映像",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "精心挑选的气球装饰着银色相框，安克雷奇似乎很喜欢这种搭配。\n相框上小兔子的蝴蝶结还带着她整理时留下的褶皱。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 101,
+		icon = "3Ddrom_ankeleiqi_item1",
+		model = {
+			"fbx/litmap_02/pre_db_billboard14"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_billboard14/vfx_wupintishi01"
+		}
+	},
+	[102] = {
+		name = "童话茶时",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "兔子造型的茶壶配着小巧的茶杯，安克雷奇总是小心翼翼地摆弄着它们。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 102,
+		icon = "3Ddrom_ankeleiqi_item2",
+		model = {
+			"fbx/litmap_02/pre_db_ceram11_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_ceram11_group01/vfx_wupintishi01"
+		}
+	},
+	[103] = {
+		name = "心愿菜单",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "挂在墙上的粉笔小黑板，安克雷奇时常会在上面写下新的小目标。\n偶尔还能看到她画下的可爱涂鸦。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 103,
+		icon = "3Ddrom_ankeleiqi_item3",
+		model = {
+			"fbx/litmap_02/pre_db_blackboard01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_blackboard01/vfx_wupintishi01"
+		}
+	},
+	[104] = {
+		name = "知识宝库",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "整齐摆放在书柜中的童话故事书，每本书的书角都被安克雷奇贴心地包好，还标注着她独创的分类标签。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 104,
+		icon = "3Ddrom_ankeleiqi_item4",
+		model = {
+			"fbx/litmap_02/pre_db_book15_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_book15_group01/vfx_wupintishi01"
+		}
+	},
+	[105] = {
+		name = "文件收纳架",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "童话城堡造型的文件收纳架，安克雷奇会将各式各样的记事本和重要文件放在其中。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 105,
+		icon = "3Ddrom_ankeleiqi_item5",
+		model = {
+			"fbx/litmap_02/pre_db_cupboard18"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_cupboard18/vfx_wupintishi01"
+		}
+	},
+	[106] = {
+		name = "古典钢琴",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "房间一角的古典钢琴，琴盖上摆着安克雷奇正在练习的乐谱，谱面上还留有她认真做的标记。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 106,
+		icon = "3Ddrom_ankeleiqi_item6",
+		model = {
+			"fbx/litmap_02/pre_db_musicalInstrument02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_musicalInstrument02/vfx_wupintishi01"
+		}
+	},
+	[107] = {
+		name = "蜡笔画作",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "放在桌上的蜡笔画作，画的是安克雷奇眼中的最美好的场景，这图中的人看起来……是我……？",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 107,
+		icon = "3Ddrom_ankeleiqi_item7",
+		model = {
+			"fbx/litmap_02/pre_db_paper02_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_paper02_group01/vfx_wupintishi01"
+		}
+	},
+	[108] = {
+		name = "闹钟",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "造型简约的闹钟，被安克雷奇摆在床头的位置，似乎在提醒她不要错过每天的重要时刻。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 108,
+		icon = "3Ddrom_ankeleiqi_item8",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02/vfx_wupintishi01"
+		}
+	},
+	[109] = {
+		name = "收纳箱",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "造型可爱的收纳箱，安克雷奇会把各种零碎的东西放在其中。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 109,
+		icon = "3Ddrom_ankeleiqi_item9",
+		model = {
+			"fbx/litmap_02/pre_db_basket04_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_basket04_group01/vfx_wupintishi01"
+		}
+	},
+	[110] = {
+		name = "夏日浮圈",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "装饰着星星图案的游泳圈，是安克雷奇挑选的夏日必需品。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 110,
+		icon = "3Ddrom_ankeleiqi_item10",
+		model = {
+			"fbx/litmap_02/pre_db_toy07"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_toy07/vfx_wupintishi01"
+		}
+	},
+	[111] = {
+		name = "启蒙厨刀",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "不会割伤手的特殊启蒙厨刀，安克雷奇最近总是认真地演练着切菜的动作，在憧憬着未来能做出美味料理。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 111,
+		icon = "3Ddrom_ankeleiqi_item11",
+		model = {
+			"fbx/litmap_02/pre_db_kitchenware08_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_kitchenware08_group01/vfx_wupintishi01"
+		}
+	},
+	[112] = {
+		name = "童话绘本",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "精装的童话绘本，被安克雷奇小心翼翼地保管着，尽管如此，依然能看出她留在书页间的爱不释手的痕迹。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 112,
+		icon = "3Ddrom_ankeleiqi_item12",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a/vfx_wupintishi01"
+		}
+	},
+	[113] = {
+		name = "毛绒玩具",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "戴着睡帽的企鹅玩偶，被安克雷奇放在沙发上最为显眼的位置，希望在小企鹅的守护下，她能做一个美梦。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 113,
+		icon = "3Ddrom_ankeleiqi_item13",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06/vfx_wupintishi01"
+		}
+	},
+	[114] = {
+		name = "绿意相伴",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "小巧可爱的仙人掌，安克雷奇给它换上了色彩明亮的底座，为这个倔强的小生命增添了几分温馨。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 114,
+		icon = "3Ddrom_ankeleiqi_item14",
+		model = {
+			"fbx/litmap_02/pre_db_flowerpot10"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_flowerpot10/vfx_wupintishi01"
+		}
+	},
+	[115] = {
+		name = "厨具套组",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "一套不具备实际使用功能的厨具玩具，被安克雷奇整齐地排列在专属的架子上。\n嗯……下厨对她现在来说还是有些太早了……",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 115,
+		icon = "3Ddrom_ankeleiqi_item15",
+		model = {
+			"fbx/litmap_02/pre_db_kitchenware01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_kitchenware01/vfx_wupintishi01"
+		}
+	},
+	[116] = {
+		name = "海洋摇篮",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "虎鲸造型的摇摇椅，是安克雷奇最喜欢的休息场所之一。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 116,
+		icon = "3Ddrom_ankeleiqi_item16",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16/vfx_wupintishi01"
+		}
+	},
+	[117] = {
+		name = "储物篮",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "编织精美的藤制储物篮，安克雷奇用它收纳着日常用品。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 117,
+		icon = "3Ddrom_ankeleiqi_item17",
+		model = {
+			"fbx/litmap_02/pre_db_basket05"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_basket05/vfx_wupintishi01"
+		}
+	},
+	[118] = {
+		name = "海洋伙伴",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "蓝白相间的鱼鱼玩偶，有着圆圆的眼睛和友善的微笑，嗯……安克雷奇似乎很喜欢收集这类玩偶，下次再送她几个吧！",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 118,
+		icon = "3Ddrom_ankeleiqi_item18",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10/vfx_wupintishi01"
+		}
+	},
+	[119] = {
+		name = "小黑板",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "粉笔小黑板上画着相当童趣的内容，1+1=♡\n这是什么意思呢？",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 119,
+		icon = "3Ddrom_ankeleiqi_item19",
+		model = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02/vfx_wupintishi01"
+		}
+	},
+	[120] = {
+		name = "方块抱枕",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "浅色的方块抱枕，其中一面印着温和可爱的鳐鱼图案，轻柔的色调带来了不一样的安宁感。",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 120,
+		icon = "3Ddrom_ankeleiqi_item20",
+		model = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12/vfx_wupintishi01"
+		}
+	},
+	[121] = {
+		name = "回忆相册",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "悬挂的绳网编织成格，木质夹子固定着珍贵的照片，每一格都是和安克雷奇的温暖回忆。",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 121,
+		icon = "3Ddrom_ankeleiqi_item21",
+		model = {
+			"fbx/litmap_02/pre_db_decoration12"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_decoration12/vfx_wupintishi01"
+		}
+	},
+	[122] = {
+		name = "雨伞收纳",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "造型简约的雨伞收纳桶，安克雷奇总会把伞整齐地放置其中，为了随时应对突如其来的雨天。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 122,
+		icon = "3Ddrom_ankeleiqi_item22",
+		model = {
+			"fbx/litmap_02/day/pre_db_decoration11"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_decoration11/vfx_wupintishi01"
+		}
+	},
+	[123] = {
+		name = "暖心相随",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "浅色调的保温杯，天气冷的时候，安克雷奇会用它装些温热的饮品。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 123,
+		icon = "3Ddrom_ankeleiqi_item23",
+		model = {
+			"fbx/litmap_02/day/pre_db_tableware26"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_tableware26/vfx_wupintishi01"
+		}
+	},
+	[124] = {
+		name = "欢乐印记",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "可爱的啾啾造型贴纸和星星造型贴纸，被安克雷奇贴在不起眼的角落，为房间增添了几分活泼的气息。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 124,
+		icon = "3Ddrom_ankeleiqi_item24",
+		model = {
+			"fbx/litmap_02/day/pre_db_cupboard19_01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_cupboard19_01/vfx_wupintishi01"
+		}
+	},
+	[125] = {
+		name = "温柔光影",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "精致小巧的床头台灯，安克雷奇会在入睡前调至最柔和的亮度，让温暖的光芒守护她的梦。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 125,
+		icon = "3Ddrom_ankeleiqi_item25",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03/vfx_wupintishi01"
+		}
+	},
+	[126] = {
+		name = "深海幻境",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "座头鲸造型的天花板吊灯，安克雷奇躺在床上时总会凝视着它，仿佛置身于梦幻的海底世界。",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 126,
+		icon = "3Ddrom_ankeleiqi_item26",
+		model = {
+			"fbx/no_bake_pay_prop/pre_db_anchoragehostel01_lamp01_night"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/pre_db_anchoragehostel01_lamp01_night/vfx_wupintishi01"
+		}
+	},
+	[127] = {
+		name = "啾啾马克杯",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "啾啾造型的马克杯，被安克雷奇放在最显眼的地方，显然能看出她喜爱的程度。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 127,
+		icon = "3Ddrom_ankeleiqi_item27",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24/vfx_wupintishi01"
+		}
+	},
+	[128] = {
+		name = "浴巾",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "整齐叠放的浴巾卷，安克雷奇将它们卷成圆润的造型，像是两朵蓬松的云彩静静相依。",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 128,
+		icon = "3Ddrom_ankeleiqi_item28",
+		model = {
+			"fbx/litmap_02/night/pre_db_towel01_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/night/pre_db_towel01_group01/vfx_wupintishi01"
 		}
 	}
 }
