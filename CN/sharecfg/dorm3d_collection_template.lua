@@ -2129,7 +2129,7 @@ pg.base.dorm3d_collection_template = {
 		id = 126,
 		icon = "3Ddrom_ankeleiqi_item26",
 		model = {
-			"fbx/no_bake_pay_prop/pre_db_anchoragehostel01_lamp01_night"
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
 		},
 		unlock = {
 			1,
@@ -2137,7 +2137,7 @@ pg.base.dorm3d_collection_template = {
 			1
 		},
 		vfx_prefab = {
-			"fbx/no_bake_pay_prop/pre_db_anchoragehostel01_lamp01_night/vfx_wupintishi01"
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night/vfx_wupintishi01"
 		}
 	},
 	[127] = {

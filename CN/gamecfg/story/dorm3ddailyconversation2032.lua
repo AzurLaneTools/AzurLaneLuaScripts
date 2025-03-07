@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真、真的要试吗？！会不会有些过分……而且我也{dorm3d}想得那么轻……",
+			say = "真、真的要试吗？！会不会有些过分……而且我也没{dorm3d}想得那么轻……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

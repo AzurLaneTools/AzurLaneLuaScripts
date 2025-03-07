@@ -311,7 +311,7 @@ pg.base.dorm3d_subtitle = {
 	},
 	[3101] = {
 		id = 3101,
-		subtitle = "和安克雷奇……一起……！"
+		subtitle = "帮帮……安克雷奇，老师！"
 	},
 	[3102] = {
 		id = 3102,
@@ -319,11 +319,11 @@ pg.base.dorm3d_subtitle = {
 	},
 	[3103] = {
 		id = 3103,
-		subtitle = "帮帮……安克雷奇，老师！"
+		subtitle = "欸嘿嘿，老师……要一起玩……？"
 	},
 	[3104] = {
 		id = 3104,
-		subtitle = "欸嘿嘿，老师……要一起玩……？"
+		subtitle = "和安克雷奇……一起……！"
 	},
 	[3105] = {
 		id = 3105,
@@ -355,10 +355,10 @@ pg.base.dorm3d_subtitle = {
 	},
 	[3201] = {
 		id = 3201,
-		subtitle = "老师……抱抱……！"
+		subtitle = "老师……安克雷奇……在这里！"
 	},
 	[3202] = {
 		id = 3202,
-		subtitle = "老师……安克雷奇……在这里！"
+		subtitle = "老师……抱抱……！"
 	}
 }

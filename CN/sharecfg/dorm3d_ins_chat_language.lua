@@ -2528,7 +2528,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "还会收到更多礼物的，期待一下吧",
-		ship_group = 19903,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 255,

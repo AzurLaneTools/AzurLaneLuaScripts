@@ -1306,7 +1306,7 @@ pg.dorm3d_camera_anim_template = {
 		icon = "camera_action6"
 	},
 	[3101] = {
-		anim_time = 7,
+		anim_time = 0,
 		finish_anim = 3101,
 		pre_anim = 0,
 		state = "ab_chuang_idle_01",
@@ -1426,7 +1426,7 @@ pg.dorm3d_camera_anim_template = {
 		icon = "camera_action33"
 	},
 	[3301] = {
-		anim_time = 7,
+		anim_time = 0,
 		finish_anim = 3301,
 		pre_anim = 0,
 		state = "ab_ditan_idle_01",
@@ -1486,7 +1486,7 @@ pg.dorm3d_camera_anim_template = {
 		icon = "camera_action19"
 	},
 	[3401] = {
-		anim_time = 7,
+		anim_time = 0,
 		finish_anim = 3401,
 		pre_anim = 0,
 		state = "ab_FF_ditan_1_idle_1",
@@ -1711,7 +1711,7 @@ pg.dorm3d_camera_anim_template = {
 		icon = "camera_action12"
 	},
 	[4401] = {
-		anim_time = 5,
+		anim_time = 0,
 		finish_anim = 4401,
 		pre_anim = 0,
 		state = "Idle",
