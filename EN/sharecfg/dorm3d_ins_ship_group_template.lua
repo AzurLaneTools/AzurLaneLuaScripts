@@ -10,7 +10,7 @@ pg.dorm3d_ins_ship_group_template = {
 	},
 	[30221] = {
 		ship_group = 30221,
-		name = "Nshiro",
+		name = "Noshiro",
 		background = "",
 		sculpture = "nengdai_idol",
 		nationality = 0,
