@@ -138,7 +138,7 @@ pg.voice_bgm = {
 	NewShopsScene = {
 		default_bgm = "theme-clemenceau",
 		special_bgm = "",
-		bgm = "story-island-soft"
+		bgm = "main"
 	},
 	BuildShipScene = {
 		default_bgm = "main",

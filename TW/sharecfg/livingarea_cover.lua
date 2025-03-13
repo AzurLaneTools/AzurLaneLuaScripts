@@ -48,49 +48,10 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100103_icon"
 	},
-	[100201] = {
-		get_tips = "獲得了新的契合度封面",
-		name = "窗邊等待",
-		nighttime_res = "100201_bg_night",
-		daytime_res = "100201_bg_day",
-		rarity = 3,
-		desc = "獲得後可以在生活區封面功能中解鎖窗邊等待封面",
-		unlock_text = "能代宿舍契合度2級解鎖",
-		id = 100201,
-		icon = "Props/drom3d_camera1003",
-		icon_res = "100201_icon"
-	},
-	[100202] = {
-		get_tips = "獲得了新的契合度封面",
-		name = "下午茶邀請",
-		nighttime_res = "100202_bg_night",
-		daytime_res = "100202_bg_day",
-		rarity = 3,
-		desc = "獲得後可以在生活區封面功能中解鎖下午茶邀請封面",
-		unlock_text = "能代宿舍契合度7級解鎖",
-		id = 100202,
-		icon = "Props/drom3d_camera1003",
-		icon_res = "100202_icon"
-	},
-	[100203] = {
-		get_tips = "獲得了新的契合度封面",
-		name = "休憩時間",
-		nighttime_res = "100203_bg_night",
-		daytime_res = "100203_bg_day",
-		rarity = 3,
-		desc = "獲得後可在生活區封面功能中解鎖休憩時間封面",
-		unlock_text = "能代宿舍契合度10級解鎖",
-		id = 100203,
-		icon = "Props/drom3d_camera1003",
-		icon_res = "100203_icon"
-	},
 	all = {
 		0,
 		100101,
 		100102,
-		100103,
-		100201,
-		100202,
-		100203
+		100103
 	}
 }

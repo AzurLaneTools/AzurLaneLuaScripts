@@ -325,6 +325,7 @@ pg.skill_data_template = setmetatable({
 		60560,
 		60570,
 		60580,
+		60590,
 		60610,
 		60611,
 		60612,
@@ -12223,6 +12224,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "戰鬥開始時，為自身生成一枚可抵銷自身耐久2%傷害的護盾，持續15秒",
 		id = 60580,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60590] = {
+		desc_get = "",
+		name = "奇怪裝置「D」",
+		type = 0,
+		max_level = 0,
+		desc = "戰鬥中會週期性發出音效的奇怪裝置",
+		id = 60590,
 		system_transform = {},
 		world_death_mark = {
 			1

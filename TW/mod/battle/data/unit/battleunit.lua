@@ -280,6 +280,7 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 
 	if not slot0:IsAlive() and slot4 then
 		slot0:SetDeathReason(slot2.damageReason)
+		slot0:SetDeathSrcID(slot2.srcID)
 		slot0:DeadAction()
 	end
 
@@ -326,6 +327,14 @@ end
 
 slot9.GetDeathReason = function(slot0)
 	return slot0._deathReason or uv0.UnitDeathReason.KILLED
+end
+
+slot9.SetDeathSrcID = function(slot0, slot1)
+	slot0._deathSrcID = slot1
+end
+
+slot9.GetDeathSrcID = function(slot0)
+	return slot0._deathSrcID
 end
 
 slot9.DispatchScorePoint = function(slot0, slot1)

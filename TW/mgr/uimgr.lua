@@ -234,7 +234,7 @@ slot0.UpdateStick = function(slot0, slot1, slot2)
 			if slot2 ~= slot0.fingerId then
 				setActive(slot0._stickTailPS, false)
 			end
-		elseif slot2 > 0 and slot2 ~= slot0.fingerId then
+		elseif slot2 >= 0 and slot2 ~= slot0.fingerId then
 			setActive(slot0._stickTailPS, true)
 		end
 	end

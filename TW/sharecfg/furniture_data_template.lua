@@ -20362,7 +20362,9 @@ pg.base.furniture_data_template = {
 					nil,
 					{
 						"action",
-						"tuozhuai2"
+						"tuozhuai2",
+						false,
+						true
 					},
 					"tuozhuai2"
 				},
@@ -22147,7 +22149,9 @@ pg.base.furniture_data_template = {
 					nil,
 					{
 						"sit1",
-						"sit"
+						"sit",
+						false,
+						true
 					},
 					"sit"
 				},
@@ -68318,7 +68322,9 @@ pg.base.furniture_data_template = {
 				{
 					[3] = {
 						"sit0",
-						"sit"
+						"sit",
+						false,
+						true
 					}
 				},
 				{
@@ -87648,7 +87654,9 @@ pg.base.furniture_data_template = {
 				{
 					[3] = {
 						"action",
-						"dance"
+						"dance",
+						false,
+						true
 					}
 				},
 				{
@@ -131675,7 +131683,9 @@ pg.base.furniture_data_template = {
 					nil,
 					{
 						"sit1",
-						"sit"
+						"sit",
+						false,
+						true
 					},
 					"sit"
 				},

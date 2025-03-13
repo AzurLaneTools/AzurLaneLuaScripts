@@ -197,6 +197,19 @@ pg.activity_link_button = {
 		group_id = 4,
 		order = 1
 	},
+	[103] = {
+		name = "event_dreamland",
+		time = "stop",
+		text_pic = "text_event_minigame",
+		type = 2,
+		pic = "event_minigame",
+		id = 103,
+		group_id = 9,
+		order = 1,
+		param = {
+			"DREAMLAND"
+		}
+	},
 	[104] = {
 		name = "event_layer",
 		text_pic = "text_event_layer",
@@ -214,6 +227,35 @@ pg.activity_link_button = {
 			view = "ChildishnessSchoolPtPage"
 		}
 	},
+	[105] = {
+		name = "event_boat_ad_game",
+		time = "stop",
+		text_pic = "text_event_boat_ad_game",
+		type = 7,
+		pic = "event_boat_ad_game",
+		id = 105,
+		group_id = 10,
+		order = 1,
+		param = {
+			73
+		}
+	},
+	[106] = {
+		name = "event_blackFriday",
+		text_pic = "text_event_blackfriday",
+		type = 2,
+		pic = "event_blackfriday",
+		id = 106,
+		group_id = 11,
+		order = 1,
+		time = {
+			"default",
+			5702
+		},
+		param = {
+			"BlackFridaySales"
+		}
+	},
 	[107] = {
 		name = "event_tolove",
 		text_pic = "text_event_minigame",
@@ -228,19 +270,6 @@ pg.activity_link_button = {
 		},
 		param = {
 			"TOLOVE_COLLAB_BACKHILL"
-		}
-	},
-	[105] = {
-		name = "event_boat_ad_game",
-		time = "stop",
-		text_pic = "text_event_boat_ad_game",
-		type = 7,
-		pic = "event_boat_ad_game",
-		id = 105,
-		group_id = 10,
-		order = 1,
-		param = {
-			73
 		}
 	},
 	[108] = {
@@ -300,14 +329,20 @@ pg.activity_link_button = {
 		event_boss_single = {
 			102
 		},
+		event_dreamland = {
+			103
+		},
 		event_layer = {
 			104
 		},
-		event_tolove = {
-			107
-		},
 		event_boat_ad_game = {
 			105
+		},
+		event_blackFriday = {
+			106
+		},
+		event_tolove = {
+			107
 		}
 	},
 	all = {
@@ -326,9 +361,11 @@ pg.activity_link_button = {
 		100,
 		101,
 		102,
+		103,
 		104,
-		107,
 		105,
+		106,
+		107,
 		108
 	}
 }

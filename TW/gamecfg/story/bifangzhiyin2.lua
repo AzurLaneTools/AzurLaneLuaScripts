@@ -9,7 +9,7 @@ return {
 			bgm = "story-cccp-soft",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "北方联合境内·某处",
+			say = "北方聯合境內·某處",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "房间内是柔和的灯光与炉火，桌子上是热乎乎的菜与汤。",
+			say = "房間內是柔和的燈光與爐火，桌上是熱騰騰的菜與湯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_160",
 			hidePaintObj = true,
-			say = "纵使窗外天寒地冻，狂风呼啸，也无法将此刻的温暖之景动摇分毫。",
+			say = "縱使窗外天寒地凍，狂風呼嘯，也無法將此刻的溫暖之景動搖分毫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 701020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "刚出锅的汤，很好喝哦。",
+			say = "剛出鍋的湯，很好喝。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			actor = 701020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心，我先喝给你看。吨吨吨——",
+			say = "不用擔心，我先喝給妳看。噸噸噸——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -115,7 +115,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（明明都决定要主动避开了……）",
+			say = "（明明都決定要主動避開了……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -133,7 +133,7 @@ return {
 			actor = 701020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……给你，喝点暖暖身子吧。",
+			say = "呼……給妳，喝點暖暖身子吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -151,7 +151,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（为什么，会变成这样……？）",
+			say = "（為什麼，會變成這樣……？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			actor = 705010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉，你这身装备都打得烂成这样了……",
+			say = "唉，妳這套裝備都打得爛成這樣了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			actor = 705010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一路上都有谁欺负你了，尽管说出来，同志，我们替你报仇！",
+			say = "一路上都有誰欺負妳了，儘管說出來，同志，我們替妳報仇！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -205,7 +205,7 @@ return {
 			actor = 702050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等……甘古特，现在不是问这些问题的合适时机。",
+			say = "等等……甘古特，現在不是問這些問題的好時機。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -223,7 +223,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错没错~人家历尽千辛万苦才流浪过来，过去的那些不愉快哪里是现在该问的！",
+			say = "沒錯沒錯~人家歷盡千辛萬苦才流浪過來，過去的那些不愉快哪裡是現在該問的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			actor = 701090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心，基洛夫·META同志。你安心休息，装备维修的事就放心交给我吧~",
+			say = "不用擔心，基洛夫·META同志。…安心休息，裝備維修的事就放心交給我吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（呃……流浪？她们在说什么？）",
+			say = "（呃……流浪？她們在說什麼？）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唉……没想到那个水星纪念·META嘴里居然有几句真话。",
+			say = "唉……沒想到那個水星紀念·META嘴裡居然有幾句真話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你真的是从遥远的地方历尽艰辛流浪过来的啊……",
+			say = "…真的是從遙遠的地方歷盡艱辛流浪過來的啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不论如何，既然来了，北方联合就是你的家。",
+			say = "不論如何，既然來了，北方聯合就是你的家。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你先静养一段时间，有什么需要请尽管提，千万不要跟我们客气。",
+			say = "…先靜養一段時間，有什麼需要請儘管提，千萬不要跟我們客氣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（……这个可恶的水星纪念，到底给这里的人说了些什么乱七八糟的东西。）",
+			say = "（……這個可惡的水星紀念，到底給這裡的人說了些什麼亂七八糟的東西。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -365,7 +365,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（……不过，至少可以证明，她就在此地，并且已经执行了一次并不怎么成功的行动。）",
+			say = "（……不過，至少可以證明，她就在此地，並且已經執行了一次並不怎麼成功的行動。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -383,7 +383,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（也就是说……一切都还来得及。）",
+			say = "（也就是說……一切都還來得及。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（或许……我还有时间做更多的事……）",
+			say = "（或許……我還有時間做更多的事……）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（……伙伴们。）",
+			say = "（……夥伴們。）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（……看来，我要在此处多留一段时间了。）",
+			say = "（……看來，我要在這裡多待一段時間了。）",
 			painting = {
 				alpha = 0.3,
 				time = 1

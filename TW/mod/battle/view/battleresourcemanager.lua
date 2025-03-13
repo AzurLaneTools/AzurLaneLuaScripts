@@ -936,12 +936,11 @@ slot5.GetEquipResource = function(slot0, slot1, slot2)
 	end
 
 	for slot10, slot11 in ipairs(slot4.skill_id) do
-		if slot2 then
-			slot11 = uv0.Battle.BattleDataFunction.SkillTranform(slot2, slot11) or slot11
-		end
+		slot12 = slot2 and uv0.Battle.BattleDataFunction.SkillTranform(slot2, slot11[1]) or slot11[1]
+		slot13 = slot11[2] or 1
 
-		for slot16, slot17 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot11, 1, {})) do
-			slot3[#slot3 + 1] = slot17
+		for slot18, slot19 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot12, slot13, {})) do
+			slot3[#slot3 + 1] = slot19
 		end
 	end
 
@@ -1073,6 +1072,16 @@ slot5.GetStageResource = function(slot0)
 	slot3 = {}
 
 	for slot7, slot8 in ipairs(uv0.Battle.BattleDataFunction.GetDungeonTmpDataByID(slot0).stages) do
+		if slot8.stageBuff then
+			for slot12, slot13 in ipairs(slot8.stageBuff) do
+				for slot18, slot19 in ipairs(uv0.Battle.BattleDataFunction.GetResFromBuff(slot13.id, slot13.level, {})) do
+					print(slot19)
+
+					slot2[#slot2 + 1] = slot19
+				end
+			end
+		end
+
 		for slot12, slot13 in ipairs(slot8.waves) do
 			if slot13.triggerType == uv0.Battle.BattleConst.WaveTriggerType.NORMAL then
 				for slot17, slot18 in ipairs(slot13.spawn) do

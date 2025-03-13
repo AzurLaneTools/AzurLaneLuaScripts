@@ -51,7 +51,8 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.buttonContainer = slot5:Find("Weapon_button_container")
 
 	for slot9 = 1, 3 do
-		slot10 = ys.Battle.BattleWeaponButton.New()
+		slot10 = nil
+		slot10 = (not ys.Battle["BattleWeaponButton" .. slot4] or ys.Battle["BattleWeaponButton" .. slot4].New()) and ys.Battle.BattleWeaponButton.New()
 		slot11 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
 		skinName = "Skill_" .. slot9
 		slot12 = {}

@@ -94165,11 +94165,11 @@ _G.pg.base.ship_data_template[506011] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		20
@@ -94215,11 +94215,11 @@ _G.pg.base.ship_data_template[506012] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		21
@@ -94265,11 +94265,11 @@ _G.pg.base.ship_data_template[506013] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		21,
@@ -94316,11 +94316,11 @@ _G.pg.base.ship_data_template[506014] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		22,
@@ -94371,11 +94371,11 @@ _G.pg.base.ship_data_template[506114] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		22,
@@ -94421,11 +94421,11 @@ _G.pg.base.ship_data_template[506021] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		20
@@ -94469,11 +94469,11 @@ _G.pg.base.ship_data_template[506022] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		21
@@ -94517,11 +94517,11 @@ _G.pg.base.ship_data_template[506023] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		21,
@@ -94566,11 +94566,11 @@ _G.pg.base.ship_data_template[506024] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		22,
@@ -94619,11 +94619,11 @@ _G.pg.base.ship_data_template[506124] = {
 	},
 	equip_4 = {
 		10,
-		14
+		15
 	},
 	equip_5 = {
 		10,
-		14
+		15
 	},
 	airassist_time = {
 		22,
@@ -122088,7 +122088,11 @@ _G.pg.base.ship_data_template[900445] = {
 		10
 	},
 	airassist_time = {},
-	buff_list = {},
+	buff_list = {
+		150210,
+		150220,
+		28222
+	},
 	buff_list_display = {},
 	hide_buff_list = {}
 }

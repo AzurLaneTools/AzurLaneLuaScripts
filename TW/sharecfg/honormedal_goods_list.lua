@@ -511,6 +511,7 @@ pg.honormedal_goods_list = {
 		goods_icon = "Props/54000",
 		order = 0,
 		goods = {
+			301161,
 			401461,
 			801011,
 			901111
@@ -579,7 +580,10 @@ pg.honormedal_goods_list = {
 			105131,
 			304051,
 			305081,
-			405011
+			405011,
+			305051,
+			105191,
+			905011
 		}
 	},
 	{
@@ -616,6 +620,7 @@ pg.honormedal_goods_list = {
 		goods_icon = "Props/54000",
 		order = 1,
 		goods = {
+			301161,
 			401461,
 			801011,
 			901111
@@ -684,7 +689,10 @@ pg.honormedal_goods_list = {
 			105131,
 			304051,
 			305081,
-			405011
+			405011,
+			305051,
+			105191,
+			905011
 		}
 	},
 	{

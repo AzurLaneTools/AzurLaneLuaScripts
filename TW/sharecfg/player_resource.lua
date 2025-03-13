@@ -1665,6 +1665,36 @@ pg.player_resource = {
 		name = "skinTicket87",
 		itemid = 65077
 	},
+	[472] = {
+		id = 472,
+		name = "limit_skinticket13",
+		itemid = 68042
+	},
+	[473] = {
+		id = 473,
+		name = "limit_skinticket14",
+		itemid = 68043
+	},
+	[474] = {
+		id = 474,
+		name = "limit_skinticket15",
+		itemid = 68044
+	},
+	[475] = {
+		id = 475,
+		name = "skinTicket88",
+		itemid = 65080
+	},
+	[476] = {
+		id = 476,
+		name = "lafeier_pt",
+		itemid = 65081
+	},
+	[477] = {
+		id = 477,
+		name = "activity_xunzhang3",
+		itemid = 65540
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3185,6 +3215,24 @@ pg.player_resource = {
 		skinTicket87 = {
 			471
 		},
+		limit_skinticket13 = {
+			472
+		},
+		limit_skinticket14 = {
+			473
+		},
+		limit_skinticket15 = {
+			474
+		},
+		skinTicket88 = {
+			475
+		},
+		lafeier_pt = {
+			476
+		},
+		activity_xunzhang3 = {
+			477
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3832,6 +3880,12 @@ pg.player_resource = {
 		469,
 		470,
 		471,
+		472,
+		473,
+		474,
+		475,
+		476,
+		477,
 		950,
 		951,
 		952,

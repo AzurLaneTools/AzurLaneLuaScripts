@@ -4246,7 +4246,7 @@ pg.equip_upgrade_template = {
 		},
 		canvasPadding = {
 			1,
-			8
+			4
 		},
 		gridSize = {
 			45,

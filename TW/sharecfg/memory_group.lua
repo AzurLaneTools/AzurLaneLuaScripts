@@ -176,6 +176,7 @@ pg.memory_group = setmetatable({
 		284,
 		285,
 		286,
+		287,
 		288,
 		290,
 		292,
@@ -4168,6 +4169,23 @@ pg.base.memory_group = {
 			3543,
 			3544,
 			3545
+		}
+	},
+	[287] = {
+		title = "彼方之音",
+		subtype = 1,
+		link_event = 5341,
+		type = 2,
+		id = 287,
+		icon = "title_event",
+		memories = {
+			3551,
+			3552,
+			3553,
+			3554,
+			3555,
+			3556,
+			3557
 		}
 	},
 	[288] = {

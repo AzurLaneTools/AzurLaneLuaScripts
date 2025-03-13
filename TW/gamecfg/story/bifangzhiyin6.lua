@@ -9,7 +9,7 @@ return {
 			bgm = "theme-shallowoftheworld",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一片漆黑中，仅有仪表盘散发的微弱荧光。",
+			say = "一片漆黑中，僅有儀錶板散發的微弱螢光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "游离在四周的电流音与滴答声表明，这里似乎是一处控制室。",
+			say = "遊離在四周的電流音與滴答聲表明，這裡似乎是一處控制室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,11 +47,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "……检索……开始。",
+			say = "……檢索……開始。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "漂浮在半空中的苍白色身影从黑暗中悄然浮现。",
+			say = "漂浮在半空中的蒼白身影從黑暗中悄悄浮現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,11 +72,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "……验证完成，启动「死神之桥」。",
+			say = "……驗證完成，啟動「死神之橋」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,14 +87,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "完成了必要的认证后，苍白色身影再次隐入黑暗。",
+			say = "完成了必要的認證後，蒼白身影再次隱藏在黑暗中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "交换机「死神之桥」",
+			actorName = "交換器「死神之橋」",
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
@@ -110,7 +110,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "与氛围有些格格不入的夸张提示音响起，投影虚像出现在半空中。",
+			say = "與氛圍有些格格不入的誇張提示音響起，投影虛像出現在半空中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,12 +120,12 @@ return {
 			portrait = 900335,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“恶魔”",
-			actorName = "仲裁者·迪贝路·XV",
+			factiontag = "「惡魔」",
+			actorName = "仲裁者·迪貝路·XV",
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…[杂音]…噗哈哈哈哈…[杂音]…没忍住帮了个忙…[杂音]…",
+			say = "…[雜音]…噗哈哈哈哈…[雜音]…沒忍住幫了個忙…[雜音]…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,23 +135,23 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "…………“恶魔”。",
+			say = "…………「惡魔」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "交换机「死神之桥」",
+			actorName = "交換器「死神之橋」",
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哐哐哐——哒哒哒——",
+			say = "噠噠噠——噠噠噠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -161,12 +161,12 @@ return {
 			portrait = 900285,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“力量”",
-			actorName = "仲裁者·司特莲库斯·VIII",
+			factiontag = "「力量」",
+			actorName = "仲裁者·司特蓮庫斯·VIII",
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…[杂音]…检测到空间冲击事件…[杂音]…调整任务列表优先级…[杂音]…",
+			say = "…[雜音]…偵測到空間衝擊事件…[雜音]…調整任務清單優先級…[雜音]…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,23 +176,23 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "…………“力量”。",
+			say = "…………「力量」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "交换机「死神之桥」",
+			actorName = "交換器「死神之橋」",
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哔哔哔——啪啪啪——",
+			say = "嗶嗶嗶——啪啪啪——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,12 +202,12 @@ return {
 			portrait = 900320,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“恋人”",
+			factiontag = "「戀人」",
 			actorName = "仲裁者·拉沃斯·VI",
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…[杂音]…仅凭这样…[杂音]…远远不够…[杂音]…你的战场在这里…[杂音]…",
+			say = "…[雜音]…僅憑這樣…[雜音]…遠遠不夠…[雜音]…你的戰場在這裡…[雜音]…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,18 +217,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "…………“恋人”。",
+			say = "…………「戀人」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "交换机「死神之桥」",
+			actorName = "交換器「死神之橋」",
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
@@ -243,12 +243,12 @@ return {
 			portrait = 900431,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“月亮”",
+			factiontag = "「月亮」",
 			actorName = "仲裁者·沐恩·XVIII",
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "…[杂音]…坐标过于遥远…[杂音]…无法提供援助…[杂音]…",
+			say = "…[雜音]…座標太遙遠…[雜音]…無法提供援助…[雜音]…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,23 +258,23 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "…………“月亮”。",
+			say = "…………「月亮」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "交换机「死神之桥」",
+			actorName = "交換器「死神之橋」",
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哐哐哐——哒哒哒——",
+			say = "噠噠噠——噠噠噠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,12 +284,12 @@ return {
 			portrait = 900191,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“女皇”",
+			factiontag = "「女皇」",
 			actorName = "仲裁者·恩普雷斯·III",
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "—[警告]—监听权限不足—[警告]—",
+			say = "—[警告]—監聽權限不足—[警告]—",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,23 +299,23 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "…………“女皇”。",
+			say = "…………「女皇」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "交换机「死神之桥」",
+			actorName = "交換器「死神之橋」",
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哔哔哔——啪啪啪——",
+			say = "嗶嗶嗶——啪啪啪——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			portrait = 900356,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“塔”",
+			factiontag = "「塔」",
 			actorName = "仲裁者·托瓦·XVI",
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
@@ -340,12 +340,12 @@ return {
 			portrait = 900356,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“塔”",
+			factiontag = "「塔」",
 			actorName = "仲裁者·托瓦·XVI",
 			portraitNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——您所监听的用户已不在服务区，请在滴声后留言——",
+			say = "——您所監聽的用戶已不在服務區，請在滴聲後留言——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,18 +355,18 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "…………“塔”。",
+			say = "…………「塔」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "交换机「死神之桥」",
+			actorName = "交換器「死神之橋」",
 			side = 2,
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
@@ -381,12 +381,12 @@ return {
 			portrait = 900430,
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“？”",
+			factiontag = "「？」",
 			actorName = "？？？",
 			portraitNoise = true,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "…[杂音]…喂…[杂音]…快发车快发车…[杂音]…快发车…[杂音]…",
+			say = "…[雜音]…喂…[雜音]…快遞車快車…[雜音]…快遞車…[雜音]…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,11 +396,11 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_camelot_4",
-			factiontag = "“死神”",
+			factiontag = "「死神」",
 			actor = 900428,
 			actorName = "？？？·XIII",
 			hidePaintObj = true,
-			say = "…………找到你了。",
+			say = "…………找到妳了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

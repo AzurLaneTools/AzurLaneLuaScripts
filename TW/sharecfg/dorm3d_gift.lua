@@ -17,6 +17,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20301
+			},
+			{
+				19903,
+				30301
 			}
 		},
 		shop_id = {},
@@ -26,6 +30,18 @@ pg.dorm3d_gift = {
 				20220,
 				{
 					"banner_test"
+				}
+			},
+			{
+				30221,
+				{
+					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
+				{
+					"banner_ankeleiqigift"
 				}
 			}
 		}
@@ -47,6 +63,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20302
+			},
+			{
+				19903,
+				30302
 			}
 		},
 		shop_id = {
@@ -62,6 +82,18 @@ pg.dorm3d_gift = {
 				20220,
 				{
 					"banner_test"
+				}
+			},
+			{
+				30221,
+				{
+					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
+				{
+					"banner_ankeleiqigift"
 				}
 			}
 		}
@@ -83,6 +115,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20303
+			},
+			{
+				19903,
+				30303
 			}
 		},
 		shop_id = {
@@ -95,6 +131,18 @@ pg.dorm3d_gift = {
 				20220,
 				{
 					"banner_test"
+				}
+			},
+			{
+				30221,
+				{
+					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
+				{
+					"banner_ankeleiqigift"
 				}
 			}
 		}

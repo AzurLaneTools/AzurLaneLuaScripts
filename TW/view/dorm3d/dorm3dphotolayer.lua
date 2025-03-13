@@ -328,6 +328,13 @@ slot0.didEnter = function(slot0)
 				NotificationMgr.Inst:PlayShutterSound()
 			end
 
+			getProxy(Dorm3dChatProxy):TriggerEvent({
+				{
+					value = 1,
+					event_type = 160,
+					ship_id = uv0.scene.apartment:GetConfigID()
+				}
+			})
 			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.scene.apartment:GetConfigID(), 1, uv0.room:GetConfigID(), Dorm3dTrackCommand.BuildCameraMsg(uv0.room:GetCameraZones()[uv0.zoneIndex]:GetName(), Dorm3dCameraAnim.New({
 				configId = uv0.animID
 			}):GetStateName(), uv0.cameraSettings.depthOfField.focusDistance.value, uv0.cameraSettings.depthOfField.blurRadius.value, uv0.cameraSettings.postExposure.value, uv0.cameraSettings.contrast.value, uv0.cameraSettings.saturate.value)))
@@ -653,8 +660,6 @@ slot0.UpdateActionPanel = function(slot0)
 				uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot7)
 			end
 
-			uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
-
 			if slot0.index > #slot0.animPlayList then
 				uv4()
 				uv0.timerAnim:Stop()
@@ -735,9 +740,7 @@ slot0.UpdateActionPanel = function(slot0)
 		end)
 	end
 
-	slot12 = slot0.room:GetCameraZones()[slot0.zoneIndex]
-
-	slot13 = function(slot0, slot1)
+	slot11 = function(slot0, slot1)
 		slot2 = slot1:Find("Actions")
 
 		UIItemList.StaticAlign(slot2, slot2:GetChild(0), #slot0.anims, function (slot0, slot1, slot2)
@@ -811,9 +814,9 @@ slot0.UpdateActionPanel = function(slot0)
 				uv1.settingSpecialFurnitureIndex = uv2
 			end
 
-			uv3(uv4, uv5, uv2)
-			uv6()
+			uv3()
 		end)
+		uv4(slot3, slot2)
 	end)
 	(function ()
 		UIItemList.StaticAlign(uv0, uv0:GetChild(0), #uv1, function (slot0, slot1, slot2)
@@ -860,7 +863,7 @@ end
 slot0.GetAnimPlayList = function(slot0, slot1)
 	slot2 = slot1
 	slot3 = {}
-	slot4 = 10
+	slot4 = 100
 
 	while true do
 		if not Dorm3dCameraAnim.New({
@@ -1238,13 +1241,13 @@ slot0.UpdateSkinList = function(slot0)
 
 						for slot5 = #uv1.animInfo.animPlayList, 1, -1 do
 							if #slot1.animPlayList[slot5]:GetStartPoint() > 0 then
-								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", slot7)
+								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot7)
 
 								break
 							end
 
 							if slot5 == 1 then
-								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCharPoint", uv1.room:GetCameraZones()[uv1.zoneIndex]:GetWatchCameraName())
+								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", uv1.room:GetCameraZones()[uv1.zoneIndex]:GetWatchCameraName())
 							end
 						end
 

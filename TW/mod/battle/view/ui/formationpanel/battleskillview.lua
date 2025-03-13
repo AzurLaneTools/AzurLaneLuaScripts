@@ -164,19 +164,20 @@ slot2.InitBtns = function(slot0)
 end
 
 slot2.generateCommonButton = function(slot0, slot1)
-	slot2 = uv0.Battle.BattleWeaponButton.New()
+	slot3 = nil
+	slot3 = (not uv0.Battle["BattleWeaponButton" .. uv0.Battle.BattleState.GetCombatSkinKey()] or uv0.Battle["BattleWeaponButton" .. slot2].New()) and uv0.Battle.BattleWeaponButton.New()
 	slot0._progressSkin = slot0._progressSkin or slot0._ui:findTF("Weapon_button_progress")
-	slot3 = cloneTplTo(slot0._progressSkin, slot0._buttonContainer)
-	slot3.name = "Skill_" .. slot1
+	slot4 = cloneTplTo(slot0._progressSkin, slot0._buttonContainer)
+	slot4.name = "Skill_" .. slot1
 
-	slot0.SetSkillButtonPreferences(slot3, slot1)
-	slot2:ConfigSkin(slot3)
-	slot2:SwitchIcon(slot1)
-	slot2:SwitchIconEffect(slot1)
-	slot2:SetTextActive(true)
-	table.insert(slot0._skillBtnList, slot2)
+	slot0.SetSkillButtonPreferences(slot4, slot1)
+	slot3:ConfigSkin(slot4)
+	slot3:SwitchIcon(slot1)
+	slot3:SwitchIconEffect(slot1)
+	slot3:SetTextActive(true)
+	table.insert(slot0._skillBtnList, slot3)
 
-	return slot2
+	return slot3
 end
 
 slot2.generateSubmarineFuncButton = function(slot0, slot1)

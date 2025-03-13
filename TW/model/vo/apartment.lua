@@ -9,6 +9,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.callName = slot1.name
 	slot0.setCallCd = slot1.name_cd
 	slot0.setCallTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
+	slot0.visitTime = slot1.visit_time
 	slot0.skinList = {}
 
 	table.insert(slot0.skinList, slot0:getConfig("skin_model"))

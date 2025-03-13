@@ -292,7 +292,7 @@ slot2 = function(slot0, slot1)
 	slot3 = underscore.filter(slot1:GetPropertiesInfo().attrs, function (slot0)
 		return not slot0.type or slot0.type ~= AttributeType.AntiSiren
 	end)
-	slot5 = slot1:getConfig("skill_id")[1] and slot1:isDevice() and {
+	slot6 = slot1:getConfig("skill_id")[1] and slot4[1][1] and slot1:isDevice() and {
 		1,
 		2,
 		5
@@ -303,21 +303,21 @@ slot2 = function(slot0, slot1)
 		3
 	}
 
-	for slot9, slot10 in ipairs(slot5) do
-		setActive(slot2:Find("attr_" .. slot10), true)
+	for slot10, slot11 in ipairs(slot6) do
+		setActive(slot2:Find("attr_" .. slot11), true)
 
-		if slot10 == 5 then
-			setText(slot11:Find("value"), getSkillName(slot4))
+		if slot11 == 5 then
+			setText(slot12:Find("value"), getSkillName(slot5))
 		else
-			slot12 = ""
 			slot13 = ""
+			slot14 = ""
 
 			if #slot3 > 0 then
-				slot12, slot13 = Equipment.GetInfoTrans(table.remove(slot3, 1))
+				slot13, slot14 = Equipment.GetInfoTrans(table.remove(slot3, 1))
 			end
 
-			setText(slot11:Find("tag"), slot12)
-			setText(slot11:Find("value"), slot13)
+			setText(slot12:Find("tag"), slot13)
+			setText(slot12:Find("value"), slot14)
 		end
 	end
 end

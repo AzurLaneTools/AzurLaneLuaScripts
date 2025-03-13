@@ -1,4 +1,5 @@
 slot0 = class("StarLightMedalAlbumView", import("view.base.BaseUI"))
+slot0.ICON_SCALE = 1.35
 
 slot0.SetMedalGroupData = function(slot0, slot1)
 	slot0.medalGroupList = slot1
@@ -57,6 +58,9 @@ slot0.FindUI = function(slot0)
 	slot0.medalLock = slot0:findTF("Desk/medal")
 	slot0.trophyLock = slot0:findTF("Desk/trophy")
 	slot0.medalDetailView = MedalDetailPanel.New(slot0:findTF("DetailView"), slot0)
+
+	slot0.medalDetailView:SetIconScale(slot0.ICON_SCALE)
+
 	slot0.medalTaskView = MedalTaskPanel.New(slot0:findTF("TaskView"), slot0)
 end
 

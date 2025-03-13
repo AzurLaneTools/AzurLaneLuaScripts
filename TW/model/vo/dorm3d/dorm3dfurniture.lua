@@ -99,7 +99,9 @@ slot0.GetEndTime = function(slot0)
 		return 0
 	end
 
-	if pg.shop_template[slot1].time == "always" or slot3 == "stop" then
+	assert(pg.shop_template[slot1], "Missing shopCfg " .. (slot1 or "NIL"))
+
+	if slot2.time == "always" or slot3 == "stop" then
 		return 0
 	end
 

@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-sooth",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾教国·会场",
+			say = "鳶尾教國·會場",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼~哼哼，磨了那么久，最后还不是要老老实实推进我们这份方案。",
+			say = "呼~哼哼，磨了那麼久，最後還不是要老老實實推動我們這份方案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "今天一天也辛苦了，指挥官。",
+			say = "今天一天也辛苦了，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -75,7 +75,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来咱们——",
+			say = "接下來我們——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -92,7 +92,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……居然已经这个时间了……",
+			say = "嗯……居然已經這個時間了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -110,7 +110,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我有一个紧急提案的磋商会要去参加，晚饭我们就各自解决吧。",
+			say = "指揮官，我有一個緊急提案的協商會要去參加，晚餐我們就各自解決吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "别嫌麻烦就不吃了哦！",
+			say = "別嫌麻煩就不吃了哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,11 +139,11 @@ return {
 			},
 			options = {
 				{
-					content = "没问题。",
+					content = "沒問題。",
 					flag = 1
 				},
 				{
-					content = "也帮你带一些！",
+					content = "也幫妳帶一些！",
 					flag = 2
 				}
 			}
@@ -176,7 +176,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用麻烦啦，我有种要在会议室里苦战一番的预感。",
+			say = "不用麻煩啦，我有種要在會議室裡苦戰一番的預感。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -195,7 +195,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开完会之后我随便找点吃的就好啦！",
+			say = "開完會之後我隨便找點吃的就好啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕……必须得立刻动身了，那么指挥官，我先告辞了~！",
+			say = "糟糕……必須得立刻動身了，那麼指揮官，我先告辭了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -237,7 +237,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_545",
-			say = "告别了孟菲斯后，我也离开了沉闷的会场。",
+			say = "告別了曼非斯後，我也離開了沉悶的會場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "迈出脚步，预想中的夕阳没有洒下。",
+			say = "踏出腳步，預想中的夕陽沒有灑下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "映入眼帘的是——璀璨的星河。",
+			say = "映入眼簾的是－璀璨的星河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "晚上好哦，指挥官。",
+			say = "晚上好哦，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……海伦娜，之前不是说好了，用这种通讯方式拉人之前多少预警一下……",
+			say = "……海倫娜，之前不是說好了，用這種通訊方式拉人之前多少預警一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……难道有紧急情况？",
+			say = "……難道有緊急狀況？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯…[杂音]…这次事出紧急，我顾不了那么多了…[杂音]…",
+			say = "嗯…[雜音]…這次事出緊急，我顧不了那麼多了…[雜音]…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -366,7 +366,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "出什么事了？",
+			say = "出什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…计划…[杂音]…有变…[杂音]…",
+			say = "…[雜音]…計畫…[雜音]…有變…[雜音]…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…情况比…[杂音]…预想中…[杂音]…更复杂…[杂音]…",
+			say = "…[雜音]…情況比…[雜音]…預想中…[雜音]…更複雜…[雜音]…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "通讯状况不稳定……？",
+			say = "通訊狀況不穩定…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜，我听不清你在说什么，你的影像也开始抖动了！",
+			say = "海倫娜，我聽不清楚妳在說什麼，妳的影像也開始抖動了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…听不清…[杂音]…稍等…[杂音]…检查一下…[杂音]…",
+			say = "…[雜音]…聽不清楚…[雜音]…稍等…[雜音]…檢查一下…[雜音]…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -462,7 +462,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…难道说…[杂音]…干扰源…[杂音]…",
+			say = "…[雜音]…難道說…[雜音]…干擾源…[雜音]…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[杂音]…客房…[杂音]…",
+			say = "…[雜音]…客房…[雜音]…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -500,7 +500,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "…[持续不断地杂音]…",
+			say = "…[持續不斷地雜音]…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -516,7 +516,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜……？！",
+			say = "海倫娜……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "伴随着杂音的增加，海伦娜·META的影像逐渐扭曲，终于碎成了一片蓝色光点，转瞬即逝。",
+			say = "伴隨著雜音的增加，海倫娜·META的影像逐漸扭曲，終於碎成了一片藍色光點，轉瞬即逝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,19 +538,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "远方的无垠星海，似乎也发生了一丝微不可查的波动。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "海伦娜说过，这里是“塔”的内部，一处绝对安全的通讯空间。",
+			say = "遠方的無垠星海，似乎也發生了一絲微不可查的波動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +550,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "别说干扰了，一般人甚至没有发现这里的能力……",
+			say = "海倫娜說過，這裡是「塔」的內部，一處絕對安全的通訊空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +562,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么会发生这种事……",
+			say = "別說干擾了，一般的塞壬甚至沒有發現這裡的能力……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +574,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "海伦娜在通讯的最后……似乎提到了“干扰源”和“客房”。",
+			say = "怎麼會發生這種事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +586,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道是指……干扰源在会场中的某间客房里？",
+			say = "海倫娜在通訊的最後……似乎提到了「干擾源」和「客房」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +598,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这样的话，必须得尽快对会场各处进行一次细致排查……",
+			say = "難道是指…干擾源在會場中的某間客房？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +610,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果有人想效仿博览会闭幕式，在会场再掀起一次“陆上神国”，将参会方一网打尽的话……",
+			say = "這樣的話，必須得盡快對會場各處進行一次細緻排查……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +622,19 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……后果不堪设想。",
+			say = "如果有人想效仿博覽會閉幕式，在會場再掀起一次「陸上神國」，將與會方一網打盡的話……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "……後果不堪設想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,7 +648,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果海潮还未褪去，何谈重来？",
+			say = "如果海潮還未褪去，何談重來？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -689,7 +689,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "水星纪念·META提到了三个目的，你大概只挫败了其中一个而已。",
+			say = "水星紀念·META提到了三個目的，你大概只挫敗了其中一個而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "剩下两个她有何打算，你想过么？",
+			say = "剩下兩個她有何打算，你想過嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			actor = 9702010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "小心身边，这场事件还远未结束哦——",
+			say = "小心身邊，這場事件還遠遠沒有結束哦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道在安塔提卡的时候只是预演，这里才是真正目标么……！",
+			say = "難道在南極的時候只是預演，這裡才是真正目標嗎……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……上次战斗中，她确实展现出了能够干扰海伦娜所主导的通讯网络的能力……",
+			say = "……上次戰鬥中，她確實展現了能夠干擾海倫娜所主導的通訊網路的能力……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "糟糕，得尽快通知其他人才行。",
+			say = "糟糕，得盡快通知其他人才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,19 +799,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "环顾四周，映入眼帘的只有无尽星河。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "……说起来，以前离开这里，依靠的都是海伦娜的力量。",
+			say = "環顧四周，映入眼簾的只有無盡星河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -823,7 +811,19 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在她不在了，要怎么从这里回去呢……？",
+			say = "……說起來，以前離開這裡，依靠的都是海倫娜的力量。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "現在她不在了，要怎麼從這裡回去呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,19 +842,19 @@ return {
 			},
 			options = {
 				{
-					content = "大声呼喊",
+					content = "大聲呼喊",
 					flag = 1
 				},
 				{
-					content = "寻找出口",
+					content = "尋找出口",
 					flag = 2
 				},
 				{
-					content = "从高处跳下",
+					content = "從高處跳下",
 					flag = 3
 				},
 				{
-					content = "利用“死亡”",
+					content = "利用「死亡」",
 					flag = 4
 				}
 			}
@@ -867,7 +867,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂——有人么！能告诉我怎么从这里退出么！",
+			say = "喂——有人嗎！能告訴我怎麼從這裡退出嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "呼喊声很快消散在广袤的空间中。远方，依旧是无垠星河。",
+			say = "呼喊聲很快消散在廣闊的空間中。遠方，依舊是無垠星河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "（或许，在这里藏着某个可以直接退出的出口设施……）",
+			say = "（或許，這裡藏著某個可以直接退出的出口設施……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "再次环顾四周。上下左右，四面八方，映入眼帘的只有无垠星河。",
+			say = "再次環顧四周。上下左右，四面八方，映入眼簾的只有無垠星河。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -917,7 +917,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 3,
-			say = "（这里和梦境类似，或许利用“失重感”就能强行离开这里……）",
+			say = "（這裡和夢境類似，或許利用「失重感」就能強行離開這裡……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -929,7 +929,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "下定决心后，你试图寻找一个有高度落差的地方跳下。",
+			say = "下定決心後，你試著找一個有高度落差的地方跳下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			optionFlag = 3,
-			say = "然而，不可见的平坦地板仿佛无穷无尽地延伸向远方。寻找了一会后，你终于放弃了。",
+			say = "然而，不可見的平坦地板彷彿無窮無盡地延伸向遠方。尋找了一陣子後，你終於放棄了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -954,7 +954,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
-			say = "（这里和梦境类似，或许利用“死亡”就能强行离开这里……）",
+			say = "（這裡和夢境類似，或許利用「死亡」就能強行離開這裡……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -967,7 +967,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
-			say = "（不过……这里毕竟并不是真正的梦。）",
+			say = "（不過……這裡畢竟不是真正的夢。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -980,7 +980,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 4,
-			say = "（在没有确切情报前，不应该尝试寻求“死亡”这种危险的举动……）",
+			say = "（在沒有確切情報前，不應該嘗試尋求「死亡」這種危險的舉動…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -992,7 +992,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/fengling",
-			say = "突然间，耳边依稀响起了风铃的声音。",
+			say = "突然間，耳邊依稀響起了風鈴的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1005,7 +1005,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（又是风铃声……？）",
+			say = "（又是風鈴聲……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1033,7 +1033,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "伴随风铃声一同出现的，还有一扇门。",
+			say = "伴隨風鈴聲一同出現的，還有一扇門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1045,7 +1045,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……出现在白色空间中的门并不少见。",
+			say = "……出現在白色空間的門並不少見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1057,7 +1057,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是出现在其他空间中的门，这还是第一次见。",
+			say = "但是出現在其他空間的門，這還是第一次見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1069,7 +1069,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道这里是……海伦娜留下来的应急出口？",
+			say = "難道這裡是……海倫娜留下來的緊急出口？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1080,19 +1080,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "四周无人回答，仅有一扇门静静悬浮在璀璨星河中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "看来……这扇门似乎是我唯一的选择了。",
+			say = "四周無人回答，僅有一扇門靜靜懸浮在璀璨星河中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1104,7 +1092,19 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……进去看看吧。",
+			say = "看來……這扇門似乎是我唯一的選擇了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "……進去看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -74,7 +74,7 @@ slot0.GetSkinClassify = function(slot0, slot1, slot2)
 	end
 
 	if underscore.any(slot1, function (slot0)
-		return uv0[slot0]
+		return uv0[slot0.id]
 	end) then
 		table.insert(slot3, uv1)
 	end

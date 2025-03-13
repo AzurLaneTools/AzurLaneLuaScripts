@@ -432,6 +432,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「跨越冰山，穿越雪原，定義自我，見證未來。」</color>\n「雪境迷蹤」活動獲取",
 		scene = {}
 	},
+	[330] = {
+		name = "幻夢守護者",
+		gain_by = "绽放于辉光之城 ",
+		time_second = 0,
+		id = 330,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	},
 	[331] = {
 		name = "澎湃之心",
 		gain_by = "鐵翼擎風",
@@ -733,6 +742,7 @@ pg.item_data_frame = {
 		327,
 		328,
 		329,
+		330,
 		331,
 		401,
 		402,

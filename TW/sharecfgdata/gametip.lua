@@ -12000,17 +12000,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "蘇維埃俄羅斯 建造追加！"
+	tip = "豪、英勇 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "塔什干、恰巴耶夫、威嚴、水星紀念 建造追加！"
+	tip = "赫敏 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "華甲、忒修斯 建造追加！"
+	tip = "英仙座、鷹 建造追加！"
 }
 
 

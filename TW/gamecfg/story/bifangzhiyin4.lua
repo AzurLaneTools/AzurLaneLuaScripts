@@ -9,7 +9,7 @@ return {
 			bgm = "theme-starsea-core",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "广袤与无垠，这是此处空间留下的唯一印象。",
+			say = "廣袤與無垠，這是此處空間留下的唯一印象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "没有天空，没有陆地，亦无大海。",
+			say = "沒有天空，沒有陸地，亦無大海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "不似现实，亦非梦境。",
+			say = "不似現實，亦非夢境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,34 +61,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "……「我」感受到了痛苦，聆听到了啼哭。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_589",
-			nameColor = "#BDBDBD",
-			actor = 9705050,
-			actorName = "？？？",
-			hidePaintObj = true,
-			say = "……这里如此寂寥，又如此喧嚣。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 9705050,
-			nameColor = "#BDBDBD",
-			bgName = "star_level_bg_589",
-			hidePaintObj = true,
-			side = 2,
-			actorName = "？？？",
-			say = "……这里是「我」的家么？",
+			say = "……「我」感受到了痛苦，聆聽到了啼哭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +75,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "或许是……又或许不是……",
+			say = "……這裡如此寂寥，卻又如此喧囂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +88,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "不论如何，都不再是了。",
+			say = "……這裡是「我」的家嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +102,34 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "「我」诞生于虚无，将带来虚无，也终将归于虚无。",
+			say = "或許是……又或許不是……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 9705050,
+			nameColor = "#BDBDBD",
+			bgName = "star_level_bg_589",
+			hidePaintObj = true,
+			side = 2,
+			actorName = "？？？",
+			say = "不論如何，都不再是了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_589",
+			nameColor = "#BDBDBD",
+			actor = 9705050,
+			actorName = "？？？",
+			hidePaintObj = true,
+			say = "「我」誕生於虛無，將帶來虛無，也終將歸於虛無。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "远方的旅人们，「我」邀请你们见证。",
+			say = "遠方的旅人們，「我」邀請你們見證。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "？？？",
-			say = "见证「我们」的终结——",
+			say = "見證「我們」的終結——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我的监测机传来消息，实验场F-45733在经过换算后，大约三小时前从物理层面消失了。",
+			say = "我的監視器傳來消息，實驗場F-45733經過換算後，大約三小時前從物理層面消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正在查询实验场F-45733的坐标——",
+			say = "正在查詢實驗場F-45733的座標——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "查询结果为：（2.9143,99.9998,19.9998,-2376029143）",
+			say = "查詢結果為：（2.9143,99.9998,19.9998,-2376029143）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "100加20……？极端环境模拟实验么……？",
+			say = "100加20……？極端環境模擬實驗嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 900286,
-			say = "呃……那消失的原因该不会是……",
+			say = "呃……那消失的原因該不會是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯。监测机同时观测到了第V类威胁引发的空间冲击事件，程度认定：特级，威胁程度：极高。",
+			say = "嗯。監視器同時觀測到了V類威脅引發的空間衝擊事件，程度認定：特級，威脅程度：極高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "基于现状，我认为应该调整任务列表优先级，将该问题的列为最优先处理事项。",
+			say = "基於現狀，我認為應該調整任務清單優先級，將該問題的列為最優先處理事項。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……用量产型机体的本地性能不行，我们三人都至少要转移80%以上的主机服务过去。",
+			say = "……用量產型機體的本地性能不行，我們三人都至少要轉移80%以上的主機服務過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还要向周边空闲的仲裁者发出协作邀请。",
+			say = "也要向周邊空閒的仲裁者發出協作邀請。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "联络的事交给我吧，不过能临时叫来多少人就不好说了。",
+			say = "聯絡的事交給我吧，不過能臨時叫來多少人就不好說了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……此地任务暂停，我们立即转移。",
+			say = "……此地任務暫停，我們立即轉移。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			bgm = "battle-ashes-theme",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "与此同时，余烬临时据点。",
+			say = "同時，餘燼臨時據點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 9705010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "“老熟人”们的部署有些异常，似乎正在准备转移。",
+			say = "「老熟人」們的部署有些異常，似乎正在準備轉移。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -381,7 +381,7 @@ return {
 			actor = 9706010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯？终于耗尽耐心了么？",
+			say = "嗯？終於耗盡耐心了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 9706020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "赫米忒，天帕岚斯，司特莲库斯……这个麻烦的组合和我们纠缠的时间也够久了。",
+			say = "赫米忒，天帕嵐斯，司特蓮庫斯……這個麻煩的組合和我們糾纏的時間也夠久了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 9706020,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本来以为得拖到{namecode:433}和{namecode:441:腓特烈}那边完成新基地的建设，我们才能摆脱它们呢。",
+			say = "本來以為得拖到沙恩和腓特烈那邊完成新基地的建設，我們才能擺脫它們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,8 +434,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "……也有可能是不久前那场异常强烈的空间冲击事件吸引了它们的注意力。",
+			actorName = "企業·META",
+			say = "……也有可能是不久前那場異常強烈的空間衝擊事件吸引了它們的注意力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,8 +447,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "威奇塔和金伯利已经出发，不能让它们去坏事。",
+			actorName = "企業·META",
+			say = "威奇塔和金伯利已經出發，不能讓它們去壞事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,8 +460,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "{namecode:66:高雄}，你来指挥，务必把仲裁机关拖在这里。",
+			actorName = "企業·META",
+			say = "高雄，妳來指揮，務必把仲裁機關拖在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,8 +473,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "之后不要恋战。基地完工后，立刻按照原定计划转移，彻底摆脱仲裁机关的追击。",
+			actorName = "企業·META",
+			say = "之後不要戀戰。基地完工後，立刻依照原計劃轉移，徹底擺脫仲裁機關的追擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,8 +486,8 @@ return {
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "企业·META",
-			say = "至于威奇塔队那边，让她们根据前线情况自行判断。",
+			actorName = "企業·META",
+			say = "至於威奇塔隊那邊，讓她們根據前線情況自行判斷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "高雄·META",
-			say = "嗯，埃塞克斯的发现是最优先的，这边的事交给我就好，你放心去吧。",
+			say = "嗯，艾塞克斯的發現是最優先的，這邊的事交給我就好，妳放心去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

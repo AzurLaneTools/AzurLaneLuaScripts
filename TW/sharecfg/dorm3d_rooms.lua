@@ -11,6 +11,7 @@ pg.dorm3d_rooms = {
 		tag = "",
 		type = 2,
 		room_bgm = "story-room-sirius",
+		room_des = "",
 		invite_banner = "",
 		scene_info = "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
 		character = {
@@ -36,8 +37,7 @@ pg.dorm3d_rooms = {
 		furniture_zones = {
 			1001,
 			1002,
-			1003,
-			1004
+			1003
 		},
 		recall_list = {
 			1,
@@ -87,6 +87,7 @@ pg.dorm3d_rooms = {
 		tag = "beach",
 		type = 1,
 		room_bgm = "story-room-sirius",
+		room_des = "沙滩、泳装、排球……尽情在海风中玩耍吧~",
 		scene_info = "map_beach_02|Beach",
 		character = {},
 		character_pay = {
@@ -170,6 +171,7 @@ pg.dorm3d_rooms = {
 		recall_list = "",
 		type = 1,
 		room_bgm = "story-room-sirius",
+		room_des = "",
 		invite_banner = "",
 		scene_info = "",
 		character = {
@@ -183,8 +185,8 @@ pg.dorm3d_rooms = {
 			}
 		},
 		character_range = {
-			1,
-			3
+			0,
+			0
 		},
 		unlock_item = {
 			{

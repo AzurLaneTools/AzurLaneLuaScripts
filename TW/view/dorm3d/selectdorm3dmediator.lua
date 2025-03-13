@@ -4,6 +4,7 @@ slot0.ON_UNLOCK_DORM_ROOM = "SelectDorm3DMediator.ON_UNLOCK_DORM_ROOM"
 slot0.ON_SUBMIT_TASK = "SelectDorm3DMediator.ON_SUBMIT_TASK"
 slot0.OPEN_INVITE_LAYER = "SelectDorm3DMediator.OPEN_INVITE_LAYER"
 slot0.OPEN_ROOM_UNLOCK_WINDOW = "SelectDorm3DMediator.OPEN_ROOM_UNLOCK_WINDOW"
+slot0.OPEN_INS_LAYER = "SelectDorm3DMediator.OPEN_INS_LAYER"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_DORM, function (slot0, slot1)
@@ -36,6 +37,18 @@ slot0.register = function(slot0)
 			}
 		}))
 	end)
+	slot0:bind(uv0.OPEN_INS_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = Dorm3dInsMainLayer,
+			mediator = Dorm3dInsMainMediator,
+			data = {
+				isPhone = slot1
+			},
+			onRemoved = function ()
+				uv0.viewComponent:FlushInsBtn()
+			end
+		}))
+	end)
 
 	if not slot0.contextData.hasEnterCheck then
 		slot0.contextData.hasEnterCheck = true
@@ -58,6 +71,9 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[DormGroupConst.NotifyDormDownloadFinish] = function (slot0, slot1)
 			slot0.viewComponent:DownloadUpdate(slot1:getBody(), "finish")
+		end,
+		[Dorm3dInsMainMediator.NotifyDormDelete] = function (slot0, slot1)
+			slot0.viewComponent:DownloadUpdate(slot1:getBody(), "delete")
 		end,
 		[GAME.APARTMENT_ROOM_UNLOCK_DONE] = function (slot0, slot1)
 			slot0.viewComponent:AfterRoomUnlock(slot1:getBody())
