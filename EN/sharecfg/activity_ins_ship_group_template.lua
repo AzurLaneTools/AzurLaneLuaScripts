@@ -290,7 +290,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30221] = {
 		ship_group = 30221,
-		name = "Nshiro",
+		name = "Noshiro",
 		background = "",
 		sculpture = "nengdai_idol",
 		nationality = 0,
@@ -338,7 +338,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[40135] = {
 		ship_group = 40135,
-		name = "funf♡3536",
+		name = "Fünf♡3536",
 		background = "",
 		sculpture = "z35_2",
 		nationality = 0,
@@ -346,7 +346,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[40136] = {
 		ship_group = 40136,
-		name = "Zech✛3536",
+		name = "Zechs✛3536",
 		background = "",
 		sculpture = "z36",
 		nationality = 0,
@@ -1202,7 +1202,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[30503] = {
 		ship_group = 30503,
-		name = "Isei",
+		name = "Ise",
 		background = "",
 		sculpture = "yishi",
 		nationality = 0,
@@ -1298,7 +1298,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[10226] = {
 		ship_group = 10226,
-		name = "HerosAides",
+		name = "HerosAide",
 		background = "",
 		sculpture = "linuo",
 		nationality = 0,
@@ -1834,7 +1834,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[70203] = {
 		ship_group = 70203,
-		name = "Chapaev",
+		name = "Chapayev",
 		background = "",
 		sculpture = "qiabayefu",
 		nationality = 0,
@@ -2794,7 +2794,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[20601] = {
 		ship_group = 20601,
-		name = "Hermes@Dual",
+		name = "Hermes@Duel",
 		background = "",
 		sculpture = "jingjishen",
 		nationality = 0,
@@ -3909,7 +3909,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Mogador",
 		background = "",
 		sculpture = "mojiaduoer_2",
-		nationality = 0,
+		nationality = 9,
 		type = 1
 	},
 	[20120] = {

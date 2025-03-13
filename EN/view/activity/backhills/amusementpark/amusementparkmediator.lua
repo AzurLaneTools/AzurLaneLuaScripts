@@ -15,6 +15,7 @@ slot0.register = function(slot0)
 end
 
 slot0.BindEvent = function(slot0)
+	slot0.super.BindEvent(slot0)
 	slot0:bind(uv0.ACTIVITY_OPERATION, function (slot0, slot1)
 		assert(uv0.activity, "Cant Initialize Activity")
 

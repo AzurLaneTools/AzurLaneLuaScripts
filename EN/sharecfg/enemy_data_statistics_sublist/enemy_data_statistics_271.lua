@@ -1,5 +1,69 @@
 pg = pg or {}
 pg.enemy_data_statistics_271 = {
+	[16400302] = {
+		cannon = 150,
+		name = "Mass-Produced OFS Guided-Missile Battleship (Training Mod)",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 16400302,
+		air = 0,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90723,
+		durability = 8900,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		scale = 320,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 30,
+		durability_growth = 0,
+		antiaircraft = 115,
+		battle_unit_type = 95,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			3040101,
+			3040102,
+			3040103,
+			3040104,
+			3040105,
+			3040106,
+			3040107,
+			3040108
+		},
+		buff_list = {
+			{
+				ID = 200236,
+				LV = 1
+			},
+			{
+				ID = 50500,
+				LV = 1
+			}
+		}
+	},
 	[16400303] = {
 		cannon = 41,
 		air = 120,
@@ -1192,56 +1256,6 @@ pg.enemy_data_statistics_271 = {
 			{
 				ID = 200236,
 				LV = 1
-			}
-		}
-	},
-	[16401205] = {
-		cannon = 100,
-		hit_growth = 210,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		battle_unit_type = 90,
-		fog_fx = "",
-		dodge_growth = 156,
-		star = 2,
-		antisub_growth = 0,
-		rarity = 2,
-		base = 90723,
-		durability = 3200,
-		armor_growth = 0,
-		torpedo_growth = 1500,
-		speed = 20,
-		luck = 4,
-		id = 16401205,
-		scale = 275,
-		cannon_growth = 2500,
-		reload = 150,
-		dodge = 11,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 30,
-		durability_growth = 160000,
-		antiaircraft = 110,
-		antiaircraft_growth = 3600,
-		equipment_list = {
-			1006081,
-			1006086,
-			1006221,
-			1006226,
-			1006231
-		},
-		buff_list = {
-			{
-				ID = 200236,
-				LV = 1
-			},
-			{
-				ID = 50500,
-				LV = 2
 			}
 		}
 	}

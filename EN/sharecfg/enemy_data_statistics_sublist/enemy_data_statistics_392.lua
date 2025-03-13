@@ -1,5 +1,170 @@
 pg = pg or {}
 pg.enemy_data_statistics_392 = {
+	[294300] = {
+		cannon = 12,
+		name = "Arbiter: Strength VIII",
+		antiaircraft_growth = 2460,
+		speed_growth = 0,
+		luck = 45,
+		air = 0,
+		nationality = 99,
+		icon_type = 3,
+		type = 3,
+		rarity = 0,
+		antiaircraft = 31,
+		dodge_growth = 240,
+		icon = "sairenboss6",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		antisub = 0,
+		durability = 220,
+		armor_growth = 0,
+		torpedo_growth = 1050,
+		friendly_cld = 0,
+		speed = 26,
+		armor = 0,
+		id = 294300,
+		wave_fx = "movewave",
+		scale = 135,
+		prefab = "sairenboss6",
+		cannon_growth = 980,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 19,
+		reload_growth = 0,
+		bubble_fx = "",
+		fog_fx = "",
+		hit = 13,
+		torpedo = 10,
+		durability_growth = 96800,
+		luck_growth = 0,
+		hit_growth = 150,
+		armor_type = 2,
+		world_enhancement = {
+			111,
+			1.8,
+			0.9,
+			0,
+			0,
+			1,
+			0.7
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.606,
+					0.501,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.333,
+					0.635,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.82,
+							2.19,
+							-0.4
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearBig"
+		},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[294301] = {
 		cannon = 12,
 		name = "Arbiter: Strength VIII",
@@ -2117,42 +2282,6 @@ pg.enemy_data_statistics_392 = {
 		armor_growth = 0,
 		durability_growth = 0,
 		antiaircraft = 216,
-		speed = 30,
-		luck = 10,
-		fog_fx = "",
-		antisub = 0,
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			}
-		}
-	},
-	[295019] = {
-		cannon = 125,
-		name = "Ark Royal META ",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 330,
-		reload = 150,
-		armor = 0,
-		dodge = 12,
-		id = 295019,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 45,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90521,
-		durability = 70000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 231,
 		speed = 30,
 		luck = 10,
 		fog_fx = "",

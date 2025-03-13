@@ -492,8 +492,6 @@ slot33.GetPlayerUnitDurabilityExtraAddition = function(slot0, slot1)
 end
 
 slot33.GetSkillDataTemplate = function(slot0)
-	assert(uv0[slot0] ~= nil, ">>skill_data_template<< 找不到技能配置：id = " .. slot0)
-
 	return uv0[slot0]
 end
 
@@ -615,7 +613,11 @@ slot33.GetWords = function(slot0, slot1, slot2)
 end
 
 slot33.SkillTranform = function(slot0, slot1)
-	if uv0.GetSkillDataTemplate(slot1).system_transform[slot0] == nil then
+	if not uv0.GetSkillDataTemplate(slot1) then
+		return slot1
+	end
+
+	if slot2.system_transform[slot0] == nil then
 		return slot1
 	else
 		return slot3[slot0]

@@ -6,7 +6,9 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id
 	slot0.date = slot1.date
 	slot0.title, slot0.sender = unpack(string.split(HXSet.hxLan(slot1.title), "||"))
-	slot0.sender = slot0.sender or i18n("mail_sender_default")
+	slot0.sender = slot0.sender and string.gsub(slot0.sender or "", "{ship_statistics:(%d+).-}", function (slot0)
+		return pg.ship_data_statistics[tonumber(slot0)].name
+	end) or i18n("mail_sender_default")
 	slot0.content = string.gsub(HXSet.hxLan(slot1.content), "\\n", "\n")
 	slot0.attachments = {}
 

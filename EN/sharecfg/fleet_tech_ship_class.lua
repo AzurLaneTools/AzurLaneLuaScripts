@@ -4064,6 +4064,17 @@ pg.fleet_tech_ship_class = {
 			970705
 		}
 	},
+	[970706] = {
+		shiptype = 7,
+		name = "Hornet META",
+		t_level = 1,
+		id = 970706,
+		t_level_1 = 13,
+		nation = 97,
+		ships = {
+			970706
+		}
+	},
 	[970801] = {
 		shiptype = 8,
 		name = "U-556 META",
@@ -4439,6 +4450,7 @@ pg.fleet_tech_ship_class = {
 		970703,
 		970704,
 		970705,
+		970706,
 		970801,
 		971201,
 		971301

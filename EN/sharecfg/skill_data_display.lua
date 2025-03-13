@@ -3094,6 +3094,8 @@ pg.skill_data_display = setmetatable({
 		801602,
 		801611,
 		801621,
+		801652,
+		801661,
 		902201,
 		1010140,
 		1010143,
@@ -3286,6 +3288,8 @@ pg.skill_data_display = setmetatable({
 		201295,
 		201303,
 		201307,
+		201308,
+		201309,
 		1011540,
 		1011541,
 		1090010,
@@ -3386,6 +3390,17 @@ pg.skill_data_display = setmetatable({
 		1014071,
 		1014090,
 		1014091,
+		1010260,
+		1010261,
+		1013020,
+		1013021,
+		1013022,
+		1013023,
+		1011560,
+		1011561,
+		1010960,
+		1010961,
+		1010962,
 		1090020,
 		1090042,
 		1090043,
@@ -3446,7 +3461,18 @@ pg.skill_data_display = setmetatable({
 		1090380,
 		1090381,
 		1090390,
-		1090391
+		1090391,
+		1090400,
+		1090401,
+		1090402,
+		1090403,
+		1090404,
+		1090405,
+		1090406,
+		1090407,
+		1090408,
+		1090409,
+		1090410
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -15819,6 +15845,14 @@ pg.base.skill_data_display = {
 		id = 801621,
 		name = "Veil of Eternal Night"
 	},
+	[801652] = {
+		id = 801652,
+		name = "Augmented Strike - Ready"
+	},
+	[801661] = {
+		id = 801661,
+		name = "Operation Ghost"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -16587,6 +16621,14 @@ pg.base.skill_data_display = {
 		id = 201307,
 		name = "Heaven's Judgment"
 	},
+	[201308] = {
+		id = 201308,
+		name = "Optical Camouflage"
+	},
+	[201309] = {
+		id = 201309,
+		name = "Electromagnetic Pulse"
+	},
 	[1011540] = {
 		id = 1011540,
 		name = "Final Shot+"
@@ -16987,6 +17029,50 @@ pg.base.skill_data_display = {
 		id = 1014091,
 		name = "Cleanse Impurity+"
 	},
+	[1010260] = {
+		id = 1010260,
+		name = "Armageddon Cannon+"
+	},
+	[1010261] = {
+		id = 1010261,
+		name = "Armageddon Cannon+"
+	},
+	[1013020] = {
+		id = 1013020,
+		name = "Lod Obstrel+"
+	},
+	[1013021] = {
+		id = 1013021,
+		name = "Lod Obstrel+"
+	},
+	[1013022] = {
+		id = 1013022,
+		name = "Lod Obstrel+"
+	},
+	[1013023] = {
+		id = 1013023,
+		name = "Lod Obstrel+"
+	},
+	[1011560] = {
+		id = 1011560,
+		name = "2,700 Pounds of Justice+"
+	},
+	[1011561] = {
+		id = 1011561,
+		name = "2,700 Pounds of Justice+"
+	},
+	[1010960] = {
+		id = 1010960,
+		name = "Special Lead Ship+"
+	},
+	[1010961] = {
+		id = 1010961,
+		name = "Special Lead Ship+"
+	},
+	[1010962] = {
+		id = 1010962,
+		name = "Special Lead Ship+"
+	},
 	[1090020] = {
 		id = 1090020,
 		name = "Full Firepower - Karlsruhe"
@@ -17230,5 +17316,49 @@ pg.base.skill_data_display = {
 	[1090391] = {
 		id = 1090391,
 		name = "Anti-Air Mode - Columbia"
+	},
+	[1090400] = {
+		id = 1090400,
+		name = "Full Firepower - Köln"
+	},
+	[1090401] = {
+		id = 1090401,
+		name = "Tactical Record: Destruction Mode"
+	},
+	[1090402] = {
+		id = 1090402,
+		name = "Tactical Record: Soaring Heart"
+	},
+	[1090403] = {
+		id = 1090403,
+		name = "Tactical Record: Making a Splash!"
+	},
+	[1090404] = {
+		id = 1090404,
+		name = "Tactical Record: Duet of Alternation"
+	},
+	[1090405] = {
+		id = 1090405,
+		name = "Tactical Record: Ausgewogen"
+	},
+	[1090406] = {
+		id = 1090406,
+		name = "Tactical Record: Scorching Combo"
+	},
+	[1090407] = {
+		id = 1090407,
+		name = "Tactical Record: Heinrich's Hunch Punch"
+	},
+	[1090408] = {
+		id = 1090408,
+		name = "Tactical Record: Doombringer's Euphoria"
+	},
+	[1090409] = {
+		id = 1090409,
+		name = "Tactical Record: Daredevil Sweetheart"
+	},
+	[1090410] = {
+		id = 1090410,
+		name = "Tactical Record: Jöttun's Jaws"
 	}
 }

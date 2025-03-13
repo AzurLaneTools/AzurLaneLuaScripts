@@ -15301,6 +15301,37 @@ _G.pg.base.item_data_statistics[21044] = {
 }
 
 
+_G.pg.base.item_data_statistics[21045] = {
+	open_directly = 0,
+	name = "META Crystal – Hornet META",
+	type = 4,
+	display = "An item that increases the potential of Hornet META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21045",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21045,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -15941,6 +15972,37 @@ _G.pg.base.item_data_statistics[21917] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21917,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21918] = {
+	open_directly = 0,
+	name = "Synchronization Point – Hornet META",
+	type = 0,
+	display = "Sync Points for Hornet META.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21918",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21918,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

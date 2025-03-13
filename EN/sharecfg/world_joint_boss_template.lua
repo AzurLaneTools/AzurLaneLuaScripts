@@ -365,7 +365,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "Jintsuu META",
 		boss_level_id = 166,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "shentong",
 		meta_id = 970205,
@@ -595,6 +595,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "Taihou META",
 		boss_level_id = 241,
+		state = "stop",
 		item_id = 100000,
 		painting = "dafeng",
 		meta_id = 970705,
@@ -611,32 +612,6 @@ pg.world_joint_boss_template = {
 				"During battle, Taihou META will summon Spiritshadows at regular intervals to assist her. <color=#92fc63>All damage dealt to Spiritshadows will also be dealt to Taihou META</color>.\nSpiritshadows will despawn after a period of time."
 			}
 		},
-		state = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-26,
 			648,
@@ -648,6 +623,64 @@ pg.world_joint_boss_template = {
 			676,
 			1,
 			1
+		}
+	},
+	{
+		name = "Hornet META",
+		boss_level_id = 256,
+		item_id = 100000,
+		painting = "dahuangfeng",
+		meta_id = 970706,
+		id = 18,
+		description = {
+			{
+				"Low-Altitude Assault",
+				2,
+				"During combat, receives various support from low-altitude orbit satellites."
+			},
+			{
+				"Operation Ghost",
+				1,
+				"Every 18s: grants this ship Optical Camouflage (can be stacked up to 3 times). Each stack of Optical Camouflage <color=#92fc63>increases Evasion Rate by 6%</color>.\nWhen this ship has 3 stacks of Optical Camouflage: launches an Electromagnetic Pulse that <color=#92fc63>inflicts Blind on all your ships</color> for 5s, rendering them unable to fire their Main Guns or launch airstrikes."
+			}
+		},
+		state = {
+			{
+				{
+					2025,
+					3,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					4
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-16,
+			580,
+			1,
+			1
+		},
+		p_offset_other = {
+			472,
+			562,
+			0.9,
+			0.9
 		}
 	},
 	all = {
@@ -667,6 +700,7 @@ pg.world_joint_boss_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

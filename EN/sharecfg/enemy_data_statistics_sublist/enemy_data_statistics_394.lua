@@ -1,5 +1,41 @@
 pg = pg or {}
 pg.enemy_data_statistics_394 = {
+	[295048] = {
+		cannon = 115,
+		name = "Souryuu META",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 316,
+		reload = 150,
+		armor = 0,
+		dodge = 13,
+		id = 295048,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 40,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90536,
+		durability = 58000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 218,
+		speed = 30,
+		luck = 10,
+		fog_fx = "",
+		antisub = 0,
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			}
+		}
+	},
 	[295049] = {
 		cannon = 125,
 		name = "Souryuu META",
@@ -1072,47 +1108,6 @@ pg.enemy_data_statistics_394 = {
 		armor_growth = 0,
 		durability_growth = 0,
 		antiaircraft = 176,
-		speed = 30,
-		luck = 15,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 8830,
-				LV = 2
-			},
-			{
-				ID = 50510,
-				LV = 1
-			}
-		}
-	},
-	[295077] = {
-		cannon = 195,
-		name = "Scharnhorst META",
-		torpedo = 108,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 12,
-		id = 295077,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 40,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90623,
-		durability = 54000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 190,
 		speed = 30,
 		luck = 15,
 		battle_unit_type = 90,

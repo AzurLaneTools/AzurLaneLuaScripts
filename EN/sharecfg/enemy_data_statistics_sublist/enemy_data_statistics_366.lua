@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_366 = {
+	[16704104] = {
+		cannon = 120,
+		air = 0,
+		torpedo = 0,
+		cannon_growth = 3600,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 17,
+		torpedo_growth = 0,
+		hit_growth = 350,
+		reload_growth = 0,
+		dodge_growth = 170,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 30,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 65,
+		base = 90796,
+		durability = 9010,
+		armor_growth = 0,
+		durability_growth = 68000,
+		antiaircraft = 212,
+		speed = 14,
+		luck = 0,
+		antiaircraft_growth = 4680,
+		antisub = 0,
+		id = 16704104,
+		fog_fx = "",
+		equipment_list = {
+			3076459,
+			3076464,
+			3076469,
+			3076474
+		},
+		buff_list = {
+			{
+				ID = 200520,
+				LV = 10
+			},
+			{
+				ID = 50510,
+				LV = 5
+			}
+		}
+	},
 	[16704105] = {
 		cannon = 86,
 		air = 145,
@@ -1303,50 +1350,6 @@ pg.enemy_data_statistics_366 = {
 		appear_fx = {
 			"bossguangxiao",
 			"appearQ"
-		}
-	},
-	[900006] = {
-		cannon = 200,
-		name = "Amagi",
-		rarity = 5,
-		speed_growth = 0,
-		hit_growth = 0,
-		air = 0,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 0,
-		antiaircraft = 220,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 6,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90338,
-		durability = 180000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 35,
-		luck = 0,
-		id = 900006,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 100,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 90,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 4
-			}
 		}
 	}
 }

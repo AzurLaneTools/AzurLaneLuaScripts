@@ -566,6 +566,118 @@ pg.base.ship_skin_template_19 = {
 			}
 		}
 	},
+	[9707060] = {
+		name = "Hornet META",
+		change_skin = "",
+		bg_sp = "",
+		desc = "You're the Commander of the fleet? Nice meetin' you! I'm Hornet, the youngest among the Yorktown class. I may not be as amazing as my big sisters, but I'm still pretty capable... probably!",
+		illustrator2 = -1,
+		ship_group = 970706,
+		group_index = 0,
+		painting = "dahuangfeng_alter",
+		prefab = "dahuangfeng_alter",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 9707060,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 24,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.824,
+					2.298,
+					0
+				}
+			},
+			plane = {
+				{
+					0.887,
+					0.737,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.118,
+							2.713,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.126,
+							2.745,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[9708010] = {
 		name = "U-556 META",
 		change_skin = "",
@@ -12931,122 +13043,6 @@ pg.base.ship_skin_template_19 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					2.01,
-					1.26,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.91,
-					1.33,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					2.01,
-					1.2,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.42,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[11000051] = {
-		name = "Sunset Witch",
-		change_skin = "",
-		bg_sp = "",
-		desc = "Ohh, it's so wonderful, being in the calm water with you, Commander... Eek! What's this?! A fish hook's caught on to me... Please stop reeling it in, or my swimsuit will untie itself!",
-		illustrator2 = -1,
-		ship_group = 1100005,
-		group_index = 1,
-		painting = "xuebugui_2",
-		prefab = "xuebugui_2",
-		hand_id = 2,
-		shop_type_id = 6,
-		bgm = "sk-az-story",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "164",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 11000051,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70932,
-		voice_actor = 81,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2,
-			5
-		},
 		live2d_offset = {
 			0,
 			0,

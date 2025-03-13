@@ -23,7 +23,7 @@ return {
 				"onRemove"
 			},
 			arg_list = {
-				number = 0.03,
+				number = 0.05,
 				attr = "damageRatioBullet"
 			}
 		}

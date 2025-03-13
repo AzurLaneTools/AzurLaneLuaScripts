@@ -5967,7 +5967,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 - META Showdown Overview -
 
-From <color=#92fc63>12/12/24 to 3/13/25</color>, challenge Taihou META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Taihou META</color> as well as other great rewards.
+From <color=#92fc63>3/13/25 to 6/4/25</color>, challenge Taihou META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Hornet META</color> as well as other great rewards.
 <color=#ff5c5c>Note: Sync Points will expire after the event period ends.</color>
 
 - Acquiring and Analyzing META Coordinates -
@@ -21659,7 +21659,7 @@ _G.pg.base.gametip.meta_help = {
 			info = "Obtainable rewards from accumulating Sync Points can be viewed and claimed on each corresponding META ship's tab in the META Lab. Furthermore, upon obtaining enough Sync Points, you'll be able to recruit a META ship.\n\n"
 		},
 		{
-			info = "From <color=#92fc63>12/12/24 to 3/13/25</color>, challenge Taihou META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Taihou META</color> as well as other great rewards.\n\n"
+			info = "From <color=#92fc63>3/13/25 to 6/4/25</color>, challenge Hornet META to earn Sync Points. Sync Points can be used to obtain the limited character, <color=#92fc63>Hornet META</color> as well as other great rewards.\n\n"
 		},
 		{
 			info = "2. About Rigging Fortification:"
