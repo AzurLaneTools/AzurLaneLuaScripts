@@ -404,6 +404,12 @@ pg.expedition_data_by_map = setmetatable({
 		1880012,
 		1880025,
 		1880026,
+		1890001,
+		1890002,
+		1890011,
+		1890012,
+		1890025,
+		1890026,
 		2100000,
 		2100001,
 		2100010,
@@ -22476,6 +22482,589 @@ pg.base.expedition_data_by_map = {
 			137,
 			138,
 			139
+		}
+	},
+	[1890001] = {
+		map = 1890001,
+		name = "새장에 갇힌 신의 빛·상편|| ||CHAPTER EX||E.X.",
+		bgm = "story-theme-sardinia",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1890001",
+		ani_controller = "",
+		default_background = "bg_shenguang_6",
+		on_activity = 5821,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1890001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-theme-sardinia",
+		uifx = "",
+		bind_map = 1890011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1890001,
+				1890021
+			},
+			{
+				1890002,
+				1890022
+			},
+			{
+				1890003,
+				1890023
+			}
+		},
+		story_id = {
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
+		}
+	},
+	[1890002] = {
+		map = 1890002,
+		name = "새장에 갇힌 신의 빛·후편|| ||CHAPTER EX||E.X.",
+		bgm = "story-shenguang-holy",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1890003",
+		ani_controller = "",
+		default_background = "bg_shenguang_6",
+		on_activity = 5821,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1890003",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-theme-sardinia",
+		uifx = "",
+		bind_map = 1890012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1890004,
+				1890024
+			},
+			{
+				1890005,
+				1890025
+			},
+			{
+				1890006,
+				1890026
+			}
+		},
+		story_id = {
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
+		}
+	},
+	[1890011] = {
+		map = 1890011,
+		name = "새장에 갇힌 신의 빛·상편|| ||CHAPTER EX||E.X.",
+		bgm = "story-theme-sardinia",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1890001",
+		ani_controller = "",
+		default_background = "bg_shenguang_6",
+		on_activity = 5821,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1890001",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-theme-sardinia",
+		uifx = "",
+		bind_map = 1890001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1890001,
+				1890021
+			},
+			{
+				1890002,
+				1890022
+			},
+			{
+				1890003,
+				1890023
+			}
+		},
+		story_id = {
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
+		}
+	},
+	[1890012] = {
+		map = 1890012,
+		name = "새장에 갇힌 신의 빛·후편|| ||CHAPTER EX||E.X.",
+		bgm = "story-shenguang-holy",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1890003",
+		ani_controller = "",
+		default_background = "bg_shenguang_6",
+		on_activity = 5821,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1890003",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-theme-sardinia",
+		uifx = "",
+		bind_map = 1890002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1890004,
+				1890024
+			},
+			{
+				1890005,
+				1890025
+			},
+			{
+				1890006,
+				1890026
+			}
+		},
+		story_id = {
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
+		}
+	},
+	[1890025] = {
+		map = 1890025,
+		name = "새장에 갇힌 신의 빛·SP|| ||CHAPTER EX||E.X.",
+		bgm = "battle-shenguang-holy",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1890002",
+		ani_controller = "",
+		default_background = "bg_shenguang_6",
+		on_activity = 5821,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1890002",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-theme-sardinia",
+		uifx = "",
+		bind_map = 1890012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1890041
+			}
+		},
+		story_id = {
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
+		}
+	},
+	[1890026] = {
+		map = 1890026,
+		name = "새장에 갇힌 신의 빛·EX|| ||CHAPTER EX||E.X.",
+		bgm = "battle-thechariotVII",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1890004",
+		ani_controller = "",
+		default_background = "bg_shenguang_6",
+		on_activity = 5821,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1890004",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-theme-sardinia",
+		uifx = "",
+		bind_map = 1890012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1890051,
+				1890052
+			}
+		},
+		story_id = {
+			141,
+			142,
+			143,
+			144,
+			145,
+			146,
+			147,
+			148,
+			149,
+			150,
+			151,
+			152,
+			153,
+			154,
+			155,
+			156,
+			157,
+			158,
+			159,
+			160,
+			161,
+			162,
+			163,
+			164,
+			165,
+			166,
+			167,
+			168,
+			169,
+			170,
+			171,
+			172,
+			173,
+			174,
+			175,
+			176
 		}
 	},
 	[2100000] = {

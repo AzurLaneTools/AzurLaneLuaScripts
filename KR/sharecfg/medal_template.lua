@@ -2448,7 +2448,7 @@ pg.medal_template = {
 		name = "봄맞이 패션 기념증",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 0,
+		is_out_of_print = 1,
 		count_inherit = 0,
 		desc = "우여곡절 끝에 기원 성취. 현란한 옷이 하룻밤 내내 피어나네.",
 		next = 0,
@@ -2462,6 +2462,27 @@ pg.medal_template = {
 		rank = 1,
 		id = 200011,
 		explain1 = "「봄맞이 패션 협주곡」",
+		explain2 = "이벤트"
+	},
+	[200021] = {
+		target_id = "5812",
+		name = "신광의 날개 기념장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "사르데냐 동맹에서 보낸 훈장. 강적 「메카 아비트레이터」를 상대로 거둔 위대한 승리를 기념한다. \n――새장 밖에서 기다리는 것은, 바로 희망과 빛.",
+		next = 0,
+		icon = "9021",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9021",
+		condition = "「새장에 갇힌 신의 빛」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200021,
+		explain1 = "「새장에 갇힌 신의 빛」",
 		explain2 = "이벤트"
 	},
 	all = {
@@ -2576,6 +2597,7 @@ pg.medal_template = {
 		100934,
 		100935,
 		200001,
-		200011
+		200011,
+		200021
 	}
 }

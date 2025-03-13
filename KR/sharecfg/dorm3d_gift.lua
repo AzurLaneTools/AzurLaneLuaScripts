@@ -17,6 +17,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20301
+			},
+			{
+				19903,
+				30301
 			}
 		},
 		shop_id = {},
@@ -32,6 +36,12 @@ pg.dorm3d_gift = {
 				30221,
 				{
 					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
+				{
+					"banner_ankeleiqigift"
 				}
 			}
 		}
@@ -53,6 +63,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20302
+			},
+			{
+				19903,
+				30302
 			}
 		},
 		shop_id = {
@@ -75,6 +89,12 @@ pg.dorm3d_gift = {
 				{
 					"banner_nengdaigift"
 				}
+			},
+			{
+				19903,
+				{
+					"banner_ankeleiqigift"
+				}
 			}
 		}
 	},
@@ -95,6 +115,10 @@ pg.dorm3d_gift = {
 			{
 				30221,
 				20303
+			},
+			{
+				19903,
+				30303
 			}
 		},
 		shop_id = {
@@ -113,6 +137,12 @@ pg.dorm3d_gift = {
 				30221,
 				{
 					"banner_nengdaigift"
+				}
+			},
+			{
+				19903,
+				{
+					"banner_ankeleiqigift"
 				}
 			}
 		}
@@ -180,7 +210,7 @@ pg.dorm3d_gift = {
 	[3022101] = {
 		display = "심플한 디자인, 심플한 색상. 가볍고 편안한 착용감.\n발바닥을 쾌적하게 감싸며, 일상생활을 함께 한다.",
 		name = "소박한 로퍼",
-		unlock_dialogue_id = 10060,
+		unlock_dialogue_id = 29991,
 		rarity = 4,
 		ship_group_id = 30221,
 		favor_trigger_id = 1004,
@@ -207,6 +237,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[1990301] = {
+		display = "세상을 응축한 듯한 귀여운 색감이 눈길을 끄는 캔버스. 터치 하나하나가 모두 앵커리지의 순진함을 잘 표현하고 있는 듯하다.",
+		name = "무지갯빛 마음",
+		unlock_dialogue_id = 30510,
+		rarity = 4,
+		ship_group_id = 19903,
+		favor_trigger_id = 1004,
+		id = 1990301,
+		icon = "dorm3dicon/3Ddrom_ankeleiqi_FancyGift1",
+		reply_dialogue_id = {
+			{
+				19903,
+				30304
+			}
+		},
+		shop_id = {
+			260331
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				19903,
+				{
+					"banner_gift1990301"
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -219,6 +279,9 @@ pg.dorm3d_gift = {
 		},
 		[30221] = {
 			3022101
+		},
+		[19903] = {
+			1990301
 		}
 	},
 	all = {
@@ -227,6 +290,7 @@ pg.dorm3d_gift = {
 		1021003,
 		2022001,
 		2022002,
-		3022101
+		3022101,
+		1990301
 	}
 }

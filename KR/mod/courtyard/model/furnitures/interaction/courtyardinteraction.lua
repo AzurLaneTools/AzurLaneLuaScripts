@@ -15,7 +15,7 @@ slot0.Update = function(slot0, slot1)
 end
 
 slot0.InitData = function(slot0)
-	slot1, slot0.userActions, slot0.closeBodyMask, slot0.ownerPreheat, slot0.userPreheat, slot0.tailAction = slot0.host:GetActions()
+	slot1, slot0.userActions, slot0.closeBodyMask, slot0.ownerPreheat, slot0.userPreheat, slot0.tailAction, slot0.preheatOnlyHost = slot0.host:GetActions()
 	slot0.ownerActions = slot1
 	slot0.total = #slot1
 	slot0.index = 0
@@ -84,8 +84,18 @@ end
 
 slot0.StepEnd = function(slot0, slot1)
 	if slot0.preheatProcess then
-		slot0:OnPreheatDone()
-		slot0:DoStep()
+		slot2 = function()
+			uv0:OnPreheatDone()
+			uv0:DoStep()
+		end
+
+		if slot0.preheatOnlyHost then
+			if slot1 == slot0.host.owner then
+				slot2()
+			end
+		else
+			slot2()
+		end
 	else
 		if slot0.index == 0 then
 			return

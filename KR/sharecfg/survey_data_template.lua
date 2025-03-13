@@ -51,9 +51,37 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1007] = {
+		ios_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx",
+		uo_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx",
+		main_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx",
+		id = 1007,
+		name = "韩服七周年问卷",
+		main_activity = "303025540",
+		ios_activity = "303025540",
+		uo_activity = "303025540",
+		bonus = {
+			{
+				1,
+				1,
+				2025
+			},
+			{
+				1,
+				2,
+				100
+			},
+			{
+				2,
+				20001,
+				2
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
-		1004
+		1004,
+		1007
 	}
 }

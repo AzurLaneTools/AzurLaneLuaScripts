@@ -2480,6 +2480,690 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[141] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EP1-1 한바탕 소동 후",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_501",
+		story = "FANLONGNEIDESHENGUANG1",
+		change_bgm = "story-theme-sardinia",
+		id = 141,
+		lock = ""
+	},
+	[142] = {
+		story_type = 1,
+		name = "EP1-2 사르데냐 동맹",
+		change_prefab = "",
+		unlock_conditions = "EP1-1 클리어",
+		change_background = "star_level_bg_530",
+		story = "FANLONGNEIDESHENGUANG2",
+		change_bgm = "story-theme-sardinia",
+		id = 142,
+		pre_event = {
+			141
+		},
+		lock = {
+			{
+				4,
+				141
+			}
+		}
+	},
+	[143] = {
+		story_type = 1,
+		name = "EP1-3 신앙? 심상?",
+		change_prefab = "",
+		unlock_conditions = "EP1-2 클리어",
+		change_background = "star_level_bg_539",
+		story = "FANLONGNEIDESHENGUANG3",
+		change_bgm = "battle-shenguang-holy",
+		id = 143,
+		pre_event = {
+			142
+		},
+		lock = {
+			{
+				4,
+				142
+			}
+		}
+	},
+	[144] = {
+		story_type = 1,
+		name = "EP1-4 선택받은 자의 문",
+		change_prefab = "",
+		unlock_conditions = "EP1-3 클리어",
+		change_background = "star_level_bg_305",
+		story = "FANLONGNEIDESHENGUANG4",
+		change_bgm = "story-theme-sardinia",
+		id = 144,
+		pre_event = {
+			143
+		},
+		lock = {
+			{
+				4,
+				143
+			}
+		}
+	},
+	[145] = {
+		story_type = 1,
+		name = "EPS1-1 밤을 향한 첫 걸음",
+		change_prefab = "",
+		unlock_conditions = "EP1-4 클리어",
+		change_background = "star_level_bg_505",
+		story = "FANLONGNEIDESHENGUANG5",
+		change_bgm = "theme-underheaven",
+		id = 145,
+		pre_event = {
+			144
+		},
+		lock = {
+			{
+				4,
+				144
+			}
+		}
+	},
+	[146] = {
+		story_type = 1,
+		name = "EPS1-2 문Ⅱ",
+		change_prefab = "",
+		unlock_conditions = "EPS 1-1 클리어",
+		change_background = "star_level_bg_546",
+		story = "FANLONGNEIDESHENGUANG6",
+		change_bgm = "story-theme-sardinia",
+		id = 146,
+		pre_event = {
+			144
+		},
+		lock = {
+			{
+				4,
+				145
+			}
+		}
+	},
+	[147] = {
+		story_type = 1,
+		name = "EP2-1 마르코 폴로의 꿈",
+		change_prefab = "",
+		unlock_conditions = "EPS 1-2 클리어",
+		change_background = "star_level_bg_505",
+		story = "FANLONGNEIDESHENGUANG7",
+		change_bgm = "theme-underheaven",
+		id = 147,
+		pre_event = {
+			145,
+			146
+		},
+		lock = {
+			{
+				4,
+				146
+			}
+		}
+	},
+	[148] = {
+		story_type = 1,
+		name = "EPS2-1 문Ⅲ",
+		change_prefab = "",
+		unlock_conditions = "EP2-1 클리어",
+		change_background = "bg_shenguang_cg_1",
+		story = "FANLONGNEIDESHENGUANG8",
+		change_bgm = "story-theme-sardinia",
+		id = 148,
+		pre_event = {
+			147
+		},
+		lock = {
+			{
+				4,
+				147
+			}
+		}
+	},
+	[149] = {
+		story_type = 1,
+		name = "EP2-2 교황의 오후",
+		change_prefab = "",
+		unlock_conditions = "EPS2-1 클리어",
+		change_background = "bg_story_task",
+		story = "FANLONGNEIDESHENGUANG9",
+		change_bgm = "battle-shenguang-holy",
+		id = 149,
+		pre_event = {
+			147
+		},
+		lock = {
+			{
+				4,
+				148
+			}
+		}
+	},
+	[150] = {
+		story_type = 1,
+		name = "EP2-3 그림자 파괴자",
+		change_prefab = "",
+		unlock_conditions = "EP2-2 클리어",
+		change_background = "star_level_bg_506",
+		story = "FANLONGNEIDESHENGUANG10",
+		change_bgm = "story-shenguang-holy",
+		id = 150,
+		pre_event = {
+			148,
+			149
+		},
+		lock = {
+			{
+				4,
+				149
+			}
+		}
+	},
+	[151] = {
+		story_type = 1,
+		name = "EPS2-2 밤을 향한 두 번째 걸음",
+		change_prefab = "",
+		unlock_conditions = "EP2-3 클리어",
+		change_background = "star_level_bg_505",
+		story = "FANLONGNEIDESHENGUANG11",
+		change_bgm = "theme-underheaven",
+		id = 151,
+		pre_event = {
+			150
+		},
+		lock = {
+			{
+				4,
+				150
+			}
+		}
+	},
+	[152] = {
+		story_type = 1,
+		name = "EPS2-3 문Ⅳ",
+		change_prefab = "",
+		unlock_conditions = "EPS2-2 클리어",
+		change_background = "bg_shenguang_cg_4",
+		story = "FANLONGNEIDESHENGUANG12",
+		change_bgm = "battle-shenguang-freely",
+		id = 152,
+		pre_event = {
+			150
+		},
+		lock = {
+			{
+				4,
+				151
+			}
+		}
+	},
+	[153] = {
+		story_type = 1,
+		name = "EP2-4 선전 포고",
+		change_prefab = "",
+		unlock_conditions = "EPS2-3 클리어",
+		change_background = "bg_shenguang_3",
+		story = "FANLONGNEIDESHENGUANG13",
+		change_bgm = "battle-shenguang-freely",
+		id = 153,
+		pre_event = {
+			150
+		},
+		lock = {
+			{
+				4,
+				152
+			}
+		}
+	},
+	[154] = {
+		story_type = 2,
+		name = "EP3-1 아르노 강 요격전",
+		change_prefab = "",
+		unlock_conditions = "EP2-4 클리어",
+		change_background = "bg_shenguang_1",
+		story = "1896001",
+		change_bgm = "story-shenguang-holy",
+		id = 154,
+		pre_event = {
+			151,
+			152,
+			153
+		},
+		lock = {
+			{
+				4,
+				153
+			}
+		}
+	},
+	[155] = {
+		story_type = 1,
+		name = "EPS3-1 밤을 향한 세 번째 걸음",
+		change_prefab = "",
+		unlock_conditions = "EP3-1 클리어",
+		change_background = "star_level_bg_500",
+		story = "FANLONGNEIDESHENGUANG15",
+		change_bgm = "battle-shenguang-holy",
+		id = 155,
+		pre_event = {
+			154
+		},
+		lock = {
+			{
+				4,
+				154
+			}
+		}
+	},
+	[156] = {
+		story_type = 1,
+		name = "EP3-2 최종 심판 의식",
+		change_prefab = "",
+		unlock_conditions = "EPS3-1 클리어",
+		change_background = "star_level_bg_505",
+		story = "FANLONGNEIDESHENGUANG16",
+		change_bgm = "theme-underheaven",
+		id = 156,
+		pre_event = {
+			154
+		},
+		lock = {
+			{
+				4,
+				155
+			}
+		}
+	},
+	[157] = {
+		story_type = 1,
+		name = "EPS3-2 문 V-VI",
+		change_prefab = "",
+		unlock_conditions = "EP3-2 클리어",
+		change_background = "bg_shenguang_1",
+		story = "FANLONGNEIDESHENGUANG17",
+		change_bgm = "theme-marcopolo",
+		id = 157,
+		pre_event = {
+			154
+		},
+		lock = {
+			{
+				4,
+				156
+			}
+		}
+	},
+	[158] = {
+		story_type = 1,
+		name = "EP3-3 대담한 계획",
+		change_prefab = "",
+		unlock_conditions = "EPS3-2 클리어",
+		change_background = "bg_shenguang_cg_7",
+		story = "FANLONGNEIDESHENGUANG18",
+		change_bgm = "story-shenguang-holy",
+		id = 158,
+		pre_event = {
+			155,
+			156,
+			157
+		},
+		lock = {
+			{
+				4,
+				157
+			}
+		}
+	},
+	[159] = {
+		story_type = 2,
+		name = "EP3-4 빛과 어둠의 대결?",
+		change_prefab = "",
+		unlock_conditions = "EP3-3 클리어",
+		change_background = "bg_shenguang_cg_10",
+		story = "1896002",
+		change_bgm = "theme-thehierophantV",
+		id = 159,
+		pre_event = {
+			158
+		},
+		lock = {
+			{
+				4,
+				158
+			}
+		}
+	},
+	[160] = {
+		story_type = 1,
+		name = "EP3-5 말없는 석상",
+		change_prefab = "",
+		unlock_conditions = "EP3-4 클리어",
+		change_background = "bg_shenguang_1",
+		story = "FANLONGNEIDESHENGUANG20",
+		change_bgm = "battle-shenguang-freely",
+		id = 160,
+		pre_event = {
+			158
+		},
+		lock = {
+			{
+				4,
+				159
+			}
+		}
+	},
+	[161] = {
+		story_type = 1,
+		name = "EP4-1 이변",
+		change_prefab = "",
+		unlock_conditions = "EP3-5 클리어",
+		change_background = "star_level_bg_505",
+		story = "FANLONGNEIDESHENGUANG21",
+		change_bgm = "theme-underheaven",
+		id = 161,
+		pre_event = {
+			159,
+			160
+		},
+		lock = {
+			{
+				4,
+				160
+			}
+		}
+	},
+	[162] = {
+		story_type = 1,
+		name = "EPS4-1 문 VII",
+		change_prefab = "",
+		unlock_conditions = "EP4-1 클리어",
+		change_background = "bg_shenguang_4",
+		story = "FANLONGNEIDESHENGUANG22",
+		change_bgm = "battle-thechariotVII",
+		id = 162,
+		pre_event = {
+			161
+		},
+		lock = {
+			{
+				4,
+				161
+			}
+		}
+	},
+	[163] = {
+		story_type = 1,
+		name = "EP4-2 쌍방향 간섭",
+		change_prefab = "",
+		unlock_conditions = "EPS4-1 클리어",
+		change_background = "star_level_bg_505",
+		story = "FANLONGNEIDESHENGUANG23",
+		change_bgm = "theme-underheaven",
+		id = 163,
+		pre_event = {
+			162
+		},
+		lock = {
+			{
+				4,
+				162
+			}
+		}
+	},
+	[164] = {
+		story_type = 1,
+		name = "EP4-3 문 VIII-X",
+		change_prefab = "",
+		unlock_conditions = "EP4-2 클리어",
+		change_background = "bg_shenguang_4",
+		story = "FANLONGNEIDESHENGUANG24",
+		change_bgm = "battle-thechariotVII",
+		id = 164,
+		pre_event = {
+			163
+		},
+		lock = {
+			{
+				4,
+				163
+			}
+		}
+	},
+	[165] = {
+		story_type = 1,
+		name = "EP5-1 유인 작전",
+		change_prefab = "",
+		unlock_conditions = "EP4-3 클리어",
+		change_background = "star_level_bg_505",
+		story = "FANLONGNEIDESHENGUANG25",
+		change_bgm = "theme-underheaven",
+		id = 165,
+		pre_event = {
+			164
+		},
+		lock = {
+			{
+				4,
+				164
+			}
+		}
+	},
+	[166] = {
+		story_type = 1,
+		name = "EP5-2 문 Ⅺ",
+		change_prefab = "",
+		unlock_conditions = "EP5-1 클리어",
+		change_background = "bg_shenguang_5",
+		story = "FANLONGNEIDESHENGUANG26",
+		change_bgm = "battle-thechariotVII",
+		id = 166,
+		pre_event = {
+			165
+		},
+		lock = {
+			{
+				4,
+				165
+			}
+		}
+	},
+	[167] = {
+		story_type = 2,
+		name = "EP5-3 결전Ⅰ",
+		change_prefab = "",
+		unlock_conditions = "EP5-2 클리어",
+		change_background = "star_level_bg_595",
+		story = "1896003",
+		change_bgm = "battle-thechariotVII",
+		id = 167,
+		pre_event = {
+			166
+		},
+		lock = {
+			{
+				4,
+				166
+			}
+		}
+	},
+	[168] = {
+		story_type = 2,
+		name = "EPS5-1 결전Ⅱ",
+		change_prefab = "",
+		unlock_conditions = "EP5-3 클리어",
+		change_background = "bg_underheaven_0",
+		story = "1896004",
+		change_bgm = "theme-underheaven",
+		id = 168,
+		pre_event = {
+			167
+		},
+		lock = {
+			{
+				4,
+				167
+			}
+		}
+	},
+	[169] = {
+		story_type = 2,
+		name = "EP6-1 결전Ⅲ",
+		change_prefab = "",
+		unlock_conditions = "EPS5-1 클리어",
+		change_background = "bg_story_tower",
+		story = "1896005",
+		change_bgm = "theme-thehierophantV",
+		id = 169,
+		pre_event = {
+			168
+		},
+		lock = {
+			{
+				4,
+				168
+			}
+		}
+	},
+	[170] = {
+		story_type = 1,
+		name = "EP6-2 신과 함께",
+		change_prefab = "",
+		unlock_conditions = "EP6-1 클리어",
+		change_background = "bg_shenguang_cg_11",
+		story = "FANLONGNEIDESHENGUANG30",
+		change_bgm = "story-theme-sardinia",
+		id = 170,
+		pre_event = {
+			169
+		},
+		lock = {
+			{
+				4,
+				169
+			}
+		}
+	},
+	[171] = {
+		story_type = 1,
+		name = "EP6-3 에필로그",
+		change_prefab = "",
+		unlock_conditions = "EP6-2 클리어",
+		change_background = "star_level_bg_595",
+		story = "FANLONGNEIDESHENGUANG31",
+		change_bgm = "battle-eagleunion",
+		id = 171,
+		pre_event = {
+			170
+		},
+		lock = {
+			{
+				4,
+				170
+			}
+		}
+	},
+	[172] = {
+		story_type = 1,
+		name = "EX-1 계속",
+		change_prefab = "",
+		unlock_conditions = "EP6-3 클리어",
+		change_background = "star_level_bg_499",
+		story = "FANLONGNEIDESHENGUANG32",
+		change_bgm = "theme-underheaven",
+		id = 172,
+		pre_event = {
+			171
+		},
+		lock = {
+			{
+				4,
+				171
+			}
+		}
+	},
+	[173] = {
+		story_type = 1,
+		name = "EX-2 또 만날 때까지",
+		change_prefab = "",
+		unlock_conditions = "EX-1 클리어",
+		change_background = "star_level_bg_541",
+		story = "FANLONGNEIDESHENGUANG33",
+		change_bgm = "story-richang-light",
+		id = 173,
+		pre_event = {
+			172
+		},
+		lock = {
+			{
+				4,
+				172
+			}
+		}
+	},
+	[174] = {
+		story_type = 1,
+		name = "EX-3 튤립의 새싹",
+		change_prefab = "",
+		unlock_conditions = "EX-2 클리어",
+		change_background = "star_level_bg_589",
+		story = "FANLONGNEIDESHENGUANG34",
+		change_bgm = "story-startravel",
+		id = 174,
+		pre_event = {
+			173
+		},
+		lock = {
+			{
+				4,
+				173
+			}
+		}
+	},
+	[175] = {
+		story_type = 1,
+		name = "EX-4 트러블",
+		change_prefab = "",
+		unlock_conditions = "EX-3 클리어",
+		change_background = "star_level_bg_147",
+		story = "FANLONGNEIDESHENGUANG35",
+		change_bgm = "theme-dailyfuture",
+		id = 175,
+		pre_event = {
+			174
+		},
+		lock = {
+			{
+				4,
+				174
+			}
+		}
+	},
+	[176] = {
+		story_type = 1,
+		name = "EX-5 「나」",
+		change_prefab = "",
+		unlock_conditions = "EX-4 클리어",
+		change_background = "bg_shenguang_6",
+		story = "FANLONGNEIDESHENGUANG36",
+		change_bgm = "story-theme-sardinia",
+		id = 176,
+		pre_event = {
+			175
+		},
+		lock = {
+			{
+				4,
+				175
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2612,6 +3296,42 @@ pg.activity_sp_story = {
 		136,
 		137,
 		138,
-		139
+		139,
+		141,
+		142,
+		143,
+		144,
+		145,
+		146,
+		147,
+		148,
+		149,
+		150,
+		151,
+		152,
+		153,
+		154,
+		155,
+		156,
+		157,
+		158,
+		159,
+		160,
+		161,
+		162,
+		163,
+		164,
+		165,
+		166,
+		167,
+		168,
+		169,
+		170,
+		171,
+		172,
+		173,
+		174,
+		175,
+		176
 	}
 }

@@ -11,6 +11,7 @@ pg.dorm3d_rooms = {
 		tag = "",
 		type = 2,
 		room_bgm = "story-room-sirius",
+		room_des = "",
 		invite_banner = "",
 		scene_info = "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
 		character = {
@@ -88,6 +89,7 @@ pg.dorm3d_rooms = {
 		tag = "",
 		type = 2,
 		room_bgm = "story-room-noshiro",
+		room_des = "",
 		invite_banner = "",
 		scene_info = "map_noshirohostel_01|Nengdai_DB/Noshirohostel",
 		character = {
@@ -154,7 +156,76 @@ pg.dorm3d_rooms = {
 			}
 		}
 	},
-	[4] = {
+	{
+		resource_name = "Ankeleiqi_DB",
+		assets_prefix = "Ankeleiqi",
+		id = 3,
+		invite_cost = "",
+		in_map = "floor_1",
+		room = "앵커리지",
+		invite_mark = "",
+		tag = "",
+		type = 2,
+		room_bgm = "story-room-anchorage",
+		room_des = "",
+		invite_banner = "",
+		scene_info = "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
+		character = {
+			19903
+		},
+		character_pay = {},
+		character_welcome = {
+			{
+				19903,
+				0
+			}
+		},
+		character_range = {
+			1
+		},
+		unlock_item = {},
+		default_zone = {
+			{
+				19903,
+				"Chair"
+			}
+		},
+		furniture_zones = {
+			3001,
+			3002,
+			3003
+		},
+		recall_list = {
+			41,
+			42,
+			43,
+			51
+		},
+		ar_anim = {
+			{
+				19903,
+				{
+					3001,
+					3002,
+					3003,
+					3005,
+					3006,
+					3007,
+					3008,
+					3010,
+					3011,
+					3012,
+					3013,
+					3014,
+					3015,
+					3016,
+					3017,
+					3018
+				}
+			}
+		}
+	},
+	{
 		resource_name = "Beach",
 		assets_prefix = "Beach",
 		id = 4,
@@ -163,11 +234,13 @@ pg.dorm3d_rooms = {
 		tag = "beach",
 		type = 1,
 		room_bgm = "story-room-sirius",
+		room_des = "沙滩、泳装、排球……尽情在海风中玩耍吧~",
 		scene_info = "map_beach_02|Beach",
 		character = {},
 		character_pay = {
 			20220,
-			30221
+			30221,
+			19903
 		},
 		character_welcome = {
 			{
@@ -177,11 +250,15 @@ pg.dorm3d_rooms = {
 			{
 				30221,
 				0
+			},
+			{
+				19903,
+				0
 			}
 		},
 		character_range = {
 			0,
-			2
+			3
 		},
 		unlock_item = {
 			{
@@ -198,6 +275,10 @@ pg.dorm3d_rooms = {
 			{
 				30221,
 				"Nengdai"
+			},
+			{
+				19903,
+				"Ankeleiqi"
 			}
 		},
 		furniture_zones = {},
@@ -210,6 +291,10 @@ pg.dorm3d_rooms = {
 			{
 				30221,
 				270111
+			},
+			{
+				19903,
+				270112
 			}
 		},
 		invite_banner = {
@@ -225,6 +310,12 @@ pg.dorm3d_rooms = {
 				{
 					"banner_beach3"
 				}
+			},
+			{
+				19903,
+				{
+					"banner_beach4"
+				}
 			}
 		},
 		invite_mark = {
@@ -238,6 +329,14 @@ pg.dorm3d_rooms = {
 			},
 			{
 				30221,
+				{
+					1,
+					5,
+					6
+				}
+			},
+			{
+				19903,
 				{
 					1,
 					5,
@@ -265,10 +364,20 @@ pg.dorm3d_rooms = {
 					4204,
 					4205
 				}
+			},
+			{
+				19903,
+				{
+					4401,
+					4402,
+					4403,
+					4404,
+					4405
+				}
 			}
 		}
 	},
-	[5] = {
+	{
 		furniture_zones = "",
 		default_zone = "",
 		resource_name = "Bathroom",
@@ -283,6 +392,7 @@ pg.dorm3d_rooms = {
 		recall_list = "",
 		type = 1,
 		room_bgm = "story-room-sirius",
+		room_des = "",
 		invite_banner = "",
 		scene_info = "",
 		character = {
@@ -296,8 +406,8 @@ pg.dorm3d_rooms = {
 			}
 		},
 		character_range = {
-			1,
-			3
+			0,
+			0
 		},
 		unlock_item = {
 			{
@@ -311,6 +421,7 @@ pg.dorm3d_rooms = {
 		floor_1 = {
 			1,
 			2,
+			3,
 			4,
 			5
 		}
@@ -318,6 +429,7 @@ pg.dorm3d_rooms = {
 	all = {
 		1,
 		2,
+		3,
 		4,
 		5
 	}

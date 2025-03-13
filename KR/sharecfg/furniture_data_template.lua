@@ -153,8 +153,10 @@ pg.furniture_data_template = setmetatable({
 			287,
 			288,
 			289,
+			291,
 			292,
 			293,
+			295,
 			100002,
 			100003,
 			100004,
@@ -3294,6 +3296,31 @@ pg.furniture_data_template = setmetatable({
 			318303,
 			318304,
 			318305
+		},
+		[119] = {
+			319001,
+			319002,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
+			319117,
+			319301,
+			319302,
+			319303,
+			319304
 		}
 	},
 	get_id_list_by_tag = {
@@ -5251,7 +5278,23 @@ pg.furniture_data_template = setmetatable({
 			318112,
 			318113,
 			318114,
-			318115
+			318115,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116
 		},
 		{
 			1108,
@@ -5502,6 +5545,7 @@ pg.furniture_data_template = setmetatable({
 			285,
 			286,
 			288,
+			291,
 			100002,
 			100003,
 			100004,
@@ -5633,7 +5677,8 @@ pg.furniture_data_template = setmetatable({
 			287,
 			289,
 			292,
-			293
+			293,
+			295
 		},
 		[7] = {
 			213,
@@ -5829,7 +5874,8 @@ pg.furniture_data_template = setmetatable({
 			315113,
 			316123,
 			317111,
-			318305
+			318305,
+			319117
 		},
 		[4] = {
 			1001,
@@ -5934,7 +5980,8 @@ pg.furniture_data_template = setmetatable({
 			315001,
 			316001,
 			317001,
-			318001
+			318001,
+			319001
 		},
 		[3] = {
 			1002,
@@ -6040,7 +6087,8 @@ pg.furniture_data_template = setmetatable({
 			315002,
 			316002,
 			317002,
-			318002
+			318002,
+			319002
 		},
 		[5] = {
 			1301,
@@ -6396,7 +6444,11 @@ pg.furniture_data_template = setmetatable({
 			318301,
 			318302,
 			318303,
-			318304
+			318304,
+			319301,
+			319302,
+			319303,
+			319304
 		}
 	},
 	get_id_list_by_type = {
@@ -6504,7 +6556,8 @@ pg.furniture_data_template = setmetatable({
 			315002,
 			316002,
 			317002,
-			318002
+			318002,
+			319002
 		},
 		[7] = {
 			1,
@@ -6638,6 +6691,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			293,
+			295,
 			100002,
 			100004,
 			100005,
@@ -6707,6 +6761,7 @@ pg.furniture_data_template = setmetatable({
 			213,
 			240,
 			242,
+			291,
 			100060,
 			100070,
 			200001,
@@ -8647,7 +8702,24 @@ pg.furniture_data_template = setmetatable({
 			318112,
 			318113,
 			318114,
-			318115
+			318115,
+			319101,
+			319102,
+			319103,
+			319104,
+			319105,
+			319106,
+			319107,
+			319108,
+			319109,
+			319110,
+			319111,
+			319112,
+			319113,
+			319114,
+			319115,
+			319116,
+			319117
 		},
 		[11] = {
 			131,
@@ -8827,7 +8899,8 @@ pg.furniture_data_template = setmetatable({
 			315001,
 			316001,
 			317001,
-			318001
+			318001,
+			319001
 		},
 		[5] = {
 			1101,
@@ -9478,7 +9551,10 @@ pg.furniture_data_template = setmetatable({
 			318302,
 			318303,
 			318304,
-			318305
+			318305,
+			319302,
+			319303,
+			319304
 		},
 		[8] = {
 			17121
@@ -9510,7 +9586,8 @@ pg.furniture_data_template = setmetatable({
 			310303,
 			310304,
 			310305,
-			312301
+			312301,
+			319301
 		},
 		[12] = {
 			46131
@@ -9669,8 +9746,10 @@ pg.furniture_data_template = setmetatable({
 		287,
 		288,
 		289,
+		291,
 		292,
 		293,
+		295,
 		100002,
 		100003,
 		100004,
@@ -12601,7 +12680,30 @@ pg.furniture_data_template = setmetatable({
 		318302,
 		318303,
 		318304,
-		318305
+		318305,
+		319001,
+		319002,
+		319101,
+		319102,
+		319103,
+		319104,
+		319105,
+		319106,
+		319107,
+		319108,
+		319109,
+		319110,
+		319111,
+		319112,
+		319113,
+		319114,
+		319115,
+		319116,
+		319117,
+		319301,
+		319302,
+		319303,
+		319304
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20224,6 +20326,86 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[291] = {
+		can_rotate = 0,
+		describe = "헉헉헉~ 이 손잡이만 열심히 돌리면 대상 뽑을 수 있어!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "choujiangtuicheicon",
+		count = 1,
+		name = "쥬쥬 추첨카",
+		advice = 0,
+		id = 291,
+		tag = 6,
+		comfortable = 4,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"choujiangtuiche",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
 	[292] = {
 		can_rotate = 0,
 		describe = "우주선을 타고 새로운 모험을 떠나자!",
@@ -20304,6 +20486,49 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[295] = {
+		can_rotate = 0,
+		describe = "영야의 왕관의 복제품. 광채는 그대로 유지하면서 META화 침식만 제거하여, 안심하고 감상할 수 있다.",
+		gain_by = "새장에 갇힌 신의 빛",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "영야의 왕관",
+		advice = 0,
+		id = 295,
+		icon = "lafeierxunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"lafeierxunzhang",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	},
@@ -21587,7 +21812,9 @@ pg.base.furniture_data_template = {
 					nil,
 					{
 						"action",
-						"tuozhuai2"
+						"tuozhuai2",
+						false,
+						true
 					},
 					"tuozhuai2"
 				},
@@ -23372,7 +23599,9 @@ pg.base.furniture_data_template = {
 					nil,
 					{
 						"sit1",
-						"sit"
+						"sit",
+						false,
+						true
 					},
 					"sit"
 				},
@@ -24484,7 +24713,7 @@ pg.base.furniture_data_template = {
 	},
 	[100060] = {
 		can_rotate = 0,
-		describe = "등장! 천재와 천재 메카닉의 만남! 다 빈치 1호와 소브라지텔니 1호 등장!",
+		describe = "짜잔! 천재 & 천재 메카닉, 다 빈치 1호와 소브라지텔니 1호 등장!",
 		gain_by = "",
 		type = 2,
 		dir = 0,
@@ -24503,7 +24732,7 @@ pg.base.furniture_data_template = {
 		belong = 1,
 		canputon = 0,
 		count = 1,
-		name = "복실복실한 천재 군단!",
+		name = "폭신폭신 천재 군단!",
 		advice = 0,
 		icon = "juuswanouicon",
 		id = 100060,
@@ -24521,7 +24750,7 @@ pg.base.furniture_data_template = {
 	},
 	[100061] = {
 		can_rotate = 0,
-		describe = "동화 같은 외형과 편안함을 가지고 있으며 이불 속에 펄이 있을 수도?",
+		describe = "판타지스러운 외관에 판타스틱한 편안함! 어쩌면 이불 속에서 진주를 찾을 수 있을지도 모른다.",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -24540,7 +24769,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		icon = "zhenzhubeichuangicon",
 		count = 1,
-		name = "반짝이는 조개 침대",
+		name = "반짝반짝 셸 캐빈",
 		advice = 0,
 		id = 100061,
 		tag = 6,
@@ -24961,7 +25190,9 @@ pg.base.furniture_data_template = {
 					1,
 					{
 						"walk1",
-						"walk"
+						"walk",
+						false,
+						true
 					}
 				},
 				{
@@ -76181,7 +76412,9 @@ pg.base.furniture_data_template = {
 				{
 					[3] = {
 						"sit0",
-						"sit"
+						"sit",
+						false,
+						true
 					}
 				},
 				{
@@ -97475,7 +97708,9 @@ pg.base.furniture_data_template = {
 				{
 					[3] = {
 						"action",
-						"dance"
+						"dance",
+						false,
+						true
 					}
 				},
 				{
@@ -141502,7 +141737,9 @@ pg.base.furniture_data_template = {
 					nil,
 					{
 						"sit1",
-						"sit"
+						"sit",
+						false,
+						true
 					},
 					"sit"
 				},
@@ -151146,6 +151383,983 @@ pg.base.furniture_data_template = {
 		spine = {
 			{
 				"zhuangshiguahuacj7",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319001] = {
+		can_rotate = 0,
+		describe = "금빛 대지에 발을 들이면, 먼 옛날의 잔향이 들려온다… 온다… 온다…",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/dibanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "파라오의 바닥",
+		advice = 0,
+		icon = "dibanajicon",
+		id = 319001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319002] = {
+		can_rotate = 0,
+		describe = "금빛 대지에 발을 들이면, 먼 옛날의 잔향이 들려온다… 온다… 온다…",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		name = "파라오의 벽",
+		advice = 0,
+		id = 319002,
+		icon = "qiangbiajicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbiaj",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[319101] = {
+		can_rotate = 0,
+		describe = "귀엽고 작은 수영장이지만, 성스러운 힘으로 몸을 축복해주고, 정화력이 무척 높다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/chitangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		name = "파라오 풀",
+		advice = 0,
+		id = 319101,
+		icon = "chitangajicon",
+		comfortable = 4,
+		size = {
+			11,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-19.1,
+					-100.8
+				},
+				{
+					-1,
+					1
+				},
+				"aj/chitangaj_using",
+				0,
+				{
+					{
+						0.5,
+						2
+					},
+					{
+						662,
+						399
+					},
+					"aj/chitangaj_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319102] = {
+		can_rotate = 0,
+		describe = "고대 서적과 과일이 놓인 카펫에서 잠을 청하면, 신비로운 꿈을 꿀 수 있을지도 모른다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/ditanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		name = "파라오 카펫",
+		advice = 0,
+		id = 319102,
+		icon = "ditanajicon",
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					13.9,
+					12.5
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319103] = {
+		can_rotate = 0,
+		describe = "신전을 지키는 성스러운 위병 만쥬. 뒤집히더라도 능력은 제대로 발휘할 수 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jiudiaoxiang1aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "위병 만쥬상",
+		advice = 0,
+		icon = "jiudiaoxiang1ajicon",
+		id = 319103,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319104] = {
+		can_rotate = 0,
+		describe = "신전을 지키는 성스러운 위병 만쥬. 뒤집히더라도 능력은 제대로 발휘할 수 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jiudiaoxiang2aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "위병 만쥬상 2",
+		advice = 0,
+		icon = "jiudiaoxiang2ajicon",
+		id = 319104,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319105] = {
+		can_rotate = 0,
+		describe = "천년의 비밀을 지키는 스핑크스상. 종류는 의외로 많은 듯하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/shishendiaoxiang1aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "사자 만쥬상",
+		advice = 0,
+		icon = "shishendiaoxiang1ajicon",
+		id = 319105,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319106] = {
+		can_rotate = 0,
+		describe = "천년의 비밀을 지키는 스핑크스상. 종류는 의외로 많은 듯하다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/shishendiaoxiang2aj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "사자 만쥬상 2",
+		advice = 0,
+		icon = "shishendiaoxiang2ajicon",
+		id = 319106,
+		comfortable = 3,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319107] = {
+		can_rotate = 0,
+		describe = "이국의 과일이 풍기는 향이 무척이나 향긋하다. 다음 손님이 기다려진다 쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/xiaotanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "파라오 시장 만쥬",
+		advice = 0,
+		icon = "xiaotanajicon",
+		id = 319107,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319108] = {
+		can_rotate = 0,
+		describe = "보물이 묻혀 있나…… 어디 확인해 볼까 쥬쥬?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/shaduiaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "옛 모래톱",
+		advice = 0,
+		icon = "shaduiajicon",
+		id = 319108,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319109] = {
+		can_rotate = 0,
+		describe = "높이 솟아오른 지휘냥상. 무언가를 근엄하게 지도하는 듯한 모습이다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/maoshixiangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "파수꾼 지휘냥상",
+		advice = 0,
+		icon = "maoshixiangajicon",
+		id = 319109,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319110] = {
+		can_rotate = 0,
+		describe = "수수께끼의 물건 하나 하나에 이야기가 숨겨져 있다. 하나 골라볼까?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/guangchangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "파라오 시장 만쥬",
+		advice = 0,
+		icon = "guangchangajicon",
+		id = 319110,
+		comfortable = 4,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319111] = {
+		can_rotate = 0,
+		describe = "얼핏 보면 평범한 항아리 같지만…… 너무 건드리지 않는 편이 좋을 것 같다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		name = "잠든 뱀의 항아리",
+		advice = 0,
+		id = 319111,
+		icon = "taoqiajicon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taoqiaj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319112] = {
+		can_rotate = 0,
+		describe = "신전을 지탱하는 거대한 돌기둥. 새겨진 모양에는 주로 빵, 맥주, 마늘 등이 있다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/hengliangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "신전 기둥",
+		advice = 0,
+		icon = "hengliangajicon",
+		id = 319112,
+		comfortable = 2,
+		size = {
+			9,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319113] = {
+		can_rotate = 0,
+		describe = "붕대를 두른 만쥬. 파라오가 내린 불멸의 저주…인가? !",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/bengdaijiuaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "미라 만쥬",
+		advice = 0,
+		icon = "bengdaijiuajicon",
+		id = 319113,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319114] = {
+		can_rotate = 0,
+		describe = "정체불명의 금빛 관. 열지 않는 편이 좋을 것 같다…",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/guanmuaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		name = "파라오의 관",
+		advice = 0,
+		id = 319114,
+		icon = "guanmuajicon",
+		comfortable = 4,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"guanmuaj",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319115] = {
+		can_rotate = 0,
+		describe = "수수께끼의 고대 문자가 무수히 새겨진 오벨리스크. 천지를 흔드는 전능한 지혜가 승리로 이끌어 준다고 한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/fangjianbeiaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "오벨리스크",
+		advice = 0,
+		icon = "fangjianbeiajicon",
+		id = 319115,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319116] = {
+		can_rotate = 0,
+		describe = "깨끗하게 열을 맞춰 심긴 녹색 작물들이 뜨거운 사막에 생명의 빛과 희망을 전해주고 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/huatanaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 4,
+		name = "파라오의 화단",
+		advice = 0,
+		icon = "huatanajicon",
+		id = 319116,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319117] = {
+		can_rotate = 0,
+		describe = "옥좌에 앉아 하늘을 질주하라! 황금을 휘감아, 날개 달린 신으로 거듭나리라! …단, 너무 높이 날지는 않도록 하자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 119,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "baozuoajicon",
+		count = 1,
+		name = "날개 달린 신의 옥좌",
+		advice = 0,
+		id = 319117,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baozuoajB",
+				"normal"
+			},
+			{
+				"baozuoajT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[319301] = {
+		can_rotate = 0,
+		describe = "복도를 지키는 석상이 이곳에 발을 들이는 자를 평가한다.",
+		gain_by = "",
+		type = 10,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jianzhuqiangaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "왕묘의 벽",
+		advice = 0,
+		icon = "jianzhuqiangajicon",
+		id = 319301,
+		comfortable = 4,
+		size = {
+			12,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319302] = {
+		can_rotate = 0,
+		describe = "천년의 문 너머에는 무엇이 기다리고 있을까…냥?",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		name = "바스테트의 문",
+		advice = 0,
+		id = 319302,
+		icon = "shixiangdamenajicon",
+		comfortable = 4,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shixiangdamenaj",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[319303] = {
+		can_rotate = 0,
+		describe = "이 금빛 모양도 고대의 주문…일지도 모른다.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "aj/jinzitaqiangshiaj",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 119,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "피라미드의 벽장식",
+		advice = 0,
+		icon = "jinzitaqiangshiajicon",
+		id = 319303,
+		comfortable = 2,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[319304] = {
+		can_rotate = 0,
+		describe = "시간의 모래에 금빛으로 물들여진 석판. 다른 차원으로 이어지는 비밀이 담겨져 있다고도 한다.",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 119,
+		count = 1,
+		name = "황금 독수리 석판화",
+		advice = 0,
+		id = 319304,
+		icon = "feiniaoajicon",
+		comfortable = 3,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"feiniaoaj",
 				"normal",
 				{
 					"action",

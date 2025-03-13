@@ -51,6 +51,7 @@ require("Mgr/GameTracker/GameTrackerMgr")
 require("Mgr/GMTMgr")
 require("Mgr/IKMgr")
 require("Mgr/ChangeSkinMgr")
+require("Mgr/VoiceChat/Include")
 
 if PLATFORM_CODE == PLATFORM_CHT then
 	require("Mgr/DeepLinking/YongshiDeepLinkingMgr")

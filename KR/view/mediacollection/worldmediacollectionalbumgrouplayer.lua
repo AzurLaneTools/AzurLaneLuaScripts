@@ -71,7 +71,7 @@ slot0.onUpdateAlbumGroup = function(slot0, slot1, slot2)
 	slot0.albumGroupInfos[slot2] = slot3
 
 	slot0.loader:GetSpriteQuiet(slot3.entrance_picture, "", tf(slot2):Find("BG"))
-	setActive(tf(slot2):Find("expireMask"), ActivityMedalGroup.GetMedalGroupStateByID(slot3.id) < ActivityMedalGroup.STATE_ACTIVE)
+	setActive(tf(slot2):Find("expireMask"), ActivityMedalGroup.IsMedalGroupCollectionGrey(slot3.id) and ActivityMedalGroup.GetMedalGroupStateByID(slot3.id) < ActivityMedalGroup.STATE_ACTIVE)
 end
 
 slot0.Return2MemoryGroup = function(slot0)

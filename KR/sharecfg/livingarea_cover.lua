@@ -84,6 +84,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100203_icon"
 	},
+	[100301] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "맛있는 즐거움",
+		nighttime_res = "100301_bg_night",
+		daytime_res = "100301_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「맛있는 즐거움」으로 적용 가능",
+		unlock_text = "앵커리지의 친밀도 Lv2 달성 시 오픈",
+		id = 100301,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100301_icon"
+	},
+	[100302] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "동화 속 시간",
+		nighttime_res = "100302_bg_night",
+		daytime_res = "100302_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「동화 속 시간」으로 적용 가능",
+		unlock_text = "앵커리지의 친밀도 Lv9 달성 시 오픈",
+		id = 100302,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100302_icon"
+	},
+	[100303] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "낙서의 세계",
+		nighttime_res = "100303_bg_night",
+		daytime_res = "100303_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「낙서의 세계」로 적용 가능",
+		unlock_text = "앵커리지의 친밀도 Lv13 달성 시 오픈",
+		id = 100303,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "100303_icon"
+	},
 	all = {
 		0,
 		100101,
@@ -91,6 +127,9 @@ pg.livingarea_cover = {
 		100103,
 		100201,
 		100202,
-		100203
+		100203,
+		100301,
+		100302,
+		100303
 	}
 }

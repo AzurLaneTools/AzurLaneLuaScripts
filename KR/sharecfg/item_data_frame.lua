@@ -72,6 +72,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>Sixth Anniversary! </color>\n　6주년 기념 이벤트에서 오픈 가능",
 		scene = {}
 	},
+	[109] = {
+		name = "7주년 기념",
+		gain_by = "",
+		time_second = 0,
+		id = 109,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>7년 동안 모항에서 분투한 모든 지휘관들에게 바칩니다.</color>\n7주년 한정 이벤트를 통해 획득 가능",
+		scene = {}
+	},
 	[201] = {
 		name = "한계 챌린저 ",
 		gain_by = "",
@@ -479,7 +488,7 @@ pg.item_data_frame = {
 	},
 	[334] = {
 		name = "일필의 신광",
-		gain_by = "",
+		gain_by = "樊笼内的神光",
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
@@ -603,6 +612,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>누구도 자신의 이야기에서 벗어날 수 없다. 설령 그것이 자유로운 방랑자라도――</color>「황야 휴일 개척기」 이벤트 참가 보상.",
 		scene = {}
 	},
+	[609] = {
+		name = "봄날 할인 기념",
+		gain_by = "",
+		time_second = 0,
+		id = 609,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「指挥官，感谢您参与促销活动，请收好赠品喵~！」</color>通过参与「2024冬至茗的大促销」活动获取",
+		scene = {}
+	},
 	[1001] = {
 		name = "스위트 랑데부",
 		gain_by = "",
@@ -637,6 +655,24 @@ pg.item_data_frame = {
 		id = 1004,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>사쿠라 엠파이어 우산 아래서 바라보는, 누군가의 애틋한 마음</color>\n「교류 숙소」의 노시로 친밀도 Lv 보상",
+		scene = {}
+	},
+	[1005] = {
+		name = "천사의 빛",
+		gain_by = "",
+		time_second = 0,
+		id = 1005,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>천사의 오오라를 빛나게 하는 것은 순수한 빛을 발하는 별들의 광채</color>\n「교류 숙소」에서의 앵커리지 호감도 Lv 보상",
+		scene = {}
+	},
+	[1006] = {
+		name = "푸른 바다의 만남",
+		gain_by = "",
+		time_second = 0,
+		id = 1006,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>밀려 드는 파도를 쫓으며 시작되는 기쁘고도 즐거운 만남</color>\n「교류 숙소」에서의 앵커리지 호감도 Lv 보상",
 		scene = {}
 	},
 	[10001] = {
@@ -756,6 +792,7 @@ pg.item_data_frame = {
 		105,
 		107,
 		108,
+		109,
 		201,
 		202,
 		203,
@@ -815,10 +852,13 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		609,
 		1001,
 		1002,
 		1003,
 		1004,
+		1005,
+		1006,
 		10001,
 		10002,
 		10003,

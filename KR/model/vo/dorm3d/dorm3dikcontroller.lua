@@ -10,6 +10,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.backTime = slot1.backTime
 	slot0.actionRevertTime = slot1.actionRevertTime
 	slot0.timelineActionEvent = slot1.timelineActionEvent
+	slot0.ignoreDrag = slot1.ignoreDrag
 end
 
 slot0.GetTriggerName = function(slot0)
@@ -46,6 +47,10 @@ end
 
 slot0.GetTimelineActionEvent = function(slot0)
 	return slot0.timelineActionEvent
+end
+
+slot0.IsIgnoreDrag = function(slot0)
+	return slot0.ignoreDrag
 end
 
 return slot0

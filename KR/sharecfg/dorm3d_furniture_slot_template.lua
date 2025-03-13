@@ -135,6 +135,69 @@ pg.dorm3d_furniture_slot_template = {
 		furniture_name = "pre_db_chair07",
 		zone_id = 2003
 	},
+	[130101] = {
+		default_furniture = 0,
+		name = "卧室帐篷玩偶",
+		type = 3,
+		id = 130101,
+		room_id = 3,
+		furniture_name = "pre_db_ah_toy05",
+		zone_id = 3001
+	},
+	[130102] = {
+		default_furniture = 0,
+		name = "卧室床边摆件",
+		type = 3,
+		id = 130102,
+		room_id = 3,
+		furniture_name = "pre_db_ah_pottedplant01",
+		zone_id = 3001
+	},
+	[130103] = {
+		default_furniture = 301,
+		name = "卧室床",
+		type = 4,
+		id = 130103,
+		room_id = 3,
+		furniture_name = "pre_db_bed03",
+		zone_id = 3001
+	},
+	[130201] = {
+		default_furniture = 0,
+		name = "娱乐区画框",
+		type = 3,
+		id = 130201,
+		room_id = 3,
+		furniture_name = "pre_db_ah_billboard01_group01",
+		zone_id = 3002
+	},
+	[130202] = {
+		default_furniture = 302,
+		name = "娱乐区",
+		type = 6,
+		id = 130202,
+		room_id = 3,
+		furniture_name = "pre_db_carpet20",
+		zone_id = 3002
+	},
+	[130301] = {
+		default_furniture = 0,
+		name = "客厅窗户玩偶",
+		type = 3,
+		id = 130301,
+		room_id = 3,
+		furniture_name = "pre_db_ah_decoration02",
+		zone_id = 3003
+	},
+	[130302] = {
+		default_furniture = 303,
+		name = "客厅沙发",
+		type = 5,
+		id = 130302,
+		room_id = 3,
+		furniture_name = "pre_db_chair15",
+		zone_id = 3003
+	},
 	get_id_list_by_room_id = {
 		{
 			100101,
@@ -154,6 +217,15 @@ pg.dorm3d_furniture_slot_template = {
 			120301,
 			120302,
 			120303
+		},
+		{
+			130101,
+			130102,
+			130103,
+			130201,
+			130202,
+			130301,
+			130302
 		}
 	},
 	get_id_list_by_zone_id = {
@@ -185,6 +257,19 @@ pg.dorm3d_furniture_slot_template = {
 			120301,
 			120302,
 			120303
+		},
+		[3001] = {
+			130101,
+			130102,
+			130103
+		},
+		[3002] = {
+			130201,
+			130202
+		},
+		[3003] = {
+			130301,
+			130302
 		}
 	},
 	all = {
@@ -202,6 +287,13 @@ pg.dorm3d_furniture_slot_template = {
 		120203,
 		120301,
 		120302,
-		120303
+		120303,
+		130101,
+		130102,
+		130103,
+		130201,
+		130202,
+		130301,
+		130302
 	}
 }

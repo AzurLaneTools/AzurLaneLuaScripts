@@ -192,6 +192,102 @@ pg.activity_medal_template = {
 		id = 576908,
 		medal_asset = "ActivityMedal/576908"
 	},
+	[581201] = {
+		activity_medal_desc = "「영원한 대지, 사르데냐. 신의 빛이 빛나는 한, 그 번영은 영원히 계속되리.」",
+		next_medal = 0,
+		item = 65541,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "1",
+		task_id = 21278,
+		activity_medal_name = "스티커: 성스러운 날개의 심상",
+		id = 581201,
+		medal_asset = "ActivityMedal/581201"
+	},
+	[581202] = {
+		activity_medal_desc = "「신상의 심상이야말로 우리를 하나로 이어주는 것.」",
+		next_medal = 0,
+		item = 65542,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "2",
+		task_id = 21279,
+		activity_medal_name = "스티커: 신광의 그물",
+		id = 581202,
+		medal_asset = "ActivityMedal/581202"
+	},
+	[581203] = {
+		activity_medal_desc = "「저게 위신기 드로이드야. 지금 널 응시하고 있어.」",
+		next_medal = 0,
+		item = 65543,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "3",
+		task_id = 21280,
+		activity_medal_name = "스티커: 위신기의 응시",
+		id = 581203,
+		medal_asset = "ActivityMedal/581203"
+	},
+	[581204] = {
+		activity_medal_desc = "「난 그림 그리는 게 제일 좋아☆」",
+		next_medal = 0,
+		item = 65544,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "4",
+		task_id = 21281,
+		activity_medal_name = "스티커: 낙서 스케치",
+		id = 581204,
+		medal_asset = "ActivityMedal/581204"
+	},
+	[581205] = {
+		activity_medal_desc = "「시간이 시시각각 지나고 있어. 대체 언제쯤 새장에서 탈출할 수 있을까?」",
+		next_medal = 0,
+		item = 65545,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "5",
+		task_id = 21282,
+		activity_medal_name = "스티커: 카운트 다운",
+		id = 581205,
+		medal_asset = "ActivityMedal/581205"
+	},
+	[581206] = {
+		activity_medal_desc = "「힘과 압박감. 그것이 바로 메카 아비트레이터 전차.」",
+		next_medal = 0,
+		item = 65546,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "6",
+		task_id = 21283,
+		activity_medal_name = "스티커: 전차 심판기",
+		id = 581206,
+		medal_asset = "ActivityMedal/581206"
+	},
+	[581207] = {
+		activity_medal_desc = "「왕관을 쓰는 자는 그 무게를 견뎌야 한다.」",
+		next_medal = 0,
+		item = 65547,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "7",
+		task_id = 21284,
+		activity_medal_name = "스티커: 영야의 왕관",
+		id = 581207,
+		medal_asset = "ActivityMedal/581207"
+	},
+	[581208] = {
+		activity_medal_desc = "「넓고도 긴, 미역 같은 촉수. 식용 금지.」",
+		next_medal = 0,
+		item = 65548,
+		remake_task_id = 0,
+		group = 5812,
+		prefab_node = "8",
+		task_id = 21285,
+		activity_medal_name = "스티커: 위신기의 촉수",
+		id = 581208,
+		medal_asset = "ActivityMedal/581208"
+	},
 	all = {
 		571101,
 		571102,
@@ -208,6 +304,14 @@ pg.activity_medal_template = {
 		576905,
 		576906,
 		576907,
-		576908
+		576908,
+		581201,
+		581202,
+		581203,
+		581204,
+		581205,
+		581206,
+		581207,
+		581208
 	}
 }

@@ -14,6 +14,7 @@ slot5.Ctor = function(slot0, slot1)
 	slot0._owner = slot1
 	slot0._blinkIDList = {}
 	slot0._buffLastEffects = {}
+	slot0._currentLastFXID = nil
 	slot0._effectIndex = 0
 	slot0._effectList = {}
 end
@@ -118,11 +119,17 @@ slot5.DoWhenStackBuff = function(slot0, slot1)
 
 	slot0:addInitFX(slot2)
 
-	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot2).last_effect ~= "" and slot3.last_effect_stack then
-		if slot1.Data.stack_count > #slot0._buffLastEffects[slot2] then
+	slot3 = slot1.Data.stack_count
+
+	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot2).last_effect_stack_list and slot0:checkLastFXID(slot2, slot3) ~= slot0._currentLastFXID then
+		slot0:switchLastFX(slot2, slot3)
+	end
+
+	if slot4.last_effect ~= "" and slot4.last_effect_stack then
+		if slot3 > #slot0._buffLastEffects[slot2] then
 			slot0:addLastFX(slot2)
-		elseif slot4 < slot5 then
-			slot6 = slot5 - slot4
+		elseif slot3 < slot5 then
+			slot6 = slot5 - slot3
 
 			while slot6 > 0 do
 				slot0:removeLastFX(slot2)
@@ -169,55 +176,91 @@ slot5.removeLastFX = function(slot0, slot1)
 	end
 end
 
+slot5.switchLastFX = function(slot0, slot1, slot2)
+	slot3 = uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1)
+	slot4 = slot0:checkLastFXID(slot1, slot2)
+
+	if slot0._currentLastFXID then
+		slot0:removeLastFX(slot1)
+	end
+
+	if slot4 then
+		slot6 = slot0._buffLastEffects[slot1] or {}
+
+		table.insert(slot6, slot0:generateLastFX(slot3, slot4))
+
+		slot0._buffLastEffects[slot1] = slot6
+	end
+end
+
+slot5.checkLastFXID = function(slot0, slot1, slot2)
+	slot4 = nil
+
+	for slot8, slot9 in pairs(uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1).last_effect_stack_list) do
+		if slot8 <= slot2 then
+			slot4 = slot9
+		end
+	end
+
+	return slot4
+end
+
 slot5.addLastFX = function(slot0, slot1)
 	if uv0.Battle.BattleDataFunction.GetBuffTemplate(slot1).last_effect ~= nil and slot2.last_effect ~= "" then
 		slot4 = slot0._buffLastEffects[slot1] or {}
 
-		table.insert(slot4, slot0._owner:AddFX(slot2.last_effect))
+		table.insert(slot4, slot0:generateLastFX(slot2, slot2.last_effect))
 
 		slot0._buffLastEffects[slot1] = slot4
+	end
+end
 
-		if slot2.last_effect_cld_scale or slot2.last_effect_cld_angle then
-			slot5 = nil
-			slot6 = slot2[buffLv] or slot2.effect_list
+slot5.generateLastFX = function(slot0, slot1, slot2)
+	slot0._currentLastFXID = slot2
+	slot3 = slot0._owner:AddFX(slot2)
 
-			for slot10, slot11 in ipairs(slot6) do
-				if slot11.arg_list.cld_data then
-					slot5 = slot11
+	if slot1.last_effect_cld_scale or slot1.last_effect_cld_angle then
+		slot4 = nil
+		slot5 = slot1[buffLv] or slot1.effect_list
 
-					break
-				end
-			end
+		for slot9, slot10 in ipairs(slot5) do
+			if slot10.arg_list.cld_data then
+				slot4 = slot10
 
-			if slot5 then
-				if slot2.last_effect_cld_scale then
-					slot8 = slot3.transform.localScale
-
-					if slot5.arg_list.cld_data.box.range then
-						slot8.x = slot8.x * slot7.range
-						slot8.y = slot8.y * slot7.range
-						slot8.z = slot8.z * slot7.range
-					else
-						slot8.x = slot8.x * slot7[1]
-						slot8.y = slot8.y * slot7[2]
-						slot8.z = slot8.z * slot7[3]
-					end
-
-					slot3.transform.localScale = slot8
-				end
-
-				if slot2.last_effect_cld_angle then
-					slot3.transform:Find("scale/sector"):GetComponent(typeof(Renderer)).material:SetInt("_AngleControl", (360 - slot5.arg_list.cld_data.angle) * 0.5 - 5)
-				end
-
-				if slot2.last_effect_bound_bone and slot0._owner:GetBoneList()[slot2.last_effect_bound_bone] then
-					slot3.transform.localPosition = slot7[1]
-				end
+				break
 			end
 		end
 
-		slot3:SetActive(true)
+		if slot4 then
+			if slot1.last_effect_cld_scale then
+				slot7 = slot3.transform.localScale
+
+				if slot4.arg_list.cld_data.box.range then
+					slot7.x = slot7.x * slot6.range
+					slot7.y = slot7.y * slot6.range
+					slot7.z = slot7.z * slot6.range
+				else
+					slot7.x = slot7.x * slot6[1]
+					slot7.y = slot7.y * slot6[2]
+					slot7.z = slot7.z * slot6[3]
+				end
+
+				slot3.transform.localScale = slot7
+			end
+
+			if slot1.last_effect_cld_angle then
+				slot3.transform:Find("scale/sector"):GetComponent(typeof(Renderer)).material:SetInt("_AngleControl", (360 - slot4.arg_list.cld_data.angle) * 0.5 - 5)
+			end
+
+			if slot1.last_effect_bound_bone and slot0._owner:GetBoneList()[slot1.last_effect_bound_bone] then
+				slot3.transform.localPosition = slot6[1]
+			end
+		end
 	end
+
+	slot3:SetActive(true)
+
+	return slot3
 end
 
 slot5.addBlink = function(slot0, slot1)

@@ -56,6 +56,14 @@ pg.item_data_chat = {
 		desc = "6년 동안 모항에서 분투해 온 지휘관들에게 바칩니다.<color=#A7A7AAFF>5주년 한정 이벤트에 참여하여 획득</color> ",
 		scene = {}
 	},
+	[107] = {
+		name = "7주년 기념",
+		time_second = 0,
+		id = 107,
+		time_limit_type = 0,
+		desc = "7년 동안 모항에서 분투한 모든 지휘관들에게 바칩니다.\n<color=#A7A7AAFF>7주년 한정 이벤트를 통해 획득 가능</color>",
+		scene = {}
+	},
 	[300] = {
 		name = "소집자",
 		time_second = 2592000,
@@ -208,6 +216,7 @@ pg.item_data_chat = {
 		104,
 		105,
 		106,
+		107,
 		300,
 		301,
 		602,

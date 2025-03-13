@@ -2177,5 +2177,82 @@ pg.effect_offset = {
 			-0.5,
 			0
 		}
+	},
+	lafeier_tiaosepan_01 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-1,
+			3.2,
+			0
+		}
+	},
+	lafeier_tiaosepan_02 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-1,
+			3.2,
+			0
+		}
+	},
+	lafeier_tiaosepan_03 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-1,
+			3.2,
+			0
+		}
+	},
+	lafeier_tiaosepan_04 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-0.8,
+			3.2,
+			0
+		}
+	},
+	lafeier_tiaosepan_05 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-0.8,
+			3.2,
+			0
+		}
+	},
+	lafeier_tiaosepan_06 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			-0.8,
+			3.2,
+			0
+		}
+	},
+	lafeier_shengguang = {
+		mirror = false,
+		y_scale = false,
+		container_index = 2,
+		top_cover_offset = false,
+		offset = {
+			0,
+			5,
+			0
+		}
 	}
 }

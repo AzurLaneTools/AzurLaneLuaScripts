@@ -1893,12 +1893,7 @@ pg.dorm3d_ik_status = {
 			0,
 			0.1
 		},
-		enter_scene_anim = {
-			{
-				2001,
-				"XR_TD_shafa_idle_01"
-			}
-		}
+		enter_scene_anim = {}
 	},
 	[100250] = {
 		ik_camera = "Cam100250",
@@ -2099,7 +2094,12 @@ pg.dorm3d_ik_status = {
 			0,
 			0.1
 		},
-		enter_scene_anim = {}
+		enter_scene_anim = {
+			{
+				2001,
+				"XR_TD_shafa_idle_01"
+			}
+		}
 	},
 	[100280] = {
 		ik_camera = "Cam100280",
@@ -3550,7 +3550,7 @@ pg.dorm3d_ik_status = {
 					4,
 					0.3,
 					1038,
-					100221
+					110221
 				}
 			}
 		},
@@ -3609,7 +3609,7 @@ pg.dorm3d_ik_status = {
 					4,
 					0.3,
 					1041,
-					100231
+					110231
 				}
 			}
 		},
@@ -3736,7 +3736,7 @@ pg.dorm3d_ik_status = {
 					4,
 					0.3,
 					1042,
-					100210
+					110210
 				}
 			}
 		},
@@ -3795,7 +3795,7 @@ pg.dorm3d_ik_status = {
 					4,
 					0.3,
 					1043,
-					100210
+					110210
 				}
 			}
 		},
@@ -3854,7 +3854,7 @@ pg.dorm3d_ik_status = {
 					4,
 					0.3,
 					1044,
-					100220
+					110220
 				}
 			}
 		},
@@ -4417,12 +4417,7 @@ pg.dorm3d_ik_status = {
 			0,
 			0.1
 		},
-		enter_scene_anim = {
-			{
-				2001,
-				"XR_TD_shafa_idle_01"
-			}
-		}
+		enter_scene_anim = {}
 	},
 	[199999] = {
 		ik_camera = "Cam100320",
@@ -4478,12 +4473,7 @@ pg.dorm3d_ik_status = {
 			0,
 			0.1
 		},
-		enter_scene_anim = {
-			{
-				2001,
-				"XR_TD_shafa_idle_01"
-			}
-		}
+		enter_scene_anim = {}
 	},
 	[110250] = {
 		ik_camera = "Cam100250",
@@ -4595,7 +4585,12 @@ pg.dorm3d_ik_status = {
 			0,
 			0.1
 		},
-		enter_scene_anim = {}
+		enter_scene_anim = {
+			{
+				2001,
+				"XR_TD_shafa_idle_01"
+			}
+		}
 	},
 	[110270] = {
 		ik_camera = "Cam100270",
@@ -4643,7 +4638,12 @@ pg.dorm3d_ik_status = {
 			0,
 			0.1
 		},
-		enter_scene_anim = {}
+		enter_scene_anim = {
+			{
+				2001,
+				"XR_TD_shafa_idle_01"
+			}
+		}
 	},
 	[110280] = {
 		ik_camera = "Cam100280",
@@ -7992,6 +7992,1273 @@ pg.dorm3d_ik_status = {
 			}
 		}
 	},
+	[300110] = {
+		ik_camera = "Cam300110",
+		character_action = "ab_chuang_idle_01",
+		base = 300110,
+		camera_group = 30011,
+		skin_id = 199031,
+		character_position = "Pos300110",
+		enter_extra_item = "",
+		id = 300110,
+		character_id = 19903,
+		ik_id = {
+			{
+				30011000,
+				0,
+				{
+					4,
+					0.3,
+					30203
+				}
+			},
+			{
+				30011001,
+				0,
+				{
+					4,
+					0.3,
+					30202
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300111] = {
+		ik_camera = "Cam300111",
+		character_action = "ab_chuang_idle_01",
+		base = 300111,
+		camera_group = 30011,
+		skin_id = 199031,
+		character_position = "Pos300111",
+		enter_extra_item = "",
+		id = 300111,
+		character_id = 19903,
+		ik_id = {
+			{
+				30011100,
+				0,
+				{
+					4,
+					0.3,
+					30203
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300112] = {
+		ik_camera = "Cam300112",
+		character_action = "ab_chuang_idle_01",
+		base = 300112,
+		camera_group = 30011,
+		skin_id = 199031,
+		character_position = "Pos300112",
+		enter_extra_item = "",
+		id = 300112,
+		character_id = 19903,
+		ik_id = {
+			{
+				30011200,
+				0,
+				{
+					4,
+					0.3,
+					30202
+				}
+			},
+			{
+				30011201,
+				0,
+				{
+					4,
+					0.3,
+					30201
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300210] = {
+		ik_camera = "Cam300210",
+		character_action = "ab_shafa_idle_01",
+		base = 300210,
+		camera_group = 30012,
+		skin_id = 199031,
+		character_position = "Pos300210",
+		enter_extra_item = "",
+		id = 300210,
+		character_id = 19903,
+		ik_id = {
+			{
+				30021000,
+				0,
+				{
+					4,
+					0.3,
+					30208
+				}
+			},
+			{
+				30021001,
+				0,
+				{
+					4,
+					0.3,
+					30207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300211] = {
+		ik_camera = "Cam300211",
+		character_action = "ab_shafa_idle_01",
+		base = 300211,
+		camera_group = 30012,
+		skin_id = 199031,
+		character_position = "Pos300211",
+		enter_extra_item = "",
+		id = 300211,
+		character_id = 19903,
+		ik_id = {
+			{
+				30021100,
+				0,
+				{
+					4,
+					0.3,
+					30208
+				}
+			},
+			{
+				30021101,
+				0,
+				{
+					4,
+					0.3,
+					30209
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[300212] = {
+		ik_camera = "Cam300212",
+		character_action = "ab_shafa_idle_01",
+		base = 300212,
+		camera_group = 30012,
+		skin_id = 199031,
+		character_position = "Pos300212",
+		enter_extra_item = "",
+		id = 300212,
+		character_id = 19903,
+		ik_id = {
+			{
+				30021200,
+				0,
+				{
+					4,
+					0.3,
+					30207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300310] = {
+		ik_camera = "Cam300310",
+		character_action = "ab_ditan_idle_01",
+		base = 300310,
+		camera_group = 30013,
+		skin_id = 199031,
+		character_position = "Pos300310",
+		enter_extra_item = "",
+		id = 300310,
+		character_id = 19903,
+		ik_id = {
+			{
+				30031001,
+				0,
+				{
+					4,
+					0.3,
+					30206
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990313
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300311] = {
+		ik_camera = "Cam300311",
+		character_action = "ab_ditan_idle_01",
+		base = 300311,
+		camera_group = 30013,
+		skin_id = 199031,
+		character_position = "Pos300311",
+		enter_extra_item = "",
+		id = 300311,
+		character_id = 19903,
+		ik_id = {
+			{
+				30031100,
+				0,
+				{
+					4,
+					0.3,
+					30204
+				}
+			},
+			{
+				30031101,
+				0,
+				{
+					4,
+					0.3,
+					30205
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[300312] = {
+		ik_camera = "Cam300312",
+		character_action = "ab_ditan_idle_01",
+		base = 300312,
+		camera_group = 30013,
+		skin_id = 199031,
+		character_position = "Pos300312",
+		enter_extra_item = "",
+		id = 300312,
+		character_id = 19903,
+		ik_id = {
+			{
+				30031201,
+				0,
+				{
+					4,
+					0.3,
+					30205
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003321,
+				0,
+				{
+					7,
+					1990311
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300410] = {
+		ik_camera = "Cam300410",
+		character_action = "ab_FF_ditan_1_idle_1",
+		base = 300410,
+		camera_group = 30014,
+		skin_id = 199031,
+		character_position = "Pos300410",
+		enter_extra_item = "",
+		id = 300410,
+		character_id = 19903,
+		ik_id = {
+			{
+				30041000,
+				0,
+				{
+					4,
+					0.3,
+					30214
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990314
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2003,
+				"ab_FF_ditan_1_xiong_01_JM_loop"
+			}
+		}
+	},
+	[300411] = {
+		ik_camera = "Cam300411",
+		character_action = "ab_FF_ditan_1_idle_1",
+		base = 300411,
+		camera_group = 30014,
+		skin_id = 199031,
+		character_position = "Pos300411",
+		enter_extra_item = "",
+		id = 300411,
+		character_id = 19903,
+		ik_id = {
+			{
+				30041101,
+				0,
+				{
+					4,
+					0.3,
+					30215
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990314
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {
+			{
+				2003,
+				"ab_FF_ditan_1_xiong_01_JM_loop"
+			}
+		}
+	},
+	[300412] = {
+		ik_camera = "Cam300412",
+		character_action = "ab_FF_ditan_2_idle_1",
+		base = 300412,
+		camera_group = 30014,
+		skin_id = 199031,
+		character_position = "Pos300412",
+		enter_extra_item = "",
+		id = 300412,
+		character_id = 19903,
+		ik_id = {
+			{
+				30041200,
+				0,
+				{
+					4,
+					0.3,
+					30216
+				}
+			},
+			{
+				30041201,
+				0,
+				{
+					4,
+					0.3,
+					30217
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310110] = {
+		ik_camera = "Cam310110",
+		character_action = "ab_chuang_idle_01",
+		base = 300110,
+		camera_group = 30011,
+		skin_id = 199032,
+		character_position = "Pos310110",
+		enter_extra_item = "",
+		id = 310110,
+		character_id = 19903,
+		ik_id = {
+			{
+				30011000,
+				0,
+				{
+					4,
+					0.3,
+					30203
+				}
+			},
+			{
+				30011001,
+				0,
+				{
+					4,
+					0.3,
+					30202
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310111] = {
+		ik_camera = "Cam310111",
+		character_action = "ab_chuang_idle_01",
+		base = 300111,
+		camera_group = 30011,
+		skin_id = 199032,
+		character_position = "Pos310111",
+		enter_extra_item = "",
+		id = 310111,
+		character_id = 19903,
+		ik_id = {
+			{
+				30011100,
+				0,
+				{
+					4,
+					0.3,
+					30203
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310112] = {
+		ik_camera = "Cam310112",
+		character_action = "ab_chuang_idle_01",
+		base = 300112,
+		camera_group = 30011,
+		skin_id = 199032,
+		character_position = "Pos310112",
+		enter_extra_item = "",
+		id = 310112,
+		character_id = 19903,
+		ik_id = {
+			{
+				30011200,
+				0,
+				{
+					4,
+					0.3,
+					30202
+				}
+			},
+			{
+				30011201,
+				0,
+				{
+					4,
+					0.3,
+					30201
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310210] = {
+		ik_camera = "Cam310210",
+		character_action = "ab_shafa_idle_01",
+		base = 300210,
+		camera_group = 30012,
+		skin_id = 199032,
+		character_position = "Pos310210",
+		enter_extra_item = "",
+		id = 310210,
+		character_id = 19903,
+		ik_id = {
+			{
+				30021000,
+				0,
+				{
+					4,
+					0.3,
+					30208
+				}
+			},
+			{
+				30021001,
+				0,
+				{
+					4,
+					0.3,
+					30207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310211] = {
+		ik_camera = "Cam310211",
+		character_action = "ab_shafa_idle_01",
+		base = 300211,
+		camera_group = 30012,
+		skin_id = 199032,
+		character_position = "Pos310211",
+		enter_extra_item = "",
+		id = 310211,
+		character_id = 19903,
+		ik_id = {
+			{
+				30021100,
+				0,
+				{
+					4,
+					0.3,
+					30208
+				}
+			},
+			{
+				30021101,
+				0,
+				{
+					4,
+					0.3,
+					30209
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[310212] = {
+		ik_camera = "Cam310212",
+		character_action = "ab_shafa_idle_01",
+		base = 300212,
+		camera_group = 30012,
+		skin_id = 199032,
+		character_position = "Pos310212",
+		enter_extra_item = "",
+		id = 310212,
+		character_id = 19903,
+		ik_id = {
+			{
+				30021200,
+				0,
+				{
+					4,
+					0.3,
+					30207
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310310] = {
+		ik_camera = "Cam310310",
+		character_action = "ab_ditan_idle_01",
+		base = 300310,
+		camera_group = 30013,
+		skin_id = 199032,
+		character_position = "Pos310310",
+		enter_extra_item = "",
+		id = 310310,
+		character_id = 19903,
+		ik_id = {
+			{
+				30031001,
+				0,
+				{
+					4,
+					0.3,
+					30206
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990313
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310311] = {
+		ik_camera = "Cam310311",
+		character_action = "ab_ditan_idle_01",
+		base = 300311,
+		camera_group = 30013,
+		skin_id = 199032,
+		character_position = "Pos310311",
+		enter_extra_item = "",
+		id = 310311,
+		character_id = 19903,
+		ik_id = {
+			{
+				30031100,
+				0,
+				{
+					4,
+					0.3,
+					30204
+				}
+			},
+			{
+				30031101,
+				0,
+				{
+					4,
+					0.3,
+					30205
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[310312] = {
+		ik_camera = "Cam310312",
+		character_action = "ab_ditan_idle_01",
+		base = 300312,
+		camera_group = 30013,
+		skin_id = 199032,
+		character_position = "Pos310312",
+		enter_extra_item = "",
+		id = 310312,
+		character_id = 19903,
+		ik_id = {
+			{
+				30031201,
+				0,
+				{
+					4,
+					0.3,
+					30205
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003321,
+				0,
+				{
+					7,
+					1990311
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310410] = {
+		ik_camera = "Cam310410",
+		character_action = "ab_FF_ditan_1_idle_1",
+		base = 300410,
+		camera_group = 30014,
+		skin_id = 199032,
+		character_position = "Pos310410",
+		enter_extra_item = "",
+		id = 310410,
+		character_id = 19903,
+		ik_id = {
+			{
+				30041000,
+				0,
+				{
+					4,
+					0.3,
+					30214
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990314
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2003,
+				"ab_FF_ditan_1_xiong_01_JM_loop"
+			}
+		}
+	},
+	[310411] = {
+		ik_camera = "Cam310411",
+		character_action = "ab_FF_ditan_1_idle_1",
+		base = 300411,
+		camera_group = 30014,
+		skin_id = 199032,
+		character_position = "Pos310411",
+		enter_extra_item = "",
+		id = 310411,
+		character_id = 19903,
+		ik_id = {
+			{
+				30041101,
+				0,
+				{
+					4,
+					0.3,
+					30215
+				}
+			}
+		},
+		touch_data = {
+			{
+				3003322,
+				0,
+				{
+					7,
+					1990314
+				}
+			}
+		},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0.06,
+			0.6
+		},
+		enter_scene_anim = {
+			{
+				2003,
+				"ab_FF_ditan_1_xiong_01_JM_loop"
+			}
+		}
+	},
+	[310412] = {
+		ik_camera = "Cam310412",
+		character_action = "ab_FF_ditan_2_idle_1",
+		base = 300412,
+		camera_group = 30014,
+		skin_id = 199032,
+		character_position = "Pos310412",
+		enter_extra_item = "",
+		id = 310412,
+		character_id = 19903,
+		ik_id = {
+			{
+				30041200,
+				0,
+				{
+					4,
+					0.3,
+					30216
+				}
+			},
+			{
+				30041201,
+				0,
+				{
+					4,
+					0.3,
+					30217
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310910] = {
+		ik_camera = "Cam310910",
+		character_action = "ab_IK_swim_1_idle_01",
+		base = 310910,
+		camera_group = 30019,
+		skin_id = 199032,
+		character_position = "Pos310910",
+		enter_extra_item = "",
+		id = 310910,
+		character_id = 19903,
+		ik_id = {
+			{
+				31091000,
+				0,
+				{
+					4,
+					0.3,
+					30210
+				}
+			},
+			{
+				31091001,
+				0,
+				{
+					4,
+					0.3,
+					30211
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.2
+		},
+		enter_scene_anim = {}
+	},
+	[310911] = {
+		ik_camera = "Cam310911",
+		character_action = "ab_IK_swim_2_idle_01",
+		base = 310920,
+		camera_group = 30019,
+		skin_id = 199032,
+		character_position = "Pos310911",
+		enter_extra_item = "",
+		id = 310911,
+		character_id = 19903,
+		ik_id = {
+			{
+				31091100,
+				0,
+				{
+					4,
+					0.3,
+					30212
+				}
+			},
+			{
+				31091101,
+				0,
+				{
+					4,
+					0.3,
+					30213
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {
+			{
+				2004,
+				"ab_IK_swim_2_idle_01_HJ"
+			}
+		}
+	},
 	get_id_list_by_camera_group = {
 		{
 			2,
@@ -8285,6 +9552,42 @@ pg.dorm3d_ik_status = {
 		},
 		[29992] = {
 			299992
+		},
+		[30011] = {
+			300110,
+			300111,
+			300112,
+			310110,
+			310111,
+			310112
+		},
+		[30012] = {
+			300210,
+			300211,
+			300212,
+			310210,
+			310211,
+			310212
+		},
+		[30013] = {
+			300310,
+			300311,
+			300312,
+			310310,
+			310311,
+			310312
+		},
+		[30014] = {
+			300410,
+			300411,
+			300412,
+			310410,
+			310411,
+			310412
+		},
+		[30019] = {
+			310910,
+			310911
 		}
 	},
 	get_id_list_by_base = {
@@ -8596,6 +9899,60 @@ pg.dorm3d_ik_status = {
 		},
 		[299992] = {
 			299992
+		},
+		[300110] = {
+			300110,
+			310110
+		},
+		[300111] = {
+			300111,
+			310111
+		},
+		[300112] = {
+			300112,
+			310112
+		},
+		[300210] = {
+			300210,
+			310210
+		},
+		[300211] = {
+			300211,
+			310211
+		},
+		[300212] = {
+			300212,
+			310212
+		},
+		[300310] = {
+			300310,
+			310310
+		},
+		[300311] = {
+			300311,
+			310311
+		},
+		[300312] = {
+			300312,
+			310312
+		},
+		[300410] = {
+			300410,
+			310410
+		},
+		[300411] = {
+			300411,
+			310411
+		},
+		[300412] = {
+			300412,
+			310412
+		},
+		[310910] = {
+			310910
+		},
+		[310920] = {
+			310911
 		}
 	},
 	all = {
@@ -8737,6 +10094,32 @@ pg.dorm3d_ik_status = {
 		210621,
 		210631,
 		299991,
-		299992
+		299992,
+		300110,
+		300111,
+		300112,
+		300210,
+		300211,
+		300212,
+		300310,
+		300311,
+		300312,
+		300410,
+		300411,
+		300412,
+		310110,
+		310111,
+		310112,
+		310210,
+		310211,
+		310212,
+		310310,
+		310311,
+		310312,
+		310410,
+		310411,
+		310412,
+		310910,
+		310911
 	}
 }

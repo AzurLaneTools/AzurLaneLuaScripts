@@ -12410,7 +12410,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「요크타운Ⅱ」 100% 획득 가능! (최대 4척까지)"
+	tip = "기간 한정 건조를 총 200회 실시하면, 「라파엘로」 100% 획득 가능! (최대 4척까지)"
 }
 
 
@@ -28748,6 +28748,21 @@ _G.pg.base.gametip["2023Valentine_minigame_c"] = {
 }
 
 
+_G.pg.base.gametip["2023Valentine_minigame_label1"] = {
+	tip = "최종 득점:"
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label2"] = {
+	tip = "클리어 횟수"
+}
+
+
+_G.pg.base.gametip["2023Valentine_minigame_label3"] = {
+	tip = "현재 진척도"
+}
+
+
 _G.pg.base.gametip.Valentine_minigame_label1 = {
 	tip = "최종 득점:"
 }
@@ -36288,6 +36303,33 @@ _G.pg.base.gametip.drom3d_memory_limit_tip = {
 }
 
 
+_G.pg.base.gametip.drom3d_beach_memory_limit_tip = {
+	tip = "디바이스 사양 미달이 확인됩니다. 동시에 3명의 캐릭터를 초청할 경우 튕김 현상이 발생할 수 있습니다. 초청을 진행하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.blackfriday_main_tip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+·<color=#92fc63>12.12-12.19 维护</color>期间开启限时活动「茗的促销活动」
+·限时任务
+完成任务获得促销PT
+·特设商店
+使用促销PT在特设商店中兑换奖励
+·促销礼包
+截止12.18 0点为止，每日解锁一组免费礼包与付费礼包]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_shop_tip = {
+	tip = "$1日$2时解锁"
+}
+
+
 _G.pg.base.gametip.tolovegame_buff_name_1 = {
 	tip = "실드 UP!"
 }
@@ -36596,6 +36638,46 @@ _G.pg.base.gametip.notify_clock_button = {
 }
 
 
+_G.pg.base.gametip.blackfriday_gift = {
+	tip = "할인 패키지"
+}
+
+
+_G.pg.base.gametip.blackfriday_shop = {
+	tip = "특설 상점"
+}
+
+
+_G.pg.base.gametip.blackfriday_task = {
+	tip = "한정 임무"
+}
+
+
+_G.pg.base.gametip.blackfriday_coinshop = {
+	tip = "物资商店"
+}
+
+
+_G.pg.base.gametip.blackfriday_dailypack = {
+	tip = "데일리 패키지"
+}
+
+
+_G.pg.base.gametip.blackfriday_gemshop = {
+	tip = "钻石商店"
+}
+
+
+_G.pg.base.gametip.blackfriday_ptshop = {
+	tip = "PT商店"
+}
+
+
+_G.pg.base.gametip.blackfriday_specialpack = {
+	tip = "할인 패키지"
+}
+
+
 _G.pg.base.gametip.skin_shop_nonuse_label = {
 	tip = "할인 미적용"
 }
@@ -36704,13 +36786,188 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
+	tip = "오락 구역"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
+	tip = "거실"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
+	tip = "침실"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "친밀도가 최대치에 달했습니다. 선물을 줘도 친밀도는 상승하지 않습니다. 선물하시겠습니까?"
 }
 
 
+_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
+	tip = "$1의 초대"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_favor = {
+	tip = "호감도"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_furniture = {
+	tip = "소지 가구"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit = {
+	tip = "지난 방문"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time = {
+	tip = "$1일 전"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
+	tip = "미오픈"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_gift = {
+	tip = "선물"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_chat = {
+	tip = "채팅"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
+	tip = "새로운 메시지"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_messages = {
+	tip = "새로운 메시지 없음"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_phone = {
+	tip = "통화"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
+	tip = "새로운 메시지"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
+	tip = "새로운 메시지 없음"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_topics = {
+	tip = "쥬스타그램"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_ins = {
+	tip = "쥬스타그램"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
+	tip = "$1의 새로운 게시물이 있습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
+	tip = "새로운 게시물이 없습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
+	tip = "해변, 수영복, 비치발리볼… 바닷바람을 맞으며 즐기자!"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_character = {
+	tip = "오픈 가능 함선"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
+	tip = "리소스를 다운로드해야 합니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_all = {
+	tip = "모두"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
+	tip = "모항 해변"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
+	tip = "오늘"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_guide = {
+	tip = "해변에 방문하세요."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_download = {
+	tip = "$1의 리소스를 다운로드해야 합니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone = {
+	tip = "오픈되지 않았습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_welcome = {
+	tip = "캐릭터 초대"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 	tip = "선물하면 한도를 초과하는 $1의 친밀도는 무효가 됩니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
+	tip = "통화 기록"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_call = {
+	tip = "통화"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
+	tip = "미확인"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_msg = {
+	tip = "새로운 메시지 없음"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_topics = {
+	tip = "새로운 게시물이 없습니다."
 }
 
 
@@ -36859,4 +37116,9 @@ _G.pg.base.gametip["2025Valentine_minigame_b"] = {
 
 _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 	tip = "으음... 이 맛은, 괜찮은..건가? 로열 메이드가 이런 걸 만들다니... 지휘관, 다시 한 번 만들어보자!"
+}
+
+
+_G.pg.base.gametip.rps_game_take_card = {
+	tip = "카드 확정"
 }

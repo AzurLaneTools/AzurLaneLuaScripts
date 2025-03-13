@@ -63,6 +63,36 @@ pg.dorm3d_collection_template = setmetatable({
 			74,
 			75
 		},
+		{
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			115,
+			116,
+			117,
+			118,
+			119,
+			120,
+			121,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128
+		},
 		[4] = {
 			31,
 			32,
@@ -141,7 +171,35 @@ pg.dorm3d_collection_template = setmetatable({
 		78,
 		79,
 		74,
-		75
+		75,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		115,
+		116,
+		117,
+		118,
+		119,
+		120,
+		121,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -1560,6 +1618,594 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on/vfx_wupintishi01"
+		}
+	},
+	[101] = {
+		name = "풍선과 풍선과 액자",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "정성껏 고른 풍선이 장식된 은빛 액자. \n앵커리지는 이 조합이 마음에 드는 모양이다. \n토끼 리본에는 손질할 때 생긴 주름이 남아있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 101,
+		icon = "3Ddrom_ankeleiqi_item1",
+		model = {
+			"fbx/litmap_02/pre_db_billboard14"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_billboard14/vfx_wupintishi01"
+		}
+	},
+	[102] = {
+		name = "동화 티포트 세트",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "토끼 모양 티포트와 자그마한 찻잔. \n앵커리지가 늘 소중히 사용하고 있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 102,
+		icon = "3Ddrom_ankeleiqi_item2",
+		model = {
+			"fbx/litmap_02/pre_db_ceram11_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_ceram11_group01/vfx_wupintishi01"
+		}
+	},
+	[103] = {
+		name = "소원 보드",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "벽에 걸린 블랙 보드. \n앵커리지가 곧잘 작은 목표를 적어두고는 한다. \n가끔은 귀여운 낙서도 보인다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 103,
+		icon = "3Ddrom_ankeleiqi_item3",
+		model = {
+			"fbx/litmap_02/pre_db_blackboard01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_blackboard01/vfx_wupintishi01"
+		}
+	},
+	[104] = {
+		name = "지식의 보고",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "책장에 가지런히 꽂힌 동화책. \n모든 책은 커버에 정성스레 싸여 있고\n앵커리지만의 방식으로 분류된 라벨도 붙어 있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 104,
+		icon = "3Ddrom_ankeleiqi_item4",
+		model = {
+			"fbx/litmap_02/pre_db_book15_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_book15_group01/vfx_wupintishi01"
+		}
+	},
+	[105] = {
+		name = "성 모양 선반",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "동화에 나오는 성을 모티브로 한 서류 수납 선반. \n앵커리지는 여러 노트나 중요한 서류를 이곳에 보관한다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 105,
+		icon = "3Ddrom_ankeleiqi_item5",
+		model = {
+			"fbx/litmap_02/pre_db_cupboard18"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_cupboard18/vfx_wupintishi01"
+		}
+	},
+	[106] = {
+		name = "낡은 피아노",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "방구석에 있는 클래식 피아노. \n앵커리지가 연습 중인 악보가 놓여 있고,\n보면에는 그녀가 정성 들여 붙인 메모가 남겨져 있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 106,
+		icon = "3Ddrom_ankeleiqi_item6",
+		model = {
+			"fbx/litmap_02/pre_db_musicalInstrument02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_musicalInstrument02/vfx_wupintishi01"
+		}
+	},
+	[107] = {
+		name = "크레용 그림",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "책상 위에 놓인, 크레용으로 그린 그림. \n앵커리지의 눈에 비친 가장 아름다운 경치라고 한다.\n이 그림 속 인물은… 지휘관?",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 107,
+		icon = "3Ddrom_ankeleiqi_item7",
+		model = {
+			"fbx/litmap_02/pre_db_paper02_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_paper02_group01/vfx_wupintishi01"
+		}
+	},
+	[108] = {
+		name = "알람 시계",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "심플한 디자인의 알람 시계. \n앵커리지는 이 시계를 늘 침대 곁에 두고\n매일 중요한 시간을 놓치지 않도록 조심하고 있다.",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 108,
+		icon = "3Ddrom_ankeleiqi_item8",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_clock02/vfx_wupintishi01"
+		}
+	},
+	[109] = {
+		name = "장난감 상자",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "귀여운 디자인의 수납 상자. \n앵커리지가 이 안에 다양한 소품을 넣어두고 있다.",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 109,
+		icon = "3Ddrom_ankeleiqi_item9",
+		model = {
+			"fbx/litmap_02/pre_db_basket04_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_basket04_group01/vfx_wupintishi01"
+		}
+	},
+	[110] = {
+		name = "여름용 튜브",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "별 모양이 그려진 튜브. \n앵커리지가 직접 고른 여름용 필수품.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 110,
+		icon = "3Ddrom_ankeleiqi_item10",
+		model = {
+			"fbx/litmap_02/pre_db_toy07"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_toy07/vfx_wupintishi01"
+		}
+	},
+	[111] = {
+		name = "초보자용 식칼",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "손을 베지 않도록 특수 제작된 초보자용 식칼. \n요즘 앵커리지는 진지하게 채소 써는 연습을 하며\n맛있는 음식을 만드는 꿈을 꾸는 듯하다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 111,
+		icon = "3Ddrom_ankeleiqi_item11",
+		model = {
+			"fbx/litmap_02/pre_db_kitchenware08_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_kitchenware08_group01/vfx_wupintishi01"
+		}
+	},
+	[112] = {
+		name = "그림 동화책",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "하드커버로 제본된 동화책. \n앵커리지가 소중히 보관하고 있다. \n페이지에는 그녀가 즐겨 읽은 흔적이 보인다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 112,
+		icon = "3Ddrom_ankeleiqi_item12",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_book11a/vfx_wupintishi01"
+		}
+	},
+	[113] = {
+		name = "폭신폭신 인형",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "수면 모자를 쓰고 있는 펭귄 인형. \n앵커리지는 이 인형을 소파에서 가장 잘 보이는 곳에 두고\n좋은 꿈을 꿀 수 있게 지켜봐 주기를 바라는 듯하다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 113,
+		icon = "3Ddrom_ankeleiqi_item13",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_toy06/vfx_wupintishi01"
+		}
+	},
+	[114] = {
+		name = "선인장",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "귀여운 선인장. \n특별히 고른 선명한 색채의 화분이\n작지만 건강한 생명에 온기를 더해주고 있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 114,
+		icon = "3Ddrom_ankeleiqi_item14",
+		model = {
+			"fbx/litmap_02/pre_db_flowerpot10"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_flowerpot10/vfx_wupintishi01"
+		}
+	},
+	[115] = {
+		name = "주방 세트",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "소꿉놀이용 조리 기구 세트. \n앵커리지가 전용 선반에 가지런히 진열해 두었다. \n음… 요리는 아직 그녀에게는 이른 듯하다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 115,
+		icon = "3Ddrom_ankeleiqi_item15",
+		model = {
+			"fbx/litmap_02/pre_db_kitchenware01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_kitchenware01/vfx_wupintishi01"
+		}
+	},
+	[116] = {
+		name = "범고래 의자",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "범고래를 모티브로 한 흔들의자. \n앵커리지가 좋아하는 곳 중 하나다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 116,
+		icon = "3Ddrom_ankeleiqi_item16",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chair16/vfx_wupintishi01"
+		}
+	},
+	[117] = {
+		name = "정리함",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "등나무로 짠 수납함. \n앵커리지가 일용품을 수납하고 있다.",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 117,
+		icon = "3Ddrom_ankeleiqi_item17",
+		model = {
+			"fbx/litmap_02/pre_db_basket05"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_basket05/vfx_wupintishi01"
+		}
+	},
+	[118] = {
+		name = "고래 인형",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "푸른 고래 인형. 동그란 눈과 친근한 미소가 매력적이다. \n앵커리지는 이런 인형을 모으는 걸 좋아하는 듯하다. 다음에 또 몇 개 선물하자!",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 118,
+		icon = "3Ddrom_ankeleiqi_item18",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_toy10/vfx_wupintishi01"
+		}
+	},
+	[119] = {
+		name = "작은 칠판",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "칠판에 아이같이 귀여운 글자가 쓰여 있다. \n1+1=♡\n이건 무슨 의미지…?",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 119,
+		icon = "3Ddrom_ankeleiqi_item19",
+		model = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_blackboard02/vfx_wupintishi01"
+		}
+	},
+	[120] = {
+		name = "주사위 쿠션",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "주사위 모양의 파스텔 톤 쿠션. \n귀여운 가오리가 그려져 있고,\n부드러운 색채가 색다른 편안함을 가져다준다.",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 120,
+		icon = "3Ddrom_ankeleiqi_item20",
+		model = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/entertainmentarea/pre_db_toy12/vfx_wupintishi01"
+		}
+	},
+	[121] = {
+		name = "추억 사진",
+		award = 0,
+		time = 0,
+		room_id = 3,
+		desc = "밧줄과 목제 클립으로 소중한 사진이 장식되어 있다. \n칸마다 앵커리지와의 따뜻한 추억이 담겨있다.",
+		text = "dorm3d_Ankeleiqi_entertainmentarea",
+		id = 121,
+		icon = "3Ddrom_ankeleiqi_item21",
+		model = {
+			"fbx/litmap_02/pre_db_decoration12"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_decoration12/vfx_wupintishi01"
+		}
+	},
+	[122] = {
+		name = "우산꽂이",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "간소하고 심플한 우산꽂이. \n앵커리지는 늘 여기 우산을 두고\n비에 대비하고 있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 122,
+		icon = "3Ddrom_ankeleiqi_item22",
+		model = {
+			"fbx/litmap_02/day/pre_db_decoration11"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_decoration11/vfx_wupintishi01"
+		}
+	},
+	[123] = {
+		name = "보온병",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "밝은 색상의 보온병. \n앵커리지는 추워지면 여기 따뜻한 음료를 담아 사용한다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 123,
+		icon = "3Ddrom_ankeleiqi_item23",
+		model = {
+			"fbx/litmap_02/day/pre_db_tableware26"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_tableware26/vfx_wupintishi01"
+		}
+	},
+	[124] = {
+		name = "스티커",
+		award = 0,
+		time = 1,
+		room_id = 3,
+		desc = "귀여운 만쥬와 별 모양 스티커. \n눈에 잘 띄지 않는 곳에 붙여져\n방에 조금이나마 활기를 더하고 있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 124,
+		icon = "3Ddrom_ankeleiqi_item24",
+		model = {
+			"fbx/litmap_02/day/pre_db_cupboard19_01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/day/pre_db_cupboard19_01/vfx_wupintishi01"
+		}
+	},
+	[125] = {
+		name = "수면등",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "정밀하게 만들어진 수면등. \n앵커리지가 자기 전에 늘 은은하게 켜두고\n따뜻한 빛을 받으며 숙면을 취하는 듯하다.",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 125,
+		icon = "3Ddrom_ankeleiqi_item25",
+		model = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/bedroom/pre_db_desklamp03/vfx_wupintishi01"
+		}
+	},
+	[126] = {
+		name = "고래 전등",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "혹등고래 모양의 천장등. \n침대에 누울 때, 앵커리지는 늘 이 조명을 바라보며\n꿈속 해저 세계에 있는 상상을 하고는 한다.",
+		text = "dorm3d_Ankeleiqi_bed",
+		id = 126,
+		icon = "3Ddrom_ankeleiqi_item26",
+		model = {
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake/pre_db_anchoragehostel01_lamp01_night/vfx_wupintishi01"
+		}
+	},
+	[127] = {
+		name = "만쥬 머그컵",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "만쥬를 모티브로 한 머그컵. \n앵커리지에게 가장 잘 보이는 위치에 있어\n그녀의 애착을 확실하게 느낄 수 있다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 127,
+		icon = "3Ddrom_ankeleiqi_item27",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_tableware24/vfx_wupintishi01"
+		}
+	},
+	[128] = {
+		name = "배스 타월",
+		award = 0,
+		time = 2,
+		room_id = 3,
+		desc = "깔끔하게 접힌 배스 타월. \n수건을 둘둘 감은 앵커리지의 모습은\n몽실몽실한 구름을 방불케 한다.",
+		text = "dorm3d_Ankeleiqi_chair",
+		id = 128,
+		icon = "3Ddrom_ankeleiqi_item28",
+		model = {
+			"fbx/litmap_02/night/pre_db_towel01_group01"
+		},
+		unlock = {
+			1,
+			19903,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/night/pre_db_towel01_group01/vfx_wupintishi01"
 		}
 	}
 }

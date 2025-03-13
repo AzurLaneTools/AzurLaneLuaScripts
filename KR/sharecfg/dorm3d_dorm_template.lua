@@ -16,8 +16,17 @@ pg.dorm3d_dorm_template = {
 		id = 30221,
 		default_appellation = "지휘관"
 	},
+	[19903] = {
+		skin_model = 199031,
+		name = "앵커리지",
+		bind_room = 3,
+		asset_name = "Ankeleiqi_DB",
+		id = 19903,
+		default_appellation = "선생님"
+	},
 	all = {
 		20220,
-		30221
+		30221,
+		19903
 	}
 }

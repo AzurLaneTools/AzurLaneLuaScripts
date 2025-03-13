@@ -410,10 +410,7 @@ slot0.UpdateView = function(slot0)
 			if _.detect(slot11:GetFurnitures(), function (slot0)
 				return slot0:GetSlotID() == uv0:GetConfigID()
 			end) then
-				slot9 = true
-				slot0.labelSettings = {
-					slotId = slot10:GetConfigID()
-				}
+				slot0:CleanSlot()
 			end
 		end
 	end

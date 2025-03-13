@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "201",
 		scene = {}
 	},
+	[202] = {
+		unlock = "상점 구매 (전투 UI·파라오)",
+		name = "성스러운 모래의 약속",
+		key = "SkinNormal_20250227",
+		display_icon = "ui_202",
+		is_unlock = 1,
+		rare = 4,
+		desc = "고대 문자에 얽힌 황금 무늬. 이 모든 것은 나일강 문명의 유구한 전설을 이야기하고 있다.",
+		id = 202,
+		icon = "202",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -91,6 +103,7 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
-		201
+		201,
+		202
 	}
 }

@@ -431,7 +431,7 @@ pg.dorm3d_furniture_template = {
 		shop_id = {}
 	},
 	[221] = {
-		rarity = 3,
+		rarity = 4,
 		name = "너구리 쿠션",
 		type = 4,
 		room_id = 2,
@@ -568,6 +568,202 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/livingroom"
 		}
 	},
+	[301] = {
+		rarity = 3,
+		name = "쿠키 소파",
+		unlock_tips = "",
+		type = 4,
+		room_id = 3,
+		desc = "마치 갓구운 쿠키처럼 따뜻한 향기가 풍기는 소파. \n곡선 하나하나에 아기자기함이 가득 담겨져 있어, 공간을 편안하게 만들어 준다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 301,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990330
+			}
+		},
+		shop_id = {}
+	},
+	[302] = {
+		rarity = 3,
+		name = "솔트우드 베드",
+		unlock_tips = "",
+		type = 6,
+		room_id = 3,
+		desc = "곰모양 쿠키를 모티브로 한 헤드 부분은 심플하면서도 귀엽다. \n누우면 씨솔트 쿠키의 향기가 풍기는 듯하다. 피로를 잊고, 달콤한 꿈나라로 떠날 수 있게 해준다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 302,
+		target_slots = {
+			130202
+		},
+		touch_id = {
+			{
+				19903,
+				1990320
+			}
+		},
+		shop_id = {}
+	},
+	[303] = {
+		rarity = 3,
+		name = "푸른 모퉁이",
+		unlock_tips = "",
+		type = 5,
+		room_id = 3,
+		desc = "다채로운 장식과 풍부한 상상력이 푸르고 자그마한 공간을 신비로운 분위기로 채우고 있다. \n설령 비가 내리더라도, 마음만은 화창할 것이다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 303,
+		target_slots = {
+			130302
+		},
+		touch_id = {
+			{
+				19903,
+				1990310
+			}
+		},
+		shop_id = {}
+	},
+	[304] = {
+		rarity = 2,
+		name = "사카밤바스피스",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "부드러운 재료로 만들어진, 귀여운 바다 생물 모양 인형. \n껴안고 있으면 굉장히 폭신하다.",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_toy05",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 304,
+		target_slots = {
+			130101
+		},
+		shop_id = {}
+	},
+	[305] = {
+		rarity = 2,
+		name = "내추럴 브레스",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "작은 녹색 잎사귀가 층층히 어우러져 있다. \n어디 두어도 공간에 자연스러운 편안함을 더해 준다.",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_pottedplant01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture4",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 305,
+		target_slots = {
+			130102
+		},
+		shop_id = {}
+	},
+	[306] = {
+		rarity = 2,
+		name = "시간의 기억",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "산뜻한 디자인의 액자에 귀여운 그림이 장식되어 있다. \n언젠가 이 액자에는 가장 소중한 추억이 담길지도 모른다.",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_billboard01_group01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 306,
+		target_slots = {
+			130201
+		},
+		shop_id = {}
+	},
+	[307] = {
+		rarity = 2,
+		name = "바다와의 만남",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 3,
+		desc = "단순한 장식품이 아닌, 스위치와도 같은 존재. \n가볍게 누르기만 해도 창문이 바다로 이어지는 마법의 창문으로 변할 것이다.",
+		is_exclusive = 0,
+		model = "Pay_Anchoragehostel/pre_db_ah_decoration02",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 307,
+		target_slots = {
+			130301
+		},
+		shop_id = {}
+	},
+	[321] = {
+		rarity = 4,
+		name = "퓨어 티타임",
+		type = 6,
+		room_id = 3,
+		desc = "공상을 즐기는 만족감과 편안함으로 가득한 커피컵. \n동화 속에 나오는 애프터눈 티는 이 공간에 있는 모든 사람의 것이다.",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_entertainmentarea01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture1",
+		acesses = "",
+		id = 321,
+		target_slots = {
+			130202
+		},
+		touch_id = {
+			{
+				19903,
+				1990340
+			}
+		},
+		shop_id = {
+			270301
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture321"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/entertainmentarea"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -594,6 +790,16 @@ pg.dorm3d_furniture_template = {
 			221,
 			222,
 			251
+		},
+		{
+			301,
+			302,
+			303,
+			304,
+			305,
+			306,
+			307,
+			321
 		}
 	},
 	all = {
@@ -618,6 +824,14 @@ pg.dorm3d_furniture_template = {
 		221,
 		222,
 		151,
-		251
+		251,
+		301,
+		302,
+		303,
+		304,
+		305,
+		306,
+		307,
+		321
 	}
 }

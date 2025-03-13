@@ -2702,6 +2702,21 @@ pg.mini_game = {
 		hub_id = 62,
 		request_data = 1
 	},
+	{
+		is_ranking = 0,
+		view_name = "EatFoodGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		simple_config_data = "",
+		config_data = "",
+		name = "猜拳小游戏",
+		config_csv = "",
+		id = 75,
+		hub_id = 45,
+		request_data = 0
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3305,6 +3320,7 @@ pg.mini_game = {
 		72,
 		73,
 		74,
+		75,
 		1001,
 		1002,
 		1003,

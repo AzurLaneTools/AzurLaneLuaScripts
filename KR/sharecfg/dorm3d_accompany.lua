@@ -88,6 +88,50 @@ pg.dorm3d_accompany = {
 			30221
 		}
 	},
+	[31] = {
+		sceneInfo = "map_anchoragehostel_02|Ankeleiqi_DB/Anchoragehostel",
+		name = "일상 동반",
+		performance_time = 20,
+		image = "ankeleiqi_accompany_room",
+		ship_id = 19903,
+		resource_room = 3,
+		timeline = "Xiangban_shinei_Ab",
+		id = 31,
+		favor = {
+			10,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {}
+	},
+	[32] = {
+		sceneInfo = "map_beach_02|Beach",
+		name = "캐주얼 동반",
+		performance_time = 20,
+		image = "tianlangxing_accompany_beach",
+		ship_id = 19903,
+		resource_room = 4,
+		timeline = "Xiangban_shatan_Ab",
+		id = 32,
+		favor = {
+			10,
+			{
+				1015,
+				1016,
+				1017
+			}
+		},
+		jump_trigger = {},
+		unlock = {
+			5,
+			4,
+			19903
+		}
+	},
 	get_id_list_by_ship_id = {
 		[20220] = {
 			1,
@@ -96,12 +140,18 @@ pg.dorm3d_accompany = {
 		[30221] = {
 			21,
 			22
+		},
+		[19903] = {
+			31,
+			32
 		}
 	},
 	all = {
 		1,
 		2,
 		21,
-		22
+		22,
+		31,
+		32
 	}
 }
