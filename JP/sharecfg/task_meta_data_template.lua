@@ -287,6 +287,11 @@ pg.task_meta_data_template = setmetatable({
 		100393,
 		100394,
 		100395,
+		100401,
+		100402,
+		100403,
+		100404,
+		100405,
 		200001,
 		200002,
 		200003,
@@ -406,7 +411,11 @@ pg.task_meta_data_template = setmetatable({
 		200301,
 		200302,
 		200303,
-		200304
+		200304,
+		200311,
+		200312,
+		200313,
+		200314
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2691,6 +2700,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "アンドレア・ドーリア(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100401] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100401,
+		target_num = 1,
+		desc = "ホーネット(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100402] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100402,
+		target_num = 1,
+		desc = "ホーネット(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100403] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100403,
+		target_num = 1,
+		desc = "ホーネット(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100404] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100404,
+		target_num = 1,
+		desc = "ホーネット(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100405] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100405,
+		target_num = 1,
+		desc = "ホーネット(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3650,5 +3699,37 @@ pg.base.task_meta_data_template = {
 		id = 200304,
 		target_num = 1,
 		desc = "セイレーン作戦でアンドレア・ドーリア(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200311] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200311,
+		target_num = 1,
+		desc = "セイレーン作戦でホーネット(META)を含めた艦隊で1回勝利する"
+	},
+	[200312] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200312,
+		target_num = 1,
+		desc = "セイレーン作戦でホーネット(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200313] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200313,
+		target_num = 1,
+		desc = "セイレーン作戦でホーネット(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200314] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200314,
+		target_num = 1,
+		desc = "セイレーン作戦でホーネット(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

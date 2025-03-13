@@ -139,6 +139,10 @@ slot0.ShouldShowShipTip = function(slot0, slot1)
 end
 
 slot0.TriggerEvent = function(slot0, slot1)
+	if DORM_LOCK_INS then
+		return
+	end
+
 	slot0:sendNotification(GAME.APARTMENT_CHAT_OP, {
 		operation = Dorm3dChatProxy.APARTMENT_CHAT_TRIGGER_EVENT,
 		eventList = slot1

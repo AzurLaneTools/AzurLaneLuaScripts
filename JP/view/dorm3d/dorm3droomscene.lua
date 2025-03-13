@@ -1661,14 +1661,20 @@ slot0.OnTouchCharacterBody = function(slot0, slot1)
 				slot16 = {}
 
 				underscore.each(slot13, function (slot0)
-					table.insert(uv0, slot0[1])
+					slot1 = slot0[1]
+
+					if PLATFORM == PLATFORM_IPHONEPLAYER then
+						slot1 = slot1 / 1000
+					end
+
+					table.insert(uv0, slot1)
 					table.insert(uv1, slot0[2])
 					table.insert(uv2, 1)
 				end)
 
 				if PLATFORM == PLATFORM_ANDROID then
 					VibrateMgr.Instance:VibrateWaveform(slot14, slot15)
-				elseif PLATFORM == PLATFORM_ANDROID then
+				elseif PLATFORM == PLATFORM_IPHONEPLAYER then
 					VibrateMgr.Instance:VibrateWaveform(slot14, slot15, slot16)
 				end
 			end

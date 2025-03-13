@@ -44113,6 +44113,291 @@ _G.pg.base.task_data_template[10189] = {
 }
 
 
+_G.pg.base.task_data_template[10190] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務1",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を1回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10190,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10191] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94085,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務2",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を2回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10191,
+	target_num = 2,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			10
+		},
+		{
+			2,
+			15021,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10192] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94086,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務3",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を3回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10192,
+	target_num = 3,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			1
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10193] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94087,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務4",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を4回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10193,
+	target_num = 4,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			2
+		},
+		{
+			2,
+			15016,
+			25
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[10194] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 94088,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "限定 特殊装備任務5",
+	desc = "デイリーチャレンジの「特殊装備(ｲﾍﾞﾝﾄ)」を5回クリア",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 10194,
+	target_num = 5,
+	fix_task = 0,
+	target_id = {
+		7010,
+		7011
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15014,
+			3
+		},
+		{
+			2,
+			15017,
+			5
+		},
+		{
+			2,
+			15021,
+			1
+		},
+		{
+			2,
+			15020,
+			4
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[10201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -216482,5 +216767,345 @@ _G.pg.base.task_data_template[500097] = {
 			18012,
 			2
 		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500101] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500101,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "イタズラの嵐？",
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "mojiaduoer",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500102",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "MOJIADUOER1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500101,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		10,
+		30
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500102] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500102,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "幽霊の噂",
+	desc = "任意の艦を10回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "mojiaduoer",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500103",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "MOJIADUOER2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500102,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		10,
+		30
+	}
+}
+
+
+_G.pg.base.task_data_template[500103] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500103,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "休憩室を探し求めて",
+	desc = "モガドールを含めた艦隊で出撃し、20回勝利する",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "mojiaduoer",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500104",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "MOJIADUOER3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500103,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "90107",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		10,
+		30
+	}
+}
+
+
+_G.pg.base.task_data_template[500104] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500104,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "タオルを取って",
+	desc = "燃料を500消費する",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "mojiaduoer",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500105",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "MOJIADUOER4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500104,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	story_icon_shift = {
+		10,
+		30
+	}
+}
+
+
+_G.pg.base.task_data_template[500105] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500105,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "お泊りタイム",
+	desc = "モガドールの親密度が100に到達",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "mojiaduoer",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500106",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "MOJIADUOER5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500105,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "90107",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			18003,
+			1
+		}
+	},
+	story_icon_shift = {
+		10,
+		30
+	}
+}
+
+
+_G.pg.base.task_data_template[500106] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500106,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "ベッドが一つしかないから",
+	desc = "モガドールを3回限界突破する",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "mojiaduoer",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500107",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "MOJIADUOER6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500106,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "90107",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18003,
+			2
+		}
+	},
+	story_icon_shift = {
+		10,
+		30
+	}
+}
+
+
+_G.pg.base.task_data_template[500107] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500107,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "頼れそうで頼りない彼女",
+	desc = "モガドールのレベルが100に到達",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "mojiaduoer",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	ryza_type = 0,
+	story_id = "MOJIADUOER7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500107,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "90107",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			16004,
+			1
+		}
+	},
+	story_icon_shift = {
+		10,
+		30
 	}
 }

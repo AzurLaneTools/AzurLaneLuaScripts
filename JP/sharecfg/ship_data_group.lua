@@ -2299,6 +2299,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970508] = {
 			30044
+		},
+		[970706] = {
+			30045
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3074,7 +3077,8 @@ pg.ship_data_group = setmetatable({
 			30041,
 			30042,
 			30043,
-			30044
+			30044,
+			30045
 		}
 	},
 	all = {
@@ -3843,7 +3847,8 @@ pg.ship_data_group = setmetatable({
 		30041,
 		30042,
 		30043,
-		30044
+		30044,
+		30045
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -35885,6 +35890,41 @@ pg.base.ship_data_group = {
 				"イベント：籠檻に囚われし神光",
 				{
 					""
+				},
+				0
+			}
+		}
+	},
+	[30045] = {
+		nationality = 97,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970706,
+		index_id = 30045,
+		code = 30045,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"C",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"メタラボ・情報解析",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9707061
+					}
 				},
 				0
 			}

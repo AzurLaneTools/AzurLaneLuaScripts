@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.enemy_data_statistics_247 = {
+	[15903210] = {
+		cannon = 135,
+		name = "演算投影「空母」",
+		antiaircraft_growth = 3200,
+		speed_growth = 0,
+		luck = 18,
+		air = 210,
+		icon_type = 7,
+		id = 15903210,
+		type = 7,
+		hit_growth = 210,
+		antiaircraft = 260,
+		fog_fx = "",
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 3500,
+		base = 90640,
+		durability = 17240,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		armor = 0,
+		antisub = 0,
+		scale = 160,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 20,
+		torpedo = 0,
+		durability_growth = 312000,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		armor_type = 2,
+		specific_fx_scale = {},
+		appear_fx = {
+			"heisewuqi_stg",
+			"appearQ"
+		},
+		equipment_list = {
+			873903,
+			873904,
+			1101093,
+			1003189,
+			1100788,
+			1003199
+		}
+	},
 	[15903301] = {
 		cannon = 280,
 		name = "仮想幻像「キングジョージV」",
@@ -1155,45 +1204,5 @@ pg.enemy_data_statistics_247 = {
 			"appearQ"
 		},
 		equipment_list = {}
-	},
-	[15908201] = {
-		cannon = 8,
-		air = 0,
-		torpedo = 36,
-		cannon_growth = 560,
-		pilot_ai_template_id = 20005,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 3250,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 15,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 25,
-		base = 90445,
-		durability = 640,
-		armor_growth = 0,
-		durability_growth = 13200,
-		antiaircraft = 80,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		antiaircraft_growth = 1000,
-		id = 15908201,
-		fog_fx = "",
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1100072,
-			1100182,
-			1100492
-		}
 	}
 }

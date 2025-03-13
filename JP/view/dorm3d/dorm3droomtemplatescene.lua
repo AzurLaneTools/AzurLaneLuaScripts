@@ -470,20 +470,21 @@ slot0.initScene = function(slot0)
 		[uv0.CAMERA.PHOTO_FREE] = slot4:Find("PhotoFree Controller"),
 		[uv0.CAMERA.POV] = slot4:Find("FP Camera"):GetComponent(typeof(Cinemachine.CinemachineVirtualCamera))
 	}
+	slot7 = slot0.cameras[uv0.CAMERA.PHOTO_FREE]
 
-	setActive(slot0.cameras[uv0.CAMERA.PHOTO_FREE]:Find("PhotoFree Camera"), true)
+	setActive(slot7:Find("PhotoFree Camera"), true)
 
-	slot6 = slot0.cameras[uv0.CAMERA.POV]
-	slot0.compPovAim = slot6:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
+	slot0.compPovAim = slot0.cameras[uv0.CAMERA.POV]:GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
 	slot0.cameraRoot = slot4
 	slot0.POVOriginalFOV = slot0:GetPOVFOV()
 	slot0.restrictedBox = GameObject.Find("RestrictedArea").transform
 
 	setActive(slot0.restrictedBox, false)
 
+	slot6 = slot0.cameras[uv0.CAMERA.PHOTO_FREE]:GetComponent(typeof(CharacterController)).radius
 	slot0.restrictedHeightRange = {
-		slot0.restrictedBox:Find("Floor").position.y,
-		slot0.restrictedBox:Find("Celling").position.y
+		slot0.restrictedBox:Find("Floor").position.y + slot6,
+		slot0.restrictedBox:Find("Celling").position.y - slot6
 	}
 	slot0.ladyInterest = GameObject.Find("InterestProxy").transform
 	slot0.daynightCtrlComp = GameObject.Find("[MainBlock]").transform:GetComponent(typeof(DayNightCtrl))
@@ -2697,6 +2698,7 @@ slot0.EnterPhotoMode = function(slot0, slot1, slot2)
 
 			uv0:RegisterOrbits(uv0.cameras[uv3.CAMERA.PHOTO])
 			uv0:SetCameraObrits()
+			setActive(uv0.restrictedBox, true)
 			uv0:RegisterCameraBlendFinished(slot3, slot0)
 			uv0:ActiveCamera(slot3)
 		end,
@@ -2732,10 +2734,11 @@ slot0.ExitPhotoMode = function(slot0)
 
 			if uv0.contextData.photoFreeMode then
 				uv0:EnablePOVLayer(false)
-				setActive(uv0.restrictedBox, false)
 
 				uv0.contextData.photoFreeMode = nil
 			end
+
+			setActive(uv0.restrictedBox, false)
 
 			slot2 = uv0.cameras[uv1.CAMERA.POV]
 
@@ -2803,10 +2806,7 @@ slot0.SwitchPhotoCamera = function(slot0)
 	if not slot0.contextData.photoFreeMode then
 		slot0:EnableJoystick(false)
 		slot0:EnablePOVLayer(true)
-		setActive(slot0.restrictedBox, true)
 
-		slot1 = slot0.cameras[uv0.CAMERA.PHOTO_FREE]
-		slot1.transform.position = slot0.mainCameraTF.position
 		slot2 = slot0.cameras[uv0.CAMERA.PHOTO_FREE]:Find("PhotoFree Camera"):GetComponent(typeof(Cinemachine.CinemachineVirtualCamera)):GetCinemachineComponent(Cinemachine.CinemachineCore.Stage.Aim)
 		slot3 = slot0.mainCameraTF.rotation:ToEulerAngles()
 		slot4 = slot2.m_HorizontalAxis
@@ -2815,13 +2815,15 @@ slot0.SwitchPhotoCamera = function(slot0)
 		slot5 = slot2.m_VerticalAxis
 		slot5.Value = slot0:GetNearestAngle(slot3.x, slot5.m_MinValue, slot5.m_MaxValue)
 		slot2.m_VerticalAxis = slot5
+		slot6 = slot0.mainCameraTF.position
+		slot6.y = math.clamp(slot6.y, slot0.restrictedHeightRange[1], slot0.restrictedHeightRange[2])
+		slot0.cameras[uv0.CAMERA.PHOTO_FREE].transform.position = slot6
 
-		slot0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(slot0.restrictedHeightRange[1], slot0.restrictedHeightRange[2], slot1.position.y))
+		slot0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(slot0.restrictedHeightRange[1], slot0.restrictedHeightRange[2], slot6.y))
 		slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.PHOTO_FREE])
 	else
 		slot0:EnableJoystick(true)
 		slot0:EnablePOVLayer(false)
-		setActive(slot0.restrictedBox, false)
 		slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.PHOTO])
 	end
 

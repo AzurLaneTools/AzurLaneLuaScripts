@@ -36,40 +36,42 @@ slot0.Set = function(slot0, slot1, slot2)
 
 	slot0.contextData.buildingID = slot2
 	slot5 = slot1.data1KeyValueList[2][slot2] or 1
+	slot6 = slot3.material[slot5]
+	slot8 = 0
+	slot9 = false
 
-	assert(#slot3.material[slot5] == 1)
-
-	slot9 = #slot3.buff <= slot5
-	slot10 = slot9 or slot6[1][3] <= (slot1.data1KeyValueList[1][slot6[1][2]] or 0)
+	if not (#slot3.buff <= slot5) then
+		slot9 = slot7 or slot6[1][3] <= (slot1.data1KeyValueList[1][slot6[1][2]] or 0)
+	end
 
 	setText(slot0:findTF("window/top/name"), slot3.name)
 	setText(slot0:findTF("window/top/name/lv"), "Lv." .. slot5)
 	setScrollText(slot0:findTF("window/frame/describe/text"), slot3.desc)
 	setText(slot0:findTF("window/frame/content/title/lv/current"), "Lv." .. slot5)
-	setActive(slot0:findTF("window/frame/content/title/lv/next"), not slot9)
+	setActive(slot0:findTF("window/frame/content/title/lv/next"), not slot7)
 
-	if not slot9 then
+	if not slot7 then
 		setText(slot0:findTF("window/frame/content/title/lv/next"), "Lv." .. slot5 + 1)
 	end
 
-	slot11 = slot3.buff[slot5]
-	slot12 = pg.benefit_buff_template[slot11]
+	slot10 = slot3.buff[slot5]
+	slot11 = pg.benefit_buff_template[slot10]
 
-	assert(slot12, "Can't Find benefit_buff_template Config ID: " .. slot11)
-	setText(slot0:findTF("window/frame/content/preview/current"), slot12.desc)
-	setActive(slot0:findTF("window/frame/content/preview/arrow"), not slot9)
-	setActive(slot0:findTF("window/frame/content/preview/next"), not slot9)
+	assert(slot11, "Can't Find benefit_buff_template Config ID: " .. slot10)
+	setText(slot0:findTF("window/frame/content/preview/current"), slot11.desc)
+	setActive(slot0:findTF("window/frame/content/preview/arrow"), not slot7)
+	setActive(slot0:findTF("window/frame/content/preview/next"), not slot7)
 
-	if not slot9 then
-		slot13 = slot3.buff[slot5 + 1]
-		slot12 = pg.benefit_buff_template[slot13]
+	if not slot7 then
+		slot12 = slot3.buff[slot5 + 1]
+		slot11 = pg.benefit_buff_template[slot12]
 
-		assert(slot12, "Can't Find benefit_buff_template Config ID: " .. slot13)
-		setText(slot0:findTF("window/frame/content/preview/next"), slot12.desc)
+		assert(slot11, "Can't Find benefit_buff_template Config ID: " .. slot12)
+		setText(slot0:findTF("window/frame/content/preview/next"), slot11.desc)
+		slot0.loader:GetSprite(Item.getConfigData(slot8).icon, "", slot0:findTF("window/frame/costback/icon"))
 	end
 
-	slot0.loader:GetSprite(Item.getConfigData(slot7).icon, "", slot0:findTF("window/frame/costback/icon"))
-	setText(slot0:findTF("window/frame/costback/cost"), slot3.material[slot5] or 0)
+	setText(slot0:findTF("window/frame/costback/cost"), not slot7 and slot3.material[slot5][1][3] or 0)
 	onButton(slot0, slot0.btnUpgrade, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("building_upgrade_tip"),
@@ -88,8 +90,8 @@ slot0.Set = function(slot0, slot1, slot2)
 			end
 		})
 	end)
-	setGray(slot0.btnUpgrade, slot9)
-	setButtonEnabled(slot0.btnUpgrade, not slot9)
+	setGray(slot0.btnUpgrade, slot7)
+	setButtonEnabled(slot0.btnUpgrade, not slot7)
 end
 
 slot0.willExit = function(slot0)

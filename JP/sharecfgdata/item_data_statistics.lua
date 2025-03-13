@@ -15288,6 +15288,37 @@ _G.pg.base.item_data_statistics[21044] = {
 }
 
 
+_G.pg.base.item_data_statistics[21045] = {
+	open_directly = 0,
+	name = "結晶：ホーネット(META)",
+	type = 4,
+	display = "ホーネット(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21045",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21045,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -15928,6 +15959,37 @@ _G.pg.base.item_data_statistics[21917] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21917,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21918] = {
+	open_directly = 0,
+	name = "ホーネット(META)解析Pt",
+	type = 0,
+	display = "ホーネット(META)の解析ポイント",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21918",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21918,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},

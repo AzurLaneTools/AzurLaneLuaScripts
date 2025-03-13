@@ -9,7 +9,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.3
 			}
 		}
@@ -23,7 +23,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.3
 			}
 		}
@@ -37,7 +37,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.3
 			}
 		}
@@ -51,7 +51,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.3
 			}
 		}
@@ -65,7 +65,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.3
 			}
 		}
@@ -79,7 +79,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.3
 			}
 		}
@@ -120,7 +120,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.1
 			}
 		}
@@ -134,7 +134,7 @@ pg.dorm3d_ik_touch = {
 		scene_item = "",
 		vibrate = {
 			{
-				0,
+				100,
 				0.1
 			}
 		}

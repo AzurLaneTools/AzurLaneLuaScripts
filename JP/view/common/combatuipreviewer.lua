@@ -51,18 +51,18 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.buttonContainer = slot5:Find("Weapon_button_container")
 
 	for slot9 = 1, 3 do
-		slot10 = nil
-		slot10 = (not ys.Battle["BattleWeaponButton" .. slot4] or ys.Battle["BattleWeaponButton" .. slot4].New()) and ys.Battle.BattleWeaponButton.New()
-		slot11 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
+		slot11 = nil
+		slot11 = (not ys.Battle["BattleWeaponButton" .. ys.Battle.BattleState.GetCombatSkinKey()] or ys.Battle["BattleWeaponButton" .. slot10].New()) and ys.Battle.BattleWeaponButton.New()
+		slot12 = cloneTplTo(slot5:Find("Weapon_button_progress"), slot0.buttonContainer)
 		skinName = "Skill_" .. slot9
-		slot12 = {}
+		slot13 = {}
 
-		ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot11, slot9)
-		slot10:ConfigSkin(slot11)
-		slot10:SwitchIcon(slot9, slot4)
-		slot10:SwitchIconEffect(slot9, slot4)
-		slot10:SetTextActive(true)
-		slot10:SetToCombatUIPreview(slot9 > 1)
+		ys.Battle.BattleSkillView.SetSkillButtonPreferences(slot12, slot9)
+		slot11:ConfigSkin(slot12)
+		slot11:SwitchIcon(slot9, slot4)
+		slot11:SwitchIconEffect(slot9, slot4)
+		slot11:SetTextActive(true)
+		slot11:SetToCombatUIPreview(slot9 > 1)
 	end
 
 	slot0.heroBar = slot2.transform
@@ -102,6 +102,9 @@ slot0.setCombatUI = function(slot0, slot1, slot2, slot3, slot4)
 	if slot5:Find("Stick/Area/BG/spine") then
 		slot8:GetComponent(typeof(SpineAnimUI)):SetAction("normal", 0)
 	end
+
+	slot0.stick = slot5:Find("Stick/Area/Stick")
+	slot0.stickTail = slot0.stick:Find("tailGizmos")
 end
 
 slot0.load = function(slot0, slot1, slot2, slot3, slot4, slot5)
@@ -345,6 +348,59 @@ slot0.updateHPPop = function(slot0)
 	slot3:Play()
 end
 
+slot10 = 250
+slot11 = 50
+slot12 = 1000
+slot13 = 2
+slot14 = 3
+
+slot0.updateStick = function(slot0)
+	if slot0._stickMoveCount and slot0._stickMoveCount <= uv0 then
+		slot0._stickMoveCount = slot0._stickMoveCount + 1
+		slot1 = slot0.stickVX + slot0.stick.localPosition.x
+		slot2 = slot0.stickVY + slot0.stick.localPosition.y
+
+		if slot1 * slot1 + slot2 * slot2 > uv1 * 2 then
+			slot4 = math.atan2(slot2, slot1)
+			slot5, slot6 = nil
+			slot9 = math.random() * 2 * math.pi
+			slot10 = math.random(uv2, uv3)
+			slot0.stickVX = math.cos(slot9) * slot10
+			slot0.stickVY = math.sin(slot9) * slot10
+
+			if slot0.stickVX * uv1 * math.cos(slot4) / uv1 + slot0.stickVY * uv1 * math.sin(slot4) / uv1 > 0 then
+				slot0.stickVX = -slot0.stickVX
+				slot0.stickVY = -slot0.stickVY
+			end
+		else
+			slot0.stickPos.x = slot1
+			slot0.stickPos.y = slot2
+			slot0.stick.localPosition = slot0.stickPos
+		end
+
+		if uv0 <= slot0._stickMoveCount then
+			setActive(slot0.stickTail, false)
+
+			slot0.stick.localPosition = Vector3.zero
+			slot0._stickMoveCount = nil
+			slot0._stickStopCount = 0
+		end
+	elseif slot0._stickStopCount and slot0._stickStopCount <= uv4 then
+		slot0._stickStopCount = slot0._stickStopCount + 1
+
+		if uv4 <= slot0._stickStopCount then
+			setActive(slot0.stickTail, true)
+
+			slot1 = math.random() * 2 * math.pi
+			slot2 = math.random(uv2, uv3)
+			slot0.stickVX = math.cos(slot1) * slot2
+			slot0.stickVY = math.cos(slot1) * slot2
+			slot0._stickStopCount = nil
+			slot0._stickMoveCount = 0
+		end
+	end
+end
+
 slot0.SeaUpdate = function(slot0)
 	slot1 = -20
 	slot2 = 60
@@ -358,21 +414,29 @@ slot0.SeaUpdate = function(slot0)
 		uv0:updateBarPos()
 	end)
 
+	slot0._stickStopCount = 0
+	slot0.stickPos = Vector2.New(0, 0)
 	slot9 = pg.TimeMgr.GetInstance()
 
-	slot9:AddBattleTimer("popupUpdateTimer", -1, 10, function ()
-		uv0:updatePopUp()
+	slot9:AddBattleTimer("stickUpdateTimer", -1, 0.033, function ()
+		uv0:updateStick()
 	end)
 
 	slot10 = pg.TimeMgr.GetInstance()
 
-	slot10:AddBattleTimer("skillFloatUpdateTimer", -1, 10, function ()
-		uv0:updateSkillFloat()
+	slot10:AddBattleTimer("popupUpdateTimer", -1, 10, function ()
+		uv0:updatePopUp()
 	end)
 
 	slot11 = pg.TimeMgr.GetInstance()
 
-	slot11:AddBattleTimer("HPPopUpdateTimer", -1, 3, function ()
+	slot11:AddBattleTimer("skillFloatUpdateTimer", -1, 10, function ()
+		uv0:updateSkillFloat()
+	end)
+
+	slot12 = pg.TimeMgr.GetInstance()
+
+	slot12:AddBattleTimer("HPPopUpdateTimer", -1, 3, function ()
 		uv0:updateHPPop()
 	end)
 end
