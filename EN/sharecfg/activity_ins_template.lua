@@ -642,7 +642,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 30221,
-		name = "Nshiro",
+		name = "Noshiro",
 		message_persist = "ins_30",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/noshiro_69MS72GrXUaHrKxN.png",
 		is_active = 0,
@@ -801,7 +801,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 40135,
-		name = "Funf♡3536",
+		name = "Fünf♡3536",
 		message_persist = "ins_27",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/Z35_wREOYZC6LofFrEMS.png",
 		is_active = 0,
@@ -3346,7 +3346,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 30221,
-		name = "Nshiro",
+		name = "Noshiro",
 		message_persist = "ins_128",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/200924_nengdai_dX6myGLYASrSpoeU.png",
 		is_active = 0,
@@ -4902,7 +4902,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 70203,
-		name = "Chapaev",
+		name = "Chapayev",
 		message_persist = "ins_187",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/210204_qiabayefu_PdWSWj0ZJudm8jnl.png",
 		is_active = 0,
@@ -4981,7 +4981,7 @@ pg.activity_ins_template = {
 	},
 	{
 		ship_group = 10226,
-		name = "HerosAides",
+		name = "HerosAide",
 		message_persist = "ins_190",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/210204_linuo_Flqb4FTkPfXVvhOL.png",
 		is_active = 0,
@@ -9970,7 +9970,7 @@ pg.activity_ins_template = {
 	},
 	[379] = {
 		ship_group = 70203,
-		name = "Chapaev",
+		name = "Chapayev",
 		message_persist = "ins_378",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/20230601_6rHw9xX9YpbpMC7c_qiabayefu.png",
 		is_active = 0,
@@ -11935,7 +11935,7 @@ pg.activity_ins_template = {
 	},
 	[461] = {
 		ship_group = 30221,
-		name = "Nshiro",
+		name = "Noshiro",
 		message_persist = "ins_461",
 		picture_persist = "https://blhxusstatic.yo-star.com/pic/20240425_1w8lght2kih8wiBe_nengdai.png",
 		is_active = 0,
