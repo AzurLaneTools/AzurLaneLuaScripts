@@ -12926,7 +12926,32 @@ _G.pg.base.shop_template[60543] = {
 	resource_type = 14,
 	id = 60543,
 	genre = "gift_package",
-	discount_time = "stop",
+	discount_time = {
+		{
+			{
+				2025,
+				3,
+				13
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				4,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	limit_args = {
 		{
 			"time",
@@ -12984,7 +13009,32 @@ _G.pg.base.shop_template[60544] = {
 	resource_type = 14,
 	id = 60544,
 	genre = "gift_package",
-	discount_time = "stop",
+	discount_time = {
+		{
+			{
+				2025,
+				3,
+				14
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				4,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	limit_args = {
 		{
 			"time",
@@ -12999,7 +13049,7 @@ _G.pg.base.shop_template[60544] = {
 			{
 				2025,
 				3,
-				13
+				14
 			},
 			{
 				0,
@@ -13042,7 +13092,32 @@ _G.pg.base.shop_template[60545] = {
 	resource_type = 14,
 	id = 60545,
 	genre = "gift_package",
-	discount_time = "stop",
+	discount_time = {
+		{
+			{
+				2025,
+				3,
+				15
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				4,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	limit_args = {
 		{
 			"time",
@@ -13057,7 +13132,7 @@ _G.pg.base.shop_template[60545] = {
 			{
 				2025,
 				3,
-				13
+				15
 			},
 			{
 				0,
@@ -13100,7 +13175,32 @@ _G.pg.base.shop_template[60546] = {
 	resource_type = 14,
 	id = 60546,
 	genre = "gift_package",
-	discount_time = "stop",
+	discount_time = {
+		{
+			{
+				2025,
+				3,
+				16
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				4,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	limit_args = {
 		{
 			"time",
@@ -13115,7 +13215,7 @@ _G.pg.base.shop_template[60546] = {
 			{
 				2025,
 				3,
-				13
+				16
 			},
 			{
 				0,
@@ -13158,7 +13258,32 @@ _G.pg.base.shop_template[60547] = {
 	resource_type = 14,
 	id = 60547,
 	genre = "gift_package",
-	discount_time = "stop",
+	discount_time = {
+		{
+			{
+				2025,
+				3,
+				17
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				4,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	limit_args = {
 		{
 			"time",
@@ -13173,7 +13298,7 @@ _G.pg.base.shop_template[60547] = {
 			{
 				2025,
 				3,
-				13
+				17
 			},
 			{
 				0,
@@ -13216,7 +13341,32 @@ _G.pg.base.shop_template[60548] = {
 	resource_type = 14,
 	id = 60548,
 	genre = "gift_package",
-	discount_time = "stop",
+	discount_time = {
+		{
+			{
+				2025,
+				3,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				4,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	limit_args = {
 		{
 			"time",
@@ -13231,7 +13381,7 @@ _G.pg.base.shop_template[60548] = {
 			{
 				2025,
 				3,
-				13
+				18
 			},
 			{
 				0,
@@ -13274,7 +13424,32 @@ _G.pg.base.shop_template[60549] = {
 	resource_type = 14,
 	id = 60549,
 	genre = "gift_package",
-	discount_time = "stop",
+	discount_time = {
+		{
+			{
+				2025,
+				3,
+				19
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				4,
+				2
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	},
 	limit_args = {
 		{
 			"time",
@@ -13289,7 +13464,7 @@ _G.pg.base.shop_template[60549] = {
 			{
 				2025,
 				3,
-				13
+				19
 			},
 			{
 				0,

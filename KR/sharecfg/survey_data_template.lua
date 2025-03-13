@@ -52,9 +52,9 @@ pg.survey_data_template = {
 		}
 	},
 	[1007] = {
-		ios_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx",
-		uo_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx",
-		main_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx",
+		ios_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_url = "https://haoplay.wjx.cn/vm/hTDN0qo.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
 		id = 1007,
 		name = "韩服七周年问卷",
 		main_activity = "303025540",

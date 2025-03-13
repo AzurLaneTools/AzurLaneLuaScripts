@@ -188,5 +188,8 @@ return {
 	end,
 	OnAndoridBackPress = function ()
 		PressBack()
+	end,
+	Survey = function (slot0)
+		Application.OpenURL(slot0)
 	end
 }

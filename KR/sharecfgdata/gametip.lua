@@ -25960,6 +25960,11 @@ _G.pg.base.gametip.level_remaster_tip4 = {
 }
 
 
+_G.pg.base.gametip.newserver_time = {
+	tip = "$1일$2시"
+}
+
+
 _G.pg.base.gametip.skill_learn_tip = {
 	tip = "금일 남은 쾌속 스킬 습득 횟수: $1회"
 }
@@ -36312,21 +36317,21 @@ _G.pg.base.gametip.blackfriday_main_tip = {
 	tip = {
 		{
 			info = [[
-活动规则：
-·<color=#92fc63>12.12-12.19 维护</color>期间开启限时活动「茗的促销活动」
-·限时任务
-完成任务获得促销PT
-·特设商店
-使用促销PT在特设商店中兑换奖励
-·促销礼包
-截止12.18 0点为止，每日解锁一组免费礼包与付费礼包]]
+이벤트 규칙：
+·<color=#92fc63>3.13-4.3점검 </color>기간 동안 한정 이벤트「아카시의 빅 세일」 오픈
+·한정 임무
+임무 완성하면 할인PT 획득 가능
+·특설 상점
+할인PT 사용하면 특설 상점에서 보상 교환 가능
+·할인 패키지
+4.2 0시까지 매일 1세트의 무료 패키지 및 유료 패키지 해제 가능]]
 		}
 	}
 }
 
 
 _G.pg.base.gametip.blackfriday_shop_tip = {
-	tip = "$1日$2时解锁"
+	tip = "$1일$2시 해제"
 }
 
 

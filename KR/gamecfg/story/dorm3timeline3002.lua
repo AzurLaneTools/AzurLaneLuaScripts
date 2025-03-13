@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "安克雷奇？"
+										content = "앵커리지?"
 									}
 								}
 							},

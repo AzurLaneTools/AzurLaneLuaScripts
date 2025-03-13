@@ -443,7 +443,7 @@ pg.item_data_frame = {
 	},
 	[329] = {
 		name = "얼음 왕국의 별",
-		gain_by = "雪境迷踪",
+		gain_by = "설경미종",
 		time_second = 0,
 		id = 329,
 		time_limit_type = 0,
@@ -488,7 +488,7 @@ pg.item_data_frame = {
 	},
 	[334] = {
 		name = "일필의 신광",
-		gain_by = "樊笼内的神光",
+		gain_by = "새장에 갇힌 신의 빛",
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
@@ -618,7 +618,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 609,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「指挥官，感谢您参与促销活动，请收好赠品喵~！」</color>通过参与「2024冬至茗的大促销」活动获取",
+		desc = "<color=#ffffff>「지휘관님 할인 이벤트 참여해줘서 고맙다냥, 증정품을 잘 받아라냥~！」</color>「봄날 아카시의 빅 세일」이벤트를 통해 획득",
 		scene = {}
 	},
 	[1001] = {

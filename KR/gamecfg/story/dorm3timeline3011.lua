@@ -27,15 +27,15 @@ return {
 							options = {
 								{
 									{
-										content = "想好要画什么了？"
+										content = "그리고 싶은 거 생각났어?"
 									}
 								},
 								{
 									{
-										content = "没关系，我来收拾"
+										content = "괜찮아, 정리할 테니까"
 									},
 									{
-										content = "安克雷奇不用担心"
+										content = "걱정하지마"
 									}
 								}
 							},
