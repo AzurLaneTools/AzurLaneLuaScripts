@@ -333,6 +333,7 @@ pg.memory_group = setmetatable({
 		605,
 		606,
 		607,
+		608,
 		1000,
 		1001,
 		1002,
@@ -7183,6 +7184,23 @@ pg.base.memory_group = {
 			4185,
 			4186,
 			4187
+		}
+	},
+	[608] = {
+		title = " 风暴中心的依偎",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 608,
+		icon = "title_chara_mojiaduoer",
+		memories = {
+			4251,
+			4252,
+			4253,
+			4254,
+			4255,
+			4256,
+			4257
 		}
 	},
 	[1000] = {

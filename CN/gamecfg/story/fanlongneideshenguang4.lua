@@ -474,7 +474,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_539",
-			say = "众人四散而去后，马可波罗径直驶向那个一进门后就她锁定的方向。",
+			say = "众人四散而去后，马可波罗径直驶向了那个她在一进门后就锁定的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

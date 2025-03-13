@@ -3909,7 +3909,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Mogador",
 		background = "",
 		sculpture = "mojiaduoer_2",
-		nationality = 0,
+		nationality = 9,
 		type = 1
 	},
 	[20120] = {

@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_306",
-			say = "大厅的灯光开始一盏盏熄灭，审判机「战车」战车的投影也逐渐黯淡，而后彻底消失了。",
+			say = "大厅的灯光开始一盏盏熄灭，审判机「战车」的投影也逐渐黯淡，而后彻底消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

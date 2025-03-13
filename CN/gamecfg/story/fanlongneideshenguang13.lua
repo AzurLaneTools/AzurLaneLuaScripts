@@ -9,7 +9,7 @@ return {
 			bgm = "battle-shenguang-freely",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "经过了一夜地追调查，马可波罗一行人追踪线索来到了一片城市广场。",
+			say = "经过了一夜追查，马可波罗一行人追踪线索来到了一片城市广场。",
 			flashout = {
 				dur = 1,
 				black = true,

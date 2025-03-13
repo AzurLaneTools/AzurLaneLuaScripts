@@ -254,7 +254,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "炮弹缠绕着浓雾，在审判机坚不可摧的胡炖上留下了无数明亮的光斑。",
+			say = "炮弹缠绕着浓雾，在审判机坚不可摧的护盾上留下了无数明亮的光斑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

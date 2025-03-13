@@ -1945,6 +1945,11 @@ pg.player_resource = {
 		name = "synchronize_dafeng",
 		itemid = 21917
 	},
+	[3019] = {
+		id = 3019,
+		name = "synchronize_dahuangfeng",
+		itemid = 21918
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -3283,6 +3288,9 @@ pg.player_resource = {
 		synchronize_dafeng = {
 			3018
 		},
+		synchronize_dahuangfeng = {
+			3019
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -3776,6 +3784,7 @@ pg.player_resource = {
 		3016,
 		3017,
 		3018,
+		3019,
 		3106,
 		3137,
 		4001,

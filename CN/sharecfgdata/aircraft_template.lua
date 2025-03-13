@@ -86215,6 +86215,200 @@ _G.pg.base.aircraft_template[167240] = {
 }
 
 
+_G.pg.base.aircraft_template[167561] = {
+	name = "大黄蜂meta 空袭 UDF战斗机 LV1",
+	max_hp = 30,
+	accuracy = 23,
+	model_ID = "udf_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1155,
+	speed = 40,
+	id = 167561,
+	scale = 0.75,
+	weapon_ID = {
+		167571
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[167562] = {
+	max_hp = 39,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV2",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167562,
+	hp_growth = 1345,
+	weapon_ID = {
+		167572
+	}
+}
+
+
+_G.pg.base.aircraft_template[167563] = {
+	max_hp = 43,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV3",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167563,
+	hp_growth = 1507,
+	weapon_ID = {
+		167573
+	}
+}
+
+
+_G.pg.base.aircraft_template[167564] = {
+	max_hp = 47,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV4",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167564,
+	hp_growth = 1669,
+	weapon_ID = {
+		167574
+	}
+}
+
+
+_G.pg.base.aircraft_template[167565] = {
+	max_hp = 51,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV5",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167565,
+	hp_growth = 1831,
+	weapon_ID = {
+		167575
+	}
+}
+
+
+_G.pg.base.aircraft_template[167566] = {
+	max_hp = 55,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV6",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167566,
+	hp_growth = 1994,
+	weapon_ID = {
+		167576
+	}
+}
+
+
+_G.pg.base.aircraft_template[167567] = {
+	max_hp = 59,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV7",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167567,
+	hp_growth = 2157,
+	weapon_ID = {
+		167577
+	}
+}
+
+
+_G.pg.base.aircraft_template[167568] = {
+	max_hp = 63,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV8",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167568,
+	hp_growth = 2320,
+	weapon_ID = {
+		167578
+	}
+}
+
+
+_G.pg.base.aircraft_template[167569] = {
+	max_hp = 68,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV9",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167569,
+	hp_growth = 2483,
+	weapon_ID = {
+		167579
+	}
+}
+
+
+_G.pg.base.aircraft_template[167570] = {
+	max_hp = 73,
+	name = "大黄蜂meta 空袭 UDF战斗机 LV10",
+	spawn_brownian = 1,
+	base = 167561,
+	id = 167570,
+	hp_growth = 2646,
+	weapon_ID = {
+		167580
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,
@@ -238602,6 +238796,1586 @@ _G.pg.base.aircraft_template[2979084] = {
 			{
 				0.82,
 				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980000] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF战斗机 Lv1",
+	max_hp = 46,
+	accuracy = 25,
+	model_ID = "udf_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 2980000,
+	scale = 0.75,
+	weapon_ID = {
+		2980015,
+		2980020
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980001] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF战斗机 Lv2",
+	max_hp = 56,
+	accuracy = 30,
+	model_ID = "udf_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 2980001,
+	scale = 0.75,
+	weapon_ID = {
+		2980016,
+		2980021
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980002] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF战斗机 Lv3",
+	max_hp = 66,
+	accuracy = 35,
+	model_ID = "udf_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 2980002,
+	scale = 0.75,
+	weapon_ID = {
+		2980017,
+		2980022
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980003] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF战斗机 Lv4",
+	max_hp = 76,
+	accuracy = 40,
+	model_ID = "udf_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 2980003,
+	scale = 0.75,
+	weapon_ID = {
+		2980018,
+		2980023
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980004] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF战斗机 Lv5",
+	max_hp = 86,
+	accuracy = 45,
+	model_ID = "udf_feiji01",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 2980004,
+	scale = 0.75,
+	weapon_ID = {
+		2980019,
+		2980024
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980005] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF卫星轰炸机 Lv1",
+	max_hp = 54,
+	accuracy = 25,
+	model_ID = "udf_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "udf_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2980005,
+	scale = 0.75,
+	weapon_ID = {
+		2980025,
+		2980030
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980006] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF卫星轰炸机 Lv2",
+	max_hp = 64,
+	accuracy = 30,
+	model_ID = "udf_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "udf_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2980006,
+	scale = 0.75,
+	weapon_ID = {
+		2980026,
+		2980031
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980007] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF卫星轰炸机 Lv3",
+	max_hp = 74,
+	accuracy = 35,
+	model_ID = "udf_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "udf_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2980007,
+	scale = 0.75,
+	weapon_ID = {
+		2980027,
+		2980032
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980008] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF卫星轰炸机 Lv4",
+	max_hp = 84,
+	accuracy = 40,
+	model_ID = "udf_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "udf_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2980008,
+	scale = 0.75,
+	weapon_ID = {
+		2980028,
+		2980033
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980009] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF卫星轰炸机 Lv5",
+	max_hp = 94,
+	accuracy = 45,
+	model_ID = "udf_feiji02",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "udf_feiji02",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 30,
+	id = 2980009,
+	scale = 0.75,
+	weapon_ID = {
+		2980029,
+		2980034
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				2.72,
+				-0.21,
+				0
+			},
+			{
+				3.2,
+				-0.14,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980010] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF自杀式无人机 Lv1",
+	max_hp = 46,
+	accuracy = 23,
+	model_ID = "udf_feiji03",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji03",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2980010,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 8
+	},
+	weapon_ID = {
+		2980035,
+		2980040
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980011] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF自杀式无人机 Lv2",
+	max_hp = 56,
+	accuracy = 23,
+	model_ID = "udf_feiji03",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji03",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2980011,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 8
+	},
+	weapon_ID = {
+		2980036,
+		2980041
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980012] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF自杀式无人机 Lv3",
+	max_hp = 66,
+	accuracy = 23,
+	model_ID = "udf_feiji03",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji03",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2980012,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 8
+	},
+	weapon_ID = {
+		2980037,
+		2980042
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980013] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF自杀式无人机 Lv4",
+	max_hp = 76,
+	accuracy = 23,
+	model_ID = "udf_feiji03",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji03",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2980013,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 8
+	},
+	weapon_ID = {
+		2980038,
+		2980043
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980014] = {
+	name = "【大世界】大黄蜂meta 空袭 UDF自杀式无人机 Lv5",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "udf_feiji03",
+	ACC_growth = 0,
+	crash_DMG = 76,
+	dodge = 1,
+	attack_power = 50,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "udf_feiji03",
+	spawn_brownian = 1,
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 60,
+	id = 2980014,
+	scale = 0.75,
+	funnel_behavior = {
+		stay = 2,
+		exist = 8
+	},
+	weapon_ID = {
+		2980039,
+		2980044
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980070] = {
+	name = "【大世界】大黄蜂meta 第二波 舰载机 火箭弹 Lv1",
+	max_hp = 44,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1693,
+	speed = 33,
+	id = 2980070,
+	scale = 0.75,
+	weapon_ID = {
+		50353,
+		50553,
+		2980075
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980071] = {
+	name = "【大世界】大黄蜂meta 第二波 舰载机 火箭弹 Lv2",
+	max_hp = 44,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1693,
+	speed = 33,
+	id = 2980071,
+	scale = 0.75,
+	weapon_ID = {
+		50353,
+		50553,
+		2980076
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980072] = {
+	name = "【大世界】大黄蜂meta 第二波 舰载机 火箭弹 Lv3",
+	max_hp = 44,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1693,
+	speed = 33,
+	id = 2980072,
+	scale = 0.75,
+	weapon_ID = {
+		50353,
+		50553,
+		2980077
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980073] = {
+	name = "【大世界】大黄蜂meta 第二波 舰载机 火箭弹 Lv4",
+	max_hp = 44,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1693,
+	speed = 33,
+	id = 2980073,
+	scale = 0.75,
+	weapon_ID = {
+		50353,
+		50553,
+		2980078
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[2980074] = {
+	name = "【大世界】大黄蜂meta 第二波 舰载机 火箭弹 Lv5",
+	max_hp = 44,
+	accuracy = 23,
+	model_ID = "f6f",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "f6f",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1693,
+	speed = 33,
+	id = 2980074,
+	scale = 0.75,
+	weapon_ID = {
+		50353,
+		50553,
+		2980079
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				-1.28,
+				1.62,
+				0
+			},
+			{
+				-1.12,
+				-1,
 				0
 			}
 		}

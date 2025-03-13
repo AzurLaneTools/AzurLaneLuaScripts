@@ -324,7 +324,7 @@ return {
 			actor = 900474,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“审判者”、“神秘人“……好吧，确实不像。",
+			say = "“审判者”、“神秘人”……好吧，确实不像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

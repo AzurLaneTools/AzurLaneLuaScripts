@@ -335,7 +335,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（听上去，和M女士所有的手段完全一致……）",
+			say = "（听上去，和M女士所用的手段完全一致……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

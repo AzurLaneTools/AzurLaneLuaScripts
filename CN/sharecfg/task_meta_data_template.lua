@@ -287,6 +287,11 @@ pg.task_meta_data_template = setmetatable({
 		100393,
 		100394,
 		100395,
+		100401,
+		100402,
+		100403,
+		100404,
+		100405,
 		200001,
 		200002,
 		200003,
@@ -406,7 +411,11 @@ pg.task_meta_data_template = setmetatable({
 		200301,
 		200302,
 		200303,
-		200304
+		200304,
+		200311,
+		200312,
+		200313,
+		200314
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2691,6 +2700,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用安德烈亚·多利亚·META击破等级＞100的敌方1次"
 	},
+	[100401] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100401,
+		target_num = 1,
+		desc = "使用大黄蜂·META获得1次胜利"
+	},
+	[100402] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100402,
+		target_num = 1,
+		desc = "使用大黄蜂·META击破等级＞30的敌方1次"
+	},
+	[100403] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100403,
+		target_num = 1,
+		desc = "使用大黄蜂·META击破等级＞55的敌方1次"
+	},
+	[100404] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100404,
+		target_num = 1,
+		desc = "使用大黄蜂·META击破等级＞80的敌方1次"
+	},
+	[100405] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100405,
+		target_num = 1,
+		desc = "使用大黄蜂·META击破等级＞100的敌方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3650,5 +3699,37 @@ pg.base.task_meta_data_template = {
 		id = 200304,
 		target_num = 1,
 		desc = "大型作战内使用安德烈亚·多利亚·META击破等级＞100的敌方1次"
+	},
+	[200311] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200311,
+		target_num = 1,
+		desc = "大型作战内使用大黄蜂·META获得1次胜利"
+	},
+	[200312] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200312,
+		target_num = 1,
+		desc = "大型作战内使用大黄蜂·META击破等级＞70的敌方1次"
+	},
+	[200313] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200313,
+		target_num = 1,
+		desc = "大型作战内使用大黄蜂·META击破等级＞90的敌方1次"
+	},
+	[200314] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200314,
+		target_num = 1,
+		desc = "大型作战内使用大黄蜂·META击破等级＞100的敌方1次"
 	}
 }

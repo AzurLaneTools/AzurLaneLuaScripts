@@ -374,7 +374,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这件事我只能说安蒂克丝的底层协议有关，具体不要问。",
+			say = "这件事我只能说与安蒂克丝的底层协议有关，具体不要问。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

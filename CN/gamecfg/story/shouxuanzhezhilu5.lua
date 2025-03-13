@@ -265,7 +265,7 @@ return {
 			actor = 900473,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是啊，所以我们在这么多年来，我们一直尝试用更温和的方式削弱神权，将神与世俗剥离开来。",
+			say = "是啊，所以这么多年来，我们一直尝试用更温和的方式削弱神权，将神与世俗剥离开来。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

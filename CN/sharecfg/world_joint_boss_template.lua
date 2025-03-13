@@ -365,7 +365,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "貎·META",
 		boss_level_id = 166,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "shentong",
 		meta_id = 970205,
@@ -545,6 +545,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "鹩·META",
 		boss_level_id = 241,
+		state = "stop",
 		item_id = 100000,
 		painting = "dafeng",
 		meta_id = 970705,
@@ -561,32 +562,6 @@ pg.world_joint_boss_template = {
 				"战斗中鹩·META会周期性召唤出幻形之息协助作战，其<color=#92fc63>受到的伤害会同等传递至鹩·META自身</color>。\n幻形之息会在持续一段时间后自行消失。"
 			}
 		},
-		state = {
-			{
-				{
-					2024,
-					12,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					13
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		p_offset = {
 			-26,
 			648,
@@ -598,6 +573,64 @@ pg.world_joint_boss_template = {
 			676,
 			1,
 			1
+		}
+	},
+	{
+		name = "大黄蜂·META",
+		boss_level_id = 256,
+		item_id = 100000,
+		painting = "dahuangfeng",
+		meta_id = 970706,
+		id = 18,
+		description = {
+			{
+				"近地轨道支援",
+				2,
+				"战斗中，大黄蜂·META能够得到来自于近地轨道卫星提供的多种类型支援。"
+			},
+			{
+				"幽灵行动",
+				1,
+				"大黄蜂·META每隔18秒，都会为其自身增添一层光学迷彩效果，每1层<color=#92fc63>提高自身6%回避率</color>。\n光学迷彩效果达到3层后，大黄蜂·META将会使用一次电磁脉冲攻击，<color=#92fc63>对所有我方单位造成致盲效果</color>，持续5秒。（视野受到影响，无法使用主炮开火、空袭支援等功能）"
+			}
+		},
+		state = {
+			{
+				{
+					2025,
+					3,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		p_offset = {
+			-16,
+			580,
+			1,
+			1
+		},
+		p_offset_other = {
+			472,
+			562,
+			0.9,
+			0.9
 		}
 	},
 	all = {
@@ -617,6 +650,7 @@ pg.world_joint_boss_template = {
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }

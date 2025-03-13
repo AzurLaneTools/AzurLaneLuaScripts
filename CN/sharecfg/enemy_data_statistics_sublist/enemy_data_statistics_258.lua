@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_258 = {
+	[16003303] = {
+		cannon = 280,
+		name = "罗马~Incarnation Of Roma Gods~",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 25,
+		air = 210,
+		icon_type = 10,
+		id = 16003303,
+		type = 10,
+		hit_growth = 210,
+		antiaircraft = 460,
+		fog_fx = "",
+		dodge_growth = 228,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90670,
+		durability = 115000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		antisub = 0,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 16,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		armor_type = 3,
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[16004001] = {
 		cannon = 8,
 		air = 0,
@@ -1095,47 +1137,6 @@ pg.enemy_data_statistics_258 = {
 			1100955,
 			1100960,
 			1100965
-		}
-	},
-	[16100201] = {
-		cannon = 13,
-		air = 0,
-		torpedo = 73,
-		cannon_growth = 1200,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 22,
-		torpedo_growth = 3000,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 270,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 90,
-		base = 90181,
-		durability = 920,
-		armor_growth = 0,
-		durability_growth = 105600,
-		antiaircraft = 65,
-		speed = 20,
-		luck = 0,
-		antiaircraft_growth = 2800,
-		antisub = 0,
-		id = 16100201,
-		fog_fx = "",
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			1100175,
-			1100315,
-			1101500,
-			1101505,
-			1101510
 		}
 	}
 }
