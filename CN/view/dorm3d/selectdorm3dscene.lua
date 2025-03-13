@@ -57,6 +57,10 @@ slot0.init = function(slot0)
 		uv0:emit(SelectDorm3DMediator.OPEN_INS_LAYER, uv0.insBtn.IsNewPhoneCall())
 	end)
 
+	slot2 = slot0.rtMain
+
+	setActive(slot2:Find("btn_ins"), not DORM_LOCK_INS)
+
 	slot1 = slot0.rtMain
 	slot0.rtStamina = slot1:Find("stamina")
 	slot1 = slot0.rtMain
