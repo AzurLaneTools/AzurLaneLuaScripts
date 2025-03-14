@@ -186,7 +186,7 @@ pg.open_systems_limited = {
 	},
 	[25] = {
 		scene = "MAINUI",
-		name = "Private QuartersPrivate Quarters will unlock at Commander Lv. 80",
+		name = "Private Quarters",
 		story_id = "",
 		id = 25,
 		mediator = "SelectDorm3DMediator",
