@@ -705,7 +705,7 @@ slot0.SetVisible = function(slot0, slot1)
 			slot0._physics.enabled = true
 		end
 
-		slot0:setReactPos(true)
+		slot0:setReactPos(false)
 
 		slot0.cubismModelCom.enabled = true
 	else
