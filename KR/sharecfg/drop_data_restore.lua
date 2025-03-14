@@ -4671,6 +4671,114 @@ pg.drop_data_restore = {
 		drop_id = 998507,
 		target_id = 9600111
 	},
+	[1320] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1320,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 307083
+	},
+	[1321] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1321,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 303191
+	},
+	[1322] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1322,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 805031
+	},
+	[1323] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1323,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 499091
+	},
+	[1324] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1324,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 901071
+	},
+	[1325] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1325,
+		resource_num = 1080,
+		drop_id = 998308,
+		target_id = 102134
+	},
+	[1326] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1326,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 118021
+	},
+	[1327] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1327,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 137060
+	},
+	[1328] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1328,
+		resource_num = 1080,
+		drop_id = 998308,
+		target_id = 102053
+	},
+	[1329] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1329,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 301891
+	},
+	[1330] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1330,
+		resource_num = 1080,
+		drop_id = 998308,
+		target_id = 319013
+	},
+	[1331] = {
+		target_type = 7,
+		resource_type = 14,
+		type = 1,
+		id = 1331,
+		resource_num = 1180,
+		drop_id = 998308,
+		target_id = 199041
+	},
 	[5000] = {
 		target_type = 7,
 		resource_type = 1,
@@ -5731,6 +5839,18 @@ pg.drop_data_restore = {
 		1316,
 		1317,
 		1318,
+		1320,
+		1321,
+		1322,
+		1323,
+		1324,
+		1325,
+		1326,
+		1327,
+		1328,
+		1329,
+		1330,
+		1331,
 		5000,
 		5001,
 		5002,
