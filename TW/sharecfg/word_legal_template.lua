@@ -280,6 +280,13 @@ temp = function()
 				this = true
 			}
 		},
+		["加"] = {
+			["多"] = {
+				["爾"] = {
+					this = true
+				}
+			}
+		},
 		["妮"] = {
 			["卡"] = {
 				this = true
@@ -683,7 +690,18 @@ temp = function()
 		},
 		["亞"] = {
 			["恩"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			},
 			["德"] = {
 				this = true
@@ -789,6 +807,11 @@ temp = function()
 						this = true
 					}
 				}
+			},
+			["努"] = {
+				["斯"] = {
+					this = true
+				}
 			}
 		}
 	}
@@ -854,7 +877,12 @@ temp = function()
 		["羅"] = {
 			["拉"] = {
 				["多"] = {
-					this = true
+					this = true,
+					["·"] = {
+						["改"] = {
+							this = true
+						}
+					}
 				}
 			}
 		},
@@ -1287,6 +1315,11 @@ temp = function()
 						}
 					}
 				}
+			},
+			["薩"] = {
+				["斯"] = {
+					this = true
+				}
 			}
 		},
 		["德"] = {
@@ -1327,7 +1360,18 @@ temp = function()
 				["·"] = {
 					["凱"] = {
 						["撒"] = {
-							this = true
+							this = true,
+							["·"] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												this = true
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -2051,7 +2095,18 @@ temp = function()
 	uv0["威"] = {
 		["奇"] = {
 			["塔"] = {
-				this = true
+				this = true,
+				["·"] = {
+					M = {
+						E = {
+							T = {
+								A = {
+									this = true
+								}
+							}
+						}
+					}
+				}
 			}
 		},
 		["爾"] = {
@@ -6068,6 +6123,26 @@ temp = function()
 			["蘭"] = {
 				this = true
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["鈍"] = {
+		["劍"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["銳"] = {
+		["劍"] = {
+			this = true
 		}
 	}
 end

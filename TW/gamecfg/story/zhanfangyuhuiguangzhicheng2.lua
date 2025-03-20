@@ -9,7 +9,7 @@ return {
 			bgm = "theme-richelieu",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "车门关闭后，列车仿佛沿着看不见的轨道径直驶入了高空。",
+			say = "車門關閉後，列車彷彿沿著看不見的軌道徑直駛入了高空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_590",
 			hidePaintObj = true,
-			say = "经过一段云间飞驰，我们顺利抵达了目的地。",
+			say = "經過一段雲間飛馳，我們順利抵達了目的地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,11 +67,11 @@ return {
 			},
 			sequence = {
 				{
-					"皇家·斯卡帕湾锚地",
+					"皇家斯卡帕灣錨地",
 					1
 				},
 				{
-					"阿瓦隆之门·卡美洛之庭",
+					"阿瓦隆之門·卡美洛之庭",
 					2
 				}
 			}
@@ -82,7 +82,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			bgm = "theme-camelot",
-			say = "推开车门后，明亮的金光迎面洒下。",
+			say = "推開車門後，明亮的金光迎面灑下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "纵使已是凌晨，阿瓦隆之门中依然亮如白昼。",
+			say = "縱使已是凌晨，阿瓦隆之門中依然亮如白晝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "欢迎来到阿瓦隆，指挥官。",
+			say = "歡迎來到阿瓦隆，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -123,7 +123,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "如何，本王的人工奇异点，很壮观吧？",
+			say = "如何，本王的人工奇異點，很壯觀吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -138,7 +138,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "皇家位于斯卡帕湾的人工奇异点——阿瓦隆之门。",
+			say = "皇家位於斯卡帕灣的人工奇異點——阿瓦隆之門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "在消灭构建者的战斗后，我就详细阅读了皇家送来的相关资料。",
+			say = "在消滅建造者的戰鬥後，我就詳細閱讀了皇家送來的相關資料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "不过资料毕竟是资料……只有在亲眼所见的这一刻，我才第一次感受到那种宛如身处仙境般的震撼。",
+			say = "不過資料畢竟是資料……只有在親眼所見的這一刻，我才第一次感受到那種宛如身處仙境般的震撼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			actor = 9705040,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "呵，看来你达到目的了呢。",
+			say = "呵，看來妳達到目的了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -190,7 +190,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……达到目的？",
+			say = "……達到目的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 9705040,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "是啊，她知道你是第一次来，为了跟你显摆显摆，才特意在大晚上把照明调得这么亮的。",
+			say = "是啊，她知道你是第一次來，為了向你炫耀，才特意在晚上把照明調得這麼亮的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -222,7 +222,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "喂，你这人乱说什么！",
+			say = "喂，妳這人亂說什麼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -251,7 +251,7 @@ return {
 			actor = 9705040,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "实际上不就是这样么？",
+			say = "實際上不就是這樣嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -268,7 +268,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "咳咳……本王只是想为此次任务塑造些仪式感而已！",
+			say = "咳咳……本王只是想為這次任務塑造些儀式感而已！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "啊，指挥官应该还不认识她吧。",
+			say = "啊，指揮官應該還不認識她吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -302,7 +302,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "介绍一下，本王旁边这个刚从车头下来的人是伊丽莎白女王·META。",
+			say = "介紹一下，本王旁邊這個剛從車頭下來的人是伊莉莎白女王·META。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "她带领着一个组织，目前作为本王的援军驻守在阿瓦隆之门中。",
+			say = "她帶領著一個組織，目前作為本王的援軍駐守在阿瓦隆之門。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -336,7 +336,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "D小姐，和本次接你来皇家的列车都和她有关。",
+			say = "D小姐，和這次接你來皇家的列車都和她有關。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "初次见面啊，“指挥官”。虽说其实刚才在车头里本王就观察过你了。",
+			say = "初次見面啊，「指揮官」。雖說其實剛才在車頭裡本王就觀察過你了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -369,7 +369,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "列车一路上都是由你驾驶的？",
+			say = "列車一路上都是由妳駕駛的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是啊，本王的「女王之光号」只能由本王驾驶，所以本次接你也只能亲自跑一趟咯。",
+			say = "是啊，本王的「女王之光號」只能由本王駕駛，所以這次接妳也只能親自跑一趟了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -400,7 +400,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王的情况如伊丽莎白所说。虽然本王希望能做一个更准确更正式的自我介绍，不过现在也不是在意这些繁文缛节的时候。",
+			say = "本王的情況如伊莉莎白所說。雖然本王希望能做一個更準確、更正式的自我介紹，不過現在也不是在意這些繁文縟節的時候。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,7 +418,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "经过一路的相处，本王已经确定了，你确实和D小姐的情况很相似。",
+			say = "經過一路的相處，本王已經確定了，你確實和D小姐的情況很相似。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -435,7 +435,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "也就是说。你们都是不完全的……真有趣。",
+			say = "也就是說。你們都是不完全的……真有趣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -451,7 +451,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……“不完全”，你在说什么？",
+			say = "……「不完全」，妳在說什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -464,7 +464,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "指挥官，你先坐吧。",
+			say = "指揮官，你先坐吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "在邀请你来之前，黎塞留应该答应过你，先由本王告诉你事情的前因后果，之后再由你来决定是否参与本次行动。",
+			say = "在邀請你來之前，黎胥留應該答應過你，先由本王告訴你事情的前因後果，之後再由你來決定是否參與本次行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "接下来本王要说的事是皇家的最高机密。就算最后你决定不参加，本王也要求你对包括碧蓝航线指挥部在内的所有人与机构保密。",
+			say = "接下來本王要說的事是皇室的最高機密。就算最後你決定不參加，本王也要求你對包括碧藍航線指揮部在內的所有人與機構保密。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -514,7 +514,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嗯，没问题。",
+			say = "嗯，沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "唉……指挥官，你知道么？我们的世界，这个在塞壬的系统中编号为β的实验场，目前正处于异常危险的境地之中。",
+			say = "唉……指揮官，你知道嗎？我們的世界，這個在塞壬的系統中編號為β的實驗場，目前正處於異常危險的境地之中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -561,7 +561,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "相信你已经知道了，塞壬还有着另一个名字，安蒂克丝。",
+			say = "相信你已經知道了，塞壬還有另一個名字，安蒂克絲。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -578,7 +578,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "安蒂克丝，即ANTI-X——对抗X而存在的兵器。",
+			say = "安蒂克絲，即ANTI-X－對抗X而存在的兵器。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -595,7 +595,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "那么——“X”是什么？关于这个问题，本王知之甚少。",
+			say = "那麼——「X」是什麼？關於這個問題，本王知之甚少。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -612,7 +612,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "只知道它们是真实存在的，而且现阶段，不论是安蒂克丝还是余烬都拿它们没有任何办法。",
+			say = "只知道它們是真實存在的，而且現階段，不論是安蒂克絲還是餘燼都拿它們沒有任何辦法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -629,7 +629,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们所在的实验场β，以及除此之外无数多的实验场，都是安蒂克丝为了对抗X而进行的实验计划中的一环。",
+			say = "我們所在的實驗場β，以及除此之外無數多的實驗場，都是安蒂克絲為了對抗X而進行的實驗計畫中的一環。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -646,7 +646,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "而很不幸，正如我们几年前才明白的那样，我们就是这个实验中的小白鼠，是它们可以随意处理的实验物品。",
+			say = "而很不幸，正如我們幾年前才明白的那樣，我們就是這個實驗中的小白鼠，是它們可以隨意處理的實驗物品。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -663,7 +663,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "因此，虽然理论上塞壬正在试图解决我们共同的敌人，但是就实际情况而言，本王依然不介意把它们全部消灭干净。",
+			say = "因此，雖然理論上塞壬正在試圖解決我們共同的敵人，但是就實際情況而言，本王仍然不介意把它們全部消滅乾淨。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "但是——就算我们消灭了塞壬，将它们的力量从我们的世界中驱逐出去，之后呢？",
+			say = "但是——就算我們消滅了塞壬，將它們的力量從我們的世界中驅逐出去，之後呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们依然需要面对一个和它们同样的问题，之后的“X”，我们要如何处理？",
+			say = "我們依然需要面對一個和它們同樣的問題，之後的「X」，我們要如何處理？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -714,7 +714,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这也就引出了本次行动。",
+			say = "這也就引出了這次行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -731,7 +731,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "相信一路上，你已经亲身与D小姐交谈过，并察觉到它身上所隐藏的巨大秘密了。",
+			say = "相信一路上，你已經親身與D小姐交談過，並察覺到它身上所隱藏的巨大秘密了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -748,7 +748,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "带它来的伊丽莎白女王·META认为，D小姐虽然看上去是这副样子……但依然是安蒂克丝的一员，甚至是属于安蒂克丝高层的一员。",
+			say = "帶它來的伊莉莎白女王·META認為，D小姐雖然看起來是這副樣子……但依然是安蒂克絲的一員，甚至是屬於安蒂克絲高層的一員。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -765,7 +765,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "只要我们能让它恢复“完全”状态……",
+			say = "只要我們能讓它恢復「完全」狀態……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -782,7 +782,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "或许我们就能得到安蒂克丝针对X的研究资料，它们与X的交战记录，甚至得到它们为对抗X所准备的方案。",
+			say = "或許我們就能得到安蒂克絲針對X的研究資料，它們與X的交戰紀錄，甚至得到它們為對抗X所準備的方案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -799,7 +799,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "而让D小姐恢复完全状态的方法，就是找到它的“鲸鱼”——一个外形和它的装备差不多，但是大上无数倍的巨大飞行器。",
+			say = "而讓D小姐恢復完全狀態的方法，就是找到它的「鯨魚」——一個外形和它的裝備差不多，但是大上無數倍的巨大飛行器。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -817,7 +817,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "是啊。本王在发现D小姐后，就一直带人进行着“狩猎”，试图把它的鲸鱼抓回来。",
+			say = "是啊。本王在發現D小姐後，就一直帶人進行著「狩獵」，試圖把它的鯨魚抓回來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -835,7 +835,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "只是很遗憾，至今未能成功。唉……可惜，上次就差一点了。",
+			say = "只是很遺憾，至今未能成功。唉……可惜，上次就差一點了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -853,7 +853,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过就在几日前，D小姐又一次感知到了鲸鱼的行动轨迹，因此，本王也在筹备新一次狩猎。",
+			say = "不過就在幾日前，D小姐又一次感知到了鯨魚的行動軌跡，因此，本王也在籌備新一次狩獵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -870,7 +870,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯。根据D小姐所说，它可以间歇性感受到鲸鱼的行动轨迹，狩猎计划就是以此为基础进行制订的。",
+			say = "嗯。根據D小姐所說，它可以間歇性感受到鯨魚的行動軌跡，狩獵計畫就是以此為基礎進行設計的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -887,7 +887,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "同时，我们在制订狩猎计划时，还发现了一件非同一般的事。",
+			say = "同時，我們在訂定狩獵計畫時，也發現了一件非同一般的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -904,7 +904,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "D小姐所感知到的本次鲸鱼所前往的位置，在此前刚刚发生过一次强烈的空间冲击事件。",
+			say = "D小姐所感知到的這次鯨魚所前往的位置，在先前剛發生過一次強烈的空間衝擊事件。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -921,7 +921,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们认为，这一次鲸鱼或许是被引发了空间冲击事件的某个存在吸引过去的。",
+			say = "我們認為，這次鯨魚或許是被引發了空間衝擊事件的某個存在所吸引過去的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -938,7 +938,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "或许本次狩猎，我们能够等其两败俱伤，然后坐收渔翁之利，这样一来行动的安全性就会大大提高。",
+			say = "或許本次狩獵，我們能夠等其兩敗俱傷，然後坐收漁翁之利，這樣一來行動的安全性就會大大提高。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -956,7 +956,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "据本王所知，空间冲击事件，大多都与塞壬的心智魔方实验分不开。",
+			say = "據本王所知，空間衝擊事件，大多都與塞壬的心智魔方實驗分不開。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -973,7 +973,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王能感受到你对于心智魔方有着令人惊叹的适应力，是最适合参与本次行动的人。",
+			say = "本王能感受到你對心智魔方有著令人驚嘆的適應力，是最適合參與這次行動的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -991,7 +991,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且D小姐在知道了你的事之后，也在大吵大闹希望你能一起来。",
+			say = "而且D小姐在知道了你的事之後，也在大吵大鬧希望你能一起來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1008,7 +1008,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然它看上去像个小孩子，实际的言谈和举止也差不多吧……但是它的判断从来不会错。",
+			say = "雖然它看起來像個小孩子，實際的言談和舉止也差不多吧……但是它的判斷從來不會錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1025,7 +1025,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "指挥官，你之前在给本王分享情报时，有提到过一些希望本王暗中调查的“名词”吧。",
+			say = "指揮官，你之前在向本王分享情報時，有提到一些希望本王暗中調查的「名詞」吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1042,7 +1042,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "很巧的是，D小姐对这些词都有反应，只是它不愿意对我们多说一个字。",
+			say = "很巧的是，D小姐對這些字都有反應，只是它不願意對我們多說一個字。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1059,7 +1059,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "本王目前只知道，你所提供的那些“名词”和余烬还有安蒂克丝的诞生都有关系。",
+			say = "本王目前只知道，你所提供的那些「名詞」和餘燼還有安蒂克絲的誕生都有關係。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1076,7 +1076,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "在安蒂克丝的系统中，记录着一个诞生了它们自己也诞生了最初的舰船的地方，它们将其称为世界α",
+			say = "在安蒂克絲的系統中，紀錄著一個誕生了它們自己也誕生了最初的船的地方，它們稱之為世界α",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1093,7 +1093,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "本王认为，关于世界α的情报，就是解开这些疑惑的钥匙。",
+			say = "本王認為，關於世界α的情報，就是解開這些疑惑的鑰匙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1111,7 +1111,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "很可惜，本王不是来自于世界α的人。",
+			say = "很可惜，本王不是來自於世界α的人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1129,7 +1129,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而本王见到的所有与世界α有关的人，要么对其所掌握的一切情报守口如瓶，要么就是想说也不知道从何说起。",
+			say = "而本王見到的所有與世界α有關的人，要嘛對其所掌握的一切情報守口如瓶，要嘛就是想說也不知道從何說起。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1147,7 +1147,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不论是实力多强的人，在其回忆到关键信息时，记忆总会出现些许缺失和模糊。",
+			say = "不論是實力多強的人，在其回憶到關鍵訊息時，記憶總會出現些許缺失和模糊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1164,7 +1164,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯，本王那里的声望·META和反击·META的情况也是如此。",
+			say = "嗯，本王那裡的聲望·META和反擊·META的情況也是如此。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1181,7 +1181,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "甚至还出现了她们在回忆同一件事时，明明彼此间的回忆出现了矛盾，但是在本王提醒之前，居然毫不自知的事。",
+			say = "甚至還出現了她們在回憶同一件事時，明明彼此間的回憶出現了矛盾，但是在本王提醒之前，居然毫不自知的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,7 +1198,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这一切都让关于世界α的情报更加扑朔迷离……",
+			say = "這一切都讓關於世界α的情報更加撲朔迷離……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1215,7 +1215,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "而D小姐点名让你来，我们认为或许是她想主动跟你吐露些什么。",
+			say = "而D小姐點名讓你來，我們認為或許是她想主動跟你吐露些什麼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1232,7 +1232,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "如果你能和D小姐一同参加本次狩猎，你一直以来所进行的调查……或许能够取得突破性进展。",
+			say = "如果你能和D小姐一同參加這次狩獵，你一直以來所進行的調查……或許能夠取得突破性進展。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1247,7 +1247,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "两位伊丽莎白所分享的内容，实在超出了我来之前的任何料想。",
+			say = "兩位伊莉莎白所分享的內容，實在超越了我來之前的任何想像。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1259,7 +1259,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（伊丽莎白口中的世界α，我再熟悉不过了……）",
+			say = "（伊莉莎白口中的世界α，我再熟悉不過了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1271,7 +1271,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（安洁、奥斯塔、银狐，她们都与世界α有着千丝万缕的联系。）",
+			say = "（安潔、奧斯塔、銀狐，她們都與世界α有著千絲萬縷的關係。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1283,7 +1283,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（而我曾经与他们一同行动，所以我也与世界α有着千丝万缕的联系……）",
+			say = "（而我曾經與他們一同行動，所以我也與世界α有著千絲萬縷的聯繫……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1295,7 +1295,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（只不过我都不记得了……因为我现在“不完全”……？）",
+			say = "（只不過我都不記得了……因為我現在「不完全」……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1308,9 +1308,9 @@ return {
 			bgName = "star_level_bg_505",
 			bgm = "theme-arbitrator-tower",
 			actor = 900308,
-			actorName = "记录播放员",
+			actorName = "錄音播放員",
 			hidePaintObj = true,
-			say = "「看来，你终于开始探索隐藏在计划舰之中的谜团了。」",
+			say = "「看來，你終於開始探索隱藏在計畫艦之中的謎團了。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1339,9 +1339,9 @@ return {
 			bgName = "star_level_bg_505",
 			nameColor = "#C3ABFF",
 			actor = 900308,
-			actorName = "记录播放员",
+			actorName = "錄音播放員",
 			hidePaintObj = true,
-			say = "「虽然与我曾经的记录相比只有不足1%的相似度，但是这个波段是不会错的。」",
+			say = "「雖然與我曾經的紀錄相比只有不足1%的相似度，但是這個波段是不會錯的。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1353,9 +1353,9 @@ return {
 			bgName = "star_level_bg_505",
 			nameColor = "#C3ABFF",
 			actor = 900308,
-			actorName = "记录播放员",
+			actorName = "錄音播放員",
 			hidePaintObj = true,
-			say = "「毕竟，这段记录被触发的本身就是你还是你的证明。」",
+			say = "「畢竟，這段紀錄被觸發的本身就是你還是你的證明。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1367,9 +1367,9 @@ return {
 			bgName = "star_level_bg_505",
 			nameColor = "#C3ABFF",
 			actor = 900308,
-			actorName = "记录播放员",
+			actorName = "錄音播放員",
 			hidePaintObj = true,
-			say = "「同时也意味着，我在最后进行的秘密行动成功了。」",
+			say = "「同時也意味著，我在最後進行的秘密行動成功了。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1381,9 +1381,9 @@ return {
 			bgName = "star_level_bg_505",
 			nameColor = "#C3ABFF",
 			actor = 900308,
-			actorName = "记录播放员",
+			actorName = "錄音播放員",
 			hidePaintObj = true,
-			say = "「我就知道。不论你身处何方，以什么形式存在，还剩下多少碎片。」",
+			say = "「我就知道。不論你身處何方，以什麼形式存在，還剩下多少碎片。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1395,9 +1395,9 @@ return {
 			bgName = "star_level_bg_505",
 			nameColor = "#C3ABFF",
 			actor = 900308,
-			actorName = "记录播放员",
+			actorName = "錄音播放員",
 			hidePaintObj = true,
-			say = "「只要你见到她们身上出现异常状况，你就不可能不管不顾。」",
+			say = "「只要你見到她們身上出現異常狀況，你就不可能不管不顧。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1409,9 +1409,9 @@ return {
 			bgName = "star_level_bg_505",
 			nameColor = "#C3ABFF",
 			actor = 900308,
-			actorName = "记录播放员",
+			actorName = "錄音播放員",
 			hidePaintObj = true,
-			say = "「果然，将保险托付给你是正确的。」",
+			say = "「果然，將保險託付給你是正確的。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1424,7 +1424,7 @@ return {
 			actor = 0,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "（原来，当时那个形似安洁的记录机关是这个意思？！）",
+			say = "（原來，當時那個形似安潔的紀錄機關是這個意思？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1454,7 +1454,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "看你吃惊到回不过神的样子，你是没想到本王已经掌握了这么多情报，对吧？",
+			say = "看你吃驚到回不過神的樣子，你是沒想到本王已經掌握了這麼多情報，對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1471,7 +1471,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "实话实说，我原本对你是有所顾虑的。",
+			say = "實話實說，我原本對你來說是有所顧慮的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1488,7 +1488,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "所以在你无私向本王分享情报之时，本王依然有所保留。",
+			say = "所以在你無私向本王分享情報之時，本王依然有所保留。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1505,7 +1505,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "因为本王之前不相信，一个只会听命于被白鹰操控的碧蓝航线指挥部的指挥官，有决心担负起如此重任——",
+			say = "因為本王之前不相信，一個只會聽命於被白鷹操控的碧藍航線指揮部的指揮官，有決心擔負起如此重任——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1522,7 +1522,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "有能力将各阵营真正团结起来，有毅力对抗那些连安蒂克丝和余烬都束手无策的敌人。",
+			say = "有能力將各陣營真正團結起來，有毅力對抗那些連安蒂克絲和餘燼都束手無策的敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1539,7 +1539,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不过——在看到安塔迪卡的事之后，本王改变了想法。",
+			say = "不過——在看到南極的事之後，本王改變了想法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1556,7 +1556,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "即便白鹰尽全力隐瞒，即便指挥部没有下达任何命令，你依然决定行动。",
+			say = "即便白鷹盡全力隱瞞，即便指揮部沒有下達任何命令，你依然決定行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1573,7 +1573,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不但依靠自己的手段成功联合起多个阵营，还在战局突变时，凭借自己的能力指挥舰队赢得了胜利。",
+			say = "不但靠著自己的手段成功聯合起多個陣營，還在戰局突變時，憑藉自己的能力指揮艦隊贏得了勝利。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1590,7 +1590,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你不但是称职的指挥官，而且是符合本王期望的真正指挥官。",
+			say = "你不但是稱職的指揮官，而且是符合本王期望的真正指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1607,7 +1607,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "因此本王决定，将手头所知道的全部情报都分享给你，将本王所能调动的全部资源提供给你，并且邀请你加入本次行动。",
+			say = "因此本王決定，將手頭上所知道的全部情報都分享給你，將本王所能調動的全部資源提供給你，並且邀請你加入本次行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1624,7 +1624,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你意下如何，指挥官？",
+			say = "你意下如何，指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1635,7 +1635,7 @@ return {
 			},
 			options = {
 				{
-					content = "就算我不去，你们也会执行这次狩猎吧？",
+					content = "就算我不去，你們也會執行這次狩獵吧？",
 					flag = 1
 				}
 			}
@@ -1647,7 +1647,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "那是自然，本王可不能坐视如此宝贵的机会白白溜走！",
+			say = "那是自然，本王可不能坐視如此寶貴的機會白白溜走！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1658,11 +1658,11 @@ return {
 			},
 			options = {
 				{
-					content = "我也一样。",
+					content = "我也一樣。",
 					flag = 1
 				},
 				{
-					content = "这次行动，我参加。",
+					content = "這次行動，我參加。",
 					flag = 2
 				}
 			}
@@ -1675,7 +1675,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嚯~有胆识。",
+			say = "嚯~有膽識。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1692,7 +1692,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你看本王之前跟你说什么？本王看上的就应该是这样的人~！",
+			say = "妳看本王之前跟你說什麼？本王看上的就應該是這樣的人~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1708,7 +1708,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "不过还有一个问题——如果我从会场中消失的事被其他人发现，情况会变得很麻烦。",
+			say = "不過還有一個問題——如果我從會場消失的事被其他人發現，情況會變得很麻煩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1721,7 +1721,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯，这件事本王也想到了。",
+			say = "嗯，這件事本王也想到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1738,7 +1738,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "虽然这次狩猎本王期待已久，但是因为一些原因，本王被告知“最好别去比较好”！",
+			say = "雖然這次狩獵本王期待已久，但是因為一些原因，本王被告知「最好別去比較好」！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1756,7 +1756,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们要去的地方情况复杂，为了保证女王之光号防御的稳定性，在现场最好还是只有一位“伊丽莎白女王”比较好哦。",
+			say = "我們要去的地方情況複雜，為了確保女王之光號防禦的穩定性，在現場最好還是只有一位「伊莉莎白女王」比較好哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1773,7 +1773,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你看吧！虽然本王也搞不懂到底会出什么问题，但是听上去就是特别有道理让人无法反驳，气死了！",
+			say = "你看吧！雖然本王也搞不懂到底會出什麼問題，但聽起來是特別有道理讓人無法反駁，氣死了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1790,7 +1790,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "唉……所以咯，本王会亲自前去会场，和黎塞留一起给你打掩护。",
+			say = "唉……所以囉，本王會親自前去會場，和黎胥留一起幫你打掩護。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1807,7 +1807,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我计划用迎接伊丽莎白女王的突然访问而准备的宴会和一系列临时决定的磋商会议作为障眼法，拖住“指挥官”几天不成问题。",
+			say = "我計劃用迎接伊莉莎白女王的突然訪問而準備的宴會和一系列臨時決定的磋商會議作為障眼法，拖住「指揮官」幾天不成問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1825,7 +1825,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "放心，本王一个人就可比千军万马。这次本王亲自去，两天内肯定解决问题。",
+			say = "放心，本王一個人就可比千軍萬馬。這次本王親自去，兩天內一定解決問題。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1843,7 +1843,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "伊丽莎白！不是跟你说了，这次你也不要去！",
+			say = "伊莉莎白！不是跟妳說了，這次妳也不要去！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1889,7 +1889,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我都按照你说的没带自己的人，而是换成了本地实验场的舰队了。",
+			say = "我都照妳說的沒帶自己的人，而是換成了本地實驗場的艦隊了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1907,7 +1907,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "要是本王自己也留下，谁来开车呢？",
+			say = "要是本王自己也留下，誰來開車呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1925,7 +1925,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "噢！也是哦！没人开车会很麻烦……那你小心，千万小心！",
+			say = "噢！也是哦！沒人開車會很麻煩……那妳小心，千萬小心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1961,7 +1961,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "指挥官，本次鸢尾舰队将会誓死保护您的安全，请您放心。",
+			say = "指揮官，本次鳶尾艦隊將會誓死保護您的安全，請您放心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1979,7 +1979,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯嗯嗯，她们很好，能帮上忙！",
+			say = "嗯嗯嗯，她們很好，能幫上忙！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2005,7 +2005,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（奇怪……从通常的认知上来说，META化的舰船虽然有一定危险性，但是其力量也是正常舰船难以匹敌的。）",
+			say = "（奇怪……從通常的認知上來說，META化的艦船雖然有一定危險性，但是其力量也是正常艦船難以匹敵的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2017,7 +2017,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（可是D小姐为什么会这么说呢……难道META化还有某种不为人知的风险……）",
+			say = "（可是D小姐為什麼會這麼說呢……難道META化還有某種不為人知的風險……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2029,7 +2029,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（感觉D小姐身上的谜团越来越多了……）",
+			say = "（感覺D小姐身上的謎團越來越多了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2041,7 +2041,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "接下来，我们是坐这辆会飞的列车前去狩猎么？",
+			say = "接下來，我們是坐這輛會飛的列車前去狩獵嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2055,7 +2055,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王的女王之光号虽然完全能够满足旅途需求，不过保险起见，行动中最好还是有一个后方基地策应一下比较好。",
+			say = "本王的女王之光號雖然完全能夠滿足旅途需求，不過保險起見，行動中最好還是有一個後方基地策應一下比較好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2072,7 +2072,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "所以本次我们用卡美洛之庭去。",
+			say = "所以本次我們用卡美洛之庭去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2090,7 +2090,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "塞壬对于实验场β的监控力度虽然远超一般实验场，不过依靠改进后的卡美洛之庭和本王的力量，做到自由出入还是没问题的。",
+			say = "塞壬對於實驗場β的監控力度雖然遠超一般實驗場，不過靠改進後的卡美洛之庭和本王的力量，做到自由出入還是沒問題的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2108,7 +2108,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯——时间差不多了，你还有什么问题么？",
+			say = "嗯——時間差不多了，你還有什麼問題？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2124,7 +2124,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没有什么必须在出发之前问的了。",
+			say = "沒有什麼必須在出發前問的了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2138,7 +2138,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "很好，那本王去做出发前的准备了。",
+			say = "很好，那本王去做出發前的準備了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2155,7 +2155,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "欸~本王也该准备收拾收拾去鸢尾咯~",
+			say = "欸~本王也該準備收拾去鳶尾了~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2172,7 +2172,7 @@ return {
 			actor = 205010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "诸位，一路小心，由衷祝你们狩猎成功。",
+			say = "諸位，一路小心，由衷祝福你們狩獵成功。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2187,7 +2187,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "贝尔法斯特和谢菲尔德提裙行礼，然后随伊丽莎白一起转身离开了卡美洛之庭。",
+			say = "貝爾法斯特和謝菲爾德提裙行禮，然後隨伊莉莎白轉身離開了卡美洛之庭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2199,7 +2199,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（这次行动虽然由皇家提供设备，但是实际的参加舰队全部由鸢尾提供，伊丽莎白甚至没有派遣任何一位女仆随行。）",
+			say = "（這次行動雖然由皇家提供設備，但是實際的參加艦隊全部由鳶尾提供，伊莉莎白甚至沒有派遣任何一位女僕隨行。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2211,7 +2211,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（看来皇家已经彻底接受了鸢尾合并的现状，并打算以此为基础展开全新的合作关系了……很好。）",
+			say = "（看來皇家已經徹底接受了鳶尾合併的現狀，並打算以此為基礎展開全新的合作關係了……很好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2225,7 +2225,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "在任何时候都不要忘记自己的誓言，不惜代价，一定要保护好指挥官的安全。",
+			say = "在任何時候都不要忘記自己的誓言，不惜代價，一定要保護好指揮官的安全。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2242,7 +2242,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯明白。本次行动中，阿尔萨斯将作为指挥官的守护之剑，只要一息尚存，就不会让指挥官受到伤害的！",
+			say = "亞爾薩斯明白。本次行動中，亞爾薩斯將作為指揮官的守護之劍，只要一息尚存，就不會讓指揮官受到傷害的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2260,7 +2260,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "以审判庭之名，绝对完成任务。放心吧，黎塞留圣座。",
+			say = "以審判庭之名，絕對完成任務。放心吧，黎胥留聖座。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2277,7 +2277,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯，我相信你们。",
+			say = "嗯，我相信妳們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2295,7 +2295,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "对了，指挥官。本次行动中请您使用这套通讯系统吧。",
+			say = "對了，指揮官。本次行動中請您使用這套通訊系統吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2312,7 +2312,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这是由审判庭内部研发的最新一代通讯系统，相比碧蓝航线现行的版本更加安全稳定，保密性也更强。",
+			say = "這是由審判庭內部研發最新一代的通訊系統，比起碧藍航線現行的版本更加安全穩定，保密性也更強。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2330,7 +2330,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "本次行动的鸢尾舰队也使用同一套通讯系统，指挥起来也会更加兼容。",
+			say = "本次行動的鳶尾艦隊也使用同一套通訊系統，指揮起來也會更相容。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2346,7 +2346,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（通讯系统又升级了啊，希望这次不会再出现战斗中通讯中断的情况了……）",
+			say = "（通訊系統又升級了啊，希望這次不會再出現戰鬥中通訊中斷的狀況了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2358,7 +2358,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没问题。",
+			say = "沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2372,7 +2372,7 @@ return {
 			actor = 805010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "那么，愿您的调查终有所获，一路顺风，指挥官。",
+			say = "那麼，願您的調查終有所獲，一路順風，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2387,7 +2387,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "黎塞留在留下道别的话语后，也离开了卡美洛之庭。",
+			say = "黎胥留在留下道別的話語後，也離開了卡美洛之庭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2398,7 +2398,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "随后，天空中的金色圆环开始充能转动。",
+			say = "隨後，天空中的金色圓環開始充能轉動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2410,7 +2410,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "这场突如其来的“狩猎”之旅，终于要正式开始了——",
+			say = "這場突如其來的「狩獵」之旅，終於要正式開始了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

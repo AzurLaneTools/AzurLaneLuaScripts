@@ -338,10 +338,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_166",
 			dir = 1,
-			actor = 499080,
+			actor = 499081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "萌萌心動魔法，變得更好吃吧~呵呵呵呵……沒錯，只要加入大量的……",
@@ -355,10 +356,11 @@ return {
 			}
 		},
 		{
+			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_166",
 			dir = 1,
-			actor = 499080,
+			actor = 499081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "來，指揮官……將這份加入了愛之秘藥的蛋包飯一口不剩地吃下去吧！",
@@ -375,7 +377,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			dir = 1,
-			actor = 499080,
+			actor = 499081,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "等、等下，你們別讓保全團隊把我帶走呀——",
@@ -403,7 +405,7 @@ return {
 			bgName = "star_level_bg_166",
 			side = 2,
 			dir = 1,
-			actor = 399060,
+			actor = 399061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "萌萌心動~變好吃吧！吹吹……呵呵，像這樣，再感受一下龍神大人的氣息吧。",
@@ -434,10 +436,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_166",
 			dir = 1,
-			actor = 399060,
+			actor = 399061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "欸、欸……？不小心加熱過頭了，蛋包飯變成了全熟的……",
@@ -451,10 +454,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_166",
 			dir = 1,
-			actor = 399060,
+			actor = 399061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "口感變得奇怪了嗎……真傷腦筋，看來還得繼續練習才行啊……",
@@ -479,10 +483,11 @@ return {
 			}
 		},
 		{
-			bgName = "star_level_bg_166",
+			expression = 1,
 			side = 2,
 			dir = 1,
-			actor = 102290,
+			bgName = "star_level_bg_166",
+			actor = 102294,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呼~哈~接、接下來就在擠番茄醬的時候使出魔法…",
@@ -516,7 +521,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_166",
 			dir = 1,
-			actor = 102290,
+			actor = 102294,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "啊、不小心弄到指揮官身上了……對不起……波夕這就擦掉……",

@@ -51626,6 +51626,133 @@ _G.pg.base.ship_data_statistics[105094] = {
 }
 
 
+_G.pg.base.ship_data_statistics[105214] = {
+	nationality = 1,
+	oxy_max = 0,
+	type = 5,
+	name = "科羅拉多·改",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 105214,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "USS Colorado",
+	oxy_cost = 0,
+	skin_id = 105090,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3057,
+		194,
+		0,
+		99,
+		0,
+		55,
+		0,
+		22,
+		4,
+		21,
+		67,
+		0
+	},
+	attrs_growth = {
+		33424,
+		973,
+		0,
+		883,
+		0,
+		381,
+		0,
+		366,
+		207,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Colorado-Class",
+		"Big Seven"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[105101] = {
 	nationality = 1,
 	oxy_max = 0,
@@ -303711,6 +303838,518 @@ _G.pg.base.ship_data_statistics[803014] = {
 }
 
 
+_G.pg.base.ship_data_statistics[803021] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 3,
+	name = "布倫努斯",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 803021,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Brennus",
+	oxy_cost = 0,
+	skin_id = 803020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		903,
+		53,
+		41,
+		46,
+		0,
+		72,
+		0,
+		48,
+		11,
+		26,
+		50,
+		0
+	},
+	attrs_growth = {
+		22771,
+		715,
+		571,
+		1007,
+		0,
+		503,
+		0,
+		707,
+		449,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		371
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.05,
+		1.1,
+		1.15,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brennus"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[803022] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 3,
+	name = "布倫努斯",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 803022,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Brennus",
+	oxy_cost = 0,
+	skin_id = 803020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1123,
+		66,
+		51,
+		57,
+		0,
+		72,
+		0,
+		48,
+		11,
+		26,
+		50,
+		0
+	},
+	attrs_growth = {
+		22771,
+		715,
+		571,
+		1007,
+		0,
+		503,
+		0,
+		707,
+		449,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		372
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.15,
+		1.2,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brennus"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[803023] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 3,
+	name = "布倫努斯",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 803023,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Brennus",
+	oxy_cost = 0,
+	skin_id = 803020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1564,
+		92,
+		72,
+		80,
+		0,
+		72,
+		0,
+		48,
+		11,
+		26,
+		50,
+		0
+	},
+	attrs_growth = {
+		22771,
+		715,
+		571,
+		1007,
+		0,
+		503,
+		0,
+		707,
+		449,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		373
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.2,
+		1.25,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brennus"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[803024] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 3,
+	name = "布倫努斯",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 803024,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Brennus",
+	oxy_cost = 0,
+	skin_id = 803020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2225,
+		132,
+		102,
+		114,
+		0,
+		72,
+		0,
+		48,
+		11,
+		26,
+		50,
+		0
+	},
+	attrs_growth = {
+		22771,
+		715,
+		571,
+		1007,
+		0,
+		503,
+		0,
+		707,
+		449,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {
+		374
+	},
+	default_equip_list = {
+		102,
+		106,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.2,
+		1.25,
+		0.3
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Brennus"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[805011] = {
 	nationality = 8,
 	oxy_max = 0,
@@ -304718,6 +305357,517 @@ _G.pg.base.ship_data_statistics[805024] = {
 	},
 	tag_list = {
 		"Lyon-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[805031] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 5,
+	name = "亞爾薩斯",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 805031,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Alsace",
+	oxy_cost = 0,
+	skin_id = 805030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1520,
+		86,
+		0,
+		58,
+		0,
+		64,
+		0,
+		24,
+		9,
+		32,
+		34,
+		0
+	},
+	attrs_growth = {
+		41119,
+		1048,
+		0,
+		1242,
+		0,
+		445,
+		0,
+		350,
+		263,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Alsace",
+		"AlsaceHA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[805032] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 5,
+	name = "亞爾薩斯",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 805032,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Alsace",
+	oxy_cost = 0,
+	skin_id = 805030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1891,
+		107,
+		0,
+		72,
+		0,
+		64,
+		0,
+		24,
+		9,
+		32,
+		34,
+		0
+	},
+	attrs_growth = {
+		41119,
+		1048,
+		0,
+		1242,
+		0,
+		445,
+		0,
+		350,
+		263,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Alsace",
+		"AlsaceHA",
+		"PRE"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[805033] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 5,
+	name = "亞爾薩斯",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 805033,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Alsace",
+	oxy_cost = 0,
+	skin_id = 805030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2632,
+		150,
+		0,
+		101,
+		0,
+		64,
+		0,
+		24,
+		9,
+		32,
+		34,
+		0
+	},
+	attrs_growth = {
+		41119,
+		1048,
+		0,
+		1242,
+		0,
+		445,
+		0,
+		350,
+		263,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Alsace",
+		"AlsaceHA",
+		"PRE"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[805034] = {
+	nationality = 8,
+	oxy_max = 0,
+	type = 5,
+	name = "亞爾薩斯",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 805034,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "FFNF Alsace",
+	oxy_cost = 0,
+	skin_id = 805030,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3744,
+		214,
+		0,
+		144,
+		0,
+		64,
+		0,
+		24,
+		9,
+		32,
+		34,
+		0
+	},
+	attrs_growth = {
+		41119,
+		1048,
+		0,
+		1242,
+		0,
+		445,
+		0,
+		350,
+		263,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		101,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		1,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		2,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Alsace",
+		"AlsaceHA",
+		"PRE"
 	}
 }
 
@@ -308722,6 +309872,1522 @@ _G.pg.base.ship_data_statistics[901044] = {
 	},
 	tag_list = {
 		"Vauquelin-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901051] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "鈍劍",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901051,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Fleuret",
+	oxy_cost = 0,
+	skin_id = 901050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		271,
+		18,
+		79,
+		33,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		47,
+		47
+	},
+	attrs_growth = {
+		7721,
+		254,
+		986,
+		727,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901052] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "鈍劍",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901052,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Fleuret",
+	oxy_cost = 0,
+	skin_id = 901050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		337,
+		23,
+		99,
+		41,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		47,
+		59
+	},
+	attrs_growth = {
+		7721,
+		254,
+		986,
+		727,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901053] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "鈍劍",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901053,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Fleuret",
+	oxy_cost = 0,
+	skin_id = 901050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		469,
+		32,
+		138,
+		57,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		47,
+		82
+	},
+	attrs_growth = {
+		7721,
+		254,
+		986,
+		727,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.1,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901054] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "鈍劍",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901054,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Fleuret",
+	oxy_cost = 0,
+	skin_id = 901050,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		668,
+		45,
+		197,
+		82,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		47,
+		117
+	},
+	attrs_growth = {
+		7721,
+		254,
+		986,
+		727,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.15,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901061] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "銳劍",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901061,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Épée",
+	oxy_cost = 0,
+	skin_id = 901060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		281,
+		19,
+		79,
+		34,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		45,
+		47
+	},
+	attrs_growth = {
+		8013,
+		261,
+		979,
+		737,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.2,
+		1,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901062] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "銳劍",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901062,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Épée",
+	oxy_cost = 0,
+	skin_id = 901060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		350,
+		24,
+		98,
+		42,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		45,
+		59
+	},
+	attrs_growth = {
+		8013,
+		261,
+		979,
+		737,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901063] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "銳劍",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901063,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Épée",
+	oxy_cost = 0,
+	skin_id = 901060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		487,
+		33,
+		137,
+		59,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		45,
+		82
+	},
+	attrs_growth = {
+		8013,
+		261,
+		979,
+		737,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.1,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901064] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "銳劍",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 901064,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Épée",
+	oxy_cost = 0,
+	skin_id = 901060,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		693,
+		47,
+		196,
+		84,
+		0,
+		74,
+		0,
+		71,
+		74,
+		42,
+		45,
+		117
+	},
+	attrs_growth = {
+		8013,
+		261,
+		979,
+		737,
+		0,
+		513,
+		0,
+		1093,
+		1373,
+		0,
+		0,
+		544
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		107,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.15,
+		0.75
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Le Hardi-Class"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901071] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "莫加多爾",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 901071,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Mogador",
+	oxy_cost = 0,
+	skin_id = 901070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		365,
+		28,
+		70,
+		32,
+		0,
+		83,
+		0,
+		75,
+		78,
+		51.6,
+		61,
+		51
+	},
+	attrs_growth = {
+		10400,
+		389,
+		894,
+		693,
+		0,
+		578,
+		0,
+		1156,
+		1440,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.25,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mogador-Class",
+		"Mogador"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901072] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "莫加多爾",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 901072,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Mogador",
+	oxy_cost = 0,
+	skin_id = 901070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		454,
+		35,
+		87,
+		40,
+		0,
+		83,
+		0,
+		75,
+		78,
+		51.6,
+		61,
+		64
+	},
+	attrs_growth = {
+		10400,
+		389,
+		894,
+		693,
+		0,
+		578,
+		0,
+		1156,
+		1440,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		1.25,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mogador-Class",
+		"Mogador"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901073] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "莫加多爾",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 901073,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Mogador",
+	oxy_cost = 0,
+	skin_id = 901070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		632,
+		49,
+		122,
+		55,
+		0,
+		83,
+		0,
+		75,
+		78,
+		51.6,
+		61,
+		89
+	},
+	attrs_growth = {
+		10400,
+		389,
+		894,
+		693,
+		0,
+		578,
+		0,
+		1156,
+		1440,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.25,
+		1.15
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mogador-Class",
+		"Mogador"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[901074] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "莫加多爾",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 901074,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Mogador",
+	oxy_cost = 0,
+	skin_id = 901070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		899,
+		70,
+		174,
+		79,
+		0,
+		83,
+		0,
+		75,
+		78,
+		51.6,
+		61,
+		127
+	},
+	attrs_growth = {
+		10400,
+		389,
+		894,
+		693,
+		0,
+		578,
+		0,
+		1156,
+		1440,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		106,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mogador-Class",
+		"Mogador"
 	}
 }
 
@@ -363318,6 +365984,133 @@ _G.pg.base.ship_data_statistics[900478] = {
 }
 
 
+_G.pg.base.ship_data_statistics[900491] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "朱利奧·凱撒·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 900491,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Giulio Cesare.META",
+	oxy_cost = 0,
+	skin_id = 9705070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3089,
+		199,
+		0,
+		101,
+		0,
+		60,
+		0,
+		17,
+		7,
+		27,
+		65,
+		0
+	},
+	attrs_growth = {
+		23904,
+		987,
+		0,
+		558,
+		0,
+		414,
+		0,
+		274,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		3247001,
+		3247003,
+		90633
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Conte di Cavour-Class",
+		"GCMETA"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[900808] = {
 	nationality = 108,
 	oxy_max = 0,
@@ -363433,6 +366226,133 @@ _G.pg.base.ship_data_statistics[900808] = {
 		{}
 	},
 	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[900809] = {
+	nationality = 9,
+	oxy_max = 0,
+	type = 1,
+	name = "莫加多爾",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 6,
+	ammo = 0,
+	id = 900809,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "MNF Mogador",
+	oxy_cost = 0,
+	skin_id = 901070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		899,
+		70,
+		174,
+		79,
+		0,
+		83,
+		0,
+		75,
+		78,
+		51.6,
+		61,
+		127
+	},
+	attrs_growth = {
+		10400,
+		389,
+		894,
+		693,
+		0,
+		578,
+		0,
+		1156,
+		1440,
+		0,
+		0,
+		582
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"air"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		90170,
+		5670,
+		90566
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		1,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		1.2
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Mogador-Class",
+		"Mogador"
+	}
 }
 
 
@@ -380231,6 +383151,510 @@ _G.pg.base.ship_data_statistics[9703034] = {
 }
 
 
+_G.pg.base.ship_data_statistics[9703041] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "威奇塔·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9703041,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Wichita.META",
+	oxy_cost = 0,
+	skin_id = 9703040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		662,
+		54,
+		0,
+		43,
+		0,
+		69,
+		0,
+		35,
+		7,
+		26,
+		70,
+		0
+	},
+	attrs_growth = {
+		11389,
+		727,
+		0,
+		588,
+		0,
+		478,
+		0,
+		528,
+		284,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		0.5,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"WichitaMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9703042] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "威奇塔·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9703042,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Wichita.META",
+	oxy_cost = 0,
+	skin_id = 9703040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		823,
+		67,
+		0,
+		54,
+		0,
+		69,
+		0,
+		35,
+		7,
+		26,
+		70,
+		0
+	},
+	attrs_growth = {
+		11389,
+		727,
+		0,
+		588,
+		0,
+		478,
+		0,
+		528,
+		284,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.15,
+		0.5,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"WichitaMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9703043] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "威奇塔·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9703043,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Wichita.META",
+	oxy_cost = 0,
+	skin_id = 9703040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1146,
+		94,
+		0,
+		75,
+		0,
+		69,
+		0,
+		35,
+		7,
+		26,
+		70,
+		0
+	},
+	attrs_growth = {
+		11389,
+		727,
+		0,
+		588,
+		0,
+		478,
+		0,
+		528,
+		284,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		0.5,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"WichitaMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9703044] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 3,
+	name = "威奇塔·META",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9703044,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Wichita.META",
+	oxy_cost = 0,
+	skin_id = 9703040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		1630,
+		134,
+		0,
+		107,
+		0,
+		69,
+		0,
+		35,
+		7,
+		26,
+		70,
+		0
+	},
+	attrs_growth = {
+		11389,
+		727,
+		0,
+		588,
+		0,
+		478,
+		0,
+		528,
+		284,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		102,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		0.55,
+		1.05
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"WichitaMETA"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[9704011] = {
 	nationality = 97,
 	oxy_max = 0,
@@ -384811,6 +388235,514 @@ _G.pg.base.ship_data_statistics[9705054] = {
 }
 
 
+_G.pg.base.ship_data_statistics[9705071] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "朱利奧·凱撒·META",
+	huntingrange_level = 0,
+	star = 2,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9705071,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Giulio Cesare.META",
+	oxy_cost = 0,
+	skin_id = 9705070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1254,
+		80,
+		0,
+		41,
+		0,
+		60,
+		0,
+		17,
+		7,
+		27,
+		65,
+		0
+	},
+	attrs_growth = {
+		23904,
+		987,
+		0,
+		558,
+		0,
+		414,
+		0,
+		274,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		0.95,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Conte di Cavour-Class",
+		"GCMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9705072] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "朱利奧·凱撒·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9705072,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Giulio Cesare.META",
+	oxy_cost = 0,
+	skin_id = 9705070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		1560,
+		100,
+		0,
+		51,
+		0,
+		60,
+		0,
+		17,
+		7,
+		27,
+		65,
+		0
+	},
+	attrs_growth = {
+		23904,
+		987,
+		0,
+		558,
+		0,
+		414,
+		0,
+		274,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Conte di Cavour-Class",
+		"GCMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9705073] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "朱利奧·凱撒·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9705073,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Giulio Cesare.META",
+	oxy_cost = 0,
+	skin_id = 9705070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		2172,
+		140,
+		0,
+		71,
+		0,
+		60,
+		0,
+		17,
+		7,
+		27,
+		65,
+		0
+	},
+	attrs_growth = {
+		23904,
+		987,
+		0,
+		558,
+		0,
+		414,
+		0,
+		274,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.1,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Conte di Cavour-Class",
+		"GCMETA"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9705074] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 5,
+	name = "朱利奧·凱撒·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 9705074,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Giulio Cesare.META",
+	oxy_cost = 0,
+	skin_id = 9705070,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 3,
+	attrs = {
+		3089,
+		199,
+		0,
+		101,
+		0,
+		60,
+		0,
+		17,
+		7,
+		27,
+		65,
+		0
+	},
+	attrs_growth = {
+		23904,
+		987,
+		0,
+		558,
+		0,
+		414,
+		0,
+		274,
+		209,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"torpedo",
+		"air",
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		103,
+		100,
+		104
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		3,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.25,
+		1.5,
+		0.7
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"Conte di Cavour-Class",
+		"GCMETA"
+	}
+}
+
+
 _G.pg.base.ship_data_statistics[9706011] = {
 	nationality = 97,
 	oxy_max = 0,
@@ -388343,6 +392275,506 @@ _G.pg.base.ship_data_statistics[9707034] = {
 	tag_list = {
 		"SouryuMETA",
 		"Souryu"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707041] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "貝亞恩·META",
+	huntingrange_level = 0,
+	star = 3,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9707041,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Béarn.META",
+	oxy_cost = 0,
+	skin_id = 9707040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1070,
+		33,
+		0,
+		61,
+		81,
+		42,
+		0,
+		21,
+		7,
+		22,
+		42,
+		0
+	},
+	attrs_growth = {
+		17320,
+		461,
+		0,
+		788,
+		996,
+		292,
+		0,
+		290,
+		91,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		101
+	},
+	depth_charge_list = {},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.3,
+		1.3,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BéarnMETA",
+		"Béarn"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707042] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "貝亞恩·META",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9707042,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Béarn.META",
+	oxy_cost = 0,
+	skin_id = 9707040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1331,
+		41,
+		0,
+		76,
+		101,
+		42,
+		0,
+		21,
+		7,
+		22,
+		42,
+		0
+	},
+	attrs_growth = {
+		17320,
+		461,
+		0,
+		788,
+		996,
+		292,
+		0,
+		290,
+		91,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		101
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.33,
+		1.33,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BéarnMETA",
+		"Béarn"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707043] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "貝亞恩·META",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9707043,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Béarn.META",
+	oxy_cost = 0,
+	skin_id = 9707040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		1853,
+		58,
+		0,
+		106,
+		141,
+		42,
+		0,
+		21,
+		7,
+		22,
+		42,
+		0
+	},
+	attrs_growth = {
+		17320,
+		461,
+		0,
+		788,
+		996,
+		292,
+		0,
+		290,
+		91,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		101
+	},
+	depth_charge_list = {},
+	base_list = {
+		2,
+		2,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.38,
+		1.38,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BéarnMETA",
+		"Béarn"
+	}
+}
+
+
+_G.pg.base.ship_data_statistics[9707044] = {
+	nationality = 97,
+	oxy_max = 0,
+	type = 7,
+	name = "貝亞恩·META",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 5,
+	ammo = 0,
+	id = 9707044,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "Béarn.META",
+	oxy_cost = 0,
+	skin_id = 9707040,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 2,
+	attrs = {
+		2635,
+		83,
+		0,
+		150,
+		201,
+		42,
+		0,
+		21,
+		7,
+		22,
+		42,
+		0
+	},
+	attrs_growth = {
+		17320,
+		461,
+		0,
+		788,
+		996,
+		292,
+		0,
+		290,
+		91,
+		0,
+		0,
+		0
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {
+		"antisub"
+	},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		125,
+		126,
+		101
+	},
+	depth_charge_list = {},
+	base_list = {
+		3,
+		3,
+		2
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1.45,
+		1.45,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {
+		"BéarnMETA",
+		"Béarn"
 	}
 }
 

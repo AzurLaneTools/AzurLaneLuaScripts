@@ -106,6 +106,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705052,
 		9705053,
 		9705054,
+		9705071,
+		9705072,
+		9705073,
+		9705074,
 		9706011,
 		9706012,
 		9706013,
@@ -1163,7 +1167,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9703041] = {
-		breakout_view = "习得技能【破敌之炬·威奇塔】/主炮效率提高5%",
+		breakout_view = "習得技能【破敵之炬·威奇塔】/主炮效率提高5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -1196,7 +1200,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703043] = {
-		breakout_view = "【破敌之炬·威奇塔】升级/全武器效率提高5%",
+		breakout_view = "【破敵之炬·威奇塔】升級/全武器效率提高5%",
 		item2 = 21001,
 		pre_id = 9703042,
 		repair = 0,
@@ -1212,7 +1216,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9703044] = {
-		breakout_view = "无",
+		breakout_view = "無",
 		item2 = 21001,
 		pre_id = 9703043,
 		repair = 0,
@@ -1823,6 +1827,73 @@ pg.base.ship_meta_breakout = {
 		level = 0,
 		weapon_ids = {}
 	},
+	[9705071] = {
+		breakout_view = "習得技能【逐光之焰·朱利奧·凱撒】/主炮底座+1/主炮效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9705072,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705071,
+		item1 = 21040,
+		level = 10,
+		weapon_ids = {
+			95480,
+			95480
+		}
+	},
+	[9705072] = {
+		breakout_view = "副炮底座+2/主炮效率提高10%",
+		item2 = 21001,
+		pre_id = 9705071,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9705073,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705072,
+		item1 = 21040,
+		level = 30,
+		weapon_ids = {
+			101,
+			101,
+			101
+		}
+	},
+	[9705073] = {
+		breakout_view = "【逐光之焰·朱利奧·凱撒】升級/主炮底座+1/主炮效率提高15%",
+		item2 = 21001,
+		pre_id = 9705072,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9705074,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9705073,
+		item1 = 21040,
+		level = 70,
+		weapon_ids = {
+			95480,
+			95480,
+			95480
+		}
+	},
+	[9705074] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9705073,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9705074,
+		item1 = 21040,
+		level = 0,
+		weapon_ids = {}
+	},
 	[9706011] = {
 		breakout_view = "習得技能【破敵之炬·{namecode:220}】/所有魚雷機+1/艦載機效率提高3%",
 		item2 = 21001,
@@ -2307,7 +2378,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9707041] = {
-		breakout_view = "习得技能【摇曳之火·贝亚恩】/所有舰载机+1/舰载机效率提高3%",
+		breakout_view = "習得技能【搖曳之火·貝亞恩】/所有艦載機+1/艦載機效率提高3%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2324,7 +2395,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707042] = {
-		breakout_view = "机库容量+1/副武器底座+1/舰载机效率提高5%",
+		breakout_view = "機庫容量+1/副武器底座+1/艦載機效率提高5%",
 		item2 = 21001,
 		pre_id = 9707041,
 		repair = 0,
@@ -2343,7 +2414,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9707043] = {
-		breakout_view = "【摇曳之火·贝亚恩】升级/所有舰载机+1/舰载机效率提高7%",
+		breakout_view = "【搖曳之火·貝亞恩】升級/所有艦載機+1/艦載機效率提高7%",
 		item2 = 21001,
 		pre_id = 9707042,
 		repair = 0,

@@ -683,11 +683,12 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
 			optionFlag = 2,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "難道是想吃塔塔了嗎……可是亞爾薩斯還是覺得偷吃是不好的！",

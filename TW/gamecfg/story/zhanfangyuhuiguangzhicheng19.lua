@@ -9,7 +9,7 @@ return {
 			bgm = "story-commander-up",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "稍早前的萨默斯岛——",
+			say = "稍早前的百慕達島——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "疑问！阿尔萨斯觉得很奇怪！",
+			say = "疑問！亞爾薩斯覺得很奇怪！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "拉普拉斯妖是一个十分珍贵的设备吧，那为什么要把它留在这么危险的战场中当诱饵呢？",
+			say = "拉普拉斯妖是個十分珍貴的設備吧，那為什麼要把它留在這麼危險的戰場中當誘餌呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "唔……或许是因为设备体积太大，无法不被察觉地进行转移？",
+			say = "嗯……或許是因為設備體積太大，無法不被察覺的進行轉移？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "可是我们有货仓，塞壬的执行者系列也有。",
+			say = "可是我們有貨倉，塞壬的執行者系列也有。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "既然计划是通过舰船转移拉普拉斯妖，那没有理由塞壬会做不到。",
+			say = "既然計畫是透過船艦轉移拉普拉斯妖，那沒有理由塞壬會做不到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -130,7 +130,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "运输途中，或许比留在此地更危险。",
+			say = "運輸途中，或許比留在此地更危險。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "夺取被保护在严密堡垒中的目标，最好的方法就是让它主动跑出去。",
+			say = "奪取被保護在嚴密堡壘中的目標，最好的方法就是讓它主動跑出去。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……更有可能的是奥斯塔通过某些运作故意将拉普拉斯妖留在了萨默斯，目的就是为了让它如计划一般被火炬劫走。",
+			say = "……更有可能的是奧斯塔透過某些運作故意將拉普拉斯妖留在了百慕達，目的就是為了讓它如計劃一般被火炬劫走。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "但是现在我们要插手这个计划了，要怎么做好呢……？",
+			say = "但現在我們要插手這個計畫了，要怎麼做呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -196,7 +196,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯建议！直接去联系前进阵线舰队，告诉他们这是大洋联邦设下的陷阱，让他们冷静下来！",
+			say = "亞爾薩斯建議！直接去聯絡前進陣線艦隊，告訴他們這是大洋聯邦設下的陷阱，讓他們冷靜下來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -212,7 +212,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……拉普拉斯妖散发出的威胁令前进阵线别无选择。",
+			say = "……拉普拉斯妖散發出的威脅令前進陣線別無選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "就算我们说大洋联邦已经在此处设下了陷阱，前进阵线也不会停止行动的。",
+			say = "就算我們說出大洋聯邦已經在此處設下了陷阱，前進陣線也不會停止行動的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "更何况……他们未必会相信我们。",
+			say = "更何況……他們未必會相信我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "就是就是！不如我们去联系奥斯塔，让他把拉普拉斯妖藏起来！",
+			say = "就是就是！不如我們去聯絡奧斯塔，讓他把拉普拉斯妖藏起來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "由他来操作，就等于公开和大洋联邦决裂。",
+			say = "由他來操作，就等於公開和大洋聯邦決裂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "如果有这个选项，奥斯塔一开始就不会要暗中联系火炬制订后续的一系列计划。",
+			say = "如果有這個選項，奧斯塔一開始就不會要暗中聯繫火炬制定後續的一系列計劃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "看来，只有最后一种方案了呢……",
+			say = "看來，只有最後一種方案了呢…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们去把此地的大洋联邦和前进阵线的舰队都消灭！",
+			say = "我們去把此地的大洋聯邦和前進陣線的艦隊都消滅！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			actor = 901060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……绝对不是这个！",
+			say = "……絕對不是這個！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,7 +360,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "是我们先去把拉普拉斯妖劫走，对吧？",
+			say = "是我們先去把拉普拉斯妖劫走，對吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没错。作为一支本不应该存在于此的力量，我们的突然出手是打破现状最好的方案。",
+			say = "沒錯。作為一隻不該存在於此的力量，我們的突然出手是打破現狀的最佳方案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（只是……最后还是做出了和安洁奥斯塔他们一样的选择呢。）",
+			say = "（只是……最後還是做出了和安潔奧斯塔他們一樣的選擇呢。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（这样的选择真的能挽救局面么……）",
+			say = "（這樣的選擇真的能挽救局面嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（不行，没时间犹豫了，先行动起来再说。）",
+			say = "（不行，沒時間猶豫了，先行動起來再說。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgm = "battle-ashes-theme",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "此时此刻——",
+			say = "此時此刻——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "又穿过一片树丛后，萨默斯海洋鱼类研究所的大楼终于映入眼帘。",
+			say = "又穿過一片樹叢後，百慕達海洋魚類研究所的大樓終於映入眼簾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "一路上，除了自动化岗哨之外，我们没有发现任何警卫与守备部队。",
+			say = "一路上，除了自動化崗哨之外，我們沒有發現任何警衛與守備部隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "正如安洁所言，此处是大洋联邦设下的陷阱。",
+			say = "正如安潔所言，這裡是大洋聯邦設下的陷阱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_zhedie_7",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这是……战斗的声音？",
+			say = "這是……戰鬥的聲音？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "三小时已到，前进阵线开始和萨默斯岛的安蒂克丝防御舰队交火了。",
+			say = "三小時已到，前進陣線開始和百慕達島的安蒂克絲防禦艦隊交火了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -573,7 +573,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……目标近在咫尺，必须再快点，赶在火炬之前劫走拉普拉斯妖。",
+			say = "……目標近在咫尺，必須再快點，趕在火炬之前劫走拉普拉斯妖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "威奇塔·META",
-			say = "哟？没想到会在这里见到你们。",
+			say = "喲？沒想到會在這裡見到你們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（是余烬的威奇塔·META……果然她们也来到了这片记录中。）",
+			say = "（是餘燼的威奇塔·META……果然她們也來到了這片紀錄中。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（等等，余烬中有很多世界α的幸存者，火炬是在世界α成立的组织……再加上名字之间暗藏的关联。）",
+			say = "（等等，餘燼中有很多世界α的倖存者，火炬是在世界α成立的組織……再加上名字之間暗藏的關聯。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,14 +622,14 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "难道……",
+			say = "難道……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "火炬就是余烬！",
+					content = "火炬就是餘燼！",
 					flag = 1
 				}
 			}
@@ -642,7 +642,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "喔？你这打招呼的方式还挺别致。",
+			say = "喔？你這打招呼的方式還挺別緻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -660,7 +660,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不算错，但不准确。",
+			say = "不算錯，但不準確。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -677,7 +677,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "余烬，只是火炬燃烧后剩下的残渣罢了。",
+			say = "餘燼，只是火炬燃燒後剩下的殘渣罷了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -695,7 +695,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "能意识到这一点，再加上你们前进的目的地……看来你们对现状不是一无所知呢。",
+			say = "能意識到這一點，再加上你們前進的目的地……看來你們對現狀不是一無所知呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -711,7 +711,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "你们也一样……看来，你和金伯利都是在世界α中经历过这次事件的人？",
+			say = "妳們也是一樣……看來，妳和金伯利都是在世界α中經歷過這次事件的人？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不该问的别问，想吃苦头吗？",
+			say = "不該問的別問，想吃苦頭嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -741,7 +741,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "好，那就由我来说。",
+			say = "好，那就由我來說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "安洁刚才已经发来了通讯联络，将前进阵线的计划、大洋联邦的阴谋以及火炬的计划都告诉我了——",
+			say = "安潔剛才已經發來了通訊聯絡，將前進陣線的計劃、大洋聯邦的陰謀以及火炬的計劃都告訴我了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -767,7 +767,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "等——等等！你说什么？安洁联系你？！",
+			say = "等等——等等！你說什麼？安潔聯絡你？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -795,7 +795,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "先不论安洁为什么会联系你，但是……她现在处于全天候被人监控的状态，就连联系我们都是等了好久才来的机会。",
+			say = "先不論安潔為什麼會聯絡你，但是……她現在處於全天候被人監控的狀態，就連聯絡我們都是等了好久才來的機會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -813,7 +813,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "怎么可能直接一个电话打到萨默斯岛来？",
+			say = "怎麼可能直接一通電話打到百慕達島來？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过……你说的情报倒确实准确无误，真是怪啊。",
+			say = "不過……你說的情報倒確實準確無誤，真是怪啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -849,7 +849,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "所以，看这架势，你是打算抢先对拉普拉斯妖下手？",
+			say = "所以，看這架勢，你打算搶先對拉普拉斯妖下手？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -865,7 +865,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嗯。为了震慑住各方势力，阻止事情的发展恶化，必须由一支在各方计划外的力量抢先出手。",
+			say = "嗯。為了嚇阻住各方勢力，阻止事情的發展惡化，必須由一隻在各方計畫外的力量搶先出手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,7 +877,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "而且……我个人也不是很想让火炬参与这件事。",
+			say = "而且……我個人也不是很想讓火炬參與這件事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -891,7 +891,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你这人还真是奇怪……不过巧了，我也是这么想的。",
+			say = "你這人還真是奇怪……不過巧了，我也是這麼想的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -909,7 +909,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不用担心，火炬舰队不会来了。",
+			say = "不用擔心，火炬艦隊不會來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……不会来了？",
+			say = "……不會來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -939,7 +939,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "对，不会来了。我已经让她们全部离开了这片海域，以免被卷入之后发生的事中。",
+			say = "對，不會來了。我已經讓她們全部離開了這片海域，以免被捲入之後發生的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -955,7 +955,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "之后的事……是指你们要自己劫走拉普拉斯妖么？",
+			say = "之後的事……是指妳們要自己劫走拉普拉斯妖嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,7 +969,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵呵……那一日，没有任何人成功接近拉普拉斯妖。",
+			say = "呵呵……那一日，沒有任何人成功接近拉普拉斯妖。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -987,7 +987,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……时间差不多到了。",
+			say = "……時間差不多到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1004,7 +1004,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "既然你这么好奇，就和我们一起见证接下来发生的一切吧。",
+			say = "既然你這麼好奇，就跟我們一起見證接下來發生的一切吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			bgm = "battle-ash-strong",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们没有继续前往海洋鱼类研究所，而是与余烬的两人一同望向远方的大海。",
+			say = "我們沒有繼續前往海洋魚類研究所，而是與餘燼的兩人一同望向遠方的大海。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1054,7 +1054,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "前进阵线已经碾碎了执行者舰队的防线，先头部队已经进入了肉眼可见的范围内。",
+			say = "前進陣線已經碾碎了執行者艦隊的防線，先頭部隊已經進入了肉眼可見的範圍內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1065,7 +1065,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "与此同时，在水面下与云层上，埋伏多时的大洋联邦武装力量也露出了獠牙。",
+			say = "同時，在水面下與雲層上，埋伏多時的大洋聯邦武裝力量也露出了獠牙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1076,7 +1076,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "根据伊丽莎白·META提供的侦察，在更远方，更多大洋联邦舰队正从三个方向包围了过来。",
+			say = "根據伊莉莎白·META提供的偵察，在更遠方，更多大洋聯邦艦隊正從三個方向包圍了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1087,7 +1087,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "双方舰队没有发生交火，但也没有任何一艘船停下来。",
+			say = "雙方艦隊沒有發生交火，但也沒有任何一艘船停下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1101,7 +1101,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那一日，就在此时，企业带着我们抵达了这里。",
+			say = "那一日，就在此時，企業帶著我們抵達了這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1119,7 +1119,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "海洋鱼类研究所近在咫尺。接下来只要按照计划带走拉普拉斯妖，就能平息这场由贪婪引发的荒唐事件了。",
+			say = "海洋魚類研究所近在咫尺。接下來只要按照計畫帶走拉普拉斯妖，就能平息這場由貪婪引發的荒唐事件了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1137,7 +1137,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "然后……呵，果然开始了。",
+			say = "然後……呵，果然開始了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1152,7 +1152,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "如同发生了日蚀一般，天色陡然暗淡下来。天空开始扭曲、旋转，逐渐形成了庞大的漩涡。",
+			say = "如同發生了日蝕一般，天色陡然暗淡下來。天空開始扭曲、旋轉，逐漸形成了龐大的漩渦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1163,7 +1163,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "随后，一道黑色的风暴出现，裹挟着海水，扭动着云层，并以肉眼可见的速度往外扩散。",
+			say = "隨後，一道黑色的風暴出現，裹挾著海水，扭動著雲層，並以肉眼可見的速度往外擴散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1175,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "这是……噩兆天象？",
+			say = "這是……噩兆天象？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1189,7 +1189,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不错，就是噩兆天象。",
+			say = "不錯，就是噩兆天象。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1207,7 +1207,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "当日的我们一无所知，只是将其称呼为……黑色风暴。",
+			say = "當日的我們一無所知，只是稱呼為……黑色風暴。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1225,7 +1225,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "果然……看不清楚起因。风暴就是在这一刻凭空出现的……",
+			say = "果然……看不清楚起因。風暴就在這一刻憑空出現的……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1242,7 +1242,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "指挥官，风暴的影响正在急剧扩大，很快就要覆盖到我们的位置了！",
+			say = "指揮官，風暴的影響正在急劇擴大，很快就要覆蓋到我們的位置了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1261,7 +1261,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "噩兆天象虽然侵蚀能力并不强，但被直接卷进去也不是闹着玩的！",
+			say = "噩兆天象雖然侵蝕能力不強，但被直接捲進去也不是鬧著玩的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1280,7 +1280,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你们快给本王离开那里！立刻，马上！",
+			say = "你們快給本王離開那裡！立刻，馬上！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1291,7 +1291,7 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的响声",
+			actorName = "奇怪的響聲",
 			side = 2,
 			bgName = "bg_zhedie_7",
 			nameColor = "#5CE6FF",
@@ -1328,7 +1328,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "伴随着巨响，鲸鱼从海面下跃出，迎着雷电与狂风消失在黑云之中。",
+			say = "伴隨著巨響，鯨魚從海面下躍出，迎著雷電與狂風消失在黑雲之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1342,7 +1342,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "啊——鲸鱼又逃跑了！伊丽莎白，快锚定剩下的部分！",
+			say = "啊——鯨魚又逃跑了！伊莉莎白，快錨定剩下的部分！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1370,7 +1370,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "已经在准备了，给本王一分钟。",
+			say = "已經在準備了，給本王一分鐘。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1388,7 +1388,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "好！所有人抓紧时间来我身边，我带你们离开这里！",
+			say = "好！所有人抓緊時間來我身邊，我帶你們離開這裡！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1416,7 +1416,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯，你们快走吧，这里对你们来说太危险了。",
+			say = "嗯，你們快走吧，這裡對你們來說太危險了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1432,7 +1432,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "噩兆天象的侵蚀对于META来说同样危险，你们不走么？",
+			say = "噩兆天象的侵蝕對META來說同樣危險，妳們不走嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1446,7 +1446,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那一天，我们还太弱小，以至于在慌乱中错过了太多应当注意的事……",
+			say = "那一天，我們還太弱小，以至於在慌亂中錯過了太多該注意的事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1482,7 +1482,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们已经比过去更为强大，所以我们要立于此处，见证到最后一刻。",
+			say = "我們已經比過去更強大，所以我們要立於此處，見證到最後一刻。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1498,7 +1498,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……既然如此，我也留下，其他人跟随D小姐离开。",
+			say = "……既然如此，我也留下，其他人跟著D小姐離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1512,7 +1512,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "哈啊？！助手你在说什么啊？！",
+			say = "哈啊？！助手你在說什麼啊？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1540,7 +1540,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "指挥官你认真的么？！",
+			say = "指揮官你認真的嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1558,7 +1558,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不行，太危险了！",
+			say = "不行，太危險了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1574,7 +1574,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "有什么危险的？就算不走捷径，只要在此处被认定为“死亡”，就可以前往下一区域吧？",
+			say = "有什麼危險的？就算不走捷徑，只要在此處被認定為「死亡」，就可以前往下一區域吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1586,7 +1586,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "威奇塔，你们是不是就是用这种方法过来的？",
+			say = "威奇塔，妳們是不是就是用這種方法過來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1600,7 +1600,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不错。",
+			say = "不錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1618,7 +1618,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "可是……留下来被风暴撕裂可是很痛的啊！",
+			say = "可是……留下來被風暴撕裂可是很痛的啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1644,7 +1644,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……这里有我需要的情报。就和你必须要找到鲸鱼一样，我也必须留下来见证这一切。",
+			say = "……這裡有我需要的情報。就和妳必須要找到鯨魚一樣，我也必須留下來見證這一切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1676,7 +1676,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "才不好呢！要是指挥官留下来的话，阿尔萨斯也留下来！",
+			say = "才不好呢！要是指揮官留下來的話，亞爾薩斯也留下來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1694,7 +1694,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "花剑也留下来！",
+			say = "鈍劍也留下來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1712,7 +1712,7 @@ return {
 			actor = 901060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "重剑也……",
+			say = "銳劍也……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1738,7 +1738,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "不行，你们都要和D小姐一起走，这是命令。",
+			say = "不行，妳們都要和D小姐一起走，這是命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1752,7 +1752,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……是，阿尔萨斯，服从命令。",
+			say = "……是，亞爾薩斯，服從命令。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1767,7 +1767,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			bgName = "bg_zhedie_7",
-			say = "在接到伊丽莎白女王·META准备完成的联络后，D小姐带着鸢尾小队一行人消失了。",
+			say = "在接到伊莉莎白女王·META準備完成的聯絡後，D小姐帶著鳶尾小隊一行人消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1795,7 +1795,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
-			say = "刚刚还喧闹不已的海滩边，只剩下了三个身影面对即将到来的风暴，",
+			say = "剛剛還喧鬧不已的海灘邊，只剩下了三個身影面對即將到來的風暴，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1809,7 +1809,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……回答我，为什么你会知道这么多事？",
+			say = "……回答我，為什麼你會知道這麼多事？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1827,7 +1827,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们的秘密、安蒂克丝的秘密……好像所有人的秘密你都知道一些。",
+			say = "我們的秘密、安蒂克絲的秘密……好像所有人的秘密你都知道一些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1845,7 +1845,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "为什么我们对你有熟悉感？",
+			say = "為什麼我們對你有熟悉感？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1863,7 +1863,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "为什么企业会对你下不去手？",
+			say = "為什麼企業會對你下不了手？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1881,7 +1881,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "为什么……我也对你下不去手？",
+			say = "為什麼……我也對你下不了手？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1899,7 +1899,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……你到底，是谁？",
+			say = "……你到底，是誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1915,7 +1915,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……正如我之前所说，我对这些问题的答案也很好奇。",
+			say = "……正如我之前所說，我對這些問題的答案也很好奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1927,7 +1927,7 @@ return {
 			bgName = "bg_zhedie_7",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "所以我才会选择和你们一起留下来，不是么？",
+			say = "所以我才會選擇和你們一起留下來，不是呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1959,7 +1959,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那就，一起注视即将到来的结局吧。我们一起。",
+			say = "那就，一起注視即將到來的結局吧。我們一起。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1975,7 +1975,7 @@ return {
 			bgm = "main-ashes-theme",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "海滩上不再有言语声，所有人都在等待着那个既定的结局。",
+			say = "海灘上不再有言語聲，所有人都在等待那個既定的結局。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2013,7 +2013,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
-			say = "风力越来越大，黑色风暴在空间中肆意扩张着，仿佛要吞噬一切。",
+			say = "風力越來越大，黑色風暴在空間中肆意擴張著，彷彿要吞噬一切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2024,7 +2024,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
-			say = "终于，它像是突破了某个临界值一般，从中心迸发出一阵黑色的冲击。",
+			say = "終於，它像是突破了某個臨界值一般，從中心迸發出一陣黑色的衝擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2035,7 +2035,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
-			say = "冲击之下，一切事物都仿佛变成了黑色。",
+			say = "衝擊之下，一切事物彷彿變成了黑色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2046,7 +2046,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
-			say = "威奇塔·META和金伯利·META已经倒在了海滩上，我也在肉体与精神的双重痛苦中来到了崩溃边缘。",
+			say = "威奇塔·META和金伯利·META已經倒在了海灘上，我也在肉體與精神的雙重痛苦中來到了崩潰邊緣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2057,7 +2057,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
-			say = "恍惚间，我的意识仿佛被包裹在一股蓝色的清泉中。",
+			say = "恍惚間，我的意識彷彿被包裹在一股藍色的清泉中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2068,7 +2068,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
-			say = "透过泉水，我看到了燃起的战火与浓烟。",
+			say = "透過泉水，我看到了燃起的戰火與濃煙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2079,7 +2079,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_deepecho_9",
 			hidePaintObj = true,
-			say = "随后，流星群缓缓划过天空。",
+			say = "隨後，流星群緩緩劃過天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

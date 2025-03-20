@@ -196,10 +196,11 @@ return {
 			}
 		},
 		{
+			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_180",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哎呀，指揮官~如你所見，我們暫時沒辦法回到自己的據點了呢。",
@@ -213,10 +214,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_180",
 			dir = 1,
-			actor = 910009,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不會接下來都一直這樣了吧！",
@@ -230,10 +232,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_180",
 			dir = 1,
-			actor = 910005,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不過，對維達來說……指揮官這邊麻煩更少，更適合睡覺……",

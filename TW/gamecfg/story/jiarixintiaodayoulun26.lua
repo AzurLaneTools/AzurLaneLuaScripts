@@ -48,7 +48,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910018,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指、指揮官也來看小魚嗎？",
@@ -72,10 +72,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官，你好呀~",
@@ -131,7 +132,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "說起來，指揮官不好奇為什麼郵輪上會蓋水族館嗎？",
@@ -145,10 +146,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "啊，禁止說「因為松鯛的提議被通過了」這種答案哦~",
@@ -192,10 +194,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910018,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗚嗚嗚……應該是因為大家也覺得小魚很好看吧……",
@@ -209,10 +212,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "當然不是啦~以上的答案可是全錯了哦。",
@@ -226,10 +230,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "水族館可是約會必備的地點呢，靜謐的氣氛，浪漫的光影……",
@@ -243,10 +248,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "都出來渡假了，加上一處約會聖地也無可厚非吧~？",
@@ -260,10 +266,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910018,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "原來還有這方面的考量嗎……怪不得我的提議這麼順利就通過了……",
@@ -295,10 +302,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哎呀，不要那麼快戳穿我嘛~♪",
@@ -370,10 +378,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哎呀，指揮官的眉頭皺起來了呢，是在思考返航後這些海洋生物的歸宿嗎~？",
@@ -390,7 +399,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如果指揮官思考的是這件事的話……松鯛已經有主意了哦♪",
@@ -404,10 +413,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910018,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯！我會負起責任、好好照顧這些孩子的……不會讓牠們出事的！",
@@ -438,10 +448,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910018,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "太好了！嗚……（抽噎）沒忍住……對不起，但是松鯛真的、真的好高興！",
@@ -475,11 +486,12 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
 			optionFlag = 1,
-			actor = 910018,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……！嗚……指揮官……松鯛好幸福……！",
@@ -503,11 +515,12 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
 			optionFlag = 2,
-			actor = 910018,
+			actor = 108080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "欸嘿嘿……謝謝指揮官，嗚……（抽噎）",
@@ -531,10 +544,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官還真是一如既往的溫柔呢~",
@@ -548,10 +562,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不過，雖然我說水族館是「約會聖地」才被批准建造是開玩笑的，但……",
@@ -590,7 +605,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_173",
 			dir = 1,
-			actor = 910019,
+			actor = 107300,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不要浪費這樣的氣氛，陪著我們一起吧，指揮官~♪",

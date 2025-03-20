@@ -9,7 +9,7 @@ return {
 			bgm = "battle-thedevilxv-control",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "一片漆黑中，仅有仪表盘散发的微弱荧光。",
+			say = "一片漆黑中，僅有儀錶板散發的微弱螢光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "游离在四周的电流音与滴答声表明，这里似乎是一处控制室。",
+			say = "遊離在四周的電流音與滴答聲表明，這裡似乎是一處控制室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_4",
 			hidePaintObj = true,
-			say = "黑暗中，少女在无数接线的正中心忙碌着。",
+			say = "黑暗中，少女在無數接線的正中心忙碌著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 900335,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "强行驱动的话……启动动力系统就是极限了。",
+			say = "強行驅動的話……啟動動力系統就是極限了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			actor = 900335,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "接下来还是得专心破解安保系统……",
+			say = "接下來還是得專心破解保全系統……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 900335,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "再之后，第一个破解照明系统吧……",
+			say = "再之後，第一個破解照明系統吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -44,10 +44,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官？原來你也還沒下船。",
@@ -95,10 +96,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如你所見，我是來架設天文觀測用的設備的哦。",
@@ -115,7 +117,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我想把它設定好之後再下船……啊，如果可以的話，能請指揮官幫我一下嗎？",
@@ -141,10 +143,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯，沒錯。提前調整好位置，到時候就可以更快地欣賞星空之美了呢。",
@@ -161,7 +164,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "這裡的經緯度很適合觀測星空，最近的天氣也非常好，沒有雲層的阻擋……",
@@ -175,10 +178,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "晚上從這裡看過去的話，一定非常美麗。",
@@ -243,10 +247,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官很細心呢，呵呵……",
@@ -260,10 +265,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "謝謝指揮官幫我架設設備，作為謝禮，唔——",
@@ -309,10 +315,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "因為沒想到會在這裡遇到指揮官……所以沒準備什麼像樣的謝禮呢……",
@@ -348,10 +355,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如果，指揮官晚上有空的話，就來這裡找我吧。",
@@ -365,10 +373,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_520",
 			dir = 1,
-			actor = 910022,
+			actor = 104010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "只有我們兩個人，一起看星星吧。",

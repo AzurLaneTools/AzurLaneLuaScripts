@@ -9,7 +9,7 @@ return {
 			bgm = "story-startravel",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "在我们离开后，卡美洛之庭就进入了隐匿模式。",
+			say = "在我們離開後，卡美洛之庭就進入了隱匿模式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "此刻，列车在无垠的星海中飞驰着。",
+			say = "此刻，列車在無垠的星海中飛馳著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "遥远的群星纷繁闪耀，而我们所驶向的目的地，只有一片虚无。",
+			say = "遙遠的群星紛繁閃耀，而我們所駛向的目的地，只有一片虛無。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就快到了。阿尔萨斯，你准备好了么？",
+			say = "就快到了。亞爾薩斯，妳準備好了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -80,7 +80,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "大……大概！阿尔萨斯大概准备好了！",
+			say = "大……大概！亞爾薩斯大概準備好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -97,7 +97,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "很好。不用紧张，接下来就交给本王吧——",
+			say = "很好。不用緊張，接下來就交給本王吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			bgm = "theme-shallowoftheworld",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "时间，似乎在此刻停止了。",
+			say = "時間，似乎在此刻停止了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "车厢内的景象陡然静止，声音也停止了传播。",
+			say = "車廂內的景象陡然靜止，聲音也停止了傳播。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "此刻，伊丽莎白女王·META似乎是唯一不受影响的人。",
+			say = "此刻，伊莉莎白女王·META似乎是唯一不受影響的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "她缓步向着阿尔萨斯走去。每迈出一步，都在身后留下了一个自己的影子。",
+			say = "她緩步走向亞爾薩斯走去。每踏出一步，都在身後留下了一個自己的影子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "终于，她走到阿尔萨斯面前，然后身形径直穿过了她。",
+			say = "終於，她走到亞爾薩斯面前，然後身形徑直穿過了她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "随后，时间开始重新流动。",
+			say = "隨後，時間開始重新流動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "所有的影子也伴随着流动的时间一同穿越阿尔萨斯，重叠在伊丽莎白女王·META身上之后消失了。",
+			say = "所有的影子也伴隨著流動的時間一同穿越亞爾薩斯，重疊在伊莉莎白女王META身上之後消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "——「审视」结束。",
+			say = "——「檢視」結束。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -258,7 +258,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "辛苦了，可以不用再继续想了。",
+			say = "辛苦了，可以不用再繼續想了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -276,7 +276,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "欸……已经结束了……？阿尔萨斯还什么都没做呢！",
+			say = "欸……已經結束了……？亞爾薩斯還沒做呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不，你已经做得很好了。",
+			say = "不，妳已經做得很好了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -312,7 +312,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……有趣，没想到你是这么理解死亡的啊。",
+			say = "……有趣，沒想到妳是這麼理解死亡的啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -330,7 +330,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "发生了什么事……伊丽莎白女士瞬间移动到了阿尔萨斯的身后？",
+			say = "發生了什麼事……伊莉莎白女士瞬間移動到了亞爾薩斯的身後？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -358,7 +358,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你们有人看清楚她是怎么做到的么？！",
+			say = "妳們有人看清楚她是怎麼做到的呢？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -376,7 +376,7 @@ return {
 			actor = 901060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "没、没有……在一瞬间就过去了……",
+			say = "沒、沒有……在一瞬間就過去了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -394,7 +394,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我也完全没有捕捉到那个移动的瞬间。",
+			say = "我也完全沒有捕捉到那個移動的瞬間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "哼哼，现在知道伊丽莎白的厉害了吧~！",
+			say = "哼哼，現在知道伊莉莎白的厲害了吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "如果能抓到鲸鱼的话，我比伊丽莎白还要厉害哦~",
+			say = "如果能抓到鯨魚的話，我比伊莉莎白還要厲害哦~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -474,7 +474,7 @@ return {
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（似乎只有我和D小姐观察到了“那一瞬间”里真正发生的事。）",
+			say = "（似乎只有我和D小姐觀察到了「那一瞬間」裡真正發生的事。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（创造出了无数分身，然后径直穿越目标……当时在陆间海中，海洛芬特也做出了同样的事。）",
+			say = "（創造出了無數分身，然後徑直穿越目標……當時在地中海中，海洛芬特也做出了同樣的事。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（“审视”……难道是这个能力的名字？回头问问海伦娜好了。）",
+			say = "（「審視」……難道是這個能力的名字？回頭問海倫娜好了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "那接下来……我们应该做什么？",
+			say = "那接下來……我們該做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -530,7 +530,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "虽然你说已经处理完成了……但是外面好像什么事都没发生啊？",
+			say = "雖然妳說已經處理完成了……但外面好像什麼事都沒發生啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -548,7 +548,7 @@ return {
 			actor = 901060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "还是……空空一片……",
+			say = "還是……空空一片……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -566,7 +566,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "别急，那是因为本王还没开始操作呢。",
+			say = "別急，那是因為本王還沒開始操作。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -584,7 +584,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯——如此美丽的诠释，本王的车厢变换成此种景色倒也不错。",
+			say = "嗯——如此美麗的詮釋，本王的車廂變換成此種景色倒也不錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -607,7 +607,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "概念转换——「七号车厢」，准备承载「死亡」，锚定不可见之物，让其在本王面前显形吧！",
+			say = "概念轉換——「七號車廂」，準備承載「死亡」，錨定不可見之物，讓其在本王面前顯形吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1

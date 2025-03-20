@@ -5261,7 +5261,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2025.1.2-2025.3.20</color>期間限時開放「羅德尼·META」的挑戰，在此期間指揮官可挑戰「羅德尼·META 」累積其同步值取得<color=#92fc63>「羅德尼·META 」角色</color>及其他豐厚獎勵
+1. <color=#92fc63>2025.3.20-2025.6.5</color>期間限時開放「威奇塔·META」的挑戰，在此期間指揮官可挑戰「威奇塔·META 」累積其同步值取得<color=#92fc63>「威奇塔·META 」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標資料」取得與解析
@@ -5282,7 +5282,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一個信標最多能允許累積30位指揮官進行挑戰
 
 5.戰鬥說明
-·挑戰信標羅德尼·META暫不可使用指揮喵與潛艇
+·挑戰信標威奇塔·META暫不可使用指揮喵與潛艇
 ·戰鬥結算時不會獲得經驗值，不會影響艦船心情值
 ·戰鬥中不可中途退出，如果出現網路波動導致斷線的情況：
 ①挑戰自己解析的信標時將會消耗40點石油(非第一次挑戰)，且不會計算已造成的傷害
@@ -5290,8 +5290,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>請在參與作戰時保持網路環境暢通</color>
 
 6.火力支援
-隨著信標羅德尼·META挑戰的進行，從第31天開始，即2025.2.3~2025.3.20期間，艦隊挑戰「羅德尼·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標羅德尼·META開放的日期增加，火力支援提供的傷害也會增加。
-※此支援只會在指揮官自己發現的信標羅德尼·META戰鬥中出現，每次挑戰均會觸發。]]
+隨著信標威奇塔·META挑戰的進行，從第31天開始，即2025.2.3~2025.3.20期間，艦隊挑戰「威奇塔·META」時將會獲得一次額外火力支援。火力支援會對敵人造成傷害，並為敵人施加一個持續傷害的特殊狀態（不受任何加成效果影響）。隨著本期信標威奇塔·META開放的日期增加，火力支援提供的傷害也會增加。
+※此支援只會在指揮官自己發現的信標威奇塔·META戰鬥中出現，每次挑戰均會觸發。]]
 		}
 	}
 }
@@ -9015,6 +9015,11 @@ _G.pg.base.gametip.ship_remould_warning_102304 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_105214 = {
+	tip = "此次改造操作後<color=#92fc63>【BIG SEVEN】</color>技能\n將升級為<color=#92fc63>【BIG SEVEN·科羅拉多】</color>"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "此次改造操作後<color=#92fc63>【BIG SEVEN】</color>技能\n將升級為<color=#92fc63>【BIG SEVEN·西維吉尼亞】</color>"
 }
@@ -11995,7 +12000,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "史特拉斯堡、杜布雷 等角色建造機率UP！"
+	tip = "亞爾薩斯、布倫努斯 等角色建造機率UP！"
 }
 
 
@@ -20567,9 +20572,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>資訊同步</color>
-·<color=#92fc63>2024.9.12-2024.12.19</color>期間限時開放「基洛夫·META」的「資訊同步」，透過「信標基洛夫·META」戰鬥取得其同步值，達到一定同步值可以取得<color=#92fc63>「基洛夫·META」角色</color>
+·<color=#92fc63>2025.3.20-2025.6.5</color>期間限時開放「威奇塔·META」的「資訊同步」，透過「信標威奇塔·META」戰鬥取得其同步值，達到一定同步值可以取得<color=#92fc63>「威奇塔·META」角色</color>
 ·取得META角色後可以透過角色的<color=#92fc63>「資訊同步」</color>模組在<color=#92fc63>上述時間</color>內繼續取得包含養成材料在內的豐厚獎勵
-·注意：<color=#ff5c5c>「基洛夫·META」的「資訊同步」將在時間結束後暫時關閉,已累積的同步值也會消失。</color>
+·注意：<color=#ff5c5c>「威奇塔·META」的「資訊同步」將在時間結束後暫時關閉,已累積的同步值也會消失。</color>
 
 2.<color=#92fc63>能量啟動</color>
 ·META角色達到指定等級後可以使用對應的角色結晶進行啟動。啟動後可提升角色星級
@@ -21427,9 +21432,9 @@ _G.pg.base.gametip.amusementpark_help = {
 	tip = {
 		{
 			info = [[
-活動時間：2021.5.27-6.17
+活動時間：2025.3.20-4.10
 活動規則：
-1.6月2日為止每天零點解鎖1個任務，完成活動任務可以獲得「樂園建材」、「啾啾兌換券」及獎勵，活動任務可累積
+1.3月26日為止每天零點解鎖1個任務，完成活動任務可以獲得「樂園建材」、「啾啾兌換券」及獎勵，活動任務可累積
 2.消耗「樂園建材」可以在啾啾樂園中升級建築，每種建築會提供不同的BUFF加成
 3.每種建築分為三個等級，隨著等級的提升，提供的BUFF加成也會增加
 4.可升級建築有四種：
@@ -21438,9 +21443,9 @@ _G.pg.base.gametip.amusementpark_help = {
 跳樓啾
 啾啾海盜船
 5.活動期間每日可獲得一次可用次數，可用次數最多可以疊加7次
-6.在有可用次數的情況下參與蛋糕保衛戰會消耗掉可用次數並獲得簽到次數，集齊7次簽到次數可以獲得「慶典邀請函」
-7.可用次數可以在啾啾樂園頁面右側看到，簽到進度可以通過點擊啾啾樂園頁面「邀請函」按鈕查看
-8.在沒有可用次數的情況下進行蛋糕保衛戰不會獲得簽到次數]]
+6.在有可用次數的情況下參與啾啾蛋糕塔會消耗掉可用次數並獲得簽到次數，集齊7次簽到次數可以獲得「慶典邀請函」
+7.簽到進度可以通過點擊啾啾樂園頁面「邀請函」按鈕查看
+8.在沒有可用次數的情況下進行啾啾蛋糕塔不會獲得簽到次數]]
 		}
 	}
 }
@@ -21450,9 +21455,9 @@ _G.pg.base.gametip.amusementpark_shop_help = {
 	tip = {
 		{
 			info = [[
-活動時間：2021.5.27-6.17
+活動時間：2025.3.20-4.10
 活動規則：
-1.6月2日為止每天零點解鎖1個任務，完成活動任務可以獲得「樂園建材」、「啾啾兌換券」及獎勵，活動任務可累積
+1.3月26日為止每天零點解鎖1個任務，完成活動任務可以獲得「樂園建材」、「啾啾兌換券」及獎勵，活動任務可累積
 2.使用不同數量的啾啾兌換券可以兌換不同的獎勵，完成全部活動任務獲得的「啾啾兌換券」可完全兌換所有獎勵]]
 		}
 	}
@@ -24909,6 +24914,86 @@ _G.pg.base.gametip.cruise_task_help_2410 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2412 = {
+	tip = "2025/4/1-2025/5/31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲得<color=#854747>「朱利奧·凱撒·META」</color>在內的豐富獎勵"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2412 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2025.4.1-2025.5.31)
+
+·<color=#92fc63>開放時間</color>
+2025.4.1 0點 ~ 2025.5.31 23:59:59
+
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官透過完成巡遊任務，可取得「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每取得100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可獲得對應等級的獎勵，巡遊進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「朱利奧凱撒·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·七期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>威悉換裝「Offtime Cafe </color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 註：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點數</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即5.31 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2412 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+ 2025.4.1 0點 ~ 2025.5.31 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並取得對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -26461,7 +26546,7 @@ _G.pg.base.gametip.littleSpee_npc = {
 			info = "3.上陣「小施佩」參與戰鬥，且未被擊沉，可獲得雙倍「情報點」（不包含復刻箱庭療法SP關卡）。"
 		},
 		{
-			info = "4.11月23日為止，每日解鎖1個可達成的友好度階段。"
+			info = "4.3月26日為止，每日解鎖1個可達成的友好度階段。"
 		},
 		{
 			info = "5.在活動結束前累計獲得1000點友好度，可領取獎勵並將臨時角色「小施佩」轉化為永久角色。 "
@@ -33347,19 +33432,19 @@ _G.pg.base.gametip.liner_name_modify = {
 
 
 _G.pg.base.gametip.UrExchange_Pt_NotEnough = {
-	tip = "Pt不足，无法进行兑换"
+	tip = "Pt不足，無法進行兌換"
 }
 
 
 _G.pg.base.gametip.UrExchange_Pt_charges = {
-	tip = "（剩余$1次）"
+	tip = "（剩餘$1次）"
 }
 
 
 _G.pg.base.gametip.UrExchange_Pt_help = {
 	tip = {
 		{
-			info = "该页面兑换规则与活动PT商店完全相同，兑换同时生效。\n即可兑换UR角色，在活动中累计只能被兑换2次。\n第一次兑需要200点高级PT、第二次兑换需要300点高级PT。"
+			info = "該頁面兌換規則與活動PT商店完全相同，兌換同時生效。 \n點擊即可兌換UR角色，在活動中累計只能被兌換2次。 \n第一次兌需要200點高級PT、第二次兌換需要300點高級PT。"
 		}
 	}
 }
@@ -34079,6 +34164,131 @@ _G.pg.base.gametip.report_cannot_comment_level_2 = {
 }
 
 
+_G.pg.base.gametip.commander_exp_limit = {
+	tip = "此指揮喵已達最大等級，無法新增指揮喵"
+}
+
+
+_G.pg.base.gametip.dreamland_label_day = {
+	tip = "白天"
+}
+
+
+_G.pg.base.gametip.dreamland_label_dusk = {
+	tip = "傍晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_night = {
+	tip = "夜晚"
+}
+
+
+_G.pg.base.gametip.dreamland_label_area = {
+	tip = "區域"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore = {
+	tip = "探索"
+}
+
+
+_G.pg.base.gametip.dreamland_label_explore_award_tip = {
+	tip = "完成該區域探索獎勵"
+}
+
+
+_G.pg.base.gametip.dreamland_area_lock_tip = {
+	tip = "- 該區域尚未解鎖 請繼續閱讀劇情 -"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_lock_tip = {
+	tip = "閱讀後續劇情解鎖"
+}
+
+
+_G.pg.base.gametip.dreamland_spring_tip = {
+	tip = "邀請角色入夢恢復心情 $1/h"
+}
+
+
+_G.pg.base.gametip.dream_land_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」
+·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間
+·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.touch_cake_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/touchcake_help2"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.dreamland_main_desc = {
+	tip = "9.19~10.9，活動期間完成<color=#85E7FF>夢幻樂園探索</color>與<color=#85E7FF>啾啾蛋糕塔</color>獲得豐厚獎勵"
+}
+
+
+_G.pg.base.gametip.dreamland_main_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>9.19-10.9</color>期間開啟限時活動「夢幻樂園的夢幻假日」
+·隨劇情解鎖夢幻樂園的各個區域，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·夢幻樂園各區域地圖上均有可互動的探索點。指揮官在享受夢幻假日的同時，可透過留意地圖上的<color=#92fc63>「星星」</color>指引及<color=#92fc63>樂園手冊</color>中的探索指引，進行夢幻樂園探索，獲得<color=#92fc63>限定傢俱</color>、<color=#92fc63>外觀裝備箱</color>等獎勵
+·部分探索僅在特殊時間內觸發，在完成「夢幻樂園的夢幻假期」全部劇情後，可以透過<color=#92fc63>時間轉換</color>調整夢幻樂園時間
+·邀請角色進入安眠夢境，加快心情回復。安眠夢境隨夢幻樂園區域解鎖擴充
+·9.25為止，每日可獲得一次「啾啾蛋糕塔」遊戲次數，參與遊戲可取得「夢幻蛋糕券」
+·累計7張「夢幻蛋糕券」可獲得限定道具<color=#92fc63>「慶典邀請函」</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.no_share_skin_gametip = {
+	tip = "*該換裝為$1換裝，無法與$2共享使用"
+}
+
+
 _G.pg.base.gametip.battle_ui_unlock = {
 	tip = "裝扮解鎖"
 }
@@ -34216,6 +34426,11 @@ _G.pg.base.gametip.cruise_phase_title = {
 
 _G.pg.base.gametip.cruise_title_2410 = {
 	tip = "世界巡遊·十九期"
+}
+
+
+_G.pg.base.gametip.cruise_title_2412 = {
+	tip = "世界巡遊·二十期"
 }
 
 
@@ -34838,7 +35053,7 @@ _G.pg.base.gametip.notify_clock_button = {
 
 
 _G.pg.base.gametip.TW_build_chase_tip = {
-	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>鐵翼擎風</color>關卡，可獲得單建券獎勵"
+	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>綻放於輝光之城</color>關卡，可獲得單建券獎勵"
 }
 
 
@@ -34848,12 +35063,12 @@ _G.pg.base.gametip.TW_build_chase_phase = {
 
 
 _G.pg.base.gametip.TW_build_chase_time = {
-	tip = "獎勵領取時間截止至2025.2.27維護"
+	tip = "獎勵領取時間截止至2025.4.10維護"
 }
 
 
 _G.pg.base.gametip.ship_task_lottery_title = {
-	tip = "鐵翼擎風活動期間累積通關「鐵翼擎風」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+	tip = "綻放於輝光之城活動期間累積通關「綻放於輝光之城」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
 }
 
 

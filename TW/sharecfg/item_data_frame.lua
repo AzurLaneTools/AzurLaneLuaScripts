@@ -434,11 +434,11 @@ pg.item_data_frame = {
 	},
 	[330] = {
 		name = "幻夢守護者",
-		gain_by = "绽放于辉光之城 ",
+		gain_by = "綻放於輝光之城",
 		time_second = 0,
 		id = 330,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「縱使身處幻夢之中，我將依然選擇守護。」</color>\n「綻放於輝光之城」活動獲取",
 		scene = {}
 	},
 	[331] = {
@@ -684,6 +684,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>結晶之中閃爍著雙魚座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （25.03.01-25.03.31）",
 		scene = {}
 	},
+	[10011] = {
+		name = "限界的挑戰者·牡羊座",
+		gain_by = "",
+		time_second = 0,
+		id = 10011,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>結晶之中閃爍著牡羊座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」獲取（25.04.01-25.04.30）",
+		scene = {}
+	},
 	[40001] = {
 		name = "甜蜜邀約",
 		gain_by = "",
@@ -770,6 +779,7 @@ pg.item_data_frame = {
 		10008,
 		10009,
 		10010,
+		10011,
 		40001
 	}
 }

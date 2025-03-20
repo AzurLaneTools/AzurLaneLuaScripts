@@ -9,7 +9,7 @@ return {
 			bgm = "theme-richard",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "实验场β·外围防线",
+			say = "實驗場β·外圍防線",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "这里是拉沃斯与恩普雷斯为防御X而设立的防御体系的外围。",
+			say = "這裡是拉沃斯與恩普雷斯為防禦X而設立的防禦體系的外圍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_zhuguang_6",
 			hidePaintObj = true,
-			say = "无休无止的攻防战依然在继续着。",
+			say = "無休無止的攻防戰依然在持續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "哎呀~真是笑死我了——",
+			say = "真是笑死我了——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "我说，你们差不多就得了啊。",
+			say = "我說，妳們差不多就好了吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -95,7 +95,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "我也就是过来串个门而已，不至于吧~",
+			say = "我也就是過來串個門而已，不至於吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "你看看你们，防线修得跟铁桶一样，可是有什么用呢？",
+			say = "妳看看妳們，防線修的跟鐵桶一樣，可是有什麼用呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "就算我没进去实验场β，里面不也要乱成一团了？",
+			say = "就算我沒進去實驗場β，裡面不也要亂成一團了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -146,7 +146,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "你们在这里拦我根本没意义啊。",
+			say = "妳們在這裡攔我根本沒意義。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			actor = 900320,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "逻辑不成立。",
+			say = "邏輯不成立。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			actor = 900320,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "放你进去，情况只会更糟。",
+			say = "放妳進去，情況只會更糟。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			actor = 900320,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我说了，你的战场在这里。",
+			say = "我說了，妳的戰場在這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			actor = 900320,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你不是很有耐心么？那就再耐心点吧。",
+			say = "妳不是很有耐心嗎？那就再耐心點吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -230,7 +230,7 @@ return {
 			bgm = "theme-warmwinter-daily",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "帕克菲克洋·某处海岛",
+			say = "太平洋·某處海島",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "艳阳，海滩，冷饮——",
+			say = "艷陽，海灘，冷飲——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "真悠闲啊~",
+			say = "真悠閒~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -297,7 +297,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "忙，你们都忙，忙去吧！",
+			say = "忙，妳們都忙，去忙吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -314,7 +314,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我就在这里美美度个假咯~",
+			say = "我就在這裡美美度個假囉~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,13 +325,13 @@ return {
 			}
 		},
 		{
-			actorName = "广播",
+			actorName = "廣播",
 			side = 2,
 			bgName = "star_level_bg_539",
 			bgm = "airraidalarm",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "（持续不断的警报蜂鸣音）",
+			say = "（持續不斷的警報蜂鳴音）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……空袭警报？",
+			say = "……空襲警報？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我没发动进攻啊……？",
+			say = "我沒發動攻擊啊……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -398,7 +398,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "难道是塞壬……？",
+			say = "難道是塞壬……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -416,7 +416,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "可这里不早就是白鹰的后花园了么……？",
+			say = "但這裡已經是白鷹後花園了不是嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -434,7 +434,7 @@ return {
 			actor = 9702070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……什么情况？",
+			say = "……什麼情況？",
 			painting = {
 				alpha = 0.3,
 				time = 1

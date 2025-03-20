@@ -9,7 +9,7 @@ return {
 			bgm = "battle-torch-theme",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "暴雨与雷电彼此交织轰鸣，在恶劣的天气中，一支舰队在汹涌的波涛中驶向萨默斯岛。",
+			say = "暴雨與雷電彼此交織轟鳴，在惡劣的天氣中，一隻艦隊在洶湧的波濤中駛向百慕達島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 107070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "唉……不久前还是晴空万里，突然就狂风暴雨了。",
+			say = "唉……不久前還是晴空萬里，突然就狂風暴雨了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -58,7 +58,7 @@ return {
 			actor = 107070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "萨默斯岛的天气真是越来越多变了啊~",
+			say = "百慕達島的天氣真是越來越多變了啊~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			actor = 807010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "天气和海况的异常都是研究拉普拉斯妖导致的副产物。",
+			say = "天氣和海況的異常都是研究拉普拉斯妖導致的副產物。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -94,7 +94,7 @@ return {
 			actor = 807010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我还听说，偶尔还有人能看到幽灵和鬼影哦？",
+			say = "我還聽說，偶爾還有人能看到幽靈和鬼影哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -111,7 +111,7 @@ return {
 			actor = 207020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "已经到了这种程度……在下觉得稍微有点吓人了……",
+			say = "已經到了這種程度……在下覺得稍微有點嚇人了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -129,7 +129,7 @@ return {
 			actor = 301810,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "{namecode:180:霞}倒是想亲眼见一见呢~",
+			say = "霞倒是想親眼見一見呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			actor = 303110,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "呵呵，有你在，说不定我们这一路就能遇到呢。",
+			say = "呵呵，有妳在，說不定我們這一路就能遇到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -165,7 +165,7 @@ return {
 			actor = 303110,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不过也因为这些事，我们才能一直藏身于这片海域中，此次行动也能全程保持隐匿状态。",
+			say = "不過也因為這些事，我們才能一直藏身在這片海域中，這次行動也能全程保持隱匿狀態。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			actor = 107050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……就算发生全面战争，也有办法取得胜利并抚平一切损失……这种事情是不可能的。",
+			say = "……就算發生全面戰爭，也有辦法取得勝利並撫平一切損失……這種事情是不可能的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -201,7 +201,7 @@ return {
 			actor = 107050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "高层对于拉普拉斯妖的作用有些过于自信了，明明都没有彻底完工，就急于挑起这一切……",
+			say = "高層對拉普拉斯妖的作用有些過於自信了，明明都沒有徹底完工，就急於挑起這一切……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			actor = 307040,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "是啊！前进阵线也是沉不住气，还没彻底完工呢，就声势浩大地来抢了……",
+			say = "是啊！前進陣線也是沉不住氣，還沒徹底完工呢，就聲勢浩大得來搶了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -236,7 +236,7 @@ return {
 			actor = 102160,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……对他们来说，如果等装置完工了，且拉普拉斯妖真的能如大洋联邦军方的意图所运行，一切不就都晚了？",
+			say = "……對他們來說，如果等裝置完工了，而拉普拉斯妖真的能如大洋聯邦軍方的意圖所運行，一切不就都晚了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -271,7 +271,7 @@ return {
 			actor = 107060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "“拉普拉斯妖应该用于为全人类服务，而不是作为战争的工具，更不应该成为毁灭人类的导火索……“",
+			say = "「拉普拉斯妖應該用於為全人類服務，而不是作為戰爭的工具，更不應該成為毀滅人類的導火線……」",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			actor = 107060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……我们必须要阻止这一切。",
+			say = "……我們必須要阻止這一切。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			actor = 902010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "那是自然~而且你说——我们为什么不更进一步呢？",
+			say = "那是自然~而且妳說——我們為什麼不更進一步呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			actor = 902010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "安洁好不容易才联系到我们，我们已经知道了她的位置和周边的守卫情况。",
+			say = "安潔好不容易才聯絡到我們，我們已經知道她的位置和周邊的守衛情況了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -343,7 +343,7 @@ return {
 			actor = 902010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "干脆我们把她一起救出来嘛~",
+			say = "乾脆我們把她一起救出來嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 902020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……救出来，之后呢？和我们一起逃亡么？",
+			say = "……救出來，之後呢？跟我們一起逃亡嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			actor = 807010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "别添乱，安洁博士有自己的计划。",
+			say = "別添亂，安潔博士有自己的計畫。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -397,7 +397,7 @@ return {
 			actor = 107070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "是啊是啊~当初她在监狱的时候都不许我们行动，现在只是赋闲在家，我们去添什么乱啊？",
+			say = "是啊是啊~當初她在監獄的時候都不許我們行動，現在只是賦閒在家，我們去添什麼亂啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -415,7 +415,7 @@ return {
 			actor = 107050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "况且……我们在外面越活跃，安洁和所有无法脱身的同伴就越安全……你们忘记了么？",
+			say = "況且……我們在外面越活躍，安潔和所有無法脫身的同伴就越安全……妳們忘了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			actor = 902010,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "哎嘿嘿……忘记了！",
+			say = "哎嘿嘿……忘記了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -469,7 +469,7 @@ return {
 			actor = 102050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "企业，前进阵线的舰队已经开始向萨默斯岛下达最后通牒了。",
+			say = "企業，前進陣線的艦隊已經開始向百慕達島下達最後通牒了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -487,7 +487,7 @@ return {
 			actor = 102050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "大洋联邦的伏击舰队，也抵达了预定位置……",
+			say = "大洋聯邦的伏擊艦隊，也抵達了預定位置……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -505,7 +505,7 @@ return {
 			actor = 107060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……看来，我们也该开始行动了。",
+			say = "……看來，我們也該開始行動了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -523,7 +523,7 @@ return {
 			actor = 107060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "威奇塔，你今天怎么这么安静……紧张了？",
+			say = "威奇塔，妳今天怎麼這麼安靜……緊張了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			actor = 103110,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "啊哈哈……我就是有点不放心，我和金伯利再去旁边侦察一下哦！",
+			say = "啊哈哈……我就是有點不放心，我和金伯利再去旁邊偵察一下哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -575,7 +575,7 @@ return {
 			actor = 107060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "好，记得不要与我们脱节。",
+			say = "好，記得不要與我們脫節。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -610,7 +610,7 @@ return {
 			actor = 103110,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "呼……到这里就不会被人听到了。",
+			say = "呼……到這裡就不會被聽到了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -645,7 +645,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "真没想到会再次回到这一天……一切毁灭的开端。",
+			say = "真沒想到會再回到這一天……一切毀滅的開端。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -680,7 +680,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我能确定，这里就是辉光之城新展开的空间。",
+			say = "我能確定，這裡就是輝光之城新展開的空間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -698,7 +698,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "只是……不知道为什么重现了当年的情景。",
+			say = "只是……我不知道為什麼重現了當年的情景",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "或许是因为我们的加入，我们所认知的“死亡”也混入了空间所承载的概念中。",
+			say = "或許是因為我們的加入，我們所認知的「死亡」也混入了空間所承載的概念中。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -734,7 +734,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "最终让此地变成了这样，不是其实验场β的创造者所认知的“死亡”，而是我们所认知的“死亡”。",
+			say = "最終讓此地變成了這樣，不是其實驗場β創造者所認知的「死亡」，而是我們所認知的「死亡」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "至于为什么是这一天，这意思是，我们早就应该在这一天死了吗……哈哈。",
+			say = "至於為什麼是這一天，這意思是，我們早就該在這一天死了嗎……哈哈。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -787,7 +787,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "抱歉……开个玩笑。",
+			say = "抱歉……開個玩笑。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -805,7 +805,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "追踪到{namecode:522:旗风·META}的踪迹了么？",
+			say = "追蹤到旗風·META的蹤跡了嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -823,7 +823,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "还在空间中，我没发现具体位置，大概是藏起来了。",
+			say = "還在空間中，我沒發現具體位置，大概是藏起來了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -841,7 +841,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过空间出现了被侵蚀的迹象，那些本应存在于此的前进阵线和大洋联邦的军舰，都被噩兆实体替换了。",
+			say = "不過空間出現了被侵蝕的跡象，那些本應存在於此的前進陣線和大洋聯邦的軍艦，都被噩兆實體取代了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -859,7 +859,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵，我说她怎么急着自杀跑路，来这一出啊……",
+			say = "呵，我說她怎麼急著自殺跑路，來這一齣啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -877,7 +877,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……你还记得么，那一日，噩兆天象确实出现了。",
+			say = "……妳還記得嗎，那一日，噩兆天象確實出現了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -895,7 +895,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然当时的我们都不清楚那是什么，只会称呼其为黑色风暴。",
+			say = "雖然當時的我們都不清楚那是什麼，只會稱之為黑色風暴。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……或许，我们这次能够注意到当时没能注意到的事，为早已盖棺定论的事件带来一个新的真相。",
+			say = "……或許，我們這次能夠注意到當時沒能注意到的事，為早已蓋棺定論的事件帶來一個新的真相。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -930,7 +930,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "也或许……这是一次机会。",
+			say = "也或許……這是一個機會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然对于已经发生的过去于事无补，但我还是想试一试……",
+			say = "雖然對於已經發生的過去於事無補，但我還是想試試看……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -966,7 +966,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "假如。假如当时的我们采取不一样的行动、做出不一样的选择……",
+			say = "假如。假如當時的我們採取不一樣的行動、做出不一樣的選擇……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -984,7 +984,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "会不会让局势向着更好的方向进行呢……？",
+			say = "會不會讓局勢朝著更好的方向進行呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1002,7 +1002,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我不知道。至少……我不想看到惨剧再次在眼前发生。",
+			say = "我不知道。至少……我不想看到慘劇再次在眼前發生。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1020,7 +1020,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "同意。那就让我们——开始行动吧。",
+			say = "同意。那就讓我們——開始行動吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1

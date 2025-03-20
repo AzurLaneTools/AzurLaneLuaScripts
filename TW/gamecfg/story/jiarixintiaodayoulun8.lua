@@ -395,10 +395,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_544",
 			dir = 1,
-			actor = 910007,
+			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "穿越風暴的感覺意外地很刺激嘛！雖然有點像坐雲霄飛車，但坐雲霄飛車更好玩！",
@@ -464,10 +465,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_544",
 			dir = 1,
-			actor = 910006,
+			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如、如果不會給指揮官添麻煩的話……銳劍也希望有這樣的設施……",
@@ -484,7 +486,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_544",
 			dir = 1,
-			actor = 910013,
+			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嘿嘿……最好是把座位做得窄一些，這樣就可以跟指揮官緊緊貼在一起……",
@@ -508,10 +510,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_544",
 			dir = 1,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "和指揮官緊緊貼在一起？！不不不不行……亞爾薩斯不可以思考這種事！",
@@ -525,10 +528,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_544",
 			dir = 1,
-			actor = 910013,
+			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "啊~亞爾薩斯又要因為過熱當機了啊……",
@@ -577,10 +581,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_544",
 			dir = 1,
-			actor = 910007,
+			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "好耶！",

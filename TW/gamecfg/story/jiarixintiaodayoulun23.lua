@@ -66,10 +66,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
-			actor = 910007,
+			actor = 901051,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嘻嘻~是指揮官來了啊，長島她們好像正在打遊戲熱身，要不要先跟我玩一局~？",
@@ -86,7 +87,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
-			actor = 910007,
+			actor = 901051,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "放心好啦~我可不會用魔術作弊~",
@@ -150,7 +151,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
-			actor = 910007,
+			actor = 901051,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒想到指揮官居然會輸得這麼快啊……怎麼樣，要不要再來一局？",
@@ -200,10 +201,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_145",
 			dir = 1,
-			actor = 910007,
+			actor = 901051,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那好吧~反正我一直在這裡哦，指揮官想跟我玩的話來叫我就好了~",

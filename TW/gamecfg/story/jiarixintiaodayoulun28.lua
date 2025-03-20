@@ -33,10 +33,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Hi~Everybody~這裡是白鷹CB-2美少女藝人關島——",
@@ -101,10 +102,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "讓我們看看，我們發現了什麼意外之喜呢？是大家最愛的指揮官出現了喔！",
@@ -133,7 +135,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哦！指揮官很接近正確答案了呢~不過這個問題就讓我們的來賓卡律布狄斯來解答吧！",
@@ -147,10 +149,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "讓我們把畫面給到卡律布狄斯小姐那邊~！",
@@ -264,10 +267,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嘿嘿~剛剛我也說過了，指揮官可是送上門的驚喜~",
@@ -281,10 +285,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "身為藝人的關島當然不會放過這個爆點囉！我們可以先從指揮官開始採訪~！",
@@ -298,10 +303,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "而且我也很好奇卡律布狄斯小姐會怎麼提問哦。",
@@ -379,10 +385,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "開始提問了呢！關島的鏡頭已經準備好捕捉指揮官回答問題的瞬間了！",
@@ -560,10 +567,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "包在我身上~攝影機準備——",
@@ -750,10 +758,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_503",
 			dir = 1,
-			actor = 910021,
+			actor = 118020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "是……是？",

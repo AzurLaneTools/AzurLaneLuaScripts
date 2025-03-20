@@ -377,7 +377,7 @@ return {
 			actor = 608020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是你正在寻找的路上，我只是单纯是和你顺路一段。",
+			say = "是你正在寻找的路上，我只是单纯和你顺路一段。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

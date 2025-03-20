@@ -10,7 +10,7 @@ return {
 			actor = 0,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "居然……又来到了这里。",
+			say = "居然……又來到了這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "触碰到D小姐的手后，伴随着失重感，我再次来到了这片空间。",
+			say = "觸碰到D小姐的手後，伴隨著失重感，我再次來到了這片空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "无垠、广袤、虚无，方位与时间似乎在此处失去了意义。",
+			say = "無垠、廣袤、虛無，方位與時間似乎在此失去了意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "不过这一次……我的意识仿佛被包裹在一股蓝色的清泉中。非但没有缓缓消逝，反而比以往更加敏锐。",
+			say = "不過這次……我的意識彷彿被包裹著一股藍色的清泉中。非但沒有緩緩消逝，反而比以往更敏銳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "就是此时，我注意到，这片空间并非真的如我之前认为的一般孤寂。",
+			say = "就是此時，我注意到，這片空間並非真的如我之前所認為的一般孤寂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "前赴后继地迎向死亡……这就是你们的选择么。",
+			say = "前赴後繼的迎向死亡……這就是妳們的選擇嗎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "果然……我的答案是正确的。",
+			say = "果然……我的答案是正確的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "耳边传来了一丝没有感情的声音，忽近忽远，若即若离。",
+			say = "耳邊傳來了一絲沒有感情的聲音，忽近忽遠，若即若離。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "黑暗之中，有某个身影正在喃喃低语。",
+			say = "黑暗之中，有某個身影正在喃喃低語。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "生命自虚无之中诞生，又伴随着死亡回归虚无。",
+			say = "生命自虛無之中誕生，伴隨著死亡回歸虛無。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "虚无，就是答案。",
+			say = "虛無，就是答案。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "与其在起点与终点之间苦苦挣扎。",
+			say = "與其在起點與終點之間苦苦掙扎。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -213,7 +213,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不如接受这个答案，接受「你们」的终结吧——",
+			say = "不如接受這個答案，接受「妳們」的終結吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -229,7 +229,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（身影的位置不远……但是在黑暗中忽隐忽现，无法看清。）",
+			say = "（身影的位置不遠……但是在黑暗中忽隱忽現，無法看清。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（可以确定的是，她正在此处观察着辉光之城中进行的战斗。）",
+			say = "（可以確定的是，她正在此處觀察著輝光之城中進行的戰鬥。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（她究竟是谁……这里到底是哪里……）",
+			say = "（她究竟是誰……這裡到底是哪裡……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 900430,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "噢，真的么？",
+			say = "噢，真的嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -289,7 +289,7 @@ return {
 			actor = 900430,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "如果，死亡不意味着回归虚无呢？",
+			say = "如果，死亡不代表回歸虛無呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -305,7 +305,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "（这个声音是……之前那个成熟模式的D小姐？！）",
+			say = "（這個聲音是……之前那個成熟模式的D小姐？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "……你，能听到我说话？",
+			say = "……妳，聽得到我說話？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -361,7 +361,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "……你，是谁？",
+			say = "……妳，是誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -380,7 +380,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "欸……咦？！你又是谁？！为什么会在助手身边？！",
+			say = "欸……咦？！妳又是誰？！為什麼會在助手身邊？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -445,7 +445,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "对啊？助手！真是的，你怎么又乱跑过来了！真的会越——来越碎的！",
+			say = "對啊？助手！真是的，你怎麼又亂跑過來了！真的會越——來越碎的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -470,7 +470,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "D小姐向我的方向指了指，而直到此刻，声音的主人才似乎终于发现了我的存在。",
+			say = "D小姐向我的方向指了指，而直到此刻，聲音的主人似乎終於發現了我的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "……还有一个人？",
+			say = "……還有一個人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -497,15 +497,15 @@ return {
 			},
 			options = {
 				{
-					content = "哟~",
+					content = "喲~",
 					flag = 1
 				},
 				{
-					content = "……你好？",
+					content = "……妳好？",
 					flag = 2
 				},
 				{
-					content = "对不起，我不是故意偷听的。",
+					content = "對不起，我不是故意偷聽的。",
 					flag = 3
 				}
 			}
@@ -540,7 +540,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "你们是什么人，为什么能来到这里？",
+			say = "你們是什麼人，為什麼能來到這裡？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "我们是——",
+			say = "我們是——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -570,7 +570,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "喂！怎么闲聊起来了！你看看现在是适合闲聊的时候么！",
+			say = "喂！怎麼閒聊起來了！你看看現在是適合閒聊的時候呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -598,7 +598,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "都说了，这里对你很危险啊！快跟我走了！",
+			say = "都說了，這裡對你很危險！快跟我走了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -626,7 +626,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "还有你……不知道叫什么名字的人，你要一起走么？！",
+			say = "還有妳……不知道叫什麼名字的人，妳要一起走嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			actor = 9705050,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "不了……我不离开这里。",
+			say = "不了……我不離開這裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -683,7 +683,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "真是个怪人……这里黑漆漆的有什么好？那不管你了~略略略！",
+			say = "真是個怪人……這裡黑漆漆的有什麼好？那不管妳了~略略略！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -701,7 +701,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "助手，我们回辉光之城。这次一定要好好抓紧我，千万别再跑丢了哦！",
+			say = "助手，我們回輝光之城。這次一定要好好抓緊我，千萬別再跑丟了！",
 			painting = {
 				alpha = 0.3,
 				time = 1

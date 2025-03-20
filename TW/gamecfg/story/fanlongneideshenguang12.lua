@@ -309,7 +309,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……留在这里已经没有意义了，无需硬碰硬，我快撤。",
+			say = "……留在这里已经没有意义了，无需硬碰硬，我们快撤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 9703040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "小鬼，是谁你的底气这么跟我说话的，你身后的海洛芬特么？",
+			say = "小鬼，是谁给你的底气这么跟我说话的，你身后的海洛芬特么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

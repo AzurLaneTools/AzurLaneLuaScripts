@@ -136500,6 +136500,116 @@ _G.pg.base.equip_data_statistics[80253] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80261] = {
+	name = "专属弹幕-莫加多尔I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80261,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170481
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80262] = {
+	name = "专属弹幕-莫加多尔II",
+	base = 80261,
+	id = 80262,
+	weapon_id = {
+		170482
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80271] = {
+	name = "专属弹幕-布伦努斯I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80271,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170491
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80272] = {
+	name = "专属弹幕-布伦努斯II",
+	base = 80271,
+	id = 80272,
+	weapon_id = {
+		170492
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[80281] = {
 	name = "專屬彈幕-福煦METAI",
 	tech = 1,
@@ -136551,6 +136661,61 @@ _G.pg.base.equip_data_statistics[80282] = {
 	id = 80282,
 	weapon_id = {
 		170502
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80291] = {
+	name = "专属弹幕-威奇塔METAI",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80291,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170511
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80292] = {
+	name = "专属弹幕-威奇塔METAII",
+	base = 80291,
+	id = 80292,
+	weapon_id = {
+		170512
 	},
 	hidden_skill_id = {}
 }

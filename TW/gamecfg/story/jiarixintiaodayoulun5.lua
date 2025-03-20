@@ -330,10 +330,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910001,
+			actor = 701110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "欸~就不能用一個抱抱讓指揮官心甘情願過來嘛？",
@@ -347,10 +348,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910002,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "這可是在模擬戰鬥！抱抱怎麼可能會管用啦！",
@@ -364,10 +366,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910003,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呵呵，不過不論採取什麼手段，只要把指揮官同志收容在我們的控制下就成功了。",
@@ -399,10 +402,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910003,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯……？指揮官同志，你在那邊聽多久了？",
@@ -481,10 +485,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910003,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "當然~本次我們充當的就是「劫持」您的角色呢。",

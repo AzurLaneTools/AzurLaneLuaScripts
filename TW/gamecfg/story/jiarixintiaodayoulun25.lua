@@ -45,10 +45,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "啊~你來了呢，指揮官。",
@@ -74,10 +75,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那可不行哦~對了，指揮官接下來有安排嗎？",
@@ -103,10 +105,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呵呵，來都來了，不如跟大家一起做些有趣的事情吧~",
@@ -120,10 +123,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那就麻煩你在這裡等一下了呢，指揮官。",
@@ -235,10 +239,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官還記得我剛才說的，要做點有趣的事？",
@@ -252,10 +257,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我們商量好了，要開始3對3的沙灘排球。不過，我原本打算也讓指揮官參與其中的……",
@@ -380,10 +386,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "看，大家都開始興奮起來了呢，接下來就拜託指·揮·官·了。",
@@ -421,10 +428,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哎呀，被你發現了呢~我只是告訴大家，贏的一方可以和指揮官共進晚餐哦~？",
@@ -438,10 +446,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_601",
 			dir = 1,
-			actor = 403030,
+			actor = 403036,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "事到如今，指揮官不會說「不」的吧？",

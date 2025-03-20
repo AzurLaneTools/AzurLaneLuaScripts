@@ -9,7 +9,7 @@ return {
 			bgm = "battle-arbitrator-type1",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "实验场F-45733·？？？",
+			say = "實驗場F-45733·？？？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们已抵达目标地点，比预定时间晚了十四小时十三分。",
+			say = "我們已抵達目標地點，比預定時間晚了十四小時十三分。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "余烬的拖延决心比预想中更强，她们肯定同时派人来此处进行了行动。",
+			say = "餘燼的拖延決心比預想中更強，她們肯定同時派人來此處進行了行動。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -73,7 +73,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "还有中间的那次莫名其妙的干扰。",
+			say = "還有中間的那莫名其妙的干擾。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "如果不是那股冲击，我们肯定能到得更早……",
+			say = "如果不是那股衝擊，我們一定能到的更早……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -107,7 +107,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "到底是什么人在途中阻拦我们？",
+			say = "到底是什麼人在途中阻止我們？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不明——我的数据库中没有匹配结果。",
+			say = "不明——我的資料庫中沒有匹配結果。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "也就是说……这是一个没有在任何实验场中被记录，此前也从未与我们交战过的敌人。",
+			say = "也就是說……這是一個沒有在任何實驗場中被紀錄，此前也從未與我們交戰過的敵人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 900287,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "天帕岚斯，你从这一片虚无之中能寻找我们需要的情报么？",
+			say = "天帕嵐斯，妳從這一片虛無之中能尋找我們所需要的情報？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -192,7 +192,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "检索分析中——否定。",
+			say = "檢索分析中——否定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "整片区域已经被细致清理过了，而且手段很高明。",
+			say = "整片區域已經被細緻清理過了，而且手段很高明。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -226,7 +226,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "就连我都做不到处理得如此不留痕迹……",
+			say = "就連我都做不到處理的如此不留痕跡……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -243,7 +243,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "恐怕需要托瓦，或者麦纪莎亲自来处理才能留下这样干净的现场。",
+			say = "恐怕需要托瓦，或是麥紀莎親自來處理才能留下這樣乾淨的現場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,7 +260,7 @@ return {
 			actor = 900287,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "它们没有回应本次行动的增援请求，不会来这里的。",
+			say = "它們沒有回應本次行動的增援請求，不會來這裡的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -277,7 +277,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "那只能认定这个人拥有与其相同的水平了。",
+			say = "那只能認定這個人擁有與其相同的水平了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -294,7 +294,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不论如何，此地已是一片空白。",
+			say = "不論如何，此地已是一片空白。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -311,7 +311,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们既无法调查出空间冲击发生的原因，也无法找到引发空间的存在。",
+			say = "我們既無法調查出看空間衝擊發生的原因，也無法找到引發空間的存在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "任务失败。我们需要在提交报告后，执行此时任务列表中的第一项任务。",
+			say = "任務失敗。我們需要在提交報告後，執行此時任務清單中的第一項任務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			actor = 900287,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "正在提交报告——",
+			say = "正在提交報告——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -362,7 +362,7 @@ return {
 			actor = 900287,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……收到了恩普雷斯发来的紧急联络。",
+			say = "……收到了恩普雷斯傳來的緊急聯絡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯？实验场β的局势存在失控的风险，要求我们立刻前去稳定局面？",
+			say = "嗯？實驗場β的情況有失控的風險，要求我們立刻前往穩定局面？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,7 +396,7 @@ return {
 			actor = 900285,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "它怎么也跑去实验场β了？",
+			say = "它怎麼也跑去實驗場β了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -413,7 +413,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "因为那鬼地方特殊呗……",
+			say = "因為那鬼地方特殊啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -430,7 +430,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "真是的……尤其是那个指挥官。",
+			say = "真是的……尤其是那個指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -447,7 +447,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不能真打又不能不打……麻烦死了。",
+			say = "不能真打又不能不打……麻煩死了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			actor = 900286,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我申请去拉沃斯的防线支援可以么？",
+			say = "我申請去拉沃斯的防線支援可以嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -481,7 +481,7 @@ return {
 			actor = 900287,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "恩普雷斯还没下达具体的任务分配，你之后可以试试。",
+			say = "恩普雷斯還沒下達具體的任務分配，妳之後可以試試看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,7 +498,7 @@ return {
 			actor = 900287,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "唉……走吧，回实验场β。",
+			say = "唉……走吧，回實驗場β。",
 			painting = {
 				alpha = 0.3,
 				time = 1

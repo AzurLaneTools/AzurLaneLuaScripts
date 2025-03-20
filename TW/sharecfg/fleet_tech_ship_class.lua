@@ -3178,6 +3178,17 @@ pg.fleet_tech_ship_class = {
 			80301
 		}
 	},
+	[80303] = {
+		shiptype = 3,
+		name = "布倫努斯",
+		t_level = 8,
+		id = 80303,
+		t_level_1 = 137,
+		nation = 8,
+		ships = {
+			80302
+		}
+	},
 	[80501] = {
 		shiptype = 5,
 		name = "黎胥留級 ",
@@ -3209,6 +3220,17 @@ pg.fleet_tech_ship_class = {
 		nation = 8,
 		ships = {
 			80502
+		}
+	},
+	[80504] = {
+		shiptype = 5,
+		name = "亞爾薩斯級",
+		t_level = 9,
+		id = 80504,
+		t_level_1 = 1,
+		nation = 8,
+		ships = {
+			80503
 		}
 	},
 	[80701] = {
@@ -3290,6 +3312,29 @@ pg.fleet_tech_ship_class = {
 			90102,
 			90103,
 			90104
+		}
+	},
+	[90105] = {
+		shiptype = 1,
+		name = "莫加多爾級",
+		t_level = 9,
+		id = 90105,
+		t_level_1 = 1,
+		nation = 9,
+		ships = {
+			90107
+		}
+	},
+	[90106] = {
+		shiptype = 1,
+		name = "大膽級",
+		t_level = 6,
+		id = 90106,
+		t_level_1 = 133,
+		nation = 9,
+		ships = {
+			90105,
+			90106
 		}
 	},
 	[90201] = {
@@ -3616,6 +3661,17 @@ pg.fleet_tech_ship_class = {
 			970303
 		}
 	},
+	[970304] = {
+		shiptype = 3,
+		name = "威奇塔·META",
+		t_level = 1,
+		id = 970304,
+		t_level_1 = 12,
+		nation = 97,
+		ships = {
+			970304
+		}
+	},
 	[970401] = {
 		shiptype = 4,
 		name = "格奈森瑙·META",
@@ -3715,6 +3771,17 @@ pg.fleet_tech_ship_class = {
 			970505
 		}
 	},
+	[970507] = {
+		shiptype = 5,
+		name = "朱利奧·凱撒·META",
+		t_level = 3,
+		id = 970507,
+		t_level_1 = 6,
+		nation = 97,
+		ships = {
+			970507
+		}
+	},
 	[970601] = {
 		shiptype = 6,
 		name = "飛鷹·META",
@@ -3790,6 +3857,17 @@ pg.fleet_tech_ship_class = {
 		nation = 97,
 		ships = {
 			970703
+		}
+	},
+	[970704] = {
+		shiptype = 7,
+		name = "貝亞恩·META",
+		t_level = 4,
+		id = 970704,
+		t_level_1 = 5,
+		nation = 97,
+		ships = {
+			970704
 		}
 	},
 	[970801] = {
@@ -4088,9 +4166,11 @@ pg.fleet_tech_ship_class = {
 		80204,
 		80301,
 		80302,
+		80303,
 		80501,
 		80502,
 		80503,
+		80504,
 		80701,
 		80702,
 		80801,
@@ -4098,6 +4178,8 @@ pg.fleet_tech_ship_class = {
 		90101,
 		90103,
 		90104,
+		90105,
+		90106,
 		90201,
 		90301,
 		90302,
@@ -4127,6 +4209,7 @@ pg.fleet_tech_ship_class = {
 		970301,
 		970302,
 		970303,
+		970304,
 		970401,
 		970402,
 		970403,
@@ -4136,6 +4219,7 @@ pg.fleet_tech_ship_class = {
 		970503,
 		970504,
 		970505,
+		970507,
 		970601,
 		970602,
 		970603,
@@ -4143,6 +4227,7 @@ pg.fleet_tech_ship_class = {
 		970701,
 		970702,
 		970703,
+		970704,
 		970801,
 		971201,
 		971301

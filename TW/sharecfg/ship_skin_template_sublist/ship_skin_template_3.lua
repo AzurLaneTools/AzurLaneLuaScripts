@@ -1,220 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103138] = {
-		name = "Trapper white",
-		change_skin = "",
-		ship_group = 10313,
-		illustrator2 = -1,
-		desc = "昆西那傢伙，為什麼看到我穿成這樣就特別開心呢？又不方便活動，零零碎碎的裝飾又不方便打獵…雖說是為了指揮官才穿的，不過，這一身真的沒問題嗎…",
-		group_index = 8,
-		id = 103138,
-		painting = "mingniabolisi_h",
-		l2d_ignore_drag = 0,
-		hand_id = 16,
-		shop_type_id = 9998,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "mingniabolisi_h",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 153,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.584,
-					1.047,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.654,
-					1.041,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.003,
-					-0.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103140] = {
-		name = "{namecode:195}",
-		change_skin = "",
-		ship_group = 10314,
-		illustrator2 = -1,
-		desc = "紐奧良級重巡洋艦——{namecode:195}，舷號CA-38",
-		group_index = 0,
-		id = 103140,
-		painting = "jiujinshan",
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "jiujinshan",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 275,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.266,
-					1.151,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.301,
-					1.144,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.596,
-							2.323,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103141] = {
 		name = "Funny Bunny！",
 		change_skin = "",
@@ -4850,6 +4636,113 @@ pg.base.ship_skin_template_3 = {
 				{
 					1.138,
 					1.232,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.502,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[105099] = {
+		name = "科羅拉多.改",
+		change_skin = "",
+		ship_group = 10509,
+		illustrator2 = -1,
+		desc = "再次回應你的呼喚，科羅拉多，以更完美、更強大、更卓越的姿態回歸。請下達你的指示吧，以「Big Seven」之名，科羅拉多將為你清除一切障礙。",
+		group_index = 9,
+		id = 105099,
+		painting = "keluoladuo_g",
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		shop_type_id = 9997,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "keluoladuo_g",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 152,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.238,
+					1.834,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.22,
+					1.63,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.73,
+					2.09,
 					0
 				}
 			}
@@ -12924,6 +12817,208 @@ pg.base.ship_skin_template_3 = {
 			},
 			{
 				1.3
+			}
+		}
+	},
+	[107110] = {
+		name = "無畏",
+		change_skin = "",
+		ship_group = 10711,
+		illustrator2 = -1,
+		desc = "艾塞克斯級航空母艦—無畏，舷號CV-11",
+		group_index = 0,
+		id = 107110,
+		painting = "wuwei",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "wuwei",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 225,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.483,
+					1.215,
+					0
+				}
+			},
+			plane = {
+				{
+					1.438,
+					1.204,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107111] = {
+		name = "無畏的一投",
+		change_skin = "",
+		ship_group = 10711,
+		illustrator2 = -1,
+		desc = "最近港區裡好像要組織棒球比賽，在和白鷹的伙伴們正式組成隊伍前，我想先進行些提高個人能力的訓練，指揮官，能來陪我做投球的練習嗎？",
+		group_index = 1,
+		id = 107111,
+		painting = "wuwei_2",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 13,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "132",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "wuwei_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70332,
+		voice_actor = 225,
+		spine_offset = "",
+		illustrator = 8,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.352,
+					1.153,
+					0
+				}
+			},
+			plane = {
+				{
+					1.337,
+					1.258,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
 			}
 		}
 	}

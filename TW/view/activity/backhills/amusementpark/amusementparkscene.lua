@@ -174,7 +174,7 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "dangaobaoweizhan", function ()
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, 23)
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, 66)
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "huiyichengbao", function ()
 		uv0:emit(AmusementParkMediator.GO_SCENE, SCENE.SUMMARY)

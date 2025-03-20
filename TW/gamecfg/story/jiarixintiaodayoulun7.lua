@@ -45,10 +45,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "畢竟我們總得有個方便行事的地方嘛，經過利益精算之後，乾脆就換了一個據點~",
@@ -62,10 +63,11 @@ return {
 			}
 		},
 		{
+			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "至於是什麼事情……指揮官應該很清楚，不會再問的，對吧？",
@@ -169,10 +171,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910006,
+			actor = 901060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "那、那個，原計劃應該是沿著熱帶航線環遊…",
@@ -199,7 +202,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910007,
+			actor = 901050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不過現在感覺這個旅行計畫被打亂了也挺好玩的呢~嘻嘻~",
@@ -213,10 +216,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沿著熱帶航線環遊啊……聽起來不錯，說不定也能找到更多藏品納入我的收藏……",
@@ -230,10 +234,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不過熱帶的風景雖然美麗，但是卻也感覺沒有那麼「稀奇」呢。",
@@ -247,10 +252,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910008,
+			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "你的意思是，想看到更讓人見之難忘的風景嗎？",
@@ -264,10 +270,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒錯~",
@@ -281,10 +288,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910009,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……哪有那麼輕鬆就能找到讓人見之難忘的風景啊。",
@@ -298,10 +306,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "說的也是呢~那就只能作為之後的議題慢慢考慮了呢。",
@@ -332,10 +341,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910009,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "極光？",
@@ -418,10 +428,11 @@ return {
 			}
 		},
 		{
+			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "如果可以拍下照片的話，感覺會是很不錯的收藏……",
@@ -438,7 +449,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910010,
+			actor = 202340,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "拍照？那這件事就交給我吧~保證拍出來的超漂亮哦~",
@@ -455,7 +466,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910002,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "什麼？妳的手機在極地還能拍照？不會直接沒電關機嗎？",
@@ -482,7 +493,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910010,
+			actor = 202340,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "說的也是哦！我去拜託英格拉罕她們幫我改造一下吧……",
@@ -667,10 +678,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910005,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "維達……肚子餓了……房間裡還有可樂和洋芋片，維達去拿一些過來……",
@@ -720,10 +732,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "既然如此，大家想不想試試看篝火燒烤會呢？",
@@ -737,10 +750,11 @@ return {
 			}
 		},
 		{
+			expression = 9,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "比起正式的餐廳用餐，沒有距離阻礙的野餐反而更能促進彼此的感情吧？指揮官認為呢？",
@@ -769,7 +783,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "可沒有白天就不能開篝火燒烤會的道理哦~？只要大家想的話~",
@@ -783,11 +797,12 @@ return {
 			}
 		},
 		{
-			actor = 910011,
-			side = 2,
+			expression = 2,
+			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_162",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			actor = 9600040,
 			say = "我覺得單純的燒烤派對就很好了……能不能別點篝火……",
 			typewriter = {
 				speed = 0.05,
@@ -795,10 +810,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不可以哦？而且，瑪麗，妳也得參與進來。不~準~隱~身~",
@@ -812,11 +828,12 @@ return {
 			}
 		},
 		{
-			actor = 910011,
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_162",
-			hidePaintObj = true,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "噫？！指揮官，救我呀！",
 			typewriter = {
 				speed = 0.05,
@@ -1055,10 +1072,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒錯~非要說的話，也只有變裝舞會比較符合我們的氣質。",
@@ -1072,10 +1090,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910005,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不管是普通的舞會，還是變裝舞會……都好麻煩……",
@@ -1099,10 +1118,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910009,
+			actor = 9600060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我的話，投變裝舞會一票。",
@@ -1168,10 +1188,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "這樣不是也很有趣嗎~？不做主題的限制，只需要符合「變裝」本身的定義就好。",
@@ -1220,10 +1241,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_162",
 			dir = 1,
-			actor = 910012,
+			actor = 302060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "看來是我們登場的時候了呢，老爺子~「沒錯！」",

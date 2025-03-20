@@ -91,10 +91,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "這就是鳶尾的甜點……我記住步驟了，等一下就實際操作試試看。",
@@ -148,10 +149,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "欸？肚子餓了？指揮官要試試看我學做的東煌混合鳶尾風情甜點嗎？",
@@ -175,10 +177,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒錯哦！雖然我確實更堅持傳統的做菜口味，不過最近在郵輪上和大家討論了很多……",
@@ -192,10 +195,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "在大家的建議下，我決定也要試試看將不同地區的風味結合在一起。",
@@ -239,10 +243,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不是哦，不過……也快烤好了呢。",
@@ -325,10 +330,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒有，我加入了東煌常用的兩種增香的蔬菜，是它們讓蛋糕的顏色改變了。",
@@ -411,10 +417,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官，怎麼樣？",
@@ -438,11 +445,12 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
 			optionFlag = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯……？奇怪……加入了香菜和魚腥草之後，反而變得不好吃了嗎？",
@@ -456,11 +464,12 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
 			optionFlag = 2,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官……你說話都帶著顫音呢，好吃到哭了嗎？",
@@ -484,10 +493,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不過總覺得……算了，還是我自己嚐嚐看吧，在調製麵糊的過程裡我還沒試過味道呢。",
@@ -512,10 +522,11 @@ return {
 			}
 		},
 		{
+			expression = 17,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……",
@@ -550,10 +561,11 @@ return {
 			}
 		},
 		{
+			expression = 15,
 			side = 2,
 			bgName = "star_level_bg_150",
 			dir = 1,
-			actor = 910024,
+			actor = 501050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "做菜……還是傳統點好……嗯。",

@@ -1691,11 +1691,17 @@ pg.ship_data_group = setmetatable({
 		[80301] = {
 			600
 		},
+		[80302] = {
+			643
+		},
 		[80501] = {
 			453
 		},
 		[80502] = {
 			602
+		},
+		[80503] = {
+			641
 		},
 		[80701] = {
 			458
@@ -1717,6 +1723,15 @@ pg.ship_data_group = setmetatable({
 		},
 		[90104] = {
 			601
+		},
+		[90105] = {
+			645
+		},
+		[90106] = {
+			646
+		},
+		[90107] = {
+			642
 		},
 		[90111] = {
 			394
@@ -2120,14 +2135,23 @@ pg.ship_data_group = setmetatable({
 		[970105] = {
 			30032
 		},
+		[970704] = {
+			30033
+		},
 		[970303] = {
 			30034
+		},
+		[970304] = {
+			30035
 		},
 		[970106] = {
 			30036
 		},
 		[970604] = {
 			30039
+		},
+		[970507] = {
+			30040
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2695,8 +2719,10 @@ pg.ship_data_group = setmetatable({
 			454,
 			603,
 			600,
+			643,
 			453,
 			602,
+			641,
 			458,
 			599,
 			350,
@@ -2704,6 +2730,9 @@ pg.ship_data_group = setmetatable({
 			452,
 			457,
 			601,
+			645,
+			646,
+			642,
 			394,
 			556,
 			481,
@@ -2844,9 +2873,12 @@ pg.ship_data_group = setmetatable({
 			30030,
 			30031,
 			30032,
+			30033,
 			30034,
+			30035,
 			30036,
-			30039
+			30039,
+			30040
 		}
 	},
 	all = {
@@ -3413,8 +3445,10 @@ pg.ship_data_group = setmetatable({
 		454,
 		603,
 		600,
+		643,
 		453,
 		602,
+		641,
 		458,
 		599,
 		350,
@@ -3422,6 +3456,9 @@ pg.ship_data_group = setmetatable({
 		452,
 		457,
 		601,
+		645,
+		646,
+		642,
 		394,
 		556,
 		481,
@@ -3556,9 +3593,12 @@ pg.ship_data_group = setmetatable({
 		30030,
 		30031,
 		30032,
+		30033,
 		30034,
+		30035,
 		30036,
-		30039
+		30039,
+		30040
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -27439,6 +27479,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[643] = {
+		nationality = 8,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 80302,
+		index_id = 579,
+		code = 643,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"B",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綻放於輝光之城",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[453] = {
 		nationality = 8,
 		type = 5,
@@ -27507,6 +27579,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：愚者的天平",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[641] = {
+		nationality = 8,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 80503,
+		index_id = 582,
+		code = 641,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"C",
+			"D",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綻放於輝光之城",
 				{
 					""
 				},
@@ -27794,6 +27898,102 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：愚者的天平",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[645] = {
+		nationality = 9,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90105,
+		index_id = 590,
+		code = 645,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綻放於輝光之城",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[646] = {
+		nationality = 9,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90106,
+		index_id = 591,
+		code = 646,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綻放於輝光之城",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[642] = {
+		nationality = 9,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 90107,
+		index_id = 592,
+		code = 642,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"B",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綻放於輝光之城",
 				{
 					""
 				},
@@ -32383,6 +32583,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[30033] = {
+		nationality = 97,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970704,
+		index_id = 30033,
+		code = 30033,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"E",
+			"A",
+			"C",
+			"A",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：綻放於輝光之城",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[30034] = {
 		nationality = 97,
 		type = 3,
@@ -32412,6 +32644,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9703031
+					}
+				},
+				0
+			}
+		}
+	},
+	[30035] = {
+		nationality = 97,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970304,
+		index_id = 30035,
+		code = 30035,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9703041
 					}
 				},
 				0
@@ -32482,6 +32749,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9706041
+					}
+				},
+				0
+			}
+		}
+	},
+	[30040] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970507,
+		index_id = 30040,
+		code = 30040,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705071
 					}
 				},
 				0

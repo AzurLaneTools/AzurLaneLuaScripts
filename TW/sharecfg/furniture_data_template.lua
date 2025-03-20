@@ -141,7 +141,9 @@ pg.furniture_data_template = setmetatable({
 			271,
 			273,
 			275,
+			276,
 			278,
+			279,
 			280,
 			281,
 			282,
@@ -193,6 +195,7 @@ pg.furniture_data_template = setmetatable({
 			100042,
 			100043,
 			100044,
+			100045,
 			100055,
 			200001,
 			200002,
@@ -5141,6 +5144,7 @@ pg.furniture_data_template = setmetatable({
 			265,
 			267,
 			269,
+			279,
 			280,
 			281,
 			282,
@@ -5189,6 +5193,7 @@ pg.furniture_data_template = setmetatable({
 			100042,
 			100043,
 			100044,
+			100045,
 			100055,
 			54104,
 			54105
@@ -5242,6 +5247,7 @@ pg.furniture_data_template = setmetatable({
 			271,
 			273,
 			275,
+			276,
 			278,
 			283,
 			284,
@@ -6178,7 +6184,9 @@ pg.furniture_data_template = setmetatable({
 			271,
 			273,
 			275,
+			276,
 			278,
+			279,
 			280,
 			283,
 			284,
@@ -6217,6 +6225,7 @@ pg.furniture_data_template = setmetatable({
 			100041,
 			100043,
 			100044,
+			100045,
 			100055
 		},
 		[2] = {
@@ -9000,7 +9009,9 @@ pg.furniture_data_template = setmetatable({
 		271,
 		273,
 		275,
+		276,
 		278,
+		279,
 		280,
 		281,
 		282,
@@ -9052,6 +9063,7 @@ pg.furniture_data_template = setmetatable({
 		100042,
 		100043,
 		100044,
+		100045,
 		100055,
 		200001,
 		200002,
@@ -18516,6 +18528,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[276] = {
+		can_rotate = 0,
+		describe = "輝光之城核心區的微縮模型。水晶靜靜綻放著光芒，紀念著來之不易的「死亡」——「綻放於輝光之城」活動紀念章",
+		gain_by = "綻放於輝光之城",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "輝光紀念章",
+		advice = 0,
+		id = 276,
+		icon = "huiguangxunzhangicon",
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"huiguangxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[278] = {
 		can_rotate = 0,
 		describe = "豪華假日郵輪的微縮模型，海鷗與海浪的裝飾只為重現度假時的美好氛圍。\n——「假期！心跳！大郵輪！」活動紀念章",
@@ -18556,6 +18611,89 @@ pg.base.furniture_data_template = {
 				"youlunxunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[279] = {
+		can_rotate = 0,
+		describe = "運用鐵血科技所打造的電視機，蘊含驚人的技術力！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yejingpingerjiicon",
+		count = 1,
+		name = "鐵血電視機",
+		advice = 0,
+		id = 279,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yejingpingerjiB",
+				"normal"
+			},
+			{
+				"yejingpingerjiT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					},
+					{
+						"stand2"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -22168,6 +22306,57 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100045] = {
+		can_rotate = 0,
+		describe = "呼啾……享受高溫天堂……啾！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "啾啾桑拿",
+		advice = 0,
+		id = 100045,
+		icon = "sangnaluicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sangnalu",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					"houzhai_sangna",
+					"action1"
+				}
+			}
 		},
 		interAction_group = {}
 	},

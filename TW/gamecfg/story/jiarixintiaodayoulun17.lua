@@ -251,10 +251,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
-			actor = 910015,
+			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗚嗚嗚……姐姐我本來也想露一手的！結果被保全團隊攔在了廚房外…",
@@ -268,10 +269,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
-			actor = 910015,
+			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我也是有認真在學做菜的哦！還想說讓指揮官好好品嚐一下姐姐我的手藝呢……QuQ",
@@ -295,11 +297,12 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
 			optionFlag = 1,
-			actor = 910015,
+			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官也不信任我手藝嗎……姊姊我好傷心哦。",
@@ -352,10 +355,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_115",
 			dir = 1,
-			actor = 910015,
+			actor = 502090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "真的嗎？我一定會讓指揮官吃到的！",

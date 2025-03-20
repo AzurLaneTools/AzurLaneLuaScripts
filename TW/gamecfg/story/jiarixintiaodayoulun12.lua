@@ -582,10 +582,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "屬於鳶尾的聖跡、人類難以企及之幻夢、聖座守護、指揮官的守護之劍、鐵心滅絕者、戰列艦亞爾薩斯，在此加入特別調查小隊！",
@@ -599,10 +600,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官，讓我們一同找出郵輪上神秘事件的真相吧！",
@@ -626,10 +628,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哼哼~因為本次亞爾薩斯主要負責武力行動，所以布里斯托爾幫亞爾薩斯取了這個代號，很酷吧~",

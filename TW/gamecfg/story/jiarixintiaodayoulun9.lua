@@ -256,10 +256,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910003,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "別喝太多，免得晚上參與不了活動。",
@@ -273,10 +274,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910002,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "啊、啊嚏——也快點幫我倒一杯啦！",
@@ -300,10 +302,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910002,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "可惡，明明已經裹上最厚的毯子了……怎麼還是這麼……啊、啊嚏！",
@@ -327,10 +330,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910003,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "唉，妳還是先回居住艙室暖和暖和吧。",
@@ -344,10 +348,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910002,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "才不要！我沒問題的！啊、啊嚏——",
@@ -371,10 +376,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910003,
+			actor = 705080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "妳不聽我的話，那指揮官的話妳總該聽了吧~？",
@@ -424,11 +430,12 @@ return {
 			}
 		},
 		{
+			expression = 10,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
 			optionFlag = 2,
-			actor = 910002,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "你你你、你做什麼啊你！突然靠得這麼近……",
@@ -452,10 +459,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910002,
+			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "算了！我、我還是回房間取暖吧！",

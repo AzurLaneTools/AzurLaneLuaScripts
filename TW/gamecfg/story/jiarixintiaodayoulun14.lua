@@ -325,11 +325,12 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
 			optionFlag = 3,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "欸……這時候，指揮官就別開玩笑啦！",
@@ -641,11 +642,12 @@ return {
 			}
 		},
 		{
-			paintingNoise = true,
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
+			paintingNoise = true,
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（呼……終於找到跟指揮官獨處的機會了……）",
@@ -659,11 +661,12 @@ return {
 			}
 		},
 		{
-			paintingNoise = true,
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
+			paintingNoise = true,
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "（真是的……這個郵輪是怎麼回事啊……明明我會隱身……居然都找不到什麼接近的好機會……）",
@@ -677,10 +680,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "咳、別動，搶劫！",
@@ -821,10 +825,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "鐵心滅絕者亞爾薩斯，準備進入滅絕模式！",
@@ -838,10 +843,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "等等！等等等等！這個就不必了啊！！！",
@@ -865,10 +871,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嘿嘿……沒想到你們早就發現了，還在此設下陷阱，蠻厲害的啊。",
@@ -882,10 +889,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "看來我這次是落在你手上了，你打算怎麼辦，指揮官？",
@@ -911,10 +919,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不是，你來真的啊？！",
@@ -940,10 +949,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哼哼，這個簡單，我已經想好了。",
@@ -960,7 +970,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "一場在颶風碼頭舉辦的深夜篝火宴會——諸位覺得如何？",

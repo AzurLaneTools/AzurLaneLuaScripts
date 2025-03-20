@@ -135,10 +135,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_147",
 			dir = 1,
-			actor = 910020,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官，你看！海天老師和鞍山老師正在教飛雲大人和安克拉治畫畫哦！",
@@ -209,10 +210,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
 			dir = 1,
-			actor = 910020,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "喔……好吧……不過飛雲也只是想讓指揮官看看飛雲這次畫得怎麼樣嘛。",
@@ -281,11 +283,12 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_147",
 			dir = 1,
 			optionFlag = 2,
-			actor = 910020,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "真的嗎！",
@@ -318,10 +321,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
 			dir = 1,
-			actor = 910020,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "知道啦~",
@@ -459,10 +463,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
 			dir = 1,
-			actor = 910020,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "冒險？那怎麼能少得了飛雲大人？飛雲大人也要一起去！",
@@ -528,10 +533,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_147",
 			dir = 1,
-			actor = 910020,
+			actor = 501070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯……指揮官說的沒錯，那麼飛雲大人就繼續老老實實的……！",

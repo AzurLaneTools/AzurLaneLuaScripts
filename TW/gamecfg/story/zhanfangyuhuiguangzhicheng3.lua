@@ -9,7 +9,7 @@ return {
 			bgm = "theme-camelot-up",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "随着圆环的旋转，天上的风景也在同步变换着。",
+			say = "隨著圓環的旋轉，天上的風景也同步變換著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "看来卡美洛之庭已经开始了“移动”，不过坐在庭院中却感受不到丝毫颠簸。",
+			say = "看來卡美洛之庭已經開始了「移動」，不過坐在庭院中卻感受不到絲毫顛簸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "卡美洛之庭的移动方式有两种，一种是依靠坐标调整在不同空间中穿梭，另一种则是依靠自身动力飞行。",
+			say = "卡美洛之庭的移動方式有兩種，一種是依賴座標調整在不同空間穿梭，另一種則是靠自身動力飛行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -69,7 +69,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "目前我们还处于坐标调整阶段。",
+			say = "目前我們還處於座標調整階段。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "坐标改变所带来的冲击已经被三道圆环构成的外部屏障全部吸收了，所以你才连一丝颠簸都感觉不到。",
+			say = "座標改變所帶來的衝擊已經被三個圓環構成的外部屏障全部吸收了，所以你連一絲顛簸都感覺不到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -104,7 +104,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不得不说，你们实验场修的这个卡美洛之庭确实不错。",
+			say = "不得不說，你們實驗場修的這個卡美洛之庭確實不錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -122,7 +122,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "基础结构设计的好，拓展性也强，舒适度更是没话说。",
+			say = "基礎結構設計的好，拓展性也強，舒適度更是沒話。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -139,7 +139,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "对了，为了防止我们的来源和行动轨迹被追踪，本王在前进时会多绕些路，大概还需要三个小时才能抵达目标。",
+			say = "對了，為了防止我們的來源和行動軌跡被追蹤，本王在前進時會多繞些路，大概還需要三個小時才能抵達目標。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -157,7 +157,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你们可以先休息放松一下，开场茶会如何？",
+			say = "你們可以先休息放鬆一下，開場茶會如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -175,7 +175,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "伊丽莎白的女仆队在走之前把东西都准备好了，就在庭院的长桌上。",
+			say = "伊莉莎白的女僕隊在走之前把東西都準備好了，就在庭院的長桌上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -193,7 +193,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王这里有一桌单独的，你们不用管我，自便就好。",
+			say = "本王這裡有一桌單獨的，你們不用管我，自便就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -209,7 +209,7 @@ return {
 			bgm = "story-richang-flexible",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "片刻后的庭院草地上——",
+			say = "片刻後的庭院草地上——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,9 +238,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "布伦努斯",
+			actorName = "布倫努斯",
 			hidePaintObj = true,
-			say = "诸位，茶点已经摆好。味道我也试过了，香甜、可口、无毒。",
+			say = "諸位，茶點已經擺好。味道我也試過了，香甜、可口、無毒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,9 +256,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "花剑",
+			actorName = "鈍劍",
 			hidePaintObj = true,
-			say = "呼……皇家甜点倒是一如既往地高品质。",
+			say = "呼……皇家甜點倒是一如既往地高品質。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -274,9 +274,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "花剑",
+			actorName = "鈍劍",
 			hidePaintObj = true,
-			say = "明明点心设计得那么好，为什么菜就……欸~算啦算啦！",
+			say = "明明點心設計得那麼好，為什麼菜就……欸~算啦算啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -292,9 +292,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "花剑",
+			actorName = "鈍劍",
 			hidePaintObj = true,
-			say = "大家快来尝尝~还是刚出炉没多久的呢！指挥官也别客气！",
+			say = "大家快來嚐嚐~還是剛出爐沒多久的呢！指揮官也別客氣！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -310,9 +310,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "阿尔萨斯",
+			actorName = "亞爾薩斯",
 			hidePaintObj = true,
-			say = "咕咚……咕咚……阿尔萨斯正在摄取凉茶型冷却剂中——",
+			say = "咕咚……咕咚……亞爾薩斯正在攝取涼茶型冷卻劑中——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……凉茶型冷却剂？",
+			say = "……涼茶型冷卻劑？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "原来如此……看来和加斯科涅是相同类型的。",
+			say = "原來如此……看來和加斯科涅是相同類型的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,9 +352,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "阿尔萨斯",
+			actorName = "亞爾薩斯",
 			hidePaintObj = true,
-			say = "没错没错！加斯科涅是友方机体，强力支援型的可靠队友！",
+			say = "沒錯沒錯！加斯科涅是友方機體，強力支援型的可靠隊友！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -370,9 +370,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "重剑",
+			actorName = "銳劍",
 			hidePaintObj = true,
-			say = "唔……（战战兢兢）",
+			say = "唔……（戰戰兢兢）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -388,7 +388,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "重剑，你怎么了？点心有什么问题么？",
+			say = "銳劍，妳怎麼了？點心有什麼問題嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,9 +400,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "重剑",
+			actorName = "銳劍",
 			hidePaintObj = true,
-			say = "不、不是……重剑是害怕把杯子弄碎了……经常会发生这种事……呜……",
+			say = "不、不是……銳劍是害怕把杯子弄碎了……常常會發生這種事……嗚……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -418,18 +418,18 @@ return {
 			bgName = "bg_huiguangzhicheng_cg3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "原来如此……看来重剑是很难控制自己力道的类型啊。",
+			say = "原來如此……看來銳劍是很難控制自己力量的類型啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没关系，碎了就碎了！",
+					content = "沒關係，碎了就碎了！",
 					flag = 1
 				},
 				{
-					content = "我来喂你吧？",
+					content = "我來餵妳吧？",
 					flag = 2
 				}
 			}
@@ -441,9 +441,9 @@ return {
 			nameColor = "#5CE6FF",
 			dir = 1,
 			optionFlag = 1,
-			actorName = "重剑",
+			actorName = "銳劍",
 			hidePaintObj = true,
-			say = "指、指挥官……这不太好吧……",
+			say = "指、指揮官……這不太好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -460,7 +460,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
 			optionFlag = 1,
-			say = "没关系，伊丽莎白不会在乎这点小事的。",
+			say = "沒關係，伊莉莎白不會在乎這點小事的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "没错没错！伊丽莎白不会在乎这点小事的！",
+			say = "沒錯沒錯！伊莉莎白不會在乎這點小事的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -498,9 +498,9 @@ return {
 			nameColor = "#5CE6FF",
 			dir = 1,
 			optionFlag = 2,
-			actorName = "重剑",
+			actorName = "銳劍",
 			hidePaintObj = true,
-			say = "指、指挥官……这不太好吧……",
+			say = "指、指揮官……這不太好……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,9 +517,9 @@ return {
 			nameColor = "#5CE6FF",
 			dir = 1,
 			optionFlag = 2,
-			actorName = "花剑",
+			actorName = "鈍劍",
 			hidePaintObj = true,
-			say = "指挥官~花剑也想要，来喂花剑嘛~",
+			say = "指揮官~鈍劍也想要，來餵鈍劍嘛~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -536,9 +536,9 @@ return {
 			nameColor = "#5CE6FF",
 			dir = 1,
 			optionFlag = 2,
-			actorName = "阿尔萨斯",
+			actorName = "亞爾薩斯",
 			hidePaintObj = true,
-			say = "唔……阿尔萨斯……也想要。",
+			say = "嗯……亞爾薩斯……也想要。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -579,7 +579,7 @@ return {
 			bgm = "story-richang-relax",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "就这样，顺利让重剑也享受到了茶点的快乐——",
+			say = "就這樣，順利讓銳劍也享受了茶點的快樂——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "说起来，莫加多尔呢？从茶会开始后就不见她了。",
+			say = "說起來，莫加多爾呢？從茶會開始後就不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "莫加多尔的话……正如我在近处警戒一样，她正在远方警戒。",
+			say = "莫加多爾的話……正如我在近處警戒一樣，她正在遠方警戒。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -639,7 +639,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "看，就在城堡的塔楼之上。",
+			say = "看，就在城堡的塔樓之上。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -654,7 +654,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "顺着布伦努斯手指的方向望去。在远方的塔楼上，确实依稀看到了一道身影。",
+			say = "順著布倫努斯手指的方向望去。在遠方的塔樓上，確實依稀看到了一道身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -666,7 +666,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "现在应该很安全，还是叫她回来也吃吧？",
+			say = "現在應該很安全，還是叫她回來也吃吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -679,7 +679,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这是她的职业习惯，恐怕很难说服她改变看法。",
+			say = "這是她的職業習慣，恐怕很難說服她改變看法。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -697,7 +697,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们留一些给她，就好。",
+			say = "我們留一些給她，就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -725,7 +725,7 @@ return {
 			bgm = "theme-thedeathxiii",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "三个小时转瞬即逝。不知不觉间，茶会即将迎来尾声，我对这支鸢尾小队成员的了解也加深了。",
+			say = "三小時轉瞬即逝。不知不覺間，茶會即將迎來尾聲，我對這隻鳶尾小隊成員的了解也加深了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -753,7 +753,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg4",
 			hidePaintObj = true,
-			say = "就在我们收拾餐盘之时，玩累了躺在草坪上打滚的D小姐又突然兴奋起来。",
+			say = "就在我們收拾餐盤之時，玩累了躺在草坪上打滾的D小姐又突然興奮起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -768,7 +768,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "鲸鱼！我感受到鲸鱼的气息了！",
+			say = "鯨魚！我感受到鯨魚的氣息了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "我们距离很近了！",
+			say = "我們距離很近了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -811,7 +811,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "伊丽莎白，来准备开车，我们去抓鲸鱼啦！",
+			say = "伊莉莎白，來準備開車，我們去抓鯨魚啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -832,9 +832,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg4",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "阿尔萨斯",
+			actorName = "亞爾薩斯",
 			hidePaintObj = true,
-			say = "疑问！阿尔萨斯知道，狩猎“鲸鱼”是此行的目标，但是阿尔萨斯并没有看到鲸鱼的位置！",
+			say = "疑問！亞爾薩斯知道，狩獵「鯨魚」是此行的目標，但是亞爾薩斯並沒有看到鯨魚的位置！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -845,13 +845,13 @@ return {
 			}
 		},
 		{
-			actorName = "布伦努斯",
+			actorName = "布倫努斯",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg4",
 			dir = 1,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯……我也什么都没看到。",
+			say = "嗯……我也什麼都沒看到。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -870,7 +870,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "唔……确实好奇怪，鲸鱼没有露出头来……它把自己藏起来了？！",
+			say = "嗯……確實好奇怪，鯨魚沒有露出頭來……它把自己藏起來了？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -889,7 +889,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "可鲸鱼怎么会启动那个设备……已经超过自动防卫系统的调用限制了！",
+			say = "但鯨魚怎麼會啟動那個裝置……已經超過自動防衛系統的呼叫限制了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -913,7 +913,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "喂，鲸鱼，你快给我浮出来！！！",
+			say = "喂，鯨魚，你快給我浮出來！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -932,7 +932,7 @@ return {
 			nameColor = "#5CE6FF",
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "喂————！浮出来！浮出来！",
+			say = "喂————！浮出來！浮出來！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -952,7 +952,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg4",
 			hidePaintObj = true,
-			say = "又急又气的D小姐突然对着空无一物的天空大喊大叫起来。",
+			say = "又急又氣的D小姐突然對著空無一物的天空大喊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -963,7 +963,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg4",
 			hidePaintObj = true,
-			say = "在她的喊叫声中，天空中居然真的出现了些许变化。",
+			say = "在她的喊叫聲中，天空中居然真的出現了些許變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -974,7 +974,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			bgName = "bg_huiguangzhicheng_cg5",
-			say = "起初，圆环之外出现了一阵微不可查的空间波动。",
+			say = "起初，圓環之外出現了一陣微不可查的空間波動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1002,20 +1002,20 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg5",
 			hidePaintObj = true,
-			say = "紧接着，一只巨大的鲸鱼一跃出现在距离最外环不远处的空间中。",
+			say = "緊接著，一隻巨大的鯨魚一躍出現在距離最外環不遠處的空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "花剑",
+			actorName = "鈍劍",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg5",
 			dir = 1,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这就是……我们要捕获的”鲸鱼“？",
+			say = "這就是……我們要捕獲的「鯨魚」？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1026,13 +1026,13 @@ return {
 			}
 		},
 		{
-			actorName = "重剑",
+			actorName = "銳劍",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg5",
 			dir = 1,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "好壮观……",
+			say = "好壯觀……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1043,13 +1043,13 @@ return {
 			}
 		},
 		{
-			actorName = "布伦努斯",
+			actorName = "布倫努斯",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg5",
 			dir = 1,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "从距离和大小估算，鲸鱼的长度应该在一千一百到一千三百米之间。",
+			say = "從距離和大小估算，鯨魚的長度應該在一千一百到一千三百公尺之間。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1060,13 +1060,13 @@ return {
 			}
 		},
 		{
-			actorName = "布伦努斯",
+			actorName = "布倫努斯",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg5",
 			dir = 1,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "确实是一个庞然大物……",
+			say = "確實是龐然大物……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1084,7 +1084,7 @@ return {
 			dir = 1,
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "没错没错~这就是我的鲸鱼！伊丽莎白我们快去抓住它！",
+			say = "沒錯沒錯~這就是我的鯨魚！伊莉莎白我們快去抓住它！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,7 +1103,7 @@ return {
 			portrait = 9705040,
 			paintingNoise = true,
 			portraitNoise = true,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			hidePaintObj = true,
 			say = "唔…………",
 			painting = {
@@ -1121,7 +1121,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg5",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……事情的发展有些不太对劲。除非这头鲸鱼是声控的，且能够听见D小姐位于卡美洛之庭内部的大喊大叫。",
+			say = "……事情的發展有些不太對勁。除非這頭鯨魚是聲控的，而且能夠聽見D小姐位於卡美洛之庭內部的大喊大叫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1133,7 +1133,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg5",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "否则……它在此时故意露面，最有可能的理由是……",
+			say = "否則……它在此時故意露面，最有可能的理由是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,9 +1148,9 @@ return {
 			portrait = 901070,
 			paintingNoise = true,
 			portraitNoise = true,
-			actorName = "莫加多尔",
+			actorName = "莫加多爾",
 			hidePaintObj = true,
-			say = "呼……大家小心……鲸鱼把头转向我们了，我有种不好的预感……",
+			say = "呼……大家小心……鯨魚把頭轉向我們了，我有種不好的預感……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1166,7 +1166,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg5",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……这难道是打算？！伊丽莎白——",
+			say = "……這難道是打算？！伊莉莎白——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1181,9 +1181,9 @@ return {
 			portrait = 9705040,
 			paintingNoise = true,
 			portraitNoise = true,
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			hidePaintObj = true,
-			say = "「第一之环」，启动主动防御——",
+			say = "「第一之環」，啟動主動防禦——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1198,7 +1198,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			side = 2,
-			say = "卡美洛之庭的防护壁迸发出耀眼的金光，下一秒，能量碰撞的冲击在防护壁上掀起了巨大的涟漪。",
+			say = "卡美洛之庭的防護壁迸發出耀眼的金光，下一秒，能量碰撞的衝擊在防護壁上掀起了巨大的漣漪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1216,7 +1216,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "果然意图是发动攻击……！",
+			say = "果然意圖是發動攻擊……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1240,7 +1240,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "怎、怎么可能！我们明明没有先开火！不可能触发自动防御系统啊！",
+			say = "怎、怎麼可能！我們明明沒有先開火！不可能觸發自動防禦系統啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1268,7 +1268,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "鲸鱼为什么要主动打我们？！",
+			say = "鯨魚為什麼要主動打我們？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1286,7 +1286,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "怎么回事……好奇怪！好奇怪！",
+			say = "怎麼回事……好奇怪！好奇怪！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1311,7 +1311,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
-			say = "这一次，鲸鱼没有再“理会”D小姐的喊叫。它在空中摆了摆头，随后跃入了凭空出现的空间波动中，再次消失了。",
+			say = "這一次，鯨魚沒有再「理會」D小姐的喊叫。它在空中擺了擺頭，隨後躍入了憑空出現的空間波動中，再次消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1325,7 +1325,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "鲸鱼……我的鲸鱼……呜呜呜……到底怎么回事……",
+			say = "鯨魚……我的鯨魚……嗚嗚嗚……到底是怎麼回事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1344,7 +1344,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "刚才……看上去是打算打我们个措手不及呢。",
+			say = "剛才……看起來是打算打我們個措手不及呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1363,7 +1363,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王也是这么想的。其实上次猎人带队狩猎失败后，我就已经觉得奇怪了。",
+			say = "本王也是這麼想的。其實上次獵人帶隊狩獵失敗後，我已經覺得奇怪了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1382,7 +1382,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那次志在必得的狩猎之所以失败，就是因为在最后关头鲸鱼展现出了超乎预期的“智能”，并且启用了此前从未见过的新式武器。",
+			say = "那次志在必得的狩獵之所以失敗，就是因為在最後關頭鯨魚展現出了超乎預期的「智慧」，並且啟用了以前從未見過的新式武器。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1400,7 +1400,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不可能——！你胡说！",
+			say = "不可能——！妳胡說！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1428,7 +1428,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "鲸鱼只听我的话！除了我之外没人能控制鲸鱼！",
+			say = "鯨魚只聽我的話！除了我之外沒人能控制鯨魚！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1457,7 +1457,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "具体什么情况，一会在战斗中一看便知。",
+			say = "實際什麼情況，等一下在戰鬥中一看便知。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1476,7 +1476,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "现在我们首先要搞清楚，鲸鱼到底藏去了哪儿……以及怎么把它抓出来。",
+			say = "現在我們首先要搞清楚，鯨魚到底藏去了哪裡……以及怎麼把它抓出來。",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -675,10 +675,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910000,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官同志。剛才不是已經說過了嗎，你們已經被包圍了。",
@@ -733,10 +734,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910000,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……！",
@@ -750,10 +752,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_148",
 			dir = 1,
-			actor = 910000,
+			actor = 705021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "啊……好可愛！！",

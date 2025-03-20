@@ -340,7 +340,36 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 426
+		key_value = 410
+	},
+	activity_lottery_rewards = {
+		key_value = 0,
+		description = {
+			{
+				3,
+				{
+					1,
+					1,
+					5000
+				}
+			},
+			{
+				6,
+				{
+					1,
+					2,
+					2500
+				}
+			},
+			{
+				9,
+				{
+					4,
+					100011,
+					1
+				}
+			}
+		}
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1924,7 +1953,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 425
+		key_value = 409
 	},
 	order_pt_max = {
 		key_value = 0,

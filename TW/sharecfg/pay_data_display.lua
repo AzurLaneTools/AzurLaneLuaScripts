@@ -90,6 +90,7 @@ pg.pay_data_display = setmetatable({
 		4046,
 		4047,
 		4048,
+		4049,
 		4850,
 		4851,
 		4852,
@@ -124,7 +125,8 @@ pg.pay_data_display = setmetatable({
 		4915,
 		4916,
 		4917,
-		4918
+		4918,
+		4919
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -8764,6 +8766,120 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[4049] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "清凉禮盒2025",
+		first_pay_double = 0,
+		name_display = "清凉禮盒2025",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "清凉禮盒2025",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "twfudai03",
+		skin_inquire_relation = 86013,
+		id_str = "com.hkmanjuu.azurlane.package50",
+		extra_service = 3,
+		id = 4049,
+		airijp_id = "com.hkmanjuu.azurlane.package50",
+		extra_service_item = {
+			{
+				2,
+				86013,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86013,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81018,
+				1
+			}
+		}
+	},
 	[4850] = {
 		extra_gem = 0,
 		limit_group = 1,
@@ -11303,6 +11419,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45918,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4919] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		name = "特許巡遊憑證（二十期）",
+		first_pay_double = 0,
+		name_display = "特許巡遊憑證",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·威悉限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		money = 330,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 4,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass20",
+		extra_service = 4,
+		id = 4919,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass20",
+		extra_service_item = {
+			{
+				1,
+				4020,
+				1500
+			},
+			{
+				8,
+				65057,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45919,
 			1500
 		},
 		ignorePlatform = {},

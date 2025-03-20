@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-clemenceau",
+		default_bgm = "story-startravel",
 		special_bgm = "",
 		bgm = "main"
 	},

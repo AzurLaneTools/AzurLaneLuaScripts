@@ -9,7 +9,7 @@ return {
 			bgName = "star_level_bg_504",
 			bgm = "theme-undead",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "海域中的战斗还在持续着。这一次，敌方出动了更多类型的单位，包括此前没有见过的潜航单位和空中单位。",
+			say = "海域中的戰鬥還在持續著。這次，敵方出動了更多類型的單位，包括以前從未見過的潛航單位和空中單位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "这些被称为X的敌人，如同奇幻作品里的金属史莱姆一般，柔软又坚固。",
+			say = "這些被稱為X的敵人，如同奇幻作品裡的金屬史萊姆一般，柔軟又堅固。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "柔软到宛如流动的液体，又坚固到火炮也无法将其轻易撕裂。",
+			say = "柔軟到宛如流動的液體，堅固到火炮也無法輕易撕裂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "同时，其又有着及其多变的外形。似乎X的类型，是根据其体积与外貌来区分的。",
+			say = "同時，其又有著及其多變的外形。似乎X的類型，是根據其體積與外貌來區分的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "小一些的叫拟态物，大一些的叫拟态兽，而拟态兽根据战斗能力和大小又被分为若干个级别。",
+			say = "小一些的叫擬態物，大一些的叫擬態獸，而擬態獸根據戰鬥能力和大小又被分為若干個等級。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "值得注意的是，在天空的云层之中也有大量被称为附着区的部分，使得我们的航线除了要考虑水面之外，还要注意天空。",
+			say = "值得注意的是，在天空的雲層之中也有大量被稱為附著區的部分，使得我們的航線除了要考慮水面之外，還要注意天空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "或许这就是浮空战舰没有飞得太高，以及利用空中优势全速飞离的原因。",
+			say = "或許這就是浮空戰艦沒有飛得太高，以及利用空中優勢全速飛離的原因。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "除此之外，战场中被其击破的残骸也会成为X附着的载体，并以肉眼可见的速度被其分解重组。",
+			say = "除此之外，戰場中被其擊破的殘骸也會成為X附著的載體，並以肉眼可見的速度被其分解重組。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "因此合理猜测，其在陆地上也可以做出相同的行为。",
+			say = "因此合理猜測，其在陸地上也可以做出相同的行為。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,7 +165,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "不过X虽然坚固，但并非不可击破。",
+			say = "不過X雖然堅固，但並非不可擊破。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "只是……大型的X拟态被击破后，碎片会根据大小自动变换为大小不一的小型X拟态。",
+			say = "只是……大型的X擬態被擊破後，碎片會根據大小自動變換為大小不一的小型X擬態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "就这样越打越散，越分越小，直至变为附着区的一部分。",
+			say = "就這樣越打越散，越分越小，直到變成附著區的一部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,18 +195,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "而随着附着区慢慢变厚，新的X又会从中缓缓成型，然后再次发起进攻。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_504",
-			nameColor = "#5CE6FF",
-			say = "（……迄今为止，虽然没有任何X能阻挡住威奇塔的火力，但是实际上，也没有任何X被威奇塔真正消灭。）",
+			say = "而隨著附著區慢慢變厚，新的X又會從中緩緩成型，然後再次發動攻擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +206,18 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（这种东西，究竟要怎么才能与之进行战斗呢……）",
+			say = "（……到目前為止，雖然沒有任何X能阻擋威奇塔的火力，但是實際上，也沒有任何X被威奇塔真正消滅。）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_504",
+			nameColor = "#5CE6FF",
+			say = "（這種東西，究竟要怎麼才能與之進行戰鬥呢……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,7 +277,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "伴随着撞击声，船体发生了一阵晃动，系统显示这是攻击擦过护盾所导致的抖动。",
+			say = "伴隨著撞擊聲，船體發生了一陣晃動，系統顯示這是攻擊擦過護盾所導致的抖動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "而不远处的另一艘战舰则被攻击直接命中击穿，开始了紧急降落。",
+			say = "而不遠處的另一艘戰艦則被攻擊直接命中擊穿，開始了緊急降落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "这个气息是……IX级拟态兽？！现在？在这里？！",
+			say = "這個氣息是……IX級擬態獸？！現在？在這裡？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -327,7 +327,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "糟了糟了！IX级拟态兽光靠余烬那两个笨蛋应付不来的！",
+			say = "糟了糟了！IX級擬態獸光靠餘燼那兩個笨蛋應付不來的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,7 +344,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "这下完蛋了！！！",
+			say = "這下完蛋了！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -368,7 +368,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "透过战场监控，可以看见不远处的附着区中，凭空出现了一个幽蓝色的水龙卷。",
+			say = "透過戰場監控，可以看見不遠處的附著區中，憑空出現了一個幽藍色的水龍捲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "水幕之中，有某个巨大的东西正在浮动着。",
+			say = "水幕之中，有某個巨大的東西正在浮動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "那是……一只眼睛？",
+			say = "那是……一隻眼睛？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "呼~好险好险！咱们运气真好，躲过了它的第一次偷袭！",
+			say = "呼~好險好險！咱們運氣真好，躲過了它的第一次偷襲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -429,7 +429,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "要是被正面击中可就全完啦！",
+			say = "要是被正面擊中可就全完啦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -444,7 +444,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "嗯……？在这片空间中，我们不是不会迎来真正的“死亡”么？",
+			say = "嗯……？在這片空間中，我們不是不會迎來真正的「死亡」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "仅仅是不会死而已！",
+			say = "僅僅是不會死而已！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -484,7 +484,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "除了死亡之外，解决掉一个人的方式多的是！",
+			say = "除了死亡之外，解決一個人的方式多的是！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -501,7 +501,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "看到那些成片的X了么？你以为那些东西只是空间记录模拟出来的么？！",
+			say = "看到那些成片的X了嗎？你以為那些東西只是空間紀錄模擬出來的嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -526,7 +526,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "……难道不是么？",
+			say = "……難道不是麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "错错错错错错！X就是X，不存在真的X还是假的X！",
+			say = "錯錯錯錯錯錯！X就是X，不存在真的X還是假的X！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -556,7 +556,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "当它出现的那一刻，这片空间就完了！",
+			say = "當它出現的那一刻，這片空間就結束了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -583,7 +583,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "如果你被X覆盖了，你也完了！懂了么？！",
+			say = "如果你被X覆蓋了，你也完了！懂了嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -600,7 +600,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "真是的！助手你快抓紧我，我要带你逃跑了！",
+			say = "真是的！助手你快抓緊我，我要帶你逃走了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -625,7 +625,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "作为指挥官，我不能抛弃舰队独自逃跑。",
+			say = "身為指揮官，我不能拋棄艦隊獨自逃跑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "……那好吧，我替你拦几下！",
+			say = "……那好吧，我替你攔幾下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -665,7 +665,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "但是只能拦几下哦！",
+			say = "但是只能攔幾下！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -682,7 +682,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "等到真撑不住了，就算用强硬手段我也要把你带走哦！",
+			say = "等到真撐不住了，就算用強硬手段我也要把你帶走喔！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -707,7 +707,7 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -773,7 +773,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "一次、两次、三次……我所乘坐的指挥舰在IX级拟态兽接连不断的打击下摇摇欲坠。",
+			say = "一次、兩次、三次……我所乘坐的指揮艦在IX級擬態獸接連不斷的打擊下搖搖欲墜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -784,7 +784,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（这只IX级拟态兽明显是在有意图地攻击我……）",
+			say = "（這隻IX級擬態獸明顯是有意圖的攻擊我……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（可是……它并没有调动其他敌人对我进行集火。）",
+			say = "（可是……它並沒有調動其他敵人對我進行集火。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,7 +806,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（难道……它和我一样，也不属于这场记录本身。）",
+			say = "（難道……它和我一樣，也不屬於這場紀錄本身。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -817,7 +817,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（……余烬二人组也确实出现在了此处。也就是说，迪贝路和那个{namecode:522:旗风·META}或许也是……）",
+			say = "（……餘燼二人組也確實出現在了這裡。也就是說，迪貝路和那個旗風·META或許也是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -828,7 +828,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（这件事，会和她们有关么……）",
+			say = "（這件事，會和她們有關嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "（不过除此之外……还应该有一个人才对。）",
+			say = "（不過除此之外……還應該有一個人才對。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,7 +852,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "喂！助手，我要撑不住了！",
+			say = "喂！助手，我要撐不住了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -869,7 +869,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "你快来我这里，再不跑死翘翘了啊！",
+			say = "你快來我這裡，再不跑要死翹翹了啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -894,7 +894,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "……你有办法消灭掉那只IX级拟态兽么？",
+			say = "……妳有辦法消滅那隻IX級擬態獸嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -907,7 +907,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "消灭IX级拟态兽？我？",
+			say = "消滅IX級擬態獸？我？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -924,7 +924,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "没有鲸鱼的话做不到！！！！！！！！！",
+			say = "沒有鯨魚的話做不到！！！！！！！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -951,7 +951,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "哎呀，对面又在蓄力了，你快点过来啊，磨蹭什么呢！",
+			say = "哎呀，對面又在蓄力了，你快點過來啊，磨蹭什麼呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -966,7 +966,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1018,7 +1018,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "糟糕，要来不及了！",
+			say = "糟糕，要來不及了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1045,7 +1045,7 @@ return {
 			dir = 1,
 			actor = 900430,
 			nameColor = "#5CE6FF",
-			say = "啊啊啊啊！我跟它拼了就好了吧，你个不愿意走的大笨蛋！",
+			say = "啊啊啊啊！我跟它拼了就好了吧，你這個不願意走的大笨蛋！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1088,7 +1088,7 @@ return {
 			bgName = "star_level_bg_504",
 			bgm = "story-startravel",
 			nameColor = "#5CE6FF",
-			say = "在D小姐急切的叫喊中，攻击如期而至。",
+			say = "在D小姐急切的叫喊中，攻擊如期而至。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1125,7 +1125,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "不过，指挥舰并没有被洞穿，前去阻拦的D小姐也没有受到伤害。",
+			say = "不過，指揮艦並沒有被洞穿，前去阻擋的D小姐也沒有受到傷害。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1135,7 +1135,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
-			say = "攻击在抵达D小姐前，就在一阵扭曲中四散了，",
+			say = "攻擊在抵達D小姐前，就在一陣扭曲中四散了，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1148,8 +1148,8 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "……真是不明智的行为。",
+			actorName = "羅德尼",
+			say = "……真是不明智的行為。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1164,7 +1164,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "你果然在这里。",
+			say = "妳果然在這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1175,7 +1175,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "这片空间的创造者也是你，对么？",
+			say = "這片空間的創造者也是妳，對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1187,8 +1187,8 @@ return {
 			dir = 1,
 			bgName = "star_level_bg_504",
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "没错。",
+			actorName = "羅德尼",
+			say = "沒錯。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1222,8 +1222,8 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "……你这么确信我会来帮你？",
+			actorName = "羅德尼",
+			say = "……你這麼確信我會來幫你？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1238,7 +1238,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#5CE6FF",
-			say = "因为，你是「罗德尼」。",
+			say = "因為，妳是「羅德尼」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1251,7 +1251,7 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
+			actorName = "羅德尼",
 			say = "……",
 			painting = {
 				alpha = 0.3,
@@ -1269,8 +1269,8 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "我是罗德尼，「我们」是「罗德尼」，在此正式向你问好，名为「指挥官」之人。",
+			actorName = "羅德尼",
+			say = "我是羅德尼，「我們」是「羅德尼」，在此正式向你問好，名為「指揮官」之人。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1286,8 +1286,8 @@ return {
 			bgName = "star_level_bg_504",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "经过观察与思考，「罗德尼」做出了选择。",
+			actorName = "羅德尼",
+			say = "經過觀察與思考，「羅德尼」做出了選擇。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1304,8 +1304,8 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "相比于名为虚无的终结，「我们」选择——见证你的「终结」。",
+			actorName = "羅德尼",
+			say = "相較於名為虛無的終結，「我們」選擇——見證你的「終結」。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1322,8 +1322,8 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			actor = 9705050,
-			actorName = "罗德尼",
-			say = "因此，就如你所愿，改变这场小小的虚像吧。",
+			actorName = "羅德尼",
+			say = "因此，就如你所願，改變這場小小的虛像吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1338,7 +1338,7 @@ return {
 			bgName = "star_level_bg_1104",
 			bgm = "story-commander-up",
 			nameColor = "#5CE6FF",
-			say = "伴随着失重感，我的视野急剧上升。",
+			say = "伴隨著失重感，我的視野急遽上升。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1371,7 +1371,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
-			say = "此时此刻，战场的全貌展现在我的眼前。",
+			say = "此時此刻，戰場的全貌展現在我的眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1381,7 +1381,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
-			say = "伊丽莎白、威奇塔、还有阿尔萨斯一行人均在苦苦支撑着。",
+			say = "伊莉莎白、威奇塔、還有亞爾薩斯一行人均在苦苦支撐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1391,7 +1391,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
-			say = "而在远方，还有一抹金色。",
+			say = "而在遠方，還有一抹金色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1401,7 +1401,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
-			say = "金色之中，也有一队正在苦苦支撑的人。",
+			say = "金色之中，也有一隊正在苦苦支撐的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1414,7 +1414,7 @@ return {
 			bgName = "bg_huiguangzhicheng_2",
 			actor = 901060,
 			nameColor = "#5CE6FF",
-			say = "嘿，吃我一剑————！",
+			say = "嘿，吃我一劍————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1446,7 +1446,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_2",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1497,7 +1497,7 @@ return {
 			dir = 1,
 			actor = 900428,
 			nameColor = "#FF9B93",
-			say = "……「抹杀程序」……准备执行。",
+			say = "……「抹殺程序」……準備執行。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1523,7 +1523,7 @@ return {
 			nameColor = "#FF9B93",
 			dir = 1,
 			bgName = "bg_huiguangzhicheng_2",
-			say = "执行准备：0%……10%……20%",
+			say = "執行準備：0%……10%……20%",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1540,7 +1540,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CE6FF",
-			say = "抹杀程序……听上去不太妙啊。",
+			say = "抹殺程序……聽起來不太妙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1557,7 +1557,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#5CE6FF",
-			say = "不要让它完成准备，打断它——！",
+			say = "不要讓它完成準備，打斷它——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1572,7 +1572,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_2",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1624,7 +1624,7 @@ return {
 			dir = 1,
 			actor = 901060,
 			nameColor = "#5CE6FF",
-			say = "又、又躲开了……",
+			say = "又、又躲開了…",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1641,7 +1641,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CE6FF",
-			say = "阿尔萨斯发动追加攻击——！",
+			say = "亞爾薩斯發動追加攻擊——！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1684,7 +1684,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CE6FF",
-			say = "欸~~~~！你别躲！",
+			say = "欸~~~~！你別躲！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1701,7 +1701,7 @@ return {
 			dir = 1,
 			actor = 803020,
 			nameColor = "#5CE6FF",
-			say = "它要反击了，快退——",
+			say = "它要反擊了，快退——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1716,7 +1716,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_2",
 			soundeffect = "event:/battle/boom2",
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1768,7 +1768,7 @@ return {
 			dir = 1,
 			actor = 803020,
 			nameColor = "#5CE6FF",
-			say = "真难缠……仅凭我们是没法战胜它的。",
+			say = "真難纏……僅憑我們是沒辦法戰勝它的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1785,7 +1785,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#5CE6FF",
-			say = "真没想到会在这里遇见它……指挥官和D小姐到现在都联系不上，可没时间跟它纠缠。",
+			say = "真沒想到會在這裡遇見它……指揮官和D小姐到現在都聯絡不上，又沒時間跟它糾纏。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1802,7 +1802,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CE6FF",
-			say = "但是它好像缠上我们了……打又打不过，甩又甩不掉。",
+			say = "但它好像纏上我們了……打又打不過，甩又甩不掉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1819,7 +1819,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CE6FF",
-			say = "而且还把我们卷到鲸鱼背上了……我们该怎么办啊！",
+			say = "而且還把我們捲到鯨魚背上了……我們該怎麼辦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1836,7 +1836,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CE6FF",
-			say = "嘘……你们感受到了么……指挥官正在某处看着我们呢。",
+			say = "噓……妳們感受到了嗎……指揮官正在某處看著我們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1853,7 +1853,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CE6FF",
-			say = "阿尔萨斯你突然说什么呢……？",
+			say = "亞爾薩斯妳突然說什麼呢……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1870,7 +1870,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CE6FF",
-			say = "你别吓我哦……我什么都没感觉到啊？",
+			say = "妳別嚇我哦……我什麼都沒感覺到啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1887,7 +1887,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CE6FF",
-			say = "阿尔萨斯感受到了……指挥官，就在辉光之城中一个很远很远的地方看着我们。",
+			say = "亞爾薩斯感受到了……指揮官，就在輝光之城中一個很遠很遠的地方看著我們。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1904,7 +1904,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CE6FF",
-			say = "指挥官——阿尔萨斯在这里哦！",
+			say = "指揮官—亞爾薩斯在這裡哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1919,7 +1919,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_1104",
 			bgm = "story-lightheven-up",
-			say = "金色之中，阿尔萨斯向前努力伸出了一只手。",
+			say = "在金色之中，亞爾薩斯向前努力伸出了一隻手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1946,7 +1946,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
 			side = 2,
-			say = "受其吸引，我也不自禁抬起手来，用手轻轻触碰那缕金色。",
+			say = "受其吸引，我也不自禁抬起手來，用手輕輕觸碰那縷金色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1962,7 +1962,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
 			side = 2,
-			say = "在感受到指尖相碰的触感前，重力回到了它应在的位置。",
+			say = "在感受到指尖相碰的觸感前，重力回到了它該在的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1982,7 +1982,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
-			say = "我正从高空急速下坠，视野也在急速缩小。",
+			say = "我正從高空急速下墜，視野也急速縮小。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1992,7 +1992,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
-			say = "很快，我回到了指挥舰之中。",
+			say = "很快，我回到了指揮艦之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2002,7 +2002,7 @@ return {
 			side = 2,
 			nameColor = "#5CE6FF",
 			bgName = "bg_white",
-			say = "但是我能感觉出，某些改变已经在这片充斥着绝望的海域中出现了。",
+			say = "但我能感覺出，某些改變已經在這片充滿絕望的海域中出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2013,7 +2013,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_504",
 			bgm = "story-worldα-grief",
-			say = "与此同时，指挥舰外——",
+			say = "同時，指揮艦外——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2043,7 +2043,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CFFC0",
-			say = "……这里是，哪里？欸？！我们怎么突然跑来这里了！",
+			say = "……這裡是，哪裡？欸？！我們怎麼突然跑來這裡了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2060,7 +2060,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#5CFFC0",
-			say = "死神之影……没有追来。这片海域究竟是……",
+			say = "死神之影……沒有追來。這片海域究竟是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2077,7 +2077,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#5CFFC0",
-			say = "还有这些敌人，和在我们身后的这支舰队……",
+			say = "還有這些敵人，和在我們身後的這隻艦隊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2094,7 +2094,7 @@ return {
 			dir = 1,
 			actor = 901070,
 			nameColor = "#5CFFC0",
-			say = "明明应是素未谋面……为什么我的心中会涌现出如此悲伤之情呢。",
+			say = "明明應是素未謀面……為什麼我的心中會湧現出如此悲傷之情。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2111,7 +2111,7 @@ return {
 			dir = 1,
 			actor = 901050,
 			nameColor = "#5CFFC0",
-			say = "我也是……不知道为什么好想哭啊。",
+			say = "我也是……我不知道為什麼好想哭啊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2128,7 +2128,7 @@ return {
 			dir = 1,
 			actor = 803020,
 			nameColor = "#5CFFC0",
-			say = "我也感受到了……从内心之中涌现的愤怒与悲伤……",
+			say = "我也感受到了……從內心湧現的憤怒與悲傷……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2145,7 +2145,7 @@ return {
 			dir = 1,
 			actor = 901060,
 			nameColor = "#5CFFC0",
-			say = "呜……呜呜呜……",
+			say = "嗚嗚嗚……嗚嗚嗚……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2162,7 +2162,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CFFC0",
-			say = "阿尔萨斯也不明白……但是，阿尔萨斯听到了……那股在内心之中的呐喊声。",
+			say = "亞爾薩斯也不明白……但是，亞爾薩斯聽到了……那股在內心之中的吶喊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2179,7 +2179,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CFFC0",
-			say = "嗯……阿尔萨斯明白接下来要做的事了，阿尔萨斯会全力以赴的！",
+			say = "嗯……亞爾薩斯明白接下來要做的事了，亞爾薩斯會全力以赴的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2195,8 +2195,8 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "贝亚恩·META",
-			say = "阿尔萨斯……莫加多尔……你们不是已经身受重伤了么……？",
+			actorName = "貝亞恩·META",
+			say = "亞爾薩斯……莫加多爾……妳們不是已經身受重傷了嗎……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2212,8 +2212,8 @@ return {
 			bgName = "star_level_bg_504",
 			nameColor = "#FFC960",
 			dir = 1,
-			actorName = "贝亚恩·META",
-			say = "为什么……已经恢复如初了，而且你们的身上还在发光……？",
+			actorName = "貝亞恩·META",
+			say = "為什麼……已經恢復如初了，而且妳們的身上還在發光……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2230,7 +2230,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CFFC0",
-			say = "不用担心，贝亚恩，阿尔萨斯已经完全明白了。",
+			say = "不用擔心，貝亞恩，亞爾薩斯已經完全明白了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2247,7 +2247,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CFFC0",
-			say = "属于鸢尾的圣迹、人类难以企及之幻梦、圣座守护、战列舰阿尔萨斯，在此重回旧日！",
+			say = "屬於鳶尾的聖蹟、人類難以企及幻夢、聖座守護、戰列艦亞爾薩斯，在此重回舊日！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2264,7 +2264,7 @@ return {
 			dir = 1,
 			actor = 805030,
 			nameColor = "#5CFFC0",
-			say = "邪恶之物，准备接受圣裁吧————！",
+			say = "邪惡之物，準備接受聖裁吧————！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2278,7 +2278,7 @@ return {
 			side = 2,
 			nameColor = "#5CFFC0",
 			bgName = "star_level_bg_504",
-			say = "远方，还有一组身影正向着战场方向疾驰着。",
+			say = "遠方，還有一組身影正想著戰場方向疾駛著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -2308,7 +2308,7 @@ return {
 			dir = 1,
 			actor = 900326,
 			nameColor = "#FFC960",
-			say = "咳……反击，你还好么？",
+			say = "咳……反擊，妳還好嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2325,7 +2325,7 @@ return {
 			dir = 1,
 			actor = 900327,
 			nameColor = "#FFC960",
-			say = "突破了临界点之后……似乎也没那么糟糕嘛……咳咳。",
+			say = "突破了臨界點之後……似乎也沒那麼糟嘛……咳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2342,7 +2342,7 @@ return {
 			dir = 1,
 			actor = 900326,
 			nameColor = "#FFC960",
-			say = "……求救信标依然在发出信号，陛下还在战斗。",
+			say = "……求救信標依然在發出訊號，陛下還在戰鬥。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2359,7 +2359,7 @@ return {
 			dir = 1,
 			actor = 900326,
 			nameColor = "#FFC960",
-			say = "还能坚持么？",
+			say = "還能堅持嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2376,7 +2376,7 @@ return {
 			dir = 1,
 			actor = 900327,
 			nameColor = "#FFC960",
-			say = "当然！姐姐，我们再快些……再快些！",
+			say = "當然！姐姐，我們再快一點……再快一點！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -2393,7 +2393,7 @@ return {
 			dir = 1,
 			actor = 900327,
 			nameColor = "#FFC960",
-			say = "陛下还在等着我们……我们一定来得及的！",
+			say = "陛下還在等著我們……我們一定來得及的！",
 			painting = {
 				alpha = 0.3,
 				time = 1

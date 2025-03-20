@@ -870,6 +870,93 @@ pg.expedition_constellation_challenge_template = {
 			}
 		}
 	},
+	[10031] = {
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		painting = "xuefeng",
+		id = 10031,
+		dungeon_id = 5133,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"不沈之力 ",
+				"牡羊座化身每20秒對最近的敵方單位發射一輪彈幕；戰鬥開始後15秒及之後每20秒將自身受到的傷害降至1，受到<color=#92fc63>40</color>次傷害後解除"
+			},
+			{
+				"生命之球",
+				"戰鬥開始後20秒及之後每40秒牡羊座化身召喚3個持續20秒的生命之球，生命之球每0.3秒為包含牡羊座化身在內的全場己方單位提供等效於自身最大耐久值100%的治療效果；生命之球消失或被擊破後牡羊座化身自身造成的傷害提高<color=#92fc63>1%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				211,
+				1
+			}
+		}
+	},
+	[10032] = {
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		painting = "xuefeng",
+		id = 10032,
+		dungeon_id = 5132,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"不沈之力 ",
+				"牡羊座化身每20秒對最近的敵方單位發射一輪彈幕；戰鬥開始後15秒及之後每20秒將自身受到的傷害降至1，受到<color=#92fc63>70</color>次傷害後解除"
+			},
+			{
+				"生命之球",
+				"戰鬥開始後20秒及之後每40秒牡羊座化身召喚3個持續20秒的生命之球，生命之球每0.3秒為包含牡羊座化身在內的全場己方單位提供等效於自身最大耐久值100%的治療效果；生命之球消失或被擊破後牡羊座化身自身造成的傷害提高<color=#92fc63>2%</color>"
+			}
+		},
+		award_display = {
+			{
+				15,
+				10011,
+				1
+			}
+		}
+	},
+	[10033] = {
+		button_style = 7,
+		information_icon = "xuefeng_constellation",
+		painting = "xuefeng",
+		id = 10033,
+		dungeon_id = 5131,
+		objective = {
+			5,
+			180
+		},
+		buff_id = {},
+		description = {
+			{
+				"不沈之力 ",
+				"牡羊座化身每20秒對最近的敵方單位發射一輪彈幕；戰鬥開始後15秒及之後每20秒將自身受到的傷害降至1，受到<color=#92fc63>100</color>次傷害後解除"
+			},
+			{
+				"生命之球",
+				"戰鬥開始後20秒及之後每40秒牡羊座化身召喚3個持續20秒的生命之球，生命之球每0.3秒為包含牡羊座化身在內的全場己方單位提供等效於自身最大耐久值100%的治療效果；生命之球消失或被擊破後牡羊座化身自身造成的傷害提高<color=#92fc63>3%</color>"
+			}
+		},
+		award_display = {
+			{
+				14,
+				10011,
+				1
+			}
+		}
+	},
 	all = {
 		10001,
 		10002,
@@ -900,6 +987,9 @@ pg.expedition_constellation_challenge_template = {
 		10027,
 		10028,
 		10029,
-		10030
+		10030,
+		10031,
+		10032,
+		10033
 	}
 }

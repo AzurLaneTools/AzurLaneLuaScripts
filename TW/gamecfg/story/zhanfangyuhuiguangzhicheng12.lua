@@ -9,7 +9,7 @@ return {
 			bgm = "theme-lightheven",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "结束了与伊丽莎白的通讯后，我们在辉光之城中向着鲸鱼的方向移动着。",
+			say = "結束了與伊莉莎白的通訊後，我們在輝光之城中朝著鯨魚的方向移動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "行进过程中，阿尔萨斯率先发现，流淌在城市四处的云似乎有着水面一般的性质。",
+			say = "行進過程中，亞爾薩斯率先發現，流淌在城市四處的雲似乎有著水面一般的性質。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "舰船可以在上面行驶，也可以凭借其走势向天空前进。",
+			say = "艦船可以在上面行駛，也可以憑藉其走勢向天空前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
-			say = "这使我们似乎找到了一个接近天空中鲸鱼的方法。不过，顺利的旅途很快遭遇了第一个阻碍——",
+			say = "這使我們似乎找到了一個接近天空中鯨魚的方法。不過，順利的旅途很快就遭遇了第一個阻礙——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……指挥官，我们被包围了。",
+			say = "……指揮官，我們被包圍了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "欸？！什么时候？！阿尔萨斯在雷达上什么都没有发现哦！",
+			say = "欸？！什麼時候？！亞爾薩斯在雷達上什麼都沒有發現哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -127,7 +127,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……因为，包围我们的人……有办法规避我们雷达的捕捉。",
+			say = "……因為，包圍我們的人……有辦法躲避我們雷達的捕捉。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -143,7 +143,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……余烬？",
+			say = "……餘燼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "没错，她们正从两个方向紧盯着我们……",
+			say = "沒錯，她們正從兩個方向緊盯著我們……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（凭借一直以来和余烬打交道的经验来判断，摆出这种架势……应该是想和我们聊聊吧。）",
+			say = "（憑藉一直以來和餘燼打交道的經驗來判斷，擺出這種架勢……應該是想和我們聊聊吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "或许我们可以通过对话避免冲突，大家保持警惕，不要率先开火。",
+			say = "或許我們可以透過對話避免衝突，大家保持警惕，不要率先開火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "我们去聊聊。",
+			say = "我們去聊聊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			bgName = "bg_huiguangzhicheng_1",
-			say = "在发现我们的意图后，余烬的二人也主动从建筑的阴影中走出，表示了谈话之意。",
+			say = "在發現我們的意圖後，餘燼的二人也主動從建築的陰影中走出，表示了談話之意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "余烬所属，威奇塔和金伯利。看你们的表情，对于我们的存在并不吃惊呢？",
+			say = "餘燼所屬，威奇塔和金伯利。看你們的表情，對於我們的存在並不吃驚呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -255,7 +255,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "在你们进入辉光之城之前，我们就已经发现你们的存在了。",
+			say = "在妳們進入輝光之城之前，我們就已經發現妳們的存在了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "喔！原来这座城叫辉光之城啊，你们的手笔？",
+			say = "喔！原來這座城叫輝光之城啊，你們的手筆？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你们背后有很厉害的人在帮你们呢，我们能见见么？",
+			say = "你們背後有很厲害的人在幫你們呢，我們能見見嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -315,7 +315,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "恐怕不行。不过我知道我们之间没必要发生冲突。",
+			say = "恐怕不行。不過我知道我們之間沒必要發生衝突。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哦？何以见得？",
+			say = "哦？何以見得？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -345,7 +345,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "因为我们与你们的{namecode:94:飞龙}、皇家方舟并肩作战过。而且你们那边，还有一支我们同伴的舰队。",
+			say = "因為我們與妳們的飛龍、皇家方舟並肩作戰。而且妳們那邊，還有一隻我們同伴的艦隊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……你们来自β实验场。",
+			say = "……你們來自β實驗場。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -377,7 +377,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "噢~那个神奇的β实验场啊，那你们弄出今天的事也就不奇怪了。",
+			say = "噢~那個神奇的β實驗場啊，那你們要弄出今天的事也就不奇怪了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -395,7 +395,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "之前你们放的那个大烟花，我们可是都看在眼里呢。",
+			say = "之前你們放的那個大煙火，我們都看在眼裡。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -411,7 +411,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（大烟花，是在说陆上神国的事么……看来那次事件的影响比想象中要更广……）",
+			say = "（大煙火，是在說陸上神國的事嗎……看來那次事件的影響比想像中要更廣……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（机会难得，得多打探一些{namecode:440:腓特烈大帝}的情报，如果能和她们在此次行动中结盟就更好了。）",
+			say = "（機會難得，得多打探一些腓特烈大帝的情報，如果能和她們在這次行動中結盟就更好了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "{namecode:440:腓特烈大帝}她们还好么？",
+			say = "腓特烈大帝她們還好嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不用担心，她们好得很。现在她们正在我们安全的后方准备一项重要工程呢。",
+			say = "不用擔心，她們好得很。現在她們正在我們安全的後方準備一項重要工程呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -467,7 +467,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "对了，正好有个事问你，你知道你们那里的指挥官是谁么？",
+			say = "對了，正好有個事問你，你知道你們那裡的指揮官是誰嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -483,7 +483,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "在这个语境下，我想你大概指的是我。",
+			say = "在這個語境下，我想你大概指的是我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,7 +497,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嚯……果然是你啊。和{namecode:94:飞龙}说的一样，看到你之后我就产生了一种难以言喻的熟悉感。",
+			say = "嚯……果然是你啊。和飛龍說的一樣，看到你之後我就產生了一種難以言喻的熟悉感。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -515,7 +515,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "金伯利，你也有相同的感觉么？",
+			say = "金伯利，妳也有相同的感覺嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -533,7 +533,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯……我也一样。",
+			say = "嗯……我也是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -551,7 +551,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "企业也是，自从见了你之后整个人就不太对劲了……这段时间做了不少奇怪的决定，包括同意让{namecode:440:腓特烈大帝}加入余烬也是。",
+			say = "企業也是，自從見了你之後整個人就不太對勁了……這段時間做了不少奇怪的決定，包括同意讓腓特烈大帝加入餘燼也是。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -569,7 +569,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "虽然我承认，她确实有点水平。",
+			say = "雖然我承認，她確實有點水平。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -587,7 +587,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "所以——你到底是谁？",
+			say = "所以——你到底是誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -603,7 +603,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……这个问题，也是我自己想弄明白的。",
+			say = "……這個問題，也是我自己想弄清楚的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "实不相瞒，我这次带队前来，就是想看看是否能寻找到一些有关于我身份的线索。",
+			say = "實不相瞞，我這次帶隊前來，就是想看看是否能找到一些關於我身分的線索。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "哼！早都说了！这是助手，神秘人助手！",
+			say = "哼！早都說了！這是助手，神秘人助手！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -657,7 +657,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……神秘人助手是………欸……是谁来着？金伯利，你能想起来么？",
+			say = "……神祕人助手是……欸……是誰來著？金伯利，妳能想起來嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -675,7 +675,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……或许曾经听过……或许没有，我不知道……",
+			say = "……或許曾經聽過……或許沒有，我不知道……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -693,7 +693,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "奇怪……回去问问企业好了。倒是你是谁，为什么会知道这个代号？",
+			say = "奇怪……回去問問企業好了。倒是妳是誰，為什麼會知道這個代號？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -739,7 +739,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "完全没听过的名字呢……还是说这是什么掩饰真名用的代号？",
+			say = "完全沒聽過的名字呢……還是說這是什麼掩飾真名用的代號？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -757,7 +757,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "唔……总之，我就是D小姐！D小姐就是我的名字！",
+			say = "嗯……總之，我就是D小姐！D小姐就是我的名字！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -785,7 +785,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "有种可疑的气息呢…… 你长得也像安蒂克丝……难道是安蒂克丝潜入β实验场的间谍机体？",
+			say = "有種可疑的氣息呢…… 妳長得也像安蒂克絲……難道是安蒂克絲潛入β實驗場的間諜機體？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -803,7 +803,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你才是间谍呢！",
+			say = "妳才是間諜呢！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -831,7 +831,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不否认是安蒂克丝呢~",
+			say = "不否認是安蒂克絲呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,7 +847,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "或许……D小姐就是塞壬的仲裁者·戴斯·XIII。",
+			say = "或許……D小姐就是塞壬的仲裁者·戴斯·XIII。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -861,7 +861,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "哈啊？！你可真会开玩笑。我们可是和戴斯打过很多交道了。",
+			say = "哈啊？！你可真是會開玩笑。我們可是和戴斯打過很多交道了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -879,7 +879,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "看到天上那头大虎鲸了么？那个才是戴斯，至于这个小豆丁……不像，实在是不像。",
+			say = "看到天上那頭大虎鯨了嗎？那個才是戴斯，至於這個小不點……不像，實在是不像。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -897,7 +897,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "哈啊？！笨蛋！笨蛋！被冒牌货骗的大笨蛋！",
+			say = "哈啊？！笨蛋！笨蛋！被冒牌貨騙的大笨蛋！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -925,7 +925,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你说谁是笨蛋，找打么？",
+			say = "你說誰是笨蛋，欠打嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -943,7 +943,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = ">_<！（瑟瑟发抖）",
+			say = ">_<！（瑟瑟發抖）",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -971,7 +971,7 @@ return {
 			actor = 9701040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……威奇塔，别欺负小孩子。",
+			say = "……威奇塔，別欺負小孩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -989,7 +989,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "知道知道~就是吓吓她嘛。",
+			say = "知道知道~就是嚇嚇她嘛。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1007,7 +1007,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "事到如今，我们也算和你们实验场β关系匪浅了，不管你是不是安蒂克丝，只要你是站我们这边的，我就不会对你怎么样。",
+			say = "事到如今，我們也算和你們實驗場β關係匪淺了，不管妳是不是安蒂克絲，只要妳是站我們這邊的，我就不會對妳怎麼樣。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1024,55 +1024,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过，妥善处置引发空间冲击的存在是我们的任务，希望我们之后不会因此而刀兵相向。",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 6,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			dir = 1,
-			actor = 900432,
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "你们也是被这场惊天动地的冲击吸引过来的，不是么？",
-			painting = {
-				alpha = 0.3,
-				time = 1
-			},
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "其实，我们这次行动的主要目标是捕获鲸鱼，调查空间冲击事件只是顺便的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			dir = 1,
-			actor = 900432,
-			nameColor = "#FFC960",
-			hidePaintObj = true,
-			say = "哦？我们也是在到了之后才发现戴斯的存在的，你们居然能事先追踪到它的行动。",
+			say = "不過，妥善處置引發空間衝擊的存在是我們的任務，希望我們之後不會因此而刀兵相向。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1090,7 +1042,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你们的情报源还真是不得了啊……",
+			say = "你們也是被這場驚天動地的衝擊吸引過來的，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1106,19 +1058,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "既然我们彼此间的目标不同，要不要合作行动？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_1",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "目前在辉光之城中，还有迪贝路带领的另一方势力。它和我们处于敌对状态，相信跟你们也一样吧。",
+			say = "其實，我們這次行動的主要目標是捕獲鯨魚，調查空間衝擊事件只是順便的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1132,7 +1072,67 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵，迪贝路么。确实，在入城之后我就发现它的存在了，同时还有另一个难缠的家伙。",
+			say = "哦？我們也是在到了之後才發現戴斯的存在的，你們居然能事先追蹤到它的行動。",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 6,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			dir = 1,
+			actor = 900432,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "你們的情報源還真是不得了啊……",
+			painting = {
+				alpha = 0.3,
+				time = 1
+			},
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "既然我們彼此間的目標不同，要不要合作行動？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "目前在輝光之城中，還有迪貝路帶領的另一方勢力。它和我們處於敵對狀態，相信跟妳們也一樣吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_1",
+			dir = 1,
+			actor = 900432,
+			nameColor = "#FFC960",
+			hidePaintObj = true,
+			say = "呵，迪貝路嗎。確實，在入城之後我就發現它的存在了，同時還有另一個難纏的傢伙。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1149,7 +1149,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "行吧，我们可以在本次行动中不攻击你们，不过我们独自行动习惯了，这次也不打算破例。",
+			say = "好吧，我們可以在這次行動中不攻擊你們，不過我們獨自行動習慣了，這次也不打算破例。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1167,7 +1167,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "大家还是各走各的吧。",
+			say = "大家還是各走各的吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1183,7 +1183,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（余烬的人一个两个都是这种行事风格么……看来没法强求了。）",
+			say = "（餘燼的人一個兩個都是這種行事風格嗎……看來無法強求了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1195,7 +1195,7 @@ return {
 			bgName = "bg_huiguangzhicheng_1",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没问题，希望你们能得偿所愿。",
+			say = "沒問題，希望妳們能得償所願。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1209,7 +1209,7 @@ return {
 			actor = 900432,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你们也一样~",
+			say = "你們也一樣~",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -115,9 +115,10 @@ return {
 			}
 		},
 		{
-			bgName = "bg_story_room",
+			expression = 2,
 			side = 2,
-			actor = 910005,
+			bgName = "bg_story_room",
+			actor = 9600051,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官？喔……原來拉菲消失了那麼久，是去找你一起來參加睡衣派對啊……",
@@ -203,12 +204,13 @@ return {
 			}
 		},
 		{
-			actor = 910005,
+			expression = 8,
 			side = 2,
 			bgName = "bg_story_room",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
 			optionFlag = 2,
+			actor = 9600051,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "又沒有規定起床了就不能繼續睡……對吧，惡毒？",
 			typewriter = {
 				speed = 0.05,
@@ -221,7 +223,7 @@ return {
 			bgName = "bg_story_room",
 			dir = 1,
 			optionFlag = 2,
-			actor = 901113,
+			actor = 900443,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒錯，白天睡覺反而更享受……",
@@ -317,7 +319,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 901113,
+			actor = 900443,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哈啊……結果我們都睡太多了，導致根本睡不著……",
@@ -348,11 +350,12 @@ return {
 			}
 		},
 		{
-			actor = 910005,
-			side = 2,
+			expression = 6,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			actor = 9600051,
 			say = "這樣打累了的話，維達就能繼續睡了……",
 			typewriter = {
 				speed = 0.05,
@@ -363,7 +366,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 901113,
+			actor = 900443,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不過信濃倒是一直在猶豫要不要參加就是了。",
@@ -499,7 +502,7 @@ return {
 			side = 2,
 			bgName = "bg_story_room",
 			dir = 1,
-			actor = 901113,
+			actor = 900443,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我也是……不過機會難得，就讓指揮官講睡前故事給我們聽，怎麼樣？",
@@ -542,11 +545,12 @@ return {
 			}
 		},
 		{
-			actor = 910005,
-			side = 2,
+			expression = 8,
+			nameColor = "#A9F548FF",
 			bgName = "bg_story_room",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
+			side = 2,
+			actor = 9600051,
 			say = "維達沒意見哦~反正只要聽指揮官的聲音就好了，故事是什麼不重要。",
 			typewriter = {
 				speed = 0.05,

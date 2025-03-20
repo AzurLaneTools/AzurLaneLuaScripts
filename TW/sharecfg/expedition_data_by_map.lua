@@ -318,6 +318,12 @@ pg.expedition_data_by_map = setmetatable({
 		1800002,
 		1800003,
 		1800004,
+		1810001,
+		1810002,
+		1810011,
+		1810012,
+		1810025,
+		1810026,
 		1820001,
 		1820002,
 		1820003,
@@ -16985,6 +16991,356 @@ pg.base.expedition_data_by_map = {
 		default_bgm = "",
 		uifx = "",
 		bind_map = 1800002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1810001] = {
+		map = 1810001,
+		name = "綻放於輝光之城·上篇|| ||CHAPTER EX||EX",
+		bgm = "theme-lightheven",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810006",
+		default_background = "",
+		on_activity = 5331,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1810005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1810011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810001,
+					"map_1650001",
+					"effect_1650001",
+					"bgm_theme-camelot"
+				}
+			},
+			{
+				2,
+				{
+					1810003,
+					"effect_1810005"
+				}
+			}
+		}
+	},
+	[1810002] = {
+		map = 1810002,
+		name = "綻放於輝光之城·下篇|| ||CHAPTER EX||EX",
+		bgm = "theme-lightheven",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810007",
+		default_background = "",
+		on_activity = 5331,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1810005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1810012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810005,
+					"effect_1810006"
+				}
+			}
+		}
+	},
+	[1810011] = {
+		map = 1810011,
+		name = "綻放於輝光之城·上篇|| ||CHAPTER EX||EX",
+		bgm = "theme-lightheven",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810002",
+		default_background = "",
+		on_activity = 5331,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1810001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1810001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810021,
+					"map_1650003",
+					"effect_1650003",
+					"bgm_theme-camelot"
+				}
+			},
+			{
+				2,
+				{
+					1810023,
+					"effect_1810001"
+				}
+			}
+		}
+	},
+	[1810012] = {
+		map = 1810012,
+		name = "綻放於輝光之城·下篇|| ||CHAPTER EX||EX",
+		bgm = "theme-lightheven",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "ZHANFANGYUHUIGUANGZHICHENG15",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810003",
+		default_background = "",
+		on_activity = 5331,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1810001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1810002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1810025,
+					"effect_1810002"
+				}
+			}
+		}
+	},
+	[1810025] = {
+		map = 1810025,
+		name = "綻放於輝光之城·SP|| ||CHAPTER EX||EX",
+		bgm = "theme-thehierophantV",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 5331,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1810001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1810012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[1810026] = {
+		map = 1810026,
+		name = "綻放於輝光之城·EX|| ||CHAPTER EX||EX",
+		bgm = "theme-lightheven",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1810008",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 5331,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1810005",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 1810012,
 		clouds_pos = {
 			{
 				332,

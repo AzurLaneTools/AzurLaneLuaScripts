@@ -814,11 +814,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_504",
+			nameColor = "#A9F548FF",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			actorName = "？？？",
 			hidePaintObj = true,
 			say = "意味著你們已經被我們這些無惡不作的海盜包圍了哦~",
@@ -856,10 +857,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_504",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "抱歉抱歉，一時情不自禁就接話了呢。那接下來就由皇家幸運妳來說吧。",
@@ -986,10 +988,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哎呀，這麼快就把我們的目的直接暴露了嗎~？",
@@ -1016,10 +1019,11 @@ return {
 			}
 		},
 		{
+			expression = 8,
 			side = 2,
 			bgName = "star_level_bg_504",
 			dir = 1,
-			actor = 910005,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哈啊……維達已經睏了……快點結束吧……",
@@ -1068,10 +1072,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "就是又想來找你們玩嘛~總之努力了一下就成功了。",
@@ -1085,10 +1090,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_504",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "看樣子，你們現在應該在渡假吧~？機會難得，要不要去我們那邊玩玩？",
@@ -1147,10 +1153,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_504",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "大家~抓緊坐穩~",

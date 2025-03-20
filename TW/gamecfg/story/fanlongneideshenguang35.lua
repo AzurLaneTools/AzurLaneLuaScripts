@@ -576,7 +576,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 900430,
-			say = "那我们要这么把鲸鱼带回去？",
+			say = "那我们要怎么把鲸鱼带回去？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

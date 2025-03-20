@@ -585,10 +585,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_180",
 			dir = 1,
-			actor = 910004,
+			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯……能看到這種美景確實不虛此行。不過，我還沒有拿到最想得到的收藏呢~？指揮官，我這裡隨時歡迎你~",
@@ -602,10 +603,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_180",
 			dir = 1,
-			actor = 910005,
+			actor = 9600050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哈啊……雖然維達不喜歡麻煩，但是能留在指揮官身邊的話，麻煩一點也無所謂……",
@@ -696,10 +698,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_180",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "燒烤會？！又、又要點火嗎……",

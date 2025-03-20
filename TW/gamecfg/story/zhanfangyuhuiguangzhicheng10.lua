@@ -9,7 +9,7 @@ return {
 			bgm = "theme-undead",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "两支小队各就各位，屏气凝神等待着。",
+			say = "兩隊各就各位，屏氣凝神等待著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "压迫感随着时间推移，正变得愈发清晰。",
+			say = "壓迫感隨著時間推移，正變得愈發清晰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "指挥官，目标已经进入了隔壁的三号车厢……隔着玻璃我已经能依稀看到入侵者的轮廓了。",
+			say = "指揮官，目標已經進入了隔壁的三號車廂……隔著玻璃我已經能依稀看到入侵者的輪廓了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -71,7 +71,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "一个悬浮在半空中的苍白色身影，周围笼罩着黑色迷雾，我看得不是很清楚。",
+			say = "一個懸浮在半空中的蒼白身影，周圍籠罩著黑色迷霧，我看得不是很清楚。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -90,7 +90,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不过……真是好强烈的压迫感啊，甚至能让我感到……恐惧。",
+			say = "不過……真是好強烈的壓迫感啊，甚至能讓我感到……恐懼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -109,7 +109,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "呵……呵呵，这种感觉我还是第一次体会到。",
+			say = "呵……呵呵，這種感覺我還是第一次體會。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -128,7 +128,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我听到了正在接近的死亡之音，无声，却又无比喧哗。",
+			say = "我聽到了正在接近的死亡之音，無聲，卻又無比喧嘩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "阿、阿尔萨斯……正在关闭情感接收模块！准备消除恐惧！",
+			say = "亞、亞爾薩斯……正在關閉情感接收模組！準備消除恐懼！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -162,7 +162,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			bgName = "bg_huiguangzhicheng_cg6",
-			say = "纵使距离稍远一些，五号车厢此刻的情况，也并未比四号车厢好多少。",
+			say = "縱使距離稍遠一些，五號車廂此刻的情況，也並未比四號車廂好多少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg6",
 			hidePaintObj = true,
-			say = "无言的压迫感顺着空气从门缝缓缓渗入，仿佛拥有实体和温度一般，压迫着身体，煎熬着意志。",
+			say = "無言的壓迫感順著空氣從門縫緩緩滲入，彷彿擁有實體和溫度一般，壓迫著身體，煎熬著意志。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（“苍白、阴冷、混合着浓郁的死亡的气息”么……莫加多尔此前的形容真是恰到好处。）",
+			say = "（「蒼白、陰冷、混合著濃鬱的死亡的氣息」嗎……莫加多爾先前的形容真是恰到好處。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "呜啊啊啊……为什么车上会有这么可怕的东西！",
+			say = "嗚啊啊啊……為什麼車上會有這麼可怕的東西！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -260,9 +260,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "重剑",
+			actorName = "銳劍",
 			hidePaintObj = true,
-			say = "别、别怕……不哭……不哭……",
+			say = "別、別怕……不哭……不哭……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,9 +278,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "重剑",
+			actorName = "銳劍",
 			hidePaintObj = true,
-			say = "有、有我们保护你呢……别、别怕……",
+			say = "有、有我們保護妳呢……別、別怕……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -298,7 +298,7 @@ return {
 			dir = 1,
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "可是你现在也怕的瑟瑟发抖了啊！",
+			say = "可是妳現在也怕的瑟瑟發抖了啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,9 +319,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "重剑",
+			actorName = "銳劍",
 			hidePaintObj = true,
-			say = "因、因为……真的很可怕呀……呜啊啊TAT……！",
+			say = "因、因為……真的很可怕呀……嗚啊啊TAT……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			dir = 1,
 			actorName = "D小姐",
 			hidePaintObj = true,
-			say = "唔啊啊啊啊TAT……！",
+			say = "不啊啊啊啊TAT……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -360,9 +360,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "花剑",
+			actorName = "鈍劍",
 			hidePaintObj = true,
-			say = "……指挥官，这个入侵者好像是有点难对付。",
+			say = "……指揮官，這個入侵者好像有點難對付。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -378,9 +378,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "花剑",
+			actorName = "鈍劍",
 			hidePaintObj = true,
-			say = "我也是第一次见到这种敌人……说实话，我没把握能拖住它多久。",
+			say = "我也是第一次見到這種敵人……說實話，我沒把握能拖住它多久。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -396,9 +396,9 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			nameColor = "#5CE6FF",
 			dir = 1,
-			actorName = "花剑",
+			actorName = "鈍劍",
 			hidePaintObj = true,
-			say = "指挥官，你还是先准备退至六号车厢吧。",
+			say = "指揮官，你還是先準備退至六號車廂吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -428,10 +428,10 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg6",
 			portraitNoise = true,
-			actorName = "莫加多尔",
+			actorName = "莫加多爾",
 			hidePaintObj = true,
 			paintingNoise = true,
-			say = "指挥官，目标已经进入攻击距离，是否发动攻击？",
+			say = "指揮官，目標已經進入攻擊距離，是否發動攻擊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -464,7 +464,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（……要主动发起进攻么。如果双方实力差距过大，仅仅进行试探性进攻就有可能造成伤亡。）",
+			say = "（……要主動發動攻擊嗎。如果雙方實力差距過大，光是進行試探性攻擊就有可能造成傷亡。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg6",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（可是就算撤退，也没有几节车厢可退了……）",
+			say = "（可是就算撤退，也沒有幾節車廂可退了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,9 +491,9 @@ return {
 			nameColor = "#5CE6FF",
 			paintingNoise = true,
 			portraitNoise = true,
-			actorName = "莫加多尔",
+			actorName = "莫加多爾",
 			hidePaintObj = true,
-			say = "指挥官，目标正在向着四号车厢中部移动，再不发动攻击就要失去先手优势了。",
+			say = "指揮官，目標正在向著四號車廂中部移動，再不發動攻擊就要失去先手優勢了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -508,7 +508,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg6",
 			hidePaintObj = true,
-			say = "隔着玻璃，我能清晰地看到一个漂浮在半空中的身影进入了四号车厢，向着阿尔萨斯等人的伏击位置缓缓接近着。",
+			say = "隔著玻璃，我能清楚地看到一個漂浮在半空中的身影進入了四號車廂，向著亞爾薩斯等人的伏擊位置緩緩接近著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			actor = 0,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "（……没办法了。先手突袭，总好过坐以待毙。）",
+			say = "（……沒辦法了。先手突襲，總好過坐以待斃。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "莫加多尔，准备——",
+			say = "莫加多爾，準備——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -628,7 +628,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
-			say = "就当我下定决心准备下达攻击命令时，D小姐突然激动地扑了上来。",
+			say = "就當我下定決心準備下達攻擊命令時，D小姐突然激動地撲了上來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,7 +642,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我终于知道了！呜呜呜……我终于知道了！",
+			say = "我終於知道了！嗚嗚嗚……我終於知道了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -670,7 +670,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "冒牌货！那个家伙就是冒牌货！",
+			say = "冒牌貨！那傢伙就是冒牌貨！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -688,7 +688,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "冒牌货冒牌货冒牌货！",
+			say = "冒牌貨冒牌貨冒牌貨！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -716,7 +716,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "呜呜呜……可恶的冒牌货！！！",
+			say = "嗚嗚嗚……可惡的冒牌貨！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -732,7 +732,7 @@ return {
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……冒牌货？",
+			say = "……冒牌貨？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯！老是抓不到鲸鱼就是因为冒牌货！能进入列车也是因为冒牌货！",
+			say = "嗯！老是抓不到鯨魚就是因為冒牌貨！能進入列車也是因為冒牌貨！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -764,7 +764,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "它不是入侵进来的！而是用我的身份光明正大进来的！",
+			say = "它不是入侵進來的！而是用我的身分光明正大進來的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -792,7 +792,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "……你是指，你和它在概念上是同一个人？",
+			say = "……妳是指，妳和它在概念上是同一個人？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -810,7 +810,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "你究竟是谁？",
+			say = "妳究竟是誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -828,7 +828,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "问这些有什么用！知道了也打不过的！",
+			say = "問這些有什麼用！知道了也打不過的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -875,7 +875,7 @@ return {
 			actor = 803020,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "我们能做的只有向后续车厢撤退，终究要有一战。",
+			say = "我們能做的只有向後續車廂撤退，終究要有一戰。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -893,7 +893,7 @@ return {
 			actor = 901060,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "已经无路可逃了，呜呜……",
+			say = "已經無路可逃了，嗚嗚……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -911,7 +911,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不不不！我们去辉光之城里就好了！",
+			say = "不不不！我們去輝光之城裡就好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -929,7 +929,7 @@ return {
 			actor = 901050,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "去辉光之城？要怎么去，这辆车不是只有伊丽莎白能开动么？",
+			say = "去輝光之城？要怎麼去，這輛車不是只有伊莉莎白能開動嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -948,7 +948,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "难、难道要跳车出去？！阿尔萨斯虽然长了翅膀，但这个翅膀飞不起来啊！",
+			say = "難、難道要跳車出去？！亞爾薩斯雖然長了翅膀，但這個翅膀飛不起來啊！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -967,7 +967,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "而且看上去外面也没有空气……不知道阿尔萨斯的锅炉还能不能正常燃烧……",
+			say = "而且看起來外面也沒有空氣……不知道亞爾薩斯的鍋爐還能不能正常燃燒……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -985,7 +985,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "哼，哪用得着这么麻烦。",
+			say = "哼，哪用得這麼麻煩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1003,7 +1003,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "辉光之城是由七号车厢转换的，而七号车厢和六号车厢是相连的！",
+			say = "輝光之城是由七號車廂轉換的，而七號車廂和六號車廂是相連的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1021,7 +1021,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "所以我们只要穿过六号车厢，不就能进入辉光之城了！",
+			say = "所以我們只要穿過六號車廂，不就能進入輝光之城了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1068,7 +1068,7 @@ return {
 			actor = 805030,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "阿尔萨斯的逻辑模块要爆炸了……",
+			say = "亞爾薩斯的邏輯模組要爆炸了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1087,7 +1087,7 @@ return {
 			actor = 901070,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "呃……虽然我也完全没理解，但听上去好像是这么回事……？",
+			say = "呃……雖然我也完全沒理解，但聽起來好像是這麼回事……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1105,7 +1105,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "好啦！没时间犹豫了，助手，这次听我的好不好嘛~好不好嘛~！",
+			say = "好啦！沒時間猶豫了，助手，這次聽我的好不好啊~好不好嘛~！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1131,7 +1131,7 @@ return {
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "最后一个问题。如果这个方法可行，为什么伊丽莎白不用这种方法前往辉光之城？",
+			say = "最後一個問題。如果這個方法可行，為什麼伊莉莎白不用這種方法前往輝光之城？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1145,7 +1145,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "因为伊丽莎白是笨蛋！",
+			say = "因為伊莉莎白是笨蛋！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1181,7 +1181,7 @@ return {
 			bgName = "star_level_bg_592",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "花剑队，掩护莫加多尔队撤离。之后我们一同跟随D小姐前往辉光之城！",
+			say = "鈍劍隊，掩護莫加多爾撤離。之後我們一同跟著D小姐前往輝光之城！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1195,7 +1195,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "嗯嗯嗯！逃跑咯~逃跑咯~！",
+			say = "嗯嗯嗯！逃跑了~逃跑了~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -28,7 +28,7 @@ return {
 			},
 			sequence = {
 				{
-					"群星之间",
+					"群星之間",
 					1
 				},
 				{
@@ -36,7 +36,7 @@ return {
 					2
 				},
 				{
-					"一段时间后",
+					"一段時間後",
 					3
 				}
 			}
@@ -47,7 +47,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			bgm = "theme-camelot",
-			say = "此刻，三节车厢正静静地停在庭院翠绿的草坪上。",
+			say = "此刻，三節車廂正靜靜地停在庭院翠綠的草坪上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "辉光之城回收完毕，战斗痕迹和信息残留也全部消除。",
+			say = "輝光之城回收完畢，戰鬥痕跡和資訊殘留也全部消除。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -78,7 +78,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯——终于可以带你回家了。",
+			say = "嗯——終於可以帶你回家了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -96,7 +96,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过看你的表情，似乎还有话要说？",
+			say = "不過看你的表情，似乎還有話要說？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -112,7 +112,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "关于罗德尼·META……",
+			say = "關於羅德尼·META……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "她现在的情况很不稳定，我必须要将她带回治疗。",
+			say = "她現在的情況很不穩定，我必須要將她帶回治療。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -144,7 +144,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过很快你就能再次见到她了，我保证。",
+			say = "不過很快你就能再見到她了，我保證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -174,7 +174,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你还有问题？",
+			say = "你還有問題？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,11 +185,11 @@ return {
 			},
 			options = {
 				{
-					content = "不再继续提问。",
+					content = "不再繼續提問。",
 					flag = 1
 				},
 				{
-					content = "追问「重塑」的事。",
+					content = "追問「重塑」的事。",
 					flag = 2
 				}
 			}
@@ -221,7 +221,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我知道了，你还在在意重塑的事。",
+			say = "我知道了，你還在在意重塑的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
 			optionFlag = 1,
-			say = "你打算告诉我么？",
+			say = "妳打算告訴我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不打算~你现在只需要知道「重塑」的状态既危险又不稳定就可以了。",
+			say = "不打算~你現在只要知道「重塑」的狀態既危險又不穩定就可以了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -272,7 +272,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "正如我之前所说，所谓「重塑」，只是META化的一个特殊阶段而已，既危险又不稳定。",
+			say = "正如我之前所說，所謂「重塑」，只是META化的一個特殊階段而已，既危險又不穩定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -290,7 +290,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "只是刚才……如果不让「罗德尼」进入重塑状态的话，就救不下来她了。",
+			say = "只是剛才……如果不讓「羅德尼」進入重塑狀態的話，就救不下來她了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
 			optionFlag = 2,
-			say = "……那孟菲斯和女灶神她们？",
+			say = "……那曼非斯和女灶神她們？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯？她们怎么了么？",
+			say = "嗯？她們怎麼了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -339,7 +339,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
 			optionFlag = 2,
-			say = "不……没什么。",
+			say = "不……沒什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯，这个话题就到此为止吧。",
+			say = "嗯，這個話題就到此為止吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -371,7 +371,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接下来换我提问了，我也有问题要问你。",
+			say = "接下來換我問了，我也有問題想問你。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -382,11 +382,11 @@ return {
 			},
 			options = {
 				{
-					content = "没问题，你问吧！",
+					content = "沒問題，你問吧！",
 					flag = 1
 				},
 				{
-					content = "你竟然也有不知道的事~？",
+					content = "妳竟然也有不知道的事~？",
 					flag = 2
 				}
 			}
@@ -400,7 +400,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵呵，我只知道我知道的事情，仅此而已哦。",
+			say = "呵呵，我只知道我知道的事情，僅此而已哦。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -417,7 +417,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此次行动中跟随卡美洛之庭而来的META，除了伊丽莎白女王之外，还有其他人么？",
+			say = "此次行動中跟隨卡美洛之庭而來的META，除了伊莉莎白女王之外，還有其他人嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -433,7 +433,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "没有。原本伊丽莎白是想带她的人一起来的，不过最后还是只有她一个人来了。",
+			say = "沒有。原本伊莉莎白是想帶她的人一起來的，但最後還是只有她一個人來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "“只有她一个人”啊……",
+			say = "「只有她一個人」啊……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -463,7 +463,7 @@ return {
 			bgName = "bg_camelot_15",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嗯？这句话有什么问题么？",
+			say = "嗯？這句話有什麼問題呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没什么~我们回去吧——",
+			say = "沒什麼~我們回去吧——",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -56,10 +56,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不、不可能！我明明已經占卜過了……",
@@ -83,10 +84,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "虧我還拜託哈爾濱幫我準備了這麼大的魚缸用來裝魚……",
@@ -111,10 +113,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指、指揮官？！",
@@ -148,10 +151,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……不行，果然還是很不甘心。",
@@ -194,10 +198,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "…………（備受打擊）",
@@ -434,10 +439,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……",
@@ -485,10 +491,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "謝謝，但我不……",
@@ -621,10 +628,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我居然……居然輸給海鳥了……",
@@ -649,10 +657,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_179",
 			dir = 1,
-			actor = 910023,
+			actor = 504010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不……謝謝……今天……謝謝你們……我就先自己回去思考一下了……",

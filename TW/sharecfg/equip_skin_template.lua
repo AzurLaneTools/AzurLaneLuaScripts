@@ -41153,6 +41153,179 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2089] = {
+		hit_sfx = "",
+		bullet_name = "zidan_shengguangyumao",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "光羽晨曦子彈",
+		miss_sfx = "",
+		desc = "羽毛所過之處，最深的陰影也會被穿透！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		themeid = 107,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "96813",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_shengguangyumao_hit",
+		id = 2089,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2090] = {
+		hit_sfx = "",
+		bullet_name = "yulei_diaoxiang",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		name = "曙光雷霆魚雷",
+		miss_sfx = "",
+		desc = "展開雙翼帶來希望，跳動的光芒驅散恐懼。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		themeid = 107,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "96814",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_diaoxiang_hit",
+		id = 2090,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2091] = {
+		hit_sfx = "",
+		bullet_name = "paodan_shengqiu",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "星軌之環炮彈",
+		miss_sfx = "",
+		desc = "追尋它的轉動，仿佛星空為你指引方向。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		themeid = 107,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "96815",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_shengqiu_hit",
+		id = 2091,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2092] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "天啟光輪",
+		miss_sfx = "",
+		desc = "它見證著世界的每一個瞬間，守護著光明與希望的平衡。",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		themeid = 107,
+		orbit_combat = "shebei_guanglun",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "shebei_guanglunui",
+		orbit_ui_back = 1,
+		orbit_slg = "",
+		orbit_combat_anima_change = "",
+		icon = "96816",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 2092,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				-20,
+				-160
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -42390,6 +42563,10 @@ pg.equip_skin_template = {
 		2086,
 		2087,
 		2088,
+		2089,
+		2090,
+		2091,
+		2092,
 		3001,
 		3007,
 		3008,

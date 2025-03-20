@@ -9,7 +9,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的是一片璀璨与辉煌。",
+			say = "光芒消散後，映入眼簾的是一片璀璨與輝煌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "太好了，助手！我们回来了！",
+			say = "太好了，助手！我們回來了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -68,7 +68,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "这里是辉光之城的第三片出现的区域，也是最中心！",
+			say = "這裡是輝光之城的第三片出現的區域，也是最中心！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -86,7 +86,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "所有折叠的部分终于全部展开了哦！",
+			say = "所有折疊的部分終於全部展開了哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -114,7 +114,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "哼哼~这样鲸鱼也终于无处可藏了！",
+			say = "哼哼~這樣鯨魚也終於無處可藏了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -132,7 +132,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "让我看看鲸鱼的位置在——",
+			say = "讓我看看鯨魚的位置在——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -150,7 +150,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "欸？！！！！鲸鱼跑回到最外圈去了？！！！",
+			say = "欸？！！！！鯨魚跑回最外圈去了？！！！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -178,7 +178,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "助手，我们立刻——",
+			say = "助手，我們立刻——",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -194,7 +194,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "嘘——等等，周围有些不对劲。",
+			say = "噓——等等，周圍有些不對勁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "环顾四周，作为辉光之城的中心，此处的光芒比其他区域更加耀眼。",
+			say = "環顧四周，作為輝光之城的中心，此處的光芒比其他區域更加耀眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "距离此处不远的前方广场中，矗立着一座巨大的雕塑。",
+			say = "距離此處不遠的前方廣場中，矗立著一座巨大的雕塑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "数片被雕刻成羽翼造型的大理石之翼环绕着中心的淡黄色水晶块，一切看上去都是如此的圣洁与美丽。",
+			say = "數片被雕刻成羽翼造型的大理石之翼環繞著中心的淡黃色水晶塊，一切看起來都是如此的聖潔與美麗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "但是，只要仔细观察就会发现——原本洁白无瑕的大理石道路和墙面上，如今还覆盖着另一种白。",
+			say = "但是，只要仔細觀察就會發現——原本潔白無瑕的大理石道路和牆面上，如今還覆蓋著另一種白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,19 +249,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "那是一种仿佛拥有生命的，如同菌丝一般正蔓延扩散着的白。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_3",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "……侵蚀性络合物？！",
+			say = "那是一種彷彿擁有生命的，如同菌絲一般正蔓延擴散著的白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +261,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "为什么侵蚀性络合物会突然出现在辉光之城中？！",
+			say = "……侵蝕性絡合物？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +273,19 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "难道是迪贝路和{namecode:522:旗风·META}搞的鬼……",
+			say = "為什麼侵蝕性絡合物會突然出現在輝光之城中？！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_3",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "難道是迪貝路和旗風·META搞的鬼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "呃啊……好恶心。助手，我们快走吧！",
+			say = "呃啊……好噁心。助手，我們快走吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -324,7 +324,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "启动通讯器尝试联络阿尔萨斯小队和位于后方的伊丽莎白·META。",
+			say = "啟動通訊器嘗試聯絡亞爾薩斯小隊和位於後方的伊莉莎白·META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,19 +335,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "可是通讯器在发出滴的一声之后，就彻底损坏了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_huiguangzhicheng_3",
-			hidePaintObj = true,
-			nameColor = "#5CE6FF",
-			say = "……这次发现干扰没用，所以选择摧毁通讯装置么？！",
+			say = "可是通訊器在發出滴的一聲之後，就徹底損壞了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,18 +347,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "——迪贝路！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#5CE6FF",
-			bgName = "bg_huiguangzhicheng_3",
-			hidePaintObj = true,
-			say = "耳边，仿佛依稀听到了迪贝路得意的笑声。",
+			say = "……這次發現干擾沒用，所以選擇摧毀通訊裝置嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +359,30 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "D小姐，你知道怎么返回最外圈么？",
+			say = "——迪貝路！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#5CE6FF",
+			bgName = "bg_huiguangzhicheng_3",
+			hidePaintObj = true,
+			say = "耳邊，彷彿依稀聽到了迪貝路得意的笑聲。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_huiguangzhicheng_3",
+			hidePaintObj = true,
+			nameColor = "#5CE6FF",
+			say = "D小姐，妳知道怎麼返回最外圈嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "先出城再进城就可以了！",
+			say = "先出城再進城就好了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -424,7 +424,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "出城的方式也查清楚了哦！我们从中间那个亮晶晶的地方走！",
+			say = "出城的方式也查清楚了！我們從中間那個亮晶晶的地方走！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -440,7 +440,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……那里也是侵蚀性络合物最密集的地方。",
+			say = "……那裡也是侵蝕性絡合物最密集的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "看来……不论如何都要先去广场中调查一下了。",
+			say = "看來……不論如何都要先去廣場中調查一下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

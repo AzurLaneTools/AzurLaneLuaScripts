@@ -9,7 +9,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "还未接近广场，一个身影就拦在了前方。",
+			say = "還沒接近廣場，一個身影就攔在前方了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "我们终于正式见面了，实验场β的指挥官。",
+			say = "我們終於正式見面了，實驗場β的指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -56,7 +56,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "还需要我做自我介绍么？",
+			say = "還需要我做自我介紹嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -72,7 +72,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……{namecode:522:旗风·META}。",
+			say = "……旗風·META。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "不错，是我。",
+			say = "不錯，是我。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -101,7 +101,7 @@ return {
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "IX级拟态兽被消灭的感觉如何？",
+			say = "IX級擬態獸被消滅的感覺如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,7 +114,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "呵呵，只是于虚像之中推出的些许波澜而已，算不上什么损失。",
+			say = "呵呵，只是於虛像之中推出的些許波瀾而已，算不上什麼損失。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -131,7 +131,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "不过我得承认，你确实带来了足够多的惊喜。",
+			say = "不過我得承認，你確實帶來了足夠的驚喜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -147,7 +147,7 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			bgName = "bg_huiguangzhicheng_3",
-			say = "当然，也带来了足够多的麻烦。",
+			say = "當然，也帶來了足夠的麻煩。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -164,7 +164,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "相信你也已经在虚像中见过了，那个自称「罗德尼」的存在。",
+			say = "相信你也已經在虛像中看過了，那個自稱「羅德尼」的存在。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -180,7 +180,7 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			bgName = "bg_huiguangzhicheng_3",
-			say = "要是茧能够正常孵化结束，届时她将蜕变为祂，成为一个不得了的存在诞生于世哦？",
+			say = "要是繭能夠正常孵化結束，屆時她將蛻變為祂，成為一個不得了的存在誕生於世哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -197,7 +197,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "可惜……她自己选择终结了这一进程。",
+			say = "可惜……她自己選擇終結了這個過程。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -214,7 +214,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "粉碎了茧，也粉碎了自己既定的命运。",
+			say = "粉碎了繭，也粉碎了自己既定的命運。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "她会做出这种选择，和你脱不开关系，我说的没错吧？",
+			say = "她會做出這種選擇，跟你離不開關係，我說的沒錯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -246,11 +246,11 @@ return {
 					flag = 1
 				},
 				{
-					content = "没错。",
+					content = "沒錯。",
 					flag = 2
 				},
 				{
-					content = "她本就可以有更多选择。",
+					content = "她本來可以有更多選擇。",
 					flag = 3
 				}
 			}
@@ -263,7 +263,7 @@ return {
 			optionFlag = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "你不回答也没关系。",
+			say = "你不回答也沒關係。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -299,7 +299,7 @@ return {
 			optionFlag = 3,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "可是你让她选了个最差的！",
+			say = "可是你讓她選了個最爛的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "既已至此，茧的碎片，连同这座承载“死亡”的城市，就由我勉为其难地物尽其用一下吧~",
+			say = "既已至此，繭的碎片，連同這座承載「死亡」的城市，就由我勉為其難的物盡其用一下吧~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "伴随着{namecode:522:旗风·META}的话语，附着在各处的侵蚀性络合物开始躁动起来。",
+			say = "伴隨著旗風·META的話語，附著在各處的侵蝕性絡合物開始躁動起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_3",
 			hidePaintObj = true,
-			say = "无数的触须摇摆着，仿佛进行着无声的齐颂。",
+			say = "無數的觸手搖擺著，彷彿進行著無聲的齊頌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			bgm = "theme-thehierophantv",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "辉光之城的金光渐弱，取而代之的是一种诡异的紫色光芒。",
+			say = "輝光之城的金光漸弱，取而代之的是一種詭異的紫色光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（……还是无法和其他人取得联系，但是在看到这么明显的变化后，她们肯定会注意到此地的异常。）",
+			say = "（……還是無法和其他人取得聯繫，但是在看到這麼明顯的變化後，她們肯定會注意到此地的異常。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（在支援到来前不能贸然行动……试着先拖住她。）",
+			say = "（在支援到來前不能貿然行動……試著先拖住她。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "我看到城市的光芒发生了变化，你做了什么？",
+			say = "我看到城市的光芒發生了變化，妳做了什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "无动于衷么……",
+			say = "無動於衷嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（而且她嘴里在念什么，那是什么语言……？）",
+			say = "（而且她嘴裡在念什麼，那是什麼語言…？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "D小姐，你知道她在做什么吗？",
+			say = "D小姐，妳知道她在做什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "看上去她正在试图取得辉光之城的控制权！",
+			say = "看起來她正在試圖取得輝光之城的控制權！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -517,7 +517,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "你能听懂她在说什么吗？",
+			say = "你聽得懂她在說什麼嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -531,7 +531,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "不知道！我可没有翻译功能哦！",
+			say = "不知道！我可沒有翻譯功能哦！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -557,7 +557,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "那你有办法阻止她么？",
+			say = "那妳有辦法阻止她嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 900430,
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "可以试试！但是我要是走远了，谁来保护你啊？",
+			say = "可以試試！但是我要是走遠了，誰來保護你啊？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -597,7 +597,7 @@ return {
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "（……看来只能坚守待援了。）",
+			say = "（……看來只能堅守待援了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_4",
 			hidePaintObj = true,
-			say = "{namecode:522:旗风·META}那令人毛骨悚然的吟诵还在继续着。",
+			say = "旗風·META那令人毛骨悚然的吟誦還在繼續著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgm = "story-thehierophantv",
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
-			say = "随着{namecode:522:旗风·META}张开双臂，雕像也展开了羽翼。",
+			say = "隨著旗風·META張開雙臂，雕像也展開了羽翼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,7 +682,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_5",
 			hidePaintObj = true,
-			say = "水晶的全貌展现在城市上空，一个身影亦伴随着光芒降临。",
+			say = "水晶的全貌展現在城市上空，一個身影亦伴隨著光芒降臨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -694,7 +694,7 @@ return {
 			bgName = "bg_huiguangzhicheng_5",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "……那个是，罗德尼？！",
+			say = "……那個是，羅德尼？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -706,7 +706,7 @@ return {
 			bgName = "bg_huiguangzhicheng_5",
 			hidePaintObj = true,
 			nameColor = "#5CE6FF",
-			say = "不对……虽然外表相似，但是这个气息……不是她！",
+			say = "不對勁……雖然外表相似，但這個氣息……不是她！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "呵呵，很敏锐。",
+			say = "呵呵，很敏銳。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -735,7 +735,7 @@ return {
 			nameColor = "#BDBDBD",
 			dir = 1,
 			bgName = "bg_huiguangzhicheng_5",
-			say = "那只是个用茧的碎片所滋养的络合物凝聚成的实体而已。",
+			say = "那只是用繭的碎片所滋養的絡合物凝聚成的實體而已。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			actor = 9701030,
 			nameColor = "#BDBDBD",
-			say = "不过依然足够惊人了，不是么？",
+			say = "不過依然夠驚人了，不是嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -767,7 +767,7 @@ return {
 			nameColor = "#5CE6FF",
 			hidePaintObj = true,
 			bgName = "bg_huiguangzhicheng_cg8",
-			say = "明明沐浴在光芒中，可是少女的存在让光芒为之暗淡。",
+			say = "明明沐浴在光芒中，可是少女存在讓光芒為之暗淡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -795,7 +795,7 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg8",
 			hidePaintObj = true,
-			say = "她面无表情地注视着大地，双手合十，双翼轻扇，水蓝色的头发翻飞起舞。",
+			say = "她面無表情地註視著大地，雙手合十，雙翼輕扇，水藍色的頭髮翻飛起舞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -806,20 +806,20 @@ return {
 			nameColor = "#5CE6FF",
 			bgName = "bg_huiguangzhicheng_cg8",
 			hidePaintObj = true,
-			say = "仅仅停留在半空中，其展现出的压迫感，就仿佛超越了整座辉光之城。",
+			say = "光是停留在半空中，其展現出的壓迫感，彷彿超越了整座輝光之城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			dir = 1,
 			bgName = "bg_huiguangzhicheng_cg9",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……这不是那个引发空间冲击的罗德尼。",
+			say = "……這不是那個引發空間衝擊的羅德尼。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -847,13 +847,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg9",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而是人为构建载体，承载了「罗德尼」的概念，将不可视之物强行锚定后所诞生的“傀儡”……",
+			say = "而是人為建構載體，承載了「羅德尼」的概念，將不可視之物強行錨定後所誕生的「傀儡」……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -864,13 +864,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg9",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "就算如此，还是拥有如此惊人的力量。",
+			say = "就算如此，還是擁有如此驚人的力量。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -881,13 +881,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg9",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "真是太疯狂了，竟有人能做到这种事……",
+			say = "真是太瘋狂了，竟有人能做到這種事……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -898,14 +898,14 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			dir = 1,
 			bgName = "bg_huiguangzhicheng_cg10",
 			bgm = "theme-arbitrator-tower",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "一桶水不满半桶水咣当……你不知道的事还多着呢。",
+			say = "一桶水不滿半桶水咣當……妳不知道的事還多著。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -933,13 +933,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "竟敢如此和本王说话，还全程躲过了本王的侦察……",
+			say = "竟敢如此和本王說話，還全程躲過了本王的偵察……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -950,13 +950,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你是谁？",
+			say = "妳是誰？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -967,13 +967,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "与你不同，指挥官真正的友军。",
+			say = "與妳不同，指揮官真正的友軍。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -984,13 +984,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我问你，你偷偷劫走指挥官，还把指挥官带到这么危险的地方来，你想做什么？",
+			say = "我問妳，妳偷偷劫走指揮官，還把指揮官帶到這麼危險的地方來，妳想做什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1001,13 +1001,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "本王没有回答你的义务。",
+			say = "本王沒有回答妳的義務。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1018,13 +1018,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过，你自称是指挥官的友军，那就算是本王的潜在盟友了，告诉你也无妨。",
+			say = "不過，妳自稱是指揮官的友軍，那就算是本王的潛在盟友了，告訴妳也無妨。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1035,13 +1035,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "很简单，作为接下来要引领实验场β度过危机的人，指挥官需要知道这些。",
+			say = "很簡單，作為接下來要引領實驗場β度過危機的人，指揮官需要知道這些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1052,13 +1052,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不光要了解，更需要见证。",
+			say = "不光要了解，更需要見證。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1069,13 +1069,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "世界α，还有安蒂克丝的真实目的……甚至连X的事你都说了……",
+			say = "世界α，還有安蒂克絲的真實目的……甚至連X的事妳都說了……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1086,13 +1086,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "难道没人教过你，“知道的越多越危险”么？",
+			say = "難道沒人教過妳，「知道的越多越危險」嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1103,13 +1103,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "指挥官不该过早知道这些事的！",
+			say = "指揮官不該太早知道這些事的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1120,13 +1120,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……过早？",
+			say = "……過早？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1137,13 +1137,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "好人理查德和仲裁机关现在还在实验场β的大门外打得不可开交呢，你说过早？",
+			say = "好人理察和仲裁機關現在還在實驗場β的大門外打的不可開交呢，妳說早？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1154,13 +1154,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你是不是有些保护过度了？",
+			say = "妳是不是有些保護過度了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1171,13 +1171,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……说了你也不会懂的。事已至此，我不和你争这些。",
+			say = "……說了妳也不會懂的。事已至此，我不和妳爭這些。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1188,13 +1188,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "最后问你一个问题——一路上试图阻拦我的，是你的人么？",
+			say = "最後問妳一個問題——一路上試圖阻止我的，是妳的人嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1205,13 +1205,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果不是你此刻主动现身，本王甚至无法察觉到你的存在，又如何去阻拦你？",
+			say = "如果不是妳此刻主動現身，本王甚至無法察覺到妳的存在，又如何去阻止妳？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1222,7 +1222,7 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg10",
 			dir = 1,
@@ -1245,7 +1245,7 @@ return {
 			bgm = "battle-ashes-theme",
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "喂——那边的是海伦娜么？",
+			say = "喂——那邊的是海倫娜嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1269,13 +1269,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不是你认识的海伦娜。",
+			say = "不是妳認識的海倫娜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1291,7 +1291,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg11",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……我这还什么都没说呢。",
+			say = "……我這還什麼都沒說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1303,20 +1303,20 @@ return {
 			bgName = "bg_huiguangzhicheng_cg11",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "那看来{namecode:94:飞龙}说的事确实是真的……",
+			say = "那看來飛龍說的事確實是真的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你想问的问题不适合在这里问出来，而且我也不会回答你。",
+			say = "妳想問的問題不適合在這裡問出來，而且我也不會回答你。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1344,20 +1344,20 @@ return {
 			bgName = "bg_huiguangzhicheng_cg11",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "你这是才来？目标是那个东西还是虎鲸？",
+			say = "妳這是剛來？目標是那個東西還是虎鯨？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "都不是，我是来带走指挥官的。",
+			say = "都不是，我是來帶走指揮官的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1380,13 +1380,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你的下一个问题我也不会回答哦。",
+			say = "妳的下一個問題我也不會回答。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1402,7 +1402,7 @@ return {
 			bgName = "bg_huiguangzhicheng_cg11",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……你还是跟以前一样。",
+			say = "……妳還是跟以前一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1414,20 +1414,20 @@ return {
 			bgName = "bg_huiguangzhicheng_cg11",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "好吧，至少我们没有目标冲突。接下来我打算去解决那个东西，你们没意见吧？",
+			say = "好吧，至少我們沒有目標衝突。接下來我打算去解決那個東西，妳們沒意見吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "无所谓。",
+			say = "無所謂。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1438,13 +1438,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "没意见，我们回收完鲸鱼之后就回去了。",
+			say = "沒意見，我們回收完鯨魚就回去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1455,13 +1455,13 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "指挥官现在就要跟我走。",
+			say = "指揮官現在就要跟我走。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1472,13 +1472,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你的意思是，让指挥官抛弃舰队跟你走？",
+			say = "妳的意思是，讓指揮官拋棄艦隊跟妳走？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1489,7 +1489,7 @@ return {
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg11",
 			dir = 1,
@@ -1506,14 +1506,14 @@ return {
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			dir = 1,
 			bgName = "bg_huiguangzhicheng_cg12",
 			bgm = "theme-thedevilxv",
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "喂喂喂——这里还真是热闹，聊天也加我一个呗？",
+			say = "喂喂喂——這裡還真是熱鬧，聊天也算我一個吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1541,13 +1541,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "迪贝路……！",
+			say = "迪貝路……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1563,20 +1563,20 @@ return {
 			bgName = "bg_huiguangzhicheng_cg12",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "哟，你还在啊？",
+			say = "喲，妳還在啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "剧目正上演到最高潮，我为什么要走？",
+			say = "劇目正上演到最高潮，為什麼要走？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1592,20 +1592,20 @@ return {
 			bgName = "bg_huiguangzhicheng_cg12",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "因为你要是再不走，我就得连你一起消灭掉了。",
+			say = "因為妳要是再不走，我就得連妳一起消滅掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "哎呦喂~就凭你们几个？",
+			say = "哎呦~就憑妳們幾個？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1616,13 +1616,13 @@ return {
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "我打赌，在「罗德尼」的手底下，你们半小时都撑不到哟？",
+			say = "我打賭，在「羅德尼」的手底下，妳們半小時都撐不到喲？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1633,13 +1633,13 @@ return {
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "噢~不过在那之前，你们的宝贝指挥官恐怕就先变成灰了。",
+			say = "噢~不過在那之前，妳們的寶貝指揮官恐怕就先變成灰了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1650,13 +1650,13 @@ return {
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "见不到你们全灭的场景，不知道是幸运还是不幸呢~",
+			say = "見不到妳們全滅的場景，不知道是幸運還是不幸呢~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1667,13 +1667,13 @@ return {
 			}
 		},
 		{
-			actorName = "伊丽莎白女王·META",
+			actorName = "伊莉莎白女王·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我们联手，如何？",
+			say = "我們聯手，如何？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1689,20 +1689,20 @@ return {
 			bgName = "bg_huiguangzhicheng_cg12",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "没意见，我要好好教训一下这个狂妄的小鬼。",
+			say = "沒意見，我要好好教訓這個狂妄的小鬼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "海伦娜·META",
+			actorName = "海倫娜·META",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……仅限这一次。",
+			say = "……僅限這一次。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1713,13 +1713,13 @@ return {
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "嚯，看来你们达成一致了？",
+			say = "嚯，看來妳們達成一致了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1730,13 +1730,13 @@ return {
 			}
 		},
 		{
-			actorName = "仲裁者·迪贝路·XV",
+			actorName = "仲裁者·迪貝路·XV",
 			side = 2,
 			bgName = "bg_huiguangzhicheng_cg12",
 			dir = 1,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "哈哈哈，演出开始咯，让我们一同在舞台之上起舞吧~！",
+			say = "哈哈哈，演出開始咯，讓我們一同在舞台之上起舞吧~！",
 			painting = {
 				alpha = 0.3,
 				time = 1

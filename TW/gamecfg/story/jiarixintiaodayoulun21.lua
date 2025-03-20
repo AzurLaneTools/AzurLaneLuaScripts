@@ -297,7 +297,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910009,
+			actor = 9600061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呵呵呵……終於找到你了，主人。我可是等你等到心癢難耐了呢……",
@@ -311,10 +311,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910009,
+			actor = 9600061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "——怎麼樣？指揮官，我這次變裝的感覺不錯吧？",
@@ -342,7 +343,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910004,
+			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "原來指揮官躲在這裡啊~我們可是找了你很久呢。",
@@ -385,10 +386,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910008,
+			actor = 9600021,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "的確……指揮官這樣不符合變裝的主題。",
@@ -402,10 +404,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910004,
+			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不對哦~指揮官之所以穿著平時的衣服參加，就意味著——「變裝」之後才是指揮官。",
@@ -436,10 +439,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910004,
+			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒錯~所以我們可以更隨意地對待眼前的指揮官。",
@@ -453,12 +457,13 @@ return {
 			}
 		},
 		{
-			actor = 910011,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_156",
-			hidePaintObj = true,
+			expression = 0,
 			side = 2,
+			bgName = "star_level_bg_156",
+			nameColor = "#A9F548FF",
+			actor = 9600041,
 			actorName = "瑪麗·賽勒斯特",
+			hidePaintObj = true,
 			say = "嗯……那就讓我來……",
 			typewriter = {
 				speed = 0.05,
@@ -488,10 +493,11 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910004,
+			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "沒想到被瑪莉搶先了呢……那麼，下一個就輪到我了哦~♥",
@@ -505,10 +511,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910004,
+			actor = 9600031,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呵呵……就用這份熱情，將指揮官纏上吧~",
@@ -576,7 +583,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910012,
+			actor = 900438,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "嗯嗯……這可是最適合展現力量的時候啊！老爺子，讓大家看看吧！「老爺子！參上！」",
@@ -601,10 +608,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910006,
+			actor = 901061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "酒杯、酒杯浮起來了……摔碎了，銳劍又搞砸了嗚嗚……",
@@ -672,7 +680,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910006,
+			actor = 901061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "指揮官……都是銳劍沒能做好自己該做的事，還影響到了你……都是銳劍的錯……嗚嗚……",
@@ -701,7 +709,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910006,
+			actor = 901061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "真的嗎……不是銳劍的錯？銳、銳劍很厲害？",
@@ -727,10 +735,11 @@ return {
 			}
 		},
 		{
+			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910006,
+			actor = 901061,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "……嗯！銳劍……以後也會繼續加油的！為了永遠留在指揮官身邊！",
@@ -770,7 +779,7 @@ return {
 			bgName = "star_level_bg_156",
 			side = 2,
 			dir = 1,
-			actor = 406030,
+			actor = 406032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "哼哼♪沒有變裝的指揮官是壞孩子呢~",
@@ -812,10 +821,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 406030,
+			actor = 406032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "不過指揮官如果願意陪亞德跳舞的話，好孩子亞德說不定就會放你一馬~",
@@ -839,11 +849,12 @@ return {
 			}
 		},
 		{
+			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 1,
-			actor = 406030,
+			actor = 406032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "這樣才對嘛~呵呵♪",
@@ -857,11 +868,12 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
 			optionFlag = 2,
-			actor = 406030,
+			actor = 406032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "欸~還在嘴硬呢，指揮官這樣可是沒辦法成為好孩子的哦？",
@@ -892,10 +904,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 406030,
+			actor = 406032,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "呣……不光是島風，還吸引了其他人啊。",
@@ -929,7 +942,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_156",
 			dir = 1,
-			actor = 910016,
+			actor = 203131,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "角色扮演模式——ON。「嘖，真是麻煩的一群傢伙……都退下！這是我盯上的獵物。」",

@@ -252,6 +252,11 @@ pg.task_meta_data_template = setmetatable({
 		100343,
 		100344,
 		100345,
+		100351,
+		100352,
+		100353,
+		100354,
+		100355,
 		200001,
 		200002,
 		200003,
@@ -343,7 +348,11 @@ pg.task_meta_data_template = setmetatable({
 		200251,
 		200252,
 		200253,
-		200254
+		200254,
+		200261,
+		200262,
+		200263,
+		200264
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2154,7 +2163,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100191,
 		target_num = 1,
-		desc = "使用贝亚恩·META获得1次胜利"
+		desc = "使用貝亞恩·META獲得1次勝利"
 	},
 	[100192] = {
 		target_id = "30",
@@ -2162,7 +2171,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100192,
 		target_num = 1,
-		desc = "使用贝亚恩·META击破等级＞30的敌方1次"
+		desc = "使用貝亞恩·META擊破等級＞30的敵方1次"
 	},
 	[100193] = {
 		target_id = "55",
@@ -2170,7 +2179,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100193,
 		target_num = 1,
-		desc = "使用贝亚恩·META击破等级＞55的敌方1次"
+		desc = "使用貝亞恩·META擊破等級＞55的敵方1次"
 	},
 	[100194] = {
 		target_id = "80",
@@ -2178,7 +2187,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100194,
 		target_num = 1,
-		desc = "使用贝亚恩·META击破等级＞80的敌方1次"
+		desc = "使用貝亞恩·META擊破等級＞80的敵方1次"
 	},
 	[100195] = {
 		target_id = "100",
@@ -2186,7 +2195,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 100195,
 		target_num = 1,
-		desc = "使用贝亚恩·META击破等级＞100的敌方1次"
+		desc = "使用貝亞恩·META擊破等級＞100的敵方1次"
 	},
 	[100201] = {
 		target_id = "0",
@@ -2234,7 +2243,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100301,
 		target_num = 1,
-		desc = "使用威奇塔·META获得1次胜利"
+		desc = "使用威奇塔·META獲得1次勝利"
 	},
 	[100302] = {
 		target_id = "30",
@@ -2242,7 +2251,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100302,
 		target_num = 1,
-		desc = "使用威奇塔·META击破等级＞30的敌方1次"
+		desc = "使用威奇塔·META擊破等級＞30的敵方1次"
 	},
 	[100303] = {
 		target_id = "55",
@@ -2250,7 +2259,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100303,
 		target_num = 1,
-		desc = "使用威奇塔·META击破等级＞55的敌方1次"
+		desc = "使用威奇塔·META擊破等級＞55的敵方1次"
 	},
 	[100304] = {
 		target_id = "80",
@@ -2258,7 +2267,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100304,
 		target_num = 1,
-		desc = "使用威奇塔·META击破等级＞80的敌方1次"
+		desc = "使用威奇塔·META擊破等級＞80的敵方1次"
 	},
 	[100305] = {
 		target_id = "100",
@@ -2266,7 +2275,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 100305,
 		target_num = 1,
-		desc = "使用威奇塔·META击破等级＞100的敌方1次"
+		desc = "使用威奇塔·META擊破等級＞100的敵方1次"
 	},
 	[100311] = {
 		target_id = "0",
@@ -2347,6 +2356,46 @@ pg.base.task_meta_data_template = {
 		id = 100345,
 		target_num = 1,
 		desc = "使用{namecode:237}擊破等級＞100的敵方1次"
+	},
+	[100351] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100351,
+		target_num = 1,
+		desc = "使用朱利奧·凱撒·META獲得1次勝利"
+	},
+	[100352] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100352,
+		target_num = 1,
+		desc = "使用朱利奧·凱撒·META擊破等級＞30的敵方1次"
+	},
+	[100353] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100353,
+		target_num = 1,
+		desc = "使用朱利奧·凱撒·META擊破等級＞55的敵方1次"
+	},
+	[100354] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100354,
+		target_num = 1,
+		desc = "使用朱利奧·凱撒·META擊破等級＞80的敵方1次"
+	},
+	[100355] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970507",
+		id = 100355,
+		target_num = 1,
+		desc = "使用朱利奧·凱撒·META擊破等級＞100的敵方1次"
 	},
 	[200001] = {
 		target_id = "0",
@@ -2930,7 +2979,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200191,
 		target_num = 1,
-		desc = "大型作战内使用贝亚恩·META获得1次胜利"
+		desc = "大型作戰內使用貝亞恩·META獲得1次勝利"
 	},
 	[200192] = {
 		target_id = "70",
@@ -2938,7 +2987,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200192,
 		target_num = 1,
-		desc = "大型作战内使用贝亚恩·META击破等级＞70的敌方1次"
+		desc = "大型作戰內使用貝亞恩·META擊破等級＞70的敵方1次"
 	},
 	[200193] = {
 		target_id = "90",
@@ -2946,7 +2995,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200193,
 		target_num = 1,
-		desc = "大型作战内使用贝亚恩·META击破等级＞90的敌方1次"
+		desc = "大型作戰內使用貝亞恩·META擊破等級＞90的敵方1次"
 	},
 	[200194] = {
 		target_id = "100",
@@ -2954,7 +3003,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970704",
 		id = 200194,
 		target_num = 1,
-		desc = "大型作战内使用贝亚恩·META击破等级＞100的敌方1次"
+		desc = "大型作戰內使用貝亞恩·META擊破等級＞100的敵方1次"
 	},
 	[200201] = {
 		target_id = "0",
@@ -2994,7 +3043,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200211,
 		target_num = 1,
-		desc = "大型作战内使用威奇塔·META获得1次胜利"
+		desc = "大型作戰內使用威奇塔·META獲得1次勝利"
 	},
 	[200212] = {
 		target_id = "70",
@@ -3002,7 +3051,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200212,
 		target_num = 1,
-		desc = "大型作战内使用威奇塔·META击破等级＞70的敌方1次"
+		desc = "大型作戰內使用威奇塔·META擊破等級＞70的敵方1次"
 	},
 	[200213] = {
 		target_id = "90",
@@ -3010,7 +3059,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200213,
 		target_num = 1,
-		desc = "大型作战内使用威奇塔·META击破等级＞90的敌方1次"
+		desc = "大型作戰內使用威奇塔·META擊破等級＞90的敵方1次"
 	},
 	[200214] = {
 		target_id = "100",
@@ -3018,7 +3067,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970304",
 		id = 200214,
 		target_num = 1,
-		desc = "大型作战内使用威奇塔·META击破等级＞100的敌方1次"
+		desc = "大型作戰內使用威奇塔·META擊破等級＞100的敵方1次"
 	},
 	[200221] = {
 		target_id = "0",
@@ -3083,5 +3132,37 @@ pg.base.task_meta_data_template = {
 		id = 200254,
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:237}擊破等級＞100的敵方1次"
+	},
+	[200261] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200261,
+		target_num = 1,
+		desc = "大型作戰內使用朱利奧·凱撒·META獲得1次勝利"
+	},
+	[200262] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200262,
+		target_num = 1,
+		desc = "大型作戰內使用朱利奧·凱撒·META擊破等級＞70的敵方1次"
+	},
+	[200263] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200263,
+		target_num = 1,
+		desc = "大型作戰內使用朱利奧·凱撒·META擊破等級＞90的敵方1次"
+	},
+	[200264] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970507",
+		id = 200264,
+		target_num = 1,
+		desc = "大型作戰內使用朱利奧·凱撒·META擊破等級＞100的敵方1次"
 	}
 }

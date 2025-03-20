@@ -107,10 +107,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910014,
+			actor = 805030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "亞爾薩斯表示差異……沒想到異常事件居然又發生了。",
@@ -203,10 +204,11 @@ return {
 			}
 		},
 		{
+			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我發誓，新出現的異常事件絕對不是我做的。",
@@ -220,10 +222,11 @@ return {
 			}
 		},
 		{
+			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "你們想，颶風船團已經成功「劫船」。我的目的已經達成，根本沒必要繼續藏下去了。",
@@ -237,10 +240,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "況且……惡作劇既然已經被發現了，再繼續進行下去豈不是太自討沒趣了？",
@@ -341,10 +345,11 @@ return {
 			}
 		},
 		{
+			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "無法逃離的……走廊？那是什麼。",
@@ -370,10 +375,11 @@ return {
 			}
 		},
 		{
+			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "唔……不是。",
@@ -387,10 +393,11 @@ return {
 			}
 		},
 		{
+			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_131",
 			dir = 1,
-			actor = 910011,
+			actor = 9600040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "我雖然在因為尋找食物的原因多次經過了走廊，不過並沒有在那裡釋放海霧作掩護，畢竟我也不需要。",
