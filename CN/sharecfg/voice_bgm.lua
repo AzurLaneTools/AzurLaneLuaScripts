@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-theme-sardinia",
+		default_bgm = "theme-vichy-church",
 		special_bgm = "",
-		bgm = "story-theme-sardinia"
+		bgm = "theme-vichy-church"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2014,5 +2014,35 @@ pg.voice_bgm = {
 		default_bgm = "story-theme-sardinia",
 		special_bgm = "",
 		bgm = "story-theme-sardinia"
+	},
+	YingxiV4MainRePage = {
+		default_bgm = "theme-kerguelen",
+		special_bgm = "",
+		bgm = "theme-kerguelen"
+	},
+	YingxiV4PtRePage = {
+		default_bgm = "theme-vichy-revelation",
+		special_bgm = "",
+		bgm = "theme-vichy-revelation"
+	},
+	YingxiV4FrameRePage = {
+		default_bgm = "theme-elizabeth-andmeta",
+		special_bgm = "",
+		bgm = "theme-elizabeth-andmeta"
+	},
+	YingxiV4LoginRePage = {
+		default_bgm = "qe-ova-12",
+		special_bgm = "",
+		bgm = "qe-ova-12"
+	},
+	YingxiV4SkirmishRePage = {
+		default_bgm = "qe-ova-1",
+		special_bgm = "",
+		bgm = "qe-ova-1"
+	},
+	SkinEncoreLoginPage = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
 	}
 }

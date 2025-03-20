@@ -170504,6 +170504,81 @@ _G.pg.base.item_virtual_data_statistics[65081] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65082] = {
+	drop_gold_max = 0,
+	name = "单次建造券",
+	display = "于「湮烬尘墟」活动限时复刻中获取，可以免费进行一次期间限定建造（活动结束后消失）",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5858,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65082,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65083] = {
+	drop_gold_max = 0,
+	name = "往昔之印",
+	display = "用于「湮烬尘墟」复刻活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yingxiur_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65083,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65085] = {
+	drop_gold_max = 0,
+	name = "训练点数",
+	display = "用于头像框活动兑换，活动结束后将会消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_yv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65085,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "抵抗之星纪念勋章",
@@ -171809,6 +171884,31 @@ _G.pg.base.item_virtual_data_statistics[65548] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65548,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65550] = {
+	drop_gold_max = 0,
+	name = "换装折扣券（校园生活）",
+	display = "用于「换装商店」内购买所有「校园生活」分类换装时享有300钻石优惠\n有效期至：2025年4月9日 23:59:59",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5850,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65550,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -178586,6 +178686,110 @@ _G.pg.base.item_virtual_data_statistics[86211] = {
 			1260
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86212] = {
+	drop_gold_max = 0,
+	name = "随机换装",
+	display = [[
+从如下换装中随机获得1件未拥有的换装(如果所有换装都已拥有，则会转化为获得680钻石) 
+各换装概率均等，包含换装如下：
+卡辛换装 购物车大小姐；
+唐斯换装 捣蛋的帮手？；
+埃尔德里奇换装 空教室的不可思议；
+埃尔德里奇换装 美好的放学时刻；
+尼古拉斯换装 放学后的“惊喜”？；
+霍比换装 小小学园偶像；
+科尔克换装 学园的雪之妖精；
+哥伦比亚换装 放学前的Odette；
+火奴鲁鲁换装 阳伞下的同桌；
+孟菲斯换装 课间的微风；
+伯明翰换装 赤色的骑行者；
+马布尔黑德换装 雨天的非偶然相遇?；
+波特兰换装 与印第一起的校园生活；
+印第安纳波利斯换装 与姐姐一起的校园生活？；
+阿斯托利亚换装 清纯系辣妹？；
+文森斯换装 悠哉进行曲；
+明尼阿波利斯换装 野性派学生；
+巴尔的摩换装 放学后的ACE；
+独立换装 远道而来的转校生；
+普林斯顿换装 心跳的糖果乐园；
+棘鳍换装 便利店大作战！；
+{namecode:196}换装 不安分的邻座同学？；
+热心换装 热心的情人节；
+雅努斯换装 踌躇的换衣时间；
+英雄换装 邻座的小恶魔；
+阿贾克斯换装 节日的“特别奖励”；
+爱丁堡换装 图书室的妖精；
+确捷换装 自习室的Cyclamen；
+格拉斯哥换装 女仆小姐是同级生；
+斯库拉换装 放学后的密谈？；
+{namecode:457}换装 真理探寻者/truth seeker；
+皇家橡树换装 忧郁少女想要逃避；
+百眼巨人换装 学园之眠不觉晓；
+可畏换装 值日时的春心萌动；
+光荣换装 荣光的校园生活；
+怨仇换装 办公室的“意外”；
+{namecode:2}换装 迟到前的一刻；
+{namecode:3}换装 白兔饲养员；
+{namecode:17}换装 幸运Chocolate；
+{namecode:141}换装 暖阳与午睡时光；
+{namecode:150}换装 渐近的步伐；
+{namecode:142}换装 战国乐队！；
+{namecode:128}换装 模范优等生；
+{namecode:145}换装 樱花下的转校生；
+{namecode:146}换装 午餐的邀约？；
+{namecode:162}换装 元气RUN TIME！；
+{namecode:180}换装 开学晃悠悠；
+{namecode:203}换装 放学后的悠扬；
+{namecode:66}换装 校园浪漫曲；
+{namecode:67}换装 学园幻想曲；
+{namecode:70}换装 微风的上学路；
+{namecode:72}换装 授课前的自由时间；
+{namecode:73}换装 放学后的退敌时间；
+{namecode:79}换装 制服攻势！；
+{namecode:175}换装 偶遇的优等生；
+{namecode:90}换装 课后狩猎时间；
+{namecode:93}换装 走廊上的风纪委员；
+{namecode:94}换装 放学后的极道少女；
+{namecode:97}换装 放学后的甜蜜时光；
+{namecode:154}换装 启程的微风；
+{namecode:155}换装 深海少女；
+{namecode:252}换装 兔兔与珊瑚礁；
+{namecode:400}换装 “叛逆”的优等生；
+{namecode:537}换装 两个人的秘密基地；
+{namecode:494}换装 跷跷板上的嬉戏时间；
+{namecode:431}换装 少女的星期日；
+{namecode:453}换装 暗处的秘密老大？；
+{namecode:463}换装 在教室中等待；
+{namecode:418}换装 学园的Posaunist；
+{namecode:420}换装 Kleiner Hai；
+{namecode:536}换装 在一起回家之前；
+鞍山换装 夕照伊人；
+庞培·马格诺换装 八分音符的美梦；
+的里雅斯特换装 期待的便当时间？；
+帝国换装 图书管理员的倦怠；
+福尔班换装 学园的见习骑士；
+勒马尔换装 闪耀的幸福学园；]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86212,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

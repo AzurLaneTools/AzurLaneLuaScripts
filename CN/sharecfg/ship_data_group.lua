@@ -26531,6 +26531,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"进行轻型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -26710,6 +26721,17 @@ pg.base.ship_data_group = {
 				"限时活动：虚像构筑之塔·序章",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行重型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27228,6 +27250,17 @@ pg.base.ship_data_group = {
 				"限时活动：虚像构筑之塔·序章",
 				{
 					""
+				},
+				0
+			},
+			{
+				"进行特型舰建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

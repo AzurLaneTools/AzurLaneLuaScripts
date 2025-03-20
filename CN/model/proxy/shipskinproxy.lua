@@ -479,6 +479,12 @@ slot0.GetEncoreSkins = function(slot0)
 		end
 	end
 
+	for slot7, slot8 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING)) do
+		if slot8 and not slot8:isEnd() then
+			return slot8:getConfig("config_data")[2]
+		end
+	end
+
 	return {}
 end
 

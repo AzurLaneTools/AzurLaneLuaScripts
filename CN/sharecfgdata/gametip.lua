@@ -12400,22 +12400,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 拉斐尔(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 怨仇(最多4次)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "寰昌 建造追加！"
+	tip = "的里雅斯特 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "济安、龙武、虎贲 建造追加！"
+	tip = "庞培·马格诺 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "喀琅施塔得、伏尔加 建造追加！"
+	tip = "帝国 建造追加！"
 }
 
 
@@ -25861,7 +25861,15 @@ _G.pg.base.gametip.battlepass_main_help_2412 = {
 
 ·<color=#92fc63>奖励规则</color>
 巡游进度奖励分为两种：
-（1）基础巡游奖励：包含<color=#ff5c5c>「朱利奥·凯撒·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>售卖(即1.31 22:59:59停止)，请指挥官注意购买时间。
+（1）基础巡游奖励：包含<color=#ff5c5c>「朱利奥凯撒·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>威悉换装「Offtime Cafe </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即1.31 22:59:59停止)，请指挥官注意购买时间。
 
 ·<color=#92fc63>任务说明</color>
 巡游任务分为两种：
@@ -25933,7 +25941,15 @@ _G.pg.base.gametip.battlepass_main_help_2502 = {
 
 ·<color=#92fc63>奖励规则</color>
 巡游进度奖励分为两种：
-（1）基础巡游奖励：包含<color=#ff5c5c>「博尔扎诺·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>售卖(即3.31 22:59:59停止)，请指挥官注意购买时间。
+（1）基础巡游奖励：包含<color=#ff5c5c>「博尔扎诺·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>反击换装「武韵春华 </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即3.31 22:59:59停止)，请指挥官注意购买时间。
 
 ·<color=#92fc63>任务说明</color>
 巡游任务分为两种：
@@ -37414,4 +37430,28 @@ _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 
 _G.pg.base.gametip.rps_game_take_card = {
 	tip = "确认出牌"
+}
+
+
+_G.pg.base.gametip.SkinDiscountHelp_School = {
+	tip = {
+		{
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「校园生活」系列换装或一个换装礼盒(校园生活)时，可领取一张<color=#92fc63>换装折扣券（校园生活）</color>\n2.<color=#92fc63>换装折扣券（校园生活）</color>可用于购买「校园生活」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（校园生活）</color>将会在活动结束后（2025年4月9日23:59:59）消失"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Hint = {
+	tip = "当前有未领取的换装折扣券，是否前往领取？"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Got = {
+	tip = "已拥有:$1"
+}
+
+
+_G.pg.base.gametip.skin_original_price = {
+	tip = "原价"
 }

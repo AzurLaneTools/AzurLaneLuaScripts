@@ -87,6 +87,7 @@ pg.pay_data_display = setmetatable({
 		87,
 		88,
 		89,
+		90,
 		1000,
 		1001,
 		1002,
@@ -9128,6 +9129,105 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81203,
+				1
+			}
+		}
+	},
+	[90] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼盒将发送到邮箱，请注意查收。\n*拥有列表中的所有换装则转换为获得680钻石。",
+		type = 1,
+		name = "换装礼盒(校园生活)",
+		first_pay_double = 0,
+		name_display = "换装礼盒(校园生活)",
+		descrip = "可获得列表中未拥有的换装*1（拥有列表中所有换装则转换为获得钻石）和其他奖励",
+		subject = "换装礼盒(校园生活)",
+		money = 48,
+		limit_arg = 2,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai23",
+		skin_inquire_relation = 86212,
+		id_str = "com.bilibili.blhx.zuanshi190",
+		extra_service = 3,
+		id = 90,
+		airijp_id = "com.yostarjp.azurlane.diamond178",
+		extra_service_item = {
+			{
+				2,
+				86212,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86212,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81212,
 				1
 			}
 		}

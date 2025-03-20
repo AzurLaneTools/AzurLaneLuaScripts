@@ -3520,7 +3520,10 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/dafeng_6_tex",
 			"painting/dafeng_6_shophx_tex",
+			"painting/dafeng_6_shophx",
+			"painting/dafeng_6_rw_tex",
 			"painting/dafeng_6_n_tex",
+			"painting/dafeng_6_n_rw_tex",
 			"painting/dafeng_6_n",
 			"painting/dafeng_6"
 		}
@@ -5708,7 +5711,8 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/haifeng_3_tex",
 			"painting/haifeng_3_rw_tex",
-			"painting/haifeng_3_n_tex",
+			"painting/haifeng_3_n_rw_tex",
+			"painting/haifeng_3_n_rw",
 			"painting/haifeng_3_n",
 			"painting/haifeng_3"
 		}
@@ -14060,8 +14064,10 @@ pg.painting_filte_map = {
 		key = "siwanshi_2",
 		res_list = {
 			"painting/siwanshi_2_tex",
-			"painting/siwanshi_2_n_tex",
+			"painting/siwanshi_2_rw_tex",
+			"painting/siwanshi_2_n_rw_tex",
 			"painting/siwanshi_2_n",
+			"painting/siwanshi_2_bj_tex",
 			"painting/siwanshi_2"
 		}
 	},

@@ -173,12 +173,16 @@ slot0.getData1 = function(slot0)
 	return slot0.data1
 end
 
-slot0.getStrData1 = function(slot0)
-	return slot0.str_data1
+slot0.getData2 = function(slot0)
+	return slot0.data2
 end
 
 slot0.getData3 = function(slot0)
 	return slot0.data3
+end
+
+slot0.getStrData1 = function(slot0)
+	return slot0.str_data1
 end
 
 slot0.getData1List = function(slot0)
@@ -646,10 +650,19 @@ slot0.readyToAchieve = function(slot0)
 			return slot4 < slot3 and (slot3 > slot3 - _.reduce(slot1.goodsId, 0, function (slot0, slot1)
 				return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
 			end) and pg.activity_shop_template[slot1.goodsId[slot4]] or nil).resource_num <= getProxy(PlayerProxy):getData():getResource(slot1.uPtId)
+		end,
+		[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] = function (slot0)
+			return slot0:getData1() > 0
 		end
 	}
 
-	return switch(slot0:getConfig("type"), uv0.readyToAchieveDic, nil, slot0)
+	if switch(slot0:getConfig("type"), uv0.readyToAchieveDic, nil, slot0) then
+		return true
+	elseif slot0:getConfig("config_client").sub_act_id then
+		return getProxy(ActivityProxy):getActivityById(slot0:getConfig("config_client").sub_act_id) and not slot3:isEnd() and slot3:readyToAchieve()
+	else
+		return false
+	end
 end
 
 slot0.IsShowTipById = function(slot0)
