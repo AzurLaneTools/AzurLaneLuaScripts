@@ -19897,6 +19897,7 @@ pg.activity_template = {
 	},
 	[5808] = {
 		mark = 20250220,
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 30,
@@ -19904,33 +19905,6 @@ pg.activity_template = {
 		title_res_tag = "Georgia_catchup",
 		id = 5808,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "FlandreTecCatchupPage",
 			ui_name = "FlandreTecCatchupPage"
@@ -19941,6 +19915,7 @@ pg.activity_template = {
 	},
 	[5809] = {
 		mark = 20250220,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -19977,33 +19952,6 @@ pg.activity_template = {
 				21254
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "YidaliV4SkinPage",
 			ui_name = "YidaliV4SkinPage"
@@ -20036,6 +19984,7 @@ pg.activity_template = {
 	},
 	[5810] = {
 		mark = 20250220,
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 27,
@@ -20044,33 +19993,6 @@ pg.activity_template = {
 		title_res_tag = "activity",
 		id = 5810,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "YidaliV4FramePage",
 			ui_name = "YidaliV4FramePage"
@@ -20092,6 +20014,7 @@ pg.activity_template = {
 	[5812] = {
 		mark = 20250227,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -20109,33 +20032,6 @@ pg.activity_template = {
 			21283,
 			21284,
 			21285
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5821] = {
@@ -20326,6 +20222,7 @@ pg.activity_template = {
 	},
 	[5828] = {
 		mark = 20250227,
+		time = "stop",
 		type = 74,
 		login_pop = 0,
 		config_id = 5828,
@@ -20333,33 +20230,6 @@ pg.activity_template = {
 		title_res_tag = "raffaello_pt",
 		id = 5828,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "RaphaelSPPtPage",
 			ui_name = "RaphaelSPPtPage"
@@ -20379,6 +20249,7 @@ pg.activity_template = {
 	[5829] = {
 		mark = 20250227,
 		page_info = "",
+		time = "stop",
 		type = 14,
 		login_pop = 0,
 		config_id = 0,
@@ -20413,33 +20284,6 @@ pg.activity_template = {
 			2927,
 			2928,
 			2929
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			"commonbg/bg_pt_raffaello",
@@ -20526,6 +20370,7 @@ pg.activity_template = {
 	[5847] = {
 		mark = 20250227,
 		page_info = "",
+		time = "stop",
 		type = 10,
 		login_pop = 0,
 		config_id = 5846,
@@ -20533,38 +20378,12 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5847,
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					2,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					19
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		config_data = {}
 	},
 	[5848] = {
 		mark = 20250313,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -20578,33 +20397,6 @@ pg.activity_template = {
 			10192,
 			10193,
 			10194
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					3,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					3,
-					20
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5850] = {
