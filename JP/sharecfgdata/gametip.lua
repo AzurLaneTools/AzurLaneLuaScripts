@@ -33385,7 +33385,7 @@ _G.pg.base.gametip.skin_exchange_confirm = {
 
 
 _G.pg.base.gametip.skin_purchase_confirm = {
-	tip = "<size=32><color=#92fc63>$1*1</color>を消費し、割引価格\n<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>で<color=#92fc63>$3</color>着せ替えを購入しますか？</size>"
+	tip = "<size=30><color=#92fc63>$1*1</color>を消費し、割引価格<icon name=gem w=0.6 h=0.6/><color=#FFDE38FF>$2</color>で\n<color=#92fc63>$3</color>着せ替えを購入しますか？</size>"
 }
 
 
@@ -37984,5 +37984,5 @@ _G.pg.base.gametip.SkinDiscount_Got = {
 
 
 _G.pg.base.gametip.skin_original_price = {
-	tip = "原价"
+	tip = "通常"
 }
