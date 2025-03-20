@@ -14,6 +14,7 @@ slot0.OnLoaded = function(slot0)
 
 	setText(slot0.cancelBtn:Find("pic"), i18n("msgbox_text_cancel"))
 	setText(slot0.confirmBtn:Find("pic"), i18n("msgbox_text_confirm"))
+	setText(slot0:findTF("window/top/bg/infomation/title"), i18n("words_information"))
 end
 
 slot0.OnInit = function(slot0)
@@ -51,17 +52,17 @@ slot0.RegisterBtn = function(slot0, slot1)
 end
 
 slot0.UpdateContent = function(slot0, slot1)
-	slot2 = slot1.itemConfig
-	slot0.label1.text = i18n("skin_purchase_confirm", slot2.name, slot1.price, slot1.skinName)
-	slot0.nameTxt.text = slot2.name
+	slot2 = slot1.drop
+	slot0.label1.text = i18n("skin_purchase_confirm", slot2:getName(), slot1.price, slot1.skinName)
+
+	setActive(slot0.label1, false)
+	setActive(slot0.label1, true)
+
+	slot0.nameTxt.text = slot2:getName()
 end
 
 slot0.UpdateItem = function(slot0, slot1)
-	updateDrop(slot0.leftItemTr, {
-		count = 1,
-		type = DROP_TYPE_ITEM,
-		id = slot1.itemConfig.id
-	})
+	updateDrop(slot0.leftItemTr, slot1.drop)
 end
 
 slot0.Hide = function(slot0)

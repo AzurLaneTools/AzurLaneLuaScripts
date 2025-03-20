@@ -12857,22 +12857,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Raffaello guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Implacable guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Huan Ch'ang added to standard build pool!"
+	tip = "Trieste added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Chi An, Lung Wu, and Hu Pen added to standard build pool!"
+	tip = "Pompeo Magno added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Kronshtadt and Volga added to standard build pool!"
+	tip = "Impero added to standard build pool!"
 }
 
 
@@ -37796,4 +37796,28 @@ _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 
 _G.pg.base.gametip.rps_game_take_card = {
 	tip = "Confirm Card"
+}
+
+
+_G.pg.base.gametip.SkinDiscountHelp_School = {
+	tip = {
+		{
+			info = "1. During the campaign, if you purchase a School Girl series skin <color=#92fc63>without using a coupon</color> or purchase the School Return Lucky Box, you may claim a <color=#92fc63>Skin Coupon (School)</color> from the campaign page.\n2. The <color=#92fc63>Skin Coupon (School)</color> gives you a discount of 300 Gems when purchasing a School series skin. This discount is not applicable to item packs.\n3. If you have not used this coupon before the campaign ends (at the server reset on April 10th, 2025), it will be removed automatically."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Hint = {
+	tip = "You have an unclaimed coupon. Would you like to go to the claim coupon page?"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Got = {
+	tip = "Owned: $1"
+}
+
+
+_G.pg.base.gametip.skin_original_price = {
+	tip = "Full Price"
 }

@@ -167787,6 +167787,106 @@ _G.pg.base.item_virtual_data_statistics[65081] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65082] = {
+	drop_gold_max = 0,
+	name = "Shipbuilding Support Ticket",
+	display = "A limited construction ticket for use during the \"Revelations of Dust Rerun\" event. Removed after the event ends.",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5858,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65082,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65083] = {
+	drop_gold_max = 0,
+	name = "Ancient Seal",
+	display = "Used to exchange for items in \"Revelations of Dust Rerun\". Will be removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yingxiur_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65083,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65084] = {
+	drop_gold_max = 0,
+	name = "Rental Outfit Voucher",
+	display = "Allows you to rent and equip an available outfit for a ship of your choice for a limited time.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65084,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65085] = {
+	drop_gold_max = 0,
+	name = "Training Pts",
+	display = "Used to exchange for a portrait frame. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_yv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65085,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "Stellar Resistance Medal",
@@ -169092,6 +169192,31 @@ _G.pg.base.item_virtual_data_statistics[65548] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65548,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65550] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (School)",
+	display = "During the campaign, this coupon can used to gain a discount of 300 Gems when buying a School Girl series skin in the Shop.\nValid until 2025.4.9 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5850,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65550,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177023,6 +177148,110 @@ _G.pg.base.item_virtual_data_statistics[86211] = {
 			1260
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86212] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = [[
+Purchase to receive 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems x680 instead); all skins have an equal probability of being chosen:
+
+Cassin - Shopping Carte Blanche;
+Downes - Part-Time Bomber;
+Eldridge - The Inquisitive Recluse;
+Eldridge - After-School Good Girl;
+Nicholas - After-School Promise;
+Hobby - Little Idol Schoolgirl;
+Kalk - Snow Fairy Schoolgirl;
+Columbia - After-School Odette;
+Honolulu - Umbrella Girl;
+Memphis - A Breath of Fresh Air;
+Birmingham - Rider of Red;
+Marblehead - Not-So-Serendipitous Rain;
+Portland - At School With Indy!;
+Indianapolis - At School With My Sister...;
+Astoria - Pure "Gurl?";
+Vincennes - Leisurely ABC's;
+Minneapolis - Wild Huntress Schoolgirl;
+Baltimore - After-School Ace;
+Independence - Transfer Student From Afar;
+Princeton - Lolipop Paradise;
+Cavalla - Convenience Store Raid!;
+Archerfish - The Devil Next Door;
+Ardent - Ardent Valentine;
+Janus - Fear of Changing... Clothes;
+Hero - The Devil Wears Knee-Highs;
+Ajax - Valentine's Reward?;
+Edinburgh - The Library Fairy;
+Swiftsure - Study Hall Cyclamen;
+Glasgow - A Maid in Class;
+Scylla - Femme Fatale Fresher;
+York - Truth Seeker;
+Royal Oak - Bashful Oak;
+Argus - A Hundred Sleepless Eyes;
+Formidable - The Lover's Heart Flutters On Duty;
+Glorious - Glorious School Life;
+Implacable - Shepherd of the "Lost";
+Fubuki - 5 Minutes Till I'm Late;
+Shirayuki - Bunny Breeder;
+Shigure - Lucky Chocolate;
+Wakaba - A Healthy Dose of Sunshine!;
+Umikaze - Baby Steps;
+Urakaze - Sengoku☆Shredder!;
+Hamakaze - The Honors Student;
+Asashio - The Transfer Student Underneath the Dancing Petals;
+Ooshio - Let's 'ave Lunch;
+Makinami - Time for School!;
+Kasumi - At School with Foo;
+Kazagumo - After-School Melody;
+Takao - School Romanza;
+Atago - School Traumerei;
+Kongou - Breezy Commute;
+Haruna - Free Time Before Class;
+Kirishima - After-School Cannon Time;
+Yamashiro - Street Corner Offensive!;
+Suruga - Straightfaced Model Student;
+Ryuujou - Dragon Hunter: Ryuujou's Rise;
+Souryuu - The Counselor Girl;
+Hiryuu - After School Bullies;
+Taihou - Sweet Time After School;
+I-19 - Departure's Gentle Breeze;
+I-26 - Deep-Sea Rabbit;
+I-25 - Coral Reef Bunny;
+Z1 - "Rebellious" Top Student;
+Z43 - A Secret Base For Two;
+Z47 - Young-Again Filter;
+Admiral Graf Spee - Girl's Sunday;
+Prinz Heinrich - Secret Boss o' the Underworld?;
+Ulrich von Hutten - What Comes After the Bell;
+U-101 - Ironbrass Trombonist;
+U-110 - Kleiner Hai;
+U-31 - Let's Go Home;
+An Shan - Setting Sun, Hearts as One;
+Pompeo Magno - Quaver Daydream;
+Trieste - Rooftop Lunch Break;
+Impero - Languid Librarian;
+Forbin - École de Chevalier;
+Le Mars - Écolière Heureuse;]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86212,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

@@ -504,6 +504,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200100,
 		2200110,
 		2200120,
+		2200130,
 		9920001,
 		9920002,
 		9920011,
@@ -15884,7 +15885,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1710001",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -15934,7 +15935,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1710002",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -15984,7 +15985,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1710003",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16034,7 +16035,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1710004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16084,7 +16085,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1710005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -16134,7 +16135,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1710005",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4701,
+		on_activity = 5860,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -27648,6 +27649,85 @@ pg.base.expedition_data_by_map = {
 			{
 				0,
 				-465
+			}
+		}
+	},
+	[2200130] = {
+		map = 2200130,
+		name = "Virtual Tower|| ||CHAPTER EX||E.X.",
+		bgm = "theme-arbitrator-tower",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1620001",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1620001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					2200131,
+					"jianzhu01"
+				}
+			},
+			{
+				1,
+				{
+					2200132,
+					"jianzhu02"
+				}
+			},
+			{
+				1,
+				{
+					2200133,
+					"jianzhu03"
+				}
+			},
+			{
+				1,
+				{
+					2200134,
+					"jianzhu04"
+				}
 			}
 		}
 	},
