@@ -4,11 +4,11 @@ slot0.MODE_EXPERIENCE = 2
 slot0.MODE_EXPERIENCE_FOR_ITEM = 3
 slot2 = -2
 slot4 = -4
+slot0.PAGE_RETURN = -3
 slot5 = 9999
 slot6 = 9997
 slot7 = 9998
 slot0.PAGE_ALL = -1
-slot0.PAGE_RETURN = -3
 slot0.optionsPath = {
 	"overlay/blur_panel/adapt/top/option"
 }
@@ -265,21 +265,13 @@ end
 
 slot0.UpdateCouponBtn = function(slot0)
 	slot1 = SkinCouponActivity.StaticExistActivityAndCoupon() and (not slot0.contextData.mode or slot0.contextData.mode == uv0.MODE_OVERVIEW)
-
-	if slot0.isFilterCoupon and not slot1 then
-		slot0.isFilterCoupon = false
-	end
-
+	slot0.isFilterCoupon = tobool(slot0.isFilterCoupon) and slot1
 	slot0.couponTr.localScale = slot1 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
 slot0.UpdateVoucherBtn = function(slot0)
 	slot2 = #getProxy(BagProxy):GetSkinShopDiscountItemList() > 0 and (not slot0.contextData.mode or slot0.contextData.mode == uv0.MODE_OVERVIEW)
-
-	if slot0.isFilterVoucher and not slot2 then
-		slot0.isFilterVoucher = false
-	end
-
+	slot0.isFilterVoucher = tobool(slot0.isFilterVoucher) and slot2
 	slot0.voucherTr.localScale = slot2 and Vector3(1, 1, 1) or Vector3(0, 0, 0)
 end
 
@@ -328,13 +320,13 @@ slot0.OnSearch = function(slot0)
 	end
 end
 
-slot8 = function(slot0)
-	if slot0 == uv0.MODE_EXPERIENCE then
+slot0.GetDefaultPage = function(slot0, slot1)
+	if slot1 == uv0.MODE_EXPERIENCE then
 		return uv1
-	elseif slot0 == uv0.MODE_EXPERIENCE_FOR_ITEM then
+	elseif slot1 == uv0.MODE_EXPERIENCE_FOR_ITEM then
 		return uv2
 	else
-		return uv3
+		return slot0.contextData.page and slot0.contextData.page or uv3
 	end
 end
 
@@ -353,7 +345,7 @@ slot0.SetUp = function(slot0)
 		getProxy(SettingsProxy):SetNextTipTimeLimitSkinShop()
 	end
 
-	slot0.skinPageID = slot0.contextData.warp or uv1(slot1)
+	slot0.skinPageID = slot0:GetDefaultPage(slot1)
 
 	parallelAsync({
 		function (slot0)
@@ -397,7 +389,7 @@ slot0.UpdateTitle = function(slot0, slot1)
 	slot0.titleEn:SetNativeSize()
 end
 
-slot9 = function(slot0, slot1)
+slot8 = function(slot0, slot1)
 	slot2 = pg.skin_page_template
 	slot4, slot5 = nil
 
@@ -464,7 +456,7 @@ slot0.InitSkinClassify = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot10 = function(slot0)
+slot9 = function(slot0)
 	if not uv0.cacheSkinExperienceItems then
 		uv0.cacheSkinExperienceItems = getProxy(BagProxy):GetSkinExperienceItems()
 	end
@@ -545,7 +537,7 @@ slot0.IsSearchType = function(slot0, slot1, slot2)
 	}):IsMatchKey(slot1)
 end
 
-slot11 = function(slot0, slot1, slot2)
+slot10 = function(slot0, slot1, slot2)
 	if slot2[slot0.id] == slot2[slot1.id] then
 		return slot0.id < slot1.id
 	else

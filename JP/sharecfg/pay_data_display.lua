@@ -87,6 +87,7 @@ pg.pay_data_display = setmetatable({
 		87,
 		88,
 		89,
+		90,
 		1000,
 		1001,
 		1002,
@@ -9246,6 +9247,105 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81203,
+				1
+			}
+		}
+	},
+	[90] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※福袋はメールボックスに送られます\n※全部所持している場合自動でダイヤ×680に変換されます",
+		type = 1,
+		name = "着せ替えパック(学園)",
+		first_pay_double = 0,
+		name_display = "着せ替えパック(学園)",
+		descrip = "<size=18>下記着せ替え中の未所持着せ替えをランダムで1着（全部所持している場合自動でダイヤに変換されます）とその他アイテムを入手できます</size>",
+		subject = "着せ替えパック(学園)",
+		money = 1000,
+		limit_arg = 2,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai23",
+		skin_inquire_relation = 86212,
+		id_str = "com.bilibili.blhx.zuanshi190",
+		extra_service = 3,
+		id = 90,
+		airijp_id = "com.yostarjp.azurlane.diamond178",
+		extra_service_item = {
+			{
+				2,
+				86212,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					20
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86212,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81212,
 				1
 			}
 		}

@@ -12771,22 +12771,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "期間限定建造を累計200回行うと「ラファエロ」を確定で入手可能！（最大4隻まで）"
+	tip = "期間限定建造を累計200回行うと「インプラカブル」を確定で入手可能！（最大4隻まで）"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「寰昌」常設実装！"
+	tip = "「トリエステ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「済安」「龍武」「虎賁」常設実装！"
+	tip = "「ポンペオ・マーニョ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「クロンシュタット」「ヴォルガ」常設実装！"
+	tip = "「インペロ」常設実装！"
 }
 
 
@@ -37961,4 +37961,28 @@ _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 
 _G.pg.base.gametip.rps_game_take_card = {
 	tip = "カード確定"
+}
+
+
+_G.pg.base.gametip.SkinDiscountHelp_School = {
+	tip = {
+		{
+			info = "1.キャンペーン期間中、<color=#92fc63>クーポンを使用せずに</color>「学園」シリーズ着せ替えを購入するか、着せ替えパック（学園）を購入した場合、キャンペーンページにて<color=#92fc63>着せ替えクーポン（学園）</color>を入手できます\n2.<color=#92fc63>着せ替えクーポン（学園）</color>は「学園」シリーズの着せ替えを購入する際に、ダイヤ×300分割引になります（お得パックを購入する時には使用できません）\n3.キャンペーン終了時【2025年4月9日（水）23:59:59】、未使用の<color=#92fc63>着せ替えクーポン（学園）</color>は削除されます"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Hint = {
+	tip = "未受取の着せ替えクーポンがあります。クーポン受け取りページに移動しますか？"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Got = {
+	tip = "所持中:$1"
+}
+
+
+_G.pg.base.gametip.skin_original_price = {
+	tip = "原价"
 }

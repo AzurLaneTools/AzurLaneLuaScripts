@@ -139671,6 +139671,1819 @@ _G.pg.base.task_data_template[21291] = {
 }
 
 
+_G.pg.base.task_data_template[21294] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905247,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "20250320『校园生活』系列返场 登陆奖励1",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21294,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54016,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21295] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905248,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "20250320『校园生活』系列返场 登陆奖励2",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21295,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54051,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21296] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905249,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "20250320『校园生活』系列返场 登陆奖励3",
+	desc = "不应该被看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21296,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21297] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905250,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务1",
+	desc = "艦隊を出撃させ、10回S評価で勝利せよ！",
+	sub_type = 24,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21297,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21298] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905251,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务2",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21298,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21299] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905252,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务3",
+	desc = "演習を2回行う",
+	sub_type = 27,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21299,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54049,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21300] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905253,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务4",
+	desc = "「軍事委託」を2回遂行する",
+	sub_type = 80,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21300,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21301] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905254,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务5",
+	desc = "艦を2隻「退役」して、艦隊を再編せよ！",
+	sub_type = 31,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21301,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54015,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21302] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905255,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务6",
+	desc = "「デイリーチャレンジ」を三回行う ",
+	sub_type = 26,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21302,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21303] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905256,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务7",
+	desc = "艦を5回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21303,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54033,
+			2
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21304] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905257,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务8",
+	desc = "戦術教室で戦術訓練を2回行う",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21304,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21305] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905258,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务9",
+	desc = "任意の敵艦を20隻撃破する",
+	sub_type = 11,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21305,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21306] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905259,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务10",
+	desc = "寮舎で食糧を5回補充する",
+	sub_type = 61,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21306,
+	target_num = 5,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			17003,
+			10
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21307] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905260,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务11",
+	desc = "艦を2隻「建造」せよ！",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21307,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			54006,
+			5
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21308] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905261,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务12",
+	desc = "装備箱を1個開ける",
+	sub_type = 50,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21308,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21309] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905262,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务13",
+	desc = "戦術教室で戦術訓練を2回遂行せよ！",
+	sub_type = 71,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21309,
+	target_num = 2,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21310] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905263,
+	type = 26,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』前哨战七日任务14",
+	desc = "艦隊を出撃させ、敵中枢艦隊を3回撃破せよ！",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21310,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3860,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21311] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905267,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』登录送皮肤体验券活动",
+	desc = "ゲームにログインせよ！",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21311,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			479,
+			3
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21312] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905307,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』-日常建造",
+	desc = "3回建造する",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21312,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65083,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21313] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905308,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』-日常出击",
+	desc = "艦隊を出撃させ、15回勝利せよ！",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21313,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65083,
+			300
+		},
+		{
+			2,
+			65082,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21314] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905309,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』-日常困难本",
+	desc = "通常海域ハードを１回クリアする",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21314,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65083,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21315] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905310,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』-日常活动关卡",
+	desc = "任意のイベントステージを1回クリア",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21315,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710001,
+		1710002,
+		1710003,
+		1710004,
+		1710005,
+		1710006,
+		1710021,
+		1710022,
+		1710023,
+		1710024,
+		1710025,
+		1710026,
+		1710041,
+		1710051
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			65083,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5861
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21316] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905311,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关A1/C1",
+	desc = "A1かC1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21316,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710001,
+		1710021
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65082,
+			1
+		},
+		{
+			2,
+			65083,
+			200
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5860
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21317] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905312,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关A2/C2",
+	desc = "A2かC2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21317,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710002,
+		1710022
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65082,
+			1
+		},
+		{
+			2,
+			65083,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5860
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21318] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905313,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关A3/C3",
+	desc = "A3かC3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21318,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710003,
+		1710023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65082,
+			2
+		},
+		{
+			2,
+			65083,
+			600
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5860
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21319] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905314,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关B1/D1",
+	desc = "B1かD1を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21319,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710004,
+		1710024
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65082,
+			1
+		},
+		{
+			2,
+			65083,
+			400
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5861
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21320] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905315,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关B2/D2",
+	desc = "B2かD2を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21320,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710005,
+		1710025
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			1
+		},
+		{
+			2,
+			65082,
+			1
+		},
+		{
+			2,
+			65083,
+			600
+		},
+		{
+			1,
+			1,
+			600
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5861
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21321] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905316,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关B3/D3",
+	desc = "B3かD3を1回クリアする",
+	sub_type = 21,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 10,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21321,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710006,
+		1710026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65082,
+			2
+		},
+		{
+			2,
+			65083,
+			800
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5861
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21322] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905317,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关SP",
+	desc = "イベントステージSPをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21322,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1710041",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			20001,
+			2
+		},
+		{
+			2,
+			65082,
+			3
+		},
+		{
+			1,
+			1,
+			1500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1710025,
+			chapterId = 1710041
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21323] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905318,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关D3",
+	desc = "D3クリア(2個目は取得できません)",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21323,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1710026",
+	open_need = {},
+	award_display = {
+		{
+			5,
+			243,
+			1
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1710012,
+			chapterId = 1710026
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21324] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905319,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』通关EX",
+	desc = "EXステージをクリア",
+	sub_type = 1020,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21324,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1710051",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"LEVEL",
+		{
+			mapIdx = 1710026,
+			chapterId = 1710051
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21325] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905320,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』A1/C1的3星",
+	desc = "A1かC1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21326",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21325,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710001,
+		1710021
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5860
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21326] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905321,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』A2/C2的3星",
+	desc = "A2かC2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21327",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21326,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710002,
+		1710022
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100001,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5860
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21327] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905322,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』A3/C3的3星",
+	desc = "A3かC3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21328",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21327,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710003,
+		1710023
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5860
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21328] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905323,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』B1/D1的3星",
+	desc = "B1かD1の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21329",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21328,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710004,
+		1710024
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			2,
+			500
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5861
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21329] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905324,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』B2/D2的3星",
+	desc = "B2かD2の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "21330",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21329,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710005,
+		1710025
+	},
+	open_need = {},
+	award_display = {
+		{
+			4,
+			100011,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5861
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21330] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905325,
+	type = 6,
+	is_head = 0,
+	count_inherit = 0,
+	name = "『怨仇复刻』B3/D3的3星",
+	desc = "B3かD3の作戦目標(星3つ)を全て達成!",
+	sub_type = 1021,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21330,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1710006,
+		1710026
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			18033,
+			1
+		}
+	},
+	scene = {
+		"ACTIVITY_MAP",
+		{
+			5861
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21331] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905326,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『怨仇复刻』外观装备箱保底",
+	desc = "イベントショップか購買部で装備外装箱（ロイヤル学園）を20個購入する",
+	sub_type = 52,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21331,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "30344",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			30519,
+			1
+		}
+	},
+	scene = {
+		"SHOP",
+		{
+			warp = "shopstreet"
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

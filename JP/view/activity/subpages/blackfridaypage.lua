@@ -39,7 +39,7 @@ slot0.OnFirstFlush = function(slot0)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 		else
 			uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP, {
-				warp = NewSkinShopScene.PAGE_RETURN
+				page = NewSkinShopScene.PAGE_RETURN
 			})
 		end
 	end, SFX_PANEL)

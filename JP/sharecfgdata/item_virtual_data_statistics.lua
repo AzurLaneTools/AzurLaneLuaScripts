@@ -169882,6 +169882,106 @@ _G.pg.base.item_virtual_data_statistics[65081] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65082] = {
+	drop_gold_max = 0,
+	name = "建造支援チケット",
+	display = "イベント「黙示の遺構」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5858,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65082,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65083] = {
+	drop_gold_max = 0,
+	name = "ザ・シギライト",
+	display = "「黙示の遺構」報酬交換用。イベント終了後に削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yingxiur_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65083,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65084] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2025.3.26まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2025.3.26まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65084,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65085] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・ロイヤル」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_yv3",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65085,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "レジスタンス記念勲章",
@@ -171187,6 +171287,31 @@ _G.pg.base.item_virtual_data_statistics[65548] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65548,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65550] = {
+	drop_gold_max = 0,
+	name = "着せ替えクーポン（学園）",
+	display = "キャンペーン期間中、ショップで「学園」シリーズの着せ替えを購入時、ダイヤ×300分割引になります",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5850,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65550,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -177924,6 +178049,109 @@ _G.pg.base.item_virtual_data_statistics[86211] = {
 			1260
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86212] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = [[
+購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは同じ確率で出現します：
+カッシン「カート・ショッピング」；
+ダウンズ「パートタイムボンバー」；
+エルドリッジ「空き教室の不思議」；
+エルドリッジ「今日もいい子の放課後」；
+ニコラス「放課後の約束」；
+ホビー「リトルスクールスター」；
+カーク「学園の雪妖精」；
+コロンビア「下校前のオデット」；
+ホノルル「日傘のカノジョ」；
+メンフィス「ギョーカンの流儀」；
+バーミンガム「ナイト・イン・レッド」；
+マーブルヘッド「アンティシペイティッド・レイン」；
+ポートランド「学園でインディちゃんと！」；
+インディアナポリス「学園でお姉ちゃんと……」；
+アストリア「純情ギャル？」；
+ヴィンセンス「イージースクール」；
+ミネアポリス「ワイルドステューデント」；
+ボルチモア「エースの放課後」；
+インディペンデンス「此方の学園へ」；
+プリンストン「ロリポップ・饅頭ランド」；
+カヴァラ「コンビニ作戦！」；
+アーチャーフィッシュ「となりのお茶目さん」；
+アーデント「バレンタインの熱心」；
+ジェーナス「フィッティング・ラブ」；
+ヒーロー「隣のデモニックヒーローちゃん」；
+エイジャックス「バレンタインのご褒美？」；
+エディンバラ「図書室の妖精さん」；
+スウィフトシュア「自習室のシクラメン」；
+グラスゴー「メイド・クラスメイト」；
+シラ「後輩ちゃんに溺れて」；
+ヨーク「真理を求めし者」；
+ロイヤル・オーク「シャイネス・オーク」；
+アーガス「学園暁を覚えず」；
+フォーミダブル「恋心、ときめく日直」；
+グロリアス「栄光なる学園生活」；
+インプラカブル「迷える指揮官を導いて」；
+吹雪「遅刻五分前」；
+白雪「雪うさぎの飼育方法」；
+時雨「ラッキーショコラ」；
+若葉「太陽の惠、たっぷりと！」；
+海風「Babysteps」；
+浦風「センゴク☆バンド！」；
+浜風「ザ・優等生」；
+朝潮「花舞う季節の転校生」；
+大潮「お昼のいざない」；
+巻波「学園へGO！」；
+霞「ふわりん学級」；
+風雲「風雲は悠々と流れる」；
+高雄「学園ロマンチカ」；
+愛宕「学園トロイメライ」；
+金剛「風舞う通学路」；
+榛名「授業前休憩ブレイク」；
+霧島「放課後砲撃タイム」；
+山城「制服大作戦！」；
+駿河「文化系なんだからっ」；
+龍驤「龍驤のドラゴン狩りタイム」；
+蒼龍「廊下の風紀委員」；
+飛龍「放課後スケバンガール」；
+大鳳「下校後の甘い時間」；
+伊19「旅立ちのそよ風」；
+伊26「ウサギと深海魚」；
+伊25「ウサギとサンゴ礁」；
+Z1「反逆のフィアツェーン」；
+Z43「二人の秘密基地」；
+Z47「おこちゃまフィルター」；
+アドミラル・グラーフ・シュペー「少女の日曜日」；
+プリンツ・ハインリヒ「裏の裏番長？」；
+ウルリッヒ・フォン・フッテン「チャイム·プログレッシヴ」；
+U-101「学園のPosaunist」；
+U-110「KleinerHai」；
+U-31「共に帰路につく前に」；
+鞍山「夕暉・伊人」；
+ポンペオ・マーニョ「クェイバー・デイドリーム」；
+トリエステ「今日の弁当当番は…？」；
+インペロ「朦朧のライブラリアン」；
+フォルバン「エコール・ド・シュヴァリエ」；
+ル・マルス「スコレア・ウルーズ」；]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86212,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 
