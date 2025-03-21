@@ -8321,7 +8321,7 @@ pg.base.ship_data_group = {
 		trans_type = 5,
 		handbook_type = 0,
 		redirect_id = 101,
-		trans_skin = 0,
+		trans_skin = 105099,
 		hide = 0,
 		group_type = 10509,
 		index_id = 103,
@@ -8335,8 +8335,17 @@ pg.base.ship_data_group = {
 			"D",
 			"A"
 		},
-		trans_radar_chart = {},
-		trans_skill = {},
+		trans_radar_chart = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"B",
+			"A"
+		},
+		trans_skill = {
+			17980
+		},
 		description = {
 			{
 				"限時活動：墜落之翼",
