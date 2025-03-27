@@ -1115,5 +1115,8 @@ pg.activity_const = {
 	},
 	Valleyhospital_TASK = {
 		act_id = 5872
+	},
+	Valleyhospital_PT_ACT_ID = {
+		act_id = 5873
 	}
 }

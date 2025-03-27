@@ -53,6 +53,15 @@ slot0.didEnter = function(slot0)
 		uv0:emit(ClueMapMediator.OPEN_CLUE_TASk, function ()
 			if uv0._tf then
 				setActive(uv0:findTF("tip", uv0.taskBtn), ClueTasksLayer.ShouldShowTip())
+
+				uv0.ptActivity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_PT_ACT_ID)
+				uv0.ptData = ActivityPtData.New(uv0.ptActivity)
+
+				setText(uv0:findTF("Text", uv0.pt), uv0.ptData.count)
+
+				uv0.activity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_ACT_ID)
+
+				setText(uv0:findTF("ticket/count", uv0.chapterSp), "X " .. uv0.activity.data1)
 			end
 		end)
 	end, SFX_PANEL)
@@ -62,6 +71,15 @@ slot0.didEnter = function(slot0)
 			if uv0._tf then
 				uv0:UpdateCluePanel()
 				setActive(uv0:findTF("tip", uv0.bookBtn), ClueBookLayer.ShouldShowTip())
+
+				uv0.ptActivity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_PT_ACT_ID)
+				uv0.ptData = ActivityPtData.New(uv0.ptActivity)
+
+				setText(uv0:findTF("Text", uv0.pt), uv0.ptData.count)
+
+				uv0.activity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_ACT_ID)
+
+				setText(uv0:findTF("ticket/count", uv0.chapterSp), "X " .. uv0.activity.data1)
 			end
 		end)
 	end, SFX_PANEL)
@@ -90,7 +108,7 @@ slot0.InitData = function(slot0)
 	end
 
 	slot0.activity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_ACT_ID)
-	slot0.ptActivity = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)
+	slot0.ptActivity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_PT_ACT_ID)
 	slot0.ptData = ActivityPtData.New(slot0.ptActivity)
 	slot4 = 1
 	slot0.contextData.mapIndex = defaultValue(slot0.contextData.mapIndex, slot4)
@@ -148,9 +166,6 @@ slot0.ShowResUI = function(slot0)
 	onButton(slot0, findTF(slot0._tf, "ui/top/res/gem"), function ()
 		pg.playerResUI:ClickGem()
 	end, SFX_PANEL)
-	slot0:bind(PlayerProxy.UPDATED, function ()
-		PlayerResUI.StaticFlush(uv0, uv1.goldMax, uv1.goldValue, uv1.oilMax, uv1.oilValue, uv1.gemValue)
-	end)
 end
 
 slot0.UpdateCluePanel = function(slot0)
@@ -230,6 +245,9 @@ slot0.InitMapsSwitch = function(slot0)
 				setActive(uv0:findTF("dusk", uv0.chapterSp), uv1 == 2)
 				setActive(uv0:findTF("night", uv0.chapterSp), uv1 == 3)
 				GetImageSpriteFromAtlasAsync(pg.item_virtual_data_statistics[uv0.spChapter.enter_cost].icon, "", uv0:findTF("ticket/icon", uv0.chapterSp), false)
+
+				uv0.activity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_ACT_ID)
+
 				setText(uv0:findTF("ticket/count", uv0.chapterSp), "X " .. uv0.activity.data1)
 				onButton(uv0, uv0.chapterSp, function ()
 					uv0:OpenChapterLayer(uv0.spChapter.id)

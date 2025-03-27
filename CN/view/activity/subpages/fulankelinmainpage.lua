@@ -71,9 +71,19 @@ slot0.updateUI = function(slot0)
 		slot6 = skinCommdityTimeStamp(pg.TimeMgr.GetInstance():Table2ServerTime(slot5))
 	end
 
-	setText(slot0.btnSkinText, slot3)
+	if slot3 then
+		setText(slot0.btnSkinText, slot3)
+	else
+		setActive(findTF(slot0.btnSkin, "bgTime"), false)
+	end
+
 	setText(slot0.btnActText, "")
-	setText(slot0.btnBuildText, slot6)
+
+	if slot6 then
+		setText(slot0.btnBuildText, slot6)
+	else
+		setActive(findTF(slot0.btnBuild, "bgTime"), false)
+	end
 end
 
 return slot0

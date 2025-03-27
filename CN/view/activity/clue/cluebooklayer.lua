@@ -134,13 +134,19 @@ slot0.SetClueGroup = function(slot0, slot1, slot2)
 	LoadImageSpriteAsync("cluepictures/" .. slot3.pic, slot0:findTF("picture", slot2), false)
 	setActive(slot0:findTF("picture/lock", slot2), not slot6[1] and not slot6[2] and not slot6[3])
 
-	for slot11 = 1, 3 do
-		if slot6[slot11] then
-			setText(slot0:findTF("clue" .. slot11, slot2), slot5[slot11].desc)
+	slot8 = false
+
+	for slot12 = 1, 3 do
+		if slot6[slot12] then
+			setText(slot0:findTF("clue" .. slot12, slot2), slot5[slot12].desc)
 		elseif slot0.investigatingGroupId == slot1 then
-			setText(slot0:findTF("clue" .. slot11, slot2), "<color=#858593>" .. slot5[slot11].unlock_desc .. slot5[slot11].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
+			setText(slot0:findTF("clue" .. slot12, slot2), "<color=#858593>" .. slot5[slot12].unlock_desc .. slot5[slot12].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
+		elseif not slot8 then
+			slot8 = true
+
+			setText(slot0:findTF("clue" .. slot12, slot2), "<color=#858593>" .. slot5[slot12].unlock_desc .. slot5[slot12].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
 		else
-			setText(slot0:findTF("clue" .. slot11, slot2), "<color=#858593>？？？</color>")
+			setText(slot0:findTF("clue" .. slot12, slot2), "<color=#858593>？？？</color>")
 		end
 	end
 
@@ -159,8 +165,6 @@ slot0.SetClueGroup = function(slot0, slot1, slot2)
 		end
 
 		uv0:OpenChapter(uv1)
-		uv0:StopBgm()
-		uv0:closeView()
 	end, SFX_PANEL)
 end
 
@@ -196,9 +200,26 @@ slot0.SetAward = function(slot0, slot1, slot2)
 		end, SFX_PANEL)
 	else
 		onButton(slot0, slot0:findTF("get", slot0.award), function ()
-			uv0:emit(ClueBookMediator.ON_TASK_SUBMIT_ONESTEP, uv0.taskActivityId, {
-				uv1
-			})
+			slot0 = {}
+			slot3 = getProxy(PlayerProxy):getRawData()
+			slot6, slot7 = Task.StaticJudgeOverflow(slot3.gold, slot3.oil, LOCK_UR_SHIP and 0 or getProxy(BagProxy):GetLimitCntById(pg.gameset.urpt_chapter_max.description[1]), true, true, uv0:getConfig("award_display"))
+
+			if slot6 then
+				table.insert(slot0, function (slot0)
+					pg.MsgboxMgr.GetInstance():ShowMsgBox({
+						type = MSGBOX_TYPE_ITEM_BOX,
+						content = i18n("award_max_warning"),
+						items = uv0,
+						onYes = slot0
+					})
+				end)
+			end
+
+			seriesAsync(slot0, function ()
+				uv0:emit(ClueBookMediator.ON_TASK_SUBMIT_ONESTEP, uv0.taskActivityId, {
+					uv1
+				})
+			end)
 		end, SFX_PANEL)
 	end
 end
@@ -319,7 +340,26 @@ slot0.ShowEndingPage = function(slot0)
 			setActive(slot2:Find("selected"), uv0.subPageEndingIndex == slot1 + 1)
 			setActive(slot2:Find("Text/completed"), slot5 == 2)
 			setActive(slot2:Find("selected/Text/completed"), slot5 == 2)
-			setActive(slot2:Find("tip"), slot5 == 1)
+
+			slot6 = false
+
+			if slot5 == 1 then
+				slot6 = true
+			else
+				slot7 = true
+
+				for slot11 = 1, #slot3 do
+					if uv0.taskProxy:getTaskVO(tonumber(uv1[slot3[slot11]].task_id)):getTaskStatus() == 1 and slot7 then
+						slot6 = true
+					end
+
+					if slot15 ~= 2 then
+						slot7 = false
+					end
+				end
+			end
+
+			setActive(slot2:Find("tip"), slot6)
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
 					uv0.subPageEndingIndex = uv1 + 1

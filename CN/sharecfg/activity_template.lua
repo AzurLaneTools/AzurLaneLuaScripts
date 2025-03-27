@@ -21226,7 +21226,7 @@ pg.activity_template = {
 				{
 					18,
 					23,
-					3
+					24
 				},
 				{
 					4,
@@ -21234,7 +21234,7 @@ pg.activity_template = {
 					19
 				},
 				{
-					24,
+					3,
 					1,
 					2
 				}

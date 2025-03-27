@@ -54,7 +54,8 @@ end
 slot0.listNotificationInterests = function(slot0)
 	return {
 		uv0.ON_FLEET_SELECT,
-		uv0.OPEN_CLUE_JUMP
+		uv0.OPEN_CLUE_JUMP,
+		PlayerProxy.UPDATED
 	}
 end
 
@@ -78,6 +79,8 @@ slot0.handleNotification = function(slot0, slot1)
 		if pg.activity_single_enemy[slot5.unlock_jump[1][1]].type == 1 or slot6 == 2 or slot6 == 3 then
 			triggerToggle(slot0.viewComponent.mapsSwitch[slot6], true)
 		end
+	elseif slot2 == PlayerProxy.UPDATED then
+		slot0.viewComponent:ShowResUI()
 	end
 end
 

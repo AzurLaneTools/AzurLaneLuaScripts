@@ -61,13 +61,19 @@ slot0.SetClueGroup = function(slot0)
 	setActive(slot0:findTF("picture/lockSite", slot3), slot4.type == 1 and not slot8[1] and not slot8[2] and not slot8[3])
 	setActive(slot0:findTF("picture/lockChara", slot3), slot4.type == 2 and not slot8[1] and not slot8[2] and not slot8[3])
 
-	for slot12 = 1, 3 do
-		if slot8[slot12] then
-			setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot12, slot3), slot6[slot12].desc)
+	slot9 = false
+
+	for slot13 = 1, 3 do
+		if slot8[slot13] then
+			setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), slot6[slot13].desc)
 		elseif slot0.investigatingGroupId == slot1 then
-			setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot12, slot3), "<color=#858593>" .. slot6[slot12].unlock_desc .. slot6[slot12].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
+			setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), "<color=#858593>" .. slot6[slot13].unlock_desc .. slot6[slot13].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
+		elseif not slot9 then
+			slot9 = true
+
+			setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), "<color=#858593>" .. slot6[slot13].unlock_desc .. slot6[slot13].unlock_num .. i18n("clue_task_tip", slot7) .. "</color>")
 		else
-			setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot12, slot3), "<color=#858593>？？？</color>")
+			setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), "<color=#858593>？？？</color>")
 		end
 	end
 
@@ -107,11 +113,11 @@ slot0.SetClueGroup = function(slot0)
 			setActive(slot0:findTF("picture/lockSite", slot3), slot4.type == 1)
 			setActive(slot0:findTF("picture/lockChara", slot3), slot4.type == 2)
 
-			for slot12 = 1, #slot2 do
+			for slot13 = 1, #slot2 do
 				if slot0.investigatingGroupId == slot1 then
-					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot12, slot3), "<color=#858593>" .. slot6[slot12].unlock_desc .. slot6[slot12].unlock_num .. "</color>")
+					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), "<color=#858593>" .. slot6[slot13].unlock_desc .. slot6[slot13].unlock_num .. "</color>")
 				else
-					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot12, slot3), "<color=#858593>？？？</color>")
+					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), "<color=#858593>？？？</color>")
 				end
 			end
 
@@ -132,7 +138,7 @@ slot0.SetClueGroup = function(slot0)
 				end)
 			end, uv2)
 
-			slot12 = uv2
+			slot13 = uv2
 
 			slot0:StartTimer(function ()
 				slot0 = uv0
@@ -146,40 +152,40 @@ slot0.SetClueGroup = function(slot0)
 					setActive(uv0:findTF("picture/lockSite", uv1), false)
 					setActive(uv0:findTF("picture/lockChara", uv1), false)
 				end)
-			end, slot12)
+			end, slot13)
 
-			for slot12 = 1, #slot2 do
+			for slot13 = 1, #slot2 do
 				slot0:StartTimer(function ()
 					setText(uv0:findTF("clueScroll/Viewport/Content/clue" .. uv1, uv2), uv3[uv1].desc)
-				end, uv3 * slot12 + uv2)
+				end, uv3 * slot13 + uv2)
 			end
 		else
-			for slot13 = table.indexof(slot5, slot2[1]), 3 do
+			for slot14 = table.indexof(slot5, slot2[1]), 3 do
 				if slot0.investigatingGroupId == slot1 then
-					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), "<color=#858593>" .. slot6[slot13].unlock_desc .. slot6[slot13].unlock_num .. "</color>")
+					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot14, slot3), "<color=#858593>" .. slot6[slot14].unlock_desc .. slot6[slot14].unlock_num .. "</color>")
 				else
-					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot13, slot3), "<color=#858593>？？？</color>")
+					setText(slot0:findTF("clueScroll/Viewport/Content/clue" .. slot14, slot3), "<color=#858593>？？？</color>")
 				end
 			end
 
-			slot10 = 1
+			slot11 = 1
 
-			for slot14 = slot9, slot9 + #slot2 - 1 do
+			for slot15 = slot10, slot10 + #slot2 - 1 do
 				slot0:StartTimer(function ()
 					setText(uv0:findTF("clueScroll/Viewport/Content/clue" .. uv1, uv2), uv3[uv1].desc)
-				end, uv3 * slot10)
+				end, uv3 * slot11)
 
-				slot10 = slot10 + 1
+				slot11 = slot11 + 1
 			end
 		end
 
 		setActive(slot0:findTF("goBtn", slot3), false)
 	else
-		slot9 = setActive
-		slot10 = slot0:findTF("goBtn", slot3)
-		slot11 = not slot8[1] or not slot8[2] or not slot8[3]
+		slot10 = setActive
+		slot11 = slot0:findTF("goBtn", slot3)
+		slot12 = not slot8[1] or not slot8[2] or not slot8[3]
 
-		slot9(slot10, slot11)
+		slot10(slot11, slot12)
 	end
 end
 
