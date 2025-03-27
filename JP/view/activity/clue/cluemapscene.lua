@@ -143,6 +143,17 @@ slot0.InitData = function(slot0)
 	slot0.bgms = slot1.bgm1
 end
 
+slot0.RefreshPtAndTicket = function(slot0)
+	slot0.ptActivity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_PT_ACT_ID)
+	slot0.ptData = ActivityPtData.New(slot0.ptActivity)
+
+	setText(slot0:findTF("Text", slot0.pt), slot0.ptData.count)
+
+	slot0.activity = getProxy(ActivityProxy):getActivityById(ActivityConst.Valleyhospital_ACT_ID)
+
+	setText(slot0:findTF("ticket/count", slot0.chapterSp), "X " .. slot0.activity.data1)
+end
+
 slot0.ShowResUI = function(slot0)
 	slot1 = getProxy(PlayerProxy)
 	slot2 = findTF(slot0._tf, "ui/top/res/gold/max")

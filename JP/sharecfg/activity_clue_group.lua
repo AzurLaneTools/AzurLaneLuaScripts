@@ -68,7 +68,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		task_id = "21611",
+		task_id = "21613",
 		type = 1,
 		id = 3,
 		title = "診療センター",
@@ -424,7 +424,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		task_id = "21613",
+		task_id = "21611",
 		type = 1,
 		id = 24,
 		title = "裏口",

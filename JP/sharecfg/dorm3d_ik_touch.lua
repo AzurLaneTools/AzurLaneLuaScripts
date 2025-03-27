@@ -121,7 +121,7 @@ pg.dorm3d_ik_touch = {
 		vibrate = {
 			{
 				100,
-				0.1
+				0.2
 			}
 		}
 	},
@@ -135,7 +135,7 @@ pg.dorm3d_ik_touch = {
 		vibrate = {
 			{
 				100,
-				0.1
+				0.2
 			}
 		}
 	},
@@ -149,7 +149,7 @@ pg.dorm3d_ik_touch = {
 		vibrate = {
 			{
 				100,
-				0.1
+				0.2
 			}
 		}
 	},

@@ -98,7 +98,7 @@ slot0.Exit = function(slot0, slot1)
 	end)(getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId], getProxy(ActivityProxy):getActivityById(slot0.actId):GetEnemyDataByStageId(slot0.stageId):GetOilLimit()[1] or 0)
 
 	if slot0.statistics.submarineAid then
-		if slot10[slot0.mainFleetId + 10] then
+		if slot10[slot0.mainFleetId + Fleet.MEGA_SUBMARINE_FLEET_OFFSET] then
 			slot17(slot12, slot8[2] or 0)
 		else
 			originalPrint("finish stage error: can not find submarin fleet.")
@@ -107,7 +107,7 @@ slot0.Exit = function(slot0, slot1)
 
 	slot1.GeneralPackage(slot0, slot14).commander_id_list = slot15
 
-	if slot6.data1 > 0 and slot0.useVariableTicket then
+	if slot6.data1 > 0 and slot0.useVariableTicket == 1 then
 		slot18.extra_param = 1
 	else
 		slot18.extra_param = 0
@@ -129,7 +129,9 @@ slot0.Exit = function(slot0, slot1)
 			slot5:AddPassStage(slot5:GetEnemyDataByStageId(uv1.stageId):GetExpeditionId())
 			getProxy(ActivityProxy):updateActivity(slot5)
 
-			slot5.data1 = math.max(slot5.data1 - 1, 0)
+			if uv1.useVariableTicket == 1 then
+				slot5.data1 = math.max(slot5.data1 - 1, 0)
+			end
 		end
 
 		slot5 = {

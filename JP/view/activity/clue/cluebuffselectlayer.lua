@@ -288,6 +288,12 @@ slot0.SetStageID = function(slot0, slot1)
 		setActive(slot0.ticket, false)
 		setActive(slot0.ticketTips, false)
 		setImageSprite(slot0:findTF("Stage/stage_type_icon"), LoadSprite("ui/cluebuffselectui_atlas", "tier_" .. slot2.type), true)
+
+		slot0.useTicket = false
+
+		setActive(slot0.ticketCheckBox, slot0.useTicket)
+
+		slot0.contextData.useTicket = slot0.useTicket
 	end
 
 	slot0:updateAwards(pg.expedition_data_template[slot2.expedition_id].award_display, slot0.awards, slot0.awardTpl)
