@@ -109,6 +109,7 @@ pg.pay_data_display = setmetatable({
 		1018,
 		1019,
 		1020,
+		1021,
 		2001,
 		2002,
 		2003,
@@ -151,6 +152,9 @@ pg.pay_data_display = setmetatable({
 		2042,
 		2043,
 		2044,
+		2045,
+		2046,
+		2047,
 		5001,
 		5002,
 		5003,
@@ -10946,6 +10950,82 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1021] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※シーズン任務クリア時に追加の報酬を入手可能",
+		type = 0,
+		name = "クルーズパス(25春)",
+		first_pay_double = 0,
+		name_display = "クルーズパス(25春)",
+		descrip = "購入すると、シーズン任務進捗Pt1500を入手し、さらにSP報酬を開放",
+		subject = "クルーズパス(25春)",
+		money = 1200,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 6,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass23",
+		extra_service = 4,
+		id = 1021,
+		airijp_id = "com.yostarjp.azurlane.seasonpass22",
+		extra_service_item = {
+			{
+				1,
+				4022,
+				1500
+			},
+			{
+				8,
+				65086,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7022,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		extra_gem = 0,
 		limit_group = 1,
@@ -14173,6 +14253,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40056,
+				1
+			}
+		}
+	},
+	[2045] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・ジーン",
+		first_pay_double = 0,
+		name_display = "戦闘UI・ジーン",
+		descrip = "戦闘UI・ジーンを入手できます",
+		subject = "戦闘UI・ジーン",
+		money = 1600,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui9",
+		extra_service = 3,
+		id = 2045,
+		airijp_id = "com.yostarjp.azurlane.ui9",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2046] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・ジーン（単品）",
+		first_pay_double = 0,
+		name_display = "戦闘UI・ジーン（単品）",
+		descrip = "戦闘UI・ジーンを入手できます",
+		subject = "戦闘UI・ジーン（単品）",
+		money = 1600,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui10",
+		extra_service = 3,
+		id = 2046,
+		airijp_id = "com.yostarjp.azurlane.ui10",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40057,
+				1
+			}
+		}
+	},
+	[2047] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "※購入したアイテムはメールボックスに送られます",
+		type = 0,
+		name = "戦闘UI・ジーン（セット）",
+		first_pay_double = 0,
+		name_display = "戦闘UI・ジーン（セット）",
+		descrip = "戦闘UI・ジーン,ダイヤ×3060を入手できます",
+		subject = "戦闘UI・ジーン（セット）",
+		money = 4700,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui11",
+		extra_service = 3,
+		id = 2047,
+		airijp_id = "com.yostarjp.azurlane.ui11",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40058,
 				1
 			}
 		}

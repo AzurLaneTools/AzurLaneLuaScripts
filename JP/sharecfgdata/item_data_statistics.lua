@@ -15319,6 +15319,37 @@ _G.pg.base.item_data_statistics[21045] = {
 }
 
 
+_G.pg.base.item_data_statistics[21046] = {
+	open_directly = 0,
+	name = "結晶：ネバダ(META)",
+	type = 4,
+	display = "ネバダ(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21046",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21046,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -25963,6 +25994,131 @@ _G.pg.base.item_data_statistics[30365] = {
 }
 
 
+_G.pg.base.item_data_statistics[30366] = {
+	open_directly = 1,
+	name = "装備外装箱(病院)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbingyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30366",
+	id = 30366,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -27093,7 +27249,7 @@ _G.pg.base.item_data_statistics[30422] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30422",
+	usage_arg = "111218",
 	id = 30422,
 	compose_number = 0,
 	target_id = 0,
@@ -27145,7 +27301,7 @@ _G.pg.base.item_data_statistics[30423] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30423",
+	usage_arg = "111219",
 	id = 30423,
 	compose_number = 0,
 	target_id = 0,
@@ -27207,7 +27363,7 @@ _G.pg.base.item_data_statistics[30424] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30424",
+	usage_arg = "111719",
 	id = 30424,
 	compose_number = 0,
 	target_id = 0,
@@ -27254,7 +27410,7 @@ _G.pg.base.item_data_statistics[30425] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30425",
+	usage_arg = "111220",
 	id = 30425,
 	compose_number = 0,
 	target_id = 0,
@@ -27306,7 +27462,7 @@ _G.pg.base.item_data_statistics[30426] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30426",
+	usage_arg = "111221",
 	id = 30426,
 	compose_number = 0,
 	target_id = 0,
@@ -27329,6 +27485,58 @@ _G.pg.base.item_data_statistics[30426] = {
 		{
 			9,
 			2092,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30427] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111222",
+	id = 30427,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2093,
+			1
+		},
+		{
+			9,
+			2094,
+			1
+		},
+		{
+			9,
+			2095,
+			1
+		},
+		{
+			9,
+			2096,
 			1
 		}
 	},
@@ -38402,6 +38610,219 @@ _G.pg.base.item_data_statistics[30552] = {
 }
 
 
+_G.pg.base.item_data_statistics[30553] = {
+	open_directly = 0,
+	name = "選択装備外装箱（病院）",
+	type = 13,
+	display = "使用すると、装備外装（病院）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbingyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30553,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "指向性強化パーツT4",
@@ -41897,6 +42318,85 @@ _G.pg.base.item_data_statistics[40056] = {
 		{
 			31,
 			202,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40057] = {
+	open_directly = 1,
+	name = "戦闘UI・ジーン（単品）",
+	type = 17,
+	display = "購入すると戦闘UIテーマ・ジーンを入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4058",
+	id = 40057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			203,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40058] = {
+	open_directly = 1,
+	name = "戦闘UI・ジーン（セット）",
+	type = 17,
+	display = "購入すると戦闘UIテーマ・ジーン、ダイヤ×3060を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4059",
+	id = 40058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			203,
 			1
 		},
 		{
@@ -107976,53 +108476,6 @@ _G.pg.base.item_data_statistics[60534] = {
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
-	price = {},
-	index = {},
-	shiptrans_id = {},
-	combination_display = {},
-	limit = {}
-}
-
-
-_G.pg.base.item_data_statistics[80003] = {
-	open_directly = 1,
-	name = "舰船教材T3捆绑包*1 ",
-	type = 17,
-	display = "使用后可获得舰艇攻击教材T3*1、舰艇防御教材T3*1、舰艇辅助教材T3*1",
-	other_resource_cost = "[]",
-	replace_item = 0,
-	usage = "usage_drop",
-	display_effect = "",
-	link_id = 0,
-	is_world = 0,
-	icon = "Props/54002",
-	order = 0,
-	rarity = 4,
-	max_num = 0,
-	time_limit = 0,
-	virtual_type = 0,
-	other_item_cost = "[]",
-	usage_arg = "998000",
-	id = 80003,
-	compose_number = 0,
-	target_id = 0,
-	display_icon = {
-		{
-			2,
-			16003,
-			1
-		},
-		{
-			2,
-			16013,
-			1
-		},
-		{
-			2,
-			16023,
-			1
-		}
-	},
 	price = {},
 	index = {},
 	shiptrans_id = {},

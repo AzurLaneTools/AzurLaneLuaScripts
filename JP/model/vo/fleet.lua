@@ -54,10 +54,26 @@ slot0.DEFAULT_NAME_BOSS_SINGLE_ACT = {
 	[14] = i18n("ship_formationUI_fleetName_sp_ss"),
 	[15] = i18n("ship_formationUI_fleetName_extra_ss")
 }
+slot0.DEFAULT_NAME_BOSS_SINGLE_VARIABLE_ACT = {
+	i18n("ship_formationUI_fleetName_1"),
+	i18n("ship_formationUI_fleetName_2"),
+	i18n("ship_formationUI_fleetName_3"),
+	i18n("ship_formationUI_fleetName_4"),
+	i18n("ship_formationUI_fleetName_5"),
+	i18n("ship_formationUI_fleetName_6"),
+	i18n("ship_formationUI_fleetName_7"),
+	i18n("ship_formationUI_fleetName_8"),
+	i18n("ship_formationUI_fleetName_9"),
+	i18n("ship_formationUI_fleetName_10"),
+	i18n("ship_formationUI_fleetName_11"),
+	i18n("ship_formationUI_fleetName_12"),
+	i18n("ship_formationUI_fleetName_13")
+}
 slot0.REGULAR_FLEET_ID = 1
 slot0.REGULAR_FLEET_NUMS = 6
 slot0.SUBMARINE_FLEET_ID = 11
 slot0.SUBMARINE_FLEET_NUMS = 4
+slot0.MEGA_SUBMARINE_FLEET_OFFSET = 100
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.id

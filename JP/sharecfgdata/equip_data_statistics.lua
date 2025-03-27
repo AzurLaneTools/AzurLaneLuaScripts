@@ -138094,6 +138094,61 @@ _G.pg.base.equip_data_statistics[80442] = {
 }
 
 
+_G.pg.base.equip_data_statistics[80451] = {
+	name = "全弹发射-海军上将级I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 80451,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170731
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[80452] = {
+	name = "全弹发射-海军上将级II",
+	base = 80451,
+	id = 80452,
+	weapon_id = {
+		170732
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[85000] = {
 	name = "B-13 130mm連装砲B-2LM",
 	speciality = "<[LOCK]>",
@@ -170550,6 +170605,61 @@ _G.pg.base.equip_data_statistics[170692] = {
 	id = 170692,
 	weapon_id = {
 		170692
+	},
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170721] = {
+	name = "专属弹幕-圣塔菲I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能弹幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170721,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170721
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170722] = {
+	name = "专属弹幕-圣塔菲II",
+	base = 170721,
+	id = 170722,
+	weapon_id = {
+		170722
 	},
 	hidden_skill_id = {}
 }

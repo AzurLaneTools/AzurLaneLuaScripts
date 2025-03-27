@@ -1094,5 +1094,17 @@ pg.activity_const = {
 	},
 	FireworkAndSpring_ACT_ID = {
 		act_id = 5788
+	},
+	Valleyhospital_ACT_ID = {
+		act_id = 5871
+	},
+	Valleyhospital_TASK_ID = {
+		act_id = 5877
+	},
+	Valleyhospital_TASK = {
+		act_id = 5872
+	},
+	Valleyhospital_PT_ACT_ID = {
+		act_id = 5873
 	}
 }

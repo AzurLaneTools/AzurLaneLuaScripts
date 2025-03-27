@@ -27,7 +27,8 @@ slot0.Gates = {
 	[SYSTEM_DEBUG] = ys.Battle.BattleGateDebug,
 	[SYSTEM_TEST] = ys.Battle.BattleGateTest,
 	[SYSTEM_CARDPUZZLE] = ys.Battle.BattleGateCardPuzzle,
-	[SYSTEM_BOSS_SINGLE] = ys.Battle.BattleGateBossSingle
+	[SYSTEM_BOSS_SINGLE] = ys.Battle.BattleGateBossSingle,
+	[SYSTEM_BOSS_SINGLE_VARIABLE] = ys.Battle.BattleGateBossSingleVariable
 }
 
 return slot0

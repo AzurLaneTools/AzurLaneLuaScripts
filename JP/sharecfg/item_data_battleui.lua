@@ -72,6 +72,18 @@ pg.item_data_battleui = {
 		icon = "105",
 		scene = {}
 	},
+	[106] = {
+		unlock = "クルーズパス22期報酬",
+		name = "デビル",
+		key = "SkinNormal_20250327",
+		display_icon = "ui_106",
+		is_unlock = 1,
+		rare = 3,
+		desc = "悪魔的な雰囲気が溢れ出る指揮インターフェイス。血色のフレームと魔法陣がデンジャラスでダークな世界へと誘う",
+		id = 106,
+		icon = "106",
+		scene = {}
+	},
 	[201] = {
 		unlock = "ショップ購入（戦闘UI・クリスマス）",
 		name = "クリスマス",
@@ -96,6 +108,18 @@ pg.item_data_battleui = {
 		icon = "202",
 		scene = {}
 	},
+	[203] = {
+		unlock = "ショップ購入（戦闘UI・ジーン）",
+		name = "ジーン",
+		key = "SkinElite_20250327",
+		display_icon = "ui_203",
+		is_unlock = 1,
+		rare = 4,
+		desc = "未来的な指揮インターフェイス。白いパネルと血色の回路が緻密的かつ緊張感あふれる雰囲気を醸し出す",
+		id = 203,
+		icon = "203",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -103,7 +127,9 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
+		106,
 		201,
-		202
+		202,
+		203
 	}
 }

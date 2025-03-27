@@ -26297,6 +26297,75 @@ _G.pg.base.gametip.cruise_task_help_2502 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2504 = {
+	tip = "2025/4/1-2025/5/31キャンペーン期間中、シーズン任務累計<icon name=pt w=0.5 h=0.5/>入手報酬で<color=#854747>「ネバダ(META)」</color>などを入手可能"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2504 = {
+	tip = {
+		{
+			info = [[
+■キャンペーン開催期間
+ 2025.4.1（火）0:00～2025.5.31（土）23:59
+
+■概要
+「シーズン任務」とは、キャンペーン開催中の任務をクリアし「進捗Pt」を集め、入手した進捗Ptに応じた累計獲得数報酬が手に入るキャンペーンになります。
+また、通常の累計獲得数報酬に追加する形で「SP報酬」が存在し、ショップアイテム「クルーズパス」を購入すると、SP報酬も入手可能となります。
+通常報酬からは艦船「ネバダ(META)」、SP報酬からは駆逐艦「ストレミテルヌイ」の限定着せ替え「夜間看護当直中」を入手できます。
+
+■遊び方
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+・上記「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+ さらに「クルーズパス」を購入すると、15段階分の報酬（進捗Pt1500）が入手可能となります。
+・「進捗Pt」の累計入手数に応じて、進捗Pt累計獲得数報酬を入手できます。累計獲得数報酬は2種類存在します。
+ ①通常報酬
+ 「進捗Pt」の入手数に応じて獲得できる報酬。全100段階となります
+ ②SP報酬
+ 「クルーズパス」を購入すると開放される追加報酬。通常報酬と同じく全100段階存在し、通常報酬と同じ段階のSP報酬が入手できます。
+・キャンペーンが終了すると、入手済みの進捗Ptはリセットされます。
+
+■Tips
+・プレイスタイル
+ シーズン任務は全100段階あり、いきなり最後まではクリアできない仕様になっております。いつものクエストをくり返しながら任務をこなしていくか、狙いの報酬を決めて最短ペースでクリアしていくかなど、自分のプレイスタイルに合わせてプレイすることをオススメします。
+
+・クルーズパス
+ ショップで「クルーズパス」を購入すると、お得なアイテムとともに「進捗Pt」を1500Pt入手できます。また、追加の限定着せ替えは「クルーズパス」を購入して開放される「SP報酬」でのみ入手できます。要注意。
+
+・任務のスキップ（オススメしません）
+ 「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません。
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2504 = {
+	tip = {
+		{
+			info = [[
+■シーズン任務について
+・「シーズン任務」キャンペーンの開始と同時に、2種類の任務が開放されます。
+ ①週次開放任務
+ キャンペーン開始時とキャンペーン期間中毎週月曜日0時に開放される任務。全8グループ
+ ②全期間任務
+ 最初から全開放される任務。全1グループ
+
+・「シーズン任務」はすべて自動受領済となり、また「シーズン任務」画面を開いた際、既に完成条件を満たしている任務はクリア状態となり、「進捗Pt」を自動で入手できます。
+
+・「シーズン任務」の「任務一覧」画面で、各任務の右側の矢印ボタンをタップすると、任務を自動でスキップ（クリア状態にする）し、進捗Ptを入手出来る「シーズン任務チケット」の購入・使用が可能です。
+ ダイヤを消費しますので、オススメしません……
+ 「シーズン任務チケット」はキャンペーン終了後も所持し続けることができます。]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "リセット"
 }
@@ -36208,6 +36277,11 @@ _G.pg.base.gametip.cruise_title_2502 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2504 = {
+	tip = "シーズン任務・22期"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "今期残り時間："
 }
@@ -37985,4 +38059,169 @@ _G.pg.base.gametip.SkinDiscount_Got = {
 
 _G.pg.base.gametip.skin_original_price = {
 	tip = "通常"
+}
+
+
+_G.pg.base.gametip.clue_title_1 = {
+	tip = "場所情報"
+}
+
+
+_G.pg.base.gametip.clue_title_2 = {
+	tip = "キャラ情報"
+}
+
+
+_G.pg.base.gametip.clue_title_3 = {
+	tip = "重要情報"
+}
+
+
+_G.pg.base.gametip.clue_title_4 = {
+	tip = "ストーリー"
+}
+
+
+_G.pg.base.gametip.clue_task_goto = {
+	tip = "調査開始"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip1 = {
+	tip = "キャラ情報を開放"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip2 = {
+	tip = "$1を開放"
+}
+
+
+_G.pg.base.gametip.clue_get = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.clue_got = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.clue_unselect_tip = {
+	tip = "調査攻略で調査目標を選択"
+}
+
+
+_G.pg.base.gametip.clue_close_tip = {
+	tip = "画面タップで戻る"
+}
+
+
+_G.pg.base.gametip.clue_pt_tip = {
+	tip = "累計 x"
+}
+
+
+_G.pg.base.gametip.clue_buff_research = {
+	tip = "調査内容"
+}
+
+
+_G.pg.base.gametip.clue_buff_pt_boost = {
+	tip = "1つ追加する度にPt入手+5%"
+}
+
+
+_G.pg.base.gametip.clue_buff_stage_loot = {
+	tip = "クリア報酬"
+}
+
+
+_G.pg.base.gametip.clue_task_tip = {
+	tip = "（進捗：$1回）"
+}
+
+
+_G.pg.base.gametip.clue_buff_reach_max = {
+	tip = "これ以上調査内容を追加できません"
+}
+
+
+_G.pg.base.gametip.clue_buff_unselect = {
+	tip = "-調査内容が選択されていません-"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_1 = {
+	tip = "T1 入院棟（正午）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_2 = {
+	tip = "T2 療養センター（正午）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
+	tip = "T3 療養センター（正午）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
+	tip = "T4 研究センター（正午）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_5 = {
+	tip = "T1 入院棟（黄昏）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
+	tip = "T2 療養センター（黄昏）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_7 = {
+	tip = "T3 療養センター（黄昏）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
+	tip = "T4 研究センター（黄昏）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
+	tip = "T1 入院棟（夜）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
+	tip = "T2 療養センター（夜）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_11 = {
+	tip = "T3 療養センター（夜）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
+	tip = "T4 研究センター（夜）"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_13 = {
+	tip = "ESP 診療センター"
+}
+
+
+_G.pg.base.gametip.clue_buff_ticket_tips = {
+	tip = "チェックボックスをタップし「天狐グループバッジ」を使用と報酬を追加入手可能"
+}
+
+
+_G.pg.base.gametip.clue_buff_empty_ticket = {
+	tip = "「天狐グループバッジ」は限定任務で入手できます"
 }

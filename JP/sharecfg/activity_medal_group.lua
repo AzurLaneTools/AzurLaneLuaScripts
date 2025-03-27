@@ -143,9 +143,59 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[5875] = {
+		entrance_picture = "medalAlbum/5875",
+		id = 5875,
+		group_name = "深谷来信",
+		is_out_of_print = 0,
+		activity_medal_ids = {
+			587501,
+			587502,
+			587503,
+			587504,
+			587505,
+			587506,
+			587507,
+			587508
+		},
+		activity_link = {
+			{
+				1,
+				5875,
+				{
+					21659,
+					21651,
+					21652,
+					21653,
+					21654,
+					21655,
+					21656,
+					21657,
+					21658
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "ValleyMessageAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				296,
+				1
+			},
+			{
+				8,
+				65570,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
-		5812
+		5812,
+		5875
 	}
 }

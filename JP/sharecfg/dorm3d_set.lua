@@ -141,6 +141,49 @@ pg.dorm3d_set = {
 		key = "drom3d_memory_limit",
 		key_value_int = 5400
 	},
+	drom3d_shop_product_panel_max = {
+		key = "drom3d_shop_product_panel_max",
+		key_value_int = 0,
+		key_value_varchar = {
+			270104,
+			270105
+		}
+	},
+	drom3d_shop_product_panel_medium = {
+		key = "drom3d_shop_product_panel_medium",
+		key_value_int = 0,
+		key_value_varchar = {
+			270201,
+			270202,
+			270101
+		}
+	},
+	drom3d_shop_product_panel_min1 = {
+		key = "drom3d_shop_product_panel_min1",
+		key_value_int = 0,
+		key_value_varchar = {
+			270201,
+			270202,
+			270101
+		}
+	},
+	drom3d_shop_product_panel_min2 = {
+		key = "drom3d_shop_product_panel_min2",
+		key_value_int = 0,
+		key_value_varchar = {
+			270201,
+			270202,
+			270101
+		}
+	},
+	drom3d_shop_product_panel_min3 = {
+		key = "drom3d_shop_product_panel_min3",
+		key_value_int = 0,
+		key_value_varchar = {
+			260101,
+			260201
+		}
+	},
 	all = {
 		"favor_level",
 		"stage",
@@ -167,6 +210,11 @@ pg.dorm3d_set = {
 		"drom3d_favir_trigger_game",
 		"drom3d_weekly_task",
 		"drom3d_appellation_time",
-		"drom3d_memory_limit"
+		"drom3d_memory_limit",
+		"drom3d_shop_product_panel_max",
+		"drom3d_shop_product_panel_medium",
+		"drom3d_shop_product_panel_min1",
+		"drom3d_shop_product_panel_min2",
+		"drom3d_shop_product_panel_min3"
 	}
 }
