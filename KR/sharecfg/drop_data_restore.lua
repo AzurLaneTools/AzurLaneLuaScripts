@@ -4286,10 +4286,10 @@ pg.drop_data_restore = {
 	},
 	[997] = {
 		target_type = 5,
-		resource_type = 1,
+		resource_type = 14,
 		type = 1,
 		id = 997,
-		resource_num = 2000,
+		resource_num = 150,
 		drop_id = 904544,
 		target_id = 291
 	},
