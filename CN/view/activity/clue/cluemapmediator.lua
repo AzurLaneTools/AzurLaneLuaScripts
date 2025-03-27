@@ -55,7 +55,8 @@ slot0.listNotificationInterests = function(slot0)
 	return {
 		uv0.ON_FLEET_SELECT,
 		uv0.OPEN_CLUE_JUMP,
-		PlayerProxy.UPDATED
+		PlayerProxy.UPDATED,
+		GAME.SUBMIT_ACTIVITY_TASK_DONE
 	}
 end
 
@@ -81,6 +82,8 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:ShowResUI()
+	elseif slot2 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
+		slot0.viewComponent:RefreshPtAndTicket()
 	end
 end
 

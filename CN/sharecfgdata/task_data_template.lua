@@ -142829,7 +142829,7 @@ _G.pg.base.task_data_template[21579] = {
 	ryza_icon = "",
 	activity_client_config = "",
 	id = 21579,
-	target_num = 2,
+	target_num = 1,
 	fix_task = 0,
 	target_id = {
 		2009
@@ -142871,7 +142871,7 @@ _G.pg.base.task_data_template[21580] = {
 	ryza_icon = "",
 	activity_client_config = "",
 	id = 21580,
-	target_num = 4,
+	target_num = 2,
 	fix_task = 0,
 	target_id = {
 		2009
@@ -142913,7 +142913,7 @@ _G.pg.base.task_data_template[21581] = {
 	ryza_icon = "",
 	activity_client_config = "",
 	id = 21581,
-	target_num = 6,
+	target_num = 3,
 	fix_task = 0,
 	target_id = {
 		2009
@@ -143576,7 +143576,7 @@ _G.pg.base.task_data_template[21597] = {
 	ryza_icon = "",
 	activity_client_config = "",
 	id = 21597,
-	target_num = 2,
+	target_num = 1,
 	fix_task = 0,
 	target_id = {
 		2012
@@ -143618,7 +143618,7 @@ _G.pg.base.task_data_template[21598] = {
 	ryza_icon = "",
 	activity_client_config = "",
 	id = 21598,
-	target_num = 4,
+	target_num = 2,
 	fix_task = 0,
 	target_id = {
 		2012
@@ -143660,7 +143660,7 @@ _G.pg.base.task_data_template[21599] = {
 	ryza_icon = "",
 	activity_client_config = "",
 	id = 21599,
-	target_num = 6,
+	target_num = 3,
 	fix_task = 0,
 	target_id = {
 		2012
@@ -146486,7 +146486,7 @@ _G.pg.base.task_data_template[21657] = {
 	count_inherit = 0,
 	name = "『富兰克林活动』纪念贴纸获取7",
 	desc = "通关40次「深谷来信」特别作战关卡",
-	sub_type = 21,
+	sub_type = 20,
 	task_fold = 0,
 	story_icon = "",
 	scene = "",

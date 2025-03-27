@@ -129,7 +129,9 @@ slot0.Exit = function(slot0, slot1)
 			slot5:AddPassStage(slot5:GetEnemyDataByStageId(uv1.stageId):GetExpeditionId())
 			getProxy(ActivityProxy):updateActivity(slot5)
 
-			slot5.data1 = math.max(slot5.data1 - 1, 0)
+			if uv1.useVariableTicket == 1 then
+				slot5.data1 = math.max(slot5.data1 - 1, 0)
+			end
 		end
 
 		slot5 = {
