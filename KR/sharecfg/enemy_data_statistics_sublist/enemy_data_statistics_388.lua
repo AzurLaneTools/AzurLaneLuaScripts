@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_388 = {
+	[243006] = {
+		cannon = 13,
+		air = 0,
+		torpedo = 37,
+		cannon_growth = 1032,
+		id = 243006,
+		reload = 150,
+		armor = 0,
+		dodge = 16,
+		torpedo_growth = 2964,
+		hit_growth = 189,
+		reload_growth = 0,
+		dodge_growth = 200,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 13,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90192,
+		durability = 135,
+		armor_growth = 0,
+		durability_growth = 53900,
+		antiaircraft = 45,
+		speed = 24,
+		luck = 10,
+		battle_unit_type = 55,
+		antisub = 0,
+		antiaircraft_growth = 3576,
+		fog_fx = "",
+		world_enhancement = {
+			9.3,
+			4.6,
+			1.1,
+			0,
+			0.9,
+			0.9,
+			0
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			1100019,
+			1100394,
+			1100469
+		}
+	},
 	[243007] = {
 		cannon = 13,
 		air = 0,
@@ -1405,90 +1453,6 @@ pg.enemy_data_statistics_388 = {
 			1002044,
 			1002049,
 			1002054
-		},
-		buff_list = {
-			{
-				ID = 79100,
-				LV = 1
-			}
-		}
-	},
-	[291034] = {
-		battle_unit_type = 65,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 14,
-		armor = 0,
-		id = 291034,
-		hit_growth = 72,
-		cannon = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		antisub_growth = 0,
-		air_growth = 1440,
-		base = 90421,
-		durability = 263,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 0,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 5,
-		torpedo = 0,
-		durability_growth = 42000,
-		antiaircraft = 16,
-		antiaircraft_growth = 1560,
-		world_enhancement = {
-			6,
-			3.5,
-			1.5,
-			2.1,
-			2.6,
-			2,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					1.07,
-					0.24,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			},
-			plane = {
-				{
-					1.8,
-					1.14,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1002059,
-			1002064,
-			1002069,
-			1002074
 		},
 		buff_list = {
 			{

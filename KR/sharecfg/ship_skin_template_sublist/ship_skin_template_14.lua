@@ -1545,7 +1545,6 @@ pg.base.ship_skin_template_14 = {
 		lip_smoothing = 0,
 		gyro = 0,
 		bg = "303",
-		l2d_drag_rate = "",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		skin_type = 0,
@@ -1560,7 +1559,6 @@ pg.base.ship_skin_template_14 = {
 		illustrator = -1,
 		rarity_bg = "",
 		time = "",
-		l2d_para_range = "",
 		lip_sync_gain = 0,
 		show_skin = "stand",
 		tag = {
@@ -1661,6 +1659,16 @@ pg.base.ship_skin_template_14 = {
 		l2d_voice_calibrate = {
 			use_event = true
 		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				20
+			},
+			ParamAngleY = {
+				-20,
+				20
+			}
+		},
 		ship_l2d_id = {
 			60508101,
 			60508102,
@@ -1684,6 +1692,11 @@ pg.base.ship_skin_template_14 = {
 			60508120,
 			60508121,
 			60508122
+		},
+		l2d_drag_rate = {
+			0.75,
+			1,
+			1
 		}
 	},
 	[607010] = {

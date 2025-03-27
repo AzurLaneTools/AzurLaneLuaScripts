@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_352 = {
+	[16672203] = {
+		cannon = 60,
+		name = "삼판 골격 괴수",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		antisub = 0,
+		rarity = 2,
+		antiaircraft = 0,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "fengfan_haigu01",
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90535,
+		durability = 10000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 16672203,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 9999,
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		equipment_list = {},
+		buff_list = {
+			{
+				ID = 201141,
+				LV = 2
+			}
+		}
+	},
 	[16672301] = {
 		cannon = 160,
 		name = "「옛 그림자」 - 쉽 오브 더 라인",
@@ -1159,47 +1199,6 @@ pg.enemy_data_statistics_352 = {
 			3216204,
 			3216205,
 			3216206
-		}
-	},
-	[16676301] = {
-		cannon = 320,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		armor = 0,
-		dodge = 24,
-		torpedo_growth = 0,
-		hit_growth = 320,
-		reload_growth = 0,
-		dodge_growth = 228,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 36,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 91001,
-		durability = 125000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 440,
-		speed = 18,
-		luck = 30,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 16676301,
-		fog_fx = "",
-		equipment_list = {
-			3216001,
-			3216002
-		},
-		buff_list = {
-			{
-				ID = 50500,
-				LV = 5
-			}
 		}
 	}
 }

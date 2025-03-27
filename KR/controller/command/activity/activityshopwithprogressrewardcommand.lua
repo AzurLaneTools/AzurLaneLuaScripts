@@ -71,7 +71,7 @@ slot0.getAwards = function(slot0, slot1, slot2)
 		table.insert(slot3, {
 			type = slot8.type,
 			id = slot8.id,
-			count = slot8.number
+			number = slot8.number
 		})
 	end
 

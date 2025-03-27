@@ -3516,6 +3516,16 @@ pg.painting_filte_map = {
 			"painting/dahuangfeng_4"
 		}
 	},
+	dahuangfeng_alter = {
+		key = "dahuangfeng_alter",
+		res_list = {
+			"painting/dahuangfeng_alter_tex",
+			"painting/dahuangfeng_alter_rw_tex",
+			"painting/dahuangfeng_alter_n_tex",
+			"painting/dahuangfeng_alter_n",
+			"painting/dahuangfeng_alter"
+		}
+	},
 	dahuangfeng_dark_shadow = {
 		key = "dahuangfeng_dark_shadow",
 		res_list = {
@@ -8523,7 +8533,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/lafeier_2_tex",
 			"painting/lafeier_2_rw_tex",
-			"painting/lafeier_2_n_tex",
 			"painting/lafeier_2_n_rw_tex",
 			"painting/lafeier_2_n",
 			"painting/lafeier_2"

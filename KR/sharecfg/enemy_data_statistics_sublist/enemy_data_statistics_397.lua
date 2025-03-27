@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_397 = {
+	[295150] = {
+		cannon = 407,
+		name = "퀸 엘리자베스·META(Tier.15)",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 75,
+		id = 295150,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 110,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90748,
+		durability = 1600000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 372,
+		speed = 30,
+		luck = 25,
+		battle_unit_type = 90,
+		antisub = 0,
+		fog_fx = "",
+		buff_list = {
+			{
+				ID = 8830,
+				LV = 2
+			},
+			{
+				ID = 50510,
+				LV = 5
+			},
+			{
+				ID = 200380,
+				LV = 1
+			}
+		}
+	},
 	[295151] = {
 		cannon = 112,
 		name = "알제리·META(Tier.1)",
@@ -1240,51 +1285,6 @@ pg.enemy_data_statistics_397 = {
 		armor_growth = 0,
 		durability_growth = 0,
 		antiaircraft = 275,
-		speed = 30,
-		luck = 40,
-		battle_unit_type = 90,
-		antisub = 0,
-		fog_fx = "",
-		buff_list = {
-			{
-				ID = 200575,
-				LV = 1
-			},
-			{
-				ID = 200577,
-				LV = 1
-			},
-			{
-				ID = 200579,
-				LV = 1
-			}
-		}
-	},
-	[295179] = {
-		cannon = 312,
-		name = "진츠·META(Tier.14)",
-		torpedo = 335,
-		cannon_growth = 0,
-		air = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 71,
-		id = 295179,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 100,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 90805,
-		durability = 1170000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 290,
 		speed = 30,
 		luck = 40,
 		battle_unit_type = 90,

@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_251 = {
+	[15902207] = {
+		cannon = 140,
+		air = 0,
+		torpedo = 0,
+		cannon_growth = 2500,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		armor = 0,
+		dodge = 11,
+		torpedo_growth = 0,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 156,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 16,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 90,
+		base = 90251,
+		durability = 18120,
+		armor_growth = 0,
+		durability_growth = 353600,
+		antiaircraft = 175,
+		speed = 16,
+		luck = 15,
+		antiaircraft_growth = 3600,
+		antisub = 0,
+		id = 15902207,
+		fog_fx = "",
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			1000777,
+			1000782,
+			1000787,
+			1000792,
+			1000797
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 3
+			}
+		}
+	},
 	[15902301] = {
 		cannon = 210,
 		name = "전함「Rook」-중장갑형",
@@ -1173,47 +1220,6 @@ pg.enemy_data_statistics_251 = {
 			1000713,
 			1000718,
 			1000723
-		}
-	},
-	[15903122] = {
-		cannon = 38,
-		air = 0,
-		torpedo = 76,
-		cannon_growth = 936,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo_growth = 3366,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 162,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 14,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 55,
-		base = 90249,
-		durability = 3570,
-		armor_growth = 0,
-		durability_growth = 30400,
-		antiaircraft = 156,
-		speed = 25,
-		luck = 0,
-		antisub = 0,
-		antiaircraft_growth = 3744,
-		id = 15903122,
-		fog_fx = "",
-		specific_fx_scale = {},
-		appear_fx = {
-			"heisewuqi_stg"
-		},
-		equipment_list = {
-			1000683,
-			1000688,
-			1000693,
-			1000698
 		}
 	}
 }

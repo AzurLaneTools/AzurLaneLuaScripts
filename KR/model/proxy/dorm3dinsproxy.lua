@@ -9,9 +9,17 @@ slot0.register = function(slot0)
 	slot0.insPhoneData = slot0:BuildPhoneData()
 
 	slot0:on(28000, function (slot0)
+		if DORM_LOCK_INS then
+			return
+		end
+
 		uv0:HandleInsData(slot0.ins)
 	end)
 	slot0:on(28025, function (slot0)
+		if DORM_LOCK_INS then
+			return
+		end
+
 		for slot4, slot5 in ipairs(slot0.list) do
 			switch(slot5.type, {
 				[uv0.UNLOCK_TYPE_CHAT] = function ()

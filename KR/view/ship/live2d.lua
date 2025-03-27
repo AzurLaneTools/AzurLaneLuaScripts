@@ -700,16 +700,12 @@ slot0.SetVisible = function(slot0, slot1)
 	if slot1 then
 		slot0._readlyToStop = false
 
-		onDelayTick(function ()
-			if not uv0._readlyToStop then
-				if uv0._physics then
-					uv0._physics.enabled = false
-					uv0._physics.enabled = true
-				end
+		if slot0._physics then
+			slot0._physics.enabled = false
+			slot0._physics.enabled = true
+		end
 
-				uv0:setReactPos(false)
-			end
-		end, 1)
+		slot0:setReactPos(false)
 
 		slot0.cubismModelCom.enabled = true
 	else
@@ -725,7 +721,7 @@ slot0.SetVisible = function(slot0, slot1)
 					uv0._stopCallback()
 				end
 			end
-		end, 3)
+		end, 2)
 
 		slot0.cubismModelCom.enabled = false
 	end

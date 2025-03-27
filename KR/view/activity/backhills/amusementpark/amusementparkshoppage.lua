@@ -145,7 +145,7 @@ slot0.CheckRes = function(slot0, slot1, slot2)
 		return false
 	end
 
-	if ({
+	if Drop.New({
 		type = slot1:getConfig("resource_category"),
 		id = slot1:getConfig("resource_type")
 	}):getOwnedCount() < slot1:getConfig("resource_num") * slot2 then

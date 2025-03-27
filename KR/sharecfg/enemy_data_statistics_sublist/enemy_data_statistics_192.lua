@@ -1,5 +1,68 @@
 pg = pg or {}
 pg.enemy_data_statistics_192 = {
+	[14102006] = {
+		cannon = 8,
+		name = "다이호급 양산형",
+		rarity = 1,
+		speed_growth = 0,
+		antiaircraft_growth = 2200,
+		air = 59,
+		id = 14102006,
+		reload = 150,
+		luck = 0,
+		durability = 3420,
+		hit_growth = 216,
+		antiaircraft = 75,
+		dodge_growth = 0,
+		fog_fx = "",
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 2250,
+		base = 90131,
+		icon_type = 7,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		antisub = 0,
+		cannon_growth = 550,
+		pilot_ai_template_id = 20004,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 15,
+		torpedo = 0,
+		durability_growth = 54400,
+		luck_growth = 0,
+		battle_unit_type = 65,
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				-1,
+				2.2
+			}
+		},
+		equipment_list = {
+			1101027,
+			1100797,
+			1100802,
+			1101022
+		}
+	},
 	[14102007] = {
 		cannon = 60,
 		air = 0,
@@ -1204,43 +1267,6 @@ pg.enemy_data_statistics_192 = {
 			1100885,
 			1100895,
 			1100075
-		}
-	},
-	[14201006] = {
-		cannon = 40,
-		air = 0,
-		torpedo = 85,
-		cannon_growth = 0,
-		pilot_ai_template_id = 80000,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 1000,
-		hit_growth = 1200,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 81,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 15,
-		base = 90080,
-		durability = 60,
-		armor_growth = 0,
-		durability_growth = 2550,
-		antiaircraft = 0,
-		speed = 30,
-		luck = 0,
-		antiaircraft_growth = 0,
-		antisub = 0,
-		id = 14201006,
-		fog_fx = "",
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			1000865
 		}
 	}
 }

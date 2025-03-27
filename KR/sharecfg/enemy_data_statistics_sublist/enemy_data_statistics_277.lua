@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_277 = {
+	[16500205] = {
+		cannon = 35,
+		name = "라 갈리소니에르 통제 무장-「Guard」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 2,
+		type = 2,
+		id = 16500205,
+		antiaircraft = 115,
+		antiaircraft_growth = 3600,
+		fog_fx = "",
+		dodge_growth = 198,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90442,
+		durability = 1480,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 1600,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 14,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 55,
+		durability_growth = 145600,
+		luck_growth = 0,
+		battle_unit_type = 90,
+		specific_fx_scale = {
+			yuanchou_liandao = 0.04
+		},
+		appear_fx = {
+			"appearQ",
+			"yuanchou_liandao"
+		},
+		equipment_list = {
+			1101070,
+			1101075,
+			1101080,
+			1101085,
+			769000
+		}
+	},
 	[16500206] = {
 		cannon = 55,
 		name = "라 갈리소니에르 통제 무장-「Blast」",
@@ -1255,48 +1303,6 @@ pg.enemy_data_statistics_277 = {
 		equipment_list = {
 			1100552,
 			1100587
-		}
-	},
-	[16502004] = {
-		cannon = 43,
-		air = 0,
-		torpedo = 0,
-		cannon_growth = 2200,
-		id = 16502004,
-		reload = 150,
-		armor = 0,
-		dodge = 0,
-		torpedo_growth = 0,
-		hit_growth = 144,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 10,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 60,
-		base = 90746,
-		durability = 4930,
-		armor_growth = 0,
-		durability_growth = 70400,
-		antiaircraft = 105,
-		speed = 10,
-		luck = 0,
-		antisub = 0,
-		antiaircraft_growth = 1400,
-		fog_fx = "",
-		specific_fx_scale = {
-			yuanchou_gongjian = 0.04
-		},
-		appear_fx = {
-			"appearsmall",
-			"yuanchou_gongjian"
-		},
-		equipment_list = {
-			1100052,
-			1100917,
-			1100922
 		}
 	}
 }

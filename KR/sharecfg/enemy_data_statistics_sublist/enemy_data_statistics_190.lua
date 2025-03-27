@@ -1,5 +1,90 @@
 pg = pg or {}
 pg.enemy_data_statistics_190 = {
+	[14004301] = {
+		cannon = 330,
+		name = "테스터",
+		antiaircraft = 390,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 390,
+		luck = 30,
+		id = 14004301,
+		type = 10,
+		durability = 155000,
+		hit_growth = 330,
+		antiaircraft_growth = 0,
+		dodge_growth = 312,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		fog_fx = "",
+		base = 90247,
+		icon_type = 5,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		antisub = 0,
+		scale = 120,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 26,
+		reload_growth = 0,
+		hit = 35,
+		torpedo = 150,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"hudie_heise"
+		},
+		buff_list = {
+			{
+				ID = 50500,
+				LV = 5
+			}
+		}
+	},
 	[14005001] = {
 		cannon = 500,
 		air = 800,
@@ -1189,69 +1274,6 @@ pg.enemy_data_statistics_190 = {
 			1101025,
 			1101030,
 			1100490
-		}
-	},
-	[14100006] = {
-		cannon = 4,
-		name = "다이호급 양산형",
-		rarity = 1,
-		speed_growth = 0,
-		antiaircraft_growth = 1100,
-		air = 25,
-		id = 14100006,
-		reload = 150,
-		luck = 0,
-		durability = 560,
-		hit_growth = 144,
-		antiaircraft = 30,
-		dodge_growth = 0,
-		fog_fx = "",
-		star = 2,
-		antisub_growth = 0,
-		air_growth = 1000,
-		base = 90131,
-		icon_type = 7,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		antisub = 0,
-		cannon_growth = 300,
-		pilot_ai_template_id = 20004,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 0,
-		durability_growth = 27200,
-		luck_growth = 0,
-		battle_unit_type = 65,
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				1,
-				0.2,
-				-0.3464
-			},
-			{
-				0,
-				-1,
-				2.2
-			}
-		},
-		equipment_list = {
-			1101025,
-			1100795,
-			1100800,
-			1101020
 		}
 	}
 }

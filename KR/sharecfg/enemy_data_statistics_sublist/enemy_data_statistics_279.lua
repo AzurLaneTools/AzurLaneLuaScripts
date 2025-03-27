@@ -1,5 +1,52 @@
 pg = pg or {}
 pg.enemy_data_statistics_279 = {
+	[16502122] = {
+		cannon = 38,
+		name = "에밀 베르탱 통제 무장-「Guard」",
+		hit_growth = 210,
+		speed_growth = 0,
+		armor = 0,
+		air = 0,
+		icon_type = 2,
+		type = 2,
+		id = 16502122,
+		antiaircraft = 156,
+		antiaircraft_growth = 3744,
+		fog_fx = "",
+		dodge_growth = 162,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90742,
+		durability = 3570,
+		armor_growth = 0,
+		torpedo_growth = 3366,
+		speed = 25,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 936,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 76,
+		durability_growth = 30400,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		specific_fx_scale = {
+			yuanchou_tianping = 0.04
+		},
+		appear_fx = {
+			"appearsmall",
+			"yuanchou_tianping"
+		},
+		equipment_list = {
+			1100027,
+			1100107,
+			1100192,
+			1100477
+		}
+	},
 	[16502123] = {
 		cannon = 54,
 		name = "에밀 베르탱 통제 무장-「Blast」",
@@ -1314,49 +1361,6 @@ pg.enemy_data_statistics_279 = {
 				ID = 50500,
 				LV = 4
 			}
-		}
-	},
-	[16503205] = {
-		cannon = 130,
-		air = 206,
-		torpedo = 0,
-		cannon_growth = 0,
-		id = 16503205,
-		reload = 150,
-		armor = 0,
-		dodge = 11,
-		torpedo_growth = 0,
-		hit_growth = 210,
-		reload_growth = 0,
-		dodge_growth = 156,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 20,
-		antisub_growth = 0,
-		air_growth = 3500,
-		battle_unit_type = 90,
-		base = 90252,
-		durability = 17020,
-		armor_growth = 0,
-		durability_growth = 308000,
-		antiaircraft = 251,
-		speed = 20,
-		luck = 18,
-		antisub = 0,
-		antiaircraft_growth = 3200,
-		fog_fx = "",
-		specific_fx_scale = {
-			yuanchou_kandao = 0.04
-		},
-		appear_fx = {
-			"appearQ",
-			"yuanchou_kandao"
-		},
-		equipment_list = {
-			1000803,
-			1000808,
-			1000818,
-			1000823
 		}
 	}
 }

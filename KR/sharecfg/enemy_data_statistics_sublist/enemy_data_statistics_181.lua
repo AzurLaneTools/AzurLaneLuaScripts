@@ -1,5 +1,84 @@
 pg = pg or {}
 pg.enemy_data_statistics_181 = {
+	[13900151] = {
+		hit_growth = 210,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 0,
+		armor = 0,
+		antiaircraft_growth = 3600,
+		antisub = 0,
+		cannon = 55,
+		fog_fx = "",
+		dodge_growth = 156,
+		star = 4,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90455,
+		durability = 1480,
+		armor_growth = 0,
+		torpedo_growth = 2000,
+		speed = 20,
+		luck = 4,
+		id = 13900151,
+		cannon_growth = 1600,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 125600,
+		antiaircraft = 145,
+		battle_unit_type = 90,
+		bound_bone = {
+			cannon = {
+				{
+					2.54,
+					0.83,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.14,
+					0.53,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.25,
+					0.25,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.07,
+					2.5,
+					0
+				}
+			},
+			lighting = {
+				{
+					2.5,
+					-4.8,
+					0
+				}
+			}
+		},
+		specific_fx_scale = {
+			qinraozhe_120 = 2.5
+		},
+		appear_fx = {
+			"appearQ",
+			"qinraozhe_120"
+		},
+		equipment_list = {
+			1002252
+		}
+	},
 	[13900181] = {
 		cannon = 64,
 		air = 0,
@@ -1084,47 +1163,6 @@ pg.enemy_data_statistics_181 = {
 			1100272,
 			1100477,
 			1002018
-		}
-	},
-	[13900238] = {
-		cannon = 102,
-		air = 0,
-		torpedo = 84,
-		cannon_growth = 1750,
-		pilot_ai_template_id = 20004,
-		reload = 150,
-		armor = 0,
-		dodge = 17,
-		torpedo_growth = 3200,
-		hit_growth = 350,
-		reload_growth = 0,
-		dodge_growth = 170,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 30,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 60,
-		base = 90322,
-		durability = 6040,
-		armor_growth = 0,
-		durability_growth = 43200,
-		antiaircraft = 192,
-		speed = 18,
-		luck = 0,
-		antiaircraft_growth = 3880,
-		antisub = 0,
-		id = 13900238,
-		scale = 160,
-		fog_fx = "",
-		appear_fx = {
-			"yilishabaidanchuan_buff_01"
-		},
-		equipment_list = {
-			1100567,
-			1100372,
-			1100607,
-			1100477
 		}
 	}
 }

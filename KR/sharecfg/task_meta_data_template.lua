@@ -287,6 +287,11 @@ pg.task_meta_data_template = setmetatable({
 		100393,
 		100394,
 		100395,
+		100401,
+		100402,
+		100403,
+		100404,
+		100405,
 		200001,
 		200002,
 		200003,
@@ -406,7 +411,11 @@ pg.task_meta_data_template = setmetatable({
 		200301,
 		200302,
 		200303,
-		200304
+		200304,
+		200311,
+		200312,
+		200313,
+		200314
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2691,6 +2700,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "안드레아 도리아·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100401] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100401,
+		target_num = 1,
+		desc = "호넷·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100402] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100402,
+		target_num = 1,
+		desc = "호넷·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100403] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100403,
+		target_num = 1,
+		desc = "호넷·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100404] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100404,
+		target_num = 1,
+		desc = "호넷·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100405] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970706",
+		id = 100405,
+		target_num = 1,
+		desc = "호넷·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3650,5 +3699,37 @@ pg.base.task_meta_data_template = {
 		id = 200304,
 		target_num = 1,
 		desc = "대형작전에서 안드레아 도리아·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200311] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200311,
+		target_num = 1,
+		desc = "대형작전에서 호넷·META를 포함한 함대로 1회 승리"
+	},
+	[200312] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200312,
+		target_num = 1,
+		desc = "대형작전에서 호넷·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200313] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200313,
+		target_num = 1,
+		desc = "대형작전에서 호넷·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200314] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970706",
+		id = 200314,
+		target_num = 1,
+		desc = "대형작전에서 호넷·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

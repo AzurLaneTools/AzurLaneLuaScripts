@@ -1,5 +1,42 @@
 pg = pg or {}
 pg.enemy_data_statistics_246 = {
+	[15803301] = {
+		cannon = 170,
+		air = 0,
+		torpedo = 125,
+		cannon_growth = 0,
+		id = 15803301,
+		reload = 150,
+		armor = 0,
+		dodge = 14,
+		torpedo_growth = 0,
+		hit_growth = 330,
+		reload_growth = 0,
+		dodge_growth = 196,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 38,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		base = 90629,
+		durability = 86200,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 260,
+		speed = 16,
+		luck = 25,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		scale = 180,
+		fog_fx = "",
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {}
+	},
 	[15803302] = {
 		cannon = 108,
 		name = "컴파일러 μ형",
@@ -1096,43 +1133,5 @@ pg.enemy_data_statistics_246 = {
 			1002179,
 			1002184
 		}
-	},
-	[15805205] = {
-		cannon = 800,
-		name = "컴파일러 ω형",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 15805205,
-		air = 800,
-		armor = 0,
-		luck_growth = 0,
-		hit_growth = 210,
-		fog_fx = "",
-		dodge_growth = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90438,
-		durability = 10000000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 30,
-		luck = 50,
-		antisub = 0,
-		scale = 180,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20011,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 500,
-		battle_unit_type = 95,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {}
 	}
 }
