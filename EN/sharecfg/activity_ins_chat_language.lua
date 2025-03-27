@@ -29426,7 +29426,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"[就是这样]"
+				"[Sticker: That's it]"
 			},
 			{
 				9,
@@ -29541,7 +29541,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				11,
-				"[哇哈哈]"
+				"[Sticker: Praise me!]"
 			},
 			{
 				12,
@@ -33271,7 +33271,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				5,
-				"[微笑靠近]"
+				"[Sticker: Com-man-der?]"
 			}
 		}
 	},
@@ -33953,7 +33953,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				8,
-				"[就是这样]"
+				"[Sticker: That's it]"
 			},
 			{
 				9,

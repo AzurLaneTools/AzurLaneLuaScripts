@@ -83,7 +83,7 @@ slot0.updateUI = function(slot0)
 		setActive(slot0.newIcon, true)
 		setActive(slot0.finishIcon, false)
 	elseif slot1 == DownloadState.CheckOver then
-		setText(slot0.btnText, "无需更新")
+		setText(slot0.btnText, "No Update")
 		setActive(slot0.loadingIcon, false)
 		setActive(slot0.newIcon, false)
 		setActive(slot0.finishIcon, false)

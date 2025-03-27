@@ -291,7 +291,7 @@ pg.base.activity_clue = {
 	{
 		id = 1,
 		unlock_num = "2 times",
-		unlock_desc = "Clear any stage on during the day/dust/the night.",
+		unlock_desc = "Clear any stage on during the day/dust/the night ",
 		type = 1,
 		group = 1,
 		task_id = "21501",
@@ -300,7 +300,7 @@ pg.base.activity_clue = {
 	{
 		id = 2,
 		unlock_num = "5 times",
-		unlock_desc = "Clear any stage on during the day/dust/the night.",
+		unlock_desc = "Clear any stage on during the day/dust/the night ",
 		type = 1,
 		group = 1,
 		task_id = "21502",
@@ -309,7 +309,7 @@ pg.base.activity_clue = {
 	{
 		id = 3,
 		unlock_num = "10 times",
-		unlock_desc = "Clear any stage on during the day/dust/the night.",
+		unlock_desc = "Clear any stage on during the day/dust/the night ",
 		type = 1,
 		group = 1,
 		task_id = "21503",
@@ -318,7 +318,7 @@ pg.base.activity_clue = {
 	{
 		id = 4,
 		unlock_num = "15 times",
-		unlock_desc = "Clear any stage on during dust/the night.",
+		unlock_desc = "Clear any stage on during dust/the night ",
 		type = 1,
 		group = 2,
 		task_id = "21504",
@@ -327,7 +327,7 @@ pg.base.activity_clue = {
 	{
 		id = 5,
 		unlock_num = "30 times",
-		unlock_desc = "Clear any stage on during dust/the night.",
+		unlock_desc = "Clear any stage on during dust/the night ",
 		type = 1,
 		group = 2,
 		task_id = "21505",
@@ -336,7 +336,7 @@ pg.base.activity_clue = {
 	{
 		id = 6,
 		unlock_num = "45 times",
-		unlock_desc = "Clear any stage on during dust/the night.",
+		unlock_desc = "Clear any stage on during dust/the night ",
 		type = 1,
 		group = 2,
 		task_id = "21506",
@@ -345,7 +345,7 @@ pg.base.activity_clue = {
 	{
 		id = 7,
 		unlock_num = "3 times",
-		unlock_desc = "Clear ESP Medical Center.",
+		unlock_desc = "Clear ESP Medical Center ",
 		type = 1,
 		group = 3,
 		task_id = "21507",
@@ -354,7 +354,7 @@ pg.base.activity_clue = {
 	{
 		id = 8,
 		unlock_num = "6 times",
-		unlock_desc = "Clear ESP Medical Center.",
+		unlock_desc = "Clear ESP Medical Center ",
 		type = 1,
 		group = 3,
 		task_id = "21508",
@@ -363,7 +363,7 @@ pg.base.activity_clue = {
 	{
 		id = 9,
 		unlock_num = "12 times",
-		unlock_desc = "Clear ESP Medical Center.",
+		unlock_desc = "Clear ESP Medical Center ",
 		type = 1,
 		group = 3,
 		task_id = "21509",
@@ -372,7 +372,7 @@ pg.base.activity_clue = {
 	{
 		id = 10,
 		unlock_num = "1 time",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Doctor's Office Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Doctor's Office Investigation applied ",
 		type = 1,
 		group = 4,
 		task_id = "21510",
@@ -381,7 +381,7 @@ pg.base.activity_clue = {
 	{
 		id = 11,
 		unlock_num = "2 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Doctor's Office Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Doctor's Office Investigation applied ",
 		type = 1,
 		group = 4,
 		task_id = "21511",
@@ -390,7 +390,7 @@ pg.base.activity_clue = {
 	{
 		id = 12,
 		unlock_num = "3 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Doctor's Office Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Doctor's Office Investigation applied ",
 		type = 1,
 		group = 4,
 		task_id = "21512",
@@ -399,7 +399,7 @@ pg.base.activity_clue = {
 	{
 		id = 13,
 		unlock_num = "1 time",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 5,
 		task_id = "21513",
@@ -408,7 +408,7 @@ pg.base.activity_clue = {
 	{
 		id = 14,
 		unlock_num = "2 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 5,
 		task_id = "21514",
@@ -417,7 +417,7 @@ pg.base.activity_clue = {
 	{
 		id = 15,
 		unlock_num = "3 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 5,
 		task_id = "21515",
@@ -426,7 +426,7 @@ pg.base.activity_clue = {
 	{
 		id = 16,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols and Visitor Restrictions applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols and Visitor Restrictions applied ",
 		type = 1,
 		group = 6,
 		task_id = "21516",
@@ -435,7 +435,7 @@ pg.base.activity_clue = {
 	{
 		id = 17,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols and Visitor Restrictions applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols and Visitor Restrictions applied ",
 		type = 1,
 		group = 6,
 		task_id = "21517",
@@ -444,7 +444,7 @@ pg.base.activity_clue = {
 	{
 		id = 18,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols and Visitor Restrictions applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols and Visitor Restrictions applied ",
 		type = 1,
 		group = 6,
 		task_id = "21518",
@@ -453,7 +453,7 @@ pg.base.activity_clue = {
 	{
 		id = 19,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Nurse Station Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Nurse Station Investigation applied ",
 		type = 1,
 		group = 7,
 		task_id = "21519",
@@ -462,7 +462,7 @@ pg.base.activity_clue = {
 	{
 		id = 20,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Nurse Station Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Nurse Station Investigation applied ",
 		type = 1,
 		group = 7,
 		task_id = "21520",
@@ -471,7 +471,7 @@ pg.base.activity_clue = {
 	{
 		id = 21,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Nurse Station Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Nurse Station Investigation applied ",
 		type = 1,
 		group = 7,
 		task_id = "21521",
@@ -480,7 +480,7 @@ pg.base.activity_clue = {
 	{
 		id = 22,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, and Sickroom Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, and Sickroom Investigation applied ",
 		type = 1,
 		group = 8,
 		task_id = "21522",
@@ -489,7 +489,7 @@ pg.base.activity_clue = {
 	{
 		id = 23,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, and Sickroom Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, and Sickroom Investigation applied ",
 		type = 1,
 		group = 8,
 		task_id = "21523",
@@ -498,7 +498,7 @@ pg.base.activity_clue = {
 	{
 		id = 24,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, and Sickroom Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, and Sickroom Investigation applied ",
 		type = 1,
 		group = 8,
 		task_id = "21524",
@@ -507,7 +507,7 @@ pg.base.activity_clue = {
 	{
 		id = 25,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 9,
 		task_id = "21525",
@@ -516,7 +516,7 @@ pg.base.activity_clue = {
 	{
 		id = 26,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 9,
 		task_id = "21526",
@@ -525,7 +525,7 @@ pg.base.activity_clue = {
 	{
 		id = 27,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 9,
 		task_id = "21527",
@@ -534,7 +534,7 @@ pg.base.activity_clue = {
 	{
 		id = 28,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols and Security Alerts applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols and Security Alerts applied ",
 		type = 1,
 		group = 10,
 		task_id = "21528",
@@ -543,7 +543,7 @@ pg.base.activity_clue = {
 	{
 		id = 29,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols and Security Alerts applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols and Security Alerts applied ",
 		type = 1,
 		group = 10,
 		task_id = "21529",
@@ -552,7 +552,7 @@ pg.base.activity_clue = {
 	{
 		id = 30,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols and Security Alerts applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols and Security Alerts applied ",
 		type = 1,
 		group = 10,
 		task_id = "21530",
@@ -561,7 +561,7 @@ pg.base.activity_clue = {
 	{
 		id = 31,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Strange Noises, and RC Underground Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Strange Noises, and RC Underground Investigation applied ",
 		type = 1,
 		group = 11,
 		task_id = "21531",
@@ -570,7 +570,7 @@ pg.base.activity_clue = {
 	{
 		id = 32,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Strange Noises, and RC Underground Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Strange Noises, and RC Underground Investigation applied ",
 		type = 1,
 		group = 11,
 		task_id = "21532",
@@ -579,7 +579,7 @@ pg.base.activity_clue = {
 	{
 		id = 33,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Strange Noises, and RC Underground Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Strange Noises, and RC Underground Investigation applied ",
 		type = 1,
 		group = 11,
 		task_id = "21533",
@@ -588,7 +588,7 @@ pg.base.activity_clue = {
 	{
 		id = 34,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols and Special Doctor's Interview applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols and Special Doctor's Interview applied ",
 		type = 1,
 		group = 12,
 		task_id = "21534",
@@ -597,7 +597,7 @@ pg.base.activity_clue = {
 	{
 		id = 35,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols and Special Doctor's Interview applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols and Special Doctor's Interview applied ",
 		type = 1,
 		group = 12,
 		task_id = "21535",
@@ -606,7 +606,7 @@ pg.base.activity_clue = {
 	{
 		id = 36,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols and Special Doctor's Interview applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols and Special Doctor's Interview applied ",
 		type = 1,
 		group = 12,
 		task_id = "21536",
@@ -615,7 +615,7 @@ pg.base.activity_clue = {
 	{
 		id = 37,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 13,
 		task_id = "21537",
@@ -624,7 +624,7 @@ pg.base.activity_clue = {
 	{
 		id = 38,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 13,
 		task_id = "21538",
@@ -633,7 +633,7 @@ pg.base.activity_clue = {
 	{
 		id = 39,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Underground Area Investigation applied ",
 		type = 1,
 		group = 13,
 		task_id = "21539",
@@ -642,7 +642,7 @@ pg.base.activity_clue = {
 	{
 		id = 40,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Strange Noises applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Strange Noises applied ",
 		type = 1,
 		group = 14,
 		task_id = "21540",
@@ -651,7 +651,7 @@ pg.base.activity_clue = {
 	{
 		id = 41,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Strange Noises applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Strange Noises applied ",
 		type = 1,
 		group = 14,
 		task_id = "21541",
@@ -660,7 +660,7 @@ pg.base.activity_clue = {
 	{
 		id = 42,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Strange Noises applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Strange Noises applied ",
 		type = 1,
 		group = 14,
 		task_id = "21542",
@@ -669,7 +669,7 @@ pg.base.activity_clue = {
 	{
 		id = 43,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Underground Area Investigation applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Underground Area Investigation applied ",
 		type = 1,
 		group = 15,
 		task_id = "21543",
@@ -678,7 +678,7 @@ pg.base.activity_clue = {
 	{
 		id = 44,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Underground Area Investigation applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Underground Area Investigation applied ",
 		type = 1,
 		group = 15,
 		task_id = "21544",
@@ -687,7 +687,7 @@ pg.base.activity_clue = {
 	{
 		id = 45,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Underground Area Investigation applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols and Underground Area Investigation applied ",
 		type = 1,
 		group = 15,
 		task_id = "21545",
@@ -696,7 +696,7 @@ pg.base.activity_clue = {
 	{
 		id = 46,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Parking Lot Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Parking Lot Investigation applied ",
 		type = 1,
 		group = 16,
 		task_id = "21546",
@@ -705,7 +705,7 @@ pg.base.activity_clue = {
 	{
 		id = 47,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Parking Lot Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Parking Lot Investigation applied ",
 		type = 1,
 		group = 16,
 		task_id = "21547",
@@ -714,7 +714,7 @@ pg.base.activity_clue = {
 	{
 		id = 48,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Parking Lot Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Parking Lot Investigation applied ",
 		type = 1,
 		group = 16,
 		task_id = "21548",
@@ -723,7 +723,7 @@ pg.base.activity_clue = {
 	{
 		id = 49,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Security Alerts, and PL Underground Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Security Alerts, and PL Underground Investigation applied ",
 		type = 1,
 		group = 17,
 		task_id = "21549",
@@ -732,7 +732,7 @@ pg.base.activity_clue = {
 	{
 		id = 50,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Security Alerts, and PL Underground Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Security Alerts, and PL Underground Investigation applied ",
 		type = 1,
 		group = 17,
 		task_id = "21550",
@@ -741,7 +741,7 @@ pg.base.activity_clue = {
 	{
 		id = 51,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Security Alerts, and PL Underground Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Suspicious Shadows, Security Alerts, and PL Underground Investigation applied ",
 		type = 1,
 		group = 17,
 		task_id = "21551",
@@ -750,7 +750,7 @@ pg.base.activity_clue = {
 	{
 		id = 52,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Guard Booth Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Guard Booth Investigation applied ",
 		type = 1,
 		group = 18,
 		task_id = "21552",
@@ -759,7 +759,7 @@ pg.base.activity_clue = {
 	{
 		id = 53,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Guard Booth Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Guard Booth Investigation applied ",
 		type = 1,
 		group = 18,
 		task_id = "21553",
@@ -768,7 +768,7 @@ pg.base.activity_clue = {
 	{
 		id = 54,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Guard Booth Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, and Guard Booth Investigation applied ",
 		type = 1,
 		group = 18,
 		task_id = "21554",
@@ -777,7 +777,7 @@ pg.base.activity_clue = {
 	{
 		id = 55,
 		unlock_num = "1 time",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Endless Corridor applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Endless Corridor applied ",
 		type = 1,
 		group = 19,
 		task_id = "21555",
@@ -786,7 +786,7 @@ pg.base.activity_clue = {
 	{
 		id = 56,
 		unlock_num = "2 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Endless Corridor applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Endless Corridor applied ",
 		type = 1,
 		group = 19,
 		task_id = "21556",
@@ -795,7 +795,7 @@ pg.base.activity_clue = {
 	{
 		id = 57,
 		unlock_num = "3 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Endless Corridor applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Endless Corridor applied ",
 		type = 1,
 		group = 19,
 		task_id = "21557",
@@ -804,7 +804,7 @@ pg.base.activity_clue = {
 	{
 		id = 58,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Garden Investigation applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Garden Investigation applied ",
 		type = 1,
 		group = 20,
 		task_id = "21558",
@@ -813,7 +813,7 @@ pg.base.activity_clue = {
 	{
 		id = 59,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Garden Investigation applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Garden Investigation applied ",
 		type = 1,
 		group = 20,
 		task_id = "21559",
@@ -822,7 +822,7 @@ pg.base.activity_clue = {
 	{
 		id = 60,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Garden Investigation applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Garden Investigation applied ",
 		type = 1,
 		group = 20,
 		task_id = "21560",
@@ -831,7 +831,7 @@ pg.base.activity_clue = {
 	{
 		id = 61,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Alluring Cherry Tree applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Alluring Cherry Tree applied ",
 		type = 1,
 		group = 21,
 		task_id = "21561",
@@ -840,7 +840,7 @@ pg.base.activity_clue = {
 	{
 		id = 62,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Alluring Cherry Tree applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Alluring Cherry Tree applied ",
 		type = 1,
 		group = 21,
 		task_id = "21562",
@@ -849,7 +849,7 @@ pg.base.activity_clue = {
 	{
 		id = 63,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Alluring Cherry Tree applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Alluring Cherry Tree applied ",
 		type = 1,
 		group = 21,
 		task_id = "21563",
@@ -858,7 +858,7 @@ pg.base.activity_clue = {
 	{
 		id = 64,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Forest Investigation applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Forest Investigation applied ",
 		type = 1,
 		group = 22,
 		task_id = "21564",
@@ -867,7 +867,7 @@ pg.base.activity_clue = {
 	{
 		id = 65,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Forest Investigation applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Forest Investigation applied ",
 		type = 1,
 		group = 22,
 		task_id = "21565",
@@ -876,7 +876,7 @@ pg.base.activity_clue = {
 	{
 		id = 66,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Forest Investigation applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Forest Investigation applied ",
 		type = 1,
 		group = 22,
 		task_id = "21566",
@@ -885,7 +885,7 @@ pg.base.activity_clue = {
 	{
 		id = 67,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols and Main Entrance Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols and Main Entrance Investigation applied ",
 		type = 1,
 		group = 23,
 		task_id = "21567",
@@ -894,7 +894,7 @@ pg.base.activity_clue = {
 	{
 		id = 68,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols and Main Entrance Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols and Main Entrance Investigation applied ",
 		type = 1,
 		group = 23,
 		task_id = "21568",
@@ -903,7 +903,7 @@ pg.base.activity_clue = {
 	{
 		id = 69,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols and Main Entrance Investigation applied.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols and Main Entrance Investigation applied ",
 		type = 1,
 		group = 23,
 		task_id = "21569",
@@ -912,7 +912,7 @@ pg.base.activity_clue = {
 	{
 		id = 70,
 		unlock_num = "1 time",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Rear Entrance Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Rear Entrance Investigation applied ",
 		type = 1,
 		group = 24,
 		task_id = "21570",
@@ -921,7 +921,7 @@ pg.base.activity_clue = {
 	{
 		id = 71,
 		unlock_num = "2 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Rear Entrance Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Rear Entrance Investigation applied ",
 		type = 1,
 		group = 24,
 		task_id = "21571",
@@ -930,7 +930,7 @@ pg.base.activity_clue = {
 	{
 		id = 72,
 		unlock_num = "3 times",
-		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Rear Entrance Investigation applied.",
+		unlock_desc = "Clear ESP Medical Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Rear Entrance Investigation applied ",
 		type = 1,
 		group = 24,
 		task_id = "21572",
@@ -939,7 +939,7 @@ pg.base.activity_clue = {
 	{
 		id = 73,
 		unlock_num = "1 time",
-		unlock_desc = "Clear any stage during dusk (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during dusk (excluding ESP Medical Center) ",
 		type = 2,
 		group = 25,
 		task_id = "21573",
@@ -948,7 +948,7 @@ pg.base.activity_clue = {
 	{
 		id = 74,
 		unlock_num = "2 times",
-		unlock_desc = "Clear any stage during dusk (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during dusk (excluding ESP Medical Center) ",
 		type = 2,
 		group = 25,
 		task_id = "21574",
@@ -957,7 +957,7 @@ pg.base.activity_clue = {
 	{
 		id = 75,
 		unlock_num = "3 times",
-		unlock_desc = "Clear any stage during dusk (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during dusk (excluding ESP Medical Center) ",
 		type = 2,
 		group = 25,
 		task_id = "21575",
@@ -966,7 +966,7 @@ pg.base.activity_clue = {
 	{
 		id = 76,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols applied ",
 		type = 2,
 		group = 26,
 		task_id = "21576",
@@ -975,7 +975,7 @@ pg.base.activity_clue = {
 	{
 		id = 77,
 		unlock_num = "4 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols applied ",
 		type = 2,
 		group = 26,
 		task_id = "21577",
@@ -984,7 +984,7 @@ pg.base.activity_clue = {
 	{
 		id = 78,
 		unlock_num = "6 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols applied.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols applied ",
 		type = 2,
 		group = 26,
 		task_id = "21578",
@@ -993,7 +993,7 @@ pg.base.activity_clue = {
 	{
 		id = 79,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Visitor Restrictions applied during the night.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Visitor Restrictions applied during the night ",
 		type = 2,
 		group = 27,
 		task_id = "21579",
@@ -1002,7 +1002,7 @@ pg.base.activity_clue = {
 	{
 		id = 80,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Visitor Restrictions applied during the night.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Visitor Restrictions applied during the night ",
 		type = 2,
 		group = 27,
 		task_id = "21580",
@@ -1011,7 +1011,7 @@ pg.base.activity_clue = {
 	{
 		id = 81,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Visitor Restrictions applied during the night.",
+		unlock_desc = "Clear T1 Inpatient Building with Regular Patrols, Suspicious Shadows, Strange Noises, and Visitor Restrictions applied during the night ",
 		type = 2,
 		group = 27,
 		task_id = "21581",
@@ -1020,7 +1020,7 @@ pg.base.activity_clue = {
 	{
 		id = 82,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols applied ",
 		type = 2,
 		group = 28,
 		task_id = "21582",
@@ -1029,7 +1029,7 @@ pg.base.activity_clue = {
 	{
 		id = 83,
 		unlock_num = "4 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols applied ",
 		type = 2,
 		group = 28,
 		task_id = "21583",
@@ -1038,7 +1038,7 @@ pg.base.activity_clue = {
 	{
 		id = 84,
 		unlock_num = "6 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols applied.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols applied ",
 		type = 2,
 		group = 28,
 		task_id = "21584",
@@ -1047,7 +1047,7 @@ pg.base.activity_clue = {
 	{
 		id = 85,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Special Doctor's Interview applied during the night.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Special Doctor's Interview applied during the night ",
 		type = 2,
 		group = 29,
 		task_id = "21585",
@@ -1056,7 +1056,7 @@ pg.base.activity_clue = {
 	{
 		id = 86,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Special Doctor's Interview applied during the night.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Special Doctor's Interview applied during the night ",
 		type = 2,
 		group = 29,
 		task_id = "21586",
@@ -1065,7 +1065,7 @@ pg.base.activity_clue = {
 	{
 		id = 87,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Special Doctor's Interview applied during the night.",
+		unlock_desc = "Clear T2 Recuperation Center with Regular Patrols, Suspicious Shadows, Strange Noises, and Special Doctor's Interview applied during the night ",
 		type = 2,
 		group = 29,
 		task_id = "21587",
@@ -1074,7 +1074,7 @@ pg.base.activity_clue = {
 	{
 		id = 88,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T3 Logistics Center with Suspicious Shadows and Strange Noises applied.",
+		unlock_desc = "Clear T3 Logistics Center with Suspicious Shadows and Strange Noises applied ",
 		type = 2,
 		group = 30,
 		task_id = "21588",
@@ -1083,7 +1083,7 @@ pg.base.activity_clue = {
 	{
 		id = 89,
 		unlock_num = "4 times",
-		unlock_desc = "Clear T3 Logistics Center with Suspicious Shadows and Strange Noises applied.",
+		unlock_desc = "Clear T3 Logistics Center with Suspicious Shadows and Strange Noises applied ",
 		type = 2,
 		group = 30,
 		task_id = "21589",
@@ -1092,7 +1092,7 @@ pg.base.activity_clue = {
 	{
 		id = 90,
 		unlock_num = "6 times",
-		unlock_desc = "Clear T3 Logistics Center with Suspicious Shadows and Strange Noises applied.",
+		unlock_desc = "Clear T3 Logistics Center with Suspicious Shadows and Strange Noises applied ",
 		type = 2,
 		group = 30,
 		task_id = "21590",
@@ -1101,7 +1101,7 @@ pg.base.activity_clue = {
 	{
 		id = 91,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols applied ",
 		type = 2,
 		group = 31,
 		task_id = "21591",
@@ -1110,7 +1110,7 @@ pg.base.activity_clue = {
 	{
 		id = 92,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols applied ",
 		type = 2,
 		group = 31,
 		task_id = "21592",
@@ -1119,7 +1119,7 @@ pg.base.activity_clue = {
 	{
 		id = 93,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T3 Logistics Center with Regular Patrols applied.",
+		unlock_desc = "Clear T3 Logistics Center with Regular Patrols applied ",
 		type = 2,
 		group = 31,
 		task_id = "21593",
@@ -1128,7 +1128,7 @@ pg.base.activity_clue = {
 	{
 		id = 94,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Logistics Center with Security Alerts applied.",
+		unlock_desc = "Clear T4 Logistics Center with Security Alerts applied ",
 		type = 2,
 		group = 32,
 		task_id = "21594",
@@ -1137,7 +1137,7 @@ pg.base.activity_clue = {
 	{
 		id = 95,
 		unlock_num = "4 times",
-		unlock_desc = "Clear T4 Logistics Center with Security Alerts applied.",
+		unlock_desc = "Clear T4 Logistics Center with Security Alerts applied ",
 		type = 2,
 		group = 32,
 		task_id = "21595",
@@ -1146,7 +1146,7 @@ pg.base.activity_clue = {
 	{
 		id = 96,
 		unlock_num = "6 times",
-		unlock_desc = "Clear T4 Logistics Center with Security Alerts applied.",
+		unlock_desc = "Clear T4 Logistics Center with Security Alerts applied ",
 		type = 2,
 		group = 32,
 		task_id = "21596",
@@ -1155,7 +1155,7 @@ pg.base.activity_clue = {
 	{
 		id = 97,
 		unlock_num = "1 time",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, Suspicious Shadows, and Strange Noises applied during the night.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, Suspicious Shadows, and Strange Noises applied during the night ",
 		type = 2,
 		group = 33,
 		task_id = "21597",
@@ -1164,7 +1164,7 @@ pg.base.activity_clue = {
 	{
 		id = 98,
 		unlock_num = "2 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, Suspicious Shadows, and Strange Noises applied during the night.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, Suspicious Shadows, and Strange Noises applied during the night ",
 		type = 2,
 		group = 33,
 		task_id = "21598",
@@ -1173,7 +1173,7 @@ pg.base.activity_clue = {
 	{
 		id = 99,
 		unlock_num = "3 times",
-		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, Suspicious Shadows, and Strange Noises applied during the night.",
+		unlock_desc = "Clear T4 Research Center with Regular Patrols, Security Alerts, Suspicious Shadows, and Strange Noises applied during the night ",
 		type = 2,
 		group = 33,
 		task_id = "21599",
@@ -1182,7 +1182,7 @@ pg.base.activity_clue = {
 	{
 		id = 100,
 		unlock_num = "1 time",
-		unlock_desc = "Clear any stage during the day (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during the day (excluding ESP Medical Center) ",
 		type = 2,
 		group = 34,
 		task_id = "21600",
@@ -1191,7 +1191,7 @@ pg.base.activity_clue = {
 	{
 		id = 101,
 		unlock_num = "2 times",
-		unlock_desc = "Clear any stage during the day (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during the day (excluding ESP Medical Center) ",
 		type = 2,
 		group = 34,
 		task_id = "21601",
@@ -1200,7 +1200,7 @@ pg.base.activity_clue = {
 	{
 		id = 102,
 		unlock_num = "3 times",
-		unlock_desc = "Clear any stage during the day (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during the day (excluding ESP Medical Center) ",
 		type = 2,
 		group = 34,
 		task_id = "21602",
@@ -1209,7 +1209,7 @@ pg.base.activity_clue = {
 	{
 		id = 103,
 		unlock_num = "5 times",
-		unlock_desc = "Clear any stage during the night (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during the night (excluding ESP Medical Center) ",
 		type = 2,
 		group = 35,
 		task_id = "21603",
@@ -1218,7 +1218,7 @@ pg.base.activity_clue = {
 	{
 		id = 104,
 		unlock_num = "10 times",
-		unlock_desc = "Clear any stage during the night (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during the night (excluding ESP Medical Center) ",
 		type = 2,
 		group = 35,
 		task_id = "21604",
@@ -1227,7 +1227,7 @@ pg.base.activity_clue = {
 	{
 		id = 105,
 		unlock_num = "15 times",
-		unlock_desc = "Clear any stage during the night (excluding ESP Medical Center).",
+		unlock_desc = "Clear any stage during the night (excluding ESP Medical Center) ",
 		type = 2,
 		group = 35,
 		task_id = "21605",

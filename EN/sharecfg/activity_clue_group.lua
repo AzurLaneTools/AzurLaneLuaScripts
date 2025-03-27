@@ -45,7 +45,7 @@ pg.base.activity_clue_group = {
 		task_id = "21613",
 		type = 1,
 		id = 1,
-		title = "Valley Hospital (Part 1)",
+		title = "Valley Hospital \n(Part 1)",
 		pic = "1",
 		unlock_jump = {
 			{
@@ -58,7 +58,7 @@ pg.base.activity_clue_group = {
 		task_id = "21613",
 		type = 1,
 		id = 2,
-		title = "Valley Hospital (Part 2)",
+		title = "Valley Hospital \n(Part 2)",
 		pic = "2",
 		unlock_jump = {
 			{
@@ -68,7 +68,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		task_id = "21611",
+		task_id = "21613",
 		type = 1,
 		id = 3,
 		title = "Medical Center",
@@ -102,7 +102,7 @@ pg.base.activity_clue_group = {
 		task_id = "21612",
 		type = 1,
 		id = 5,
-		title = "Medical Center (Underground)",
+		title = "Medical Center \n(Underground)",
 		pic = "5",
 		unlock_jump = {
 			{
@@ -170,7 +170,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 9,
-		title = "Inpatient Building (Underground)",
+		title = "Inpatient Building \n(Underground)",
 		pic = "9",
 		unlock_jump = {
 			{
@@ -187,7 +187,7 @@ pg.base.activity_clue_group = {
 		task_id = "21609",
 		type = 1,
 		id = 10,
-		title = "Research Center",
+		title = "Research\nCenter",
 		pic = "10",
 		unlock_jump = {
 			{
@@ -203,7 +203,7 @@ pg.base.activity_clue_group = {
 		task_id = "21610",
 		type = 1,
 		id = 11,
-		title = "Research Center (Underground)",
+		title = "Research Center \n(Underground)",
 		pic = "11",
 		unlock_jump = {
 			{
@@ -237,7 +237,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 13,
-		title = "Recuperation Center (Underground)",
+		title = "Recuperation Center \n(Underground)",
 		pic = "13",
 		unlock_jump = {
 			{
@@ -271,7 +271,7 @@ pg.base.activity_clue_group = {
 		task_id = "21608",
 		type = 1,
 		id = 15,
-		title = "Logistics Center (Underground)",
+		title = "Logistics Center \n(Underground)",
 		pic = "15",
 		unlock_jump = {
 			{
@@ -304,7 +304,7 @@ pg.base.activity_clue_group = {
 		task_id = "21610",
 		type = 1,
 		id = 17,
-		title = "Parking Lot (Underground)",
+		title = "Parking Lot \n(Underground)",
 		pic = "17",
 		unlock_jump = {
 			{
@@ -424,7 +424,7 @@ pg.base.activity_clue_group = {
 		}
 	},
 	{
-		task_id = "21613",
+		task_id = "21611",
 		type = 1,
 		id = 24,
 		title = "Rear Entrance",
