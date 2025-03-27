@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			asideType = 3,
 			blackBg = true,
-			say = "那不勒斯王国·边境",
+			say = "Kingdom of Naples - Borderlands",
 			sequence = {
 				{
 					"Kingdom of Naples - Borderlands",

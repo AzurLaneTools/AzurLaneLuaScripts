@@ -141,8 +141,10 @@ slot0.bindEvent = function(slot0)
 			mainFleetId = slot1.curFleetId,
 			system = uv0.contextData.system,
 			actId = uv0.contextData.actId,
+			variableBuffList = uv0.contextData.buffList,
 			continuousBattleTimes = slot1.continuousBattleTimes,
-			totalBattleTimes = slot1.continuousBattleTimes
+			totalBattleTimes = slot1.continuousBattleTimes,
+			useVariableTicket = uv0.contextData.useTicket and 1 or 0
 		})
 	end)
 end
@@ -201,7 +203,7 @@ slot0.handleNotification = function(slot0, slot1)
 				hideNo = true,
 				content = i18n("battle_preCombatMediator_timeout"),
 				onYes = function ()
-					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+					uv0.viewComponent:closeView()
 				end
 			})
 		end

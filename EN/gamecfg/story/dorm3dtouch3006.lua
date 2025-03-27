@@ -14,9 +14,10 @@ return {
 		{
 			actorName = 19903,
 			side = 2,
-			hidePaintObj = true,
 			dir = 1,
+			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_furniture1_tone6",
 			nameColor = "#FFFFFF",
+			hidePaintObj = true,
 			say = "{dorm3d}... Awesome!",
 			typewriter = {
 				speed = 0.05,
@@ -28,7 +29,7 @@ return {
 					op_list = {
 						{
 							param = "Play",
-							name = "ab_shuohua_gandong_01",
+							name = "ab_FF_chuang_2_xiong_01-end",
 							time = 0,
 							type = "action",
 							skip = true

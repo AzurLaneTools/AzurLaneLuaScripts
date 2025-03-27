@@ -79,10 +79,13 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:setActivity(slot3)
 			slot0.viewComponent:UpdatePhase()
 			slot0.viewComponent:UpdateAwardPage()
+			slot0.viewComponent:UpdateTaskPage()
+			slot0.viewComponent:UpdateView()
 		end
 	elseif slot2 == GAME.CRUSING_CMD_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 		slot0.viewComponent:UpdateAwardPage()
+		slot0.viewComponent:UpdateView()
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
 		slot0.viewComponent:UpdateRes()
@@ -97,6 +100,7 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 	elseif slot2 == GAME.SUBMIT_TASK_DONE or slot2 == GAME.SUBMIT_ACTIVITY_TASK_DONE then
 		slot0.viewComponent:UpdateTaskPage()
+		slot0.viewComponent:UpdateView()
 	elseif slot2 == GAME.SHOPPING_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards)
 	elseif slot2 == ShopsProxy.CRUISE_SHOP_UPDATED then

@@ -316,7 +316,10 @@ pg.ship_skin_words_extra = setmetatable({
 		605080,
 		608030,
 		601110,
-		602030
+		602030,
+		107130,
+		102340,
+		101530
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22208,6 +22211,210 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"I've written about all of our time together in my diary. Sometimes, I draw my memories with you... It's frankly childish behavior for a soldier, but when I look upon them, I remember you. It makes me... so very happy."
+			}
+		}
+	},
+	[107130] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 107130,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Ah, Commander, you're here! There's not much work today, so how about we get the easy stuff done then find a quiet place to chat? Heehee. Learning more about you is a kind of adventure, too♪"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back, Commander. I brought you some souvenirs. So, what can I expect in return this time? Maybe a welcome-back kiss, hmm?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"That enough for you? I won't stop you from doing it more."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You want me to remodel your office chair? I'm not exactly a carpenter... Does sitting on it wear out your back or something? Then what you need is more exercise. Heck, I'll help you with it! Let's start with the easiest ones♡"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Yeah, I'm still working on our journal of adventures through the port – just feels like I've kinda got writer's block... Hey, why don't we go and \"do something\" together to find some inspiration?|These are cans I got from Herring. She said they'll be useful on my adventures, so I took 'em... Hm? Why are you making that face, Commander?|I found the best hidden gem of a beach ever, so what do you say we go on an explor-vacation? Y'know, just us two♡"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hm? A scratch on my hand? A simple scratch doesn't demand any treatment. A little kiss from you would be more than enough. Heehee♡"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Oh? Keep doing this and I might do it back to you. Conveniently, I learned a fun little technique just a while ago... Heehee♥"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Did you know, Commander? While I've been on countless adventures and seen many unforgettable wonders, none of them come even close to matching the excitement I felt when we first met. Aww, are you blushing? If you're blushing now, I wonder how you'll react to what I'm about to do. Heehee♡"
+			}
+		}
+	},
+	[102340] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 102340,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Good mooorning, Commander! I sorted your documents for you! Don't worry – I'll never mess them up again! See, THIS time, I alphabetized them by file name! Nyahaha! ...Bwuh? That's wrong, too? How?!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Staaare... I heard you and someone were getting awfully close during your last battle. Is it true? Tell me! Commander, come on!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"You must be thinking, \"How the heck is Sante Fe so cute?\" That's it, isn't it? I knew it!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I heard a lot of gossip at the party last night! Like how Napoli got lost in the Empery's kitchen, ate some dubious food, and fainted... Or how Akagi and Shoukaku got into a serious argument at a clothing store... But the most important ones were stories about us being lovey-dovey, of course! Nyahaha!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"You say people have stopped being as weird lately? Urk... Don't look at me! I'm not giving everyone advice anymore, a-and besides... I want you all to myself!|Is it just me, or is this office stuffy? It's bad for you to not have circulation, so I'll open a window – Aaaah! The wind sent papers flying everywhere!|Commander, get this! I saw Miss von Hutten feeding a kitty in secret! She acts so cool all the time... Huh? The papers? Aw, darn it! I forgot you wanted me to get papers from her!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"I offered to help Owari with her garden, but she said no. Why did I want to? Because I'd get to bring you fresh fruits and veggies every day, duh."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"You did that on purpose, didn't you? Not that I'm against it. Just... Don't touch anyone else, okay?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, I booked the restaurant for our date! Tonight, we'll have the most luxurious candlelit dinner for two in a Ferris wheel! Nyahaha! Are you surprised? Well, we'd better leave now... H-huh? Uh, why can't I find the reservation details...?"
+			}
+		}
+	},
+	[101530] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 101530,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Hm? Commander, you're back? I-I wasn't waiting just for you, no! I just thought, since we're together and all, I should pick you up once in a while... Th-that's okay, right? Ugh, why are you laughing?!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"(Alright, I'll use this new pose to capture the Commander's heart!) Welcome back, Commander! Wanna see my super-sick new pose?! Heheh, cool, right? ...Huh? Whaaat?! Y-you saw me practicing it? Aww..."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"I told you not to touch my head... Okay, fine, I guess I can let you just this once..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Our relationship is totally different now, but that doesn't mean I'll be sweet forever! That said... If you like that more, I can try...?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I gotta work hard to keep up my cool bad-girl persona today! ...You like me more when I'm not pretending? Urgh... I-I mean, I have no idea what you're talking about!|Commander... Remember to eat regular meals and take breaks, okay? I-I'm just doing my job as your secretary, that's all!|Commander, try this coffee I made for you! Heheh, the wasabi I put in the mug startled you, right?! H-huh... You found it unique and interesting?!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hmm? Your GOAT is right here~"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"C-Commander... Just because we're together, that doesn't mean – Aah! That doesn't mean NEVER! ...Hyah?! A-anyway, not today!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"When I'm with you now, I realize I don't have to act all bad... You'd accept me no matter how I am, wouldn't you? But that doesn't mean I'm giving up on badness! It's one of my charms, and you're cute when you're getting pranked... Ah, ignore that last part! Forget it!"
 			}
 		}
 	}

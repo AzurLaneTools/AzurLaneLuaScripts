@@ -35,7 +35,7 @@ slot0.register = function(slot0)
 
 		slot0.viewComponent:setChallengeInfo(slot8:getUserChallengeInfo(slot0.contextData.mode), slot8:userSeaonExpire(slot0.contextData.mode))
 	else
-		if slot7 == SYSTEM_SCENARIO or slot7 == SYSTEM_ROUTINE or slot7 == SYSTEM_ACT_BOSS or slot7 == SYSTEM_BOSS_SINGLE or slot7 == SYSTEM_HP_SHARE_ACT_BOSS or slot7 == SYSTEM_SUB_ROUTINE or slot7 == SYSTEM_WORLD then
+		if slot7 == SYSTEM_SCENARIO or slot7 == SYSTEM_ROUTINE or slot7 == SYSTEM_ACT_BOSS or slot7 == SYSTEM_BOSS_SINGLE or slot7 == SYSTEM_BOSS_SINGLE_VARIABLE or slot7 == SYSTEM_HP_SHARE_ACT_BOSS or slot7 == SYSTEM_SUB_ROUTINE or slot7 == SYSTEM_WORLD then
 			slot10 = slot0.viewComponent
 
 			slot10:setExpBuff(_.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
@@ -130,7 +130,7 @@ slot0.register = function(slot0)
 		-- Nothing
 	elseif slot7 == SYSTEM_CARDPUZZLE then
 		-- Nothing
-	elseif slot7 == SYSTEM_HP_SHARE_ACT_BOSS or slot7 == SYSTEM_ACT_BOSS or slot7 == SYSTEM_BOSS_SINGLE or slot7 == SYSTEM_BOSS_EXPERIMENT then
+	elseif slot7 == SYSTEM_HP_SHARE_ACT_BOSS or slot7 == SYSTEM_ACT_BOSS or slot7 == SYSTEM_BOSS_SINGLE or slot7 == SYSTEM_BOSS_SINGLE_VARIABLE or slot7 == SYSTEM_BOSS_EXPERIMENT then
 		slot9 = slot0.contextData.actId
 
 		if slot7 == SYSTEM_HP_SHARE_ACT_BOSS then
@@ -385,7 +385,7 @@ slot0.register = function(slot0)
 			return
 		elseif uv0 == SYSTEM_CARDPUZZLE then
 			-- Nothing
-		elseif uv0 == SYSTEM_BOSS_SINGLE then
+		elseif uv0 == SYSTEM_BOSS_SINGLE or uv0 == SYSTEM_BOSS_SINGLE_VARIABLE then
 			slot3, slot4 = slot2:getContextByMediator(PreCombatMediator)
 
 			if slot3 then
@@ -520,8 +520,10 @@ slot0.register = function(slot0)
 			system = uv0.contextData.system,
 			actId = uv0.contextData.actId,
 			rivalId = uv0.contextData.rivalId,
+			variableBuffList = uv0.contextData.variableBuffList,
 			continuousBattleTimes = uv0.contextData.continuousBattleTimes,
-			totalBattleTimes = uv0.contextData.totalBattleTimes
+			totalBattleTimes = uv0.contextData.totalBattleTimes,
+			useVariableTicket = uv0.contextData.useVariableTicket
 		})
 	end)
 	slot0:bind(uv0.PRE_BATTLE_FAIL_EXIT, function (slot0)

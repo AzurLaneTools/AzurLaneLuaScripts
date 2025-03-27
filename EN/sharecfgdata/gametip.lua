@@ -26075,6 +26075,69 @@ Any purchased Cruise Mission Vouchers will remain even after the campaign season
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2504 = {
+	tip = "Complete seasonal missions <icon name=pt w=0.5 h=0.5/> during the 2025.4.1 - 2025.5.31 Cruise Mission season and obtain rewards such as <color=#854747>Nevada META</color> and more!"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2504 = {
+	tip = {
+		{
+			info = [[
+Cruise Missions Seasonal Campaign
+2025/4/1 00:00 – 2025/5/31 23:59
+
+- Overview -
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Nevada META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Stremitelny, "Nurse on the Night Shift."
+
+- How to Play -
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+· If you purchase a Fair Winds Cruise Pass, you will automatically receive 15 levels worth of progress (1500 Progress Pts).
+· You can receive rewards for reaching certain Progress milestones. There are two types of rewards:
+a) Cruise Rewards - Rewards that can be obtained based on the total number of accumulated Progress Pts. There are a total of 100 levels.
+b) Fair Winds Rewards - An additional set of rewards that will be unlocked when you purchase a Fair Winds Cruise Pass. As with the regular Cruise Rewards, there are a total of 100 levels, and they can be collected alongside Cruise Rewards at the same Progress level.
+· When the campaign season ends, your Progress Pts will be reset.
+
+- Tips - 
+· Play at your own pace
+Cruise Missions have a total of 100 Progress levels, and are not meant to be cleared in one session. We recommend that you complete them at your own pace.
+
+· Fair Winds Cruise Pass
+If you purchase a Fair Winds Cruise Pass from Akashi's shop, you will automatically earn 1500 Progress Pts and unlock access to valuable rewards. Furthermore, there is an exclusive outfit available only through the Fair Winds rewards, so please plan accordingly.
+
+· Skipping Missions (not recommended)
+You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2504 = {
+	tip = {
+		{
+			info = [[
+- Regarding Cruise Missions - 
+· Two types of missions will be released at the same time at the start of the campaign season:
+a) Weekly Missions - Missions unlocked in batches every 7 days during the campaign season, for a total of 8 batches.
+b) Seasonal Missions - One set of missions available for the entire campaign season, available from the start of the season.
+
+· All of the above Season Missions are automatically active, and when you open the Season Missions menu, you will automatically obtain Progress Pts. for any missions you've completed.
+
+· You can purchase and use Cruise Mission Vouchers to automatically complete missions and receive the corresponding amount of Progress Pts. Tap the arrow button next to a mission on the Mission List to automatically complete it.
+We do not recommend this because this costs Gems, whereas you are able to complete Cruise Missions normally.
+Any purchased Cruise Mission Vouchers will remain even after the campaign season ends.]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "Reset"
 }
@@ -36133,6 +36196,11 @@ _G.pg.base.gametip.cruise_title_2502 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2504 = {
+	tip = "Seasonal Missions – S22"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "Time Remaining:"
 }
@@ -37820,4 +37888,169 @@ _G.pg.base.gametip.SkinDiscount_Got = {
 
 _G.pg.base.gametip.skin_original_price = {
 	tip = "Full Price"
+}
+
+
+_G.pg.base.gametip.clue_title_1 = {
+	tip = "Location Info"
+}
+
+
+_G.pg.base.gametip.clue_title_2 = {
+	tip = "Character Info"
+}
+
+
+_G.pg.base.gametip.clue_title_3 = {
+	tip = "Important Info"
+}
+
+
+_G.pg.base.gametip.clue_title_4 = {
+	tip = "Story"
+}
+
+
+_G.pg.base.gametip.clue_task_goto = {
+	tip = "Start Investigation"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip1 = {
+	tip = "Unlock Character Info"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip2 = {
+	tip = "Unlock $1"
+}
+
+
+_G.pg.base.gametip.clue_get = {
+	tip = "Claim"
+}
+
+
+_G.pg.base.gametip.clue_got = {
+	tip = "Claimed"
+}
+
+
+_G.pg.base.gametip.clue_unselect_tip = {
+	tip = "Go to your notes and select an investigation target"
+}
+
+
+_G.pg.base.gametip.clue_close_tip = {
+	tip = "Tap the screen to return"
+}
+
+
+_G.pg.base.gametip.clue_pt_tip = {
+	tip = "Total: x"
+}
+
+
+_G.pg.base.gametip.clue_buff_research = {
+	tip = "Targets"
+}
+
+
+_G.pg.base.gametip.clue_buff_pt_boost = {
+	tip = "Each one added increases event item gain by 5%"
+}
+
+
+_G.pg.base.gametip.clue_buff_stage_loot = {
+	tip = "Clear Rewards"
+}
+
+
+_G.pg.base.gametip.clue_task_tip = {
+	tip = "(Progress: $1)"
+}
+
+
+_G.pg.base.gametip.clue_buff_reach_max = {
+	tip = "You cannot add more investigation targets."
+}
+
+
+_G.pg.base.gametip.clue_buff_unselect = {
+	tip = "-No investigation target selected-"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_1 = {
+	tip = "T1 Inpatient Building (Day)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_2 = {
+	tip = "T2 Recuperation Center (Day)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
+	tip = "T3 Logistics Center (Day)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
+	tip = "T4 Research Center (Day)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_5 = {
+	tip = "T1 Inpatient Building (Dusk)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
+	tip = "T2 Recuperation Center (Dusk)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_7 = {
+	tip = "T3 Logistics Center (Dusk)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
+	tip = "T4 Research Center (Dusk)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
+	tip = "T1 Inpatient Building (Night)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
+	tip = "T2 Recuperation Center (Night)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_11 = {
+	tip = "T3 Logistics Center (Night)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
+	tip = "T4 Research Center (Night)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_13 = {
+	tip = "ESP Medical Center"
+}
+
+
+_G.pg.base.gametip.clue_buff_ticket_tips = {
+	tip = "Tap the check box to use Tenko Group Badge to increase the amount of PT received."
+}
+
+
+_G.pg.base.gametip.clue_buff_empty_ticket = {
+	tip = "Get Tenko Group Badge from investigation missions"
 }

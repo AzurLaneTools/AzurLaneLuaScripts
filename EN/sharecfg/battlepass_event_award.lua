@@ -512,6 +512,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[10022] = {
+		id = 10022,
+		drop_client = {
+			2,
+			30336,
+			1
+		}
+	},
 	[11015] = {
 		id = 11015,
 		drop_client = {
@@ -565,6 +573,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			2,
 			30506,
+			1
+		}
+	},
+	[11022] = {
+		id = 11022,
+		drop_client = {
+			2,
+			30507,
 			1
 		}
 	},
@@ -624,6 +640,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[12022] = {
+		id = 12022,
+		drop_client = {
+			2,
+			30427,
+			1
+		}
+	},
 	[13015] = {
 		id = 13015,
 		drop_client = {
@@ -669,6 +693,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			9,
 			2091,
+			1
+		}
+	},
+	[13022] = {
+		id = 13022,
+		drop_client = {
+			9,
+			2095,
 			1
 		}
 	},
@@ -728,6 +760,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[14022] = {
+		id = 14022,
+		drop_client = {
+			9,
+			2093,
+			1
+		}
+	},
 	[15015] = {
 		id = 15015,
 		drop_client = {
@@ -784,6 +824,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[15022] = {
+		id = 15022,
+		drop_client = {
+			9,
+			2094,
+			1
+		}
+	},
 	[16015] = {
 		id = 16015,
 		drop_client = {
@@ -829,6 +877,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			9,
 			2092,
+			1
+		}
+	},
+	[16022] = {
+		id = 16022,
+		drop_client = {
+			9,
+			2096,
 			1
 		}
 	},
@@ -904,6 +960,14 @@ pg.battlepass_event_award = {
 			1
 		}
 	},
+	[20022] = {
+		id = 20022,
+		drop_client = {
+			4,
+			9705091,
+			1
+		}
+	},
 	[21015] = {
 		id = 21015,
 		drop_client = {
@@ -957,6 +1021,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			7,
 			204021,
+			1
+		}
+	},
+	[21022] = {
+		id = 21022,
+		drop_client = {
+			7,
+			701062,
 			1
 		}
 	},
@@ -1109,6 +1181,14 @@ pg.battlepass_event_award = {
 		drop_client = {
 			31,
 			105,
+			1
+		}
+	},
+	[40022] = {
+		id = 40022,
+		drop_client = {
+			31,
+			106,
 			1
 		}
 	}

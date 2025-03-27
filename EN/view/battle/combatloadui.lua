@@ -195,7 +195,7 @@ slot0.Preload = function(slot0)
 				uv0.addCommanderBuffRes(slot18)
 				uv0.addChapterBuffRes(slot17)
 			end
-		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS_SP or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT or slot0.contextData.system == SYSTEM_BOSS_SINGLE then
+		elseif slot0.contextData.system == SYSTEM_HP_SHARE_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS or slot0.contextData.system == SYSTEM_ACT_BOSS_SP or slot0.contextData.system == SYSTEM_BOSS_EXPERIMENT or slot0.contextData.system == SYSTEM_BOSS_SINGLE or slot0.contextData.system == SYSTEM_BOSS_SINGLE_VARIABLE then
 			if getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId] then
 				for slot12, slot13 in ipairs(slot7.ships) do
 					table.insert(slot3, slot2:getShipById(slot13))
@@ -204,18 +204,18 @@ slot0.Preload = function(slot0)
 				uv0.addCommanderBuffRes(slot7:buildBattleBuffList())
 			end
 
-			if slot6[slot0.contextData.mainFleetId + 10] then
-				for slot13, slot14 in ipairs(slot8:getTeamByName(TeamType.Submarine)) do
-					table.insert(slot3, slot2:getShipById(slot14))
+			if slot6[slot0.contextData.mainFleetId + (slot0.contextData.system == SYSTEM_BOSS_SINGLE_VARIABLE and Fleet.MEGA_SUBMARINE_FLEET_OFFSET or 10)] then
+				for slot14, slot15 in ipairs(slot9:getTeamByName(TeamType.Submarine)) do
+					table.insert(slot3, slot2:getShipById(slot15))
 				end
 
-				uv0.addCommanderBuffRes(slot8:buildBattleBuffList())
+				uv0.addCommanderBuffRes(slot9:buildBattleBuffList())
 			end
 
 			if slot0.contextData.system == SYSTEM_ACT_BOSS_SP then
-				slot9 = getProxy(ActivityProxy)
+				slot10 = getProxy(ActivityProxy)
 
-				uv0.addChapterBuffRes(_.map(slot9:GetActivityBossRuntime(slot0.contextData.actId).buffIds, function (slot0)
+				uv0.addChapterBuffRes(_.map(slot10:GetActivityBossRuntime(slot0.contextData.actId).buffIds, function (slot0)
 					return ActivityBossBuff.New({
 						configId = slot0
 					}):GetBuffID()
@@ -224,6 +224,19 @@ slot0.Preload = function(slot0)
 
 			if slot0.contextData.system == SYSTEM_BOSS_SINGLE then
 				uv0.addChapterBuffRes(getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetBuffIdsByStageId(slot0.contextData.stageId))
+			end
+
+			if slot0.contextData.system == SYSTEM_BOSS_SINGLE_VARIABLE then
+				uv0.addChapterBuffRes(getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetBuffIdsByStageId(slot0.contextData.stageId))
+
+				slot11 = pg.strategy_data_template
+				slot12 = {}
+
+				for slot16, slot17 in ipairs(slot0.contextData.variableBuffList) do
+					table.insert(slot12, slot11[slot17].buff_id)
+				end
+
+				uv0.addChapterBuffRes(slot12)
 			end
 		elseif slot0.contextData.system == SYSTEM_BOSS_RUSH or slot0.contextData.system == SYSTEM_BOSS_RUSH_EX then
 			slot6 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetSeriesData()

@@ -219,6 +219,7 @@ pg.memory_group = setmetatable({
 		319,
 		320,
 		321,
+		322,
 		501,
 		502,
 		503,
@@ -5194,6 +5195,27 @@ pg.base.memory_group = {
 			4242,
 			4243,
 			4244
+		}
+	},
+	[322] = {
+		title = "Letters from Valley Hospital",
+		subtype = 2,
+		link_event = 5871,
+		type = 2,
+		id = 322,
+		icon = "title_event",
+		memories = {
+			4261,
+			4262,
+			4263,
+			4264,
+			4265,
+			4266,
+			4267,
+			4268,
+			4269,
+			4270,
+			4271
 		}
 	},
 	[501] = {

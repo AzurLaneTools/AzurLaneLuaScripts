@@ -130,6 +130,10 @@ pg.ship_meta_breakout = setmetatable({
 		9705082,
 		9705083,
 		9705084,
+		9705091,
+		9705092,
+		9705093,
+		9705094,
 		9706011,
 		9706012,
 		9706013,
@@ -2246,6 +2250,73 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9705084,
 		item1 = 21044,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9705091] = {
+		breakout_view = "Unlock Ashen Might - Nevada/Main gun base +1/Main gun efficiency +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9705092,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705091,
+		item1 = 21046,
+		level = 10,
+		weapon_ids = {
+			14100,
+			14100
+		}
+	},
+	[9705092] = {
+		breakout_view = "Secondary Gun base +2/Main gun efficiency +10%",
+		item2 = 21001,
+		pre_id = 9705091,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9705093,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9705092,
+		item1 = 21046,
+		level = 30,
+		weapon_ids = {
+			11100,
+			11100,
+			11100
+		}
+	},
+	[9705093] = {
+		breakout_view = "Improve Ashen Might - Nevada/Main gun base +1/Main gun efficiency +15%",
+		item2 = 21001,
+		pre_id = 9705092,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9705094,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9705093,
+		item1 = 21046,
+		level = 70,
+		weapon_ids = {
+			14100,
+			14100,
+			14100
+		}
+	},
+	[9705094] = {
+		breakout_view = "None",
+		item2 = 21001,
+		pre_id = 9705093,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9705094,
+		item1 = 21046,
 		level = 0,
 		weapon_ids = {}
 	},

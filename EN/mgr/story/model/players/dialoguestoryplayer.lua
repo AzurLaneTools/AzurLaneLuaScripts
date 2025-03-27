@@ -617,6 +617,10 @@ slot0.UpdateLive2dPainting = function(slot0, slot1, slot2, slot3, slot4)
 			if uv0:GetL2dIdleIndex() and slot2 ~= "" and slot2 > 0 then
 				slot0:changeIdleIndex(slot2)
 			end
+
+			if uv0:GetL2dParams() then
+				slot0:changeDragParameter(slot3.name, slot3.value)
+			end
 		end
 
 		uv1()

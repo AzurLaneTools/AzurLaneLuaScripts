@@ -764,6 +764,40 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/entertainmentarea"
 		}
 	},
+	[322] = {
+		rarity = 4,
+		name = "Boat of the Starry Night",
+		type = 4,
+		room_id = 3,
+		desc = "This soft bed features beautiful curves and an ocean blue color scheme. \nIt floats off into the night sky, guiding you into exciting and romantic dreams.",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_bedroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture2",
+		acesses = "",
+		id = 322,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990350
+			}
+		},
+		shop_id = {
+			270302
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture322"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -799,7 +833,8 @@ pg.dorm3d_furniture_template = {
 			305,
 			306,
 			307,
-			321
+			321,
+			322
 		}
 	},
 	all = {
@@ -832,6 +867,7 @@ pg.dorm3d_furniture_template = {
 		305,
 		306,
 		307,
-		321
+		321,
+		322
 	}
 }

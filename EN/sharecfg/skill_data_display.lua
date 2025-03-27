@@ -1798,6 +1798,17 @@ pg.skill_data_display = setmetatable({
 		150982,
 		150992,
 		150993,
+		151001,
+		151002,
+		151010,
+		151013,
+		151020,
+		151021,
+		151030,
+		151060,
+		151061,
+		151062,
+		151070,
 		18010,
 		18040,
 		18041,
@@ -2452,6 +2463,8 @@ pg.skill_data_display = setmetatable({
 		30416,
 		30421,
 		30422,
+		30431,
+		40342,
 		39000,
 		39001,
 		39002,
@@ -10661,6 +10674,50 @@ pg.base.skill_data_display = {
 		id = 150993,
 		name = "Born Adventurer"
 	},
+	[151001] = {
+		id = 151001,
+		name = "Your GOAT is Here!"
+	},
+	[151002] = {
+		id = 151002,
+		name = "Too Cool for School!"
+	},
+	[151010] = {
+		id = 151010,
+		name = "Bad Girls in the House!"
+	},
+	[151013] = {
+		id = 151013,
+		name = "Bad Girls in the House!"
+	},
+	[151020] = {
+		id = 151020,
+		name = "Sea-Air Strike"
+	},
+	[151021] = {
+		id = 151021,
+		name = "Sea-Air Strike"
+	},
+	[151030] = {
+		id = 151030,
+		name = "Glorious Advance"
+	},
+	[151060] = {
+		id = 151060,
+		name = "BIG BEN"
+	},
+	[151061] = {
+		id = 151061,
+		name = "BIG BEN"
+	},
+	[151062] = {
+		id = 151062,
+		name = "BIG BEN"
+	},
+	[151070] = {
+		id = 151070,
+		name = "Flame-Bathed Miracle"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -13275,6 +13332,14 @@ pg.base.skill_data_display = {
 	},
 	[30422] = {
 		id = 30422,
+		name = "All Out Assault II"
+	},
+	[30431] = {
+		id = 30431,
+		name = "All Out Assault I"
+	},
+	[40342] = {
+		id = 40342,
 		name = "All Out Assault II"
 	},
 	[39000] = {

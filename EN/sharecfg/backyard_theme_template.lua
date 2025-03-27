@@ -4706,6 +4706,46 @@ pg.backyard_theme_template = {
 			319304
 		}
 	},
+	[120] = {
+		Cfg_1 = 5,
+		name = "Interstellar Medical Station",
+		desc = "Bringing speedy and top-of-the-line care to wherever you may be in the universe.",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 121,
+		id = 120,
+		icon = "yi2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			320001,
+			320002,
+			320101,
+			320102,
+			320103,
+			320104,
+			320105,
+			320106,
+			320107,
+			320108,
+			320109,
+			320110,
+			320111,
+			320112,
+			320113,
+			320114,
+			320301,
+			320302,
+			320303,
+			320304,
+			320305,
+			320306
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4813,6 +4853,7 @@ pg.backyard_theme_template = {
 		116,
 		117,
 		118,
-		119
+		119,
+		120
 	}
 }

@@ -72,6 +72,18 @@ pg.item_data_battleui = {
 		icon = "105",
 		scene = {}
 	},
+	[106] = {
+		unlock = "Cruise Missions S22",
+		name = "Deal with the Devil",
+		key = "SkinNormal_20250327",
+		display_icon = "ui_106",
+		is_unlock = 1,
+		rare = 3,
+		desc = "A command interface with a devilish vibe. Its blood-red frame and magic circles beckon you to a dark and dangerous world.",
+		id = 106,
+		icon = "106",
+		scene = {}
+	},
 	[201] = {
 		unlock = "Buy the Battle UI Pack - Christmas",
 		name = "Christmas",
@@ -96,6 +108,18 @@ pg.item_data_battleui = {
 		icon = "202",
 		scene = {}
 	},
+	[203] = {
+		unlock = "Buy the Battle UI Pack - Genetic Origin",
+		name = "Genetic Origin",
+		key = "SkinElite_20250327",
+		display_icon = "ui_203",
+		is_unlock = 1,
+		rare = 4,
+		desc = "A futuristic command interface. The white panels and blood-red highlights provide a clinical and suspenseful atmosphere.",
+		id = 203,
+		icon = "203",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -103,7 +127,9 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
+		106,
 		201,
-		202
+		202,
+		203
 	}
 }

@@ -288,6 +288,102 @@ pg.activity_medal_template = {
 		id = 581208,
 		medal_asset = "ActivityMedal/581208"
 	},
+	[587501] = {
+		activity_medal_desc = "Valley Hospital is a hospital located in... (The text goes on for another 5,000 words.)",
+		next_medal = 0,
+		item = 65571,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "1",
+		task_id = 21651,
+		activity_medal_name = "Sticker: Valley Hospital",
+		id = 587501,
+		medal_asset = "ActivityMedal/587501"
+	},
+	[587502] = {
+		activity_medal_desc = "The sharpest swipe in the world. Think you can take it?",
+		next_medal = 0,
+		item = 65572,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "2",
+		task_id = 21652,
+		activity_medal_name = "Sticker: Paw Swipe!",
+		id = 587502,
+		medal_asset = "ActivityMedal/587502"
+	},
+	[587503] = {
+		activity_medal_desc = "This medicine seems fishy. You should only take it if you AREN'T sick.",
+		next_medal = 0,
+		item = 65573,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "3",
+		task_id = 21653,
+		activity_medal_name = "Sticker: Suspicious Medicine",
+		id = 587503,
+		medal_asset = "ActivityMedal/587503"
+	},
+	[587504] = {
+		activity_medal_desc = "Are you interested in learning the hospital's secrets?",
+		next_medal = 0,
+		item = 65574,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "4",
+		task_id = 21654,
+		activity_medal_name = "Sticker: Hospital Secrets",
+		id = 587504,
+		medal_asset = "ActivityMedal/587504"
+	},
+	[587505] = {
+		activity_medal_desc = "Can you bear the heavy burden of this ornament?",
+		next_medal = 0,
+		item = 65575,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "5",
+		task_id = 21655,
+		activity_medal_name = "Sticker: Tenko Hair Ornament",
+		id = 587505,
+		medal_asset = "ActivityMedal/587505"
+	},
+	[587506] = {
+		activity_medal_desc = "Will you find the truth hidden in this crisscross of information?",
+		next_medal = 0,
+		item = 65576,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "6",
+		task_id = 21656,
+		activity_medal_name = "Sticker: Clue",
+		id = 587506,
+		medal_asset = "ActivityMedal/587506"
+	},
+	[587507] = {
+		activity_medal_desc = "You can have another if you didn't feel a sting from the last one.",
+		next_medal = 0,
+		item = 65577,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "7",
+		task_id = 21657,
+		activity_medal_name = "Sticker: Time For Your Shot",
+		id = 587507,
+		medal_asset = "ActivityMedal/587507"
+	},
+	[587508] = {
+		activity_medal_desc = "Apparently, underperformers get turned into plushies. What a frightening thought.",
+		next_medal = 0,
+		item = 65578,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "8",
+		task_id = 21658,
+		activity_medal_name = "Sticker: Bloodkin Plushie",
+		id = 587508,
+		medal_asset = "ActivityMedal/587508"
+	},
 	all = {
 		571101,
 		571102,
@@ -312,6 +408,14 @@ pg.activity_medal_template = {
 		581205,
 		581206,
 		581207,
-		581208
+		581208,
+		587501,
+		587502,
+		587503,
+		587504,
+		587505,
+		587506,
+		587507,
+		587508
 	}
 }

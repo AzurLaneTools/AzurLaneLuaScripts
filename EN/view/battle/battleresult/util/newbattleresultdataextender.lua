@@ -1,7 +1,7 @@
 slot0 = class("NewBattleResultDataExtender")
 
 slot0.NeedCloseCamera = function(slot0)
-	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS and slot0 ~= SYSTEM_BOSS_SINGLE
+	return slot0 ~= SYSTEM_BOSS_RUSH and slot0 ~= SYSTEM_BOSS_RUSH_EX and slot0 ~= SYSTEM_ACT_BOSS and slot0 ~= SYSTEM_WORLD_BOSS and slot0 ~= SYSTEM_BOSS_SINGLE and slot0 ~= SYSTEM_BOSS_SINGLE_VARIABLE
 end
 
 slot0.NeedVibrate = function(slot0)
@@ -29,7 +29,7 @@ end
 slot0.GetExpBuffs = function(slot0)
 	slot1 = nil
 
-	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE then
+	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE or slot0 == SYSTEM_BOSS_SINGLE_VARIABLE then
 		slot1 = _.detect(BuffHelper.GetBuffsByActivityType(ActivityConst.ACTIVITY_TYPE_BUFF), function (slot0)
 			return slot0:getConfig("benefit_type") == "rookie_battle_exp"
 		end)
@@ -41,7 +41,7 @@ end
 slot0.GetShipBuffs = function(slot0)
 	slot1 = nil
 
-	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE then
+	if slot0 == SYSTEM_SCENARIO or slot0 == SYSTEM_ROUTINE or slot0 == SYSTEM_ACT_BOSS or slot0 == SYSTEM_HP_SHARE_ACT_BOSS or slot0 == SYSTEM_SUB_ROUTINE or slot0 == SYSTEM_WORLD or slot0 == SYSTEM_BOSS_SINGLE or slot0 == SYSTEM_BOSS_SINGLE_VARIABLE then
 		slot1 = getProxy(ActivityProxy):getBuffShipList()
 	end
 
@@ -109,7 +109,18 @@ slot4 = function(slot0)
 	return slot3
 end
 
-slot5 = function()
+slot5 = function(slot0)
+	slot1 = getProxy(FleetProxy):getActivityFleets()[slot0.actId]
+	slot3 = getProxy(BayProxy):getShipsByFleet(slot1[slot0.mainFleetId])
+
+	for slot9, slot10 in ipairs(getProxy(BayProxy):getShipsByFleet(slot1[slot0.mainFleetId + 100])) do
+		table.insert(slot3, slot10)
+	end
+
+	return slot3
+end
+
+slot6 = function()
 	slot0 = {}
 
 	for slot8, slot9 in ipairs(getProxy(GuildProxy):getRawData():GetActiveEvent():GetBossMission():GetMainFleet():GetShips()) do
@@ -123,7 +134,7 @@ slot5 = function()
 	return slot0
 end
 
-slot6 = function(slot0)
+slot7 = function(slot0)
 	slot3 = getProxy(ActivityProxy):getActivityById(slot0.actId):GetSeriesData()
 
 	assert(slot3)
@@ -137,7 +148,7 @@ slot6 = function(slot0)
 	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getActivityFleets()[slot1][slot6])
 end
 
-slot7 = function(slot0)
+slot8 = function(slot0)
 	slot1 = {}
 
 	table.insertto(slot1, getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(FleetProxy.CHALLENGE_FLEET_ID)))
@@ -146,7 +157,7 @@ slot7 = function(slot0)
 	return slot1
 end
 
-slot8 = function(slot0)
+slot9 = function(slot0)
 	return getProxy(BayProxy):getShipsByFleet(getProxy(FleetProxy):getFleetById(slot0.mainFleetId))
 end
 
@@ -161,17 +172,19 @@ slot0.GetNewMainShips = function(slot0)
 		slot2 = uv2(slot0)
 	elseif slot1 == SYSTEM_HP_SHARE_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS or slot1 == SYSTEM_ACT_BOSS_SP or slot1 == SYSTEM_BOSS_EXPERIMENT or slot1 == SYSTEM_BOSS_SINGLE then
 		slot2 = uv3(slot0)
+	elseif slot1 == SYSTEM_BOSS_SINGLE_VARIABLE then
+		slot2 = uv4(slot0)
 	elseif slot1 == SYSTEM_GUILD then
-		slot2 = uv4()
+		slot2 = uv5()
 	elseif slot1 == SYSTEM_BOSS_RUSH or slot1 == SYSTEM_BOSS_RUSH_EX then
-		slot2 = uv5(slot0)
+		slot2 = uv6(slot0)
 	elseif slot1 ~= SYSTEM_DODGEM and slot1 ~= SYSTEM_SUBMARINE_RUN and slot1 ~= SYSTEM_REWARD_PERFORM and slot1 ~= SYSTEM_AIRFIGHT and slot1 ~= SYSTEM_CARDPUZZLE then
 		if slot1 == SYSTEM_CHALLENGE then
 			-- Nothing
 		elseif slot1 == SYSTEM_LIMIT_CHALLENGE then
-			slot2 = uv6(slot0)
-		else
 			slot2 = uv7(slot0)
+		else
+			slot2 = uv8(slot0)
 		end
 	end
 

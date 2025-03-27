@@ -18,8 +18,6 @@ slot0.DRAG_CLICK_PARAMETER = 9
 slot0.DRAG_ANIMATION_PLAY = 10
 slot0.DRAG_CLICK_RANGE = 11
 slot0.DRAG_EXTEND_ACTION_RULE = 12
-slot0.DRAG_ANIMATION_PLAY = 10
-slot0.DRAG_CLICK_RANGE = 11
 slot0.ON_ACTION_PLAY = 1
 slot0.ON_ACTION_DRAG_CLICK = 2
 slot0.ON_ACTION_CHANGE_IDLE = 3
@@ -228,7 +226,8 @@ slot14 = function(slot0, slot1, slot2)
 		slot8 = slot2.focus
 		slot9 = slot2.react
 		slot10 = slot2.activeData.idle_focus
-		slot12 = uv0(slot0)
+		slot11 = uv0(slot0)
+		slot12 = nil
 		slot13 = false
 
 		if not slot2.action or slot4 == "" then
@@ -262,8 +261,6 @@ slot14 = function(slot0, slot1, slot2)
 			elseif slot4 == "idle" then
 				slot0:live2dActionChange(false)
 			end
-
-			slot12 = actionPlaySuccess
 		end
 
 		if slot5 then
@@ -341,10 +338,6 @@ slot15 = function(slot0, slot1)
 		for slot5, slot6 in ipairs(slot0._listenerParameters) do
 			slot0._listenerParametersValue[slot6.name] = slot6.Value
 		end
-
-		slot0:onListenerHandle(Live2D.ON_ACTION_PARAMETER, {
-			values = slot0._listenerParametersValue
-		})
 	else
 		slot0._listenerStepIndex = slot0._listenerStepIndex - 1
 	end
@@ -416,7 +409,7 @@ slot16 = function(slot0)
 				uv0(uv1, slot0, slot1)
 				uv2(uv1, slot0, slot1)
 			end)
-			slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv3[slot6.mode])
+			slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv3[slot8.mode])
 
 			if slot6.relation_parameter and slot6.relation_parameter.list then
 				for slot14, slot15 in ipairs(slot6.relation_parameter.list) do
@@ -1092,6 +1085,16 @@ slot0.changeParamaterValue = function(slot0, slot1, slot2)
 			slot1,
 			slot2
 		})
+	end
+end
+
+slot0.changeDragParameter = function(slot0, slot1, slot2)
+	if slot0:IsLoaded() and slot0.drags then
+		for slot6 = 1, #slot0.drags do
+			if slot0.drags[slot6].parameterName and slot0.drags[slot6].parameterName == slot1 then
+				slot0.drags[slot6]:setTargetValue(slot2)
+			end
+		end
 	end
 end
 

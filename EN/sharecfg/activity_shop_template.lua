@@ -33627,6 +33627,26 @@ pg.activity_shop_template = {
 			}
 		}
 	},
+	[10510] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 500,
+		num_limit = 0,
+		activity = 0,
+		num = 1,
+		commodity_id = 3820,
+		commodity_type = 3,
+		resource_type = 59900,
+		id = 10510,
+		commodity_id_list_show = 0,
+		order = 56,
+		limit_args = {
+			{
+				"quota",
+				2
+			}
+		}
+	},
 	[10901] = {
 		commodity_id_list = "",
 		resource_category = 2,
@@ -35092,6 +35112,77 @@ pg.activity_shop_template = {
 			}
 		}
 	},
+	[12029] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 60,
+		num_limit = 1,
+		activity = 7104,
+		num = 1,
+		commodity_id = 9703011,
+		commodity_type = 4,
+		resource_type = 21000,
+		id = 12029,
+		commodity_id_list_show = 0,
+		order = 3,
+		limit_args = {
+			{
+				"uniqueship",
+				970301
+			},
+			{
+				2,
+				{
+					{
+						2025,
+						4,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
+	[12030] = {
+		commodity_id_list = "",
+		resource_category = 2,
+		resource_num = 30,
+		num_limit = 4,
+		activity = 7104,
+		num = 1,
+		commodity_id = 21013,
+		commodity_type = 2,
+		resource_type = 21000,
+		id = 12030,
+		commodity_id_list_show = 0,
+		order = 4,
+		limit_args = {
+			{
+				1,
+				970301,
+				1
+			},
+			{
+				2,
+				{
+					{
+						2025,
+						4,
+						1
+					},
+					{
+						0,
+						0,
+						0
+					}
+				}
+			}
+		}
+	},
 	get_id_list_by_commodity_type = {
 		{
 			421,
@@ -35423,7 +35514,8 @@ pg.activity_shop_template = {
 			12018,
 			12019,
 			12023,
-			12026
+			12026,
+			12029
 		},
 		[3] = {
 			202,
@@ -35569,7 +35661,8 @@ pg.activity_shop_template = {
 			10506,
 			10507,
 			10508,
-			10509
+			10509,
+			10510
 		},
 		[5] = {
 			204,
@@ -37318,7 +37411,8 @@ pg.activity_shop_template = {
 			12024,
 			12025,
 			12027,
-			12028
+			12028,
+			12030
 		},
 		[7] = {
 			603,
@@ -39642,6 +39736,7 @@ pg.activity_shop_template = {
 		10507,
 		10508,
 		10509,
+		10510,
 		10901,
 		10902,
 		10903,
@@ -39708,6 +39803,8 @@ pg.activity_shop_template = {
 		12025,
 		12026,
 		12027,
-		12028
+		12028,
+		12029,
+		12030
 	}
 }

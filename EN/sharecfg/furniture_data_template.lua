@@ -155,6 +155,12 @@ pg.furniture_data_template = setmetatable({
 			292,
 			293,
 			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
 			100002,
 			100003,
 			100004,
@@ -211,6 +217,7 @@ pg.furniture_data_template = setmetatable({
 			100059,
 			100060,
 			100061,
+			100062,
 			100064,
 			200001,
 			200002,
@@ -3339,6 +3346,31 @@ pg.furniture_data_template = setmetatable({
 			319302,
 			319303,
 			319304
+		},
+		[120] = {
+			320001,
+			320002,
+			320101,
+			320102,
+			320103,
+			320104,
+			320105,
+			320106,
+			320107,
+			320108,
+			320109,
+			320110,
+			320111,
+			320112,
+			320113,
+			320114,
+			320115,
+			320301,
+			320302,
+			320303,
+			320304,
+			320305,
+			320306
 		}
 	},
 	get_id_list_by_tag = {
@@ -5323,7 +5355,21 @@ pg.furniture_data_template = setmetatable({
 			319113,
 			319114,
 			319115,
-			319116
+			319116,
+			320101,
+			320102,
+			320103,
+			320104,
+			320105,
+			320106,
+			320107,
+			320108,
+			320109,
+			320110,
+			320111,
+			320112,
+			320113,
+			320114
 		},
 		{
 			1108,
@@ -5580,6 +5626,11 @@ pg.furniture_data_template = setmetatable({
 			286,
 			288,
 			291,
+			297,
+			298,
+			299,
+			300,
+			301,
 			100002,
 			100003,
 			100004,
@@ -5636,6 +5687,7 @@ pg.furniture_data_template = setmetatable({
 			100059,
 			100060,
 			100061,
+			100062,
 			100064,
 			31101,
 			54104,
@@ -5700,7 +5752,8 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			293,
-			295
+			295,
+			296
 		},
 		[7] = {
 			211,
@@ -5900,7 +5953,8 @@ pg.furniture_data_template = setmetatable({
 			316123,
 			317111,
 			318305,
-			319117
+			319117,
+			320115
 		},
 		[4] = {
 			1001,
@@ -6007,7 +6061,8 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			317001,
 			318001,
-			319001
+			319001,
+			320001
 		},
 		[3] = {
 			1002,
@@ -6115,7 +6170,8 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			317002,
 			318002,
-			319002
+			319002,
+			320002
 		},
 		[5] = {
 			1301,
@@ -6480,7 +6536,13 @@ pg.furniture_data_template = setmetatable({
 			319301,
 			319302,
 			319303,
-			319304
+			319304,
+			320301,
+			320302,
+			320303,
+			320304,
+			320305,
+			320306
 		}
 	},
 	get_id_list_by_type = {
@@ -6590,7 +6652,8 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			317002,
 			318002,
-			319002
+			319002,
+			320002
 		},
 		[7] = {
 			1,
@@ -6721,6 +6784,12 @@ pg.furniture_data_template = setmetatable({
 			292,
 			293,
 			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
 			100002,
 			100004,
 			100005,
@@ -6763,7 +6832,8 @@ pg.furniture_data_template = setmetatable({
 			100056,
 			100058,
 			100059,
-			100061
+			100061,
+			100062
 		},
 		[2] = {
 			120,
@@ -8751,7 +8821,22 @@ pg.furniture_data_template = setmetatable({
 			319114,
 			319115,
 			319116,
-			319117
+			319117,
+			320101,
+			320102,
+			320103,
+			320104,
+			320105,
+			320106,
+			320107,
+			320108,
+			320109,
+			320110,
+			320111,
+			320112,
+			320113,
+			320114,
+			320115
 		},
 		[11] = {
 			131,
@@ -8931,7 +9016,8 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			317001,
 			318001,
-			319001
+			319001,
+			320001
 		},
 		[5] = {
 			1101,
@@ -9600,7 +9686,13 @@ pg.furniture_data_template = setmetatable({
 			318305,
 			319302,
 			319303,
-			319304
+			319304,
+			320301,
+			320302,
+			320303,
+			320304,
+			320305,
+			320306
 		},
 		[8] = {
 			17121
@@ -9794,6 +9886,12 @@ pg.furniture_data_template = setmetatable({
 		292,
 		293,
 		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
 		100002,
 		100003,
 		100004,
@@ -9850,6 +9948,7 @@ pg.furniture_data_template = setmetatable({
 		100059,
 		100060,
 		100061,
+		100062,
 		100064,
 		200001,
 		200002,
@@ -12763,7 +12862,30 @@ pg.furniture_data_template = setmetatable({
 		319301,
 		319302,
 		319303,
-		319304
+		319304,
+		320001,
+		320002,
+		320101,
+		320102,
+		320103,
+		320104,
+		320105,
+		320106,
+		320107,
+		320108,
+		320109,
+		320110,
+		320111,
+		320112,
+		320113,
+		320114,
+		320115,
+		320301,
+		320302,
+		320303,
+		320304,
+		320305,
+		320306
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20379,6 +20501,234 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[296] = {
+		can_rotate = 0,
+		name = "Sample Refrigerator",
+		gain_by = "Letters from Valley Hospital",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 8,
+		icon = "fulankelinxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "A refrigerator that keeps critical samples cool. Extremely important.",
+		advice = 0,
+		id = 296,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fulankelinxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[297] = {
+		can_rotate = 0,
+		name = "Logistics Center Miniature",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "yiyuanhouqinzhongxinicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/yiyuanhouqinzhongxin",
+		canputon = 0,
+		count = 1,
+		describe = "A miniature of the hospital's logistics center.",
+		advice = 0,
+		deblocking = 1,
+		id = 297,
+		comfortable = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[298] = {
+		can_rotate = 0,
+		name = "Recuperation Center Miniature",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "yiyuanliaoyangzhongxinicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/yiyuanliaoyangzhongxin",
+		canputon = 0,
+		count = 1,
+		describe = "A miniature of the hospital's recuperation center.",
+		advice = 0,
+		deblocking = 1,
+		id = 298,
+		comfortable = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[299] = {
+		can_rotate = 0,
+		name = "Research Center Miniature",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "yiyuanyanjiuzhongxinicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "Chuanmo/yiyuanyanjiuzhongxin",
+		canputon = 0,
+		count = 1,
+		describe = "A miniature of the hospital's research center.",
+		advice = 0,
+		deblocking = 1,
+		id = 299,
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300] = {
+		can_rotate = 0,
+		name = "Medical Center Miniature",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "yiyuanzhenliaozhongxinicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/yiyuanzhenliaozhongxin",
+		canputon = 0,
+		count = 1,
+		describe = "A miniature of the hospital's medical center.",
+		advice = 0,
+		deblocking = 1,
+		id = 300,
+		comfortable = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301] = {
+		can_rotate = 0,
+		name = "Inpatient Building Miniature",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "yiyuanzhuyuandalouicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/yiyuanzhuyuandalou",
+		canputon = 0,
+		count = 1,
+		describe = "A miniature of the hospital's inpatient building.",
+		advice = 0,
+		deblocking = 1,
+		id = 301,
+		comfortable = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -24402,6 +24752,57 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100062] = {
+		can_rotate = 0,
+		name = "Manjuuoshka (Small)",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "jiujiubudaowengicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Peeps at you with innocent eyes, wherever you go.",
+		advice = 0,
+		id = 100062,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiujiubudaoweng",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -152588,6 +152989,1129 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 					"action",
 					false
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320001] = {
+		can_rotate = 0,
+		name = "Med Station Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/dibanyi2",
+		canputon = 0,
+		count = 1,
+		describe = "It's not even possible to get dirty, because there's no dirt in space!",
+		advice = 0,
+		deblocking = 1,
+		id = 320001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320002] = {
+		can_rotate = 0,
+		name = "Med Station Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbiyi2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/qiangbiyi2",
+		canputon = 0,
+		count = 1,
+		describe = "Blast-resistant and made with titanium alloy. Nothing's getting through these.",
+		advice = 0,
+		deblocking = 1,
+		id = 320002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320101] = {
+		can_rotate = 0,
+		name = "Med Station Height Measurer",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 120,
+		icon = "shenggaojiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Its measurements are accurate within an error margin of a few dozen atoms.",
+		advice = 0,
+		id = 320101,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenggaojiyi2B",
+				"normal"
+			},
+			{
+				"shenggaojiyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						nil,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320102] = {
+		can_rotate = 1,
+		name = "Med Station Scales",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		themeId = 120,
+		icon = "tizhongyiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "You should accept every gram of your weight with dignity.",
+		advice = 0,
+		id = 320102,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tizhongyiyi2B",
+				"normal"
+			},
+			{
+				"tizhongyiyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						nil,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320103] = {
+		can_rotate = 0,
+		name = "Med Station Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yuanyiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi2/yuanyiyi2",
+		canputon = 0,
+		themeId = 120,
+		count = 2,
+		describe = "For everyone's safety, it's best not to spin on it.",
+		advice = 0,
+		id = 320103,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					47.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320104] = {
+		can_rotate = 0,
+		name = "Med Station Sickbed",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		themeId = 120,
+		icon = "bingchuangyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Comfy, but still smells like a hospital bed...",
+		advice = 0,
+		id = 320104,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bingchuangyi2B",
+				"normal"
+			},
+			{
+				"bingchuangyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sleep1",
+						"sleep",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320105] = {
+		can_rotate = 0,
+		name = "Med Station Lamp",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "tanzhaodengyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "Warm light warms you up, and cool light cools you down. Or is that just a placebo?",
+		advice = 0,
+		id = 320105,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tanzhaodengyi2",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320106] = {
+		can_rotate = 0,
+		name = "Med Station Heart Monitor",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xinlvyiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "It can tell when shipgirls are thinking of you.",
+		advice = 0,
+		id = 320106,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xinlvyiyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320107] = {
+		can_rotate = 0,
+		name = "Station Doctor Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yishengjiuyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/yishengjiuyi2",
+		canputon = 0,
+		count = 1,
+		describe = "Has all the qualities of an excellent doctor: friendly, professional, and still in possession of a medical license.",
+		advice = 0,
+		deblocking = 1,
+		id = 320107,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320108] = {
+		can_rotate = 0,
+		name = "Station Nurse Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "hushijiuyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/hushijiuyi2",
+		canputon = 0,
+		count = 1,
+		describe = "Working with her is such a joy.",
+		advice = 0,
+		deblocking = 1,
+		id = 320108,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320109] = {
+		can_rotate = 0,
+		name = "Med Station Screens",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "pingmuqunyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "As hard to parse as the average handwritten prescription.",
+		advice = 0,
+		id = 320109,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingmuqunyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320110] = {
+		can_rotate = 0,
+		name = "Med Station Sliding Doors",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "qiangyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "Please form a line and wait for your turn!",
+		advice = 0,
+		id = 320110,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangyi2",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320111] = {
+		can_rotate = 0,
+		name = "Med Station Bench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zuoyiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "yi2/zuoyiyi2",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "Please sit in line and wait for your turn!",
+		advice = 0,
+		id = 320111,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					6.9,
+					13.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320112] = {
+		can_rotate = 0,
+		name = "Station Receptionist Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "qiantaijiuyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/qiantaijiuyi2",
+		canputon = 0,
+		count = 1,
+		describe = "You can tell the manjuu is well-paid based on its helpful attitude.",
+		advice = 0,
+		deblocking = 1,
+		id = 320112,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320113] = {
+		can_rotate = 0,
+		name = "Garbage Collection Bot",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "lajitongjiqiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "Don't litter on the station, or this bot will be sad!",
+		advice = 0,
+		id = 320113,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lajitongjiqiyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320114] = {
+		can_rotate = 0,
+		name = "Station Info Screen",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zhishipaiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "Consult this if you get lost. It's happened to us all.",
+		advice = 0,
+		id = 320114,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhishipaiyi2",
+				"normal",
+				{
+					"action1",
+					true,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320115] = {
+		can_rotate = 0,
+		name = "Med Station Scanner",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 120,
+		icon = "yuanhuanyiqiyi2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Utilizes cutting-edge technology to provide the most detailed examination possible.",
+		advice = 0,
+		id = 320115,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuanhuanyiqiyi2B",
+				"normal"
+			},
+			{
+				"yuanhuanyiqiyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sleep1",
+						"sleep",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320301] = {
+		can_rotate = 0,
+		name = "Med Station Eye Chart",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "shilibiaoyi2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "It's renewed at regular periods, so don't think you can cheese it by memorizing the letters!",
+		advice = 0,
+		id = 320301,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shilibiaoyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320302] = {
+		can_rotate = 0,
+		name = "Med Station Window 1",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "chuang1yi2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/chuang1yi2",
+		canputon = 0,
+		count = 1,
+		describe = "Marvel at the sights of an endless universe.",
+		advice = 0,
+		deblocking = 1,
+		id = 320302,
+		comfortable = 1,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320303] = {
+		can_rotate = 0,
+		name = "Med Station Window 2",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "chuang2yi2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/chuang2yi2",
+		canputon = 0,
+		count = 1,
+		describe = "Marvel at the sights of an endless universe.",
+		advice = 0,
+		deblocking = 1,
+		id = 320303,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320304] = {
+		can_rotate = 0,
+		name = "Med Station Window 3",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "chuang3yi2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/chuang3yi2",
+		canputon = 0,
+		count = 1,
+		describe = "Marvel at the sights of an endless universe.",
+		advice = 0,
+		deblocking = 1,
+		id = 320304,
+		comfortable = 1,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320305] = {
+		can_rotate = 0,
+		name = "Med Station Window 4",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "chuang4yi2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		themeId = 120,
+		spine_action_replace = "",
+		picture = "yi2/chuang4yi2",
+		canputon = 0,
+		count = 1,
+		describe = "Marvel at the sights of an endless universe.",
+		advice = 0,
+		deblocking = 1,
+		id = 320305,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320306] = {
+		can_rotate = 0,
+		name = "Med Station Window 5",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 2,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 5,
+		icon = "chuang5yi2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		describe = "Marvel at the sights of an endless universe.",
+		advice = 0,
+		id = 320306,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuang5yi2",
+				"normal"
 			}
 		},
 		interAction_group = {}

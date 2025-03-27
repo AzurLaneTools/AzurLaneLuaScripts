@@ -19,9 +19,12 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.id = slot1.id
 	slot0.drawAbleName = slot1.draw_able_name or ""
 	slot0.parameterName = slot1.parameter
-	slot0.mode = slot1.mode
+	slot0.mode = slot1.mode and slot1.mode ~= 0 and slot1.mode or 1
 	slot0.startValue = slot1.start_value or 0
-	slot0.range = slot1.range
+	slot0.range = slot1.range and slot0.range ~= "" and slot1.range or {
+		0,
+		0
+	}
 	slot0.offsetX = slot1.offset_x
 
 	if slot0.offsetX == 0 then
@@ -113,6 +116,12 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot0.onListenerEvent = function(slot0, slot1, slot2)
+	slot0:onListenerTrigger(slot1, slot2)
+
+	if not slot0.listenerType then
+		return
+	end
+
 	if slot0.listenerType == slot1 then
 		slot3 = slot2.action
 		slot4 = slot2.values
@@ -187,6 +196,12 @@ slot0.onListenerEvent = function(slot0, slot1, slot2)
 				end
 			end
 		end
+	end
+end
+
+slot0.onListenerTrigger = function(slot0, slot1, slot2)
+	if slot0.actionTrigger.click_cd and slot1 == Live2D.ON_ACTION_DRAG_CLICK and table.contains(slot0.actionTrigger.click_cd, slot2.draw_able_name) then
+		slot0.nextTriggerTime = slot0.limitTime
 	end
 end
 
@@ -541,6 +556,7 @@ end
 
 slot0.updateStepData = function(slot0, slot1)
 	slot0.reactPos = slot1.reactPos
+	slot0.lastNormalTime = slot0.normalTime
 	slot0.normalTime = slot1.normalTime
 	slot0.stateInfo = slot1.stateInfo
 end
@@ -919,9 +935,7 @@ slot0.updateTrigger = function(slot0)
 	elseif slot1 == Live2D.DRAG_CLICK_ACTION then
 		if slot0:checkClickAction() then
 			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
-				if slot0 then
-					uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
-				end
+				uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
 			end)
 		end
 	elseif slot1 == Live2D.DRAG_CLICK_RANGE then
@@ -936,9 +950,7 @@ slot0.updateTrigger = function(slot0)
 				if uv1[1] <= slot0 and slot0 < uv1[2] then
 					print("数值范围内，开始触发")
 					uv2:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
-						if slot0 then
-							uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
-						end
+						uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
 					end)
 				end
 			end)
@@ -1030,9 +1042,7 @@ slot0.updateTrigger = function(slot0)
 					slot1 = uv1
 
 					slot1:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function (slot0)
-						if slot0 then
-							uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
-						end
+						uv0:onEventNotice(Live2D.ON_ACTION_DRAG_CLICK)
 					end)
 				end
 			end)
@@ -1044,9 +1054,28 @@ slot0.updateTrigger = function(slot0)
 			slot5 = slot5 .. slot0.actionTrigger.trigger_index
 		end
 
-		if slot0.stateInfo:IsName(slot5) and slot0.l2dIdleIndex == slot0.actionTrigger.trigger_index and slot0.actionTrigger.trigger_rate <= slot0.normalTime then
-			slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function ()
-			end)
+		if slot0.stateInfo:IsName(slot5) and slot0.l2dIdleIndex == slot0.actionTrigger.trigger_index then
+			slot6 = false
+
+			if slot0.actionTrigger.parameter_range then
+				slot9 = slot7[2]
+
+				slot0:onEventCallback(Live2D.EVENT_GET_PARAMETER, {
+					name = slot7[1]
+				}, function (slot0)
+					if slot0 and uv0[1] <= slot0 and slot0 < uv0[2] then
+						uv1 = true
+					end
+				end)
+			else
+				slot6 = true
+			end
+
+			if slot6 and slot0.actionTrigger.trigger_rate <= slot0.normalTime then
+				slot0:onEventCallback(Live2D.EVENT_ACTION_APPLY, {}, function ()
+				end)
+				slot0:setTriggerActionFlag(false)
+			end
 		end
 	elseif slot1 == Live2D.DRAG_EXTEND_ACTION_RULE and not slot0.extendActionFlag then
 		slot0.extendActionFlag = true
@@ -1169,11 +1198,18 @@ end
 
 slot0.checkClickAction = function(slot0)
 	if slot0.firstActive then
-		slot0:setAbleWithFlag(true)
+		if slot0.actionTrigger.down then
+			if not slot0.l2dIsPlaying then
+				return true
+			end
+		else
+			slot0:setAbleWithFlag(true)
+		end
 	elseif slot0.firstStop then
+		slot1 = math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30
 		slot2 = slot0.mouseInputUpTime - slot0.mouseInputDownTime < 0.5
 
-		if math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30 and slot2 and not slot0.l2dIsPlaying then
+		if not slot0.actionTrigger.down and slot1 and slot2 and not slot0.l2dIsPlaying then
 			slot0.clickTriggerTime = 0.01
 			slot0.clickApplyFlag = true
 		else

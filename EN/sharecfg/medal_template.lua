@@ -2485,6 +2485,27 @@ pg.medal_template = {
 		explain1 = "「Paradiso of Shackled Light」",
 		explain2 = "Event"
 	},
+	[200031] = {
+		target_id = "5875",
+		name = "Valley Hospital Investigation Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "Congratulations! You uncovered Valley Hospital's secrets and reached the best ending. Did you have fun?",
+		next = 0,
+		icon = "9031",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9031",
+		condition = "Collect 8 commemorative stickers from Letters from Valley Hospital",
+		rank = 1,
+		id = 200031,
+		explain1 = "Letters from Valley Hospital",
+		explain2 = "Event"
+	},
 	all = {
 		10011,
 		10012,
@@ -2598,6 +2619,7 @@ pg.medal_template = {
 		100935,
 		200001,
 		200011,
-		200021
+		200021,
+		200031
 	}
 }
