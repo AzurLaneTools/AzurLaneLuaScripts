@@ -1100,7 +1100,7 @@ pg.base.activity_clue = {
 	},
 	{
 		id = 91,
-		unlock_num = "1回",
+		unlock_num = "2回",
 		unlock_desc = "「定期巡回」を適用した状態でT3物流センターをクリア",
 		type = 2,
 		group = 31,
@@ -1109,7 +1109,7 @@ pg.base.activity_clue = {
 	},
 	{
 		id = 92,
-		unlock_num = "2回",
+		unlock_num = "4回",
 		unlock_desc = "「定期巡回」を適用した状態でT3物流センターをクリア",
 		type = 2,
 		group = 31,
@@ -1118,7 +1118,7 @@ pg.base.activity_clue = {
 	},
 	{
 		id = 93,
-		unlock_num = "3回",
+		unlock_num = "6回",
 		unlock_desc = "「定期巡回」を適用した状態でT3物流センターをクリア",
 		type = 2,
 		group = 31,
@@ -1128,7 +1128,7 @@ pg.base.activity_clue = {
 	{
 		id = 94,
 		unlock_num = "2回",
-		unlock_desc = "「定期巡回」を適用した状態でT4研究センターをクリア",
+		unlock_desc = "「セキュリティ警戒」を適用した状態でT4研究センターをクリア",
 		type = 2,
 		group = 32,
 		task_id = "21594",
@@ -1137,7 +1137,7 @@ pg.base.activity_clue = {
 	{
 		id = 95,
 		unlock_num = "4回",
-		unlock_desc = "「定期巡回」を適用した状態でT4研究センターをクリア",
+		unlock_desc = "「セキュリティ警戒」を適用した状態でT4研究センターをクリア",
 		type = 2,
 		group = 32,
 		task_id = "21595",
@@ -1146,7 +1146,7 @@ pg.base.activity_clue = {
 	{
 		id = 96,
 		unlock_num = "6回",
-		unlock_desc = "「定期巡回」を適用した状態でT4研究センターをクリア",
+		unlock_desc = "「セキュリティ警戒」を適用した状態でT4研究センターをクリア",
 		type = 2,
 		group = 32,
 		task_id = "21596",
