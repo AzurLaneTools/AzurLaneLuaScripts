@@ -96,7 +96,7 @@ return {
 			actor = 605020,
 			nameColor = "#a9f548",
 			hidePaintObj = true,
-			say = "乐意之至，既然是萨丁帝国同伴的请求，我利托里奥自然义不容辞~！",
+			say = "乐意之至，既然是撒丁帝国同伴的请求，我利托里奥自然义不容辞~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

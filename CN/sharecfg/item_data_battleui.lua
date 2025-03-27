@@ -72,6 +72,18 @@ pg.item_data_battleui = {
 		icon = "105",
 		scene = {}
 	},
+	[106] = {
+		unlock = "世界巡游二十二期获取",
+		name = "恶魔契约 ",
+		key = "SkinNormal_20250327",
+		display_icon = "ui_106",
+		is_unlock = 1,
+		rare = 3,
+		desc = "恶魔的气息从指挥界面中溢出，流经血液覆盖的边框与不祥的法阵交织，营造出黑暗又危险的氛围。 ",
+		id = 106,
+		icon = "106",
+		scene = {}
+	},
 	[201] = {
 		unlock = "圣诞雪境战斗主题礼包获取",
 		name = "圣诞雪境",
@@ -96,6 +108,18 @@ pg.item_data_battleui = {
 		icon = "202",
 		scene = {}
 	},
+	[203] = {
+		unlock = "基因之源战斗主题礼包获取",
+		name = "基因之源 ",
+		key = "SkinElite_20250327",
+		display_icon = "ui_203",
+		is_unlock = 1,
+		rare = 4,
+		desc = "充满未来感的指挥界面，洁净的白色面板与血色的纹路交织，营造出精密且危险的氛围。 ",
+		id = 203,
+		icon = "203",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -103,7 +127,9 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
+		106,
 		201,
-		202
+		202,
+		203
 	}
 }

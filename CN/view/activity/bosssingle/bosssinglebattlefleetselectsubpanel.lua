@@ -216,8 +216,10 @@ slot0.updateFleet = function(slot0, slot1, slot2)
 		setActive(slot9, slot3 and slot4)
 	end
 
+	slot14 = slot0.viewParent.contextData.bossActivity:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE and Fleet.DEFAULT_NAME_BOSS_SINGLE_VARIABLE_ACT or Fleet.DEFAULT_NAME_BOSS_SINGLE_ACT
+
 	if slot3 and slot4 then
-		setText(slot6, Fleet.DEFAULT_NAME_BOSS_SINGLE_ACT[slot4.id] or "")
+		setText(slot6, slot14[slot4.id] or "")
 
 		if slot1 == FleetType.Submarine then
 			slot0:updateShips(slot9, slot4.subShips, slot4.id, TeamType.Submarine)
@@ -366,10 +368,7 @@ slot0.updatePropetyLimit = function(slot0)
 end
 
 slot0.OnShow = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, nil, {
-		groupName = LayerWeightConst.GROUP_FORMATION_PAGE,
-		weight = #getProxy(ContextProxy):getCurrentContext().children > 0 and LayerWeightConst.LOWER_LAYER or nil
-	})
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.OnHide = function(slot0)

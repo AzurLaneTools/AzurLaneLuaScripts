@@ -8572,6 +8572,196 @@ pg.dorm3d_ik_status = {
 		},
 		enter_scene_anim = {}
 	},
+	[300510] = {
+		ik_camera = "Cam300510",
+		character_action = "ab_FF_chuang_1_idle_01",
+		base = 300510,
+		camera_group = 30051,
+		skin_id = 199031,
+		character_position = "Pos300510",
+		enter_extra_item = "",
+		id = 300510,
+		character_id = 19903,
+		ik_id = {
+			{
+				30051000,
+				0,
+				{
+					4,
+					0.3,
+					30219
+				}
+			},
+			{
+				30051001,
+				0,
+				{
+					4,
+					0.3,
+					30218
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[300511] = {
+		ik_camera = "Cam300511",
+		character_action = "ab_FF_chuang_1_idle_01",
+		base = 300511,
+		camera_group = 30051,
+		skin_id = 199031,
+		character_position = "Pos300511",
+		enter_extra_item = "",
+		id = 300511,
+		character_id = 19903,
+		ik_id = {
+			{
+				30051100,
+				0,
+				{
+					4,
+					0.3,
+					30218
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300512] = {
+		ik_camera = "Cam300512",
+		character_action = "ab_FF_chuang_2_idle_01",
+		base = 300512,
+		camera_group = 30051,
+		skin_id = 199031,
+		character_position = "Pos300512",
+		enter_extra_item = "",
+		id = 300512,
+		character_id = 19903,
+		ik_id = {
+			{
+				30051200,
+				0,
+				{
+					4,
+					0.3,
+					30220,
+					300513
+				}
+			},
+			{
+				30051201,
+				0,
+				{
+					4,
+					0.3,
+					30221
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[300513] = {
+		ik_camera = "Cam300513",
+		character_action = "ab_FF_chuang_2_xiong_01-loop",
+		base = 300513,
+		camera_group = 30052,
+		skin_id = 199031,
+		character_position = "Pos300513",
+		enter_extra_item = "",
+		id = 300513,
+		character_id = 19903,
+		ik_id = {
+			{
+				30051300,
+				0,
+				{
+					4,
+					0.3,
+					30222,
+					300512
+				}
+			},
+			{
+				30051301,
+				0,
+				{
+					4,
+					0.3,
+					30222,
+					300512
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
 	[310110] = {
 		ik_camera = "Cam310110",
 		character_action = "ab_chuang_idle_01",
@@ -9154,6 +9344,200 @@ pg.dorm3d_ik_status = {
 		},
 		enter_scene_anim = {}
 	},
+	[310510] = {
+		ik_camera = "Cam310510",
+		character_action = "ab_FF_chuang_1_idle_01",
+		base = 300510,
+		camera_group = 31051,
+		skin_id = 199032,
+		character_position = "Pos310510",
+		enter_extra_item = "",
+		id = 310510,
+		character_id = 19903,
+		ik_id = {
+			{
+				31051000,
+				0,
+				{
+					4,
+					0.3,
+					30219
+				}
+			},
+			{
+				31051001,
+				0,
+				{
+					4,
+					0.3,
+					30218
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.6
+		},
+		enter_scene_anim = {}
+	},
+	[310511] = {
+		ik_camera = "Cam310511",
+		character_action = "ab_FF_chuang_1_idle_01",
+		base = 300511,
+		camera_group = 31051,
+		skin_id = 199032,
+		character_position = "Pos310511",
+		enter_extra_item = "",
+		id = 310511,
+		character_id = 19903,
+		ik_id = {
+			{
+				31051100,
+				0,
+				{
+					4,
+					0.3,
+					30218
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310512] = {
+		ik_camera = "Cam310512",
+		character_action = "ab_FF_chuang_2_idle_01",
+		base = 300512,
+		camera_group = 31051,
+		skin_id = 199032,
+		character_position = "Pos310512",
+		enter_extra_item = "",
+		id = 310512,
+		character_id = 19903,
+		ik_id = {
+			{
+				31051200,
+				0,
+				{
+					4,
+					0.3,
+					30220,
+					300513
+				}
+			},
+			{
+				31051201,
+				0,
+				{
+					4,
+					0.3,
+					30221
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
+	[310513] = {
+		ik_camera = "Cam310513",
+		character_action = "ab_FF_chuang_2_xiong_01-loop",
+		base = 300513,
+		camera_group = 31052,
+		skin_id = 199032,
+		character_position = "Pos310513",
+		enter_extra_item = "",
+		id = 310513,
+		character_id = 19903,
+		ik_id = {
+			{
+				30051300,
+				0,
+				{
+					4,
+					0.3,
+					30222,
+					300512
+				}
+			},
+			{
+				30051301,
+				0,
+				{
+					4,
+					0.3,
+					30222,
+					300512
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			1,
+			0
+		},
+		cloth_colliders = {},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
 	[310910] = {
 		ik_camera = "Cam310910",
 		character_action = "ab_IK_swim_1_idle_01",
@@ -9585,6 +9969,22 @@ pg.dorm3d_ik_status = {
 			310411,
 			310412
 		},
+		[30051] = {
+			300510,
+			300511,
+			300512
+		},
+		[30052] = {
+			300513
+		},
+		[31051] = {
+			310510,
+			310511,
+			310512
+		},
+		[31052] = {
+			310513
+		},
 		[30019] = {
 			310910,
 			310911
@@ -9948,6 +10348,22 @@ pg.dorm3d_ik_status = {
 			300412,
 			310412
 		},
+		[300510] = {
+			300510,
+			310510
+		},
+		[300511] = {
+			300511,
+			310511
+		},
+		[300512] = {
+			300512,
+			310512
+		},
+		[300513] = {
+			300513,
+			310513
+		},
 		[310910] = {
 			310910
 		},
@@ -10107,6 +10523,10 @@ pg.dorm3d_ik_status = {
 		300410,
 		300411,
 		300412,
+		300510,
+		300511,
+		300512,
+		300513,
 		310110,
 		310111,
 		310112,
@@ -10119,6 +10539,10 @@ pg.dorm3d_ik_status = {
 		310410,
 		310411,
 		310412,
+		310510,
+		310511,
+		310512,
+		310513,
 		310910,
 		310911
 	}

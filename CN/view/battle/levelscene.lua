@@ -540,6 +540,11 @@ slot0.didEnter = function(slot0)
 				uv0:emit(LevelMediator2.ON_BOSSSINGLE_MAP, {
 					mode = OtherworldMapScene.MODE_BATTLE
 				})
+			end,
+			[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = function ()
+				uv0:emit(LevelMediator2.ON_BOSSSINGLE_MAP, {
+					mode = OtherworldMapScene.MODE_BATTLE
+				})
 			end
 		})
 	end, SFX_PANEL)
@@ -596,7 +601,7 @@ slot0.didEnter = function(slot0)
 	slot1 = getProxy(ActivityProxy):getEnterReadyActivity()
 
 	setActive(slot0.entranceLayer:Find("enters/enter_ready/nothing"), not tobool(slot1))
-	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), tobool(slot1))
+	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
 
 	if tobool(slot1) and slot1:getConfig("config_client").entrance_bg then
 		GetImageSpriteFromAtlasAsync(slot2, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)

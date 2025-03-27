@@ -414,6 +414,10 @@ pg.dorm3d_camera_zone_template = {
 			{
 				301,
 				120103
+			},
+			{
+				322,
+				120103
 			}
 		},
 		anim_speeds = {

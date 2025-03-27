@@ -532,7 +532,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "西西里王国，二者如今也合成两西西里王国。",
+			say = "西西里王国，二者如今也合称两西西里王国。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

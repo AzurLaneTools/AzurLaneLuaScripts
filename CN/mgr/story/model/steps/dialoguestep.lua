@@ -103,6 +103,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.nohead = slot1.nohead
 	slot0.live2d = slot1.live2d
 	slot0.live2dIdleIndex = slot1.live2dIdleIndex
+	slot0.live2dParams = slot1.live2dParams
 	slot0.spine = slot1.spine
 	slot0.spineOrderIndex = slot1.spineOrderIndex
 	slot0.live2dOffset = slot1.live2dOffset
@@ -133,6 +134,17 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.paintRwIndex = slot1.paintRwIndex or 0
 	slot0.action = slot1.action or {}
+end
+
+slot0.GetL2dParams = function(slot0)
+	if not slot0.live2dParams then
+		return nil
+	end
+
+	return {
+		name = slot0.live2dParams[1],
+		value = slot0.live2dParams[2]
+	}
 end
 
 slot0.SetDefaultSide = function(slot0)

@@ -15,7 +15,7 @@ return {
 					1
 				},
 				{
-					"撒丁尼亚联盟合作战司令部",
+					"撒丁尼亚联盟作战司令部",
 					2
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前，教国境内的经历工作进行得异常顺利。",
+			say = "目前，教国境内的清理工作进行得异常顺利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

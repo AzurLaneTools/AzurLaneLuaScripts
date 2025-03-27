@@ -48,6 +48,8 @@ slot0.register = function(slot0)
 					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
 					uv0:InitActtivityFleet(slot6, slot5)
+				elseif slot7 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+					uv0:InitActtivityFleet(slot6, slot5)
 				elseif slot7 == ActivityConst.ACTIVITY_TYPE_EVENT_SINGLE then
 					uv0:CheckDailyEventRequest(slot6)
 				end
@@ -232,6 +234,9 @@ slot0.timeCall = function(slot0)
 								uv0[slot0] = 0
 							end)
 							uv1:updateActivity(uv0)
+						end,
+						[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = function ()
+							uv0:updateActivity(uv1)
 						end,
 						[ActivityConst.ACTIVITY_TYPE_MANUAL_SIGN] = function ()
 							uv0:sendNotification(GAME.ACT_MANUAL_SIGN, {
@@ -878,7 +883,8 @@ slot0.getEnterReadyActivity = function(slot0)
 			return not slot0:checkBattleTimeInBossAct()
 		end,
 		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = false,
-		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = false
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = false,
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = false
 	})) do
 		slot3[slot8] = 0
 	end

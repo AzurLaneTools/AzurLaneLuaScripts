@@ -328,7 +328,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……看来本圣得判断不错，此处乃是现实扭曲之后呈现出的幻境。",
+			say = "嗯……看来本圣座的判断不错，此处乃是现实扭曲之后呈现出的幻境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1006,7 +1006,7 @@ return {
 			actor = 601110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我这边也比对工作也完成了，所有不同之处我都在图上进行了标注。",
+			say = "我这边的比对工作也完成了，所有不同之处我都在图上进行了标注。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

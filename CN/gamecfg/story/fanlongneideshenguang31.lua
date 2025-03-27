@@ -688,7 +688,7 @@ return {
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……真没想到，离别竟回来得如此突然。",
+			say = "……真没想到，离别竟来得如此突然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

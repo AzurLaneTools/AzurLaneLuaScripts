@@ -71,7 +71,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好这里在设计之初就考虑到了当下的情况，不然我们就没有比夷平这里更高效的解决手段了。",
+			say = "还好这里在设计之初就考虑到了当下的情况，不然我们就没有比移平这里更高效的解决手段了。",
 			painting = {
 				alpha = 0.3,
 				time = 1

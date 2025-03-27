@@ -476,7 +476,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有，本圣座只是在想，各处节点被破坏成这样，我们的神光之网就算是还未启动，就彻底报废了？",
+			say = "没有，本圣座只是在想，各处节点被破坏成这样，我们的神光之网算是还未启动，就彻底报废了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			factiontag = "佛罗伦萨共和国",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她花大力气控制神光之网……不是为了以后自己使用，而是为了能够保证彻底将其彻底摧毁？",
+			say = "她花大力气控制神光之网……不是为了以后自己使用，而是为了能够保证将其彻底摧毁？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -846,7 +846,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“末日审判仪式“，又是什么？",
+			say = "……“末日审判仪式”，又是什么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

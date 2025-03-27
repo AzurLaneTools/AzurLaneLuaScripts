@@ -26,7 +26,7 @@ return {
 			bgm = "theme-underheaven",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "齐颂之音消了，而我依然漫步在纯白之中。",
+			say = "齐颂之音消失了，而我依然漫步在纯白之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

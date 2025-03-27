@@ -191,6 +191,12 @@ pg.furniture_data_template = setmetatable({
 			292,
 			293,
 			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
 			100001,
 			100002,
 			100003,
@@ -262,6 +268,7 @@ pg.furniture_data_template = setmetatable({
 			100069,
 			100070,
 			100071,
+			100072,
 			200001,
 			200002,
 			200003,
@@ -3527,6 +3534,31 @@ pg.furniture_data_template = setmetatable({
 			319302,
 			319303,
 			319304
+		},
+		[120] = {
+			320001,
+			320002,
+			320101,
+			320102,
+			320103,
+			320104,
+			320105,
+			320106,
+			320107,
+			320108,
+			320109,
+			320110,
+			320111,
+			320112,
+			320113,
+			320114,
+			320115,
+			320301,
+			320302,
+			320303,
+			320304,
+			320305,
+			320306
 		}
 	},
 	get_id_list_by_tag = {
@@ -5595,7 +5627,21 @@ pg.furniture_data_template = setmetatable({
 			319113,
 			319114,
 			319115,
-			319116
+			319116,
+			320101,
+			320102,
+			320103,
+			320104,
+			320105,
+			320106,
+			320107,
+			320108,
+			320109,
+			320110,
+			320111,
+			320112,
+			320113,
+			320114
 		},
 		{
 			1108,
@@ -5918,6 +5964,11 @@ pg.furniture_data_template = setmetatable({
 			285,
 			288,
 			291,
+			297,
+			298,
+			299,
+			300,
+			301,
 			100001,
 			100002,
 			100003,
@@ -5989,6 +6040,7 @@ pg.furniture_data_template = setmetatable({
 			100069,
 			100070,
 			100071,
+			100072,
 			31101,
 			54101,
 			54102,
@@ -6055,7 +6107,8 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			293,
-			295
+			295,
+			296
 		},
 		[7] = {
 			213,
@@ -6253,7 +6306,8 @@ pg.furniture_data_template = setmetatable({
 			316123,
 			317111,
 			318305,
-			319117
+			319117,
+			320115
 		},
 		[4] = {
 			1001,
@@ -6363,7 +6417,8 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			317001,
 			318001,
-			319001
+			319001,
+			320001
 		},
 		[3] = {
 			1002,
@@ -6473,7 +6528,8 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			317002,
 			318002,
-			319002
+			319002,
+			320002
 		},
 		[5] = {
 			1301,
@@ -6852,7 +6908,13 @@ pg.furniture_data_template = setmetatable({
 			319301,
 			319302,
 			319303,
-			319304
+			319304,
+			320301,
+			320302,
+			320303,
+			320304,
+			320305,
+			320306
 		}
 	},
 	get_id_list_by_type = {
@@ -6964,7 +7026,8 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			317002,
 			318002,
-			319002
+			319002,
+			320002
 		},
 		[7] = {
 			1,
@@ -7126,6 +7189,12 @@ pg.furniture_data_template = setmetatable({
 			292,
 			293,
 			295,
+			296,
+			297,
+			298,
+			299,
+			300,
+			301,
 			100001,
 			100002,
 			100004,
@@ -7178,7 +7247,8 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100067,
 			100068,
-			100069
+			100069,
+			100072
 		},
 		[2] = {
 			120,
@@ -9246,7 +9316,22 @@ pg.furniture_data_template = setmetatable({
 			319114,
 			319115,
 			319116,
-			319117
+			319117,
+			320101,
+			320102,
+			320103,
+			320104,
+			320105,
+			320106,
+			320107,
+			320108,
+			320109,
+			320110,
+			320111,
+			320112,
+			320113,
+			320114,
+			320115
 		},
 		[11] = {
 			131,
@@ -9684,7 +9769,13 @@ pg.furniture_data_template = setmetatable({
 			318305,
 			319302,
 			319303,
-			319304
+			319304,
+			320301,
+			320302,
+			320303,
+			320304,
+			320305,
+			320306
 		},
 		[15] = {
 			251,
@@ -9810,7 +9901,8 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			317001,
 			318001,
-			319001
+			319001,
+			320001
 		},
 		[5] = {
 			1101,
@@ -10386,6 +10478,12 @@ pg.furniture_data_template = setmetatable({
 		292,
 		293,
 		295,
+		296,
+		297,
+		298,
+		299,
+		300,
+		301,
 		100001,
 		100002,
 		100003,
@@ -10457,6 +10555,7 @@ pg.furniture_data_template = setmetatable({
 		100069,
 		100070,
 		100071,
+		100072,
 		200001,
 		200002,
 		200003,
@@ -13503,7 +13602,30 @@ pg.furniture_data_template = setmetatable({
 		319301,
 		319302,
 		319303,
-		319304
+		319304,
+		320001,
+		320002,
+		320101,
+		320102,
+		320103,
+		320104,
+		320105,
+		320106,
+		320107,
+		320108,
+		320109,
+		320110,
+		320111,
+		320112,
+		320113,
+		320114,
+		320115,
+		320301,
+		320302,
+		320303,
+		320304,
+		320305,
+		320306
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -22960,6 +23082,234 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[296] = {
+		can_rotate = 0,
+		describe = "冷藏有关键样本的关键样本冷藏柜，十分关键。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "关键样本冷藏柜",
+		advice = 0,
+		id = 296,
+		icon = "fulankelinxunzhangicon",
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fulankelinxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[297] = {
+		can_rotate = 0,
+		describe = "深谷病院后勤中心的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/yiyuanhouqinzhongxin",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "后勤中心微缩模型",
+		advice = 0,
+		icon = "yiyuanhouqinzhongxinicon",
+		id = 297,
+		comfortable = 0,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[298] = {
+		can_rotate = 0,
+		describe = "深谷病院疗养中心的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/yiyuanliaoyangzhongxin",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "疗养中心微缩模型",
+		advice = 0,
+		icon = "yiyuanliaoyangzhongxinicon",
+		id = 298,
+		comfortable = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[299] = {
+		can_rotate = 0,
+		describe = "深谷病院研究中心的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "Chuanmo/yiyuanyanjiuzhongxin",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "研究中心微缩模型",
+		advice = 0,
+		icon = "yiyuanyanjiuzhongxinicon",
+		id = 299,
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[300] = {
+		can_rotate = 0,
+		describe = "深谷病院诊疗中心的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/yiyuanzhenliaozhongxin",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "诊疗中心微缩模型",
+		advice = 0,
+		icon = "yiyuanzhenliaozhongxinicon",
+		id = 300,
+		comfortable = 0,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[301] = {
+		can_rotate = 0,
+		describe = "深谷病院住院大楼的微缩模型。",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/yiyuanzhuyuandalou",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "住院大楼微缩模型",
+		advice = 0,
+		icon = "yiyuanzhuyuandalouicon",
+		id = 301,
+		comfortable = 0,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
 	[100001] = {
 		can_rotate = 0,
 		describe = "本ID禁用",
@@ -27959,6 +28309,56 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100072] = {
+		can_rotate = 0,
+		describe = "内置强劲动力，专为枕头大战而设计！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "战争型抱枕",
+		advice = 0,
+		id = 100072,
+		icon = "zhentoudazhanicon",
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhentoudazhan",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_yumao01"
+				}
+			}
 		},
 		interAction_group = {}
 	},
@@ -162051,6 +162451,1129 @@ pg.base.furniture_data_template = {
 					"action",
 					false
 				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320001] = {
+		can_rotate = 0,
+		describe = "深空医疗站，为您提供别具一格的新奇医疗体验。",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/dibanyi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "深空医疗站地板",
+		advice = 0,
+		icon = "dibanyi2icon",
+		id = 320001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320002] = {
+		can_rotate = 0,
+		describe = "深空医疗站，为您提供别具一格的新奇医疗体验。",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/qiangbiyi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "深空医疗站墙纸",
+		advice = 0,
+		icon = "qiangbiyi2icon",
+		id = 320002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320101] = {
+		can_rotate = 0,
+		describe = "来测测身高吧~记得脱鞋哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 120,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "shenggaojiyi2icon",
+		count = 1,
+		name = "深空测高机",
+		advice = 0,
+		id = 320101,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shenggaojiyi2B",
+				"normal"
+			},
+			{
+				"shenggaojiyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						nil,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"action2",
+						"action3",
+						"action4"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320102] = {
+		can_rotate = 1,
+		describe = "深空医疗站内重力正常，请相信测量结果。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 120,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "tizhongyiyi2icon",
+		count = 1,
+		name = "深空体重计",
+		advice = 0,
+		id = 320102,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tizhongyiyi2B",
+				"normal"
+			},
+			{
+				"tizhongyiyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						nil,
+						"stand2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"action2",
+						"action3",
+						"action4",
+						"action5",
+						"action6"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320103] = {
+		can_rotate = 0,
+		describe = "可别坐上面乱晃，除非你想躺去病床上。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/yuanyiyi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 2,
+		name = "医疗站圆椅",
+		advice = 0,
+		id = 320103,
+		icon = "yuanyiyi2icon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-8.9,
+					47.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320104] = {
+		can_rotate = 0,
+		describe = "生命的绿意与你相随。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 120,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "bingchuangyi2icon",
+		count = 1,
+		name = "医疗站病床",
+		advice = 0,
+		id = 320104,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bingchuangyi2B",
+				"normal"
+			},
+			{
+				"bingchuangyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sleep1",
+						"sleep",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320105] = {
+		can_rotate = 0,
+		describe = "被照着很冷，各种意义上的冷。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "深空探照灯",
+		advice = 0,
+		id = 320105,
+		icon = "tanzhaodengyi2icon",
+		comfortable = 2,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tanzhaodengyi2",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320106] = {
+		can_rotate = 0,
+		describe = "看看绿植吧，被检查时不要紧张哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "医疗站心率仪",
+		advice = 0,
+		id = 320106,
+		icon = "xinlvyiyi2icon",
+		comfortable = 2,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xinlvyiyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320107] = {
+		can_rotate = 0,
+		describe = "穿着白大褂，服务温柔且专业啾。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/yishengjiuyi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "深空医生啾",
+		advice = 0,
+		icon = "yishengjiuyi2icon",
+		id = 320107,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320108] = {
+		can_rotate = 0,
+		describe = "手捧病历本，服务专业且温柔啾。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/hushijiuyi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "深空护士啾",
+		advice = 0,
+		icon = "hushijiuyi2icon",
+		id = 320108,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320109] = {
+		can_rotate = 0,
+		describe = "如同医生的药方一样让人看不懂！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "医疗站屏幕群",
+		advice = 0,
+		id = 320109,
+		icon = "pingmuqunyi2icon",
+		comfortable = 3,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"pingmuqunyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320110] = {
+		can_rotate = 0,
+		describe = "请有序入内哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "医疗站大门",
+		advice = 0,
+		id = 320110,
+		icon = "qiangyi2icon",
+		comfortable = 4,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangyi2",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320111] = {
+		can_rotate = 0,
+		describe = "请有序落座哦。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/zuoyiyi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "医疗站座椅",
+		advice = 0,
+		id = 320111,
+		icon = "zuoyiyi2icon",
+		comfortable = 2,
+		size = {
+			6,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					6.9,
+					13.9
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320112] = {
+		can_rotate = 0,
+		describe = "深空医疗站，为您服务啾！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/qiantaijiuyi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "深空服务啾",
+		advice = 0,
+		icon = "qiantaijiuyi2icon",
+		id = 320112,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320113] = {
+		can_rotate = 0,
+		describe = "请勿乱扔垃圾，重复，请勿乱扔垃圾。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "垃圾桶机器人",
+		advice = 0,
+		id = 320113,
+		icon = "lajitongjiqiyi2icon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lajitongjiqiyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320114] = {
+		can_rotate = 0,
+		describe = "迷路的话就看一下指示牌哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "深空病院指示牌",
+		advice = 0,
+		id = 320114,
+		icon = "zhishipaiyi2icon",
+		comfortable = 3,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhishipaiyi2",
+				"normal",
+				{
+					"action1",
+					true,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[320115] = {
+		can_rotate = 0,
+		describe = "最尖端的科技，最精确的检查。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 120,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yuanhuanyiqiyi2icon",
+		count = 1,
+		name = "深空检测仪",
+		advice = 0,
+		id = 320115,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yuanhuanyiqiyi2B",
+				"normal"
+			},
+			{
+				"yuanhuanyiqiyi2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sleep1",
+						"sleep",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[320301] = {
+		can_rotate = 0,
+		describe = "表是定时更新的，背过可没用哦~",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "深空视力表",
+		advice = 0,
+		id = 320301,
+		icon = "shilibiaoyi2icon",
+		comfortable = 3,
+		size = {
+			4,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shilibiaoyi2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[320302] = {
+		can_rotate = 0,
+		describe = "从这里，可以看到很远很远……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/chuang1yi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "深空外景窗1",
+		advice = 0,
+		icon = "chuang1yi2icon",
+		id = 320302,
+		comfortable = 1,
+		size = {
+			10,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320303] = {
+		can_rotate = 0,
+		describe = "从这里，可以看到很远很远……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/chuang2yi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "深空外景窗2",
+		advice = 0,
+		icon = "chuang2yi2icon",
+		id = 320303,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320304] = {
+		can_rotate = 0,
+		describe = "从这里，可以看到很远很远……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/chuang3yi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "深空外景窗3",
+		advice = 0,
+		icon = "chuang3yi2icon",
+		id = 320304,
+		comfortable = 1,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320305] = {
+		can_rotate = 0,
+		describe = "从这里，可以看到很远很远……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "yi2/chuang4yi2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 120,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "深空外景窗4",
+		advice = 0,
+		icon = "chuang4yi2icon",
+		id = 320305,
+		comfortable = 2,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[320306] = {
+		can_rotate = 0,
+		describe = "从这里，可以看到很远很远……",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 120,
+		count = 1,
+		name = "深空外景窗5",
+		advice = 0,
+		id = 320306,
+		icon = "chuang5yi2icon",
+		comfortable = 1,
+		size = {
+			8,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuang5yi2",
+				"normal"
 			}
 		},
 		interAction_group = {}

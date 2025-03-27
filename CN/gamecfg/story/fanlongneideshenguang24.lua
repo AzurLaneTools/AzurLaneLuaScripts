@@ -405,7 +405,7 @@ return {
 			actor = 900478,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在还得我来费尽心思来给你藏好。",
+			say = "现在还得我来费尽心思的给你藏好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -943,7 +943,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……所以，这就是实验场ES-13161拥有这么多META的原因。",
+			say = "……所以，这就是实验场ES-131618拥有这么多META的原因。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

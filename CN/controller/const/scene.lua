@@ -115,6 +115,7 @@ SCENE = {
 	PUZZLE_CONNECT = "puzzle connect",
 	FIREWORK_AND_SPRING = "firework and spring",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
+	BOSS_SINGLE_PRECONBAT = "BossSinglePreCombat",
 	BILLBOARD = "scene billboard",
 	DREAMLAND = "DREAMLAND",
 	ROGUE_FINAL_RESULT = "ROGUE_FINAL_RESULT",
@@ -123,6 +124,7 @@ SCENE = {
 	SHOP = "scene shop",
 	SINGLE_ACTIVITY = "single activity",
 	BACKYARD_THEME_TEMPLATE = "backyard theme template",
+	CLUE_MAP = "clue map",
 	ANNIVERSARY_ISLAND_SPRING_TASK = "anniversary island spring task",
 	IMAS_STAGE = "IdolMaster Stage",
 	SELECT_TRANSFORM_EQUIPMENT = "select transform equipment",
@@ -946,6 +948,14 @@ slot0 = {
 	[SCENE.RPS_GAME] = function (slot0, slot1)
 		slot0.mediator = Dorm3dMiniGameMediator
 		slot0.viewComponent = RPSGameLayer
+	end,
+	[SCENE.CLUE_MAP] = function (slot0, slot1)
+		slot0.mediator = ClueMapMediator
+		slot0.viewComponent = ClueMapScene
+	end,
+	[SCENE.BOSS_SINGLE_PRECONBAT] = function (slot0, slot1)
+		slot0.mediator = BossSinglePreCombatMediator
+		slot0.viewComponent = BossSinglePreCombatLayer
 	end
 }
 

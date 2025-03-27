@@ -764,6 +764,40 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/entertainmentarea"
 		}
 	},
+	[322] = {
+		rarity = 4,
+		name = "星河满船",
+		type = 4,
+		room_id = 3,
+		desc = "船型设计搭配深邃的海蓝色调，柔软的床铺仿佛漂浮在夜空下，让人沉醉于浪漫的冒险情怀。",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_bedroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture2",
+		acesses = "",
+		id = 322,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990350
+			}
+		},
+		shop_id = {
+			270302
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture322"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -799,7 +833,8 @@ pg.dorm3d_furniture_template = {
 			305,
 			306,
 			307,
-			321
+			321,
+			322
 		}
 	},
 	all = {
@@ -832,6 +867,7 @@ pg.dorm3d_furniture_template = {
 		305,
 		306,
 		307,
-		321
+		321,
+		322
 	}
 }

@@ -204,7 +204,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像一张以撒丁教国为核心，覆盖了整个萨丁尼亚联盟的大网？",
+			say = "就像一张以撒丁教国为核心，覆盖了整个撒丁尼亚联盟的大网？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

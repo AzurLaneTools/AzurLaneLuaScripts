@@ -109,6 +109,7 @@ pg.pay_data_display = setmetatable({
 		1018,
 		1019,
 		1020,
+		1021,
 		2001,
 		2002,
 		2003,
@@ -153,6 +154,9 @@ pg.pay_data_display = setmetatable({
 		2042,
 		2043,
 		2044,
+		2045,
+		2046,
+		2047,
 		5001,
 		5002,
 		5003,
@@ -10828,6 +10832,82 @@ pg.base.pay_data_display = {
 		limit_args = {},
 		drop_item = {}
 	},
+	[1021] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*需要通过任务达成对应巡游进度后才可获取",
+		type = 0,
+		name = "特许巡游凭证(2025.4)",
+		first_pay_double = 0,
+		name_display = "特许巡游凭证",
+		descrip = "可获得1500巡游点数，同时解锁特许巡游奖励·反击限定换装和其他奖励",
+		subject = "特许巡游凭证",
+		money = 68,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 6,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass23",
+		extra_service = 4,
+		id = 1021,
+		airijp_id = "com.yostarjp.azurlane.seasonpass22",
+		extra_service_item = {
+			{
+				1,
+				4022,
+				1500
+			},
+			{
+				8,
+				65086,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7022,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
 	[2001] = {
 		extra_gem = 0,
 		limit_group = 1,
@@ -14273,6 +14353,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40056,
+				1
+			}
+		}
+	},
+	[2045] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "此处不会被看到",
+		type = 0,
+		name = "基因之源主题礼包",
+		first_pay_double = 0,
+		name_display = "基因之源主题礼包",
+		descrip = "可获得战斗界面主题 基因之源*1",
+		subject = "基因之源主题礼包",
+		money = 78,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui9",
+		extra_service = 3,
+		id = 2045,
+		airijp_id = "com.yostarjp.azurlane.ui9",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2046] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "基因之源主题礼包(基础版)",
+		first_pay_double = 0,
+		name_display = "基因之源主题礼包(基础版)",
+		descrip = "可获得战斗界面主题 基因之源*1",
+		subject = "基因之源主题礼包(基础版)",
+		money = 78,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui10",
+		extra_service = 3,
+		id = 2046,
+		airijp_id = "com.yostarjp.azurlane.ui10",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40057,
+				1
+			}
+		}
+	},
+	[2047] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "基因之源主题礼包(豪华版)",
+		first_pay_double = 0,
+		name_display = "基因之源主题礼包(豪华版)",
+		descrip = "可获得战斗界面主题 基因之源*1,3060钻石",
+		subject = "基因之源主题礼包(豪华版)",
+		money = 258,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.ui11",
+		extra_service = 3,
+		id = 2047,
+		airijp_id = "com.yostarjp.azurlane.ui11",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					3,
+					27
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40058,
 				1
 			}
 		}

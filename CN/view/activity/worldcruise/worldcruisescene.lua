@@ -175,12 +175,10 @@ end
 slot0.UpdateAwardPage = function(slot0)
 	slot0:UpdateAwardTip()
 	slot0.pages[uv0.PAGE_AWARD]:ExecuteAction("UpdateActivity", slot0.activity)
-	slot0:UpdateView()
 end
 
 slot0.UpdateTaskPage = function(slot0)
 	slot0.pages[uv0.PAGE_TASK]:ExecuteAction("UpdateActivity", slot0.activity)
-	slot0:UpdateView()
 end
 
 slot0.UpdateShopPage = function(slot0)

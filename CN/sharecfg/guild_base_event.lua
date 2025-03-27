@@ -12343,6 +12343,10 @@ pg.base.guild_base_event = {
 			{
 				1,
 				1
+			},
+			{
+				3,
+				1
 			}
 		},
 		ship_type_effect = {
@@ -12804,10 +12808,6 @@ pg.base.guild_base_event = {
 		ship_camp_effect = {
 			{
 				1,
-				1
-			},
-			{
-				3,
 				1
 			}
 		},
@@ -13463,6 +13463,10 @@ pg.base.guild_base_event = {
 		id = 4205,
 		extra_squadron_num = 0,
 		ship_camp_effect = {
+			{
+				1,
+				1
+			},
 			{
 				3,
 				1
