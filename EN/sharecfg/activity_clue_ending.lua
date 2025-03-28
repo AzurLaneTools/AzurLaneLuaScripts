@@ -234,7 +234,7 @@ However, she never came back to me.]],
 		type = 1,
 		group = 2,
 		unlock_pre = 0,
-		title2 = "Supernatural Development – 1",
+		title2 = "Supernatural \nDevelopment – 1",
 		desc = [[
 The situation inside Valley Hospital was far more complicated than I had imagined.
 At the same time as I located Miller beneath the research center, a haunting truth came to light: The hospital's reasons for inviting her here were by no means benevolent.
@@ -307,7 +307,7 @@ According to the experiment reports, this condition is both similar and dissimil
 		type = 1,
 		group = 2,
 		unlock_pre = 5,
-		title2 = "Supernatural Development – 2",
+		title2 = "Supernatural \nDevelopment – 2",
 		desc = [[
 The photograph I found under Santa Fe's pillow and the worry she expressed both hinted at a disturbing fact: That the rescue mission being prepared by intelligence agencies across the world exists in name only, and in fact, their true aim is to get all this supernatural research under their control.
 In a situation as deeply complex as this, I must choose my allies very carefully.
@@ -362,7 +362,7 @@ My decision to accept or refuse her invitation will surely lead to drastic chang
 		type = 1,
 		group = 2,
 		unlock_pre = 6,
-		title2 = "Supernatural Development – 3",
+		title2 = "Supernatural \nDevelopment – 3",
 		desc = [[
 Late in the night, I had my clandestine meeting under Suzuya's guidance. At last, I managed to personally meet the mysterious billionaire pulling the strings of Valley Hospital.
 The contents of our meeting, however, were completely unlike anything I'd imagined.
