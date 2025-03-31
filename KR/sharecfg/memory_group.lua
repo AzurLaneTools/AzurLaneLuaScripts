@@ -221,6 +221,7 @@ pg.memory_group = setmetatable({
 		319,
 		320,
 		321,
+		323,
 		501,
 		502,
 		503,
@@ -5264,6 +5265,19 @@ pg.base.memory_group = {
 			4242,
 			4243,
 			4244
+		}
+	},
+	[323] = {
+		title = "부린 팀 모항 위기 대격파",
+		subtype = 2,
+		link_event = 5879,
+		type = 2,
+		id = 323,
+		icon = "title_event",
+		memories = {
+			4281,
+			4282,
+			4283
 		}
 	},
 	[501] = {

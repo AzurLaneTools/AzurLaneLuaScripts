@@ -1,6 +1,124 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[207070] = {
+		name = "임플래커블",
+		change_skin = "",
+		bg_sp = "",
+		desc = "임플래커블급 항공모함 - 임플래커블",
+		illustrator2 = -1,
+		ship_group = 20707,
+		group_index = 0,
+		painting = "yuanchou",
+		prefab = "yuanchou",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 207070,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 356,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.37,
+					1.16,
+					0
+				}
+			},
+			plane = {
+				{
+					1.29,
+					1.12,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.19,
+							-1.47
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-47,
+				-373,
+				0
+			},
+			{
+				1.05
+			}
+		},
+		special_effects = {
+			"lihui_yuanchou",
+			{
+				1074,
+				1737,
+				0
+			},
+			{
+				2.4
+			}
+		}
+	},
 	[207071] = {
 		name = "사무실에서의 \"사고\"",
 		change_skin = "",
@@ -13701,119 +13819,6 @@ pg.base.ship_skin_template_7 = {
 						{
 							-0.667,
 							2.21,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301329] = {
-		name = "무츠키·改",
-		change_skin = "",
-		bg_sp = "",
-		desc = "지히간, 무츠키 개조 완료~! 사탕 주께! 웅? 지히간은 무츠키한테 상냥하니까, 무츠키의 사탕 지히간한테 주께!",
-		illustrator2 = -1,
-		ship_group = 30132,
-		group_index = 9,
-		painting = "muyue_g",
-		prefab = "muyue_g",
-		hand_id = 6,
-		shop_type_id = 9997,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		id = 301329,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 49,
-		spine_offset = "",
-		illustrator = 34,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.711,
-					0.658,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.21,
-					0.09,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.641,
-					0.614,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.665,
-							2.175,
 							0
 						}
 					}

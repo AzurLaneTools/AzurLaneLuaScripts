@@ -1,8 +1,40 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "5879",
+		type = 3,
 		id = 1,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
 		pic = "temp1",
 		param = {
 			"scene dailylevel"
@@ -36,7 +68,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 3,
 		pic = "temp4",
 		param = {
 			"metacharacter"
@@ -70,7 +102,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 4,
 		pic = "temp8",
 		param = {
 			"scene equip",
@@ -108,7 +140,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 5,
 		pic = "temp2",
 		param = {
 			"scene get boat",
@@ -148,17 +180,8 @@ pg.activity_banner = {
 		param = "5821",
 		time = "stop",
 		type = 3,
-		id = 5,
-		pic = "temp5"
-	},
-	{
-		time = "stop",
-		type = 2,
 		id = 6,
-		pic = "temp6",
-		param = {
-			"scene court yard"
-		}
+		pic = "temp5"
 	},
 	{
 		time = "stop",
@@ -260,7 +283,7 @@ pg.activity_banner = {
 		time = "always",
 		type = 13,
 		id = 200,
-		pic = "winter"
+		pic = "spring"
 	},
 	[201] = {
 		param = "",
@@ -277,18 +300,18 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
+			6,
+			9
+		},
+		[2] = {
 			2,
 			3,
 			4,
-			6,
+			5,
 			7,
 			8
-		},
-		[3] = {
-			5,
-			9
 		},
 		[9] = {
 			90,

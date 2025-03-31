@@ -3439,6 +3439,9 @@ pg.memory_template = setmetatable({
 		4255,
 		4256,
 		4257,
+		4281,
+		4282,
+		4283,
 		10000,
 		10001,
 		10002,
@@ -41467,6 +41470,39 @@ pg.base.memory_template = {
 		story = "MOJIADUOER7",
 		id = 4257,
 		icon = "memory_mojiaduoer",
+		is_open = 0
+	},
+	[4281] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "세 자매의 결의",
+		condition = "「부린 팀 모항 위기 대격파」이벤트 시작",
+		story = "BULIZHANDUIDAPOGANGQUWEIJI1",
+		id = 4281,
+		icon = "memory_bulizhanduidapogangquweiji",
+		is_open = 0
+	},
+	[4282] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "동굴의 기이한 만남",
+		condition = "암호 모두 수집 시",
+		story = "BULIZHANDUIDAPOGANGQUWEIJI2",
+		id = 4282,
+		icon = "memory_bulizhanduidapogangquweiji",
+		is_open = 0
+	},
+	[4283] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		title = "부린 팀은 작전 중",
+		condition = "특수 전투 진입",
+		story = "1360006",
+		id = 4283,
+		icon = "memory_bulizhanduidapogangquweiji",
 		is_open = 0
 	},
 	[10000] = {

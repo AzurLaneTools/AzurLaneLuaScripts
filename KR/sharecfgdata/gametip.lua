@@ -37127,3 +37127,67 @@ _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 _G.pg.base.gametip.rps_game_take_card = {
 	tip = "카드 확정"
 }
+
+
+_G.pg.base.gametip.SuperBulin2_tip1 = {
+	tip = "창고에서 암호를 찾아라 burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip2 = {
+	tip = "도크에서 암호를 찾아라 burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip3 = {
+	tip = "작전에서 암호를 찾아라, 목표 1-4burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip4 = {
+	tip = "숙소에서 암호를 찾아라 burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip5 = {
+	tip = "작전에서 암호를 찾아라, 목표 2-4burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip6 = {
+	tip = "학교에서 암호를 찾아라 burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip7 = {
+	tip = "무기상에서 암호를 찾아라 burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip8 = {
+	tip = "도감에서 암호를 찾아라 burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip9 = {
+	tip = "건조에서 암호를 기억하라 burin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_help = {
+	tip = {
+		{
+			info = [[
+ 이벤트 설명:
+1. 이벤트 기간 동안 특정 페이지나 스테이지에서 관련 단서를 수집할 수 있습니다
+2. 단서 수집에 어려움이 있을 때, 단서 힌트 해제 알림을 클릭할 수 있습니다
+주의: 10분 안에 하나의 힌트만 해제할 수 있습니다
+3.단서 수집이 완료되면 특별 스테이지를 오픈되고 특별 스테이지에 도전 및승리하면 특별 보너스를 받을 수 있습니다]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SuperBulin2_lock_tip = {
+	tip = "단서 수집 완성 후 특별 스테이지 해제 가능~"
+}

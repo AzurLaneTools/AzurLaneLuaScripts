@@ -1521,6 +1521,41 @@ pg.login = {
 		login_cri = "",
 		bgm = ""
 	},
+	[65] = {
+		op_play = 0,
+		op_time = "",
+		id = 65,
+		login_static = "login_0401",
+		login_cri = "",
+		bgm = "Story-richang-light",
+		date = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[3001] = {
 		op_play = 1,
 		id = 3001,
@@ -1668,6 +1703,7 @@ pg.login = {
 		61,
 		62,
 		63,
+		65,
 		3001,
 		3002
 	}

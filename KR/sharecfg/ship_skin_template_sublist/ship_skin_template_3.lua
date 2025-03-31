@@ -1,6 +1,135 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
+	[103242] = {
+		name = "쿵푸소녀!",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "\"여기까지다, 나쁜 자식들아! 여기서 날 만나다니, 운이 나쁘구나. 너희들의 죄를 청산할 때다!\" ...... 음, 역시 매력 넘치게 등장하는 건 너무 어려워.",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 2,
+		painting = "bulaimodun_4",
+		prefab = "bulaimodun_4",
+		hand_id = 13,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "144",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103242,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70482,
+		voice_actor = 134,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.371,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.383,
+					0.998,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.012,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.491,
+							2.587,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 2.17
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				10
+			}
+		}
+	},
 	[103243] = {
 		name = "Happy Dating!",
 		change_skin = "",
@@ -13281,107 +13410,6 @@ pg.base.ship_skin_template_3 = {
 			plane = {
 				{
 					1.439,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107231] = {
-		name = "해변의 특별 훈련",
-		change_skin = "",
-		bg_sp = "",
-		desc = "지휘관님, 수영하러 오셨나요? …저요? 해변이라고 해도 훈련할 만한 것이 많이 있어서 장비를 가져왔어요.",
-		illustrator2 = -1,
-		ship_group = 10723,
-		group_index = 1,
-		painting = "pulinsidun_2",
-		prefab = "pulinsidun_2",
-		hand_id = 13,
-		shop_type_id = 6,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "106",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107231,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70433,
-		voice_actor = 249,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.176,
-					0.917,
-					0
-				}
-			},
-			plane = {
-				{
-					1.308,
 					0.955,
 					0
 				}

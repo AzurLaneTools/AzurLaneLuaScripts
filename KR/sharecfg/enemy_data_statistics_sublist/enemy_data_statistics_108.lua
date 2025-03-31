@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_108 = {
+	[10093003] = {
+		cannon = 21,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 1500,
+		armor = 0,
+		reload = 150,
+		base = 90125,
+		dodge = 0,
+		torpedo_growth = 1200,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		star = 3,
+		hit = 10,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 16,
+		durability = 490,
+		armor_growth = 0,
+		durability_growth = 25000,
+		antiaircraft = 35,
+		speed = 15,
+		luck = 0,
+		hit_growth = 144,
+		battle_unit_type = 35,
+		id = 10093003,
+		antiaircraft_growth = 1000,
+		fog_fx = "",
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			100206,
+			100519,
+			535002
+		}
+	},
 	[10093004] = {
 		cannon = 47,
 		antisub = 0,
@@ -1700,94 +1740,6 @@ pg.enemy_data_statistics_108 = {
 			550052,
 			550053,
 			550054
-		}
-	},
-	[10095006] = {
-		battle_unit_type = 50,
-		hit_growth = 210,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		dodge = 19,
-		armor = 0,
-		air_growth = 0,
-		antisub = 0,
-		cannon = 75,
-		fog_fx = "",
-		dodge_growth = 270,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 90253,
-		durability = 13600,
-		armor_growth = 0,
-		torpedo_growth = 6000,
-		speed = 28,
-		luck = 30,
-		id = 10095006,
-		cannon_growth = 900,
-		reload = 150,
-		reload_growth = 0,
-		hit = 25,
-		torpedo = 160,
-		durability_growth = 48500,
-		antiaircraft = 120,
-		antiaircraft_growth = 2500,
-		bound_bone = {
-			cannon = {
-				{
-					0.6,
-					0.6,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.38,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.472,
-							0.233,
-							0.467
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							1.7,
-							2.07
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			551011,
-			551012,
-			551013
 		}
 	}
 }

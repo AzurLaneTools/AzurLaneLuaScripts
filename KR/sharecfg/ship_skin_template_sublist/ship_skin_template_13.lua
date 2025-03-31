@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_13 = {
+	[501040] = {
+		name = "타이위안 ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "안샨급 구축함 - 타이위안 ",
+		illustrator2 = -1,
+		ship_group = 50104,
+		group_index = 0,
+		painting = "taiyuan",
+		prefab = "taiyuan",
+		hand_id = 15,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 501040,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.98,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.93,
+					0.95,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.94,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[501041] = {
 		name = "봄을 깨우는 검은 거북이 ",
 		change_skin = "",
@@ -14034,121 +14147,6 @@ pg.base.ship_skin_template_13 = {
 						{
 							-0.61,
 							2.07,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[605022] = {
-		name = "Calabria Aurea",
-		change_skin = "",
-		bg_sp = "",
-		desc = "리토리오의 연회장에 온 것을 환영한다——지휘관, 누가 여자들한테 인기가 더 많은지 경쟁해 볼래? 하하하, 농담이야. 무조건 내가 이길 승부인데 무슨 재미가 있겠어~",
-		illustrator2 = -1,
-		ship_group = 60502,
-		group_index = 2,
-		painting = "lituoliao_3",
-		prefab = "lituoliao_3",
-		hand_id = 1,
-		shop_type_id = 7,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "136",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 605022,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70373,
-		voice_actor = 142,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.569,
-					1.083,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.645,
-					1.067,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.617,
-					0.892,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.498,
-							2.347,
 							0
 						}
 					}

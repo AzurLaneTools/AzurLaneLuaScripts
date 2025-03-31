@@ -2014,5 +2014,10 @@ pg.voice_bgm = {
 		default_bgm = "story-theme-sardinia",
 		special_bgm = "",
 		bgm = "story-theme-sardinia"
+	},
+	AprilFoolDiscovery2025Page = {
+		default_bgm = "story-battle-16bit",
+		special_bgm = "",
+		bgm = "story-battle-16bit"
 	}
 }

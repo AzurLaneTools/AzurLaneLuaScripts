@@ -30350,6 +30350,94 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5878] = {
+		mark = 20250327,
+		page_info = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 5879,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5878,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5879] = {
+		mark = 20250327,
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 50,
+		title_res_tag = "2025aprilfool",
+		id = 5879,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AprilFoolDiscovery2025Page",
+			ui_name = "AprilFoolDiscovery2025Page"
+		},
+		config_client = {
+			subView = "AprilFoolSuperBurinSubView2",
+			lastChapter = 1360006,
+			comStory = "BULIZHANDUIDAPOGANGQUWEIJI2",
+			guideName = {
+				"BULIZHANDUIDAPOGANGQUWEIJI1"
+			}
+		}
+	},
 	[7001] = {
 		mark = 20210930,
 		time = "stop",
@@ -38572,6 +38660,7 @@ pg.activity_template = {
 	},
 	[21009] = {
 		mark = 20250313,
+		time = "stop",
 		type = 101,
 		login_pop = 0,
 		config_id = 1007,
@@ -38582,33 +38671,6 @@ pg.activity_template = {
 		config_data = {
 			1,
 			30
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					3,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					3
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "SurveyPage",
@@ -40748,7 +40810,8 @@ pg.activity_template = {
 			5267,
 			5309,
 			5689,
-			5788
+			5788,
+			5879
 		},
 		[92] = {
 			4672,
@@ -40761,7 +40824,8 @@ pg.activity_template = {
 		},
 		[23] = {
 			4732,
-			5266
+			5266,
+			5878
 		},
 		[93] = {
 			4735,
@@ -41940,6 +42004,8 @@ pg.activity_template = {
 		5846,
 		5847,
 		5848,
+		5878,
+		5879,
 		7001,
 		7004,
 		7005,

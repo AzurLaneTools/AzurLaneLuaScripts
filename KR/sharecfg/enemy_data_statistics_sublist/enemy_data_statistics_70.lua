@@ -1,5 +1,98 @@
 pg = pg or {}
 pg.enemy_data_statistics_70 = {
+	[108002] = {
+		id = 108002,
+		hit_growth = 120,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		antiaircraft_growth = 0,
+		armor = 0,
+		air_growth = 0,
+		cannon = 75,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "changliangdanchuan",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90109,
+		durability = 900,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		prefab = "changliangdanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 180,
+		durability_growth = 15500,
+		antiaircraft = 85,
+		battle_unit_type = 25,
+		bound_bone = {
+			cannon = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.17,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			318098,
+			100427
+		}
+	},
 	[108003] = {
 		cannon = 90,
 		hit_growth = 120,
@@ -1324,46 +1417,6 @@ pg.enemy_data_statistics_70 = {
 		equipment_list = {
 			318031,
 			318032
-		}
-	},
-	[109012] = {
-		cannon = 95,
-		hit_growth = 0,
-		luck = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		air_growth = 0,
-		antisub = 0,
-		battle_unit_type = 50,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 3,
-		base = 90166,
-		durability = 4100,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 36,
-		armor = 0,
-		id = 109012,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 53,
-		reload_growth = 0,
-		hit = 44,
-		torpedo = 230,
-		durability_growth = 26000,
-		antiaircraft = 125,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			318033,
-			318034
 		}
 	}
 }

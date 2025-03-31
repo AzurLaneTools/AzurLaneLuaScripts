@@ -1,6 +1,105 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_17 = {
+	[900254] = {
+		name = "빅토리어스",
+		change_skin = "",
+		bg_sp = "",
+		desc = "일러스트리어스급 항공모함 - 빅토리어스 (HMS Victorious)",
+		illustrator2 = -1,
+		ship_group = 900254,
+		group_index = 0,
+		painting = "shengli",
+		prefab = "shengli",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 900254,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 94,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1,
+					1.39,
+					0
+				}
+			},
+			plane = {
+				{
+					1.12,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.27,
+							-1.47
+						}
+					}
+				}
+			}
+		}
+	},
 	[900255] = {
 		name = "미카사",
 		change_skin = "",
@@ -13577,112 +13676,6 @@ pg.base.ship_skin_template_17 = {
 							-0.45,
 							2.415,
 							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900423] = {
-		name = "霞飞-战斗天使",
-		change_skin = "",
-		bg_sp = "",
-		desc = "설명 없음",
-		illustrator2 = -1,
-		ship_group = 900423,
-		group_index = 0,
-		painting = "xiafei",
-		prefab = "xiafei",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900423,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.268,
-					1.035,
-					0
-				}
-			},
-			plane = {
-				{
-					1.312,
-					1.223,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.422,
-							2.117,
-							-1.85
 						}
 					}
 				}

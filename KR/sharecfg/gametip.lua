@@ -28095,5 +28095,60 @@ cs.gametip = {
 		1131316,
 		95,
 		true
+	},
+	SuperBulin2_tip1 = {
+		1131411,
+		119,
+		true
+	},
+	SuperBulin2_tip2 = {
+		1131530,
+		119,
+		true
+	},
+	SuperBulin2_tip3 = {
+		1131649,
+		131,
+		true
+	},
+	SuperBulin2_tip4 = {
+		1131780,
+		119,
+		true
+	},
+	SuperBulin2_tip5 = {
+		1131899,
+		131,
+		true
+	},
+	SuperBulin2_tip6 = {
+		1132030,
+		119,
+		true
+	},
+	SuperBulin2_tip7 = {
+		1132149,
+		122,
+		true
+	},
+	SuperBulin2_tip8 = {
+		1132271,
+		119,
+		true
+	},
+	SuperBulin2_tip9 = {
+		1132390,
+		122,
+		true
+	},
+	SuperBulin2_help = {
+		1132512,
+		563,
+		true
+	},
+	SuperBulin2_lock_tip = {
+		1133075,
+		144,
+		true
 	}
 }

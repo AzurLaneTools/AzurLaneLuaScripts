@@ -1,6 +1,121 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_14 = {
+	[605022] = {
+		name = "Calabria Aurea",
+		change_skin = "",
+		bg_sp = "",
+		desc = "리토리오의 연회장에 온 것을 환영한다——지휘관, 누가 여자들한테 인기가 더 많은지 경쟁해 볼래? 하하하, 농담이야. 무조건 내가 이길 승부인데 무슨 재미가 있겠어~",
+		illustrator2 = -1,
+		ship_group = 60502,
+		group_index = 2,
+		painting = "lituoliao_3",
+		prefab = "lituoliao_3",
+		hand_id = 1,
+		shop_type_id = 7,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "136",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 605022,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70373,
+		voice_actor = 142,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.569,
+					1.083,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.645,
+					1.067,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.617,
+					0.892,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							2.347,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[605023] = {
 		name = "집에서의 개인 시간",
 		change_skin = "",
@@ -13777,121 +13892,6 @@ pg.base.ship_skin_template_14 = {
 						{
 							-0.54,
 							2.446,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[801072] = {
-		name = "햇빛, 바다, 신성한 푸른빛",
-		change_skin = "",
-		bg_sp = "",
-		desc = "오늘은 기분이 어떠신가요, 지휘관님? 후후, 르 말랭 언니를 찾고 계신가요? 그렇다면, 더 조용한 곳으로 가보시는 게 좋겠네요.",
-		illustrator2 = -1,
-		ship_group = 80107,
-		group_index = 2,
-		painting = "kebu_2",
-		prefab = "kebu_2",
-		hand_id = 13,
-		shop_type_id = 6,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "133",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 801072,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 291,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.052,
-					1.039,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.06,
-					0.996,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.03,
-					1.193,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.633,
 							0
 						}
 					}

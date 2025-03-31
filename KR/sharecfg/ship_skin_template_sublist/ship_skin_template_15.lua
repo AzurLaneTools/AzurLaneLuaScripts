@@ -1,6 +1,121 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[801072] = {
+		name = "햇빛, 바다, 신성한 푸른빛",
+		change_skin = "",
+		bg_sp = "",
+		desc = "오늘은 기분이 어떠신가요, 지휘관님? 후후, 르 말랭 언니를 찾고 계신가요? 그렇다면, 더 조용한 곳으로 가보시는 게 좋겠네요.",
+		illustrator2 = -1,
+		ship_group = 80107,
+		group_index = 2,
+		painting = "kebu_2",
+		prefab = "kebu_2",
+		hand_id = 13,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "133",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 801072,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 291,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.052,
+					1.039,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.06,
+					0.996,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.03,
+					1.193,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.633,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[801080] = {
 		name = "마이예 브레제",
 		change_skin = "",
@@ -14299,119 +14414,6 @@ pg.base.ship_skin_template_15 = {
 						{
 							-0.64,
 							2.45,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900032] = {
-		name = "이셴",
-		change_skin = "",
-		bg_sp = "",
-		desc = "无描述",
-		illustrator2 = -1,
-		ship_group = 900032,
-		group_index = 0,
-		painting = "yixian",
-		prefab = "yixian",
-		hand_id = 0,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900032,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = 21,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.92,
-					0.45,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.92,
-					0.45,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.28,
-					0.04,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.92,
-					0.45,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.35,
-							2.28,
 							0
 						}
 					}

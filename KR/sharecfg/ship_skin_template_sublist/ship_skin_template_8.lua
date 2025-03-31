@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
+	[301329] = {
+		name = "무츠키·改",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지히간, 무츠키 개조 완료~! 사탕 주께! 웅? 지히간은 무츠키한테 상냥하니까, 무츠키의 사탕 지히간한테 주께!",
+		illustrator2 = -1,
+		ship_group = 30132,
+		group_index = 9,
+		painting = "muyue_g",
+		prefab = "muyue_g",
+		hand_id = 6,
+		shop_type_id = 9997,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 301329,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 49,
+		spine_offset = "",
+		illustrator = 34,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.711,
+					0.658,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.641,
+					0.614,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.641,
+					0.614,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.665,
+							2.175,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[301330] = {
 		name = "키사라기",
 		change_skin = "",
@@ -13607,119 +13720,6 @@ pg.base.ship_skin_template_8 = {
 						{
 							-0.24,
 							2.65,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[302130] = {
-		name = "진츠",
-		change_skin = "",
-		bg_sp = "",
-		desc = "센다이급 경순양함 2번함 – 진츠",
-		illustrator2 = -1,
-		ship_group = 30213,
-		group_index = 0,
-		painting = "shentong",
-		prefab = "shentong",
-		hand_id = 2,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 302130,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 77,
-		spine_offset = "",
-		illustrator = 41,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					0.66,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.16,
-					0.66,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.12,
-					0.02,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.16,
-					0.66,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.43,
 							0
 						}
 					}

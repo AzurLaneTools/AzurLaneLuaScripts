@@ -1,6 +1,107 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
+	[107231] = {
+		name = "해변의 특별 훈련",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지휘관님, 수영하러 오셨나요? …저요? 해변이라고 해도 훈련할 만한 것이 많이 있어서 장비를 가져왔어요.",
+		illustrator2 = -1,
+		ship_group = 10723,
+		group_index = 1,
+		painting = "pulinsidun_2",
+		prefab = "pulinsidun_2",
+		hand_id = 13,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "106",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107231,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70433,
+		voice_actor = 249,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.176,
+					0.917,
+					0
+				}
+			},
+			plane = {
+				{
+					1.308,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
 	[107232] = {
 		name = "롤리팝·캔디랜드",
 		change_skin = "",
@@ -13180,114 +13281,6 @@ pg.base.ship_skin_template_4 = {
 		l2d_se = "",
 		main_UI_FX = "",
 		shop_id = 70987,
-		voice_actor = 402,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.6,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.48,
-					1.272,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.513,
-							2.111,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201372] = {
-		name = "최신 덜렁이 메이드에 도전?!",
-		change_skin = "",
-		bg_sp = "",
-		desc = "데, 데헷♪ 발렌타인 초콜릿을 만들려고 했는데, 실수로 넘어졌지 뭐야☆ …뭐, 뭐라고?! 컨셉 잡기도 실수한 것 같다니, 어디가! 요즘 유행하는 덜렁이 메이드도 그러진 않겠다고…? 정말?!",
-		illustrator2 = -1,
-		ship_group = 20137,
-		group_index = 2,
-		painting = "nubiyaren_3",
-		prefab = "nubiyaren_3",
-		hand_id = 7,
-		shop_type_id = 17,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "166",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 201372,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
 		voice_actor = 402,
 		spine_offset = "",
 		illustrator = -1,

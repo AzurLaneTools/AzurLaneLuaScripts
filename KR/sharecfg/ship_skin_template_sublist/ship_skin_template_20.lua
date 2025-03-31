@@ -1,6 +1,221 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[11000010] = {
+		name = "아스카",
+		change_skin = "",
+		bg_sp = "",
+		desc = "처음 뵙겠습니다! 전 한조학원 2학년 아스카라고 해요! …여긴 새로 생긴 시노비 기지…가 아니라구요?! 여긴 당신들의 모항? 그렇구나… 뭐 어디든 열심히 수행하는 데에는 문제없겠지!",
+		illustrator2 = -1,
+		ship_group = 1100001,
+		group_index = 0,
+		painting = "feiniao",
+		prefab = "feiniao",
+		hand_id = 14,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 11000010,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 388,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.36,
+					1.04,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.41,
+					1.59,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.3,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[11000011] = {
+		name = "블루 오션스",
+		change_skin = "",
+		bg_sp = "",
+		desc = "푸른 하늘, 하얀 해변, 멀리까지 펼쳐진 광대한 바다… 음~ 이게 바로 TV에서 자주 본 '지상 낙원'이라는 거겠지? 이런 멋진 곳에 데려와 줘서 감사합니다, 지휘관! 좋아~ 신나게 놀아볼까!",
+		illustrator2 = -1,
+		ship_group = 1100001,
+		group_index = 1,
+		painting = "feiniao_2",
+		prefab = "feiniao_2",
+		hand_id = 14,
+		shop_type_id = 6,
+		bgm = "sk-az-story",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "168",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 11000011,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70928,
+		voice_actor = 388,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.36,
+					1.04,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.41,
+					1.59,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.3,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[11000020] = {
 		name = "이카루가",
 		change_skin = "",

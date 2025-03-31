@@ -543,6 +543,72 @@ pg.activity_event_picturepuzzle = {
 		awards = {},
 		auto_finish_args = {}
 	},
+	[5879] = {
+		id = 5879,
+		cd = 600,
+		chapter = 1360006,
+		pickup_picturepuzzle = {
+			65581,
+			65582,
+			65584,
+			65586,
+			65587,
+			65588,
+			65589
+		},
+		drop_picturepuzzle = {
+			65583,
+			65585
+		},
+		story = {},
+		awards = {
+			{
+				8,
+				65581,
+				1
+			},
+			{
+				8,
+				65582,
+				1
+			},
+			{
+				8,
+				65584,
+				1
+			},
+			{
+				8,
+				65586,
+				1
+			},
+			{
+				8,
+				65587,
+				1
+			},
+			{
+				8,
+				65588,
+				1
+			},
+			{
+				8,
+				65589,
+				1
+			}
+		},
+		auto_finish_args = {},
+		pickup_views = {
+			"StoreHouseScene",
+			"DockyardScene",
+			"CourtYardScene",
+			"NavalAcademyScene",
+			"NewShopsScene",
+			"CollectionScene",
+			"BuildShipScene"
+		}
+	},
 	[20433] = {
 		id = 20433,
 		cd = 1200,
@@ -781,6 +847,7 @@ pg.activity_event_picturepuzzle = {
 		5309,
 		5689,
 		5788,
+		5879,
 		20433,
 		20586,
 		20610,

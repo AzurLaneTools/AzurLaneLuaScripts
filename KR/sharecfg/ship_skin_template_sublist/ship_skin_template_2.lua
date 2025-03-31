@@ -1,6 +1,163 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[102053] = {
+		name = "광휘의 트라이앵글 웨이브",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지휘관, 이 수영복 어떤 것… 같아? 아, 역시 안 되겠어. 앞에서 대놓고 평가를 들으면 나, 너무 부끄러워서 지휘관 앞에 못 나올 것 같아…… 그러니까 음… 살짝 귓가에… 알려 줄래?",
+		illustrator2 = -1,
+		ship_group = 10205,
+		group_index = 3,
+		painting = "hailunna_4",
+		prefab = "hailunna_4",
+		hand_id = 13,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		bg = "133",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102053,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70898,
+		voice_actor = 34,
+		spine_offset = "",
+		illustrator = 7,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			175,
+			-60.5,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.06,
+					0.975,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.029,
+					1.029,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.045,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.627,
+							2.291,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-15,
+				15
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamBodyAngleX = {
+				-8,
+				8
+			},
+			ParamBodyAngleY = {
+				-8,
+				8
+			},
+			ParamEyeBallX = {
+				-0.4,
+				0.2
+			},
+			ParamEyeBallY = {
+				-0.4,
+				0.4
+			}
+		},
+		ship_l2d_id = {
+			1020531,
+			1020532,
+			1020533
+		},
+		l2d_drag_rate = {
+			0.5,
+			0.5,
+			0.5
+		}
+	},
 	[102058] = {
 		name = "순백의 기적",
 		change_skin = "",
@@ -13627,135 +13784,6 @@ pg.base.ship_skin_template_2 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[103242] = {
-		name = "쿵푸소녀!",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "\"여기까지다, 나쁜 자식들아! 여기서 날 만나다니, 운이 나쁘구나. 너희들의 죄를 청산할 때다!\" ...... 음, 역시 매력 넘치게 등장하는 건 너무 어려워.",
-		illustrator2 = -1,
-		ship_group = 10324,
-		group_index = 2,
-		painting = "bulaimodun_4",
-		prefab = "bulaimodun_4",
-		hand_id = 13,
-		shop_type_id = 3,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "144",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103242,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70482,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.371,
-					1.01,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.383,
-					0.998,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.006,
-					-0.012,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.491,
-							2.587,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			login = 2.17
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-10,
-				10
 			}
 		}
 	}

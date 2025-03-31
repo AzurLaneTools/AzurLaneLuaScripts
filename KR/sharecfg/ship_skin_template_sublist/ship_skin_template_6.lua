@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[203089] = {
+		name = "엑세터·改",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지휘관님, 저 전보다 좀 성숙해진 것 같지 않…습니까? ",
+		illustrator2 = -1,
+		ship_group = 20308,
+		group_index = 9,
+		painting = "aikesaite_g",
+		prefab = "aikesaite_g",
+		hand_id = 1,
+		shop_type_id = 9997,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 203089,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 8,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.41,
+					1.38,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.41,
+					1.38,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.41,
+					1.38,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.6,
+							2.38,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203090] = {
 		name = "서식스 ",
 		change_skin = "",
@@ -13886,124 +13999,6 @@ pg.base.ship_skin_template_6 = {
 			ParamBodyAngleX = {
 				-15,
 				15
-			}
-		}
-	},
-	[207070] = {
-		name = "임플래커블",
-		change_skin = "",
-		bg_sp = "",
-		desc = "임플래커블급 항공모함 - 임플래커블",
-		illustrator2 = -1,
-		ship_group = 20707,
-		group_index = 0,
-		painting = "yuanchou",
-		prefab = "yuanchou",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 207070,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 356,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.37,
-					1.16,
-					0
-				}
-			},
-			plane = {
-				{
-					1.29,
-					1.12,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.19,
-							-1.47
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-47,
-				-373,
-				0
-			},
-			{
-				1.05
-			}
-		},
-		special_effects = {
-			"lihui_yuanchou",
-			{
-				1074,
-				1737,
-				0
-			},
-			{
-				2.4
 			}
 		}
 	}
