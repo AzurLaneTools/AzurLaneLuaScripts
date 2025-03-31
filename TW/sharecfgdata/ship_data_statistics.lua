@@ -366111,6 +366111,372 @@ _G.pg.base.ship_data_statistics[900491] = {
 }
 
 
+_G.pg.base.ship_data_statistics[900493] = {
+	nationality = 98,
+	oxy_max = 0,
+	type = 1,
+	name = "泛用型布里",
+	huntingrange_level = 0,
+	star = 4,
+	oxy_recovery = 0,
+	backyard_speed = "0.3",
+	rarity = 4,
+	ammo = 0,
+	id = 900493,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "UNIV Universal Bulin",
+	oxy_cost = 0,
+	skin_id = 100000,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		100,
+		10,
+		10,
+		10,
+		10,
+		50,
+		0,
+		50,
+		50,
+		35,
+		100,
+		20
+	},
+	attrs_growth = {
+		1000,
+		100,
+		100,
+		100,
+		100,
+		500,
+		0,
+		500,
+		500,
+		0,
+		0,
+		100
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		104,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[900494] = {
+	nationality = 98,
+	oxy_max = 0,
+	type = 1,
+	name = "試作型布里MKII",
+	huntingrange_level = 0,
+	star = 5,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 5,
+	ammo = 0,
+	id = 900494,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "UNIV Trial Bulin MKII",
+	oxy_cost = 0,
+	skin_id = 100010,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		100,
+		10,
+		10,
+		10,
+		10,
+		50,
+		0,
+		50,
+		50,
+		35,
+		100,
+		20
+	},
+	attrs_growth = {
+		1000,
+		100,
+		100,
+		100,
+		100,
+		500,
+		0,
+		500,
+		500,
+		0,
+		0,
+		100
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		100,
+		104,
+		104
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
+_G.pg.base.ship_data_statistics[900495] = {
+	nationality = 98,
+	oxy_max = 0,
+	type = 1,
+	name = "特裝型布里MKIII",
+	huntingrange_level = 0,
+	star = 6,
+	oxy_recovery = 0,
+	backyard_speed = "0.5",
+	rarity = 6,
+	ammo = 0,
+	id = 900495,
+	summon_offset = 0,
+	scale = 100,
+	raid_distance = 0,
+	english_name = "UNIV Specialized Bulin Custom MKIII",
+	oxy_cost = 0,
+	skin_id = 100020,
+	attack_duration = 0,
+	oxy_recovery_surface = 0,
+	oxy_recovery_bench = 0,
+	armor_type = 1,
+	attrs = {
+		100,
+		10,
+		10,
+		10,
+		10,
+		50,
+		0,
+		50,
+		50,
+		35,
+		100,
+		20
+	},
+	attrs_growth = {
+		1000,
+		100,
+		100,
+		100,
+		100,
+		500,
+		0,
+		500,
+		500,
+		0,
+		0,
+		100
+	},
+	attrs_growth_extra = {
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0,
+		0
+	},
+	lock = {},
+	cld_box = {
+		4,
+		5,
+		5
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	aim_offset = {
+		0,
+		0,
+		0
+	},
+	position_offset = {
+		0,
+		0,
+		0
+	},
+	fix_equip_list = {},
+	default_equip_list = {
+		630081,
+		630082,
+		630058
+	},
+	depth_charge_list = {
+		141
+	},
+	base_list = {
+		1,
+		1,
+		1
+	},
+	parallel_max = {
+		1,
+		1,
+		1
+	},
+	preload_count = {
+		0,
+		0,
+		0
+	},
+	equipment_proficiency = {
+		1,
+		1,
+		1
+	},
+	strategy_list = {},
+	hunting_range = {
+		{}
+	},
+	tag_list = {}
+}
+
+
 _G.pg.base.ship_data_statistics[900808] = {
 	nationality = 108,
 	oxy_max = 0,

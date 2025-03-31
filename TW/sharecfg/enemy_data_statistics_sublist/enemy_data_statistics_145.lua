@@ -1,5 +1,87 @@
 pg = pg or {}
 pg.enemy_data_statistics_145 = {
+	[12400146] = {
+		hit_growth = 210,
+		luck_growth = 0,
+		speed_growth = 0,
+		air_growth = 0,
+		air = 120,
+		armor = 0,
+		antiaircraft_growth = 0,
+		antisub = 0,
+		cannon = 95,
+		fog_fx = "",
+		dodge_growth = 98,
+		star = 6,
+		antisub_growth = 0,
+		rarity = 6,
+		base = 90368,
+		durability = 13200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 0,
+		id = 12400146,
+		scale = 120,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 13,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 135,
+		battle_unit_type = 95,
+		bound_bone = {
+			cannon = {
+				{
+					-0.27,
+					0.64,
+					0
+				}
+			},
+			vicegun = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.13,
+					0.12,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					3.87,
+					4.63,
+					0
+				}
+			},
+			plane = {
+				{
+					0.94,
+					4.3,
+					0
+				}
+			}
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			612051,
+			612052,
+			612057,
+			612058,
+			612059,
+			612060
+		}
+	},
 	[12400147] = {
 		cannon = 55,
 		antisub = 0,
@@ -1101,46 +1183,6 @@ pg.enemy_data_statistics_145 = {
 			1101521,
 			1100526,
 			1100496
-		}
-	},
-	[12400236] = {
-		cannon = 55,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 1600,
-		armor = 0,
-		reload = 150,
-		base = 90274,
-		dodge = 11,
-		torpedo_growth = 2000,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 156,
-		speed_growth = 0,
-		star = 4,
-		hit = 14,
-		antisub_growth = 0,
-		rarity = 3,
-		luck_growth = 0,
-		torpedo = 80,
-		durability = 1550,
-		armor_growth = 0,
-		durability_growth = 134400,
-		antiaircraft = 145,
-		speed = 20,
-		luck = 0,
-		hit_growth = 210,
-		battle_unit_type = 90,
-		id = 12400236,
-		antiaircraft_growth = 3600,
-		fog_fx = "",
-		equipment_list = {
-			1000681,
-			1000686,
-			1000692,
-			1000695,
-			1000701,
-			1000706
 		}
 	}
 }

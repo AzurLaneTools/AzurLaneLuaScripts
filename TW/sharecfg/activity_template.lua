@@ -21403,6 +21403,94 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5878] = {
+		mark = 20250320,
+		page_info = "",
+		type = 23,
+		login_pop = 0,
+		config_id = 5879,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5878,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5879] = {
+		mark = 20250320,
+		type = 21,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 50,
+		title_res_tag = "2025aprilfool",
+		id = 5879,
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "AprilFoolDiscovery2025Page",
+			ui_name = "AprilFoolDiscovery2025Page"
+		},
+		config_client = {
+			subView = "AprilFoolSuperBurinSubView2",
+			lastChapter = 1360006,
+			comStory = "BULIZHANDUIDAPOGANGQUWEIJI2",
+			guideName = {
+				"BULIZHANDUIDAPOGANGQUWEIJI1"
+			}
+		}
+	},
 	[7104] = {
 		mark = 20240926,
 		page_info = "",
@@ -60630,6 +60718,7 @@ pg.activity_template = {
 			5309,
 			5689,
 			5788,
+			5879,
 			40228,
 			40276,
 			40284,
@@ -60676,6 +60765,7 @@ pg.activity_template = {
 		[23] = {
 			4732,
 			5266,
+			5878,
 			40280,
 			40283,
 			40715
@@ -61606,6 +61696,8 @@ pg.activity_template = {
 		5803,
 		5806,
 		5807,
+		5878,
+		5879,
 		7104,
 		7501,
 		8009,

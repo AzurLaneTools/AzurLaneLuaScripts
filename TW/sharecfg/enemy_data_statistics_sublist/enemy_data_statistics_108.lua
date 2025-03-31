@@ -1,5 +1,45 @@
 pg = pg or {}
 pg.enemy_data_statistics_108 = {
+	[10083007] = {
+		cannon = 18,
+		hit_growth = 210,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 60,
+		fog_fx = "",
+		dodge_growth = 156,
+		star = 3,
+		antisub_growth = 0,
+		rarity = 3,
+		base = 90178,
+		durability = 1340,
+		armor_growth = 0,
+		torpedo_growth = 4800,
+		speed = 20,
+		armor = 0,
+		id = 10083007,
+		cannon_growth = 800,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 75,
+		durability_growth = 42500,
+		antiaircraft = 30,
+		antiaircraft_growth = 1760,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			540001,
+			540002
+		}
+	},
 	[10083008] = {
 		cannon = 17,
 		hit_growth = 210,
@@ -1526,97 +1566,6 @@ pg.enemy_data_statistics_108 = {
 			550031,
 			550032,
 			550033
-		}
-	},
-	[10092009] = {
-		battle_unit_type = 80,
-		hit_growth = 210,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 45,
-		dodge = 13,
-		armor = 0,
-		air_growth = 2880,
-		antisub = 0,
-		cannon = 0,
-		fog_fx = "",
-		dodge_growth = 192,
-		star = 4,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 90256,
-		durability = 1300,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		luck = 0,
-		id = 10092009,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		hit = 16,
-		torpedo = 0,
-		durability_growth = 63500,
-		antiaircraft = 45,
-		antiaircraft_growth = 2880,
-		bound_bone = {
-			cannon = {
-				{
-					0.6,
-					0.6,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.38,
-					0.6,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.472,
-							0.233,
-							0.467
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							1.7,
-							2.07
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			550041,
-			550042,
-			550043,
-			550044,
-			550045,
-			550046
 		}
 	}
 }

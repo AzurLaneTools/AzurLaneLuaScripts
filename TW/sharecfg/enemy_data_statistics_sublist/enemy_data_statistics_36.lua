@@ -1,5 +1,46 @@
 pg = pg or {}
 pg.enemy_data_statistics_36 = {
+	[702] = {
+		cannon = 0,
+		name = "【商船護送】改進型魚雷艇",
+		hit_growth = 120,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 0,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 1,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90070,
+		durability = 15510,
+		armor_growth = 0,
+		torpedo_growth = 11000,
+		speed = 15,
+		luck = 0,
+		id = 702,
+		wave_fx = "danchuanlanghuaxiao2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 600,
+		durability_growth = 610000,
+		luck_growth = 0,
+		battle_unit_type = 35,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			300010
+		}
+	},
 	[703] = {
 		cannon = 0,
 		name = "【商船護送】精銳型魚雷艇",
@@ -1191,49 +1232,5 @@ pg.enemy_data_statistics_36 = {
 			"appearQ"
 		},
 		equipment_list = {}
-	},
-	[780] = {
-		cannon = 60,
-		battle_unit_type = 95,
-		hit_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 0,
-		armor = 0,
-		air_growth = 0,
-		antisub = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 6,
-		antisub_growth = 0,
-		rarity = 5,
-		base = 90282,
-		durability = 18000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 27,
-		luck = 88,
-		id = 780,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		dodge = 30,
-		reload_growth = 0,
-		hit = 30,
-		torpedo = 80,
-		durability_growth = 0,
-		antiaircraft = 150,
-		antiaircraft_growth = 0,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {},
-		buff_list = {
-			{
-				ID = 7400,
-				LV = 2
-			}
-		}
 	}
 }

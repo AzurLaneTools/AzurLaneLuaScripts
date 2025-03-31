@@ -1,19 +1,16 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "5879",
+		type = 3,
 		id = 1,
 		pic = "temp1",
-		param = {
-			"scene skinshop",
-			{}
-		},
 		time = {
 			{
 				{
 					2025,
-					3,
-					20
+					4,
+					1
 				},
 				{
 					0,
@@ -25,7 +22,7 @@ pg.activity_banner = {
 				{
 					2025,
 					4,
-					9
+					7
 				},
 				{
 					23,
@@ -711,8 +708,13 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
+			4,
+			5,
+			1003
+		},
+		[2] = {
 			2,
 			3,
 			6,
@@ -742,11 +744,6 @@ pg.activity_banner = {
 			1022,
 			1023,
 			1024
-		},
-		[3] = {
-			4,
-			5,
-			1003
 		},
 		[9] = {
 			98

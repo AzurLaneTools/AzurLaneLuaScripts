@@ -594,6 +594,134 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[100021] = {
+		name = "BurinBurin★正義使者 ",
+		change_skin = "",
+		ship_group = 10002,
+		illustrator2 = -1,
+		desc = "指揮官就安心地躲在我身後吧burin！今天無敵的布里戰隊就要為指揮官討回公道了burin！",
+		group_index = 1,
+		id = 100021,
+		painting = "buli_super_2",
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		shop_type_id = 9999,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "529",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "buli_super_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.661,
+					1.246,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.644,
+					1.272,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.314,
+							2.247,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				188,
+				-638,
+				0
+			},
+			{
+				0.8
+			}
+		},
+		special_effects = {
+			"lihui_buli_super",
+			{
+				130,
+				469,
+				0
+			},
+			{
+				1.5
+			}
+		}
+	},
 	[101020] = {
 		name = "杜威",
 		change_skin = "",
@@ -12849,136 +12977,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							0.42,
 							0.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102030] = {
-		name = "布魯克林",
-		change_skin = "",
-		ship_group = 10203,
-		illustrator2 = -1,
-		desc = "布魯克林級輕巡洋艦—布魯克林，舷號CL-40",
-		group_index = 0,
-		id = 102030,
-		painting = "bulukelin",
-		l2d_ignore_drag = 0,
-		hand_id = 3,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "bulukelin",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 64,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.789,
-					0.501,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.789,
-					0.501,
-					0
-				},
-				{
-					-0.238,
-					0.927,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.457,
-					1.102,
-					0
-				},
-				{
-					-0.834,
-					1.234,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.39,
-							0.41,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							0.53,
 							0
 						}
 					}

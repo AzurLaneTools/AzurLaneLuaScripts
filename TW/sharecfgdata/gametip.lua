@@ -35284,3 +35284,68 @@ _G.pg.base.gametip["2025Valentine_minigame_b"] = {
 _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 	tip = "欸……這個味道真的可以嗎？作為皇家女僕做成這樣，實在是太失態了……指揮官，讓我重新做一份吧！"
 }
+
+
+_G.pg.base.gametip.SuperBulin2_tip1 = {
+	tip = "從倉庫中尋找密碼burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip2 = {
+	tip = "從船塢中尋找密碼burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip3 = {
+	tip = "從作戰中尋找密碼，目標1-4burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip4 = {
+	tip = "從後宅尋找密碼burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip5 = {
+	tip = "從作戰中尋找密碼，目標2-4burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip6 = {
+	tip = "從學院中尋找密碼burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip7 = {
+	tip = "從小賣部中找密碼burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip8 = {
+	tip = "從圖鑑中尋找密碼burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip9 = {
+	tip = "從建造台中回憶密碼burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_help = {
+	tip = {
+		{
+			info = [[
+活動說明：
+1.活動期間，在特定介面或關卡中可收集對應的線索
+2.當收集線索遇到困難時，可以點擊線索格解鎖提示
+注意：10分鐘內只能解鎖一個提示哦
+3.線索收集完成可以開啟特別關卡，挑戰特別關卡並取
+得勝利可以獲得特殊獎勵]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SuperBulin2_lock_tip = {
+	tip = "線索收集完成即可解鎖特別關卡~"
+}

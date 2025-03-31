@@ -1744,5 +1744,10 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-5",
 		special_bgm = "",
 		bgm = "story-richang-5"
+	},
+	AprilFoolDiscovery2025Page = {
+		default_bgm = "story-battle-16bit",
+		special_bgm = "",
+		bgm = "story-battle-16bit"
 	}
 }

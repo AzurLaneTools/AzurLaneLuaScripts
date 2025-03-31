@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.enemy_data_statistics_174 = {
+	[13300459] = {
+		cannon = 120,
+		antisub = 0,
+		air = 0,
+		cannon_growth = 3600,
+		armor = 0,
+		reload = 150,
+		base = 90426,
+		dodge = 17,
+		torpedo_growth = 0,
+		air_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 170,
+		speed_growth = 0,
+		star = 4,
+		hit = 30,
+		antisub_growth = 0,
+		rarity = 3,
+		luck_growth = 0,
+		torpedo = 0,
+		durability = 9010,
+		armor_growth = 0,
+		durability_growth = 68000,
+		antiaircraft = 212,
+		speed = 14,
+		luck = 0,
+		hit_growth = 350,
+		battle_unit_type = 65,
+		id = 13300459,
+		antiaircraft_growth = 4680,
+		fog_fx = "",
+		equipment_list = {
+			1002159,
+			1002164,
+			1002169,
+			1002174
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 4
+			}
+		}
+	},
 	[13300460] = {
 		cannon = 86,
 		antisub = 0,
@@ -1171,49 +1215,5 @@ pg.enemy_data_statistics_174 = {
 			"appearQ"
 		},
 		equipment_list = {}
-	},
-	[13400006] = {
-		cannon = 2333333,
-		name = "巨龍機甲·鐵爪",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 13400006,
-		air = 0,
-		armor = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		fog_fx = "",
-		dodge_growth = 0,
-		icon = "sipeibojue_younv",
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 50021,
-		durability = 23333333,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 25,
-		luck = 99,
-		antisub = 0,
-		scale = 400,
-		cannon_growth = 0,
-		pilot_ai_template_id = 20006,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 9999,
-		torpedo = 2333333,
-		durability_growth = 0,
-		antiaircraft = 500,
-		battle_unit_type = 95,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			630075,
-			630076,
-			630077,
-			630078
-		}
 	}
 }
