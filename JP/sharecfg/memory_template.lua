@@ -3469,6 +3469,9 @@ pg.memory_template = setmetatable({
 		4269,
 		4270,
 		4271,
+		4281,
+		4282,
+		4283,
 		10000,
 		10001,
 		10002,
@@ -41838,6 +41841,39 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN11",
 		id = 4271,
 		icon = "memory_shengulaixin2",
+		is_open = 0
+	},
+	[4281] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "三姉妹の決意",
+		condition = "「ブリ戦隊と母港暗黒コーポ」イベント開始",
+		story = "BULIZHANDUIDAPOGANGQUWEIJI1",
+		id = 4281,
+		icon = "memory_bulizhanduidapogangquweiji",
+		is_open = 0
+	},
+	[4282] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "洞窟探検",
+		condition = "すべての暗号を集める",
+		story = "BULIZHANDUIDAPOGANGQUWEIJI2",
+		id = 4282,
+		icon = "memory_bulizhanduidapogangquweiji",
+		is_open = 0
+	},
+	[4283] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		title = "ブリ戦隊、大活躍！",
+		condition = "特殊戦闘を開始する",
+		story = "1360006",
+		id = 4283,
+		icon = "memory_bulizhanduidapogangquweiji",
 		is_open = 0
 	},
 	[10000] = {

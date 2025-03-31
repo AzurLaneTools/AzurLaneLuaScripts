@@ -27,10 +27,20 @@ slot0.register = function(slot0)
 		}))
 	end)
 	slot0:bind(uv0.OPEN_CLUE_BOOK, function (slot0, slot1)
+		uv0.contextData.bookOpen = true
+		uv0.contextData.indexInfo = uv0.contextData.indexInfo or {}
+
 		uv0:addSubLayers(Context.New({
 			viewComponent = ClueBookLayer,
 			mediator = ClueBookMediator,
-			onRemoved = slot1
+			data = {
+				indexInfo = uv0.contextData.indexInfo
+			},
+			onRemoved = function ()
+				uv0.contextData.bookOpen = false
+
+				existCall(uv1)
+			end
 		}))
 	end)
 	slot0:bind(uv0.OPEN_CLUE_TASk, function (slot0, slot1)

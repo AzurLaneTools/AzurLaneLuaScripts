@@ -29388,7 +29388,7 @@ _G.pg.base.gametip.multiple_sorties_stop_end = {
 
 
 _G.pg.base.gametip.multiple_sorties_end_status = {
-	tip = "連続挑戦設定出撃回数<color=#92fc63>$1</color>回。中止・終了時時出撃回数<color=#92fc63>$2</color>回。"
+	tip = "連続挑戦設定出撃回数<color=#92fc63>$1</color>回。中止・終了時出撃回数<color=#92fc63>$2</color>回。"
 }
 
 
@@ -38224,4 +38224,69 @@ _G.pg.base.gametip.clue_buff_ticket_tips = {
 
 _G.pg.base.gametip.clue_buff_empty_ticket = {
 	tip = "「天狐グループバッジ」は限定任務で入手できます"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip1 = {
+	tip = "倉庫で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip2 = {
+	tip = "ドックで暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip3 = {
+	tip = "海域1-4で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip4 = {
+	tip = "寮舎で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip5 = {
+	tip = "海域2-4で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip6 = {
+	tip = "学園で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip7 = {
+	tip = "購買部で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip8 = {
+	tip = "図鑑で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip9 = {
+	tip = "建造画面で暗号を探そうプリン！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_help = {
+	tip = {
+		{
+			info = [[
+遊び方：
+1.イベント期間中、母港と海域の特定の場所に「ヒント」が現れるプリン！
+2.見つけられない場合は、「ヒント」のアイコンをタップするといいプリン！
+ ヘルプは10分に1個しか開放できないプリン！
+3.「ヒント」をすべて集めると、特殊ステージに挑戦できるプリン！
+ 特殊ステージをクリアすると、報酬を入手できるプリン！]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SuperBulin2_lock_tip = {
+	tip = "ヒントをすべて集めると限定ステージを可能！"
 }

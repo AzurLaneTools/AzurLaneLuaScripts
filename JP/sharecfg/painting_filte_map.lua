@@ -2501,6 +2501,16 @@ pg.painting_filte_map = {
 			"painting/buli_super"
 		}
 	},
+	buli_super_2 = {
+		key = "buli_super_2",
+		res_list = {
+			"painting/buli_super_2_tex",
+			"painting/buli_super_2_rw_tex",
+			"painting/buli_super_2_n_rw_tex",
+			"painting/buli_super_2_n",
+			"painting/buli_super_2"
+		}
+	},
 	bulisituoer = {
 		key = "bulisituoer",
 		res_list = {
@@ -4773,10 +4783,8 @@ pg.painting_filte_map = {
 			"painting/fuluoxiluofu_3_rw_tex",
 			"painting/fuluoxiluofu_3_rw_hx_tex",
 			"painting/fuluoxiluofu_3_n_tex",
-			"painting/fuluoxiluofu_3_n_hx_tex",
 			"painting/fuluoxiluofu_3_n_hx",
 			"painting/fuluoxiluofu_3_n",
-			"painting/fuluoxiluofu_3_hx_tex",
 			"painting/fuluoxiluofu_3_hx",
 			"painting/fuluoxiluofu_3"
 		}
@@ -9131,7 +9139,6 @@ pg.painting_filte_map = {
 			"painting/linggu_3_tex",
 			"painting/linggu_3_rw_tex",
 			"painting/linggu_3_n_tex",
-			"painting/linggu_3_n_rw_tex",
 			"painting/linggu_3_n",
 			"painting/linggu_3"
 		}
@@ -10737,7 +10744,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/mojiaduoer_3_tex",
 			"painting/mojiaduoer_3_rw_tex",
-			"painting/mojiaduoer_3_rw_ex_tex",
 			"painting/mojiaduoer_3_n_tex",
 			"painting/mojiaduoer_3_n",
 			"painting/mojiaduoer_3"

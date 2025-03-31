@@ -171645,6 +171645,231 @@ _G.pg.base.item_virtual_data_statistics[65578] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65581] = {
+	drop_gold_max = 0,
+	name = "暗号「B」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65581,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65582] = {
+	drop_gold_max = 0,
+	name = "暗号「U」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65582,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65583] = {
+	drop_gold_max = 0,
+	name = "暗号「R」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65583,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65584] = {
+	drop_gold_max = 0,
+	name = "暗号「I」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65584,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65585] = {
+	drop_gold_max = 0,
+	name = "暗号「N」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65585,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65586] = {
+	drop_gold_max = 0,
+	name = "暗号「T」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65586,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65587] = {
+	drop_gold_max = 0,
+	name = "暗号「E」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65587,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65588] = {
+	drop_gold_max = 0,
+	name = "暗号「A」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65588,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65589] = {
+	drop_gold_max = 0,
+	name = "暗号「M」",
+	display = "「ブリ戦隊と母港暗黒コーポ」イベントアイテム",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 5879,
+	icon = "Props/65581",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 1,
+	id = 65589,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "伤害值",

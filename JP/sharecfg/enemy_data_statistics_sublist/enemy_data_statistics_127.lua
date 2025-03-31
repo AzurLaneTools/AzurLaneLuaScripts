@@ -1,5 +1,49 @@
 pg = pg or {}
 pg.enemy_data_statistics_127 = {
+	[12100510] = {
+		cannon = 86,
+		hit_growth = 350,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 145,
+		air_growth = 4500,
+		antisub = 0,
+		battle_unit_type = 70,
+		fog_fx = "",
+		dodge_growth = 120,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 90359,
+		durability = 7820,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 16,
+		armor = 0,
+		id = 12100510,
+		cannon_growth = 0,
+		pilot_ai_template_id = 70054,
+		reload = 150,
+		dodge = 15,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 0,
+		durability_growth = 59600,
+		antiaircraft = 230,
+		antiaircraft_growth = 5280,
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			1100024,
+			1100173,
+			1100799,
+			1100804,
+			1100808
+		}
+	},
 	[12100511] = {
 		cannon = 115,
 		antisub = 0,
@@ -1182,81 +1226,6 @@ pg.enemy_data_statistics_127 = {
 			610022,
 			610023,
 			610027
-		}
-	},
-	[12200134] = {
-		battle_unit_type = 95,
-		hit_growth = 210,
-		speed_growth = 0,
-		luck_growth = 0,
-		air = 120,
-		armor = 0,
-		air_growth = 0,
-		antisub = 0,
-		cannon = 65,
-		fog_fx = "",
-		dodge_growth = 184,
-		star = 5,
-		antisub_growth = 0,
-		rarity = 4,
-		base = 90319,
-		durability = 12000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		luck = 0,
-		id = 12200134,
-		cannon_growth = 0,
-		pilot_ai_template_id = 90032,
-		reload = 150,
-		dodge = 13,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 0,
-		durability_growth = 0,
-		antiaircraft = 135,
-		antiaircraft_growth = 0,
-		bound_bone = {
-			cannon = {
-				{
-					-0.2,
-					1.19,
-					0
-				}
-			},
-			vicegun = {
-				{
-					-0.2,
-					1.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.159,
-					0.13,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.2,
-					1.19,
-					0
-				}
-			}
-		},
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			610030,
-			610032,
-			610034,
-			610035,
-			610036,
-			610037
 		}
 	}
 }

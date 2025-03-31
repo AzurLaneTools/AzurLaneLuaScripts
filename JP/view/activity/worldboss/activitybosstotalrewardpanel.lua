@@ -12,6 +12,7 @@ slot0.init = function(slot0)
 	slot0.itemList = slot0.boxView:Find("Content/ItemGrid2")
 
 	setText(slot0.window:Find("Fixed/top/bg/obtain/title"), i18n("autofight_rewards"))
+	setText(slot0.window:Find("Fixed/ButtonGO/pic"), i18n("text_confirm"))
 end
 
 slot0.didEnter = function(slot0)

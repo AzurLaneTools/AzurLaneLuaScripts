@@ -1,5 +1,44 @@
 pg = pg or {}
 pg.enemy_data_statistics_45 = {
+	[4016] = {
+		cannon = 24,
+		name = "アタゴ",
+		rarity = 4,
+		speed_growth = 0,
+		hit_growth = 210,
+		air = 0,
+		armor = 0,
+		antiaircraft_growth = 2880,
+		antiaircraft = 35,
+		id = 4016,
+		fog_fx = "",
+		dodge_growth = 102,
+		star = 5,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90208,
+		durability = 900,
+		armor_growth = 0,
+		torpedo_growth = 2763,
+		speed = 16,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 2016,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 7,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 33,
+		durability_growth = 47600,
+		luck_growth = 0,
+		battle_unit_type = 60,
+		equipment_list = {
+			100201,
+			100531,
+			100421
+		}
+	},
 	[4017] = {
 		cannon = 20,
 		name = "モガミ",
@@ -1351,48 +1390,6 @@ pg.enemy_data_statistics_45 = {
 			100217,
 			100407,
 			313091
-		}
-	},
-	[5008] = {
-		cannon = 20,
-		name = "チクマ",
-		hit_growth = 210,
-		speed_growth = 0,
-		antiaircraft_growth = 2340,
-		air = 0,
-		antisub = 0,
-		armor = 0,
-		rarity = 3,
-		antiaircraft = 28,
-		fog_fx = "",
-		dodge_growth = 84,
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90205,
-		durability = 1080,
-		armor_growth = 0,
-		torpedo_growth = 2250,
-		speed = 18,
-		luck = 0,
-		id = 5008,
-		cannon_growth = 1638,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 6,
-		reload_growth = 0,
-		hit = 14,
-		torpedo = 27,
-		durability_growth = 43000,
-		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"appearQ"
-		},
-		equipment_list = {
-			100202,
-			100522,
-			100422
 		}
 	}
 }
