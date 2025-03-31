@@ -229,6 +229,7 @@ pg.memory_group = setmetatable({
 		320,
 		321,
 		322,
+		323,
 		501,
 		502,
 		503,
@@ -5408,6 +5409,19 @@ pg.base.memory_group = {
 			4269,
 			4270,
 			4271
+		}
+	},
+	[323] = {
+		title = "布里战队大破港区危机",
+		subtype = 2,
+		link_event = 5879,
+		type = 2,
+		id = 323,
+		icon = "title_event",
+		memories = {
+			4281,
+			4282,
+			4283
 		}
 	},
 	[501] = {

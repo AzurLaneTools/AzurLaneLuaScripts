@@ -1,5 +1,50 @@
 pg = pg or {}
 pg.enemy_data_statistics_93 = {
+	[10042046] = {
+		cannon = 250,
+		hit_growth = 210,
+		luck = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		air_growth = 0,
+		antisub = 0,
+		battle_unit_type = 65,
+		fog_fx = "",
+		dodge_growth = 48,
+		star = 5,
+		antisub_growth = 0,
+		rarity = 4,
+		base = 90219,
+		durability = 3400,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 18,
+		armor = 0,
+		id = 10042046,
+		cannon_growth = 2592,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 3,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 91800,
+		antiaircraft = 135,
+		antiaircraft_growth = 3744,
+		equipment_list = {
+			511088,
+			511089,
+			511090,
+			510002
+		},
+		buff_list = {
+			{
+				ID = 50510,
+				LV = 2
+			}
+		}
+	},
 	[10042047] = {
 		cannon = 250,
 		hit_growth = 210,
@@ -1295,87 +1340,6 @@ pg.enemy_data_statistics_93 = {
 		equipment_list = {
 			490009,
 			510150
-		}
-	},
-	[10043009] = {
-		cannon = 17,
-		hit_growth = 144,
-		luck_growth = 0,
-		speed_growth = 0,
-		air_growth = 0,
-		air = 0,
-		armor = 0,
-		dodge = 0,
-		antisub = 0,
-		battle_unit_type = 35,
-		fog_fx = "",
-		dodge_growth = 0,
-		star = 3,
-		antisub_growth = 0,
-		rarity = 2,
-		base = 90113,
-		durability = 1600,
-		armor_growth = 0,
-		torpedo_growth = 1125,
-		speed = 15,
-		luck = 0,
-		id = 10043009,
-		cannon_growth = 1800,
-		reload = 150,
-		reload_growth = 0,
-		hit = 10,
-		torpedo = 14,
-		durability_growth = 44000,
-		antiaircraft = 180,
-		antiaircraft_growth = 1404,
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-1.35,
-							1.17,
-							0.51
-						}
-					}
-				}
-			},
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							1.39,
-							1.41,
-							0.54
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							0.02,
-							1.82,
-							0.76
-						}
-					}
-				}
-			}
-		},
-		appear_fx = {
-			"appearsmall"
-		},
-		equipment_list = {
-			100205,
-			100506,
-			100406
 		}
 	}
 }

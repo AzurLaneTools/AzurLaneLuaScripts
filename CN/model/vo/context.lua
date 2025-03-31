@@ -13,10 +13,10 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.cleanStack = defaultValue(slot1.cleanStack, false)
 	slot0.cleanChild = defaultValue(slot1.cleanChild, false)
 	slot0.irregularSequence = defaultValue(slot1.irregularSequence, false)
+	slot0.skipBack = defaultValue(slot1.skipBack, false)
 	slot0.data = slot1.data or {}
 	slot0.parent = slot1.parent
 	slot0.children = {}
-	slot0.transType = defaultValue(slot1.transType, uv0.TRANS_TYPE.CROSS)
 end
 
 slot0.extendData = function(slot0, slot1)

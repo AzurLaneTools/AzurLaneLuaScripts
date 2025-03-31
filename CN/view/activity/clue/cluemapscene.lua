@@ -85,6 +85,12 @@ slot0.didEnter = function(slot0)
 	end, SFX_PANEL)
 	pg.NewStoryMgr.GetInstance():Play(slot0.enterStory)
 	slot0:SubmitClueTask()
+
+	if getProxy(ContextProxy):getContextByMediator(ClueMapMediator).cleanChild and slot0.contextData.bookOpen then
+		triggerButton(slot0.bookBtn)
+	end
+
+	slot1.cleanChild = false
 end
 
 slot0.InitData = function(slot0)

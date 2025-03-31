@@ -37099,7 +37099,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至3月19日24时；]]
+ ※ 奖励领取界面将延长至4月16日24时；]]
 		}
 	}
 }
@@ -37704,4 +37704,69 @@ _G.pg.base.gametip.clue_buff_ticket_tips = {
 
 _G.pg.base.gametip.clue_buff_empty_ticket = {
 	tip = "道具数量不足，前往调查任务获取"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip1 = {
+	tip = "从仓库中寻找密码burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip2 = {
+	tip = "从船坞中寻找密码burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip3 = {
+	tip = "从作战中寻找密码，目标1-4burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip4 = {
+	tip = "从后宅中寻找密码burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip5 = {
+	tip = "从作战中寻找密码，目标2-4burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip6 = {
+	tip = "从学院中寻找密码burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip7 = {
+	tip = "从小卖部中寻找密码burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip8 = {
+	tip = "从图鉴中寻找密码burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip9 = {
+	tip = "从建造台中回忆密码burin！"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_help = {
+	tip = {
+		{
+			info = [[
+活动说明：
+1.活动期间，在特定界面或关卡中可收集相应的线索
+2.当收集线索遇到困难时，可以点击线索格解锁提示
+注意：10分钟内只能解锁一个提示哦
+3.线索收集完成可以开启特别关卡，挑战特别关卡并取
+得胜利可以获得特殊奖励]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SuperBulin2_lock_tip = {
+	tip = "线索收集完成即可解锁特别关卡~"
 }

@@ -3499,6 +3499,9 @@ pg.memory_template = setmetatable({
 		4269,
 		4270,
 		4271,
+		4281,
+		4282,
+		4283,
 		10011,
 		10012,
 		10013,
@@ -42174,6 +42177,39 @@ pg.base.memory_template = {
 		story = "SHENGULAIXIN11",
 		id = 4271,
 		icon = "memory_shengulaixin2",
+		is_open = 0
+	},
+	[4281] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "三姐妹的决意",
+		condition = "开始「布里战队大破港区危机」活动",
+		story = "BULIZHANDUIDAPOGANGQUWEIJI1",
+		id = 4281,
+		icon = "memory_bulizhanduidapogangquweiji",
+		is_open = 0
+	},
+	[4282] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "山洞奇遇",
+		condition = "收集完全部密码时",
+		story = "BULIZHANDUIDAPOGANGQUWEIJI2",
+		id = 4282,
+		icon = "memory_bulizhanduidapogangquweiji",
+		is_open = 0
+	},
+	[4283] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 2,
+		title = "布里战队在行动",
+		condition = "进入特殊战斗",
+		story = "1360006",
+		id = 4283,
+		icon = "memory_bulizhanduidapogangquweiji",
 		is_open = 0
 	},
 	[10011] = {

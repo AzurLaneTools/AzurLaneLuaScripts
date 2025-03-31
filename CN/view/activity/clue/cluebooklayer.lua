@@ -73,10 +73,10 @@ slot0.InitData = function(slot0)
 	slot0.storyTaskId = slot1.storyTaskId
 	slot0.afterStory = slot1.afterStory
 	slot0.bgm = slot1.bgm2
-	slot0.pageIndex = 1
-	slot0.subPageSiteIndex = 1
-	slot0.subPageCharaIndex = 1
-	slot0.subPageEndingIndex = 1
+	slot0.contextData.indexInfo.pageIndex = slot0.contextData.indexInfo.pageIndex or 1
+	slot0.contextData.indexInfo.subPageSiteIndex = slot0.contextData.indexInfo.subPageSiteIndex or 1
+	slot0.contextData.indexInfo.subPageCharaIndex = slot0.contextData.indexInfo.subPageCharaIndex or 1
+	slot0.contextData.indexInfo.subPageEndingIndex = slot0.contextData.indexInfo.subPageEndingIndex or 1
 	slot0.endingIndex = 1
 	slot0.storyIndex = 1
 	slot0.playerId = getProxy(PlayerProxy):getRawData().id
@@ -85,15 +85,15 @@ end
 
 slot0.InitView = function(slot0)
 	for slot4, slot5 in ipairs(slot0.pageTgs) do
-		setActive(slot0:findTF("selected", slot5), slot0.pageIndex == slot4)
+		setActive(slot0:findTF("selected", slot5), slot0.contextData.indexInfo.pageIndex == slot4)
 		onToggle(slot0, slot5, function (slot0)
 			if slot0 then
-				uv0.pageIndex = uv1
+				uv0.contextData.indexInfo.pageIndex = uv1
 
 				for slot4 = 0, uv0.pages.childCount - 1 do
 					setActive(uv0.pages:GetChild(slot4), slot4 == uv1 - 1)
 					setActive(uv0:findTF("tip", uv0.pageTgs[slot4 + 1]), uv2.ShouldShowTip(slot4 + 1))
-					setActive(uv0:findTF("selected", uv0.pageTgs[slot4 + 1]), uv0.pageIndex == slot4 + 1)
+					setActive(uv0:findTF("selected", uv0.pageTgs[slot4 + 1]), uv0.contextData.indexInfo.pageIndex == slot4 + 1)
 				end
 
 				if uv1 == 1 then
@@ -111,7 +111,7 @@ slot0.InitView = function(slot0)
 end
 
 slot0.UpdateView = function(slot0)
-	triggerToggle(slot0.pageTgs[slot0.pageIndex], true)
+	triggerToggle(slot0.pageTgs[slot0.contextData.indexInfo.pageIndex], true)
 end
 
 slot0.SetClueGroup = function(slot0, slot1, slot2)
@@ -158,9 +158,9 @@ slot0.SetClueGroup = function(slot0, slot1, slot2)
 		PlayerPrefs.SetInt("investigatingGroupId_" .. uv0.activityId .. "_" .. uv0.playerId, uv1)
 		setActive(uv0:findTF("goBtn/selected", uv2), true)
 
-		if uv0.pageIndex == 1 then
+		if uv0.contextData.indexInfo.pageIndex == 1 then
 			uv0:ShowSitePage()
-		elseif uv0.pageIndex == 2 then
+		elseif uv0.contextData.indexInfo.pageIndex == 2 then
 			uv0:ShowCharaPage()
 		end
 
@@ -233,17 +233,17 @@ slot0.ShowSitePage = function(slot0)
 
 			setText(slot2:Find("Text"), "PAGE  " .. string.format("%02d", slot1 + 1))
 			setText(slot2:Find("selected/Text"), "PAGE  " .. string.format("%02d", slot1 + 1))
-			setActive(slot2:Find("Text"), uv0.subPageSiteIndex ~= slot1 + 1)
-			setActive(slot2:Find("selected"), uv0.subPageSiteIndex == slot1 + 1)
+			setActive(slot2:Find("Text"), uv0.contextData.indexInfo.subPageSiteIndex ~= slot1 + 1)
+			setActive(slot2:Find("selected"), uv0.contextData.indexInfo.subPageSiteIndex == slot1 + 1)
 			setActive(slot2:Find("completed"), slot5 == 2)
 			setActive(slot2:Find("tip"), slot5 == 1)
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
-					uv0.subPageSiteIndex = uv1 + 1
+					uv0.contextData.indexInfo.subPageSiteIndex = uv1 + 1
 
 					for slot4 = 1, #uv0.clueSite do
-						setActive(uv0:findTF("left/Viewport/Content", uv0.sitePage):GetChild(slot4 - 1):Find("Text"), uv0.subPageSiteIndex ~= slot4)
-						setActive(uv0:findTF("left/Viewport/Content", uv0.sitePage):GetChild(slot4 - 1):Find("selected"), uv0.subPageSiteIndex == slot4)
+						setActive(uv0:findTF("left/Viewport/Content", uv0.sitePage):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageSiteIndex ~= slot4)
+						setActive(uv0:findTF("left/Viewport/Content", uv0.sitePage):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageSiteIndex == slot4)
 					end
 
 					for slot4 = 1, 3 do
@@ -254,7 +254,7 @@ slot0.ShowSitePage = function(slot0)
 				end
 			end, SFX_PANEL)
 
-			if uv0.subPageSiteIndex == slot1 + 1 then
+			if uv0.contextData.indexInfo.subPageSiteIndex == slot1 + 1 then
 				triggerToggle(slot2, true)
 			end
 		end
@@ -278,18 +278,18 @@ slot0.ShowCharaPage = function(slot0)
 				setText(slot2:Find("selected/Text"), uv1[slot3].title)
 			end
 
-			setActive(slot2:Find("Text"), uv0.subPageCharaIndex ~= slot1 + 1)
-			setActive(slot2:Find("selected"), uv0.subPageCharaIndex == slot1 + 1)
+			setActive(slot2:Find("Text"), uv0.contextData.indexInfo.subPageCharaIndex ~= slot1 + 1)
+			setActive(slot2:Find("selected"), uv0.contextData.indexInfo.subPageCharaIndex == slot1 + 1)
 			setActive(slot2:Find("Text/completed"), slot5 == 2)
 			setActive(slot2:Find("selected/Text/completed"), slot5 == 2)
 			setActive(slot2:Find("tip"), slot5 == 1)
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
-					uv0.subPageCharaIndex = uv1 + 1
+					uv0.contextData.indexInfo.subPageCharaIndex = uv1 + 1
 
 					for slot4 = 1, #uv0.clueChara do
-						setActive(uv0:findTF("left/Viewport/Content", uv0.charaPage):GetChild(slot4 - 1):Find("Text"), uv0.subPageCharaIndex ~= slot4)
-						setActive(uv0:findTF("left/Viewport/Content", uv0.charaPage):GetChild(slot4 - 1):Find("selected"), uv0.subPageCharaIndex == slot4)
+						setActive(uv0:findTF("left/Viewport/Content", uv0.charaPage):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageCharaIndex ~= slot4)
+						setActive(uv0:findTF("left/Viewport/Content", uv0.charaPage):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageCharaIndex == slot4)
 					end
 
 					uv0:SetClueGroup(uv2, uv0:findTF("right", uv0.charaPage))
@@ -297,7 +297,7 @@ slot0.ShowCharaPage = function(slot0)
 				end
 			end, SFX_PANEL)
 
-			if uv0.subPageCharaIndex == slot1 + 1 then
+			if uv0.contextData.indexInfo.subPageCharaIndex == slot1 + 1 then
 				triggerToggle(slot2, true)
 			end
 		end
@@ -336,8 +336,8 @@ slot0.ShowEndingPage = function(slot0)
 
 			setText(slot2:Find("Text"), uv1[slot3[#slot3]].title2)
 			setText(slot2:Find("selected/Text"), uv1[slot3[#slot3]].title2)
-			setActive(slot2:Find("Text"), uv0.subPageEndingIndex ~= slot1 + 1)
-			setActive(slot2:Find("selected"), uv0.subPageEndingIndex == slot1 + 1)
+			setActive(slot2:Find("Text"), uv0.contextData.indexInfo.subPageEndingIndex ~= slot1 + 1)
+			setActive(slot2:Find("selected"), uv0.contextData.indexInfo.subPageEndingIndex == slot1 + 1)
 			setActive(slot2:Find("Text/completed"), slot5 == 2)
 			setActive(slot2:Find("selected/Text/completed"), slot5 == 2)
 
@@ -362,11 +362,11 @@ slot0.ShowEndingPage = function(slot0)
 			setActive(slot2:Find("tip"), slot6)
 			onToggle(uv0, slot2, function (slot0)
 				if slot0 then
-					uv0.subPageEndingIndex = uv1 + 1
+					uv0.contextData.indexInfo.subPageEndingIndex = uv1 + 1
 
 					for slot4 = 1, #uv0.clueEnding do
-						setActive(uv0:findTF("left/Viewport/Content", uv0.endingPage):GetChild(slot4 - 1):Find("Text"), uv0.subPageEndingIndex ~= slot4)
-						setActive(uv0:findTF("left/Viewport/Content", uv0.endingPage):GetChild(slot4 - 1):Find("selected"), uv0.subPageEndingIndex == slot4)
+						setActive(uv0:findTF("left/Viewport/Content", uv0.endingPage):GetChild(slot4 - 1):Find("Text"), uv0.contextData.indexInfo.subPageEndingIndex ~= slot4)
+						setActive(uv0:findTF("left/Viewport/Content", uv0.endingPage):GetChild(slot4 - 1):Find("selected"), uv0.contextData.indexInfo.subPageEndingIndex == slot4)
 					end
 
 					table.sort(uv2, function (slot0, slot1)
@@ -493,7 +493,7 @@ slot0.ShowEndingPage = function(slot0)
 				end
 			end, SFX_PANEL)
 
-			if uv0.subPageEndingIndex == slot1 + 1 then
+			if uv0.contextData.indexInfo.subPageEndingIndex == slot1 + 1 then
 				triggerToggle(slot2, true)
 			end
 		end

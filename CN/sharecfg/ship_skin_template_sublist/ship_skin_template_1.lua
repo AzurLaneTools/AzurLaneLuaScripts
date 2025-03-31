@@ -589,6 +589,133 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[100021] = {
+		name = "BurinBurin★正义使者",
+		change_skin = "",
+		bg_sp = "",
+		desc = "指挥官就安心地躲在我身后吧burin！今天无敌的布里战队就要为指挥官讨回公道了burin！",
+		illustrator2 = -1,
+		ship_group = 10002,
+		group_index = 1,
+		painting = "buli_super_2",
+		prefab = "buli_super_2",
+		hand_id = 5,
+		shop_type_id = 9999,
+		bgm = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "529",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 4,
+		id = 100021,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 72,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.661,
+					1.246,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.644,
+					1.272,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.314,
+							2.247,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				188,
+				-638,
+				0
+			},
+			{
+				0.8
+			}
+		},
+		special_effects = {
+			"lihui_buli_super",
+			{
+				130,
+				469,
+				0
+			},
+			{
+				1.5
+			}
+		}
+	},
 	[101020] = {
 		name = "杜威",
 		change_skin = "",
@@ -13575,114 +13702,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.07,
 							0.99,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102051] = {
-		name = "正月与青鸟",
-		change_skin = "",
-		bg_sp = "",
-		desc = "重樱的新年……嗯，我要参加。指挥官，不用太顾虑我没关系的，我已经不是刚加入舰队时脆弱的我了",
-		illustrator2 = -1,
-		ship_group = 10205,
-		group_index = 1,
-		painting = "hailunna_2",
-		prefab = "hailunna_2",
-		hand_id = 14,
-		shop_type_id = 2,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "101",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 4,
-		id = 102051,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70136,
-		voice_actor = 34,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.06,
-					0.975,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.029,
-					1.029,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.045,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.627,
-							2.291,
 							0
 						}
 					}

@@ -2059,5 +2059,10 @@ pg.voice_bgm = {
 		default_bgm = "theme-hospital-deep",
 		special_bgm = "",
 		bgm = "theme-hospital-deep"
+	},
+	AprilFoolDiscovery2025Page = {
+		default_bgm = "story-battle-16bit",
+		special_bgm = "",
+		bgm = "story-battle-16bit"
 	}
 }

@@ -8,14 +8,17 @@ slot0.execute = function(slot0, slot1)
 		slot5 = slot4:popContext()
 		slot6 = nil
 
-		for slot10 = 1, slot3 do
-			if slot4:getContextCount() > 0 then
-				slot6 = slot4:popContext()
-			else
+		while slot3 > 0 do
+			if slot4:getContextCount() == 0 then
 				originalPrint("could not pop more context")
 
 				break
+			elseif slot4:popContext().skipBack then
+				slot6 = nil
+				slot3 = slot3 + 1
 			end
+
+			slot3 = slot3 - 1
 		end
 
 		slot6:extendData(slot2)

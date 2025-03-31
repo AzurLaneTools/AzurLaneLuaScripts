@@ -1,6 +1,7 @@
 slot0 = class("NewPtTemplatePage", import("view.base.BaseActivityPage"))
 slot0.OFFSET = 0.00042
 slot0.SHOW_COUNT = 8
+slot0.AWARD_OFFSET = 1e-05
 
 slot0.OnInit = function(slot0)
 	slot0.bg = slot0:findTF("AD")
@@ -123,7 +124,7 @@ slot0.UpdateNextAward = function(slot0, slot1)
 	slot1 = math.min(slot1, 1)
 
 	for slot5, slot6 in pairs(slot0.importantPos) do
-		if slot1 < slot6.pos then
+		if slot1 + uv0.AWARD_OFFSET < slot6.pos then
 			setActive(slot0.sptf, true)
 			slot0:UpdateAward(slot6.index - 1, slot0.spAward)
 
