@@ -38054,3 +38054,67 @@ _G.pg.base.gametip.clue_buff_ticket_tips = {
 _G.pg.base.gametip.clue_buff_empty_ticket = {
 	tip = "Get Tenko Group Badge from investigation missions"
 }
+
+
+_G.pg.base.gametip.SuperBulin2_tip1 = {
+	tip = "Look for the code in the Depot, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip2 = {
+	tip = "Look for the code in the Dock, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip3 = {
+	tip = "Look for the code in story chapter 1-4, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip4 = {
+	tip = "Look for the code in the Dorm, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip5 = {
+	tip = "Look for the code in story chapter 2-4, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip6 = {
+	tip = "Look for the code in the Academy, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip7 = {
+	tip = "Look for the code in the Shop, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip8 = {
+	tip = "Look for the code in Mementos, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_tip9 = {
+	tip = "Look for the code on the build screen, bulin!"
+}
+
+
+_G.pg.base.gametip.SuperBulin2_help = {
+	tip = {
+		{
+			info = [[
+How to Play:
+1. During the event, navigate to certain menus or stages to search for mysterious clues.
+2. If you're having difficulty finding the clue, tap the Clue icon to unlock the next phase of the clue search.
+Note: Clues can only be unlocked this way once every 10 minutes.
+3. Once all the clues have been collected, you will be able to challenge a secret stage. Complete it to obtain a special reward.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SuperBulin2_lock_tip = {
+	tip = "Collect all the clues to unlock a secret stage!"
+}

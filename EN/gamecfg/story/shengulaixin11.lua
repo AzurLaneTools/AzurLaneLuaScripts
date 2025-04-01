@@ -280,7 +280,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 702070,
-			actorName = "伏罗希洛夫&{namecode:91:赤城}",
+			actorName = "Voroshilov & Akagi",
 			hidePaintObj = true,
 			say = "- She's right. - Agreed.",
 			typewriter = {

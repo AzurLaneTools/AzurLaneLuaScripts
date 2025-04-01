@@ -3303,6 +3303,9 @@ pg.skill_data_display = setmetatable({
 		201307,
 		201308,
 		201309,
+		201352,
+		201353,
+		201354,
 		1011540,
 		1011541,
 		1090010,
@@ -16693,6 +16696,18 @@ pg.base.skill_data_display = {
 	[201309] = {
 		id = 201309,
 		name = "Electromagnetic Pulse"
+	},
+	[201352] = {
+		id = 201352,
+		name = "Golden Awakening"
+	},
+	[201353] = {
+		id = 201353,
+		name = "Heaven and Earth Annihilation Gear"
+	},
+	[201354] = {
+		id = 201354,
+		name = "Restoring to Factory Settings"
 	},
 	[1011540] = {
 		id = 1011540,

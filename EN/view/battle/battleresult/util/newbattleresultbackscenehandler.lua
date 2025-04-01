@@ -301,7 +301,22 @@ slot4 = function(slot0, slot1)
 		mediator = BossSingleTotalRewardPanelMediator,
 		viewComponent = BossSingleTotalRewardPanel,
 		data = {
+			onConfirm = function ()
+				pg.m02:sendNotification(GAME.GO_BACK)
+			end,
 			onClose = function ()
+				if getProxy(ContextProxy):getContextByMediator(ClueMapMediator) then
+					slot0.cleanChild = true
+
+					warning("ClueMapMediator")
+				end
+
+				if getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator) then
+					slot0.skipBack = true
+
+					warning("BossSinglePreCombatMediator")
+				end
+
 				pg.m02:sendNotification(GAME.GO_BACK)
 			end,
 			stopReason = slot1,
