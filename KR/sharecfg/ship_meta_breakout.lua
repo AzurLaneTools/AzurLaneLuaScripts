@@ -2254,7 +2254,7 @@ pg.base.ship_meta_breakout = {
 		weapon_ids = {}
 	},
 	[9705091] = {
-		breakout_view = "习得技能【破敌之炬·内华达】/主炮底座+1/主炮效率提高5%",
+		breakout_view = "[섬멸의 횃불 - 네바다] 습득 / 주포 포좌 +1 / 주포 보정 +5%",
 		item2 = 21001,
 		pre_id = 0,
 		repair = 0,
@@ -2271,7 +2271,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705092] = {
-		breakout_view = "副炮底座+2/主炮效率提高10%",
+		breakout_view = "부포 포좌 +2 / 주포 보정 +10%",
 		item2 = 21001,
 		pre_id = 9705091,
 		repair = 0,
@@ -2289,7 +2289,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705093] = {
-		breakout_view = "【破敌之炬·内华达】升级/主炮底座+1/主炮效率提高15%",
+		breakout_view = "[섬멸의 횃불 - 네바다] 강화 / 주포 포좌 +1 / 주포 보정 +15%",
 		item2 = 21001,
 		pre_id = 9705092,
 		repair = 0,
@@ -2307,7 +2307,7 @@ pg.base.ship_meta_breakout = {
 		}
 	},
 	[9705094] = {
-		breakout_view = "无",
+		breakout_view = "없음",
 		item2 = 21001,
 		pre_id = 9705093,
 		repair = 0,

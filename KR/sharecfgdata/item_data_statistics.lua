@@ -15600,9 +15600,9 @@ _G.pg.base.item_data_statistics[21045] = {
 
 _G.pg.base.item_data_statistics[21046] = {
 	open_directly = 0,
-	name = "结晶：内华达·META",
+	name = "결정: 네바다·META",
 	type = 4,
-	display = "内华达·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	display = "네바다·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -27634,9 +27634,9 @@ _G.pg.base.item_data_statistics[30426] = {
 
 _G.pg.base.item_data_statistics[30427] = {
 	open_directly = 1,
-	name = "外观装备箱(世界巡游)",
+	name = "장비 스킨 상자(월드 투어)",
 	type = 11,
-	display = "可以随机获得一件本次世界巡游限定外观装备",
+	display = "크루즈 보상 장비 스킨을 무작위로 하나 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -41917,9 +41917,9 @@ _G.pg.base.item_data_statistics[40056] = {
 
 _G.pg.base.item_data_statistics[40057] = {
 	open_directly = 1,
-	name = "基因之源主题礼包(基础版)",
+	name = "전투 UI·유전자의 기원(기초)",
 	type = 17,
-	display = "购买礼包可获得战斗界面主题 基因之源*1",
+	display = "구매하면 전투 UI 테마·유전자의 기원 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -41954,9 +41954,9 @@ _G.pg.base.item_data_statistics[40057] = {
 
 _G.pg.base.item_data_statistics[40058] = {
 	open_directly = 1,
-	name = "基因之源主题礼包(豪华版)",
+	name = "전투 UI·유전자의 기원(럭셔리)",
 	type = 17,
-	display = "购买礼包可获得战斗界面主题 基因之源*1,3060钻石",
+	display = "구매하면 전투 UI 테마·유전자의 기원, 다이아×3060 획득 가능",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",

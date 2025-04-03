@@ -73,13 +73,13 @@ pg.item_data_battleui = {
 		scene = {}
 	},
 	[106] = {
-		unlock = "世界巡游二十二期获取",
-		name = "恶魔契约 ",
+		unlock = "특허 투어 패스 22기 보상",
+		name = "デビル",
 		key = "SkinNormal_20250327",
 		display_icon = "ui_106",
 		is_unlock = 1,
 		rare = 3,
-		desc = "恶魔的气息从指挥界面中溢出，流经血液覆盖的边框与不祥的法阵交织，营造出黑暗又危险的氛围。 ",
+		desc = "悪魔的な雰囲気が溢れ出る指揮インターフェイス。血色のフレームと魔法陣がデンジャラスでダークな世界へと誘う",
 		id = 106,
 		icon = "106",
 		scene = {}

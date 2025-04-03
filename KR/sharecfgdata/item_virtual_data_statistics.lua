@@ -169599,8 +169599,8 @@ _G.pg.base.item_virtual_data_statistics[65085] = {
 
 _G.pg.base.item_virtual_data_statistics[65086] = {
 	drop_gold_max = 0,
-	name = "巡游点数",
-	display = "参与「世界巡游」获得的点数，累计一定程度可以领取奖励，活动结束后将会消失 ",
+	name = "투어 PT",
+	display = "이벤트 「월드 투어」에서 획득 합계 보상을 획득하기 위한 임무 PT 아이템. 이벤트 종료 후에 제거됩니다.",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
