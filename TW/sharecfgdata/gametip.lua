@@ -34145,7 +34145,7 @@ _G.pg.base.gametip.dorm3d_furniture_sure_save = {
 
 
 _G.pg.base.gametip.dorm3d_furniture_save_success = {
-	tip = "家具保存成功"
+	tip = "傢俱保存成功"
 }
 
 
