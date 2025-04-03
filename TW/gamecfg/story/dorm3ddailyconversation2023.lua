@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "真安静啊，安静得能听到风拂过的声音。",
+			say = "真安靜啊，安靜得能聽到風吹拂過的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "能和{dorm3d}一起享受这份安静，真是一件幸事。",
+			say = "能和{dorm3d}一起享受這份安靜，真是一件幸事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "愿之后的每一天也都像今天一样，安静并幸福。",
+			say = "願之後的每一天也都像今天一樣，安靜且幸福。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

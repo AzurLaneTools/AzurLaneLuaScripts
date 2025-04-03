@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}带甜点过来了？",
+			say = "{dorm3d}帶甜點過來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "我……唔……抱歉，这次还是不吃了……",
+			say = "我……唔……抱歉，這次還是不吃了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "怎么了？",
+					content = "怎麼了？",
 					flag = 1
 				}
 			},
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最近甜点吃得有些多了……毕竟皮肤管理的秘诀之一就是控制糖分的摄入。",
+			say = "最近甜點吃得有些多了……畢竟皮膚管理的秘訣之一就是控制糖分的攝入。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "你、你也不准说什么“不在乎”之类的话，那会影{namecode:12:响}我的决心的。",
+			say = "你、你也不準說什麼「不在乎」之類的話，那會影響我的決心的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "之后也不可以拿点心来诱惑我哦……",
+			say = "之後也不可以拿點心來誘惑我哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

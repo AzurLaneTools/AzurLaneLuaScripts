@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "之前提过会为你准备惊喜……",
+			say = "之前提過會為你準備驚喜……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "所以我准备了这个——“{namecode:50:能代}的万能使唤券”。",
+			say = "所以我準備了這個——“{namecode:50:能代}的萬能使喚券”。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,14 +37,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "只要用这张券，想让我做什么都可以。不过仅限一次！",
+			say = "只要用這張券，想讓我做什麼都可以。不過僅限一次！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "真的什么都可以吗？",
+					content = "真的什麼都可以嗎？",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……我可是下了很大决心才准备了这个，所以你也要好好考虑哦？",
+			say = "嗯……我可是下了很大決心才準備了這個，所以你也要好好考慮哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

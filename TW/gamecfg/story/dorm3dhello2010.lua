@@ -16,7 +16,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}来了啊，要不要试试按摩呢？嗯……等你的时候我学了些按摩的手法，说是能比较有效地缓解肩颈方面的疲劳。快来这边坐下，让我试试看吧？",
+			say = "{dorm3d}來了啊，要不要試試按摩呢？嗯……等你的時候我學了些按摩的手法，說是能比較有效地緩解肩頸方面的疲勞。快來這邊坐下，讓我試試看吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

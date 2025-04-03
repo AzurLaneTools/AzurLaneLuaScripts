@@ -16,7 +16,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#FFFFFF",
-			say = "欢迎，{dorm3d}，只要看到你来了，就会感觉内心……嗯……该怎么形容才好呢……很温暖……？",
+			say = "歡迎，{dorm3d}，只要看到你來了，就會感覺內心……嗯……該怎麼形容才好呢……很溫暖……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

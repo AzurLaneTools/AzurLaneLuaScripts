@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我最近从港区的图书馆借了一本侦探小说，内容很有趣。",
+			say = "我最近從港區的圖書館借了一本偵探小說，內容很有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯？看你的表情，是已经读过了吗？这样啊……",
+			say = "嗯？看你的表情，是已經讀過了嗎？這樣啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我记得最后的凶手是……",
+					content = "我記得最後的兇手是……",
 					flag = 1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "是凶手最好的朋友对吧？",
+			say = "是兇手最好的朋友對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "看你的反应，我推理对了……？",
+			say = "看你的反應，我的推理對了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呵呵~{dorm3d}的剧透作战失败了呢。",
+			say = "呵呵~{dorm3d}的劇透作戰失敗了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

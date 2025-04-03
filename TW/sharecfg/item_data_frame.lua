@@ -594,6 +594,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>不論何時，總有一杯冒著熱氣的紅茶在靜靜等候。</color>\n透過提升「宿舍計畫」中天狼星的契合度等級來獲取",
 		scene = {}
 	},
+	[1003] = {
+		name = "瑯華金櫻",
+		gain_by = "",
+		time_second = 0,
+		id = 1003,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>金色的落櫻，訴說著高潔與凜然。</color>\n透過提升「宿舍計畫」中能代的契合度等級獲取",
+		scene = {}
+	},
+	[1004] = {
+		name = "花雨歸鳥",
+		gain_by = "",
+		time_second = 0,
+		id = 1004,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>浪漫的紙傘下，是誰的思緒悄悄飛遠？ </color>\n透過提升「宿舍計畫」中能代的契合度等級獲取",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界的挑戰者·雙子座",
 		gain_by = "",
@@ -769,6 +787,8 @@ pg.item_data_frame = {
 		607,
 		1001,
 		1002,
+		1003,
+		1004,
 		10001,
 		10002,
 		10003,

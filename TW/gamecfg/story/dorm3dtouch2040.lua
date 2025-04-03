@@ -17,7 +17,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_furniture2_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}的目光……稍微让人有点害羞呢///",
+			say = "{dorm3d}的目光……稍微讓人有點害羞呢///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

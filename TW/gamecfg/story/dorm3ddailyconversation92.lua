@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}，您是怎么看待“下雨天”的呢？",
+			say = "{dorm3d}，您是怎麼看待「下雨天」的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,15 +43,15 @@ return {
 			},
 			options = {
 				{
-					content = "没什么感觉",
+					content = "沒什麼感覺",
 					flag = 1
 				},
 				{
-					content = "不太喜欢",
+					content = "不太喜歡",
 					flag = 2
 				},
 				{
-					content = "我很喜欢",
+					content = "我很喜歡",
 					flag = 3
 				}
 			}
@@ -60,7 +60,7 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 1,
-			say = "也是呢，毕竟只是普通的天气变化。",
+			say = "也是呢，畢竟只是普通的天氣變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 2,
-			say = "就算战斗方面不会造成影响，也会对生活上造成影响，对吧。",
+			say = "就算戰鬥方面不會造成影響，也會對生活造成影響，對吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 3,
-			say = "是因为下雨天会让人很放松吗？",
+			say = "是因為下雨天會讓人很放鬆嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "不过……皇家的雾都倒是常年处于阴雨之中，经常被雾气包围，能有阳光就算是特别幸运的事了。",
+			say = "不過……皇家的霧都倒是常年處於陰雨之中，經常被霧氣包圍，能有陽光就算是特別幸運的事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "像那样阴郁的氛围一直持续下去，久而久之就会影响到身心呢。",
+			say = "像那樣陰鬱的氛圍一直持續下去，久而久之就會影響到身心呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "相比之下{dorm3d}您这里就要好的多了",
+			say = "相比之下{dorm3d}您這裡就要好的多了",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "不光是说天气……您就像驱散阴霾的阳光一样，能够侍奉您，是一件再幸运不过的事。",
+			say = "不只是說天氣……您就像驅散陰霾的陽光一樣，能夠侍奉您，是一件再幸運不過的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

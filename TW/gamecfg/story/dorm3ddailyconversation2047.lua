@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "想知道我的秘密？我对{dorm3d}没有保留秘密。",
+			say = "想知道我的秘密？我對{dorm3d}沒有任何秘密。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "问我最喜欢的人……？",
+			say = "問我最喜歡的人……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "这个问题在你这里，不能算秘密吧？",
+			say = "這個問題在你這裡，不能算秘密吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过如果你想确认的话，无论多少次，我都会说给你听。",
+			say = "不過如果你想確認的話，無論多少次，我都會說給你聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我最喜欢的人……是你。",
+			say = "我最喜歡的人……是你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

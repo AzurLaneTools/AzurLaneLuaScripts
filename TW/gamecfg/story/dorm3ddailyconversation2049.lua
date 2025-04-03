@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "最近我意识到，习以为常的港区的夜景也很美呢。",
+			say = "最近我意識到，習以為常的港區的夜景也很美呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这是因为每次和你在晚上散步的时候，都会感觉像是整个世界只剩下我们两个人了。",
+			say = "這是因為每次和你在晚上散步的時候，都會感覺像是整個世界只剩下我們兩個了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,14 +37,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "安静、美丽，浪漫……啊，这么说好像有点奇怪。",
+			say = "安靜、美麗，浪漫……啊，這麼說好像有點奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我也很享受和{namecode:50:能代}一起的世界。",
+					content = "我也很享受和{namecode:50:能代}在一起的世界。",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真的吗？那下次……也一起去散步怎么样？",
+			say = "真的嗎？那下次……也一起去散步怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

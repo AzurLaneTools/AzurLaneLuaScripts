@@ -33,10 +33,10 @@ return {
 								},
 								{
 									{
-										content = "恶作剧的{namecode:50}也很可爱"
+										content = "惡作劇的{namecode:50}也很可愛"
 									},
 									{
-										content = "{namecode:50}做什么都很可爱"
+										content = "{namecode:50}做什麼都很可愛"
 									}
 								}
 							},

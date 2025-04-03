@@ -546,6 +546,11 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		end
 
 		slot8:updateActivity(slot3)
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING then
+		slot3.data2 = slot3.data2 + slot3.data1
+		slot3.data1 = 0
+
+		getProxy(ActivityProxy):updateActivity(slot3)
 	end
 
 	return slot3

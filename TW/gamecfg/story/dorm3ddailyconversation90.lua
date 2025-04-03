@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}，您的脸有些红呢……是因为工作方面的应酬导致的吗？",
+			say = "{dorm3d}，您的臉有點紅呢……是因為工作方面的應酬導致的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "只是有些热",
+					content = "只是有點熱",
 					flag = 2
 				}
 			}
@@ -63,14 +63,14 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 1,
-			say = "摸上去也很烫……要不要天狼星帮您降降温呢？",
+			say = "摸上去也很燙……要不要天狼星幫您降降溫呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你要怎么做？",
+					content = "妳要怎麼做？",
 					flag = 1
 				}
 			}
@@ -79,14 +79,14 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 2,
-			say = "那，要不要天狼星帮您降降温呢？",
+			say = "那，要不要天狼星幫您降降溫呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你要怎么做？",
+					content = "妳要怎麼做？",
 					flag = 1
 				}
 			}
@@ -94,7 +94,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}，请您放松一些，天狼星要解开您的制服……",
+			say = "{dorm3d}，請您放鬆一點，天狼星要解開您的制服……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "您的制服系得很规整，布料又厚实，这也是导致您体温上升的原因之一呢。",
+			say = "您的制服繫得很整齊，布料又厚實，這也是導致您體溫上升的原因之一呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "接下来天狼星会用毛巾包裹住冰块，为您擦拭身体。",
+			say = "接下來天狼星會用毛巾包住冰塊，為您擦拭身體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,11 +165,11 @@ return {
 			},
 			options = {
 				{
-					content = "会感冒的吧？",
+					content = "會感冒的吧？",
 					flag = 1
 				},
 				{
-					content = "是不是有点太刺激了",
+					content = "是不是有點太刺激了",
 					flag = 2
 				}
 			}
@@ -177,7 +177,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "完全不会哦！",
+			say = "完全不會哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "如果{dorm3d}担心着凉的话，天狼星会用自己的体温给{dorm3d}保暖的！",
+			say = "如果{dorm3d}擔心著涼的話，天狼星會用自己的體溫為{dorm3d}保暖的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "您只要安心接受天狼星的侍奉就好了，我骄傲的{dorm3d}。",
+			say = "您只要安心接受天狼星的侍奉就好了，我驕傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

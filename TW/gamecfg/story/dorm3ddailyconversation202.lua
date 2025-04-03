@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "是不是该换个发卡了呢？",
+			say = "是不是該換個髮夾了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "平时总在忙着训练和工作，很少有空闲思考这个。",
+			say = "平時總是忙著訓練和工作，很少有空閒思考這個。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,14 +62,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不如{dorm3d}陪我一起选一个新的款式吧？",
+			say = "不如{dorm3d}陪我一起選一個新的樣式吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "选你喜欢的款式就好",
+					content = "選妳喜歡的款式就好",
 					flag = 1
 				}
 			}
@@ -80,14 +80,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "我还是更想让你来选。",
+			say = "我還是更想讓你來選。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不怕我选的款式你不喜欢么？",
+					content = "不怕我選的款式妳不喜歡嗎？",
 					flag = 1
 				}
 			}
@@ -97,7 +97,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……你喜欢的款式，我也一定会喜欢的。",
+			say = "……你喜歡的款式，我也一定會喜歡的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

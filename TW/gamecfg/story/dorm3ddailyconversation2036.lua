@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "一到晚上，总有些平时被埋藏的胡思乱想都会冒出来。",
+			say = "一到晚上，總有些平常被埋藏的胡思亂想都會冒出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "比如说上次就想到，万一哪一天不够好看了要怎么办……",
+			say = "比如說上次就想到，萬一哪一天不夠好看了該怎麼辦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "万一……{dorm3d}失去了新鲜感要怎么办……",
+			say = "萬一……{dorm3d}對我失去了新鮮感該怎麼辦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "绝对不会的！",
+					content = "絕對不會的！",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "就知道{dorm3d}会这么说，我相信你哦……",
+			say = "就知道{dorm3d}會這麼說，我相信你哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

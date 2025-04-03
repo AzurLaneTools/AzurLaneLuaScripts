@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}，您的黑眼圈好像又加重了。要处理的工作很多所以很辛苦吧。",
+			say = "{dorm3d}，您的黑眼圈好像又加重了。要處理的工作很多所以很辛苦吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "如果天狼星能帮上您的忙就好了……",
+			say = "如果天狼星能幫上您的忙就好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "对了，就用一杯果蔬汁让{dorm3d}您恢复精神吧，也能够补充营养。",
+			say = "對了，就用一杯蔬果汁讓{dorm3d}您恢復精神吧，也能夠補充營養。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,11 +84,11 @@ return {
 			},
 			options = {
 				{
-					content = "不用麻烦了",
+					content = "不用麻煩了",
 					flag = 1
 				},
 				{
-					content = "有你在我身边就可以恢复精神",
+					content = "有妳在我身邊就可以恢復精神",
 					flag = 2
 				}
 			}
@@ -96,7 +96,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "虽然您这么说了……",
+			say = "雖然您這麼說了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,14 +128,14 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "但是为了您的健康着想的话，天狼星还是为您……",
+			say = "但是為了您的健康著想的話，天狼星還是為您……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有没有除了果蔬汁以外的方法？",
+					content = "有沒有除了蔬果汁以外的方法？",
 					flag = 1
 				}
 			}
@@ -143,7 +143,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "那、那么，就请用天狼星的身体来……!",
+			say = "那、那麼，就請用天狼星的身體來……!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}？您为什么突然后退了呢……",
+			say = "{dorm3d}？您為什麼突然後退了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，其实我最近在练习茶道。",
+			say = "{dorm3d}，其實我最近在練習茶道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,18 +26,18 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "虽然感觉上可能没那么时髦……但其实挺有趣的。",
+			say = "雖然感覺上可能沒那麼時髦……但其實還挺有趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "听起来很优雅。",
+					content = "聽起來很優雅。",
 					flag = 1
 				},
 				{
-					content = "{namecode:50:能代}喜欢就没问题！",
+					content = "{namecode:50:能代}喜歡就沒問題！",
 					flag = 1
 				}
 			},
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}是这么认为吗？太好了。",
+			say = "{dorm3d}是這麼認為嗎？太好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "等我再精进一点，就用这种方式来帮{dorm3d}泡茶吧。",
+			say = "等我再精進一點，就用這種方式來幫{dorm3d}泡茶吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

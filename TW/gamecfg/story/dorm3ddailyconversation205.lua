@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}~有时间的话要不要一起吃个饭啾？",
+			say = "{dorm3d}~有時間的話要不要一起吃個飯啾？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……啊，不、不行，果然我这么说话很奇怪吧？",
+			say = "……啊，不、不行，果然我這麼說話很奇怪吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,18 +62,18 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "“流行的可爱说话方式”本身就是不可信的吧……",
+			say = "「流行的可愛說話方式」本身就是不可信的吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "明明就很可爱！",
+					content = "明明就很可愛！",
 					flag = 1
 				},
 				{
-					content = "一点也不奇怪！",
+					content = "一點也不奇怪！",
 					flag = 1
 				}
 			}
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "欸？{dorm3d}是这么觉得的吗？",
+			say = "欸？{dorm3d}是這麼覺得的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那我就继续这么说话了啾……？",
+			say = "那我就繼續這麼說話了啾……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

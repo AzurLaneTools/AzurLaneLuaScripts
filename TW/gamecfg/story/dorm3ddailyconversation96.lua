@@ -50,7 +50,7 @@ return {
 			}
 		},
 		{
-			say = "（看起来似乎是遇到了难题啊。）",
+			say = "（看起來似乎是遇到了難題啊。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}，天狼星有个问题想要问您——",
+			say = "{dorm3d}，天狼星有個問題想問您——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "请问您吃过“红豆”这种食物吗？",
+			say = "請問您吃過「紅豆」這種食物嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,8 +76,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "指挥官",
-			say = "东煌与重樱的饮食文化里，或多或少都有与红豆有关的料理，我有幸都品尝过。",
+			actorName = "指揮官",
+			say = "東煌與重櫻的飲食文化裡，或多或少都有與紅豆有關的料理，我有幸都品嚐過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "唔……不知道她们是如何“制服”这种奇怪的食物的。",
+			say = "唔……不知道她們是如何「制服」這種奇怪的食物的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "无论怎么处理都是硬硬的，完全不知道该如何是好……",
+			say = "無論怎麼處理都是硬硬的，完全不知道該如何是好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,8 +126,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "指挥官",
-			say = "天狼星怎么突然在做红豆相关的料理了？",
+			actorName = "指揮官",
+			say = "天狼星怎麼突然在做紅豆相關的料理了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "因、因为听说重樱有在一些特殊场合结束之后，用红豆饭庆祝的习俗。",
+			say = "因、因為聽說重櫻有在一些特殊場合結束之後，用紅豆飯慶祝的習俗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "所以天狼星想学习如何做好红豆饭……",
+			say = "所以天狼星想學習如何做好紅豆飯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "您说还早？欸……怎、怎么会……又是天狼星迫不及待了吗……",
+			say = "您說還早？欸……怎、怎麼會……又是天狼星迫不及待了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "嗯？您说只是节日还早？",
+			say = "嗯？您說只是節日還早？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "啊……天狼星明白了，我骄傲的{dorm3d}。",
+			say = "啊……天狼星明白了，我驕傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

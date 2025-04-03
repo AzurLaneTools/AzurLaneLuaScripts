@@ -15,18 +15,18 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}对刀具保养感兴趣吗？",
+			say = "{dorm3d}對刀具保養有興趣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有点兴趣",
+					content = "有點興趣",
 					flag = 1
 				},
 				{
-					content = "方便讲讲么？",
+					content = "方便講講嗎？",
 					flag = 1
 				}
 			},
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……感觉光是用说的不太容易理解呢，还是下次直接实操给你看看吧。",
+			say = "嗯……感覺光是用說的不太容易理解呢，還是下次直接實際操作給你看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "不过有一点，越是锋利的刀越需要细心的照料。",
+			say = "不過有一點，越是鋒利的刀越需要細心的照料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "浇灌自身的心意，刀就会在关键时刻回应主人。",
+			say = "澆灌自身的心意，刀就會在關鍵時刻回應主人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "就像……我和{dorm3d}一样……",
+			say = "就像……我和{dorm3d}一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

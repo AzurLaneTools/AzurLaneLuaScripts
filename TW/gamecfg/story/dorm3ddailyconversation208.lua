@@ -16,7 +16,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "（房间里好像有一股不太一样的香气……）",
+			say = "（房間裡好像有一種不太一樣的香氣……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -27,14 +27,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，看你的表情……是有什么味道让你很在意么……？",
+			say = "{dorm3d}，看你的表情……有什麼味道讓你很在意嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "有一股好闻的香味。",
+					content = "有一股好聞的香味。",
 					flag = 1
 				}
 			},
@@ -69,7 +69,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我想想……你闻到的可能是我新换的沐浴露的味道。",
+			say = "我想想……你聞到的可能是我新換的沐浴乳的味道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你喜欢的话，那也要试试用这一支沐浴露么……?",
+			say = "你喜歡的話，那也要試試用這一款沐浴乳嗎……?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "都说恋人之间才会有相同的气味……",
+			say = "都說戀人之間才會有相同的氣味……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……没、没什么///",
+			say = "……沒、沒什麼///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

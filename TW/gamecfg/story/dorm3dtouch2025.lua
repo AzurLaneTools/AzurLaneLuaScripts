@@ -17,7 +17,7 @@ return {
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_tone8",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}是在对我恶作剧吧……///！",
+			say = "{dorm3d}是在對我惡作劇吧……///！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

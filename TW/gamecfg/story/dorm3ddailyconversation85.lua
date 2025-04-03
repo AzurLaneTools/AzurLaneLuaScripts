@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}……天狼星有一件事想拜托您。",
+			say = "{dorm3d}……天狼星有一件事想拜託您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +43,11 @@ return {
 			},
 			options = {
 				{
-					content = "真是少见啊",
+					content = "真是少見啊",
 					flag = 1
 				},
 				{
-					content = "天狼星居然会有主动拜托我的时候",
+					content = "天狼星居然會有主動拜託我的時候",
 					flag = 2
 				}
 			}
@@ -64,7 +64,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "欸？您说并不是在责怪天狼星的意思，只是觉得很稀奇……？",
+			say = "欸？您說並不是責怪天狼星的意思，只是覺得很稀奇……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "也是呢，区区一介女仆，本来是不该对{dorm3d}提出这种请求的。",
+			say = "也是呢，區區一介女僕，本來是不該對{dorm3d}提出這種請求的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "不过……您看，房间内还是缺少了一些生机呢。",
+			say = "不過……您看，房間內還是缺少了一些生機呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "希望之后您在来到此处时，将路途上看到的第一朵花摘下，送给天狼星。",
+			say = "希望之後您在來到此處時，將路途上看到的第一朵花摘下，送給天狼星。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "这样{dorm3d}不在的时候，天狼星也不会倍感寂寞了。",
+			say = "這樣{dorm3d}不在的時候，天狼星也不會倍感寂寞了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

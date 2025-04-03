@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "化妆的方面，天狼星好像没有天赋呢……",
+			say = "化妝的方面，天狼星好像沒有天賦呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +43,11 @@ return {
 			},
 			options = {
 				{
-					content = "可天狼星不需要化妆啊",
+					content = "但天狼星不需要化妝啊",
 					flag = 1
 				},
 				{
-					content = "你无论什么时候都很漂亮",
+					content = "你無論什麼時候都很漂亮",
 					flag = 2
 				}
 			}
@@ -55,7 +55,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "不，我的{dorm3d}，还请允许天狼星在这件事上反驳您。",
+			say = "不，我的{dorm3d}，也請允許天狼星在這件事上反駁您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "身为女仆，在憧憬的{dorm3d}面前，不仅举止要合乎礼仪，仪表也很重要。",
+			say = "身為女僕，在憧憬的{dorm3d}面前，不僅舉止要合乎禮儀，儀表也很重要。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "不过……尽管练习了很多次，我的化妆技术却一直没有精进呢。",
+			say = "不過……儘管練習了很多次，我的化妝技術卻一直沒有精進呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "而且在您的面前，天狼星还是想要尽可能地……再美丽一些。",
+			say = "而且在您的面前，天狼星還是想要盡可能地……再美麗一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "如果可以的话，希望您能陪天狼星一起练习。",
+			say = "如果可以的話，希望您能陪天狼星一起練習。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -146,7 +146,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "就从……涂口红开始，可以吗？",
+			say = "就從……塗口紅開始，可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

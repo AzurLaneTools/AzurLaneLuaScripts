@@ -17,7 +17,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_gift1_tone5",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不知不觉，我也跟着更放松起来了呢……",
+			say = "不知不覺，我也跟著更放鬆了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

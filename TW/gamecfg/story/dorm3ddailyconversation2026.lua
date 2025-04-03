@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，需要我来帮您清理耳朵吗？",
+			say = "{dorm3d}，需要我來幫您清理耳朵嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我最近跟其他同伴学习了一下掏耳朵的技术……应该算是有所精进了。",
+			say = "我最近跟其他同伴學習了一下掏耳朵的技術……應該算是有所精進了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "不过这次，请你用“躺”的，别再趴着了。",
+			say = "不過這次，請你用「躺」的，別再趴著了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "如果非要的话……也不是不行……",
+			say = "如果非要的話……也不是不行……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

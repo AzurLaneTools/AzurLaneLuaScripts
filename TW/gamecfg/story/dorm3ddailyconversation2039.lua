@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "领结的样式，要不要试着系成蝴蝶结的样子？",
+			say = "領結的樣式，要不要試著綁成蝴蝶結的樣子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "偶尔做出一些改变，也很不错吧？",
+			say = "偶爾會做出一些改變，也很不錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "毕竟我想再多增加一些新鲜感……///",
+			say = "畢竟我想再多增加一些新鮮感……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

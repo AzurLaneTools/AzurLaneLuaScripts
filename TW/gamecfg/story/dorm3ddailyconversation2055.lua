@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这里的珊瑚礁也很美，有点想去浮潜……",
+			say = "這裡的珊瑚礁也很美，有點想去浮潛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过如果遇到水母的话……总感觉很危险。",
+			say = "不過如果遇到水母的話……總覺得很危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			},
 			options = {
 				{
-					content = "别担心，我会保护{namecode:50:能代}的。",
+					content = "別擔心，我會保護{namecode:50:能代}的。",
 					flag = 1
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}真是可靠呢……不过如果真的遇到水母的话……",
+			say = "{dorm3d}真是可靠呢……不過如果真的遇到水母的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "应该是我来保护{dorm3d}会比较合适吧？",
+			say = "應該是我來保護{dorm3d}會比較適合吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

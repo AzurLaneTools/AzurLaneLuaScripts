@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "摩天轮真是不错，缓缓升起的视野，紧闭的空间，还有面对面的二人……",
+			say = "摩天輪真是不錯，緩緩升起的視野，緊閉的空間，還有面對面的二人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "在一起升到最高点的时候……会发生什么呢？",
+			say = "坐在一起升到最高點的時候……會發生什麼事呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要现在就出发去坐摩天轮吗？",
+					content = "現在就出發去坐摩天輪嗎？",
 					flag = 1
 				}
 			},
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……看来你也很在意那个我那个问题的答案呢。",
+			say = "唔……看來你也很在意那個我那個問題的答案呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那，稍后一起去吧。",
+			say = "那，晚點一起去吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

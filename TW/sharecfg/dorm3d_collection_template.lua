@@ -34,6 +34,35 @@ pg.dorm3d_collection_template = setmetatable({
 			29,
 			30
 		},
+		{
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67,
+			68,
+			70,
+			72,
+			71,
+			76,
+			77,
+			78,
+			79,
+			74,
+			75
+		},
 		[4] = {
 			31,
 			32,
@@ -85,7 +114,34 @@ pg.dorm3d_collection_template = setmetatable({
 		36,
 		37,
 		38,
-		39
+		39,
+		51,
+		52,
+		53,
+		54,
+		55,
+		56,
+		57,
+		58,
+		59,
+		60,
+		61,
+		62,
+		63,
+		64,
+		65,
+		66,
+		67,
+		68,
+		70,
+		72,
+		71,
+		76,
+		77,
+		78,
+		79,
+		74,
+		75
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -907,6 +963,577 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/litmap04/pre_desklamp01/vfx_wupintishi01"
+		}
+	},
+	[51] = {
+		name = "花見糰子",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "粉嫩的花見糰子靜靜躺在瓷碟上，和桌布的樣式相得益彰。\n等下就坐下來和她一起品嚐吧。",
+		text = "dorm3d_noshiro_chair",
+		id = 51,
+		icon = "3Ddrom_nengdai_item1",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware14/vfx_wupintishi01"
+		}
+	},
+	[52] = {
+		name = "菱餅",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "青草、白雪、桃花，\n健康、純潔、驅邪，\n軟糯的口感中包含著她心中的期待……",
+		text = "dorm3d_noshiro_chair",
+		id = 52,
+		icon = "3Ddrom_nengdai_item2",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware15/vfx_wupintishi01"
+		}
+	},
+	[53] = {
+		name = "打開的書",
+		award = 0,
+		time = 1,
+		room_id = 2,
+		desc = "一本關於傳統茶道禮儀的典籍，書頁的邊緣已略顯陳舊。\n她似乎常常翻閱這些內容，後面幾頁還留有她工整的筆記。",
+		text = "dorm3d_noshiro_bed",
+		id = 53,
+		icon = "3Ddrom_nengdai_item3",
+		model = {
+			"fbx/litmap_03/day/pre_db_book01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_book01/vfx_wupintishi01"
+		}
+	},
+	[54] = {
+		name = "被褥",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "疊放整齊的被褥，壓著角的方式透露出主人極強的規則意識。",
+		text = "dorm3d_noshiro_bed",
+		id = 54,
+		icon = "3Ddrom_nengdai_item4",
+		model = {
+			"fbx/litmap_04/pre_db_quilt01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_04/pre_db_quilt01/vfx_wupintishi01"
+		}
+	},
+	[55] = {
+		name = "制服",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "掛在牆上的制服，與她身上穿的分毫不差。\n看來她還是最喜歡這樣的打扮",
+		text = "dorm3d_noshiro_bed",
+		id = 55,
+		icon = "3Ddrom_nengdai_item5",
+		model = {
+			"fbx/litmap_03/pre_db_cloth02_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_cloth02_01/vfx_wupintishi01"
+		}
+	},
+	[56] = {
+		name = "和菓子",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "包裝精美的和菓子禮盒，每一塊點心都由她親手製作。\n為了不辜負這份心意，之後就全部吃掉吧！",
+		text = "dorm3d_noshiro_chair",
+		id = 56,
+		icon = "3Ddrom_nengdai_item6",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_tableware13/vfx_wupintishi01"
+		}
+	},
+	[57] = {
+		name = "風鈴",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "掛在窗邊的風鈴，隨著微風發出清脆悅耳的聲響。\n她說這是夏日裡最好的解暑方式之一。",
+		text = "dorm3d_noshiro_chair",
+		id = 57,
+		icon = "3Ddrom_nengdai_item7",
+		model = {
+			"fbx/litmap_03/pre_db_curtain04"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_curtain04/vfx_wupintishi01"
+		}
+	},
+	[58] = {
+		name = "風鈴·II",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "發出的聲音比玻璃風鈴更加渾厚。\n她刻意將它掛在不同的位置，兩種聲音交織，別有一番風情。",
+		text = "dorm3d_noshiro_table",
+		id = 58,
+		icon = "3Ddrom_nengdai_item8",
+		model = {
+			"fbx/litmap_03/pre_db_decoration06"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_decoration06/vfx_wupintishi01"
+		}
+	},
+	[59] = {
+		name = "購物袋",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "咖啡店紙袋，上面印著標誌性的商標。\n雖然只是普通購物袋，但她還是把它好好地收在了一旁。",
+		text = "dorm3d_noshiro_table",
+		id = 59,
+		icon = "3Ddrom_nengdai_item9",
+		model = {
+			"fbx/litmap_03/pre_db_bag01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bag01/vfx_wupintishi01"
+		}
+	},
+	[60] = {
+		name = "和服",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "繡著金線的振袖，即便是掛著的時候也能感受到其端莊優雅。\n似乎是她最喜歡的一件和服，畢竟，每次她穿著它外出時都會格外小心。",
+		text = "dorm3d_noshiro_bed",
+		id = 60,
+		icon = "3Ddrom_nengdai_item10",
+		model = {
+			"fbx/litmap_03/pre_db_frame06"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_frame06/vfx_wupintishi01"
+		}
+	},
+	[61] = {
+		name = "永生花",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "被精心保存在玻璃罩中的玫瑰。\n花瓣的色澤依然鮮豔如初。",
+		text = "dorm3d_noshiro_chair",
+		id = 61,
+		icon = "3Ddrom_nengdai_item11",
+		model = {
+			"fbx/litmap_03/day/pre_db_decoration07"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_decoration07/vfx_wupintishi01"
+		}
+	},
+	[62] = {
+		name = "景觀樹",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "小巧的松樹盆景，枝幹的走向簡約又不失風味。\n她這些天以來每天都會花些時間修剪養護，讓這份自然的藝術保持最佳的狀態。",
+		text = "dorm3d_noshiro_chair",
+		id = 62,
+		icon = "3Ddrom_nengdai_item12",
+		model = {
+			"fbx/litmap_03/pre_db_bonsai03_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_bonsai03_01/vfx_wupintishi01"
+		}
+	},
+	[63] = {
+		name = "流水造景",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "精緻的竹製添水裝置立在房間一角，當水流注滿時會發出清脆的碰撞聲。",
+		text = "dorm3d_noshiro_chair",
+		id = 63,
+		icon = "3Ddrom_nengdai_item13",
+		model = {
+			"fbx/litmap_03/pre_db_noshirohostel01_02"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_noshirohostel01_02/vfx_wupintishi01"
+		}
+	},
+	[64] = {
+		name = "和傘",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "收起的和傘斜靠在房間的角落，淺色的傘身安靜地合攏著。\n是她外出時常用的隨身之物。\n當然，前提是下雨天。",
+		text = "dorm3d_noshiro_table",
+		id = 64,
+		icon = "3Ddrom_nengdai_item14",
+		model = {
+			"fbx/litmap_03/pre_db_decoration05_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_decoration05_01/vfx_wupintishi01"
+		}
+	},
+	[65] = {
+		name = "蒲團",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "淺色的圓形坐墊。\n看起來很硬，但坐起來意外地很舒適。\n是不是該在指揮室也放一個……？",
+		text = "dorm3d_noshiro_chair",
+		id = 65,
+		icon = "3Ddrom_nengdai_item15",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_chair08/vfx_wupintishi01"
+		}
+	},
+	[66] = {
+		name = "壽司拼盤",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = [[
+精心擺盤的壽司，每一塊都顯示出她的細緻心思。
+連裝飾用的部分也經過精心修剪。
+只是這盤裡還有反捲壽司……
+沒想到她居然不是壽司原教旨主義者。]],
+		text = "dorm3d_noshiro_table",
+		id = 66,
+		icon = "3Ddrom_nengdai_item16",
+		model = {
+			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/diningroom/pre_db_tableware12_01/vfx_wupintishi01"
+		}
+	},
+	[67] = {
+		name = "櫻花",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "擺在桌上的一支櫻花，粉紅色的花朵襯著枝條，為桌面增添了一絲淡雅的春意。",
+		text = "dorm3d_noshiro_chair",
+		id = 67,
+		icon = "3Ddrom_nengdai_item17",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/table/pre_db_flowers04/vfx_wupintishi01"
+		}
+	},
+	[68] = {
+		name = "書堆",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "整齊摞放的書籍，除了茶道典籍外，還有不少花道與傳統禮儀的書籍。\n從夾著的書籤來看，她似乎正在研習新的插花技法。",
+		text = "dorm3d_noshiro_bed",
+		id = 68,
+		icon = "3Ddrom_nengdai_item18",
+		model = {
+			"fbx/litmap_03/pre_db_book04_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_book04_01/vfx_wupintishi01"
+		}
+	},
+	[70] = {
+		name = "水壺",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "普通的金屬水壺。\n經常看到她用它來燒水泡茶，器具本身似乎已經用了很長時間，但一直保養得很好。",
+		text = "dorm3d_noshiro_bed",
+		id = 70,
+		icon = "3Ddrom_nengdai_item19",
+		model = {
+			"fbx/litmap_02/pre_db_tableware09"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_02/pre_db_tableware09/vfx_wupintishi01"
+		}
+	},
+	[72] = {
+		name = "捲軸",
+		award = 0,
+		time = 0,
+		room_id = 2,
+		desc = "捆紮整齊的捲軸靜靜地放在書房的一角，繩結一絲不苟地繫著。\n雖然沒有展開，但從收納它的方式也能看出她的細心之處。",
+		text = "dorm3d_noshiro_bed",
+		id = 72,
+		icon = "3Ddrom_nengdai_item20",
+		model = {
+			"fbx/litmap_03/pre_db_cupboard08_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_cupboard08_01/vfx_wupintishi01"
+		}
+	},
+	[71] = {
+		name = "石燈",
+		award = 0,
+		time = 1,
+		room_id = 2,
+		desc = "擺在角落的仿石材地燈，造型源自重櫻傳統庭院石燈。\n讓房間裡多了一份愜意悠閒的氛圍。",
+		text = "dorm3d_sirius_chair",
+		id = 71,
+		icon = "3Ddrom_nengdai_item21",
+		model = {
+			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/day/pre_db_noshirohostel01_lamp02/vfx_wupintishi01"
+		}
+	},
+	[76] = {
+		name = "空氣加濕器",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "白色的空氣清淨機安靜地運轉著，偶爾會發出輕微的嗡鳴聲。\n她把它放在房間的一角，讓濕潤的水汽慢慢彌散。\n她說，這樣對皮膚更好。",
+		text = "dorm3d_noshiro_bed",
+		id = 76,
+		icon = "3Ddrom_nengdai_item24",
+		model = {
+			"fbx/litmap_03/night/pre_db_electrical08"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_electrical08/vfx_wupintishi01"
+		}
+	},
+	[77] = {
+		name = "保養精油",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "玻璃瓶中的精油散發著淡淡的香氣，她說這是由山茶花提煉而成。\n也是她保養肌膚時喜歡使用的單品之一。",
+		text = "dorm3d_noshiro_bed",
+		id = 77,
+		icon = "3Ddrom_nengdai_item25",
+		model = {
+			"fbx/litmap_03/night/pre_db_cosmetic10"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_cosmetic10/vfx_wupintishi01"
+		}
+	},
+	[78] = {
+		name = "香水瓶",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "造型簡約的香水瓶，玻璃瓶身反射著柔和的光澤。\n仔細一看，正是之前送給她的那一瓶。",
+		text = "dorm3d_noshiro_bed",
+		id = 78,
+		icon = "3Ddrom_nengdai_item26",
+		model = {
+			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_cosmetic01_01/pre_db_cosmetic01c/vfx_wupintishi01"
+		}
+	},
+	[79] = {
+		name = "香薰",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "玻璃瓶中的香薰緩緩散發，清淡的香氣瀰漫在房間。\n是和她身上的氣息接近的味道。",
+		text = "dorm3d_noshiro_bed",
+		id = 79,
+		icon = "3Ddrom_nengdai_item27",
+		model = {
+			"fbx/litmap_04/night/pre_db_cosmetic02a_01"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_04/night/pre_db_cosmetic02a_01/vfx_wupintishi01"
+		}
+	},
+	[74] = {
+		name = "夜燈",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "方形的木製燈立在角落，燈芯散發的光透過紙罩映出柔和的光暈。\n是她精心挑選的房間裝飾。",
+		text = "dorm3d_noshiro_bed",
+		id = 74,
+		icon = "3Ddrom_nengdai_item23",
+		model = {
+			"fbx/litmap_03/night/pre_db_chandelier11_on"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/night/pre_db_chandelier11_on/vfx_wupintishi01"
+		}
+	},
+	[75] = {
+		name = "檯燈",
+		award = 0,
+		time = 2,
+		room_id = 2,
+		desc = "簡約的和式落地燈散發著柔和的光芒，燈罩下方懸掛著小巧的風鈴樣裝飾。\n陪伴著和她在這裡度過的每段平靜時光。",
+		text = "dorm3d_noshiro_chair",
+		id = 75,
+		icon = "3Ddrom_nengdai_item22",
+		model = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on"
+		},
+		unlock = {
+			1,
+			30221,
+			1
+		},
+		vfx_prefab = {
+			"fbx/no_bake_pay_prop/livingroom/pre_db_chandelier08_on/vfx_wupintishi01"
 		}
 	}
 }

@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我在想，要不要干脆试试把头发盘起来呢……？",
+			say = "{dorm3d}，我在想，要不要乾脆試試把頭髮盤起來呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "毕竟头发太长，如果转身太快的话，头发可能会打到你……咳。",
+			say = "畢竟頭髮太長，如果轉身太快的話，頭髮可能會打到你……咳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你呢？你比较喜欢怎样的发型呢？",
+			say = "你呢？你比較喜歡怎樣的髮型呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不用急着回答，等下坐下来一起慢慢挑选参考看看吧。",
+			say = "不用急著回答，等一下坐下來一起慢慢挑選參考看看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

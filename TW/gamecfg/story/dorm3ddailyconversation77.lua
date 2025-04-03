@@ -43,11 +43,11 @@ return {
 			},
 			options = {
 				{
-					content = "遇到了好事吗？",
+					content = "遇到了好事嗎？",
 					flag = 1
 				},
 				{
-					content = "你好像很开心？",
+					content = "你好像很開心？",
 					flag = 2
 				}
 			}
@@ -55,7 +55,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "是的，因为{dorm3d}您来和天狼星见面了。",
+			say = "是的，因為{dorm3d}您來和天狼星見面了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "这是天狼星最为期待，也是最为开心的时刻。",
+			say = "這是天狼星最期待，也是最開心的時刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "和我骄傲的{dorm3d}独处一室，实在是令天狼星心潮澎湃……",
+			say = "和我驕傲的{dorm3d}獨處一室，實在是令天狼星心潮澎湃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "接下来的时间，不如就……",
+			say = "接下來的時間，不如就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "欸、欸？难道您还没有这方面的想法吗？",
+			say = "欸、欸？難道您還沒有這方面的想法嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

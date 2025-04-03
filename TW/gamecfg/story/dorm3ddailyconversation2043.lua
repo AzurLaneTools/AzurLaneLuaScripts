@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，我会学了一个魔术哦。",
+			say = "{dorm3d}，我學會了一個魔術哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,14 +51,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "首先，请闭上眼。",
+			say = "首先，請閉上眼睛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（老实闭眼）",
+					content = "（好好閉眼）",
 					flag = 1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "呵呵，没想到{dorm3d}也会上当。",
+			say = "呵呵，沒想到{dorm3d}也會上當。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "其实我不会变魔术呢。",
+			say = "其實我不會變魔術呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感觉到嘴唇上传来的羽毛般的轻柔触感，以及少女的鼻息。",
+			say = "感覺到嘴唇上傳來的羽毛般的輕柔觸感，以及少女的鼻息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

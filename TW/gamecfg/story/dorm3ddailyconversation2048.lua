@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……你说上次的花见团子很好吃，想知道是在哪里买的？",
+			say = "……你說上次的花見糰子很好吃，想知道在哪裡買的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "其实是我自己做的……练习了很久呢。",
+			say = "其實是我自己做的……練習了很久呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}想吃的话，我现在就去做吧？",
+			say = "{dorm3d}想吃的話，我現在就去做吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要一起么？",
+			say = "要一起做嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

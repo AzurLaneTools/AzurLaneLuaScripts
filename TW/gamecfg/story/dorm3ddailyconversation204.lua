@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，最近我收藏了一个据说非常美味的甜点食谱，想着试做给你吃。",
+			say = "{dorm3d}，最近我收藏了一個據說非常美味的甜點食譜，想著試做給你吃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "但食谱上各种配料都没有写明具体比例，只写了“少许”。",
+			say = "但食譜上各種配料都沒有寫明具體比例，只寫了「少許」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,14 +37,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "……“少许”应该是多少呢？",
+			say = "……「少許」應該是多少呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "都只放一点点试试？",
+					content = "都只放一點點試試？",
 					flag = 1
 				}
 			},
@@ -74,7 +74,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯，也只能这样了，那我先试试看。",
+			say = "嗯，也只能這樣了，那我先試試看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

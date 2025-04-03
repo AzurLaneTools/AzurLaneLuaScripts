@@ -9,7 +9,7 @@ return {
 			bgm = "story-battle-16bit-sfc",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "終於，布里三姊妹戰隊的最後一人特裝型布里MKII抵達了此行的目的地－超級AI-TC的機房。",
+			say = "終於，布里三姊妹戰隊的最後一人特裝型布里MKIII抵達了此行的目的地－超級AI-TC的機房。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我刚刚看到一则占卜，上面说我今天运气很好。",
+			say = "{dorm3d}，我剛剛看到一則占卜，上面說我今天運氣很好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "理性而言，我是不相信这些的，但既然是好消息，相信一下好像也没问题。",
+			say = "理性而言，我是不相信這些的，但既然是好消息，相信好像也沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "那个占卜上也说了，如果与所爱之人待在一起，好运就能够传递给对方……",
+			say = "那個占卜上也說了，如果與所愛之人待在一起，好運就能夠傳遞給對方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，让我们一直、一直陪在彼此身边吧，可以吗？",
+			say = "{dorm3d}，讓我們一直、一直陪在彼此身邊吧，可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

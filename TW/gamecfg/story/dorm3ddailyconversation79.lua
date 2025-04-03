@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "说起来，入住宿舍以后……有些事情朝着更好的方向发展了呢。",
+			say = "說起來，住進宿舍以後……有些事情朝著更好的方向發展了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,14 +45,14 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "感谢您让天狼星入住这里，我骄傲的{dorm3d}。",
+			say = "感謝您讓天狼星入住這裡，我驕傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "朝着更好的方向发展？",
+					content = "朝著更好的方向發展？",
 					flag = 1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "比如能够像与{dorm3d}像这样长时间的近距离接触……",
+			say = "例如能夠像與{dorm3d}這樣長時間的近距離接觸……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "而且无论{dorm3d}要做什么，天狼星都能够在第一时间给予回应。",
+			say = "而且無論{dorm3d}要做什麼，天狼星都能夠在第一時間給予回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "这些对于天狼星来说，就是朝着更好的方向发展了哦。",
+			say = "這些對天狼星來說，就是朝著更好的方向發展了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "天狼星希望，这种幸福的时光能够长长久久的持续下去。",
+			say = "天狼星希望，這種幸福的時光能夠長久的持續下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

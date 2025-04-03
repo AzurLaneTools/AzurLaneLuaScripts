@@ -15,14 +15,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，今天要一起看电影吗？",
+			say = "{dorm3d}，今天要一起看電影嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没问题！",
+					content = "沒問題！",
 					flag = 1
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "嗯……那我们一起挑选要看的电影影片吧。",
+			say = "嗯……那我們一起來挑要看的電影吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "对了，要不要约定一天作为我们每周的专属电影时间呢？",
+			say = "對了，要不要約定一天作為我們每週的專屬電影時間呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "抛开工作的烦恼，依偎在一起，享受安静的二人时光。",
+			say = "拋開工作的煩惱，依偎在一起，享受安靜的兩人時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

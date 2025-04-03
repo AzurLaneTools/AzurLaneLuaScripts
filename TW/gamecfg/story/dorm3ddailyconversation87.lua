@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "每每想到天狼星现在与{dorm3d}您的关系……都会觉得十分不可思议呢。",
+			say = "每每想到天狼星現在與{dorm3d}您的關係……都會覺得十分不可思議呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "过去仅仅作为女仆侍奉在您左右，就足以让天狼星感到满足。",
+			say = "過去僅僅作為女僕侍奉在您左右，就足以讓天狼星感到滿足。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "但天狼星现在变得贪心了许多……",
+			say = "但天狼星現在變得貪心了許多……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "蝴蝶只是轻轻扇动了它的翅膀，却在天狼星的心中掀起了风暴……",
+			say = "蝴蝶只是輕輕扇動了它的翅膀，卻在天狼星的心中掀起了風暴……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "是您让天狼星改变了呢，我骄傲的{dorm3d}。",
+			say = "是您讓天狼星改變了呢，我驕傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

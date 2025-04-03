@@ -207,6 +207,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[3022101] = {
+		display = "純色設計的制服鞋，鞋款舒適輕盈。\n舒適貼合足底弧度，陪你走過每段時光。",
+		name = "素色物語",
+		unlock_dialogue_id = 29991,
+		rarity = 4,
+		ship_group_id = 30221,
+		favor_trigger_id = 1004,
+		id = 3022101,
+		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift1",
+		reply_dialogue_id = {
+			{
+				30221,
+				20304
+			}
+		},
+		shop_id = {
+			260321
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				30221,
+				{
+					"banner_gift3022101"
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -216,6 +246,9 @@ pg.dorm3d_gift = {
 		[20220] = {
 			2022001,
 			2022002
+		},
+		[30221] = {
+			3022101
 		}
 	},
 	all = {
@@ -223,6 +256,7 @@ pg.dorm3d_gift = {
 		1021002,
 		1021003,
 		2022001,
-		2022002
+		2022002,
+		3022101
 	}
 }

@@ -15,14 +15,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "最近看到水上游乐园似乎新增加了一个无重力漂浮睡眠舱……",
+			say = "最近看到水上遊樂園似乎新增了一個無重力漂浮睡眠艙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我记得是新开发的商品？",
+					content = "我記得是新開發的產品？",
 					flag = 1
 				}
 			},
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "嗯。说是可以模拟无重力环境，能让人美美地睡上一觉。",
+			say = "嗯。說是可以模擬無重力環境，能讓人好好地睡一覺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "铁血的{namecode:461:吕佐夫}小姐是这么说的。",
+			say = "鐵血的{namecode:461:吕佐夫}小姐是這麼說的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "咳，那个，要去体验无重力环境吗？",
+			say = "咳，那個，要去體驗無重力環境嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我确认过睡眠舱的大小，足够我们两个人躺进去了。",
+			say = "我確認過睡眠艙的大小，足夠我們兩個人躺進去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

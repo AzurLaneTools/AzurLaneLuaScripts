@@ -14,7 +14,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_sirus_hello8",
 			actorName = 30221,
 			nameColor = "#FFFFFF",
-			say = "你来了啊，{dorm3d}。今天有什么计划吗？如果没有的话，接下来就由我来为{dorm3d}安排一下吧？",
+			say = "你來了啊，{dorm3d}。今天有什麼計畫嗎？如果沒有的話，接下來就由我來為{dorm3d}安排一下吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "嗯？您想知道天狼星是不是已经忘记了怎么跳舞……？",
+			say = "嗯？您想知道天狼星是不是已經忘了怎麼跳舞……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "当然没有忘记！",
+			say = "當然沒有忘記！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}，天狼星可是一刻都没有疏于练习哦。",
+			say = "{dorm3d}，天狼星可是一刻都沒有疏於練習哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,18 +93,18 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "如果您还愿意让天狼星成为您的舞伴的话……",
+			say = "如果您還願意讓天狼星成為您的舞伴的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "当然愿意",
+					content = "當然願意",
 					flag = 1
 				},
 				{
-					content = "非天狼星莫属",
+					content = "非天狼星莫屬",
 					flag = 2
 				}
 			}
@@ -112,7 +112,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "太好了！那……天狼星想占用您一点时间，来复习与您的双人舞。",
+			say = "太好了！那……天狼星想佔用您一點時間，來複習與您的雙人舞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "如果您觉得单纯跳舞有些乏味的话，还可以直接……",
+			say = "如果您覺得單純跳舞有些無聊的話，還可以直接……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "欸？您现在只想和天狼星跳舞？呜……好、好吧……！",
+			say = "欸？您現在只想跟天狼星跳舞？嗚……好、好吧……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，最近几次自主训练的成绩都不太符合我自己的预期。",
+			say = "{dorm3d}，最近幾次自主訓練的成績都不太符合我自己的預期。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "虽然已经在休息时间进行了额外训练，但还是没什么起色。",
+			say = "雖然已經在休息時間進行了額外訓練，但還是沒什麼起色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "能麻烦你陪我一起训练吗？",
+			say = "能麻煩你陪我一起訓練嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只要有你在附近看着的话……我想应该会提升得很快的。",
+			say = "只要有你在附近看著的話……我想應該會進步得很快的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

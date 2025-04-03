@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 30221,
-			say = "我、我会好好保管的！",
+			say = "我、我會好好保管的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

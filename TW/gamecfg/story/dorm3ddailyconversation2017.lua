@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……{dorm3d}刚刚叫我了？抱歉，我刚刚走神了。",
+			say = "……{dorm3d}剛剛叫我了？抱歉，我剛剛恍神了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "最近总是在你身边的时候才会这样……",
+			say = "最近總是在你身邊的時候才會這樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "只要看着你，就会由衷地感到安心和可靠。",
+			say = "只要看著你，就會由衷地感到安心和可靠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "然后就会想着和你有关的事情想入迷了……",
+			say = "然後就會想著跟你有關的事情想入迷了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

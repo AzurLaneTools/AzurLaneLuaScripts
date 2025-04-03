@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，我又挑了一部电影……放心吧，这次不是恐怖电影。",
+			say = "{dorm3d}，我又挑了一部電影……放心吧，這次不是恐怖電影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "是一部高分爱情电影，说是很适合……嗯……情侣之间一起观看。",
+			say = "是一部高分愛情電影，說很適合……嗯……情侶之間一起觀看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "稍后坐下来一起看吧。",
+			say = "待會坐下來一起看吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

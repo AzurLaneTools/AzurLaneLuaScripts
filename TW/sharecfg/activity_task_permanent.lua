@@ -6,6 +6,8 @@ pg.activity_task_permanent = setmetatable({
 		6001,
 		6002,
 		6003,
+		6004,
+		6005,
 		6006,
 		6007,
 		6008,
@@ -120,6 +122,58 @@ pg.base.activity_task_permanent = {
 			35051,
 			35052,
 			35053
+		}
+	},
+	[6004] = {
+		gametip = "可獲得大潮限定換裝「夜宴微醺」",
+		banner_route = "permanent_dachaolifu",
+		gametip_extra = "最快7日獲得",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "夜宴微醺",
+		id = 6004,
+		over_task_id = "",
+		eliminate_task_id = {
+			35054,
+			35055,
+			35056,
+			35057,
+			35058,
+			35059,
+			35060,
+			35061,
+			35062,
+			35063,
+			35064,
+			35065,
+			35066,
+			35067
+		}
+	},
+	[6005] = {
+		gametip = "可獲得山城限定換裝「盛裝的黑貓」",
+		banner_route = "permanent_shanchenglifu",
+		gametip_extra = "最快7日獲得",
+		task_extra = "",
+		over_pt = 0,
+		activity_name = "港區的特別宴會",
+		id = 6005,
+		over_task_id = "",
+		eliminate_task_id = {
+			35068,
+			35069,
+			35070,
+			35071,
+			35072,
+			35073,
+			35074,
+			35075,
+			35076,
+			35077,
+			35078,
+			35079,
+			35080,
+			35081
 		}
 	},
 	[6006] = {

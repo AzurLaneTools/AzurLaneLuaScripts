@@ -17,7 +17,7 @@ return {
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture2_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔……这种感觉……有些难以形容呢。",
+			say = "唔……這種感覺……有些難以形容呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -16,7 +16,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，现在感觉很适合散步呢。",
+			say = "{dorm3d}，現在感覺很適合散步呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,14 +28,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "四周都很安静，只有海浪声……感觉好放松。",
+			say = "四周都很安靜，只有海浪聲……感覺很放鬆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要小心脚下。",
+					content = "要小心腳下。",
 					flag = 1
 				}
 			}
@@ -46,7 +46,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "那……我们牵着手走怎么样？",
+			say = "那……我們牽著手走怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "这样就不会摔倒了哦。",
+			say = "這樣就不會跌倒了哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

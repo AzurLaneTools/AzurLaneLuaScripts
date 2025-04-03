@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，不是说今天还有工作没做完吗？",
+			say = "{dorm3d}，不是說今天還有工作沒做完嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "现在来找我闲聊……是在偷懒？",
+			say = "現在來找我閒聊……是在偷懶嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "（移开视线）",
+					content = "（移開視線）",
 					flag = 1
 				}
 			},
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，你的反应已经暴露了哦……",
+			say = "{dorm3d}，你的反應已經暴露了哦……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "把工作内容给我，我来帮你吧。",
+			say = "把工作內容給我，我來幫你吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

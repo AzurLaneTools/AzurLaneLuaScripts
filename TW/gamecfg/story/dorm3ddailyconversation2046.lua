@@ -15,14 +15,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "彻底放松下来之后，积攒已久的疲劳感就会一下袭来啊。",
+			say = "徹底放鬆下來之後，累積已久的疲勞感就會一下襲來啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那这次换我帮{namecode:50:能代}按摩吧！",
+					content = "那這次換我幫{namecode:50:能代}按摩吧！",
 					flag = 1
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "欸？真的可以吗？",
+			say = "欸？真的可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "那那……等一下就……拜托了。",
+			say = "那那……等一下就……拜託了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

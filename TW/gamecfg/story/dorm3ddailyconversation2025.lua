@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我正在规划明天三餐吃什么。",
+			say = "我正在規劃明天三餐吃什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}有什么想吃的么？",
+			say = "{dorm3d}有什麼想吃的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯……明天，你也会在这里的，对吧？",
+			say = "嗯……明天，你也會在這裡的，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

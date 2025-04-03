@@ -35,7 +35,7 @@ slot0.execute = function(slot0, slot1)
 			id = slot6:getSkinId()
 		}).skinName,
 		price = slot7,
-		itemConfig = SkinCouponActivity.StaticGetItemConfig(),
+		drop = SkinCouponActivity.StaticGetItemDrop(),
 		onYes = function ()
 			pg.ConnectionMgr.GetInstance():Send(11202, {
 				cmd = 1,

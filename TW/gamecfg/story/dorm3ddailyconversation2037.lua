@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，要吃点水果吗？或者需要什么其他东西？",
+			say = "{dorm3d}，要吃點水果嗎？或是需要什麼其他東西？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,14 +51,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "可以尽管和我说哦。",
+			say = "可以儘管跟我說哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "突然这是怎么了？",
+					content = "突然這是怎麼了？",
 					flag = 1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "因为我反思了一下，感觉自己好像不如其他人对你主动……",
+			say = "因為我反思了一下，覺得自己好像不如別人對你主動……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "所以我想接下来更以你为中心。",
+			say = "所以我接下來想更以你為中心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "咳咳，可不许嫌弃我烦哦。",
+			say = "咳咳，可不許嫌棄我煩哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

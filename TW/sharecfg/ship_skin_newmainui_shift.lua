@@ -402,10 +402,10 @@ pg.ship_skin_newmainui_shift = {
 	[307075] = {
 		skin = 307075,
 		skin_shift = {
-			-80,
+			-277,
+			10,
 			0,
-			0,
-			1.15
+			1
 		},
 		l2d_shift = {
 			0,

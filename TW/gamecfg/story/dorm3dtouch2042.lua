@@ -17,7 +17,7 @@ return {
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_ik_furniture3_tone2",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你会觉得这样很可爱……吗？",
+			say = "你會覺得這樣很可愛……嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

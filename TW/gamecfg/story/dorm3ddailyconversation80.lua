@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "天狼星最近在尝试将皇家的传统美食与东煌的特色风味融合，做一道特殊的融合料理。",
+			say = "天狼星最近在嘗試將皇室的傳統美食與東煌的特色風味融合，做一道特殊的融合料理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,11 +43,11 @@ return {
 			},
 			options = {
 				{
-					content = "皇家的传统美食？",
+					content = "皇家的傳統美食？",
 					flag = 1
 				},
 				{
-					content = "东煌的特色风味？",
+					content = "東煌的特色風味？",
 					flag = 2
 				}
 			}
@@ -55,7 +55,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "是的。天狼星听说东煌有一道叫做“剁椒鱼头”的料理，而皇家也有吃鱼的传统……",
+			say = "是的。天狼星聽說東煌有一道叫做「剁椒魚頭」的料理，而皇家也有吃魚的傳統……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "天狼星就在尝试将“剁椒”这种风味，融入仰望星空派。",
+			say = "天狼星在嘗試將「剁椒」這種風味，融入仰望星空派。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			}
 		},
 		{
-			say = "（好可怕的尝试……）",
+			say = "（好可怕的嘗試……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -86,7 +86,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}？您的脸色突然变得有些差劲……",
+			say = "{dorm3d}？您的臉色突然變得有點差……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,8 +117,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "指挥官",
-			say = "我没事，只是有点好奇这道……“剁椒星空派”，目前的研发进度是？",
+			actorName = "指揮官",
+			say = "我沒事，只是有點好奇這道……「剁椒星空派」，目前的研發進度是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "唔，还停留在制作仰望星空派的部分。",
+			say = "唔，還停留在製作仰望星空派的部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "每次烤出来的派，都不太尽如人意呢……",
+			say = "每次烤出來的派，都不太盡如人意呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			}
 		},
 		{
-			say = "（呼，看来一段时间内天狼星不会做出这种料理，这下可以松一口气了……）",
+			say = "（呼，看來一段時間內天狼星不會做出這種料理，這下可以鬆一口氣了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

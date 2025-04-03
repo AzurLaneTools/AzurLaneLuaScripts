@@ -12,8 +12,8 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = "指挥官",
-			say = "你会不会觉得现在的房间布置太单调了？",
+			actorName = "指揮官",
+			say = "妳會不會覺得現在的房間佈置太單調了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -22,7 +22,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "并不会哦，我的{dorm3d}。",
+			say = "並不會哦，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "不过，天狼星之前提过，希望让{dorm3d}把路上看到的花送给我。",
+			say = "不過，天狼星之前提過，希望讓{dorm3d}把路上看到的花送給我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "要不要干脆借这个机会，尝试一下插花呢？这样{dorm3d}也不会觉得房间布置单调了。",
+			say = "要不要乾脆趁這個機會，嘗試一下插花呢？這樣{dorm3d}也不會覺得房間佈置單調了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,11 +93,11 @@ return {
 			},
 			options = {
 				{
-					content = "天狼星会插花？",
+					content = "天狼星會插花？",
 					flag = 1
 				},
 				{
-					content = "女仆还要学插花吗？",
+					content = "女僕還要學插花嗎？",
 					flag = 2
 				}
 			}
@@ -106,7 +106,7 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 1,
-			say = "嗯……不算会，只是勉强了解一点点。",
+			say = "嗯……不算會，只是勉強了解一點點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 2,
-			say = "为{dorm3d}提供舒适和赏心悦目的居家环境，是女仆的分内之事。",
+			say = "為{dorm3d}提供舒適和賞心悅目的居家環境，是女僕的分內之事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "虽然是天狼星提出的插花，但我其实并不擅长呢……",
+			say = "雖然是天狼星提出的插花，但我其實不擅長呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "不过提出这种自己并不擅长的事，也是因为天狼星实在太想和{dorm3d}一起做了……！",
+			say = "不過提出這種自己並不擅長的事，也是因為天狼星實在太想和{dorm3d}一起做了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "果然……还请您惩罚天狼星这个厚脸皮的女仆吧，我的{dorm3d}。",
+			say = "果然……還請您懲罰天狼星這個厚臉皮的女僕吧，我的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "天狼星已经做好了接受惩罚的准备……！",
+			say = "天狼星已經做好了接受懲罰的準備……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

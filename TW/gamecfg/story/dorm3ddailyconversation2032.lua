@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}如果身体疲劳的话，我可以帮忙按摩。",
+			say = "{dorm3d}如果身體疲勞的話，我可以幫忙按摩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,18 +26,18 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "不过在跟着书里学习按摩手法的时候，我还看到了关于踩背按摩的描写……",
+			say = "不過在跟著書裡學習按摩手法的時候，我還看到了關於踩背按摩的描寫……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "要试试吗？",
+					content = "要試試看嗎？",
 					flag = 1
 				},
 				{
-					content = "想试试看！",
+					content = "想試試看！",
 					flag = 1
 				}
 			},
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "真、真的要试吗？！会不会有些过分……而且我也没{dorm3d}想得那么轻……",
+			say = "真、真的要試嗎？！會不會有點過分……而且我也沒有{dorm3d}想得那麼輕……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "但如果是你的要求，我会努力踩的……是，是全身都要吗？",
+			say = "但如果是你的要求，我會好好踩的……是，是全身都要嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

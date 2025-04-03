@@ -15,18 +15,18 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "这两天嗓子总是痒痒的……咳咳……还有点疲惫。",
+			say = "這兩天喉嚨總是癢癢的……咳咳……還有點疲憊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "着凉了吗？好好休息！",
+					content = "著涼了嗎？好好休息！",
 					flag = 1
 				},
 				{
-					content = "我帮你拿药过来吧！",
+					content = "我幫妳拿藥過來吧！",
 					flag = 1
 				}
 			},
@@ -61,7 +61,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "嗯，我知道了……谢谢你。",
+			say = "嗯，我知道了……謝謝你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "不过听了你的话，好像突然就有精神了。",
+			say = "不過聽了你的話，好像突然就有精神了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "果然只要你陪在我身边，就连身体上的不舒服也会很快消失呢。",
+			say = "果然只要你陪在我身邊，就連身體上的不舒服也會很快消失呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

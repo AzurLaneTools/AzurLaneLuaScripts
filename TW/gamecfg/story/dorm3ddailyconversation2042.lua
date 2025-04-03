@@ -15,14 +15,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "和我一起运动的事情，你考虑得怎么样了呢？",
+			say = "跟我一起運動的事情，你考慮得怎麼樣了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "再让我纠结一下。",
+					content = "再讓我糾結一下。",
 					flag = 1
 				}
 			},
@@ -58,7 +58,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "唔，虽然是为了你的健康着想，但你平时的工作也很累。",
+			say = "唔，雖然是為了你的健康著想，但你平常的工作也很累。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,14 +70,14 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "要不要从简单一点的开始？这样应该就不会纠结了吧。",
+			say = "要不要從簡單一點的開始？這樣應該就不會糾結了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "可以从简单的开始么？",
+					content = "可以從簡單的開始嗎？",
 					flag = 1
 				}
 			}
@@ -87,7 +87,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "例如……做文书工作的时候用空闲的手举一下哑铃？怎么样？",
+			say = "例如……做文書工作的時候用空閒的手舉一下啞鈴？怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我也会看着，不会让你受伤的哦。",
+			say = "我也會盯著，不會讓你受傷的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

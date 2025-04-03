@@ -17,7 +17,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_gift1_tone6",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "晚一点的话……想要我帮你按一按吗？",
+			say = "晚一點的話……想要我幫你按一按嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

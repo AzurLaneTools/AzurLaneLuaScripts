@@ -15,18 +15,18 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，你认为什么是幸福呢？",
+			say = "{dorm3d}，你認為什麼是幸福呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "享受当下的此刻就是幸福。",
+					content = "享受當下的此刻就是幸福。",
 					flag = 1
 				},
 				{
-					content = "和你在一起就是幸福。",
+					content = "和妳在一起就是幸福。",
 					flag = 1
 				}
 			},
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "与{dorm3d}在一起的当下就是幸福，我也是这样认为的。",
+			say = "與{dorm3d}在一起的當下就是幸福，我也是這麼認為的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

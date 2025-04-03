@@ -37,14 +37,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "突然用这种方式喊我的名字……怎么了吗？",
+			say = "突然用這種方式叫我的名字……怎麼了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "只是突然想起有这种看即时反应的游戏。",
+					content = "只是突然想起來有這種看即時反應的遊戲。",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "原来如此……是为了看我被你叫到的时候的表情啊。",
+			say = "原來如此……是為了看我被你叫到的時候的表情啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "那，再多喊几次也没关系，{dorm3d}。",
+			say = "那，再多喊幾次也沒關係，{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我会一直等待着，你呼喊我名字的那个瞬间。",
+			say = "我會一直等待著，你呼喊我名字的那個瞬間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

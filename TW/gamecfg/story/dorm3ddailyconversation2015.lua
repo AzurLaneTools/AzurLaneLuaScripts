@@ -15,14 +15,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "今天我准备为{dorm3d}做一顿丰盛的晚餐，请好好期待吧。",
+			say = "今天我準備為{dorm3d}做一頓豐盛的晚餐，請好好期待吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "今天是什么节日吗？",
+					content = "今天是什麼節日嗎？",
 					flag = 1
 				}
 			},
@@ -57,7 +57,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不，今天只是普通的一天而已，但我想过得更有仪式感一些。",
+			say = "不，今天只是普通的一天而已，但我想過得更有儀式感一點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过……既然{dorm3d}都这么问了，不妨就将这一天定为惊喜日吧？",
+			say = "不過……既然{dorm3d}都這麼問了，不妨就將這一天定為驚喜日吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "以后每个月的这一天，我都会为你准备惊喜的，怎么样？",
+			say = "以後每個月的這一天，我都會為你準備驚喜的，怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

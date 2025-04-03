@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "问我这周的安排么？",
+			say = "問我這週的安排嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,14 +26,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我想先把借来的几本书看完，还有一些额外的自主训练安排……",
+			say = "我想先把借來的幾本書看完，還有一些額外的自主訓練計畫……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "看来约你出门是没机会了？",
+					content = "看來約妳出門是沒機會了？",
 					flag = 1
 				}
 			}
@@ -43,7 +43,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "……约、约我？那……其他事情都可以搁置的。",
+			say = "……約、約我？那……其他事情都可以擱置的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "你一直都是……最优先事项。",
+			say = "你一直都是……最優先事項。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

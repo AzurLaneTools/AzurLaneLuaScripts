@@ -63,11 +63,11 @@ pg.dorm3d_resource = {
 	},
 	[302212] = {
 		ship_group = 30221,
-		name = "能代泳装",
+		name = "能代泳裝",
 		type = 1,
 		animator = "",
 		picture = "regular",
-		unlock_text = "在沙滩中邀请能代解锁",
+		unlock_text = "在沙灘中邀請能代解鎖",
 		model_id = "nengdai_swim",
 		id = 302212,
 		head_Icon = "dorm3Dchar/nengdai",

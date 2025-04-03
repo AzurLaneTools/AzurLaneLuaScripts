@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，昨晚我做了一个梦。",
+			say = "{dorm3d}，昨晚我做了一個夢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "梦见我们在陪伴着彼此，一直、一直……直到时间尽头。",
+			say = "夢見我們在陪伴著彼此，一直、一直……直到時間盡頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "醒来的时候我很开心，但却没有太多的期待。",
+			say = "醒來的時候我很開心，但卻沒有太多的期待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "因为我知道，现在的我们已经在朝着这样的未来前进着，对吗？",
+			say = "因為我知道，現在的我們已經在朝著這樣的未來前進著，對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

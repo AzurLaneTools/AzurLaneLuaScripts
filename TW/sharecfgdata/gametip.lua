@@ -34013,12 +34013,12 @@ _G.pg.base.gametip.dorm3d_role_assets_download = {
 
 
 _G.pg.base.gametip.volleyball_end_tip = {
-	tip = "和天狼星度過了美好的下午"
+	tip = "和$1度過了美好的下午"
 }
 
 
 _G.pg.base.gametip.volleyball_end_award = {
-	tip = "精力-1，天狼星契合度+40"
+	tip = "精力-1，$1契合度+40"
 }
 
 
@@ -34028,7 +34028,7 @@ _G.pg.base.gametip.sure_exit_volleyball = {
 
 
 _G.pg.base.gametip.dorm3d_photo_active_zone = {
-	tip = "1$"
+	tip = "$1區域專屬"
 }
 
 
@@ -34419,6 +34419,21 @@ _G.pg.base.gametip.dorm3d_purchase_confirm_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_purchase_label_special = {
+	tip = "特典"
+}
+
+
+_G.pg.base.gametip.dorm3d_purchase_outtime = {
+	tip = "該傢俱已下架"
+}
+
+
+_G.pg.base.gametip.dorm3d_collect_block_by_furniture = {
+	tip = "該物品被傢俱”$1“替換，暫時無法收集"
+}
+
+
 _G.pg.base.gametip.cruise_phase_title = {
 	tip = "階段"
 }
@@ -34575,7 +34590,7 @@ _G.pg.base.gametip.dorm3d_collection_title_en = {
 
 
 _G.pg.base.gametip.dorm3d_collection_cost_tip = {
-	tip = "相伴5分鐘，<icon name=stamina/>精力-1，天狼星契合度<color=#fc4670>+40</color>"
+	tip = "相伴5分鐘，<icon name=stamina/>精力-1，契合度<color=#fc4670>+40</color>"
 }
 
 
@@ -34736,6 +34751,141 @@ _G.pg.base.gametip.dorm3d_appellation_waring4 = {
 
 _G.pg.base.gametip.dorm3d_shop_gift_owned = {
 	tip = "購買次數已達上限"
+}
+
+
+_G.pg.base.gametip.dorm3d_accompany_not_download = {
+	tip = "請先下載$1相關資源"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day1 = {
+	tip = "週一"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day2 = {
+	tip = "週二"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day3 = {
+	tip = "週三"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day4 = {
+	tip = "週四"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day5 = {
+	tip = "週五"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day6 = {
+	tip = "週六"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_day7 = {
+	tip = "週日"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_remember = {
+	tip = "請記住角色今日的行程"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_choose = {
+	tip = "請選擇角色今日的行程："
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior1 = {
+	tip = "閱讀"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior2 = {
+	tip = "畫畫"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior3 = {
+	tip = "學習"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior4 = {
+	tip = "舞蹈"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior5 = {
+	tip = "排球"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior6 = {
+	tip = "跑步"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior7 = {
+	tip = "打掃"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior8 = {
+	tip = "煮飯"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior9 = {
+	tip = "洗衣服"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior10 = {
+	tip = "遊戲"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior11 = {
+	tip = "散步"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_behavior12 = {
+	tip = "睡覺"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate1 = {
+	tip = "達人"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate2 = {
+	tip = "超人"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate3 = {
+	tip = "熱愛"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate4 = {
+	tip = "癡迷"
+}
+
+
+_G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate5 = {
+	tip = "均衡發展"
 }
 
 
@@ -35200,6 +35350,51 @@ _G.pg.base.gametip.activity_shop_template_normaltext = {
 
 _G.pg.base.gametip.activity_shop_template_extratext = {
 	tip = "活動追趕道具兌換"
+}
+
+
+_G.pg.base.gametip.dorm3d_now_is_downloading = {
+	tip = "資源下載中"
+}
+
+
+_G.pg.base.gametip.dorm3d_resource_download_complete = {
+	tip = "下載完成"
+}
+
+
+_G.pg.base.gametip.dorm3d_delete_finish = {
+	tip = "刪除成功"
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_tip = {
+	tip = "先去天狼星的房間看看吧"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_table = {
+	tip = "餐廳"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_chair = {
+	tip = "客廳"
+}
+
+
+_G.pg.base.gametip.dorm3d_noshiro_bed = {
+	tip = "臥室"
+}
+
+
+_G.pg.base.gametip.dorm3d_guide_beach_tip = {
+	tip = "請先下載對應角色資源"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_favor_max = {
+	tip = "契合度已經到達上限，送禮將不會獲得契合度，是否確認贈送？"
 }
 
 

@@ -15,7 +15,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "所谓风雅，就如这房中之花，窗外之风与鸟，只差一轮皓月了。",
+			say = "所謂風雅，就如這房中之花，窗外之風與鳥，只差一輪皓月了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,14 +51,14 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，晚上要一起赏月吗？",
+			say = "{dorm3d}，晚上要一起賞月嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好，今晚会有月亮吗？",
+					content = "好，今晚會有月亮嗎？",
 					flag = 1
 				}
 			}
@@ -68,7 +68,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "我查过了天气，应该会有的，嗯……再准备一点合适的饮品。",
+			say = "我查過了天氣，應該會有的，嗯……再準備一點合適的飲品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "也许{dorm3d}小酌之后会对着月亮由景触情，对我说出那句话呢……",
+			say = "也許{dorm3d}小酌之後會對著月亮由景觸情，對我說出那句話呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

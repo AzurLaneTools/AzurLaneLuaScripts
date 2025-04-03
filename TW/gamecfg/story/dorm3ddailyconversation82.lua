@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = "指挥官",
-			say = "该说天狼星总是干劲满满吗……印象中从没见过你有疲惫的时候啊。",
+			say = "該說天狼星總是幹勁滿滿嗎……印象中從沒看見妳有疲憊的時候啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "关于这点，之前是为了要适应战斗的节奏，天狼星可以利用碎片时间完成休息。",
+			say = "關於這一點，之前是為了要適應戰鬥的節奏，天狼星可以利用碎片時間完成休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "这个习惯也一直保留了下来，所以现在在{dorm3d}面前也不会流露出疲态。",
+			say = "這個習慣也一直保留了下來，所以現在在{dorm3d}面前也不會流露出疲態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,8 +71,8 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "指挥官",
-			say = "那岂不是丧失了赖床这种非常重要的乐趣吗？",
+			actorName = "指揮官",
+			say = "那豈不是喪失了賴床這種非常重要的樂趣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "{dorm3d}认为赖床是非常重要的乐趣，那么，您应该有会赖床的时候。",
+			say = "{dorm3d}認為賴床是非常重要的樂趣，那麼，您應該有會賴床的時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "为了让天狼星也体会到这种乐趣……{dorm3d}今天应该就会留在这里，教会我这种体验。",
+			say = "為了讓天狼星也體會到這種樂趣……{dorm3d}今天應該就會留在這裡，教我這種體驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "天狼星现在就去准备床铺，以便让您有足够舒适的赖床体验，我……骄傲的{dorm3d}。",
+			say = "天狼星現在就去準備床鋪，以便讓您有足夠舒適的賴床體驗，我……驕傲的{dorm3d}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

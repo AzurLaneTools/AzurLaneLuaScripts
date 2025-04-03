@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "虽然港区的同伴里有许多是真正的女仆……",
+			say = "雖然港區的同伴裡有許多是真正的女僕……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "但不是女仆的大家还是会在活动的时候打扮成女仆呢，当然也包括我。",
+			say = "但不是女僕的大家還是會在活動的時候打扮成女僕呢，當然也包括我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……我这么说，是不是有点太绕了呢……",
+			say = "……我這麼說，是不是有點繞太大圈了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "不过，就算不是真正的女仆，你的要求我也会满足的。",
+			say = "不過，就算不是真正的女僕，你的要求我也會滿足的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我可不会输的。",
+			say = "我可不會輸的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

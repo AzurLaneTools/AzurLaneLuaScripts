@@ -15,18 +15,18 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}平时有运动习惯吗 ？",
+			say = "{dorm3d}平時有運動習慣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "经常运动。",
+					content = "經常運動。",
 					flag = 1
 				},
 				{
-					content = "不太运动。",
+					content = "不太運動。",
 					flag = 1
 				}
 			}
@@ -36,7 +36,7 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "果然和我预想得差不多呢。",
+			say = "果然跟我想得差不多呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "……其实定期且适量的运动对维持健康很有帮助。",
+			say = "……其實定期且適量的運動對維持健康很有幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "要是你觉得自己运动比较难坚持的话，要不要和我一起？",
+			say = "要是您覺得自己運動比較難維持的話，要不要跟我一起運動？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

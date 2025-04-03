@@ -12,7 +12,7 @@ pg.dorm3d_minigame = {
 		}
 	},
 	[70] = {
-		name = "日程",
+		name = "行程",
 		action = "",
 		id = 70,
 		room_id = 2,

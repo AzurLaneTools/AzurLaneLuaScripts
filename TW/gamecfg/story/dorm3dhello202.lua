@@ -16,7 +16,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，今天有什么安排吗？还是先休息一会，再慢慢做打算呢？",
+			say = "{dorm3d}，今天有什麼安排嗎？還是先休息一下，再慢慢做打算呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，方便的话，可以填一份调查问卷么？",
+			say = "{dorm3d}，方便的話，可以填一份調查問卷嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不用紧张，是我个人制作的，只是想通过这种方式更有效率地了解你的喜好。",
+			say = "不用緊張，是我個人製作的，只是想透過這種方式更有效率地了解你的喜好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,18 +37,18 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "这样……也更方便在生活起居上照顾你。",
+			say = "這樣……也更方便在生活起居上照顧你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "好像有些奇怪的问题？",
+					content = "好像有點奇怪的問題？",
 					flag = 1
 				},
 				{
-					content = "“喜欢的泳衣款式？”",
+					content = "「喜歡的泳衣款式？」",
 					flag = 1
 				}
 			},
@@ -83,7 +83,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "咳，那个部分是……附加调查。",
+			say = "咳，那個部分是……附加調查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

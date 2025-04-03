@@ -1,16 +1,18 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5879",
-		type = 3,
+		type = 2,
 		id = 1,
 		pic = "temp1",
+		param = {
+			"dorm 3d select"
+		},
 		time = {
 			{
 				{
 					2025,
 					4,
-					1
+					3
 				},
 				{
 					0,
@@ -22,7 +24,7 @@ pg.activity_banner = {
 				{
 					2025,
 					4,
-					7
+					9
 				},
 				{
 					23,
@@ -37,14 +39,14 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"crusing"
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
 					4,
-					1
+					3
 				},
 				{
 					0,
@@ -55,8 +57,40 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					5,
-					31
+					4,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5364",
+		type = 3,
+		id = 3,
+		pic = "temp3",
+		time = {
+			{
+				{
+					2025,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					16
 				},
 				{
 					23,
@@ -68,13 +102,11 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
-		pic = "temp3",
+		id = 4,
+		pic = "temp4",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
@@ -104,42 +136,15 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5331",
-		type = 3,
-		id = 4,
-		pic = "temp4",
-		time = {
-			{
-				{
-					2025,
-					3,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5321",
-		type = 3,
+		type = 2,
 		id = 5,
 		pic = "temp5",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
 		time = {
 			{
 				{
@@ -157,7 +162,7 @@ pg.activity_banner = {
 				{
 					2025,
 					4,
-					10
+					9
 				},
 				{
 					23,
@@ -210,14 +215,14 @@ pg.activity_banner = {
 		id = 7,
 		pic = "temp7",
 		param = {
-			"scene court yard"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					3,
-					20
+					4,
+					1
 				},
 				{
 					0,
@@ -228,8 +233,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					4,
-					9
+					5,
+					31
 				},
 				{
 					23,
@@ -237,52 +242,6 @@ pg.activity_banner = {
 					59
 				}
 			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					3,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 9,
-		pic = "temp9",
-		param = {
-			"scene court yard"
 		}
 	},
 	[98] = {
@@ -708,19 +667,13 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[3] = {
+		[2] = {
 			1,
+			2,
 			4,
 			5,
-			1003
-		},
-		[2] = {
-			2,
-			3,
 			6,
 			7,
-			8,
-			9,
 			1000,
 			1001,
 			1002,
@@ -744,6 +697,10 @@ pg.activity_banner = {
 			1022,
 			1023,
 			1024
+		},
+		[3] = {
+			3,
+			1003
 		},
 		[9] = {
 			98
@@ -780,8 +737,6 @@ pg.activity_banner = {
 		5,
 		6,
 		7,
-		8,
-		9,
 		98,
 		99,
 		100,

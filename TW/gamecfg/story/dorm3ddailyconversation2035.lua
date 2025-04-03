@@ -15,7 +15,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我最近读了一本新的小说。",
+			say = "我最近讀了一本新的小說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -26,7 +26,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "不过是主要描写爱情的小说，{dorm3d}应该对这种内容不太感兴趣吧？",
+			say = "不過主要是描寫愛情的小說，{dorm3d}應該對這種內容不太感興趣吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,14 +37,14 @@ return {
 			side = 2,
 			hidePaintObj = true,
 			nameColor = "#FFFFFF",
-			say = "只是作者的文笔很是优美，让一个普通的爱情故事变得不那么普通了。",
+			say = "只是作者的文筆很優美，讓一個普通的愛情故事變得不那麼普通了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "说来听听？",
+					content = "說來聽聽？",
 					flag = 1
 				}
 			},
@@ -79,7 +79,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "我还没有读完，不如等今晚我读完了，当睡前故事讲给你听吧。",
+			say = "我還沒讀完，不如等今晚我讀完了，當睡前故事講給你聽吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

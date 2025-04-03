@@ -22,7 +22,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "就算天狼星的料理水平再怎么不尽如人意，也绝对不会用微波炉泡茶的！",
+			say = "就算天狼星的料理水準再怎麼不盡人意，也絕對不會用微波爐泡茶的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			},
 			options = {
 				{
-					content = "这算是皇家的坚持吗？",
+					content = "這算是皇家的堅持嗎？",
 					flag = 1
 				}
 			}
@@ -60,7 +60,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "当然！要泡茶的话，一定要用水壶把水烧开。",
+			say = "當然！要泡茶的話，一定要用水壺把水燒開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "绝对不可以接一杯水然后放进微波炉加热哦！",
+			say = "絕對不可以接一杯水然後放進微波爐加熱哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "您该不会……想这么试试吧？",
+			say = "您該不會……想這麼試試吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "开个玩笑而已，不过没想到天狼星的反应意外地有趣……",
+			say = "開個玩笑而已，不過沒想到天狼星的反應意外地有趣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#FFFFFF",
 			actorName = 20220,
 			optionFlag = 2,
-			say = "其它任何事都可以，唯独在这件事上，请恕天狼星无法妥协。",
+			say = "其它任何事都可以，唯獨在這件事上，請恕天狼星無法妥協。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			},
 			options = {
 				{
-					content = "天狼星的反应好有趣",
+					content = "天狼星的反應好有趣",
 					flag = 1
 				}
 			}
@@ -214,7 +214,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "欸？原来您是在和天狼星开玩笑啊……",
+			say = "欸？原來您是在跟天狼星開玩笑啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "差点就要做好毁掉厨房也不能让您这样做的觉悟了……",
+			say = "差點就要做好毀掉廚房也不能讓您這麼做的覺悟了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = "指挥官",
+			actorName = "指揮官",
 			say = "……",
 			typewriter = {
 				speed = 0.05,

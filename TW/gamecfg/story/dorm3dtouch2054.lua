@@ -17,7 +17,7 @@ return {
 			voice = "event:/dorm/Tianlangxing_dorm3d_tone1/drom3d_Noshiro_ik_gift1_tone7",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "在这个时候送上新年祝福，你会觉得奇怪吗……///",
+			say = "在這個時候送上新年祝福，你會覺得很奇怪嗎……///",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

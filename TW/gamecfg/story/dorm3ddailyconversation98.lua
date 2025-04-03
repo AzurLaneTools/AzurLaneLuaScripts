@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "您说在闲暇之余，阅读了一些以皇家过去真实存在的案件为蓝本撰写的侦探小说……",
+			say = "您說在閒暇之餘，閱讀了一些以皇家過去真實存在的案件為藍本撰寫的偵探小說……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "欸？想让天狼星猜猜看是什么故事蓝本？",
+			say = "欸？想讓天狼星猜猜看是什麼故事藍本？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "我猜是……“开膛手”？",
+			say = "我猜是……「開膛手」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "答对了吗？呵呵，那就好。",
+			say = "答對了嗎？呵呵，那就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "毕竟最为有名的便是“开膛手”的案件呢。",
+			say = "畢竟最有名的便是「開膛手」的案件呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "将他人生命轻易夺走，是“开膛手”永远无法洗涮掉的罪孽。",
+			say = "將他人生命輕易奪走，是「開膛手」永遠無法洗刷掉的罪孽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "从个人角度上说，天狼星其实不希望有更多娱乐化这类存在的内容呢……",
+			say = "從個人角度上來說，天狼星其實不希望有更多娛樂化這類存在的內容呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "欸？您说突然变得不太像天狼星了吗？",
+			say = "欸？您說突然變得不太像天狼星了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 20220,
-			say = "唔，也许是和{dorm3d}您在一起的时间变久了，连思考的方式也受到了影响呢。",
+			say = "唔，也許是和{dorm3d}您在一起的時間變久了，連思考的方式也受到了影響呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

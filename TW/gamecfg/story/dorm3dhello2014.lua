@@ -16,7 +16,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			nameColor = "#FFFFFF",
-			say = "不知道从什么时候开始……只要陪在{dorm3d}的身边就会感觉无比喜悦……如果可以的话，希望我们能有更多时间在一起呢。",
+			say = "不知道從什麼時候開始……只要陪在{dorm3d}的身邊就會感覺無比喜悅……如果可以的話，希望我們能有更多時間在一起呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

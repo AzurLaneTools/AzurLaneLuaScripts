@@ -326,6 +326,7 @@ pg.skill_data_template = setmetatable({
 		60570,
 		60580,
 		60590,
+		60600,
 		60610,
 		60611,
 		60612,
@@ -12280,6 +12281,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "戰鬥中會週期性發出音效的奇怪裝置",
 		id = 60590,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60600] = {
+		desc_get = "",
+		name = "80mm98式連裝大炮",
+		type = 0,
+		max_level = 0,
+		desc = "先鋒艦隊的重櫻角色裝備時，自身炮擊屬性提高5%，防空炮開火後3秒內，屬性增益效果減半",
+		id = 60600,
 		system_transform = {},
 		world_death_mark = {
 			1
