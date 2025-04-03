@@ -83,6 +83,7 @@ pg.pay_data_display = setmetatable({
 		87,
 		88,
 		89,
+		90,
 		1000,
 		1001,
 		1002,
@@ -104,6 +105,7 @@ pg.pay_data_display = setmetatable({
 		1018,
 		1019,
 		1020,
+		1021,
 		2001,
 		2002,
 		2003,
@@ -8762,6 +8764,105 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[90] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 우편함으로 발송됩니다.\n※모두 소지하고 있는 경우에는 자동으로 다이아×680개로 변환됩니다.",
+		type = 1,
+		name = "스킨 패키지(학교 생활)",
+		first_pay_double = 0,
+		name_display = "스킨 패키지(학교 생활)",
+		descrip = "<size=18>다음 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아로 변환), 그리고 기타 아이템을 획득할 수 있습니다.</size>",
+		subject = "스킨 패키지(학교 생활)",
+		money = 9900,
+		limit_arg = 2,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai23",
+		skin_inquire_relation = 86212,
+		id_str = "alkrgift137",
+		extra_service = 3,
+		id = 90,
+		airijp_id = "com.yostarjp.azurlane.diamond178",
+		extra_service_item = {
+			{
+				2,
+				86212,
+				1
+			},
+			{
+				1,
+				1,
+				2000
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86212,
+				1
+			},
+			{
+				1,
+				2,
+				1000
+			},
+			{
+				2,
+				15008,
+				20
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81212,
+				1
+			}
+		}
+	},
 	[1000] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -10352,6 +10453,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7021,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1021] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		type = 0,
+		name = "특허 투어 패스(2025.4)",
+		first_pay_double = 0,
+		name_display = "특허 투어 패스(2025.4)",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스(2025.4)",
+		money = 12000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 6,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.battlepass23",
+		extra_service = 4,
+		id = 1021,
+		airijp_id = "com.yostarjp.azurlane.seasonpass22",
+		extra_service_item = {
+			{
+				1,
+				4022,
+				1500
+			},
+			{
+				8,
+				65086,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7022,
 			1500
 		},
 		ignorePlatform = {},

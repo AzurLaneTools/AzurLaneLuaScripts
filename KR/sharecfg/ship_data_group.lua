@@ -2302,6 +2302,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970706] = {
 			30045
+		},
+		[970509] = {
+			30046
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -3078,7 +3081,8 @@ pg.ship_data_group = setmetatable({
 			30042,
 			30043,
 			30044,
-			30045
+			30045,
+			30046
 		}
 	},
 	all = {
@@ -3848,7 +3852,8 @@ pg.ship_data_group = setmetatable({
 		30042,
 		30043,
 		30044,
-		30045
+		30045,
+		30046
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -26572,6 +26577,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -26751,6 +26767,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 허상의 탑·프롤로그",
 				{
 					""
+				},
+				0
+			},
+			{
+				"대형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27270,6 +27297,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 허상의 탑·프롤로그",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -35571,6 +35609,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9707061
+					}
+				},
+				0
+			}
+		}
+	},
+	[30046] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970509,
+		index_id = 30046,
+		code = 30046,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"E",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限时活动：世界巡游",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705091
 					}
 				},
 				0

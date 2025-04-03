@@ -3656,7 +3656,7 @@ pg.backyard_theme_template = {
 		desc = "「색,향,맛」세 박자를 갖춘 미식 파라다이스!",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -3694,7 +3694,7 @@ pg.backyard_theme_template = {
 	},
 	[98] = {
 		Cfg_1 = 5,
-		name = "로열 네이비 학교",
+		name = "로열 교실",
 		desc = "우아하고 유쾌한 스쿨 라이프♪",
 		deblocking = 1,
 		new = 0,

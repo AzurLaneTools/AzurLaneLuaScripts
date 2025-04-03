@@ -46146,6 +46146,179 @@ pg.equip_skin_template = {
 			"wash"
 		}
 	},
+	[2093] = {
+		hit_sfx = "",
+		bullet_name = "zidan_emojianjiao",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96817",
+		name = "螺旋尖角子弹",
+		desc = "尖锐而螺旋，暗影中闪耀危险的光芒！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2093,
+		themeid = 107,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "zidan_emojianjiao_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			1,
+			2,
+			3
+		},
+		weapon_ids = {
+			101,
+			101
+		}
+	},
+	[2094] = {
+		hit_sfx = "",
+		bullet_name = "yulei_emoweiba",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 30,
+		icon = "96818",
+		name = "恶魔尾巴鱼雷",
+		desc = "优雅中暗藏锋芒，黑暗中游走的危险！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2094,
+		themeid = 107,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "yulei_emoweiba_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			5,
+			13
+		},
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[2095] = {
+		hit_sfx = "",
+		bullet_name = "paodan_emozhutai",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96819",
+		name = "烛台炮弹",
+		desc = "火焰与暗影交织，烛台上的恶魔低语！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2095,
+		themeid = 107,
+		orbit_rotate = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "",
+		miss_sfx = "",
+		orbit_combat_bound = "",
+		orbit_combat = "",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "paodan_emozhutai_hit",
+		orbit_ui_back = 0,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			4,
+			11
+		},
+		weapon_ids = {
+			24000,
+			24000,
+			24000
+		}
+	},
+	[2096] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		icon = "96820",
+		name = "恶魔翅膀",
+		desc = "黑暗中优雅扇动，翅膀上撕裂的痕迹诉说着古老的力量！",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		id = 2096,
+		themeid = 107,
+		orbit_rotate = false,
+		mirror = 0,
+		rarity = 4,
+		orbit_slg = "",
+		orbit_ui = "shebei_emochibangui",
+		miss_sfx = "",
+		orbit_combat = "shebei_emochibang",
+		orbit_combat_anima_change = "",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		orbit_ui_back = 1,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				0,
+				-1,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				-100
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3001] = {
 		hit_sfx = "",
 		bullet_name = "",
@@ -48222,6 +48395,10 @@ pg.equip_skin_template = {
 		2090,
 		2091,
 		2092,
+		2093,
+		2094,
+		2095,
+		2096,
 		3001,
 		3003,
 		3010,

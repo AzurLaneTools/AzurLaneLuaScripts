@@ -1,6 +1,228 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_20 = {
+	[10900051] = {
+		name = "별이 빛나는 밤의 요정",
+		change_skin = "",
+		bg_sp = "",
+		desc = "아름다운 녹음에, 맑은 물. 모항에 이렇게 아름다운 곳이 있는 줄은 몰랐어…. 어머, 지휘관. 당신도 밤 산책 중이야?",
+		illustrator2 = -1,
+		ship_group = 1090005,
+		group_index = 1,
+		painting = "saili_2",
+		prefab = "saili_2",
+		hand_id = 13,
+		shop_type_id = 20,
+		bgm = "ryza-az-pv",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "158",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 10900051,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70772,
+		voice_actor = 326,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2,
+			5
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.127,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.27,
+					1.033,
+					0
+				}
+			},
+			plane = {
+				{
+					1.396,
+					1.189,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.264,
+							2.247,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10900060] = {
+		name = "칼라 이데아스",
+		change_skin = "",
+		bg_sp = "",
+		desc = "흠, 이 몸을 불러낸 걸 보니 재미있는 인간이 있나보군. 이 몸은 주파씨족의 수장 칼라 이데아스. 그대의 바람에 따라 이 세계에 잠시 머물러 주겠다.",
+		illustrator2 = -1,
+		ship_group = 1090006,
+		group_index = 0,
+		painting = "kala",
+		prefab = "kala",
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 10900060,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 350,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.321,
+					0.855,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.338,
+					1.131,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.079,
+							2.228,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[11000010] = {
 		name = "아스카",
 		change_skin = "",

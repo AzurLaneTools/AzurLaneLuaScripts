@@ -1,6 +1,121 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_15 = {
+	[801071] = {
+		name = "고요, 수면, 편안",
+		change_skin = "",
+		bg_sp = "",
+		desc = "Zzzzz…… 지휘관님? 창피한 모습을 보여드렸네요… 죄송합니다. 일찍 일어나는 것은 정말 소질이 없어서…Zzzzz",
+		illustrator2 = -1,
+		ship_group = 80107,
+		group_index = 1,
+		painting = "kebu_3",
+		prefab = "kebu_3",
+		hand_id = 13,
+		shop_type_id = 20,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "109",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 801071,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70608,
+		voice_actor = 291,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1,
+					1.158,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.06,
+					1.071,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.038,
+					1.23,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.446,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[801072] = {
 		name = "햇빛, 바다, 신성한 푸른빛",
 		change_skin = "",
@@ -14315,105 +14430,6 @@ pg.base.ship_skin_template_15 = {
 						{
 							-0.64,
 							2.22,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[900028] = {
-		name = "즈이카쿠",
-		change_skin = "",
-		bg_sp = "",
-		desc = "{namecode:95}级航空母舰二番舰—{namecode:96}",
-		illustrator2 = -1,
-		ship_group = 900028,
-		group_index = 0,
-		painting = "ruihe_memory",
-		prefab = "ruihe",
-		hand_id = 0,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 900028,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = -1,
-		spine_offset = "",
-		illustrator = 14,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.83,
-					0.74,
-					0
-				}
-			},
-			plane = {
-				{
-					0.83,
-					0.74,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.45,
 							0
 						}
 					}

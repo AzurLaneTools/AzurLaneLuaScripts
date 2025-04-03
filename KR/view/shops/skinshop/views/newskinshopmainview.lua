@@ -63,6 +63,9 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.consumePriceTxt = slot0.consumeTr:Find("originalprice/Text"):GetComponent(typeof(Text))
 	slot0.experienceTr = slot0._tf:Find("overlay/right/price/timelimt")
 	slot0.experienceTxt = slot0.experienceTr:Find("consume/Text"):GetComponent(typeof(Text))
+
+	setText(slot0.consumeTr:Find("originalprice/label"), i18n("skin_original_price"))
+
 	slot0.dynamicToggle = slot0._tf:Find("overlay/right/toggles/l2d_preview")
 	slot0.showBgToggle = slot0._tf:Find("overlay/right/toggles/hideObjToggle")
 	slot0.dynamicResToggle = slot0._tf:Find("overlay/right/toggles/l2d_res_state")
@@ -793,11 +796,31 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 	end
 
 	onButton(slot0, slot0.obtainBtn, function ()
-		if uv0 == uv1 or uv0 == uv2 or uv0 == uv3 then
-			uv4.purchaseView:ExecuteAction("Show", uv5)
-		else
-			uv4:OnClickBtn(uv0, uv5)
+		slot0 = {}
+
+		if SkinCouponActivity.StaticEncoreActTip(uv0.id) then
+			table.insert(slot0, function (slot0)
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("SkinDiscount_Hint"),
+					onYes = function ()
+						if checkExist(SkinCouponActivity.GetSkinCouponEncoreAct(), {
+							"id"
+						}) then
+							uv0:emit(NewSkinShopMediator.OPEN_ACTIVITY, slot0)
+						end
+					end,
+					onNo = slot0
+				})
+			end)
 		end
+
+		seriesAsync(slot0, function ()
+			if uv0 == uv1 or uv0 == uv2 or uv0 == uv3 then
+				uv4.purchaseView:ExecuteAction("Show", uv5)
+			else
+				uv4:OnClickBtn(uv0, uv5)
+			end
+		end)
 	end, SFX_PANEL)
 end
 

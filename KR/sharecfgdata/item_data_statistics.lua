@@ -15598,6 +15598,37 @@ _G.pg.base.item_data_statistics[21045] = {
 }
 
 
+_G.pg.base.item_data_statistics[21046] = {
+	open_directly = 0,
+	name = "结晶：内华达·META",
+	type = 4,
+	display = "内华达·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21046",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21046,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -27354,7 +27385,7 @@ _G.pg.base.item_data_statistics[30422] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30422",
+	usage_arg = "111218",
 	id = 30422,
 	compose_number = 0,
 	target_id = 0,
@@ -27406,7 +27437,7 @@ _G.pg.base.item_data_statistics[30423] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30423",
+	usage_arg = "111219",
 	id = 30423,
 	compose_number = 0,
 	target_id = 0,
@@ -27468,7 +27499,7 @@ _G.pg.base.item_data_statistics[30424] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30424",
+	usage_arg = "111719",
 	id = 30424,
 	compose_number = 0,
 	target_id = 0,
@@ -27515,7 +27546,7 @@ _G.pg.base.item_data_statistics[30425] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30425",
+	usage_arg = "111220",
 	id = 30425,
 	compose_number = 0,
 	target_id = 0,
@@ -27567,7 +27598,7 @@ _G.pg.base.item_data_statistics[30426] = {
 	time_limit = 0,
 	virtual_type = 0,
 	other_item_cost = "[]",
-	usage_arg = "30426",
+	usage_arg = "111221",
 	id = 30426,
 	compose_number = 0,
 	target_id = 0,
@@ -27590,6 +27621,58 @@ _G.pg.base.item_data_statistics[30426] = {
 		{
 			9,
 			2092,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30427] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111222",
+	id = 30427,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2093,
+			1
+		},
+		{
+			9,
+			2094,
+			1
+		},
+		{
+			9,
+			2095,
+			1
+		},
+		{
+			9,
+			2096,
 			1
 		}
 	},
@@ -41816,6 +41899,85 @@ _G.pg.base.item_data_statistics[40056] = {
 		{
 			31,
 			202,
+			1
+		},
+		{
+			1,
+			14,
+			3060
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40057] = {
+	open_directly = 1,
+	name = "基因之源主题礼包(基础版)",
+	type = 17,
+	display = "购买礼包可获得战斗界面主题 基因之源*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4058",
+	id = 40057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			203,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40058] = {
+	open_directly = 1,
+	name = "基因之源主题礼包(豪华版)",
+	type = 17,
+	display = "购买礼包可获得战斗界面主题 基因之源*1,3060钻石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4059",
+	id = 40058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			203,
 			1
 		},
 		{
@@ -97273,6 +97435,140 @@ _G.pg.base.item_data_statistics[81211] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81212] = {
+	open_directly = 1,
+	name = "스킨 패키지(학교 생활)",
+	type = 17,
+	display = "구매하면 해당 스킨 중에서 소지하고 있지 않은 스킨을 무작위로 1개(모든 스킨을 소지하고 있는 경우에는 자동으로 다이아×680개로 변환), 자금×2000, 연료×1000, 성정 유닛×20개를 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_random_skin",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai23",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 81212,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86212,
+			1
+		},
+		{
+			1,
+			1,
+			2000
+		},
+		{
+			1,
+			2,
+			1000
+		},
+		{
+			2,
+			15008,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		998314,
+		680,
+		{
+			101031,
+			101041,
+			101262,
+			101266,
+			101314,
+			101361,
+			101371,
+			102101,
+			102121,
+			102163,
+			102231,
+			102274,
+			103061,
+			103071,
+			103081,
+			103102,
+			103131,
+			103161,
+			107221,
+			107232,
+			108031,
+			108062,
+			201031,
+			201352,
+			201361,
+			202032,
+			202111,
+			202231,
+			202261,
+			202331,
+			203071,
+			205141,
+			206021,
+			207053,
+			207061,
+			207071,
+			301011,
+			301021,
+			301153,
+			301232,
+			301472,
+			301592,
+			301611,
+			301631,
+			301644,
+			301801,
+			301812,
+			301861,
+			303114,
+			303123,
+			304013,
+			304031,
+			304041,
+			305026,
+			305142,
+			306062,
+			307032,
+			307041,
+			307074,
+			308011,
+			308021,
+			308041,
+			401011,
+			401431,
+			401471,
+			403051,
+			403093,
+			405033,
+			408061,
+			408081,
+			408131,
+			501012,
+			601071,
+			603041,
+			607021,
+			801022,
+			901012
+		}
+	},
+	limit = {}
 }
 
 

@@ -4747,6 +4747,121 @@ pg.base.ship_skin_template_14 = {
 			}
 		}
 	},
+	[701062] = {
+		name = "夜班护士诊疗中",
+		change_skin = "",
+		bg_sp = "",
+		desc = "欸？指挥官怎么自己跑过来了！不舒服的话按铃就好……真是的，这么晚了生着病还乱跑，我可要生气了哦！",
+		illustrator2 = -1,
+		ship_group = 70106,
+		group_index = 2,
+		painting = "shensu_4",
+		prefab = "shensu_4",
+		hand_id = 5,
+		shop_type_id = 15,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "309",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 701062,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 263,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.04,
+					0.866,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.072,
+					0.865,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.706,
+					1.998,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.382,
+							2.288,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[701070] = {
 		name = "그리먀시",
 		change_skin = "",
@@ -13777,121 +13892,6 @@ pg.base.ship_skin_template_14 = {
 						{
 							-0.6,
 							2.633,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[801071] = {
-		name = "고요, 수면, 편안",
-		change_skin = "",
-		bg_sp = "",
-		desc = "Zzzzz…… 지휘관님? 창피한 모습을 보여드렸네요… 죄송합니다. 일찍 일어나는 것은 정말 소질이 없어서…Zzzzz",
-		illustrator2 = -1,
-		ship_group = 80107,
-		group_index = 1,
-		painting = "kebu_3",
-		prefab = "kebu_3",
-		hand_id = 13,
-		shop_type_id = 20,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "109",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 801071,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70608,
-		voice_actor = 291,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1,
-					1.158,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.06,
-					1.071,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.038,
-					1.23,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.54,
-							2.446,
 							0
 						}
 					}
