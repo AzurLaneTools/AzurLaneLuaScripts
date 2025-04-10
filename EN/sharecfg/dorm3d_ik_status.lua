@@ -8783,7 +8783,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30011000,
+				31011000,
 				0,
 				{
 					4,
@@ -8792,7 +8792,7 @@ pg.dorm3d_ik_status = {
 				}
 			},
 			{
-				30011001,
+				31011001,
 				0,
 				{
 					4,
@@ -8832,7 +8832,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30011100,
+				31011100,
 				0,
 				{
 					4,
@@ -8872,7 +8872,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30011200,
+				31011200,
 				0,
 				{
 					4,
@@ -8881,7 +8881,7 @@ pg.dorm3d_ik_status = {
 				}
 			},
 			{
-				30011201,
+				31011201,
 				0,
 				{
 					4,
@@ -8921,7 +8921,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30021000,
+				31021000,
 				0,
 				{
 					4,
@@ -8971,7 +8971,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30021100,
+				31021100,
 				0,
 				{
 					4,
@@ -8980,7 +8980,7 @@ pg.dorm3d_ik_status = {
 				}
 			},
 			{
-				30021101,
+				31021101,
 				0,
 				{
 					4,
@@ -9020,7 +9020,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30021200,
+				31021200,
 				0,
 				{
 					4,
@@ -9060,7 +9060,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30031001,
+				31031001,
 				0,
 				{
 					4,
@@ -9109,7 +9109,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30031100,
+				31031100,
 				0,
 				{
 					4,
@@ -9118,7 +9118,7 @@ pg.dorm3d_ik_status = {
 				}
 			},
 			{
-				30031101,
+				31031101,
 				0,
 				{
 					4,
@@ -9158,7 +9158,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30031201,
+				31031201,
 				0,
 				{
 					4,
@@ -9207,7 +9207,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30041000,
+				31041000,
 				0,
 				{
 					4,
@@ -9262,7 +9262,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30041101,
+				31041101,
 				0,
 				{
 					4,
@@ -9316,7 +9316,7 @@ pg.dorm3d_ik_status = {
 		character_id = 19903,
 		ik_id = {
 			{
-				30041200,
+				31041200,
 				0,
 				{
 					4,
@@ -9325,7 +9325,7 @@ pg.dorm3d_ik_status = {
 				}
 			},
 			{
-				30041201,
+				31041201,
 				0,
 				{
 					4,

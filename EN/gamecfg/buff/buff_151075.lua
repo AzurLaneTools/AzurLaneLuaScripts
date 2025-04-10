@@ -369,7 +369,7 @@ return {
 			}
 		}
 	},
-	time = 1,
+	time = 0.1,
 	name = "",
 	init_effect = "jinengchufared",
 	id = 151071,

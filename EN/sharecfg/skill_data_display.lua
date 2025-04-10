@@ -3128,6 +3128,8 @@ pg.skill_data_display = setmetatable({
 		1011592,
 		1012670,
 		1012671,
+		1012400,
+		1012401,
 		200002,
 		200005,
 		200008,
@@ -3417,6 +3419,10 @@ pg.skill_data_display = setmetatable({
 		1010960,
 		1010961,
 		1010962,
+		1011150,
+		1011151,
+		1011152,
+		1011154,
 		1090020,
 		1090042,
 		1090043,
@@ -15997,6 +16003,14 @@ pg.base.skill_data_display = {
 		id = 1012671,
 		name = "Fuoco di Copertura!+"
 	},
+	[1012400] = {
+		id = 1012400,
+		name = "Great Shark's Bite+"
+	},
+	[1012401] = {
+		id = 1012401,
+		name = "Great Shark's Bite+"
+	},
 	[200002] = {
 		id = 200002,
 		name = "Air Armada Support"
@@ -17152,6 +17166,22 @@ pg.base.skill_data_display = {
 	[1010962] = {
 		id = 1010962,
 		name = "Special Lead Ship+"
+	},
+	[1011150] = {
+		id = 1011150,
+		name = "Counterattack of the Barents Sea+"
+	},
+	[1011151] = {
+		id = 1011151,
+		name = "Counterattack of the Barents Sea+"
+	},
+	[1011152] = {
+		id = 1011152,
+		name = "Counterattack of the Barents Sea+"
+	},
+	[1011154] = {
+		id = 1011154,
+		name = "Counterattack of the Barents Sea+"
 	},
 	[1090020] = {
 		id = 1090020,

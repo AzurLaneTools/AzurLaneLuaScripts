@@ -30121,7 +30121,7 @@ _G.pg.base.gametip.gametip_xiaokewei = {
 			info = "· If Little Formidable has not been formally recruited by the end of the event, she will leave the port."
 		},
 		{
-			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to May 3rd."
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to April 16th."
 		},
 		{
 			info = "· Little Formidable cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
@@ -30873,6 +30873,16 @@ _G.pg.base.gametip.word_maingroup_checkfailure = {
 
 _G.pg.base.gametip.word_maingroup_updating = {
 	tip = "Updating..."
+}
+
+
+_G.pg.base.gametip.word_maingroup_idle = {
+	tip = "No Info"
+}
+
+
+_G.pg.base.gametip.word_maingroup_latest = {
+	tip = "No Update Needed"
 }
 
 
@@ -38117,4 +38127,49 @@ Note: Clues can only be unlocked this way once every 10 minutes.
 
 _G.pg.base.gametip.SuperBulin2_lock_tip = {
 	tip = "Collect all the clues to unlock a secret stage!"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_buy_tips = {
+	tip = "Would you like to spend <color=#169fff>$2</color> $1  (total: $1  <color=#169fff>$3</color>) and purchase <color=#169fff>$4</color>?"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_title = {
+	tip = "Quarters Shop"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit = {
+	tip = "Limited"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_sold_out = {
+	tip = "Sold Out"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_all = {
+	tip = "All"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift1 = {
+	tip = "Gifts"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_furniture = {
+	tip = "Furniture"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_others = {
+	tip = "Misc."
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit1 = {
+	tip = "Weekly Limited"
 }

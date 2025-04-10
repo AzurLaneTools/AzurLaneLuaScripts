@@ -169775,6 +169775,31 @@ _G.pg.base.item_virtual_data_statistics[65589] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65590] = {
+	drop_gold_max = 0,
+	name = "Trust - Little Formidable",
+	display = "Used in the \"Big Lessons for the Little Lady Rerun\" event. Will disappear after the event period ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaokewei_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65590,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[69000] = {
 	drop_gold_max = 0,
 	name = "Damage Rating ",

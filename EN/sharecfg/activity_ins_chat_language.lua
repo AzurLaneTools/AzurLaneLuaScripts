@@ -3417,7 +3417,126 @@ pg.activity_ins_chat_language = setmetatable({
 		3414,
 		3415,
 		3416,
-		3417
+		3417,
+		3418,
+		3419,
+		3420,
+		3421,
+		3422,
+		3423,
+		3424,
+		3425,
+		3426,
+		3427,
+		3428,
+		3429,
+		3430,
+		3431,
+		3432,
+		3433,
+		3434,
+		3435,
+		3436,
+		3437,
+		3438,
+		3439,
+		3440,
+		3441,
+		3442,
+		3443,
+		3444,
+		3445,
+		3446,
+		3447,
+		3448,
+		3449,
+		3450,
+		3451,
+		3452,
+		3453,
+		3454,
+		3455,
+		3456,
+		3457,
+		3458,
+		3459,
+		3460,
+		3461,
+		3462,
+		3463,
+		3464,
+		3465,
+		3466,
+		3467,
+		3468,
+		3469,
+		3470,
+		3471,
+		3472,
+		3473,
+		3474,
+		3475,
+		3476,
+		3477,
+		3478,
+		3479,
+		3480,
+		3481,
+		3482,
+		3483,
+		3484,
+		3485,
+		3486,
+		3487,
+		3488,
+		3489,
+		3490,
+		3491,
+		3492,
+		3493,
+		3494,
+		3495,
+		3496,
+		3497,
+		3498,
+		3499,
+		3500,
+		3501,
+		3502,
+		3503,
+		3504,
+		3505,
+		3506,
+		3507,
+		3508,
+		3509,
+		3510,
+		3511,
+		3512,
+		3513,
+		3514,
+		3515,
+		3516,
+		3517,
+		3518,
+		3519,
+		3520,
+		3521,
+		3522,
+		3523,
+		3524,
+		3525,
+		3526,
+		3527,
+		3528,
+		3529,
+		3530,
+		3531,
+		3532,
+		3533,
+		3534,
+		3535,
+		3536
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -34037,5 +34156,1069 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 3417,
 		flag = 10
+	},
+	[3418] = {
+		param = "Commander, I just spotted a runaway kitty!",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3418,
+		flag = 0
+	},
+	[3419] = {
+		param = "The little one is ready and raring for adventure.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3419,
+		flag = 0
+	},
+	[3420] = {
+		param = "What a troublesome little kitty... Heehee♪",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3420,
+		flag = 0
+	},
+	[3421] = {
+		param = "100",
+		ship_group = 70203,
+		type = 4,
+		id = 3421,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Someone's in for a headache."
+			}
+		}
+	},
+	[3422] = {
+		param = "Someone's in for a headache.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3422,
+		flag = 1
+	},
+	[3423] = {
+		param = "66",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3423,
+		flag = 1
+	},
+	[3424] = {
+		param = "Raising pets isn't easy.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3424,
+		flag = 1
+	},
+	[3425] = {
+		param = "They take a lot of hard work. If you really want to discipline a pet, especially a cat...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3425,
+		flag = 1
+	},
+	[3426] = {
+		param = "Get ready for a whole lot of effort~",
+		ship_group = 70203,
+		type = 1,
+		id = 3426,
+		flag = 1,
+		option = {
+			{
+				2,
+				"But it's easy for you, right?"
+			}
+		}
+	},
+	[3427] = {
+		param = "But it's easy for you, right?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3427,
+		flag = 2
+	},
+	[3428] = {
+		param = "You seem like you'd be good at training animals.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3428,
+		flag = 2
+	},
+	[3429] = {
+		param = "Aww, thank you so much ((^∀^*))",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3429,
+		flag = 2
+	},
+	[3430] = {
+		param = "Me raising a pet, though... Honestly, it's hard to imagine.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3430,
+		flag = 2
+	},
+	[3431] = {
+		param = "Say, Commander, what kind of pet do you think would suit me?",
+		ship_group = 70203,
+		type = 1,
+		id = 3431,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Something tame..."
+			},
+			{
+				4,
+				"Something wild..."
+			}
+		}
+	},
+	[3432] = {
+		param = "Probably something tame? It would be easier to care for, after all.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3432,
+		flag = 3
+	},
+	[3433] = {
+		param = "That would mean I wouldn't have to discipline it as much, so yes, it would be easier.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3433,
+		flag = 3
+	},
+	[3434] = {
+		param = "But...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3434,
+		flag = 3
+	},
+	[3435] = {
+		param = "Is it tame because of innate nature? Or... because its previous owner disciplined it?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3435,
+		flag = 3
+	},
+	[3436] = {
+		param = "Oh, the thought of it makes me a little jealous♪",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3436,
+		flag = 3
+	},
+	[3437] = {
+		param = "Something wild sounds fun.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3437,
+		flag = 4
+	},
+	[3438] = {
+		param = "Heehee, for once, we're of the same mind.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3438,
+		flag = 4
+	},
+	[3439] = {
+		param = "Taking something with a strong personality and bending it to my will... Ooh, doesn't it sound thrilling?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3439,
+		flag = 4
+	},
+	[3440] = {
+		param = "And if it refuses to obey...",
+		ship_group = 70203,
+		type = 1,
+		id = 3440,
+		flag = 4,
+		option = {
+			{
+				5,
+				"You'll put it in a cage?"
+			}
+		}
+	},
+	[3441] = {
+		param = "You'll put it in a cage?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3441,
+		flag = 5
+	},
+	[3442] = {
+		param = "Nope. I'll make it pick out its own reins for my use.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3442,
+		flag = 5
+	},
+	[3443] = {
+		param = "Now, although I am good at disciplining others...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3443,
+		flag = 0
+	},
+	[3444] = {
+		param = "I don't think it's particularly suited to pets.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3444,
+		flag = 0
+	},
+	[3445] = {
+		param = "Besides...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3445,
+		flag = 0
+	},
+	[3446] = {
+		param = "I don't want an animal pet. No, there's \"someone\" else I want...",
+		ship_group = 70203,
+		type = 1,
+		id = 3446,
+		flag = 0,
+		option = {
+			{
+				6,
+				"What does that mean?"
+			}
+		}
+	},
+	[3447] = {
+		param = "What does that mean?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3447,
+		flag = 6
+	},
+	[3448] = {
+		param = "You really can't tell?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3448,
+		flag = 6
+	},
+	[3449] = {
+		param = "If I had to keep anyone in my care...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3449,
+		flag = 6
+	},
+	[3450] = {
+		param = "My love would all go...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3450,
+		flag = 6
+	},
+	[3451] = {
+		param = "...To you, Commander!",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3451,
+		flag = 6
+	},
+	[3452] = {
+		param = "234",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3452,
+		flag = 6
+	},
+	[3453] = {
+		param = "Commander, do you ever feel like the port is too quiet lately?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3453,
+		flag = 0
+	},
+	[3454] = {
+		param = "There isn't much work to do, and nothing big has happened...",
+		ship_group = 70203,
+		type = 1,
+		id = 3454,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Peace is good, no?"
+			}
+		}
+	},
+	[3455] = {
+		param = "Peace is good, no?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3455,
+		flag = 1
+	},
+	[3456] = {
+		param = "Heehee, that sentiment is more dangerous than you think~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3456,
+		flag = 1
+	},
+	[3457] = {
+		param = "Laziness piles up like snowflakes. Eventually, it all comes crashing down like an avalanche.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3457,
+		flag = 1
+	},
+	[3458] = {
+		param = "That's when you realize, \"I've been too lazy,\" and regret everything.",
+		ship_group = 70203,
+		type = 1,
+		id = 3458,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Can't handle free time?"
+			}
+		}
+	},
+	[3459] = {
+		param = "Are you the kind of person who can't handle having free time?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3459,
+		flag = 2
+	},
+	[3460] = {
+		param = "I know you're the same way~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3460,
+		flag = 2
+	},
+	[3461] = {
+		param = "50",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3461,
+		flag = 2
+	},
+	[3462] = {
+		param = "By the way...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3462,
+		flag = 2
+	},
+	[3463] = {
+		param = "How about we play a little mutual supervision game together?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3463,
+		flag = 2
+	},
+	[3464] = {
+		param = "Basically, we take turns supervising each other... Sounds fun, doesn't it?",
+		ship_group = 70203,
+		type = 1,
+		id = 3464,
+		flag = 2,
+		option = {
+			{
+				3,
+				"What are the rules?"
+			}
+		}
+	},
+	[3465] = {
+		param = "What are the rules?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3465,
+		flag = 3
+	},
+	[3466] = {
+		param = "Simple. We take turns, as I said, and the first supervisor watches the other for a full day.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3466,
+		flag = 3
+	},
+	[3467] = {
+		param = "The supervisor can give whatever orders they want, and the subject has to show absolute obedience♡",
+		ship_group = 70203,
+		type = 1,
+		id = 3467,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Give orders...?"
+			},
+			{
+				5,
+				"Absolute obedience...?"
+			}
+		}
+	},
+	[3468] = {
+		param = "Give orders...?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3468,
+		flag = 4
+	},
+	[3469] = {
+		param = "Yep. They can make their subject do anything they want.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3469,
+		flag = 4
+	},
+	[3470] = {
+		param = "For example...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3470,
+		flag = 4
+	},
+	[3471] = {
+		param = "Heehee. Well, I'm sure you can imagine even without my help.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3471,
+		flag = 4
+	},
+	[3472] = {
+		param = "Absolute obedience...?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3472,
+		flag = 5
+	},
+	[3473] = {
+		param = "Yep. No matter the demand, you must obey.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3473,
+		flag = 5
+	},
+	[3474] = {
+		param = "Don't worry. I'll supervise you well, Commander. You won't be bothered one bit.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3474,
+		flag = 5
+	},
+	[3475] = {
+		param = "And you'll be gentle with me, too, won't you...?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3475,
+		flag = 5
+	},
+	[3476] = {
+		param = "Let me give you a little demonstration.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3476,
+		flag = 0
+	},
+	[3477] = {
+		param = "First, unbutton the top three buttons of your shirt, take a selfie of you holding coffee, and send it to me.",
+		ship_group = 70203,
+		type = 1,
+		id = 3477,
+		flag = 0,
+		option = {
+			{
+				6,
+				"What does this have to do with supervision?"
+			}
+		}
+	},
+	[3478] = {
+		param = "What does this have to do with supervision?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3478,
+		flag = 6
+	},
+	[3479] = {
+		param = "Of course. I'm keeping you from overworking yourself.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3479,
+		flag = 6
+	},
+	[3480] = {
+		param = "I'll have you know I'm taking good care of your health♪",
+		ship_group = 70203,
+		type = 1,
+		id = 3480,
+		flag = 6,
+		option = {
+			{
+				7,
+				"I'd like to deny this ridiculous request."
+			}
+		}
+	},
+	[3481] = {
+		param = "I'd like to deny this ridiculous request.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3481,
+		flag = 7
+	},
+	[3482] = {
+		param = "You seem to be forgetting something.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3482,
+		flag = 7
+	},
+	[3483] = {
+		param = "Absolute. Obedience. Remember?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3483,
+		flag = 7
+	},
+	[3484] = {
+		param = "Or...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3484,
+		flag = 7
+	},
+	[3485] = {
+		param = "Would you prefer direct supervision, rather than through a screen?",
+		ship_group = 70203,
+		type = 1,
+		id = 3485,
+		flag = 7,
+		option = {
+			{
+				8,
+				"No, I mean..."
+			}
+		}
+	},
+	[3486] = {
+		param = "No, I mean...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3486,
+		flag = 8
+	},
+	[3487] = {
+		param = "I never agreed to play this game anyway.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3487,
+		flag = 8
+	},
+	[3488] = {
+		param = "41",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3488,
+		flag = 8
+	},
+	[3489] = {
+		param = "...Aww, no fair~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3489,
+		flag = 8
+	},
+	[3490] = {
+		param = "I'll just have to think of a way to persuade you to play.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3490,
+		flag = 8
+	},
+	[3491] = {
+		param = "Wait in your office for me.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3491,
+		flag = 8
+	},
+	[3492] = {
+		param = "I'll show you what I'm capable of.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3492,
+		flag = 8
+	},
+	[3493] = {
+		param = "Commander, have you decided what you'll wear to the upcoming party?",
+		ship_group = 70203,
+		type = 1,
+		id = 3493,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I still haven't thought about it..."
+			}
+		}
+	},
+	[3494] = {
+		param = "I still haven't thought about it...",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3494,
+		flag = 1
+	},
+	[3495] = {
+		param = "It isn't a formal affair or anything, so I figured I'd just wear whatever.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3495,
+		flag = 1
+	},
+	[3496] = {
+		param = "That won't do!",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3496,
+		flag = 1
+	},
+	[3497] = {
+		param = "It's a party. You have to dress up.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3497,
+		flag = 1
+	},
+	[3498] = {
+		param = "I'm still trying to figure my dress out, too♪",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3498,
+		flag = 1
+	},
+	[3499] = {
+		param = "May I ask for your opinion?",
+		ship_group = 70203,
+		type = 1,
+		id = 3499,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Sure."
+			}
+		}
+	},
+	[3500] = {
+		param = "Sure. What are the options?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3500,
+		flag = 2
+	},
+	[3501] = {
+		param = "One is a long silk dress. It shows my curves really well, if you know what I mean.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3501,
+		flag = 2
+	},
+	[3502] = {
+		param = "The other one... is a lot shorter. I like how playful it is, but the skirt really is short.",
+		ship_group = 70203,
+		type = 1,
+		id = 3502,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Both look good to me..."
+			}
+		}
+	},
+	[3503] = {
+		param = "Both look good to me... Why not pick whichever one you like more?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3503,
+		flag = 3
+	},
+	[3504] = {
+		param = "The problem is that I like BOTH.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3504,
+		flag = 3
+	},
+	[3505] = {
+		param = "Awww, I just can't choose on my own~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3505,
+		flag = 3
+	},
+	[3506] = {
+		param = "If you don't pick one, I'll never be able to pick~",
+		ship_group = 70203,
+		type = 1,
+		id = 3506,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Go with the long one."
+			},
+			{
+				5,
+				"I like the mini."
+			}
+		}
+	},
+	[3507] = {
+		param = "Go with the long one.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3507,
+		flag = 4
+	},
+	[3508] = {
+		param = "Heehee, you have good taste, Commander.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3508,
+		flag = 4
+	},
+	[3509] = {
+		param = "But the ribbon on the back is just so hard to tie on my own...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3509,
+		flag = 4
+	},
+	[3510] = {
+		param = "I'll need someone's help with it♪",
+		ship_group = 70203,
+		type = 1,
+		id = 3510,
+		flag = 4,
+		option = {
+			{
+				6,
+				"Do you have anything else...?"
+			}
+		}
+	},
+	[3511] = {
+		param = "I like the mini.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3511,
+		flag = 5
+	},
+	[3512] = {
+		param = "So you like lively and playful after all?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3512,
+		flag = 5
+	},
+	[3513] = {
+		param = "The mini is cute, but the zipper on the back is a bit of a pain.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3513,
+		flag = 5
+	},
+	[3514] = {
+		param = "I don't know if I can put it on by myself.",
+		ship_group = 70203,
+		type = 1,
+		id = 3514,
+		flag = 5,
+		option = {
+			{
+				6,
+				"Do you have anything else...?"
+			}
+		}
+	},
+	[3515] = {
+		param = "Do you have anything else...? Something easier to wear?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3515,
+		flag = 6
+	},
+	[3516] = {
+		param = "These two dresses are too comfortable for me NOT to wear one.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3516,
+		flag = 6
+	},
+	[3517] = {
+		param = "You probably won't get to know the texture and the like unless you see them in person...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3517,
+		flag = 6
+	},
+	[3518] = {
+		param = "Even our great Commander can't make an informed decision on imagination alone, now, can you?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3518,
+		flag = 6
+	},
+	[3519] = {
+		param = "How about you come to my room?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3519,
+		flag = 6
+	},
+	[3520] = {
+		param = "52",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3520,
+		flag = 6
+	},
+	[3521] = {
+		param = "Then you can \"feel\" for yourself instead of just hearing my description♪",
+		ship_group = 70203,
+		type = 1,
+		id = 3521,
+		flag = 6,
+		option = {
+			{
+				7,
+				"But then..."
+			}
+		}
+	},
+	[3522] = {
+		param = "But then I'll see it before the party, won't I?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3522,
+		flag = 7
+	},
+	[3523] = {
+		param = "Are you okay with that?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3523,
+		flag = 7
+	},
+	[3524] = {
+		param = "As long as it's you, Commander...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3524,
+		flag = 7
+	},
+	[3525] = {
+		param = "I don't mind one bit♡",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3525,
+		flag = 7
+	},
+	[3526] = {
+		param = "That's a privilege that only someone special can have.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3526,
+		flag = 7
+	},
+	[3527] = {
+		param = "Besides, you might be able to help me with more.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3527,
+		flag = 7
+	},
+	[3528] = {
+		param = "246",
+		ship_group = 70203,
+		type = 4,
+		id = 3528,
+		flag = 7,
+		option = {
+			{
+				8,
+				"\"More\" being...?"
+			}
+		}
+	},
+	[3529] = {
+		param = "\"More\" being...?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3529,
+		flag = 8
+	},
+	[3530] = {
+		param = "Both dresses are too hard for me to put on alone.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3530,
+		flag = 8
+	},
+	[3531] = {
+		param = "Precision work like tying a ribbon or zipping up a zipper. Something you need eyes on.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3531,
+		flag = 8
+	},
+	[3532] = {
+		param = "Since you know my body better than anyone else, I wanted to ask you.",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3532,
+		flag = 8
+	},
+	[3533] = {
+		param = "My door's unlocked, okay?",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3533,
+		flag = 8
+	},
+	[3534] = {
+		param = "Come soon, my dear...",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3534,
+		flag = 8
+	},
+	[3535] = {
+		param = "Temporary assistant♡",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3535,
+		flag = 8
+	},
+	[3536] = {
+		param = "224",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3536,
+		flag = 8
 	}
 }

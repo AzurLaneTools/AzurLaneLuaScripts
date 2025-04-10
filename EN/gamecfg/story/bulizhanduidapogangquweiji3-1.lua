@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_148",
 			hideOther = true,
 			dir = 1,
-			actor = 100011,
+			actor = 100020,
 			actorName = "Universal Bulin&Specialized Bulin Custom MKIII",
 			hidePaintObj = true,
 			say = "- Holy smokes, bulin! - Amazing, bulin!",

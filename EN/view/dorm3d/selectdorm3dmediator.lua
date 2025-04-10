@@ -5,6 +5,7 @@ slot0.ON_SUBMIT_TASK = "SelectDorm3DMediator.ON_SUBMIT_TASK"
 slot0.OPEN_INVITE_LAYER = "SelectDorm3DMediator.OPEN_INVITE_LAYER"
 slot0.OPEN_ROOM_UNLOCK_WINDOW = "SelectDorm3DMediator.OPEN_ROOM_UNLOCK_WINDOW"
 slot0.OPEN_INS_LAYER = "SelectDorm3DMediator.OPEN_INS_LAYER"
+slot0.OPEN_SHOP_LAYER = "SelectDorm3DMediator.OPEN_SHOP_LAYER"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_DORM, function (slot0, slot1)
@@ -27,14 +28,15 @@ slot0.register = function(slot0)
 			}
 		}))
 	end)
-	slot0:bind(uv0.OPEN_INVITE_LAYER, function (slot0, slot1, slot2)
+	slot0:bind(uv0.OPEN_INVITE_LAYER, function (slot0, slot1, slot2, slot3)
 		uv0:addSubLayers(Context.New({
 			viewComponent = Dorm3dInviteLayer,
 			mediator = Dorm3dInviteMediator,
 			data = {
 				roomId = slot1,
 				groupIds = slot2
-			}
+			},
+			onRemoved = slot3
 		}))
 	end)
 	slot0:bind(uv0.OPEN_INS_LAYER, function (slot0, slot1)
@@ -47,6 +49,13 @@ slot0.register = function(slot0)
 			onRemoved = function ()
 				uv0.viewComponent:FlushInsBtn()
 			end
+		}))
+	end)
+	slot0:bind(uv0.OPEN_SHOP_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = Dorm3dShopUI,
+			mediator = Dorm3dShopMediator,
+			onRemoved = slot1
 		}))
 	end)
 
@@ -105,6 +114,14 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot2 = slot1:getBody()
 
 			slot0.viewComponent:UpdateStamina()
+		end,
+		[GAME.APARTMENT_ROOM_INVITE_UNLOCK_DONE] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+			slot3 = getProxy(PlayerProxy):getRawData().id
+
+			PlayerPrefs.SetInt(slot3 .. "_dorm3dRoomInviteSuccess_" .. slot2.roomId, 0)
+			PlayerPrefs.SetInt(slot3 .. "_dorm3dRoomInviteSuccess_" .. slot2.roomId .. "_" .. slot2.groupId, 0)
+			slot0.viewComponent:FlushFloor()
 		end
 	}
 end

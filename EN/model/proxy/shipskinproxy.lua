@@ -463,9 +463,10 @@ slot0.HasFashion = function(slot0, slot1)
 end
 
 slot0.GetEncoreSkins = function(slot0)
-	slot1 = getProxy(ActivityProxy)
+	slot1 = {}
+	slot2 = getProxy(ActivityProxy)
 
-	slot2 = function(slot0)
+	slot3 = function(slot0)
 		if slot0:getConfig("config_client") and slot1[1] and type(slot1[1]) == "table" then
 			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot1[1]) <= pg.TimeMgr.GetInstance():GetServerTime()
 		else
@@ -473,19 +474,29 @@ slot0.GetEncoreSkins = function(slot0)
 		end
 	end
 
-	for slot6, slot7 in ipairs(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
-		if slot7:getDataConfig("type") == 5 and not slot2(slot7) then
-			return slot7:getConfig("config_data")
+	for slot7, slot8 in ipairs(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_PT_BUFF)) do
+		if slot8:getDataConfig("type") == 5 and not slot3(slot8) then
+			slot12 = "config_data"
+
+			for slot12, slot13 in ipairs(slot8:getConfig(slot12)) do
+				table.insert(slot1, slot13)
+			end
 		end
 	end
 
-	for slot7, slot8 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING)) do
-		if slot8 and not slot8:isEnd() then
-			return slot8:getConfig("config_data")[2]
+	for slot8, slot9 in ipairs(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING)) do
+		if slot9 and not slot9:isEnd() then
+			slot13 = "config_data"
+
+			for slot13, slot14 in ipairs(slot9:getConfig(slot13)[2]) do
+				if not table.contains(slot1, slot14) then
+					table.insert(slot1, slot14)
+				end
+			end
 		end
 	end
 
-	return {}
+	return slot1
 end
 
 slot0.GetOwnSkins = function(slot0)

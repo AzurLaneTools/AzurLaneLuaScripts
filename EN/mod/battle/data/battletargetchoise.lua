@@ -392,22 +392,29 @@ end
 slot3.TargetAllHarm = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = nil
-	slot5 = ys.Battle.BattleDataProxy.GetInstance()
+	slot5 = slot0:GetIFF()
+	slot6 = ys.Battle.BattleDataProxy.GetInstance()
 
 	if slot2 then
-		slot4 = slot2
-	elseif slot0:GetIFF() == uv0.FRIENDLY_CODE then
-		slot4 = slot5:GetFoeShipList()
-	elseif slot6 == uv0.FOE_CODE then
-		slot4 = slot5:GetFriendlyShipList()
+		slot4 = {}
+
+		for slot10, slot11 in ipairs(slot2) do
+			if slot11:GetIFF() * slot5 == -1 then
+				table.insert(slot4, slot11)
+			end
+		end
+	elseif slot5 == uv0.FRIENDLY_CODE then
+		slot4 = slot6:GetFoeShipList()
+	elseif slot5 == uv0.FOE_CODE then
+		slot4 = slot6:GetFriendlyShipList()
 	end
 
-	slot6, slot7, slot8, slot9 = slot5:GetFieldBound()
+	slot7, slot8, slot9, slot10 = slot6:GetFieldBound()
 
 	if slot4 then
-		for slot13, slot14 in pairs(slot4) do
-			if slot14:IsAlive() and slot14:GetPosition().x < slot9 and slot14:GetCurrentOxyState() ~= ys.Battle.BattleConst.OXY_STATE.DIVE then
-				slot3[#slot3 + 1] = slot14
+		for slot14, slot15 in pairs(slot4) do
+			if slot15:IsAlive() and slot15:GetPosition().x < slot10 and slot15:GetCurrentOxyState() ~= ys.Battle.BattleConst.OXY_STATE.DIVE then
+				slot3[#slot3 + 1] = slot15
 			end
 		end
 	end
@@ -418,22 +425,29 @@ end
 slot3.TargetAllFoe = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = nil
-	slot5 = ys.Battle.BattleDataProxy.GetInstance()
+	slot5 = slot0:GetIFF()
+	slot6 = ys.Battle.BattleDataProxy.GetInstance()
 
 	if slot2 then
-		slot4 = slot2
-	elseif slot0:GetIFF() == uv0.FRIENDLY_CODE then
-		slot4 = slot5:GetFoeShipList()
-	elseif slot6 == uv0.FOE_CODE then
-		slot4 = slot5:GetFriendlyShipList()
+		slot4 = {}
+
+		for slot10, slot11 in ipairs(slot2) do
+			if slot11:GetIFF() * slot5 == -1 then
+				table.insert(slot4, slot11)
+			end
+		end
+	elseif slot5 == uv0.FRIENDLY_CODE then
+		slot4 = slot6:GetFoeShipList()
+	elseif slot5 == uv0.FOE_CODE then
+		slot4 = slot6:GetFriendlyShipList()
 	end
 
-	slot6, slot7, slot8, slot9 = slot5:GetFieldBound()
+	slot7, slot8, slot9, slot10 = slot6:GetFieldBound()
 
 	if slot4 then
-		for slot13, slot14 in pairs(slot4) do
-			if slot14:IsAlive() and slot14:GetPosition().x < slot9 then
-				slot3[#slot3 + 1] = slot14
+		for slot14, slot15 in pairs(slot4) do
+			if slot15:IsAlive() and slot15:GetPosition().x < slot10 then
+				slot3[#slot3 + 1] = slot15
 			end
 		end
 	end
@@ -444,22 +458,29 @@ end
 slot3.TargetFoeUncloak = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = nil
-	slot5 = ys.Battle.BattleDataProxy.GetInstance()
+	slot5 = slot0:GetIFF()
+	slot6 = ys.Battle.BattleDataProxy.GetInstance()
 
 	if slot2 then
-		slot4 = slot2
-	elseif slot0:GetIFF() == uv0.FRIENDLY_CODE then
-		slot4 = slot5:GetFoeShipList()
-	elseif slot6 == uv0.FOE_CODE then
-		slot4 = slot5:GetFriendlyShipList()
+		slot4 = {}
+
+		for slot10, slot11 in ipairs(slot2) do
+			if slot11:GetIFF() * slot5 == -1 then
+				table.insert(slot4, slot11)
+			end
+		end
+	elseif slot5 == uv0.FRIENDLY_CODE then
+		slot4 = slot6:GetFoeShipList()
+	elseif slot5 == uv0.FOE_CODE then
+		slot4 = slot6:GetFriendlyShipList()
 	end
 
-	slot6, slot7, slot8, slot9 = slot5:GetFieldBound()
+	slot7, slot8, slot9, slot10 = slot6:GetFieldBound()
 
 	if slot4 then
-		for slot13, slot14 in pairs(slot4) do
-			if slot14:IsAlive() and slot14:GetPosition().x < slot9 and not uv1.IsCloak(slot14) and slot14:GetCurrentOxyState() ~= ys.Battle.BattleConst.OXY_STATE.DIVE then
-				slot3[#slot3 + 1] = slot14
+		for slot14, slot15 in pairs(slot4) do
+			if slot15:IsAlive() and slot15:GetPosition().x < slot10 and not uv1.IsCloak(slot15) and slot15:GetCurrentOxyState() ~= ys.Battle.BattleConst.OXY_STATE.DIVE then
+				slot3[#slot3 + 1] = slot15
 			end
 		end
 	end
@@ -502,9 +523,10 @@ slot3.TargetFaintState = function(slot0, slot1, slot2)
 end
 
 slot3.TargetHarmNearest = function(slot0, slot1, slot2)
-	slot3 = (slot1 or {}).range or 9999999999.0
+	slot1 = slot1 or {}
+	slot3 = slot1.range or 9999999999.0
 	slot4 = nil
-	slot5 = slot2 or uv0.TargetFoeUncloak(slot0)
+	slot5 = slot2 and uv0.TargetFoeUncloak(slot0, slot1, slot2) or uv0.TargetFoeUncloak(slot0)
 
 	for slot9, slot10 in ipairs(slot5) do
 		if slot0:GetDistance(slot10) < slot3 then
@@ -521,7 +543,7 @@ end
 slot3.TargetHarmFarthest = function(slot0, slot1, slot2)
 	slot3 = 0
 	slot4 = nil
-	slot5 = slot2 or uv0.TargetFoeUncloak(slot0)
+	slot5 = slot2 and uv0.TargetFoeUncloak(slot0, slot1 or {}, slot2) or uv0.TargetFoeUncloak(slot0)
 
 	for slot9, slot10 in ipairs(slot5) do
 		if slot3 < slot0:GetDistance(slot10) then
@@ -536,7 +558,7 @@ slot3.TargetHarmFarthest = function(slot0, slot1, slot2)
 end
 
 slot3.TargetHarmRandom = function(slot0, slot1, slot2)
-	if #(slot2 or uv0.TargetFoeUncloak(slot0)) > 0 then
+	if #(slot2 and uv0.TargetFoeUncloak(slot0, slot1 or {}, slot2) or uv0.TargetFoeUncloak(slot0)) > 0 then
 		return {
 			slot4[math.random(#slot4)]
 		}
@@ -546,7 +568,7 @@ slot3.TargetHarmRandom = function(slot0, slot1, slot2)
 end
 
 slot3.TargetHarmRandomByWeight = function(slot0, slot1, slot2)
-	slot3 = slot2 or uv0.TargetFoeUncloak(slot0)
+	slot3 = slot2 and uv0.TargetFoeUncloak(slot0, slot1 or {}, slot2) or uv0.TargetFoeUncloak(slot0)
 	slot4 = {}
 	slot5 = -9999
 

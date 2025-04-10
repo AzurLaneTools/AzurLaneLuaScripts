@@ -24230,6 +24230,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Core Data Shop",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},

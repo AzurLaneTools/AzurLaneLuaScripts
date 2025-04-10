@@ -110,9 +110,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				30
+				5886,
+				487,
+				7
 			}
 		}
 	},
@@ -121,9 +121,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				30
+				5886,
+				487,
+				7
 			}
 		}
 	},
@@ -132,9 +132,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				30
+				5886,
+				487,
+				7
 			}
 		}
 	},
@@ -143,9 +143,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				30
+				5886,
+				487,
+				7
 			}
 		}
 	},
@@ -154,9 +154,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				30
+				5886,
+				487,
+				7
 			}
 		}
 	},
@@ -165,9 +165,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				32
+				5886,
+				487,
+				8
 			}
 		}
 	},
@@ -176,9 +176,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				32
+				5886,
+				487,
+				8
 			}
 		}
 	},
@@ -187,9 +187,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				32
+				5886,
+				487,
+				8
 			}
 		}
 	},
@@ -198,9 +198,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				32
+				5886,
+				487,
+				8
 			}
 		}
 	},
@@ -209,9 +209,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				32
+				5886,
+				487,
+				8
 			}
 		}
 	},
@@ -220,9 +220,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				34
+				5886,
+				487,
+				9
 			}
 		}
 	},
@@ -231,9 +231,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				34
+				5886,
+				487,
+				9
 			}
 		}
 	},
@@ -242,9 +242,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				34
+				5886,
+				487,
+				9
 			}
 		}
 	},
@@ -253,9 +253,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				34
+				5886,
+				487,
+				9
 			}
 		}
 	},
@@ -264,9 +264,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				34
+				5886,
+				487,
+				9
 			}
 		}
 	},
@@ -275,9 +275,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				36
+				5886,
+				487,
+				10
 			}
 		}
 	},
@@ -286,9 +286,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				36
+				5886,
+				487,
+				10
 			}
 		}
 	},
@@ -297,9 +297,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				36
+				5886,
+				487,
+				10
 			}
 		}
 	},
@@ -308,9 +308,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				36
+				5886,
+				487,
+				10
 			}
 		}
 	},
@@ -319,9 +319,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				36
+				5886,
+				487,
+				10
 			}
 		}
 	},
@@ -330,9 +330,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				38
+				5886,
+				487,
+				11
 			}
 		}
 	},
@@ -341,9 +341,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				38
+				5886,
+				487,
+				11
 			}
 		}
 	},
@@ -352,9 +352,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				38
+				5886,
+				487,
+				11
 			}
 		}
 	},
@@ -363,9 +363,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				38
+				5886,
+				487,
+				11
 			}
 		}
 	},
@@ -374,9 +374,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				38
+				5886,
+				487,
+				11
 			}
 		}
 	},
@@ -385,9 +385,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				40
+				5886,
+				487,
+				12
 			}
 		}
 	},
@@ -396,9 +396,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				40
+				5886,
+				487,
+				12
 			}
 		}
 	},
@@ -407,9 +407,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				40
+				5886,
+				487,
+				12
 			}
 		}
 	},
@@ -418,9 +418,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				40
+				5886,
+				487,
+				12
 			}
 		}
 	},
@@ -429,9 +429,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				40
+				5886,
+				487,
+				12
 			}
 		}
 	},
@@ -440,9 +440,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				42
+				5886,
+				487,
+				13
 			}
 		}
 	},
@@ -451,9 +451,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				42
+				5886,
+				487,
+				13
 			}
 		}
 	},
@@ -462,9 +462,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				42
+				5886,
+				487,
+				13
 			}
 		}
 	},
@@ -473,9 +473,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				42
+				5886,
+				487,
+				13
 			}
 		}
 	},
@@ -484,9 +484,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				42
+				5886,
+				487,
+				13
 			}
 		}
 	},
@@ -495,9 +495,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				44
+				5886,
+				487,
+				14
 			}
 		}
 	},
@@ -506,9 +506,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				44
+				5886,
+				487,
+				14
 			}
 		}
 	},
@@ -517,9 +517,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				44
+				5886,
+				487,
+				14
 			}
 		}
 	},
@@ -528,9 +528,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				44
+				5886,
+				487,
+				14
 			}
 		}
 	},
@@ -539,9 +539,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				44
+				5886,
+				487,
+				14
 			}
 		}
 	},
@@ -550,9 +550,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				46
+				5886,
+				487,
+				15
 			}
 		}
 	},
@@ -561,9 +561,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				46
+				5886,
+				487,
+				15
 			}
 		}
 	},
@@ -572,9 +572,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				46
+				5886,
+				487,
+				15
 			}
 		}
 	},
@@ -583,9 +583,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				46
+				5886,
+				487,
+				15
 			}
 		}
 	},
@@ -594,9 +594,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				46
+				5886,
+				487,
+				15
 			}
 		}
 	},
@@ -605,9 +605,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				48
+				5886,
+				487,
+				16
 			}
 		}
 	},
@@ -616,9 +616,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				48
+				5886,
+				487,
+				16
 			}
 		}
 	},
@@ -627,9 +627,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				48
+				5886,
+				487,
+				16
 			}
 		}
 	},
@@ -638,9 +638,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				48
+				5886,
+				487,
+				16
 			}
 		}
 	},
@@ -649,9 +649,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				48
+				5886,
+				487,
+				16
 			}
 		}
 	},
@@ -660,9 +660,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				50
+				5886,
+				487,
+				17
 			}
 		}
 	},
@@ -671,9 +671,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				50
+				5886,
+				487,
+				17
 			}
 		}
 	},
@@ -682,9 +682,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				50
+				5886,
+				487,
+				17
 			}
 		}
 	},
@@ -693,9 +693,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				50
+				5886,
+				487,
+				17
 			}
 		}
 	},
@@ -704,9 +704,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				50
+				5886,
+				487,
+				17
 			}
 		}
 	},
@@ -715,9 +715,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				52
+				5886,
+				487,
+				18
 			}
 		}
 	},
@@ -726,9 +726,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				52
+				5886,
+				487,
+				18
 			}
 		}
 	},
@@ -737,9 +737,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				52
+				5886,
+				487,
+				18
 			}
 		}
 	},
@@ -748,9 +748,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				52
+				5886,
+				487,
+				18
 			}
 		}
 	},
@@ -759,9 +759,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				54
+				5886,
+				487,
+				19
 			}
 		}
 	},
@@ -770,9 +770,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				54
+				5886,
+				487,
+				19
 			}
 		}
 	},
@@ -781,9 +781,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				54
+				5886,
+				487,
+				19
 			}
 		}
 	},
@@ -792,9 +792,9 @@ pg.expedition_activity_template = {
 		bonus_time = 0,
 		pt_drop_display = {
 			{
-				5679,
-				441,
-				54
+				5886,
+				487,
+				19
 			}
 		}
 	},

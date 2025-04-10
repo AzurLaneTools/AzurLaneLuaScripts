@@ -226,6 +226,12 @@ slot0.getUIName = function(slot0)
 	return nil
 end
 
+slot0.preloadUIList = function(slot0)
+	return {
+		slot0:getUIName()
+	}
+end
+
 slot0.OnLoaded = function(slot0)
 end
 

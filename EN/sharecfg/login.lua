@@ -1914,7 +1914,7 @@ pg.login = {
 		}
 	},
 	[64] = {
-		op_play = 1,
+		op_play = 0,
 		id = 64,
 		login_static = "login",
 		login_cri = "",
@@ -2034,7 +2034,7 @@ pg.login = {
 		}
 	},
 	[66] = {
-		op_play = 1,
+		op_play = 0,
 		id = 66,
 		login_static = "login",
 		login_cri = "",

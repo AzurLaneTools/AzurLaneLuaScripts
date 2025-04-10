@@ -2046,10 +2046,6 @@ slot0.getRarity = function(slot0)
 	return slot1
 end
 
-slot0.getExchangePrice = function(slot0)
-	return pg.ship_data_by_star[slot0:getConfig("rarity")].exchange_price
-end
-
 slot0.updateSkill = function(slot0, slot1)
 	slot2 = slot1.skill_id or slot1.id
 	slot0.skills[slot2] = {
