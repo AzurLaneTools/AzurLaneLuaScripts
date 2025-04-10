@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>失忆迷廊</size>",
+					"《港區假日鬼怪故事集》\n\n<size=45>失憶迷廊</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
 			bgm = "story-ghostnight-fascinsting",
-			say = "随着震耳欲聋的雷鸣声，我缓缓睁开双眼。",
+			say = "隨著震耳欲聾的雷鳴聲，我緩緩睜開雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "墙外是倾盆的暴雨，眼前是陌生的建筑。",
+			say = "牆外是傾盆的暴雨，眼前是陌生的建築。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "我是谁？我在哪？我来这里做什么？",
+			say = "我是誰？我在哪？我來這裡做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "脑海之中一片混沌，后脑传来的剧痛似乎在暗示着，我是在经历了猛烈地撞击后失去了记忆。",
+			say = "腦海之中一片混沌，後腦傳來的劇痛似乎在暗示著，我是在經歷了猛烈地撞擊後失去了記憶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "有人么……？",
+			say = "有人嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "声音在空荡荡的建筑中回荡着，一秒、两秒、三秒……",
+			say = "聲音在空蕩蕩的建築中迴盪著，一秒、兩秒、三秒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "正当我认为这是一栋无人的建筑时，一阵微弱的声音从某处传来。",
+			say = "正當我認為這是一棟無人的建築時，一陣微弱的聲音從某處傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,9 +100,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			actorName = "神秘的声音",
+			actorName = "神秘的聲音",
 			hidePaintObj = true,
-			say = "请……来……来这里……",
+			say = "請……來……來這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "声音听起来仿佛是某种低语……亦或是某种低吟。",
+			say = "聲音聽起來彷彿是某種低語……亦或是某種低吟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "思忖片刻后，我循着声音传来的方向走去。",
+			say = "思忖片刻後，我循著聲音傳來的方向走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_130",
-			say = "这是一个漆黑无光又阴冷的房间。",
+			say = "這是一個漆黑無光又陰冷的房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,9 +164,9 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			actorName = "神秘的声音",
+			actorName = "神秘的聲音",
 			hidePaintObj = true,
-			say = "你……来了啊……",
+			say = "你……來了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "房间之中，那个神秘的声音再次响起。",
+			say = "房間之中，那個神秘的聲音再次響起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			bgName = "star_level_bg_130",
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			actorName = "神秘的声音",
+			actorName = "神秘的聲音",
 			hidePaintObj = true,
 			say = "呼……",
 			typewriter = {
@@ -202,7 +202,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "原本漆黑无光的房间中突兀地亮起了幽微的烛火。",
+			say = "原本漆黑無光的房間中突兀地亮起了幽微的燭火。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "借助烛光，我看到了一名从棺椁中坐起的少女。",
+			say = "借助燭光，我看到了一名從棺槨中坐起的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您就是……我唯一在等待的人呢……",
+			say = "您就是…我唯一在等待的人呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "少女用色泽浅淡的眸子直直地看向我。",
+			say = "少女用色澤淺淡的眼眸直直地看向我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我一直在等着您……这一刻，我已经等待很久了。",
+			say = "我一直在等您……這一刻，我已經等很久了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,18 +274,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "她的声音带着某种久未说话的干涩和停顿。",
+			say = "她的聲音帶著某種久未說話的乾澀和停頓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你在等我？",
+					content = "妳在等我？",
 					flag = 1
 				},
 				{
-					content = "你是谁？你认识我么？",
+					content = "妳是誰？妳認識我嗎？",
 					flag = 2
 				}
 			}
@@ -297,7 +297,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您对我感兴趣吗……呵呵，这让我很开心呢。",
+			say = "您對我有興趣嗎……呵呵，這讓我很開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "少女缓缓坐起更高，动作优雅而流畅。",
+			say = "少女緩緩坐起更高，動作優雅流暢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我是幻想号……来自无光的深海之底，是被遗忘的灵魂。",
+			say = "我是幻想號……來自無光的深海之底，是被遺忘的靈魂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在这个世界的边缘徘徊，而您是唯一能找到我的人。",
+			say = "我在這個世界的邊緣徘徊，而您是唯一能找到我的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "她伸出舌头轻舔了了一下唇瓣，露出奇特的分叉尖端。",
+			say = "她伸出舌頭輕舔了一下唇瓣，露出奇特的分叉尖端。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么……既然您听到了我的呼唤，找到了我……",
+			say = "那麼……既然您聽到了我的呼喚，找到了我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您愿意，成为我的伴侣么？",
+			say = "您願意，成為我的伴侶嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在那之前，我需要知道你到底是什么？我又是谁，为什么会来到这里？",
+			say = "在那之前，我需要知道妳到底是什麼？我又是誰，為什麼會來到這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,7 +412,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "很遗憾，我似乎什么都不记得了。",
+			say = "很遺憾，我似乎什麼都不記得了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是什么，并不重要……",
+			say = "我是什麼，並不重要……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用比较好理解的概念去解释的话，大概是“魔物”吧？",
+			say = "用比較好理解的概念去解釋的話，大概是「魔物」吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "正是因为您失去了过去的一切，才能听到我的呼唤，找到我……",
+			say = "正是因為您失去了過去的一切，才能聽到我的呼喚，找到我……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没有“过去”和“记忆”的人类，和被遗忘的，于世界边缘徘徊的“魔物”……",
+			say = "沒有「過去」與「記憶」的人類，和被遺忘的，於世界邊緣徘徊的「魔物」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不正是绝配么？",
+			say = "不正是絕配嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等，你刚才说你一直在等我，但从你现在所说的内容来看……",
+			say = "等等，妳剛才說妳一直在等我，但從妳現在所說的話來看……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你最开始说的那些，只是为了引发我的好奇，让我留下而已吧？",
+			say = "妳最開始說的那些，只是為了引發我的好奇，讓我留下來吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然用“语言”编织陷阱，不是我擅长的事啊。",
+			say = "果然用「語言」編織陷阱，不是我擅長的事啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "少女的从喉中发出了奇特的咕噜声。",
+			say = "少女的從喉中發出了奇特的咕嚕聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你到底想做什么？",
+			say = "妳到底想做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "察觉到危险的气息，我一边保持着镇定，一边缓缓向房间的出口处移动着脚步。",
+			say = "察覺到危險的氣息，我一邊保持著鎮定，一邊緩緩地向房間的出口處移動著腳步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -585,7 +585,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让您成为我的伴侣……在这一点上，我可没有骗您呢。",
+			say = "讓您成為我的伴侶……在這一點上，我可沒有騙您。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "少女微笑的嘴角，突然变为了一个扭曲的弧度。",
+			say = "少女微笑的嘴角，突然變成一個扭曲的弧度了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "与此同时，散落在房间四周的触手装饰如同被赋予了生命一般从四面八方袭来。",
+			say = "同時，散落在房間四周的觸手裝飾如同被賦予了生命一般從四面八方襲來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这些触手……是你的一部分？！",
+			say = "這些觸手……是妳的一部分？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错哦。",
+			say = "沒錯哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,7 +645,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_130",
 			hidePaintObj = true,
-			say = "在触手的拖拽下，我被迫与棺椁之中的少女紧紧贴在了一起。",
+			say = "在觸手的拖曳下，我被迫與棺槨之中的少女緊緊貼在了一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,7 +659,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于……",
+			say = "終於……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,7 +673,7 @@ return {
 			actor = 900461,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "太好了……我得到您了……终于……",
+			say = "太好了……我得到您了……終於……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -684,7 +684,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "少女吹灭了蜡烛，棺椁的盖子缓缓合起。",
+			say = "少女吹熄了蠟燭，棺槨的蓋子緩緩闔起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,7 +712,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "在一片漆黑之中，我的精神变得逐渐涣散，直至失去意识。",
+			say = "在一片漆黑之中，我的精神變得逐漸渙散，直至失去意識。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -723,7 +723,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "房间重新陷入寂静，仿佛什么都没有发生过。",
+			say = "房間重新陷入寂靜，彷彿什麼事都沒發生過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

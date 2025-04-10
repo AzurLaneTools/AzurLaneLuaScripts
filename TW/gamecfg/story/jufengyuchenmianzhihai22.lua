@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "大厅之中，一名少女正在翩然起舞。",
+			say = "大廳之中，一名少女正在翩然起舞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,13 +47,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "風雨祭司",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "「女神啊，随我一同，前往安稳祥和之地吧——」",
+			say = "「女神啊，隨我一同，前往安穩祥和之地吧——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
 			side = 2,
-			say = "光芒消散后，少女停止了舞蹈。",
+			say = "光芒消散後，少女停止了舞蹈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "这场神秘的仪式，终于迎来了尾声。",
+			say = "這場神秘的儀式，似乎終於迎來了尾聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,13 +91,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "風雨祭司",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "女神的奇迹之一……「栞佩拉之眼」。",
+			say = "女神的奇蹟之一……「栞佩拉之眼」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "風雨祭司",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
@@ -122,13 +122,13 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "風雨祭司",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "距离女神真正回归的那一天……不远了。",
+			say = "距離女神真正回歸的那一天……不遠了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_524",
 			hidePaintObj = true,
-			say = "空旷的大厅之中，似乎传来了海涛的声音。",
+			say = "空曠的大廳之中，似乎傳來了海濤的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,13 +149,13 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "風雨祭司",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "……牵星者的人调查到这里了。",
+			say = "……牽星者的人調查到這裡了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,13 +165,13 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "風雨祭司",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "我去销毁痕迹，帮我拖住她们。",
+			say = "我去銷毀痕跡，幫我拖住她們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "star_level_bg_524",
-			factiontag = "风雨祭司",
+			factiontag = "風雨祭司",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
@@ -248,7 +248,7 @@ return {
 			},
 			sequence = {
 				{
-					"——「飓风与沉眠之海」·完",
+					"——「颶風與沉眠之海」·完",
 					1
 				}
 			}

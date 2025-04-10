@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-startravel",
+		default_bgm = "story-tempest-marching",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -1640,6 +1640,21 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "bar-soft"
 	},
+	StormSeaMainPage = {
+		default_bgm = "theme-ganjisawai",
+		special_bgm = "",
+		bgm = "theme-ganjisawai"
+	},
+	StormSeaPtPage = {
+		default_bgm = "battle-nightmare-theme",
+		special_bgm = "",
+		bgm = "battle-nightmare-theme"
+	},
+	GhostSkinStoryActPage = {
+		default_bgm = "story-ghostnight-fascinsting",
+		special_bgm = "",
+		bgm = "story-ghostnight-fascinsting"
+	},
 	CryptolaliaScene = {
 		default_bgm = "story-richang-quiet",
 		special_bgm = "",
@@ -1744,10 +1759,5 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-5",
 		special_bgm = "",
 		bgm = "story-richang-5"
-	},
-	AprilFoolDiscovery2025Page = {
-		default_bgm = "story-battle-16bit",
-		special_bgm = "",
-		bgm = "story-battle-16bit"
 	}
 }

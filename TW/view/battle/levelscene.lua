@@ -540,6 +540,9 @@ slot0.didEnter = function(slot0)
 				uv0:emit(LevelMediator2.ON_BOSSSINGLE_MAP, {
 					mode = OtherworldMapScene.MODE_BATTLE
 				})
+			end,
+			[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = function ()
+				uv0:emit(LevelMediator2.ON_CLUE_MAP)
 			end
 		})
 	end, SFX_PANEL)

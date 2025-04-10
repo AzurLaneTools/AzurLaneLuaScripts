@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "走进细看，面板上的按钮编号为1至255，整体呈现出一种与周围高科技设备截然不同的原始气息。",
+			say = "走近细看，面板上的按钮编号为1至255，整体呈现出一种与周围高科技设备截然不同的原始气息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

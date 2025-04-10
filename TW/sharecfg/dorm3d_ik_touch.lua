@@ -121,7 +121,7 @@ pg.dorm3d_ik_touch = {
 		vibrate = {
 			{
 				100,
-				0.1
+				0.2
 			}
 		}
 	},
@@ -135,7 +135,21 @@ pg.dorm3d_ik_touch = {
 		vibrate = {
 			{
 				100,
-				0.1
+				0.2
+			}
+		}
+	},
+	[3003323] = {
+		ik_move = "",
+		char_id = 19903,
+		body = "RightThigh",
+		action_emote = "",
+		id = 3003323,
+		scene_item = "",
+		vibrate = {
+			{
+				100,
+				0.2
 			}
 		}
 	},
@@ -150,6 +164,7 @@ pg.dorm3d_ik_touch = {
 		2002501,
 		2002502,
 		3003321,
-		3003322
+		3003322,
+		3003323
 	}
 }

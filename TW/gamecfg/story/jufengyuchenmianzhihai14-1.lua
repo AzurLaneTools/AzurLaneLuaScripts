@@ -12,7 +12,7 @@ return {
 			bgm = "story-temepest-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我与幻想号在机械构成的巨型设施中移动着。",
+			say = "我與幻想號在機械構成的巨型設施中移動著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "一道道大门在幻想号的身前依次而开，我们一路畅行无阻。",
+			say = "一道道大門在幻想號的身前依序而開，我們一路暢行無阻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			bgm = "battle-nightmare-theme",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "又穿过一条走廊后，门的另一侧出现了一片如同海洋般的浩瀚空间。",
+			say = "又穿過一條走廊後，門的另一側出現了一片如同海洋般的浩瀚空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "空间中布满薄雾，雾气之后闪烁着星星点点的蓝紫色光。",
+			say = "空間中佈滿薄霧，霧氣之後閃爍著星星點點的藍紫色光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是雾池。",
+			say = "這裡是霧池。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到……它们已经苏醒到这种程度了。",
+			say = "沒想到……它們已經甦醒到這種程度了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,11 +119,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“它们”？",
+			say = "……「它們」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那些闪烁的光点……寂静之灵。",
+			say = "那些閃爍的光點……寂靜之靈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看……它们来了。",
+			say = "看……它們來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
 			side = 2,
-			say = "光芒刺穿薄雾，凝聚成一个个游弋在水面上庞大的身躯。",
+			say = "光芒刺穿薄霧，凝聚成一個個游弋在水面上龐大的身軀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,11 +270,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些……灵魂？看上去和那些舢板骸骨兽有不少相似之处……",
+			say = "這些……靈魂？看起來和那些舢板骸骨獸有不少相似之處…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "它们是骸骨的灵魂，亦是驱动骸骨的力量之源。",
+			say = "它們是骸骨的靈魂，也是驅動骸骨的力量之源。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "彼此之间一一对应，相互关联。",
+			say = "彼此之間一一對應，相互關聯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此处的寂静之灵如此之多……想必外部，已经是亡者肆虐的景象了吧。",
+			say = "這裡的寂靜之靈如此之多……想必外部，已經是亡者肆虐的景象了吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,11 +328,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一一对应，相互关联……？如果我们攻击这些灵魂，外部的骸骨躯体会怎么样？",
+			say = "一一對應，相互關聯……？如果我們攻擊這些靈魂，外部的骸骨軀體會怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,7 +347,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "会变为没有意识且失去动力的空壳，也就是它们本应该存在的形态。",
+			say = "會變成沒有意識、失去動力的空殼，也就是它們本來就該存在的形狀。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……此处的灵魂数量太多，全部吃掉需要好久。",
+			say = "不過……這裡的靈魂數量太多，全部吃掉需要好久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,11 +372,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……吃掉？……好吃么？",
+			say = "……吃掉？……好吃嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……没有味道，不好吃也不难吃。",
+			say = "嗯……沒有味道，不好吃也不難吃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你要尝尝么？",
+			say = "你要嚐嚐嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,21 +416,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_2",
 			hidePaintObj = true,
-			say = "周边的触手蠢蠢欲动。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			portrait = "zhihuiguan",
-			side = 2,
-			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
-			actor = 0,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "还是不了……多谢。",
+			say = "週邊的觸手蠢蠢欲動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,11 +426,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只靠我们，消灭这些敌人是不可能。",
+			say = "還是不了……多謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,11 +440,25 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果反过来呢？消灭外面的骸骨兽的话，这些灵魂会怎么样？",
+			say = "只靠我們，消滅這些敵人是不可能。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			portrait = "zhihuiguan",
+			side = 2,
+			bgName = "bg_jufengv2_2",
+			factiontag = "指揮官",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "如果反過來呢？消滅外面的骸骨獸的話，這些靈魂會怎麼樣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "外壳受损，灵魂将会陷入沉寂。",
+			say = "外殼受損，靈魂將會陷入沉默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你想让外面的那些人来帮忙？",
+			say = "你想讓外面的人來幫忙？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -497,11 +497,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，不过要怎么通知她们配合行动是个问题……嗯？",
+			say = "嗯，不過要怎麼通知她們配合行動是個問題……嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,11 +511,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你怎么知道我在外面还有同伴？",
+			say = "怎麼知道我在外面還有同伴？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_2",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -559,7 +559,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人类，握住我的手，这样你也能看到了。",
+			say = "人類，握住我的手，這樣你也能看見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			factiontag = "深海魔物",
 			dir = 1,
 			hidePaintObj = true,
-			say = "名为幻想号在少女在水边坐下，将腿部没入水中，伸出触手卷了过来。",
+			say = "名為幻想號在少女在水邊坐下，將腿部沒入水中，伸出觸手捲了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -583,7 +583,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_underwater",
-			say = "躲开触手握住幻想号的手后，一幅画面出现在了我的眼前。",
+			say = "躲開觸手握住幻想號的手後，一幅畫面出現在了我的眼前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -612,7 +612,7 @@ return {
 			bgName = "bg_underwater",
 			hidePaintObj = true,
 			side = 2,
-			say = "——深海之中，巨大的骸骨兽一只接着一只游过。",
+			say = "那是一幅深海中的畫面，巨大的骸骨獸一隻接著一隻遊過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "而我如同一个没有实体的观察者，静静地观察着这一切。",
+			say = "而我如同一個沒有實體的觀察者，靜靜觀察著這一切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_500",
-			say = "然后，又是一幅新的画面。",
+			say = "然後，又是一幅新的畫面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_504",
-			say = "而后，又是一幅。",
+			say = "而後，又是一幅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,11 +785,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这个难道是……塞壬在海域中设置的监控设备么？）",
+			say = "（這個難道是……塞壬在海域中設置的監控設備麼？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -799,11 +799,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_504",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（而幻想号用某种方法，让我也接入了这个系统中……？）",
+			say = "（而幻想號用某種方法，讓我也接入了這個系統中……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_jufengv2_1",
-			say = "一幅幅的画面从我眼前闪过。",
+			say = "一幅幅的畫面從我眼前閃過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -842,7 +842,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "终于，我看到了数艘风帆舰组成的船团，还有那个头戴红黑色船长帽的身影。",
+			say = "終於，我看到了幾艘風帆艦組成的船團，還有那個頭戴紅黑色船長帽的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -852,13 +852,13 @@ return {
 			portrait = 9600010,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			hidePainting = true,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官就在岛屿下面？海豚号，你确定么？",
+			say = "指揮官就在島嶼下方？海豚號，妳確定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,7 +869,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "说话声清晰地传入了脑海中。",
+			say = "說話聲清晰地傳入了腦海中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,11 +879,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（说起来，塞壬的监控设备……不光只能单向被动接收信息吧……）",
+			say = "（說起來，塞壬的監控設備……不光只能單向被動接收訊息吧……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -893,11 +893,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（很好……有联络她们的办法了！）",
+			say = "（很好……有聯絡她們的辦法了！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -905,14 +905,14 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			bgName = "bg_jufengv2_1",
 			bgm = "story-tempest-light",
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官就在岛屿下面？海豚号，你确定么？",
+			say = "指揮官就在島嶼下方？海豚號，妳確定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,7 +940,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "“伟大的皇家财富”号上，头戴红黑色船长帽的身影正在焦急地询问着。",
+			say = "「偉大的皇家幸運號」上，頭戴紅黑色船長帽的身影正在焦急地詢問著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -950,12 +950,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "船团新人",
+			factiontag = "船團新人",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，我感觉得到，一定就在那个下面！",
+			say = "嗯，我感覺得到，一定就在那個下面！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,12 +965,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来必须强行登岛了。",
+			say = "看來必須強行登島了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -979,23 +979,23 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还好，经过刚才的风暴，对面的阵型也被打散了不少，我们或许有可乘之机。",
+			say = "還好，經過剛才的風暴，對面的陣型也被吹散了不少，我們或許有可乘之機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "诸位，能听到么？",
+					content = "諸位，能聽到嗎？",
 					flag = 1
 				},
 				{
-					content = "神说，要有声音。",
+					content = "神說，要有聲音。",
 					flag = 2
 				}
 			}
@@ -1004,13 +1004,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			paintingNoise = true,
 			optionFlag = 1,
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "飓风船团的诸位，能听到我的声音么？",
+			say = "颶風船團的諸位，能聽到我的聲音呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1020,13 +1020,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			paintingNoise = true,
 			optionFlag = 2,
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳——神说，要有声音。",
+			say = "咳——神說，要有聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1036,13 +1036,13 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			paintingNoise = true,
 			optionFlag = 2,
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "飓风船团的诸位，能听到么？",
+			say = "颶風船團的諸位，能聽到嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1052,12 +1052,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯？好像有人在我耳边说话！你们听见了吗？",
+			say = "嗯？好像有人在我耳邊說話！妳們聽見了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1067,12 +1067,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听见了……我还以为是我喝醉了！",
+			say = "聽見了……我還以為是我喝醉了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1082,12 +1082,12 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原来不是幻听么……？",
+			say = "原來不是幻聽嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1097,12 +1097,12 @@ return {
 			expression = 5,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……这个声音是……指挥官？！",
+			say = "咦……這個聲音是……指揮官？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1112,12 +1112,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你在哪儿，我怎么看不见你？",
+			say = "指揮官，你在哪裡，我怎麼看不見你？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1128,7 +1128,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_jufengv2_1",
-			say = "简明扼要地向飓风船团介绍了现在的情况，以及她们之后的作战任务。",
+			say = "簡明扼要的向颶風船團介紹了現在的狀況，以及她們之後的作戰任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1155,12 +1155,12 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "船团新人",
+			factiontag = "船團新人",
 			dir = 1,
 			actor = 9600110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘻嘻，我就说指挥官是在下面吧~",
+			say = "嘻嘻，我就說指揮官在下面吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1170,12 +1170,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，方法不论手段不论，只要对敌人造成尽可能多的杀伤就行吧？",
+			say = "哼哼，方法不論手段不論，只要對敵人造成盡可能多的殺傷就行吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1184,7 +1184,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
@@ -1198,12 +1198,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心，为你开路的事就包在我们身上了。",
+			say = "放心，為你開路的事就包在我們身上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1213,13 +1213,13 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "浮动宝库",
+			factiontag = "浮動寶庫",
 			dir = 1,
 			actor = 9600070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			actorYFlip = true,
-			say = "{playername}阁下，圣殿之中遍布机关，请务必小心行动。",
+			say = "{playername}閣下，聖殿之中遍佈機關，請務必小心行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1229,12 +1229,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，飓风船团，开始作战——！",
+			say = "那麼，颶風船團，開始作戰——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

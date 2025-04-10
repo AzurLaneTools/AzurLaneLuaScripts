@@ -151,7 +151,9 @@ pg.furniture_data_template = setmetatable({
 			284,
 			285,
 			288,
+			289,
 			290,
+			291,
 			292,
 			100002,
 			100003,
@@ -205,6 +207,7 @@ pg.furniture_data_template = setmetatable({
 			200007,
 			200008,
 			12002,
+			12101,
 			12102,
 			12103,
 			12104,
@@ -3011,6 +3014,23 @@ pg.furniture_data_template = setmetatable({
 			314112,
 			314113
 		},
+		[115] = {
+			315001,
+			315002,
+			315101,
+			315102,
+			315103,
+			315104,
+			315105,
+			315106,
+			315107,
+			315108,
+			315109,
+			315110,
+			315111,
+			315112,
+			315113
+		},
 		[116] = {
 			316001,
 			316002,
@@ -3199,6 +3219,7 @@ pg.furniture_data_template = setmetatable({
 			11126,
 			11127,
 			11128,
+			12101,
 			12102,
 			12103,
 			12104,
@@ -4885,6 +4906,18 @@ pg.furniture_data_template = setmetatable({
 			314109,
 			314110,
 			314111,
+			315101,
+			315102,
+			315103,
+			315104,
+			315105,
+			315106,
+			315107,
+			315108,
+			315109,
+			315110,
+			315111,
+			315112,
 			316101,
 			316102,
 			316103,
@@ -5151,6 +5184,7 @@ pg.furniture_data_template = setmetatable({
 			285,
 			288,
 			290,
+			291,
 			100002,
 			100003,
 			100004,
@@ -5251,6 +5285,7 @@ pg.furniture_data_template = setmetatable({
 			278,
 			283,
 			284,
+			289,
 			292
 		},
 		[7] = {
@@ -5430,6 +5465,7 @@ pg.furniture_data_template = setmetatable({
 			312115,
 			313113,
 			314113,
+			315113,
 			316123,
 			318305
 		},
@@ -5529,6 +5565,7 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
+			315001,
 			316001,
 			318001
 		},
@@ -5629,6 +5666,7 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
+			315002,
 			316002,
 			318002
 		},
@@ -6061,6 +6099,7 @@ pg.furniture_data_template = setmetatable({
 			312002,
 			313002,
 			314002,
+			315002,
 			316002,
 			318002
 		},
@@ -6192,6 +6231,7 @@ pg.furniture_data_template = setmetatable({
 			284,
 			285,
 			288,
+			289,
 			290,
 			292,
 			100002,
@@ -6244,6 +6284,7 @@ pg.furniture_data_template = setmetatable({
 			223,
 			240,
 			242,
+			291,
 			200001,
 			200002,
 			200003,
@@ -6366,6 +6407,7 @@ pg.furniture_data_template = setmetatable({
 			11123,
 			11124,
 			11125,
+			12101,
 			12102,
 			12103,
 			12104,
@@ -8036,6 +8078,19 @@ pg.furniture_data_template = setmetatable({
 			314110,
 			314111,
 			314113,
+			315101,
+			315102,
+			315103,
+			315104,
+			315105,
+			315106,
+			315107,
+			315108,
+			315109,
+			315110,
+			315111,
+			315112,
+			315113,
 			316101,
 			316102,
 			316103,
@@ -8235,6 +8290,7 @@ pg.furniture_data_template = setmetatable({
 			312001,
 			313001,
 			314001,
+			315001,
 			316001,
 			318001
 		},
@@ -9019,7 +9075,9 @@ pg.furniture_data_template = setmetatable({
 		284,
 		285,
 		288,
+		289,
 		290,
+		291,
 		292,
 		100002,
 		100003,
@@ -9308,6 +9366,7 @@ pg.furniture_data_template = setmetatable({
 		11306,
 		11307,
 		12002,
+		12101,
 		12102,
 		12103,
 		12104,
@@ -11686,6 +11745,21 @@ pg.furniture_data_template = setmetatable({
 		314111,
 		314112,
 		314113,
+		315001,
+		315002,
+		315101,
+		315102,
+		315103,
+		315104,
+		315105,
+		315106,
+		315107,
+		315108,
+		315109,
+		315110,
+		315111,
+		315112,
+		315113,
 		316001,
 		316002,
 		316101,
@@ -19178,6 +19252,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[289] = {
+		can_rotate = 0,
+		describe = "一道自沉眠之海中捕獲的神秘能量體，靜靜流淌在收集裝置之中。",
+		gain_by = "颶風與沉眠之海",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "寂靜渦流收集裝置",
+		advice = 0,
+		id = 289,
+		icon = "fengfan2xunzhangicon",
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fengfan2xunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[290] = {
 		can_rotate = 1,
 		describe = "堅持傳統，不斷創新。將拉麵的美味帶入港區！",
@@ -19242,6 +19359,86 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[291] = {
+		can_rotate = 0,
+		describe = "嘿咻嘿咻~只要努力轉動這個把手，就可以抽出大獎哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "choujiangtuicheicon",
+		count = 1,
+		name = "歡樂彩珠抽獎車",
+		advice = 0,
+		id = 291,
+		tag = 6,
+		comfortable = 4,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"choujiangtuiche",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},
@@ -32768,6 +32965,57 @@ pg.base.furniture_data_template = {
 		size = {},
 		offset = {},
 		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[12101] = {
+		can_rotate = 0,
+		describe = "搖呀搖～好開心～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "r2/yaoyaocher2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 5,
+		name = "喵喵搖搖車",
+		advice = 0,
+		id = 12101,
+		icon = "yaoyaocher2icon",
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					12.5,
+					62.5
+				},
+				{
+					-1,
+					1
+				},
+				"r2/yaoyaocher2_using"
+			}
+		},
 		can_trigger = {
 			0
 		},
@@ -137460,6 +137708,745 @@ pg.base.furniture_data_template = {
 						"dance1",
 						"dance2",
 						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[315001] = {
+		can_rotate = 0,
+		describe = "歡迎來到幽暗之港，在恐懼中顫抖吧！",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "gb/dibangb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 115,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "幽港地板",
+		advice = 0,
+		icon = "dibangbicon",
+		id = 315001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[315002] = {
+		can_rotate = 0,
+		describe = "歡迎來到幽暗之港，在恐懼中顫抖吧！",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 115,
+		count = 1,
+		name = "幽港壁紙",
+		advice = 0,
+		id = 315002,
+		icon = "qiangbigbicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbigb",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[315101] = {
+		can_rotate = 0,
+		describe = "小心，被寶箱夾到的話會很痛！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 115,
+		count = 1,
+		name = "幽港詭箱",
+		advice = 0,
+		id = 315101,
+		icon = "baoxianggbicon",
+		comfortable = 4,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"baoxianggb",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[315102] = {
+		can_rotate = 0,
+		describe = "看起來非常危險，裡面說不定住著很可怕的傢伙！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 115,
+		count = 1,
+		name = "詭譎古堡",
+		advice = 0,
+		id = 315102,
+		icon = "chengbaogbicon",
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chengbaogb",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[315103] = {
+		can_rotate = 0,
+		describe = "也許是往昔的守護者……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "gb/diaoxianggb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 115,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "幽港雕像",
+		advice = 0,
+		icon = "diaoxianggbicon",
+		id = 315103,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[315104] = {
+		can_rotate = 0,
+		describe = "乘坐它的話……會駛向哪裡呢？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 115,
+		count = 1,
+		name = "幽港帆船",
+		advice = 0,
+		id = 315104,
+		icon = "fanchuangbicon",
+		comfortable = 4,
+		size = {
+			2,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fanchuangb",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[315105] = {
+		can_rotate = 0,
+		describe = "看起來很破敗的房子，要去探險嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "gb/fangwu1gb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 115,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "幽港民宅1",
+		advice = 0,
+		icon = "fangwu1gbicon",
+		id = 315105,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[315106] = {
+		can_rotate = 0,
+		describe = "看起來都是蛛網的房子，要去探險嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "gb/fangwu2gb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 115,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "幽港民宅2",
+		advice = 0,
+		icon = "fangwu2gbicon",
+		id = 315106,
+		comfortable = 3,
+		size = {
+			3,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[315107] = {
+		can_rotate = 0,
+		describe = "在這裡迎來的……是更深的恐懼！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 115,
+		count = 1,
+		name = "幽港港口",
+		advice = 0,
+		id = 315107,
+		icon = "gangkougbicon",
+		comfortable = 3,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gangkougb",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[315108] = {
+		can_rotate = 0,
+		describe = "貼著尋人啟事和目擊到詭異觸手的告示，好可怕！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "gb/gonggaolangb",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 115,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "幽港公告欄",
+		advice = 0,
+		icon = "gonggaolangbicon",
+		id = 315108,
+		comfortable = 2,
+		size = {
+			2,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[315109] = {
+		can_rotate = 0,
+		describe = "最好……還是不要踩上去。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 115,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "jiaoshigbicon",
+		count = 1,
+		name = "詭譎礁石",
+		advice = 0,
+		id = 315109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiaoshigbB",
+				"normal"
+			},
+			{
+				"jiaoshigbT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					},
+					{
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[315110] = {
+		can_rotate = 0,
+		describe = "如果害怕了，就躲進酒館休息一會兒吧。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 115,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "jiuguangbicon",
+		count = 2,
+		name = "幽港酒館",
+		advice = 0,
+		id = 315110,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			4,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiuguangbB",
+				"normal"
+			},
+			{
+				"jiuguangbT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[315111] = {
+		can_rotate = 0,
+		describe = "也許能找到有價值的情報嗎？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 115,
+		count = 1,
+		name = "不詳樹叢",
+		advice = 0,
+		id = 315111,
+		icon = "shuconggbicon",
+		comfortable = 4,
+		size = {
+			4,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shuconggb",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[315112] = {
+		can_rotate = 0,
+		describe = "僅憑點點的亮光，無法驅散心中的恐懼哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 115,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "zawuduigbicon",
+		count = 1,
+		name = "不詳路燈",
+		advice = 0,
+		id = 315112,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zawuduigbB",
+				"normal"
+			},
+			{
+				"zawuduigbT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[315113] = {
+		can_rotate = 0,
+		describe = "將會迎來什麼…就交給命運決定吧！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 115,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "jitangbicon",
+		count = 1,
+		name = "詭譎祭壇",
+		advice = 0,
+		id = 315113,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			5,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jitangbB",
+				"normal"
+			},
+			{
+				"jitangbT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"action1",
+						nil,
+						"tuozhuai2"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"action1",
+						"action2",
+						"action3"
 					}
 				}
 			},

@@ -576,6 +576,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>沒人能逃出自己的故事，自由的牛仔也不例外。</color>透過參與「荒野假日開拓」活動獲取",
 		scene = {}
 	},
+	[609] = {
+		name = "促銷紀念",
+		gain_by = "初春明石特賣會",
+		time_second = 0,
+		id = 609,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「指揮官，感謝您參與促銷活動，請收好贈品喵~！」</color>透過參與「初春明石特賣會」活動獲取",
+		scene = {}
+	},
 	[1001] = {
 		name = "開服紀念",
 		gain_by = "",
@@ -785,6 +794,7 @@ pg.item_data_frame = {
 		605,
 		606,
 		607,
+		609,
 		1001,
 		1002,
 		1003,

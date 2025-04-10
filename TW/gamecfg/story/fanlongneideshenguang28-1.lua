@@ -123,7 +123,7 @@ return {
 			actor = 9705080,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "无需再等了……直接超载系统，将功率推至最大，让永夜吞噬彻底将其吞噬吧！",
+			say = "无需再等了……直接超载系统，将功率推至最大，让永夜彻底将其吞噬吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

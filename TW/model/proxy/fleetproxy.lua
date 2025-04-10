@@ -356,6 +356,8 @@ slot0.addActivityFleet = function(slot0, slot1, slot2)
 			slot15.fleetType = Fleet.SUBMARINE_FLEET_ID <= slot14.id and FleetType.Submarine or FleetType.Normal
 		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
 			slot15.fleetType = Fleet.SUBMARINE_FLEET_ID <= slot14.id and FleetType.Submarine or FleetType.Normal
+		elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+			slot15.fleetType = Fleet.MEGA_SUBMARINE_FLEET_OFFSET <= slot14.id and FleetType.Submarine or FleetType.Normal
 		else
 			slot15.fleetType = Fleet.isSubmarineFleet({
 				id = slot14.id
@@ -390,6 +392,9 @@ slot0.addActivityFleet = function(slot0, slot1, slot2)
 		slot10 = 0
 		slot11 = 0
 	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+		slot10 = 0
+		slot11 = 0
+	elseif slot9.type == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
 		slot10 = 0
 		slot11 = 0
 	end
@@ -487,20 +492,34 @@ slot0.recommendActivityFleet = function(slot0, slot1, slot2)
 		end
 	end
 
-	if Fleet.SUBMARINE_FLEET_ID <= slot2 then
-		if not slot4:isFull() then
-			slot6(TeamType.Submarine, TeamType.SubmarineMax - #slot4.subShips)
+	slot7 = function(slot0)
+		slot2 = TeamType.MainMax - #slot0.mainShips
+
+		if TeamType.VanguardMax - #slot0.vanguardShips > 0 then
+			uv0(TeamType.Vanguard, slot1)
 		end
+
+		if slot2 > 0 then
+			uv0(TeamType.Main, slot2)
+		end
+	end
+
+	slot8 = function(slot0)
+		if not slot0:isFull() then
+			uv0(TeamType.Submarine, TeamType.SubmarineMax - #slot0.subShips)
+		end
+	end
+
+	if getProxy(ActivityProxy):getActivityById(slot1):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
+		if Fleet.MEGA_SUBMARINE_FLEET_OFFSET <= slot2 then
+			slot8(slot4)
+		else
+			slot7(slot4)
+		end
+	elseif Fleet.SUBMARINE_FLEET_ID <= slot2 then
+		slot8(slot4)
 	else
-		slot8 = TeamType.MainMax - #slot4.mainShips
-
-		if TeamType.VanguardMax - #slot4.vanguardShips > 0 then
-			slot6(TeamType.Vanguard, slot7)
-		end
-
-		if slot8 > 0 then
-			slot6(TeamType.Main, slot8)
-		end
+		slot7(slot4)
 	end
 
 	slot0:updateActivityFleet(slot1, slot2, slot4)

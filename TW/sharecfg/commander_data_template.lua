@@ -597,6 +597,62 @@ pg.commander_data_template = {
 			5121
 		}
 	},
+	[960041] = {
+		tactic_value = 67,
+		name = "埃弗喵",
+		painting = "aifumiao",
+		max_level = 30,
+		exp = 500,
+		desc = "指挥喵埃弗喵——通过活动「飓风与沉眠之海」获取",
+		exp_cost = 30,
+		ability_refresh_type = 1,
+		support_value = 33,
+		skill_id = 960041,
+		command_value = 60,
+		rarity = 5,
+		nationality = 96,
+		bg = "1",
+		group_type = 96004,
+		id = 960041,
+		ability_show = {
+			5161,
+			831,
+			832,
+			151,
+			833,
+			5101,
+			152,
+			5131
+		}
+	},
+	[960051] = {
+		tactic_value = 42,
+		name = "羅伯喵",
+		painting = "luobomiao",
+		max_level = 30,
+		exp = 300,
+		desc = "指挥喵罗伯喵——通过活动「飓风与沉眠之海」获取",
+		exp_cost = 20,
+		ability_refresh_type = 1,
+		support_value = 31,
+		skill_id = 960051,
+		command_value = 59,
+		rarity = 4,
+		nationality = 96,
+		bg = "1",
+		group_type = 96005,
+		id = 960051,
+		ability_show = {
+			5091,
+			901,
+			902,
+			141,
+			903,
+			5111,
+			142,
+			5131
+		}
+	},
 	all = {
 		10011,
 		10021,
@@ -627,6 +683,8 @@ pg.commander_data_template = {
 		42021,
 		960011,
 		960021,
-		960031
+		960031,
+		960041,
+		960051
 	}
 }

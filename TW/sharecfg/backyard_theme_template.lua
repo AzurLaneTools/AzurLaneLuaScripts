@@ -3759,7 +3759,7 @@ pg.backyard_theme_template = {
 		desc = "遠航船，向著自由與寶藏，起航~",
 		deblocking = 1,
 		new = 0,
-		hot = 0,
+		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -4170,6 +4170,38 @@ pg.backyard_theme_template = {
 			314111
 		}
 	},
+	[115] = {
+		Cfg_1 = 5,
+		name = "幽暗之港",
+		desc = "歡迎來到幽暗之港，在恐懼中顫抖吧！",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 116,
+		id = 115,
+		icon = "gbthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			315001,
+			315002,
+			315101,
+			315102,
+			315103,
+			315104,
+			315105,
+			315106,
+			315107,
+			315108,
+			315109,
+			315110,
+			315111,
+			315112
+		}
+	},
 	[116] = {
 		Cfg_1 = 5,
 		name = "王女風格",
@@ -4341,6 +4373,7 @@ pg.backyard_theme_template = {
 		112,
 		113,
 		114,
+		115,
 		116,
 		118
 	}

@@ -336,6 +336,10 @@ pg.expedition_data_by_map = setmetatable({
 		1830026,
 		1840001,
 		1840002,
+		1860001,
+		1860002,
+		1860003,
+		1860004,
 		1870001,
 		1870002,
 		1870003,
@@ -18204,6 +18208,326 @@ pg.base.expedition_data_by_map = {
 			21,
 			22,
 			23
+		}
+	},
+	[1860001] = {
+		map = 1860001,
+		name = "颶風與沉眠之海·上篇|| ||CHAPTER EX||EX",
+		bgm = "story-tempest-marching",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1760002",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1760002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860001
+			},
+			{
+				1860002
+			},
+			{
+				1860003
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		}
+	},
+	[1860002] = {
+		map = 1860002,
+		name = "颶風與沉眠之海·下篇|| ||CHAPTER EX||EX",
+		bgm = "battle-nightmare-theme",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1860001",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1860001",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860004
+			},
+			{
+				1860005
+			},
+			{
+				1860006
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		}
+	},
+	[1860003] = {
+		map = 1860003,
+		name = "颶風與沉眠之海·SP|| ||CHAPTER EX||EX",
+		bgm = "theme-tempest-up",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1860002",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1860002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 1860002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860041
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
+		}
+	},
+	[1860004] = {
+		map = 1860004,
+		name = "颶風與沉眠之海·EX|| ||CHAPTER EX||EX",
+		bgm = "theme-ganjisawai",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1860002",
+		ani_controller = "",
+		default_background = "bg_underwater",
+		on_activity = 5621,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1860002",
+		destory_icon_suffix = "blue",
+		default_bgm = "theme-SeaAndSun-soft",
+		uifx = "",
+		bind_map = 1860002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1860051
+			}
+		},
+		story_id = {
+			68,
+			69,
+			70,
+			71,
+			72,
+			73,
+			74,
+			75,
+			76,
+			77,
+			78,
+			79,
+			80,
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89
 		}
 	},
 	[1870001] = {

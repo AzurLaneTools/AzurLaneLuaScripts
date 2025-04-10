@@ -59,7 +59,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_shenguang_1",
-			say = "果然，在察觉到此处变故后不久，安德里亚·多利亚带领主力如马可波罗此前预料的一般从海上袭来了。",
+			say = "果然，在察觉到此处变故后不久，安德烈亚·多利亚带领主力如马可波罗此前预料的一般从海上袭来了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -79,18 +79,18 @@ slot0.loadScene = function(slot0, slot1, slot2, slot3, slot4)
 			end
 		end,
 		function (slot0)
+			if uv0.cleanStack then
+				uv1:cleanContext()
+			end
+
+			uv1:pushContext(uv0)
+			slot0()
+		end,
+		function (slot0)
 			if uv0 and uv0.cleanChild then
 				uv0.children = {}
 			end
 
-			if uv1.cleanStack then
-				uv2:cleanContext()
-			end
-
-			uv2:pushContext(uv1)
-			slot0()
-		end,
-		function (slot0)
 			seriesAsync({
 				function (slot0)
 					uv0:prepare(uv1.facade, uv2, function (slot0)

@@ -3485,6 +3485,61 @@ pg.fleet_tech_ship_class = {
 			960006
 		}
 	},
+	[960007] = {
+		shiptype = 24,
+		name = "岡依沙瓦號",
+		t_level = 2,
+		id = 960007,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960007
+		}
+	},
+	[960008] = {
+		shiptype = 23,
+		name = "幻想號",
+		t_level = 1,
+		id = 960008,
+		t_level_1 = 1,
+		nation = 96,
+		ships = {
+			960008
+		}
+	},
+	[960009] = {
+		shiptype = 22,
+		name = "和睦號",
+		t_level = 1,
+		id = 960009,
+		t_level_1 = 9,
+		nation = 96,
+		ships = {
+			960009
+		}
+	},
+	[960010] = {
+		shiptype = 23,
+		name = "樸茨茅斯冒險號",
+		t_level = 1,
+		id = 960010,
+		t_level_1 = 6,
+		nation = 96,
+		ships = {
+			960010
+		}
+	},
+	[960011] = {
+		shiptype = 22,
+		name = "海豚號",
+		t_level = 1,
+		id = 960011,
+		t_level_1 = 10,
+		nation = 96,
+		ships = {
+			960011
+		}
+	},
 	[970101] = {
 		shiptype = 1,
 		name = "獵人·META",
@@ -4193,6 +4248,11 @@ pg.fleet_tech_ship_class = {
 		960004,
 		960005,
 		960006,
+		960007,
+		960008,
+		960009,
+		960010,
+		960011,
 		970101,
 		970102,
 		970103,

@@ -22,6 +22,7 @@ slot0.init = function(slot0)
 	slot0._formationLogic = BaseFormation.New(slot0._tf, slot0._heroContainer, slot0._heroInfo, slot0._gridTFs)
 
 	slot0:Register()
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 end
 
 slot0.CommonInit = function(slot0)
@@ -430,7 +431,7 @@ slot0.didEnter = function(slot0)
 
 			uv0:uiExitAnimating()
 			LeanTween.delayedCall(0.3, System.Action(function ()
-				uv0:emit(uv1.ON_CLOSE)
+				uv0:closeView()
 			end))
 		end)
 	end, SFX_CANCEL)
@@ -481,7 +482,6 @@ slot0.didEnter = function(slot0)
 		slot0._formationLogic:SwitchToPreviewMode()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
 	setActive(slot0._autoToggle, true)
 	onToggle(slot0, slot0._autoToggle, function (slot0)
 		uv0:emit(BossSinglePreCombatMediator.ON_AUTO, {
@@ -535,40 +535,39 @@ slot0.displayFleetInfo = function(slot0)
 	uv0.tweenNumText(slot0._vanguardGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Vanguard)))
 	uv0.tweenNumText(slot0._mainGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Main)))
 	uv0.tweenNumText(slot0._subGS, math.floor(slot0._currentFleetVO:GetGearScoreSum(TeamType.Submarine)))
-	setText(slot0._fleetNameText, Fleet.DEFAULT_NAME_BOSS_SINGLE_ACT[slot0._currentFleetVO.id])
+	setText(slot0._fleetNameText, (getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE and Fleet.DEFAULT_NAME_BOSS_SINGLE_VARIABLE_ACT or Fleet.DEFAULT_NAME_BOSS_SINGLE_ACT)[slot0._currentFleetVO.id])
 	setText(slot0._fleetNumText, slot0._currentFleetVO.id)
 
-	slot9 = slot0.contextData.stageId
-	slot10 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
-	slot12 = pg.battle_cost_template[slot6].oil_cost > 0
-	slot13 = 0
+	slot11 = slot0.contextData.stageId
+	slot13 = pg.battle_cost_template[slot6].oil_cost > 0
 	slot14 = 0
-	slot15 = false
+	slot15 = 0
+	slot16 = false
 
-	for slot19, slot20 in ipairs({
+	for slot20, slot21 in ipairs({
 		slot0.contextData.fleets[1]
 	}) do
-		slot21 = slot20:GetCostSum().oil
+		slot22 = slot21:GetCostSum().oil
 
-		if not slot12 then
-			slot21 = 0
+		if not slot13 then
+			slot22 = 0
 		end
 
-		slot14 = slot14 + slot21
+		slot15 = slot15 + slot22
 
-		if slot0.contextData.costLimit[slot19 == 1 and 1 or 2] > 0 then
-			slot15 = slot15 or slot23 < slot21
-			slot21 = math.min(slot21, slot23)
+		if slot0.contextData.costLimit[slot20 == 1 and 1 or 2] > 0 then
+			slot16 = slot16 or slot24 < slot22
+			slot22 = math.min(slot22, slot24)
 		end
 
-		slot13 = slot13 + slot21
+		slot14 = slot14 + slot22
 	end
 
-	setTextColor(slot0._costText, slot15 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
-	uv0.tweenNumText(slot0._costText, slot13)
-	setActive(slot0._costTip, slot15)
+	setTextColor(slot0._costText, slot16 and Color(0.9803921568627451, 0.39215686274509803, 0.39215686274509803) or Color.white)
+	uv0.tweenNumText(slot0._costText, slot14)
+	setActive(slot0._costTip, slot16)
 
-	if slot15 then
+	if slot16 then
 		onButton(slot0, slot0._costTip, function ()
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				hideNo = true,

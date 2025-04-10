@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "睁开双眼，映入眼帘的是一片幽蓝之景。",
+			say = "睜開雙眼，映入眼簾的是一片幽藍之景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,20 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_underwater",
 			hidePaintObj = true,
-			say = "罗盘散发着微弱的光束，指引向了某个方向。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_underwater",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "罗盘……光芒……",
+			say = "羅盤散發著微弱的光束，指引向了某個方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +54,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "冒险结束，到了回家的时刻了啊……",
+			say = "羅盤……光芒……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_underwater",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "冒險結束，到了回家的時刻了啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_1104",
-			say = "光芒愈来愈强烈，直至将我完全吞没。",
+			say = "光芒愈來愈強烈，直至將我完全吞沒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再次睁开双眼，眼前是熟悉的天花板。",
+			say = "再次睜開雙眼，眼前是熟悉的天花板。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "看向了一旁的时钟，距离我睡下的时刻并没有过去多久。",
+			say = "看向了一旁的時鐘，距離我睡下的時刻並沒有過去多久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "但是我知道，那并不是一场梦。",
+			say = "但我知道，那不是一場夢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "因为我的手旁，一个冰冷坚硬的物体正在散发着淡淡金光。",
+			say = "因為我的手旁，一個冰冷堅硬的物體正在散發著淡淡金光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "——罗盘。",
+			say = "——羅盤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "那不是一场梦。",
+			say = "那不是一場夢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "飓风的故事还远未结束——",
+			say = "颶風的故事還遠遠沒有結束——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			},
 			sequence = {
 				{
-					"——「飓风与沉眠之海」·完？",
+					"——「颶風與沉眠之海」·完？",
 					1
 				}
 			}

@@ -5484,6 +5484,109 @@ pg.activity_ins_language = setmetatable({
 		"op_reply_491_1_1",
 		"ins_op_491_1_2",
 		"op_reply_491_1_2",
+		"ins_505",
+		"ins_discuss_505_1",
+		"ins_reply_505_1_1",
+		"ins_reply_505_1_2",
+		"ins_discuss_505_2",
+		"ins_reply_505_2_1",
+		"ins_reply_505_2_2",
+		"ins_discuss_505_3",
+		"ins_reply_505_3_1",
+		"ins_reply_505_3_2",
+		"ins_op_505_1_1",
+		"op_reply_505_1_1",
+		"ins_op_505_1_2",
+		"op_reply_505_1_2",
+		"ins_506",
+		"ins_discuss_506_1",
+		"ins_reply_506_1_1",
+		"ins_reply_506_1_2",
+		"ins_reply_506_1_3",
+		"ins_reply_506_1_4",
+		"ins_discuss_506_2",
+		"ins_reply_506_2_1",
+		"ins_reply_506_2_2",
+		"ins_reply_506_2_3",
+		"ins_op_506_1_1",
+		"op_reply_506_1_1",
+		"ins_op_506_1_2",
+		"op_reply_506_1_2",
+		"ins_507",
+		"ins_discuss_507_1",
+		"ins_reply_507_1_1",
+		"ins_reply_507_1_2",
+		"ins_reply_507_1_3",
+		"ins_discuss_507_2",
+		"ins_reply_507_2_1",
+		"ins_reply_507_2_2",
+		"ins_reply_507_2_3",
+		"ins_op_507_1_1",
+		"op_reply_507_1_1",
+		"ins_op_507_1_2",
+		"op_reply_507_1_2",
+		"ins_508",
+		"ins_discuss_508_1",
+		"ins_reply_508_1_1",
+		"ins_reply_508_1_2",
+		"ins_reply_508_1_3",
+		"ins_reply_508_1_4",
+		"ins_discuss_508_2",
+		"ins_reply_508_2_1",
+		"ins_reply_508_2_2",
+		"ins_reply_508_2_3",
+		"ins_op_508_1_1",
+		"op_reply_508_1_1",
+		"ins_op_508_1_2",
+		"op_reply_508_1_2",
+		"ins_509",
+		"ins_discuss_509_1",
+		"ins_reply_509_1_1",
+		"ins_reply_509_1_2",
+		"ins_reply_509_1_3",
+		"ins_reply_509_1_4",
+		"ins_reply_509_1_5",
+		"ins_discuss_509_2",
+		"ins_reply_509_2_1",
+		"ins_reply_509_2_2",
+		"ins_reply_509_2_3",
+		"ins_reply_509_2_4",
+		"ins_op_509_1_1",
+		"op_reply_509_1_1",
+		"ins_op_509_1_2",
+		"op_reply_509_1_2",
+		"ins_510",
+		"ins_discuss_510_1",
+		"ins_reply_510_1_1",
+		"ins_reply_510_1_2",
+		"ins_reply_510_1_3",
+		"ins_discuss_510_2",
+		"ins_reply_510_2_1",
+		"ins_reply_510_2_2",
+		"ins_reply_510_2_3",
+		"ins_op_510_1_1",
+		"op_reply_510_1_1",
+		"ins_op_510_1_2",
+		"op_reply_510_1_2",
+		"ins_511",
+		"ins_discuss_511_1",
+		"ins_reply_511_1_1",
+		"ins_reply_511_1_2",
+		"ins_reply_511_1_3",
+		"ins_discuss_511_2",
+		"ins_reply_511_2_1",
+		"ins_reply_511_2_2",
+		"ins_reply_511_2_3",
+		"ins_reply_511_2_4",
+		"ins_discuss_511_3",
+		"ins_reply_511_3_1",
+		"ins_reply_511_3_2",
+		"ins_reply_511_3_3",
+		"ins_reply_511_3_4",
+		"ins_op_511_1_1",
+		"op_reply_511_1_1",
+		"ins_op_511_1_2",
+		"op_reply_511_1_2",
 		"ins_512",
 		"ins_discuss_512_1",
 		"ins_reply_512_1_1",
@@ -22196,6 +22299,315 @@ pg.base.activity_ins_language = {
 	},
 	op_reply_491_1_2 = {
 		value = "好啊，那我也幫指揮官準備畫筆，一起來畫畫吧~"
+	},
+	ins_505 = {
+		value = ""
+	},
+	ins_discuss_505_1 = {
+		value = ""
+	},
+	ins_reply_505_1_1 = {
+		value = ""
+	},
+	ins_reply_505_1_2 = {
+		value = ""
+	},
+	ins_discuss_505_2 = {
+		value = ""
+	},
+	ins_reply_505_2_1 = {
+		value = ""
+	},
+	ins_reply_505_2_2 = {
+		value = ""
+	},
+	ins_discuss_505_3 = {
+		value = ""
+	},
+	ins_reply_505_3_1 = {
+		value = ""
+	},
+	ins_reply_505_3_2 = {
+		value = ""
+	},
+	ins_op_505_1_1 = {
+		value = ""
+	},
+	op_reply_505_1_1 = {
+		value = ""
+	},
+	ins_op_505_1_2 = {
+		value = ""
+	},
+	op_reply_505_1_2 = {
+		value = ""
+	},
+	ins_506 = {
+		value = ""
+	},
+	ins_discuss_506_1 = {
+		value = ""
+	},
+	ins_reply_506_1_1 = {
+		value = ""
+	},
+	ins_reply_506_1_2 = {
+		value = ""
+	},
+	ins_reply_506_1_3 = {
+		value = ""
+	},
+	ins_reply_506_1_4 = {
+		value = ""
+	},
+	ins_discuss_506_2 = {
+		value = ""
+	},
+	ins_reply_506_2_1 = {
+		value = ""
+	},
+	ins_reply_506_2_2 = {
+		value = ""
+	},
+	ins_reply_506_2_3 = {
+		value = ""
+	},
+	ins_op_506_1_1 = {
+		value = ""
+	},
+	op_reply_506_1_1 = {
+		value = ""
+	},
+	ins_op_506_1_2 = {
+		value = ""
+	},
+	op_reply_506_1_2 = {
+		value = ""
+	},
+	ins_507 = {
+		value = ""
+	},
+	ins_discuss_507_1 = {
+		value = ""
+	},
+	ins_reply_507_1_1 = {
+		value = ""
+	},
+	ins_reply_507_1_2 = {
+		value = ""
+	},
+	ins_reply_507_1_3 = {
+		value = ""
+	},
+	ins_discuss_507_2 = {
+		value = ""
+	},
+	ins_reply_507_2_1 = {
+		value = ""
+	},
+	ins_reply_507_2_2 = {
+		value = ""
+	},
+	ins_reply_507_2_3 = {
+		value = ""
+	},
+	ins_op_507_1_1 = {
+		value = ""
+	},
+	op_reply_507_1_1 = {
+		value = ""
+	},
+	ins_op_507_1_2 = {
+		value = ""
+	},
+	op_reply_507_1_2 = {
+		value = ""
+	},
+	ins_508 = {
+		value = ""
+	},
+	ins_discuss_508_1 = {
+		value = ""
+	},
+	ins_reply_508_1_1 = {
+		value = ""
+	},
+	ins_reply_508_1_2 = {
+		value = ""
+	},
+	ins_reply_508_1_3 = {
+		value = ""
+	},
+	ins_reply_508_1_4 = {
+		value = ""
+	},
+	ins_discuss_508_2 = {
+		value = ""
+	},
+	ins_reply_508_2_1 = {
+		value = ""
+	},
+	ins_reply_508_2_2 = {
+		value = ""
+	},
+	ins_reply_508_2_3 = {
+		value = ""
+	},
+	ins_op_508_1_1 = {
+		value = ""
+	},
+	op_reply_508_1_1 = {
+		value = ""
+	},
+	ins_op_508_1_2 = {
+		value = ""
+	},
+	op_reply_508_1_2 = {
+		value = ""
+	},
+	ins_509 = {
+		value = ""
+	},
+	ins_discuss_509_1 = {
+		value = ""
+	},
+	ins_reply_509_1_1 = {
+		value = ""
+	},
+	ins_reply_509_1_2 = {
+		value = ""
+	},
+	ins_reply_509_1_3 = {
+		value = ""
+	},
+	ins_reply_509_1_4 = {
+		value = ""
+	},
+	ins_reply_509_1_5 = {
+		value = ""
+	},
+	ins_discuss_509_2 = {
+		value = ""
+	},
+	ins_reply_509_2_1 = {
+		value = ""
+	},
+	ins_reply_509_2_2 = {
+		value = ""
+	},
+	ins_reply_509_2_3 = {
+		value = ""
+	},
+	ins_reply_509_2_4 = {
+		value = ""
+	},
+	ins_op_509_1_1 = {
+		value = ""
+	},
+	op_reply_509_1_1 = {
+		value = ""
+	},
+	ins_op_509_1_2 = {
+		value = ""
+	},
+	op_reply_509_1_2 = {
+		value = ""
+	},
+	ins_510 = {
+		value = ""
+	},
+	ins_discuss_510_1 = {
+		value = ""
+	},
+	ins_reply_510_1_1 = {
+		value = ""
+	},
+	ins_reply_510_1_2 = {
+		value = ""
+	},
+	ins_reply_510_1_3 = {
+		value = ""
+	},
+	ins_discuss_510_2 = {
+		value = ""
+	},
+	ins_reply_510_2_1 = {
+		value = ""
+	},
+	ins_reply_510_2_2 = {
+		value = ""
+	},
+	ins_reply_510_2_3 = {
+		value = ""
+	},
+	ins_op_510_1_1 = {
+		value = ""
+	},
+	op_reply_510_1_1 = {
+		value = ""
+	},
+	ins_op_510_1_2 = {
+		value = ""
+	},
+	op_reply_510_1_2 = {
+		value = ""
+	},
+	ins_511 = {
+		value = ""
+	},
+	ins_discuss_511_1 = {
+		value = ""
+	},
+	ins_reply_511_1_1 = {
+		value = ""
+	},
+	ins_reply_511_1_2 = {
+		value = ""
+	},
+	ins_reply_511_1_3 = {
+		value = ""
+	},
+	ins_discuss_511_2 = {
+		value = ""
+	},
+	ins_reply_511_2_1 = {
+		value = ""
+	},
+	ins_reply_511_2_2 = {
+		value = ""
+	},
+	ins_reply_511_2_3 = {
+		value = ""
+	},
+	ins_reply_511_2_4 = {
+		value = ""
+	},
+	ins_discuss_511_3 = {
+		value = ""
+	},
+	ins_reply_511_3_1 = {
+		value = ""
+	},
+	ins_reply_511_3_2 = {
+		value = ""
+	},
+	ins_reply_511_3_3 = {
+		value = ""
+	},
+	ins_reply_511_3_4 = {
+		value = ""
+	},
+	ins_op_511_1_1 = {
+		value = ""
+	},
+	op_reply_511_1_1 = {
+		value = ""
+	},
+	ins_op_511_1_2 = {
+		value = ""
+	},
+	op_reply_511_1_2 = {
+		value = ""
 	},
 	ins_512 = {
 		value = "使用「寬寬泡澡時間君」，大家一起在大大的浴池裡泡澡吧~！"

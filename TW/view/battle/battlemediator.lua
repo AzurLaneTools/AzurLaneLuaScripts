@@ -36,7 +36,8 @@ slot0.register = function(slot0)
 			statistics = slot1,
 			actId = uv0.contextData.actId,
 			mode = uv0.contextData.mode,
-			puzzleCombatID = uv0.contextData.puzzleCombatID
+			puzzleCombatID = uv0.contextData.puzzleCombatID,
+			useVariableTicket = uv0.contextData.useVariableTicket
 		})
 	end)
 	slot0:bind(uv0.ON_AUTO, function (slot0, slot1)
@@ -68,6 +69,7 @@ slot0.register = function(slot0)
 		slot3 = slot0:getContextByMediator(ChallengeMainMediator)
 		slot4 = slot0:getContextByMediator(ActivityBossMediatorTemplate)
 		slot5 = slot0:getContextByMediator(WorldMediator)
+		slot7, slot8 = slot0:getContextByMediator(BossSinglePreCombatMediator)
 
 		if slot0:getContextByMediator(WorldBossMediator) and uv0.contextData.bossId then
 			uv0:sendNotification(GAME.WORLD_BOSS_BATTLE_QUIT, {
@@ -75,11 +77,11 @@ slot0.register = function(slot0)
 			})
 
 			if slot6:getContextByMediator(WorldBossFormationMediator) then
-				slot6:removeChild(slot7)
+				slot6:removeChild(slot9)
 			end
 		elseif slot5 then
 			if slot5:getContextByMediator(WorldPreCombatMediator) or slot5:getContextByMediator(WorldBossInformationMediator) then
-				slot5:removeChild(slot7)
+				slot5:removeChild(slot9)
 			end
 		elseif slot1 then
 			slot1:removeChild(slot1:getContextByMediator(PreCombatMediator))
@@ -93,13 +95,17 @@ slot0.register = function(slot0)
 				-- Nothing
 			elseif uv1 == SYSTEM_SCENARIO then
 				if slot2:getContextByMediator(ChapterPreCombatMediator) then
-					slot2:removeChild(slot7)
+					slot2:removeChild(slot9)
 				end
 			elseif uv1 ~= SYSTEM_PERFORM and uv1 ~= SYSTEM_SIMULATION and slot2:getContextByMediator(PreCombatMediator) then
-				slot2:removeChild(slot7)
+				slot2:removeChild(slot9)
 			end
-		elseif slot4 and slot4:getContextByMediator(PreCombatMediator) then
-			slot4:removeChild(slot7)
+		elseif slot4 then
+			if slot4:getContextByMediator(PreCombatMediator) then
+				slot4:removeChild(slot9)
+			end
+		elseif slot7 then
+			slot9 = slot8:removeChild(slot7)
 		end
 
 		uv0:sendNotification(GAME.GO_BACK)
@@ -135,7 +141,7 @@ slot0.register = function(slot0)
 					}
 				}))
 			end
-		elseif uv0 == SYSTEM_BOSS_SINGLE and getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
+		elseif (uv0 == SYSTEM_BOSS_SINGLE or uv0 == SYSTEM_BOSS_SINGLE_VARIABLE) and getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
 			getProxy(ContextProxy):GetPrevContext(1):addChild(Context.New({
 				mediator = BossSingleTotalRewardPanelMediator,
 				viewComponent = BossSingleTotalRewardPanel,
@@ -167,7 +173,7 @@ slot0.register = function(slot0)
 	end)
 
 	if slot0.contextData.continuousBattleTimes and slot0.contextData.continuousBattleTimes > 0 then
-		if slot2 == SYSTEM_BOSS_SINGLE then
+		if slot2 == SYSTEM_BOSS_SINGLE or slot2 == SYSTEM_BOSS_SINGLE_VARIABLE then
 			if not getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
 				slot3 = CreateShell(slot0.contextData)
 				slot3.LayerWeightMgr_weight = LayerWeightConst.BASE_LAYER
@@ -1137,7 +1143,7 @@ slot0.GenBattleData = function(slot0)
 		slot1.CardPuzzleCommonHPValue = slot0.contextData.hp
 		slot1.CardPuzzleRelicList = slot8
 		slot1.CardPuzzleCombatID = slot0.contextData.puzzleCombatID
-	elseif slot2 == SYSTEM_BOSS_SINGLE then
+	elseif slot2 == SYSTEM_BOSS_SINGLE or slot2 == SYSTEM_BOSS_SINGLE_VARIABLE then
 		if slot0.contextData.mainFleetId then
 			slot8 = getProxy(FleetProxy):getActivityFleets()[slot0.contextData.actId][slot0.contextData.mainFleetId]
 			slot9 = _.values(slot8:getCommanders())
@@ -1170,19 +1176,23 @@ slot0.GenBattleData = function(slot0)
 				slot13(slot20, slot9, slot1.VanguardUnitList, slot11)
 			end
 
-			slot16 = slot7[slot0.contextData.mainFleetId + 10]
-			slot17 = _.values(slot16:getCommanders())
+			slot18 = _.values(slot7[slot0.contextData.mainFleetId + (slot2 == SYSTEM_BOSS_SINGLE_VARIABLE and 100 or 10)]:getCommanders())
 
-			for slot22, slot23 in ipairs(slot16:getTeamByName(TeamType.Submarine)) do
-				slot13(slot23, slot17, slot1.SubUnitList, slot12)
+			for slot23, slot24 in ipairs(slot17:getTeamByName(TeamType.Submarine)) do
+				slot13(slot24, slot18, slot1.SubUnitList, slot12)
 			end
 
-			slot20 = getProxy(PlayerProxy):getRawData()
-			slot21 = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId)
-			slot1.ChapterBuffIDs = slot21:GetBuffIdsByStageId(slot0.contextData.stageId)
-			slot23 = slot21:GetEnemyDataByStageId(slot0.contextData.stageId):GetOilLimit()
-			slot24 = 0
-			slot25 = slot3.oil_cost > 0
+			slot21 = getProxy(PlayerProxy):getRawData()
+			slot1.ChapterBuffIDs = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetBuffIdsByStageId(slot0.contextData.stageId)
+			slot23 = pg.strategy_data_template
+
+			for slot27, slot28 in ipairs(slot0.contextData.variableBuffList) do
+				table.insert(slot1.ChapterBuffIDs, slot23[slot28].buff_id)
+			end
+
+			slot25 = slot22:GetEnemyDataByStageId(slot0.contextData.stageId):GetOilLimit()
+			slot26 = 0
+			slot27 = slot3.oil_cost > 0
 
 			(function (slot0, slot1)
 				if uv0 then
@@ -1194,15 +1204,15 @@ slot0.GenBattleData = function(slot0)
 
 					uv1 = uv1 + slot2
 				end
-			end)(slot8, slot23[1] or 0)
-			slot26(slot16, slot23[2] or 0)
+			end)(slot8, slot25[1] or 0)
+			slot28(slot17, slot25[2] or 0)
 
-			if slot16:isLegalToFight() == true and slot24 <= slot20.oil then
+			if slot17:isLegalToFight() == true and slot26 <= slot21.oil then
 				slot1.SubFlag = 1
 				slot1.TotalSubAmmo = 1
 			end
 
-			slot1.SubCommanderList = slot16:buildBattleBuffList()
+			slot1.SubCommanderList = slot17:buildBattleBuffList()
 
 			slot0.viewComponent:setFleet(slot10, slot11, slot12)
 		end
@@ -1479,7 +1489,9 @@ slot0.handleNotification = function(slot0, slot1)
 					continuousBattleTimes = slot0.contextData.continuousBattleTimes,
 					totalBattleTimes = slot0.contextData.totalBattleTimes,
 					mode = slot0.contextData.mode,
-					cmdArgs = slot0.contextData.cmdArgs
+					cmdArgs = slot0.contextData.cmdArgs,
+					variableBuffList = slot0.contextData.variableBuffList,
+					useVariableTicket = slot0.contextData.useVariableTicket
 				}
 			}))
 		end

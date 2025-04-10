@@ -192,6 +192,10 @@ pg.memory_group = setmetatable({
 		301,
 		303,
 		304,
+		305,
+		306,
+		307,
+		308,
 		309,
 		310,
 		311,
@@ -4546,6 +4550,78 @@ pg.base.memory_group = {
 		icon = "title_event",
 		memories = {
 			3921
+		}
+	},
+	[305] = {
+		title = "啾信火熱測試中！",
+		subtype = 0,
+		link_event = 0,
+		type = 1,
+		id = 305,
+		icon = "title_event",
+		memories = {
+			3941
+		}
+	},
+	[306] = {
+		title = "颶風與沉眠之海",
+		subtype = 2,
+		link_event = 5625,
+		type = 2,
+		id = 306,
+		icon = "title_event",
+		memories = {
+			3951,
+			3952,
+			3953,
+			3954,
+			3955,
+			3956,
+			3957,
+			3958,
+			3959,
+			3960,
+			3961,
+			3962,
+			3963,
+			3964,
+			3965,
+			3966,
+			3967,
+			3968,
+			3969,
+			3970,
+			3971,
+			3972
+		}
+	},
+	[307] = {
+		title = "《港區假日鬼怪故事集》",
+		subtype = 3,
+		link_event = 5623,
+		type = 2,
+		id = 307,
+		icon = "title_event",
+		memories = {
+			3981,
+			3982,
+			3983,
+			3984,
+			3985,
+			3986,
+			3987,
+			3988
+		}
+	},
+	[308] = {
+		title = "新型促銷來襲！",
+		subtype = 3,
+		link_event = 5654,
+		type = 2,
+		id = 308,
+		icon = "title_event",
+		memories = {
+			4011
 		}
 	},
 	[309] = {

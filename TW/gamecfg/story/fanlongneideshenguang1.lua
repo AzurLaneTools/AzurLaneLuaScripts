@@ -484,7 +484,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“仪式“？",
+			say = "……“仪式”？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

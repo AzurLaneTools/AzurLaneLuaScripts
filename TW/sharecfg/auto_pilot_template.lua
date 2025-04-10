@@ -10961,6 +10961,23 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70286] = {
+		id = 70286,
+		name = "2025医院活动 探索计数4层 追踪旋涡",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 8,
+				param = {
+					offsetX = 0,
+					duration = 3,
+					offsetZ = 0
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

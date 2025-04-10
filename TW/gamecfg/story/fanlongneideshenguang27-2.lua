@@ -275,7 +275,7 @@ return {
 			factiontag = "佛罗伦萨共和国",
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "各处已经竭尽全力再进攻了……嗯，我会想办法再快一点的。",
+			say = "各处已经竭尽全力在进攻了……嗯，我会想办法再快一点的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

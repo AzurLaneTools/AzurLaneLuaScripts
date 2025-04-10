@@ -32,6 +32,8 @@ slot0.Execute = function(slot0)
 		slot0:ExitLimitChallengeSystem(slot1)
 	elseif slot2 == SYSTEM_BOSS_SINGLE then
 		slot0:ExitBossSingleSystem(slot1)
+	elseif slot2 == SYSTEM_BOSS_SINGLE_VARIABLE then
+		slot0:ExitBossSingleVariableSystem(slot1)
 	else
 		slot0:ExitCommonSystem(slot1)
 	end
@@ -190,7 +192,21 @@ slot0.ExitBossSingleSystem = function(slot0, slot1)
 	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator)
 
 	if slot3 then
-		slot4:removeChild(slot3)
+		slot5 = slot4:removeChild(slot3)
+	end
+
+	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
+		slot0:CheckBossSingleSystem(slot1)
+	else
+		pg.m02:sendNotification(GAME.GO_BACK)
+	end
+end
+
+slot0.ExitBossSingleVariableSystem = function(slot0, slot1)
+	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator)
+
+	if slot3 then
+		slot5 = slot4:removeChild(slot3)
 	end
 
 	if getProxy(ContextProxy):getCurrentContext():getContextByMediator(BossSingleContinuousOperationMediator) then
@@ -285,6 +301,17 @@ slot4 = function(slot0, slot1)
 		mediator = BossSingleTotalRewardPanelMediator,
 		viewComponent = BossSingleTotalRewardPanel,
 		data = {
+			onConfirm = function ()
+				if getProxy(ContextProxy):getContextByMediator(ClueMapMediator) then
+					slot0.cleanChild = false
+				end
+
+				if getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator) then
+					slot0.skipBack = false
+				end
+
+				pg.m02:sendNotification(GAME.GO_BACK)
+			end,
 			onClose = function ()
 				pg.m02:sendNotification(GAME.GO_BACK)
 			end,
@@ -409,6 +436,8 @@ slot0.CheckBossRushSystem = function(slot0, slot1)
 end
 
 slot6 = function(slot0)
+	slot1 = getProxy(ActivityProxy):getActivityById(slot0.actId)
+
 	(function (slot0, slot1)
 		slot2 = slot0:GetCostSum().oil
 
@@ -417,8 +446,8 @@ slot6 = function(slot0)
 		end
 
 		uv0 = uv0 + slot2
-	end)(getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId], getProxy(ActivityProxy):getActivityById(slot0.actId):GetEnemyDataByStageId(slot0.stageId):GetOilLimit()[1] or 0)
-	slot7(slot5[slot0.mainFleetId + 10], slot3[2] or 0)
+	end)(getProxy(FleetProxy):getActivityFleets()[slot0.actId][slot0.mainFleetId], slot1:GetEnemyDataByStageId(slot0.stageId):GetOilLimit()[1] or 0)
+	slot7(slot5[slot0.mainFleetId + (slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE and Fleet.MEGA_SUBMARINE_FLEET_OFFSET or 10)], slot3[2] or 0)
 
 	return 0
 end
@@ -496,7 +525,9 @@ slot8 = function(slot0)
 		actId = slot0.actId,
 		rivalId = slot0.rivalId,
 		continuousBattleTimes = slot0.continuousBattleTimes,
-		totalBattleTimes = slot0.totalBattleTimes
+		variableBuffList = slot0.variableBuffList,
+		totalBattleTimes = slot0.totalBattleTimes,
+		useVariableTicket = slot0.useVariableTicket
 	})
 end
 

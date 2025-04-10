@@ -1705,6 +1705,36 @@ pg.player_resource = {
 		name = "skinTicket89",
 		itemid = 65084
 	},
+	[481] = {
+		id = 481,
+		name = "fulankelin_pt",
+		itemid = 65562
+	},
+	[482] = {
+		id = 482,
+		name = "activity_xunzhang4",
+		itemid = 65570
+	},
+	[483] = {
+		id = 483,
+		name = "limit_skinticket16",
+		itemid = 68051
+	},
+	[484] = {
+		id = 484,
+		name = "limit_skinticket17",
+		itemid = 68052
+	},
+	[485] = {
+		id = 485,
+		name = "limit_skinticket18",
+		itemid = 68053
+	},
+	[486] = {
+		id = 486,
+		name = "skinTicket90",
+		itemid = 65087
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2074,6 +2104,11 @@ pg.player_resource = {
 		id = 4021,
 		name = "Battlepass_21",
 		itemid = 65074
+	},
+	[4022] = {
+		id = 4022,
+		name = "Battlepass_22",
+		itemid = 65086
 	},
 	[4186] = {
 		id = 4186,
@@ -3254,6 +3289,24 @@ pg.player_resource = {
 		skinTicket89 = {
 			479
 		},
+		fulankelin_pt = {
+			481
+		},
+		activity_xunzhang4 = {
+			482
+		},
+		limit_skinticket16 = {
+			483
+		},
+		limit_skinticket17 = {
+			484
+		},
+		limit_skinticket18 = {
+			485
+		},
+		skinTicket90 = {
+			486
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3475,6 +3528,9 @@ pg.player_resource = {
 		},
 		Battlepass_21 = {
 			4021
+		},
+		Battlepass_22 = {
+			4022
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -3912,6 +3968,12 @@ pg.player_resource = {
 		477,
 		478,
 		479,
+		481,
+		482,
+		483,
+		484,
+		485,
+		486,
 		950,
 		951,
 		952,
@@ -3986,6 +4048,7 @@ pg.player_resource = {
 		4019,
 		4020,
 		4021,
+		4022,
 		4186,
 		4276,
 		4599,

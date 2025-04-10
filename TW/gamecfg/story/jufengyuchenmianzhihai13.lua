@@ -10,27 +10,27 @@ return {
 			bgm = "battle-nightmare-theme",
 			sequence = {
 				{
-					"「秩序……溃散……」",
+					"「秩序……潰散……」",
 					1
 				},
 				{
-					"「溃……溃散……秩序溃散……」",
+					"「潰……潰散……秩序潰散……」",
 					2
 				},
 				{
-					"「除错……失败……」",
+					"「調試……失敗……」",
 					3
 				},
 				{
-					"「遍历……失败……」",
+					"「遍歷……失敗……」",
 					4
 				},
 				{
-					"「伺服务器连接……失败……」",
+					"「伺服器連線……失敗……」",
 					5
 				},
 				{
-					"「失失失败……」",
+					"「失失失敗……」",
 					6
 				}
 			}
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "冰凉、柔软的、滑腻的事物在脸上滑动着。",
+			say = "冰涼、柔軟的、滑膩的事物在臉上滑動著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -106,7 +106,7 @@ return {
 			actor = 9600080,
 			actorName = "？？？",
 			hidePaintObj = true,
-			say = "人类，早安。",
+			say = "人類，早安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,14 +117,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "眼前的“少女”露出了僵硬的笑容。",
+			say = "眼前的「少女」露出了僵硬的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你是……？",
+					content = "妳是……？",
 					flag = 1
 				}
 			}
@@ -138,7 +138,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是自幻想之中诞生的深海魔物，幻想号。",
+			say = "我是自幻想之中誕生的深海魔物，幻想號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,11 +148,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（“深海魔物”……？）",
+			say = "（「深海魔物」……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,11 +162,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（嗯……从外表看来，确实有诸多独特之处，甚至比飓风船团的成员还要独特……）",
+			say = "（嗯……從外表看來，確實有許多獨特之處，甚至比颶風船團的成員還要獨特……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,11 +176,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（但是这股令人熟悉的气息……）",
+			say = "（但這股令人熟悉的氣息……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,11 +190,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不……她亦是舰船。）",
+			say = "（不……她亦是船。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,11 +204,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幻想号，谢谢你救了我。",
+			say = "幻想號，謝謝妳救了我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不客气。",
+			say = "不客氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们走吧。",
+			say = "我們走吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "名为幻想号的少女突然操控一条触手卷了过来。",
+			say = "名為幻想號的少女突然操控一條觸手捲了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样走起来更快。",
+			say = "這樣走起來更快。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,11 +273,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“走”？是要去哪里？",
+			say = "……「走」？是要去哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "去完成你的使命，人类。",
+			say = "去完成你的使命，人類。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,7 +302,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -321,7 +321,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是女神指引你来到此处的，就和我一样。",
+			say = "是女神指引你來到這裡的，就和我一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以你也有着女神给你的使命，就和我一样。",
+			say = "所以你也有著女神給你的使命，就跟我一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,11 +345,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（指引……难道说的是那些从特米娜露中出现的声音……？）",
+			say = "（指引……難道說的是那些從特米娜露出現的聲音……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,11 +359,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（说起来，刚才在昏迷中，似乎也听到了什么“伺服务器”之类的……）",
+			say = "（說起來，剛才在昏迷中，似乎也聽到了什麼「伺服器」之類的……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,11 +373,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（果然，这个“女神”与塞壬的关系非同一般……）",
+			say = "（果然，這位「女神」與塞壬的關係非同一般……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,11 +387,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍等，我有一件事要先确认一下。",
+			say = "稍等，我有一件事要先確認一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "拿出被海水浸湿的特米娜露，机器的屏幕上只有漆黑一片。",
+			say = "拿出被海水浸濕的特米娜露，機器的螢幕上只有漆黑一片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,11 +412,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "并没有出现那种突然修好启动的桥段啊……",
+			say = "並沒有出現那種突然修好啟動的橋段啊…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "正当我想把特米娜露收起时，名为幻想号的少女好奇的靠了过来。",
+			say = "正當我想把特米娜露收起時，名為幻想號的少女好奇的靠了過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,11 +437,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个是……唔，某种有着很多用途的仪器，名叫特米娜露。不过它现在暂时坏掉了。",
+			say = "這個是……唔，某種有著許多用途的儀器，名叫特米娜露。不過它現在暫時壞掉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -479,11 +479,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你怎么会知道……这个词？",
+			say = "妳怎麼會知道……這個詞？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是女神赋予我的记忆，也是女神赋予我的使命。",
+			say = "這是女神賦予我的記憶，也是女神賦予我的使命。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Terminal，魔导书，女神主机意志的延伸。",
+			say = "Terminal，魔導書，女神主機意志的延伸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +528,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是女神意志的执行者……所以我是魔导书，我也是特米娜露？",
+			say = "我是女神意志的執行者……所以我是魔導書，我也是特米娜露？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "原本一脸自信的少女突然歪了歪头，显然突然陷入了某种困惑之中。",
+			say = "原本一臉自信的少女突然歪了歪頭，顯然突然陷入了某種困惑之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,11 +549,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不……放心吧，你明显不是。",
+			say = "不……放心吧，妳很明顯不是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样啊……那我们，走吧？",
+			say = "這樣啊……那我們，走吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "周边的触手蠢蠢欲动。",
+			say = "週邊的觸手蠢蠢欲動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,11 +588,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等，我还有问题！这里是哪里？",
+			say = "等等，我還有問題！這裡是哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是女神的国度，女神的领域。",
+			say = "這裡是女神的國度，女神的領域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "亦是女神主机的内部，女神的……体内。",
+			say = "亦是女神主機的內部，女神的……體內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,11 +631,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（果然……刚才听她说出的‘主机“两个字并非错觉！）",
+			say = "（果然……剛才聽她說出的「主機」兩個字並非錯覺！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -645,11 +645,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（看来关于”女神“的本质已经很清晰了。她并非不存在，也不是某个超自然的“神”，而是……一个塞壬设备。）",
+			say = "（看來關於「女神」的本質已經很清晰了。她並非不存在，也不是某個超自然的「神」，而是……一個塞壬設備。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -659,11 +659,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（也就是说……女神信仰，其实是基于塞壬遗留的设备衍生出的信仰……？真是奇妙……）",
+			say = "（也就是說……女神信仰，其實是給予塞壬遺留的設備而衍生出的信仰……？真是奇妙……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -673,11 +673,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过……为什么幻想号会知道这些。）",
+			say = "（不過……為什麼幻想號會知道這些。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,11 +687,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（难道……幻想号的诞生与塞壬存在关系……因此她才能知道诸多超越时代的情报？）",
+			say = "（難道……幻想號的誕生與塞壬存在關係……因此她才能知道許多超越時代的情報？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -701,11 +701,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女神主机……有自我意识么？",
+			say = "女神主機……有自我意識嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "少女歪了歪头，似乎是完全不明白这个问题的意思。",
+			say = "少女歪了歪頭，似乎完全不懂這個提問是什麼意思。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,11 +741,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……我换个问题。女神主机平时都在做什么？",
+			say = "嗯……我換個問題。女神主機平常都在做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -759,7 +759,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女神主机平时负责控制海域中的气候循环，还有镇压深海中的诅咒。",
+			say = "女神主機平時負責控制海域中的氣候循環，還有鎮壓深海中的詛咒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -769,11 +769,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（真亏她能面不改色地同时说出“气候循环”和“诅咒”两个完全不同系统的词……）",
+			say = "（真虧她能面不改色的同時說出「氣候循環」和「詛咒」兩個完全不同系統的字……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -787,7 +787,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过女神主机在永不停歇的净化中，自身体内的系统错误逐渐积累，终于在某一天遭受到了诅咒的反噬。",
+			say = "不過女神主機在永不停歇的淨化中，自身體內的系統錯誤逐漸積累，終於在某一天遭受到了詛咒的反噬。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在，反噬病毒已经控制了女神主机。海域中的亡者，因此而出现。",
+			say = "現在，反噬病毒已經控制了女神主機。海域中的亡者，因此而出現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -812,11 +812,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（虽然这个解释听上去有些奇怪，但是我已经完全明白现状了。）",
+			say = "（雖然這個解釋聽起來有些奇怪，但是我已經完全明白現狀了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -826,11 +826,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要我们清除了女神主机中的反噬病毒，海域就能恢复正常了？",
+			say = "只要我們清除了女神主機中的反噬病毒，海域就能恢復正常了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -845,7 +845,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是“你”，不是“我们”。",
+			say = "是「你」，不是「我們」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -859,7 +859,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我不知道该如何清除反噬病毒。我的使命，只是带你去主机的位置。",
+			say = "我不知道該如何清除反噬病毒。我的使命，只是帶你去主機的位置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -869,11 +869,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……看来这件事确实是我的使命了。",
+			say = "嗯……看來這件事確實是我的使命了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -883,11 +883,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们走吧。",
+			say = "那我們走吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -898,7 +898,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_525",
 			hidePaintObj = true,
-			say = "周边的触手再次蠢蠢欲动。",
+			say = "週邊的觸手再次蠢蠢欲動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -908,11 +908,11 @@ return {
 			portrait = "zhihuiguan",
 			side = 2,
 			bgName = "star_level_bg_525",
-			factiontag = "指挥官",
+			factiontag = "指揮官",
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "等等！我们是要“走”，所以不能用触手来“卷”，明白了么？",
+			say = "等等！我們是要「走」，所以不能用觸手來「卷」，明白了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -927,7 +927,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要“走”……所以不要“卷”？",
+			say = "要「走」……所以不要「卷」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -956,7 +956,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "人类，请随我来——",
+			say = "人類，請隨我來——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>月下的追逐</size>",
+					"《港區假日鬼怪故事集》\n\n<size=45>月下的追逐</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
 			bgm = "story-ghostnight-fascinsting",
-			say = "散发着苍凉光芒的满月此刻正照耀着这座神秘的小镇。",
+			say = "散發著蒼涼光芒的滿月此刻正照耀著這座神祕的小鎮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "倒也算得上别有一番景致——如果忽略背后急促迫近的马蹄声的话。",
+			say = "倒也算得上別有一番景緻——如果忽略背後急促迫近的馬蹄聲的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……呼……再跑快点啊！",
+			say = "呼……呼……再跑快一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "千万别被抓住了！！",
+			say = "千萬別被抓住了！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "自称为传奇调查员的布里斯托尔，与作为传奇调查员助手的我正在一路向着小镇的出口撒腿狂奔着。",
+			say = "自稱為傳奇調查員的布里斯托爾，與身為傳奇調查員助手的我正在一路向著小鎮的出口撒腿狂奔著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "传奇调查员的怀中紧抱着“无头骑士”的头颅，而失去头颅的“无头骑士”正在骑马紧追着。",
+			say = "傳奇調查員的懷抱中緊抱著「無頭騎士」的頭顱，而失去頭顱的「無頭騎士」正在騎馬緊追著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "要问为什么会发生这种事，这一切都要从她在图书馆中找到了一本《无头骑士传说真相》的手抄本说起——",
+			say = "要問為什麼會發生這種事，這一切都要從她在圖書館中找到了一本《無頭騎士傳說真相》的手抄本說起——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种时候就不要露出“说来话长”的表情啦！",
+			say = "這種時候就不要露出「說來話長」的表情囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然是我雇的你，我也有责任把你安全带出这里……",
+			say = "既然是我僱用你的，我也有責任把你安全帶出這裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总、总之再和我一起，跑快一些吧！",
+			say = "總、總之再跟我一起，跑快一點吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "少女一边说着，一边紧紧地将无头骑士的头颅夹住。",
+			say = "少女一邊說著，一邊緊緊地將無頭騎士的頭顱夾住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,18 +168,18 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "DATA-857，要是等下我们都跑不动了的话，就在我们身后帮忙推一把哦！",
+			say = "DATA-857，要是等下我們都跑不動了的話，就在我們身後幫忙推一把哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "它还有这个用处……？",
+					content = "它還有這個用處……？",
 					flag = 1
 				},
 				{
-					content = "我是不会停下来的！",
+					content = "我是不會停下來的！",
 					flag = 2
 				}
 			}
@@ -193,7 +193,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "理论上是不行啦，但是现在事态紧急……",
+			say = "理論上是不行啦，但是現在事態緊急……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说了，要是我们跑不动不就死定了么！",
+			say = "再說了，要是我們跑不動不就死定了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心吧，我是不会停下来的！",
+			say = "放心吧，我是不會停下來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "和布里斯托尔继续奔跑在苍白的月光下。",
+			say = "和布里斯托爾繼續奔跑在蒼白的月光下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,35 +257,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "四周的景色也变得越发荒凉。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "star_level_bg_521",
-			dir = 1,
-			actor = 101492,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "“浓雾弥漫在这片荒芜的沼泽地……”",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "star_level_bg_521",
-			dir = 1,
-			actor = 101492,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "“腐烂的植物散发出令人作呕的气味……”",
+			say = "四周的景色也變得越發荒涼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +271,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“但我不能停下，因为停下意味着死亡，或者更糟。”",
+			say = "「濃霧瀰漫在這片荒蕪的沼澤地……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +285,35 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“身后的马蹄声越来越清晰，但那声音又不像是来自任何正常的生物……”",
+			say = "「腐爛的植物散發出令人作嘔的氣味……」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "star_level_bg_521",
+			dir = 1,
+			actor = 101492,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "「但我不能停下，因為停下意味著死亡，或者更糟。」",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "star_level_bg_521",
+			dir = 1,
+			actor = 101492,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "「身後的馬蹄聲越來越清晰，但那聲音又不像是來自任何正常的生物……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“天啊，它越来越近了……金属铠甲的碰撞声和一种低沉的、非人的嘶吼……”",
+			say = "「天啊，它越來越近了……金屬鎧甲的碰撞聲和一種低沉的、非人的嘶吼……」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "“我看到了，骑士空洞的颈部喷吐着黑色的烟雾……”",
+			say = "「我看到了，騎士空洞的頸部噴吐著黑色的煙霧…」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "急速的奔跑让她的话语时断时续。",
+			say = "急速的奔跑讓她的話語時斷時續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯……？这是那个手抄本里，有关无头骑士的描写？",
+			say = "嗯……？這是那個手抄本裡，有關無頭騎士的描寫？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错！我在试图通过这种方式增加紧张的氛围感，让我们跑得再快点！",
+			say = "沒錯！我在試著用這種方式增加緊張的氛圍感，讓我們跑得再快一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你看，我们两个人有四条腿，无头骑士骑着马所以也是四条腿……",
+			say = "你看，我們兩個人有四條腿，無頭騎士騎著馬所以也是四條腿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家都是四条腿，没道理跑不过~！",
+			say = "大家都是四條腿，沒道理跑不過~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "在沉默地点了点头，勉强接受了少女的乐观说辞后，我突然想起了手抄本末页的记录。",
+			say = "在沉默地點了點頭，勉強接受了少女的樂觀說辭後，我突然想起了手抄本末頁的紀錄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "末页的记录里说，骑士只会存在于太阳升起之前。",
+			say = "末頁的紀錄裡說，騎士只會存在於太陽升起之前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也许我们找个地方拖延时间，等到日出就安全了。",
+			say = "也許我們找個地方拖延時間，等到日出就安全了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拖延时间么……要不然我们现在立刻折返方向跑回去~？",
+			say = "拖延時間嗎……不然我們現在立刻折返方向跑回去~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "它肯定想不到我们会回头，只要小心一点不被它抓住，就又能兜个圈子了。",
+			say = "它肯定想不到我們會回頭，只要小心一點不被它抓住，就又能兜個圈子了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +505,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "布里斯托尔换了个姿势，用一只手紧紧抓着头盔，接着把另一只手塞进我手里。",
+			say = "布里斯托爾換了個姿勢，用一隻手緊緊抓著頭盔，接著把另一隻手塞進我手裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -516,7 +516,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "少女的掌心温热，能感受到她不知道是因为紧张还是剧烈运动而沁出的汗水。",
+			say = "少女的掌心溫熱，感受到她不知道是因為緊張還是劇烈運動而沁出的汗水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "我抓紧她的手，带着她向反方向的小镇跑去。",
+			say = "我抓緊她的手，帶著她往反方向的小鎮跑去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哈哈哈~你再快一点也可以哦，我还跟得上啦！",
+			say = "哈哈哈~你再快一點也可以哦，我還跟得上啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "传奇调查员少女发出一串清脆的笑声。",
+			say = "傳奇調查員少女發出一串清脆的笑聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_521",
 			hidePaintObj = true,
-			say = "看起来……她还十分享受这种紧张刺激的追逐。",
+			say = "看起來……她還十分享受這種緊張刺激的追逐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			actor = 101492,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们继续逃跑吧~直到日出之前~！",
+			say = "我們繼續逃跑吧~直到日出之前~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

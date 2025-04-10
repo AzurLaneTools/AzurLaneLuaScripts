@@ -223,7 +223,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此处教堂，就是本圣座要接下来要去开启的九号神之军械库了么？",
+			say = "此处教堂，就是本圣座接下来要去开启的九号神之军械库了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 601080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……达芬奇，你控制地稳一点，要飞歪了！",
+			say = "啊……达芬奇，你控制得稳一点，要飞歪了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1221,9 +1221,9 @@ end
 
 slot0.ClearEffectInterlayer = function(slot0, slot1)
 	if slot0.activeInterLayer == slot1 then
+		RemoveComponent(slot0.frontTr, "GraphicRaycaster")
 		RemoveComponent(slot0.actorTr, "Canvas")
 		RemoveComponent(slot0.frontTr, "Canvas")
-		RemoveComponent(slot0.frontTr, "GraphicRaycaster")
 
 		slot0.activeInterLayer = nil
 	end

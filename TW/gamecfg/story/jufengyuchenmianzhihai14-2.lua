@@ -12,7 +12,7 @@ return {
 			bgm = "story-temepest-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伴随着飓风船团的战斗，海雾中的光点以肉眼可见的速度消散着。",
+			say = "伴隨著颶風船團的戰鬥，海霧中的光點以肉眼可見的速度消散著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,18 +59,18 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也有些，按捺不住了。",
+			say = "我也有些，按奈不住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "你要出击了？",
+					content = "妳要出擊了？",
 					flag = 1
 				},
 				{
-					content = "你要进食了？",
+					content = "妳要進食了？",
 					flag = 2
 				}
 			}
@@ -84,7 +84,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍微，也想活动一下了呢。",
+			say = "稍微，也想活動一下了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吃一点，就吃一点哦。",
+			say = "吃一點，就吃一點哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			hidePainting = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "紫色的火焰凭空出现，如同液体一般在空气中流动着。",
+			say = "紫色的火焰憑空出現，如同液體一般在空氣中流動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -141,7 +141,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "黑色的眼罩被火焰所点燃，露出了那双布满迷雾的双眼。",
+			say = "黑色的眼罩被火焰所點燃，露出了那雙佈滿迷霧的雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,14 +153,14 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "少女的嘴角微微抿起，触手伴随着火焰向着海雾中肆意延伸。",
+			say = "少女的嘴角微微抿起，觸手伴隨著火焰向著海霧中肆意延伸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "寂静之灵",
+			actorName = "寂靜之靈",
 			side = 2,
 			bgName = "bg_jufengv2_cg6",
 			hidePainting = true,
@@ -183,7 +183,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "被冠以“寂静之名”的灵魂，此刻正散发出痛苦的嚎叫声。",
+			say = "被冠上「寂靜之名」的靈魂，此刻正散發出痛苦的嚎叫聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这便是“真实的我”。",
+			say = "這便是「真實的我」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 9600080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自幻想之中诞生的魔物再次向你问好，{playername}阁下。",
+			say = "自幻想之中誕生的魔物再次向你問好，{playername}閣下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			bgName = "bg_jufengv2_cg6",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "在这首由战栗声与咀嚼声构成的交响乐中，海雾中的光点彻底消失了。",
+			say = "在這首由戰慄聲與咀嚼聲構成的交響樂中，海霧中的光點完全消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

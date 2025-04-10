@@ -4144,12 +4144,156 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[101] = {
+		ship_group = 101,
+		name = "白鷹陣營專用頻道",
+		background = "101",
+		sculpture = "101",
+		nationality = 1,
+		type = 2
+	},
+	[102] = {
+		ship_group = 102,
+		name = "北方聯合陣營專用頻道",
+		background = "102",
+		sculpture = "102",
+		nationality = 7,
+		type = 2
+	},
+	[103] = {
+		ship_group = 103,
+		name = "東煌陣營專用頻道",
+		background = "103",
+		sculpture = "103",
+		nationality = 5,
+		type = 2
+	},
+	[104] = {
+		ship_group = 104,
+		name = "薩丁陣營專用頻道",
+		background = "104",
+		sculpture = "104",
+		nationality = 6,
+		type = 2
+	},
+	[105] = {
+		ship_group = 105,
+		name = "鐵血陣營專用頻道",
+		background = "105",
+		sculpture = "105",
+		nationality = 4,
+		type = 2
+	},
+	[106] = {
+		ship_group = 106,
+		name = "鳶尾陣營專用頻道",
+		background = "106",
+		sculpture = "106",
+		nationality = 8,
+		type = 2
+	},
+	[107] = {
+		ship_group = 107,
+		name = "重櫻陣營專用頻道",
+		background = "107",
+		sculpture = "107",
+		nationality = 3,
+		type = 2
+	},
+	[108] = {
+		ship_group = 108,
+		name = "皇家陣營專用頻道",
+		background = "108",
+		sculpture = "108",
+		nationality = 2,
+		type = 2
+	},
+	[109] = {
+		ship_group = 109,
+		name = "颶風陣營專用頻道",
+		background = "109",
+		sculpture = "109",
+		nationality = 10,
+		type = 2
+	},
+	[200] = {
+		ship_group = 200,
+		name = "公共頻道",
+		background = "200",
+		sculpture = "200",
+		nationality = 11,
+		type = 2
+	},
 	[960007] = {
 		ship_group = 960007,
 		name = "Ganj-i-sawai",
 		background = "",
 		sculpture = "gangyishawa",
 		nationality = 10,
+		type = 1
+	},
+	[960008] = {
+		ship_group = 960008,
+		name = "Fancy",
+		background = "",
+		sculpture = "huanxianghao",
+		nationality = 10,
+		type = 1
+	},
+	[960009] = {
+		ship_group = 960009,
+		name = "Amity",
+		background = "",
+		sculpture = "hemuhao",
+		nationality = 10,
+		type = 1
+	},
+	[960010] = {
+		ship_group = 960010,
+		name = "Portsmouth Adventure",
+		background = "",
+		sculpture = "pucimaosi",
+		nationality = 10,
+		type = 1
+	},
+	[960011] = {
+		ship_group = 960011,
+		name = "Dolphin",
+		background = "",
+		sculpture = "haitunhao",
+		nationality = 10,
+		type = 1
+	},
+	[69901] = {
+		ship_group = 69901,
+		name = "Marco Polo",
+		background = "",
+		sculpture = "makeboluo",
+		nationality = 0,
+		type = 1
+	},
+	[30506] = {
+		ship_group = 30506,
+		name = "Mutsu",
+		background = "",
+		sculpture = "luao",
+		nationality = 0,
+		type = 1
+	},
+	[20223] = {
+		ship_group = 20223,
+		name = "Swiftsure",
+		background = "",
+		sculpture = "quejie",
+		nationality = 0,
+		type = 1
+	},
+	[79902] = {
+		ship_group = 79902,
+		name = "Admiral Nakhimov",
+		background = "",
+		sculpture = "naximofu_2",
+		nationality = 0,
 		type = 1
 	},
 	[1110001] = {
@@ -4783,7 +4927,25 @@ pg.activity_ins_ship_group_template = {
 		30191,
 		30180,
 		19905,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		200,
 		960007,
+		960008,
+		960009,
+		960010,
+		960011,
+		69901,
+		30506,
+		20223,
+		79902,
 		1110001,
 		1110002,
 		1110003,

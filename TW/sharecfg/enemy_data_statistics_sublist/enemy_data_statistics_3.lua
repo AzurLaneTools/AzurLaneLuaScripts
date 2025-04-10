@@ -723,6 +723,152 @@ pg.enemy_data_statistics_3 = {
 		random_nub = {},
 		buff_list = {}
 	},
+	[50082] = {
+		cannon = 0,
+		name = "珍貴貨物箱",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 0,
+		type = 19,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "gangyishawa_baoxiang",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 1200,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 35,
+		armor = 0,
+		friendly_cld = 0,
+		id = 50082,
+		scale = 100,
+		prefab = "gangyishawa_baoxiang",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20006,
+		reload = 0,
+		dodge = 200,
+		reload_growth = 0,
+		wave_fx = "",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			4,
+			1.6,
+			1.6
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0,
+					1,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.78,
+							0.55,
+							-0.21
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							0.51,
+							2.28,
+							2.1
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			2
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[50083] = {
 		cannon = 0,
 		name = "GOGO真空君",
@@ -1147,29 +1293,6 @@ pg.enemy_data_statistics_3 = {
 		luck_growth = 10000,
 		hit_growth = 8300,
 		id = 50097,
-		specific_fx_scale = {},
-		appear_fx = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[50098] = {
-		air_growth = 0,
-		name = "加農炮花",
-		armor_growth = 0,
-		cannon_growth = 4400,
-		torpedo_growth = 0,
-		fog_fx = "",
-		bubble_fx = "",
-		antiaircraft_growth = 4400,
-		reload_growth = 8850,
-		dodge_growth = 4400,
-		antisub_growth = 0,
-		base = 50091,
-		durability_growth = 4400,
-		luck_growth = 10000,
-		hit_growth = 8850,
-		id = 50098,
 		specific_fx_scale = {},
 		appear_fx = {},
 		random_equipment_list = {},

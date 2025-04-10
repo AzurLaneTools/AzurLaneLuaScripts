@@ -30830,9 +30830,9 @@ _G.pg.base.gametip.shipyard_phase_1 = {
 		{
 			info = [[
 活動簡介：
-<color=#92fc63>6.20-7.11維護</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。
+<color=#92fc63>4.10-4.24維護</color>期間開啟「皇家幸運的秘密船廠」活動的第二階段。
 活動期間完成「秘密船廠」建造階段的所有任務，即可參加第二階段活動。
-活動期間，6月26日為止每日解鎖一關遊戲關卡，並增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數。
+活動期間，4.16為止每日解鎖一關遊戲關卡，並增加<color=#92fc63>1</color>次可獲得獎勵的遊玩次數。
 擁有可獲得獎勵的遊玩次數時，完成遊戲關卡可獲得<color=#92fc63>道具獎勵。</color>
 完成全部7個遊戲關卡後，可取得<color=#92fc63>限定傢俱「啟航的冒險船」x1</color>並可自由選擇任意關卡通關]]
 		}
@@ -30856,7 +30856,7 @@ _G.pg.base.gametip.shipyard_button_2 = {
 
 
 _G.pg.base.gametip.shipyard_introduce = {
-	tip = "6月26日為止，每天零點解鎖2個任務\n完成七日活動任務，可獲得限定裝備<color=#ff9892>「颶風旗」 </color>"
+	tip = "4月16日為止，每天零點解鎖2個任務\n完成七日活動任務，可獲得限定裝備<color=#ff9892>「颶風旗」 </color>"
 }
 
 
@@ -31800,7 +31800,7 @@ _G.pg.base.gametip.skin_discount_desc = {
 
 
 _G.pg.base.gametip.skin_exchange_timelimit = {
-	tip = "以下道具的可兌換清單將於$1維護後變更，請即時前往倉庫使用"
+	tip = "以下道具的可兌換清單將於$1 24時後變更，請即時前往倉庫使用"
 }
 
 
@@ -34714,6 +34714,96 @@ _G.pg.base.gametip.levelscene_mapselect_advanced = {
 }
 
 
+_G.pg.base.gametip.juuschat_filter_title = {
+	tip = "篩選"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip1 = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip2 = {
+	tip = "已回復"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip3 = {
+	tip = "未回復"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip4 = {
+	tip = "私人聊天"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_tip5 = {
+	tip = "頻道聊天"
+}
+
+
+_G.pg.base.gametip.juuschat_label1 = {
+	tip = "使用中"
+}
+
+
+_G.pg.base.gametip.juuschat_label2 = {
+	tip = "查看中"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip1 = {
+	tip = "[語音訊息]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip2 = {
+	tip = "[紅包]"
+}
+
+
+_G.pg.base.gametip.juuschat_chattip3 = {
+	tip = "[等待回復]"
+}
+
+
+_G.pg.base.gametip.juuschat_reddot_title = {
+	tip = "啾信功能"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle1 = {
+	tip = "查看"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle2 = {
+	tip = "類型"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_subtitle3 = {
+	tip = "陣營"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_show_detail = {
+	tip = "查看領取詳情"
+}
+
+
+_G.pg.base.gametip.juuschat_redpacket_detail = {
+	tip = "領取詳情"
+}
+
+
+_G.pg.base.gametip.juuschat_filter_empty = {
+	tip = "篩選結果為空"
+}
+
+
 _G.pg.base.gametip.dorm3d_appellation_title = {
 	tip = "你希望她稱呼你為"
 }
@@ -34889,8 +34979,77 @@ _G.pg.base.gametip.dorm3d_nengdai_minigame_evaluate5 = {
 }
 
 
+_G.pg.base.gametip.BoatAdGame_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/boatadgame_minigame_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_1024_memory = {
+	tip = "道具數量不足，完成活動任務可取得「鬼怪故事頁」"
+}
+
+
+_G.pg.base.gametip.activity_1024_memory_get = {
+	tip = "- 已領取-"
+}
+
+
+_G.pg.base.gametip.juuschat_background_tip1 = {
+	tip = "未擁有"
+}
+
+
+_G.pg.base.gametip.juuschat_background_tip2 = {
+	tip = "暫未擁有此換裝"
+}
+
+
 _G.pg.base.gametip.drom3d_memory_limit_tip = {
 	tip = "目前設備記憶體小於建議配置，有閃退可能性存在。"
+}
+
+
+_G.pg.base.gametip.blackfriday_main_tip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+·<color=#92fc63>4.10-4.24 維護</color>期間開啟限時活動「初春明石特賣會」
+·限時任務
+完成任務獲得促銷PT
+·特設商店
+使用促銷PT在特設商店中兌換獎勵
+·促銷禮包
+截止4.16 0點為止，每日解鎖一組免費禮包與付費禮包]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.blackfriday_shop_tip = {
+	tip = "$1日$2時解鎖"
 }
 
 
@@ -35219,6 +35378,46 @@ _G.pg.base.gametip.TW_build_chase_time = {
 
 _G.pg.base.gametip.ship_task_lottery_title = {
 	tip = "綻放於輝光之城活動期間累積通關「綻放於輝光之城」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+}
+
+
+_G.pg.base.gametip.blackfriday_gift = {
+	tip = "促銷禮包"
+}
+
+
+_G.pg.base.gametip.blackfriday_shop = {
+	tip = "特設商店"
+}
+
+
+_G.pg.base.gametip.blackfriday_task = {
+	tip = "限時任務"
+}
+
+
+_G.pg.base.gametip.blackfriday_coinshop = {
+	tip = "物資商店"
+}
+
+
+_G.pg.base.gametip.blackfriday_dailypack = {
+	tip = "每日禮包"
+}
+
+
+_G.pg.base.gametip.blackfriday_gemshop = {
+	tip = "鑽石商店"
+}
+
+
+_G.pg.base.gametip.blackfriday_ptshop = {
+	tip = "PT商店"
+}
+
+
+_G.pg.base.gametip.blackfriday_specialpack = {
+	tip = "特惠禮包"
 }
 
 

@@ -42,6 +42,13 @@ pg.pay_data_display = setmetatable({
 		5005,
 		5006,
 		5007,
+		5011,
+		5012,
+		5013,
+		5014,
+		5015,
+		5016,
+		5017,
 		4001,
 		4002,
 		4003,
@@ -91,6 +98,10 @@ pg.pay_data_display = setmetatable({
 		4047,
 		4048,
 		4049,
+		4050,
+		4051,
+		4052,
+		4053,
 		4850,
 		4851,
 		4852,
@@ -3467,6 +3478,574 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40996,
+				1
+			}
+		}
+	},
+	[5011] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 0,
+		name = "特賣禮包I",
+		first_pay_double = 0,
+		name_display = "特賣禮包I",
+		descrip = "購買禮包可獲得60鑽，高級定向藍圖·六期*2",
+		subject = "特賣禮包I",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		picture = "pack_day1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao129",
+		extra_service = 3,
+		id = 5011,
+		airijp_id = "com.hkmanjuu.azurlane.libao129",
+		extra_service_item = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81410,
+				1
+			}
+		}
+	},
+	[5012] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 0,
+		name = "特賣禮包II",
+		first_pay_double = 0,
+		name_display = "特賣禮包II",
+		descrip = "購買禮包可獲得200鑽",
+		subject = "特賣禮包II",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		picture = "pack_day2",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao130",
+		extra_service = 3,
+		id = 5012,
+		airijp_id = "com.hkmanjuu.azurlane.libao130",
+		extra_service_item = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					11
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				1,
+				14,
+				200
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81411,
+				1
+			}
+		}
+	},
+	[5013] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 0,
+		name = "特賣禮包III",
+		first_pay_double = 0,
+		name_display = "特賣禮包III",
+		descrip = "購買禮包可獲得定向部件T4*5，心智單元*200",
+		subject = "特賣禮包III",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		picture = "pack_day3",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao131",
+		extra_service = 3,
+		id = 5013,
+		airijp_id = "com.hkmanjuu.azurlane.libao131",
+		extra_service_item = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				30114,
+				5
+			},
+			{
+				2,
+				15008,
+				200
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81412,
+				1
+			}
+		}
+	},
+	[5014] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 0,
+		name = "特賣禮包IV",
+		first_pay_double = 0,
+		name_display = "特賣禮包IV",
+		descrip = "購買禮包可獲得60鑽，試作型布里MKII*1",
+		subject = "特賣禮包IV",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		picture = "pack_day4",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao132",
+		extra_service = 3,
+		id = 5014,
+		airijp_id = "com.hkmanjuu.azurlane.libao132",
+		extra_service_item = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					13
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				4,
+				100011,
+				1
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81413,
+				1
+			}
+		}
+	},
+	[5015] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 0,
+		name = "特賣禮包V",
+		first_pay_double = 0,
+		name_display = "特賣禮包V",
+		descrip = "購入禮包可獲得艦艇演習數據T2*60",
+		subject = "特賣禮包V",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		picture = "pack_day5",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao133",
+		extra_service = 3,
+		id = 5015,
+		airijp_id = "com.hkmanjuu.azurlane.libao133",
+		extra_service_item = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					14
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16502,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81414,
+				1
+			}
+		}
+	},
+	[5016] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 0,
+		name = "特賣禮包VI",
+		first_pay_double = 0,
+		name_display = "特賣禮包VI",
+		descrip = "購買禮包可獲得心智魔方*10，快速完成工具*5",
+		subject = "特賣禮包VI",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		picture = "pack_day6",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao134",
+		extra_service = 3,
+		id = 5016,
+		airijp_id = "com.hkmanjuu.azurlane.libao134",
+		extra_service_item = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				20001,
+				10
+			},
+			{
+				2,
+				15003,
+				5
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81415,
+				1
+			}
+		}
+	},
+	[5017] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到郵箱，請注意查收。",
+		type = 0,
+		name = "特賣禮包VII",
+		first_pay_double = 0,
+		name_display = "特賣禮包VII",
+		descrip = "購買禮包可獲得60鑽，高級定向藍圖·七期*2",
+		subject = "特賣禮包VII",
+		money = 33,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		picture = "pack_day7",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.libao135",
+		extra_service = 3,
+		id = 5017,
+		airijp_id = "com.hkmanjuu.azurlane.libao135",
+		extra_service_item = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					16
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				1,
+				14,
+				60
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81416,
 				1
 			}
 		}
@@ -8876,6 +9455,442 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81018,
+				1
+			}
+		}
+	},
+	[4050] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到信箱，請注意查收。",
+		type = 0,
+		name = "明石特賣禮包",
+		first_pay_double = 0,
+		name_display = "明石特賣禮包",
+		descrip = "可獲得980鑽，自選禮物盒1*1，和大量其他獎勵",
+		subject = "明石特賣禮包",
+		money = 490,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_98",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.package51",
+		extra_service = 3,
+		id = 4050,
+		airijp_id = "com.hkmanjuu.azurlane.package51",
+		extra_service_item = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			},
+			{
+				2,
+				59010,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59555,
+				1
+			},
+			{
+				1,
+				14,
+				980
+			},
+			{
+				2,
+				16501,
+				100
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81407,
+				1
+			}
+		}
+	},
+	[4051] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到信箱，請注意查收。",
+		type = 0,
+		name = "明石特賣大禮包",
+		first_pay_double = 0,
+		name_display = "明石特賣大禮包",
+		descrip = "可獲得1980鑽，自選禮物盒2*1，和大量其他獎勵",
+		subject = "明石特賣大禮包",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_198",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.package52",
+		extra_service = 3,
+		id = 4051,
+		airijp_id = "com.hkmanjuu.azurlane.package52",
+		extra_service_item = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			},
+			{
+				2,
+				30114,
+				30
+			},
+			{
+				2,
+				59010,
+				2000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59556,
+				1
+			},
+			{
+				1,
+				14,
+				1980
+			},
+			{
+				2,
+				15008,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81408,
+				1
+			}
+		}
+	},
+	[4052] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮包將發送到信箱，請注意查收。",
+		type = 0,
+		name = "明石豪華特賣大禮包",
+		first_pay_double = 0,
+		name_display = "明石豪華特賣大禮包",
+		descrip = "可獲得3280鑽，自選禮物盒3*1，和大量其他獎勵",
+		subject = "明石豪華特賣大禮包",
+		money = 1690,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "pack_2024_328",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.package53",
+		extra_service = 3,
+		id = 4052,
+		airijp_id = "com.hkmanjuu.azurlane.package53",
+		extra_service_item = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			},
+			{
+				2,
+				15008,
+				2000
+			},
+			{
+				2,
+				16004,
+				2
+			},
+			{
+				2,
+				16014,
+				2
+			},
+			{
+				2,
+				16024,
+				2
+			},
+			{
+				2,
+				16032,
+				30
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59563,
+				1
+			},
+			{
+				1,
+				14,
+				3280
+			},
+			{
+				2,
+				15012,
+				150
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81421,
+				1
+			}
+		}
+	},
+	[4053] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*禮盒將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "特賣心動福袋",
+		first_pay_double = 0,
+		name_display = "特賣心動福袋",
+		descrip = "可獲得清單中未擁有的L2D換裝*1（擁有清單中所有換裝則轉換為獲得鑽石）和其他獎勵",
+		subject = "特賣心動福袋",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai17",
+		skin_inquire_relation = 86014,
+		id_str = "com.hkmanjuu.azurlane.package54",
+		extra_service = 3,
+		id = 4053,
+		airijp_id = "com.hkmanjuu.azurlane.package54",
+		extra_service_item = {
+			{
+				2,
+				86014,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				35
+			},
+			{
+				2,
+				15003,
+				12
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86014,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81019,
 				1
 			}
 		}

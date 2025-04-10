@@ -9,7 +9,7 @@ return {
 			bgm = "story-temepest-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "沿着残骸行驶了半日后，海雾逐渐消散，露出了这片沉眠之海的真容。",
+			say = "沿著殘骸行駛了半日後，海霧逐漸消散，露出了這片沉眠之海的真容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "海面上残骸的密度也在逐渐增大，硝烟渐浓。",
+			say = "海面上殘骸的密度也逐漸增大，甚至出現了一絲硝煙的味道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,12 +47,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嚯嚯，我们已经逐渐接近她了。",
+			say = "嚯嚯，我們已經逐漸接近她了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,12 +61,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里的战斗才发生不久，看来她还在这片海域中战斗着，并未离开！",
+			say = "這裡的戰鬥才發生不久，看來她還在這片海域中戰鬥著，並未離開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "话音未落，远方的天空中炸开了一个巨大的金色礼花。",
+			say = "話音未落，遠方的天空中炸開了一個巨大的金色禮花。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,12 +144,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "金色的礼花……女神教会的求援信号。",
+			say = "金色的禮花……女神教會的求援訊號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,12 +159,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冈依沙瓦号恐怕遇到麻烦了。",
+			say = "岡依沙瓦號恐怕遇到麻煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,12 +173,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呃……凭借她那艘大船的火力与速度，有谁能让她陷入麻烦？",
+			say = "呃……憑藉她那艘大船的火力與速度，有誰能讓她陷入麻煩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,12 +188,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "足够多的敌人，以及——足够不利的条件。",
+			say = "足夠多的敵人，以及——足夠不利的條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,12 +203,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冈依沙瓦号，除了她为世人广泛所知的「浮动宝库」的称号之外，在女神教会内部序列中，她也被为「风雨祭司」。",
+			say = "岡依沙瓦號，除了她為世人廣泛所知的「浮動寶庫」的稱號之外，在女神教會內部序列中，她也被為「風雨祭司」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,12 +218,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "据说她受到女神的庇佑极深，海风和雨水都可以赋予她力量。",
+			say = "據說她受到女神的庇佑極深，海風和雨水都可以賦予她力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,12 +233,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这也是她一直自信独行的真正依凭。",
+			say = "這也是她一直自信獨行的真正依賴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,12 +248,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而这片海域……没有雨，也没有风，还隐藏着让女神的庇佑衰弱的根源。",
+			say = "而這片海域……沒有雨，也沒有風，還隱藏著讓女神的庇佑衰弱的根源。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,12 +263,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "云墙守卫",
+			factiontag = "雲牆守衛",
 			dir = 1,
 			actor = 9600020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她就这么充满自信的一个人冲进来了……不出事才奇怪。",
+			say = "她就這麼充滿自信的一個人衝進來了……不出事才奇怪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			bgName = "bg_jufengv2_1",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,7 +330,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "随着船团接近礼花爆炸的位置，战斗的声音也愈发清晰。",
+			say = "隨著船團接近禮花爆炸的位置，戰鬥的聲音也愈發清晰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv2_1",
 			hidePaintObj = true,
-			say = "伤痕累累的巨舰穿梭在炮火与巨兽中，已然不复此前那般游刃有余。",
+			say = "傷痕累累的巨艦穿梭在炮火與巨獸中，已然不復此前那般游刃有餘。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,12 +351,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "寻宝猎人",
+			factiontag = "尋寶獵人",
 			dir = 1,
 			actor = 9600100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "上去帮忙还是趁火打劫？",
+			say = "上去幫忙還是趁火打劫？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
@@ -381,12 +381,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我可不想被女神教会的人惦记上，当然是上去帮忙了！",
+			say = "我可不想被女神教會的人惦記上，當然是上去幫忙了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,41 +395,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们现在上去帮忙叫雪中送炭！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "冈依沙瓦号这种人的人情可不是那么好卖的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
-			dir = 1,
-			actor = 9600010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "机会难得，要是把她拉到我们这边来，对于船团的发展事业可是有着极大好处的~",
+			say = "我們現在上去幫忙叫雪中送炭！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,12 +410,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "圣马丁，你是云墙守卫说话方便，先行一步找她说明情况以免误判。",
+			say = "岡依沙瓦號這種人的人情可不是那麼好賣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,12 +424,41 @@ return {
 		{
 			side = 2,
 			bgName = "bg_jufengv2_1",
-			factiontag = "飓风船团",
+			factiontag = "颶風船團",
 			dir = 1,
 			actor = 9600010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其余各舰，排列阵型随我出击——！",
+			say = "機會難得，要是把她拉到我們這邊來，對於船團的發展事業可是有著極大好處的~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_jufengv2_1",
+			factiontag = "颶風船團",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "聖馬丁，妳是雲牆守衛說話方便，先行一步找她說明情況以免誤判。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			bgName = "bg_jufengv2_1",
+			factiontag = "颶風船團",
+			dir = 1,
+			actor = 9600010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "其餘各艦，排列陣型隨我出擊——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

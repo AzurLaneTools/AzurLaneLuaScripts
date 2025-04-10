@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>恶魔的“等价交换”</size>",
+					"《港區假日鬼怪故事集》\n\n<size=45>惡魔的「等價交換」</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
 			bgm = "story-ghostnight-fascinsting",
-			say = "感受着地砖冰凉的触感，我缓缓睁开双眼。",
+			say = "感受著地磚冰涼的觸感，我緩緩睜開雙眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "大厅中央的王座上，端坐着一位美丽的少女。",
+			say = "大廳中央的王座上，端坐著一位美麗的少女。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？这位客人，你醒了吗？",
+			say = "哦？這位客人，你醒了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "虽然语气和笑容都称得上是甜美可人，但是少女周身散发出的气场形成了一股巨大的压迫力。",
+			say = "雖然語氣和笑容都稱得上是甜美可人，但是少女周身散發出的氣場形成了一股巨大的壓迫力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "啊~不用紧张哦，我是这座城堡的主人，叫我{namecode:295:尾张}就好。",
+			say = "啊~不用緊張哦，我是這座城堡的主人，叫我尾張就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我是看到你晕倒在路边，所以就把你捡回来了~",
+			say = "我是看到你暈倒在路邊，所以就把你撿回來了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "对了，你是从哪里来的呢？捡到你的时候，你可是把自己搞得乱七八糟的哦。",
+			say = "對了，你是從哪裡來的呢？撿到你的時候，你可是把自己搞得亂七八糟的哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女角上的装饰随着说话摇晃着，真诚的语气中还带着几分关切。",
+			say = "少女角落的裝飾隨著說話搖晃著，真誠的語氣中還帶著幾分關切。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,20 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "尽管明确地知晓她并非人类，但这样还是让人很难不对她产生好感。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（记得……我是在赶路的过程里被野兽袭击，受了重伤而逃到这附近的……）",
+			say = "儘管明確知曉她並非人類，但這樣還是讓人很難不對她產生好感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +132,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯？我身上的伤口怎么不见了……？",
+			say = "（記得……我是在趕路的過程裡被野獸襲擊，受了重傷而逃到這附近的……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_177",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "嗯？我身上的傷口怎麼不見了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦哦，原来你是在找伤口啊，我不是说你把自己搞得乱七八糟嘛……",
+			say = "哦哦，原來你在找傷口啊，我不是說你把自己搞得亂七八糟嘛……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以就顺手帮你治好了哦~我超厉害的对吧！",
+			say = "所以就順手幫你治好了哦~我超厲害的對吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "她露出了明媚的笑容，得意地冲我点了点头，像是等着人夸奖一样。",
+			say = "她露出了明媚的笑容，得意地對我點了點頭，像是等著人誇獎一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "确实很厉害。",
+			say = "確實很厲害。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过呢，我捡你回来，也不是白捡的哦？",
+			say = "不過呢，我撿你回來，也不是白撿的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……嗯？难道是……）",
+			say = "（……嗯？難道是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,20 +234,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "脑海之中，不禁浮现起那些关于恶魔会诱骗人类进行“等价交换”的传言。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_177",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "唉……我要付出怎样的代价？",
+			say = "腦海之中，不禁浮現起那些關於惡魔會誘騙人類進行「等價交換」的傳言。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +247,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "是要为你率领恶魔大军攻城略地，还是要……",
+			say = "唉……我要付出怎樣的代價？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_177",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "是要為妳率領惡魔大軍攻城略地，還是要……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欸？你在说什么？",
+			say = "欸？你在說什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "恶魔少女露出了不解的神色，甚至有点手足无措的扯了扯自己的衣服。",
+			say = "惡魔少女露出了不解的神色，甚至有點手足無措地扯了扯自己的衣服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……嗯？你不是要找我进行“等价交换”么？",
+			say = "……嗯？妳不是要找我進行「等價交換」嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哦……对哦！你是要“等价交换”是吧~",
+			say = "喔……對哦！你是要「等價交換」是吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳，我可是救了你的命，你该不会以为这种程度的代价就可以吧？",
+			say = "咳咳，我可是救了你的命，你該不會以為這種程度的代價就可以吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "来~接着。",
+			say = "來~接著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "恶魔少女从王座后面掏出了一把金锄头，丢在我面前。",
+			say = "惡魔少女從王座後面掏出了一把金鋤頭，丟在我面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "而后少女又调整了一下坐姿，使自己看起来更是威严。",
+			say = "而後少女又調整了一下坐姿，讓自己看起來更是威嚴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,11 +394,11 @@ return {
 			},
 			options = {
 				{
-					content = "这是用来击败敌人的武器！",
+					content = "這是用來擊敗敵人的武器！",
 					flag = 1
 				},
 				{
-					content = "这是用来埋葬敌人的工具！",
+					content = "這是用來埋葬敵人的工具！",
 					flag = 2
 				}
 			}
@@ -411,7 +411,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以农具击败敌人，同时带给敌人无穷的羞辱，不愧是恶魔！",
+			say = "以農具擊敗敵人，同時帶給敵人無窮的羞辱，不愧是惡魔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用这个来挖掘坑洞，埋葬敌人……不愧是恶魔！",
+			say = "用這個來挖掘坑洞，埋葬敵人……不愧是惡魔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过……不管是哪一种，恐怕效率都不是很高啊。",
+			say = "不過……不管是哪一種，恐怕效率都不是很高啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对不对，不可以把宝贵的农具用来做那种事哦！",
+			say = "不對不對，不可以把寶貴的農具用來做那種事哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女稍微鼓起脸颊，好像在生气，同时也伸出食指左右摇晃。",
+			say = "少女稍微鼓起臉頰，好像在生氣，同時也伸出食指左右搖晃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,7 +477,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好好听我说！你要付出的代价就是——和我一起去种菜啦！",
+			say = "好好聽我說！你要付出的代價就是——跟我一起去種菜囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "她说话的同时挺起胸膛，看上去是对自己的决定非常满意。",
+			say = "她說話的同時挺起胸膛，看起來是對自己的決定非常滿意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我给予了你生命，所以你也要以生命回报！",
+			say = "我給了你生命，所以你也要以生命回報！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你刚刚来的时候浑身都在流血，我可是用了好多恶魔胡萝卜作为草药才给你止住了血呢。",
+			say = "你剛來的時候渾身都在流血，我可是用了很多惡魔胡蘿蔔作為草藥才幫你止住了血呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女从王座上站起，缓缓向我走来。",
+			say = "少女從王座上站起，緩緩向我走來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以，在新的生命孕育之前，我可不会放你走哦。",
+			say = "所以，在新的生命孕育之前，我可不會放你走哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "她将金锄头放进我手里。",
+			say = "她將金鋤頭放進我手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_177",
 			hidePaintObj = true,
-			say = "少女的指尖温暖而柔软，眼神中更是充满了温柔和对生命的渴望。",
+			say = "少女的指尖溫暖柔軟，眼神中更是充滿了溫柔和對生命的渴望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			actor = 900464,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "让我们一起去制造新生命吧~！",
+			say = "讓我們一起去製造新生命吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

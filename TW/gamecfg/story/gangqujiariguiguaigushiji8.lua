@@ -9,7 +9,7 @@ return {
 			bgm = "story-oldcastle-carnival",
 			sequence = {
 				{
-					"《港区假日鬼怪故事集》\n\n<size=45>满月之夜的狼</size>",
+					"《港區假日鬼怪故事集》\n\n<size=45>滿月之夜的狼</size>",
 					1
 				}
 			}
@@ -20,7 +20,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			bgm = "story-ghostnight-fascinsting",
-			say = "踏着月光，我来到了儿时居住过一段时间的村庄。",
+			say = "踏著月光，我來到了兒時住過一段時間的村莊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "此次回来是专程来探望小时候一直陪伴我、抚慰我的姐姐{namecode:67:爱宕}。",
+			say = "這次回來是專程來探望小時候一直陪伴我、撫慰我的姊姊愛宕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "只是当我来到村庄入口时，发现村庄里灯火通明，却又异常寂静。",
+			say = "只是來到村莊入口時，發現村莊裡燈火通明，卻又異常寂靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "一股不祥的预感从心中涌起，正疑惑间，一个声音从屋顶传来。",
+			say = "一股不祥的預感從心中湧起，正疑惑間，一個聲音從屋頂傳來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可恶的野兽啊，速速离开此地！",
+			say = "可惡的野獸啊，速速離開此地！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是我与那个人充满回忆的地方……别想在此处撒野！",
+			say = "這是我與那個人充滿回憶的地方……別想在這裡撒野！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "抬头望去，一个身影正立于远方的屋顶上。",
+			say = "抬頭望去，一個身影正立於遠方的屋頂上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "屋顶上那道身影虽然看起来像是位少女，但头顶上却有对兽耳随着夜风颤动。",
+			say = "屋頂上那道身影雖然看起來像是個少女，但頭頂上卻有對獸耳隨著夜風顫動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "以及如同狼一般锋利的爪子。",
+			say = "以及如同狼一般鋒利的爪子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（等等，这个声音如此熟悉……难道说？）",
+			say = "（等等，這個聲音如此熟悉……難道說？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,14 +153,14 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你……",
+			say = "妳……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "野兽",
+			actorName = "野獸",
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
@@ -176,7 +176,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "还未问出口，从暗处冲出的数只野兽包围了我。",
+			say = "還未問出口，從暗處衝出的數隻野獸包圍了我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼……这群野兽还是不肯罢休吗。",
+			say = "哼……這群野獸還是不肯罷休嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也好，就让我给你们留下一些教训吧！",
+			say = "也好，就讓我留給你們一些教訓吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "在那冷酷和充满威胁语气的声音中，让我更加认定了先前的猜想。",
+			say = "在那冷酷和充滿威脅語氣的聲音中，讓我更認定了先前的猜想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:67:爱宕}……是你吗？",
+			say = "愛宕……是妳嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "少女愣了一下，眼神中似乎闪过了一丝慌乱，随即又变成了无奈。",
+			say = "少女愣了一下，眼神中似乎閃過了一絲慌亂，隨即又變成了無奈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "接着她发出一声长啸，呵退了周围的野兽后，接着把我拉上屋顶。",
+			say = "接著她發出一聲長嘯，喝退了周圍的野獸後，接著把我拉上屋頂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你……你怎么这个时候回来了？",
+			say = "你……你怎麼這個時候回來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "附近的野兽不知为何频繁骚扰起村子……大家都去避难了……",
+			say = "附近的野獸不知為何頻繁騷擾起村子……大家都去避難了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:67:爱宕}……你怎么变成这样了……？",
+			say = "愛宕……妳怎麼變成這樣了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "难道说……是受了什么诅咒么？",
+			say = "難道說……是受了什麼詛咒嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不，不是诅咒……",
+			say = "不，不是詛咒……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "{namecode:67:爱宕}看起来有些手足无措。",
+			say = "愛宕看起來有些手足無措。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "她似乎很想靠近我，又始终担忧着什么，就连那根不知从何而来的尾巴都在焦急地摇晃着。",
+			say = "她似乎很想靠近我，又始終擔憂著什麼，就連那根不知從何而來的尾巴都在焦急地搖晃著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "在发出了一声叹息后，她像是终于接受了现实，再度鼓起勇气开口回应我。",
+			say = "在發出了一聲嘆息後，她像是終於接受了現實，再度鼓起勇氣開口回應我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "其实……我本身就是狼人一族。",
+			say = "其實……我本身就是狼人一族。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你住在这里的时候还小，我怕吓到你，所以……就一直没有告诉你。",
+			say = "你住在這裡的時候還小，我怕嚇到你，所以……就一直沒有告訴你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "若不是形势所迫，我也不想被你看到这副模样……",
+			say = "若不是形勢所迫，我也不想被你看到這副模樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "{namecode:67:爱宕}咬紧了嘴唇，就连尾巴都因为失落而下垂，完全没有了刚刚对峙野兽时的冷酷。",
+			say = "愛宕咬緊了嘴唇，就連尾巴都因為失落而下垂，完全沒有了剛剛對峙野獸時的冷酷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,18 +417,18 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你会害怕和讨厌这样的姐姐吗？",
+			say = "……你會害怕和討厭這樣的姊姊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "抓住{namecode:67:爱宕}的手",
+					content = "抓住愛宕的手",
 					flag = 1
 				},
 				{
-					content = "抱住{namecode:67:爱宕}",
+					content = "抱住愛宕",
 					flag = 2
 				}
 			}
@@ -439,7 +439,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "摇了摇头后，握紧了{namecode:67:爱宕}的手。",
+			say = "搖了搖頭後，握緊了愛宕的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,7 +451,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "尽管此刻她的双手变成了毛茸茸的兽掌，但那熟悉的温暖感觉与儿时别无二致。",
+			say = "儘管此刻她的雙手變成了毛茸茸的獸掌，但那熟悉的溫暖感覺與兒時別無二致。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -463,7 +463,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "我抱住了{namecode:67:爱宕}，就如她曾经紧紧抱住我，给予我勇气和抚慰一样。",
+			say = "我抱住了愛宕，就如她曾經緊緊抱住我，給我勇氣和撫慰一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -475,7 +475,7 @@ return {
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "她的身体微微颤抖，而她毛茸茸的尾巴不由自主地开始摇晃。",
+			say = "她的身體微微顫抖，而她毛茸茸的尾巴不由自主地開始搖晃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不管你变成什么样……我都不会害怕你，讨厌你。",
+			say = "不管妳變成什麼樣子……我都不會害怕妳，討厭妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,14 +501,14 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:67:爱宕}，我永远……",
+			say = "愛宕，我永遠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "野兽",
+			actorName = "野獸",
 			side = 2,
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
@@ -524,7 +524,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "还想继续解释时，先前被{namecode:67:爱宕}呵退的野兽再度集结，靠近。",
+			say = "還想繼續解釋時，先前被愛宕呵退的野獸再度集結，靠近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "数量变得比之前更多，而且互相踩踏着同伴的身体，试图攀上我们所在的屋顶。",
+			say = "數量變得比之前更多，而且互相踩踏同伴的身體，試圖攀上我們所在的屋頂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "姐姐我好开心……",
+			say = "姐姐我好開心……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -560,7 +560,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "少女的眼眶湿润，强忍着不让喜极而泣的泪水涌出。",
+			say = "少女的眼眶濕潤，強忍著不讓喜極而泣的淚水湧出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "把一切都，交给姐姐吧。",
+			say = "把一切都，交給姊姊吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 303125,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不止是今夜，还有未来的每时每刻，姐姐都会保护你的。",
+			say = "……不只今夜，未來的每時每刻，姐姐都會保護你的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_510",
 			hidePaintObj = true,
-			say = "少女紧紧握住我的手，带着我跃入了野兽无法触及的月光之中。",
+			say = "少女緊緊握住我的手，帶著我躍入了野獸無法觸及的月光之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

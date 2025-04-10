@@ -1,17 +1,17 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_19 = {
-	[9600040] = {
-		name = "瑪麗·賽勒斯特號",
+	[9600090] = {
+		name = "和睦號",
 		change_skin = "",
-		ship_group = 960004,
+		ship_group = 960009,
 		illustrator2 = -1,
-		desc = "風帆船—瑪麗·賽勒斯特號",
+		desc = "風帆船—和睦號",
 		group_index = 0,
-		id = 9600040,
-		painting = "mali",
+		id = 9600090,
+		painting = "hemuhao",
 		l2d_ignore_drag = 0,
-		hand_id = 1,
+		hand_id = 13,
 		shop_type_id = 0,
 		bgm = "",
 		special_effects = "",
@@ -26,12 +26,12 @@ pg.base.ship_skin_template_19 = {
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
-		prefab = "mali",
+		prefab = "hemuhao",
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = 385,
+		voice_actor = 430,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -72,29 +72,29 @@ pg.base.ship_skin_template_19 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.005,
-					1,
+					1.854,
+					0.697,
 					0
 				}
 			},
 			vicegun = {
 				{
-					1,
-					0.995,
+					1.822,
+					0.692,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0.019,
+					0.006,
 					0,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.2,
-					1.287,
+					0.573,
+					2.563,
 					0
 				}
 			}
@@ -106,8 +106,8 @@ pg.base.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							-0.613,
-							2.438,
+							-0.603,
+							2.481,
 							0
 						}
 					}
@@ -115,17 +115,17 @@ pg.base.ship_skin_template_19 = {
 			}
 		}
 	},
-	[9600041] = {
-		name = "幽夜冥神",
+	[9600091] = {
+		name = "友好的弗蘭肯",
 		change_skin = "",
-		ship_group = 960004,
+		ship_group = 960009,
 		illustrator2 = -1,
-		desc = "我是瑪麗·賽勒斯特，無月之夜的寂靜獵人……嗯~這樣的風格，和身為幽靈船的我很相配呢。",
+		desc = "嗚哇，無處可逃了呢——騙，你，的~指揮官，這次也是我贏了，我就帶著財寶先走一步了哦！要是夠膽量的話，就跳下來追我吧？",
 		group_index = 1,
-		id = 9600041,
-		painting = "mali_2",
+		id = 9600091,
+		painting = "hemuhao_2",
 		l2d_ignore_drag = 0,
-		hand_id = 1,
+		hand_id = 13,
 		shop_type_id = 8,
 		bgm = "",
 		special_effects = "",
@@ -133,249 +133,19 @@ pg.base.ship_skin_template_19 = {
 		l2d_animations = "",
 		gyro = 0,
 		ship_l2d_id = "",
-		bg = "174",
+		bg = "525",
 		l2d_drag_rate = "",
 		spine_use_live2d = 0,
 		spine_action_offset = false,
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
-		prefab = "mali_2",
+		prefab = "hemuhao_2",
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
-		shop_id = 70922,
-		voice_actor = 385,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.007,
-					1.008,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.998,
-					1,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.011,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.185,
-					1.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.64,
-							2.321,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9600050] = {
-		name = "維達號",
-		change_skin = "",
-		ship_group = 960005,
-		illustrator2 = -1,
-		desc = "風帆船—維達號",
-		group_index = 0,
-		id = 9600050,
-		painting = "weida",
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "weida",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 386,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.006,
-					1.014,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.011,
-					1.015,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.007,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.237,
-					1.201,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.755,
-							2.496,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[9600051] = {
-		name = "慵懶的黑天使",
-		change_skin = "",
-		ship_group = 960005,
-		illustrator2 = -1,
-		desc = "糖果與遊戲的天使，受召喚而來……欸？為什麼要穿成這樣？回答原因也好麻煩……總之，不給糖就搗蛋……！指揮官，為了節省時間，快把糖果交出來吧？我還想回去打遊戲呢……",
-		group_index = 1,
-		id = 9600051,
-		painting = "weida_2",
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		shop_type_id = 8,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "174",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "weida_2",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70923,
-		voice_actor = 386,
+		shop_id = 71064,
+		voice_actor = 430,
 		illustrator = -1,
 		rarity_bg = "",
 		time = "",
@@ -418,29 +188,29 @@ pg.base.ship_skin_template_19 = {
 		bound_bone = {
 			cannon = {
 				{
-					1.005,
-					1.008,
+					1.725,
+					0.919,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.998,
-					1,
+					1.43,
+					1.566,
 					0
 				}
 			},
 			torpedo = {
 				{
-					0,
+					0.006,
 					0,
 					0
 				}
 			},
 			antiaircraft = {
 				{
-					1.2,
-					1.27,
+					0.769,
+					2.387,
 					0
 				}
 			}
@@ -452,8 +222,8 @@ pg.base.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							-0.62,
-							2.45,
+							-0.373,
+							2.474,
 							0
 						}
 					}
@@ -462,24 +232,24 @@ pg.base.ship_skin_template_19 = {
 		},
 		spine_offset = {
 			{
-				-174,
-				-269,
+				89.8,
+				283.2,
 				0
 			},
 			{
-				1.9
+				0.9
 			}
 		}
 	},
-	[9600060] = {
-		name = "冒險加利號",
+	[9600100] = {
+		name = "樸茨茅斯冒險號",
 		change_skin = "",
-		ship_group = 960006,
+		ship_group = 960010,
 		illustrator2 = -1,
-		desc = "風帆船—冒險加利號",
+		desc = "風帆船—樸茨茅斯冒險號",
 		group_index = 0,
-		id = 9600060,
-		painting = "jialimaoxian",
+		id = 9600100,
+		painting = "pucimaosi",
 		l2d_ignore_drag = 0,
 		hand_id = 1,
 		shop_type_id = 0,
@@ -496,12 +266,12 @@ pg.base.ship_skin_template_19 = {
 		skin_type = -1,
 		bg_sp = "",
 		voice_actor_2 = -1,
-		prefab = "jialimaoxian",
+		prefab = "pucimaosi",
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
 		shop_id = 0,
-		voice_actor = 387,
+		voice_actor = 431,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -542,15 +312,15 @@ pg.base.ship_skin_template_19 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.994,
-					0.985,
+					2.281,
+					0.866,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.988,
-					0.997,
+					2.249,
+					0.882,
 					0
 				}
 			},
@@ -563,8 +333,8 @@ pg.base.ship_skin_template_19 = {
 			},
 			antiaircraft = {
 				{
-					1.162,
-					1.158,
+					0.6,
+					2.326,
 					0
 				}
 			}
@@ -576,8 +346,8 @@ pg.base.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							-0.656,
-							2.436,
+							-0.346,
+							2.325,
 							0
 						}
 					}
@@ -585,15 +355,15 @@ pg.base.ship_skin_template_19 = {
 			}
 		}
 	},
-	[9600061] = {
-		name = "赤月下的「晚餐會」",
+	[9600101] = {
+		name = "精心準備的「驚喜」",
 		change_skin = "",
-		ship_group = 960006,
+		ship_group = 960010,
 		illustrator2 = -1,
-		desc = "主人……終於找到你了，為什麼要躲著我呢？快跟我來吧，晚餐已經準備好了，嗯？不想吃嗎？那可是……剛剛才處理的新鮮肉啊……欸欸？指揮官為什麼在後退！？",
+		desc = "指、指揮官？？你怎麼來得這麼快？現、現在這個狀況，不是我想要給你看的驚喜啊！",
 		group_index = 1,
-		id = 9600061,
-		painting = "jialimaoxian_2",
+		id = 9600101,
+		painting = "pucimaosi_2",
 		l2d_ignore_drag = 0,
 		hand_id = 1,
 		shop_type_id = 8,
@@ -610,12 +380,12 @@ pg.base.ship_skin_template_19 = {
 		skin_type = 0,
 		bg_sp = "",
 		voice_actor_2 = -1,
-		prefab = "jialimaoxian_2",
+		prefab = "pucimaosi_2",
 		l2d_se = "",
 		no_showing = "0",
 		main_UI_FX = "",
-		shop_id = 70924,
-		voice_actor = 387,
+		shop_id = 71065,
+		voice_actor = 431,
 		spine_offset = "",
 		illustrator = -1,
 		rarity_bg = "",
@@ -658,15 +428,15 @@ pg.base.ship_skin_template_19 = {
 		bound_bone = {
 			cannon = {
 				{
-					0.987,
-					1.001,
+					2.274,
+					0.764,
 					0
 				}
 			},
 			vicegun = {
 				{
-					0.996,
-					1.004,
+					2.276,
+					0.808,
 					0
 				}
 			},
@@ -679,8 +449,8 @@ pg.base.ship_skin_template_19 = {
 			},
 			antiaircraft = {
 				{
-					1.223,
-					1.195,
+					0.397,
+					2.421,
 					0
 				}
 			}
@@ -692,8 +462,238 @@ pg.base.ship_skin_template_19 = {
 					{
 						"smoke",
 						{
-							-0.603,
-							2.481,
+							-0.251,
+							2.434,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600110] = {
+		name = "海豚號",
+		change_skin = "",
+		ship_group = 960011,
+		illustrator2 = -1,
+		desc = "風帆船—海豚號",
+		group_index = 0,
+		id = 9600110,
+		painting = "haitunhao",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "haitunhao",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 432,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.793,
+					1.103,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.795,
+					1.119,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.001,
+					-0.047,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.586,
+					2.434,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.339,
+							2.42,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[9600111] = {
+		name = "復甦的魔咒",
+		change_skin = "",
+		ship_group = 960011,
+		illustrator2 = -1,
+		desc = "呼哈——是你喚醒了我嗎？……謝謝你，嘿嘿~啊！別怕別怕……雖然從棺材裡醒來確實蠻可怕的樣子……但是我真的不會傷害你的哦。",
+		group_index = 1,
+		id = 9600111,
+		painting = "haitunhao_2",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 8,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "177",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "haitunhao_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71066,
+		voice_actor = 432,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.522,
+					1.082,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.531,
+					1.078,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.539,
+					2.495,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.271,
+							2.467,
 							0
 						}
 					}
@@ -12791,6 +12791,113 @@ pg.base.ship_skin_template_19 = {
 						{
 							-0.264,
 							2.247,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[10900060] = {
+		name = "卡菈·伊迪亞斯",
+		change_skin = "",
+		ship_group = 1090006,
+		illustrator2 = -1,
+		desc = "嗯，將妾身召喚了出來，看來這裡存在著有趣的人類呢。妾身乃奏波氏族的首領卡菈·伊迪亞斯。應汝之願，妾身會暫時停留在這個世界。",
+		group_index = 0,
+		id = 10900060,
+		painting = "kala",
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "kala",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 350,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.321,
+					0.855,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.338,
+					1.131,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.079,
+							2.228,
 							0
 						}
 					}

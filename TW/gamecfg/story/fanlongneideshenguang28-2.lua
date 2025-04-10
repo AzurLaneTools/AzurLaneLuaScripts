@@ -45,7 +45,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FF9B93",
-			say = "（有些急促地机械轰鸣声）",
+			say = "（有些急促的机械轰鸣声）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

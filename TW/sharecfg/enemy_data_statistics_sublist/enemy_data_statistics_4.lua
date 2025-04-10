@@ -1,5 +1,28 @@
 pg = pg or {}
 pg.enemy_data_statistics_4 = {
+	[50098] = {
+		air_growth = 0,
+		name = "加農炮花",
+		armor_growth = 0,
+		cannon_growth = 4400,
+		torpedo_growth = 0,
+		fog_fx = "",
+		bubble_fx = "",
+		antiaircraft_growth = 4400,
+		reload_growth = 8850,
+		dodge_growth = 4400,
+		antisub_growth = 0,
+		base = 50091,
+		durability_growth = 4400,
+		luck_growth = 10000,
+		hit_growth = 8850,
+		id = 50098,
+		specific_fx_scale = {},
+		appear_fx = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
 	[50099] = {
 		air_growth = 0,
 		name = "加農炮花",
@@ -4057,155 +4080,6 @@ pg.enemy_data_statistics_4 = {
 		hp_bar = {
 			200,
 			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90122] = {
-		cannon = 9999,
-		name = "水雷",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 9999,
-		nationality = 98,
-		icon_type = 0,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 9999,
-		dodge_growth = 0,
-		icon = "Ztingdanchuan",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 500,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 10,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90122,
-		scale = 250,
-		prefab = "boom1",
-		cannon_growth = 0,
-		pilot_ai_template_id = 80007,
-		reload = 9999,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "",
-		bubble_fx = "",
-		hit = 9999,
-		fog_fx = "",
-		torpedo = 9999,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			4.1,
-			4.1,
-			8.6
-		},
-		cld_offset = {
-			0,
-			0,
-			-4.3
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				1,
-				{
-					{
-						"smoke",
-						{
-							0,
-							-10,
-							-38
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearsmall"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			200,
-			1.4
 		},
 		equipment_list = {},
 		random_equipment_list = {},
