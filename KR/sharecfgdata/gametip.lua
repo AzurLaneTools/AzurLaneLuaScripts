@@ -25795,7 +25795,7 @@ _G.pg.base.gametip.battlepass_main_help_2504 = {
 		{
 			info = [[
 ■ 이벤트 진행 기간
- 2025.4.8 0:00 ~ 2025.6.7 23:59
+ 2025.4.8(화) 0:00 ~ 2025.6.7(토) 23:59
 
 ■ 개요
 「월드 투어」란, 이벤트 진행 중에 임무를 클리어하고 「투어 PT」를 모아, 획득한 투어 PT 합계에 따라 보상을 얻을 수 있는 이벤트입니다. 
@@ -37203,6 +37203,195 @@ _G.pg.base.gametip.rps_game_take_card = {
 }
 
 
+_G.pg.base.gametip.SkinDiscountHelp_School = {
+	tip = {
+		{
+			info = "1. 이벤트 기간 중 <color=#92fc63>쿠폰을 사용하지 않고</color> 「학교 생활」 시리즈 스킨을 구매하거나, 스킨 패키지(학교 생활)를 구매하면, 이벤트 페이지에서 <color=#92fc63>스킨 쿠폰(학교 생활)</color>을 획득할 수 있습니다.\n2. <color=#92fc63>스킨 쿠폰(학교 생활)</color>을 사용하면 「학교 생활」 시리즈 스킨을 구매할 시에 다이아×300개가 할인됩니다. (특가 패키지 구매 시에는 사용 불가)\n3. 이벤트 종료 시 [2025년 4월 23일(수) 23:59:59], 사용하지 않은 <color=#92fc63>스킨 쿠폰(학교 생활)</color>은 제거됩니다."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Hint = {
+	tip = "수령하지 않은 스킨 쿠폰이 있습니다. 쿠폰 수령 페이지로 이동하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.SkinDiscount_Got = {
+	tip = "소지 중: $1"
+}
+
+
+_G.pg.base.gametip.skin_original_price = {
+	tip = "일반"
+}
+
+
+_G.pg.base.gametip.clue_title_1 = {
+	tip = "장소 정보"
+}
+
+
+_G.pg.base.gametip.clue_title_2 = {
+	tip = "캐릭터 정보"
+}
+
+
+_G.pg.base.gametip.clue_title_3 = {
+	tip = "중요한 정보"
+}
+
+
+_G.pg.base.gametip.clue_title_4 = {
+	tip = "스토리"
+}
+
+
+_G.pg.base.gametip.clue_task_goto = {
+	tip = "조사 시작"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip1 = {
+	tip = "캐릭터 정보 오픈"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip2 = {
+	tip = "$1 오픈"
+}
+
+
+_G.pg.base.gametip.clue_get = {
+	tip = "수령"
+}
+
+
+_G.pg.base.gametip.clue_got = {
+	tip = "수령 완료"
+}
+
+
+_G.pg.base.gametip.clue_unselect_tip = {
+	tip = "조사 공략에서 조사 목표 선택"
+}
+
+
+_G.pg.base.gametip.clue_close_tip = {
+	tip = "화면을 탭하여 돌아가기"
+}
+
+
+_G.pg.base.gametip.clue_pt_tip = {
+	tip = "합계 x"
+}
+
+
+_G.pg.base.gametip.clue_buff_research = {
+	tip = "조사 내용"
+}
+
+
+_G.pg.base.gametip.clue_buff_pt_boost = {
+	tip = "1개 추가할 때마다 Pt 획득 +5%"
+}
+
+
+_G.pg.base.gametip.clue_buff_stage_loot = {
+	tip = "클리어 보상"
+}
+
+
+_G.pg.base.gametip.clue_task_tip = {
+	tip = "(진척: $1회)"
+}
+
+
+_G.pg.base.gametip.clue_buff_reach_max = {
+	tip = "더 이상 조사 내용을 추가할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.clue_buff_unselect = {
+	tip = "- 조사 내용이 선택되지 않았습니다 -"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_1 = {
+	tip = "T1 입원동 (정오)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_2 = {
+	tip = "T2 요양 센터 (정오)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
+	tip = "T3 물류 센터 (정오)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
+	tip = "T4 연구센터 (정오)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_5 = {
+	tip = "T1 입원동 (황혼)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
+	tip = "T2 요양 센터 (황혼)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_7 = {
+	tip = "T3 물류 센터 (황혼)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
+	tip = "T4 연구센터 (황혼)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
+	tip = "T1 입원동 (밤)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
+	tip = "T2 요양 센터 (밤)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_11 = {
+	tip = "T3 물류 센터 (밤)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
+	tip = "T4 연구센터 (밤)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_13 = {
+	tip = "ESP 진료 센터"
+}
+
+
+_G.pg.base.gametip.clue_buff_ticket_tips = {
+	tip = "체크박스를 탭하면 「텐코 그룹 배지」를 사용하거나 보상을 추가로 획득 가능"
+}
+
+
+_G.pg.base.gametip.clue_buff_empty_ticket = {
+	tip = "「텐코 그룹 배지」는 한정 임무에서 획득할 수 있습니다."
+}
+
+
 _G.pg.base.gametip.SuperBulin2_tip1 = {
 	tip = "창고에서 암호를 찾아라 burin!"
 }
@@ -37264,28 +37453,4 @@ _G.pg.base.gametip.SuperBulin2_help = {
 
 _G.pg.base.gametip.SuperBulin2_lock_tip = {
 	tip = "단서 수집 완성 후 특별 스테이지 해제 가능~"
-}
-
-
-_G.pg.base.gametip.SkinDiscountHelp_School = {
-	tip = {
-		{
-			info = "1. 이벤트 기간 중 <color=#92fc63>쿠폰을 사용하지 않고</color> 「학교 생활」 시리즈 스킨을 구매하거나, 스킨 패키지(학교 생활)를 구매하면, 이벤트 페이지에서 <color=#92fc63>스킨 쿠폰(학교 생활)</color>을 획득할 수 있습니다.\n2. <color=#92fc63>스킨 쿠폰(학교 생활)</color>을 사용하면 「학교 생활」 시리즈 스킨을 구매할 시에 다이아×300개가 할인됩니다. (특가 패키지 구매 시에는 사용 불가)\n3. 이벤트 종료 시 [2025년 4월 23일(수) 23:59:59], 사용하지 않은 <color=#92fc63>스킨 쿠폰(학교 생활)</color>은 제거됩니다."
-		}
-	}
-}
-
-
-_G.pg.base.gametip.SkinDiscount_Hint = {
-	tip = "수령하지 않은 스킨 쿠폰이 있습니다. 쿠폰 수령 페이지로 이동하시겠습니까?"
-}
-
-
-_G.pg.base.gametip.SkinDiscount_Got = {
-	tip = "소지 중: $1"
-}
-
-
-_G.pg.base.gametip.skin_original_price = {
-	tip = "일반"
 }

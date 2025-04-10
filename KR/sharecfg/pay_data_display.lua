@@ -148,6 +148,9 @@ pg.pay_data_display = setmetatable({
 		2042,
 		2043,
 		2044,
+		2045,
+		2046,
+		2047,
 		5011,
 		5012,
 		5013,
@@ -13762,6 +13765,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40056,
+				1
+			}
+		}
+	},
+	[2045] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·유전자의 기원",
+		first_pay_double = 0,
+		name_display = "전투 UI·유전자의 기원",
+		descrip = "전투 UI 테마·유전자의 기원을 획득할 수 있습니다.",
+		subject = "전투 UI·유전자의 기원",
+		money = 15000,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift139",
+		extra_service = 3,
+		id = 2045,
+		airijp_id = "com.yostarjp.azurlane.ui9",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2046] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·유전자의 기원 (기초)",
+		first_pay_double = 0,
+		name_display = "전투 UI·유전자의 기원 (기초)",
+		descrip = "전투 UI 테마·유전자의 기원을 획득할 수 있습니다.",
+		subject = "전투 UI·유전자의 기원 (기초)",
+		money = 15000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift139",
+		extra_service = 3,
+		id = 2046,
+		airijp_id = "com.yostarjp.azurlane.ui10",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40057,
+				1
+			}
+		}
+	},
+	[2047] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·유전자의 기원 (럭셔리)",
+		first_pay_double = 0,
+		name_display = "전투 UI·유전자의 기원 (럭셔리)",
+		descrip = "전투 UI·유전자의 기원, 다이아 3,060개를 획득할 수 있습니다.",
+		subject = "전투 UI·유전자의 기원 (럭셔리)",
+		money = 52000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "&&alkrgift140",
+		extra_service = 3,
+		id = 2047,
+		airijp_id = "com.yostarjp.azurlane.ui11",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40058,
 				1
 			}
 		}

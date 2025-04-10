@@ -26255,6 +26255,131 @@ _G.pg.base.item_data_statistics[30365] = {
 }
 
 
+_G.pg.base.item_data_statistics[30366] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (병원)",
+	type = 11,
+	display = "랜덤으로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbingyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30366",
+	id = 30366,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -27634,7 +27759,7 @@ _G.pg.base.item_data_statistics[30426] = {
 
 _G.pg.base.item_data_statistics[30427] = {
 	open_directly = 1,
-	name = "장비 스킨 상자(월드 투어)",
+	name = "랜덤 장비 스킨 상자(월드 투어)",
 	type = 11,
 	display = "크루즈 보상 장비 스킨을 무작위로 하나 획득 가능",
 	other_resource_cost = "[]",
@@ -38517,6 +38642,219 @@ _G.pg.base.item_data_statistics[30552] = {
 }
 
 
+_G.pg.base.item_data_statistics[30553] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자 (병원)",
+	type = 13,
+	display = "사용하면 장비 스킨(병원) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbingyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30553,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -41917,7 +42255,7 @@ _G.pg.base.item_data_statistics[40056] = {
 
 _G.pg.base.item_data_statistics[40057] = {
 	open_directly = 1,
-	name = "전투 UI·유전자의 기원(기초)",
+	name = "전투 UI·유전자의 기원 (기초)",
 	type = 17,
 	display = "구매하면 전투 UI 테마·유전자의 기원 획득 가능",
 	other_resource_cost = "[]",
@@ -41954,7 +42292,7 @@ _G.pg.base.item_data_statistics[40057] = {
 
 _G.pg.base.item_data_statistics[40058] = {
 	open_directly = 1,
-	name = "전투 UI·유전자의 기원(럭셔리)",
+	name = "전투 UI·유전자의 기원 (럭셔리)",
 	type = 17,
 	display = "구매하면 전투 UI 테마·유전자의 기원, 다이아×3060 획득 가능",
 	other_resource_cost = "[]",

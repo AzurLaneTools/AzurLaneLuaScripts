@@ -568,31 +568,33 @@ slot0.GetPluralStatus = function(slot0, slot1)
 end
 
 slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot7 = function()
+	slot7 = {}
+
+	if not slot0.pools_plural[slot2 == "" and slot1 or slot1 .. "|" .. slot2] then
+		table.insert(slot7, function (slot0)
+			uv0:LoadAsset(uv1, uv2, typeof(Object), uv3, function (slot0)
+				if slot0 == nil then
+					Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
+
+					return
+				end
+
+				if not uv2.pools_plural[uv3] then
+					uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
+				end
+
+				uv6()
+			end, true)
+		end)
+	end
+
+	seriesAsync(slot7, function ()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1
 
 		uv2(slot0:Dequeue())
-	end
-
-	if not slot0.pools_plural[slot2 == "" and slot1 or slot1 .. "|" .. slot2] then
-		slot0:LoadAsset(slot1, slot2, typeof(Object), slot3, function (slot0)
-			if slot0 == nil then
-				Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
-
-				return
-			end
-
-			if not uv2.pools_plural[uv3] then
-				uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
-			end
-
-			uv6()
-		end, true)
-	else
-		slot7()
-	end
+	end)
 end
 
 slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)

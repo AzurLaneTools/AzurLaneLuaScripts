@@ -17,7 +17,7 @@ slot1.OnTotalChange = function(slot0, slot1)
 		slot0:OnUnSelect()
 	else
 		if slot0._progressInfo:GetTotal() == slot0._progressInfo:GetCount() then
-			SetActive(slot0._filled:Find("gizmos/animroot"))
+			SetActive(slot0._filled:Find("gizmos"))
 		end
 
 		slot0:OnCountChange()
@@ -32,7 +32,7 @@ end
 slot1.ConfigSkin = function(slot0, slot1)
 	uv0.super.ConfigSkin(slot0, slot1)
 
-	slot0._glowEff = slot0._filled:Find("gizmos/animroot")
+	slot0._glowEff = slot0._filled:Find("gizmos")
 end
 
 slot1.OnCountChange = function(slot0)

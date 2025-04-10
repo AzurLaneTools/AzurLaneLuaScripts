@@ -764,6 +764,40 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/entertainmentarea"
 		}
 	},
+	[322] = {
+		rarity = 4,
+		name = "은하수 유람선",
+		type = 4,
+		room_id = 3,
+		desc = "곡선을 활용한 디자인과 오션블루 컬러의 조합,\n밤하늘에 뜬 푹신한 침대로 당신을 낭만이 넘치는 모험의 꿈나라로 이끌어 준다.",
+		is_exclusive = 1,
+		model = "Pay_Anchoragehostel/pre_db_ah_bedroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_ankeleiqi_PremiumFurniture2",
+		acesses = "",
+		id = 322,
+		target_slots = {
+			130103
+		},
+		touch_id = {
+			{
+				19903,
+				1990350
+			}
+		},
+		shop_id = {
+			270302
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture322"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/bedroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -799,7 +833,8 @@ pg.dorm3d_furniture_template = {
 			305,
 			306,
 			307,
-			321
+			321,
+			322
 		}
 	},
 	all = {
@@ -832,6 +867,7 @@ pg.dorm3d_furniture_template = {
 		305,
 		306,
 		307,
-		321
+		321,
+		322
 	}
 }

@@ -1514,27 +1514,17 @@ pg.login = {
 	},
 	[63] = {
 		op_play = 1,
-		op_time = "stop",
 		date = "stop",
 		id = 63,
 		login_static = "login_0227",
 		login_cri = "",
-		bgm = ""
-	},
-	[65] = {
-		op_play = 0,
-		op_time = "",
-		id = 65,
-		login_static = "login_0401",
-		login_cri = "",
-		bgm = "Story-richang-light",
-		date = {
-			"timer",
+		bgm = "",
+		op_time = {
 			{
 				{
 					2025,
-					4,
-					1
+					3,
+					27
 				},
 				{
 					0,
@@ -1546,7 +1536,67 @@ pg.login = {
 				{
 					2025,
 					4,
-					1
+					10
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[66] = {
+		op_play = 1,
+		id = 66,
+		login_static = "login",
+		login_cri = "",
+		bgm = "",
+		date = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		op_time = {
+			{
+				{
+					2025,
+					4,
+					10
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					24
 				},
 				{
 					23,
@@ -1703,7 +1753,7 @@ pg.login = {
 		61,
 		62,
 		63,
-		65,
+		66,
 		3001,
 		3002
 	}

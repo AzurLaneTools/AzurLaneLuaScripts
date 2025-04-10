@@ -86693,6 +86693,598 @@ _G.pg.base.aircraft_template[167570] = {
 }
 
 
+_G.pg.base.aircraft_template[167591] = {
+	name = "富兰克林技能轰炸机Lv1",
+	max_hp = 35,
+	accuracy = 23,
+	model_ID = "sbdwuwei",
+	ACC_growth = 0,
+	crash_DMG = 156,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sbdwuwei",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1183,
+	speed = 46,
+	id = 167591,
+	scale = 1,
+	weapon_ID = {
+		167601,
+		167611
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.72,
+			-0.15,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[167592] = {
+	max_hp = 39,
+	name = "富兰克林技能轰炸机Lv2",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167592,
+	hp_growth = 1345,
+	weapon_ID = {
+		167602,
+		167612
+	}
+}
+
+
+_G.pg.base.aircraft_template[167593] = {
+	max_hp = 43,
+	name = "富兰克林技能轰炸机Lv3",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167593,
+	hp_growth = 1507,
+	weapon_ID = {
+		167603,
+		167613
+	}
+}
+
+
+_G.pg.base.aircraft_template[167594] = {
+	max_hp = 47,
+	name = "富兰克林技能轰炸机Lv4",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167594,
+	hp_growth = 1669,
+	weapon_ID = {
+		167604,
+		167614
+	}
+}
+
+
+_G.pg.base.aircraft_template[167595] = {
+	max_hp = 51,
+	name = "富兰克林技能轰炸机Lv5",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167595,
+	hp_growth = 1831,
+	weapon_ID = {
+		167605,
+		167615
+	}
+}
+
+
+_G.pg.base.aircraft_template[167596] = {
+	max_hp = 55,
+	name = "富兰克林技能轰炸机Lv6",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167596,
+	hp_growth = 1994,
+	weapon_ID = {
+		167606,
+		167616
+	}
+}
+
+
+_G.pg.base.aircraft_template[167597] = {
+	max_hp = 59,
+	name = "富兰克林技能轰炸机Lv7",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167597,
+	hp_growth = 2157,
+	weapon_ID = {
+		167607,
+		167617
+	}
+}
+
+
+_G.pg.base.aircraft_template[167598] = {
+	max_hp = 63,
+	name = "富兰克林技能轰炸机Lv8",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167598,
+	hp_growth = 2320,
+	weapon_ID = {
+		167608,
+		167618
+	}
+}
+
+
+_G.pg.base.aircraft_template[167599] = {
+	max_hp = 68,
+	name = "富兰克林技能轰炸机Lv9",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167599,
+	hp_growth = 2483,
+	weapon_ID = {
+		167609,
+		167619
+	}
+}
+
+
+_G.pg.base.aircraft_template[167600] = {
+	max_hp = 73,
+	name = "富兰克林技能轰炸机Lv10",
+	spawn_brownian = 1,
+	base = 167591,
+	id = 167600,
+	hp_growth = 2646,
+	weapon_ID = {
+		167610,
+		167620
+	}
+}
+
+
+_G.pg.base.aircraft_template[167621] = {
+	name = "富兰克林技能鱼雷机Lv1",
+	max_hp = 37,
+	accuracy = 23,
+	model_ID = "tbf",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "tbf",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1404,
+	speed = 48,
+	id = 167621,
+	scale = 1,
+	weapon_ID = {
+		167631
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.15,
+			-0.08,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[167622] = {
+	max_hp = 42,
+	name = "富兰克林技能鱼雷机Lv2",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167622,
+	hp_growth = 1615,
+	weapon_ID = {
+		167632
+	}
+}
+
+
+_G.pg.base.aircraft_template[167623] = {
+	max_hp = 47,
+	name = "富兰克林技能鱼雷机Lv3",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167623,
+	hp_growth = 1826,
+	weapon_ID = {
+		167633
+	}
+}
+
+
+_G.pg.base.aircraft_template[167624] = {
+	max_hp = 53,
+	name = "富兰克林技能鱼雷机Lv4",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167624,
+	hp_growth = 2036,
+	weapon_ID = {
+		167634
+	}
+}
+
+
+_G.pg.base.aircraft_template[167625] = {
+	max_hp = 58,
+	name = "富兰克林技能鱼雷机Lv5",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167625,
+	hp_growth = 2247,
+	weapon_ID = {
+		167635
+	}
+}
+
+
+_G.pg.base.aircraft_template[167626] = {
+	max_hp = 64,
+	name = "富兰克林技能鱼雷机Lv6",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167626,
+	hp_growth = 2458,
+	weapon_ID = {
+		167636
+	}
+}
+
+
+_G.pg.base.aircraft_template[167627] = {
+	max_hp = 69,
+	name = "富兰克林技能鱼雷机Lv7",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167627,
+	hp_growth = 2669,
+	weapon_ID = {
+		167637
+	}
+}
+
+
+_G.pg.base.aircraft_template[167628] = {
+	max_hp = 75,
+	name = "富兰克林技能鱼雷机Lv8",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167628,
+	hp_growth = 2879,
+	weapon_ID = {
+		167638
+	}
+}
+
+
+_G.pg.base.aircraft_template[167629] = {
+	max_hp = 80,
+	name = "富兰克林技能鱼雷机Lv9",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167629,
+	hp_growth = 3090,
+	weapon_ID = {
+		167639
+	}
+}
+
+
+_G.pg.base.aircraft_template[167630] = {
+	max_hp = 86,
+	name = "富兰克林技能鱼雷机Lv10",
+	spawn_brownian = 1,
+	base = 167621,
+	id = 167630,
+	hp_growth = 3301,
+	weapon_ID = {
+		167640
+	}
+}
+
+
+_G.pg.base.aircraft_template[167641] = {
+	name = "富兰克林强化技能鱼雷机Lv1",
+	max_hp = 37,
+	accuracy = 23,
+	model_ID = "tbf",
+	ACC_growth = 0,
+	crash_DMG = 406,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "tbf",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 1,
+	hp_growth = 1404,
+	speed = 48,
+	id = 167641,
+	scale = 1,
+	weapon_ID = {
+		167631
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.15,
+			-0.08,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[167642] = {
+	max_hp = 42,
+	name = "富兰克林强化技能鱼雷机Lv2",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167642,
+	hp_growth = 1615,
+	weapon_ID = {
+		167632
+	}
+}
+
+
+_G.pg.base.aircraft_template[167643] = {
+	max_hp = 47,
+	name = "富兰克林强化技能鱼雷机Lv3",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167643,
+	hp_growth = 1826,
+	weapon_ID = {
+		167633
+	}
+}
+
+
+_G.pg.base.aircraft_template[167644] = {
+	max_hp = 53,
+	name = "富兰克林强化技能鱼雷机Lv4",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167644,
+	hp_growth = 2036,
+	weapon_ID = {
+		167634
+	}
+}
+
+
+_G.pg.base.aircraft_template[167645] = {
+	max_hp = 58,
+	name = "富兰克林强化技能鱼雷机Lv5",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167645,
+	hp_growth = 2247,
+	weapon_ID = {
+		167635
+	}
+}
+
+
+_G.pg.base.aircraft_template[167646] = {
+	max_hp = 64,
+	name = "富兰克林强化技能鱼雷机Lv6",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167646,
+	hp_growth = 2458,
+	weapon_ID = {
+		167636
+	}
+}
+
+
+_G.pg.base.aircraft_template[167647] = {
+	max_hp = 69,
+	name = "富兰克林强化技能鱼雷机Lv7",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167647,
+	hp_growth = 2669,
+	weapon_ID = {
+		167637
+	}
+}
+
+
+_G.pg.base.aircraft_template[167648] = {
+	max_hp = 75,
+	name = "富兰克林强化技能鱼雷机Lv8",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167648,
+	hp_growth = 2879,
+	weapon_ID = {
+		167638
+	}
+}
+
+
+_G.pg.base.aircraft_template[167649] = {
+	max_hp = 80,
+	name = "富兰克林强化技能鱼雷机Lv9",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167649,
+	hp_growth = 3090,
+	weapon_ID = {
+		167639
+	}
+}
+
+
+_G.pg.base.aircraft_template[167650] = {
+	max_hp = 86,
+	name = "富兰克林强化技能鱼雷机Lv10",
+	spawn_brownian = 1,
+	base = 167641,
+	id = 167650,
+	hp_growth = 3301,
+	weapon_ID = {
+		167640
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,
@@ -270145,6 +270737,1287 @@ _G.pg.base.aircraft_template[3246202] = {
 			0,
 			0
 		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252101] = {
+	name = "【2025医院活动T3】BOSS 赤城 轰炸机 Lv1",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3252101,
+	scale = 0.75,
+	weapon_ID = {
+		3252141
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252102] = {
+	name = "【2025医院活动T3】BOSS 赤城 轰炸机 Lv2",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3252102,
+	scale = 0.75,
+	weapon_ID = {
+		3252142
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252103] = {
+	name = "【2025医院活动T3】BOSS 赤城 轰炸机 Lv3",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3252103,
+	scale = 0.75,
+	weapon_ID = {
+		3252143
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252111] = {
+	name = "【2025医院活动T3】BOSS 赤城 鱼雷机 Lv1",
+	max_hp = 99,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 30,
+	id = 3252111,
+	scale = 0.75,
+	weapon_ID = {
+		3252151
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252112] = {
+	name = "【2025医院活动T3】BOSS 赤城 鱼雷机 Lv2",
+	max_hp = 99,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 30,
+	id = 3252112,
+	scale = 0.75,
+	weapon_ID = {
+		3252152
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252113] = {
+	name = "【2025医院活动T3】BOSS 赤城 鱼雷机 Lv3",
+	max_hp = 99,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 30,
+	id = 3252113,
+	scale = 0.75,
+	weapon_ID = {
+		3252153
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252121] = {
+	name = "【2025医院活动T3】BOSS 赤城 战斗机 Lv1",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3252121,
+	scale = 0.75,
+	weapon_ID = {
+		3252161
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252122] = {
+	name = "【2025医院活动T3】BOSS 赤城 战斗机 Lv2",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3252122,
+	scale = 0.75,
+	weapon_ID = {
+		3252162
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252123] = {
+	name = "【2025医院活动T3】BOSS 赤城 战斗机 Lv3",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3252123,
+	scale = 0.75,
+	weapon_ID = {
+		3252163
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252131] = {
+	name = "【2025医院活动T3】BOSS 赤城 地毯式轰炸机 Lv1",
+	max_hp = 99,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 30,
+	id = 3252131,
+	scale = 0.75,
+	weapon_ID = {
+		3252171
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252132] = {
+	name = "【2025医院活动T3】BOSS 赤城 地毯式轰炸机 Lv2",
+	max_hp = 99,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 30,
+	id = 3252132,
+	scale = 0.75,
+	weapon_ID = {
+		3252172
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3252133] = {
+	name = "【2025医院活动T3】BOSS 赤城 地毯式轰炸机 Lv3",
+	max_hp = 99,
+	accuracy = 23,
+	model_ID = "shishenfeiji_1",
+	ACC_growth = 0,
+	crash_DMG = 72,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feilong_01",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2380,
+	speed = 30,
+	id = 3252133,
+	scale = 0.75,
+	weapon_ID = {
+		3252173
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3254001] = {
+	name = "【2025医院活动ESP】BOSS 富兰克林&鹰 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "feiji_feitianjiuyuanche",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_feitianjiuyuanche",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3254001,
+	scale = 0.75,
+	weapon_ID = {
+		3254003
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3254002] = {
+	name = "【2025医院活动ESP】BOSS 富兰克林&鹰 轰炸机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "feiji_lunyijiu",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_lunyijiu",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3254002,
+	scale = 0.75,
+	weapon_ID = {
+		3254004
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3254101] = {
+	name = "【2025医院活动ESP】BOSS 哈尔福德 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "feiji_ghost2",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_ghost2",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3254101,
+	scale = 0.75,
+	weapon_ID = {
+		3254102,
+		3254103
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258065] = {
+	name = "【2025医院活动】航母蛋船轰炸机 Lv1",
+	model_ID = "feiji_ghost2",
+	base = 1001066,
+	id = 3258065,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001076
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258066] = {
+	name = "【2025医院活动】航母蛋船轰炸机 Lv2",
+	model_ID = "feiji_ghost2",
+	base = 1001067,
+	id = 3258066,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001077
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258067] = {
+	name = "【2025医院活动】航母蛋船轰炸机 Lv3",
+	model_ID = "feiji_ghost2",
+	base = 1001068,
+	id = 3258067,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001078
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258068] = {
+	name = "【2025医院活动】航母蛋船轰炸机 Lv4",
+	model_ID = "feiji_ghost2",
+	base = 1001069,
+	id = 3258068,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001079
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258069] = {
+	name = "【2025医院活动】航母蛋船轰炸机 Lv5",
+	model_ID = "feiji_ghost2",
+	base = 1001070,
+	id = 3258069,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001080
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258070] = {
+	name = "【2025医院活动】航母蛋船战斗机 Lv1",
+	model_ID = "feiji_ghost2",
+	base = 1001071,
+	id = 3258070,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001081,
+		1001086
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258071] = {
+	name = "【2025医院活动】航母蛋船战斗机 Lv2",
+	model_ID = "feiji_ghost2",
+	base = 1001072,
+	id = 3258071,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001082,
+		1001087
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258072] = {
+	name = "【2025医院活动】航母蛋船战斗机 Lv3",
+	model_ID = "feiji_ghost2",
+	base = 1001073,
+	id = 3258072,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001083,
+		1001088
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258073] = {
+	name = "【2025医院活动】航母蛋船战斗机 Lv4",
+	model_ID = "feiji_ghost2",
+	base = 1001074,
+	id = 3258073,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001084,
+		1001089
+	}
+}
+
+
+_G.pg.base.aircraft_template[3258074] = {
+	name = "【2025医院活动】航母蛋船战斗机 Lv5",
+	model_ID = "feiji_ghost2",
+	base = 1001075,
+	id = 3258074,
+	icon = "feiji_ghost2",
+	weapon_ID = {
+		1001085,
+		1001090
 	}
 }
 

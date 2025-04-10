@@ -7362,6 +7362,101 @@ pg.dorm3d_dialogue_group = {
 			1
 		}
 	},
+	[30218] = {
+		reward = 0,
+		room_id = 3,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH3001",
+		char_id = 19903,
+		extend_loading = 0,
+		id = 30218,
+		action_type = "sit",
+		unlock = {
+			1,
+			19903,
+			1
+		}
+	},
+	[30219] = {
+		reward = 0,
+		room_id = 3,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH3002",
+		char_id = 19903,
+		extend_loading = 0,
+		id = 30219,
+		action_type = "sit",
+		unlock = {
+			1,
+			19903,
+			1
+		}
+	},
+	[30220] = {
+		reward = 0,
+		room_id = 3,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH3005",
+		char_id = 19903,
+		extend_loading = 0,
+		id = 30220,
+		action_type = "sit",
+		unlock = {
+			1,
+			19903,
+			1
+		}
+	},
+	[30221] = {
+		reward = 0,
+		room_id = 3,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH3004",
+		char_id = 19903,
+		extend_loading = 0,
+		id = 30221,
+		action_type = "sit",
+		unlock = {
+			1,
+			19903,
+			1
+		}
+	},
+	[30222] = {
+		reward = 0,
+		room_id = 3,
+		trigger_area = "",
+		type = 500,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DTOUCH3006",
+		char_id = 19903,
+		extend_loading = 0,
+		id = 30222,
+		action_type = "sit",
+		unlock = {
+			1,
+			19903,
+			1
+		}
+	},
 	[30510] = {
 		reward = 0,
 		room_id = 3,
@@ -7911,6 +8006,11 @@ pg.dorm3d_dialogue_group = {
 			30215,
 			30216,
 			30217,
+			30218,
+			30219,
+			30220,
+			30221,
+			30222,
 			30510,
 			30511,
 			30520,
@@ -8289,6 +8389,11 @@ pg.dorm3d_dialogue_group = {
 			30215,
 			30216,
 			30217,
+			30218,
+			30219,
+			30220,
+			30221,
+			30222,
 			30510,
 			30511,
 			30520,
@@ -8710,6 +8815,11 @@ pg.dorm3d_dialogue_group = {
 		30215,
 		30216,
 		30217,
+		30218,
+		30219,
+		30220,
+		30221,
+		30222,
 		30510,
 		30511,
 		30520,

@@ -1,384 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
-	[403092] = {
-		name = "세이프티 래빗",
-		change_skin = "",
-		bg_sp = "",
-		desc = "(삐익) 거기, 조심해! 지휘관도 수영장 들어가기 전엔 꼭 준비 운동 하고 들어가! 적당히 넘어가려고 하면 화낼 거야!",
-		illustrator2 = -1,
-		ship_group = 40309,
-		group_index = 2,
-		painting = "haiyinlixi_2",
-		prefab = "haiyinlixi_2",
-		hand_id = 1,
-		shop_type_id = 6,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "164",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 403092,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70784,
-		voice_actor = 255,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			50,
-			-195,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.52,
-					1.1,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.52,
-					1.003,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.38,
-					1.41,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.507,
-							2.567,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-25,
-				25
-			},
-			ParamAngleY = {
-				-25,
-				25
-			},
-			ParamEyeBallX = {
-				-0.5,
-				0.5
-			},
-			ParamEyeBallY = {
-				-0.5,
-				0.5
-			}
-		}
-	},
-	[403093] = {
-		name = "어두운 곳의 히든 보스?",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "난 어두운 곳에서 모항의 학원을 지휘하는 히든 보스야. 그러니까 지휘관도 내 말을 따라야 해! 물론 지휘관 보호도 내가 할 거야! 하하하♪",
-		illustrator2 = -1,
-		ship_group = 40309,
-		group_index = 3,
-		painting = "haiyinlixi_5",
-		prefab = "haiyinlixi_5",
-		hand_id = 1,
-		shop_type_id = 4,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "147",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 403093,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70830,
-		voice_actor = 255,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.52,
-					1.1,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.52,
-					1.003,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.38,
-					1.41,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.507,
-							2.567,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[403094] = {
-		name = "하인리히 온스테이지",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "자! 그럼 하인리히가 한 곡 부를게! 재즈 스타일에 어른스러운 분위기가 물씬 풍기는 미스 하인리히, 좀 두근거렸어? 아하핫!",
-		illustrator2 = -1,
-		ship_group = 40309,
-		group_index = 4,
-		painting = "haiyinlixi_4",
-		prefab = "haiyinlixi_4",
-		hand_id = 1,
-		shop_type_id = 7,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "159",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = "",
-		skin_type = 0,
-		id = 403094,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70857,
-		voice_actor = 255,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.52,
-					1.1,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.52,
-					1.003,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.38,
-					1.41,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.507,
-							2.567,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[403100] = {
 		name = "프린츠 아달베르트",
 		change_skin = "",
@@ -13414,6 +13036,477 @@ pg.base.ship_skin_template_12 = {
 						{
 							-0.307,
 							2.404,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[501040] = {
+		name = "타이위안 ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "안샨급 구축함 - 타이위안 ",
+		illustrator2 = -1,
+		ship_group = 50104,
+		group_index = 0,
+		painting = "taiyuan",
+		prefab = "taiyuan",
+		hand_id = 15,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 501040,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.98,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.93,
+					0.95,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.94,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[501041] = {
+		name = "봄을 깨우는 검은 거북이 ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "\"안샨급 모두를 대신해 지휘관님, 그리고 모항의 여러분께 축하 말씀 드립……\" …아으, 직접 만든 옷인데도, 여, 역시 부끄럽네요… 어, 어울리나요? 가, 감사합니다…… ",
+		illustrator2 = -1,
+		ship_group = 50104,
+		group_index = 1,
+		painting = "taiyuan_2",
+		prefab = "taiyuan_2",
+		hand_id = 15,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "102",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 501041,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70148,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.98,
+					0.92,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.93,
+					0.95,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.18,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.94,
+					0.95,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.38,
+							2.35,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_special",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			propose = 2.5
+		}
+	},
+	[501049] = {
+		name = "타이위안·改",
+		change_skin = "",
+		bg_sp = "",
+		desc = "……휴우. 타이위안, 개조 완료했습니다. 격려해 주셔서 감사드립니다. 새로운 장비 덕분에 언니들을 더 잘 따라갈 수 있을 것 같아요.",
+		illustrator2 = -1,
+		ship_group = 50104,
+		group_index = 9,
+		painting = "taiyuan_g",
+		prefab = "taiyuan_g",
+		hand_id = 15,
+		shop_type_id = 9997,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 501049,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 149,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.491,
+					0.721,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.469,
+					0.64,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.486,
+					3.24,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.09,
+							2.404,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[501050] = {
+		name = "롱우",
+		change_skin = "",
+		bg_sp = "",
+		desc = "불칸 슈테틴 1000톤급 뇌장 구축함—롱우",
+		illustrator2 = -1,
+		ship_group = 50105,
+		group_index = 0,
+		painting = "longwu",
+		prefab = "longwu",
+		hand_id = 10,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 501050,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 396,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.02,
+					1.52,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.98,
+					1.17,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					2.03,
+					1.48,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.13,
+							2.28,
 							0
 						}
 					}

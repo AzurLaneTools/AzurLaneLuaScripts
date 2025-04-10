@@ -1,6 +1,247 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[203080] = {
+		name = "엑세터",
+		change_skin = "",
+		bg_sp = "",
+		desc = "요크급 중순양함·엑세터 (HMS Exeter)",
+		illustrator2 = -1,
+		ship_group = 20308,
+		group_index = 0,
+		painting = "aikesaite",
+		prefab = "aikesaite",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 203080,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 8,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.212,
+					0.847,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.082,
+					0.144,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.5,
+					0.281,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.082,
+					0.144,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.556,
+							0.649,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.644,
+							0.505,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203081] = {
+		name = "영광은 건배와 함께",
+		change_skin = "",
+		bg_sp = "1101",
+		desc = "지휘관님, 건배해요. 오늘 파티는 이전보다 더 시끌벅적하네요. 로열의 영광에 먹칠하지 않기 위해서, 저 자신의 일거수일투족을 주의하겠습니다.",
+		illustrator2 = -1,
+		ship_group = 20308,
+		group_index = 1,
+		painting = "aikesaite_2",
+		prefab = "aikesaite_2",
+		hand_id = 1,
+		shop_type_id = 7,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "146",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 203081,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70605,
+		voice_actor = 8,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.963,
+					1.036,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.93,
+					0.948,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.62,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203089] = {
 		name = "엑세터·改",
 		change_skin = "",
@@ -13869,136 +14110,6 @@ pg.base.ship_skin_template_6 = {
 						}
 					}
 				}
-			}
-		}
-	},
-	[207062] = {
-		name = "시원한 밤의 향설",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "듣기로 타 진영에도 입기 힘든 전통 복장이 존재한다고 하지만, 이스트 글림의 이 의복은 뭔가 좀 더... !? 지휘관님? 제, 제발 보지 마세요!",
-		illustrator2 = -1,
-		ship_group = 20706,
-		group_index = 2,
-		painting = "guangrong_3",
-		prefab = "guangrong_3",
-		hand_id = 1,
-		shop_type_id = 3,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "144",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 207062,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70490,
-		voice_actor = 113,
-		spine_offset = "",
-		illustrator = 39,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.003,
-					0.995,
-					0
-				}
-			},
-			plane = {
-				{
-					0.991,
-					0.996,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.494,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			touch2 = 2.33,
-			main_1 = 0.5,
-			login = 2.87,
-			home = 2,
-			mission = 0.33
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-15,
-				15
-			},
-			ParamBodyAngleX = {
-				-15,
-				15
 			}
 		}
 	}

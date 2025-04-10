@@ -187,6 +187,17 @@ pg.battle_cost_template = {
 		id = 16,
 		oil_cost = 1
 	},
+	{
+		end_sink_cost = 1,
+		user_exp_award = 1,
+		attack_count = 1,
+		enter_energy_cost = 1,
+		global_buff_effected = 0,
+		ship_exp_award = 1,
+		cat_exp_award = 1,
+		id = 17,
+		oil_cost = 1
+	},
 	[50] = {
 		end_sink_cost = 0,
 		user_exp_award = 0,
@@ -315,6 +326,7 @@ pg.battle_cost_template = {
 		14,
 		15,
 		16,
+		17,
 		50,
 		51,
 		93,

@@ -288,6 +288,102 @@ pg.activity_medal_template = {
 		id = 581208,
 		medal_asset = "ActivityMedal/581208"
 	},
+	[587501] = {
+		activity_medal_desc = "밸리 병원이란…… (중략)",
+		next_medal = 0,
+		item = 65571,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "1",
+		task_id = 21651,
+		activity_medal_name = "스티커: 밸리 병원",
+		id = 587501,
+		medal_asset = "ActivityMedal/587501"
+	},
+	[587502] = {
+		activity_medal_desc = "세상에서 가장 날카로운 펀치야. 한 번 맞아볼래?",
+		next_medal = 0,
+		item = 65572,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "2",
+		task_id = 21652,
+		activity_medal_name = "스티커: 고양이 펀치!",
+		id = 587502,
+		medal_asset = "ActivityMedal/587502"
+	},
+	[587503] = {
+		activity_medal_desc = "수상한 알약. 병에 걸린 사람만 사용 가능.",
+		next_medal = 0,
+		item = 65573,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "3",
+		task_id = 21653,
+		activity_medal_name = "스티커: 수상한 알약",
+		id = 587503,
+		medal_asset = "ActivityMedal/587503"
+	},
+	[587504] = {
+		activity_medal_desc = "밸리 병원의 비밀을 알고 싶어?",
+		next_medal = 0,
+		item = 65574,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "4",
+		task_id = 21654,
+		activity_medal_name = "스티커: 병원의 비밀",
+		id = 587504,
+		medal_asset = "ActivityMedal/587504"
+	},
+	[587505] = {
+		activity_medal_desc = "과연 당신은 이 장식의 무게를 감당할 수 있을까?",
+		next_medal = 0,
+		item = 65575,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "5",
+		task_id = 21655,
+		activity_medal_name = "스티커: 여우의 머리 장식",
+		id = 587505,
+		medal_asset = "ActivityMedal/587505"
+	},
+	[587506] = {
+		activity_medal_desc = "얽힌 정보에서 사건의 진상을 캐낼 수 있을까?",
+		next_medal = 0,
+		item = 65576,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "6",
+		task_id = 21656,
+		activity_medal_name = "스티커: 단서",
+		id = 587506,
+		medal_asset = "ActivityMedal/587506"
+	},
+	[587507] = {
+		activity_medal_desc = "잠깐 따끔~ 할 거예요.",
+		next_medal = 0,
+		item = 65577,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "7",
+		task_id = 21657,
+		activity_medal_name = "스티커: 주사 맞을 시간",
+		id = 587507,
+		medal_asset = "ActivityMedal/587507"
+	},
+	[587508] = {
+		activity_medal_desc = "열심히 하지 않으면 일족의 인형으로 만들어 버린다고 한다. 무서워...",
+		next_medal = 0,
+		item = 65578,
+		remake_task_id = 0,
+		group = 5875,
+		prefab_node = "8",
+		task_id = 21658,
+		activity_medal_name = "스티커: 일족의 인형",
+		id = 587508,
+		medal_asset = "ActivityMedal/587508"
+	},
 	all = {
 		571101,
 		571102,
@@ -312,6 +408,14 @@ pg.activity_medal_template = {
 		581205,
 		581206,
 		581207,
-		581208
+		581208,
+		587501,
+		587502,
+		587503,
+		587504,
+		587505,
+		587506,
+		587507,
+		587508
 	}
 }

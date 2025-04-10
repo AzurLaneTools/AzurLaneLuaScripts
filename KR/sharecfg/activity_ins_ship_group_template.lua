@@ -4512,6 +4512,38 @@ pg.activity_ins_ship_group_template = {
 		nationality = 6,
 		type = 1
 	},
+	[10713] = {
+		ship_group = 10713,
+		name = "Franklin",
+		background = "",
+		sculpture = "fulankelin",
+		nationality = 1,
+		type = 1
+	},
+	[10234] = {
+		ship_group = 10234,
+		name = "Santa Fe",
+		background = "",
+		sculpture = "shengtafei",
+		nationality = 1,
+		type = 1
+	},
+	[10153] = {
+		ship_group = 10153,
+		name = "Miller",
+		background = "",
+		sculpture = "mile",
+		nationality = 1,
+		type = 1
+	},
+	[10512] = {
+		ship_group = 10512,
+		name = "North Carolina",
+		background = "",
+		sculpture = "beikaluolaina",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5076,6 +5108,10 @@ pg.activity_ins_ship_group_template = {
 		60508,
 		60803,
 		60111,
-		60203
+		60203,
+		10713,
+		10234,
+		10153,
+		10512
 	}
 }

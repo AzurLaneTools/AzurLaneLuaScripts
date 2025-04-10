@@ -2049,5 +2049,20 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-light",
 		special_bgm = "",
 		bgm = "story-richang-light"
+	},
+	FulankelinMainPage = {
+		default_bgm = "theme-hospital-deep",
+		special_bgm = "",
+		bgm = "theme-hospital-deep"
+	},
+	FulankelinPtPage = {
+		default_bgm = "theme-hospital-deep",
+		special_bgm = "",
+		bgm = "theme-hospital-deep"
+	},
+	ValleyMessageAlbumView = {
+		default_bgm = "theme-hospital-deep",
+		special_bgm = "",
+		bgm = "theme-hospital-deep"
 	}
 }

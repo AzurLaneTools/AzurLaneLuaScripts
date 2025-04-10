@@ -1719,5 +1719,17 @@ pg.voice_actor_CN = {
 	[443] = {
 		actor_name = "후지모토 유리",
 		code = 443
+	},
+	[444] = {
+		actor_name = "나가세 안나",
+		code = 444
+	},
+	[445] = {
+		actor_name = "히라츠카 사에",
+		code = 445
+	},
+	[446] = {
+		actor_name = "타치바나 아즈사",
+		code = 446
 	}
 }

@@ -310,10 +310,6 @@ slot0.getRarity = function(slot0)
 	assert(false)
 end
 
-slot0.getExchangePrice = function(slot0)
-	assert(false)
-end
-
 slot0.upgrade = function(slot0)
 	assert(false)
 end

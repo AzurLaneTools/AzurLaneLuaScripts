@@ -2485,6 +2485,27 @@ pg.medal_template = {
 		explain1 = "「새장에 갇힌 신의 빛」",
 		explain2 = "이벤트"
 	},
+	[200031] = {
+		target_id = "5875",
+		name = "밸리 병원 조사 기념장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "축하해. 당신은 밸리 병원의 비밀을 파헤쳐, 최고의 결말을 이끌어 냈어. 어때? 재밌었어?",
+		next = 0,
+		icon = "9031",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9031",
+		condition = "「병원 탐방」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200031,
+		explain1 = "「병원 탐방」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2598,6 +2619,7 @@ pg.medal_template = {
 		100935,
 		200001,
 		200011,
-		200021
+		200021,
+		200031
 	}
 }

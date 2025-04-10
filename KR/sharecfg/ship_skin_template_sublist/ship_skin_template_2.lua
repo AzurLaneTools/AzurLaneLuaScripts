@@ -1,6 +1,114 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
+	[102052] = {
+		name = "지휘관과의 춤 ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "저기, 지휘관, 나랑… 한 곡 추지 않을래? 나, 지휘관에게 전하고 싶은 것이 있어서…… ",
+		illustrator2 = -1,
+		ship_group = 10205,
+		group_index = 2,
+		painting = "hailunna_3",
+		prefab = "hailunna_3",
+		hand_id = 13,
+		shop_type_id = 7,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "115",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102052,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70188,
+		voice_actor = 34,
+		spine_offset = "",
+		illustrator = 7,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.06,
+					0.975,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.029,
+					1.029,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.045,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.627,
+							2.291,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102053] = {
 		name = "광휘의 트라이앵글 웨이브",
 		change_skin = "",
@@ -9318,6 +9426,229 @@ pg.base.ship_skin_template_2 = {
 			}
 		}
 	},
+	[102340] = {
+		name = "산타페",
+		change_skin = "",
+		bg_sp = "",
+		desc = "클래블랜드급 경순양함 - 산타페",
+		illustrator2 = -1,
+		ship_group = 10234,
+		group_index = 0,
+		painting = "shengtafei",
+		prefab = "shengtafei",
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 102340,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 445,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.204,
+					0.738,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.64,
+					2.277,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.39,
+							-0.15
+						}
+					}
+				}
+			}
+		}
+	},
+	[102341] = {
+		name = "밤에도 계속 되는 가십 타임!",
+		change_skin = "",
+		bg_sp = "",
+		desc = "응? 이렇게 이른 시간에 벌써 자는 거야? 이런 심야에는 역시 가십 피버 타임이지~! 냐하하하! 지휘관, 어서 같이 이불 뒤집어쓰고 가십거리를 나누자고♪",
+		illustrator2 = -1,
+		ship_group = 10234,
+		group_index = 1,
+		painting = "shengtafei_2",
+		prefab = "shengtafei_2",
+		hand_id = 13,
+		shop_type_id = 15,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "309",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 102341,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71121,
+		voice_actor = 445,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.204,
+					0.738,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.64,
+					2.277,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.39,
+							-0.15
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				5,
+				10,
+				0
+			},
+			{
+				0.58
+			}
+		}
+	},
 	[103010] = {
 		name = "펜사콜라",
 		change_skin = "",
@@ -13571,220 +13902,6 @@ pg.base.ship_skin_template_2 = {
 		},
 		ship_l2d_id = {
 			1031651
-		}
-	},
-	[103240] = {
-		name = "브레머튼",
-		change_skin = "",
-		bg_sp = "",
-		desc = "볼티모어급 중순양함—브레머튼, 현호 CA-130 ",
-		illustrator2 = -1,
-		ship_group = 10324,
-		group_index = 0,
-		painting = "bulaimodun",
-		prefab = "bulaimodun",
-		hand_id = 13,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 103240,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.202,
-					1.03,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.22,
-					1.132,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.009,
-					-0.004,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
-	[103241] = {
-		name = "열정의 테니스 연습",
-		change_skin = "",
-		bg_sp = "",
-		desc = "하아… 하아… 오늘 태양이 굉장히 뜨겁네…… 지휘관, 아니 여기서는 ‘코치’라고 불러야겠지? 얼른 양산 좀 씌워줘. 더워서 죽기 일보 직전이라고……",
-		illustrator2 = -1,
-		ship_group = 10324,
-		group_index = 1,
-		painting = "bulaimodun_3",
-		prefab = "bulaimodun_3",
-		hand_id = 13,
-		shop_type_id = 13,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "112",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 103241,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70331,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.371,
-					1.067,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.316,
-					1.122,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.016,
-					0.003,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.625,
-							2.427,
-							0.14
-						}
-					}
-				}
-			}
 		}
 	}
 }

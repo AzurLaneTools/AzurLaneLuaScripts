@@ -158,7 +158,7 @@ slot0.execute = function(slot0, slot1)
 				for slot4, slot5 in pairs(uv0) do
 					slot6 = uv1 ~= slot4
 
-					if uv2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 or uv2 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+					if uv2 == ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2 or uv2 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE or uv2 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE then
 						slot6 = slot4 == ActivityBossMediatorTemplate.GetPairedFleetIndex(uv1)
 					end
 

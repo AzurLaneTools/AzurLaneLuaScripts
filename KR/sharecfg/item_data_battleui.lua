@@ -74,12 +74,12 @@ pg.item_data_battleui = {
 	},
 	[106] = {
 		unlock = "특허 투어 패스 22기 보상",
-		name = "デビル",
+		name = "데빌",
 		key = "SkinNormal_20250327",
 		display_icon = "ui_106",
 		is_unlock = 1,
 		rare = 3,
-		desc = "悪魔的な雰囲気が溢れ出る指揮インターフェイス。血色のフレームと魔法陣がデンジャラスでダークな世界へと誘う",
+		desc = "악마 특유의 분위기가 감도는 지휘 인터페이스. 핏빛 프레임과 마법진이 위험하고 어두운 세상으로 이끈다.",
 		id = 106,
 		icon = "106",
 		scene = {}
@@ -108,6 +108,18 @@ pg.item_data_battleui = {
 		icon = "202",
 		scene = {}
 	},
+	[203] = {
+		unlock = "상점 구매 (전투 UI·유전자의 기원)",
+		name = "유전자의 기원",
+		key = "SkinElite_20250327",
+		display_icon = "ui_203",
+		is_unlock = 1,
+		rare = 4,
+		desc = "미래적인 느낌이 풍기는 지휘 인터페이스. 흰 패널과 핏빛 회로가 치밀하고도 긴장감 넘치는 분위기를 자아낸다.",
+		id = 203,
+		icon = "203",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -117,6 +129,7 @@ pg.item_data_battleui = {
 		105,
 		106,
 		201,
-		202
+		202,
+		203
 	}
 }

@@ -1,6 +1,220 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
+	[103240] = {
+		name = "브레머튼",
+		change_skin = "",
+		bg_sp = "",
+		desc = "볼티모어급 중순양함—브레머튼, 현호 CA-130 ",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 0,
+		painting = "bulaimodun",
+		prefab = "bulaimodun",
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 103240,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 134,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.202,
+					1.03,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.22,
+					1.132,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					-0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.427,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
+	[103241] = {
+		name = "열정의 테니스 연습",
+		change_skin = "",
+		bg_sp = "",
+		desc = "하아… 하아… 오늘 태양이 굉장히 뜨겁네…… 지휘관, 아니 여기서는 ‘코치’라고 불러야겠지? 얼른 양산 좀 씌워줘. 더워서 죽기 일보 직전이라고……",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 1,
+		painting = "bulaimodun_3",
+		prefab = "bulaimodun_3",
+		hand_id = 13,
+		shop_type_id = 13,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "112",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 103241,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70331,
+		voice_actor = 134,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.371,
+					1.067,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.316,
+					1.122,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.016,
+					0.003,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.625,
+							2.427,
+							0.14
+						}
+					}
+				}
+			}
+		}
+	},
 	[103242] = {
 		name = "쿵푸소녀!",
 		change_skin = "",
@@ -4583,6 +4797,124 @@ pg.base.ship_skin_template_3 = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[105132] = {
+		name = "야밤의 순회 진료",
+		change_skin = "",
+		bg_sp = "",
+		desc = "여어, 지휘관. 너스콜 누른 거 맞지? …안 눌렀다고? 음…… 누른 거 맞잖아!! 잘 들어! 환자면 환자답게 일은 멈추고 얌전히 진찰받아!",
+		illustrator2 = -1,
+		ship_group = 10513,
+		group_index = 2,
+		painting = "huashengdun_3",
+		prefab = "huashengdun_3",
+		hand_id = 1,
+		shop_type_id = 15,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "309",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 105132,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71126,
+		voice_actor = 3,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.419,
+					0.844,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.22,
+					1.063,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.691,
+					2.153,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.46,
+							2.24,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				31.4,
+				-556,
+				0
+			},
+			{
+				0.49
 			}
 		}
 	},
@@ -12229,6 +12561,216 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[107130] = {
+		name = "프랭클린",
+		change_skin = "",
+		bg_sp = "",
+		desc = "에식스급 항공모함 - 프랭클린",
+		illustrator2 = -1,
+		ship_group = 10713,
+		group_index = 0,
+		painting = "fulankelin",
+		prefab = "fulankelin",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 107130,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 444,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.894,
+					2.239,
+					0
+				}
+			},
+			plane = {
+				{
+					2.135,
+					1.299,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.41,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[107131] = {
+		name = "간호사의 두근두근 진단서",
+		change_skin = "",
+		bg_sp = "",
+		desc = "하아… 후우… 오래 기다렸지, 지휘관? 오늘은 내가 검사 담당이야. 어머, 프랭클린이 「간호사」를 잘 해낼 수 있을까 걱정이라고? 후후후, 내가 직접 「몸소」 알려줘야겠네♡",
+		illustrator2 = -1,
+		ship_group = 10713,
+		group_index = 1,
+		painting = "fulankelin_2",
+		prefab = "fulankelin_2",
+		hand_id = 1,
+		shop_type_id = 15,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "308",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 107131,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71120,
+		voice_actor = 444,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.894,
+					2.239,
+					0
+				}
+			},
+			plane = {
+				{
+					2.135,
+					1.299,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.34,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-109.5,
+				-200.1,
+				0
+			},
+			{
+				0.723
+			}
+		}
+	},
 	[107140] = {
 		name = "타이콘데로가",
 		change_skin = "",
@@ -13010,406 +13552,6 @@ pg.base.ship_skin_template_3 = {
 			plane = {
 				{
 					0.914,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107223] = {
-		name = "Relaxation.I",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "음—... 신체가 굳어지지 않게 하려면 역시 스트레칭이지. ??? 옷이 왜? ... 지휘관이 계속 쳐다보고 있지만 않는다면 별 거 없잖아...",
-		illustrator2 = -1,
-		ship_group = 10722,
-		group_index = 3,
-		painting = "duli_6",
-		prefab = "duli_6",
-		hand_id = 1,
-		shop_type_id = 20,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "109",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107223,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70518,
-		voice_actor = 130,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.453,
-					0.992,
-					0
-				}
-			},
-			plane = {
-				{
-					1.464,
-					1.001,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107224] = {
-		name = "해풍의 Lucky Time",
-		change_skin = "",
-		bg_sp = "",
-		desc = "인형뽑기 기계에 동전을 넣고, 조이스틱을 조종한 다음, 갈고리를 내리면……앗, 성공했어! 쥬쥬 인형이다! 엄청 쉬운 것 같은 걸.",
-		illustrator2 = -1,
-		ship_group = 10722,
-		group_index = 4,
-		painting = "duli_3",
-		prefab = "duli_3",
-		hand_id = 1,
-		shop_type_id = 9,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "108",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 107224,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70624,
-		voice_actor = 130,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.16,
-					1.095,
-					0
-				}
-			},
-			plane = {
-				{
-					0.999,
-					1.075,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.421,
-							2.463,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107229] = {
-		name = "인디펜던스·改",
-		change_skin = "",
-		bg_sp = "",
-		desc = "경항공모함 인디펜던스, 개조 완료! 더 어렵고 더 중요한 임무들을 마음 놓고 나에게 맡겨줘. 난 이미 준비됐어.",
-		illustrator2 = -1,
-		ship_group = 10722,
-		group_index = 9,
-		painting = "duli_g",
-		prefab = "duli_g",
-		hand_id = 1,
-		shop_type_id = 9997,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 2,
-		id = 107229,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 130,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.1,
-					1.18,
-					0
-				}
-			},
-			plane = {
-				{
-					1.24,
-					1.17,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.63,
-							2.35,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107230] = {
-		name = "프린스턴",
-		change_skin = "",
-		bg_sp = "",
-		desc = "인디펜던스급 항공모함-프린스턴, 현호 CVL-23",
-		illustrator2 = -1,
-		ship_group = 10723,
-		group_index = 0,
-		painting = "pulinsidun",
-		prefab = "pulinsidun",
-		hand_id = 13,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 107230,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 249,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.384,
-					0.917,
-					0
-				}
-			},
-			plane = {
-				{
-					1.439,
 					0.955,
 					0
 				}

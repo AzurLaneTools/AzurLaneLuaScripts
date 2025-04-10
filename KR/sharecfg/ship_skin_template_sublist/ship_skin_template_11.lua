@@ -1,313 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
-	[319012] = {
-		name = "어질어질 메이드",
-		change_skin = "",
-		bg_sp = "",
-		desc = "꺅?! …어, 어라…? 안 빠지잖아… 어쩌면 좋지… 지휘관님?! 죄송해요, 청소하다가 그만 넘어졌는데… 정신을 차려보니 여기 끼어버려서……. 으흑, 어떡하지….",
-		illustrator2 = -1,
-		ship_group = 31901,
-		group_index = 2,
-		painting = "jianye_3",
-		prefab = "jianye_3",
-		hand_id = 2,
-		shop_type_id = 17,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "160",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 319012,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70756,
-		voice_actor = 243,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.872,
-					0.632,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.887,
-					0.654,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.196,
-					1.241,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.723,
-							1.671,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-20,
-				20
-			},
-			ParamAngleY = {
-				-20,
-				20
-			}
-		}
-	},
-	[319013] = {
-		name = "꽃피는 러블리 스트링스",
-		change_skin = "",
-		bg_sp = "",
-		desc = "♪~ 지휘관님, 이러면 되나요? 음~ 역시 급하게 준비한 거라 잘 안 되네요… 배운 대로 연주하는데 왜 미묘하게 음이 어긋나는 걸까요…",
-		illustrator2 = -1,
-		ship_group = 31901,
-		group_index = 3,
-		painting = "jianye_4",
-		prefab = "jianye_4",
-		hand_id = 2,
-		shop_type_id = 7,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		bg = "172",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 319013,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70899,
-		voice_actor = 243,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.323,
-					1.205,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.366,
-					1.162,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.01,
-					-0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.323,
-					1.274,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.367,
-							2.434,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamEyeBallX = {
-				-0.7,
-				0.7
-			},
-			ParamEyeBallY = {
-				-0.7,
-				0.7
-			},
-			ParamAngleX = {
-				-20,
-				20
-			},
-			ParamAngleY = {
-				-20,
-				20
-			}
-		},
-		ship_l2d_id = {
-			3190131,
-			3190132,
-			3190133,
-			3190134,
-			3190135,
-			3190136,
-			3190137,
-			3190138,
-			3190139,
-			3190140,
-			3190141,
-			3190142,
-			3190143,
-			3190144
-		},
-		l2d_drag_rate = {
-			0.7,
-			0.7,
-			0.7
-		}
-	},
 	[319014] = {
 		name = "프레시 & 스위트!",
 		change_skin = "",
@@ -14170,6 +13863,384 @@ pg.base.ship_skin_template_11 = {
 						{
 							-0.59,
 							2.643,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[403092] = {
+		name = "세이프티 래빗",
+		change_skin = "",
+		bg_sp = "",
+		desc = "(삐익) 거기, 조심해! 지휘관도 수영장 들어가기 전엔 꼭 준비 운동 하고 들어가! 적당히 넘어가려고 하면 화낼 거야!",
+		illustrator2 = -1,
+		ship_group = 40309,
+		group_index = 2,
+		painting = "haiyinlixi_2",
+		prefab = "haiyinlixi_2",
+		hand_id = 1,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "164",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 403092,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70784,
+		voice_actor = 255,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			50,
+			-195,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.52,
+					1.003,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.507,
+							2.567,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-25,
+				25
+			},
+			ParamAngleY = {
+				-25,
+				25
+			},
+			ParamEyeBallX = {
+				-0.5,
+				0.5
+			},
+			ParamEyeBallY = {
+				-0.5,
+				0.5
+			}
+		}
+	},
+	[403093] = {
+		name = "어두운 곳의 히든 보스?",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "난 어두운 곳에서 모항의 학원을 지휘하는 히든 보스야. 그러니까 지휘관도 내 말을 따라야 해! 물론 지휘관 보호도 내가 할 거야! 하하하♪",
+		illustrator2 = -1,
+		ship_group = 40309,
+		group_index = 3,
+		painting = "haiyinlixi_5",
+		prefab = "haiyinlixi_5",
+		hand_id = 1,
+		shop_type_id = 4,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "147",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 403093,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70830,
+		voice_actor = 255,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.52,
+					1.003,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.507,
+							2.567,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[403094] = {
+		name = "하인리히 온스테이지",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "자! 그럼 하인리히가 한 곡 부를게! 재즈 스타일에 어른스러운 분위기가 물씬 풍기는 미스 하인리히, 좀 두근거렸어? 아하핫!",
+		illustrator2 = -1,
+		ship_group = 40309,
+		group_index = 4,
+		painting = "haiyinlixi_4",
+		prefab = "haiyinlixi_4",
+		hand_id = 1,
+		shop_type_id = 7,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "159",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = "",
+		skin_type = 0,
+		id = 403094,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70857,
+		voice_actor = 255,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.52,
+					1.1,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.52,
+					1.003,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.021,
+					0.01,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.38,
+					1.41,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.507,
+							2.567,
 							0
 						}
 					}
