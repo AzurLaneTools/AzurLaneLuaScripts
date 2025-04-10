@@ -5,13 +5,14 @@ slot0.OPEN_ROOM_UNLOCK_WINDOW = "Dorm3dShopMediator.OPEN_ROOM_UNLOCK_WINDOW"
 slot0.OPEN_DROP_LAYER = "Dorm3dShopMediator.OPEN_DROP_LAYER"
 
 slot0.register = function(slot0)
-	slot0:bind(uv0.OPEN_DETAIL, function (slot0, slot1, slot2)
+	slot0:bind(uv0.OPEN_DETAIL, function (slot0, slot1, slot2, slot3)
 		uv0:addSubLayers(Context.New({
 			viewComponent = Dorm3dShopDetailWindow,
 			mediator = Dorm3dShopDetailMediator,
 			data = {
 				shopCfg = slot1,
-				changeCount = slot2
+				groupId = slot2,
+				changeCount = slot3
 			}
 		}))
 	end)

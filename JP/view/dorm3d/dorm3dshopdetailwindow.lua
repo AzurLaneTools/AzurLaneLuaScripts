@@ -24,6 +24,16 @@ slot0.init = function(slot0)
 	slot0.unlockTips = pg.dorm3d_gift[slot0.shopCfg.item_id].unlock_tips or {}
 	slot1 = slot0.shopCfg.room_id
 	slot0.unlockBanners = slot0.shopCfg.banners
+
+	if slot0.contextData.groupId ~= 0 then
+		slot1 = slot0.contextData.groupId
+		slot0.unlockBanners = table.Find(pg.dorm3d_gift[slot0.shopCfg.item_id].unlock_banners or {}, function (slot0, slot1)
+			if slot1[1] == uv0 then
+				return true
+			end
+		end) and slot3[2]
+	end
+
 	slot0.isExclusive = pg.dorm3d_gift[slot0.shopCfg.item_id].ship_group_id ~= 0
 	slot0.isSpecial = false
 	slot0.addFavor = pg.dorm3d_favor_trigger[pg.dorm3d_gift[slot0.shopCfg.item_id].favor_trigger_id].num
@@ -57,12 +67,13 @@ slot0.didEnter = function(slot0)
 		id = slot1:GetShopID()
 	}, Goods.TYPE_SHOPSTREET)
 	slot3, slot4, slot5 = slot2:GetPrice()
-	slot8 = i18n("dorm3d_shop_buy_tips", "<icon name=" .. slot2:GetResIcon() .. " w=1.1 h=1.1/>", "x" .. slot0:GetGoodPrice(slot0:GetShopId(slot0.buyCount + slot0.curCount)), "x" .. Drop.New({
+	slot6 = Drop.New({
 		type = DROP_TYPE_RESOURCE,
 		id = slot2:GetResType(),
 		count = slot3
-	}).count, slot0.shopCfg.name)
-	slot9 = nil
+	})
+	slot7 = i18n("dorm3d_shop_buy_tips", "<icon name=" .. slot2:GetResIcon() .. " w=1.1 h=1.1/>", "x" .. slot6.count, "x" .. slot6.count, slot0.shopCfg.name)
+	slot8 = nil
 
 	_.each(slot1:getConfig("shop_id"), function (slot0)
 		if pg.shop_template[slot0].group_type == 2 then
@@ -71,47 +82,47 @@ slot0.didEnter = function(slot0)
 	end)
 
 	if 0 > 0 then
-		slot9 = {
+		slot8 = {
 			slot0.buyCount,
-			slot10
+			slot9
 		}
 	end
 
-	if slot9 then
-		slot8 = slot8 .. i18n("dorm3d_purchase_weekly_limit", slot9[1], slot9[2])
+	if slot8 then
+		slot7 = slot7 .. i18n("dorm3d_purchase_weekly_limit", slot8[1], slot8[2])
 	end
 
-	setText(slot0._tf:Find("Window/Content"), slot8)
+	setText(slot0._tf:Find("Window/Content"), slot7)
 	setText(slot0._tf:Find("Window/Confirm/Text"), i18n("msgbox_text_confirm"))
 
-	slot12 = slot0._tf
+	slot11 = slot0._tf
 
-	setText(slot12:Find("Window/Cancel/Text"), i18n("msgbox_text_cancel"))
+	setText(slot11:Find("Window/Cancel/Text"), i18n("msgbox_text_cancel"))
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.THIRD_LAYER
 	})
 
-	slot11 = slot1:GetShopID()
+	slot10 = slot1:GetShopID()
 	slot0.itemList = {
-		slot11
+		slot10
 	}
-	slot0.sumPrice = slot0:GetGoodPrice(slot11)
+	slot0.sumPrice = slot0:GetGoodPrice(slot10)
 
 	setText(slot0.countText, slot0.curCount)
 
-	slot12 = 1
+	slot11 = 1
 
-	if slot9 then
-		slot12 = slot9[2] - slot9[1]
+	if slot8 then
+		slot11 = slot8[2] - slot8[1]
 	end
 
-	slot13 = function(slot0)
+	slot12 = function(slot0)
 		slot0 = math.min(math.max(slot0, 1), uv0)
 		uv1.curCount = slot0
 
 		setText(uv1.countText, slot0)
 
-		slot2 = uv1:GetGoodPrice(uv1:GetShopId(uv1.buyCount + uv1.curCount))
+		slot2 = uv1:GetGoodPrice(uv1:GetShopId(uv1.buyCount + uv1.curCount - 1))
 		uv1.sumPrice = 0
 
 		for slot6 = uv1.buyCount, uv1.buyCount + uv1.curCount - 1 do
@@ -152,9 +163,9 @@ slot0.didEnter = function(slot0)
 		uv2(uv3)
 	end, SFX_PANEL)
 
-	slot16 = slot0._tf
+	slot15 = slot0._tf
 
-	onButton(slot0, slot16:Find("Window/Confirm"), function ()
+	onButton(slot0, slot15:Find("Window/Confirm"), function ()
 		if getProxy(PlayerProxy):getData()[id2res(pg.shop_template[uv0.itemList[1]].resource_type)] < uv0.sumPrice then
 			slot2 = Drop.New({
 				type = DROP_TYPE_RESOURCE,
