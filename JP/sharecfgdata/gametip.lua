@@ -30181,7 +30181,7 @@ _G.pg.base.gametip.gametip_xiaokewei = {
 			info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【リトル・フォーミダブル】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【リトル・フォーミダブル】は母港からいなくなります。"
 		},
 		{
-			info = "5.友好度報酬は5/3（水）まで毎日1段階ずつ解放されます。"
+			info = "5.友好度報酬は4/16（水）まで毎日1段階ずつ解放されます。"
 		},
 		{
 			info = "6.仮加入状態の【リトル・フォーミダブル】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
@@ -30933,6 +30933,16 @@ _G.pg.base.gametip.word_maingroup_checkfailure = {
 
 _G.pg.base.gametip.word_maingroup_updating = {
 	tip = "更新中…"
+}
+
+
+_G.pg.base.gametip.word_maingroup_idle = {
+	tip = "更新情報無効"
+}
+
+
+_G.pg.base.gametip.word_maingroup_latest = {
+	tip = "更新不要"
 }
 
 
@@ -38289,4 +38299,49 @@ _G.pg.base.gametip.SuperBulin2_help = {
 
 _G.pg.base.gametip.SuperBulin2_lock_tip = {
 	tip = "ヒントをすべて集めると限定ステージを可能！"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_buy_tips = {
+	tip = "$1<color=#169fff>$2</color>消費（合計$1<color=#169fff>$3</color>）し、<color=#169fff>$4</color> を購入しますか？"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_title = {
+	tip = "宿舎ショップ"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit = {
+	tip = "限定"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_sold_out = {
+	tip = "売切れ"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_all = {
+	tip = "全て"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift1 = {
+	tip = "プレゼント"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_furniture = {
+	tip = "家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_others = {
+	tip = "その他"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit1 = {
+	tip = "今週限定"
 }

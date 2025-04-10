@@ -983,7 +983,7 @@ slot9.AddBuff = function(slot0, slot1, slot2)
 		else
 			slot4.buff_level = math.max(slot6, slot7)
 
-			if slot7 <= slot6 then
+			if slot5:IsForceStack() or slot7 <= slot6 then
 				slot5:Stack(slot0)
 
 				slot4.stack_count = slot5:GetStack()

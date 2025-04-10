@@ -447,7 +447,7 @@ return {
 			actor = 202330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「死」の概念が存在しない機械にとって、この実験場はあまり戦いやすい場所ではないようですね",
+			say = "「死」の概念が存在しない機械にとって、この試験場はあまり戦いやすい場所ではないようですね",
 			painting = {
 				alpha = 0.3,
 				time = 1

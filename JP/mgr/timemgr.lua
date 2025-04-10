@@ -312,6 +312,10 @@ slot1.IsSameDay = function(slot0, slot1, slot2)
 	return math.floor((slot1 - slot0._sAnchorTime) / uv0) == math.floor((slot2 - slot0._sAnchorTime) / uv0)
 end
 
+slot1.IsSameWeek = function(slot0, slot1, slot2)
+	return math.floor((slot1 - slot0._sAnchorTime) / uv0) == math.floor((slot2 - slot0._sAnchorTime) / uv0)
+end
+
 slot1.IsPassTimeByZero = function(slot0, slot1, slot2)
 	return slot2 < math.fmod(slot1 - slot0._sAnchorTime, uv0)
 end

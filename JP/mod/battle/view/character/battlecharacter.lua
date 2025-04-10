@@ -1453,12 +1453,12 @@ slot6.SetPopup = function(slot0, slot1, slot2, slot3)
 		if slot0._popGO.transform:GetComponent(typeof(Animation)) then
 			slot4:Play("popup_out")
 			slot0._popGO:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
-				uv0.ChatPopAnimation(uv0._popGO, uv1, uv2)
+				uv0.ChatPopAnimation(uv0._popGO, uv1)
 			end)
 		else
 			LeanTween.cancel(slot0._popGO)
 			LeanTween.scale(rtf(slot0._popGO.gameObject), Vector3.New(0, 0, 1), 0.1):setEase(LeanTweenType.easeInBack):setOnComplete(System.Action(function ()
-				uv0.ChatPop(uv0._popGO, uv1, uv2)
+				uv0.ChatPop(uv0._popGO, uv1)
 			end))
 		end
 	else
@@ -1466,21 +1466,21 @@ slot6.SetPopup = function(slot0, slot1, slot2, slot3)
 		slot0._popTF = slot0._popGO.transform
 
 		if slot0._popGO.transform:GetComponent(typeof(Animation)) then
-			slot0.ChatPopAnimation(slot0._popGO, slot1, slot2)
+			slot0.ChatPopAnimation(slot0._popGO, slot2)
 		else
 			slot0._popTF.localScale = Vector3(0, 0, 0)
 
-			slot0.ChatPop(slot0._popGO, slot1, slot2)
+			slot0.ChatPop(slot0._popGO, slot2)
 		end
 	end
 
+	uv0.setChatText(slot0._popGO, slot1)
 	SetActive(slot0._popGO, true)
 end
 
-slot6.ChatPopAnimation = function(slot0, slot1, slot2)
-	uv0.setChatText(slot0, slot1)
+slot6.ChatPopAnimation = function(slot0, slot1)
 	slot0.transform:GetComponent(typeof(Animation)):Play("popup_in")
-	LeanTween.delayedCall(slot0.gameObject, slot2, System.Action(function ()
+	LeanTween.delayedCall(slot0.gameObject, slot1, System.Action(function ()
 		uv0:Play("popup_out")
 		uv1:GetComponent("DftAniEvent"):SetEndEvent(function (slot0)
 			SetActive(uv0, false)
@@ -1488,10 +1488,9 @@ slot6.ChatPopAnimation = function(slot0, slot1, slot2)
 	end))
 end
 
-slot6.ChatPop = function(slot0, slot1, slot2)
-	slot2 = slot2 or 2.5
+slot6.ChatPop = function(slot0, slot1)
+	slot1 = slot1 or 2.5
 
-	uv0.setChatText(slot0, slot1)
 	LeanTween.scale(rtf(slot0.gameObject), Vector3.New(1, 1, 1), 0.3):setEase(LeanTweenType.easeOutBack):setOnComplete(System.Action(function ()
 		LeanTween.scale(rtf(uv0.gameObject), Vector3.New(0, 0, 1), 0.3):setEase(LeanTweenType.easeInBack):setDelay(uv1):setOnComplete(System.Action(function ()
 			SetActive(uv0, false)

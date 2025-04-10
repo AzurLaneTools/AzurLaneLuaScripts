@@ -54,7 +54,7 @@ pg.dorm3d_accompany = {
 		timeline = "Xiangban_shinei_ND",
 		id = 21,
 		favor = {
-			10,
+			300,
 			{
 				1015,
 				1016,
@@ -74,7 +74,7 @@ pg.dorm3d_accompany = {
 		timeline = "Xiangban_shatan_ND",
 		id = 22,
 		favor = {
-			10,
+			300,
 			{
 				1015,
 				1016,
@@ -98,7 +98,7 @@ pg.dorm3d_accompany = {
 		timeline = "Xiangban_shinei_Ab",
 		id = 31,
 		favor = {
-			10,
+			300,
 			{
 				1015,
 				1016,
@@ -118,7 +118,7 @@ pg.dorm3d_accompany = {
 		timeline = "Xiangban_shatan_Ab",
 		id = 32,
 		favor = {
-			10,
+			300,
 			{
 				1015,
 				1016,

@@ -27,6 +27,7 @@ slot4.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0._triggerSearchTable = {}
 	slot0._level = slot2
 	slot0._caster = slot3
+	slot0._forceStack = slot0._tempData.force_stack
 
 	for slot7, slot8 in ipairs(slot0._tempData.effect_list) do
 		slot0._effectList[slot7] = uv0.Battle[slot8.type].New(slot8)
@@ -311,6 +312,10 @@ end
 
 slot4.GetStack = function(slot0)
 	return slot0._stack or 1
+end
+
+slot4.IsForceStack = function(slot0)
+	return slot0._forceStack
 end
 
 slot4.SetToCancel = function(slot0, slot1)

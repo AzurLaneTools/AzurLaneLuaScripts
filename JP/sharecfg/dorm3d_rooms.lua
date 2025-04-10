@@ -11,8 +11,9 @@ pg.dorm3d_rooms = {
 		tag = "",
 		type = 2,
 		room_bgm = "story-room-sirius",
-		room_des = "",
+		invite_icon = "",
 		invite_banner = "",
+		room_des = "",
 		scene_info = "map_siriushostel_01|Tianlangxing_DB/SiriusHostel",
 		character = {
 			20220
@@ -89,8 +90,9 @@ pg.dorm3d_rooms = {
 		tag = "",
 		type = 2,
 		room_bgm = "story-room-noshiro",
-		room_des = "",
+		invite_icon = "",
 		invite_banner = "",
+		room_des = "",
 		scene_info = "map_noshirohostel_01|Nengdai_DB/Noshirohostel",
 		character = {
 			30221
@@ -167,8 +169,9 @@ pg.dorm3d_rooms = {
 		tag = "",
 		type = 2,
 		room_bgm = "story-room-anchorage",
-		room_des = "",
+		invite_icon = "",
 		invite_banner = "",
+		room_des = "",
 		scene_info = "map_anchoragehostel_01|Ankeleiqi_DB/Anchoragehostel",
 		character = {
 			19903
@@ -318,6 +321,20 @@ pg.dorm3d_rooms = {
 				}
 			}
 		},
+		invite_icon = {
+			{
+				20220,
+				"dorm3dicon/3Ddrom_tianlangxing_FancyGift4"
+			},
+			{
+				30221,
+				"dorm3dicon/3Ddrom_tianlangxing_FancyGift4"
+			},
+			{
+				19903,
+				"dorm3dicon/3Ddrom_tianlangxing_FancyGift4"
+			}
+		},
 		invite_mark = {
 			{
 				20220,
@@ -392,8 +409,9 @@ pg.dorm3d_rooms = {
 		recall_list = "",
 		type = 1,
 		room_bgm = "story-room-sirius",
-		room_des = "",
+		invite_icon = "",
 		invite_banner = "",
+		room_des = "",
 		scene_info = "",
 		character = {
 			20220

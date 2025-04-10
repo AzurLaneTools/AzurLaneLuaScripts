@@ -210,6 +210,9 @@ slot0.didEnter = function(slot0)
 	end, SFX_CONFIRM)
 	setActive(slot0.bottomTF, false)
 	triggerToggle(slot0.toggles[uv0.INDEX_DETAIL], true)
+	onDelayTick(function ()
+		NotchAdapt.AdjustUI()
+	end, 0.01)
 end
 
 slot0.InitSkinList = function(slot0)

@@ -195,7 +195,7 @@ slot0.UpdateGift = function(slot0, slot1, slot2, slot3)
 				content = {
 					icon = "<icon name=" .. uv4:GetResIcon() .. " w=1.1 h=1.1/>",
 					off = uv5,
-					cost = "x" .. uv6.count,
+					cost = uv6.count,
 					old = uv7,
 					name = uv8:getConfig("name"),
 					weekLimit = uv9

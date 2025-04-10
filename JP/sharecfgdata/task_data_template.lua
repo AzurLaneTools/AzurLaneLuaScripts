@@ -149017,6 +149017,47 @@ _G.pg.base.task_data_template[21670] = {
 }
 
 
+_G.pg.base.task_data_template[21671] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905431,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "小可畏npc临时加入",
+	desc = "不该看到",
+	sub_type = 1011,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21671,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			4,
+			207131,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[30201] = {
 	target_id_2 = "",
 	guild_coin_award = 0,
@@ -226453,5 +226494,324 @@ _G.pg.base.task_data_template[500107] = {
 	story_icon_shift = {
 		10,
 		30
+	}
+}
+
+
+_G.pg.base.task_data_template[500111] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500111,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "リードさせて",
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "qiabayefu",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500112",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "QIABAYEFU1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500111,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500112] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500112,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "忠誠心と独占欲",
+	desc = "任意の艦を10回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "qiabayefu",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500113",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "QIABAYEFU2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500112,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500113] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500113,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "ペンギンの贈り物",
+	desc = "チャパエフを含めた艦隊で出撃し、20回勝利する",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "qiabayefu",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500114",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "QIABAYEFU3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500113,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "70203",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500114] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500114,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "引き止められた指揮官",
+	desc = "燃料を500消費する",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "qiabayefu",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500115",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "QIABAYEFU4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500114,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500115] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500115,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "着せ替え難題",
+	desc = "チャパエフの親密度が100に到達",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "qiabayefu",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500116",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "QIABAYEFU5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500115,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "70203",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500116] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500116,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "夜の送別",
+	desc = "チャパエフを3回限界突破する",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "qiabayefu",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500117",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "QIABAYEFU6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500116,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "70203",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18012,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500117] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500117,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "独占の証明",
+	desc = "チャパエフのレベルが100に到達",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "qiabayefu",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "QIABAYEFU7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500117,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "70203",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18013,
+			1
+		}
 	}
 }

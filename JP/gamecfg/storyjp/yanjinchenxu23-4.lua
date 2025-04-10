@@ -170,7 +170,7 @@ return {
 			dir = 1,
 			actor = 900353,
 			nameColor = "#ffa500",
-			say = "それがこの実験場のルールってわけ。利用しない手はないでしょ",
+			say = "それがこの試験場のルールってわけ。利用しない手はないでしょ",
 			painting = {
 				alpha = 0.3,
 				time = 1

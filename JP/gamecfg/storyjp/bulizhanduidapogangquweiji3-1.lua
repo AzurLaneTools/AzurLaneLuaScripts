@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_148",
 			hideOther = true,
 			dir = 1,
-			actor = 100011,
+			actor = 100020,
 			actorName = "二人",
 			hidePaintObj = true,
 			say = "お姉ちゃーん、プリーン！ 姉ちゃん、プリンー！",

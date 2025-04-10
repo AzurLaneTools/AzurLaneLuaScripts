@@ -547,7 +547,7 @@ slot0.UpdateViewFurnitureItem = function(slot0, slot1)
 				content = {
 					icon = "<icon name=" .. uv2:GetResIcon() .. " w=1.1 h=1.1/>",
 					off = uv3,
-					cost = "x" .. uv4.count,
+					cost = uv4.count,
 					old = uv5,
 					name = uv0.template:GetName()
 				},

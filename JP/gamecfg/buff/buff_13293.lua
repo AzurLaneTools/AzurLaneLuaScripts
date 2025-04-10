@@ -481,7 +481,7 @@ return {
 	},
 	name = "",
 	init_effect = "",
-	time = 1,
+	time = 0.1,
 	picture = "",
 	desc = "炮击、机动提升",
 	stack = 1,

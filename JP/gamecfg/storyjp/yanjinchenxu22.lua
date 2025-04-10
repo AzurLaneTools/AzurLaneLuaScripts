@@ -801,7 +801,7 @@ return {
 			actor = 900353,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "そりゃ、やつらの実験場を破壊するためだよ",
+			say = "そりゃ、やつらの試験場を破壊するためだよ",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -819,7 +819,7 @@ return {
 			actor = 900353,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "あなたたちも見たよね？ここの実験場では「駒」の生産が止まらない限りどんどん「四騎士」が強くなるって",
+			say = "あなたたちも見たよね？ここの試験場では「駒」の生産が止まらない限りどんどん「四騎士」が強くなるって",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1235,7 +1235,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "セイレーンの特定の実験場を潰す、なんてあなたが始めてよ？",
+			say = "セイレーンの特定の試験場を潰す、なんてあなたが始めてよ？",
 			painting = {
 				alpha = 0.3,
 				time = 1

@@ -51,6 +51,10 @@ slot0.ShowInvitePanel = function(slot0)
 				uv0:HideInvitePanel()
 				uv0:ShowSelectPanel()
 			end, SFX_PANEL)
+
+			if slot1 == uv1 or not slot3 then
+				setActive(slot2:Find("tip"), PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dRoomInviteSuccess_" .. uv0.room.id, 1) == 0)
+			end
 		end
 	end)
 	onButton(slot0, slot0.rtInvitePanel:Find("window/btn_confirm"), function ()
@@ -110,9 +114,9 @@ slot0.ShowSelectPanel = function(slot0)
 		end
 	end
 
-	slot6 = slot0.rtSelectPanel:Find("window/character/container")
+	slot7 = slot0.rtSelectPanel:Find("window/character/container")
 
-	UIItemList.StaticAlign(slot6, slot6:GetChild(0), #slot1, function (slot0, slot1, slot2)
+	UIItemList.StaticAlign(slot7, slot7:GetChild(0), #slot1, function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -153,8 +157,12 @@ slot0.ShowSelectPanel = function(slot0)
 					setActive(slot0, slot0.name == uv0[uv1])
 				end)
 			end
+
+			setActive(slot2:Find("tip"), PlayerPrefs.GetInt(uv5 .. "_dorm3dRoomInviteSuccess_" .. uv1.room.id .. "_" .. slot3, 1) == 0)
+			PlayerPrefs.SetInt(uv5 .. "_dorm3dRoomInviteSuccess_" .. uv1.room.id .. "_" .. slot3, 1)
 		end
 	end)
+	PlayerPrefs.SetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dRoomInviteSuccess_" .. slot0.room.id, 1)
 	onButton(slot0, slot0.rtSelectPanel:Find("window/bottom/container/btn_confirm"), function ()
 		if uv1 < #uv0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_data_Invite_lack"))
