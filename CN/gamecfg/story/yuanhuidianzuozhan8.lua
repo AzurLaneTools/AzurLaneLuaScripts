@@ -13,7 +13,7 @@ return {
 			bgm = "bsm-7",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "铁血实验场·休息区 一段时间后",
+			say = "铁血试验场·休息区 一段时间后",
 			flashout = {
 				dur = 1,
 				black = true,

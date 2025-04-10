@@ -63,7 +63,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "铁血实验场·休息区",
+			say = "铁血试验场·休息区",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

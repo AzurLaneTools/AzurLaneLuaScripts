@@ -3417,7 +3417,126 @@ pg.activity_ins_chat_language = setmetatable({
 		3414,
 		3415,
 		3416,
-		3417
+		3417,
+		3418,
+		3419,
+		3420,
+		3421,
+		3422,
+		3423,
+		3424,
+		3425,
+		3426,
+		3427,
+		3428,
+		3429,
+		3430,
+		3431,
+		3432,
+		3433,
+		3434,
+		3435,
+		3436,
+		3437,
+		3438,
+		3439,
+		3440,
+		3441,
+		3442,
+		3443,
+		3444,
+		3445,
+		3446,
+		3447,
+		3448,
+		3449,
+		3450,
+		3451,
+		3452,
+		3453,
+		3454,
+		3455,
+		3456,
+		3457,
+		3458,
+		3459,
+		3460,
+		3461,
+		3462,
+		3463,
+		3464,
+		3465,
+		3466,
+		3467,
+		3468,
+		3469,
+		3470,
+		3471,
+		3472,
+		3473,
+		3474,
+		3475,
+		3476,
+		3477,
+		3478,
+		3479,
+		3480,
+		3481,
+		3482,
+		3483,
+		3484,
+		3485,
+		3486,
+		3487,
+		3488,
+		3489,
+		3490,
+		3491,
+		3492,
+		3493,
+		3494,
+		3495,
+		3496,
+		3497,
+		3498,
+		3499,
+		3500,
+		3501,
+		3502,
+		3503,
+		3504,
+		3505,
+		3506,
+		3507,
+		3508,
+		3509,
+		3510,
+		3511,
+		3512,
+		3513,
+		3514,
+		3515,
+		3516,
+		3517,
+		3518,
+		3519,
+		3520,
+		3521,
+		3522,
+		3523,
+		3524,
+		3525,
+		3526,
+		3527,
+		3528,
+		3529,
+		3530,
+		3531,
+		3532,
+		3533,
+		3534,
+		3535,
+		3536
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -34047,5 +34166,1069 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 3417,
 		flag = 10
+	},
+	[3418] = {
+		param = "指挥官！我刚刚偶遇了一只逃跑的小猫！",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3418,
+		flag = 0
+	},
+	[3419] = {
+		param = "似乎是打算独自出去冒险呢",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3419,
+		flag = 0
+	},
+	[3420] = {
+		param = "真是不听话的小家伙啊~~~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3420,
+		flag = 0
+	},
+	[3421] = {
+		param = "100",
+		ship_group = 70203,
+		type = 4,
+		id = 3421,
+		flag = 0,
+		option = {
+			{
+				1,
+				"看来有人要头疼了"
+			}
+		}
+	},
+	[3422] = {
+		param = "看来有人要头疼了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3422,
+		flag = 1
+	},
+	[3423] = {
+		param = "66",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3423,
+		flag = 1
+	},
+	[3424] = {
+		param = "养宠物不是件容易事呢",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3424,
+		flag = 1
+	},
+	[3425] = {
+		param = "那些小家伙实在调皮，想调教好……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3425,
+		flag = 1
+	},
+	[3426] = {
+		param = "要花费大 功 夫才行~",
+		ship_group = 70203,
+		type = 1,
+		id = 3426,
+		flag = 1,
+		option = {
+			{
+				2,
+				"但对你来说不是难事吧"
+			}
+		}
+	},
+	[3427] = {
+		param = "但对你来说不是难事吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3427,
+		flag = 2
+	},
+	[3428] = {
+		param = "感觉你很擅长驯服和教导",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3428,
+		flag = 2
+	},
+	[3429] = {
+		param = "指挥官的夸奖我就收下啦~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3429,
+		flag = 2
+	},
+	[3430] = {
+		param = "养宠物嘛……感觉有点难以想象",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3430,
+		flag = 2
+	},
+	[3431] = {
+		param = "你感觉什么样的宠物更适合我？~",
+		ship_group = 70203,
+		type = 1,
+		id = 3431,
+		flag = 2,
+		option = {
+			{
+				3,
+				"温顺的"
+			},
+			{
+				4,
+				"野性的"
+			}
+		}
+	},
+	[3432] = {
+		param = "温顺的比较好，省心又乖巧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3432,
+		flag = 3
+	},
+	[3433] = {
+		param = "温顺的宠物就省了驯服的过程，确实省心",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3433,
+		flag = 3
+	},
+	[3434] = {
+		param = "但我大概会想……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3434,
+		flag = 3
+	},
+	[3435] = {
+		param = "它究竟是生来懂事，还是被前主人驯服过？",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3435,
+		flag = 3
+	},
+	[3436] = {
+		param = "啊~忍不住会有些吃醋呢~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3436,
+		flag = 3
+	},
+	[3437] = {
+		param = "野性的更有魅力",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3437,
+		flag = 4
+	},
+	[3438] = {
+		param = "呵呵，难得和指挥官观点一致",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3438,
+		flag = 4
+	},
+	[3439] = {
+		param = "调教“有个性”的家伙……听起来真是令人心动啊",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3439,
+		flag = 4
+	},
+	[3440] = {
+		param = "如果它不听话……",
+		ship_group = 70203,
+		type = 1,
+		id = 3440,
+		flag = 4,
+		option = {
+			{
+				5,
+				"你会把它关进笼子吧？"
+			}
+		}
+	},
+	[3441] = {
+		param = "你会把它关进笼子吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3441,
+		flag = 5
+	},
+	[3442] = {
+		param = "我会让它自己选择缰绳~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3442,
+		flag = 5
+	},
+	[3443] = {
+		param = "这样想想，虽然我擅长调教……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3443,
+		flag = 0
+	},
+	[3444] = {
+		param = "但或许并不适合养宠物呢",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3444,
+		flag = 0
+	},
+	[3445] = {
+		param = "而且，比起真正的宠物",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3445,
+		flag = 0
+	},
+	[3446] = {
+		param = "我可能更擅长“宠”别的什么~",
+		ship_group = 70203,
+		type = 1,
+		id = 3446,
+		flag = 0,
+		option = {
+			{
+				6,
+				"什么？"
+			}
+		}
+	},
+	[3447] = {
+		param = "什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3447,
+		flag = 6
+	},
+	[3448] = {
+		param = "指挥官难道不明白吗？",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3448,
+		flag = 6
+	},
+	[3449] = {
+		param = "如果一定要宠着什么的话……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3449,
+		flag = 6
+	},
+	[3450] = {
+		param = "这种专属的宠爱",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3450,
+		flag = 6
+	},
+	[3451] = {
+		param = "只能属于指挥官你啊",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3451,
+		flag = 6
+	},
+	[3452] = {
+		param = "234",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3452,
+		flag = 6
+	},
+	[3453] = {
+		param = "指挥官有没有觉得，最近港区有点安静过头了？",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3453,
+		flag = 0
+	},
+	[3454] = {
+		param = "工作不太多，也没什么特别的事情发生",
+		ship_group = 70203,
+		type = 1,
+		id = 3454,
+		flag = 0,
+		option = {
+			{
+				1,
+				"清闲一点不好吗？"
+			}
+		}
+	},
+	[3455] = {
+		param = "清闲一点不好吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3455,
+		flag = 1
+	},
+	[3456] = {
+		param = "风平浪静才是最危险的信号啊~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3456,
+		flag = 1
+	},
+	[3457] = {
+		param = "懈怠会像雪花一样累积",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3457,
+		flag = 1
+	},
+	[3458] = {
+		param = "直到雪崩的时候，才会突然发现……自己懒散过头了！",
+		ship_group = 70203,
+		type = 1,
+		id = 3458,
+		flag = 1,
+		option = {
+			{
+				2,
+				"闲不下来"
+			}
+		}
+	},
+	[3459] = {
+		param = "恰巴耶夫真是闲不下来的类型呢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3459,
+		flag = 2
+	},
+	[3460] = {
+		param = "指挥官不也是吗~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3460,
+		flag = 2
+	},
+	[3461] = {
+		param = "50",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3461,
+		flag = 2
+	},
+	[3462] = {
+		param = "要不……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3462,
+		flag = 2
+	},
+	[3463] = {
+		param = "我们来点「特 别 的」监督活动？",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3463,
+		flag = 2
+	},
+	[3464] = {
+		param = "扮演“督查”的那种，听起来很有趣吧？",
+		ship_group = 70203,
+		type = 1,
+		id = 3464,
+		flag = 2,
+		option = {
+			{
+				3,
+				"说说具体规则？"
+			}
+		}
+	},
+	[3465] = {
+		param = "说说具体规则？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3465,
+		flag = 3
+	},
+	[3466] = {
+		param = "很简单！我们轮流扮演“督查”，监督对方的一天",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3466,
+		flag = 3
+	},
+	[3467] = {
+		param = "在监督期间，督查可以随意发号施令，对方必须绝对服从哦♡",
+		ship_group = 70203,
+		type = 1,
+		id = 3467,
+		flag = 3,
+		option = {
+			{
+				4,
+				"发号施令？"
+			},
+			{
+				5,
+				"绝对服从？"
+			}
+		}
+	},
+	[3468] = {
+		param = "发号施令？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3468,
+		flag = 4
+	},
+	[3469] = {
+		param = "没错，可以让对方做任何你希望的事情",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3469,
+		flag = 4
+	},
+	[3470] = {
+		param = "比如……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3470,
+		flag = 4
+	},
+	[3471] = {
+		param = "算了，即使我不举例，指挥官心中也一定有些想法了吧~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3471,
+		flag = 4
+	},
+	[3472] = {
+		param = "绝对服从？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3472,
+		flag = 5
+	},
+	[3473] = {
+		param = "没错，不能拒绝对方的任何要求哦",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3473,
+		flag = 5
+	},
+	[3474] = {
+		param = "放心，我会温柔地“管理”你，不会让你太为难的",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3474,
+		flag = 5
+	},
+	[3475] = {
+		param = "指挥官……一定也会温♡柔♡地对待我吧~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3475,
+		flag = 5
+	},
+	[3476] = {
+		param = "我来做个小小的示范吧",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3476,
+		flag = 0
+	},
+	[3477] = {
+		param = "请立刻解开衬衫的前三颗纽扣，和咖啡合一张影发给我",
+		ship_group = 70203,
+		type = 1,
+		id = 3477,
+		flag = 0,
+		option = {
+			{
+				6,
+				"……这和督查有什么关系？"
+			}
+		}
+	},
+	[3478] = {
+		param = "……这和督查有什么关系？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3478,
+		flag = 6
+	},
+	[3479] = {
+		param = "为了防止你过度工作，忽视了休息呀",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3479,
+		flag = 6
+	},
+	[3480] = {
+		param = "我可是在认真监督指挥官的健康呢！",
+		ship_group = 70203,
+		type = 1,
+		id = 3480,
+		flag = 6,
+		option = {
+			{
+				7,
+				"我申请驳回不合理的要求"
+			}
+		}
+	},
+	[3481] = {
+		param = "我申请驳回不合理的要求",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3481,
+		flag = 7
+	},
+	[3482] = {
+		param = "指挥官是不是忘记了什么",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3482,
+		flag = 7
+	},
+	[3483] = {
+		param = "要「绝 对 服 从」哦",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3483,
+		flag = 7
+	},
+	[3484] = {
+		param = "还是……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3484,
+		flag = 7
+	},
+	[3485] = {
+		param = "你希望我来亲自检查？",
+		ship_group = 70203,
+		type = 1,
+		id = 3485,
+		flag = 7,
+		option = {
+			{
+				8,
+				"是你忘记了什么才对"
+			}
+		}
+	},
+	[3486] = {
+		param = "是你忘记了什么才对",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3486,
+		flag = 8
+	},
+	[3487] = {
+		param = "我还没答应你要参加这个游戏呢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3487,
+		flag = 8
+	},
+	[3488] = {
+		param = "41",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3488,
+		flag = 8
+	},
+	[3489] = {
+		param = "………………太狡猾了！！！",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3489,
+		flag = 8
+	},
+	[3490] = {
+		param = "看来要想个办法说服你才行呢",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3490,
+		flag = 8
+	},
+	[3491] = {
+		param = "在指挥室等我吧！",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3491,
+		flag = 8
+	},
+	[3492] = {
+		param = "让你好好见识一下，我♡的♡手♡段~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3492,
+		flag = 8
+	},
+	[3493] = {
+		param = "指挥官，下次的派对，你会穿什么呢？",
+		ship_group = 70203,
+		type = 1,
+		id = 3493,
+		flag = 0,
+		option = {
+			{
+				1,
+				"还没想好……"
+			}
+		}
+	},
+	[3494] = {
+		param = "还没想好……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3494,
+		flag = 1
+	},
+	[3495] = {
+		param = "不是什么正式场合，随便穿就行吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3495,
+		flag = 1
+	},
+	[3496] = {
+		param = "！！！那可不行",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3496,
+		flag = 1
+	},
+	[3497] = {
+		param = "既然是派对，就要好好打扮嘛",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3497,
+		flag = 1
+	},
+	[3498] = {
+		param = "我正在烦恼到底穿什么比较好",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3498,
+		flag = 1
+	},
+	[3499] = {
+		param = "要不要帮我参谋一下？",
+		ship_group = 70203,
+		type = 1,
+		id = 3499,
+		flag = 1,
+		option = {
+			{
+				2,
+				"可以"
+			}
+		}
+	},
+	[3500] = {
+		param = "可以啊，你先说说都有什么选项？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3500,
+		flag = 2
+	},
+	[3501] = {
+		param = "嗯……一件是丝质长裙，修身的剪裁，穿上后会很好地展现身材曲线~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3501,
+		flag = 2
+	},
+	[3502] = {
+		param = "另一件是短款的小洋装，带一点俏皮感，不过……裙摆有点短呢~",
+		ship_group = 70203,
+		type = 1,
+		id = 3502,
+		flag = 2,
+		option = {
+			{
+				3,
+				"听起来都不错"
+			}
+		}
+	},
+	[3503] = {
+		param = "听起来都不错啊，选一个自己喜欢的吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3503,
+		flag = 3
+	},
+	[3504] = {
+		param = "就是因为两件都很喜欢才会来问你的！",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3504,
+		flag = 3
+	},
+	[3505] = {
+		param = "实在难以抉择啊~~~~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3505,
+		flag = 3
+	},
+	[3506] = {
+		param = "指挥官要帮我选，不然我会一直犹豫下去的",
+		ship_group = 70203,
+		type = 1,
+		id = 3506,
+		flag = 3,
+		option = {
+			{
+				4,
+				"长裙，优雅又迷人"
+			},
+			{
+				5,
+				"短裙，俏皮又活泼"
+			}
+		}
+	},
+	[3507] = {
+		param = "长裙，优雅又迷人",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3507,
+		flag = 4
+	},
+	[3508] = {
+		param = "指挥官的品味不错呢",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3508,
+		flag = 4
+	},
+	[3509] = {
+		param = "不过这条长裙背后的丝带有点……复杂",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3509,
+		flag = 4
+	},
+	[3510] = {
+		param = "系起来可不容易，要有人帮忙才行///",
+		ship_group = 70203,
+		type = 1,
+		id = 3510,
+		flag = 4,
+		option = {
+			{
+				6,
+				"再换一套？"
+			}
+		}
+	},
+	[3511] = {
+		param = "短裙，俏皮又活泼",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3511,
+		flag = 5
+	},
+	[3512] = {
+		param = "指挥官是喜欢活泼一点的风格吗？",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3512,
+		flag = 5
+	},
+	[3513] = {
+		param = "短裙虽然可爱……但背后的拉链设计有点麻烦呢",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3513,
+		flag = 5
+	},
+	[3514] = {
+		param = "一个人恐怕很难拉上去……",
+		ship_group = 70203,
+		type = 1,
+		id = 3514,
+		flag = 5,
+		option = {
+			{
+				6,
+				"再换一套？"
+			}
+		}
+	},
+	[3515] = {
+		param = "要不换一套穿起来简单一点的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3515,
+		flag = 6
+	},
+	[3516] = {
+		param = "可是这两套裙子的面料手感真的很好，让人舍不得放弃",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3516,
+		flag = 6
+	},
+	[3517] = {
+		param = "说起来，如果不是亲眼看到款式，亲自感受面料质感……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3517,
+		flag = 6
+	},
+	[3518] = {
+		param = "恐怕没法做出公正的判断吧？",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3518,
+		flag = 6
+	},
+	[3519] = {
+		param = "所以……指挥官干脆直接来我的卧室看看？",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3519,
+		flag = 6
+	},
+	[3520] = {
+		param = "52",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3520,
+		flag = 6
+	},
+	[3521] = {
+		param = "这样就不用光靠描述啦，指挥官还能「亲 自 检 查」哪一套更合适~",
+		ship_group = 70203,
+		type = 1,
+		id = 3521,
+		flag = 6,
+		option = {
+			{
+				7,
+				"那我岂不是提前看到了你的装扮"
+			}
+		}
+	},
+	[3522] = {
+		param = "那我岂不是提前看到了你的装扮",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3522,
+		flag = 7
+	},
+	[3523] = {
+		param = "没问题吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3523,
+		flag = 7
+	},
+	[3524] = {
+		param = "如果是指挥官的话……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3524,
+		flag = 7
+	},
+	[3525] = {
+		param = "完全没问题哦♡",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3525,
+		flag = 7
+	},
+	[3526] = {
+		param = "毕竟，只有特别的人才有这个“特权”呢~",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3526,
+		flag = 7
+	},
+	[3527] = {
+		param = "而且，说不定我还需要指挥官帮忙……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3527,
+		flag = 7
+	},
+	[3528] = {
+		param = "246",
+		ship_group = 70203,
+		type = 4,
+		id = 3528,
+		flag = 7,
+		option = {
+			{
+				8,
+				"什么忙？"
+			}
+		}
+	},
+	[3529] = {
+		param = "什么忙？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3529,
+		flag = 8
+	},
+	[3530] = {
+		param = "无论哪条裙子，我都没法自己好好穿上呢",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3530,
+		flag = 8
+	},
+	[3531] = {
+		param = "绑丝带或者拉拉链这种精细的活计",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3531,
+		flag = 8
+	},
+	[3532] = {
+		param = "当然要交给最熟悉我身材的指挥官来处理",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3532,
+		flag = 8
+	},
+	[3533] = {
+		param = "门已经打开了哦",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3533,
+		flag = 8
+	},
+	[3534] = {
+		param = "快点来吧，我亲爱的……",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3534,
+		flag = 8
+	},
+	[3535] = {
+		param = "临 时 助 手♡",
+		ship_group = 70203,
+		option = "",
+		type = 1,
+		id = 3535,
+		flag = 8
+	},
+	[3536] = {
+		param = "224",
+		ship_group = 70203,
+		option = "",
+		type = 4,
+		id = 3536,
+		flag = 8
 	}
 }

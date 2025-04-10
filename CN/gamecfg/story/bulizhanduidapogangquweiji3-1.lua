@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_148",
 			hideOther = true,
 			dir = 1,
-			actor = 100011,
+			actor = 100020,
 			actorName = "泛用型布里&特装型布里MKIII",
 			hidePaintObj = true,
 			say = "姐姐buli！\n姐姐burin！",

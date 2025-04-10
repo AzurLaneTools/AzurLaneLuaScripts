@@ -12,7 +12,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgm = "story-6",
 			stopbgm = true,
-			say = "铁血实验场·战场区块H8",
+			say = "铁血试验场·战场区块H8",
 			flashout = {
 				dur = 1,
 				black = true,

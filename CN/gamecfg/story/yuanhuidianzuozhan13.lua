@@ -74,7 +74,7 @@ return {
 			side = 2,
 			bgName = "bg_yuanhuidian",
 			hidePaintObj = true,
-			say = "铁血实验场·休息区",
+			say = "铁血试验场·休息区",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,7 +558,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 1,
-			say = "这个实验场主机也真是的，明明之前都是间隔个三天五天，最近怎么突然连续一周全勤了……",
+			say = "这个试验场主机也真是的，明明之前都是间隔个三天五天，最近怎么突然连续一周全勤了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			expression = 2,
-			say = "难道实验场主机也想回家了么？",
+			say = "难道试验场主机也想回家了么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

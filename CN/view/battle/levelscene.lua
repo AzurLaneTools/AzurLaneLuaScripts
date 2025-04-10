@@ -599,7 +599,7 @@ slot0.didEnter = function(slot0)
 	slot1 = getProxy(ActivityProxy):getEnterReadyActivity()
 
 	setActive(slot0.entranceLayer:Find("enters/enter_ready/nothing"), not tobool(slot1))
-	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), true)
+	setActive(slot0.entranceLayer:Find("enters/enter_ready/activity"), tobool(slot1))
 
 	if tobool(slot1) and slot1:getConfig("config_client").entrance_bg then
 		GetImageSpriteFromAtlasAsync(slot2, "", slot0.entranceLayer:Find("enters/enter_ready/activity"), true)

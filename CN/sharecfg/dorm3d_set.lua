@@ -184,6 +184,11 @@ pg.dorm3d_set = {
 			260201
 		}
 	},
+	drom3d_shop_product_panel_num = {
+		key_value_varchar = "",
+		key = "drom3d_shop_product_panel_num",
+		key_value_int = 3
+	},
 	all = {
 		"favor_level",
 		"stage",
@@ -215,6 +220,7 @@ pg.dorm3d_set = {
 		"drom3d_shop_product_panel_medium",
 		"drom3d_shop_product_panel_min1",
 		"drom3d_shop_product_panel_min2",
-		"drom3d_shop_product_panel_min3"
+		"drom3d_shop_product_panel_min3",
+		"drom3d_shop_product_panel_num"
 	}
 }

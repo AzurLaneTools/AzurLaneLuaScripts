@@ -72,7 +72,7 @@ slot0.ExitRoutineSystem = function(slot0, slot1)
 end
 
 slot0.ExitScenarioSystem = function(slot0, slot1)
-	if slot1.needHelpMessage then
+	if slot1.needHelpMessage or slot1.score == ys.Battle.BattleConst.BattleScore.C then
 		getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.BATTLE_FAILED)
 	end
 

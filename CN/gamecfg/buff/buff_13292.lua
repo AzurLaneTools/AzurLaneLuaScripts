@@ -28,7 +28,6 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				time = 1,
 				skill_id = 13291,
 				target = "TargetSelf",
 				check_target = {

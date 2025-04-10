@@ -13,7 +13,7 @@ return {
 			bgm = "story-6",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "铁血实验场·战场区块C3",
+			say = "铁血试验场·战场区块C3",
 			flashout = {
 				dur = 1,
 				black = true,

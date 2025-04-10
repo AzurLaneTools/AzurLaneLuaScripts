@@ -801,7 +801,7 @@ return {
 			actor = 900353,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "我来这里是为了执行破坏塞壬兵器实验场的任务。",
+			say = "我来这里是为了执行破坏塞壬兵器试验场的任务。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -837,7 +837,7 @@ return {
 			actor = 900353,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "进来后不久，我就明白了塞壬在这片实验场中利用末日四骑士的概念进行兵器研发的事。",
+			say = "进来后不久，我就明白了塞壬在这片试验场中利用末日四骑士的概念进行兵器研发的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -872,7 +872,7 @@ return {
 			actor = 900353,
 			nameColor = "#ffa500",
 			hidePaintObj = true,
-			say = "更进一步的是，聪明的我发现四骑士在实验场中的战斗力存在差别，彼此之间还会相互战斗。",
+			say = "更进一步的是，聪明的我发现四骑士在试验场中的战斗力存在差别，彼此之间还会相互战斗。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -1235,7 +1235,7 @@ return {
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一般不会特意关注“某个塞壬实验场”这么细枝末节的事吧……",
+			say = "一般不会特意关注“某个塞壬试验场”这么细枝末节的事吧……",
 			painting = {
 				alpha = 0.3,
 				time = 1

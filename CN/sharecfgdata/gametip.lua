@@ -30477,6 +30477,16 @@ _G.pg.base.gametip.word_maingroup_updating = {
 }
 
 
+_G.pg.base.gametip.word_maingroup_idle = {
+	tip = "无状态"
+}
+
+
+_G.pg.base.gametip.word_maingroup_latest = {
+	tip = "无需更新"
+}
+
+
 _G.pg.base.gametip.word_maingroup_updatesuccess = {
 	tip = "更新完成"
 }
@@ -37769,4 +37779,49 @@ _G.pg.base.gametip.SuperBulin2_help = {
 
 _G.pg.base.gametip.SuperBulin2_lock_tip = {
 	tip = "线索收集完成即可解锁特别关卡~"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_buy_tips = {
+	tip = "是否消耗$1<color=#169fff>$2</color>（总计$1<color=#169fff>$3</color>）购买<color=#169fff>$4</color> "
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_title = {
+	tip = "宿舍商店"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit = {
+	tip = "限购"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_sold_out = {
+	tip = "已售罄"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_all = {
+	tip = "全部"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift1 = {
+	tip = "礼物"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_furniture = {
+	tip = "家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_others = {
+	tip = "其他"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit1 = {
+	tip = "本周限购"
 }

@@ -9,96 +9,91 @@ slot0.optionsPath = {
 }
 
 slot0.init = function(slot0)
-	slot1 = slot0._tf
-	slot0.rtMap = slot1:Find("Map")
-	slot1 = slot0.rtMap
-	slot0.rtIconTip = slot1:Find("tip")
+	slot0.rtMap = slot0._tf:Find("Map")
+	slot0.rtIconTip = slot0.rtMap:Find("tip")
 
 	setActive(slot0.rtIconTip, false)
-
-	slot3 = slot0.rtIconTip
-
-	onButton(slot0, slot3:Find("bg"), function ()
+	onButton(slot0, slot0.rtIconTip:Find("bg"), function ()
 		uv0:HideIconTipWindow()
 	end, SFX_CANCEL)
-
-	slot2 = slot0.rtIconTip
-
-	setText(slot2:Find("window/btn_cancel/Text"), i18n("text_cancel"))
-
-	slot3 = slot0.rtIconTip
-
-	onButton(slot0, slot3:Find("window/btn_cancel"), function ()
+	setText(slot0.rtIconTip:Find("window/btn_cancel/Text"), i18n("text_cancel"))
+	onButton(slot0, slot0.rtIconTip:Find("window/btn_cancel"), function ()
 		uv0:HideIconTipWindow()
 	end, SFX_CANCEL)
+	setText(slot0.rtIconTip:Find("window/btn_confirm/Text"), i18n("text_confirm"))
 
-	slot2 = slot0.rtIconTip
+	slot0.rtMain = slot0._tf:Find("Main")
 
-	setText(slot2:Find("window/btn_confirm/Text"), i18n("text_confirm"))
-
-	slot1 = slot0._tf
-	slot0.rtMain = slot1:Find("Main")
-	slot2 = slot0.rtMain
-
-	setText(slot2:Find("title/Text"), i18n("dorm3d_role_choose"))
-
-	slot3 = slot0.rtMain
-
-	onButton(slot0, slot3:Find("btn_back"), function ()
+	setText(slot0.rtMain:Find("title/Text"), i18n("dorm3d_role_choose"))
+	onButton(slot0, slot0.rtMain:Find("btn_back"), function ()
 		uv0.clearSceneCache = true
 
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	slot2 = slot0.rtMain
-	slot0.insBtn = Dorm3dInsBtn.New(slot2:Find("btn_ins"))
+	slot0.insBtn = Dorm3dInsBtn.New(slot0.rtMain:Find("btn_ins"))
 
 	onButton(slot0, slot0.insBtn.root, function ()
 		uv0:emit(SelectDorm3DMediator.OPEN_INS_LAYER, uv0.insBtn.IsNewPhoneCall())
 	end)
+	setActive(slot0.rtMain:Find("btn_ins"), not DORM_LOCK_INS)
+
+	if not pg.TimeMgr.GetInstance():IsSameWeek(pg.TimeMgr.GetInstance():GetServerTime(), PlayerPrefs.GetInt(getProxy(PlayerProxy):getRawData().id .. "_dorm3dGiftWeekRefreshTimeStamp", 0)) then
+		ApartmentProxy.RefreshGiftDailyTip()
+	end
+
+	slot3 = slot0.rtMain
+
+	setActive(slot3:Find("btn_shop/tip"), Dorm3dShopUI.ShouldShowAllTip())
+
+	slot4 = slot0.rtMain
+
+	onButton(slot0, slot4:Find("btn_shop"), function ()
+		slot0 = uv0
+
+		slot0:emit(SelectDorm3DMediator.OPEN_SHOP_LAYER, function ()
+			setActive(uv0.rtMain:Find("btn_shop/tip"), Dorm3dShopUI.ShouldShowAllTip())
+		end)
+	end)
 
 	slot2 = slot0.rtMain
-
-	setActive(slot2:Find("btn_ins"), not DORM_LOCK_INS)
-
-	slot1 = slot0.rtMain
-	slot0.rtStamina = slot1:Find("stamina")
-	slot1 = slot0.rtMain
-	slot0.rtRes = slot1:Find("res")
+	slot0.rtStamina = slot2:Find("stamina")
+	slot2 = slot0.rtMain
+	slot0.rtRes = slot2:Find("res")
 
 	slot0:InitResBar()
 
-	slot1 = slot0.rtMain
-	slot0.rtWeekTask = slot1:Find("task")
+	slot2 = slot0.rtMain
+	slot0.rtWeekTask = slot2:Find("task")
 
 	slot0:UpdateWeekTask()
 
-	slot1 = slot0._tf
-	slot0.rtLayer = slot1:Find("Layer")
-	slot1 = slot0.rtLayer
-	slot0.rtMgrPanel = slot1:Find("mgr_panel")
-	slot3 = slot0.rtMgrPanel
+	slot2 = slot0._tf
+	slot0.rtLayer = slot2:Find("Layer")
+	slot2 = slot0.rtLayer
+	slot0.rtMgrPanel = slot2:Find("mgr_panel")
+	slot4 = slot0.rtMgrPanel
 
-	onButton(slot0, slot3:Find("bg"), function ()
+	onButton(slot0, slot4:Find("bg"), function ()
 		uv0:HideMgrPanel()
 	end, SFX_CANCEL)
 
+	slot3 = slot0.rtMgrPanel
+
+	setText(slot3:Find("window/title/Text"), i18n("dorm3d_role_manage"))
+
 	slot2 = slot0.rtMgrPanel
+	slot0.rtMgrChar = slot2:Find("window/character")
+	slot3 = slot0.rtMgrChar
 
-	setText(slot2:Find("window/title/Text"), i18n("dorm3d_role_manage"))
+	setText(slot3:Find("title"), i18n("dorm3d_role_manage_role"))
 
-	slot1 = slot0.rtMgrPanel
-	slot0.rtMgrChar = slot1:Find("window/character")
 	slot2 = slot0.rtMgrChar
+	slot2 = slot2:Find("container")
+	slot0.charRoomCardItemList = UIItemList.New(slot2, slot2:Find("tpl"))
+	slot3 = slot0.charRoomCardItemList
 
-	setText(slot2:Find("title"), i18n("dorm3d_role_manage_role"))
-
-	slot1 = slot0.rtMgrChar
-	slot1 = slot1:Find("container")
-	slot0.charRoomCardItemList = UIItemList.New(slot1, slot1:Find("tpl"))
-	slot2 = slot0.charRoomCardItemList
-
-	slot2:make(function (slot0, slot1, slot2)
+	slot3:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -123,18 +118,18 @@ slot0.init = function(slot0)
 		end
 	end)
 
-	slot2 = slot0.rtMgrPanel
-	slot0.rtMgrPublic = slot2:Find("window/public")
+	slot3 = slot0.rtMgrPanel
+	slot0.rtMgrPublic = slot3:Find("window/public")
+	slot4 = slot0.rtMgrPublic
+
+	setText(slot4:Find("title"), i18n("dorm3d_role_manage_public_area"))
+
 	slot3 = slot0.rtMgrPublic
+	slot3 = slot3:Find("container")
+	slot0.publicRoomCardItemList = UIItemList.New(slot3, slot3:Find("tpl"))
+	slot4 = slot0.publicRoomCardItemList
 
-	setText(slot3:Find("title"), i18n("dorm3d_role_manage_public_area"))
-
-	slot2 = slot0.rtMgrPublic
-	slot2 = slot2:Find("container")
-	slot0.publicRoomCardItemList = UIItemList.New(slot2, slot2:Find("tpl"))
-	slot3 = slot0.publicRoomCardItemList
-
-	slot3:make(function (slot0, slot1, slot2)
+	slot4:make(function (slot0, slot1, slot2)
 		slot1 = slot1 + 1
 
 		if slot0 == UIItemList.EventUpdate then
@@ -191,6 +186,10 @@ slot0.SetFloor = function(slot0, slot1)
 	slot0:ReplaceSpecialRoomIcon()
 end
 
+slot0.FlushFloor = function(slot0)
+	slot0:SetFloor(slot0.contextData.floorName)
+end
+
 slot0.InitIconTrigger = function(slot0, slot1)
 	slot2 = slot0.roomDic[slot1]
 
@@ -228,7 +227,11 @@ slot0.InitIconTrigger = function(slot0, slot1)
 						slot0 = {}
 					end
 
-					uv1:emit(SelectDorm3DMediator.OPEN_INVITE_LAYER, uv0, slot0)
+					slot1 = uv1
+
+					slot1:emit(SelectDorm3DMediator.OPEN_INVITE_LAYER, uv0, slot0, function ()
+						uv0:FlushFloor()
+					end)
 				end)
 			end
 		elseif slot1 == 2 then
@@ -283,6 +286,12 @@ slot0.UpdateIconState = function(slot0, slot1)
 			end
 		end
 	})
+
+	slot5 = getProxy(PlayerProxy):getRawData().id
+
+	if slot2:Find("tip") then
+		setActive(slot2:Find("tip"), PlayerPrefs.GetInt(slot5 .. "_dorm3dRoomInviteSuccess_" .. slot1, 1) == 0)
+	end
 end
 
 slot0.UpdateShowIcon = function(slot0, slot1, slot2)
