@@ -248,7 +248,7 @@ return {
 			bgName = "star_level_bg_148",
 			hideOther = true,
 			dir = 1,
-			actor = 100011,
+			actor = 100020,
 			actorName = "범용형 부린&시제형 부린 MKII",
 			hidePaintObj = true,
 			say = "언니, 푸링!",
