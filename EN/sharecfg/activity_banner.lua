@@ -286,6 +286,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 9,
 		pic = "temp9",
@@ -294,32 +295,6 @@ pg.activity_banner = {
 			{
 				open_remaster = true,
 				isSP = true
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					3,
-					27
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		}
 	},
