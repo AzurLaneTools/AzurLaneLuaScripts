@@ -8642,7 +8642,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 1
 	},
 	{
-		param = "指揮官來了~阿蒂利歐最喜歡跟指揮官聊天了~",
+		param = "指揮官來了~阿蒂利奧最喜歡跟指揮官聊天了~",
 		ship_group = 60110,
 		option = "",
 		type = 1,

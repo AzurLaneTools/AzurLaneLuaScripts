@@ -2,10 +2,10 @@ pg = pg or {}
 pg.activity_ins_chat_group = {
 	{
 		ship_group = 960007,
-		name = "休闲计划",
+		name = "休閒計畫",
 		id = 1,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			1,
@@ -43,10 +43,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960007,
-		name = "共进晚餐",
+		name = "共進晚餐",
 		id = 2,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			32,
@@ -75,7 +75,7 @@ pg.activity_ins_chat_group = {
 		name = "日出",
 		id = 3,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			51,
@@ -120,7 +120,7 @@ pg.activity_ins_chat_group = {
 		name = "沐浴露",
 		id = 4,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			86,
@@ -151,7 +151,7 @@ pg.activity_ins_chat_group = {
 		name = "味道",
 		id = 5,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			107,
@@ -186,10 +186,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960008,
-		name = "无聊",
+		name = "無聊",
 		id = 6,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			135,
@@ -217,10 +217,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960009,
-		name = "爱好",
+		name = "愛好",
 		id = 7,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			156,
@@ -277,7 +277,7 @@ pg.activity_ins_chat_group = {
 		name = "夜宵",
 		id = 8,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			203,
@@ -312,7 +312,7 @@ pg.activity_ins_chat_group = {
 		name = "思念",
 		id = 9,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			228,
@@ -349,7 +349,7 @@ pg.activity_ins_chat_group = {
 		name = "踩背",
 		id = 10,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			255,
@@ -379,10 +379,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960010,
-		name = "醉话",
+		name = "醉話",
 		id = 11,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			278,
@@ -416,7 +416,7 @@ pg.activity_ins_chat_group = {
 		name = "健身",
 		id = 12,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			302,
@@ -450,10 +450,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960011,
-		name = "手机短信",
+		name = "手機短信",
 		id = 13,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			329,
@@ -499,7 +499,7 @@ pg.activity_ins_chat_group = {
 		name = "走失",
 		id = 14,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			365,
@@ -531,7 +531,7 @@ pg.activity_ins_chat_group = {
 		name = "失眠",
 		id = 15,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			387,
@@ -574,10 +574,10 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 960005,
-		name = "请假",
+		name = "請假",
 		id = 16,
 		trigger_param = "",
-		unlock_desc = "获得角色",
+		unlock_desc = "獲得角色",
 		trigger_type = 1,
 		content = {
 			423,
@@ -640,7 +640,7 @@ pg.activity_ins_chat_group = {
 		name = "下雨天",
 		id = 17,
 		trigger_param = "100",
-		unlock_desc = "角色好感度达到100",
+		unlock_desc = "角色好感度達到100",
 		trigger_type = 2,
 		content = {
 			476,
@@ -697,7 +697,7 @@ pg.activity_ins_chat_group = {
 		name = "睡醒",
 		id = 18,
 		trigger_param = "150",
-		unlock_desc = "角色好感度达到150",
+		unlock_desc = "角色好感度達到150",
 		trigger_type = 2,
 		content = {
 			523,
@@ -723,9 +723,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 109,
-		name = "指挥室的宝藏",
+		name = "指揮室的寶藏",
 		id = 19,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -800,9 +800,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 200,
-		name = "给指挥官的惊喜",
+		name = "給指揮官的驚喜",
 		id = 20,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -884,9 +884,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 101,
-		name = "观影会筹备中",
+		name = "觀影會籌備中",
 		id = 21,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -966,9 +966,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 102,
-		name = "“遵守纪律”的北方联合",
+		name = "“遵守紀律”的北方聯合",
 		id = 22,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1040,7 +1040,7 @@ pg.activity_ins_chat_group = {
 		ship_group = 103,
 		name = "聚餐",
 		id = 23,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1117,9 +1117,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 104,
-		name = "特别关注",
+		name = "特別關注",
 		id = 24,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1208,9 +1208,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 105,
-		name = "演习成绩",
+		name = "演習成績",
 		id = 25,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1281,9 +1281,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 106,
-		name = "频道幸运日",
+		name = "頻道幸運日",
 		id = 26,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1364,9 +1364,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 107,
-		name = "重樱的实力！",
+		name = "重櫻的實力！",
 		id = 27,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
@@ -1450,9 +1450,9 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 108,
-		name = "特别的茶会",
+		name = "特別的茶會",
 		id = 28,
-		unlock_desc = "时间解锁",
+		unlock_desc = "時間解鎖",
 		trigger_type = 3,
 		trigger_param = {
 			{
