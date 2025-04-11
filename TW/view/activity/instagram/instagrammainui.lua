@@ -20,7 +20,7 @@ end
 
 slot0.didEnter = function(slot0)
 	slot0:SetUp()
-	triggerButton(slot0.juusBtn)
+	triggerButton(slot0.chatBtn)
 end
 
 slot0.SetUp = function(slot0)

@@ -151,6 +151,15 @@ slot1 = {
 		args = function ()
 			return {}
 		end
+	},
+	{
+		id = "JUUS_GUIDE01",
+		condition = function ()
+			return true
+		end,
+		args = function ()
+			return {}
+		end
 	}
 }
 
