@@ -18,11 +18,6 @@ end
 
 slot0.OnInit = function(slot0)
 	setActive(slot0.tipTr.gameObject, false)
-
-	if not slot0.config.text_pic or slot0.config.text_pic == "" then
-		slot0.hideSubImg = false
-		slot0._tf:Find("Image").anchoredPosition = Vector2(120, -405)
-	end
 end
 
 slot0.CustomOnClick = function(slot0)

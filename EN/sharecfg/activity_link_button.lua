@@ -40,19 +40,17 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
+		param = "",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 2,
+		type = 0,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			5871
-		},
-		param = {
-			"clue map"
+			5888
 		}
 	},
 	[20] = {
@@ -137,16 +135,13 @@ pg.activity_link_button = {
 	[90] = {
 		param = "0",
 		name = "event_series",
-		text_pic = "",
+		time = "stop",
+		text_pic = "text_event_series",
 		type = 0,
 		pic = "event_series",
 		id = 90,
 		group_id = 4,
-		order = 1,
-		time = {
-			"default",
-			5888
-		}
+		order = 1
 	},
 	[100] = {
 		name = "event_medal",
