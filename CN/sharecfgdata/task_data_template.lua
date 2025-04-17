@@ -147003,6 +147003,597 @@ _G.pg.base.task_data_template[21671] = {
 }
 
 
+_G.pg.base.task_data_template[21673] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905487,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』日常建造",
+	desc = "建造舰船3次。",
+	sub_type = 30,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21673,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			488,
+			300
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21674] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905488,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』日常出击",
+	desc = "舰队出征，获得15次胜利。",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21674,
+	target_num = 15,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			488,
+			300
+		},
+		{
+			2,
+			65088,
+			1
+		}
+	},
+	scene = {
+		"LEVEL"
+	}
+}
+
+
+_G.pg.base.task_data_template[21675] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905489,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』日常困难本",
+	desc = "通关1次任意困难关卡 ",
+	sub_type = 182,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21675,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "10101",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			488,
+			150
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[21676] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905490,
+	type = 36,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』日常活动关卡",
+	desc = "通过1次任意活动关卡 ",
+	sub_type = 20,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21676,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		1719101,
+		1719202,
+		1719303,
+		1719404,
+		1719505
+	},
+	open_need = {},
+	award_display = {
+		{
+			1,
+			488,
+			300
+		},
+		{
+			2,
+			54006,
+			1
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[21677] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905491,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』多队出击挑战1",
+	desc = "不编入导驱/驱逐的情况下，使用多队出击通关『TC3』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21677,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			1,
+			20,
+			21
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42046,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		},
+		{
+			2,
+			65088,
+			2
+		},
+		{
+			2,
+			17023,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[21678] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905492,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』多队出击挑战2",
+	desc = "不编入轻巡的情况下，使用多队出击通关『TC3』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21678,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			2
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42046,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		},
+		{
+			2,
+			65088,
+			2
+		},
+		{
+			2,
+			17033,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[21679] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905493,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』多队出击挑战3",
+	desc = "不编入超巡/重巡的情况下，使用多队出击通关『TC3』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21679,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			3,
+			18
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42046,
+			1
+		},
+		{
+			2,
+			15008,
+			200
+		},
+		{
+			2,
+			65088,
+			2
+		},
+		{
+			2,
+			17003,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[21680] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905494,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』多队出击挑战4",
+	desc = "不编入轻航/航母的情况下，使用多队出击通关『TC3』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21680,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			6,
+			7
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		},
+		{
+			2,
+			65088,
+			2
+		},
+		{
+			2,
+			17043,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[21681] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905495,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』多队出击挑战5",
+	desc = "不编入战列/战巡/重炮的情况下，使用多队出击通关『TC3』",
+	sub_type = 107,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21681,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		{
+			4,
+			5,
+			13
+		},
+		1003
+	},
+	open_need = {},
+	award_display = {
+		{
+			2,
+			42046,
+			2
+		},
+		{
+			2,
+			15012,
+			20
+		},
+		{
+			2,
+			65088,
+			2
+		},
+		{
+			2,
+			17013,
+			20
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[21682] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905496,
+	type = 26,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』EX挑战",
+	desc = "取得EX关卡的第一场战斗胜利 ",
+	sub_type = 108,
+	task_fold = 0,
+	story_icon = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21682,
+	target_num = 1,
+	fix_task = 0,
+	target_id = "1",
+	open_need = {},
+	award_display = {
+		{
+			2,
+			15008,
+			500
+		}
+	},
+	scene = {
+		"BOSSRUSH_MAIN"
+	}
+}
+
+
+_G.pg.base.task_data_template[21683] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 905497,
+	type = 6,
+	is_head = 1,
+	count_inherit = 0,
+	name = "『北联SP轻量化复刻』剧情送装备",
+	desc = "故事模式奖励",
+	sub_type = 1005,
+	task_fold = 0,
+	story_icon = "",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 0,
+	next_task = "0",
+	visibility = 0,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 21683,
+	target_num = 1,
+	fix_task = 0,
+	target_id = {
+		405300
+	},
+	open_need = {},
+	award_display = {
+		{
+			3,
+			3880,
+			1
+		}
+	}
+}
+
+
 _G.pg.base.task_data_template[31017] = {
 	target_id_2 = "",
 	guild_coin_award = 0,

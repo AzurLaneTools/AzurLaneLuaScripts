@@ -843,7 +843,13 @@ slot0.ClickCommodity = function(slot0, slot1)
 		end
 
 		if slot2 > 1 then
-			slot0:emit(Dorm3dShopMediator.OPEN_DETAIL, slot1, function (slot0)
+			slot3 = 0
+
+			if slot0.selectedId ~= 0 then
+				slot3 = uv0[slot0.selectedId].character[1]
+			end
+
+			slot0:emit(Dorm3dShopMediator.OPEN_DETAIL, slot1, slot3, function (slot0)
 				uv0.showCount = slot0
 			end)
 		else
@@ -938,10 +944,7 @@ slot0.SetBubbles = function(slot0, slot1, slot2)
 				setActive(uv0:Find("bubble"), slot0)
 				setActive(uv1.mask, slot0)
 				onButton(uv1, uv1.mask, function ()
-					setActive(uv0:Find("icon/select"), false)
-					setActive(uv0:Find("icon/unselect"), true)
-					setActive(uv0:Find("bubble"), false)
-					setActive(uv1.mask, false)
+					triggerToggle(uv0, false)
 				end, SFX_PANEL)
 			end)
 		end

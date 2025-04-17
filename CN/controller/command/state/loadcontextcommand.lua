@@ -89,9 +89,23 @@ slot0.loadScene = function(slot0, slot1, slot2, slot3, slot4)
 		function (slot0)
 			if uv0 and uv0.cleanChild then
 				uv0.children = {}
+				uv0.cleanChild = false
 			end
 
 			seriesAsync({
+				function (slot0)
+					slot1 = {}
+
+					for slot5, slot6 in ipairs(uv0:GetHierarchy()) do
+						table.insertto(slot1, slot6.viewComponent.New():preloadUIList())
+					end
+
+					parallelAsync(underscore.map(slot1, function (slot0)
+						return function (slot0)
+							PoolMgr.GetInstance():PreloadUI(uv0, slot0)
+						end
+					end), slot0)
+				end,
 				function (slot0)
 					uv0:prepare(uv1.facade, uv2, function (slot0)
 						uv0:sendNotification(GAME.START_LOAD_SCENE, slot0)

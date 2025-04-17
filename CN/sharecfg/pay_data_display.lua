@@ -157,6 +157,7 @@ pg.pay_data_display = setmetatable({
 		2045,
 		2046,
 		2047,
+		2048,
 		5001,
 		5002,
 		5003,
@@ -14579,6 +14580,105 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40058,
+				1
+			}
+		}
+	},
+	[2048] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*礼包将发送到邮箱，请注意查收。",
+		type = 0,
+		name = "海上传奇支援组合包(250417)",
+		first_pay_double = 0,
+		name_display = "海上传奇支援组合包",
+		descrip = "可获得换装自选券、心智魔方、舰艇演习数据T2和物资奖励！",
+		subject = "海上传奇支援组合包(250417)",
+		money = 128,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 5,
+		sub_display = "",
+		picture = "huteng_package",
+		skin_inquire_relation = 0,
+		id_str = "com.bilibili.blhx.libao124",
+		extra_service = 3,
+		id = 2048,
+		airijp_id = "com.yostarjp.azurlane.package124",
+		extra_service_item = {
+			{
+				2,
+				59564,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				1,
+				1,
+				30000
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					23
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				59564,
+				1
+			},
+			{
+				2,
+				20001,
+				40
+			},
+			{
+				2,
+				16502,
+				50
+			}
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40059,
 				1
 			}
 		}

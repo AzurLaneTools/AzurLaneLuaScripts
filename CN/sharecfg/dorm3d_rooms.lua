@@ -324,15 +324,15 @@ pg.dorm3d_rooms = {
 		invite_icon = {
 			{
 				20220,
-				"dorm3dicon/3Ddrom_tianlangxing_FancyGift4"
+				"dorm3dicon/3Ddrom_invitation"
 			},
 			{
 				30221,
-				"dorm3dicon/3Ddrom_tianlangxing_FancyGift4"
+				"dorm3dicon/3Ddrom_invitation"
 			},
 			{
 				19903,
-				"dorm3dicon/3Ddrom_tianlangxing_FancyGift4"
+				"dorm3dicon/3Ddrom_invitation"
 			}
 		},
 		invite_mark = {

@@ -24317,7 +24317,7 @@ _G.pg.base.spweapon_data_statistics[13470] = {
 
 _G.pg.base.spweapon_data_statistics[13480] = {
 	attribute_1 = "cannon",
-	name = "仲裁之枪 ",
+	name = "仲裁之枪",
 	type = 4,
 	tech = 0,
 	value_1_random = 10,

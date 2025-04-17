@@ -12405,17 +12405,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "的里雅斯特 建造追加！"
+	tip = "前卫、复仇 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "庞培·马格诺 建造追加！"
+	tip = "贾维斯 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "帝国 建造追加！"
+	tip = "前卫、不挠 建造追加！"
 }
 
 
@@ -29456,7 +29456,7 @@ _G.pg.base.gametip.series_enemy_storyreward = {
 _G.pg.base.gametip.series_enemy_help = {
 	tip = [[
 活动规则：
-<color=#92fc63>2023.3.23-2023.4.6维护</color>期间开启限时活动「极地风暴」
+<color=#92fc63>2025.4.17-2025.4.24维护</color>期间开启限时复刻活动「极地风暴」
 1. 本次活分为「作战模式」、「故事模式」，在「作战模式」中通关关卡可获得PT值，逐步解锁「故事模式」中阶段剧情。
 2. 「作战模式」中采用连战玩法，即上阵多只队伍逐一挑战多个小关，全部获胜后整个关卡通关，获得奖励
 3. 部分关卡可通过切换「多队出击」、「单队连战」两种模式，「单队连战」可使用单个队伍挑战所有小关，「多队出击」为不同队伍挑战各个关卡，「多队出击」可获得额外奖励

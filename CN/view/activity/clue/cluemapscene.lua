@@ -89,8 +89,6 @@ slot0.didEnter = function(slot0)
 	if getProxy(ContextProxy):getContextByMediator(ClueMapMediator).cleanChild and slot0.contextData.bookOpen then
 		triggerButton(slot0.bookBtn)
 	end
-
-	slot1.cleanChild = false
 end
 
 slot0.InitData = function(slot0)
