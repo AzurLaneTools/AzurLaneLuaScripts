@@ -37,7 +37,7 @@ slot0.init = function(slot0)
 		uv0:closeView()
 	end, SFX_CANCEL)
 
-	slot1 = slot0._tf:Find("select/container")
+	slot1 = slot0._tf:Find("select/view/container")
 	slot0.iconList = UIItemList.New(slot1, slot1:Find("tpl"))
 
 	slot0.iconList:make(function (slot0, slot1, slot2)
@@ -100,8 +100,19 @@ slot0.setSelectedShip = function(slot0, slot1)
 	setPaintingPrefabAsync(slot0.rtPaint, slot1:getPainting(), "huode")
 end
 
-slot0.didEnter = function(slot0)
+slot0.flush = function(slot0)
+	mergeSort(slot0.ids, CompareFuncs({
+		function (slot0)
+			return getProxy(CollectionProxy):getShipGroup(Ship.New({
+				configId = slot0
+			}):getGroupId()) and 1 or 0
+		end
+	}, true))
 	slot0.iconList:align(#slot0.ids)
+end
+
+slot0.didEnter = function(slot0)
+	slot0:flush()
 end
 
 slot0.willExit = function(slot0)

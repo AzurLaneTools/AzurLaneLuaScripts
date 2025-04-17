@@ -338,7 +338,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "PT",
-		key_value = 478
+		key_value = 488
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1923,7 +1923,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 486
+		key_value = 489
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2753,7 +2753,7 @@ pg.gameset = {
 	},
 	series_enemy_story_Pttrigger = {
 		description = "",
-		key_value = 304
+		key_value = 489
 	},
 	series_enemy_multiple_limit = {
 		description = "",

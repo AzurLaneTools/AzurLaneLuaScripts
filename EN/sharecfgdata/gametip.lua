@@ -12862,17 +12862,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Trieste added to standard build pool!"
+	tip = "Vanguard, Revenge added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Pompeo Magno added to standard build pool!"
+	tip = "Jervis added to standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Impero added to standard build pool!"
+	tip = "Vanguard, Indomitable added to standard build pool!"
 }
 
 
@@ -29800,8 +29800,8 @@ _G.pg.base.gametip.series_enemy_storyreward = {
 
 _G.pg.base.gametip.series_enemy_help = {
 	tip = [[
-Coalition Battle Event: Frostfall
-Event Period: <color=#92fc63>3/23/2023 - 4/5/2023</color>
+Coalition Battle Event: Frostfall Rerun
+Event Period: <color=#92fc63>4/17/2025 - 4/23/2025</color>
 
 Overview:
 During the "Frostfall" event, you will form multiple fleets to challenge special event stages, and collect event points to earn great rewards.

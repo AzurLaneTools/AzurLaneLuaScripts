@@ -66,8 +66,24 @@ return {
 		end
 	end,
 	AddPaintingNameBySkinID = function (slot0, slot1)
-		if uv0.IsPaintingNeedCheck() and #pg.ship_skin_template[slot1].painting > 0 then
-			uv0.AddPaintingNameWithFilteMap(slot0, slot2)
+		if uv0.IsPaintingNeedCheck() then
+			slot2 = {
+				slot1
+			}
+
+			if ShipGroup.IsChangeSkin(slot1) then
+				for slot7, slot8 in ipairs(ShipGroup.GetAllChangeSkinIds(slot1)) do
+					if not table.contains(slot2, slot8) then
+						table.insert(slot2, slot8)
+					end
+				end
+			end
+
+			for slot6, slot7 in ipairs(slot2) do
+				if #pg.ship_skin_template[slot7].painting > 0 then
+					uv0.AddPaintingNameWithFilteMap(slot0, slot8)
+				end
+			end
 		end
 	end,
 	GetPaintingNameListInLogin = function ()

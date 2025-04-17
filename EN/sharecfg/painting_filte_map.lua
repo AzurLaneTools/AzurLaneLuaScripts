@@ -3940,6 +3940,7 @@ pg.painting_filte_map = {
 		key = "dujiaoshou_10",
 		res_list = {
 			"painting/dujiaoshou_10_tex",
+			"painting/dujiaoshou_10_rw_tex",
 			"painting/dujiaoshou_10_n_tex",
 			"painting/dujiaoshou_10_n",
 			"painting/dujiaoshou_10"
@@ -4474,6 +4475,7 @@ pg.painting_filte_map = {
 		key = "feiteliekaer_2",
 		res_list = {
 			"painting/feiteliekaer_2_tex",
+			"painting/feiteliekaer_2_rw_tex",
 			"painting/feiteliekaer_2_n_tex",
 			"painting/feiteliekaer_2_n",
 			"painting/feiteliekaer_2"
