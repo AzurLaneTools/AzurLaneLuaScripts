@@ -12776,17 +12776,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「トリエステ」常設実装！"
+	tip = "「ヴァンガード」「リヴェンジ」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ポンペオ・マーニョ」常設実装！"
+	tip = "「ジャーヴィス」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「インペロ」常設実装！"
+	tip = "「ヴァンガード」「インドミタブル」常設実装！"
 }
 
 
@@ -29860,7 +29860,7 @@ _G.pg.base.gametip.series_enemy_storyreward = {
 _G.pg.base.gametip.series_enemy_help = {
 	tip = [[
 連戦イベント「星霜嵐海」
-開催期間：<color=#92fc63>2023.3.23-2023.4.6メンテナンスまで</color>
+開催期間：<color=#92fc63>2025.4.17-2025.4.24メンテナンスまで</color>
 
 概要：
 イベント「星霜嵐海」とは、艦隊を編成し特別ステージに出撃することでイベントPtを入手し、イベント報酬を獲得するイベントです。

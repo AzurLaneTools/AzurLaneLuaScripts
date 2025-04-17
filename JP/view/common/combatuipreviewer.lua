@@ -287,7 +287,8 @@ slot0.updatePopUp = function(slot0)
 		slot2 = slot2:setEase(LeanTweenType.easeInBack)
 
 		slot2:setOnComplete(System.Action(function ()
-			ys.Battle.BattleCharacter.ChatPop(uv0.chatPop, pg.ship_skin_words[100000].skill, 5)
+			ys.Battle.BattleCharacter.ChatPop(uv0.chatPop, 5)
+			ys.Battle.BattleCharacter.setChatText(uv0.chatPop, pg.ship_skin_words[100000].skill)
 		end))
 	end
 end

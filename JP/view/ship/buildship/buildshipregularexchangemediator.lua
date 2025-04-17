@@ -11,12 +11,17 @@ slot0.register = function(slot0)
 end
 
 slot0.listNotificationInterests = function(slot0)
-	return {}
+	return {
+		GAME.REGULAR_BUILD_POOL_EXCHANGE_DONE
+	}
 end
 
 slot0.handleNotification = function(slot0, slot1)
-	slot2 = slot1:getName()
 	slot3 = slot1:getBody()
+
+	if slot1:getName() == GAME.REGULAR_BUILD_POOL_EXCHANGE_DONE then
+		slot0.viewComponent:flush()
+	end
 end
 
 return slot0

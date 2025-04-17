@@ -923,6 +923,7 @@ pg.base.ship_skin_template_7 = {
 		hand_id = 1,
 		shop_type_id = 4,
 		bgm = "",
+		special_effects = "",
 		lip_smoothing = 0,
 		l2d_animations = "",
 		gyro = 0,
@@ -1011,23 +1012,12 @@ pg.base.ship_skin_template_7 = {
 		},
 		spine_offset = {
 			{
-				-76,
-				-710,
+				-129,
+				-890,
 				0
 			},
 			{
-				1.4
-			}
-		},
-		special_effects = {
-			"lihui_yuanchou_2",
-			{
-				456,
-				822,
-				0
-			},
-			{
-				1.1
+				1.7
 			}
 		}
 	},

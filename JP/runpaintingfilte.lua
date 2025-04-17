@@ -216,8 +216,18 @@ slot0.GetNormalShopSkinIDList = function()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.shop_template.get_id_list_by_genre[ShopArgs.SkinShop]) do
-		if uv0.IsNormalShopMatch(slot5) and not table.contains(slot0, uv0.GetSkinIDFromNormalShopID(slot5)) then
-			table.insert(slot0, slot6)
+		if uv0.IsNormalShopMatch(slot5) then
+			if not table.contains(slot0, uv0.GetSkinIDFromNormalShopID(slot5)) then
+				table.insert(slot0, slot6)
+			end
+
+			if ShipGroup.IsChangeSkin(slot6) then
+				for slot11, slot12 in ipairs(ShipGroup.GetAllChangeSkinIds(slot6)) do
+					if not table.contains(slot0, slot12) then
+						table.insert(slot0, slot12)
+					end
+				end
+			end
 		end
 	end
 
@@ -234,8 +244,18 @@ slot0.GetActShopSkinIDList = function()
 	slot0 = {}
 
 	for slot4, slot5 in ipairs(pg.activity_shop_extra.get_id_list_by_commodity_type[DROP_TYPE_SKIN]) do
-		if uv0.IsActShopMatch(slot5) and not table.contains(slot0, uv0.GetSkinIDFromActShopID(slot5)) then
-			table.insert(slot0, slot6)
+		if uv0.IsActShopMatch(slot5) then
+			if not table.contains(slot0, uv0.GetSkinIDFromActShopID(slot5)) then
+				table.insert(slot0, slot6)
+			end
+
+			if ShipGroup.IsChangeSkin(slot6) then
+				for slot11, slot12 in ipairs(ShipGroup.GetAllChangeSkinIds(slot6)) do
+					if not table.contains(slot0, slot12) then
+						table.insert(slot0, slot12)
+					end
+				end
+			end
 		end
 	end
 

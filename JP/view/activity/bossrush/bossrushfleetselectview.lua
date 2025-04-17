@@ -220,12 +220,7 @@ slot0.didEnter = function(slot0)
 				return
 			end
 
-			slot3 = uv0[slot1 + 1]
-
-			updateDrop(slot2, {
-				type = slot3[1],
-				id = slot3[2]
-			})
+			updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
 			onButton(uv1, slot2, function ()
 				uv0:ShowDropDetail(uv1)
 			end, SFX_PANEL)
@@ -239,12 +234,7 @@ slot0.didEnter = function(slot0)
 				return
 			end
 
-			slot3 = uv0[slot1 + 1]
-
-			updateDrop(slot2, {
-				type = slot3[1],
-				id = slot3[2]
-			})
+			updateDrop(slot2, Drop.Create(uv0[slot1 + 1]))
 			onButton(uv1, slot2, function ()
 				uv0:ShowDropDetail(uv1)
 			end, SFX_PANEL)
