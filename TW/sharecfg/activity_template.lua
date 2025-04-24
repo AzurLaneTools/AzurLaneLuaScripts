@@ -21054,6 +21054,7 @@ pg.activity_template = {
 	[5703] = {
 		mark = 20250410,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -21100,33 +21101,6 @@ pg.activity_template = {
 			20966,
 			20967,
 			20968
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			blackFriday = true,
