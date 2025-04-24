@@ -216324,25 +216324,25 @@ _G.pg.base.chapter_template_loop[1910021] = {
 	limitation = {
 		{
 			{
-				4,
+				"zhan",
 				0,
 				0
 			},
 			{
+				2,
 				"quzhu",
-				0,
 				0
 			}
 		},
 		{
 			{
-				"hang",
+				0,
 				0,
 				0
 			},
 			{
-				3,
-				"quzhu",
+				0,
+				0,
 				0
 			}
 		}
@@ -216944,7 +216944,7 @@ _G.pg.base.chapter_template_loop[1910022] = {
 	limitation = {
 		{
 			{
-				4,
+				5,
 				0,
 				0
 			},
@@ -216956,12 +216956,12 @@ _G.pg.base.chapter_template_loop[1910022] = {
 		},
 		{
 			{
-				"hang",
+				"zhan",
 				0,
 				0
 			},
 			{
-				3,
+				2,
 				"quzhu",
 				0
 			}
@@ -217565,7 +217565,7 @@ _G.pg.base.chapter_template_loop[1910023] = {
 	limitation = {
 		{
 			{
-				4,
+				5,
 				0,
 				0
 			},
@@ -217577,12 +217577,12 @@ _G.pg.base.chapter_template_loop[1910023] = {
 		},
 		{
 			{
-				"hang",
+				"zhan",
 				0,
 				0
 			},
 			{
-				3,
+				2,
 				"quzhu",
 				0
 			}

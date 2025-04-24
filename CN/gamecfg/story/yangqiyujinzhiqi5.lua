@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官同志如此安排，一定有她的道理。",
+			say = "指挥官同志这样安排，一定是有道理的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

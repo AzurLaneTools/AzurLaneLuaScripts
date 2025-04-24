@@ -651,12 +651,12 @@ slot0.OnStart = function(slot0)
 	slot0:TrackingStart()
 	slot0:SendNotification(GAME.STORY_BEGIN, slot0.storyScript:GetName())
 
-	slot5 = {
-		storyId = slot6
-	}
-	slot6 = slot0.storyScript:GetName()
+	if not slot0:IsReView() then
+		slot0:SendNotification(GAME.STORY_UPDATE, {
+			storyId = slot0.storyScript:GetName()
+		})
+	end
 
-	slot0:SendNotification(GAME.STORY_UPDATE, slot5)
 	pg.DelegateInfo.New(slot0)
 
 	for slot5, slot6 in ipairs(slot0.players) do
