@@ -329,6 +329,7 @@ pg.memory_group = setmetatable({
 		606,
 		607,
 		608,
+		609,
 		1000,
 		1001,
 		1002,
@@ -7115,6 +7116,23 @@ pg.base.memory_group = {
 			4255,
 			4256,
 			4257
+		}
+	},
+	[609] = {
+		title = "하나로 묶인 두 사람",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 609,
+		icon = "title_chara_qiabayefu",
+		memories = {
+			4291,
+			4292,
+			4293,
+			4294,
+			4295,
+			4296,
+			4297
 		}
 	},
 	[1000] = {

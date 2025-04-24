@@ -29475,28 +29475,28 @@ _G.pg.base.gametip.doa_minigame_help = {
 _G.pg.base.gametip.gametip_xiaokewei = {
 	tip = {
 		{
-			info = "「“꼬마 레이디”의 매너 레슨」 설명:"
+			info = "■개요\n「꼬마 레이디의 매너 레슨」은 이벤트 시작 시에 임시로 가입하는 [꼬마 포미더블]의 「호감도」를 해역에 출격함으로써 쌓아, [꼬마 포미더블]을 정식으로 가입시키는 이벤트입니다. "
 		},
 		{
-			info = "1. 이벤트 기간 동안, 임시 NPC 캐릭터 꼬마 포미더블을 획득할 수 있습니다. 임시 캐릭터는 서약, 퇴역, 강화 및 돌파 재료로 선택이 불가합니다."
+			info = "■플레이 방법\n1. 이벤트 기간 동안 메인 해역(보통) 3장 이후 스테이지 또는 이벤트 해역(상설 이벤트 제외)의 보스 함대를 격퇴하면 「호감도」를 획득할 수 있습니다. 획득한 「호감도」가 일정 수치에 도달하면 「우호도 보상」을 획득할 수 있습니다."
 		},
 		{
-			info = "2. 이벤트 기간 동안, 일반 난이도 메인 제3장 및 이후 스테이지 또는 이벤트 스테이지 기함 격파 시, 임시 NPC 캐릭터의 호감도를 증가시킬 수 있습니다(대형 작전 제외)."
+			info = "2. [꼬마 포미더블]은 호감도 보상(7단계째)의 「정식 가입」을 달성하지 않으면 서약할 수 없으며, 퇴역 및 강화·한계 돌파 재료로 선택할 수 없습니다. "
 		},
 		{
-			info = "3. 꼬마 포미더블이 전투에 참여하여 격침당하지 않을 경우, 호감도가 2배로 증가합니다. "
+			info = "3. [꼬마 포미더블]을 편성에 넣은 함대로 상기 스테이지의 보스 함대를 격퇴하고, 승리 시에 [꼬마 포미더블]이 전투 가능한 상태라면 획득하는 「우호도」가 두 배가 됩니다. "
 		},
 		{
-			info = "4. 이벤트 종료 전까지 호감도 1000 누적 시 보상을 수령하며 임시 캐릭터 「꼬마 포미더블」이 영구 캐릭터로 전환됩니다."
+			info = "4. 이벤트 종료 시까지 이벤트 페이지의 「호감도 보상」을 마지막까지 수령하면, [꼬마 포미더블]을 「정식 가입」시킬 수 있습니다(호감도 1,000 필요). 이벤트 종료 시 「정식 가입」하지 않은 [꼬마 포미더블]은 모항에서 사라집니다. "
 		},
 		{
-			info = "5. 이벤트 종료 후, 전환되지 않은 임시 캐릭터는 모항을 떠나며 이미 소모한 강화, 돌파 등 육성 재료는 반환되지 않습니다."
+			info = "5. 호감도 보상은 4/30(수)까지 매일 한 단계씩 오픈됩니다. "
 		},
 		{
-			info = "6. NPC 캐릭터는 대형 작전에 참여할 수 없습니다."
+			info = "6. 임시 가입 상태인 [꼬마 포미더블]은 대형 작전(META전 포함)에는 참여할 수 없으며, 대형 작전을 통한 호감도 획득 또한 불가능합니다. "
 		},
 		{
-			info = "7. NPC 캐릭터는 대함대 작전 내의 사견 파견, 지원 파견 및 보스전에 참여할 수 없습니다."
+			info = "7. 임시 가입 상태인 [꼬마 포미더블]은 대함대 작전에 참여할 수 없습니다. "
 		}
 	}
 }
@@ -30210,6 +30210,16 @@ _G.pg.base.gametip.word_maingroup_checkfailure = {
 
 _G.pg.base.gametip.word_maingroup_updating = {
 	tip = "업데이트 중.."
+}
+
+
+_G.pg.base.gametip.word_maingroup_idle = {
+	tip = "업데이트 정보 무효"
+}
+
+
+_G.pg.base.gametip.word_maingroup_latest = {
+	tip = "업데이트 불필요"
 }
 
 
@@ -37453,4 +37463,49 @@ _G.pg.base.gametip.SuperBulin2_help = {
 
 _G.pg.base.gametip.SuperBulin2_lock_tip = {
 	tip = "단서 수집 완성 후 특별 스테이지 해제 가능~"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_buy_tips = {
+	tip = "$1 <color=#169fff>$2</color> 소비(총 $1 <color=#169fff>$3</color>)하여 <color=#169fff>$4</color>(을)를 구매하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_title = {
+	tip = "숙소 상점"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit = {
+	tip = "한정"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_sold_out = {
+	tip = "매진"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_all = {
+	tip = "모두"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_gift1 = {
+	tip = "선물"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_furniture = {
+	tip = "가구"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_others = {
+	tip = "기타"
+}
+
+
+_G.pg.base.gametip.dorm3d_shop_limit1 = {
+	tip = "이번 주 한정"
 }

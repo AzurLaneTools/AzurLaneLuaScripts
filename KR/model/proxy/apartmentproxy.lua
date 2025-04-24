@@ -61,6 +61,7 @@ slot0.timeCall = function(slot0)
 
 			uv0:sendNotification(uv1.ZERO_HOUR_REFRESH)
 			uv0:InitGiftDaily()
+			uv1.RefreshGiftDailyTip()
 		end
 	}
 end
@@ -310,6 +311,17 @@ slot0.PendingRandom = function(slot0, slot1)
 	end
 
 	return slot3
+end
+
+slot0.RefreshGiftDailyTip = function()
+	for slot3, slot4 in pairs(pg.dorm3d_shop_template.all) do
+		if pg.shop_template[pg.dorm3d_shop_template[slot4].shop_id[1]].group ~= 0 then
+			slot7 = getProxy(PlayerProxy):getRawData().id
+
+			PlayerPrefs.SetInt(slot7 .. "_dorm3dGiftWeekViewed_" .. slot5.item_id, 0)
+			PlayerPrefs.SetInt(slot7 .. "_dorm3dGiftWeekRefreshTimeStamp", pg.TimeMgr.GetInstance():GetServerTime())
+		end
+	end
 end
 
 slot0.CheckDeviceRAMEnough = function()

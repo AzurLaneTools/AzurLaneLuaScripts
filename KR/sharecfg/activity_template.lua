@@ -30896,6 +30896,7 @@ pg.activity_template = {
 	},
 	[5871] = {
 		mark = 20250327,
+		time = "stop",
 		type = 123,
 		login_pop = 0,
 		config_id = 0,
@@ -30916,33 +30917,6 @@ pg.activity_template = {
 			2011,
 			2012,
 			2013
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "FulankelinMainPage",
@@ -31136,6 +31110,7 @@ pg.activity_template = {
 	[5872] = {
 		mark = 20250327,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -31147,33 +31122,6 @@ pg.activity_template = {
 			21664,
 			21665,
 			21666
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5873] = {
@@ -31181,7 +31129,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5873,
-		is_show = 49,
+		is_show = 47,
 		title_res_tag = "20250327pt",
 		id = 5873,
 		config_data = {},
@@ -31592,6 +31540,7 @@ pg.activity_template = {
 	[5880] = {
 		mark = 20250327,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -31599,33 +31548,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 5880,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
@@ -31726,6 +31648,7 @@ pg.activity_template = {
 	[5883] = {
 		mark = 20250327,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -31735,38 +31658,12 @@ pg.activity_template = {
 		id = 5883,
 		config_data = {
 			21670
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					10
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5884] = {
 		mark = 20250327,
 		page_info = "",
+		time = "stop",
 		type = 41,
 		login_pop = 0,
 		config_id = 0,
@@ -31776,14 +31673,25 @@ pg.activity_template = {
 		id = 5884,
 		config_data = {
 			21670
-		},
+		}
+	},
+	[5885] = {
+		mark = 20250410,
+		type = 74,
+		login_pop = 0,
+		config_id = 5885,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "xiaokewei_pt",
+		id = 5885,
+		config_data = {},
 		time = {
 			"timer",
 			{
 				{
 					2025,
 					4,
-					10
+					24
 				},
 				{
 					0,
@@ -31794,14 +31702,64 @@ pg.activity_template = {
 			{
 				{
 					2025,
+					5,
+					8
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "XiaoKeWeiPtRePage",
+			ui_name = "XiaoKeWeiPtRePage"
+		}
+	},
+	[5886] = {
+		mark = 20250410,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5886,
+		config_data = {
+			21671
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
 					4,
 					24
 				},
 				{
-					23,
-					59,
-					59
+					0,
+					0,
+					0
 				}
+			},
+			{
+				{
+					2025,
+					5,
+					8
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				21671
 			}
 		}
 	},
@@ -41245,6 +41203,7 @@ pg.activity_template = {
 			5828,
 			5864,
 			5873,
+			5885,
 			1086,
 			6006,
 			6010,
@@ -41428,6 +41387,7 @@ pg.activity_template = {
 			5877,
 			5881,
 			5883,
+			5886,
 			1079,
 			1080,
 			1081,
@@ -43392,6 +43352,8 @@ pg.activity_template = {
 		5882,
 		5883,
 		5884,
+		5885,
+		5886,
 		7001,
 		7004,
 		7005,

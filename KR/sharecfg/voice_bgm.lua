@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-vichy-church",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-vichy-church"
+		bgm = "main"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2015,11 +2015,6 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-theme-sardinia"
 	},
-	AprilFoolDiscovery2025Page = {
-		default_bgm = "story-battle-16bit",
-		special_bgm = "",
-		bgm = "story-battle-16bit"
-	},
 	YingxiV4MainRePage = {
 		default_bgm = "theme-kerguelen",
 		special_bgm = "",
@@ -2064,5 +2059,15 @@ pg.voice_bgm = {
 		default_bgm = "theme-hospital-deep",
 		special_bgm = "",
 		bgm = "theme-hospital-deep"
+	},
+	AprilFoolDiscovery2025Page = {
+		default_bgm = "story-battle-16bit",
+		special_bgm = "",
+		bgm = "story-battle-16bit"
+	},
+	XiaoKeWeiPtRePage = {
+		default_bgm = "qe-ova-10",
+		special_bgm = "",
+		bgm = "qe-ova-10"
 	}
 }

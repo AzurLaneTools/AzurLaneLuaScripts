@@ -23968,6 +23968,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"코어 상점",
+				{
+					"SHOP",
+					{
+						warp = "sham"
+					}
+				},
+				0
 			}
 		}
 	},

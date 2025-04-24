@@ -68,7 +68,6 @@ slot0.Loaded = function(slot0, slot1)
 
 	setActiveViaLayer(slot0._tf, true)
 	pg.DelegateInfo.New(slot0)
-	print(slot0:getUIName())
 	SetParent(slot0._tf, slot0._parentTf, false)
 	slot0:OnLoaded()
 end

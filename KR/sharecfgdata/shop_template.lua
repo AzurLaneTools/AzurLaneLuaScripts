@@ -77940,6 +77940,64 @@ _G.pg.base.shop_template[106017] = {
 }
 
 
+_G.pg.base.shop_template[106018] = {
+	group_type = 3,
+	resource_num = 100,
+	time_second = 0,
+	type = 9,
+	type_order = 0,
+	desc = "通行证复刻-星云子弹(蓝)",
+	group_limit = 4,
+	group_buy_count = 1,
+	tag = 0,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 1,
+	group = 10,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 106018,
+	genre = "cruise_gearskin",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			9
+		}
+	},
+	effect_args = {
+		2013
+	},
+	time = {
+		{
+			{
+				2025,
+				4,
+				10
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2034,
+				10,
+				1
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[260101] = {
 	group_type = 2,
 	resource_num = 1000,

@@ -28,7 +28,6 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				time = 1,
 				skill_id = 151071,
 				target = "TargetSelf",
 				check_target = {
@@ -47,7 +46,6 @@ return {
 			},
 			arg_list = {
 				minTargetNumber = 1,
-				time = 1,
 				skill_id = 151072,
 				target = "TargetSelf",
 				check_target = {
