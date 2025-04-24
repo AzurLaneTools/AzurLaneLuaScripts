@@ -1805,10 +1805,27 @@ pg.skill_data_display = setmetatable({
 		151020,
 		151021,
 		151030,
+		151041,
+		151051,
 		151060,
 		151061,
 		151062,
 		151070,
+		151080,
+		151081,
+		151091,
+		151102,
+		151115,
+		151111,
+		151112,
+		151113,
+		151120,
+		151121,
+		151122,
+		151130,
+		151131,
+		151132,
+		151141,
 		18010,
 		18040,
 		18041,
@@ -2464,7 +2481,9 @@ pg.skill_data_display = setmetatable({
 		30421,
 		30422,
 		30431,
-		40342,
+		30432,
+		30441,
+		30442,
 		39000,
 		39001,
 		39002,
@@ -10711,6 +10730,14 @@ pg.base.skill_data_display = {
 		id = 151030,
 		name = "Glorious Advance"
 	},
+	[151041] = {
+		id = 151041,
+		name = "Restorative Cocoon"
+	},
+	[151051] = {
+		id = 151051,
+		name = "Exploring a New World"
+	},
 	[151060] = {
 		id = 151060,
 		name = "BIG BEN"
@@ -10726,6 +10753,66 @@ pg.base.skill_data_display = {
 	[151070] = {
 		id = 151070,
 		name = "Flame-Bathed Miracle"
+	},
+	[151080] = {
+		id = 151080,
+		name = "Pixiedust Storm"
+	},
+	[151081] = {
+		id = 151081,
+		name = "Pixiedust Storm"
+	},
+	[151091] = {
+		id = 151091,
+		name = "Welkin Blessing"
+	},
+	[151102] = {
+		id = 151102,
+		name = "Genius's Intuition"
+	},
+	[151115] = {
+		id = 151115,
+		name = "Spin-spin Goes the Drill"
+	},
+	[151111] = {
+		id = 151111,
+		name = "Mechanical Lobster Repairer"
+	},
+	[151112] = {
+		id = 151112,
+		name = "Automatic Counterattack System"
+	},
+	[151113] = {
+		id = 151113,
+		name = "\"Will Absolutely Explode!\""
+	},
+	[151120] = {
+		id = 151120,
+		name = "Raging Polar Bear of the Distant Sea"
+	},
+	[151121] = {
+		id = 151121,
+		name = "Raging Polar Bear of the Distant Sea"
+	},
+	[151122] = {
+		id = 151122,
+		name = "Raging Polar Bear of the Distant Sea"
+	},
+	[151130] = {
+		id = 151130,
+		name = "Lullaby of the Snowy Plains"
+	},
+	[151131] = {
+		id = 151131,
+		name = "Lullaby of the Snowy Plains"
+	},
+	[151132] = {
+		id = 151132,
+		name = "Lullaby of the Snowy Plains"
+	},
+	[151141] = {
+		id = 151141,
+		name = "Peek-a-Boom!"
 	},
 	[18010] = {
 		id = 18010,
@@ -13347,8 +13434,16 @@ pg.base.skill_data_display = {
 		id = 30431,
 		name = "All Out Assault I"
 	},
-	[40342] = {
-		id = 40342,
+	[30432] = {
+		id = 30432,
+		name = "All Out Assault II"
+	},
+	[30441] = {
+		id = 30441,
+		name = "All Out Assault I"
+	},
+	[30442] = {
+		id = 30442,
 		name = "All Out Assault II"
 	},
 	[39000] = {

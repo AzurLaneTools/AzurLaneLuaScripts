@@ -384,6 +384,102 @@ pg.activity_medal_template = {
 		id = 587508,
 		medal_asset = "ActivityMedal/587508"
 	},
+	[591301] = {
+		activity_medal_desc = "Concentrated green circulates through this staff. Pick off its old leaves and new buds will sprout by themselves.",
+		next_medal = 0,
+		item = 65594,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21703,
+		activity_medal_name = "Sticker: Staff of Verdure",
+		id = 591301,
+		medal_asset = "ActivityMedal/591301"
+	},
+	[591302] = {
+		activity_medal_desc = "The future of the Kingdom of Tulipa begins now.",
+		next_medal = 0,
+		item = 65595,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21704,
+		activity_medal_name = "Sticker: Bouquet for the Future",
+		id = 591302,
+		medal_asset = "ActivityMedal/591302"
+	},
+	[591303] = {
+		activity_medal_desc = "There's nothing to be afraid of. These sharp fangs and claws are for protecting my children.",
+		next_medal = 0,
+		item = 65596,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21705,
+		activity_medal_name = "Sticker: Bear's Protection",
+		id = 591303,
+		medal_asset = "ActivityMedal/591303"
+	},
+	[591304] = {
+		activity_medal_desc = "Vines weave nature together and life rebuilds its home.",
+		next_medal = 0,
+		item = 65597,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21706,
+		activity_medal_name = "Sticker: Vine Magic",
+		id = 591304,
+		medal_asset = "ActivityMedal/591304"
+	},
+	[591305] = {
+		activity_medal_desc = "This is no mere ornament! It's an ingenious invention equipped with night vision, a radio, light filters, and even an explosive launcher!",
+		next_medal = 0,
+		item = 65598,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21707,
+		activity_medal_name = "Sticker: Full-Range \"Koshka\" Assault Goggles",
+		id = 591305,
+		medal_asset = "ActivityMedal/591305"
+	},
+	[591306] = {
+		activity_medal_desc = "Even sprouts that just began growing contain the tenacity to rival a rock.",
+		next_medal = 0,
+		item = 65599,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21708,
+		activity_medal_name = "Sticker: Leaf Vein Symbiosis",
+		id = 591306,
+		medal_asset = "ActivityMedal/591306"
+	},
+	[591307] = {
+		activity_medal_desc = "The extremely ruthless fish... Correction: shark-like super-dreadnought-class eradicator, Sphyrnidae.",
+		next_medal = 0,
+		item = 65600,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21709,
+		activity_medal_name = "Sticker: Sphyrnidae, the New Weapon",
+		id = 591307,
+		medal_asset = "ActivityMedal/591307"
+	},
+	[591308] = {
+		activity_medal_desc = "An intricate bookmark that smells like tulips. It's kept eternally vibrant using magic.",
+		next_medal = 0,
+		item = 65601,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21710,
+		activity_medal_name = "Sticker: Tulipan Bookmark",
+		id = 591308,
+		medal_asset = "ActivityMedal/591308"
+	},
 	all = {
 		571101,
 		571102,
@@ -416,6 +512,14 @@ pg.activity_medal_template = {
 		587505,
 		587506,
 		587507,
-		587508
+		587508,
+		591301,
+		591302,
+		591303,
+		591304,
+		591305,
+		591306,
+		591307,
+		591308
 	}
 }

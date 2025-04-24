@@ -16,11 +16,11 @@ return {
 				data = {
 					op_list = {
 						{
-							sceneRoot = "Tianlangxing_DB/Bathroom_TL",
+							sceneRoot = "Bathroom",
 							name = "Qihe_yushimuyu",
 							time = 0,
 							type = "timeline",
-							scene = "map_bathroom_01_TL",
+							scene = "map_bathroom_01",
 							skip = false,
 							options = {},
 							touchs = {

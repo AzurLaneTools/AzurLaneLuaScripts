@@ -7114,6 +7114,11 @@ _G.pg.base.gametip.word_shipNation_tolove = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_yujinwangguo = {
+	tip = "Tulipa"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "Reset"
 }
@@ -12857,7 +12862,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Implacable guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Evertsen and De Zeven Provinciën!"
 }
 
 
@@ -36764,6 +36769,11 @@ _G.pg.base.gametip.levelscene_mapselect_sp = {
 }
 
 
+_G.pg.base.gametip.levelscene_mapselect_tp = {
+	tip = "TP"
+}
+
+
 _G.pg.base.gametip.levelscene_mapselect_ex = {
 	tip = "EX"
 }
@@ -38172,4 +38182,35 @@ _G.pg.base.gametip.dorm3d_shop_others = {
 
 _G.pg.base.gametip.dorm3d_shop_limit1 = {
 	tip = "Weekly Limited"
+}
+
+
+_G.pg.base.gametip.xiaoankeleiqi_npc = {
+	tip = {
+		{
+			info = "- Overview -\nDuring the event, Little Anchorage will provisionally join your fleet. Fight boss fleets to earn Trust. Collect enough Trust to have Little Anchorage permanently join your fleet!"
+		},
+		{
+			info = [[
+- How to Play -
+· Collect Trust during the event period to have Little Anchorage will permanently join your fleet.
+· Trust can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty and event maps (not including War Archives). If Little Anchorage is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of Trust.
+· The Trust you've collected can be turned in for additional rewards on the event banner.]]
+		},
+		{
+			info = "· You will not be able to give a Promise Ring to Little Anchorage until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
+		},
+		{
+			info = "· If Little Anchorage has not been formally recruited by the end of the event, she will leave the port."
+		},
+		{
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to May 1st."
+		},
+		{
+			info = "· Little Anchorage cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
+		},
+		{
+			info = "· Little Anchorage cannot participate in Guild Bosses until she has been formally recruited."
+		}
+	}
 }

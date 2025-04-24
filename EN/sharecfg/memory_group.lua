@@ -221,6 +221,8 @@ pg.memory_group = setmetatable({
 		321,
 		322,
 		323,
+		324,
+		325,
 		501,
 		502,
 		503,
@@ -5231,6 +5233,38 @@ pg.base.memory_group = {
 			4281,
 			4282,
 			4283
+		}
+	},
+	[324] = {
+		title = "Port Fashion Collection: Lazy Spring Day",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 324,
+		icon = "title_event",
+		memories = {
+			4301,
+			4302,
+			4303,
+			4304
+		}
+	},
+	[325] = {
+		title = "Toward Tulipa's Seas",
+		subtype = 1,
+		link_event = 5921,
+		type = 2,
+		id = 325,
+		icon = "title_event",
+		memories = {
+			4311,
+			4312,
+			4313,
+			4314,
+			4315,
+			4316,
+			4317,
+			4318
 		}
 	},
 	[501] = {

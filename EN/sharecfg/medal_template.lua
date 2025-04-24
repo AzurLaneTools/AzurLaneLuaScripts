@@ -2506,6 +2506,27 @@ pg.medal_template = {
 		explain1 = "Letters from Valley Hospital",
 		explain2 = "Event"
 	},
+	[200041] = {
+		target_id = "5913",
+		name = "Tulipa Commemorative Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "A medal from the Kingdom of Tulipa. It commemorates the defense of their country. \n—A new age of unity has begun.",
+		next = 0,
+		icon = "9041",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9041",
+		condition = "Collect 8 stickers in Toward Tulipa's Seas.",
+		rank = 1,
+		id = 200041,
+		explain1 = "Toward Tulipa's Seas",
+		explain2 = "Event"
+	},
 	all = {
 		10011,
 		10012,
@@ -2620,6 +2641,7 @@ pg.medal_template = {
 		200001,
 		200011,
 		200021,
-		200031
+		200031,
+		200041
 	}
 }

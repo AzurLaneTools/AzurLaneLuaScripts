@@ -45,14 +45,14 @@ pg.recommend_shop = {
 		pic = "",
 		shop_type = 1,
 		id = 5,
-		shop_id = 90,
+		shop_id = 157,
 		order = 1,
 		time = {
 			{
 				{
 					2025,
-					3,
-					20
+					4,
+					24
 				},
 				{
 					0,
@@ -63,8 +63,8 @@ pg.recommend_shop = {
 			{
 				{
 					2025,
-					4,
-					9
+					5,
+					7
 				},
 				{
 					23,

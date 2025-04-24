@@ -1735,5 +1735,21 @@ pg.voice_actor_CN = {
 	[446] = {
 		actor_name = "Azusa Tachibana",
 		code = 446
+	},
+	[447] = {
+		actor_name = "Kana Hanaiwa",
+		code = 447
+	},
+	[448] = {
+		actor_name = "Yuka Terasaki",
+		code = 448
+	},
+	[449] = {
+		actor_name = "Haruna Mikawa",
+		code = 449
+	},
+	[450] = {
+		actor_name = "Mami Uchida",
+		code = 450
 	}
 }

@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5890",
+		param = "5901",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5888
+			5901
 		}
 	},
 	{
@@ -40,7 +40,7 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
-		param = "",
+		param = "0",
 		name = "event_map",
 		text_pic = "text_event_map",
 		type = 0,
@@ -50,7 +50,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5888
+			5901
 		}
 	},
 	[20] = {
@@ -135,13 +135,16 @@ pg.activity_link_button = {
 	[90] = {
 		param = "0",
 		name = "event_series",
-		time = "stop",
-		text_pic = "text_event_series",
+		text_pic = "",
 		type = 0,
 		pic = "event_series",
 		id = 90,
 		group_id = 4,
-		order = 1
+		order = 1,
+		time = {
+			"default",
+			5888
+		}
 	},
 	[100] = {
 		name = "event_medal",

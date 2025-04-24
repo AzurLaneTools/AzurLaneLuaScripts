@@ -72,7 +72,11 @@ pg.dorm3d_subtitle = setmetatable({
 		3304,
 		3305,
 		3201,
-		3202
+		3202,
+		2401,
+		2402,
+		2403,
+		2404
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -360,5 +364,21 @@ pg.base.dorm3d_subtitle = {
 	[3202] = {
 		id = 3202,
 		subtitle = "Give me a hug...!"
+	},
+	[2401] = {
+		id = 2401,
+		subtitle = "You know, you don't get a foot massage like this every day."
+	},
+	[2402] = {
+		id = 2402,
+		subtitle = "This will improve my feet's circulation? Okay..."
+	},
+	[2403] = {
+		id = 2403,
+		subtitle = "Mmh..."
+	},
+	[2404] = {
+		id = 2404,
+		subtitle = "Feels warm... It's very nice."
 	}
 }

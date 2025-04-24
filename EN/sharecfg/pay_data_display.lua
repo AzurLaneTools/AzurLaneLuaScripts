@@ -175,6 +175,7 @@ pg.pay_data_display = setmetatable({
 		2046,
 		2047,
 		2048,
+		2049,
 		5011,
 		5012,
 		5013,
@@ -199,7 +200,8 @@ pg.pay_data_display = setmetatable({
 		153,
 		154,
 		155,
-		156
+		156,
+		157
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -16518,6 +16520,115 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[2049] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*After your purchase, the Pack will be sent to your mailbox.",
+		type = 0,
+		name = "Skill Book Pack",
+		first_pay_double = 0,
+		name_display = "Skill Book Pack",
+		descrip = "Buy to receive a large amount of Skill Books.",
+		subject = "Skill Book Pack",
+		money = 299,
+		limit_arg = 4,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "com.yostaren.azurlane.pack25",
+		extra_service = 3,
+		id = 2049,
+		airijp_id = "com.yostaren.azurlane.pack25",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
+				1
+			}
+		}
+	},
 	[5011] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -19119,6 +19230,120 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81423,
+				1
+			}
+		}
+	},
+	[157] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*The contents of the Lucky Box will be sent to your ingame inbox. Please remember to check it. \n*It is possible to obtain an outfit you already own. In such cases, you will instead receive Gems equivalent to the value of that outfit. ",
+		type = 1,
+		name = "Pajama Party Lucky Bag",
+		first_pay_double = 0,
+		name_display = "Pajama Party Lucky Bag",
+		descrip = "Contains a random character outfit and a large amount of supplies ",
+		subject = "Pajama Party Lucky Bag",
+		money = 2999,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai95",
+		skin_inquire_relation = 86415,
+		id_str = "com.yostaren.azurlane.luckybag56",
+		extra_service = 3,
+		id = 157,
+		airijp_id = "com.yostaren.azurlane.luckybag56",
+		extra_service_item = {
+			{
+				2,
+				86415,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					7
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86415,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81424,
 				1
 			}
 		}

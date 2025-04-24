@@ -189,9 +189,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					3
+					2025,
+					4,
+					24
 				},
 				{
 					0,
@@ -201,9 +201,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					10
+					2025,
+					4,
+					30
 				},
 				{
 					23,
@@ -242,9 +242,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					3
+					2025,
+					4,
+					24
 				},
 				{
 					0,
@@ -254,9 +254,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					10
+					2025,
+					4,
+					30
 				},
 				{
 					23,
@@ -1009,6 +1009,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "Sentiment Within the Sweetness",
+		story_resource_JP = "soundStory22_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "ss-50207-1",
+		CV_JP = "Arisa Date",
+		audition_resource_JP = "ss-50207-2",
+		overview = "Hai Tien comes to the Commander's office with a bowl of tong sui. \nShe makes a misstep and falls, which has some wet consequences...",
+		order = 2,
+		audition_text = "Eep! Mmh... Commander, with all due respect, that was a little too sudden...",
+		ship_id = 50207,
+		id = 22,
+		captions_color = "#182a5d",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "Endurance Training in the Sauna",
+		story_resource_JP = "soundStory23_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "Mari Hino",
+		audition_resource_JP = "ss-90107-1",
+		overview = "The Commander brings the heat-sensitive Mogador into a sauna to build up her tolerance. \nShe has to withstand this steamy, hot, intense training for a reward...",
+		order = 2,
+		audition_text = "I can't bear this anymore... This punishment is too much for me...",
+		ship_id = 90107,
+		id = 23,
+		captions_color = "#61422b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1030,6 +1136,8 @@ pg.soundstory_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22,
+		23
 	}
 }

@@ -15,6 +15,7 @@ slot0.EachSubDirector = function(slot0, slot1)
 		table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
 			uv0(slot0, slot1)
 		end)
+		uv1.EachSubDirector(slot1, uv0)
 	end)
 end
 

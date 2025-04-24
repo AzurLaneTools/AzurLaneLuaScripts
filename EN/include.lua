@@ -95,9 +95,9 @@ ERROR_MESSAGE = setmetatable({}, {
 BVCurIndex = 1
 BVLastIndex = 1
 
-require("Support/Utils/HXSet")
 require("Framework/Include")
 require("Support/Include")
+require("classes")
 require("Net/Include")
 require("Mgr/Include")
 require("GameCfg/Include")

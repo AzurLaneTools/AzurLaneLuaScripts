@@ -147,9 +147,21 @@ pg.dorm3d_recall = {
 		unlock_text = "Unlocked after gifting Sincere Loafers.",
 		desc = "As you share a private moment, your hands join in a delicate touch, making your hearts race...",
 		unlock = {
-			1,
-			30221,
-			1
+			3,
+			3022101
+		}
+	},
+	[32] = {
+		story_id = 20530,
+		name = "Foot Massager",
+		type = 1,
+		id = 32,
+		image = "recall_32",
+		unlock_text = "Unlocked after gifting Foot Massager.",
+		desc = "Relieve your stress, soothe your mind, and feel your body's energy return to you!",
+		unlock = {
+			3,
+			3022102
 		}
 	},
 	[41] = {
@@ -241,6 +253,9 @@ pg.dorm3d_recall = {
 		[29991] = {
 			31
 		},
+		[20530] = {
+			32
+		},
 		[30520] = {
 			41
 		},
@@ -266,6 +281,7 @@ pg.dorm3d_recall = {
 		22,
 		23,
 		31,
+		32,
 		41,
 		42,
 		43,

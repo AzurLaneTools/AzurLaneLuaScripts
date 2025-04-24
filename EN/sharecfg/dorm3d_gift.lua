@@ -237,6 +237,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[3022102] = {
+		display = "Relieve your stress, soothe your mind, and feel your body's energy return to you!",
+		name = "Foot Massager",
+		unlock_dialogue_id = 20530,
+		rarity = 4,
+		ship_group_id = 30221,
+		favor_trigger_id = 1004,
+		id = 3022102,
+		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift2",
+		reply_dialogue_id = {
+			{
+				30221,
+				20305
+			}
+		},
+		shop_id = {
+			260322
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				30221,
+				{
+					"banner_gift3022102"
+				}
+			}
+		}
+	},
 	[1990301] = {
 		display = "An adorably colored canvas that seems to capture all of Anchorage's world within. Every line reflects her innocence.",
 		name = "Heart in Crayon",
@@ -278,7 +308,8 @@ pg.dorm3d_gift = {
 			2022002
 		},
 		[30221] = {
-			3022101
+			3022101,
+			3022102
 		},
 		[19903] = {
 			1990301
@@ -291,6 +322,7 @@ pg.dorm3d_gift = {
 		2022001,
 		2022002,
 		3022101,
+		3022102,
 		1990301
 	}
 }

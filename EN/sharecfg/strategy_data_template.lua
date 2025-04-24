@@ -316,6 +316,8 @@ pg.strategy_data_template = setmetatable({
 		201319,
 		201320,
 		201321,
+		201361,
+		201365,
 		205001,
 		205002,
 		205003,
@@ -3889,6 +3891,28 @@ The following effects activate based on your Exploration Count on this stage:
 		buff_type = 0,
 		id = 201321,
 		icon = "201321",
+		arg = {}
+	},
+	[201361] = {
+		buff_id = 201361,
+		name = "Toward Tulipa's Seas",
+		desc = "At regular intervals, rotating shields that can negate a set number of enemy shells deploy around your ships.\nIf a Kingdom of Tulipa ship receives this shield, she also recovers a little HP.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201361,
+		icon = "201361",
+		arg = {}
+	},
+	[201365] = {
+		buff_id = 201365,
+		name = "Dam Defense System",
+		desc = "During battle, friendly coastal batteries will provide supporting barrages.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201365,
+		icon = "201365",
 		arg = {}
 	},
 	[205001] = {
