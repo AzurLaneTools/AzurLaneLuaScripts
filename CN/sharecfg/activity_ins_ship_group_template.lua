@@ -3808,8 +3808,8 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
-	[70508] = {
-		ship_group = 70508,
+	[70502] = {
+		ship_group = 70502,
 		name = "Sovetsky Soyuz",
 		background = "",
 		sculpture = "suweiaitongmengNew",
@@ -3832,8 +3832,8 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
-	[70509] = {
-		ship_group = 70509,
+	[70508] = {
+		ship_group = 70508,
 		name = "Poltava",
 		background = "",
 		sculpture = "boertawa",
@@ -4221,7 +4221,7 @@ pg.activity_ins_ship_group_template = {
 		name = "公共频道",
 		background = "200",
 		sculpture = "200",
-		nationality = 11,
+		nationality = 12,
 		type = 2
 	},
 	[960007] = {
@@ -4542,6 +4542,38 @@ pg.activity_ins_ship_group_template = {
 		background = "",
 		sculpture = "beikaluolaina",
 		nationality = 0,
+		type = 1
+	},
+	[110201] = {
+		ship_group = 110201,
+		name = "De Zeven Provinciën",
+		background = "",
+		sculpture = "qisheng",
+		nationality = 11,
+		type = 1
+	},
+	[110101] = {
+		ship_group = 110101,
+		name = "Evertsen",
+		background = "",
+		sculpture = "aifosen",
+		nationality = 11,
+		type = 1
+	},
+	[70509] = {
+		ship_group = 70509,
+		name = "Kazan ",
+		background = "",
+		sculpture = "kashan",
+		nationality = 7,
+		type = 1
+	},
+	[70208] = {
+		ship_group = 70208,
+		name = "Oleg",
+		background = "",
+		sculpture = "aoliege",
+		nationality = 7,
 		type = 1
 	},
 	all = {
@@ -5021,10 +5053,10 @@ pg.activity_ins_ship_group_template = {
 		50105,
 		50106,
 		20401,
-		70508,
+		70502,
 		10116,
 		70111,
-		70509,
+		70508,
 		70112,
 		20137,
 		20234,
@@ -5112,6 +5144,10 @@ pg.activity_ins_ship_group_template = {
 		10713,
 		10234,
 		10153,
-		10512
+		10512,
+		110201,
+		110101,
+		70509,
+		70208
 	}
 }

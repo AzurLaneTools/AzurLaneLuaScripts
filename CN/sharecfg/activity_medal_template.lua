@@ -384,6 +384,102 @@ pg.activity_medal_template = {
 		id = 587508,
 		medal_asset = "ActivityMedal/587508"
 	},
+	[591301] = {
+		activity_medal_desc = "绿意轮回于手杖间，摘去旧叶，新芽自生。",
+		next_medal = 0,
+		item = 65594,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21703,
+		activity_medal_name = "纪念贴：新绿手杖",
+		id = 591301,
+		medal_asset = "ActivityMedal/591301"
+	},
+	[591302] = {
+		activity_medal_desc = "郁金王国的崭新未来，自此开始。",
+		next_medal = 0,
+		item = 65595,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21704,
+		activity_medal_name = "纪念贴：致未来的花束",
+		id = 591302,
+		medal_asset = "ActivityMedal/591302"
+	},
+	[591303] = {
+		activity_medal_desc = "不必害怕，尖牙利爪是白熊守护孩子的工具。",
+		next_medal = 0,
+		item = 65596,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21705,
+		activity_medal_name = "纪念贴：熊的庇护",
+		id = 591303,
+		medal_asset = "ActivityMedal/591303"
+	},
+	[591304] = {
+		activity_medal_desc = "藤蔓编织自然，生命重建家园。",
+		next_medal = 0,
+		item = 65597,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21706,
+		activity_medal_name = "纪念贴：藤蔓魔法",
+		id = 591304,
+		medal_asset = "ActivityMedal/591304"
+	},
+	[591305] = {
+		activity_medal_desc = "具有夜视、无线通讯、双重滤光、发射炸弹等功能的天才发明，可不是什么普通的装饰品哟~",
+		next_medal = 0,
+		item = 65598,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21707,
+		activity_medal_name = "纪念贴：全频域黑喵强袭护目镜",
+		id = 591305,
+		medal_asset = "ActivityMedal/591305"
+	},
+	[591306] = {
+		activity_medal_desc = "即便是新生的嫩芽，也蕴含着不逊磐石的坚韧力量。",
+		next_medal = 0,
+		item = 65599,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21708,
+		activity_medal_name = "纪念贴：绿脉共生",
+		id = 591306,
+		medal_asset = "ActivityMedal/591306"
+	},
+	[591307] = {
+		activity_medal_desc = "穷凶极恶、形似杂鱼……不对，鲨鱼的超·无畏级根除武装「福尔尼德」。",
+		next_medal = 0,
+		item = 65600,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21709,
+		activity_medal_name = "纪念贴：新型战斗兵器「福尔尼德」",
+		id = 591307,
+		medal_asset = "ActivityMedal/591307"
+	},
+	[591308] = {
+		activity_medal_desc = "散发郁金芳香的精致书签，魔法工艺，永久保鲜。",
+		next_medal = 0,
+		item = 65601,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21710,
+		activity_medal_name = "纪念贴：郁金花签",
+		id = 591308,
+		medal_asset = "ActivityMedal/591308"
+	},
 	all = {
 		571101,
 		571102,
@@ -416,6 +512,14 @@ pg.activity_medal_template = {
 		587505,
 		587506,
 		587507,
-		587508
+		587508,
+		591301,
+		591302,
+		591303,
+		591304,
+		591305,
+		591306,
+		591307,
+		591308
 	}
 }

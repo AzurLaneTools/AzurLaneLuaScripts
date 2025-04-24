@@ -538,6 +538,11 @@ temp = function()
 				}
 			}
 		},
+		["列"] = {
+			["格"] = {
+				this = true
+			}
+		},
 		["丁"] = {
 			this = true
 		},
@@ -871,6 +876,11 @@ temp = function()
 						}
 					}
 				}
+			}
+		},
+		["佛"] = {
+			["森"] = {
+				this = true
 			}
 		},
 		["吉"] = {
@@ -1919,6 +1929,15 @@ temp = function()
 			["戴"] = {
 				["安"] = {
 					["娜"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["安"] = {
+			["克"] = {
+				["雷"] = {
+					["奇"] = {
 						this = true
 					}
 				}
@@ -7378,6 +7397,9 @@ temp()
 
 temp = function()
 	uv0["喀"] = {
+		["山"] = {
+			this = true
+		},
 		["琅"] = {
 			["施"] = {
 				["塔"] = {
@@ -7789,6 +7811,16 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["七"] = {
+		["省"] = {
+			this = true
 		}
 	}
 end

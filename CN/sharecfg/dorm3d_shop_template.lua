@@ -18,7 +18,8 @@ pg.dorm3d_shop_template = setmetatable({
 		14,
 		15,
 		16,
-		17
+		17,
+		18
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -199,7 +200,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 2022001,
 		id = 9,
-		order = "12",
+		order = "13",
 		panel = {
 			2,
 			3,
@@ -220,7 +221,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 2022002,
 		id = 10,
-		order = "15",
+		order = "16",
 		panel = {
 			2,
 			3,
@@ -241,7 +242,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 3022101,
 		id = 11,
-		order = "13",
+		order = "14",
 		panel = {
 			2,
 			3,
@@ -262,7 +263,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1990301,
 		id = 12,
-		order = "14",
+		order = "15",
 		panel = {
 			2,
 			3,
@@ -283,7 +284,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1021002,
 		id = 13,
-		order = "16",
+		order = "17",
 		panel = {
 			5
 		},
@@ -306,7 +307,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1021003,
 		id = 14,
-		order = "17",
+		order = "18",
 		panel = {
 			5
 		},
@@ -374,6 +375,27 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_beach4"
+		}
+	},
+	{
+		rarity = 4,
+		name = "能量修复仪",
+		type = 2,
+		room_id = 30221,
+		unlock = "",
+		item_id = 3022102,
+		id = 18,
+		order = "12",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260322
+		},
+		banners = {
+			"banner_gift3022102"
 		}
 	}
 }

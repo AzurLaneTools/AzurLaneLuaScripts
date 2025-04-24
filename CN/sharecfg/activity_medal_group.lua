@@ -192,10 +192,60 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[5913] = {
+		entrance_picture = "medalAlbum/5913",
+		id = 5913,
+		group_name = "扬起郁金之旗",
+		is_out_of_print = 0,
+		activity_medal_ids = {
+			591301,
+			591302,
+			591303,
+			591304,
+			591305,
+			591306,
+			591307,
+			591308
+		},
+		activity_link = {
+			{
+				1,
+				5913,
+				{
+					21711,
+					21703,
+					21704,
+					21705,
+					21706,
+					21707,
+					21708,
+					21709,
+					21710
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TulipKingdomMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				302,
+				1
+			},
+			{
+				8,
+				65593,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
 		5812,
-		5875
+		5875,
+		5913
 	}
 }

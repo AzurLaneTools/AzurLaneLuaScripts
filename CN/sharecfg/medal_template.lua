@@ -2506,6 +2506,27 @@ pg.medal_template = {
 		explain1 = "「深谷来信」 ",
 		explain2 = "活动纪念"
 	},
+	[200041] = {
+		target_id = "5913",
+		name = "郁金启航纪念勋章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "郁金王国颁发的纪念勋章，纪念这场保卫王国的战役。\n——新的时代已经来临，一个联合团结互助的时代。",
+		next = 0,
+		icon = "9041",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9041",
+		condition = "收集8个「扬起郁金之旗」 纪念贴纸。",
+		rank = 1,
+		id = 200041,
+		explain1 = "「扬起郁金之旗」",
+		explain2 = "活动纪念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2620,6 +2641,7 @@ pg.medal_template = {
 		200001,
 		200011,
 		200021,
-		200031
+		200031,
+		200041
 	}
 }
