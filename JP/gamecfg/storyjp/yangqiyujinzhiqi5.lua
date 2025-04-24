@@ -272,7 +272,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "ゼーヴェンさん、そんなに抜いたらステッキがツルツルにになってしまいますよ",
+			say = "ゼーヴェンさん、そんなに抜いたらステッキがツルツルになってしまいますよ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

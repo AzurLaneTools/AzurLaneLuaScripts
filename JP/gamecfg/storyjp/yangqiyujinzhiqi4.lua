@@ -267,7 +267,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "大丈夫、今回のは時間の流れを1/360で構築しただから、数秒もかからないわ",
+			say = "大丈夫、今回のは時間の流れを1/360で構築したから、数秒もかからないわ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

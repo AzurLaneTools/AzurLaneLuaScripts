@@ -4562,7 +4562,7 @@ pg.activity_ins_ship_group_template = {
 	},
 	[70509] = {
 		ship_group = 70509,
-		name = "Poltava",
+		name = "Kazan ",
 		background = "",
 		sculpture = "kashan",
 		nationality = 7,

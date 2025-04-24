@@ -37215,7 +37215,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 6
 	},
 	[3717] = {
-		param = "どれかひとつでも条件を満たていないと、花をつけないんです",
+		param = "どれかひとつでも条件を満たしていないと、花をつけないんです",
 		ship_group = 110101,
 		option = "",
 		type = 1,
