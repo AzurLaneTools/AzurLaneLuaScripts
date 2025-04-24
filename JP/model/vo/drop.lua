@@ -748,12 +748,18 @@ slot0.InitSwitch = function()
 					end
 				end,
 				[15] = function ()
-					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE) and not slot1:isEnd() then
+					if not getProxy(ActivityProxy):getActivityById(uv0:getConfig("link_id")) or slot1:isEnd() then
+						return
+					end
+
+					if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_WORLDINPICTURE then
 						if uv0.id == pg.activity_event_grid[slot1.data1].ticket_item then
 							slot1.data2 = slot1.data2 + uv0.count
 						elseif uv0.id == slot2.explore_item then
 							slot1.data3 = slot1.data3 + uv0.count
 						end
+					elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
+						slot1.data3 = slot1.data3 + uv0.count
 					end
 
 					slot0:updateActivity(slot1)

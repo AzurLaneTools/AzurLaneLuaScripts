@@ -1,5 +1,88 @@
 pg = pg or {}
 pg.enemy_data_statistics_70 = {
+	[107017] = {
+		cannon = 115,
+		name = "量産型イスズ級",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 380,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90108,
+		durability = 920,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		luck = 0,
+		id = 107017,
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 26,
+		torpedo = 245,
+		durability_growth = 14200,
+		luck_growth = 0,
+		battle_unit_type = 25,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			317028,
+			317038
+		}
+	},
+	[107018] = {
+		cannon = 340,
+		name = "アブクマ",
+		hit_growth = 0,
+		speed_growth = 0,
+		antiaircraft_growth = 0,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 2,
+		antiaircraft = 525,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 3,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90188,
+		durability = 5600,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 24,
+		luck = 0,
+		id = 107018,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 23,
+		reload_growth = 0,
+		hit = 30,
+		torpedo = 700,
+		durability_growth = 35500,
+		luck_growth = 0,
+		battle_unit_type = 55,
+		appear_fx = {
+			"appearQ"
+		},
+		equipment_list = {
+			317034,
+			317035,
+			317036
+		}
+	},
 	[107019] = {
 		cannon = 130,
 		name = "量産型ナガラ級",
@@ -1318,202 +1401,6 @@ pg.enemy_data_statistics_70 = {
 		},
 		equipment_list = {
 			300013
-		}
-	},
-	[10805100] = {
-		name = "イナヅマ",
-		rarity = 3,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 0,
-		dodge = 115,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 0,
-		antiaircraft = 320,
-		cannon = 400,
-		dodge_growth = 1020,
-		fog_fx = "",
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90164,
-		durability = 56000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 36,
-		luck = 0,
-		id = 10805100,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 750,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.31,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.23,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.56,
-							2.91,
-							-0.14
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			100223,
-			100432,
-			317004,
-			317012,
-			318102
-		}
-	},
-	[10805200] = {
-		name = "イカヅチ",
-		rarity = 3,
-		speed_growth = 0,
-		hit_growth = 210,
-		air = 0,
-		dodge = 130,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 0,
-		antiaircraft = 320,
-		cannon = 430,
-		dodge_growth = 1020,
-		fog_fx = "",
-		star = 4,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90163,
-		durability = 62000,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 36,
-		luck = 0,
-		id = 10805200,
-		cannon_growth = 0,
-		reload = 150,
-		reload_growth = 0,
-		hit = 20,
-		torpedo = 820,
-		durability_growth = 0,
-		luck_growth = 0,
-		battle_unit_type = 95,
-		bound_bone = {
-			cannon = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.31,
-					0.17,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.61,
-					0.49,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							0.23,
-							0.486,
-							-0.481
-						}
-					}
-				}
-			},
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.56,
-							2.91,
-							-0.14
-						}
-					}
-				}
-			}
-		},
-		equipment_list = {
-			100223,
-			100432,
-			317007,
-			317012,
-			318102
 		}
 	}
 }

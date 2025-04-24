@@ -2506,6 +2506,27 @@ pg.medal_template = {
 		explain1 = "「病院探訪」",
 		explain2 = "イベント"
 	},
+	[200041] = {
+		target_id = "5913",
+		name = "チュリッパ出航記念章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "チュリッパ王国からの記念章。王国を守る戦いを記念して\n ーー一致団結の新しい時代が始まっている",
+		next = 0,
+		icon = "9041",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9041",
+		condition = "「チュリッパの海へ」記念ステッカーを8つ集める",
+		rank = 1,
+		id = 200041,
+		explain1 = "「チュリッパの海へ」",
+		explain2 = "イベント"
+	},
 	all = {
 		10011,
 		10012,
@@ -2620,6 +2641,7 @@ pg.medal_template = {
 		200001,
 		200011,
 		200021,
-		200031
+		200031,
+		200041
 	}
 }

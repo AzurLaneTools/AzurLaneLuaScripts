@@ -189,9 +189,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					3
+					2025,
+					4,
+					24
 				},
 				{
 					12,
@@ -201,9 +201,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					10
+					2025,
+					4,
+					30
 				},
 				{
 					23,
@@ -242,9 +242,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					3
+					2025,
+					4,
+					24
 				},
 				{
 					12,
@@ -254,9 +254,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					10
+					2025,
+					4,
+					30
 				},
 				{
 					23,
@@ -1009,6 +1009,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "甘味の中の気持ち",
+		story_resource_JP = "soundStory22_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "ss-50207-1",
+		CV_JP = "伊達朱里紗",
+		audition_resource_JP = "ss-50207-2",
+		overview = "手作りの糖水を手に、執務室を訪れた海天。\nしかし、うっかり転んでしまい、思わぬトラブルに…？",
+		order = 2,
+		audition_text = "ひゃう、んぅ…指揮官さん…今のは、さすがにいきなりすぎるというか……",
+		ship_id = 50207,
+		id = 22,
+		captions_color = "#182a5d",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "サウナでの根性トレーニング",
+		story_resource_JP = "soundStory23_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "日野まり",
+		audition_resource_JP = "ss-90107-1",
+		overview = "暑がりのモガドールの高温耐性を鍛え直そうと、サウナでの特殊訓練を決行した指揮官。\n熱気ムンムンのブースの中で、「厳しい」根性トレーニングが行われているーー",
+		order = 2,
+		audition_text = "だめぇ♥……オシオキ……もう耐えられないよぉ……♥",
+		ship_id = 90107,
+		id = 23,
+		captions_color = "#61422b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					4,
+					24
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1030,6 +1136,8 @@ pg.soundstory_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22,
+		23
 	}
 }

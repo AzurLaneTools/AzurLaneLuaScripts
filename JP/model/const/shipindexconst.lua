@@ -211,32 +211,34 @@ slot0.filterByType = function(slot0, slot1)
 	return false
 end
 
-slot0.CampUS = bit.lshift(1, 0)
-slot0.CampEN = bit.lshift(1, 1)
-slot0.CampJP = bit.lshift(1, 2)
-slot0.CampDE = bit.lshift(1, 3)
-slot0.CampCN = bit.lshift(1, 4)
-slot0.CampITA = bit.lshift(1, 5)
-slot0.CampSN = bit.lshift(1, 6)
-slot0.CampFF = bit.lshift(1, 7)
-slot0.CampMNF = bit.lshift(1, 8)
-slot0.CampMETA = bit.lshift(1, 9)
-slot0.CampMot = bit.lshift(1, 10)
-slot0.CampOther = bit.lshift(1, 11)
-slot0.CampIndexs = {
-	slot0.CampUS,
-	slot0.CampEN,
-	slot0.CampJP,
-	slot0.CampDE,
-	slot0.CampCN,
-	slot0.CampITA,
-	slot0.CampSN,
-	slot0.CampFF,
-	slot0.CampMNF,
-	slot0.CampMETA,
-	slot0.CampMot,
-	slot0.CampOther
+slot1 = {
+	"CampUS",
+	"CampEN",
+	"CampJP",
+	"CampDE",
+	"CampCN",
+	"CampITA",
+	"CampSN",
+	"CampFF",
+	"CampMNF",
+	"CampNL",
+	"CampMETA",
+	"CampMot",
+	"CampOther"
 }
+
+if LOCK_NATION_HNLMS then
+	table.removebyvalue(slot1, "CampNL")
+end
+
+slot0.CampIndexs = {}
+
+for slot5, slot6 in ipairs(slot1) do
+	slot0[slot6] = bit.lshift(1, slot5 - 1)
+
+	table.insert(slot0.CampIndexs, slot0[slot6])
+end
+
 slot0.CampAll = IndexConst.BitAll(slot0.CampIndexs)
 
 table.insert(slot0.CampIndexs, 1, slot0.CampAll)
@@ -252,10 +254,15 @@ slot0.CampNames = {
 	"word_shipNation_beiLian",
 	"word_shipNation_ziyou",
 	"word_shipNation_weixi",
+	"word_shipNation_yujinwangguo",
 	"word_shipNation_meta_index",
 	"word_shipNation_mot",
 	"word_shipNation_other"
 }
+
+if LOCK_NATION_HNLMS then
+	table.removebyvalue(slot0.CampNames, "word_shipNation_yujinwangguo")
+end
 
 slot0.filterByCamp = function(slot0, slot1)
 	if not slot1 or slot1 == uv0.CampAll then

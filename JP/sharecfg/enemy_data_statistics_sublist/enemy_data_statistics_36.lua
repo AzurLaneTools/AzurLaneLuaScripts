@@ -4262,52 +4262,161 @@ pg.enemy_data_statistics_36 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[611] = {
-		cannon = 22,
-		name = "トネ",
-		rarity = 4,
+	[91083] = {
+		cannon = 0,
+		name = "超・弩級根絶武装「スフィルニダエ」",
+		antiaircraft_growth = 0,
 		speed_growth = 0,
-		hit_growth = 210,
+		luck = 0,
 		air = 0,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 3600,
-		antiaircraft = 44,
-		speed = 16,
-		fog_fx = "",
-		dodge_growth = 126,
-		star = 5,
+		nationality = 99,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "unknown3_jianzhuang",
+		star = 0,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90206,
-		durability = 580,
+		battle_unit_type = 90,
+		antisub = 0,
+		durability = 99999,
 		armor_growth = 0,
-		torpedo_growth = 3456,
-		luck = 0,
-		id = 611,
-		cannon_growth = 2000,
+		torpedo_growth = 0,
+		speed = 20,
+		armor = 0,
+		friendly_cld = 0,
+		id = 91083,
+		scale = 200,
+		prefab = "unknown3_jianzhuang",
+		cannon_growth = 0,
 		pilot_ai_template_id = 10001,
 		reload = 150,
-		dodge = 9,
+		dodge = 0,
 		reload_growth = 0,
-		hit = 14,
-		torpedo = 42,
-		durability_growth = 28200,
+		wave_fx = "",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 60,
+		hit_growth = 0,
+		armor_type = 3,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			-10
+		},
+		cld_box = {
+			18,
+			15,
+			15
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.9,
+					1.55,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.21,
+					1.4,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.19,
+					0.13,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.83,
+					1.38,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.45,
+							2.26,
+							0.53
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
 		appear_fx = {
 			"bossguangxiao",
 			"appearQ"
+		},
+		position_offset = {
+			0,
+			0,
+			0
 		},
 		hp_bar = {
 			200,
 			4
 		},
-		equipment_list = {
-			100201,
-			311072,
-			311075,
-			311076
-		}
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

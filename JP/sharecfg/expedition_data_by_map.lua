@@ -154,6 +154,9 @@ pg.expedition_data_by_map = setmetatable({
 		1890012,
 		1890025,
 		1890026,
+		1910001,
+		1910002,
+		1910003,
 		2100000,
 		2100001,
 		2100010,
@@ -10119,6 +10122,231 @@ pg.base.expedition_data_by_map = {
 			174,
 			175,
 			176
+		}
+	},
+	[1910001] = {
+		map = 1910001,
+		name = "チュリッパの海へ|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tulipa",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1910002",
+		default_background = "star_level_bg_545",
+		on_activity = 5901,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1910002",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 1910001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1910023,
+					"map_1910001",
+					"effect_1910001"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				1910001,
+				1910021
+			},
+			{
+				1910002,
+				1910022
+			},
+			{
+				1910003,
+				1910023
+			}
+		},
+		story_id = {
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
+		}
+	},
+	[1910002] = {
+		map = 1910002,
+		name = "チュリッパの海へ|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tulipa",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1910002",
+		default_background = "star_level_bg_545",
+		on_activity = 5901,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1910002",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 1910002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1910023,
+					"map_1910001",
+					"effect_1910001"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				1910001,
+				1910021
+			},
+			{
+				1910002,
+				1910022
+			},
+			{
+				1910003,
+				1910023
+			}
+		},
+		story_id = {
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
+		}
+	},
+	[1910003] = {
+		map = 1910003,
+		name = "チュリッパの海へ·SP|| ||CHAPTER EX||E.X.",
+		bgm = "battle-tulipa",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1910003",
+		ani_controller = "",
+		default_background = "star_level_bg_545",
+		on_activity = 5901,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1910003",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 1910002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1910041
+			}
+		},
+		story_id = {
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
 		}
 	},
 	[2100000] = {

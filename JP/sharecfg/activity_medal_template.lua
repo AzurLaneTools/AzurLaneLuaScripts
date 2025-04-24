@@ -384,6 +384,102 @@ pg.activity_medal_template = {
 		id = 587508,
 		medal_asset = "ActivityMedal/587508"
 	},
+	[591301] = {
+		activity_medal_desc = "緑の力を杖で循環させましょう。古い葉を摘み取れば、新芽は自ら生まれます",
+		next_medal = 0,
+		item = 65594,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21703,
+		activity_medal_name = "ステッカー：新緑の杖",
+		id = 591301,
+		medal_asset = "ActivityMedal/591301"
+	},
+	[591302] = {
+		activity_medal_desc = "チュリッパ王国の新たな未来は、ここから始まる",
+		next_medal = 0,
+		item = 65595,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21704,
+		activity_medal_name = "ステッカー：未来への花束",
+		id = 591302,
+		medal_asset = "ActivityMedal/591302"
+	},
+	[591303] = {
+		activity_medal_desc = "恐れることはないわ。鋭い牙も爪も、我が子を守るためにあるんだから",
+		next_medal = 0,
+		item = 65596,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21705,
+		activity_medal_name = "ステッカー：熊の守り",
+		id = 591303,
+		medal_asset = "ActivityMedal/591303"
+	},
+	[591304] = {
+		activity_medal_desc = "蔦は自然を編み、命は棲み家を再建する",
+		next_medal = 0,
+		item = 65597,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21706,
+		activity_medal_name = "ステッカー：蔦魔法",
+		id = 591304,
+		medal_asset = "ActivityMedal/591304"
+	},
+	[591305] = {
+		activity_medal_desc = "ただの飾りではなく、暗視に無線通信に光フィルターに爆弾発射まで備えた天才的発明ですよぉ！",
+		next_medal = 0,
+		item = 65598,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21707,
+		activity_medal_name = "ステッカー：全領域強襲コーシカゴーグル",
+		id = 591305,
+		medal_asset = "ActivityMedal/591305"
+	},
+	[591306] = {
+		activity_medal_desc = "芽生えたばかりの新芽でも、岩にも劣らぬ強靭な力を秘めている",
+		next_medal = 0,
+		item = 65599,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21708,
+		activity_medal_name = "ステッカー：葉脈共生",
+		id = 591306,
+		medal_asset = "ActivityMedal/591306"
+	},
+	[591307] = {
+		activity_medal_desc = "凶悪極まりなく、雑魚…いや、サメに似た超・弩級根絶武装「スフィルニダエ」だぜ！",
+		next_medal = 0,
+		item = 65600,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21709,
+		activity_medal_name = "ステッカー：新型戦闘兵器「スフィルニダエ」",
+		id = 591307,
+		medal_asset = "ActivityMedal/591307"
+	},
+	[591308] = {
+		activity_medal_desc = "チューリップの香りがする精巧な栞。魔法で永久に鮮やかに保たれる",
+		next_medal = 0,
+		item = 65601,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21710,
+		activity_medal_name = "ステッカー：チューリップの栞",
+		id = 591308,
+		medal_asset = "ActivityMedal/591308"
+	},
 	all = {
 		571101,
 		571102,
@@ -416,6 +512,14 @@ pg.activity_medal_template = {
 		587505,
 		587506,
 		587507,
-		587508
+		587508,
+		591301,
+		591302,
+		591303,
+		591304,
+		591305,
+		591306,
+		591307,
+		591308
 	}
 }
