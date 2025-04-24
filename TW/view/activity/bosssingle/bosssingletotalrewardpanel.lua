@@ -16,11 +16,15 @@ slot0.UpdateView = function(slot0)
 	slot4 = slot0.window
 
 	onButton(slot0, slot4:Find("Fixed/ButtonGO"), function ()
-		warning(uv0.onConfirm)
-		warning(uv0.onClose)
 		existCall(uv0.onConfirm)
 		uv1:closeView()
 	end, SFX_CONFIRM)
+
+	slot4 = slot0.window
+
+	onButton(slot0, slot4:Find("Fixed/ButtonExit"), function ()
+		triggerButton(uv0._tf:Find("BG"))
+	end)
 end
 
 return slot0

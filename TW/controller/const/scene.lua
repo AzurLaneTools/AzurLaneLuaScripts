@@ -1325,6 +1325,10 @@ slot1 = {
 		else
 			slot1()
 		end
+	end,
+	Dorm3dShopMediator = function (slot0, slot1)
+		getProxy(ApartmentProxy):InitGiftDaily()
+		slot1()
 	end
 }
 

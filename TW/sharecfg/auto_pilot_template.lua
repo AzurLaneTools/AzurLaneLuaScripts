@@ -621,6 +621,36 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[15018] = {
+		id = 15002,
+		name = "角色用/技能用AI - U101专武后撤后随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = -17,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 90,
+					Z2 = -10,
+					moveCount = 240,
+					Z1 = 10,
+					duration = -1,
+					X1 = -10,
+					X2 = 10
+				}
+			}
+		}
+	},
 	[20001] = {
 		id = 20001,
 		name = "蛋船固定移动ai-23",

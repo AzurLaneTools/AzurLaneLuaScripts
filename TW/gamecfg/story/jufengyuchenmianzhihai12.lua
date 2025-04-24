@@ -654,7 +654,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（……大意了，明明女神的力量衰弱的直接提現就是在海上肆虐的風暴……！）",
+			say = "（……大意了，明明女神的力量衰弱的直接體現就是在海上肆虐的風暴……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -99,7 +99,7 @@ slot0.didEnter = function(slot0)
 			end
 		end
 	})
-	setText(slot0._tf:Find("Window/Content"), (slot0.contextData.content.cost ~= 0 or i18n("dorm3d_purchase_confirm_free", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.name)) and (slot0.contextData.content.off <= 0 or i18n("dorm3d_purchase_confirm_discount", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.old, slot0.contextData.content.name)) and i18n("dorm3d_purchase_confirm_original", slot0.contextData.content.icon, slot0.contextData.content.cost, slot0.contextData.content.name))
+	setText(slot0._tf:Find("Window/Content"), (slot0.contextData.content.cost ~= 0 or i18n("dorm3d_purchase_confirm_free", slot0.contextData.content.icon, "x" .. slot0.contextData.content.cost, slot0.contextData.content.name)) and (slot0.contextData.content.off <= 0 or i18n("dorm3d_purchase_confirm_discount", slot0.contextData.content.icon, "x" .. slot0.contextData.content.cost, slot0.contextData.content.old, slot0.contextData.content.name)) and i18n("dorm3d_purchase_confirm_original", slot0.contextData.content.icon, "x" .. slot0.contextData.content.cost, slot0.contextData.content.name))
 	setText(slot0._tf:Find("Window/Confirm/Text"), i18n("msgbox_text_confirm"))
 	setText(slot0._tf:Find("Window/Cancel/Text"), i18n("msgbox_text_cancel"))
 	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {

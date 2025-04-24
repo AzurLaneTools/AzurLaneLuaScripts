@@ -12010,7 +12010,7 @@ _G.pg.base.gametip.buildship_heavy_tip = {
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "赫敏 建造追加！"
+	tip = "愛斯基摩 建造追加！"
 }
 
 
@@ -29319,6 +29319,16 @@ _G.pg.base.gametip.word_maingroup_checkfailure = {
 
 _G.pg.base.gametip.word_maingroup_updating = {
 	tip = "更新中..."
+}
+
+
+_G.pg.base.gametip.word_maingroup_idle = {
+	tip = "无状态"
+}
+
+
+_G.pg.base.gametip.word_maingroup_latest = {
+	tip = "無需更新"
 }
 
 

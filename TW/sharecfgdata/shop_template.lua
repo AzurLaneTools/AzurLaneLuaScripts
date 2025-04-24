@@ -32716,6 +32716,7 @@ _G.pg.base.shop_template[70194] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32726,32 +32727,6 @@ _G.pg.base.shop_template[70194] = {
 	limit_args = {},
 	effect_args = {
 		201261
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -32769,6 +32744,7 @@ _G.pg.base.shop_template[70195] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32779,32 +32755,6 @@ _G.pg.base.shop_template[70195] = {
 	limit_args = {},
 	effect_args = {
 		202161
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -32822,6 +32772,7 @@ _G.pg.base.shop_template[70196] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32832,32 +32783,6 @@ _G.pg.base.shop_template[70196] = {
 	limit_args = {},
 	effect_args = {
 		202231
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -32875,6 +32800,7 @@ _G.pg.base.shop_template[70197] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -32885,32 +32811,6 @@ _G.pg.base.shop_template[70197] = {
 	limit_args = {},
 	effect_args = {
 		206052
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -38704,6 +38604,7 @@ _G.pg.base.shop_template[70382] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -38714,32 +38615,6 @@ _G.pg.base.shop_template[70382] = {
 	limit_args = {},
 	effect_args = {
 		201321
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -43069,6 +42944,7 @@ _G.pg.base.shop_template[70518] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43079,32 +42955,6 @@ _G.pg.base.shop_template[70518] = {
 	limit_args = {},
 	effect_args = {
 		107223
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -43150,6 +43000,7 @@ _G.pg.base.shop_template[70520] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43160,32 +43011,6 @@ _G.pg.base.shop_template[70520] = {
 	limit_args = {},
 	effect_args = {
 		305113
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 
@@ -43287,6 +43112,7 @@ _G.pg.base.shop_template[70524] = {
 	limit_args2 = "",
 	collaboration_skin_time = "",
 	order = 9999,
+	time = "always",
 	group = 0,
 	num = 1,
 	discount = 0,
@@ -43297,32 +43123,6 @@ _G.pg.base.shop_template[70524] = {
 	limit_args = {},
 	effect_args = {
 		801032
-	},
-	time = {
-		{
-			{
-				2024,
-				9,
-				19
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		{
-			{
-				2024,
-				10,
-				9
-			},
-			{
-				23,
-				59,
-				59
-			}
-		}
 	}
 }
 

@@ -636,6 +636,11 @@ slot0.initPauseWindow = function(slot0)
 	onButton(slot0, slot0.pauseWindow, function ()
 		triggerButton(uv0.continueBtn)
 	end)
+	onButton(slot0, slot0.pauseWindow, function ()
+		if not uv0.pauseWindow:GetComponent(typeof(Animation)) or not slot0:IsPlaying("msgbox_out") then
+			triggerButton(uv0.continueBtn)
+		end
+	end)
 	setActive(slot0.pauseWindow, false)
 end
 

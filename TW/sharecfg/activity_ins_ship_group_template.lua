@@ -1837,7 +1837,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Chapaev",
 		background = "",
 		sculpture = "qiabayefu",
-		nationality = 0,
+		nationality = 7,
 		type = 1
 	},
 	[70501] = {

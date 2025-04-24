@@ -1447,6 +1447,35 @@ pg.re_map_template = {
 			}
 		}
 	},
+	[27] = {
+		id = 27,
+		name = "峡湾间的反击常驻复刻",
+		bg = "temp_aisijimoren",
+		memory_group = 187,
+		activity_type = 2,
+		order = 27,
+		config_data = {
+			2200101,
+			2200102,
+			2200103
+		},
+		chapter_progress = {
+			33,
+			66,
+			100
+		},
+		drop_gain = {},
+		drop_display_sp = {},
+		drop_display = {
+			{
+				{
+					2,
+					11029
+				},
+				"SP3"
+			}
+		}
+	},
 	[28] = {
 		id = 28,
 		name = "负象限作战常驻复刻",
@@ -1691,6 +1720,7 @@ pg.re_map_template = {
 		24,
 		25,
 		26,
+		27,
 		28,
 		29,
 		30

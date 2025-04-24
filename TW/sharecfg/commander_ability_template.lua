@@ -527,10 +527,10 @@ pg.commander_ability_template = {
 	},
 	[151] = {
 		cost = 0,
-		name = "碧海亲和性·新手",
+		name = "碧海親和性·新手",
 		group_id = 15,
 		worth = 2,
-		desc = "舰队成员航空、炮击、雷击提高3点",
+		desc = "艦隊成員航空、炮擊、雷擊提高3點",
 		next = 152,
 		id = 151,
 		icon = "zhanlie_paoji_1",
@@ -559,11 +559,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"炮击",
+				"炮擊",
 				3
 			},
 			{
-				"雷击",
+				"雷擊",
 				3
 			},
 			{
@@ -574,10 +574,10 @@ pg.commander_ability_template = {
 	},
 	[152] = {
 		cost = 0,
-		name = "碧海亲和性·精锐",
+		name = "碧海親和性·精銳",
 		group_id = 15,
 		worth = 3,
-		desc = "舰队成员航空、炮击、雷击提高6点",
+		desc = "艦隊成員航空、炮擊、雷擊提高6點",
 		next = 0,
 		id = 152,
 		icon = "zhanlie_paoji_2",
@@ -606,11 +606,11 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"炮击",
+				"炮擊",
 				6
 			},
 			{
-				"雷击",
+				"雷擊",
 				6
 			},
 			{
@@ -3096,10 +3096,10 @@ pg.commander_ability_template = {
 	},
 	[831] = {
 		cost = 0,
-		name = "飓风观测士·新手",
+		name = "颶風觀測士·新手",
 		group_id = 83,
 		worth = 1,
-		desc = "舰队命中提高1点",
+		desc = "艦隊命中提高1點",
 		next = 832,
 		id = 831,
 		icon = "teshu_one_1",
@@ -3121,10 +3121,10 @@ pg.commander_ability_template = {
 	},
 	[832] = {
 		cost = 0,
-		name = "飓风观测士·熟练",
+		name = "颶風觀測士·熟練",
 		group_id = 83,
 		worth = 2,
-		desc = "舰队命中提高2点",
+		desc = "艦隊命中提高2點",
 		next = 833,
 		id = 832,
 		icon = "teshu_one_2",
@@ -3146,10 +3146,10 @@ pg.commander_ability_template = {
 	},
 	[833] = {
 		cost = 0,
-		name = "飓风之眼",
+		name = "颶風之眼",
 		group_id = 83,
 		worth = 3,
-		desc = "舰队命中提高3点",
+		desc = "艦隊命中提高3點",
 		next = 0,
 		id = 833,
 		icon = "teshu_one_3",
@@ -6044,10 +6044,10 @@ pg.commander_ability_template = {
 	},
 	[5161] = {
 		cost = 0,
-		name = "攻夺预备",
+		name = "攻奪預備",
 		group_id = 516,
 		worth = 1,
-		desc = "<color=#3dc6ff>战巡、战列、风帆M</color>炮击提高20点，<color=#3dc6ff>正航</color>航空提高20点",
+		desc = "<color=#3dc6ff>戰巡、戰列、風帆M</color>炮擊提高20點，< color=#3dc6ff>正航</color>航空提高20點",
 		next = 0,
 		id = 5161,
 		icon = "special_one",
@@ -6075,15 +6075,15 @@ pg.commander_ability_template = {
 		},
 		add_desc = {
 			{
-				"<战巡>炮击",
+				"<戰巡>炮擊",
 				20
 			},
 			{
-				"<战列>炮击",
+				"<戰列>炮擊",
 				20
 			},
 			{
-				"<风帆M>炮击",
+				"<風帆M>炮擊",
 				20
 			},
 			{

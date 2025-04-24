@@ -450,6 +450,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「澎湃之心，永不停歇。劈風斬浪，一往無前。」</color>\n「鐵翼擎風」活動獲取",
 		scene = {}
 	},
+	[332] = {
+		name = "新生之炎",
+		gain_by = "",
+		time_second = 0,
+		id = 332,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂紀念：企業",
 		gain_by = "",
@@ -780,6 +789,7 @@ pg.item_data_frame = {
 		329,
 		330,
 		331,
+		332,
 		401,
 		402,
 		414,

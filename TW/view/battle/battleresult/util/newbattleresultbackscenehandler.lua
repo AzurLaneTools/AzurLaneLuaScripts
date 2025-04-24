@@ -72,7 +72,7 @@ slot0.ExitRoutineSystem = function(slot0, slot1)
 end
 
 slot0.ExitScenarioSystem = function(slot0, slot1)
-	if slot1.needHelpMessage then
+	if slot1.needHelpMessage or slot1.score == ys.Battle.BattleConst.BattleScore.C then
 		getProxy(ChapterProxy):StopAutoFight(ChapterConst.AUTOFIGHT_STOP_REASON.BATTLE_FAILED)
 	end
 
@@ -302,17 +302,21 @@ slot4 = function(slot0, slot1)
 		viewComponent = BossSingleTotalRewardPanel,
 		data = {
 			onConfirm = function ()
-				if getProxy(ContextProxy):getContextByMediator(ClueMapMediator) then
-					slot0.cleanChild = false
-				end
-
-				if getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator) then
-					slot0.skipBack = false
-				end
-
 				pg.m02:sendNotification(GAME.GO_BACK)
 			end,
 			onClose = function ()
+				if getProxy(ContextProxy):getContextByMediator(ClueMapMediator) then
+					slot0.cleanChild = true
+
+					warning("ClueMapMediator")
+				end
+
+				if getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator) then
+					slot0.skipBack = true
+
+					warning("BossSinglePreCombatMediator")
+				end
+
 				pg.m02:sendNotification(GAME.GO_BACK)
 			end,
 			stopReason = slot1,

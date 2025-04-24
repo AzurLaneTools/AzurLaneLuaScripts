@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"汇聚于此岸之尘\n\n<size=45>二　安全模式</size>",
+					"匯聚於此岸之塵\n\n<size=45>2 安全模式</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "斯卡帕湾锚地·阿瓦隆之门地下入口",
+			say = "斯卡帕灣錨地·阿瓦隆之門地下入口",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "自从伊丽莎白抵达斯卡帕湾锚地已经过去了小半日。",
+			say = "自從伊莉莎白抵達斯卡帕灣錨地已經過了小半日。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "这段时间以来，伊丽莎白一直在从外部排查着阿瓦隆之门可能出现的各种故障。",
+			say = "這段時間以來，伊莉莎白一直從外部排查阿瓦隆之門可能出現的各種故障。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,20 +69,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "终于，她得出了结论。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "star_level_bg_503",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……不是故障，而是安全模式被启动了。",
+			say = "終於，她得出了結論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +82,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只有这一个结论能够解释阿瓦隆之门当前的状态。",
+			say = "……不是故障，而是安全模式啟動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +95,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安全模式是伊丽莎白·META对于阿瓦隆之门安全性升级改造的一环……",
+			say = "只有這一結論能夠解釋阿瓦隆之門目前的狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +108,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "当遭遇了可能由外部通过阿瓦隆之门入侵实验场β，或者由实验场β入侵阿瓦隆之门内部的威胁时，安全模式才会被自动激活。",
+			say = "安全模式是伊莉莎白·META對於阿瓦隆之門安全性升級改造的一環……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +121,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……难道之前那个幻境，在生成期间居然还在试图将影响力入侵至阿瓦隆之门内部么。",
+			say = "當遭遇了可能由外部透過阿瓦隆之門入侵實驗場β，或是由實驗場β入侵阿瓦隆之門內部的威脅時，安全模式才會被自動啟動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是如今幻境已经被全部瓦解了……威胁已经消失，安全模式应该会随即解除才是。",
+			say = "……難道之前那個幻境，在生成期間居然還在試圖將影響力入侵至阿瓦隆之門內部嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +147,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "为什么此刻的阿瓦隆之门依然处于安全模式中……",
+			say = "但如今幻境已經被全部瓦解了……威脅已經消失，安全模式應該會隨即解除才是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +160,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王相信，伊丽莎白·META研发的系统绝对不会出现如此低级的故障。",
+			say = "為什麼此刻的阿瓦隆之門依然處於安全模式中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +173,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么就只有一个解释了……",
+			say = "本王相信，伊莉莎白·META研發的系統絕對不會出現如此低級的故障。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +186,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "直至此刻，依然存在一个试图从外部通过阿瓦隆之门入侵实验场β的威胁……！",
+			say = "那就只有一個解釋了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +199,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……这个伊丽莎白·META，偏偏这时候出去狩猎。",
+			say = "直到此刻，已然存在有一個試圖從外部通過阿瓦隆之門入侵實驗場β的威脅……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +212,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……不行，等不了了。必须立刻联系她问问。",
+			say = "……這個伊莉莎白·META，偏偏這時候出去狩獵。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "star_level_bg_503",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "……不行，等不了了。必須立刻聯絡她問問。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "伊丽莎白闭目凝神，启用了一个伊丽莎白·META临行前留下的紧急联络装置。",
+			say = "伊莉莎白閉目凝神，啟用了一個伊莉莎白META臨行前留下的緊急聯絡裝置。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "恍然间，她似乎不是身处地下通道中，而是在一列飞驰的列车上。",
+			say = "恍然間，她似乎不是身處地下通道中，而是一列飛馳的列車上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真是神奇的技术。",
+			say = "……真是神奇的技術。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伊丽莎白·META，本王有事找你，你在哪儿？",
+			say = "伊莉莎白·META，本王有事找妳，妳在哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇！是实验场β的伊丽莎白！",
+			say = "哇！是實驗場β的伊莉莎白！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你怎么找到这里来了！",
+			say = "妳怎麼找到這裡來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阿瓦隆之门的安全模式启动了，本王不知缘由，所以来问问。",
+			say = "阿瓦隆之門的安全模式啟動了，本王不知緣由，所以來問問。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "稍等！伊丽莎白正在开车，我叫她过来哦！",
+			say = "稍等！伊莉莎白正在開車，我叫她過來哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……安全模式被启动了？此事确实不妙。",
+			say = "……安全模式被啟動了？此事確實不妙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "阿瓦隆之门内情况如何？",
+			say = "阿瓦隆之門內情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本王要是能联系上里面还来找你做什么啊！",
+			say = "本王要是能聯絡上裡面還來找妳做什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "糟糕……此次狩猎之行来得突然，持续时间也比预期要长。",
+			say = "糟糕……這次狩獵之行來得突然，持續時間也比預期要長。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "与安全模式配套的通讯中转净化装置在本王离开之时尚未完工……",
+			say = "與安全模式配套的通訊中轉淨化裝置在本王離開之時尚未完工……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说……直到安全模式自己解除之前，连你也没有任何办法联系到阿瓦隆之门内部了？！",
+			say = "也就是說……直到安全模式自己解除之前，連妳也沒有任何辦法聯絡到阿瓦隆之門內部了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那倒不是。如果本王亲自去的话，别说联系到阿瓦隆之门内部，直接带你进去都行。",
+			say = "那倒不是，如果本王親自去的話，別說聯絡到阿瓦隆之門的內部，就算帶妳直接進去都行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那你快给本王回来！",
+			say = "那妳快給本王回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不行！伊丽莎白要帮我追鲸鱼！！",
+			say = "不行！伊莉莎白要幫我追鯨魚！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你要是想联系到里面的人，我也有办法呀！",
+			say = "妳要是想聯絡到裡面的人，我也有辦法呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么……？你有办法？快说！",
+			say = "什麼……？妳有辦法？快說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -551,7 +551,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "用上次我送给你的「滴滴嘟嘟铛铛咣咣」！",
+			say = "用上次我送給妳的「滴滴嘟嘟鐺鐺咣咣」！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -565,7 +565,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“滴滴嘟嘟铛铛咣咣”？",
+			say = "……「滴滴嘟嘟鐺鐺咣咣」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "她之前送你的那个鲸鱼玩偶……",
+			say = "她之前送妳的那隻鯨魚玩偶……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -607,7 +607,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在走之前，把「叮叮咚咚哔哔啪啪」留在房间里了！",
+			say = "我在離開之前，把「叮叮咚咚嗶嗶啪啪」留在房間裡了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你用「滴滴嘟嘟铛铛咣咣」呼叫「叮叮咚咚哔哔啪啪」！",
+			say = "你用「滴滴嘟嘟鐺鐺咣咣」呼叫「叮叮咚咚嗶嗶啪」！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -635,7 +635,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "里面的人听到了接起来，你就能和她们说话了！",
+			say = "裡面的人聽到了接起來，你就能跟她說話了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……“叮叮咚咚哔哔啪啪”？",
+			say = "……「叮叮咚咚嗶嗶啪」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "另一个鲸鱼玩偶……",
+			say = "另一個鯨魚玩偶……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			actor = 900430,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦好啦，你快回去试试吧，我们要去专心抓鲸鱼了！",
+			say = "好啦好啦，妳快回去試試吧，我們要去專心抓鯨魚了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -703,7 +703,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "伊丽莎白睁开双眼，地下通道灰色的墙壁映入眼帘。",
+			say = "伊莉莎白睜開雙眼，地下通道灰色的牆壁映入眼簾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "鲸鱼玩偶……找到了。",
+			say = "鯨魚玩偶……找到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "摁下去，就算启动了吧……？",
+			say = "按下去，就算啟動了吧……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "star_level_bg_503",
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			hidePaintObj = true,
 			say = "叮叮叮——咚咚咚——",
 			typewriter = {
@@ -776,12 +776,12 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哐哐哐——哒哒哒——",
+			say = "噠噠噠——噠噠噠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -793,12 +793,12 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哔哔哔——啪啪啪——",
+			say = "嗶嗶嗶——啪啪啪——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -829,49 +829,24 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……这个虎鲸玩偶，怎么突然响了。",
+			say = "……這隻虎鯨玩偶，怎麼突然響了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "难道是个通讯装置么……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 205010,
-			side = 2,
-			bgName = "star_level_bg_503",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "……前卫？是你么。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "奇怪的机器",
-			side = 2,
-			bgName = "star_level_bg_503",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "哇啊啊，陛下，是您么？！",
+			say = "難道是個通訊裝置嗎……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -884,7 +859,19 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不错。本王现在正在阿瓦隆之门外部的地下通道中。",
+			say = "……前衛？是妳嗎。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "奇怪的機器",
+			side = 2,
+			bgName = "star_level_bg_503",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "哇啊啊，陛下，是您嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -897,7 +884,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你现在立刻去控制台，之后根据本王的指示行动。",
+			say = "不錯。本王現在正在阿瓦隆之門外部的地下通道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -910,7 +897,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "本王需要立刻知道阿瓦隆之门此刻的所有运行数据——！",
+			say = "妳現在立刻去控制台，之後根據本王的指示行動。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 205010,
+			side = 2,
+			bgName = "star_level_bg_503",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "本王需要立刻知道阿瓦隆之門此刻的所有運行數據——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

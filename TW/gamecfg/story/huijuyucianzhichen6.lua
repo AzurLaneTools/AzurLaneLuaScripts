@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"汇聚于此岸之尘\n\n<size=45>六　危机与转机</size>",
+					"匯聚於此岸之塵\n\n<size=45>6 危機與轉機</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "theme-sakuraholyplace",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "帕克菲克洋·临近重樱周边海域",
+			say = "太平洋·接近重櫻週邊海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "暗红色的屏障厚重而浑浊，散发着一种仿佛摄人心魂的沉重压力。",
+			say = "暗紅色的屏障厚重而渾濁，散發著一種彷彿攝人心魂的沉重壓力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……糟糕，大结界居然会进入如此状态。",
+			say = "……糟糕，大結界居然會進入如此狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:292:四万十}，立刻与吾一同开始净化。",
+			say = "四萬十，立刻與吾一同開始淨化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "吾等必须先设法净化出一个入口，才能进入其中展开调查！",
+			say = "吾等必須先設法淨化出一個入口，才能進入其中展開調查！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "遵命，{namecode:74:长门}大人。",
+			say = "遵命，長門大人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_504",
-			say = "在{namecode:74:长门}开始净化仪式后，其余众人都默契地向后退出了一段距离，然后散开警戒着。",
+			say = "在長門開始淨化儀式後，其餘眾人都有默契的向後推出了一段距離，然後散開警戒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来这个所谓的「重樱大结界」，也是某种加密的镜面海域？",
+			say = "看來這個所謂的「重櫻大結界」，也是某種加密的鏡面海域？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我还是第一次见到这种类型的……外部边界不但清晰可见，而且异常坚固。",
+			say = "不過我還是第一次見到這種類型的……外部邊界不僅清晰可見，而且異常堅固。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "因为……这不光是镜面海域的边界，同时还已经成为了奇异点的内外分界线。",
+			say = "因為……這不光是鏡面海域的邊界，同時也已經成為了奇異點的內外分界線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "这处名为「奈落」的奇异点形成原因与常规奇异点不同，性质也十分特殊。",
+			say = "這處名為「奈落」的奇異點形成原因與常規奇異點不同，性質也十分特殊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你好像对它有所了解？",
+			say = "妳好像對它有所了解？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……我曾经在其他地方，见过性质与它类似的奇异点。",
+			say = "……我曾經在其他地方，見過性質與它類似的奇異點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "那个奇异点……最初是为了对抗塞壬的终盘清算而被制造出来的希望。",
+			say = "那個奇異點……最初是為了對抗塞壬的終盤清算而被製造出來的希望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而最终……它也确实完成了其在创造之初被赋予的使命——以一个极其扭曲的方式。",
+			say = "而最終……它也確實完成了在創造之初被賦予的使命——以一個極其扭曲的方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……极其扭曲的方式？",
+			say = "……極度扭曲的方式？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……在奇异点的影响下，现实世界开始逐步瓦解、凋零。",
+			say = "……在奇異點的影響下，現實世界開始逐步瓦解、凋零。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "最终，整座实验场之内，除了创造者之外的所有人都被奇异点吞噬了，无一幸免。",
+			say = "最終，整個實驗場之內，除了創造者之外的所有人都被奇異點吞噬了，無一倖免。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "包括全部的塞壬实验机关。",
+			say = "包括全部的塞壬實驗機關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "实验机关既然不存在了，终盘清算也就无从谈起了……不是么。",
+			say = "實驗機關既然不存在了，終盤清算也就無從談起了……不是嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个奇异点，竟然如此危险……？！",
+			say = "這個奇異點，竟然如此危險……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "危险的不是这个奇异点本身。",
+			say = "危險的不是這個奇異點本身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "它的力量如你所见，虽然被称为灾难级，但其大小规模并不足以导致一整座实验场的毁灭。",
+			say = "它的力量如妳所見，雖然被稱為災難級，但其大小規模並不足以導致一整座實驗場的毀滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "但是因为它的出现，而与你们的实验场产生关联的那些……外部异质就不同了。",
+			say = "但因為它的出現，而與妳們的實驗場產生關聯的那些……外在異質就不同了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……等等，极地的“王冠”，是不是一个奇异点的遗迹？",
+			say = "……等等，極地的「王冠」，是不是一個奇異點的遺跡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{namecode:530:同盟}同志，立刻命令舰队去监控“王冠”的情况！",
+			say = "同盟同志，立刻命令艦隊監控「王冠」的狀況！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……王冠？可王冠早就已经……",
+			say = "……王冠？但王冠早就已經……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我知道，所以只是去监控。不过，还是要命令舰队做好战斗准备……",
+			say = "我知道，所以只是去監控。不過，還是要命令艦隊做好戰鬥準備…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "……然后，这个世界上，还有其他的奇异点对吧。",
+			say = "……然後，這個世界上，還有其他的奇異點對吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不管是天然的还是人工的，正在启动的还是已经关闭的……",
+			say = "不管是天然的還是人工的，正在啟動的還是已經關閉的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "有条件的立刻将其全部摧毁！",
+			say = "有條件的立刻將其全部摧毀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果摧毁不了的……立刻设置防线将其全面封锁！",
+			say = "如果摧毀不了的……立刻設定防線將其全面封鎖！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你认为，这些奇异点全都可能出现危险？",
+			say = "……妳認為，這些奇異點全都可能出現危險？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "一定会出现！",
+			say = "一定會出現！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……当年，我们被打了个措手不及。",
+			say = "……當年，我們被打了個措手不及。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -543,7 +543,7 @@ return {
 			actor = 9702060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我不希望你们重蹈和我一样的覆辙！",
+			say = "我不希望妳們重蹈跟我一樣的覆轍！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -556,14 +556,14 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……我明白了。我立刻联系指挥官协调各阵营开始部署。",
+			say = "……我明白了。我立刻聯繫指揮官協調各陣營開始部署。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
@@ -583,7 +583,7 @@ return {
 			actor = 105150,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……指挥官先打来了？",
+			say = "……指揮官先打來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -597,7 +597,7 @@ return {
 			actor = 705020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂，指挥官同志，我有一件极其重要的事要告诉你——",
+			say = "喂，指揮官同志，我有一件極其重要的事要告訴你——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -610,7 +610,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "是关于奇异点「奈落」和它可能造成的连带影响么？",
+			say = "是關於奇異點「奈落」和它可能造成的連帶影響嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "这些我已经知道了，而且我已经有了应对方案，不用担心。",
+			say = "這些我已經知道了，而且我已經有了應對方案，不用擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "{namecode:74:长门}在么，我联系不上她了。",
+			say = "長門在嗎，我聯絡不上她了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:74:长门}大人正在专心净化大结界，或许是没注意到通讯器的声音。",
+			say = "長門大人正在專心淨化大結界，或許是沒注意到通訊器的聲音。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -662,7 +662,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "现在立刻让她接入频道，我也有一件极其重要的事找她。",
+			say = "現在立刻讓她接上頻道，我也有一件極為重要的事找她。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，听说汝找吾有急事？",
+			say = "指揮官，聽說汝找吾有急事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "{namecode:74:长门}，你对于复活{namecode:161:天城}的事情怎么看？",
+			say = "長門，妳對於復活天城的事情怎麼看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -735,7 +735,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……如今的一切乱局均来源于此，吾对于此事的看法很复杂。",
+			say = "……如今的一切亂局都來自於此，吾對於此事的看法很複雜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -749,7 +749,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三言两语难以尽述。",
+			say = "三言兩語難以盡述。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -762,7 +762,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "如果我说，现在有办法能够让{namecode:161:天城}真正的复活呢？",
+			say = "如果我說，現在有辦法能讓天城真正的復活呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -775,7 +775,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……绝无可能。",
+			say = "……絕無可能。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -838,7 +838,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "突如其来的巨响激荡着整片海域，一条清晰可见的裂缝赫然出现在半空中。",
+			say = "突如其來的巨響激盪著整片海域，一條清晰可見的裂縫赫然出現在半空中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,11 +848,11 @@ return {
 			portrait = 399060,
 			side = 2,
 			bgName = "star_level_bg_504",
-			actorName = "{namecode:292}",
+			actorName = "四萬十",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}大人！大结界被人从内部物理破坏了！",
+			say = "長門大人！大結界被人從內部物理破壞了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -866,7 +866,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……物、物理破坏？！",
+			say = "……物、物理破壞？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -879,7 +879,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "{namecode:74:长门}，现在是一个极其危险的时刻，但也是一个稍纵即逝的机会。",
+			say = "長門，現在是一個極度危險的時刻，但也是一個稍縱即逝的機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -892,7 +892,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "你相信我么？",
+			say = "妳相信我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -906,7 +906,7 @@ return {
 			actor = 305050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "吾对汝之了解并不深，远谈不上信任的程度。",
+			say = "吾對汝之了解並不深，遠遠談不上信任的程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -919,7 +919,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过……吾多次听{namecode:96:瑞鹤}谈到过汝之所言所行。汝近来所做之事，吾亦有所耳闻。",
+			say = "不過……吾多次聽瑞鶴談到汝之所言所行。汝近來所做之事，吾亦有所耳聞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -932,7 +932,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "所以——吾决定相信汝。",
+			say = "所以——吾決定相信汝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -945,7 +945,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "说吧，需要吾做什么？",
+			say = "說吧，需要吾做什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -958,7 +958,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "我之前的话并非空谈。我真的有一个能够让{namecode:161:天城}真正复活，同时解决当前危局的计划。",
+			say = "我之前的話並非空談。我真的有一個能夠讓天城真正復活，同時解決當前危局的計劃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -971,7 +971,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "但是这个计划需要{namecode:91:赤城}的完全配合。",
+			say = "但這個計劃需要此時赤城的完全配合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,7 +984,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "请你不论用任何方法，立刻找到她！然后稳住她！",
+			say = "請妳不論用任何方法，立刻找到她！然後穩住她！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

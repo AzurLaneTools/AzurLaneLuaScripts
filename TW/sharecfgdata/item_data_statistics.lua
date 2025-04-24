@@ -17383,6 +17383,40 @@ _G.pg.base.item_data_statistics[30205] = {
 }
 
 
+_G.pg.base.item_data_statistics[30206] = {
+	open_directly = 0,
+	name = "藏王重工科技箱T3(促銷）",
+	type = 5,
+	display = "包含一件重櫻陣營裝備：\n100%機率獲得一件<color=#d797ff>精銳裝備</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/30206",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "79721",
+	id = 30206,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		100
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30301] = {
 	open_directly = 0,
 	name = "{namecode:98}的聖誕禮物",

@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_jufengv1_2",
 			hidePaintObj = true,
-			say = "看這身後沉入海中的小船，心中不禁泛起一股劫後餘生之感。",
+			say = "看著身後沉入海中的小船，心中不禁泛起一股劫後餘生之感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

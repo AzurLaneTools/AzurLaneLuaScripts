@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"汇聚于此岸之尘\n\n<size=45>五　熔冠</size>",
+					"匯聚於此岸之塵\n\n<size=45>5 熔冠</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "battle-deepecho",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "极地·王冠周边海域",
+			say = "極地·王冠週邊海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "库尔斯克同志，我在收到联络之后就带领舰队赶来了，现在王冠的情况如何？",
+			say = "庫斯克同志，我在收到聯絡後就帶領艦隊趕來了，現在王冠的情況如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不容乐观，仪器读数还在持续增强。",
+			say = "……不容樂觀，儀器讀數還在持續增強中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "唔……真奇怪。王冠只是一个从未成功开启过的奇异点遗迹，怎么会出现如此异常的能量读数。",
+			say = "嗯……真奇怪。王冠只是一個從未成功開啟的奇異點遺跡，怎麼會出現如此異常的能量讀數。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也不知道……但是这种感觉，很危险。",
+			say = "我也不知道……但是這種感覺，很危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……我去联系契卡洛夫，看看她和设计局的同志们有没有什么想法。",
+			say = "……我去聯絡契卡洛夫，看看她和設計局同志們有沒有什麼想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还要做好战斗准备。",
+			say = "還要做好戰鬥準備，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，看来增援帕克菲克洋战场的行动只能延后了。",
+			say = "嗯，看來增援太平洋戰場的行動只能延後了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,14 +148,14 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂，契卡洛夫同志，我是苏维埃罗西亚，能听到么——",
+			say = "喂，契卡洛夫同志，我是蘇維埃俄羅斯，能聽到嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
@@ -174,7 +174,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通讯干扰……这到底——",
+			say = "通訊干擾……這到底——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "苏维埃罗西亚没有继续疑惑下去，因为她已经通过双眼看到了答案。",
+			say = "蘇維埃俄羅斯沒有繼續疑惑下去，因為她已經透過雙眼看到了答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "王冠……正在发光？！",
+			say = "王冠……正在發光？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎、怎么可能……",
+			say = "怎、怎麼可能……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_hms_0",
-			say = "滋——众目睽睽下，王冠散发出的亮度又提高了一个等级。",
+			say = "滋——眾目睽睽下，王冠散發出的亮度又提高了一個等級。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "罗西亚同志，我带来的电子仪器已经失灵过半了。",
+			say = "俄羅斯同志，我帶來的電子儀器已經失靈過半了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……看来，虽然不知是何原因，但是沉寂已久的王冠要在此时开启了。",
+			say = "……看來，雖然不知是何原因，但是沉寂已久的王冠要在此時開啟了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所有人立刻远离王冠，撤离这片海域！",
+			say = "所有人立刻遠離王冠，撤離這片海域！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 900219,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "不错不错，真是明智的决定。",
+			say = "不錯不錯，真是明智的決定。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 900219,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "快逃吧，逃得越远越好~",
+			say = "快逃吧，逃的越遠越好~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "一个未曾设想过的声音突然出现在通讯器中。",
+			say = "一個未曾設想過的聲音突然出現在通訊器中",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -368,7 +368,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这段时间我们一直在找你，没想到你居然会主动现身。",
+			say = "這段時間我們一直在找妳，沒想到妳居然會主動現身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			actor = 900219,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "你以为不和你们打是怕了你们么？！",
+			say = "妳以為不和妳們打是怕了妳們嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -396,7 +396,7 @@ return {
 			actor = 900219,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "不会吧，不会你们真的这么觉得吧？！",
+			say = "不會吧，不會妳們真的這麼覺得吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 900219,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "算了，总之退远点——本清除者真正的实力你们马上就能见识到了！",
+			say = "算了，總之退遠點──本清除者真正的實力妳們馬上就能見識到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "至少这一次，清除者并没有说大话。",
+			say = "至少這一次，清除者並沒有說大話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -432,7 +432,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "伴随着清除者的话语，以王冠为中心的海面开始急速冰封。",
+			say = "伴隨著清除者的話語，以王冠為中心的海面開始急速冰封。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "而原本有些阴沉的天空中，云层也变得愈发厚重。",
+			say = "而原本有些陰沉的天空中，雲層也變得愈發厚重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "狂风、暴雨、雷暴、冰雹、暴雪，各种天气交替出现在王冠上空，甚至还出现了短时间的龙卷风。",
+			say = "狂風、暴雨、雷暴、冰雹、暴雪，各種天氣交替出現在王冠上空，甚至出現了短暫的龍捲風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "清除者这是在……攻击王冠？",
+			say = "清除者這是在…攻擊王冠？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,7 +481,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看上去确实对王冠造成了一定损伤，不过损伤主要来源于第一次冰封。",
+			say = "看上去確實對王冠造成了一定損傷，不過損傷主要來自第一次冰封。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			actor = 703020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剩下的这些天气变化……不明白它是在做什么。",
+			say = "剩下的這些天氣變化……不明白它是在做什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 705050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在想……它是不是在向我们炫耀实力？",
+			say = "我在想……它是不是在向我們炫耀實力？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -533,7 +533,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "当龙卷风也消散后，清除者似乎终于满意了。",
+			say = "當龍捲風也消散後，清除者似乎終於滿意了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,7 +544,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "不过随即，王冠突然迸发出一阵更强大的力量。冲击力粉碎了被冰封的海面，王冠的亮度也再次提高了一个等级。",
+			say = "不過隨即，王冠突然迸發出一陣更強大的力量。衝擊力粉碎了被冰封的海面，王冠的亮度也再次提高了一個等級。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_0",
 			hidePaintObj = true,
-			say = "然而就在此时——",
+			say = "然而就在此時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgm = "battle-boss-deepecho",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "世界似乎变为了纯白。",
+			say = "世界似乎變為了純白。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_99",
 			hidePaintObj = true,
-			say = "在色彩消失的最后一刻，北方联合众人看到一道凭空出现的粗大光柱自上而下径直命中了王冠。",
+			say = "在色彩消失的最後一刻，北方聯合眾人看到一道憑空出現的粗光柱自上而下徑直命中了王冠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_hms_99",
-			say = "光芒消散后，清除者与宏伟的王冠全都消失不见了。",
+			say = "光芒消散後，清除者與碩大的王冠全都消失不見了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,7 +634,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_hms_99",
 			hidePaintObj = true,
-			say = "留下的只有一片近乎沸腾的海面——",
+			say = "留下的只有一片近乎沸騰的海面——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

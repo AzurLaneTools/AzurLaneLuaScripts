@@ -196,18 +196,6 @@ slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.BEGIN_STAGE_DONE then
-		if getProxy(ContextProxy):getContextByMediator(ClueMapMediator) then
-			slot4.cleanChild = true
-
-			warning("ClueMapMediator")
-		end
-
-		if getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator) then
-			slot4.skipBack = true
-
-			warning("BossSinglePreCombatMediator")
-		end
-
 		slot0:sendNotification(GAME.GO_SCENE, SCENE.COMBATLOAD, slot3)
 	elseif slot2 == GAME.BEGIN_STAGE_ERRO then
 		if slot3 == 3 then

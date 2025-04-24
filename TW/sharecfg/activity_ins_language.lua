@@ -5484,6 +5484,35 @@ pg.activity_ins_language = setmetatable({
 		"op_reply_491_1_1",
 		"ins_op_491_1_2",
 		"op_reply_491_1_2",
+		"ins_492",
+		"ins_discuss_492_1",
+		"ins_reply_492_1_1",
+		"ins_reply_492_1_2",
+		"ins_reply_492_1_3",
+		"ins_reply_492_1_4",
+		"ins_discuss_492_2",
+		"ins_reply_492_2_1",
+		"ins_discuss_492_3",
+		"ins_reply_492_3_1",
+		"ins_reply_492_3_2",
+		"ins_op_492_1_1",
+		"op_reply_492_1_1",
+		"ins_op_492_1_2",
+		"op_reply_492_1_2",
+		"ins_493",
+		"ins_discuss_493_1",
+		"ins_reply_493_1_1",
+		"ins_reply_493_1_2",
+		"ins_reply_493_1_3",
+		"ins_discuss_493_2",
+		"ins_reply_493_2_1",
+		"ins_reply_493_2_2",
+		"ins_discuss_493_3",
+		"ins_reply_493_3_1",
+		"ins_op_493_1_1",
+		"op_reply_493_1_1",
+		"ins_op_493_1_2",
+		"op_reply_493_1_2",
 		"ins_505",
 		"ins_discuss_505_1",
 		"ins_reply_505_1_1",
@@ -22299,6 +22328,93 @@ pg.base.activity_ins_language = {
 	},
 	op_reply_491_1_2 = {
 		value = "好啊，那我也幫指揮官準備畫筆，一起來畫畫吧~"
+	},
+	ins_492 = {
+		value = ""
+	},
+	ins_discuss_492_1 = {
+		value = ""
+	},
+	ins_reply_492_1_1 = {
+		value = ""
+	},
+	ins_reply_492_1_2 = {
+		value = ""
+	},
+	ins_reply_492_1_3 = {
+		value = ""
+	},
+	ins_reply_492_1_4 = {
+		value = ""
+	},
+	ins_discuss_492_2 = {
+		value = ""
+	},
+	ins_reply_492_2_1 = {
+		value = ""
+	},
+	ins_discuss_492_3 = {
+		value = ""
+	},
+	ins_reply_492_3_1 = {
+		value = ""
+	},
+	ins_reply_492_3_2 = {
+		value = ""
+	},
+	ins_op_492_1_1 = {
+		value = ""
+	},
+	op_reply_492_1_1 = {
+		value = ""
+	},
+	ins_op_492_1_2 = {
+		value = ""
+	},
+	op_reply_492_1_2 = {
+		value = ""
+	},
+	ins_493 = {
+		value = ""
+	},
+	ins_discuss_493_1 = {
+		value = ""
+	},
+	ins_reply_493_1_1 = {
+		value = ""
+	},
+	ins_reply_493_1_2 = {
+		value = ""
+	},
+	ins_reply_493_1_3 = {
+		value = ""
+	},
+	ins_discuss_493_2 = {
+		value = ""
+	},
+	ins_reply_493_2_1 = {
+		value = ""
+	},
+	ins_reply_493_2_2 = {
+		value = ""
+	},
+	ins_discuss_493_3 = {
+		value = ""
+	},
+	ins_reply_493_3_1 = {
+		value = ""
+	},
+	ins_op_493_1_1 = {
+		value = ""
+	},
+	op_reply_493_1_1 = {
+		value = ""
+	},
+	ins_op_493_1_2 = {
+		value = ""
+	},
+	op_reply_493_1_2 = {
+		value = ""
 	},
 	ins_505 = {
 		value = ""

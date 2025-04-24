@@ -551,7 +551,7 @@ return {
 			actor = 9600030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……我以前和她有過幾次幾次商貿上的接觸，她人並不壞，不過……",
+			say = "嗯……我以前和她有過幾次商貿上的接觸，她人並不壞，不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

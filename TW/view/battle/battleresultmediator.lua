@@ -701,21 +701,21 @@ slot0.DisplayBossSingleTotalReward = function(slot0, slot1)
 		viewComponent = BossSingleTotalRewardPanel,
 		data = {
 			onConfirm = function ()
+				uv0.viewComponent:emit(BaseUI.ON_BACK)
+			end,
+			onClose = function ()
 				if getProxy(ContextProxy):getContextByMediator(ClueMapMediator) then
-					slot0.cleanChild = false
+					slot0.cleanChild = true
 
 					warning("ClueMapMediator")
 				end
 
 				if getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatMediator) then
-					slot0.skipBack = false
+					slot0.skipBack = true
 
 					warning("BossSinglePreCombatMediator")
 				end
 
-				uv0.viewComponent:emit(BaseUI.ON_BACK)
-			end,
-			onClose = function ()
 				uv0.viewComponent:emit(BaseUI.ON_BACK)
 			end,
 			stopReason = slot1,

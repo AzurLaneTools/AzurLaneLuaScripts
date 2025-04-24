@@ -322,9 +322,9 @@ pg.expedition_daily_template = {
 		limit_period = {
 			{
 				{
-					2024,
-					9,
-					12
+					2025,
+					4,
+					24
 				},
 				{
 					0,
@@ -334,9 +334,9 @@ pg.expedition_daily_template = {
 			},
 			{
 				{
-					2024,
-					9,
-					18
+					2025,
+					4,
+					30
 				},
 				{
 					23,
