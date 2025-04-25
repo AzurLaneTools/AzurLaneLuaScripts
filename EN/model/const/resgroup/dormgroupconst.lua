@@ -176,7 +176,7 @@ return {
 			uv0 = {}
 
 			for slot3, slot4 in ipairs(pg.dorm3d_rooms.all) do
-				if not pg.dorm3d_rooms[slot4].is_common then
+				if pg.dorm3d_rooms[slot4].is_common ~= 1 then
 					uv0[string.lower(slot5.resource_name)] = true
 				end
 			end

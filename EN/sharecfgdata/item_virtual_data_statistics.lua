@@ -169952,7 +169952,7 @@ _G.pg.base.item_virtual_data_statistics[65591] = {
 
 _G.pg.base.item_virtual_data_statistics[65592] = {
 	drop_gold_max = 0,
-	name = "Tulipan Poems",
+	name = "Gear Skin(Tulipan Poems)",
 	display = "Chance to receive following gear skins",
 	type = 99,
 	is_world = 0,

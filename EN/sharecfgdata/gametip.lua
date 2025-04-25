@@ -13678,7 +13678,7 @@ _G.pg.base.gametip.npc_propse_tip = {
 
 
 _G.pg.base.gametip.npc_strength_tip = {
-	tip = "If this Temporary Recruit leaves the port, any items or materials used to Strengthen her will NOT be refunded. Continue anyway?"
+	tip = "If this Temporary Recruit leaves the port, any items or materials used to Enhance her will NOT be refunded. Continue anyway?"
 }
 
 
