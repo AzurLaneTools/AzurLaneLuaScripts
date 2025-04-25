@@ -36,7 +36,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"NA海域·79号镜面海域",
+				"NA海域・鏡面海域79番",
 				3
 			},
 			flashN = {
