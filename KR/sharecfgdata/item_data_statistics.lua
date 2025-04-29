@@ -42332,6 +42332,58 @@ _G.pg.base.item_data_statistics[40058] = {
 }
 
 
+_G.pg.base.item_data_statistics[40059] = {
+	open_directly = 1,
+	name = "선택 가능한 UR 스킨 복주머니E",
+	type = 17,
+	display = "아이템을 대량으로 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/huteng_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4060",
+	id = 40059,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			59564,
+			1
+		},
+		{
+			2,
+			20001,
+			40
+		},
+		{
+			1,
+			1,
+			30000
+		},
+		{
+			2,
+			16502,
+			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[40100] = {
 	open_directly = 1,
 	name = "백년가약 패키지",
@@ -86171,6 +86223,51 @@ _G.pg.base.item_data_statistics[59563] = {
 			20001,
 			30
 		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[59564] = {
+	open_directly = 0,
+	name = "선택 가능한 스킨 티켓 (뱅가드)",
+	type = 26,
+	display = "창고에서 사용할 수 있으며, 스킨 1개를 골라 획득 가능. \n(<color=#ff5c5c>지정된 일부 스킨만 획득 가능. 획득 가능한 스킨을 이미 모두 소지하고 있는 경우에는 획득 아이템이 자동으로 「스킨 쿠폰」으로 변환됩니다.</color>)",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed_skinexchange",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/skin_exchange_huteng",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 59564,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			205131,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		0,
+		{},
+		{
+			205131
+		},
+		0,
+		59552
 	},
 	limit = {}
 }

@@ -233,6 +233,7 @@ pg.furniture_data_template = setmetatable({
 			100069,
 			100070,
 			100071,
+			100072,
 			200001,
 			200002,
 			200003,
@@ -5667,6 +5668,7 @@ pg.furniture_data_template = setmetatable({
 			100069,
 			100070,
 			100071,
+			100072,
 			54104,
 			54105
 		},
@@ -6812,7 +6814,8 @@ pg.furniture_data_template = setmetatable({
 			100065,
 			100067,
 			100068,
-			100069
+			100069,
+			100072
 		},
 		[2] = {
 			120,
@@ -9918,6 +9921,7 @@ pg.furniture_data_template = setmetatable({
 		100069,
 		100070,
 		100071,
+		100072,
 		200001,
 		200002,
 		200003,
@@ -25796,6 +25800,56 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[100072] = {
+		can_rotate = 0,
+		describe = "内置强劲动力，专为枕头大战而设计！",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 6,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "战争型抱枕",
+		advice = 0,
+		id = 100072,
+		icon = "zhentoudazhanicon",
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zhentoudazhan",
+				"normal",
+				{
+					"action",
+					true,
+					nil,
+					nil,
+					"houzhai_yumao01"
+				}
+			}
 		},
 		interAction_group = {}
 	},

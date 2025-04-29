@@ -502,6 +502,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100442,
 		2100451,
 		2100452,
+		2100461,
+		2100462,
+		2100471,
+		2100472,
 		2200000,
 		2200010,
 		2200020,
@@ -27581,6 +27585,322 @@ pg.base.expedition_data_by_map = {
 			{
 				0,
 				-465
+			}
+		}
+	},
+	[2100461] = {
+		map = 2100461,
+		name = "빛나는 정원의 맹세·상편|| ||CHAPTER EX||E.X.",
+		bgm = "theme-camelot",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "LINGSHIGUANGTING1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1650007",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1650001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100471,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					2100463,
+					"map_1650001"
+				}
+			},
+			{
+				2,
+				{
+					2100461,
+					"map_1650001"
+				}
+			},
+			{
+				2,
+				{
+					2100462,
+					"map_1650005"
+				}
+			},
+			{
+				2,
+				{
+					2100463,
+					"map_1650002"
+				}
+			}
+		}
+	},
+	[2100462] = {
+		map = 2100462,
+		name = "빛나는 정원의 맹세·하편|| ||CHAPTER EX||E.X.",
+		bgm = "battle-boss-camelot",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "LINGSHIGUANGTING16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1650008",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1650002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100472,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					2100466,
+					"map_1650002"
+				}
+			},
+			{
+				2,
+				{
+					2100464,
+					"map_1650002"
+				}
+			},
+			{
+				2,
+				{
+					2100465,
+					"map_1650005"
+				}
+			},
+			{
+				2,
+				{
+					2100466,
+					"map_1650001"
+				}
+			}
+		}
+	},
+	[2100471] = {
+		map = 2100471,
+		name = "빛나는 정원의 맹세·상편|| ||CHAPTER EX||E.X.",
+		bgm = "theme-camelot",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "LINGSHIGUANGTING1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1650009",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1650003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100461,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					2100473,
+					"map_1650003"
+				}
+			},
+			{
+				2,
+				{
+					2100471,
+					"map_1650003"
+				}
+			},
+			{
+				2,
+				{
+					2100472,
+					"map_1650006"
+				}
+			},
+			{
+				2,
+				{
+					2100473,
+					"map_1650004"
+				}
+			}
+		}
+	},
+	[2100472] = {
+		map = 2100472,
+		name = "빛나는 정원의 맹세·하편|| ||CHAPTER EX||E.X.",
+		bgm = "battle-boss-camelot",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "LINGSHIGUANGTING16",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1650010",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1650004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100462,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				1,
+				{
+					2100476,
+					"map_1650004"
+				}
+			},
+			{
+				2,
+				{
+					2100474,
+					"map_1650004"
+				}
+			},
+			{
+				2,
+				{
+					2100475,
+					"map_1650006"
+				}
+			},
+			{
+				2,
+				{
+					2100476,
+					"map_1650003"
+				}
 			}
 		}
 	},

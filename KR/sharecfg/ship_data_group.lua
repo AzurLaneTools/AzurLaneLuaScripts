@@ -12100,6 +12100,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"소형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -13465,6 +13476,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"특별 보급 (공훈치 소비)",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14616,6 +14637,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"중형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -14958,6 +14990,28 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 빛나는 정원의 맹세",
 				{
 					""
+				},
+				0
+			},
+			{
+				"중형함 건조、특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
+			},
+			{
+				"상설 UR 함선 교환",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -15652,6 +15706,17 @@ pg.base.ship_data_group = {
 				"한정 이벤트: 빛나는 정원의 맹세",
 				{
 					""
+				},
+				0
+			},
+			{
+				"특형함 건조",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

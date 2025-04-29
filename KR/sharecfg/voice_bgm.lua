@@ -2069,5 +2069,15 @@ pg.voice_bgm = {
 		default_bgm = "qe-ova-10",
 		special_bgm = "",
 		bgm = "qe-ova-10"
+	},
+	KurskSPPtRePage = {
+		default_bgm = "battle-deepecho",
+		special_bgm = "",
+		bgm = "battle-deepecho"
+	},
+	LoginSign1Page = {
+		default_bgm = "battle-deepecho",
+		special_bgm = "",
+		bgm = "battle-deepecho"
 	}
 }
