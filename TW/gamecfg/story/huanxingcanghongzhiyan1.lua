@@ -195,7 +195,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "$1只是單純的見證者而已。與妳談判的人，就是我。",
+			say = "{playername}只是單純的見證者而已。與妳談判的人，就是我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
