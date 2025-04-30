@@ -175,21 +175,9 @@ slot7 = {
 	"Loading",
 	"WorldUI"
 }
-slot8 = {}
 
 slot0.GetUI = function(slot0, slot1, slot2, slot3)
-	slot0:FromPlural("ui/" .. slot1, "", slot2, table.contains(uv0, slot1) and 3 or 1, function (slot0)
-		slot1 = function()
-			uv0(uv1)
-		end
-
-		if table.indexof(uv1, uv2) then
-			uv4.pools_plural[uv3].prefab:GetComponent(typeof(UIArchiver)):Clear()
-			slot0:GetComponent(typeof(UIArchiver)):Load(slot1)
-		else
-			slot1()
-		end
-	end)
+	slot0:FromPlural("ui/" .. slot1, "", slot2, table.contains(uv0, slot1) and 3 or 1, slot3)
 end
 
 slot0.ReturnUI = function(slot0, slot1, slot2)
@@ -205,10 +193,6 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 		if table.indexof(uv1, slot1) or slot0.ui_tempCache[slot1] then
 			setActiveViaLayer(slot2.transform, false)
 			slot0.pools_plural[slot4]:Enqueue(slot2)
-		elseif table.indexof(uv2, slot1) then
-			setActiveViaLayer(slot2.transform, false)
-			slot2:GetComponent(typeof(UIArchiver)):Clear()
-			slot0.pools_plural[slot4]:Enqueue(slot2)
 		else
 			slot0.pools_plural[slot4]:Enqueue(slot2, true)
 
@@ -219,7 +203,7 @@ slot0.ReturnUI = function(slot0, slot1, slot2)
 			end
 		end
 	else
-		uv3.Destroy(slot2)
+		uv2.Destroy(slot2)
 	end
 end
 
@@ -233,6 +217,7 @@ slot0.PreloadUI = function(slot0, slot1, slot2)
 	if not slot0.pools_plural["ui/" .. slot1] then
 		table.insert(slot3, function (slot0)
 			uv0:GetUI(uv1, true, function (slot0)
+				setActive(slot0, false)
 				uv0.pools_plural[uv1]:Enqueue(slot0)
 				uv2()
 			end)
@@ -461,8 +446,8 @@ slot0.SpriteMemUsage = function(slot0)
 	return slot1
 end
 
-slot9 = 64
-slot10 = {
+slot8 = 64
+slot9 = {
 	"chapter/",
 	"emoji/",
 	"world/"
@@ -568,31 +553,33 @@ slot0.GetPluralStatus = function(slot0, slot1)
 end
 
 slot0.FromPlural = function(slot0, slot1, slot2, slot3, slot4, slot5)
-	slot7 = function()
+	slot7 = {}
+
+	if not slot0.pools_plural[slot2 == "" and slot1 or slot1 .. "|" .. slot2] then
+		table.insert(slot7, function (slot0)
+			uv0:LoadAsset(uv1, uv2, typeof(Object), uv3, function (slot0)
+				if slot0 == nil then
+					Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
+
+					return
+				end
+
+				if not uv2.pools_plural[uv3] then
+					uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
+				end
+
+				uv6()
+			end, true)
+		end)
+	end
+
+	seriesAsync(slot7, function ()
 		slot0 = uv0.pools_plural[uv1]
 		slot0.index = uv0.pluralIndex
 		uv0.pluralIndex = uv0.pluralIndex + 1
 
 		uv2(slot0:Dequeue())
-	end
-
-	if not slot0.pools_plural[slot2 == "" and slot1 or slot1 .. "|" .. slot2] then
-		slot0:LoadAsset(slot1, slot2, typeof(Object), slot3, function (slot0)
-			if slot0 == nil then
-				Debugger.LogError("can not find asset: " .. uv0 .. " : " .. uv1)
-
-				return
-			end
-
-			if not uv2.pools_plural[uv3] then
-				uv2.pools_plural[uv3] = uv4.New(slot0, uv5)
-			end
-
-			uv6()
-		end, true)
-	else
-		slot7()
-	end
+	end)
 end
 
 slot0.FromObjPack = function(slot0, slot1, slot2, slot3, slot4, slot5)

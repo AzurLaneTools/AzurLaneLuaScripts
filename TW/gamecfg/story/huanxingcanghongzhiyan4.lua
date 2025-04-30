@@ -10,11 +10,11 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"银底洋·？？？",
+					"印度洋·？？？",
 					1
 				},
 				{
-					"净化者的主机",
+					"淨化者的主機",
 					2
 				},
 				{
@@ -31,7 +31,7 @@ return {
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……好无聊啊——",
+			say = "呼……好無聊啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "安塔迪卡打得热火朝天的，可是观察者偏偏不让我们去直接支援，只允许提供舰队……",
+			say = "南極打的熱火朝天的，可是觀察者偏偏不讓我們去直接支援，只允許提供艦隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "难道是因为它一直不上战场，这次主机塔被威胁后……突然想试试亲自指挥战斗的感觉了？",
+			say = "難道是因為它一直不上戰場，這次主機塔被威脅……突然想試試親自指揮戰鬥的感覺了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "观察者亲自带领舰队冲锋的画面……简直不敢想。",
+			say = "觀察者親自帶領艦隊衝鋒的畫面……簡直不敢想。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "算啦算啦~观察者行事自有道理，想不通的事还是别费脑子了。",
+			say = "算啦算啦~觀察者行事自有道理，想不通的事還是別費腦子了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是……所有实验都暂停了，真的好无聊啊——",
+			say = "可是……所有實驗都暫停了，真的好無聊啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这种无聊的日子什么时候是个头啊——",
+			say = "這種無聊的日子什麼時候才會到頭啊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,20 +143,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "厚重的地毯在打滚中轻轻颤动。突然，净化者突然翻坐起来，仿佛打定了某个主意。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 900233,
-			side = 2,
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "对了，看看帕克菲克洋那边的战况如何了吧。",
+			say = "厚重的地毯在打滾中輕輕顫動。突然，淨化者突然翻坐起來，彷彿打定了某個主意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -169,7 +156,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对面这次气势汹汹的，测试者可千万别搞砸了……嗯？",
+			say = "對了，看看太平洋那邊的戰況如何了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据库中的数据正在被读取……？",
+			say = "對面這次氣勢洶洶的，測試者可千萬別搞砸了……嗯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +182,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等等……不光是被读取，而且同时被转移走了？！",
+			say = "資料庫中的資料正在被讀取……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,18 +195,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "未经我的许可怎么会发生这种事？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_tower",
-			hidePaintObj = true,
-			say = "净化者打开数据库，发现自己的数据确实正在以一个极快的速度消失。",
+			say = "等等……不光是被讀取，而且同時被轉移走了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +208,18 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据已经大半不见了……？可是我本人的运行却没有受到丝毫影响……",
+			say = "未經我的許可怎麼會發生這種事？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			say = "淨化者打開資料庫，發現自己的資料確實正在以極快的速度在自己的眼前消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +232,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "数据调用……也正常。怎么会有这么荒唐的事……我的数据究竟去哪儿了？！",
+			say = "數據已經大半不見了……？可是我本人的運作卻沒有受到絲毫影響……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 900233,
+			side = 2,
+			bgName = "bg_story_tower",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "數據調用……也正常。怎麼會有這麼荒唐的事……我的數據究竟去哪了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "净化者立刻下达了一连串指令，可是没有起到任何效果。就算封闭了数据库，数据依然在快速消失着。",
+			say = "淨化者立刻下達了一連串指令，可是沒有起到任何效果。就算封閉了資料庫，資料依然在快速消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_tower",
 			hidePaintObj = true,
-			say = "而后，在数据被彻底清空的那一刻，自毁命令被启动了。",
+			say = "而後，在資料被徹底清空的那一刻，自毀命令被啟動了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 900233,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈啊……？！别、等、等等——！",
+			say = "哈啊……？！別、等、等等——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			bgm = "battle-eagleunion",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巨大的爆炸中，仿佛坚不可摧的主机塔顷刻间分崩离析。",
+			say = "在巨大的爆炸中，彷彿堅不可摧的主機塔頃刻間分崩離析。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "曾经牢牢控制着银底洋的净化者主机塔，从这个世界上永远消失了——",
+			say = "曾經牢牢控制著印度洋的淨化者主機塔，從這個世界永遠消失了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

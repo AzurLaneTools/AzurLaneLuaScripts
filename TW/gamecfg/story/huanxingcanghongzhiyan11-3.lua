@@ -12,7 +12,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "——如浮云般消逝吧！",
+			say = "——如浮雲般消逝吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "如同字面意义上一般，空中飞舞的巨鸟连同其所藏身的云层一起，在{namecode:232:比叡·META}的攻击下彻底分崩离析。",
+			say = "如同字面上一般，空中飛舞的巨鳥連同其所藏身的雲層一起，在比叡·META的攻擊下徹底分崩離析。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{namecode:140:旗风}，还撑得住么？",
+			say = "旗風，還撐得住嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:71:比叡}……？你怎么会还活着……我不会是在做梦吧？",
+			say = "比叡……？妳怎麼會還活著……我不會是在做夢吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "对你来说，我就是一个梦。对我来说，你也一样。",
+			say = "對妳來說，我就是一個夢。對我來說，妳也是。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "但就算在梦境中，我也不能对你见死不救。",
+			say = "但就算在夢境中，我也不能對妳見死不救。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "被惊动的敌人正在蜂拥而至，我先带你离开这里。",
+			say = "被驚動的敵人正在蜂擁而至，我先帶妳離開這裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "之后的事……走一步看一步吧！",
+			say = "之後的事……走一步看一步吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

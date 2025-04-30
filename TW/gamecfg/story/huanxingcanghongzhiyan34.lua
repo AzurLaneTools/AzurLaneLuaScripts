@@ -9,7 +9,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "斯卡帕湾锚地·阿瓦隆之门地下入口",
+			say = "斯卡帕灣錨地·阿瓦隆之門地下入口",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "自从收到了海伦娜·META的联络，远程命令卡美洛之庭前往指定区域支援指挥官的行动后，伊丽莎白就一直待在地下通道中。",
+			say = "自從收到了海倫娜·META的聯絡，遠端命令卡美洛之庭前往指定區域支援指揮官的行動後，伊莉莎白就一直待在地下通道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "海伦娜·META……狩猎结束后操纵卡美洛之庭返回之人，指挥官的友军。",
+			say = "海倫娜·META……狩獵結束後操縱卡美洛之庭返回之人，指揮官的友軍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "能够一定程度取得伊丽莎白·META的信任，证明她确实是一个可合作对象。",
+			say = "能夠一定程度取得伊莉莎白·META的信任，證明她確實是個可合作對象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但……这不代表她不危险。",
+			say = "但……這不代表她不危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……指挥官的友军么。",
+			say = "……指揮官的友軍嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那对于指挥官之外的人……你的态度又如何呢，充满谜团的海伦娜·META小姐？",
+			say = "那對於指揮官之外的人……妳的態度又如何呢，充滿謎團的海倫娜·META小姐？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
-			say = "时间在一分一秒中过去，伊丽莎白的心思也从最初对于海伦娜·META的分析，转变为了对于卡美洛之庭的担忧。",
+			say = "時間在一分一秒中過去，伊莉莎白的心思也從最初對海倫娜·META的分析，轉變為了對於卡美洛之庭的擔憂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,14 +126,14 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇怪……怎么花了这么久？按理说早就该回来了啊……",
+			say = "奇怪……怎麼花了這麼久？照理說早就該回來了啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_503",
 			bgm = "theme-thedeathxiii",
@@ -174,12 +174,12 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哐哐哐——哒哒哒——",
+			say = "噠噠噠——噠噠噠——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,12 +191,12 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的机器",
+			actorName = "奇怪的機器",
 			side = 2,
 			bgName = "star_level_bg_503",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哔哔哔——啪啪啪——",
+			say = "嗶嗶嗶——啪啪啪——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……怎么用的是通讯联络？",
+			say = "嗯……怎麼用的是通訊聯絡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "喂？前卫，行动出什么问题了么？",
+			say = "喂？前衛，行動出什麼問題了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "并非如此。陛下，我们的行动十分顺利！",
+			say = "並非如此。陛下，我們的行動十分順利！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们在奈落之中成功接到了人，并且在归来的路上协助{namecode:74:长门}和{namecode:71:比叡}小姐完成了净化仪式。",
+			say = "我們在奈落之中成功接到了人，並且在歸來的路上協助長門和比叡小姐完成了淨化儀式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是……我们在返回后，却发现和之前一样……我们如论如何都无法离开阿瓦隆之门。",
+			say = "但是……我們在返回後，卻發現和之前一樣……我們無論如何都無法離開阿瓦隆之門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……还是无法离开？",
+			say = "……還是無法離開？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是本王之前明明已经校准了所有错乱的数据，也让卡美洛之庭重新运行了一个来回……",
+			say = "可是本王之前明明已經校準了所有錯亂的數據，也讓卡美洛之庭重新運行了一個來回……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（难道说……数据再次错乱了么。）",
+			say = "（難道說…數據又錯亂了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（怎么会有这么荒唐的事……可，这听上去像是唯一的解释了。）",
+			say = "（怎麼會有這麼荒唐的事……可，這聽起來像是唯一的解釋了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这样，你们先前往这个新坐标待命。那里是伊丽莎白·META寻找到的一处安全世界，原本是用来以防万一的避难所。",
+			say = "這樣，你們先前往這個新座標待命。那裡是伊莉莎白·META尋找到的一個安全世界，原本是用來以防萬一的避難所。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等这边的事情结束后，本王会排查掉所有问题再接你们回来。",
+			say = "等這邊的事情結束後，本王會排查掉所有問題再接妳們回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

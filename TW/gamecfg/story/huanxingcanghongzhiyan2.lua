@@ -10,15 +10,15 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"帕克菲克洋",
+					"太平洋",
 					1
 				},
 				{
-					"测试者主机周边海域",
+					"測試者主機週邊海域",
 					2
 				},
 				{
-					"指挥舰内",
+					"指揮艦內",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			bgm = "story-commander-up",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "睁开双眼，映入眼帘的是指挥舰办公室的天花板——以及一脸焦急的孟菲斯。",
+			say = "睜開雙眼，映入眼簾的是指揮艦辦公室的天花板——以及一臉焦急的曼非斯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，您和海伦娜·META小姐的谈话结束了么？",
+			say = "指揮官，您和海倫娜·META小姐的談話結束了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "为了防止在会谈期间遭遇突发事件，我要与海伦娜·META进行情报交流的事，还是事先跟孟菲斯进行了报备。",
+			say = "為了防止在會談期間遭遇突發事件，我要與海倫娜·META進行交流情報的事，還是事先跟曼非斯進行了報備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,19 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不过一些更具体的细节，比如会谈的对象包括了观察者，会谈的目的是和观察者达成合作之类的事……自然是没有说的。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "嗯，奈落的危险性，以及我们接下来要采取行的应对方式，我已经心中有数了。",
+			say = "不過一些更具體的細節，例如會談的對象包括了觀察者，會談的目的是和觀察者達成合作之類的事……自然是沒有說的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +93,19 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不得不说，我们远远低估了奈落将会带来的危险。",
+			say = "嗯，奈落的危險性，以及我們接下來要進行的應對方式，我已經心中有數了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "不得不說，我們遠遠低估了奈落將會帶來的危險。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……远远低估？星海已经将其判定是灾难级了，比之前NA海域中心的奇异点还危险……这也是低估了么？",
+			say = "……遠遠低估？星海已經將其判定是災難級了，比之前NA海域中心的奇異點還危險……這也是低估了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，依然是远远低估。",
+			say = "嗯，依然是遠遠低估。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "接下来我要进行的一系列部署，你或许会感到很困惑。",
+			say = "接下來我要進行的一系列部署，妳或許會感到很困惑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是我现在没办法向你解释原因……只能说，这确实是此时此刻的最优解，希望你能够相信我。",
+			say = "但我現在沒辦法向妳解釋原因……只能說，這確實是此時此刻的最優解，希望妳你能夠相信我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……您的话，我当然相信。更何况指挥官的命令，我也没有理由不听。",
+			say = "嗯……您的話，我當然相信。指揮官的命令，我也沒有理由不聽。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "孟菲斯，记录命令。",
+			say = "曼非斯，紀錄命令。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "第一，停止针对测试者主机的解析工作，将星海和东煌超算中心的全部算力投入对于奇异点奈落的情报解析中。",
+			say = "第一，停止針對測試者主機的解析工作，將星海和東煌超算中心的全部算力投入對於奇異點奈落的情報解析中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "第二，停止对于测试者主机的进攻准备，所有舰队立刻进行出发准备，半小时后前往新的集合地点，准备对于奇异点奈落的作战行动。",
+			say = "第二，停止對於測試者主機的攻擊準備，所有艦隊立刻進行出發準備，半小時後前往新的集合地點，準備對於奇異點奈落的作戰行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			bgm = "battle-eagleunion",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "半小时后，原本热闹的测试者主机周边海域，此时已被彻底清空。",
+			say = "半小時後，原本熱鬧的測試者主機週邊海域，此時已被徹底清空。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "空气中，首先传来了一阵似有似无的蜂鸣声。",
+			say = "空氣中，首先傳來了一陣似有似無的蜂鳴聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "而后，海面之上突然出现了一座被建筑群环绕包围的高塔。",
+			say = "而後，海面之上突然出現了一座被建築群環繞包圍的高塔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "测试者的主机塔，就这样第一次毫无保留地展现在现实世界中。",
+			say = "測試者的主機塔，就這樣第一次毫無保留的展現在現實世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -312,7 +312,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "再之后——",
+			say = "再之後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巨大的爆炸中，仿佛坚不可摧的主机塔顷刻间分崩离析。",
+			say = "在巨大的爆炸中，彷彿堅不可摧的主機塔頃刻間分崩離析。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "曾经牢牢控制着帕克菲克洋的测试者主机塔，从这个世界上永远消失了——",
+			say = "曾經牢牢控制著太平洋的測試者主機塔，從這個世界永遠消失了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

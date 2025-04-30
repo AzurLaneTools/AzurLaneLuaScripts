@@ -9020,6 +9020,11 @@ _G.pg.base.gametip.ship_remould_warning_105214 = {
 }
 
 
+_G.pg.base.gametip.ship_remould_warning_105224 = {
+	tip = "此次改造操作後<color=#92fc63>【BIG SEVEN】</color>技能\n將升級為<color=#92fc63>【BIG SEVEN·馬里蘭】</color>"
+}
+
+
 _G.pg.base.gametip.ship_remould_warning_105234 = {
 	tip = "此次改造操作後<color=#92fc63>【BIG SEVEN】</color>技能\n將升級為<color=#92fc63>【BIG SEVEN·西維吉尼亞】</color>"
 }
@@ -12000,7 +12005,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "亞爾薩斯、布倫努斯 等角色建造機率UP！"
+	tip = "每累計建造200次可獲得海上傳奇艦船天城(最多4次)"
 }
 
 
@@ -17199,19 +17204,18 @@ _G.pg.base.gametip.qingdianguangchang_help = {
 	tip = {
 		{
 			info = [[
-活动时间：2020.5.21-6.18
-活动规则：
-1.5月27日为止每天零点解锁1个任务，完成活动任务可以
-获得「庆典建材」及奖励，活动任务可累积
-2.消耗「庆典建材」可以在庆典广场中升级建筑，每种建
-筑会提供不同的BUFF加成
-3.每种建筑分为三个等级，随着等级的提升，提供的BUFF
-加成也会增加
-4.可升级建筑有四种：
+活動時間：2025.4.30-5.22
+活動規則：
+1.5月6日為止每天零點解鎖1個任務，完成活動任務可以
+獲得「慶典建材」、「探索點數」及獎勵，活動任務可累積
+2.消耗「慶典建材」可以在慶典廣場中升級建築，每種建築會提供不同的BUFF加成
+3.每種建築分為三個等級，隨著等級的提升，提供的
+BUFF加成也會增加
+4.可升級建築有四種：
 啾啾咖啡
-啾啾和菓子
-啾啾汉堡
-啾啾小笼]]
+啾啾模型店
+啾啾書店
+啾啾遊戲店]]
 		}
 	}
 }
@@ -19281,6 +19285,27 @@ _G.pg.base.gametip.rolling_ball_help = {
 }
 
 
+_G.pg.base.gametip.help_jiujiu_expedition_game = {
+	tip = {
+		{
+			info = [[
+遊戲規則：
+1.活動期間，指揮官點擊關卡內格子可以探索關卡，探索關卡需要消耗探索點數
+2.當關卡探索度達到100%時，才可以前往下一個關卡
+3.指揮官只可以探索與已探索區域相鄰的格子，完成格子探索可以增加探索度
+4.關卡內格子分為三種類型：普通格、寶箱格、敵人格，
+每種格子完成探索後的獎勵不同
+注：寶箱格需要打開寶箱、敵人格需要擊敗敵人才算完成探索]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.jiujiu_expedition_game_stg_desc = {
+	tip = "第$1關探索度"
+}
+
+
 _G.pg.base.gametip.build_ship_accumulative = {
 	tip = "累計建造:"
 }
@@ -19311,8 +19336,47 @@ _G.pg.base.gametip.destory_ur_pt_overflowa = {
 }
 
 
+_G.pg.base.gametip.jiujiu_expedition_help = {
+	tip = {
+		{
+			info = [[
+活動時間：2025.4.30-5.22
+活動規則：
+1.5月6日為止，指揮官每天可以透過多種方式取得「探
+索點數」
+取得方式一覽：
+①每日登入遊戲：11點「探索點數」
+②完成「啾啾歷險記」任務：10點「探索點數」
+③完成「慶典廣場」任務：10點「探索點數」
+以上活動內容皆可累積
+2.消耗「探索點數」可在「啾啾歷險記」關卡內探索地圖獲取豐厚獎勵]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.shop_label_unlimt_cnt = {
 	tip = "可重複兌換"
+}
+
+
+_G.pg.base.gametip.jiujiu_expedition_book_tip = {
+	tip = "完成前一本收集手冊後可解鎖"
+}
+
+
+_G.pg.base.gametip.jiujiu_expedition_reward_tip = {
+	tip = "完成手冊收集後可領取獎勵"
+}
+
+
+_G.pg.base.gametip.jiujiu_expedition_amount_tip = {
+	tip = "探索點數不足，請完成任務取得探索點數"
+}
+
+
+_G.pg.base.gametip.jiujiu_expedition_stg_tip = {
+	tip = "關卡未解鎖，請完成前置關卡"
 }
 
 
@@ -21998,8 +22062,8 @@ _G.pg.base.gametip.catchteasure_help = {
 			info = [[
 活動規則：
 活動期間每日可獲得<color=#92fc63>1</color>次可用次數，可用次數最多可以疊加<color=#92fc63>7</color>次
-1.在有可用次數的情況下參與啾啾打撈團會消耗掉可用次數並獲得簽到次數，集齊<color=#92fc63>7</color>次簽到次數可以獲得<color=#92fc63>「二週年邀請函」</color>
-2.可用次數可以在啾啾水上樂園頁面右側看到，簽到進度可以通過點擊啾啾水上樂園頁面<color=#92fc63>「邀請函」</color>按鈕查看
+1.在有可用次數的情況下參與啾啾打撈團會消耗掉可用次數並獲得簽到次數，集齊<color=#92fc63>7</color>次簽到次數可以獲得<color=#92fc63>「慶典邀請函」</color>
+2.可用次數可以在慶典廣場頁面右側看到，簽到進度可以通過點擊慶典廣場頁面<color=#92fc63>「邀請函」</color>按鈕查看
 3.在沒有可用次數的情況下進行啾啾打撈團不會獲得簽到次數]]
 		}
 	}
@@ -28243,6 +28307,21 @@ _G.pg.base.gametip.battle_text_pizibao_2 = {
 }
 
 
+_G.pg.base.gametip.battle_text_tianchengCV_1 = {
+	tip = "「<color=#ff8800>蒼紅之風</color>，<color=#5cccff>青藍之花</color>，一同降臨於此岸吧！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_2 = {
+	tip = "「啊——<color=#ff1800>彼岸之花</color>，盡情燃燒吧！」"
+}
+
+
+_G.pg.base.gametip.battle_text_tianchengCV_3 = {
+	tip = "敵人正在積蓄力量，請依序<color=#f1f102>觸碰場上的陣法</color>為我方充能"
+}
+
+
 _G.pg.base.gametip.series_enemy_mood = {
 	tip = "心情不足"
 }
@@ -34299,8 +34378,73 @@ _G.pg.base.gametip.no_share_skin_gametip = {
 }
 
 
+_G.pg.base.gametip.no_share_skin_tianchenghangmu = {
+	tip = "{namecode:161}(航母)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_tianchengzhanlie = {
+	tip = "{namecode:161}(戰列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahezhanlie = {
+	tip = "{namecode:92}(戰列)"
+}
+
+
+_G.pg.base.gametip.no_share_skin_jiahehangmu = {
+	tip = "{namecode:92}(航母)"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip1 = {
+	tip = "只能購買一個檔位，禮包會寄到信箱請注意查收"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip2 = {
+	tip = "基礎版"
+}
+
+
+_G.pg.base.gametip.ui_pack_tip3 = {
+	tip = "豪華版"
+}
+
+
 _G.pg.base.gametip.battle_ui_unlock = {
 	tip = "裝扮解鎖"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_hour = {
+	tip = "$1時後過期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_expiration_day = {
+	tip = "$1天後過期"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title1 = {
+	tip = "補償"
+}
+
+
+_G.pg.base.gametip.compensate_ui_title2 = {
+	tip = "compensate"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing1 = {
+	tip = "暫未收到任何補償"
+}
+
+
+_G.pg.base.gametip.compensate_ui_nothing2 = {
+	tip = "No compensation received yet"
 }
 
 
@@ -35372,7 +35516,7 @@ _G.pg.base.gametip.notify_clock_button = {
 
 
 _G.pg.base.gametip.TW_build_chase_tip = {
-	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>綻放於輝光之城</color>關卡，可獲得單建券獎勵"
+	tip = "<color=#92fc63>Z23的建造援助計劃</color>活動期間內累計通關<color=#92fc63>喚醒蒼紅之炎</color>關卡，可獲得單建券獎勵"
 }
 
 
@@ -35382,12 +35526,12 @@ _G.pg.base.gametip.TW_build_chase_phase = {
 
 
 _G.pg.base.gametip.TW_build_chase_time = {
-	tip = "獎勵領取時間截止至2025.4.10維護"
+	tip = "獎勵領取時間截止至2025.5.22維護"
 }
 
 
 _G.pg.base.gametip.ship_task_lottery_title = {
-	tip = "綻放於輝光之城活動期間累積通關「綻放於輝光之城」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+	tip = "綻放於輝光之城活動期間累積通關「喚醒蒼紅之炎」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
 }
 
 

@@ -9,7 +9,7 @@ return {
 			bgm = "story-nailuo-theme",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不远处，一位少女正踏着轻快的步伐穿梭在滚滚烟尘之中。",
+			say = "不遠處，一位少女正踏著輕快的步伐穿梭在滾滾煙塵之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "没有散发着侵蚀气息的恶龙……没有扭曲怪异的狐面{namecode:161:天城}……",
+			say = "沒有散發著侵蝕氣息的惡龍……沒有扭曲怪異的狐狸天城……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "不知道是幸运还是不幸……迎接我的只有这样一个荒凉又混沌的世界。",
+			say = "我不知道是幸運還是不幸……迎接我的只有這樣一個荒涼又混沌的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "不过……我现在的身体状态，怎么看都已经算是META化了吧……",
+			say = "不過……我現在的身體狀態，怎麼看都已經算是META化了吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -82,7 +82,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "虽然和了解中的META化……体感完全不一样。",
+			say = "雖然和了解中的META化……體感完全不一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "没有狂躁的情绪，没有破坏的欲望……倒不如说，内心反而出奇的平静和轻松。",
+			say = "沒有狂躁的情緒，沒有破壞的慾望……倒不如說，內心反而出奇的平靜和輕鬆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "力量增强得也很扎实……就像已经拥有了这股力量很多年了一样。",
+			say = "力量增強的也很紮實……就像已經擁有了這股力量很多年了一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "甚至有种……变得更年轻更有活力……轻飘飘的感觉……？",
+			say = "甚至有種……變得更年輕更有活力……輕飄飄的感覺……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "不对不对……我本来也不老！",
+			say = "不對不對……我本來也不老！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "呼……静心平气，静气平心。",
+			say = "呼……靜心平氣，靜氣平心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "当务之急是尽快从这里脱身，向{namecode:74:长门}大人报个平安。",
+			say = "當務之急是盡快從這裡脫身，向長門大人報個平安。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "不过出路的方位在……",
+			say = "不過出路的方位在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "欸，千里之行始于足下……总之先找找看吧~！",
+			say = "欸，千里之行始於足下……總之先找找看吧~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

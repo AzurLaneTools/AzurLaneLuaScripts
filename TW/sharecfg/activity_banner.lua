@@ -1,23 +1,53 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		param = "5548",
-		time = "stop",
+		param = "5562",
 		type = 3,
 		id = 1,
-		pic = "temp3"
+		pic = "temp1",
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					22
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
-		param = "5551",
-		type = 3,
+		type = 2,
 		id = 2,
-		pic = "temp4",
+		pic = "temp2",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new"
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					4,
-					24
+					30
 				},
 				{
 					0,
@@ -40,16 +70,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5550",
-		type = 3,
+		type = 2,
 		id = 3,
-		pic = "temp5",
+		pic = "temp3",
+		param = {
+			"scene skinshop"
+		},
 		time = {
 			{
 				{
 					2025,
 					4,
-					24
+					30
 				},
 				{
 					0,
@@ -61,20 +93,138 @@ pg.activity_banner = {
 				{
 					2025,
 					5,
-					22
+					21
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
 			}
 		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp5",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp7",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp8",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "40341",
+		time = "stop",
+		type = 3,
+		id = 7,
+		pic = "temp8"
 	},
 	{
 		param = "5552",
 		type = 3,
-		id = 4,
+		id = 8,
 		pic = "temp6",
 		time = {
 			{
@@ -104,105 +254,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
-		type = 2,
-		id = 5,
-		pic = "temp7",
-		param = {
-			"scene dailylevel"
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp1",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp8",
-		param = {
-			"scene level",
-			{
-				open_remaster = true,
-				isSP = true
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5623",
-		time = "stop",
+		param = "5551",
 		type = 3,
-		id = 8,
-		pic = "temp2"
-	},
-	{
-		type = 2,
 		id = 9,
-		pic = "temp9",
-		param = {
-			"scene equip",
-			{
-				designPage = 2,
-				warp = "WARP_TO_DESIGN"
-			}
-		},
+		pic = "temp4",
 		time = {
 			{
 				{
@@ -219,8 +274,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					4,
-					30
+					5,
+					22
 				},
 				{
 					14,
@@ -240,7 +295,7 @@ pg.activity_banner = {
 				{
 					2025,
 					4,
-					10
+					30
 				},
 				{
 					0,
@@ -251,8 +306,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					4,
-					23
+					5,
+					21
 				},
 				{
 					23,
@@ -272,7 +327,7 @@ pg.activity_banner = {
 				{
 					2025,
 					4,
-					10
+					30
 				},
 				{
 					0,
@@ -283,8 +338,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					4,
-					23
+					5,
+					21
 				},
 				{
 					23,
@@ -655,17 +710,17 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[3] = {
 			1,
-			2,
-			3,
-			4,
+			7,
 			8,
+			9,
 			1003
 		},
 		[2] = {
+			2,
+			3,
+			4,
 			5,
 			6,
-			7,
-			9,
 			1000,
 			1001,
 			1002,

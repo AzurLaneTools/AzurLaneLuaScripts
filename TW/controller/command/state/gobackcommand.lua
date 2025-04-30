@@ -22,6 +22,7 @@ slot0.execute = function(slot0, slot1)
 		end
 
 		slot6:extendData(slot2)
+		SCENE.SetSceneInfo(slot6, slot6.scene)
 		slot0:sendNotification(GAME.LOAD_SCENE, {
 			isBack = true,
 			prevContext = slot5,

@@ -24,7 +24,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊……好困。终于要结束了么……",
+			say = "啊……好睏。終於要結束了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么说呢……这场剧目实在是平淡了些。",
+			say = "怎麼說呢……這場劇目實在平淡了些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要是让我来做导演的话——",
+			say = "要是讓我來做導演的話——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,7 +65,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这里，执行仪式期间就可以设计得再激烈一些。这样一开场，故事就已经推向高潮了！",
+			say = "在這裡，執行儀式期間就可以設計的再激烈一些。這樣一開場，故事就已經推向高潮了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这里，{namecode:83:大和}就不应该出手。做错了事就应该付出代价，否则怎么能让人记住教训的惨痛呢？",
+			say = "在這裡，大和就不該出手。做錯了事就該付出代價，否則怎麼能讓人記得教訓的慘痛呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个幻境应该再惨烈些，而且要将轻率进入其中的{namecode:232:比叡·META}一起埋葬。多大的人了，有点危险意识吧！",
+			say = "這個幻境應該再慘烈些，而且要將輕率進入其中的比叡·META一起埋葬。多大的人了，有點危險意識吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于相信可控META化技术的{namecode:74:长门}……干脆就应该被负面信息的集合体压垮。可千万不要轻易相信可控META化技术哦·~",
+			say = "至於相信可控META化技術的長門……乾脆就該被負面訊息的集合體壓垮。但千萬不要輕易相信可控META化技術哦·~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯~这部分的干涉应该推波助澜一下。",
+			say = "嗯~這部分的干涉應該要推波助瀾一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,7 +219,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这部分的话——应该完全屏蔽掉！",
+			say = "這部分的話——應該完全屏蔽掉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "外部拖延时间的舰队，虽然可以不全灭……但是至少灭个七成吧，这样才能让有些人注意点行事的主次关系，少点节外生枝。",
+			say = "外部拖延時間的艦隊，雖然可以不全滅……但是至少滅個七成吧，這樣才能讓有些人注意點行事的主次關係，少點節外生枝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于这个大团圆的结局……",
+			say = "至於這個大團圓的結局……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从概率学上来说，要想凑齐这么多“恰好”的条件……嗯，太巧了！",
+			say = "從機率學上來說，要湊齊這麼多「剛好」的條件……嗯，太巧了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -324,7 +324,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "唉，下次再接再厉吧。",
+			say = "唉，下次再接再厲吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "最好是那种开头悬疑神秘、中间突生变故、结尾出人意料的……",
+			say = "最好是那種開頭懸疑神祕、中間突生變故、結尾出人意表的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……嗯？看来到观影结束观众退场的时候了。",
+			say = "……嗯？看來到觀影結束觀眾退場的時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -383,7 +383,7 @@ return {
 			actor = 900356,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "希望那群可爱的龙猫已经把想办的事办完了~",
+			say = "希望那群可愛的龍貓已經把想辦的事辦完了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

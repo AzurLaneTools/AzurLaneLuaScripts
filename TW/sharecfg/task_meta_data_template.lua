@@ -247,6 +247,11 @@ pg.task_meta_data_template = setmetatable({
 		100313,
 		100314,
 		100315,
+		100331,
+		100332,
+		100333,
+		100334,
+		100335,
 		100341,
 		100342,
 		100343,
@@ -345,6 +350,10 @@ pg.task_meta_data_template = setmetatable({
 		200222,
 		200223,
 		200224,
+		200241,
+		200242,
+		200243,
+		200244,
 		200251,
 		200252,
 		200253,
@@ -2317,6 +2326,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用{namecode:229}擊破等級＞100的敵方1次"
 	},
+	[100331] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100331,
+		target_num = 1,
+		desc = "使用{namecode:232}獲得1次勝利"
+	},
+	[100332] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100332,
+		target_num = 1,
+		desc = "使用{namecode:232}擊破等級＞30的敵方1次"
+	},
+	[100333] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100333,
+		target_num = 1,
+		desc = "使用{namecode:232}擊破等級＞55的敵方1次"
+	},
+	[100334] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100334,
+		target_num = 1,
+		desc = "使用{namecode:232}擊破等級＞80的敵方1次"
+	},
+	[100335] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970405",
+		id = 100335,
+		target_num = 1,
+		desc = "使用{namecode:232}擊破等級＞100的敵方1次"
+	},
 	[100341] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3100,6 +3149,38 @@ pg.base.task_meta_data_template = {
 		id = 200224,
 		target_num = 1,
 		desc = "大型作戰內使用{namecode:229}擊破等級＞100的敵方1次"
+	},
+	[200241] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200241,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:232}獲得1次勝利"
+	},
+	[200242] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200242,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:232}擊破等級＞70的敵方1次"
+	},
+	[200243] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200243,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:232}擊破等級＞90的敵方1次"
+	},
+	[200244] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970405",
+		id = 200244,
+		target_num = 1,
+		desc = "大型作戰內使用{namecode:232}擊破等級＞100的敵方1次"
 	},
 	[200251] = {
 		target_id = "0",

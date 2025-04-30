@@ -27,23 +27,25 @@ pg.activity_series_enemy = {
 		pass_awards_display = {
 			{
 				1,
-				308,
-				1
+				487,
+				2
+			},
+			{
+				1,
+				488,
+				40
 			},
 			{
 				2,
-				58839,
-				1
+				58839
 			},
 			{
 				2,
-				59001,
-				1
+				59001
 			},
 			{
 				2,
-				54012,
-				1
+				54012
 			}
 		},
 		defeat_story = {},
@@ -84,33 +86,34 @@ pg.activity_series_enemy = {
 		pass_awards_display = {
 			{
 				1,
-				308,
-				1
+				487,
+				5
+			},
+			{
+				1,
+				488,
+				140
 			},
 			{
 				2,
-				58838,
-				1
+				58838
 			},
 			{
 				2,
-				59001,
-				1
+				59001
 			},
 			{
 				2,
-				54017,
-				1
+				54017
 			}
 		},
 		additional_awards_display = {
 			{
 				1,
-				308,
-				1
+				488,
+				25
 			},
 			{
-				1,
 				1,
 				1
 			}
@@ -158,33 +161,34 @@ pg.activity_series_enemy = {
 		pass_awards_display = {
 			{
 				1,
-				308,
-				1
+				487,
+				8
+			},
+			{
+				1,
+				488,
+				360
 			},
 			{
 				2,
-				58837,
-				1
+				58837
 			},
 			{
 				2,
-				59001,
-				1
+				59001
 			},
 			{
 				2,
-				54017,
-				1
+				54017
 			}
 		},
 		additional_awards_display = {
 			{
 				1,
-				308,
-				1
+				488,
+				60
 			},
 			{
-				1,
 				1,
 				1
 			}
@@ -206,6 +210,7 @@ pg.activity_series_enemy = {
 		pos_y = "0.446875",
 		count = 1,
 		ex_count = "",
+		additional_awards_display = "",
 		profiles = "任務目標：突破塞壬尚未完工的楚科奇海要塞防線，並摧毀清除者位於該處的氣象武器基地。",
 		whether_singlefight = 0,
 		id = 1004,
@@ -237,35 +242,25 @@ pg.activity_series_enemy = {
 		pass_awards_display = {
 			{
 				1,
-				308,
-				1
-			},
-			{
-				2,
-				58836,
-				1
-			},
-			{
-				2,
-				59001,
-				1
-			},
-			{
-				2,
-				54016,
-				1
-			}
-		},
-		additional_awards_display = {
-			{
-				1,
-				308,
-				1
+				487,
+				12
 			},
 			{
 				1,
-				1,
-				1
+				488,
+				800
+			},
+			{
+				2,
+				58836
+			},
+			{
+				2,
+				59001
+			},
+			{
+				2,
+				54016
 			}
 		},
 		defeat_story = {},

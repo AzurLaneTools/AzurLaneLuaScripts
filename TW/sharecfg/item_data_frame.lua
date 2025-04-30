@@ -452,11 +452,11 @@ pg.item_data_frame = {
 	},
 	[332] = {
 		name = "新生之炎",
-		gain_by = "",
+		gain_by = "喚醒蒼紅之炎",
 		time_second = 0,
 		id = 332,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「狐鳴鳳影，烈火浴心。雖為新生，亦續前緣。」</color>\n「喚醒蒼紅之炎」活動獲取",
 		scene = {}
 	},
 	[401] = {
@@ -654,7 +654,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 10003,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>結晶之中閃爍著獅子座的光芒，獻給勇於挑戰極限的指揮官！ </color>\n透過參與「限界挑戰」取得 （24.08.01-24.08.31）",
+		desc = "<color=#ffffff>結晶之中閃爍著獅子座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」取得 （24.08.01-24.08.31）",
 		scene = {}
 	},
 	[10004] = {
@@ -727,6 +727,15 @@ pg.item_data_frame = {
 		id = 10011,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>結晶之中閃爍著牡羊座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」獲取（25.04.01-25.04.30）",
+		scene = {}
+	},
+	[10012] = {
+		name = "限界的挑戰者·金牛座",
+		gain_by = "",
+		time_second = 0,
+		id = 10012,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>結晶之中閃爍著金牛座的光芒，獻給勇於挑戰極限的指揮官！</color>\n透過參與「限界挑戰」獲取 （25.05.01-25.05.31） ",
 		scene = {}
 	},
 	[40001] = {
@@ -820,6 +829,7 @@ pg.item_data_frame = {
 		10009,
 		10010,
 		10011,
+		10012,
 		40001
 	}
 }

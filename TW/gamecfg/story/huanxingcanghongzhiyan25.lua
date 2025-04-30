@@ -10,7 +10,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」",
+					"奇異點「奈落」",
 					1
 				},
 				{
@@ -25,7 +25,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			bgm = "story-amagi-up",
-			say = "这里是奈落之中的一角，一处基于测试者主机生成的残缺切片。",
+			say = "這裡是奈落之中的一角，一處基於測試者主機產生的殘缺切片。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,7 +36,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "举目望去，断头的河流、凌乱的道路与突兀的山岩随意组合在一起，尽显破碎之景。",
+			say = "舉目望去，斷頭的河流、凌亂的道路與突兀的山岩隨意組合在一起，盡顯破碎之景。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
-			say = "唯独几座岛屿之上，草木丛生、楼阁井然，俨然像是这残缺切片之中仅存的美好。",
+			say = "唯獨幾座島嶼之上，草木叢生、樓閣井然，儼然像是這殘缺切片之中僅存的美好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真是个，诡异的地方……",
+			say = "真是個，詭異的地方……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}前辈就在……这里？唔……雷达里什么都看不见。",
+			say = "赤城前輩就在…這裡？唔……雷達裡什麼都看不見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不用看了，这里的世界切片是残缺的，大部分区域和奈落里没什么区别，你们的雷达是不可能正常运作的。）",
+			say = "（不用看了，這裡的世界切片是殘缺的，大部分區域和奈落裡沒什麼差別，妳們的雷達是不可能正常運作的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（她听不到……）",
+			say = "（她聽不到……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（你能听到不就行了，省得一会来问我同样的问题！）",
+			say = "（你能聽到不就好了，省的待會來問我同樣的問題！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（……海伦娜，能锁定{namecode:91:赤城}的位置么。）",
+			say = "（……海倫娜，能鎖定赤城的位置嗎。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（观察者，找人。）",
+			say = "（觀察者，找人。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（呵，依靠测试者主机的算力，在短时间内做出这些布置，也算有点想法。）",
+			say = "（呵，依靠測試者主機的算力，在短時間內做出這些佈置，也算有點想法。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（不过怎么可能难得住我呢，让我来找找看哦~）",
+			say = "（不過怎麼可能難得住我呢，讓我來找看哦~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此处确实是处怪异之地，妾身能体会到四周传来的复杂情感。",
+			say = "此處確實是處怪異之地，妾身能體會四周傳來的複雜情感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}阁下，可有异常的感觉？",
+			say = "天城閣下，可有異常的感覺？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "当前感觉良好，就是要控制这些舰载机，还不太习惯。",
+			say = "目前感覺良好，就是要控制這些艦載機，還不太習慣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "奇妙……怎会如此？",
+			say = "奇妙……怎會如此？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？这种情景，感觉有点似曾相识……！）",
+			say = "（嗯……？這種情景，感覺有點似曾相識……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:441:腓特烈}，这支舰队真的没问题么？",
+			say = "腓特烈，這隻艦隊真的沒問題嗎？",
 			flashout = {
 				dur = 0.5,
 				black = false,
@@ -295,7 +295,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没有问题。",
+			say = "沒有問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -308,7 +308,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为心智魔方的造物，讨论船体本身的古老与否是没有意义的。",
+			say = "作為心智魔方的創造物，討論船體本身的古老與否是沒有意義的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "至于战斗经验。我们在做过去从未有人做过的事，自然经验也无法凭空产生。",
+			say = "至於戰鬥經驗。我們在做過去從未有人做過的事，自然經驗也無法憑空產生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			actor = 499020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们的行为，正实实在在开辟着新的历史哦。",
+			say = "我們的行為，正實實在在開闢著新的歷史。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "稍安勿躁，静静地看，老朋友是不会让我们失望的。",
+			say = "稍安勿躁，靜靜地看，老朋友是不會讓我們失望的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，不用担心，{namecode:161:天城}大人！",
+			say = "啊，不用擔心，天城大人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -397,7 +397,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您毕竟是刚迈入了一个全新的领域，只要花时间熟悉一下装备状态，很快就能自然习惯空母战斗的感觉啦！",
+			say = "您畢竟是剛邁入了一個全新的領域，只要花時間熟悉一下裝備狀態，很快就能自然習慣航母戰鬥的感覺啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "原来如此……多谢，我明白了。",
+			say = "原來如此……多謝，我明白了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:161:天城}大人，这里是我日常训练总结的心得……如果您不嫌弃的话。",
+			say = "天城大人，這裡是我日常訓練總結的心得……如果您不嫌棄的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，我也有！{namecode:161:天城}大人，您要看看么！",
+			say = "啊，我也有！天城大人，您要看看嗎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "呵呵，在航空战上，两位反而可以算是我的前辈，我就虚心收下了。",
+			say = "呵呵，在航空戰上，兩位反而可以算是我的前輩，我就虛心收下了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			actor = 307060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼，{namecode:161:天城}大人您先看着，接下来的侦察交给我们就好了！",
+			say = "哼哼，天城大人您先看著，接下來的偵察交給我們就好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			actor = 306070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心吧，{namecode:161:天城}大人，我们一定能顺利救回{namecode:91:赤城}前辈的。",
+			say = "放心吧，天城大人，我們一定能順利救回赤城前輩的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（呵呵，我找到目标位置了。不过——恐怕会有场硬仗哦~）",
+			say = "（呵呵，我找到目標位置了。不過——恐怕會有場硬仗~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -511,7 +511,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（预料之内。）",
+			say = "（預料之內。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "侦察机编队——",
+			say = "偵察機編隊——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "等等，我已经找到{namecode:91:赤城}的位置了。",
+			say = "等等，我已經找到赤城的位置了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "欸？！不愧是指挥官阁下！",
+			say = "欸？！不愧是指揮官閣下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（再多附赠一条情报~你们附近藏了不少敌人，路上小心哟哟。）",
+			say = "（再多附贈一條情報~你們附近藏了不少敵人，路上小心喲。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -574,7 +574,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "一路之上预计会遭遇敌人伏击，诸位，小心前进！",
+			say = "一路之上預計會遭遇敵人伏擊，諸位，小心前進！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

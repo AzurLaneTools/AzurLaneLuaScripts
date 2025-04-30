@@ -1603,6 +1603,41 @@ pg.name_code = {
 		code = "霞·META",
 		nation = 0
 	},
+	{
+		name = "長門·META",
+		type = 1,
+		id = 230,
+		code = "長門·META",
+		nation = 0
+	},
+	{
+		name = "渡良瀨",
+		type = 1,
+		id = 231,
+		code = "渡良瀨",
+		nation = 0
+	},
+	{
+		name = "比叡·META",
+		type = 1,
+		id = 232,
+		code = "比叡·META",
+		nation = 0
+	},
+	{
+		name = "綾瀨",
+		type = 1,
+		id = 233,
+		code = "綾瀨",
+		nation = 0
+	},
+	{
+		name = "涼波",
+		type = 1,
+		id = 234,
+		code = "涼波",
+		nation = 0
+	},
 	[235] = {
 		name = "皋月",
 		type = 1,
@@ -1615,13 +1650,6 @@ pg.name_code = {
 		type = 1,
 		id = 236,
 		code = "彌生",
-		nation = 0
-	},
-	[233] = {
-		name = "綾瀨",
-		type = 1,
-		id = 233,
-		code = "綾瀨",
 		nation = 0
 	},
 	[237] = {

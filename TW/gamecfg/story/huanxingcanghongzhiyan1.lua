@@ -13,7 +13,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」开启前，某个特殊的会场之中——",
+					"奇異點「奈落」開啟前，某個特殊的會場之中——",
 					2
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			bgm = "bsm-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "意识在片刻的模糊后，突然进入了一个无比浩瀚的空间中。",
+			say = "意識在片刻的模糊後，突然進入了一個無比浩瀚的空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "虽然事先得到了海伦娜的提醒而有所准备，但依然感受到了一股强烈的不适感。",
+			say = "雖然事先得到了海倫娜的提醒而有所準備，但依然感到了一股強烈的不適感。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			bgName = "bg_canghongzhiyan_cg1",
 			hidePaintObj = true,
 			hidePainting = true,
-			say = "观察者静静漂浮在一个巨大的装置中，海伦娜和构建者也在同一时间出现了。",
+			say = "觀察者靜靜漂浮在一個巨大的裝置中，海倫娜和構建者也在同一時間出現了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "观察者，协助指挥官复活{namecode:161:天城}。而后，我会确保你的存在。",
+			say = "觀察者，協助指揮官復活天城。而後，我會確保妳的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "否则，今日等待你的只有死亡。",
+			say = "否則，今日等待妳的只有死亡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接受或者拒绝，你没有第三种选择。",
+			say = "接受或拒絕，妳沒有第三種選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "哎呀，一上来就咄咄逼人，这是求人合作的态度么？",
+			say = "哎呀，一上來就咄咄逼人，這是求人合作的態度？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你知道的，我还有别的选择。",
+			say = "妳知道的，我還有別的選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "但是都没有与我合作的方案来得好，不然你费劲来和我谈什么？",
+			say = "但都沒有跟我合作的方案來得好，不然妳花力氣來跟我談什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "噢~也算不上是你来和我谈。",
+			say = "噢~也算不上是妳來跟我談。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "不知道你的指挥官有没有什么其他看法呢？",
+			say = "不知道妳的指揮官有沒有其他看法呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{playername}只是单纯的见证者而已。与你谈判的人，就是我。",
+			say = "$1只是單純的見證者而已。與妳談判的人，就是我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（海伦娜说的不错，我虽然来到了此地，但是对于具体情况几乎一无所知。）",
+			say = "（海倫娜說的不錯，我雖然來到了此地，但是對於具體情況幾乎一無所知。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（在会议开始前，海伦娜只是向我解释了这是一次为了逼迫观察者与我们合作而进行的会谈。）",
+			say = "（在會議開始前，海倫娜只是向我解釋了這是一次為了逼迫觀察者與我們合作而進行的會談。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（而且，这次会谈必须由我在场见证。）",
+			say = "（而且，這次會談必須由我在場見證。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（至于构建者为何会出现、要怎么迫使观察者同意合作等等……她都没有事先说明。）",
+			say = "（至於構建者為何會出現、要怎麼迫使觀察者同意合作等等……她都沒有事先說明。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（而在会谈一开始，她就提出了那个令人匪夷所思的交换条件……没有任何铺垫，没有任何说明。）",
+			say = "（而在會談一開始，她就提出了那個令人匪夷所思的交換條件……沒有任何鋪墊，沒有任何說明。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（海伦娜的强硬令人震惊，而更令人震惊的是观察者没有动怒，也没有立刻拒绝，而是在……试探？）",
+			say = "（海倫娜的強硬令人震驚，而更令人震驚的是觀察者沒有動怒，也沒有立刻拒絕，而是在……試探？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -300,7 +300,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "哟~你真的能代替你的“指挥官”做这么重要的决定？",
+			say = "喲~妳真的能代替妳的「指揮官」做這麼重要的決定？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……嗯，她确实能。）",
+			say = "（……嗯，她確實能。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "别试探了，你的所有底牌我都一清二楚。而我的底牌，就算你连接主机，也不可能窥探分毫。",
+			say = "別試探了，妳的所有底牌我都一清二楚。而我的底牌，就算妳連接主機，也不可能窺探分毫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且，你真的不明白我为什么带{playername}来作为这场会谈的见证者么？",
+			say = "而且，妳真的不明白我為什麼帶$1來作為這場會談的見證者嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "……特殊的“指挥官”，特殊的“实验场”，特殊的……“我“。",
+			say = "……特殊的「指揮官」，特殊的「實驗場」，特殊的……「我」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "……你真的能做到？",
+			say = "……妳真的能做到？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "蠢问题，我不是已经把构建者完完整整带到你面前了。",
+			say = "蠢問題，我不是已經把構建者完完整整帶到妳面前了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "不一样。我一旦连接主机，主机马上就能察觉到我当前的异常状况，而后开始对我进行“数据修复”。",
+			say = "不一樣。我一旦連接主機，主機馬上就能察覺到我目前的異常狀況，而後開始對我進行「資料修復」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "在“数据修复”完成之前，我是不可能调用自然进化演算系统的。",
+			say = "在「資料修復」完成之前，我是不可能呼叫自然進化演算系統的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "主机不会察觉到你的异常状况的。",
+			say = "主機不會察覺到妳的異常狀況的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "……原来如此。",
+			say = "……原來如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "原来如此……原来如此~！",
+			say = "原來如此……原來如此~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你笑够了么？",
+			say = "妳笑夠了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "不光是我，还有所有实验机关一起，这是我的条件。",
+			say = "不光是我，還有所有實驗機關一起，這是我的條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "呵呵，奈落已经出现，要做准备确实得尽快了~",
+			say = "呵呵，奈落已經出現，要做準備確實得盡快了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -622,7 +622,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "不过，你确定你的指挥官能把“东西”带回来么？",
+			say = "不過，妳確定妳的指揮官能把「東西」帶回呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "如果做不到，一切都是空谈。",
+			say = "如果做不到，一切都是空談。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -663,7 +663,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……为什么会突然提到那个灾难级的奇异点“奈落”？）",
+			say = "（……為什麼會突然提到那個災難等級的奇異點「奈落」？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -676,7 +676,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（“东西”指的又是什么……？）",
+			say = "（「東西」指的又是什麼……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "很好~那么，我同意与你进行合作。",
+			say = "很好~那麼，我同意與妳合作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "明智的选择。",
+			say = "明智的選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -718,7 +718,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……观察者，竟然同意合作了？！）",
+			say = "（……觀察者，竟然同意合作了？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（这可是观察者……那个一直将世界作为实验场随心所欲操控的观察者！）",
+			say = "（這可是觀察者……那個一直將世界當作實驗場隨心所欲操控的觀察者！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -744,7 +744,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（面对海伦娜不留余地且咄咄逼人的强硬态度……居然就这么简单同意了？！）",
+			say = "（面對海倫娜不留空間且咄咄逼人的強硬態度……居然就這麼簡單同意了？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "「世界切片」要调用哪一段？",
+			say = "「世界切片」要呼叫哪一段？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "你来决定吧，要最稳定的。",
+			say = "妳來決定吧，要最穩定的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			actor = 900232,
 			nameColor = "#FEF15E",
 			hidePaintObj = true,
-			say = "好，你先去做接收其他实验机关的准备吧，连接主机之前我会来找你的。",
+			say = "好，妳先去做接收其他實驗機關的準備吧，連接主機之前我會來找妳的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -814,7 +814,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（……观察者和海伦娜的对话内容，我能够理解的部分寥寥无几。）",
+			say = "（……觀察者和海倫娜的對話內容，我能理解的部分寥寥無幾。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -827,7 +827,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（唯一能够确定的是，她们已经就一系列重大事项的行动方针达成了一致，并且开始了具体部署。）",
+			say = "（唯一能夠確定的是，她們已經就一系列重大事項的行動方針達成了一致，並且開始了具體部署。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -840,7 +840,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			hidePainting = true,
-			say = "（我跟海伦娜的情报差距到底有多大……她到底知道多少东西……）",
+			say = "（我跟海倫娜的情報差距到底有多大……她到底知道多少東西……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -855,7 +855,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "指挥官，我们该走了。",
+			say = "指揮官，我們該走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -870,7 +870,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我知道你现在有很多疑惑，别担心，还有时间。",
+			say = "我知道你現在有很多疑惑，別擔心，還有時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -885,7 +885,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我会把接下来你需要知道的事，一五一十全部告诉你。",
+			say = "我會把接下來你需要知道的事，一五一十全部告訴你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -900,7 +900,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "让我们并肩而战，做一场从未有实验场成功完成的“大事”吧——",
+			say = "讓我們並肩作戰，做一場從未有實驗場成功完成的「大事」吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

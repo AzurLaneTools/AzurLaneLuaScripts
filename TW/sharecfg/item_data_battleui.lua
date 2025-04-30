@@ -36,6 +36,18 @@ pg.item_data_battleui = {
 		icon = "102",
 		scene = {}
 	},
+	[103] = {
+		unlock = "夢幻霓虹戰鬥主題禮包獲取",
+		name = "夢幻霓虹",
+		key = "SkinNormal_20240913",
+		display_icon = "ui_103",
+		is_unlock = 1,
+		rare = 4,
+		desc = "色彩豐富而不失和諧，彷彿整個指揮介面都在隨著音樂而律動，適合喜歡輕鬆氛圍的指揮官。",
+		id = 103,
+		icon = "103",
+		scene = {}
+	},
 	[104] = {
 		unlock = "世界巡遊二十期獲取",
 		name = "幻光律動",
@@ -52,6 +64,7 @@ pg.item_data_battleui = {
 		0,
 		101,
 		102,
+		103,
 		104
 	}
 }

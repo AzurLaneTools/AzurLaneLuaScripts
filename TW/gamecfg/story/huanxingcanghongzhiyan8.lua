@@ -9,7 +9,7 @@ return {
 			bgm = "story-finalbattle-unity",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在观察者的配合下，全球各处的通讯网络从没有像今日这般畅通。",
+			say = "在觀察者的配合下，全球各處的通訊網路從沒有像今日這般暢通。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "奈落带来的危险是全球性的。",
+			say = "奈落帶來的危險是全球性的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "在企业带领帕克菲克洋中的联合舰队处理重樱本岛周边的危险时，NA海域中心的奇异点则交给了{namecode:199:新泽西}和欧罗巴诸国负责。",
+			say = "當企業帶領太平洋中的聯合艦隊處理重櫻本島週邊的危險時，NA海域中心的奇異點則交給了紐澤西和歐羅巴諸國負責。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_507",
-			say = "鸢尾教国·大教堂",
+			say = "鳶尾教國·大教堂",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贞德、阿尔及利亚，由你们二人带领教国舰队前往NA海域中心区域支援。",
+			say = "貞德、阿爾及利亞，由妳們兩人帶領教國艦隊前往NA海域中心區域支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "战役由{namecode:199:新泽西}指挥，你们需要配合她全力封锁NA海域中心风暴，为指挥官的行动拖延时间。",
+			say = "戰役由紐澤西指揮，妳們需要配合她全力封鎖NA海域中心風暴，為指揮官的行動拖延時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "遵命，黎塞留大人。等待舰队集结完毕后，我们就立刻出发。",
+			say = "遵命，黎胥留大人。等待艦隊集結完畢後，我們就立刻出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 903020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们一定不负所托，在战场上全力展现出鸢尾骑士的风采。",
+			say = "我們一定不負所託，在戰場上全力展現鳶尾騎士的風采。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用等待集结完毕了，你们现在就带领能够即刻完成作战准备的人员先行出发。",
+			say = "不用等待集結完畢了，妳們現在就帶領能夠即刻完成作戰準備的人員先出發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "相比规模，本轮支援更重要的是速度。",
+			say = "本輪支援相比規模，更重要的是速度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 805010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "剩余舰队，在完成出击准备后由{namecode:523:让·巴尔}带领，作为第二批支援前往战场。",
+			say = "剩餘艦隊，在完成出擊準備後由讓·巴爾帶領，作為第二批支援前往戰場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_guild_red_n",
-			say = "鸢尾教国·铁血使馆区",
+			say = "鳶尾教國·鐵血使館區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:436:提尔比茨}，NA海域的战局至关重要，由你带领本土、北海两支舰队前去支援。",
+			say = "鐵必制，NA海域的戰局至關重要，由妳帶領本土、北海兩支艦隊前去支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "即使不惜代价，也要争取到足够的时间。",
+			say = "即使不惜代價，也要爭取足夠的時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			actor = 405020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，保证完成任务，姐姐。",
+			say = "嗯，保證完成任務，姊姊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_501",
-			say = "鸢尾教国·撒丁帝国使馆区",
+			say = "鳶尾教國·薩丁帝國使館區",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_501",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "陆间海舰队自不必说，还有包括塔兰托、亚历山大、威尼斯等港区在内的全部驻防舰队……",
+			say = "地中海艦隊自不必說，還有包括塔蘭托、亞歷山大、威尼斯等港區在內的全部駐防艦隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "罗马驻防舰队你也一并带走，还有全部的量产型舰队……和全部的空军编队！",
+			say = "羅馬駐防艦隊妳也一併帶走，還有全部的量產型艦隊……和全部的空軍編隊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "嗯，立刻将全部的空军编队转移到鸢尾教国境内的机场中！",
+			say = "嗯，立刻將全部的空軍編隊轉移到鳶尾教國境內的機場中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "利托里奥，这一次我们要全数出动，帝国的所有海空军力量都要参加这场光荣的战役！",
+			say = "利托里奧，這次我們要全數出動，帝國的所有海空軍力量都要參與這場光榮的戰役！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "幕后黑手畏惧帝国的威光，这是一个好现象，但是还远远不够……",
+			say = "幕後黑手畏懼帝國的威光，這是個好現象，但還遠遠不夠……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 605010,
-			say = "接下来的这场战役中，我们要集结最庞大的武装，向全世界证明……我们撒丁帝国，确实是一支举足轻重的力量！",
+			say = "接下來的這場戰役中，我們要集結最龐大的武裝，向全世界證明……我們薩丁帝國，確實是一股舉足輕重的力量！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵~放心吧，维内托。我会让我们的盟友和我们的敌人都会大吃一惊的~",
+			say = "呵呵~放心吧，維內托。我會讓我們的盟友和我們的敵人都會大吃一驚的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_506",
-			say = "鸢尾教国·审判庭大楼",
+			say = "鳶尾教國·審判庭大樓",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鸢尾、白鹰、铁血、撒丁、余烬……嗯，好像还有人在闲着呢。",
+			say = "鳶尾、白鷹、鐵血、薩丁、餘燼……嗯，好像還有人在閒著呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -445,7 +445,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽说所有奇异点都有失控的风险，可唯独阿瓦隆之门那里平静如一潭死水……",
+			say = "雖說所有奇異點都有失控的風險，可唯獨阿瓦隆之門那裡平靜如一潭死水……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来之前伊丽莎白的安全性改造升级似乎颇有成效啊。",
+			say = "看來之前伊莉莎白的安全性改造升級似乎頗有成效。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，她们的舰队也别闲着，得调动一下……",
+			say = "既然如此，她們的艦隊也別閒著，得調動一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 905020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还有会场中和{namecode:182:信浓}一起来的重樱舰队……也是一股不小的力量呢……呵呵~",
+			say = "還有會場中跟信濃一起來的重櫻艦隊……也是一股不小的力量呢……呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

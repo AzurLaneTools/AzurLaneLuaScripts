@@ -11,15 +11,15 @@ return {
 			bgm = "main-arbitrationsystem-theme",
 			sequence = {
 				{
-					"主机连接——连接中",
+					"主機連線－連線中",
 					1
 				},
 				{
-					"连接成功",
+					"連線成功",
 					2
 				},
 				{
-					"观察者——实验场β——",
+					"觀察者——實驗場β——",
 					3
 				},
 				{
@@ -27,11 +27,11 @@ return {
 					4
 				},
 				{
-					"数据校验——校验中",
+					"資料校驗——校驗中",
 					5
 				},
 				{
-					"校验通过",
+					"校驗透過",
 					6
 				}
 			}
@@ -42,19 +42,19 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"自然进化演算系统调用申请——评估中",
+					"自然進化演算系統呼叫申請——評估中",
 					1
 				},
 				{
-					"评估通过——调用中",
+					"評估通過——呼叫中",
 					2
 				},
 				{
-					"世界切片生成：「苍红」",
+					"世界切片生成：「蒼紅」",
 					3
 				},
 				{
-					"地点设定：天城宅邸周边",
+					"地點設定：天城宅邸週邊",
 					4
 				},
 				{
@@ -62,11 +62,11 @@ return {
 					5
 				},
 				{
-					"数据下载中-下载完成",
+					"資料下載中-下載完成",
 					6
 				},
 				{
-					"自然进化演算系统调用结束——",
+					"自然進化演算系統呼叫結束——",
 					7
 				}
 			}
@@ -79,7 +79,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼~一切顺利，你想要的东西到手了。",
+			say = "呼~一切順利，妳想要的東西到手了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来只要把切片投影到奈落中的指定区域就好了。",
+			say = "接下來只要把切片投影到奈落的指定區域就好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哼哼，全程果然没被主机察觉到异常~",
+			say = "哼哼，全程果然沒被主機察覺到異常~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这虽然依靠的是塔的力量，不过全程操作的人是你——我现在对你身上的秘密越来越有兴趣了~",
+			say = "雖然依靠的是塔的力量，但全程操作的人是妳——我現在對妳身上的秘密越來越有興趣了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不该好奇的事情别好奇。",
+			say = "不該好奇的事情別好奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好好~不得不说，能和现在这种状态的{namecode:91:赤城}谈成合作，你的指挥官确实有点本事。",
+			say = "好好~不得不說，能和現在這種狀態的赤城談成合作，妳的指揮官確實有點本事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "不过，奈落内部的情况你也清楚，你这个计划可以说是如履薄冰。",
+			say = "不過，奈落內部的情況妳也清楚，妳這個計畫可以說是如履薄冰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你怎么舍得让你的指挥官去冒这么大的险？",
+			say = "妳怎麼捨得讓妳的指揮官去冒這麼大的險？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "再说一遍，不该好奇的事情别好奇。",
+			say = "再說一遍，不該好奇的事情別好奇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "哎呀~真没劲。",
+			say = "哎呀~真沒勁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好吧好吧，那人家就老老实实去准备世界切片的投影了~",
+			say = "好吧好吧，那人家就乖乖去準備世界切片的投影了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "别忘了，维持切片的存在依然需要和主机连线，记得全程保护好人家的安全哦~",
+			say = "別忘了，維持切片的存在依然需要和主機連線，記得全程保護好人家的安全哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

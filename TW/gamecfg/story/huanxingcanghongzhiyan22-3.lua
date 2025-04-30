@@ -15,7 +15,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "——「御狐哮天，起舞于天原。」",
+			say = "——「御狐哮天，起舞於天原。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,8 +95,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "咳……不过是临时性的META化，你怎么会拥有这种力量……",
+			actorName = "天城（偽物）",
+			say = "咳……不過是臨時性的META化，妳怎麼會擁有這種力量……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "汝已经失败了，知道也无用。",
+			say = "汝已經失敗了，知道也無用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过余可以告诉另你一件事——复活{namecode:161:天城}之事并非不可能，{playername}阁下已经正在做了。",
+			say = "不過余可以告訴另你一件事——復活天城之事並非不可能，$1閣下已經正在做了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "余之所以追汝来此，就是因为汝占用了「{namecode:161:天城}」之概念，是其真正复活的阻碍。",
+			say = "余之所以追汝來此，就是因為汝佔據了「天城」之概念，是其真正復活的阻礙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			say = "…………",
 			typewriter = {
 				speed = 0.05,
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			say = "……呵，真是一派胡言。",
 			typewriter = {
 				speed = 0.05,
@@ -176,8 +176,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "天城（伪物）",
-			say = "这种事能否做到，难道我还不清楚么？",
+			actorName = "天城（偽物）",
+			say = "這種事能否做到，難道我還不清楚嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "——有破绽！",
+			say = "——有破綻！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -208,7 +208,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{namecode:71:比叡}？！汝怎么会在此处？",
+			say = "比叡？！汝怎麼會在這裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且汝现在的状态……",
+			say = "而且汝現在的狀態……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "我没事的，{namecode:74:长门}大人，先解决敌人再说！",
+			say = "我沒事的，長門大人，先解決敵人再說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "好，就用接下来的一击结束战斗吧！",
+			say = "好，就用接下來的一擊結束戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "等等，情况有些不对。",
+			say = "等等，情況有些不對勁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……我能感受到伪物正在消散，「{namecode:161:天城}」的概念已经不再被占用了。",
+			say = "……我能感受到偽物正在消散，「天城」的概念已經不再被佔用了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "但是……我们的敌人，依然存在。",
+			say = "但是……我們的敵人，依然存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FF9B93",
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
 			say = "呵呵……呵呵呵……",
 			typewriter = {
@@ -398,9 +398,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			bgm = "theme-akagi-meta",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "让我以执念原本的形式面对你们，好啊？",
+			say = "讓我以執念原本的形式面對妳們，好啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,9 +429,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "我来了。",
+			say = "我來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,9 +443,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "如此，你们可满意了么？",
+			say = "如此，妳們可滿意了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "竟然是依靠神石海若……将自身的执念直接转化为了META化……实体……？",
+			say = "竟然是依靠神石海若…將自身的執念直接轉化為了META化……實體……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 9702050,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "嚯……令人大开眼界。",
+			say = "嚯……令人大開眼界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "等等……汝身旁的两个幻影是……",
+			say = "等等……汝身旁的兩個幻影是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}的残魂与{namecode:92:加贺}的灵魂……全都在汝身上！？",
+			say = "天城的殘魂與加賀的靈魂……全都在汝身上！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,9 +518,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "……呵，感谢你们无数次地重复那个我早就已经知道的现实。",
+			say = "……呵，感謝妳們無數次的重複那個我早就已經知道的現實。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,8 +532,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = false,
 			side = 2,
-			actorName = "{namecode:91}·META",
-			say = "——姐姐已经死了。",
+			actorName = "赤城·META",
+			say = "——姊姊已經死了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,9 +545,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "是的，姐姐已经死了。那为什么你们还活着？",
+			say = "是的，姊姊已經死了。那為什麼妳們還活著？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……你这是什么逻辑？",
+			say = "……妳這是什麼邏輯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "算了{namecode:71:比叡}，和执念的化形没什么好说的。",
+			say = "算了比叡，和執念的化形沒什麼好說的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,9 +587,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "呵呵呵呵……既然世上已经没有姐姐的存在了，那你们就都去那个世界陪她吧！",
+			say = "呵呵呵呵……既然世上已經沒有姊姊的存在了，那妳們就都去那個世界陪她吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,9 +606,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "而后——我也会去的。",
+			say = "而後——我也會去的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,9 +620,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "如此一来，亦是圆满。",
+			say = "如此一來，亦是圓滿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -634,9 +634,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#FFC960",
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = false,
-			say = "啊哈哈哈哈哈哈哈哈哈——",
+			say = "啊哈哈哈哈哈哈哈哈哈哈——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

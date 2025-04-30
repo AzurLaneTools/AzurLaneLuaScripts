@@ -42159,6 +42159,228 @@ pg.equip_skin_template = {
 			24000
 		}
 	},
+	[3013] = {
+		hit_sfx = "",
+		bullet_name = "feiji_tianchengyulei",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "鳳凰式神（魚雷機）",
+		miss_sfx = "",
+		desc = "蒼紅之炎，盡情燃燒吧——",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = "",
+		themeid = 199,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "99144",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3013,
+		derivate_torpedo = "pisiman02",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			8
+		},
+		weapon_ids = {
+			61503,
+			61504
+		}
+	},
+	[3014] = {
+		hit_sfx = "",
+		bullet_name = "feiji_tianchengzhandou",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "鳳凰式神（戰鬥機）",
+		miss_sfx = "",
+		desc = "蒼紅之炎，盡情燃燒吧——",
+		ship_config_id = 100011,
+		derivate_boom = "kuasheHE",
+		orbit_rotate = "",
+		themeid = 199,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "99144",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3014,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			7
+		},
+		weapon_ids = {
+			61505,
+			54010
+		}
+	},
+	[3015] = {
+		hit_sfx = "",
+		bullet_name = "feiji_tianchenghongzha",
+		orbit_ui_bound = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "鳳凰式神（轟炸機）",
+		miss_sfx = "",
+		desc = "蒼紅之炎，盡情燃燒吧——",
+		ship_config_id = 100011,
+		derivate_boom = "kuasheHE",
+		orbit_rotate = "",
+		themeid = 199,
+		orbit_combat = "",
+		orbit_hidden_action = "",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "",
+		orbit_ui_back = 0,
+		orbit_slg = "",
+		orbit_combat_bound = "",
+		orbit_combat_anima_change = "",
+		icon = "99144",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3015,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			9
+		},
+		weapon_ids = {
+			61501,
+			54014
+		}
+	},
+	[3016] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "鳳影之陣（聚炎）",
+		miss_sfx = "",
+		desc = "守護之炎，在此凝聚——",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		themeid = 199,
+		orbit_combat = "shebei_tiancheng1",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "shebei_tiancheng1ui",
+		orbit_ui_back = 1,
+		orbit_slg = "",
+		orbit_combat_anima_change = "",
+		icon = "99145",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3016,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				82
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
+	[3017] = {
+		hit_sfx = "",
+		bullet_name = "",
+		type = 1,
+		preview_hit_distance = 0,
+		name = "鳳影之陣（掠影）",
+		miss_sfx = "",
+		desc = "鳳凰之影，焚滅敵人—",
+		ship_config_id = 100011,
+		derivate_boom = "",
+		orbit_rotate = false,
+		themeid = 199,
+		orbit_combat = "shebei_tiancheng2",
+		mirror = 0,
+		rarity = 4,
+		orbit_ui = "shebei_tiancheng2ui",
+		orbit_ui_back = 1,
+		orbit_slg = "",
+		orbit_combat_anima_change = "",
+		icon = "99146",
+		derivate_bullet = "",
+		fire_fx_name = "",
+		hit_fx_name = "",
+		id = 3017,
+		derivate_torpedo = "",
+		ship_skin_id = 0,
+		orbit_slg_bound = "",
+		equip_type = {
+			10
+		},
+		weapon_ids = {
+			101,
+			101
+		},
+		orbit_combat_bound = {
+			"face",
+			{
+				-0.23,
+				-1.5,
+				-0.91
+			}
+		},
+		orbit_ui_bound = {
+			"face",
+			{
+				0,
+				82
+			}
+		},
+		orbit_hidden_action = {
+			"sleep",
+			"wash"
+		}
+	},
 	[3018] = {
 		hit_sfx = "",
 		bullet_name = "zidan_heiwu",
@@ -43986,6 +44208,11 @@ pg.equip_skin_template = {
 		3001,
 		3007,
 		3008,
+		3013,
+		3014,
+		3015,
+		3016,
+		3017,
 		3018,
 		3019,
 		3020,

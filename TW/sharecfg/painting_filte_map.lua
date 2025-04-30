@@ -2915,11 +2915,6 @@ pg.painting_filte_map = {
 		key = "changmen",
 		res_list = {
 			"painting/changmen_tex",
-			"painting/changmen_alter_tex",
-			"painting/changmen_alter_rw_tex",
-			"painting/changmen_alter_n_tex",
-			"painting/changmen_alter_n",
-			"painting/changmen_alter",
 			"painting/changmen"
 		}
 	},
@@ -2959,6 +2954,16 @@ pg.painting_filte_map = {
 			"painting/changmen_6_n_tex",
 			"painting/changmen_6_n",
 			"painting/changmen_6"
+		}
+	},
+	changmen_alter = {
+		key = "changmen_alter",
+		res_list = {
+			"painting/changmen_alter_tex",
+			"painting/changmen_alter_rw_tex",
+			"painting/changmen_alter_n_tex",
+			"painting/changmen_alter_n",
+			"painting/changmen_alter"
 		}
 	},
 	changmen_h = {
@@ -3883,6 +3888,7 @@ pg.painting_filte_map = {
 		key = "dujiaoshou_10",
 		res_list = {
 			"painting/dujiaoshou_10_tex",
+			"painting/dujiaoshou_10_rw_tex",
 			"painting/dujiaoshou_10_n_tex",
 			"painting/dujiaoshou_10_n",
 			"painting/dujiaoshou_10"
@@ -4031,12 +4037,17 @@ pg.painting_filte_map = {
 			"painting/dulianglai_rw_tex",
 			"painting/dulianglai_bj2_tex",
 			"painting/dulianglai_bj1_tex",
+			"painting/dulianglai"
+		}
+	},
+	dulianglai_2 = {
+		key = "dulianglai_2",
+		res_list = {
 			"painting/dulianglai_2_tex",
 			"painting/dulianglai_2_rw_tex",
 			"painting/dulianglai_2_n_tex",
 			"painting/dulianglai_2_n",
-			"painting/dulianglai_2",
-			"painting/dulianglai"
+			"painting/dulianglai_2"
 		}
 	},
 	dunkeerke = {
@@ -4388,6 +4399,7 @@ pg.painting_filte_map = {
 		key = "feiteliekaer_2",
 		res_list = {
 			"painting/feiteliekaer_2_tex",
+			"painting/feiteliekaer_2_rw_tex",
 			"painting/feiteliekaer_2_n_tex",
 			"painting/feiteliekaer_2_n",
 			"painting/feiteliekaer_2"
@@ -8665,12 +8677,17 @@ pg.painting_filte_map = {
 			"painting/liangbo_tex",
 			"painting/liangbo_n_tex",
 			"painting/liangbo_n",
+			"painting/liangbo"
+		}
+	},
+	liangbo_2 = {
+		key = "liangbo_2",
+		res_list = {
 			"painting/liangbo_2_tex",
 			"painting/liangbo_2_rw_tex",
 			"painting/liangbo_2_n_tex",
 			"painting/liangbo_2_n",
-			"painting/liangbo_2",
-			"painting/liangbo"
+			"painting/liangbo_2"
 		}
 	},
 	liangyue = {
@@ -9018,12 +9035,17 @@ pg.painting_filte_map = {
 			"painting/linglai_rw_tex",
 			"painting/linglai_n_tex",
 			"painting/linglai_n",
+			"painting/linglai"
+		}
+	},
+	linglai_2 = {
+		key = "linglai_2",
+		res_list = {
 			"painting/linglai_2_rw_tex",
 			"painting/linglai_2_n_tex",
 			"painting/linglai_2_n",
 			"painting/linglai_2_bj_tex",
-			"painting/linglai_2",
-			"painting/linglai"
+			"painting/linglai_2"
 		}
 	},
 	lingmin = {
@@ -9824,15 +9846,20 @@ pg.painting_filte_map = {
 		key = "malilan",
 		res_list = {
 			"painting/malilan_tex",
+			"painting/malilan_2_tex",
+			"painting/malilan_2",
+			"painting/malilan"
+		}
+	},
+	malilan_g = {
+		key = "malilan_g",
+		res_list = {
 			"painting/malilan_g_tex",
 			"painting/malilan_g_rw_tex",
 			"painting/malilan_g_n_tex",
 			"painting/malilan_g_n",
 			"painting/malilan_g_bj1_tex",
-			"painting/malilan_g",
-			"painting/malilan_2_tex",
-			"painting/malilan_2",
-			"painting/malilan"
+			"painting/malilan_g"
 		}
 	},
 	maliluosi_2_doa = {
@@ -13908,12 +13935,17 @@ pg.painting_filte_map = {
 			"painting/tiancheng_cv_n_tex",
 			"painting/tiancheng_cv_n",
 			"painting/tiancheng_cv_bj_tex",
+			"painting/tiancheng_cv"
+		}
+	},
+	tiancheng_cv_2 = {
+		key = "tiancheng_cv_2",
+		res_list = {
 			"painting/tiancheng_cv_2_tex",
 			"painting/tiancheng_cv_2_rw_tex",
 			"painting/tiancheng_cv_2_n_tex",
 			"painting/tiancheng_cv_2_n",
-			"painting/tiancheng_cv_2",
-			"painting/tiancheng_cv"
+			"painting/tiancheng_cv_2"
 		}
 	},
 	tiancheng_hei = {

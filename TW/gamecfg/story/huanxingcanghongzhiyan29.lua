@@ -9,7 +9,7 @@ return {
 			bgm = "battle-unknown-approaching",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奇异点「奈落」·周边海域",
+			say = "奇異點「奈落」·週邊海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "自从行动开始后，帕克菲克洋联合舰队就在企业的指挥下围绕奈落进行了一系列部署。",
+			say = "自從行動開始後，太平洋聯合艦隊就在企業的指揮下圍繞著奈落就行了一系列部署。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "与此前的预测一样，奈落的强度在随着时间逐步增强，被撕裂的破口越来越多，出现的敌人也愈发强大。",
+			say = "與先前的預測一樣，奈落的強度隨著時間逐步增強，被撕裂的破口越來越多，出現的敵人也愈發強大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "监测到领袖级别敌人作战单位出现，判定威胁程度极高，请谨慎应对。",
+			say = "監測到領袖級別敵人作戰單位出現，判定威脅程度極高，請謹慎應對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,10 +72,10 @@ return {
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#FF9B93",
-			actorName = "响亮的嚎叫声",
+			actorName = "響亮的嚎叫聲",
 			shakeTime = 3,
 			hidePaintObj = true,
-			say = "嗷呜——————",
+			say = "嗷嗚——————",
 			movableNode = {
 				{
 					name = "chongying_m_boss01",
@@ -107,7 +107,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呦呵，终于来了个耐打的啊。",
+			say = "呦呵，終於來了個耐打的啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这股压力……诸位不要大意。",
+			say = "這股壓力……諸位不要大意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "体积越大，打击面越大。",
+			say = "體積越大，打擊面越大。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "让前线部队全部后退，集中航空火力进行打击！",
+			say = "讓前線部隊全部後退，集中航空火力進行打擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位，恕我冒昧，这次就请由我们重樱来当先锋吧。",
+			say = "諸位，恕我冒昧，這次就請由我們重櫻來當先鋒吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此类敌人的力量来源，我们最为熟悉。",
+			say = "此類敵人的力量來源，我們最為熟悉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "敌人的确存在弱点。",
+			say = "敵人的確存在弱點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过弱点存在的位置，以及击破弱点的方式，或许会与诸位设想的不太一样。",
+			say = "不過弱點存在的位置，以及擊破弱點的方式，或許會跟諸位設想的不太一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请允许本次，由我们来为诸位进行示范性打击。",
+			say = "請容許本次，由我們來為諸位進行示範性打擊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			actor = 302260,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:299:大山}大人？！没想到居然是您带队前来支援……",
+			say = "……大山大人？！沒想到居然是您帶隊前來支援……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "要事已经完成，此刻自然要回来助阵。",
+			say = "要事已經完成，此刻自然要回來助陣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 301910,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:231:渡良濑}，我掩护你同去。",
+			say = "渡良瀨，我掩護妳同去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正好在此磨炼一下{namecode:294:云仙}大人传授的技艺。",
+			say = "正好在此磨練一下雲仙大人傳授的技藝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			actor = 202330,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一路小心，{namecode:231:渡良濑}小姐。",
+			say = "一路小心，渡良瀨小姐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯——多谢关心。",
+			say = "嗯——多謝關心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哇哦，感觉有好戏看了……",
+			say = "哇哦，感覺有好戲看了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			actor = 501020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "冲冲冲！",
+			say = "衝衝衝！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——「刃锋破浪，流影随行」",
+			say = "——「刃鋒破浪，流影隨行」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

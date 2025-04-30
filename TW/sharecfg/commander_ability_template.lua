@@ -6047,7 +6047,7 @@ pg.commander_ability_template = {
 		name = "攻奪預備",
 		group_id = 516,
 		worth = 1,
-		desc = "<color=#3dc6ff>戰巡、戰列、風帆M</color>炮擊提高20點，< color=#3dc6ff>正航</color>航空提高20點",
+		desc = "<color=#3dc6ff>戰巡、戰列、風帆M</color>炮擊提高20點，<color=#3dc6ff>正航</color>航空提高20點",
 		next = 0,
 		id = 5161,
 		icon = "special_one",

@@ -9,7 +9,7 @@ return {
 			bgm = "theme-nagato-meta",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在{namecode:74:长门}的引导下，一行人在奈落中前进着。",
+			say = "在長門的引導下，一行人在奈落中前進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "一路之上陆续有敌人来袭。不过不等{namecode:180:霞}与{namecode:39:神通}出手，这些敌人就被{namecode:74:长门}随手消灭了。",
+			say = "一路之上陸續有敵人來襲。不過不等霞與神通出手，這些敵人就被長門隨手消滅了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,21 +48,21 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "相比于敌人，一路之上对于{namecode:74:长门}干扰最多的，反而是时不时从奈落之中感受到的执念。",
+			say = "相較於敵人，一路之上對於長門干擾最多的，反而是時不時從奈落之中感受到的執念。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			side = 2,
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "必须要让姐姐复活……",
+			say = "必須要讓姊姊復活……",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -91,9 +91,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "只有姐姐才是最适合领导重樱前进之人。",
+			say = "只有姊姊才是最適合領導重櫻前進之人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,9 +105,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "谁都不能阻止我，就算是姐姐……你也不行。",
+			say = "誰都不能阻止我，就算是姊姊……妳也不行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……汝之内核，果然是……",
+			say = "……汝之內核，果然是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,9 +134,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "万事万物，有因必有果，有果必有因。",
+			say = "萬事萬物，有因必有果，有果必有因。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,9 +165,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "伪物为果，真物为因。果在，因成。",
+			say = "偽物為果，真物為因。果在，因成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "而后呢？伪物能够因此而成为真物么？",
+			say = "而後呢？偽物能夠因此而成為真物嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,7 +197,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "如此创造出的，只是一具概念下的空壳罢了。",
+			say = "如此創造出來的，只是一具概念下的空殼罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,9 +209,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "同样的相貌，同样的性格，同样的记忆，同样的行事方式。",
+			say = "同樣的相貌，同樣的性格，同樣的記憶，同樣的行事方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,9 +240,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "我不就是姐姐么？",
+			say = "我不就是姊姊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "姐姐的过去虽有定论，可是姐姐的将来却可以由我来书写……",
+			say = "姊姊的過去雖有定論，可是姊姊的將來卻可以由我來書寫……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,9 +268,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "没错，我就是{namecode:161:天城}……",
+			say = "沒錯，我就是天城……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,9 +282,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "我是{namecode:161:天城}，{namecode:91:赤城}的姐姐，最适合领导重樱前进之人……",
+			say = "我是天城，赤城的姊姊，最適合領導重櫻前進之人……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……呵，不过是自欺欺人罢了。",
+			say = "……呵，不過是自欺欺人罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,9 +311,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "重樱需要真正的领导者，而我需要为姐姐的出场创造一个合适的契机。",
+			say = "重櫻需要真正的領導者，而我需要為姊姊的出場創造一個合適的契機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,9 +342,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			oldPhoto = true,
 			actor = 900445,
-			actorName = "天城（伪物）",
+			actorName = "天城（偽物）",
 			hidePaintObj = true,
-			say = "因此……奈落，尽情地吞噬吧。",
+			say = "因此……奈落，盡情地吞噬吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			oldPhoto = true,
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……够了，余没兴趣继续听了。",
+			say = "……夠了，余沒興趣繼續聽了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "（并非{namecode:91:赤城}操控伪物为自己执行仪式……而是伪物反过来操控{namecode:91:赤城}执行了仪式。）",
+			say = "（並非赤城操控偽物為自己執行儀式……而是偽物反過來操控赤城執行了儀式。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "（{namecode:91:赤城}谋算多年，到头来，竟是被自己心中执念所化之物玩弄于股掌之间……）",
+			say = "（赤城謀算多年，到頭來，竟是被自己心中執念所化之物利用的乾乾淨淨……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -470,7 +470,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "（……谋人者，终被人谋。）",
+			say = "（……謀人者，終被人謀。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -484,7 +484,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "（……欸。）",
+			say = "（……唉。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "一批敌人正迎着我们的前进方向而来，看来伪物已经察觉了我们的行踪。",
+			say = "一批敵人正迎著我們的前進方向而來，看來偽物已經察覺了我們的行蹤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -561,7 +561,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "那个伪物果然保留一部分了神石网络的控制力，因而能够一定程度感知奈落内的环境。",
+			say = "那個偽物果然保留一部分了神石網路的控制力，因而能夠一定程度感知奈落內的環境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "也因此，其已自知无法逃脱了。",
+			say = "也因此，其已自知無法逃脫了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……差不多，也该现身了吧",
+			say = "……差不多，也該現身了吧",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

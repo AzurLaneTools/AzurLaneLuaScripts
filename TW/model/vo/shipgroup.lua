@@ -390,6 +390,31 @@ slot0.getEquipCodes = function(slot0)
 	return slot0.equipCodes
 end
 
+slot0.GetAllChangeSkinIds = function(slot0)
+	if not ShipGroup.IsChangeSkin(slot0) then
+		return {
+			slot0
+		}
+	end
+
+	slot2 = {
+		ShipGroup.GetChangeSkinMainId(slot0)
+	}
+	slot3 = slot0
+
+	for slot7 = 1, 10 do
+		if not table.contains(slot2, ShipGroup.GetChangeSkinNextId(slot3)) then
+			table.insert(slot2, slot8)
+		end
+
+		if ShipGroup.GetChangeSkinIndex(slot8) == 1 then
+			return slot2
+		end
+	end
+
+	return slot2
+end
+
 slot0.IsChangeSkin = function(slot0)
 	return uv0.GetChangeSkinData(slot0)
 end

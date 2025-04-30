@@ -6,6 +6,7 @@ slot0.OnUpdateFlush = function(slot0)
 	slot1, slot2, slot3 = slot0.ptData:GetResProgress()
 
 	setText(slot0.progress, setColorStr(slot1 .. "/" .. slot2, "#a6afd3"))
+	setActive(slot0.battleBtn, false)
 end
 
 return slot0

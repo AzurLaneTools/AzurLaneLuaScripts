@@ -336,6 +336,12 @@ pg.expedition_data_by_map = setmetatable({
 		1830026,
 		1840001,
 		1840002,
+		1850001,
+		1850002,
+		1850011,
+		1850012,
+		1850025,
+		1850026,
 		1860001,
 		1860002,
 		1860003,
@@ -18211,6 +18217,595 @@ pg.base.expedition_data_by_map = {
 			23
 		}
 	},
+	[1850001] = {
+		map = 1850001,
+		name = "喚醒蒼紅之炎·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-amagi-cv",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1850001",
+		ani_controller = "",
+		default_background = "bg_story_tower",
+		on_activity = 5562,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1850001",
+		destory_icon_suffix = "blue",
+		default_bgm = "bsm-2",
+		uifx = "",
+		bind_map = 1850011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1850001,
+				1850021
+			},
+			{
+				1850002,
+				1850022
+			},
+			{
+				1850003,
+				1850023
+			}
+		},
+		story_id = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67
+		}
+	},
+	[1850002] = {
+		map = 1850002,
+		name = "喚醒蒼紅之炎·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-nailuo-theme",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1850002",
+		ani_controller = "",
+		default_background = "bg_story_tower",
+		on_activity = 5562,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1850002",
+		destory_icon_suffix = "blue",
+		default_bgm = "bsm-2",
+		uifx = "",
+		bind_map = 1850012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1850004,
+				1850024
+			},
+			{
+				1850005,
+				1850025
+			},
+			{
+				1850006,
+				1850026
+			}
+		},
+		story_id = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67
+		}
+	},
+	[1850011] = {
+		map = 1850011,
+		name = "喚醒蒼紅之炎·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-amagi-cv",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1850001",
+		ani_controller = "",
+		default_background = "bg_story_tower",
+		on_activity = 5562,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1850001",
+		destory_icon_suffix = "blue",
+		default_bgm = "bsm-2",
+		uifx = "",
+		bind_map = 1850001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1850001,
+				1850021
+			},
+			{
+				1850002,
+				1850022
+			},
+			{
+				1850003,
+				1850023
+			}
+		},
+		story_id = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67
+		}
+	},
+	[1850012] = {
+		map = 1850012,
+		name = "喚醒蒼紅之炎·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-nailuo-theme",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1850002",
+		ani_controller = "",
+		default_background = "bg_story_tower",
+		on_activity = 5562,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1850002",
+		destory_icon_suffix = "blue",
+		default_bgm = "bsm-2",
+		uifx = "",
+		bind_map = 1850002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1850004,
+				1850024
+			},
+			{
+				1850005,
+				1850025
+			},
+			{
+				1850006,
+				1850026
+			}
+		},
+		story_id = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67
+		}
+	},
+	[1850025] = {
+		map = 1850025,
+		name = "喚醒蒼紅之炎·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-arbitrator-tower",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1850003",
+		ani_controller = "",
+		default_background = "bg_story_tower",
+		on_activity = 5562,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1850003",
+		destory_icon_suffix = "blue",
+		default_bgm = "bsm-2",
+		uifx = "",
+		bind_map = 1850012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1850041
+			}
+		},
+		story_id = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67
+		}
+	},
+	[1850026] = {
+		map = 1850026,
+		name = "喚醒蒼紅之炎·EX|| ||CHAPTER EX||E.X.",
+		bgm = "theme-akagi-meta",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1850004",
+		ani_controller = "",
+		default_background = "bg_story_tower",
+		on_activity = 5562,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1850004",
+		destory_icon_suffix = "blue",
+		default_bgm = "bsm-2",
+		uifx = "",
+		bind_map = 1850012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1850051,
+				1850052
+			}
+		},
+		story_id = {
+			31,
+			32,
+			33,
+			34,
+			35,
+			36,
+			37,
+			38,
+			39,
+			40,
+			41,
+			42,
+			43,
+			44,
+			45,
+			46,
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54,
+			55,
+			56,
+			57,
+			58,
+			59,
+			60,
+			61,
+			62,
+			63,
+			64,
+			65,
+			66,
+			67
+		}
+	},
 	[1860001] = {
 		map = 1860001,
 		name = "颶風與沉眠之海·上篇|| ||CHAPTER EX||EX",
@@ -22841,7 +23436,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[2200100] = {
 		map = 2200100,
-		name = "峽灣間的反擊|| ||CHAPTER SP||SP",
+		name = "峽灣間的反擊|| ||CHAPTER SP||S.P.",
 		bgm = "level02",
 		type = 3,
 		anchor = "",

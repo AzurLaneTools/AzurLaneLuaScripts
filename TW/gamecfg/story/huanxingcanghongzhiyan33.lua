@@ -21,7 +21,7 @@ return {
 			bgm = "story-startravel",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一处广袤无垠的空间中，悬浮着一个精巧的庭院。",
+			say = "一處廣袤無垠的空間中，懸浮著一個精巧的庭院。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
@@ -66,7 +66,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "诸位，准备执行备用计划F。",
+			say = "諸位，準備執行備用計劃F。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			actor = 900390,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……？怎么回事，出什么问题了么？",
+			say = "……？怎麼回事，出什麼問題了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "帕克菲克洋联合舰队的防线已经岌岌可危。考虑到实验场β的安危，指挥官刚刚已经下令关闭了奇异点「奈落」。",
+			say = "太平洋聯合艦隊的防線已經岌岌可危。考慮到實驗場β的安危，指揮官剛剛已經下令關閉了奇異點「奈落」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "现在指挥官必须从另一条路回来了。",
+			say = "現在指揮官必須從另一條路回來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……走NA海域中的那个永久奇异点？",
+			say = "……走NA海域中的那個永久奇異點？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 9705030,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "嗯。海伦娜已经发来了重新规划后的路线，我们需要立刻前去支援。",
+			say = "嗯。海倫娜已經發來了重新規劃後的路線，我們需要立刻前去支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 900390,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……在奈落中绕路实在是太危险了。",
+			say = "……在奈落中繞路實在太危險了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 900390,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "那种怕什么来什么的地方，天知道一路上会遇到什么东西……我们快出发吧！",
+			say = "那種怕什麼來什麼的地方，天知道一路上會遇到什麼東西……我們快出發吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "等等，这次我也去。",
+			say = "等等，這次我也去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 900390,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……约克城？可是，你不是还不能和指挥官见面么？",
+			say = "……約克鎮？可是，妳不是還不能跟指揮官見面嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -219,22 +219,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "我隐藏在远方就好。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_port_chongdong",
-			paintingNoise = true,
-			dir = 1,
-			actor = 900316,
-			nameColor = "#C3ABFF",
-			hidePaintObj = true,
-			say = "奈落之中蕴含的危险，纵使是海伦娜……也不可能全部算出。",
+			say = "我隱藏在遠方就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +234,7 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……我必须要去。",
+			say = "奈落之中蘊含的危險，縱使是海倫娜……也不可能全部算出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +249,22 @@ return {
 			actor = 900316,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "好了，这件事就这么定了，我们一同出发吧。",
+			say = "……我必須要去。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_port_chongdong",
+			paintingNoise = true,
+			dir = 1,
+			actor = 900316,
+			nameColor = "#C3ABFF",
+			hidePaintObj = true,
+			say = "好了，這件事就這麼定了，我們一同出發吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

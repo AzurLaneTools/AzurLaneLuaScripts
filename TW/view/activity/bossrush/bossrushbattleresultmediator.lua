@@ -163,17 +163,18 @@ slot0.handleNotification = function(slot0, slot1)
 end
 
 slot0.ShowTotalAward = function(slot0, slot1)
-	slot3, slot4 = getProxy(ActivityProxy):GetContinuousTime()
+	slot2, slot3 = getProxy(ContextProxy):getContextByMediator(BossRushKurskMediator)
+	slot4, slot5 = getProxy(ActivityProxy):GetContinuousTime()
 
-	getProxy(ContextProxy):GetPrevContext(1):addChild(Context.New({
+	slot3:addChild(Context.New({
 		mediator = BossRushTotalRewardPanelMediator,
 		viewComponent = BossRushTotalRewardPanel,
 		data = {
 			isLayer = true,
 			rewards = slot1,
 			isAutoFight = slot0.contextData.isAutoFight,
-			totalBattleTimes = slot4,
-			continuousBattleTimes = slot3
+			totalBattleTimes = slot5,
+			continuousBattleTimes = slot4
 		}
 	}))
 	slot0:sendNotification(GAME.GO_BACK)

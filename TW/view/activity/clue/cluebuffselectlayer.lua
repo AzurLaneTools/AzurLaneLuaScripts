@@ -9,6 +9,13 @@ slot0.getUIName = function(slot0)
 	return "ClueBuffSelectUI"
 end
 
+slot0.preloadUIList = function(slot0)
+	return {
+		slot0:getUIName(),
+		"BossSingleFleetSelectView"
+	}
+end
+
 slot0.init = function(slot0)
 	slot0.closeBtn = slot0:findTF("Top/BackBtn")
 

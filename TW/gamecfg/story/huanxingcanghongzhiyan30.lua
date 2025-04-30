@@ -9,7 +9,7 @@ return {
 			bgm = "battle-eagleunion",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "NA海域·核心区域周边海域",
+			say = "NA海域·核心區域週邊海域",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "阴云阵阵，波涛汹涌，在炮火轰鸣声中，天与地之间的距离都仿佛被拉近了不少。",
+			say = "陰雲陣陣，波濤洶湧，在炮火轟鳴聲中，天與地之間的距離都彷彿被拉近了不少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "随着时间推移，在奇异点「奈落」强度逐渐提高的同时，NA海域中心舰队承受的压力也在逐步提升。",
+			say = "隨著時間推移，在奇異點「奈落」強度逐漸提高的同時，NA海域中心艦隊承受的壓力也逐漸提升。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			actor = 107140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已经开始有成批次的敌人涌出来了，看来塞壬的仲裁机关也分身乏术啊。",
+			say = "已經開始有成批次的敵人湧出來了，看來塞壬的仲裁機關也分身乏術啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			actor = 107380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，真是来得早不如来得巧，它们这次也算做了件好事，给我们减轻了不少压力。",
+			say = "呵呵，真是來得早不如來得巧，它們這次也算做了好事，給我們減輕了不少壓力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "对比这些敌人的数据和NY司令部同步的情报。",
+			say = "比較這些敵人的數據和NY司令部同步的情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我可以确认，我们遭遇到的敌人与此刻从奇异点奈落之中涌出的敌人相同。",
+			say = "我可以確認，我們遭遇到的敵人與此刻從奇異點奈落之中湧出的敵人相同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "看来真的是相连的啊……也不知道具体是什么原理。",
+			say = "看來真的是相連的啊……也不知道具體是什麼原理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位，警戒级别提升。",
+			say = "諸位，警戒級別提升。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我已经开始调整西方防御带的部署。各舰队请按照预定计划行动。",
+			say = "我已經開始調整西方防禦帶的部署。各艦隊請依預定計畫行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 205050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请放心。以女王陛下的名义起誓，北方防御带绝不会放出任何一个敌人。",
+			say = "請放心。以女王陛下的名義起誓，北方防禦帶絕不會放出任何一個敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "东方和南方也完全无需担心！",
+			say = "東方和南方也完全不需要擔心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们撒丁帝国会与铁血和鸢尾舰队协同合作，保证防线固若金汤！",
+			say = "我們薩丁帝國會與鐵血和鳶尾艦隊協同合作，保證防線固若金湯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			actor = 405020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "铁血，会全力配合本次作战。",
+			say = "鐵血，會全力配合本次作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次你们撒丁帝国倒确实是倾巢……全面动员。",
+			say = "這次妳們薩丁帝國倒確實是傾巢……全面動員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就让我先看看你们的指挥水平好了。",
+			say = "就讓我先看看妳們的指揮水準好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心吧~我方已经做好了万全准备，绝不会让诸位盟友失望的！",
+			say = "放心吧~我方已經做好了萬全準備，絕不會讓各位盟友失望的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			actor = 905010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过——如果出现指挥失误导致战局恶化的情况，鸢尾将会自主行动。",
+			say = "不過——如果出現指揮失誤導致戰局惡化的情況，鳶尾將會自主行動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 405020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "铁血亦然。本次，不惜代价，也要完成我们的围困任务。",
+			say = "鐵血亦然。本次，不惜代價，也要完成我們的圍困任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 605020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是自然，那是自然！我们是一起战斗的盟友，本就应该商量着来嘛~",
+			say = "那是自然，那是自然！我們是一起戰鬥的盟友，本來就該商量著來嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			actor = 399050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳咳……那要不现在就商量一下？也给我们预备队留点登场机会嘛~",
+			say = "咳咳……那要不現在就商量一下？也給我們預備隊留點登場機會嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 301290,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:18:岛风}已经准备好进行急速支援了！",
+			say = "島風已經準備好進行急速支援了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			actor = 105170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈哈，放心，绝对不会忘了你们的！",
+			say = "哈哈，放心，絕對不會忘了妳們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			actor = 107140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么了{namecode:94:飞龙}女士，刚才的部署有什么不当的地方么？",
+			say = "怎麼了飛龍女士，剛才的部署有什麼不當的地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 9707010,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "识别徽记有反应……余烬的支援到了！",
+			say = "辨識徽記有反應……餘燼的支援到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -1740,6 +1740,16 @@ pg.player_resource = {
 		name = "xiaokewei_pt_2",
 		itemid = 65590
 	},
+	[488] = {
+		id = 488,
+		name = "jidifengbao_pt2",
+		itemid = 65090
+	},
+	[489] = {
+		id = 489,
+		name = "skinTicket91",
+		itemid = 65089
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3315,6 +3325,12 @@ pg.player_resource = {
 		xiaokewei_pt_2 = {
 			487
 		},
+		jidifengbao_pt2 = {
+			488
+		},
+		skinTicket91 = {
+			489
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3983,6 +3999,8 @@ pg.player_resource = {
 		485,
 		486,
 		487,
+		488,
+		489,
 		950,
 		951,
 		952,

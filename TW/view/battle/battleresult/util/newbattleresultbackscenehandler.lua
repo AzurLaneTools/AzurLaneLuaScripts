@@ -132,12 +132,16 @@ slot0.ExitWorldSystem = function(slot0, slot1)
 end
 
 slot0.ResultRushBossSystem = function(slot0, slot1)
-	if getProxy(ContextProxy):GetPrevContext(1):getContextByMediator(BossRushPreCombatMediator) then
-		slot3:removeChild(slot4)
+	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(BossRushPreCombatMediator)
+
+	if slot3 then
+		slot4:removeChild(slot3)
 	end
 
-	if slot3:getContextByMediator(BossRushFleetSelectMediator) then
-		slot3:removeChild(slot5)
+	slot5, slot6 = slot2:getContextByMediator(BossRushFleetSelectMediator)
+
+	if slot5 then
+		slot6:removeChild(slot5)
 	end
 
 	if not (ys.Battle.BattleConst.BattleScore.C < slot1.score) and slot1.system == SYSTEM_BOSS_RUSH_EX then

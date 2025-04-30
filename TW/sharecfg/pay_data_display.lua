@@ -23,6 +23,7 @@ pg.pay_data_display = setmetatable({
 		64,
 		65,
 		67,
+		73,
 		86,
 		87,
 		2021,
@@ -34,6 +35,9 @@ pg.pay_data_display = setmetatable({
 		2028,
 		2029,
 		2030,
+		2032,
+		2033,
+		2034,
 		2040,
 		5001,
 		5002,
@@ -1967,6 +1971,120 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[73] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "夢幻樂園換裝禮盒",
+		first_pay_double = 0,
+		name_display = "夢幻樂園換裝禮盒",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "夢幻樂園換裝禮盒",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 3,
+		picture = "fudai15_tw",
+		skin_inquire_relation = 86206,
+		id_str = "com.hkmanjuu.azurlane.libao136",
+		extra_service = 3,
+		id = 73,
+		airijp_id = "com.yostarjp.azurlane.diamond161",
+		extra_service_item = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86206,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81206,
+				1
+			}
+		}
+	},
 	[86] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -2801,6 +2919,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40046,
+				1
+			}
+		}
+	},
+	[2032] = {
+		extra_gem = 0,
+		limit_group = 101,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "夢幻霓虹主題禮包",
+		first_pay_double = 0,
+		name_display = "夢幻霓虹主題禮包",
+		descrip = "可獲得戰鬥介面主題 夢幻霓虹*1",
+		subject = "夢幻霓虹主題禮包",
+		money = 390,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui",
+		extra_service = 3,
+		id = 2032,
+		airijp_id = "com.yostarjp.azurlane.ui",
+		extra_service_item = {
+			{
+				31,
+				103,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				103,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2033] = {
+		extra_gem = 0,
+		limit_group = 101,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "夢幻霓虹主題禮包（基礎版）",
+		first_pay_double = 0,
+		name_display = "夢幻霓虹主題禮包（基礎版）",
+		descrip = "可獲得戰鬥介面主題 夢幻霓虹*1",
+		subject = "夢幻霓虹主題禮包（基礎版）",
+		money = 390,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui1",
+		extra_service = 3,
+		id = 2033,
+		airijp_id = "com.yostarjp.azurlane.ui1",
+		extra_service_item = {
+			{
+				31,
+				103,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				103,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40048,
+				1
+			}
+		}
+	},
+	[2034] = {
+		extra_gem = 0,
+		limit_group = 101,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "夢幻霓虹主題禮包（豪華版）",
+		first_pay_double = 0,
+		name_display = "夢幻霓虹主題禮包（豪華版）",
+		descrip = "可獲得戰鬥介面主題 夢幻霓虹*1,3060鑽石",
+		subject = "夢幻霓虹主題禮包（豪華版）",
+		money = 1320,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui2",
+		extra_service = 3,
+		id = 2034,
+		airijp_id = "com.yostarjp.azurlane.ui2",
+		extra_service_item = {
+			{
+				31,
+				103,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					4,
+					30
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					21
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				103,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40049,
 				1
 			}
 		}

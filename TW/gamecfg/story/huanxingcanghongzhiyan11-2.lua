@@ -9,7 +9,7 @@ return {
 			bgm = "battle-againstfate",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "穿越一片厚重的烟尘，周围的环境陡然变化，仿佛进入了一个全新的世界中。",
+			say = "穿越一片厚重的煙塵，周圍的環境陡然變化，彷彿進入了一個全新的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -39,7 +39,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "阴云，雷雨，还有燃烧的海面……作为幻境来说相当逼真。",
+			say = "陰雲，雷雨，還有燃燒的海面……作為幻境來說相當逼真。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "难道幻境也是这个怪异世界的组成部分么……",
+			say = "難道幻境也是這個怪異世界的組成部分麼…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "抬头望去，此前只能听到声音的舰载机群，如今清晰可见。",
+			say = "抬頭望去，此前只能聽到聲音的艦載機群，如今清晰可見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "而舰载机群锁定的目标，是一只翱翔于天空中的巨鸟。",
+			say = "而艦載機群鎖定的目標，是一隻翱翔於天空的巨鳥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "攻击没有起到效果，舰载机群在巨鸟的反击中顷刻消失了。",
+			say = "攻擊沒有效果，艦載機群在巨鳥的反擊中頃刻消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "可惜了……这只巨鸟和一路之上遇到敌人外观相似，但是战斗力却截然不同。",
+			say = "可惜了……這隻巨鳥和一路之上遇到敵人外觀相似，但是戰鬥力卻截然不同。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "这些怪物究竟是什么来路呢……",
+			say = "這些怪物究竟是什麼來路呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "战斗的声音已经停止了。",
+			say = "戰鬥的聲音已經停止了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "刚才的舰载机似乎是最后一轮徒劳的攻势，海域中残骸遍地，战斗的结果已经显而易见。",
+			say = "剛才的艦載機似乎是最後一輪徒勞的攻勢，海域中殘骸遍地，戰鬥的結果已經顯而易見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			actor = 301790,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还……没有结束。",
+			say = "還……沒有結束。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			actor = 301790,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尔等的力量之源……我已经十分清楚了。",
+			say = "爾等的力量之源……我已經十分清楚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 301790,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就算这个世界已经万劫不复……我也要把你们一同拖入地狱之中！",
+			say = "就算這個世界已經萬劫不復……我也要把你們一同拖入地獄之中！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "{namecode:140:旗风}……？",
+			say = "旗風……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 9704050,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……不行，她的伤好严重，再打下去会没命的！",
+			say = "……不行，她的傷好嚴重，再打下去會沒命的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -348,7 +348,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "在仔细权衡自己当前的处境和敌人的危险性之前，身体先于大脑而行。",
+			say = "在仔細衡量自己當前的處境和敵人的危險性之前，身體先於大腦而行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			bgName = "bg_zhuiluo_2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_zhuiluo_2",
 			hidePaintObj = true,
-			say = "伴随着炮击声，少女的身影切入了战场——",
+			say = "伴隨著炮擊聲，少女的身影切入了戰場——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

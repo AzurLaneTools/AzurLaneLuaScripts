@@ -981,7 +981,12 @@ temp = function()
 		},
 		["里"] = {
 			["蘭"] = {
-				this = true
+				this = true,
+				["·"] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		},
 		["德"] = {
@@ -1704,7 +1709,18 @@ temp = function()
 			}
 		},
 		["叡"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -2443,7 +2459,18 @@ temp = function()
 			this = true
 		},
 		["門"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		},
 		["春"] = {
 			this = true,
@@ -3913,6 +3940,9 @@ temp = function()
 	uv0["綾"] = {
 		["波"] = {
 			this = true
+		},
+		["瀨"] = {
+			this = true
 		}
 	}
 end
@@ -4414,6 +4444,9 @@ temp()
 temp = function()
 	uv0["涼"] = {
 		["月"] = {
+			this = true
+		},
+		["波"] = {
 			this = true
 		}
 	}
@@ -6738,6 +6771,18 @@ temp = function()
 				["夫"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["渡"] = {
+		["良"] = {
+			["瀨"] = {
+				this = true
 			}
 		}
 	}

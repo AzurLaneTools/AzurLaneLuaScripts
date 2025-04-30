@@ -340,7 +340,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 435
+		key_value = 431
 	},
 	activity_lottery_rewards = {
 		key_value = 0,
@@ -348,24 +348,24 @@ pg.gameset = {
 			{
 				3,
 				{
-					1,
-					1,
-					5000
+					15,
+					104,
+					1
 				}
 			},
 			{
 				6,
 				{
-					1,
-					2,
-					2500
+					14,
+					105,
+					1
 				}
 			},
 			{
 				9,
 				{
-					4,
-					100011,
+					2,
+					59840,
 					1
 				}
 			}
@@ -1953,7 +1953,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 436
+		key_value = 432
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2783,7 +2783,7 @@ pg.gameset = {
 	},
 	series_enemy_story_Pttrigger = {
 		description = "",
-		key_value = 304
+		key_value = 489
 	},
 	series_enemy_multiple_limit = {
 		description = "",

@@ -12,7 +12,7 @@ return {
 			bgm = "theme-amagi-cv",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一段时间后，{namecode:161:天城}不但平安归来，身后还多跟着一个人。",
+			say = "一段時間後，天城不但平安歸來，身後還多跟著一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "事情都解决了？",
+			say = "事情都解決了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "顺利解决，多谢{playername}阁下留出的时间与空间。",
+			say = "順利解決，多謝$1閣下留出的時間與空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不客气，不过，接下来我们没有多少时间可以浪费了。",
+			say = "不客氣，不過，接下來我們沒有太多時間可以浪費了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "一切全凭阁下安排。",
+			say = "一切全憑閣下安排。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 306070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}大人，这到底是怎么回事！",
+			say = "天城大人，這到底是怎麼回事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "她，就是我的妹妹，你们所认识的{namecode:91:赤城}。",
+			say = "她，就是我的妹妹，你們所認識的赤城。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "那个形如{namecode:91:赤城}之物，终究只是被创造出来的幻影，无法长期存在。",
+			say = "那個形如赤城之物，終究只是被創造出來的幻影，無法長期存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,7 +173,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "于是她选择抓走了{namecode:91:赤城}，并在即将消失前附着在了她的身上。",
+			say = "於是她選擇抓走了赤城，並在即將消失前附著在了她的身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "之后的事，诸位就都知道了。",
+			say = "之後的事，諸位就知道了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "经过刚才的战斗后，其残留的最后力量耗尽，{namecode:91:赤城}原本的意识因此而得以苏醒。",
+			say = "經過剛才的戰鬥後，其殘留的最後力量耗盡，赤城原本的意識因此而得以甦醒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……抱歉，给诸位添麻烦了。",
+			say = "……抱歉，給各位添麻煩了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "原来是虚惊一场……没关系没关系！前辈没事就好！",
+			say = "原來是虛驚一場……沒關係沒關係！前輩沒事就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 306070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……{namecode:91:赤城}前辈，您平安回来就好！",
+			say = "嗯……赤城前輩，您平安回來就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "果然是……净化之炎！",
+			say = "果然是……淨化之炎！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（不，{namecode:182:信浓}，这个真不是……！）",
+			say = "（不，信濃，這個真不是……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -279,7 +279,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "呵呵，{namecode:182:信浓}阁下这样的性格也是十分有趣呢。稍后我去解释下吧~",
+			say = "呵呵，信濃閣下這樣的個性也是十分有趣呢。稍後我去解釋吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "对了，{playername}阁下，刚才我在“净化”{namecode:91:赤城}·META的过程中，有了些意外发现。",
+			say = "對了，$1閣下，剛才我在「淨化」赤城·META的過程中，有了些意外發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
-			say = "{namecode:161:天城}轻轻挥手，从衣袖之中飘出了两个光团。",
+			say = "天城輕輕揮手，從衣袖之中飄出了兩個光團。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -328,7 +328,7 @@ return {
 			bgName = "bg_canghongzhiyan_6",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个是……",
+			say = "這個是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（{namecode:161:天城}和{namecode:92:加贺}的灵魂数据……或许正好是她们所缺失的部分。）",
+			say = "（天城和加賀的靈魂情報……或許正好是她們所缺少的部分。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（……怪不得选择进攻的是测试者的主机。）",
+			say = "（……怪不得選擇進攻的是測試者的主機。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（你先收下来，我在处理完返航的安排之后，抽空处理。）",
+			say = "（你先收下來，我在處理完返航的安排之後，抽空處理。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -392,7 +392,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（……没想到真的会有奇迹发生。）",
+			say = "（……沒想到真的會有奇蹟發生。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（返航安排还顺利么？）",
+			say = "（返航安排還順利嗎？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "（不用担心，十分钟后出发。）",
+			say = "（不用擔心，十分鐘後出發。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			paintingNoise = true,
-			say = "（——很好，任务顺利完成，许可返航！）",
+			say = "（——很好，任務順利完成，許可證返航！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

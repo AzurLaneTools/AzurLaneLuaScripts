@@ -10,7 +10,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"奇异点「奈落」",
+					"奇異點「奈落」",
 					1
 				},
 				{
@@ -18,7 +18,7 @@ return {
 					2
 				},
 				{
-					"伪物追击舰队",
+					"偽物追擊艦隊",
 					3
 				}
 			}
@@ -29,7 +29,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			bgm = "story-nailuo-theme",
-			say = "举目远眺，世界已然陷入滚滚烟尘之中。",
+			say = "舉目遠眺，世界已然陷入滾滾煙塵之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这就是奇异点奈落之中的风景……么。",
+			say = "這就是奇異點奈落之中的風景……嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "嗯。我们没有创造任何缓冲区，而是直接进入了奈落最原始的部分。",
+			say = "嗯。我們沒有創造任何緩衝區，而是直接進入了奈落最原始的部分。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "{namecode:74:长门}大人，有感到任何不适么？",
+			say = "長門大人，有感到任何不適嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不适，倒是没有……不过余有种奇妙的感觉，周围的滚滚烟尘，似乎同余存在某种感应。",
+			say = "不適，倒是沒有……不過余有種奇妙的感覺，周圍的滾滾煙塵，似乎同余存在某種感應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "唔……这里本质上也是神石网络的拓展，您拥有神石网络的操控权限，有些感应是正常的。",
+			say = "嗯……這裡本質上也是神石網路的拓展，您擁有神石網路的操控權限，有些感應是正常的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "现在，请您顺应这种感应，试着寻找一下我们的目标吧。",
+			say = "現在，請您順應這種感應，試著尋找我們的目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}凝聚心神，放任自己的感知向着烟尘的深处飘去。",
+			say = "長門凝聚心神，放任自己的感知向著煙塵的深處飄去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "恍然间，{namecode:74:长门}眼中的世界发生了变化，",
+			say = "恍然間，長門眼中的世界發生了變化，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此处是……奈落的深处？",
+			say = "這裡是……奈落的深處？",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -197,7 +197,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……此处为{namecode:91:赤城}所进行仪式的场地。",
+			say = "……此處為赤城所進行儀式的場地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……此处莫非是，世界切片中的景色？",
+			say = "……此處莫非是，世界切片中的景色？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此处……宛如梦境一般。",
+			say = "此處……宛如夢境一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此处为……一处战场？",
+			say = "此處為……一處戰場？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -321,7 +321,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此处为……虚无？",
+			say = "此處為……虛無？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "此处为……何处？",
+			say = "此處為……何處？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			},
 			sequence = {
 				{
-					"「力量对汝来说是必需品。」",
+					"「力量對汝來說是必需品。」",
 					2
 				},
 				{
@@ -452,7 +452,7 @@ return {
 			bgm = "theme-nagato-meta",
 			actor = 9705060,
 			nameColor = "#FFC960",
-			say = "诸位，余已经成功找到伪物的位置了。",
+			say = "諸位，余已經成功找到偽物的位置了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 9705060,
-			say = "……嗯？汝等何故用这种眼神看着余？",
+			say = "……嗯？汝等何故用這種眼神看著余？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "{namecode:74:长门}大人，您看身边……",
+			say = "長門大人，您看身邊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "……呵呵，虽然余并未使用力量。不过余的力量，似乎有些自己的想法。",
+			say = "……呵呵，雖然余並未使用力量。不過余的力量，似乎有些自己的想法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "可否让我检查一下您现在的身体状况……",
+			say = "可否讓我檢查一下您現在的身體狀況……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = false,
-			say = "余身上并无不适，汝若不放心的话，便来查吧。",
+			say = "余身上並無不適，汝若不放心的話，便來查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,7 +549,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "一团蓝色的火焰轻轻飘向{namecode:74:长门}的额头，而后无声消散了。",
+			say = "一團藍色的火焰輕輕飄向長門的額頭，而後無聲消散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#C3ABFF",
-			say = "……您身上的META化侵蚀依然十分稳定，而且没有任何程度的加重。",
+			say = "……您身上的META化侵蝕依然十分穩定，而且確實任何加重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			actor = 9701060,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "{namecode:39:神通}，你见过这种情况么？",
+			say = "神通，妳看過這種情況嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			actor = 9702050,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "……既然没有异常的话，适度使用力量也并非不可。",
+			say = "……既然沒有異常的話，適度使用力量也並非不可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			actor = 9702050,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "一会随机应变，量力而行。",
+			say = "待會隨機應變，量力而行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -617,7 +617,7 @@ return {
 			hidePaintObj = false,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "自然。走吧，吾等还有正事要做呢。",
+			say = "自然。走吧，吾等還有正事要做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -631,7 +631,7 @@ return {
 			actor = 9702050,
 			nameColor = "#C3ABFF",
 			hidePaintObj = true,
-			say = "（……这种体质，真是决战兵器的完美核心啊。）",
+			say = "（……這種體質，真是決戰兵器的完美核心啊。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

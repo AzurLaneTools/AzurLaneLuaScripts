@@ -150,6 +150,7 @@ pg.furniture_data_template = setmetatable({
 			283,
 			284,
 			285,
+			287,
 			288,
 			289,
 			290,
@@ -198,6 +199,7 @@ pg.furniture_data_template = setmetatable({
 			100043,
 			100044,
 			100045,
+			100046,
 			100055,
 			200001,
 			200002,
@@ -5228,6 +5230,7 @@ pg.furniture_data_template = setmetatable({
 			100043,
 			100044,
 			100045,
+			100046,
 			100055,
 			54104,
 			54105
@@ -5285,6 +5288,7 @@ pg.furniture_data_template = setmetatable({
 			278,
 			283,
 			284,
+			287,
 			289,
 			292
 		},
@@ -6230,6 +6234,7 @@ pg.furniture_data_template = setmetatable({
 			283,
 			284,
 			285,
+			287,
 			288,
 			289,
 			290,
@@ -6266,6 +6271,7 @@ pg.furniture_data_template = setmetatable({
 			100043,
 			100044,
 			100045,
+			100046,
 			100055
 		},
 		[2] = {
@@ -9074,6 +9080,7 @@ pg.furniture_data_template = setmetatable({
 		283,
 		284,
 		285,
+		287,
 		288,
 		289,
 		290,
@@ -9122,6 +9129,7 @@ pg.furniture_data_template = setmetatable({
 		100043,
 		100044,
 		100045,
+		100046,
 		100055,
 		200001,
 		200002,
@@ -19182,6 +19190,49 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[287] = {
+		can_rotate = 0,
+		describe = "「昔人已去，空留此景。心有追憶，奈落化形。」——「喚醒蒼紅之炎」活動紀念",
+		gain_by = "喚醒蒼紅之炎",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "奈落一瞬",
+		advice = 0,
+		id = 287,
+		icon = "fukongdaoxunzhangicon",
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"fukongdaoxunzhang",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
 	[288] = {
 		can_rotate = 0,
 		describe = "又到了值得紀念的節日，在點綴著桂花的舞台上，來一場與月亮的共舞吧~",
@@ -22554,6 +22605,76 @@ pg.base.furniture_data_template = {
 					"action1"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100046] = {
+		can_rotate = 1,
+		describe = "兔年大運~~pion pion~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "biantuicon",
+		count = 1,
+		name = "變身裝置·卯兔",
+		advice = 0,
+		id = 100046,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			5,
+			10
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"biantuB",
+				"normal"
+			},
+			{
+				"biantuT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

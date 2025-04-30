@@ -11,10 +11,10 @@ return {
 			nameColor = "#FF9B93",
 			bgName = "bg_canghongzhiyan_4",
 			bgm = "story-amagi-up",
-			actorName = "响亮的嚎叫声",
+			actorName = "響亮的嚎叫聲",
 			shakeTime = 3,
 			hidePaintObj = true,
-			say = "嗷呜——————",
+			say = "嗷嗚——————",
 			flashout = {
 				dur = 1,
 				black = true,
@@ -61,10 +61,10 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			nameColor = "#FF9B93",
-			actorName = "响亮的嚎叫声",
+			actorName = "響亮的嚎叫聲",
 			shakeTime = 3,
 			hidePaintObj = true,
-			say = "嗷呜——————",
+			say = "嗷嗚——————",
 			movableNode = {
 				{
 					name = "chongying_m_boss03",
@@ -98,7 +98,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……又有敌人来阻拦了。",
+			say = "……又有敵人來阻攔了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,7 +112,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是的，一波又一波……我们赶时间啊。",
+			say = "真是的，一波又一波……我們趕時間啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（不愧是我的实验“好伙伴”{namecode:91:赤城}，在这种时候也能弄出点新花样来~）",
+			say = "（不愧是我的實驗「好夥伴」赤城，在這種時候也能弄出點新花樣來~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（她已经在一定程度上理解了奈落的运行规律，然后基于自己的想法，创造出了这两只狐狸哦~）",
+			say = "（她已經在某種程度上理解了奈落的運行規律，然後基於自己的想法，創造出了這兩隻狐狸哦~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（你是指……{namecode:91:赤城}·META？）",
+			say = "（妳是指……赤城·META？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "（你不是一般称呼人不带后缀么？我也试试咯~）",
+			say = "（你不是一般稱呼人不帶後綴嗎？我也試試咯~）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -176,7 +176,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "这两只大狐狸，好像有些神似{namecode:91:赤城}与{namecode:92:加贺}大人哦？",
+			say = "這兩隻大狐狸，好像有些神似赤城與加賀大人哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 305070,
-			say = "呃……好像确实有点，但是！这只狐狸和我绝对没有任何关系！",
+			say = "呃……好像確實有點，但是！這隻狐狸和我絕對沒有任何關係！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "{playername}阁下，我已经基本熟悉了航空母舰的战斗方式。",
+			say = "$1閣下，我已經基本熟悉了航空母艦的戰鬥方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "这场战斗，可否由我作为先锋出战呢？",
+			say = "這場戰鬥，可否由我作為先鋒出戰呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "自然没问题，还请尽情发挥。",
+			say = "自然沒問題，還請盡情發揮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,10 +250,10 @@ return {
 			side = 2,
 			bgName = "bg_canghongzhiyan_4",
 			nameColor = "#FF9B93",
-			actorName = "响亮的嚎叫声",
+			actorName = "響亮的嚎叫聲",
 			shakeTime = 3,
 			hidePaintObj = true,
-			say = "嗷呜——————",
+			say = "嗷嗚——————",
 			movableNode = {
 				{
 					name = "chongying_m_boss03",
@@ -285,7 +285,7 @@ return {
 			bgName = "bg_canghongzhiyan_4",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么，起飞吧——",
+			say = "那麼，起飛吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
