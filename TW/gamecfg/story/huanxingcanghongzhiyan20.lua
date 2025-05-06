@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……$1閣下。你說，逆轉命運之事——是好，還是壞呢？",
+			say = "……{playername}閣下。你說，逆轉命運之事——是好，還是壞呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

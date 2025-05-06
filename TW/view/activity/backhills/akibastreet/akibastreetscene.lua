@@ -175,7 +175,7 @@ slot0.didEnter = function(slot0)
 	end
 
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "jiejiting", function ()
-		pg.m02:sendNotification(GAME.GO_MINI_GAME, 14)
+		pg.m02:sendNotification(GAME.GO_MINI_GAME, 30)
 	end)
 	slot0:InitFacilityCross(slot0._map, slot0._upper, "shujvhuigu", function ()
 		uv0:emit(ThirdAnniversarySquareMediator.GO_SCENE, SCENE.SUMMARY)

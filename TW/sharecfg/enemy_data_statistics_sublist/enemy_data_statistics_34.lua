@@ -2183,7 +2183,7 @@ pg.enemy_data_statistics_34 = {
 	},
 	[90989] = {
 		cannon = 0,
-		name = "凰·META",
+		name = "赤城·META",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,

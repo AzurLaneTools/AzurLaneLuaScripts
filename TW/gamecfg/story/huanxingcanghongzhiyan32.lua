@@ -228,7 +228,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本次……多謝你了，$1閣下。",
+			say = "本次……多謝你了，{playername}閣下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就取決於$1閣下在談過之後的想法了。",
+			say = "那就取決於{playername}閣下在談過之後的想法了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

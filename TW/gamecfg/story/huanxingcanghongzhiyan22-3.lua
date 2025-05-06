@@ -124,7 +124,7 @@ return {
 			actor = 9705060,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不過余可以告訴另你一件事——復活天城之事並非不可能，$1閣下已經正在做了。",
+			say = "不過余可以告訴另你一件事——復活天城之事並非不可能，{playername}閣下已經正在做了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

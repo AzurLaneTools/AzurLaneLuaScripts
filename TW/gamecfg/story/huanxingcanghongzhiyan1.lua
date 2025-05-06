@@ -385,7 +385,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "而且，妳真的不明白我為什麼帶$1來作為這場會談的見證者嗎？",
+			say = "而且，妳真的不明白我為什麼帶{playername}來作為這場會談的見證者嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

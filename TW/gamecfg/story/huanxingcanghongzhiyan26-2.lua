@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "這次，我想先聽聽$1閣下的意見。",
+			say = "這次，我想先聽聽{playername}閣下的意見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

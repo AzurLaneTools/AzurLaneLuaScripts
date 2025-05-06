@@ -304,7 +304,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（$1閣下……真是個信守承諾，又能帶來奇蹟的人……）",
+			say = "（{playername}閣下……真是個信守承諾，又能帶來奇蹟的人……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

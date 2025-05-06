@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "順利解決，多謝$1閣下留出的時間與空間。",
+			say = "順利解決，多謝{playername}閣下留出的時間與空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -292,7 +292,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "對了，$1閣下，剛才我在「淨化」赤城·META的過程中，有了些意外發現。",
+			say = "對了，{playername}閣下，剛才我在「淨化」赤城·META的過程中，有了些意外發現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

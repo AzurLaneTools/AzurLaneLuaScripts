@@ -1469,7 +1469,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "無妨。$1，你儘管放手去做自己想做的事。其他的事，我來處理。",
+			say = "無妨。{playername}，你儘管放手去做自己想做的事。其他的事，我來處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

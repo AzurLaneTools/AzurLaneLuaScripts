@@ -215,7 +215,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 307150,
-			say = "$1閣下，我已經基本熟悉了航空母艦的戰鬥方式。",
+			say = "{playername}閣下，我已經基本熟悉了航空母艦的戰鬥方式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "$1閣下，在你提出的計畫中，我有幾點疑惑，需要先得到解答。",
+			say = "{playername}閣下，在你提出的計畫中，我有幾點疑惑，需要先得到解答。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1313,7 +1313,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "$1閣下，我們當真是第一次見面嗎？",
+			say = "{playername}閣下，我們當真是第一次見面嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1474,7 +1474,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，看來我們愉快地達成了一致呢。那麼$1閣下——",
+			say = "呵呵，看來我們愉快地達成了一致呢。那麼{playername}閣下——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1804,7 +1804,7 @@ return {
 			actor = 304050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯。$1閣下呢，您怎麼看？",
+			say = "嗯。{playername}閣下呢，您怎麼看？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
