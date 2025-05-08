@@ -2506,6 +2506,27 @@ pg.medal_template = {
 		explain1 = "「병원 탐방」",
 		explain2 = "이벤트"
 	},
+	[200041] = {
+		target_id = "5913",
+		name = "튤리퍼 출항 기념장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "튤리퍼 왕국으로부터 받은 기념장. 왕국을 지키는 전투를 기념하며…\n힘을 하나로 합치는 새로운 시대의 막이 오르려고 한다.",
+		next = 0,
+		icon = "9041",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9041",
+		condition = "「튤리퍼의 바다로」 기념 스티커 8개 수집",
+		rank = 1,
+		id = 200041,
+		explain1 = "「튤리퍼의 바다로」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2620,6 +2641,7 @@ pg.medal_template = {
 		200001,
 		200011,
 		200021,
-		200031
+		200031,
+		200041
 	}
 }

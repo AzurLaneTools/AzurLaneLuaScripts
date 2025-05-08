@@ -6766,6 +6766,11 @@ _G.pg.base.gametip.word_shipNation_tolove = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_yujinwangguo = {
+	tip = "튤리퍼"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "초기화"
 }
@@ -12410,7 +12415,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「임플래커블」 100% 획득 가능! (최대 4척까지)"
+	tip = "「에버트센」, 「드 제번 프로빈시엔」 등장 확률 UP!"
 }
 
 
@@ -36073,6 +36078,11 @@ _G.pg.base.gametip.levelscene_mapselect_sp = {
 }
 
 
+_G.pg.base.gametip.levelscene_mapselect_tp = {
+	tip = "TP"
+}
+
+
 _G.pg.base.gametip.levelscene_mapselect_ex = {
 	tip = "EX"
 }
@@ -37521,4 +37531,34 @@ _G.pg.base.gametip.dorm3d_shop_others = {
 
 _G.pg.base.gametip.dorm3d_shop_limit1 = {
 	tip = "이번 주 한정"
+}
+
+
+_G.pg.base.gametip.xiaoankeleiqi_npc = {
+	tip = {
+		{
+			info = "■ 개요\n「별들을 그리며」는 이벤트 시작 시에 임시로 가입하는 [꼬마 앵커리지]의 「호감도」를 해역에 출격함으로써 쌓아, [꼬마 앵커리지]를 정식으로 가입시키는 이벤트입니다. "
+		},
+		{
+			info = "■ 플레이 방법\n1. 이벤트 기간 중에 특정 스테이지의 보스 함대를 격퇴하면 「호감도」를 획득할 수 있습니다. 획득한 「호감도」가 일정 수치에 도달하면 「호감도 보상」을 획득할 수 있습니다."
+		},
+		{
+			info = "2. [꼬마 앵커리지]는 호감도 보상(7단계째)의 「정식 가입」을 달성하지 않으면 서약할 수 없으며, 퇴역 및 강화·한계 돌파 재료로 선택할 수 없습니다. "
+		},
+		{
+			info = "3. [꼬마 앵커리지]를 편성한 함대로 상기 스테이지의 보스 함대를 격퇴하고, 승리 시에 [꼬마 앵커리지]가 전투 가능한 상태라면 획득하는 「호감도」가 두 배가 됩니다. "
+		},
+		{
+			info = "4. 이벤트 종료 시까지 이벤트 페이지의 「호감도 보상」을 마지막까지 수령하면, [꼬마 앵커리지]를 「정식 가입」시킬 수 있습니다. (호감도 1,000 필요) 이벤트 종료 시 「정식 가입」하지 않은 [꼬마 앵커리지]는 모항에서 사라집니다. "
+		},
+		{
+			info = "5. 호감도 보상은 5/15(목)까지 매일 한 단계씩 오픈됩니다. "
+		},
+		{
+			info = "6. 임시 가입 상태인 [꼬마 앵커리지]는 대형 작전(META전 포함)에는 참여할 수 없으며, 대형 작전을 통한 호감도 획득 또한 불가능합니다. "
+		},
+		{
+			info = "7. 임시 가입 상태인 [꼬마 앵커리지]는 대함대 작전에 참여할 수 없습니다. "
+		}
+	}
 }

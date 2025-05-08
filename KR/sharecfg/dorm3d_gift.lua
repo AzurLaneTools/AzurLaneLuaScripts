@@ -237,6 +237,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[3022102] = {
+		display = "피로를 풀고 마음을 달래주며, 일상 생활에 에너지 충전!",
+		name = "에너지 복구기",
+		unlock_dialogue_id = 20530,
+		rarity = 4,
+		ship_group_id = 30221,
+		favor_trigger_id = 1004,
+		id = 3022102,
+		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift2",
+		reply_dialogue_id = {
+			{
+				30221,
+				20305
+			}
+		},
+		shop_id = {
+			260322
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				30221,
+				{
+					"banner_gift3022102"
+				}
+			}
+		}
+	},
 	[1990301] = {
 		display = "세상을 응축한 듯한 귀여운 색감이 눈길을 끄는 캔버스. 터치 하나하나가 모두 앵커리지의 순진함을 잘 표현하고 있는 듯하다.",
 		name = "무지갯빛 마음",
@@ -278,7 +308,8 @@ pg.dorm3d_gift = {
 			2022002
 		},
 		[30221] = {
-			3022101
+			3022101,
+			3022102
 		},
 		[19903] = {
 			1990301
@@ -291,6 +322,7 @@ pg.dorm3d_gift = {
 		2022001,
 		2022002,
 		3022101,
+		3022102,
 		1990301
 	}
 }

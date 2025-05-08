@@ -15,5 +15,3 @@ pm.Notification = import(pm.PACKAGE_NAME .. ".patterns.observer.Notification")
 pm.State = import(pm.PACKAGE_NAME .. ".utilities.statemachine.State")
 pm.StateMachine = import(pm.PACKAGE_NAME .. ".utilities.statemachine.StateMachine")
 pm.FSMInjector = import(pm.PACKAGE_NAME .. ".utilities.statemachine.FSMInjector")
-
-require("classes")

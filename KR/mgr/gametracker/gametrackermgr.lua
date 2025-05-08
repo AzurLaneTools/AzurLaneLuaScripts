@@ -91,9 +91,19 @@ slot0.Cache = function(slot0)
 		return
 	end
 
-	PlayerPrefs.SetString(uv1 .. getProxy(PlayerProxy):getRawData().id, table.concat(_.map(slot1, function (slot0)
+	slot3 = table.concat(_.map(slot1, function (slot0)
 		return GameTrackerBuilder.SerializedItem(slot0)
-	end), uv0))
+	end), uv0)
+
+	if not getProxy(PlayerProxy) then
+		return
+	end
+
+	if not getProxy(PlayerProxy):getRawData() then
+		return
+	end
+
+	PlayerPrefs.SetString(uv1 .. getProxy(PlayerProxy):getRawData().id, slot3)
 	PlayerPrefs.Save()
 end
 

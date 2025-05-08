@@ -1,6 +1,206 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
+	[207060] = {
+		name = "글로리어스",
+		change_skin = "",
+		bg_sp = "",
+		desc = "글로리어스급 항공모함 글로리어스 (HMS Glorious)",
+		illustrator2 = -1,
+		ship_group = 20706,
+		group_index = 0,
+		painting = "guangrong",
+		prefab = "guangrong",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 207060,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 113,
+		spine_offset = "",
+		illustrator = 39,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.18,
+					0.7,
+					0
+				}
+			},
+			plane = {
+				{
+					1.12,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.28,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[207061] = {
+		name = "영광스런 학원 생활",
+		change_skin = "",
+		bg_sp = "",
+		desc = "학원 생활이라는 것도 가끔은… 좋은 것 같네요. 지휘관, 이 아이의 무늬, 예쁜…가요?",
+		illustrator2 = -1,
+		ship_group = 20706,
+		group_index = 1,
+		painting = "Guangrong_2",
+		prefab = "Guangrong_2",
+		hand_id = 1,
+		shop_type_id = 4,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "103",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 207061,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70065,
+		voice_actor = 113,
+		spine_offset = "",
+		illustrator = 39,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					-0.11,
+					0.77,
+					0
+				}
+			},
+			plane = {
+				{
+					1.12,
+					1.44,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.25,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[207062] = {
 		name = "시원한 밤의 향설",
 		change_skin = "",
@@ -13709,236 +13909,6 @@ pg.base.ship_skin_template_7 = {
 						{
 							-0.667,
 							2.351,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301323] = {
-		name = "달콤달콤 설날!",
-		change_skin = "",
-		bg_sp = "",
-		desc = "오늘 한 번 더 '새해 복 마니 받아~'라고 하면 조은 거 받을 수 있대! 에헤헤… 사탕, 마니 받았으면 조케따…!",
-		illustrator2 = -1,
-		ship_group = 30132,
-		group_index = 3,
-		painting = "muyue_4",
-		prefab = "muyue_4",
-		hand_id = 6,
-		shop_type_id = 3,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "127",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301323,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 49,
-		spine_offset = "",
-		illustrator = 34,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.667,
-							2.21,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[301324] = {
-		name = "솜사탕과 어른의 꿈",
-		change_skin = "",
-		bg_sp = "",
-		desc = "지히간~ 정신 바짝 차려야 해. 우리, 이짜나~ 케이크 먹구, 바께서 핫도그도 먹구, 커피컵도 타구, 유령의 집에도 가구… 또 뭐가 있드라…? 에헤헤, 손 잡고 빨리 가자~♪",
-		illustrator2 = -1,
-		ship_group = 30132,
-		group_index = 4,
-		painting = "muyue_5",
-		prefab = "muyue_5",
-		hand_id = 6,
-		shop_type_id = 26,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "182",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 301324,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 49,
-		spine_offset = "",
-		illustrator = 34,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.16,
-					1.06,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.194,
-					0.99,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.03,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.19,
-					0.97,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.667,
-							2.21,
 							0
 						}
 					}

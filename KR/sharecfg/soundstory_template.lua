@@ -162,15 +162,15 @@ pg.soundstory_template = {
 	},
 	{
 		story_pic = "",
-		name = "최고의 보상",
+		name = "최고의 포상",
 		story_resource_JP = "soundStory5_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "",
-		CV_JP = "Inoue Honoka",
+		CV_JP = "이노우에 호노카",
 		audition_resource_JP = "ss-40207-1",
-		overview = "아무도 없는 오후, 한낱 인간에 불과한 당신에게 엠덴이 최고의 포상을 베풀어 주려고 하는데...",
+		overview = "특별할 것 없는 평범한 오후, 엠덴은 인간인 당신에게 최고의 포상을 내려주려고 하는데…",
 		order = 2,
-		audition_text = "자, 어서 긴장 푸세요. 부끄러워할 거 없답니다.",
+		audition_text = "자, 어서 몸의 힘을 빼세요… 부끄러워 할 거 없어요.",
 		ship_id = 40207,
 		id = 5,
 		captions_color = "#7a524e",
@@ -189,9 +189,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					9
+					2025,
+					5,
+					8
 				},
 				{
 					0,
@@ -201,9 +201,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					22
+					2025,
+					5,
+					14
 				},
 				{
 					23,
@@ -215,15 +215,15 @@ pg.soundstory_template = {
 	},
 	{
 		story_pic = "",
-		name = "허먼의 선물?!",
+		name = "특별 선물?!",
 		story_resource_JP = "soundStory6_JP",
 		story_resource_CN = "",
 		audition_resource_CN = "",
-		CV_JP = "Asuka Ito",
+		CV_JP = "이토 아스카",
 		audition_resource_JP = "ss-10125-1",
-		overview = "짖궃은 장난을 치려고 하는, 솔직하지 못한 그녀가 일으킨 사고?!",
+		overview = "짓궂은 장난을 치려는, 솔직하지 못한 그녀에 의한 사고?!",
 		order = 2,
-		audition_text = "그나저나 꽤 늦네... 허먼을 대체 언제까지 기다리게 할 생각인 거야?",
+		audition_text = "그나저나 너무 늦네… 대체 언제까지 허먼을 기다리게 할 셈이야?",
 		ship_id = 10125,
 		id = 6,
 		captions_color = "#763d1f",
@@ -242,9 +242,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2023,
-					11,
-					9
+					2025,
+					5,
+					8
 				},
 				{
 					0,
@@ -254,9 +254,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2023,
-					11,
-					22
+					2025,
+					5,
+					14
 				},
 				{
 					23,
@@ -1009,6 +1009,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "달콤함 속에 담긴 마음",
+		story_resource_JP = "soundStory22_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "ss-50207-1",
+		CV_JP = "다테 아리사",
+		audition_resource_JP = "ss-50207-2",
+		overview = "직접 만든 탕수이을 들고 집무실을 찾아온 하이티엔.\n하지만 실수로 넘어져서 예상하지 못한 트러블이 발생하는데…",
+		order = 2,
+		audition_text = "꺅, 음… 지휘관님… 방금 건, 아무리 그래도 너무 갑작스럽달까요……",
+		ship_id = 50207,
+		id = 22,
+		captions_color = "#182a5d",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					5,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "사우나에서의 내구 훈련",
+		story_resource_JP = "soundStory23_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "히노 마리",
+		audition_resource_JP = "ss-90107-1",
+		overview = "더위를 못참는 모가도르에게 인내심을 길러주기 위해 사우나에서 특수 훈련을 감행하기로 한 지휘관.\n열기로 가득한 사우나실 안에서 엄격한 근성 트레이닝이 펼쳐지는데…",
+		order = 2,
+		audition_text = "안 돼에♥ 벌…… 더는 못 견디겠어……♥",
+		ship_id = 90107,
+		id = 23,
+		captions_color = "#61422b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					5,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					14
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1030,6 +1136,8 @@ pg.soundstory_template = {
 		18,
 		19,
 		20,
-		21
+		21,
+		22,
+		23
 	}
 }

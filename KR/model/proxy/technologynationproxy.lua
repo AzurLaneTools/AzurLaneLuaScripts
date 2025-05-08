@@ -132,6 +132,7 @@ slot0.nationPointFilter = function(slot0)
 		Nation.FF,
 		Nation.MNF,
 		Nation.FR,
+		Nation.NL,
 		Nation.META
 	}
 

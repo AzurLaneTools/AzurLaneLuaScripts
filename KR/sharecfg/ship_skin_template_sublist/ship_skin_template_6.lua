@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_6 = {
+	[203079] = {
+		name = "요크·改 ",
+		change_skin = "",
+		bg_sp = "",
+		desc = "이는 단지 승격 <†업그레이드†>일 뿐만 아니라, 각성 <†어웨이크닝†>! 운명 따위, 제가 바꾸어 보이겠어요!",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 9,
+		painting = "yueke_g",
+		prefab = "yueke_g",
+		hand_id = 13,
+		shop_type_id = 9997,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 203079,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					0.9,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.03,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.18,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[203080] = {
 		name = "엑세터",
 		change_skin = "",
@@ -10742,6 +10855,138 @@ pg.base.ship_skin_template_6 = {
 			20607230
 		}
 	},
+	[206073] = {
+		name = "요정향의 조찬",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지휘관, 좋은 아침이에요. 음… 아침 식사를 완벽하게 준비하려고 의욕을 불태웠지만, 실패하고 말았어요… 조금만 더 기다려주세요. 바로 다시 만들어 드릴 테니까요.",
+		illustrator2 = -1,
+		ship_group = 20607,
+		group_index = 3,
+		painting = "aerbien_4",
+		prefab = "aerbien_4",
+		hand_id = 1,
+		shop_type_id = 20,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "109",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 206073,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71133,
+		voice_actor = 344,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.27,
+					1.04,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.24,
+					1.02,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.03,
+					0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.914,
+					1.874,
+					0
+				}
+			},
+			plane = {
+				{
+					1.283,
+					1.014,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.52,
+							2.21,
+							-0.55
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-6.3,
+				-1097.6,
+				0
+			},
+			{
+				0.7
+			}
+		}
+	},
 	[206080] = {
 		name = "테세우스",
 		change_skin = "",
@@ -13910,206 +14155,6 @@ pg.base.ship_skin_template_6 = {
 			},
 			{
 				0.77
-			}
-		}
-	},
-	[207060] = {
-		name = "글로리어스",
-		change_skin = "",
-		bg_sp = "",
-		desc = "글로리어스급 항공모함 글로리어스 (HMS Glorious)",
-		illustrator2 = -1,
-		ship_group = 20706,
-		group_index = 0,
-		painting = "guangrong",
-		prefab = "guangrong",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 207060,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 113,
-		spine_offset = "",
-		illustrator = 39,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.18,
-					0.7,
-					0
-				}
-			},
-			plane = {
-				{
-					1.12,
-					1.44,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.28,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[207061] = {
-		name = "영광스런 학원 생활",
-		change_skin = "",
-		bg_sp = "",
-		desc = "학원 생활이라는 것도 가끔은… 좋은 것 같네요. 지휘관, 이 아이의 무늬, 예쁜…가요?",
-		illustrator2 = -1,
-		ship_group = 20706,
-		group_index = 1,
-		painting = "Guangrong_2",
-		prefab = "Guangrong_2",
-		hand_id = 1,
-		shop_type_id = 4,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "103",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 207061,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70065,
-		voice_actor = 113,
-		spine_offset = "",
-		illustrator = 39,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.11,
-					0.77,
-					0
-				}
-			},
-			plane = {
-				{
-					1.12,
-					1.44,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.25,
-							0
-						}
-					}
-				}
 			}
 		}
 	}

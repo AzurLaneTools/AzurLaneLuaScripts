@@ -1,6 +1,232 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_9 = {
+	[302129] = {
+		name = "센다이·改",
+		change_skin = "",
+		bg_sp = "",
+		desc = "흥, 보아하니 이 붕대는 이제 필요 없게 된 것 같군. 지휘관, 내가 어디까지 강해졌는지…시험으로 한 대 맞아보지 않겠나? ",
+		illustrator2 = -1,
+		ship_group = 30212,
+		group_index = 9,
+		painting = "chuannei_g",
+		prefab = "chuannei_g",
+		hand_id = 2,
+		shop_type_id = 9997,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 2,
+		id = 302129,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 34,
+		spine_offset = "",
+		illustrator = 41,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.11,
+					0.86,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.04,
+					0.9,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.16,
+					0.06,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.02,
+					0.83,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.24,
+							2.65,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[302130] = {
+		name = "진츠",
+		change_skin = "",
+		bg_sp = "",
+		desc = "센다이급 경순양함 2번함 – 진츠",
+		illustrator2 = -1,
+		ship_group = 30213,
+		group_index = 0,
+		painting = "shentong",
+		prefab = "shentong",
+		hand_id = 2,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 302130,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 77,
+		spine_offset = "",
+		illustrator = 41,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.12,
+					0.02,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.16,
+					0.66,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.54,
+							2.43,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[302131] = {
 		name = "책사님은 휴가 중",
 		change_skin = "",
@@ -13950,227 +14176,6 @@ pg.base.ship_skin_template_9 = {
 				{
 					2.08,
 					1.14,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.6,
-							2.4,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305062] = {
-		name = "실수의 본보기?",
-		change_skin = "",
-		bg_sp = "1102",
-		desc = "으읍?! 헐마 히히간(설마 지휘관)? …꿀꺽. 무츠 지금 땡땡이 치는 거 아니야! 새로 들어온 과자를 체크하고 있던 것뿐이라구! 그것보다 지휘관'도' 몰래 훔쳐 먹으려고 온 거야? 아니면 과자가 궁금한 거야? 왜?",
-		illustrator2 = -1,
-		ship_group = 30506,
-		group_index = 2,
-		painting = "luao_3",
-		prefab = "luao_3",
-		hand_id = 6,
-		shop_type_id = 17,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "160",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 305062,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70744,
-		voice_actor = 19,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.456,
-					0.888,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.164,
-					1.25,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.293,
-					1.276,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.4,
-							2.4,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[305070] = {
-		name = "카가 ",
-		change_skin = "",
-		bg_sp = "",
-		desc = "카가급 전함 1번함 - 카가 ",
-		illustrator2 = -1,
-		ship_group = 30507,
-		group_index = 0,
-		painting = "jiahezhanlie",
-		prefab = "jiahezhanlie",
-		hand_id = 2,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 305070,
-		voice_actor_2 = 137,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 9,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.14,
-					0.97,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.085,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.06,
-					1.02,
 					0
 				}
 			}

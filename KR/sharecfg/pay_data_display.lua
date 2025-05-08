@@ -152,6 +152,7 @@ pg.pay_data_display = setmetatable({
 		2046,
 		2047,
 		2048,
+		2049,
 		5011,
 		5012,
 		5013,
@@ -14091,6 +14092,115 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40059,
+				1
+			}
+		}
+	},
+	[2049] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "스킬 교본 패키지",
+		first_pay_double = 0,
+		name_display = "스킬 교본 패키지",
+		descrip = "구매하면 교과서를 대량으로 획득 가능",
+		subject = "교과서 패키지",
+		money = 4400,
+		limit_arg = 4,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 0,
+		picture = "boxSkill",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift108",
+		extra_service = 3,
+		id = 2049,
+		airijp_id = "com.yostarjp.azurlane.package125",
+		extra_service_item = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			},
+			{
+				2,
+				16003,
+				3
+			},
+			{
+				2,
+				16013,
+				3
+			},
+			{
+				2,
+				16023,
+				3
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					5,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					11,
+					12
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				16004,
+				1
+			},
+			{
+				2,
+				16014,
+				1
+			},
+			{
+				2,
+				16024,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40023,
 				1
 			}
 		}

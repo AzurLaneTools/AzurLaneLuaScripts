@@ -223,6 +223,8 @@ pg.memory_group = setmetatable({
 		321,
 		322,
 		323,
+		324,
+		325,
 		501,
 		502,
 		503,
@@ -5291,7 +5293,7 @@ pg.base.memory_group = {
 		}
 	},
 	[323] = {
-		title = "부린 팀 모항 위기 대격파",
+		title = "부린 전대와 대기업의 음모",
 		subtype = 2,
 		link_event = 5879,
 		type = 2,
@@ -5301,6 +5303,38 @@ pg.base.memory_group = {
 			4281,
 			4282,
 			4283
+		}
+	},
+	[324] = {
+		title = "모항 패션 컬렉션: 봄날의 게으름",
+		subtype = 3,
+		link_event = 0,
+		type = 2,
+		id = 324,
+		icon = "title_event",
+		memories = {
+			4301,
+			4302,
+			4303,
+			4304
+		}
+	},
+	[325] = {
+		title = "튤리퍼의 바다로",
+		subtype = 1,
+		link_event = 5921,
+		type = 2,
+		id = 325,
+		icon = "title_event",
+		memories = {
+			4311,
+			4312,
+			4313,
+			4314,
+			4315,
+			4316,
+			4317,
+			4318
 		}
 	},
 	[501] = {

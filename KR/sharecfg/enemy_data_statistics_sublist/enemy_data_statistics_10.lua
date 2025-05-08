@@ -1,1337 +1,5 @@
 pg = pg or {}
 pg.enemy_data_statistics_10 = {
-	[90266] = {
-		cannon = 0,
-		name = "이19",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 3,
-		icon_type = 0,
-		type = 8,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "I19",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 10,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90266,
-		scale = 120,
-		prefab = "I19",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "danchuanlanghuaxiao2",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.72,
-					0.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.72,
-					0.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"hit_bubble",
-						{
-							0.21,
-							3,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.82,
-				0
-			},
-			{
-				0,
-				0,
-				0.358
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {},
-		bubble_fx = {
-			"bubble",
-			20,
-			3
-		}
-	},
-	[90267] = {
-		cannon = 0,
-		name = "이26",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 3,
-		icon_type = 0,
-		type = 8,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "I26",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 10,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90267,
-		scale = 120,
-		prefab = "I26",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "danchuanlanghuaxiao2",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.72,
-					0.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.72,
-					0.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"hit_bubble",
-						{
-							0.21,
-							3,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.82,
-				0
-			},
-			{
-				0,
-				0,
-				0.358
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {},
-		bubble_fx = {
-			"bubble",
-			20,
-			3
-		}
-	},
-	[90268] = {
-		cannon = 0,
-		name = "이58",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 3,
-		icon_type = 0,
-		type = 8,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "I58",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 10,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90268,
-		scale = 120,
-		prefab = "I58",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "danchuanlanghuaxiao2",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			8
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.72,
-					0.19,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.72,
-					0.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"hit_bubble",
-						{
-							0.21,
-							3,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				-0.82,
-				0
-			},
-			{
-				0,
-				0,
-				0.358
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {},
-		bubble_fx = {
-			"bubble",
-			20,
-			3
-		}
-	},
-	[90269] = {
-		cannon = 0,
-		name = "요이즈키",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 3,
-		icon_type = 1,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "xiaoyue",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90269,
-		scale = 150,
-		prefab = "xiaoyue",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "movewave",
-		bubble_fx = "",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.812,
-					1.325,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.141,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.759,
-					1.219,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90270] = {
-		cannon = 0,
-		name = "카와카제",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 3,
-		icon_type = 1,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "jiangfeng",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90270,
-		scale = 150,
-		prefab = "jiangfeng",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "movewave",
-		bubble_fx = "",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.7,
-					0.792,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.164,
-					0.073,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.682,
-					0.764,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90271] = {
-		cannon = 0,
-		name = "아사시오",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 3,
-		icon_type = 1,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "zhaochao",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90271,
-		scale = 150,
-		prefab = "zhaochao",
-		cannon_growth = 0,
-		pilot_ai_template_id = 30001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "movewave",
-		bubble_fx = "",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.645,
-					1.263,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.168,
-					0.053,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.565,
-					1.254,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.522,
-							2.374,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90272] = {
-		cannon = 0,
-		name = "하루츠키",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 3,
-		icon_type = 1,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "chunyue",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 15,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90272,
-		scale = 150,
-		prefab = "chunyue",
-		cannon_growth = 0,
-		pilot_ai_template_id = 20001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "movewave",
-		bubble_fx = "",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.352,
-					1.425,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.135,
-					0.036,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.334,
-					1.074,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.46,
-							2.48,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90273] = {
-		cannon = 0,
-		name = "스캐빈저 II형",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 99,
-		icon_type = 1,
-		type = 1,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "sairenquzhu_i",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90273,
-		scale = 120,
-		prefab = "sairenquzhu_i",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "movewave",
-		bubble_fx = "",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.06,
-					0.15,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.35,
-					1.02,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.61,
-							3.05,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
-	[90274] = {
-		cannon = 0,
-		name = "체이서 II형",
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		luck = 0,
-		air = 0,
-		nationality = 99,
-		icon_type = 2,
-		type = 2,
-		rarity = 0,
-		antiaircraft = 0,
-		dodge_growth = 0,
-		icon = "sairenqingxun_i",
-		star = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 49,
-		antisub = 0,
-		durability = 99999,
-		armor_growth = 0,
-		torpedo_growth = 0,
-		speed = 20,
-		armor = 0,
-		friendly_cld = 0,
-		id = 90274,
-		scale = 120,
-		prefab = "sairenqingxun_i",
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		wave_fx = "movewave",
-		bubble_fx = "",
-		hit = 0,
-		fog_fx = "",
-		torpedo = 0,
-		durability_growth = 0,
-		luck_growth = 0,
-		hit_growth = 0,
-		armor_type = 1,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		prefab_offset = {
-			0,
-			0,
-			0
-		},
-		cld_box = {
-			5.5,
-			7.5,
-			10
-		},
-		cld_offset = {
-			0,
-			0,
-			0
-		},
-		aim_offset = {
-			0,
-			0,
-			0
-		},
-		bound_bone = {
-			cannon = {
-				{
-					3.07,
-					1.24,
-					0
-				}
-			},
-			vicegun = {
-				{
-					3.07,
-					1.24,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.14,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					3.07,
-					1.24,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.26,
-							3.06,
-							0
-						}
-					}
-				}
-			}
-		},
-		fx_container = {
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		specific_fx_scale = {},
-		appear_fx = {
-			"appearQ"
-		},
-		position_offset = {
-			0,
-			0,
-			0
-		},
-		hp_bar = {
-			150,
-			4
-		},
-		equipment_list = {},
-		random_equipment_list = {},
-		random_nub = {},
-		buff_list = {}
-	},
 	[90275] = {
 		cannon = 0,
 		name = "내비게이터 II형",
@@ -4419,6 +3087,1625 @@ pg.enemy_data_statistics_10 = {
 							0.293,
 							0.826,
 							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90295] = {
+		cannon = 0,
+		name = "요크타운",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 7,
+		type = 7,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "yuekecheng",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90295,
+		scale = 150,
+		prefab = "yuekecheng",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					0.5,
+					0.8,
+					0
+				},
+				{
+					-0.5,
+					0.8,
+					0
+				}
+			},
+			plane = {
+				{
+					-0.5,
+					0.5,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.549,
+							0.503,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.385,
+							0.667,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90296] = {
+		cannon = 0,
+		name = "양산형 플레처",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 0,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "fulaichedanchuan",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90296,
+		scale = 150,
+		prefab = "fulaichedanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "danchuanlanghuazhong2",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.314,
+					1.42,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					1.32,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.48,
+					1.32,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90297] = {
+		cannon = 0,
+		name = "플레처",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "fulaiche",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90297,
+		scale = 150,
+		prefab = "fulaiche",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.4,
+					0.97,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.51,
+					0.41,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.4,
+					0.97,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.578,
+							0.396,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.391,
+							0.339,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90298] = {
+		cannon = 0,
+		name = "얼릭",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 1,
+		type = 1,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "aolike",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90298,
+		scale = 150,
+		prefab = "aolike",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.866,
+					1.309,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.3,
+					0.45,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.866,
+					1.309,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							0.401,
+							0.452,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.353,
+							0.622,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90299] = {
+		cannon = 0,
+		name = "양산형 클리블랜드",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 0,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "kelifulandanchuan",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90299,
+		scale = 150,
+		prefab = "kelifulandanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "danchuanlanghuazhong2",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.731,
+					1.393,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.17,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90300] = {
+		cannon = 0,
+		name = "양산형 펜사콜라",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 0,
+		type = 3,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "pengsakeladanchuan",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90300,
+		scale = 150,
+		prefab = "pengsakeladanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "danchuanlanghuazhong3",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 2,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.793,
+					1.684,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.68,
+					0.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smokebig",
+						{
+							1.66,
+							0.75,
+							-0.13
+						}
+					}
+				}
+			},
+			{
+				50,
+				{
+					{
+						"smokebig",
+						{
+							-1.603,
+							1.545,
+							-0.595
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smokebig",
+						{
+							0.281,
+							1.383,
+							-0.282
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1.25,
+				0,
+				1.353
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90301] = {
+		cannon = 0,
+		name = "양산형 애틀란타",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 0,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "yatelandadanchuan",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 1,
+		id = 90301,
+		scale = 150,
+		prefab = "yatelandadanchuan",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "danchuanlanghuazhong2",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.21,
+					1.45,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.17,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			200,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90302] = {
+		cannon = 0,
+		name = "헬레나",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 2,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "hailunna",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90302,
+		scale = 150,
+		prefab = "hailunna",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.094,
+					0.708,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.094,
+					0.708,
+					0
+				},
+				{
+					-0.413,
+					0.965,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.984,
+					1.171,
+					0
+				},
+				{
+					-0.664,
+					1.115,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							0.43,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.07,
+							0.99,
+							0
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90303] = {
+		cannon = 0,
+		name = "샌디에이고",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 2,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "shengdiyage",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90303,
+		scale = 150,
+		prefab = "shengdiyage",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.645,
+					0.568,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.51,
+					0.443,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.464,
+					1.052,
+					0
+				},
+				{
+					-0.439,
+					1.353,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.5,
+							0.55,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.3,
+							0.87,
+							-0.4
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
+		},
+		hp_bar = {
+			150,
+			4
+		},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[90304] = {
+		cannon = 0,
+		name = "위치타",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		nationality = 1,
+		icon_type = 3,
+		type = 3,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "weiqita",
+		star = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 0,
+		id = 90304,
+		scale = 150,
+		prefab = "weiqita",
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		wave_fx = "movewave",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
+		luck_growth = 0,
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			5.5,
+			7.5,
+			10
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.86,
+					0.52,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.86,
+					0.52,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.42,
+					0.34,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.81,
+							1.05,
+							0.14
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							-0.498,
+							2.78,
+							-0.69
 						}
 					}
 				}

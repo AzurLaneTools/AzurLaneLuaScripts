@@ -384,6 +384,102 @@ pg.activity_medal_template = {
 		id = 587508,
 		medal_asset = "ActivityMedal/587508"
 	},
+	[591301] = {
+		activity_medal_desc = "자연의 힘을 지팡이를 순환시켜요. 오래된 잎을 떼어내면 새로운 싹이 절로 돋아난답니다.",
+		next_medal = 0,
+		item = 65594,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21703,
+		activity_medal_name = "스티커: 신록의 지팡이",
+		id = 591301,
+		medal_asset = "ActivityMedal/591301"
+	},
+	[591302] = {
+		activity_medal_desc = "튤리퍼 왕국의 새로운 미래는 지금부터 시작한다.",
+		next_medal = 0,
+		item = 65595,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21704,
+		activity_medal_name = "스티커: 미래의 꽃다발",
+		id = 591302,
+		medal_asset = "ActivityMedal/591302"
+	},
+	[591303] = {
+		activity_medal_desc = "두려워 하지 마. 이 날카로운 송곳니와 발톱은 다 너를 지키기 위한 거란다.",
+		next_medal = 0,
+		item = 65596,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21705,
+		activity_medal_name = "스티커: 곰의 수호",
+		id = 591303,
+		medal_asset = "ActivityMedal/591303"
+	},
+	[591304] = {
+		activity_medal_desc = "자연을 엮고, 그 생명으로 터전을 재건하는 덩굴.",
+		next_medal = 0,
+		item = 65597,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21706,
+		activity_medal_name = "스티커: 덩굴 마법",
+		id = 591304,
+		medal_asset = "ActivityMedal/591304"
+	},
+	[591305] = {
+		activity_medal_desc = "그냥 장식이 아니라, 암시야에 무선 통신, 광필터에 폭탄 발사 기능까지 갖춘 천재적인 발명품입니다!",
+		next_medal = 0,
+		item = 65598,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21707,
+		activity_medal_name = "스티커: 전 영역 강습 코르시카 고글",
+		id = 591305,
+		medal_asset = "ActivityMedal/591305"
+	},
+	[591306] = {
+		activity_medal_desc = "이제 막 돋아난 새싹이지만, 바위 못지않은 강인한 힘이 깃들어 있다.",
+		next_medal = 0,
+		item = 65599,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21708,
+		activity_medal_name = "스티커: 엽맥 공생",
+		id = 591306,
+		medal_asset = "ActivityMedal/591306"
+	},
+	[591307] = {
+		activity_medal_desc = "흉악하기 짝이 없는 잔챙이… 아니, 상어를 닮은 슈퍼 드레드노트급 절멸 병기 「스피르니데」다!",
+		next_medal = 0,
+		item = 65600,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21709,
+		activity_medal_name = "스티커: 신형 전투 병기 「스피르니데」",
+		id = 591307,
+		medal_asset = "ActivityMedal/591307"
+	},
+	[591308] = {
+		activity_medal_desc = "튤립 향기가 나는 정교한 서표. 마법으로 신선함을 영원히 유지하고 있다.",
+		next_medal = 0,
+		item = 65601,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21710,
+		activity_medal_name = "스티커: 튤리퍼 책갈피",
+		id = 591308,
+		medal_asset = "ActivityMedal/591308"
+	},
 	all = {
 		571101,
 		571102,
@@ -416,6 +512,14 @@ pg.activity_medal_template = {
 		587505,
 		587506,
 		587507,
-		587508
+		587508,
+		591301,
+		591302,
+		591303,
+		591304,
+		591305,
+		591306,
+		591307,
+		591308
 	}
 }

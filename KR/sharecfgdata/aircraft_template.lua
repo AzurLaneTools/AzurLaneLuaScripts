@@ -34212,6 +34212,81 @@ _G.pg.base.aircraft_template[61032] = {
 }
 
 
+_G.pg.base.aircraft_template[61033] = {
+	name = "埃佛森技能侦察机",
+	max_hp = 35,
+	accuracy = 23,
+	model_ID = "vbwa",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 3.51,
+	attack_power = 2,
+	dodge_limit = 1,
+	type = 1,
+	AP_growth = 2000,
+	icon = "vbwa",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 11,
+	hp_growth = 1438,
+	speed = 46,
+	id = 61033,
+	scale = 1,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 _G.pg.base.aircraft_template[62141] = {
 	name = "霞飞战斗机弹幕Lv1",
 	max_hp = 46,
@@ -272018,6 +272093,395 @@ _G.pg.base.aircraft_template[3258074] = {
 	weapon_ID = {
 		1001085,
 		1001090
+	}
+}
+
+
+_G.pg.base.aircraft_template[3261101] = {
+	name = "【2025荷兰SP活动T3】BOSS 「福尔尼德」 舰载机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_unknown3",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_unknown3",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3261101,
+	scale = 0.75,
+	weapon_ID = {
+		3261102
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3263101] = {
+	name = "【2025荷兰SP活动HT3】BOSS 「福尔尼德」 舰载机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_unknown3",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_unknown3",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3263101,
+	scale = 0.75,
+	weapon_ID = {
+		3263102
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3264001] = {
+	name = "【2025荷兰SP活动SP】BOSS 「福尔尼德」 舰载机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "sairenfeiji_unknown3",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "sairenfeiji_unknown3",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3264001,
+	scale = 0.75,
+	weapon_ID = {
+		3264002
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3266001] = {
+	name = "【2025荷兰SP活动剧情】我方北联航母蛋船 战斗机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "yak9k",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "yak9k",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3266001,
+	scale = 0.75,
+	weapon_ID = {
+		59053,
+		59453,
+		59913
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3266002] = {
+	name = "【2025荷兰SP活动剧情】我方北联航母蛋船 轰炸机",
+	max_hp = 60,
+	accuracy = 23,
+	model_ID = "yak9k",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "yak9k",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3266002,
+	scale = 0.75,
+	weapon_ID = {
+		59351,
+		52651,
+		53051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
 	}
 }
 

@@ -163,6 +163,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			302,
 			100002,
 			100003,
 			100004,
@@ -234,6 +235,7 @@ pg.furniture_data_template = setmetatable({
 			100070,
 			100071,
 			100072,
+			100073,
 			200001,
 			200002,
 			200003,
@@ -3354,6 +3356,28 @@ pg.furniture_data_template = setmetatable({
 			320304,
 			320305,
 			320306
+		},
+		[121] = {
+			321001,
+			321002,
+			321101,
+			321102,
+			321103,
+			321104,
+			321105,
+			321106,
+			321107,
+			321108,
+			321109,
+			321110,
+			321111,
+			321112,
+			321113,
+			321114,
+			321115,
+			321116,
+			321117,
+			321118
 		}
 	},
 	get_id_list_by_tag = {
@@ -5341,7 +5365,24 @@ pg.furniture_data_template = setmetatable({
 			320111,
 			320112,
 			320113,
-			320114
+			320114,
+			321101,
+			321102,
+			321103,
+			321104,
+			321105,
+			321106,
+			321107,
+			321108,
+			321109,
+			321110,
+			321111,
+			321112,
+			321113,
+			321115,
+			321116,
+			321117,
+			321118
 		},
 		{
 			1108,
@@ -5669,6 +5710,7 @@ pg.furniture_data_template = setmetatable({
 			100070,
 			100071,
 			100072,
+			100073,
 			54104,
 			54105
 		},
@@ -5733,7 +5775,8 @@ pg.furniture_data_template = setmetatable({
 			292,
 			293,
 			295,
-			296
+			296,
+			302
 		},
 		[7] = {
 			213,
@@ -5931,7 +5974,8 @@ pg.furniture_data_template = setmetatable({
 			317111,
 			318305,
 			319117,
-			320115
+			320115,
+			321114
 		},
 		[4] = {
 			1001,
@@ -6038,7 +6082,8 @@ pg.furniture_data_template = setmetatable({
 			317001,
 			318001,
 			319001,
-			320001
+			320001,
+			321001
 		},
 		[3] = {
 			1002,
@@ -6146,7 +6191,8 @@ pg.furniture_data_template = setmetatable({
 			317002,
 			318002,
 			319002,
-			320002
+			320002,
+			321002
 		},
 		[5] = {
 			1301,
@@ -6622,7 +6668,8 @@ pg.furniture_data_template = setmetatable({
 			317002,
 			318002,
 			319002,
-			320002
+			320002,
+			321002
 		},
 		[7] = {
 			1,
@@ -6763,6 +6810,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			302,
 			100002,
 			100004,
 			100005,
@@ -8806,7 +8854,23 @@ pg.furniture_data_template = setmetatable({
 			320112,
 			320113,
 			320114,
-			320115
+			320115,
+			321101,
+			321102,
+			321103,
+			321104,
+			321105,
+			321106,
+			321107,
+			321108,
+			321109,
+			321110,
+			321111,
+			321112,
+			321113,
+			321114,
+			321117,
+			321118
 		},
 		[11] = {
 			131,
@@ -8826,6 +8890,7 @@ pg.furniture_data_template = setmetatable({
 			100064,
 			100066,
 			100071,
+			100073,
 			30123,
 			35128,
 			36125,
@@ -8867,7 +8932,8 @@ pg.furniture_data_template = setmetatable({
 			100037,
 			100048,
 			303103,
-			303113
+			303113,
+			321116
 		},
 		[15] = {
 			251
@@ -8989,7 +9055,8 @@ pg.furniture_data_template = setmetatable({
 			317001,
 			318001,
 			319001,
-			320001
+			320001,
+			321001
 		},
 		[5] = {
 			1101,
@@ -9133,7 +9200,8 @@ pg.furniture_data_template = setmetatable({
 			308104,
 			309105,
 			310101,
-			316107
+			316107,
+			321115
 		},
 		[3] = {
 			1108,
@@ -9851,6 +9919,7 @@ pg.furniture_data_template = setmetatable({
 		299,
 		300,
 		301,
+		302,
 		100002,
 		100003,
 		100004,
@@ -9922,6 +9991,7 @@ pg.furniture_data_template = setmetatable({
 		100070,
 		100071,
 		100072,
+		100073,
 		200001,
 		200002,
 		200003,
@@ -12829,7 +12899,27 @@ pg.furniture_data_template = setmetatable({
 		320303,
 		320304,
 		320305,
-		320306
+		320306,
+		321001,
+		321002,
+		321101,
+		321102,
+		321103,
+		321104,
+		321105,
+		321106,
+		321107,
+		321108,
+		321109,
+		321110,
+		321111,
+		321112,
+		321113,
+		321114,
+		321115,
+		321116,
+		321117,
+		321118
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20886,6 +20976,43 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[302] = {
+		can_rotate = 0,
+		describe = "튤리퍼 왕국의 왕가로부터 전달받은 기념장. 튤리퍼의 승리를 기념하며……",
+		gain_by = "튤리퍼의 바다로",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/helanxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "튤리퍼 왕실 기념장.",
+		advice = 0,
+		icon = "helanxunzhangicon",
+		id = 302,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "높이~ 더 높이 띄우자~ 에엣?! 너무 높아 너무 높이 갔어!! (QㅁQ);;;",
@@ -25247,7 +25374,7 @@ pg.base.furniture_data_template = {
 	},
 	[100063] = {
 		can_rotate = 0,
-		describe = "임팩트 있는 큐티!",
+		describe = "충격적인 귀여움!",
 		gain_by = "",
 		type = 11,
 		dir = 0,
@@ -25266,7 +25393,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "북극 토끼 인형(AT형)",
+		name = "북극 토끼",
 		advice = 0,
 		id = 100063,
 		icon = "jiguangyantuicon",
@@ -25850,6 +25977,82 @@ pg.base.furniture_data_template = {
 					"houzhai_yumao01"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100073] = {
+		can_rotate = 0,
+		describe = "超重承载、结构稳定，冲向海浪！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "hailangchonglangbanicon",
+		count = 1,
+		name = "啾啾冲浪板",
+		advice = 0,
+		id = 100073,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hailangchonglangban",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -153973,6 +154176,920 @@ pg.base.furniture_data_template = {
 				"chuang5yi2",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[321001] = {
+		can_rotate = 0,
+		describe = "부드러운 바람에 실려오는 향긋한 꽃내음, 이것이야말로 전원 생활의 참맛!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/dibanxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "튤리퍼 전원 바닥",
+		advice = 0,
+		icon = "dibanxc2icon",
+		id = 321001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321002] = {
+		can_rotate = 0,
+		describe = "부드러운 바람에 실려오는 향긋한 꽃내음, 이것이야말로 전원 생활의 참맛!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "튤리퍼 전원 벽 ",
+		advice = 0,
+		id = 321002,
+		icon = "qiangbixc2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbixc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321101] = {
+		can_rotate = 0,
+		describe = "그늘 아래는 더위를 피하기에 최고인 장소",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/shuxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "전원의 나무들",
+		advice = 0,
+		icon = "shuxc2icon",
+		id = 321101,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321102] = {
+		can_rotate = 0,
+		describe = "바람이 부는 대로 돌아가는 한가로운 전원 생활의 상징.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "전원의 풍차",
+		advice = 0,
+		id = 321102,
+		icon = "fengchexc2icon",
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengchexc2",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321103] = {
+		can_rotate = 0,
+		describe = "시골에서 재배한 채소와 과일은 신선하고 맛있어!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "전원의 농산물",
+		advice = 0,
+		id = 321103,
+		icon = "xiangziduixc2icon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiangziduixc2",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321104] = {
+		can_rotate = 0,
+		describe = "바람에 살랑이는 튤립 화단. 은은한 꽃향기가 풍긴다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "튤립 화단 1",
+		advice = 0,
+		id = 321104,
+		icon = "yujinxiang1xc2icon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujinxiang1xc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321105] = {
+		can_rotate = 0,
+		describe = "바람에 살랑이는 튤립 화단. 은은한 꽃향기가 풍긴다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "튤립 화단 2",
+		advice = 0,
+		id = 321105,
+		icon = "yujinxiang2xc2icon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujinxiang2xc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321106] = {
+		can_rotate = 0,
+		describe = "바람에 살랑이는 튤립 화단. 은은한 꽃향기가 풍긴다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "튤립 화단 3",
+		advice = 0,
+		id = 321106,
+		icon = "yujinxiang3xc2icon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujinxiang3xc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321107] = {
+		can_rotate = 0,
+		describe = "전원 풍경을 그리는 화가 만쥬도 나름 멋지네쥬쥬~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "시골 화가 만쥬",
+		advice = 0,
+		id = 321107,
+		icon = "huahuajiuxc2icon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huahuajiuxc2",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321108] = {
+		can_rotate = 0,
+		describe = "전원풍 라탄 테이블. 디저트와 애프터눈 티를 즐기기에 안성맞춤!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/zhuozixc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "전원의 라탄 테이블",
+		advice = 0,
+		icon = "zhuozixc2icon",
+		id = 321108,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321109] = {
+		can_rotate = 0,
+		describe = "전원풍 라탄 의자. 부드러운 쿠션이 더해져, 앉아 있으면 너무 편안하다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/yizi1xc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "전원의 라탄 의자 1",
+		advice = 0,
+		id = 321109,
+		icon = "yizi1xc2icon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					23.2,
+					18.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321110] = {
+		can_rotate = 0,
+		describe = "전원풍 라탄 의자. 부드러운 쿠션이 더해져, 앉아 있으면 너무 편안하다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/yizi2xc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "전원의 라탄 의자 2",
+		advice = 0,
+		icon = "yizi2xc2icon",
+		id = 321110,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321111] = {
+		can_rotate = 0,
+		describe = "튤리퍼의 지방에서 흔히 볼 수 있는 오두막. 굴뚝에서 피어오르는 연기가 저마다의 삶을 이야기한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "튤리퍼의 민가",
+		advice = 0,
+		id = 321111,
+		icon = "xiaowuxc2icon",
+		comfortable = 4,
+		size = {
+			6,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaowuxc2",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321112] = {
+		can_rotate = 0,
+		describe = "일상적인 운반 작업에 매우 유용하다. 꽃도 잔뜩 실을 수 있다쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 121,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "tuichexc2icon",
+		count = 1,
+		name = "전원의 손수레",
+		advice = 0,
+		id = 321112,
+		tag = 1,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tuichexc2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[321113] = {
+		can_rotate = 0,
+		describe = "전원의 관목. 투박함 속에서도 세련미가 느껴진다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/guanmuxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "전원의 관목",
+		advice = 0,
+		icon = "guanmuxc2icon",
+		id = 321113,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321114] = {
+		can_rotate = 0,
+		describe = "튤리퍼의 명물인 꽃배. 항해 중에 흩날리는 꽃잎이 아주 낭만적이다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 121,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "chuanxc2icon",
+		count = 1,
+		name = "튤리퍼의 꽃배",
+		advice = 0,
+		id = 321114,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanxc2B",
+				"normal"
+			},
+			{
+				"chuanxc2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sleep1",
+						"sleep",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[321115] = {
+		can_rotate = 0,
+		describe = "부드러운 꽃잎 무늬 러그. 구름처럼 폭신폭신한 감촉이 발에 닿는 느낌이 정말 좋다.",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/ditanxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "꽃잎 카펫",
+		advice = 0,
+		icon = "ditanxc2icon",
+		id = 321115,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321116] = {
+		can_rotate = 0,
+		describe = "꽥꽥꽥~ 꽥꽥꽥~",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 2,
+		name = "작은 오리",
+		advice = 0,
+		id = 321116,
+		icon = "xiaoyaxc2icon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaoyaxc2",
+				"normal"
+			},
+			[3] = {
+				{
+					-161,
+					9
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[321117] = {
+		can_rotate = 0,
+		describe = "화분대에는 다양한 꽃들이 가지런히 놓여 있고, 형형색색의 튤립이 아름답게 피어 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/huajiaxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "튤리퍼 화분대",
+		advice = 0,
+		icon = "huajiaxc2icon",
+		id = 321117,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321118] = {
+		can_rotate = 0,
+		describe = "펜스 위의 꽃 장식이 바로 화룡점정!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/langanxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "튤리퍼 펜스",
+		advice = 0,
+		icon = "langanxc2icon",
+		id = 321118,
+		comfortable = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	}

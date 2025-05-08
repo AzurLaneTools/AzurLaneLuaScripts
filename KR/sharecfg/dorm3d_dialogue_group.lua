@@ -4818,6 +4818,44 @@ pg.dorm3d_dialogue_group = {
 			12
 		}
 	},
+	[20530] = {
+		reward = 0,
+		room_id = 2,
+		trigger_area = "",
+		type = 700,
+		bgm = "",
+		performance_type = 1,
+		story = "DormLvPerformance205",
+		char_id = 30221,
+		extend_loading = 1,
+		id = 20530,
+		action_type = "stand",
+		trigger_config = {
+			5
+		},
+		unlock = {
+			3,
+			3022102
+		}
+	},
+	[20531] = {
+		reward = 0,
+		room_id = 2,
+		trigger_area = "",
+		type = 600,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3TIMELINE205",
+		char_id = 30221,
+		extend_loading = 0,
+		id = 20531,
+		action_type = "stand",
+		unlock = {
+			3,
+			3022102
+		}
+	},
 	[20201] = {
 		reward = 0,
 		room_id = 2,
@@ -5552,6 +5590,25 @@ pg.dorm3d_dialogue_group = {
 		char_id = 30221,
 		extend_loading = 0,
 		id = 20304,
+		action_type = "lie",
+		unlock = {
+			1,
+			30221,
+			1
+		}
+	},
+	[20305] = {
+		reward = 0,
+		room_id = 2,
+		trigger_area = "",
+		type = 402,
+		bgm = "",
+		trigger_config = "",
+		performance_type = 0,
+		story = "DORM3DGIFTFEEDBACK205",
+		char_id = 30221,
+		extend_loading = 0,
+		id = 20305,
 		action_type = "lie",
 		unlock = {
 			1,
@@ -7870,6 +7927,8 @@ pg.dorm3d_dialogue_group = {
 			20511,
 			20520,
 			20521,
+			20530,
+			20531,
 			20201,
 			20202,
 			20203,
@@ -7909,6 +7968,7 @@ pg.dorm3d_dialogue_group = {
 			20302,
 			20303,
 			20304,
+			20305,
 			29991,
 			29992,
 			29993,
@@ -8258,6 +8318,8 @@ pg.dorm3d_dialogue_group = {
 			20511,
 			20520,
 			20521,
+			20530,
+			20531,
 			20201,
 			20202,
 			20203,
@@ -8297,6 +8359,7 @@ pg.dorm3d_dialogue_group = {
 			20302,
 			20303,
 			20304,
+			20305,
 			29991,
 			29992,
 			29993,
@@ -8681,6 +8744,8 @@ pg.dorm3d_dialogue_group = {
 		20511,
 		20520,
 		20521,
+		20530,
+		20531,
 		20201,
 		20202,
 		20203,
@@ -8720,6 +8785,7 @@ pg.dorm3d_dialogue_group = {
 		20302,
 		20303,
 		20304,
+		20305,
 		29991,
 		29992,
 		29993,

@@ -2170,6 +2170,15 @@ temp = function()
 						}
 					}
 				},
+				["앵"] = {
+					["커"] = {
+						["리"] = {
+							["지"] = {
+								this = true
+							}
+						}
+					}
+				},
 				["엔"] = {
 					["터"] = {
 						["프"] = {
@@ -3462,6 +3471,9 @@ temp = function()
 					}
 				}
 			}
+		},
+		["잔"] = {
+			this = true
 		}
 	}
 end
@@ -3707,6 +3719,13 @@ temp = function()
 		},
 		["페"] = {
 			this = true
+		},
+		["버"] = {
+			["트"] = {
+				["센"] = {
+					this = true
+				}
+			}
 		},
 		["기"] = {
 			["르"] = {
@@ -6354,6 +6373,18 @@ end
 temp()
 
 temp = function()
+	uv0["올"] = {
+		["레"] = {
+			["그"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["탈"] = {
 		["린"] = {
 			this = true
@@ -6617,6 +6648,11 @@ temp = function()
 					}
 				}
 			}
+		},
+		["佛"] = {
+			["森"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -6799,6 +6835,49 @@ temp = function()
 					}
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["드"] = {
+		[" "] = {
+			["제"] = {
+				["번"] = {
+					[" "] = {
+						["프"] = {
+							["로"] = {
+								["빈"] = {
+									["시"] = {
+										["엔"] = {
+											this = true
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		},
+		["레"] = {
+			["이"] = {
+				["크"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["喀"] = {
+		["山"] = {
+			this = true
 		}
 	}
 end
@@ -6995,20 +7074,6 @@ temp = function()
 							}
 						}
 					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["드"] = {
-		["레"] = {
-			["이"] = {
-				["크"] = {
-					this = true
 				}
 			}
 		}
