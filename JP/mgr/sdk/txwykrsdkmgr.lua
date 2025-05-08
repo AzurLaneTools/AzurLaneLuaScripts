@@ -178,6 +178,9 @@ return {
 	end,
 	QueryWithProduct = function ()
 	end,
+	QueryPendingTransaction = function ()
+		uv0:SDK_QueryPendingTransaction()
+	end,
 	SdkPay = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 		slot10 = uv0.GetPNInfo()
 		slot11 = slot10.serverID .. "-" .. slot10.playerID .. "-" .. slot4
@@ -190,6 +193,9 @@ return {
 	end,
 	SwitchAccount = function ()
 		uv0:SwitchAccount()
+	end,
+	EventTrack = function (slot0)
+		uv0:SDK_EvtTrack(slot0)
 	end,
 	GetBiliServerId = function ()
 		slot0 = uv0.serverId

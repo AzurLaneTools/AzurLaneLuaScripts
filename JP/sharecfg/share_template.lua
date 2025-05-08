@@ -13,7 +13,7 @@ pg.share_template = {
 			130
 		},
 		hidden_comps = {
-			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/spine",
+			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/detail/toggleBtns",
 			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/bmg",
 			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adapt/bg",
 			"/UICamera/Canvas/UIMain/PlayerVitaeUI(Clone)/adaptve2d",

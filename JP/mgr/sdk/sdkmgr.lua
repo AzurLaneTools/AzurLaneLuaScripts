@@ -464,6 +464,10 @@ slot0.QueryWithProduct = function(slot0)
 	slot0:Call("QueryWithProduct")
 end
 
+slot0.QueryPendingTransaction = function(slot0)
+	slot0:Call("QueryPendingTransaction")
+end
+
 slot0.ShareImg = function(slot0, slot1, slot2)
 	slot0:Call("ShareImg", slot1, slot2)
 end
@@ -472,12 +476,8 @@ slot0.SwitchAccount = function(slot0)
 	slot0:Call("SwitchAccount")
 end
 
-slot0.CompletedTutorial = function(slot0)
-	slot0:Call("CompletedTutorial")
-end
-
-slot0.UnlockAchievement = function(slot0)
-	slot0:Call("UnlockAchievement")
+slot0.EventTrack = function(slot0, slot1)
+	slot0:Call("EventTrack", slot1)
 end
 
 slot0.IsBindFaceBook = function(slot0)

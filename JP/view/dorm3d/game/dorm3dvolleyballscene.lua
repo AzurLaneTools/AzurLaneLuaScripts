@@ -268,29 +268,26 @@ slot0.initScene = function(slot0)
 
 	slot2 = SceneManager.GetSceneByName(slot0.timelineSceneName)
 	slot0.totalDirectorList = {}
-	slot4 = tolua.createinstance(typeof("BLHX.Rendering.FinalBlit"))
 
 	table.IpairsCArray(slot2:GetRootGameObjects(), function (slot0, slot1)
 		if IsNil(tf(slot1):Find("[sequence]")) then
 			return
 		end
 
-		ReflectionHelp.RefSetField(typeof("BLHX.Rendering.BuiltinAdditionalCameraData"), "m_FinalBlit", tf(slot1):Find("[camera]/MainCamera"):GetComponent("BLHX.Rendering.BuiltinAdditionalCameraData"), uv0)
+		slot3 = slot2:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
+		slot3.playOnAwake = false
 
-		slot4 = slot2:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
-		slot4.playOnAwake = false
+		slot3:Stop()
 
-		slot4:Stop()
+		for slot8, slot9 in ipairs(slot2:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector)):ToTable()) do
+			slot9.playOnAwake = false
 
-		for slot9, slot10 in ipairs(slot2:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector)):ToTable()) do
-			slot10.playOnAwake = false
-
-			slot10:Stop()
+			slot9:Stop()
 		end
 
-		table.insert(uv1.totalDirectorList, {
+		table.insert(uv0.totalDirectorList, {
 			name = slot1.name,
-			director = slot4
+			director = slot3
 		})
 		setActive(slot1, false)
 	end)

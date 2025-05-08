@@ -354,6 +354,8 @@ slot0.execute = function(slot0, slot1)
 
 			Dorm3dRoomTemplateScene.FirstDefaultSetting = nil
 		end
+
+		pg.SdkMgr.GetInstance():QueryPendingTransaction()
 	end, nil, 60)
 end
 

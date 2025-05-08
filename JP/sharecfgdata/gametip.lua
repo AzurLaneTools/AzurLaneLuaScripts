@@ -38387,41 +38387,6 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 }
 
 
-_G.pg.base.gametip.island_name_too_long_or_too_short = {
-	tip = "島の名称は1–9文字までです"
-}
-
-
-_G.pg.base.gametip.island_name_exist_special_word = {
-	tip = "使用できない文字が含まれております"
-}
-
-
-_G.pg.base.gametip.island_name_exist_ban_word = {
-	tip = "使用できない文字が含まれております"
-}
-
-
-_G.pg.base.gametip.island_index_extra_all = {
-	tip = "无限制"
-}
-
-
-_G.pg.base.gametip.island_index_potency = {
-	tip = "剩余潜能"
-}
-
-
-_G.pg.base.gametip.island_index_skill = {
-	tip = "技能可升级"
-}
-
-
-_G.pg.base.gametip.island_index_status = {
-	tip = "有特殊状态"
-}
-
-
 _G.pg.base.gametip.yostar_login_btn = {
 	tip = "ログイン"
 }

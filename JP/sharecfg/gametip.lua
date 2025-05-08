@@ -28821,233 +28821,198 @@ cs.gametip = {
 		2016,
 		true
 	},
-	island_name_too_long_or_too_short = {
-		1187027,
-		136,
-		true
-	},
-	island_name_exist_special_word = {
-		1187163,
-		146,
-		true
-	},
-	island_name_exist_ban_word = {
-		1187309,
-		142,
-		true
-	},
-	island_index_extra_all = {
-		1187451,
-		95,
-		true
-	},
-	island_index_potency = {
-		1187546,
-		96,
-		true
-	},
-	island_index_skill = {
-		1187642,
-		97,
-		true
-	},
-	island_index_status = {
-		1187739,
-		98,
-		true
-	},
 	yostar_login_btn = {
-		1187837,
+		1187027,
 		92,
 		true
 	},
 	yostar_trans_btn = {
-		1187929,
+		1187119,
 		102,
 		true
 	},
 	yostar_account_btn = {
-		1188031,
+		1187221,
 		103,
 		true
 	},
 	grapihcs3d_setting_enable_gup_driver = {
-		1188134,
+		1187324,
 		114,
 		true
 	},
 	grapihcs3d_setting_resolution = {
-		1188248,
+		1187438,
 		108,
 		true
 	},
 	grapihcs3d_setting_resolution_optionname0 = {
-		1188356,
+		1187546,
 		109,
 		true
 	},
 	grapihcs3d_setting_resolution_optionname1 = {
-		1188465,
+		1187655,
 		110,
 		true
 	},
 	grapihcs3d_setting_resolution_optionname2 = {
-		1188575,
+		1187765,
 		107,
 		true
 	},
 	grapihcs3d_setting_rendering_quality = {
-		1188682,
+		1187872,
 		124,
 		true
 	},
 	grapihcs3d_setting_rendering_quality_optionname0 = {
-		1188806,
+		1187996,
 		115,
 		true
 	},
 	grapihcs3d_setting_rendering_quality_optionname1 = {
-		1188921,
+		1188111,
 		115,
 		true
 	},
 	grapihcs3d_setting_shader_quality = {
-		1189036,
+		1188226,
 		118,
 		true
 	},
 	grapihcs3d_setting_shader_quality_optionname0 = {
-		1189154,
+		1188344,
 		112,
 		true
 	},
 	grapihcs3d_setting_shader_quality_optionname1 = {
-		1189266,
+		1188456,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_quality = {
-		1189378,
+		1188568,
 		109,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname0 = {
-		1189487,
+		1188677,
 		115,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname1 = {
-		1189602,
+		1188792,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname2 = {
-		1189714,
+		1188904,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname3 = {
-		1189826,
+		1189016,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode = {
-		1189938,
+		1189128,
 		119,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname0 = {
-		1190057,
+		1189247,
 		116,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname1 = {
-		1190173,
+		1189363,
 		116,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname2 = {
-		1190289,
+		1189479,
 		116,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname3 = {
-		1190405,
+		1189595,
 		128,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality = {
-		1190533,
+		1189723,
 		119,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname0 = {
-		1190652,
+		1189842,
 		119,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname1 = {
-		1190771,
+		1189961,
 		119,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname2 = {
-		1190890,
+		1190080,
 		119,
 		true
 	},
 	grapihcs3d_setting_enable_additional_lights = {
-		1191009,
+		1190199,
 		125,
 		true
 	},
 	grapihcs3d_setting_enable_reflection = {
-		1191134,
+		1190324,
 		121,
 		true
 	},
 	grapihcs3d_setting_character_quality = {
-		1191255,
+		1190445,
 		118,
 		true
 	},
 	grapihcs3d_setting_character_quality_optionname0 = {
-		1191373,
+		1190563,
 		115,
 		true
 	},
 	grapihcs3d_setting_character_quality_optionname1 = {
-		1191488,
+		1190678,
 		115,
 		true
 	},
 	grapihcs3d_setting_character_quality_optionname2 = {
-		1191603,
+		1190793,
 		115,
 		true
 	},
 	grapihcs3d_setting_enable_post_process = {
-		1191718,
+		1190908,
 		123,
 		true
 	},
 	grapihcs3d_setting_enable_post_antialiasing = {
-		1191841,
+		1191031,
 		132,
 		true
 	},
 	grapihcs3d_setting_enable_hdr = {
-		1191973,
+		1191163,
 		96,
 		true
 	},
 	grapihcs3d_setting_enable_distort = {
-		1192069,
+		1191259,
 		121,
 		true
 	},
 	grapihcs3d_setting_enable_dof = {
-		1192190,
+		1191380,
 		96,
 		true
 	}
