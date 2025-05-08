@@ -1,8 +1,40 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "https://game.bilibili.com/blhx/2025-eighth-anniversary/?channel=AL",
+		type = 1,
 		id = 1,
+		pic = "temp2",
+		time = {
+			{
+				{
+					2025,
+					5,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					16
+				},
+				{
+					18,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
 		pic = "temp1",
 		param = {
 			"scene equip",
@@ -36,16 +68,6 @@ pg.activity_banner = {
 					0
 				}
 			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 2,
-		pic = "temp2",
-		param = {
-			"scene skinshop",
-			{}
 		}
 	},
 	{
@@ -181,8 +203,10 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[2] = {
-			1,
+		{
+			1
+		},
+		{
 			2,
 			3,
 			4,
@@ -190,7 +214,7 @@ pg.activity_banner = {
 			7,
 			8
 		},
-		[3] = {
+		{
 			6,
 			9
 		},

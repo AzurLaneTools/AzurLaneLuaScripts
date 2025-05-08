@@ -86,10 +86,8 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2)
 
 			slot1:LoadSceneAsync(string.lower("dorm3d/character/" .. uv0.assetRootName .. "/timeline/" .. uv0.name .. "/" .. uv0.name .. "_scene"), uv0.name, LoadSceneMode.Additive, function (slot0, slot1)
 				existCall(uv0.loadSceneFunc, slot0, slot1)
-
-				slot3 = GameObject.Find("[sequence]").transform:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
-
-				slot3:Stop()
+				GameObject.Find("[sequence]").transform:GetComponent(typeof(UnityEngine.Playables.PlayableDirector)):Stop()
+				setActive(GameObject.Find("[camera]").transform:GetComponentInChildren(typeof(Camera)) or slot4:Find("MainCamera"), false)
 				TimelineSupport.InitTimeline(slot3)
 				TimelineSupport.InitSubtitle(slot3, uv0.callName)
 				uv1()

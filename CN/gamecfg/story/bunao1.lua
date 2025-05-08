@@ -243,7 +243,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……处理文件就文处理文件，什么叫出卖身体！",
+			say = "……处理文件就处理文件，什么叫出卖身体！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

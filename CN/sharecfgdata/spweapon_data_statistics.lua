@@ -28362,7 +28362,7 @@ _G.pg.base.spweapon_data_statistics[14090] = {
 
 _G.pg.base.spweapon_data_statistics[14100] = {
 	attribute_1 = "cannon",
-	name = "一张王牌 ",
+	name = "一张王牌",
 	type = 4,
 	tech = 0,
 	value_1_random = 10,

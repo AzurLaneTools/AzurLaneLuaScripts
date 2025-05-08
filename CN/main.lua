@@ -34,6 +34,7 @@ end
 QualitySettings.vSyncCount = 0
 QualitySettings.skinWeights = ReflectionHelp.RefGetField(typeof("UnityEngine.SkinWeights"), "Unlimited", nil)
 
+GraphicSettingConst.ClearPlayerPrefs()
 GraphicSettingConst.InitDefautQuality()
 GraphicSettingConst.SettingQuality()
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
