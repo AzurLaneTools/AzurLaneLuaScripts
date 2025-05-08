@@ -1,6 +1,7 @@
 pg = pg or {}
 slot1 = singletonClass("BrightnessMgr")
 pg.BrightnessMgr = slot1
+slot2 = YSNormalTool.BrightnessTool
 slot1.AutoIntoDarkModeTime = 10
 slot1.DarkModeBrightness = 0.1
 slot1.BrightnessMode = {
@@ -33,7 +34,7 @@ slot1.AwakeForAWhile = function(slot0)
 		return
 	end
 
-	BrightnessHelper.SetScreenBrightness(slot0.originalBrightnessValue)
+	uv0.SetBrightnessValue(slot0.originalBrightnessValue)
 	slot0:SetDelayTask()
 end
 
@@ -41,8 +42,8 @@ slot1.SetDelayTask = function(slot0)
 	slot0:ClearTask()
 
 	slot0.task = Timer.New(function ()
-		BrightnessHelper.SetScreenBrightness(math.min(uv0.DarkModeBrightness, uv1.originalBrightnessValue))
-	end, uv0.AutoIntoDarkModeTime)
+		uv0.SetBrightnessValue(math.min(uv1.DarkModeBrightness, uv2.originalBrightnessValue))
+	end, uv1.AutoIntoDarkModeTime)
 
 	slot0.task:Start()
 end
@@ -62,10 +63,10 @@ slot1.EnterManualMode = function(slot0)
 		return
 	end
 
-	slot1 = BrightnessHelper.GetValue()
+	slot1 = uv0.GetBrightnessValue()
 	slot0.originalBrightnessValue = slot1
 
-	BrightnessHelper.SetScreenBrightness(math.min(uv0.DarkModeBrightness, slot1))
+	uv0.SetBrightnessValue(math.min(uv1.DarkModeBrightness, slot1))
 
 	slot0.manulStatus = true
 end
@@ -75,18 +76,22 @@ slot1.ExitManualMode = function(slot0)
 		return
 	end
 
-	BrightnessHelper.SetScreenBrightness(slot0.originalBrightnessValue)
+	uv0.SetBrightnessValue(slot0.originalBrightnessValue)
 	slot0:ClearTask()
 
 	slot0.manulStatus = false
 end
 
 slot1.IsPermissionGranted = function(slot0)
-	return BrightnessHelper.IsHavePermission()
+	return uv0.CanWriteSetting()
+end
+
+slot1.OpenPermissionSettings = function(slot0)
+	YSNormalTool.OtherTool.OpenAndroidWriteSettings()
 end
 
 slot1.RequestPremission = function(slot0, slot1)
-	BrightnessHelper.SetScreenBrightness(BrightnessHelper.GetValue())
+	slot0:OpenPermissionSettings()
 
 	if slot1 then
 		FrameTimer.New(function ()

@@ -3149,6 +3149,8 @@ pg.skill_data_display = setmetatable({
 		1012671,
 		1012400,
 		1012401,
+		1013050,
+		1013051,
 		200002,
 		200005,
 		200008,
@@ -3442,6 +3444,8 @@ pg.skill_data_display = setmetatable({
 		1011151,
 		1011152,
 		1011154,
+		1012481,
+		1012482,
 		1090020,
 		1090042,
 		1090043,
@@ -16106,6 +16110,14 @@ pg.base.skill_data_display = {
 		id = 1012401,
 		name = "Great Shark's Bite+"
 	},
+	[1013050] = {
+		id = 1013050,
+		name = "为革命献上祝福 +"
+	},
+	[1013051] = {
+		id = 1013051,
+		name = "为革命献上祝福 +"
+	},
 	[200002] = {
 		id = 200002,
 		name = "Air Armada Support"
@@ -17277,6 +17289,14 @@ pg.base.skill_data_display = {
 	[1011154] = {
 		id = 1011154,
 		name = "Counterattack of the Barents Sea+"
+	},
+	[1012481] = {
+		id = 1012481,
+		name = "Final-AP-Ride"
+	},
+	[1012482] = {
+		id = 1012482,
+		name = "BALTIMORE!!!!!"
 	},
 	[1090020] = {
 		id = 1090020,

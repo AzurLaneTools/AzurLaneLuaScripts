@@ -79,8 +79,8 @@ slot0.updateTpl = function(slot0, slot1, slot2)
 
 	slot19 = slot2 < slot16 and Color.gray or Color.white
 
-	for slot24 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-		slot20[slot24].color = slot19
+	for slot24, slot25 in iparis(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
+		slot25.color = slot19
 	end
 
 	setImageColor(slot3, slot19)

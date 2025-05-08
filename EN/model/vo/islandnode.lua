@@ -18,7 +18,7 @@ slot0.IsUnlock = function(slot0)
 end
 
 slot0.GetUnlock = function(slot0)
-	slot1 = getProxy(IslandProxy)
+	slot1 = getProxy(SixthAnniversaryIslandProxy)
 	slot2 = slot0:getConfig("open_need")
 	slot4 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2) and slot3:GetTotalBuildingLevel() or 0
 	slot5 = {}
@@ -39,7 +39,7 @@ slot0.IsVisual = function(slot0)
 end
 
 slot0.ChangeVisual = function(slot0)
-	return slot0:getConfig("node_change") ~= 0 and getProxy(IslandProxy):GetNode(slot1):IsUnlock()
+	return slot0:getConfig("node_change") ~= 0 and getProxy(SixthAnniversaryIslandProxy):GetNode(slot1):IsUnlock()
 end
 
 slot0.IsCompleted = function(slot0)

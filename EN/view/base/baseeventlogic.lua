@@ -28,7 +28,11 @@ slot0.emit = function(slot0, ...)
 end
 
 slot0.disconnect = function(slot0, slot1)
-	if slot0.eventStore[slot1] then
+	slot2 = slot0.eventStore[slot1]
+
+	assert(slot2, slot1)
+
+	if slot2 then
 		slot0.event:disconnect(slot2.event, slot2.callback)
 
 		slot0.eventStore[slot1] = nil

@@ -140,7 +140,7 @@ slot0.PlayCpkMovie = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, s
 			uv0._animator = uv0._mainTF:GetComponent("Animator")
 
 			if uv0._criUsm then
-				uv0._criUsm.renderMode = ReflectionHelp.RefGetField(typeof("CriManaMovieMaterial+RenderMode"), "Always", nil)
+				uv0._criUsm.renderMode = CriWare.CriManaMovieMaterialBase.RenderMode.Always
 			end
 
 			if uv0._usmImg and uv0._usmImg.color.a == 0 then

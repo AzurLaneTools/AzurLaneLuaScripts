@@ -16,7 +16,7 @@ slot0.LoadBg = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 				setParent(slot0, uv1, false)
 
 				if slot0:GetComponent(typeof(CriManaEffectUI)) then
-					slot1.renderMode = ReflectionHelp.RefGetField(typeof("CriManaMovieMaterial+RenderMode"), "Always", nil)
+					slot1.renderMode = CriWare.CriManaMovieMaterialBase.RenderMode.Always
 
 					slot1:Pause(false)
 				end

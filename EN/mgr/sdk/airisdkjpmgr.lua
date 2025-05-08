@@ -40,7 +40,7 @@ AiriLogin = function(slot0)
 		pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 			user = User.New({
 				type = 1,
-				arg1 = PLATFORM_AIRIJP,
+				arg1 = PLATFORM_YOSTARJP,
 				arg2 = uv0.UID,
 				arg3 = uv0.ACCESS_TOKEN
 			})

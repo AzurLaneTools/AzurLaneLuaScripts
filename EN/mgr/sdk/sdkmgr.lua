@@ -6,7 +6,7 @@ slot0.Ctor = function(slot0)
 	if PLATFORM_CODE == PLATFORM_CH then
 		slot0.instance = require("Mgr.Sdk.BiliSDKMgr")
 	elseif PLATFORM_CODE == PLATFORM_JP then
-		slot0.instance = require("Mgr.Sdk.AiriSDKJPMgr")
+		slot0.instance = require("Mgr.Sdk.YoStarJPMgr")
 	elseif PLATFORM_CODE == PLATFORM_KR then
 		slot0.instance = require("Mgr.Sdk.TxwyKrSDKMgr")
 	elseif PLATFORM_CODE == PLATFORM_US then
@@ -102,11 +102,19 @@ slot0.DeleteAccount = function(slot0)
 end
 
 slot0.GetChannelUID = function(slot0)
-	return slot0:Get("GetChannelUID")
+	if slot0:Get("GetChannelUID") == "" then
+		slot1 = PLATFORM_LOCAL
+	end
+
+	return slot1
 end
 
 slot0.GetLoginType = function(slot0)
 	if PathMgr.FileExists(Application.persistentDataPath .. "/server_config.txt") then
+		return LoginType.PLATFORM_INNER
+	end
+
+	if string.match(NetConst.GATEWAY_HOST, "^10%.0") then
 		return LoginType.PLATFORM_INNER
 	end
 
@@ -145,18 +153,6 @@ slot0.IsHuaweiPackage = function(slot0)
 	return PLATFORM_CODE == PLATFORM_CH and slot0:Get("IsHuaweiPackage")
 end
 
-slot0.IsAUPackage = function(slot0)
-	return PLATFORM_CODE == PLATFORM_JP and slot0:GetChannelUID() == "2"
-end
-
-slot0.GetYostarUid = function(slot0)
-	return slot0:Get("GetYostarUid")
-end
-
-slot0.GetYostarTransCode = function(slot0)
-	return slot0:Get("GetTransCode")
-end
-
 slot0.CheckAudit = function(slot0)
 	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
 		return slot0:Get("CheckAudit")
@@ -189,80 +185,255 @@ slot0.CheckWorldTest = function(slot0)
 	end
 end
 
-slot0.AiriLoginSDK = function(slot0)
-	slot0:Call("AiriLogin")
-end
+slot1 = function()
+	uv0.GetYostarUid = function(slot0)
+		return slot0:Get("GetYostarUid")
+	end
 
-slot0.TranscodeRequest = function(slot0)
-	slot0:Call("TranscodeRequest")
-end
+	uv0.GetYostarTransCode = function(slot0)
+		return slot0:Get("GetTransCode")
+	end
 
-slot0.LoginWithTranscode = function(slot0, slot1, slot2)
-	slot0:Call("LoginWithTranscode", slot1, slot2)
-end
+	uv0.AiriLoginSDK = function(slot0)
+		slot0:Call("AiriLogin")
+	end
 
-slot0.LoginWithSocial = function(slot0, slot1, slot2, slot3)
-	slot0:Call("LoginWithSocial", slot1, slot2, slot3)
-end
+	uv0.TranscodeRequest = function(slot0)
+		slot0:Call("TranscodeRequest")
+	end
 
-slot0.LoginWithDevice = function(slot0)
-	slot0:Call("LoginWithDevice")
-end
+	uv0.LoginWithTranscode = function(slot0, slot1, slot2)
+		slot0:Call("LoginWithTranscode", slot1, slot2)
+	end
 
-slot0.AiriBuy = function(slot0, slot1, slot2, slot3)
-	slot0:Call("AiriBuy", slot1, slot2, slot3)
-end
+	uv0.LoginWithSocial = function(slot0, slot1, slot2, slot3)
+		slot0:Call("LoginWithSocial", slot1, slot2, slot3)
+	end
 
-slot0.LinkSocial = function(slot0, slot1, slot2, slot3)
-	slot0:Call("LinkSocial", slot1, slot2, slot3)
-end
+	uv0.LoginWithDevice = function(slot0)
+		slot0:Call("LoginWithDevice")
+	end
 
-slot0.UnlinkSocial = function(slot0, slot1)
-	slot0:Call("UnlinkSocial", slot1)
-end
+	uv0.AiriBuy = function(slot0, slot1, slot2, slot3)
+		slot0:Call("AiriBuy", slot1, slot2, slot3)
+	end
 
-slot0.IsSocialLink = function(slot0, slot1)
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-		return slot0:Get("IsSocialLink", slot1)
-	else
-		return false
+	uv0.LinkSocial = function(slot0, slot1, slot2, slot3)
+		slot0:Call("LinkSocial", slot1, slot2, slot3)
+	end
+
+	uv0.UnlinkSocial = function(slot0, slot1)
+		slot0:Call("UnlinkSocial", slot1)
+	end
+
+	uv0.IsSocialLink = function(slot0, slot1)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			return slot0:Get("IsSocialLink", slot1)
+		else
+			return false
+		end
+	end
+
+	uv0.GetSocialName = function(slot0, slot1)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			return slot0:Get("GetSocialName", slot1)
+		else
+			return "none"
+		end
+	end
+
+	uv0.GetIsBirthSet = function(slot0)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			return slot0:Get("GetIsBirthSet")
+		end
+
+		return true
+	end
+
+	uv0.SetBirth = function(slot0, slot1)
+		slot0:Call("SetBirth", slot1)
+	end
+
+	uv0.ClearAccountCache = function(slot0)
+		slot0:Call("ClearAccountCache")
+	end
+
+	uv0.GameShare = function(slot0, slot1, slot2)
+		slot0:Call("GameShare", slot1, slot2)
+	end
+
+	uv0.VerificationCodeReq = function(slot0, slot1)
+		slot0:Call("VerificationCodeReq", slot1)
+	end
+
+	uv0.OpenYostarHelp = function(slot0)
+		slot0:Call("OpenYostarHelp")
+	end
+
+	uv0.OnAppPauseForSDK = function(slot0, slot1)
+		slot0:Call("OnAppPauseForSDK", slot1)
+	end
+
+	uv0.UserEventUpload = function(slot0, slot1)
+		slot0:Call("UserEventUpload", slot1)
+	end
+
+	uv0.ShowSurvey = function(slot0, slot1, slot2)
+		return slot0:Call("ShowSurvey", slot1, slot2)
+	end
+
+	uv0.CheckAiriCanBuy = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0:Get("CheckAiriCanBuy")
+		else
+			return true
+		end
+	end
+
+	uv0.CheckHadAccountCache = function(slot0)
+		if PLATFORM_CODE == PLATFORM_JP then
+			return slot0:Get("CheckHadAccountCache")
+		else
+			return true
+		end
+	end
+
+	uv0.AccountDelete = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0:Get("AccountDelete")
+		else
+			return true
+		end
+	end
+
+	uv0.AccountReborn = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0:Get("AccountReborn")
+		else
+			return true
+		end
+	end
+
+	uv0.ConfirmLinkGooglePlayGame = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0:Get("ConfirmLinkGooglePlayGame")
+		else
+			return true
+		end
+	end
+
+	uv0.ConfirmUnLinkGooglePlayGame = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0:Get("ConfirmUnLinkGooglePlayGame")
+		else
+			return true
+		end
+	end
+
+	uv0.BindYostarPass = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0:Get("BindYostarPass")
+		else
+			return true
+		end
+	end
+
+	AIRI_LAST_GEN_TIME = 0
+	AIRI_GEN_LIMIT_TIME = 30
+
+	GetAiriGenCodeTimeRemain = function()
+		if AIRI_GEN_LIMIT_TIME < Time.realtimeSinceStartup - AIRI_LAST_GEN_TIME or AIRI_LAST_GEN_TIME == 0 then
+			return 0
+		else
+			return math.floor(AIRI_GEN_LIMIT_TIME - slot0)
+		end
 	end
 end
 
-slot0.GetSocialName = function(slot0, slot1)
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-		return slot0:Get("GetSocialName", slot1)
-	else
-		return "none"
+if PLATFORM_CODE == PLATFORM_US then
+	slot1()
+end
+
+slot2 = function()
+	uv0.YoStarLoginSDK = function(slot0)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			slot0.Call(slot0, "Login")
+		end
+	end
+
+	uv0.YoStarPay = function(slot0, slot1, slot2, slot3)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			slot0.Call(slot0, "Pay", slot1, slot2, slot3)
+		end
+	end
+
+	uv0.GameShare = function(slot0, slot1, slot2)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			slot0.Call(slot0, "SystemShare", slot1, slot2)
+		end
+	end
+
+	uv0.YostarOpenAiHelp = function(slot0)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			slot0.Call(slot0, "ShowAihelp")
+		end
+	end
+
+	uv0.OnAppPauseForSDK = function(slot0, slot1)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			slot0.Call(slot0, "OnAppPauseForSDK", slot1)
+		end
+	end
+
+	uv0.YoStarShowSurvey = function(slot0, slot1, slot2)
+		if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+			return slot0.Call(slot0, "ShowSurvey", slot1, slot2)
+		end
+	end
+
+	uv0.YoStarCheckCanBuy = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0.Get(slot0, "CheckYoStarCanBuy")
+		end
+	end
+
+	uv0.YoStarCheckHadAccountCache = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0.Get(slot0, "CheckHadAccountCache")
+		end
+	end
+
+	uv0.YoStarShowUserCenter = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0.Get(slot0, "ShowUserCenter")
+		end
+	end
+
+	uv0.YoStarRoleInfoUpload = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0.Get(slot0, "RoleInfoUpload")
+		end
+	end
+
+	uv0.YoStarShowSwitchAccount = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0.Get(slot0, "ShowSwitchAccount")
+		end
+	end
+
+	uv0.YoStarShowAccountCenter = function(slot0)
+		if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
+			return slot0.Get(slot0, "ShowAccountCenter")
+		end
+	end
+
+	uv0.UserEventUpload = function(slot0, slot1)
+		slot0.Call(slot0, "UserEventUpload", slot1)
 	end
 end
 
-slot0.GetIsBirthSet = function(slot0)
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
-		return slot0:Get("GetIsBirthSet")
-	end
-
-	return true
-end
-
-slot0.SetBirth = function(slot0, slot1)
-	slot0:Call("SetBirth", slot1)
-end
-
-slot0.ClearAccountCache = function(slot0)
-	slot0:Call("ClearAccountCache")
-end
-
-slot0.GameShare = function(slot0, slot1, slot2)
-	slot0:Call("GameShare", slot1, slot2)
-end
-
-slot0.VerificationCodeReq = function(slot0, slot1)
-	slot0:Call("VerificationCodeReq", slot1)
-end
-
-slot0.OpenYostarHelp = function(slot0)
-	slot0:Call("OpenYostarHelp")
+if PLATFORM_CODE == PLATFORM_JP then
+	slot2()
 end
 
 slot0.OnAppPauseForSDK = function(slot0, slot1)
@@ -273,75 +444,8 @@ slot0.UserEventUpload = function(slot0, slot1)
 	slot0:Call("UserEventUpload", slot1)
 end
 
-slot0.ShowSurvey = function(slot0, slot1, slot2)
-	return slot0:Call("ShowSurvey", slot1, slot2)
-end
-
-slot0.CheckAiriCanBuy = function(slot0)
-	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
-		return slot0:Get("CheckAiriCanBuy")
-	else
-		return true
-	end
-end
-
-slot0.CheckHadAccountCache = function(slot0)
-	if PLATFORM_CODE == PLATFORM_JP then
-		return slot0:Get("CheckHadAccountCache")
-	else
-		return true
-	end
-end
-
-slot0.AccountDelete = function(slot0)
-	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
-		return slot0:Get("AccountDelete")
-	else
-		return true
-	end
-end
-
-slot0.AccountReborn = function(slot0)
-	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
-		return slot0:Get("AccountReborn")
-	else
-		return true
-	end
-end
-
-slot0.ConfirmLinkGooglePlayGame = function(slot0)
-	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
-		return slot0:Get("ConfirmLinkGooglePlayGame")
-	else
-		return true
-	end
-end
-
-slot0.ConfirmUnLinkGooglePlayGame = function(slot0)
-	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
-		return slot0:Get("ConfirmUnLinkGooglePlayGame")
-	else
-		return true
-	end
-end
-
-slot0.BindYostarPass = function(slot0)
-	if PLATFORM_CODE == PLATFORM_US or PLATFORM_CODE == PLATFORM_JP then
-		return slot0:Get("BindYostarPass")
-	else
-		return true
-	end
-end
-
-AIRI_LAST_GEN_TIME = 0
-AIRI_GEN_LIMIT_TIME = 30
-
-GetAiriGenCodeTimeRemain = function()
-	if AIRI_GEN_LIMIT_TIME < Time.realtimeSinceStartup - AIRI_LAST_GEN_TIME or AIRI_LAST_GEN_TIME == 0 then
-		return 0
-	else
-		return math.floor(AIRI_GEN_LIMIT_TIME - slot0)
-	end
+slot0.GameShare = function(slot0, slot1, slot2)
+	slot0:Call("GameShare", slot1, slot2)
 end
 
 slot0.UserCenter = function(slot0)
@@ -478,6 +582,10 @@ end
 
 slot0.ShowPrivate = function(slot0)
 	slot0:Call("ShowPrivate")
+end
+
+slot0.OpenMiniProgram = function(slot0)
+	slot0:Call("OpenMiniProgram")
 end
 
 slot0.GetProduct = function(slot0, slot1)

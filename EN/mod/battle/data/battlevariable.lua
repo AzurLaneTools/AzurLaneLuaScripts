@@ -4,7 +4,7 @@ slot0.Battle.BattleVariable = slot0.Battle.BattleVariable or {}
 slot1 = slot0.Battle.BattleVariable
 slot2 = slot0.Battle.BattleConfig
 
-slot1.Init = function()
+slot1.Init = function(slot0)
 	uv0.speedRatioByIFF = {
 		[0] = 1,
 		1,
@@ -15,21 +15,23 @@ slot1.Init = function()
 	uv0.MapSpeedFacotrList = {}
 	uv0.IFFFactorList = {}
 
-	for slot3, slot4 in pairs(uv0.speedRatioByIFF) do
-		uv0.IFFFactorList[slot3] = {}
+	for slot4, slot5 in pairs(uv0.speedRatioByIFF) do
+		uv0.IFFFactorList[slot4] = {}
 	end
 
 	uv0._lastCameraPos = nil
-	slot0 = pg.UIMgr.GetInstance():GetMainCamera()
+	slot1 = pg.UIMgr.GetInstance():GetMainCamera()
 
-	setActive(slot0, true)
+	if not slot0 then
+		setActive(slot1, true)
+	end
 
-	uv0._camera = slot0:GetComponent(typeof(Camera))
+	uv0._camera = slot1:GetComponent(typeof(Camera))
 	uv0._cameraTF = uv0._camera.transform
 	uv0._uiCamera = GameObject.Find("UICamera"):GetComponent(typeof(Camera))
-	slot1 = math.deg2Rad * uv0._cameraTF.localEulerAngles.x
-	uv0._camera_radian_x_sin = math.sin(slot1)
-	uv0._camera_radian_x_cos = math.cos(slot1)
+	slot2 = math.deg2Rad * uv0._cameraTF.localEulerAngles.x
+	uv0._camera_radian_x_sin = math.sin(slot2)
+	uv0._camera_radian_x_cos = math.cos(slot2)
 	uv0._camera_radian_x_tan = uv0._camera_radian_x_sin / uv0._camera_radian_x_cos
 	uv0.CameraNormalHeight = uv0._camera_radian_x_cos * uv1.CAMERA_SIZE + uv1.CAMERA_BASE_HEIGH
 	uv0.CameraFocusHeight = uv0._camera_radian_x_cos * uv1.CAST_CAM_ZOOM_SIZE + uv1.CAMERA_BASE_HEIGH
@@ -60,7 +62,7 @@ slot7 = 0
 slot8 = 0
 
 slot1.UpdateCameraPositionArgs = function()
-	slot1 = uv0._camera.orthographicSize
+	slot1 = pg.CameraFixMgr.GetInstance():GetCameraOrthographicSize(uv0._camera)
 
 	if uv0._lastCameraPos == uv0._cameraTF.position and uv0._lastCameraSize == slot1 then
 		return

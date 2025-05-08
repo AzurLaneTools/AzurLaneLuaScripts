@@ -2765,7 +2765,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Indomitable",
 		background = "",
 		sculpture = "bunao",
-		nationality = 0,
+		nationality = 2,
 		type = 1
 	},
 	[20134] = {

@@ -15,11 +15,9 @@ slot0.Ctor = function(slot0, slot1)
 	setActive(slot0.rawImage, false)
 
 	slot0.seaCameraGO = GameObject.Find("BarrageCamera")
-	slot0.seaCameraGO.tag = "MainCamera"
 	slot0.seaCamera = slot0.seaCameraGO:GetComponent(typeof(Camera))
 	slot0.seaCamera.targetTexture = slot0.rawImage.texture
 	slot0.seaCamera.enabled = true
-	slot0.mainCameraGO = pg.UIMgr.GetInstance():GetMainCamera()
 end
 
 slot0.setDisplayWeapon = function(slot0, slot1, slot2, slot3)
@@ -114,7 +112,7 @@ slot0.load = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.shipVO = slot2
 	slot0.enemyVO = slot3
 
-	ys.Battle.BattleVariable.Init()
+	ys.Battle.BattleVariable.Init(true)
 	ys.Battle.BattleVariable.UpdateCameraPositionArgs()
 	ys.Battle.BattleFXPool.GetInstance():Init()
 
@@ -195,7 +193,6 @@ slot0.load = function(slot0, slot1, slot2, slot3, slot4, slot5)
 			setImageSprite(findTF(uv0.bossHPBar, "BossIcon/icon"), ys.Battle.BattleResourceManager.GetInstance():GetCharacterSquareIcon(uv0.enemyVO:getPrefab()))
 			setText(findTF(uv0.bossHPBar, "BossNameBG/BossName"), ys.Battle.BattleDataFunction.GetPlayerShipTmpDataFromID(uv0.enemyVO.configId).name)
 			setActive(uv0.rawImage, true)
-			uv0.mainCameraGO:SetActive(false)
 			pg.TimeMgr.GetInstance():ResumeBattleTimer()
 			uv5()
 		end
@@ -281,7 +278,8 @@ slot0.updatePopUp = function(slot0)
 	LeanTween.cancel(slot0.chatPop)
 
 	if slot0.chatPop.transform:GetComponent(typeof(Animation)) then
-		ys.Battle.BattleCharacter.ChatPopAnimation(slot0.chatPop, pg.ship_skin_words[100000].skill, 4)
+		ys.Battle.BattleCharacter.ChatPopAnimation(slot0.chatPop, 4)
+		ys.Battle.BattleCharacter.setChatText(slot0.chatPop, pg.ship_skin_words[100000].skill)
 	else
 		slot2 = LeanTween.scale(rtf(slot0.chatPop.gameObject), Vector3.New(0, 0, 1), 0.1)
 		slot2 = slot2:setEase(LeanTweenType.easeInBack)
@@ -488,13 +486,9 @@ slot0.clear = function(slot0)
 
 	ys.Battle.BattleResourceManager.GetInstance():Clear()
 
-	slot0.seaCameraGO.tag = "Untagged"
+	slot0.seaCamera.enabled = true
 	slot0.seaCameraGO = nil
 	slot0.seaCamera = nil
-
-	slot0.mainCameraGO:SetActive(true)
-
-	slot0.mainCameraGO = nil
 	slot0.loading = false
 	slot0.loaded = false
 end

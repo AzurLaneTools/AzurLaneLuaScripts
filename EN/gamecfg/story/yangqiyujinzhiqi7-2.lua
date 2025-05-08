@@ -12,7 +12,7 @@ return {
 			bgm = "battle-tulipa",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "The fleet failed on at full speed, and soon the Tulipan coastline lit up by cannon fire came into view.",
+			say = "The fleet sailed on at full speed, and soon the Tulipan coastline lit up by cannon fire came into view.",
 			flashout = {
 				dur = 1,
 				black = true,

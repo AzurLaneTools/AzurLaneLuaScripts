@@ -113,10 +113,12 @@ slot0.DelFile_Old = function(slot0, slot1)
 	warning("hash path:" .. slot4)
 
 	if PathMgr.FileExists(slot4) then
+		slot5 = PathMgr.ReadAllLines(slot4):ToTable()
+		slot6 = #slot5
 		slot7 = {}
 
-		for slot11 = 0, PathMgr.ReadAllLines(slot4).Length - 1 do
-			if not slot2(slot5[slot11]) then
+		for slot11, slot12 in ipairs(slot5) do
+			if not slot2(slot12) then
 				warning("add origin hash:" .. slot12)
 				table.insert(slot7, slot12)
 			else
@@ -125,12 +127,12 @@ slot0.DelFile_Old = function(slot0, slot1)
 				slot14 = System.Array.CreateInstance(typeof(System.String), 3)
 				slot15 = string.split(slot12, ",")
 
-				for slot19 = 0, 2 do
-					slot20 = slot15[slot19 + 1]
+				for slot19 = 1, 3 do
+					slot20 = slot15[slot19]
 
 					warning("add info:" .. slot20)
 
-					slot14[slot19] = slot20
+					slot14[slot19 - 1] = slot20
 				end
 
 				table.insert(slot3, slot14)

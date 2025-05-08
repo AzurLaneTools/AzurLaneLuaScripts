@@ -109,13 +109,16 @@ slot0.BuildAssetNameDic = function(slot0, slot1)
 	slot2 = {}
 
 	for slot6, slot7 in ipairs(slot1) do
-		slot8 = string.lower(slot7)
+		slot8 = slot7
 		slot2[slot8] = slot7
+		slot2[string.lower(slot8)] = slot7
 		slot8 = GetFileName(slot8)
 		slot2[slot8] = slot7
+		slot2[string.lower(slot8)] = slot7
 
 		if string.split(slot8, ".")[1] then
 			slot2[slot8] = slot7
+			slot2[string.lower(slot8)] = slot7
 		end
 	end
 

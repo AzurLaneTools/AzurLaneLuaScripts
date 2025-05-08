@@ -68,15 +68,73 @@ PayFailed = function(slot0, slot1)
 	end
 end
 
+OnQueryProductsSucess = function(slot0)
+	slot1 = function(slot0, slot1)
+		for slot5, slot6 in ipairs(pg.pay_data_display.all) do
+			if pg.pay_data_display[slot6].id_str == slot0 and slot7.money ~= slot1 then
+				-- Nothing
+			end
+		end
+	end
+
+	for slot6 = 0, slot0.Count - 1 do
+		slot7 = slot0[slot6]
+
+		slot1(slot7.ProductID, slot7.Price)
+	end
+end
+
+OnAdRewards = function(slot0)
+end
+
+OnQuerySubscriptionSuccess = function(slot0)
+end
+
+OnRequestPayment = function(slot0)
+end
+
+OnQuerySuccess = function(slot0, slot1)
+end
+
 return {
 	CheckPretest = function ()
 		return NetConst.GATEWAY_HOST == "bl-kr-test.xdg.com" and NetConst.GATEWAY_PORT == 30001 or IsUnityEditor
+	end,
+	GetPNInfo = function ()
+		slot0 = "null"
+		slot1 = "null"
+		slot2 = "not logged in"
+
+		if getProxy(PlayerProxy) then
+			slot0 = slot3.getData(slot3).id
+			slot1 = slot3.getData(slot3).level
+			slot2 = slot3.getData(slot3).name
+		end
+
+		slot4 = "none"
+
+		if getProxy(UserProxy):getData() then
+			slot4 = getProxy(ServerProxy):getLastServer(slot6.uid).id
+		end
+
+		slot7 = PNInfo.New(slot0, slot1)
+
+		return {
+			info = PNInfo.New(slot0, slot1),
+			playerID = slot0,
+			playerName = slot2,
+			playerLevel = slot1,
+			serverID = slot4
+		}
+	end,
+	GetClientVer = function ()
+		return BundleWizard.Inst:GetGroupMgr(GroupMainHelper.DefaultGroupName).CurrentVersion:ToString()
 	end,
 	GoSDkLoginScene = function ()
 		uv0:GoLoginScene()
 	end,
 	LoginSdk = function (slot0)
-		uv0:Login(0)
+		uv0:Login()
 	end,
 	SdkGateWayLogined = function ()
 		uv0:OnGatewayLogined()
@@ -88,71 +146,42 @@ return {
 		uv0:LocalLogout()
 	end,
 	EnterServer = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6)
-		uv0:EnterServer(slot0, slot1, slot2, slot3, slot4 * 1000, slot5, "vip0", slot6)
 	end,
 	SdkLevelUp = function (slot0, slot1)
-		uv0:LevelUp(slot1, slot0)
 	end,
 	UserCenter = function ()
-		slot1 = "未登入"
+		slot0 = uv0.GetPNInfo()
 
-		if getProxy(PlayerProxy) then
-			slot1 = slot0.getData(slot0).name
-		end
-
-		uv0:UserCenter(slot1, BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString(), "1")
+		uv1:UserCenter(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
 	end,
 	BugReport = function ()
-		slot3 = getProxy(ServerProxy):getLastServer(getProxy(UserProxy):getData().uid)
-		slot5 = ""
+		slot0 = uv0.GetPNInfo()
 
-		if getProxy(PlayerProxy) then
-			slot5 = slot4.getData(slot4).name
-		end
-
-		uv0:BugReport(slot5, BundleWizard.Inst:GetGroupMgr("DEFAULT_RES").CurrentVersion:ToString(), slot3.id)
+		uv1:BugReport(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
 	end,
 	StoreReview = function ()
-		uv0:StoreReview()
+		slot0 = uv0.GetPNInfo()
+
+		uv1:StoreReview(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
 	end,
-	ShareImg = function (slot0, slot1)
-		uv0:ShareImg(slot0, slot1)
+	ShareImg = function (slot0)
+		uv0:ShareImg(slot0, "")
 	end,
 	CompletedTutorial = function ()
-		uv0:CompletedTutorial()
 	end,
 	UnlockAchievement = function ()
-		uv0:UnlockAchievement()
+	end,
+	OnAndoridBackPress = function ()
+		PressBack()
 	end,
 	QueryWithProduct = function ()
-		slot1 = function(slot0, slot1)
-			for slot5, slot6 in ipairs(pg.pay_data_display.all) do
-				if pg.pay_data_display[slot6].id_str == slot0 and slot7.money ~= slot1 then
-					originalPrint(string.format("<color=#ff0000>%s的商品价格和本地的价格不同</color> 本地价格：%s, 服务器价格：%s", slot7.name, slot7.money, slot1))
-				end
-			end
-		end
-
-		slot2 = uv0
-
-		slot2:QueryWithProduct((function ()
-			slot0 = ""
-
-			for slot4, slot5 in ipairs(pg.pay_data_display.all) do
-				slot0 = slot0 .. pg.pay_data_display[slot5].id_str .. ";"
-			end
-
-			return slot0
-		end)(), function (slot0)
-			for slot5, slot6 in ipairs(string.split(slot0, ";")) do
-				slot7 = string.split(slot6, "|")
-
-				uv0(slot7[1], slot7[2])
-			end
-		end)
 	end,
 	SdkPay = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
-		uv0:Pay(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, getProxy(PlayerProxy):getRawData().level)
+		slot10 = uv0.GetPNInfo()
+		slot11 = slot10.serverID .. "-" .. slot10.playerID .. "-" .. slot4
+
+		originalPrint("SdkPay nonce", tostring(slot11))
+		uv1:Pay(slot0, slot11, slot10.info)
 	end,
 	BindCPU = function ()
 		uv0:callSdkApi("bindCpu", nil)

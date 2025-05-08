@@ -11,11 +11,9 @@ slot0.Ctor = function(slot0, slot1)
 	setActive(slot0.rawImage, false)
 
 	slot0.seaCameraGO = GameObject.Find("BarrageCamera")
-	slot0.seaCameraGO.tag = "MainCamera"
 	slot0.seaCamera = slot0.seaCameraGO:GetComponent(typeof(Camera))
 	slot0.seaCamera.targetTexture = slot0.rawImage.texture
 	slot0.seaCamera.enabled = true
-	slot0.mainCameraGO = pg.UIMgr.GetInstance():GetMainCamera()
 	slot0.displayFireFX = true
 	slot0.displayHitFX = false
 end
@@ -52,7 +50,7 @@ slot0.load = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.loading = true
 	slot0.shipVO = slot2
 
-	ys.Battle.BattleVariable.Init()
+	ys.Battle.BattleVariable.Init(true)
 	ys.Battle.BattleFXPool.GetInstance():Init()
 
 	slot5 = ys.Battle.BattleResourceManager.GetInstance()
@@ -147,7 +145,6 @@ slot0.load = function(slot0, slot1, slot2, slot3, slot4)
 			end
 
 			setActive(uv0.rawImage, true)
-			uv0.mainCameraGO:SetActive(false)
 			pg.TimeMgr.GetInstance():ResumeBattleTimer()
 			uv0:onWeaponUpdate()
 			uv5()
@@ -755,13 +752,9 @@ slot0.clear = function(slot0)
 
 	ys.Battle.BattleResourceManager.GetInstance():Clear()
 
-	slot0.seaCameraGO.tag = "Untagged"
+	slot0.seaCamera.enabled = false
 	slot0.seaCameraGO = nil
 	slot0.seaCamera = nil
-
-	slot0.mainCameraGO:SetActive(true)
-
-	slot0.mainCameraGO = nil
 	slot0.loading = false
 	slot0.loaded = false
 

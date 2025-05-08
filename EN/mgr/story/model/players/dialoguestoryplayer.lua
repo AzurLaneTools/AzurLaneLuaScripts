@@ -169,9 +169,7 @@ slot0.HideSpineEffect = function(slot0, slot1)
 	slot0.spineEffectOrderCaches = {}
 
 	slot2 = function(slot0)
-		for slot5 = 1, slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
-			slot6 = slot1[slot5 - 1]
-
+		for slot5, slot6 in ipairs(slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
 			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6, -1)
 
 			uv0.spineEffectOrderCaches[slot6] = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6)
@@ -188,8 +186,8 @@ slot0.RevertSpineEffect = function(slot0, slot1, slot2)
 	end
 
 	slot3 = function(slot0)
-		for slot5 = 1, slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
-			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6, uv0[slot1[slot5 - 1]] or 950)
+		for slot5, slot6 in ipairs(slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
+			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot6, uv0[slot6] or 950)
 		end
 	end
 
@@ -516,11 +514,11 @@ slot0.AddHeadMask = function(slot0, slot1)
 	slot3 = slot2:GetChild(0)
 	slot4 = slot3:Find("face")
 	slot5 = cloneTplTo(slot4, slot4.parent, "head_mask")
-	slot7 = slot1:GetComponentsInChildren(typeof(Image))
+	slot7 = slot1:GetComponentsInChildren(typeof(Image)):ToTable()
 
 	if slot3:Find("layers") then
-		for slot11 = 0, slot7.Length - 1 do
-			if slot7[slot11].gameObject.name == "head_mask" then
+		for slot11, slot12 in ipairs(slot7) do
+			if slot12.gameObject.name == "head_mask" then
 				slot12.material = slot0.headMaskMat
 			elseif slot12.gameObject.name == "face" then
 				-- Nothing
@@ -529,8 +527,8 @@ slot0.AddHeadMask = function(slot0, slot1)
 			end
 		end
 	else
-		for slot11 = 0, slot7.Length - 1 do
-			if slot7[slot11].gameObject.name == "head_mask" then
+		for slot11, slot12 in ipairs(slot7) do
+			if slot12.gameObject.name == "head_mask" then
 				slot12.material = slot0.headMaskMat
 			elseif slot12.gameObject.name ~= "face" then
 				slot12.material = slot0.headObjectMat
@@ -546,8 +544,7 @@ slot0.ClearHeadMask = function(slot0, slot1)
 
 	Destroy(slot2:GetChild(0):Find("head_mask").gameObject)
 
-	for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-		slot10 = slot5[slot9]
+	for slot9, slot10 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
 		slot10.material = slot10.defaultGraphicMaterial
 	end
 end
@@ -636,17 +633,17 @@ end
 slot7 = function(slot0, slot1, slot2)
 	slot4 = nil
 
-	for slot8 = 1, slot0:GetComponentsInChildren(typeof(Canvas)).Length do
-		slot4 = slot3[slot8 - 1].sortingOrder
+	for slot8, slot9 in ipairs(slot0:GetComponentsInChildren(typeof(Canvas)):ToTable()) do
+		slot4 = slot9.sortingOrder
 	end
 
 	slot5 = math.huge
 
-	if slot1:GetComponentsInChildren(typeof(Canvas)).Length == 0 then
+	if #slot1:GetComponentsInChildren(typeof(Canvas)):ToTable() == 0 then
 		slot5 = 0
 	else
-		for slot10 = 1, slot6.Length do
-			if slot5 > slot6[slot10 - 1].sortingOrder - slot4 then
+		for slot10, slot11 in ipairs(slot6) do
+			if slot5 > slot11.sortingOrder - slot4 then
 				slot5 = slot12
 			end
 		end
@@ -654,8 +651,8 @@ slot7 = function(slot0, slot1, slot2)
 
 	slot8 = {}
 
-	for slot12 = 1, slot1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
-		slot14 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot7[slot12 - 1])
+	for slot12, slot13 in ipairs(slot1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
+		slot14 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot13)
 		slot8[slot12] = slot14
 
 		if slot5 > slot14 - slot4 then
@@ -665,14 +662,13 @@ slot7 = function(slot0, slot1, slot2)
 
 	slot9 = slot2 - slot5 + 1
 
-	for slot13 = 1, slot3.Length do
-		slot3[slot13 - 1].sortingOrder = slot9 + slot13 - 1
+	for slot13, slot14 in ipairs(slot3) do
+		slot14.sortingOrder = slot9 + slot13 - 1
 	end
 
 	slot10 = slot9 + 1
 
-	for slot14 = 1, slot6.Length do
-		slot15 = slot6[slot14 - 1]
+	for slot14, slot15 in ipairs(slot6) do
 		slot16 = slot9 + slot15.sortingOrder - slot4
 		slot15.sortingOrder = slot16
 
@@ -681,10 +677,10 @@ slot7 = function(slot0, slot1, slot2)
 		end
 	end
 
-	for slot14 = 1, slot7.Length do
+	for slot14, slot15 in ipairs(slot7) do
 		slot17 = slot9 + slot8[slot14] - slot4
 
-		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot7[slot14 - 1], slot17)
+		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot15, slot17)
 
 		if slot9 < slot17 then
 			slot10 = slot17
@@ -695,14 +691,14 @@ slot7 = function(slot0, slot1, slot2)
 end
 
 slot8 = function(slot0, slot1, slot2)
-	slot4 = slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer"))
+	slot4 = slot0:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()
 	slot5 = math.huge
 
-	if slot0:GetComponentsInChildren(typeof(Canvas)).Length == 0 then
+	if #slot0:GetComponentsInChildren(typeof(Canvas)):ToTable() == 0 then
 		slot5 = 0
 	else
-		for slot9 = 1, slot3.Length do
-			if slot3[slot9 - 1].sortingOrder < slot5 then
+		for slot9, slot10 in ipairs(slot3) do
+			if slot10.sortingOrder < slot5 then
 				slot5 = slot11
 			end
 		end
@@ -710,8 +706,8 @@ slot8 = function(slot0, slot1, slot2)
 
 	slot6 = {}
 
-	for slot10 = 1, slot4.Length do
-		slot12 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot10 - 1])
+	for slot10, slot11 in ipairs(slot4) do
+		slot12 = ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot11)
 		slot6[slot10] = slot12
 
 		if slot12 < slot5 then
@@ -721,8 +717,7 @@ slot8 = function(slot0, slot1, slot2)
 
 	slot8 = slot2 + 1 - slot5
 
-	for slot12 = 1, slot3.Length do
-		slot13 = slot3[slot12 - 1]
+	for slot12, slot13 in ipairs(slot3) do
 		slot14 = slot8 + slot13.sortingOrder
 		slot13.sortingOrder = slot14
 
@@ -731,10 +726,10 @@ slot8 = function(slot0, slot1, slot2)
 		end
 	end
 
-	for slot12 = 1, slot4.Length do
+	for slot12, slot13 in ipairs(slot4) do
 		slot15 = slot8 + slot6[slot12]
 
-		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot12 - 1], slot15)
+		ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot13, slot15)
 
 		if slot15 < slot7 then
 			slot7 = slot15
@@ -1131,8 +1126,8 @@ slot0.StartMovePrevPaintingToSide = function(slot0, slot1, slot2, slot3)
 end
 
 slot10 = function(slot0, slot1, slot2, slot3, slot4)
-	for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-		if slot5[slot9].gameObject.name == "temp_mask" then
+	for slot9, slot10 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
+		if slot10.gameObject.name == "temp_mask" then
 			slot10.material = slot4 and slot0.maskMaterial or slot0.maskMaterialForWithLayer
 		elseif slot10.gameObject.name == "face" then
 			slot10.material = slot0.glitchArtMaterial
@@ -1145,7 +1140,7 @@ slot10 = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot11 = function(slot0, slot1, slot2, slot3, slot4)
-	slot5 = slot1:GetComponentsInChildren(typeof(Image))
+	slot5 = slot1:GetComponentsInChildren(typeof(Image)):ToTable()
 	slot6 = {}
 
 	if slot2:GetComponent(typeof(Image)) then
@@ -1156,8 +1151,8 @@ slot11 = function(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot6, slot4:GetChild(slot11 - 1).gameObject)
 	end
 
-	for slot11 = 0, slot5.Length - 1 do
-		if slot5[slot11].gameObject.name == "temp_mask" then
+	for slot11, slot12 in ipairs(slot5) do
+		if slot12.gameObject.name == "temp_mask" then
 			slot12.material = slot0.maskMaterial
 		elseif slot12.gameObject.name == "face" then
 			slot12.material = slot0.glitchArtMaterial
@@ -1183,8 +1178,8 @@ slot0.AddGlitchArtEffectForPating = function(slot0, slot1, slot2, slot3)
 			uv1(slot0, slot1, slot2, slot3, slot9)
 		end
 	elseif slot4 then
-		for slot10 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot6[slot10].material = slot0.glitchArtMaterial
+		for slot10, slot11 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
+			slot11.material = slot0.glitchArtMaterial
 		end
 	end
 
@@ -1296,8 +1291,7 @@ slot12 = function(slot0)
 			setActive(slot2, false)
 		end
 
-		for slot7 = 0, slot0:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot8 = slot3[slot7]
+		for slot7, slot8 in ipairs(slot0:GetComponentsInChildren(typeof(Image)):ToTable()) do
 			slot9 = Color.white
 
 			if slot8.material ~= slot8.defaultGraphicMaterial then
@@ -1338,8 +1332,7 @@ slot0.ResetMeshPainting = function(slot0, slot1)
 			setActive(slot3, false)
 		end
 
-		for slot8 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot9 = slot4[slot8]
+		for slot8, slot9 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
 			slot10 = Color.white
 
 			if slot9.material ~= slot9.defaultGraphicMaterial then

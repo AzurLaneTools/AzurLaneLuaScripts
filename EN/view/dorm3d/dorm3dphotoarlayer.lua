@@ -63,7 +63,6 @@ slot0.init = function(slot0)
 	setActive(slot0.shareUI, false)
 
 	slot0.ysScreenShoter = slot0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
-	slot0.ysScreenRecorder = slot0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenRecorder))
 
 	setText(slot0.panelCamera:Find("Layout/DepthOfField/Title/Text"), i18n("dorm3d_photo_len"))
 	setText(slot0.panelCamera:Find("Layout/DepthOfField/Switch/Title"), i18n("dorm3d_photo_depthoffield"))
@@ -86,7 +85,7 @@ slot0.init = function(slot0)
 	setText(slot0.panelAction:Find("Layout/Title/Special/Name"), i18n("dorm3d_photo_special_anim"))
 	setText(slot0.panelAction:Find("Layout/Title/Special/Selected"), i18n("dorm3d_photo_special_anim"))
 
-	slot0.mainCamera = GameObject.Find("AR/AR Session Origin/AR Camera"):GetComponent(typeof(Camera))
+	slot0.mainCamera = GameObject.Find("AR/XR Origin/Camera Offset/Main Camera"):GetComponent(typeof(Camera))
 	slot0.stopRecBtn = slot0:findTF("stopRec")
 	slot0.videoTipPanel = slot0:findTF("videoTipPanel")
 
@@ -175,9 +174,6 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.btnReset, function ()
 		uv0:emit(Dorm3dPhotoARMediator.SCENE_CALL, "ResetPhotoCameraPosition")
 	end, SFX_PANEL)
-
-	slot0.recordState = false
-
 	onButton(slot0, slot0.btnFilm, function ()
 		slot0 = function(slot0)
 			setActive(uv0.centerPanel, slot0)
@@ -189,52 +185,45 @@ slot0.didEnter = function(slot0)
 
 		if not uv0.recordState then
 			slot1 = function(slot0)
-				if slot0 ~= -1 then
+				if not slot0 then
 					uv0(true)
 
 					uv1.recordState = false
 
 					LeanTween.moveX(uv1.stopRecBtn, uv1.stopRecBtn.rect.width, 0.15)
+				else
+					uv1.recordState = true
 				end
 			end
 
-			slot2 = function(slot0)
-				warning("开始录屏结果：" .. tostring(slot0))
-			end
-
-			slot3 = function()
+			slot2 = function()
 				setActive(uv0.stopRecBtn, true)
 				LeanTween.moveX(uv0.stopRecBtn, 0, 0.15):setOnComplete(System.Action(function ()
 					uv0.SetMute(true)
-					uv1.ysScreenRecorder:BeforeStart()
-					uv1.ysScreenRecorder:StartRecord(uv2, uv3)
-				end))
 
-				if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "2" then
-					print("start recording : play sound")
-					NotificationMgr.Inst:PlayStartRecordSound()
-				end
+					uv1.recordFilePath = YSNormalTool.RecordTool.GenRecordFilePath()
+
+					YSNormalTool.RecordTool.StartRecording(uv2, uv1.recordFilePath)
+				end))
 			end
 
 			seriesAsync({
 				function (slot0)
-					CameraHelper.Request3DDorm(slot0, nil)
+					PermissionHelper.Request3DDorm(slot0, nil)
 				end,
 				function (slot0)
-					uv0.recordState = true
-
-					uv1(false)
+					uv0(false)
 
 					if not PlayerPrefs.GetInt("hadShowForVideoTipDorm", 0) or slot1 <= 0 then
 						PlayerPrefs.SetInt("hadShowForVideoTipDorm", 1)
 
-						uv0:findTF("Text", uv0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
+						uv1:findTF("Text", uv1.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
 
-						onButton(uv0, uv0.videoTipPanel, function ()
+						onButton(uv1, uv1.videoTipPanel, function ()
 							setActive(uv0.videoTipPanel, false)
 							uv1()
 						end)
-						setActive(uv0.videoTipPanel, true)
+						setActive(uv1.videoTipPanel, true)
 					else
 						uv2()
 					end
@@ -243,10 +232,30 @@ slot0.didEnter = function(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.stopRecBtn, function ()
-		uv0.recordState = false
-
 		slot0 = function(slot0)
-			warning("结束录屏结果：" .. tostring(slot0))
+			if slot0 and PLATFORM == PLATFORM_ANDROID then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("word_save_video"),
+					onNo = function ()
+						if System.IO.File.Exists(uv0.recordFilePath) then
+							System.IO.File.Delete(uv0.recordFilePath)
+						end
+					end,
+					onYes = function ()
+						YSNormalTool.MediaTool.SaveVideoToAlbum(uv0.recordFilePath, function (slot0, slot1)
+							if slot0 then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+
+								if System.IO.File.Exists(uv0.recordFilePath) then
+									System.IO.File.Delete(uv0.recordFilePath)
+								end
+							end
+						end)
+					end
+				})
+			end
+
+			uv0.recordState = false
 		end
 
 		slot1 = function(slot0)
@@ -262,22 +271,9 @@ slot0.didEnter = function(slot0)
 				setActive(uv0.stopRecBtn, false)
 				seriesAsync({
 					function (slot0)
-						uv0.ysScreenRecorder:StopRecord(uv1)
-
-						if PLATFORM == PLATFORM_ANDROID then
-							pg.MsgboxMgr.GetInstance():ShowMsgBox({
-								content = i18n("word_save_video"),
-								onNo = function ()
-									uv0.ysScreenRecorder:DiscardVideo()
-								end,
-								onYes = function ()
-									MediaSaver.SaveVideoWithPath(uv0.ysScreenRecorder:GetVideoFilePath())
-								end
-							})
-						end
-
-						uv2(true)
-						uv3.SetMute(false)
+						YSNormalTool.RecordTool.StopRecording(uv0)
+						uv1(true)
+						uv2.SetMute(false)
 					end
 				})
 			end))
@@ -309,12 +305,6 @@ slot0.didEnter = function(slot0)
 		end)(true)
 		(function (slot0, slot1)
 			uv0:emit(Dorm3dPhotoARMediator.SHARE_PANEL, slot1, slot0)
-
-			if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "2" then
-				print("start photo : play sound")
-				NotificationMgr.Inst:PlayShutterSound()
-			end
-
 			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.groupId, 3, uv0.room:GetConfigID(), Dorm3dCameraAnim.New({
 				configId = uv0.animID
 			}):GetStateName()))
@@ -584,13 +574,13 @@ end
 
 slot0.SetMute = function(slot0)
 	if slot0 then
-		CriAtom.SetCategoryVolume("Category_CV", 0)
-		CriAtom.SetCategoryVolume("Category_BGM", 0)
-		CriAtom.SetCategoryVolume("Category_SE", 0)
+		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
+		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
+		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
 	else
-		CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
-		CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
-		CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
+		CriWare.CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
+		CriWare.CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
+		CriWare.CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
 	end
 end
 

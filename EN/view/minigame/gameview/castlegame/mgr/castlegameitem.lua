@@ -217,16 +217,15 @@ slot0.step = function(slot0)
 
 	for slot4 = #slot0.booms, 1, -1 do
 		slot6 = slot0.booms[slot4].tf.anchoredPosition
-		slot8 = {}
+		slot7 = {}
 
-		for slot12 = 0, slot0.booms[slot4].bound.points.Length - 1 do
-			slot13 = slot7[slot12]
-			findTF(slot5.tf, "zPos/" .. slot12 + 1).anchoredPosition = Vector2(slot13.x, slot13.y)
+		for slot11, slot12 in ipairs(slot0.booms[slot4].bound.points:ToTable()) do
+			findTF(slot5.tf, "zPos/" .. slot11 + 1).anchoredPosition = Vector2(slot12.x, slot12.y)
 
-			table.insert(slot8, Vector2(slot6.x + slot13.x, slot6.y + slot13.y))
+			table.insert(slot7, Vector2(slot6.x + slot12.x, slot6.y + slot12.y))
 		end
 
-		slot5.boundPoints = slot8
+		slot5.boundPoints = slot7
 
 		if slot5.ready and slot5.ready > 0 then
 			slot5.ready = slot5.ready - CastleGameVo.deltaTime

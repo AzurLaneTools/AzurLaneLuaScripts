@@ -3885,7 +3885,117 @@ pg.activity_ins_chat_language = setmetatable({
 		3882,
 		3883,
 		3884,
-		3885
+		3885,
+		3886,
+		3887,
+		3888,
+		3889,
+		3890,
+		3891,
+		3892,
+		3893,
+		3894,
+		3895,
+		3896,
+		3897,
+		3898,
+		3899,
+		3900,
+		3901,
+		3902,
+		3903,
+		3904,
+		3905,
+		3906,
+		3907,
+		3908,
+		3909,
+		3910,
+		3911,
+		3912,
+		3913,
+		3914,
+		3915,
+		3916,
+		3917,
+		3918,
+		3919,
+		3920,
+		3921,
+		3922,
+		3923,
+		3924,
+		3925,
+		3926,
+		3927,
+		3928,
+		3929,
+		3930,
+		3931,
+		3932,
+		3933,
+		3934,
+		3935,
+		3936,
+		3937,
+		3938,
+		3939,
+		3940,
+		3941,
+		3942,
+		3943,
+		3944,
+		3945,
+		3946,
+		3947,
+		3948,
+		3949,
+		3950,
+		3951,
+		3952,
+		3953,
+		3954,
+		3955,
+		3956,
+		3957,
+		3958,
+		3959,
+		3960,
+		3961,
+		3962,
+		3963,
+		3964,
+		3965,
+		3966,
+		3967,
+		3968,
+		3969,
+		3970,
+		3971,
+		3972,
+		3973,
+		3974,
+		3975,
+		3976,
+		3977,
+		3978,
+		3979,
+		3980,
+		3981,
+		3982,
+		3983,
+		3984,
+		3985,
+		3986,
+		3987,
+		3988,
+		3989,
+		3990,
+		3991,
+		3992,
+		3993,
+		3994,
+		3995
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -38788,5 +38898,967 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 3885,
 		flag = 14
+	},
+	[3886] = {
+		param = "Commander I'd like to share one of my secret tricks with you",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3886,
+		flag = 0
+	},
+	[3887] = {
+		param = "You know it's hard to maintain focus during a meeting right?",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3887,
+		flag = 0
+	},
+	[3888] = {
+		param = "When that happens, just take a break to reset your concentration",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3888,
+		flag = 0
+	},
+	[3889] = {
+		param = "One thing you can do is close your eyes for a bit and vacate your head",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3889,
+		flag = 0
+	},
+	[3890] = {
+		param = "The next time you open them your focus should be much higher",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3890,
+		flag = 0
+	},
+	[3891] = {
+		param = "Of course the most important thing when doing this is to make it look like you're thinking",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3891,
+		flag = 0
+	},
+	[3892] = {
+		param = "This is VERY VERY important",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3892,
+		flag = 0
+	},
+	[3893] = {
+		param = "Otherwise you'll get a slap on the head like my sisters do to me",
+		ship_group = 20712,
+		type = 1,
+		id = 3893,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I didn't know there was such depth to it..."
+			}
+		}
+	},
+	[3894] = {
+		param = "I didn't know there was such depth to slacking off.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3894,
+		flag = 1
+	},
+	[3895] = {
+		param = "54",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3895,
+		flag = 1
+	},
+	[3896] = {
+		param = "Slacking off?",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3896,
+		flag = 1
+	},
+	[3897] = {
+		param = "You're completely and utterly mistaken if you think it's slacking",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3897,
+		flag = 1
+	},
+	[3898] = {
+		param = "This is what's known as the art of taking breaks",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3898,
+		flag = 1
+	},
+	[3899] = {
+		param = "Taking breaks will in fact improve your memory and concentration",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3899,
+		flag = 1
+	},
+	[3900] = {
+		param = "Perhaps I should establish a school of thought for this, after all this is a",
+		ship_group = 20712,
+		type = 1,
+		id = 3900,
+		flag = 1,
+		option = {
+			{
+				2,
+				"This is a what?"
+			}
+		}
+	},
+	[3901] = {
+		param = "This is a what?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3901,
+		flag = 2
+	},
+	[3902] = {
+		param = "Typing is too much work I'm going to switch to voice input for a bit",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3902,
+		flag = 2
+	},
+	[3903] = {
+		param = "I was going to say this is a groundbreaking discovery",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3903,
+		flag = 2
+	},
+	[3904] = {
+		param = "But even just thinking about establishing a school is a lot of work",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3904,
+		flag = 2
+	},
+	[3905] = {
+		param = "So never mind",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3905,
+		flag = 2
+	},
+	[3906] = {
+		param = "Maybe if I made the school just for myself, that sounds quite alright",
+		ship_group = 20712,
+		type = 1,
+		id = 3906,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Can I join?"
+			}
+		}
+	},
+	[3907] = {
+		param = "Can I join?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3907,
+		flag = 3
+	},
+	[3908] = {
+		param = "That depends on how sincere you are",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3908,
+		flag = 3
+	},
+	[3909] = {
+		param = "Start by coming up with a resting trick that won't get you caught to please",
+		ship_group = 20712,
+		type = 1,
+		id = 3909,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Pretending to read some papers..."
+			},
+			{
+				5,
+				"Drinking water all the time..."
+			}
+		}
+	},
+	[3910] = {
+		param = "You could pretend to flip through some papers while not reading them at all.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3910,
+		flag = 4
+	},
+	[3911] = {
+		param = "How about drinking water all the time? Then just take a good 10 minutes to come back every time you leave for a refill.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3911,
+		flag = 5
+	},
+	[3912] = {
+		param = "Hmm",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3912,
+		flag = 0
+	},
+	[3913] = {
+		param = "That's brilliant!",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3913,
+		flag = 0
+	},
+	[3914] = {
+		param = "I've racked my brains quite a bit and still I'm no match for your ingenuity",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3914,
+		flag = 0
+	},
+	[3915] = {
+		param = "I hereby issue your certificate of graduation",
+		ship_group = 20712,
+		type = 1,
+		id = 3915,
+		flag = 0,
+		option = {
+			{
+				6,
+				"But I haven't even enrolled yet!"
+			}
+		}
+	},
+	[3916] = {
+		param = "But I haven't even enrolled yet!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3916,
+		flag = 6
+	},
+	[3917] = {
+		param = "Geniuses don't need to follow the rules of ordinary people",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3917,
+		flag = 6
+	},
+	[3918] = {
+		param = "We should discuss the art of taking breaks like this more often",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3918,
+		flag = 6
+	},
+	[3919] = {
+		param = "There's no doubt in my mind that you'll give me lots of inspiration",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3919,
+		flag = 6
+	},
+	[3920] = {
+		param = "Frankly it's so much effort having to constantly come up with ways to get longer breaks",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3920,
+		flag = 6
+	},
+	[3921] = {
+		param = "If I didn't have to do anything...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3921,
+		flag = 6
+	},
+	[3922] = {
+		param = "If the most I had to do was go out to meet you...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3922,
+		flag = 6
+	},
+	[3923] = {
+		param = "I think that would be the best kind of life possible",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3923,
+		flag = 6
+	},
+	[3924] = {
+		param = "My sisters forced me to attend a tea party of theirs today",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3924,
+		flag = 0
+	},
+	[3925] = {
+		param = "So I never got to take a nap...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3925,
+		flag = 0
+	},
+	[3926] = {
+		param = "Now I'm sleepy",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3926,
+		flag = 0
+	},
+	[3927] = {
+		param = "Even typing takes too much",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3927,
+		flag = 0
+	},
+	[3928] = {
+		param = "Ah forget it",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3928,
+		flag = 0
+	},
+	[3929] = {
+		param = "Night night",
+		ship_group = 20712,
+		type = 1,
+		id = 3929,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Does it affect you that much?"
+			}
+		}
+	},
+	[3930] = {
+		param = "Does simply not having a nap affect you that much?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3930,
+		flag = 1
+	},
+	[3931] = {
+		param = "Don't you know the saying?",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3931,
+		flag = 1
+	},
+	[3932] = {
+		param = "Skip sleep in the noon, you'll be dead tired soon",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3932,
+		flag = 1
+	},
+	[3933] = {
+		param = "For this reason, I strongly advise incorporating a nap into everyone's schedule",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3933,
+		flag = 1
+	},
+	[3934] = {
+		param = "Especially yours",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3934,
+		flag = 1
+	},
+	[3935] = {
+		param = "You need to set a good example",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3935,
+		flag = 1
+	},
+	[3936] = {
+		param = "60",
+		ship_group = 20712,
+		type = 4,
+		id = 3936,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Alright. I'll consider it."
+			},
+			{
+				3,
+				"Napping wastes too much time."
+			}
+		}
+	},
+	[3937] = {
+		param = "Alright. I'll consider it.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3937,
+		flag = 2
+	},
+	[3938] = {
+		param = "I'm glad you're heeding my advice",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3938,
+		flag = 2
+	},
+	[3939] = {
+		param = "You don't usually do that",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3939,
+		flag = 2
+	},
+	[3940] = {
+		param = "You're not just saying that when in reality you're going to keep overworking yourself, right?",
+		ship_group = 20712,
+		type = 1,
+		id = 3940,
+		flag = 2,
+		option = {
+			{
+				4,
+				"I'll nap if I find the time."
+			}
+		}
+	},
+	[3941] = {
+		param = "I can't do it. Napping wastes too much time.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3941,
+		flag = 3
+	},
+	[3942] = {
+		param = "Occasional breaks sharpen the mind and let you stay productive",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3942,
+		flag = 3
+	},
+	[3943] = {
+		param = "You can take a break and still get work done",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3943,
+		flag = 3
+	},
+	[3944] = {
+		param = "Truth be told, I wish I could snap my fingers and erase all your work schedules...",
+		ship_group = 20712,
+		type = 1,
+		id = 3944,
+		flag = 3,
+		option = {
+			{
+				4,
+				"I'll nap if I find the time."
+			}
+		}
+	},
+	[3945] = {
+		param = "I'll nap if I find the time.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3945,
+		flag = 4
+	},
+	[3946] = {
+		param = "But when things get really busy, I might not have much choice but to put it off.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3946,
+		flag = 4
+	},
+	[3947] = {
+		param = "Sounds like you need someone to supervise you",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3947,
+		flag = 4
+	},
+	[3948] = {
+		param = "Oh dear, this is going to be a bother...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3948,
+		flag = 4
+	},
+	[3949] = {
+		param = "But thinking in the long term, it will make life more comfortable...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3949,
+		flag = 4
+	},
+	[3950] = {
+		param = "Okay I've made up my mind, I'll be your nap supervisor",
+		ship_group = 20712,
+		type = 1,
+		id = 3950,
+		flag = 4,
+		option = {
+			{
+				5,
+				"How are you going to supervise me?"
+			}
+		}
+	},
+	[3951] = {
+		param = "How are you going to supervise me?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3951,
+		flag = 5
+	},
+	[3952] = {
+		param = "Well I haven't thought that far yet",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3952,
+		flag = 5
+	},
+	[3953] = {
+		param = "It's a big deal that must be taken seriously after all",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3953,
+		flag = 5
+	},
+	[3954] = {
+		param = "Like for instance if you don't comply, I'll execute my lap pillow plan",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3954,
+		flag = 5
+	},
+	[3955] = {
+		param = "Or maybe I'll nap with you instead?",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3955,
+		flag = 5
+	},
+	[3956] = {
+		param = "I'll have to think hard about the practicality of it",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3956,
+		flag = 5
+	},
+	[3957] = {
+		param = "But right now my head feels like it's going to burst",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3957,
+		flag = 5
+	},
+	[3958] = {
+		param = "My future self will work something out tomorrow...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3958,
+		flag = 5
+	},
+	[3959] = {
+		param = "57",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3959,
+		flag = 5
+	},
+	[3960] = {
+		param = "Commander, I bring you an important report",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3960,
+		flag = 0
+	},
+	[3961] = {
+		param = "Have you considered starting a working in pyjamas revolution?",
+		ship_group = 20712,
+		type = 1,
+		id = 3961,
+		flag = 0,
+		option = {
+			{
+				1,
+				"That doesn't sound like a good thing."
+			}
+		}
+	},
+	[3962] = {
+		param = "That doesn't sound like a good thing.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3962,
+		flag = 1
+	},
+	[3963] = {
+		param = "107",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3963,
+		flag = 1
+	},
+	[3964] = {
+		param = "I should've elaborated on what I mean... although elaborating is such a chore",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3964,
+		flag = 1
+	},
+	[3965] = {
+		param = "In short",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3965,
+		flag = 1
+	},
+	[3966] = {
+		param = "After waking up, we have to wash our faces, get changed, and physically go to work",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3966,
+		flag = 1
+	},
+	[3967] = {
+		param = "That whole morning routine takes way too much time",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3967,
+		flag = 1
+	},
+	[3968] = {
+		param = "So let's skip it",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3968,
+		flag = 1
+	},
+	[3969] = {
+		param = "It would be more efficient to start working from your bed right after waking up, wouldn't it?",
+		ship_group = 20712,
+		type = 1,
+		id = 3969,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I can't get into the work mindset like that..."
+			}
+		}
+	},
+	[3970] = {
+		param = "I can't get into the work mindset in my own quarters.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3970,
+		flag = 2
+	},
+	[3971] = {
+		param = "Plus I'd be at risk of dozing off if I worked from my bed.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3971,
+		flag = 2
+	},
+	[3972] = {
+		param = "That's because you're not getting enough sleep",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3972,
+		flag = 2
+	},
+	[3973] = {
+		param = "You'd be better off just sleeping, then when you wake up and resume work you'll be able to concentrate better",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3973,
+		flag = 2
+	},
+	[3974] = {
+		param = "Your productivity will shoot through the roof",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3974,
+		flag = 2
+	},
+	[3975] = {
+		param = "That is the secret to a healthy work and life balance",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3975,
+		flag = 2
+	},
+	[3976] = {
+		param = "I'll bet that you've never experienced a full night's sleep",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3976,
+		flag = 2
+	},
+	[3977] = {
+		param = "Then again who am I to talk when I've never felt like I've slept as much as I'd like to...",
+		ship_group = 20712,
+		type = 1,
+		id = 3977,
+		flag = 2,
+		option = {
+			{
+				3,
+				"I have, actually."
+			},
+			{
+				4,
+				"I can't say I have."
+			}
+		}
+	},
+	[3978] = {
+		param = "Of course I have. And you're right, I feel so much sharper after getting plenty of sleep.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3978,
+		flag = 3
+	},
+	[3979] = {
+		param = "See? That's what I mean",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3979,
+		flag = 3
+	},
+	[3980] = {
+		param = "It's smarter to step back and gather yourself rather than force yourself to push on",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3980,
+		flag = 3
+	},
+	[3981] = {
+		param = "Now that you mention it, yeah, I've always had too much to do to indulge in such a luxury.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3981,
+		flag = 4
+	},
+	[3982] = {
+		param = "You poor thing...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3982,
+		flag = 4
+	},
+	[3983] = {
+		param = "Then I will help you experience that feeling for the first time",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3983,
+		flag = 4
+	},
+	[3984] = {
+		param = "Which brings us to step 1 of the working in pyjamas revolution",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3984,
+		flag = 0
+	},
+	[3985] = {
+		param = "We can do a one-day test run of it over in my flat",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3985,
+		flag = 0
+	},
+	[3986] = {
+		param = "Tomorrow would be perfect I think",
+		ship_group = 20712,
+		type = 1,
+		id = 3986,
+		flag = 0,
+		option = {
+			{
+				5,
+				"That's just an excuse, isn't it?"
+			}
+		}
+	},
+	[3987] = {
+		param = "You just want an excuse not to get up early tomorrow, don't you?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3987,
+		flag = 5
+	},
+	[3988] = {
+		param = "225",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3988,
+		flag = 5
+	},
+	[3989] = {
+		param = "Not at all, I'm completely serious about this working in pyjamas thing",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3989,
+		flag = 5
+	},
+	[3990] = {
+		param = "And if you don't believe me...",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3990,
+		flag = 5
+	},
+	[3991] = {
+		param = "Why don't you come and see me after you're done for today?",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3991,
+		flag = 5
+	},
+	[3992] = {
+		param = "I'll let you have half of my bed",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3992,
+		flag = 5
+	},
+	[3993] = {
+		param = "Also, there isn't much room to put paperwork",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3993,
+		flag = 5
+	},
+	[3994] = {
+		param = "So please don't bring too much of it",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3994,
+		flag = 5
+	},
+	[3995] = {
+		param = "Oh I can't wait to wake up and see you first thing tomorrow",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3995,
+		flag = 5
 	}
 }

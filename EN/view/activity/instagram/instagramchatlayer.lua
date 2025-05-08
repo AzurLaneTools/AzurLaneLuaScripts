@@ -253,7 +253,7 @@ slot0.UpdateChatContent = function(slot0, slot1, slot2, slot3)
 			slot0.paintingName = nil
 		end
 
-		setImageSprite(slot7, LoadSprite("ui/" .. slot1.groupBackground), true)
+		setImageSprite(slot7, LoadSprite("ui/InstagramChatBackgrounds_atlas", slot1.groupBackground), true)
 	end
 
 	slot8 = slot1.currentTopic:GetDisplayWordList()

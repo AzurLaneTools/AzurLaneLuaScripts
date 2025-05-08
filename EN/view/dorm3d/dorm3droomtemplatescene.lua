@@ -159,12 +159,12 @@ slot0.SetRoom = function(slot0, slot1)
 end
 
 slot0.preload = function(slot0, slot1)
-	tolua.loadassembly("MagicaCloth")
+	tolua.loadassembly("MagicaClothV2")
 	tolua.loadassembly("ParadoxNotion")
+	tolua.loadassembly("Yongshi.BLRP.Runtime")
 
 	for slot5, slot6 in pairs({
-		_MonoManager = "ParadoxNotion.Services.MonoManager",
-		MagicaPhysicsManager = "MagicaCloth.MagicaPhysicsManager"
+		_MonoManager = "ParadoxNotion.Services.MonoManager"
 	}) do
 		if not GameObject.Find(slot5) then
 			GetOrAddComponent(GameObject.New(slot5), typeof(slot6))
@@ -176,7 +176,7 @@ slot0.preload = function(slot0, slot1)
 	slot2 = {}
 
 	table.insert(slot2, function (slot0)
-		uv0.dormSceneMgr = Dorm3dSceneMgr.New(string.lower(uv0.room:getConfig("scene_info")), slot0)
+		uv0.dormSceneMgr = Dorm3dSceneMgr.New(uv0.room:getConfig("scene_info"), slot0)
 	end)
 	table.insert(slot2, function (slot0)
 		uv0:LoadCharacter(uv0.contextData.groupIds, slot0)
@@ -487,7 +487,7 @@ slot0.initScene = function(slot0)
 		slot0.restrictedBox:Find("Celling").position.y - slot6
 	}
 	slot0.ladyInterest = GameObject.Find("InterestProxy").transform
-	slot0.daynightCtrlComp = GameObject.Find("[MainBlock]").transform:GetComponent(typeof(DayNightCtrl))
+	slot0.daynightCtrlComp = GameObject.Find("[MainBlock]").transform:GetComponent("DayNightCtrl")
 
 	slot0:SwitchDayNight(slot0.contextData.timeIndex)
 
@@ -594,6 +594,7 @@ slot0.InitSlots = function(slot0)
 	slot1 = slot0.room
 	slot2 = slot0.modelRoot
 	slot2 = slot2:GetComponentsInChildren(typeof(Transform), true)
+	slot2 = slot2:ToTable()
 	slot0.slotDict = {}
 
 	_.each(slot1:GetSlots(), function (slot0)
@@ -621,8 +622,8 @@ slot0.InitSlots = function(slot0)
 
 		slot6 = nil
 
-		for slot10 = 0, uv1.Length - 1 do
-			if uv1[slot10].name == slot1 then
+		for slot10, slot11 in ipairs(uv1) do
+			if slot11.name == slot1 then
 				slot6 = slot11
 
 				break
@@ -641,12 +642,26 @@ slot0.SetContactStateDic = function(slot0, slot1)
 	slot0.contactStateDic = slot1
 	slot0.hideContactStateDic = {}
 	slot0.contactInRangeDic = {}
+	slot0.transRangeDic = {
+		list = {}
+	}
+	slot0.transformFilter = slot0.transformFilter or BLHX.Rendering.TransformFilter.New()
 
 	for slot5, slot6 in pairs(slot0.contactStateDic) do
 		slot0.hideContactStateDic[slot5] = math.min(slot6, ApartmentRoom.ITEM_UNLOCK)
 		slot0.contactInRangeDic[slot5] = false
+		slot7 = pg.dorm3d_collection_template[slot5].vfx_prefab
+		slot0.transRangeDic[slot5] = {
+			#slot0.transRangeDic.list + 1,
+			#slot7
+		}
+
+		table.insertto(slot0.transRangeDic.list, underscore.map(slot7, function (slot0)
+			return uv0.modelRoot:Find(slot0)
+		end))
 	end
 
+	slot0.transformFilter:Init(slot0.mainCameraTF, slot0.transRangeDic.list, 2, 60)
 	slot0:ActiveContact()
 end
 
@@ -944,7 +959,7 @@ slot0.InitCharacter = function(slot0, slot1, slot2)
 	slot1.ladyClothCompSettings = {}
 	slot7 = slot1.lady
 
-	table.IpairsCArray(slot7:GetComponentsInChildren(typeof("MagicaCloth.BaseCloth"), true), function (slot0, slot1)
+	table.IpairsCArray(slot7:GetComponentsInChildren(typeof("MagicaCloth2.MagicaCloth"), true), function (slot0, slot1)
 		table.insert(uv0.clothComps, slot1)
 
 		uv0.ladyClothCompSettings[slot1] = {
@@ -956,12 +971,13 @@ slot0.InitCharacter = function(slot0, slot1, slot2)
 	slot1.ladyClothColliderSettings = {}
 	slot8 = slot1.lady
 
-	table.IpairsCArray(slot8:GetComponentsInChildren(typeof("MagicaCloth.MagicaCapsuleCollider"), true), function (slot0, slot1)
+	table.IpairsCArray(slot8:GetComponentsInChildren(typeof("MagicaCloth2.MagicaCapsuleCollider"), true), function (slot0, slot1)
+		slot2 = slot1:GetSize()
 		uv0.clothColliderDict[slot1.name] = slot1
 		uv0.ladyClothColliderSettings[slot1] = {
 			enabled = slot1.enabled,
-			StartRadius = ReflectionHelp.RefGetProperty(uv1, "StartRadius", slot1),
-			EndRadius = ReflectionHelp.RefGetProperty(uv1, "EndRadius", slot1)
+			StartRadius = slot2.x,
+			EndRadius = slot2.y
 		}
 	end)
 	slot1:EnableCloth(slot1, false)
@@ -1341,40 +1357,17 @@ slot0.Update = function(slot0)
 	end
 
 	if slot0.contactInRangeDic then
-		slot1 = slot0.mainCameraTF.forward
-		slot2 = slot0.mainCameraTF.position
-		slot3 = UnityEngine.Rect.New(0, 0, Screen.width, Screen.height)
+		slot1 = slot0.transformFilter:Execute():ToTable()
 
-		slot4 = function(slot0, slot1, slot2)
-			slot4 = Clone(slot0.position - uv0)
-			slot4.y = 0
+		for slot5, slot6 in pairs(slot0.contactInRangeDic) do
+			slot7 = pg.dorm3d_collection_template[slot5]
 
-			if slot1 < slot4.magnitude then
-				return false
-			end
+			if tobool(slot6) ~= underscore(slot1):chain():slice(unpack(slot0.transRangeDic[slot5])):any(function (slot0)
+				return slot0
+			end):value() then
+				slot0.contactInRangeDic[slot5] = slot9
 
-			if slot2 < math.abs(math.acos(Vector3.Dot(slot3:Normalize(), uv1)) * math.rad2Deg) then
-				return false
-			end
-
-			if uv2.raycastCamera:WorldToScreenPoint(slot0.position).z < 0 then
-				return false
-			end
-
-			if not uv3:Contains(slot7) then
-				return false
-			end
-
-			return true
-		end
-
-		for slot8, slot9 in pairs(slot0.contactInRangeDic) do
-			if tobool(slot9) ~= underscore.any(pg.dorm3d_collection_template[slot8].vfx_prefab, function (slot0)
-				return uv0.modelRoot:Find(slot0) and uv1(uv0.modelRoot:Find(slot0), 2, 60)
-			end) then
-				slot0.contactInRangeDic[slot8] = slot11
-
-				slot0:UpdateContactDisplay(slot8, slot11 and not slot0.hideConcatFlag and slot0.contactStateDic[slot8] or slot0.hideContactStateDic[slot8])
+				slot0:UpdateContactDisplay(slot5, slot9 and not slot0.hideConcatFlag and slot0.contactStateDic[slot5] or slot0.hideContactStateDic[slot5])
 			end
 		end
 	end
@@ -3040,6 +3033,8 @@ slot0.PlayCurrentSingleAction = function(slot0, ...)
 end
 
 slot0.PlaySingleAction = function(slot0, slot1, slot2, slot3)
+	warning("Play", slot2)
+
 	if tobool(string.find(slot2, "^Face_")) then
 		slot0:PlayFaceAnim(slot1, slot2, slot3)
 
@@ -3382,8 +3377,8 @@ end
 
 slot0.RegisterGlobalVolume = function(slot0)
 	slot1 = slot0.globalVolume
-	slot2 = LuaHelper.GetOrAddVolumeComponent(slot1, typeof(BLHX.PostEffect.Overrides.DepthOfField))
-	slot3 = LuaHelper.GetOrAddVolumeComponent(slot1, typeof(BLHX.PostEffect.Overrides.ColorGrading))
+	slot2 = LuaHelper.GetOrAddVolumeComponent(slot1, typeof(BLHX.Rendering.CustomDepthOfField))
+	slot3 = LuaHelper.GetOrAddVolumeComponent(slot1, typeof(UnityEngine.Rendering.Universal.ColorAdjustments))
 	slot0.originalCameraSettings = {
 		depthOfField = {
 			enabled = slot2.enabled.value,
@@ -3413,7 +3408,7 @@ slot0.RegisterGlobalVolume = function(slot0)
 		}
 	}
 	slot0.originalCameraSettings.depthOfField.enabled = true
-	slot4 = slot1:GetComponent(typeof(BLHX.Volume.Volume))
+	slot4 = slot1:GetComponent(typeof(UnityEngine.Rendering.Volume))
 	slot0.originalVolume = {
 		profile = slot4.sharedProfile,
 		weight = slot4.weight
@@ -3423,8 +3418,8 @@ end
 slot0.SettingCamera = function(slot0, slot1)
 	slot0.activeCameraSettings = slot1
 	slot2 = slot0.globalVolume
-	slot3 = LuaHelper.GetOrAddVolumeComponent(slot2, typeof(BLHX.PostEffect.Overrides.DepthOfField))
-	slot4 = LuaHelper.GetOrAddVolumeComponent(slot2, typeof(BLHX.PostEffect.Overrides.ColorGrading))
+	slot3 = LuaHelper.GetOrAddVolumeComponent(slot2, typeof(BLHX.Rendering.CustomDepthOfField))
+	slot4 = LuaHelper.GetOrAddVolumeComponent(slot2, typeof(UnityEngine.Rendering.Universal.ColorAdjustments))
 
 	slot3.enabled:Override(slot1.depthOfField.enabled)
 	slot3.gaussianStart:Override(slot1.depthOfField.focusDistance.value)
@@ -3446,7 +3441,7 @@ slot0.RevertCameraSettings = function(slot0)
 end
 
 slot0.SetVolumeProfile = function(slot0, slot1, slot2)
-	slot3 = slot0.globalVolume:GetComponent(typeof(BLHX.Volume.Volume))
+	slot3 = slot0.globalVolume:GetComponent(typeof(UnityEngine.Rendering.Volume))
 	slot0.activeProfileWeight = slot2
 
 	if slot0.activeProfileName ~= slot1 then
@@ -3467,7 +3462,7 @@ slot0.SetVolumeProfile = function(slot0, slot1, slot2)
 end
 
 slot0.RevertVolumeProfile = function(slot0)
-	slot1 = slot0.globalVolume:GetComponent(typeof(BLHX.Volume.Volume))
+	slot1 = slot0.globalVolume:GetComponent(typeof(UnityEngine.Rendering.Volume))
 	slot1.profile = slot0.originalVolume.profile
 	slot1.weight = slot0.originalVolume.weight
 
@@ -3479,17 +3474,19 @@ slot0.RevertVolumeProfile = function(slot0)
 end
 
 slot0.RecordCharacterLight = function(slot0)
-	slot1 = BLHX.Rendering.PipelineInterface.GetCharacterLightColor()
+	slot1 = slot0.characterLight:GetComponent(typeof("BLHX.Rendering.CharacterLight"))
 	slot0.originalCharacterColor = {
-		color = slot1.color,
-		intensity = slot1.intensity
+		color = ReflectionHelp.RefGetProperty(typeof("BLHX.Rendering.CharacterLight"), "characterLightColor", slot1),
+		intensity = ReflectionHelp.RefGetProperty(typeof("BLHX.Rendering.CharacterLight"), "characterLightIntensity", slot1)
 	}
 end
 
 slot0.SetCharacterLight = function(slot0, slot1, slot2, slot3)
 	slot4 = slot0.characterLight:GetComponent(typeof(Light))
+	slot7 = slot0.characterLight:GetComponent(typeof("BLHX.Rendering.CharacterLight"))
 
-	BLHX.Rendering.PipelineInterface.SetCharacterLight(Color.Lerp(slot0.originalCharacterColor.color, slot1, slot3), math.lerp(slot0.originalCharacterColor.intensity, slot2, slot3))
+	ReflectionHelp.RefSetProperty(typeof("BLHX.Rendering.CharacterLight"), "characterLightColor", slot7, Color.Lerp(slot0.originalCharacterColor.color, slot1, slot3))
+	ReflectionHelp.RefSetProperty(typeof("BLHX.Rendering.CharacterLight"), "characterLightIntensity", slot7, math.lerp(slot0.originalCharacterColor.intensity, slot2, slot3))
 end
 
 slot0.RevertCharacterLight = function(slot0)
@@ -3552,7 +3549,7 @@ end
 
 slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.dormSceneMgr:LoadTimelineScene({
-		name = string.lower(slot1),
+		name = slot1,
 		assetRootName = slot0.apartment:getConfig("asset_name"),
 		isCache = slot2,
 		waitForTimeline = slot3,
@@ -3564,15 +3561,13 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2, slot3, slot4)
 end
 
 slot0.UnloadTimelineScene = function(slot0, slot1, slot2, slot3)
-	slot0.dormSceneMgr:UnloadTimelineScene(string.lower(slot1), slot2, slot3)
+	slot0.dormSceneMgr:UnloadTimelineScene(slot1, slot2, slot3)
 end
 
 slot0.ChangeArtScene = function(slot0, slot1, slot2)
-	slot1 = string.lower(slot1)
-
 	warning(slot0.dormSceneMgr.artSceneInfo, "->", slot1, slot1 == slot0.dormSceneMgr.sceneInfo)
 	table.insert({}, function (slot0)
-		uv0.dormSceneMgr:ChangeArtScene(string.lower(uv1), slot0)
+		uv0.dormSceneMgr:ChangeArtScene(uv1, slot0)
 	end)
 
 	if slot1 == slot0.dormSceneMgr.sceneInfo or slot0.dormSceneMgr.artSceneInfo == slot0.dormSceneMgr.sceneInfo then
@@ -3598,8 +3593,6 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 end
 
 slot0.ChangeSubScene = function(slot0, slot1, slot2)
-	slot1 = string.lower(slot1)
-
 	warning(slot0.dormSceneMgr.subSceneInfo, "->", slot1, slot1 == slot0.dormSceneMgr.subSceneInfo)
 
 	slot3 = {}
@@ -3716,6 +3709,10 @@ slot0.willExit = function(slot0)
 	slot0.dormSceneMgr = nil
 
 	ReflectionHelp.RefSetProperty(typeof("UnityEngine.LightmapSettings"), "lightmaps", nil, )
+
+	if slot0.transformFilter then
+		slot0.transformFilter:Dispose()
+	end
 end
 
 slot0.InitDefautQuality = function()
@@ -3755,10 +3752,12 @@ slot0.SettingQuality = function()
 end
 
 slot0.SetMagicaCollider = function(slot0, slot1, slot2)
-	slot3 = typeof("MagicaCloth.MagicaCapsuleCollider")
+	slot3 = typeof("MagicaCloth2.MagicaCapsuleCollider")
+	slot4 = slot0:GetSize()
+	slot4.x = slot1
+	slot4.y = slot2
 
-	ReflectionHelp.RefSetProperty(slot3, "StartRadius", slot0, slot1)
-	ReflectionHelp.RefSetProperty(slot3, "EndRadius", slot0, slot2)
+	slot0:SetSize(slot4)
 end
 
 return slot0

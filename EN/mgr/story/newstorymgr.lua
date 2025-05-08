@@ -63,6 +63,10 @@ slot13 = function(slot0)
 	return slot3 and slot4
 end
 
+slot0.GetScript = function(slot0, slot1)
+	return uv0(slot1)
+end
+
 slot0.SetData = function(slot0, slot1)
 	slot0.playedList = {}
 
@@ -237,6 +241,7 @@ slot0._Init = function(slot0, slot1, slot2)
 	slot0.autoBtn = findTF(slot0._tf, "front/btns/btns/auto_button")
 	slot0.autoBtnImg = findTF(slot0._tf, "front/btns/btns/auto_button/sel"):GetComponent(typeof(Image))
 	slot0.alphaImage = slot0._tf:GetComponent(typeof(Image))
+	slot0.mainImage = slot0._tf:GetComponent(typeof(Image))
 	slot0.recordBtn = findTF(slot0._tf, "front/btns/record")
 	slot0.dialogueContainer = findTF(slot0._tf, "front/dialogue")
 	slot0.players = {
@@ -249,7 +254,9 @@ slot0._Init = function(slot0, slot1, slot2)
 		SpAnimStoryPlayer.New(slot1),
 		BlinkStoryPlayer.New(slot1)
 	}
-	slot0.setSpeedPanel = StorySetSpeedPanel.New(slot0._tf)
+	slot0.setSpeedPanel = StorySetSpeedPanel.New(slot0._tf, function (slot0)
+		uv0:UpdatePlaySpeed(slot0)
+	end)
 	slot0.recordPanel = NewStoryRecordPanel.New()
 	slot0.recorder = StoryRecorder.New()
 
@@ -260,6 +267,16 @@ slot0._Init = function(slot0, slot1, slot2)
 	if slot2 then
 		slot2()
 	end
+end
+
+slot0.GetPlayer = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.players) do
+		if isa(slot6, slot1) then
+			return slot6
+		end
+	end
+
+	return nil
 end
 
 slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
@@ -637,7 +654,7 @@ slot0.OnStart = function(slot0)
 	removeOnButton(slot0.autoBtn)
 	removeOnButton(slot0.recordBtn)
 
-	slot0.alphaImage.color = Color(0, 0, 0, slot0.storyScript:GetStoryAlpha())
+	slot0.mainImage.color = Color(0, 0, 0, slot0.storyScript:GetStoryAlpha())
 
 	setActive(slot0.recordBtn, not slot0.storyScript:ShouldHideRecord())
 	slot0:ClearStoryEventTriggerListener()
@@ -646,6 +663,7 @@ slot0.OnStart = function(slot0)
 		slot0.storyEventTriggerListener = StoryEventTriggerListener.New(slot1)
 	end
 
+	slot0.mainImage.enabled = not slot0.storyScript:CanInteraction()
 	slot0.state = uv0
 
 	slot0:TrackingStart()
@@ -747,7 +765,7 @@ slot0.ClearAutoBtn = function(slot0, slot1)
 	slot0.autoBtnImg.color = slot1 and uv0 or uv1
 	slot0.isAutoPlay = slot1
 
-	slot0.setSpeedPanel[slot1 and "Show" or "Hide"](slot0.setSpeedPanel)
+	slot0.setSpeedPanel[slot1 and "Show" or "Hide"](slot0.setSpeedPanel, slot0.storyScript)
 end
 
 slot0.ClearStoryEventTriggerListener = function(slot0)
@@ -762,6 +780,9 @@ slot0.Clear = function(slot0)
 	slot0.progress = 0
 
 	slot0:ClearStoryEventTriggerListener()
+
+	slot0.mainImage.enabled = true
+
 	slot0.recorder:Clear()
 	slot0.recordPanel:Hide()
 

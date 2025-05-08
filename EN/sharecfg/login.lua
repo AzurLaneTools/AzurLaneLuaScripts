@@ -2154,38 +2154,13 @@ pg.login = {
 		}
 	},
 	[68] = {
-		op_play = 1,
+		op_play = 0,
+		op_time = "",
 		date = "stop",
 		id = 68,
 		login_static = "login",
 		login_cri = "",
-		bgm = "",
-		op_time = {
-			{
-				{
-					2025,
-					5,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					8
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		bgm = ""
 	},
 	[4001] = {
 		op_play = 0,

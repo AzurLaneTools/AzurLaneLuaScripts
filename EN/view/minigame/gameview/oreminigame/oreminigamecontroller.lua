@@ -10,8 +10,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot1 = function(slot0, slot1)
-	for slot6 = 0, slot0:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
-		slot2[slot6].speed = slot1
+	for slot6, slot7 in ipairs(slot0:GetComponentsInChildren(typeof(Animator), true):ToTable()) do
+		slot7.speed = slot1
 	end
 end
 

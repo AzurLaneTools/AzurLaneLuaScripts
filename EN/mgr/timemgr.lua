@@ -148,6 +148,10 @@ slot1.GetServerTime = function(slot0)
 	return slot0:RealtimeSinceStartup() + slot0._serverUnitydelta
 end
 
+slot1.GetServerTimeMs = function(slot0)
+	return math.ceil((Time.realtimeSinceStartup + slot0._serverUnitydelta) * 1000)
+end
+
 slot1.GetServerWeek = function(slot0)
 	return slot0:GetServerTimestampWeek(slot0:GetServerTime())
 end

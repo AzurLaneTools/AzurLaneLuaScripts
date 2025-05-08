@@ -21,8 +21,14 @@ slot0.OPEN_Compensate = "NewMainMediator:OPEN_Compensate"
 slot0.ON_DROP = "NewMainMediator:ON_DROP"
 slot0.ON_AWRADS = "NewMainMediator:ON_AWRADS"
 slot0.CHANGE_SKIN_TOGGLE = "NewMainMediator:CHANGE_SKIN_TOGGLE"
+slot0.GO_ISLAND = "NewMainMediator:GO_ISLAND"
 
 slot0.register = function(slot0)
+	slot0:bind(uv0.GO_ISLAND, function (slot0, slot1)
+		uv0:sendNotification(GAME.ISLAND_ENTER, {
+			id = slot1
+		})
+	end)
 	slot0:bind(uv0.GO_SINGLE_ACTIVITY, function (slot0, slot1)
 		uv0:addSubLayers(Context.New({
 			mediator = ActivitySingleMediator,

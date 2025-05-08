@@ -58,6 +58,14 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.pause = false
 end
 
+slot0.Disable = function(slot0)
+	setActive(slot0._tf, false)
+end
+
+slot0.Enable = function(slot0)
+	setActive(slot0._tf, true)
+end
+
 slot0.StoryStart = function(slot0, slot1)
 	slot0.branchCodeList = {}
 
@@ -885,13 +893,13 @@ slot0.GetFadeColor = function(slot0, slot1)
 	slot2 = {}
 	slot3 = {}
 
-	for slot8 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+	for slot8, slot9 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
 		slot10 = {
 			name = "_Color",
 			color = Color.white
 		}
 
-		if slot4[slot8].material.shader.name == "UI/GrayScale" then
+		if slot9.material.shader.name == "UI/GrayScale" then
 			slot10 = {
 				name = "_GrayScale",
 				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
@@ -969,13 +977,13 @@ slot0.setPaintingAlpha = function(slot0, slot1, slot2)
 	slot3 = {}
 	slot4 = {}
 
-	for slot9 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
+	for slot9, slot10 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
 		slot11 = {
 			name = "_Color",
 			color = Color.white
 		}
 
-		if slot5[slot9].material.shader.name == "UI/GrayScale" then
+		if slot10.material.shader.name == "UI/GrayScale" then
 			slot11 = {
 				name = "_GrayScale",
 				color = Color.New(0.21176470588235294, 0.7137254901960784, 0.07058823529411765)
@@ -1201,8 +1209,8 @@ end
 slot0.UpdateEffectInterLayer = function(slot0, slot1, slot2)
 	slot3 = slot0._go:GetComponent(typeof(Canvas)).sortingOrder
 
-	for slot8 = 1, slot2:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length - 1 do
-		if slot3 < ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot8 - 1]) then
+	for slot8, slot9 in ipairs(slot2:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
+		if slot3 < ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot9) then
 			slot3 = slot10
 		end
 	end
@@ -1340,7 +1348,7 @@ slot0.Clear = function(slot0, slot1)
 	pg.DelegateInfo.New(slot0)
 end
 
-slot0.StoryEnd = function(slot0)
+slot0.StoryEnd = function(slot0, slot1)
 	setActive(slot0.iconImage.gameObject, false)
 
 	slot0.iconImage.sprite = nil
@@ -1363,7 +1371,7 @@ slot0.StoryEnd = function(slot0)
 	slot0:ClearCheckDispatcher()
 	slot0:ClearEffects()
 	slot0:Clear()
-	slot0:OnEnd()
+	slot0:OnEnd(slot1)
 end
 
 slot0.PlayBgm = function(slot0, slot1)
@@ -1526,7 +1534,7 @@ end
 slot0.OnClear = function(slot0)
 end
 
-slot0.OnEnd = function(slot0)
+slot0.OnEnd = function(slot0, slot1)
 end
 
 return slot0

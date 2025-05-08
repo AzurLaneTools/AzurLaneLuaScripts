@@ -7,8 +7,7 @@ slot0.CameraUI = 1
 slot0.CameraLevel = 2
 slot0.CameraOverlay = 3
 slot0.OptimizedBlur = 1
-slot0.StaticBlur = 2
-slot0.PartialBlur = 3
+slot0.PartialBlur = 2
 
 slot2 = function(slot0)
 	if slot0 == nil then
@@ -16,8 +15,8 @@ slot2 = function(slot0)
 	end
 
 	slot0.downsample = 2
-	slot0.blurSize = 4
-	slot0.blurIterations = 2
+	slot0.blurSize = 1.5
+	slot0.blurIteration = 2
 end
 
 slot3 = function(slot0)
@@ -36,8 +35,8 @@ slot4 = function(slot0)
 	end
 
 	slot0.downsample = 2
-	slot0.blurSize = 4
-	slot0.blurIterations = 1
+	slot0.blurSize = 1.5
+	slot0.blurIteration = 1
 end
 
 slot5 = function(slot0)
@@ -67,6 +66,7 @@ slot0.Init = function(slot0, slot1)
 	slot0.overlayCamera = tf(GameObject.Find("OverlayCamera"))
 	slot0.overlayCameraComp = slot0.overlayCamera:GetComponent("Camera")
 	slot0.overlayCameraComp.allowMSAA = false
+	slot0.uiCameraComp = slot0.uiCamera:GetComponent("Camera")
 	slot0.UIMain = slot0.uiCamera:Find("Canvas/UIMain")
 	slot0.LevelMain = slot0.levelCamera:Find("Canvas/UIMain")
 	slot0.OverlayMain = slot0.overlayCamera:Find("Overlay/UIMain")
@@ -75,26 +75,19 @@ slot0.Init = function(slot0, slot1)
 	slot0._normalUIMain = nil
 	slot0._cameraBlurPartial = slot0.uiCamera:GetComponent("UIPartialBlur")
 	slot0._levelCameraPartial = slot0.levelCamera:GetComponent("UIPartialBlur")
-
-	ReflectionHelp.RefCallMethod(typeof("UIPartialBlur"), "Cleanup", slot0._levelCameraPartial)
-
-	slot0._levelCameraPartial.blurCam = slot0.levelCameraComp
 	slot5 = slot0.overlayCamera
 	slot6 = slot5
-	slot7 = "UIStaticBlur"
+	slot7 = "BlurOptimized"
 	slot0.cameraBlurs = {
 		[uv0.CameraUI] = {
 			slot0.uiCamera:GetComponent("BlurOptimized"),
-			slot0.uiCamera:GetComponent("UIStaticBlur"),
 			slot0._cameraBlurPartial
 		},
 		[uv0.CameraLevel] = {
 			slot0.levelCamera:GetComponent("BlurOptimized"),
-			slot0.levelCamera:GetComponent("UIStaticBlur"),
 			slot0._levelCameraPartial
 		},
 		[uv0.CameraOverlay] = {
-			slot0.overlayCamera:GetComponent("BlurOptimized"),
 			slot5.GetComponent(slot6, slot7)
 		}
 	}
@@ -394,7 +387,6 @@ slot0.TempOverlayPanelPB = function(slot0, slot1, slot2)
 	slot3 = slot2.baseCamera
 	uv1 = {
 		slot3:GetComponent("BlurOptimized"),
-		slot3:GetComponent("UIStaticBlur"),
 		slot3:GetComponent("UIPartialBlur")
 	}
 
@@ -435,16 +427,13 @@ end
 slot0.BlurCamera = function(slot0, slot1, slot2, slot3)
 	if not slot0.camLockStatus[slot1] or slot3 then
 		slot4 = slot0.cameraBlurs[slot1][uv0.OptimizedBlur]
-		slot5 = slot0.cameraBlurs[slot1][uv0.StaticBlur]
 
 		if slot2 then
 			slot4.enabled = true
 			slot4.staticBlur = true
-			slot5.enabled = false
 		else
 			slot4.enabled = true
 			slot4.staticBlur = false
-			slot5.enabled = false
 		end
 
 		if slot3 then
@@ -455,17 +444,12 @@ end
 
 slot0.UnblurCamera = function(slot0, slot1, slot2)
 	if not slot0.camLockStatus[slot1] or slot2 then
-		slot0.cameraBlurs[slot1][uv0.StaticBlur].enabled = false
 		slot0.cameraBlurs[slot1][uv0.OptimizedBlur].enabled = false
 
 		if slot2 then
 			slot0.camLockStatus[slot1] = false
 		end
 	end
-end
-
-slot0.GetStaticRtt = function(slot0, slot1)
-	return ReflectionHelp.RefGetField(typeof("UnityStandardAssets.ImageEffects.BlurOptimized"), "staticRtt", slot0.cameraBlurs[slot1][uv0.OptimizedBlur])
 end
 
 slot0.SetMainCamBlurTexture = function(slot0, slot1)

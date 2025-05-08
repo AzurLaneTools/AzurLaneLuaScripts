@@ -63,8 +63,8 @@ slot0.GetCurrentOrder = function(slot0)
 end
 
 slot0.AddCanvasOrder = function(slot0, slot1, slot2)
-	for slot7 = 0, tf(slot1):GetComponents(typeof(Renderer)).Length - 1 do
-		slot3[slot7].sortingOrder = (slot0.orderTable[slot3[slot7]] or 0) + slot2
+	for slot7, slot8 in ipairs(tf(slot1):GetComponents(typeof(Renderer)):ToTable()) do
+		slot8.sortingOrder = (slot0.orderTable[slot8] or 0) + slot2
 	end
 
 	if slot1:GetComponent(typeof(Canvas)) then
@@ -77,9 +77,8 @@ slot0.AddCanvasOrder = function(slot0, slot1, slot2)
 end
 
 slot0.RecordCanvasOrder = function(slot0, slot1)
-	for slot6 = 0, tf(slot1):GetComponents(typeof(Renderer)).Length - 1 do
-		slot7 = slot2[slot6]
-		slot0.orderTable[slot2[slot6]] = slot2[slot6].sortingOrder
+	for slot6, slot7 in ipairs(tf(slot1):GetComponents(typeof(Renderer)):ToTable()) do
+		slot0.orderTable[slot7] = slot7.sortingOrder
 	end
 
 	if slot1:GetComponent(typeof(Canvas)) then
