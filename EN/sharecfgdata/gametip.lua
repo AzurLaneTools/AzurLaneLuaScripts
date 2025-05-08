@@ -38214,3 +38214,183 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 		}
 	}
 }
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
+	tip = "Enable GPGPU"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution = {
+	tip = "Max resolution"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
+	tip = "720P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname1 = {
+	tip = "1080P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
+	tip = "2K"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
+	tip = "Rendering quality"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality = {
+	tip = "Shader quality"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname0 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
+	tip = "Shadow quality"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
+	tip = "Off"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname1 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
+	tip = "Medium"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname3 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
+	tip = "Shadow refresh frequency"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
+	tip = "Medium"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname2 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
+	tip = "Per frame"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
+	tip = "Environmental details"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname0 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+	tip = "Medium"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname2 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
+	tip = "Multi-lighting"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_reflection = {
+	tip = "Reflection"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
+	tip = "Character model quality"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname0 = {
+	tip = "Low"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname1 = {
+	tip = "Medium"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname2 = {
+	tip = "High"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
+	tip = "Post-processing"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_antialiasing = {
+	tip = "Anti-aliasing"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_hdr = {
+	tip = "HDR"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
+	tip = "Distortion"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
+	tip = "Depth of field"
+}

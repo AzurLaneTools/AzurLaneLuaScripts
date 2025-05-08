@@ -32,13 +32,14 @@ slot0.OnInit = function(slot0)
 	end)
 end
 
-slot0.JumpToCustomSetting = function(slot0)
+slot0.JumpToCustomSetting = function(slot0, slot1)
 	if slot0.graphicLevel == uv0.Custom then
 		return
 	end
 
+	slot0:SetPlayerPrefSetting(slot1)
 	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGraphics(4))
-	PlayerPrefs.SetInt("dorm3d_graphics_settings", 4)
+	PlayerPrefs.SetInt("dorm3d_graphics_settings_new", 4)
 	pg.m02:sendNotification(NewSettingsMediator.SelectCustomGraphicSetting)
 end
 
@@ -77,7 +78,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 				table.insert(slot0, function (slot0)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						type = MSGBOX_TYPE_NORMAL,
-						content = uv0.tips,
+						content = i18n(uv0.tips),
 						onYes = function ()
 							uv0()
 						end,
@@ -88,7 +89,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 				seriesAsync(slot0, function ()
 					uv0(true)
 					uv1(true)
-					uv2:JumpToCustomSetting()
+					uv2:JumpToCustomSetting(uv3)
 				end)
 			else
 				uv2(true)
@@ -100,7 +101,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 					return
 				end
 
-				uv4:JumpToCustomSetting()
+				uv4:JumpToCustomSetting(uv1)
 			end
 		end, SFX_CANCEL)
 		onButton(slot0, slot2:Find("toggle/off"), function ()
@@ -117,14 +118,14 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 				return
 			end
 
-			uv3:JumpToCustomSetting()
+			uv3:JumpToCustomSetting(uv4)
 		end, SFX_CANCEL)
 
 		if (slot0.graphicLevel ~= uv1.Custom or not PlayerPrefs.GetInt(slot3.playerPrefsname, -1)) and not nil or slot14 == -1 then
 			slot14 = slot0.qualitySettingAsset[slot3.Cname]
 		end
 
-		slot12(slot14 == 1)
+		slot12(slot14 == 1 or slot14 == true)
 
 		return
 	end
@@ -151,15 +152,42 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 
 		uv1()
 		PlayerPrefs.SetInt(uv2.playerPrefsname, uv2.options[uv0])
-		uv3:JumpToCustomSetting()
+		uv3:JumpToCustomSetting(uv2)
 	end)
 	onButton(slot0, slot7:Find("rightbu"), function ()
 		uv0 = uv0 + 1
 
 		uv1()
 		PlayerPrefs.SetInt(uv2.playerPrefsname, uv2.options[uv0])
-		uv3:JumpToCustomSetting()
+		uv3:JumpToCustomSetting(uv2)
 	end)
+end
+
+slot0.SetPlayerPrefSetting = function(slot0, slot1)
+	if slot0.graphicLevel == uv0.Custom then
+		return
+	end
+
+	for slot5, slot6 in ipairs(uv1) do
+		if slot1.Cname ~= slot6.Cname then
+			slot7 = PlayerPrefs.SetInt(slot6.playerPrefsname, -1)
+			slot8 = slot0.qualitySettingAsset[slot6.Cname]
+
+			if slot6.settingType == uv2.toggle then
+				PlayerPrefs.SetInt(slot6.playerPrefsname, slot8 and 1 or 0)
+			else
+				slot9 = nil
+
+				for slot13, slot14 in ipairs(slot6.options) do
+					if slot14 == slot8 then
+						slot9 = slot13
+					end
+				end
+
+				PlayerPrefs.SetInt(slot6.playerPrefsname, slot6.options[slot9])
+			end
+		end
+	end
 end
 
 slot0.OnUpdate = function(slot0)
@@ -168,7 +196,7 @@ slot0.OnUpdate = function(slot0)
 	end
 
 	slot0.playerSettingPlaySet = {}
-	slot0.graphicLevel = PlayerPrefs.GetInt("dorm3d_graphics_settings", 4)
+	slot0.graphicLevel = PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 4)
 	slot0.customSetting = slot0.graphicLevel == 4
 	slot0.qualitySettingAsset = LoadAny("three3dquaitysettings/defaultsettings", uv0[slot0.graphicLevel])
 	slot0.list = slot0:GetList()

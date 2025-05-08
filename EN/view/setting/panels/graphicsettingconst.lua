@@ -22,19 +22,19 @@ slot0.settings = {
 		settingType = 1,
 		Cname = "EnableGPUDriver",
 		playerPrefsname = "enableGPUDriver",
-		settingName = "允许GPGPU",
+		settingName = "grapihcs3d_setting_enable_gup_driver",
 		isShow = 1
 	},
 	{
 		settingType = 2,
 		Cname = "Resolution",
 		playerPrefsname = "resolution",
-		settingName = "最大分辨率",
+		settingName = "grapihcs3d_setting_resolution",
 		isShow = 1,
 		optionNames = {
-			"720p",
-			"1080p",
-			"2K"
+			"grapihcs3d_setting_resolution_optionname0",
+			"grapihcs3d_setting_resolution_optionname1",
+			"grapihcs3d_setting_resolution_optionname2"
 		},
 		options = {
 			1280,
@@ -46,11 +46,11 @@ slot0.settings = {
 		settingType = 2,
 		Cname = "RenderingQuality",
 		playerPrefsname = "renderingQuality",
-		settingName = "渲染精度",
+		settingName = "grapihcs3d_setting_rendering_quality",
 		isShow = 1,
 		optionNames = {
-			"低",
-			"高"
+			"grapihcs3d_setting_rendering_quality_optionname0",
+			"grapihcs3d_setting_rendering_quality_optionname1"
 		},
 		options = {
 			0,
@@ -61,11 +61,11 @@ slot0.settings = {
 		settingType = 2,
 		Cname = "ShaderQuality",
 		playerPrefsname = "shaderQuality",
-		settingName = "Shader级别",
+		settingName = "grapihcs3d_setting_shader_quality",
 		isShow = 1,
 		optionNames = {
-			"低",
-			"高"
+			"grapihcs3d_setting_shader_quality_optionname0",
+			"grapihcs3d_setting_shader_quality_optionname1"
 		},
 		options = {
 			0,
@@ -76,20 +76,20 @@ slot0.settings = {
 		settingType = 1,
 		Cname = "EnableAdditionalLights",
 		playerPrefsname = "enableAdditionalLights",
-		settingName = "多光源",
+		settingName = "grapihcs3d_setting_enable_additional_lights",
 		isShow = 1
 	},
 	{
 		settingType = 2,
 		Cname = "ShadowQuality",
 		playerPrefsname = "shadowQuality",
-		settingName = "阴影精度",
+		settingName = "grapihcs3d_setting_shadow_quality",
 		isShow = 1,
 		optionNames = {
-			"关",
-			"低",
-			"中",
-			"高"
+			"grapihcs3d_setting_shadow_quality_optionname0",
+			"grapihcs3d_setting_shadow_quality_optionname1",
+			"grapihcs3d_setting_shadow_quality_optionname2",
+			"grapihcs3d_setting_shadow_quality_optionname3"
 		},
 		options = {
 			0,
@@ -102,13 +102,13 @@ slot0.settings = {
 		settingType = 2,
 		Cname = "ShadowUpdateMode",
 		playerPrefsname = "shadowUpdateMode",
-		settingName = "阴影更新频率",
+		settingName = "grapihcs3d_setting_shadow_update_mode",
 		isShow = 1,
 		optionNames = {
-			"低更新频率",
-			"中更新频率",
-			"高更新频率",
-			"每帧更新"
+			"grapihcs3d_setting_shadow_update_mode_optionname0",
+			"grapihcs3d_setting_shadow_update_mode_optionname1",
+			"grapihcs3d_setting_shadow_update_mode_optionname2",
+			"grapihcs3d_setting_shadow_update_mode_optionname3"
 		},
 		options = {
 			0,
@@ -118,61 +118,32 @@ slot0.settings = {
 		}
 	},
 	{
-		settingType = 1,
-		Cname = "EnablePostProcess",
-		playerPrefsname = "enablePostProcess",
-		settingName = "后处理",
-		isShow = 1
-	},
-	{
-		settingType = 1,
-		Cname = "EnableReflection",
-		playerPrefsname = "enableReflection",
-		settingName = "反射",
-		isShow = 1
-	},
-	{
-		parentId = 8,
-		settingType = 1,
-		Cname = "EnablePostAntialiasing",
-		playerPrefsname = "enablePostAntialiasing",
-		settingName = "抗锯齿",
-		isShow = 1
-	},
-	{
-		parentId = 8,
-		settingType = 1,
-		Cname = "EnableHDR",
-		playerPrefsname = "enableHDR",
-		settingName = "HDR",
-		isShow = 1
-	},
-	{
-		parentId = 8,
-		settingType = 1,
-		Cname = "EnableDof",
-		playerPrefsname = "enableDOF",
-		settingName = "景深",
-		isShow = 1
-	},
-	{
-		parentId = 8,
-		settingType = 1,
-		Cname = "EnableDistort",
-		playerPrefsname = "enableDistort",
-		settingName = "扭曲",
-		isShow = 1
+		settingType = 2,
+		Cname = "TerrainLayerQuality",
+		playerPrefsname = "terrainLayerQuality",
+		settingName = "grapihcs3d_setting_terrain_layer_quality",
+		isShow = 0,
+		optionNames = {
+			"grapihcs3d_setting_terrain_layer_quality_optionname0",
+			"grapihcs3d_setting_terrain_layer_quality_optionname1",
+			"grapihcs3d_setting_terrain_layer_quality_optionname2"
+		},
+		options = {
+			0,
+			1,
+			2
+		}
 	},
 	{
 		settingType = 2,
 		Cname = "CharacterQuality",
 		playerPrefsname = "characterQuality",
-		settingName = "角色精度",
+		settingName = "grapihcs3d_setting_character_quality",
 		isShow = 1,
 		optionNames = {
-			"低",
-			"中",
-			"高"
+			"grapihcs3d_setting_character_quality_optionname0",
+			"grapihcs3d_setting_character_quality_optionname1",
+			"grapihcs3d_setting_character_quality_optionname2"
 		},
 		options = {
 			0,
@@ -181,26 +152,55 @@ slot0.settings = {
 		}
 	},
 	{
-		settingType = 2,
-		Cname = "TerrainLayerQuality",
-		playerPrefsname = "terrainLayerQuality",
-		settingName = "地形精度",
-		isShow = 1,
-		optionNames = {
-			"低",
-			"中",
-			"高"
-		},
-		options = {
-			0,
-			1,
-			2
-		}
+		settingType = 1,
+		Cname = "EnableReflection",
+		playerPrefsname = "enableReflection",
+		settingName = "grapihcs3d_setting_enable_reflection",
+		isShow = 1
+	},
+	{
+		settingType = 1,
+		Cname = "EnablePostProcess",
+		playerPrefsname = "enablePostProcess",
+		settingName = "grapihcs3d_setting_enable_post_process",
+		isShow = 1
+	},
+	{
+		parentId = 11,
+		settingType = 1,
+		Cname = "EnablePostAntialiasing",
+		playerPrefsname = "enablePostAntialiasing",
+		settingName = "grapihcs3d_setting_enable_post_antialiasing",
+		isShow = 1
+	},
+	{
+		parentId = 11,
+		settingType = 1,
+		Cname = "EnableHDR",
+		playerPrefsname = "enableHDR",
+		settingName = "grapihcs3d_setting_enable_hdr",
+		isShow = 1
+	},
+	{
+		parentId = 11,
+		settingType = 1,
+		Cname = "EnableDof",
+		playerPrefsname = "enableDOF",
+		settingName = "grapihcs3d_setting_enable_dof",
+		isShow = 1
+	},
+	{
+		parentId = 11,
+		settingType = 1,
+		Cname = "EnableDistort",
+		playerPrefsname = "enableDistort",
+		settingName = "grapihcs3d_setting_enable_distort",
+		isShow = 1
 	}
 }
 
 slot0.InitDefautQuality = function()
-	if PlayerPrefs.GetInt("dorm3d_graphics_settings", 0) == 0 then
+	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 0) == 0 then
 		slot1 = DevicePerformanceUtil.GetDevicePerformanceLevel()
 
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
@@ -225,14 +225,14 @@ slot0.InitDefautQuality = function()
 
 		slot0 = slot1 == DevicePerformanceLevel.High and 3 or slot1 == DevicePerformanceLevel.Mid and 2 or 1
 
-		PlayerPrefs.SetInt("dorm3d_graphics_settings", slot0)
+		PlayerPrefs.SetInt("dorm3d_graphics_settings_new", slot0)
 
 		Dorm3dRoomTemplateScene.FirstDefaultSetting = slot0
 	end
 end
 
 slot0.SettingQuality = function()
-	slot0 = PlayerPrefs.GetInt("dorm3d_graphics_settings", 4)
+	slot0 = PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 4)
 	slot2 = LoadAny("three3dquaitysettings/defaultsettings", uv0.assetPath[slot0])
 
 	if slot0 ~= 4 then
@@ -255,6 +255,12 @@ slot0.SettingQuality = function()
 end
 
 slot0.ClearPlayerPrefs = function()
+	if PlayerPrefs.GetInt("dorm3d_graphics_settings_changeed", 0) == 1 then
+		return
+	end
+
+	PlayerPrefs.SetInt("dorm3d_graphics_settings_changeed", 1)
+
 	for slot3, slot4 in ipairs(uv0.settings) do
 		PlayerPrefs.DeleteKey(slot4.playerPrefsname)
 	end

@@ -3306,10 +3306,10 @@ pg.dorm3d_ik = {
 			400
 		},
 		trigger_rect = {
+			-400,
 			-350,
-			-350,
-			600,
-			450
+			800,
+			600
 		},
 		plane_rotation = {
 			{
@@ -6264,10 +6264,10 @@ pg.dorm3d_ik = {
 			400
 		},
 		trigger_rect = {
+			-400,
 			-350,
-			-350,
-			600,
-			450
+			800,
+			600
 		},
 		plane_rotation = {
 			{

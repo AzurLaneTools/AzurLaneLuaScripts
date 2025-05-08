@@ -2897,7 +2897,15 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 		end)
 
 		slot3 = slot1:GetComponentInChildren(typeof("BLHXCharacterPropertiesController")).transform
-		slot4 = GameObject.Find("[camera]").transform:GetComponentInChildren(typeof(Camera)).transform
+		slot4 = nil
+
+		eachChild(GameObject.Find("[camera]").transform, function (slot0)
+			if slot0.tag == "MainCamera" then
+				uv0 = slot0
+			end
+		end)
+		assert(slot4, "Missing MainCamera")
+
 		uv0.nowTimelinePlayer = TimelinePlayer.New(GameObject.Find("[sequence]").transform)
 
 		uv0.nowTimelinePlayer:Register(uv1.time, function (slot0, slot1, slot2)
@@ -2987,6 +2995,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		uv0:HideCharacter()
 		setActive(uv0.mainCameraTF, false)
+		setActive(slot4, true)
 		eachChild(uv0.rtTimelineScreen, function (slot0)
 			setActive(slot0, false)
 		end)

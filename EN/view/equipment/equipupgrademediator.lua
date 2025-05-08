@@ -15,6 +15,7 @@ slot0.register = function(slot0)
 
 	slot3:updateRes(slot2:getData())
 	slot0:bind(uv0.EQUIPMENT_UPGRDE, function (slot0)
+		pg.UIMgr.GetInstance():LoadingOn()
 		uv0:sendNotification(GAME.UPGRADE_EQUIPMENTS, {
 			shipId = uv0.contextData.shipId,
 			pos = uv0.contextData.pos,
@@ -63,6 +64,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot0.viewComponent:updateAll()
 		slot0.viewComponent:upgradeFinish(slot3.equip, slot6)
+		pg.UIMgr.GetInstance():LoadingOff()
 	elseif slot2 == BagProxy.ITEM_UPDATED then
 		slot0.viewComponent:setItems(slot0.bagProxy:getData())
 	elseif slot2 == PlayerProxy.UPDATED then

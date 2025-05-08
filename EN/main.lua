@@ -16,6 +16,7 @@ require("Include")
 require("tolua.reflection")
 tolua.loadassembly("Assembly-CSharp")
 tolua.loadassembly("UnityEngine.UI")
+tolua.loadassembly("Live2D.Cubism")
 math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
@@ -33,6 +34,7 @@ end
 QualitySettings.vSyncCount = 0
 QualitySettings.skinWeights = ReflectionHelp.RefGetField(typeof("UnityEngine.SkinWeights"), "Unlimited", nil)
 
+GraphicSettingConst.ClearPlayerPrefs()
 GraphicSettingConst.InitDefautQuality()
 GraphicSettingConst.SettingQuality()
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)

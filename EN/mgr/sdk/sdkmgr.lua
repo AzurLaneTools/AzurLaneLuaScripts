@@ -185,6 +185,18 @@ slot0.CheckWorldTest = function(slot0)
 	end
 end
 
+slot0.OnAppPauseForSDK = function(slot0, slot1)
+	slot0:Call("OnAppPauseForSDK", slot1)
+end
+
+slot0.UserEventUpload = function(slot0, slot1)
+	slot0:Call("UserEventUpload", slot1)
+end
+
+slot0.GameShare = function(slot0, slot1, slot2)
+	slot0:Call("GameShare", slot1, slot2)
+end
+
 slot1 = function()
 	uv0.GetYostarUid = function(slot0)
 		return slot0:Get("GetYostarUid")
@@ -434,18 +446,6 @@ end
 
 if PLATFORM_CODE == PLATFORM_JP then
 	slot2()
-end
-
-slot0.OnAppPauseForSDK = function(slot0, slot1)
-	slot0:Call("OnAppPauseForSDK", slot1)
-end
-
-slot0.UserEventUpload = function(slot0, slot1)
-	slot0:Call("UserEventUpload", slot1)
-end
-
-slot0.GameShare = function(slot0, slot1, slot2)
-	slot0:Call("GameShare", slot1, slot2)
 end
 
 slot0.UserCenter = function(slot0)

@@ -16112,11 +16112,11 @@ pg.base.skill_data_display = {
 	},
 	[1013050] = {
 		id = 1013050,
-		name = "为革命献上祝福 +"
+		name = "Long Live the Revolution!+"
 	},
 	[1013051] = {
 		id = 1013051,
-		name = "为革命献上祝福 +"
+		name = "Long Live the Revolution!+"
 	},
 	[200002] = {
 		id = 200002,
@@ -17292,7 +17292,7 @@ pg.base.skill_data_display = {
 	},
 	[1012481] = {
 		id = 1012481,
-		name = "Final-AP-Ride"
+		name = "APsolute Ammunition"
 	},
 	[1012482] = {
 		id = 1012482,

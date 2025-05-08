@@ -30546,6 +30546,7 @@ pg.activity_template = {
 	},
 	[7020] = {
 		mark = 20241121,
+		time = "stop",
 		type = 54,
 		login_pop = 0,
 		config_id = 0,
@@ -30563,33 +30564,6 @@ pg.activity_template = {
 			196,
 			197,
 			198
-		},
-		time = {
-			"timer",
-			{
-				{
-					2024,
-					12,
-					1
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					1,
-					31
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		},
 		page_info = {
 			class_name = "CrusingDisplayActPage2",

@@ -1,125 +1,22 @@
 pg = pg or {}
 pg.activity_banner = {
-	{
-		type = 2,
-		id = 1,
-		pic = "temp7",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
+	[2] = {
 		type = 2,
 		id = 2,
 		pic = "temp1",
 		param = {
-			"scene Cryptolalia",
-			{}
-		},
-		time = {
+			"scene equip",
 			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
 			}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
-		pic = "temp2",
-		param = {
-			"scene skinshop",
-			{}
 		},
 		time = {
 			{
 				{
 					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 4,
-		pic = "temp3",
-		param = {
-			"dorm 3d select"
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
+					5,
+					8
 				},
 				{
 					0,
@@ -131,7 +28,7 @@ pg.activity_banner = {
 				{
 					2025,
 					5,
-					7
+					19
 				},
 				{
 					23,
@@ -141,9 +38,19 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[3] = {
+		time = "stop",
 		type = 2,
-		id = 5,
+		id = 3,
+		pic = "temp3",
+		param = {
+			"dorm 3d select"
+		}
+	},
+	[4] = {
+		time = "stop",
+		type = 2,
+		id = 4,
 		pic = "temp4",
 		param = {
 			"scene get boat",
@@ -151,101 +58,38 @@ pg.activity_banner = {
 				projectName = "new",
 				page = 1
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
-	{
+	[5] = {
+		time = "stop",
 		type = 2,
-		id = 6,
+		id = 5,
 		pic = "temp5",
 		param = {
 			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
-	{
+	[6] = {
 		param = "5901",
+		time = "stop",
 		type = 3,
+		id = 6,
+		pic = "temp6"
+	},
+	[7] = {
+		time = "stop",
+		type = 2,
 		id = 7,
-		pic = "temp6",
-		time = {
+		pic = "temp7",
+		param = {
+			"scene charge",
 			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
+				wrap = 2
 			}
 		}
 	},
-	{
+	[8] = {
+		time = "stop",
 		type = 2,
 		id = 8,
 		pic = "temp8",
@@ -254,97 +98,21 @@ pg.activity_banner = {
 			{
 				warp = "shopstreet"
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
-	{
+	[9] = {
 		param = "5909",
+		time = "stop",
 		type = 3,
 		id = 9,
-		pic = "temp9",
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp9"
 	},
 	[90] = {
 		param = "",
+		time = "stop",
 		type = 9,
 		id = 90,
-		pic = "temp99",
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "temp99"
 	},
 	[91] = {
 		param = "",
@@ -362,35 +130,10 @@ pg.activity_banner = {
 	},
 	[99] = {
 		param = "",
+		time = "stop",
 		type = 12,
 		id = 99,
-		pic = "limit_skin",
-		time = {
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		pic = "limit_skin"
 	},
 	[100] = {
 		param = "Dumplings|A world-famous delight from the Dragon Empery! <color=#92fc63>(Increases EXP gained by 5% for 60 minutes.)</color>",
@@ -429,16 +172,15 @@ pg.activity_banner = {
 	},
 	get_id_list_by_type = {
 		[2] = {
-			1,
 			2,
 			3,
 			4,
 			5,
-			6,
+			7,
 			8
 		},
 		[3] = {
-			7,
+			6,
 			9
 		},
 		[9] = {
@@ -462,7 +204,6 @@ pg.activity_banner = {
 		}
 	},
 	all = {
-		1,
 		2,
 		3,
 		4,
