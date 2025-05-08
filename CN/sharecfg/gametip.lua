@@ -28286,218 +28286,183 @@ cs.gametip = {
 		995,
 		true
 	},
-	island_name_too_long_or_too_short = {
-		1017814,
-		140,
-		true
-	},
-	island_name_exist_special_word = {
-		1017954,
-		146,
-		true
-	},
-	island_name_exist_ban_word = {
-		1018100,
-		139,
-		true
-	},
-	island_index_extra_all = {
-		1018239,
-		95,
-		true
-	},
-	island_index_potency = {
-		1018334,
-		96,
-		true
-	},
-	island_index_skill = {
-		1018430,
-		97,
-		true
-	},
-	island_index_status = {
-		1018527,
-		98,
-		true
-	},
 	grapihcs3d_setting_enable_gup_driver = {
-		1018625,
+		1017814,
 		111,
 		true
 	},
 	grapihcs3d_setting_resolution = {
-		1018736,
+		1017925,
 		108,
 		true
 	},
 	grapihcs3d_setting_resolution_optionname0 = {
-		1018844,
+		1018033,
 		109,
 		true
 	},
 	grapihcs3d_setting_resolution_optionname1 = {
-		1018953,
+		1018142,
 		110,
 		true
 	},
 	grapihcs3d_setting_resolution_optionname2 = {
-		1019063,
+		1018252,
 		107,
 		true
 	},
 	grapihcs3d_setting_rendering_quality = {
-		1019170,
+		1018359,
 		112,
 		true
 	},
 	grapihcs3d_setting_rendering_quality_optionname0 = {
-		1019282,
+		1018471,
 		115,
 		true
 	},
 	grapihcs3d_setting_rendering_quality_optionname1 = {
-		1019397,
+		1018586,
 		115,
 		true
 	},
 	grapihcs3d_setting_shader_quality = {
-		1019512,
+		1018701,
 		109,
 		true
 	},
 	grapihcs3d_setting_shader_quality_optionname0 = {
-		1019621,
+		1018810,
 		112,
 		true
 	},
 	grapihcs3d_setting_shader_quality_optionname1 = {
-		1019733,
+		1018922,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_quality = {
-		1019845,
+		1019034,
 		109,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname0 = {
-		1019954,
+		1019143,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname1 = {
-		1020066,
+		1019255,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname2 = {
-		1020178,
+		1019367,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_quality_optionname3 = {
-		1020290,
+		1019479,
 		112,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode = {
-		1020402,
+		1019591,
 		119,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname0 = {
-		1020521,
+		1019710,
 		128,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname1 = {
-		1020649,
+		1019838,
 		128,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname2 = {
-		1020777,
+		1019966,
 		128,
 		true
 	},
 	grapihcs3d_setting_shadow_update_mode_optionname3 = {
-		1020905,
+		1020094,
 		125,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality = {
-		1021030,
+		1020219,
 		116,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname0 = {
-		1021146,
+		1020335,
 		119,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname1 = {
-		1021265,
+		1020454,
 		119,
 		true
 	},
 	grapihcs3d_setting_terrain_layer_quality_optionname2 = {
-		1021384,
+		1020573,
 		119,
 		true
 	},
 	grapihcs3d_setting_enable_additional_lights = {
-		1021503,
+		1020692,
 		116,
 		true
 	},
 	grapihcs3d_setting_enable_reflection = {
-		1021619,
+		1020808,
 		106,
 		true
 	},
 	grapihcs3d_setting_character_quality = {
-		1021725,
+		1020914,
 		112,
 		true
 	},
 	grapihcs3d_setting_character_quality_optionname0 = {
-		1021837,
+		1021026,
 		115,
 		true
 	},
 	grapihcs3d_setting_character_quality_optionname1 = {
-		1021952,
+		1021141,
 		115,
 		true
 	},
 	grapihcs3d_setting_character_quality_optionname2 = {
-		1022067,
+		1021256,
 		115,
 		true
 	},
 	grapihcs3d_setting_enable_post_process = {
-		1022182,
+		1021371,
 		111,
 		true
 	},
 	grapihcs3d_setting_enable_post_antialiasing = {
-		1022293,
+		1021482,
 		116,
 		true
 	},
 	grapihcs3d_setting_enable_hdr = {
-		1022409,
+		1021598,
 		96,
 		true
 	},
 	grapihcs3d_setting_enable_distort = {
-		1022505,
+		1021694,
 		103,
 		true
 	},
 	grapihcs3d_setting_enable_dof = {
-		1022608,
+		1021797,
 		99,
 		true
 	}
