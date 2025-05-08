@@ -226,6 +226,8 @@ slot0.CheckNeedUserAgreement = function(slot0)
 		return false
 	elseif PLATFORM_CODE == PLATFORM_CH then
 		return false
+	elseif PLATFORM_CODE == PLATFORM_JP then
+		return false
 	else
 		return slot0._userAgreement < slot0:GetUserAgreementFlag()
 	end

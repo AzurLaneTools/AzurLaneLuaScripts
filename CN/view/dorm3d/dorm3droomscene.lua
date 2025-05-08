@@ -1237,9 +1237,9 @@ slot0.ExitTouchMode = function(slot0)
 	end)
 end
 
-slot0.ChangeWalkScene = function(slot0, slot1, slot2)
-	slot4 = slot0.apartment
-	slot3 = slot0.ladyDict[slot4:GetConfigID()]
+slot0.ChangeWalkScene = function(slot0, slot1, slot2, slot3)
+	slot5 = slot0.apartment
+	slot4 = slot0.ladyDict[slot5:GetConfigID()]
 
 	seriesAsync({
 		function (slot0)
@@ -1251,9 +1251,9 @@ slot0.ChangeWalkScene = function(slot0, slot1, slot2)
 		function (slot0)
 			uv0:emit(uv0.SHOW_BLOCK)
 
-			if uv1 == uv0.dormSceneMgr.sceneInfo then
+			if uv1 == "back" then
 				uv0:SetUI(slot0, "back")
-			elseif uv0.uiState ~= "walk" then
+			elseif uv1 == "change" and uv0.uiState ~= "walk" then
 				uv0:SetUI(slot0, "walk")
 			else
 				slot0()
@@ -1261,7 +1261,7 @@ slot0.ChangeWalkScene = function(slot0, slot1, slot2)
 		end
 	}, function ()
 		uv0:emit(uv0.HIDE_BLOCK)
-		uv0:SetBlackboardValue(uv1, "inWalk", uv2 ~= uv0.dormSceneMgr.sceneInfo)
+		uv0:SetBlackboardValue(uv1, "inWalk", uv2 == "change")
 		existCall(uv3)
 	end)
 end
@@ -2317,11 +2317,11 @@ slot0.PerformanceQueue = function(slot0, slot1, slot2)
 					if uv1.name == "change" then
 						slot1.walkBornPoint = uv1.params.point or "Default"
 
-						uv0:ChangeWalkScene(uv1.params.scene .. "|" .. uv1.params.sceneRoot, slot0)
+						uv0:ChangeWalkScene(uv1.name, uv1.params.scene .. "|" .. uv1.params.sceneRoot, slot0)
 					elseif uv1.name == "back" then
 						slot1.walkBornPoint = nil
 
-						uv0:ChangeWalkScene(uv0.dormSceneMgr.sceneInfo, slot0)
+						uv0:ChangeWalkScene(uv1.name, uv0.dormSceneMgr.sceneInfo, slot0)
 					else
 						if uv1.name == "set" then
 							slot2 = function()

@@ -28,37 +28,37 @@ slot0.Tracking = function(slot0, slot1, slot2, slot3)
 	if slot1 == TRACKING_USER_LEVELUP then
 		originalPrint("tracking lvl:" .. slot3)
 
-		slot5 = AiriUserEvent.New(slot4)
+		slot5 = YongshiUserEvent.New(slot4)
 
 		slot5:AddParam("lvl", slot3)
 		slot5:AddParam("user_id", slot2)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	elseif slot1 == TRACKING_PURCHASE_CLICK then
-		slot5 = AiriUserEvent.New(slot4)
+		slot5 = YongshiUserEvent.New(slot4)
 
 		slot5:AddParam("user_id", slot2)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	elseif slot1 == TRACKING_PURCHASE_FIRST then
 		originalPrint("order id : " .. slot3)
 
-		slot5 = AiriUserEvent.New(slot4)
+		slot5 = YongshiUserEvent.New(slot4)
 
 		slot5:AddParam("user_id", slot2)
 		slot5:AddParam("order_id", slot3)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	elseif slot1 == TRACKING_2D_RETENTION or slot1 == TRACKING_7D_RETENTION then
-		slot5 = AiriUserEvent.New(slot4)
+		slot5 = YongshiUserEvent.New(slot4)
 
 		slot5:AddParam("user_id", slot2)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	elseif slot1 == TRACKING_ROLE_LOGIN then
-		slot5 = AiriUserEvent.New(slot4)
+		slot5 = YongshiUserEvent.New(slot4)
 
 		slot5:AddParam("user_id", slot2)
 		slot5:AddParam("airi_uid", pg.SdkMgr.GetInstance().airi_uid)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)
 	else
-		slot5 = AiriUserEvent.New(slot4)
+		slot5 = YongshiUserEvent.New(slot4)
 
 		slot5:AddParam("user_id", slot2)
 		pg.SdkMgr.GetInstance():UserEventUpload(slot5)

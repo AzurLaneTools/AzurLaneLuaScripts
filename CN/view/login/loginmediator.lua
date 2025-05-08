@@ -79,7 +79,7 @@ slot0.loginProcessHandler = function(slot0)
 		elseif uv2 == LoginType.PLATFORM_INNER then
 			uv0.viewComponent:switchToLogin()
 			uv0.viewComponent:setLastLogin(getProxy(UserProxy):getLastLoginUser())
-		elseif uv2 == LoginType.PLATFORM_AIRIJP or uv2 == LoginType.PLATFORM_AIRIUS then
+		elseif uv2 == LoginType.PLATFORM_YOSTARJP or uv2 == LoginType.PLATFORM_YOSTARUS then
 			uv0.viewComponent:switchToAiriLogin()
 		end
 
@@ -246,14 +246,14 @@ slot0.handleNotification = function(slot0, slot1)
 				elseif uv0 == 3 or uv0 == 6 then
 					uv1.viewComponent:switchToServer()
 				elseif uv0 == 1 or uv0 == 9 or uv0 == 11 or uv0 == 12 then
-					if slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
+					if slot0 == LoginType.PLATFORM_YOSTARJP or slot0 == LoginType.PLATFORM_YOSTARUS then
 						uv1.viewComponent:switchToAiriLogin()
 					else
 						uv1.viewComponent:switchToLogin()
 					end
 				elseif slot0 == LoginType.PLATFORM or slot0 == LoginType.PLATFORM_TENCENT then
 					uv1.viewComponent:switchToServer()
-				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
+				elseif slot0 == LoginType.PLATFORM_YOSTARJP or slot0 == LoginType.PLATFORM_YOSTARUS then
 					uv1.viewComponent:switchToAiriLogin()
 				else
 					uv1.viewComponent:switchToLogin()
@@ -268,7 +268,7 @@ slot0.handleNotification = function(slot0, slot1)
 			onYes = function ()
 				if pg.SdkMgr.GetInstance():GetLoginType() == LoginType.PLATFORM or LoginType.PLATFORM_TENCENT then
 					uv0.viewComponent:switchToServer()
-				elseif slot0 == LoginType.PLATFORM_AIRIJP or slot0 == LoginType.PLATFORM_AIRIUS then
+				elseif slot0 == LoginType.PLATFORM_YOSTARJP or slot0 == LoginType.PLATFORM_YOSTARUS then
 					uv0.viewComponent:switchToAiriLogin()
 				else
 					uv0.viewComponent:switchToLogin()

@@ -5,7 +5,7 @@ slot0.OnClick = function(slot0)
 end
 
 slot0.Flush = function(slot0, slot1)
-	setActive(slot0._tf, not pg.SdkMgr.GetInstance():IsAUPackage())
+	setActive(slot0._tf, true)
 end
 
 slot0.OpenCamera = function(slot0)
@@ -22,14 +22,14 @@ slot0.OpenCamera = function(slot0)
 	end
 
 	slot2 = function()
-		if CameraHelper.IsAndroid() then
+		if PermissionHelper.IsAndroid() then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("apply_permission_camera_tip3"),
 				onYes = function ()
-					CameraHelper.RequestCamera(uv0, uv1)
+					PermissionHelper.RequestCamera(uv0, uv1)
 				end
 			})
-		elseif CameraHelper.IsIOS() then
+		elseif PermissionHelper.IsIOS() then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("apply_permission_camera_tip2")
 			})
@@ -39,7 +39,7 @@ slot0.OpenCamera = function(slot0)
 	pg.MsgboxMgr.GetInstance():ShowMsgBox({
 		content = i18n("apply_permission_camera_tip1"),
 		onYes = function ()
-			CameraHelper.RequestCamera(uv0, uv1)
+			PermissionHelper.RequestCamera(uv0, uv1)
 		end
 	})
 end

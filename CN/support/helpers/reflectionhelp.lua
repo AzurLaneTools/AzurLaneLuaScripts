@@ -9,6 +9,14 @@ return {
 
 		return (not slot2 or tolua.gettypemethod(slot0, slot1, uv0, Type.DefaultBinder, slot2, {}):Call(unpack(slot3))) and tolua.gettypemethod(slot0, slot1, uv0):Call()
 	end,
+	RefCallStaticMethodEx = function (slot0, slot1, slot2, slot3)
+		slot4, slot5 = nil
+		slot4 = tolua.gettypemethod(slot0, slot1, slot2)
+
+		slot4:Destroy()
+
+		return slot4:Call(unpack(slot3))
+	end,
 	RefCallMethod = function (slot0, slot1, slot2, slot3, slot4)
 		slot5, slot6 = nil
 

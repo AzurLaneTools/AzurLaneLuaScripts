@@ -1072,8 +1072,8 @@ slot0.updateWalker = function(slot0)
 end
 
 slot0.setAnimatorSpeed = function(slot0, slot1, slot2)
-	for slot7 = 0, slot1:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
-		slot3[slot7].speed = slot2
+	for slot7, slot8 in ipairs(slot1:GetComponentsInChildren(typeof(Animator), true):ToTable()) do
+		slot8.speed = slot2
 	end
 end
 

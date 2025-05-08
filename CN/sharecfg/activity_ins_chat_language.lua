@@ -3885,7 +3885,117 @@ pg.activity_ins_chat_language = setmetatable({
 		3882,
 		3883,
 		3884,
-		3885
+		3885,
+		3886,
+		3887,
+		3888,
+		3889,
+		3890,
+		3891,
+		3892,
+		3893,
+		3894,
+		3895,
+		3896,
+		3897,
+		3898,
+		3899,
+		3900,
+		3901,
+		3902,
+		3903,
+		3904,
+		3905,
+		3906,
+		3907,
+		3908,
+		3909,
+		3910,
+		3911,
+		3912,
+		3913,
+		3914,
+		3915,
+		3916,
+		3917,
+		3918,
+		3919,
+		3920,
+		3921,
+		3922,
+		3923,
+		3924,
+		3925,
+		3926,
+		3927,
+		3928,
+		3929,
+		3930,
+		3931,
+		3932,
+		3933,
+		3934,
+		3935,
+		3936,
+		3937,
+		3938,
+		3939,
+		3940,
+		3941,
+		3942,
+		3943,
+		3944,
+		3945,
+		3946,
+		3947,
+		3948,
+		3949,
+		3950,
+		3951,
+		3952,
+		3953,
+		3954,
+		3955,
+		3956,
+		3957,
+		3958,
+		3959,
+		3960,
+		3961,
+		3962,
+		3963,
+		3964,
+		3965,
+		3966,
+		3967,
+		3968,
+		3969,
+		3970,
+		3971,
+		3972,
+		3973,
+		3974,
+		3975,
+		3976,
+		3977,
+		3978,
+		3979,
+		3980,
+		3981,
+		3982,
+		3983,
+		3984,
+		3985,
+		3986,
+		3987,
+		3988,
+		3989,
+		3990,
+		3991,
+		3992,
+		3993,
+		3994,
+		3995
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -38798,5 +38908,967 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 3885,
 		flag = 14
+	},
+	[3886] = {
+		param = "指挥官 分享给你一个超级有效的小技巧",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3886,
+		flag = 0
+	},
+	[3887] = {
+		param = "在会议中一直保持高效是件难事吧",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3887,
+		flag = 0
+	},
+	[3888] = {
+		param = "可以试着通过短暂休息来集中注意力哦",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3888,
+		flag = 0
+	},
+	[3889] = {
+		param = "比如 短暂闭上眼睛 让大脑放空……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3889,
+		flag = 0
+	},
+	[3890] = {
+		param = "再睁开眼睛时 就能变得更加专注了",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3890,
+		flag = 0
+	},
+	[3891] = {
+		param = "当然 最关键的就是 要维持 思考的姿态",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3891,
+		flag = 0
+	},
+	[3892] = {
+		param = "非 常 重 要",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3892,
+		flag = 0
+	},
+	[3893] = {
+		param = "不然可能会被姐姐们敲头……",
+		ship_group = 20712,
+		type = 1,
+		id = 3893,
+		flag = 0,
+		option = {
+			{
+				1,
+				"没想到偷懒还能这么有战略性"
+			}
+		}
+	},
+	[3894] = {
+		param = "没想到偷懒还能这么有战略性",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3894,
+		flag = 1
+	},
+	[3895] = {
+		param = "54",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3895,
+		flag = 1
+	},
+	[3896] = {
+		param = "偷懒……？",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3896,
+		flag = 1
+	},
+	[3897] = {
+		param = "指挥官的误解太深了",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3897,
+		flag = 1
+	},
+	[3898] = {
+		param = "这是 休息的艺术",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3898,
+		flag = 1
+	},
+	[3899] = {
+		param = "每次休息后 我的记忆力和专注力都能增强不少呢",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3899,
+		flag = 1
+	},
+	[3900] = {
+		param = "也许我该创建个学派 这发现非常",
+		ship_group = 20712,
+		type = 1,
+		id = 3900,
+		flag = 1,
+		option = {
+			{
+				2,
+				"非常什么？"
+			}
+		}
+	},
+	[3901] = {
+		param = "非常什么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3901,
+		flag = 2
+	},
+	[3902] = {
+		param = "打字累了 我用语音给你转文字好了",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3902,
+		flag = 2
+	},
+	[3903] = {
+		param = "非常具有突破性",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3903,
+		flag = 2
+	},
+	[3904] = {
+		param = "但创建学派什么的 想想就很麻烦",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3904,
+		flag = 2
+	},
+	[3905] = {
+		param = "还是算了……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3905,
+		flag = 2
+	},
+	[3906] = {
+		param = "或者 只有我一个人的学派……嗯 这个不错",
+		ship_group = 20712,
+		type = 1,
+		id = 3906,
+		flag = 2,
+		option = {
+			{
+				3,
+				"那我能申请加入你的学派吗？"
+			}
+		}
+	},
+	[3907] = {
+		param = "那我能申请加入你的学派吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3907,
+		flag = 3
+	},
+	[3908] = {
+		param = "要看看你的诚意才行",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3908,
+		flag = 3
+	},
+	[3909] = {
+		param = "你先想一个不会被发现的休息小技巧吧",
+		ship_group = 20712,
+		type = 1,
+		id = 3909,
+		flag = 3,
+		option = {
+			{
+				4,
+				"假装翻资料"
+			},
+			{
+				5,
+				"多喝水"
+			}
+		}
+	},
+	[3910] = {
+		param = "假装翻资料，实则在放空？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3910,
+		flag = 4
+	},
+	[3911] = {
+		param = "多喝水？每次站起来接水都磨蹭个十几分钟",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3911,
+		flag = 5
+	},
+	[3912] = {
+		param = "………………",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3912,
+		flag = 0
+	},
+	[3913] = {
+		param = "天才！",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3913,
+		flag = 0
+	},
+	[3914] = {
+		param = "我绞尽脑汁 不如指挥官灵机一动",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3914,
+		flag = 0
+	},
+	[3915] = {
+		param = "我宣布你毕业了",
+		ship_group = 20712,
+		type = 1,
+		id = 3915,
+		flag = 0,
+		option = {
+			{
+				6,
+				"还没加入就毕业了？"
+			}
+		}
+	},
+	[3916] = {
+		param = "还没加入就毕业了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3916,
+		flag = 6
+	},
+	[3917] = {
+		param = "天才不用走常规路线",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3917,
+		flag = 6
+	},
+	[3918] = {
+		param = "以后我们可以多讨论这种休息小技巧",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3918,
+		flag = 6
+	},
+	[3919] = {
+		param = "你能带给我不少灵感呢",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3919,
+		flag = 6
+	},
+	[3920] = {
+		param = "说实话 我平时光是思考怎么才能多休息 就费了不少脑细胞",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3920,
+		flag = 6
+	},
+	[3921] = {
+		param = "要是能什么都不做……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3921,
+		flag = 6
+	},
+	[3922] = {
+		param = "顶多出门见一见指挥官",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3922,
+		flag = 6
+	},
+	[3923] = {
+		param = "那才是人生的最高境界",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3923,
+		flag = 6
+	},
+	[3924] = {
+		param = "我今天被过于热情的姐姐们拉去了茶会",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3924,
+		flag = 0
+	},
+	[3925] = {
+		param = "中午没能午休……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3925,
+		flag = 0
+	},
+	[3926] = {
+		param = "好困",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3926,
+		flag = 0
+	},
+	[3927] = {
+		param = "感觉打着字",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3927,
+		flag = 0
+	},
+	[3928] = {
+		param = "都要",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3928,
+		flag = 0
+	},
+	[3929] = {
+		param = "睡着了",
+		ship_group = 20712,
+		type = 1,
+		id = 3929,
+		flag = 0,
+		option = {
+			{
+				1,
+				"这么严重？"
+			}
+		}
+	},
+	[3930] = {
+		param = "不午休的后果竟然这么严重？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3930,
+		flag = 1
+	},
+	[3931] = {
+		param = "指挥官没听过那句至理名言吗",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3931,
+		flag = 1
+	},
+	[3932] = {
+		param = "中午不睡 下午崩溃",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3932,
+		flag = 1
+	},
+	[3933] = {
+		param = "强烈建议把午休列进每个人的日程里",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3933,
+		flag = 1
+	},
+	[3934] = {
+		param = "尤其是指挥官",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3934,
+		flag = 1
+	},
+	[3935] = {
+		param = "你要起到带头作用",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3935,
+		flag = 1
+	},
+	[3936] = {
+		param = "60",
+		ship_group = 20712,
+		type = 4,
+		id = 3936,
+		flag = 1,
+		option = {
+			{
+				2,
+				"好吧"
+			},
+			{
+				3,
+				"不要"
+			}
+		}
+	},
+	[3937] = {
+		param = "好吧，可以考虑",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3937,
+		flag = 2
+	},
+	[3938] = {
+		param = "这么好说话……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3938,
+		flag = 2
+	},
+	[3939] = {
+		param = "有点不符合我对指挥官的印象呢",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3939,
+		flag = 2
+	},
+	[3940] = {
+		param = "不会是表面答应 实则拼命加班吧",
+		ship_group = 20712,
+		type = 1,
+		id = 3940,
+		flag = 2,
+		option = {
+			{
+				4,
+				"尽力而为"
+			}
+		}
+	},
+	[3941] = {
+		param = "不要，午休太浪费时间了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3941,
+		flag = 3
+	},
+	[3942] = {
+		param = "但偶尔休息一下有助于保持清醒和效率呀",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3942,
+		flag = 3
+	},
+	[3943] = {
+		param = "谁说休息和工作不能并存呢",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3943,
+		flag = 3
+	},
+	[3944] = {
+		param = "真想偷偷删掉你的所有工作日程……",
+		ship_group = 20712,
+		type = 1,
+		id = 3944,
+		flag = 3,
+		option = {
+			{
+				4,
+				"尽力而为"
+			}
+		}
+	},
+	[3945] = {
+		param = "只能说尽力而为吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3945,
+		flag = 4
+	},
+	[3946] = {
+		param = "有时候忙起来，耽误了午休也是没办法的事",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3946,
+		flag = 4
+	},
+	[3947] = {
+		param = "看来要有人监督才行",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3947,
+		flag = 4
+	},
+	[3948] = {
+		param = "啊 真是个麻烦事……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3948,
+		flag = 4
+	},
+	[3949] = {
+		param = "但要是为了长久的悠闲生活……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3949,
+		flag = 4
+	},
+	[3950] = {
+		param = "决定了 我来监督指挥官午休……吧",
+		ship_group = 20712,
+		type = 1,
+		id = 3950,
+		flag = 4,
+		option = {
+			{
+				5,
+				"怎么监督？"
+			}
+		}
+	},
+	[3951] = {
+		param = "怎么监督？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3951,
+		flag = 5
+	},
+	[3952] = {
+		param = "呃 还没想",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3952,
+		flag = 5
+	},
+	[3953] = {
+		param = "感觉是个需要认真对待的大事呢",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3953,
+		flag = 5
+	},
+	[3954] = {
+		param = "比如 如果指挥官不肯服从 就实施膝枕方案之类的",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3954,
+		flag = 5
+	},
+	[3955] = {
+		param = "或者 陪指挥官一起午睡？",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3955,
+		flag = 5
+	},
+	[3956] = {
+		param = "啊 得再考虑下可行性",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3956,
+		flag = 5
+	},
+	[3957] = {
+		param = "大脑要宕机了",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3957,
+		flag = 5
+	},
+	[3958] = {
+		param = "嗯……明天再继续努力想计划吧……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3958,
+		flag = 5
+	},
+	[3959] = {
+		param = "57",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3959,
+		flag = 5
+	},
+	[3960] = {
+		param = "指挥官 重大发明",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3960,
+		flag = 0
+	},
+	[3961] = {
+		param = "要不要考虑推行睡衣办公革命？",
+		ship_group = 20712,
+		type = 1,
+		id = 3961,
+		flag = 0,
+		option = {
+			{
+				1,
+				"听起来似乎不是什么好事"
+			}
+		}
+	},
+	[3962] = {
+		param = "听起来似乎不是什么好事",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3962,
+		flag = 1
+	},
+	[3963] = {
+		param = "107",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3963,
+		flag = 1
+	},
+	[3964] = {
+		param = "一定是因为我还没解释 但解释好麻烦……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3964,
+		flag = 1
+	},
+	[3965] = {
+		param = "总而言之就是",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3965,
+		flag = 1
+	},
+	[3966] = {
+		param = "每天起床后 要洗漱 换衣服 出门……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3966,
+		flag = 1
+	},
+	[3967] = {
+		param = "这些工作的前置步骤太麻烦了",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3967,
+		flag = 1
+	},
+	[3968] = {
+		param = "如果我们能省去所有前置步骤",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3968,
+		flag = 1
+	},
+	[3969] = {
+		param = "睡醒后就直接在床上工作 岂不是能极大提升效率？",
+		ship_group = 20712,
+		type = 1,
+		id = 3969,
+		flag = 1,
+		option = {
+			{
+				2,
+				"没有工作氛围"
+			}
+		}
+	},
+	[3970] = {
+		param = "可是卧室也太没有工作氛围了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3970,
+		flag = 2
+	},
+	[3971] = {
+		param = "在床上办公的话，感觉一不小心就会睡过去",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3971,
+		flag = 2
+	},
+	[3972] = {
+		param = "那只能说明你还没睡够 精神不够饱满",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3972,
+		flag = 2
+	},
+	[3973] = {
+		param = "干脆安心睡一大觉 醒来再专注工作",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3973,
+		flag = 2
+	},
+	[3974] = {
+		param = "效率会翻倍哦",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3974,
+		flag = 2
+	},
+	[3975] = {
+		param = "这就是劳逸结合的精髓所在啊",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3975,
+		flag = 2
+	},
+	[3976] = {
+		param = "指挥官一定没试过完全睡饱的感觉吧",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3976,
+		flag = 2
+	},
+	[3977] = {
+		param = "虽然我总是怎么都睡不饱……",
+		ship_group = 20712,
+		type = 1,
+		id = 3977,
+		flag = 2,
+		option = {
+			{
+				3,
+				"试过"
+			},
+			{
+				4,
+				"没试过"
+			}
+		}
+	},
+	[3978] = {
+		param = "当然试过，睡饱后确实完全不困了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3978,
+		flag = 3
+	},
+	[3979] = {
+		param = "对吧对吧",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3979,
+		flag = 3
+	},
+	[3980] = {
+		param = "比起强撑着工作 调整状态才是更正确的选项啊",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3980,
+		flag = 3
+	},
+	[3981] = {
+		param = "太忙了，确实没体验过完全睡饱是什么感受……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3981,
+		flag = 4
+	},
+	[3982] = {
+		param = "啊哦 小可怜……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3982,
+		flag = 4
+	},
+	[3983] = {
+		param = "那么就由我来带着指挥官体验一下吧",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3983,
+		flag = 4
+	},
+	[3984] = {
+		param = "睡衣办公革命第一步",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3984,
+		flag = 0
+	},
+	[3985] = {
+		param = "在我的卧室里试行一天吧",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3985,
+		flag = 0
+	},
+	[3986] = {
+		param = "我看明天就很好",
+		ship_group = 20712,
+		type = 1,
+		id = 3986,
+		flag = 0,
+		option = {
+			{
+				5,
+				"你只是明天不想起床吧？"
+			}
+		}
+	},
+	[3987] = {
+		param = "你只是明天不想起床吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3987,
+		flag = 5
+	},
+	[3988] = {
+		param = "225",
+		ship_group = 20712,
+		option = "",
+		type = 4,
+		id = 3988,
+		flag = 5
+	},
+	[3989] = {
+		param = "呐……不是哦 真的只是 睡 衣 办 公 而已",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3989,
+		flag = 5
+	},
+	[3990] = {
+		param = "不相信的话……",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3990,
+		flag = 5
+	},
+	[3991] = {
+		param = "指挥官可以过来一起",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3991,
+		flag = 5
+	},
+	[3992] = {
+		param = "我的床……嗯 应该可以分给指挥官一半",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3992,
+		flag = 5
+	},
+	[3993] = {
+		param = "但肯定放不下太多文件",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3993,
+		flag = 5
+	},
+	[3994] = {
+		param = "所以指挥官不要带太多工作过来哦",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3994,
+		flag = 5
+	},
+	[3995] = {
+		param = "期待明天一睁开眼 就能见到指挥官",
+		ship_group = 20712,
+		option = "",
+		type = 1,
+		id = 3995,
+		flag = 5
 	}
 }

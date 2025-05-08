@@ -31,10 +31,12 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.confirmBtnTrans, function ()
 		if uv0.frameDic[uv0.selectFrameId] then
 			slot1 = pg.ShareMgr.GetInstance()
-			slot4 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
 
-			MediaSaver.SaveImageWithBytes(Application.persistentDataPath .. "/" .. ("azur" .. slot4.year .. slot4.month .. slot4.day .. slot4.hour .. slot4.min .. slot4.sec .. ".jpg"), uv0:TakePhoto(pg.ShareMgr.TypeDorm3dPhoto, slot0:Find("frame").sizeDelta))
-			pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+			YSNormalTool.MediaTool.SaveImageWithBytes(uv0:TakePhoto(pg.ShareMgr.TypeDorm3dPhoto, slot0:Find("frame").sizeDelta), function (slot0, slot1)
+				if slot0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+				end
+			end)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("Mask"), function ()

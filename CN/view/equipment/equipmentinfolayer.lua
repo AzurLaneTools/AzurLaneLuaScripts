@@ -113,7 +113,7 @@ slot0.didEnter = function(slot0)
 		slot0:updateOperation4()
 	end
 
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, true, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		weight = slot0:getWeightFromData()
 	})
 end

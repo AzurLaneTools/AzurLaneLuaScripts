@@ -5,11 +5,15 @@ slot0.GetEventName = function(slot0)
 end
 
 slot0.GetActivity = function(slot0)
-	slot1 = getProxy(ActivityProxy)
+	if slot0.config.time and slot0.config.time[1] == "default" then
+		slot3 = getProxy(ActivityProxy)
 
-	return _.detect(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_ZPROJECT), function (slot0)
-		return not slot0:isEnd()
-	end)
+		return _.detect(slot3:getActivitiesByType(pg.activity_template[slot0.config.time[2]].type), function (slot0)
+			return not slot0:isEnd()
+		end)
+	end
+
+	return nil
 end
 
 slot0.GetActivityID = function(slot0)
@@ -30,7 +34,11 @@ end
 
 slot0.CustomOnClick = function(slot0)
 	if slot0:GetActivity() then
-		slot0:emit(NewMainMediator.SKIP_ACTIVITY_MAP, slot1.id)
+		if slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_BOSSRUSH then
+			pg.m02:sendNotification(GAME.GO_SCENE, SCENE.BOSSRUSH_MAIN)
+		elseif slot2 == ActivityConst.ACTIVITY_TYPE_ZPROJECT then
+			slot0:emit(NewMainMediator.SKIP_ACTIVITY_MAP, slot1.id)
+		end
 	end
 end
 

@@ -51,6 +51,10 @@ slot0.GetPanels = function(slot0)
 		table.insert(slot1, 1, SettingsAdjustScreenPanle)
 	end
 
+	if ServerChooseMgr.Inst:IsGatewayPackage() then
+		table.insert(slot1, 1, SettingsDebugPanel)
+	end
+
 	return slot1
 end
 

@@ -27,16 +27,16 @@ end
 slot2 = function(slot0)
 	slot1 = slot0:GetComponent(typeof(Button))
 
-	for slot6 = 1, slot0:GetComponentsInChildren(typeof(Button)).Length do
-		if slot1 ~= slot2[slot6 - 1] then
+	for slot6, slot7 in ipairs(slot0:GetComponentsInChildren(typeof(Button)):ToTable()) do
+		if slot1 ~= slot7 then
 			slot7.enabled = false
 		end
 	end
 
 	slot3 = slot0:GetComponent(typeof(Toggle))
 
-	for slot8 = 1, slot0:GetComponentsInChildren(typeof(Toggle)).Length do
-		if slot3 ~= slot4[slot8 - 1] then
+	for slot8, slot9 in ipairs(slot0:GetComponentsInChildren(typeof(Toggle)):ToTable()) do
+		if slot3 ~= slot9 then
 			slot9.enabled = false
 		end
 	end
@@ -63,8 +63,8 @@ slot4 = function(slot0)
 		Animator,
 		Animation
 	}) do
-		for slot10 = 1, slot0:GetComponentsInChildren(typeof(slot5)).Length do
-			slot6[slot10 - 1].enabled = false
+		for slot10, slot11 in ipairs(slot0:GetComponentsInChildren(typeof(slot5)):ToTable()) do
+			slot11.enabled = false
 		end
 	end
 end
@@ -93,8 +93,8 @@ slot0.InitDuplication = function(slot0, slot1, slot2, slot3)
 	uv3(slot1)
 
 	if not slot3.keepScrollTxt then
-		for slot11 = 1, slot1:GetComponentsInChildren(typeof(ScrollText)).Length do
-			setActive(slot7[slot11 - 1].gameObject, false)
+		for slot11, slot12 in ipairs(slot1:GetComponentsInChildren(typeof(ScrollText)):ToTable()) do
+			setActive(slot12.gameObject, false)
 		end
 	end
 

@@ -723,11 +723,7 @@ slot0.willExit = function(slot0)
 	end
 
 	if slot0.clearSceneCache then
-		BLHX.Rendering.EngineCore.TryDispose(true)
-
-		slot1 = typeof("BLHX.Rendering.Executor")
-
-		ReflectionHelp.RefCallMethod(slot1, "TryHandleWaitLinkList", ReflectionHelp.RefGetProperty(slot1, "Instance", nil))
+		-- Nothing
 	end
 end
 

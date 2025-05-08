@@ -223,15 +223,14 @@ slot0.UpdatePainting = function(slot0, slot1, slot2)
 end
 
 slot0.AddGlitchArtEffectForPating = function(slot0, slot1)
-	for slot6 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-		slot2[slot6].material = slot0.glitchArtMaterial
+	for slot6, slot7 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
+		slot7.material = slot0.glitchArtMaterial
 	end
 end
 
 slot0.RecyclePainting = function(slot0, slot1)
 	if slot1:Find("fitter").childCount > 0 then
-		for slot6 = 0, slot1:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot7 = slot2[slot6]
+		for slot6, slot7 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
 			slot8 = Color.white
 
 			if slot7.material ~= slot7.defaultGraphicMaterial then

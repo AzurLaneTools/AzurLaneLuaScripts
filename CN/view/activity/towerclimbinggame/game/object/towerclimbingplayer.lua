@@ -46,11 +46,7 @@ slot0.OnLoaded = function(slot0, slot1)
 		end
 	end)
 	slot0.physics2DItem.CollisionStay:AddListener(function (slot0)
-		slot1 = {}
-
-		for slot5 = 1, slot0.contacts.Length do
-			table.insert(slot1, slot0.contacts[slot5 - 1])
-		end
+		slot1 = slot0.contacts:ToTable()
 
 		if slot0.collider.name == TowerClimbingGameSettings.BLOCK_NAME then
 			uv0.map:SendEvent("StayBlock", slot1, uv0.rigbody.velocity)

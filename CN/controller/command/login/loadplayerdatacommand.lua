@@ -227,7 +227,7 @@ slot0.execute = function(slot0, slot1)
 			true
 		},
 		{
-			IslandProxy,
+			SixthAnniversaryIslandProxy,
 			true
 		},
 		{
@@ -268,6 +268,10 @@ slot0.execute = function(slot0, slot1)
 		},
 		{
 			GMTProxy,
+			true
+		},
+		{
+			IslandProxy,
 			true
 		}
 	})

@@ -37865,3 +37865,218 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 		}
 	}
 }
+
+
+_G.pg.base.gametip.island_name_too_long_or_too_short = {
+	tip = "岛屿名称为1-9个字，请重新输入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_special_word = {
+	tip = "岛屿名称不可含特殊字符，请重新输入"
+}
+
+
+_G.pg.base.gametip.island_name_exist_ban_word = {
+	tip = "岛屿名称包含敏感词汇，请重新输入"
+}
+
+
+_G.pg.base.gametip.island_index_extra_all = {
+	tip = "无限制"
+}
+
+
+_G.pg.base.gametip.island_index_potency = {
+	tip = "剩余潜能"
+}
+
+
+_G.pg.base.gametip.island_index_skill = {
+	tip = "技能可升级"
+}
+
+
+_G.pg.base.gametip.island_index_status = {
+	tip = "有特殊状态"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
+	tip = "允许GPGPU"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution = {
+	tip = "最大分辨率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
+	tip = "720P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname1 = {
+	tip = "1080P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
+	tip = "2K"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
+	tip = "渲染精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality = {
+	tip = "Shader级别"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
+	tip = "阴影精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
+	tip = "关"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname1 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname3 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
+	tip = "阴影更新频率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
+	tip = "低更新频率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
+	tip = "中更新频率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname2 = {
+	tip = "高更新频率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
+	tip = "每帧更新"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
+	tip = "地形精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
+	tip = "多光源"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_reflection = {
+	tip = "反射"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
+	tip = "角色精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
+	tip = "后处理"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_antialiasing = {
+	tip = "抗锯齿"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_hdr = {
+	tip = "HDR"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
+	tip = "扭曲"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
+	tip = "景深"
+}

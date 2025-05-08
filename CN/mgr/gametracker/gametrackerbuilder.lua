@@ -155,4 +155,11 @@ slot0.BuildNewEducate = function(slot0)
 	return uv0(slot0.track_typ, slot0.int_args, slot0.str_args)
 end
 
+slot0.BuildNewMainUI = function(slot0)
+	return uv0(28, {
+		slot0.isNewMainUI,
+		slot0.isLogin
+	}, {})
+end
+
 return slot0

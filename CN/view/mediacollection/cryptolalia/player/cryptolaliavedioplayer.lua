@@ -246,21 +246,20 @@ slot0.DownloadCpkAndSubtitle = function(slot0, slot1, slot2)
 end
 
 slot11 = function(slot0)
-	slot3 = {}
+	slot2 = {}
 
-	for slot7 = 1, PathMgr.ReadAllLines(uv0(slot0)).Length do
-		slot8 = slot2[slot7 - 1]
+	for slot7, slot8 in ipairs(PathMgr.ReadAllLines(uv0(slot0)):ToTable()) do
 		slot9 = string.match(slot8, "#%d+#%d+$")
 		slot10 = string.split(slot9, "#")
 
-		table.insert(slot3, {
+		table.insert(slot2, {
 			startTime = tonumber(slot10[2]),
 			endTime = tonumber(slot10[3]),
 			content = string.gsub(slot8, slot9, "")
 		})
 	end
 
-	return slot3
+	return slot2
 end
 
 slot0.LoadVedioPlayer = function(slot0, slot1, slot2)

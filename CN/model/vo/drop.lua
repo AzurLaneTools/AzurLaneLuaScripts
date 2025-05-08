@@ -124,6 +124,9 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_VITEM] = function (slot0)
 			slot1 = Item.getConfigData(slot0.id)
+
+			assert(slot1, slot0.id)
+
 			slot0.desc = slot1.display
 
 			return slot1
@@ -261,6 +264,16 @@ slot0.InitSwitch = function()
 
 			return slot1
 		end,
+		[DROP_TYPE_ISLAND_ITEM] = function (slot0)
+			slot0.desc = ""
+
+			return pg.island_item_data_template[slot0.id]
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function (slot0)
+			slot0.desc = ""
+
+			return pg.island_ability_template[slot0.id]
+		end,
 		[DROP_TYPE_TRANS_ITEM] = function (slot0)
 			return pg.drop_data_restore[slot0.id]
 		end,
@@ -291,11 +304,7 @@ slot0.InitSwitch = function()
 			return pg.item_data_battleui[slot0.id]
 		end,
 		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
-			slot2 = pg.item_virtual_data_statistics[pg.activity_medal_template[slot0.id].item]
-
-			print(slot2)
-
-			return slot2
+			return pg.item_virtual_data_statistics[pg.activity_medal_template[slot0.id].item]
 		end
 	}
 
@@ -381,6 +390,18 @@ slot0.InitSwitch = function()
 			slot1 = getProxy(AttireProxy):getAttireFrame(AttireConst.TYPE_COMBAT_UI_STYLE, slot0.id)
 
 			return 1
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function (slot0)
+			slot1 = 0
+
+			if getProxy(IslandProxy):GetIsland() then
+				slot1 = slot2:GetInventoryAgency():GetOwnCount(slot0.id)
+			end
+
+			return slot1
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function (slot0)
+			return 0
 		end
 	}
 
@@ -468,6 +489,12 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
 			return slot0:getConfig("rarity")
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function (slot0)
+			return slot0:getConfig("rarity")
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function (slot0)
+			return ItemRarity.Gold
 		end
 	}
 
@@ -836,6 +863,22 @@ slot0.InitSwitch = function()
 						end
 					end
 				end,
+				[50] = function ()
+					if getProxy(IslandProxy):GetIsland() then
+						slot0:AddExp(uv0.count)
+					end
+				end,
+				[51] = function ()
+					if not getProxy(IslandProxy):GetIsland() then
+						return
+					end
+
+					if not slot0:GetOrderAgency() then
+						return
+					end
+
+					slot1:AddExp(uv0.count)
+				end,
 				[26] = function ()
 					if Clone(getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_PT_CRUSING)) and not slot1:isEnd() then
 						slot1.data1 = slot1.data1 + uv0.count
@@ -978,6 +1021,12 @@ slot0.InitSwitch = function()
 			slot3:setNew()
 			getProxy(AttireProxy):addAttireFrame(slot3)
 			pg.ToastMgr.GetInstance():ShowToast(pg.ToastMgr.TYPE_COMBAT_UI, slot3)
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function (slot0)
+			getProxy(IslandProxy):GetIsland():GetInventoryAgency():AddItem(IslandItem.New({
+				id = slot0.id,
+				num = slot0.count
+			}))
 		end
 	}
 
@@ -1093,6 +1142,12 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0, slot1, slot2)
 			setText(slot2, slot0:getConfig("desc"))
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function (slot0, slot1, slot2)
+			setText(slot2, slot0:getConfig("desc"))
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function (slot0, slot1, slot2)
+			setText(slot2, "")
 		end
 	}
 
@@ -1232,6 +1287,12 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0, slot1, slot2)
 			updateActivityMedal(slot1, slot0:getConfigTable(), slot2)
+		end,
+		[DROP_TYPE_ISLAND_ITEM] = function (slot0, slot1, slot2)
+			updateIslandItem(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_ISLAND_ABILITY] = function (slot0, slot1, slot2)
+			updateIslandUnlock(slot1, slot0, slot2)
 		end
 	}
 

@@ -71,6 +71,13 @@ slot0.OnItemSwitch = function(slot0, slot1, slot2)
 	elseif slot1.type == 1 then
 		slot0:OnCommonServerItemSwitch(slot1, slot2)
 	end
+
+	if slot1.id == 19 then
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildNewMainUI({
+			isLogin = 0,
+			isNewMainUI = slot2 and 1 or 0
+		}))
+	end
 end
 
 slot0.OnClickEffectItemSwitch = function(slot0, slot1, slot2)

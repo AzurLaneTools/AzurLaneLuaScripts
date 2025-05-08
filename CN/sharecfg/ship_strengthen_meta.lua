@@ -11976,8 +11976,7 @@ pg.ship_strengthen_meta = {
 		},
 		buff_list_task = {
 			801680,
-			801690,
-			801700
+			801690
 		},
 		uiconfig = {
 			6,

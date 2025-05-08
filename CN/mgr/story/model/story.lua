@@ -7,6 +7,7 @@ slot0.MODE_VEDIO = 5
 slot0.MODE_CAST = 6
 slot0.MODE_SPANIM = 7
 slot0.MODE_BLINK = 8
+slot0.MODE_TDDIALOGUE = 9
 slot0.STORY_AUTO_SPEED = {
 	-9,
 	0,
@@ -29,7 +30,8 @@ slot0.GetStoryStepCls = function(slot0)
 		VedioStep,
 		CastStep,
 		SpAnimStep,
-		BlinkStep
+		BlinkStep,
+		TDDialogueStep
 	})[slot0]
 end
 
@@ -41,16 +43,20 @@ slot0.PlaceholderMap = {
 	tb = slot0.TB,
 	dorm3d = slot0.DORM
 }
+slot0.PLAY_TYPE_STORY = 1
+slot0.PLAY_TYPE_BUBBLE = 2
 
 slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.name = slot1.id
 	slot0.mode = slot1.mode
+	slot0.playType = slot1.playType or uv0.PLAY_TYPE_STORY
 	slot0.once = slot1.once
 	slot0.fadeOut = slot1.fadeOut
 	slot0.hideSkip = defaultValue(slot1.hideSkip, false)
 	slot0.skipTip = defaultValue(slot1.skipTip, true)
 	slot0.noWaitFade = defaultValue(slot1.noWaitFade, false)
 	slot0.dialogueBox = slot1.dialogbox or 1
+	slot0.interaction = defaultValue(slot1.interaction, false)
 	slot0.defaultTb = slot1.defaultTb
 	slot0.placeholder = 0
 	slot7 = ipairs
@@ -66,7 +72,12 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 
 	slot0.hideRecord = defaultValue(slot1.hideRecord, false)
 	slot0.hideAutoBtn = defaultValue(slot1.hideAuto, false)
-	slot0.storyAlpha = defaultValue(slot1.alpha, 0.568)
+
+	if slot0:IsTDDMode() then
+		slot0.storyAlpha = defaultValue(slot1.alpha, 0)
+	else
+		slot0.storyAlpha = defaultValue(slot1.alpha, 0.568)
+	end
 
 	if UnGamePlayState then
 		slot0.speedData = slot1.speed or 0
@@ -134,6 +145,22 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot0.skipAll = false
 	slot0.isAuto = false
 	slot0.speed = 0
+end
+
+slot0.IsTDDMode = function(slot0)
+	return slot0.mode and slot0.mode == uv0.MODE_TDDIALOGUE
+end
+
+slot0.GetPlayType = function(slot0)
+	return slot0.playType
+end
+
+slot0.IsBubbleType = function(slot0)
+	return slot0.playType == uv0.PLAY_TYPE_BUBBLE
+end
+
+slot0.CanInteraction = function(slot0)
+	return slot0.interaction
 end
 
 slot0.HandleRecallOptions = function(slot0, slot1)

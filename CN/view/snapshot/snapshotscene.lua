@@ -77,7 +77,6 @@ slot0.init = function(slot0)
 	slot0.snapshot = slot0:findTF("snapshot")
 	slot0.webcam = slot0.snapshot:GetComponent(typeof(WebCam))
 	slot0.ysScreenShoter = slot0.snapshot:GetComponent(typeof(YSTool.YSScreenShoter))
-	slot0.ysScreenRecorder = slot0.snapshot:GetComponent(typeof(YSTool.YSScreenRecorder))
 	slot0.paint = slot0:findTF("container/paint")
 	slot0.live2d = slot0:findTF("live2d", slot0.paint)
 	slot0.spine = slot0:findTF("spine", slot0.paint)
@@ -157,36 +156,29 @@ slot0.didEnter = function(slot0)
 
 				Tex2DExtension.LoadImage(slot1, slot0)
 				uv0:emit(uv1.SHARE_PANEL, slot1, slot0)
-
-				if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "2" then
-					print("start photo : play sound")
-					NotificationMgr.Inst:PlayShutterSound()
-				end
 			end)
 		elseif uv0.state == uv1.STATE_TAKE_VIDEO then
 			setActive(uv0.ui, false)
 
 			slot0 = function(slot0)
-				if slot0 ~= -1 then
+				if not slot0 then
 					setActive(uv0.ui, true)
 					LeanTween.moveX(uv0.stopRecBtn, uv0.stopRecBtn.rect.width, 0.15)
 				end
 			end
 
-			slot1 = function(slot0)
-				warning("开始录屏结果：" .. tostring(slot0))
-			end
-
-			slot2 = function()
+			slot1 = function()
 				setActive(uv0.stopRecBtn, true)
 				LeanTween.moveX(uv0.stopRecBtn, 0, 0.15):setOnComplete(System.Action(function ()
 					uv0:SetMute(true)
-					uv0.ysScreenRecorder:BeforeStart()
-					uv0.ysScreenRecorder:StartRecord(uv1, uv2)
+
+					uv0.recordFilePath = YSNormalTool.RecordTool.GenRecordFilePath()
+
+					YSNormalTool.RecordTool.StartRecording(uv1, uv0.recordFilePath)
 				end))
 			end
 
-			if not PlayerPrefs.GetInt("hadShowForVideoTip") or slot3 <= 0 then
+			if not PlayerPrefs.GetInt("hadShowForVideoTip") or slot2 <= 0 then
 				PlayerPrefs.SetInt("hadShowForVideoTip", 1)
 
 				uv0:findTF("Text", uv0.videoTipPanel):GetComponent("Text").text = i18n("word_take_video_tip")
@@ -194,15 +186,10 @@ slot0.didEnter = function(slot0)
 				onButton(uv0, uv0.videoTipPanel, function ()
 					setActive(uv0.videoTipPanel, false)
 					uv1()
-
-					if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetChannelUID() == "2" then
-						print("start recording : play sound")
-						NotificationMgr.Inst:PlayStartRecordSound()
-					end
 				end)
 				setActive(uv0.videoTipPanel, true)
 			else
-				slot2()
+				slot1()
 			end
 		end
 	end)
@@ -268,30 +255,34 @@ slot0.didEnter = function(slot0)
 	slot1()
 	onButton(slot0, slot0.stopRecBtn, function ()
 		slot0 = function(slot0)
-			warning("结束录屏结果：" .. tostring(slot0))
+			if slot0 and PLATFORM == PLATFORM_ANDROID then
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = i18n("word_save_video"),
+					onNo = function ()
+						if System.IO.File.Exists(uv0.recordFilePath) then
+							System.IO.File.Delete(uv0.recordFilePath)
+						end
+					end,
+					onYes = function ()
+						YSNormalTool.MediaTool.SaveVideoToAlbum(uv0.recordFilePath, function (slot0, slot1)
+							if slot0 then
+								pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+
+								if System.IO.File.Exists(uv0.recordFilePath) then
+									System.IO.File.Delete(uv0.recordFilePath)
+								end
+							end
+						end)
+					end
+				})
+			end
 		end
 
 		if not LeanTween.isTweening(go(uv0.stopRecBtn)) then
 			LeanTween.moveX(uv0.stopRecBtn, uv0.stopRecBtn.rect.width, 0.15):setOnComplete(System.Action(function ()
 				setActive(uv0.ui, true)
 				setActive(uv0.stopRecBtn, false)
-				uv0.ysScreenRecorder:StopRecord(uv1)
-
-				if PLATFORM == PLATFORM_ANDROID then
-					pg.MsgboxMgr.GetInstance():ShowMsgBox({
-						content = i18n("word_save_video"),
-						onNo = function ()
-							uv0.ysScreenRecorder:DiscardVideo()
-						end,
-						onYes = function ()
-							slot0 = uv0.ysScreenRecorder:GetVideoFilePath()
-
-							warning("源录像路径：" .. tostring(slot0))
-							MediaSaver.SaveVideoWithPath(slot0)
-						end
-					})
-				end
-
+				YSNormalTool.RecordTool.StopRecording(uv1)
 				uv0:SetMute(false)
 			end))
 		end
@@ -807,13 +798,13 @@ end
 
 slot0.SetMute = function(slot0, slot1)
 	if slot1 then
-		CriAtom.SetCategoryVolume("Category_CV", 0)
-		CriAtom.SetCategoryVolume("Category_BGM", 0)
-		CriAtom.SetCategoryVolume("Category_SE", 0)
+		CriWare.CriAtom.SetCategoryVolume("Category_CV", 0)
+		CriWare.CriAtom.SetCategoryVolume("Category_BGM", 0)
+		CriWare.CriAtom.SetCategoryVolume("Category_SE", 0)
 	else
-		CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
-		CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
-		CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
+		CriWare.CriAtom.SetCategoryVolume("Category_CV", pg.CriMgr.GetInstance():getCVVolume())
+		CriWare.CriAtom.SetCategoryVolume("Category_BGM", pg.CriMgr.GetInstance():getBGMVolume())
+		CriWare.CriAtom.SetCategoryVolume("Category_SE", pg.CriMgr.GetInstance():getSEVolume())
 	end
 end
 

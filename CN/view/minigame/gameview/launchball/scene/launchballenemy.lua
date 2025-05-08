@@ -64,18 +64,8 @@ slot16 = function(slot0, slot1)
 			slot0._tf = uv0
 			slot0._animator = GetComponent(findTF(slot0._tf, "ad/anim"), typeof(Animator))
 			slot0.angleTf = findTF(slot0._tf, "ad/angle")
-			slot0.leftBoundPoints = {}
-
-			for slot5 = 0, GetComponent(findTF(slot0._tf, "ad/angle/left"), typeof("UnityEngine.PolygonCollider2D")).points.Length - 1 do
-				table.insert(slot0.leftBoundPoints, slot1.points[slot5])
-			end
-
-			slot0.rightBoundPoints = {}
-
-			for slot6 = 0, GetComponent(findTF(slot0._tf, "ad/angle/right"), typeof("UnityEngine.PolygonCollider2D")).points.Length - 1 do
-				table.insert(slot0.rightBoundPoints, slot2.points[slot6])
-			end
-
+			slot0.leftBoundPoints = GetComponent(findTF(slot0._tf, "ad/angle/left"), typeof("UnityEngine.PolygonCollider2D")):ToTable()
+			slot0.rightBoundPoints = GetComponent(findTF(slot0._tf, "ad/angle/right"), typeof("UnityEngine.PolygonCollider2D")):ToTable()
 			slot0.localRotation = Vector3(0, 0, 0)
 			slot0.circlePos = findTF(slot0._tf, "ad/angle/circle").anchoredPosition
 
@@ -985,49 +975,48 @@ slot0.createPoints = function(slot0, slot1)
 	slot2 = {}
 	slot3 = 0
 
-	for slot8 = 0, GetComponent(slot1, "EdgeCollider2D").points.Length - 1 do
-		slot9 = slot4.points[slot8]
-		slot10 = Vector2(0, 0)
+	for slot9, slot10 in ipairs(GetComponent(slot1, "EdgeCollider2D").points:ToTable()) do
 		slot11 = Vector2(0, 0)
-		slot12 = 0
+		slot12 = Vector2(0, 0)
 		slot13 = 0
+		slot14 = 0
 
-		if slot8 >= 1 then
-			slot14 = slot4.points[slot8 - 1]
-			slot15 = slot4.points[slot8]
-			slot3 = slot3 + math.sqrt(math.pow(slot15.x - slot14.x, 2) + math.pow(slot15.y - slot14.y, 2))
+		if slot9 > 1 then
+			slot15 = slot5[slot9 - 1]
+			slot16 = slot5[slot9]
+			slot3 = slot3 + math.sqrt(math.pow(slot16.x - slot15.x, 2) + math.pow(slot16.y - slot15.y, 2))
 		end
 
-		if slot8 < slot4.points.Length - 1 then
-			slot14 = slot4.points[slot8]
-			slot15 = slot4.points[slot8 + 1]
-			slot12 = math.atan(math.abs(slot15.y - slot14.y) / math.abs(slot15.x - slot14.x))
-			slot13 = math.atan2(slot15.y - slot14.y, slot15.x - slot14.x) * math.rad2Deg
-			slot16 = slot14.x < slot15.x and 1 or -1
-			slot17 = slot14.y < slot15.y and 1 or -1
-			slot11.x = slot16
-			slot11.y = slot17
-			slot10.x = math.cos(slot12) * slot16
-			slot10.y = math.sin(slot12) * slot17
-		elseif slot8 == slot4.points.Length - 1 then
-			slot14 = slot4.points[slot8 - 1]
-			slot15 = slot4.points[slot8]
-			slot12 = math.atan(math.abs(slot15.y - slot14.y) / math.abs(slot15.x - slot14.x))
-			slot13 = math.atan2(slot15.y - slot14.y, slot15.x - slot14.x) * math.rad2Deg
-			slot16 = slot14.x < slot15.x and 1 or -1
-			slot17 = slot14.y < slot15.y and 1 or -1
-			slot11.x = slot16
-			slot11.y = slot17
-			slot10.x = math.cos(slot12) * slot16
-			slot10.y = math.sin(slot12) * slot17
+		if slot9 < #slot5 then
+			slot15 = slot5[slot9]
+			slot16 = slot5[slot9 + 1]
+			slot13 = math.atan(math.abs(slot16.y - slot15.y) / math.abs(slot16.x - slot15.x))
+			slot14 = math.atan2(slot16.y - slot15.y, slot16.x - slot15.x) * math.rad2Deg
+			slot17 = slot15.x < slot16.x and 1 or -1
+			slot18 = slot15.y < slot16.y and 1 or -1
+			slot12.x = slot17
+			slot12.y = slot18
+			slot11.x = math.cos(slot13) * slot17
+			slot11.y = math.sin(slot13) * slot18
+		elseif slot9 == #slot5 then
+			slot15 = slot5[slot9 - 1]
+			slot16 = slot5[slot9]
+			slot13 = math.atan(math.abs(slot16.y - slot15.y) / math.abs(slot16.x - slot15.x))
+			slot14 = math.atan2(slot16.y - slot15.y, slot16.x - slot15.x) * math.rad2Deg
+			slot17 = slot15.x < slot16.x and 1 or -1
+			slot18 = slot15.y < slot16.y and 1 or -1
+			slot12.x = slot17
+			slot12.y = slot18
+			slot11.x = math.cos(slot13) * slot17
+			slot11.y = math.sin(slot13) * slot18
 		end
 
 		table.insert(slot2, {
-			pos = slot9,
+			pos = slot10,
 			distance = slot3,
-			move = slot10,
-			direct = slot11,
-			angle = slot13
+			move = slot11,
+			direct = slot12,
+			angle = slot14
 		})
 	end
 

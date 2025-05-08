@@ -213,27 +213,20 @@ slot0.OnCreateBlock = function(slot0, slot1, slot2)
 		slot0.name = TowerClimbingGameSettings.BLOCK_NAME
 
 		setActive(slot0, true)
-
-		slot2 = {}
-
-		for slot6 = 1, slot0:GetComponentsInChildren(typeof(UnityEngine.Collider2D)).Length do
-			table.insert(slot2, slot1[slot6 - 1])
-		end
-
 		table.insert(uv0.blocks, {
 			go = slot0,
 			block = uv1,
-			colliders = slot2
+			colliders = slot0:GetComponentsInChildren(typeof(UnityEngine.Collider2D)):ToTable()
 		})
 		uv0:OnActiveBlock(uv1)
 
-		slot5 = math.random(TowerClimbingGameSettings.FIRE_TIME[1], TowerClimbingGameSettings.FIRE_TIME[2])
+		slot4 = math.random(TowerClimbingGameSettings.FIRE_TIME[1], TowerClimbingGameSettings.FIRE_TIME[2])
 
 		if slot0.transform:Find("firer") then
-			slot7 = slot6:GetComponent(typeof(Animation))
+			slot6 = slot5:GetComponent(typeof(Animation))
 			uv0.timers[uv1.level] = Timer.New(function ()
 				uv0:Play("action")
-			end, slot5, -1)
+			end, slot4, -1)
 
 			uv0.timers[uv1.level]:Start()
 		end
