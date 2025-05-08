@@ -39,7 +39,7 @@ slot0.JumpToCustomSetting = function(slot0, slot1)
 
 	slot0:SetPlayerPrefSetting(slot1)
 	pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGraphics(4))
-	PlayerPrefs.SetInt("dorm3d_graphics_settings", 4)
+	PlayerPrefs.SetInt("dorm3d_graphics_settings_new", 4)
 	pg.m02:sendNotification(NewSettingsMediator.SelectCustomGraphicSetting)
 end
 
@@ -196,7 +196,7 @@ slot0.OnUpdate = function(slot0)
 	end
 
 	slot0.playerSettingPlaySet = {}
-	slot0.graphicLevel = PlayerPrefs.GetInt("dorm3d_graphics_settings", 4)
+	slot0.graphicLevel = PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 4)
 	slot0.customSetting = slot0.graphicLevel == 4
 	slot0.qualitySettingAsset = LoadAny("three3dquaitysettings/defaultsettings", uv0[slot0.graphicLevel])
 	slot0.list = slot0:GetList()

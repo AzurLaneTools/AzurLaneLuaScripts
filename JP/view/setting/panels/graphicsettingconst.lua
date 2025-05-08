@@ -200,7 +200,7 @@ slot0.settings = {
 }
 
 slot0.InitDefautQuality = function()
-	if PlayerPrefs.GetInt("dorm3d_graphics_settings", 0) == 0 then
+	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 0) == 0 then
 		slot1 = DevicePerformanceUtil.GetDevicePerformanceLevel()
 
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
@@ -225,14 +225,14 @@ slot0.InitDefautQuality = function()
 
 		slot0 = slot1 == DevicePerformanceLevel.High and 3 or slot1 == DevicePerformanceLevel.Mid and 2 or 1
 
-		PlayerPrefs.SetInt("dorm3d_graphics_settings", slot0)
+		PlayerPrefs.SetInt("dorm3d_graphics_settings_new", slot0)
 
 		Dorm3dRoomTemplateScene.FirstDefaultSetting = slot0
 	end
 end
 
 slot0.SettingQuality = function()
-	slot0 = PlayerPrefs.GetInt("dorm3d_graphics_settings", 4)
+	slot0 = PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 4)
 	slot2 = LoadAny("three3dquaitysettings/defaultsettings", uv0.assetPath[slot0])
 
 	if slot0 ~= 4 then
@@ -255,6 +255,12 @@ slot0.SettingQuality = function()
 end
 
 slot0.ClearPlayerPrefs = function()
+	if PlayerPrefs.GetInt("dorm3d_graphics_settings_changeed", 0) == 1 then
+		return
+	end
+
+	PlayerPrefs.SetInt("dorm3d_graphics_settings_changeed", 1)
+
 	for slot3, slot4 in ipairs(uv0.settings) do
 		PlayerPrefs.DeleteKey(slot4.playerPrefsname)
 	end

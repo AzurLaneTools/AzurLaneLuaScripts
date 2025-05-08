@@ -3716,7 +3716,7 @@ slot0.willExit = function(slot0)
 end
 
 slot0.InitDefautQuality = function()
-	if PlayerPrefs.GetInt("dorm3d_graphics_settings", 0) == 0 then
+	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 0) == 0 then
 		slot1 = DevicePerformanceUtil.GetDevicePerformanceLevel()
 
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
@@ -3741,7 +3741,7 @@ slot0.InitDefautQuality = function()
 
 		slot0 = slot1 == DevicePerformanceLevel.High and 3 or slot1 == DevicePerformanceLevel.Mid and 2 or 1
 
-		PlayerPrefs.SetInt("dorm3d_graphics_settings", slot0)
+		PlayerPrefs.SetInt("dorm3d_graphics_settings_new", slot0)
 
 		Dorm3dRoomTemplateScene.FirstDefaultSetting = slot0
 	end
