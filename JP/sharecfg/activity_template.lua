@@ -22766,6 +22766,7 @@ pg.activity_template = {
 	[5907] = {
 		mark = 20250424,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -22775,38 +22776,12 @@ pg.activity_template = {
 		id = 5907,
 		config_data = {
 			21684
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5908] = {
 		mark = 20250424,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -22814,34 +22789,7 @@ pg.activity_template = {
 		config_data = "[{31936,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 5908,
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					7
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		id = 5908
 	},
 	[5909] = {
 		mark = 20250424,

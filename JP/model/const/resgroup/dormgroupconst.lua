@@ -73,7 +73,8 @@ return {
 						totalSize = 1,
 						roomId = uv1.roomId
 					}
-					slot2 = {
+
+					uv0.ExtraDownload({
 						dataList = {
 							{
 								groupName = uv0.DormGroupName,
@@ -81,9 +82,7 @@ return {
 							}
 						},
 						onFinish = slot0
-					}
-
-					uv0.ExtraDownload(slot2.dataList[1], slot2.onFinish)
+					})
 				end)
 				table.insert(slot1, function (slot0, slot1)
 					uv0.DormDownloadLock = nil
@@ -96,60 +95,57 @@ return {
 
 		seriesAsync(slot1, slot0.finishFunc)
 	end,
-	ExtraDownload = function (slot0, slot1)
-		if (#slot0.fileNameList <= 0 or not GroupHelper.CreateArrByLuaFileList(slot0.groupName, slot0.fileNameList)) and not nil or slot3.Length == 0 then
+	ExtraDownload = function (slot0)
+		slot1 = slot0.onFinish
+		slot2 = slot0.dataList[1]
+
+		if (#slot2.fileNameList <= 0 or not GroupHelper.CreateArrByLuaFileList(slot2.groupName, slot2.fileNameList)) and not nil or slot4.Length == 0 then
 			slot1()
 
 			return
 		end
 
-		slot4 = GroupHelper.GetGroupMgrByName(slot2)
-		slot8 = nil
-		slot9 = pg.m02
+		slot8 = pg.m02
 
-		slot9:sendNotification(uv0.NotifyDormDownloadStart)
-		warning("----------------------Tag 停止UpdateD----------------------")
+		slot8:sendNotification(uv0.NotifyDormDownloadStart)
 
-		slot4.isPauseUpdateD = true
+		slot8 = BundleWizardUpdater.Inst
+		slot9 = BundleWizardUpdater.Inst
+		slot10 = BundleWizardUpdater.Inst
 
-		warning("----------------------Tag 开始UpdateFileArray----------------------")
-		slot4:UpdateFileArray(slot3, function (slot0, slot1, slot2, slot3)
-			if uv0.DormDownloadLock.curSize ~= slot2 then
-				uv0.DormDownloadLock.curSize = slot2
-				uv0.DormDownloadLock.totalSize = slot3
+		slot10:StartUpdate(slot9:CreateListInfo(slot2.groupName, slot8:GetFileList(slot2.groupName, slot2.fileNameList), function (slot0, slot1, slot2)
+		end, function (slot0, slot1)
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(uv0.DormDownloadLock.roomId, slot0 and 1 or 2))
+
+			if slot0 then
+				uv1(true)
+			else
+				slot3 = function()
+					uv0()
+				end
+
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					modal = true,
+					locked = true,
+					content = i18n("file_down_mgr_error", "", ""),
+					onYes = function ()
+						uv0.ExtraDownload(uv1)
+					end,
+					onNo = slot3,
+					onClose = slot3,
+					weight = LayerWeightConst.TOP_LAYER
+				})
+			end
+		end, function (slot0, slot1, slot2, slot3, slot4, slot5)
+			slot7 = tonumber(tostring(slot4))
+
+			if uv0.DormDownloadLock.curSize ~= tonumber(tostring(slot3)) then
+				uv0.DormDownloadLock.curSize = slot6
+				uv0.DormDownloadLock.totalSize = slot7
 
 				pg.m02:sendNotification(uv0.NotifyDormDownloadProgress)
 			end
-		end, function (slot0, slot1)
-		end, function (slot0, slot1)
-			warning("----------------------Tag 单组下载完成,恢复UpdateD----------------------")
-
-			uv0.isPauseUpdateD = false
-
-			warning("----------------------Tag 单组下载完成,调用groupComplete----------------------")
-			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(uv1.DormDownloadLock.roomId, 1))
-			uv2(true)
-		end, function (slot0, slot1)
-			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(uv0.DormDownloadLock.roomId, 2))
-
-			slot3 = function()
-				uv0.isPauseUpdateD = false
-
-				uv1()
-			end
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				modal = true,
-				locked = true,
-				content = i18n("file_down_mgr_error", slot0, slot1),
-				onYes = function ()
-					uv0.ExtraDownload(uv1, uv2)
-				end,
-				onNo = slot3,
-				onClose = slot3,
-				weight = LayerWeightConst.TOP_LAYER
-			})
-		end)
+		end))
 	end,
 	IsDownloading = function ()
 		slot0 = GroupHelper.GetGroupMgrByName(uv0.DormGroupName)
@@ -176,7 +172,7 @@ return {
 			uv0 = {}
 
 			for slot3, slot4 in ipairs(pg.dorm3d_rooms.all) do
-				if not pg.dorm3d_rooms[slot4].is_common then
+				if pg.dorm3d_rooms[slot4].is_common ~= 1 then
 					uv0[string.lower(slot5.resource_name)] = true
 				end
 			end
@@ -225,8 +221,8 @@ return {
 		originalPrint("fullDirPath Exist:", tostring(slot4.Exists(slot2)))
 
 		if slot4.Exists(slot2) then
-			for slot10 = 0, slot4.GetFiles(slot2, "*", slot5).Length - 1 do
-				table.insert(slot3, string.sub(slot6[slot10]:gsub("\\", "/"), #slot1 + 1))
+			for slot10, slot11 in ipairs(slot4.GetFiles(slot2, "*", slot5):ToTable()) do
+				table.insert(slot3, string.sub(slot11.gsub(slot11, "\\", "/"), #slot1 + 1))
 			end
 		end
 

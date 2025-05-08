@@ -37,7 +37,7 @@ slot0.init = function(slot0)
 	slot1:OverlayPanel(slot0.rtTop)
 
 	slot0.effectObjs = {}
-	slot0.proxy = getProxy(IslandProxy)
+	slot0.proxy = getProxy(SixthAnniversaryIslandProxy)
 	slot1 = pg.TimeMgr.GetInstance()
 	slot2 = slot0._tf
 	slot2 = slot2:Find("map/content")
@@ -296,7 +296,7 @@ slot0.focus = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.triggerNode = function(slot0, slot1)
-	if getProxy(IslandProxy):GetNode(slot1):IsNew() then
+	if getProxy(SixthAnniversaryIslandProxy):GetNode(slot1):IsNew() then
 		slot0:emit(SixthAnniversaryIslandMediator.MARK_NODE_AFTER_NEW, slot1)
 	end
 
@@ -379,7 +379,7 @@ slot0.afterTriggerEvent = function(slot0, slot1)
 end
 
 slot0.refreshNode = function(slot0, slot1)
-	slot4 = getProxy(IslandProxy):GetNode(slot1):IsVisual()
+	slot4 = getProxy(SixthAnniversaryIslandProxy):GetNode(slot1):IsVisual()
 
 	setActive(slot0.nodeItemList.container:Find(slot1):Find("click"), slot4)
 
@@ -479,7 +479,7 @@ slot0.didEnter = function(slot0)
 		end)
 	elseif slot0.contextData.checkMain then
 		table.insert(slot1, function (slot0)
-			slot1 = getProxy(IslandProxy)
+			slot1 = getProxy(SixthAnniversaryIslandProxy)
 			slot3 = getProxy(ActivityProxy)
 			slot3 = slot3:getActivityByType(ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2)
 			slot3 = slot3:GetTotalBuildingLevel()

@@ -145,21 +145,13 @@ table.Ipairs = function(slot0, slot1)
 end
 
 table.IpairsCArray = function(slot0, slot1)
-	slot2 = nil
-
-	for slot6 = 0, slot0.Length - 1 do
-		slot1(slot6, slot0[slot6])
+	for slot5, slot6 in ipairs(table.CArrayToArray(slot0)) do
+		slot1(slot5 - 1, slot6)
 	end
 end
 
 table.CArrayToArray = function(slot0)
-	slot1 = {}
-
-	for slot5 = 0, slot0.Length - 1 do
-		table.insert(slot1, slot0[slot5])
-	end
-
-	return slot1
+	return slot0.ToTable(slot0)
 end
 
 table.SerialIpairsAsync = function(slot0, slot1, slot2)

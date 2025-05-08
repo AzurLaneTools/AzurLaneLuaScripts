@@ -231,8 +231,8 @@ slot0.LoadPrefab = function(slot0, slot1)
 			return
 		end
 
-		for slot5 = 0, slot0:GetComponentsInChildren(typeof(Image)).Length - 1 do
-			slot1[slot5].raycastTarget = false
+		for slot5, slot6 in ipairs(slot0:GetComponentsInChildren(typeof(Image)):ToTable()) do
+			slot6.raycastTarget = false
 		end
 
 		slot0.transform:SetParent(uv0.model, false)

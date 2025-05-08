@@ -40,7 +40,7 @@ AiriLogin = function(slot0)
 		pg.m02:sendNotification(GAME.PLATFORM_LOGIN_DONE, {
 			user = User.New({
 				type = 1,
-				arg1 = PLATFORM_AIRIJP,
+				arg1 = PLATFORM_YOSTARJP,
 				arg2 = uv0.UID,
 				arg3 = uv0.ACCESS_TOKEN
 			})
@@ -407,7 +407,7 @@ return {
 	end,
 	ShowSurvey = function (slot0, slot1)
 		if uv0.GetIsPlatform() then
-			uv1:UserEventUpload(slot0, tostring(getProxy(PlayerProxy):getData().id), slot1)
+			uv1:ShowSurvey(slot0, tostring(getProxy(PlayerProxy):getData().id), slot1)
 		end
 	end,
 	Survey = function (slot0)

@@ -116,6 +116,7 @@ SCENE = {
 	FIREWORK_AND_SPRING = "firework and spring",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	BOSS_SINGLE_PRECONBAT = "BossSinglePreCombat",
+	ISLAND = "scene island",
 	BILLBOARD = "scene billboard",
 	DREAMLAND = "DREAMLAND",
 	ROGUE_FINAL_RESULT = "ROGUE_FINAL_RESULT",
@@ -177,6 +178,7 @@ SCENE = {
 	TOLOVE_COLLAB_BACKHILL = "TOLOVE_COLLAB_BACKHILL",
 	BACK_CHARGE = "back charge",
 	CARD_TOWER_CHARACTER_SELECT = "CARD_TOWER_CHARACTER_SELECT",
+	SHARED_ISLAND = "shared scene island",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	CREATE_PLAYER = "scene create player",
 	ZUMA_PT_SHOP = "ZUMA_PT_SHOP",
@@ -193,6 +195,7 @@ SCENE = {
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
 	METACHARACTER = "metacharacter",
 	MILITARYEXERCISE = " scene militaryexercise",
+	ISLAND_WORLD_MAP = "island world map",
 	AMUSEMENT_PARK2 = "amusement park 2"
 }
 slot0 = {
@@ -207,6 +210,14 @@ slot0 = {
 	[SCENE.EDUCATE_DOCK] = function (slot0, slot1)
 		slot0.mediator = EducateCharDockMediator
 		slot0.viewComponent = EducateCharDockScene
+	end,
+	[SCENE.ISLAND] = function (slot0, slot1)
+		slot0.mediator = IslandMediator
+		slot0.viewComponent = IslandScene
+	end,
+	[SCENE.SHARED_ISLAND] = function (slot0, slot1)
+		slot0.mediator = SharedIslandMediator
+		slot0.viewComponent = SharedIslandScene
 	end,
 	[SCENE.US_CASTLE_2023] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -956,6 +967,10 @@ slot0 = {
 	[SCENE.BOSS_SINGLE_PRECONBAT] = function (slot0, slot1)
 		slot0.mediator = BossSinglePreCombatMediator
 		slot0.viewComponent = BossSinglePreCombatLayer
+	end,
+	[SCENE.ISLAND_WORLD_MAP] = function (slot0, slot1)
+		slot0.mediator = IslandWorldMapMediator
+		slot0.viewComponent = IslandWorldMapLayer
 	end
 }
 
@@ -1131,7 +1146,7 @@ slot1 = {
 		end
 
 		AnniversaryIsland2023Mediator.CheckPreloadData(slot0)
-		getProxy(IslandProxy):CheckAndRequest(slot1)
+		getProxy(SixthAnniversaryIslandProxy):CheckAndRequest(slot1)
 	end,
 	NewShopsMediator = function (slot0, slot1)
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {

@@ -95,10 +95,6 @@ slot0.load = function(slot0)
 
 	seriesAsync({
 		function (slot0)
-			if tobool(uv0:loadingQueue()) then
-				gcAll(true)
-			end
-
 			uv0:preload(slot0)
 		end,
 		function (slot0)
@@ -286,41 +282,34 @@ end
 slot0.enter = function(slot0)
 	slot0:quickExit()
 	slot0:PlayBGM()
-	slot0:inOutAnim(true, function ()
-		uv0:emit(uv1.DID_ENTER)
+	slot0:emit(uv0.DID_ENTER)
 
-		if uv0:lowerAdpter() then
-			setActive(pg.CameraFixMgr.GetInstance().adpterTr, false)
-		end
+	if slot0:lowerAdpter() then
+		setActive(pg.CameraFixMgr.GetInstance().adpterTr, false)
+	end
 
-		if not uv0._isCachedView then
-			uv0:didEnter()
-			uv0:ShowOrHideResUI(true)
-		end
+	if not slot0._isCachedView then
+		slot0:didEnter()
+		slot0:ShowOrHideResUI(true)
+	end
 
-		if tobool(uv0:loadingQueue()) and uv0.contextData.resumeCallback then
-			uv0.contextData.resumeCallback = nil
+	if tobool(slot0:loadingQueue()) and slot0.contextData.resumeCallback then
+		slot0.contextData.resumeCallback = nil
 
-			uv0.contextData.resumeCallback()
-		end
+		slot0.contextData.resumeCallback()
+	end
 
-		slot0 = uv0
-
-		slot0:emit(uv1.AVALIBLE)
-
-		slot0 = uv0
-
-		slot0:onUIAnimEnd(function ()
-			pg.SeriesGuideMgr.GetInstance():start({
-				view = uv0.__cname,
-				code = {
-					pg.SeriesGuideMgr.CODES.MAINUI
-				}
-			})
-			pg.NewGuideMgr.GetInstance():OnSceneEnter({
-				view = uv0.__cname
-			})
-		end)
+	slot0:emit(uv0.AVALIBLE)
+	slot0:onUIAnimEnd(function ()
+		pg.SeriesGuideMgr.GetInstance():start({
+			view = uv0.__cname,
+			code = {
+				pg.SeriesGuideMgr.CODES.MAINUI
+			}
+		})
+		pg.NewGuideMgr.GetInstance():OnSceneEnter({
+			view = uv0.__cname
+		})
 	end)
 end
 
@@ -343,66 +332,32 @@ slot0.exit = function(slot0)
 
 	slot0:StopBgm()
 	pg.DelegateInfo.Dispose(slot0)
-	slot0:inOutAnim(false, function ()
-		uv0:willExit()
-		uv0:ShowOrHideResUI(false)
-		uv0:detach()
+	slot0:willExit()
+	slot0:ShowOrHideResUI(false)
+	slot0:detach()
 
-		if uv0:lowerAdpter() then
-			setActive(pg.CameraFixMgr.GetInstance().adpterTr, true)
-		end
-
-		pg.NewGuideMgr.GetInstance():OnSceneExit({
-			view = uv0.__cname
-		})
-		pg.NewStoryMgr.GetInstance():OnSceneExit({
-			view = uv0.__cname
-		})
-		uv0:emit(uv1.DID_EXIT)
-	end)
-end
-
-slot0.inOutAnim = function(slot0, slot1, slot2)
-	slot3 = false
-
-	if slot1 then
-		if not IsNil(slot0._tf:GetComponent(typeof(Animation))) then
-			slot0.animTF = slot0._tf
-		else
-			slot0.animTF = slot0:findTF("blur_panel")
-		end
-
-		if slot0.animTF ~= nil then
-			slot5 = slot0.animTF:GetComponent(typeof(UIEventTrigger))
-
-			if slot0.animTF:GetComponent(typeof(Animation)) ~= nil and slot5 ~= nil then
-				if slot4:get_Item("enter") == nil then
-					originalPrint("cound not found enter animation")
-				else
-					slot4:Play("enter")
-				end
-			elseif slot4 ~= nil then
-				originalPrint("cound not found [UIEventTrigger] component")
-			elseif slot5 ~= nil then
-				originalPrint("cound not found [Animation] component")
-			end
-		end
+	if slot0:lowerAdpter() then
+		setActive(pg.CameraFixMgr.GetInstance().adpterTr, true)
 	end
 
-	if not slot3 then
-		slot2()
-	end
+	pg.NewGuideMgr.GetInstance():OnSceneExit({
+		view = slot0.__cname
+	})
+	pg.NewStoryMgr.GetInstance():OnSceneExit({
+		view = slot0.__cname
+	})
+	slot0:emit(uv0.DID_EXIT)
 end
 
-slot0.PlayExitAnimation = function(slot0, slot1)
-	slot3 = slot0._tf:GetComponent(typeof(UIEventTrigger))
+slot0.PlayUIAnimation = function(slot0, slot1, slot2, slot3)
+	slot5 = slot1:GetComponent(typeof(UIEventTrigger))
 
-	slot3.didExit:RemoveAllListeners()
-	slot3.didExit:AddListener(function ()
+	slot5.didExit:RemoveAllListeners()
+	slot5.didExit:AddListener(function ()
 		uv0.didExit:RemoveAllListeners()
 		uv1()
 	end)
-	slot0._tf:GetComponent(typeof(Animation)):Play("exit")
+	slot1:GetComponent(typeof(Animation)):Play(slot2)
 end
 
 slot0.attach = function(slot0, slot1)

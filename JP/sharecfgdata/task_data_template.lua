@@ -228913,3 +228913,322 @@ _G.pg.base.task_data_template[500117] = {
 		}
 	}
 }
+
+
+_G.pg.base.task_data_template[500121] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500121,
+	type = 5,
+	is_head = 1,
+	count_inherit = 0,
+	name = "インドミタブルのプラン",
+	desc = "魚雷天ぷらを3個準備する（消費）",
+	sub_type = 1000,
+	task_fold = 0,
+	story_icon = "bunao",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500122",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "BUNAO1",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500121,
+	target_num = 3,
+	fix_task = 0,
+	target_id = "50003",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	},
+	scene = {
+		"BACKYARD"
+	}
+}
+
+
+_G.pg.base.task_data_template[500122] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500122,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "サイクリング大作戦",
+	desc = "任意の艦を10回強化する",
+	sub_type = 34,
+	task_fold = 0,
+	story_icon = "bunao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500123",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "BUNAO2",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500122,
+	target_num = 10,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500123] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500123,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "サイクリング中のハプニング",
+	desc = "インドミタブルを含めた艦隊で出撃し、20回勝利する",
+	sub_type = 18,
+	task_fold = 0,
+	story_icon = "bunao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500124",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "BUNAO3",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500123,
+	target_num = 20,
+	fix_task = 0,
+	target_id = "20712",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500124] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500124,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "湖でのランチ",
+	desc = "燃料を500消費する",
+	sub_type = 121,
+	task_fold = 0,
+	story_icon = "bunao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500125",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "BUNAO4",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500124,
+	target_num = 500,
+	fix_task = 0,
+	target_id = "0",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500125] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500125,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "助け合い",
+	desc = "インドミタブルの親密度が100に到達",
+	sub_type = 1012,
+	task_fold = 0,
+	story_icon = "bunao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500126",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "BUNAO5",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500125,
+	target_num = 10000,
+	fix_task = 0,
+	target_id = "20712",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			5
+		},
+		{
+			2,
+			16002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500126] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500126,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "予想外の決断",
+	desc = "インドミタブルを3回限界突破する",
+	sub_type = 33,
+	task_fold = 0,
+	story_icon = "bunao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "500127",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "BUNAO6",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500126,
+	target_num = 6,
+	fix_task = 0,
+	target_id = "20712",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18032,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.task_data_template[500127] = {
+	target_id_2 = "",
+	guild_coin_award = 0,
+	award = 500127,
+	type = 5,
+	is_head = 0,
+	count_inherit = 0,
+	name = "どこまでもインドミタブル",
+	desc = "インドミタブルのレベルが100に到達",
+	sub_type = 1013,
+	task_fold = 0,
+	story_icon = "bunao",
+	scene = "",
+	quick_finish = 0,
+	level = 1,
+	award_choice = "",
+	priority_type = 0,
+	auto_commit = 0,
+	added_tip = 1,
+	next_task = "0",
+	visibility = 1,
+	story_icon_shift = "",
+	ryza_type = 0,
+	story_id = "BUNAO7",
+	ryza_icon = "",
+	activity_client_config = "",
+	id = 500127,
+	target_num = 100,
+	fix_task = 0,
+	target_id = "20712",
+	open_need = {},
+	award_display = {
+		{
+			1,
+			1,
+			100
+		},
+		{
+			1,
+			6,
+			10
+		},
+		{
+			2,
+			18033,
+			1
+		}
+	}
+}

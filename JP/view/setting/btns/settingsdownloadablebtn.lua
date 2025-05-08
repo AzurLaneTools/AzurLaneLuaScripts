@@ -28,6 +28,21 @@ slot0.Init = function(slot0)
 	setSlider(slot0.loadProgress, 0, 1, 0)
 	setActive(slot0.loadDot, false)
 	setActive(slot0.loadLoading, false)
+	onButton(slot0, slot0._tf, function ()
+		slot1 = pg.SettingsGroupMgr:GetInstance():GetState(uv0:GetDownloadGroup())
+
+		if uv0:isNeedUpdate() and slot1 ~= pg.SettingsGroupMgr.State.Updating then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_NORMAL,
+				content = string.format(i18n("group_download_tip", HashUtil.BytesToString(pg.SettingsGroupMgr:GetInstance():GetTotalSize({
+					slot0
+				})))),
+				onYes = function ()
+					pg.SettingsGroupMgr:GetInstance():StartDownload(uv0, uv1)
+				end
+			})
+		end
+	end, SFX_PANEL)
 	slot0:Check()
 end
 
@@ -62,86 +77,65 @@ slot0.Check = function(slot0)
 
 	slot0.timer:Start()
 	slot0:UpdateDownLoadState()
-
-	if BundleWizard.Inst:GetGroupMgr(slot0:GetDownloadGroup()).state == DownloadState.None then
-		slot2:CheckD()
-	end
-
-	onButton(slot0, slot0._tf, function ()
-		if uv0.state == DownloadState.CheckFailure then
-			uv0:CheckD()
-		elseif slot0 == DownloadState.CheckToUpdate or slot0 == DownloadState.UpdateFailure then
-			VersionMgr.Inst:RequestUIForUpdateD(uv1, true)
-		end
-	end, SFX_PANEL)
 end
 
 slot0.UpdateDownLoadState = function(slot0)
-	slot4, slot5, slot6, slot7, slot8 = nil
-	slot9 = false
+	slot1 = slot0:GetDownloadGroup()
+	slot2 = BundleWizard.Inst:GetGroupMgr(slot1)
+	slot3, slot4, slot5, slot6, slot7 = nil
+	slot8 = false
+	slot9 = pg.SettingsGroupMgr:GetInstance():GetState(slot1)
+	slot10, slot11 = nil
 
-	if BundleWizard.Inst:GetGroupMgr(slot0:GetDownloadGroup()).state == DownloadState.None then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = slot0:GetLocaltion(slot3, 2)
-		slot6 = "DOWNLOAD"
-		slot7 = 0
-		slot8 = false
-	elseif slot3 == DownloadState.Checking then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = slot0:GetLocaltion(slot3, 2)
-		slot6 = "CHECKING"
-		slot7 = 0
-		slot8 = false
-	elseif slot3 == DownloadState.CheckToUpdate then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = slot0:GetLocaltion(slot3, 2)
-		slot6 = string.format("V.%d > V.%d", slot2.localVersion.Build, slot2.serverVersion.Build)
-		slot7 = 0
-		slot8 = true
-	elseif slot3 == DownloadState.CheckOver then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = slot0:GetLocaltion(slot3, 2)
-		slot6 = "V." .. slot2.CurrentVersion.Build
-		slot7 = 1
-		slot8 = false
-	elseif slot3 == DownloadState.CheckFailure then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = slot0:GetLocaltion(slot3, 2)
-		slot6 = string.format("ERROR(CODE:%d)", slot2.errorCode)
-		slot7 = 0
-		slot8 = false
-	elseif slot3 == DownloadState.Updating then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = string.format("(%d/%d)", slot2.downloadCount, slot2.downloadTotal)
-		slot6 = slot2.downPath
-		slot7 = slot2.downloadCount / math.max(slot2.downloadTotal, 1)
-		slot8 = false
-		slot9 = true
-	elseif slot3 == DownloadState.UpdateSuccess then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = slot0:GetLocaltion(slot3, 2)
-		slot6 = "V." .. slot2.CurrentVersion.Build
-		slot7 = 1
-		slot8 = false
-	elseif slot3 == DownloadState.UpdateFailure then
-		slot4 = slot0:GetLocaltion(slot3, 1)
-		slot5 = slot0:GetLocaltion(slot3, 2)
-		slot6 = string.format("ERROR(CODE:%d)", slot2.errorCode)
-		slot7 = slot2.downloadCount / math.max(slot2.downloadTotal, 1)
-		slot8 = true
+	if IsUnityEditor then
+		slot10 = 1
+		slot11 = 1
+	else
+		slot10 = tonumber(slot2.localVersion.Build)
+		slot11 = tonumber(slot2.serverVersion.Build)
 	end
 
-	if slot6:len() > 15 then
-		slot6 = slot6:sub(1, 12) .. "..."
+	if slot9 == pg.SettingsGroupMgr.State.None then
+		if slot10 < slot11 then
+			slot4 = i18n("word_maingroup_checktoupdate")
+			slot5 = string.format("V.%d > V.%d", slot10, slot11)
+			slot7 = true
+		else
+			slot4 = i18n("word_maingroup_updatesuccess")
+			slot5 = string.format("V.%d", slot2.CurrentVersion.Build)
+			slot7 = false
+		end
+
+		slot6 = 0
+		slot8 = false
+	elseif slot9 == pg.SettingsGroupMgr.State.Updating then
+		slot12, slot13 = pg.SettingsGroupMgr:GetInstance():GetCountProgress(slot1)
+		slot4 = i18n("word_maingroup_updating")
+		slot5 = string.format("(%d/%d)", slot12, slot13)
+		slot6 = slot12 / math.max(slot13, 1)
+		slot7 = false
+		slot8 = true
+	elseif slot9 == pg.SettingsGroupMgr.State.Success then
+		slot4 = i18n("word_maingroup_updatesuccess")
+		slot5 = "V." .. slot2.CurrentVersion.Build
+		slot6 = 1
+		slot7 = false
+		slot8 = false
+	elseif slot9 == pg.SettingsGroupMgr.State.Fail then
+		slot4 = i18n("word_maingroup_updatefailure")
+		slot5 = (slot10 >= slot11 or string.format("V.%d > V.%d", slot10, slot11)) and string.format("V.%d", slot2.CurrentVersion.Build)
+		slot6 = 0
+		slot7 = true
+		slot8 = false
 	end
 
-	setText(slot0.loadInfo1, slot5)
-	setText(slot0.loadInfo2, slot6)
-	setSlider(slot0.loadProgress, 0, 1, slot7)
-	setActive(slot0.loadProgressHandle, slot7 ~= 0 and slot7 ~= 1)
-	setActive(slot0.loadDot, slot8)
-	setActive(slot0.loadLoading, slot9)
-	setActive(slot0.loadLabelNew, slot3 == DownloadState.CheckToUpdate)
+	setText(slot0.loadInfo1, slot4)
+	setText(slot0.loadInfo2, slot5)
+	setSlider(slot0.loadProgress, 0, 1, slot6)
+	setActive(slot0.loadProgressHandle, slot6 ~= 0 and slot6 ~= 1)
+	setActive(slot0.loadDot, slot7)
+	setActive(slot0.loadLoading, slot8)
+	setActive(slot0.loadLabelNew, slot10 < slot11)
 end
 
 slot0.Dispose = function(slot0)
@@ -158,12 +152,14 @@ slot0.GetDownloadGroup = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 
-slot0.GetLocaltion = function(slot0, slot1, slot2)
+slot0.GetTitle = function(slot0)
 	assert(false, "overwrite me !!!")
 end
 
-slot0.GetTitle = function(slot0)
-	assert(false, "overwrite me !!!")
+slot0.isNeedUpdate = function(slot0)
+	slot2 = BundleWizard.Inst:GetGroupMgr(slot0:GetDownloadGroup())
+
+	return tonumber(slot2.localVersion.Build) < tonumber(slot2.serverVersion.Build)
 end
 
 return slot0

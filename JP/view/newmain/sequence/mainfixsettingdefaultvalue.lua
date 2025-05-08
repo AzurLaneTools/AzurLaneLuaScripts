@@ -28,6 +28,11 @@ end
 
 slot0.FixPlayerPrefsKey = function(slot0)
 	USAGE_NEW_MAINUI = "USAGE_NEW_MAINUI" .. getProxy(PlayerProxy):getRawData().id
+
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildNewMainUI({
+		isLogin = 1,
+		isNewMainUI = PlayerPrefs.GetInt(USAGE_NEW_MAINUI, 1)
+	}))
 end
 
 return slot0

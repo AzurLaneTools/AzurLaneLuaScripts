@@ -183,14 +183,14 @@ end
 slot0.AdjustMapEffect = function(slot0, slot1)
 	slot2 = -math.huge
 
-	for slot7 = 1, slot1:GetComponentsInChildren(typeof(Canvas)).Length do
-		if slot2 < slot3[slot7 - 1].sortingOrder then
+	for slot7, slot8 in ipairs(slot1:GetComponentsInChildren(typeof(Canvas)):ToTable()) do
+		if slot2 < slot8.sortingOrder then
 			slot2 = slot8.sortingOrder
 		end
 	end
 
-	for slot8 = 1, slot1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
-		if slot2 < ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot4[slot8 - 1]) then
+	for slot8, slot9 in ipairs(slot1:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
+		if slot2 < ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot9) then
 			slot2 = slot10
 		end
 	end

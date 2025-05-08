@@ -465,22 +465,22 @@ slot7.Pause = function(slot0)
 	slot0:PauseCharacterAction(true)
 
 	for slot4, slot5 in pairs(slot0._areaList) do
-		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
-			slot6[slot10]:Pause()
+		for slot10, slot11 in ipairs(slot5._go:GetComponentsInChildren(typeof(ParticleSystem)):ToTable()) do
+			slot11:Pause()
 		end
 	end
 
 	slot0._cameraUtil:PauseShake()
 
 	for slot4, slot5 in ipairs(slot0._arcEffectList) do
-		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
-			slot6[slot10]:Pause()
+		for slot10, slot11 in ipairs(slot5._go:GetComponentsInChildren(typeof(ParticleSystem)):ToTable()) do
+			slot11:Pause()
 		end
 	end
 
 	for slot4, slot5 in pairs(slot0._particleBulletList) do
-		for slot10 = 0, slot4._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
-			slot6[slot10]:Pause()
+		for slot10, slot11 in ipairs(slot4._go:GetComponentsInChildren(typeof(ParticleSystem)):ToTable()) do
+			slot11:Pause()
 		end
 	end
 end
@@ -489,22 +489,22 @@ slot7.Resume = function(slot0)
 	slot0:PauseCharacterAction(false)
 
 	for slot4, slot5 in pairs(slot0._areaList) do
-		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
-			slot6[slot10]:Play()
+		for slot10, slot11 in ipairs(slot5._go:GetComponentsInChildren(typeof(ParticleSystem)):ToTable()) do
+			slot11:Pause()
 		end
 	end
 
 	slot0._cameraUtil:ResumeShake()
 
 	for slot4, slot5 in ipairs(slot0._arcEffectList) do
-		for slot10 = 0, slot5._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
-			slot6[slot10]:Play()
+		for slot10, slot11 in ipairs(slot5._go:GetComponentsInChildren(typeof(ParticleSystem)):ToTable()) do
+			slot11:Pause()
 		end
 	end
 
 	for slot4, slot5 in pairs(slot0._particleBulletList) do
-		for slot10 = 0, slot4._go:GetComponentsInChildren(typeof(ParticleSystem)).Length - 1 do
-			slot6[slot10]:Play()
+		for slot10, slot11 in ipairs(slot4._go:GetComponentsInChildren(typeof(ParticleSystem)):ToTable()) do
+			slot11:Pause()
 		end
 	end
 end

@@ -23834,7 +23834,7 @@ _G.pg.base.gametip.Settings_title_Other = {
 
 
 _G.pg.base.gametip.Settings_title_LoginJP = {
-	tip = "引継コード"
+	tip = "アカウント"
 }
 
 
@@ -38384,4 +38384,234 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 			info = "7.仮加入状態の【リトル・アンカレッジ】は大艦隊作戦には参加できません。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.island_name_too_long_or_too_short = {
+	tip = "島の名称は1–9文字までです"
+}
+
+
+_G.pg.base.gametip.island_name_exist_special_word = {
+	tip = "使用できない文字が含まれております"
+}
+
+
+_G.pg.base.gametip.island_name_exist_ban_word = {
+	tip = "使用できない文字が含まれております"
+}
+
+
+_G.pg.base.gametip.island_index_extra_all = {
+	tip = "无限制"
+}
+
+
+_G.pg.base.gametip.island_index_potency = {
+	tip = "剩余潜能"
+}
+
+
+_G.pg.base.gametip.island_index_skill = {
+	tip = "技能可升级"
+}
+
+
+_G.pg.base.gametip.island_index_status = {
+	tip = "有特殊状态"
+}
+
+
+_G.pg.base.gametip.yostar_login_btn = {
+	tip = "ログイン"
+}
+
+
+_G.pg.base.gametip.yostar_trans_btn = {
+	tip = "復旧&連携ページ"
+}
+
+
+_G.pg.base.gametip.yostar_account_btn = {
+	tip = "アカウント管理"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
+	tip = "GPUPUを許可"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution = {
+	tip = "最大解像度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
+	tip = "720P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname1 = {
+	tip = "1080P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
+	tip = "2K"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
+	tip = "レンダリング精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality = {
+	tip = "シェーダー精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
+	tip = "影の品質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
+	tip = "オフ"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname1 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname3 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
+	tip = "影の更新頻度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
+	tip = "毎フレーム"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
+	tip = "環境の品質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
+	tip = "マルチライト"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_reflection = {
+	tip = "リフレクション"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
+	tip = "キャラの品質"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
+	tip = "ポストプロセス"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_antialiasing = {
+	tip = "アンチエイリアス"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_hdr = {
+	tip = "HDR"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
+	tip = "ディストーション"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
+	tip = "DOF"
 }

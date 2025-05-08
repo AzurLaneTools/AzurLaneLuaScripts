@@ -199,16 +199,16 @@ removeOnButton = function(slot0)
 end
 
 removeAllOnButton = function(slot0)
-	for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(Button)).Length do
-		if slot1[slot5 - 1] ~= nil then
+	for slot5, slot6 in ipairs(slot0:GetComponentsInChildren(typeof(Button)):ToTable()) do
+		if slot6 ~= nil then
 			slot6.onClick:RemoveAllListeners()
 		end
 	end
 end
 
 ClearAllText = function(slot0)
-	for slot5 = 1, slot0.GetComponentsInChildren(slot0, typeof(Text)).Length do
-		if slot1[slot5 - 1] ~= nil then
+	for slot5, slot6 in ipairs(slot0:GetComponentsInChildren(typeof(Text)):ToTable()) do
+		if slot6 ~= nil then
 			slot6.text = ""
 		end
 	end
@@ -916,9 +916,11 @@ IsUsingWifi = function()
 end
 
 getSceneRootTFDic = function(slot0)
-	table.IpairsCArray(slot0.GetRootGameObjects(slot0), function (slot0, slot1)
-		uv0[slot1.name] = slot1.transform
-	end)
+	slot1 = {}
 
-	return {}
+	for slot5, slot6 in ipairs(slot0:GetRootGameObjects():ToTable()) do
+		slot1[slot6.name] = slot6.transform
+	end
+
+	return slot1
 end

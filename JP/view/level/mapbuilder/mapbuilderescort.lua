@@ -91,8 +91,8 @@ slot0.UpdateEscortItem = function(slot0, slot1, slot2, slot3)
 		Color.red
 	})[table.indexof(getProxy(ChapterProxy):getEscortChapterIds(), slot2) or 1]
 
-	for slot18 = 0, slot9:GetComponentsInChildren(typeof(Image)).Length - 1 do
-		slot14[slot18].color = slot13
+	for slot18, slot19 in ipairs(slot9:GetComponentsInChildren(typeof(Image)):ToTable()) do
+		slot19.color = slot13
 	end
 
 	setImageColor(slot1, slot13)

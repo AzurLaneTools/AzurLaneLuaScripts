@@ -61,7 +61,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 				uv0._anim:Play()
 			end
 
-			uv0.player:SetMaxFrameDrop(CriManaMovieMaterial.MaxFrameDrop.Infinite)
+			uv0.player:SetMaxFrameDrop(CriWare.CriManaMovieMaterialBase.MaxFrameDrop.Infinite)
 			uv0.player:SetCpkTotalTimeCallback(function (slot0)
 				uv0.time = slot0
 

@@ -306,8 +306,8 @@ slot0.ClearEvent = function(slot0, slot1)
 	slot2:AddDragEndFunc(nil)
 	slot2:AddPointUpFunc(nil)
 
-	for slot7 = 1, slot1:GetComponentsInChildren(typeof(Image)).Length do
-		slot3[slot7 - 1].raycastTarget = false
+	for slot7, slot8 in ipairs(slot1:GetComponentsInChildren(typeof(Image)):ToTable()) do
+		slot8.raycastTarget = false
 	end
 end
 

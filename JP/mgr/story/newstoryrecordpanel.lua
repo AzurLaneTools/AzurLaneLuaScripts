@@ -7,16 +7,20 @@ slot5 = 4
 slot6 = 5
 slot7 = 10
 
+slot0.GetUIName = function(slot0)
+	return "NewStoryRecordUI"
+end
+
 slot0.Ctor = function(slot0)
 	slot0.state = uv0
 end
 
 slot0.Load = function(slot0)
 	slot0.state = uv0
-	slot0.parentTF = pg.NewStoryMgr.GetInstance().frontTr
+	slot0.parentTF = slot0:GetParent()
 	slot1 = ResourceMgr.Inst
 
-	slot1:getAssetAsync("ui/NewStoryRecordUI", "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+	slot1:getAssetAsync("ui/" .. slot0:GetUIName(), "", UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 		slot1 = Object.Instantiate(slot0, uv0.parentTF)
 
 		if uv0:IsLoading() then
@@ -25,6 +29,10 @@ slot0.Load = function(slot0)
 			uv0:Init(slot1)
 		end
 	end), true, true)
+end
+
+slot0.GetParent = function(slot0)
+	return pg.NewStoryMgr.GetInstance().frontTr
 end
 
 slot0.IsEmptyOrUnload = function(slot0)
@@ -56,6 +64,7 @@ slot0.Init = function(slot0, slot1)
 		slot0.tpl
 	}
 	slot0.closeBtn = slot0._tf:Find("close")
+	slot0.bgImage = slot0._tf:GetComponent(typeof(Image))
 	slot0.scrollrect = slot0._tf:GetComponent(typeof(ScrollRect))
 	slot0.contentSizeFitter = slot0._tf:Find("content"):GetComponent(typeof(ContentSizeFitter))
 
@@ -107,6 +116,7 @@ slot8 = function(slot0)
 end
 
 slot0.Show = function(slot0, slot1)
+	slot0.recorder = slot1
 	slot0.displays = slot1:GetContentList()
 
 	if slot0:IsEmptyOrUnload() then
@@ -227,7 +237,7 @@ slot0.UpdateRecord = function(slot0, slot1, slot2)
 	setActive(slot1:Find("icon"), slot2.icon)
 
 	if slot2.icon then
-		GetImageSpriteFromAtlasAsync("SquareIcon/" .. slot2.icon, "", slot1:Find("icon/Image"))
+		GetImageSpriteFromAtlasAsync("SquareIcon/" .. slot2.icon, "", slot3:Find("Image"))
 	end
 
 	if slot2.name and slot2.nameColor then
@@ -238,23 +248,23 @@ slot0.UpdateRecord = function(slot0, slot1, slot2)
 		setText(slot1:Find("name"), slot2.name or "")
 	end
 
-	slot4 = UIItemList.New(slot1:Find("content"), slot1:Find("content/Text"))
+	slot5 = UIItemList.New(slot1:Find("content"), slot1:Find("content/Text"))
 
-	slot4:make(function (slot0, slot1, slot2)
+	slot5:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			setText(slot2, uv0[slot1 + 1])
 		end
 	end)
-	slot4:align(#slot2.list)
+	slot5:align(#slot2.list)
 	setActive(slot1:Find("player"), slot2.icon == nil and slot2.isPlayer)
 
-	slot5 = slot2.icon == nil and slot2.name == nil
-	slot7 = UnityEngine.RectOffset.New()
-	slot7.left = 170
-	slot7.right = 0
-	slot7.top = slot5 and 25 or 90
-	slot7.bottom = slot5 and 25 or 50
-	slot4.container:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup)).padding = slot7
+	slot6 = slot2.icon == nil and slot2.name == nil
+	slot8 = UnityEngine.RectOffset.New()
+	slot8.left = 170
+	slot8.right = 0
+	slot8.top = slot6 and 25 or 90
+	slot8.bottom = slot6 and 25 or 50
+	slot5.container:GetComponent(typeof(UnityEngine.UI.HorizontalOrVerticalLayoutGroup)).padding = slot8
 end
 
 slot0.OnHide = function(slot0)

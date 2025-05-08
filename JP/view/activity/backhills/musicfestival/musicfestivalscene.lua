@@ -39,8 +39,8 @@ slot0.init = function(slot0)
 
 		slot2 = GameObject.Find("UICamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder
 
-		for slot7 = 0, slot0:GetComponentsInChildren(typeof(Renderer)).Length - 1 do
-			slot3[slot7].sortingOrder = slot2 + 1
+		for slot7, slot8 in ipairs(slot0:GetComponentsInChildren(typeof(Renderer)):ToTable()) do
+			slot8.sortingOrder = slot2 + 1
 		end
 	end):Start())
 end

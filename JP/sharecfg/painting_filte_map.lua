@@ -3489,7 +3489,6 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/dafeng_6_tex",
 			"painting/dafeng_6_shophx_tex",
-			"painting/dafeng_6_shophx",
 			"painting/dafeng_6_rw_tex",
 			"painting/dafeng_6_n_tex",
 			"painting/dafeng_6_n_rw_tex",
@@ -17794,6 +17793,7 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/yuanchou_2_tex",
 			"painting/yuanchou_2_rw_tex",
+			"painting/yuanchou_2_rw_hx_tex",
 			"painting/yuanchou_2_n_tex",
 			"painting/yuanchou_2_n_hx_tex",
 			"painting/yuanchou_2_n",

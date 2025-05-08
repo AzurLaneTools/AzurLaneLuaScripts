@@ -8,7 +8,7 @@ slot0.UpdateBg = function(slot0, slot1)
 	slot0.defaultBlueValues = {
 		downsample = slot0.blurOptimized.downsample,
 		blurSize = slot0.blurOptimized.blurSize,
-		blurIterations = slot0.blurOptimized.blurIterations
+		blurIteration = slot0.blurOptimized.blurIteration
 	}
 end
 
@@ -119,19 +119,19 @@ slot0.ClearToBlur = function(slot0, slot1, slot2)
 	slot0.blurFlag = true
 	slot0.blurOptimized.downsample = 0
 	slot0.blurOptimized.blurSize = 0
-	slot0.blurOptimized.blurIterations = 0
+	slot0.blurOptimized.blurIteration = 0
 	slot0.blurOptimized.enabled = true
 
 	slot0:TweenValueWithEase(slot0._go, 0, 3, slot1.closeTime * slot1.blurTimeFactor[1], 0, slot1.ease, function (slot0)
 		uv0.blurOptimized.blurSize = slot0
-		uv0.blurOptimized.blurIterations = slot0
+		uv0.blurOptimized.blurIteration = slot0
 	end, slot2)
 end
 
 slot0.BlurToClear = function(slot0, slot1, slot2)
 	slot0:TweenValueWithEase(slot0._go, 3, 0, slot1.openTime * slot1.blurTimeFactor[2], 0, slot1.ease, function (slot0)
 		uv0.blurOptimized.blurSize = slot0
-		uv0.blurOptimized.blurIterations = slot0
+		uv0.blurOptimized.blurIteration = slot0
 	end, function ()
 		uv0:ClearBlur()
 		uv1()
@@ -143,7 +143,7 @@ slot0.ClearBlur = function(slot0)
 		slot0.blurOptimized.enabled = false
 		slot0.blurOptimized.downsample = slot0.defaultBlueValues.downsample
 		slot0.blurOptimized.blurSize = slot0.defaultBlueValues.blurSize
-		slot0.blurOptimized.blurIterations = slot0.defaultBlueValues.blurIterations
+		slot0.blurOptimized.blurIteration = slot0.defaultBlueValues.blurIteration
 		slot0.blurFlag = false
 	end
 end

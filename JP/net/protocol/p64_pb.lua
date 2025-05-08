@@ -16,7 +16,11 @@ slot2 = {
 	CS_64009_FIELD_LIST = {},
 	SC_64010_FIELD_LIST = {},
 	FLEETTECH_FIELD_LIST = {},
-	TECHSET_FIELD_LIST = {}
+	TECHSET_FIELD_LIST = {},
+	CS_64990_FIELD_LIST = {},
+	SC_64991_FIELD_LIST = {},
+	TEMP_TEST_FIELD_LIST = {},
+	TESTTT_FIELD_LIST = {}
 }
 SC_64000 = slot0.Descriptor()
 slot2.SC_64000_FIELD_LIST.SC_64000_TECH_LIST_FIELD = slot0.FieldDescriptor()
@@ -55,6 +59,16 @@ TECHSET = slot0.Descriptor()
 slot2.TECHSET_FIELD_LIST.TECHSET_SHIP_TYPE_FIELD = slot0.FieldDescriptor()
 slot2.TECHSET_FIELD_LIST.TECHSET_ATTR_TYPE_FIELD = slot0.FieldDescriptor()
 slot2.TECHSET_FIELD_LIST.TECHSET_SET_VALUE_FIELD = slot0.FieldDescriptor()
+CS_64990 = slot0.Descriptor()
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD = slot0.FieldDescriptor()
+SC_64991 = slot0.Descriptor()
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD = slot0.FieldDescriptor()
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD = slot0.FieldDescriptor()
+TEMP_TEST = slot0.Descriptor()
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD = slot0.FieldDescriptor()
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD = slot0.FieldDescriptor()
+TESTTT = slot0.Descriptor()
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD = slot0.FieldDescriptor()
 slot2.SC_64000_FIELD_LIST.SC_64000_TECH_LIST_FIELD.name = "tech_list"
 slot2.SC_64000_FIELD_LIST.SC_64000_TECH_LIST_FIELD.full_name = ".p64.sc_64000.tech_list"
 slot2.SC_64000_FIELD_LIST.SC_64000_TECH_LIST_FIELD.number = 1
@@ -404,11 +418,107 @@ TECHSET.fields = {
 }
 TECHSET.is_extendable = false
 TECHSET.extensions = {}
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.name = "test"
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.full_name = ".p64.cs_64990.test"
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.number = 1
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.index = 0
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.label = 2
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.has_default_value = false
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.default_value = 0
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.type = 13
+slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD.cpp_type = 3
+CS_64990.name = "cs_64990"
+CS_64990.full_name = ".p64.cs_64990"
+CS_64990.nested_types = {}
+CS_64990.enum_types = {}
+CS_64990.fields = {
+	slot2.CS_64990_FIELD_LIST.CS_64990_TEST_FIELD
+}
+CS_64990.is_extendable = false
+CS_64990.extensions = {}
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.name = "test"
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.full_name = ".p64.sc_64991.test"
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.number = 1
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.index = 0
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.label = 2
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.has_default_value = false
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.default_value = nil
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.message_type = TEMP_TEST
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.type = 11
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD.cpp_type = 10
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.name = "test2"
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.full_name = ".p64.sc_64991.test2"
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.number = 2
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.index = 1
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.label = 1
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.has_default_value = false
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.default_value = nil
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.message_type = TEMP_TEST
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.type = 11
+slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD.cpp_type = 10
+SC_64991.name = "sc_64991"
+SC_64991.full_name = ".p64.sc_64991"
+SC_64991.nested_types = {}
+SC_64991.enum_types = {}
+SC_64991.fields = {
+	slot2.SC_64991_FIELD_LIST.SC_64991_TEST_FIELD,
+	slot2.SC_64991_FIELD_LIST.SC_64991_TEST2_FIELD
+}
+SC_64991.is_extendable = false
+SC_64991.extensions = {}
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.name = "message_test"
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.full_name = ".p64.temp_test.message_test"
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.number = 1
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.index = 0
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.label = 1
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.has_default_value = false
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.default_value = nil
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.message_type = TESTTT
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.type = 11
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD.cpp_type = 10
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.name = "int_test"
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.full_name = ".p64.temp_test.int_test"
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.number = 2
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.index = 1
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.label = 1
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.has_default_value = false
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.default_value = nil
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.type = 13
+slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD.cpp_type = 3
+TEMP_TEST.name = "temp_test"
+TEMP_TEST.full_name = ".p64.temp_test"
+TEMP_TEST.nested_types = {}
+TEMP_TEST.enum_types = {}
+TEMP_TEST.fields = {
+	slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_MESSAGE_TEST_FIELD,
+	slot2.TEMP_TEST_FIELD_LIST.TEMP_TEST_INT_TEST_FIELD
+}
+TEMP_TEST.is_extendable = false
+TEMP_TEST.extensions = {}
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.name = "test"
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.full_name = ".p64.testtt.test"
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.number = 1
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.index = 0
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.label = 2
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.has_default_value = false
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.default_value = 0
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.type = 13
+slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD.cpp_type = 3
+TESTTT.name = "testtt"
+TESTTT.full_name = ".p64.testtt"
+TESTTT.nested_types = {}
+TESTTT.enum_types = {}
+TESTTT.fields = {
+	slot2.TESTTT_FIELD_LIST.TESTTT_TEST_FIELD
+}
+TESTTT.is_extendable = false
+TESTTT.extensions = {}
 cs_64001 = slot0.Message(CS_64001)
 cs_64003 = slot0.Message(CS_64003)
 cs_64005 = slot0.Message(CS_64005)
 cs_64007 = slot0.Message(CS_64007)
 cs_64009 = slot0.Message(CS_64009)
+cs_64990 = slot0.Message(CS_64990)
 fleettech = slot0.Message(FLEETTECH)
 sc_64000 = slot0.Message(SC_64000)
 sc_64002 = slot0.Message(SC_64002)
@@ -416,6 +526,9 @@ sc_64004 = slot0.Message(SC_64004)
 sc_64006 = slot0.Message(SC_64006)
 sc_64008 = slot0.Message(SC_64008)
 sc_64010 = slot0.Message(SC_64010)
+sc_64991 = slot0.Message(SC_64991)
 techset = slot0.Message(TECHSET)
+temp_test = slot0.Message(TEMP_TEST)
+testtt = slot0.Message(TESTTT)
 
 return p64_pb

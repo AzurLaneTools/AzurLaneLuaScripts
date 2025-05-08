@@ -191,13 +191,13 @@ end
 slot0.OnOneKey = function(slot0)
 	slot0.points = {}
 
-	for slot5 = 1, slot0.onekeyTrack.points.Length do
-		slot7 = slot0.tracker:TransformPoint(slot1[slot5 - 1])
+	for slot4, slot5 in ipairs(slot0.onekeyTrack.points:ToTable()) do
+		slot6 = slot0.tracker:TransformPoint(slot5)
 
-		table.insert(slot0.points, Vector3(slot7.x, slot7.y, -1))
+		table.insert(slot0.points, Vector3(slot6.x, slot6.y, -1))
 	end
 
-	slot2 = function(slot0)
+	slot1 = function(slot0)
 		if not uv0.pen then
 			uv0.pen = Object.Instantiate(uv0.penTpl, slot0, Quaternion.New(0, 0, 0, 0), uv0.frame)
 		else
@@ -205,10 +205,10 @@ slot0.OnOneKey = function(slot0)
 		end
 	end
 
-	slot3 = {}
+	slot2 = {}
 
-	for slot7 = 1, #slot0.points do
-		table.insert(slot3, function (slot0)
+	for slot6 = 1, #slot0.points do
+		table.insert(slot2, function (slot0)
 			uv0(uv1.points[uv2])
 			onNextTick(slot0)
 		end)
@@ -216,7 +216,7 @@ slot0.OnOneKey = function(slot0)
 
 	slot0.cg.blocksRaycasts = false
 
-	seriesAsync(slot3, function ()
+	seriesAsync(slot2, function ()
 		uv0:OnPass()
 
 		uv0.cg.blocksRaycasts = true
