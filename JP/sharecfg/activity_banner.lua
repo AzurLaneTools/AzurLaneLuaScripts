@@ -1,8 +1,8 @@
 pg = pg or {}
 pg.activity_banner = {
-	{
+	[2] = {
 		type = 2,
-		id = 1,
+		id = 2,
 		pic = "temp1",
 		param = {
 			"scene equip",
@@ -38,17 +38,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
-		time = "stop",
-		type = 2,
-		id = 2,
-		pic = "temp2",
-		param = {
-			"scene skinshop",
-			{}
-		}
-	},
-	{
+	[3] = {
 		time = "stop",
 		type = 2,
 		id = 3,
@@ -57,7 +47,7 @@ pg.activity_banner = {
 			"dorm 3d select"
 		}
 	},
-	{
+	[4] = {
 		time = "stop",
 		type = 2,
 		id = 4,
@@ -70,7 +60,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[5] = {
 		time = "stop",
 		type = 2,
 		id = 5,
@@ -79,14 +69,14 @@ pg.activity_banner = {
 			"scene court yard"
 		}
 	},
-	{
+	[6] = {
 		param = "5901",
 		time = "stop",
 		type = 3,
 		id = 6,
 		pic = "temp6"
 	},
-	{
+	[7] = {
 		time = "stop",
 		type = 2,
 		id = 7,
@@ -98,7 +88,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[8] = {
 		time = "stop",
 		type = 2,
 		id = 8,
@@ -110,7 +100,7 @@ pg.activity_banner = {
 			}
 		}
 	},
-	{
+	[9] = {
 		param = "5909",
 		time = "stop",
 		type = 3,
@@ -182,7 +172,6 @@ pg.activity_banner = {
 	},
 	get_id_list_by_type = {
 		[2] = {
-			1,
 			2,
 			3,
 			4,
@@ -215,7 +204,6 @@ pg.activity_banner = {
 		}
 	},
 	all = {
-		1,
 		2,
 		3,
 		4,

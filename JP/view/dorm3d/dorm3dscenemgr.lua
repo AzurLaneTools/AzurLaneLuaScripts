@@ -90,6 +90,7 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2)
 				slot3 = GameObject.Find("[sequence]").transform:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 
 				slot3:Stop()
+				setActive(GameObject.Find("[camera]").transform:GetComponentInChildren(typeof(Camera)), false)
 				TimelineSupport.InitTimeline(slot3)
 				TimelineSupport.InitSubtitle(slot3, uv0.callName)
 				uv1()
