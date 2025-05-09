@@ -25932,7 +25932,7 @@ pg.base.furniture_data_template = {
 	},
 	[100072] = {
 		can_rotate = 0,
-		describe = "内置强劲动力，专为枕头大战而设计！",
+		describe = "강력한 파워 탑재, 베개 싸움에서 절대 지지 않을 최강의 쿠션! ",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -25951,7 +25951,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "战争型抱枕",
+		name = "배틀 쿠션 ",
 		advice = 0,
 		id = 100072,
 		icon = "zhentoudazhanicon",

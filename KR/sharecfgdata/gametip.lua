@@ -6767,7 +6767,7 @@ _G.pg.base.gametip.word_shipNation_tolove = {
 
 
 _G.pg.base.gametip.word_shipNation_yujinwangguo = {
-	tip = "튤리퍼"
+	tip = "HNLMS"
 }
 
 

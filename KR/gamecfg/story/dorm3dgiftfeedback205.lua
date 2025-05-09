@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 30221,
-			say = "呵呵，会想到送我这个，{dorm3d}一定认真挑选了很久吧？",
+			say = "후후, 이걸 주시다니… 많이 고민하고 생각해서 골라주신 거죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 30221,
-			say = "不过光是关心我可不行，{dorm3d}自己也要注意劳逸结合哦？",
+			say = "그래도 저한테만 신경을 쓰시면 안 돼요. 지휘관님이야말로 휴식과 일의 균형이 흐트러지지 않도록 늘 신경 써주세요. 아셨죠?",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
