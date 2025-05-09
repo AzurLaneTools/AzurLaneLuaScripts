@@ -302,18 +302,32 @@ slot0.handleNotification = function(slot0, slot1)
 end
 
 slot0.checkPaintingRes = function(slot0)
+	slot1 = function()
+		uv0.viewComponent:onLoadDataDone()
+	end
+
 	slot2 = function()
 		uv0.viewComponent.isNeedResCheck = true
 	end
 
-	slot3 = pg.FileDownloadMgr.GetInstance()
+	slot4 = pg.FileDownloadMgr.GetInstance()
 
-	slot3:SetRemind(false)
+	slot4:SetRemind(false)
 	PaintingGroupConst.PaintingDownload({
 		isShowBox = true,
 		paintingNameList = PaintingGroupConst.GetPaintingNameListInLogin(),
 		finishFunc = function ()
-			uv0.viewComponent:onLoadDataDone()
+			pg.FileDownloadMgr.GetInstance():Main({
+				dataList = {
+					{
+						groupName = "L2D",
+						fileNameList = {
+							"live2d/mingshi"
+						}
+					}
+				},
+				onFinish = uv0
+			})
 		end,
 		onNo = slot2,
 		onClose = slot2
