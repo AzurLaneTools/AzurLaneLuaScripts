@@ -2897,6 +2897,15 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 		end)
 
 		slot3 = slot1:GetComponentInChildren(typeof("BLHXCharacterPropertiesController")).transform
+		slot4 = nil
+
+		eachChild(GameObject.Find("[camera]").transform, function (slot0)
+			if slot0.tag == "MainCamera" then
+				uv0 = slot0
+			end
+		end)
+		assert(slot4, "Missing MainCamera")
+
 		uv0.nowTimelinePlayer = TimelinePlayer.New(GameObject.Find("[sequence]").transform)
 
 		uv0.nowTimelinePlayer:Register(uv1.time, function (slot0, slot1, slot2)
@@ -2986,7 +2995,7 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 
 		uv0:HideCharacter()
 		setActive(uv0.mainCameraTF, false)
-		setActive((GameObject.Find("[camera]").transform:GetComponentInChildren(typeof(Camera)) or slot4:Find("MainCamera")).transform, true)
+		setActive(slot4, true)
 		eachChild(uv0.rtTimelineScreen, function (slot0)
 			setActive(slot0, false)
 		end)
@@ -3147,7 +3156,7 @@ slot0.SwitchAnim = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.PlayFaceAnim = function(slot0, slot1, slot2, slot3)
-	slot1.ladyAnimator:CrossFadeInFixedTime(slot2, 0.2, slot1.ladyAnimFaceLayerIndex)
+	slot1.ladyAnimator:CrossFadeInFixedTime(slot2, 0, slot1.ladyAnimFaceLayerIndex)
 	existCall(slot3)
 end
 
@@ -3716,7 +3725,7 @@ slot0.willExit = function(slot0)
 end
 
 slot0.InitDefautQuality = function()
-	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 0) == 0 then
+	if PlayerPrefs.GetInt("dorm3d_graphics_settings", 0) == 0 then
 		slot1 = DevicePerformanceUtil.GetDevicePerformanceLevel()
 
 		if PLATFORM == PLATFORM_IPHONEPLAYER then
@@ -3741,7 +3750,7 @@ slot0.InitDefautQuality = function()
 
 		slot0 = slot1 == DevicePerformanceLevel.High and 3 or slot1 == DevicePerformanceLevel.Mid and 2 or 1
 
-		PlayerPrefs.SetInt("dorm3d_graphics_settings_new", slot0)
+		PlayerPrefs.SetInt("dorm3d_graphics_settings", slot0)
 
 		Dorm3dRoomTemplateScene.FirstDefaultSetting = slot0
 	end

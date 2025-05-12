@@ -118,7 +118,7 @@ slot0.didEnter = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot0.otherTip, PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0)
+	setActive(slot0.otherTip, PlayerPrefs.GetInt("firstIntoOtherPanel") == 0)
 	slot0:EnterDefaultPage()
 end
 

@@ -15,7 +15,7 @@ slot2 = function(slot0)
 	end
 
 	slot0.downsample = 2
-	slot0.blurSize = 1.5
+	slot0.blurSize = 1
 	slot0.blurIteration = 2
 end
 
@@ -25,7 +25,7 @@ slot3 = function(slot0)
 	end
 
 	slot0.downsample = 2
-	slot0.blurSize = 1.5
+	slot0.blurSize = 1
 	slot0.blurIteration = 4
 end
 
@@ -35,7 +35,7 @@ slot4 = function(slot0)
 	end
 
 	slot0.downsample = 2
-	slot0.blurSize = 1.5
+	slot0.blurSize = 1
 	slot0.blurIteration = 1
 end
 
@@ -45,7 +45,7 @@ slot5 = function(slot0)
 	end
 
 	slot0.downsample = 2
-	slot0.blurSize = 1.5
+	slot0.blurSize = 1
 	slot0.blurIteration = 1
 end
 

@@ -323,7 +323,7 @@ return {
 			actor = 207120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "简洁不正是我风格得体现吗~",
+			say = "简洁不正是我风格的体现吗~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
