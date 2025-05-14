@@ -6535,7 +6535,27 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_555_1_1",
 		"op_reply_555_1_1",
 		"ins_op_555_1_2",
-		"op_reply_555_1_2"
+		"op_reply_555_1_2",
+		"ins_556",
+		"ins_discuss_556_1",
+		"ins_reply_556_1_1",
+		"ins_reply_556_1_2",
+		"ins_reply_556_1_3",
+		"ins_discuss_556_2",
+		"ins_reply_556_2_1",
+		"ins_reply_556_2_2",
+		"ins_reply_556_2_3",
+		"ins_reply_556_2_4",
+		"ins_discuss_556_3",
+		"ins_reply_556_3_1",
+		"ins_reply_556_3_2",
+		"ins_reply_556_3_3",
+		"ins_reply_556_3_4",
+		"ins_reply_556_3_5",
+		"ins_op_556_1_1",
+		"op_reply_556_1_1",
+		"ins_op_556_1_2",
+		"op_reply_556_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -25915,231 +25935,291 @@ pg.base.activity_ins_language = {
 		value = "ふふふ。指揮官は怖がっているのですか？"
 	},
 	ins_552 = {
-		value = ""
+		value = "温度が高すぎたのかしら？それとも…壊れたのかしら……？"
 	},
 	ins_discuss_552_1 = {
-		value = ""
+		value = "壊れてるよ。一目で分かる"
 	},
 	ins_reply_552_1_1 = {
-		value = ""
+		value = "壊れているな。Q.E.D."
 	},
 	ins_reply_552_1_2 = {
-		value = ""
+		value = "ゼーヴェンさん、コーヒーマシンにまた何を……"
 	},
 	ins_reply_552_1_3 = {
-		value = ""
+		value = "マニュアル通りに操作してたのに、スイッチをONにした途端こうなってしまいました……"
 	},
 	ins_reply_552_1_4 = {
-		value = ""
+		value = "ヒャヒャヒャ、オレグだけがこいつを直せますぜ！"
 	},
 	ins_reply_552_1_5 = {
-		value = ""
+		value = "コーヒーマシンをパンチグローブにしてはダメよ"
 	},
 	ins_reply_552_1_6 = {
-		value = ""
+		value = "えへ☆"
 	},
 	ins_discuss_552_2 = {
-		value = ""
+		value = "モカポットでも試してみる？水を入れて沸騰させるだけだ"
 	},
 	ins_reply_552_2_1 = {
-		value = ""
+		value = "ええと…実はそれも壊れているようで……"
 	},
 	ins_reply_552_2_2 = {
-		value = ""
+		value = "電化製品が一気に壊れたというの？"
 	},
 	ins_reply_552_2_3 = {
-		value = ""
+		value = "私にもわかりません………"
 	},
 	ins_reply_552_2_4 = {
-		value = ""
+		value = "未知なる力の仕業に違いない……新しい不思議調査を始める時だ！"
 	},
 	ins_op_552_1_1 = {
-		value = ""
+		value = "…もうダメだ。植木鉢にしよう"
 	},
 	op_reply_552_1_1 = {
-		value = ""
+		value = "植木鉢…？ありがとうございます！"
 	},
 	ins_op_552_1_2 = {
-		value = ""
+		value = "今新品を注文したよ"
 	},
 	op_reply_552_1_2 = {
-		value = ""
+		value = "ありがとうございます！今度使う時は助けていただけないでしょうか…"
 	},
 	ins_553 = {
-		value = ""
+		value = "予想を超えた成長速度……面白いですね"
 	},
 	ins_discuss_553_1 = {
-		value = ""
+		value = "エヴァーツェンが苔を観察してる姿……なんかビビッときた！"
 	},
 	ins_reply_553_1_1 = {
-		value = ""
+		value = "エヴァーツェンが苔を観察してる姿をじっと見つめてるラファエロの姿……撮らせてもらうよ！"
 	},
 	ins_reply_553_1_2 = {
-		value = ""
+		value = "エヴァーツェンが苔を観察してる姿をじっと見つめてるラファエロの姿を撮ろうとしているアルフレード……冒険の時間だ！"
 	},
 	ins_reply_553_1_3 = {
-		value = ""
+		value = "どうしてそうなるの？"
 	},
 	ins_reply_553_1_4 = {
-		value = ""
+		value = "そうならないの？"
 	},
 	ins_reply_553_1_5 = {
-		value = ""
+		value = "特ダネがあればなるよ！"
 	},
 	ins_reply_553_1_6 = {
-		value = ""
+		value = "よそでやって。観察の邪魔をしないで"
 	},
 	ins_discuss_553_2 = {
-		value = ""
+		value = "この色に成長度合い、なかなか美味しそうね！"
 	},
 	ins_reply_553_2_1 = {
-		value = ""
+		value = "汁を絞ってコーヒーの隠し味にするのも良さそう！"
 	},
 	ins_reply_553_2_2 = {
-		value = ""
+		value = "デヴォンシャー、マンチェスター、リヴァプール、シリアスを呼んで"
 	},
 	ins_reply_553_2_3 = {
-		value = ""
+		value = "私の研究課題だから食べちゃダメ！"
 	},
 	ins_discuss_553_3 = {
-		value = ""
+		value = "健やかに育ってますね……名前を付けましょうか？"
 	},
 	ins_reply_553_3_1 = {
-		value = ""
+		value = "それは良きアイデアだ……深緑の暴威（エバーグリーン・バーサーク）としよう！"
 	},
 	ins_reply_553_3_2 = {
-		value = ""
+		value = "とんでもなくダサいわ……幽遠の絨毯でどうかしら？"
 	},
 	ins_reply_553_3_3 = {
-		value = ""
+		value = "…ゼーヴェンさんなら多分「フルンモス」になるんじゃないかな"
 	},
 	ins_reply_553_3_4 = {
-		value = ""
+		value = "どうして分かったんですか…？"
 	},
 	ins_reply_553_3_5 = {
-		value = ""
+		value = "ゼーヴェンさんはすごく分かりやすいから……"
 	},
 	ins_op_553_1_1 = {
-		value = ""
+		value = "自分も混ぜてもらっても？"
 	},
 	op_reply_553_1_1 = {
-		value = ""
+		value = "歓迎ですよ。ただし静かにね"
 	},
 	ins_op_553_1_2 = {
-		value = ""
+		value = "昨日からなにか変わったの？"
 	},
 	op_reply_553_1_2 = {
-		value = ""
+		value = "色々変わりました。気になるなら今から説明しに伺いますよ"
 	},
 	ins_554 = {
-		value = ""
+		value = "あああああああああああああああああああああああああああああああ！！！！！！！！！！！"
 	},
 	ins_discuss_554_1 = {
-		value = ""
+		value = "どういうシチュエーションか、どなたか説明してもらえませんか？"
 	},
 	ins_reply_554_1_1 = {
-		value = ""
+		value = "「もうちょっとの辛抱だ、もうすぐで成功するよ」って言ってるらしいよ"
 	},
 	ins_reply_554_1_2 = {
-		value = ""
+		value = "つまりもっと爆発させ続けるのですか？"
 	},
 	ins_reply_554_1_3 = {
-		value = ""
+		value = "爆発は成功の母！！"
 	},
 	ins_reply_554_1_4 = {
-		value = ""
+		value = "そうですね。じゃあその辺で、明日は審判廷でお会いしましょう"
 	},
 	ins_discuss_554_2 = {
-		value = ""
+		value = "この設計って……爆発するのも頷けるね……"
 	},
 	ins_reply_554_2_1 = {
-		value = ""
+		value = "あたしの案でも試してみない？"
 	},
 	ins_reply_554_2_2 = {
-		value = ""
+		value = "そっちの案も悪くないけど、機械の可能性を殺していますよ！！"
 	},
 	ins_reply_554_2_3 = {
-		value = ""
+		value = "…どんな可能性？"
 	},
 	ins_reply_554_2_4 = {
-		value = ""
+		value = "爆発の可能性！！"
 	},
 	ins_reply_554_2_5 = {
-		value = ""
+		value = "…………"
 	},
 	ins_discuss_554_3 = {
-		value = ""
+		value = "なるほどね！これは「このまま擬音語が続いたらバレるよな」って意味ね！"
 	},
 	ins_reply_554_3_1 = {
-		value = ""
+		value = "貼るのは憚れますね"
 	},
 	ins_reply_554_3_2 = {
-		value = ""
+		value = "貼ってはダメだってばー！"
 	},
 	ins_reply_554_3_3 = {
-		value = ""
+		value = "……何を言っているの…？"
 	},
 	ins_reply_554_3_4 = {
-		value = ""
+		value = "別になんでもないわよ！"
 	},
 	ins_op_554_1_1 = {
-		value = ""
+		value = "一昨日は2回、昨日は1回爆発させたな…"
 	},
 	op_reply_554_1_1 = {
-		value = ""
+		value = "今日こそ成功させますよ！！！"
 	},
 	ins_op_554_1_2 = {
-		value = ""
+		value = "頑張れオレグ！あなたならできる！"
 	},
 	op_reply_554_1_2 = {
-		value = ""
+		value = "おおお燃えてきました！頑張って！私！"
 	},
 	ins_555 = {
-		value = ""
+		value = "冷え込んでるから、熱い飲み物でも飲んで暖かくしようね"
 	},
 	ins_discuss_555_1 = {
-		value = ""
+		value = "ヴォッカもいいぞ！"
 	},
 	ins_reply_555_1_1 = {
-		value = ""
+		value = "一杯飲めば体ぽかぽか、二杯飲めばスッキリ爽やか"
 	},
 	ins_reply_555_1_2 = {
-		value = ""
+		value = "三杯飲んでやっと覚える物足りなさ"
 	},
 	ins_reply_555_1_3 = {
-		value = ""
+		value = "四杯飲んで倒れないのが北方連合らしさ"
 	},
 	ins_reply_555_1_4 = {
-		value = ""
+		value = "五杯……あれ、ヴォッカの話じゃないような…？"
 	},
 	ins_discuss_555_2 = {
-		value = ""
+		value = "温かいお風呂に入るのも効果的ですよ。大浴場はいつも空いてますから"
 	},
 	ins_reply_555_2_1 = {
-		value = ""
+		value = "今入ってる……"
 	},
 	ins_reply_555_2_2 = {
-		value = ""
+		value = "私も今行くところだ。なんならテルマエパーティーでもしようか？"
 	},
 	ins_reply_555_2_3 = {
-		value = ""
+		value = "賛成だ！あたしも混ぜてくれ！"
 	},
 	ins_reply_555_2_4 = {
-		value = ""
+		value = "サディア式大浴場……ずっと気になってました！私もお邪魔させていただきますね"
 	},
 	ins_reply_555_2_5 = {
-		value = ""
+		value = "いい提案ね。ヴォルガたちにも声を掛けてみるわ"
 	},
 	ins_op_555_1_1 = {
-		value = ""
+		value = "暑くなったときはどうしたら？"
 	},
 	op_reply_555_1_1 = {
-		value = ""
+		value = "ん……別に変わらないけど…？"
 	},
 	ins_op_555_1_2 = {
-		value = ""
+		value = "でも冷たい飲み物が飲みたい！"
 	},
 	op_reply_555_1_2 = {
+		value = "一気に飲み過ぎないようにすれば別に平気よ？"
+	},
+	ins_556 = {
+		value = ""
+	},
+	ins_discuss_556_1 = {
+		value = ""
+	},
+	ins_reply_556_1_1 = {
+		value = ""
+	},
+	ins_reply_556_1_2 = {
+		value = ""
+	},
+	ins_reply_556_1_3 = {
+		value = ""
+	},
+	ins_discuss_556_2 = {
+		value = ""
+	},
+	ins_reply_556_2_1 = {
+		value = ""
+	},
+	ins_reply_556_2_2 = {
+		value = ""
+	},
+	ins_reply_556_2_3 = {
+		value = ""
+	},
+	ins_reply_556_2_4 = {
+		value = ""
+	},
+	ins_discuss_556_3 = {
+		value = ""
+	},
+	ins_reply_556_3_1 = {
+		value = ""
+	},
+	ins_reply_556_3_2 = {
+		value = ""
+	},
+	ins_reply_556_3_3 = {
+		value = ""
+	},
+	ins_reply_556_3_4 = {
+		value = ""
+	},
+	ins_reply_556_3_5 = {
+		value = ""
+	},
+	ins_op_556_1_1 = {
+		value = ""
+	},
+	op_reply_556_1_1 = {
+		value = ""
+	},
+	ins_op_556_1_2 = {
+		value = ""
+	},
+	op_reply_556_1_2 = {
 		value = ""
 	}
 }

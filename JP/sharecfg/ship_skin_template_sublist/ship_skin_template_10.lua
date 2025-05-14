@@ -1,6 +1,124 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_10 = {
+	[305055] = {
+		name = "御狐の縁糸",
+		change_skin = "",
+		bg_sp = "",
+		desc = "し、指揮官？お主、なにゆえこんな時に……余はただ、皆の新春祝いを手伝おうと……うぅ、この赤い紐……なぜか解けぬ………",
+		illustrator2 = -1,
+		ship_group = 30505,
+		group_index = 5,
+		painting = "changmen_6",
+		prefab = "changmen_6",
+		hand_id = 6,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "152",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		id = 305055,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71104,
+		voice_actor = 11,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.151,
+					1.118,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.615,
+					2.362,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.755,
+							1.709,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-1669,
+				-1030.2,
+				0
+			},
+			{
+				0.54
+			}
+		}
+	},
 	[305058] = {
 		name = "御狐の白装束",
 		change_skin = "",
@@ -13239,119 +13357,6 @@ pg.base.ship_skin_template_10 = {
 				{
 					1.074,
 					1.26,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.26,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[312018] = {
-		name = "白猫報恩す！",
-		change_skin = "",
-		bg_sp = "",
-		desc = "指揮官はいつも明石のお店を贔屓してくれて、こうなったら明石はもうこうやって恩返しするしかないにゃ！……なんて冗談にゃ。でも明石、指揮官のことは本当に大好きにゃ。ダイヤよりも、大好きにゃ～",
-		illustrator2 = -1,
-		ship_group = 31201,
-		group_index = 8,
-		painting = "mingshi_h",
-		prefab = "mingshi_h",
-		hand_id = 14,
-		shop_type_id = 9998,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 1,
-		id = 312018,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 28,
-		spine_offset = "",
-		illustrator = 10,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.441,
-					1.165,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.47,
-					1.208,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.001,
-					0.001,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.498,
-					1.221,
 					0
 				}
 			}

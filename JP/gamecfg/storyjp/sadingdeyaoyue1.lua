@@ -22,7 +22,7 @@ return {
 			dir = 1,
 			bgmDelay = 2,
 			bgm = "battle-boss-italy",
-			say = "サディア帝国・通信室",
+			say = "サディア帝国・作戦指揮室",
 			flashout = {
 				dur = 1,
 				black = true,

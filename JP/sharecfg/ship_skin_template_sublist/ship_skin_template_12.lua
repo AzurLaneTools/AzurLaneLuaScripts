@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_12 = {
+	[403080] = {
+		name = "ローン(μ兵装)",
+		change_skin = "",
+		bg_sp = "",
+		desc = "重巡洋艦ローン、兵装実験任務並びに、アイドルカツドウに参加中です。今度は銃と大砲ではなく、歌の力で戦いましょうね",
+		illustrator2 = -1,
+		ship_group = 40308,
+		group_index = 0,
+		painting = "luoen_idol",
+		prefab = "luoen_idol",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "139",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = -1,
+		id = 403080,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 109,
+		spine_offset = "",
+		illustrator = 7,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.992,
+					1.14,
+					0
+				}
+			},
+			vicegun = {
+				{
+					2.008,
+					1.193,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.993,
+					1.232,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.384,
+							2.482,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[403090] = {
 		name = "プリンツ・ハインリヒ",
 		change_skin = "",
@@ -13404,121 +13517,6 @@ pg.base.ship_skin_template_12 = {
 				{
 					0.19,
 					0.12,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.12,
-					0.85,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.44,
-							2.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[501032] = {
-		name = "鴻運来迎",
-		change_skin = "",
-		bg_sp = "1101",
-		desc = "指揮官、早く耳をぎゅーって塞いで！じょ、冗談じゃないよ～。あの…あのすごいやつがもうすぐで爆発するよ～！",
-		illustrator2 = -1,
-		ship_group = 50103,
-		group_index = 2,
-		painting = "changchun_3",
-		prefab = "changchun_3",
-		hand_id = 15,
-		shop_type_id = 3,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "152",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = 0,
-		id = 501032,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70817,
-		voice_actor = 149,
-		spine_offset = "",
-		illustrator = 1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.13,
-					0.83,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.16,
-					0.93,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.19,
-					0.01,
 					0
 				}
 			},

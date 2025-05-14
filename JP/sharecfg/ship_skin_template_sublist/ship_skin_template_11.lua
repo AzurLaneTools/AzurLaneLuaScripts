@@ -1,6 +1,119 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_11 = {
+	[312018] = {
+		name = "白猫報恩す！",
+		change_skin = "",
+		bg_sp = "",
+		desc = "指揮官はいつも明石のお店を贔屓してくれて、こうなったら明石はもうこうやって恩返しするしかないにゃ！……なんて冗談にゃ。でも明石、指揮官のことは本当に大好きにゃ。ダイヤよりも、大好きにゃ～",
+		illustrator2 = -1,
+		ship_group = 31201,
+		group_index = 8,
+		painting = "mingshi_h",
+		prefab = "mingshi_h",
+		hand_id = 14,
+		shop_type_id = 9998,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 1,
+		id = 312018,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 28,
+		spine_offset = "",
+		illustrator = 10,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.441,
+					1.165,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.47,
+					1.208,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.001,
+					0.001,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.498,
+					1.221,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.26,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[317010] = {
 		name = "伊13",
 		change_skin = "",
@@ -14185,119 +14298,6 @@ pg.base.ship_skin_template_11 = {
 							-0.377,
 							2.284,
 							-0.081
-						}
-					}
-				}
-			}
-		}
-	},
-	[403080] = {
-		name = "ローン(μ兵装)",
-		change_skin = "",
-		bg_sp = "",
-		desc = "重巡洋艦ローン、兵装実験任務並びに、アイドルカツドウに参加中です。今度は銃と大砲ではなく、歌の力で戦いましょうね",
-		illustrator2 = -1,
-		ship_group = 40308,
-		group_index = 0,
-		painting = "luoen_idol",
-		prefab = "luoen_idol",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "139",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		id = 403080,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 109,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.992,
-					1.14,
-					0
-				}
-			},
-			vicegun = {
-				{
-					2.008,
-					1.193,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.993,
-					1.232,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.384,
-							2.482,
-							0
 						}
 					}
 				}

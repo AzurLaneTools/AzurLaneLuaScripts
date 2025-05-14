@@ -11031,6 +11031,11 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 
+_G.pg.base.gametip.destroy_importantequipment_tip = {
+	tip = "<color=#92fc63>重要</color>"
+}
+
+
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "$1の装備が選択されています。続けますか？"
 }
@@ -34969,7 +34974,7 @@ _G.pg.base.gametip.specialshipyard_name = {
 
 
 _G.pg.base.gametip.liner_sign_cnt_tip = {
-	tip = "現在入手可能数"
+	tip = "入手まであと："
 }
 
 

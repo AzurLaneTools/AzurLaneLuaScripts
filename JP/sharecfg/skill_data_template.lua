@@ -358,6 +358,7 @@ pg.skill_data_template = setmetatable({
 		60820,
 		60830,
 		60840,
+		60850,
 		7000,
 		9030,
 		9031,
@@ -12912,6 +12913,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "戦闘開始から40秒間、装備中の艦船が受けるダメージを5%軽減する",
 		id = 60840,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60850] = {
+		desc_get = "",
+		name = "あたしのクジラ",
+		type = 0,
+		max_level = 0,
+		desc = "装備していると戦闘時のBGMを変更可能（BGM変更装備が複数装備されている場合、ランダムの1個だけ適用される）",
+		id = 60850,
 		system_transform = {},
 		world_death_mark = {
 			1

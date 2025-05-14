@@ -3156,7 +3156,7 @@ slot0.SwitchAnim = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.PlayFaceAnim = function(slot0, slot1, slot2, slot3)
-	slot1.ladyAnimator:CrossFadeInFixedTime(slot2, 0.2, slot1.ladyAnimFaceLayerIndex)
+	slot1.ladyAnimator:CrossFadeInFixedTime(slot2, 0, slot1.ladyAnimFaceLayerIndex)
 	existCall(slot3)
 end
 
