@@ -312,7 +312,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "これから私たちが御身の安全をお守りしますが、ご主人様も勝手な行動と無用な接触は慎むようご注意ください",
+			say = "これから私たちが御身の安全をお守りしますが、{playername}様も勝手な行動と無用な接触は慎むようご注意ください",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "下僕、昨晩は問題なく過ごせた？",
+			say = "指揮官、昨晩は問題なく過ごせた？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -734,7 +734,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "…下僕にも救援に来てもらうのはどうかしら？",
+			say = "…指揮官にも救援に来てもらうのはどうかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

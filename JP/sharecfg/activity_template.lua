@@ -23267,10 +23267,8 @@ pg.activity_template = {
 			ui_name = "ExpeditionSkinPage"
 		},
 		config_client = {
+			firstStory = "RIBULUODEYUANZHENG1",
 			story = {
-				{
-					"RIBULUODEYUANZHENG1"
-				},
 				{
 					"RIBULUODEYUANZHENG2"
 				},
