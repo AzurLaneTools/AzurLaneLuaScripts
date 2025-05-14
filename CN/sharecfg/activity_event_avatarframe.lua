@@ -3065,20 +3065,9 @@ pg.activity_event_avatarframe = {
 		link_event = 5960,
 		icon_frame = 335,
 		target = 2800,
+		start_time = "stop",
 		id = 29,
 		pt_id = 65095,
-		start_time = {
-			{
-				2025,
-				5,
-				20
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
 		task_level = {
 			{
 				1,
@@ -3128,32 +3117,32 @@ pg.activity_event_avatarframe = {
 		task_ship = {
 			{
 				5,
-				20516,
+				20707,
 				1,
 				800
 			},
 			{
 				6,
-				20235,
-				2,
+				20233,
+				1,
 				600
 			},
 			{
 				7,
-				970707,
+				20514,
 				1,
 				600
 			},
 			{
 				8,
-				20139,
-				2,
+				20136,
+				1,
 				400
 			},
 			{
 				9,
-				20236,
-				2,
+				20602,
+				1,
 				400
 			}
 		},
