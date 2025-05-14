@@ -232,6 +232,8 @@ pg.memory_group = setmetatable({
 		323,
 		324,
 		325,
+		326,
+		327,
 		501,
 		502,
 		503,
@@ -5458,6 +5460,38 @@ pg.base.memory_group = {
 			4316,
 			4317,
 			4318
+		}
+	},
+	[326] = {
+		title = "假日别墅筹备中",
+		subtype = 2,
+		link_event = 5924,
+		type = 2,
+		id = 326,
+		icon = "title_event",
+		memories = {
+			4331,
+			4332,
+			4333,
+			4334,
+			4335
+		}
+	},
+	[327] = {
+		title = "日不落的远征",
+		subtype = 1,
+		link_event = 5924,
+		type = 2,
+		id = 327,
+		icon = "title_event",
+		memories = {
+			4341,
+			4342,
+			4343,
+			4344,
+			4345,
+			4346,
+			4347
 		}
 	},
 	[501] = {

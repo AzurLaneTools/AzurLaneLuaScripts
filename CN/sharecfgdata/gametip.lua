@@ -10281,6 +10281,11 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 
+_G.pg.base.gametip.destroy_importantequipment_tip = {
+	tip = "<color=#92fc63>重要</color>"
+}
+
+
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "拆解装备中有$1的装备"
 }

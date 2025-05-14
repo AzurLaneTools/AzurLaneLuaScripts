@@ -359,6 +359,7 @@ pg.skill_data_template = setmetatable({
 		60820,
 		60830,
 		60840,
+		60850,
 		7000,
 		9010,
 		9020,
@@ -12940,6 +12941,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "装备时，战斗开始后40秒内，降低自身在战斗中受到的伤害5%",
 		id = 60840,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60850] = {
+		desc_get = "",
+		name = "我的宝贝鲸鱼",
+		type = 0,
+		max_level = 0,
+		desc = "装备后，可以改变战斗的BGM（同时装备多个改变BGM的装备时，将随机播放其中一首BGM）",
+		id = 60850,
 		system_transform = {},
 		world_death_mark = {
 			1

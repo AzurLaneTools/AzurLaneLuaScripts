@@ -2104,5 +2104,25 @@ pg.voice_bgm = {
 		default_bgm = "story-tulipa",
 		special_bgm = "",
 		bgm = "story-tulipa"
+	},
+	ExpeditionSkinPage = {
+		default_bgm = "theme-camelot",
+		special_bgm = "",
+		bgm = "theme-camelot"
+	},
+	HMSFramePage = {
+		default_bgm = "theme-glorious-meta",
+		special_bgm = "",
+		bgm = "theme-glorious-meta"
+	},
+	HolidayVillaPage = {
+		default_bgm = "story-richang-1",
+		special_bgm = "",
+		bgm = "story-richang-1"
+	},
+	FrancescaPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
 	}
 }

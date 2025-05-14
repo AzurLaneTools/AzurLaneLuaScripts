@@ -806,7 +806,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我想问一下，郁金王国的通讯设备能够无视破镜面海域的干扰么？",
+			say = "我想问一下，郁金王国的通讯设备能够无视镜面海域的干扰么？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

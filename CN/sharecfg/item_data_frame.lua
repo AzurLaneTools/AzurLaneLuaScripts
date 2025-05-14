@@ -495,6 +495,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「拿起画笔，绘制那抹独属于自己的神光吧～」</color>\n「樊笼内的神光」活动获取",
 		scene = {}
 	},
+	[335] = {
+		name = "蔷薇之誓",
+		gain_by = "",
+		time_second = 0,
+		id = 335,
+		time_limit_type = 0,
+		desc = "通过后续活动获得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂纪念：企业",
 		gain_by = "",
@@ -875,6 +884,7 @@ pg.item_data_frame = {
 		332,
 		333,
 		334,
+		335,
 		401,
 		402,
 		404,

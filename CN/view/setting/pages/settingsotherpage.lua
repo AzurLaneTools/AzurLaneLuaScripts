@@ -100,8 +100,9 @@ slot0.NeedRedeem = function(slot0)
 end
 
 slot0.OnInitPanle = function(slot0)
-	if PlayerPrefs.GetInt("firstIntoOtherPanel") == 0 then
+	if PlayerPrefs.GetInt("firstIntoOtherPanel", 0) == 0 then
 		slot0:ScrollToPanel(slot0:GetPanel(SettingsSecondPasswordPanle))
+		PlayerPrefs.DeleteKey("firstIntoOtherPanel")
 		PlayerPrefs.SetInt("firstIntoOtherPanel", 1)
 		PlayerPrefs.Save()
 	end
