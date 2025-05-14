@@ -20,7 +20,7 @@ slot0.CheckCV = function(slot0)
 
 	Timer.New(function ()
 		if uv0.state == DownloadState.CheckToUpdate then
-			uv1.CanUpdateCV = true
+			uv1.CanUpdateCV = not GroupHelper.IsGroupVerLastest("CV")
 
 			uv2:SetData(false)
 		end

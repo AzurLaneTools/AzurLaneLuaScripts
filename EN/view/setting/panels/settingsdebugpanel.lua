@@ -149,9 +149,16 @@ slot0.btn_push_10s = function(slot0)
 		go = "btn_push_10s",
 		text = "10秒后推送通知",
 		func = function ()
-			slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
+			pg.TipsMgr.GetInstance():ShowTips("推送测试通知")
 
-			YSNormalTool.NotificationTool.SendBySecondWithIcon("测试标题", slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec, 10)
+			slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
+			slot1 = slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec
+			slot2 = pg.TimeMgr.GetInstance():GetServerTime() + 10
+
+			pg.PushNotificationMgr.GetInstance():Push("测试标题11111", slot1, slot2)
+			pg.PushNotificationMgr.GetInstance():Push("测试标题22222", slot1, slot2)
+			pg.PushNotificationMgr.GetInstance():Push("测试标题33333", slot1, slot2)
+			pg.PushNotificationMgr.GetInstance():PushCache()
 		end
 	})
 end

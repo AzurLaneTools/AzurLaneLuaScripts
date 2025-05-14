@@ -504,6 +504,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>\"Pick up the brush, and paint your own light.\"</color>\nGiven to Commanders who participated in the Paradiso of Shackled Light.",
 		scene = {}
 	},
+	[335] = {
+		name = "Rosen Vow",
+		gain_by = "",
+		time_second = 0,
+		id = 335,
+		time_limit_type = 0,
+		desc = "Obtained from a future event.",
+		scene = {}
+	},
 	[406] = {
 		name = "Hall of Fame: Laffey ",
 		gain_by = "",
@@ -849,6 +858,7 @@ pg.item_data_frame = {
 		332,
 		333,
 		334,
+		335,
 		406,
 		411,
 		412,

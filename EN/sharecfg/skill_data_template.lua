@@ -359,6 +359,7 @@ pg.skill_data_template = setmetatable({
 		60820,
 		60830,
 		60840,
+		60850,
 		7000,
 		9010,
 		9020,
@@ -12928,6 +12929,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "When the battle starts: the wearer's DMG taken is decreased by 5.0% for 40s.",
 		id = 60840,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60850] = {
+		desc_get = "",
+		name = "My Precious Whale",
+		type = 0,
+		max_level = 0,
+		desc = "Changes the battle BGM when equipped. If there are several BGM-altering gear equipped at the same time, only one will apply at random.",
+		id = 60850,
 		system_transform = {},
 		world_death_mark = {
 			1

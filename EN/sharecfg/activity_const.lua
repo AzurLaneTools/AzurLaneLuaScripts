@@ -1118,5 +1118,8 @@ pg.activity_const = {
 	},
 	Valleyhospital_PT_ACT_ID = {
 		act_id = 5873
+	},
+	HOLIDAY_ACT_ID = {
+		act_id = 5951
 	}
 }
