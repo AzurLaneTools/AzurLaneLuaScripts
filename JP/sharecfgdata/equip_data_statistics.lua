@@ -169540,7 +169540,7 @@ _G.pg.base.equip_data_statistics[150651] = {
 
 
 _G.pg.base.equip_data_statistics[150660] = {
-	name = "あたしのクジラ",
+	name = "あたしの大事なクジラ",
 	tech = 0,
 	type = 10,
 	speciality = "<[NA]>",
@@ -169549,7 +169549,7 @@ _G.pg.base.equip_data_statistics[150660] = {
 	icon = "150660",
 	value_1 = "200",
 	rarity = 4,
-	descrip = "大事にされているらくがき。これまで見たことのあるクジラの中でもっともキレイのが描かれている。",
+	descrip = "かわいいかわいいかわいいかわいいクジラ～！チュッ！",
 	nationality = 0,
 	ammo = 10,
 	value_3 = 0,

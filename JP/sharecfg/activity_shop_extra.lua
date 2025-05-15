@@ -4427,7 +4427,6 @@ pg.activity_shop_extra = {
 		id = 133,
 		order = 7,
 		time = {
-			"timer",
 			{
 				{
 					2025,

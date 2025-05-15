@@ -34974,7 +34974,7 @@ _G.pg.base.gametip.specialshipyard_name = {
 
 
 _G.pg.base.gametip.liner_sign_cnt_tip = {
-	tip = "入手まであと："
+	tip = "タップ可能回数："
 }
 
 
