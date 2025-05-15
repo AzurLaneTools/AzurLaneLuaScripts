@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:66}的修行\n\n<size=45>五　预料外的协作</size>",
+					"高雄的修行\n\n<size=45>5 預料外的合作</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			bgm = "story-richang-5",
-			say = "周日，如约来到了{namecode:66:高雄}的宿舍。",
+			say = "週日，如約來到了高雄的宿舍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "一推开门，就感受到了扑面而来的香气。",
+			say = "一推開門，就感受到了撲面而來的香氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,18 +40,18 @@ return {
 			portrait = 303110,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "{namecode:66}",
+			actorName = "高雄",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，您来了？请先随便坐吧。",
+			say = "指揮官，您來了？請先隨便坐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "修行看来进展得很顺利？",
+					content = "修行看來進展順利？",
 					flag = 1
 				}
 			}
@@ -60,11 +60,11 @@ return {
 			portrait = 303110,
 			side = 2,
 			bgName = "star_level_bg_109",
-			actorName = "{namecode:66}",
+			actorName = "高雄",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没错，我感觉对于平衡与和谐之美又有了些新的体悟。",
+			say = "沒錯，我感覺對於平衡與和諧之美又有了些新的體悟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，请用茶。",
+			say = "指揮官，請用茶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不得不说，这次选择的修行内容真是对我帮助良多。",
+			say = "我不得不說，這次選擇的修行內容真是對我幫助良多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从食材的挑选到配料的准备，再到菜谱的研究……烹饪这项技艺确实是十分深奥呢。",
+			say = "從食材的挑選到食材的準備，再到食譜的研究……烹飪這項技藝確實是十分深奧呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没错——“烹饪”这项技艺确实十分深奥，也很有修行的价值。",
+			say = "沒錯——「烹飪」這項技藝確實十分深奧，也很有修行的價值。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过你这次的修行，原本是为了“在每一个瞬间体悟自然之美，感受和谐与平衡”吧。",
+			say = "不過妳這次的修行，原本是為了「在每一個瞬間體悟自然之美，感受和諧與平衡」吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这个修行主旨，与具体的修行方法之间是不是有些割裂？",
+			say = "這個修行主旨，與具體的修行方法之間是不是有些割裂？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "如果说是单纯的烹饪修行，似乎要更合适一些……",
+			say = "如果說是單純的烹飪修行，似乎更適合一些…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官，这其实是一种以小见大的修行方式，从细微之处体会无穷道理。",
+			say = "指揮官，這其實是一種以小見大的修行方式，從細微之處體會無窮道理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如，盐与糖是一对性质完全相反的调味料。",
+			say = "例如，鹽與糖是一對性質完全相反的調味料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可是在做菜的时候加入适量的糖，会让菜的味道更加鲜美。",
+			say = "可是在做菜的時候加入適量的糖，會讓菜的味道更加鮮美。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而在做甜品的时候加入适量的盐，也会让甜品更加甜美。",
+			say = "而在做甜點的時候加入適量的鹽，也會讓甜點更加甜美。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这其中，不就蕴含着关于和谐与平衡的道理么？",
+			say = "在這其中，不就蘊含著和諧與平衡的道理嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就像武道一样，挥砍与格挡，进攻与防御。一招一式，一呼一吸——",
+			say = "就像武道一樣，揮砍與格擋，進攻與防禦。一招一式，一呼一吸——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "不知为何，话题从烹饪回到了{namecode:66:高雄}最擅长的武道环节。",
+			say = "不知為何，話題從烹飪回到了高雄最擅長的武道環節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
-			say = "在烟雾缭绕中，{namecode:66:高雄}的种种体悟似乎额外多了一份禅意。",
+			say = "在煙霧繚繞中，高雄的種種體悟似乎額外多了一份禪意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,18 +301,18 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……？等等，烟雾缭绕中？！）",
+			say = "（嗯……？等等，煙霧繚繞中？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "{namecode:66:高雄}——！",
+					content = "高雄——！",
 					flag = 1
 				},
 				{
-					content = "你的菜——！",
+					content = "妳的菜——！",
 					flag = 2
 				}
 			}
@@ -339,7 +339,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官在此稍等，我这就去抢救一下！",
+			say = "指揮官在此稍等，我這就去搶救！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			bgName = "star_level_bg_109",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "来不及了，我们一起吧！",
+			say = "來不及了，我們一起吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			bgm = "story-richang-9",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一段时间后——",
+			say = "一段時間後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只……抢救出了这些。",
+			say = "只……搶救出了這些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是大失败……",
+			say = "真是大失敗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……真没想到，你竟然会同时做三道菜？！",
+			say = "……真沒想到，妳竟然會同時做三道菜？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如此做法，对于我这个段位的人来说，果然还是太难了么……",
+			say = "如此做法，對於我這個段位的人來說，果然還是太難了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -448,7 +448,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可是……如果能多做些你喜欢吃的菜，不就能更好地抓住你的胃了……",
+			say = "可是……如果能多做些你喜歡吃的菜，不就能更好抓住你的胃了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
-			say = "陷入窘境的少女好像小声说了些什么。",
+			say = "陷入窘境的少女好像小聲說了些什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "非常抱歉，本日的修行是因为我没能正视自己的水平，过于好高骛远而导致的失败……",
+			say = "非常抱歉，本日的修行是因為我沒能正視自己的水平，過於好高騖遠而導致的失敗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "正如之前说的，就算遇到了挫折，修行也不应该半途而废。",
+			say = "如同之前所說的，就算遇到了挫折，修行也不應該半途而廢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -503,7 +503,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "食材还有剩余，不如我们一起再做一顿吧。",
+			say = "食材還有剩餘，不如我們一起再做一頓吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "作为你在修行中的助手，我也想体会一下自然的平衡与和谐之美。",
+			say = "身為妳在修行中的助手，我也想體會一下自然的平衡與和諧之美。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:66:高雄}修行者，你意下如何？",
+			say = "高雄修行者，妳意下如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			bgName = "star_level_bg_606",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还是说，你要让我饿着肚子回去呢？",
+			say = "還是說，妳要讓我餓著肚子回去呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然不能如此！",
+			say = "當然不能如此！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……修行必须要有始有终。",
+			say = "嗯……修行必須要有始有終。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多谢指挥官，我们一同并肩战斗吧！",
+			say = "多謝指揮官，我們一同並肩戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

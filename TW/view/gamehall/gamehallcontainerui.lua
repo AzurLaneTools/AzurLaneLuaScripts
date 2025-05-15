@@ -77,9 +77,6 @@ slot0.Ctor = function(slot0, slot1)
 
 	for slot8 = 1, #uv4 do
 		slot9 = uv4[slot8]
-
-		print(slot9.bound)
-
 		slot12 = GetComponent(findTF(slot0.pos, slot9.bound), typeof(BoxCollider2D))
 
 		table.insert(slot0.sitItems, {

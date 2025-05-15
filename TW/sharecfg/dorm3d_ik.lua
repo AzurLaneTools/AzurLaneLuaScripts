@@ -3306,10 +3306,10 @@ pg.dorm3d_ik = {
 			400
 		},
 		trigger_rect = {
+			-400,
 			-350,
-			-350,
-			600,
-			450
+			800,
+			600
 		},
 		plane_rotation = {
 			{
@@ -6264,10 +6264,10 @@ pg.dorm3d_ik = {
 			400
 		},
 		trigger_rect = {
+			-400,
 			-350,
-			-350,
-			600,
-			450
+			800,
+			600
 		},
 		plane_rotation = {
 			{
@@ -14505,6 +14505,142 @@ pg.dorm3d_ik = {
 			777
 		}
 	},
+	[29999300] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.5,
+		head_track = "",
+		controller = "Gift2LeftFootIK",
+		action_emote = "",
+		id = 29999300,
+		trigger_param = {
+			2,
+			"LeftFoot"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"LeftFoot"
+			},
+			{
+				"LeftThigh"
+			}
+		},
+		rect = {
+			-100,
+			-400,
+			1000,
+			1000
+		},
+		trigger_rect = {
+			-100,
+			-450,
+			1200,
+			1200
+		},
+		plane_rotation = {
+			{
+				-0.02137377,
+				-0.6312417,
+				0.03077076,
+				-0.7746807
+			},
+			{
+				0.5874314,
+				-0.4020253,
+				0.3402771,
+				-0.6144196
+			}
+		},
+		plane_scale = {
+			{
+				0.2681457,
+				0.2826645,
+				1
+			},
+			{
+				0.1,
+				0.1,
+				0.39136
+			}
+		},
+		timeline_action = {
+			"TimelineSelect",
+			777
+		}
+	},
+	[29999301] = {
+		action_back_time = 0,
+		tip_offset = "",
+		tip_text = "",
+		char_id = 30221,
+		back_time = 0.5,
+		head_track = "",
+		controller = "Gift2RightFootIK",
+		action_emote = "",
+		id = 29999301,
+		trigger_param = {
+			2,
+			"RightFoot"
+		},
+		action_trigger = {
+			3
+		},
+		sub_targets = {
+			{
+				"RightFoot"
+			},
+			{
+				"RightThigh"
+			}
+		},
+		rect = {
+			-500,
+			-400,
+			800,
+			1000
+		},
+		trigger_rect = {
+			-600,
+			-450,
+			1000,
+			1100
+		},
+		plane_rotation = {
+			{
+				0.08673672,
+				0.2299224,
+				-0.08921621,
+				-0.9652217
+			},
+			{
+				0.5874314,
+				-0.4020253,
+				0.3402771,
+				-0.6144196
+			}
+		},
+		plane_scale = {
+			{
+				0.4882399,
+				0.1390792,
+				1
+			},
+			{
+				0.1,
+				0.1,
+				0.39136
+			}
+		},
+		timeline_action = {
+			"TimelineSelect",
+			777
+		}
+	},
 	[21051000] = {
 		action_back_time = 0,
 		tip_offset = "",
@@ -20239,6 +20375,8 @@ pg.dorm3d_ik = {
 		29999100,
 		29999101,
 		29999200,
+		29999300,
+		29999301,
 		21051000,
 		21051001,
 		21052000,

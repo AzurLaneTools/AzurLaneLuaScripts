@@ -71,7 +71,7 @@ slot0.InitData = function(slot0)
 end
 
 slot0.CloseCamera = function(slot0)
-	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
+	ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCamera(false)
 end
 
 slot0.Vibrate = function(slot0)

@@ -5662,6 +5662,25 @@ pg.activity_ins_language = setmetatable({
 		"op_reply_503_1_1",
 		"ins_op_503_1_2",
 		"op_reply_503_1_2",
+		"ins_504",
+		"ins_discuss_504_1",
+		"ins_reply_504_1_1",
+		"ins_reply_504_1_2",
+		"ins_reply_504_1_3",
+		"ins_discuss_504_2",
+		"ins_reply_504_2_1",
+		"ins_reply_504_2_2",
+		"ins_reply_504_2_3",
+		"ins_reply_504_2_4",
+		"ins_discuss_504_3",
+		"ins_reply_504_3_1",
+		"ins_reply_504_3_2",
+		"ins_reply_504_3_3",
+		"ins_reply_504_3_4",
+		"ins_op_504_1_1",
+		"op_reply_504_1_1",
+		"ins_op_504_1_2",
+		"op_reply_504_1_2",
 		"ins_505",
 		"ins_discuss_505_1",
 		"ins_reply_505_1_1",
@@ -23010,6 +23029,63 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_503_1_2 = {
+		value = ""
+	},
+	ins_504 = {
+		value = ""
+	},
+	ins_discuss_504_1 = {
+		value = ""
+	},
+	ins_reply_504_1_1 = {
+		value = ""
+	},
+	ins_reply_504_1_2 = {
+		value = ""
+	},
+	ins_reply_504_1_3 = {
+		value = ""
+	},
+	ins_discuss_504_2 = {
+		value = ""
+	},
+	ins_reply_504_2_1 = {
+		value = ""
+	},
+	ins_reply_504_2_2 = {
+		value = ""
+	},
+	ins_reply_504_2_3 = {
+		value = ""
+	},
+	ins_reply_504_2_4 = {
+		value = ""
+	},
+	ins_discuss_504_3 = {
+		value = ""
+	},
+	ins_reply_504_3_1 = {
+		value = ""
+	},
+	ins_reply_504_3_2 = {
+		value = ""
+	},
+	ins_reply_504_3_3 = {
+		value = ""
+	},
+	ins_reply_504_3_4 = {
+		value = ""
+	},
+	ins_op_504_1_1 = {
+		value = ""
+	},
+	op_reply_504_1_1 = {
+		value = ""
+	},
+	ins_op_504_1_2 = {
+		value = ""
+	},
+	op_reply_504_1_2 = {
 		value = ""
 	},
 	ins_505 = {

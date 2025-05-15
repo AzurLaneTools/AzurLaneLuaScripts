@@ -1,6 +1,5 @@
 slot0 = class("SpinePainting")
 slot1 = require("Mgr/Pool/PoolUtil")
-slot2 = "spine_painting_idle_init_"
 
 slot0.GenerateData = function(slot0)
 	slot1 = {
@@ -46,7 +45,7 @@ slot0.GenerateData = function(slot0)
 	return slot1
 end
 
-slot3 = function(slot0, slot1)
+slot2 = function(slot0, slot1)
 	slot0._go = slot1
 	slot0._tf = tf(slot1)
 
@@ -57,8 +56,8 @@ slot3 = function(slot0, slot1)
 	slot0._tf.localPosition = slot0._spinePaintingData.pos
 	slot0.spineAnimList = {}
 
-	for slot6 = 0, slot0._tf:GetComponent(typeof(ItemList)).prefabItem.Length - 1 do
-		slot0.spineAnimList[#slot0.spineAnimList + 1] = GetOrAddComponent(slot2[slot6], "SpineAnimUI")
+	for slot6, slot7 in ipairs(slot0._tf:GetComponent(typeof(ItemList)).prefabItem:ToTable()) do
+		slot0.spineAnimList[#slot0.spineAnimList + 1] = GetOrAddComponent(slot7, "SpineAnimUI")
 	end
 
 	assert(#slot0.spineAnimList > 0, "动态立绘至少要保证有一个spine动画，请检查" .. slot0._spinePaintingData:GetShipName())
@@ -70,19 +69,32 @@ slot3 = function(slot0, slot1)
 	end
 
 	slot0._skeletonGraphic = slot0.mainSpineAnim:GetComponent("SkeletonGraphic")
-	slot0._idleName = slot0:getNormalName()
+	slot0._idleName = slot0:getNormalIdleName()
 	slot0.shipDragData = SpinePaintingConst.ship_drag_datas[slot0._spinePaintingData:GetShipName()]
+	slot0.dragShipFlag = false
+
+	if slot0.shipDragData then
+		slot0.dragShipFlag = slot0.shipDragData.drag_data and slot0.shipDragData.drag_data.type
+	end
+
+	slot0.multipleFaceFlag = false
+
+	if slot0.shipDragData and slot0.shipDragData.multiple_face and slot0.shipDragData.multiple_face ~= "" then
+		slot0.multipleFaceFlag = table.contains(slot0.shipDragData.multiple_face.name, slot0.mainSpineAnim.name)
+		slot0.multipleFaceData = slot0.shipDragData.multiple_face.data
+	end
+
 	slot0.shipEffectActionAble = SpinePaintingConst.ship_effect_action_able[slot0._spinePaintingData:GetShipName()]
 	slot0._effectsTf = findTF(slot0._tf, "effects")
 
-	slot0:checkActionShow()
+	slot0:playPaintingInitIdle()
 end
 
-slot0.getNormalName = function(slot0)
+slot0.getNormalIdleName = function(slot0)
 	return "normal"
 end
 
-slot4 = function(slot0, slot1)
+slot3 = function(slot0, slot1)
 	slot0._bgEffectGo = slot1
 	slot0._bgEffectTf = tf(slot1)
 
@@ -165,24 +177,26 @@ slot0.SetVisible = function(slot0, slot1)
 		slot0._displayWord = false
 	end
 
-	slot0:checkActionShow()
+	slot0:playPaintingInitIdle()
 end
 
 slot0.getInitFlag = function(slot0)
 	return slot0._initFlag
 end
 
-slot0.checkActionShow = function(slot0)
-	slot2 = nil
+slot0.playPaintingInitIdle = function(slot0)
+	slot2 = slot0:getNormalIdleName()
 
-	if slot0:getSpinePaintingInitIdle() then
+	if SpinePaintingDrag.GetPaintingInitIdle(slot0.mainSpineAnim.name, slot0._spinePaintingData.ship.id) then
+		slot3 = PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1)
+
 		if PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) == 1 and slot0._idleName ~= slot1 then
 			slot2 = slot1
-		elseif PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 and slot0._idleName ~= slot0:getNormalName() then
-			slot2 = slot0:getNormalName()
+		elseif PlayerPrefs.GetInt(LIVE2D_STATUS_SAVE, 1) ~= 1 and slot0._idleName ~= slot0:getNormalIdleName() then
+			slot2 = slot0:getNormalIdleName()
 		end
 	else
-		slot2 = slot0:getNormalName()
+		slot2 = slot0:getNormalIdleName()
 	end
 
 	if slot2 then
@@ -197,44 +211,22 @@ end
 
 slot0.setIdleName = function(slot0, slot1)
 	slot0._idleName = slot1
+
+	slot0:updateHitArea()
 end
 
-slot0.DoSpecialTouch = function(slot0)
-	if not slot0.inAction then
-		slot0.inAction = true
+slot0.updateHitArea = function(slot0)
+	if slot0.dragShipFlag then
+		slot2 = slot0.shipDragData.drag_data.config_client
 
-		slot0:SetActionWithFinishCallback("special", 0, function ()
-			uv0:SetAction(uv0:getNormalName(), 0)
-
-			uv0.inAction = false
-		end)
+		if slot0.shipDragData.drag_data.type == SpinePaintingConst.drag_type_normal then
+			for slot6 = 1, #slot2 do
+				if slot2[slot6].hit then
+					setActive(findTF(slot0._tf, "hitArea/" .. slot8), slot7.idle == slot0._idleName)
+				end
+			end
+		end
 	end
-end
-
-slot0.DoDragClick = function(slot0)
-	if slot0:isDragClickShip() then
-		return slot0:updateDragClick()
-	end
-
-	return false
-end
-
-slot0.isDragClickShip = function(slot0)
-	if slot0.shipDragData then
-		return slot0.shipDragData.drag_click_data and slot0.shipDragData.drag_click_data.type
-	end
-
-	return false
-end
-
-slot0.updateDragClick = function(slot0)
-	if slot0.inAction or slot0._displayWord then
-		return false
-	else
-		slot0.inAction = true
-	end
-
-	return slot0:checkSpecialDrag(slot0.shipDragData.drag_click_data)
 end
 
 slot0.checkListAction = function(slot0)
@@ -246,7 +238,7 @@ slot0.checkListAction = function(slot0)
 		slot0.inAction = false
 		slot0.lockLayer = false
 
-		slot0:SetAction(slot0:getNormalName(), 0)
+		slot0:SetAction(slot0:getNormalIdleName(), 0)
 	end
 end
 
@@ -254,87 +246,112 @@ slot0.displayWord = function(slot0, slot1)
 	slot0._displayWord = slot1
 end
 
-slot0.DoDragTouch = function(slot0)
+slot0.readyDragAction = function(slot0, slot1)
 	if slot0.inAction or slot0._displayWord then
 		return false
-	else
-		slot0.inAction = true
 	end
 
-	if slot0:isDragShip() then
-		slot0:checkSpecialDrag(slot0.shipDragData.drag_data)
-	end
-end
+	slot0.inAction = true
 
-slot0.isDragShip = function(slot0)
-	if slot0.shipDragData then
-		return slot0.shipDragData.drag_data and slot0.shipDragData.drag_data.type
+	if slot0.dragShipFlag then
+		slot2 = slot0:startDragAction(slot1)
+		slot0.inAction = slot2
+
+		return slot2
 	end
 
 	return false
 end
 
-slot0.checkSpecialDrag = function(slot0, slot1)
-	if slot1.type == SpinePaintingConst.drag_type_normal or slot2 == SpinePaintingConst.drag_type_rgb then
-		slot0:doDragChange(slot1)
-	elseif slot2 == SpinePaintingConst.drag_type_list then
-		slot0.clickActionList = Clone(slot1.list)
-		slot0.lockLayer = slot1.lock_layer
+slot0.startDragAction = function(slot0, slot1)
+	if slot0.shipDragData.drag_data.type == SpinePaintingConst.drag_type_normal or slot3 == SpinePaintingConst.drag_type_rgb then
+		return slot0:changePaintingNormal(slot2, slot1)
+	elseif slot3 == SpinePaintingConst.drag_type_list then
+		slot0.clickActionList = Clone(slot2.config_client)
+		slot0.lockLayer = slot2.lock_layer
 
-		slot0:checkListAction()
+		return slot0:checkListAction()
+	elseif slot3 == SpinePaintingConst.drag_type_once then
+		-- Nothing
+	end
 
+	return false
+end
+
+slot0.setEventTriggerCallback = function(slot0, slot1)
+	slot0._eventTriggerCall = slot1
+end
+
+slot0.changePaintingNormal = function(slot0, slot1, slot2)
+	slot3 = slot0:getIdleName()
+	slot5 = slot1.type
+
+	for slot9, slot10 in ipairs(slot1.config_client) do
+		if slot0:matchDragFlag(slot3, slot2, slot10) then
+			return slot0:doDragAction(slot5, slot1, slot10)
+		end
+	end
+
+	return false
+end
+
+slot0.doDragAction = function(slot0, slot1, slot2, slot3)
+	slot4 = slot3.change_idle
+	slot5 = slot3.action
+	slot6 = slot3.event
+
+	if slot1 == SpinePaintingConst.drag_type_normal then
+		if slot5 and slot5 ~= "" then
+			slot0:SetActionWithFinishCallback(slot5, 0, function ()
+				uv0:changePaintingIdle(uv1)
+			end, false, function ()
+				if uv0 and uv0 ~= "" and uv1._eventTriggerCall then
+					uv1._eventTriggerCall(uv0)
+				end
+			end)
+		else
+			if slot4 and slot4 ~= "" then
+				slot0:changePaintingIdle(slot4)
+			end
+
+			if slot6 and slot6 ~= "" and slot0._eventTriggerCall then
+				slot0._eventTriggerCall(slot6)
+			end
+
+			return false
+		end
+	elseif slot1 == SpinePaintingConst.drag_type_rgb then
+		slot0._baseMaterial = slot0._skeletonGraphic.material
+
+		slot0:getSpineMaterial(slot2.material, function (slot0)
+			uv0._skeletonGraphic.material = slot0
+
+			LeanTween.delayedCall(go(uv0._tf), 0.5, System.Action(function ()
+				uv0._skeletonGraphic.material = uv0._baseMaterial
+
+				uv0:changePaintingIdle(uv1)
+			end))
+		end)
+	end
+
+	return true
+end
+
+slot0.matchDragFlag = function(slot0, slot1, slot2, slot3)
+	if slot3.hit and slot4 ~= slot2 then
+		return false
+	end
+
+	slot5 = slot3.is_default
+	slot6 = slot3.idle
+
+	if not slot1 and slot5 then
+		return true
+	elseif slot1 == slot6 then
 		return true
 	end
 
 	return false
-end
-
-slot0.doDragChange = function(slot0, slot1)
-	if not slot0:getIdleName() or slot2 ~= "ex" then
-		slot0:setIdleName("ex")
-
-		slot4 = slot1.name
-
-		if slot1.type == SpinePaintingConst.drag_type_normal then
-			slot0:SetActionWithFinishCallback("drag", 0, function ()
-				uv0:changeSpecialIdle(uv1)
-			end)
-		elseif slot3 == SpinePaintingConst.drag_type_rgb then
-			slot0._baseMaterial = slot0._skeletonGraphic.material
-
-			slot0:getSpineMaterial("SkeletonGraphicDefaultRGBSplit", function (slot0)
-				uv0._skeletonGraphic.material = slot0
-
-				LeanTween.delayedCall(go(uv0._tf), 0.5, System.Action(function ()
-					uv0._skeletonGraphic.material = uv0._baseMaterial
-
-					uv0:changeSpecialIdle(uv1)
-				end))
-			end)
-		end
-	elseif slot2 == "ex" then
-		slot0:setIdleName("normal")
-
-		slot4 = slot1.name
-
-		if slot1.type == SpinePaintingConst.drag_type_normal then
-			slot0:SetActionWithFinishCallback("drag_ex", 0, function ()
-				uv0:changeSpecialIdle(uv1)
-			end)
-		elseif slot3 == SpinePaintingConst.drag_type_rgb then
-			slot0._baseMaterial = slot0._skeletonGraphic.material
-
-			slot0:getSpineMaterial("SkeletonGraphicDefaultRGBSplit", function (slot0)
-				uv0._skeletonGraphic.material = slot0
-
-				LeanTween.delayedCall(go(uv0._tf), 0.5, System.Action(function ()
-					uv0._skeletonGraphic.material = uv0._baseMaterial
-
-					uv0:changeSpecialIdle(uv1)
-				end))
-			end)
-		end
-	end
 end
 
 slot0.getSpineMaterial = function(slot0, slot1, slot2)
@@ -351,32 +368,35 @@ slot0.getSpineMaterial = function(slot0, slot1, slot2)
 	end
 end
 
-slot0.changeSpecialIdle = function(slot0, slot1)
+slot0.changePaintingIdle = function(slot0, slot1)
+	slot0:setIdleName(slot1)
 	slot0:SetAction(slot1, 0)
-	slot0:setSpinePaintingInitIdle(slot1)
+	SpinePaintingDrag.SetPaintingInitIdle(slot0.mainSpineAnim.name, slot0._spinePaintingData.ship.id, slot1)
 
 	slot0.inAction = false
 end
 
 slot0.SetAction = function(slot0, slot1, slot2, slot3)
-	slot4, slot5 = slot0:getMultipFaceFlag()
-
-	if slot4 then
-		slot1 = slot0:getMultipFaceAction(slot1, slot2)
-	end
-
 	if slot0.lockLayer and not slot3 then
 		return
 	end
 
-	if not slot1 then
+	if slot0._idleName ~= slot0:getNormalIdleName() and slot1 == "login" then
 		return
 	end
 
-	if slot1 == slot0:getNormalName() and slot0._idleName then
-		slot1 = slot0._idleName or slot1
+	if slot0.multipleFaceFlag and not slot0.inAction then
+		slot1 = slot0:getMultipFaceAction(slot1)
 	end
 
+	slot0:updateEffectVisible(slot1)
+
+	for slot7, slot8 in ipairs(slot0.spineAnimList) do
+		slot8:SetAction(slot1, slot2)
+	end
+end
+
+slot0.updateEffectVisible = function(slot0, slot1)
 	if slot0.shipEffectActionAble and slot0._effectsTf then
 		if table.contains(slot0.shipEffectActionAble, slot1) then
 			if isActive(slot0._effectsTf) then
@@ -385,10 +405,6 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 		elseif not isActive(slot0._effectsTf) then
 			setActive(slot0._effectsTf, true)
 		end
-	end
-
-	for slot9, slot10 in ipairs(slot0.spineAnimList) do
-		slot10:SetAction(slot1, slot2)
 	end
 end
 
@@ -449,7 +465,7 @@ slot0.getAnimationExist = function(slot0, slot1)
 	slot2 = nil
 
 	if slot0._skeletonGraphic then
-		slot2 = slot0._skeletonGraphic.SkeletonData:FindAnimation(slot1)
+		slot2 = slot0._skeletonGraphic.Skeleton.Data:FindAnimation(slot1)
 	end
 
 	return slot2
@@ -464,31 +480,12 @@ slot0.SetEmptyAction = function(slot0, slot1)
 	end
 end
 
-slot0.getMultipFaceFlag = function(slot0)
-	slot1 = false
-	slot2 = 0
-
-	if slot0.shipDragData and slot0.shipDragData.multiple_face then
-		slot1 = table.contains(slot0.shipDragData.multiple_face, slot0.mainSpineAnim.name)
-	end
-
-	if slot0.shipDragData and slot0.shipDragData.multiple_count then
-		slot2 = slot0.shipDragData.multiple_count
-	end
-
-	return slot1, slot2
-end
-
-slot0.getMultipFaceAction = function(slot0, slot1, slot2)
-	slot3, slot4 = slot0:getMultipFaceFlag()
-
-	if slot3 and slot0._idleName == "ex" and slot2 == 1 then
-		if slot0.inAction then
-			return nil
-		end
-
-		if tonumber(slot1) then
-			slot1 = tostring(slot5 + slot4)
+slot0.getMultipFaceAction = function(slot0, slot1)
+	if slot0.multipleFaceFlag and tonumber(slot1) and slot2 >= 0 then
+		for slot6, slot7 in ipairs(slot0.multipleFaceData) do
+			if slot7[1] == slot0:getIdleName() then
+				return tostring(slot2 + slot7[2])
+			end
 		end
 	end
 
@@ -520,18 +517,6 @@ slot0.Dispose = function(slot0)
 	if slot0.spineAnim then
 		slot0.spineAnim:SetActionCallBack(nil)
 	end
-end
-
-slot0.setSpinePaintingInitIdle = function(slot0, slot1)
-	PlayerPrefs.SetString(uv0 .. tostring(slot0.mainSpineAnim.name) .. tostring(slot0._spinePaintingData.ship.id), slot1)
-end
-
-slot0.getSpinePaintingInitIdle = function(slot0)
-	if PlayerPrefs.GetString(uv0 .. tostring(slot0.mainSpineAnim.name) .. tostring(slot0._spinePaintingData.ship.id)) and #slot2 > 0 then
-		return slot2
-	end
-
-	return nil
 end
 
 slot0.getPaintingName = function(slot0)

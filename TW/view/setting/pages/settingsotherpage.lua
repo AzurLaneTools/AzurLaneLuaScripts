@@ -2,13 +2,13 @@ slot0 = class("SettingsOtherPage", import(".SettingsOptionPage"))
 
 slot0.OnShowTranscode = function(slot0, slot1)
 	if PLATFORM_CODE == PLATFORM_JP then
-		slot0:GetPanel(SettingsAccountJPPanle):showTranscode(slot1)
+		-- Nothing
 	end
 end
 
 slot0.OnCheckAllAccountState = function(slot0)
 	if PLATFORM_CODE == PLATFORM_JP then
-		slot0:GetPanel(SettingsAccountJPPanle):checkAllAccountState()
+		-- Nothing
 	elseif PLATFORM_CODE == PLATFORM_US then
 		slot0:GetPanel(SettingsAccountUSPanle):checkAllAccountState_US()
 	end
@@ -70,7 +70,7 @@ slot0.GetPanels = function(slot0)
 		end
 	end
 
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+	if PLATFORM_CODE == PLATFORM_US then
 		table.insert(slot1, SettingsAccountSpecialPanel)
 	end
 

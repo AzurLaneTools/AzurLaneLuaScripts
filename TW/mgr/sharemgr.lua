@@ -174,60 +174,76 @@ slot1.Share = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	end)
 	SetParent(slot9, slot12, false)
 	slot9:SetAsLastSibling()
-	slot0:ShotAndSave(slot1, slot5, slot12)
-	SetParent(slot9, slot0.tr, false)
-	_.each(slot0.cacheComps, function (slot0)
-		slot0:SetActive(true)
+	slot0:ShotAndSave(slot1, slot5, slot12, function ()
+		SetParent(uv0, uv1.tr, false)
+		_.each(uv1.cacheComps, function (slot0)
+			slot0:SetActive(true)
+		end)
+
+		uv1.cacheComps = {}
+
+		_.each(uv1.cacheShowComps, function (slot0)
+			slot0:SetActive(false)
+		end)
+
+		uv1.cacheShowComps = {}
+
+		_.each(uv1.cacheMoveComps, function (slot0)
+			setAnchoredPosition(slot0[1], {
+				x = slot0[2],
+				y = slot0[3]
+			})
+		end)
+
+		uv1.cacheMoveComps = {}
+
+		if not uv1:ShowSharePanel(uv2, uv3, uv4, uv5) then
+			uv1:Dispose()
+		end
 	end)
-
-	slot0.cacheComps = {}
-
-	_.each(slot0.cacheShowComps, function (slot0)
-		slot0:SetActive(false)
-	end)
-
-	slot0.cacheShowComps = {}
-
-	_.each(slot0.cacheMoveComps, function (slot0)
-		setAnchoredPosition(slot0[1], {
-			x = slot0[2],
-			y = slot0[3]
-		})
-	end)
-
-	slot0.cacheMoveComps = {}
-
-	if not slot0:ShowSharePanel(slot1, slot2, slot3, slot4) then
-		slot0:Dispose()
-	end
 end
 
-slot1.ShotAndSave = function(slot0, slot1, slot2, slot3)
-	slot4 = uv0.share_template[slot1]
+slot1.ShotAndSave = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = uv0.share_template[slot1]
 
-	assert(slot4, "share_template not exist: " .. slot1)
+	assert(slot5, "share_template not exist: " .. slot1)
 
-	slot5 = LuaHelper.GetCHPackageType()
-	slot8 = slot0:TakeTexture(slot1, ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32), GameObject.Find(slot4.camera):GetComponent(typeof(Camera)))
+	slot6 = GameObject.Find(slot5.camera):GetComponent(typeof(Camera))
+	slot7 = {}
 
-	slot9 = function(slot0, slot1)
-		slot2 = slot1.x / uv0.sizeDelta.x * Screen.width
-		slot3 = slot1.y / uv0.sizeDelta.y * Screen.height
-		slot7 = UnityEngine.Texture2D.New(slot2, slot3)
+	table.insert(slot7, function (slot0)
+		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
+		uv0.UIMgr.GetInstance():LoadingOn(false)
+		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
+			typeof(Camera),
+			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
+		}, {
+			uv1,
+			UnityEngine.Events.UnityAction_UnityEngine_Object(slot0)
+		})
+	end)
+	table.insert(slot7, function (slot0, slot1)
+		uv0.UIMgr.GetInstance():LoadingOff()
 
-		slot7:SetPixels(slot0:GetPixels((Screen.width - slot2) / 2, (Screen.height - slot3) / 2, slot2, slot3))
-		slot7:Apply()
+		slot2 = function(slot0, slot1)
+			slot2 = slot1.x / uv0.sizeDelta.x * Screen.width
+			slot3 = slot1.y / uv0.sizeDelta.y * Screen.height
+			slot7 = UnityEngine.Texture2D.New(slot2, slot3)
 
-		return slot7
-	end
+			slot7:SetPixels(slot0:GetPixels((Screen.width - slot2) / 2, (Screen.height - slot3) / 2, slot2, slot3))
+			slot7:Apply()
 
-	if slot2 then
-		slot8 = slot9(slot8, slot2)
-	end
+			return slot7
+		end
 
-	slot0:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot8))
+		if uv2 then
+			slot1 = slot2(slot1, uv2)
+		end
 
-	return true
+		uv3:SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot1))
+		slot0()
+	end)
+	seriesAsync(slot7, slot4)
 end
 
 slot1.ShowSharePanel = function(slot0, slot1, slot2, slot3, slot4)
@@ -240,7 +256,7 @@ slot1.ShowSharePanel = function(slot0, slot1, slot2, slot3, slot4)
 	if (PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US) and uv0.SdkMgr.GetInstance():GetIsPlatform() then
 		slot8 = UnityEngine.Texture2D.New(Screen.width, Screen.height, TextureFormat.ARGB32, false)
 
-		slot8:LoadImage(System.IO.File.ReadAllBytes(slot0.screenshotPath))
+		Tex2DExtension.LoadImage(slot8, System.IO.File.ReadAllBytes(slot0.screenshotPath))
 		uv0.SdkMgr.GetInstance():GameShare(slot5.description, slot8)
 		uv0.UIMgr.GetInstance():LoadingOn()
 		onDelayTick(function ()
@@ -316,11 +332,7 @@ slot1.ShowOwnUI = function(slot0, slot1, slot2, slot3, slot4)
 
 	if PLATFORM_CODE == PLATFORM_KR then
 		onButton(slot0, slot0.panel:Find("main/buttons/facebook"), function ()
-			uv0.SdkMgr.GetInstance():ShareImg(uv1.screenshotPath, function (slot0, slot1)
-				if slot0 and slot1 == 0 then
-					uv0.TipsMgr.GetInstance():ShowTips(i18n("share_success"))
-				end
-			end)
+			uv0.SdkMgr.GetInstance():ShareImg(uv1.screenshotPath)
 			uv2()
 		end)
 	end
@@ -329,7 +341,7 @@ end
 slot1.Dispose = function(slot0)
 	slot0.go:SetActive(false)
 
-	if not slot0.noBlur then
+	if slot0.panel and not slot0.noBlur then
 		uv0.UIMgr.GetInstance():UnblurPanel(slot0.panel, slot0.tr)
 	end
 
@@ -342,5 +354,6 @@ slot1.Dispose = function(slot0)
 end
 
 slot1.SaveImageWithBytes = function(slot0, slot1)
+	BackYardThemeTempalteUtil.CheckSaveDirectory()
 	System.IO.File.WriteAllBytes(slot0.screenshotPath, slot1)
 end

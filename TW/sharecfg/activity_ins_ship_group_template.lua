@@ -2765,7 +2765,7 @@ pg.activity_ins_ship_group_template = {
 		name = "Indomitable",
 		background = "",
 		sculpture = "bunao",
-		nationality = 0,
+		nationality = 2,
 		type = 1
 	},
 	[20134] = {
@@ -3808,8 +3808,8 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
-	[70508] = {
-		ship_group = 70508,
+	[70502] = {
+		ship_group = 70502,
 		name = "Sovetsky Soyuz",
 		background = "",
 		sculpture = "suweiaitongmengNew",
@@ -3832,8 +3832,8 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
-	[70509] = {
-		ship_group = 70509,
+	[70508] = {
+		ship_group = 70508,
 		name = "Poltava",
 		background = "",
 		sculpture = "boertawa",
@@ -4221,7 +4221,7 @@ pg.activity_ins_ship_group_template = {
 		name = "公共頻道",
 		background = "200",
 		sculpture = "200",
-		nationality = 11,
+		nationality = 12,
 		type = 2
 	},
 	[960007] = {
@@ -4885,10 +4885,10 @@ pg.activity_ins_ship_group_template = {
 		50105,
 		50106,
 		20401,
-		70508,
+		70502,
 		10116,
 		70111,
-		70509,
+		70508,
 		70112,
 		20137,
 		20234,

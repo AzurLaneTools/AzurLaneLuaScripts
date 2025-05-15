@@ -63,6 +63,7 @@ slot0.handleNotification = function(slot0, slot1)
 
 		slot0.viewComponent:updateAll()
 		slot0.viewComponent:upgradeFinish(slot3.equip, slot6)
+		pg.UIMgr.GetInstance():LoadingOff()
 	elseif slot2 == BagProxy.ITEM_UPDATED then
 		slot0.viewComponent:setItems(slot0.bagProxy:getData())
 	elseif slot2 == PlayerProxy.UPDATED then

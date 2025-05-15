@@ -390,13 +390,13 @@ end
 slot0.SetUpSpine = function(slot0, slot1)
 	slot3 = {}
 
-	for slot7 = 1, slot1:GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)).Length do
-		slot8 = slot2[slot7 - 1].gameObject
-		slot9 = GetOrAddComponent(slot8, typeof(SpineAnimUI))
+	for slot7, slot8 in ipairs(slot1:GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)):ToTable()) do
+		slot9 = slot8.gameObject
+		slot10 = GetOrAddComponent(slot9, typeof(SpineAnimUI))
 
-		slot9:SetAction(DreamlandUtil.GetSpineNormalAction(slot0.gameData:GetExploreSubType(string.split(slot8.gameObject.transform.parent.name, "#")[1])), 0)
+		slot10:SetAction(DreamlandUtil.GetSpineNormalAction(slot0.gameData:GetExploreSubType(string.split(slot9.gameObject.transform.parent.name, "#")[1])), 0)
 
-		slot3[slot8.transform.parent.name] = slot9
+		slot3[slot9.transform.parent.name] = slot10
 	end
 
 	return slot3

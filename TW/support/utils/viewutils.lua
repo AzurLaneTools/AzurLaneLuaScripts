@@ -15,8 +15,8 @@ slot1.SetLayer = function(slot0, slot1)
 end
 
 slot1.SetSortingOrder = function(slot0, slot1)
-	for slot6 = 0, tf(slot0):GetComponents(typeof(Renderer)).Length - 1 do
-		slot2[slot6].sortingOrder = slot1
+	for slot6, slot7 in ipairs(tf(slot0):GetComponents(typeof(Renderer)):ToTable()) do
+		slot7.sortingOrder = slot1
 	end
 
 	if slot0:GetComponent(typeof(Canvas)) then
@@ -29,8 +29,8 @@ slot1.SetSortingOrder = function(slot0, slot1)
 end
 
 slot1.AddSortingOrder = function(slot0, slot1)
-	for slot6 = 0, tf(slot0):GetComponents(typeof(Renderer)).Length - 1 do
-		slot2[slot6].sortingOrder = slot2[slot6].sortingOrder + slot1
+	for slot6, slot7 in ipairs(tf(slot0):GetComponents(typeof(Renderer)):ToTable()) do
+		slot7.sortingOrder = slot7.sortingOrder + slot1
 	end
 
 	if slot0:GetComponent(typeof(Canvas)) then

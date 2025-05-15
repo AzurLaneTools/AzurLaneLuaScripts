@@ -80,7 +80,7 @@ slot0.preload = function(slot0, slot1)
 	slot0.sceneRootName = "beach"
 	slot0.sceneName = "map_beach_01"
 	slot0.timelineSceneRootName = pg.dorm3d_dorm_template[slot2].asset_name
-	slot0.timelineSceneName = string.lower(slot0.volleyballCfg.scene_name)
+	slot0.timelineSceneName = slot0.volleyballCfg.scene_name
 
 	seriesAsync({
 		function (slot0)
@@ -268,29 +268,26 @@ slot0.initScene = function(slot0)
 
 	slot2 = SceneManager.GetSceneByName(slot0.timelineSceneName)
 	slot0.totalDirectorList = {}
-	slot4 = tolua.createinstance(typeof("BLHX.Rendering.FinalBlit"))
 
 	table.IpairsCArray(slot2:GetRootGameObjects(), function (slot0, slot1)
 		if IsNil(tf(slot1):Find("[sequence]")) then
 			return
 		end
 
-		ReflectionHelp.RefSetField(typeof("BLHX.Rendering.BuiltinAdditionalCameraData"), "m_FinalBlit", tf(slot1):Find("[camera]/MainCamera"):GetComponent("BLHX.Rendering.BuiltinAdditionalCameraData"), uv0)
+		slot3 = slot2:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
+		slot3.playOnAwake = false
 
-		slot4 = slot2:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
-		slot4.playOnAwake = false
+		slot3:Stop()
 
-		slot4:Stop()
+		for slot8, slot9 in ipairs(slot2:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector)):ToTable()) do
+			slot9.playOnAwake = false
 
-		for slot9 = 0, slot2:GetComponentsInChildren(typeof(UnityEngine.Playables.PlayableDirector), true).Length - 1 do
-			slot5[slot9].playOnAwake = false
-
-			slot5[slot9]:Stop()
+			slot9:Stop()
 		end
 
-		table.insert(uv1.totalDirectorList, {
+		table.insert(uv0.totalDirectorList, {
 			name = slot1.name,
-			director = slot4
+			director = slot3
 		})
 		setActive(slot1, false)
 	end)
@@ -835,11 +832,11 @@ end
 slot0.DoTimelineRandomTrack = function(slot0, slot1)
 	slot2 = {}
 
-	for slot7 = 0, TimelineHelper.GetTimelineTracks(slot1).Length - 1 do
-		if slot3[slot7].name ~= "Markers" then
-			slot8.muted = true
+	for slot6, slot7 in ipairs(TimelineHelper.GetTimelineTracks(slot1):ToTable()) do
+		if slot7.name ~= "Markers" then
+			slot7.muted = true
 
-			table.insert(slot2, slot8)
+			table.insert(slot2, slot7)
 		end
 	end
 

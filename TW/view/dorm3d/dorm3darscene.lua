@@ -1,5 +1,5 @@
 slot0 = class("Dorm3dARScene", import("view.base.BaseUI"))
-slot1 = "arscene|common/ar"
+slot1 = "ARScene|common/ar"
 slot0.AR_FAIL_CODE = {
 	[0] = "None",
 	"Unsupported",
@@ -41,13 +41,13 @@ end
 slot0.preload = function(slot0, slot1)
 	slot2 = getProxy(ApartmentProxy)
 	slot0.room = slot2:getRoom(slot0.contextData.roomId)
-	slot2, slot3 = unpack(string.split(string.lower(uv0), "|"))
+	slot2, slot3 = unpack(string.split(uv0, "|"))
 
 	seriesAsync({
 		function (slot0)
 			slot1 = SceneOpMgr.Inst
 
-			slot1:LoadSceneAsync("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene", uv1, LoadSceneMode.Additive, function (slot0, slot1)
+			slot1:LoadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. uv0 .. "/" .. uv1 .. "_scene"), uv1, LoadSceneMode.Additive, function (slot0, slot1)
 				uv0()
 			end)
 		end,
@@ -364,9 +364,9 @@ slot0.willExit = function(slot0)
 	slot0.loader:Clear()
 	slot0.aiHelperSC:Destroy()
 
-	slot1, slot2 = unpack(string.split(string.lower(uv0), "|"))
+	slot1, slot2 = unpack(string.split(uv0, "|"))
 
-	SceneOpMgr.Inst:UnloadSceneAsync(slot2, slot1)
+	SceneOpMgr.Inst:UnloadSceneAsync(string.lower("dorm3d/scenesres/scenes/" .. slot2 .. "/" .. slot1 .. "_scene"), slot1)
 
 	if slot0.luHandle then
 		LateUpdateBeat:RemoveListener(slot0.luHandle)
@@ -385,7 +385,7 @@ slot0.findUI = function(slot0)
 	setActive(slot0.tipsLabel, false)
 
 	slot0.snapShot = GameObject.Find("ARCanvas").transform
-	slot0.arCamera = GameObject.Find("AR Camera"):GetComponent("Camera")
+	slot0.arCamera = GameObject.Find("Main Camera"):GetComponent("Camera")
 
 	setActive(slot0.snapShot, false)
 

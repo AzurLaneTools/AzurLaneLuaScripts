@@ -868,6 +868,23 @@ pg.honormedal_goods_list = {
 			42056
 		}
 	},
+	{
+		goods_rarity = 5,
+		goods_purchase_limit = 10,
+		price = 6,
+		type = 2,
+		group = 10033,
+		num = 100,
+		goods_name = "特装原型",
+		goods_type = 1,
+		id = 48,
+		is_ship = 0,
+		goods_icon = "Props/specialarmor_prt",
+		order = 4,
+		goods = {
+			59010
+		}
+	},
 	all = {
 		1,
 		2,
@@ -915,6 +932,7 @@ pg.honormedal_goods_list = {
 		44,
 		45,
 		46,
-		47
+		47,
+		48
 	}
 }

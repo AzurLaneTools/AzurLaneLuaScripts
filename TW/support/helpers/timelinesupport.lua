@@ -3,7 +3,6 @@ slot0 = TimelineSupport
 
 slot0.InitTimeline = function(slot0)
 	uv0.DynamicBinding(slot0)
-	uv0.InitCriAtomTrack(slot0)
 end
 
 slot0.EachSubDirector = function(slot0, slot1)
@@ -15,6 +14,7 @@ slot0.EachSubDirector = function(slot0, slot1)
 		table.IpairsCArray(TimelineHelper.GetTimelineTracks(slot1), function (slot0, slot1)
 			uv0(slot0, slot1)
 		end)
+		uv1.EachSubDirector(slot1, uv0)
 	end)
 end
 
@@ -49,30 +49,13 @@ slot0.InitSubtitle = function(slot0, slot1)
 		slot2:GetComponent(typeof(Canvas)).worldCamera = pg.UIMgr.GetInstance().overlayCameraComp
 	end
 
-	uv0.EachSubDirector(slot0, function (slot0, slot1)
-		if uv0.CheckTrackType(slot1, "Lens.Gameplay.Tools.SubtitleTrack") then
-			if EDITOR_TOOL then
-				Lens.Gameplay.Tools.SubtitleMixer.func = function(slot0)
-					if not tonumber(slot0) then
-						return slot0
-					end
-
-					return HXSet.hxLan(string.gsub(pg.dorm3d_subtitle[slot1].subtitle, "$dorm3d", uv0))
-				end
-			else
-				table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("Lens.Gameplay.Tools.SubtitleTrack"), "GetClips", slot1), function (slot0, slot1)
-					slot2 = ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)
-					slot3 = ReflectionHelp.RefGetField(slot2:GetType(), "behaviour", slot2)
-
-					if not tonumber(ReflectionHelp.RefGetField(slot3:GetType(), "subtitle", slot3)) then
-						return
-					end
-
-					ReflectionHelp.RefSetField(slot3:GetType(), "subtitle", slot3, HXSet.hxLan(string.gsub(pg.dorm3d_subtitle[slot4].subtitle, "$dorm3d", uv0)))
-				end)
-			end
+	BLHXTimeline.SubtitleMixer.func = function(slot0)
+		if not tonumber(slot0) then
+			return slot0
 		end
-	end)
+
+		return HXSet.hxLan(string.gsub(pg.dorm3d_subtitle[slot1].subtitle, "$dorm3d", uv0))
+	end
 end
 
 slot0.CheckTrackType = function(slot0, slot1)
@@ -81,9 +64,9 @@ end
 
 slot0.InitCriAtomTrack = function(slot0)
 	uv0.EachSubDirector(slot0, function (slot0, slot1)
-		if uv0.CheckTrackType(slot1, "CriTimeline.Atom.CriAtomTrack") then
-			table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("CriTimeline.Atom.CriAtomTrack"), "GetClips", slot1), function (slot0, slot1)
-				pg.CriMgr.GetInstance():LoadCueSheet(ReflectionHelp.RefGetField(typeof("CriTimeline.Atom.CriAtomClip"), "cueSheet", ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)))
+		if uv0.CheckTrackType(slot1, "BLHXTimeline.BLHXCriAtomTrack") then
+			table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("BLHXTimeline.BLHXCriAtomTrack"), "GetClips", slot1), function (slot0, slot1)
+				pg.CriMgr.GetInstance():LoadCueSheet(ReflectionHelp.RefGetField(typeof("BLHXTimeline.BLHXCriAtomClip"), "cueSheet", ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)), nil, true)
 			end)
 		end
 	end)
@@ -95,9 +78,9 @@ end
 
 slot0.UnloadCriAtomTrack = function(slot0)
 	uv0.EachSubDirector(slot0, function (slot0, slot1)
-		if uv0.CheckTrackType(slot1, "CriTimeline.Atom.CriAtomTrack") then
-			table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("CriTimeline.Atom.CriAtomTrack"), "GetClips", slot1), function (slot0, slot1)
-				pg.CriMgr.GetInstance():UnloadCueSheet(ReflectionHelp.RefGetField(typeof("CriTimeline.Atom.CriAtomClip"), "cueSheet", ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)))
+		if uv0.CheckTrackType(slot1, "BLHXTimeline.BLHXCriAtomTrack") then
+			table.IpairsCArray(ReflectionHelp.RefCallMethod(typeof("BLHXTimeline.BLHXCriAtomTrack"), "GetClips", slot1), function (slot0, slot1)
+				pg.CriMgr.GetInstance():UnloadCueSheet(ReflectionHelp.RefGetField(typeof("BLHXTimeline.BLHXCriAtomClip"), "cueSheet", ReflectionHelp.RefGetProperty(slot1:GetType(), "asset", slot1)))
 			end)
 		end
 	end)

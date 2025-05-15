@@ -144,12 +144,18 @@ slot0.didEnter = function(slot0)
 	slot0.escFlag = false
 
 	onButton(slot0, slot0.close, function ()
-		uv0:PlayExitAnimation(function ()
+		if uv0.isExitPlay then
+			return
+		end
+
+		uv0.isExitPlay = true
+
+		uv0:PlayUIAnimation(uv0._tf, "exit", function ()
 			if uv0.currentForm == uv1.FORM_BATTLE then
 				uv0:emit(NotificationMediator.BATTLE_CHAT_CLOSE)
 			end
 
-			uv0:emit(BaseUI.ON_CLOSE)
+			uv0:closeView()
 		end)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.emoji, function ()

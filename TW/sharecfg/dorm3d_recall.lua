@@ -147,9 +147,8 @@ pg.dorm3d_recall = {
 		unlock_text = "贈送素色物語後解鎖",
 		desc = "相處時刻，掌間纖細的觸感，是剎那的心動……",
 		unlock = {
-			1,
-			30221,
-			1
+			3,
+			3022101
 		}
 	},
 	get_id_list_by_story_id = {

@@ -7552,7 +7552,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	{
 		param = "各位同志，妳們好，這是新建立的北方聯合專用頻道",
-		ship_group = 70508,
+		ship_group = 70502,
 		option = "",
 		type = 1,
 		id = 716,
@@ -7560,7 +7560,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	{
 		param = "之後有什麼需要同步的訊息可以發在這裡",
-		ship_group = 70508,
+		ship_group = 70502,
 		option = "",
 		type = 1,
 		id = 717,
@@ -7568,7 +7568,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	{
 		param = "對了，我剛剛也邀請了指揮官同志進頻道",
-		ship_group = 70508,
+		ship_group = 70502,
 		option = "",
 		type = 1,
 		id = 718,
@@ -7576,7 +7576,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	{
 		param = "讓我們與指揮官同志一同建造港區的未來吧",
-		ship_group = 70508,
+		ship_group = 70502,
 		option = "",
 		type = 1,
 		id = 719,
@@ -7814,7 +7814,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	{
 		param = "既然指揮官這麼說了的話，那我們……",
-		ship_group = 70508,
+		ship_group = 70502,
 		option = "",
 		type = 1,
 		id = 747,

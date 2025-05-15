@@ -90,11 +90,9 @@ slot0.LoadTimelineScene = function(slot0, slot1, slot2)
 				slot3 = GameObject.Find("[sequence]").transform:GetComponent(typeof(UnityEngine.Playables.PlayableDirector))
 
 				slot3:Stop()
+				setActive(GameObject.Find("[camera]").transform:GetComponentInChildren(typeof(Camera)), false)
 				TimelineSupport.InitTimeline(slot3)
 				TimelineSupport.InitSubtitle(slot3, uv0.callName)
-
-				uv0.unloadDirector = slot3
-
 				uv1()
 			end)
 		end)
@@ -115,15 +113,9 @@ slot0.UnloadTimelineScene = function(slot0, slot1, slot2, slot3)
 	assert(slot0.cacheSceneDic[slot1])
 
 	if tobool(slot2) == tobool(slot0.cacheSceneDic[slot1].isCache) then
-		slot5 = slot4.assetRootName
-
-		if slot4.unloadDirector then
-			TimelineSupport.UnloadPlayable(slot4.unloadDirector)
-		end
-
 		slot6 = SceneOpMgr.Inst
 
-		slot6:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. slot5 .. "/timeline/" .. slot1 .. "/" .. slot1 .. "_scene"), slot1, function ()
+		slot6:UnloadSceneAsync(string.lower("dorm3d/character/scenes/" .. slot4.assetRootName .. "/timeline/" .. slot1 .. "/" .. slot1 .. "_scene"), slot1, function ()
 			uv0.cacheSceneDic[uv1] = nil
 			uv0.lastSceneRootDict[uv1] = nil
 
@@ -213,8 +205,6 @@ slot0.ChangeArtScene = function(slot0, slot1, slot2)
 end
 
 slot0.ChangeSubScene = function(slot0, slot1, slot2)
-	slot1 = string.lower(slot1)
-
 	warning(slot0.subSceneInfo, "->", slot1, slot1 == slot0.subSceneInfo)
 
 	if slot1 == slot0.subSceneInfo then

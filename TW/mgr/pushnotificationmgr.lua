@@ -64,19 +64,21 @@ slot1.isEnableShipName = function(slot0)
 end
 
 slot1.Push = function(slot0, slot1, slot2, slot3)
-	slot5 = os.time() + slot3 - uv0.TimeMgr.GetInstance():GetServerTime()
+	slot4 = slot3 - uv0.TimeMgr.GetInstance():GetServerTime()
 
-	NotificationMgr.Inst:ScheduleLocalNotification(slot1, slot2, slot5)
-	slot0:log(slot1, slot2, slot5)
+	YSNormalTool.NotificationTool.SendBySecondWithIcon(slot1, slot2, slot4)
+	slot0:log(slot1, slot2, os.time() + slot4)
 end
 
 slot1.cancelAll = function(slot0)
-	NotificationMgr.Inst:CancelAllLocalNotifications()
+	YSNormalTool.NotificationTool.CancelAllNotification()
 end
 
 slot1.PushAll = function(slot0)
 	if getProxy(PlayerProxy) and slot1:getInited() then
-		slot0:cancelAll()
+		if not PUSH_NOTIFICATION_TEST_TAG then
+			slot0:cancelAll()
+		end
 
 		if uv0[uv1.PUSH_TYPE_EVENT] then
 			slot0:PushEvent()

@@ -19018,7 +19018,8 @@ pg.activity_template = {
 			500,
 			501,
 			502,
-			503
+			503,
+			504
 		},
 		time = {
 			"timer",
@@ -20333,6 +20334,77 @@ pg.activity_template = {
 				{},
 				{}
 			}
+		}
+	},
+	[5583] = {
+		mark = 20250515,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "Javelin_dressSkin",
+		id = 5583,
+		config_data = {
+			{
+				20618,
+				20619
+			},
+			{
+				20620,
+				20621
+			},
+			{
+				20622,
+				20623
+			},
+			{
+				20624,
+				20625
+			},
+			{
+				20626,
+				20627
+			},
+			{
+				20628,
+				20629
+			},
+			{
+				20630,
+				20631
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					5,
+					15
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					5,
+					28
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "JavelinDressSkinPage",
+			ui_name = "JavelinDressSkinPage"
 		}
 	},
 	[5617] = {
@@ -61772,6 +61844,7 @@ pg.activity_template = {
 			5548,
 			5551,
 			5581,
+			5583,
 			5625,
 			6000,
 			6001,
@@ -63770,6 +63843,7 @@ pg.activity_template = {
 		5578,
 		5579,
 		5581,
+		5583,
 		5617,
 		5618,
 		5619,

@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:66}的修行\n\n<size=45>二　不同往常的训练</size>",
+					"高雄的修行\n\n<size=45>2 不同往常的訓練</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			bgm = "story-richang-5",
-			say = "按照约定，于清晨时分准时到达了训练场。",
+			say = "按照約定，於清晨時分準時到達了訓練場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，早上好。",
+			say = "指揮官，早上好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,30 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "一进入训练场，就听到了少女充满精神的问候声。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "star_level_bg_601",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "早上好。接下来我们要在训练场……嗯？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_601",
-			hidePaintObj = true,
-			say = "在今日的训练场中，赫然摆放着一张与周围氛围格格不入的办公桌。",
+			say = "一進入訓練場，就聽到了少女充滿精神的問候聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +56,30 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "为什么训练场中心……会有一张办公桌？",
+			say = "早安。接下來我們要在訓練場……嗯？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_601",
+			hidePaintObj = true,
+			say = "在今日的訓練場中，赫然擺放著一張與周遭氛圍格格不入的辦公桌。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "star_level_bg_601",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "為什麼訓練場中心…會有一張辦公桌？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这张办公桌和之后的修行有关。",
+			say = "這張辦公桌和之後的修行有關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,7 +106,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官请稍等，我去完成最后的准备工作，马上回来。",
+			say = "指揮官請稍等，我去完成最後的準備工作，馬上回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_601",
-			say = "就这样，在向办公桌上整齐地摆放好办公用品与文件后，最后的准备工作终于完成了。",
+			say = "就這樣，在向辦公桌上整齊地擺放好辦公用品與文件後，最後的準備工作終於完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "仿佛是注意到了我的困惑，少女开始解释起来。",
+			say = "彷彿注意到了我的困惑，少女開始解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本日的修行是关于静心的内容……我需要通过修行，最终做到能平心静气地对抗外界干扰的程度。",
+			say = "本日的修行是關於靜心的內容……我需要透過修行，最終做到平心靜氣對抗外界干擾的程度。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "静心……不错的修行方向。所以这张办公桌设置在此处的目的是……？",
+			say = "靜心……不錯的修行方向。所以這張辦公桌設置在此處的目的是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这张办公桌是为指挥官准备的。",
+			say = "這張辦公桌是為指揮官準備的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正如我此前所说，协助修行不会额外占用您的时间与精力。您要做的只有在此处照常办公就好。",
+			say = "正如我先前所說，協助修行不會額外佔用您的時間與精力。您要做的只有在此照常辦公就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……确实是轻松的协助工作。那你本人的修行内容是？",
+			say = "……確實是輕鬆的協助工作。那你本人的修行內容是？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我需要集中精神，全神贯注地完成训练场的清洁工作。",
+			say = "我需要集中精神，全神貫注的完成訓練場的清潔工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,18 +237,18 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你准备好了么？",
+			say = "指揮官，你準備好了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "准备好了。",
+					content = "準備好了。",
 					flag = 1
 				},
 				{
-					content = "工作，我喜欢工作！",
+					content = "工作，我熱愛工作！",
 					flag = 2
 				}
 			}
@@ -258,7 +258,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_601",
-			say = "我来到办公桌前，拿出一份文件，开始了本日的工作。",
+			say = "我來到辦公桌前，拿出一份文件，開始了當天的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "与此同时，{namecode:66:高雄}则拿出清洁用具，开始了训练场的清洁。",
+			say = "同時，高雄則拿出清潔用具，開始了訓練場的清潔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（虽然{namecode:66:高雄}手中拿的是拖把……但依然感受到了强烈的压迫感。）",
+			say = "（雖然高雄手中拿的是拖把……但依然從辦公桌之處依然感受到了強烈的壓迫感。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来她对于这场修行是100%认真的。）",
+			say = "（看來她對於這場修行是100%認真的。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -322,7 +322,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那么——我也开始本日的战斗吧！",
+			say = "那麼——我也開始本日的戰鬥吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

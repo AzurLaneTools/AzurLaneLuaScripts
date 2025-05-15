@@ -299,6 +299,7 @@ pg.memory_group = setmetatable({
 		594,
 		595,
 		601,
+		602,
 		1000,
 		1001,
 		1002
@@ -6416,6 +6417,23 @@ pg.base.memory_group = {
 			3725,
 			3726,
 			3727
+		}
+	},
+	[602] = {
+		title = "{namecode:66}的修行",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 602,
+		icon = "title_chara_gaoxiong",
+		memories = {
+			3911,
+			3912,
+			3913,
+			3914,
+			3915,
+			3916,
+			3917
 		}
 	},
 	[1000] = {

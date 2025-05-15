@@ -51,16 +51,16 @@ end
 
 slot0.updateBounds = function(slot0)
 	for slot4 = 1, #slot0.floors do
-		slot7 = slot0.floors[slot4].tf.anchoredPosition
-		slot8 = {}
+		slot6 = slot0.floors[slot4].tf.anchoredPosition
+		slot7 = {}
 
-		for slot12 = 0, slot0.floors[slot4].collider.points.Length - 1 do
-			table.insert(slot8, Vector2(slot7.x + slot6[slot12].x, slot7.y + slot6[slot12].y))
+		for slot11, slot12 in ipairs(slot0.floors[slot4].collider.points:ToTable()) do
+			table.insert(slot7, Vector2(slot6.x + slot12.x, slot6.y + slot12.y))
 		end
 
-		slot0.floors[slot4].bound = slot8
+		slot0.floors[slot4].bound = slot7
 
-		table.insert(slot0.bounds, slot8)
+		table.insert(slot0.bounds, slot7)
 	end
 end
 

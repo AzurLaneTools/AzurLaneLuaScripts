@@ -35897,3 +35897,183 @@ _G.pg.base.gametip.SuperBulin2_help = {
 _G.pg.base.gametip.SuperBulin2_lock_tip = {
 	tip = "線索收集完成即可解鎖特別關卡~"
 }
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
+	tip = "允許GPGPU"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution = {
+	tip = "最大解析度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
+	tip = "720P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname1 = {
+	tip = "1080P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
+	tip = "2K"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
+	tip = "渲染精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality = {
+	tip = "Shader級別"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
+	tip = "陰影精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
+	tip = "關"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname1 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname3 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
+	tip = "陰影更新頻率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
+	tip = "低更新頻率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
+	tip = "中更新頻率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname2 = {
+	tip = "高更新頻率"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
+	tip = "每幀更新"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
+	tip = "地形精度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
+	tip = "多光源"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_reflection = {
+	tip = "反射"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
+	tip = "角色精確度"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname0 = {
+	tip = "低"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname1 = {
+	tip = "中"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname2 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
+	tip = "後處理"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_antialiasing = {
+	tip = "抗鋸齒"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_hdr = {
+	tip = "HDR"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
+	tip = "扭曲"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
+	tip = "景深"
+}

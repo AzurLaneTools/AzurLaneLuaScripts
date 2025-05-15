@@ -595,7 +595,7 @@ slot0.readyToAchieve = function(slot0)
 			return slot1:GetTimeToNextTime(math.max(slot0.data1, slot0.data2)) <= slot1:GetServerTime()
 		end,
 		[ActivityConst.ACTIVITY_TYPE_ISLAND] = function (slot0)
-			for slot4, slot5 in pairs(getProxy(IslandProxy):GetNodeDic()) do
+			for slot4, slot5 in pairs(getProxy(SixthAnniversaryIslandProxy):GetNodeDic()) do
 				if slot5:IsVisual() and slot5:RedDotHint() then
 					return true
 				end

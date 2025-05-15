@@ -1620,6 +1620,11 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-room-sirius"
 	},
+	JavelinDressSkinPage = {
+		default_bgm = "theme-partydress",
+		special_bgm = "",
+		bgm = "theme-partydress"
+	},
 	WorldCruiseTaskPage = {
 		default_bgm = "blueocean-image",
 		special_bgm = "",

@@ -33436,6 +33436,81 @@ _G.pg.base.aircraft_template[61032] = {
 }
 
 
+_G.pg.base.aircraft_template[61033] = {
+	name = "埃佛森技能侦察机",
+	max_hp = 35,
+	accuracy = 23,
+	model_ID = "vbwa",
+	ACC_growth = 0,
+	crash_DMG = 120,
+	dodge = 3.51,
+	attack_power = 2,
+	dodge_limit = 1,
+	type = 1,
+	AP_growth = 2000,
+	icon = "vbwa",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 11,
+	hp_growth = 1438,
+	speed = 46,
+	id = 61033,
+	scale = 1,
+	weapon_ID = {},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 _G.pg.base.aircraft_template[62141] = {
 	name = "霞飞战斗机弹幕Lv1",
 	max_hp = 46,

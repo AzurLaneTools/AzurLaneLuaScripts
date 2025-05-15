@@ -23267,6 +23267,64 @@ _G.pg.base.shop_template[60533] = {
 }
 
 
+_G.pg.base.shop_template[60534] = {
+	group_type = 0,
+	resource_num = 980,
+	time_second = 0,
+	type = 2,
+	type_order = 3,
+	desc = "980钻石购买限时礼包-比翼双飞（926日服周年第三弹版本）",
+	group_limit = 0,
+	group_buy_count = 0,
+	tag = 2,
+	limit_args2 = "",
+	collaboration_skin_time = "",
+	order = 0,
+	group = 0,
+	num = 1,
+	discount = 0,
+	resource_type = 14,
+	id = 60534,
+	genre = "gift_package",
+	discount_time = {},
+	limit_args = {
+		{
+			"time",
+			1
+		}
+	},
+	effect_args = {
+		40100
+	},
+	time = {
+		{
+			{
+				2025,
+				5,
+				15
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		{
+			{
+				2025,
+				5,
+				21
+			},
+			{
+				23,
+				59,
+				59
+			}
+		}
+	}
+}
+
+
 _G.pg.base.shop_template[60539] = {
 	group_type = 0,
 	resource_num = 880,

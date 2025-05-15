@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"{namecode:66}的修行\n\n<size=45>七　最后的修行</size>",
+					"高雄的修行\n\n<size=45>7 最後的修行</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			bgm = "story-richang-8",
-			say = "休息日，来到了{namecode:66:高雄}发来会面地点。",
+			say = "休息日，來到了高雄發來會面的地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -31,7 +31,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然之前还在想会不会是电影院、水族馆或者游乐园……",
+			say = "雖然之前還在想會不會是電影院、水族館或遊樂園……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -43,7 +43,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过最后会选在训练场，确实也很有{namecode:66:高雄}的个人风格。",
+			say = "不過最後會選在訓練場，確實也很有高雄的個人風格。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……其实，在我最开始的计划里确实考虑过那些地点。",
+			say = "咳……其實，在我最開始的計畫裡確實考慮過那些地點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我仔细想了想指挥官的话，再重新审视了这段时间自己做的事之后……",
+			say = "不過我仔細想了想指揮官的話，再重新檢視了這段時間自己做的事之後……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还是觉得将修行……咳，约会地点定在训练场最为合适。",
+			say = "還是覺得將修行……咳，約會地點定在訓練場最為適合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我记得你的说法是“练习洞察力，在纷繁的世界中寻找美的瞬间”，对吧？",
+			say = "我記得妳的說法是「練習洞察力，在紛繁的世界中尋找美的瞬間」，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "需要我做些什么么……？",
+			say = "需要我做些什麼嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "您要做的只是坐在这块安全位置观赏即可。",
+			say = "您要做的只是坐在這塊安全位置觀賞即可。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "{namecode:66:高雄}有些不好意思地摇了摇头，然后稍稍后退了几步。",
+			say = "高雄有些不好意思地搖了搖頭，然後稍微後退了幾步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "观赏？",
+			say = "觀賞？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -156,7 +156,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "{namecode:66:高雄}没有回答我的疑问，而是握住了自己腰间武士刀的刀柄。",
+			say = "高雄沒有回答我的疑問，而是握住了自己腰間武士刀的刀柄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "锋刃劈开空气，发出轻微的呼啸声。",
+			say = "鋒刃劈開空氣，發出輕微的呼嘯聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "少女的眸子如深潭般沉静，仿佛进入了另一个世界。",
+			say = "少女的眼眸如深潭般沉靜，彷彿進入了另一個世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -189,7 +189,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "她的身体宛如柳絮般摇曳，又如山岳般沉稳有力。",
+			say = "她的身體宛如柳絮般搖曳，又如山岳般沉穩有力。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "伴随着她的动作，不知何处而来的红叶纷繁落下，诗意与锋芒交织，动人心魄。",
+			say = "伴隨著她的動作，不知何處而來的紅葉紛繁落下，詩意與鋒芒交織，動人心魄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，您感觉如何？",
+			say = "指揮官，您感覺如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "最后一个动作收束，刀刃归鞘的声音仿若爱人间的呢喃。",
+			say = "最後一個動作收束，刀刃歸鞘的聲音彷若愛人間的呢喃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "少女缓缓睁开眼睛看向我，唇边绽放出一抹浅笑。",
+			say = "少女緩緩睜開眼睛看向我，唇邊綻放出一抹淺笑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "精彩到全程下意识屏住了呼吸！",
+					content = "精彩到全程下意識屏住了呼吸！",
 					flag = 2
 				}
 			}
@@ -277,7 +277,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您喜欢就好……",
+			say = "您喜歡就好……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "咳，为了这个计划，我还拜托{namecode:67:爱宕}帮我准备了一些小道具。",
+			say = "咳，為了這個計劃，我還拜託愛宕幫我準備了一些小道具。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来有好好发挥作用了……",
+			say = "看來有好好發揮作用了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "是指那些红叶么？",
+			say = "是指那些紅葉嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "{namecode:66:高雄}点了点头，走到我的面前坐下。",
+			say = "高雄點了點頭，走到我的面前坐下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，{namecode:66:高雄}怎么会突然想到在训练场为我表演这个？",
+			say = "不過，高雄怎麼會突然想到在訓練場為我表演這個？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官之前提到过，只属于我的女子力……",
+			say = "指揮官之前提到過，只屬於我的女子力……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以我就决定从我最擅长的地方想想怎么办了。",
+			say = "所以我就決定從我最擅長的地方想想怎麼辦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，这最后的修行，就真的只是和您约会的借口了。",
+			say = "不過，這最後的修行，真的只是和您約會的藉口了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "并没有什么真正寻找“美的瞬间”的修行环节。",
+			say = "並沒有什麼真正尋找「美的瞬間」的修行環節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我倒觉得不是这样。或者说……修行的人变成了我。",
+			say = "我倒覺得不是這樣。或者說……修行的人變成我了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -419,7 +419,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，在纷繁的世界中寻找美的瞬间，意外地不需要什么洞察力啊。",
+			say = "不過，在紛繁的世界中尋找美的瞬間，意外地不需要什麼洞察力啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只要有{namecode:66:高雄}在我身边，它就无时无刻不在我身边发生着。",
+			say = "只要有高雄在我身邊，它就無時無刻不在我身邊發生。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "就在说出这句话时，少女抓住了我的手。",
+			say = "就在說出這句話時，少女抓住了我的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "她因常年修习剑术而微微有些粗糙的掌心，与我紧紧相贴。",
+			say = "她因常年修習劍術而微微有些粗糙的掌心，與我緊緊相貼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -477,21 +477,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_601",
 			hidePaintObj = true,
-			say = "随后是唇上的温暖，和少女身上散发的幽香。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "star_level_bg_601",
-			dir = 1,
-			actor = 303110,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "指挥官，对我来说也是一样的。",
+			say = "隨後是唇上的溫暖，和少女身上散發的幽香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -505,7 +491,21 @@ return {
 			actor = 303110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "只要有你在身边的时刻，全都是不需要寻找，就会自然而然出现的“美的瞬间”。",
+			say = "指揮官，對我來說也是一樣的。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "star_level_bg_601",
+			dir = 1,
+			actor = 303110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "只要有你在身邊的時刻，全都是不需要尋找，就會自然而然出現的「美的瞬間」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

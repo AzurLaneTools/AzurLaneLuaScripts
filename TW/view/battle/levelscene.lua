@@ -261,8 +261,8 @@ slot0.initUI = function(slot0)
 	slot1.aspectRatio = slot1.aspectRatio
 	slot0.UIFXList = slot0:findTF("maps/UI_FX_list")
 
-	for slot7 = 0, slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)).Length - 1 do
-		slot3[slot7].sortingOrder = -1
+	for slot7, slot8 in ipairs(slot0.UIFXList:GetComponentsInChildren(typeof(Renderer)):ToTable()) do
+		slot8.sortingOrder = -1
 	end
 
 	slot4 = pg.UIMgr.GetInstance()

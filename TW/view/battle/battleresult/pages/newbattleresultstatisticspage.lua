@@ -25,6 +25,9 @@ slot0.OnLoaded = function(slot0)
 	slot0.commmanderContainer = slot0:findTF("top/exp/commanders")
 	slot0.shipContainer = slot0:findTF("left")
 	slot0.rawImage = slot0._tf:Find("bg"):GetComponent(typeof(RawImage))
+
+	setActive(slot0.rawImage, false)
+
 	slot0.blackBg = slot0._tf:Find("black")
 	slot0.bottomPanel = slot0:findTF("bottom")
 	slot0.confrimBtn = slot0:findTF("bottom/confirmBtn")
@@ -117,15 +120,11 @@ end
 slot0.PlayEnterAnimation = function(slot0, slot1)
 	if not getProxy(SettingsProxy):IsDisplayResultPainting() then
 		slot1()
-		Object.Destroy(slot0.rawImage.gameObject)
 
 		return
 	end
 
-	slot3 = pg.UIMgr.GetInstance().uiCamera.gameObject.transform:Find("Canvas")
-	slot0.rawImage.texture = pg.UIMgr.GetInstance():GetStaticRtt(pg.UIMgr.CameraUI)
-	rtf(slot0.rawImage.gameObject).sizeDelta = slot3.sizeDelta
-	slot0.blackBg.sizeDelta = slot3.sizeDelta
+	slot0.blackBg.sizeDelta = pg.UIMgr.GetInstance().uiCamera.gameObject.transform:Find("Canvas").sizeDelta
 
 	if slot0.effectTr then
 		slot0.effectTr.anchorMax = Vector2(0.5, 0.5)
@@ -143,14 +142,7 @@ slot0.PlayEnterAnimation = function(slot0, slot1)
 	slot0.mask.localPosition = slot0:GetPaintingPosition()
 
 	if slot0.animation then
-		slot5 = slot0.animation
-
-		slot5:Play(slot0.resultPaintingData, function ()
-			uv0.rawImage.texture = nil
-
-			Object.Destroy(uv0.rawImage.gameObject)
-			uv1()
-		end)
+		slot0.animation:Play(slot0.resultPaintingData, slot1)
 	end
 end
 

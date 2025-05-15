@@ -30,14 +30,18 @@ slot0.OnLoad = function(slot0, slot1)
 			uv0._initTriggerEvent = nil
 		end
 	end)
+	slot3 = slot0.spinePainting
+
+	slot3:setEventTriggerCallback(function (slot0)
+		uv0:onSpinePaintingEvent(slot0)
+	end)
 end
 
 slot0.AdJustOrderInLayer = function(slot0, slot1)
 	slot2 = 0
 
 	if slot0.container:GetComponent(typeof(Canvas)) and slot3.overrideSorting and slot3.sortingOrder ~= 0 then
-		for slot8 = 1, slot0.spTF:GetComponentsInChildren(typeof(Canvas)).Length do
-			slot9 = slot4[slot8 - 1]
+		for slot8, slot9 in ipairs(slot0.spTF:GetComponentsInChildren(typeof(Canvas)):ToTable()) do
 			slot9.overrideSorting = true
 			slot2 = slot9.sortingOrder - slot3.sortingOrder
 			slot9.sortingOrder = slot3.sortingOrder
@@ -45,29 +49,27 @@ slot0.AdJustOrderInLayer = function(slot0, slot1)
 	end
 
 	if slot0.bgTr:GetComponent(typeof(Canvas)) and slot4.overrideSorting and slot4.sortingOrder ~= 0 then
-		for slot9 = 1, slot0.spBg:GetComponentsInChildren(typeof(Canvas)).Length do
-			slot10 = slot5[slot9 - 1]
+		for slot9, slot10 in ipairs(slot0.spBg:GetComponentsInChildren(typeof(Canvas)):ToTable()) do
 			slot10.overrideSorting = true
 			slot10.sortingOrder = slot10.sortingOrder - slot2
 		end
 
-		for slot10 = 1, slot0.spBg:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")).Length do
-			slot11 = slot6[slot10 - 1]
-
+		for slot10, slot11 in ipairs(slot0.spBg:GetComponentsInChildren(typeof("UnityEngine.ParticleSystemRenderer")):ToTable()) do
 			ReflectionHelp.RefSetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot11, ReflectionHelp.RefGetProperty(typeof("UnityEngine.ParticleSystemRenderer"), "sortingOrder", slot11) - slot2)
 		end
 	end
 end
 
 slot0.InitSpecialTouch = function(slot0)
+	slot1 = slot0.ship:getPainting()
 	slot0.specialClickDic = {}
 
 	if not findTF(slot0.spTF:GetChild(0), "hitArea") then
 		return
 	end
 
-	eachChild(slot1, function (slot0)
-		if slot0.name == "drag" then
+	eachChild(slot2, function (slot0)
+		if uv0:getDragTouchAble(slot0.name, uv1, false) then
 			uv0.dragEvent = GetOrAddComponent(slot0, typeof(EventTriggerListener))
 			slot1 = uv0.dragEvent
 
@@ -90,7 +92,13 @@ slot0.InitSpecialTouch = function(slot0)
 							return
 						end
 
-						if not uv0.spinePainting:DoDragClick() then
+						slot2 = nil
+
+						if uv0:getDragTouchAble(uv1.name, uv2, true) then
+							slot2 = uv0.spinePainting:readyDragAction(uv1.name)
+						end
+
+						if not slot2 then
 							slot3 = uv0.uiCam:ScreenToWorldPoint(slot1.position)
 
 							for slot7 = 1, #uv0.specialClickDic do
@@ -127,7 +135,7 @@ slot0.InitSpecialTouch = function(slot0)
 					if math.abs(uv0.dragOffset.x) > 200 or math.abs(uv0.dragOffset.y) > 200 then
 						uv0.dragActive = false
 
-						uv0.spinePainting:DoDragTouch()
+						uv0.spinePainting:readyDragAction(uv1.name)
 					end
 				end
 			end)
@@ -148,7 +156,7 @@ slot0.InitSpecialTouch = function(slot0)
 
 				slot0 = uv0:GetSpecialTouchEvent(uv1.name)
 
-				if uv1.name == "special" then
+				if uv0:getDragTouchAble(uv1.name, uv2, true) then
 					if uv0.isDragAndZoomState then
 						return
 					end
@@ -157,8 +165,8 @@ slot0.InitSpecialTouch = function(slot0)
 						return
 					end
 
-					uv0.spinePainting:DoSpecialTouch()
-				else
+					uv0.spinePainting:readyDragAction(uv1.name)
+				elseif slot0 then
 					uv0:TriggerEvent(slot0)
 					uv0:TriggerPersonalTask(uv0.ship.groupId)
 				end
@@ -185,11 +193,7 @@ slot0.PrepareTriggerAction = function(slot0, slot1)
 	slot2, slot3 = nil
 
 	if pg.AssistantInfo.assistantEvents[slot1] then
-		slot2 = pg.AssistantInfo.assistantEvents[slot1].action
-
-		if SpinePaintingConst.ship_action_extend[slot0.spinePainting:getPaintingName()] and table.contains(slot4, slot2) then
-			slot3 = true
-		end
+		slot3 = slot0.spinePainting:getAnimationExist(pg.AssistantInfo.assistantEvents[slot1].action)
 	end
 
 	if slot3 then
@@ -201,6 +205,27 @@ slot0.PrepareTriggerAction = function(slot0, slot1)
 	else
 		slot0:TryToTriggerEvent(slot1)
 	end
+end
+
+slot0.onSpinePaintingEvent = function(slot0, slot1)
+	slot0:TryToTriggerEvent(slot1)
+	slot0:TriggerPersonalTask(slot0.ship.groupId)
+end
+
+slot0.getDragTouchAble = function(slot0, slot1, slot2, slot3)
+	if not SpinePaintingConst.ship_drag_datas[slot2] then
+		return false
+	end
+
+	if slot4.drag_data and slot4.click_trigger ~= slot3 then
+		return false
+	end
+
+	if slot4.hit_area then
+		return table.contains(slot4.hit_area, slot1)
+	end
+
+	return false
 end
 
 slot0.OnDisplayWorld = function(slot0, slot1)

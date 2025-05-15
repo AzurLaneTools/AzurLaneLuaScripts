@@ -16,7 +16,7 @@ slot0.register = function(slot0)
 	slot2:setActivity(slot1:getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND))
 
 	slot2 = slot0.viewComponent
-	slot4 = getProxy(IslandProxy)
+	slot4 = getProxy(SixthAnniversaryIslandProxy)
 
 	slot2:setNodeIds(slot4:GetNodeIds())
 
@@ -134,7 +134,7 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot0.viewComponent:refreshNode(slot1:getBody().node_id)
 		end,
 		[GAME.ZERO_HOUR_OP_DONE] = function (slot0, slot1)
-			slot2 = getProxy(IslandProxy)
+			slot2 = getProxy(SixthAnniversaryIslandProxy)
 
 			slot2:CheckAndRequest(function ()
 				uv0.viewComponent.nodeItemList:align(#uv0.viewComponent.ids)
@@ -165,7 +165,7 @@ slot0.initNotificationHandleDic = function(slot0)
 			}))
 		end,
 		[GAME.ISLAND_FLOWER_GET_DONE] = function (slot0, slot1)
-			for slot5, slot6 in pairs(getProxy(IslandProxy):GetNodeDic()) do
+			for slot5, slot6 in pairs(getProxy(SixthAnniversaryIslandProxy):GetNodeDic()) do
 				if slot6:getConfig("type") == 5 and slot6:getConfig("params")[1] == "flowerfield" then
 					slot0.viewComponent:refreshNode(slot5)
 				end

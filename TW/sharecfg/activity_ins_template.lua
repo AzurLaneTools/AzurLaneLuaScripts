@@ -12055,7 +12055,7 @@ pg.activity_ins_template = {
 		}
 	},
 	[449] = {
-		ship_group = 70508,
+		ship_group = 70502,
 		name = "Sovetsky Soyuz",
 		sculpture = "suweiaitongmengNew",
 		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_449.png",
@@ -12111,7 +12111,7 @@ pg.activity_ins_template = {
 		}
 	},
 	[451] = {
-		ship_group = 70509,
+		ship_group = 70508,
 		name = "Poltava",
 		sculpture = "boertawa",
 		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_451.png",
@@ -13063,6 +13063,19 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[504] = {
+		ship_group = 39905,
+		name = "Hakuryū",
+		sculpture = "bailong_4",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 504,
+		group_id = 504,
+		order = 56,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[505] = {
 		ship_group = 960007,
 		name = "Ganj-i-sawai",
@@ -13942,6 +13955,7 @@ pg.activity_ins_template = {
 		501,
 		502,
 		503,
+		504,
 		505,
 		506,
 		507,

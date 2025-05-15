@@ -184,8 +184,6 @@ slot11 = function(slot0, slot1, slot2)
 	end
 
 	if not slot0.isPlaying or slot2 then
-		print(" 开始播放动作id = " .. tostring(slot1))
-
 		if uv1.action2Id[slot1] then
 			slot0.playActionName = slot1
 
@@ -345,7 +343,7 @@ slot15 = function(slot0, slot1)
 	slot2 = false
 	slot4 = slot0._animator:GetCurrentAnimatorStateInfo(0)
 	slot5 = {
-		reactPos = ReflectionHelp.RefGetField(typeof(Live2dChar), "reactPos", slot0.liveCom),
+		reactPos = slot0.liveCom.reactPos,
 		normalTime = slot4.normalizedTime,
 		stateInfo = slot4
 	}
@@ -432,57 +430,37 @@ slot16 = function(slot0)
 		end
 	end
 
-	slot1 = slot0.liveCom
-
-	slot1:SetDragParts(slot0.dragParts)
+	slot0.liveCom:SetDragParts(slot0.dragParts)
 
 	slot0.eventTrigger = GetOrAddComponent(slot0.liveCom.transform.parent, typeof(EventTriggerListener))
-	slot1 = slot0.eventTrigger
 
-	slot1:AddPointDownFunc(function (slot0, slot1)
+	slot0.eventTrigger:AddPointDownFunc(function (slot0, slot1)
 		if uv0.useEventTriggerFlag then
 			uv0:onPointDown(slot1)
 		end
 	end)
-
-	slot1 = slot0.eventTrigger
-
-	slot1:AddPointUpFunc(function (slot0, slot1)
+	slot0.eventTrigger:AddPointUpFunc(function (slot0, slot1)
 		if uv0.useEventTriggerFlag then
 			uv0:onPointUp(slot1)
 		end
 	end)
-
-	slot1 = slot0.eventTrigger
-
-	slot1:AddDragFunc(function (slot0, slot1)
+	slot0.eventTrigger:AddDragFunc(function (slot0, slot1)
 		if uv0.useEventTriggerFlag then
 			uv0:onPointDrag(slot1)
 		end
 	end)
-
-	slot1 = slot0.liveCom
-
-	slot5 = function()
-		if not uv0.useEventTriggerFlag then
-			uv0:onPointUp()
-		end
-	end
-
-	slot1:SetMouseInputActions(System.Action(function ()
+	slot0.liveCom:SetMouseInputActions(System.Action(function ()
 		if not uv0.useEventTriggerFlag then
 			uv0:onPointDown()
 		end
-	end), System.Action(slot5))
+	end), System.Action(function ()
+		if not uv0.useEventTriggerFlag then
+			uv0:onPointUp()
+		end
+	end))
 
-	slot0.paraRanges = ReflectionHelp.RefGetField(typeof(Live2dChar), "paraRanges", slot0.liveCom)
-	slot0.destinations = {}
-
-	for slot5 = 0, ReflectionHelp.RefGetProperty(typeof(Live2dChar), "Destinations", slot0.liveCom).Length - 1 do
-		slot6 = slot1[slot5]
-
-		table.insert(slot0.destinations, slot1[slot5])
-	end
+	slot0.paraRanges = slot0.liveCom.paraRanges
+	slot0.destinations = ReflectionHelp.RefGetProperty(typeof(Live2dChar), "Destinations", slot0.liveCom):ToTable()
 end
 
 slot0.checkActionExist = function(slot0, slot1)
@@ -573,8 +551,8 @@ slot17 = function(slot0, slot1)
 	slot0.animationClipNames = {}
 
 	if slot0._animator and slot0._animator.runtimeAnimatorController then
-		for slot7 = 0, slot0._animator.runtimeAnimatorController.animationClips.Length - 1 do
-			table.insert(slot0.animationClipNames, slot2[slot7].name)
+		for slot6, slot7 in ipairs(slot0._animator.runtimeAnimatorController.animationClips:ToTable()) do
+			table.insert(slot0.animationClipNames, slot7.name)
 		end
 	end
 
@@ -857,10 +835,11 @@ slot0.setReactPos = function(slot0, slot1)
 		slot0.liveCom:IgonreReactPos(slot1)
 
 		if slot1 then
-			ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)
+			slot0.liveCom.inDrag = false
 		end
 
-		ReflectionHelp.RefSetField(typeof(Live2dChar), "reactPos", slot0.liveCom, Vector3(0, 0, 0))
+		slot0.liveCom.reactPos = Vector3(0, 0, 0)
+
 		slot0:updateDragsSateData()
 	end
 end
@@ -1029,7 +1008,7 @@ slot0.changeIdleIndex = function(slot0, slot1)
 		idle = slot0.idleIndex,
 		idle_change = slot2
 	})
-	print("now set idle index is " .. slot1)
+	print("live2d 待机动作设置为 = " .. slot1)
 
 	slot0.idleIndex = slot1
 
@@ -1060,8 +1039,7 @@ end
 slot0.CheckStopDrag = function(slot0)
 	if slot0.live2dData:GetShipSkinConfig().l2d_ignore_drag and slot1.l2d_ignore_drag == 1 then
 		slot0.liveCom.ResponseClick = false
-
-		ReflectionHelp.RefSetField(typeof(Live2dChar), "inDrag", slot0.liveCom, false)
+		slot0.liveCom.inDrag = false
 	end
 end
 
@@ -1106,17 +1084,20 @@ slot0.Dispose = function(slot0)
 
 		slot0.liveCom.FinishAction = nil
 		slot0.liveCom.EventAction = nil
+
+		slot0.liveCom:SetMouseInputActions(nil, )
 	end
 
 	slot0:saveLive2dData()
-	slot0.liveCom:SetMouseInputActions(nil, )
 
 	slot0._readlyToStop = false
 	slot0.state = uv0.STATE_DISPOSE
 
-	pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
+	if slot0.live2dRequestId then
+		pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
 
-	slot0.live2dRequestId = nil
+		slot0.live2dRequestId = nil
+	end
 
 	if slot0.drags then
 		for slot4 = 1, #slot0.drags do
@@ -1126,14 +1107,14 @@ slot0.Dispose = function(slot0)
 		slot0.drags = {}
 	end
 
-	if slot0.live2dData.gyro == 1 then
-		Input.gyro.enabled = false
-	end
-
 	if slot0.live2dData then
 		slot0.live2dData:Clear()
 
 		slot0.live2dData = nil
+
+		if slot0.live2dData and slot0.live2dData.gyro == 1 then
+			Input.gyro.enabled = false
+		end
 	end
 
 	slot0:live2dActionChange(false)
@@ -1150,7 +1131,7 @@ slot0.UpdateAtomSource = function(slot0)
 end
 
 slot0.AtomSouceFresh = function(slot0)
-	pg.CriMgr.GetInstance():getAtomSource(pg.CriMgr.C_VOICE):AttachToAnalyzer(ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Framework.MouthMovement.CubismCriSrcMouthInput"), "Analyzer", slot0._go:GetComponent("CubismCriSrcMouthInput")))
+	pg.CriMgr.GetInstance():getAtomSource(pg.CriMgr.C_VOICE):AttachToAnalyzer(slot0._go:GetComponent("CubismCriSrcMouthInput").Analyzer)
 
 	if slot0.updateAtom then
 		slot0.updateAtom = false

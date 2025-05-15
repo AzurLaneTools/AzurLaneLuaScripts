@@ -8,19 +8,19 @@ slot0.Ctor = function(slot0, slot1, slot2)
 end
 
 slot1 = function(slot0, slot1)
-	for slot6 = 0, slot0:GetComponentsInChildren(typeof(Animator), true).Length - 1 do
-		slot2[slot6].speed = slot1
+	for slot6, slot7 in ipairs(slot0:GetComponentsInChildren(typeof(Animator), true):ToTable()) do
+		slot7.speed = slot1
 	end
 end
 
 slot2 = function(slot0, slot1)
-	for slot6 = 0, slot0:GetComponentsInChildren(typeof(SpineAnimUI), true).Length - 1 do
-		if IsNil(slot2[slot6]) then
+	for slot6, slot7 in ipairs(slot0:GetComponentsInChildren(typeof(SpineAnimUI), true):ToTable()) do
+		if IsNil(slot7) then
 			-- Nothing
 		elseif slot1 then
-			slot2[slot6]:Pause()
+			slot7:Pause()
 		else
-			slot2[slot6]:Resume()
+			slot7:Resume()
 		end
 	end
 end

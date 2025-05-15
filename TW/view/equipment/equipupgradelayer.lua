@@ -316,6 +316,7 @@ slot0.updateMaterials = function(slot0)
 			return
 		end
 
+		uv3:updateMaterials()
 		uv3:emit(EquipUpgradeMediator.EQUIPMENT_UPGRDE)
 	end, SFX_UI_DOCKYARD_REINFORCE)
 	setButtonEnabled(slot0.startBtn, slot7)

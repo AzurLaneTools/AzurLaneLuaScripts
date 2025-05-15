@@ -27230,5 +27230,185 @@ cs.gametip = {
 		966856,
 		127,
 		true
+	},
+	grapihcs3d_setting_enable_gup_driver = {
+		966983,
+		111,
+		true
+	},
+	grapihcs3d_setting_resolution = {
+		967094,
+		108,
+		true
+	},
+	grapihcs3d_setting_resolution_optionname0 = {
+		967202,
+		109,
+		true
+	},
+	grapihcs3d_setting_resolution_optionname1 = {
+		967311,
+		110,
+		true
+	},
+	grapihcs3d_setting_resolution_optionname2 = {
+		967421,
+		107,
+		true
+	},
+	grapihcs3d_setting_rendering_quality = {
+		967528,
+		112,
+		true
+	},
+	grapihcs3d_setting_rendering_quality_optionname0 = {
+		967640,
+		115,
+		true
+	},
+	grapihcs3d_setting_rendering_quality_optionname1 = {
+		967755,
+		115,
+		true
+	},
+	grapihcs3d_setting_shader_quality = {
+		967870,
+		109,
+		true
+	},
+	grapihcs3d_setting_shader_quality_optionname0 = {
+		967979,
+		112,
+		true
+	},
+	grapihcs3d_setting_shader_quality_optionname1 = {
+		968091,
+		112,
+		true
+	},
+	grapihcs3d_setting_shadow_quality = {
+		968203,
+		109,
+		true
+	},
+	grapihcs3d_setting_shadow_quality_optionname0 = {
+		968312,
+		112,
+		true
+	},
+	grapihcs3d_setting_shadow_quality_optionname1 = {
+		968424,
+		112,
+		true
+	},
+	grapihcs3d_setting_shadow_quality_optionname2 = {
+		968536,
+		112,
+		true
+	},
+	grapihcs3d_setting_shadow_quality_optionname3 = {
+		968648,
+		112,
+		true
+	},
+	grapihcs3d_setting_shadow_update_mode = {
+		968760,
+		119,
+		true
+	},
+	grapihcs3d_setting_shadow_update_mode_optionname0 = {
+		968879,
+		128,
+		true
+	},
+	grapihcs3d_setting_shadow_update_mode_optionname1 = {
+		969007,
+		128,
+		true
+	},
+	grapihcs3d_setting_shadow_update_mode_optionname2 = {
+		969135,
+		128,
+		true
+	},
+	grapihcs3d_setting_shadow_update_mode_optionname3 = {
+		969263,
+		125,
+		true
+	},
+	grapihcs3d_setting_terrain_layer_quality = {
+		969388,
+		116,
+		true
+	},
+	grapihcs3d_setting_terrain_layer_quality_optionname0 = {
+		969504,
+		119,
+		true
+	},
+	grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+		969623,
+		119,
+		true
+	},
+	grapihcs3d_setting_terrain_layer_quality_optionname2 = {
+		969742,
+		119,
+		true
+	},
+	grapihcs3d_setting_enable_additional_lights = {
+		969861,
+		116,
+		true
+	},
+	grapihcs3d_setting_enable_reflection = {
+		969977,
+		106,
+		true
+	},
+	grapihcs3d_setting_character_quality = {
+		970083,
+		115,
+		true
+	},
+	grapihcs3d_setting_character_quality_optionname0 = {
+		970198,
+		115,
+		true
+	},
+	grapihcs3d_setting_character_quality_optionname1 = {
+		970313,
+		115,
+		true
+	},
+	grapihcs3d_setting_character_quality_optionname2 = {
+		970428,
+		115,
+		true
+	},
+	grapihcs3d_setting_enable_post_process = {
+		970543,
+		111,
+		true
+	},
+	grapihcs3d_setting_enable_post_antialiasing = {
+		970654,
+		116,
+		true
+	},
+	grapihcs3d_setting_enable_hdr = {
+		970770,
+		96,
+		true
+	},
+	grapihcs3d_setting_enable_distort = {
+		970866,
+		103,
+		true
+	},
+	grapihcs3d_setting_enable_dof = {
+		970969,
+		99,
+		true
 	}
 }

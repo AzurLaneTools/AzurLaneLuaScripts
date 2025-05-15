@@ -345,13 +345,7 @@ SpecialFilteForConst = function()
 end
 
 SpecialFilterForWorldStory = function(slot0)
-	slot1 = {}
-
-	for slot5 = slot0.Length, 1, -1 do
-		table.insert(slot1, slot0[slot5 - 1])
-	end
-
-	return pg.NewStoryMgr.GetInstance():GetStoryPaintingsByNameList(slot1)
+	return pg.NewStoryMgr.GetInstance():GetStoryPaintingsByNameList(slot0:ToTable())
 end
 
 SpecialFilteForActStory = function()

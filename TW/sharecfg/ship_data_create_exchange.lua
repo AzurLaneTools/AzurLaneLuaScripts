@@ -185,6 +185,14 @@ pg.ship_data_create_exchange = {
 			107061
 		}
 	},
+	[8094] = {
+		exchange_request = 40,
+		exchange_available_times = 1,
+		id = 8094,
+		exchange_ship_id = {
+			107061
+		}
+	},
 	[30863] = {
 		exchange_request = 40,
 		exchange_available_times = 1,
@@ -233,6 +241,7 @@ pg.ship_data_create_exchange = {
 		8044,
 		8056,
 		8083,
+		8094,
 		30863,
 		41249,
 		41328

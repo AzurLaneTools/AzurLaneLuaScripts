@@ -23,9 +23,9 @@ slot0.OnInit = function(slot0)
 	for slot5 = 1, 4 do
 		onToggle(slot0, slot1[slot5], function (slot0)
 			if slot0 then
-				if PlayerPrefs.GetInt("dorm3d_graphics_settings", 0) ~= uv0 then
+				if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 0) ~= uv0 then
 					pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataGraphics(uv0))
-					PlayerPrefs.SetInt("dorm3d_graphics_settings", uv0)
+					PlayerPrefs.SetInt("dorm3d_graphics_settings_new", uv0)
 				end
 
 				pg.m02:sendNotification(NewSettingsMediator.SelectGraphicSettingLevel)
@@ -40,7 +40,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnUpdate = function(slot0)
-	if PlayerPrefs.GetInt("dorm3d_graphics_settings", 2) == 1 then
+	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 2) == 1 then
 		triggerToggle(slot0.lowToggle, true)
 	elseif slot1 == 2 then
 		triggerToggle(slot0.mediumToggle, true)

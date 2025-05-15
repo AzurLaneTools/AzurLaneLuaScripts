@@ -46,7 +46,8 @@ pg.activity_link_button = {
 		group_id = 2,
 		order = 1,
 		time = {
-			"default"
+			"default",
+			5562
 		}
 	},
 	[20] = {

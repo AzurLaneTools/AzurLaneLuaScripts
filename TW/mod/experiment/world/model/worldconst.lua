@@ -237,13 +237,8 @@ slot0.PoisonEffect = "san_low"
 slot0.ArrayEffectOrder = function(slot0, slot1)
 	slot2 = {}
 
-	for slot7 = 0, slot0:GetComponentsInChildren(typeof(Renderer), true).Length - 1 do
-		table.insert(slot2, slot3[slot7])
-	end
-
-	for slot8 = 0, slot0:GetComponentsInChildren(typeof(Canvas), true).Length - 1 do
-		table.insert(slot2, slot4[slot8])
-	end
+	table.insertto(slot2, slot0:GetComponentsInChildren(typeof(Renderer), true):ToTable())
+	table.insertto(slot2, slot0:GetComponentsInChildren(typeof(Canvas), true):ToTable())
 
 	for slot8, slot9 in ipairs(slot2) do
 		slot9.sortingOrder = slot9.sortingOrder + slot1

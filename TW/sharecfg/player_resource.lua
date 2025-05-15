@@ -80,6 +80,21 @@ pg.player_resource = {
 		name = "oil_mail",
 		itemid = 59002
 	},
+	[18] = {
+		id = 18,
+		name = "islandGold",
+		itemid = 59018
+	},
+	[19] = {
+		id = 19,
+		name = "islandGem",
+		itemid = 59019
+	},
+	[20] = {
+		id = 20,
+		name = "speedUpTicket",
+		itemid = 59020
+	},
 	[101] = {
 		id = 101,
 		name = "battery",
@@ -1750,6 +1765,46 @@ pg.player_resource = {
 		name = "skinTicket91",
 		itemid = 65089
 	},
+	[490] = {
+		id = 490,
+		name = "helansp_pt",
+		itemid = 65092
+	},
+	[491] = {
+		id = 491,
+		name = "skinTicket92",
+		itemid = 65091
+	},
+	[492] = {
+		id = 492,
+		name = "xiaoankeleiqi_pt",
+		itemid = 65591
+	},
+	[493] = {
+		id = 493,
+		name = "limit_skinticket19",
+		itemid = 68051
+	},
+	[494] = {
+		id = 494,
+		name = "limit_skinticket20",
+		itemid = 68052
+	},
+	[495] = {
+		id = 495,
+		name = "limit_skinticket21",
+		itemid = 68053
+	},
+	[496] = {
+		id = 496,
+		name = "activity_xunzhang5",
+		itemid = 65593
+	},
+	[497] = {
+		id = 497,
+		name = "newserver_pt_250424",
+		itemid = 65094
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2328,6 +2383,15 @@ pg.player_resource = {
 		},
 		oil_mail = {
 			17
+		},
+		islandGold = {
+			18
+		},
+		islandGem = {
+			19
+		},
+		speedUpTicket = {
+			20
 		},
 		battery = {
 			101
@@ -3331,6 +3395,30 @@ pg.player_resource = {
 		skinTicket91 = {
 			489
 		},
+		helansp_pt = {
+			490
+		},
+		skinTicket92 = {
+			491
+		},
+		xiaoankeleiqi_pt = {
+			492
+		},
+		limit_skinticket19 = {
+			493
+		},
+		limit_skinticket20 = {
+			494
+		},
+		limit_skinticket21 = {
+			495
+		},
+		activity_xunzhang5 = {
+			496
+		},
+		newserver_pt_250424 = {
+			497
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3667,6 +3755,9 @@ pg.player_resource = {
 		15,
 		16,
 		17,
+		18,
+		19,
+		20,
 		101,
 		102,
 		103,
@@ -4001,6 +4092,14 @@ pg.player_resource = {
 		487,
 		488,
 		489,
+		490,
+		491,
+		492,
+		493,
+		494,
+		495,
+		496,
+		497,
 		950,
 		951,
 		952,

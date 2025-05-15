@@ -145,7 +145,7 @@ slot0.didEnter = function(slot0)
 
 		uv0.isPaying = true
 
-		uv0:PlayExitAnimation(function ()
+		uv0:PlayUIAnimation(uv0._tf, "exit", function ()
 			uv0:emit(uv1.ON_CLOSE)
 
 			uv0.isPaying = false

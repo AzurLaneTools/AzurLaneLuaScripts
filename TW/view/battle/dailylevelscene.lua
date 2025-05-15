@@ -502,7 +502,7 @@ slot0.DoSelectedAnimation = function(slot0, slot1, slot2, slot3)
 		function (slot0)
 			uv0.stageScrollRect.enabled = false
 
-			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel, true, {
+			pg.UIMgr.GetInstance():BlurPanel(uv0.selectedPanel, false, {
 				groupName = LayerWeightConst.GROUP_DAILY,
 				weight = LayerWeightConst.BASE_LAYER - 1
 			})

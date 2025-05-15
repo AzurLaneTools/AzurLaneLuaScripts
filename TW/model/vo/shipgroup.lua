@@ -257,6 +257,10 @@ slot0.updateMarriedFlag = function(slot0)
 	slot0.married = 1
 end
 
+slot0.IsMarried = function(slot0)
+	return slot0.married == 1
+end
+
 slot0.isBluePrintGroup = function(slot0)
 	return uv0.IsBluePrintGroup(slot0.id)
 end

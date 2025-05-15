@@ -87,6 +87,8 @@ slot0.stopLoadingAni = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0.seaCamera.enabled = false
+
 	slot0.UIMgr:UnblurPanel(slot0._tf, slot0.UIMain)
 
 	if slot0.previewer then

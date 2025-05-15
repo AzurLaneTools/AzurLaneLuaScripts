@@ -59,13 +59,10 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0.cancelBtn, function ()
 		setActive(uv0.boxTF, false)
 	end, SFX_CANCEL)
-
-	slot5 = SFX_PANEL
-
 	onButton(slot0, slot0.confirmBtn, function ()
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.SKINSHOP)
 		setActive(uv0.boxTF, false)
-	end, slot5)
+	end, SFX_PANEL)
 
 	slot0.sdNameList = {
 		"anshan_3",
@@ -84,12 +81,7 @@ slot0.OnInit = function(slot0)
 		}
 	}
 	slot0.aniContainerTF = slot0:findTF("AniContainer", slot0.bg)
-	slot0.tplList = {}
-
-	for slot5 = 0, GetComponent(slot0._tf, "ItemList").prefabItem.Length - 1 do
-		table.insert(slot0.tplList, slot1[slot5])
-	end
-
+	slot0.tplList = GetComponent(slot0._tf, "ItemList").prefabItem:ToTable()
 	slot0.sdName = slot0.sdNameList[math.random(#slot0.sdNameList)]
 	slot0.spine = nil
 	slot0.spineLRQ = GetSpineRequestPackage.New(slot0.sdName, function (slot0)
