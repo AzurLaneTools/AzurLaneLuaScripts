@@ -18,45 +18,39 @@ slot0.assetPath = {
 }
 slot0.settings = {
 	{
-		isShow = 1,
+		tips = "grapihcs3d_setting_gpgpu_warning",
+		settingType = 1,
 		Cname = "EnableGPUDriver",
 		playerPrefsname = "enableGPUDriver",
-		settingName = "允许Gpgpu",
-		settingtType = 1,
-		tips = i18n("grapihcs3d_setting_gpgpu_warning")
+		settingName = "grapihcs3d_setting_enable_gup_driver",
+		isShow = 1
 	},
 	{
-		isShow = 1,
+		settingType = 2,
 		Cname = "Resolution",
 		playerPrefsname = "resolution",
-		settingName = "最大分辨率",
-		settingtType = 2,
+		settingName = "grapihcs3d_setting_resolution",
+		isShow = 1,
 		optionNames = {
-			"960",
-			"1280",
-			"1600",
-			"1920",
-			"2240",
-			"2560"
+			"grapihcs3d_setting_resolution_optionname0",
+			"grapihcs3d_setting_resolution_optionname1",
+			"grapihcs3d_setting_resolution_optionname2"
 		},
 		options = {
-			960,
 			1280,
-			1600,
 			1920,
-			2240,
 			2560
 		}
 	},
 	{
-		isShow = 1,
+		settingType = 2,
 		Cname = "RenderingQuality",
 		playerPrefsname = "renderingQuality",
-		settingName = "渲染精度",
-		settingtType = 2,
+		settingName = "grapihcs3d_setting_rendering_quality",
+		isShow = 1,
 		optionNames = {
-			"低",
-			"高"
+			"grapihcs3d_setting_rendering_quality_optionname0",
+			"grapihcs3d_setting_rendering_quality_optionname1"
 		},
 		options = {
 			0,
@@ -64,14 +58,14 @@ slot0.settings = {
 		}
 	},
 	{
-		isShow = 1,
+		settingType = 2,
 		Cname = "ShaderQuality",
 		playerPrefsname = "shaderQuality",
-		settingName = "着色器精度",
-		settingtType = 2,
+		settingName = "grapihcs3d_setting_shader_quality",
+		isShow = 1,
 		optionNames = {
-			"低",
-			"高"
+			"grapihcs3d_setting_shader_quality_optionname0",
+			"grapihcs3d_setting_shader_quality_optionname1"
 		},
 		options = {
 			0,
@@ -79,16 +73,23 @@ slot0.settings = {
 		}
 	},
 	{
-		isShow = 1,
+		settingType = 1,
+		Cname = "EnableAdditionalLights",
+		playerPrefsname = "enableAdditionalLights",
+		settingName = "grapihcs3d_setting_enable_additional_lights",
+		isShow = 1
+	},
+	{
+		settingType = 2,
 		Cname = "ShadowQuality",
-		playerPrefsname = "renderingQuality",
-		settingName = "阴影精度",
-		settingtType = 2,
+		playerPrefsname = "shadowQuality",
+		settingName = "grapihcs3d_setting_shadow_quality",
+		isShow = 1,
 		optionNames = {
-			"关",
-			"低",
-			"中",
-			"高"
+			"grapihcs3d_setting_shadow_quality_optionname0",
+			"grapihcs3d_setting_shadow_quality_optionname1",
+			"grapihcs3d_setting_shadow_quality_optionname2",
+			"grapihcs3d_setting_shadow_quality_optionname3"
 		},
 		options = {
 			0,
@@ -98,15 +99,34 @@ slot0.settings = {
 		}
 	},
 	{
+		settingType = 2,
+		Cname = "ShadowUpdateMode",
+		playerPrefsname = "shadowUpdateMode",
+		settingName = "grapihcs3d_setting_shadow_update_mode",
 		isShow = 1,
+		optionNames = {
+			"grapihcs3d_setting_shadow_update_mode_optionname0",
+			"grapihcs3d_setting_shadow_update_mode_optionname1",
+			"grapihcs3d_setting_shadow_update_mode_optionname2",
+			"grapihcs3d_setting_shadow_update_mode_optionname3"
+		},
+		options = {
+			0,
+			1,
+			2,
+			3
+		}
+	},
+	{
+		settingType = 2,
 		Cname = "TerrainLayerQuality",
 		playerPrefsname = "terrainLayerQuality",
-		settingName = "地形精度",
-		settingtType = 2,
+		settingName = "grapihcs3d_setting_terrain_layer_quality",
+		isShow = 0,
 		optionNames = {
-			"低",
-			"中",
-			"高"
+			"grapihcs3d_setting_terrain_layer_quality_optionname0",
+			"grapihcs3d_setting_terrain_layer_quality_optionname1",
+			"grapihcs3d_setting_terrain_layer_quality_optionname2"
 		},
 		options = {
 			0,
@@ -115,29 +135,15 @@ slot0.settings = {
 		}
 	},
 	{
-		isShow = 1,
-		Cname = "EnableAdditionalLights",
-		playerPrefsname = "enableAdditionalLights",
-		settingName = "多光源",
-		settingtType = 1
-	},
-	{
-		isShow = 1,
-		Cname = "EnableReflection",
-		playerPrefsname = "enableReflection",
-		settingName = "反射",
-		settingtType = 1
-	},
-	{
-		isShow = 1,
+		settingType = 2,
 		Cname = "CharacterQuality",
 		playerPrefsname = "characterQuality",
-		settingName = "角色精度",
-		settingtType = 2,
+		settingName = "grapihcs3d_setting_character_quality",
+		isShow = 1,
 		optionNames = {
-			"低",
-			"中",
-			"高"
+			"grapihcs3d_setting_character_quality_optionname0",
+			"grapihcs3d_setting_character_quality_optionname1",
+			"grapihcs3d_setting_character_quality_optionname2"
 		},
 		options = {
 			0,
@@ -146,44 +152,50 @@ slot0.settings = {
 		}
 	},
 	{
-		isShow = 1,
-		cfgId = 16,
+		settingType = 1,
+		Cname = "EnableReflection",
+		playerPrefsname = "enableReflection",
+		settingName = "grapihcs3d_setting_enable_reflection",
+		isShow = 1
+	},
+	{
+		settingType = 1,
 		Cname = "EnablePostProcess",
 		playerPrefsname = "enablePostProcess",
-		settingName = "后处理",
-		settingtType = 1
+		settingName = "grapihcs3d_setting_enable_post_process",
+		isShow = 1
 	},
 	{
-		parentId = 16,
-		isShow = 1,
+		parentId = 11,
+		settingType = 1,
 		Cname = "EnablePostAntialiasing",
 		playerPrefsname = "enablePostAntialiasing",
-		settingName = "抗锯齿",
-		settingtType = 1
+		settingName = "grapihcs3d_setting_enable_post_antialiasing",
+		isShow = 1
 	},
 	{
-		parentId = 16,
-		isShow = 1,
+		parentId = 11,
+		settingType = 1,
 		Cname = "EnableHDR",
 		playerPrefsname = "enableHDR",
-		settingName = "HDR",
-		settingtType = 1
+		settingName = "grapihcs3d_setting_enable_hdr",
+		isShow = 1
 	},
 	{
-		parentId = 16,
-		isShow = 1,
+		parentId = 11,
+		settingType = 1,
 		Cname = "EnableDof",
-		playerPrefsname = "enableDistort",
-		settingName = "扭曲",
-		settingtType = 1
+		playerPrefsname = "enableDOF",
+		settingName = "grapihcs3d_setting_enable_dof",
+		isShow = 1
 	},
 	{
-		parentId = 16,
-		isShow = 1,
+		parentId = 11,
+		settingType = 1,
 		Cname = "EnableDistort",
-		playerPrefsname = "enableDOF",
-		settingName = "景深",
-		settingtType = 1
+		playerPrefsname = "enableDistort",
+		settingName = "grapihcs3d_setting_enable_distort",
+		isShow = 1
 	}
 }
 
@@ -231,7 +243,7 @@ slot0.SettingQuality = function()
 
 	for slot6, slot7 in ipairs(uv0.settings) do
 		if PlayerPrefs.GetInt(slot7.playerPrefsname, -1) ~= -1 then
-			if slot7.settingtType == uv0.SettingType.toggle then
+			if slot7.settingType == uv0.SettingType.toggle then
 				slot8 = slot8 == 1 and true or false
 			end
 

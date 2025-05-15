@@ -46,9 +46,9 @@ end
 slot0.UpdateItem = function(slot0, slot1, slot2)
 	slot3 = slot0.list[slot1]
 
-	setText(slot2:Find("mask/Text"), slot3.settingName)
+	setText(slot2:Find("mask/Text"), i18n(slot3.settingName))
 
-	slot5 = slot3.settingtType == uv0.toggle
+	slot5 = slot3.settingType == uv0.toggle
 
 	setActive(slot2:Find("toggle"), slot5)
 	setActive(slot2:Find("select"), not slot5)
@@ -78,7 +78,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 				table.insert(slot0, function (slot0)
 					pg.MsgboxMgr.GetInstance():ShowMsgBox({
 						type = MSGBOX_TYPE_NORMAL,
-						content = uv0.tips,
+						content = i18n(uv0.tips),
 						onYes = function ()
 							uv0()
 						end,
@@ -145,7 +145,7 @@ slot0.UpdateItem = function(slot0, slot1, slot2)
 	(function ()
 		setActive(uv2:Find("leftbu"), not (uv0 == 1))
 		setActive(uv2:Find("rightbu"), not (uv0 == #uv1.optionNames))
-		setText(uv2:Find("Text"), uv1.optionNames[uv0])
+		setText(uv2:Find("Text"), i18n(uv1.optionNames[uv0]))
 	end)()
 	onButton(slot0, slot7:Find("leftbu"), function ()
 		uv0 = uv0 - 1
@@ -236,7 +236,7 @@ slot0.GetParentSetting = function(slot0, slot1)
 	end
 
 	for slot5, slot6 in ipairs(uv0) do
-		if slot6.cfgId == slot1 then
+		if slot5 == slot1 then
 			slot6.hasChild = true
 
 			return slot6

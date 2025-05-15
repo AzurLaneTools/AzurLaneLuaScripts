@@ -15,6 +15,7 @@ slot0.register = function(slot0)
 
 	slot3:updateRes(slot2:getData())
 	slot0:bind(uv0.EQUIPMENT_UPGRDE, function (slot0)
+		pg.UIMgr.GetInstance():LoadingOn()
 		uv0:sendNotification(GAME.UPGRADE_EQUIPMENTS, {
 			shipId = uv0.contextData.shipId,
 			pos = uv0.contextData.pos,
