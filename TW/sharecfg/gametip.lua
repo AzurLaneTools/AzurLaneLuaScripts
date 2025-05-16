@@ -27410,5 +27410,10 @@ cs.gametip = {
 		970969,
 		99,
 		true
+	},
+	breakout_tip = {
+		971068,
+		110,
+		true
 	}
 }

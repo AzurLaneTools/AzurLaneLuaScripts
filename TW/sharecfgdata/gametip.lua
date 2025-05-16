@@ -36077,3 +36077,8 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
 _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 	tip = "景深"
 }
+
+
+_G.pg.base.gametip.breakout_tip = {
+	tip = "*突破之後將提升角色星級"
+}
