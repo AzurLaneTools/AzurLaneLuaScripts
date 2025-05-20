@@ -89,6 +89,14 @@ slot0.init = function(slot0)
 	slot0.detailView = slot1:Find("NodeDetail")
 	slot1 = slot0.detailView
 	slot0.gotoBtn = slot1:Find("goto_btn")
+	slot2 = slot0.detailView
+
+	setText(slot2:Find("camp/label/text"), i18n("storyline_camp"))
+
+	slot2 = slot0.gotoBtn
+
+	setText(slot2:Find("text"), i18n("storyline_goto"))
+
 	slot1 = slot0.tf
 	slot0.filterBtn = slot1:Find("Filter")
 
@@ -176,6 +184,7 @@ end
 
 slot0.ConfigData = function(slot0)
 	slot0.memoryNodeDict = {}
+	slot0.chapterHead = {}
 
 	for slot5, slot6 in ipairs(pg.memory_storyline.all) do
 		slot0.memoryNodeDict[slot8] = slot0.memoryNodeDict[MemoryStoryLineNode.New({
@@ -183,6 +192,10 @@ slot0.ConfigData = function(slot0)
 		}):GetColumn()] or {}
 
 		table.insert(slot0.memoryNodeDict[slot8], slot7)
+
+		if slot0.chapterHead[slot7:GetChapter()] == nil or slot7:GetColumn() < slot0.chapterHead[slot9]:GetColumn() then
+			slot0.chapterHead[slot9] = slot7
+		end
 	end
 end
 
@@ -233,6 +246,9 @@ slot0.updateChapterProgress = function(slot0)
 
 		setText(slot12, i18n("storyline_chapter" .. slot7))
 		setActive(slot12, true)
+		onButton(slot0, slot12:Find("chapterWarpBtn"), function ()
+			scrollTo(uv0.scroll, (uv0.nodeDataDict[uv0.chapterHead[uv1]:GetConfigID()].nodeTF.anchoredPosition.x - uv2.START_GAP) / uv0.contentWidth)
+		end)
 
 		slot0.progressDict[slot7] = slot11
 	end

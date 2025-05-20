@@ -75,6 +75,7 @@ slot0.init = function(slot0)
 	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
 	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
 	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
+	slot0.l2dBtnOn = false
 
 	GetComponent(slot0:findTF("L2D_btn", slot0.blurPanel), typeof(Image)):SetNativeSize()
 	GetComponent(slot0:findTF("L2D_btn/img", slot0.blurPanel), typeof(Image)):SetNativeSize()
@@ -163,6 +164,8 @@ slot0.didEnter = function(slot0)
 		if slot0 then
 			uv0:CreateLive2D()
 		end
+
+		uv0.l2dBtnOn = slot0
 
 		setActive(uv0.viewBtn, not slot0)
 		setActive(uv0.rotateBtn, not slot0)
@@ -615,7 +618,7 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 			slot0 = uv1.l2d_action
 		end
 
-		if uv2.l2dChar and not uv2.l2dChar:enablePlayAction(slot0) then
+		if uv2.l2dBtnOn and uv2.l2dChar and not uv2.l2dChar:enablePlayAction(slot0) then
 			return
 		end
 

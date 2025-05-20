@@ -371,7 +371,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_166",
-			say = "享用完美味的早餐后，心里不由得赞赏美龙武的厨艺。",
+			say = "享用完美味的早餐后，心里不由得赞赏龙武的厨艺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

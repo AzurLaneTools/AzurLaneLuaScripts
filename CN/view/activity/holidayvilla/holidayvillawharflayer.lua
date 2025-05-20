@@ -160,6 +160,8 @@ slot0.ShowCompletePage = function(slot0)
 
 	slot1 = GetOrAddComponent(slot0:findTF("desc/Text", slot0.transportCompletePage), typeof(Typewriter))
 
+	slot1:setSpeed(0.05)
+
 	slot1.endFunc = function()
 		setActive(uv0:findTF("desc/triangle", uv0.transportCompletePage), true)
 	end

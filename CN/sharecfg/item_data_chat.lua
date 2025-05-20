@@ -120,10 +120,10 @@ pg.item_data_chat = {
 		desc = "荒野、开拓与假日的回忆纪念。\n<color=#A7A7AAFF>通过参与「荒野假日开拓记」活动获取</color>",
 		scene = {}
 	},
-	[608] = {
+	[610] = {
 		name = "海滨的轻浪",
 		time_second = 0,
-		id = 608,
+		id = 610,
 		time_limit_type = 0,
 		desc = "漫步于海滨，倾听海浪的细语。\n<color=#A7A7AAFF>通过参与「夏日重建！海岛别墅度假计划！」活动获取</color>",
 		scene = {}
@@ -240,7 +240,7 @@ pg.item_data_chat = {
 		603,
 		606,
 		607,
-		608,
+		610,
 		10001,
 		10002,
 		10003,

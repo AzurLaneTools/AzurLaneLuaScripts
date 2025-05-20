@@ -50,7 +50,6 @@ slot0.UpdateView = function(slot0)
 			slot0.isGottask = slot0:ISGot(slot0.task, slot0.config_client[slot4][slot8])
 
 			if slot0.isGottask ~= 2 then
-				warning(slot4, "                   ", slot0.config_client[slot4][slot8])
 				table.insert(slot0.config_data, slot0.config_client[slot4][slot8])
 
 				break
@@ -193,7 +192,7 @@ slot0.updateAwards = function(slot0, slot1, slot2, slot3)
 				count = slot12[3]
 			})
 			onButton(slot0, slot10:Find("mask"), function ()
-				uv0:emit(BaseUI.ON_DROP, uv1)
+				uv0:emit(BaseUI.ON_ITEM, uv1)
 			end, SFX_PANEL)
 		end
 	end

@@ -41019,7 +41019,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	[4074] = {
 		param = "前面你说到徽章的造型很别致，所以上面的纹样是狮子吗？",
-		ship_group = 20516,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 4074,

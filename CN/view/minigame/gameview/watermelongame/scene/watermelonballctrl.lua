@@ -163,10 +163,13 @@ end
 slot0.createMegerBall = function(slot0, slot1, slot2)
 	slot3, slot4 = slot0._gameVo:getTplItemFromPool("ball", slot0._container)
 	slot3.position = Vector3(slot2.x, slot2.y, 0)
-	slot0._megerEffect.position = slot3.position
 
-	setActive(slot0._megerEffect, false)
-	setActive(slot0._megerEffect, true)
+	if slot0._megerEffect then
+		slot0._megerEffect.position = slot3.position
+
+		setActive(slot0._megerEffect, false)
+		setActive(slot0._megerEffect, true)
+	end
 
 	slot5 = slot0:initBallData(slot3, slot1)
 

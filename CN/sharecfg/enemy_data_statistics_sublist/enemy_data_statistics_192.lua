@@ -1,5 +1,40 @@
 pg = pg or {}
 pg.enemy_data_statistics_192 = {
+	[14403001] = {
+		cannon = 7,
+		air = 0,
+		torpedo = 33,
+		cannon_growth = 560,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		armor = 0,
+		dodge = 0,
+		torpedo_growth = 3250,
+		hit_growth = 144,
+		reload_growth = 0,
+		dodge_growth = 0,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 10,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 25,
+		base = 90488,
+		durability = 300,
+		armor_growth = 0,
+		durability_growth = 10000,
+		antiaircraft = 60,
+		speed = 15,
+		luck = 0,
+		antiaircraft_growth = 1000,
+		id = 14403001,
+		antisub = 0,
+		fog_fx = "",
+		equipment_list = {
+			1100103,
+			1100498
+		}
+	},
 	[14403002] = {
 		cannon = 16,
 		air = 0,
@@ -1228,39 +1263,5 @@ pg.enemy_data_statistics_192 = {
 		luck = 25,
 		fog_fx = "",
 		antisub = 0
-	},
-	[14405001] = {
-		cannon = 500,
-		air = 800,
-		torpedo = 0,
-		cannon_growth = 0,
-		id = 14405001,
-		reload = 150,
-		armor = 0,
-		dodge = 20,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		hit_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 9999,
-		antisub_growth = 0,
-		air_growth = 0,
-		battle_unit_type = 95,
-		base = 90485,
-		durability = 300000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 500,
-		speed = 20,
-		luck = 88,
-		fog_fx = "",
-		antisub = 0,
-		appear_fx = {
-			"doa_qifenhe_stg_boss",
-			"appearQ"
-		}
 	}
 }

@@ -1,5 +1,53 @@
 pg = pg or {}
 pg.enemy_data_statistics_243 = {
+	[15901302] = {
+		cannon = 120,
+		name = "航母「Queen」-重装型",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		id = 15901302,
+		air = 165,
+		armor = 0,
+		luck_growth = 0,
+		hit_growth = 210,
+		fog_fx = "",
+		dodge_growth = 156,
+		icon = "srcv0",
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90635,
+		durability = 22800,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		luck = 8,
+		antisub = 0,
+		scale = 300,
+		cannon_growth = 0,
+		reload = 150,
+		dodge = 11,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 0,
+		durability_growth = 0,
+		antiaircraft = 240,
+		battle_unit_type = 95,
+		specific_fx_scale = {
+			nuofukedanchuan_buff_01 = 1.8
+		},
+		appear_fx = {
+			"nuofukedanchuan_buff_01",
+			"appearQ"
+		},
+		equipment_list = {
+			893401,
+			893402,
+			893403,
+			893407,
+			893408,
+			893409
+		}
+	},
 	[15901303] = {
 		cannon = 186,
 		name = "噩梦映像-「禁卫骑士」",
@@ -1103,42 +1151,6 @@ pg.enemy_data_statistics_243 = {
 				ID = 50510,
 				LV = 3
 			}
-		}
-	},
-	[15902125] = {
-		cannon = 36,
-		air = 86,
-		torpedo = 0,
-		cannon_growth = 0,
-		id = 15902125,
-		reload = 150,
-		armor = 0,
-		dodge = 9,
-		torpedo_growth = 0,
-		hit_growth = 280,
-		reload_growth = 0,
-		dodge_growth = 96,
-		luck_growth = 0,
-		speed_growth = 0,
-		hit = 25,
-		antisub_growth = 0,
-		air_growth = 4127,
-		battle_unit_type = 70,
-		base = 90252,
-		durability = 5780,
-		armor_growth = 0,
-		durability_growth = 58880,
-		antiaircraft = 134,
-		speed = 16,
-		luck = 0,
-		antiaircraft_growth = 5280,
-		fog_fx = "",
-		antisub = 0,
-		equipment_list = {
-			1000802,
-			1000807,
-			1000817,
-			1000822
 		}
 	}
 }

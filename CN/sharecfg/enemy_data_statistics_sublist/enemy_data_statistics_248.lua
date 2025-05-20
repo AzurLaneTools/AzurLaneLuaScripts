@@ -1,5 +1,54 @@
 pg = pg or {}
 pg.enemy_data_statistics_248 = {
+	[16000303] = {
+		cannon = 120,
+		name = "海王星~Incarnation Of Neptune~",
+		antiaircraft_growth = 0,
+		speed_growth = 0,
+		luck = 0,
+		air = 0,
+		icon_type = 5,
+		id = 16000303,
+		type = 5,
+		hit_growth = 210,
+		antiaircraft = 135,
+		fog_fx = "",
+		dodge_growth = 156,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90667,
+		durability = 11000,
+		armor_growth = 0,
+		torpedo_growth = 0,
+		speed = 20,
+		armor = 0,
+		antisub = 0,
+		scale = 180,
+		cannon_growth = 0,
+		pilot_ai_template_id = 10001,
+		reload = 150,
+		dodge = 13,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 0,
+		luck_growth = 0,
+		battle_unit_type = 95,
+		armor_type = 3,
+		specific_fx_scale = {},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ"
+		},
+		equipment_list = {
+			3001601,
+			3001602,
+			3001603,
+			3001604,
+			3001605,
+			3001606
+		}
+	},
 	[16000311] = {
 		cannon = 68,
 		battle_unit_type = 95,
@@ -1274,52 +1323,6 @@ pg.enemy_data_statistics_248 = {
 		equipment_list = {
 			1000867,
 			1000907
-		}
-	},
-	[16002007] = {
-		cannon = 5,
-		luck_growth = 0,
-		antiaircraft_growth = 0,
-		speed_growth = 0,
-		id = 16002007,
-		air = 0,
-		torpedo = 24,
-		armor = 0,
-		hit_growth = 120,
-		fog_fx = "",
-		dodge_growth = 0,
-		antisub_growth = 0,
-		air_growth = 0,
-		base = 90663,
-		durability = 200,
-		armor_growth = 0,
-		torpedo_growth = 2200,
-		speed = 12,
-		luck = 0,
-		antisub = 0,
-		cannon_growth = 300,
-		pilot_ai_template_id = 10002,
-		reload = 150,
-		dodge = 0,
-		reload_growth = 0,
-		hit = 8,
-		nationality = 6,
-		durability_growth = 4000,
-		antiaircraft = 0,
-		battle_unit_type = 65,
-		world_enhancement = {
-			0,
-			0,
-			0,
-			0,
-			0,
-			0,
-			0
-		},
-		specific_fx_scale = {},
-		equipment_list = {
-			1100697,
-			1100712
 		}
 	}
 }

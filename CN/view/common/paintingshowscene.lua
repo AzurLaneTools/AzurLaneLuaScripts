@@ -33,6 +33,10 @@ slot1 = {
 		2
 	}
 }
+slot2 = {
+	ShipSkin.WITH_LIVE2D,
+	ShipSkin.WITH_SPINE
+}
 
 slot0.getUIName = function(slot0)
 	return "PaintingShowUI"
@@ -44,6 +48,7 @@ slot0.didEnter = function(slot0)
 	slot0.spineContainer = findTF(slot0.ad, "paint/spinePainting")
 	slot0.l2dContainner = findTF(slot0.ad, "paint/live2d")
 	slot0.paintingContainer = findTF(slot0.ad, "paint")
+	slot0.paintingFitter = findTF(slot0.ad, "paint/fitter")
 	slot0.effectContainer = findTF(slot0.ad, "paint/effect")
 	slot0.flushAnimator = GetComponent(findTF(slot0.ad, "flush"), typeof(Animator))
 	slot0.flushEevent = GetComponent(findTF(slot0.ad, "flush"), typeof(DftAniEvent))
@@ -168,11 +173,13 @@ end
 
 slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 	slot0.loading = true
-
-	if MainPaintingView.GetAssistantStatus(Ship.New({
+	slot4 = Ship.New({
 		configId = slot1,
 		skin_id = slot2
-	})) == MainPaintingView.STATE_SPINE_PAINTING then
+	})
+	slot6 = slot4:GetSkinConfig().tag
+
+	if MainPaintingView.GetAssistantStatus(slot4) == MainPaintingView.STATE_SPINE_PAINTING then
 		slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 			ship = slot4,
 			position = Vector3(0, 0, 0),
@@ -190,9 +197,13 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			uv1()
 		end)
 	elseif slot5 == MainPaintingView.STATE_PAINTING then
-		slot6 = slot4:getPainting()
+		if table.contains(slot6, ShipSkin.WITH_LIVE2D) or table.contains(slot6, ShipSkin.WITH_SPINE) then
+			slot0.paintingFitter.localScale = Vector3(1.1, 1.1, 1.1)
+		end
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot6, uv0.StaticGetPaintingName(slot6), "mainNormal", function ()
+		slot7 = slot4:getPainting()
+
+		LoadPaintingPrefabAsync(slot0.paintingContainer, slot7, uv0.StaticGetPaintingName(slot7), "mainNormal", function ()
 			uv0.loading = false
 
 			uv1()
@@ -212,9 +223,13 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			uv1()
 		end)
 	else
-		slot6 = slot4:getPainting()
+		if table.contains(slot6, ShipSkin.WITH_LIVE2D) or table.contains(slot6, ShipSkin.WITH_SPINE) then
+			slot0.paintingFitter.localScale = Vector3(1.1, 1.1, 1.1)
+		end
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot6, uv0.StaticGetPaintingName(slot6), "mainNormal", function ()
+		slot7 = slot4:getPainting()
+
+		LoadPaintingPrefabAsync(slot0.paintingContainer, slot7, uv0.StaticGetPaintingName(slot7), "mainNormal", function ()
 			uv0.loading = false
 		end)
 	end
