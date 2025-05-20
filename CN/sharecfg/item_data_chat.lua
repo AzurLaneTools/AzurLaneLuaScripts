@@ -64,6 +64,14 @@ pg.item_data_chat = {
 		desc = "献给所有七年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与七周年限定活动获取</color>",
 		scene = {}
 	},
+	[108] = {
+		name = "八周年纪念",
+		time_second = 0,
+		id = 108,
+		time_limit_type = 0,
+		desc = "献给所有八年间持续奋斗在港区的指挥官们\n<color=#A7A7AAFF>通过参与八周年限定活动获取</color>",
+		scene = {}
+	},
 	[300] = {
 		name = "召集者",
 		time_second = 2592000,
@@ -110,6 +118,14 @@ pg.item_data_chat = {
 		id = 607,
 		time_limit_type = 0,
 		desc = "荒野、开拓与假日的回忆纪念。\n<color=#A7A7AAFF>通过参与「荒野假日开拓记」活动获取</color>",
+		scene = {}
+	},
+	[608] = {
+		name = "海滨的轻浪",
+		time_second = 0,
+		id = 608,
+		time_limit_type = 0,
+		desc = "漫步于海滨，倾听海浪的细语。\n<color=#A7A7AAFF>通过参与「夏日重建！海岛别墅度假计划！」活动获取</color>",
 		scene = {}
 	},
 	[10001] = {
@@ -217,12 +233,14 @@ pg.item_data_chat = {
 		105,
 		106,
 		107,
+		108,
 		300,
 		301,
 		602,
 		603,
 		606,
 		607,
+		608,
 		10001,
 		10002,
 		10003,

@@ -32,11 +32,7 @@ slot0.didEnter = function(slot0)
 		if uv0.frameDic[uv0.selectFrameId] then
 			slot1 = pg.ShareMgr.GetInstance()
 
-			YSNormalTool.MediaTool.SaveImageWithBytes(uv0:TakePhoto(pg.ShareMgr.TypeDorm3dPhoto, slot0:Find("frame").sizeDelta), function (slot0, slot1)
-				if slot0 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
-				end
-			end)
+			uv0:TakePhoto(pg.ShareMgr.TypeDorm3dPhoto, slot0:Find("frame").sizeDelta)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("Mask"), function ()
@@ -183,6 +179,9 @@ slot0.LoadFrame = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.TakePhoto = function(slot0, slot1, slot2)
+	slot3 = {}
+	slot4 = {}
+	slot5 = {}
 	slot6 = pg.share_template[slot1]
 
 	assert(slot6, "share_template not exist: " .. slot1)
@@ -212,38 +211,51 @@ slot0.TakePhoto = function(slot0, slot1, slot2)
 		end
 	end)
 
-	slot7 = GameObject.Find(slot6.camera):GetComponent(typeof(Camera))
-	slot8 = slot7.transform:GetChild(0)
-	slot9 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32)
+	slot7 = GameObject.Find(slot6.camera)
+	slot7 = slot7:GetComponent(typeof(Camera))
+	slot8 = slot7.transform
+	slot8 = slot8:GetChild(0)
 
-	_.each({}, function (slot0)
-		slot0:SetActive(true)
-	end)
+	tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
+	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
+		typeof(Camera),
+		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
+	}, {
+		slot7,
+		UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+			_.each(uv0, function (slot0)
+				slot0:SetActive(true)
+			end)
 
-	slot3 = {}
+			uv0 = {}
 
-	_.each({}, function (slot0)
-		slot0:SetActive(false)
-	end)
+			_.each(uv1, function (slot0)
+				slot0:SetActive(false)
+			end)
 
-	slot4 = {}
+			uv1 = {}
 
-	_.each({}, function (slot0)
-		setAnchoredPosition(slot0[1], {
-			x = slot0[2],
-			y = slot0[3]
-		})
-	end)
+			_.each(uv2, function (slot0)
+				setAnchoredPosition(slot0[1], {
+					x = slot0[2],
+					y = slot0[3]
+				})
+			end)
 
-	slot5 = {}
-	slot11 = slot2.x / slot8.sizeDelta.x * Screen.width
-	slot12 = slot2.y / slot8.sizeDelta.y * Screen.height
-	slot13 = UnityEngine.Texture2D.New(slot11, slot12)
+			uv2 = {}
+			slot1 = uv3.x / uv4.sizeDelta.x * Screen.width
+			slot2 = uv3.y / uv4.sizeDelta.y * Screen.height
+			slot3 = UnityEngine.Texture2D.New(slot1, slot2)
 
-	slot13:SetPixels(slot0:TakeTexture(slot9, slot7):GetPixels((Screen.width - slot11) / 2, (Screen.height - slot12) / 2, slot11, slot12))
-	slot13:Apply()
-
-	return Tex2DExtension.EncodeToJPG(slot9:EncodeToJPG(slot13))
+			slot3:SetPixels(slot0:GetPixels((Screen.width - slot1) / 2, (Screen.height - slot2) / 2, slot1, slot2))
+			slot3:Apply()
+			YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot3), function (slot0, slot1)
+				if slot0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+				end
+			end)
+		end)
+	})
 end
 
 slot0.TakeTexture = function(slot0, slot1, slot2)

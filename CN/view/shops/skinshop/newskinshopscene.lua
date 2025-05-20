@@ -261,6 +261,7 @@ slot0.didEnter = function(slot0)
 		uv0:OnFilter(uv0.defaultIndex)
 	end, SFX_PANEL)
 	slot0:SetUp()
+	getProxy(CommanderManualProxy):TaskProgressAdd(2021, 1)
 end
 
 slot0.UpdateCouponBtn = function(slot0)

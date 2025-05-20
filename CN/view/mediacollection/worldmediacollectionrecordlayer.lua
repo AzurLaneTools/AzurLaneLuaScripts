@@ -26,7 +26,13 @@ slot0.Backward = function(slot0)
 
 	slot0.contextData.recordGroup = nil
 
-	slot0:OpenGroupLayer()
+	if slot0.contextData.storyNodeID then
+		slot0.contextData.storyNodeID = nil
+
+		slot0.viewParent:WarpToStoryNode(slot0.contextData.storyNodeID)
+	else
+		slot0:OpenGroupLayer()
+	end
 
 	return true
 end

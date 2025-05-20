@@ -278,6 +278,12 @@ slot0.getFinishTaskById = function(slot0, slot1)
 	end
 end
 
+slot0.removeFinishTaskById = function(slot0, slot1)
+	if slot0.finishData[slot1] then
+		slot0.finishData[slot1] = nil
+	end
+end
+
 slot0.getTaskVO = function(slot0, slot1)
 	return slot0:getTaskById(slot1) or slot0:getFinishTaskById(slot1)
 end
@@ -444,7 +450,11 @@ end
 slot0.checkAutoSubmitTask = function(slot0, slot1)
 	if slot1:getConfig("auto_commit") == 1 and slot1:isFinish() and not slot1:getAutoSubmit() then
 		slot1:setAutoSubmit(true)
-		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id)
+		slot0:sendNotification(GAME.SUBMIT_TASK, slot1.id, function (slot0)
+			if slot0 and uv0:IsCommanderManualType() then
+				getProxy(CommanderManualProxy):TaskAutoSubmitCall(uv0.id)
+			end
+		end)
 	end
 end
 

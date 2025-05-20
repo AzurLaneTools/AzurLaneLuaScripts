@@ -22,6 +22,8 @@ slot0.ON_DROP = "NewMainMediator:ON_DROP"
 slot0.ON_AWRADS = "NewMainMediator:ON_AWRADS"
 slot0.CHANGE_SKIN_TOGGLE = "NewMainMediator:CHANGE_SKIN_TOGGLE"
 slot0.GO_ISLAND = "NewMainMediator:GO_ISLAND"
+slot0.FOLD_PANEL = "NewMainMediator:FOLD_PANEL"
+slot0.HIDE_PANEL = "NewMainMediator:HIDE_PANEL"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.GO_ISLAND, function (slot0, slot1)
@@ -196,8 +198,12 @@ slot0.listNotificationInterests = function(slot0)
 		CompensateProxy.UPDATE_ATTACHMENT_COUNT,
 		CompensateProxy.All_Compensate_Remove,
 		GAME.ACT_INSTAGRAM_CHAT_DONE,
+		GAME.SERIES_GUIDE_END,
 		NewMainMediator.ON_DROP,
-		NewMainMediator.ON_AWRADS
+		NewMainMediator.ON_AWRADS,
+		NewMainMediator.FOLD_PANEL,
+		NewMainMediator.HIDE_PANEL,
+		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do
@@ -257,20 +263,31 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == NewMainMediator.ON_AWRADS then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.items, slot3.callback)
 	elseif slot2 == GAME.PLAY_CHANGE_SKIN_OUT then
-		slot0.viewComponent:FoldPanels(true)
+		slot0.viewComponent:HidePanel(true)
 		slot0.viewComponent:SetEffectPanelVisible(false)
 		slot0.viewComponent:PlayChangeSkinActionOut(slot3)
 	elseif slot2 == GAME.PLAY_CHANGE_SKIN_IN then
 		slot0.viewComponent:PlayChangeSkinActionIn(slot3)
 	elseif slot2 == GAME.PLAY_CHANGE_SKIN_FINISH then
 		slot0.viewComponent:SetEffectPanelVisible(true)
-		slot0.viewComponent:FoldPanels(false)
+		slot0.viewComponent:HidePanel(false)
 	elseif slot2 == GAME.CHANGE_SKIN_EXCHANGE then
 		slot4 = slot0.viewComponent:GetFlagShip()
 
 		if slot0.viewComponent then
 			slot0.viewComponent:UpdateFlagShip(slot4, slot3)
 		end
+	elseif slot2 == MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION then
+		slot0.viewComponent:CheckAndReplayBgm()
+	elseif slot2 == NewMainMediator.FOLD_PANEL then
+		slot0.viewComponent:FoldPanels(slot3)
+	elseif slot2 == NewMainMediator.HIDE_PANEL then
+		slot0.viewComponent:HidePanel(slot3)
+	elseif slot2 == GAME.SERIES_GUIDE_END then
+		slot4 = MainAwakeGuideSequence.New()
+
+		slot4:Execute(function ()
+		end)
 	end
 
 	slot0.viewComponent:emit(slot2, slot3)

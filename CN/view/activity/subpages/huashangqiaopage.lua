@@ -13,9 +13,9 @@ slot0.OnInit = function(slot0)
 	slot0.shop_time = slot0.bg:Find("shop/shop_times/time"):GetComponent("Text")
 	slot0.Manual = slot0.bg:Find("Manual"):GetComponent("Button")
 
-	SetActive(slot0.build_times, fasle)
-	SetActive(slot0.fight_times, fasle)
-	SetActive(slot0.shop_times, fasle)
+	SetActive(slot0.build_times, false)
+	SetActive(slot0.fight_times, false)
+	SetActive(slot0.shop_times, false)
 end
 
 slot0.OnDataSetting = function(slot0)

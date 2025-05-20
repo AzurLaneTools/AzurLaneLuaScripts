@@ -98,19 +98,38 @@ slot0.FileExists = function(slot0)
 	return PathMgr.FileExists(uv0(slot0))
 end
 
-slot0.TakePhoto = function(slot0)
-	slot1 = pg.UIMgr.GetInstance().UIMain.parent
-
-	return ScreenShooter.TakePhoto(slot0, slot1.sizeDelta.x, slot1.sizeDelta.y)
+slot0.TakePreview = function(slot0, slot1)
+	uv0.TakePhoto(slot0, slot1)
 end
 
-slot0.TakeIcon = function(slot0)
-	slot1 = pg.UIMgr.GetInstance().UIMain.parent
-	slot2 = slot1.sizeDelta.x
-	slot4 = 426
-	slot5 = 320
+slot0.TakeIcon = function(slot0, slot1)
+	slot2 = 426
+	slot3 = 320
 
-	return ScreenShooter.TakePhoto(slot0, slot2, slot2, UnityEngine.Rect.New(slot2 * 0.5 - slot4 * 0.5, slot1.sizeDelta.y * 0.5 - slot5 * 0.5, slot4, slot5))
+	uv0.TakePhoto(slot0, function (slot0)
+		if slot0.width < uv0 or slot0.height < uv1 then
+			uv2(slot0)
+
+			return
+		end
+
+		slot4 = UnityEngine.Texture2D.New(uv0, uv1)
+
+		slot4:SetPixels(slot0:GetPixels(slot0.width * 0.5 - uv0 * 0.5, slot0.height * 0.5 - uv1 * 0.5, uv0, uv1))
+		slot4:Apply()
+		uv2(slot4)
+	end)
+end
+
+slot0.TakePhoto = function(slot0, slot1)
+	tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
+	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
+		typeof(Camera),
+		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
+	}, {
+		slot0,
+		UnityEngine.Events.UnityAction_UnityEngine_Object(slot1)
+	})
 end
 
 slot0.SavePhoto = function(slot0, slot1, slot2, slot3)

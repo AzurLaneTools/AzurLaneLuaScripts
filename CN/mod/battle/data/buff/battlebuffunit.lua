@@ -87,6 +87,22 @@ slot4.SetOrbLevel = function(slot0, slot1)
 	slot0._level = slot1
 end
 
+slot4.SetGroupLevel = function(slot0, slot1)
+	slot0._groupLevel = slot1
+end
+
+slot4.GetGroupLevel = function(slot0)
+	return slot0._groupLevel or 1
+end
+
+slot4.SetInfection = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0._effectList) do
+		if slot6.SetInfection then
+			slot6:SetInfection(slot1)
+		end
+	end
+end
+
 slot4.SetCommander = function(slot0, slot1)
 	slot0._commander = slot1
 

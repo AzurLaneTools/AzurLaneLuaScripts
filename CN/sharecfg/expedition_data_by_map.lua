@@ -158,6 +158,12 @@ pg.expedition_data_by_map = setmetatable({
 		1910001,
 		1910002,
 		1910003,
+		1920001,
+		1920002,
+		1920011,
+		1920012,
+		1920025,
+		1920026,
 		2100000,
 		2100001,
 		2100010,
@@ -10398,6 +10404,589 @@ pg.base.expedition_data_by_map = {
 			186,
 			187,
 			188
+		}
+	},
+	[1920001] = {
+		map = 1920001,
+		name = "高塔上的蔷薇·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-brokenworld-sad",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1920001",
+		ani_controller = "",
+		default_background = "bg_gaotaqiangwei_cg1",
+		on_activity = 5941,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1920001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-egypt-mystic",
+		uifx = "",
+		bind_map = 1920011,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1920001,
+				1920021
+			},
+			{
+				1920002,
+				1920022
+			},
+			{
+				1920003,
+				1920023
+			}
+		},
+		story_id = {
+			191,
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226
+		}
+	},
+	[1920002] = {
+		map = 1920002,
+		name = "高塔上的蔷薇·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-royalnavy-serious",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1920002",
+		ani_controller = "",
+		default_background = "bg_gaotaqiangwei_cg1",
+		on_activity = 5941,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1920002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-egypt-mystic",
+		uifx = "",
+		bind_map = 1920012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1920004,
+				1920024
+			},
+			{
+				1920005,
+				1920025
+			},
+			{
+				1920006,
+				1920026
+			}
+		},
+		story_id = {
+			191,
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226
+		}
+	},
+	[1920011] = {
+		map = 1920011,
+		name = "高塔上的蔷薇·上篇|| ||CHAPTER EX||E.X.",
+		bgm = "theme-brokenworld-sad",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1920001",
+		ani_controller = "",
+		default_background = "bg_gaotaqiangwei_cg1",
+		on_activity = 5941,
+		map_name = "levelscene_mapselect_part1",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1920001",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-egypt-mystic",
+		uifx = "",
+		bind_map = 1920001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1920001,
+				1920021
+			},
+			{
+				1920002,
+				1920022
+			},
+			{
+				1920003,
+				1920023
+			}
+		},
+		story_id = {
+			191,
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226
+		}
+	},
+	[1920012] = {
+		map = 1920012,
+		name = "高塔上的蔷薇·下篇|| ||CHAPTER EX||E.X.",
+		bgm = "story-royalnavy-serious",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1920002",
+		ani_controller = "",
+		default_background = "bg_gaotaqiangwei_cg1",
+		on_activity = 5941,
+		map_name = "levelscene_mapselect_part2",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1920002",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-egypt-mystic",
+		uifx = "",
+		bind_map = 1920002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1920004,
+				1920024
+			},
+			{
+				1920005,
+				1920025
+			},
+			{
+				1920006,
+				1920026
+			}
+		},
+		story_id = {
+			191,
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226
+		}
+	},
+	[1920025] = {
+		map = 1920025,
+		name = "高塔上的蔷薇·SP|| ||CHAPTER EX||E.X.",
+		bgm = "theme-glorious-meta",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1920003",
+		ani_controller = "",
+		default_background = "bg_gaotaqiangwei_cg1",
+		on_activity = 5941,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1920003",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-egypt-mystic",
+		uifx = "",
+		bind_map = 1920012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1920041
+			}
+		},
+		story_id = {
+			191,
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226
+		}
+	},
+	[1920026] = {
+		map = 1920026,
+		name = "高塔上的蔷薇·EX|| ||CHAPTER EX||E.X.",
+		bgm = "theme-lion",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1920004",
+		ani_controller = "",
+		default_background = "bg_gaotaqiangwei_cg1",
+		on_activity = 5941,
+		map_name = "levelscene_mapselect_ex",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1920003",
+		destory_icon_suffix = "blue",
+		default_bgm = "Story-egypt-mystic",
+		uifx = "",
+		bind_map = 1920012,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1920051,
+				1920052
+			}
+		},
+		story_id = {
+			191,
+			192,
+			193,
+			194,
+			195,
+			196,
+			197,
+			198,
+			199,
+			200,
+			201,
+			202,
+			203,
+			204,
+			205,
+			206,
+			207,
+			208,
+			209,
+			210,
+			211,
+			212,
+			213,
+			214,
+			215,
+			216,
+			217,
+			218,
+			219,
+			220,
+			221,
+			222,
+			223,
+			224,
+			225,
+			226
 		}
 	},
 	[2100000] = {

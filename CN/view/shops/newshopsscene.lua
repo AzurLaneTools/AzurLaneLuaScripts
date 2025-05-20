@@ -310,6 +310,11 @@ slot0.InitShops = function(slot0, slot1)
 	slot0.shopUIList:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
+			slot4 = uv1.pages[slot3.type]:CanOpen(slot3, uv1.player)
+
+			setActive(slot2:Find("unsel/lock"), not slot4)
+
+			GetOrAddComponent(slot2:Find("unsel/label"), "CanvasGroup").alpha = slot4 and 1 or 0.4
 
 			uv1:UpdateShop(slot2, slot3)
 
@@ -327,7 +332,7 @@ slot4 = function(slot0, slot1)
 	slot2 = uv0.TYPE2NAME[slot1.type]
 
 	setText(slot0:Find("selected/Text"), slot2)
-	setText(slot0:Find("label"), slot2)
+	setText(slot0:Find("unsel/label"), slot2)
 end
 
 slot5 = function(slot0, slot1, slot2)
@@ -338,7 +343,7 @@ slot5 = function(slot0, slot1, slot2)
 
 		if uv2() then
 			if uv0.prevBtn then
-				setActive(uv0.prevBtn:Find("label"), true)
+				setActive(uv0.prevBtn:Find("unsel"), true)
 				setActive(uv0.prevBtn:Find("selected"), false)
 			end
 
@@ -348,7 +353,7 @@ slot5 = function(slot0, slot1, slot2)
 			uv0.prevBtn = uv1
 		end
 	end, SFX_PANEL)
-	setActive(slot1:Find("label"), true)
+	setActive(slot1:Find("unsel"), true)
 	setActive(slot1:Find("selected"), false)
 end
 
@@ -356,7 +361,7 @@ slot0.UpdateShop = function(slot0, slot1, slot2)
 	uv0(slot1, slot2)
 
 	slot3 = slot1:Find("selected")
-	slot4 = slot1:Find("label")
+	slot4 = slot1:Find("unsel")
 
 	uv1(slot0, slot1, function ()
 		slot2, slot3 = uv0.pages[uv1.type]:CanOpen(uv0.shops[uv1.type][uv1.index], uv0.player)

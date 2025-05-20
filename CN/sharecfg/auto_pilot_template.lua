@@ -11008,6 +11008,99 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70287] = {
+		id = 70287,
+		name = "蛋船向右移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 150,
+					z = 0
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70288] = {
+		id = 70288,
+		name = "原地小范围随机移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 1,
+				type = 5,
+				param = {
+					stopCount = 60,
+					Z2 = -15,
+					moveCount = 60,
+					Z1 = 15,
+					duration = -1,
+					X1 = -5,
+					X2 = 5
+				}
+			}
+		}
+	},
+	[70289] = {
+		id = 70289,
+		name = "蛋船向上移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = 150
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70290] = {
+		id = 70290,
+		name = "蛋船向下移动",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = -150
+				}
+			},
+			{
+				index = 2,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

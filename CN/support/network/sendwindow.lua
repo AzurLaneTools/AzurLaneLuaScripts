@@ -34,8 +34,8 @@ slot1.Queue = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7)
 			table.remove(uv0.toSends, 1)
 			uv1(slot0)
 
-			if slot0 and slot0.result and slot0.result == 0 then
-				uv2.SeriesGuideMgr.GetInstance():receiceProtocol(uv3, uv4, slot0)
+			if slot0 and slot0.result and slot0.result == 0 or uv2 == 20012 then
+				uv3.SeriesGuideMgr.GetInstance():receiceProtocol(uv2, uv4, slot0)
 			end
 		end,
 		slot5,

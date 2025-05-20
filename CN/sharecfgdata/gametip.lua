@@ -7297,7 +7297,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       装甲类型：共分三种，装甲型号越高，伤害减免越明\n       显，被小口径火炮击中越容易规避伤害\n      （伤害减免效率：重型装甲>中型装甲>轻型装甲）",
+			info = "       装甲类型：共有重型、中型、轻型三种装甲类型，武器对不同装甲类型的伤害效率不同，选择合适的舰船和武器进行攻略会更加轻松",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
@@ -7327,7 +7327,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "       装填：加快角色普通武器、技能的冷却时间",
+			info = "       装填：影响部分武器的装填耗时",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
@@ -9171,6 +9171,11 @@ _G.pg.base.gametip.ship_remould_warning_107984 = {
 
 _G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "此次改造操作后<color=#92fc63>【鱼雷底座-1】</color> <color=#92fc63>【防空炮底座+1】</color>\n是否确认继续操作？"
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_201524 = {
+	tip = "此次改造操作后<color=#92fc63>【主炮底座+1】</color>\n是否确认继续操作？"
 }
 
 
@@ -12410,7 +12415,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "七省、埃佛森 建造概率UP！"
+	tip = "每累计建造200次可获得海上传奇舰船 狮(最多4次)"
 }
 
 
@@ -14872,13 +14877,13 @@ _G.pg.base.gametip.returner_help = {
 
 被邀请者：
 回归指挥官：
-在2024年8月29日至9月12日维护期间没有过登录行为的
+在2025年5月6日至5月20日维护期间没有过登录行为的
 指挥官
 新人指挥官：
-在2024年9月12日至10月2日24时期间新注册的指挥官
+在2025年5月20日至6月12日24时期间新注册的指挥官
 满足被邀请资格的指挥官在活动期间登录可在特别活动页内输入邀请者的UID参与活动
 邀请者：
-2024年8月29日至9月12日维护前有过登录行为的指挥官
+2025年5月6日至5月20日维护前有过登录行为的指挥官
 邀请者可以使用自己的UID邀请满足被邀请资格的指挥官参与活动
 召集指挥官：
 单个邀请者最多可邀请两位指挥官，在其完成专属任务后可获得集结积分。召集信号发布后还可以解锁邀请者专属任务，完成任务后也可获得集结积分。集结积分达到指定数值后可以获得丰富奖励。
@@ -14958,7 +14963,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指挥官可以从中选择2名角色作为祈愿角色，其中仅能最多选择1名<color=#ff5e39>海上传奇舰船</color>角色"
 		},
 		{
-			info = "5.可选名单仅包含7月10日前常驻加入对应建造的角色"
+			info = "5.可选名单仅包含3月27日前常驻加入对应建造的角色"
 		},
 		{
 			info = "6.有建造解锁条件的角色无法被选为祈愿角色，\n不会在祈愿建造中出现。"
@@ -22804,8 +22809,7 @@ _G.pg.base.gametip.salvage_tips = {
 双叶梦：-80分
 伊吕波：-50分
 鱼雷：-50分
-3.游戏时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。
-4.持有「探险许可证」的情况下游玩「啾啾打捞团」会获取探险币奖励]]
+3.游戏时间归零或点击游戏内退出按钮均视为游戏完成。因为其他原因中途退出游戏则视为未完成。]]
 		}
 	}
 }
@@ -28148,7 +28152,7 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 
 
 _G.pg.base.gametip.hotspring_buff = {
-	tip = "露天温泉|入浴舰船心情回复速度加快"
+	tip = "假日大浴场|入浴舰船心情回复速度加快"
 }
 
 
@@ -37124,7 +37128,7 @@ _G.pg.base.gametip.help_starLightAlbum = {
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至5月14日24时；]]
+ ※ 奖励领取界面将延长至6月18日24时；]]
 		}
 	}
 }
@@ -38049,4 +38053,412 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
 
 _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 	tip = "景深"
+}
+
+
+_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
+	tip = "完成上一阶段所有任务后解锁"
+}
+
+
+_G.pg.base.gametip.handbook_new_player_guide_locked_by_level = {
+	tip = "指挥官等级达到$1后解锁"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_level = {
+	tip = "指挥官等级达到$1后解锁"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_other_task = {
+	tip = "完成任务$1后解锁"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_chapter = {
+	tip = "通关关卡$1后解锁"
+}
+
+
+_G.pg.base.gametip.handbook_name = {
+	tip = "指挥官手册"
+}
+
+
+_G.pg.base.gametip.handbook_process = {
+	tip = "未完成"
+}
+
+
+_G.pg.base.gametip.handbook_claim = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.handbook_finished = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.handbook_unfinished = {
+	tip = "完成$1个任务后可领取"
+}
+
+
+_G.pg.base.gametip.handbook_gametip = {
+	tip = {
+		{
+			info = "「指挥官手册」系统说明："
+		},
+		{
+			info = "「指挥官手册」内有新手任务、科研任务、功能指引三个模块。"
+		},
+		{
+			info = [[
+<b>1.新手任务：</b>
+·面向新晋指挥官的系列任务。
+·任务共有9个阶段，每个阶段有若干任务。
+·完成上一阶段的6个任务后可解锁下一阶段的任务，完成阶段内全部任务则可以领取阶段奖励。
+·完成第9阶段全部任务后，可以获取大奖「训练奖励邀请函」，使用训练奖励邀请函可以在<color=#92fc63>{namecode:182}</color>、<color=#92fc63>{namecode:199}</color>中自选一位获取。]]
+		},
+		{
+			info = [[
+<b>2.科研任务：</b>
+·面向Lv达到30的玩家，快速获取科研测试数据和定向蓝图的系列任务。
+·如果指挥官当前没有正在进行的科研任务，则可以自选一期任务开始。
+·请注意：选定一期任务并开始后，将不能切换至其他期任务，直到完成该期所有科研任务。]]
+		},
+		{
+			info = "<b>3.功能指引：</b>\n·面向新晋指挥官的功能说明汇总。\n·功能指引内按照各个系统切分为多个子模块，每个子模块内有相关功能的训练任务和说明，完成每个子模块后可获取心智魔方"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.handbook_research_confirm = {
+	tip = "开启任务"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
+	tip = "完成$1所有科研任务后可解锁本阶段考核任务"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_locked = {
+	tip = "未完成"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_claim = {
+	tip = "领取"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_finished = {
+	tip = "已领取"
+}
+
+
+_G.pg.base.gametip.handbook_ur_double_check = {
+	tip = "指挥官只能选择一人赠予邀请函，\n是否确认赠予<color=#92fc63>$1</color>？\n赠予后会获得对应角色和回礼"
+}
+
+
+_G.pg.base.gametip.NewMusic_1 = {
+	tip = "收藏($1)"
+}
+
+
+_G.pg.base.gametip.NewMusic_2 = {
+	tip = "搜索..."
+}
+
+
+_G.pg.base.gametip.NewMusic_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/music_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.NewMusic_3 = {
+	tip = "暂无符合条件的音乐"
+}
+
+
+_G.pg.base.gametip.NewMusic_4 = {
+	tip = "暂无符合条件的专辑"
+}
+
+
+_G.pg.base.gametip.NewMusic_5 = {
+	tip = "收藏的音乐"
+}
+
+
+_G.pg.base.gametip.NewMusic_6 = {
+	tip = "专辑列表"
+}
+
+
+_G.pg.base.gametip.NewMusic_7 = {
+	tip = "暂未收藏音乐"
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame1 = {
+	tip = "合成\"大\"舰船"
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame2 = {
+	tip = "啾啾打捞团"
+}
+
+
+_G.pg.base.gametip.holiday_tip_bath = {
+	tip = "假日大浴场"
+}
+
+
+_G.pg.base.gametip.holiday_tip_collection = {
+	tip = "别墅岛收集册"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task = {
+	tip = "重建任务"
+}
+
+
+_G.pg.base.gametip.holiday_tip_shop = {
+	tip = "重建补给站"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans = {
+	tip = "运输码头"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_now = {
+	tip = "当前目标"
+}
+
+
+_G.pg.base.gametip.holiday_tip_finish = {
+	tip = "海岛别墅的重建工作已<color=#5f984d>全部完工</color>，将多余重建物资<color=#5f984d>转换为重建币</color>吧。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_get = {
+	tip = "完成重建任务可以获得更多运力"
+}
+
+
+_G.pg.base.gametip.holiday_tip_rebuild_not = {
+	tip = "材料不足，前往运输码头获取"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_not = {
+	tip = "运力不足，前往重建任务获取"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_finish = {
+	tip = "完成海岛别墅全部重建剧情"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_tip = {
+	tip = "运输码头"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc1 = {
+	tip = "海岛别墅的主码头，可供大型邮轮和运输船停靠。入口处竖着一块印着猫猫爪印的巨大欢迎牌，附带方向指引。——终点果然是某绿头猫咪的贵价果汁摊。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc2 = {
+	tip = "海岛别墅的主码头，可供大型邮轮和运输船停靠。入口处竖着一块印着猫猫爪印的巨大欢迎牌，附带方向指引。——终点果然是某绿头猫咪的贵价果汁摊。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_gametip = {
+	tip = {
+		{
+			info = [[
+活动规则：
+<color=#92fc63>5.20-6.12维护</color>期间开启限时活动「夏日重建！海岛别墅度假计划！」
+◆夏日重建◆
+指挥官需要通过活动任务获得「码头运力」，消耗「码头运力」可以在「货物码头区」进行资源运输，并获得4种资源；
+消耗对应的资源可修复岛上的6个区域，并解锁对应区域的剧情。
+◆重建补给站◆
+参与活动可以获得「重建币」，消耗「重建币」可以在「重建补给站」中兑换限定装扮组、限定外观在内的丰富奖励。
+◆更多功能◆
+参与「合成"大"舰船」、「啾啾打捞团」小游戏可以获得丰富奖励；
+指挥官可以邀请角色前往「假日大浴场」，可以提高入浴角色的心情回复速度。
+「合成"大"舰船」、「啾啾打捞团」、「假日大浴场」会随着海岛修复进度解锁。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.holiday_tip_spring = {
+	tip = {
+		{
+			info = "活动规则：\n<color=#92fc63>5.20-6.12维护</color>期间限时开启「假日大浴场」\n指挥官可以邀请角色前往「假日大浴场」，可以提高入浴角色的心情回复速度"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_holiday_function_lock = {
+	tip = "随着重建进度推进解锁"
+}
+
+
+_G.pg.base.gametip.storyline_chapter0 = {
+	tip = "序章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter1 = {
+	tip = "第一章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter2 = {
+	tip = "第二章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter3 = {
+	tip = "第三章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter4 = {
+	tip = "第四章"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch1 = {
+	tip = "搜索剧情名"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch2 = {
+	tip = "搜索..."
+}
+
+
+_G.pg.base.gametip.use_amount_prefix = {
+	tip = "使用数量:"
+}
+
+
+_G.pg.base.gametip.sure_exit_resolve_equip = {
+	tip = "不进行任何操作，所有装备会放入<color=#5f984d>仓库</color>\n是否退出？"
+}
+
+
+_G.pg.base.gametip.resolve_equip_tip = {
+	tip = "请选择需要拆解的装备，未选的装备将放入仓库"
+}
+
+
+_G.pg.base.gametip.resolve_equip_title = {
+	tip = "将获得以下材料:"
+}
+
+
+_G.pg.base.gametip.tec_catchup_0 = {
+	tip = "一期"
+}
+
+
+_G.pg.base.gametip.tec_catchup_confirm = {
+	tip = "确认进行本期科研任务？\n确认后将开启本期科研任务，完成本期所有任务后才可切换至其他科研任务。"
+}
+
+
+_G.pg.base.gametip.watermelon_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/watermelon_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.breakout_tip = {
+	tip = "*突破之后将提升角色星级"
+}
+
+
+_G.pg.base.gametip.collection_book_lock_place = {
+	tip = "地点尚未解锁"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_1 = {
+	tip = "区域\n记录"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_2 = {
+	tip = "度假\n时光"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_3 = {
+	tip = "特殊\n邂逅"
+}
+
+
+_G.pg.base.gametip.challenge_minigame_unlock = {
+	tip = "小游戏未解锁"
 }

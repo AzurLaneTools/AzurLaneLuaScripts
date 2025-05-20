@@ -14,6 +14,7 @@ slot0.ACTIVITY_OPERATION_ERRO = "ActivityProxy ACTIVITY_OPERATION_ERRO"
 slot0.ACTIVITY_SHOW_LOTTERY_AWARD_RESULT = "ActivityProxy ACTIVITY_SHOW_LOTTERY_AWARD_RESULT"
 slot0.ACTIVITY_SHOW_RED_PACKET_AWARDS = "ActivityProxy ACTIVITY_SHOW_RED_PACKET_AWARDS"
 slot0.ACTIVITY_SHOW_SHAKE_BEADS_RESULT = "ActivityProxy ACTIVITY_SHOW_SHAKE_BEADS_RESULT"
+slot0.ACTIVITY_EXCHANGE_RESOURCES = "ActivityProxy ACTIVITY_EXCHANGE_RESOURCES"
 slot0.ACTIVITY_PT_ID = 110
 
 slot0.register = function(slot0)
@@ -724,7 +725,7 @@ slot0.removeVitemById = function(slot0, slot1, slot2)
 end
 
 slot0.addVitemById = function(slot0, slot1, slot2)
-	slot3 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG)
+	slot3 = slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_VIRTUAL_BAG) or slot0:getActivityByType(ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA)
 
 	assert(slot3, "vbagType invalid")
 

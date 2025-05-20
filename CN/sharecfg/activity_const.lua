@@ -31,7 +31,7 @@ pg.activity_const = {
 		act_id = 270
 	},
 	ACTIVITY_PRAY_POOL = {
-		act_id = 5579
+		act_id = 5957
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -1121,5 +1121,14 @@ pg.activity_const = {
 	},
 	HOLIDAY_ACT_ID = {
 		act_id = 5951
+	},
+	HOLIDAY_TASK_ID = {
+		act_id = 5952
+	},
+	HOLIDAY_TASK = {
+		act_id = 5968
+	},
+	HOLIDAY_ACT_PRE_ID = {
+		act_id = 5922
 	}
 }

@@ -33,7 +33,9 @@ slot0.execute = function(slot0, slot1)
 
 			uv5:sendNotification(GAME.ADD_ITEM, slot1)
 			uv5:sendNotification(GAME.USE_ITEM_DONE, {
-				slot1
+				drops = {
+					slot1
+				}
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("", slot0.result))

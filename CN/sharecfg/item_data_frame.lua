@@ -81,6 +81,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>献给所有七年间持续奋斗在港区的指挥官们</color>\n通过参与七周年限定活动获取",
 		scene = {}
 	},
+	[110] = {
+		name = "八周年纪念",
+		gain_by = "",
+		time_second = 0,
+		id = 110,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有八年间持续奋斗在港区的指挥官们</color>\n通过参与八周年限定活动获取",
+		scene = {}
+	},
 	[201] = {
 		name = "限界的挑战者",
 		gain_by = "",
@@ -497,11 +506,11 @@ pg.item_data_frame = {
 	},
 	[335] = {
 		name = "蔷薇之誓",
-		gain_by = "",
+		gain_by = "高塔上的蔷薇",
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
-		desc = "通过后续活动获得",
+		desc = "<color=#ffffff>「停驻在高塔上的蔷薇，守护着皇家最后的荣光」</color>\n「高塔上的蔷薇」活动获取",
 		scene = {}
 	},
 	[401] = {
@@ -664,6 +673,15 @@ pg.item_data_frame = {
 		id = 609,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>「指挥官，感谢您参与促销活动，请收好赠品喵~！」</color>通过参与「2024冬至茗的大促销」活动获取",
+		scene = {}
+	},
+	[610] = {
+		name = "别墅岛度假之证",
+		gain_by = "",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>在别墅岛上度过一个完美假期吧！</color>通过参与「夏日重建！海岛别墅度假计划！」活动获取",
 		scene = {}
 	},
 	[1001] = {
@@ -838,6 +856,7 @@ pg.item_data_frame = {
 		107,
 		108,
 		109,
+		110,
 		201,
 		202,
 		203,
@@ -903,6 +922,7 @@ pg.item_data_frame = {
 		606,
 		607,
 		609,
+		610,
 		1001,
 		1002,
 		1003,

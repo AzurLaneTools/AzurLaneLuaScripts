@@ -650,15 +650,18 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 				else
 					seriesAsync({
 						function (slot0)
-							slot1 = uv0
+							uv0:RemoveLive2DTimer()
 
-							slot1:RemoveLive2DTimer()
-
-							slot2 = uv0.l2dChar
-							uv0.l2dActioning = slot2:TriggerAction(uv1, slot0, nil, function (slot0)
-								uv0:PlayVoice(uv1, uv2)
-								uv0:ShowDailogue(uv1, uv2, uv3)
-							end)
+							if uv0.l2dChar:checkActionExist(uv1) then
+								slot2 = uv0.l2dChar
+								uv0.l2dActioning = slot2:TriggerAction(uv1, slot0, nil, function (slot0)
+									uv0:PlayVoice(uv1, uv2)
+									uv0:ShowDailogue(uv1, uv2, uv3)
+								end)
+							else
+								uv0:PlayVoice(uv2, uv3)
+								uv0:ShowDailogue(uv2, uv3, slot0)
+							end
 						end
 					}, function ()
 						uv0.l2dActioning = false
@@ -673,6 +676,16 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 
 	if slot1.voice.key == "unlock" and slot0.haveOp then
 		slot0:playOpening(slot3)
+	elseif slot1.voice.resource_key == "get" then
+		if PaintingShowScene.GetSkinShowAble(slot1.skin.id) then
+			slot0:emit(ShipProfileMediator.OPEN_PAINTING_SHOW, slot4, function ()
+				onNextTick(function ()
+					uv0()
+				end)
+			end)
+		else
+			slot3()
+		end
 	else
 		slot3()
 	end

@@ -330,6 +330,18 @@ pg.transform_data_template = setmetatable({
 		9209,
 		9210,
 		9211,
+		9401,
+		9402,
+		9403,
+		9404,
+		9405,
+		9406,
+		9407,
+		9408,
+		9409,
+		9410,
+		9411,
+		9412,
 		10101,
 		10102,
 		10103,
@@ -13558,6 +13570,462 @@ pg.base.transform_data_template = {
 		},
 		gear_score = {
 			50
+		}
+	},
+	[9401] = {
+		level_limit = 1,
+		name = "舰体改良I",
+		descrip = "耐久+45",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "hp_1",
+		skill_id = 0,
+		use_gold = 400,
+		id = 9401,
+		condition_id = {},
+		effect = {
+			{
+				durability = 45
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[9402] = {
+		level_limit = 5,
+		name = "机动强化I",
+		descrip = "机动+5",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 2,
+		icon = "dd_1",
+		skill_id = 0,
+		use_gold = 600,
+		id = 9402,
+		condition_id = {
+			9401
+		},
+		effect = {
+			{
+				dodge = 5
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			10
+		}
+	},
+	[9403] = {
+		level_limit = 20,
+		name = "主炮改良I",
+		descrip = "主炮武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "mgup_1",
+		skill_id = 0,
+		use_gold = 800,
+		id = 9403,
+		condition_id = {
+			9401
+		},
+		effect = {
+			{
+				equipment_proficiency_1 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					3
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[9404] = {
+		level_limit = 25,
+		name = "炮击强化I",
+		descrip = "炮击+10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 3,
+		icon = "cn_1",
+		skill_id = 0,
+		use_gold = 1000,
+		id = 9404,
+		condition_id = {
+			9403
+		},
+		effect = {
+			{
+				cannon = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18001,
+					5
+				}
+			}
+		},
+		gear_score = {
+			15
+		}
+	},
+	[9405] = {
+		level_limit = 35,
+		name = "鱼雷改良I",
+		descrip = "鱼雷武器效率+5%",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tpup_1",
+		skill_id = 0,
+		use_gold = 1200,
+		id = 9405,
+		condition_id = {
+			9403
+		},
+		effect = {
+			{
+				equipment_proficiency_2 = 0.05
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					3
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[9406] = {
+		level_limit = 40,
+		name = "雷击强化I",
+		descrip = "雷击+10",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "tp_1",
+		skill_id = 0,
+		use_gold = 1500,
+		id = 9406,
+		condition_id = {
+			9405
+		},
+		effect = {
+			{
+				torpedo = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			20
+		}
+	},
+	[9407] = {
+		level_limit = 50,
+		name = "动力强化",
+		descrip = "航速+3",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "sp_1",
+		skill_id = 0,
+		use_gold = 1800,
+		id = 9407,
+		condition_id = {
+			9405
+		},
+		effect = {
+			{
+				speed = 3
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					5
+				}
+			}
+		},
+		gear_score = {
+			25
+		}
+	},
+	[9408] = {
+		level_limit = 55,
+		name = "机动强化II",
+		descrip = "机动+5/机动+10",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 4,
+		icon = "dd_2",
+		skill_id = 0,
+		use_gold = 2000,
+		id = 9408,
+		condition_id = {
+			9402,
+			9407
+		},
+		effect = {
+			{
+				dodge = 5
+			},
+			{
+				dodge = 10
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18002,
+					1
+				}
+			},
+			{
+				{
+					18002,
+					2
+				}
+			}
+		},
+		gear_score = {
+			10,
+			15
+		}
+	},
+	[9409] = {
+		level_limit = 70,
+		name = "舰体改良II",
+		descrip = "耐久+45/耐久+75",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "hp_2",
+		skill_id = 0,
+		use_gold = 2500,
+		id = 9409,
+		condition_id = {
+			9407
+		},
+		effect = {
+			{
+				durability = 45
+			},
+			{
+				durability = 75
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				}
+			},
+			{
+				{
+					18003,
+					1
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[9410] = {
+		level_limit = 75,
+		name = "雷击强化II",
+		descrip = "雷击+5/雷击+15",
+		max_level = 2,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "tp_2",
+		skill_id = 0,
+		use_gold = 3000,
+		id = 9410,
+		condition_id = {
+			9409
+		},
+		effect = {
+			{
+				torpedo = 5
+			},
+			{
+				torpedo = 15
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					1
+				},
+				{
+					17023,
+					5
+				}
+			},
+			{
+				{
+					18003,
+					2
+				},
+				{
+					17023,
+					15
+				}
+			}
+		},
+		gear_score = {
+			10,
+			20
+		}
+	},
+	[9411] = {
+		level_limit = 85,
+		name = "近代化改造",
+		descrip = "近代化改造完成，雷击+25，机动+20\n改造后<color=#92fc63>【主炮底座+1】</color>",
+		max_level = 1,
+		skin_id = 201149,
+		use_ship = 1,
+		star_limit = 5,
+		icon = "mt_red",
+		skill_id = 0,
+		use_gold = 4000,
+		id = 9411,
+		condition_id = {
+			9409,
+			9410
+		},
+		effect = {
+			{
+				dodge = 20,
+				torpedo = 25
+			}
+		},
+		ship_id = {
+			{
+				201144,
+				201524
+			}
+		},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					3
+				}
+			}
+		},
+		gear_score = {
+			50
+		}
+	},
+	[9412] = {
+		level_limit = 90,
+		name = "战术启发",
+		descrip = "习得技能【萤火虫突袭】",
+		max_level = 1,
+		skin_id = 0,
+		use_ship = 0,
+		star_limit = 5,
+		icon = "skill_red",
+		skill_id = 151190,
+		use_gold = 3000,
+		id = 9412,
+		condition_id = {
+			9411
+		},
+		effect = {
+			{
+				skill_id = 151190
+			}
+		},
+		ship_id = {},
+		edit_trans = {},
+		use_item = {
+			{
+				{
+					18003,
+					2
+				},
+				{
+					17023,
+					20
+				}
+			}
+		},
+		gear_score = {
+			30
 		}
 	},
 	[10101] = {

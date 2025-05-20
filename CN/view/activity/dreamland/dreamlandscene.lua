@@ -446,7 +446,7 @@ slot0.SwitchTheme = function(slot0, slot1, slot2, slot3)
 			uv1:SwitchAnim(1, 0, slot0)
 		end
 	}, function ()
-		setActive(uv0.maskTr, fasle)
+		setActive(uv0.maskTr, false)
 
 		if uv1 then
 			uv0.cg.blocksRaycasts = true

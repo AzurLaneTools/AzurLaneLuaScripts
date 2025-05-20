@@ -519,6 +519,139 @@ end
 slot0.OnUpdateShip = function(slot0, slot1)
 end
 
+slot0.InitScalePart = function(slot0)
+	if slot0:GetPartScaleData() and #slot1 > 0 then
+		slot0.partScaleList = {}
+		slot0.partScaleSelectList = {}
+
+		if slot0:GetPaintingTransform() then
+			for slot6, slot7 in ipairs(slot1) do
+				if findTF(slot2, slot7) then
+					slot9 = GetOrAddComponent(slot8, typeof(PinchZoom))
+					slot9.enabled = false
+
+					PoolMgr.GetInstance():GetUI("mainuiscalepart", false, function (slot0)
+						SetParent(slot0, uv0)
+						setActive(slot0, false)
+						table.insert(uv1.partScaleSelectList, {
+							tf = tf(slot0),
+							name = uv2
+						})
+					end)
+					onButton(slot0._event, slot8, function ()
+						if uv0.partScaleFlag then
+							uv0.selectPartName = uv1
+
+							uv0:updateSelectPartScale()
+						end
+					end)
+					slot0:ResetPartScale(true)
+					table.insert(slot0.partScaleList, {
+						name = slot7,
+						tf = slot8,
+						com = slot9
+					})
+				end
+			end
+		end
+	end
+end
+
+slot0.updatePartCotent = function(slot0, slot1)
+	for slot5 = 1, #slot0.partScaleSelectList do
+		if slot1 then
+			slot0:emit(NewMainScene.SET_SCALE_PART_CONTENT, slot0.partScaleSelectList[slot5].tf)
+		else
+			setParent(slot0.partScaleSelectList[slot5].tf, slot0:GetPaintingTransform(), true)
+		end
+	end
+end
+
+slot0.updateSelectPartScale = function(slot0)
+	for slot4 = 1, #slot0.partScaleList do
+		slot5 = slot0.partScaleList[slot4]
+		slot5.com.enabled = slot0.partScaleFlag and slot5.name == slot0.selectPartName
+
+		setActive(slot0.partScaleSelectList[slot4].tf, slot0.partScaleFlag and slot0.partScaleSelectList[slot4].name == slot0.selectPartName)
+	end
+end
+
+slot0.ClearScalePart = function(slot0)
+	if slot0.partScaleList and #slot0.partScaleList > 0 then
+		for slot4 = 1, #slot0.partScaleList do
+			if slot0.partScaleList[slot4].tf then
+				removeOnButton(slot0.partScaleList[slot4].tf)
+			end
+		end
+
+		slot0.partScaleList = nil
+	end
+
+	if slot0.partScaleSelectList and #slot0.partScaleSelectList > 0 then
+		for slot4 = 1, #slot0.partScaleSelectList do
+			if slot0.partScaleSelectList[slot4].tf then
+				PoolMgr.GetInstance():ReturnUI("mainuiscalepart", go(slot0.partScaleSelectList[slot4].tf))
+			end
+		end
+
+		slot0.partScaleSelectList = nil
+	end
+end
+
+slot0.OnEnablePartScale = function(slot0, slot1)
+	if slot0.partScaleList then
+		slot0.partScaleFlag = slot1
+		slot0.selectPartName = nil
+
+		for slot5 = 1, #slot0.partScaleList do
+			GetOrAddComponent(slot0.partScaleList[slot5].tf, typeof(CanvasGroup)).blocksRaycasts = slot1
+		end
+
+		slot0:updateSelectPartScale()
+		slot0:updatePartCotent(slot1)
+
+		if not slot1 then
+			slot0:ResetPartScale(true)
+		end
+	end
+end
+
+slot0.ResetPartScale = function(slot0, slot1)
+	if slot0.partScaleList and #slot0.partScaleList > 0 then
+		for slot5 = 1, #slot0.partScaleList do
+			slot8 = slot1 and getProxy(SettingsProxy):getSkinScaleSetting(slot0.ship, slot0:GetPartStateType(), slot0.partScaleList[slot5].name) or 1
+			slot0.partScaleList[slot5].tf.localScale = Vector3(slot8, slot8, slot8)
+		end
+	end
+end
+
+slot0.SavePartScaleData = function(slot0)
+	if not slot0.partScaleList or #slot0.partScaleList == 0 then
+		return
+	end
+
+	if not slot0.ship then
+		return
+	end
+
+	for slot4 = 1, #slot0.partScaleList do
+		slot5 = slot0.partScaleList[slot4]
+
+		getProxy(SettingsProxy):setSkinScaleSetting(slot0.ship, slot0:GetPartStateType(), slot5.name, slot5.tf.localScale.x)
+	end
+end
+
+slot0.GetPaintingTransform = function(slot0)
+	return nil
+end
+
+slot0.GetPartScaleData = function(slot0)
+	return nil
+end
+
+slot0.GetPartStateType = function(slot0)
+end
+
 slot0.Dispose = function(slot0)
 	slot0:disposeEvent()
 
@@ -538,6 +671,7 @@ slot0.Dispose = function(slot0)
 	slot0:RemoveTimer()
 	slot0:RemoveMoveTimer()
 	slot0:RemoveChatTimer()
+	slot0:ClearScalePart()
 end
 
 slot0.OnLoad = function(slot0, slot1)

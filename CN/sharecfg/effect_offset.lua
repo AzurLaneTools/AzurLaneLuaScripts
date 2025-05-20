@@ -2254,5 +2254,27 @@ pg.effect_offset = {
 			5,
 			0
 		}
+	},
+	guangrongmeta1 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3,
+			0
+		}
+	},
+	guangrongmeta2 = {
+		mirror = false,
+		y_scale = false,
+		container_index = 4,
+		top_cover_offset = false,
+		offset = {
+			0,
+			3,
+			0
+		}
 	}
 }

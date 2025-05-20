@@ -21,7 +21,6 @@ end
 
 slot0.SetExtra = function(slot0, slot1)
 	slot0.extraGameObject = go(slot1)
-	slot0._parentTf = slot1.parent
 end
 
 slot0.Load = function(slot0)
@@ -45,7 +44,7 @@ slot0.Load = function(slot0)
 			end
 		end
 	}, function (slot0)
-		if uv0._state == uv1.STATES.DESTROY and uv0:getUIName() then
+		if uv0._state == uv1.STATES.DESTROY and not uv0.extraGameObject then
 			pg.UIMgr.GetInstance():LoadingOff()
 			uv2:ReturnUI(uv0:getUIName(), slot0)
 		else
@@ -68,7 +67,11 @@ slot0.Loaded = function(slot0, slot1)
 
 	setActiveViaLayer(slot0._tf, true)
 	pg.DelegateInfo.New(slot0)
-	SetParent(slot0._tf, slot0._parentTf, false)
+
+	if slot0._tf.parent ~= slot0._parentTf then
+		SetParent(slot0._tf, slot0._parentTf, false)
+	end
+
 	slot0:OnLoaded()
 end
 
@@ -102,13 +105,14 @@ slot0.Destroy = function(slot0)
 	slot0:cleanManagedTween()
 
 	slot0._tf = nil
-	slot1 = slot0:getUIName()
 
-	if slot0._go ~= nil and slot1 then
-		PoolMgr.GetInstance():ReturnUI(slot1, slot0._go)
+	if slot0._go ~= nil and not slot0.extraGameObject then
+		PoolMgr.GetInstance():ReturnUI(slot0:getUIName(), slot0._go)
 
 		slot0._go = nil
 	end
+
+	slot0.extraGameObject = nil
 end
 
 slot0.HandleFuncQueue = function(slot0)
@@ -116,7 +120,7 @@ slot0.HandleFuncQueue = function(slot0)
 		while #slot0._funcQueue > 0 do
 			slot1 = table.remove(slot0._funcQueue, 1)
 
-			slot1.func(unpack(slot1.params, 1, slot1.params.len))
+			slot1.func(unpackEx(slot1.params))
 		end
 	end
 end
@@ -131,11 +135,7 @@ slot0.ActionInvoke = function(slot0, slot1, ...)
 	slot0._funcQueue[#slot0._funcQueue + 1] = {
 		funcName = slot1,
 		func = slot0[slot1],
-		params = {
-			slot0,
-			len = 1 + select("#", ...),
-			...
-		}
+		params = packEx(slot0, ...)
 	}
 
 	slot0:HandleFuncQueue()

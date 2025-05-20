@@ -345,4 +345,68 @@ slot0.GetShipTypeByGroupID = function(slot0)
 	return pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot0][1]].type
 end
 
+slot0.isNormalActOn = function()
+	slot2 = false
+	slot3 = false
+
+	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS) and not slot0:isEnd() then
+		slot2 = getProxy(ChapterProxy):getChapterById(slot0:getConfig("config_data")[1]) and slot5:isClear()
+		slot7 = getProxy(TaskProxy)
+		slot3 = _.any(_.flatten(slot0:getConfig("config_data")[3]), function (slot0)
+			return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
+		end)
+	end
+
+	return slot1 and slot2, slot3
+end
+
+slot0.isTecActOn = function()
+	if not pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "ShipBluePrintMediator") then
+		return false
+	end
+
+	if not (getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP) and not slot3:isEnd()) then
+		return false
+	end
+
+	if not (getProxy(ChapterProxy):getChapterById(slot3:getConfig("config_data")[1]) and slot6:isClear()) then
+		return false
+	end
+
+	slot8 = getProxy(TaskProxy)
+
+	if slot3.data1 ~= 0 and slot3.data2 ~= 0 and slot8:getTaskById(slot3:getConfig("config_data")[3][slot3.data1][2]) and slot10:isReceive() and #slot3.data1_list + slot3.data2 + 1 == #slot3:getConfig("config_data")[3] + 1 then
+		return false
+	end
+
+	slot9 = false
+
+	if slot3.data1 == 0 then
+		slot9 = true
+	else
+		slot10 = slot3:getConfig("config_data")[3][slot3.data1]
+		slot9 = underscore.any({
+			function ()
+				return underscore.any(uv0[1], function (slot0)
+					return uv0:getTaskVO(slot0) and slot1:getTaskStatus() == 1
+				end)
+			end,
+			function ()
+				return uv0:getTaskVO(uv1[2]) and slot0:getTaskStatus() == 1
+			end,
+			function ()
+				if uv0:getTaskVO(uv1[2]) and slot0:isReceive() then
+					return #uv2.data1_list + uv2.data2 + 1 < #uv2:getConfig("config_data")[3] + 1
+				else
+					return false
+				end
+			end
+		}, function (slot0)
+			return slot0()
+		end)
+	end
+
+	return true, slot9
+end
+
 return slot0

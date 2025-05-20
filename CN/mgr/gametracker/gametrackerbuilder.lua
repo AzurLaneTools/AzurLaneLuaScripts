@@ -162,4 +162,14 @@ slot0.BuildNewMainUI = function(slot0)
 	}, {})
 end
 
+slot0.BuildGuide = function(slot0, slot1, slot2, slot3)
+	return uv0(29, {
+		slot0,
+		slot1,
+		slot2
+	}, {
+		slot3
+	})
+end
+
 return slot0

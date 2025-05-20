@@ -76,6 +76,22 @@ temp = function()
 				}
 			}
 		},
+		["拉"] = {
+			["法"] = {
+				["尔"] = {
+					["加"] = {
+						this = true
+					}
+				}
+			}
+		},
+		["立"] = {
+			["尼"] = {
+				["达"] = {
+					this = true
+				}
+			}
+		},
 		["鲁"] = {
 			["德"] = {
 				this = true
@@ -288,6 +304,15 @@ temp = function()
 									}
 								}
 							}
+						}
+					}
+				}
+			},
+			["奥"] = {
+				["佩"] = {
+					["特"] = {
+						["拉"] = {
+							this = true
 						}
 					}
 				}
@@ -3446,7 +3471,12 @@ temp = function()
 	uv0["萤"] = {
 		["火"] = {
 			["虫"] = {
-				this = true
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -3456,6 +3486,9 @@ temp()
 
 temp = function()
 	uv0["勇"] = {
+		["气"] = {
+			this = true
+		},
 		["敢"] = {
 			this = true
 		}
@@ -4257,6 +4290,16 @@ end
 temp()
 
 temp = function()
+	uv0["狮"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["竞"] = {
 		["技"] = {
 			["神"] = {
@@ -4352,7 +4395,18 @@ temp = function()
 			}
 		},
 		["荣"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

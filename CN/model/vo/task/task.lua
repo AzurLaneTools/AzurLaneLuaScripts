@@ -12,6 +12,7 @@ slot0.TYPE_NEW_WEEKLY = 13
 slot0.TYPE_REFLUX = 15
 slot0.TYPE_ACTIVITY_REPEAT = 16
 slot0.TYPE_ACTIVITY_WEEKLY = 46
+slot0.TYPE_COMMANDER_MANUAL = 17
 slot1 = {
 	"scenario",
 	"branch",
@@ -71,6 +72,10 @@ slot0.IsGuildAddLivnessType = function(slot0)
 	return slot0:getConfig("type") == uv0.TYPE_ROUTINE or slot1 == uv0.TYPE_WEEKLY or slot1 == uv0.TYPE_GUILD_WEEKLY or slot1 == uv0.TYPE_NEW_WEEKLY
 end
 
+slot0.IsCommanderManualType = function(slot0)
+	return slot0:getConfig("type") == uv0.TYPE_COMMANDER_MANUAL
+end
+
 slot0.isLock = function(slot0)
 	return getProxy(PlayerProxy):getRawData().level < slot0:getConfig("level")
 end
@@ -126,6 +131,10 @@ slot0.isCircle = function(slot0)
 		if slot0:getConfig("type") == 16 and slot0:getConfig("sub_type") == 1006 then
 			return true
 		elseif slot0:getConfig("type") == 16 and slot0:getConfig("sub_type") == 20 then
+			return true
+		elseif slot0:getConfig("type") == 16 and slot0:getConfig("sub_type") == 1007 then
+			return true
+		elseif slot0:getConfig("type") == 16 and slot0:getConfig("sub_type") == 122 then
 			return true
 		end
 	end
@@ -183,6 +192,10 @@ slot0.onAdded = function(slot0)
 				onYes = slot0,
 				weight = LayerWeightConst.TOP_LAYER
 			})
+		end
+
+		if uv0:IsCommanderManualType() then
+			getProxy(CommanderManualProxy):AddPageTaskDone(uv0)
 		end
 	end
 

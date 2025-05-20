@@ -22,6 +22,9 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.pushDisBtn = slot0._tf:Find("push_btn_dis")
 	slot0.codeTxt = slot0._tf:Find("code"):GetComponent(typeof(Text))
 	slot0.taskLockPanel = slot0._tf:Find("task_lock_panel")
+
+	setText(slot0.taskLockPanel:Find("Text"), i18n("word_sell_lock"))
+
 	slot0.taskPanel = slot0._tf:Find("task_panel")
 	slot0.taskItemTF = slot0._tf:Find("task_panel/item")
 	slot0.taskProgress = slot0._tf:Find("task_panel/progress")

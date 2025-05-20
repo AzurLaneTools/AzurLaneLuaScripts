@@ -30,6 +30,10 @@ slot0.OnLoaded = function(slot0)
 	slot0.chatTxt = slot0.chatTr:GetComponent(typeof(Text))
 	slot0.changeSkinBtn = MainChangeSkinBtn.New(slot0.changeBtn, slot0.event)
 	slot0.systemTimeUtil = LocalSystemTimeUtil.New()
+	slot0.musicPlayerView = MainMusicPlayerView.New(slot0._tf:Find("adapt"), slot0.event)
+
+	slot0.musicPlayerView:SetExtra(slot0._tf:Find("adapt/MusicPlayer"))
+
 	slot0.playedList = {}
 end
 
@@ -142,6 +146,7 @@ slot0.Show = function(slot0)
 	slot0:FlushBattery()
 	slot0:FlushTime()
 	slot0:FlushDate()
+	slot0:FlushMusicPlayer()
 	slot0:AddTimer()
 	slot0:SetChatTxt("")
 
@@ -385,6 +390,16 @@ slot0.FlushDate = function(slot0)
 	}, " / ")
 end
 
+slot0.FlushMusicPlayer = function(slot0)
+	if tobool(slot0.musicPlayerView:isShowing()) ~= (pg.BgmMgr.GetInstance():GetNow() == "MainMusicPlayer") then
+		if slot1 then
+			slot0.musicPlayerView:ExecuteAction("Show", true)
+		else
+			slot0.musicPlayerView:ExecuteAction("Hide")
+		end
+	end
+end
+
 slot0.OnDestroy = function(slot0)
 	slot0:RemoveChatTimer()
 
@@ -399,6 +414,10 @@ slot0.OnDestroy = function(slot0)
 	slot0.systemTimeUtil:Dispose()
 
 	slot0.systemTimeUtil = nil
+
+	slot0.musicPlayerView:Destroy()
+
+	slot0.musicPlayerView = nil
 end
 
 return slot0

@@ -228,7 +228,8 @@ slot0.DOT_CONFIG = {
 		enhance = "floodingEnhance",
 		hit = "flooding_accuracy"
 	},
-	[10] = {}
+	[10] = {},
+	[20516] = {}
 }
 slot0.DOT_CONFIG_DEFAULT = {
 	reduce = 0,
