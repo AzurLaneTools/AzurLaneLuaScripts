@@ -68,20 +68,10 @@ slot0.OnFirstFlush = function(slot0)
 			return
 		end
 
-		seriesAsync({
-			function (slot0)
-				if not pg.NewStoryMgr.GetInstance():IsPlayed(uv0.preStory) then
-					pg.NewStoryMgr.GetInstance():Play(uv0.preStory, slot0)
-				else
-					slot0()
-				end
-			end
-		}, function ()
-			uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
-				mediator = HolidayVillaMapScene,
-				viewComponent = HolidayVillaMapMediator
-			}))
-		end)
+		uv0:emit(ActivityMediator.OPEN_LAYER, Context.New({
+			mediator = HolidayVillaMapMediator,
+			viewComponent = HolidayVillaMapScene
+		}))
 	end, SFX_PANEL)
 end
 

@@ -1,6 +1,8 @@
 slot0 = {
-	"前の画面に戻るわ",
-	"メイン画面に戻るわ"
+	"報酬画面を閉じて",
+	"ここは一括廃棄画面よ。今は装備を廃棄しないから、まずは前の画面に戻って",
+	"タップで戻るわ",
+	"メイン画面に戻って"
 }
 
 return {
@@ -42,6 +44,48 @@ return {
 				posY = 223.26,
 				posX = -136.21,
 				text = slot0[2]
+			},
+			ui = {
+				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/ResolveEquipmentUI(Clone)/main/cancel_btn",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					posY = 0,
+					posX = 0
+				}
+			}
+		},
+		{
+			alpha = 0.367,
+			style = {
+				mode = 2,
+				dir = -1,
+				posY = 339,
+				posX = 179,
+				text = slot0[3]
+			},
+			ui = {
+				pathIndex = -1,
+				path = "OverlayCamera/Overlay/UIMain/Msgbox(Clone)/window/button_container/custom_button_1(Clone)",
+				triggerType = {
+					1
+				},
+				fingerPos = {
+					posY = 0,
+					posX = 0
+				}
+			}
+		},
+		{
+			alpha = 0.367,
+			style = {
+				mode = 2,
+				dir = -1,
+				posY = 223.26,
+				posX = -136.21,
+				text = slot0[4]
 			},
 			ui = {
 				pathIndex = -1,

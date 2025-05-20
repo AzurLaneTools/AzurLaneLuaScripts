@@ -19,6 +19,8 @@ slot0.register = function(slot0)
 			slot6:display("loaded")
 
 			uv0.data[slot6.id] = slot6
+
+			uv0:CommanderManualTaskProgressAdd(slot6)
 		end
 
 		for slot4 = 1, FormationUI.MAX_FLEET_NUM do
@@ -119,6 +121,7 @@ slot0.updateFleet = function(slot0, slot1)
 		slot0.data[slot1.id]:display("updated")
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inFleet")
 		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inPvP")
+		slot0:CommanderManualTaskProgressAdd(slot1)
 	elseif slot0.extraFleets[slot1.id] ~= nil then
 		slot0.extraFleets[slot1.id] = slot1
 
@@ -547,6 +550,62 @@ slot0.GetBossRushFleets = function(slot0, slot1, slot2)
 	end)
 
 	return {}
+end
+
+slot0.CommanderManualTaskProgressAdd = function(slot0, slot1)
+	slot2 = getProxy(CommanderManualProxy)
+
+	if slot1:isLegalToFight() == true and TeamType.VanguardMax <= #slot1.vanguardShips then
+		slot2:TaskProgressAdd(2013, 1)
+
+		slot4 = {
+			ShipType.QuZhu,
+			ShipType.QingXun,
+			ShipType.ZhongXun
+		}
+
+		for slot8, slot9 in ipairs(slot1.vanguardShips) do
+			if table.contains(slot4, getProxy(BayProxy):getShipById(slot9):getConfig("type")) then
+				table.removebyvalue(slot4, slot11)
+			end
+		end
+
+		if #slot4 == 0 then
+			slot2:TaskProgressAdd(2014, 1)
+		end
+	end
+
+	if slot3 == true and TeamType.MainMax <= #slot1.mainShips then
+		slot2:TaskProgressAdd(2015, 1)
+
+		slot4 = {
+			ShipType.ZhengHang,
+			ShipType.ZhanLie,
+			ShipType.ZhanLie
+		}
+
+		for slot8, slot9 in ipairs(slot1.mainShips) do
+			if table.contains(slot4, getProxy(BayProxy):getShipById(slot9):getConfig("type")) then
+				table.removebyvalue(slot4, slot11)
+			end
+		end
+
+		if #slot4 == 0 then
+			slot2:TaskProgressAdd(2016, 1)
+		end
+	end
+
+	if slot3 == true and slot1:GetGearScoreSum() > 1000 then
+		slot2:TaskProgressAdd(2017, 1)
+	end
+
+	if slot3 == true and slot1:getFleetType() == FleetType.Submarine then
+		slot2:TaskProgressAdd(2018, 1)
+	end
+
+	if slot3 == true and not slot1:isFirstFleet() and not slot1:isSubmarineFleet() then
+		slot2:TaskProgressAdd(2019, 1)
+	end
 end
 
 return slot0

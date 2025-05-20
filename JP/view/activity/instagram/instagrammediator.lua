@@ -73,7 +73,8 @@ slot0.listNotificationInterests = function(slot0)
 	return {
 		GAME.ACT_INSTAGRAM_OP_DONE,
 		uv0.CLOSE_DETAIL,
-		uv0.BACK_PRESSED
+		uv0.BACK_PRESSED,
+		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION
 	}
 end
 
@@ -109,6 +110,10 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:CloseDetail()
 	elseif slot2 == uv0.BACK_PRESSED then
 		slot0.viewComponent:onBackPressed()
+	elseif slot2 == MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION then
+		onNextTick(function ()
+			uv0.viewComponent:FlushMusicPlayer()
+		end)
 	end
 end
 

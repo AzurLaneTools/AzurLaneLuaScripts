@@ -16,7 +16,7 @@ return {
 			},
 			arg_list = {
 				fleetPos = "Leader",
-				buff_id = 201254,
+				buff_id = 201265,
 				target = "TargetFleetIndex"
 			}
 		},

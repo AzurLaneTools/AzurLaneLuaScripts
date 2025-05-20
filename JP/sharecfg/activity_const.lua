@@ -1,22 +1,10 @@
 pg = pg or {}
 pg.activity_const = {
-	MILITARY_EXERCISE_ACTIVITY_ID = {
-		act_id = 7
-	},
 	TASK_ACTIVITY_ID = {
 		act_id = 16
 	},
-	CHANGMEN_TASK_LIST = {
-		act_id = 118
-	},
-	CHANGMEN_7DAYS_LOGIN = {
-		act_id = 122
-	},
-	ACTIVITY_PRAY_POOL = {
-		act_id = 5579
-	},
-	ACT_NPC_SHIP_ID = {
-		act_id = 5910
+	MILITARY_EXERCISE_ACTIVITY_ID = {
+		act_id = 7
 	},
 	ANNIVERSARY_TASK_LIST_ID = {
 		act_id = 10122
@@ -24,14 +12,26 @@ pg.activity_const = {
 	CHANGMENLUAO_BATTLE_ACTIVITY_ID = {
 		act_id = 10083
 	},
+	CHANGMEN_7DAYS_LOGIN = {
+		act_id = 122
+	},
+	CHANGMEN_TASK_LIST = {
+		act_id = 118
+	},
 	ACT_BOSS_TASK_LIST = {
 		act_id = 10137
+	},
+	ACT_NPC_SHIP_ID = {
+		act_id = 5910
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 10232
 	},
 	SNALI_MAIN = {
 		act_id = 10228
+	},
+	ACTIVITY_PRAY_POOL = {
+		act_id = 5957
 	},
 	DAY7_LOGIN_ACTIVITY_ID = {
 		act_id = 3
@@ -53,21 +53,6 @@ pg.activity_const = {
 	},
 	MIRROR_ACTIVITY_ID = {
 		act_id = 0
-	},
-	SIPEI_PAGE_ID = {
-		act_id = 0
-	},
-	GLORY_PAGE_ID = {
-		act_id = 0
-	},
-	HONGRAN_RE_PREVIEW_ID = {
-		act_id = 0
-	},
-	HONGRAN_RE_PT_ID = {
-		act_id = 0
-	},
-	PINTU_TASK_ID = {
-		act_id = 10000
 	},
 	XIAOTIANE_ACTIVITY_ID = {
 		act_id = 10052
@@ -260,6 +245,21 @@ pg.activity_const = {
 	},
 	SANDIEGO_PT_ID = {
 		act_id = 10266
+	},
+	SIPEI_PAGE_ID = {
+		act_id = 0
+	},
+	GLORY_PAGE_ID = {
+		act_id = 0
+	},
+	HONGRAN_RE_PREVIEW_ID = {
+		act_id = 0
+	},
+	HONGRAN_RE_PT_ID = {
+		act_id = 0
+	},
+	PINTU_TASK_ID = {
+		act_id = 10000
 	},
 	ACTIVITY_ID_CHALLENGE_RANK = {
 		act_id = 302
@@ -1109,5 +1109,14 @@ pg.activity_const = {
 	},
 	HOLIDAY_ACT_ID = {
 		act_id = 5951
+	},
+	HOLIDAY_TASK_ID = {
+		act_id = 5952
+	},
+	HOLIDAY_TASK = {
+		act_id = 5968
+	},
+	HOLIDAY_ACT_PRE_ID = {
+		act_id = 5922
 	}
 }

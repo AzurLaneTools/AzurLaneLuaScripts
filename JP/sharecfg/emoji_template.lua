@@ -1638,6 +1638,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[247] = {
+		achieve = 1,
+		index = 83,
+		pic = "247",
+		desc = "<color=#92fc63>[おおきい]</color>",
+		item_name = "スタンプ：おおきい",
+		item_desc = "スタンプ：見ないで　チャットのデフォルトスタンプセットで使用可能",
+		id = 247,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[248] = {
+		achieve = 1,
+		index = 84,
+		pic = "248",
+		desc = "<color=#92fc63>[見ないで]</color>",
+		item_name = "スタンプ：見ないで",
+		item_desc = "スタンプ：おおきい　チャットのデフォルトスタンプセットで使用可能",
+		id = 248,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[301] = {
 		achieve = 0,
 		index = 970,
@@ -2275,6 +2301,45 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[1042] = {
+		achieve = 1,
+		index = 88,
+		pic = "1042",
+		desc = "<color=#92fc63>[始めっ！]</color>",
+		item_name = "スタンプ：始めっ！",
+		item_desc = "スタンプ：始めっ！チャットのデフォルトスタンプセットで使用可能",
+		id = 1042,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1043] = {
+		achieve = 1,
+		index = 89,
+		pic = "1043",
+		desc = "<color=#92fc63>[絶対にお届け！]</color>",
+		item_name = "スタンプ：絶対にお届け！",
+		item_desc = "スタンプ：絶対にお届け！チャットのデフォルトスタンプセットで使用可能",
+		id = 1043,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1044] = {
+		achieve = 1,
+		index = 90,
+		pic = "1044",
+		desc = "<color=#92fc63>[ログアウト……]</color>",
+		item_name = "スタンプ：ログアウト……",
+		item_desc = "スタンプ：ログアウト…… チャットのデフォルトスタンプセットで使用可能",
+		id = 1044,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2402,6 +2467,8 @@ pg.emoji_template = {
 		244,
 		245,
 		246,
+		247,
+		248,
 		301,
 		302,
 		303,
@@ -2450,6 +2517,9 @@ pg.emoji_template = {
 		373,
 		374,
 		375,
-		1041
+		1041,
+		1042,
+		1043,
+		1044
 	}
 }

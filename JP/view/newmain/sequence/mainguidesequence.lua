@@ -16,6 +16,10 @@ slot1 = {
 	{
 		id = "NG004",
 		condition = function ()
+			if pg.SeriesGuideMgr.GetInstance():IsNewVersion() then
+				return false
+			end
+
 			slot2 = false
 
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS) and not slot0:isEnd() then
@@ -119,6 +123,10 @@ slot1 = {
 	{
 		id = "NG0037",
 		condition = function ()
+			if pg.SeriesGuideMgr.GetInstance():IsNewVersion() then
+				return false
+			end
+
 			return NewServerCarnivalScene.isShow()
 		end,
 		args = function ()

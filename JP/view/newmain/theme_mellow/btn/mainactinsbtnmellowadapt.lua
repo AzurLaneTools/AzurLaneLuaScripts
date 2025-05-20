@@ -23,6 +23,11 @@ slot0.OnInit = function(slot0)
 
 		slot0._tf.localEulerAngles = Vector3.zero
 	end
+
+	slot3 = getProxy(AppreciateProxy):CanPlayMainMusicPlayer()
+
+	setActive(slot0._tf:Find("base"), not slot3)
+	setActive(slot0._tf:Find("music"), slot3)
 end
 
 slot0.AddTimer = function(slot0)

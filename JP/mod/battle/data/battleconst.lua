@@ -276,6 +276,7 @@ slot0.BuffEffectType = {
 	ON_OVER_HEALING = "onOverHealing",
 	ON_SHIELD_ABSORB = "onShieldAbsorb",
 	ON_DAMAGE_FIX = "onDamageFix",
+	ON_DAMAGE_CONCLUDE = "onDamageConclude",
 	ON_COMBO = "onCombo",
 	ON_WEAPON_STEDAY = "onWeaponSteday",
 	ON_FIRE = "onFire",

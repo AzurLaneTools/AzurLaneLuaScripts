@@ -24,7 +24,7 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == GAME.USE_ITEM_DONE then
 		slot4 = slot0.viewComponent
 
-		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
+		slot4:emit(BaseUI.ON_ACHIEVE, slot3.drops, function ()
 			triggerButton(uv0.viewComponent.backBtn)
 		end)
 	end

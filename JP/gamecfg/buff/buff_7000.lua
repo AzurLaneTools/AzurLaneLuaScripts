@@ -16,7 +16,7 @@ return {
 			},
 			arg_list = {
 				skill_id = 7000,
-				time = 40,
+				time = 20,
 				target = "TargetSelf"
 			}
 		},
@@ -27,7 +27,7 @@ return {
 			},
 			arg_list = {
 				buff_id = 7027,
-				time = 40,
+				time = 20,
 				target = "TargetSelf"
 			}
 		}

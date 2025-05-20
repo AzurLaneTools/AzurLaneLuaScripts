@@ -79,6 +79,18 @@ slot0.EnterPage = function(slot0, slot1)
 	end
 end
 
+slot0.WarpToRecord = function(slot0, slot1, slot2, slot3)
+	slot0.contextData.recordGroup = slot1
+	slot0.contextData.storyNodeID = slot3
+
+	slot0:EnterPage(uv0.PAGE_FILE)
+end
+
+slot0.WarpToStoryNode = function(slot0, slot1)
+	slot0:EnterPage(uv0.PAGE_MEMORTY)
+	slot0.subViews[uv0.PAGE_MEMORTY]:WrapToStoryLine(slot1)
+end
+
 slot0.Backward = function(slot0)
 	if slot0.subViews[slot0.contextData.page] and slot1:OnBackward() then
 		return slot2

@@ -8004,7 +8004,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "    装甲タイプ：装甲が厚ければ、大口径砲のダメージが軽減\n    また小口径砲によるダメージを無効にすることが可能（ダメージ軽減率：重装甲>中装甲>軽装甲）",
+			info = "    装甲タイプ：重装甲、中装甲、軽装甲の三種類あり、装甲タイプに対する各武器タイプのダメージ効率が違うため、艦船や武器の組み合わせによって攻略がより効率的になります",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
@@ -8034,7 +8034,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "    装填：武器・スキルの再発動時間を短縮する",
+			info = "    装填：一部兵装の装填・準備時間を短縮する",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
@@ -8104,7 +8104,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "    弾薬量：戦闘中の潜水艦支援と海域マップでの敵艦隊漸減は弾薬を消費する",
+			info = "    弾薬量：戦闘中の潜水艦支援と海域マップでの敵艦隊漸減は弾薬を消費します",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
@@ -8118,7 +8118,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
     支援範囲：潜水艦隊の支援範囲内での戦闘中、
     潜水艦隊の弾薬を消費し、潜水艦支援を行うことが可能；
     潜水艦隊は自動で支援範囲内の敵に向けて移動し漸
-減作戦を行う]],
+減作戦を行います]],
 			icon = {
 				posX = 0,
 				atlas = "attricon",
@@ -8128,7 +8128,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "    運：KAN-SENのカンレキ・リュウコツに影響されるステータス。戦闘で多くの要素に微々たる影響を与える",
+			info = "    運：KAN-SENのカンレキ・リュウコツに影響されるステータス。戦闘で多くの要素に微々たる影響を与えます",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
@@ -8138,7 +8138,7 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			}
 		},
 		{
-			info = "3.コンディション:\n    コンディションが低いままで出撃させると、親密度が下がり、もらえる経験値が半分になる"
+			info = "3.コンディション:\n    コンディションが低いまま出撃させると、親密度が下がり、もらえる経験値が半分になります"
 		}
 	}
 }
@@ -9884,6 +9884,11 @@ _G.pg.base.gametip.ship_remould_warning_107984 = {
 
 _G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "改造後、「魚雷」砲座が-1、「対空砲」砲座が+1されます。改造を続けますか？"
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_201524 = {
+	tip = "改造を行うと<color=#92fc63>【主砲砲座+1】</color>\n改造を行いますか？"
 }
 
 
@@ -12781,7 +12786,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "「エヴァーツェン」「デ・ゼーヴェン・プロヴィンシェン」出現率UP！"
+	tip = "期間限定建造を累計200回行うと「ライオン」を確定で入手可能！（最大4隻まで）"
 }
 
 
@@ -15217,7 +15222,7 @@ _G.pg.base.gametip.returner_help = {
 「カムバックミッション」とは、指揮官のログイン状況に応じて「現役指揮官」「カムバック・新人指揮官」に分類され、それぞれ違う報酬を入手できるイベントとなります。
 ■「現役指揮官」「カムバック・新人指揮官」について
 下記の条件を満たした指揮官は「現役指揮官」として分類され、「現役指揮官」専用の目標を達成することで報酬を入手できます。
-・2024年8月29日（木）～10月2日（水）23:59までに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
+・2025年5月6日（火）～6月20日（火）メンテナンスまでに一度でもログインしたことがある上記の条件を満たしていない場合は「カムバック・新人指揮官」として、専用任務をクリアすることで報酬を入手することができます。
 自分が「現役指揮官」「カムバック指揮官」のどちらに属しているか不明な場合は、カムバックミッションのバナーに表示される内容をご確認ください。
 ■現役指揮官の目標について
 現役指揮官は最大2人の友達に「カムバックミッション」に参加してもらうことができ、友達が専用任務をクリアすると、自分に「カムバックPt」が加算されます。
@@ -15275,7 +15280,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "1.「小型艦建造」「大型艦建造」「特型艦建造」から一つを選ぶことで、特別建造のベースになります。（UR艦船は「大型艦建造」「特型艦建造」にしか出現しません）"
 		},
 		{
-			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2024年7月10日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
+			info = "2.同建造で出現する艦船から2種類を選び「ピックアップ状態」（出現率がUPする状態）にできます<color=#FF5C5C>（※2025年3月26日までに常設建造になった艦しか出現しません。また、UR艦船を選択した場合、選ばれなかったUR艦船は建造から出現しません）</color>"
 		},
 		{
 			info = "3.「選べる特別建造」において「ピックアップ」に選ばれた艦船の出現率は、レアリティに応じて下記となります\n<color=#ff5e39>UR</color>：1.2% <color=#ffde38>SSR</color>...2%  <color=#、、d797ff>SR</color>...2.5%  <color=#3dc6ff>R...2.5%</color>  N...2.5%"
@@ -28550,7 +28555,7 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 
 
 _G.pg.base.gametip.hotspring_buff = {
-	tip = "饅頭温泉|入浴中の艦船のコンディション回復速度がUP"
+	tip = "夏のテルマエ|入浴中の艦船のコンディション回復速度がUP"
 }
 
 
@@ -38584,4 +38589,412 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
 
 _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 	tip = "DOF"
+}
+
+
+_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
+	tip = "前段階の全ての任務をクリアして開放"
+}
+
+
+_G.pg.base.gametip.handbook_new_player_guide_locked_by_level = {
+	tip = "指揮官レベル$1で開放"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_level = {
+	tip = "指揮官レベル$1で開放"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_other_task = {
+	tip = "任務「$1」クリアで開放"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_chapter = {
+	tip = "ステージ「$1」クリアで開放"
+}
+
+
+_G.pg.base.gametip.handbook_name = {
+	tip = "指揮官メモ"
+}
+
+
+_G.pg.base.gametip.handbook_process = {
+	tip = "未完了"
+}
+
+
+_G.pg.base.gametip.handbook_claim = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.handbook_finished = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.handbook_unfinished = {
+	tip = "任務を$1つクリアで受取可能"
+}
+
+
+_G.pg.base.gametip.handbook_gametip = {
+	tip = {
+		{
+			info = "「指揮官メモ」について："
+		},
+		{
+			info = "「指揮官メモ」には、新兵任務）、開発任務、機能案内の3つの任務群があります。"
+		},
+		{
+			info = [[
+<b>1.新兵任務：</b>
+·初心者指揮官向けの一連の任務群になります。
+·任務は全部で9つの段階があり、それぞれの段階でいくつかの任務が存在します。
+·前の段階の任務を6つクリアすると、次の段階の任務が開放されます、それぞれの段階の全ての任務をクリアすると、段階クリア報酬を入手できます。
+·全部で9つの段階の任務を全部クリアすると、「新兵任務UR交換チケット」を入手できます。チケットを使用すると、UR艦船<color=#92fc63>「信濃」</color>か<color=#92fc63>「ニュージャージー」</color>から一人を選んで入手できます。]]
+		},
+		{
+			info = [[
+<b>2.開発任務：</b>
+·指揮官レベル30で開放され、開発ドックで活用できるデータパックや強化ユニットを入手できる一連の任務群になります。
+·指揮官は特別計画艦の期数から選んで任務を進めることができます。
+·注意：一度開発任務を開放すると、その期の開発任務を全てクリアしない限り、他の期の開発任務に切り替えることはできません。]]
+		},
+		{
+			info = "<b>3.機能案内：</b>\n·新規指揮官向けの機能チュートリアルと説明案内のまとめになります。\n·各機能グループではそれぞれのチュートリアル任務と説明が存在し、グループの任務を全部クリアするとメンタルキューブを入手できます"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.handbook_research_confirm = {
+	tip = "任務開放"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
+	tip = "$1の全ての開発任務をクリアすると本段階最終任務が開放"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_locked = {
+	tip = "未完了"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_claim = {
+	tip = "受取"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_finished = {
+	tip = "受取済"
+}
+
+
+_G.pg.base.gametip.handbook_ur_double_check = {
+	tip = "招待状は1回しか使用できません。\n<color=#92fc63>$1</color>を招待しますか？\n招待した艦船と記念アイテムを入手できます"
+}
+
+
+_G.pg.base.gametip.NewMusic_1 = {
+	tip = "お気に入り($1)"
+}
+
+
+_G.pg.base.gametip.NewMusic_2 = {
+	tip = "検索..."
+}
+
+
+_G.pg.base.gametip.NewMusic_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/music_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.NewMusic_3 = {
+	tip = "お探しの曲はありません"
+}
+
+
+_G.pg.base.gametip.NewMusic_4 = {
+	tip = "お探しのアルバムはありません"
+}
+
+
+_G.pg.base.gametip.NewMusic_5 = {
+	tip = "お気に入り"
+}
+
+
+_G.pg.base.gametip.NewMusic_6 = {
+	tip = "アルバム一覧"
+}
+
+
+_G.pg.base.gametip.NewMusic_7 = {
+	tip = "お気に入り登録はありません"
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame1 = {
+	tip = "カンセンゲーム"
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame2 = {
+	tip = "サルベージ"
+}
+
+
+_G.pg.base.gametip.holiday_tip_bath = {
+	tip = "夏のテルマエ"
+}
+
+
+_G.pg.base.gametip.holiday_tip_collection = {
+	tip = "ヴィラ攻略帳"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task = {
+	tip = "再建任務"
+}
+
+
+_G.pg.base.gametip.holiday_tip_shop = {
+	tip = "再建ショップ"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans = {
+	tip = "輸送埠頭"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_now = {
+	tip = "現在目標"
+}
+
+
+_G.pg.base.gametip.holiday_tip_finish = {
+	tip = "リゾート島の再建が<color=#5f984d>全て完了</color>しました。余った再建物資を<color=#5f984d>再建コイン</color>に変換しましょう"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_get = {
+	tip = "再建任務をクリアすると輸送力を入手可能"
+}
+
+
+_G.pg.base.gametip.holiday_tip_rebuild_not = {
+	tip = "再建に必要な資材が不足しています"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_not = {
+	tip = "輸送に必要な輸送力が不足しています"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_finish = {
+	tip = "リゾート島の再建が完了しました"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_tip = {
+	tip = "輸送埠頭"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc1 = {
+	tip = "大型クルーザーや輸送船が停泊可能な、リゾートヴィラのメイン桟橋。入口には猫のシンボルの巨大ウェルカムボードと案内板が立っている。\n——行き着く先はもちろん、緑の猫が経営するプレミアムジュース屋台だ。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc2 = {
+	tip = "大型クルーザーや輸送船が停泊可能な、リゾートヴィラのメイン桟橋。入口には猫のシンボルの巨大ウェルカムボードと案内板が立っている。\n——行き着く先はもちろん、緑の猫が経営するプレミアムジュース屋台だ。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_gametip = {
+	tip = {
+		{
+			info = [[
+遊び方：
+<color=#92fc63>5.20-6.12メンテまで</color>期間限定イベント「盛夏再び！リゾート再建計画！」が開催されます
+◆リゾート再建◆
+イベント期間中、出現する限定イベント任務をこなすと、「輸送力」を入手できます。「輸送埠頭」で「輸送力」を消費し資源輸送を行うと、輸送手段に応じて、再建に必要な資材を手に入れる事ができます；
+資材を消費し、リゾート島の6つのエリアを再建していくと、ストーリー・機能を開放することができます。
+◆ショップ◆
+イベントに参加すると、「再建コイン」を入手することが出来ます。「再建コイン」は「再建ショップ」で限定チャットフレームなどの報酬を入手できます。
+◆その他機能◆
+ミニゲーム「カンセンゲーム」、「饅頭サルベージ」をプレイすると、報酬を入手することができます；
+「夏のテルマエ」はキャラを配置すると、そのキャラのコンディション回復速度を上昇させることができます。
+「カンセンゲーム」、「饅頭サルベージ」、「夏のテルマエ」は再建が進むと開放されます。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.holiday_tip_spring = {
+	tip = {
+		{
+			info = "遊び方：\n<color=#92fc63>5.20-6.12メンテまで</color>「夏のテルマエ」が期間限定で開放されます\nキャラを「夏のテルマエ」に配置すると、そのキャラのコンディション回復速度を上昇させることができます"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_holiday_function_lock = {
+	tip = "再建を進めると開放されます"
+}
+
+
+_G.pg.base.gametip.storyline_chapter0 = {
+	tip = "序章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter1 = {
+	tip = "第一章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter2 = {
+	tip = "第二章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter3 = {
+	tip = "第三章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter4 = {
+	tip = "第四章"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch1 = {
+	tip = "ストーリー検索"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch2 = {
+	tip = "検索..."
+}
+
+
+_G.pg.base.gametip.use_amount_prefix = {
+	tip = "使用数量:"
+}
+
+
+_G.pg.base.gametip.sure_exit_resolve_equip = {
+	tip = "操作を行わないと、全ての装備が<color=#5f984d>倉庫</color>に格納されます\n 前の画面に戻りますか？"
+}
+
+
+_G.pg.base.gametip.resolve_equip_tip = {
+	tip = "廃棄する装備を選択"
+}
+
+
+_G.pg.base.gametip.resolve_equip_title = {
+	tip = "下記の素材が入手できます:"
+}
+
+
+_G.pg.base.gametip.tec_catchup_0 = {
+	tip = "Ⅰ期"
+}
+
+
+_G.pg.base.gametip.tec_catchup_confirm = {
+	tip = "今期の開発任務を開始しますか？\n確定すると今期の開発任務が開放され、すべての開発任務をクリアしないと他の開発任務に切り替えできません"
+}
+
+
+_G.pg.base.gametip.watermelon_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/watermelon_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.breakout_tip = {
+	tip = "*限界突破を行うと星が上昇"
+}
+
+
+_G.pg.base.gametip.collection_book_lock_place = {
+	tip = "エリア未開放"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_1 = {
+	tip = "施設\n記録"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_2 = {
+	tip = "余暇\n時間"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_3 = {
+	tip = "特別\n邂逅"
+}
+
+
+_G.pg.base.gametip.challenge_minigame_unlock = {
+	tip = "ミニゲーム未開放"
 }

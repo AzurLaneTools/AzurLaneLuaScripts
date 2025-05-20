@@ -1,5 +1,5 @@
 slot0 = class("CatchTreasureGameView", import("..BaseMiniGameView"))
-slot1 = "blueocean-image"
+slot1 = "story-richang-5"
 slot2 = "event:/ui/ddldaoshu2"
 slot3 = "event:/ui/taosheng"
 slot4 = "event:/ui/zhuahuo"
@@ -2180,7 +2180,7 @@ slot0.initEvent = function(slot0)
 end
 
 slot0.initData = function(slot0)
-	slot0.dropData = pg.mini_game[slot0:GetMGData().id].simple_config_data.drop
+	slot0.dropData = pg.mini_game[slot0:GetMGData().id].simple_config_data.drop_ids
 
 	if (Application.targetFrameRate or 60) > 60 then
 		slot1 = 60
@@ -2210,9 +2210,10 @@ slot0.initUI = function(slot0)
 
 	slot0.leaveUI = findTF(slot0._tf, "pop/LeaveUI")
 
+	GetComponent(findTF(slot0.leaveUI, "ad/desc"), typeof(Image)):SetNativeSize()
 	onButton(slot0, findTF(slot0.leaveUI, "ad/btnOk"), function ()
 		uv0:resumeGame()
-		uv0:onGameOver()
+		uv0:onGameOver(false)
 	end, SFX_CANCEL)
 	onButton(slot0, findTF(slot0.leaveUI, "ad/btnCancel"), function ()
 		uv0:resumeGame()
@@ -2221,6 +2222,7 @@ slot0.initUI = function(slot0)
 
 	slot0.pauseUI = findTF(slot0._tf, "pop/pauseUI")
 
+	GetComponent(findTF(slot0.pauseUI, "ad/desc"), typeof(Image)):SetNativeSize()
 	onButton(slot0, findTF(slot0.pauseUI, "ad/btnOk"), function ()
 		setActive(uv0.pauseUI, false)
 		uv0:resumeGame()
@@ -2271,36 +2273,43 @@ slot0.initUI = function(slot0)
 		setActive(uv0.menuUI, false)
 		uv0:readyStart()
 	end, SFX_CANCEL)
+	onButton(slot0, findTF(slot0.menuUI, "home"), function ()
+		uv0:emit(BaseUI.ON_HOME)
+	end, SFX_CANCEL)
 
 	slot2 = findTF(slot0.menuUI, "tplBattleItem")
 	slot0.battleItems = {}
 	slot0.dropItems = {}
+	slot3 = slot0.dropData
 
-	for slot6 = 1, 7 do
-		slot7 = tf(instantiate(slot2))
-		slot7.name = "battleItem_" .. slot6
+	for slot7 = 1, 7 do
+		slot8 = slot7
+		slot9 = tf(instantiate(slot2))
+		slot9.name = "battleItem_" .. slot7
 
-		setParent(slot7, findTF(slot0.menuUI, "battList/Viewport/Content"))
-		GetSpriteFromAtlasAsync(uv1, "buttomDesc" .. slot6, function (slot0)
-			setImageSprite(findTF(uv0, "state_open/buttomDesc"), slot0, true)
-			setImageSprite(findTF(uv0, "state_clear/buttomDesc"), slot0, true)
-			setImageSprite(findTF(uv0, "state_current/buttomDesc"), slot0, true)
-			setImageSprite(findTF(uv0, "state_closed/buttomDesc"), slot0, true)
+		setParent(slot9, findTF(slot0.menuUI, "battList/Viewport/Content"))
+		GetSpriteFromAtlasAsync(uv1, "buttomDesc" .. slot7, function (slot0)
+			if slot0 then
+				setImageSprite(findTF(uv0, "state_open/bg"), slot0, true)
+				setImageSprite(findTF(uv0, "state_clear/bg"), slot0, true)
+				setImageSprite(findTF(uv0, "state_current/bg"), slot0, true)
+				setImageSprite(findTF(uv0, "state_closed/bg"), slot0, true)
+			end
 		end)
 
-		slot9 = findTF(slot7, "icon")
+		slot11 = findTF(slot9, "icon")
 
-		updateDrop(slot9, {
-			type = slot0.dropData[slot6][1],
-			id = slot0.dropData[slot6][2],
-			count = slot0.dropData[slot6][3]
+		updateDrop(slot11, {
+			type = slot3[slot7][1],
+			id = slot3[slot7][2],
+			count = slot3[slot7][3]
 		})
-		onButton(slot0, slot9, function ()
+		onButton(slot0._event, slot11, function ()
 			uv0:emit(BaseUI.ON_DROP, uv1)
 		end, SFX_PANEL)
-		table.insert(slot0.dropItems, slot9)
-		setActive(slot7, true)
-		table.insert(slot0.battleItems, slot7)
+		table.insert(slot0.dropItems, slot11)
+		setActive(slot9, true)
+		table.insert(slot0.battleItems, slot9)
 	end
 
 	if not slot0.handle then
@@ -2360,33 +2369,28 @@ slot0.updateMenuUI = function(slot0)
 	slot1 = slot0:getGameUsedTimes()
 	slot2 = slot0:getGameTimes()
 
-	for slot6 = 1, #slot0.battleItems do
+	for slot6 = 1, 7 do
 		setActive(findTF(slot0.battleItems[slot6], "state_open"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_closed"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_clear"), false)
 		setActive(findTF(slot0.battleItems[slot6], "state_current"), false)
 
 		if slot6 <= slot1 then
-			setActive(findTF(slot0.battleItems[slot6], "state_clear"), true)
 			SetParent(slot0.dropItems[slot6], findTF(slot0.battleItems[slot6], "state_clear/icon"))
 			setActive(slot0.dropItems[slot6], true)
-
-			slot0.dropItems[slot6].anchoredPosition = Vector2(0, 0)
+			setActive(findTF(slot0.battleItems[slot6], "state_clear"), true)
 		elseif slot6 == slot1 + 1 and slot2 >= 1 then
 			setActive(findTF(slot0.battleItems[slot6], "state_current"), true)
 			SetParent(slot0.dropItems[slot6], findTF(slot0.battleItems[slot6], "state_current/icon"))
 			setActive(slot0.dropItems[slot6], true)
-
-			slot0.dropItems[slot6].anchoredPosition = Vector2(0, 0)
 		elseif slot1 < slot6 and slot6 <= slot1 + slot2 then
 			setActive(findTF(slot0.battleItems[slot6], "state_open"), true)
 			SetParent(slot0.dropItems[slot6], findTF(slot0.battleItems[slot6], "state_open/icon"))
 			setActive(slot0.dropItems[slot6], true)
-
-			slot0.dropItems[slot6].anchoredPosition = Vector2(0, 0)
 		else
 			setActive(findTF(slot0.battleItems[slot6], "state_closed"), true)
-			setActive(slot0.dropItems[slot6], false)
+			SetParent(slot0.dropItems[slot6], findTF(slot0.battleItems[slot6], "state_closed/icon"))
+			setActive(slot0.dropItems[slot6], true)
 		end
 	end
 
@@ -2399,6 +2403,7 @@ slot0.updateMenuUI = function(slot0)
 	scrollTo(slot0.battleScrollRect, 0, slot4)
 	setActive(findTF(slot0.menuUI, "btnStart/tip"), slot2 > 0)
 	slot0:CheckGet()
+	setText(findTF(slot0.menuUI, "high"), slot0:GetMGData():GetRuntimeData("elements") and #slot5 > 0 and slot5[1] or 0)
 end
 
 slot0.CheckGet = function(slot0)
@@ -2529,7 +2534,9 @@ slot0.addScore = function(slot0, slot1, slot2)
 		slot4.fontSize = slot6 or 40
 
 		setTextColor(slot3, slot0:transformColor(slot5))
-	elseif slot2 then
+	end
+
+	if slot2 then
 		slot4.fontSize = 40
 
 		setTextColor(slot3, slot0:transformColor("66f2fb"))
@@ -2575,7 +2582,7 @@ slot0.gameStep = function(slot0)
 	slot0:updateGameUI()
 
 	if slot0.gameTime <= 0 then
-		slot0:onGameOver()
+		slot0:onGameOver(true)
 
 		return
 	end
@@ -2598,7 +2605,7 @@ slot0.updateGameUI = function(slot0)
 	setText(slot0.gameTimeS, math.ceil(slot0.gameTime))
 end
 
-slot0.onGameOver = function(slot0)
+slot0.onGameOver = function(slot0, slot1)
 	if slot0.settlementFlag then
 		return
 	end
@@ -2620,6 +2627,11 @@ slot0.onGameOver = function(slot0)
 		setActive(uv0.clickMask, false)
 		uv0:showSettlement()
 	end))
+	slot0:emit(BaseMiniGameMediator.GAME_FINISH_TRACKING, {
+		game_id = slot0:GetMGData().id,
+		hub_id = slot0:GetMGHubData().id,
+		isComplete = slot1 and 1 or 0
+	})
 end
 
 slot0.showSettlement = function(slot0)

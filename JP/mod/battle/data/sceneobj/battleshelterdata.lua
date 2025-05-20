@@ -45,15 +45,17 @@ slot3.Update = function(slot0, slot1)
 end
 
 slot3.DoWhenHit = function(slot0, slot1)
-	if slot0._doWhenHit == "intercept" then
-		slot1:Intercepted()
-		uv0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
+	if not slot1:GetIgnoreShield() then
+		if slot0._doWhenHit == "intercept" then
+			slot1:Intercepted()
+			uv0.Battle.BattleDataProxy.GetInstance():RemoveBulletUnit(slot1:GetUniqueID())
 
-		slot0._count = slot0._count - 1
-	elseif slot0._doWhenHit == "reflect" and slot0:GetIFF() ~= slot1:GetIFF() then
-		slot1:Reflected()
+			slot0._count = slot0._count - 1
+		elseif slot0._doWhenHit == "reflect" and slot0:GetIFF() ~= slot1:GetIFF() then
+			slot1:Reflected()
 
-		slot0._count = slot0._count - 1
+			slot0._count = slot0._count - 1
+		end
 	end
 end
 

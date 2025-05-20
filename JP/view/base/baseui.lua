@@ -146,10 +146,6 @@ slot0.StopBgm = function(slot0)
 	end
 end
 
-slot0.SwitchToDefaultBGM = function(slot0)
-	pg.BgmMgr.GetInstance():Push(slot0.__cname, slot0:getBGM() or (not pg.CriMgr.GetInstance():IsDefaultBGM() or pg.voice_bgm.NewMainScene.default_bgm) and pg.voice_bgm.NewMainScene.bgm)
-end
-
 slot0.isLoaded = function(slot0)
 	return slot0._isLoaded
 end

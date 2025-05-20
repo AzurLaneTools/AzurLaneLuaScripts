@@ -17,7 +17,7 @@ pg.enemy_data_statistics_1 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		base = 90106,
-		durability = 280,
+		durability = 200,
 		armor_growth = 210,
 		torpedo_growth = 1600,
 		speed = 10,
@@ -57,7 +57,7 @@ pg.enemy_data_statistics_1 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		base = 90213,
-		durability = 16000,
+		durability = 60000,
 		armor_growth = 952,
 		torpedo_growth = 376,
 		speed = 20,
@@ -93,9 +93,13 @@ pg.enemy_data_statistics_1 = {
 			"appearQ"
 		},
 		equipment_list = {
-			100202,
-			310003,
-			8
+			680404,
+			680405,
+			680406,
+			680407,
+			680414,
+			680415,
+			680416
 		}
 	},
 	[12] = {
@@ -115,7 +119,7 @@ pg.enemy_data_statistics_1 = {
 		antisub_growth = 0,
 		air_growth = 0,
 		base = 90232,
-		durability = 24000,
+		durability = 80000,
 		armor_growth = 1918,
 		torpedo_growth = 0,
 		speed = 15,
@@ -151,9 +155,11 @@ pg.enemy_data_statistics_1 = {
 			"appearQ"
 		},
 		equipment_list = {
-			100202,
-			310011,
-			310008
+			610050,
+			610051,
+			610052,
+			610053,
+			610055
 		}
 	},
 	[50001] = {
@@ -1172,6 +1178,31 @@ pg.enemy_data_statistics_1 = {
 		luck_growth = 10000,
 		hit_growth = 7750,
 		id = 50026,
+		specific_fx_scale = {},
+		appear_fx = {},
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
+	},
+	[50027] = {
+		antiaircraft_growth = 8300,
+		name = "革律翁",
+		cannon_growth = 8300,
+		speed_growth = 10000,
+		torpedo_growth = 8300,
+		fog_fx = "",
+		bubble_fx = "",
+		reload_growth = 8300,
+		dodge_growth = 10000,
+		armor_growth = 0,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 50021,
+		durability_growth = 8300,
+		luck_growth = 10000,
+		hit_growth = 8300,
+		id = 50027,
 		specific_fx_scale = {},
 		appear_fx = {},
 		equipment_list = {},

@@ -174,6 +174,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707062,
 		9707063,
 		9707064,
+		9707071,
+		9707072,
+		9707073,
+		9707074,
 		9708011,
 		9708012,
 		9708013,
@@ -3007,6 +3011,75 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9707064,
 		item1 = 21045,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9707071] = {
+		breakout_view = "スキル【焔追の灰・グロリアス】習得/戦闘機数+1/戦闘機補正+5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707072,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707071,
+		item1 = 21048,
+		level = 10,
+		weapon_ids = {
+			60221,
+			54014
+		}
+	},
+	[9707072] = {
+		breakout_view = "攻撃隊上限+1/攻撃機数+1/攻撃機補正+5%",
+		item2 = 21001,
+		pre_id = 9707071,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707073,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707072,
+		item1 = 21048,
+		level = 30,
+		weapon_ids = {
+			60222,
+			54014,
+			60222,
+			54014
+		}
+	},
+	[9707073] = {
+		breakout_view = "スキル【焔追の灰・グロリアス】強化/戦闘機数+1/戦闘補正+15%",
+		item2 = 21001,
+		pre_id = 9707072,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707074,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707073,
+		item1 = 21048,
+		level = 70,
+		weapon_ids = {
+			60223,
+			54015,
+			60223,
+			54015
+		}
+	},
+	[9707074] = {
+		breakout_view = "なし",
+		item2 = 21001,
+		pre_id = 9707073,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707074,
+		item1 = 21048,
 		level = 0,
 		weapon_ids = {}
 	},

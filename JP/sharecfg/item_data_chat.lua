@@ -112,6 +112,14 @@ pg.item_data_chat = {
 		desc = "<size=28>荒野、開拓、ウェスタン的な休日な思い出。\n<color=#A7A7AAFF>イベント「荒野休日開拓記」に参加した指揮官に贈る</color></size>",
 		scene = {}
 	},
+	[610] = {
+		name = "ビーチウェーブ",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "海辺を歩き、さざなみの声に耳を傾けよう。\n<color=#A7A7AAFF>「盛夏再び！リゾート再建計画！」参加で入手可能</color>",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界挑戦・ふたご座",
 		time_second = 0,
@@ -223,6 +231,7 @@ pg.item_data_chat = {
 		603,
 		606,
 		607,
+		610,
 		10001,
 		10002,
 		10003,

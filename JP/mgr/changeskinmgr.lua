@@ -4,6 +4,7 @@ slot0 = pg.ChangeSkinMgr
 slot1 = 1
 slot2 = 2
 slot3 = 3
+slot4 = 4
 
 slot0.Init = function(slot0, slot1)
 	slot0._go = nil
@@ -28,6 +29,7 @@ slot0.initUI = function(slot0, slot1)
 			uv0._spineContent = findTF(uv0._go, "ad/spine")
 			uv0._mvContent = findTF(uv0._go, "ad/mv")
 			uv0._live2dContent = findTF(uv0._go, "ad/live2d")
+			uv0._animatorContent = findTF(uv0._go, "ad/animator")
 
 			uv1()
 		end)
@@ -35,19 +37,27 @@ slot0.initUI = function(slot0, slot1)
 end
 
 slot0.preloadChangeAction = function(slot0, slot1, slot2)
-	slot0._isloading = true
+	if ShipGroup.GetChangeSkinAction(slot1) and slot3 ~= "" then
+		slot0._isloading = true
 
-	PoolMgr.GetInstance():GetPrefab("changeskin/" .. ShipGroup.GetChangeSkinAction(slot1), "", true, function (slot0)
-		if uv0 then
-			PoolMgr.GetInstance():ReturnPrefab(uv0, "", slot0, false)
-		end
+		PoolMgr.GetInstance():GetPrefab("changeskin/" .. slot3, "", true, function (slot0)
+			if uv0 then
+				PoolMgr.GetInstance():ReturnPrefab(uv0, "", slot0, false)
+			end
 
-		if uv1 then
-			uv1()
-		end
+			if uv1 then
+				uv1()
+			end
 
-		uv2._isloading = false
-	end)
+			uv2._isloading = false
+		end)
+
+		return
+	end
+
+	if slot2 then
+		slot2()
+	end
 end
 
 slot0.isAble = function(slot0)
@@ -63,9 +73,10 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.changeIndex = ShipGroup.GetChangeSkinIndex(slot1)
 	slot0.changeState = ShipGroup.GetChangeSkinState(slot1)
 	slot0.changAction = ShipGroup.GetChangeSkinAction(slot1)
-	slot0._loadObjectName = "changeskin/" .. slot0.changAction
 
 	if slot0.changeState == uv0 then
+		slot0._loadObjectName = "changeskin/" .. slot0.changAction
+
 		PoolMgr.GetInstance():GetPrefab(slot0._loadObjectName, "", true, function (slot0)
 			uv0._go:SetActive(true)
 
@@ -99,6 +110,35 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 		-- Nothing
 	elseif slot0.changeState == uv2 then
 		-- Nothing
+	elseif slot0.changeState == uv3 then
+		slot0._loadObjectName = "changeskin/changeempty"
+
+		PoolMgr.GetInstance():GetPrefab(slot0._loadObjectName, "", true, function (slot0)
+			uv0._go:SetActive(true)
+
+			uv0._loadObject = slot0
+			uv0._aniamtorTf = tf(slot0)
+
+			uv0._aniamtorTf:SetParent(uv0._spineContent, false)
+			setActive(uv0._aniamtorTf, true)
+
+			uv0._animatorCom = GetComponent(findTF(uv0._aniamtorTf, "ad/animator"), typeof(Animator))
+			uv0._dftEventCom = GetComponent(findTF(uv0._aniamtorTf, "ad/animator"), typeof(DftAniEvent))
+
+			uv0._animatorCom:SetTrigger("change_" .. uv0.changeIndex)
+			uv0._dftEventCom:SetTriggerEvent(function (slot0)
+				if uv0 then
+					uv0()
+				end
+			end)
+			uv0._dftEventCom:SetEndEvent(function (slot0)
+				if uv0 then
+					uv0()
+				end
+
+				uv1:finish(uv2)
+			end)
+		end)
 	end
 end
 

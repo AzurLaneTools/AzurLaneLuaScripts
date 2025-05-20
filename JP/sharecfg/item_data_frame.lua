@@ -497,11 +497,11 @@ pg.item_data_frame = {
 	},
 	[335] = {
 		name = "薔薇の誓い",
-		gain_by = "",
+		gain_by = "高い塔の薔薇",
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
-		desc = "今後開催するイベントで入手可能",
+		desc = "<color=#ffffff>「高い塔に佇む薔薇は、ロイヤルの最後の栄光を守り続ける」</color>――「高い塔の薔薇」イベントで入手可能",
 		scene = {}
 	},
 	[401] = {
@@ -655,6 +655,15 @@ pg.item_data_frame = {
 		id = 609,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>「指揮官～キャンペーンに参加してくれてありがとうにゃ～特典を受け取ってにゃ♪」</color>「2025迎春キャンペーン」に参加した指揮官に贈る",
+		scene = {}
+	},
+	[610] = {
+		name = "リゾート島でバカンス",
+		gain_by = "",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>リゾート島で完璧なバカンスを楽しもう！</color>「盛夏再び！リゾート再建計画！」参加で入手可能",
 		scene = {}
 	},
 	[1001] = {
@@ -893,6 +902,7 @@ pg.item_data_frame = {
 		606,
 		607,
 		609,
+		610,
 		1001,
 		1002,
 		1003,

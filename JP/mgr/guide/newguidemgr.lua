@@ -72,7 +72,7 @@ slot0.StopNothing = function(slot0)
 	SetActive(slot0._go, false)
 end
 
-slot0.Play = function(slot0, slot1, slot2, slot3, slot4)
+slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot0:CanPlay() then
 		uv0("can not play guide " .. slot1)
 		slot3()
@@ -81,14 +81,14 @@ slot0.Play = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	uv0("play guide : " .. slot1)
-	slot0:PlayScript(uv1(slot1), slot2, slot3, slot4)
+	slot0:PlayScript(uv1(slot1), slot2, slot3, slot4, slot5)
 end
 
 slot0._Play = function(slot0, slot1, slot2, slot3, slot4)
-	slot0:PlayScript(Guide.New(slot1), slot2, slot3, slot4)
+	slot0:PlayScript(Guide.New(slot1), slot2, slot3, slot4, onStep)
 end
 
-slot0.PlayScript = function(slot0, slot1, slot2, slot3, slot4)
+slot0.PlayScript = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot1 then
 		uv0("should exist guide file ")
 		slot3()
@@ -100,24 +100,33 @@ slot0.PlayScript = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot0:OnStart()
 
-	slot5 = {}
-	slot9 = slot2
+	slot6 = {}
+	slot10 = slot2
 
-	for slot9, slot10 in ipairs(slot1:GetStepsWithCode(slot9)) do
-		table.insert(slot5, function (slot0)
+	for slot10, slot11 in ipairs(slot1:GetStepsWithCode(slot10)) do
+		slot12 = slot10
+
+		table.insert(slot6, function (slot0)
 			if uv0:IsStop() then
 				return
 			end
 
 			slot1 = uv0.players[uv1:GetType()]
+			slot2 = pg.TimeMgr.GetInstance():GetServerTime()
 
-			slot1:Execute(uv1, slot0)
+			slot1:Execute(uv1, function ()
+				if uv0 then
+					uv0(uv1, uv2)
+				end
+
+				uv3()
+			end)
 
 			uv0.player = slot1
 		end)
 	end
 
-	seriesAsync(slot5, function ()
+	seriesAsync(slot6, function ()
 		uv0:OnEnd(uv1)
 	end)
 end

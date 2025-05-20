@@ -3,7 +3,7 @@ slot2 = pg.player_resource.get_id_list_by_name
 slot3, slot4 = nil
 slot0.MAX_SHIP_BAG = 4000
 slot0.MAX_EQUIP_BAG = 2000
-slot0.MAX_COMMANDER_BAG = 200
+slot0.MAX_COMMANDER_BAG = 400
 slot0.ASSISTS_TYPE_SHAM = 0
 slot0.ASSISTS_TYPE_GUILD = 1
 slot0.CHANGE_NAME_KEY = 1
@@ -90,6 +90,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.pvp_win_count = slot1.pvp_win_count or 0
 	slot0.collect_attack_count = slot1.collect_attack_count or 0
 	slot0.guideIndex = slot1.guide_index
+	slot0.newGuideIndex = slot1.new_guide_index
 	slot0.buyOilCount = slot1.buy_oil_count
 	slot0.chatRoomId = slot1.chat_room_id or 1
 	slot0.score = slot1.score or 0
@@ -129,6 +130,9 @@ slot0.Ctor = function(slot0, slot1)
 		for slot7, slot8 in slot4(slot5) do
 			slot3:addMusicIDToLikeList(slot8)
 		end
+
+		slot3:setMainPlayMusicAlbum(slot1.appreciation.music_no)
+		slot3:setMusicPlayerLoopType(slot1.appreciation.music_mode)
 
 		if getProxy(AppreciateProxy):getResultForVer() then
 			pg.ConnectionMgr.GetInstance():Send(15300, {
@@ -949,6 +953,22 @@ end
 
 slot0.getActivityMedalGroup = function(slot0)
 	return slot0.activityMedalGroupList
+end
+
+slot0.GetGuideIndex = function(slot0, slot1)
+	if slot1 then
+		return slot0.newGuideIndex
+	else
+		return slot0.guideIndex
+	end
+end
+
+slot0.UpdateGuideIndex = function(slot0, slot1, slot2)
+	if slot1 then
+		slot0.newGuideIndex = slot2
+	else
+		slot0.guideIndex = slot2
+	end
 end
 
 return slot0

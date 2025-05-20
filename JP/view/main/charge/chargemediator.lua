@@ -162,9 +162,9 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:updateCurSubView()
 		slot0.viewComponent:checkFreeGiftTag()
 	elseif slot2 == GAME.USE_ITEM_DONE then
-		if table.getCount(slot3) ~= 0 then
+		if #slot3.drops ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3
+				items = slot3.drops
 			})
 		end
 	elseif slot2 == GAME.GET_CHARGE_LIST_DONE then

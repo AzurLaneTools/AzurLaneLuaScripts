@@ -1805,6 +1805,56 @@ pg.player_resource = {
 		name = "newserver_pt_250424",
 		itemid = 65094
 	},
+	[498] = {
+		id = 498,
+		name = "shi_pt1",
+		itemid = 65096
+	},
+	[499] = {
+		id = 499,
+		name = "shi_pt2",
+		itemid = 65097
+	},
+	[500] = {
+		id = 500,
+		name = "union13_pt",
+		itemid = 65098
+	},
+	[501] = {
+		id = 501,
+		name = "island_invitation_pt2",
+		itemid = 65099
+	},
+	[502] = {
+		id = 502,
+		name = "activity_xunzhang6",
+		itemid = 65602
+	},
+	[503] = {
+		id = 503,
+		name = "activity_xunzhang7",
+		itemid = 65611
+	},
+	[504] = {
+		id = 504,
+		name = "limit_skinticket22",
+		itemid = 68066
+	},
+	[505] = {
+		id = 505,
+		name = "limit_skinticket23",
+		itemid = 68067
+	},
+	[506] = {
+		id = 506,
+		name = "limit_skinticket24",
+		itemid = 68068
+	},
+	[507] = {
+		id = 507,
+		name = "skinTicket93",
+		itemid = 65619
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3319,6 +3369,36 @@ pg.player_resource = {
 		newserver_pt_250424 = {
 			497
 		},
+		shi_pt1 = {
+			498
+		},
+		shi_pt2 = {
+			499
+		},
+		union13_pt = {
+			500
+		},
+		island_invitation_pt2 = {
+			501
+		},
+		activity_xunzhang6 = {
+			502
+		},
+		activity_xunzhang7 = {
+			503
+		},
+		limit_skinticket22 = {
+			504
+		},
+		limit_skinticket23 = {
+			505
+		},
+		limit_skinticket24 = {
+			506
+		},
+		skinTicket93 = {
+			507
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3940,6 +4020,16 @@ pg.player_resource = {
 		495,
 		496,
 		497,
+		498,
+		499,
+		500,
+		501,
+		502,
+		503,
+		504,
+		505,
+		506,
+		507,
 		950,
 		951,
 		952,

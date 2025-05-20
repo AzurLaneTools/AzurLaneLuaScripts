@@ -119,7 +119,16 @@ end
 
 slot0.GetTexture2D = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	if not slot0.instance then
-		slot6()
+		if PathMgr.FileExists(slot2) == false then
+			slot6(false)
+
+			return
+		end
+
+		slot8 = UnityEngine.Texture2D.New(slot4, slot5, TextureFormat.ARGB32, false)
+
+		Tex2DExtension.LoadImage(slot8, System.IO.File.ReadAllBytes(slot2))
+		slot6(true, slot8)
 
 		return
 	end

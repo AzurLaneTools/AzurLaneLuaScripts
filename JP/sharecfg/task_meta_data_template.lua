@@ -297,6 +297,11 @@ pg.task_meta_data_template = setmetatable({
 		100413,
 		100414,
 		100415,
+		100431,
+		100432,
+		100433,
+		100434,
+		100435,
 		200001,
 		200002,
 		200003,
@@ -424,7 +429,11 @@ pg.task_meta_data_template = setmetatable({
 		200321,
 		200322,
 		200323,
-		200324
+		200324,
+		200341,
+		200342,
+		200343,
+		200344
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2789,6 +2798,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "ネバダ(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
 	},
+	[100431] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100431,
+		target_num = 1,
+		desc = "グロリアス(META)を編成した艦隊で1回戦闘を勝利する"
+	},
+	[100432] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100432,
+		target_num = 1,
+		desc = "グロリアス(META)を編成した艦隊でLv30+の敵艦隊を撃破する"
+	},
+	[100433] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100433,
+		target_num = 1,
+		desc = "グロリアス(META)を編成した艦隊でLv55+の敵艦隊を撃破する"
+	},
+	[100434] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100434,
+		target_num = 1,
+		desc = "グロリアス(META)を編成した艦隊でLv80+の敵艦隊を撃破する"
+	},
+	[100435] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100435,
+		target_num = 1,
+		desc = "グロリアス(META)を編成した艦隊でLv100+の敵艦隊を撃破する"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3812,5 +3861,37 @@ pg.base.task_meta_data_template = {
 		id = 200324,
 		target_num = 1,
 		desc = "セイレーン作戦でネバダ(META)を含めた艦隊でLv100+の敵を撃破"
+	},
+	[200341] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200341,
+		target_num = 1,
+		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊で1回勝利する"
+	},
+	[200342] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200342,
+		target_num = 1,
+		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊でLv70+の敵を撃破"
+	},
+	[200343] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200343,
+		target_num = 1,
+		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊でLv90+の敵を撃破"
+	},
+	[200344] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200344,
+		target_num = 1,
+		desc = "セイレーン作戦でグロリアス(META)を含めた艦隊でLv100+の敵を撃破"
 	}
 }

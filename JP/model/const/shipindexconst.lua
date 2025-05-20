@@ -269,14 +269,22 @@ slot0.filterByCamp = function(slot0, slot1)
 		return true
 	end
 
-	for slot5 = 2, #ShipIndexCfg.camp do
-		if bit.band(bit.lshift(1, slot5 - 2), slot1) > 0 then
-			for slot11, slot12 in ipairs(ShipIndexCfg.camp[slot5].types) do
-				if slot12 == Nation.LINK then
+	slot2 = underscore.to_array(ShipIndexCfg.camp)
+
+	if LOCK_NATION_HNLMS then
+		slot2 = underscore.filter(slot2, function (slot0)
+			return #slot0.types ~= 1 or slot0.types[1] ~= Nation.NL
+		end)
+	end
+
+	for slot6 = 2, #slot2 do
+		if bit.band(bit.lshift(1, slot6 - 2), slot1) > 0 then
+			for slot12, slot13 in ipairs(slot2[slot6].types) do
+				if slot13 == Nation.LINK then
 					if Nation.LINK <= slot0:getNation() then
 						return true
 					end
-				elseif slot12 == slot0:getNation() then
+				elseif slot13 == slot0:getNation() then
 					return true
 				end
 			end

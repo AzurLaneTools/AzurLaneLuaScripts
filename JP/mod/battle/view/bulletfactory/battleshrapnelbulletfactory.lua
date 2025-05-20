@@ -10,6 +10,8 @@ slot5 = slot0.Battle.BattleShrapnelBulletFactory
 slot5.INHERIT_NONE = 0
 slot5.INHERIT_ANGLE = 1
 slot5.INHERIT_SPEED_NORMALIZE = 2
+slot5.INHERIT_VELOCITY_TEMPLATE = 1
+slot5.INHERIT_VELOCITY_CURRENT = 2
 slot5.FRAGILE_DAMAGE_NOT_SPLIT = 1
 slot5.FRAGILE_NOT_DAMAGE_NOT_SPLIT = 2
 
@@ -134,10 +136,11 @@ slot5.bulletSplit = function(slot0, slot1)
 			slot14 = slot13.barrage_ID
 			slot15 = slot13.bullet_ID
 			slot17 = slot13.inheritAngle
-			slot18 = slot13.reaim
-			slot19 = slot13.rotateOffset
-			slot21 = nil
-			slot21 = uv1.Battle[slot13.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
+			slot18 = slot13.inheritSpeed
+			slot19 = slot13.reaim
+			slot20 = slot13.rotateOffset
+			slot22 = nil
+			slot22 = uv1.Battle[slot13.emitterType or uv1.Battle.BattleWeaponUnit.EMITTER_SHOTGUN].New(function (slot0, slot1, slot2, slot3)
 				slot4 = uv0:CreateBulletUnit(uv1, uv2, uv3, Vector3.zero)
 
 				slot4:OverrideCorrectedDMG(uv4.damage)
@@ -188,7 +191,13 @@ slot5.bulletSplit = function(slot0, slot1)
 					slot4:SetRotateInfo(nil, slot5, slot2)
 				end
 
-				uv9.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv12:GetTf(), slot4, uv12:GetPosition())
+				if uv12 == uv9.INHERIT_VELOCITY_TEMPLATE then
+					slot4:ResetVelocity(uv6:GetVelocity())
+				elseif uv12 == uv9.INHERIT_VELOCITY_CURRENT then
+					slot4:InheritSpeed(uv6:GetSpeed())
+				end
+
+				uv9.GetFactoryList()[slot4:GetTemplate().type]:CreateBullet(uv13:GetTf(), slot4, uv13:GetPosition())
 			end, function ()
 				uv0:Destroy()
 				uv1:SplitFinishCount()
@@ -198,9 +207,9 @@ slot5.bulletSplit = function(slot0, slot1)
 				end
 			end, slot14)
 
-			slot2:CacheChildEimtter(slot21)
-			slot21:Ready()
-			slot21:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot14).angle)
+			slot2:CacheChildEimtter(slot22)
+			slot22:Ready()
+			slot22:Fire(nil, slot7:GetDirection(), uv1.Battle.BattleDataFunction.GetBarrageTmpDataFromID(slot14).angle)
 		end
 	end
 

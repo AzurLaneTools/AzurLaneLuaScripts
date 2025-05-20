@@ -1,5 +1,6 @@
 slot0 = class("StarLightMedalAlbumView", import("view.base.BaseUI"))
 slot0.ICON_SCALE = 1.35
+slot0.MEDAL_COUNT = 8
 
 slot0.SetMedalGroupData = function(slot0, slot1)
 	slot0.medalGroupList = slot1
@@ -13,7 +14,7 @@ slot0.SetMedalGroupData = function(slot0, slot1)
 
 	slot2 = slot0.currentMedalGroup:getConfig("activity_medal_ids")
 
-	for slot6 = 1, 8 do
+	for slot6 = 1, slot0.MEDAL_COUNT do
 		slot7 = slot2[slot6]
 
 		LoadImageSpriteAsync("activitymedal/" .. slot7 .. "_l", slot0.slots[slot6].slot, true)
@@ -46,7 +47,7 @@ slot0.FindUI = function(slot0)
 	slot0.nextBtn = slot0:findTF("Desk/nextBtn")
 	slot0.slots = {}
 
-	for slot5 = 1, 8 do
+	for slot5 = 1, slot0.MEDAL_COUNT do
 		slot0.slots[slot5] = {
 			slot = slot0._tf:Find("Desk/Slot" .. slot5),
 			active = slot0._tf:Find("Desk/Slot" .. slot5 .. "/active"),
@@ -78,7 +79,7 @@ slot0.AddListener = function(slot0)
 
 	onButton(slot0, slot0.backBtn, slot4, SFX_CANCEL)
 
-	for slot4 = 1, 8 do
+	for slot4 = 1, slot0.MEDAL_COUNT do
 		onButton(slot0, slot0.slots[slot4].click, function ()
 			uv0:showMedalView(uv1)
 		end)
@@ -133,7 +134,7 @@ end
 slot0.UpdateView = function(slot0)
 	slot1 = slot0.currentMedalGroup:GetMedalList()
 
-	for slot5 = 1, 8 do
+	for slot5 = 1, slot0.MEDAL_COUNT do
 		slot7 = slot0.slots[slot5]
 
 		if slot1[slot0.currentMedalGroup:getConfig("activity_medal_ids")[slot5]].timeStamp then

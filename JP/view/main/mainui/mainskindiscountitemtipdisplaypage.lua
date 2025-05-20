@@ -39,7 +39,7 @@ slot0.OnInit = function(slot0)
 		else
 			uv0:UnMarkRemind()
 		end
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 	triggerToggle(slot0.remindBtn, true)
 end
 
