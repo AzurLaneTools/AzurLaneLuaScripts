@@ -980,7 +980,7 @@ return {
 			portrait = 202350,
 			side = 2,
 			bgName = "star_level_bg_590",
-			actorName = "A Rose on the High Tower - The End",
+			actorName = "Cleopatra",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

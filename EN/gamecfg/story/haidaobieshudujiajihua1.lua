@@ -139,7 +139,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"别墅度假岛·码头区",
+				"Villa Resort Island - Pier Area",
 				3
 			},
 			flashout = {

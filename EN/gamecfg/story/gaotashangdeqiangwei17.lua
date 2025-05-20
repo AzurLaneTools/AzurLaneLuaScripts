@@ -669,7 +669,7 @@ return {
 			portrait = 202350,
 			side = 2,
 			bgName = "bg_gaotaqiangwei_1",
-			actorName = "A Rose on the High Tower\n\n<size=45>17 A Different Royal Navy</size>",
+			actorName = "Cleopatra",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
