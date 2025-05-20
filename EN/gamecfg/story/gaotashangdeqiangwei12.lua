@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			say = "The train door slowly opens, amidst Miss D's yelling and the announcements using her voice data.",
 			location = {
-				"银镜湖·「鲸鱼」内部",
+				"Silver Mirror Lake - Inside the whale",
 				3
 			},
 			typewriter = {

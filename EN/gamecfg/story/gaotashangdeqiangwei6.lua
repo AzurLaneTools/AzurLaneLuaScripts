@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "Many of the parts from the Mesektet's experimental phase were a product of compromise, and not all of them could be said to be cutting-edge technology.",
 			location = {
-				"某处空域·辉翼太阳船",
+				"In the air - Aboard the Mesektet",
 				3
 			},
 			typewriter = {
@@ -288,7 +288,7 @@ return {
 			hidePaintObj = true,
 			say = "BWEEEEE!",
 			location = {
-				"皇家·怀特岛",
+				"Royal Islands - Isle of Wight",
 				3
 			},
 			typewriter = {

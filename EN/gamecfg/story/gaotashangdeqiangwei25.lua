@@ -15,7 +15,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·构建者指挥中枢",
+				"Rose Tower - Compiler's command center",
 				3
 			},
 			flashout = {

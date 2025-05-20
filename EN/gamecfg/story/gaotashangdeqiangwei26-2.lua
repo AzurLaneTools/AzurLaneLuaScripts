@@ -81,7 +81,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"第二战区·伊钦河",
+				"2nd combat sector - River Itchen",
 				3
 			}
 		},

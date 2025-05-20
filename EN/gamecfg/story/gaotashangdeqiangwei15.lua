@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			say = "Elizabeth META wandered through the empty void.",
 			location = {
-				"？？？·？？？",
+				"Unknown location",
 				3
 			},
 			typewriter = {

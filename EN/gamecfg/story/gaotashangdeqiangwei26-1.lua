@@ -81,7 +81,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"第二战区·构建者指挥中枢",
+				"2nd combat sector - Compiler's command center",
 				3
 			}
 		},

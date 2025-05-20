@@ -124,7 +124,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·临时作战指挥大厅？",
+				"Rose Tower - Temporary operation command hall",
 				3
 			},
 			flashout = {

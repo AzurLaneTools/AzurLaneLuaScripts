@@ -29433,242 +29433,242 @@ cs.gametip = {
 	},
 	NewMusic_help = {
 		1103955,
-		288,
+		286,
 		true
 	},
 	NewMusic_3 = {
-		1104243,
+		1104241,
 		111,
 		true
 	},
 	NewMusic_4 = {
-		1104354,
+		1104352,
 		112,
 		true
 	},
 	NewMusic_5 = {
-		1104466,
+		1104464,
 		83,
 		true
 	},
 	NewMusic_6 = {
-		1104549,
+		1104547,
 		80,
 		true
 	},
 	NewMusic_7 = {
-		1104629,
+		1104627,
 		100,
 		true
 	},
 	holiday_tip_minigame1 = {
-		1104729,
+		1104727,
 		98,
 		true
 	},
 	holiday_tip_minigame2 = {
-		1104827,
+		1104825,
 		94,
 		true
 	},
 	holiday_tip_bath = {
-		1104921,
+		1104919,
 		93,
 		true
 	},
 	holiday_tip_collection = {
-		1105014,
+		1105012,
 		91,
 		true
 	},
 	holiday_tip_task = {
-		1105105,
+		1105103,
 		88,
 		true
 	},
 	holiday_tip_shop = {
-		1105193,
+		1105191,
 		88,
 		true
 	},
 	holiday_tip_trans = {
-		1105281,
+		1105279,
 		95,
 		true
 	},
 	holiday_tip_task_now = {
-		1105376,
+		1105374,
 		96,
 		true
 	},
 	holiday_tip_finish = {
-		1105472,
+		1105470,
 		259,
 		true
 	},
 	holiday_tip_trans_get = {
-		1105731,
+		1105729,
 		137,
 		true
 	},
 	holiday_tip_rebuild_not = {
-		1105868,
+		1105866,
 		130,
 		true
 	},
 	holiday_tip_trans_not = {
-		1105998,
+		1105996,
 		127,
 		true
 	},
 	holiday_tip_task_finish = {
-		1106125,
+		1106123,
 		135,
 		true
 	},
 	holiday_tip_trans_tip = {
-		1106260,
+		1106258,
 		99,
 		true
 	},
 	holiday_tip_trans_desc1 = {
-		1106359,
+		1106357,
 		348,
 		true
 	},
 	holiday_tip_trans_desc2 = {
-		1106707,
+		1106705,
 		348,
 		true
 	},
 	holiday_tip_gametip = {
-		1107055,
+		1107053,
 		1181,
 		true
 	},
 	holiday_tip_spring = {
-		1108236,
+		1108234,
 		299,
 		true
 	},
 	activity_holiday_function_lock = {
-		1108535,
+		1108533,
 		134,
 		true
 	},
 	storyline_chapter0 = {
-		1108669,
+		1108667,
 		90,
 		true
 	},
 	storyline_chapter1 = {
-		1108759,
+		1108757,
 		91,
 		true
 	},
 	storyline_chapter2 = {
-		1108850,
+		1108848,
 		91,
 		true
 	},
 	storyline_chapter3 = {
-		1108941,
+		1108939,
 		91,
 		true
 	},
 	storyline_chapter4 = {
-		1109032,
+		1109030,
 		91,
 		true
 	},
 	storyline_memorysearch1 = {
-		1109123,
+		1109121,
 		99,
 		true
 	},
 	storyline_memorysearch2 = {
-		1109222,
+		1109220,
 		99,
 		true
 	},
 	use_amount_prefix = {
-		1109321,
+		1109319,
 		93,
 		true
 	},
 	sure_exit_resolve_equip = {
-		1109414,
+		1109412,
 		205,
 		true
 	},
 	resolve_equip_tip = {
-		1109619,
+		1109617,
 		153,
 		true
 	},
 	resolve_equip_title = {
-		1109772,
+		1109770,
 		92,
 		true
 	},
 	tec_catchup_0 = {
-		1109864,
+		1109862,
 		85,
 		true
 	},
 	tec_catchup_confirm = {
-		1109949,
+		1109947,
 		303,
 		true
 	},
 	watermelon_minigame_help = {
-		1110252,
+		1110250,
 		306,
 		true
 	},
 	breakout_tip = {
-		1110558,
+		1110556,
 		98,
 		true
 	},
 	collection_book_lock_place = {
-		1110656,
+		1110654,
 		107,
 		true
 	},
 	collection_book_tag_1 = {
-		1110763,
+		1110761,
 		101,
 		true
 	},
 	collection_book_tag_2 = {
-		1110864,
+		1110862,
 		97,
 		true
 	},
 	collection_book_tag_3 = {
-		1110961,
+		1110959,
 		103,
 		true
 	},
 	challenge_minigame_unlock = {
-		1111064,
+		1111062,
 		104,
 		true
 	},
 	storyline_camp = {
-		1111168,
+		1111166,
 		87,
 		true
 	},
 	storyline_goto = {
-		1111255,
+		1111253,
 		92,
 		true
 	},
 	holiday_villa_locked = {
-		1111347,
-		150,
+		1111345,
+		162,
 		true
 	}
 }

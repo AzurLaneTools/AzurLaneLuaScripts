@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			say = "Your Majesty, this island appears to be rather dangerous.",
 			location = {
-				"？？？·列车停泊地",
+				"Unknown location - Queen's Light's stopping point",
 				3
 			},
 			typewriter = {

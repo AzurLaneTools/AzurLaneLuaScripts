@@ -15,7 +15,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·顶部露台",
+				"Rose Tower - Terrace",
 				3
 			},
 			flashout = {

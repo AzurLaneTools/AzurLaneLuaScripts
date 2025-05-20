@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "Compiler's transport plan proved a lot simpler than I anticipated.",
 			location = {
-				"皇家·布里斯托尔湾",
+				"Royal Islands - Bristol Channel",
 				3
 			},
 			typewriter = {

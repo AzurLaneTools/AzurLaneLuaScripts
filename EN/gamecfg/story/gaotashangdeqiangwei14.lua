@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "Once the light fades, I find myself in a wasteland I've never seen before.",
 			location = {
-				"？？？·？？？",
+				"Unknown location",
 				3
 			},
 			typewriter = {
