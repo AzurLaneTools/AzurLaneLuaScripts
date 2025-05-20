@@ -5528,7 +5528,7 @@ pg.base.memory_group = {
 		}
 	},
 	[328] = {
-		title = "",
+		title = "Midsummer Returns! The Villa Reconstruction",
 		subtype = 2,
 		link_event = 5952,
 		type = 2,
@@ -5566,7 +5566,7 @@ pg.base.memory_group = {
 		}
 	},
 	[329] = {
-		title = "高塔上的蔷薇",
+		title = "A Rose on the High Tower",
 		subtype = 1,
 		link_event = 5941,
 		type = 2,

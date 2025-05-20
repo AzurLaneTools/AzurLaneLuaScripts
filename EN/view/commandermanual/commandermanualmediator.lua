@@ -51,7 +51,7 @@ slot0.handleNotification = function(slot0, slot1)
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
 		end
 
-		if slot0.viewComponent.contextData.currentPageId and table.contains(getProxy(CommanderManualProxy):GetPageById(slot0.viewComponent.contextData.currentPageId).taskIdList, slot4[1]) then
+		if slot0.viewComponent.contextData.currentPageId and table.contains(getProxy(CommanderManualProxy):GetPageById(slot0.viewComponent.contextData.currentPageId).taskIdList, slot4[1]) and not slot6:IsTaskComplete(slot5) then
 			slot6:AddFinishedTaskId(slot5)
 			slot6:AddPt()
 		end

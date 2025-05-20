@@ -31107,21 +31107,21 @@ pg.activity_template = {
 			taskConfig = {
 				{
 					1,
-					"SP首次通关",
+					"SP Stage First Clear",
 					{
 						21741
 					}
 				},
 				{
 					2,
-					"每日SP通关",
+					"Daily SP Stage Clear",
 					{
 						1920041
 					}
 				},
 				{
 					3,
-					"每日随机进阶任务",
+					"Random Daily Missions",
 					{
 						23643,
 						23644,
@@ -31142,7 +31142,7 @@ pg.activity_template = {
 				},
 				{
 					4,
-					"挑战型任务",
+					"Challenge Missions",
 					{
 						23658,
 						23659,
@@ -31153,14 +31153,14 @@ pg.activity_template = {
 				},
 				{
 					5,
-					"参与小游戏",
+					"Minigame",
 					{
 						76
 					}
 				},
 				{
 					6,
-					"Pt商店购买",
+					"Event Exchange",
 					{
 						3004
 					}
@@ -31773,7 +31773,7 @@ pg.activity_template = {
 			{
 				0,
 				0,
-				10,
+				0,
 				1,
 				10
 			},

@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "After confirming the presence of X's subjugative corrosion on the island, Elizabeth META immediately ordered everyone back into the Queen's Light.",
 			location = {
-				"某处空域·女王之光号",
+				"Unknown location - Queen's Light",
 				3
 			},
 			typewriter = {

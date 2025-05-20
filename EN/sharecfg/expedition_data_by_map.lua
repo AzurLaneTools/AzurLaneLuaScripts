@@ -22747,7 +22747,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920001] = {
 		map = 1920001,
-		name = "高塔上的蔷薇 - PT.1|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-brokenworld-sad",
 		type = 4,
 		anchor = "",
@@ -22847,7 +22847,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920002] = {
 		map = 1920002,
-		name = "高塔上的蔷薇 - PT.2|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-royalnavy-serious",
 		type = 4,
 		anchor = "",
@@ -22947,7 +22947,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920011] = {
 		map = 1920011,
-		name = "高塔上的蔷薇 - PT.1|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 1|| ||CHAPTER EX||E.X.",
 		bgm = "theme-brokenworld-sad",
 		type = 5,
 		anchor = "",
@@ -23047,7 +23047,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920012] = {
 		map = 1920012,
-		name = "高塔上的蔷薇 - PT.2|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - Pt. 2|| ||CHAPTER EX||E.X.",
 		bgm = "story-royalnavy-serious",
 		type = 5,
 		anchor = "",
@@ -23147,7 +23147,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920025] = {
 		map = 1920025,
-		name = "高塔上的蔷薇·SP|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - SP|| ||CHAPTER EX||E.X.",
 		bgm = "theme-glorious-meta",
 		type = 8,
 		anchor = "",
@@ -23238,7 +23238,7 @@ pg.base.expedition_data_by_map = {
 	},
 	[1920026] = {
 		map = 1920026,
-		name = "高塔上的蔷薇·EX|| ||CHAPTER EX||E.X.",
+		name = "A Rose on the High Tower - EX|| ||CHAPTER EX||E.X.",
 		bgm = "theme-lion",
 		type = 8,
 		anchor = "",

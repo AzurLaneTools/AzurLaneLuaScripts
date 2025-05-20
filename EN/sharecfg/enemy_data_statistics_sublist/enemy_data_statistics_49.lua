@@ -1,5 +1,98 @@
 pg = pg or {}
 pg.enemy_data_statistics_49 = {
+	[8002] = {
+		id = 8002,
+		hit_growth = 120,
+		speed_growth = 0,
+		luck_growth = 0,
+		air = 0,
+		antiaircraft_growth = 1584,
+		armor = 0,
+		air_growth = 0,
+		cannon = 60,
+		fog_fx = "",
+		dodge_growth = 0,
+		icon = "changliangdanchuan",
+		star = 2,
+		antisub_growth = 0,
+		rarity = 1,
+		base = 90109,
+		durability = 460,
+		armor_growth = 0,
+		torpedo_growth = 1422,
+		speed = 15,
+		luck = 0,
+		antisub = 0,
+		prefab = "changliangdanchuan",
+		cannon_growth = 500,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 8,
+		torpedo = 180,
+		durability_growth = 14000,
+		antiaircraft = 19,
+		battle_unit_type = 25,
+		bound_bone = {
+			cannon = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.17,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			318098,
+			100427
+		}
+	},
 	[8003] = {
 		cannon = 90,
 		hit_growth = 120,
@@ -1362,43 +1455,6 @@ pg.enemy_data_statistics_49 = {
 		equipment_list = {
 			318029,
 			318030
-		}
-	},
-	[9011] = {
-		cannon = 95,
-		antisub = 0,
-		air = 0,
-		cannon_growth = 616,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		base = 90165,
-		dodge = 18,
-		torpedo_growth = 5200,
-		air_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 270,
-		speed_growth = 0,
-		star = 4,
-		hit = 20,
-		antisub_growth = 0,
-		rarity = 3,
-		luck_growth = 0,
-		torpedo = 230,
-		durability = 4500,
-		armor_growth = 0,
-		durability_growth = 26000,
-		antiaircraft = 105,
-		speed = 36,
-		luck = 0,
-		hit_growth = 210,
-		battle_unit_type = 50,
-		id = 9011,
-		antiaircraft_growth = 2200,
-		armor = 0,
-		fog_fx = "",
-		equipment_list = {
-			318031,
-			318032
 		}
 	}
 }

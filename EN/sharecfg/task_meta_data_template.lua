@@ -2804,7 +2804,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100431,
 		target_num = 1,
-		desc = "使用光荣·META获得1次胜利"
+		desc = "Win 1 battle with Glorious META in your fleet."
 	},
 	[100432] = {
 		target_id = "30",
@@ -2812,7 +2812,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100432,
 		target_num = 1,
-		desc = "使用光荣·META击破等级＞30的敌方1次"
+		desc = "Defeat a Lv. 30+ fleet with Glorious META in your fleet."
 	},
 	[100433] = {
 		target_id = "55",
@@ -2820,7 +2820,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100433,
 		target_num = 1,
-		desc = "使用光荣·META击破等级＞55的敌方1次"
+		desc = "Defeat a Lv. 55+ fleet with Glorious META in your fleet."
 	},
 	[100434] = {
 		target_id = "80",
@@ -2828,7 +2828,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100434,
 		target_num = 1,
-		desc = "使用光荣·META击破等级＞80的敌方1次"
+		desc = "Defeat a Lv. 80+ fleet with Glorious META in your fleet."
 	},
 	[100435] = {
 		target_id = "100",
@@ -2836,7 +2836,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 100435,
 		target_num = 1,
-		desc = "使用光荣·META击破等级＞100的敌方1次"
+		desc = "Defeat a Lv. 100+ fleet with Glorious META in your fleet."
 	},
 	[200001] = {
 		target_id = "0",
@@ -3868,7 +3868,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200341,
 		target_num = 1,
-		desc = "大型作战内使用光荣·META获得1次胜利"
+		desc = "Win 1 Operation Siren battle with Glorious META in your fleet."
 	},
 	[200342] = {
 		target_id = "70",
@@ -3876,7 +3876,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200342,
 		target_num = 1,
-		desc = "大型作战内使用光荣·META击破等级＞70的敌方1次"
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Glorious META in your fleet."
 	},
 	[200343] = {
 		target_id = "90",
@@ -3884,7 +3884,7 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200343,
 		target_num = 1,
-		desc = "大型作战内使用光荣·META击破等级＞90的敌方1次"
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Glorious META in your fleet."
 	},
 	[200344] = {
 		target_id = "100",
@@ -3892,6 +3892,6 @@ pg.base.task_meta_data_template = {
 		target_id_2 = "970707",
 		id = 200344,
 		target_num = 1,
-		desc = "大型作战内使用光荣·META击破等级＞100的敌方1次"
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Glorious META in your fleet."
 	}
 }

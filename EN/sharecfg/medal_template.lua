@@ -2545,7 +2545,7 @@ pg.medal_template = {
 		condition = "Collect 8 stickers in A Rose on the High Tower.",
 		rank = 1,
 		id = 200051,
-		explain1 = "A Rose on the High Tower.",
+		explain1 = "A Rose on the High Tower",
 		explain2 = "Event"
 	},
 	[200061] = {
@@ -2566,7 +2566,7 @@ pg.medal_template = {
 		condition = "Collect 7 stickers in Midsummer Returns: The Villa Reconstruction.",
 		rank = 1,
 		id = 200061,
-		explain1 = "The Villa Reconstruction.",
+		explain1 = "Villa Resort",
 		explain2 = "Event"
 	},
 	all = {

@@ -115,7 +115,7 @@ pg.activity_holiday_site = {
 		}
 	},
 	{
-		name = "货物码头区",
+		name = "Pier Area",
 		jumpto = "HolidayVillaWharfUI",
 		type = 2,
 		id = 7,
@@ -127,7 +127,7 @@ pg.activity_holiday_site = {
 		}
 	},
 	{
-		name = "合成大舰船",
+		name = "Shipgirl Game",
 		jumpto = "",
 		type = 2,
 		id = 8,
@@ -139,7 +139,7 @@ pg.activity_holiday_site = {
 		}
 	},
 	{
-		name = "啾啾打捞团",
+		name = "Manjuu Salvaging Crew",
 		jumpto = "",
 		type = 2,
 		id = 9,
@@ -151,7 +151,7 @@ pg.activity_holiday_site = {
 		}
 	},
 	{
-		name = "啾啾温泉",
+		name = "Vacay Thermae",
 		jumpto = "",
 		type = 2,
 		id = 10,
@@ -489,7 +489,7 @@ pg.activity_holiday_site = {
 				"Living Room"
 			},
 			{
-				"The spacious and well-lit living room of the villa. A cushy couch stands in front of the floor-to-ceiling windows, beyond which a picturesque ocean stretches on.\n近There is an exhibit featuring some items repurposed by the Recyclers, who've been trending lately. These items produce a unique atmosphere."
+				"The spacious and well-lit living room of the villa. A cushy couch stands in front of the floor-to-ceiling windows, beyond which a picturesque ocean stretches on.\nThere is an exhibit featuring some items repurposed by the Recyclers, who've been trending lately. These items produce a unique atmosphere."
 			},
 			{
 				"HolidayIcon/41"

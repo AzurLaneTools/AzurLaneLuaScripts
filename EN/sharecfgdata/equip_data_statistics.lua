@@ -173882,7 +173882,7 @@ _G.pg.base.equip_data_statistics[170762] = {
 
 
 _G.pg.base.equip_data_statistics[170771] = {
-	name = "专属弹幕-克利奥佩特拉I",
+	name = "All Out Assault I",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -173926,7 +173926,7 @@ _G.pg.base.equip_data_statistics[170771] = {
 
 
 _G.pg.base.equip_data_statistics[170772] = {
-	name = "专属弹幕-克利奥佩特拉II",
+	name = "All Out Assault II",
 	base = 170771,
 	id = 170772,
 	weapon_id = {
@@ -173937,7 +173937,7 @@ _G.pg.base.equip_data_statistics[170772] = {
 
 
 _G.pg.base.equip_data_statistics[170781] = {
-	name = "专属弹幕-特拉法尔加",
+	name = "All Out Assault",
 	tech = 1,
 	speciality = "<[NA]>",
 	type = 1,
@@ -173981,7 +173981,7 @@ _G.pg.base.equip_data_statistics[170781] = {
 
 
 _G.pg.base.equip_data_statistics[170782] = {
-	name = "专属弹幕-特拉法尔加",
+	name = "All Out Assault",
 	base = 170781,
 	id = 170782,
 	weapon_id = {

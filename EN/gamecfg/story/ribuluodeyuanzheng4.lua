@@ -622,13 +622,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "???",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "I should go.",
 			typewriter = {
 				speed = 0.05,
@@ -636,13 +635,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "???",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "It's time.",
 			typewriter = {
 				speed = 0.05,
@@ -779,13 +777,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "???",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "No.",
 			typewriter = {
 				speed = 0.05,
@@ -807,13 +804,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "???",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "Don't wanna.",
 			typewriter = {
 				speed = 0.05,

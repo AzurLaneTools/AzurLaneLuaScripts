@@ -38432,7 +38432,7 @@ _G.pg.base.gametip.handbook_task_locked_by_chapter = {
 
 
 _G.pg.base.gametip.handbook_name = {
-	tip = "Commander Handbook"
+	tip = "Handbook"
 }
 
 
@@ -38492,7 +38492,7 @@ _G.pg.base.gametip.handbook_research_confirm = {
 
 
 _G.pg.base.gametip.handbook_research_final_task_desc_locked = {
-	tip = "Clear all $1 development missions to unlock the final missions for this phase."
+	tip = "Clear all $1 development missions to \nunlock the final missions for this phase."
 }
 
 
@@ -38618,7 +38618,7 @@ _G.pg.base.gametip.holiday_tip_task_now = {
 
 
 _G.pg.base.gametip.holiday_tip_finish = {
-	tip = "You have completed <color=#5f984d>all resort reconstruction missions</color>. Your remaining reconstruction materials can be exchanged for <color=#5f984d>villa coins</color>."
+	tip = "You have completed <color=#5f984d>all resort reconstruction missions</color>. \nYour remaining reconstruction materials can be exchanged for <color=#5f984d>villa coins</color>."
 }
 
 
@@ -38784,7 +38784,7 @@ _G.pg.base.gametip.watermelon_minigame_help = {
 
 
 _G.pg.base.gametip.breakout_tip = {
-	tip = "Increases star rating"
+	tip = "*Increases star rating"
 }
 
 
@@ -38820,4 +38820,9 @@ _G.pg.base.gametip.storyline_camp = {
 
 _G.pg.base.gametip.storyline_goto = {
 	tip = "Check Memories"
+}
+
+
+_G.pg.base.gametip.holiday_villa_locked = {
+	tip = "完成<color=#92fc63>假日别墅筹备中</color>活动后解锁"
 }

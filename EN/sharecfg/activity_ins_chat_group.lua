@@ -5299,7 +5299,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "百密一疏",
+		name = "Everyone Makes Mistakes",
 		id = 117,
 		trigger_param = "",
 		unlock_desc = "Obtain the character.",
@@ -5333,7 +5333,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "你所期望的惩罚",
+		name = "The Punishment You Desire",
 		id = 118,
 		trigger_param = "100",
 		unlock_desc = "Raise the character's Affinity to 100.",
@@ -5375,7 +5375,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20516,
-		name = "彼此的信物",
+		name = "Our Symbol",
 		id = 119,
 		trigger_param = "150",
 		unlock_desc = "Raise the character's Affinity to 150.",
@@ -5419,7 +5419,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "罪孽深重之人",
+		name = "Deeply Sinful",
 		id = 120,
 		trigger_param = "",
 		unlock_desc = "Obtain the character.",
@@ -5457,7 +5457,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "距离感",
+		name = "Sense of Distance",
 		id = 121,
 		trigger_param = "100",
 		unlock_desc = "Raise the character's Affinity to 100.",
@@ -5498,7 +5498,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20138,
-		name = "指挥官研究进行中",
+		name = "Notes on the Commander",
 		id = 122,
 		trigger_param = "150",
 		unlock_desc = "Raise the character's Affinity to 150.",
@@ -5542,7 +5542,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "尼罗河粽子",
+		name = "Nile Wrap",
 		id = 123,
 		trigger_param = "",
 		unlock_desc = "Obtain the character.",
@@ -5579,7 +5579,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "招财狮身人面像",
+		name = "Beckoning Sphinx",
 		id = 124,
 		trigger_param = "100",
 		unlock_desc = "Raise the character's Affinity to 100.",
@@ -5612,7 +5612,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20235,
-		name = "从未失去",
+		name = "Where You Least Expect It",
 		id = 125,
 		trigger_param = "150",
 		unlock_desc = "Raise the character's Affinity to 150.",
@@ -5655,7 +5655,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "惊喜",
+		name = "Surprise",
 		id = 126,
 		trigger_param = "",
 		unlock_desc = "Obtain the character.",
@@ -5695,7 +5695,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "七彩按摩仪",
+		name = "Rainbow Massager",
 		id = 127,
 		trigger_param = "100",
 		unlock_desc = "Raise the character's Affinity to 100.",
@@ -5734,7 +5734,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20139,
-		name = "各自的工作",
+		name = "Your Duties, My Duties",
 		id = 128,
 		trigger_param = "150",
 		unlock_desc = "Raise the character's Affinity to 150.",
@@ -5785,7 +5785,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "握住我的手",
+		name = "Hold My Hand",
 		id = 129,
 		trigger_param = "",
 		unlock_desc = "Obtain the character.",
@@ -5825,7 +5825,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "我会一直注视着你",
+		name = "I'm Always Watching",
 		id = 130,
 		trigger_param = "100",
 		unlock_desc = "Raise the character's Affinity to 100.",
@@ -5865,7 +5865,7 @@ pg.activity_ins_chat_group = {
 	},
 	{
 		ship_group = 20236,
-		name = "猎人与猎手",
+		name = "The Hunter and the Hunted",
 		id = 131,
 		trigger_param = "150",
 		unlock_desc = "Raise the character's Affinity to 150.",

@@ -115,7 +115,7 @@ end
 
 slot0.ShowTaskSubmitCall = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.commanderManualPages) do
-		if table.contains(slot6.taskIdList, slot1) then
+		if table.contains(slot6.taskIdList, slot1) and not slot6:IsTaskComplete(slot1) then
 			slot6:AddFinishedTaskId(slot1)
 			slot6:AddPt()
 

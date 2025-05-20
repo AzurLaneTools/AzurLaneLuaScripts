@@ -121,13 +121,13 @@ pg.item_data_battleui = {
 		scene = {}
 	},
 	[204] = {
-		unlock = "海滨假日战斗主题礼包获取",
-		name = "海滨假日",
+		unlock = "Buy the Battle UI Pack - Seaside Splash",
+		name = "Battle UI - Seaside Splash",
 		key = "SkinElite_20250520",
 		display_icon = "ui_204",
 		is_unlock = 1,
 		rare = 4,
-		desc = "贝壳图案点缀在海浪界面之间，辅以沙滩木牌等要素，营造出轻松悠闲的海滨度假氛围。",
+		desc = "Planks placed in the sand and white-crested waves adorned with seashells. A leisurely vacation on the beach.",
 		id = 204,
 		icon = "204",
 		scene = {}

@@ -163152,7 +163152,7 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		name = "Glory of Days Bygone",
 		type = 2,
 		max_level = 10,
-		desc = "Every 20s: $1 chance to perform a $3 headbutt on the enemy with the lowest HP and shorten the reload time of this ship's mid-reload torpedoes by 3s. 3s after Glowworm Assault activates, the following takes effect:\n1) If this ship sustained DMG equal to or exceeding 8.0% of her max HP during the above effect, she evades DMG taken from enemy shells and ramming the enemy for 2s;\n2) If this ship sunk an enemy: restores $2 of this ship's max HP.",
+		desc = "When this ship launches an airstrike: for 8s, decreases your Vanguard's DMG taken by $1 and increases their DMG dealt by $1 (does not stack with the skills Fleet Carrier or Air Cover).",
 		id = 801750,
 		system_transform = {},
 		world_death_mark = {

@@ -15365,9 +15365,9 @@ _G.pg.base.item_data_statistics[21046] = {
 
 _G.pg.base.item_data_statistics[21048] = {
 	open_directly = 0,
-	name = "结晶：光荣·META",
+	name = "META Crystal – Glorious META",
 	type = 4,
-	display = "光荣·META的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	display = "An item that increases the potential of Glorious META. Used in the META Lab during Somatic Activation.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_undefined",
@@ -26170,9 +26170,9 @@ _G.pg.base.item_data_statistics[30367] = {
 
 _G.pg.base.item_data_statistics[30368] = {
 	open_directly = 1,
-	name = "外观装备箱(海滨假日)",
+	name = "Gear Skin Box (Seaside)",
 	type = 11,
-	display = "可以获得一件随机的海滨假日风格外观装备",
+	display = "Contains a random gear skin.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -39212,9 +39212,9 @@ _G.pg.base.item_data_statistics[30554] = {
 
 _G.pg.base.item_data_statistics[30555] = {
 	open_directly = 0,
-	name = "定向外观装备箱(海滨假日)",
+	name = "Selection Gear Skin Box (Seaside)",
 	type = 13,
-	display = "使用后可从「海滨假日」主题外观装备中任意选择一种获得1个",
+	display = "Can be opened to receive 1 Seaside-themed gear skin of your choosing.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop_appointed",
@@ -42902,9 +42902,9 @@ _G.pg.base.item_data_statistics[40059] = {
 
 _G.pg.base.item_data_statistics[40060] = {
 	open_directly = 1,
-	name = "海滨假日主题礼包(基础版)",
+	name = "Battle UI Pack - Seaside Splash (Basic)",
 	type = 17,
-	display = "购买礼包可获得战斗界面主题 海滨假日*1,1000物资",
+	display = "Contains the Battle UI - Seaside Splash theme and 1,000 Coins.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -42944,9 +42944,9 @@ _G.pg.base.item_data_statistics[40060] = {
 
 _G.pg.base.item_data_statistics[40061] = {
 	open_directly = 1,
-	name = "海滨假日主题礼包(豪华版)",
+	name = "Battle UI Pack - Seaside Splash (Premium)",
 	type = 17,
-	display = "购买礼包可获得战斗界面主题 海滨假日*1,3060钻石",
+	display = "Contains the Battle UI - Seaside Splash theme and 3,060 Gems.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_drop",
@@ -101052,7 +101052,7 @@ _G.pg.base.item_data_statistics[60544] = {
 	open_directly = 0,
 	name = "Rookie Mission Invitation",
 	type = 21,
-	display = "使用后可以邀请<color=#92fc63FF>{namecode:182}</color>或<color=#92fc63FF>{namecode:199}</color>中的一名角色进入港区",
+	display = "Use to choose between and receive either <color=#92fc63FF>Shinano</color> or <color=#92fc63FF>New Jersey</color>.",
 	other_resource_cost = "[]",
 	replace_item = 0,
 	usage = "usage_invitation",

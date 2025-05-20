@@ -155,6 +155,14 @@ slot0.ExchangeAndSiteClick = function(slot0)
 			slot0:emit(HolidayVillaMapMediator.SITE_CLICKED, slot0.activityId, slot7.site_id)
 		end
 	end
+
+	for slot5, slot6 in ipairs(uv1.all) do
+		if uv1[slot6].type == 1 and table.contains(slot0.clickedSiteIds, slot7.id) and not pg.NewStoryMgr.GetInstance():IsPlayed(slot7.jumpto) then
+			pg.m02:sendNotification(GAME.STORY_UPDATE, {
+				storyId = slot7.jumpto
+			})
+		end
+	end
 end
 
 slot0.ShowMap = function(slot0)

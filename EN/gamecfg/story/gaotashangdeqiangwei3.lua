@@ -67,7 +67,7 @@ return {
 			hidePaintObj = true,
 			say = "Haha! Hahahaha! Haaahahah!",
 			location = {
-				"？？？·未知海域",
+				"??? - Unknown sea",
 				3
 			},
 			typewriter = {

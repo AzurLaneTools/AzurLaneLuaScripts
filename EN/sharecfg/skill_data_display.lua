@@ -10904,7 +10904,7 @@ pg.base.skill_data_display = {
 	},
 	[151302] = {
 		id = 151302,
-		name = "运筹帷幄之中"
+		name = "Thus Moves the King"
 	},
 	[151312] = {
 		id = 151312,
@@ -13544,7 +13544,7 @@ pg.base.skill_data_display = {
 	},
 	[30461] = {
 		id = 30461,
-		name = "All Out Assault I"
+		name = "All Out Assault II"
 	},
 	[30462] = {
 		id = 30462,

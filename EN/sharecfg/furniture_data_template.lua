@@ -20945,7 +20945,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[303] = {
 		can_rotate = 0,
 		name = "Miniature Rose Tower",
-		gain_by = "高塔上的蔷薇",
+		gain_by = "A Rose on the High Tower",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,
@@ -20982,7 +20982,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	[304] = {
 		can_rotate = 0,
 		name = "The Villa Reconstruction Commemoration",
-		gain_by = "夏日重建！海岛别墅度假计划！",
+		gain_by = "Midsummer Returns! The Villa Reconstruction",
 		type = 7,
 		dir = 0,
 		dorm_id = 0,

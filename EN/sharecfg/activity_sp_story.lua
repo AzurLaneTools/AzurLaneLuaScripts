@@ -3312,7 +3312,7 @@ pg.activity_sp_story = {
 	[191] = {
 		story_type = 1,
 		pre_event = "",
-		name = "EPS-1 新时代领航人",
+		name = "EPS-1 The Usherer of a New Age",
 		change_prefab = "",
 		unlock_conditions = "",
 		change_background = "star_level_bg_538",
@@ -3323,7 +3323,7 @@ pg.activity_sp_story = {
 	},
 	[192] = {
 		story_type = 1,
-		name = "EP1-1 死寂之地",
+		name = "EP1-1 The Dead Land",
 		change_prefab = "",
 		unlock_conditions = "Clear EPS-1.",
 		change_background = "bg_gaotaqiangwei_1",
@@ -3342,7 +3342,7 @@ pg.activity_sp_story = {
 	},
 	[193] = {
 		story_type = 1,
-		name = "EP2-1 辉翼太阳船",
+		name = "EP2-1 The Mesektet",
 		change_prefab = "",
 		unlock_conditions = "Clear EP1-1.",
 		change_background = "bg_gaotaqiangwei_1",
@@ -3361,7 +3361,7 @@ pg.activity_sp_story = {
 	},
 	[194] = {
 		story_type = 1,
-		name = "EP2-2 残骸潮",
+		name = "EP2-2 Rising Tide",
 		change_prefab = "",
 		unlock_conditions = "Clear EP2-1.",
 		change_background = "star_level_bg_590",
@@ -3380,7 +3380,7 @@ pg.activity_sp_story = {
 	},
 	[195] = {
 		story_type = 1,
-		name = "EP1-2 时间的差速",
+		name = "EP1-2 Time-Flow Differentials",
 		change_prefab = "",
 		unlock_conditions = "Clear EP2-2.",
 		change_background = "bg_gaotaqiangwei_cg2",
@@ -3399,7 +3399,7 @@ pg.activity_sp_story = {
 	},
 	[196] = {
 		story_type = 1,
-		name = "EP2-3 陆地与敌人",
+		name = "EP2-3 Landfall and Adversaries",
 		change_prefab = "",
 		unlock_conditions = "Clear EP1-2.",
 		change_background = "star_level_bg_306",
@@ -3418,7 +3418,7 @@ pg.activity_sp_story = {
 	},
 	[197] = {
 		story_type = 1,
-		name = "EPS-2 例行战况统计",
+		name = "EPS-2 Eyes on the Battle",
 		change_prefab = "",
 		unlock_conditions = "Clear EP2-3.",
 		change_background = "star_level_bg_538",
@@ -3438,7 +3438,7 @@ pg.activity_sp_story = {
 	},
 	[198] = {
 		story_type = 2,
-		name = "EP3-1 车与船",
+		name = "EP3-1 The Train and the Barque",
 		change_prefab = "",
 		unlock_conditions = "Clear EPS-2.",
 		change_background = "star_level_bg_600",
@@ -3457,7 +3457,7 @@ pg.activity_sp_story = {
 	},
 	[199] = {
 		story_type = 1,
-		name = "EP3-2 蔷薇塔的幸存者",
+		name = "EP3-2 Survivors of the Rose Tower",
 		change_prefab = "",
 		unlock_conditions = "Clear EP3-1.",
 		change_background = "bg_gaotaqiangwei_cg3",
@@ -3476,7 +3476,7 @@ pg.activity_sp_story = {
 	},
 	[200] = {
 		story_type = 1,
-		name = "EP3-3 伊丽莎白不存在的世界",
+		name = "EP3-3 A World Without Elizabeth",
 		change_prefab = "",
 		unlock_conditions = "Clear EP3-2.",
 		change_background = "bg_gaotaqiangwei_1",
@@ -3495,7 +3495,7 @@ pg.activity_sp_story = {
 	},
 	[201] = {
 		story_type = 1,
-		name = "EP3-4 满月之蕾",
+		name = "EP3-4 Buds of the New Moon",
 		change_prefab = "",
 		unlock_conditions = "Clear EP3-3.",
 		change_background = "star_level_bg_559",
@@ -3514,7 +3514,7 @@ pg.activity_sp_story = {
 	},
 	[202] = {
 		story_type = 1,
-		name = "EPS-3 鲸鱼调查",
+		name = "EPS-3 Inspecting the Whale",
 		change_prefab = "",
 		unlock_conditions = "Clear EP3-4.",
 		change_background = "bg_gaotaqiangwei_1",
@@ -3533,7 +3533,7 @@ pg.activity_sp_story = {
 	},
 	[203] = {
 		story_type = 1,
-		name = "EP4-1 危机升级",
+		name = "EP4-1 Danger Intensifies",
 		change_prefab = "",
 		unlock_conditions = "Clear EPS-3.",
 		change_background = "star_level_bg_538",
@@ -3552,7 +3552,7 @@ pg.activity_sp_story = {
 	},
 	[204] = {
 		story_type = 1,
-		name = "EP5-1 探索未知之地",
+		name = "EP5-1 Exploring the Unknown",
 		change_prefab = "",
 		unlock_conditions = "Clear EP4-1.",
 		change_background = "bg_gaotaqiangwei_2",
@@ -3571,7 +3571,7 @@ pg.activity_sp_story = {
 	},
 	[205] = {
 		story_type = 1,
-		name = "EP4-2 越界洞察",
+		name = "EP4-2 Transcendental Insight",
 		change_prefab = "",
 		unlock_conditions = "Clear EP5-1.",
 		change_background = "star_level_bg_538",
@@ -3590,7 +3590,7 @@ pg.activity_sp_story = {
 	},
 	[206] = {
 		story_type = 1,
-		name = "EP5-2 稳健的构建者",
+		name = "EP5-2 Compiler the Reliable",
 		change_prefab = "",
 		unlock_conditions = "Clear EP4-2.",
 		change_background = "bg_gaotaqiangwei_1",
@@ -3609,7 +3609,7 @@ pg.activity_sp_story = {
 	},
 	[207] = {
 		story_type = 1,
-		name = "EP4-3 截然不同的皇家",
+		name = "EP4-3 A Different Royal Navy",
 		change_prefab = "",
 		unlock_conditions = "Clear EP5-2.",
 		change_background = "bg_gaotaqiangwei_cg4",
@@ -3628,7 +3628,7 @@ pg.activity_sp_story = {
 	},
 	[208] = {
 		story_type = 2,
-		name = "EPS-4 过于稳健的构建者",
+		name = "EPS-4 Compiler the Overly Reliable",
 		change_prefab = "",
 		unlock_conditions = "Clear EP4-3.",
 		change_background = "star_level_bg_306",
@@ -3648,7 +3648,7 @@ pg.activity_sp_story = {
 	},
 	[209] = {
 		story_type = 1,
-		name = "EP6-1 进攻计划",
+		name = "EP6-1 Invasion Plan",
 		change_prefab = "",
 		unlock_conditions = "Clear EPS-4.",
 		change_background = "bg_gaotaqiangwei_1",
@@ -3667,7 +3667,7 @@ pg.activity_sp_story = {
 	},
 	[210] = {
 		story_type = 1,
-		name = "EP6-2 以永日之名",
+		name = "EP6-2 In the Name of the Eternal Sun",
 		change_prefab = "",
 		unlock_conditions = "Clear EP6-1.",
 		change_background = "bg_gaotaqiangwei_2",
@@ -3686,7 +3686,7 @@ pg.activity_sp_story = {
 	},
 	[211] = {
 		story_type = 1,
-		name = "EP6-3 领域外之桥",
+		name = "EP6-3 Bridge to the Beyond",
 		change_prefab = "",
 		unlock_conditions = "Clear EP6-2.",
 		change_background = "star_level_bg_306",
@@ -3705,7 +3705,7 @@ pg.activity_sp_story = {
 	},
 	[212] = {
 		story_type = 1,
-		name = "EP7-1 更宏大的计划",
+		name = "EP7-1 Greater Plans",
 		change_prefab = "",
 		unlock_conditions = "Clear EP6-3.",
 		change_background = "bg_cccpv2_9",
@@ -3724,7 +3724,7 @@ pg.activity_sp_story = {
 	},
 	[213] = {
 		story_type = 1,
-		name = "EP7-2 米哈伊尔",
+		name = "EP7-2 Admiral Mikhail",
 		change_prefab = "",
 		unlock_conditions = "Clear EP7-1.",
 		change_background = "bg_gaotaqiangwei_cg5",
@@ -3743,7 +3743,7 @@ pg.activity_sp_story = {
 	},
 	[214] = {
 		story_type = 1,
-		name = "EP7-3 光荣的茶会",
+		name = "EP7-3 Tea Party with Glorious",
 		change_prefab = "",
 		unlock_conditions = "Clear EP7-2.",
 		change_background = "bg_gaotaqiangwei_2",
@@ -3762,7 +3762,7 @@ pg.activity_sp_story = {
 	},
 	[215] = {
 		story_type = 1,
-		name = "EP8-1 战争准备",
+		name = "EP8-1 Preparing for War",
 		change_prefab = "",
 		unlock_conditions = "Clear EP7-3.",
 		change_background = "star_level_bg_538",
@@ -3781,7 +3781,7 @@ pg.activity_sp_story = {
 	},
 	[216] = {
 		story_type = 2,
-		name = "EP8-2 第二类拟态体",
+		name = "EP8-2 Class II Mimic Entities",
 		change_prefab = "",
 		unlock_conditions = "Clear EP8-1.",
 		change_background = "star_level_bg_115",
@@ -3800,7 +3800,7 @@ pg.activity_sp_story = {
 	},
 	[217] = {
 		story_type = 1,
-		name = "EP8-3 摇摇欲坠",
+		name = "EP8-3 By a Hair",
 		change_prefab = "",
 		unlock_conditions = "Clear EP8-2.",
 		change_background = "star_level_bg_535",
@@ -3819,7 +3819,7 @@ pg.activity_sp_story = {
 	},
 	[218] = {
 		story_type = 1,
-		name = "EP8-4 光荣的选择",
+		name = "EP8-4 Glorious' Choice",
 		change_prefab = "",
 		unlock_conditions = "Clear EP8-3.",
 		change_background = "star_level_bg_600",
@@ -3838,9 +3838,9 @@ pg.activity_sp_story = {
 	},
 	[219] = {
 		story_type = 1,
-		name = "EP9-1 必须做出的决断",
+		name = "EP9-1 Impending Decision",
 		change_prefab = "",
-		unlock_conditions = "完成EP8-4",
+		unlock_conditions = "Clear EP8-4.",
 		change_background = "star_level_bg_115",
 		story = "GAOTASHANGDEQIANGWEI29",
 		change_bgm = "story-memory-grief",
@@ -3857,7 +3857,7 @@ pg.activity_sp_story = {
 	},
 	[220] = {
 		story_type = 1,
-		name = "EP9-2 彼此间的奇迹",
+		name = "EP9-2 A Miracle for Me, a Miracle for Thee",
 		change_prefab = "",
 		unlock_conditions = "Clear EP9-1.",
 		change_background = "bg_gaotaqiangwei_4",
@@ -3876,9 +3876,9 @@ pg.activity_sp_story = {
 	},
 	[221] = {
 		story_type = 1,
-		name = "EP9-3 终得圆满",
+		name = "EP9-3 The Grand Finale",
 		change_prefab = "",
-		unlock_conditions = "完成EP9-2",
+		unlock_conditions = "Clear EP9-2.",
 		change_background = "star_level_bg_590",
 		story = "GAOTASHANGDEQIANGWEI31",
 		change_bgm = "theme-shallowoftheworld",
@@ -3895,9 +3895,9 @@ pg.activity_sp_story = {
 	},
 	[222] = {
 		story_type = 1,
-		name = "EX-1 圆满的代价",
+		name = "EX-1 The Price of Victory",
 		change_prefab = "",
-		unlock_conditions = "完成EP9-3",
+		unlock_conditions = "Clear EP9-3.",
 		change_background = "bg_gaotaqiangwei_6",
 		story = "GAOTASHANGDEQIANGWEI32",
 		change_bgm = "theme-thechariotVII",
@@ -3914,7 +3914,7 @@ pg.activity_sp_story = {
 	},
 	[223] = {
 		story_type = 1,
-		name = "EX-2 越界实验",
+		name = "EX-2 Transboundary Experiment",
 		change_prefab = "",
 		unlock_conditions = "Clear EX-1.",
 		change_background = "star_level_bg_303",
@@ -3933,7 +3933,7 @@ pg.activity_sp_story = {
 	},
 	[224] = {
 		story_type = 1,
-		name = "EX-3 蓄势待发",
+		name = "EX-3 All Set",
 		change_prefab = "",
 		unlock_conditions = "Clear EX-2.",
 		change_background = "star_level_bg_503",
@@ -3952,7 +3952,7 @@ pg.activity_sp_story = {
 	},
 	[225] = {
 		story_type = 1,
-		name = "EX-4 余烬的变化",
+		name = "EX-4 Changing the Ashes",
 		change_prefab = "",
 		unlock_conditions = "Clear EX-3.",
 		change_background = "bg_port_chongdong",
@@ -3971,7 +3971,7 @@ pg.activity_sp_story = {
 	},
 	[226] = {
 		story_type = 1,
-		name = "EX-5 托瓦没有坏心思",
+		name = "EX-5 Tower the Guiltless",
 		change_prefab = "map_1920001",
 		unlock_conditions = "Clear EX-4.",
 		change_background = "bg_gaotaqiangwei_2",

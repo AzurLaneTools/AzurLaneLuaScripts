@@ -46,7 +46,7 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "Bishops of opposite color – two beings forbidden to ever touch, existing as reflections of a mirror. ",
+		description = "Bishops of opposite color – two beings forbidden to ever touch, existing as reflections of a mirror.",
 		name = "Divergent Chessboard",
 		link_event = "",
 		column = 2,

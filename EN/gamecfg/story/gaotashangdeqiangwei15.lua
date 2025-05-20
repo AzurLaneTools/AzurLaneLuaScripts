@@ -1120,7 +1120,7 @@ return {
 			hidePaintObj = true,
 			say = "Elizabeth suddenly collapsed during her examination.",
 			location = {
-				"第五战区·女王之光号周边",
+				"5th combat sector - Near the Queen's Light",
 				3
 			},
 			typewriter = {

@@ -11730,7 +11730,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 高塔上的蔷薇",
+				"Event: A Rose on the High Tower",
 				{
 					""
 				},
@@ -12382,7 +12382,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 高塔上的蔷薇",
+				"Event: A Rose on the High Tower",
 				{
 					""
 				},
@@ -13702,7 +13702,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 高塔上的蔷薇",
+				"Event: A Rose on the High Tower",
 				{
 					""
 				},
@@ -13924,7 +13924,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 高塔上的蔷薇",
+				"Event: A Rose on the High Tower",
 				{
 					""
 				},
@@ -15378,7 +15378,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 高塔上的蔷薇",
+				"Event: A Rose on the High Tower",
 				{
 					""
 				},
@@ -36360,7 +36360,7 @@ pg.base.ship_data_group = {
 		trans_skill = {},
 		description = {
 			{
-				"Event: 高塔上的蔷薇",
+				"Event: A Rose on the High Tower",
 				{
 					""
 				},

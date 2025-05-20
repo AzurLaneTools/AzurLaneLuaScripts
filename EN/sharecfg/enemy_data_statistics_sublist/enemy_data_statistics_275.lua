@@ -1,5 +1,47 @@
 pg = pg or {}
 pg.enemy_data_statistics_275 = {
+	[16512301] = {
+		cannon = 102,
+		air = 0,
+		torpedo = 142,
+		cannon_growth = 0,
+		id = 16512301,
+		reload = 150,
+		armor = 0,
+		dodge = 14,
+		torpedo_growth = 0,
+		hit_growth = 210,
+		reload_growth = 0,
+		dodge_growth = 210,
+		luck_growth = 0,
+		speed_growth = 0,
+		hit = 14,
+		antisub_growth = 0,
+		air_growth = 0,
+		battle_unit_type = 95,
+		base = 90455,
+		durability = 16840,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 260,
+		speed = 20,
+		luck = 8,
+		antisub = 0,
+		antiaircraft_growth = 0,
+		scale = 140,
+		fog_fx = "",
+		specific_fx_scale = {
+			qinraozhe_140 = 2
+		},
+		appear_fx = {
+			"bossguangxiao",
+			"appearQ",
+			"qinraozhe_140"
+		},
+		equipment_list = {
+			3059101
+		}
+	},
 	[16512302] = {
 		cannon = 160,
 		name = "Omitter α",
@@ -1106,52 +1148,6 @@ pg.enemy_data_statistics_275 = {
 		},
 		equipment_list = {
 			3059301
-		}
-	},
-	[16514302] = {
-		cannon = 250,
-		name = "Special Pawn - Voroshilov",
-		torpedo = 260,
-		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
-		reload = 150,
-		armor = 0,
-		dodge = 26,
-		id = 16514302,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 312,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 35,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 330,
-		base = 90752,
-		durability = 118500,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 430,
-		speed = 20,
-		luck = 30,
-		battle_unit_type = 95,
-		antisub = 0,
-		torpedo_growth = 0,
-		air = 300,
-		fog_fx = "",
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
-		},
-		equipment_list = {
-			3059321,
-			3059322,
-			3059323,
-			3059324,
-			3059325,
-			3059326,
-			3059327,
-			3059328
 		}
 	}
 }

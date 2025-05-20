@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "We arrived at the \"repairable and dormant facility\" that Compiler spoke of.",
 			location = {
-				"皇家·格拉摩根谷地区",
+				"Royal Islands - Vale of Glamorgan",
 				3
 			},
 			typewriter = {
