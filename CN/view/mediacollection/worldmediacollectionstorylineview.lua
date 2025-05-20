@@ -296,6 +296,7 @@ slot0.refresh = function(slot0)
 
 	slot0:closeFilter()
 	slot0:HideNodeDetail()
+	setActive(slot0.detailView, false)
 	scrollTo(slot0.scroll, 0)
 end
 

@@ -9632,6 +9632,11 @@ pg.base.ship_skin_template_10 = {
 		},
 		get_showing = {
 			show = 1,
+			paint_offset = {
+				-851,
+				92,
+				1
+			},
 			data = {
 				{
 					1251,

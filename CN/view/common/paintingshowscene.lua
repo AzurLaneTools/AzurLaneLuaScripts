@@ -118,24 +118,34 @@ end
 slot0.startShowing = function(slot0)
 	if not slot0.l2dFlag then
 		slot2 = pg.ship_skin_template[slot0.skinId].get_showing.data and slot1.get_showing.data or uv0
+		slot3, slot4 = nil
+
+		if slot0.paintOffset then
+			slot3 = Vector2(slot0.paintOffset[1], slot0.paintOffset[2])
+			slot4 = slot0.paintOffset[3]
+		else
+			slot3 = Vector2(0, 0)
+			slot4 = 1
+		end
+
 		slot0.showDatas = {}
 
-		for slot6 = 1, #slot2 do
-			slot7 = slot2[slot6]
-			slot8 = Vector2(slot7[1], slot7[2])
-			slot9 = slot7[3]
-			slot10, slot11 = nil
+		for slot8 = 1, #slot2 do
+			slot9 = slot2[slot8]
+			slot10 = Vector2(slot9[1] + slot3.x, slot9[2] + slot3.y)
+			slot11 = slot9[3] * slot4
+			slot12, slot13 = nil
 
-			if #slot7 >= 4 then
-				slot10 = Vector3(slot7[1] + slot7[4], slot7[2] + slot7[5], 0)
-				slot11 = slot7[6]
+			if #slot9 >= 4 then
+				slot12 = Vector3(slot9[1] + slot3.x + slot9[4], slot9[2] + slot3.y + slot9[5], 0)
+				slot13 = slot9[6]
 			end
 
 			table.insert(slot0.showDatas, {
-				pos = slot8,
-				scale = slot9,
-				move = slot10,
-				move_time = slot11
+				pos = slot10,
+				scale = slot11,
+				move = slot12,
+				move_time = slot13
 			})
 		end
 
@@ -173,11 +183,13 @@ end
 
 slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 	slot0.loading = true
-	slot4 = Ship.New({
+	slot0.flagShip = Ship.New({
 		configId = slot1,
 		skin_id = slot2
 	})
+	slot4 = slot0.flagShip
 	slot6 = slot4:GetSkinConfig().tag
+	slot7 = pg.ship_skin_template[slot0.skinId]
 
 	if MainPaintingView.GetAssistantStatus(slot4) == MainPaintingView.STATE_SPINE_PAINTING then
 		slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
@@ -197,13 +209,15 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			uv1()
 		end)
 	elseif slot5 == MainPaintingView.STATE_PAINTING then
-		if table.contains(slot6, ShipSkin.WITH_LIVE2D) or table.contains(slot6, ShipSkin.WITH_SPINE) then
+		slot0.paintOffset = slot7.get_showing.paint_offset and slot7.get_showing.paint_offset or nil
+
+		if (table.contains(slot6, ShipSkin.WITH_LIVE2D) or table.contains(slot6, ShipSkin.WITH_SPINE)) and not slot0.paintOffset then
 			slot0.paintingFitter.localScale = Vector3(1.1, 1.1, 1.1)
 		end
 
-		slot7 = slot4:getPainting()
+		slot8 = slot4:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot7, uv0.StaticGetPaintingName(slot7), "mainNormal", function ()
+		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, uv0.StaticGetPaintingName(slot8), "mainNormal", function ()
 			uv0.loading = false
 
 			uv1()
@@ -223,13 +237,15 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 			uv1()
 		end)
 	else
-		if table.contains(slot6, ShipSkin.WITH_LIVE2D) or table.contains(slot6, ShipSkin.WITH_SPINE) then
+		slot0.paintOffset = slot7.get_showing.paint_offset and slot7.get_showing.paint_offset or nil
+
+		if (table.contains(slot6, ShipSkin.WITH_LIVE2D) or table.contains(slot6, ShipSkin.WITH_SPINE)) and not slot0.paintOffset then
 			slot0.paintingFitter.localScale = Vector3(1.1, 1.1, 1.1)
 		end
 
-		slot7 = slot4:getPainting()
+		slot8 = slot4:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot7, uv0.StaticGetPaintingName(slot7), "mainNormal", function ()
+		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, uv0.StaticGetPaintingName(slot8), "mainNormal", function ()
 			uv0.loading = false
 		end)
 	end

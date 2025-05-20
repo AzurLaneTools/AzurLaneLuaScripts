@@ -1150,6 +1150,17 @@ slot1 = {
 
 		seriesAsync(slot2, slot1)
 	end,
+	HolidayVillaMapMediator = function (slot0, slot1)
+		if getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_PRE_ID).data3 >= 5 then
+			if getProxy(TaskProxy):getTaskVO(underscore.flatten(slot2:getConfig("config_data"))[slot2.data3]):getTaskStatus() == 2 then
+				slot1()
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("holiday_villa_locked"))
+			end
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("holiday_villa_locked"))
+		end
+	end,
 	SixthAnniversaryIslandMediator = function (slot0, slot1)
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND) or slot2.isEnd(slot2) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))

@@ -38472,3 +38472,8 @@ _G.pg.base.gametip.storyline_camp = {
 _G.pg.base.gametip.storyline_goto = {
 	tip = "查看回忆"
 }
+
+
+_G.pg.base.gametip.holiday_villa_locked = {
+	tip = "完成<color=#92fc63>假日别墅筹备中</color>活动后解锁"
+}

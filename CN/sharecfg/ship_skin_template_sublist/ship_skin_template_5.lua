@@ -590,6 +590,11 @@ pg.base.ship_skin_template_5 = {
 		},
 		get_showing = {
 			show = 1,
+			paint_offset = {
+				-458,
+				186,
+				1.20625
+			},
 			data = {
 				{
 					854,
