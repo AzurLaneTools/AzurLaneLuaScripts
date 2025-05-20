@@ -26,7 +26,7 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 6,
+				quota = 9,
 				initialCD = true,
 				time = 0.2,
 				skill_id = 151221,

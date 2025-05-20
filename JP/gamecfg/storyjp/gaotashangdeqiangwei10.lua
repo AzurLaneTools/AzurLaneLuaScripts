@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "失礼かもれんが、聞かずにはいられんからな",
+			say = "失礼かもしれんが、聞かずにはいられんからな",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -989,7 +989,7 @@ return {
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "车内广播",
+			actorName = "アナウンス",
 			say = "ポンポンポン――バァ―ン――ドンドンドン――",
 			typewriter = {
 				speed = 0.05,
@@ -1002,7 +1002,7 @@ return {
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "车内广播",
+			actorName = "アナウンス",
 			say = "気をつけろ！そろそろ到着だ！下車の準備をしろ！",
 			typewriter = {
 				speed = 0.05,
@@ -1015,7 +1015,7 @@ return {
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			actorName = "车内广播",
+			actorName = "アナウンス",
 			say = "ドンドンドン――ポンポンポン――バァ―ン――ドンドンドン――",
 			typewriter = {
 				speed = 0.05,

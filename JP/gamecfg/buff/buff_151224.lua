@@ -26,11 +26,10 @@ return {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 3,
-				initialCD = true,
-				time = 15,
 				skill_id = 151220,
-				target = "TargetSelf"
+				initialCD = true,
+				target = "TargetSelf",
+				time = 15
 			}
 		}
 	}

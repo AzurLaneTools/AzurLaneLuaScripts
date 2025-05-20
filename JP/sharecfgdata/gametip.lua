@@ -39008,3 +39008,8 @@ _G.pg.base.gametip.storyline_camp = {
 _G.pg.base.gametip.storyline_goto = {
 	tip = "思い出確認"
 }
+
+
+_G.pg.base.gametip.holiday_villa_locked = {
+	tip = "イベント<color=#92fc63>「リゾート準備中」</color>クリアで開放"
+}

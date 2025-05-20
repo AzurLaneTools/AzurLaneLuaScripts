@@ -29355,5 +29355,10 @@ cs.gametip = {
 		1203602,
 		93,
 		true
+	},
+	holiday_villa_locked = {
+		1203695,
+		165,
+		true
 	}
 }

@@ -408,7 +408,7 @@ return {
 			}
 		},
 		{
-			expression = 7,
+			expression = 1,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			side = 2,
