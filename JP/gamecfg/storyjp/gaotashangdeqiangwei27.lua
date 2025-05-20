@@ -856,7 +856,7 @@ return {
 			actor = 205160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我にはまだ為すべき偉業がたくさんある。自らの命と仲間たちの命を犠牲にしてまで、ここで無意味な冒険をするわけにはいかぞ",
+			say = "我にはまだ為すべき偉業がたくさんある。自らの命と仲間たちの命を犠牲にしてまで、ここで無意味な冒険をするわけにはいかんぞ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -988,7 +988,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（エリザベスとライオンは撤退する決心はついた）",
+			say = "（エリザベスとライオンは撤退する決心がついた）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

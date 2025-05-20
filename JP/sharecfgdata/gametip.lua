@@ -38998,3 +38998,13 @@ _G.pg.base.gametip.collection_book_tag_3 = {
 _G.pg.base.gametip.challenge_minigame_unlock = {
 	tip = "ミニゲーム未開放"
 }
+
+
+_G.pg.base.gametip.storyline_camp = {
+	tip = "登場陣営"
+}
+
+
+_G.pg.base.gametip.storyline_goto = {
+	tip = "思い出確認"
+}

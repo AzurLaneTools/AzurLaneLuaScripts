@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "メセケテットが飛び立って数分も経たないうちに、それまで静まり返っていた海水が突然沸騰したかのように波立ち始めた。",
 			location = {
-				"？？？·未知海域",
+				"？？？・未確認海域",
 				3
 			},
 			typewriter = {
@@ -63,7 +63,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_538",
 			hidePaintObj = true,
-			say = "対して元々島だと思われた場所は、この残骸による上り潮の衝撃で崩壊し、海上から跡形もなく消え去った。",
+			say = "対して元々島だと思われた場所は、この残骸による上がり潮の衝撃で崩壊し、海上から跡形もなく消え去った。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

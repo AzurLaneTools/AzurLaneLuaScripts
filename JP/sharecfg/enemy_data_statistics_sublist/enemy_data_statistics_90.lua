@@ -1,5 +1,43 @@
 pg = pg or {}
 pg.enemy_data_statistics_90 = {
+	[10044065] = {
+		cannon = 140,
+		name = "キヌガサ",
+		rarity = 2,
+		speed_growth = 0,
+		hit_growth = 210,
+		air = 0,
+		armor = 0,
+		antiaircraft_growth = 2736,
+		antiaircraft = 140,
+		id = 10044065,
+		fog_fx = "",
+		dodge_growth = 96,
+		star = 4,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90202,
+		durability = 53200,
+		armor_growth = 0,
+		torpedo_growth = 2421,
+		speed = 20,
+		luck = 0,
+		antisub = 0,
+		cannon_growth = 1880,
+		pilot_ai_template_id = 30000,
+		reload = 150,
+		dodge = 6,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 60,
+		durability_growth = 86000,
+		luck_growth = 0,
+		battle_unit_type = 45,
+		equipment_list = {
+			100412,
+			510147
+		}
+	},
 	[10044066] = {
 		cannon = 60,
 		name = "ノワキ",
@@ -1401,43 +1439,6 @@ pg.enemy_data_statistics_90 = {
 		equipment_list = {
 			514029,
 			514030
-		}
-	},
-	[10045027] = {
-		cannon = 94,
-		name = "キサラギ",
-		air = 0,
-		cannon_growth = 0,
-		antisub = 0,
-		reload = 150,
-		armor = 0,
-		dodge = 40,
-		torpedo = 640,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		hit_growth = 0,
-		star = 4,
-		hit = 47,
-		antisub_growth = 0,
-		rarity = 2,
-		speed_growth = 0,
-		base = 90156,
-		durability = 1700,
-		armor_growth = 0,
-		durability_growth = 46000,
-		antiaircraft = 220,
-		speed = 32,
-		luck = 0,
-		luck_growth = 0,
-		air_growth = 0,
-		id = 10045027,
-		battle_unit_type = 35,
-		torpedo_growth = 0,
-		fog_fx = "",
-		equipment_list = {
-			514031,
-			514032
 		}
 	}
 }

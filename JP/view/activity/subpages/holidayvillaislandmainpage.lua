@@ -26,24 +26,15 @@ slot0.initBtn = function(slot0)
 
 	slot0.btnFuncList.activity = function(slot0)
 		onButton(uv0, slot0, function ()
-			slot2 = getProxy(TaskProxy)
-
-			for slot6 = 1, #underscore.flatten(getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_PRE_ID):getConfig("config_data")) do
-				uv0.Task = slot2:getTaskVO(slot1[slot6])
-
-				if iTask ~= nil and slot6 == 5 then
-					uv0.isdata = uv0.Task:getTaskStatus()
-
-					if isdata == 2 then
-						uv0:emit(ActivityMediator.ON_ADD_SUBLAYER, Context.New({
-							mediator = HolidayVillaMapMediator,
-							viewComponent = HolidayVillaMapScene
-						}))
-					end
+			if getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_PRE_ID).data3 >= 5 then
+				if getProxy(TaskProxy):getTaskVO(underscore.flatten(slot0:getConfig("config_data"))[slot0.data3]):getTaskStatus() == 2 then
+					uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.HOLIDAY_VILLA_MAP)
+				else
+					uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLIDAY_ACT_PRE_ID)
 				end
+			else
+				uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLIDAY_ACT_PRE_ID)
 			end
-
-			uv0:emit(ActivityMediator.SELECT_ACTIVITY, ActivityConst.HOLIDAY_ACT_PRE_ID)
 		end, SFX_PANEL)
 	end
 

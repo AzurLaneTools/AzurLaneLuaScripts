@@ -15,7 +15,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·构建者指挥中枢",
+				"薔薇の塔・コンパイラー指揮中枢",
 				3
 			},
 			flashout = {

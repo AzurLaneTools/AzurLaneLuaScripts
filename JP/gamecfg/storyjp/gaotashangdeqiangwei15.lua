@@ -328,7 +328,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_yuhui_cg_3",
-			actorName = "星之兽",
+			actorName = "星の獣",
 			bgm = "theme-starbeast",
 			nameColor = "#FF9B93",
 			say = "――RUVD FVBY WSHJL（身の程知らず）",
@@ -396,7 +396,7 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FF9B93",
 			dir = 1,
-			actorName = "星之兽",
+			actorName = "星の獣",
 			say = "――NV IHJR（退け）",
 			typewriter = {
 				speed = 0.05,
@@ -563,7 +563,7 @@ return {
 			side = 2,
 			dir = 1,
 			bgName = "bg_yuhui_cg_3",
-			actorName = "星之兽",
+			actorName = "星の獣",
 			bgm = "theme-starbeast",
 			nameColor = "#FF9B93",
 			say = "――AOL SPNOA VM H MPYLMSF（蛍の光は）",
@@ -595,7 +595,7 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FF9B93",
 			dir = 1,
-			actorName = "星之兽",
+			actorName = "星の獣",
 			say = "――JHUUVA JVTWHYL AV AOL YHKPHUJL VM AOL ZAHYZ（天の星々と輝きに敵わず）",
 			typewriter = {
 				speed = 0.05,
@@ -608,7 +608,7 @@ return {
 			bgName = "bg_yuhui_cg_3",
 			nameColor = "#FF9B93",
 			dir = 1,
-			actorName = "星之兽",
+			actorName = "星の獣",
 			say = "――NV IHJR（退け）",
 			typewriter = {
 				speed = 0.05,
@@ -1106,7 +1106,7 @@ return {
 			side = 2,
 			dir = 1,
 			blackBg = true,
-			say = "……YLABYU AV AOL XBLLU'Z SPNOA（再び女王の光に集まれよ）",
+			say = "……YLABYU AV AOL XBLLU'Z SPNOA（再び女王の光に集まれ）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1120,7 +1120,7 @@ return {
 			hidePaintObj = true,
 			say = "点検中の「エリザベス」が突然倒れた。",
 			location = {
-				"第五战区·女王之光号周边",
+				"「クイーンズライト号」周辺",
 				3
 			},
 			typewriter = {
@@ -1179,7 +1179,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "申し訳ございません、その言葉……！",
+			say = "申し訳ございません、何と……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

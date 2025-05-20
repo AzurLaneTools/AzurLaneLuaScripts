@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			say = "ミスDとミスDボイスデータの二重アナウンスの中で、車両の扉がゆっくりと開いた。",
 			location = {
-				"银镜湖·「鲸鱼」内部",
+				"銀鏡の湖・「クジラ」内部",
 				3
 			},
 			typewriter = {

@@ -32,11 +32,6 @@ slot0.OnDataSetting = function(slot0)
 end
 
 slot0.OnFirstFlush = function(slot0)
-	for slot4 = 1, #slot0.list do
-		setActive(slot0:findTF("accomplish", slot0.list[slot4]), false)
-		setActive(slot0:findTF("Check_point", slot0.list[slot4]), false)
-	end
-
 	onButton(slot0, slot0.getBtn, function ()
 		if not uv0.remainCnt or uv0.remainCnt <= 0 then
 			return
@@ -68,28 +63,16 @@ slot0.OnFirstFlush = function(slot0)
 			return
 		end
 
-		uv0:emit(ActivityMediator.OPEN_LAYER, Context.New({
-			mediator = HolidayVillaMapMediator,
-			viewComponent = HolidayVillaMapScene
-		}))
+		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.HOLIDAY_VILLA_MAP)
 	end, SFX_PANEL)
 end
 
 slot0.OnUpdateFlush = function(slot0)
 	slot0.nday = slot0.activity.data3
 	slot1 = slot0:IsFinishSign()
-	slot0.count = 0
-
-	for slot5 = 1, #slot0.taskGroup do
-		slot0.curTaskVO = slot0.taskProxy:getTaskVO(slot0.taskGroup[slot5])
-
-		if slot0.curTaskVO ~= nil and slot0.curTaskVO:getTaskStatus() == 2 then
-			slot0.count = slot5
-		end
-	end
 
 	setActive(slot0.got, false)
-	setActive(slot0.go, not slot0:IsLockLiner() and slot0.count >= 5)
+	setActive(slot0.go, not slot0:IsLockLiner() and slot1)
 	setActive(slot0.Notbtn, slot0:IsLockLiner())
 
 	if not slot1 then
@@ -113,19 +96,10 @@ slot0.OnUpdateFlush = function(slot0)
 		setActive(slot0.getBtn, false)
 	end
 
-	for slot5 = 1, #slot0.list do
-		setActive(slot0:findTF("accomplish", slot0.list[slot5]), false)
-		setActive(slot0:findTF("Check_point", slot0.list[slot5]), false)
-
-		if slot0.count > 0 and slot5 <= slot0.count then
-			setActive(slot0:findTF("accomplish", slot0.list[slot5]), true)
-
-			slot0.list[slot5]:GetComponent(typeof(Image)).color = Color.New(1, 1, 1, 0)
-		end
-	end
-
-	if slot0.count + 1 <= 5 then
-		setActive(slot0:findTF("Check_point", slot0.list[slot0.count + 1]), true)
+	for slot5, slot6 in ipairs(slot0.list) do
+		setActive(slot0:findTF("accomplish", slot0.list[slot5]), slot1 or slot5 < slot0.nday)
+		setImageAlpha(slot6, (slot1 or slot5 < slot0.nday) and 0 or 1)
+		setActive(slot0:findTF("Check_point", slot0.list[slot5]), not slot1 and slot5 == slot0.nday)
 	end
 end
 

@@ -15,7 +15,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·顶部露台",
+				"薔薇の塔・テラス",
 				3
 			},
 			flashout = {
@@ -48,7 +48,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -60,7 +60,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -108,7 +108,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -192,7 +192,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -233,7 +233,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -245,7 +245,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -257,7 +257,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -269,7 +269,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -281,7 +281,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -293,7 +293,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -305,7 +305,7 @@ return {
 			}
 		},
 		{
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg5",
 			hidePaintObj = true,
@@ -962,7 +962,7 @@ return {
 			bgName = "bg_gaotaqiangwei_5",
 			nameColor = "#FFC960",
 			actor = 900488,
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			hidePaintObj = true,
 			say = "陛下、「グロリアス」さんが……！？",
 			typewriter = {

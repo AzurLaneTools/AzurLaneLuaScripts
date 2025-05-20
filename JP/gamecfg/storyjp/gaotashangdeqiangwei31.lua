@@ -595,7 +595,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（たとえこの世界が破滅の運命にあっても、すべての侵略者を道ずれに滅びるだろう）",
+			say = "（たとえこの世界が破滅の運命にあっても、すべての侵略者を道連れに滅びるだろう）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

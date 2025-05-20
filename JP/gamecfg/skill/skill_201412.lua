@@ -5,7 +5,7 @@ return {
 				target_choise = "TargetNil",
 				type = "BattleSkillSummon",
 				arg_list = {
-					delay = 25,
+					delay = 0,
 					spawnData = {
 						monsterTemplateID = 16736001,
 						buffList = {},

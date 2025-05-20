@@ -12,7 +12,7 @@ return {
 			hidePaintObj = true,
 			say = "―――――！！！",
 			location = {
-				"某处空域·辉翼太阳船",
+				"メセケテット",
 				3
 			},
 			typewriter = {
@@ -193,7 +193,7 @@ return {
 			actor = 201380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "空中にいるままでは座して死を待つようなもの……水上ならまだ戦えます",
+			say = "空中にいたままでは座して死を待つようなもの……水上ならまだ戦えます",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

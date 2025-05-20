@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "実験段階のパーツが多く搭載されているメセケテットは、言わば妥協の産物であり、その性能がすべて最先端であるとは言い切れない。",
 			location = {
-				"某处空域·辉翼太阳船",
+				"メセケテット",
 				3
 			},
 			typewriter = {
@@ -203,7 +203,7 @@ return {
 			actor = 201380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "エウロペ大陸は？ブリタニア半島は？アイリス教国はどこに行ったのですか？",
+			say = "エウロパ大陸は？ブリタニア半島は？アイリス教国はどこに行ったのですか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,11 +284,11 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_538",
 			bgm = "theme-brokenworld-sad",
-			actorName = "警报器",
+			actorName = "アラート",
 			hidePaintObj = true,
 			say = "―――――",
 			location = {
-				"皇家·怀特岛",
+				"ロイヤル・ワイト島",
 				3
 			},
 			typewriter = {
@@ -435,7 +435,7 @@ return {
 			actor = 201380,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "残骸はとうに朽ち果てたようですが、自然の気配はないですね……植物ところか、虫の一匹すらいません",
+			say = "残骸はとうに朽ち果ててるようですが、自然の気配はないですね……植物どころか、虫の一匹すらいません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "しばらくの間、この世界に留まることになりそうですから、できるだけ多くの情報を掴めないといけません",
+			say = "しばらくの間、この世界に留まることになりそうですから、できるだけ多くの情報を掴まないといけません",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			actor = 205160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "あの丘はまさか……この前回収した残骸の本体か！？",
+			say = "あの丘はまさか……さっき回収した残骸の本体か！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -690,7 +690,7 @@ return {
 			bgName = "bg_gaotaqiangwei_cg2",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "ドカン！",
+			say = "――――――！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -933,7 +933,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "総督命令だ！クレオペトラ、メセケテットの離陸準備を！",
+			say = "総督命令だ！クレオパトラ、メセケテットの離陸準備を！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

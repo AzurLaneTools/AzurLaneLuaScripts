@@ -18,7 +18,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·作战指挥中心？",
+				"薔薇の塔・作戦指揮室？",
 				3
 			},
 			flashout = {
@@ -802,7 +802,7 @@ return {
 			actor = 9707070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "そして……ともにロイヤル守りましょう――",
+			say = "そして……ともにロイヤルを守りましょう――",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

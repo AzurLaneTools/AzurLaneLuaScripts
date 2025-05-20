@@ -2170,7 +2170,7 @@ pg.memory_storyline = {
 	},
 	{
 		description = "「薔薇の塔よ、今度は私が守ります。そして一緒にロイヤルを守っていきましょうーー」",
-		name = "高い城の薔薇",
+		name = "高い塔の薔薇",
 		link_event = "",
 		column = 54,
 		world_id = "",

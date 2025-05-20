@@ -40637,7 +40637,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4032] = {
-		param = "我としたことか、2つのファイルを一緒に送ってしまったようだ……",
+		param = "我としたことが、2つのファイルを一緒に送ってしまったようだ……",
 		ship_group = 20516,
 		type = 1,
 		id = 4032,
@@ -41009,7 +41009,7 @@ pg.base.activity_ins_chat_language = {
 	},
 	[4074] = {
 		param = "さっき「デザインがいい」と言ってたけど、やっぱりライオンの紋章がついてるの？",
-		ship_group = 20516,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 4074,
@@ -41458,7 +41458,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 2
 	},
 	[4124] = {
-		param = "以前映画で見たことがあるんんです……恋というのは「ちょうどいい距離感」から芽生えるものだと",
+		param = "以前映画で見たことがあるんです……恋というのは「ちょうどいい距離感」から芽生えるものだと",
 		ship_group = 20138,
 		option = "",
 		type = 1,
@@ -41853,12 +41853,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				4,
-				"ちゃんと真面目に観てるときもあるから、あまり変に期待しないほうがいいよ？"
+				"真面目に鑑賞してるときもあるよ？"
 			}
 		}
 	},
 	[4169] = {
-		param = "真面目に鑑賞してるときもあるよ？",
+		param = "ちゃんと真面目に観てるときもあるから、あまり変に期待しないほうがいいよ？",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -42886,12 +42886,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				6,
-				"来るのはいいが、来るときはホイッスル吹かないでね"
+				"来るのはいいが…"
 			}
 		}
 	},
 	[4285] = {
-		param = "来るのはいいが…",
+		param = "来るのはいいが、来るときはホイッスル吹かないでね",
 		ship_group = 0,
 		option = "",
 		type = 1,
@@ -43855,12 +43855,12 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				1,
-				"そのまま待ってて。この書類にサインしたらすぐ行くから"
+				"今の書類にサインしたらすぐ行くよ"
 			}
 		}
 	},
 	[4395] = {
-		param = "今の書類にサインしたらすぐ行くよ",
+		param = "そのまま待ってて。この書類にサインしたらすぐ行くから",
 		ship_group = 0,
 		option = "",
 		type = 1,

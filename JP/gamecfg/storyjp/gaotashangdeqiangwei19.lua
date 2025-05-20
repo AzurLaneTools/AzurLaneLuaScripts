@@ -599,7 +599,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "――しかしどんな代償を払ってても、絶対に自分達の世界とつながる蕾だけは破壊しなければならない",
+			say = "――しかしどんな代償を払ってでも、絶対に自分達の世界とつながる蕾だけは破壊しなければならない",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -724,7 +724,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（グラモーガン地域……コンパイラーがそこで色々施設を建てていたところか）",
+			say = "（グラモーガン地域……コンパイラーが色々施設を建てていたところか）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1004,7 +1004,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "METAの「エリザベス」、「シェフィールド」、「エレバス」、「グレンヴィル」、ミスD、コンパイラーは自分と行動してくれ",
+			say = "METAの「エリザベス」、「シェフィールド」、「エレバス」、「グレンヴィル」、ミスD、コンパイラーは自分と行動することに",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

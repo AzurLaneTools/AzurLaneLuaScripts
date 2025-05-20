@@ -828,7 +828,7 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "ベルファスト",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,
@@ -841,7 +841,7 @@ return {
 			}
 		},
 		{
-			actorName = "贝尔法斯特",
+			actorName = "ベルファスト",
 			side = 2,
 			bgName = "bg_gaotaqiangwei_cg3",
 			hidePaintObj = true,

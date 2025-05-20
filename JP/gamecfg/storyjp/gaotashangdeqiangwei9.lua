@@ -1427,7 +1427,7 @@ return {
 			actor = 9705040,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "それでいきなり落とされちゃった？",
+			say = "そこっていきなり落とされちゃったとか？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

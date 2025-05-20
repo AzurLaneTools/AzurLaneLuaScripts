@@ -165,7 +165,7 @@ slot0.doGuideStep = function(slot0, slot1, slot2)
 end
 
 slot0.Record = function(slot0, slot1, slot2, slot3, slot4)
-	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildGuide(slot1, slot2, pg.TimeMgr.GetInstance():GetServerTime() - slot3, slot4))
+	pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildGuide(slot0:IsNewVersion(), slot1, slot2, pg.TimeMgr.GetInstance():GetServerTime() - slot3, slot4))
 end
 
 slot0.getSegmentIndex = function(slot0)

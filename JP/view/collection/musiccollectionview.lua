@@ -628,7 +628,7 @@ slot0.updatePlayPanel = function(slot0, slot1)
 	slot4 = slot3.cover
 
 	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot4, slot4, slot0.songImg, false)
-	setText(slot0.playPanelNameText, slot3.name)
+	changeToScrollText(slot0.playPanelNameText, slot3.name)
 	setActive(slot0.likeOnImg, slot0.likeDic[slot3.id])
 	setActive(slot0.playBtn, false)
 	setActive(slot0.playDesc, true)

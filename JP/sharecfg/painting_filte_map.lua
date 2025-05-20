@@ -14223,13 +14223,6 @@ pg.painting_filte_map = {
 			"painting/songfeng_g"
 		}
 	},
-	star = {
-		key = "star",
-		res_list = {
-			"painting/star_tex",
-			"painting/star"
-		}
-	},
 	starbeast = {
 		key = "starbeast",
 		res_list = {
@@ -15361,6 +15354,13 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/unknown6_tex",
 			"painting/unknown6"
+		}
+	},
+	unknownstar = {
+		key = "unknownstar",
+		res_list = {
+			"painting/unknownstar_tex",
+			"painting/unknownstar"
 		}
 	},
 	vtuber_aqua = {

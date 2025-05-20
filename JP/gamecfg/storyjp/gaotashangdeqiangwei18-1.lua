@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "コンパイラーが立てた計画は予想以上にシンプルだった。",
 			location = {
-				"皇家·布里斯托尔湾",
+				"ロイヤル・ブリストル湾",
 				3
 			},
 			typewriter = {

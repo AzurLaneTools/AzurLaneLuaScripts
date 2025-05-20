@@ -81,7 +81,7 @@ return {
 			bgName = "star_level_bg_538",
 			nameColor = "#FFC960",
 			actor = 900488,
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			hidePaintObj = true,
 			say = "指揮官、お疲れさま！ここは私たちに任せて！",
 			typewriter = {

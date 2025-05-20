@@ -341,7 +341,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·作战指挥室",
+				"薔薇の塔・作戦指揮室",
 				3
 			},
 			flashout = {

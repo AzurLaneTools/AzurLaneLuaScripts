@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "コンパイラーが言う「修理する価値がある」施設にやってきた。",
 			location = {
-				"皇家·格拉摩根谷地区",
+				"ヴェール・オブ・グラモーガン",
 				3
 			},
 			typewriter = {

@@ -5177,15 +5177,15 @@ pg.base.ship_skin_template_18 = {
 		}
 	},
 	[900489] = {
-		name = "アビータ・Star・XⅦ",
+		name = "？？？",
 		change_skin = "",
 		bg_sp = "",
 		desc = "无描述",
 		illustrator2 = -1,
 		ship_group = 900489,
 		group_index = 0,
-		painting = "star",
-		prefab = "star",
+		painting = "unknownstar",
+		prefab = "unknownstar",
 		hand_id = 1,
 		shop_type_id = 0,
 		bgm = "",

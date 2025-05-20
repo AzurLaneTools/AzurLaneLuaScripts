@@ -15,14 +15,8 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 	setActive(slot0:findTF("btn_go", slot2), slot8 ~= nil)
 
 	if slot1 == 4 then
-		warning("                      type", slot4)
 		onButton(slot0, slot0:findTF("btn_go", slot2), function ()
-			slot5 = uv0[getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_ID):getConfig("config_client").function_id[3]].task_id
-			slot6 = getProxy(TaskProxy):getFinishTaskById(slot5)
-
-			warning(slot5, "                      springFinishTask:            ", slot6)
-
-			if slot6 then
+			if getProxy(TaskProxy):getFinishTaskById(uv0[getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_ID):getConfig("config_client").function_id[3]].task_id) then
 				slot9 = uv1
 
 				onButton(uv1, slot9:findTF("btn_go", uv2), function ()
@@ -33,15 +27,11 @@ slot0.UpdateTask = function(slot0, slot1, slot2)
 				pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_minigame_unlock"))
 			end
 		end, SFX_PANEL)
-	elseif slot1 ~= 4 then
-		warning("                      555555555", slot4)
-
-		if slot8 then
-			onButton(slot0, slot0:findTF("btn_go", slot2), function ()
-				uv0()
-				pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildUrJump(uv1))
-			end)
-		end
+	elseif slot1 ~= 4 and slot8 then
+		onButton(slot0, slot0:findTF("btn_go", slot2), function ()
+			uv0()
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildUrJump(uv1))
+		end)
 	end
 end
 

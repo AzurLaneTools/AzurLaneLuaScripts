@@ -315,7 +315,7 @@ return {
 			actor = 9707070,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "そう……では「駒」の艦隊を呼び寄せ、防御を協力させましょう",
+			say = "そう……では「駒」の艦隊を呼び寄せ、防御に協力させましょう",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

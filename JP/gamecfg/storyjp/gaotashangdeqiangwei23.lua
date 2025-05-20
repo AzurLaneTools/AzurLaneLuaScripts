@@ -687,7 +687,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "bg_cccpv2_7",
 			hidePaintObj = true,
@@ -700,7 +700,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePainting = true,
@@ -730,7 +730,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
@@ -742,7 +742,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "bg_cccpv2_9",
 			hidePaintObj = true,
@@ -891,7 +891,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
@@ -904,7 +904,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
@@ -917,7 +917,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,
@@ -930,7 +930,7 @@ return {
 			}
 		},
 		{
-			actorName = "米哈伊尔",
+			actorName = "ミハイル",
 			side = 2,
 			bgName = "star_level_bg_543",
 			hidePaintObj = true,

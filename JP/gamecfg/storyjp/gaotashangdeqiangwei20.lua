@@ -653,7 +653,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "例えば――南極大陸の氷床の下に「主機」……そういうのを破壊できたかしら？",
+			say = "例えば――南極大陸の氷床の下の「主機」……そういうのを破壊できたかしら？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -776,7 +776,7 @@ return {
 				}
 			},
 			location = {
-				"皇家·目标满月之蕾周边",
+				"満月の蕾周辺",
 				3
 			}
 		},
@@ -896,7 +896,7 @@ return {
 			bgName = "bg_gaotaqiangwei_1",
 			nameColor = "#FFC960",
 			actor = 900488,
-			actorName = "格伦威尔·META",
+			actorName = "グレンヴィル(META)",
 			hidePaintObj = true,
 			say = "陛下、コンパイラーが高性能爆薬の設置を始めた！",
 			typewriter = {

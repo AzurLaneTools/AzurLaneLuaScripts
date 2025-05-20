@@ -124,7 +124,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·临时作战指挥大厅？",
+				"臨時作戦指揮ホール？",
 				3
 			},
 			flashout = {
@@ -440,7 +440,7 @@ return {
 				speedUp = 0.01
 			},
 			location = {
-				"蔷薇塔·女王之光号停泊地",
+				"クイーンズライト号停車地点",
 				3
 			},
 			flashout = {

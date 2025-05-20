@@ -1,5 +1,36 @@
 pg = pg or {}
 pg.enemy_data_statistics_391 = {
+	[295226] = {
+		cannon = 135,
+		name = "長門(META)-Tier.1",
+		torpedo = 0,
+		cannon_growth = 0,
+		air = 0,
+		reload = 150,
+		armor = 0,
+		dodge = 25,
+		id = 295226,
+		torpedo_growth = 0,
+		antiaircraft_growth = 0,
+		reload_growth = 0,
+		dodge_growth = 0,
+		speed_growth = 0,
+		luck_growth = 0,
+		hit = 35,
+		antisub_growth = 0,
+		air_growth = 0,
+		hit_growth = 0,
+		base = 90983,
+		durability = 50000,
+		armor_growth = 0,
+		durability_growth = 0,
+		antiaircraft = 105,
+		speed = 20,
+		luck = 50,
+		battle_unit_type = 90,
+		fog_fx = "",
+		antisub = 0
+	},
 	[295227] = {
 		cannon = 154,
 		name = "長門(META)-Tier.2",
@@ -1048,36 +1079,5 @@ pg.enemy_data_statistics_391 = {
 				LV = 1
 			}
 		}
-	},
-	[295256] = {
-		cannon = 79,
-		name = "ホーネット(META)-Tier.1",
-		torpedo = 0,
-		cannon_growth = 0,
-		air = 163,
-		reload = 150,
-		armor = 0,
-		dodge = 25,
-		id = 295256,
-		torpedo_growth = 0,
-		antiaircraft_growth = 0,
-		reload_growth = 0,
-		dodge_growth = 0,
-		speed_growth = 0,
-		luck_growth = 0,
-		hit = 35,
-		antisub_growth = 0,
-		air_growth = 0,
-		hit_growth = 0,
-		base = 91063,
-		durability = 43000,
-		armor_growth = 0,
-		durability_growth = 0,
-		antiaircraft = 116,
-		speed = 20,
-		luck = 50,
-		battle_unit_type = 90,
-		fog_fx = "",
-		antisub = 0
 	}
 }

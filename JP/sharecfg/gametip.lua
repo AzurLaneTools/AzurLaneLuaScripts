@@ -29345,5 +29345,15 @@ cs.gametip = {
 		1203399,
 		113,
 		true
+	},
+	storyline_camp = {
+		1203512,
+		90,
+		true
+	},
+	storyline_goto = {
+		1203602,
+		93,
+		true
 	}
 }
