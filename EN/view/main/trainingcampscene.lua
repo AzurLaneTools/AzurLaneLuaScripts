@@ -9,11 +9,11 @@ slot0.init = function(slot0)
 	slot0:initData()
 	slot0:addListener()
 
-	if uv0.isNormalActOn() then
+	if TechnologyConst.isNormalActOn() then
 		slot0:initNormalPanel()
 	end
 
-	if uv0.isTecActOn() then
+	if TechnologyConst.isTecActOn() then
 		slot0:initTecPanel()
 	end
 
@@ -51,7 +51,7 @@ slot0.addListener = function(slot0)
 		uv0:emit(uv1.ON_BACK)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.switchToNormalBtn, function ()
-		if not uv0.isOnSwitchAni and uv1.isNormalActOn() then
+		if not uv0.isOnSwitchAni and TechnologyConst.isNormalActOn() then
 			uv0:switchPanel(uv0.normalTaskactivity, true)
 			setActive(uv0.switchToNormalBtn, false)
 			setActive(uv0.switchToTecBtn, true)
@@ -59,7 +59,7 @@ slot0.addListener = function(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.switchToTecBtn, function ()
-		if not uv0.isOnSwitchAni and uv1.isTecActOn() then
+		if not uv0.isOnSwitchAni and TechnologyConst.isTecActOn() then
 			uv0:switchPanel(uv0.tecTaskActivity, true)
 			setActive(uv0.switchToNormalBtn, true)
 			setActive(uv0.switchToTecBtn, false)
@@ -86,8 +86,8 @@ slot0.willExit = function(slot0)
 end
 
 slot0.updateSwitchBtns = function(slot0)
-	slot1, slot2 = TrainingCampScene.isNormalActOn()
-	slot3, slot4 = TrainingCampScene.isTecActOn()
+	slot1, slot2 = TechnologyConst.isNormalActOn()
+	slot3, slot4 = TechnologyConst.isTecActOn()
 
 	if not slot1 or not slot3 then
 		setActive(slot0.switchToNormalBtn, false)
@@ -102,8 +102,8 @@ slot0.updateSwitchBtns = function(slot0)
 end
 
 slot0.updateSwitchBtnsTag = function(slot0)
-	slot1, slot2 = TrainingCampScene.isNormalActOn()
-	slot3, slot4 = TrainingCampScene.isTecActOn()
+	slot1, slot2 = TechnologyConst.isNormalActOn()
+	slot3, slot4 = TechnologyConst.isTecActOn()
 
 	setActive(slot0:findTF("Tag", slot0.switchToNormalBtn), slot2)
 	setActive(slot0:findTF("Tag", slot0.switchToTecBtn), slot4)
@@ -122,8 +122,8 @@ slot0.resetSwitchBtnsLight = function(slot0)
 end
 
 slot0.autoSelectPanel = function(slot0)
-	slot1, slot2 = TrainingCampScene.isNormalActOn()
-	slot3, slot4 = TrainingCampScene.isTecActOn()
+	slot1, slot2 = TechnologyConst.isNormalActOn()
+	slot3, slot4 = TechnologyConst.isTecActOn()
 
 	if slot1 and slot3 then
 		slot0:switchPanel(slot0.normalTaskactivity)
@@ -168,12 +168,12 @@ slot0.updateNormalPanel = function(slot0, slot1)
 	slot4 = slot3[slot1][1]
 
 	slot0:sortTaskIDList(slot4)
-	slot0:updateTaskUIItemList(slot0.normalTaskUIItemList, slot4, slot1)
+	slot0:updateTaskUIItemList(slot0.normalTaskUIItemList, slot4)
 	slot0:updateNormalProgressPanel(slot1, slot3[slot1][2], slot4)
 end
 
 slot0.updateNormalProgressPanel = function(slot0, slot1, slot2, slot3)
-	slot4 = slot0:getTask(slot1, slot2)
+	slot4 = slot0:getTask(slot2)
 
 	if slot1 == slot0.phaseId and slot0:isMissTask(slot3) then
 		slot0:emit(TrainingCampMediator.ON_TRIGGER, {
@@ -244,127 +244,125 @@ slot0.updateNormalProgressPanel = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.initTecPanel = function(slot0)
-	slot7 = "Phase1"
-	slot0.tecToggles = {
-		slot0:findTF(slot7, slot0:findTF("ToggleList", slot0.tecPanel))
-	}
+	slot1 = slot0.tecTaskActivity:getConfig("config_data")[3]
+	slot0.allTechPhase = #slot0.tecTaskActivity:getConfig("config_data")[3] + 1
+	slot3 = slot0:findTF("ToggleList", slot0.tecPanel)
 
-	for slot7 = #slot0.tecToggles + 1, #slot0.tecTaskActivity:getConfig("config_data")[3] do
-		slot8 = cloneTplTo(slot0.tecToggles[1], slot3)
+	UIItemList.StaticAlign(slot3, slot0:findTF("Phase1", slot3), slot0.allTechPhase, function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			slot2.name = "Phase" .. slot1
 
-		table.insert(slot0.tecToggles, slot8)
+			setText(slot2:Find("TextImg"), i18n("tec_catchup_" .. slot1))
+			onToggle(uv0, slot2, function (slot0)
+				setTextColor(uv0:Find("TextImg"), slot0 and Color.white or Color.NewHex("525252"))
 
-		slot8.name = "Phase" .. slot7
-	end
-
-	for slot7 = 1, slot2 do
-		slot8 = slot3:GetChild(slot7 - 1)
-
-		setText(slot0:findTF("TextImg", slot8), i18n("tec_catchup_" .. slot7))
-		setText(slot0:findTF("Selected/TextImage", slot8), i18n("tec_catchup_" .. slot7))
-	end
-
-	slot8 = "ScrollRect/TaskTpl"
-	slot0.tecTaskUIItemList = UIItemList.New(slot0:findTF("ScrollRect/Content", slot0.tecPanel), slot0:findTF(slot8, slot0.tecPanel))
-	slot7 = slot0.tecPanel
-	slot0.tecProgressPanel = slot0:findTF("ProgressPanel", slot7)
-
-	for slot7, slot8 in pairs(slot0.tecToggles) do
-		onToggle(slot0, slot8, function (slot0)
-			if slot0 then
-				if uv0.phaseId < uv1 then
-					pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_not_open_tip"))
-					triggerToggle(uv0.tecToggles[uv0.cachePageID], true)
-				else
-					uv0:updateTecPanel(uv1)
+				if slot0 then
+					uv1:updateTecPanel(uv2)
 				end
-			end
-		end, SFX_PANEL)
-	end
+			end, SFX_PANEL)
+			onButton(uv0, slot2:Find("Disable"), function ()
+				pg.TipsMgr.GetInstance():ShowTips(i18n("tec_notice_not_open_tip"))
+			end, SFX_PANEL)
+			onButton(uv0, slot2:Find("Unlock"), function ()
+				pg.MsgboxMgr.GetInstance():ShowMsgBox({
+					content = string.format("are you unlock phase %d ?", uv0),
+					onYes = function ()
+						if uv0 == 1 then
+							warning("cmd 3")
+							uv1:emit(TrainingCampMediator.ON_TRIGGER, {
+								cmd = 3,
+								activity_id = uv1.tecTaskActivity.id
+							})
+						else
+							uv1:emit(TrainingCampMediator.ON_TRIGGER, {
+								cmd = 1,
+								activity_id = uv1.tecTaskActivity.id,
+								arg1 = uv0 == 0 and 1 or uv0
+							})
+						end
+					end
+				})
+			end, SFX_PANEL)
+		end
+	end)
+
+	slot0.tecTaskUIItemList = UIItemList.New(slot0:findTF("ScrollRect/Content", slot0.tecPanel), slot0:findTF("ScrollRect/TaskTpl", slot0.tecPanel))
+	slot0.tecProgressPanel = slot0:findTF("ProgressPanel", slot0.tecPanel)
 end
 
 slot0.updateTecPanel = function(slot0, slot1)
 	slot0.cachePageID = slot1
 	slot3 = slot0.tecTaskActivity:getConfig("config_data")[3]
-	slot4 = slot3[slot1][1]
+	slot4 = slot3[math.max(1, slot1)][1]
 
 	slot0:sortTaskIDList(slot4)
-	slot0:updateTaskUIItemList(slot0.tecTaskUIItemList, slot4, slot1)
-	slot0:updateTecProgressPanel(slot1, slot3[slot1][2], slot4)
+	slot0:updateTaskUIItemList(slot0.tecTaskUIItemList, slot4)
+	slot0:updateTecProgressPanel(slot3[math.max(1, slot1)][2], slot1, slot4)
 end
 
 slot0.updateTecProgressPanel = function(slot0, slot1, slot2, slot3)
-	slot5 = nil
-
-	if not slot0:isFinishedAll(slot3) then
-		slot5 = true
-	end
-
-	slot6 = slot0:getTask(slot1, slot2, slot5)
-
-	if slot1 == slot0.phaseId and slot0:isMissTask(slot3) then
+	if slot0:isFinishedAll(slot3) then
 		slot0:emit(TrainingCampMediator.ON_TRIGGER, {
-			cmd = 1,
+			cmd = 2,
 			activity_id = slot0.activity.id
 		})
 	end
 
-	if slot6 and slot6:isClientTrigger() and not slot6:isFinish() then
-		slot0:emit(TrainingCampMediator.ON_UPDATE, slot6)
+	slot4 = nil
+
+	if (slot0.phaseId ~= slot2 or slot0.taskProxy:getTaskVO(slot1)) and slot0:getTask(slot1) and slot4:isClientTrigger() and not slot4:isFinish() then
+		slot0:emit(TrainingCampMediator.ON_UPDATE, slot4)
 	end
 
-	setActive(slot0.tecProgressPanel:Find("Get"), slot6 and slot6:isFinish() and not slot6:isReceive())
-	setActive(slot0.tecProgressPanel:Find("Lock"), not slot6)
-	setActive(slot0.tecProgressPanel:Find("Go"), slot6 and not slot6:isFinish())
-	setActive(slot0.tecProgressPanel:Find("Pass"), slot6 and slot6:isReceive())
+	setActive(slot0.tecProgressPanel:Find("Get"), slot4 and slot4:isFinish() and not slot4:isReceive())
+	setActive(slot0.tecProgressPanel:Find("Lock"), not slot4)
+	setActive(slot0.tecProgressPanel:Find("Go"), slot4 and not slot4:isFinish())
+	setActive(slot0.tecProgressPanel:Find("Pass"), slot4 and slot4:isReceive())
 
-	slot11 = slot0.tecProgressPanel:Find("Slider/LabelText")
-	slot12 = slot0.tecProgressPanel:Find("Slider/ProgressText")
+	slot9 = slot0.tecProgressPanel:Find("Slider/LabelText")
+	slot10 = slot0.tecProgressPanel:Find("Slider/ProgressText")
 
-	if not slot6 then
-		slot6 = Task.New({
-			id = slot2
-		})
+	if not slot4 then
+		slot11 = 0
 
-		if slot0:isFinishedAll(slot3) then
-			slot0:emit(TrainingCampMediator.ON_TRIGGER, {
-				cmd = 2,
-				activity_id = slot0.activity.id
-			})
-		end
-
-		setText(slot11, i18n("tec_notice", i18n("tec_catchup_" .. slot1)))
 		_.each(slot3, function (slot0)
 			if uv0.taskProxy:getTaskVO(slot0) and slot1:isReceive() then
 				uv1 = uv1 + 1
 			end
 		end)
-		setText(slot12, 0 .. "/" .. #slot3)
+
+		slot4 = Task.New({
+			id = slot1
+		})
+
+		setText(slot9, i18n("tec_notice", i18n("tec_catchup_" .. slot2)))
 	else
-		setText(slot11, slot6:getConfig("desc"))
-		setText(slot12, math.min(slot6.progress, slot6:getConfig("target_num")) .. "/" .. slot6:getConfig("target_num"))
+		setText(slot9, slot4:getConfig("desc"))
 	end
 
-	slot13 = slot0.tecProgressPanel
-	slot13 = slot13:Find("Slider")
-	slot13:GetComponent(typeof(Slider)).value = slot6.progress / slot6:getConfig("target_num")
-	slot13 = slot0.tecProgressPanel
-	slot13 = slot13:Find("Icon/Item")
-	slot14 = slot6:getConfig("award_display")[1]
+	setText(slot10, math.min(slot4.progress, slot4:getConfig("target_num")) .. "/" .. slot4:getConfig("target_num"))
 
-	updateDrop(slot13, {
-		type = slot14[1],
-		id = slot14[2],
-		count = slot14[3]
+	slot12 = slot0.tecProgressPanel
+
+	setSlider(slot12:Find("Slider"), 0, slot4:getConfig("target_num"), slot4.progress)
+
+	slot11 = slot0.tecProgressPanel
+	slot11 = slot11:Find("Icon/Item")
+	slot12 = slot4:getConfig("award_display")[1]
+
+	updateDrop(slot11, {
+		type = slot12[1],
+		id = slot12[2],
+		count = slot12[3]
 	})
-	onButton(slot0, slot13, function ()
+	onButton(slot0, slot11, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
 
-	slot17 = slot0.tecProgressPanel
+	slot15 = slot0.tecProgressPanel
 
-	setActive(slot17:Find("TipText"), false)
-	onButton(slot0, slot7, function ()
+	setActive(slot15:Find("TipText"), false)
+	onButton(slot0, slot5, function ()
 		if uv0:isSelectable() then
 			slot0 = uv1
 
@@ -373,18 +371,9 @@ slot0.updateTecProgressPanel = function(slot0, slot1, slot2, slot3)
 			end)
 		else
 			uv1:emit(TrainingCampMediator.ON_GET, uv0)
-
-			if uv1.phaseId == 1 then
-				uv1.isSubmitTecFirstTaskTag = true
-
-				uv1:emit(TrainingCampMediator.ON_TRIGGER, {
-					cmd = 1,
-					activity_id = uv1.activity.id
-				})
-			end
 		end
 	end, SFX_PANEL)
-	onButton(slot0, slot9, function ()
+	onButton(slot0, slot7, function ()
 		uv0:emit(TrainingCampMediator.ON_GO, uv1)
 	end, SFX_PANEL)
 end
@@ -395,68 +384,69 @@ slot0.updateToggleDisable = function(slot0, slot1)
 	end
 end
 
-slot0.updateTaskUIItemList = function(slot0, slot1, slot2, slot3)
+slot0.updateTechToggleState = function(slot0)
+	slot1 = slot0.techFinishTaskId and slot0.taskProxy:getTaskVO(slot0.techFinishTaskId)
+	slot2 = slot0.phaseId == "ready" or TechnologyConst.isTecActOn() and slot1 and slot1:isReceive()
+
+	eachChild(slot0.tecPanel:Find("ToggleList"), function (slot0, slot1)
+		slot2 = not uv0.finishPhaseDic[slot1] and uv0.phaseId ~= slot1
+		slot3 = uv1 and (slot1 ~= 1 or uv0.finishPhaseDic[0] or uv0.phaseId == 0)
+
+		setActive(slot0:Find("Unlock"), slot2 and slot3)
+		setActive(slot0:Find("Disable"), slot2 and not slot3)
+	end)
+end
+
+slot0.updateTaskUIItemList = function(slot0, slot1, slot2)
 	slot1:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
-			uv0:updateTask(uv1[slot1 + 1], slot2, uv2)
+			uv0:updateTask(uv1[slot1 + 1], slot2)
 		end
 	end)
 	slot1:align(#slot2)
 end
 
-slot0.updateTask = function(slot0, slot1, slot2, slot3)
-	setActive(slot2:Find("Get"), slot0:getTask(slot3, slot1) and slot7:isFinish() and not slot7:isReceive())
-	setActive(slot2:Find("Got"), slot7 and slot7:isReceive())
-	setActive(slot2:Find("Go"), not slot7 or slot7 and not slot7:isFinish())
+slot0.updateTask = function(slot0, slot1, slot2)
+	setActive(slot2:Find("Get"), slot0:getTask(slot1) and slot6:isFinish() and not slot6:isReceive())
+	setActive(slot2:Find("Got"), slot6 and slot6:isReceive())
+	setActive(slot2:Find("Go"), not slot6 or slot6 and not slot6:isFinish())
 
-	if slot7 and slot7:isClientTrigger() and not slot7:isFinish() then
-		slot0:emit(TrainingCampMediator.ON_UPDATE, slot7)
+	if slot6 and slot6:isClientTrigger() and not slot6:isFinish() then
+		slot0:emit(TrainingCampMediator.ON_UPDATE, slot6)
 	end
 
-	slot7 = slot7 or Task.New({
-		id = slot1
+	setText(slot2:Find("TitleText"), slot6:getConfig("desc"))
+
+	slot7 = slot6:getConfig("award_display")[1]
+	slot8 = slot2:Find("Item")
+
+	updateDrop(slot8, {
+		type = slot7[1],
+		id = slot7[2],
+		count = slot7[3]
 	})
-
-	setText(slot2:Find("TitleText"), slot7:getConfig("desc"))
-
-	slot8 = slot7:getConfig("award_display")[1]
-	slot9 = slot2:Find("Item")
-
-	updateDrop(slot9, {
-		type = slot8[1],
-		id = slot8[2],
-		count = slot8[3]
-	})
-	onButton(slot0, slot9, function ()
+	onButton(slot0, slot8, function ()
 		uv0:emit(BaseUI.ON_DROP, uv1)
 	end, SFX_PANEL)
-	setText(slot2:Find("ProgressText"), math.min(slot7.progress, slot7:getConfig("target_num")) .. "/" .. slot7:getConfig("target_num"))
-	onButton(slot0, slot4, function ()
+	setText(slot2:Find("ProgressText"), math.min(slot6.progress, slot6:getConfig("target_num")) .. "/" .. slot6:getConfig("target_num"))
+	onButton(slot0, slot3, function ()
 		uv0:emit(TrainingCampMediator.ON_GET, uv1)
 	end, SFX_PANEL)
-	onButton(slot0, slot6, function ()
+	onButton(slot0, slot5, function ()
 		uv0:emit(TrainingCampMediator.ON_GO, uv1)
 	end, SFX_PANEL)
 end
 
-slot0.getTask = function(slot0, slot1, slot2, slot3)
-	slot4 = nil
-
-	if slot0.phaseId <= slot1 then
-		if slot3 == true then
-			return nil
-		end
-
-		slot4 = slot0.taskProxy:getTaskById(slot2) or slot0.taskProxy:getFinishTaskById(slot2)
-	else
-		slot4 = Task.New({
-			id = slot2
+slot0.getTask = function(slot0, slot1)
+	if not slot0.taskProxy:getTaskVO(slot1) then
+		slot2 = Task.New({
+			id = slot1
 		})
-		slot4.progress = slot4:getConfig("target_num")
-		slot4.submitTime = 1
+		slot2.progress = slot2:getConfig("target_num")
+		slot2.submitTime = 1
 	end
 
-	return slot4
+	return slot2
 end
 
 slot0.getTaskState = function(slot0, slot1)
@@ -528,35 +518,28 @@ slot0.setPhrase = function(slot0)
 	slot0.phaseId = slot1
 end
 
-slot0.isNormalActOn = function()
-	slot2 = false
-	slot3 = false
+slot0.setTechPhrase = function(slot0)
+	if slot0.activity.data1 == 0 then
+		slot0.phaseId = "ready"
+	else
+		slot0.phaseId = slot0.activity.data1
 
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS) and not slot0:isEnd() then
-		slot2 = getProxy(ChapterProxy):getChapterById(slot0:getConfig("config_data")[1]) and slot5:isClear()
-		slot7 = getProxy(TaskProxy)
-		slot3 = _.any(_.flatten(slot0:getConfig("config_data")[3]), function (slot0)
-			return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
-		end)
+		if slot0.phaseId == 1 and slot0.activity.data2 < 1 then
+			slot0.phaseId = 0
+		end
 	end
 
-	return slot1 and slot2, slot3
-end
+	slot0.techFinishTaskId = slot0.phaseId ~= "ready" and slot0.activity:getConfig("config_data")[3][math.max(1, slot0.phaseId)][2] or nil
+	slot0.finishPhaseDic = {}
 
-slot0.isTecActOn = function()
-	slot4 = pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "ShipBluePrintMediator")
-	slot5 = false
-	slot6 = false
-
-	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP) and not slot0:isEnd() then
-		slot5 = getProxy(ChapterProxy):getChapterById(slot0:getConfig("config_data")[1]) and slot8:isClear()
-		slot10 = getProxy(TaskProxy)
-		slot6 = _.any(_.flatten(slot0:getConfig("config_data")[3]), function (slot0)
-			return uv0:getTaskById(slot0) and slot1:isFinish() and not slot1:isReceive()
-		end)
+	for slot4, slot5 in ipairs(slot0.activity.data1_list) do
+		slot0.finishPhaseDic[slot5] = true
 	end
 
-	return slot1 and slot5 and slot4, slot6
+	slot0.finishPhaseDic[0] = slot0.finishPhaseDic[1]
+	slot0.finishPhaseDic[1] = slot0.activity.data2 == 1 and slot0.activity.data1 ~= 1
+
+	slot0:updateTechToggleState()
 end
 
 slot0.switchPanel = function(slot0, slot1, slot2)
@@ -575,7 +558,13 @@ slot0.switchPanel = function(slot0, slot1, slot2)
 		slot0:updateToggleDisable(slot0.normalToggles)
 		triggerToggle(slot0.normalToggles[slot0.phaseId], true)
 	elseif slot1:getConfig("type") == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
-		slot0:setPhrase()
+		slot0:setTechPhrase()
+
+		slot3 = slot0.phaseId == "ready"
+		slot0.tecPanel:Find("ToggleList"):GetComponent(typeof(ToggleGroup)).allowSwitchOff = slot3
+
+		setActive(slot0.tecPanel:Find("ScrollRect"), not slot3)
+		setActive(slot0.tecPanel:Find("ProgressPanel"), not slot3)
 
 		if slot2 then
 			slot0:aniOnSwitch(slot0.tecPanel, slot0.normalPanel)
@@ -584,8 +573,15 @@ slot0.switchPanel = function(slot0, slot1, slot2)
 			setActive(slot0.tecPanel, true)
 		end
 
-		slot0:updateToggleDisable(slot0.tecToggles)
-		triggerToggle(slot0.tecToggles[slot0.phaseId], true)
+		if slot0.phaseId == "ready" then
+			slot5 = slot0.tecPanel
+
+			eachChild(slot5:Find("ToggleList"), function (slot0)
+				triggerToggle(slot0, false)
+			end)
+		else
+			triggerToggle(slot0.tecPanel:Find("ToggleList"):GetChild(slot0.phaseId), true)
+		end
 	end
 end
 
@@ -647,32 +643,9 @@ slot0.closeMsgBox = function(slot0)
 	slot0:updateSwitchBtns()
 end
 
-slot0.tryShowTecFixTip = function(slot0)
-	if slot0.isSubmitTecFirstTaskTag == true then
-		slot0.isSubmitTecFirstTaskTag = false
-		slot1 = slot0.tecTaskActivity
-
-		if _.all(slot1:getConfig("config_data")[3][1][1], function (slot0)
-			return uv0.taskProxy:getTaskById(slot0) ~= nil
-		end) then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				modal = true,
-				hideNo = true,
-				hideClose = true,
-				content = i18n("tec_catchup_errorfix"),
-				weight = LayerWeightConst.TOP_LAYER,
-				onClose = function ()
-					uv0.lockFirst = true
-
-					uv0:switchPanel(uv0.tecTaskActivity)
-				end,
-				onYes = function ()
-					uv0.lockFirst = true
-
-					uv0:switchPanel(uv0.tecTaskActivity)
-				end
-			})
-		end
+slot0.tryShowTecFixTip = function(slot0, slot1)
+	if slot0.tecTaskActivity and slot1 == slot0.tecTaskActivity.id then
+		slot0.tecTaskActivity = slot0.activityProxy:getActivityByType(ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP)
 	end
 end
 

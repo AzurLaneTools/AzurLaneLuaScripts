@@ -3309,6 +3309,685 @@ pg.activity_sp_story = {
 			}
 		}
 	},
+	[191] = {
+		story_type = 1,
+		pre_event = "",
+		name = "EPS-1 新时代领航人",
+		change_prefab = "",
+		unlock_conditions = "",
+		change_background = "star_level_bg_538",
+		story = "GAOTASHANGDEQIANGWEI1",
+		change_bgm = "theme-brokenworld-sad",
+		id = 191,
+		lock = ""
+	},
+	[192] = {
+		story_type = 1,
+		name = "EP1-1 死寂之地",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS-1.",
+		change_background = "bg_gaotaqiangwei_1",
+		story = "GAOTASHANGDEQIANGWEI2",
+		change_bgm = "theme-lion",
+		id = 192,
+		pre_event = {
+			191
+		},
+		lock = {
+			{
+				4,
+				191
+			}
+		}
+	},
+	[193] = {
+		story_type = 1,
+		name = "EP2-1 辉翼太阳船",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-1.",
+		change_background = "bg_gaotaqiangwei_1",
+		story = "GAOTASHANGDEQIANGWEI3",
+		change_bgm = "theme-lion",
+		id = 193,
+		pre_event = {
+			191
+		},
+		lock = {
+			{
+				4,
+				192
+			}
+		}
+	},
+	[194] = {
+		story_type = 1,
+		name = "EP2-2 残骸潮",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-1.",
+		change_background = "star_level_bg_590",
+		story = "GAOTASHANGDEQIANGWEI4",
+		change_bgm = "theme-brokenworld-sad",
+		id = 194,
+		pre_event = {
+			193
+		},
+		lock = {
+			{
+				4,
+				193
+			}
+		}
+	},
+	[195] = {
+		story_type = 1,
+		name = "EP1-2 时间的差速",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-2.",
+		change_background = "bg_gaotaqiangwei_cg2",
+		story = "GAOTASHANGDEQIANGWEI5",
+		change_bgm = "theme-lion",
+		id = 195,
+		pre_event = {
+			192
+		},
+		lock = {
+			{
+				4,
+				194
+			}
+		}
+	},
+	[196] = {
+		story_type = 1,
+		name = "EP2-3 陆地与敌人",
+		change_prefab = "",
+		unlock_conditions = "Clear EP1-2.",
+		change_background = "star_level_bg_306",
+		story = "GAOTASHANGDEQIANGWEI6",
+		change_bgm = "theme-glorious-meta",
+		id = 196,
+		pre_event = {
+			194
+		},
+		lock = {
+			{
+				4,
+				195
+			}
+		}
+	},
+	[197] = {
+		story_type = 1,
+		name = "EPS-2 例行战况统计",
+		change_prefab = "",
+		unlock_conditions = "Clear EP2-3.",
+		change_background = "star_level_bg_538",
+		story = "GAOTASHANGDEQIANGWEI7",
+		change_bgm = "theme-lion",
+		id = 197,
+		pre_event = {
+			195,
+			196
+		},
+		lock = {
+			{
+				4,
+				196
+			}
+		}
+	},
+	[198] = {
+		story_type = 2,
+		name = "EP3-1 车与船",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS-2.",
+		change_background = "star_level_bg_600",
+		story = "1926001",
+		change_bgm = "theme-glorious-meta",
+		id = 198,
+		pre_event = {
+			197
+		},
+		lock = {
+			{
+				4,
+				197
+			}
+		}
+	},
+	[199] = {
+		story_type = 1,
+		name = "EP3-2 蔷薇塔的幸存者",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-1.",
+		change_background = "bg_gaotaqiangwei_cg3",
+		story = "GAOTASHANGDEQIANGWEI9",
+		change_bgm = "story-royalnavy-serious",
+		id = 199,
+		pre_event = {
+			198
+		},
+		lock = {
+			{
+				4,
+				198
+			}
+		}
+	},
+	[200] = {
+		story_type = 1,
+		name = "EP3-3 伊丽莎白不存在的世界",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-2.",
+		change_background = "bg_gaotaqiangwei_1",
+		story = "GAOTASHANGDEQIANGWEI10",
+		change_bgm = "theme-brokenworld-sad",
+		id = 200,
+		pre_event = {
+			199
+		},
+		lock = {
+			{
+				4,
+				199
+			}
+		}
+	},
+	[201] = {
+		story_type = 1,
+		name = "EP3-4 满月之蕾",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-3.",
+		change_background = "star_level_bg_559",
+		story = "GAOTASHANGDEQIANGWEI11",
+		change_bgm = "theme-camelot",
+		id = 201,
+		pre_event = {
+			200
+		},
+		lock = {
+			{
+				4,
+				200
+			}
+		}
+	},
+	[202] = {
+		story_type = 1,
+		name = "EPS-3 鲸鱼调查",
+		change_prefab = "",
+		unlock_conditions = "Clear EP3-4.",
+		change_background = "bg_gaotaqiangwei_1",
+		story = "GAOTASHANGDEQIANGWEI12",
+		change_bgm = "theme-lion",
+		id = 202,
+		pre_event = {
+			201
+		},
+		lock = {
+			{
+				4,
+				201
+			}
+		}
+	},
+	[203] = {
+		story_type = 1,
+		name = "EP4-1 危机升级",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS-3.",
+		change_background = "star_level_bg_538",
+		story = "GAOTASHANGDEQIANGWEI13",
+		change_bgm = "story-antix-past",
+		id = 203,
+		pre_event = {
+			202
+		},
+		lock = {
+			{
+				4,
+				202
+			}
+		}
+	},
+	[204] = {
+		story_type = 1,
+		name = "EP5-1 探索未知之地",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-1.",
+		change_background = "bg_gaotaqiangwei_2",
+		story = "GAOTASHANGDEQIANGWEI14",
+		change_bgm = "story-temepest-2",
+		id = 204,
+		pre_event = {
+			202
+		},
+		lock = {
+			{
+				4,
+				203
+			}
+		}
+	},
+	[205] = {
+		story_type = 1,
+		name = "EP4-2 越界洞察",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-1.",
+		change_background = "star_level_bg_538",
+		story = "GAOTASHANGDEQIANGWEI15",
+		change_bgm = "story-antix-past",
+		id = 205,
+		pre_event = {
+			203
+		},
+		lock = {
+			{
+				4,
+				204
+			}
+		}
+	},
+	[206] = {
+		story_type = 1,
+		name = "EP5-2 稳健的构建者",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-2.",
+		change_background = "bg_gaotaqiangwei_1",
+		story = "GAOTASHANGDEQIANGWEI16",
+		change_bgm = "theme-glorious-meta",
+		id = 206,
+		pre_event = {
+			204
+		},
+		lock = {
+			{
+				4,
+				205
+			}
+		}
+	},
+	[207] = {
+		story_type = 1,
+		name = "EP4-3 截然不同的皇家",
+		change_prefab = "",
+		unlock_conditions = "Clear EP5-2.",
+		change_background = "bg_gaotaqiangwei_cg4",
+		story = "GAOTASHANGDEQIANGWEI17",
+		change_bgm = "story-lion-up",
+		id = 207,
+		pre_event = {
+			205
+		},
+		lock = {
+			{
+				4,
+				206
+			}
+		}
+	},
+	[208] = {
+		story_type = 2,
+		name = "EPS-4 过于稳健的构建者",
+		change_prefab = "",
+		unlock_conditions = "Clear EP4-3.",
+		change_background = "star_level_bg_306",
+		story = "1926002",
+		change_bgm = "theme-glorious-meta",
+		id = 208,
+		pre_event = {
+			206,
+			207
+		},
+		lock = {
+			{
+				4,
+				207
+			}
+		}
+	},
+	[209] = {
+		story_type = 1,
+		name = "EP6-1 进攻计划",
+		change_prefab = "",
+		unlock_conditions = "Clear EPS-4.",
+		change_background = "bg_gaotaqiangwei_1",
+		story = "GAOTASHANGDEQIANGWEI19",
+		change_bgm = "theme-lion",
+		id = 209,
+		pre_event = {
+			208
+		},
+		lock = {
+			{
+				4,
+				208
+			}
+		}
+	},
+	[210] = {
+		story_type = 1,
+		name = "EP6-2 以永日之名",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-1.",
+		change_background = "bg_gaotaqiangwei_2",
+		story = "GAOTASHANGDEQIANGWEI20",
+		change_bgm = "theme-ucnf-image",
+		id = 210,
+		pre_event = {
+			209
+		},
+		lock = {
+			{
+				4,
+				209
+			}
+		}
+	},
+	[211] = {
+		story_type = 1,
+		name = "EP6-3 领域外之桥",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-2.",
+		change_background = "star_level_bg_306",
+		story = "GAOTASHANGDEQIANGWEI21",
+		change_bgm = "theme-glorious-meta",
+		id = 211,
+		pre_event = {
+			210
+		},
+		lock = {
+			{
+				4,
+				210
+			}
+		}
+	},
+	[212] = {
+		story_type = 1,
+		name = "EP7-1 更宏大的计划",
+		change_prefab = "",
+		unlock_conditions = "Clear EP6-3.",
+		change_background = "bg_cccpv2_9",
+		story = "GAOTASHANGDEQIANGWEI22",
+		change_bgm = "battle-ash-strong",
+		id = 212,
+		pre_event = {
+			211
+		},
+		lock = {
+			{
+				4,
+				211
+			}
+		}
+	},
+	[213] = {
+		story_type = 1,
+		name = "EP7-2 米哈伊尔",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-1.",
+		change_background = "bg_gaotaqiangwei_cg5",
+		story = "GAOTASHANGDEQIANGWEI23",
+		change_bgm = "theme-glorious-meta",
+		id = 213,
+		pre_event = {
+			212
+		},
+		lock = {
+			{
+				4,
+				212
+			}
+		}
+	},
+	[214] = {
+		story_type = 1,
+		name = "EP7-3 光荣的茶会",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-2.",
+		change_background = "bg_gaotaqiangwei_2",
+		story = "GAOTASHANGDEQIANGWEI24",
+		change_bgm = "story-antix-past",
+		id = 214,
+		pre_event = {
+			213
+		},
+		lock = {
+			{
+				4,
+				213
+			}
+		}
+	},
+	[215] = {
+		story_type = 1,
+		name = "EP8-1 战争准备",
+		change_prefab = "",
+		unlock_conditions = "Clear EP7-3.",
+		change_background = "star_level_bg_538",
+		story = "GAOTASHANGDEQIANGWEI25",
+		change_bgm = "story-antix-past",
+		id = 215,
+		pre_event = {
+			214
+		},
+		lock = {
+			{
+				4,
+				214
+			}
+		}
+	},
+	[216] = {
+		story_type = 2,
+		name = "EP8-2 第二类拟态体",
+		change_prefab = "",
+		unlock_conditions = "Clear EP8-1.",
+		change_background = "star_level_bg_115",
+		story = "1926003",
+		change_bgm = "theme-glorious-meta",
+		id = 216,
+		pre_event = {
+			215
+		},
+		lock = {
+			{
+				4,
+				215
+			}
+		}
+	},
+	[217] = {
+		story_type = 1,
+		name = "EP8-3 摇摇欲坠",
+		change_prefab = "",
+		unlock_conditions = "Clear EP8-2.",
+		change_background = "star_level_bg_535",
+		story = "GAOTASHANGDEQIANGWEI27",
+		change_bgm = "theme-glorious-meta",
+		id = 217,
+		pre_event = {
+			216
+		},
+		lock = {
+			{
+				4,
+				216
+			}
+		}
+	},
+	[218] = {
+		story_type = 1,
+		name = "EP8-4 光荣的选择",
+		change_prefab = "",
+		unlock_conditions = "Clear EP8-3.",
+		change_background = "star_level_bg_600",
+		story = "GAOTASHANGDEQIANGWEI28",
+		change_bgm = "theme-glorious-meta",
+		id = 218,
+		pre_event = {
+			217
+		},
+		lock = {
+			{
+				4,
+				217
+			}
+		}
+	},
+	[219] = {
+		story_type = 1,
+		name = "EP9-1 必须做出的决断",
+		change_prefab = "",
+		unlock_conditions = "完成EP8-4",
+		change_background = "star_level_bg_115",
+		story = "GAOTASHANGDEQIANGWEI29",
+		change_bgm = "story-memory-grief",
+		id = 219,
+		pre_event = {
+			218
+		},
+		lock = {
+			{
+				4,
+				218
+			}
+		}
+	},
+	[220] = {
+		story_type = 1,
+		name = "EP9-2 彼此间的奇迹",
+		change_prefab = "",
+		unlock_conditions = "Clear EP9-1.",
+		change_background = "bg_gaotaqiangwei_4",
+		story = "GAOTASHANGDEQIANGWEI30",
+		change_bgm = "theme-thechariotVII",
+		id = 220,
+		pre_event = {
+			219
+		},
+		lock = {
+			{
+				4,
+				219
+			}
+		}
+	},
+	[221] = {
+		story_type = 1,
+		name = "EP9-3 终得圆满",
+		change_prefab = "",
+		unlock_conditions = "完成EP9-2",
+		change_background = "star_level_bg_590",
+		story = "GAOTASHANGDEQIANGWEI31",
+		change_bgm = "theme-shallowoftheworld",
+		id = 221,
+		pre_event = {
+			220
+		},
+		lock = {
+			{
+				4,
+				220
+			}
+		}
+	},
+	[222] = {
+		story_type = 1,
+		name = "EX-1 圆满的代价",
+		change_prefab = "",
+		unlock_conditions = "完成EP9-3",
+		change_background = "bg_gaotaqiangwei_6",
+		story = "GAOTASHANGDEQIANGWEI32",
+		change_bgm = "theme-thechariotVII",
+		id = 222,
+		pre_event = {
+			221
+		},
+		lock = {
+			{
+				4,
+				221
+			}
+		}
+	},
+	[223] = {
+		story_type = 1,
+		name = "EX-2 越界实验",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-1.",
+		change_background = "star_level_bg_303",
+		story = "GAOTASHANGDEQIANGWEI33",
+		change_bgm = "story-egypt-mystic",
+		id = 223,
+		pre_event = {
+			222
+		},
+		lock = {
+			{
+				4,
+				222
+			}
+		}
+	},
+	[224] = {
+		story_type = 1,
+		name = "EX-3 蓄势待发",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-2.",
+		change_background = "star_level_bg_503",
+		story = "GAOTASHANGDEQIANGWEI34",
+		change_bgm = "theme-frederick",
+		id = 224,
+		pre_event = {
+			223
+		},
+		lock = {
+			{
+				4,
+				223
+			}
+		}
+	},
+	[225] = {
+		story_type = 1,
+		name = "EX-4 余烬的变化",
+		change_prefab = "",
+		unlock_conditions = "Clear EX-3.",
+		change_background = "bg_port_chongdong",
+		story = "GAOTASHANGDEQIANGWEI35",
+		change_bgm = "theme-thetowerXVI",
+		id = 225,
+		pre_event = {
+			224
+		},
+		lock = {
+			{
+				4,
+				224
+			}
+		}
+	},
+	[226] = {
+		story_type = 1,
+		name = "EX-5 托瓦没有坏心思",
+		change_prefab = "map_1920001",
+		unlock_conditions = "Clear EX-4.",
+		change_background = "bg_gaotaqiangwei_2",
+		story = "GAOTASHANGDEQIANGWEI36",
+		change_bgm = "theme-brokenworld-sad",
+		id = 226,
+		pre_event = {
+			225
+		},
+		lock = {
+			{
+				4,
+				225
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -3485,6 +4164,42 @@ pg.activity_sp_story = {
 		185,
 		186,
 		187,
-		188
+		188,
+		191,
+		192,
+		193,
+		194,
+		195,
+		196,
+		197,
+		198,
+		199,
+		200,
+		201,
+		202,
+		203,
+		204,
+		205,
+		206,
+		207,
+		208,
+		209,
+		210,
+		211,
+		212,
+		213,
+		214,
+		215,
+		216,
+		217,
+		218,
+		219,
+		220,
+		221,
+		222,
+		223,
+		224,
+		225,
+		226
 	}
 }

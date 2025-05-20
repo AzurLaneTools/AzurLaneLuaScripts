@@ -1625,6 +1625,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[247] = {
+		achieve = 1,
+		index = 83,
+		pic = "247",
+		desc = "<color=#92fc63>[Big ones]</color>",
+		item_name = "Sticker: Big ones",
+		item_desc = "Sticker: Big ones (Can be found in the Default section of chat stickers.)",
+		id = 247,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[248] = {
+		achieve = 1,
+		index = 84,
+		pic = "248",
+		desc = "<color=#92fc63>[Don't look]</color>",
+		item_name = "Sticker: Don't look",
+		item_desc = "Sticker: Don't look (Can be found in the Default section of chat stickers.)",
+		id = 248,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[301] = {
 		achieve = 0,
 		index = 970,
@@ -2262,6 +2288,45 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[1042] = {
+		achieve = 1,
+		index = 88,
+		pic = "1042",
+		desc = "<color=#92fc63>[Begin!]</color>",
+		item_name = "Sticker: Begin!",
+		item_desc = "Sticker: Begin! (Can be found in the Default section of chat stickers.)",
+		id = 1042,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1043] = {
+		achieve = 1,
+		index = 89,
+		pic = "1043",
+		desc = "<color=#92fc63>[I WILL deliver!]</color>",
+		item_name = "Sticker: I WILL deliver!",
+		item_desc = "Sticker: I WILL deliver! (Can be found in the Default section of chat stickers.)",
+		id = 1043,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1044] = {
+		achieve = 1,
+		index = 90,
+		pic = "1044",
+		desc = "<color=#92fc63>[Logging out...]</color>",
+		item_name = "Sticker: Logging out...",
+		item_desc = "Sticker: Logging out... (Can be found in the Default section of chat stickers.)",
+		id = 1044,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2388,6 +2453,8 @@ pg.emoji_template = {
 		244,
 		245,
 		246,
+		247,
+		248,
 		301,
 		302,
 		303,
@@ -2436,6 +2503,9 @@ pg.emoji_template = {
 		373,
 		374,
 		375,
-		1041
+		1041,
+		1042,
+		1043,
+		1044
 	}
 }

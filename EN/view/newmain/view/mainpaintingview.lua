@@ -38,6 +38,15 @@ slot0.Register = function(slot0)
 	slot0:bind(NewMainScene.ENABLE_PAITING_MOVE, function (slot0, slot1)
 		uv0:EnableOrDisableMove(slot1)
 	end)
+	slot0:bind(NewMainScene.SAVE_PART_SCALE, function (slot0, slot1)
+		uv0.painting:SavePartScaleData()
+	end)
+	slot0:bind(NewMainScene.ENABLE_PAITING_SCALE, function (slot0, slot1)
+		uv0:EnableOrDisableScale(slot1)
+	end)
+	slot0:bind(NewMainScene.RESET_PAITING_SCALE, function (slot0, slot1)
+		uv0.painting:ResetPartScale()
+	end)
 	slot0:bind(NewMainScene.ON_ENTER_DONE, function (slot0)
 		if uv0.painting then
 			uv0.painting:TriggerEventAtFirstTime()
@@ -300,6 +309,11 @@ slot0.Fold = function(slot0, slot1, slot2)
 	end
 end
 
+slot0.EnableOrDisableScale = function(slot0, slot1)
+	slot0.painting:EnableOrDisableMove(slot1)
+	slot0.painting:OnEnablePartScale(slot1)
+end
+
 slot0.EnableOrDisableMove = function(slot0, slot1)
 	slot0.painting:EnableOrDisableMove(slot1)
 
@@ -377,6 +391,8 @@ slot0.DisableDragAndZoom = function(slot0)
 		slot0.cg.blocksRaycasts = true
 		slot0.isEnableDrag = false
 	end
+
+	slot0:AdjustPosition(slot0.ship)
 end
 
 slot0.Dispose = function(slot0)

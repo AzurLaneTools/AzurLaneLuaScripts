@@ -162,6 +162,8 @@ pg.furniture_data_template = setmetatable({
 			300,
 			301,
 			302,
+			303,
+			304,
 			100002,
 			100003,
 			100004,
@@ -3396,6 +3398,26 @@ pg.furniture_data_template = setmetatable({
 			321116,
 			321117,
 			321118
+		},
+		[122] = {
+			322001,
+			322002,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115,
+			322116
 		}
 	},
 	get_id_list_by_tag = {
@@ -5411,7 +5433,22 @@ pg.furniture_data_template = setmetatable({
 			321115,
 			321116,
 			321117,
-			321118
+			321118,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115
 		},
 		{
 			1108,
@@ -5798,7 +5835,9 @@ pg.furniture_data_template = setmetatable({
 			293,
 			295,
 			296,
-			302
+			302,
+			303,
+			304
 		},
 		[7] = {
 			211,
@@ -6000,7 +6039,8 @@ pg.furniture_data_template = setmetatable({
 			318305,
 			319117,
 			320115,
-			321114
+			321114,
+			322116
 		},
 		[4] = {
 			1001,
@@ -6109,7 +6149,8 @@ pg.furniture_data_template = setmetatable({
 			318001,
 			319001,
 			320001,
-			321001
+			321001,
+			322001
 		},
 		[3] = {
 			1002,
@@ -6219,7 +6260,8 @@ pg.furniture_data_template = setmetatable({
 			318002,
 			319002,
 			320002,
-			321002
+			321002,
+			322002
 		},
 		[5] = {
 			1301,
@@ -6702,7 +6744,8 @@ pg.furniture_data_template = setmetatable({
 			318002,
 			319002,
 			320002,
-			321002
+			321002,
+			322002
 		},
 		[7] = {
 			1,
@@ -6840,6 +6883,8 @@ pg.furniture_data_template = setmetatable({
 			300,
 			301,
 			302,
+			303,
+			304,
 			100002,
 			100004,
 			100005,
@@ -8902,7 +8947,23 @@ pg.furniture_data_template = setmetatable({
 			321113,
 			321114,
 			321117,
-			321118
+			321118,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115,
+			322116
 		},
 		[11] = {
 			131,
@@ -9087,7 +9148,8 @@ pg.furniture_data_template = setmetatable({
 			318001,
 			319001,
 			320001,
-			321001
+			321001,
+			322001
 		},
 		[5] = {
 			1101,
@@ -9964,6 +10026,8 @@ pg.furniture_data_template = setmetatable({
 		300,
 		301,
 		302,
+		303,
+		304,
 		100002,
 		100003,
 		100004,
@@ -12979,7 +13043,25 @@ pg.furniture_data_template = setmetatable({
 		321115,
 		321116,
 		321117,
-		321118
+		321118,
+		322001,
+		322002,
+		322101,
+		322102,
+		322103,
+		322104,
+		322105,
+		322106,
+		322107,
+		322108,
+		322109,
+		322110,
+		322111,
+		322112,
+		322113,
+		322114,
+		322115,
+		322116
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -20852,6 +20934,80 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		size = {
 			2,
 			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[303] = {
+		can_rotate = 0,
+		name = "Miniature Rose Tower",
+		gain_by = "高塔上的蔷薇",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 8,
+		icon = "shixunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/shixunzhang",
+		canputon = 0,
+		count = 1,
+		describe = "A scale replica of the fully-energized Rose Tower. It comes with its own circuitry, and can even serve as a floor lamp in a pinch.",
+		advice = 0,
+		deblocking = 1,
+		id = 303,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[304] = {
+		can_rotate = 0,
+		name = "The Villa Reconstruction Commemoration",
+		gain_by = "夏日重建！海岛别墅度假计划！",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 1,
+		belong = 1,
+		rarity = 5,
+		is_3d_obj = 0,
+		tag = 8,
+		icon = "sanjiujiuxunzhangicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 0,
+		spine_action_replace = "",
+		picture = "chuanmo/sanjiujiuxunzhang",
+		canputon = 0,
+		count = 1,
+		describe = "A statue sculpted around the theme of \"Rebuild Together, Vacation Together\", to commemorate the reconstruction of a special villa resort.",
+		advice = 0,
+		deblocking = 1,
+		id = 304,
+		comfortable = 0,
+		size = {
+			2,
+			4
 		},
 		offset = {},
 		canputonGrid = {},
@@ -155285,6 +155441,913 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[322001] = {
+		can_rotate = 0,
+		name = "Seaside Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanhb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 122,
+		spine_action_replace = "",
+		picture = "hb2/dibanhb2",
+		canputon = 0,
+		count = 1,
+		describe = "The sights, smells, and feels of the beach are everything you want out of a vacation.",
+		advice = 0,
+		deblocking = 1,
+		id = 322001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322002] = {
+		can_rotate = 0,
+		name = "Seaside Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbihb2icon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		describe = "The sights, smells, and feels of the beach are everything you want out of a vacation.",
+		advice = 0,
+		id = 322002,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbihb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322101] = {
+		can_rotate = 0,
+		name = "Beach Hut",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xiaowuhb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		describe = "A classic hut by the beachside. Simple, cozy, and relaxing.",
+		advice = 0,
+		id = 322101,
+		deblocking = 1,
+		comfortable = 4,
+		size = {
+			9,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaowuhb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322102] = {
+		can_rotate = 0,
+		name = "Seaside Double Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shuangrenyihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "hb2/shuangrenyihb2",
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		describe = "A classic beachside double chair. Grab a drink, grab a partner, and get comfortable.",
+		advice = 0,
+		id = 322102,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-76,
+					10
+				},
+				{
+					1,
+					1
+				},
+				"hb2/shuangrenyihb2_using"
+			},
+			{
+				"sit",
+				{
+					49,
+					12
+				},
+				{
+					-1,
+					1
+				},
+				"hb2/shuangrenyihb2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322103] = {
+		can_rotate = 0,
+		name = "Octopus Deck Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "tangyihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "hb2/tangyihb2",
+		canputon = 0,
+		themeId = 122,
+		count = 2,
+		describe = "Sunshine, gentle waves, and a deck chair – this is the life.",
+		advice = 0,
+		id = 322103,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					32,
+					5
+				},
+				{
+					1,
+					1
+				},
+				"hb2/tangyihb2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322104] = {
+		can_rotate = 0,
+		name = "Octopus Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xiaozhuozihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 122,
+		spine_action_replace = "",
+		picture = "hb2/xiaozhuozihb2",
+		canputon = 0,
+		count = 1,
+		describe = "A small octopus table. Sadly, it doesn't have 8 legs.",
+		advice = 0,
+		deblocking = 1,
+		id = 322104,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322105] = {
+		can_rotate = 0,
+		name = "Seamanjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yongquanjiuhb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 122,
+		spine_action_replace = "",
+		picture = "hb2/yongquanjiuhb2",
+		canputon = 0,
+		count = 1,
+		describe = "\"Seamanjuus\" in the plural. No more inappropriate jokes!",
+		advice = 0,
+		deblocking = 1,
+		id = 322105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322106] = {
+		can_rotate = 0,
+		name = "Seaside Gazebo",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		themeId = 122,
+		icon = "liangtinghb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Some nice shelter from the sunlight. It assures the highest level of comfort during your vacation.",
+		advice = 0,
+		id = 322106,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liangtinghb2B",
+				"normal"
+			},
+			{
+				"liangtinghb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322107] = {
+		can_rotate = 0,
+		name = "Octopus Parasol",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zheyangsanhb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		describe = "A common sight at the beach. Sometimes, all you need is a bit of cool shade.",
+		advice = 0,
+		id = 322107,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zheyangsanhb2",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[322108] = {
+		can_rotate = 0,
+		name = "Octopus Carpet",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "didianhb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 122,
+		spine_action_replace = "",
+		picture = "hb2/didianhb2",
+		canputon = 0,
+		count = 1,
+		describe = "A trademark beachside item. Contrary to its appearance, it's not slippery at all!",
+		advice = 0,
+		deblocking = 1,
+		id = 322108,
+		comfortable = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322109] = {
+		can_rotate = 0,
+		name = "Octopus Pool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 122,
+		icon = "yongchihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "A pool to relax in. Sometimes, bathing on land is more convenient.",
+		advice = 0,
+		id = 322109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			9,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yongchihb2B",
+				"normal"
+			},
+			{
+				"yongchihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322110] = {
+		can_rotate = 0,
+		name = "Suspicious Ripple",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "lianyihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		describe = "Look at that ripple! What might be diving under there?",
+		advice = 0,
+		id = 322110,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianyihb2",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[322111] = {
+		can_rotate = 0,
+		name = "Beach Hanging Chair",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		themeId = 122,
+		icon = "diaoyihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Perfect for reading a book while rocking back and forth. Or just dozing off.",
+		advice = 0,
+		id = 322111,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyihb2B",
+				"normal"
+			},
+			{
+				"diaoyihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322112] = {
+		can_rotate = 0,
+		name = "Seaside Potted Plant",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "penzaihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 122,
+		spine_action_replace = "",
+		picture = "hb2/penzaihb2",
+		canputon = 0,
+		count = 2,
+		describe = "A dash of vivid green adds a wonderful touch to the beach.",
+		advice = 0,
+		deblocking = 1,
+		id = 322112,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322113] = {
+		can_rotate = 0,
+		name = "Seaside Pier",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "gangkouhb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 122,
+		spine_action_replace = "",
+		picture = "hb2/gangkouhb2",
+		canputon = 0,
+		count = 1,
+		describe = "Back up! We're filled to capacity! No free spots available!",
+		advice = 0,
+		deblocking = 1,
+		id = 322113,
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322114] = {
+		can_rotate = 0,
+		name = "Handy Ladder",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "futihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 122,
+		spine_action_replace = "",
+		picture = "hb2/futihb2",
+		canputon = 0,
+		count = 1,
+		describe = "A small \"bridge\" between land and sea. Remember to put it back where you found it when you're done.",
+		advice = 0,
+		deblocking = 1,
+		id = 322114,
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322115] = {
+		can_rotate = 0,
+		name = "Coconut Tree",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "yezishuhb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		describe = "Do you think you just fell out of one of these?",
+		advice = 0,
+		id = 322115,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yezishuhb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322116] = {
+		can_rotate = 0,
+		name = "Seaside Slide",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 122,
+		icon = "huatihb2icon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "This is how you really enter the water with a splash.",
+		advice = 0,
+		id = 322116,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			13,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatihb2B",
+				"normal"
+			},
+			{
+				"huatihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						1,
+						"sit"
+					},
+					{
+						"dance1",
+						nil,
+						"sit"
+					},
+					{
+						"dance2",
+						1,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					15,
+					176
+				},
+				{
+					405,
+					300
+				},
+				"hb2/huatihb2_mask"
+			},
+			{
+				-21.5,
+				-160.5
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	}

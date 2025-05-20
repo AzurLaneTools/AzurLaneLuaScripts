@@ -4,6 +4,12 @@ slot0.getVitemNumber = function(slot0, slot1)
 	return slot0.data1KeyValueList[1][slot1] or 0
 end
 
+slot0.setVitemNumber = function(slot0, slot1, slot2)
+	if slot0.data1KeyValueList[1][slot1] then
+		slot0.data1KeyValueList[1][slot1] = slot2
+	end
+end
+
 slot0.addVitemNumber = function(slot0, slot1, slot2)
 	slot0.data1KeyValueList[1][slot1] = slot0:getVitemNumber(slot1) + slot2
 end

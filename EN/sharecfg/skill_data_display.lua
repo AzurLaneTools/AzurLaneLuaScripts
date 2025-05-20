@@ -1826,6 +1826,21 @@ pg.skill_data_display = setmetatable({
 		151131,
 		151132,
 		151141,
+		151191,
+		151192,
+		151170,
+		151180,
+		151211,
+		151224,
+		151262,
+		151280,
+		151281,
+		151290,
+		151291,
+		151292,
+		151293,
+		151302,
+		151312,
 		18010,
 		18040,
 		18041,
@@ -2484,6 +2499,8 @@ pg.skill_data_display = setmetatable({
 		30432,
 		30441,
 		30442,
+		30461,
+		30462,
 		39000,
 		39001,
 		39002,
@@ -3128,6 +3145,11 @@ pg.skill_data_display = setmetatable({
 		801621,
 		801652,
 		801661,
+		801771,
+		801772,
+		801777,
+		801778,
+		801779,
 		902201,
 		1010140,
 		1010143,
@@ -3329,6 +3351,16 @@ pg.skill_data_display = setmetatable({
 		201352,
 		201353,
 		201354,
+		201368,
+		201378,
+		201379,
+		201380,
+		201381,
+		201382,
+		201383,
+		201384,
+		201385,
+		201419,
 		1011540,
 		1011541,
 		1090010,
@@ -10818,6 +10850,66 @@ pg.base.skill_data_display = {
 		id = 151141,
 		name = "Peek-a-Boom!"
 	},
+	[151191] = {
+		id = 151191,
+		name = "Glowworm Retreat!"
+	},
+	[151192] = {
+		id = 151192,
+		name = "Glowworm Breakthrough!"
+	},
+	[151170] = {
+		id = 151170,
+		name = "The Flawless Hunt"
+	},
+	[151180] = {
+		id = 151180,
+		name = "Crimson Killmark"
+	},
+	[151211] = {
+		id = 151211,
+		name = "Dogged Pursuit"
+	},
+	[151224] = {
+		id = 151224,
+		name = "Worldgorging Lionflame"
+	},
+	[151262] = {
+		id = 151262,
+		name = "Upon This Corpus, Shall Irradiance Adorn"
+	},
+	[151280] = {
+		id = 151280,
+		name = "Sun God's Radiance"
+	},
+	[151281] = {
+		id = 151281,
+		name = "Sun God's Radiance"
+	},
+	[151290] = {
+		id = 151290,
+		name = "Guidance of the Stars"
+	},
+	[151291] = {
+		id = 151291,
+		name = "Guidance of the Stars"
+	},
+	[151292] = {
+		id = 151292,
+		name = "Guidance of the Stars"
+	},
+	[151293] = {
+		id = 151293,
+		name = "Guidance of the Stars"
+	},
+	[151302] = {
+		id = 151302,
+		name = "运筹帷幄之中"
+	},
+	[151312] = {
+		id = 151312,
+		name = "By This Power, Shall Duty be Done"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -13450,6 +13542,14 @@ pg.base.skill_data_display = {
 		id = 30442,
 		name = "All Out Assault II"
 	},
+	[30461] = {
+		id = 30461,
+		name = "All Out Assault I"
+	},
+	[30462] = {
+		id = 30462,
+		name = "All Out Assault II"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -16026,6 +16126,26 @@ pg.base.skill_data_display = {
 		id = 801661,
 		name = "Operation Ghost"
 	},
+	[801771] = {
+		id = 801771,
+		name = "Thorned Reprisal 40/40"
+	},
+	[801772] = {
+		id = 801772,
+		name = "Thorned Reprisal 20/40"
+	},
+	[801777] = {
+		id = 801777,
+		name = "Thorned Reprisal 5/40"
+	},
+	[801778] = {
+		id = 801778,
+		name = "Thorned Reprisal 10/40"
+	},
+	[801779] = {
+		id = 801779,
+		name = "Thorned Reprisal 30/40"
+	},
 	[902201] = {
 		id = 902201,
 		name = "Fantastic Loop"
@@ -16829,6 +16949,46 @@ pg.base.skill_data_display = {
 	[201354] = {
 		id = 201354,
 		name = "Restoring to Factory Settings"
+	},
+	[201368] = {
+		id = 201368,
+		name = "Support – Siren"
+	},
+	[201378] = {
+		id = 201378,
+		name = "Support – Luxwing Lion"
+	},
+	[201379] = {
+		id = 201379,
+		name = "Support – Luxwing Lion"
+	},
+	[201380] = {
+		id = 201380,
+		name = "Support – Luxwing Lion"
+	},
+	[201381] = {
+		id = 201381,
+		name = "Support – Luxwing Lion"
+	},
+	[201382] = {
+		id = 201382,
+		name = "Support – Queen's Light"
+	},
+	[201383] = {
+		id = 201383,
+		name = "Support – Queen's Light"
+	},
+	[201384] = {
+		id = 201384,
+		name = "Support – Queen's Light"
+	},
+	[201385] = {
+		id = 201385,
+		name = "Support – Queen's Light"
+	},
+	[201419] = {
+		id = 201419,
+		name = "Support – Queen's Light"
 	},
 	[1011540] = {
 		id = 1011540,

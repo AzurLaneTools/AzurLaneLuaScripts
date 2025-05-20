@@ -6555,7 +6555,97 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_556_1_1",
 		"op_reply_556_1_1",
 		"ins_op_556_1_2",
-		"op_reply_556_1_2"
+		"op_reply_556_1_2",
+		"ins_557",
+		"ins_discuss_557_1",
+		"ins_reply_557_1_1",
+		"ins_reply_557_1_2",
+		"ins_reply_557_1_3",
+		"ins_reply_557_1_4",
+		"ins_discuss_557_2",
+		"ins_reply_557_2_1",
+		"ins_reply_557_2_2",
+		"ins_reply_557_2_3",
+		"ins_reply_557_2_4",
+		"ins_op_557_1_1",
+		"op_reply_557_1_1",
+		"ins_op_557_1_2",
+		"op_reply_557_1_2",
+		"ins_558",
+		"ins_discuss_558_1",
+		"ins_reply_558_1_1",
+		"ins_reply_558_1_2",
+		"ins_reply_558_1_3",
+		"ins_discuss_558_2",
+		"ins_reply_558_2_1",
+		"ins_reply_558_2_2",
+		"ins_reply_558_2_3",
+		"ins_op_558_1_1",
+		"op_reply_558_1_1",
+		"ins_op_558_1_2",
+		"op_reply_558_1_2",
+		"ins_559",
+		"ins_discuss_559_1",
+		"ins_reply_559_1_1",
+		"ins_reply_559_1_2",
+		"ins_reply_559_1_3",
+		"ins_reply_559_1_4",
+		"ins_discuss_559_2",
+		"ins_reply_559_2_1",
+		"ins_reply_559_2_2",
+		"ins_reply_559_2_3",
+		"ins_op_559_1_1",
+		"op_reply_559_1_1",
+		"ins_op_559_1_2",
+		"op_reply_559_1_2",
+		"ins_560",
+		"ins_discuss_560_1",
+		"ins_reply_560_1_1",
+		"ins_reply_560_1_2",
+		"ins_reply_560_1_3",
+		"ins_reply_560_1_4",
+		"ins_reply_560_1_5",
+		"ins_discuss_560_2",
+		"ins_reply_560_2_1",
+		"ins_reply_560_2_2",
+		"ins_reply_560_2_3",
+		"ins_reply_560_2_4",
+		"ins_op_560_1_1",
+		"op_reply_560_1_1",
+		"ins_op_560_1_2",
+		"op_reply_560_1_2",
+		"ins_561",
+		"ins_discuss_561_1",
+		"ins_reply_561_1_1",
+		"ins_reply_561_1_2",
+		"ins_reply_561_1_3",
+		"ins_reply_561_1_4",
+		"ins_reply_561_1_5",
+		"ins_reply_561_1_6",
+		"ins_reply_561_1_7",
+		"ins_discuss_561_2",
+		"ins_reply_561_2_1",
+		"ins_reply_561_2_2",
+		"ins_reply_561_2_3",
+		"ins_reply_561_2_4",
+		"ins_op_561_1_1",
+		"op_reply_561_1_1",
+		"ins_op_561_1_2",
+		"op_reply_561_1_2",
+		"ins_562",
+		"ins_discuss_562_1",
+		"ins_reply_562_1_1",
+		"ins_reply_562_1_2",
+		"ins_reply_562_1_3",
+		"ins_discuss_562_2",
+		"ins_reply_562_2_1",
+		"ins_reply_562_2_2",
+		"ins_reply_562_2_3",
+		"ins_reply_562_2_4",
+		"ins_op_562_1_1",
+		"op_reply_562_1_1",
+		"ins_op_562_1_2",
+		"op_reply_562_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -26220,6 +26310,276 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_556_1_2 = {
+		value = ""
+	},
+	ins_557 = {
+		value = ""
+	},
+	ins_discuss_557_1 = {
+		value = ""
+	},
+	ins_reply_557_1_1 = {
+		value = ""
+	},
+	ins_reply_557_1_2 = {
+		value = ""
+	},
+	ins_reply_557_1_3 = {
+		value = ""
+	},
+	ins_reply_557_1_4 = {
+		value = ""
+	},
+	ins_discuss_557_2 = {
+		value = ""
+	},
+	ins_reply_557_2_1 = {
+		value = ""
+	},
+	ins_reply_557_2_2 = {
+		value = ""
+	},
+	ins_reply_557_2_3 = {
+		value = ""
+	},
+	ins_reply_557_2_4 = {
+		value = ""
+	},
+	ins_op_557_1_1 = {
+		value = ""
+	},
+	op_reply_557_1_1 = {
+		value = ""
+	},
+	ins_op_557_1_2 = {
+		value = ""
+	},
+	op_reply_557_1_2 = {
+		value = ""
+	},
+	ins_558 = {
+		value = ""
+	},
+	ins_discuss_558_1 = {
+		value = ""
+	},
+	ins_reply_558_1_1 = {
+		value = ""
+	},
+	ins_reply_558_1_2 = {
+		value = ""
+	},
+	ins_reply_558_1_3 = {
+		value = ""
+	},
+	ins_discuss_558_2 = {
+		value = ""
+	},
+	ins_reply_558_2_1 = {
+		value = ""
+	},
+	ins_reply_558_2_2 = {
+		value = ""
+	},
+	ins_reply_558_2_3 = {
+		value = ""
+	},
+	ins_op_558_1_1 = {
+		value = ""
+	},
+	op_reply_558_1_1 = {
+		value = ""
+	},
+	ins_op_558_1_2 = {
+		value = ""
+	},
+	op_reply_558_1_2 = {
+		value = ""
+	},
+	ins_559 = {
+		value = ""
+	},
+	ins_discuss_559_1 = {
+		value = ""
+	},
+	ins_reply_559_1_1 = {
+		value = ""
+	},
+	ins_reply_559_1_2 = {
+		value = ""
+	},
+	ins_reply_559_1_3 = {
+		value = ""
+	},
+	ins_reply_559_1_4 = {
+		value = ""
+	},
+	ins_discuss_559_2 = {
+		value = ""
+	},
+	ins_reply_559_2_1 = {
+		value = ""
+	},
+	ins_reply_559_2_2 = {
+		value = ""
+	},
+	ins_reply_559_2_3 = {
+		value = ""
+	},
+	ins_op_559_1_1 = {
+		value = ""
+	},
+	op_reply_559_1_1 = {
+		value = ""
+	},
+	ins_op_559_1_2 = {
+		value = ""
+	},
+	op_reply_559_1_2 = {
+		value = ""
+	},
+	ins_560 = {
+		value = ""
+	},
+	ins_discuss_560_1 = {
+		value = ""
+	},
+	ins_reply_560_1_1 = {
+		value = ""
+	},
+	ins_reply_560_1_2 = {
+		value = ""
+	},
+	ins_reply_560_1_3 = {
+		value = ""
+	},
+	ins_reply_560_1_4 = {
+		value = ""
+	},
+	ins_reply_560_1_5 = {
+		value = ""
+	},
+	ins_discuss_560_2 = {
+		value = ""
+	},
+	ins_reply_560_2_1 = {
+		value = ""
+	},
+	ins_reply_560_2_2 = {
+		value = ""
+	},
+	ins_reply_560_2_3 = {
+		value = ""
+	},
+	ins_reply_560_2_4 = {
+		value = ""
+	},
+	ins_op_560_1_1 = {
+		value = ""
+	},
+	op_reply_560_1_1 = {
+		value = ""
+	},
+	ins_op_560_1_2 = {
+		value = ""
+	},
+	op_reply_560_1_2 = {
+		value = ""
+	},
+	ins_561 = {
+		value = ""
+	},
+	ins_discuss_561_1 = {
+		value = ""
+	},
+	ins_reply_561_1_1 = {
+		value = ""
+	},
+	ins_reply_561_1_2 = {
+		value = ""
+	},
+	ins_reply_561_1_3 = {
+		value = ""
+	},
+	ins_reply_561_1_4 = {
+		value = ""
+	},
+	ins_reply_561_1_5 = {
+		value = ""
+	},
+	ins_reply_561_1_6 = {
+		value = ""
+	},
+	ins_reply_561_1_7 = {
+		value = ""
+	},
+	ins_discuss_561_2 = {
+		value = ""
+	},
+	ins_reply_561_2_1 = {
+		value = ""
+	},
+	ins_reply_561_2_2 = {
+		value = ""
+	},
+	ins_reply_561_2_3 = {
+		value = ""
+	},
+	ins_reply_561_2_4 = {
+		value = ""
+	},
+	ins_op_561_1_1 = {
+		value = ""
+	},
+	op_reply_561_1_1 = {
+		value = ""
+	},
+	ins_op_561_1_2 = {
+		value = ""
+	},
+	op_reply_561_1_2 = {
+		value = ""
+	},
+	ins_562 = {
+		value = ""
+	},
+	ins_discuss_562_1 = {
+		value = ""
+	},
+	ins_reply_562_1_1 = {
+		value = ""
+	},
+	ins_reply_562_1_2 = {
+		value = ""
+	},
+	ins_reply_562_1_3 = {
+		value = ""
+	},
+	ins_discuss_562_2 = {
+		value = ""
+	},
+	ins_reply_562_2_1 = {
+		value = ""
+	},
+	ins_reply_562_2_2 = {
+		value = ""
+	},
+	ins_reply_562_2_3 = {
+		value = ""
+	},
+	ins_reply_562_2_4 = {
+		value = ""
+	},
+	ins_op_562_1_1 = {
+		value = ""
+	},
+	op_reply_562_1_1 = {
+		value = ""
+	},
+	ins_op_562_1_2 = {
+		value = ""
+	},
+	op_reply_562_1_2 = {
 		value = ""
 	}
 }

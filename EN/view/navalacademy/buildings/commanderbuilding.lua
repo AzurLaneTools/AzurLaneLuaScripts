@@ -26,4 +26,12 @@ slot0.IsTip = function(slot0)
 	end
 end
 
+slot0.OnInit = function(slot0)
+	setActive(slot0._tf:Find("name/lock"), not slot0:IsUnlock())
+end
+
+slot0.IsUnlock = function(slot0)
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "CommanderCatMediator")
+end
+
 return slot0

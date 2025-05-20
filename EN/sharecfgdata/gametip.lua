@@ -7977,161 +7977,161 @@ _G.pg.base.gametip.help_shipinfo_attr = {
 			info = "2. Stats Details:"
 		},
 		{
-			info = "      HP: The ship's Health Points stat. Determines how much damage she can take before sinking.",
+			info = " HP: The ship's Health Points stat. Determines how much damage she can take before sinking.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "durability"
 			}
 		},
 		{
-			info = "     FP: The ship's Firepower stat. Increases her damage dealt with artillery and cannon-based attacks.",
+			info = " FP: The ship's Firepower stat. Increases her damage dealt with artillery and cannon-based attacks.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "cannon"
 			}
 		},
 		{
-			info = "      AA: The ship's Anti-Air stat. Increases her damage dealt with Anti-Air Guns.",
+			info = " AA: The ship's Anti-Air stat. Increases her damage dealt with Anti-Air Guns.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "antiaircraft"
 			}
 		},
 		{
-			info = "      Armor Type: The ship's Armor thickness. Affects how much damage she takes from varying sources. (In general, in terms of protection, Heavy > Medium > Light.)",
+			info = " Armor Type: The ship's Armor thickness. Affects how much damage she takes from varying sources. (In general, in terms of protection, Heavy > Medium > Light.) Each weapon has a different effectiveness against each armor type, so carefully consider the combination of ships and gear to bring to each battle to maximize your fleet's effectiveness.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "armor"
 			}
 		},
 		{
-			info = "     TRP: The ship's Torpedo stat. Increases her damage dealt with torpedo weapons. ",
+			info = " TRP: The ship's Torpedo stat. Increases her damage dealt with torpedo weapons. ",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "torpedo"
 			}
 		},
 		{
-			info = "      AVI: The ship's Aviation stat. Increases her damage dealt with aircraft.",
+			info = " AVI: The ship's Aviation stat. Increases her damage dealt with aircraft.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "air"
 			}
 		},
 		{
-			info = "      RLD: The ship's Reload stat. Affects how long her weapons take to load.",
+			info = " RLD: The ship's Reload stat. Affects how long her weapons take to load.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "reload"
 			}
 		},
 		{
-			info = "     EVA: The ship's Evasion stat. Affects her probability to evade incoming attacks.",
+			info = " EVA: The ship's Evasion stat. Affects her probability to evade incoming attacks and the likelihood of being critically hit.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "dodge"
 			}
 		},
 		{
-			info = "      ACC: The ship's Accuracy stat. Affects her probability to land hits and score Critical Hits.",
+			info = " ACC: The ship's Accuracy stat. Affects her probability to land hits and score Critical Hits.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = 0,
 				scale = 0.3,
 				path = "hit"
 			}
 		},
 		{
-			info = "      SPD: The ship's Speed stat. Affects her movement speed on the battlefield and influences how many tiles your fleet can move in one turn on certain maps. \n ",
+			info = " SPD: The ship's Speed stat. Affects her movement speed on the battlefield and influences how many tiles your fleet can move in one turn on certain maps. \n ",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = 0,
 				scale = 0.6,
 				path = "attr_speed"
 			}
 		},
 		{
-			info = "     Cost: The amount of Oil the ship consumes per battle.",
+			info = " Cost: The amount of Oil the ship consumes per battle.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "expend"
 			}
 		},
 		{
-			info = "      ASW: The ship's Anti-Submarine Warfare stat. Increases her damage dealt with Anti-Sub weapons and affects her sonar detection range.",
+			info = " ASW: The ship's Anti-Submarine Warfare stat. Increases her damage dealt with Anti-Sub weapons and affects her sonar detection range.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "antisub"
 			}
 		},
 		{
-			info = "      OXY: The boat's Oxygen stat. Determines how long she can stay underwater before she must resurface.",
+			info = " OXY: The boat's Oxygen stat. Determines how long she can stay underwater before she must resurface.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "oxy_max"
 			}
 		},
 		{
-			info = "      AMO: The boat's Ammunition stat. Determines how many times a Submarine Fleet can attack and/or provide support. The total number of times is equal to the Submarine Fleet's combined AMO stat.",
+			info = " AMO: The boat's Ammunition stat. Determines how many times a Submarine Fleet can attack and/or provide support. The total number of times is equal to the Submarine Fleet's combined AMO stat.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "ammo"
 			}
 		},
 		{
-			info = "      ASR: The boat's Attack/Support Range. Determines how far the Submarine Fleet can move from its starting location to attack or provide support.",
+			info = " ASR: The boat's Attack/Support Range. Determines how far the Submarine Fleet can move from its starting location to attack or provide support.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 0.6,
 				path = "hunt_range"
 			}
 		},
 		{
-			info = "      LCK: The ship's Luck stat. Affects the ship's probability of landing and avoiding regular hits and Critical Hits.",
+			info = " LCK: The ship's Luck stat. Affects the ship's probability of landing and avoiding regular hits and Critical Hits.",
 			icon = {
 				posX = 0,
 				atlas = "attricon",
-				posY = 6,
+				posY = -6,
 				scale = 1,
 				path = "luck"
 			}
@@ -9893,6 +9893,11 @@ _G.pg.base.gametip.ship_remould_warning_107984 = {
 
 _G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "Retrofitting this ship will <color=#92fc63>add 1 Anti-Air Gun mount</color> but <color=#92fc63>remove 1 Torpedo mount.</color> \nWould you like to continue? "
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_201524 = {
+	tip = "Completing the retrofit will give this shipgirl <color=#92fc63>main gun base +1</color>.\n Proceed with the retrofit?"
 }
 
 
@@ -12867,7 +12872,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Rate UP for Evertsen and De Zeven Provinciën!"
+	tip = "Get Lion guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
@@ -15282,15 +15287,15 @@ Event Information:
 
 1. This event and the rewards you can receive from it are split into 2 categories depending on your last login status: 
  a. Active Commander 
- b. Returning or new Commander
+ b. Returning/New Commander
 2. Players who meet the following criterion are categorized as Active Commanders and are eligible for Active Commander objectives and rewards: 
-- Logged in at least once at any point between August 1st, 2024 and before the maintenance on August 15th, 2024.
-3. Players who do not meet this criterion are categorized as Returning or new Commanders and are eligible for their own set of objectives and rewards.
-4. If you are unsure whether you are an Active Commander or a Returning or new Commander, please view the information in the Returnee Missions banner. 
+- Logged in at least once at any point between May 6th, 2025 and before the maintenance on May 20th, 2025.
+3. Players who do not meet this criterion are categorized as Returning/New Commanders and are eligible for their own set of objectives and rewards.
+4. If you are unsure whether you are an Active Commander or a Returning/New Commander, please view the information in the Returnee Missions banner. 
 5. An Active Commander's objective is to receive Returnee Points from up to 2 other players who participate in and complete Returnee Missions. Once an Active Commander has collected enough points, they can claim various nice rewards from the event banner.
-6. Returning or new Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning or new Commanders on the right side of the event banner. 
-7. Active Commanders can tap the "Send Mobilization Request" button to show their UID to Returning or new Commanders who are looking for Active Commander UIDs.
-8. A Returning or new Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning or new Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.
+6. Returning/New Commanders can participate in Returnee Missions by entering the UID of an Active Commander into the event banner on their end. You can see the UIDs of your linked Returning/New Commanders on the right side of the event banner. 
+7. Active Commanders can tap the "Broadcast User Identification" button to show their UID to Returning/New Commanders who are looking for Active Commander UIDs.
+8. A Returning/New Commander's objective is to enter an Active Commander's UID in the event banner to gain access to Returnee Missions. Returning/New Commanders who participate in Returnee Missions gain access to daily tasks which give various nice rewards when completed.
 9. A single UID can be entered up to 2 times. You can still enter the UID of another player even if they play on a different server than you.]]
 		}
 	}
@@ -15354,7 +15359,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4. You may choose two ships on which to focus your wishes. (You can only choose one Ultra Rare ship and any other Ultra Rare ship cannot be build in the Wishing Well.)"
 		},
 		{
-			info = "5. Only ships added to the normal building pool prior to March 20th can hear your wishes."
+			info = "5. Only ships added to the normal building pool prior to March 26th, 2025 can hear your wishes."
 		},
 		{
 			info = "6. Ships that have an unlock condition cannot hear your wishes, and will not appear in the Wishing Well."
@@ -23158,7 +23163,7 @@ The table of objects you can retrieve and the amount of points you gain or lose 
 · I-168: -50 points
 · Torpedo: -50 points
 
-The minigame ends when the timer reaches 0, or when you tap the Return button.]]
+The minigame ends when the timer reaches 0, or when you tap the Return button.￼]]
 		}
 	}
 }
@@ -34899,7 +34904,7 @@ _G.pg.base.gametip.specialshipyard_name = {
 
 
 _G.pg.base.gametip.liner_sign_cnt_tip = {
-	tip = "Currently Obtainable:"
+	tip = "Obtainable:"
 }
 
 
@@ -38398,4 +38403,421 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
 
 _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 	tip = "Depth of field"
+}
+
+
+_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
+	tip = "Complete all missions in the previous section to unlock."
+}
+
+
+_G.pg.base.gametip.handbook_new_player_guide_locked_by_level = {
+	tip = "Unlocks at Commander Lvl. $1."
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_level = {
+	tip = "Unlocks at Commander Lvl. $1."
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_other_task = {
+	tip = "Unlocks upon completing the following mission: $1."
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_chapter = {
+	tip = "Unlocks upon clearing the stage: $1."
+}
+
+
+_G.pg.base.gametip.handbook_name = {
+	tip = "Commander Handbook"
+}
+
+
+_G.pg.base.gametip.handbook_process = {
+	tip = "In Progress"
+}
+
+
+_G.pg.base.gametip.handbook_claim = {
+	tip = "Collect"
+}
+
+
+_G.pg.base.gametip.handbook_finished = {
+	tip = "Completed"
+}
+
+
+_G.pg.base.gametip.handbook_unfinished = {
+	tip = "Can be obtained after completing $1 missions."
+}
+
+
+_G.pg.base.gametip.handbook_gametip = {
+	tip = {
+		{
+			info = "- Commander Handbook Overview -"
+		},
+		{
+			info = "The Commander Handbook contains 3 types of missions: rookie missions, development missions, and mechanic tutorials."
+		},
+		{
+			info = [[
+<b>1. Rookie missions:</b>
+· This is a series of missions aimed at Commanders new to the game.
+· There are nine mission phases in total, with each phase containing a handful of missions.
+· Completing six missions within a given phase unlocks the missions in the next phase. Completing all the missions across all phases gives you completion rewards.
+· When you complete all missions across all nine phases, you'll receive a Rookie Mission Invitation. This item can be used to redeem one of two UR-rarity shipgirls: <color=#92fc63>Shinano</color> or <color=#92fc63>New Jersey</color>.]]
+		},
+		{
+			info = [[
+<b>2. Development missions:</b>
+· These missions are unlocked at Commander Lvl. 30. Completing them will give you items that can be used in the Development Dock, such as Data Packs and Blueprints.
+· You can choose a shipgirl from a particular development series to advance these missions with.
+· NOTE: Once you unlock the development missions, you need to clear all the missions of a particular series before you can switch to missions from other series.]]
+		},
+		{
+			info = "<b>3. Mechanic tutorials:</b>\n· This is a compilation of tutorials and tips to help Commanders just starting out.\n· Each mechanic group contains its own tutorials and associated missions. Completing all missions will give you Wisdom Cubes."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.handbook_research_confirm = {
+	tip = "Unlock Missions"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
+	tip = "Clear all $1 development missions to unlock the final missions for this phase."
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_locked = {
+	tip = "Unavailable"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_claim = {
+	tip = "Claim"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_finished = {
+	tip = "Claimed"
+}
+
+
+_G.pg.base.gametip.handbook_ur_double_check = {
+	tip = "The invitation may only be used once.\nWould you like to invite <color=#92fc63>$1</color>?\nYou will receive the chosen shipgirl and a commemorative item."
+}
+
+
+_G.pg.base.gametip.NewMusic_1 = {
+	tip = "Favorite ($1)"
+}
+
+
+_G.pg.base.gametip.NewMusic_2 = {
+	tip = "Searching..."
+}
+
+
+_G.pg.base.gametip.NewMusic_help = {
+	tip = {
+		{
+			icon = {
+				atlas = "helpbg/music_help',path='"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.NewMusic_3 = {
+	tip = "Found no songs matching the criteria."
+}
+
+
+_G.pg.base.gametip.NewMusic_4 = {
+	tip = "Found no albums matching the criteria."
+}
+
+
+_G.pg.base.gametip.NewMusic_5 = {
+	tip = "Favorites"
+}
+
+
+_G.pg.base.gametip.NewMusic_6 = {
+	tip = "Albums"
+}
+
+
+_G.pg.base.gametip.NewMusic_7 = {
+	tip = "No favorite entries found."
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame1 = {
+	tip = "Shipgirl Game"
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame2 = {
+	tip = "Salvaging"
+}
+
+
+_G.pg.base.gametip.holiday_tip_bath = {
+	tip = "Vacay Thermae"
+}
+
+
+_G.pg.base.gametip.holiday_tip_collection = {
+	tip = "Notes"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task = {
+	tip = "Missions"
+}
+
+
+_G.pg.base.gametip.holiday_tip_shop = {
+	tip = "Missions"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans = {
+	tip = "Logistics Pier"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_now = {
+	tip = "Current Goal"
+}
+
+
+_G.pg.base.gametip.holiday_tip_finish = {
+	tip = "You have completed <color=#5f984d>all resort reconstruction missions</color>. Your remaining reconstruction materials can be exchanged for <color=#5f984d>villa coins</color>."
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_get = {
+	tip = "Complete reconstruction missions to gain logistics."
+}
+
+
+_G.pg.base.gametip.holiday_tip_rebuild_not = {
+	tip = "Insufficient materials for reconstruction."
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_not = {
+	tip = "Insufficient logistics for reconstruction."
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_finish = {
+	tip = "The resort's reconstruction has been completed."
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_tip = {
+	tip = "Logistics Pier"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc1 = {
+	tip = "The island resort's main pier, able to accommodate large cruisers and transport ships. There is a giant welcome sign with a cat paw symbol and an information board at the entrance.\nIt leads, of course, to the premium juice stand run by the infamous green cat."
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc2 = {
+	tip = "The island resort's main pier, able to accommodate large cruisers and transport ships. There is a giant welcome sign with a cat paw symbol and an information board at the entrance.\nIt leads, of course, to the premium juice stand run by the infamous green cat."
+}
+
+
+_G.pg.base.gametip.holiday_tip_gametip = {
+	tip = {
+		{
+			info = [[
+- How to Play -
+<color=#92fc63>5/20 - 6/11</color>The limited event, "Midsummer Returns! The Villa Reconstruction" is now ongoing!
+- The Villa Reconstruction -
+During the event, improve your logistics capacity by completing limited-time event missions. Spend your logistics points at the Logistics Pier to obtain varying amounts of reconstruction materials, based on the method chosen.
+You will need these resources to rebuild the 6 areas found in the villa resort, unlocking additional stories and features in the process.
+- Exchange Shop -
+You will be able to earn Villa Coins by participating in the event activities. They can be spent on a variety of rewards, including a limited-time chat frame.
+- Additional Content -
+Two minigames are also available for your enjoyment – Shipgirl Game, and Manjuu Salvaging Crew. Play them to earn additional rewards.
+The Vacay Thermae allows you to quickly restore the Morale of the characters staying there.
+Shipgirl Game, Manjuu Salvaging Crew, and Vacay Thermae are unlocked as you progress through the reconstruction process.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.holiday_tip_spring = {
+	tip = {
+		{
+			info = "How to Play:\n<color=#92fc63>From 5/20 to 6/11</color>, the Vacay Thermae will be available for a limited time.\nCharacters placed within the Vacay Thermae will restore Morale at a faster rate."
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_holiday_function_lock = {
+	tip = "Available after further reconstruction."
+}
+
+
+_G.pg.base.gametip.storyline_chapter0 = {
+	tip = "Prologue"
+}
+
+
+_G.pg.base.gametip.storyline_chapter1 = {
+	tip = "Chapter 1"
+}
+
+
+_G.pg.base.gametip.storyline_chapter2 = {
+	tip = "Chapter 2"
+}
+
+
+_G.pg.base.gametip.storyline_chapter3 = {
+	tip = "Chapter 3"
+}
+
+
+_G.pg.base.gametip.storyline_chapter4 = {
+	tip = "Chapter 4"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch1 = {
+	tip = "Story Search"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch2 = {
+	tip = "Searching..."
+}
+
+
+_G.pg.base.gametip.use_amount_prefix = {
+	tip = "Amount used:"
+}
+
+
+_G.pg.base.gametip.sure_exit_resolve_equip = {
+	tip = "If no action is taken, all the gear will be sent to your <color=#5f984d>Depot</color>.\nReturn to the previous screen?"
+}
+
+
+_G.pg.base.gametip.resolve_equip_tip = {
+	tip = "Select gear to disassemble, gear not selected will be stored in storage"
+}
+
+
+_G.pg.base.gametip.resolve_equip_title = {
+	tip = "Will get:"
+}
+
+
+_G.pg.base.gametip.tec_catchup_0 = {
+	tip = "Series 1"
+}
+
+
+_G.pg.base.gametip.tec_catchup_confirm = {
+	tip = "Would you like to begin the development missions for this series? \nConfirm to unlock the development missions for this series; you cannot switch to missions of a different series until you complete all the active ones."
+}
+
+
+_G.pg.base.gametip.watermelon_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/watermelon_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.breakout_tip = {
+	tip = "Increases star rating"
+}
+
+
+_G.pg.base.gametip.collection_book_lock_place = {
+	tip = "Area Inaccessible"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_1 = {
+	tip = "Building\nRecords"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_2 = {
+	tip = "Leisure\nTime"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_3 = {
+	tip = "Special\nEncounters"
+}
+
+
+_G.pg.base.gametip.challenge_minigame_unlock = {
+	tip = "Minigame Locked"
+}
+
+
+_G.pg.base.gametip.storyline_camp = {
+	tip = "Factions "
+}
+
+
+_G.pg.base.gametip.storyline_goto = {
+	tip = "Check Memories"
 }

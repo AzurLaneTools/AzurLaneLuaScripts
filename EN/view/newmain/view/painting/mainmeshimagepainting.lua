@@ -37,6 +37,7 @@ slot0.GetPaintingName = function(slot0)
 end
 
 slot0.OnLoad = function(slot0, slot1)
+	slot0:ClearScalePart()
 	LoadPaintingPrefabAsync(slot0.container, slot0.paintingName, slot0:GetPaintingName(), "mainNormal", function ()
 		if uv0:IsExited() then
 			uv0:UnLoad()
@@ -53,6 +54,7 @@ slot0.OnLoad = function(slot0, slot1)
 		end
 
 		uv0:Breath()
+		uv0:InitScalePart()
 		uv2()
 	end)
 end
@@ -333,6 +335,18 @@ slot0.OnEnableOrDisableDragAndZoom = function(slot0, slot1)
 	else
 		slot0:Breath()
 	end
+end
+
+slot0.GetPaintingTransform = function(slot0)
+	return slot0:GetMeshPainting()
+end
+
+slot0.GetPartScaleData = function(slot0)
+	return pg.ship_skin_template[slot0.ship.skinId].part_scale.paint
+end
+
+slot0.GetPartStateType = function(slot0)
+	return MainPaintingView.STATE_PAINTING
 end
 
 slot0.OnFold = function(slot0, slot1)

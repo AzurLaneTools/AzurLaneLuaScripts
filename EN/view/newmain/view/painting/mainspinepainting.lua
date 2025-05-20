@@ -14,6 +14,8 @@ slot0.GetCenterPos = function(slot0)
 end
 
 slot0.OnLoad = function(slot0, slot1)
+	slot0:ClearScalePart()
+
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 		ship = slot0.ship,
 		position = Vector3(0, 0, 0),
@@ -28,7 +30,12 @@ slot0.OnLoad = function(slot0, slot1)
 			uv0:TriggerEvent(uv0._initTriggerEvent)
 
 			uv0._initTriggerEvent = nil
+		elseif getProxy(PlayerProxy):getFlag("login") then
+			getProxy(PlayerProxy):setFlag("login", nil)
+			uv0:PrepareTriggerAction("event_login")
 		end
+
+		uv0:InitScalePart()
 	end)
 	slot3 = slot0.spinePainting
 
@@ -212,6 +219,22 @@ slot0.onSpinePaintingEvent = function(slot0, slot1)
 	slot0:TriggerPersonalTask(slot0.ship.groupId)
 end
 
+slot0.GetPaintingTransform = function(slot0)
+	if slot0.spinePainting then
+		return slot0.spinePainting:GetSpineTrasform()
+	end
+
+	return nil
+end
+
+slot0.GetPartScaleData = function(slot0)
+	return pg.ship_skin_template[slot0.ship.skinId].part_scale.spine
+end
+
+slot0.GetPartStateType = function(slot0)
+	return MainPaintingView.STATE_SPINE_PAINTING
+end
+
 slot0.getDragTouchAble = function(slot0, slot1, slot2, slot3)
 	if not SpinePaintingConst.ship_drag_datas[slot2] then
 		return false
@@ -229,7 +252,7 @@ slot0.getDragTouchAble = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.OnDisplayWorld = function(slot0, slot1)
-	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) ~= "" then
+	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) and slot3 ~= "" then
 		slot0.spinePainting:SetAction(slot3, 1)
 		slot0.spinePainting:displayWord(true)
 	end
@@ -266,7 +289,24 @@ slot0.PlayChangeSkinActionIn = function(slot0, slot1)
 end
 
 slot0.PlayChangeSkinActionOut = function(slot0, slot1)
-	if slot1 and slot1.callback then
+	if slot0.spinePainting and slot0.spinePainting:getAnimationExist("change_out") then
+		if slot0.spinePainting:ablePlayAction("change_out", false, 0) then
+			slot2 = slot0.spinePainting
+
+			slot2:SetOnceAction("change_out", function ()
+			end, function ()
+				if uv0 and uv0.callback then
+					uv0.callback({
+						flag = true
+					})
+				end
+			end, true)
+		elseif slot1 and slot1.callback then
+			slot1.callback({
+				flag = true
+			})
+		end
+	elseif slot1 and slot1.callback then
 		slot1.callback({
 			flag = true
 		})

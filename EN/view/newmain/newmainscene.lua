@@ -9,6 +9,10 @@ slot0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"
 slot0.ON_BUFF_DESC = "NewMainScene:ON_BUFF_DESC"
 slot0.ON_SKIN_FREEUSAGE_DESC = "NewMainScene:ON_SKIN_FREEUSAGE_DESC"
 slot0.ENABLE_PAITING_MOVE = "NewMainScene:ENABLE_PAITING_MOVE"
+slot0.ENABLE_PAITING_SCALE = "NewMainScene:ENABLE_PAITING_SCALE"
+slot0.SAVE_PART_SCALE = "NewMainScene:SAVE_PART_SCALE"
+slot0.RESET_PAITING_SCALE = "NewMainScene:RESET_PAITING_SCALE"
+slot0.SET_SCALE_PART_CONTENT = "NewMainScene:SET_SCALE_PART_CONTENT"
 slot0.ON_ENTER_DONE = "NewMainScene:ON_ENTER_DONE"
 slot0.ENTER_SILENT_VIEW = "NewMainScene:ENTER_SILENT_VIEW"
 slot0.EXIT_SILENT_VIEW = "NewMainScene:EXIT_SILENT_VIEW"
@@ -34,18 +38,41 @@ slot0.GetFlagShip = function(slot0)
 end
 
 slot0.PlayBgm = function(slot0, slot1)
-	slot2 = nil
+	slot2, slot3 = nil
 
-	if slot1:IsBgmSkin() and getProxy(SettingsProxy):IsBGMEnable() then
-		slot2 = slot1:GetSkinBgm()
-	end
+	if underscore.any({
+		function ()
+			if uv0:IsBgmSkin() and getProxy(SettingsProxy):IsBGMEnable() then
+				uv1 = uv0:GetSkinBgm()
+			end
 
-	if not slot2 then
-		slot3, slot2 = MainBGView.GetBgAndBgm()
-	end
+			return tobool(uv1)
+		end,
+		function ()
+			if getProxy(SettingsProxy):IsEnableMainMusicPlayer() and getProxy(AppreciateProxy):CanPlayMainMusicPlayer() then
+				uv0 = "MainMusicPlayer"
+				uv1 = {
+					loopType = getProxy(AppreciateProxy):getMusicPlayerLoopType(),
+					albumName = getProxy(AppreciateProxy):getMainPlayerAlbumName()
+				}
+			end
 
-	if slot2 or uv0.super.getBGM(slot0) then
-		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2)
+			return tobool(uv0)
+		end,
+		function ()
+			slot0, uv0 = MainBGView.GetBgAndBgm()
+
+			return tobool(uv0)
+		end,
+		function ()
+			uv0 = uv1.super.getBGM(uv2)
+
+			return tobool(uv0)
+		end
+	}, function (slot0)
+		return slot0()
+	end) then
+		pg.BgmMgr.GetInstance():Push(slot0.__cname, slot2, slot3)
 	end
 end
 
@@ -207,6 +234,15 @@ slot0.FoldPanels = function(slot0, slot1)
 	pg.playerResUI:Fold(slot1, 0.5)
 end
 
+slot0.HidePanel = function(slot0, slot1)
+	if not slot0.theme then
+		return
+	end
+
+	slot0.theme:OnFoldPanels(slot1)
+	pg.playerResUI:Fold(slot1, 0.5)
+end
+
 slot0.SwitchToNextShip = function(slot0)
 	if slot0.paintingView:IsLoading() or slot0.bgView:IsLoading() or not slot0.theme then
 		return
@@ -240,6 +276,13 @@ end
 
 slot0.PlayChangeSkinActionIn = function(slot0, slot1)
 	slot0.paintingView:PlayChangeSkinActionIn(slot1)
+end
+
+slot0.CheckAndReplayBgm = function(slot0)
+	slot1 = slot0:GetFlagShip()
+
+	slot0.theme:Refresh(slot1)
+	slot0:PlayBgm(slot1)
 end
 
 slot0.SetEffectPanelVisible = function(slot0, slot1)
@@ -300,6 +343,11 @@ slot0.OnDisVisible = function(slot0)
 	pg.redDotHelper:Disable()
 	slot0.buffDescPage:Disable()
 	slot0.silentChecker:Disable()
+
+	if slot0.silentView and slot0.silentView:isShowing() then
+		slot0:ExitSilentView()
+	end
+
 	slot0.calibrationPage:Destroy()
 	slot0.calibrationPage:Reset()
 	slot0.skinExperienceDisplayPage:Destroy()
@@ -343,7 +391,7 @@ end
 slot0.onBackPressed = function(slot0)
 	pg.CriMgr.GetInstance():PlaySoundEffect_V3(SFX_CANCEL)
 
-	if slot0.silentView and slot0.silentView:GetLoaded() and slot0.silentView:isShowing() then
+	if slot0.silentView and slot0.silentView:isShowing() then
 		slot0:ExitSilentView()
 
 		return

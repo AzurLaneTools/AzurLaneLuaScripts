@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "login",
+		default_bgm = "story-villaisland-night",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "story-villaisland-night"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-tulipa",
+		default_bgm = "theme-glorious-meta",
 		special_bgm = "",
-		bgm = "story-tulipa"
+		bgm = "theme-glorious-meta"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2124,5 +2124,55 @@ pg.voice_bgm = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
 		bgm = "theme-designshipVI"
+	},
+	TrinidadMainPage = {
+		default_bgm = "theme-lion",
+		special_bgm = "",
+		bgm = "theme-lion"
+	},
+	RosePtPage = {
+		default_bgm = "story-egypt-mystic",
+		special_bgm = "",
+		bgm = "story-egypt-mystic"
+	},
+	HolidayVillaIslandMainPage = {
+		default_bgm = "story-villaisland-light",
+		special_bgm = "",
+		bgm = "story-villaisland-light"
+	},
+	HolidayVillaHotSpringScene = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	UrExTrafalgarPage = {
+		default_bgm = "story-royalnavy-serious",
+		special_bgm = "",
+		bgm = "story-royalnavy-serious"
+	},
+	CelebrationPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversaryEightLoginPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	CommanderManualLayer = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
+	},
+	TowerRoseMedalAlbumView = {
+		default_bgm = "theme-glorious-meta",
+		special_bgm = "",
+		bgm = "theme-glorious-meta"
+	},
+	HolidayVillaMedalAlbumView = {
+		default_bgm = "story-villaisland-light",
+		special_bgm = "",
+		bgm = "story-villaisland-light"
 	}
 }

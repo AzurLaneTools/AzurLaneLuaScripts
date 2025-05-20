@@ -64,8 +64,10 @@ slot0.updateGoodsCard = function(slot0, slot1, slot2)
 
 	setActive(slot1:Find("mask"), not slot3)
 	setGray(slot1, slot3 and not slot2:CheckArgLimit())
-	setActive(slot1:Find("btn_pay"), slot3)
-	setActive(slot1:Find("btn_unable"), not slot3)
+
+	slot5 = slot2:GetConsume()
+
+	setActive(slot1:Find("btn_unable"), slot5:getOwnedCount() < slot5.count)
 	setButtonEnabled(slot1, slot3)
 	updateDrop(slot1:Find("icon/IconTpl"), {
 		type = slot2:getConfig("commodity_type"),
@@ -85,7 +87,7 @@ slot0.updateGoodsCard = function(slot0, slot1, slot2)
 	if slot2:getConfig("num_limit") == 0 then
 		setText(slot1:Find("limit"), i18n("common_no_limit"))
 	else
-		setText(slot1:Find("limit"), i18n("islandshop_tips2") .. math.max(slot2:GetPurchasableCnt(), 0) .. "/" .. slot6)
+		setText(slot1:Find("limit"), i18n("islandshop_tips2") .. math.max(slot2:GetPurchasableCnt(), 0) .. "/" .. slot7)
 	end
 end
 

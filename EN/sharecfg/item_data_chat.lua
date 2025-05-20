@@ -104,6 +104,14 @@ pg.item_data_chat = {
 		desc = "A symbol of your memories of the frontier, of pioneering, and of the Wild West.\n<color=#A7A7AAFF>Given to Commanders who participated in the Wild West Vacation Log event.</color>",
 		scene = {}
 	},
+	[610] = {
+		name = "海滨的轻浪",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "漫步于海滨，倾听海浪的细语。\n<color=#A7A7AAFF>通过参与「夏日重建！海岛别墅度假计划！」活动获取</color>",
+		scene = {}
+	},
 	[10001] = {
 		name = "Extreme Challenge - Gemini",
 		time_second = 0,
@@ -214,6 +222,7 @@ pg.item_data_chat = {
 		603,
 		606,
 		607,
+		610,
 		10001,
 		10002,
 		10003,

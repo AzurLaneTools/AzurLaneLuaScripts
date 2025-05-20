@@ -71,6 +71,7 @@ return {
 			}
 		},
 		{
+			delay = 1,
 			alpha = 0.409,
 			style = {
 				mode = 2,

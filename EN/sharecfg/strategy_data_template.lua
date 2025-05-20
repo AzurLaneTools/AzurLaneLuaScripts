@@ -316,8 +316,15 @@ pg.strategy_data_template = setmetatable({
 		201319,
 		201320,
 		201321,
+		201327,
 		201361,
 		201365,
+		201377,
+		201378,
+		201382,
+		201386,
+		201410,
+		201411,
 		205001,
 		205002,
 		205003,
@@ -3893,10 +3900,26 @@ The following effects activate based on your Exploration Count on this stage:
 		icon = "201321",
 		arg = {}
 	},
+	[201327] = {
+		buff_id = 0,
+		name = "Challenge Mode",
+		desc = [[
+- Hard Mode Details -
+· The enemy deals <color=#ffc038>massively increased damage</color>. Large enemy shells cannot be cleared by airstrikes or blocked by shields.
+· Your Vanguard's hitbox is <color=#92fc63>reduced to only cover the frontmost ship of your Vanguard, and said hitbox becomes substantially smaller in size.</color>
+· When a ship in your fleet is hit, she becomes invulnerable for a while.
+· The skills "Operation Rainbow", "Fiercer When Cornered", and "Eleventh Hour" are rendered ineffective.]],
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201327,
+		icon = "200908",
+		arg = {}
+	},
 	[201361] = {
 		buff_id = 201361,
 		name = "Toward Tulipa's Seas",
-		desc = "At regular intervals, rotating shields that can negate a set number of enemy shells deploy around your ships.\nIf a Kingdom of Tulipa ship receives this shield, she also recovers a little HP.",
+		desc = "At regular intervals during battle, your ships will be granted a rotating shield that can block a certain number of enemy shells.\nWhen a Kingdom of Tulipa ship is granted this shield, she will recover a small amount of HP.",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
@@ -3907,12 +3930,78 @@ The following effects activate based on your Exploration Count on this stage:
 	[201365] = {
 		buff_id = 201365,
 		name = "Dam Defense System",
-		desc = "During battle, friendly coastal batteries will provide supporting barrages.",
+		desc = "During battle, coastal artillery located along the embankment will provide supporting fire.",
 		type = 10,
 		iconSize = "",
 		buff_type = 0,
 		id = 201365,
 		icon = "201365",
+		arg = {}
+	},
+	[201377] = {
+		buff_id = 0,
+		name = "Class II Mimic Entity",
+		desc = "When ZLJVUKHYF LUAPAPLZ are defeated, ZLJVUKHYF LUAPAPLZ will be released, and provide nearby ZLJVUKHYF LUAPAPLZ with ZLJVUKHYF LUAPAPLZ.\n\nThe ZLJVUKHYF LUAPAPLZ see you. What are ZLJVUKHYF LUAPAPLZ?",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201377,
+		icon = "201377",
+		arg = {}
+	},
+	[201378] = {
+		buff_id = 201378,
+		name = "Support – Luxwing Lion",
+		desc = "During battle, the Luxwing Lion will descend to provide support.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201378,
+		icon = "201378",
+		arg = {}
+	},
+	[201382] = {
+		buff_id = 201382,
+		name = "Support – Queen's Light",
+		desc = "During battle, the Queen's Light will provide support.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201382,
+		icon = "201382",
+		arg = {}
+	},
+	[201386] = {
+		buff_id = 201386,
+		name = "Support – Siren",
+		desc = "During battle, a hybrid Siren fleet under Compiler's control will provide support.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201386,
+		icon = "201386",
+		arg = {}
+	},
+	[201410] = {
+		buff_id = 201410,
+		name = "Support – Rose Tower",
+		desc = "The Rose Tower has deployed a protective barrier. During battle, allied ships will take slightly reduced damage.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201410,
+		icon = "201410",
+		arg = {}
+	},
+	[201411] = {
+		buff_id = 201411,
+		name = "Dampening – Rose Tower",
+		desc = "The Rose Tower has deployed a dampening barrier. During battle, allied ships will deal slightly reduced damage.",
+		type = 10,
+		iconSize = "",
+		buff_type = 0,
+		id = 201411,
+		icon = "201411",
 		arg = {}
 	},
 	[205001] = {

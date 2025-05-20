@@ -14471,6 +14471,78 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[557] = {
+		ship_group = 20516,
+		name = "Lion",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "shi_2",
+		id = 557,
+		group_id = 557,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[558] = {
+		ship_group = 20138,
+		name = "Trafalgar",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "telafaerjia_2",
+		id = 558,
+		group_id = 558,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[559] = {
+		ship_group = 20235,
+		name = "Cleopatra",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "keliaopeitela_2",
+		id = 559,
+		group_id = 559,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[560] = {
+		ship_group = 20139,
+		name = "Gallant",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "yongqi_2",
+		id = 560,
+		group_id = 560,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[561] = {
+		ship_group = 20236,
+		name = "Trinidad",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "telinida_2",
+		id = 561,
+		group_id = 561,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[562] = {
+		ship_group = 39906,
+		name = "Shimanto",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "siwanshi_3",
+		id = 562,
+		group_id = 562,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -15018,6 +15090,12 @@ pg.activity_ins_template = {
 		553,
 		554,
 		555,
-		556
+		556,
+		557,
+		558,
+		559,
+		560,
+		561,
+		562
 	}
 }

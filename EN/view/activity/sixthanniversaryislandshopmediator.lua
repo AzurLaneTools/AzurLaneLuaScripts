@@ -39,7 +39,7 @@ slot0.initNotificationHandleDic = function(slot0)
 			end)
 		end,
 		[GAME.USE_ITEM_DONE] = function (slot0, slot1)
-			if #slot1:getBody() > 0 then
+			if #slot1:getBody().drops > 0 then
 				slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot2)
 			end
 		end,

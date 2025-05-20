@@ -1,7 +1,7 @@
 slot0 = class("MusicCollectionConst")
-slot0.Version = 2
-slot0.AutoScrollIndex = 14
-slot0.NewCount = 4
+slot0.Version = 3
+slot0.AutoScrollIndex = 1
+slot0.NewCount = 33
 slot0.MusicStates = {
 	Unlockable = 2,
 	Unlocked = 1,

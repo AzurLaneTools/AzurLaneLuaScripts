@@ -506,7 +506,7 @@ pg.item_data_frame = {
 	},
 	[335] = {
 		name = "Rosen Vow",
-		gain_by = "",
+		gain_by = "高塔上的蔷薇",
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
@@ -637,6 +637,15 @@ pg.item_data_frame = {
 		id = 608,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>\"Thank you for taking part in the Black Friday campaign, nya!\"</color> \nObtained from 2024 Black Friday Akashi's Fire Sale event.",
+		scene = {}
+	},
+	[610] = {
+		name = "Resort Island Vacation",
+		gain_by = "",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>To a perfect vacation on the resort island!</color> Obtained by participating in the Midsummer Returns: The Villa Reconstruction event.",
 		scene = {}
 	},
 	[1001] = {
@@ -873,6 +882,7 @@ pg.item_data_frame = {
 		606,
 		607,
 		608,
+		610,
 		1001,
 		1002,
 		1003,

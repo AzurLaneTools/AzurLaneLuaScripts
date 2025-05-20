@@ -917,31 +917,16 @@ pg.mini_game = {
 		hub_id = 23,
 		request_data = 0,
 		simple_config_data = {
-			drop = {
+			drop_ids = {
 				{
 					2,
-					54006,
-					1
-				},
-				{
-					2,
-					50004,
-					5
-				},
-				{
-					1,
-					2,
-					300
-				},
-				{
-					2,
-					54024,
+					54050,
 					2
 				},
 				{
-					2,
-					20013,
-					1
+					1,
+					1,
+					300
 				},
 				{
 					2,
@@ -949,9 +934,24 @@ pg.mini_game = {
 					1
 				},
 				{
+					1,
+					1,
+					300
+				},
+				{
 					2,
-					60208,
-					1
+					50004,
+					5
+				},
+				{
+					2,
+					20012,
+					2
+				},
+				{
+					2,
+					30347,
+					2
 				}
 			}
 		}
@@ -2716,6 +2716,112 @@ pg.mini_game = {
 		hub_id = 45,
 		request_data = 0
 	},
+	{
+		is_ranking = 1,
+		view_name = "WatermelonGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "『别墅度假岛』合成小游戏",
+		config_csv = "",
+		id = 76,
+		hub_id = 64,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					17,
+					247,
+					1
+				},
+				{
+					1,
+					2,
+					300
+				},
+				{
+					2,
+					54034,
+					1
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					2,
+					54051,
+					1
+				},
+				{
+					17,
+					248,
+					1
+				}
+			}
+		}
+	},
+	{
+		is_ranking = 0,
+		view_name = "CatchTreasureGameView",
+		game_room = 0,
+		type = 2,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		config_data = "",
+		name = "『别墅度假岛』打捞团小游戏",
+		config_csv = "",
+		id = 77,
+		hub_id = 65,
+		request_data = 0,
+		simple_config_data = {
+			drop_ids = {
+				{
+					2,
+					54006,
+					1
+				},
+				{
+					2,
+					50004,
+					5
+				},
+				{
+					9,
+					3046,
+					1
+				},
+				{
+					2,
+					54034,
+					2
+				},
+				{
+					9,
+					3047,
+					1
+				},
+				{
+					2,
+					20013,
+					1
+				},
+				{
+					9,
+					3048,
+					1
+				}
+			}
+		}
+	},
 	[1001] = {
 		is_ranking = 0,
 		view_name = "GameRoomFushun3View",
@@ -3320,6 +3426,8 @@ pg.mini_game = {
 		73,
 		74,
 		75,
+		76,
+		77,
 		1001,
 		1002,
 		1003,

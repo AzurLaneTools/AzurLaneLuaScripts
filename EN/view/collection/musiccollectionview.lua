@@ -9,48 +9,20 @@ slot0.OnInit = function(slot0)
 	slot0:findUI()
 	slot0:addListener()
 	slot0:initPlateListPanel()
-	slot0:initSongListPanel()
 	slot0:Show()
 	slot0:recoverRunData()
-	slot0:initTimer()
 	slot0:tryShowTipMsgBox()
 end
 
 slot0.OnDestroy = function(slot0)
-	slot0:stopMusic()
+	slot0.bgmMgr:UnregisterMusicCallback(slot0.__cname)
 	slot0.resLoader:Clear()
-
-	if slot0.playProgressTimer then
-		slot0.playProgressTimer:Stop()
-
-		slot0.playProgressTimer = nil
-	end
-
-	if slot0.downloadCheckTimer then
-		slot0.downloadCheckTimer:Stop()
-
-		slot0.downloadCheckTimer = nil
-	end
-
-	if slot0.playbackInfo then
-		slot0.playbackInfo = nil
-	end
-
-	if slot0.appreciateUnlockMsgBox and slot0.appreciateUnlockMsgBox:CheckState(BaseSubView.STATES.INITED) then
-		slot0.appreciateUnlockMsgBox:Destroy()
-	end
-
-	slot0:closeSongListPanel(true)
+	slot0:closeAlbumListPanel(true)
 end
 
 slot0.onBackPressed = function(slot0)
-	if slot0.appreciateUnlockMsgBox and slot0.appreciateUnlockMsgBox:CheckState(BaseSubView.STATES.INITED) then
-		slot0.appreciateUnlockMsgBox:hideCustomMsgBox()
-		slot0.appreciateUnlockMsgBox:Destroy()
-
-		return false
-	elseif isActive(slot0.songListPanel) then
-		slot0:closeSongListPanel()
+	if isActive(slot0.albumListPanel) then
+		slot0:closeAlbumListPanel()
 
 		return false
 	else
@@ -59,28 +31,23 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.initData = function(slot0)
+	slot0.bgmMgr = pg.BgmMgr.GetInstance()
 	slot0.appreciateProxy = getProxy(AppreciateProxy)
+	slot0.albumNames = underscore.keys(pg.music_collect_config.get_id_list_by_album_name)
 
-	slot0.appreciateProxy:checkMusicFileState()
+	table.sort(slot0.albumNames, CompareFuncs({
+		function (slot0)
+			return pg.music_collect_config.get_id_list_by_album_name[slot0][1]
+		end
+	}))
 
-	slot0.resLoader = AutoLoader.New()
-	slot0.criMgr = pg.CriMgr.GetInstance()
-	slot0.manager = BundleWizard.Inst:GetGroupMgr("GALLERY_BGM")
-	slot0.downloadCheckIDList = {}
-	slot0.downloadCheckTimer = nil
-	slot0.musicForShowConfigList = {}
 	slot0.plateTFList = {}
-	slot0.songTFList = {}
+	slot0.albumTFList = {}
+	slot0.likeDic = {}
+	slot0.likeIds = {}
 	slot0.curMidddleIndex = 1
-	slot0.sortValue = MusicCollectionConst.Sort_Order_Up
-	slot0.likeValue = MusicCollectionConst.Filte_Normal_Value
 	slot0.isPlayingAni = false
-	slot0.cueData = nil
-	slot0.playbackInfo = nil
-	slot0.playProgressTimer = nil
-	slot0.onDrag = false
-	slot0.hadDrag = false
-	slot0.isPlayingSong = false
+	slot0.resLoader = AutoLoader.New()
 end
 
 slot0.saveRunData = function(slot0)
@@ -92,22 +59,46 @@ slot0.recoverRunData = function(slot0)
 	slot0.sortValue = slot1.sortValue
 	slot0.curMidddleIndex = slot1.middleIndex
 	slot0.likeValue = slot1.likeValue
-	slot0.musicForShowConfigList = slot0:fliteMusicConfigForShow()
+	slot0.albumSortValue = "asc"
+	slot0.likeIds = slot0.appreciateProxy:getAlbumMusicList("favor")
 
-	slot0:sortMusicConfigList(slot0.sortValue == MusicCollectionConst.Sort_Order_Down)
+	for slot5, slot6 in ipairs(slot0.likeIds) do
+		slot0.likeDic[slot6] = true
+	end
 
-	slot0.musicForShowConfigList = slot0:filteMusicConfigByLike()
 	slot0.lScrollPageSC.MiddleIndexOnInit = slot0.curMidddleIndex - 1
 
 	slot0:updatePlateListPanel()
-	slot0:updateSongListPanel()
-	slot0:updatePlayPanel()
-	slot0:updateSortToggle()
-	slot0:updateLikeToggle()
 
-	if not slot0.appreciateProxy:isMusicHaveNewRes() then
-		slot0:tryPlayMusic()
+	if getProxy(AppreciateProxy):CanPlayMainMusicPlayer() then
+		slot0:NewMusicPlayer(slot0.appreciateProxy:getMainPlayerAlbumName())
+	else
+		slot0:NewMusicPlayer(slot0.tempPlateList[slot0.curMidddleIndex])
 	end
+
+	slot0.bgmMgr:RegisterMusicCallback(slot0.__cname, "TempMusicPlayer", {
+		startCall = function (slot0)
+			if uv0.plateTFList[uv0.curMidddleIndex] then
+				uv0:updatePlateList(uv0.plateTFList[uv0.curMidddleIndex], uv0.curMidddleIndex)
+			end
+
+			uv0:updateAlbumListPanel()
+			uv0:updatePlayPanel(slot0)
+		end,
+		progressCall = function (slot0)
+			if uv0.onDrag then
+				return
+			end
+
+			uv0:updatePlayProgress(slot0)
+		end,
+		noPlayCall = function ()
+			uv0:NewMusicPlayer(uv0.tempPlateList[uv0.curMidddleIndex])
+		end
+	})
+	slot0:updateAlbumListPanel()
+	slot0:updateLikeToggle()
+	slot0:updatePlayType()
 end
 
 slot0.findUI = function(slot0)
@@ -119,24 +110,28 @@ slot0.findUI = function(slot0)
 	slot0._tf.offsetMin = Vector2.zero
 	slot0.topPanel = slot0:findTF("TopPanel")
 	slot0.likeFilteToggle = slot0:findTF("LikeBtn", slot0.topPanel)
-	slot0.sortToggle = slot0:findTF("SortBtn", slot0.topPanel)
-	slot0.songNameText = slot0:findTF("MusicNameMask/MusicName", slot0.topPanel)
-	slot0.staicImg = slot0:findTF("SoundImg", slot0.topPanel)
-	slot0.playingAni = slot0:findTF("SoundAni", slot0.topPanel)
-	slot0.resRepaireBtn = slot0:findTF("RepaireBtn", slot0.topPanel)
 
 	setActive(slot0.likeFilteToggle, true)
 
+	slot0.serchInputText = slot0.topPanel:Find("serch")
+
+	setText(slot0.serchInputText:Find("Placeholder"), i18n("NewMusic_2"))
+
 	slot0.plateListPanel = slot0:findTF("PlateList")
 	slot0.plateTpl = slot0:findTF("Plate", slot0.plateListPanel)
+
+	setActive(slot0.plateTpl, false)
+	setText(slot0.plateTpl:Find("list/panel/view/empty/icon/Text"), i18n("NewMusic_3"))
+
 	slot0.lScrollPageSC = GetComponent(slot0.plateListPanel, "LScrollPage")
 	slot0.playPanel = slot0:findTF("PLayPanel")
 	slot0.playPanelNameText = slot0:findTF("NameText", slot0.playPanel)
 	slot0.likeToggle = slot0:findTF("LikeBtn", slot0.playPanel)
-	slot0.songImg = slot0:findTF("SongImg", slot0.playPanel)
+	slot0.likeOnImg = slot0:findTF("On", slot0.likeToggle)
+	slot0.songImg = slot0:findTF("SongImg/face", slot0.playPanel)
 	slot0.pauseBtn = slot0:findTF("PlayingBtn", slot0.playPanel)
 	slot0.playBtn = slot0:findTF("StopingBtn", slot0.playPanel)
-	slot0.lockImg = slot0:findTF("LockedBtn", slot0.playPanel)
+	slot0.playDesc = slot0.playPanel:Find("PlayDesc")
 	slot0.nextBtn = slot0:findTF("NextBtn", slot0.playPanel)
 	slot0.preBtn = slot0:findTF("PreBtn", slot0.playPanel)
 	slot0.playProgressBar = slot0:findTF("Progress", slot0.playPanel)
@@ -145,176 +140,179 @@ slot0.findUI = function(slot0)
 	slot0.playSliderSC = GetComponent(slot0.playProgressBar, "LSlider")
 	slot0.listBtn = slot0:findTF("ListBtn", slot0.playPanel)
 
-	setActive(slot0.likeToggle, true)
+	setActive(slot0.listBtn:Find("on"), false)
+	setActive(slot0.listBtn:Find("off"), true)
 
-	slot0.songListPanel = slot0:findTF("SongListPanel")
-	slot0.closeBtn = slot0:findTF("BG", slot0.songListPanel)
-	slot0.panel = slot0:findTF("Panel", slot0.songListPanel)
-	slot0.songContainer = slot0:findTF("Container/Viewport/Content", slot0.panel)
-	slot0.songTpl = slot0:findTF("SongTpl", slot0.panel)
-	slot0.upToggle = slot0:findTF("BG2/UpToggle", slot0.panel)
-	slot0.downToggle = slot0:findTF("BG2/DownToggle", slot0.panel)
-	slot0.songUIItemList = UIItemList.New(slot0.songContainer, slot0.songTpl)
-	slot0.emptyPanel = slot0:findTF("EmptyPanel")
-	slot0.upImg1 = slot0:findTF("Up", slot0.sortToggle)
-	slot0.downImg1 = slot0:findTF("Down", slot0.sortToggle)
-	slot0.upImg2 = slot0:findTF("SelImg", slot0.upToggle)
-	slot0.downImg2 = slot0:findTF("SelImg", slot0.downToggle)
-	slot0.likeFilteOffImg = slot0:findTF("Off", slot0.likeFilteToggle)
-	slot0.likeFilteOnImg = slot0:findTF("On", slot0.likeFilteToggle)
-	slot0.likeOffImg = slot0:findTF("Off", slot0.likeToggle)
-	slot0.likeOnImg = slot0:findTF("On", slot0.likeToggle)
+	slot0.albumListPanel = slot0._tf:Find("AlbumListPanel")
+	slot0.closeBtn = slot0.albumListPanel:Find("BG")
+	slot0.panel = slot0.albumListPanel:Find("Panel")
+
+	setText(slot0.panel:Find("top/name"), i18n("NewMusic_6"))
+
+	slot0.albumToggle = slot0.panel:Find("bottom/sort_btn")
+	slot0.albumInputText = slot0.panel:Find("bottom/serch")
+
+	setText(slot0.albumInputText:Find("Placeholder"), i18n("NewMusic_2"))
+
+	slot0.albumContainer = slot0.panel:Find("middle/Content")
+	slot0.albumItemList = UIItemList.New(slot0.albumContainer, slot0.albumContainer:GetChild(0))
+
+	slot0.albumItemList:make(function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
+		if slot0 == UIItemList.EventUpdate then
+			uv0.albumTFList[slot1] = slot2
+
+			uv0:updateAlbumTF(slot2, slot1)
+		end
+	end)
+
+	slot0.likeFilteOnImg = slot0.likeFilteToggle:Find("TextLike/On")
+	slot0.playLoopBtn = slot0.playPanel:Find("PlayTypeBtn")
 end
 
 slot0.addListener = function(slot0)
 	onButton(slot0, slot0.listBtn, function ()
-		uv0:openSongListPanel()
+		uv0:openAlbumListPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
-		uv0:closeSongListPanel()
+		uv0:closeAlbumListPanel()
 	end, SFX_PANEL)
-	onButton(slot0, slot0.resRepaireBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			hideYes = true,
-			content = i18n("resource_verify_warn"),
-			custom = {
-				{
-					text = i18n("msgbox_repair"),
-					onCallback = function ()
-						if PathMgr.FileExists(Application.persistentDataPath .. "/hashes-bgm.csv") then
-							BundleWizard.Inst:GetGroupMgr("GALLERY_BGM"):StartVerifyForLua()
-						else
-							pg.TipsMgr.GetInstance():ShowTips(i18n("word_no_cache"))
-						end
-					end
-				}
-			}
-		})
-	end, SFX_PANEL)
-	onButton(slot0, slot0.sortToggle, function ()
-		uv0.sortValue = uv0.sortValue == MusicCollectionConst.Sort_Order_Up and MusicCollectionConst.Sort_Order_Down or MusicCollectionConst.Sort_Order_Up
-
-		uv0:saveRunData()
-		uv0:sortAndUpdate(uv0.sortValue == MusicCollectionConst.Sort_Order_Down)
-	end, SFX_PANEL)
-	onButton(slot0, slot0.upToggle, function ()
-		if uv0.sortValue == MusicCollectionConst.Sort_Order_Up then
-			return
-		else
-			uv0.sortValue = MusicCollectionConst.Sort_Order_Up
-
-			uv0:saveRunData()
-			uv0:sortAndUpdate(false)
+	onButton(slot0, slot0.albumToggle, function ()
+		if uv0.albumSortValue == "asc" then
+			uv0.albumSortValue = "desc"
+		elseif uv0.albumSortValue == "desc" then
+			uv0.albumSortValue = "asc"
 		end
-	end, SFX_PANEL)
-	onButton(slot0, slot0.downToggle, function ()
-		if uv0.sortValue == MusicCollectionConst.Sort_Order_Down then
-			return
-		else
-			uv0.sortValue = MusicCollectionConst.Sort_Order_Down
 
-			uv0:saveRunData()
-			uv0:sortAndUpdate(true)
-		end
+		uv0:updateAlbumListPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.likeFilteToggle, function ()
-		uv0.likeValue = uv0.likeValue == MusicCollectionConst.Filte_Normal_Value and MusicCollectionConst.Filte_Like_Value or MusicCollectionConst.Filte_Normal_Value
+		uv0.likeValue = 1 - uv0.likeValue
+		uv0.curMidddleIndex = 1
 
 		uv0:saveRunData()
-		uv0:sortAndUpdate(uv0.sortValue == MusicCollectionConst.Sort_Order_Down)
+		uv0:updateLikeToggle()
+		uv0:updatePlateListPanel()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.playBtn, function ()
-		if not uv0.playbackInfo then
-			uv0:playMusic()
-		elseif uv0.hadDrag then
-			uv0.hadDrag = false
-
-			uv0.playbackInfo:SetStartTimeAndPlay(uv0.playSliderSC.value)
-			uv0.playProgressTimer:Start()
-		else
-			uv0.playbackInfo.playback:Resume(CriAtomEx.ResumeMode.PausedPlayback)
+		if not uv0.musicPlayer then
+			return
 		end
 
-		setActive(uv0.playingAni, true)
-		setActive(uv0.staicImg, false)
+		uv0.musicPlayer:Resume()
 		SetActive(uv0.pauseBtn, true)
 		SetActive(uv0.playBtn, false)
+		setActive(uv0.playDesc, true)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.pauseBtn, function ()
-		if uv0.playbackInfo then
-			uv0.playbackInfo.playback:Pause()
+		if not uv0.musicPlayer then
+			return
 		end
 
-		setActive(uv0.playingAni, false)
-		setActive(uv0.staicImg, true)
+		uv0.musicPlayer:Pause()
 		SetActive(uv0.pauseBtn, false)
 		SetActive(uv0.playBtn, true)
+		setActive(uv0.playDesc, false)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.preBtn, function ()
-		if uv0.curMidddleIndex == 1 then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("res_music_no_pre_tip"))
-		elseif not uv0.isPlayingAni then
-			uv0:setAniState(true)
-			uv0:closePlateAni(uv0.plateTFList[uv0.curMidddleIndex])
-			uv0.lScrollPageSC:MoveToItemID(uv0.curMidddleIndex - 1 - 1)
+		if not uv0.musicPlayer then
+			return
 		end
+
+		if uv0.isPlayingAni then
+			return
+		end
+
+		uv0.musicPlayer:Last()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.nextBtn, function ()
-		if uv0.curMidddleIndex == #uv0.musicForShowConfigList then
-			pg.TipsMgr.GetInstance():ShowTips(i18n("res_music_no_next_tip"))
-		elseif not uv0.isPlayingAni then
-			uv0:setAniState(true)
-			uv0:closePlateAni(uv0.plateTFList[uv0.curMidddleIndex])
-			uv0.lScrollPageSC:MoveToItemID(uv0.curMidddleIndex + 1 - 1)
+		if not uv0.musicPlayer then
+			return
 		end
+
+		if uv0.isPlayingAni then
+			return
+		end
+
+		uv0.musicPlayer:Next()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.likeToggle, function ()
-		if uv0.appreciateProxy:isLikedByMusicID(uv0:getMusicConfigForShowByIndex(uv0.curMidddleIndex).id) == true then
-			pg.m02:sendNotification(GAME.APPRECIATE_MUSIC_LIKE, {
-				isAdd = 1,
-				musicID = slot1
-			})
-			setActive(uv0.likeOnImg, false)
-			uv0:updateSongTFLikeImg(uv0.songTFList[uv0.curMidddleIndex], false)
-		else
-			pg.m02:sendNotification(GAME.APPRECIATE_MUSIC_LIKE, {
-				isAdd = 0,
-				musicID = slot1
-			})
-			setActive(uv0.likeOnImg, true)
-			uv0:updateSongTFLikeImg(uv0.songTFList[uv0.curMidddleIndex], true)
-		end
+		slot2 = pg.music_collect_config[uv0.musicPlayer:GetCurrentMusicId()].id
+
+		pg.m02:sendNotification(GAME.APPRECIATE_MUSIC_LIKE, {
+			musicID = slot2,
+			isAdd = uv0.likeDic[slot2] and 1 or 0
+		})
+		uv0:ChangeLike(slot2)
+		uv0:updateLikeToggle()
+		setActive(uv0.likeOnImg, uv0.likeDic[slot2])
+		uv0:updatePlateList(uv0.plateTFList[uv0.curMidddleIndex], uv0.curMidddleIndex)
 	end, SFX_PANEL)
 
-	slot1 = slot0.playSliderSC
+	slot1 = nil
+	slot2 = slot0.playSliderSC
 
-	slot1:AddPointDownFunc(function (slot0)
-		if uv0.playbackInfo and not uv0.onDrag then
-			uv0.onDrag = true
+	slot2:AddPointDownFunc(function (slot0)
+		if uv0.onDrag then
+			return
+		end
 
-			if not uv0.playbackInfo.playback:IsPaused() then
-				uv0.playbackInfo.playback:Stop(true)
-			end
+		uv0.onDrag = true
+		uv1 = uv0.musicPlayer:IsPaused()
 
-			uv0.playProgressTimer:Stop()
+		if not uv1 then
+			uv0.musicPlayer:Pause()
 		end
 	end)
 
-	slot1 = slot0.playSliderSC
+	slot2 = slot0.playSliderSC
 
-	slot1:AddPointUpFunc(function (slot0)
-		if uv0.playbackInfo and uv0.onDrag then
-			uv0.onDrag = false
-
-			if uv0.playbackInfo.playback:IsPaused() then
-				uv0.hadDrag = true
-			else
-				uv0.playbackInfo:SetStartTimeAndPlay(uv0.playSliderSC.value)
-				uv0.playProgressTimer:Start()
-			end
-		else
-			uv0.playSliderSC:SetValueWithoutEvent(0)
+	slot2:AddPointUpFunc(function (slot0)
+		if not uv0.onDrag then
+			return
 		end
+
+		uv0.onDrag = false
+
+		uv0.musicPlayer:SetProgress(uv0.playSliderSC.value)
+
+		if not uv1 then
+			uv0.musicPlayer:Resume()
+		end
+	end)
+	onButton(slot0, slot0.playLoopBtn, function ()
+		slot0 = getProxy(AppreciateProxy):getMusicPlayerLoopType()
+
+		switch(slot0, {
+			list = function ()
+				uv0 = "random"
+			end,
+			random = function ()
+				uv0 = "one"
+			end,
+			one = function ()
+				uv0 = "list"
+			end
+		})
+		pg.m02:sendNotification(GAME.APPRECIATE_CHANGE_MUSIC_PLAY_LOOP_TYPE, {
+			loopType = slot0
+		})
+		uv0:updatePlayType(slot0)
+
+		if uv0.musicPlayer then
+			uv0.musicPlayer.loopType = slot0
+		end
+	end, SFX_PANEL)
+	onInputChanged(slot0, slot0.serchInputText, function (slot0)
+		if uv0.likeValue ~= MusicCollectionConst.Filte_Like_Value then
+			return
+		end
+
+		uv0:updatePlateList(uv0.plateTFList[uv0.curMidddleIndex], uv0.curMidddleIndex)
+	end)
+	onInputChanged(slot0, slot0.albumInputText, function (slot0)
+		uv0:updateAlbumListPanel()
 	end)
 end
 
@@ -339,9 +337,15 @@ end
 
 slot0.initPlateListPanel = function(slot0)
 	slot0.lScrollPageSC.itemInitedCallback = function(slot0, slot1)
-		uv0.plateTFList[slot0 + 1] = slot1
+		slot2 = slot0 + 1
+		uv0.plateTFList[slot2] = slot1
 
-		uv0:updatePlateTF(slot1, slot0)
+		slot1:GetComponent("DftAniEvent"):SetEndEvent(function ()
+			uv0.animCallback = nil
+
+			existCall(uv0.animCallback)
+		end)
+		uv0:updatePlateTF(slot1, slot2)
 	end
 
 	slot0.lScrollPageSC.itemClickCallback = function(slot0, slot1)
@@ -354,16 +358,11 @@ slot0.initPlateListPanel = function(slot0)
 
 	slot0.lScrollPageSC.itemPitchCallback = function(slot0, slot1)
 		slot2 = slot0 + 1
-
-		uv0:stopMusic()
-		uv0:checkUpdateSongTF()
-
-		uv0.curMidddleIndex = slot0 + 1
+		uv0.curMidddleIndex = slot2
 
 		uv0:saveRunData()
+		uv0:updatePlateList(slot1, slot2)
 		uv0:playPlateAni(slot1, true)
-		uv0:updatePlayPanel()
-		uv0:tryPlayMusic()
 	end
 
 	slot0.lScrollPageSC.itemRecycleCallback = function(slot0, slot1)
@@ -386,734 +385,344 @@ slot0.initPlateListPanel = function(slot0)
 end
 
 slot0.updatePlateListPanel = function(slot0)
-	slot0.plateTFList = {}
-
-	if #slot0.musicForShowConfigList == 0 then
-		setActive(slot0.plateListPanel, false)
-
-		return
+	if slot0.likeValue == MusicCollectionConst.Filte_Like_Value then
+		slot0.tempPlateList = {
+			"favor"
+		}
 	else
-		setActive(slot0.plateListPanel, true)
+		slot0.tempPlateList = slot0.albumNames
 	end
 
-	slot0.lScrollPageSC.DataCount = #slot0.musicForShowConfigList
+	setActive(slot0.serchInputText, slot1)
+	setActive(slot0.listBtn, not slot1)
+
+	slot0.lScrollPageSC.DataCount = #slot0.tempPlateList
 
 	slot0.lScrollPageSC:Init(slot0.curMidddleIndex - 1)
 end
 
 slot0.updatePlateTF = function(slot0, slot1, slot2)
-	if #slot0.musicForShowConfigList == 0 then
-		return
+	slot3 = slot0.likeValue == MusicCollectionConst.Filte_Like_Value
+	slot5 = slot3 and slot0.likeIds or slot0.appreciateProxy:getAlbumMusicList(slot0.tempPlateList[slot2])
+	slot6 = nil
+
+	if slot3 then
+		if #slot5 > 0 then
+			slot6 = pg.music_collect_config[slot5[#slot5]].cover
+		end
+	else
+		slot6 = pg.music_collect_config[slot5[1]].cover
 	end
 
-	slot3 = slot0:findTF("CirclePanel/SmallImg", slot1)
-	slot6 = slot0:findTF("BlackMask", slot1)
-	slot7 = slot0:findTF("Lock", slot6)
-	slot8 = slot0:findTF("UnlockTipText", slot6)
-	slot9 = slot0:findTF("UnlockBtn", slot6)
-	slot10 = slot0:findTF("DownloadBtn", slot6)
+	setText(slot1:Find("PlateImg/empty/Text"), i18n("NewMusic_7"))
+	setActive(slot1:Find("PlateImg/face"), slot6)
+	setActive(slot1:Find("PlateImg/empty"), not slot6)
 
-	setText(slot0:findTF("DownloadingImg", slot6), i18n("res_downloading"))
+	if slot6 then
+		slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot6, slot6, slot1:Find("PlateImg/face"), false)
+	end
 
-	slot12 = slot2 + 1
-	slot13 = slot0:getMusicConfigForShowByIndex(slot12)
-	slot14 = slot13.cover
-
-	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot14, slot14, slot0:findTF("PlateImg", slot1), false)
-	setText(slot0:findTF("IndexNum", slot1), "#" .. slot12)
-
-	slot16 = slot13.id
-	slot17, slot18 = nil
-	slot18 = slot0.appreciateProxy:getMusicExistStateByID(slot16)
-
-	if slot0:getMusicStateByID(slot16) == GalleryConst.CardStates.DirectShow then
-		print("is impossible to go to this, something wrong")
-
-		if slot18 then
-			setActive(slot6, false)
-		else
-			setActive(slot6, true)
-			setActive(slot7, false)
-			setActive(slot8, false)
-			setActive(slot9, false)
-			setActive(slot10, true)
-			setActive(slot11, false)
-		end
-	elseif slot17 == GalleryConst.CardStates.Unlocked then
-		if slot18 then
-			setActive(slot6, false)
-		else
-			if slot0.manager.state == DownloadState.None or slot19 == DownloadState.CheckFailure then
-				slot0.manager:CheckD()
-			end
-
-			if slot0.manager:CheckF(MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. slot13.music .. ".b") == DownloadState.None or slot22 == DownloadState.CheckToUpdate or slot22 == DownloadState.UpdateFailure then
-				setActive(slot6, true)
-				setActive(slot7, false)
-				setActive(slot8, false)
-				setActive(slot9, false)
-				setActive(slot10, true)
-				setActive(slot11, false)
-				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
-				onButton(slot0, slot10, function ()
-					slot0 = function()
-						setActive(uv0, true)
-						setActive(uv1, false)
-						setActive(uv2, false)
-						setActive(uv3, false)
-						setActive(uv4, false)
-						setActive(uv5, true)
-						VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv6, false)
-
-						if not table.contains(uv7.downloadCheckIDList, uv8) then
-							table.insert(uv7.downloadCheckIDList, uv8)
-						end
-
-						uv7:tryStartDownloadCheckTimer()
-					end
-
-					if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("res_wifi_tip"),
-							onYes = slot0
-						})
-					else
-						slot0()
-					end
-				end, SFX_PANEL)
-			elseif slot22 == DownloadState.Updating then
-				setActive(slot6, true)
-				setActive(slot7, false)
-				setActive(slot8, false)
-				setActive(slot9, false)
-				setActive(slot10, false)
-				setActive(slot11, true)
-			elseif checkABExist(slot21) then
-				slot0.appreciateProxy:updateMusicFileExistStateTable(slot16, true)
-				table.removebyvalue(slot0.downloadCheckIDList, slot16, true)
-
-				if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-					slot0.downloadCheckTimer:Stop()
-
-					slot0.downloadCheckTimer = nil
-				end
-
-				setActive(slot6, false)
-				slot0:updatePlayPanel()
-			end
-		end
-	elseif slot17 == GalleryConst.CardStates.Unlockable then
-		setActive(slot6, true)
-		setActive(slot7, true)
-		setActive(slot8, false)
-		setActive(slot9, true)
-		setActive(slot10, false)
-		setActive(slot11, false)
-		onButton(slot0, slot9, function ()
-			if not uv0.appreciateUnlockMsgBox then
-				uv0.appreciateUnlockMsgBox = AppreciateUnlockMsgBox.New(uv0._tf, uv0.event, uv0.contextData)
-			end
-
-			uv0.appreciateUnlockMsgBox:Reset()
-			uv0.appreciateUnlockMsgBox:Load()
-			uv0.appreciateUnlockMsgBox:ActionInvoke("showCustomMsgBox", {
-				content = i18n("res_unlock_tip"),
-				items = uv0.appreciateProxy:getMusicUnlockMaterialByID(uv1),
-				onYes = function ()
-					pg.m02:sendNotification(GAME.APPRECIATE_MUSIC_UNLOCK, {
-						musicID = uv0,
-						unlockCBFunc = function ()
-							uv0:updatePlateTF(uv1, uv2)
-							uv0:updateSongTF(uv0.songTFList[uv2 + 1], uv2 + 1)
-							uv0:updatePlayPanel()
-							uv0:tryPlayMusic()
-							uv0.appreciateUnlockMsgBox:hideCustomMsgBox()
-						end
-					})
-				end
-			})
-		end, SFX_PANEL)
-	elseif slot17 == GalleryConst.CardStates.DisUnlockable then
-		setActive(slot6, true)
-		setActive(slot7, true)
-		setActive(slot8, true)
-		setActive(slot9, false)
-		setActive(slot10, false)
-		setActive(slot11, false)
-		setText(slot8, slot13.illustrate)
+	if slot2 == slot0.curMidddleIndex then
+		slot0:updatePlateList(slot1, slot2)
 	end
 end
 
-slot0.initSongListPanel = function(slot0)
-	slot1 = slot0.songUIItemList
+slot0.updatePlateList = function(slot0, slot1, slot2)
+	slot3 = slot0.likeValue == MusicCollectionConst.Filte_Like_Value
+	slot4 = slot0.tempPlateList[slot2]
+	slot5 = slot3 and slot0.likeIds or slot0.appreciateProxy:getAlbumMusicList(slot4)
 
-	slot1:make(function (slot0, slot1, slot2)
-		if slot0 == UIItemList.EventUpdate then
+	setText(slot1:Find("list"):Find("album_name"), slot4 == "favor" and i18n("NewMusic_5") or slot4)
+
+	slot7 = slot0.appreciateProxy:getMainPlayerAlbumName() == slot4
+	slot8 = slot6:Find("btn_home")
+
+	setActive(slot8:Find("off"), not slot7)
+	setActive(slot8:Find("on"), slot7)
+	onButton(slot0, slot8, function ()
+		if uv0.appreciateProxy:getMainPlayerAlbumName() == uv1 then
+			pg.m02:sendNotification(GAME.APPRECIATE_CHANGE_MAIN_PLAY_ALBUM, {
+				albumName = "none"
+			})
+			setActive(uv2:Find("off"), true)
+			setActive(uv2:Find("on"), false)
+		else
+			pg.m02:sendNotification(GAME.APPRECIATE_CHANGE_MAIN_PLAY_ALBUM, {
+				albumName = uv1
+			})
+			setActive(uv2:Find("off"), false)
+			setActive(uv2:Find("on"), true)
+		end
+
+		uv0:updateAlbumListPanel()
+	end, SFX_CONFIRM)
+
+	slot9 = slot6:Find("panel/view/container")
+
+	slot10 = function(slot0)
+		slot1 = nil
+
+		if not uv0 or uv1.sortValue == MusicCollectionConst.Sort_Order_Down then
+			slot1 = underscore.to_array(uv2)
+		elseif uv1.sortValue == MusicCollectionConst.Sort_Order_Up then
+			slot1 = underscore.reverse(uv2)
+		else
+			assert(false)
+		end
+
+		slot2 = string.lower(getInputText(uv1.serchInputText))
+		slot3 = uv0 and underscore.filter(slot1, function (slot0)
+			return not uv0 or uv0 == "" or string.find(string.lower(pg.music_collect_config[slot0].name), uv0)
+		end) or underscore.to_array(slot1)
+
+		UIItemList.StaticAlign(uv3, uv3:GetChild(0), #slot3, function (slot0, slot1, slot2)
 			slot1 = slot1 + 1
-			uv0.songTFList[slot1] = slot2
 
-			uv0:updateSongTF(slot2, slot1)
+			if slot0 == UIItemList.EventUpdate then
+				slot3 = pg.music_collect_config[uv0[slot1]]
+
+				if uv1 and uv2.sortValue == MusicCollectionConst.Sort_Order_Up then
+					setText(slot2:Find("mark/Text"), string.format("%02d", #uv0 - slot1 + 1))
+				else
+					setText(slot2:Find("mark/Text"), string.format("%02d", slot1))
+				end
+
+				changeToScrollText(slot2:Find("name"), slot3.name)
+				setText(slot2:Find("time"), uv2:descTime(slot3.music_time))
+				setActive(slot2:Find("line"), slot1 < #uv0)
+				onButton(uv2, slot2:Find("like"), function ()
+					slot0 = uv0.id
+
+					pg.m02:sendNotification(GAME.APPRECIATE_MUSIC_LIKE, {
+						musicID = slot0,
+						isAdd = uv1.likeDic[slot0] and 1 or 0
+					})
+					uv1:ChangeLike(slot0)
+					uv1:updateLikeToggle()
+					uv1:updatePlateList(uv2, uv3)
+
+					if uv1.musicPlayer and uv1.musicPlayer:GetCurrentMusicId() == slot0 then
+						setActive(uv1.likeOnImg, uv1.likeDic[slot0])
+					end
+				end, SFX_CONFIRM)
+				setActive(slot2:Find("like/off"), not uv2.likeDic[slot3.id])
+				setActive(slot2:Find("like/on"), uv2.likeDic[slot3.id])
+
+				slot4 = uv2.musicPlayer and uv2.musicPlayer.albumName == uv5 and uv2.musicPlayer:GetCurrentMusicId() == slot3.id
+
+				setActive(slot2:Find("mark/Text"), not slot4)
+				setActive(slot2:Find("mark/icon"), slot4)
+				setTextColor(slot2:Find("name/subText"), slot4 and Color.NewHex("FF596E") or Color.white)
+				setTextColor(slot2:Find("time"), slot4 and Color.NewHex("FF596E") or Color.white)
+				onButton(uv2, slot2, function ()
+					uv0:NewMusicPlayer(uv1, uv2, uv3.id)
+				end, SFX_CONFIRM)
+			end
+		end)
+		setActive(uv7:Find("panel/view/empty"), #slot3 == 0)
+	end
+
+	setActive(slot6:Find("panel/sort"), slot3)
+
+	if slot3 then
+		slot11 = slot6:Find("panel/sort/bg/asc")
+		slot12 = slot6:Find("panel/sort/bg/desc")
+
+		setText(slot11:Find("Text"), i18n("word_asc"))
+		onToggle(slot0, slot11, function (slot0)
+			if slot0 then
+				uv0.sortValue = MusicCollectionConst.Sort_Order_Up
+
+				uv0:saveRunData()
+				uv1(not slot0)
+			end
+
+			setImageAlpha(uv2, slot0 and 1 or 0)
+			setCanvasGroupAlpha(uv2, slot0 and 1 or 0.3)
+		end, SFX_PANEL)
+		setText(slot12:Find("Text"), i18n("word_desc"))
+		onToggle(slot0, slot12, function (slot0)
+			if slot0 then
+				uv0.sortValue = MusicCollectionConst.Sort_Order_Down
+
+				uv0:saveRunData()
+				uv1(slot0)
+			end
+
+			setImageAlpha(uv2, slot0 and 1 or 0)
+			setCanvasGroupAlpha(uv2, slot0 and 1 or 0.3)
+		end, SFX_PANEL)
+
+		if slot0.sortValue == MusicCollectionConst.Sort_Order_Up then
+			triggerToggle(slot11, true)
+		else
+			triggerToggle(slot12, true)
+		end
+
+		return
+	end
+
+	slot10(false)
+end
+
+slot0.updateAlbumListPanel = function(slot0)
+	slot1 = string.lower(getInputText(slot0.albumInputText))
+	slot0.tempAlbumList = underscore.filter(slot0.albumNames, function (slot0)
+		if string.find(string.lower(slot0), uv0) then
+			return true
+		else
+			return underscore.any(uv1.appreciateProxy:getAlbumMusicList(slot0), function (slot0)
+				return string.find(string.lower(pg.music_collect_config[slot0].name), uv0)
+			end)
 		end
 	end)
+
+	slot0.albumItemList:align(#slot0.tempAlbumList)
+	setActive(slot0.panel:Find("middle/empty"), #slot0.tempAlbumList == 0)
+	setActive(slot0.albumToggle:Find("asc"), slot0.albumSortValue == "asc")
+	setActive(slot0.albumToggle:Find("desc"), slot0.albumSortValue == "desc")
 end
 
-slot0.updateSongListPanel = function(slot0)
-	slot0.songTFList = {}
-
-	if #slot0.musicForShowConfigList == 0 then
-		return
+slot0.updateAlbumTF = function(slot0, slot1, slot2)
+	if slot0.albumSortValue == "desc" then
+		slot2 = #slot0.tempAlbumList + 1 - slot2
 	end
 
-	slot0.songUIItemList:align(#slot0.musicForShowConfigList)
-end
+	slot3 = slot0.tempAlbumList[slot2]
 
-slot0.updateSongTF = function(slot0, slot1, slot2)
-	if #slot0.musicForShowConfigList == 0 then
-		return
-	end
+	setText(slot1:Find("index"), string.format("%02d", slot2))
 
-	slot3 = slot1
-	slot4 = slot0:findTF("IndexText", slot3)
-	slot6 = slot0:findTF("NameText", slot3)
-	slot7 = slot0:findTF("PlayingImg", slot3)
-	slot8 = slot0:findTF("DownloadImg", slot3)
-	slot9 = slot0:findTF("LockImg", slot3)
+	slot5 = pg.music_collect_config[slot0.appreciateProxy:getAlbumMusicList(slot3)[1]].cover
 
-	setActive(slot0:findTF("LikeToggle", slot3), true)
+	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot5, slot5, slot1:Find("icon/face"), false)
+	setText(slot1:Find("name"), slot3)
+	setActive(slot1:Find("icon/main"), slot3 == slot0.appreciateProxy:getMainPlayerAlbumName())
+	setActive(slot1:Find("playing"), slot0.musicPlayer and slot0.musicPlayer.albumName == slot3)
+	setActive(slot1:Find("line"), slot2 < #slot0.tempAlbumList)
+	onButton(slot0, slot1, function ()
+		uv0:closeAlbumListPanel()
 
-	slot10 = slot0:getMusicConfigForShowByIndex(slot2)
-	slot11 = slot10.id
+		uv0.curMidddleIndex = uv1
 
-	slot0:updateSongTFLikeImg(slot1, slot0.appreciateProxy:isLikedByMusicID(slot11))
+		if uv0.likeValue == MusicCollectionConst.Filte_Like_Value then
+			uv0.likeValue = MusicCollectionConst.Filte_Normal_Value
 
-	slot12, slot13 = nil
-	slot13 = slot0.appreciateProxy:getMusicExistStateByID(slot11)
-	slot16 = slot0.manager:CheckF(MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. slot10.music .. ".b")
-	slot17 = nil
-
-	if slot0:getMusicStateByID(slot11) == MusicCollectionConst.MusicStates.Unlockable then
-		slot17 = MusicCollectionConst.Color_Of_Empty_Song
-
-		setActive(slot7, false)
-		setActive(slot8, false)
-		setActive(slot9, true)
-	elseif slot12 == MusicCollectionConst.MusicStates.DisUnlockable then
-		slot17 = MusicCollectionConst.Color_Of_Empty_Song
-
-		setActive(slot7, false)
-		setActive(slot8, false)
-		setActive(slot9, true)
-	elseif slot12 == MusicCollectionConst.MusicStates.Unlocked then
-		if slot13 then
-			slot19 = slot2 == slot0.curMidddleIndex
-
-			if slot0.isPlayingSong and slot19 then
-				slot17 = MusicCollectionConst.Color_Of_Playing_Song
-
-				setActive(slot7, true)
-				setActive(slot8, false)
-				setActive(slot9, false)
-			else
-				slot17 = MusicCollectionConst.Color_Of_Normal_Song
-
-				setActive(slot7, false)
-				setActive(slot8, false)
-				setActive(slot9, false)
-			end
-		elseif slot16 == DownloadState.None or slot16 == DownloadState.CheckToUpdate or slot16 == DownloadState.UpdateFailure then
-			slot17 = MusicCollectionConst.Color_Of_Empty_Song
-
-			setActive(slot7, false)
-			setActive(slot8, false)
-			setActive(slot9, false)
-			table.removebyvalue(slot0.downloadCheckIDList, slot11, true)
-
-			if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-				slot0.downloadCheckTimer:Stop()
-
-				slot0.downloadCheckTimer = nil
-
-				return
-			end
-		elseif slot16 == DownloadState.Updating then
-			slot17 = MusicCollectionConst.Color_Of_Empty_Song
-
-			setActive(slot7, false)
-			setActive(slot8, true)
-			setActive(slot9, false)
+			uv0:updatePlateListPanel()
 		else
-			setActive(slot7, false)
-			setActive(slot8, false)
-			setActive(slot9, false)
-
-			if checkABExist(slot15) then
-				slot17 = MusicCollectionConst.Color_Of_Normal_Song
-
-				slot0.appreciateProxy:updateMusicFileExistStateTable(slot11, true)
-				table.removebyvalue(slot0.downloadCheckIDList, slot11, true)
-
-				if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-					slot0.downloadCheckTimer:Stop()
-
-					slot0.downloadCheckTimer = nil
-				end
-			end
+			uv0.lScrollPageSC:Init(uv0.curMidddleIndex - 1)
 		end
-	end
 
-	setText(slot4, slot2)
-	setText(slot6, setColorStr(slot10.name, slot17))
-	onButton(slot0, slot3, function ()
-		if uv0.isPlayingAni then
-			return
-		else
-			if uv1 == MusicCollectionConst.MusicStates.Unlocked then
-				if uv2 then
-					if not isActive(uv3) then
-						uv0:setAniState(true)
-						uv0:closePlateAni(uv0.plateTFList[uv0.curMidddleIndex])
-						uv0.lScrollPageSC:MoveToItemID(uv4 - 1)
-					end
-				else
-					slot0 = function()
-						setActive(uv0, false)
-						setActive(uv1, true)
-						setActive(uv2, false)
-						VersionMgr.Inst:RequestUIForUpdateF("GALLERY_BGM", uv3, false)
-
-						if not table.contains(uv4.downloadCheckIDList, uv5) then
-							table.insert(uv4.downloadCheckIDList, uv5)
-						end
-
-						uv4:tryStartDownloadCheckTimer()
-						uv4:setAniState(true)
-						uv4:closePlateAni(uv4.plateTFList[uv4.curMidddleIndex])
-						uv4.lScrollPageSC:MoveToItemID(uv6 - 1)
-					end
-
-					if Application.internetReachability == UnityEngine.NetworkReachability.ReachableViaCarrierDataNetwork then
-						pg.MsgboxMgr.GetInstance():ShowMsgBox({
-							content = i18n("res_wifi_tip"),
-							onYes = slot0
-						})
-					else
-						slot0()
-					end
-				end
-			elseif uv1 == MusicCollectionConst.MusicStates.DisUnlockable then
-				pg.TipsMgr.GetInstance():ShowTips(uv9.illustrate)
-			elseif uv1 == MusicCollectionConst.MusicStates.Unlockable then
-				if not uv0.appreciateUnlockMsgBox then
-					uv0.appreciateUnlockMsgBox = AppreciateUnlockMsgBox.New(uv0._tf, uv0.event, uv0.contextData)
-				end
-
-				uv0.appreciateUnlockMsgBox:Reset()
-				uv0.appreciateUnlockMsgBox:Load()
-				uv0.appreciateUnlockMsgBox:ActionInvoke("showCustomMsgBox", {
-					content = i18n("res_unlock_tip"),
-					items = uv0.appreciateProxy:getMusicUnlockMaterialByID(uv8),
-					onYes = function ()
-						pg.m02:sendNotification(GAME.APPRECIATE_MUSIC_UNLOCK, {
-							musicID = uv0,
-							unlockCBFunc = function ()
-								uv0.lScrollPageSC:MoveToItemID(uv1 - 1)
-
-								if uv0.plateTFList[uv1] then
-									uv0:updatePlateTF(uv0.plateTFList[uv1], uv1 - 1)
-								end
-
-								uv0:updateSongTF(uv2, uv1)
-								uv0.appreciateUnlockMsgBox:hideCustomMsgBox()
-							end
-						})
-					end
-				})
-			end
-
-			uv0:closeSongListPanel()
-		end
+		uv0:saveRunData()
 	end, SFX_PANEL)
-end
-
-slot0.updateSongTFLikeImg = function(slot0, slot1, slot2)
-	slot4 = slot0:findTF("LikeToggle", slot1)
-
-	setActive(slot4, true)
-	triggerToggle(slot4, slot2)
-end
-
-slot0.updateSortToggle = function(slot0)
-	setActive(slot0.upImg1, slot0.sortValue == MusicCollectionConst.Sort_Order_Up)
-	setActive(slot0.upImg2, slot0.sortValue == MusicCollectionConst.Sort_Order_Up)
-	setActive(slot0.downImg1, slot0.sortValue == MusicCollectionConst.Sort_Order_Down)
-	setActive(slot0.downImg2, slot0.sortValue == MusicCollectionConst.Sort_Order_Down)
 end
 
 slot0.updateLikeToggle = function(slot0)
 	setActive(slot0.likeFilteOnImg, slot0.likeValue == MusicCollectionConst.Filte_Like_Value)
+	setText(slot0.likeFilteToggle:Find("TextNum"), string.format("(%d)", underscore.reduce(underscore.keys(slot0.likeDic), 0, function (slot0, slot1)
+		return slot0 + (uv0.likeDic[slot1] and 1 or 0)
+	end)))
 end
 
-slot0.updatePlayPanel = function(slot0)
-	if #slot0.musicForShowConfigList == 0 then
-		setActive(slot0.playPanel, false)
-		setActive(slot0.playingAni, false)
-		setActive(slot0.staicImg, false)
-		setActive(slot0.songNameText, false)
-		setActive(slot0.emptyPanel, true)
+slot0.updatePlayPanel = function(slot0, slot1)
+	slot3 = pg.music_collect_config[slot0.musicPlayer:GetCurrentMusicId()]
+	slot4 = slot3.cover
 
-		return
-	else
-		setActive(slot0.playPanel, true)
-		setActive(slot0.playingAni, false)
-		setActive(slot0.staicImg, true)
-		setActive(slot0.songNameText, true)
-		setActive(slot0.emptyPanel, false)
-	end
-
-	slot1 = slot0:getMusicConfigForShowByIndex(slot0.curMidddleIndex)
-	slot2 = slot1.cover
-
-	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot2, slot2, slot0.songImg, false)
-
-	slot4 = slot1.name
-
-	setScrollText(slot0.songNameText, slot4)
-	setText(slot0.playPanelNameText, slot4)
-	setActive(slot0.likeOnImg, slot0.appreciateProxy:isLikedByMusicID(slot1.id))
-
-	slot5 = nil
-
-	if slot0:getMusicStateByID(slot1.id) == GalleryConst.CardStates.Unlockable or slot5 == GalleryConst.CardStates.DisUnlockable then
-		setActive(slot0.likeToggle, false)
-	else
-		setActive(slot0.likeToggle, true)
-	end
-
-	if not slot0:isCanPlayByMusicID(slot1.id) then
-		setActive(slot0.playBtn, false)
-		setActive(slot0.pauseBtn, false)
-		setActive(slot0.lockImg, true)
-
-		slot0.playSliderSC.enabled = false
-
-		slot0.playSliderSC:SetValueWithoutEvent(0)
-		setActive(slot0.nowTimeText, false)
-		setActive(slot0.totalTimeText, false)
-	else
-		setActive(slot0.playBtn, true)
-		setActive(slot0.pauseBtn, false)
-		setActive(slot0.lockImg, false)
-
-		slot0.playSliderSC.enabled = true
-
-		slot0.playSliderSC:SetValueWithoutEvent(0)
-		setActive(slot0.nowTimeText, true)
-		setActive(slot0.totalTimeText, true)
-	end
+	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot4, slot4, slot0.songImg, false)
+	setText(slot0.playPanelNameText, slot3.name)
+	setActive(slot0.likeOnImg, slot0.likeDic[slot3.id])
+	setActive(slot0.playBtn, false)
+	setActive(slot0.playDesc, true)
+	setActive(slot0.pauseBtn, true)
+	setSlider(slot0.playProgressBar, 0, slot1, 0)
+	setText(slot0.totalTimeText, slot0:descTime(slot1))
+	setActive(slot0.nowTimeText, true)
+	setActive(slot0.totalTimeText, true)
 end
 
-slot0.sortAndUpdate = function(slot0, slot1)
-	slot0.curMidddleIndex = 1
+slot0.updatePlayType = function(slot0, slot1)
+	slot1 = slot1 or getProxy(AppreciateProxy):getMusicPlayerLoopType()
 
-	slot0:saveRunData()
-
-	slot0.musicForShowConfigList = slot0:fliteMusicConfigForShow()
-
-	slot0:sortMusicConfigList(slot1)
-
-	slot0.musicForShowConfigList = slot0:filteMusicConfigByLike()
-
-	slot0:stopMusic()
-	slot0:checkUpdateSongTF()
-	slot0:updatePlateListPanel()
-	slot0:updateSongListPanel()
-	slot0:updatePlayPanel()
-	slot0:updateSortToggle()
-	slot0:updateLikeToggle()
-	slot0:tryPlayMusic()
+	eachChild(slot0.playLoopBtn, function (slot0, slot1)
+		setActive(slot0, slot0.name == uv0)
+	end)
 end
 
-slot0.initTimer = function(slot0)
-	slot0.playProgressTimer = Timer.New(function ()
-		if uv0.playbackInfo then
-			slot0 = uv0.playbackInfo:GetTime()
-
-			uv0.playSliderSC:SetValueWithoutEvent(slot0)
-			setText(uv0.nowTimeText, uv0:descTime(slot0))
-
-			if uv0.playbackInfo.playback:GetStatus():ToInt() == 3 then
-				uv0:stopMusic()
-				uv0:checkUpdateSongTF()
-				SetActive(uv0.pauseBtn, false)
-				SetActive(uv0.playBtn, true)
-				uv0:tryPlayMusic()
-			end
-		end
-	end, 0.033, -1)
-
-	slot0.playProgressTimer:Start()
+slot0.updatePlayProgress = function(slot0, slot1)
+	slot0.playSliderSC:SetValueWithoutEvent(slot1)
+	setText(slot0.nowTimeText, slot0:descTime(slot1))
 end
 
 slot0.playPlateAni = function(slot0, slot1, slot2, slot3, slot4)
-	setActive(slot0:findTF("CirclePanel", slot1), slot2)
-	setActive(slot0:findTF("BoxImg", slot1), slot2)
+	slot0:setAniState(true)
+	setActive(slot1:Find("list"), true)
 
-	slot7 = 0.5
-
-	if slot2 == true then
-		slot10 = (443 - 198) / slot7
-		slot13 = (-121 - 0) / slot7
-		slot14 = LeanTween.value(go(slot1), 0, slot7, slot7)
-		slot14 = slot14:setOnUpdate(System.Action_float(function (slot0)
-			setAnchoredPosition(uv4, Vector2.New(uv0 + uv1 * slot0, 0))
-			setAnchoredPosition(uv5, Vector2.New(uv2 + uv3 * slot0, 0))
-		end))
-
-		slot14:setOnComplete(System.Action(function ()
-			setAnchoredPosition(uv0, Vector2.New(uv1, 0))
-			setAnchoredPosition(uv2, Vector2.New(uv3, 0))
-			uv4:setAniState(false)
-		end))
-
-		return
+	slot0.animCallback = function()
+		uv0:setAniState(false)
 	end
 
-	slot9 = 198
-	slot10 = (slot9 - 448) / slot7
-	slot12 = (slot3 - slot4) * (slot0.lScrollPageSC.ItemSize.x + slot0.lScrollPageSC.MarginSize.x)
-	slot13 = (slot12 - getAnchoredPosition(slot1).x) / slot7
-
-	setAnchoredPosition(slot5, Vector2.New(slot9, 0))
-	setAnchoredPosition(slot1, Vector2.New(slot12, 0))
+	quickPlayAnimation(slot1, "anim_MusicCollectionUI_Plate_expand")
 end
 
 slot0.closePlateAni = function(slot0, slot1)
-	slot2 = slot0:findTF("CirclePanel", slot1)
+	slot0:setAniState(true)
 
-	setActive(slot2, false)
-	setActive(slot0:findTF("BoxImg", slot1), false)
-	setAnchoredPosition(slot2, Vector2.New(198, 0))
-	setAnchoredPosition(slot1, Vector2.zero)
+	slot0.animCallback = function()
+		setActive(uv0:Find("list"), false)
+		uv1:setAniState(false)
+	end
+
+	quickPlayAnimation(slot1, "anim_MusicCollectionUI_Plate_retract")
 end
 
 slot0.setAniState = function(slot0, slot1)
 	slot0.isPlayingAni = slot1
 end
 
-slot0.openSongListPanel = function(slot0)
-	slot1 = pg.UIMgr.GetInstance()
+slot0.openAlbumListPanel = function(slot0)
+	setActive(slot0.albumListPanel, true)
+	setActive(slot0.listBtn:Find("on"), true)
+	setActive(slot0.listBtn:Find("off"), false)
+end
 
-	slot1:BlurPanel(slot0.songListPanel, false, {
-		groupName = LayerWeightConst.GROUP_COLLECTION
+slot0.closeAlbumListPanel = function(slot0, slot1)
+	setActive(slot0.albumListPanel, false)
+	setActive(slot0.listBtn:Find("on"), false)
+	setActive(slot0.listBtn:Find("off"), true)
+end
+
+slot0.checkupdateAlbumTF = function(slot0)
+	if #slot0.albumTFList > 0 then
+		slot0:updateAlbumTF(slot0.albumTFList[slot0.curMidddleIndex], slot0.curMidddleIndex)
+	end
+end
+
+slot0.NewMusicPlayer = function(slot0, slot1, slot2, slot3)
+	slot0.bgmMgr:TempPlay("TempMusicPlayer", {
+		loopType = getProxy(AppreciateProxy):getMusicPlayerLoopType(),
+		albumName = slot1,
+		list = slot2 or nil,
+		index = slot3 and table.indexof(slot2, slot3) or nil
 	})
 
-	slot0.songListPanel.offsetMax = slot0._tf.parent.offsetMax
-	slot0.songListPanel.offsetMin = slot0._tf.parent.offsetMin
-
-	setActive(slot0.songListPanel, true)
-
-	slot1 = LeanTween.value(go(slot0.panel), -460, 500, 0.3)
-	slot1 = slot1:setOnUpdate(System.Action_float(function (slot0)
-		setAnchoredPosition(uv0.panel, {
-			y = slot0
-		})
-	end))
-
-	slot1:setOnComplete(System.Action(function ()
-		setAnchoredPosition(uv0.panel, {
-			y = 500
-		})
-	end))
+	slot0.musicPlayer = slot0.bgmMgr:GetMusicPlayer()
 end
 
-slot0.closeSongListPanel = function(slot0, slot1)
-	if slot1 == true then
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.songListPanel, slot0._tf)
-		setActive(slot0.songListPanel, false)
-	end
+slot0.ChangeLike = function(slot0, slot1)
+	slot0.likeDic[slot1] = not slot0.likeDic[slot1]
 
-	if isActive(slot0.songListPanel) then
-		LeanTween.cancel(go(slot0.panel))
-
-		slot3 = LeanTween.value(go(slot0.panel), getAnchoredPosition(slot0.panel).y, -460, 0.3)
-		slot3 = slot3:setOnUpdate(System.Action_float(function (slot0)
-			setAnchoredPosition(uv0.panel, {
-				y = slot0
-			})
-		end))
-
-		slot3:setOnComplete(System.Action(function ()
-			setAnchoredPosition(uv0.panel, {
-				y = -460
-			})
-			pg.UIMgr.GetInstance():UnblurPanel(uv0.songListPanel, uv0._tf)
-			setActive(uv0.songListPanel, false)
-		end))
-	end
-end
-
-slot0.playMusic = function(slot0)
-	slot2 = slot0:getMusicConfigForShowByIndex(slot0.curMidddleIndex).music
-
-	if not slot0.cueData then
-		slot0.cueData = CueData.GetCueData()
-	end
-
-	slot0.cueData.channelName = pg.CriMgr.C_GALLERY_MUSIC
-	slot0.cueData.cueSheetName = slot2
-	slot0.cueData.cueName = ""
-	slot3 = CriWareMgr.Inst
-
-	slot3:PlaySound(slot0.cueData, CriWareMgr.CRI_FADE_TYPE.FADE_INOUT, function (slot0)
-		uv0.playbackInfo = slot0
-
-		uv0.playbackInfo:SetIgnoreAutoUnload(true)
-		setSlider(uv0.playProgressBar, 0, uv0.playbackInfo:GetLength(), 0)
-		setText(uv0.totalTimeText, uv0:descTime(uv0.playbackInfo:GetLength()))
-
-		uv0.isPlayingSong = true
-
-		setActive(uv0.playingAni, true)
-		setActive(uv0.staicImg, false)
-		uv0:updateSongTF(uv0.songTFList[uv0.curMidddleIndex], uv0.curMidddleIndex)
-	end)
-end
-
-slot0.stopMusic = function(slot0)
-	if slot0.playbackInfo then
-		slot0.playbackInfo:SetStartTime(0)
-		CriWareMgr.Inst:StopSound(slot0.cueData, CriWareMgr.CRI_FADE_TYPE.NONE)
-
-		slot0.playbackInfo = nil
-		slot0.isPlayingSong = false
-	end
-
-	setActive(slot0.playingAni, false)
-	setActive(slot0.staicImg, true)
-	slot0.playSliderSC:SetValueWithoutEvent(0)
-	setText(slot0.nowTimeText, slot0:descTime(0))
-end
-
-slot0.checkUpdateSongTF = function(slot0)
-	if #slot0.songTFList > 0 then
-		slot0:updateSongTF(slot0.songTFList[slot0.curMidddleIndex], slot0.curMidddleIndex)
+	if slot0.likeDic[slot1] then
+		table.insert(slot0.likeIds, slot1)
+	else
+		table.removebyvalue(slot0.likeIds, slot1)
 	end
 end
 
 slot0.tryPlayMusic = function(slot0)
-	if #slot0.musicForShowConfigList == 0 then
-		return
-	end
-
-	if slot0:isCanPlayByMusicID(slot0:getMusicConfigForShowByIndex(slot0.curMidddleIndex).id) and isActive(slot0.playBtn) then
-		triggerButton(slot0.playBtn)
-	end
+	triggerButton(slot0.playBtn)
 end
 
 slot0.tryPauseMusic = function(slot0)
-	if isActive(slot0.pauseBtn) and slot0.playbackInfo then
-		triggerButton(slot0.pauseBtn)
-	end
-end
-
-slot0.fliteMusicConfigForShow = function(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(pg.music_collect_config.all) do
-		slot7 = slot0.appreciateProxy:getSingleMusicConfigByID(slot6)
-
-		if slot0.appreciateProxy:isMusicNeedUnlockByID(slot6) then
-			if not slot0.appreciateProxy:isMusicUnlockedByID(slot6) then
-				slot10, slot11 = slot0.appreciateProxy:isMusicUnlockableByID(slot6)
-
-				if slot10 then
-					slot1[#slot1 + 1] = slot7
-				elseif slot11 then
-					slot1[#slot1 + 1] = slot7
-				end
-			else
-				slot1[#slot1 + 1] = slot7
-			end
-		else
-			slot1[#slot1 + 1] = slot7
-		end
-	end
-
-	return slot1
-end
-
-slot0.getMusicConfigForShowByIndex = function(slot0, slot1)
-	if slot0.musicForShowConfigList[slot1] then
-		return slot2
-	else
-		assert(false, "不存在的index" .. tostring(slot1))
-	end
-end
-
-slot0.getMusicStateByID = function(slot0, slot1)
-	if not slot0.appreciateProxy:isMusicNeedUnlockByID(slot1) then
-		return MusicCollectionConst.MusicStates.Unlocked
-	elseif slot0.appreciateProxy:isMusicUnlockedByID(slot1) then
-		return MusicCollectionConst.MusicStates.Unlocked
-	elseif slot0.appreciateProxy:isMusicUnlockableByID(slot1) then
-		return MusicCollectionConst.MusicStates.Unlockable
-	else
-		return MusicCollectionConst.MusicStates.DisUnlockable
-	end
-end
-
-slot0.sortMusicConfigList = function(slot0, slot1)
-	table.sort(slot0.musicForShowConfigList, function (slot0, slot1)
-		slot2 = slot0.id
-		slot3 = slot1.id
-
-		if uv0 == true then
-			return slot3 < slot2
-		else
-			return slot2 < slot3
-		end
-	end)
-end
-
-slot0.filteMusicConfigByLike = function(slot0)
-	if slot0.likeValue == MusicCollectionConst.Filte_Normal_Value then
-		return slot0.musicForShowConfigList
-	end
-
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(slot0.musicForShowConfigList) do
-		if slot0.appreciateProxy:isLikedByMusicID(slot6.id) then
-			slot1[#slot1 + 1] = slot6
-		end
-	end
-
-	return slot1
-end
-
-slot0.isCanPlayByMusicID = function(slot0, slot1)
-	slot2, slot3 = nil
-	slot3 = slot0.appreciateProxy:getMusicExistStateByID(slot1)
-
-	if slot0:getMusicStateByID(slot1) == GalleryConst.CardStates.DirectShow then
-		print("is impossible to go to this, something wrong")
-
-		if slot3 then
-			return true
-		else
-			return false
-		end
-	elseif slot2 == GalleryConst.CardStates.Unlocked then
-		if slot3 then
-			return true
-		else
-			return false
-		end
-	elseif slot2 == GalleryConst.CardStates.Unlockable then
-		return false
-	elseif slot2 == GalleryConst.CardStates.DisUnlockable then
-		return false
-	end
+	triggerButton(slot0.pauseBtn)
 end
 
 slot0.descTime = function(slot0, slot1)
@@ -1127,39 +736,6 @@ slot0.descTime = function(slot0, slot1)
 		return string.format("%02d:%02d:%02d", slot3, slot4, slot5)
 	else
 		return string.format("%02d:%02d", slot4, slot5)
-	end
-end
-
-slot0.tryStartDownloadCheckTimer = function(slot0)
-	if #slot0.downloadCheckIDList == 0 and slot0.downloadCheckTimer then
-		slot0.downloadCheckTimer:Stop()
-
-		slot0.downloadCheckTimer = nil
-
-		return
-	end
-
-	if not slot0.downloadCheckTimer and #slot0.downloadCheckIDList > 0 then
-		slot0.downloadCheckTimer = Timer.New(function ()
-			for slot3, slot4 in ipairs(uv0.downloadCheckIDList) do
-				slot5 = nil
-
-				for slot9, slot10 in ipairs(uv0.musicForShowConfigList) do
-					if slot10.id == slot4 then
-						slot5 = slot9
-
-						break
-					end
-				end
-
-				if slot5 then
-					uv0:updatePlateTF(uv0.plateTFList[slot5], slot5 - 1)
-					uv0:updateSongTF(uv0.songTFList[slot5], slot5)
-				end
-			end
-		end, 1, -1)
-
-		slot0.downloadCheckTimer:Start()
 	end
 end
 

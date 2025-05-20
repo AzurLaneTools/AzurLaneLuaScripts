@@ -619,16 +619,17 @@ slot0.didEnter = function(slot0)
 
 	setActive(slot0.militaryExerciseBtn:Find("lock"), not slot4)
 	setActive(slot0.entranceLayer:Find("btns/btn_pvp/lock"), not slot4)
+	setActive(slot0.entranceLayer:Find("enters/enter_world/enter/lock"), not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.player.level, "WorldMediator"))
 
-	slot5 = LimitChallengeConst.IsOpen()
+	slot6 = LimitChallengeConst.IsOpen()
 
-	setActive(slot0.challengeBtn:Find("lock"), not slot5)
-	setActive(slot0.entranceLayer:Find("btns/btn_challenge/lock"), not slot5)
+	setActive(slot0.challengeBtn:Find("lock"), not slot6)
+	setActive(slot0.entranceLayer:Find("btns/btn_challenge/lock"), not slot6)
 
-	slot6 = LimitChallengeConst.IsInAct()
+	slot7 = LimitChallengeConst.IsInAct()
 
-	setActive(slot0.challengeBtn, slot6)
-	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot6)
+	setActive(slot0.challengeBtn, slot7)
+	setActive(slot0.entranceLayer:Find("btns/btn_challenge"), slot7)
 	setActive(slot0.entranceLayer:Find("btns/btn_challenge/tip"), LimitChallengeConst.IsShowRedPoint())
 	slot0:initMapBtn(slot0.btnPrev, -1)
 	slot0:initMapBtn(slot0.btnNext, 1)
@@ -644,7 +645,7 @@ slot0.didEnter = function(slot0)
 		slot0.contextData.selectedChapterVO = nil
 	end
 
-	if not slot0.contextData.chapterVO or not slot8.active then
+	if not slot0.contextData.chapterVO or not slot9.active then
 		slot0:tryPlaySubGuide()
 	end
 

@@ -45,14 +45,14 @@ pg.recommend_shop = {
 		pic = "",
 		shop_type = 1,
 		id = 5,
-		shop_id = 157,
-		order = 1,
+		shop_id = 91,
+		order = 3,
 		time = {
 			{
 				{
 					2025,
-					4,
-					24
+					5,
+					20
 				},
 				{
 					0,
@@ -63,8 +63,8 @@ pg.recommend_shop = {
 			{
 				{
 					2025,
-					5,
-					7
+					6,
+					11
 				},
 				{
 					23,
@@ -78,14 +78,14 @@ pg.recommend_shop = {
 		pic = "",
 		shop_type = 1,
 		id = 6,
-		shop_id = 88,
+		shop_id = 92,
 		order = 4,
 		time = {
 			{
 				{
 					2025,
-					1,
-					16
+					5,
+					20
 				},
 				{
 					0,
@@ -96,8 +96,8 @@ pg.recommend_shop = {
 			{
 				{
 					2025,
-					2,
-					5
+					6,
+					11
 				},
 				{
 					23,
@@ -111,14 +111,14 @@ pg.recommend_shop = {
 		pic = "",
 		shop_type = 1,
 		id = 7,
-		shop_id = 87,
+		shop_id = 93,
 		order = 1,
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					5,
+					29
 				},
 				{
 					0,
@@ -129,8 +129,8 @@ pg.recommend_shop = {
 			{
 				{
 					2025,
-					2,
-					5
+					6,
+					11
 				},
 				{
 					23,
@@ -144,14 +144,14 @@ pg.recommend_shop = {
 		pic = "",
 		shop_type = 1,
 		id = 8,
-		shop_id = 89,
+		shop_id = 94,
 		order = 2,
 		time = {
 			{
 				{
 					2025,
-					1,
-					23
+					5,
+					29
 				},
 				{
 					0,
@@ -162,8 +162,8 @@ pg.recommend_shop = {
 			{
 				{
 					2025,
-					2,
-					5
+					6,
+					11
 				},
 				{
 					23,

@@ -11,30 +11,29 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.sceneMask = findTF(slot0._tf, "sceneMask")
 	slot0.sceneContainer = findTF(slot0._tf, "sceneMask/sceneContainer")
 
-	slot4 = function(slot0, slot1)
-		uv0:onSceneEventCallback(slot0, slot1)
-	end
-
 	slot0:showContainer(false)
 
-	slot0.physicsCtrl = WatermelonCollisionCtrl.New(slot0.contextData, slot4)
-	slot0.ballCtrl = WatermelonBallCtrl.New(findTF(slot0.sceneContainer, "scene/content/physics_content"), slot0.contextData, slot4)
-	slot5 = slot0.physicsCtrl
+	slot0.physicsCtrl = WatermelonCollisionCtrl.New(slot0.contextData, slot0._event)
+	slot0.ballCtrl = WatermelonBallCtrl.New(findTF(slot0.sceneContainer, "scene/content/physics_content"), slot0.contextData, slot0._event)
+	slot4 = slot0.physicsCtrl
 
-	slot5:setGameVo(slot0._gameVo)
+	slot4:setGameVo(slot0._gameVo)
 
-	slot5 = slot0.ballCtrl
+	slot4 = slot0.ballCtrl
 
-	slot5:setGameVo(slot0._gameVo)
+	slot4:setGameVo(slot0._gameVo)
 
-	slot5 = slot0._event
+	slot4 = slot0._event
 
-	slot5:bind(WatermelonGameEvent.CLICK_DOWN, function (slot0, slot1, slot2)
+	slot4:bind(WatermelonGameEvent.CLICK_DOWN, function (slot0, slot1, slot2)
 		uv0.ballCtrl:dropBall()
 	end)
-end
 
-slot0.onSceneEventCallback = function(slot0, slot1, slot2)
+	slot4 = slot0._event
+
+	slot4:bind(WatermelonGameEvent.CLICK_MOVE, function (slot0, slot1, slot2)
+		uv0.ballCtrl:moveWorld(slot1)
+	end)
 end
 
 slot0.start = function(slot0)

@@ -1,7 +1,10 @@
 slot0 = class("ItemInfoLayer", import("..base.BaseUI"))
 slot1 = 5
 slot2 = 11
-slot3 = {
+slot3 = 100
+slot4 = 53996
+slot5 = {
+	USE = 3,
 	RESOLVE = 2,
 	COMPOSE = 1
 }
@@ -130,6 +133,8 @@ slot0.init = function(slot0)
 	slot0.operateCountdesc = slot1:Find("count/image_text")
 	slot1 = slot0.operatePanel
 	slot0.operateValue = slot1:Find("count/number_panel/value")
+	slot1 = slot0.operatePanel
+	slot0.operateValueInput = slot1:Find("count/number_panel/InputField")
 	slot1 = slot0.operatePanel
 	slot0.operateLeftButton = slot1:Find("count/number_panel/left")
 	slot1 = slot0.operatePanel
@@ -267,7 +272,20 @@ slot0.setItem = function(slot0, slot1)
 		return
 	end
 
-	if slot0.itemVO:CanOpen() then
+	if slot0.itemVO:getConfig("type") == Item.EQUIPMENT_BOX_TYPE_5 then
+		slot7 = slot0.operatePanel
+
+		slot0:setItemInfo(slot1, slot7:Find("item"))
+		setActive(slot0.useOneBtn, true)
+		onButton(slot0, slot0.useOneBtn, function ()
+			SetActive(uv0.operatePanel, true)
+			SetActive(uv0.window, false)
+
+			uv0.operateMode = uv1.USE
+
+			uv0:SetOperateCount(1)
+		end, SFX_PANEL)
+	elseif slot0.itemVO:CanOpen() then
 		setText(slot0.useBtn:Find("text"), 1)
 		setActive(slot0.useBtn, true)
 
@@ -338,15 +356,10 @@ slot0.didEnter = function(slot0)
 		SetActive(slot1, false)
 	end
 
-	slot4 = slot0._tf
-
-	onButton(slot0, slot4:Find("bg"), function ()
+	onButton(slot0, slot0._tf:Find("bg"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
-
-	slot4 = slot0._tf
-
-	onButton(slot0, slot4:Find("window/top/btnBack"), function ()
+	onButton(slot0, slot0._tf:Find("window/top/btnBack"), function ()
 		uv0:closeView()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.okBtn, function ()
@@ -395,19 +408,40 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.operateMaxButton, function ()
 		uv0:SetOperateCount(uv0.operateMax)
 	end, SFX_PANEL)
+	onInputEndEdit(slot0, slot0.operateValueInput, function (slot0)
+		slot2 = math.max(1, math.min(uv0, math.min(tonumber(slot0) or 1, uv1.operateMax)))
+
+		uv1:SetOperateCount(slot2)
+
+		if slot0 ~= tostring(slot2) then
+			setInputText(uv1.operateValueInput, slot2)
+		end
+	end)
+
+	slot2 = slot0.itemVO:getConfig("type") == Item.EQUIPMENT_BOX_TYPE_5
+
+	setActive(slot0.operateValueInput, slot2)
+	setActive(slot0.operateValue, not slot2)
 	onButton(slot0, slot0.operateBtns.Cancel, function ()
 		SetActive(uv0.operatePanel, false)
 		SetActive(uv0.window, true)
+
+		uv0.operateCount = 0
+		uv0.operateMode = nil
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.operateBtns.Confirm, function ()
-		uv0:emit(ItemInfoMediator.COMPOSE_ITEM, uv0.itemVO.id, uv0.operateCount)
+		if uv0.operateMode == uv1.COMPOSE then
+			uv0:emit(ItemInfoMediator.COMPOSE_ITEM, uv0.itemVO.id, uv0.operateCount)
 
-		slot0 = uv0.itemVO:getConfig("compose_number")
+			slot0 = uv0.itemVO:getConfig("compose_number")
 
-		if slot0 > uv0.itemVO.count - uv0.operateCount * slot0 then
-			triggerButton(uv0.operateBtns.Cancel)
-		else
-			uv0:SetOperateCount(1)
+			if slot0 > uv0.itemVO.count - uv0.operateCount * slot0 then
+				triggerButton(uv0.operateBtns.Cancel)
+			else
+				uv0:SetOperateCount(1)
+			end
+		elseif uv0.operateMode == uv1.USE then
+			uv0:emit(ItemInfoMediator.USE_ITEM, uv0.itemVO.id, uv0.operateCount)
 		end
 	end, SFX_CONFIRM)
 	onButton(slot0, slot0.recycleBtn, function ()
@@ -437,9 +471,7 @@ slot0.didEnter = function(slot0)
 		}))
 	end, SFX_CONFIRM)
 
-	slot2 = getProxy(PlayerProxy)
-	slot2 = slot2:getData()
-	slot0.keepFateState = not slot2:GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
+	slot0.keepFateState = not getProxy(PlayerProxy):getData():GetCommonFlag(SHOW_DONT_KEEP_FATE_ITEM)
 	GetComponent(slot0.keepFateTog, typeof(Toggle)).isOn = slot0.keepFateState
 
 	onToggle(slot0, slot0.keepFateTog, function (slot0)
@@ -472,6 +504,8 @@ slot0.UpdateCount = function(slot0, slot1)
 		return slot0.operateCount ~= math.clamp(slot1, 1, math.floor(slot0.itemVO.count / slot0.itemVO:getConfig("compose_number")))
 	elseif slot0.operateMode == uv0.RESOLVE then
 		return slot0.operateCount ~= math.clamp(slot1, 1, slot0.itemVO.count)
+	elseif slot0.operateMode == uv0.USE then
+		return slot0.operateCount ~= math.clamp(slot1, 1, slot0.itemVO.count)
 	end
 end
 
@@ -488,10 +522,17 @@ slot0.SetOperateCount = function(slot0, slot1)
 		end
 
 		slot0:updateItemCount(slot0.itemVO.count - slot0.operateCount * slot3)
-	elseif slot0.operateMode == uv0.RESOLVE and slot0.operateCount ~= math.clamp(slot1, 0, slot0.operateMax) then
+	elseif slot0.operateMode == uv0.RESOLVE then
+		if slot0.operateCount ~= math.clamp(slot1, 0, slot0.operateMax) then
+			slot0.operateCount = slot1
+
+			slot0:UpdateResolvePanel()
+			slot0:updateItemCount(slot0.itemVO.count - slot0.operateCount)
+		end
+	elseif slot0.operateMode == uv0.USE and slot0.operateCount ~= math.clamp(slot1, 0, math.min(slot0.operateMax, uv1)) then
 		slot0.operateCount = slot1
 
-		slot0:UpdateResolvePanel()
+		slot0:UpdateUsePanel()
 		slot0:updateItemCount(slot0.itemVO.count - slot0.operateCount)
 	end
 end
@@ -500,6 +541,7 @@ slot0.UpdateComposeCount = function(slot0)
 	slot1 = slot0.operateCount
 
 	setText(slot0.operateValue, slot1)
+	setInputText(slot0.operateValueInput, slot1)
 
 	slot2 = {}
 	slot6 = slot0.itemVO
@@ -537,6 +579,7 @@ slot0.UpdateResolvePanel = function(slot0)
 	slot1 = slot0.operateCount
 
 	setText(slot0.operateValue, slot1)
+	setInputText(slot0.operateValueInput, slot1)
 
 	slot2 = slot0.itemVO
 	slot2 = slot2:getConfig("price")
@@ -599,6 +642,40 @@ slot0.UpdateSpeedUpResolveNum = function(slot0)
 	if slot0.itemVO:getConfig("type") == Item.TEC_SPEEDUP_TYPE then
 		slot0.operateMax = slot1
 	end
+end
+
+slot0.UpdateUsePanel = function(slot0)
+	slot1 = slot0.operateCount
+
+	setText(slot0.operateValue, slot1)
+	setInputText(slot0.operateValueInput, slot1)
+
+	slot2 = {}
+
+	table.insert(slot2, {
+		type = DROP_TYPE_ITEM,
+		id = uv0,
+		count = slot1
+	})
+
+	slot6 = #slot2
+
+	slot7 = function(slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
+		if slot0 == UIItemList.EventUpdate then
+			updateDrop(slot2:Find("IconTpl"), uv0[slot1])
+		end
+	end
+
+	UIItemList.StaticAlign(slot0.operateBonusList, slot0.operateBonusTpl, slot6, slot7)
+
+	for slot6, slot7 in pairs(slot0.operateBtns) do
+		setActive(slot7, slot6 == "Confirm" or slot6 == "Cancel")
+	end
+
+	setText(slot0.operateCountdesc, i18n("use_amount_prefix"))
+	setActive(slot0.keepFateTog, false)
 end
 
 slot0.willExit = function(slot0)

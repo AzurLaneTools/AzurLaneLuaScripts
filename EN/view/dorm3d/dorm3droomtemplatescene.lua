@@ -3756,10 +3756,6 @@ slot0.InitDefautQuality = function()
 	end
 end
 
-slot0.SettingQuality = function()
-	BLHX.Rendering.EngineCore.SetOverrideQualitySettings(GraphicSettingConst.HandleCustomSetting())
-end
-
 slot0.SetMagicaCollider = function(slot0, slot1, slot2)
 	slot3 = typeof("MagicaCloth2.MagicaCapsuleCollider")
 	slot4 = slot0:GetSize()

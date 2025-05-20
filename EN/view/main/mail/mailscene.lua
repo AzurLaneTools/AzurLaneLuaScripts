@@ -37,9 +37,9 @@ slot0.init = function(slot0)
 	slot0.proxy = getProxy(MailProxy)
 	slot0.rtAdapt = slot0._tf:Find("adapt")
 
-	setText(slot0.rtAdapt:Find("top/title"), i18n("mail_title_new"))
-	setText(slot0.rtAdapt:Find("top/title/Text"), i18n("mail_title_English"))
-	onButton(slot0, slot0.rtAdapt:Find("top/back_btn"), function ()
+	setText(slot0.rtAdapt:Find("CommonTitleAndBack/title"), i18n("mail_title_new"))
+	setText(slot0.rtAdapt:Find("CommonTitleAndBack/title/en"), i18n("mail_title_English"))
+	onButton(slot0, slot0.rtAdapt:Find("CommonTitleAndBack/back_btn"), function ()
 		slot0 = {}
 
 		if MAIL_COUNT_LIMIT < uv0.proxy.totalExist then
@@ -907,7 +907,7 @@ slot0.onBackPressed = function(slot0)
 	elseif slot0.mailStoreroomRewardSubView:isShowing() then
 		slot0.mailStoreroomRewardSubView:Hide()
 	else
-		triggerButton(slot0.rtAdapt:Find("top/back_btn"))
+		triggerButton(slot0.rtAdapt:Find("CommonTitleAndBack/back_btn"))
 	end
 end
 

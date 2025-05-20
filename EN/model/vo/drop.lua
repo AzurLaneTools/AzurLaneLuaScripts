@@ -305,6 +305,15 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ACTIVITY_MEDAL] = function (slot0)
 			return pg.item_virtual_data_statistics[pg.activity_medal_template[slot0.id].item]
+		end,
+		[DROP_TYPE_HOLIDAY_VILLA] = function (slot0)
+			slot1 = Item.getConfigData(slot0.id)
+
+			assert(slot1, slot0.id)
+
+			slot0.desc = slot1.display
+
+			return slot1
 		end
 	}
 
@@ -1293,6 +1302,11 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_ISLAND_ABILITY] = function (slot0, slot1, slot2)
 			updateIslandUnlock(slot1, slot0, slot2)
+		end,
+		[DROP_TYPE_HOLIDAY_VILLA] = function (slot0, slot1, slot2)
+			updateItem(slot1, Item.New({
+				id = slot0.id
+			}), slot2)
 		end
 	}
 

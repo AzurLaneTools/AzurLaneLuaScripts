@@ -2568,7 +2568,19 @@ slot0.IsMatchKey = function(slot0, slot1)
 		return true
 	end
 
-	return string.find(string.lower(slot0:GetDefaultName()), string.lower(string.gsub(slot1, "%.", "%%.")))
+	slot1 = string.lower(string.gsub(slot1, "%.", "%%."))
+	slot2 = {
+		slot0:getName(),
+		slot0:GetDefaultName()
+	}
+
+	if slot2[1] == slot2[2] then
+		table.remove(slot2)
+	end
+
+	return underscore.any(slot2, function (slot0)
+		return string.find(string.lower(slot0), uv0)
+	end)
 end
 
 slot0.IsOwner = function(slot0)

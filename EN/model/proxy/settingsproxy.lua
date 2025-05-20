@@ -123,6 +123,10 @@ slot0.SetBgmFlag = function(slot0, slot1)
 	end
 end
 
+slot0.IsEnableMainMusicPlayer = function(slot0)
+	return true
+end
+
 slot0.getSkinPosSetting = function(slot0, slot1)
 	if PlayerPrefs.HasKey(slot0:GetCurrMainUIStyleKeyForSkinShop() .. tostring(slot1:GetRecordPosKey()) .. "_scale") then
 		return PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_x", 0), PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_y", 0), PlayerPrefs.GetFloat(slot3 .. tostring(slot2) .. "_scale", 1)
@@ -139,6 +143,25 @@ slot0.setSkinPosSetting = function(slot0, slot1, slot2, slot3, slot4)
 	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_y", slot3)
 	PlayerPrefs.SetFloat(slot6 .. tostring(slot5) .. "_scale", slot4)
 	PlayerPrefs.Save()
+end
+
+slot0.setSkinScaleSetting = function(slot0, slot1, slot2, slot3, slot4)
+	slot5 = slot1:GetRecordPosKey()
+	slot6 = tostring(slot5) .. slot2 .. "_" .. slot3 .. "_part_scale"
+
+	PlayerPrefs.SetFloat(tostring(slot5) .. slot2 .. "_" .. slot3 .. "_part_scale", slot4)
+end
+
+slot0.getSkinScaleSetting = function(slot0, slot1, slot2, slot3)
+	slot4 = nil
+
+	if PlayerPrefs.HasKey(tostring(slot1:GetRecordPosKey()) .. slot2 .. "_" .. slot3 .. "_part_scale") then
+		slot4 = PlayerPrefs.GetFloat(slot6, 1)
+	else
+		return 1
+	end
+
+	return slot4
 end
 
 slot0.GetCurrMainUIStyleKeyForSkinShop = function(slot0)

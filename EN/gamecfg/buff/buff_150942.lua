@@ -36,7 +36,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -82,7 +82,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -128,7 +128,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -174,7 +174,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -220,7 +220,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -266,7 +266,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -312,7 +312,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -358,7 +358,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -404,7 +404,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"
@@ -450,7 +450,7 @@ return {
 				},
 				arg_list = {
 					buff_id = 150945,
-					fleetPos = "Flagship",
+					fleetPos = "FlagShip",
 					target = {
 						"TargetAllHelp",
 						"TargetFleetIndex"

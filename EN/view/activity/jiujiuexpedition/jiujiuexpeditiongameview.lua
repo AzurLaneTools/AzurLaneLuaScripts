@@ -122,7 +122,7 @@ slot0.didEnter = function(slot0)
 		cmd = 0,
 		activity_id = slot0.activityId
 	})
-	slot0:SwitchToDefaultBGM()
+	pg.BgmMgr.GetInstance():ContinuePlay()
 end
 
 slot0.activityUpdate = function(slot0)
