@@ -102,7 +102,7 @@ slot0.drop_ball_ids = {
 		weight = 20
 	}
 }
-slot0.enter_top_over_time = 2
+slot0.enter_top_over_time = 3
 slot0.tpl_ball = "ball"
 slot0.ball_count_id = 0
 
