@@ -83,6 +83,7 @@ slot0.clear = function(slot0)
 	slot0.countId = WatermelonGameConst.ball_count_id
 	slot0.tickToOver = nil
 
+	setActive(slot0._megerEffect, false)
 	slot0:clearBallContainer()
 end
 
@@ -278,6 +279,8 @@ slot0.setCreateCd = function(slot0)
 end
 
 slot0.initBallData = function(slot0, slot1, slot2)
+	setActive(slot1, true)
+
 	slot3 = slot2 and slot2 or slot0:getRandomIdByWeight()
 	slot4 = WatermelonGameConst.ball_data[slot3]
 	GetComponent(slot1, typeof(UnityEngine.CircleCollider2D)).radius = slot4.size
@@ -288,11 +291,10 @@ slot0.initBallData = function(slot0, slot1, slot2)
 	slot0.countId = slot0.countId + 1
 	slot1.name = "ball_" .. slot0.countId
 
-	setActive(slot1, true)
-
 	return {
 		id = slot4.id,
 		tf = slot1,
+		rigidbody = GetComponent(slot1, "Rigidbody2D"),
 		count = slot0.countId,
 		name = slot1.name,
 		next = slot4.next_id,
