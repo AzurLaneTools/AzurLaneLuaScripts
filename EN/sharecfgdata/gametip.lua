@@ -23163,7 +23163,7 @@ The table of objects you can retrieve and the amount of points you gain or lose 
 · I-168: -50 points
 · Torpedo: -50 points
 
-The minigame ends when the timer reaches 0, or when you tap the Return button.￼]]
+The minigame ends when the timer reaches 0, or when you tap the Return button.]]
 		}
 	}
 }

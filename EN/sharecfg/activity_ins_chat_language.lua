@@ -40393,7 +40393,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[4004] = {
-		param = "Typing is too much work I'm going to switch to voice input for a bit",
+		param = "Thanks a lot.",
 		ship_group = 0,
 		option = "",
 		type = 1,

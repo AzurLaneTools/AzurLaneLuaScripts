@@ -85,19 +85,19 @@ slot1.updateProgressBar = function(slot0)
 end
 
 slot1.OnOverLoadChange = function(slot0, slot1)
-	if slot0._progressInfo:GetCount() < 1 then
+	if slot0._progressInfo:IsOverLoad() then
 		slot0._block:SetActive(true)
 		slot0:OnUnfill()
 	else
 		slot0._block:SetActive(false)
 		slot0:OnFilled()
+	end
 
-		if slot1 and slot1.Data and slot1.Data.preCast then
-			if slot2 == 0 then
-				quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
-			elseif slot2 > 0 then
-				quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_charge")
-			end
+	if slot0._progressInfo:GetCount() >= 1 and slot1 and slot1.Data and slot1.Data.preCast then
+		if slot2 == 0 then
+			quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_filled")
+		elseif slot2 > 0 then
+			quickCheckAndPlayAnimator(slot0._skin, "weapon_button_progress_charge")
 		end
 	end
 

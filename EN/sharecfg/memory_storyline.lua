@@ -1753,7 +1753,7 @@ pg.memory_storyline = {
 		}
 	},
 	{
-		description = "A Northern Parliament fleet led by Soyuz heads to the Antarctic in search of a unique crystal that resonates with riggings. Someone in their midst has other motives, however...",
+		description = "Soyuz leads a Northern Parliament fleet to the Antarctic for a unique crystal that resonates with riggings, yet someone in their midst has other motives…",
 		name = "Snowrealm Peregrination",
 		column = 44,
 		world_id = "",
