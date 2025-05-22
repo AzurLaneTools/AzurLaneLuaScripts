@@ -18878,6 +18878,7 @@ pg.activity_template = {
 	[5547] = {
 		mark = 20250424,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -18891,33 +18892,6 @@ pg.activity_template = {
 			10182,
 			10183,
 			10184
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5548] = {
@@ -18999,6 +18973,7 @@ pg.activity_template = {
 	[5549] = {
 		mark = 20250424,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -19020,37 +18995,11 @@ pg.activity_template = {
 			502,
 			503,
 			504
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5550] = {
 		mark = 20250424,
+		time = "stop",
 		type = 69,
 		login_pop = 0,
 		config_id = 28,
@@ -19058,33 +19007,6 @@ pg.activity_template = {
 		title_res_tag = "Georgia_catchup",
 		id = 5550,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "PlymouthTecCatchupPage",
 			ui_name = "PlymouthTecCatchupPage"
@@ -19095,6 +19017,7 @@ pg.activity_template = {
 	},
 	[5551] = {
 		mark = 20250424,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -19131,33 +19054,6 @@ pg.activity_template = {
 				20528
 			}
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "AmagiACTaskPage",
 			ui_name = "AmagiACTaskPage"
@@ -19190,6 +19086,7 @@ pg.activity_template = {
 	},
 	[5552] = {
 		mark = 20250424,
+		time = "stop",
 		type = 87,
 		login_pop = 0,
 		config_id = 22,
@@ -19198,33 +19095,6 @@ pg.activity_template = {
 		title_res_tag = "activity",
 		id = 5552,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					24
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "AnniV5FramePage",
 			ui_name = "AnniV5FramePage"
@@ -19356,6 +19226,7 @@ pg.activity_template = {
 	},
 	[5562] = {
 		mark = 20250430,
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -19370,33 +19241,6 @@ pg.activity_template = {
 			1850022,
 			1850023
 		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		page_info = {
 			class_name = "Japan2024AnniversaryMainPage",
 			ui_name = "Japan2024AnniversaryMainPage"
@@ -19409,6 +19253,7 @@ pg.activity_template = {
 	[5563] = {
 		mark = 20250430,
 		page_info = "",
+		time = "stop",
 		type = 12,
 		login_pop = 0,
 		config_id = 0,
@@ -19425,33 +19270,6 @@ pg.activity_template = {
 			1850041,
 			1850051,
 			1850052
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		},
 		config_client = {
 			entrance_bg = "activitybanner/temp10",
@@ -19542,6 +19360,7 @@ pg.activity_template = {
 	[5567] = {
 		mark = 20250430,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -19549,34 +19368,7 @@ pg.activity_template = {
 		config_data = "[{31943,100}]",
 		config_client = "",
 		title_res_tag = "",
-		id = 5567,
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					21
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
+		id = 5567
 	},
 	[5568] = {
 		mark = 20240919,
@@ -19943,6 +19735,7 @@ pg.activity_template = {
 	[5573] = {
 		mark = 20250430,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 10,
@@ -19950,33 +19743,6 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 5573,
 		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		},
 		config_client = {
 			id = 10,
 			bg = "loadingbg/bg_build_4_act"
@@ -20024,6 +19790,7 @@ pg.activity_template = {
 	[5575] = {
 		mark = 20250430,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -20055,38 +19822,12 @@ pg.activity_template = {
 			20591,
 			20592,
 			20593
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5576] = {
 		mark = 20250430,
 		page_info = "",
+		time = "stop",
 		type = 16,
 		login_pop = 0,
 		config_id = 431,
@@ -20094,38 +19835,12 @@ pg.activity_template = {
 		config_data = "100",
 		config_client = "",
 		title_res_tag = "",
-		id = 5576,
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
+		id = 5576
 	},
 	[5577] = {
 		mark = 20250430,
 		page_info = "",
+		time = "stop",
 		type = 36,
 		login_pop = 0,
 		config_id = 0,
@@ -20140,33 +19855,6 @@ pg.activity_template = {
 			0.36,
 			0.6,
 			10
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					4,
-					30
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					5,
-					22
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5578] = {
@@ -23809,7 +23497,7 @@ pg.activity_template = {
 					11
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -23944,7 +23632,7 @@ pg.activity_template = {
 		config_client = {
 			id = 4,
 			bg = "loadingbg/bg_build_4_act",
-			buildship_tip = "富蘭克林、聖塔菲、米勒 建造概率UP！",
+			buildship_tip = "富蘭克林、聖塔菲、米勒 建造機率UP!",
 			rate_tip = {
 				"<color=#ffde38>超稀有艦船</color>：7%",
 				"<color=#d797ff>精銳艦船</color>：12%",
