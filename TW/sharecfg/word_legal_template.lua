@@ -421,6 +421,13 @@ temp = function()
 	uv0["富"] = {
 		["特"] = {
 			this = true
+		},
+		["蘭"] = {
+			["克"] = {
+				["林"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -1213,6 +1220,16 @@ end
 temp()
 
 temp = function()
+	uv0["米"] = {
+		["勒"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["羅"] = {
 		["利"] = {
 			this = true
@@ -1415,6 +1432,11 @@ temp = function()
 		},
 		["胡"] = {
 			["安"] = {
+				this = true
+			}
+		},
+		["塔"] = {
+			["菲"] = {
 				this = true
 			}
 		},
@@ -4576,6 +4598,18 @@ end
 temp()
 
 temp = function()
+	uv0["渡"] = {
+		["良"] = {
+			["瀨"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["古"] = {
 		["鷹"] = {
 			this = true
@@ -6771,18 +6805,6 @@ temp = function()
 				["夫"] = {
 					this = true
 				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["渡"] = {
-		["良"] = {
-			["瀨"] = {
-				this = true
 			}
 		}
 	}

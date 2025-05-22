@@ -4352,12 +4352,84 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[40704] = {
+		ship_group = 40704,
+		name = "Fritz Rumey",
+		background = "",
+		sculpture = "fulici",
+		nationality = 4,
+		type = 1
+	},
+	[40211] = {
+		ship_group = 40211,
+		name = "Duisburg",
+		background = "",
+		sculpture = "duyisibao",
+		nationality = 4,
+		type = 1
+	},
+	[40109] = {
+		ship_group = 40109,
+		name = "Wolke9",
+		background = "",
+		sculpture = "Z9",
+		nationality = 4,
+		type = 1
+	},
+	[40111] = {
+		ship_group = 40111,
+		name = "Z11_Spielefan",
+		background = "",
+		sculpture = "Z11",
+		nationality = 4,
+		type = 1
+	},
 	[40152] = {
 		ship_group = 40152,
 		name = "Blitz-Z52",
 		background = "",
 		sculpture = "Z52",
 		nationality = 4,
+		type = 1
+	},
+	[20216] = {
+		ship_group = 20216,
+		name = "Fiji",
+		background = "",
+		sculpture = "feiji",
+		nationality = 0,
+		type = 1
+	},
+	[20202] = {
+		ship_group = 20202,
+		name = "Achilles",
+		background = "",
+		sculpture = "ajilisi",
+		nationality = 0,
+		type = 1
+	},
+	[39907] = {
+		ship_group = 39907,
+		name = "Daisen",
+		background = "",
+		sculpture = "dashan_2",
+		nationality = 0,
+		type = 1
+	},
+	[89904] = {
+		ship_group = 89904,
+		name = "Bayard",
+		background = "",
+		sculpture = "beiyade_2",
+		nationality = 0,
+		type = 1
+	},
+	[40126] = {
+		ship_group = 40126,
+		name = "Zuverlässig_26",
+		background = "",
+		sculpture = "Z26",
+		nationality = 0,
 		type = 1
 	},
 	[50301] = {
@@ -4405,6 +4477,70 @@ pg.activity_ins_ship_group_template = {
 		name = "U-557",
 		background = "",
 		sculpture = "U557",
+		nationality = 0,
+		type = 1
+	},
+	[60508] = {
+		ship_group = 60508,
+		name = "Raffaello",
+		background = "",
+		sculpture = "lafeier",
+		nationality = 6,
+		type = 1
+	},
+	[60803] = {
+		ship_group = 60803,
+		name = "Maggiore Baracca",
+		background = "",
+		sculpture = "balaka",
+		nationality = 6,
+		type = 1
+	},
+	[60111] = {
+		ship_group = 60111,
+		name = "Giosuè Carducci",
+		background = "",
+		sculpture = "jiaosuai",
+		nationality = 6,
+		type = 1
+	},
+	[60203] = {
+		ship_group = 60203,
+		name = "Bartolomeo Colleoni",
+		background = "",
+		sculpture = "batuoluomeiao",
+		nationality = 6,
+		type = 1
+	},
+	[10713] = {
+		ship_group = 10713,
+		name = "Franklin",
+		background = "",
+		sculpture = "fulankelin",
+		nationality = 1,
+		type = 1
+	},
+	[10234] = {
+		ship_group = 10234,
+		name = "Santa Fe",
+		background = "",
+		sculpture = "shengtafei",
+		nationality = 1,
+		type = 1
+	},
+	[10153] = {
+		ship_group = 10153,
+		name = "Miller",
+		background = "",
+		sculpture = "mile",
+		nationality = 1,
+		type = 1
+	},
+	[10512] = {
+		ship_group = 10512,
+		name = "North Carolina",
+		background = "",
+		sculpture = "beikaluolaina",
 		nationality = 0,
 		type = 1
 	},
@@ -4953,12 +5089,29 @@ pg.activity_ins_ship_group_template = {
 		1110005,
 		1110006,
 		30141,
+		40704,
+		40211,
+		40109,
+		40111,
 		40152,
+		20216,
+		20202,
+		39907,
+		89904,
+		40126,
 		50301,
 		50210,
 		50108,
 		50109,
 		10222,
-		40803
+		40803,
+		60508,
+		60803,
+		60111,
+		60203,
+		10713,
+		10234,
+		10153,
+		10512
 	}
 }

@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
 			bgm = "theme-room-rosy",
-			say = "我躺在柔软干净的病床上，疲倦席卷全身，昏昏欲睡。",
+			say = "我躺在柔軟乾淨的病床上，疲倦席捲全身，昏昏欲睡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -52,7 +52,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "伴随着一声嘟囔，我身下的床也震动了几下。",
+			say = "伴隨著一聲嘟囔，我身下的床也震動了幾下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "我睁开双眼，看向了动静的源头。",
+			say = "我睜開雙眼，看向了動靜的源頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "喵哈哈……侦探还没睡呢？",
+			say = "喵哈哈……偵探還沒睡呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "圣塔菲保持着鬼鬼祟祟的爬床姿势，脸上挂着被当场抓获的尴尬神色。",
+			say = "聖塔菲保持著鬼鬼祟祟的爬床姿勢，臉上掛著被當場抓獲的尷尬神情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
-			say = "本来已经睡着了。不过……被你吵醒了。",
+			say = "本來已經睡著了。不過……被妳吵醒了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "那作为补偿……我陪你睡觉吧！喵哈哈~！",
+			say = "那個作為補償……我陪你睡吧！喵哈哈~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
-			say = "就算不作为补偿，你也已经在我床上了。",
+			say = "就算不作為補償，妳也已經在我床上了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "……好吧好吧，其实是这里太阴森了……我一个人躺在床上真的好害怕！",
+			say = "……好吧好吧，其實是這裡太陰森了……我一個人躺在床上真的好害怕！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "所以我就过来找你啦！",
+			say = "所以我就來找你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "在你身边我就会安全感满满，肯定能睡个好觉的！",
+			say = "在你身邊我就會安全感滿滿，一定能睡個好覺的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "伟大而全能的侦探啊——！你就收留我吧~~~！",
+			say = "偉大而全能的偵探啊——！你就收留我吧~~~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
-			say = "也好，既然都来了，那就留下来吧。",
+			say = "也好，既然都來了，那就留下來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "我就知道侦探最好啦喵哈哈~！",
+			say = "我就知道偵探最好啦喵哈哈~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "得到了我的应允，圣塔菲眼中的紧张感渐渐褪去，取而代之的是轻快的笑意。",
+			say = "得到了我的應允，聖塔菲眼中的緊張感漸漸褪去，取而代之的是輕快的笑意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "她抱着枕头挨着我坐下，眨巴着双眼，目光在我身上游走。",
+			say = "她抱著枕頭挨著我坐下，眨巴著雙眼，目光在我身上游移。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,7 +238,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
-			say = "……这么看着我做什么，不睡么？",
+			say = "……這麼看著我做什麼，不睡嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "圣塔菲双手撑在床上，神秘兮兮地轻声说话。",
+			say = "聖塔菲雙手撐在床上，神祕兮兮地輕聲說話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "侦探不都会知道很多很多八卦么？",
+			say = "偵探不都會知道很多很多八卦嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "能不能给我讲讲啊~就当是……睡前故事！",
+			say = "能不能跟我講講啊~就當是……睡前故事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "欸~别一脸无语啊~告诉我嘛，我保证不会说出去……",
+			say = "欸~別一臉無語~告訴我嘛，我保證不會說出去……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "病房外突然传来一声闷响。",
+			say = "病房外突然傳來一聲悶響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			dir = 1,
 			actor = 102341,
 			nameColor = "#A9F548FF",
-			say = "哇呀——！侦探救我！！",
+			say = "哇呀——！偵探救我！！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "圣塔菲原地弹起，扑进我的怀里，紧紧抓住我的衣襟。",
+			say = "聖塔菲原地彈起，撲進我的懷裡，緊緊抓住我的衣襟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
-			say = "别怕，不会有事的。你待在这里别动，我去看看。",
+			say = "別怕，不會有事的。妳待在這裡別動，我去看看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,14 +376,14 @@ return {
 			dir = 1,
 			actor = 102341,
 			nameColor = "#A9F548FF",
-			say = "等等！电影里这种时候一个人出门看的人不会有好下场的！",
+			say = "等等！電影裡這種時候一個人出門看的人不會有好下場的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "没关系，我是主角。",
+					content = "沒關係，我是主角。",
 					flag = 1
 				}
 			}
@@ -396,7 +396,7 @@ return {
 			optionFlag = 1,
 			actor = 102341,
 			nameColor = "#A9F548FF",
-			say = "突然好有说服力……",
+			say = "突然好有說服力…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			optionFlag = 1,
 			actor = 102341,
 			nameColor = "#A9F548FF",
-			say = "那等等……如果你是主角，那被你留下的我岂不是会很危险？！",
+			say = "那等等……如果你是主角，那被你留下的我豈不是會很危險？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -435,7 +435,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
 			optionFlag = 1,
-			say = "圣塔菲手忙脚乱地起身，紧紧抱住我的胳膊。",
+			say = "聖塔菲手忙腳亂地起身，緊緊抱住我的手臂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -462,7 +462,7 @@ return {
 			bgName = "star_level_bg_309",
 			actor = 102341,
 			nameColor = "#A9F548FF",
-			say = "呼~什么嘛，原来只是块破黑板从墙上掉下来了~！",
+			say = "呼~什麼嘛，原來只是塊破黑板從牆上掉下來了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "确认走廊无事发生后，与圣塔菲回到了病房。",
+			say = "確認走廊無事發生後，與聖塔菲回到了病房。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "她嘴上说得轻快，却一直抱着我的手臂没有放开。",
+			say = "她嘴上說得輕快，卻一直抱著我的手臂沒有放開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "我一上床，她就再次钻进了我的怀里，身体还在轻轻地发颤。",
+			say = "我一上床，她就再次鑽進了我的懷裡，身體還在輕輕地發顫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -519,7 +519,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "直到过了一阵，她的身体才渐渐放松了下来。",
+			say = "直到過了一陣，她的身體才漸漸放鬆了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,7 +529,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "“好了伤疤忘了疼”的特质开始毫无保留地显露出来。",
+			say = "「好了傷疤忘了痛」的特質開始毫無保留地顯露出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "唔……又开始无聊了。",
+			say = "嗯……又開始無聊了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -555,7 +555,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 102341,
-			say = "大侦探，既然你没有八卦可以讲，那就换我来讲好了！",
+			say = "大偵探，既然你沒有八卦可以講，那就換我來講好了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "准备好了吗？我会讲很久很久的哦~！",
+			say = "準備好了嗎？我會講很久很久的哦~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -577,7 +577,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_309",
-			say = "少女紧紧抱住我，笑着将头埋在我的胸口。",
+			say = "少女緊緊抱住我，笑著將頭埋在我的胸口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -589,7 +589,7 @@ return {
 			bgName = "star_level_bg_309",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "没准备好也没关系，反正今夜我们还有很多、很多的时间~喵哈哈~！",
+			say = "沒準備好也沒關係，反正今夜我們還有很多、很多的時間~喵哈哈~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

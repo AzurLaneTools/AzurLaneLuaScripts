@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
 			bgm = "theme-room-rosy",
-			say = "“嘭——”",
+			say = "「嘭——」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
-			say = "病房关门声传来，随之离开的还有刚刚一直在病房内徘徊的脚步声。",
+			say = "病房關門聲傳來，隨之離開的還有剛在病房內徘徊的腳步聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			bgName = "star_level_bg_138",
 			side = 2,
 			actorName = "{playername}",
-			say = "（那些诡异而危险的护士应该都离开了。）",
+			say = "（那些詭異而危險的護士應該都離開了。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_138",
-			say = "正松了口气，面前用于掩护的帘子被人“哗啦”一下拉开了——",
+			say = "正鬆了口氣，面前用來掩護的簾子被人「嘩啦」一下拉開了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = "home",
-			say = "呼—哈♡呼—哈♡果然，是你的气味呢——",
+			say = "呼—哈♡呼—哈♡果然，是你的氣味呢——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我猝不及防地被莫加多尔推倒在床上，还未等我阻止，她便红着脸、喘着气坐到了我身上。",
+			say = "我猝不及防地被莫加多爾推倒在床上，還未等我阻止，她便紅著臉、喘著氣坐到了我身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这位患者……一个人在这里……是要做什么呢……嘿嘿♡",
+			say = "這位患者……一個人在這裡……是要做什麼呢……嘿嘿♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,7 +147,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她的双眼失焦，身体发烫，力气极大，已然失去控制。",
+			say = "她的雙眼失焦，身體發燙，力氣極大，已然失控。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,14 +162,14 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（莫加多尔的状态不对，得找个借口……）",
+			say = "（莫加多爾的狀態不對，得找個藉口……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我预约了身体检查。",
+					content = "我預約了身體檢查。",
 					flag = 1
 				},
 				{
@@ -186,7 +186,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "哈啊……果然……莫加多尔猜对了呢……",
+			say = "哈啊……果然……莫加多爾猜對了呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "那就由莫加多尔来负责你的身体检查吧……嘿嘿♡",
+			say = "那就由莫加多爾來負責你的身體檢查吧……嘿嘿♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "迷路……？你是要去哪里呢？",
+			say = "迷路……？你是要去哪裡呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +248,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我本来要去做身体检查。",
+			say = "我本來要去做身體檢查。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = "touch",
-			say = "那不用去别的地方了……就在这里……我帮你检查身体吧……嘿嘿♡",
+			say = "那不用去別的地方了……就在這裡……我幫你檢查身體吧……嘿嘿♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这里没有配套的检查设施和工具吧？",
+			say = "這裡沒有配套的檢查設施和工具吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -291,7 +291,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "哈啊♡……不用那么麻烦……我掌握了一种最新的、不需要工具的方法……",
+			say = "哈啊♡……不用那麼麻煩……我掌握了一種最新的、不需要工具的方法……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "莫加多尔俯下身来，炽热的呼吸拂在我的颈间。",
+			say = "莫加多爾俯下身來，熾熱的呼吸拂在我的頸間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = "touch2",
-			say = "嗅嗅……这种方法叫作嗅诊……",
+			say = "嗅嗅……這種方法叫作嗅診……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "哈啊♡你身上有新鲜的汗水气息……好好闻……嗅嗅♡",
+			say = "哈啊♡你身上有新鮮的汗水氣息……好好聞……嗅嗅♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "你的身体怎么这么僵硬……难道是有哪里受伤了？",
+			say = "你的身體怎麼這麼僵硬……難道是有哪裡受傷了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,7 +361,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我没有受伤。",
+			say = "我沒有受傷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗅嗅……我明明闻到了……你是在骗我吧……",
+			say = "嗅嗅……我明明聞到了……你是在騙我吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那可不行呢……还是让我给你做个全身检查吧……哈啊♡……",
+			say = "那可不行呢……還是讓我幫你做個全身檢查吧……哈啊♡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "莫加多尔纤细的手灵活地游走着，目光灼热而专注，涌动着渴望与痴迷。",
+			say = "莫加多爾纖細的手靈活地遊走著，目光灼熱而專注，湧動著渴望與痴迷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "你的衣服真的好碍事……我的也很碍事……啊哈♡……要不……",
+			say = "你的衣服真的好礙事……我的也很礙事……啊哈♡……不然……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "莫加多尔有些粗鲁地拉扯着我的衣服。",
+			say = "莫加多爾有些粗魯地拉扯著我的衣服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -446,7 +446,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "莫加多尔……！",
+			say = "莫加多爾……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +460,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我按住莫加多尔的手，但她使了巧劲儿，三两下便挣脱了束缚。",
+			say = "我按住莫加多爾的手，但她使出了巧勁，兩三下便掙脫了束縛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "哈啊……怎么表情变得这么严肃……是紧张……？还是害羞……？",
+			say = "哈啊……怎麼表情變得這麼嚴肅……是緊張……？還是害羞…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那么，把灯关掉……会不会让你安心些？嘿嘿♡……",
+			say = "那麼，把燈關掉……會不會讓你安心些？嘿嘿♡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,7 +501,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "随着她的言语，天花板上的灯骤然全部熄灭。",
+			say = "隨著她的言語，天花板上的燈驟然全部熄滅",
 			live2dParams = {
 				"touch_drag4",
 				1
@@ -565,7 +565,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "莫加多尔柔软的身体压到了我的身上，温热而急促的呼吸在我耳畔萦绕。",
+			say = "莫加多爾柔軟的身體壓到了我的身上，溫熱而急促的呼吸在我耳畔縈繞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -579,7 +579,7 @@ return {
 			actor = 901072,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这样就好了……不用紧张，也不用害怕……黑暗中，没人会看见我们……",
+			say = "這樣就好了……不用緊張，也不用害怕……黑暗中，沒人會看見我們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -592,7 +592,7 @@ return {
 			live2d = true,
 			dir = 1,
 			blackBg = true,
-			say = "我们继续检查身体吧……哈♡……",
+			say = "我們繼續檢查身體吧……哈♡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

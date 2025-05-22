@@ -11594,6 +11594,122 @@ pg.base.ship_skin_template_9 = {
 			}
 		}
 	},
+	[303172] = {
+		name = "Midnight Care",
+		change_skin = "",
+		ship_group = 30317,
+		illustrator2 = -1,
+		desc = "最上型重巡洋艦{namecode:59}，今天就是以護士的身分來照顧您。指揮官，今晚的查房時間，也請您多多關照哦~",
+		group_index = 2,
+		id = 303172,
+		painting = "linggu_3",
+		l2d_ignore_drag = 0,
+		hand_id = 2,
+		shop_type_id = 15,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "138",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "linggu_3",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71125,
+		voice_actor = 181,
+		spine_offset = "",
+		illustrator = 21,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.249,
+					0.807,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.251,
+					0.805,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.789,
+					2.202,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.314,
+							2.259,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[303180] = {
 		name = "熊野",
 		change_skin = "",

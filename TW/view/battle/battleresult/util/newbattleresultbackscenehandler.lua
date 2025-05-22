@@ -482,7 +482,7 @@ slot0.CheckBossSingleSystem = function(slot0, slot1)
 			return slot1
 		end
 	end) > 0 then
-		uv1(slot1, i18n("multiple_sorties_stop_reason2", Fleet.DEFAULT_NAME_BOSS_ACT[slot1.mainFleetId], table.concat(_.map(slot5, function (slot0)
+		uv1(slot1, i18n("multiple_sorties_stop_reason2", Fleet.DEFAULT_NAME_BOSS_SINGLE_VARIABLE_ACT[slot1.mainFleetId], table.concat(_.map(slot5, function (slot0)
 			return "「" .. slot0:getConfig("name") .. "」"
 		end), "")))
 

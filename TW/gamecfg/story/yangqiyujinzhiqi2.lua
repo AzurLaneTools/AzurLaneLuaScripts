@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "本次行动中，她们面对的敌人难度强度不大，作为首战练兵来说是十分合适的。",
+			say = "本次行动中，她们面对的敌人难度不大，作为首战练兵来说是十分合适的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_541",
 			hidePaintObj = true,
-			say = "其命为——「NA海域净化战」",
+			say = "其名为——「NA海域净化战」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

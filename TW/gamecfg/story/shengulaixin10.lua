@@ -14,7 +14,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "你来了？那就让我们的宴会就开始吧。",
+			say = "你來了？那就讓我們的宴會就開始吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{playername}，热烈庆祝你成为深谷病院新的董事长~",
+			say = "{playername}，熱烈慶祝你成為深谷病院新的董事長~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "宽敞明亮的厅堂点缀着精致华美的装饰，熠熠生辉。",
+			say = "寬敞明亮的廳堂點綴著精緻華美的裝飾，閃閃發光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "与我一同掌控着这间医院的{namecode:91:赤城}，悠然自得地斜倚在高背椅上，慵懒而矜贵。",
+			say = "與我一同掌控著這間醫院的赤城，悠然自得地斜倚在高背椅上，慵懶而矜貴。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，作为宴会而言，似乎有些过于安静了。",
+			say = "不過，作為宴會而言，似乎有些過於安靜了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "参加宴会的只有我们么？",
+			say = "參加宴會的只有我們嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "当然只有我们啦~呵呵~",
+			say = "當然只有我們啦~呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "亦或是……你还想看到谁出现在这里呢~？",
+			say = "亦或是……你還想看到誰出現在這裡呢~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:91:赤城}脸上仍挂着甜美的微笑，但那双幽深的眸子中却是难以掩饰的占有欲。",
+			say = "赤城臉上仍掛著甜美的微笑，但那雙幽深的眸子中卻是難以掩飾的佔有欲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "好啦~快过来我这里吧，今夜我们定要一醉方休哦~",
+			say = "好啦~快過來我這裡吧，今夜我們定要一醉方休哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "{namecode:91:赤城}懒洋洋地抬着手，轻佻又危险地勾了勾纤长白皙的手指，示意我过去。",
+			say = "赤城懶洋洋地抬著手，輕佻又危險地勾了勾纖長白皙的手指，示意我過去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我走到了{namecode:91:赤城}的身边坐下，她又递来了自己手中的酒杯，其中还剩半杯清澄的美酒。",
+			say = "我走到了赤城的身邊坐下，她又遞來了自己手中的酒杯，其中還剩下半杯清澄的美酒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这酒入口顺滑绵软，先来点解解闷如何？",
+			say = "這酒入口順滑綿軟，先來點解悶如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "饭菜还要稍晚一些才能准备好呢。",
+			say = "飯菜還要稍晚才能準備好呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,18 +227,18 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "温润漂亮的酒杯之上，印着她淡淡的唇印。",
+			say = "溫潤漂亮的酒杯之上，印著她淡淡的唇印。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "就着唇印饮酒",
+					content = "就著唇印飲酒",
 					flag = 1
 				},
 				{
-					content = "换个位置饮酒",
+					content = "換個位置飲酒",
 					flag = 2
 				}
 			}
@@ -252,7 +252,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接过{namecode:91:赤城}手中的酒杯，就着唇印将美酒一饮而尽。",
+			say = "接過赤城手中的酒杯，就著唇印將美酒一飲而盡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "董事长大人，还真是直白呢……呵呵~",
+			say = "董事長大人，還真是直白呢……呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那要不要试试用更直白的方式解闷呢~？",
+			say = "那要不要試試用更直白的方式解悶呢~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接过{namecode:91:赤城}手中的酒杯，换个位置将美酒一饮而尽。",
+			say = "接過赤城手中的酒杯，換個位置將美酒一飲而盡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = "main1",
-			say = "董事长大人，这是害羞了~？呵呵~",
+			say = "董事長大人，這是害羞了~？呵呵~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这么容易害羞可不行啊，毕竟接下来……呵呵……",
+			say = "這麼容易害羞可不行啊，畢竟接下來……呵呵……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "随着{namecode:91:赤城}的话音落下，我的小腿便感觉到了若有若无的触碰。",
+			say = "隨著赤城的話音落下，我的小腿便感覺到了若有若無的觸碰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "低头看去，她脚踝上的红绳掠过我的小腿，留下了暧昧的痕迹。",
+			say = "低頭看去，她腳踝上的紅繩掠過我的小腿，留下了曖昧的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "接着，她的双足落地，伴随着身上饰品撞击发出的清脆响声，{namecode:91:赤城}站了起来。",
+			say = "接著，她的雙腳落地，伴隨著身上飾品撞擊發出的清脆響聲，赤城站了起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "少女轻盈地两三步到我面前，俯下身来，双眸直勾勾地看着我。",
+			say = "少女輕盈地兩三步到我面前，俯下身來，雙眸直勾勾地看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -395,7 +395,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "身后的尾巴缠绕住了我的身体，不容拒绝地将我拉近。",
+			say = "身後的尾巴纏繞住了我的身體，不容拒絕地將我拉近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -409,7 +409,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她身上若有若无的酒气混着独特的香气交织着，温热的吐息落在我的耳畔。",
+			say = "她身上若有若無的酒氣混著獨特的香氣交織著，溫熱的吐息落在我的耳畔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -423,7 +423,7 @@ return {
 			actor = 307014,
 			nameColor = "#A9F548FF",
 			live2d = "mission",
-			say = "董事长大人，闭上眼睛……好好享受这场只属于你我的盛宴吧♡~",
+			say = "董事長大人，閉上眼睛…好好享受這場只屬於你我的盛宴吧♡~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -60,11 +60,37 @@ pg.item_data_battleui = {
 		icon = "104",
 		scene = {}
 	},
+	[105] = {
+		unlock = "世界巡遊二十一期獲取",
+		name = "光耀之庭",
+		key = "SkinNormal_20250123",
+		display_icon = "ui_105",
+		is_unlock = 1,
+		rare = 3,
+		desc = "金光閃爍的設計為指揮官帶來莊嚴而神聖的視覺享受，讓每一次戰鬥都如同史詩般壯麗。",
+		id = 105,
+		icon = "105",
+		scene = {}
+	},
+	[203] = {
+		unlock = "基因之源戰鬥主題禮包獲取",
+		name = "基因之源",
+		key = "SkinElite_20250327",
+		display_icon = "ui_203",
+		is_unlock = 1,
+		rare = 4,
+		desc = "充滿未來感的指揮介面，潔淨的白色面板與血色的紋路交織，營造出精密且危險的氛圍。",
+		id = 203,
+		icon = "203",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
 		102,
 		103,
-		104
+		104,
+		105,
+		203
 	}
 }

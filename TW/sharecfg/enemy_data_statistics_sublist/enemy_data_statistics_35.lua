@@ -4059,20 +4059,20 @@ pg.enemy_data_statistics_35 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[91082] = {
+	[91064] = {
 		cannon = 0,
-		name = "超級AI-TC",
+		name = "病院夢魘-驅逐",
 		antiaircraft_growth = 0,
 		speed_growth = 0,
 		luck = 0,
 		air = 0,
 		nationality = 1,
-		icon_type = 12,
-		type = 12,
+		icon_type = 0,
+		type = 1,
 		rarity = 0,
 		antiaircraft = 0,
 		dodge_growth = 0,
-		icon = "yurenjie_tb",
+		icon = "ghostDD2",
 		star = 0,
 		antisub_growth = 0,
 		air_growth = 0,
@@ -4081,18 +4081,18 @@ pg.enemy_data_statistics_35 = {
 		durability = 99999,
 		armor_growth = 0,
 		torpedo_growth = 0,
-		speed = 18,
+		speed = 15,
 		armor = 0,
-		friendly_cld = 0,
-		id = 91082,
-		scale = 150,
-		prefab = "yurenjie_tb",
+		friendly_cld = 1,
+		id = 91064,
+		scale = 180,
+		prefab = "ghostDD2",
 		cannon_growth = 0,
-		pilot_ai_template_id = 10001,
+		pilot_ai_template_id = 20005,
 		reload = 150,
 		dodge = 0,
 		reload_growth = 0,
-		wave_fx = "",
+		wave_fx = "danchuanlanghuazhong2",
 		bubble_fx = "",
 		hit = 0,
 		fog_fx = "",
@@ -4116,7 +4116,7 @@ pg.enemy_data_statistics_35 = {
 			0
 		},
 		cld_box = {
-			5.5,
+			13,
 			7.5,
 			8
 		},
@@ -4133,8 +4133,22 @@ pg.enemy_data_statistics_35 = {
 		bound_bone = {
 			cannon = {
 				{
-					1,
-					1,
+					2.314,
+					1.42,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.48,
+					1.32,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.48,
+					1.32,
 					0
 				}
 			}
@@ -4179,9 +4193,9 @@ pg.enemy_data_statistics_35 = {
 				0
 			},
 			{
-				0,
-				0,
-				0
+				1,
+				0.2,
+				-0.3464
 			},
 			{
 				0,
@@ -4197,7 +4211,7 @@ pg.enemy_data_statistics_35 = {
 			0
 		},
 		hp_bar = {
-			150,
+			200,
 			4
 		},
 		equipment_list = {},
@@ -4205,52 +4219,164 @@ pg.enemy_data_statistics_35 = {
 		random_nub = {},
 		buff_list = {}
 	},
-	[611] = {
-		cannon = 22,
-		name = "【斬首行動】利根",
-		rarity = 4,
+	[91065] = {
+		cannon = 0,
+		name = "病院夢魘-輕巡",
+		antiaircraft_growth = 0,
 		speed_growth = 0,
-		hit_growth = 210,
+		luck = 0,
 		air = 0,
-		armor = 0,
-		antisub = 0,
-		antiaircraft_growth = 3600,
-		antiaircraft = 44,
-		speed = 16,
-		fog_fx = "",
-		dodge_growth = 126,
-		star = 5,
+		nationality = 1,
+		icon_type = 0,
+		type = 2,
+		rarity = 0,
+		antiaircraft = 0,
+		dodge_growth = 0,
+		icon = "ghostCL2",
+		star = 0,
 		antisub_growth = 0,
 		air_growth = 0,
-		base = 90206,
-		durability = 580,
+		battle_unit_type = 49,
+		antisub = 0,
+		durability = 99999,
 		armor_growth = 0,
-		torpedo_growth = 3456,
-		luck = 0,
-		id = 611,
-		cannon_growth = 2000,
-		pilot_ai_template_id = 10001,
+		torpedo_growth = 0,
+		speed = 15,
+		armor = 0,
+		friendly_cld = 1,
+		id = 91065,
+		scale = 170,
+		prefab = "ghostCL2",
+		cannon_growth = 0,
+		pilot_ai_template_id = 20005,
 		reload = 150,
-		dodge = 9,
+		dodge = 0,
 		reload_growth = 0,
-		hit = 14,
-		torpedo = 42,
-		durability_growth = 28200,
+		wave_fx = "danchuanlanghuazhong2",
+		bubble_fx = "",
+		hit = 0,
+		fog_fx = "",
+		torpedo = 0,
+		durability_growth = 0,
 		luck_growth = 0,
-		battle_unit_type = 60,
-		appear_fx = {
-			"bossguangxiao",
-			"appearQ"
+		hit_growth = 0,
+		armor_type = 1,
+		world_enhancement = {
+			0,
+			0,
+			0,
+			0,
+			0,
+			0,
+			0
+		},
+		prefab_offset = {
+			0,
+			0,
+			0
+		},
+		cld_box = {
+			13,
+			7.5,
+			8
+		},
+		cld_offset = {
+			0,
+			0,
+			0
+		},
+		aim_offset = {
+			0,
+			0,
+			0
+		},
+		bound_bone = {
+			cannon = {
+				{
+					2.21,
+					1.45,
+					0
+				}
+			},
+			torpedo = {
+				{
+					1.17,
+					0.35,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.77,
+					1.29,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							1.035,
+							0.869,
+							0.099
+						}
+					}
+				}
+			},
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.964,
+							1.16,
+							-0.022
+						}
+					}
+				}
+			}
+		},
+		fx_container = {
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				1,
+				0.2,
+				-0.3464
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		specific_fx_scale = {},
+		appear_fx = {},
+		position_offset = {
+			0,
+			0,
+			0
 		},
 		hp_bar = {
 			200,
 			4
 		},
-		equipment_list = {
-			100201,
-			311072,
-			311075,
-			311076
-		}
+		equipment_list = {},
+		random_equipment_list = {},
+		random_nub = {},
+		buff_list = {}
 	}
 }

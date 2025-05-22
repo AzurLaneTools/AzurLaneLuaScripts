@@ -94,6 +94,10 @@ slot0.Updatelayout = function(slot0)
 		table.insert(slot1, i18n("destroy_high_intensify_tip", ""))
 	end
 
+	if #slot1 == 0 then
+		table.insert(slot1, i18n("destroy_importantequipment_tip"))
+	end
+
 	setText(slot0.title, i18n("destroy_eliteequipment_tip", table.concat(slot1, ",")))
 
 	if underscore.any(slot0.equips, function (slot0)

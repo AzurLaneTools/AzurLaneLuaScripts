@@ -71,7 +71,7 @@ pg.base.activity_clue_group = {
 		task_id = "21613",
 		type = 1,
 		id = 3,
-		title = "诊疗中心",
+		title = "診療中心",
 		pic = "3",
 		unlock_jump = {
 			{
@@ -84,7 +84,7 @@ pg.base.activity_clue_group = {
 		task_id = "21612",
 		type = 1,
 		id = 4,
-		title = "医生办公室",
+		title = "醫生辦公室",
 		pic = "4",
 		unlock_jump = {
 			{
@@ -102,7 +102,7 @@ pg.base.activity_clue_group = {
 		task_id = "21612",
 		type = 1,
 		id = 5,
-		title = "诊疗中心(地下)",
+		title = "診療中心(地下)",
 		pic = "5",
 		unlock_jump = {
 			{
@@ -120,7 +120,7 @@ pg.base.activity_clue_group = {
 		task_id = "21606",
 		type = 1,
 		id = 6,
-		title = "住院大楼",
+		title = "住院大樓",
 		pic = "6",
 		unlock_jump = {
 			{
@@ -136,7 +136,7 @@ pg.base.activity_clue_group = {
 		task_id = "21606",
 		type = 1,
 		id = 7,
-		title = "护士站",
+		title = "護士站",
 		pic = "7",
 		unlock_jump = {
 			{
@@ -170,7 +170,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 9,
-		title = "住院大楼(地下)",
+		title = "住院大樓(地下)",
 		pic = "9",
 		unlock_jump = {
 			{
@@ -221,7 +221,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 12,
-		title = "疗养中心",
+		title = "療養中心",
 		pic = "12",
 		unlock_jump = {
 			{
@@ -237,7 +237,7 @@ pg.base.activity_clue_group = {
 		task_id = "21607",
 		type = 1,
 		id = 13,
-		title = "疗养中心(地下)",
+		title = "療養中心(地下)",
 		pic = "13",
 		unlock_jump = {
 			{
@@ -255,7 +255,7 @@ pg.base.activity_clue_group = {
 		task_id = "21608",
 		type = 1,
 		id = 14,
-		title = "后勤中心",
+		title = "後勤中心",
 		pic = "14",
 		unlock_jump = {
 			{
@@ -271,7 +271,7 @@ pg.base.activity_clue_group = {
 		task_id = "21608",
 		type = 1,
 		id = 15,
-		title = "后勤中心(地下)",
+		title = "後勤中心(地下)",
 		pic = "15",
 		unlock_jump = {
 			{
@@ -287,7 +287,7 @@ pg.base.activity_clue_group = {
 		task_id = "21610",
 		type = 1,
 		id = 16,
-		title = "停车场",
+		title = "停車場",
 		pic = "16",
 		unlock_jump = {
 			{
@@ -304,7 +304,7 @@ pg.base.activity_clue_group = {
 		task_id = "21610",
 		type = 1,
 		id = 17,
-		title = "停车场(地下)",
+		title = "停車場(地下)",
 		pic = "17",
 		unlock_jump = {
 			{
@@ -322,7 +322,7 @@ pg.base.activity_clue_group = {
 		task_id = "21611",
 		type = 1,
 		id = 18,
-		title = "门卫亭",
+		title = "門衛亭",
 		pic = "18",
 		unlock_jump = {
 			{
@@ -339,7 +339,7 @@ pg.base.activity_clue_group = {
 		task_id = "21612",
 		type = 1,
 		id = 19,
-		title = "古典长廊",
+		title = "古典長廊",
 		pic = "19",
 		unlock_jump = {
 			{
@@ -375,7 +375,7 @@ pg.base.activity_clue_group = {
 		task_id = "21609",
 		type = 1,
 		id = 21,
-		title = "樱花树",
+		title = "櫻花樹",
 		pic = "21",
 		unlock_jump = {
 			{
@@ -393,7 +393,7 @@ pg.base.activity_clue_group = {
 		task_id = "21608",
 		type = 1,
 		id = 22,
-		title = "小树林",
+		title = "小樹林",
 		pic = "22",
 		unlock_jump = {
 			{
@@ -411,7 +411,7 @@ pg.base.activity_clue_group = {
 		task_id = "21611",
 		type = 1,
 		id = 23,
-		title = "正门",
+		title = "正門",
 		pic = "23",
 		unlock_jump = {
 			{
@@ -427,7 +427,7 @@ pg.base.activity_clue_group = {
 		task_id = "21611",
 		type = 1,
 		id = 24,
-		title = "后门",
+		title = "後門",
 		pic = "24",
 		unlock_jump = {
 			{
@@ -445,7 +445,7 @@ pg.base.activity_clue_group = {
 		task_id = "21614",
 		type = 2,
 		id = 25,
-		title = "莫加多尔",
+		title = "莫加多爾",
 		pic = "25",
 		unlock_jump = {
 			{
@@ -458,7 +458,7 @@ pg.base.activity_clue_group = {
 		task_id = "21615",
 		type = 2,
 		id = 26,
-		title = "富兰克林",
+		title = "富蘭克林",
 		pic = "26",
 		unlock_jump = {
 			{
@@ -473,7 +473,7 @@ pg.base.activity_clue_group = {
 		task_id = "21616",
 		type = 2,
 		id = 27,
-		title = "华盛顿",
+		title = "華盛頓",
 		pic = "27",
 		unlock_jump = {
 			{
@@ -506,7 +506,7 @@ pg.base.activity_clue_group = {
 		task_id = "21618",
 		type = 2,
 		id = 29,
-		title = "伏罗希洛夫",
+		title = "伏羅希洛夫",
 		pic = "29",
 		unlock_jump = {
 			{
@@ -524,7 +524,7 @@ pg.base.activity_clue_group = {
 		task_id = "21619",
 		type = 2,
 		id = 30,
-		title = "鹰",
+		title = "鷹",
 		pic = "30",
 		unlock_jump = {
 			{
@@ -555,7 +555,7 @@ pg.base.activity_clue_group = {
 		task_id = "21621",
 		type = 2,
 		id = 32,
-		title = "圣塔菲",
+		title = "聖塔菲",
 		pic = "32",
 		unlock_jump = {
 			{
@@ -588,7 +588,7 @@ pg.base.activity_clue_group = {
 		task_id = "21623",
 		type = 2,
 		id = 34,
-		title = "哈尔福德",
+		title = "哈爾福德",
 		pic = "34",
 		unlock_jump = {
 			{

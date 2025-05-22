@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"深谷来信\n\n<size=45>序</size>",
+					"深谷來信\n\n<size=45>序</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "story-darkplan",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我从未想过，一封寻常的书信会把我引向这样一个地方。",
+			say = "我從未想過，一封尋常的書信會把我引向這樣一個地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "那是半年前，我收到了米勒最后一封信。",
+			say = "那是半年前，我收到了米勒最後一封信。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "作为多年的调查搭档，我们一直保持着书信往来。",
+			say = "作為多年的調查搭檔，我們一直保持著書信往來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "但这一次，她的文字中透露出一丝不同寻常的气息。",
+			say = "但這一次，她的文字中透露出一絲不同尋常的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "信中，她先是称赞她最近因调查委托而入住的深谷病院环境优美。",
+			say = "信中，她先是稱讚她最近因調查委託而入住的深谷病院環境優美。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "但很快话锋一转，说起了一些令她不安的现象。",
+			say = "但很快話鋒一轉，說起了一些令她不安的現象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "院方过分热情的态度，暗中受阻的调查，深夜里忙碌的脚步声等等。",
+			say = "院方過度熱情的態度，暗中受阻的調查，深夜忙碌的腳步聲等等。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "而在那之后，我再也没有收到过来自她的任何信件。",
+			say = "而在那之後，我再也沒有收到任何來自她的信件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "我也多次尝试联系深谷病院，但得到的永远是同样的回复：",
+			say = "我也多次嘗試聯絡深谷病院，但得到的永遠是同樣的回應：",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "“经查证，入院病人中并没有一位名叫米勒小姐的人。”",
+			say = "「經查證，入院病人中並沒有一位名叫米勒小姐的人。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "深感问题严重的我开始暗中调查这座名为深谷病院的医院。",
+			say = "深感問題嚴重的我開始暗中調查這間名為深谷病院的醫院。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "表面上，这是一家对外提供门诊医疗、医学研究和高端护理疗养业务的综合性医疗机构。",
+			say = "表面上，這是一家對外提供門診醫療、醫學研究和高端護理療養業務的綜合醫療機構。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "但深入调查后，我发现这家医院周围出现过流浪汉失踪事件。",
+			say = "但深入調查後，我發現這家醫院周圍曾出現流浪漢失蹤事件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "偶尔也有入住其中的普通人在出院后不久就消失在大众的视野当中。",
+			say = "偶爾也有入住其中的普通人在出院後不久就消失在大眾的視野當中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "作为一名侦探，我可以确信米勒已经将自己卷入了不同寻常的麻烦之中，我需要尽快行动——",
+			say = "作為一名偵探，我可以確信米勒已經將自己捲入了不同尋常的麻煩之中，我需要盡快採取行動——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_deepvalley_1",
-			say = "在确定好切入点后，我花重金买通了相关人员，伪造了一份完美的身份证明文件。",
+			say = "在確定好切入點後，我花重金買通了相關人員，偽造了一份完美的身份證明文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "从今天起，我将以“一位因工作压力过大需要休养的舰队指挥官”的身份入住深谷病院。",
+			say = "從今天起，我將以「一位因工作壓力過大需要休養的艦隊指揮官」的身份入住深谷病院。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_1",
 			hidePaintObj = true,
-			say = "于是，我的旅程开始于一辆破旧的汽车，驶向那个位于群山深处的地方。",
+			say = "於是，我的旅程開始於一輛破舊的汽車，駛向那個位於山脈深處的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "当汽车终于抵达目的地时，不得不承认这里的第一印象确实令人惊艳。",
+			say = "當汽車終於抵達目的地時，不得不承認這裡的第一印象確實令人驚艷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "深谷病院坐落在群山环抱之中，红砖建筑在阳光下泛着温暖的色泽。",
+			say = "深谷病院坐落在群山環繞之中，紅磚建築在陽光下泛著溫暖的色澤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,7 +304,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "周围是修剪整齐的花园和古老的橡树，空气中弥漫着淡淡的花香。",
+			say = "周圍是修剪整齊的花園和古老的橡樹，空氣中瀰漫著淡淡的花香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_deepvalley_cg1",
 			hidePaintObj = true,
-			say = "看到我的车辆驶近，一群身着白色制服的护士已经在门口列队等候。",
+			say = "看到我的車輛駛近，一群身穿白色制服的護士已經在門口排隊等候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "欢迎您，指挥官。我们已经恭候多时了。",
+			say = "歡迎您，指揮官。我們已經恭候多時了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……散发着诱人的味道呢……嘻嘻……",
+			say = "指揮官……散發著誘人的味道呢……嘻嘻……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -357,7 +357,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "待会检查身体的时候……请让我好好品尝哦……呼呼呼♡",
+			say = "待會檢查身體的時候……請讓我好好品嚐哦……呼呼呼♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -371,7 +371,7 @@ return {
 			actor = 702070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不必担心，我们将会为您提供最好的服务，您一定能在这里度过一段美好时光的。",
+			say = "不必擔心，我們將會為您提供最好的服務，您一定能在這裡度過一段美好時光的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -385,7 +385,7 @@ return {
 			actor = 303170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有任何烦恼，都可以找我们商量。",
+			say = "有任何煩惱，都可以找我們商量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 303170,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们会像守护珍贵的宝物那样，用心呵护您的健康哦～",
+			say = "我們會像守護珍貴的寶物一樣，用心呵護您的健康哦～",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，好啦，之后我们会有大把的时间和指挥官相处呢。",
+			say = "呵呵，好啦，之後我們會有大把的時間跟指揮官相處。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我先来为您办理入院手续吧。",
+			say = "指揮官，我先來為您辦理入院手續吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如您所见，医院整体由五大区域构成，分别是诊疗中心、住院大楼、疗养中心、后勤中心和研究中心。",
+			say = "如您所見，醫院整體由五大區域構成，分別是診療中心、住院大樓、療養中心、後勤中心和研究中心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -455,7 +455,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您可以在白天自由出入这些区域。如需协助，各区域的分管护士将随时提供指引服务。",
+			say = "您可以在白天自由出入這些區域。如需協助，各區域的分管護理師將隨時提供指引服務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过太阳落山之后，还请乖乖遵循医嘱，待在病房里睡觉哦~",
+			say = "不過太陽下山之後，還請乖乖遵循醫囑，待在病房裡睡覺~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -495,7 +495,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "{playername}",
-			say = "（看来调查的最佳时间是趁夜晚进行呢……）",
+			say = "（看來調查的最佳時間是趁夜晚進行呢……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -509,7 +509,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那指挥官请随我来，登记处就在前方——",
+			say = "那指揮官請隨我來，登記處就在前方——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -530,19 +530,19 @@ return {
 			},
 			sequence = {
 				{
-					"<size=34>就这样，我以患者的身份顺利入住了深谷病院。</size>",
+					"就這樣，我以病患的身分順利入住了深谷病院。",
 					1
 				},
 				{
-					"<size=34>是时候开始调查了。</size>",
+					"<size=34>是時候開始調查了。</size>",
 					2
 				},
 				{
-					"<size=34>米勒，我的最佳搭档。</size>",
+					"<size=34>米勒，我的最佳搭檔。</size>",
 					3
 				},
 				{
-					"<size=34>不论发生了什么事，我都会安全带你回家的——</size>",
+					"不論發生了什麼事，我都會安全帶妳回家的——",
 					4
 				}
 			}

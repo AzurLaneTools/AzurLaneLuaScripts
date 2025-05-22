@@ -10207,6 +10207,11 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 
+_G.pg.base.gametip.destroy_importantequipment_tip = {
+	tip = "<color=#92fc63>重要</color>"
+}
+
+
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "拆解裝備中有$1的裝備"
 }
@@ -25058,6 +25063,86 @@ _G.pg.base.gametip.cruise_task_help_2412 = {
 }
 
 
+_G.pg.base.gametip.battlepass_main_tip_2502 = {
+	tip = "2025/6/1-2025/7/31期間，完成巡遊任務累計<icon name=pt w=0.5 h=0.5/>可獲得<color=#854747>「博爾扎諾·META」</color>在內的豐富獎勵"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2502 = {
+	tip = {
+		{
+			info = [[
+世界巡遊(2025.6.1-2025.7.31)
+
+·<color=#92fc63>開放時間</color>
+ 2025.6.1 0点 ~ 2025.7.31 23:59:59
+
+·<color=#92fc63>巡遊進度說明</color>
+（1）活動期間，指揮官通過完成巡遊任務，可獲得「巡遊點數」。
+（2）巡遊任務隨時間開放解鎖。
+（3）每獲得100點「巡遊點數」即可增加1巡遊進度
+（4）巡遊進度提升後可以獲得對應等級的獎勵，巡遊進度最高可達100。
+
+·<color=#92fc63>獎勵規則</color>
+巡遊進度獎勵分為兩種：
+（1）基礎巡遊獎勵：包含<color=#ff5c5c>「博爾扎諾·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高級定向藍圖·七期</color>等獎勵；
+ 當巡遊達到指定進度時，指揮官可以直接領取相應的基礎巡遊獎勵。
+（2）特許巡遊獎勵：包含<color=#ff5c5c>反擊換裝「武韻春華 </color>」、<color=#ff5c5c>鑽石</color>等獎勵；
+ 購買「特許巡遊憑證」，且巡遊達到指定進度時，可以領取特許巡遊獎勵。
+ 注：購買「特許巡遊憑證」後，不會影響基礎巡遊獎勵的領取。
+
+·<color=#92fc63>「特許巡遊憑證」說明</color>
+（1）「特許巡遊憑證」可於「商店」-「優惠禮包」中購買，購買後可立刻獲得<color=#ff5c5c>1500點數</color>「巡遊點數」同時解鎖特許巡遊獎勵。
+（2）「特許巡遊憑證」將於<color=#ff5c5c>活動結束前一小時</color>停止販賣(即7.31 22:59:59停止)，請指揮官注意購買時間。
+
+·<color=#92fc63>任務說明</color>
+巡遊任務分為兩種：
+（1）每週任務 
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並獲得對應獎勵。
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成大部分巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的完成券數量固定，與當前任務進度無關
+（4）「巡遊任務快速完成券」不會隨本期活動結束而消失
+
+·<color=#ff5c5c>特別提示</color>
+（1）在本期世界巡遊活動結束後，所有巡遊任務將會無法繼續完成，所有巡遊獎勵將會無法繼續領取，請各位指揮官務必注意活動結束時間，提前領取獎勵。
+（2）巡遊進度、[特許巡遊憑證]僅對本期世界巡遊活動生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2502 = {
+	tip = {
+		{
+			info = [[
+巡遊任務說明
+
+·<color=#92fc63>開放時間</color>
+ 2025.6.1 0点 ~ 2025.7.31 23:59:59
+
+·<color=#92fc63>巡遊任務分為兩種</color>
+（1）每週任務
+ 巡遊任務中共有8組每週任務。自活動開始後解鎖第一週任務，之後每週一的0點解鎖下一組每週任務。
+（2）S.P.任務
+ S.P.任務為一組特殊任務，在活動開始後會直接處於全部解鎖狀態。
+（3）巡遊任務在解鎖後會自動接取，滿足任務完成條件時，會自動完成並獲得對應獎勵
+
+·<color=#92fc63>「巡遊任務快速完成券」說明</color>
+（1）「巡遊任務快速完成券」可以在巡遊任務介面使用，花費一定數量的「巡遊任務快速完成券」可以直接完成每週巡遊任務
+（2）在「巡遊任務快速完成券」數量不足時，指揮官可花費鑽石進行補齊
+（3）每個巡遊任務需要消耗的「巡遊任務快速完成券」數量和其提供的「巡遊點數」相關，與當前任務進度無關
+（4）「巡遊任務快速完成券」<color=#92fc63>不會隨本期活動結束而消失</color>]]
+		}
+	}
+}
+
+
 _G.pg.base.gametip.attrset_reset = {
 	tip = "全部重置"
 }
@@ -34603,6 +34688,11 @@ _G.pg.base.gametip.cruise_title_2412 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2502 = {
+	tip = "世界巡遊·二十一期"
+}
+
+
 _G.pg.base.gametip.cruise_title_2406 = {
 	tip = "世界巡遊·十七期"
 }
@@ -35831,6 +35921,171 @@ _G.pg.base.gametip["2025Valentine_minigame_b"] = {
 
 _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 	tip = "欸……這個味道真的可以嗎？作為皇家女僕做成這樣，實在是太失態了……指揮官，讓我重新做一份吧！"
+}
+
+
+_G.pg.base.gametip.clue_title_1 = {
+	tip = "地點情報"
+}
+
+
+_G.pg.base.gametip.clue_title_2 = {
+	tip = "人物情報"
+}
+
+
+_G.pg.base.gametip.clue_title_3 = {
+	tip = "破局紀錄"
+}
+
+
+_G.pg.base.gametip.clue_title_4 = {
+	tip = "秘密檔案"
+}
+
+
+_G.pg.base.gametip.clue_task_goto = {
+	tip = "前往調查"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip1 = {
+	tip = "解鎖相關角色線索"
+}
+
+
+_G.pg.base.gametip.clue_lock_tip2 = {
+	tip = "解鎖$1"
+}
+
+
+_G.pg.base.gametip.clue_get = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.clue_got = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.clue_unselect_tip = {
+	tip = "前往探索筆記選定調查目標"
+}
+
+
+_G.pg.base.gametip.clue_close_tip = {
+	tip = "點擊空白處關閉"
+}
+
+
+_G.pg.base.gametip.clue_pt_tip = {
+	tip = "累計x"
+}
+
+
+_G.pg.base.gametip.clue_buff_research = {
+	tip = "調查目標"
+}
+
+
+_G.pg.base.gametip.clue_buff_pt_boost = {
+	tip = "每選擇1項，PT產出增加5%"
+}
+
+
+_G.pg.base.gametip.clue_buff_stage_loot = {
+	tip = "關卡產出"
+}
+
+
+_G.pg.base.gametip.clue_task_tip = {
+	tip = "（目前完成次數：$1）"
+}
+
+
+_G.pg.base.gametip.clue_buff_reach_max = {
+	tip = "目前選擇調查目標已達上限"
+}
+
+
+_G.pg.base.gametip.clue_buff_unselect = {
+	tip = "-尚未選擇調查目標-"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_1 = {
+	tip = "T1 住院大樓(正午)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_2 = {
+	tip = "T2 療養中心(正午)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_3 = {
+	tip = "T3 後勤中心(正午)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_4 = {
+	tip = "T4 研究中心(正午)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_5 = {
+	tip = "T1 住院大樓(黃昏)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_6 = {
+	tip = "T2 療養中心(黃昏)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_7 = {
+	tip = "T3 後勤中心(黃昏)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_8 = {
+	tip = "T4 研究中心(黃昏)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_9 = {
+	tip = "T1 住院大樓(夜晚)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_10 = {
+	tip = "T2 療養中心(夜晚)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_11 = {
+	tip = "T3 後勤中心(夜晚)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_12 = {
+	tip = "T4 研究中心(夜晚)"
+}
+
+
+_G.pg.base.gametip.ship_formationUI_fleetName_13 = {
+	tip = "ESP 診療中心"
+}
+
+
+_G.pg.base.gametip.clue_buff_ticket_tips = {
+	tip = "勾選使用道具，通關後可獲得額外掉落"
+}
+
+
+_G.pg.base.gametip.clue_buff_empty_ticket = {
+	tip = "道具數量不足，前往調查任務獲取"
 }
 
 

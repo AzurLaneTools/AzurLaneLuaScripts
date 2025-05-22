@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_507",
 			actor = 802020,
 			hideOther = true,
-			actorName = "圣女贞德&阿尔及利亚",
+			actorName = "聖女貞德＆阿爾及利亞",
 			hidePaintObj = true,
 			say = "遵命！",
 			typewriter = {

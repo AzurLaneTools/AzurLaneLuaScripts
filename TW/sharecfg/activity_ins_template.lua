@@ -13461,6 +13461,71 @@ pg.activity_ins_template = {
 		time_persist = {},
 		npc_discuss_persist = {}
 	},
+	[547] = {
+		ship_group = 10713,
+		name = "Franklin",
+		sculpture = "fulankelin",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 547,
+		group_id = 547,
+		order = 57,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[548] = {
+		ship_group = 10234,
+		name = "Santa Fe",
+		sculpture = "shengtafei",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 548,
+		group_id = 548,
+		order = 57,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[549] = {
+		ship_group = 10153,
+		name = "Miller",
+		sculpture = "mile",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 549,
+		group_id = 549,
+		order = 57,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[550] = {
+		ship_group = 70207,
+		name = "Voroshilov",
+		sculpture = "fuluoxiluofu",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 550,
+		group_id = 550,
+		order = 57,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[551] = {
+		ship_group = 30317,
+		name = "Suzu?",
+		sculpture = "linggu",
+		picture_persist = "",
+		is_active = 1,
+		message_persist = "",
+		id = 551,
+		group_id = 551,
+		order = 57,
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	all = {
 		1,
 		2,
@@ -13978,6 +14043,11 @@ pg.activity_ins_template = {
 		537,
 		538,
 		539,
-		540
+		540,
+		547,
+		548,
+		549,
+		550,
+		551
 	}
 }

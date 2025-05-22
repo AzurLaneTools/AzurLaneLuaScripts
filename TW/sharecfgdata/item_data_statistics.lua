@@ -15001,6 +15001,37 @@ _G.pg.base.item_data_statistics[21040] = {
 }
 
 
+_G.pg.base.item_data_statistics[21043] = {
+	open_directly = 0,
+	name = "結晶：博爾扎諾·META",
+	type = 4,
+	display = "博爾扎諾·META的專用性能提升裝置，可在「META研究室」-「能量啟動」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21043",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21043,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "結晶化熱強鋼",
@@ -24760,6 +24791,131 @@ _G.pg.base.item_data_statistics[30364] = {
 }
 
 
+_G.pg.base.item_data_statistics[30366] = {
+	open_directly = 1,
+	name = "外觀裝備箱(病院冒險)",
+	type = 11,
+	display = "可以獲得一件隨機的病院冒險風格外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbingyuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30366",
+	id = 30366,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "外觀裝備箱(世界巡遊)",
@@ -26074,6 +26230,58 @@ _G.pg.base.item_data_statistics[30425] = {
 		{
 			9,
 			2088,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30426] = {
+	open_directly = 1,
+	name = "外觀裝備箱(世界巡遊)",
+	type = 11,
+	display = "可以隨機獲得一件本次世界巡遊限定外觀裝備",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111221",
+	id = 30426,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2089,
+			1
+		},
+		{
+			9,
+			2090,
+			1
+		},
+		{
+			9,
+			2091,
+			1
+		},
+		{
+			9,
+			2092,
 			1
 		}
 	},
@@ -36492,6 +36700,219 @@ _G.pg.base.item_data_statistics[30551] = {
 }
 
 
+_G.pg.base.item_data_statistics[30553] = {
+	open_directly = 0,
+	name = "定向外觀裝備箱(病院冒險)",
+	type = 13,
+	display = "使用後可從「病院冒險」主題外觀裝備中任意選擇一種獲得1個",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxbingyuanzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30553,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4131,
+			1
+		},
+		{
+			9,
+			4132,
+			1
+		},
+		{
+			9,
+			4133,
+			1
+		},
+		{
+			9,
+			4134,
+			1
+		},
+		{
+			9,
+			4135,
+			1
+		},
+		{
+			9,
+			4136,
+			1
+		},
+		{
+			9,
+			4137,
+			1
+		},
+		{
+			9,
+			4138,
+			1
+		},
+		{
+			9,
+			4139,
+			1
+		},
+		{
+			9,
+			4140,
+			1
+		},
+		{
+			9,
+			4141,
+			1
+		},
+		{
+			9,
+			4142,
+			1
+		},
+		{
+			9,
+			4143,
+			1
+		},
+		{
+			9,
+			4144,
+			1
+		},
+		{
+			9,
+			4145,
+			1
+		},
+		{
+			9,
+			4146,
+			1
+		},
+		{
+			9,
+			4147,
+			1
+		},
+		{
+			9,
+			4148,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "定向部件T4",
@@ -39582,6 +40003,85 @@ _G.pg.base.item_data_statistics[40053] = {
 			2,
 			30113,
 			150
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40057] = {
+	open_directly = 1,
+	name = "基因之源主題禮包(基礎版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題基因之源*1",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4058",
+	id = 40057,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			203,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40058] = {
+	open_directly = 1,
+	name = "基因之源主題禮包(豪華版)",
+	type = 17,
+	display = "購買禮包可獲得戰鬥介面主題基因之源*1,3060鑽石",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui4",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4059",
+	id = 40058,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			203,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},

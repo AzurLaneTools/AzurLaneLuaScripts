@@ -738,7 +738,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "宴席上主宾尽欢，各阵营其乐融融，台下虽有暗流涌动，但终究没有明面上的剑拔弩张。",
+			say = "宴席上宾主尽欢，各阵营其乐融融，台下虽有暗流涌动，但终究没有明面上的剑拔弩张。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

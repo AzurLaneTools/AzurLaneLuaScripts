@@ -70,6 +70,10 @@ pg.ship_meta_breakout = setmetatable({
 		9703042,
 		9703043,
 		9703044,
+		9703061,
+		9703062,
+		9703063,
+		9703064,
 		9704011,
 		9704012,
 		9704013,
@@ -1230,6 +1234,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9703044,
 		item1 = 21035,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9703061] = {
+		breakout_view = "習得技能【逐光之焰·博爾扎諾】I/主炮效率提高5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9703062,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703061,
+		item1 = 21043,
+		level = 10,
+		weapon_ids = {
+			80431
+		}
+	},
+	[9703062] = {
+		breakout_view = "魚雷底座+1/魚雷預裝+1/魚雷效率提升10%",
+		item2 = 21001,
+		pre_id = 9703061,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9703063,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9703062,
+		item1 = 21043,
+		level = 30,
+		weapon_ids = {
+			106,
+			106
+		}
+	},
+	[9703063] = {
+		breakout_view = "【逐光之焰·博爾扎諾】升級/魚雷效率提高15%",
+		item2 = 21001,
+		pre_id = 9703062,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9703064,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9703063,
+		item1 = 21043,
+		level = 70,
+		weapon_ids = {
+			80432
+		}
+	},
+	[9703064] = {
+		breakout_view = "無",
+		item2 = 21001,
+		pre_id = 9703063,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9703064,
+		item1 = 21043,
 		level = 0,
 		weapon_ids = {}
 	},

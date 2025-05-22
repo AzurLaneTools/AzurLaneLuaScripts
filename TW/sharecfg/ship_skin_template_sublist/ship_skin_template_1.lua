@@ -12843,6 +12843,236 @@ pg.base.ship_skin_template_1 = {
 			}
 		}
 	},
+	[101530] = {
+		name = "米勒",
+		change_skin = "",
+		ship_group = 10153,
+		illustrator2 = -1,
+		desc = "佛萊契爾級驅逐艦—米勒",
+		group_index = 0,
+		id = 101530,
+		painting = "mile",
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = true,
+		skin_type = -1,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "mile",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 446,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.274,
+					0.69,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.274,
+					0.69,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.766,
+					2.277,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.274,
+							2.494,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[101531] = {
+		name = "叛逆試驗體M01",
+		change_skin = "",
+		ship_group = 10153,
+		illustrator2 = -1,
+		desc = "別亂動哦~！嘿嘿嘿~看起來正是適合米勒大人登場的時候呢，這個出場方式是不是很酷呀！嗯？我、我可不是來救指揮官的……對！我是來向那些把我當試驗體的傢伙復仇的哦！",
+		group_index = 1,
+		id = 101531,
+		painting = "mile_2",
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		shop_type_id = 15,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "130",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		skin_type = 0,
+		bg_sp = "",
+		voice_actor_2 = -1,
+		prefab = "mile_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71122,
+		voice_actor = 446,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.274,
+					0.69,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.274,
+					0.69,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.766,
+					2.277,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.274,
+							2.494,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
 	[102010] = {
 		name = "奧馬哈",
 		change_skin = "",
@@ -12948,131 +13178,6 @@ pg.base.ship_skin_template_1 = {
 						{
 							-0.559,
 							0.397,
-							0
-						}
-					}
-				}
-			},
-			{
-				30,
-				{
-					{
-						"smoke",
-						{
-							0.42,
-							0.51,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[102020] = {
-		name = "羅利",
-		change_skin = "",
-		ship_group = 10202,
-		illustrator2 = -1,
-		desc = "奧馬哈級輕巡洋艦—羅利，舷號CL-7",
-		group_index = 0,
-		id = 102020,
-		painting = "luoli",
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		skin_type = -1,
-		bg_sp = "",
-		voice_actor_2 = -1,
-		prefab = "luoli",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 62,
-		spine_offset = "",
-		illustrator = 6,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					-0.063,
-					0.526,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.15,
-					0.407,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					-0.376,
-					0.996,
-					0
-				},
-				{
-					0.52,
-					0.827,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				70,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							0.3,
 							0
 						}
 					}

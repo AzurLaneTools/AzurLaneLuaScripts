@@ -2443,6 +2443,27 @@ pg.medal_template = {
 		explain1 = "「華裳巧展喜事長」",
 		explain2 = "活動紀念"
 	},
+	[200031] = {
+		target_id = "5875",
+		name = "深谷病院調查紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "恭喜，你成功調查了深谷病院的秘密，選擇了理想中的結局，此行，你還滿意嗎？",
+		next = 0,
+		icon = "9031",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9031",
+		condition = "收集8個「深谷來信」紀念貼紙。",
+		rank = 1,
+		id = 200031,
+		explain1 = "「深谷來信」",
+		explain2 = "活動紀念"
+	},
 	all = {
 		10011,
 		10012,
@@ -2554,6 +2575,7 @@ pg.medal_template = {
 		100933,
 		100934,
 		100935,
-		200011
+		200011,
+		200031
 	}
 }

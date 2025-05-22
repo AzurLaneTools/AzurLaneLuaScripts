@@ -15,7 +15,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "干净明亮的病房中，护士富兰克林抬起头，目光从手里的医疗记录转移到推门而入的我身上。",
+			say = "在乾淨明亮的病房中，護士富蘭克林抬起頭，目光從手中的醫療紀錄轉移到推門而入的我身上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "这位患者，有什么我能帮上忙的么？",
+			say = "這位患者，有什麼我能幫上忙的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "我没有立即回话，而是仔细地观察着眼前的富兰克林。",
+			say = "我沒有立即回話，而是仔細地觀察眼前的富蘭克林。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "她神色从容地笑着，看不出什么异常，可仔细观察，又能看见她身上莫名布满了汗水。",
+			say = "她神色從容地笑著，看不出什麼異常，可仔細觀察，又能看見她身上莫名佈滿了汗水。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "咔嗒——",
+			say = "喀嚓——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "身后的门突然关上并落下了锁。",
+			say = "身後的門突然關上並落下了鎖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "按照以往的经验，想必一时半会是无法打开这扇门了。",
+			say = "按照以往的經驗，想必一時半會是無法打開這扇門了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,18 +130,18 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "你的手受伤了？",
+			say = "你的手受傷了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "（点头）",
+					content = "（點頭）",
 					flag = 1
 				},
 				{
-					content = "小伤，我自己处理就好。",
+					content = "小傷，我自己處理就好。",
 					flag = 2
 				}
 			}
@@ -155,7 +155,7 @@ return {
 			optionFlag = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "那我来帮你处理伤口吧~",
+			say = "那我來幫你處理傷口吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			optionFlag = 2,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "自己处理？",
+			say = "自己處理？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			optionFlag = 2,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "那可不行，明明身为护士的我都在这里了……",
+			say = "那可不行，明明身為護士的我都在這裡了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			optionFlag = 2,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "还让病人自己处理伤口的话，那不就成了我的失职？",
+			say = "還讓病人自己處理傷口的話，那不就成了我的失職？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "她的笑意如潮水般层层漫开，眸光潋滟，似在努力地压抑着无处安放的渴望。",
+			say = "她的笑意如潮水般層層漫開，眸光滄灩，似在努力地壓抑著無處安放的渴望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "还傻傻站着干什么呢~？",
+			say = "還傻傻站著幹嘛~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "快让我来帮你处理伤口吧~",
+			say = "快讓我幫你處理傷口吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "富兰克林目光灼灼，热烈而不加掩饰地上下打量着我，脸上的绯红也越发明显。",
+			say = "富蘭克林目光灼灼，熱烈而不加掩飾地上下打量著我，臉上的緋紅也越發明顯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "话说……你有没有觉得……房间里有些热啊。",
+			say = "話說……你有沒有覺得……房間裡有些熱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "富兰克林抬手扯了扯自己的领子，又用手给自己扇了扇风。",
+			say = "富蘭克林抬手扯了扯自己的領子，又用手給自己搧了風。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "好了，把手伸出来，富兰克林护士姐姐要来帮你处理伤口了~",
+			say = "好了，把手伸出來，富蘭克林護士姊姊要來幫你處理傷口了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "富兰克林取来医药箱，在我身前蹲下，身体靠在我的膝盖上，温暖的体温透过布料传递过来。",
+			say = "富蘭克林取來醫藥箱，在我身前蹲下，身體靠在我的膝蓋上，溫暖的體溫透過布料傳遞過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "她托起我的手，为我处理伤口，动作干脆利落，力道很重。",
+			say = "她托起我的手，為我處理傷口，動作乾脆俐落，力道很重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "伤口的疼痛令我不由自主地蜷曲了一下手指。",
+			say = "傷口的疼痛令我不由自主地蜷縮了一下手指。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -367,7 +367,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "富兰克林敏锐地察觉到了我细微的动作，倏然放轻了手上的动作。",
+			say = "富蘭克林敏銳地察覺到了我細微的動作，倏然放輕了手上的動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "我弄疼你了？",
+			say = "我弄痛你了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "抱歉，我习惯性就……有些没轻没重的。",
+			say = "抱歉，我習慣性就……有些沒輕沒重的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "她抬眼看我，向我投来难以明说的目光。",
+			say = "她抬眼看我，向我投來難以明說的目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,7 +422,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "接下来，我一定会温柔地、好好地为你治疗的♡~",
+			say = "接下來，我一定會溫柔地、好好地為你治療的♡~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -436,7 +436,7 @@ return {
 			bgName = "star_level_bg_308",
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "这样……处理好了~！",
+			say = "這樣……處理好了~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -468,7 +468,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "谢谢。",
+			say = "謝謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -482,7 +482,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "你和我之间，还需要这么客气么~？",
+			say = "你跟我之間，還需要這麼客氣嗎~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "不过呢……",
+			say = "不過呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "富兰克林用双手握住我的手，拉着我起身，上前一步将我抱住。",
+			say = "富蘭克林用雙手握住我的手，拉著我起身，上前一步將我抱住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -524,7 +524,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "她湿热的体温就这么传递过来，发丝轻擦过我的脸庞，带着她特有的馨香。",
+			say = "她濕熱的體溫就這麼傳遞過來，髮絲輕擦過我的臉龐，帶著她特有的馨香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -538,7 +538,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "如果你真的这么想表达感谢的话，就帮帮我吧……",
+			say = "如果你真的這麼想表達感謝的話，就幫幫我吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -552,7 +552,7 @@ return {
 			hideRecordIco = true,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "眼前的事物颠倒置换，反应过来时，我已被富兰克林推倒在病床上。",
+			say = "眼前的事物顛倒轉換，反應過來時，我已被富蘭克林推倒在病床上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "……我好像只有与你贴近，才能够缓解这灼热的温度……",
+			say = "……我好像只有與你貼近，才能夠緩解這灼熱的溫度……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -594,7 +594,7 @@ return {
 			dir = 1,
 			actor = 107131,
 			nameColor = "#A9F548FF",
-			say = "就这样……再靠近些吧♡",
+			say = "就這樣……再靠近些吧♡",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

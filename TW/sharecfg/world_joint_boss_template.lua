@@ -223,7 +223,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "聲望·META",
 		boss_level_id = 106,
-		state = "stop",
+		state = "always",
 		item_id = 100000,
 		painting = "shengwang",
 		meta_id = 970404,

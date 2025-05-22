@@ -116,6 +116,9 @@ pg.ship_data_group = setmetatable({
 		[10143] = {
 			427
 		},
+		[10153] = {
+			684
+		},
 		[10145] = {
 			508
 		},
@@ -220,6 +223,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[10233] = {
 			657
+		},
+		[10234] = {
+			683
 		},
 		[10220] = {
 			391
@@ -382,6 +388,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[10712] = {
 			572
+		},
+		[10713] = {
+			682
 		},
 		[10714] = {
 			511
@@ -2182,6 +2191,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[970507] = {
 			30040
+		},
+		[970306] = {
+			30043
 		}
 	},
 	get_id_list_by_handbook_type = {
@@ -2224,6 +2236,7 @@ pg.ship_data_group = setmetatable({
 			659,
 			13,
 			427,
+			684,
 			508,
 			518,
 			533,
@@ -2259,6 +2272,7 @@ pg.ship_data_group = setmetatable({
 			428,
 			609,
 			657,
+			683,
 			391,
 			420,
 			39,
@@ -2313,6 +2327,7 @@ pg.ship_data_group = setmetatable({
 			574,
 			442,
 			572,
+			682,
 			511,
 			380,
 			377,
@@ -2918,7 +2933,8 @@ pg.ship_data_group = setmetatable({
 			30036,
 			30038,
 			30039,
-			30040
+			30040,
+			30043
 		}
 	},
 	all = {
@@ -2960,6 +2976,7 @@ pg.ship_data_group = setmetatable({
 		659,
 		13,
 		427,
+		684,
 		508,
 		518,
 		533,
@@ -2995,6 +3012,7 @@ pg.ship_data_group = setmetatable({
 		428,
 		609,
 		657,
+		683,
 		391,
 		420,
 		39,
@@ -3049,6 +3067,7 @@ pg.ship_data_group = setmetatable({
 		574,
 		442,
 		572,
+		682,
 		511,
 		380,
 		377,
@@ -3648,7 +3667,8 @@ pg.ship_data_group = setmetatable({
 		30036,
 		30038,
 		30039,
-		30040
+		30040,
+		30043
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -5443,6 +5463,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[684] = {
+		nationality = 1,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10153,
+		index_id = 39,
+		code = 684,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"C",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深谷來信",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[508] = {
 		nationality = 1,
 		type = 1,
@@ -6987,6 +7039,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：鐵翼擎風",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[683] = {
+		nationality = 1,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10234,
+		index_id = 74,
+		code = 683,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"E",
+			"E",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深谷來信",
 				{
 					""
 				},
@@ -9604,6 +9688,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：定向折疊",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[682] = {
+		nationality = 1,
+		type = 7,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10713,
+		index_id = 130,
+		code = 682,
+		share_group_id = {},
+		property_hexagon = {
+			"E",
+			"E",
+			"S",
+			"B",
+			"B",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：深谷來信",
 				{
 					""
 				},
@@ -33193,6 +33309,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9705071
+					}
+				},
+				0
+			}
+		}
+	},
+	[30043] = {
+		nationality = 97,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970306,
+		index_id = 30043,
+		code = 30043,
+		share_group_id = {},
+		property_hexagon = {
+			"B",
+			"C",
+			"E",
+			"C",
+			"B",
+			"C"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：世界巡遊",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9703061
 					}
 				},
 				0

@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"深谷来信\n\n<size=45>后日谈</size>",
+					"深谷來信\n\n<size=45>後日談</size>",
 					1
 				}
 			}
@@ -25,7 +25,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恭喜我们的“大侦探”顺利体验完本次活动的全部结局~",
+			say = "恭喜我們的「大偵探」順利體驗完本次活動的全部結局~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			actor = 199050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "振兴吾辈血族的荣光，这样的结局果然不错嘛~",
+			say = "振興吾輩血族的榮光，這樣的結局果然不錯嘛~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "作为本作的编剧，能看到吾精心编排的剧情和设定被汝等完美还原出来，真是心情愉悦啊~",
+			say = "身為本作的編劇，能看到吾精心編排的劇情和設定被汝等完美還原出來，真是心情愉悅啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 199050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，汝的功劳最大！快出来接受夸奖吧！",
+			say = "指揮官，汝的功勞最大！快出來接受誇獎吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_308",
 			hidePaintObj = true,
-			say = "看不见的剧幕落下，先前消失的“演员”们纷纷返场亮相。",
+			say = "看不見的劇場落下，先前消失的「演員」們紛紛返場亮相。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "等你好久了指挥官！怎么样，米勒大人的表演有让您移不开目光嘛——",
+			say = "等你好久了指揮官！怎麼樣，米勒大人的表演有讓您移不開目光——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			actor = 101530,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当、当然！我可没有在排演之外的时间偷偷练习啦！",
+			say = "當、當然！我可沒有在排演之外的時間偷偷練習啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -134,7 +134,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我作证！绝对没有看到米勒半夜三点的时候还在对着镜子研究吊索的使用方法！",
+			say = "我作證！絕對沒有看到米勒半夜三點的時候還在對著鏡子研究吊索的使用方法！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，我还是第一次参加这样的活动，果然和冒险一样刺激啊~",
+			say = "說起來，我還是第一次參加這樣的活動，果然跟冒險一樣刺激~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			actor = 107130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可惜我特地准备的急救包、多功能刀具、登山绳和防水帐篷都没派上用场呢……",
+			say = "可惜我特地準備的急救包、多功能刀具、登山繩和防水帳篷都沒派上用場呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那种东西还是用不上比较好吧。",
+			say = "那種東西還是用不到比較好吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果在坐游艇的时候遇上了海难，倒是会很有用……可惜没有设计这样的桥段。",
+			say = "如果在坐遊艇的時候遇上了海難，倒是會很有用……可惜沒有設計這樣的橋段。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "毕竟坐船出航已经到了结尾部分了嘛！",
+			say = "畢竟坐船出航已經到了結尾部分了嘛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -215,7 +215,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是啊……一转眼就到结尾了。",
+			say = "是啊……一轉眼就到結尾了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 901070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在剧中和指挥官相处的时间也不多……真是令人遗憾。",
+			say = "在劇中和指揮官相處的時間也不多……真是令人遺憾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "是么？……吾感觉已经很多了啊？",
+			say = "是嗎？……吾感覺已經很多了啊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,9 +255,9 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 901070,
-			actorName = "莫加多尔&{namecode:59:铃谷}",
+			actorName = "莫加多爾&鈴谷",
 			hidePaintObj = true,
-			say = "你不懂！\n你不懂。",
+			say = "妳不懂！ 妳不懂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,9 +280,9 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 702070,
-			actorName = "伏罗希洛夫&{namecode:91:赤城}",
+			actorName = "伏羅希洛夫&赤城",
 			hidePaintObj = true,
-			say = "嗯，你不懂呢。\n复议。",
+			say = "嗯，妳不懂呢。 附議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -334,7 +334,7 @@ return {
 			actor = 199050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——明明是吾写的剧本啊？！",
+			say = "——明明是吾寫的劇本啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			asideType = 1,
 			sequence = {
 				{
-					"「——深谷来信·END」",
+					"「——深谷來信·END」",
 					1
 				}
 			}

@@ -39,6 +39,9 @@ pg.pay_data_display = setmetatable({
 		2033,
 		2034,
 		2040,
+		2045,
+		2046,
+		2047,
 		5001,
 		5002,
 		5003,
@@ -141,7 +144,8 @@ pg.pay_data_display = setmetatable({
 		4916,
 		4917,
 		4918,
-		4919
+		4919,
+		4920
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -3254,6 +3258,232 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40053,
+				1
+			}
+		}
+	},
+	[2045] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "基因之源主題禮包",
+		first_pay_double = 0,
+		name_display = "基因之源主題禮包",
+		descrip = "可獲得戰鬥介面主題基因之源*1",
+		subject = "基因之源主題禮包",
+		money = 390,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui9",
+		extra_service = 3,
+		id = 2045,
+		airijp_id = "com.yostarjp.azurlane.ui9",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					5,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2046] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "基因之源主題禮包(基礎版)",
+		first_pay_double = 0,
+		name_display = "基因之源主題禮包(基礎版)",
+		descrip = "可獲得戰鬥介面主題基因之源*1",
+		subject = "基因之源主題禮包(基礎版)",
+		money = 390,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui10",
+		extra_service = 3,
+		id = 2046,
+		airijp_id = "com.yostarjp.azurlane.ui10",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					5,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40057,
+				1
+			}
+		}
+	},
+	[2047] = {
+		extra_gem = 0,
+		limit_group = 104,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "基因之源主題禮包(豪華版)",
+		first_pay_double = 0,
+		name_display = "基因之源主題禮包(豪華版)",
+		descrip = "可獲得戰鬥介面主題基因之源*1,3060鑽石",
+		subject = "基因之源主題禮包(豪華版)",
+		money = 1320,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui4",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui11",
+		extra_service = 3,
+		id = 2047,
+		airijp_id = "com.yostarjp.azurlane.ui11",
+		extra_service_item = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					5,
+					22
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				203,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40058,
 				1
 			}
 		}
@@ -12854,6 +13084,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			45919,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[4920] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*需要通過任務達成對應巡遊進度後才可獲取",
+		type = 0,
+		name = "特許巡遊憑證（二十一期）",
+		first_pay_double = 0,
+		name_display = "特許巡遊憑證",
+		descrip = "可獲得1500巡遊點數，同時解鎖特許巡遊獎勵·反擊限定換裝和其他獎勵",
+		subject = "特許巡遊憑證",
+		money = 330,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 4,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.battlepass21",
+		extra_service = 4,
+		id = 4920,
+		airijp_id = "com.hkmanjuu.azurlane.battlepass21",
+		extra_service_item = {
+			{
+				1,
+				4021,
+				1500
+			},
+			{
+				8,
+				65074,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					1
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			45920,
 			1500
 		},
 		ignorePlatform = {},
