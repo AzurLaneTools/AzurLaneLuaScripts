@@ -40015,7 +40015,7 @@ _G.pg.base.item_data_statistics[40053] = {
 
 _G.pg.base.item_data_statistics[40057] = {
 	open_directly = 1,
-	name = "基因之源主題禮包(基礎版)",
+	name = "基因之源主題禮包（基礎版）",
 	type = 17,
 	display = "購買禮包可獲得戰鬥介面主題基因之源*1",
 	other_resource_cost = "[]",
@@ -40052,7 +40052,7 @@ _G.pg.base.item_data_statistics[40057] = {
 
 _G.pg.base.item_data_statistics[40058] = {
 	open_directly = 1,
-	name = "基因之源主題禮包(豪華版)",
+	name = "基因之源主題禮包（豪華版）",
 	type = 17,
 	display = "購買禮包可獲得戰鬥介面主題基因之源*1,3060鑽石",
 	other_resource_cost = "[]",
