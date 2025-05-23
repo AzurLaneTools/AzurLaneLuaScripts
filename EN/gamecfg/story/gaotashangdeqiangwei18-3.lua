@@ -445,7 +445,7 @@ return {
 			actor = 205160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "Heh. Well, $1, they are the Mesektet's secret weapon. I cannot share more than that as it is confidential.",
+			say = "Heh. Well, {playername}, they are the Mesektet's secret weapon. I cannot share more than that as it is confidential.",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
