@@ -26179,9 +26179,9 @@ Cruise Missions Seasonal Campaign
 2025/6/1 00:00 – 2025/7/31 23:59
 
 - Overview -
-\""Cruise Missions\"" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
-Additionally, you can unlock an additional set of \""Fair Winds Cruise\"" rewards by purchasing the \""Fair Winds Cruise Pass\"" item from Akashi's shop.
-Grenville META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Hatsuzuki, \""Luxurious Celebration Time.\""
+"Cruise Missions" is a seasonal campaign where you can complete special missions, collect Progress Pts., and obtain great rewards for reaching certain Progress milestones.
+Additionally, you can unlock an additional set of "Fair Winds Cruise" rewards by purchasing the "Fair Winds Cruise Pass" item from Akashi's shop.
+Grenville META will be obtainable from the regular Cruise Missions rewards. By upgrading to the Fair Winds Cruise, you will also be able to obtain an exclusive outfit for Hatsuzuki, "Luxurious Celebration Time."
 
 - How to Play -
 · Two types of missions will be released at the same time at the start of the campaign season:

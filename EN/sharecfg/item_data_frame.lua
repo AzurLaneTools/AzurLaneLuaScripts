@@ -506,11 +506,11 @@ pg.item_data_frame = {
 	},
 	[335] = {
 		name = "Rosen Vow",
-		gain_by = "高塔上的蔷薇",
+		gain_by = "A Rose on the High Tower",
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
-		desc = "Obtained from a future event.",
+		desc = "<color=#ffffff>\"From atop the high tower, the rose continues to protect the Royal Navy's final glory.\"</color>\nGiven to Commanders who participated in the A Rose on the High Tower.",
 		scene = {}
 	},
 	[406] = {
