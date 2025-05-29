@@ -38626,12 +38626,12 @@ _G.pg.base.gametip.choose_secretary_change_to_this_ship = {
 
 
 _G.pg.base.gametip.random_ship_custom_mode_add_shadow_complete = {
-	tip = "已添加投影至随机秘书组 "
+	tip = "已添加至随机秘书组"
 }
 
 
 _G.pg.base.gametip.random_ship_custom_mode_remove_shadow_complete = {
-	tip = "已将投影从随机秘书组移除 "
+	tip = "已从随机秘书组移除"
 }
 
 

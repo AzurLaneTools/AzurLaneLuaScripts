@@ -28888,31 +28888,31 @@ cs.gametip = {
 	},
 	random_ship_custom_mode_add_shadow_complete = {
 		1038768,
-		142,
+		135,
 		true
 	},
 	random_ship_custom_mode_remove_shadow_complete = {
-		1038910,
-		148,
+		1038903,
+		138,
 		true
 	},
 	choose_secretary_change_title = {
-		1039058,
+		1039041,
 		102,
 		true
 	},
 	ship_random_secretary_tag = {
-		1039160,
+		1039143,
 		104,
 		true
 	},
 	projection_help = {
-		1039264,
+		1039247,
 		280,
 		true
 	},
 	littleaijier_npc = {
-		1039544,
+		1039527,
 		974,
 		true
 	}

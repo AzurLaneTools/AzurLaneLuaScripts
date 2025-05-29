@@ -222,7 +222,7 @@ slot0.GetNormalShopSkinIDList = function()
 			end
 
 			if ShipSkin.IsChangeSkin(slot6) then
-				for slot11, slot12 in ipairs(ShipGroup.GetAllChangeSkinIds(slot6)) do
+				for slot11, slot12 in ipairs(ShipSkin.GetAllChangeSkinIds(slot6)) do
 					if not table.contains(slot0, slot12) then
 						table.insert(slot0, slot12)
 					end
@@ -250,7 +250,7 @@ slot0.GetActShopSkinIDList = function()
 			end
 
 			if ShipSkin.IsChangeSkin(slot6) then
-				for slot11, slot12 in ipairs(ShipGroup.GetAllChangeSkinIds(slot6)) do
+				for slot11, slot12 in ipairs(ShipSkin.GetAllChangeSkinIds(slot6)) do
 					if not table.contains(slot0, slot12) then
 						table.insert(slot0, slot12)
 					end

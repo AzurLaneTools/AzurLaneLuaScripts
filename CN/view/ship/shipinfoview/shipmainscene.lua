@@ -1191,6 +1191,26 @@ slot0.changePaintingSortLayer = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.tablePainting) do
 		GetComponent(slot7, typeof(Canvas)).sortingOrder = slot2
 	end
+
+	if slot1 then
+		slot3 = slot0.shipVO:getRarity()
+
+		if slot0.isDesign and slot0.designBg then
+			setActive(slot0.designBg, true)
+		elseif slot0.bgEffect and slot3 and slot0.bgEffect[slot3] then
+			setActive(slot0.bgEffect[slot3], true)
+		end
+	else
+		if slot0.designBg then
+			setActive(slot0.designBg, false)
+		end
+
+		if slot0.bgEffect then
+			for slot6, slot7 in pairs(slot0.bgEffect) do
+				setActive(slot7, false)
+			end
+		end
+	end
 end
 
 slot0.getInitmacyWords = function(slot0)

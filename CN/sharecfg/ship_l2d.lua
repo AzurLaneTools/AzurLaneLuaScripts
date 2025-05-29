@@ -70463,7 +70463,6 @@ pg.ship_l2d = {
 				"touch_idle13",
 				"touch_idle14",
 				"touch_idle15",
-				"touch_idle16",
 				"touch_idle17",
 				"touch_idle18",
 				"touch_idle19",
