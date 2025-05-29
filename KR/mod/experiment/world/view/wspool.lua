@@ -10,8 +10,8 @@ slot0.Setup = function(slot0, slot1)
 	slot0.pooltf = GameObject.Find("__Pool__").transform
 	slot0.tplDic = {}
 
-	for slot6 = 0, GetComponent(slot1, "ItemList").prefabItem.Length - 1 do
-		slot0.tplDic[slot2[slot6].name] = slot2[slot6]
+	for slot6, slot7 in ipairs(GetComponent(slot1, "ItemList").prefabItem:ToTable()) do
+		slot0.tplDic[slot7.name] = slot7
 	end
 
 	setActive(slot1, false)

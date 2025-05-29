@@ -36204,7 +36204,7 @@ _G.pg.base.shop_template[70529] = {
 	tag = 0,
 	limit_args2 = "",
 	collaboration_skin_time = "",
-	order = 300,
+	order = 100,
 	time = "always",
 	group = 0,
 	num = 1,
@@ -44546,8 +44546,8 @@ _G.pg.base.shop_template[70773] = {
 		{
 			{
 				2025,
-				3,
-				13
+				5,
+				29
 			},
 			{
 				0,
@@ -44558,8 +44558,8 @@ _G.pg.base.shop_template[70773] = {
 		{
 			{
 				2025,
-				4,
-				2
+				6,
+				4
 			},
 			{
 				23,
@@ -49431,21 +49431,21 @@ _G.pg.base.shop_template[70912] = {
 	time = {
 		{
 			{
-				2024,
-				10,
-				3
+				2025,
+				5,
+				29
 			},
 			{
-				12,
+				0,
 				0,
 				0
 			}
 		},
 		{
 			{
-				2024,
-				10,
-				16
+				2025,
+				6,
+				4
 			},
 			{
 				23,

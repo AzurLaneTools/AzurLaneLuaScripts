@@ -2,13 +2,13 @@ slot0 = class("SettingsOtherPage", import(".SettingsOptionPage"))
 
 slot0.OnShowTranscode = function(slot0, slot1)
 	if PLATFORM_CODE == PLATFORM_JP then
-		slot0:GetPanel(SettingsAccountJPPanle):showTranscode(slot1)
+		-- Nothing
 	end
 end
 
 slot0.OnCheckAllAccountState = function(slot0)
 	if PLATFORM_CODE == PLATFORM_JP then
-		slot0:GetPanel(SettingsAccountJPPanle):checkAllAccountState()
+		-- Nothing
 	elseif PLATFORM_CODE == PLATFORM_US then
 		slot0:GetPanel(SettingsAccountUSPanle):checkAllAccountState_US()
 	end
@@ -70,7 +70,7 @@ slot0.GetPanels = function(slot0)
 		end
 	end
 
-	if PLATFORM_CODE == PLATFORM_JP or PLATFORM_CODE == PLATFORM_US then
+	if PLATFORM_CODE == PLATFORM_US then
 		table.insert(slot1, SettingsAccountSpecialPanel)
 	end
 
@@ -100,9 +100,10 @@ slot0.NeedRedeem = function(slot0)
 end
 
 slot0.OnInitPanle = function(slot0)
-	if PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0 then
+	if PlayerPrefs.GetInt("firstIntoOtherPanel", 0) == 0 then
 		slot0:ScrollToPanel(slot0:GetPanel(SettingsSecondPasswordPanle))
-		PlayerPrefs.SetFloat("firstIntoOtherPanel", 1)
+		PlayerPrefs.DeleteKey("firstIntoOtherPanel")
+		PlayerPrefs.SetInt("firstIntoOtherPanel", 1)
 		PlayerPrefs.Save()
 	end
 end

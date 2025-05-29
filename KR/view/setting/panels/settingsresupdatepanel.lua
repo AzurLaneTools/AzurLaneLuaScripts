@@ -14,11 +14,11 @@ end
 
 slot0.OnInit = function(slot0)
 	slot0.tpl = slot0._tf:Find("Tpl")
-	slot0.containerTF = slot0._tf:Find("list")
+	slot0.containerTF = slot0._tf:Find("options/list")
 	slot0.iconTF = slot0._tf:Find("Icon")
 	slot2 = not GroupMainHelper.IsVerSameWithServer()
 
-	setActive(slot0._tf:Find("MainGroup"), slot2)
+	setActive(slot0._tf:Find("options/MainGroup"), slot2)
 
 	if slot2 then
 		slot0.mainGroupBtn = SettingsMainGroupBtn.New(slot1)

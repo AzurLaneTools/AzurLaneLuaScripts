@@ -196,7 +196,7 @@ slot0.updateMap = function(slot0, slot1)
 		end
 	end
 
-	print("mapId :" .. slot0.showMapId .. " get flag = " .. tostring(getProxy(IslandProxy):GetNode(slot0.showMapId):IsCompleted()))
+	print("mapId :" .. slot0.showMapId .. " get flag = " .. tostring(getProxy(SixthAnniversaryIslandProxy):GetNode(slot0.showMapId):IsCompleted()))
 	setActive(slot0.finalAward, slot5 and not slot6)
 	setActive(slot0.gotTf, slot5 and slot6)
 	setLocalPosition(findTF(slot0.historyPage, "finalAward"), Vector3(uv0[slot0.mapIndex][1], uv0[slot0.mapIndex][2], uv0[slot0.mapIndex][3]))

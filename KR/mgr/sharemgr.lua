@@ -316,11 +316,7 @@ slot1.ShowOwnUI = function(slot0, slot1, slot2, slot3, slot4)
 
 	if PLATFORM_CODE == PLATFORM_KR then
 		onButton(slot0, slot0.panel:Find("main/buttons/facebook"), function ()
-			uv0.SdkMgr.GetInstance():ShareImg(uv1.screenshotPath, function (slot0, slot1)
-				if slot0 and slot1 == 0 then
-					uv0.TipsMgr.GetInstance():ShowTips(i18n("share_success"))
-				end
-			end)
+			uv0.SdkMgr.GetInstance():ShareImg(uv1.screenshotPath)
 			uv2()
 		end)
 	end

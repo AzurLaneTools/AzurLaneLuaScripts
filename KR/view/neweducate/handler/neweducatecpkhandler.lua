@@ -9,7 +9,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.sliderTF = slot0.bgTF:Find("slider")
 	slot0.cpkPlayer = slot0.bgTF:Find("cpk/usm"):GetComponent(typeof(CriManaCpkUI))
 
-	slot0.cpkPlayer:SetMaxFrameDrop(CriManaMovieMaterial.MaxFrameDrop.Infinite)
+	slot0.cpkPlayer:SetMaxFrameDrop(CriWare.CriManaMovieMaterialBase.MaxFrameDrop.Infinite)
 
 	slot0.cpkCoverTF = slot0.bgTF:Find("cpk_cover")
 	slot0.frameRate = Application.targetFrameRate or 60
@@ -28,7 +28,6 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 	end
 
 	slot0.cpkPlayer:StopCpk()
-	slot0.cpkPlayer.player:Stop()
 	setText(slot0.nameTF, slot3 or "")
 	slot0:SetCriManaCpkUIParam(slot1)
 	slot0.cpkPlayer:SetCpkTotalTimeCallback(function (slot0)

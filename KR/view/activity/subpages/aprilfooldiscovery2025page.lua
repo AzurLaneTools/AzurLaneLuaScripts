@@ -50,7 +50,7 @@ slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.SuperBulin2_help.tip
+			helps = pg.gametip.caibulin_help.tip
 		})
 	end, SFX_PANEL)
 

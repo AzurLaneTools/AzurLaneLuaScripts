@@ -225,6 +225,8 @@ pg.memory_group = setmetatable({
 		323,
 		324,
 		325,
+		326,
+		327,
 		501,
 		502,
 		503,
@@ -332,6 +334,7 @@ pg.memory_group = setmetatable({
 		607,
 		608,
 		609,
+		610,
 		1000,
 		1001,
 		1002,
@@ -5308,7 +5311,7 @@ pg.base.memory_group = {
 	[324] = {
 		title = "모항 패션 컬렉션: 봄날의 게으름",
 		subtype = 3,
-		link_event = 0,
+		link_event = 5911,
 		type = 2,
 		id = 324,
 		icon = "title_event",
@@ -5322,7 +5325,7 @@ pg.base.memory_group = {
 	[325] = {
 		title = "튤리퍼의 바다로",
 		subtype = 1,
-		link_event = 5921,
+		link_event = 5901,
 		type = 2,
 		id = 325,
 		icon = "title_event",
@@ -5335,6 +5338,38 @@ pg.base.memory_group = {
 			4316,
 			4317,
 			4318
+		}
+	},
+	[326] = {
+		title = "리조트 준비 중",
+		subtype = 2,
+		link_event = 5924,
+		type = 2,
+		id = 326,
+		icon = "title_event",
+		memories = {
+			4331,
+			4332,
+			4333,
+			4334,
+			4335
+		}
+	},
+	[327] = {
+		title = "영주의 원정",
+		subtype = 1,
+		link_event = 5924,
+		type = 2,
+		id = 327,
+		icon = "title_event",
+		memories = {
+			4341,
+			4342,
+			4343,
+			4344,
+			4345,
+			4346,
+			4347
 		}
 	},
 	[501] = {
@@ -7167,6 +7202,23 @@ pg.base.memory_group = {
 			4295,
 			4296,
 			4297
+		}
+	},
+	[610] = {
+		title = "무효한 에너지 절약",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 610,
+		icon = "title_chara_bunao",
+		memories = {
+			4321,
+			4322,
+			4323,
+			4324,
+			4325,
+			4326,
+			4327
 		}
 	},
 	[1000] = {

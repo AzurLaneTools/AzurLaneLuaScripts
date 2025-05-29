@@ -96,9 +96,15 @@ slot0.AdaptTo = function(slot0, slot1, slot2)
 	slot4 = NotchAdapt.CheckNotchRatio
 
 	if slot0.currentWidth / slot0.currentHeight <= slot2 then
+		slot5 = 0
 		slot6 = 1
 		slot7 = Mathf.Clamp01(slot6 * slot3 / slot2)
-		slot1.rect = UnityEngine.Rect.New(0, Mathf.Clamp01((1 - slot7) * 0.5), slot6, slot7)
+		slot8 = Mathf.Clamp01((1 - slot7) * 0.5)
+		slot0.sizeRate = slot6 / slot7
+
+		slot0:SetCameraOrthographicSize(slot1, slot0:GetCameraOrthographicSize(slot1))
+
+		slot1.rect = UnityEngine.Rect.New(0, 0, 1, 1)
 		slot0.actualWidth = slot0.currentWidth
 		slot0.actualHeight = slot0.currentWidth / slot2
 		slot9 = (slot0.currentHeight - slot0.actualHeight) * 0.5
@@ -107,9 +113,15 @@ slot0.AdaptTo = function(slot0, slot1, slot2)
 		CameraMgr.instance.finalWidth = slot0.actualWidth
 		CameraMgr.instance.finalHeight = slot0.actualHeight
 	else
+		slot5 = 0
 		slot6 = 1
 		slot7 = Mathf.Clamp01(slot6 * slot2 / slot3)
-		slot1.rect = UnityEngine.Rect.New(Mathf.Clamp01((1 - slot7) * 0.5), 0, slot7, slot6)
+		slot8 = Mathf.Clamp01((1 - slot7) * 0.5)
+		slot0.sizeRate = slot7 / slot6
+
+		slot0:SetCameraOrthographicSize(slot1, slot0:GetCameraOrthographicSize(slot1))
+
+		slot1.rect = UnityEngine.Rect.New(0, 0, 1, 1)
 		slot0.actualWidth = slot0.currentHeight * slot2
 		slot0.actualHeight = slot0.currentHeight
 		slot9 = (slot0.currentWidth - slot0.actualWidth) * 0.5
@@ -210,6 +222,21 @@ end
 
 slot0.GetCurrentHeight = function(slot0)
 	return slot0.currentHeight
+end
+
+slot2 = {}
+
+slot0.SetCameraOrthographicSize = function(slot0, slot1, slot2)
+	if not slot0.sizeRate or not slot2 then
+		return
+	end
+
+	uv0[slot1] = slot2
+	slot1.orthographicSize = slot2 * slot0.sizeRate
+end
+
+slot0.GetCameraOrthographicSize = function(slot0, slot1)
+	return uv0[slot1]
 end
 
 slot0.Clear = function(slot0)

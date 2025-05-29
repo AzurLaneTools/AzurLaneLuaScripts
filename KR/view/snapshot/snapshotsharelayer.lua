@@ -36,9 +36,11 @@ slot0.didEnter = function(slot0)
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0.confirmBtnTrans, function ()
-		slot0 = pg.TimeMgr.GetInstance():STimeDescS(pg.TimeMgr.GetInstance():GetServerTime(), "*t")
-
-		MediaSaver.SaveImageWithBytes(Application.persistentDataPath .. "/" .. ("azur" .. slot0.year .. slot0.month .. slot0.day .. slot0.hour .. slot0.min .. slot0.sec .. ".jpg"), uv0.bytes)
+		YSNormalTool.MediaTool.SaveImageWithBytes(uv0.bytes, function (slot0, slot1)
+			if slot0 then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+			end
+		end)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
 		uv0:closeView()
 	end)

@@ -10,7 +10,7 @@ slot0.Ctor = function(slot0)
 	slot0.isIninted = false
 
 	if slot0.instance then
-		ReflectionHelp.RefSetField(typeof("OSSStarter"), "debug", slot0.instance, false)
+		slot0.instance.debug = false
 	end
 end
 

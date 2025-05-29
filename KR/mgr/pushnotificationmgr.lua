@@ -63,20 +63,37 @@ slot1.isEnableShipName = function(slot0)
 	return uv0
 end
 
-slot1.Push = function(slot0, slot1, slot2, slot3)
-	slot5 = os.time() + slot3 - uv0.TimeMgr.GetInstance():GetServerTime()
+slot4 = {}
 
-	NotificationMgr.Inst:ScheduleLocalNotification(slot1, slot2, slot5)
-	slot0:log(slot1, slot2, slot5)
+slot1.Push = function(slot0, slot1, slot2, slot3)
+	slot4 = slot3 - uv0.TimeMgr.GetInstance():GetServerTime()
+
+	slot0:log(slot1, slot2, os.time() + slot4)
+	table.insert(uv1, {
+		title = slot1,
+		content = slot2,
+		offsetSecond = slot4
+	})
+end
+
+slot1.PushCache = function(slot0)
+	for slot4, slot5 in ipairs(uv0) do
+		YSNormalTool.NotificationTool.ScheduleNotification(slot4, slot5.title, slot5.content, slot5.offsetSecond * 1000)
+	end
 end
 
 slot1.cancelAll = function(slot0)
-	NotificationMgr.Inst:CancelAllLocalNotifications()
+	originalPrint("取消通知")
+	YSNormalTool.NotificationTool.CancelAllNotification()
+
+	uv0 = {}
 end
 
 slot1.PushAll = function(slot0)
 	if getProxy(PlayerProxy) and slot1:getInited() then
-		slot0:cancelAll()
+		if not PUSH_NOTIFICATION_TEST_TAG then
+			slot0:cancelAll()
+		end
 
 		if uv0[uv1.PUSH_TYPE_EVENT] then
 			slot0:PushEvent()
@@ -113,6 +130,8 @@ slot1.PushAll = function(slot0)
 		if uv0[uv1.PUSH_TYPE_GUILD_MISSION_FORMATION] then
 			slot0:PushGuildMissionFormation()
 		end
+
+		slot0:PushCache()
 	end
 end
 
@@ -240,5 +259,5 @@ slot1.PushGuildMissionFormation = function(slot0)
 end
 
 slot1.log = function(slot0, slot1, slot2, slot3)
-	originalPrint(slot1, " - ", slot2, " - ", slot3 - os.time(), "s后推送")
+	originalPrint(uv0.TimeMgr.GetInstance():CTimeDescC(slot3), "-", slot1, " - ", slot2, " - ", slot3 - os.time(), "s后推送")
 end

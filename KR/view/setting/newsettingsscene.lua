@@ -118,7 +118,7 @@ slot0.didEnter = function(slot0)
 		end, SFX_PANEL)
 	end
 
-	setActive(slot0.otherTip, PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0)
+	setActive(slot0.otherTip, PlayerPrefs.GetInt("firstIntoOtherPanel", 0) == 0)
 	slot0:EnterDefaultPage()
 end
 
@@ -147,6 +147,10 @@ slot0.SwitchPage = function(slot0, slot1)
 	slot2:ExecuteAction("Show")
 
 	slot0.page = slot2
+
+	if isa(slot2, Settings3DPage) then
+		slot0.hasShow3d = true
+	end
 
 	if isa(slot2, SettingsOtherPage) and isActive(slot0.otherTip) then
 		setActive(slot0.otherTip, false)
@@ -182,7 +186,9 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	Dorm3dRoomTemplateScene.SettingQuality()
+	if slot0.hasShow3d then
+		GraphicSettingConst.SettingQuality()
+	end
 
 	for slot4, slot5 in pairs(slot0.pages) do
 		slot5:Destroy()

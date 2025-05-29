@@ -154,7 +154,7 @@ slot0.InitCustoms = function(slot0, slot1)
 		slot17 = slot6[slot15]
 
 		setText(findTF(slot16, "Image"), i18n(slot3.names[slot15]))
-		setImageSprite(slot16, slot0.greySprite)
+		slot0:UpdateBtnStyle(slot16, slot0.greySprite)
 		onButton(slot0, slot16, function ()
 			switch(uv0, {
 				[uv1.Mode.AND] = function ()
@@ -202,13 +202,13 @@ slot0.InitCustoms = function(slot0, slot1)
 					for slot3, slot4 in ipairs(uv3) do
 						slot6 = findTF(slot4, "Image")
 
-						setImageSprite(slot4, uv2[slot3] == uv2[1] and uv4 or uv0.greySprite)
+						uv0:UpdateBtnStyle(slot4, uv2[slot3] == uv2[1] and uv4 or uv0.greySprite)
 					end
 				else
 					for slot3, slot4 in ipairs(uv3) do
 						slot6 = findTF(slot4, "Image")
 
-						setImageSprite(slot4, uv2[slot3] ~= uv2[1] and bit.band(uv0.contextData.indexDatas[uv1], uv2[slot3]) > 0 and uv4 or uv0.greySprite)
+						uv0:UpdateBtnStyle(slot4, uv2[slot3] ~= uv2[1] and bit.band(uv0.contextData.indexDatas[uv1], uv2[slot3]) > 0 and uv4 or uv0.greySprite)
 					end
 				end
 			end,
@@ -216,14 +216,14 @@ slot0.InitCustoms = function(slot0, slot1)
 				for slot3, slot4 in ipairs(uv0) do
 					slot6 = findTF(slot4, "Image")
 
-					setImageSprite(slot4, uv1[slot3] == uv2.contextData.indexDatas[uv3] and uv4 or uv2.greySprite)
+					uv2:UpdateBtnStyle(slot4, uv1[slot3] == uv2.contextData.indexDatas[uv3] and uv4 or uv2.greySprite)
 				end
 			end,
 			[uv1.Mode.NUM] = function ()
 				for slot3, slot4 in ipairs(uv0) do
 					slot6 = findTF(slot4, "Image")
 
-					setImageSprite(slot4, bit.band(uv1.contextData.indexDatas[uv2], uv3[slot3]) > 0 and uv4 or uv1.greySprite)
+					uv1:UpdateBtnStyle(slot4, bit.band(uv1.contextData.indexDatas[uv2], uv3[slot3]) > 0 and uv4 or uv1.greySprite)
 				end
 			end
 		})
@@ -260,6 +260,10 @@ slot0.InitCustoms = function(slot0, slot1)
 			slot0.simpleDropdownDic[slot2][slot17] = SimpleDropdown.New(slot0.panel, slot0.event, slot0.contextData, slot2, slot19, slot0.contextData.customPanels[slot17], slot10, slot0.greySprite, slot0.yellowSprite)
 		end
 	end
+end
+
+slot0.UpdateBtnStyle = function(slot0, slot1, slot2)
+	setImageSprite(slot1, slot2)
 end
 
 slot0.OnDatasChange = function(slot0, slot1)

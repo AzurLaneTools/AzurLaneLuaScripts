@@ -19,7 +19,12 @@ slot0.Dispose = function(slot0)
 end
 
 slot0.initData = function(slot0)
-	slot0.mgr = pg.MainGroupMgr:GetInstance()
+	slot1 = pg.SettingsGroupMgr
+	slot0.mgr = slot1:GetInstance()
+	slot0.infoName = "MainGroup"
+	slot0.groupNameList = {
+		PaintingGroupConst.PaintingGroupName
+	}
 end
 
 slot0.findUI = function(slot0, slot1)
@@ -38,15 +43,13 @@ end
 
 slot0.addListener = function(slot0)
 	onButton(slot0, slot0._tf, function ()
-		if uv0.mgr:GetState() == DownloadState.CheckFailure then
-			uv0.mgr:StartCheckD()
-		elseif slot0 == DownloadState.CheckToUpdate or slot0 == DownloadState.UpdateFailure then
+		if uv0.mgr:GetState(uv0.infoName) ~= pg.SettingsGroupMgr.State.Updating then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				type = MSGBOX_TYPE_NORMAL,
-				content = string.format(i18n("main_group_msgbox_content", HashUtil.BytesToString(uv0.mgr:GetTotalSize()))),
+				content = string.format(i18n("main_group_msgbox_content", HashUtil.BytesToString(uv0.mgr:GetTotalSize(uv0.groupNameList)))),
 				onYes = function ()
 					GroupMainHelper.SavePrefs(DMFileChecker.Prefs.Max)
-					uv0.mgr:StartUpdateD()
+					uv0.mgr:StartDownload(uv0.infoName, uv0.groupNameList)
 				end
 			})
 		end
@@ -54,10 +57,6 @@ slot0.addListener = function(slot0)
 end
 
 slot0.check = function(slot0)
-	if slot0.mgr:GetState() == DownloadState.None then
-		slot0.mgr:StartCheckD()
-	end
-
 	slot0.timer = Timer.New(function ()
 		uv0:updateUI()
 	end, 0.5, -1)
@@ -67,47 +66,27 @@ slot0.check = function(slot0)
 end
 
 slot0.updateUI = function(slot0)
-	if slot0.mgr:GetState() == DownloadState.None then
-		setText(slot0.btnText, i18n("word_maingroup_idle"))
-		setActive(slot0.loadingIcon, false)
-		setActive(slot0.newIcon, false)
-		setActive(slot0.finishIcon, false)
-	elseif slot1 == DownloadState.Checking then
-		setText(slot0.btnText, i18n("word_maingroup_checking"))
-		setActive(slot0.loadingIcon, false)
-		setActive(slot0.newIcon, false)
-		setActive(slot0.finishIcon, false)
-	elseif slot1 == DownloadState.CheckToUpdate then
+	if slot0.mgr:GetState(slot0.infoName) == pg.SettingsGroupMgr.State.None then
 		setText(slot0.btnText, i18n("word_maingroup_checktoupdate"))
 		setActive(slot0.loadingIcon, false)
 		setActive(slot0.newIcon, true)
 		setActive(slot0.finishIcon, false)
-	elseif slot1 == DownloadState.CheckOver then
-		setText(slot0.btnText, i18n("word_maingroup_latest"))
-		setActive(slot0.loadingIcon, false)
-		setActive(slot0.newIcon, false)
-		setActive(slot0.finishIcon, false)
-	elseif slot1 == DownloadState.CheckFailure then
-		setText(slot0.btnText, i18n("word_maingroup_checkfailure"))
-		setActive(slot0.loadingIcon, false)
-		setActive(slot0.newIcon, false)
-		setActive(slot0.finishIcon, false)
-	elseif slot1 == DownloadState.Updating then
+	elseif slot1 == pg.SettingsGroupMgr.State.Updating then
 		setText(slot0.btnText, i18n("word_maingroup_updating"))
 		setActive(slot0.loadingIcon, true)
 		setActive(slot0.newIcon, false)
 		setActive(slot0.finishIcon, false)
 
-		slot2, slot3 = slot0.mgr:GetCountProgress()
+		slot2, slot3 = slot0.mgr:GetCountProgress(slot0.infoName)
 
 		setSlider(slot0.progressBar, 0, slot3, slot2)
 		setText(slot0.btnText, slot2 .. "/" .. slot3)
-	elseif slot1 == DownloadState.UpdateSuccess then
+	elseif slot1 == pg.SettingsGroupMgr.State.Success then
 		setText(slot0.btnText, i18n("word_maingroup_updatesuccess"))
 		setActive(slot0.loadingIcon, false)
 		setActive(slot0.newIcon, false)
 		setActive(slot0.finishIcon, true)
-	elseif slot1 == DownloadState.UpdateFailure then
+	elseif slot1 == pg.SettingsGroupMgr.State.Fail then
 		setText(slot0.btnText, i18n("word_maingroup_updatefailure"))
 		setActive(slot0.loadingIcon, false)
 		setActive(slot0.newIcon, false)

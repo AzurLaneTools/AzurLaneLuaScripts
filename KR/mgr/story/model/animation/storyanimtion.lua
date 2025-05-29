@@ -1,6 +1,6 @@
 slot0 = class("StoryAnimtion")
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0)
 	slot0.tweens = {}
 	slot0.timers = {}
 	slot0.timeScale = 1
@@ -327,6 +327,14 @@ slot0.ClearAllTimers = function(slot0)
 	end
 
 	slot0.timers = {}
+end
+
+slot0.ClearTimer = function(slot0, slot1)
+	if slot1 and slot0.timers[slot1] then
+		slot0.timers[slot1]:Stop()
+
+		slot0.timers[slot1] = nil
+	end
 end
 
 slot0.ClearAnimation = function(slot0)

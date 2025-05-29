@@ -27,9 +27,9 @@ end
 slot0.UpdateAndroidAlarm = function(slot0)
 	slot0.alarmBtn = slot0._tf:Find("android_alarm_btn")
 	slot0.alarmPanel = slot0._tf:Find("android_alarm_panel")
-	slot2 = NotificationMgr.Inst:CanScheduleExactAlarms()
+	slot2 = YSNormalTool.NotificationTool.CanScheduleExactAlarms()
 
-	if not CameraHelper.IsAndroid() or LOCK_ANDROID_EXACT_ALARM then
+	if not PermissionHelper.IsAndroid() or LOCK_ANDROID_EXACT_ALARM then
 		setActive(slot0.alarmBtn, false)
 		setActive(slot0.alarmPanel, false)
 	elseif not slot2 then
@@ -41,7 +41,7 @@ slot0.UpdateAndroidAlarm = function(slot0)
 
 		setText(slot0.alarmPanelTipText, i18n("notify_clock_tip"))
 		onButton(slot0, slot0.alarmBtn, function ()
-			NotificationMgr.Inst:RequestScheduleExactAlarms()
+			YSNormalTool.NotificationTool.RequestScheduleExactAlarmsPermission()
 		end, SFX_PANEL)
 	else
 		setActive(slot0.alarmBtn, false)

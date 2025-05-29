@@ -15,6 +15,8 @@ slot0.execute = function(slot0, slot1)
 		slot4:updatePlayer(slot5)
 	elseif slot2.type == DROP_TYPE_ITEM then
 		getProxy(BagProxy):removeItemById(slot2.id, slot2.count)
+	elseif slot2.type == DROP_TYPE_ISLAND_ITEM then
+		getProxy(IslandProxy):GetIsland():GetInventoryAgency():RemoveItem(slot2.id, slot2.count)
 	else
 		assert(false, "no support for type --" .. slot2.type)
 	end

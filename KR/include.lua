@@ -12,7 +12,7 @@ slot1 = function(slot0, slot1)
 	return function (slot0, slot1)
 		slot2 = slot0.__name
 
-		if uv0 == 1 and cs[slot2][slot1] then
+		if uv0 == 1 and cs[slot2][slot1] and not pg.base[slot2][slot1] then
 			LuaHelper.SetConfVal(slot2, cs[slot2][slot1][1], cs[slot2][slot1][2])
 		end
 
@@ -107,3 +107,4 @@ require("buffCfg")
 require("cardCfg")
 require("genVertify")
 require("buffFXPreloadList")
+require("nodecanvas/Include")

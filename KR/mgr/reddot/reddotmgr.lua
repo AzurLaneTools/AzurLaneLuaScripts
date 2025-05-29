@@ -93,7 +93,7 @@ slot0.BindConditions = function(slot0)
 		end
 	end)
 	slot0:BindCondition(uv0.TYPES.SETTTING, function ()
-		return PlayerPrefs.GetFloat("firstIntoOtherPanel") == 0
+		return PlayerPrefs.GetInt("firstIntoOtherPanel", 0) == 0
 	end)
 	slot0:BindCondition(uv0.TYPES.SERVER, function ()
 		return #getProxy(ServerNoticeProxy):getServerNotices(false) > 0 and getProxy(ServerNoticeProxy):hasNewNotice()

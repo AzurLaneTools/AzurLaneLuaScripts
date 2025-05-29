@@ -16,6 +16,7 @@ require("Include")
 require("tolua.reflection")
 tolua.loadassembly("Assembly-CSharp")
 tolua.loadassembly("UnityEngine.UI")
+tolua.loadassembly("Live2D.Cubism")
 math.randomseed(os.time())
 
 CSharpVersion = NetConst.GatewayState
@@ -33,9 +34,9 @@ end
 QualitySettings.vSyncCount = 0
 QualitySettings.skinWeights = ReflectionHelp.RefGetField(typeof("UnityEngine.SkinWeights"), "Unlimited", nil)
 
-tolua.loadassembly("com.blhx.builtin-pipeline.runtime")
-Dorm3dRoomTemplateScene.InitDefautQuality()
-Dorm3dRoomTemplateScene.SettingQuality()
+GraphicSettingConst.ClearPlayerPrefs()
+GraphicSettingConst.InitDefautQuality()
+GraphicSettingConst.SettingQuality()
 ReflectionHelp.RefSetField(typeof("ResourceMgr"), "_asyncMax", ResourceMgr.Inst, 30)
 
 tf(GameObject.Find("EventSystem")):GetComponent(typeof(EventSystem)).sendNavigationEvents = false
@@ -50,10 +51,12 @@ if IsUnityEditor then
 	end
 end
 
-ResourceMgr.Inst.enableAssetNameFinder = false
-
 if (PLATFORM_CODE == PLATFORM_CH and CSharpVersion < 48 or PLATFORM_CODE == PLATFORM_CHT) and PLATFORM == 8 then
 	pg.SdkMgr.GetInstance():InitSDK()
+end
+
+if PLATFORM_CODE == PLATFORM_CH then
+	BilibiliSdkMgr.checkSimulator = false
 end
 
 slot0 = pg.TimeMgr.GetInstance()
@@ -300,6 +303,7 @@ seriesAsync({
 				pg.BgmMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
+				pg.SettingsGroupMgr.GetInstance():Init()
 				pg.FileDownloadMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
@@ -332,12 +336,15 @@ seriesAsync({
 		}, slot0)
 	end
 }, function (slot0)
+	require("HybridCLRConst")
+	Sandystar.HybridCLRTool.HybridCLRHelper.LoadPatchDLL(Application.streamingAssetsPath .. "/AssetBundles/hybridclr/patch/", HybridCLRConst.PatchDllList)
+	Sandystar.HybridCLRTool.HybridCLRHelper.LoadHotfixDLL(Application.persistentDataPath .. "/AssetBundles/hybridclr/hotfix/", HybridCLRConst.HotfixDllList)
 	pg.SdkMgr.GetInstance():QueryWithProduct()
 	print("loading cost: " .. os.clock() - uv0)
 	VersionMgr.Inst:DestroyUI()
 
 	if not IsNil(GameObject.Find("OverlayCamera/Overlay/UIMain/ServerChoosePanel")) then
-		Object.Destroy(slot1)
+		Object.Destroy(slot5)
 	end
 
 	Screen.sleepTimeout = SleepTimeout.SystemSetting
@@ -351,27 +358,27 @@ seriesAsync({
 		return
 	end
 
-	slot2 = pg.SdkMgr.GetInstance()
+	slot6 = pg.SdkMgr.GetInstance()
 
-	slot2:BindCPU()
+	slot6:BindCPU()
 
 	pg.m02 = pm.Facade.getInstance("m02")
-	slot2 = pg.m02
+	slot6 = pg.m02
 
-	slot2:registerCommand(GAME.STARTUP, StartupCommand)
+	slot6:registerCommand(GAME.STARTUP, StartupCommand)
 
-	slot2 = pg.m02
+	slot6 = pg.m02
 
-	slot2:sendNotification(GAME.STARTUP)
+	slot6:sendNotification(GAME.STARTUP)
 
 	pg.playerResUI = PlayerResUI.New()
-	slot2 = pg.SdkMgr.GetInstance()
+	slot6 = pg.SdkMgr.GetInstance()
 
-	slot2:GoSDkLoginScene()
+	slot6:GoSDkLoginScene()
 
-	slot2 = pg.UIMgr.GetInstance()
+	slot6 = pg.UIMgr.GetInstance()
 
-	slot2:AddDebugButton("Device Info", function ()
+	slot6:AddDebugButton("Device Info", function ()
 		originalPrint("+++++++++++graphicsDeviceVendorID:" .. SystemInfo.graphicsDeviceVendorID)
 		DevicePerformanceUtil.GetDevicePerformanceLevel()
 		originalPrint("CPU核心:" .. SystemInfo.processorCount)

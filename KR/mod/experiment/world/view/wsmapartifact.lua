@@ -60,8 +60,8 @@ slot0.Init = function(slot0)
 		slot1.raycastTarget = false
 	end
 
-	for slot6 = 0, slot0.moduleTF:GetComponentsInChildren(typeof(UnityEngine.UI.Graphic), true).Length - 1 do
-		slot2[slot6].raycastTarget = false
+	for slot6, slot7 in ipairs(slot0.moduleTF:GetComponentsInChildren(typeof(UnityEngine.UI.Graphic), true):ToTable()) do
+		slot7.raycastTarget = false
 	end
 
 	slot3 = Vector2.zero

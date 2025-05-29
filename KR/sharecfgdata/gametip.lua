@@ -10608,6 +10608,11 @@ _G.pg.base.gametip.destroy_high_level_tip = {
 }
 
 
+_G.pg.base.gametip.destroy_importantequipment_tip = {
+	tip = "<color=#92fc63>중요</color>"
+}
+
+
 _G.pg.base.gametip.destroy_eliteequipment_tip = {
 	tip = "$1 장비가 선택되어 있습니다. 계속하시겠습니까?"
 }
@@ -37561,4 +37566,184 @@ _G.pg.base.gametip.xiaoankeleiqi_npc = {
 			info = "7. 임시 가입 상태인 [꼬마 앵커리지]는 대함대 작전에 참여할 수 없습니다. "
 		}
 	}
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_gup_driver = {
+	tip = "GPUPU 허가"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution = {
+	tip = "최대 해상도"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname0 = {
+	tip = "720P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname1 = {
+	tip = "1080P"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_resolution_optionname2 = {
+	tip = "2K"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality = {
+	tip = "렌더링 정밀도"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname0 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_rendering_quality_optionname1 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality = {
+	tip = "셰이더 정밀도"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname0 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shader_quality_optionname1 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality = {
+	tip = "그림자 품질"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname0 = {
+	tip = "오프"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname1 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname2 = {
+	tip = "중간"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_quality_optionname3 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode = {
+	tip = "음영 처리 갱신 빈도"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname0 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname1 = {
+	tip = "중간"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname2 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_shadow_update_mode_optionname3 = {
+	tip = "프레임 갱신"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality = {
+	tip = "환경 품질"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname0 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname1 = {
+	tip = "중간"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_terrain_layer_quality_optionname2 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_additional_lights = {
+	tip = "멀티 라이팅"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_reflection = {
+	tip = "반사"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality = {
+	tip = "캐릭터 품질"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname0 = {
+	tip = "낮음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname1 = {
+	tip = "중간"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_character_quality_optionname2 = {
+	tip = "높음"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_process = {
+	tip = "포스트 프로세싱"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_post_antialiasing = {
+	tip = "안티에일리어싱"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_hdr = {
+	tip = "HDR"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_distort = {
+	tip = "왜곡 정도"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
+	tip = "DOF"
 }

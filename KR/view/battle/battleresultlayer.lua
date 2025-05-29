@@ -240,7 +240,7 @@ slot0.didEnter = function(slot0)
 	})
 
 	if slot0.contextData.system ~= SYSTEM_BOSS_RUSH and slot0.contextData.system ~= SYSTEM_BOSS_RUSH_EX and slot0.contextData.system ~= SYSTEM_ACT_BOSS and slot0.contextData.system ~= SYSTEM_BOSS_SINGLE and slot0.contextData.system ~= SYSTEM_BOSS_SINGLE_VARIABLE then
-		ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCemera(false)
+		ys.Battle.BattleCameraUtil.GetInstance().ActiveMainCamera(false)
 	end
 
 	slot0._grade.transform.localScale = Vector3(1.5, 1.5, 0)

@@ -25982,7 +25982,7 @@ pg.base.furniture_data_template = {
 	},
 	[100073] = {
 		can_rotate = 0,
-		describe = "超重承载、结构稳定，冲向海浪！",
+		describe = "아무리 무거워도 문제없지! 안정적인 균형으로 파도를 향해 달려가자!",
 		gain_by = "",
 		type = 11,
 		dir = 0,
@@ -26001,7 +26001,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		icon = "hailangchonglangbanicon",
 		count = 1,
-		name = "啾啾冲浪板",
+		name = "슈슝 서핑보드",
 		advice = 0,
 		id = 100073,
 		tag = 6,

@@ -98972,6 +98972,43 @@ _G.pg.base.item_data_statistics[81421] = {
 }
 
 
+_G.pg.base.item_data_statistics[81425] = {
+	open_directly = 1,
+	name = "스위트 애프터눈 티",
+	type = 17,
+	display = "일러스트리어스급 항공모함·일러스트리어스 (HMS Illustrious)",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "SquareIcon/guanghui_8",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906148",
+	id = 81425,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			7,
+			237030,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_data_statistics[99952] = {
 	open_directly = 0,
 	name = "SP 해역 드랍 관련 우편",

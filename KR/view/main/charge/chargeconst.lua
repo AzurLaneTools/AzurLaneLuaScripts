@@ -50,10 +50,6 @@ slot0.getGoodsLimitInfo = function(slot0)
 end
 
 slot0.isNeedSetBirth = function()
-	if PLATFORM_CODE == PLATFORM_JP and pg.SdkMgr.GetInstance():GetIsPlatform() and not pg.SdkMgr.GetInstance():GetIsBirthSet() then
-		return true
-	end
-
 	return false
 end
 

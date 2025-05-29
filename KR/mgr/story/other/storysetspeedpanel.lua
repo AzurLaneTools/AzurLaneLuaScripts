@@ -14,23 +14,23 @@ slot6 = function(slot0)
 	})[slot0]
 end
 
-slot7 = function()
-	if table.indexof(Story.STORY_AUTO_SPEED, pg.NewStoryMgr.GetInstance():GetPlaySpeed() or 0) <= 0 or slot1 > #Story.STORY_AUTO_SPEED then
-		slot1 = 1
+slot7 = function(slot0)
+	if table.indexof(Story.STORY_AUTO_SPEED, slot0:GetPlaySpeed() or 0) <= 0 or slot2 > #Story.STORY_AUTO_SPEED then
+		slot2 = 1
 	end
 
-	return uv0(slot1)
+	return uv0(slot2)
 end
 
-slot0.Ctor = function(slot0, slot1)
+slot0.Ctor = function(slot0, slot1, slot2)
 	pg.DelegateInfo.New(slot0)
 
 	slot0._tf = slot1
 	slot0.speedBtn = findTF(slot0._tf, "front/btns/btns/speed")
 	slot0.speedImg = slot0.speedBtn:Find("Text"):GetComponent(typeof(Image))
 	slot0.speedAnim = slot0.speedBtn:GetComponent(typeof(Animation))
-	slot2 = slot0.speedBtn
-	slot0.speedAniEvent = slot2:GetComponent(typeof(DftAniEvent))
+	slot3 = slot0.speedBtn
+	slot0.speedAniEvent = slot3:GetComponent(typeof(DftAniEvent))
 	slot0.speedPanel = findTF(slot0._tf, "front/speed_panel")
 	slot0.speedList = {
 		slot0.speedPanel:Find("adpter/frame/content/0.5"),
@@ -41,6 +41,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.speedPanelImg = slot0.speedPanel:Find("adpter/frame/speed/Text"):GetComponent(typeof(Image))
 	slot0.speedPanelAnim = slot0.speedPanel:GetComponent(typeof(Animation))
 	slot0.speedPanelAniEvent = slot0.speedPanel:GetComponent(typeof(DftAniEvent))
+	slot0.onUpdate = slot2
 
 	slot0:Init()
 end
@@ -64,7 +65,12 @@ slot0.Init = function(slot0)
 
 	for slot4, slot5 in ipairs(slot0.speedList) do
 		onButton(slot0, slot5, function ()
-			pg.NewStoryMgr.GetInstance():UpdatePlaySpeed(Story.STORY_AUTO_SPEED[uv0])
+			slot0 = Story.STORY_AUTO_SPEED[uv0]
+
+			if uv1.onUpdate then
+				uv1.onUpdate(slot0)
+			end
+
 			uv1:HideSettings()
 		end, SFX_PANEL)
 	end
@@ -72,10 +78,12 @@ slot0.Init = function(slot0)
 	slot0.speedPanelStatus = uv1
 end
 
-slot0.Show = function(slot0)
+slot0.Show = function(slot0, slot1)
+	slot0.story = slot1
+
 	setActive(slot0.speedBtn, true)
 
-	slot0.speedImg.sprite = GetSpriteFromAtlas("ui/story_atlas", uv0())
+	slot0.speedImg.sprite = GetSpriteFromAtlas("ui/story_atlas", uv0(slot1))
 
 	slot0.speedImg:SetNativeSize()
 	slot0.speedAniEvent:SetEndEvent(function ()
@@ -96,7 +104,7 @@ slot0.ShowSettings = function(slot0)
 	setActive(slot0.speedBtn, false)
 	setActive(slot0.speedPanel, true)
 
-	slot5 = uv0()
+	slot5 = uv0(slot0.story)
 	slot0.speedPanelImg.sprite = GetSpriteFromAtlas("ui/story_atlas", slot5)
 
 	slot0.speedPanelImg:SetNativeSize()
@@ -143,7 +151,7 @@ end
 
 slot0.HideSettings = function(slot0)
 	slot0:RemoveTimer()
-	slot0:Show()
+	slot0:Show(slot0.story)
 	slot0.speedPanelAnim:Stop()
 	slot0.speedPanelAnim:Play("anim_newstoryUI_speedpanel_out")
 

@@ -5,7 +5,7 @@ slot0.GetEventName = function(slot0)
 end
 
 slot0.GetActivity = function(slot0)
-	if slot0.config.time and slot0.config.time[1] == "default" then
+	if slot0.config and slot0.config.time and slot0.config.time[1] == "default" then
 		slot3 = getProxy(ActivityProxy)
 
 		return _.detect(slot3:getActivitiesByType(pg.activity_template[slot0.config.time[2]].type), function (slot0)

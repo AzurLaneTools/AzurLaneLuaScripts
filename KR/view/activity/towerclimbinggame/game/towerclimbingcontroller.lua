@@ -165,6 +165,7 @@ end
 slot0.Update = function(slot0)
 	slot0.view:Update()
 	slot0.map:Update()
+	Physics2D.Simulate(1 / (Application.targetFrameRate or 60))
 
 	if slot0.IsStarting and slot0.map:GetPlayer():IsDeath() then
 		slot0:EndGame()

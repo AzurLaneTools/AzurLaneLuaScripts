@@ -86,8 +86,8 @@ slot0.AttachOrbit = function(slot0, slot1)
 					slot2 = uv3[slot1][1]
 					slot3 = uv3[slot1][2]
 
-					for slot9 = 1, Object.Instantiate(slot0):GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)).Length do
-						slot5[slot9 - 1].raycastTarget = false
+					for slot9, slot10 in ipairs(Object.Instantiate(slot0):GetComponentsInChildren(typeof(Spine.Unity.SkeletonGraphic)):ToTable()) do
+						slot10.raycastTarget = false
 					end
 
 					slot4.transform.localPosition = Vector2(slot3[1], slot3[2])
