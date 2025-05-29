@@ -25,7 +25,7 @@ slot2 = function()
 	end
 
 	if PLATFORM_CODE == PLATFORM_JP then
-		table.insert(slot0, uv0.CREATE_INHERIT)
+		-- Nothing
 	end
 
 	return slot0

@@ -24158,7 +24158,7 @@ _G.pg.base.gametip.maid_task_tips1 = {
 
 
 _G.pg.base.gametip.shop_akashi_pick_title = {
-	tip = "{namecode:98}的精选"
+	tip = "茗的精选"
 }
 
 
