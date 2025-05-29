@@ -4,7 +4,7 @@ slot1 = 7
 slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
-	slot0.toggleTr = slot0:findTF("toggle_nav")
+	slot0.toggleTr = slot0._tf:Find("blur_panel/adapt/left_length/frame/toggle_nav")
 	slot0.toggleOnTr = slot0.toggleTr:Find("on")
 	slot0.toggleOffTr = slot0.toggleTr:Find("off")
 

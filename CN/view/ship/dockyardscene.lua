@@ -177,21 +177,24 @@ slot0.init = function(slot0)
 		setActive(slot4, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
 	end
 
-	slot0.togglePhantom = slot0._tf:Find("toggle_phantom")
+	slot0.togglePhantom = slot0._tf:Find("blur_panel/adapt/left_length/frame/toggle_phantom")
 
-	onToggle(slot0, slot0.togglePhantom, function ()
-		uv0.inPhantom = not uv0.inPhantom
+	onToggle(slot0, slot0.togglePhantom, function (slot0)
+		if uv0.inPhantom ~= slot0 then
+			uv0.inPhantom = slot0
 
-		uv0:SwitchContainerDisplay()
+			uv0:SwitchContainerDisplay()
+		end
 	end, SFX_PANEL)
 	setActive(slot0.togglePhantom, false)
 
-	slot0.helpPhantom = slot0._tf:Find("help_phantom")
+	slot0.helpPhantom = slot0._tf:Find("blur_panel/adapt/left_length/frame/help_phantom")
 
 	onButton(slot0, slot0.helpPhantom, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = i18n("projection_help")
+			helps = i18n("projection_help"),
+			weight = uv0.contextData.LayerWeightMgr_weight or nil
 		})
 	end, SFX_PANEL)
 
@@ -1438,7 +1441,13 @@ slot0.didEnter = function(slot0)
 			uv0:displayDestroyPanel()
 		end
 	end, SFX_CONFIRM)
-	slot0:SwitchContainerDisplay()
+
+	if isActive(slot0.togglePhantom) then
+		triggerToggle(slot0.togglePhantom, tobool(slot0.inPhantom))
+	else
+		slot0:SwitchContainerDisplay()
+	end
+
 	slot0:updateBarInfo()
 
 	if slot0.contextData.mode == uv0.MODE_WORLD then
@@ -2005,7 +2014,6 @@ slot0.willExit = function(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
-	pg.m02:sendNotification(DockyardMediator.QUIT_DOCKYARD_SCENE)
 end
 
 slot0.uiStartAnimating = function(slot0)

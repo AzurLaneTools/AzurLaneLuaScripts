@@ -150,7 +150,7 @@ slot0.ShowAdmiral = function(slot0)
 				}
 
 				uv0:loadPainting(uv0.paintingInfo[slot1])
-				setText(slot2:Find("Style_card/bg/desc/name_bar/name"), slot5.name)
+				changeToScrollText(slot2:Find("Style_card/bg/desc/name_bar/name"), slot5.name)
 				setToggleEnabled(slot2, true)
 			else
 				slot4 = uv2 < slot1

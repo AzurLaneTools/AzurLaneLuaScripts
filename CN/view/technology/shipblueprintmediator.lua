@@ -142,7 +142,10 @@ slot0.register = function(slot0)
 			data = {
 				mode = DockyardScene.MODE_SHIP_PHANTOM,
 				techVersion = slot1
-			}
+			},
+			onRemoved = function ()
+				uv0.viewComponent:changeEffectVisible(true)
+			end
 		}))
 		uv0.viewComponent:changeEffectVisible(false)
 	end)
@@ -170,8 +173,7 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.MOD_BLUEPRINT_ANIM_LOCK,
 		GAME.PURSUING_RESET_DONE,
 		GAME.QUICK_EXCHANGE_BLUEPRINT_DONE,
-		GAME.FINISH_PHANTOM_QUEST_DONE,
-		DockyardMediator.QUIT_DOCKYARD_SCENE
+		GAME.FINISH_PHANTOM_QUEST_DONE
 	}
 end
 
@@ -231,8 +233,6 @@ slot0.handleNotification = function(slot0, slot1)
 		end)
 	elseif slot2 == GAME.FINISH_PHANTOM_QUEST_DONE then
 		slot0.viewComponent:updatePhantomQuest()
-	elseif slot2 == DockyardMediator.QUIT_DOCKYARD_SCENE then
-		slot0.viewComponent:changeEffectVisible(true)
 	end
 end
 

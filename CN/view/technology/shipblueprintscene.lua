@@ -467,6 +467,7 @@ slot0.switchHide = function(slot0)
 	setActive(slot0.stateInfo, slot1)
 	setActive(slot0.helpBtn, slot1)
 	setActive(slot0.exchangeBtn, slot1)
+	setActive(slot0.btnPhantom, slot1)
 	setImageAlpha(slot0.itemUnlockBtn, slot1 and 1 or 0)
 	setImageRaycastTarget(slot0.itemUnlockBtn, slot1)
 	setImageAlpha(slot0.speedupBtn, slot1 and 1 or 0)
@@ -2637,6 +2638,7 @@ end
 
 slot0.changeEffectVisible = function(slot0, slot1)
 	setActive(slot0.fittingBtn, slot1)
+	setActive(slot0.initPanel, slot1)
 end
 
 return slot0
