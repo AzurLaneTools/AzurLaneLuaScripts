@@ -56,6 +56,7 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 		setActive(slot0.limitPassTag, false)
 	end
 
+	setActive(slot0.unexchangeTag, false)
 	removeOnButton(slot0.mask)
 
 	if slot6 then

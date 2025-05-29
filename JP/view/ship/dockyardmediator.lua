@@ -5,7 +5,6 @@ slot0.ON_SHIP_REPAIR = "DockyardMediator:ON_SHIP_REPAIR"
 slot0.OPEN_DOCKYARD_INDEX = "DockyardMediator:OPEN_DOCKYARD_INDEX"
 slot0.CHANGE_SKIN = "DockyardMediator.CHANGE_SKIN"
 slot0.CHANGE_RANDOM_FLAG = "DockyardMediator.CHANGE_RANDOM_FLAG"
-slot0.QUIT_DOCKYARD_SCENE = "DockyardMediator.QUIT_DOCKYARD_SCENE"
 
 slot0.register = function(slot0)
 	slot1 = getProxy(BayProxy)

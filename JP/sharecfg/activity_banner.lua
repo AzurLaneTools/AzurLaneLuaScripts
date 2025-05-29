@@ -61,8 +61,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					5,
-					31
+					6,
+					11
 				},
 				{
 					23,
@@ -83,8 +83,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					5,
-					29
+					6,
+					1
 				},
 				{
 					0,
@@ -171,6 +171,7 @@ pg.activity_banner = {
 		}
 	},
 	{
+		time = "stop",
 		type = 2,
 		id = 6,
 		pic = "temp2",
@@ -178,32 +179,6 @@ pg.activity_banner = {
 			"scene charge",
 			{
 				wrap = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					12
-				},
-				{
-					16,
-					0,
-					0
-				}
 			}
 		}
 	},

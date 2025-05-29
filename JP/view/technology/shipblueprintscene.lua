@@ -467,6 +467,7 @@ slot0.switchHide = function(slot0)
 	setActive(slot0.stateInfo, slot1)
 	setActive(slot0.helpBtn, slot1)
 	setActive(slot0.exchangeBtn, slot1)
+	setActive(slot0.btnPhantom, slot1)
 	setImageAlpha(slot0.itemUnlockBtn, slot1 and 1 or 0)
 	setImageRaycastTarget(slot0.itemUnlockBtn, slot1)
 	setImageAlpha(slot0.speedupBtn, slot1 and 1 or 0)
@@ -1196,6 +1197,17 @@ slot0.updateModPanel = function(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.calcMaxBtn, not slot5)
 
+	slot12 = false
+
+	if not pg.NewStoryMgr.GetInstance():IsPlayed("PHANTOM_HELP") then
+		slot12 = true
+
+		pg.NewGuideMgr.GetInstance():Play("PHANTOM_HELP")
+		pg.m02:sendNotification(GAME.STORY_UPDATE, {
+			storyId = "PHANTOM_HELP"
+		})
+	end
+
 	if slot1:canFateSimulation() then
 		onButton(slot0, slot0.fittingBtn, function ()
 			if uv0.isSwitchAnim then
@@ -1226,21 +1238,23 @@ slot0.updateModPanel = function(slot0)
 		end, SFX_PANEL)
 		slot0:updateFittingPanel()
 
-		slot13 = pg.NewStoryMgr.GetInstance()
+		if not slot12 then
+			slot14 = pg.NewStoryMgr.GetInstance()
 
-		slot13:Play(slot1:getConfig("luck_story"), function (slot0)
-			if slot0 then
-				slot1 = uv0
+			slot14:Play(slot1:getConfig("luck_story"), function (slot0)
+				if slot0 then
+					slot1 = uv0
 
-				slot1:buildStartAni("fateStartWindow", function ()
-					triggerButton(uv0.fittingBtn)
-				end)
-			end
-		end)
+					slot1:buildStartAni("fateStartWindow", function ()
+						triggerButton(uv0.fittingBtn)
+					end)
+				end
+			end)
+		end
 	end
 
-	setActive(slot0.calcPanel, not slot12)
-	setActive(slot0.fittingBtn, slot12)
+	setActive(slot0.calcPanel, not slot13)
+	setActive(slot0.fittingBtn, slot13)
 	setActive(slot0.fittingBtnEffect, false)
 end
 
@@ -2624,6 +2638,7 @@ end
 
 slot0.changeEffectVisible = function(slot0, slot1)
 	setActive(slot0.fittingBtn, slot1)
+	setActive(slot0.initPanel, slot1)
 end
 
 return slot0

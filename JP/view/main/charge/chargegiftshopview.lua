@@ -209,10 +209,15 @@ slot0.updateGiftGoodsVOList = function(slot0)
 	slot1 = RefluxShopView.getAllRefluxPackID()
 
 	for slot6, slot7 in pairs(pg.pay_data_display.all) do
-		if not table.contains(slot1, slot7) and not (slot2[slot7].extra_service == Goods.ITEM_BOX and slot8.akashi_pick == 1) and (slot9 == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
-			shop_id = slot7
-		}, Goods.TYPE_CHARGE)) then
-			table.insert(slot0.giftGoodsVOList, slot11)
+		if not table.contains(slot1, slot7) then
+			slot8 = slot2[slot7]
+			slot9 = slot8.extra_service
+
+			if not (slot8.akashi_pick == 1) and (slot9 == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
+				shop_id = slot7
+			}, Goods.TYPE_CHARGE)) then
+				table.insert(slot0.giftGoodsVOList, slot11)
+			end
 		end
 	end
 
