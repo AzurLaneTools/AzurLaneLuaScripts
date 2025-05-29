@@ -85,7 +85,7 @@ pg.item_data_battleui = {
 		scene = {}
 	},
 	[107] = {
-		unlock = "世界巡游二十三期获取",
+		unlock = "Cruise Missions S23",
 		name = "Radiant Stars",
 		key = "SkinNormal_20250529",
 		display_icon = "ui_107",
