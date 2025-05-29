@@ -170307,6 +170307,31 @@ _G.pg.base.item_virtual_data_statistics[65099] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65100] = {
+	drop_gold_max = 0,
+	name = "進捗Pt",
+	display = "キャンペーン「シーズン任務」で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7023,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65100,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "レジスタンス記念勲章",
@@ -173128,6 +173153,31 @@ _G.pg.base.item_virtual_data_statistics[66006] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66006,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68081] = {
+	drop_gold_max = 0,
+	name = "友好度-エーギルちゃん",
+	display = "イベント「「深淵の国」の支配者」・友好度",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaoaijierPT",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68081,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -181141,6 +181191,60 @@ _G.pg.base.item_virtual_data_statistics[86213] = {
 		{
 			202351,
 			2000
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86214] = {
+	drop_gold_max = 0,
+	name = "ランダム衣装",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86214,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			207055,
+			1400
+		},
+		{
+			403142,
+			1400
+		},
+		{
+			299024,
+			1400
+		},
+		{
+			502043,
+			1400
+		},
+		{
+			705042,
+			1580
+		},
+		{
+			105102,
+			1410
+		},
+		{
+			105093,
+			1410
 		}
 	}
 }

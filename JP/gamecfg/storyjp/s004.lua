@@ -46,6 +46,7 @@ return {
 			actor = 900009,
 			side = 1,
 			nameColor = "#ff0000",
+			actorAlpha = 0,
 			say = "え～戦局は有利なのに、どうして？",
 			typewriter = {
 				speed = 0.05,
@@ -67,6 +68,7 @@ return {
 			actorName = "プリンツ・オイゲン",
 			nameColor = "#ff0000",
 			side = 1,
+			actorAlpha = 0,
 			say = "あら、じゃあしょうがないわ。子猫ちゃんたち、また今度ね。",
 			typewriter = {
 				speed = 0.05,
@@ -133,7 +135,7 @@ return {
 			nameColor = "#ff0000",
 			dir = -1,
 			blackBg = true,
-			actor = 900011,
+			actor = 900313,
 			mode = 2,
 			say = "…人類って面白い。力のカケラを授けただけで、またあの歴史を繰り返すとは。",
 			shake = {

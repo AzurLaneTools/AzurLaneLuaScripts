@@ -397,39 +397,42 @@ slot16 = function(slot0)
 	slot0._shopPreView = slot0.live2dData.shopPreView
 	slot0._listenerParameters = {}
 	slot0._listenerStepIndex = 0
+	slot1 = "live2D初始化id列表："
 
-	for slot4, slot5 in ipairs(slot0.live2dData.shipL2dId) do
-		if pg.ship_l2d[slot5] and slot0:getDragEnable(slot6) then
-			slot8 = Live2dDrag.New(slot6, slot0.live2dData)
+	for slot5, slot6 in ipairs(slot0.live2dData.shipL2dId) do
+		if pg.ship_l2d[slot6] and slot0:getDragEnable(slot7) then
+			slot1 = slot1 .. slot7.id .. ","
+			slot9 = Live2dDrag.New(slot7, slot0.live2dData)
 
-			slot8:setParameterCom(slot0.liveCom:GetCubismParameter(slot6.parameter))
-			slot8:setEventCallback(function (slot0, slot1)
+			slot9:setParameterCom(slot0.liveCom:GetCubismParameter(slot7.parameter))
+			slot9:setEventCallback(function (slot0, slot1)
 				uv0(uv1, slot0, slot1)
 				uv2(uv1, slot0, slot1)
 			end)
-			slot0.liveCom:AddParameterValue(slot8.parameterName, slot8.startValue, uv3[slot8.mode])
+			slot0.liveCom:AddParameterValue(slot9.parameterName, slot9.startValue, uv3[slot9.mode])
 
-			if slot6.relation_parameter and slot6.relation_parameter.list then
-				for slot14, slot15 in ipairs(slot6.relation_parameter.list) do
-					if slot0.liveCom:GetCubismParameter(slot15.name) then
-						slot8:addRelationComData(slot16, slot15)
-						slot0.liveCom:AddParameterValue(slot15.name, slot15.start or slot8.startValue or 0, uv3[slot15.mode or slot6.mode])
+			if slot7.relation_parameter and slot7.relation_parameter.list then
+				for slot15, slot16 in ipairs(slot7.relation_parameter.list) do
+					if slot0.liveCom:GetCubismParameter(slot16.name) then
+						slot9:addRelationComData(slot17, slot16)
+						slot0.liveCom:AddParameterValue(slot16.name, slot16.start or slot9.startValue or 0, uv3[slot16.mode or slot7.mode])
 					end
 				end
 			end
 
-			table.insert(slot0.drags, slot8)
+			table.insert(slot0.drags, slot9)
 
-			if not table.contains(slot0._listenerParameters, slot9) then
-				table.insert(slot0._listenerParameters, slot9)
+			if not table.contains(slot0._listenerParameters, slot10) then
+				table.insert(slot0._listenerParameters, slot10)
 			end
 
-			if slot8.drawAbleName and slot8.drawAbleName ~= "" and not table.contains(slot0.dragParts, slot8.drawAbleName) then
-				table.insert(slot0.dragParts, slot8.drawAbleName)
+			if slot9.drawAbleName and slot9.drawAbleName ~= "" and not table.contains(slot0.dragParts, slot9.drawAbleName) then
+				table.insert(slot0.dragParts, slot9.drawAbleName)
 			end
 		end
 	end
 
+	print(slot1)
 	slot0.liveCom:SetDragParts(slot0.dragParts)
 
 	slot0.eventTrigger = GetOrAddComponent(slot0.liveCom.transform.parent, typeof(EventTriggerListener))
@@ -916,7 +919,7 @@ slot0.resetL2dData = function(slot0)
 			uv0._tf.position = uv0._l2dPosition
 		end
 	end))
-	Live2dConst.ClearLive2dSave(slot0.live2dData.ship.skinId, slot0.live2dData.ship.id)
+	Live2dConst.ClearLive2dSave(slot0.live2dData.ship:getSkinId(), slot0.live2dData.ship.id)
 	slot0:Reset()
 	slot0:changeIdleIndex(0)
 	slot0:loadLive2dData()
@@ -1021,6 +1024,10 @@ slot0.live2dActionChange = function(slot0, slot1)
 	slot0:updateDragsSateData()
 end
 
+slot0.setPosition = function(slot0, slot1)
+	slot0._tf.localPosition = slot1
+end
+
 slot0.updateDragsSateData = function(slot0)
 	slot1 = {
 		idleIndex = slot0.idleIndex,
@@ -1074,6 +1081,15 @@ slot0.changeDragParameter = function(slot0, slot1, slot2)
 			end
 		end
 	end
+end
+
+slot0.setSortingLayer = function(slot0, slot1)
+	slot0:updateL2dSortMode()
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot1)
+end
+
+slot0.updateL2dSortMode = function(slot0)
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingMode", slot0._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder", nil))
 end
 
 slot0.Dispose = function(slot0)
@@ -1139,6 +1155,15 @@ slot0.AtomSouceFresh = function(slot0)
 end
 
 slot0.addKeyBoard = function(slot0)
+end
+
+slot0.SetL2dSortingLayer = function(slot0, slot1)
+	uv0.UpdateL2dSortMode(slot0)
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot0:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot1)
+end
+
+slot0.UpdateL2dSortMode = function(slot0)
+	ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingMode", slot0:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), ReflectionHelp.RefGetField(typeof("Live2D.Cubism.Rendering.CubismSortingMode"), "BackToFrontOrder", nil))
 end
 
 return slot0

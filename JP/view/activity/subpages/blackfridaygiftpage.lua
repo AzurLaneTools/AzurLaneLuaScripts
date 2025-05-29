@@ -188,6 +188,7 @@ slot0.OnCharge = function(slot0, slot1)
 	if slot1:isChargeType() then
 		slot0:emit(ActivityMediator.OPEN_CHARGE_ITEM_PANEL, {
 			isChargeType = true,
+			infoTip = slot1:GetInfoTip(),
 			icon = "chargeicon/" .. slot1:getConfig("picture"),
 			name = slot1:getConfig("name_display"),
 			tipExtra = i18n("charge_title_getitem"),

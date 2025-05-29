@@ -245,6 +245,8 @@ pg.furniture_data_template = setmetatable({
 			100070,
 			100071,
 			100072,
+			100073,
+			100074,
 			200001,
 			200002,
 			200003,
@@ -5771,6 +5773,8 @@ pg.furniture_data_template = setmetatable({
 			100070,
 			100071,
 			100072,
+			100073,
+			100074,
 			31101,
 			54104,
 			54105
@@ -6945,7 +6949,8 @@ pg.furniture_data_template = setmetatable({
 			100067,
 			100068,
 			100069,
-			100072
+			100072,
+			100074
 		},
 		[2] = {
 			120,
@@ -8981,6 +8986,7 @@ pg.furniture_data_template = setmetatable({
 			100064,
 			100066,
 			100071,
+			100073,
 			30123,
 			35128,
 			36125,
@@ -10107,6 +10113,8 @@ pg.furniture_data_template = setmetatable({
 		100070,
 		100071,
 		100072,
+		100073,
+		100074,
 		200001,
 		200002,
 		200003,
@@ -26481,6 +26489,175 @@ pg.base.furniture_data_template = {
 					"houzhai_yumao01"
 				}
 			}
+		},
+		interAction_group = {}
+	},
+	[100073] = {
+		can_rotate = 0,
+		describe = "超重量対応、構造安定、波に向かって突進ピョ！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "hailangchonglangbanicon",
+		count = 1,
+		name = "饅頭サーフボード",
+		advice = 0,
+		id = 100073,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"hailangchonglangban",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[100074] = {
+		can_rotate = 0,
+		describe = "我是一个小幽灵~看不见的小幽灵~",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yinshendoupengicon",
+		count = 1,
+		name = "幽灵隐身衣",
+		advice = 0,
+		id = 100074,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinshendoupengB",
+				"normal"
+			},
+			{
+				"yinshendoupengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						nil,
+						"sit"
+					}
+				},
+				{
+					[3] = {
+						"dance",
+						"dance",
+						1
+					},
+					[4] = dance
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					0.8,
+					65.5
+				},
+				{
+					100,
+					85
+				},
+				"chuanmo/yinshendoupeng_mask"
+			},
+			{
+				-7.59,
+				-60
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

@@ -248,7 +248,7 @@ slot0.SwitchToNextShip = function(slot0)
 		return
 	end
 
-	if slot0.bgView.ship.skinId ~= getProxy(PlayerProxy):getRawData():GetNextFlagShip().skinId or slot0.bgView.ship.id ~= slot1.id then
+	if slot0.bgView.ship:getSkinId() ~= getProxy(PlayerProxy):getRawData():GetNextFlagShip():getSkinId() or slot0.bgView.ship.id ~= slot1.id then
 		slot0.bgView:Refresh(slot1)
 		slot0:PlayBgm(slot1)
 		slot0.paintingView:Refresh(slot1, slot0.theme:GetPaintingOffset(slot1))
@@ -376,7 +376,7 @@ slot0.ExitCalibrationView = function(slot0)
 end
 
 slot0.ExitSilentView = function(slot0)
-	if slot0.silentView and slot0.silentView:GetLoaded() and slot0.silentView:isShowing() then
+	if slot0.silentView and slot0.silentView:isShowing() then
 		slot0:FoldPanels(false)
 		slot0.silentView:Destroy()
 		slot0.silentView:Reset()

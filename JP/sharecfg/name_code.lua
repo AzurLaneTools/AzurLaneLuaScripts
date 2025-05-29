@@ -2856,6 +2856,13 @@ pg.name_code = {
 		code = "アドミラル・ヒッパー(META)",
 		nation = 0
 	},
+	[544] = {
+		name = "エーギルちゃん",
+		type = 1,
+		id = 544,
+		code = "エーギルちゃん",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戦五二型",
 		type = 2,

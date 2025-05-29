@@ -2,46 +2,39 @@ slot0 = class("ChangePlayerIconCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot4 = slot2.characterId
-	slot5 = slot2.skinPage
-	slot6 = slot2.callback
-	slot8 = getProxy(PlayerProxy):getData()
+	slot3 = slot2.skinPage
+	slot5 = slot2.callback
+	slot8 = getProxy(PlayerProxy):getData():GetShipPhantomMarks()
 
-	if type(slot2.characterId) == "number" then
-		if slot8.character == slot3 then
-			if slot5 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("change_skin_secretary_ship"))
-			end
-
-			return
-		else
-			slot4 = {}
-
-			for slot12 = 1, #slot8.characters do
-				slot4[slot12] = slot8.characters[slot12]
-			end
-
-			for slot12 = 1, #slot4 do
-				if slot4[slot12] == slot3 then
-					slot4[slot12] = slot4[1]
-					slot4[1] = slot4[slot12]
-				end
-			end
-
-			slot4[1] = slot3
-		end
-	end
-
-	if #slot4 <= 0 then
+	if #slot2.after <= 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("common_error"))
 
 		return
 	end
 
-	slot9 = pg.ConnectionMgr.GetInstance()
+	if #slot8 == #slot4 and underscore.all(underscore.keys(slot4), function (slot0)
+		return uv0[slot0] == uv1[slot0]
+	end) then
+		if slot3 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("change_skin_secretary_ship"))
+		end
 
-	slot9:Send(11011, {
-		character = slot4
+		existCall(slot5)
+
+		return
+	end
+
+	slot10 = pg.ConnectionMgr.GetInstance()
+
+	slot10:Send(11011, {
+		character = underscore.map(slot4, function (slot0)
+			slot1, slot2 = ShipPhantom.UnpackMark(slot0)
+
+			return {
+				key = slot1,
+				value = slot2
+			}
+		end)
 	}, 11012, function (slot0)
 		if slot0.result == 0 then
 			uv0.UpdayePlayerCharas(uv1, uv2)
@@ -59,18 +52,22 @@ slot0.execute = function(slot0, slot1)
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("player_changePlayerIcon", slot0.result))
 		end
 
-		if uv6 then
-			uv6()
-		end
+		existCall(uv6)
 	end)
 end
 
 slot0.UpdayePlayerCharas = function(slot0, slot1)
-	slot3 = getProxy(BayProxy):getShipById(slot1[1])
-	slot0.character = slot1[1]
-	slot0.characters = slot1
-	slot0.icon = slot3.configId
-	slot0.skinId = slot3:getSkinId()
+	slot0.characters = underscore.map(slot1, function (slot0)
+		return slot0.key
+	end)
+	slot0.phantoms = underscore.map(slot1, function (slot0)
+		return slot0.value
+	end)
+	slot0.character = slot0.characters[1]
+	slot0.phantomId = slot0.phantoms[1] or 0
+	slot2 = ShipPhantom.Change(getProxy(BayProxy):getShipById(slot0.character), slot0.phantoms[1])
+	slot0.icon = slot2.configId
+	slot0.skinId = slot2:getSkinId()
 end
 
 return slot0

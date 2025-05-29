@@ -150,9 +150,9 @@ slot0.OnUpdate = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0.shipIds = slot3
 	slot0.pageType = slot4
 	slot0.native = slot5
-	slot7 = getProxy(BayProxy):RawGetShipById(slot3[slot2])
+	slot7 = getProxy(BayProxy):GetShipPhantom(slot3[slot2])
 
-	if not slot0.displayShip or slot0.displayShipSkinId ~= slot7.skinId or slot0.displayShip.id ~= slot7.id then
+	if not slot0.displayShip or slot0.displayShipSkinId ~= slot7:getSkinId() or slot0.displayShip.id ~= slot7.id then
 		slot0:UpdateShip(slot7)
 	end
 

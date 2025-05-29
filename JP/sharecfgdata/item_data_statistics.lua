@@ -15350,6 +15350,37 @@ _G.pg.base.item_data_statistics[21046] = {
 }
 
 
+_G.pg.base.item_data_statistics[21047] = {
+	open_directly = 0,
+	name = "結晶：グレンヴィル(META)",
+	type = 4,
+	display = "グレンヴィル(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21047",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21047,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21048] = {
 	open_directly = 0,
 	name = "結晶：グロリアス(META)",
@@ -27818,6 +27849,58 @@ _G.pg.base.item_data_statistics[30427] = {
 		{
 			9,
 			2096,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30428] = {
+	open_directly = 1,
+	name = "ランダム装備外装",
+	type = 11,
+	display = "クルーズ報酬の装備外装をランダムに１つ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111223",
+	id = 30428,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2097,
+			1
+		},
+		{
+			9,
+			2098,
+			1
+		},
+		{
+			9,
+			2099,
+			1
+		},
+		{
+			9,
+			2100,
 			1
 		}
 	},
@@ -110759,6 +110842,73 @@ _G.pg.base.item_data_statistics[81213] = {
 		{
 			2,
 			86213,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81214] = {
+	open_directly = 1,
+	name = "夏の水着福袋2025B",
+	type = 17,
+	display = "ランダムな（ランダム夏の水着福袋2025Bの）着せ替え衣装、上級指向型強化ユニット・七期目×2、ダイヤ×2025、メンタルユニット×50、キューブ×20、家具コイン×100、高速建造材×10が入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai25",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998316",
+	id = 81214,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86214,
 			1
 		},
 		{

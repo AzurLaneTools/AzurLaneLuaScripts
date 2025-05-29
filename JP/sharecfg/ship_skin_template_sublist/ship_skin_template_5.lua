@@ -1,226 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
-	[201371] = {
-		name = "フツウの魔法薬学",
-		change_skin = "",
-		bg_sp = "",
-		desc = "魔法薬精通の薬師、ヌビアンだ！指揮官はどんな魔法薬を調合したい？……え？釜で調合する普通のポーションなんて久しぶりすぎてどう注文すればいいかわかんない？……はい？",
-		illustrator2 = -1,
-		ship_group = 20137,
-		group_index = 1,
-		painting = "nubiyaren_2",
-		prefab = "nubiyaren_2",
-		hand_id = 7,
-		shop_type_id = 24,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "500",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 0,
-		get_showing = "",
-		id = 201371,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70987,
-		voice_actor = 402,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.6,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.48,
-					1.272,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.513,
-							2.111,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201372] = {
-		name = "イマドキのドジっ子メイドチャレンジ？！",
-		change_skin = "",
-		bg_sp = "",
-		desc = "て、テヘッ～♪バレンタインのチョコを作ろうとしたらなぜか盛大に滑っちゃった☆……ちょ、ちょっと！どこが滑ってるのよ！イマドキのドジっ子はそんなことにならないって…ええ？！",
-		illustrator2 = -1,
-		ship_group = 20137,
-		group_index = 2,
-		painting = "nubiyaren_3",
-		prefab = "nubiyaren_3",
-		hand_id = 7,
-		shop_type_id = 17,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "166",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 0,
-		get_showing = "",
-		id = 201372,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 402,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.6,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.48,
-					1.272,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.513,
-							2.111,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[201380] = {
 		name = "トラファルガー",
 		change_skin = "",
@@ -14753,6 +14533,368 @@ pg.base.ship_skin_template_5 = {
 							-0.559,
 							1.16,
 							-0.52
+						}
+					}
+				}
+			}
+		}
+	},
+	[203070] = {
+		name = "ヨーク",
+		change_skin = "",
+		bg_sp = "",
+		desc = "ヨーク級重巡洋艦・ヨーク(HMS York）",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 0,
+		painting = "yueke",
+		prefab = "yueke",
+		hand_id = 13,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = -1,
+		get_showing = "",
+		id = 203070,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.008,
+					0.53,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.923,
+					0.167,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.386,
+					0.273,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.923,
+					0.167,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.565,
+							0.392,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.502,
+							0.433,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203071] = {
+		name = "真理を求めし者",
+		change_skin = "",
+		bg_sp = "",
+		desc = "学園で起きた数々の不思議<†ミステリー†>、それを操る黒幕<†マスターマインド†>……これが私への試練<†トリビュレーション†>というのなら、全ての真実<†トゥルース†>を見つけるまで！",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 1,
+		painting = "yueke_2",
+		prefab = "yueke_2",
+		hand_id = 13,
+		shop_type_id = 4,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "103",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		get_showing = "",
+		id = 203071,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70250,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.638,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.614,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203072] = {
+		name = "碧波を召喚せしもの",
+		change_skin = "",
+		bg_sp = "",
+		desc = "青い海に隠されし謎の支配者<†アンノウン†>、この碧波<†アズール†>と力<†フォース†>をもって汝の顕現を願わん！……指揮官！どうしてここに？！",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 2,
+		painting = "yueke_3",
+		prefab = "yueke_3",
+		hand_id = 13,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "133",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		get_showing = "",
+		id = 203072,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70401,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.829,
+					0.877,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.823,
+					0.865,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.806,
+					0.835,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
 						}
 					}
 				}

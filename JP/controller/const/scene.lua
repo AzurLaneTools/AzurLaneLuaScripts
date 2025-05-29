@@ -1240,11 +1240,25 @@ slot1 = {
 		pg.m02:sendNotification(GAME.GO_SCENE, SCENE.ANNIVERSARY_ISLAND_SEA)
 	end,
 	ShipBluePrintMediator = function (slot0, slot1)
-		PaintingGroupConst.PaintingDownload({
-			isShowBox = true,
-			paintingNameList = PaintingGroupConst.GetPaintingNameListForTec(),
-			finishFunc = slot1
-		})
+		slot2 = {}
+
+		if #getProxy(TechnologyProxy):getAllBluePrintShipIds() > 0 then
+			table.insert(slot2, function (slot0)
+				pg.m02:sendNotification(GAME.GET_PHANTOM_QUEST_PROGRESS, {
+					shipIds = uv0,
+					callback = slot0
+				})
+			end)
+		end
+
+		table.insert(slot2, function (slot0)
+			PaintingGroupConst.PaintingDownload({
+				isShowBox = true,
+				paintingNameList = PaintingGroupConst.GetPaintingNameListForTec(),
+				finishFunc = slot0
+			})
+		end)
+		seriesAsync(slot2, slot1)
 	end,
 	SwichSkinMediator = function (slot0, slot1)
 		PaintingGroupConst.PaintingDownload({

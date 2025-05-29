@@ -28,6 +28,9 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.oldPhoto = slot0:findTF("front/oldphoto"):GetComponent(typeof(Image))
 	slot0.bgPanel = slot0:findTF("back/bg")
 	slot0.bgPanelCg = slot0.bgPanel:GetComponent(typeof(CanvasGroup))
+
+	setActive(slot0:findTF("back/bg/sub"), false)
+
 	slot0.bgImage = slot0:findTF("image", slot0.bgPanel):GetComponent(typeof(Image))
 	slot0.mainImg = slot0._tf:GetComponent(typeof(Image))
 	slot0.castPanel = slot0:findTF("front/cast_panel")

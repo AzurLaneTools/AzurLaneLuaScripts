@@ -845,6 +845,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[67] = {
+		achieve = 1,
+		index = 1026,
+		pic = "zhaohe_4",
+		desc = "<color=#92fc63>[怒った！]</color>",
+		item_name = "スタンプ：怒った！",
+		item_desc = "スタンプ：怒った！チャットのアニメスタンプセットで使用可能",
+		id = 67,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2406,6 +2419,7 @@ pg.emoji_template = {
 		63,
 		65,
 		66,
+		67,
 		100,
 		101,
 		102,

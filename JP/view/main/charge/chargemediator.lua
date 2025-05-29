@@ -22,8 +22,8 @@ slot0.register = function(slot0)
 	slot3 = slot0.viewComponent
 
 	slot3:checkFreeGiftTag()
-	slot0:bind(uv0.VIEW_SKIN_PROBABILITY, function (slot0, slot1)
-		uv0.contextData.wrap = ChargeScene.TYPE_GIFT
+	slot0:bind(uv0.VIEW_SKIN_PROBABILITY, function (slot0, slot1, slot2)
+		uv0.contextData.wrap = slot2
 
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.PROBABILITY_SKINSHOP, {
 			commodityId = slot1

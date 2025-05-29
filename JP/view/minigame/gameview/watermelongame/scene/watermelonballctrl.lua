@@ -83,7 +83,10 @@ slot0.clear = function(slot0)
 	slot0.countId = WatermelonGameConst.ball_count_id
 	slot0.tickToOver = nil
 
-	setActive(slot0._megerEffect, false)
+	if slot0._megerEffect then
+		setActive(slot0._megerEffect, false)
+	end
+
 	slot0:clearBallContainer()
 end
 
@@ -151,13 +154,11 @@ slot0.createReadyBall = function(slot0)
 	slot1, slot2 = slot0._gameVo:getTplItemFromPool("ball", slot0._container)
 	slot0._startPos.anchoredPosition = Vector2(0, slot0._startPos.anchoredPosition.y)
 	slot1.anchoredPosition = slot0._startPos.anchoredPosition
+	slot3 = slot0:initBallData(slot1, slot0.nextBallId)
 	slot0.nextBallId = nil
-	slot0.readyBall = slot0:initBallData(slot1, slot0.nextBallId)
+	slot0.readyBall = slot3
 
-	if slot2 then
-		slot0:setBallEvent(slot3)
-	end
-
+	slot0:setBallEvent(slot3)
 	slot0:setBallPhysics(slot0.readyBall, false)
 end
 
@@ -174,10 +175,7 @@ slot0.createMegerBall = function(slot0, slot1, slot2)
 
 	slot5 = slot0:initBallData(slot3, slot1)
 
-	if slot4 then
-		slot0:setBallEvent(slot5)
-	end
-
+	slot0:setBallEvent(slot5)
 	table.insert(slot0._balls, slot5)
 end
 
@@ -203,7 +201,7 @@ slot0.setBallEvent = function(slot0, slot1)
 end
 
 slot0.checkCollisionBall = function(slot0, slot1)
-	if slot0:checkColliderBall(slot0:getBallByName(slot1.collider.transform.name), slot0:getBallByName(slot1.otherCollider.transform.name)) and slot2.next and slot3.next then
+	if slot0:checkColliderBall(slot0:getBallByTf(slot1.collider.transform), slot0:getBallByTf(slot1.otherCollider.transform)) then
 		slot0:removeBall(slot2)
 		slot0:removeBall(slot3)
 
@@ -213,6 +211,8 @@ slot0.checkCollisionBall = function(slot0, slot1)
 		slot0._event:emit(WatermelonGameEvent.ADD_SCORE, {
 			num = WatermelonGameConst.ball_data[slot5].score
 		})
+	elseif not slot4 then
+		-- Nothing
 	end
 end
 
@@ -237,23 +237,42 @@ end
 slot0.removeBall = function(slot0, slot1)
 	for slot5 = #slot0._balls, 1, -1 do
 		if slot0._balls[slot5] == slot1 then
-			slot0._gameVo:returnTplItem("ball", table.remove(slot0._balls, slot5).tf)
+			GetComponent(slot1.tf, "Physics2DItem").CollisionEnter:RemoveAllListeners()
+			Destroy(table.remove(slot0._balls, slot5).tf)
 
 			return true
 		end
 	end
 
-	print("移除ball失败 name = " .. slot1.name)
+	warning("移除ball失败 name = " .. slot1.name)
 
 	return false
 end
 
 slot0.checkColliderBall = function(slot0, slot1, slot2)
-	if slot1 and slot2 and slot1.id == slot2.id and slot1.next and slot2.next then
-		return true
+	if slot1 and slot2 then
+		if slot1.id == slot2.id then
+			if slot1.next > 0 and slot2.next > 0 and slot1.next == slot2.next then
+				return true
+			else
+				return false
+			end
+		else
+			return false
+		end
 	end
 
 	return false
+end
+
+slot0.getBallByTf = function(slot0, slot1)
+	for slot5 = 1, #slot0._balls do
+		if slot0._balls[slot5].tf == slot1 then
+			return slot6
+		end
+	end
+
+	return nil
 end
 
 slot0.getBallByName = function(slot0, slot1)
@@ -268,7 +287,8 @@ end
 
 slot0.clearBallContainer = function(slot0)
 	for slot4 = 1, #slot0._balls do
-		slot0._gameVo:returnTplItem("ball", slot0._balls[slot4].tf)
+		GetComponent(slot0._balls[slot4].tf, "Physics2DItem").CollisionEnter:RemoveAllListeners()
+		Destroy(slot0._balls[slot4].tf)
 	end
 
 	slot0._balls = {}

@@ -24,9 +24,9 @@ end
 
 slot0.initEvent = function(slot0)
 	if not slot0.handle then
-		slot0.handle = UpdateBeat:CreateListener(slot0.OnUpdate, slot0)
+		slot0.handle = FixedUpdateBeat:CreateListener(slot0.OnUpdate, slot0)
 
-		UpdateBeat:AddListener(slot0.handle)
+		FixedUpdateBeat:AddListener(slot0.handle)
 	end
 
 	slot0:bind(WatermelonGameEvent.LEVEL_GAME, function (slot0, slot1, slot2)
@@ -253,7 +253,7 @@ slot0.getRankData = function(slot0)
 end
 
 slot0.stepRunTimeData = function(slot0)
-	slot1 = Time.deltaTime
+	slot1 = Time.fixedDeltaTime
 	uv0.gameTime = uv0.gameTime - slot1
 	uv0.gameStepTime = uv0.gameStepTime + slot1
 	uv0.deltaTime = slot1
@@ -345,7 +345,7 @@ end
 
 slot0.willExit = function(slot0)
 	if slot0.handle then
-		UpdateBeat:RemoveListener(slot0.handle)
+		FixedUpdateBeat:RemoveListener(slot0.handle)
 	end
 
 	if slot0._tf and LeanTween.isTweening(go(slot0._tf)) then

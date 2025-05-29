@@ -411,7 +411,20 @@ temp = function()
 				["ヴ"] = {
 					["ィ"] = {
 						["ル"] = {
-							this = true
+							this = true,
+							["("] = {
+								M = {
+									E = {
+										T = {
+											A = {
+												[")"] = {
+													this = true
+												}
+											}
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -2163,7 +2176,14 @@ temp = function()
 			},
 			["ギ"] = {
 				["ル"] = {
-					this = true
+					this = true,
+					["ち"] = {
+						["ゃ"] = {
+							["ん"] = {
+								this = true
+							}
+						}
+					}
 				}
 			}
 		},

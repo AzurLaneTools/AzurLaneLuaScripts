@@ -217,7 +217,7 @@ slot0.GetDisplayableSkinList = function(slot0)
 	end
 
 	for slot7 = #slot1, 1, -1 do
-		if ShipGroup.GetChangeSkinGroupId(slot1[slot7].id) and ShipGroup.GetChangeSkinIndex(slot8.id) ~= 1 then
+		if ShipSkin.GetChangeSkinGroupId(slot1[slot7].id) and ShipSkin.GetChangeSkinIndex(slot8.id) ~= 1 then
 			table.remove(slot1, slot7)
 		end
 	end
@@ -392,135 +392,6 @@ end
 
 slot0.getEquipCodes = function(slot0)
 	return slot0.equipCodes
-end
-
-slot0.GetAllChangeSkinIds = function(slot0)
-	if not ShipGroup.IsChangeSkin(slot0) then
-		return {
-			slot0
-		}
-	end
-
-	slot2 = {
-		ShipGroup.GetChangeSkinMainId(slot0)
-	}
-	slot3 = slot0
-
-	for slot7 = 1, 10 do
-		if not table.contains(slot2, ShipGroup.GetChangeSkinNextId(slot3)) then
-			table.insert(slot2, slot8)
-		end
-
-		if ShipGroup.GetChangeSkinIndex(slot8) == 1 then
-			return slot2
-		end
-	end
-
-	return slot2
-end
-
-slot0.IsChangeSkin = function(slot0)
-	return uv0.GetChangeSkinData(slot0)
-end
-
-slot0.GetChangeSkinMainId = function(slot0)
-	if not uv0.IsChangeSkin(slot0) then
-		return slot0
-	end
-
-	slot1 = pg.ship_skin_template[slot0].ship_group
-	slot2 = uv0.GetChangeSkinGroupId(slot0)
-
-	if uv0.GetChangeSkinIndex(slot0) == 1 then
-		return slot0
-	end
-
-	for slot8, slot9 in ipairs(ShipSkin.GetAllSkinByGroup(slot1)) do
-		if uv0.IsChangeSkin(slot9.id) then
-			slot11 = uv0.GetChangeSkinIndex(slot9.id)
-
-			if uv0.GetChangeSkinGroupId(slot9.id) == slot2 and slot11 == 1 then
-				print("获得到了skinId :" .. slot0 .. " 的A面皮肤id" .. slot9.id)
-
-				return slot9.id
-			end
-		end
-	end
-
-	return slot0
-end
-
-slot0.GetChangeSkinData = function(slot0)
-	if pg.ship_skin_template[slot0] and slot1.change_skin and slot1.change_skin ~= "" and table.contains(slot1.tag, ShipSkin.WITH_CHANGE) then
-		return slot1.change_skin
-	end
-
-	return nil
-end
-
-slot0.IsSameChangeSkinGroup = function(slot0, slot1)
-	if not ShipGroup.IsChangeSkin(slot0) or not ShipGroup.IsChangeSkin(slot1) then
-		return false
-	end
-
-	return ShipGroup.GetChangeSkinGroupId(slot0) == ShipGroup.GetChangeSkinGroupId(slot1)
-end
-
-slot0.GetChangeSkinGroupId = function(slot0)
-	return uv0.GetChangeSkinData(slot0) and uv0.GetChangeSkinData(slot0).group or nil
-end
-
-slot0.GetChangeSkinNextId = function(slot0)
-	return uv0.GetChangeSkinData(slot0) and uv0.GetChangeSkinData(slot0).next or nil
-end
-
-slot0.GetChangeSkinIndex = function(slot0)
-	return uv0.GetChangeSkinData(slot0) and uv0.GetChangeSkinData(slot0).index or nil
-end
-
-slot0.GetChangeSkinState = function(slot0)
-	return uv0.GetChangeSkinData(slot0) and uv0.GetChangeSkinData(slot0).state or nil
-end
-
-slot0.GetChangeSkinAction = function(slot0)
-	return uv0.GetChangeSkinData(slot0) and uv0.GetChangeSkinData(slot0).action or nil
-end
-
-slot0.GetStoreChangeSkinId = function(slot0, slot1)
-	if not slot1 or slot1 == 0 then
-		return nil
-	end
-
-	print("尝试获取group_id = " .. tostring(slot0) .. "ship id =" .. tostring(slot1))
-
-	if not PlayerPrefs.GetInt(uv0.GetStoreChangeSkinPrefsName(slot0, slot1)) or slot3 == 0 then
-		return nil
-	end
-
-	return slot3
-end
-
-slot0.SetStoreChangeSkinId = function(slot0, slot1, slot2)
-	PlayerPrefs.SetInt(uv0.GetStoreChangeSkinPrefsName(slot0, slot1), slot2)
-end
-
-slot0.GetStoreChangeSkinPrefsName = function(slot0, slot1)
-	return string.gsub(string.gsub("change_skin_group_$1_$2", "%$1", slot1), "%$2", slot0)
-end
-
-slot0.SetShipChangeSkin = function(slot0, slot1, slot2, slot3)
-	if not getProxy(BayProxy):getShipById(slot0) then
-		return
-	end
-
-	ShipGroup.SetStoreChangeSkinId(slot1, slot0, slot2)
-
-	if slot4.id == slot0 and slot3 then
-		slot4:updateSkinId(slot2)
-		getProxy(BayProxy):updateShip(slot4)
-	end
-
-	pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, slot4)
 end
 
 return slot0

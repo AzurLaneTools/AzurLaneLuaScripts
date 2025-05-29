@@ -37,7 +37,7 @@ slot0.initUI = function(slot0, slot1)
 end
 
 slot0.preloadChangeAction = function(slot0, slot1, slot2)
-	if ShipGroup.GetChangeSkinAction(slot1) and slot3 ~= "" then
+	if ShipSkin.GetChangeSkinAction(slot1) and slot3 ~= "" then
 		slot0._isloading = true
 
 		PoolMgr.GetInstance():GetPrefab("changeskin/" .. slot3, "", true, function (slot0)
@@ -70,9 +70,9 @@ slot0.play = function(slot0, slot1, slot2, slot3, slot4)
 	end
 
 	slot0._inPlaying = true
-	slot0.changeIndex = ShipGroup.GetChangeSkinIndex(slot1)
-	slot0.changeState = ShipGroup.GetChangeSkinState(slot1)
-	slot0.changAction = ShipGroup.GetChangeSkinAction(slot1)
+	slot0.changeIndex = ShipSkin.GetChangeSkinIndex(slot1)
+	slot0.changeState = ShipSkin.GetChangeSkinState(slot1)
+	slot0.changAction = ShipSkin.GetChangeSkinAction(slot1)
 
 	if slot0.changeState == uv0 then
 		slot0._loadObjectName = "changeskin/" .. slot0.changAction

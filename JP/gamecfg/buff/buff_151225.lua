@@ -23,14 +23,23 @@ return {
 		{
 			type = "BattleBuffCastSkill",
 			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 151225,
+				target = "TargetSelf"
+			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
 				"onUpdate"
 			},
 			arg_list = {
-				quota = 9,
-				initialCD = true,
+				quota = 8,
 				time = 0.2,
-				skill_id = 151221,
-				target = "TargetSelf"
+				target = "TargetSelf",
+				skill_id = 151221
 			}
 		}
 	}

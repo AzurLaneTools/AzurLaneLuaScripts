@@ -70,6 +70,8 @@ slot0.execute = function(slot0, slot1)
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_PURCHASE_FIRST, slot4)
 	end
 
+	pg.TrackerMgr.GetInstance():Tracking(TRACKING_PAY_SUCCESS, slot4)
+
 	if slot7:firstPayDouble() then
 		if not table.contains(slot10:getFirstChargeList() or {}, slot3) then
 			table.insert(slot14, slot3)

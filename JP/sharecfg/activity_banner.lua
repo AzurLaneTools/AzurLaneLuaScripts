@@ -15,7 +15,7 @@ pg.activity_banner = {
 				{
 					2025,
 					5,
-					20
+					29
 				},
 				{
 					0,
@@ -38,21 +38,9 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
-		pic = "temp2",
-		param = {
-			"scene charge",
-			{
-				wrap = 1
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 3,
-		pic = "temp3",
+		pic = "temp6",
 		param = {
 			"scene skinshop",
 			{}
@@ -62,7 +50,7 @@ pg.activity_banner = {
 				{
 					2025,
 					5,
-					20
+					29
 				},
 				{
 					0,
@@ -73,8 +61,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					11
+					5,
+					31
 				},
 				{
 					23,
@@ -86,58 +74,17 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
-		pic = "temp4",
+		id = 3,
+		pic = "temp7",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
 					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp5",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					5,
-					20
+					29
 				},
 				{
 					0,
@@ -160,10 +107,79 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5962",
+		param = "5981",
 		type = 3,
+		id = 4,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2025,
+					5,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		param = "5979",
+		type = 3,
+		id = 5,
+		pic = "temp9",
+		time = {
+			{
+				{
+					2025,
+					5,
+					29
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
 		id = 6,
-		pic = "temp6",
+		pic = "temp2",
+		param = {
+			"scene charge",
+			{
+				wrap = 1
+			}
+		},
 		time = {
 			{
 				{
@@ -194,16 +210,17 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 7,
-		pic = "temp7",
+		pic = "temp3",
 		param = {
-			"scene court yard"
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					5,
-					20
+					29
 				},
 				{
 					0,
@@ -228,11 +245,11 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 8,
-		pic = "temp8",
+		pic = "temp4",
 		param = {
-			"scene get boat",
+			"scene charge",
 			{
-				goToPray = true
+				wrap = 2
 			}
 		},
 		time = {
@@ -263,10 +280,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5941",
-		type = 3,
+		type = 2,
 		id = 9,
-		pic = "temp9",
+		pic = "temp5",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
 		time = {
 			{
 				{
@@ -412,14 +435,14 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
-			4,
-			5,
+			6,
 			7,
-			8
+			8,
+			9
 		},
 		[3] = {
-			6,
-			9
+			4,
+			5
 		},
 		[9] = {
 			90,

@@ -91,41 +91,4 @@ slot0.execute = function(slot0, slot1)
 	end)
 end
 
-slot0.CheckShareSkin = function(slot0, slot1)
-	if not slot1.propose then
-		return
-	end
-
-	if not slot1:getProposeSkin() then
-		return
-	end
-
-	slot3 = {}
-	slot4 = {}
-
-	for slot8, slot9 in pairs(getProxy(BayProxy):getRawData()) do
-		if slot9.skinId == slot2.id then
-			if slot9.groupId == slot1.groupId then
-				table.insert(slot3, slot9)
-			else
-				table.insert(slot4, slot9)
-			end
-		end
-	end
-
-	if #slot3 <= 0 then
-		for slot8, slot9 in ipairs(slot4) do
-			slot9.skinId = slot9:getConfig("skin_id")
-		end
-	end
-
-	if #slot4 > 0 then
-		slot6 = pg.TipsMgr.GetInstance()
-
-		slot6:ShowTips(i18n("retire_marry_skin", table.concat(_.map(slot4, function (slot0)
-			return slot0:getName()
-		end), ", ")))
-	end
-end
-
 return slot0

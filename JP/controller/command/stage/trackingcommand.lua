@@ -132,6 +132,7 @@ slot0.execute = function(slot0, slot1)
 				uv3:sendNotification(GAME.TRACKING_ERROR, {
 					chapter = uv0
 				})
+				pg.TrackerMgr.GetInstance():Tracking(TRACKING_STRIKE_FAILD)
 
 				return
 			end

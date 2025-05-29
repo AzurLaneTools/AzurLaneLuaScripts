@@ -50,7 +50,7 @@ end
 
 slot0.UpdateCard = function(slot0, slot1)
 	for slot6, slot7 in ipairs(slot0.cards[uv0]) do
-		if isActive(slot7._tf) and slot7.displayShip and slot7.displayShip.id == slot1 then
+		if isActive(slot7._tf) and slot7.displayShip and slot7.displayShip:GetShipPhantomMark() == slot1 then
 			slot7:Refresh()
 
 			break
@@ -181,15 +181,15 @@ end
 slot0.OnEndDragCard = function(slot0)
 	slot0.displayCards[slot0.dragIndex]._tf.localPosition = slot0.displayPos[slot0.dragIndex]
 	slot3 = {}
-	slot4 = getProxy(PlayerProxy):getRawData()
-	slot5 = false
+	slot5 = getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()
+	slot6 = false
 
-	for slot9, slot10 in pairs(slot0.displayCards) do
-		slot10:EnableDrag()
-		table.insert(slot3, slot10.displayShip.id)
+	for slot10, slot11 in pairs(slot0.displayCards) do
+		slot11:EnableDrag()
+		table.insert(slot3, slot11.displayShip:GetShipPhantomMark())
 
-		if not slot5 and slot4.characters[#slot3] ~= slot10.displayShip.id then
-			slot5 = true
+		if not slot6 and slot5[#slot3] ~= slot3[#slot3] then
+			slot6 = true
 		end
 	end
 
@@ -198,7 +198,7 @@ slot0.OnEndDragCard = function(slot0)
 	slot0.displayPos = nil
 	slot0.cardContainerCG.blocksRaycasts = false
 
-	if slot5 then
+	if slot6 then
 		slot0:emit(PlayerVitaeMediator.CHANGE_PAINTS, slot3, function ()
 			Timer.New(function ()
 				if uv0.cardContainerCG then
@@ -398,13 +398,13 @@ slot0.SwitchToPage = function(slot0, slot1)
 
 	if slot1 == uv0 then
 		slot2 = _.select(getProxy(SettingsProxy):GetRandomFlagShipList(), function (slot0)
-			return getProxy(BayProxy):RawGetShipById(slot0) ~= nil
+			return getProxy(BayProxy):GetShipPhantom(slot0) ~= nil
 		end)
 		slot0.tip.text = i18n("random_ship_tips1")
 
 		slot0:emit(PlayerVitaeScene.ON_PAGE_SWTICH, PlayerVitaeScene.PAGE_RANDOM_SHIPS)
 	elseif slot1 == uv1 then
-		slot2 = getProxy(PlayerProxy):getRawData().characters
+		slot2 = getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()
 		slot0.tip.text = i18n("random_ship_tips2")
 
 		slot0:emit(PlayerVitaeScene.ON_PAGE_SWTICH, PlayerVitaeScene.PAGE_NATIVE_SHIPS)

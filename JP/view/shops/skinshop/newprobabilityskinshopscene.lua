@@ -132,6 +132,12 @@ slot0.willExit = function(slot0)
 		slot0.itemView = nil
 	end
 
+	if slot0.mainView then
+		slot0.mainView:Dispose()
+
+		slot0.mainView = nil
+	end
+
 	if slot0.chargeTipWindow then
 		slot0.chargeTipWindow:Destroy()
 

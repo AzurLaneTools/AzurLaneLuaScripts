@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "106",
 		scene = {}
 	},
+	[107] = {
+		unlock = "クルーズパス23期報酬",
+		name = "ステラ",
+		key = "SkinNormal_20250529",
+		display_icon = "ui_107",
+		is_unlock = 1,
+		rare = 3,
+		desc = "星々の輝きが煌き、ミステリアスな模様が銀河の輪郭を映し出し、一つ一つの細部が宇宙への探求と冒険を物語っている。",
+		id = 107,
+		icon = "107",
+		scene = {}
+	},
 	[201] = {
 		unlock = "ショップ購入（戦闘UI・クリスマス）",
 		name = "クリスマス",
@@ -140,6 +152,7 @@ pg.item_data_battleui = {
 		104,
 		105,
 		106,
+		107,
 		201,
 		202,
 		203,

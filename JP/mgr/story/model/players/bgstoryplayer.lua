@@ -4,6 +4,9 @@ slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
 	slot0.subImage = slot0:findTF("sub", slot0.bgPanel):GetComponent(typeof(Image))
+
+	setActive(slot0.subImage.gameObject, false)
+
 	slot0.bgRecord = nil
 end
 
@@ -31,7 +34,15 @@ slot0.UpdateBg = function(slot0, slot1)
 	if slot1:GetSubBg() then
 		setActive(slot0.subImage.gameObject, true)
 
-		slot0.subImage.sprite = slot0:GetBg(slot2)
+		if slot0:GetBg(slot2) then
+			slot0.subImage.sprite = slot3
+
+			originalPrint("story sub bg load : " .. tostring(slot2))
+		else
+			warning("story sub bg load faild : " .. tostring(slot2))
+		end
+	else
+		setActive(slot0.subImage.gameObject, false)
 	end
 
 	if not slot1:GetBgName() then

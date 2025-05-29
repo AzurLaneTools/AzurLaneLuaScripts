@@ -622,13 +622,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "？？",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "そろそろいかないと",
 			typewriter = {
 				speed = 0.05,
@@ -636,13 +635,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "？？",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "もうじかんだから",
 			typewriter = {
 				speed = 0.05,
@@ -779,13 +777,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "？？",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "いや",
 			typewriter = {
 				speed = 0.05,
@@ -807,13 +804,12 @@ return {
 			}
 		},
 		{
-			nameColor = "#A9F548FF",
+			actor = 900481,
 			side = 2,
 			bgName = "star_level_bg_706",
-			dir = 1,
-			actor = 900480,
-			actorName = "？？",
 			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
 			say = "いらない",
 			typewriter = {
 				speed = 0.05,
