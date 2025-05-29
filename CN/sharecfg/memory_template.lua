@@ -3603,6 +3603,7 @@ pg.memory_template = setmetatable({
 		4414,
 		4415,
 		4416,
+		4417,
 		10011,
 		10012,
 		10013,
@@ -43422,6 +43423,17 @@ pg.base.memory_template = {
 		story = "GAOTASHANGDEQIANGWEI36",
 		id = 4416,
 		icon = "memory_gaotashangdeqiangwei2",
+		is_open = 0
+	},
+	[4417] = {
+		mask = "bg/bg_memory",
+		subtitle = "",
+		type = 1,
+		title = "天青胜玉",
+		condition = "进入活动页",
+		story = "TIANQINGSHENGYU1",
+		id = 4417,
+		icon = "memory_tianqingshengyu",
 		is_open = 0
 	},
 	[10011] = {

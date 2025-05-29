@@ -84,6 +84,7 @@ slot0.ChargeMonthCardAndGiftPack = function(slot0, slot1, slot2)
 
 	slot0:ShowMsgBox({
 		isChargeType = true,
+		infoTip = slot2:GetInfoTip(),
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),
 		tipExtra = slot7,
@@ -108,6 +109,7 @@ slot0.ChargeGem = function(slot0, slot1, slot2)
 
 	slot0:ShowMsgBox({
 		isChargeType = true,
+		infoTip = slot2:GetInfoTip(),
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),
 		price = slot2:getConfig("money"),

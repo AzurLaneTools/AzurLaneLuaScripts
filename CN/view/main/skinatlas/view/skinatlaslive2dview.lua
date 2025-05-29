@@ -68,11 +68,11 @@ slot0.OnClick = function(slot0)
 end
 
 slot0.GetTouchEvent = function(slot0, slot1)
-	return uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot1), slot0.ship.skinId, 0)
+	return uv0.filterAssistantEvents(uv0.getAssistantTouchEvents(slot1), slot0.ship:getSkinId(), 0)
 end
 
 slot0.GetIdleEvents = function(slot0)
-	return uv0.filterAssistantEvents(uv0.IdleEvents, slot0.ship.skinId, 0)
+	return uv0.filterAssistantEvents(uv0.IdleEvents, slot0.ship:getSkinId(), 0)
 end
 
 slot0.GetEventConfig = function(slot0, slot1)

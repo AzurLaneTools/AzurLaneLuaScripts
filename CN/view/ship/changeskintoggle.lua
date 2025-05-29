@@ -15,13 +15,12 @@ slot0.Ctor = function(slot0, slot1)
 	setActive(slot0._tf, false)
 end
 
-slot0.setShipData = function(slot0, slot1, slot2)
+slot0.setShipData = function(slot0, slot1)
 	slot0._skinId = slot1
-	slot0._shipId = slot2
 	slot0._toggleIndex = 1
 
-	if ShipGroup.GetStoreChangeSkinId(ShipGroup.GetChangeSkinGroupId(slot0._skinId), slot0._shipId) then
-		slot0._toggleIndex = ShipGroup.GetChangeSkinIndex(slot4)
+	if ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot0._skinId)) then
+		slot0._toggleIndex = ShipSkin.GetChangeSkinIndex(slot3)
 	end
 
 	setActive(slot0._tf, true)
@@ -30,7 +29,7 @@ end
 
 slot0.setSkinData = function(slot0, slot1)
 	slot0._skinId = slot1
-	slot0._toggleIndex = ShipGroup.GetChangeSkinIndex(slot1)
+	slot0._toggleIndex = ShipSkin.GetChangeSkinIndex(slot1)
 
 	setActive(slot0._tf, true)
 	slot0:updateUI()

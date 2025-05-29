@@ -39,7 +39,7 @@ slot0.execute = function(slot0, slot1)
 			end
 
 			slot2 = getProxy(PlayerProxy):getData()
-			slot3 = getProxy(BayProxy):getShipById(slot2.character)
+			slot3 = getProxy(BayProxy):GetShipPhantom(slot2:GetFlagShipPhantomMark())
 			slot5 = PowerRank.New({
 				id = slot2.id,
 				level = slot2.level,
@@ -47,7 +47,7 @@ slot0.execute = function(slot0, slot1)
 				score = slot2.score,
 				arena_rank = SeasonInfo.getEmblem(slot2.score, slot2.rank),
 				icon = slot3:getConfig("id"),
-				skin_id = slot3.skinId,
+				skin_id = slot3:getSkinId(),
 				propose = slot3.propose and 1 or 0,
 				remoulded = slot3:isRemoulded() and 1 or 0
 			}, uv0)
@@ -89,7 +89,7 @@ slot0.execute = function(slot0, slot1)
 				type = uv0,
 				act_id = uv1 or 0
 			}, 18204, function (slot0)
-				slot2 = getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getData().character)
+				slot2 = getProxy(BayProxy):GetShipPhantom(getProxy(PlayerProxy):getData():GetFlagShipPhantomMark())
 				slot3 = nil
 
 				if uv0 == PowerRank.TYPE_POWER then
@@ -123,7 +123,7 @@ slot0.execute = function(slot0, slot1)
 					lv = slot1.level,
 					arena_rank = slot1.maxRank,
 					icon = slot2:getConfig("id"),
-					skin_id = slot2.skinId,
+					skin_id = slot2:getSkinId(),
 					propose = slot2.propose and 1 or 0,
 					remoulded = slot2:isRemoulded() and 1 or 0
 				}, uv0)

@@ -114,7 +114,7 @@ slot0.updateStatistics = function(slot0)
 		setImageSprite(uv0._tf, slot0, false)
 	end)
 
-	slot17, slot18, slot19 = ShipWordHelper.GetWordAndCV(slot1.skinId, ShipWordHelper.WORD_TYPE_UPGRADE, nil, , slot1:getCVIntimacy())
+	slot17, slot18, slot19 = ShipWordHelper.GetWordAndCV(slot1:getSkinId(), ShipWordHelper.WORD_TYPE_UPGRADE, nil, , slot1:getCVIntimacy())
 
 	setWidgetText(slot0._chat, slot19)
 

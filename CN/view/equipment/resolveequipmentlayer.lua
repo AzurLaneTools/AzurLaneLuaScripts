@@ -204,6 +204,8 @@ slot0.OnResolveEquipDone = function(slot0)
 			slot8 = Clone(slot7)
 
 			if slot7.count - slot1(slot7.id) > 0 then
+				slot8.count = slot9
+
 				table.insert(slot2, slot8)
 			end
 		end

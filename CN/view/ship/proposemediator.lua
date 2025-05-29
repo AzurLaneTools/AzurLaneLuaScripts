@@ -62,6 +62,7 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == GAME.PROPOSE_SHIP_DONE then
 		if slot3.ship:getProposeSkin() then
 			slot0:sendNotification(GAME.SET_SHIP_SKIN, {
+				phantomId = 0,
 				hideTip = true,
 				shipId = slot3.ship.id,
 				skinId = slot4.id

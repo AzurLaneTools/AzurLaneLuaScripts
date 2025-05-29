@@ -237,7 +237,7 @@ slot0.addShip = function(slot0, slot1, slot2)
 	end
 
 	if getProxy(PlayerProxy):getInited() then
-		slot0.facade:sendNotification(uv0.SHIP_ADDED, slot1:clone())
+		slot0:sendNotification(uv0.SHIP_ADDED, slot1:clone())
 	end
 end
 
@@ -484,7 +484,7 @@ slot0.updateShip = function(slot0, slot1)
 		slot3:flushCollection(slot1)
 	end
 
-	slot0.facade:sendNotification(uv0.SHIP_UPDATED, slot1:clone())
+	slot0:sendNotification(uv0.SHIP_UPDATED, slot1:clone())
 end
 
 slot0.removeShip = function(slot0, slot1)
@@ -512,7 +512,7 @@ slot0.removeShipById = function(slot0, slot1)
 
 	slot2:display("removed")
 	slot0:UpdateShipEquipAndSkinCount(slot2, false)
-	slot0.facade:sendNotification(uv0.SHIP_REMOVED, slot2)
+	slot0:sendNotification(uv0.SHIP_REMOVED, slot2)
 end
 
 slot0.findShipByGroup = function(slot0, slot1)
@@ -535,34 +535,6 @@ slot0.findShipsByGroup = function(slot0, slot1)
 	end
 
 	return slot2
-end
-
-slot0._findShipsByGroup = function(slot0, slot1, slot2, slot3)
-	slot4 = function(slot0)
-		if uv0 then
-			return slot0:isRemoulded()
-		else
-			return true
-		end
-	end
-
-	slot5 = function(slot0)
-		if uv0 then
-			return slot0.propose
-		else
-			return true
-		end
-	end
-
-	slot6 = {}
-
-	for slot10, slot11 in pairs(slot0.data) do
-		if slot11.groupId == slot1 and slot4(slot11) and slot5(slot11) then
-			table.insert(slot6, slot11)
-		end
-	end
-
-	return slot6
 end
 
 slot0.ExistGroupShip = function(slot0, slot1)
@@ -1151,17 +1123,87 @@ slot0.getGroupPropose = function(slot0, slot1)
 	return slot2
 end
 
-slot0.CanUseShareSkinShips = function(slot0, slot1)
-	slot5 = pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[pg.ship_skin_template[slot1].ship_group][1]].share_group_id
-	slot6 = {}
+slot0.updateRandomFlagShips = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		slot0.data[slot6.ship_id]:updateRandomFlag(slot6.flag, slot6.shadow)
+	end
+end
 
-	for slot11, slot12 in pairs(slot0:getRawData()) do
-		if table.contains(slot5, slot12.groupId) and slot12:GetNoProposeIntimacyMax() <= math.floor(slot12:getIntimacy() / 100) then
-			table.insert(slot6, slot12)
+slot0.getRandomFlagShipPhantomMarks = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.data) do
+		table.insertto(slot1, slot6:getRandomFlagShipPhantomMarks())
+	end
+
+	return slot1
+end
+
+slot0.getAllShipPhantomMarks = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.data) do
+		table.insertto(slot1, slot6:getAllShipPhantomMarks())
+	end
+
+	return slot1
+end
+
+slot0.GetShipPhantom = function(slot0, slot1)
+	slot2, slot3 = ShipPhantom.UnpackMark(slot1)
+
+	return slot0.data[slot2] and ShipPhantom.Create(slot0.data[slot2], slot3) or nil
+end
+
+slot0.getShipPhantomList = function(slot0, slot1)
+	return underscore.map(slot1, function (slot0)
+		return uv0:GetShipPhantom(slot0)
+	end)
+end
+
+slot0.updateShipSkin = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0.data[slot1]
+
+	assert(slot4)
+	slot4:updateSkinId(slot3, slot2)
+	slot0:sendNotification(uv0.SHIP_UPDATED, slot4:clone())
+end
+
+slot0.CanUseShareSkinPhantoms = function(slot0, slot1)
+	slot2 = ShipSkin.New({
+		id = slot1
+	})
+	slot3 = slot2:IsTransSkin()
+	slot4 = slot2:IsProposeSkin()
+	slot5, slot6 = slot2:GetShareGroupIds()
+	slot7 = {}
+
+	for slot11, slot12 in ipairs(slot6) do
+		slot7[slot12] = true
+	end
+
+	slot8 = {}
+	slot13 = slot0
+
+	slot12 = function(slot0)
+		if not slot0 then
+			return false
+		end
+
+		if uv0 then
+			return slot0.groupId == uv1 and slot0:isRemoulded()
+		elseif slot0.groupId == uv1 or uv2[slot0.groupId] and slot0:GetNoProposeIntimacyMax() <= math.floor(slot0:getIntimacy() / 100) then
+			return not uv3 or tobool(slot0.propose)
+		else
+			return false
 		end
 	end
 
-	return slot6
+	for slot12, slot13 in ipairs(underscore.filter(underscore.values(slot0.getRawData(slot13)), slot12)) do
+		table.insertto(slot8, slot13:getAllShipPhantom())
+	end
+
+	return slot8
 end
 
 return slot0

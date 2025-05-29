@@ -15731,6 +15731,37 @@ _G.pg.base.item_data_statistics[21046] = {
 }
 
 
+_G.pg.base.item_data_statistics[21047] = {
+	open_directly = 0,
+	name = "结晶：格伦维尔·META ",
+	type = 4,
+	display = "格伦维尔·META 的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21047",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21047,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21048] = {
 	open_directly = 0,
 	name = "结晶：光荣·META",
@@ -28237,6 +28268,58 @@ _G.pg.base.item_data_statistics[30427] = {
 		{
 			9,
 			2096,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30428] = {
+	open_directly = 1,
+	name = "外观装备箱(世界巡游)",
+	type = 11,
+	display = "可以随机获得一件本次世界巡游限定外观装备",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111223",
+	id = 30428,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2097,
+			1
+		},
+		{
+			9,
+			2098,
+			1
+		},
+		{
+			9,
+			2099,
+			1
+		},
+		{
+			9,
+			2100,
 			1
 		}
 	},
@@ -114541,6 +114624,357 @@ _G.pg.base.item_data_statistics[68071] = {
 }
 
 
+_G.pg.base.item_data_statistics[68072] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(海滩享受计划)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>君主</color>换装<color=#92fc63FF>海滩享受计划</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906149",
+	id = 68072,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68075,
+			1
+		},
+		{
+			2,
+			68078,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68073] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(夏日防晒计划)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:531}</color>换装<color=#92fc63FF>夏日防晒计划</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906150",
+	id = 68073,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68076,
+			1
+		},
+		{
+			2,
+			68079,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68074] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(纪念印记)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>可畏</color>换装<color=#92fc63FF>纪念印记</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906151",
+	id = 68074,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68077,
+			1
+		},
+		{
+			2,
+			68080,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68075] = {
+	open_directly = 0,
+	name = "换装抵扣券(海滩享受计划)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>君主</color>换装<color=#92fc63FF>海滩享受计划</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年5月31日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68075,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71144
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68076] = {
+	open_directly = 0,
+	name = "换装抵扣券(夏日防晒计划)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:531}</color>换装<color=#92fc63FF>夏日防晒计划</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年5月31日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68076,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71146
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68077] = {
+	open_directly = 0,
+	name = "换装抵扣券(纪念印记)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>可畏</color>换装<color=#92fc63FF>纪念印记</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年5月31日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68077,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71147
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68078] = {
+	open_directly = 0,
+	name = "换装体验券(海滩享受计划)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>君主</color>换装<color=#92fc63FF>海滩享受计划</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年5月31日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68078,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90348
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68079] = {
+	open_directly = 0,
+	name = "换装体验券(夏日防晒计划)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:531}</color>换装<color=#92fc63FF>夏日防晒计划</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年5月31日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68079,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90349
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68080] = {
+	open_directly = 0,
+	name = "换装体验券(纪念印记)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>可畏</color>换装<color=#92fc63FF>纪念印记</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年5月31日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68080,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90350
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81200] = {
 	open_directly = 1,
 	name = "绚烂缤纷夜福袋·I",
@@ -115506,6 +115940,73 @@ _G.pg.base.item_data_statistics[81213] = {
 		{
 			2,
 			86213,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81214] = {
+	open_directly = 1,
+	name = "八周年泳装礼盒·II",
+	type = 17,
+	display = "购买礼包可获得随机换装*1，钻石*2025，心智单元*50，心智魔方*20，高级定向蓝图·七期*2，快速完成工具*10，家具币*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai25",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998316",
+	id = 81214,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86214,
 			1
 		},
 		{

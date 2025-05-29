@@ -36,6 +36,8 @@ slot0.EQUIP_CHANGE_NOTICE = "ShipMainMediator:EQUIP_CHANGE_NOTICE"
 slot0.ON_SELECT_SPWEAPON = "ShipMainMediator:ON_SELECT_SPWEAPON"
 slot0.OPEN_EQUIP_CODE = "ShipMainMediator:OPEN_EQUIP_CODE"
 slot0.OPEN_EQUIP_CODE_SHARE = "ShipMainMediator:OPEN_EQUIP_CODE_SHARE"
+slot0.CHANGE_RANDOM_FLAG = "ShipMainMediator.CHANGE_RANDOM_FLAG"
+slot0.OPEN_PHANTOM_LAYER = "ShipMainMediator.OPEN_PHANTOM_LAYER"
 
 slot0.register = function(slot0)
 	slot0.bayProxy = getProxy(BayProxy)
@@ -200,6 +202,7 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.CHANGE_SKIN, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.SET_SHIP_SKIN, {
+			phantomId = 0,
 			shipId = slot1,
 			skinId = slot2
 		})
@@ -309,6 +312,28 @@ slot0.register = function(slot0)
 				shipGroupId = slot2
 			}
 		}))
+	end)
+	slot0:bind(uv0.CHANGE_RANDOM_FLAG, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.CHANGE_RANDOM_SHIPS, {
+			addList = slot2 and {
+				slot1
+			} or {},
+			deleteList = not slot2 and {
+				slot1
+			} or {}
+		})
+	end)
+	slot0:bind(uv0.OPEN_PHANTOM_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = DockyardMediator,
+			viewComponent = DockyardScene,
+			data = {
+				mode = DockyardScene.MODE_SHIP_PHANTOM,
+				techVersion = slot1,
+				LayerWeightMgr_weight = LayerWeightConst.THIRD_LAYER
+			}
+		}))
+		uv0.viewComponent:changePaintingSortLayer(false)
 	end)
 
 	if slot0.contextData.selectedId then
@@ -534,7 +559,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.CHANGE_SKIN_UPDATE,
 		EquipmentProxy.EQUIPMENT_UPDATED,
 		GAME.WILL_LOGOUT,
-		PaintingGroupConst.NotifyPaintingDownloadFinish
+		PaintingGroupConst.NotifyPaintingDownloadFinish,
+		GAME.CHANGE_RANDOM_SHIPS_DONE
 	}
 end
 
@@ -547,11 +573,16 @@ slot0.handleNotification = function(slot0, slot1)
 
 			slot0.viewComponent:setShip(slot3)
 		end
+	elseif slot2 == GAME.CHANGE_RANDOM_SHIPS_DONE then
+		slot0.viewComponent:setShip(slot0.bayProxy:getShipById(slot0.contextData.shipId))
 	elseif slot2 == GAME.CHANGE_SKIN_UPDATE then
-		if slot3.id == slot0.contextData.shipId then
-			slot0.showTrans = slot3:isRemoulded()
+		slot4, slot5 = ShipPhantom.UnpackMark(slot3)
 
-			slot0.viewComponent:setShip(slot3)
+		if slot4 == slot0.contextData.shipId then
+			slot6 = slot0.bayProxy:getShipById(slot4)
+			slot0.showTrans = slot6:isRemoulded()
+
+			slot0.viewComponent:setShip(slot6)
 		end
 	elseif slot2 == GAME.DESTROY_SHIP_DONE then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("ship_shipInfoMediator_destory"))

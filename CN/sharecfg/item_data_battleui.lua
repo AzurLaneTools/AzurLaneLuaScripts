@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "106",
 		scene = {}
 	},
+	[107] = {
+		unlock = "世界巡游二十三期获取",
+		name = "璀璨星辰 ",
+		key = "SkinNormal_20250529",
+		display_icon = "ui_107",
+		is_unlock = 1,
+		rare = 3,
+		desc = "耀眼的星光汇聚于界面中心，神秘的法阵映射着星系轮廓，每处细节都诉说着对天外的探索与征途。 ",
+		id = 107,
+		icon = "107",
+		scene = {}
+	},
 	[201] = {
 		unlock = "圣诞雪境战斗主题礼包获取",
 		name = "圣诞雪境",
@@ -140,6 +152,7 @@ pg.item_data_battleui = {
 		104,
 		105,
 		106,
+		107,
 		201,
 		202,
 		203,

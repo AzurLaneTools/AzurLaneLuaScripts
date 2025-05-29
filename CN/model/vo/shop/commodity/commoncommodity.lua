@@ -323,4 +323,12 @@ slot0.GetGiftList = function(slot0)
 	end
 end
 
+slot0.GetPackageTag = function(slot0)
+	if slot0:getConfig("genre") ~= ShopArgs.GiftPackage or slot0:getConfig("package_tag_open") == 0 then
+		return ""
+	else
+		return slot0:getConfig("package_tag")
+	end
+end
+
 return slot0

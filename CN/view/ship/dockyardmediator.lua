@@ -3,12 +3,11 @@ slot0.ON_DESTROY_SHIPS = "DockyardMediator:ON_DESTROY_SHIPS"
 slot0.ON_SHIP_DETAIL = "DockyardMediator:ON_SHIP_DETAIL"
 slot0.ON_SHIP_REPAIR = "DockyardMediator:ON_SHIP_REPAIR"
 slot0.OPEN_DOCKYARD_INDEX = "DockyardMediator:OPEN_DOCKYARD_INDEX"
+slot0.CHANGE_SKIN = "DockyardMediator.CHANGE_SKIN"
+slot0.CHANGE_RANDOM_FLAG = "DockyardMediator.CHANGE_RANDOM_FLAG"
+slot0.QUIT_DOCKYARD_SCENE = "DockyardMediator.QUIT_DOCKYARD_SCENE"
 
 slot0.register = function(slot0)
-	if slot0.contextData.selectFriend then
-		slot0.viewComponent:setFriends(getProxy(FriendProxy):getAllFriends())
-	end
-
 	slot1 = getProxy(BayProxy)
 
 	if slot0.contextData.shipVOs then
@@ -82,6 +81,25 @@ slot0.register = function(slot0)
 			data = slot1
 		}))
 	end)
+	slot0:bind(uv0.CHANGE_SKIN, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = SwichSkinMediator,
+			viewComponent = SwichSkinLayer,
+			data = {
+				shipVO = slot1
+			}
+		}))
+	end)
+	slot0:bind(uv0.CHANGE_RANDOM_FLAG, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.CHANGE_RANDOM_SHIPS, {
+			addList = slot2 and {
+				slot1
+			} or {},
+			deleteList = not slot2 and {
+				slot1
+			} or {}
+		})
+	end)
 end
 
 slot0.listNotificationInterests = function(slot0)
@@ -94,7 +112,8 @@ slot0.listNotificationInterests = function(slot0)
 		PlayerProxy.UPDATED,
 		GAME.WORLD_SHIP_REPAIR_DONE,
 		GAME.UPDATE_LOCK_DONE,
-		GAME.WORLD_FLEET_REDEPLOY_DONE
+		GAME.WORLD_FLEET_REDEPLOY_DONE,
+		SetShipSkinCommand.SKIN_UPDATED
 	}
 end
 
@@ -198,6 +217,12 @@ slot0.handleNotification = function(slot0, slot1)
 		end)
 	elseif slot2 == GAME.WORLD_FLEET_REDEPLOY_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_BACK)
+	elseif slot2 == SetShipSkinCommand.SKIN_UPDATED then
+		if slot0.shipsById[slot3.ship.id] then
+			slot0.shipsById[slot3.ship.id] = getProxy(BayProxy):RawGetShipById(slot3.ship.id)
+		end
+
+		slot0.viewComponent:OnShipSkinChanged(slot3.ship:GetShipPhantomMark())
 	end
 end
 

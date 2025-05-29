@@ -11,6 +11,7 @@ slot0.onRegister = function(slot0)
 	slot0._nextTipAutoBattleTime = PlayerPrefs.GetInt("AutoBattleTip", 0)
 	slot0._setFlagShip = PlayerPrefs.GetInt("setFlagShip", 0) > 0
 	slot0._setFlagShipForSkinAtlas = PlayerPrefs.GetInt("setFlagShipforskinatlas", 0) > 0
+	slot0._setFlagRandom = PlayerPrefs.GetInt("setFlagRandom", 0) > 0
 	slot0._screenRatio = PlayerPrefs.GetFloat("SetScreenRatio", ADAPT_TARGET)
 	slot0.storyAutoPlayCode = PlayerPrefs.GetInt("story_autoplay_flag", 0)
 	NotchAdapt.CheckNotchRatio = slot0._screenRatio
@@ -242,6 +243,19 @@ end
 
 slot0.GetSetFlagShipForSkinAtlas = function(slot0)
 	return slot0._setFlagShipForSkinAtlas
+end
+
+slot0.SetFlagRandom = function(slot0, slot1)
+	if slot0._setFlagRandom ~= slot1 then
+		slot0._setFlagRandom = slot1
+
+		PlayerPrefs.SetInt("setFlagRandom", slot1 and 1 or 0)
+		PlayerPrefs.Save()
+	end
+end
+
+slot0.GetFlagRandom = function(slot0)
+	return slot0._setFlagRandom
 end
 
 slot0.CheckNeedUserAgreement = function(slot0)
@@ -691,10 +705,11 @@ slot0.GetRandomFlagShipList = function(slot0)
 		return slot0.randomFlagShipList
 	end
 
-	slot1 = getProxy(PlayerProxy)
-	slot0.randomFlagShipList = _.map(string.split(PlayerPrefs.GetString("RandomFlagShipList" .. slot1:getRawData().id, ""), "#"), function (slot0)
-		return tonumber(slot0)
-	end)
+	if PlayerPrefs.GetString("RandomFlagShipList" .. getProxy(PlayerProxy):getRawData().id, "") == "" then
+		slot0.randomFlagShipList = {}
+	else
+		slot0.randomFlagShipList = string.split(slot2, "#")
+	end
 
 	return slot0.randomFlagShipList
 end
@@ -715,13 +730,21 @@ slot0.IsOpenRandomFlagShip = function(slot0)
 	slot2 = getProxy(BayProxy)
 
 	return #slot0:GetRandomFlagShipList() > 0 and _.any(slot1, function (slot0)
-		return uv0:RawGetShipById(slot0) ~= nil
+		slot1, slot2 = ShipPhantom.UnpackMark(slot0)
+
+		return uv0:RawGetShipById(slot1) ~= nil
 	end)
 end
 
 slot0.UpdateRandomFlagShipList = function(slot0, slot1)
 	slot0.randomFlagShipMap = nil
 	slot0.randomFlagShipList = slot1
+
+	for slot5, slot6 in ipairs(slot1) do
+		if getProxy(BayProxy):GetShipPhantom(slot6) and slot7.phantomId > 0 then
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildPhantom(slot7:getSkinId()))
+		end
+	end
 
 	PlayerPrefs.SetString("RandomFlagShipList" .. getProxy(PlayerProxy):getRawData().id, table.concat(slot1, "#"))
 	PlayerPrefs.Save()

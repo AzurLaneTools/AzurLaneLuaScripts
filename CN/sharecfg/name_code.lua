@@ -2856,6 +2856,13 @@ pg.name_code = {
 		code = "芙兰希卡·META",
 		nation = 0
 	},
+	[544] = {
+		name = "小埃吉尔",
+		type = 1,
+		id = 544,
+		code = "小埃格妮丝",
+		nation = 0
+	},
 	[10000] = {
 		name = "零战五二型",
 		type = 2,

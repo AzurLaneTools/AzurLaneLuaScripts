@@ -242,7 +242,7 @@ slot0.execute = function(slot0, slot1)
 				slot6 = {}
 
 				if uv4.skin_id ~= 0 then
-					uv0:updateSkinId(uv4.skin_id)
+					uv0:updateSkinId(uv4.skin_id, 0)
 					table.insert(slot6, {
 						count = 1,
 						type = DROP_TYPE_SKIN,

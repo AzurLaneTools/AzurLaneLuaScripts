@@ -89,7 +89,7 @@ slot0.GetPbList = function(slot0)
 end
 
 slot0.GetPaintingOffset = function(slot0, slot1)
-	if pg.ship_skin_newmainui_shift[slot1.skinId] then
+	if pg.ship_skin_newmainui_shift[slot1:getSkinId()] then
 		return MainPaintingShift.New(slot0:GetConfigShift(slot2), Vector3(-MainPaintingView.MESH_POSITION_X_OFFSET, -10, 0))
 	else
 		return MainPaintingShift.New({

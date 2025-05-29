@@ -130,7 +130,7 @@ slot0.ShipStatusToTag = function(slot0, slot1)
 			"red",
 			i18n("word_status_world")
 		}
-	elseif getProxy(SettingsProxy):IsRandomFlagShip(slot0.id) then
+	elseif getProxy(SettingsProxy):IsRandomFlagShip(slot0:GetShipPhantomMark()) then
 		return {
 			"shipstatus",
 			"light_yellow",

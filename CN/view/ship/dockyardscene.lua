@@ -10,6 +10,7 @@ slot0.MODE_WORLD = "world"
 slot0.MODE_REMOULD = "remould"
 slot0.MODE_UPGRADE = "upgrade"
 slot0.MODE_GUILD_BOSS = "guildboss"
+slot0.MODE_SHIP_PHANTOM = "phantom"
 slot0.TITLE_CN_OVERVIEW = i18n("word_dockyard")
 slot0.TITLE_CN_UPGRADE = i18n("word_dockyardUpgrade")
 slot0.TITLE_CN_DESTROY = i18n("word_dockyardDestroy")
@@ -132,9 +133,6 @@ slot0.init = function(slot0)
 	slot0.stampBtn = slot0.topPanel:Find("stamp")
 	slot0.isRemouldOrUpgradeMode = slot0.contextData.mode == uv0.MODE_REMOULD or slot0.contextData.mode == uv0.MODE_UPGRADE
 
-	setActive(slot0.switchPanel, not slot0.isRemouldOrUpgradeMode)
-	setActive(slot0.indexBtn, not slot0.isRemouldOrUpgradeMode)
-	setActive(slot0.sortBtn, not slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.modLeveFilter, slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.modLockFilter, slot0.isRemouldOrUpgradeMode)
 	setActive(slot0.assultBtn, slot0.contextData.mode == uv0.MODE_GUILD_BOSS)
@@ -153,6 +151,9 @@ slot0.init = function(slot0)
 			setText(uv0.modAttrsTF:Find("title/Text"), i18n("word_mod_value"))
 
 			uv0.modAttrContainer = uv0.modAttrsTF:Find("attrs")
+		end,
+		[uv0.MODE_SHIP_PHANTOM] = function ()
+			uv0.selecteEnabled = false
 		end
 	}, function ()
 		uv0.selecteEnabled = true
@@ -176,67 +177,30 @@ slot0.init = function(slot0)
 		setActive(slot4, slot0.contextData.priorMode == uv0.PRIOR_MODE_SHIP_UP)
 	end
 
-	if slot0.contextData.selectFriend then
-		slot0.shipContainer = slot0:findTF("main/friend_container/ships"):GetComponent("LScrollRect")
-	else
-		slot0.shipContainer = slot0:findTF("main/ship_container/ships"):GetComponent("LScrollRect")
-	end
+	slot0.togglePhantom = slot0._tf:Find("toggle_phantom")
 
-	slot0.shipContainer.enabled = true
-	slot0.shipContainer.decelerationRate = 0.07
+	onToggle(slot0, slot0.togglePhantom, function ()
+		uv0.inPhantom = not uv0.inPhantom
 
-	setActive(slot0:findTF("main/ship_container"), not slot0.contextData.selectFriend)
+		uv0:SwitchContainerDisplay()
+	end, SFX_PANEL)
+	setActive(slot0.togglePhantom, false)
 
-	slot0.shipContainer.onInitItem = function(slot0)
-		uv0:onInitItem(slot0)
-	end
+	slot0.helpPhantom = slot0._tf:Find("help_phantom")
 
-	slot0.shipContainer.onUpdateItem = function(slot0, slot1)
-		uv0:onUpdateItem(slot0, slot1)
-	end
+	onButton(slot0, slot0.helpPhantom, function ()
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			type = MSGBOX_TYPE_HELP,
+			helps = i18n("projection_help")
+		})
+	end, SFX_PANEL)
 
-	slot0.shipContainer.onReturnItem = function(slot0, slot1)
-		uv0:onReturnItem(slot0, slot1)
-	end
+	slot3 = slot0.contextData.mode == uv0.MODE_SHIP_PHANTOM and "phantom" or "dockyard"
 
-	slot0.shipContainer.onStart = function()
-		uv0:updateSelected()
-	end
+	eachChild(slot0.topPanel:Find("titles"), function (slot0, slot1)
+		setActive(slot0, slot0.name == uv0)
+	end)
 
-	slot0.shipLayout = slot0:findTF("main/ship_container/ships")
-	slot0.scrollItems = {}
-
-	if _G[slot0.contextData.preView] then
-		slot0.sortIndex = slot3.sortIndex or ShipIndexConst.SortLevel
-		slot0.selectAsc = slot3.selectAsc or false
-		slot0.typeIndex = slot3.typeIndex or ShipIndexConst.TypeAll
-		slot0.campIndex = slot3.campIndex or ShipIndexConst.CampAll
-		slot0.rarityIndex = slot3.rarityIndex or ShipIndexConst.RarityAll
-		slot0.extraIndex = slot3.extraIndex or ShipIndexConst.ExtraAll
-		slot0.commonTag = slot3.commonTag or Ship.PREFERENCE_TAG_NONE
-	elseif slot0.contextData.sortData then
-		slot0.sortIndex = slot0.contextData.sortData.sort or ShipIndexConst.SortLevel
-		slot0.selectAsc = slot4.Asc or false
-		slot0.typeIndex = slot4.typeIndex or ShipIndexConst.TypeAll
-		slot0.campIndex = slot4.campIndex or ShipIndexConst.CampAll
-		slot0.rarityIndex = slot4.rarityIndex or ShipIndexConst.RarityAll
-		slot0.extraIndex = slot4.extraIndex or ShipIndexConst.ExtraAll
-		slot0.commonTag = slot4.commonTag or Ship.PREFERENCE_TAG_NONE
-	else
-		slot0.selectAsc = DockyardScene.selectAsc or false
-		slot0.sortIndex = DockyardScene.sortIndex or ShipIndexConst.SortLevel
-		slot0.typeIndex = DockyardScene.typeIndex or ShipIndexConst.TypeAll
-		slot0.campIndex = DockyardScene.campIndex or ShipIndexConst.CampAll
-		slot0.rarityIndex = DockyardScene.rarityIndex or ShipIndexConst.RarityAll
-		slot0.extraIndex = DockyardScene.extraIndex or ShipIndexConst.ExtraAll
-		slot0.commonTag = DockyardScene.commonTag or Ship.PREFERENCE_TAG_NONE
-	end
-
-	slot0:updateIndexDatas()
-	triggerToggle(slot0.preferenceBtn, slot0.commonTag == Ship.PREFERENCE_TAG_COMMON)
-	slot0:initIndexPanel()
-
-	slot0.itemDetailType = -1
 	slot0.listEmptyTF = slot0:findTF("empty")
 
 	setActive(slot0.listEmptyTF, false)
@@ -245,23 +209,9 @@ slot0.init = function(slot0)
 
 	setText(slot0.listEmptyTxt, i18n("list_empty_tip_dockyardui"))
 
-	if slot0.contextData.mode == uv0.MODE_DESTROY then
-		slot0.blacklist = {}
-		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 50
-
-		setActive(slot0.selectPanel:Find("quick_select"), true)
-		setActive(slot0.settingBtn, true)
-	else
-		slot0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 250
-
-		setActive(slot0.selectPanel:Find("quick_select"), false)
-		setActive(slot0.settingBtn, false)
-	end
-
 	slot0.destroyPage = ShipDestroyPage.New(slot0._tf, slot0.event)
-	slot4 = slot0.destroyPage
 
-	slot4:SetCardClickCallBack(function (slot0)
+	slot0.destroyPage:SetCardClickCallBack(function (slot0)
 		uv0.blacklist[slot0.shipVO:getGroupId()] = true
 
 		if table.indexof(uv0.selectedIds, slot0.shipVO.id) and slot1 > 0 then
@@ -271,10 +221,7 @@ slot0.init = function(slot0)
 		uv0:updateDestroyRes()
 		uv0:updateSelected()
 	end)
-
-	slot4 = slot0.destroyPage
-
-	slot4:SetConfirmCallBack(function ()
+	slot0.destroyPage:SetConfirmCallBack(function ()
 		slot0 = {}
 		slot1, slot2 = uv0:checkDestroyGold()
 
@@ -302,6 +249,245 @@ slot0.init = function(slot0)
 	slot0.destroyConfirmWindow = ShipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
 
+slot0.SwitchContainerDisplay = function(slot0)
+	slot0.isPhantomMode = slot0.contextData.mode == uv0.MODE_SHIP_PHANTOM or slot0.inPhantom
+
+	setActive(slot0.switchPanel, not slot0.isRemouldOrUpgradeMode and not slot0.isPhantomMode)
+	setActive(slot0.indexBtn, not slot0.isRemouldOrUpgradeMode and not slot0.isPhantomMode)
+	setActive(slot0.sortBtn, not slot0.isRemouldOrUpgradeMode and not slot0.isPhantomMode)
+	setActive(slot0._tf:Find("main/ship_container"), not slot0.isPhantomMode)
+	setActive(slot0._tf:Find("main/phantom_container"), slot0.isPhantomMode)
+	slot0:updateBarInfo()
+	setActive(slot0.helpPhantom, slot0.contextData.mode == uv0.MODE_SHIP_PHANTOM)
+
+	if PlayerPrefs.GetInt("PHANTOM_HELP_FIRST", 0) == 0 then
+		PlayerPrefs.GetInt("PHANTOM_HELP_FIRST", 1)
+		triggerButton(slot0.helpPhantom)
+	end
+
+	switch(tobool(slot0.isPhantomMode), {
+		[true] = function ()
+			uv0.initDic = uv0.initDic or {}
+
+			if uv0.initDic.phantom then
+				return
+			end
+
+			uv0.initDic.phantom = true
+			slot0 = getProxy(TechnologyProxy)
+			slot1 = uv0._tf
+			slot1 = slot1:Find("main/phantom_container/title/content")
+
+			UIItemList.StaticAlign(slot1, slot1:GetChild(0), slot0:getConfigMaxVersion() + 1, function (slot0, slot1, slot2)
+				if slot0 == UIItemList.EventUpdate then
+					slot2.name = "phase_" .. slot1
+
+					GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", slot1, slot2:Find("on"))
+					GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", slot1, slot2:Find("off"))
+					onToggle(uv0, slot2, function (slot0)
+						if slot0 then
+							uv0.selectVersion = uv1
+							uv0.filterBluePrint = underscore.filter(uv0.shipBluePrints, function (slot0)
+								return uv0 == 0 or slot0:getConfig("blueprint_version") == uv0
+							end)
+
+							uv0.phantomContainer:SetTotalCount(#uv0.filterBluePrint, 0)
+						end
+					end, SFX_PANEL)
+				end
+			end)
+
+			slot4 = uv0._tf
+
+			setActive(slot4:Find("main/phantom_container/view/tpl"), false)
+
+			slot4 = uv0._tf
+			slot4 = slot4:Find("main/phantom_container/view/groups")
+			uv0.phantomContainer = slot4:GetComponent("LScrollRect")
+			uv0.phantomContainer.enabled = true
+			uv0.phantomContainer.decelerationRate = 0.07
+
+			uv0.phantomContainer.onInitItem = function(slot0)
+				uv0:getOrInitPhantom(slot0)
+				ClearTweenItemAlphaAndWhite(slot0)
+			end
+
+			uv0.phantomContainer.onUpdateItem = function(slot0, slot1)
+				uv0:updatePhantomGroup(uv0.filterBluePrint[slot0 + 1], slot1)
+				TweenItemAlphaAndWhite(slot1)
+			end
+
+			uv0.phantomContainer.onReturnItem = function(slot0, slot1)
+				if uv0.exited then
+					return
+				end
+
+				uv0:getOrInitPhantom(slot1):clear()
+				ClearTweenItemAlphaAndWhite(slot1)
+			end
+
+			uv0.scrollPhantoms = {}
+			uv0.phantomGroupDic = {}
+
+			setActive(uv0.preferenceBtn, false)
+
+			slot3 = 0
+
+			if uv0.contextData.techVersion and #underscore.filter(uv0.shipBluePrints, function (slot0)
+				return uv0.contextData.techVersion == 0 or slot0:getConfig("blueprint_version") == uv0.contextData.techVersion
+			end) > 0 then
+				slot3 = uv0.contextData.techVersion
+			end
+
+			uv0.contextData.techVersion = nil
+
+			triggerToggle(uv0._tf:Find("main/phantom_container/title/content"):GetChild(slot3), true)
+		end,
+		[false] = function ()
+			uv0.initDic = uv0.initDic or {}
+
+			if uv0.initDic.ship then
+				return
+			end
+
+			uv0.initDic.ship = true
+			uv0.shipContainer = uv0:findTF("main/ship_container/ships"):GetComponent("LScrollRect")
+			uv0.shipContainer.enabled = true
+			uv0.shipContainer.decelerationRate = 0.07
+
+			uv0.shipContainer.onInitItem = function(slot0)
+				uv0:onInitItem(slot0)
+			end
+
+			uv0.shipContainer.onUpdateItem = function(slot0, slot1)
+				uv0:onUpdateItem(slot0, slot1)
+			end
+
+			uv0.shipContainer.onReturnItem = function(slot0, slot1)
+				uv0:onReturnItem(slot0, slot1)
+			end
+
+			uv0.shipContainer.onStart = function()
+				uv0:updateSelected()
+			end
+
+			uv0.shipLayout = uv0:findTF("main/ship_container/ships")
+			uv0.scrollItems = {}
+			uv0.cardItemDic = {}
+
+			if _G[uv0.contextData.preView] then
+				uv0.sortIndex = slot0.sortIndex or ShipIndexConst.SortLevel
+				uv0.selectAsc = slot0.selectAsc or false
+				uv0.typeIndex = slot0.typeIndex or ShipIndexConst.TypeAll
+				uv0.campIndex = slot0.campIndex or ShipIndexConst.CampAll
+				uv0.rarityIndex = slot0.rarityIndex or ShipIndexConst.RarityAll
+				uv0.extraIndex = slot0.extraIndex or ShipIndexConst.ExtraAll
+				uv0.commonTag = slot0.commonTag or Ship.PREFERENCE_TAG_NONE
+			elseif uv0.contextData.sortData then
+				uv0.sortIndex = uv0.contextData.sortData.sort or ShipIndexConst.SortLevel
+				uv0.selectAsc = slot1.Asc or false
+				uv0.typeIndex = slot1.typeIndex or ShipIndexConst.TypeAll
+				uv0.campIndex = slot1.campIndex or ShipIndexConst.CampAll
+				uv0.rarityIndex = slot1.rarityIndex or ShipIndexConst.RarityAll
+				uv0.extraIndex = slot1.extraIndex or ShipIndexConst.ExtraAll
+				uv0.commonTag = slot1.commonTag or Ship.PREFERENCE_TAG_NONE
+			else
+				uv0.selectAsc = DockyardScene.selectAsc or false
+				uv0.sortIndex = DockyardScene.sortIndex or ShipIndexConst.SortLevel
+				uv0.typeIndex = DockyardScene.typeIndex or ShipIndexConst.TypeAll
+				uv0.campIndex = DockyardScene.campIndex or ShipIndexConst.CampAll
+				uv0.rarityIndex = DockyardScene.rarityIndex or ShipIndexConst.RarityAll
+				uv0.extraIndex = DockyardScene.extraIndex or ShipIndexConst.ExtraAll
+				uv0.commonTag = DockyardScene.commonTag or Ship.PREFERENCE_TAG_NONE
+			end
+
+			uv0:updateIndexDatas()
+			setActive(uv0.preferenceBtn, true)
+			triggerToggle(uv0.preferenceBtn, uv0.commonTag == Ship.PREFERENCE_TAG_COMMON)
+			uv0:initIndexPanel()
+
+			uv0.itemDetailType = -1
+
+			if uv0.contextData.mode == uv1.MODE_DESTROY then
+				uv0.blacklist = {}
+				uv0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 50
+
+				setActive(uv0.selectPanel:Find("quick_select"), true)
+				setActive(uv0.settingBtn, true)
+			else
+				uv0.selectPanel:GetComponent("HorizontalLayoutGroup").padding.right = 250
+
+				setActive(uv0.selectPanel:Find("quick_select"), false)
+				setActive(uv0.settingBtn, false)
+			end
+
+			if uv0.contextData.mode == uv1.MODE_GUILD_BOSS then
+				uv0.isShowAssultShips = false
+
+				triggerToggle(uv0.assultBtn, true)
+
+				uv0.guildShipEquipmentsPage = GuildShipEquipmentsPage.New(uv0._tf, uv0.event)
+				slot1 = uv0.guildShipEquipmentsPage
+
+				slot1:SetCallBack(function ()
+					uv0:TriggerCard(-1)
+				end, function ()
+					uv0:TriggerCard(1)
+				end)
+			end
+
+			eachChild(uv0.attrBtn, function (slot0)
+				setActive(slot0, false)
+			end)
+
+			uv0.isFormTactics = uv0.contextData.prevPage == "NewNavalTacticsMediator"
+			slot1 = uv0:findTF("off", uv0.attrBtn):GetComponent("Image")
+			slot2 = uv0:findTF("on", uv0.attrBtn):GetComponent("Image")
+
+			if uv0.isFormTactics then
+				GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_off", slot1)
+				GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_on", slot2)
+			else
+				GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_off", slot1)
+				GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_on", slot2)
+			end
+
+			triggerButton(uv0.attrBtn)
+
+			if uv0.isRemouldOrUpgradeMode then
+				slot3 = getProxy(SettingsProxy)
+				uv0.isFilterLevelForMod = slot3:GetDockYardLevelBtnFlag()
+				slot4 = uv0
+
+				slot4:OnSwitch(uv0.modLeveFilter, uv0.isFilterLevelForMod, function (slot0)
+					uv0.isFilterLevelForMod = slot0
+
+					uv0:filter()
+				end)
+
+				uv0.isFilterLockForMod = slot3:GetDockYardLockBtnFlag()
+				slot4 = uv0
+
+				slot4:OnSwitch(uv0.modLockFilter, uv0.isFilterLockForMod, function (slot0)
+					uv0.isFilterLockForMod = slot0
+
+					uv0:filter()
+				end)
+			end
+
+			uv0.shipContainer:GetComponentInChildren(typeof(GridLayoutGroup)).constraintCount = 7
+
+			uv0:filter()
+		end
+	})
+
+	if slot0.isPhantomMode then
+		setActive(slot0.listEmptyTF, #slot0.filterBluePrint == 0)
+	else
+		setActive(slot0.listEmptyTF, #slot0.shipVOs <= 0)
+	end
+end
+
 slot0.isDefaultStatus = function(slot0)
 	return slot0.sortIndex == ShipIndexConst.SortLevel and (not slot0.typeIndex or slot0.typeIndex == ShipIndexConst.TypeAll) and (not slot0.campIndex or slot0.campIndex == ShipIndexConst.CampAll) and (not slot0.rarityIndex or slot0.rarityIndex == ShipIndexConst.RarityAll) and (not slot0.extraIndex or slot0.extraIndex == ShipIndexConst.ExtraAll)
 end
@@ -312,9 +498,7 @@ slot0.setShipsCount = function(slot0, slot1, slot2)
 end
 
 slot0.GetCard = function(slot0, slot1)
-	slot2 = nil
-
-	return (not slot0.contextData.selectFriend or DockyardFriend.New(slot1)) and DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
+	return DockyardShipItem.New(slot1, slot0.contextData.hideTagFlags, slot0.contextData.blockTagFlags)
 end
 
 slot0.OnClickCard = function(slot0, slot1)
@@ -343,7 +527,19 @@ slot0.OnClickCard = function(slot0, slot1)
 	end
 end
 
+slot0.OnClickPhantom = function(slot0, slot1)
+	if slot1.phantomId == 0 then
+		return
+	else
+		slot0:emit(DockyardMediator.CHANGE_SKIN, slot1)
+	end
+end
+
 slot0.onInitItem = function(slot0, slot1)
+	if slot0.scrollItems[slot1] then
+		return slot0.scrollItems[slot1]
+	end
+
 	slot2 = slot0:GetCard(slot1)
 
 	slot2:updateDetail(slot0.itemDetailType)
@@ -376,6 +572,101 @@ slot0.onInitItem = function(slot0, slot1)
 	return slot2
 end
 
+slot0.getOrInitPhantom = function(slot0, slot1)
+	slot0.scrollPhantoms[slot1] = slot0.scrollPhantoms[slot1] or {
+		isClear = true,
+		go = slot1,
+		tf = tf(slot1),
+		updateSelected = function (slot0, slot1)
+			slot0.shipCard:updateSelected(slot1[0])
+			eachChild(slot0.tf:Find("phantoms"), function (slot0, slot1)
+				setActive(slot0:Find("selected"), uv0.phantoms[slot1 + 1 + 1] and uv1[slot2.phantomId])
+			end)
+		end,
+		clear = function (slot0)
+			if slot0.isClear then
+				return
+			end
+
+			slot0.shipCard:clear()
+
+			slot0.isClear = true
+		end
+	}
+
+	return slot0.scrollPhantoms[slot1]
+end
+
+slot0.updatePhantomGroup = function(slot0, slot1, slot2)
+	slot3 = slot0:getOrInitPhantom(slot2)
+	slot3.isClear = false
+	slot0.phantomGroupDic[slot1.shipId] = slot2
+	slot3.shipCard = slot3.shipCard or slot0:GetCard(slot3.tf:Find("card"):GetChild(0).gameObject)
+
+	assert(slot0.shipVOsById[slot1.shipId]:getAllShipPhantom()[1].phantomId == 0)
+
+	slot3.phantoms = slot4
+
+	slot3.shipCard:update(slot4[1])
+	slot3.shipCard:updateSelected(underscore.any(slot0.selectedIds, function (slot0)
+		return slot0 == uv0[1].id
+	end))
+	slot0:updateItemBlackBlock(slot3.shipCard)
+
+	slot3.shipCard.isLoading = false
+
+	slot3.shipCard:updateIntimacyEnergy(false)
+	slot3.shipCard:updateIntimacy(false)
+	onButton(slot0, slot3.shipCard.tr, function ()
+		uv0:OnClickPhantom(uv1[1])
+	end, SFX_UI_CLICK)
+
+	slot6 = slot3.tf:Find("phantoms")
+
+	UIItemList.StaticAlign(slot6, slot6:GetChild(0), getGameset("technology_shadow_num")[1], function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
+		if slot0 == UIItemList.EventUpdate then
+			slot3 = uv0[slot1 + 1]
+
+			setActive(slot2:Find("skin"), tobool(slot3))
+			setActive(slot2:Find("lock"), not slot3)
+
+			if slot3 then
+				GetImageSpriteFromAtlasAsync("shipYardIcon/" .. slot3:getPainting(), "", slot2:Find("skin/Image"))
+				changeToScrollText(slot2:Find("skin/name/Text"), pg.ship_skin_template[slot3:getSkinId()].name)
+				setActive(slot2:Find("skin/status"), false)
+
+				slot5 = slot3:GetShipPhantomMark()
+
+				setActive(slot2:Find("selected"), underscore.any(uv1.selectedMarks or {}, function (slot0)
+					return uv0 == slot0
+				end))
+				setActive(slot2:Find("skin/mark/base"), uv1.contextData.mode ~= uv2.MODE_SHIP_PHANTOM)
+				setActive(slot2:Find("skin/mark/toggle"), uv1.contextData.mode == uv2.MODE_SHIP_PHANTOM)
+				onToggle(uv1, slot2:Find("skin/mark/toggle"), function (slot0)
+					if slot0 ~= uv0 then
+						uv0 = slot0
+
+						uv1:emit(DockyardMediator.CHANGE_RANDOM_FLAG, uv2:GetShipPhantomMark(), uv0)
+					end
+				end, SFX_UI_CLICK)
+				triggerToggle(slot2:Find("skin/mark/toggle"), slot3:getRandomFlag())
+			else
+				setActive(slot2:Find("selected"), false)
+			end
+
+			onButton(uv1, slot2, function ()
+				if uv0 then
+					uv1:OnClickPhantom(uv0)
+				else
+					pg.TipsMgr.GetInstance():ShowTips("shadow_unlock_tip")
+				end
+			end, SFX_UI_CLICK)
+		end
+	end)
+end
+
 slot0.showEnergyDesc = function(slot0, slot1, slot2)
 	if LeanTween.isTweening(go(slot0.energyDescTF)) then
 		LeanTween.cancel(go(slot0.energyDescTF))
@@ -401,38 +692,23 @@ slot0.showEnergyDesc = function(slot0, slot1, slot2)
 end
 
 slot0.onUpdateItem = function(slot0, slot1, slot2)
-	slot3 = slot0.scrollItems[slot2] or slot0:onInitItem(slot2)
-	slot4 = slot0.shipVOs[slot1 + 1]
+	slot0.cardItemDic[slot0.shipVOs[slot1 + 1] and slot3.id or 0] = slot2
 
-	if slot0.contextData.selectFriend then
-		slot3:update(slot4, slot0.friends)
-	else
-		slot3:update(slot4)
-	end
+	slot0:onInitItem(slot2):update(slot3)
 
 	if slot0.contextData.mode == DockyardScene.MODE_WORLD then
-		slot3:updateWorld()
+		slot5:updateWorld()
 	end
 
-	slot5 = false
+	slot5:updateSelected(slot5.shipVO and underscore.any(slot0.selectedIds, function (slot0)
+		return uv0.shipVO.id == slot0
+	end))
+	slot0:updateItemBlackBlock(slot5)
 
-	if slot3.shipVO then
-		for slot9, slot10 in ipairs(slot0.selectedIds) do
-			if slot3.shipVO.id == slot10 then
-				slot5 = true
+	slot5.isLoading = false
 
-				break
-			end
-		end
-	end
-
-	slot3:updateSelected(slot5)
-	slot0:updateItemBlackBlock(slot3)
-
-	slot3.isLoading = false
-
-	slot3:updateIntimacyEnergy(slot0.contextData.energyDisplay or slot0.sortIndex == ShipIndexConst.SortEnergy)
-	slot3:updateIntimacy((slot0.sortIndex == ShipIndexConst.SortIntimacy or slot0.extraIndex == ShipIndexConst.ExtraMarry) and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
+	slot5:updateIntimacyEnergy(slot0.contextData.energyDisplay or slot0.sortIndex == ShipIndexConst.SortEnergy)
+	slot5:updateIntimacy((slot0.sortIndex == ShipIndexConst.SortIntimacy or slot0.extraIndex == ShipIndexConst.ExtraMarry) and slot0.contextData.mode ~= DockyardScene.MODE_UPGRADE)
 end
 
 slot0.onReturnItem = function(slot0, slot1, slot2)
@@ -568,6 +844,22 @@ end
 
 slot0.setShips = function(slot0, slot1)
 	slot0.shipVOsById = slot1
+	slot0.shipBluePrints = {}
+
+	for slot6, slot7 in ipairs(getProxy(TechnologyProxy):getAllBluePrintShipIds()) do
+		if #getProxy(BayProxy):getShipById(slot7):getAllShipPhantomMarks() > 1 then
+			table.insert(slot0.shipBluePrints, slot2:getBluePrintById(slot8.groupId))
+		end
+	end
+
+	table.sort(slot0.shipBluePrints, CompareFuncs({
+		function (slot0)
+			return slot0:getConfig("blueprint_version")
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}))
 end
 
 slot0.setPlayer = function(slot0, slot1)
@@ -576,21 +868,13 @@ slot0.setPlayer = function(slot0, slot1)
 	slot0:updateBarInfo()
 end
 
-slot0.setFriends = function(slot0, slot1)
-	slot0.friends = {}
-
-	for slot5, slot6 in pairs(slot1) do
-		slot0.friends[slot6.id] = slot6
-	end
-end
-
 slot0.updateBarInfo = function(slot0)
 	setActive(slot0.bottomTipsText, slot0.contextData.leftTopInfo)
 	setText(slot0.bottomTipsText, slot0.contextData.leftTopInfo and i18n("dock_yard_left_tips", slot0.contextData.leftTopInfo) or "")
 	setActive(slot0.bottomTipsWithFrame, slot0.contextData.leftTopWithFrameInfo)
 	setText(slot0.bottomTipsWithFrame:Find("Text"), slot0.contextData.leftTopWithFrameInfo or "")
 
-	if slot0.contextData.mode == uv0.MODE_WORLD or slot0.contextData.mode == uv0.MODE_GUILD_BOSS or slot0.contextData.mode == uv0.MODE_REMOULD then
+	if slot0.contextData.mode == uv0.MODE_WORLD or slot0.contextData.mode == uv0.MODE_GUILD_BOSS or slot0.contextData.mode == uv0.MODE_REMOULD or slot0.isPhantomMode then
 		setActive(slot0.leftTipsText, false)
 	else
 		setActive(slot0.leftTipsText, true)
@@ -850,6 +1134,14 @@ slot0.UpdateGuildViewEquipmentsBtn = function(slot0)
 	setActive(slot0.viewEquipmentBtn, slot0.contextData.mode == uv0.MODE_GUILD_BOSS and #slot0.selectedIds > 0)
 end
 
+slot0.GetSelectCount = function(slot0)
+	return #slot0.selectedIds
+end
+
+slot0.GetConfirmSelect = function(slot0)
+	return slot0.selectedIds
+end
+
 slot0.didEnter = function(slot0)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.blurPanel)
 	slot0:PlayUIAnimation(slot0.blurPanel, "enter")
@@ -866,90 +1158,35 @@ slot0.didEnter = function(slot0)
 
 		uv0:filter()
 	end, SFX_UI_CLICK)
+	onToggle(slot0, slot0.assultBtn, function (slot0)
+		uv0.isShowAssultShips = slot0
 
-	if slot0.contextData.mode == uv0.MODE_GUILD_BOSS then
-		slot0.isShowAssultShips = false
+		uv0:filter()
+	end, SFX_PANEL)
+	onButton(slot0, slot0.viewEquipmentBtn, function ()
+		if not uv0.selectedIds[#uv0.selectedIds] then
+			return
+		end
 
-		onToggle(slot0, slot0.assultBtn, function (slot0)
-			uv0.isShowAssultShips = slot0
+		slot1 = uv0.shipVOsById[slot0]
 
-			uv0:filter()
-		end, SFX_PANEL)
-		triggerToggle(slot0.assultBtn, true)
-
-		slot0.guildShipEquipmentsPage = GuildShipEquipmentsPage.New(slot0._tf, slot0.event)
-		slot1 = slot0.guildShipEquipmentsPage
-
-		slot1:SetCallBack(function ()
-			uv0:TriggerCard(-1)
-		end, function ()
-			uv0:TriggerCard(1)
-		end)
-		onButton(slot0, slot0.viewEquipmentBtn, function ()
-			if not uv0.selectedIds[#uv0.selectedIds] then
-				return
-			end
-
-			slot1 = uv0.shipVOsById[slot0]
-
-			uv0.guildShipEquipmentsPage:ExecuteAction("Show", slot1, slot1.user)
-		end, SFX_PANEL)
-	end
-
-	eachChild(slot0.attrBtn:GetComponent("Button"), function (slot0)
-		setActive(slot0, false)
-	end)
-
-	slot0.isFormTactics = slot0.contextData.prevPage == "NewNavalTacticsMediator"
-	slot2 = slot0:findTF("off", slot1):GetComponent("Image")
-	slot3 = slot0:findTF("on", slot1):GetComponent("Image")
-
-	if slot0.isFormTactics then
-		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_off", slot2)
-		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "skill_on", slot3)
-	else
-		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_off", slot2)
-		GetImageSpriteFromAtlasAsync("ui/dockyardui_atlas", "attr_on", slot3)
-	end
-
-	if slot0.isRemouldOrUpgradeMode then
-		slot4 = getProxy(SettingsProxy)
-		slot0.isFilterLevelForMod = slot4:GetDockYardLevelBtnFlag()
-
-		slot0:OnSwitch(slot0.modLeveFilter, slot0.isFilterLevelForMod, function (slot0)
-			uv0.isFilterLevelForMod = slot0
-
-			uv0:filter()
-		end)
-
-		slot0.isFilterLockForMod = slot4:GetDockYardLockBtnFlag()
-
-		slot0:OnSwitch(slot0.modLockFilter, slot0.isFilterLockForMod, function (slot0)
-			uv0.isFilterLockForMod = slot0
-
-			uv0:filter()
-		end)
-	end
-
-	onButton(slot0, slot1, function ()
+		uv0.guildShipEquipmentsPage:ExecuteAction("Show", slot1, slot1.user)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.attrBtn, function ()
 		if not uv0.isFormTactics then
 			uv0.itemDetailType = (uv0.itemDetailType + 1) % 4
 		else
 			uv0.itemDetailType = uv0.itemDetailType == DockyardShipItem.DetailType0 and DockyardShipItem.DetailType3 or DockyardShipItem.DetailType0
 		end
 
-		setActive(uv1, uv0.itemDetailType ~= DockyardShipItem.DetailType0)
-		setActive(uv2, uv0.itemDetailType == DockyardShipItem.DetailType0)
+		setActive(uv0.attrBtn:Find("off"), uv0.itemDetailType == DockyardShipItem.DetailType0)
+		setActive(uv0.attrBtn:Find("on"), uv0.itemDetailType ~= DockyardShipItem.DetailType0)
 
-		uv3.targetGraphic = uv0.itemDetailType == DockyardShipItem.DetailType0 and uv2 or uv1
+		uv0.attrBtn:GetComponent("Button").targetGraphic = uv0.itemDetailType == DockyardShipItem.DetailType0 and imageOff or imageOn
 
 		uv0:updateItemDetailType()
 	end, SFX_PANEL)
-	triggerButton(slot1)
-
-	slot6 = slot0.selectPanel
-
-	onButton(slot0, slot6:Find("cancel_button"), function ()
+	onButton(slot0, slot0.selectPanel:Find("cancel_button"), function ()
 		if uv0.animating then
 			return
 		end
@@ -967,10 +1204,7 @@ slot0.didEnter = function(slot0)
 			return
 		end
 	end, SFX_CANCEL)
-
-	slot6 = slot0.selectPanel
-
-	onButton(slot0, slot6:Find("confirm_button"), function ()
+	onButton(slot0, slot0.selectPanel:Find("confirm_button"), function ()
 		if uv0.animating then
 			return
 		end
@@ -989,7 +1223,7 @@ slot0.didEnter = function(slot0)
 			end
 		end
 
-		if #uv0.selectedIds < uv0.selectedMin then
+		if uv0:GetSelectCount() < uv0.selectedMin then
 			if uv0.leastLimitMsg then
 				pg.TipsMgr.GetInstance():ShowTips(uv0.leastLimitMsg)
 			else
@@ -1014,29 +1248,37 @@ slot0.didEnter = function(slot0)
 				end)
 			end
 
-			seriesAsync(slot0, function ()
-				if uv0.confirmSelect then
-					uv0.confirmSelect(uv0.selectedIds, function ()
-						uv0.onSelected(uv0.selectedIds)
-						uv0:back()
-					end, function ()
-						uv0:back()
-					end)
-				elseif uv0.callbackQuit then
-					uv0.onSelected(uv0.selectedIds, function ()
-						uv0:back()
-					end)
-				else
-					uv0.onSelected(uv0.selectedIds)
+			slot1 = uv0:GetConfirmSelect()
+
+			if uv0.confirmSelect then
+				table.insert(slot0, function (slot0)
+					uv0.confirmSelect(uv1, function ()
+						uv0(true)
+					end, slot0)
+				end)
+				seriesAsync(slot0, function (slot0)
+					if slot0 then
+						uv0.onSelected(uv1)
+					end
+
 					uv0:back()
-				end
-			end)
+				end)
+			else
+				table.insert(slot0, function (slot0)
+					if uv0.callbackQuit then
+						uv0.onSelected(uv1, slot0)
+					else
+						uv0.onSelected(uv1)
+						slot0()
+					end
+				end)
+				seriesAsync(slot0, function ()
+					uv0:back()
+				end)
+			end
 		end
 	end, SFX_CONFIRM)
-
-	slot6 = slot0.selectPanel
-
-	onButton(slot0, slot6:Find("quick_select"), function ()
+	onButton(slot0, slot0.selectPanel:Find("quick_select"), function ()
 		if uv0.animating then
 			return
 		end
@@ -1155,7 +1397,7 @@ slot0.didEnter = function(slot0)
 		end
 
 		for slot18, slot19 in ipairs(slot6) do
-			if uv0.selectedMax > 0 and uv0.selectedMax <= #uv0.selectedIds then
+			if uv0.selectedMax > 0 and uv0.selectedMax <= uv0:GetSelectCount() then
 				break
 			end
 
@@ -1168,7 +1410,7 @@ slot0.didEnter = function(slot0)
 
 			slot10 = slot10 + 1
 
-			uv0:selectShip(slot19, true)
+			uv0:selectShip(slot19)
 		end
 
 		if slot10 == 0 then
@@ -1194,12 +1436,7 @@ slot0.didEnter = function(slot0)
 			uv0:displayDestroyPanel()
 		end
 	end, SFX_CONFIRM)
-
-	if not slot0.contextData.selectFriend then
-		slot0.shipContainer:GetComponentInChildren(typeof(GridLayoutGroup)).constraintCount = 7
-	end
-
-	slot0:filter()
+	slot0:SwitchContainerDisplay()
 	slot0:updateBarInfo()
 
 	if slot0.contextData.mode == uv0.MODE_WORLD then
@@ -1221,13 +1458,6 @@ slot0.didEnter = function(slot0)
 
 		uv0:uiStartAnimating()
 	end)
-
-	if slot0.contextData.selectShipId then
-		slot0.selectedIds = {}
-
-		table.insert(slot0.selectedIds, slot0.contextData.selectShipId)
-		slot0:updateSelected()
-	end
 
 	slot0.bulinTip = AprilFoolBulinSubView.ShowAprilFoolBulin(slot0)
 
@@ -1272,7 +1502,7 @@ slot0.TriggerCard = function(slot0, slot1)
 		return
 	end
 
-	if (function ()
+	slot7 = function()
 		slot0 = nil
 
 		for slot4, slot5 in pairs(uv0.scrollItems) do
@@ -1284,22 +1514,26 @@ slot0.TriggerCard = function(slot0, slot1)
 		end
 
 		return slot0
-	end)() and not getBounds(slot0:findTF("main/ship_container")):Intersects(getBounds(slot8.tr)) then
+	end
+
+	slot9 = slot0.cardItemDic[slot2] and slot0.scrollItems[slot8]
+
+	if (slot9 and slot9.shipVO.id == slot6.id and slot9 or nil) and not getBounds(slot0:findTF("main/ship_container")):Intersects(getBounds(slot10.tr)) then
 		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + slot1 * (slot0.shipContainer:HeadIndexToValue(7) - slot0.shipContainer:HeadIndexToValue(1)), 1)
 	end
 
-	if not slot8 then
+	if not slot10 then
 		slot0.shipContainer:SetNormalizedPosition(slot0.shipContainer.value + (math.ceil(slot4 / 7) - math.ceil(slot3 / 7)) * (slot0.shipContainer:HeadIndexToValue(21) - slot0.shipContainer:HeadIndexToValue(1)), 1)
 
-		slot8 = slot7()
+		slot10 = slot7()
 	end
 
-	if slot8 then
-		triggerButton(slot8.tr)
+	if slot10 then
+		triggerButton(slot10.tr)
 
-		slot9 = slot0.shipVOsById[slot8.shipVO.id]
+		slot11 = slot0.shipVOsById[slot10.shipVO.id]
 
-		slot0.guildShipEquipmentsPage:Refresh(slot9, slot9.user)
+		slot0.guildShipEquipmentsPage:Refresh(slot11, slot11.user)
 	end
 end
 
@@ -1317,6 +1551,16 @@ slot0.OnSwitch = function(slot0, slot1, slot2, slot3)
 		setActive(uv0:Find("off"), not uv1)
 		setActive(uv0:Find("on"), uv1)
 	end)()
+end
+
+slot0.OnShipSkinChanged = function(slot0, slot1)
+	slot2, slot3 = ShipPhantom.UnpackMark(slot1)
+
+	if slot0.phantomGroupDic[slot2] and slot0.scrollPhantoms[slot4] and slot5.shipCard.shipVO.id == slot2 then
+		slot0:updatePhantomGroup(underscore.detect(slot0.filterBluePrint, function (slot0)
+			return slot0.shipId == uv0
+		end), slot4)
+	end
 end
 
 slot0.onBackPressed = function(slot0)
@@ -1343,13 +1587,11 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.updateShipStatusById = function(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.scrollItems) do
-		if slot6.shipVO and slot6.shipVO.id == slot1 then
-			slot6:flush(slot0.selectedIds)
+	if slot0.cardItemDic[slot1] and slot0.scrollItems[slot2] and slot3.shipVO.id == slot1 then
+		slot3:flush(slot0.selectedIds)
 
-			if slot0.contextData.mode == DockyardScene.MODE_WORLD then
-				slot6:updateWorld()
-			end
+		if slot0.contextData.mode == DockyardScene.MODE_WORLD then
+			slot3:updateWorld()
 		end
 	end
 end
@@ -1379,50 +1621,26 @@ slot0.checkDestroyGold = function(slot0, slot1)
 	return true, not slot4
 end
 
-slot0.selectShip = function(slot0, slot1, slot2)
-	slot3 = false
-	slot4 = nil
+slot0.selectShip = function(slot0, slot1)
+	slot2 = false
+	slot3 = nil
 
-	for slot8, slot9 in ipairs(slot0.selectedIds) do
-		if slot9 == slot1.id then
-			slot3 = true
-			slot4 = slot8
+	for slot7, slot8 in ipairs(slot0.selectedIds) do
+		if slot8 == slot1.id then
+			slot2 = true
+			slot3 = slot7
 
 			break
 		end
 	end
 
-	if not slot3 then
-		slot5, slot6 = slot0.checkShip(slot1, function ()
+	if slot2 or slot0.selectedMax == 1 and slot0:GetSelectCount() > 0 then
+		slot5, slot6 = slot0.onCancelShip(slot0.shipVOsById[slot0.selectedIds[defaultValue(slot3, 1)]], function ()
 			if not uv0.exited then
-				uv0:selectShip(uv1)
-			end
-		end, slot0.selectedMax == 1 and {} or slot0.selectedIds)
-
-		if not slot5 then
-			if slot6 then
-				pg.TipsMgr.GetInstance():ShowTips(slot6)
+				return
 			end
 
-			return
-		end
-
-		if slot0.selectedMax == 1 then
-			slot7 = slot0.selectedIds[1]
-			slot0.selectedIds[1] = slot1.id
-		elseif slot0.selectedMax == 0 or #slot0.selectedIds < slot0.selectedMax then
-			table.insert(slot0.selectedIds, slot1.id)
-			slot0:updateBlackBlocks(slot1)
-		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", slot0.selectedMax))
-
-			return
-		end
-	else
-		slot5, slot6 = slot0.onCancelShip(slot1, function ()
-			if not uv0.exited then
-				uv0:selectShip(uv1)
-			end
+			uv0:selectShip(uv1)
 		end, slot0.selectedIds)
 
 		if not slot5 then
@@ -1433,10 +1651,40 @@ slot0.selectShip = function(slot0, slot1, slot2)
 			return
 		end
 
-		table.remove(slot0.selectedIds, slot4)
+		table.remove(slot0.selectedIds, slot3)
 
 		if slot0.selectedMax ~= 1 then
-			slot0:updateBlackBlocks(slot1)
+			slot0:updateBlackBlocks(slot4)
+		end
+	end
+
+	if not slot2 then
+		slot4, slot5 = slot0.checkShip(slot1, function ()
+			if uv0.exited then
+				return
+			end
+
+			uv0:selectShip(uv1)
+		end, slot0.selectedIds)
+
+		if not slot4 then
+			if slot5 then
+				pg.TipsMgr.GetInstance():ShowTips(slot5)
+			end
+
+			return
+		end
+
+		if slot0.selectedMax == 0 or slot0:GetSelectCount() < slot0.selectedMax then
+			table.insert(slot0.selectedIds, slot1.id)
+
+			if slot0.selectedMax ~= 1 then
+				slot0:updateBlackBlocks(removeShip)
+			end
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("ship_dockyardScene_error_choiseRoleLess", slot0.selectedMax))
+
+			return
 		end
 	end
 
@@ -1481,37 +1729,56 @@ slot0.unselecteAllShips = function(slot0)
 end
 
 slot0.updateSelected = function(slot0)
-	for slot4, slot5 in pairs(slot0.scrollItems) do
-		if slot5.shipVO then
-			slot6 = false
+	if slot0.shipContainer then
+		for slot4, slot5 in pairs(slot0.scrollItems) do
+			if not slot5.isClear then
+				slot6 = slot5.shipVO and slot5.shipVO.id or nil
 
-			for slot10, slot11 in ipairs(slot0.selectedIds) do
-				if slot5.shipVO.id == slot11 then
-					slot6 = true
-
-					break
-				end
+				slot5:updateSelected(slot5.shipVO and underscore.any(slot0.selectedIds, function (slot0)
+					return uv0 == slot0
+				end))
 			end
+		end
+	end
 
-			slot5:updateSelected(slot6)
+	if slot0.phantomContainer then
+		for slot4, slot5 in pairs(slot0.scrollPhantoms) do
+			if not slot5.isClear then
+				slot6 = slot5.shipCard.shipVO.id
+				slot7 = {}
+
+				for slot12 = 0, getGameset("technology_shadow_num")[1] do
+					if slot12 == 0 then
+						slot7[slot12] = underscore.any(slot0.selectedIds, function (slot0)
+							return uv0 == slot0
+						end)
+					else
+						slot7[slot12] = underscore.any(slot0.selectedMarks, function (slot0)
+							return slot0 == ShipPhantom.PackMark(uv0, uv1)
+						end)
+					end
+				end
+
+				slot5:updateSelected(slot7)
+			end
 		end
 	end
 
 	if slot0.selectedMax == 0 then
-		setText(slot0.selectPanel:Find("bottom_info/bg_input/count"), #slot0.selectedIds)
+		setText(slot0.selectPanel:Find("bottom_info/bg_input/count"), slot0:GetSelectCount())
 	else
-		slot1 = #slot0.selectedIds
+		slot1 = slot0:GetSelectCount()
 
-		if slot0.contextData.mode ~= uv0.MODE_DESTROY or #slot0.selectedIds == 0 then
-			slot1 = setColorStr(#slot0.selectedIds, COLOR_WHITE)
+		if slot0.contextData.mode ~= uv0.MODE_DESTROY or slot0:GetSelectCount() == 0 then
+			slot1 = setColorStr(slot1, COLOR_WHITE)
 		elseif slot0.contextData.mode == uv0.MODE_DESTROY then
-			slot1 = #slot0.selectedIds == 10 and setColorStr(#slot0.selectedIds, COLOR_RED) or setColorStr(#slot0.selectedIds, COLOR_GREEN)
+			slot1 = setColorStr(slot1, #slot0.selectedIds == 10 and COLOR_RED or COLOR_GREEN)
 		end
 
 		setText(slot0.selectPanel:Find("bottom_info/bg_input/count"), slot1 .. "/" .. slot0.selectedMax)
 	end
 
-	if #slot0.selectedIds < slot0.selectedMin then
+	if slot0:GetSelectCount() < slot0.selectedMin then
 		setActive(slot0.selectPanel:Find("confirm_button/mask"), true)
 	else
 		setActive(slot0.selectPanel:Find("confirm_button/mask"), false)
@@ -1698,11 +1965,21 @@ slot0.willExit = function(slot0)
 		end
 	end
 
-	slot0.shipContainer.enabled = false
+	if slot0.shipContainer then
+		slot0.shipContainer.enabled = false
 
-	for slot4, slot5 in pairs(slot0.scrollItems) do
-		slot5:clear()
-		GetOrAddComponent(slot5.go, "UILongPressTrigger").onLongPressed:RemoveAllListeners()
+		for slot4, slot5 in pairs(slot0.scrollItems) do
+			slot5:clear()
+			GetOrAddComponent(slot5.go, "UILongPressTrigger").onLongPressed:RemoveAllListeners()
+		end
+	end
+
+	if slot0.phantomContainer then
+		slot0.phantomContainer.enabled = false
+
+		for slot4, slot5 in pairs(slot0.scrollPhantoms) do
+			slot5:clear()
+		end
 	end
 
 	if LeanTween.isTweening(go(slot0.energyDescTF)) then
@@ -1726,6 +2003,7 @@ slot0.willExit = function(slot0)
 	end
 
 	pg.UIMgr.GetInstance():UnOverlayPanel(slot0.blurPanel, slot0._tf)
+	pg.m02:sendNotification(DockyardMediator.QUIT_DOCKYARD_SCENE)
 end
 
 slot0.uiStartAnimating = function(slot0)

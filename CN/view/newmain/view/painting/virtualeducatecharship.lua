@@ -34,4 +34,8 @@ slot0.GetRecordPosKey = function(slot0)
 	return slot0.educateCharId .. "" .. slot0.id
 end
 
+slot0.getSkinId = function(slot0)
+	return slot0.skinId
+end
+
 return slot0

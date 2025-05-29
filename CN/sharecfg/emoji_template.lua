@@ -832,6 +832,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[67] = {
+		achieve = 1,
+		index = 1026,
+		pic = "zhaohe_4",
+		desc = "<color=#92fc63>[怒了！]</color>",
+		item_name = "聊天表情：怒了！",
+		item_desc = "聊天表情：怒了！可以在表情选项的「动态」选项卡中找到并发出此表情。",
+		id = 67,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -1629,7 +1642,7 @@ pg.emoji_template = {
 		achieve = 1,
 		index = 83,
 		pic = "247",
-		desc = "<color=#92fc63>[大大]</color>",
+		desc = "<color=#92fc63>[别看]</color>",
 		item_name = "聊天表情：别看",
 		item_desc = "聊天表情：别看，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		id = 247,
@@ -1642,7 +1655,7 @@ pg.emoji_template = {
 		achieve = 1,
 		index = 84,
 		pic = "248",
-		desc = "<color=#92fc63>[别看]</color>",
+		desc = "<color=#92fc63>[大大]</color>",
 		item_name = "聊天表情：大大",
 		item_desc = "聊天表情：大大，可以在表情选项的「默认」选项卡中找到并发出此表情。",
 		id = 248,
@@ -2392,6 +2405,7 @@ pg.emoji_template = {
 		63,
 		65,
 		66,
+		67,
 		100,
 		101,
 		102,

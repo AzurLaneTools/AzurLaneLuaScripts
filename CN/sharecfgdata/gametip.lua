@@ -11620,6 +11620,12 @@ _G.pg.base.gametip.help_shipblueprintui = {
 免费-2次，1折-4次，2折-4次，5折-5次
   *折扣次数所有同稀有度的方案舰共享，每日凌晨4点重置
 4. 《天运拟合》系统同样可使用物资代替蓝图提升完成度，折扣次数与通常开发共用
+
+5. 换装投影
+1.换装投影是针对方案舰研发的新功能，目前只有方案舰可以使用；
+2.投影可以加入秘书组，可以共享方案舰的所有已拥有换装，方便指挥官同时展示方案舰的多种换装；
+3.完成投影制作任务即可获得投影；
+4.投影管理界面有两个入口，分别在角色换装界面和开发船坞界面。
 ]]
 		}
 	}
@@ -24151,6 +24157,11 @@ _G.pg.base.gametip.maid_task_tips1 = {
 }
 
 
+_G.pg.base.gametip.shop_akashi_pick_title = {
+	tip = "{namecode:98}的精选"
+}
+
+
 _G.pg.base.gametip.shop_diamond_title = {
 	tip = "购买钻石"
 }
@@ -26075,6 +26086,86 @@ _G.pg.base.gametip.cruise_task_help_2504 = {
 
 ·<color=#92fc63>开放时间</color>
  2025.4.1 0点 ~ 2025.5.31 23:59:59
+
+·<color=#92fc63>巡游任务分为两种</color>
+（1）每周任务
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务。
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成每周巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的「巡游任务快速完成券」数量和其提供的「巡游点数」相关，与当前任务进度无关
+（4）「巡游任务快速完成券」<color=#92fc63>不会随本期活动结束而消失</color>]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.battlepass_main_tip_2506 = {
+	tip = "2025/6/1-2025/7/31期间，完成巡游任务累计<icon name=pt w=0.5 h=0.5/>可获取<color=#854747>「格伦维尔·META 」</color>在内的丰富奖励"
+}
+
+
+_G.pg.base.gametip.battlepass_main_help_2506 = {
+	tip = {
+		{
+			info = [[
+世界巡游(2025.6.1-2025.7.31)
+
+·<color=#92fc63>开放时间</color>
+ 2025.6.1 0点 ~ 2025.7.31 23:59:59
+
+·<color=#92fc63>巡游进度说明</color>
+（1）活动期间，指挥官通过完成巡游任务，可获取「巡游点数」。
+（2）巡游任务随时间开放解锁。
+（3）每获取100点「巡游点数」即可增加1巡游进度
+（4）巡游进度提升后可以获取相应等级的奖励，巡游进度最高可达100。
+
+·<color=#92fc63>奖励规则</color>
+巡游进度奖励分为两种：
+（1）基础巡游奖励：包含<color=#ff5c5c>「格伦维尔·META」</color>、<color=#ff5c5c>心智魔方</color>、<color=#ff5c5c>高级定向蓝图·七期</color>等奖励；
+ 当巡游达到指定进度时，指挥官可以直接领取相应的基础巡游奖励。
+（2）特许巡游奖励：包含<color=#ff5c5c>檚换装「节日的奢华时光♪ </color>」、<color=#ff5c5c>钻石</color>等奖励；
+ 购买「特许巡游凭证」，且巡游达到指定进度时，可以领取特许巡游奖励。
+ 注：购买「特许巡游凭证」后，不会影响基础巡游奖励的领取。
+
+·<color=#92fc63>「特许巡游凭证」说明</color>
+（1）「特许巡游凭证」可于「商店」-「优惠礼包」中购买，购买后可立刻获得<color=#ff5c5c>1500点</color>「巡游点数」同时解锁特许巡游奖励。
+（2）「特许巡游凭证」将于<color=#ff5c5c>活动结束前一小时</color>停止售卖(即7.31 22:59:59停止)，请指挥官注意购买时间。
+
+·<color=#92fc63>任务说明</color>
+巡游任务分为两种：
+（1）每周任务 
+ 巡游任务中共有8组每周任务。自活动开始后解锁第一周任务，之后每周一的0点解锁下一组每周任务
+（2）S.P.任务
+ S.P.任务为一组特殊任务，在活动开始后会直接处于全部解锁状态。
+（3）巡游任务在解锁后将自动接取，满足任务完成条件时，会自动完成并获取对应奖励。
+
+·<color=#92fc63>「巡游任务快速完成券」说明</color>
+（1）「巡游任务快速完成券」可以在巡游任务界面使用，花费一定数量的「巡游任务快速完成券」可以直接完成大部分巡游任务
+（2）在「巡游任务快速完成券」数量不足时，指挥官可花费钻石进行补齐
+（3）每个巡游任务需要消耗的完成券数量固定，与当前任务进度无关
+（4）「巡游任务快速完成券」不会随本期活动结束而消失
+
+·<color=#ff5c5c>特别提示</color>
+（1）在本期世界巡游活动结束后，所有巡游任务将会无法继续完成，所有巡游奖励将会无法继续领取，请各位指挥官务必注意活动结束时间，提前领取奖励。
+（2）巡游进度、[特许巡游凭证]仅对本期世界巡游活动生效]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.cruise_task_help_2506 = {
+	tip = {
+		{
+			info = [[
+巡游任务说明
+
+·<color=#92fc63>开放时间</color>
+ 2025.6.1 0点 ~ 2025.7.31 23:59:59
 
 ·<color=#92fc63>巡游任务分为两种</color>
 （1）每周任务
@@ -28177,7 +28268,7 @@ _G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
 
 
 _G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
-	tip = "角色总数："
+	tip = "总数："
 }
 
 
@@ -35713,6 +35804,11 @@ _G.pg.base.gametip.cruise_title_2504 = {
 }
 
 
+_G.pg.base.gametip.cruise_title_2506 = {
+	tip = "世界巡游·二十三期"
+}
+
+
 _G.pg.base.gametip.battlepass_main_time_title = {
 	tip = "本期剩余时间："
 }
@@ -38476,4 +38572,130 @@ _G.pg.base.gametip.storyline_goto = {
 
 _G.pg.base.gametip.holiday_villa_locked = {
 	tip = "完成<color=#92fc63>假日别墅筹备中</color>活动后解锁"
+}
+
+
+_G.pg.base.gametip.tech_shadow_change_button_1 = {
+	tip = "换装投影"
+}
+
+
+_G.pg.base.gametip.tech_shadow_change_button_2 = {
+	tip = "舰船开发"
+}
+
+
+_G.pg.base.gametip.tech_shadow_limit_text = {
+	tip = "$1级后开启"
+}
+
+
+_G.pg.base.gametip.tech_shadow_commit_tip = {
+	tip = "需要提交<color=#92fc63>$1</color>，是否确认提交？"
+}
+
+
+_G.pg.base.gametip.shadow_scene_name = {
+	tip = "换装投影"
+}
+
+
+_G.pg.base.gametip.shadow_unlock_tip = {
+	tip = "请完成投影制作任务解锁该栏位"
+}
+
+
+_G.pg.base.gametip.shadow_skin_change_success = {
+	tip = "投影换装更换成功！"
+}
+
+
+_G.pg.base.gametip.add_skin_secretary_ship = {
+	tip = "更换同时加入秘书组"
+}
+
+
+_G.pg.base.gametip.add_skin_random_secretary_ship_list = {
+	tip = "加入随机秘书舰列表"
+}
+
+
+_G.pg.base.gametip.choose_secretary_change_to_this_ship = {
+	tip = "请选择需要放入的位置"
+}
+
+
+_G.pg.base.gametip.random_ship_custom_mode_add_shadow_complete = {
+	tip = "已添加投影至随机秘书组 "
+}
+
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_shadow_complete = {
+	tip = "已将投影从随机秘书组移除 "
+}
+
+
+_G.pg.base.gametip.choose_secretary_change_title = {
+	tip = "秘书组"
+}
+
+
+_G.pg.base.gametip.ship_random_secretary_tag = {
+	tip = "随机秘书组"
+}
+
+
+_G.pg.base.gametip.projection_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/projection_help1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.littleaijier_npc = {
+	tip = {
+		{
+			info = "「深渊之国」的缔造者说明："
+		},
+		{
+			info = "1.活动期间，玩家可获得临时npc角色「{namecode:544}」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
+		},
+		{
+			info = "2.活动期间，完成活动任务，可获得临时npc角色「{namecode:544}」的友好度。"
+		},
+		{
+			info = "3.6月4日为止，每日解锁1个可达成的友好度阶段。"
+		},
+		{
+			info = "4.在活动结束前累计获得10000点友好度，可领取奖励并将临时角色「{namecode:544}」转化为永久角色。"
+		},
+		{
+			info = "5.在活动结束后，未完成转化的临时角色「{namecode:544}」将离开港区，不返还已经消耗的强化、突破等培养材料。"
+		},
+		{
+			info = "6.npc角色无法参与大型作战。"
+		},
+		{
+			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
+		}
+	}
 }
