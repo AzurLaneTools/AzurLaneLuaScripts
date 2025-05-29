@@ -12,6 +12,8 @@ slot0.SHOW_SKILL_INFO = "ShipBluePrintMediator:SHOW_SKILL_INFO"
 slot0.SET_TECHNOLOGY_VERSION = "ShipBluePrintMediator:SET_TECHNOLOGY_VERSION"
 slot0.SIMULATION_BATTLE = "ShipBluePrintMediator:SIMULATION_BATTLE"
 slot0.QUICK_EXCHAGE_BLUEPRINT = "ShipBluePrintMediator:QUICK_EXCHAGE_BLUEPRINT"
+slot0.FINISH_PHANTOM_QUEST = "ShipBluePrintMediator.FINISH_PHANTOM_QUEST"
+slot0.OPEN_PHANTOM_LAYER = "ShipBluePrintMediator.OPEN_PHANTOM_LAYER"
 
 slot0.register = function(slot0)
 	PlayerPrefs.SetString("technology_day_mark", pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y/%m/%d", true))
@@ -127,6 +129,26 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.QUICK_EXCHAGE_BLUEPRINT, function (slot0, slot1)
 		uv0:sendNotification(GAME.QUICK_EXCHANGE_BLUEPRINT, slot1)
 	end)
+	slot0:bind(uv0.FINISH_PHANTOM_QUEST, function (slot0, slot1, slot2)
+		uv0:sendNotification(GAME.FINISH_PHANTOM_QUEST, {
+			bluePrintId = slot1,
+			questId = slot2
+		})
+	end)
+	slot0:bind(uv0.OPEN_PHANTOM_LAYER, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = DockyardMediator,
+			viewComponent = DockyardScene,
+			data = {
+				mode = DockyardScene.MODE_SHIP_PHANTOM,
+				techVersion = slot1
+			},
+			onRemoved = function ()
+				uv0.viewComponent:changeEffectVisible(true)
+			end
+		}))
+		uv0.viewComponent:changeEffectVisible(false)
+	end)
 	slot0.viewComponent:setShipBluePrints(slot1:getBluePrints())
 	slot0.viewComponent:setShipVOs(getProxy(BayProxy):getRawData())
 	slot0.viewComponent:setVersion(slot1:getVersion())
@@ -150,7 +172,8 @@ slot0.listNotificationInterests = function(slot0)
 		GAME.BEGIN_STAGE_DONE,
 		GAME.MOD_BLUEPRINT_ANIM_LOCK,
 		GAME.PURSUING_RESET_DONE,
-		GAME.QUICK_EXCHANGE_BLUEPRINT_DONE
+		GAME.QUICK_EXCHANGE_BLUEPRINT_DONE,
+		GAME.FINISH_PHANTOM_QUEST_DONE
 	}
 end
 
@@ -208,6 +231,8 @@ slot0.handleNotification = function(slot0, slot1)
 		slot4:emit(BaseUI.ON_ACHIEVE, slot3, function ()
 			uv0.viewComponent:updateShipBluePrintVO()
 		end)
+	elseif slot2 == GAME.FINISH_PHANTOM_QUEST_DONE then
+		slot0.viewComponent:updatePhantomQuest()
 	end
 end
 

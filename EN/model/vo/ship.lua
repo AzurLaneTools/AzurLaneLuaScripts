@@ -71,13 +71,13 @@ skinId2bgPrint = function(slot0)
 end
 
 slot0.useSkin = function(slot0, slot1)
-	if slot0.skinId == slot1 then
+	if slot0:getSkinId() == slot1 then
 		return true
 	end
 
-	slot3 = ShipGroup.GetChangeSkinGroupId(slot1)
+	slot4 = ShipSkin.GetChangeSkinGroupId(slot1)
 
-	if ShipGroup.GetChangeSkinGroupId(slot0.skinId) and slot3 and slot2 == slot3 then
+	if ShipSkin.GetChangeSkinGroupId(slot2) and slot4 and slot3 == slot4 then
 		return true
 	end
 
@@ -89,19 +89,21 @@ slot0.rarity2bgPrint = function(slot0)
 end
 
 slot0.rarity2bgPrintForGet = function(slot0)
-	return skinId2bgPrint(slot0.skinId) or slot0:rarity2bgPrint()
+	return skinId2bgPrint(slot0:getSkinId()) or slot0:rarity2bgPrint()
 end
 
 slot0.getShipBgPrint = function(slot0, slot1)
-	assert(pg.ship_skin_template[slot0.skinId], "ship_skin_template not exist: " .. slot0.skinId)
+	slot2 = slot0:getSkinId()
 
-	slot3 = nil
+	assert(pg.ship_skin_template[slot2], "ship_skin_template not exist: " .. slot2)
 
-	if not slot1 and slot2.bg_sp and slot2.bg_sp ~= "" and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot2.painting, 0) == 0 then
-		slot3 = slot2.bg_sp
+	slot4 = nil
+
+	if not slot1 and slot3.bg_sp and slot3.bg_sp ~= "" and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot3.painting, 0) == 0 then
+		slot4 = slot3.bg_sp
 	end
 
-	return slot3 and slot3 or slot2.bg and #slot2.bg > 0 and slot2.bg or slot0:rarity2bgPrintForGet()
+	return slot4 and slot4 or slot3.bg and #slot3.bg > 0 and slot3.bg or slot0:rarity2bgPrintForGet()
 end
 
 slot0.getStar = function(slot0)
@@ -669,11 +671,24 @@ slot0.Ctor = function(slot0, slot1)
 		slot6 = slot1.skin_id or 0
 	end
 
-	if slot6 == 0 then
-		slot6 = slot0:getConfig("skin_id")
+	slot0.phantomDic = {}
+
+	slot0:updateSkinId(slot6, 0)
+
+	slot7 = ipairs
+	slot8 = slot1.skin_shadow_list or {}
+
+	for slot10, slot11 in slot7(slot8) do
+		slot0:updateSkinId(slot11.value, slot11.key)
 	end
 
-	slot0:updateSkinId(slot6)
+	slot0.phantomRandomFlag = {}
+	slot7 = ipairs
+	slot8 = slot1.char_random_flag or {}
+
+	for slot10, slot11 in slot7(slot8) do
+		slot0:updateRandomFlag(1, slot11)
+	end
 
 	if slot1.name and slot1.name ~= "" then
 		slot0.name = slot1.name
@@ -754,20 +769,76 @@ slot0.isBluePrintShip = function(slot0)
 	return slot0.bluePrintFlag == 1
 end
 
-slot0.getSkinId = function(slot0)
-	return slot0.skinId
+slot0.getSkinId = function(slot0, slot1)
+	if ShipSkin.GetChangeSkinGroupId(slot0:getPhandomSkin(slot1 or 0)) and ShipSkin.GetStoreChangeSkinId(slot3) then
+		return slot4
+	end
+
+	return slot2
 end
 
-slot0.updateSkinId = function(slot0, slot1)
+slot0.getPhandomSkin = function(slot0, slot1)
+	if not slot1 or slot1 == 0 then
+		return slot0.skinId
+	else
+		return slot0.phantomDic[slot0.phantomId] or slot0:getConfig("skin_id")
+	end
+end
+
+slot0.updateSkinId = function(slot0, slot1, slot2)
 	if not slot1 or slot1 == 0 then
 		slot1 = slot0:getConfig("skin_id")
 	end
 
-	if ShipGroup.GetChangeSkinGroupId(slot1) then
-		slot0.skinId = ShipGroup.GetStoreChangeSkinId(slot2, slot0.id) and slot3 or slot1
-	else
+	if slot2 == 0 then
 		slot0.skinId = slot1
+	else
+		slot0.phantomDic[slot2] = slot1
 	end
+end
+
+slot0.getAllShipPhantomMarks = function(slot0)
+	slot2 = {}
+
+	for slot6 = 0, getGameset("technology_shadow_num")[1] do
+		if slot6 == 0 or slot0.phantomDic[slot6] then
+			table.insert(slot2, ShipPhantom.PackMark(slot0.id, slot6))
+		end
+	end
+
+	return slot2
+end
+
+slot0.getAllShipPhantom = function(slot0)
+	slot2 = {}
+
+	for slot6 = 0, getGameset("technology_shadow_num")[1] do
+		if slot6 == 0 or slot0.phantomDic[slot6] then
+			table.insert(slot2, ShipPhantom.Create(slot0, slot6))
+		end
+	end
+
+	return slot2
+end
+
+slot0.updateRandomFlag = function(slot0, slot1, slot2)
+	slot0.phantomRandomFlag[defaultValue(slot2, 0)] = slot1
+end
+
+slot0.getRandomFlag = function(slot0, slot1)
+	return defaultValue(slot0.phantomRandomFlag[slot1 or 0], 0) > 0
+end
+
+slot0.getRandomFlagShipPhantomMarks = function(slot0)
+	slot2 = {}
+
+	for slot6 = 0, getGameset("technology_shadow_num")[1] do
+		if defaultValue(slot0.phantomRandomFlag[slot6], 0) > 0 then
+			table.insert(slot2, slot0:GetShipPhantomMark(slot6))
+		end
+	end
+
+	return slot2
 end
 
 slot0.updateName = function(slot0)
@@ -813,7 +884,7 @@ slot0.hasEquipmentSkinInPos = function(slot0, slot1)
 end
 
 slot0.getPrefab = function(slot0)
-	slot1 = slot0.skinId
+	slot1 = slot0:getSkinId()
 
 	if slot0:hasEquipmentSkinInPos(uv0) and uv1[slot0:getEquip(uv0):getSkinId()].ship_skin_id ~= 0 then
 		slot1 = slot3 or slot1
@@ -843,27 +914,30 @@ slot0.getAttachmentPrefab = function(slot0)
 end
 
 slot0.getPainting = function(slot0)
-	slot1 = pg.ship_skin_template[slot0.skinId]
+	slot1 = slot0:getSkinId()
+	slot2 = pg.ship_skin_template[slot1]
 
-	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+	assert(slot2, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot1)
 
-	return slot1.painting
+	return slot2.painting
 end
 
-slot0.GetSkinConfig = function(slot0)
-	slot1 = pg.ship_skin_template[slot0.skinId]
+slot0.GetSkinConfig = function(slot0, slot1)
+	slot2 = slot0:getSkinId()
+	slot3 = pg.ship_skin_template[slot2]
 
-	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+	assert(slot3, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot2)
 
-	return slot1
+	return slot3
 end
 
 slot0.getRemouldPainting = function(slot0)
-	slot1 = pg.ship_skin_template[slot0:getRemouldSkinId()]
+	slot1 = slot0:getRemouldSkinId()
+	slot2 = pg.ship_skin_template[slot1]
 
-	assert(slot1, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot0.skinId)
+	assert(slot2, "ship_skin_template not exist: " .. slot0.configId .. " " .. slot1)
 
-	return slot1.painting
+	return slot2.painting
 end
 
 slot0.updateStateInfo34 = function(slot0, slot1, slot2)
@@ -2560,7 +2634,7 @@ slot0.GetMapStrikeAnim = function(slot0)
 end
 
 slot0.IsDefaultSkin = function(slot0)
-	return slot0.skinId == 0 or slot0.skinId == slot0:getConfig("skin_id")
+	return slot0:getSkinId() == 0 or slot1 == slot0:getConfig("skin_id")
 end
 
 slot0.IsMatchKey = function(slot0, slot1)
@@ -2659,7 +2733,15 @@ slot0.GetFrameAndEffect = function(slot0, slot1)
 end
 
 slot0.GetRecordPosKey = function(slot0)
-	return slot0.skinId
+	return slot0:getSkinId()
+end
+
+slot0.GetShipPhantomMark = function(slot0, slot1)
+	return ShipPhantom.PackMark(slot0.id, slot1)
+end
+
+slot0.GetSelectMark = function(slot0)
+	return slot0.id
 end
 
 return slot0

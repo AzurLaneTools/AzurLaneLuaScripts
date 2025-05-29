@@ -595,7 +595,7 @@ slot0.updateAlbumTF = function(slot0, slot1, slot2)
 	slot5 = pg.music_collect_config[slot0.appreciateProxy:getAlbumMusicList(slot3)[1]].cover
 
 	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot5, slot5, slot1:Find("icon/face"), false)
-	setText(slot1:Find("name"), slot3)
+	changeToScrollText(slot1:Find("name"), slot3)
 	setActive(slot1:Find("icon/main"), slot3 == slot0.appreciateProxy:getMainPlayerAlbumName())
 	setActive(slot1:Find("playing"), slot0.musicPlayer and slot0.musicPlayer.albumName == slot3)
 	setActive(slot1:Find("line"), slot2 < #slot0.tempAlbumList)

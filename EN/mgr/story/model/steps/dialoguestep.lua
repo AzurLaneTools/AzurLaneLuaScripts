@@ -534,7 +534,7 @@ end
 
 slot0.GetShipSkinId = function(slot0)
 	if slot0.actor == uv0.ACTOR_TYPE_FLAGSHIP then
-		return getProxy(BayProxy):getShipById(getProxy(PlayerProxy):getRawData().character).skinId
+		return getProxy(BayProxy):GetShipPhantom(getProxy(PlayerProxy):getRawData():GetFlagShipPhantomMark()):getSkinId()
 	elseif slot0.actor == uv0.ACTOR_TYPE_PLAYER then
 		return nil
 	elseif not slot0.actor then

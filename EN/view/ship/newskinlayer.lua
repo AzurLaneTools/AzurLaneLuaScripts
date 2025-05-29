@@ -15,46 +15,54 @@ slot0.preload = function(slot0, slot1)
 	GetSpriteFromAtlasAsync(slot7 and "bg/star_level_bg_" .. slot7 or "newshipbg/bg_" .. shipRarity2bgPrint(pg.ship_data_statistics[slot3.ship_group * 10 + 1].rarity, ShipGroup.IsBluePrintGroup(slot4), ShipGroup.IsMetaGroup(slot4)), "", slot1)
 end
 
-slot0.setShipVOs = function(slot0, slot1)
-	slot0.shipVOs = slot1
-	slot0.sameShipVOs = slot0:getSameGroupShips()
-end
-
 slot0.init = function(slot0)
 	slot0._shake = slot0:findTF("shake_panel")
 	slot0._shade = slot0:findTF("shade")
-	slot0._bg = slot0._shake:Find("bg")
-	slot0._staticBg = slot0._bg:Find("static_bg")
-	slot0._paintingTF = slot0._shake:Find("paint")
-	slot0._dialogue = slot0._shake:Find("dialogue")
-	slot0._skinName = slot0._dialogue:Find("name"):GetComponent(typeof(Text))
-	slot0._left = slot0._shake:Find("left_panel")
-	slot0._viewBtn = slot0._left:Find("view_btn")
-	slot0._shareBtn = slot0._left:Find("share_btn")
-	slot0.clickTF = slot0._shake:Find("click")
-	slot0.newTF = slot0._shake:Find("New")
-	slot0.timelimit = slot0._shake:Find("timelimit")
+	slot1 = slot0._shake
+	slot0._bg = slot1:Find("bg")
+	slot1 = slot0._bg
+	slot0._staticBg = slot1:Find("static_bg")
+	slot1 = slot0._shake
+	slot0._paintingTF = slot1:Find("paint")
+	slot1 = slot0._shake
+	slot0._dialogue = slot1:Find("dialogue")
+	slot1 = slot0._dialogue
+	slot1 = slot1:Find("name")
+	slot0._skinName = slot1:GetComponent(typeof(Text))
+	slot1 = slot0._shake
+	slot0._left = slot1:Find("left_panel")
+	slot1 = slot0._left
+	slot0._viewBtn = slot1:Find("view_btn")
+	slot1 = slot0._left
+	slot0._shareBtn = slot1:Find("share_btn")
+	slot1 = slot0._shake
+	slot0.clickTF = slot1:Find("click")
+	slot1 = slot0._shake
+	slot0.newTF = slot1:Find("New")
+	slot1 = slot0._shake
+	slot0.timelimit = slot1:Find("timelimit")
 
 	setActive(slot0.newTF, false)
 
 	slot0.changeSkinBtn = slot0:findTF("set_skin_btn", slot0._shake)
 	slot0.selectPanel = slot0:findTF("select_ship_panel")
-	slot0.selectPanelCloseBtn = slot0:findTF("window/top/btnBack", slot0.selectPanel)
-	slot0.shipContent = slot0:findTF("window/sliders/scroll_rect/content", slot0.selectPanel)
-	slot0.shipCardTpl = slot0._tf:GetComponent("ItemList").prefabItem[0]
-	slot0.confirmChangeBtn = slot0:findTF("window/exchange_btn", slot0.selectPanel)
-	slot0.flagShipToggle = slot0:findTF("window/flag_ship", slot0.selectPanel)
-
-	setActive(slot0.selectPanel, false)
-
 	slot0.isTimeLimit = slot0.contextData.timeLimit
 
 	setActive(slot0.timelimit, slot0.isTimeLimit)
-	pg.UIMgr.GetInstance():OverlayPanel(slot0._tf, {
+
+	slot1 = pg.UIMgr.GetInstance()
+
+	slot1:OverlayPanel(slot0._tf, {
 		weight = LayerWeightConst.SECOND_LAYER
 	})
 
 	slot0.isLoadBg = false
+	slot0.selectShipPage = ChangeShipSkinPage.New(slot0._parentTf, slot0.event)
+	slot0.selectShipPage.isNew = true
+
+	slot0.selectShipPage.hideCallback = function()
+		uv0:closeView()
+	end
 end
 
 slot0.voice = function(slot0, slot1)
@@ -191,14 +199,35 @@ slot0.didEnter = function(slot0)
 
 		uv0:showExitTip()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.selectPanel, function ()
-		uv0:closeSelectPanel()
-	end, SFX_PANEL)
-	onToggle(slot0, slot0.flagShipToggle, function (slot0)
-		uv0.flagShipMark = slot0
-	end, SFX_PANEL)
-	triggerToggle(slot0.flagShipToggle, getProxy(SettingsProxy):GetSetFlagShip())
-	slot0:onSwitch(slot0.changeSkinBtn, table.getCount(slot0.sameShipVOs) > 0)
+
+	slot0.sameShipVOs = slot0:GetShips(slot0.contextData.skinId)
+
+	slot0:onSwitch(slot0.changeSkinBtn, #slot0.sameShipVOs > 0)
+end
+
+slot0.GetShips = function(slot0, slot1)
+	slot2 = getProxy(BayProxy)
+	slot2 = slot2:CanUseShareSkinPhantoms(slot1)
+
+	table.sort(slot2, CompareFuncs({
+		function (slot0)
+			return slot0:getSkinId() == uv0 and 1 or 0
+		end,
+		function (slot0)
+			return -slot0.level
+		end,
+		function (slot0)
+			return -slot0:getStar()
+		end,
+		function (slot0)
+			return slot0.inFleet and 0 or 1
+		end,
+		function (slot0)
+			return slot0.createTime
+		end
+	}))
+
+	return slot2
 end
 
 slot0.onBackPressed = function(slot0)
@@ -210,8 +239,8 @@ slot0.onBackPressed = function(slot0)
 		return
 	end
 
-	if isActive(slot0.selectPanel) then
-		slot0:closeSelectPanel()
+	if slot0.selectShipPage:isShowing() then
+		slot0.selectShipPage:Hide()
 
 		return
 	end
@@ -229,23 +258,6 @@ slot0.onSwitch = function(slot0, slot1, slot2)
 			pg.TipsMgr.GetInstance():ShowTips(i18n("err_cloth_change_noship", uv1.shipName))
 		end
 	end)
-end
-
-slot0.getSameGroupShips = function(slot0)
-	slot1 = {}
-	slot3 = pg.ship_skin_template[slot0.contextData.skinId].ship_group
-
-	for slot7, slot8 in pairs(slot0.shipVOs) do
-		if slot8.groupId == slot3 then
-			slot1[slot8.id] = slot8
-		end
-	end
-
-	for slot8, slot9 in ipairs(getProxy(BayProxy):CanUseShareSkinShips(slot2)) do
-		slot1[slot9.id] = slot9
-	end
-
-	return slot1
 end
 
 slot0.paintView = function(slot0)
@@ -354,85 +366,9 @@ slot0.recyclePainting = function(slot0)
 end
 
 slot0.openSelectPanel = function(slot0)
-	removeAllChildren(slot0.shipContent)
-
-	slot0.isOpenSelPanel = true
-	slot0.selectIds = {}
-
-	setActive(slot0.selectPanel, true)
-
-	slot5 = {
-		weight = slot6
-	}
-	slot6 = LayerWeightConst.TOP_LAYER
-
-	pg.UIMgr.GetInstance():BlurPanel(slot0.selectPanel, false, slot5)
-
-	slot0.shipCards = {}
-	slot1 = {}
-
-	for slot5, slot6 in pairs(slot0.sameShipVOs) do
-		table.insert(slot1, slot6)
-	end
-
-	table.sort(slot1, function (slot0, slot1)
-		if slot0.level == slot1.level then
-			if slot0:getStar() == slot1:getStar() then
-				if (slot0.inFleet and 1 or 0) == (slot1.inFleet and 1 or 0) then
-					return slot0.createTime < slot1.createTime
-				else
-					return slot5 < slot4
-				end
-			else
-				return slot3 < slot2
-			end
-		else
-			return slot1.level < slot0.level
-		end
-	end)
-
-	for slot5, slot6 in ipairs(slot1) do
-		slot8 = ShipDetailCard.New(cloneTplTo(slot0.shipCardTpl, slot0.shipContent).gameObject)
-
-		slot8:update(slot6, slot0.contextData.skinId)
-
-		slot0.shipCards[slot6.id] = slot8
-
-		onToggle(slot0, slot8.tr, function (slot0)
-			uv0:updateSelected(slot0)
-
-			if slot0 then
-				table.insert(uv1.selectIds, uv0.shipVO.id)
-			else
-				for slot4, slot5 in pairs(uv1.selectIds) do
-					if slot5 == uv0.shipVO.id then
-						table.remove(uv1.selectIds, slot4)
-
-						break
-					end
-				end
-			end
-		end)
-	end
-
-	onButton(slot0, slot0.confirmChangeBtn, function ()
-		if not uv0.selectIds or #uv0.selectIds <= 0 then
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("new_skin_no_choose"),
-				weight = LayerWeightConst.TOP_LAYER + 1,
-				onYes = function ()
-					uv0:emit(uv1.ON_CLOSE)
-				end
-			})
-
-			return
-		end
-
-		uv0:emit(NewSkinMediator.SET_SKIN, uv0.selectIds, uv0.flagShipMark)
-	end)
-	onButton(slot0, slot0.selectPanelCloseBtn, function ()
-		uv0:closeSelectPanel()
-	end)
+	slot0.selectShipPage:ExecuteAction("Show", ShipSkin.New({
+		id = slot0.contextData.skinId
+	}))
 end
 
 slot0.updateShipCards = function(slot0)
@@ -443,15 +379,6 @@ slot0.updateShipCards = function(slot0)
 		if slot0.sameShipVOs[slot4] then
 			slot5:update(slot6, slot0.contextData.skinId)
 		end
-	end
-end
-
-slot0.closeSelectPanel = function(slot0)
-	if slot0.isOpenSelPanel then
-		slot0.isOpenSelPanel = nil
-
-		setActive(slot0.selectPanel, false)
-		pg.UIMgr.GetInstance():UnblurPanel(slot0.selectPanel, slot0._tf)
 	end
 end
 
@@ -481,7 +408,7 @@ slot0.willExit = function(slot0)
 		slot0.loadedCVBankName = nil
 	end
 
-	slot0:closeSelectPanel()
+	slot0.selectShipPage:Destroy()
 	cameraPaintViewAdjust(false)
 end
 

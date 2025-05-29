@@ -85,9 +85,9 @@ slot0.OnInit = function(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.changeSkinUI, function ()
-		if ShipGroup.GetChangeSkinData(uv0.skin.id) then
+		if ShipSkin.GetChangeSkinData(uv0.skin.id) then
 			uv0:Flush(ShipSkin.New({
-				id = ShipGroup.GetChangeSkinNextId(uv0.skin.id)
+				id = ShipSkin.GetChangeSkinNextId(uv0.skin.id)
 			}), uv0.index)
 		end
 	end, SFX_PANEL)
@@ -143,7 +143,7 @@ slot0.Show = function(slot0, slot1, slot2)
 
 	setActive(slot0.changeBtnDis, slot4)
 	setActive(slot0.changeBtnEn, not slot4)
-	setActive(slot0.changeSkinUI, ShipGroup.GetChangeSkinData(slot0.skin.id) and true or false)
+	setActive(slot0.changeSkinUI, ShipSkin.GetChangeSkinData(slot0.skin.id) and true or false)
 	slot0.changeSkinToggle:setSkinData(slot0.skin.id)
 	setActive(slot0.obtainBtn, not slot0.skin:OwnShip())
 end

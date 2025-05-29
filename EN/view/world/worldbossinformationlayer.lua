@@ -85,8 +85,17 @@ slot0.didEnter = function(slot0)
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.switchBuffBtn, function ()
 		uv0.ShowBuffIndex = 1 - uv0.ShowBuffIndex
+		slot0 = uv0.ShowBuffIndex == 1 and "switchOn" or "switchOff"
 
-		uv0.buffListAnimator:Play(uv0.ShowBuffIndex == 1 and "switchOn" or "switchOff", -1, 0)
+		uv0.buffListAnimator:Play(slot0, -1, 0)
+
+		if slot0 == "switchOn" then
+			uv0.EquipmentBuffTF:SetAsLastSibling()
+		else
+			uv0.AdditionBuffTF:SetAsLastSibling()
+		end
+
+		uv0.switchBuffBtn:SetAsLastSibling()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.awardBtn, function ()
 		uv0:GetAwardPanel().buffer:UpdateView(uv0:GetCurrentAttachment())

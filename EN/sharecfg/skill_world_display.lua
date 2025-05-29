@@ -3467,6 +3467,20 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 		desc_get_add = {},
 		desc_add = {}
 	},
+	[801741] = {
+		desc_get = "",
+		id = 801741,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801742] = {
+		desc_get = "",
+		id = 801742,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		desc_get_add = {},
+		desc_add = {}
+	},
 	all = {
 		3631,
 		4161,
@@ -3537,6 +3551,8 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 		801561,
 		801562,
 		801591,
-		801592
+		801592,
+		801741,
+		801742
 	}
 }

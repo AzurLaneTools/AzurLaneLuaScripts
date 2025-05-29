@@ -168212,6 +168212,31 @@ _G.pg.base.item_virtual_data_statistics[65099] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65100] = {
+	drop_gold_max = 0,
+	name = "Progress Pts",
+	display = "A currency earned from completing Cruise Missions during the seasonal campaign, used to obtain milestone rewards. Will disappear after the campaign season ends. ",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7023,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65100,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "Stellar Resistance Medal",
@@ -171033,6 +171058,31 @@ _G.pg.base.item_virtual_data_statistics[66006] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66006,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68081] = {
+	drop_gold_max = 0,
+	name = "Trust - Little Ägir",
+	display = "Little Ruler of the Abyssal Kingdom event item used to fully recruit Little Ägir to your fleet. Removed after the event ends.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaoaijierPT",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68081,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -180241,6 +180291,60 @@ _G.pg.base.item_virtual_data_statistics[86213] = {
 		{
 			202351,
 			2000
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86214] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = "不会被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86214,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			207055,
+			1400
+		},
+		{
+			403142,
+			1400
+		},
+		{
+			299024,
+			1400
+		},
+		{
+			502043,
+			1400
+		},
+		{
+			705042,
+			1580
+		},
+		{
+			105102,
+			1410
+		},
+		{
+			105093,
+			1410
 		}
 	}
 }

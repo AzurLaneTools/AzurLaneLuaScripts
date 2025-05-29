@@ -60,20 +60,8 @@ end
 slot0.Ctor = function(slot0, slot1)
 	uv0.super.Ctor(slot0, slot1)
 
+	slot2 = slot0.character
 	slot0.educateCharacter = slot1.child_display or 0
-
-	if slot0.character then
-		if type(slot2) == "number" then
-			slot0.character = slot2
-			slot0.characters = {
-				slot2
-			}
-		else
-			slot0.character = slot2[1]
-			slot0.characters = slot2
-		end
-	end
-
 	slot0.id = slot1.id
 	slot0.name = slot1.name
 	slot0.level = slot1.level or slot1.lv
@@ -187,14 +175,6 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.mingshiCount = 0
 	slot0.chatMsgBanTime = slot1.chat_msg_ban_time or 0
 	slot0.randomShipMode = slot1.random_ship_mode or 0
-	slot0.customRandomShips = {}
-	slot4 = ipairs
-	slot5 = slot1.random_ship_list or {}
-
-	for slot7, slot8 in slot4(slot5) do
-		table.insert(slot0.customRandomShips, slot8)
-	end
-
 	slot0.buildShipNotification = {}
 	slot4 = ipairs
 	slot5 = slot1.taking_ship_list or {}
@@ -328,8 +308,11 @@ slot0.updateResources = function(slot0, slot1)
 end
 
 slot0.getPainting = function(slot0)
-	slot1 = nil
-	slot1 = ShipGroup.GetChangeSkinData(slot0.skinId) and (ShipGroup.GetStoreChangeSkinId(ShipGroup.GetChangeSkinGroupId(slot0.skinId), slot0.character) and pg.ship_skin_template[slot3] or pg.ship_skin_template[slot0.skinId]) or pg.ship_skin_template[slot0.skinId]
+	slot1 = pg.ship_skin_template[slot0.skinId]
+
+	if ShipSkin.GetChangeSkinData(slot0.skinId) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot0.skinId)) then
+		slot1 = pg.ship_skin_template[slot3]
+	end
 
 	return slot1 and slot1.painting or "unknown"
 end
@@ -554,6 +537,14 @@ slot0.addExp = function(slot0, slot1)
 		elseif slot0.level == 40 then
 			pg.TrackerMgr.GetInstance():Tracking(TRACKING_USER_LEVEL_FORTY)
 		end
+
+		if slot0.level == 10 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_EXP_LV_10)
+		elseif slot0.level == 20 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_EXP_LV_20)
+		elseif slot0.level == 30 then
+			pg.TrackerMgr.GetInstance():Tracking(TRACKING_EXP_LV_30)
+		end
 	end
 end
 
@@ -666,6 +657,20 @@ slot0.GetRegisterTime = function(slot0)
 	return slot0.registerTime
 end
 
+slot0.GetFlagShipPhantomMark = function(slot0)
+	return ShipPhantom.PackMark(slot0.character, slot0.phantomId)
+end
+
+slot0.GetShipPhantomMarks = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(slot0.characters) do
+		table.insert(slot1, ShipPhantom.PackMark(slot6, slot0.phantoms[slot5]))
+	end
+
+	return slot1
+end
+
 slot0.GetFlagShip = function(slot0)
 	slot1 = getProxy(SettingsProxy)
 	slot2 = slot1:getCurrentSecretaryIndex()
@@ -687,7 +692,11 @@ slot5 = function(slot0)
 		slot5 = getProxy(BayProxy)
 
 		for slot9, slot10 in ipairs(slot0) do
-			slot1[slot9] = defaultValue(slot5:RawGetShipById(slot10), false)
+			slot1[slot9] = false
+
+			if slot5:GetShipPhantom(slot10) then
+				slot1[slot9] = slot11
+			end
 
 			table.insert(slot2, slot9)
 		end
@@ -703,7 +712,7 @@ slot5 = function(slot0)
 end
 
 slot0.GetNativeFlagShip = function(slot0, slot1)
-	slot2, slot3 = uv0(slot0.characters)
+	slot2, slot3 = uv0(slot0:GetShipPhantomMarks())
 	slot4 = getProxy(SettingsProxy)
 
 	if getProxy(PlayerProxy):getFlag("battle") then
@@ -735,53 +744,53 @@ slot0.GetNativeFlagShip = function(slot0, slot1)
 end
 
 slot0.GetRandomFlagShip = function(slot0, slot1)
-	slot4, slot5 = uv0(getProxy(SettingsProxy):GetRandomFlagShipList())
+	slot3, slot4 = uv0(getProxy(SettingsProxy):GetRandomFlagShipList())
 
 	if getProxy(PlayerProxy):getFlag("battle") then
-		slot6 = math.random(#slot5)
-		slot1 = slot5[slot6]
+		slot5 = math.random(#slot4)
+		slot1 = slot4[slot5]
 
-		slot2:setCurrentSecretaryIndex(slot6)
+		slot2:setCurrentSecretaryIndex(slot5)
 	end
 
-	if not slot4[slot1] and table.indexof(PlayerVitaeShipsPage.GetSlotIndexList(), slot1) and slot8 > 0 then
-		for slot12 = slot8 + 1, #slot7 do
-			if slot4[slot7[slot12]] then
-				slot2:setCurrentSecretaryIndex(slot12)
+	if not slot3[slot1] and table.indexof(PlayerVitaeShipsPage.GetSlotIndexList(), slot1) and slot7 > 0 then
+		for slot11 = slot7 + 1, #slot6 do
+			if slot3[slot6[slot11]] then
+				slot2:setCurrentSecretaryIndex(slot11)
 
 				break
 			end
 		end
 	end
 
-	if not slot6 then
-		slot7 = {}
+	if not slot5 then
+		slot6 = {}
 
-		for slot11, slot12 in pairs(slot4) do
-			if slot12 then
-				table.insert(slot7, slot11)
+		for slot10, slot11 in pairs(slot3) do
+			if slot11 then
+				table.insert(slot6, slot10)
 			end
 		end
 
-		if #slot7 > 0 then
-			slot1 = slot7[math.random(1, #slot7)]
-			slot6 = slot4[slot1]
+		if #slot6 > 0 then
+			slot1 = slot6[math.random(1, #slot6)]
+			slot5 = slot3[slot1]
 
-			if table.indexof(slot5, slot1) then
-				slot2:setCurrentSecretaryIndex(slot8)
+			if table.indexof(slot4, slot1) then
+				slot2:setCurrentSecretaryIndex(slot7)
 			end
 		end
 	end
 
-	if not slot6 then
+	if not slot5 then
 		slot1 = 1
 
 		slot2:setCurrentSecretaryIndex(slot1)
 
-		slot6 = slot4[slot1]
+		slot5 = slot3[slot1]
 	end
 
-	return slot6
+	return slot5
 end
 
 slot0.GetNextFlagShip = function(slot0)
@@ -824,20 +833,6 @@ end
 
 slot0.UpdateRandomFlagShipMode = function(slot0, slot1)
 	slot0.randomShipMode = slot1
-end
-
-slot0.GetCustomRandomShipList = function(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(slot0.customRandomShips) do
-		table.insert(slot1, slot6)
-	end
-
-	return slot1
-end
-
-slot0.UpdateCustomRandomShipList = function(slot0, slot1)
-	slot0.customRandomShips = slot1
 end
 
 slot0.SetProposeShipId = function(slot0, slot1)

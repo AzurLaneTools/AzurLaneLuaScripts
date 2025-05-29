@@ -34,7 +34,7 @@ slot0.SetMaskAsTopLayer = function(slot0, slot1)
 	if slot1 then
 		slot0.adpterCanvas.sortingOrder = 1000
 	else
-		slot0.adpterCanvas.sortingOrder = -1000
+		slot0.adpterCanvas.sortingOrder = LayerWeightConst.UI_ADPTER_LAYER
 	end
 end
 

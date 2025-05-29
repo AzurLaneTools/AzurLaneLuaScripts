@@ -84,6 +84,7 @@ slot0.OnCharge = function(slot0, slot1)
 	slot0:emit(NewProbabilitySkinShopMediator.OPEN_CHARGE_ITEM_PANEL, {
 		isChargeType = true,
 		isMonthCard = false,
+		infoTip = slot2:GetInfoTip(),
 		icon = "chargeicon/" .. slot2:getConfig("picture"),
 		name = slot2:getConfig("name_display"),
 		tipExtra = i18n("charge_title_getitem"),

@@ -15363,6 +15363,37 @@ _G.pg.base.item_data_statistics[21046] = {
 }
 
 
+_G.pg.base.item_data_statistics[21047] = {
+	open_directly = 0,
+	name = "META Crystal – Grenville META",
+	type = 4,
+	display = "An item that increases the potential of Grenville META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21047",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21047,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21048] = {
 	open_directly = 0,
 	name = "META Crystal – Glorious META",
@@ -27711,6 +27742,58 @@ _G.pg.base.item_data_statistics[30427] = {
 		{
 			9,
 			2096,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30428] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Cruise Missions)",
+	type = 11,
+	display = "Contains 1 random Cruise Mission gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111223",
+	id = 30428,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2097,
+			1
+		},
+		{
+			9,
+			2098,
+			1
+		},
+		{
+			9,
+			2099,
+			1
+		},
+		{
+			9,
+			2100,
 			1
 		}
 	},
@@ -102146,6 +102229,73 @@ _G.pg.base.item_data_statistics[81213] = {
 		{
 			2,
 			86213,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81214] = {
+	open_directly = 1,
+	name = "Swimsuit Lucky Bag 2025 B",
+	type = 17,
+	display = "Contains a random Swimsuit Lucky Bag 2025 B skin, Special General Blueprint - Series 7 x2, Gems x2025, Cognitive Chips x50, Wisdom Cubes x20, Decor Tokens x100, and Quick Finishers x10.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai25",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998316",
+	id = 81214,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86214,
 			1
 		},
 		{

@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "106",
 		scene = {}
 	},
+	[107] = {
+		unlock = "世界巡游二十三期获取",
+		name = "Radiant Stars",
+		key = "SkinNormal_20250529",
+		display_icon = "ui_107",
+		is_unlock = 1,
+		rare = 3,
+		desc = "Brightly do the stars glow, projecting their mysterious patterns across the galaxy, their each and every detail speaking to a longing for space and adventure.",
+		id = 107,
+		icon = "107",
+		scene = {}
+	},
 	[201] = {
 		unlock = "Buy the Battle UI Pack - Christmas",
 		name = "Christmas",
@@ -140,6 +152,7 @@ pg.item_data_battleui = {
 		104,
 		105,
 		106,
+		107,
 		201,
 		202,
 		203,

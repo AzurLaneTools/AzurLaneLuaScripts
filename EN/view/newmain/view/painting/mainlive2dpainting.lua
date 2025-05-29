@@ -70,11 +70,7 @@ slot0.ResetState = function(slot0)
 end
 
 slot0.AdJustOrderInLayer = function(slot0, slot1)
-	if slot0.container:GetComponent(typeof(Canvas)) and slot2.overrideSorting and slot2.sortingOrder ~= 0 then
-		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot1._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot2.sortingOrder)
-
-		slot0.isModifyOrder = true
-	end
+	slot1:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 end
 
 slot0.ResetOrderInLayer = function(slot0)
@@ -224,7 +220,7 @@ slot0.PlayCV = function(slot0, slot1, slot2, slot3, slot4)
 		slot0.seTimer:Start()
 	end
 
-	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship.skinId)), slot3, slot2, slot4)
+	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship:getSkinId())), slot3, slot2, slot4)
 end
 
 slot0.RemoveSeTimer = function(slot0)

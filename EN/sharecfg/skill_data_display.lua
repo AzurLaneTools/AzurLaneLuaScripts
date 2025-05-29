@@ -1826,10 +1826,16 @@ pg.skill_data_display = setmetatable({
 		151131,
 		151132,
 		151141,
-		151191,
-		151192,
+		151151,
+		151161,
+		151163,
+		151164,
 		151170,
 		151180,
+		151191,
+		151192,
+		151200,
+		151210,
 		151211,
 		151224,
 		151262,
@@ -3145,6 +3151,16 @@ pg.skill_data_display = setmetatable({
 		801621,
 		801652,
 		801661,
+		801712,
+		801713,
+		801714,
+		801721,
+		801723,
+		801726,
+		801741,
+		801742,
+		801745,
+		801747,
 		801771,
 		801772,
 		801777,
@@ -10850,13 +10866,21 @@ pg.base.skill_data_display = {
 		id = 151141,
 		name = "Peek-a-Boom!"
 	},
-	[151191] = {
-		id = 151191,
-		name = "Glowworm Retreat!"
+	[151151] = {
+		id = 151151,
+		name = "To My Abyssal Kingdom!"
 	},
-	[151192] = {
-		id = 151192,
-		name = "Glowworm Breakthrough!"
+	[151161] = {
+		id = 151161,
+		name = "Sweet-Toothed Awful Jawful"
+	},
+	[151163] = {
+		id = 151163,
+		name = "Sweet-Toothed Awful Jawful"
+	},
+	[151164] = {
+		id = 151164,
+		name = "Sweet-Toothed Awful Jawful"
 	},
 	[151170] = {
 		id = 151170,
@@ -10865,6 +10889,22 @@ pg.base.skill_data_display = {
 	[151180] = {
 		id = 151180,
 		name = "Crimson Killmark"
+	},
+	[151191] = {
+		id = 151191,
+		name = "Glowworm Retreat!"
+	},
+	[151192] = {
+		id = 151192,
+		name = "Glowworm Breakthrough!"
+	},
+	[151200] = {
+		id = 151200,
+		name = "禁!止!通!行!"
+	},
+	[151210] = {
+		id = 151210,
+		name = "Dogged Pursuit"
 	},
 	[151211] = {
 		id = 151211,
@@ -16125,6 +16165,46 @@ pg.base.skill_data_display = {
 	[801661] = {
 		id = 801661,
 		name = "Operation Ghost"
+	},
+	[801712] = {
+		id = 801712,
+		name = "Uncompromising Duty "
+	},
+	[801713] = {
+		id = 801713,
+		name = "Uncompromising Duty "
+	},
+	[801714] = {
+		id = 801714,
+		name = "Uncompromising Duty "
+	},
+	[801721] = {
+		id = 801721,
+		name = "Gunfire Blitz"
+	},
+	[801723] = {
+		id = 801723,
+		name = "Gunfire Blitz"
+	},
+	[801726] = {
+		id = 801726,
+		name = "Gunfire Blitz"
+	},
+	[801741] = {
+		id = 801741,
+		name = "Cinders of Hope - Grenville I"
+	},
+	[801742] = {
+		id = 801742,
+		name = "Cinders of Hope - Grenville II"
+	},
+	[801745] = {
+		id = 801745,
+		name = "Cinders of Hope - Grenville I"
+	},
+	[801747] = {
+		id = 801747,
+		name = "Cinders of Hope - Grenville II"
 	},
 	[801771] = {
 		id = 801771,

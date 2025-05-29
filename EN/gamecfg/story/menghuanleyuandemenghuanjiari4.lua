@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			say = "Dream Park - Night - Water Area",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -295,7 +295,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -308,7 +308,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			fontsize = 24,
 			actor = 900455,
@@ -323,7 +323,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -342,7 +342,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -355,7 +355,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -368,7 +368,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -397,7 +397,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
@@ -410,7 +410,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
@@ -422,7 +422,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 1,
 			actor = 307010,
@@ -437,7 +437,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
@@ -450,7 +450,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900455,
@@ -465,7 +465,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900455,
@@ -485,7 +485,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 307151,
 			nameColor = "#A9F548FF",
@@ -499,7 +499,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 307151,
 			nameColor = "#A9F548FF",
@@ -513,7 +513,7 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -526,7 +526,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -539,7 +539,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Going with the flow, I get changed with the rest and give the giant slide a try.",
 			typewriter = {
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			say = "After having a blast at the water area, I dry my hair and change back into my regular clothes.",
 			typewriter = {
 				speed = 0.05,
@@ -578,7 +578,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -591,7 +591,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 302250,
 			nameColor = "#A9F548FF",
@@ -605,7 +605,7 @@ return {
 		{
 			actor = 302250,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -618,7 +618,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Everyone gives their opinions, and we collectively settle on the merry-go-round.",
 			typewriter = {
@@ -629,7 +629,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "The carousel spins along to the music at a moderate pace. Atop one of the wooden horses, a captivating figure sits.",
 			typewriter = {
@@ -640,7 +640,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "Gloucester? Hey.",
@@ -652,7 +652,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -666,7 +666,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Gloucester nimbly hops off the horse, lands right before me, and bows her head.",
 			typewriter = {
@@ -677,7 +677,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -691,7 +691,7 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -704,7 +704,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "With a fearless grin and an acrobatic maneuver, Kaga jumps onto the still-moving merry-go-round.",
 			typewriter = {
@@ -715,7 +715,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -729,7 +729,7 @@ return {
 		{
 			actor = 307151,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -742,7 +742,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "Well... Let's get on, shall we?",
@@ -754,7 +754,7 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -767,7 +767,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Once the merry-go-round comes to a stop, each one of us picks a horse and sits.",
 			typewriter = {
@@ -778,7 +778,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Then, the ride slowly spins up again, going round and round at a gentle speed.",
 			typewriter = {
@@ -789,7 +789,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "As I start pondering what ride to go on next, a firework goes off in the night sky above.",
 			typewriter = {
@@ -799,7 +799,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 302260,
 			nameColor = "#A9F548FF",
@@ -823,7 +823,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Seemingly in response to that, more fireworks shoot into the sky.",
 			typewriter = {
@@ -834,7 +834,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Their light paints everything around them in beautiful vivid colors.",
 			typewriter = {
@@ -845,7 +845,7 @@ return {
 		{
 			actor = 207025,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -858,7 +858,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "Ark Royal appears out of the blue. I couldn't hear her coming since the booms of the fireworks muffled everything else.",
 			typewriter = {
@@ -869,7 +869,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "Oh, hi. Were you looking for me?",
@@ -880,7 +880,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 202340,
 			nameColor = "#A9F548FF",
@@ -904,7 +904,7 @@ return {
 		{
 			actor = 202340,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -916,7 +916,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 202340,
 			nameColor = "#A9F548FF",

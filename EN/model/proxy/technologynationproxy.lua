@@ -427,7 +427,7 @@ slot0.getNationPoint = function(slot0, slot1)
 		slot2 = 0
 
 		for slot6, slot7 in pairs(slot0.nationToPoint) do
-			slot2 = math.max(slot2, slot7)
+			slot2 = slot2 + slot7
 		end
 
 		return slot2

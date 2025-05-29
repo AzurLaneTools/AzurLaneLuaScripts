@@ -228,7 +228,7 @@ slot0.GetPaintingTransform = function(slot0)
 end
 
 slot0.GetPartScaleData = function(slot0)
-	return pg.ship_skin_template[slot0.ship.skinId].part_scale.spine
+	return pg.ship_skin_template[slot0.ship:getSkinId()].part_scale.spine
 end
 
 slot0.GetPartStateType = function(slot0)
@@ -252,7 +252,7 @@ slot0.getDragTouchAble = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.OnDisplayWorld = function(slot0, slot1)
-	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId) and slot3 ~= "" then
+	if ShipExpressionHelper.GetExpression(slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship:getSkinId()) and slot3 ~= "" then
 		slot0.spinePainting:SetAction(slot3, 1)
 		slot0.spinePainting:displayWord(true)
 	end

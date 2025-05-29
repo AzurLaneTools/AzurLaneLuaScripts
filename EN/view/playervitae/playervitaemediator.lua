@@ -52,7 +52,7 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.CHANGE_PAINTS, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.CHANGE_PLAYER_ICON, {
-			characterId = slot1,
+			after = slot1,
 			callback = slot2
 		})
 	end)
@@ -71,17 +71,13 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.CHANGE_PAINT, function (slot0, slot1)
 		slot2 = {}
-		uv0.contextData.showSelectCharacters = true
-		slot4 = {}
+		slot4 = getProxy(PlayerProxy):getRawData():GetShipPhantomMarks()
 
-		for slot8, slot9 in ipairs(getProxy(PlayerProxy):getRawData().characters) do
-			if not slot1 or slot9 ~= slot1.id then
-				table.insert(slot2, slot9)
-			end
-
-			table.insert(slot4, slot9)
+		if slot1 then
+			table.removebyvalue(slot4, slot1:GetShipPhantomMark())
 		end
 
+		uv0.contextData.showSelectCharacters = true
 		slot5, slot6 = PlayerVitaeShipsPage.GetSlotMaxCnt()
 
 		uv0:addSubLayers(Context.New({
@@ -92,6 +88,7 @@ slot0.register = function(slot0)
 				selectedMax = slot6,
 				hideTagFlags = ShipStatus.TAG_HIDE_ADMIRAL,
 				selectedIds = slot2,
+				selectedMarks = slot4,
 				ignoredIds = pg.ShipFlagMgr.GetInstance():FilterShips({
 					isActivityNpc = true
 				}),
@@ -99,7 +96,7 @@ slot0.register = function(slot0)
 					uv0.contextData.showSelectCharacters = false
 
 					uv0:sendNotification(GAME.CHANGE_PLAYER_ICON, {
-						characterId = uv0:ReSortShipIds(uv1, slot0),
+						after = uv0:ReSortShipIds(uv1:GetShipPhantomMarks(), slot0),
 						callback = slot1
 					})
 				end
@@ -110,29 +107,49 @@ end
 
 slot0.ReSortShipIds = function(slot0, slot1, slot2)
 	slot3 = {}
-	slot4 = math.max(#slot1, #slot2)
 
-	for slot8, slot9 in ipairs(slot1) do
-		if table.contains(slot2, slot9) then
-			slot3[slot8] = slot9
+	for slot7, slot8 in ipairs({
+		{
+			slot1,
+			-1
+		},
+		{
+			slot2,
+			1
+		}
+	}) do
+		slot9, slot10 = unpack(slot8)
 
-			table.removebyvalue(slot2, slot9)
+		for slot14, slot15 in ipairs(slot9) do
+			slot3[slot15] = defaultValue(slot3[slot15], 0) + slot10
 		end
 	end
 
-	for slot8 = 1, slot4 do
-		if not slot3[slot8] and #slot2 > 0 then
-			slot3[slot8] = table.remove(slot2, 1)
+	slot4 = {}
+	slot5 = 1
+	slot6 = 1
+
+	while #slot4 < #slot2 do
+		while slot5 <= #slot1 and slot3[slot1[slot5]] == 0 do
+			table.insert(slot4, slot1[slot5])
+
+			slot5 = slot5 + 1
+		end
+
+		slot5 = slot5 + 1
+
+		while slot6 <= #slot2 and slot3[slot2[slot6]] == 0 do
+			slot6 = slot6 + 1
+		end
+
+		if slot2[slot6] then
+			table.insert(slot4, slot2[slot6])
+
+			slot6 = slot6 + 1
 		end
 	end
 
-	slot5 = {}
-
-	for slot9, slot10 in pairs(slot3) do
-		table.insert(slot5, slot10)
-	end
-
-	return slot5
+	return slot4
 end
 
 slot0.listNotificationInterests = function(slot0)
@@ -154,7 +171,7 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == GAME.CHANGE_PLAYER_NAME_DONE then
 		slot0.viewComponent:OnPlayerNameChange()
 	elseif slot2 == SetShipSkinCommand.SKIN_UPDATED then
-		slot0.viewComponent:OnShipSkinChanged(slot3.ship)
+		slot0.viewComponent:OnShipSkinChanged(slot3.ship:GetShipPhantomMark())
 	elseif slot2 == GAME.UPDATE_SKINCONFIG then
 		slot0.viewComponent:ReloadPanting(slot3.skinId)
 	elseif slot2 == GAME.CHANGE_PLAYER_ICON_DONE then

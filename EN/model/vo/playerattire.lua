@@ -1,9 +1,19 @@
 slot0 = class("PlayerAttire", import(".BaseVO"))
 
 slot0.Ctor = function(slot0, slot1)
-	slot2 = slot1.display or {}
-	slot0.icon = slot1.icon or slot2.icon
-	slot0.character = slot1.character or slot2.character
+	slot0.icon = slot1.icon or (slot1.display or {}).icon
+
+	if slot1.character then
+		slot0.characters = underscore.map(slot1.character, function (slot0)
+			return slot0.key
+		end)
+		slot0.phantoms = underscore.map(slot1.character, function (slot0)
+			return slot0.value
+		end)
+		slot0.character = slot0.characters[1]
+		slot0.phantomId = slot0.phantoms[1] or 0
+	end
+
 	slot0.skinId = slot1.skin_id or slot2.skin or 0
 
 	if slot0.skinId == 0 and pg.ship_data_statistics[slot0.icon] then

@@ -101,8 +101,8 @@ slot0.RegisterEvent = function(slot0)
 		uv0:OnClickBtn(uv0:GetObtainBtnState(slot1), slot1)
 	end)
 	onButton(slot0, slot0.changeSkinUI, function ()
-		if ShipGroup.IsChangeSkin(uv0.skinId) then
-			uv0.changeSkinId = ShipGroup.GetChangeSkinNextId(uv0.skinId)
+		if ShipSkin.IsChangeSkin(uv0.skinId) then
+			uv0.changeSkinId = ShipSkin.GetChangeSkinNextId(uv0.skinId)
 
 			uv0:Flush(uv0.commodity)
 		end
@@ -118,8 +118,8 @@ slot0.Flush = function(slot0, slot1)
 
 	slot0:FlushStyle(false)
 
-	slot3 = ShipGroup.IsChangeSkin(slot0.skinId)
 	slot0.skinId = slot1:getSkinId()
+	slot3 = ShipSkin.IsChangeSkin(slot0.skinId)
 
 	slot0:FlushChangeSkin(slot1)
 
@@ -149,14 +149,14 @@ slot0.Flush = function(slot0, slot1)
 end
 
 slot0.FlushChangeSkin = function(slot0, slot1)
-	setActive(slot0.changeSkinUI, ShipGroup.IsChangeSkin(slot0.skinId) and true or false)
+	setActive(slot0.changeSkinUI, ShipSkin.IsChangeSkin(slot0.skinId) and true or false)
 
 	if slot3 then
-		slot4 = ShipGroup.GetChangeSkinGroupId(slot2)
+		slot4 = ShipSkin.GetChangeSkinGroupId(slot2)
 
 		if not slot0.changeSkinId then
 			slot0.changeSkinId = slot2
-		elseif ShipGroup.GetChangeSkinGroupId(slot0.changeSkinId) == slot4 then
+		elseif ShipSkin.GetChangeSkinGroupId(slot0.changeSkinId) == slot4 then
 			slot0.skinId = slot0.changeSkinId
 		else
 			slot0.changeSkinId = slot0.skinId
@@ -416,7 +416,7 @@ end
 
 slot0.FlushPainting = function(slot0, slot1)
 	slot3 = pg.ship_skin_template[slot0.skinId].painting
-	slot4 = ShipGroup.GetChangeSkinData(slot0.skinId) and true or false
+	slot4 = ShipSkin.GetChangeSkinData(slot0.skinId) and true or false
 
 	if slot0:GetPaintingState(slot1) == uv0 and not slot0:ExistL2dRes(slot3) or slot2 == uv1 and not slot0:ExistSpineRes(slot3) then
 		slot2 = uv2
@@ -532,7 +532,12 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 			uv0:ClearL2dPainting()
 		end
 
+		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		pg.UIMgr.GetInstance():LoadingOff()
+
+		if uv2:getSkinId() == 299024 then
+			slot0:setPosition(Vector3(150, 40, 0))
+		end
 	end)
 end
 
@@ -1112,6 +1117,12 @@ slot0.Dispose = function(slot0)
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:ClearSwitchBgAnim()
 	pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
+
+	if slot0.live2dChar then
+		slot0.live2dChar:Dispose()
+
+		slot0.live2dChar = nil
+	end
 
 	if slot0.voucherMsgBox then
 		slot0.voucherMsgBox:Destroy()

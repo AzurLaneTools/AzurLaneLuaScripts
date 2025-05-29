@@ -297,6 +297,11 @@ pg.task_meta_data_template = setmetatable({
 		100413,
 		100414,
 		100415,
+		100421,
+		100422,
+		100423,
+		100424,
+		100425,
 		100431,
 		100432,
 		100433,
@@ -430,6 +435,10 @@ pg.task_meta_data_template = setmetatable({
 		200322,
 		200323,
 		200324,
+		200331,
+		200332,
+		200333,
+		200334,
 		200341,
 		200342,
 		200343,
@@ -2798,6 +2807,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "Defeat a Lv. 100+ fleet with Nevada META in your fleet."
 	},
+	[100421] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100421,
+		target_num = 1,
+		desc = "Win 1 battle with Grenville META in your fleet."
+	},
+	[100422] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100422,
+		target_num = 1,
+		desc = "Defeat a Lv. 30+ fleet with Grenville META in your fleet."
+	},
+	[100423] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100423,
+		target_num = 1,
+		desc = "Defeat a Lv. 55+ fleet with Grenville META in your fleet."
+	},
+	[100424] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100424,
+		target_num = 1,
+		desc = "Defeat a Lv. 80+ fleet with Grenville META in your fleet."
+	},
+	[100425] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100425,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet with Grenville META in your fleet."
+	},
 	[100431] = {
 		target_id = "0",
 		sub_type = 180,
@@ -3861,6 +3910,38 @@ pg.base.task_meta_data_template = {
 		id = 200324,
 		target_num = 1,
 		desc = "Defeat a lv. 100+ fleet in Operation Siren with Nevada META in your fleet."
+	},
+	[200331] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200331,
+		target_num = 1,
+		desc = "Win 1 Operation Siren battle with Grenville META in your fleet."
+	},
+	[200332] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200332,
+		target_num = 1,
+		desc = "Defeat a Lv. 70+ fleet in Operation Siren with Grenville META in your fleet."
+	},
+	[200333] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200333,
+		target_num = 1,
+		desc = "Defeat a Lv. 90+ fleet in Operation Siren with Grenville META in your fleet."
+	},
+	[200334] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200334,
+		target_num = 1,
+		desc = "Defeat a Lv. 100+ fleet in Operation Siren with Grenville META in your fleet."
 	},
 	[200341] = {
 		target_id = "0",

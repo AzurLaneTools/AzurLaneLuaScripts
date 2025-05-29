@@ -91,6 +91,8 @@ OnQuerySubscriptionSuccess = function(slot0)
 end
 
 OnRequestPayment = function(slot0)
+	originalPrint("SdkPay OnRequestPayment")
+	uv1:Pay(slot0, "", uv0.GetPNInfo().info)
 end
 
 OnQuerySuccess = function(slot0, slot1)
@@ -160,11 +162,9 @@ return {
 		uv1:BugReport(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
 	end,
 	StoreReview = function ()
-		if uv0.GetIsPlatform() then
-			slot0 = uv0.GetPNInfo()
+		slot0 = uv0.GetPNInfo()
 
-			uv1:StoreReview(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
-		end
+		uv1:StoreReview(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
 	end,
 	ShareImg = function (slot0)
 		uv0:ShareImg(slot0, "")
@@ -178,6 +178,11 @@ return {
 	end,
 	QueryWithProduct = function ()
 	end,
+	QueryPendingTransaction = function ()
+		if uv0.GetIsPlatform() then
+			uv1:SDK_QueryPendingTransaction()
+		end
+	end,
 	SdkPay = function (slot0, slot1, slot2, slot3, slot4, slot5, slot6, slot7, slot8, slot9)
 		slot10 = uv0.GetPNInfo()
 		slot11 = slot10.serverID .. "-" .. slot10.playerID .. "-" .. slot4
@@ -190,6 +195,9 @@ return {
 	end,
 	SwitchAccount = function ()
 		uv0:SwitchAccount()
+	end,
+	EventTrack = function (slot0)
+		uv0:SDK_EvtTrack(slot0)
 	end,
 	GetBiliServerId = function ()
 		slot0 = uv0.serverId

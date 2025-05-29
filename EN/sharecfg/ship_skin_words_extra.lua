@@ -329,7 +329,9 @@ pg.ship_skin_words_extra = setmetatable({
 		205160,
 		201380,
 		202350,
-		202360
+		202360,
+		403160,
+		207055
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23100,6 +23102,122 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Heehee. It looks like I've wound up as your prey. That said, this feeling of being caught by you is surprisingly nice♪"
+			}
+		}
+	},
+	[403160] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 403160,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Ah, my knight is here. Do you wanna pla– I mean, tour the kingdom? We could also sit on the throne together."
+			}
+		},
+		home = {
+			{
+				1100,
+				"Welcome back! What kind of juice do you have this time? ...Ahem! I'm asking 'cause I wanna drink it with you! I just want us to relax, that's all."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"This is just... Don't tell anyone about this, okay?!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"This is my toy castle– Err, the palace of my abyssal kingdom! But now it's also your house... By that I mean, your knightly guard station! Stop laughing!"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Playing with you is my favorite thing... Huh? Y-you didn't hear that, did you?!|Maybe I should make my throne bigger. It needs to be big enough to fit us both.|Listen, you! Just because I treat you differently doesn't mean you get to treat me like a child!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Doing this to me isn't your job! Your job is to protect me!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Th-that tickles! You are so discourteous! I'm gonna punish you!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"You know, my favorite thing is playing with y– I mean, governing my abyssal kingdom with you! Look, you know what I'm trying to say! I've grown used to you looking after and protecting me, so you'd better never leave me!"
+			}
+		}
+	},
+	[207055] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		main_extra = "",
+		home = "",
+		mission = "",
+		id = 207055,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		feeling5 = "",
+		profile = "",
+		mission_complete = "",
+		headtouch = "",
+		feeling2 = "",
+		battle = "",
+		login = "",
+		detail = {
+			{
+				1100,
+				"\"Formidable has become an elegant Royal lady and an esteemed songstress of the port.\" Commander, what do you think of that profile? Umm, it might overlap with my sisters a little, but... Wh-what? You think it's perfect?!"
+			}
+		},
+		main = {
+			{
+				1100,
+				"nil|nil|What have you been staring so fixedly at? ...You just wanted to make me ask? Well, that's just naughty."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You do love affection, don't you, Commander?♪"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Heehee. Commandeeer...♡"
 			}
 		}
 	}

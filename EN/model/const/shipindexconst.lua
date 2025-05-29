@@ -449,7 +449,7 @@ slot0.filterByExtra = function(slot0, slot1)
 	elseif slot1 == uv0.ExtraUniqueSpWeapon then
 		return slot0:HasUniqueSpWeapon()
 	elseif slot1 == uv0.DRESSED then
-		return not slot0:IsDefaultSkin() and slot0:getRemouldSkinId() ~= slot0.skinId
+		return not slot0:IsDefaultSkin() and slot0:getRemouldSkinId() ~= slot0:getSkinId()
 	elseif slot1 == uv0.ExtraMarry then
 		return slot0.propose
 	end

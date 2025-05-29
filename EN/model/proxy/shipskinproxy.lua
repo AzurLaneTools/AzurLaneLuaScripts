@@ -6,6 +6,7 @@ slot0.FORBIDDEN_TYPE_SHOW = 1
 
 slot0.register = function(slot0)
 	slot0.skins = {}
+	slot0.changeSkinGroupDic = {}
 	slot0.cacheSkins = {}
 	slot0.timers = {}
 	slot0.forbiddenSkinList = {}
@@ -59,6 +60,11 @@ slot0.addSkin = function(slot0, slot1)
 	end
 
 	slot0.skins[slot1.id] = slot1
+
+	if ShipSkin.IsChangeSkin(slot1.id) then
+		slot0.changeSkinGroupDic[ShipSkin.GetChangeSkinGroupId(slot1.id)] = true
+	end
+
 	slot0.prevNewSkin = slot1
 
 	slot0:addExpireTimer(slot1)
@@ -84,11 +90,12 @@ slot0.addExpireTimer = function(slot0, slot1)
 	slot2 = function()
 		table.insert(uv0.cacheSkins, uv1)
 		uv0:removeSkinById(uv1.id)
-		_.each(getProxy(BayProxy):getShips(), function (slot0)
-			if slot0.skinId == uv0.id then
-				slot0.skinId = slot0:getConfig("skin_id")
 
-				uv1:updateShip(slot0)
+		slot1 = {}
+
+		underscore.each(getProxy(BayProxy):CanUseShareSkinPhantoms(uv1.id), function (slot0)
+			if slot0:getSkinId() == uv0.id then
+				uv1:updateShipSkin(slot0.id, slot0.phantomId, slot0:getConfig("skin_id"))
 			end
 		end)
 		uv0:sendNotification(GAME.SHIP_SKIN_EXPIRED)
@@ -119,21 +126,11 @@ slot0.removeSkinById = function(slot0, slot1)
 end
 
 slot0.hasSkin = function(slot0, slot1)
-	if ShipGroup.IsChangeSkin(slot1) then
-		return slot0:hasChangeSkin(ShipGroup.GetChangeSkinGroupId(slot1))
+	if ShipSkin.IsChangeSkin(slot1) then
+		return slot0.changeSkinGroupDic[ShipSkin.GetChangeSkinGroupId(slot1)]
 	end
 
 	return slot0.skins[slot1] ~= nil
-end
-
-slot0.hasChangeSkin = function(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.skins) do
-		if slot6:IsChangeSkin() and ShipGroup.GetChangeSkinGroupId(slot5) == slot1 then
-			return true
-		end
-	end
-
-	return false
 end
 
 slot0.hasNonLimitSkin = function(slot0, slot1)
@@ -344,12 +341,14 @@ slot0.GetAllSkinForShip = function(slot0, slot1)
 	end
 
 	for slot7 = #slot3, 1, -1 do
-		if slot3[slot7] and slot8.change_skin and slot8.change_skin.group then
-			if ShipGroup.GetStoreChangeSkinId(slot8.change_skin.group, slot1.id) and slot10 ~= slot8.id then
+		if ShipSkin.GetChangeSkinGroupId(slot3[slot7].id) then
+			if not ShipSkin.GetStoreChangeSkinId(slot9) then
+				if slot8.change_skin.index ~= 1 then
+					print("没有缓存的id ，" .. "移除了id" .. slot8.id)
+					table.remove(slot3, slot7)
+				end
+			elseif slot10 ~= slot8.id then
 				print("有缓存的id = " .. slot10 .. "移除了id" .. slot8.id)
-				table.remove(slot3, slot7)
-			elseif not slot10 and slot8.change_skin.index ~= 1 then
-				print("没有缓存的id ，" .. "移除了id" .. slot8.id)
 				table.remove(slot3, slot7)
 			end
 		end

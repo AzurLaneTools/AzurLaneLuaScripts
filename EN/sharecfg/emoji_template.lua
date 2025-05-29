@@ -832,6 +832,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[67] = {
+		achieve = 1,
+		index = 1026,
+		pic = "zhaohe_4",
+		desc = "<color=#92fc63>[Angry!]</color>",
+		item_name = "Sticker: Angry!",
+		item_desc = "Sticker: Angry! (Can be found in the Default section of chat stickers.)",
+		id = 67,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2392,6 +2405,7 @@ pg.emoji_template = {
 		63,
 		65,
 		66,
+		67,
 		100,
 		101,
 		102,

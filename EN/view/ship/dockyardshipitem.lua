@@ -66,9 +66,13 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.palyerId = getProxy(PlayerProxy):getRawData().id
 
 	ClearTweenItemAlphaAndWhite(slot0.go)
+
+	slot0.isClear = true
 end
 
 slot0.update = function(slot0, slot1)
+	slot0.isClear = false
+
 	TweenItemAlphaAndWhite(slot0.go)
 
 	if slot0.proposeModel then
@@ -184,7 +188,7 @@ slot0.flush = function(slot0)
 				slot7 = pg.PoolMgr.GetInstance()
 
 				slot7:GetUI("heartShipCard", false, function (slot0)
-					if uv0.proposeModel then
+					if uv0.isClear or uv0.proposeModel then
 						pg.PoolMgr.GetInstance():ReturnUI("heartShipCard", slot0)
 					else
 						uv0.proposeModel = slot0
@@ -483,6 +487,8 @@ slot0.clear = function(slot0)
 
 		slot0.selectedTwId = nil
 	end
+
+	slot0.isClear = true
 end
 
 slot0.updateIntimacy = function(slot0, slot1)

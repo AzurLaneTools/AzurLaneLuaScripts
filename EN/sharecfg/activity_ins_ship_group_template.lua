@@ -4616,6 +4616,30 @@ pg.activity_ins_ship_group_template = {
 		nationality = 2,
 		type = 1
 	},
+	[10509] = {
+		ship_group = 10509,
+		name = "Colorado",
+		background = "",
+		sculpture = "keluoladuo_3",
+		nationality = 0,
+		type = 1
+	},
+	[10510] = {
+		ship_group = 10510,
+		name = "Maryland",
+		background = "",
+		sculpture = "malilan",
+		nationality = 0,
+		type = 1
+	},
+	[10511] = {
+		ship_group = 10511,
+		name = "West Virginia",
+		background = "",
+		sculpture = "xifujiniya",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5193,6 +5217,9 @@ pg.activity_ins_ship_group_template = {
 		20138,
 		20235,
 		20139,
-		20236
+		20236,
+		10509,
+		10510,
+		10511
 	}
 }

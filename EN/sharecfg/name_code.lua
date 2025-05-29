@@ -2856,6 +2856,13 @@ pg.name_code = {
 		code = "Admiral Hipper META",
 		nation = 0
 	},
+	[544] = {
+		name = "Little Ägir",
+		type = 1,
+		id = 544,
+		code = "Little Ägir",
+		nation = 0
+	},
 	[10000] = {
 		name = "Type 0 Fighter Model 52",
 		type = 2,

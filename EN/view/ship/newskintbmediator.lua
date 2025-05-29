@@ -1,28 +1,8 @@
 slot0 = class("NewSkinTBMediator", import("..base.ContextMediator"))
-slot0.SET_SKIN = "NewSkinTBMediator:SET_SKIN"
 slot0.ON_EXIT = "NewSkinTBMediator:ON_EXIT"
 slot0.GO_SET_TB_SKIN = "NewSkinTBMediator:GO_SET_TB_SKIN"
 
 slot0.register = function(slot0)
-	slot0:bind(uv0.SET_SKIN, function (slot0, slot1, slot2)
-		for slot6, slot7 in ipairs(slot1) do
-			uv0:sendNotification(GAME.SET_SHIP_SKIN, {
-				shipId = slot7,
-				skinId = uv0.contextData.skinId
-			})
-		end
-
-		getProxy(SettingsProxy):SetFlagShip(slot2)
-
-		if slot2 then
-			uv0:sendNotification(GAME.CHANGE_PLAYER_ICON, {
-				skinPage = true,
-				characterId = slot1[1]
-			})
-		end
-
-		uv0.viewComponent:emit(BaseUI.ON_CLOSE)
-	end)
 	slot0:bind(uv0.GO_SET_TB_SKIN, function (slot0)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.EDUCATE_DOCK, {
 			OnSelected = function (slot0)

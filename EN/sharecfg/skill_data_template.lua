@@ -1282,6 +1282,8 @@ pg.skill_data_template = setmetatable({
 		151120,
 		151130,
 		151140,
+		151150,
+		151160,
 		151170,
 		151180,
 		151190,
@@ -2483,6 +2485,12 @@ pg.skill_data_template = setmetatable({
 		801702,
 		801705,
 		801707,
+		801710,
+		801720,
+		801741,
+		801742,
+		801745,
+		801747,
 		801750,
 		801760,
 		801770,
@@ -106707,6 +106715,263 @@ If any enemies are affected by Jet-Black Paint, the Crit Rate of this special ba
 			}
 		}
 	},
+	[151150] = {
+		desc_get = "",
+		name = "To My Abyssal Kingdom!",
+		type = 3,
+		max_level = 10,
+		desc = "When there is an enemy within 35 units of this ship: performs a $1 special slashing attack that inflicts Armor Break on enemies hit (DMG is based on the skill's level; 20s cooldown between activations); if there is no such enemy, instead increases this ship's Crit Rate by $2 and decreases her DMG taken by $2.",
+		id = 151150,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"1.5%",
+				"5.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"1.5%",
+					"+0.3%"
+				},
+				{
+					"1.8%",
+					"+0.3%"
+				},
+				{
+					"2.1%",
+					"+0.4%"
+				},
+				{
+					"2.5%",
+					"+0.3%"
+				},
+				{
+					"2.8%",
+					"+0.3%"
+				},
+				{
+					"3.1%",
+					"+0.4%"
+				},
+				{
+					"3.5%",
+					"+0.4%"
+				},
+				{
+					"3.9%",
+					"+0.4%"
+				},
+				{
+					"4.3%",
+					"+0.7%"
+				},
+				{
+					"5.0%"
+				}
+			}
+		}
+	},
+	[151160] = {
+		desc_get = "",
+		name = "Sweet-Toothed Awful Jawful",
+		type = 1,
+		max_level = 10,
+		desc = "While this ship does not have the Out of Ammo debuff: increases this ship's EVA by $1. Every 8 times this ship fires her Main Guns: restores 1.0% of this ship's max HP and fires a $2 special barrage (DMG is based on the skill's level) that decreases the SPD of enemies hit by $3 for 5s. If this ship has a large-caliber Main Gun equipped, the above shots fired requirement decreases to 4.",
+		id = 151160,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"10.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"10.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%",
+					"+0.5%"
+				},
+				{
+					"6.5%",
+					"+0.5%"
+				},
+				{
+					"7.0%",
+					"+0.5%"
+				},
+				{
+					"7.5%",
+					"+0.5%"
+				},
+				{
+					"8.0%",
+					"+0.5%"
+				},
+				{
+					"8.5%",
+					"+0.5%"
+				},
+				{
+					"9.0%",
+					"+1%"
+				},
+				{
+					"10.0%"
+				}
+			},
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"10.0%",
+					"+0.4%"
+				},
+				{
+					"10.4%",
+					"+0.4%"
+				},
+				{
+					"10.8%",
+					"+0.7%"
+				},
+				{
+					"11.5%",
+					"+0.4%"
+				},
+				{
+					"11.9%",
+					"+0.4%"
+				},
+				{
+					"12.3%",
+					"+0.7%"
+				},
+				{
+					"13.0%",
+					"+0.6%"
+				},
+				{
+					"13.6%",
+					"+0.6%"
+				},
+				{
+					"14.2%",
+					"+0.8%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
 	[151170] = {
 		desc_get = "",
 		name = "The Flawless Hunt",
@@ -163140,6 +163405,192 @@ Activates one of the following 2 effects based on what weapon this ship has equi
 		id = 801707,
 		system_transform = {
 			[51.0] = 801707
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801710] = {
+		desc_get = "",
+		name = "Uncompromising Duty",
+		type = 1,
+		max_level = 10,
+		desc = "When any other ship in your Vanguard is attacked: fires a $1 special barrage I (DMG is based on the skill's level; 10s cooldown between activations). This barrage can only fire 2 times per battle, after which the following applies instead: every 10s, fires a $1 special barrage II (DMG is based on the skill's level).\nOnce per battle, if there is another ship in your Vanguard when this ship's HP falls below 20.0% as a result of DMG taken: for 6s, this ship evades all attacks and her DMG dealt is increased by 8.0% until the battle ends.",
+		id = 801710,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"Lv.1",
+				"Lv.10"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"Lv.1",
+					"+1"
+				},
+				{
+					"Lv.2",
+					"+1"
+				},
+				{
+					"Lv.3",
+					"+1"
+				},
+				{
+					"Lv.4",
+					"+1"
+				},
+				{
+					"Lv.5",
+					"+1"
+				},
+				{
+					"Lv.6",
+					"+1"
+				},
+				{
+					"Lv.7",
+					"+1"
+				},
+				{
+					"Lv.8",
+					"+1"
+				},
+				{
+					"Lv.9",
+					"+1"
+				},
+				{
+					"Lv.10"
+				}
+			}
+		}
+	},
+	[801720] = {
+		desc_get = "",
+		name = "Gunfire Blitz",
+		type = 1,
+		max_level = 10,
+		desc = "Increases your DDs' FP by $1. When this ship fires her Main Guns: she gains a stack of Bullets (can be stacked up to 12 times). When this ship fires her torpedoes: fires an amount of special shells equal to the number of Bullets, then resets the stack; enemies hit by a special shell take 50 fixed DMG and have their cannon DMG taken increased by 1.0% and DMG dealt reduced by 1.0% (can be stacked up to 12 times; both effects last 6s).",
+		id = 801720,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {
+			{
+				"5.0%",
+				"15.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			}
+		}
+	},
+	[801741] = {
+		desc_get = "",
+		name = "Cinders of Hope - Grenville I",
+		type = 3,
+		max_level = 1,
+		desc = "Every 15 times this ship fires her Main Guns: fires a special barrage.",
+		id = 801741,
+		system_transform = {
+			[51.0] = 801745
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801742] = {
+		desc_get = "",
+		name = "Cinders of Hope - Grenville II",
+		type = 3,
+		max_level = 1,
+		desc = "Every 10 times this ship fires her Main Guns: fires a special barrage.",
+		id = 801742,
+		system_transform = {
+			[51.0] = 801747
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801745] = {
+		desc_get = "",
+		name = "Cinders of Hope - Grenville I",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 15 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 2.0%.",
+		id = 801745,
+		system_transform = {
+			[51.0] = 801745
+		},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[801747] = {
+		desc_get = "",
+		name = "Cinders of Hope - Grenville II",
+		type = 3,
+		max_level = 1,
+		desc = "[Operation Siren]\nEvery 10 times this ship fires her Main Guns: fires a special barrage. When fighting humanoid Siren fleets or Boss fleets: increases this ship's DMG dealt by 6.0%.",
+		id = 801747,
+		system_transform = {
+			[51.0] = 801747
 		},
 		world_death_mark = {
 			1

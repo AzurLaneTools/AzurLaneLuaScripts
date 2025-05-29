@@ -223,7 +223,9 @@ pg.furniture_data_template = setmetatable({
 			100062,
 			100063,
 			100064,
+			100065,
 			100073,
+			100074,
 			200001,
 			200002,
 			200003,
@@ -5769,7 +5771,9 @@ pg.furniture_data_template = setmetatable({
 			100062,
 			100063,
 			100064,
+			100065,
 			100073,
+			100074,
 			31101,
 			54104,
 			54105
@@ -6928,7 +6932,9 @@ pg.furniture_data_template = setmetatable({
 			100058,
 			100059,
 			100061,
-			100062
+			100062,
+			100065,
+			100074
 		},
 		[2] = {
 			120,
@@ -10087,7 +10093,9 @@ pg.furniture_data_template = setmetatable({
 		100062,
 		100063,
 		100064,
+		100065,
 		100073,
+		100074,
 		200001,
 		200002,
 		200003,
@@ -25229,9 +25237,60 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[100065] = {
+		can_rotate = 0,
+		name = "Red Kitsune Mask",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "linghumianjuicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "Beware! The powerful force residing inside is about to be released!",
+		advice = 0,
+		id = 100065,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"linghumianju",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100073] = {
 		can_rotate = 0,
-		name = "啾啾冲浪板",
+		name = "Manjuu Surfboard",
 		gain_by = "",
 		type = 11,
 		dir = 0,
@@ -25250,7 +25309,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputon = 0,
 		deblocking = 1,
 		count = 1,
-		describe = "超重承载、结构稳定，冲向海浪！",
+		describe = "Suited for bearing heavy loads, built for stability, and designed for rushing straight at the waves!",
 		advice = 0,
 		id = 100073,
 		tag = 6,
@@ -25302,6 +25361,99 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		followBone = {
 			"char",
 			1
+		},
+		interAction_group = {}
+	},
+	[100074] = {
+		can_rotate = 0,
+		name = "幽灵隐身衣",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 0,
+		icon = "yinshendoupengicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "我是一个小幽灵~看不见的小幽灵~",
+		advice = 0,
+		id = 100074,
+		tag = 6,
+		comfortable = 0,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yinshendoupengB",
+				"normal"
+			},
+			{
+				"yinshendoupengT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						nil,
+						"sit"
+					}
+				},
+				{
+					[3] = {
+						"dance",
+						"dance",
+						1
+					},
+					[4] = dance
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					0.8,
+					65.5
+				},
+				{
+					100,
+					85
+				},
+				"chuanmo/yinshendoupeng_mask"
+			},
+			{
+				-7.59,
+				-60
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

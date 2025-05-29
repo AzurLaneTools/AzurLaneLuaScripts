@@ -127,7 +127,7 @@ slot0.TrackingSwitchShip = function(slot0)
 	end
 
 	slot2 = slot1:GetFlagShip()
-	slot3 = slot2.skinId
+	slot3 = slot2:getSkinId()
 
 	if isa(slot2, VirtualEducateCharShip) then
 		slot3 = 0

@@ -171,7 +171,7 @@ slot0.SavePostion = function(slot0)
 	if slot0.stateType == uv0 then
 		slot1 = slot0.paintingTF.anchoredPosition
 		slot2 = slot0.paintingTF.localScale.x
-		slot3 = slot0.flagShip.skinId
+		slot3 = slot0.flagShip:getSkinId()
 
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("secretary_pos_save"),
@@ -224,7 +224,7 @@ slot0.ShowOrHide = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.flagShip = slot2
 	slot0.showing = slot1
 	slot0.hideScaleSet = true
-	slot6 = pg.ship_skin_template[slot0.flagShip.skinId].part_scale
+	slot6 = pg.ship_skin_template[slot0.flagShip:getSkinId()].part_scale
 
 	if MainPaintingView.GetAssistantStatus(slot0.flagShip) == MainPaintingView.STATE_PAINTING and slot6.paint and #slot6.paint > 0 then
 		slot0.hideScaleSet = false

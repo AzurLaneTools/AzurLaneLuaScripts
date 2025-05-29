@@ -74,7 +74,7 @@ slot0.Ctor = function(slot0, slot1)
 
 	for slot16, slot17 in ipairs(getProxy(PlayerProxy):getRawData().characters) do
 		if slot12:getShipById(slot17) and slot11[slot18.skinId] then
-			slot0.skinId = slot18.skinId
+			slot0.skinId = slot18:getSkinId()
 
 			break
 		end

@@ -46,6 +46,9 @@ slot0.Ctor = function(slot0, slot1)
 	table.insert(slot0.tags, slot0.tr:Find("real_tpl/tag/activity"))
 	table.insert(slot0.tags, slot0.tr:Find("real_tpl/tag/time"))
 	table.insert(slot0.tags, slot0.tr:Find("real_tpl/tag/discount"))
+
+	slot0.packageTag = slot0.tr:Find("real_tpl/package_tag")
+
 	setActive(slot0.countDown, false)
 end
 
@@ -74,6 +77,11 @@ slot0.update = function(slot0, slot1, slot2, slot3)
 
 	if slot0.viewBtn then
 		setActive(slot0.viewBtn, slot1:isChargeType() and slot1:CanViewSkinProbability())
+	end
+
+	if slot0.packageTag then
+		setActive(slot0.packageTag, slot1:GetPackageTag() ~= "")
+		setText(slot0.packageTag:Find("Text"), slot5)
 	end
 
 	if slot1:isChargeType() then

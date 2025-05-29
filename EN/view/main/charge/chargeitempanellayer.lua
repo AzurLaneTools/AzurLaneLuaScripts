@@ -69,6 +69,7 @@ slot0.findUI = function(slot0)
 	end
 
 	slot0.detailNormalTip = slot0:findTF("NormalTips", slot0.detailWindow)
+	slot0.infoBtn = slot0:findTF("prince_bg/info", slot0.detailWindow)
 end
 
 slot0.addListener = function(slot0)
@@ -121,6 +122,7 @@ slot0.updatePanel = function(slot0)
 	slot12 = slot0.panelConfig.normalTip
 	slot13 = slot0.panelConfig.extraDrop
 	slot14 = slot0.panelConfig.isForceGold
+	slot15 = slot0.panelConfig.infoTip and slot0.panelConfig.infoTip or ""
 
 	if slot0.detailNormalTip then
 		setActive(slot0.detailNormalTip, slot12)
@@ -141,8 +143,8 @@ slot0.updatePanel = function(slot0)
 	setActive(slot0.detailTag, slot11 > 0)
 
 	if slot11 > 0 then
-		for slot18, slot19 in ipairs(slot0.detailTags) do
-			setActive(slot19, slot18 == slot11)
+		for slot19, slot20 in ipairs(slot0.detailTags) do
+			setActive(slot20, slot19 == slot11)
 		end
 	end
 
@@ -173,10 +175,10 @@ slot0.updatePanel = function(slot0)
 	setText(slot0.detailPrice, slot7)
 
 	if slot0.extraDesc ~= nil then
-		slot15 = slot0.panelConfig.descExtra or ""
+		slot16 = slot0.panelConfig.descExtra or ""
 
-		setActive(slot0.extraDesc, #slot15 > 0)
-		setText(slot0.extraDesc, slot15)
+		setActive(slot0.extraDesc, #slot16 > 0)
+		setText(slot0.extraDesc, slot16)
 	end
 
 	if slot0.detailContain then
@@ -187,13 +189,13 @@ slot0.updatePanel = function(slot0)
 			onButton(slot0, slot0.detailItem, function ()
 			end, SFX_PANEL)
 
-			slot15, slot16 = contentWrap(slot4:getConfig("name"), 10, 2)
+			slot16, slot17 = contentWrap(slot4:getConfig("name"), 10, 2)
 
-			if slot15 then
-				slot16 = slot16 .. "..."
+			if slot16 then
+				slot17 = slot17 .. "..."
 			end
 
-			setText(slot0:findTF("name", slot0.detailItem), slot16)
+			setText(slot0:findTF("name", slot0.detailItem), slot17)
 			setText(slot0.detailTip, slot3)
 		end
 
@@ -204,6 +206,21 @@ slot0.updatePanel = function(slot0)
 		else
 			slot0:UpdateItems(slot6)
 		end
+	end
+
+	slot16 = slot15 ~= ""
+
+	setActive(slot0.infoBtn, slot16)
+
+	if slot16 then
+		onButton(slot0, slot0.infoBtn, function ()
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip[uv0].tip
+			})
+		end, SFX_PANEL)
+	else
+		removeOnButton(slot0.infoBtn)
 	end
 end
 
