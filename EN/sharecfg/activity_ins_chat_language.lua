@@ -40393,7 +40393,7 @@ pg.base.activity_ins_chat_language = {
 		}
 	},
 	[4004] = {
-		param = "Thanks a lot.",
+		param = "Thanks a lot. Your presence puts people at ease, you know.",
 		ship_group = 0,
 		option = "",
 		type = 1,

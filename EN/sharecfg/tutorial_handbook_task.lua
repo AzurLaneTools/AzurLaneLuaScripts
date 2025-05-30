@@ -693,7 +693,7 @@ pg.tutorial_handbook_task = {
 		}
 	},
 	[201201] = {
-		name = "Medal Shop",
+		name = "Medallion",
 		type = 2,
 		lock_name = "",
 		eng_name = "HANDBOOK",

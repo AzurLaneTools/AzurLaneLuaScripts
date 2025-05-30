@@ -20,7 +20,6 @@ slot0.OnInit = function(slot0)
 	slot0:InitEvent()
 	setParent(slot0.randomFlagToggle, slot0._tf.parent)
 	setActive(slot0.randomFlagToggle, true)
-	triggerToggle(slot0.randomFlagToggle, slot0:GetShipVO():getRandomFlag())
 end
 
 slot0.InitDetail = function(slot0)
@@ -450,6 +449,7 @@ slot0.UpdateUI = function(slot0)
 	slot0:UpdateEquipments(slot1)
 	slot0:UpdateLock()
 	slot0:UpdatePreferenceTag()
+	triggerToggle(slot0.randomFlagToggle, slot0:GetShipVO():getRandomFlag())
 end
 
 slot0.UpdateIntimacy = function(slot0, slot1)
