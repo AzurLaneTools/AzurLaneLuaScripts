@@ -40,7 +40,7 @@ slot0.OnInit = function(slot0)
 
 	onButton(slot0, slot0.btnPay, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_GIFT
+			wrap = ChargeScene.TYPE_PICK
 		})
 	end, SFX_CONFIRM)
 
