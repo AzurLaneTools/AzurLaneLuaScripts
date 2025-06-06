@@ -62,7 +62,7 @@ slot0.updateActivity = function(slot0, slot1)
 		slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
 	end
 
-	if slot1:isShow() and not slot1:isEnd() and slot0.activity and slot0.activity.id == slot1.id then
+	if slot1:isShow() and slot1:isCorePage(slot0.contextData.coreName or "") and not slot1:isEnd() and slot0.activity and slot0.activity.id == slot1.id then
 		slot0.activity = slot1
 
 		slot0.actPage:ActionInvoke("Flush", slot1)

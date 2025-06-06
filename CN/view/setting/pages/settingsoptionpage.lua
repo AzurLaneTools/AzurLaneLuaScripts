@@ -16,7 +16,7 @@ slot0.OnLoaded = function(slot0)
 
 	slot0.contentSizeFitter = slot0.panelContainer:GetComponent(typeof(ContentSizeFitter))
 	slot0.cg = slot0._tf:GetComponent(typeof(CanvasGroup))
-	slot0.scrollrect = slot0._tf:GetComponent(typeof(ScrollRect))
+	slot0.scrollrect = slot0._tf:Find("content"):GetComponent(typeof(ScrollRect))
 
 	slot0:InitPanels()
 	setActive(slot0._tf, true)

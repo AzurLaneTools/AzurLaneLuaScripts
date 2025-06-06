@@ -1614,6 +1614,11 @@ temp = function()
 		["容"] = {
 			this = true
 		},
+		["王"] = {
+			["星"] = {
+				this = true
+			}
+		},
 		["豚"] = {
 			["号"] = {
 				this = true
@@ -1621,11 +1626,6 @@ temp = function()
 		},
 		["咲"] = {
 			this = true
-		},
-		["王"] = {
-			["星"] = {
-				this = true
-			}
 		}
 	}
 end
@@ -4844,6 +4844,17 @@ temp = function()
 	uv0["茳"] = {
 		this = {
 			this = true
+		},
+		["·"] = {
+			M = {
+				E = {
+					T = {
+						A = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -7921,6 +7932,78 @@ end
 temp()
 
 temp = function()
+	uv0.B = {
+		L = {
+			A = {
+				C = {
+					K = {
+						["★"] = {
+							R = {
+								O = {
+									C = {
+										K = {
+											[" "] = {
+												S = {
+													H = {
+														O = {
+															O = {
+																T = {
+																	E = {
+																		R = {
+																			this = true,
+																			["（"] = {
+																				["后"] = {
+																					["排"] = {
+																						["）"] = {
+																							this = true
+																						}
+																					}
+																				},
+																				["前"] = {
+																					["排"] = {
+																						["）"] = {
+																							this = true
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["死"] = {
+		["亡"] = {
+			["主"] = {
+				["宰"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["兴"] = {
 		["登"] = {
 			["堡"] = {
@@ -8387,6 +8470,34 @@ temp = function()
 	uv0["夕"] = {
 		["烧"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0.D = {
+		E = {
+			A = {
+				D = {
+					[" "] = {
+						M = {
+							A = {
+								S = {
+									T = {
+										E = {
+											R = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end

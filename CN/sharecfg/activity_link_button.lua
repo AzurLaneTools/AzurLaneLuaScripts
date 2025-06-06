@@ -302,6 +302,20 @@ pg.activity_link_button = {
 			"firework and spring"
 		}
 	},
+	[109] = {
+		param = "BRSCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_brs",
+		type = 16,
+		pic = "event_brs",
+		id = 109,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			5985
+		}
+	},
 	get_id_list_by_name = {
 		event_all = {
 			1,
@@ -359,6 +373,9 @@ pg.activity_link_button = {
 		},
 		event_tolove = {
 			107
+		},
+		event_core = {
+			109
 		}
 	},
 	all = {
@@ -382,6 +399,7 @@ pg.activity_link_button = {
 		105,
 		106,
 		107,
-		108
+		108,
+		109
 	}
 }

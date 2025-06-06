@@ -50286,6 +50286,150 @@ _G.pg.base.ship_data_breakout[11100064] = {
 }
 
 
+_G.pg.base.ship_data_breakout[11200011] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1120001,
+	breakout_id = 11200012,
+	breakout_view = "主炮底座+1/主炮效率提高5%",
+	id = 11200011,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11200012] = {
+	use_gold = 3000,
+	pre_id = 11200011,
+	use_char_num = 1,
+	use_char = 1120001,
+	breakout_id = 11200013,
+	breakout_view = "副炮底座+2/主炮效率提高10%",
+	id = 11200012,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		101,
+		101,
+		101
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11200013] = {
+	use_gold = 10000,
+	pre_id = 11200012,
+	use_char_num = 2,
+	use_char = 1120001,
+	breakout_id = 11200014,
+	breakout_view = "主炮底座+1/主炮效率提高15%",
+	id = 11200013,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		44100,
+		44100,
+		44100
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11200014] = {
+	use_gold = 0,
+	pre_id = 11200013,
+	use_char_num = 0,
+	use_char = 1120001,
+	breakout_id = 0,
+	breakout_view = "无",
+	id = 11200014,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
+_G.pg.base.ship_data_breakout[11200021] = {
+	use_gold = 1000,
+	pre_id = 0,
+	use_char_num = 1,
+	use_char = 1120002,
+	breakout_id = 11200022,
+	breakout_view = "所有鱼雷机+1/舰载机效率提高3%",
+	id = 11200021,
+	icon = "10001",
+	level = 10,
+	use_item = {},
+	weapon_ids = {
+		61081,
+		54014
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11200022] = {
+	use_gold = 3000,
+	pre_id = 11200021,
+	use_char_num = 1,
+	use_char = 1120002,
+	breakout_id = 11200023,
+	breakout_view = "机库容量+1/所有战斗机+1/舰载机效率提高5%",
+	id = 11200022,
+	icon = "10001",
+	level = 30,
+	use_item = {},
+	weapon_ids = {
+		61082,
+		54014,
+		61082,
+		54014
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11200023] = {
+	use_gold = 10000,
+	pre_id = 11200022,
+	use_char_num = 2,
+	use_char = 1120002,
+	breakout_id = 11200024,
+	breakout_view = "所有舰载机+1/舰载机效率提高7%",
+	id = 11200023,
+	icon = "10001",
+	level = 70,
+	use_item = {},
+	weapon_ids = {
+		61083,
+		54015,
+		61083,
+		54015
+	}
+}
+
+
+_G.pg.base.ship_data_breakout[11200024] = {
+	use_gold = 0,
+	pre_id = 11200023,
+	use_char_num = 0,
+	use_char = 1120002,
+	breakout_id = 0,
+	breakout_view = "无",
+	id = 11200024,
+	icon = "10001",
+	level = 0,
+	use_item = {},
+	weapon_ids = {}
+}
+
+
 _G.pg.base.ship_data_breakout[299011] = {
 	use_gold = 0,
 	pre_id = 0,

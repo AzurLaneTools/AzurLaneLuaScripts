@@ -91,11 +91,6 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	onButton(slot0, slot0.btnBack, function ()
-		uv0:emit(uv1.ON_BACK)
-	end, SOUND_BACK)
-	slot0:updateEntrances()
-	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
 	slot0:bind(uv0.LOCK_ACT_MAIN, function (slot0, slot1)
 		uv0.locked = slot1
 
@@ -111,6 +106,11 @@ slot0.didEnter = function(slot0)
 		uv0:flushTabs()
 	end)
 	getProxy(CommanderManualProxy):TaskProgressAdd(2020, 1)
+	onButton(slot0, slot0.btnBack, function ()
+		uv0:emit(uv1.ON_BACK)
+	end, SOUND_BACK)
+	slot0:updateEntrances()
+	slot0:emit(ActivityMediator.SHOW_NEXT_ACTIVITY)
 end
 
 slot0.setPlayer = function(slot0, slot1)
@@ -129,9 +129,13 @@ slot0.updateTaskLayers = function(slot0)
 	slot0:updateActivity(slot0.activity)
 end
 
+slot0.getActClass = function(slot0, slot1)
+	return import("view.activity.subPages." .. slot1)
+end
+
 slot0.instanceActivityPage = function(slot0, slot1)
 	if slot1:getConfig("page_info").class_name and not slot0.pageDic[slot1.id] and not slot1:isEnd() then
-		if import("view.activity.subPages." .. slot2.class_name).New(slot0.pageContainer, slot0.event, slot0.contextData):UseSecondPage(slot1) then
+		if slot0:getActClass(slot2.class_name).New(slot0.pageContainer, slot0.event, slot0.contextData):UseSecondPage(slot1) then
 			slot4:SetUIName(slot2.ui_name2)
 		else
 			slot4:SetUIName(slot2.ui_name)
@@ -154,13 +158,14 @@ slot0.setActivities = function(slot0, slot1)
 
 	slot0.activity = nil
 
-	table.sort(slot0.activities, function (slot0, slot1)
-		if slot0:getShowPriority() == slot1:getShowPriority() then
-			return slot1.id < slot0.id
+	table.sort(slot0.activities, CompareFuncs({
+		function (slot0)
+			return -slot0:getShowPriority()
+		end,
+		function (slot0)
+			return -slot0.id
 		end
-
-		return slot3 < slot2
-	end)
+	}))
 	slot0:flushTabs()
 end
 
@@ -179,16 +184,17 @@ slot0.updateActivity = function(slot0, slot1)
 		slot1 = getProxy(ActivityProxy):getActivityById(ActivityConst.PageIdLink[slot1.id])
 	end
 
-	if slot1:isShow() and not slot1:isEnd() then
+	if slot1:isShow() and slot1:isCorePage(slot0.contextData.coreName or "") and not slot1:isEnd() then
 		slot0.activities[slot0:getActivityIndex(slot1.id) or #slot0.activities + 1] = slot1
 
-		table.sort(slot0.activities, function (slot0, slot1)
-			if slot0:getShowPriority() == slot1:getShowPriority() then
-				return slot1.id < slot0.id
+		table.sort(slot0.activities, CompareFuncs({
+			function (slot0)
+				return -slot0:getShowPriority()
+			end,
+			function (slot0)
+				return -slot0.id
 			end
-
-			return slot3 < slot2
-		end)
+		}))
 
 		if not slot0.pageDic[slot1.id] then
 			slot0:instanceActivityPage(slot1)

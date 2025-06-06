@@ -1875,6 +1875,11 @@ pg.player_resource = {
 		name = "xiaoaijier_pt",
 		itemid = 68081
 	},
+	[512] = {
+		id = 512,
+		name = "heiyan_pt",
+		itemid = 65620
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2129,6 +2134,11 @@ pg.player_resource = {
 		id = 3019,
 		name = "synchronize_dahuangfeng",
 		itemid = 21918
+	},
+	[3020] = {
+		id = 3020,
+		name = "synchronize_jiangfeng",
+		itemid = 21919
 	},
 	[3106] = {
 		id = 3106,
@@ -3436,6 +3446,9 @@ pg.player_resource = {
 		xiaoaijier_pt = {
 			511
 		},
+		heiyan_pt = {
+			512
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3588,6 +3601,9 @@ pg.player_resource = {
 		},
 		synchronize_dahuangfeng = {
 			3019
+		},
+		synchronize_jiangfeng = {
+			3020
 		},
 		twhongran_pt = {
 			3106
@@ -4074,6 +4090,7 @@ pg.player_resource = {
 		509,
 		510,
 		511,
+		512,
 		950,
 		951,
 		952,
@@ -4125,6 +4142,7 @@ pg.player_resource = {
 		3017,
 		3018,
 		3019,
+		3020,
 		3106,
 		3137,
 		4001,

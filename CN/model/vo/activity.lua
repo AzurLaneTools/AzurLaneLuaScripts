@@ -804,6 +804,10 @@ slot0.getShowPriority = function(slot0)
 	return slot0:getConfig("is_show")
 end
 
+slot0.isCorePage = function(slot0, slot1)
+	return slot0:getConfig("page_core") == slot1
+end
+
 slot0.left4Day = function(slot0)
 	if slot0.stopTime - pg.TimeMgr.GetInstance():GetServerTime() < 345600 then
 		return true

@@ -92,6 +92,15 @@ pg.activity_banner_notice = {
 			"holiday villa map"
 		}
 	},
+	{
+		id = 13,
+		param = {
+			"scene core activity",
+			{
+				coreName = "BRSCoreActivityUI"
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -104,6 +113,7 @@ pg.activity_banner_notice = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13
 	}
 }

@@ -39,7 +39,6 @@ slot0.OnLoad = function(slot0, slot1)
 		parent = slot0.live2dContainer
 	}), function (slot0)
 		uv0:AdJustOrderInLayer(slot0)
-		uv1()
 
 		if uv0._initTriggerAction then
 			for slot4, slot5 in ipairs(uv0._initTriggerAction) do
@@ -54,6 +53,8 @@ slot0.OnLoad = function(slot0, slot1)
 
 			uv0._initTriggerAction = nil
 		end
+
+		uv1()
 	end)
 	slot0.shipGroup = getProxy(CollectionProxy):getShipGroup(slot0.ship.groupId)
 
@@ -306,7 +307,6 @@ slot0.OnUpdateShip = function(slot0, slot1)
 end
 
 slot0.SetContainerVisible = function(slot0, slot1)
-	setActive(slot0.live2dContainer, slot1)
 end
 
 slot0.OnResume = function(slot0)

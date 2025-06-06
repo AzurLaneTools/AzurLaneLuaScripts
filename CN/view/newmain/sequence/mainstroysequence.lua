@@ -44,26 +44,26 @@ slot0.CollectCommanderStories = function(slot0, slot1)
 end
 
 slot0.CollectNpcStories = function(slot0, slot1)
-	slot3 = getProxy(TaskProxy)
+	for slot5, slot6 in ipairs(getGameset("act_npc_ship_id")[2]) do
+		if getProxy(ActivityProxy):getActivityById(slot6) and not slot7:isEnd() and slot7:getConfig("config_client").npc then
+			slot10 = slot8.npc[2]
 
-	if getProxy(ActivityProxy):getActivityById(ActivityConst.ACT_NPC_SHIP_ID) and not slot2:isEnd() and slot2:getConfig("config_client").npc then
-		slot6 = slot4.npc[2]
+			if slot8.npc[1] and slot9 ~= "" then
+				table.insert(slot1, slot9)
+			end
 
-		if slot4.npc[1] and slot5 ~= "" then
-			table.insert(slot1, slot5)
-		end
-
-		if slot6 and type(slot6) == "number" then
-			table.insert(slot1, function (slot0)
-				if (uv0:getTaskById(uv1) or uv0:getFinishTaskById(uv1)) and slot1:isFinish() and not slot1:isReceive() then
-					pg.m02:sendNotification(GAME.FETCH_NPC_SHIP, {
-						taskId = slot1.id,
-						callback = slot0
-					})
-				else
-					slot0()
-				end
-			end)
+			if slot10 and type(slot10) == "number" then
+				table.insert(slot1, function (slot0)
+					if getProxy(TaskProxy):getTaskVO(uv0) and slot1:isFinish() and not slot1:isReceive() then
+						pg.m02:sendNotification(GAME.FETCH_NPC_SHIP, {
+							taskId = slot1.id,
+							callback = slot0
+						})
+					else
+						slot0()
+					end
+				end)
+			end
 		end
 	end
 end

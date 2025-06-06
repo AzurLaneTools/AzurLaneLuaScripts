@@ -1831,5 +1831,9 @@ pg.voice_actor_CN = {
 	{
 		actor_name = "葛子瑞",
 		code = 458
+	},
+	{
+		actor_name = "花泽香菜",
+		code = 459
 	}
 }

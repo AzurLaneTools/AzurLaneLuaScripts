@@ -16,6 +16,7 @@ end
 slot0.InitBtns = function(slot0)
 	slot0.activityBtns = {
 		MainActSummaryBtn.New(slot0.actBtnTpl, slot0.event, true),
+		MainCoreActivityBtn.New(slot0.actBtnTpl, slot0.event, false),
 		MainActEscortBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActMapBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActBossBtn.New(slot0.actBtnTpl, slot0.event),

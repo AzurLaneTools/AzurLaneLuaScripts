@@ -364,23 +364,23 @@ slot0.GetShareGroupIds = function(slot0)
 end
 
 slot0.GetAllChangeSkinIds = function(slot0)
-	if not ShipSkin.GetChangeSkinMainId(slot0) then
+	if not uv0.GetChangeSkinMainId(slot0) then
 		return {
 			slot0
 		}
 	end
 
 	slot2 = {
-		ShipSkin.GetChangeSkinMainId(slot0)
+		uv0.GetChangeSkinMainId(slot0)
 	}
 	slot3 = slot0
 
 	for slot7 = 1, 10 do
-		if not table.contains(slot2, ShipSkin.GetChangeSkinNextId(slot3)) then
+		if not table.contains(slot2, uv0.GetChangeSkinNextId(slot3)) then
 			table.insert(slot2, slot8)
 		end
 
-		if ShipSkin.GetChangeSkinIndex(slot8) == 1 then
+		if uv0.GetChangeSkinIndex(slot8) == 1 then
 			return slot2
 		end
 	end
@@ -389,7 +389,7 @@ slot0.GetAllChangeSkinIds = function(slot0)
 end
 
 slot0.IsChangeSkin = function(slot0)
-	return table.contains(pg.ship_skin_template[slot0].tag, ShipSkin.WITH_CHANGE)
+	return table.contains(pg.ship_skin_template[slot0].tag, uv0.WITH_CHANGE)
 end
 
 slot0.GetChangeSkinMainId = function(slot0)
@@ -397,23 +397,8 @@ slot0.GetChangeSkinMainId = function(slot0)
 		return slot0
 	end
 
-	slot1 = pg.ship_skin_template[slot0].ship_group
-	slot2 = uv0.GetChangeSkinGroupId(slot0)
-
-	if uv0.GetChangeSkinIndex(slot0) == 1 then
-		return slot0
-	end
-
-	for slot8, slot9 in ipairs(ShipSkin.GetAllSkinByGroup(slot1)) do
-		if uv0.IsChangeSkin(slot9.id) then
-			slot11 = uv0.GetChangeSkinIndex(slot9.id)
-
-			if uv0.GetChangeSkinGroupId(slot9.id) == slot2 and slot11 == 1 then
-				print("获得到了skinId :" .. slot0 .. " 的A面皮肤id" .. slot9.id)
-
-				return slot9.id
-			end
-		end
+	while uv0.GetChangeSkinIndex(slot0) ~= 1 do
+		slot0 = uv0.GetChangeSkinNextId(slot0)
 	end
 
 	return slot0
@@ -436,7 +421,7 @@ slot0.IsSameChangeSkinGroup = function(slot0, slot1)
 		return false
 	end
 
-	return ShipSkin.GetChangeSkinGroupId(slot0) == ShipSkin.GetChangeSkinGroupId(slot1)
+	return uv0.GetChangeSkinGroupId(slot0) == uv0.GetChangeSkinGroupId(slot1)
 end
 
 slot0.GetChangeSkinGroupId = function(slot0)

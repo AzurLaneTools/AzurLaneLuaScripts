@@ -15793,6 +15793,37 @@ _G.pg.base.item_data_statistics[21048] = {
 }
 
 
+_G.pg.base.item_data_statistics[21049] = {
+	open_directly = 0,
+	name = "结晶：{namecode:300}",
+	type = 4,
+	display = "{namecode:300}的专用性能提升装置，可在「META研究室」-「能量激活」中使用。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21049",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21049,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "结晶化热强钢",
@@ -16464,6 +16495,37 @@ _G.pg.base.item_data_statistics[21918] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21918,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21919] = {
+	open_directly = 0,
+	name = "同步值：{namecode:300}",
+	type = 4,
+	display = "于「信标·META」战斗中收集的数据，可以提升{namecode:300}同步率。",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21919",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21919,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -28320,6 +28382,53 @@ _G.pg.base.item_data_statistics[30428] = {
 		{
 			9,
 			2100,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30429] = {
+	open_directly = 1,
+	name = "死亡的支配者",
+	type = 11,
+	display = "可以获得死亡的支配者（鱼雷）、死亡的支配者（战斗）、死亡的支配者（轰炸）外观装备各一件",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/97032",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906206",
+	id = 30429,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1472,
+			1
+		},
+		{
+			9,
+			1473,
+			1
+		},
+		{
+			9,
+			1474,
 			1
 		}
 	},

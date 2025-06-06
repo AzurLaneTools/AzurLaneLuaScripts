@@ -5273,7 +5273,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信标·META功能说明
 
-1. <color=#92fc63>2025.3.13-2025.6.5</color>期间限时开放「大黄蜂·META」的挑战，在此期间指挥官可挑战「大黄蜂·META」累计其同步值获取<color=#92fc63>「大黄蜂·META」角色</color>及其他丰厚奖励
+1. <color=#92fc63>2025.6.5-2025.9.4</color>期间限时开放「{namecode:300}」的挑战，在此期间指挥官可挑战「{namecode:300}」累计其同步值获取<color=#92fc63>「{namecode:300}」角色</color>及其他丰厚奖励
 <color=#ff5c5c>注意：同步值将于时间结束后消失</color>
 
 2.「信标数据」获取与解析
@@ -5294,7 +5294,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·同一个信标最多能允许累计30位指挥官进行挑战
 
 5.战斗说明
-·挑战信标大黄蜂·META暂不可使用指挥喵与潜艇
+·挑战信标{namecode:300}暂不可使用指挥喵与潜艇
 ·战斗结算时不会获得经验值，不会影响舰船心情值
 ·战斗中不可中途退出，如果出现网络波动导致掉线的情况：
 ①挑战自己解析的信标时将会消耗40点石油(非第一次挑战)，且不会计算已造成的伤害
@@ -5302,8 +5302,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
  <color=#92fc63>请在参与作战时保持网络环境畅通</color>
 
 6.火力支援
-随着信标大黄蜂·META挑战的进行，从第31天开始，即2025.4.13~2025.6.5期间，舰队挑战「大黄蜂·META」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标大黄蜂·META开放的日期增加，火力支援提供的伤害也会增加。
-※此支援只会在指挥官自己发现的信标大黄蜂·META战斗中出现，每次挑战均会触发。]]
+随着信标{namecode:300}挑战的进行，从第31天开始，即2025.7.6~2025.9.4期间，舰队挑战「{namecode:300}」时将会获得一次额外火力支援。火力支援会对敌人造成伤害，并为敌人施加一个持续伤害的特殊状态（不受任何加成效果影响）。随着本期信标{namecode:300}开放的日期增加，火力支援提供的伤害也会增加。
+※此支援只会在指挥官自己发现的信标{namecode:300}战斗中出现，每次挑战均会触发。]]
 		}
 	}
 }
@@ -6417,6 +6417,11 @@ _G.pg.base.gametip.word_shipNation_tolove = {
 
 _G.pg.base.gametip.word_shipNation_yujinwangguo = {
 	tip = "郁金王国"
+}
+
+
+_G.pg.base.gametip.word_shipNation_brs = {
+	tip = "BLACK★ROCK SHOOTER"
 }
 
 
@@ -21415,9 +21420,9 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 1.<color=#92fc63>资讯同步</color>
-·<color=#92fc63>2025.3.13-2025.6.5</color>期间限时开放「大黄蜂·META」的「资讯同步」，通过「信标大黄蜂·META」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「大黄蜂·META」角色</color>
+·<color=#92fc63>2025.6.5-2025.9.4</color>期间限时开放「{namecode:300}」的「资讯同步」，通过「信标{namecode:300}」战斗获取其同步值，达到一定同步值可以获取<color=#92fc63>「{namecode:300}」角色</color>
 ·获得META角色后可以通过角色的<color=#92fc63>「资讯同步」</color>模块在<color=#92fc63>上述时间</color>内继续获取包含养成材料在内的丰厚奖励
-·注意：<color=#ff5c5c>「大黄蜂·META」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
+·注意：<color=#ff5c5c>「{namecode:300}」的「资讯同步」将于时间结束后暂时关闭,已累计的同步值也会消失。</color>
 
 2.<color=#92fc63>能量激活</color>
 ·META角色达到指定等级后可以使用对应的角色结晶进行激活。激活后可以提升角色星级
@@ -38698,4 +38703,29 @@ _G.pg.base.gametip.littleaijier_npc = {
 			info = "7.npc角色无法参与大舰队作战中的事件派遣、攻坚队和首领战。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.brs_main_tip = {
+	tip = "期间参与活动，获得限定奖励"
+}
+
+
+_G.pg.base.gametip.brs_expedition_tip = {
+	tip = "活动期间完成挑战关，可获得限定奖励"
+}
+
+
+_G.pg.base.gametip.brs_dmact_tip = {
+	tip = "累计击沉敌人"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_1 = {
+	tip = "获取途径"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_2 = {
+	tip = "前往"
 }
