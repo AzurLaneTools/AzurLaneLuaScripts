@@ -1,165 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102053] = {
-		name = "Shimmering Triangle Wave",
-		change_skin = "",
-		bg_sp = "",
-		desc = "Commander, what do you think... umm... about this swimsuit? Actually, umm, never mind. If I were to hear your impressions directly, I'd be too embarrassed to stand in front of you... So, would you mind, umm... secretly whispering it to me?",
-		illustrator2 = -1,
-		ship_group = 10205,
-		group_index = 3,
-		painting = "hailunna_4",
-		prefab = "hailunna_4",
-		hand_id = 13,
-		shop_type_id = 6,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		bg = "133",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 0,
-		get_showing = "",
-		id = 102053,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70898,
-		voice_actor = 34,
-		spine_offset = "",
-		illustrator = 7,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			175,
-			-60.5,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.06,
-					0.975,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.029,
-					1.029,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.045,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.627,
-							2.291,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-15,
-				15
-			},
-			ParamAngleY = {
-				-15,
-				15
-			},
-			ParamBodyAngleX = {
-				-8,
-				8
-			},
-			ParamBodyAngleY = {
-				-8,
-				8
-			},
-			ParamEyeBallX = {
-				-0.4,
-				0.2
-			},
-			ParamEyeBallY = {
-				-0.4,
-				0.4
-			}
-		},
-		ship_l2d_id = {
-			1020531,
-			1020532,
-			1020533
-		},
-		l2d_drag_rate = {
-			0.5,
-			0.5,
-			0.5
-		}
-	},
 	[102058] = {
 		name = "Miracle in White",
 		change_skin = "",
@@ -14038,6 +13879,131 @@ pg.base.ship_skin_template_2 = {
 			1031651
 		}
 	},
+	[103168] = {
+		name = "When the Breeze Blows",
+		change_skin = "",
+		bg_sp = "",
+		desc = "The scenery is even prettier on days like today... Huh? What do I mean? I mean our w-wedding, obviously... Ugh, quit teasing me already!",
+		illustrator2 = -1,
+		ship_group = 10316,
+		group_index = 8,
+		painting = "baerdimo_h",
+		prefab = "baerdimo_h",
+		hand_id = 13,
+		shop_type_id = 9998,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		bg = "530",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 1,
+		get_showing = "",
+		id = 103168,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 191,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.955,
+							2.152,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			1031651
+		}
+	},
 	[103240] = {
 		name = "Bremerton",
 		change_skin = "",
@@ -14253,6 +14219,137 @@ pg.base.ship_skin_template_2 = {
 						}
 					}
 				}
+			}
+		}
+	},
+	[103242] = {
+		name = "Kung Fu Cruiser",
+		change_skin = "",
+		bg_sp = "1102",
+		desc = "\"Stop right there, evildoers! You've managed to evade justice all this time, but the hour of judgment is finally upon you!\" ...Hmm, making the perfect flashy debut is pretty tough, isn't it?",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 2,
+		painting = "bulaimodun_4",
+		prefab = "bulaimodun_4",
+		hand_id = 13,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "144",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		get_showing = "",
+		id = 103242,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70482,
+		voice_actor = 134,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.371,
+					1.01,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.383,
+					0.998,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.006,
+					-0.012,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.491,
+							2.587,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			login = 2.17
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-10,
+				10
 			}
 		}
 	}

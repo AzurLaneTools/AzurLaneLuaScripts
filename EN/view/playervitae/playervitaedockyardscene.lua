@@ -19,8 +19,10 @@ slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.selectedMarks = {}
+	slot1 = ipairs
+	slot2 = slot0.contextData.selectedMarks or {}
 
-	for slot4, slot5 in ipairs(slot0.contextData.selectedMarks) do
+	for slot4, slot5 in slot1(slot2) do
 		slot6, slot7 = ShipPhantom.UnpackMark(slot5)
 
 		if slot7 == 0 then

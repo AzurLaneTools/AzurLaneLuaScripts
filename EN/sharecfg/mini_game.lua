@@ -3350,6 +3350,51 @@ pg.mini_game = {
 		hub_id = 45,
 		request_data = 1
 	},
+	[1019] = {
+		is_ranking = 0,
+		view_name = "GameRoomRopingCowView",
+		game_room = 18,
+		type = 1,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		simple_config_data = "",
+		config_data = "",
+		name = "小游戏厅啾啾牛仔",
+		config_csv = "",
+		id = 1019,
+		hub_id = 45,
+		request_data = 1
+	},
+	[1020] = {
+		is_ranking = 0,
+		view_name = "GameRoomCurlingView",
+		game_room = 19,
+		type = 1,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		simple_config_data = "",
+		config_data = "",
+		name = "小游戏厅啾啾冰壶战",
+		config_csv = "",
+		id = 1020,
+		hub_id = 45,
+		request_data = 1
+	},
+	[1021] = {
+		is_ranking = 0,
+		view_name = "GameRoomFushun3View",
+		game_room = 20,
+		type = 1,
+		mediator_name = "MiniHubMediator",
+		config_csv_key = "",
+		simple_config_data = "",
+		config_data = "",
+		name = "小游戏厅大冒险3",
+		config_csv = "",
+		id = 1021,
+		hub_id = 45,
+		request_data = 1
+	},
 	all = {
 		1,
 		2,
@@ -3445,6 +3490,9 @@ pg.mini_game = {
 		1015,
 		1016,
 		1017,
-		1018
+		1018,
+		1019,
+		1020,
+		1021
 	}
 }

@@ -28682,3 +28682,327 @@ _G.pg.base.spweapon_data_statistics[14130] = {
 		}
 	}
 }
+
+
+_G.pg.base.spweapon_data_statistics[14240] = {
+	attribute_1 = "cannon",
+	name = "Rock Cannon",
+	type = 6,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 112040,
+	value_2_random = 0,
+	effect_id = 112040,
+	attribute_2 = "hit",
+	next = 14241,
+	upgrade_id = 10001,
+	value_2 = 10,
+	icon = "14240",
+	value_1 = 25,
+	level = 1,
+	descrip = "BLACK★ROCK SHOOTER's Augment Module",
+	uncraftable = 1,
+	unique = 1120001,
+	important = 2,
+	prev = 0,
+	id = 14240,
+	usability = {
+		4
+	},
+	skill_upgrade = {
+		{
+			0,
+			112020
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14241] = {
+	upgrade_id = 10002,
+	prev = 14240,
+	next = 14242,
+	base = 14240,
+	id = 14241,
+	value_2 = 11,
+	value_1 = 26,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14242] = {
+	upgrade_id = 10003,
+	prev = 14241,
+	next = 14243,
+	base = 14240,
+	id = 14242,
+	value_2 = 12,
+	value_1 = 27,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14243] = {
+	upgrade_id = 10004,
+	prev = 14242,
+	next = 14244,
+	base = 14240,
+	id = 14243,
+	value_2 = 13,
+	value_1 = 28,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14244] = {
+	upgrade_id = 10005,
+	prev = 14243,
+	next = 14245,
+	base = 14240,
+	id = 14244,
+	value_2 = 14,
+	value_1 = 29,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14245] = {
+	upgrade_id = 10006,
+	prev = 14244,
+	next = 14246,
+	base = 14240,
+	id = 14245,
+	value_2 = 15,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14246] = {
+	upgrade_id = 10007,
+	prev = 14245,
+	next = 14247,
+	base = 14240,
+	id = 14246,
+	value_2 = 16,
+	value_1 = 31,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14247] = {
+	upgrade_id = 10008,
+	prev = 14246,
+	next = 14248,
+	base = 14240,
+	id = 14247,
+	value_2 = 17,
+	value_1 = 32,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14248] = {
+	upgrade_id = 10009,
+	prev = 14247,
+	next = 14249,
+	base = 14240,
+	id = 14248,
+	value_2 = 18,
+	value_1 = 33,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14249] = {
+	upgrade_id = 10010,
+	prev = 14248,
+	next = 14250,
+	base = 14240,
+	id = 14249,
+	value_2 = 19,
+	value_1 = 34,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14250] = {
+	id = 14250,
+	upgrade_id = 10011,
+	base = 14240,
+	next = 0,
+	prev = 14249,
+	value_2 = 20,
+	value_1 = 35,
+	level = 11,
+	skill_upgrade = {
+		{
+			112010,
+			112020
+		}
+	}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14260] = {
+	attribute_1 = "air",
+	name = "Dead Scythe",
+	type = 7,
+	tech = 0,
+	value_1_random = 0,
+	rarity = 4,
+	effect_id_display = 112080,
+	value_2_random = 0,
+	effect_id = 112080,
+	attribute_2 = "hit",
+	next = 14261,
+	upgrade_id = 10001,
+	value_2 = 5,
+	icon = "14260",
+	value_1 = 20,
+	level = 1,
+	descrip = "BLACK★ROCK SHOOTER's Augment Module",
+	uncraftable = 1,
+	unique = 1120002,
+	important = 2,
+	prev = 0,
+	id = 14260,
+	usability = {
+		7
+	},
+	skill_upgrade = {
+		{
+			0,
+			112070
+		}
+	},
+	label = {}
+}
+
+
+_G.pg.base.spweapon_data_statistics[14261] = {
+	upgrade_id = 10002,
+	prev = 14260,
+	next = 14262,
+	base = 14260,
+	id = 14261,
+	value_2 = 6,
+	value_1 = 22,
+	level = 2
+}
+
+
+_G.pg.base.spweapon_data_statistics[14262] = {
+	upgrade_id = 10003,
+	prev = 14261,
+	next = 14263,
+	base = 14260,
+	id = 14262,
+	value_2 = 7,
+	value_1 = 24,
+	level = 3
+}
+
+
+_G.pg.base.spweapon_data_statistics[14263] = {
+	upgrade_id = 10004,
+	prev = 14262,
+	next = 14264,
+	base = 14260,
+	id = 14263,
+	value_2 = 8,
+	value_1 = 26,
+	level = 4
+}
+
+
+_G.pg.base.spweapon_data_statistics[14264] = {
+	upgrade_id = 10005,
+	prev = 14263,
+	next = 14265,
+	base = 14260,
+	id = 14264,
+	value_2 = 9,
+	value_1 = 28,
+	level = 5
+}
+
+
+_G.pg.base.spweapon_data_statistics[14265] = {
+	upgrade_id = 10006,
+	prev = 14264,
+	next = 14266,
+	base = 14260,
+	id = 14265,
+	value_2 = 10,
+	value_1 = 30,
+	level = 6
+}
+
+
+_G.pg.base.spweapon_data_statistics[14266] = {
+	upgrade_id = 10007,
+	prev = 14265,
+	next = 14267,
+	base = 14260,
+	id = 14266,
+	value_2 = 11,
+	value_1 = 32,
+	level = 7
+}
+
+
+_G.pg.base.spweapon_data_statistics[14267] = {
+	upgrade_id = 10008,
+	prev = 14266,
+	next = 14268,
+	base = 14260,
+	id = 14267,
+	value_2 = 12,
+	value_1 = 34,
+	level = 8
+}
+
+
+_G.pg.base.spweapon_data_statistics[14268] = {
+	upgrade_id = 10009,
+	prev = 14267,
+	next = 14269,
+	base = 14260,
+	id = 14268,
+	value_2 = 13,
+	value_1 = 36,
+	level = 9
+}
+
+
+_G.pg.base.spweapon_data_statistics[14269] = {
+	upgrade_id = 10010,
+	prev = 14268,
+	next = 14270,
+	base = 14260,
+	id = 14269,
+	value_2 = 14,
+	value_1 = 38,
+	level = 10
+}
+
+
+_G.pg.base.spweapon_data_statistics[14270] = {
+	id = 14270,
+	upgrade_id = 10011,
+	base = 14260,
+	next = 0,
+	prev = 14269,
+	value_2 = 15,
+	value_1 = 40,
+	level = 11,
+	skill_upgrade = {
+		{
+			112060,
+			112070
+		}
+	}
+}

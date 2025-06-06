@@ -7,6 +7,7 @@ slot0.OPEN_COMMISION = "NewMainMediator:OPEN_COMMISION"
 slot0.OPEN_CHATVIEW = "NewMainMediator:OPEN_CHATVIEW"
 slot0.SKIP_SCENE = "NewMainMediator:SKIP_SCENE"
 slot0.SKIP_ACTIVITY = "NewMainMediator:SKIP_ACTIVITY"
+slot0.SKIP_CORE_ACTIVITY = "NewMainMediator:SKIP_CORE_ACTIVITY"
 slot0.SKIP_SHOP = "NewMainMediator:SKIP_SHOP"
 slot0.GO_MINI_GAME = "NewMainMediator:GO_MINI_GAME"
 slot0.SKIP_ACTIVITY_MAP = "NewMainMediator:SKIP_ACTIVITY_MAP"
@@ -84,6 +85,11 @@ slot0.register = function(slot0)
 	slot0:bind(uv0.SKIP_ACTIVITY, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, SCENE.ACTIVITY, {
 			id = slot1
+		})
+	end)
+	slot0:bind(uv0.SKIP_CORE_ACTIVITY, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.CORE_ACTIVITY, {
+			coreName = slot1
 		})
 	end)
 	slot0:bind(uv0.SKIP_SCENE, function (slot0, slot1)

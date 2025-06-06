@@ -682,6 +682,7 @@ slot0.Ctor = function(slot0, slot1)
 		slot0:updateSkinId(slot11.value, slot11.key)
 	end
 
+	slot0.noChangeSkin = slot1.noChangeSkin or false
 	slot0.phantomRandomFlag = {}
 	slot7 = ipairs
 	slot8 = slot1.char_random_flag or {}
@@ -770,8 +771,10 @@ slot0.isBluePrintShip = function(slot0)
 end
 
 slot0.getSkinId = function(slot0, slot1)
-	if ShipSkin.GetChangeSkinGroupId(slot0:getPhandomSkin(slot1 or 0)) and ShipSkin.GetStoreChangeSkinId(slot3) then
-		return slot4
+	slot2 = slot0:getPhandomSkin(slot1 or 0)
+
+	if not slot0.noChangeSkin and ShipSkin.IsChangeSkin(slot2) and ShipSkin.GetStoreChangeSkinId(ShipSkin.GetChangeSkinGroupId(slot2)) then
+		return slot3
 	end
 
 	return slot2

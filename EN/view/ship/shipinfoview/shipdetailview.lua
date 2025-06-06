@@ -729,6 +729,16 @@ slot0.quickSelectEmpty = function(slot0)
 	end
 end
 
+slot0.Show = function(slot0)
+	uv0.super.Show(slot0)
+	setActive(slot0.randomFlagToggle, true)
+end
+
+slot0.Hide = function(slot0)
+	uv0.super.Hide(slot0)
+	setActive(slot0.randomFlagToggle, false)
+end
+
 slot3 = 0.2
 
 slot0.displayRecordPanel = function(slot0)

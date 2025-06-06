@@ -2860,6 +2860,24 @@ pg.skill_data_display = setmetatable({
 		111171,
 		111180,
 		111181,
+		112011,
+		112012,
+		112021,
+		112022,
+		112031,
+		112032,
+		112033,
+		112041,
+		112051,
+		112052,
+		112061,
+		112062,
+		112063,
+		112070,
+		112071,
+		112072,
+		112073,
+		112074,
 		200026,
 		200203,
 		600031,
@@ -3377,6 +3395,9 @@ pg.skill_data_display = setmetatable({
 		201384,
 		201385,
 		201419,
+		201420,
+		201426,
+		201454,
 		1011540,
 		1011541,
 		1090010,
@@ -15002,6 +15023,78 @@ pg.base.skill_data_display = {
 		id = 111181,
 		name = "Overbearing Outside, Softie Inside"
 	},
+	[112011] = {
+		id = 112011,
+		name = "Transcend Worlds - Limit Released"
+	},
+	[112012] = {
+		id = 112012,
+		name = "Transcend Worlds - Limit Released"
+	},
+	[112021] = {
+		id = 112021,
+		name = "Transcend Worlds - Limit Released+"
+	},
+	[112022] = {
+		id = 112022,
+		name = "Transcend Worlds - Limit Released+"
+	},
+	[112031] = {
+		id = 112031,
+		name = "Heart of Faith"
+	},
+	[112032] = {
+		id = 112032,
+		name = "Heart of Faith"
+	},
+	[112033] = {
+		id = 112033,
+		name = "Heart of Faith"
+	},
+	[112041] = {
+		id = 112041,
+		name = "★Rock Fire"
+	},
+	[112051] = {
+		id = 112051,
+		name = "Death's Domain - Imprisoning Chains"
+	},
+	[112052] = {
+		id = 112052,
+		name = "Death's Domain - Imprisoning Chains"
+	},
+	[112061] = {
+		id = 112061,
+		name = "Trial of Death"
+	},
+	[112062] = {
+		id = 112062,
+		name = "Trial of Death"
+	},
+	[112063] = {
+		id = 112063,
+		name = "Trial of Death"
+	},
+	[112070] = {
+		id = 112070,
+		name = "Trial of Death+"
+	},
+	[112071] = {
+		id = 112071,
+		name = "Trial of Death+"
+	},
+	[112072] = {
+		id = 112072,
+		name = "Trial of Death+"
+	},
+	[112073] = {
+		id = 112073,
+		name = "Trial of Death+"
+	},
+	[112074] = {
+		id = 112074,
+		name = "Trial of Death+"
+	},
 	[200026] = {
 		id = 200026,
 		name = "Paralyzing Advance "
@@ -17069,6 +17162,18 @@ pg.base.skill_data_display = {
 	[201419] = {
 		id = 201419,
 		name = "Support – Queen's Light"
+	},
+	[201420] = {
+		id = 201420,
+		name = "Nitouryuu - Sunset Glow"
+	},
+	[201426] = {
+		id = 201426,
+		name = "Shadows of the Past"
+	},
+	[201454] = {
+		id = 201454,
+		name = "Transcend Worlds - Limit Released"
 	},
 	[1011540] = {
 		id = 1011540,

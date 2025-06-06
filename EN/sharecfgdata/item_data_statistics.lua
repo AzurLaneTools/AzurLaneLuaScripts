@@ -15425,6 +15425,37 @@ _G.pg.base.item_data_statistics[21048] = {
 }
 
 
+_G.pg.base.item_data_statistics[21049] = {
+	open_directly = 0,
+	name = "META Crystal – Kawakaze META",
+	type = 4,
+	display = "An item that increases the potential of Kawakaze META. Used in the META Lab during Somatic Activation.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21049",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21049,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "Crystallized Heat-Resistant Steel",
@@ -16096,6 +16127,37 @@ _G.pg.base.item_data_statistics[21918] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21918,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21919] = {
+	open_directly = 0,
+	name = "Synchronization Point – Kawakaze META",
+	type = 4,
+	display = "Sync Points for Kawakaze META.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21919",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21919,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -27794,6 +27856,53 @@ _G.pg.base.item_data_statistics[30428] = {
 		{
 			9,
 			2100,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30429] = {
+	open_directly = 1,
+	name = "Master of Death",
+	type = 11,
+	display = "You may receive one each of the gear skins Master of Death (Fighter), Master of Death (Torpedo), and Master of Death (Bomber).",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/97032",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906206",
+	id = 30429,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1472,
+			1
+		},
+		{
+			9,
+			1473,
+			1
+		},
+		{
+			9,
+			1474,
 			1
 		}
 	},

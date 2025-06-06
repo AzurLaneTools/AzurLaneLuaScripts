@@ -331,7 +331,10 @@ pg.ship_skin_words_extra = setmetatable({
 		202350,
 		202360,
 		403160,
-		207055
+		207055,
+		11200010,
+		11200020,
+		103160
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23218,6 +23221,220 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Heehee. Commandeeer...♡"
+			}
+		}
+	},
+	[11200010] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 11200010,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"Good morning, Commander. I noticed your presence and came to greet you."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"May your eyes forever look back upon this victory."
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Witness how BLACK★ROCK SHOOTER fights."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I fight alone... but in this world, you all work together. I don't consider that a bad thing."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"The port is so close to the battlefield, but it has a peaceful atmosphere... How strange. How much of that is thanks to your power?|Everyone here is strong. Being here has made me stronger, too. Being able to use my power productively... makes me happy.|If you're worried about something, then come to me. I'm sure that my powers can help with any obstacle in your way.|You're interested in my ★Rock Cannon? If you can improve it, then that would be a great help."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"Is there any way... I can help with your work?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"You finished your work without my notice. Well done."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"I feel your warmth. So this... is existence."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Many of the stories in this world have so-called \"happy endings.\" That is proof of the people's wishes, and I want to see that world made – by your side."
+			}
+		}
+	},
+	[11200020] = {
+		touch = "",
+		feeling3 = "",
+		upgrade = "",
+		expedition = "",
+		home = "",
+		id = 11200020,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		headtouch = "",
+		feeling2 = "",
+		login = {
+			{
+				1100,
+				"You've returned. Oh, don't mind me. I came out to see you because I wanted to."
+			}
+		},
+		win_mvp = {
+			{
+				1100,
+				"I thought I would experience the same conflict and same resolution for all time, but now I want a different future for myself... When did I become such a bad girl?"
+			}
+		},
+		battle = {
+			{
+				1100,
+				"Let's begin the battle, shall we?"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Am I just a boat drifting along with the world's rhythm? If so... maybe your existence is one of its verses."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"My connection with her will never be severed, but surely there's nothing wrong with resting my legs once in a while, right?|The battles here are ceaseless... I can tell. So be careful, ever so careful...|Just so you know, our fight is similar but different from yours. But for some reason, you and I are connected now... so I'm just helping you out a little."
+			}
+		},
+		mission = {
+			{
+				1100,
+				"This task isn't finished, and neither is this one! Goodness, what am I going to do with you?"
+			}
+		},
+		mission_complete = {
+			{
+				1100,
+				"Hmm? You finished all your work just like that? Well, you're pretty good at this."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"So? Do you feel something? Yes... I'm warm, aren't I?"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I thought I would experience the same conflict and same resolution for all time, but now I want a different future for myself... When did I become such a bad girl?"
+			}
+		}
+	},
+	[103160] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 103160,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Time to get to work, Commander! Come on, let's get productive! I'll help you out!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Let me take a look at you... Nice! Glad to see you're not hurt. Take me with you on your next mission, alright?"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Touch me all you want!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"You processed all of those documents in just half a day's work? Wow... You're something else. I gotta try harder."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I'm happy to do anything you wanna do. As your, uhh... Gah, I still can't say it!|The weather's nice. Wanna go out and get some exercise? Staying in your office all day is bad for you.|Bremerton recommended a few nice snack bars to me... Say, what if we went together? If you can't leave right now, I could pick some up for you."
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Hmm... Nah, I just can't take coffee. Here's your drink back. I'll stick to my Oxy-cola... Ahhh, that's the good stuff!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Eep?! I-I still can't get used to that..."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Phew... I'm tired, Commander. Let me lean on you... Hm? Am I getting too relaxed around you? I-I mean, we're married, and all! Now you're getting me all nervous again..."
 			}
 		}
 	}

@@ -228,6 +228,8 @@ pg.memory_group = setmetatable({
 		328,
 		329,
 		330,
+		331,
+		332,
 		501,
 		502,
 		503,
@@ -5623,6 +5625,35 @@ pg.base.memory_group = {
 		group_id = "",
 		memories = {
 			4417
+		}
+	},
+	[331] = {
+		title = "Illusory Drifters",
+		subtype = 2,
+		link_event = 5985,
+		type = 2,
+		id = 331,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4431,
+			4432,
+			4433,
+			4434,
+			4435
+		}
+	},
+	[332] = {
+		title = "Illusory Drifters - Warm Welcome",
+		subtype = 2,
+		link_event = 5985,
+		type = 2,
+		id = 332,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4421,
+			4422
 		}
 	},
 	[501] = {

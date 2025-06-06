@@ -30,6 +30,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701072,
 		9701073,
 		9701074,
+		9701081,
+		9701082,
+		9701083,
+		9701084,
 		9702011,
 		9702012,
 		9702013,
@@ -636,6 +640,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9701074,
 		item1 = 21047,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9701081] = {
+		breakout_view = "Unlock Smoldering Core - Kawakaze/Torpedo efficiency +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9701082,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701081,
+		item1 = 21049,
+		level = 10,
+		weapon_ids = {
+			170791
+		}
+	},
+	[9701082] = {
+		breakout_view = "Torpedo base +1/Torpedo preload +1/Torpedo efficiency +10%",
+		item2 = 21001,
+		pre_id = 9701081,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9701083,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701082,
+		item1 = 21049,
+		level = 30,
+		weapon_ids = {
+			107,
+			107
+		}
+	},
+	[9701083] = {
+		breakout_view = "Improve Smoldering Core - Kawakaze/All weapons' efficiency +5%",
+		item2 = 21001,
+		pre_id = 9701082,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9701084,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701083,
+		item1 = 21049,
+		level = 70,
+		weapon_ids = {
+			170792
+		}
+	},
+	[9701084] = {
+		breakout_view = "None",
+		item2 = 21001,
+		pre_id = 9701083,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701084,
+		item1 = 21049,
 		level = 0,
 		weapon_ids = {}
 	},

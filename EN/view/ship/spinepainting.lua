@@ -408,6 +408,10 @@ slot0.SetAction = function(slot0, slot1, slot2, slot3)
 		return false
 	end
 
+	if slot2 and slot2 == 0 then
+		slot0.lastPlayAction = slot1
+	end
+
 	if slot2 == 0 and slot1 ~= slot0:getIdleName() then
 		slot0.inAction = true
 	end
@@ -435,6 +439,10 @@ slot0.ablePlayAction = function(slot0, slot1, slot2, slot3)
 	end
 
 	if slot0.lockLayer and not slot2 and slot0.inAction and slot3 and slot3 > 0 then
+		return false
+	end
+
+	if slot0.lastPlayAction and slot0.lastPlayAction ~= slot0._idleName and slot3 and slot3 > 0 then
 		return false
 	end
 

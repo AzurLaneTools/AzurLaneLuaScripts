@@ -3,19 +3,17 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp1",
+		pic = "temp3",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
-					5,
-					29
+					6,
+					5
 				},
 				{
 					0,
@@ -27,7 +25,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					11
+					18
 				},
 				{
 					23,
@@ -40,17 +38,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp6",
+		pic = "temp4",
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2025,
-					5,
-					29
+					6,
+					5
 				},
 				{
 					0,
@@ -62,7 +62,71 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					11
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "BRSCoreActivityUI",
+		type = 16,
+		id = 3,
+		pic = "temp5",
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5990",
+		type = 3,
+		id = 4,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					18
 				},
 				{
 					23,
@@ -74,17 +138,17 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
-		pic = "temp7",
+		id = 5,
+		pic = "temp8",
 		param = {
-			"crusing"
+			"equip transform"
 		},
 		time = {
 			{
 				{
 					2025,
 					6,
-					1
+					5
 				},
 				{
 					0,
@@ -96,7 +160,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					11
+					18
 				},
 				{
 					23,
@@ -107,16 +171,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5981",
-		type = 3,
-		id = 4,
-		pic = "temp8",
+		type = 2,
+		id = 6,
+		pic = "temp9",
+		param = {
+			"game hall"
+		},
 		time = {
 			{
 				{
 					2025,
-					5,
-					29
+					6,
+					5
 				},
 				{
 					0,
@@ -128,7 +194,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					11
+					18
 				},
 				{
 					23,
@@ -139,10 +205,15 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5979",
-		type = 3,
-		id = 5,
-		pic = "temp9",
+		type = 2,
+		id = 7,
+		pic = "temp1",
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		},
 		time = {
 			{
 				{
@@ -173,7 +244,7 @@ pg.activity_banner = {
 	{
 		time = "stop",
 		type = 2,
-		id = 6,
+		id = 8,
 		pic = "temp2",
 		param = {
 			"scene charge",
@@ -184,93 +255,17 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 7,
-		pic = "temp3",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
 		id = 9,
-		pic = "temp5",
+		pic = "temp7",
 		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					5,
-					29
+					6,
+					1
 				},
 				{
 					0,
@@ -281,8 +276,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					11
+					7,
+					31
 				},
 				{
 					23,
@@ -301,8 +296,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					5,
-					29
+					6,
+					5
 				},
 				{
 					0,
@@ -314,7 +309,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					11
+					18
 				},
 				{
 					23,
@@ -409,15 +404,17 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
+			5,
 			6,
 			7,
 			8,
 			9
 		},
+		[16] = {
+			3
+		},
 		[3] = {
-			4,
-			5
+			4
 		},
 		[9] = {
 			90,

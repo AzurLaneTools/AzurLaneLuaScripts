@@ -1265,6 +1265,335 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[81] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 81,
+		drop_id = 11200011,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"Obtainable through Sign of BLACK"
+			}
+		}
+	},
+	[82] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 4,
+		order = 0,
+		id = 82,
+		drop_id = 11200021,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
+	[83] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 83,
+		drop_id = 1471,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"Obtainable through Sign of BLACK"
+			}
+		}
+	},
+	[84] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 84,
+		drop_id = 1475,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"Obtainable through Sign of BLACK"
+			}
+		}
+	},
+	[85] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 85,
+		drop_id = 1477,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"Obtainable through Sign of BLACK"
+			}
+		}
+	},
+	[86] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 86,
+		drop_id = 1479,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"Obtainable through Sign of BLACK"
+			}
+		}
+	},
+	[87] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 87,
+		drop_id = 1476,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
+	[88] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 88,
+		drop_id = 1478,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
+	[89] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 89,
+		drop_id = 1480,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
+	[90] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 90,
+		drop_id = 1472,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
+	[91] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 91,
+		drop_id = 1473,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
+	[92] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 9,
+		order = 0,
+		id = 92,
+		drop_id = 1474,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
+	[93] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 93,
+		drop_id = 323001,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5989,
+				"Obtainable through Illusory Challenge"
+			}
+		}
+	},
+	[94] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 94,
+		drop_id = 323002,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5989,
+				"Obtainable through Illusory Challenge"
+			}
+		}
+	},
+	[95] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 95,
+		drop_id = 323101,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"Buy in the furniture shop"
+			}
+		}
+	},
+	[96] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 96,
+		drop_id = 323102,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene court yard",
+					{}
+				},
+				"Buy in the furniture shop"
+			}
+		}
+	},
+	[97] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 97,
+		drop_id = 307,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5989,
+				"Obtainable through Illusory Challenge"
+			}
+		}
+	},
+	[98] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 98,
+		drop_id = 14240,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5986,
+				"Obtainable through Sign of BLACK"
+			}
+		}
+	},
+	[99] = {
+		is_new = 1,
+		activity = 5988,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 99,
+		drop_id = 14260,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				5984,
+				"Obtainable through Will of DEATH"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -1334,6 +1663,27 @@ pg.activity_limit_item_guide = {
 			74,
 			75,
 			76
+		},
+		[5988] = {
+			81,
+			82,
+			83,
+			84,
+			85,
+			86,
+			87,
+			88,
+			89,
+			90,
+			91,
+			92,
+			93,
+			94,
+			95,
+			96,
+			97,
+			98,
+			99
 		}
 	},
 	all = {
@@ -1401,6 +1751,25 @@ pg.activity_limit_item_guide = {
 		73,
 		74,
 		75,
-		76
+		76,
+		81,
+		82,
+		83,
+		84,
+		85,
+		86,
+		87,
+		88,
+		89,
+		90,
+		91,
+		92,
+		93,
+		94,
+		95,
+		96,
+		97,
+		98,
+		99
 	}
 }

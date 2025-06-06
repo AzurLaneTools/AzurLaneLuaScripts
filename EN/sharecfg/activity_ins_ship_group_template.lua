@@ -4640,6 +4640,30 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[10121] = {
+		ship_group = 10121,
+		name = "BLACK★ROCK SHOOTER",
+		background = "",
+		sculpture = "heiyansheshou",
+		nationality = 0,
+		type = 1
+	},
+	[10122] = {
+		ship_group = 10122,
+		name = "DEAD MASTER",
+		background = "",
+		sculpture = "siwangzhuzai",
+		nationality = 0,
+		type = 1
+	},
+	[30149] = {
+		ship_group = 30149,
+		name = "Kawakaze",
+		background = "",
+		sculpture = "jiangfeng",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5220,6 +5244,9 @@ pg.activity_ins_ship_group_template = {
 		20236,
 		10509,
 		10510,
-		10511
+		10511,
+		10121,
+		10122,
+		30149
 	}
 }

@@ -796,6 +796,207 @@ Over 3000 points: 260 Game Tickets]]
 			-280
 		}
 	},
+	[18] = {
+		id = 18,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1019,
+		icon = "niuzai",
+		order = 18,
+		unlock_time = {
+			{
+				2025,
+				6,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				3001,
+				1.3
+			},
+			{
+				1501,
+				1.2
+			},
+			{
+				601,
+				1.1
+			},
+			{
+				301,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+Minigame Rules:
+- In this minigame, you control a Manjuu Cowboy, and you'll earn points by lassoing Cowjuus.
+
+How to Play:
+- When the game starts, Cowjuus will appear on the right side of the screen and start moving to the left.
+- Tap on the "Lasso" button on the right side of the screen to throw the lasso at the Cowjuu. You'll earn points when you successfully lasso a Cowjuu.
+- You'll earn points depending on the type of Cowjuu you lasso:
+Cowjuu: 50 points
+Angusjuu: 100 points
+Cape Bufflejuu: 200 points
+Bisonjuu: 300 points
+
+The game ends when the timer reaches 0 or when you tap the End Game button.]]
+			}
+		},
+		position = {
+			0,
+			-150
+		}
+	},
+	[19] = {
+		id = 19,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1020,
+		icon = "binghu",
+		order = 19,
+		unlock_time = {
+			{
+				2025,
+				6,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+· Strategically position the swole Meowfficer and slide the curling stone as close to the red circle as you can to score points.
+
+- How to Play -
+· Every round of Manjuu Curling consists of 3 curling stone slides.
+· Press and hold the Meowfficer to change the curling stone's launch speed. The longer you hold, the faster it will go. Let go when you wish to launch the curling stone.
+· While your finger is on the Meowfficer, move it up and down on the screen to change the curling stone's course.
+· The curling stone's course will change if it bumps into an object.
+· When the curling stone comes to a stop, you will score points based on which circle it stopped inside. Stopping in the blue circle gives you 1,000 points, the yellow circle gives you 2,000 points, and the red circle gives you 3,000 points.
+
+The game ends when you finish the game or when you tap the End Game button.]]
+			}
+		},
+		position = {
+			0,
+			-200
+		}
+	},
+	[20] = {
+		id = 20,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1021,
+		icon = "damaoxian3",
+		order = 20,
+		unlock_time = {
+			{
+				2025,
+				6,
+				5
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the \""End Game\"" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
+Defeating Nianjuu is worth 500 points.
+
+The game ends when you finish the game or when you tap the End Game button.]]
+			}
+		},
+		position = {
+			0,
+			-200
+		}
+	},
 	all = {
 		1,
 		2,
@@ -807,6 +1008,9 @@ Over 3000 points: 260 Game Tickets]]
 		8,
 		9,
 		10,
-		11
+		11,
+		18,
+		19,
+		20
 	}
 }

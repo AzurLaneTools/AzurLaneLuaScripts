@@ -1498,6 +1498,22 @@ pg.equip_skin_theme_template = {
 			4184
 		}
 	},
+	[69] = {
+		id = 69,
+		name = "BLACK★ROCK SHOOTER",
+		ids = {
+			1471,
+			1472,
+			1473,
+			1474,
+			1475,
+			1476,
+			1477,
+			1478,
+			1479,
+			1480
+		}
+	},
 	[101] = {
 		id = 101,
 		name = "Power of the Stars",
@@ -1764,6 +1780,7 @@ pg.equip_skin_theme_template = {
 		66,
 		67,
 		68,
+		69,
 		101,
 		102,
 		103,
