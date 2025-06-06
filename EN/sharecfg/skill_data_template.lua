@@ -147635,7 +147635,7 @@ Once per battle, when this ship's HP falls below 80.0% as a result of DMG taken,
 		name = "Transcend Worlds - Limit Released",
 		type = 1,
 		max_level = 10,
-		desc = "Increases this ship's Main Gun efficiency by $1. When this ship finishes loading her Main Guns: this ship enters the Limit Released state, increasing her FP, ACC, and RLD by $2 for 10s. When this ship fires her Main Guns: increases this ship's Main Gun Crit Rate by $2 for 5s and fires a $3 special barrage (DMG is based on the skill's level). Every even-numbered time this ship fires her Main Guns: additionally fires a $3 special barrage (DMG is based on the skill's level).",
+		desc = "Increases this ship's Main Gun efficiency by $1. When this ship finishes loading her Main Guns: $4 chance to enter the Limit Released state, increasing her FP, ACC, and RLD by $2 for 10s. When this ship fires her Main Guns: increases this ship's Main Gun Crit Rate by $2 for 5s and, if this ship is in the Limit Released state, fires a $3 special barrage (DMG is based on the skill's level).",
 		id = 112010,
 		system_transform = {},
 		world_death_mark = {
