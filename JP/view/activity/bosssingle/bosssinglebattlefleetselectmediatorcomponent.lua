@@ -143,7 +143,7 @@ slot0.bindBattleEvents = function(slot0)
 
 		slot5, slot6 = nil
 
-		uv1._target_:sendNotification(GAME.GO_SCENE, SCENE.BOSS_SINGLE_PRECONBAT, {
+		uv1._target_:sendNotification(GAME.GO_SCENE, SCENE.BOSS_SINGLE_PRECOMBAT, {
 			system = uv1._systemType,
 			stageId = uv1._target_.contextData.stageIDs[slot1],
 			actId = uv1._target_.contextData.activityID,

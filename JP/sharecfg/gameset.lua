@@ -3868,5 +3868,12 @@ pg.gameset = {
 	technology_shadow_unlock_lv = {
 		description = "",
 		key_value = 100
+	},
+	act_npc_ship_id = {
+		key_value = 0,
+		description = {
+			5980,
+			5987
+		}
 	}
 }

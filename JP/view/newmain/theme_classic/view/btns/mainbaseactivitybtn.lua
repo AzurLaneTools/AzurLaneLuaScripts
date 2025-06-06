@@ -199,6 +199,8 @@ slot0.Skip = function(slot0, slot1)
 		}))
 	elseif slot1.type == GAMEUI_BANNER_15 then
 		slot0:emit(NewMainMediator.SKIP_INS)
+	elseif slot1.type == GAMEUI_BANNER_16 then
+		slot0:emit(NewMainMediator.SKIP_CORE_ACTIVITY, slot1.param)
 	end
 end
 

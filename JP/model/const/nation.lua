@@ -44,7 +44,7 @@ slot0.Nation2Print = function(slot0)
 			[96.0] = "mot",
 			[101.0] = "np",
 			[104.0] = "um",
-			[98.0] = "cm",
+			[112.0] = "um",
 			[99.0] = "sr",
 			[97.0] = "meta",
 			[107.0] = "um",
@@ -55,7 +55,8 @@ slot0.Nation2Print = function(slot0)
 			[110.0] = "um",
 			[111.0] = "um",
 			[103.0] = "um",
-			[105.0] = "um"
+			[105.0] = "um",
+			[98.0] = "cm"
 		}
 	end
 
@@ -80,7 +81,7 @@ slot0.Nation2Side = function(slot0)
 			[96.0] = "West",
 			[98.0] = "West",
 			[104.0] = "West",
-			[101.0] = "Jp",
+			[112.0] = "Jp",
 			[108.0] = "Jp",
 			[97.0] = "Meta",
 			[107.0] = "Imas",
@@ -89,6 +90,7 @@ slot0.Nation2Side = function(slot0)
 			[102.0] = "Cn",
 			[106.0] = "Jp",
 			[111.0] = "Jp",
+			[101.0] = "Jp",
 			[103.0] = "Jp",
 			[105.0] = "Jp"
 		}
@@ -115,7 +117,7 @@ slot0.Nation2BG = function(slot0)
 			[96.0] = "bg/bg_church",
 			[98.0] = "bg/bg_church",
 			[104.0] = "bg/bg_church",
-			[101.0] = "bg/bg_church",
+			[112.0] = "bg/bg_church",
 			[108.0] = "bg/bg_church",
 			[97.0] = "bg/bg_church_meta",
 			[107.0] = "bg/bg_church_imas",
@@ -124,6 +126,7 @@ slot0.Nation2BG = function(slot0)
 			[102.0] = "bg/bg_church",
 			[106.0] = "bg/bg_church",
 			[111.0] = "bg/bg_church",
+			[101.0] = "bg/bg_church",
 			[103.0] = "bg/bg_church",
 			[105.0] = "bg/bg_church"
 		}
@@ -160,7 +163,8 @@ slot0.Nation2Name = function(slot0)
 			[108] = i18n("word_shipNation_ssss"),
 			[109] = i18n("word_shipNation_ryza"),
 			[110] = i18n("word_shipNation_senran"),
-			[111] = i18n("word_shipNation_tolove")
+			[111] = i18n("word_shipNation_tolove"),
+			[112] = i18n("word_shipNation_brs")
 		}
 	end
 
@@ -195,7 +199,8 @@ slot0.Nation2facionName = function(slot0)
 			[108] = i18n("guild_faction_unknown"),
 			[109] = i18n("guild_faction_unknown"),
 			[110] = i18n("guild_faction_unknown"),
-			[111] = i18n("guild_faction_unknown")
+			[111] = i18n("guild_faction_unknown"),
+			[112] = i18n("guild_faction_unknown")
 		}
 	end
 

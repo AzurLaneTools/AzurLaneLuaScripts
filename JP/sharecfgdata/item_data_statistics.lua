@@ -15412,6 +15412,37 @@ _G.pg.base.item_data_statistics[21048] = {
 }
 
 
+_G.pg.base.item_data_statistics[21049] = {
+	open_directly = 0,
+	name = "結晶：江風(META)",
+	type = 4,
+	display = "江風(META)の能力を上昇させるアイテム。メタラボの限界突破に使用可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21049",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21049,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "耐熱強化結晶鋼",
@@ -16083,6 +16114,37 @@ _G.pg.base.item_data_statistics[21918] = {
 	other_item_cost = "[]",
 	usage_arg = "[]",
 	id = 21918,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21919] = {
+	open_directly = 0,
+	name = "江風(META)解析Pt",
+	type = 4,
+	display = "江風(META)の解析ポイント",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21919",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21919,
 	compose_number = 0,
 	target_id = 0,
 	display_icon = {},
@@ -27901,6 +27963,53 @@ _G.pg.base.item_data_statistics[30428] = {
 		{
 			9,
 			2100,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30429] = {
+	open_directly = 1,
+	name = "死の支配者",
+	type = 11,
+	display = "装備外装「死の支配者(戦闘)」「死の支配者(攻撃)」「死の支配者(爆撃)」を1個ずつ入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/97032",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906206",
+	id = 30429,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1472,
+			1
+		},
+		{
+			9,
+			1473,
+			1
+		},
+		{
+			9,
+			1474,
 			1
 		}
 	},

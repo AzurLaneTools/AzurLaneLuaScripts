@@ -559,8 +559,9 @@ slot17 = function(slot0, slot1)
 		end
 	end
 
+	slot2 = uv0.action2Id.idle
+
 	slot0.liveCom:SetReactMotions(uv0.idleActions)
-	slot0.liveCom:SetAction(uv0.action2Id.idle)
 
 	slot0.liveCom.FinishAction = function(slot0)
 		uv0:live2dActionChange(false)
@@ -637,6 +638,9 @@ slot17 = function(slot0, slot1)
 
 		slot0.delayChangeParamater = nil
 	end
+
+	uv10(slot0, "idle", true)
+	slot0:offsetL2dPositonDelay(0.3, 5)
 end
 
 slot0.Ctor = function(slot0, slot1, slot2)
@@ -680,36 +684,27 @@ slot0.SetVisible = function(slot0, slot1)
 		end
 
 		slot0:setReactPos(false)
+		slot0:loadLive2dData()
 
-		slot0.cubismModelCom.enabled = true
+		slot0._animator.speed = 1
+
+		uv0(slot0, true)
 	else
-		uv0(slot0, "idle", true)
+		slot0:saveLive2dData()
+
+		if slot0._stopCallback then
+			slot0._stopCallback()
+		end
 
 		slot0._readlyToStop = true
 
-		onDelayTick(function ()
+		uv1(slot0, "idle", true)
+		slot0:offsetL2dPositonDelay(0.3, 5, function ()
 			if uv0._readlyToStop then
 				uv0._animator.speed = 0
-
-				if uv0._stopCallback then
-					uv0._stopCallback()
-				end
 			end
-		end, 2)
-
-		slot0.cubismModelCom.enabled = false
+		end)
 	end
-
-	if slot1 then
-		slot0:loadLive2dData()
-	else
-		slot0:saveLive2dData()
-		slot0:loadLive2dData()
-	end
-
-	uv1(slot0, true)
-
-	slot0._animator.speed = 1
 end
 
 slot0.loadLive2dData = function(slot0)
@@ -726,65 +721,56 @@ slot0.loadLive2dData = function(slot0)
 		end
 
 		slot0:changeIdleIndex(0)
-		slot0._animator:Play("idle")
 
 		slot0.saveActionAbleId = nil
-
-		return
-	end
-
-	slot1, slot2 = Live2dConst.GetL2dSaveData(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id)
-	slot3 = Live2dConst.GetDragActionIndex(slot2, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
-
-	if slot1 then
-		slot0:changeIdleIndex(slot1)
-
-		if slot1 == 0 then
-			slot0._animator:Play("idle")
-		else
-			slot0._animator:Play("idle" .. slot1)
-		end
-	end
-
-	slot0.saveActionAbleId = slot2
-
-	if slot2 and slot2 > 0 then
-		if pg.ship_l2d[slot2] then
-			slot4 = pg.ship_l2d[slot2].action_trigger_active
-
-			if slot1 and slot4.idle_enable and #slot4.idle_enable > 0 then
-				for slot8, slot9 in ipairs(slot4.idle_enable) do
-					if slot9[1] == slot1 then
-						slot0:setEnableActions(slot9[2])
-					end
-				end
-			elseif slot3 and slot3 >= 1 and slot4.active_list then
-				slot0:setEnableActions(slot4.active_list[slot3].enable and slot4.active_list[slot3].enable or {})
-			else
-				slot0:setEnableActions(slot4.enable and slot4.enable or {})
-			end
-
-			if slot1 and slot4.idle_ignore and #slot4.idle_ignore > 0 then
-				for slot8, slot9 in ipairs(slot4.idle_ignore) do
-					if slot9[1] == slot1 then
-						slot0:setIgnoreActions(slot9[2])
-					end
-				end
-			elseif slot3 and slot3 >= 1 and slot4.active_list then
-				slot0:setIgnoreActions(slot4.active_list[slot3].ignore and slot4.active_list[slot3].ignore or {})
-			else
-				slot0:setIgnoreActions(slot4.ignore and slot4.ignore or {})
-			end
-		end
 	else
-		slot0:setEnableActions({})
-		slot0:setIgnoreActions({})
-	end
+		slot1, slot2 = Live2dConst.GetL2dSaveData(slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id)
+		slot3 = Live2dConst.GetDragActionIndex(slot2, slot0.live2dData:GetShipSkinConfig().id, slot0.live2dData.ship.id) or 1
 
-	if slot0.drags then
-		for slot7 = 1, #slot0.drags do
-			slot0.drags[slot7]:loadData()
-			slot0.drags[slot7]:loadL2dFinal()
+		if slot1 then
+			slot0:changeIdleIndex(slot1)
+		end
+
+		slot0.saveActionAbleId = slot2
+
+		if slot2 and slot2 > 0 then
+			if pg.ship_l2d[slot2] then
+				slot4 = pg.ship_l2d[slot2].action_trigger_active
+
+				if slot1 and slot4.idle_enable and #slot4.idle_enable > 0 then
+					for slot8, slot9 in ipairs(slot4.idle_enable) do
+						if slot9[1] == slot1 then
+							slot0:setEnableActions(slot9[2])
+						end
+					end
+				elseif slot3 and slot3 >= 1 and slot4.active_list then
+					slot0:setEnableActions(slot4.active_list[slot3].enable and slot4.active_list[slot3].enable or {})
+				else
+					slot0:setEnableActions(slot4.enable and slot4.enable or {})
+				end
+
+				if slot1 and slot4.idle_ignore and #slot4.idle_ignore > 0 then
+					for slot8, slot9 in ipairs(slot4.idle_ignore) do
+						if slot9[1] == slot1 then
+							slot0:setIgnoreActions(slot9[2])
+						end
+					end
+				elseif slot3 and slot3 >= 1 and slot4.active_list then
+					slot0:setIgnoreActions(slot4.active_list[slot3].ignore and slot4.active_list[slot3].ignore or {})
+				else
+					slot0:setIgnoreActions(slot4.ignore and slot4.ignore or {})
+				end
+			end
+		else
+			slot0:setEnableActions({})
+			slot0:setIgnoreActions({})
+		end
+
+		if slot0.drags then
+			for slot7 = 1, #slot0.drags do
+				slot0.drags[slot7]:loadData()
+				slot0.drags[slot7]:loadL2dFinal()
+			end
 		end
 	end
 end
@@ -902,27 +888,42 @@ slot0.Reset = function(slot0)
 	slot0.ableFlag = nil
 end
 
-slot0.resetL2dData = function(slot0)
-	if not slot0._tf then
-		return
-	end
-
+slot0.offsetL2dPositonDelay = function(slot0, slot1, slot2, slot3)
 	if slot0._tf and LeanTween.isTweening(go(slot0._tf)) then
 		return
 	end
 
 	slot0._l2dPosition = slot0._tf.position
 	slot0._tf.position = Vector3(slot0._l2dPosition.x + 100, 0, 0)
+	slot0._animator.speed = slot2
 
-	LeanTween.delayedCall(go(slot0._tf), 0.2, System.Action(function ()
+	LeanTween.delayedCall(go(slot0._tf), slot1, System.Action(function ()
 		if uv0._tf then
 			uv0._tf.position = uv0._l2dPosition
+			uv0._animator.speed = 1
+		end
+
+		if uv1 then
+			uv1()
 		end
 	end))
+end
+
+slot0.resetL2dData = function(slot0)
+	if not slot0._tf then
+		return
+	end
+
+	if LeanTween.isTweening(go(slot0._tf)) then
+		return
+	end
+
+	slot0:offsetL2dPositonDelay(0.3, 5)
 	Live2dConst.ClearLive2dSave(slot0.live2dData.ship:getSkinId(), slot0.live2dData.ship.id)
 	slot0:Reset()
 	slot0:changeIdleIndex(0)
 	slot0:loadLive2dData()
+	uv0(slot0, "idle", true)
 end
 
 slot0.applyActiveData = function(slot0, slot1)
@@ -1001,7 +1002,7 @@ end
 slot0.changeIdleIndex = function(slot0, slot1)
 	slot2 = false
 
-	if slot0.idleIndex ~= slot1 then
+	if slot0.idleIndex ~= slot1 and slot0._animator:GetInteger("idle") and slot3 >= 0 then
 		slot0._animator:SetInteger("idle", slot1)
 
 		slot2 = true
@@ -1094,20 +1095,19 @@ end
 
 slot0.Dispose = function(slot0)
 	if slot0.state == uv0.STATE_INITED then
-		if slot0._go then
-			Destroy(slot0._go)
-		end
-
 		slot0.liveCom.FinishAction = nil
 		slot0.liveCom.EventAction = nil
 
 		slot0.liveCom:SetMouseInputActions(nil, )
 	end
 
+	if slot0._tf and LeanTween.isTweening(go(slot0._tf)) then
+		LeanTween.cancel(go(slot0._tf))
+	end
+
 	slot0:saveLive2dData()
 
 	slot0._readlyToStop = false
-	slot0.state = uv0.STATE_DISPOSE
 
 	if slot0.live2dRequestId then
 		pg.Live2DMgr.GetInstance():StopLoadingLive2d(slot0.live2dRequestId)
@@ -1123,23 +1123,27 @@ slot0.Dispose = function(slot0)
 		slot0.drags = {}
 	end
 
+	if slot0.live2dData and slot0.live2dData.gyro == 1 then
+		Input.gyro.enabled = false
+	end
+
 	if slot0.live2dData then
 		slot0.live2dData:Clear()
 
 		slot0.live2dData = nil
-
-		if slot0.live2dData and slot0.live2dData.gyro == 1 then
-			Input.gyro.enabled = false
-		end
 	end
-
-	slot0:live2dActionChange(false)
 
 	if slot0.timer then
 		slot0.timer:Stop()
 
 		slot0.timer = nil
 	end
+
+	if slot0._go and slot0.state == uv0.STATE_INITED then
+		Destroy(slot0._go)
+	end
+
+	slot0.state = uv0.STATE_DISPOSE
 end
 
 slot0.UpdateAtomSource = function(slot0)

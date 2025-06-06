@@ -8,6 +8,7 @@ slot1 = function(slot0, slot1, slot2, slot3)
 			setText(slot2:Find("title/Text"), "PHASE " .. slot1 + 1)
 			setActive(slot2:Find("target/Text"), false)
 			setText(slot2:Find("target/title"), uv1[slot1 + 1])
+			setActive(slot2:Find("target/icon"), false)
 			updateDrop(slot2:Find("award"), {
 				type = slot3[1],
 				id = slot3[2],

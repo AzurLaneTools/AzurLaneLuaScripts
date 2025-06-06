@@ -199,8 +199,10 @@ end
 slot0.GetNPCShipConfigIDList = function()
 	slot0 = {}
 
-	if ActivityConst.ACT_NPC_SHIP_ID and IsNumber(slot1) and uv0.IsActMatchTime(slot1) then
-		table.insert(slot0, pg.task_data_template[pg.activity_template[slot1].config_data[1]].award_display[1][2])
+	for slot4, slot5 in ipairs(getGameset("act_npc_ship_id")[2]) do
+		if uv0.IsActMatchTime(slot5) then
+			table.insert(slot0, pg.task_data_template[pg.activity_template[slot5].config_data[1]].award_display[1][2])
+		end
 	end
 
 	return slot0

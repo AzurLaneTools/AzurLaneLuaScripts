@@ -5964,8 +5964,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2025.3.13-2025.6.5</color>
-META戦・ホーネット(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
+<color=#92fc63>2025.6.5-2025.9.4</color>
+META戦・江風(META)が開催中です。META戦で解析Ptを集め、META艦船を手に入れましょう。
 （※<color=#ff5c5c>解析Pt並びに解析Pt累計獲得数報酬は開催期間終了後にリセットされます</color>）
 
 ■META戦について
@@ -7106,6 +7106,11 @@ _G.pg.base.gametip.word_shipNation_tolove = {
 
 _G.pg.base.gametip.word_shipNation_yujinwangguo = {
 	tip = "チュリッパ"
+}
+
+
+_G.pg.base.gametip.word_shipNation_brs = {
+	tip = "ブラック★ロックシューター"
 }
 
 
@@ -21766,7 +21771,7 @@ _G.pg.base.gametip.meta_help = {
 ・解析Ptを一定数貯めると、「META艦船」を入手できます。
 ・「META」艦船が入手済みの状態では、艦船の操作画面で「情報解析」で解析Pt関連の情報を確認することができます。
 
-※<color=#92fc63>2025.3.13-2025.6.5</color>ホーネット(META) META戦開放期間は「ホーネット(META)」の解析Ptを入手できます。
+※<color=#92fc63>2025.6.5-2025.9.4</color>江風(META) META戦開放期間は「江風(META)」の解析Ptを入手できます。
  解析Ptおよび解析Pt累計入手数報酬は開催期間終了後にリセットされます。
 
 ■「META」艦船の艤装強化について
@@ -39221,4 +39226,29 @@ _G.pg.base.gametip.littleaijier_npc = {
 			info = "7.仮加入状態の【エーギルちゃん】は大艦隊作戦には参加できません。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.brs_main_tip = {
+	tip = "イベントに参加し、限定報酬を手に入れよう！"
+}
+
+
+_G.pg.base.gametip.brs_expedition_tip = {
+	tip = "チャレンジステージをクリアすると限定報酬を入手可能！"
+}
+
+
+_G.pg.base.gametip.brs_dmact_tip = {
+	tip = "累計撃破数"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_1 = {
+	tip = "入手方法"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_2 = {
+	tip = "確認"
 }

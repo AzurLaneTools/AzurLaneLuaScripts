@@ -1176,23 +1176,26 @@ slot0.GenBattleData = function(slot0)
 				slot13(slot20, slot9, slot1.VanguardUnitList, slot11)
 			end
 
-			slot18 = _.values(slot7[slot0.contextData.mainFleetId + (slot2 == SYSTEM_BOSS_SINGLE_VARIABLE and 100 or 10)]:getCommanders())
+			if slot7[slot0.contextData.mainFleetId + (slot2 == SYSTEM_BOSS_SINGLE_VARIABLE and 100 or 10)] then
+				slot18 = _.values(slot17:getCommanders())
 
-			for slot23, slot24 in ipairs(slot17:getTeamByName(TeamType.Submarine)) do
-				slot13(slot24, slot18, slot1.SubUnitList, slot12)
+				for slot23, slot24 in ipairs(slot17:getTeamByName(TeamType.Submarine)) do
+					slot13(slot24, slot18, slot1.SubUnitList, slot12)
+				end
 			end
 
-			slot21 = getProxy(PlayerProxy):getRawData()
+			slot19 = getProxy(PlayerProxy):getRawData()
 			slot1.ChapterBuffIDs = getProxy(ActivityProxy):getActivityById(slot0.contextData.actId):GetBuffIdsByStageId(slot0.contextData.stageId)
-			slot23 = pg.strategy_data_template
+			slot21 = pg.strategy_data_template
 
-			for slot27, slot28 in ipairs(slot0.contextData.variableBuffList) do
-				table.insert(slot1.ChapterBuffIDs, slot23[slot28].buff_id)
+			if slot0.contextData.variableBuffList then
+				for slot25, slot26 in ipairs(slot0.contextData.variableBuffList) do
+					table.insert(slot1.ChapterBuffIDs, slot21[slot26].buff_id)
+				end
 			end
 
-			slot25 = slot22:GetEnemyDataByStageId(slot0.contextData.stageId):GetOilLimit()
-			slot26 = 0
-			slot27 = slot3.oil_cost > 0
+			slot24 = 0
+			slot25 = slot3.oil_cost > 0
 
 			(function (slot0, slot1)
 				if uv0 then
@@ -1204,15 +1207,18 @@ slot0.GenBattleData = function(slot0)
 
 					uv1 = uv1 + slot2
 				end
-			end)(slot8, slot25[1] or 0)
-			slot28(slot17, slot25[2] or 0)
+			end)(slot8, slot20:GetEnemyDataByStageId(slot0.contextData.stageId):GetOilLimit()[1] or 0)
 
-			if slot17:isLegalToFight() == true and slot26 <= slot21.oil then
-				slot1.SubFlag = 1
-				slot1.TotalSubAmmo = 1
+			if slot17 then
+				slot26(slot17, slot23[2] or 0)
+
+				if slot17:isLegalToFight() == true and slot24 <= slot19.oil then
+					slot1.SubFlag = 1
+					slot1.TotalSubAmmo = 1
+				end
+
+				slot1.SubCommanderList = slot17:buildBattleBuffList()
 			end
-
-			slot1.SubCommanderList = slot17:buildBattleBuffList()
 
 			slot0.viewComponent:setFleet(slot10, slot11, slot12)
 		end

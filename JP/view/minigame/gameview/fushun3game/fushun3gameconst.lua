@@ -22,7 +22,7 @@ slot0.sunset_type = 2
 slot0.night_type = 3
 slot0.time_data = {
 	{
-		time = 30,
+		time = 30000000,
 		name = "day",
 		tf = "day1",
 		type = 1,
@@ -31,7 +31,7 @@ slot0.time_data = {
 		change_anim = "nightToDay"
 	},
 	{
-		time = 30,
+		time = 30000000,
 		name = "sunset",
 		tf = "sunSet",
 		type = 2,
@@ -40,7 +40,7 @@ slot0.time_data = {
 		change_anim = "dayToSunset"
 	},
 	{
-		time = 30,
+		time = 30000000,
 		name = "night",
 		tf = "night",
 		type = 3,
@@ -221,13 +221,6 @@ slot0.item_data = {
 		name = "sushi",
 		id = 9,
 		type = slot0.item_type_damage
-	},
-	{
-		buff_id = 5,
-		effect = "EF_fr_Item",
-		name = "Score_G",
-		id = 10,
-		type = slot0.item_type_buff
 	}
 }
 slot0.item_map = {
@@ -1087,14 +1080,6 @@ slot0.item_map = {
 				1,
 				1,
 				1
-			}
-		}
-	},
-	{
-		id = 21,
-		list = {
-			{
-				10
 			}
 		}
 	}

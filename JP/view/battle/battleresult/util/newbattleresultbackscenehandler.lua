@@ -34,6 +34,8 @@ slot0.Execute = function(slot0)
 		slot0:ExitBossSingleSystem(slot1)
 	elseif slot2 == SYSTEM_BOSS_SINGLE_VARIABLE then
 		slot0:ExitBossSingleVariableSystem(slot1)
+	elseif slot2 == SYSTEM_REWARD_PERFORM then
+		slot0:ExitRewardPerform(slot1)
 	else
 		slot0:ExitCommonSystem(slot1)
 	end
@@ -218,6 +220,20 @@ slot0.ExitBossSingleVariableSystem = function(slot0, slot1)
 	else
 		pg.m02:sendNotification(GAME.GO_BACK)
 	end
+end
+
+slot0.ExitRewardPerform = function(slot0, slot1)
+	slot3, slot4 = getProxy(ContextProxy):getContextByMediator(BossSinglePreCombatLiteMediator)
+
+	print(slot3.parent)
+
+	if slot3 then
+		print(slot4.mediator.__cname)
+
+		slot5 = slot4:removeChild(slot3)
+	end
+
+	pg.m02:sendNotification(GAME.GO_BACK)
 end
 
 slot0.ExitCommonSystem = function(slot0, slot1)

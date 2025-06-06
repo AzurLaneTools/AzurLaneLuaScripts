@@ -24,6 +24,18 @@ slot0.execute = function(slot0, slot1)
 		return
 	end
 
+	for slot12 = #slot4, 1, -1 do
+		for slot16 = slot12 - 1, 1, -1 do
+			print(slot4[slot12], slot4[slot16])
+
+			if slot4[slot12] == slot4[slot16] then
+				table.remove(slot4, slot12)
+
+				break
+			end
+		end
+	end
+
 	slot10 = pg.ConnectionMgr.GetInstance()
 
 	slot10:Send(11011, {
