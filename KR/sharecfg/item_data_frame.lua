@@ -497,7 +497,7 @@ pg.item_data_frame = {
 	},
 	[335] = {
 		name = "장미의 서약",
-		gain_by = "",
+		gain_by = "高塔上的蔷薇",
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
@@ -628,6 +628,15 @@ pg.item_data_frame = {
 		id = 609,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>「지휘관님 할인 이벤트 참여해줘서 고맙다냥, 증정품을 잘 받아라냥~！」</color>「봄날 아카시의 빅 세일」이벤트를 통해 획득",
+		scene = {}
+	},
+	[610] = {
+		name = "리조트 섬의 바캉스",
+		gain_by = "",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>리조트 섬에서 완벽한 바캉스를 즐기자! </color>「다시 돌아온 한여름! 리조트 재건 계획! 」 참가 시 획득 가능",
 		scene = {}
 	},
 	[1001] = {
@@ -863,6 +872,7 @@ pg.item_data_frame = {
 		606,
 		607,
 		609,
+		610,
 		1001,
 		1002,
 		1003,

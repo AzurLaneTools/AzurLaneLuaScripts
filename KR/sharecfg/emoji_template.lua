@@ -1625,6 +1625,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[247] = {
+		achieve = 1,
+		index = 83,
+		pic = "247",
+		desc = "<color=#92fc63>[크다]</color>",
+		item_name = "이모티콘: 크다",
+		item_desc = "이모티콘: 보면 안 돼　채팅의 기본 이모티콘 세트로 사용 가능",
+		id = 247,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[248] = {
+		achieve = 1,
+		index = 84,
+		pic = "248",
+		desc = "<color=#92fc63>[보면 안 돼]</color>",
+		item_name = "이모티콘: 보면 안 돼",
+		item_desc = "이모티콘: 크다　채팅의 기본 이모티콘 세트로 사용 가능",
+		id = 248,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[301] = {
 		achieve = 0,
 		index = 970,
@@ -2262,6 +2288,45 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[1042] = {
+		achieve = 1,
+		index = 88,
+		pic = "1042",
+		desc = "<color=#92fc63>[시작! ]</color>",
+		item_name = "이모티콘: 시작!",
+		item_desc = "이모티콘: 시작! 채팅의 기본 이모티콘 세트로 사용 가능",
+		id = 1042,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1043] = {
+		achieve = 1,
+		index = 89,
+		pic = "1043",
+		desc = "<color=#92fc63>[꼭 전해야 해! ]</color>",
+		item_name = "이모티콘: 꼭 전해야 해!",
+		item_desc = "이모티콘: 꼭 전해야 해! 채팅의 기본 이모티콘 세트로 사용 가능",
+		id = 1043,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1044] = {
+		achieve = 1,
+		index = 90,
+		pic = "1044",
+		desc = "<color=#92fc63>[로그아웃……]</color>",
+		item_name = "이모티콘: 로그아웃……",
+		item_desc = "이모티콘: 로그아웃……　채팅의 기본 이모티콘 세트로 사용 가능",
+		id = 1044,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[901] = {
 		achieve = 0,
 		index = 999,
@@ -2453,6 +2518,8 @@ pg.emoji_template = {
 		244,
 		245,
 		246,
+		247,
+		248,
 		301,
 		302,
 		303,
@@ -2502,6 +2569,9 @@ pg.emoji_template = {
 		374,
 		375,
 		1041,
+		1042,
+		1043,
+		1044,
 		901,
 		902,
 		903,

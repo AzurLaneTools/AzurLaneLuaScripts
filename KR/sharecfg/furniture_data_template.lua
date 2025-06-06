@@ -164,6 +164,8 @@ pg.furniture_data_template = setmetatable({
 			300,
 			301,
 			302,
+			303,
+			304,
 			100002,
 			100003,
 			100004,
@@ -3378,6 +3380,26 @@ pg.furniture_data_template = setmetatable({
 			321116,
 			321117,
 			321118
+		},
+		[122] = {
+			322001,
+			322002,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115,
+			322116
 		}
 	},
 	get_id_list_by_tag = {
@@ -5382,7 +5404,22 @@ pg.furniture_data_template = setmetatable({
 			321115,
 			321116,
 			321117,
-			321118
+			321118,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115
 		},
 		{
 			1108,
@@ -5776,7 +5813,9 @@ pg.furniture_data_template = setmetatable({
 			293,
 			295,
 			296,
-			302
+			302,
+			303,
+			304
 		},
 		[7] = {
 			213,
@@ -5975,7 +6014,8 @@ pg.furniture_data_template = setmetatable({
 			318305,
 			319117,
 			320115,
-			321114
+			321114,
+			322116
 		},
 		[4] = {
 			1001,
@@ -6083,7 +6123,8 @@ pg.furniture_data_template = setmetatable({
 			318001,
 			319001,
 			320001,
-			321001
+			321001,
+			322001
 		},
 		[3] = {
 			1002,
@@ -6192,7 +6233,8 @@ pg.furniture_data_template = setmetatable({
 			318002,
 			319002,
 			320002,
-			321002
+			321002,
+			322002
 		},
 		[5] = {
 			1301,
@@ -6669,7 +6711,8 @@ pg.furniture_data_template = setmetatable({
 			318002,
 			319002,
 			320002,
-			321002
+			321002,
+			322002
 		},
 		[7] = {
 			1,
@@ -6811,6 +6854,8 @@ pg.furniture_data_template = setmetatable({
 			300,
 			301,
 			302,
+			303,
+			304,
 			100002,
 			100004,
 			100005,
@@ -8870,7 +8915,23 @@ pg.furniture_data_template = setmetatable({
 			321113,
 			321114,
 			321117,
-			321118
+			321118,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115,
+			322116
 		},
 		[11] = {
 			131,
@@ -9056,7 +9117,8 @@ pg.furniture_data_template = setmetatable({
 			318001,
 			319001,
 			320001,
-			321001
+			321001,
+			322001
 		},
 		[5] = {
 			1101,
@@ -9920,6 +9982,8 @@ pg.furniture_data_template = setmetatable({
 		300,
 		301,
 		302,
+		303,
+		304,
 		100002,
 		100003,
 		100004,
@@ -12919,7 +12983,25 @@ pg.furniture_data_template = setmetatable({
 		321115,
 		321116,
 		321117,
-		321118
+		321118,
+		322001,
+		322002,
+		322101,
+		322102,
+		322103,
+		322104,
+		322105,
+		322106,
+		322107,
+		322108,
+		322109,
+		322110,
+		322111,
+		322112,
+		322113,
+		322114,
+		322115,
+		322116
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21005,6 +21087,80 @@ pg.base.furniture_data_template = {
 		size = {
 			2,
 			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[303] = {
+		can_rotate = 0,
+		describe = "에너지 충전 상태인 「장미의 탑」을 본떠 만든 미니어처. 전기 회로가 내장되어 있어, 플로어 조명으로도 활용할 수 있다.",
+		gain_by = "높은 탑의 장미",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/shixunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "장미의 탑 미니어처",
+		advice = 0,
+		icon = "shixunzhangicon",
+		id = 303,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[304] = {
+		can_rotate = 0,
+		describe = "「함께 재건하여 함께 즐기는 바캉스」를 테마로 제작된 조각상. 특별한 리조트 바캉스를 기념하여 만들어졌다.",
+		gain_by = "다시 돌아온 한여름! 리조트 재건 계획!",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/sanjiujiuxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "리조트 재건 조각상",
+		advice = 0,
+		icon = "sanjiujiuxunzhangicon",
+		id = 304,
+		comfortable = 0,
+		size = {
+			2,
+			4
 		},
 		offset = {},
 		canputonGrid = {},
@@ -155090,6 +155246,913 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[322001] = {
+		can_rotate = 0,
+		describe = "백사장과 하얀 파도를 만끽하며 시사이드 바캉스를 느긋하게 즐기자!",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/dibanhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "시사이드 바닥",
+		advice = 0,
+		icon = "dibanhb2icon",
+		id = 322001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322002] = {
+		can_rotate = 0,
+		describe = "백사장과 하얀 파도를 만끽하며 시사이드 바캉스를 느긋하게 즐기자!",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "시사이드 벽",
+		advice = 0,
+		id = 322002,
+		icon = "qiangbihb2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbihb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322101] = {
+		can_rotate = 0,
+		describe = "시사이드의 명물인 해변 오두막. 소박하지만 즐거운 휴가.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "해변 오두막",
+		advice = 0,
+		id = 322101,
+		icon = "xiaowuhb2icon",
+		comfortable = 4,
+		size = {
+			9,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaowuhb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322102] = {
+		can_rotate = 0,
+		describe = "시사이드의 명물인 더블 체어. 두 사람이 함께 여유롭게 주스를 즐길 수 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/shuangrenyihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "시사이드 더블 체어",
+		advice = 0,
+		id = 322102,
+		icon = "shuangrenyihb2icon",
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-76,
+					10
+				},
+				{
+					1,
+					1
+				},
+				"hb2/shuangrenyihb2_using"
+			},
+			{
+				"sit",
+				{
+					49,
+					12
+				},
+				{
+					-1,
+					1
+				},
+				"hb2/shuangrenyihb2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322103] = {
+		can_rotate = 0,
+		describe = "햇살, 하얀 파도, 흔들리는 해먹에서 느긋한 시간을 만끽하자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/tangyihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 2,
+		name = "시사이드 해먹",
+		advice = 0,
+		id = 322103,
+		icon = "tangyihb2icon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					32,
+					5
+				},
+				{
+					1,
+					1
+				},
+				"hb2/tangyihb2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322104] = {
+		can_rotate = 0,
+		describe = "자그마한 문어 테이블. 코코넛 같은 걸 올려두면 바캉스 분위기가 제대로 난다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/xiaozhuozihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "문어 테이블",
+		advice = 0,
+		icon = "xiaozhuozihb2icon",
+		id = 322104,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322105] = {
+		can_rotate = 0,
+		describe = "파도를 품어라 쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/yongquanjiuhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "선원 만쥬",
+		advice = 0,
+		icon = "yongquanjiuhb2icon",
+		id = 322105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322106] = {
+		can_rotate = 0,
+		describe = "햇빛과 더위의 피난처. 바캉스 시설 중에서 최고 수준의 편안함을 선사한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "liangtinghb2icon",
+		count = 1,
+		name = "시사이드 정자",
+		advice = 0,
+		id = 322106,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liangtinghb2B",
+				"normal"
+			},
+			{
+				"liangtinghb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322107] = {
+		can_rotate = 0,
+		describe = "시사이드의 명물인 파라솔. 시원한 그늘에서 여유로운 바캉스를 즐기자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "시사이드 파라솔",
+		advice = 0,
+		id = 322107,
+		icon = "zheyangsanhb2icon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zheyangsanhb2",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[322108] = {
+		can_rotate = 0,
+		describe = "시사이드의 명물인 문어 카펫. 겉보기와는 다르게 전혀 미끄럽지 않다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/didianhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "문어 카펫",
+		advice = 0,
+		icon = "didianhb2icon",
+		id = 322108,
+		comfortable = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322109] = {
+		can_rotate = 0,
+		describe = "멋진 시사이드 풀. 바닷바람과 반짝이는 물이 자아내는 정열적인 시간.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yongchihb2icon",
+		count = 1,
+		name = "시사이드 풀",
+		advice = 0,
+		id = 322109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			9,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yongchihb2B",
+				"normal"
+			},
+			{
+				"yongchihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322110] = {
+		can_rotate = 0,
+		describe = "수수께끼의 잔물결. 그 속에는 무엇이 숨어 있는 걸까?!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "수수께끼의 잔물결",
+		advice = 0,
+		id = 322110,
+		icon = "lianyihb2icon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianyihb2",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[322111] = {
+		can_rotate = 0,
+		describe = "바닷바람을 맞으며, 흔들의자에 누워 꿈나라로 떠나보자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "diaoyihb2icon",
+		count = 1,
+		name = "행잉 체어",
+		advice = 0,
+		id = 322111,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyihb2B",
+				"normal"
+			},
+			{
+				"diaoyihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322112] = {
+		can_rotate = 0,
+		describe = "싱그러운 푸른 분재. 자연의 생명력을 해변 풍경에 장식하자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/penzaihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "푸른 분재",
+		advice = 0,
+		icon = "penzaihb2icon",
+		id = 322112,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322113] = {
+		can_rotate = 0,
+		describe = "삐비빅! 여긴 이미 만원이야…… 정박할 수…… 없어……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/gangkouhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "시사이드 잔교",
+		advice = 0,
+		icon = "gangkouhb2icon",
+		id = 322113,
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322114] = {
+		can_rotate = 0,
+		describe = "바다에 들어갈 때 사용하는 편리한 사다리. 사용한 다음에는 꼭 제자리에 정리할 것!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/futihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "편리한 사다리",
+		advice = 0,
+		icon = "futihb2icon",
+		id = 322114,
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322115] = {
+		can_rotate = 0,
+		describe = "신선한 코코넛 하나 어떠신지?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "코코넛 나무",
+		advice = 0,
+		id = 322115,
+		icon = "yezishuhb2icon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yezishuhb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322116] = {
+		can_rotate = 0,
+		describe = "시사이드의 명물인 미끄럼틀. 재미와 즐거움으로 가득한 완벽한 놀이기구.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "huatihb2icon",
+		count = 1,
+		name = "시사이드 미끄럼틀",
+		advice = 0,
+		id = 322116,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			13,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatihb2B",
+				"normal"
+			},
+			{
+				"huatihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						1,
+						"sit"
+					},
+					{
+						"dance1",
+						nil,
+						"sit"
+					},
+					{
+						"dance2",
+						1,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					15,
+					176
+				},
+				{
+					405,
+					300
+				},
+				"hb2/huatihb2_mask"
+			},
+			{
+				-21.5,
+				-160.5
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	}

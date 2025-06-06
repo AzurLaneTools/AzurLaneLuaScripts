@@ -522,6 +522,22 @@ slot3.TargetFaintState = function(slot0, slot1, slot2)
 	return slot3
 end
 
+slot3.TargetNearest = function(slot0, slot1, slot2)
+	slot3 = (slot1 or {}).range or 9999999999.0
+	slot4 = nil
+
+	for slot9, slot10 in ipairs(slot2) do
+		if slot0:GetDistance(slot10) < slot3 then
+			slot3 = slot11
+			slot4 = slot10
+		end
+	end
+
+	return {
+		slot4
+	}
+end
+
 slot3.TargetHarmNearest = function(slot0, slot1, slot2)
 	slot1 = slot1 or {}
 	slot3 = slot1.range or 9999999999.0

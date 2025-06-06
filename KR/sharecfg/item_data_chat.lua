@@ -112,6 +112,14 @@ pg.item_data_chat = {
 		desc = "<size=28>황야, 개척, 웨스턴 스타일 휴일의 추억. \n<color=#A7A7AAFF>이벤트 「황야 휴일 개척기」 참가 보상</color>.</size>",
 		scene = {}
 	},
+	[610] = {
+		name = "비치 웨이브",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "해변을 걸으며 파도 소리에 귀를 기울이자. \n<color=#A7A7AAFF>「다시 돌아온 한여름! 리조트 재건 계획! 」 참가 시 획득 가능</color>",
+		scene = {}
+	},
 	[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		time_second = 0,
@@ -223,6 +231,7 @@ pg.item_data_chat = {
 		603,
 		606,
 		607,
+		610,
 		10001,
 		10002,
 		10003,

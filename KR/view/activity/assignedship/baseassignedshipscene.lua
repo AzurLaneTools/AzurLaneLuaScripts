@@ -1,4 +1,4 @@
-slot0 = class("BaseAssignedShipScene", import("...base.BaseUI"))
+slot0 = class("BaseAssignedShipScene", import("view.base.BaseUI"))
 slot0.TipWords = {
 	login_santa = "five_choose_one",
 	login_year = "nine_choose_one",

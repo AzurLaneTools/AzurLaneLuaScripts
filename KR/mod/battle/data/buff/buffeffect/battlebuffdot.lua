@@ -18,7 +18,6 @@ end
 
 slot4.SetArgs = function(slot0, slot1, slot2)
 	slot0._number = slot0._tempData.arg_list.number or 0
-	slot0._numberBase = slot0._number
 	slot0._time = slot0._tempData.arg_list.time or 0
 	slot0._nextEffectTime = pg.TimeMgr.GetInstance():GetCombatTime() + slot0._time
 	slot0._maxHPRatio = slot0._tempData.arg_list.maxHPRatio or 0
@@ -43,6 +42,8 @@ slot4.SetArgs = function(slot0, slot1, slot2)
 		slot0._igniteAttr = slot0._tempData.arg_list.attr
 		slot0._igniteCoefficient = slot0._tempData.arg_list.k
 		slot0._igniteDMG = uv0.CalculateIgniteDamage(slot0._orb, slot0._igniteAttr, slot0._igniteCoefficient)
+	elseif slot0._infection then
+		slot0._igniteDMG = slot0._infection
 	else
 		slot0._igniteDMG = 0
 	end
@@ -51,6 +52,7 @@ slot4.SetArgs = function(slot0, slot1, slot2)
 		slot1:CloakExpose(slot0._cloakExpose)
 	end
 
+	slot0._infective = slot0._tempData.arg_list.infective
 	slot0._proxy = uv1.Battle.BattleDataProxy.GetInstance()
 end
 
@@ -59,7 +61,7 @@ end
 
 slot4.onUpdate = function(slot0, slot1, slot2, slot3)
 	if slot0._nextEffectTime <= slot3.timeStamp then
-		slot0._proxy:HandleDirectDamage(slot1, slot0:CalcNumber(slot1, slot2))
+		slot0:doDamage(slot1, slot2)
 
 		if slot1:IsAlive() then
 			slot0._nextEffectTime = slot0._nextEffectTime + slot0._time
@@ -67,8 +69,38 @@ slot4.onUpdate = function(slot0, slot1, slot2, slot3)
 	end
 end
 
+slot4.onSink = function(slot0, slot1, slot2, slot3)
+	slot0:handleInfect(slot1, slot2)
+end
+
 slot4.onRemove = function(slot0, slot1, slot2)
+	slot0:doDamage(slot1, slot2)
+end
+
+slot4.doDamage = function(slot0, slot1, slot2)
+	slot3 = slot1:IsAlive()
+
 	slot0._proxy:HandleDirectDamage(slot1, slot0:CalcNumber(slot1, slot2))
+
+	if not slot1:IsAlive() and slot3 then
+		slot0:handleInfect(slot1, slot2)
+	end
+end
+
+slot4.handleInfect = function(slot0, slot1, slot2)
+	if not slot0._infective then
+		return
+	end
+
+	slot9 = slot0._infective.arg_list
+	slot10 = {}
+
+	for slot9, slot10 in ipairs(slot0:getTargetList(slot1, slot0._infective.target_choise, slot9, slot10)) do
+		slot11 = uv0.Battle.BattleBuffUnit.New(slot2:GetID(), slot2:GetLv())
+
+		slot11:SetInfection(slot0._igniteDMG)
+		slot10:AddBuff(slot11)
+	end
 end
 
 slot4.CalcNumber = function(slot0, slot1, slot2)
@@ -94,6 +126,10 @@ slot4.SetOrb = function(slot0, slot1, slot2, slot3)
 	slot0._level = slot3
 
 	slot1:SetOrbLevel(slot0._level)
+end
+
+slot4.SetInfection = function(slot0, slot1)
+	slot0._infection = slot1
 end
 
 slot4.UpdateCloakLock = function(slot0)

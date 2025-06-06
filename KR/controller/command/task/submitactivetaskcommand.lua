@@ -143,19 +143,42 @@ slot2 = {
 		1006
 	}
 }
+slot3 = {
+	{
+		6,
+		1007
+	},
+	{
+		16,
+		1007
+	}
+}
 
 slot0.updateTaskBagData = function(slot0, slot1, slot2)
 	slot3 = pg.task_data_template[slot1]
-	slot5 = tonumber(slot3.target_id_2)
-	slot6 = slot3.target_num
-	slot7 = slot3.type
-	slot8 = slot3.sub_type
+	slot5 = slot3.type
+	slot6 = slot3.sub_type
 
 	if pg.activity_drop_type[tonumber(slot3.target_id)] then
-		for slot12, slot13 in ipairs(uv0) do
-			if slot7 == slot13[1] and slot8 == slot13[2] and getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot4].activity_id) then
-				slot15:subVitemNumber(slot5, slot6)
-				getProxy(ActivityProxy):updateActivity(slot15)
+		for slot10, slot11 in ipairs(uv0) do
+			if slot5 == slot11[1] and slot6 == slot11[2] then
+				slot12 = tonumber(slot3.target_id_2)
+				slot13 = slot3.target_num
+
+				if getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot4].activity_id) then
+					slot15:subVitemNumber(slot12, slot13)
+					getProxy(ActivityProxy):updateActivity(slot15)
+				end
+			end
+		end
+
+		for slot10, slot11 in ipairs(uv1) do
+			if slot5 == slot11[1] and slot6 == slot11[2] and getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot4].activity_id) then
+				for slot18, slot19 in ipairs(slot3.target_id_2) do
+					slot13:subVitemNumber(slot19[1], slot19[2])
+				end
+
+				getProxy(ActivityProxy):updateActivity(slot13)
 			end
 		end
 	end

@@ -72,7 +72,7 @@ slot0.execute = function(slot0, slot1)
 			elseif uv3 == 17 then
 				pg.TipsMgr.GetInstance():ShowTips("错误!:" .. slot0.result)
 			elseif uv3 == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
-				-- Nothing
+				pg.TipsMgr.GetInstance():ShowTips(errorTip("activity_op_error", slot0.result))
 			elseif slot0.result == 3 or slot0.result == 4 then
 				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
 			else
@@ -553,6 +553,44 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		slot3.data1 = 0
 
 		getProxy(ActivityProxy):updateActivity(slot3)
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_FRESH_TEC_CATCHUP then
+		if slot1.cmd == 1 then
+			if not table.contains(slot3.data1_list, slot3.data1) then
+				table.insert(slot3.data1_list, slot3.data1)
+			end
+
+			slot3.data1 = slot1.arg1
+		elseif slot1.cmd == 2 then
+			-- Nothing
+		elseif slot1.cmd == 3 then
+			if not table.contains(slot3.data1_list, slot3.data1) then
+				table.insert(slot3.data1_list, slot3.data1)
+			end
+
+			slot3.data1 = 1
+			slot3.data2 = 1
+
+			getProxy(TaskProxy):removeFinishTaskById(slot3:getConfig("config_data")[3][1][2])
+		else
+			assert(false)
+		end
+
+		getProxy(ActivityProxy):updateActivity(slot3)
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_HOLIDAY_VILLA then
+		if slot1.cmd == 1 then
+			slot3.data1 = 1
+
+			slot3:setVitemNumber(66001, 0)
+			slot3:setVitemNumber(66002, 0)
+			slot3:setVitemNumber(66003, 0)
+			slot3:setVitemNumber(66004, 0)
+			slot3:addVitemNumber(66005, slot2.number[1])
+			getProxy(ActivityProxy):updateActivity(slot3)
+			slot0:sendNotification(ActivityProxy.ACTIVITY_EXCHANGE_RESOURCES, slot1.activity_id)
+		elseif slot1.cmd == 2 then
+			slot3:updateDataList(slot1.arg1)
+			getProxy(ActivityProxy):updateActivity(slot3)
+		end
 	end
 
 	return slot3

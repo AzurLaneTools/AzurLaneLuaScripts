@@ -16,6 +16,9 @@ end
 slot0.init = function(slot0)
 	slot0.leftPanel = slot0:findTF("blur_panel/left_panel")
 	slot0.stages = slot0:findTF("stageScrollRect/stages", slot0.leftPanel)
+
+	setText(slot0.leftPanel:Find("bg/title/Image"), i18n("word_preview"))
+
 	slot0.stagesSnap = slot0:findTF("stageScrollRect", slot0.leftPanel):GetComponent("HorizontalScrollSnap")
 	slot0.breakView = slot0:findTF("content/Text", slot0.leftPanel)
 	slot0.rightPanel = slot0:findTF("blur_panel/right_panel")
@@ -32,6 +35,11 @@ slot0.init = function(slot0)
 	slot0.appendStarTips = slot0:findTF("bottom/panel_title/tip", slot0.rightPanel)
 	slot0.tipActive = slot0:findTF("bottom/break_btn/tip_active", slot0.rightPanel)
 	slot0.tipDeactive = slot0:findTF("bottom/break_btn/tip_deactive", slot0.rightPanel)
+
+	setText(slot0.rightPanel:Find("bottom/panel_title/tip"), i18n("breakout_tip"))
+	setText(slot0.rightPanel:Find("bottom/break_btn/tip_deactive/values/ok"), i18n("text_confirm"))
+	setText(slot0.rightPanel:Find("bottom/break_btn/tip_active/image/ok"), i18n("text_confirm"))
+
 	slot0.recommandBtn = slot0.rightPanel:Find("bottom/auto_btn")
 	slot0.isEnoughItems = true
 	slot0.sea = slot0:findTF("sea", slot0.leftPanel)

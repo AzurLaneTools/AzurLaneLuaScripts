@@ -141,12 +141,25 @@ slot0.ship_drag_datas = {
 			"touch_body",
 			"touch_special",
 			"touch_special_2",
-			"touch_special_back"
+			"touch_special_back",
+			"touch_head_2"
 		},
 		action_enable = {
-			"normal"
+			{
+				name = "normal",
+				ignore = {}
+			},
+			{
+				name = "touch_special_normal",
+				ignore = {
+					"touch_body",
+					"touch_head",
+					"change_out"
+				}
+			}
 		},
 		drag_data = {
+			lock_layer = true,
 			type = 1,
 			config_client = {
 				{
@@ -159,7 +172,7 @@ slot0.ship_drag_datas = {
 				},
 				{
 					change_idle = "normal",
-					action = "touch_body",
+					action = "touch_head",
 					idle = "normal",
 					event = "TouchHead",
 					is_default = true,
@@ -167,11 +180,15 @@ slot0.ship_drag_datas = {
 				},
 				{
 					change_idle = "touch_special_normal",
-					action = "touch_special",
-					idle = "normal",
-					event = "TouchSpecial",
 					is_default = true,
-					hit = "touch_special"
+					idle = "normal",
+					action = "touch_special",
+					event = "TouchSpecial",
+					fold = true,
+					hit = "touch_special",
+					effect_hide = {
+						"lihui_siwanshi_4"
+					}
 				},
 				{
 					change_idle = "",
@@ -182,11 +199,47 @@ slot0.ship_drag_datas = {
 					hit = "touch_special_2"
 				},
 				{
+					change_idle = "",
+					action = "",
+					idle = "touch_special_normal",
+					event = "TouchHead",
+					is_default = false,
+					hit = "touch_head_2"
+				},
+				{
 					change_idle = "normal",
 					action = "touch_special_2",
 					idle = "touch_special_normal",
 					is_default = false,
-					hit = "touch_special_back"
+					fold = true,
+					hit = "touch_special_back",
+					effect_hide = {
+						"lihui_siwanshi_4"
+					}
+				}
+			}
+		}
+	},
+	telinida_2 = {
+		click_trigger = false,
+		multiple_face = {},
+		hit_area = {
+			"drag"
+		},
+		drag_data = {
+			type = 1,
+			config_client = {
+				{
+					is_default = true,
+					action = "drag",
+					idle = "normal",
+					change_idle = "ex"
+				},
+				{
+					is_default = false,
+					action = "drag_ex",
+					idle = "ex",
+					change_idle = "normal"
 				}
 			}
 		}

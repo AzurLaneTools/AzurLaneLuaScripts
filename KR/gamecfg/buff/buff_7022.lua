@@ -16,7 +16,7 @@ return {
 			},
 			arg_list = {
 				buff_id = 7023,
-				time = 43
+				time = 23
 			}
 		}
 	}

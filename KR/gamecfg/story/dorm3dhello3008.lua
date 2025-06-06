@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_hello8",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "看到{dorm3d}……安克雷奇，心跳的好快！像……小兔子……蹦蹦，跳跳！",
+			say = "선생님을 보면…… 앵커리지, 두근거려! 토끼처럼…… 팔짝, 팔짝 뛰어!",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -36,6 +36,7 @@ slot0.OnInit = function(slot0)
 	onButton(slot0, slot0:findTF("res_ur"), function ()
 		uv0:emit(BaseUI.ON_ITEM, pg.gameset.urpt_chapter_max.description[1])
 	end, SFX_PANEL)
+	getProxy(CommanderManualProxy):TaskProgressAdd(2023, 1)
 end
 
 slot0.OnUpdatePlayer = function(slot0)

@@ -15,6 +15,7 @@ slot0.init = function(slot0)
 	slot0.oilTF = slot0:findTF("canteen/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
 	slot0.goldTF = slot0:findTF("merchant/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
 	slot0.classTF = slot0:findTF("class/bubble/Text", slot0.resourcesTF):GetComponent(typeof(Text))
+	slot0.classLockTF = slot0.resourcesTF:Find("class/lock")
 	slot0.oilbubbleTF = slot0:findTF("canteen/bubble", slot0.resourcesTF)
 	slot0.goldbubbleTF = slot0:findTF("merchant/bubble", slot0.resourcesTF)
 	slot0.classbubbleTF = slot0:findTF("class/bubble", slot0.resourcesTF)
@@ -52,13 +53,17 @@ slot0.UnBlurPanel = function(slot0)
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf, slot0.parentTr)
 end
 
+slot0.UpdataClassUnlock = function(slot0)
+	setActive(slot0.classLockTF, not pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.playerVO.level, "ClassMediator"))
+end
+
 slot0.UpdateUrItemEntrance = function(slot0)
-	if not LOCK_UR_SHIP then
-		slot1 = pg.gameset.urpt_chapter_max.description
-		slot3 = slot1[2]
-		slot4 = getProxy(BagProxy):GetLimitCntById(slot1[1])
-		slot0.activtyUrExchangeTxt.text = slot4 .. "/" .. slot3
-		slot0.activtyUrExchangeCG.alpha = slot4 == slot3 and 0.6 or 1
+	if pg.SystemOpenMgr.GetInstance():isOpenSystem(slot0.playerVO.level, "FragmentShop") and not LOCK_UR_SHIP then
+		slot2 = pg.gameset.urpt_chapter_max.description
+		slot4 = slot2[2]
+		slot5 = getProxy(BagProxy):GetLimitCntById(slot2[1])
+		slot0.activtyUrExchangeTxt.text = slot5 .. "/" .. slot4
+		slot0.activtyUrExchangeCG.alpha = slot5 == slot4 and 0.6 or 1
 
 		setActive(slot0.activtyUrExchangeTip, NotifyTipHelper.ShouldShowUrTip())
 		onButton(slot0, slot0.activtyUrExchangeBtn, function ()
@@ -151,7 +156,13 @@ slot0.didEnter = function(slot0)
 			uv0.isPaying = false
 		end)
 	end, SOUND_BACK)
+	onButton(slot0, slot0.classLockTF, function ()
+		slot0 = pg.open_systems_limited[9]
+
+		pg.TipsMgr.GetInstance():ShowTips(i18n("no_open_system_tip", slot0.name, slot0.level))
+	end, SFX_PANEL)
 	slot0:InitItems()
+	slot0:UpdataClassUnlock()
 	slot0:UpdateUrItemEntrance()
 	slot0:updateCrusingEntrance()
 	slot0.metaBossBtn:Flush()

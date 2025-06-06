@@ -5,6 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.PAGE_ACTIVITY = 2
+slot0.FORM_MODE = 1
+slot0.LINE_MODE = -1
 
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
@@ -45,8 +47,9 @@ slot0.OnInit = function(slot0)
 		true,
 		true
 	}
+	slot0.groupToggle = slot0:findTF("ActivityToggle", slot0._tf)
 	slot5 = slot0._tf
-	slot0.memoryActivityTogGroup = slot0:findTF("ActivityBar", slot5)
+	slot0.memoryActivityTogGroup = slot0:findTF("ActivityToggle/ActivityBar", slot5)
 
 	setActive(slot0.memoryActivityTogGroup, true)
 
@@ -84,6 +87,7 @@ slot0.OnInit = function(slot0)
 
 	slot0.contextData.toggle = slot0.contextData.toggle or 1
 	slot2 = slot0.contextData.toggle
+	slot0.shipNameSearchFlag = true
 
 	triggerToggle(slot0.memoryToggles[slot2], true)
 	slot0:SwitchMemoryFilter(slot2)
@@ -94,30 +98,124 @@ slot0.OnInit = function(slot0)
 				return
 			end
 
-			uv0:SwitchMemoryFilter(uv1)
-			uv0:MemoryFilter()
+			if uv0 == 1 or uv0 == 4 then
+				uv1.shipNameSearchFlag = true
+			else
+				uv1.shipNameSearchFlag = false
+			end
+
+			uv1:SwitchMemoryFilter(uv0)
+			uv1:MemoryFilter()
 		end, SFX_UI_TAG)
 	end
 
-	slot0.viewParent:Add2TopContainer(slot0.memoryTogGroup)
+	slot3 = slot0.viewParent
+
+	slot3:Add2TopContainer(slot0.memoryTogGroup)
 
 	slot0.loader = AutoLoader.New()
+	slot0.searchBtn = slot0:findTF("ActivityToggle/search_btn/btn", slot0._tf)
+	slot0.nameSearchInput = slot0:findTF("ActivityToggle/search_btn/search", slot0._tf)
+	slot0.closeSearch = slot0:findTF("ActivityToggle/search_btn/icon", slot0._tf)
 
+	setText(slot0:findTF("label", slot0.searchBtn), i18n("storyline_memorysearch2"))
+	onButton(slot0, slot0.searchBtn, function ()
+		setActive(uv0.nameSearchInput, true)
+		setActive(uv0.searchBtn, false)
+		setText(uv0.nameSearchInput:Find("holder"), i18n("storyline_memorysearch1"))
+
+		uv0.searchOpen = true
+	end)
+	onButton(slot0, slot0.closeSearch, function ()
+		if uv0.searchOpen then
+			setActive(uv0.nameSearchInput, false)
+			setActive(uv0.searchBtn, true)
+			setText(uv0:findTF("label", uv0.searchBtn), i18n("storyline_memorysearch2"))
+		else
+			triggerButton(uv0.searchBtn)
+		end
+	end)
+	setInputText(slot0.nameSearchInput, "")
+	onInputChanged(slot0, slot0.nameSearchInput, function ()
+		uv0:searchFilter()
+	end)
 	slot0:MemoryFilter()
 
 	slot0.rectAnchorX = slot0:findTF("GroupRect").anchoredPosition.x
 
 	slot0:UpdateView()
+
+	slot0.storyLineBtn = slot0:findTF("StoryLineBtn")
+	slot0.storyLineEntranceBtn = slot0:findTF("StoryLineBtn/entranceBtn")
+	slot0.storyLineHideBtn = slot0:findTF("StoryLineBtn/closeBtn")
+	slot0.currentMode = uv0.FORM_MODE
+
+	onButton(slot0, slot0.storyLineEntranceBtn, function ()
+		uv0:SwitchStoryLineMode(uv1.LINE_MODE)
+	end)
+	onButton(slot0, slot0.storyLineHideBtn, function ()
+		uv0:StoryLineBtnSetActive(false)
+	end)
+	onButton(slot0, slot0.storyLineBtn, function ()
+		uv0:StoryLineBtnSetActive(true)
+	end)
+
+	slot0.storylineTF = slot0:findTF("StoryLine")
+	slot0.storyLineView = WorldMediaCollectionStoryLineView.New(slot0.storylineTF)
+	slot5 = slot0.storyLineView
+
+	slot5:ConfigCallback(function (slot0, slot1)
+		uv0.viewParent:ShowSubMemories(slot0, true, slot1)
+		uv1.super.Hide(uv0)
+	end, function (slot0, slot1, slot2)
+		uv0.viewParent.viewParent:WarpToRecord(slot0, slot1, slot2)
+	end)
+end
+
+slot0.StoryLineBtnSetActive = function(slot0, slot1)
+	setActive(slot0.storyLineEntranceBtn, slot1)
+	setActive(slot0.storyLineHideBtn, slot1)
+	setActive(slot0:findTF("StoryLineBtn/on"), not slot1)
+end
+
+slot0.SwitchStoryLineMode = function(slot0, slot1)
+	slot0.currentMode = slot1
+
+	if slot1 == uv0.FORM_MODE then
+		setActive(slot0:findTF("GroupRect"), true)
+		setActive(slot0.memoryTogGroup, true)
+		setActive(slot0.groupToggle, true)
+		setActive(slot0.storylineTF, false)
+		setActive(slot0.storyLineBtn, true)
+		slot0.storyLineView:closeFilter()
+		slot0:MemoryFilter()
+		pg.BgmMgr.GetInstance():ContinuePlay()
+	elseif slot1 == uv0.LINE_MODE then
+		setActive(slot0:findTF("GroupRect"), false)
+		setActive(slot0.memoryTogGroup, false)
+		setActive(slot0.groupToggle, false)
+		setActive(slot0.storylineTF, true)
+		setActive(slot0.storyLineBtn, false)
+		slot0.storyLineView:refresh()
+	end
 end
 
 slot0.Show = function(slot0)
 	uv0.super.Show(slot0)
-	setActive(slot0.memoryTogGroup, true)
+	setActive(slot0.memoryTogGroup, slot0.currentMode == uv0.FORM_MODE)
 end
 
 slot0.Hide = function(slot0)
-	setActive(slot0.memoryTogGroup, false)
-	uv0.super.Hide(slot0)
+	if slot0.currentMode == uv0.FORM_MODE then
+		setActive(slot0.memoryTogGroup, false)
+		uv0.super.Hide(slot0)
+	else
+		slot0:SwitchStoryLineMode(uv0.FORM_MODE)
+	end
+end
+
+slot0.GetCurrentMode = function(slot0)
+	return slot0.currentMode
 end
 
 slot0.SwitchMemoryFilter = function(slot0, slot1)
@@ -162,8 +260,20 @@ slot0.MemoryFilter = function(slot0)
 	table.sort(slot0.memoryGroups, function (slot0, slot1)
 		return slot0.id < slot1.id
 	end)
-	slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, 0)
+	slot0:searchFilter()
 	setActive(slot0.memoryActivityTogGroup, slot2)
+end
+
+slot0.searchFilter = function(slot0)
+	if not getInputText(slot0.nameSearchInput) or slot1 == "" then
+		slot0.searchGroupList = nil
+
+		slot0.memoryGroupList:SetTotalCount(#slot0.memoryGroups, 0)
+	else
+		slot0.searchGroupList = slot0:GetMatchGroupList(slot1)
+
+		slot0.memoryGroupList:SetTotalCount(#slot0.searchGroupList, 0)
+	end
 end
 
 slot0.onInitMemoryGroup = function(slot0, slot1)
@@ -184,7 +294,7 @@ slot0.onUpdateMemoryGroup = function(slot0, slot1, slot2)
 		return
 	end
 
-	slot3 = slot0.memoryGroups[slot1]
+	slot3 = slot0.searchGroupList and slot0.searchGroupList[slot1] or slot0.memoryGroups[slot1]
 
 	assert(slot3, "MemoryGroup Missing Config Index " .. slot1)
 
@@ -203,7 +313,7 @@ slot0.onUpdateMemoryGroup = function(slot0, slot1, slot2)
 end
 
 slot0.Return2MemoryGroup = function(slot0)
-	if not slot0.contextData.memoryGroup then
+	if not slot0.contextData.memoryGroup or slot0:GetCurrentMode() == uv0.LINE_MODE then
 		return
 	end
 
@@ -270,6 +380,52 @@ slot0.UpdateActivityBar = function(slot0)
 		setActive(slot5:Find("Image1"), not slot6)
 		setActive(slot5:Find("Image2"), slot6)
 	end
+end
+
+slot0.OnDestroy = function(slot0)
+	uv0.super.OnDestroy(slot0)
+	slot0.storyLineView:Dispose()
+end
+
+slot0.GetMatchGroupList = function(slot0, slot1, slot2)
+	slot7 = "%%."
+	slot1 = string.lower(string.gsub(slot1, "%.", slot7))
+	slot3 = {}
+
+	for slot7, slot8 in pairs(slot0.memoryGroups) do
+		if string.find(string.lower(slot8.title), slot1) then
+			table.insert(slot3, slot8)
+		end
+	end
+
+	if slot0.shipNameSearchFlag then
+		slot4 = {}
+
+		for slot8, slot9 in pairs(pg.ship_data_statistics) do
+			if string.find(string.lower(slot9.name), slot1) then
+				table.insert(slot4, slot8)
+			end
+		end
+
+		slot5 = {}
+
+		for slot9, slot10 in ipairs(slot4) do
+			slot11 = tostring(slot10)
+			slot5[tonumber(string.sub(slot11, 1, #slot11 - 1))] = true
+		end
+
+		for slot9, slot10 in pairs(slot0.memoryGroups) do
+			if type(slot10.group_id) == "table" then
+				for slot14, slot15 in ipairs(slot10.group_id) do
+					if slot5[slot15] and not table.contains(slot3, slot10) then
+						table.insert(slot3, slot10)
+					end
+				end
+			end
+		end
+	end
+
+	return slot3
 end
 
 return slot0

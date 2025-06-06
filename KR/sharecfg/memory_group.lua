@@ -227,6 +227,8 @@ pg.memory_group = setmetatable({
 		325,
 		326,
 		327,
+		328,
+		329,
 		501,
 		502,
 		503,
@@ -352,6 +354,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 1,
 		icon = "title_main",
+		group_id = "",
 		memories = {
 			1,
 			2,
@@ -368,6 +371,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 2,
 		icon = "title_main",
+		group_id = "",
 		memories = {
 			7,
 			8,
@@ -388,6 +392,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 3,
 		icon = "title_main",
+		group_id = "",
 		memories = {
 			17,
 			18,
@@ -401,6 +406,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 4,
 		icon = "title_main",
+		group_id = "",
 		memories = {
 			20,
 			21,
@@ -420,6 +426,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 98,
 		icon = "title_main",
+		group_id = "",
 		memories = {
 			716,
 			717,
@@ -457,6 +464,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 99,
 		icon = "title_main",
+		group_id = "",
 		memories = {
 			457,
 			458,
@@ -471,6 +479,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 100,
 		icon = "title_main",
+		group_id = "",
 		memories = {
 			299,
 			300,
@@ -484,6 +493,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 101,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			10000,
 			10001,
@@ -505,6 +515,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 102,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			35,
 			36,
@@ -534,6 +545,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 107,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			107,
 			108,
@@ -551,6 +563,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 108,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			114,
 			115,
@@ -579,6 +592,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 109,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			132,
 			133,
@@ -599,6 +613,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 110,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			142,
 			143,
@@ -616,6 +631,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 111,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			149,
 			150,
@@ -633,6 +649,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 112,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			156,
 			157,
@@ -650,6 +667,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 113,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			163,
 			164,
@@ -668,6 +686,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 115,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			178,
 			179,
@@ -691,6 +710,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 116,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			189,
 			190,
@@ -708,6 +728,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 117,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			196,
 			197,
@@ -727,6 +748,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 118,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			10036,
 			10037,
@@ -744,6 +766,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 119,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			10043,
 			10044,
@@ -762,6 +785,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 120,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			205,
 			206,
@@ -777,6 +801,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 121,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			210,
 			211,
@@ -791,6 +816,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 122,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			214,
 			215,
@@ -808,6 +834,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 123,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			221,
 			222,
@@ -836,6 +863,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 124,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			239,
 			240,
@@ -853,6 +881,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 125,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			253,
 			254,
@@ -870,6 +899,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 126,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			10018
 		}
@@ -881,6 +911,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 128,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			10029,
 			10030,
@@ -898,6 +929,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 129,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			295,
 			296,
@@ -912,6 +944,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 130,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			315,
 			316,
@@ -928,6 +961,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 131,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			10051,
 			10052,
@@ -952,6 +986,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 132,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			10072,
 			10073,
@@ -971,6 +1006,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 133,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			371,
 			372,
@@ -992,6 +1028,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 134,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			382,
 			383,
@@ -1007,6 +1044,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 135,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			401,
 			402,
@@ -1023,6 +1061,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 136,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			407,
 			408,
@@ -1037,6 +1076,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 137,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			432,
 			433,
@@ -1052,6 +1092,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 138,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			437,
 			438,
@@ -1068,6 +1109,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 139,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			461,
 			462,
@@ -1082,6 +1124,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 140,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			466,
 			467,
@@ -1097,6 +1140,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 141,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			494,
 			495,
@@ -1114,6 +1158,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 142,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			522,
 			523,
@@ -1152,6 +1197,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 143,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			550,
 			551,
@@ -1169,6 +1215,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 144,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			557,
 			558,
@@ -1189,6 +1236,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 145,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			574,
 			575,
@@ -1210,6 +1258,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 146,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			592,
 			593,
@@ -1227,6 +1276,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 147,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			613,
 			614,
@@ -1244,6 +1294,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 148,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			620,
 			621,
@@ -1276,6 +1327,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 149,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			677,
 			678,
@@ -1293,6 +1345,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 150,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			684,
 			685,
@@ -1308,6 +1361,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 151,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			696,
 			697,
@@ -1330,6 +1384,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 152,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			728,
 			729,
@@ -1347,6 +1402,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 153,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			735,
 			736,
@@ -1361,6 +1417,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 154,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			739,
 			740,
@@ -1395,6 +1452,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 155,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			763,
 			764,
@@ -1410,6 +1468,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 156,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			775,
 			776,
@@ -1423,6 +1482,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 157,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			792,
 			793,
@@ -1438,6 +1498,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 158,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			797,
 			798,
@@ -1469,6 +1530,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 159,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			818,
 			819,
@@ -1486,6 +1548,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 160,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			825,
 			826,
@@ -1501,6 +1564,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 161,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			840,
 			841,
@@ -1515,6 +1579,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 162,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			830,
 			831,
@@ -1535,6 +1600,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 163,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			851,
 			852,
@@ -1578,6 +1644,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 164,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			884,
 			885,
@@ -1593,6 +1660,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 165,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			889,
 			890
@@ -1605,6 +1673,7 @@ pg.base.memory_group = {
 		type = 3,
 		id = 166,
 		icon = "title_chara_rongyaodiantang",
+		group_id = "",
 		memories = {
 			892,
 			1876,
@@ -1621,6 +1690,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 167,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			907,
 			908,
@@ -1654,6 +1724,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 168,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			930,
 			931,
@@ -1668,6 +1739,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 169,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			934,
 			935,
@@ -1683,6 +1755,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 170,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			940,
 			941,
@@ -1703,6 +1776,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 171,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			950,
 			951,
@@ -1718,6 +1792,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 172,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			960,
 			961,
@@ -1752,6 +1827,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 173,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			990,
 			991,
@@ -1765,6 +1841,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 174,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			995,
 			996,
@@ -1826,6 +1903,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 175,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1046,
 			1047,
@@ -1846,6 +1924,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 176,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1056,
 			1057,
@@ -1861,6 +1940,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 177,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1061,
 			1062,
@@ -1899,6 +1979,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 178,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1091,
 			1092,
@@ -1914,6 +1995,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 179,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1096,
 			1097,
@@ -1929,6 +2011,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 180,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1101,
 			1102,
@@ -1943,6 +2026,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 181,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1110,
 			1111,
@@ -1985,6 +2069,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 182,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1149,
 			1150,
@@ -1999,6 +2084,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 183,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1153,
 			1154,
@@ -2044,6 +2130,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 184,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1188,
 			1189,
@@ -2058,6 +2145,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 185,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1211,
 			1212,
@@ -2077,6 +2165,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 186,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1231,
 			1232,
@@ -2121,6 +2210,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 187,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1265,
 			1266,
@@ -2144,6 +2234,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 188,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1281,
 			1282,
@@ -2194,6 +2285,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 189,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1341,
 			1342,
@@ -2246,6 +2338,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 190,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1386,
 			1387,
@@ -2266,6 +2359,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 191,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1411,
 			1412,
@@ -2298,6 +2392,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 192,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1436,
 			1437,
@@ -2324,6 +2419,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 193,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1452,
 			1453,
@@ -2338,6 +2434,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 194,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1481,
 			1482,
@@ -2383,6 +2480,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 195,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1530,
 			1531,
@@ -2424,6 +2522,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 196,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1601,
 			1602,
@@ -2469,6 +2568,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 197,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1661,
 			1662,
@@ -2483,6 +2583,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 198,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1681,
 			1682,
@@ -2526,6 +2627,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 199,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1746,
 			1747,
@@ -2540,6 +2642,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 200,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1751,
 			1752,
@@ -2566,6 +2669,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 202,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1801,
 			1802,
@@ -2611,6 +2715,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 203,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1881,
 			1882,
@@ -2633,6 +2738,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 204,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1896,
 			1897,
@@ -2668,6 +2774,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 205,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1921,
 			1922,
@@ -2682,6 +2789,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 206,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1926,
 			1927,
@@ -2704,6 +2812,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 207,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1941,
 			1942,
@@ -2751,6 +2860,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 208,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1980,
 			1981,
@@ -2766,6 +2876,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 209,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			1985,
 			1986,
@@ -2783,6 +2894,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 210,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2002,
 			2003,
@@ -2797,6 +2909,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 211,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2006,
 			2007,
@@ -2840,6 +2953,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 212,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2050,
 			2051,
@@ -2861,6 +2975,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 213,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2061,
 			2062
@@ -2873,6 +2988,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 214,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2071,
 			2072,
@@ -2890,6 +3006,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 215,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2081,
 			2082,
@@ -2934,6 +3051,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 216,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2116,
 			2117,
@@ -2948,6 +3066,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 217,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2128,
 			2129,
@@ -2961,6 +3080,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 218,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2131,
 			2132,
@@ -3007,6 +3127,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 219,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2167,
 			2168,
@@ -3021,6 +3142,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 220,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2181,
 			2182,
@@ -3037,6 +3159,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 221,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2191,
 			2192,
@@ -3054,6 +3177,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 222,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2211,
 			2212,
@@ -3071,6 +3195,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 223,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2221,
 			2222,
@@ -3118,6 +3243,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 224,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2271,
 			2272,
@@ -3144,6 +3270,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 225,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2291,
 			2292,
@@ -3161,6 +3288,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 226,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2301,
 			2302,
@@ -3210,6 +3338,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 227,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2351,
 			2352,
@@ -3225,6 +3354,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 228,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2361,
 			2362,
@@ -3238,6 +3368,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 229,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2378,
 			2379,
@@ -3253,6 +3384,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 230,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2383,
 			2384,
@@ -3269,6 +3401,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 231,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2401,
 			2402,
@@ -3286,6 +3419,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 232,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2411,
 			2412,
@@ -3322,6 +3456,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 233,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2441,
 			2442,
@@ -3339,6 +3474,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 234,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2461,
 			2462,
@@ -3356,6 +3492,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 235,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2471,
 			2472,
@@ -3401,6 +3538,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 236,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2521,
 			2522,
@@ -3416,6 +3554,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 237,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2531,
 			2532,
@@ -3430,6 +3569,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 238,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2541,
 			2542,
@@ -3443,6 +3583,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 239,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2551,
 			2552,
@@ -3460,6 +3601,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 240,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2571,
 			2572,
@@ -3500,6 +3642,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 241,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2611,
 			2612,
@@ -3529,6 +3672,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 242,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2631,
 			2632,
@@ -3544,6 +3688,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 243,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2641,
 			2642,
@@ -3557,6 +3702,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 244,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2661,
 			2662,
@@ -3574,6 +3720,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 245,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2671,
 			2672,
@@ -3621,6 +3768,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 246,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2711,
 			2712,
@@ -3665,6 +3813,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 247,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2751
 		}
@@ -3676,6 +3825,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 248,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2781
 		}
@@ -3687,6 +3837,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 249,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2791,
 			2792,
@@ -3702,6 +3853,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 250,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2801,
 			2802,
@@ -3715,6 +3867,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 251,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2820,
 			2821,
@@ -3735,6 +3888,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 252,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2841,
 			2842,
@@ -3752,6 +3906,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 253,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2851,
 			2852,
@@ -3779,6 +3934,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 254,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2871,
 			2872,
@@ -3834,6 +3990,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 255,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2921,
 			2922,
@@ -3847,6 +4004,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 256,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2951,
 			2952,
@@ -3864,6 +4022,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 257,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			2961,
 			2962,
@@ -3908,6 +4067,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 258,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3001,
 			3002,
@@ -3923,6 +4083,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 259,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3011,
 			3012,
@@ -3945,6 +4106,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 260,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3031,
 			3032,
@@ -3958,6 +4120,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 261,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3041,
 			3042,
@@ -3973,6 +4136,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 262,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3061,
 			3062,
@@ -3991,6 +4155,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 263,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3071,
 			3072,
@@ -4029,6 +4194,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 264,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3101,
 			3102,
@@ -4067,6 +4233,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 266,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3151,
 			3152,
@@ -4101,6 +4268,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 267,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3181,
 			3182,
@@ -4118,6 +4286,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 268,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3191,
 			3192,
@@ -4145,6 +4314,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 269,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3221,
 			3222,
@@ -4162,6 +4332,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 270,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3228,
 			3229,
@@ -4209,6 +4380,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 271,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3272,
 			3273,
@@ -4223,6 +4395,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 272,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3281,
 			3282,
@@ -4236,6 +4409,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 273,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3301,
 			3302,
@@ -4251,6 +4425,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 274,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3311,
 			3312,
@@ -4264,6 +4439,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 275,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3331,
 			3332,
@@ -4277,6 +4453,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 276,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3341,
 			3342,
@@ -4290,6 +4467,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 277,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3361,
 			3362,
@@ -4308,6 +4486,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 278,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3370,
 			3371,
@@ -4352,6 +4531,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 279,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3411,
 			3412,
@@ -4370,6 +4550,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 280,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3431,
 			3432,
@@ -4385,6 +4566,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 281,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3441,
 			3442,
@@ -4423,6 +4605,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 282,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3471,
 			3472,
@@ -4436,6 +4619,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 283,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3491,
 			3492,
@@ -4453,6 +4637,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 284,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3500,
 			3501,
@@ -4480,6 +4665,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 285,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3520,
 			3521,
@@ -4493,6 +4679,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 286,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3541,
 			3542,
@@ -4508,6 +4695,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 287,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3551,
 			3552,
@@ -4525,6 +4713,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 288,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3561,
 			3562,
@@ -4581,6 +4770,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 289,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3610,
 			3611,
@@ -4626,6 +4816,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 290,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3651
 		}
@@ -4637,6 +4828,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 291,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3661
 		}
@@ -4648,6 +4840,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 292,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3681,
 			3682,
@@ -4668,6 +4861,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 293,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3701,
 			3702,
@@ -4688,6 +4882,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 294,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3711,
 			3712,
@@ -4701,6 +4896,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 295,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3731,
 			3732,
@@ -4718,6 +4914,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 296,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3741,
 			3742,
@@ -4765,6 +4962,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 297,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3781,
 			3782,
@@ -4793,6 +4991,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 298,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3811,
 			3812,
@@ -4816,6 +5015,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 299,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3831,
 			3832,
@@ -4833,6 +5033,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 300,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3841,
 			3842,
@@ -4848,6 +5049,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 301,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3851,
 			3852,
@@ -4877,6 +5079,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 302,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3871,
 			3872,
@@ -4924,6 +5127,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 303,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3908
 		}
@@ -4935,6 +5139,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 304,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3921
 		}
@@ -4946,6 +5151,7 @@ pg.base.memory_group = {
 		type = 1,
 		id = 305,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3941
 		}
@@ -4957,6 +5163,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 306,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3951,
 			3952,
@@ -4989,6 +5196,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 307,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			3981,
 			3982,
@@ -5007,6 +5215,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 309,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4021,
 			4022,
@@ -5034,6 +5243,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 310,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4041,
 			4042,
@@ -5050,6 +5260,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 311,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4051,
 			4052,
@@ -5068,6 +5279,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 312,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4071,
 			4072,
@@ -5087,6 +5299,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 313,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4081,
 			4082,
@@ -5130,6 +5343,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 314,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4121,
 			4122,
@@ -5146,6 +5360,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 315,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4131,
 			4132,
@@ -5161,6 +5376,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 316,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4151,
 			4152,
@@ -5175,6 +5391,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 317,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4161,
 			4162,
@@ -5190,6 +5407,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 318,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4171,
 			4172,
@@ -5204,6 +5422,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 319,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4191,
 			4192,
@@ -5221,6 +5440,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 320,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4201,
 			4202,
@@ -5267,6 +5487,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 321,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4241,
 			4242,
@@ -5281,6 +5502,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 322,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4261,
 			4262,
@@ -5302,6 +5524,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 323,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4281,
 			4282,
@@ -5315,6 +5538,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 324,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4301,
 			4302,
@@ -5329,6 +5553,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 325,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4311,
 			4312,
@@ -5347,6 +5572,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 326,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4331,
 			4332,
@@ -5362,6 +5588,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 327,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			4341,
 			4342,
@@ -5372,6 +5599,91 @@ pg.base.memory_group = {
 			4347
 		}
 	},
+	[328] = {
+		title = "다시 돌아온 한여름! 리조트 재건 계획!",
+		subtype = 2,
+		link_event = 5952,
+		type = 2,
+		id = 328,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4351,
+			4352,
+			4353,
+			4354,
+			4355,
+			4356,
+			4357,
+			4358,
+			4359,
+			4360,
+			4361,
+			4362,
+			4363,
+			4364,
+			4365,
+			4366,
+			4367,
+			4368,
+			4369,
+			4370,
+			4371,
+			4372,
+			4373,
+			4374,
+			4375,
+			4376,
+			4377
+		}
+	},
+	[329] = {
+		title = "높은 탑의 장미",
+		subtype = 1,
+		link_event = 5941,
+		type = 2,
+		id = 329,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4381,
+			4382,
+			4383,
+			4384,
+			4385,
+			4386,
+			4387,
+			4388,
+			4389,
+			4390,
+			4391,
+			4392,
+			4393,
+			4394,
+			4395,
+			4396,
+			4397,
+			4398,
+			4399,
+			4400,
+			4401,
+			4402,
+			4403,
+			4404,
+			4405,
+			4406,
+			4407,
+			4408,
+			4409,
+			4410,
+			4411,
+			4412,
+			4413,
+			4414,
+			4415,
+			4416
+		}
+	},
 	[501] = {
 		title = "아카시의 의뢰",
 		subtype = 0,
@@ -5379,6 +5691,7 @@ pg.base.memory_group = {
 		type = 3,
 		id = 501,
 		icon = "title_chara_mingshi",
+		group_id = "",
 		memories = {
 			62,
 			63,
@@ -5417,6 +5730,9 @@ pg.base.memory_group = {
 			10015,
 			10016,
 			10017
+		},
+		group_id = {
+			10000
 		}
 	},
 	[503] = {
@@ -5434,6 +5750,9 @@ pg.base.memory_group = {
 			250,
 			251,
 			252
+		},
+		group_id = {
+			10000
 		}
 	},
 	[504] = {
@@ -5451,6 +5770,9 @@ pg.base.memory_group = {
 			264,
 			265,
 			266
+		},
+		group_id = {
+			10000
 		}
 	},
 	[505] = {
@@ -5468,6 +5790,9 @@ pg.base.memory_group = {
 			271,
 			272,
 			273
+		},
+		group_id = {
+			10000
 		}
 	},
 	[506] = {
@@ -5485,6 +5810,9 @@ pg.base.memory_group = {
 			278,
 			279,
 			280
+		},
+		group_id = {
+			10000
 		}
 	},
 	[507] = {
@@ -5502,6 +5830,9 @@ pg.base.memory_group = {
 			285,
 			286,
 			287
+		},
+		group_id = {
+			10000
 		}
 	},
 	[508] = {
@@ -5519,6 +5850,9 @@ pg.base.memory_group = {
 			292,
 			293,
 			294
+		},
+		group_id = {
+			10000
 		}
 	},
 	[509] = {
@@ -5536,6 +5870,9 @@ pg.base.memory_group = {
 			305,
 			306,
 			307
+		},
+		group_id = {
+			10000
 		}
 	},
 	[510] = {
@@ -5553,6 +5890,9 @@ pg.base.memory_group = {
 			312,
 			313,
 			314
+		},
+		group_id = {
+			10000
 		}
 	},
 	[511] = {
@@ -5570,6 +5910,9 @@ pg.base.memory_group = {
 			326,
 			327,
 			328
+		},
+		group_id = {
+			10000
 		}
 	},
 	[512] = {
@@ -5587,6 +5930,9 @@ pg.base.memory_group = {
 			333,
 			334,
 			335
+		},
+		group_id = {
+			10000
 		}
 	},
 	[513] = {
@@ -5604,6 +5950,9 @@ pg.base.memory_group = {
 			340,
 			341,
 			342
+		},
+		group_id = {
+			10000
 		}
 	},
 	[515] = {
@@ -5621,6 +5970,9 @@ pg.base.memory_group = {
 			354,
 			355,
 			356
+		},
+		group_id = {
+			10000
 		}
 	},
 	[516] = {
@@ -5638,6 +5990,9 @@ pg.base.memory_group = {
 			361,
 			362,
 			363
+		},
+		group_id = {
+			10000
 		}
 	},
 	[517] = {
@@ -5655,6 +6010,9 @@ pg.base.memory_group = {
 			368,
 			369,
 			370
+		},
+		group_id = {
+			10000
 		}
 	},
 	[518] = {
@@ -5672,6 +6030,9 @@ pg.base.memory_group = {
 			391,
 			392,
 			393
+		},
+		group_id = {
+			10000
 		}
 	},
 	[519] = {
@@ -5689,6 +6050,9 @@ pg.base.memory_group = {
 			398,
 			399,
 			400
+		},
+		group_id = {
+			10000
 		}
 	},
 	[520] = {
@@ -5706,6 +6070,9 @@ pg.base.memory_group = {
 			415,
 			416,
 			417
+		},
+		group_id = {
+			10000
 		}
 	},
 	[521] = {
@@ -5723,6 +6090,9 @@ pg.base.memory_group = {
 			422,
 			423,
 			424
+		},
+		group_id = {
+			10000
 		}
 	},
 	[522] = {
@@ -5740,6 +6110,9 @@ pg.base.memory_group = {
 			429,
 			430,
 			431
+		},
+		group_id = {
+			10000
 		}
 	},
 	[523] = {
@@ -5757,6 +6130,9 @@ pg.base.memory_group = {
 			447,
 			448,
 			449
+		},
+		group_id = {
+			10000
 		}
 	},
 	[524] = {
@@ -5774,6 +6150,9 @@ pg.base.memory_group = {
 			454,
 			455,
 			456
+		},
+		group_id = {
+			10000
 		}
 	},
 	[525] = {
@@ -5791,6 +6170,9 @@ pg.base.memory_group = {
 			475,
 			476,
 			477
+		},
+		group_id = {
+			10000
 		}
 	},
 	[526] = {
@@ -5808,6 +6190,9 @@ pg.base.memory_group = {
 			482,
 			483,
 			484
+		},
+		group_id = {
+			10000
 		}
 	},
 	[527] = {
@@ -5825,6 +6210,9 @@ pg.base.memory_group = {
 			489,
 			490,
 			491
+		},
+		group_id = {
+			10000
 		}
 	},
 	[528] = {
@@ -5842,6 +6230,9 @@ pg.base.memory_group = {
 			505,
 			506,
 			507
+		},
+		group_id = {
+			10000
 		}
 	},
 	[529] = {
@@ -5859,6 +6250,9 @@ pg.base.memory_group = {
 			512,
 			513,
 			514
+		},
+		group_id = {
+			10000
 		}
 	},
 	[530] = {
@@ -5876,6 +6270,9 @@ pg.base.memory_group = {
 			519,
 			520,
 			521
+		},
+		group_id = {
+			10000
 		}
 	},
 	[531] = {
@@ -5893,6 +6290,9 @@ pg.base.memory_group = {
 			571,
 			572,
 			573
+		},
+		group_id = {
+			10000
 		}
 	},
 	[532] = {
@@ -5910,6 +6310,9 @@ pg.base.memory_group = {
 			589,
 			590,
 			591
+		},
+		group_id = {
+			10000
 		}
 	},
 	[533] = {
@@ -5927,6 +6330,9 @@ pg.base.memory_group = {
 			603,
 			604,
 			605
+		},
+		group_id = {
+			10000
 		}
 	},
 	[534] = {
@@ -5944,6 +6350,9 @@ pg.base.memory_group = {
 			610,
 			611,
 			612
+		},
+		group_id = {
+			10000
 		}
 	},
 	[535] = {
@@ -5961,6 +6370,9 @@ pg.base.memory_group = {
 			646,
 			647,
 			648
+		},
+		group_id = {
+			10000
 		}
 	},
 	[536] = {
@@ -5978,6 +6390,9 @@ pg.base.memory_group = {
 			653,
 			654,
 			655
+		},
+		group_id = {
+			10000
 		}
 	},
 	[537] = {
@@ -5995,6 +6410,9 @@ pg.base.memory_group = {
 			660,
 			661,
 			662
+		},
+		group_id = {
+			10000
 		}
 	},
 	[538] = {
@@ -6012,6 +6430,9 @@ pg.base.memory_group = {
 			667,
 			668,
 			669
+		},
+		group_id = {
+			10000
 		}
 	},
 	[539] = {
@@ -6029,6 +6450,9 @@ pg.base.memory_group = {
 			674,
 			675,
 			676
+		},
+		group_id = {
+			10000
 		}
 	},
 	[540] = {
@@ -6046,6 +6470,9 @@ pg.base.memory_group = {
 			693,
 			694,
 			695
+		},
+		group_id = {
+			10000
 		}
 	},
 	[542] = {
@@ -6063,6 +6490,9 @@ pg.base.memory_group = {
 			772,
 			773,
 			774
+		},
+		group_id = {
+			10000
 		}
 	},
 	[543] = {
@@ -6080,6 +6510,9 @@ pg.base.memory_group = {
 			782,
 			783,
 			784
+		},
+		group_id = {
+			10000
 		}
 	},
 	[544] = {
@@ -6097,6 +6530,9 @@ pg.base.memory_group = {
 			789,
 			790,
 			791
+		},
+		group_id = {
+			10000
 		}
 	},
 	[545] = {
@@ -6114,6 +6550,9 @@ pg.base.memory_group = {
 			848,
 			849,
 			850
+		},
+		group_id = {
+			10000
 		}
 	},
 	[546] = {
@@ -6131,6 +6570,9 @@ pg.base.memory_group = {
 			904,
 			905,
 			906
+		},
+		group_id = {
+			10000
 		}
 	},
 	[547] = {
@@ -6148,6 +6590,9 @@ pg.base.memory_group = {
 			1146,
 			1147,
 			1148
+		},
+		group_id = {
+			10000
 		}
 	},
 	[548] = {
@@ -6165,6 +6610,9 @@ pg.base.memory_group = {
 			1208,
 			1209,
 			1210
+		},
+		group_id = {
+			10000
 		}
 	},
 	[549] = {
@@ -6182,6 +6630,9 @@ pg.base.memory_group = {
 			1325,
 			1326,
 			1327
+		},
+		group_id = {
+			10000
 		}
 	},
 	[550] = {
@@ -6199,6 +6650,9 @@ pg.base.memory_group = {
 			1335,
 			1336,
 			1337
+		},
+		group_id = {
+			10000
 		}
 	},
 	[551] = {
@@ -6216,6 +6670,9 @@ pg.base.memory_group = {
 			1405,
 			1406,
 			1407
+		},
+		group_id = {
+			10000
 		}
 	},
 	[552] = {
@@ -6233,6 +6690,9 @@ pg.base.memory_group = {
 			1465,
 			1466,
 			1467
+		},
+		group_id = {
+			10000
 		}
 	},
 	[553] = {
@@ -6250,6 +6710,9 @@ pg.base.memory_group = {
 			1475,
 			1476,
 			1477
+		},
+		group_id = {
+			10000
 		}
 	},
 	[554] = {
@@ -6267,6 +6730,9 @@ pg.base.memory_group = {
 			1525,
 			1526,
 			1527
+		},
+		group_id = {
+			10000
 		}
 	},
 	[555] = {
@@ -6284,6 +6750,9 @@ pg.base.memory_group = {
 			1565,
 			1566,
 			1567
+		},
+		group_id = {
+			10000
 		}
 	},
 	[556] = {
@@ -6301,6 +6770,9 @@ pg.base.memory_group = {
 			1575,
 			1576,
 			1577
+		},
+		group_id = {
+			10000
 		}
 	},
 	[557] = {
@@ -6318,6 +6790,9 @@ pg.base.memory_group = {
 			1585,
 			1586,
 			1587
+		},
+		group_id = {
+			10000
 		}
 	},
 	[558] = {
@@ -6335,6 +6810,9 @@ pg.base.memory_group = {
 			1595,
 			1596,
 			1597
+		},
+		group_id = {
+			10000
 		}
 	},
 	[559] = {
@@ -6352,6 +6830,9 @@ pg.base.memory_group = {
 			1645,
 			1646,
 			1647
+		},
+		group_id = {
+			10000
 		}
 	},
 	[560] = {
@@ -6369,6 +6850,9 @@ pg.base.memory_group = {
 			1655,
 			1656,
 			1657
+		},
+		group_id = {
+			10000
 		}
 	},
 	[561] = {
@@ -6386,6 +6870,9 @@ pg.base.memory_group = {
 			1675,
 			1676,
 			1677
+		},
+		group_id = {
+			10000
 		}
 	},
 	[562] = {
@@ -6403,6 +6890,9 @@ pg.base.memory_group = {
 			1720,
 			1721,
 			1722
+		},
+		group_id = {
+			10000
 		}
 	},
 	[563] = {
@@ -6420,6 +6910,9 @@ pg.base.memory_group = {
 			1729,
 			1730,
 			1731
+		},
+		group_id = {
+			10000
 		}
 	},
 	[564] = {
@@ -6437,6 +6930,9 @@ pg.base.memory_group = {
 			1740,
 			1741,
 			1742
+		},
+		group_id = {
+			10000
 		}
 	},
 	[565] = {
@@ -6454,6 +6950,9 @@ pg.base.memory_group = {
 			1775,
 			1776,
 			1777
+		},
+		group_id = {
+			10000
 		}
 	},
 	[566] = {
@@ -6471,6 +6970,9 @@ pg.base.memory_group = {
 			1785,
 			1786,
 			1787
+		},
+		group_id = {
+			10000
 		}
 	},
 	[567] = {
@@ -6488,6 +6990,9 @@ pg.base.memory_group = {
 			1795,
 			1796,
 			1797
+		},
+		group_id = {
+			10000
 		}
 	},
 	[568] = {
@@ -6505,6 +7010,9 @@ pg.base.memory_group = {
 			1845,
 			1846,
 			1847
+		},
+		group_id = {
+			10000
 		}
 	},
 	[569] = {
@@ -6522,6 +7030,9 @@ pg.base.memory_group = {
 			1855,
 			1856,
 			1857
+		},
+		group_id = {
+			10000
 		}
 	},
 	[570] = {
@@ -6539,6 +7050,9 @@ pg.base.memory_group = {
 			1865,
 			1866,
 			1867
+		},
+		group_id = {
+			10000
 		}
 	},
 	[571] = {
@@ -6556,6 +7070,9 @@ pg.base.memory_group = {
 			1999,
 			2000,
 			2001
+		},
+		group_id = {
+			10000
 		}
 	},
 	[572] = {
@@ -6573,6 +7090,9 @@ pg.base.memory_group = {
 			2045,
 			2046,
 			2047
+		},
+		group_id = {
+			10000
 		}
 	},
 	[573] = {
@@ -6590,6 +7110,9 @@ pg.base.memory_group = {
 			2067,
 			2068,
 			2069
+		},
+		group_id = {
+			10000
 		}
 	},
 	[574] = {
@@ -6607,6 +7130,9 @@ pg.base.memory_group = {
 			2125,
 			2126,
 			2127
+		},
+		group_id = {
+			10000
 		}
 	},
 	[575] = {
@@ -6624,6 +7150,9 @@ pg.base.memory_group = {
 			2175,
 			2176,
 			2177
+		},
+		group_id = {
+			10000
 		}
 	},
 	[576] = {
@@ -6641,6 +7170,9 @@ pg.base.memory_group = {
 			2205,
 			2206,
 			2207
+		},
+		group_id = {
+			10000
 		}
 	},
 	[577] = {
@@ -6658,6 +7190,9 @@ pg.base.memory_group = {
 			2265,
 			2266,
 			2267
+		},
+		group_id = {
+			10000
 		}
 	},
 	[578] = {
@@ -6675,6 +7210,9 @@ pg.base.memory_group = {
 			2345,
 			2346,
 			2347
+		},
+		group_id = {
+			10000
 		}
 	},
 	[579] = {
@@ -6692,6 +7230,9 @@ pg.base.memory_group = {
 			2375,
 			2376,
 			2377
+		},
+		group_id = {
+			10000
 		}
 	},
 	[580] = {
@@ -6709,6 +7250,9 @@ pg.base.memory_group = {
 			2395,
 			2396,
 			2397
+		},
+		group_id = {
+			10000
 		}
 	},
 	[581] = {
@@ -6726,6 +7270,9 @@ pg.base.memory_group = {
 			2455,
 			2456,
 			2457
+		},
+		group_id = {
+			10000
 		}
 	},
 	[582] = {
@@ -6743,6 +7290,9 @@ pg.base.memory_group = {
 			2515,
 			2516,
 			2517
+		},
+		group_id = {
+			10000
 		}
 	},
 	[583] = {
@@ -6760,6 +7310,9 @@ pg.base.memory_group = {
 			2565,
 			2566,
 			2567
+		},
+		group_id = {
+			10000
 		}
 	},
 	[584] = {
@@ -6777,6 +7330,9 @@ pg.base.memory_group = {
 			2605,
 			2606,
 			2607
+		},
+		group_id = {
+			10000
 		}
 	},
 	[585] = {
@@ -6794,6 +7350,9 @@ pg.base.memory_group = {
 			2655,
 			2656,
 			2657
+		},
+		group_id = {
+			10000
 		}
 	},
 	[586] = {
@@ -6811,6 +7370,9 @@ pg.base.memory_group = {
 			2765,
 			2766,
 			2767
+		},
+		group_id = {
+			10000
 		}
 	},
 	[587] = {
@@ -6828,6 +7390,9 @@ pg.base.memory_group = {
 			2775,
 			2776,
 			2777
+		},
+		group_id = {
+			10000
 		}
 	},
 	[588] = {
@@ -6845,6 +7410,9 @@ pg.base.memory_group = {
 			2815,
 			2816,
 			2817
+		},
+		group_id = {
+			10000
 		}
 	},
 	[589] = {
@@ -6862,6 +7430,9 @@ pg.base.memory_group = {
 			2835,
 			2836,
 			2837
+		},
+		group_id = {
+			10000
 		}
 	},
 	[590] = {
@@ -6879,6 +7450,9 @@ pg.base.memory_group = {
 			2945,
 			2946,
 			2947
+		},
+		group_id = {
+			10000
 		}
 	},
 	[591] = {
@@ -6896,6 +7470,9 @@ pg.base.memory_group = {
 			3055,
 			3056,
 			3057
+		},
+		group_id = {
+			10000
 		}
 	},
 	[592] = {
@@ -6913,6 +7490,9 @@ pg.base.memory_group = {
 			3135,
 			3136,
 			3137
+		},
+		group_id = {
+			10000
 		}
 	},
 	[593] = {
@@ -6930,6 +7510,9 @@ pg.base.memory_group = {
 			3269,
 			3270,
 			3271
+		},
+		group_id = {
+			10000
 		}
 	},
 	[594] = {
@@ -6947,6 +7530,9 @@ pg.base.memory_group = {
 			3295,
 			3296,
 			3297
+		},
+		group_id = {
+			10000
 		}
 	},
 	[595] = {
@@ -6964,6 +7550,9 @@ pg.base.memory_group = {
 			3355,
 			3356,
 			3357
+		},
+		group_id = {
+			10000
 		}
 	},
 	[596] = {
@@ -6981,6 +7570,9 @@ pg.base.memory_group = {
 			3425,
 			3426,
 			3427
+		},
+		group_id = {
+			10000
 		}
 	},
 	[597] = {
@@ -6998,6 +7590,9 @@ pg.base.memory_group = {
 			3485,
 			3486,
 			3487
+		},
+		group_id = {
+			10000
 		}
 	},
 	[598] = {
@@ -7015,6 +7610,9 @@ pg.base.memory_group = {
 			3535,
 			3536,
 			3537
+		},
+		group_id = {
+			10000
 		}
 	},
 	[599] = {
@@ -7032,6 +7630,9 @@ pg.base.memory_group = {
 			3675,
 			3676,
 			3677
+		},
+		group_id = {
+			10000
 		}
 	},
 	[600] = {
@@ -7049,6 +7650,9 @@ pg.base.memory_group = {
 			3695,
 			3696,
 			3697
+		},
+		group_id = {
+			10000
 		}
 	},
 	[601] = {
@@ -7066,6 +7670,9 @@ pg.base.memory_group = {
 			3725,
 			3726,
 			3727
+		},
+		group_id = {
+			10000
 		}
 	},
 	[602] = {
@@ -7083,6 +7690,9 @@ pg.base.memory_group = {
 			3915,
 			3916,
 			3917
+		},
+		group_id = {
+			10000
 		}
 	},
 	[603] = {
@@ -7100,6 +7710,9 @@ pg.base.memory_group = {
 			3935,
 			3936,
 			3937
+		},
+		group_id = {
+			10000
 		}
 	},
 	[604] = {
@@ -7117,6 +7730,9 @@ pg.base.memory_group = {
 			3995,
 			3996,
 			3997
+		},
+		group_id = {
+			10000
 		}
 	},
 	[605] = {
@@ -7134,6 +7750,9 @@ pg.base.memory_group = {
 			4065,
 			4066,
 			4067
+		},
+		group_id = {
+			10000
 		}
 	},
 	[606] = {
@@ -7151,6 +7770,9 @@ pg.base.memory_group = {
 			4145,
 			4146,
 			4147
+		},
+		group_id = {
+			10000
 		}
 	},
 	[607] = {
@@ -7168,6 +7790,9 @@ pg.base.memory_group = {
 			4185,
 			4186,
 			4187
+		},
+		group_id = {
+			10000
 		}
 	},
 	[608] = {
@@ -7185,6 +7810,9 @@ pg.base.memory_group = {
 			4255,
 			4256,
 			4257
+		},
+		group_id = {
+			10000
 		}
 	},
 	[609] = {
@@ -7202,6 +7830,9 @@ pg.base.memory_group = {
 			4295,
 			4296,
 			4297
+		},
+		group_id = {
+			10000
 		}
 	},
 	[610] = {
@@ -7219,6 +7850,9 @@ pg.base.memory_group = {
 			4325,
 			4326,
 			4327
+		},
+		group_id = {
+			10000
 		}
 	},
 	[1000] = {
@@ -7228,6 +7862,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 1000,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			20000,
 			20001,
@@ -7282,6 +7917,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 1001,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			20044,
 			20045,
@@ -7300,6 +7936,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 1002,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			20052,
 			20053,
@@ -7340,6 +7977,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 1003,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			20082,
 			20083,
@@ -7396,6 +8034,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 1004,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			20128,
 			20129,
@@ -7415,6 +8054,7 @@ pg.base.memory_group = {
 		type = 2,
 		id = 1005,
 		icon = "title_event",
+		group_id = "",
 		memories = {
 			20138,
 			20139,

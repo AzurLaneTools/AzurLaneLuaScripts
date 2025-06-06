@@ -110,6 +110,7 @@ slot0.didEnter = function(slot0)
 	slot0:bind(uv0.FLUSH_TABS, function ()
 		uv0:flushTabs()
 	end)
+	getProxy(CommanderManualProxy):TaskProgressAdd(2020, 1)
 end
 
 slot0.setPlayer = function(slot0, slot1)

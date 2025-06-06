@@ -26,6 +26,10 @@ pg.ship_meta_breakout = setmetatable({
 		9701062,
 		9701063,
 		9701064,
+		9701071,
+		9701072,
+		9701073,
+		9701074,
 		9702011,
 		9702012,
 		9702013,
@@ -174,6 +178,10 @@ pg.ship_meta_breakout = setmetatable({
 		9707062,
 		9707063,
 		9707064,
+		9707071,
+		9707072,
+		9707073,
+		9707074,
 		9708011,
 		9708012,
 		9708013,
@@ -565,6 +573,69 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9701064,
 		item1 = 21036,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9701071] = {
+		breakout_view = "[염추의 재·그렌빌] 습득 / 주포 보정 +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 500,
+		breakout_id = 9701072,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701071,
+		item1 = 21047,
+		level = 10,
+		weapon_ids = {
+			170761
+		}
+	},
+	[9701072] = {
+		breakout_view = "어뢰 장전 수 +1 / 시작 시 어뢰 +1 / 주포 보정 +10%",
+		item2 = 21001,
+		pre_id = 9701071,
+		repair = 0,
+		gold = 1500,
+		breakout_id = 9701073,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9701072,
+		item1 = 21047,
+		level = 30,
+		weapon_ids = {
+			108,
+			108
+		}
+	},
+	[9701073] = {
+		breakout_view = "[염추의 재·그렌빌] 강화 / 무기 보정 +5%",
+		item2 = 21001,
+		pre_id = 9701072,
+		repair = 0,
+		gold = 2500,
+		breakout_id = 9701074,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9701073,
+		item1 = 21047,
+		level = 70,
+		weapon_ids = {
+			170762
+		}
+	},
+	[9701074] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9701073,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9701074,
+		item1 = 21047,
 		level = 0,
 		weapon_ids = {}
 	},
@@ -3007,6 +3078,75 @@ pg.base.ship_meta_breakout = {
 		item2_num = 0,
 		id = 9707064,
 		item1 = 21045,
+		level = 0,
+		weapon_ids = {}
+	},
+	[9707071] = {
+		breakout_view = "[염추의 재·글로리어스] 습득 / 전투기 수 +1 / 전투기 보정 +5%",
+		item2 = 21001,
+		pre_id = 0,
+		repair = 0,
+		gold = 1000,
+		breakout_id = 9707072,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707071,
+		item1 = 21048,
+		level = 10,
+		weapon_ids = {
+			60221,
+			54014
+		}
+	},
+	[9707072] = {
+		breakout_view = "격납고 용량 +1 / 뇌격기 수 +1 / 뇌격기 보정 +5%",
+		item2 = 21001,
+		pre_id = 9707071,
+		repair = 0,
+		gold = 3000,
+		breakout_id = 9707073,
+		item1_num = 1,
+		item2_num = 0,
+		id = 9707072,
+		item1 = 21048,
+		level = 30,
+		weapon_ids = {
+			60222,
+			54014,
+			60222,
+			54014
+		}
+	},
+	[9707073] = {
+		breakout_view = "[염추의 재·글로리어스] 강화 / 전투기 수 +1 / 전투기 보정 +15%",
+		item2 = 21001,
+		pre_id = 9707072,
+		repair = 0,
+		gold = 10000,
+		breakout_id = 9707074,
+		item1_num = 2,
+		item2_num = 0,
+		id = 9707073,
+		item1 = 21048,
+		level = 70,
+		weapon_ids = {
+			60223,
+			54015,
+			60223,
+			54015
+		}
+	},
+	[9707074] = {
+		breakout_view = "없음",
+		item2 = 21001,
+		pre_id = 9707073,
+		repair = 0,
+		gold = 0,
+		breakout_id = 0,
+		item1_num = 0,
+		item2_num = 0,
+		id = 9707074,
+		item1 = 21048,
 		level = 0,
 		weapon_ids = {}
 	},

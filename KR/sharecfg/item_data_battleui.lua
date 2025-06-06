@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "106",
 		scene = {}
 	},
+	[107] = {
+		unlock = "특허 투어 패스 23기 보상",
+		name = "스텔라",
+		key = "SkinNormal_20250529",
+		display_icon = "ui_107",
+		is_unlock = 1,
+		rare = 3,
+		desc = "반짝이는 별빛과 신비로운 문양이 은하의 윤곽을 비추고, 세밀한 부분 하나하나가 우주의 탐구와 모험을 이야기하고 있다.",
+		id = 107,
+		icon = "107",
+		scene = {}
+	},
 	[201] = {
 		unlock = "상점 구매 (전투 UI·크리스마스)",
 		name = "크리스마스",
@@ -120,6 +132,18 @@ pg.item_data_battleui = {
 		icon = "203",
 		scene = {}
 	},
+	[204] = {
+		unlock = "상점 구매 (전투 UI·시사이드)",
+		name = "시사이드",
+		key = "SkinElite_20250520",
+		display_icon = "ui_204",
+		is_unlock = 1,
+		rare = 4,
+		desc = "모래사장에 세워진 나무판, 조개껍데기로 장식된 흰 파도. 바닷가에서 여유롭고 한가롭게 보내는 바캉스.",
+		id = 204,
+		icon = "204",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -128,8 +152,10 @@ pg.item_data_battleui = {
 		104,
 		105,
 		106,
+		107,
 		201,
 		202,
-		203
+		203,
+		204
 	}
 }

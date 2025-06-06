@@ -297,6 +297,16 @@ pg.task_meta_data_template = setmetatable({
 		100413,
 		100414,
 		100415,
+		100421,
+		100422,
+		100423,
+		100424,
+		100425,
+		100431,
+		100432,
+		100433,
+		100434,
+		100435,
 		200001,
 		200002,
 		200003,
@@ -424,7 +434,15 @@ pg.task_meta_data_template = setmetatable({
 		200321,
 		200322,
 		200323,
-		200324
+		200324,
+		200331,
+		200332,
+		200333,
+		200334,
+		200341,
+		200342,
+		200343,
+		200344
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2789,6 +2807,86 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "네바다·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100421] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100421,
+		target_num = 1,
+		desc = "그렌빌·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100422] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100422,
+		target_num = 1,
+		desc = "그렌빌·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100423] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100423,
+		target_num = 1,
+		desc = "그렌빌·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100424] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100424,
+		target_num = 1,
+		desc = "그렌빌·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100425] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970107",
+		id = 100425,
+		target_num = 1,
+		desc = "그렌빌·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
+	[100431] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100431,
+		target_num = 1,
+		desc = "글로리어스·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100432] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100432,
+		target_num = 1,
+		desc = "글로리어스·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100433] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100433,
+		target_num = 1,
+		desc = "글로리어스·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100434] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100434,
+		target_num = 1,
+		desc = "글로리어스·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100435] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100435,
+		target_num = 1,
+		desc = "글로리어스·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3812,5 +3910,69 @@ pg.base.task_meta_data_template = {
 		id = 200324,
 		target_num = 1,
 		desc = "대형작전에서 네바다·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200331] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200331,
+		target_num = 1,
+		desc = "대형작전에서 그렌빌·META를 포함한 함대로 1회 승리"
+	},
+	[200332] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200332,
+		target_num = 1,
+		desc = "대형작전에서 그렌빌·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200333] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200333,
+		target_num = 1,
+		desc = "대형작전에서 그렌빌·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200334] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970107",
+		id = 200334,
+		target_num = 1,
+		desc = "대형작전에서 그렌빌·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200341] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200341,
+		target_num = 1,
+		desc = "대형작전에서 글로리어스·META를 포함한 함대로 1회 승리"
+	},
+	[200342] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200342,
+		target_num = 1,
+		desc = "대형작전에서 글로리어스·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200343] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200343,
+		target_num = 1,
+		desc = "대형작전에서 글로리어스·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200344] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200344,
+		target_num = 1,
+		desc = "대형작전에서 글로리어스·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

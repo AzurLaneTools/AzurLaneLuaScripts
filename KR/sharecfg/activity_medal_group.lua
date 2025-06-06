@@ -241,11 +241,109 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[5970] = {
+		entrance_picture = "medalAlbum/5970",
+		id = 5970,
+		group_name = "높은 탑의 장미",
+		is_out_of_print = 0,
+		activity_medal_ids = {
+			597001,
+			597002,
+			597003,
+			597004,
+			597005,
+			597006,
+			597007,
+			597008
+		},
+		activity_link = {
+			{
+				1,
+				5970,
+				{
+					21714,
+					21715,
+					21716,
+					21717,
+					21718,
+					21719,
+					21720,
+					21721,
+					21722
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TowerRoseMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				303,
+				1
+			},
+			{
+				8,
+				65602,
+				1
+			}
+		}
+	},
+	[5971] = {
+		entrance_picture = "medalAlbum/5971",
+		id = 5971,
+		group_name = "다시 돌아온 한여름!",
+		is_out_of_print = 0,
+		activity_medal_ids = {
+			597101,
+			597102,
+			597103,
+			597104,
+			597105,
+			597106,
+			597107
+		},
+		activity_link = {
+			{
+				1,
+				5971,
+				{
+					21723,
+					21724,
+					21725,
+					21726,
+					21727,
+					21728,
+					21729,
+					21730
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "HolidayVillaMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				304,
+				1
+			},
+			{
+				8,
+				65611,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
 		5812,
 		5875,
-		5913
+		5913,
+		5970,
+		5971
 	}
 }

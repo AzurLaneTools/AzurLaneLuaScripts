@@ -104,7 +104,7 @@ SCENE = {
 	HOTSPRING = "hotSpring",
 	EQUIPSCENE = "scene equip",
 	COWBOY_TOWN_BACKHILL = "COWBOY_TOWN_BACKHILL",
-	CASTLE_MAIN = "CASTLE_MAIN",
+	HOLIDAY_VILLA_MAP = "holiday villa map",
 	TECHNOLOGY_TREE_SCENE = "technology tree scene",
 	FEAST = "scene Feast",
 	NEWYEAR_BACKHILL_2023 = "NEWYEAR BACKHILL 2023",
@@ -116,12 +116,15 @@ SCENE = {
 	FIREWORK_AND_SPRING = "firework and spring",
 	HOTSPRING_REDPACKET = "hotSpring redpacket",
 	BOSS_SINGLE_PRECONBAT = "BossSinglePreCombat",
-	ISLAND = "scene island",
+	CASTLE_MAIN = "CASTLE_MAIN",
 	BILLBOARD = "scene billboard",
 	DREAMLAND = "DREAMLAND",
+	PAINTING_SHOW = "painting show",
+	HOLIDAY_VILLA_HOTSPRING = "HOLIDAY_VILLA_HOTSPRING",
 	ROGUE_FINAL_RESULT = "ROGUE_FINAL_RESULT",
 	NEW_EDUCATE_SCHEDULE = "NEW_EDUCATE_SCHEDULE",
 	OTHER_WORLD_TASK_LAYER = "other world task scene",
+	COLLECTION_BOOK = "collection book",
 	SHOP = "scene shop",
 	SINGLE_ACTIVITY = "single activity",
 	BACKYARD_THEME_TEMPLATE = "backyard theme template",
@@ -168,6 +171,7 @@ SCENE = {
 	SSSS_ACADEMY = "SSSS ACADEMY",
 	BIANDUI = "scene biandui",
 	SIXTH_ANNIVERSARY_JP = "SIXTH_ANNIVERSARY_JP",
+	COMMANDER_MANUAL = "commander manual",
 	COLORING = "scene coloring",
 	SENRANKAGURA_BACKHILL = "SENRANKAGURA_BACKHILL",
 	PUBLIC_GUILD = "public guild",
@@ -178,7 +182,6 @@ SCENE = {
 	TOLOVE_COLLAB_BACKHILL = "TOLOVE_COLLAB_BACKHILL",
 	BACK_CHARGE = "back charge",
 	CARD_TOWER_CHARACTER_SELECT = "CARD_TOWER_CHARACTER_SELECT",
-	SHARED_ISLAND = "shared scene island",
 	SSSS_MEDAL_COLLECTION = "SSSS_MEDAL_COLLECTION",
 	CREATE_PLAYER = "scene create player",
 	ZUMA_PT_SHOP = "ZUMA_PT_SHOP",
@@ -195,7 +198,6 @@ SCENE = {
 	SPRING_FESTIVAL_BACKHILL_2022 = "springfestival BackHill 2022",
 	METACHARACTER = "metacharacter",
 	MILITARYEXERCISE = " scene militaryexercise",
-	ISLAND_WORLD_MAP = "island world map",
 	AMUSEMENT_PARK2 = "amusement park 2"
 }
 slot0 = {
@@ -210,14 +212,6 @@ slot0 = {
 	[SCENE.EDUCATE_DOCK] = function (slot0, slot1)
 		slot0.mediator = EducateCharDockMediator
 		slot0.viewComponent = EducateCharDockScene
-	end,
-	[SCENE.ISLAND] = function (slot0, slot1)
-		slot0.mediator = IslandMediator
-		slot0.viewComponent = IslandScene
-	end,
-	[SCENE.SHARED_ISLAND] = function (slot0, slot1)
-		slot0.mediator = SharedIslandMediator
-		slot0.viewComponent = SharedIslandScene
 	end,
 	[SCENE.US_CASTLE_2023] = function (slot0, slot1)
 		slot0.mediator = BackHillMediatorTemplate
@@ -968,9 +962,25 @@ slot0 = {
 		slot0.mediator = BossSinglePreCombatMediator
 		slot0.viewComponent = BossSinglePreCombatLayer
 	end,
-	[SCENE.ISLAND_WORLD_MAP] = function (slot0, slot1)
-		slot0.mediator = IslandWorldMapMediator
-		slot0.viewComponent = IslandWorldMapLayer
+	[SCENE.COMMANDER_MANUAL] = function (slot0, slot1)
+		slot0.mediator = CommanderManualMediator
+		slot0.viewComponent = CommanderManualLayer
+	end,
+	[SCENE.HOLIDAY_VILLA_MAP] = function (slot0, slot1)
+		slot0.mediator = HolidayVillaMapMediator
+		slot0.viewComponent = HolidayVillaMapScene
+	end,
+	[SCENE.PAINTING_SHOW] = function (slot0, slot1)
+		slot0.mediator = PaintingShowMediator
+		slot0.viewComponent = PaintingShowScene
+	end,
+	[SCENE.HOLIDAY_VILLA_HOTSPRING] = function (slot0, slot1)
+		slot0.mediator = HolidayVillaHotSpringMediator
+		slot0.viewComponent = HolidayVillaHotSpringScene
+	end,
+	[SCENE.COLLECTION_BOOK] = function (slot0, slot1)
+		slot0.mediator = CollectionBookMediator
+		slot0.viewComponent = CollectionBookLayer
 	end
 }
 
@@ -992,6 +1002,8 @@ SCENE.GetInvitationPage = function(slot0)
 		slot2 = AssignedShipForShrineScene
 	elseif slot1 == "greeting_year" then
 		slot2 = AssignedShipForGreetingScene
+	elseif slot1 == "build_ur" then
+		slot2 = AssignedShipForBuildURScene
 	end
 
 	assert(slot2, slot1)
@@ -1138,6 +1150,17 @@ slot1 = {
 
 		seriesAsync(slot2, slot1)
 	end,
+	HolidayVillaMapMediator = function (slot0, slot1)
+		if getProxy(ActivityProxy):getActivityById(ActivityConst.HOLIDAY_ACT_PRE_ID).data3 >= 5 then
+			if getProxy(TaskProxy):getTaskVO(underscore.flatten(slot2:getConfig("config_data"))[slot2.data3]):getTaskStatus() == 2 then
+				slot1()
+			else
+				pg.TipsMgr.GetInstance():ShowTips(i18n("holiday_villa_locked"))
+			end
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("holiday_villa_locked"))
+		end
+	end,
 	SixthAnniversaryIslandMediator = function (slot0, slot1)
 		if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ISLAND) or slot2.isEnd(slot2) then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
@@ -1146,7 +1169,7 @@ slot1 = {
 		end
 
 		AnniversaryIsland2023Mediator.CheckPreloadData(slot0)
-		getProxy(SixthAnniversaryIslandProxy):CheckAndRequest(slot1)
+		getProxy(IslandProxy):CheckAndRequest(slot1)
 	end,
 	NewShopsMediator = function (slot0, slot1)
 		pg.m02:sendNotification(GAME.GET_OPEN_SHOPS, {
@@ -1163,6 +1186,20 @@ slot1 = {
 		slot1()
 	end,
 	SixthAnniversaryIslandShopMediator = function (slot0, slot1)
+		slot3 = getProxy(ActivityProxy)
+
+		if underscore.detect(slot3:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+			return slot0:getConfig("config_id") == 3
+		end) then
+			slot0.context:extendData({
+				shop = IslandShop.New(slot2)
+			})
+			slot1()
+		else
+			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
+		end
+	end,
+	HolidayVillaShopMediator = function (slot0, slot1)
 		slot3 = getProxy(ActivityProxy)
 
 		if underscore.detect(slot3:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
@@ -1343,6 +1380,10 @@ slot1 = {
 	end,
 	Dorm3dShopMediator = function (slot0, slot1)
 		getProxy(ApartmentProxy):InitGiftDaily()
+		slot1()
+	end,
+	CommanderManualMediator = function (slot0, slot1)
+		getProxy(CommanderManualProxy):GetPagesTasks()
 		slot1()
 	end
 }

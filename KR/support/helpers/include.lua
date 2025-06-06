@@ -8,6 +8,7 @@ require("Support/Helpers/AndroidSupport")
 require("Support/Helpers/PermissionHelper")
 require("Support/Helpers/TimelineSupport")
 
+MusicPlayer = require("Support/Helpers/MusicPlayer")
 TimelinePlayer = require("Support/Helpers/TimelinePlayer")
 ReflectionHelp = require("Support/Helpers/ReflectionHelp")
 Heap = require("Support/Helpers/Heap")

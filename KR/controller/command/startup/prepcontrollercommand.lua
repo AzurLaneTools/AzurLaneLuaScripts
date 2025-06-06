@@ -297,6 +297,8 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.APPRECIATE_MUSIC_LIKE, MusicLikeCommand)
 	slot0.facade:registerCommand(GAME.APPRECIATE_MANGA_READ, MangaReadCommand)
 	slot0.facade:registerCommand(GAME.APPRECIATE_MANGA_LIKE, MangaLikeCommand)
+	slot0.facade:registerCommand(GAME.APPRECIATE_CHANGE_MAIN_PLAY_ALBUM, MusicMainPlayAlbumChangeCommand)
+	slot0.facade:registerCommand(GAME.APPRECIATE_CHANGE_MUSIC_PLAY_LOOP_TYPE, MusicPlayLoopTypeChangeCommand)
 	slot0.facade:registerCommand(GAME.TROPHY_CLAIM, TrophyClaimCommand)
 	slot0.facade:registerCommand(GAME.EVENT_FINISH, EventFinishCommand)
 	slot0.facade:registerCommand(GAME.EVENT_FLUSH_NIGHT, EventFlushCommand)
@@ -593,6 +595,7 @@ slot0.execute = function(slot0, slot1)
 	slot0.facade:registerCommand(GAME.ISLAND_USESPEEDUPCARD, IslandUseSpeedupCardCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_START_COLLECT, IslandSlotCollectCommand)
 	slot0.facade:registerCommand(GAME.ISLAND_SHIP_ORDER_OP, IslandShipOrderOpCommand)
+	slot0.facade:registerCommand(GAME.COMMANDER_MANUAL_OP, CommanderManualCommand)
 end
 
 return slot0

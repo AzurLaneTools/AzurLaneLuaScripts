@@ -154,7 +154,6 @@ slot0.setRankItemData = function(slot0, slot1, slot2, slot3)
 
 	setText(findTF(slot1, "rank/count"), tostring(slot3))
 	setText(findTF(slot1, "score"), tostring(slot7))
-	setText(findTF(slot1, "time"), tostring(slot8))
 	setActive(findTF(slot1, "imgMy"), slot9)
 end
 
@@ -164,19 +163,57 @@ slot0.setChildVisible = function(slot0, slot1, slot2)
 	end
 end
 
+slot0.initRankUI = function(slot0)
+	slot0.rankUI = findTF(slot0._tf, "pop/RankUI")
+
+	slot0:showRank(false)
+
+	slot1 = GetComponent(findTF(slot0.rankUI, "ad/img/score"), typeof(Image))
+
+	slot1:SetNativeSize()
+
+	slot1 = GetComponent(findTF(slot0.rankUI, "ad/img/time"), typeof(Image))
+
+	slot1:SetNativeSize()
+
+	slot0._rankImg = findTF(slot0.rankUI, "ad/img")
+	slot0._rankBtnClose = findTF(slot0.rankUI, "ad/btnClose")
+	slot0._rankContent = findTF(slot0.rankUI, "ad/list/content")
+	slot0._rankItemTpl = findTF(slot0.rankUI, "ad/list/content/itemTpl")
+	slot0._rankEmpty = findTF(slot0.rankUI, "ad/empty")
+	slot0._rankDesc = findTF(slot0.rankUI, "ad/desc")
+	slot0._rankItems = {}
+
+	setActive(slot0._rankItemTpl, false)
+	onButton(slot0._event, findTF(slot0.rankUI, "ad/close"), function ()
+		uv0:showRank(false)
+	end, SFX_CANCEL)
+	onButton(slot0._event, slot0._rankBtnClose, function ()
+		uv0:showRank(false)
+	end, SFX_CANCEL)
+	setText(slot0._rankDesc, i18n(WatermelonGameConst.rank_tip))
+end
+
+slot0.showRank = function(slot0, slot1)
+	setActive(slot0.rankUI, slot1)
+end
+
 slot0.updateSettlementUI = function(slot0)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
-	slot3 = slot0._gameVo.mgData:GetRuntimeData("elements") and #slot2 > 0 and slot2[1] or 0
+	slot2 = slot0._gameVo.scoreNum
 
-	setActive(findTF(slot0.settlementUI, "ad/new"), slot3 < slot0._gameVo.scoreNum)
-	setText(findTF(slot0.settlementUI, "ad/currentText"), slot4)
-	setText(findTF(slot0.settlementUI, "ad/highText"), slot3)
+	setActive(findTF(slot0.settlementUI, "ad/new"), (getProxy(MiniGameProxy):GetHighScore(slot0._gameVo.gameId) and #slot3 > 0 and slot3[1] or 0) < slot2)
 
-	if slot0._gameVo:getGameTimes() and slot7 > 0 and not slot0.sendSuccessFlag then
-		slot0._event:emit(WatermelonGameEvent.SUBMIT_GAME_SUCCESS)
+	if slot2 > 0 and slot4 < slot2 then
+		slot0._event:emit(WatermelonGameEvent.STORE_SERVER, {
+			slot2,
+			1
+		})
 	end
 
+	setText(findTF(slot0.settlementUI, "ad/currentText"), slot2)
+	setText(findTF(slot0.settlementUI, "ad/highText"), slot4)
 	slot0._event:emit(WatermelonGameEvent.SUBMIT_GAME_SUCCESS)
 end
 

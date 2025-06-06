@@ -84,6 +84,8 @@ pg.pay_data_display = setmetatable({
 		88,
 		89,
 		90,
+		91,
+		92,
 		1000,
 		1001,
 		1002,
@@ -106,6 +108,7 @@ pg.pay_data_display = setmetatable({
 		1019,
 		1020,
 		1021,
+		1022,
 		2001,
 		2002,
 		2003,
@@ -153,6 +156,9 @@ pg.pay_data_display = setmetatable({
 		2047,
 		2048,
 		2049,
+		2050,
+		2051,
+		2052,
 		5011,
 		5012,
 		5013,
@@ -8868,6 +8874,234 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[91] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "수영복 패키지(2025)·I",
+		first_pay_double = 0,
+		name_display = "수영복 패키지(2025)·I",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "수영복 패키지(2025)·I",
+		money = 37000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai24",
+		skin_inquire_relation = 86213,
+		id_str = "alkrgift142",
+		extra_service = 3,
+		id = 91,
+		airijp_id = "com.yostarjp.azurlane.diamond179",
+		extra_service_item = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81213,
+				1
+			}
+		}
+	},
+	[92] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※복주머니는 구매 후 우편함으로 발송됩니다. \n이미 소지 중인 스킨을 획득한 경우에는 자동적으로 스킨 가치만큼의 무상 다이아로 변환됩니다.",
+		type = 1,
+		name = "수영복 패키지(2024)·I  (복각)",
+		first_pay_double = 0,
+		name_display = "수영복 패키지(2024)·I  (복각)",
+		descrip = "아이템, 자원 및 랜덤 스킨 획득 가능",
+		subject = "수영복 패키지(2024)·I  (복각)",
+		money = 37000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai13",
+		skin_inquire_relation = 86204,
+		id_str = "alkrgift143",
+		extra_service = 3,
+		id = 92,
+		airijp_id = "com.yostarjp.azurlane.diamond180",
+		extra_service_item = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86204,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81204,
+				1
+			}
+		}
+	},
 	[1000] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -10534,6 +10768,82 @@ pg.base.pay_data_display = {
 		},
 		sub_display = {
 			7022,
+			1500
+		},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[1022] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "※ 월드 투어 클리어 시 추가 보상 획득 가능",
+		type = 0,
+		name = "특허 투어 패스(25 초봄)",
+		first_pay_double = 0,
+		name_display = "특허 투어 패스(25 초봄)",
+		descrip = "구매 시 월드 투어의 투어 PT 1,500 획득 및 SP 보상 오픈",
+		subject = "특허 투어 패스(25 초봄)",
+		money = 12000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 6,
+		picture = "battlepass_1",
+		skin_inquire_relation = 0,
+		id_str = "&alkrgift144",
+		extra_service = 4,
+		id = 1022,
+		airijp_id = "com.yostarjp.azurlane.seasonpass23",
+		extra_service_item = {
+			{
+				1,
+				4023,
+				1500
+			},
+			{
+				8,
+				65100,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					7
+				},
+				{
+					22,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				8,
+				59599,
+				1500
+			}
+		},
+		sub_display = {
+			7023,
 			1500
 		},
 		ignorePlatform = {},
@@ -14201,6 +14511,242 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40023,
+				1
+			}
+		}
+	},
+	[2050] = {
+		extra_gem = 0,
+		limit_group = 105,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·시사이드",
+		first_pay_double = 0,
+		name_display = "전투 UI·시사이드",
+		descrip = "전투 UI 테마·시사이드를 획득할 수 있습니다.",
+		subject = "전투 UI·시사이드",
+		money = 15000,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui5",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift145",
+		extra_service = 3,
+		id = 2050,
+		airijp_id = "com.yostarjp.azurlane.ui12",
+		extra_service_item = {
+			{
+				31,
+				204,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				204,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2051] = {
+		extra_gem = 0,
+		limit_group = 105,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·시사이드 (기초)",
+		first_pay_double = 0,
+		name_display = "전투 UI·시사이드 (기초)",
+		descrip = "전투 UI 테마·시사이드를 획득할 수 있습니다.",
+		subject = "전투 UI·시사이드 (기초)",
+		money = 15000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui5",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift145",
+		extra_service = 3,
+		id = 2051,
+		airijp_id = "com.yostarjp.azurlane.ui13",
+		extra_service_item = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40060,
+				1
+			}
+		}
+	},
+	[2052] = {
+		extra_gem = 0,
+		limit_group = 105,
+		descrip_extra = "※구매한 아이템은 우편함으로 발송됩니다.",
+		type = 0,
+		name = "전투 UI·시사이드 (럭셔리)",
+		first_pay_double = 0,
+		name_display = "전투 UI·시사이드 (럭셔리)",
+		descrip = "전투 UI·시사이드, 다이아 3,060개를 획득할 수 있습니다.",
+		subject = "전투 UI·시사이드 (럭셔리)",
+		money = 52000,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui5",
+		skin_inquire_relation = 0,
+		id_str = "alkrgift146",
+		extra_service = 3,
+		id = 2052,
+		airijp_id = "com.yostarjp.azurlane.ui14",
+		extra_service_item = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40061,
 				1
 			}
 		}

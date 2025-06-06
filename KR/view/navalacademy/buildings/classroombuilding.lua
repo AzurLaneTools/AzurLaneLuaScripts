@@ -44,6 +44,19 @@ slot0.OnClick = function(slot0)
 	slot0:emit(NavalAcademyMediator.ON_OPEN_CLASSROOM)
 end
 
+slot0.OnInit = function(slot0)
+	uv0.super.OnInit(slot0)
+
+	slot1 = slot0:IsUnlock()
+
+	setActive(slot0._tf:Find("name/level"), slot1)
+	setActive(slot0._tf:Find("name/lock"), not slot1)
+end
+
+slot0.IsUnlock = function(slot0)
+	return pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getRawData().level, "ClassMediator")
+end
+
 slot0.GetResField = function(slot0)
 	return slot0.parent.classResField
 end

@@ -15629,6 +15629,99 @@ _G.pg.base.item_data_statistics[21046] = {
 }
 
 
+_G.pg.base.item_data_statistics[21047] = {
+	open_directly = 0,
+	name = "결정: 그렌빌·META",
+	type = 4,
+	display = "그렌빌·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21047",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21047,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21048] = {
+	open_directly = 0,
+	name = "결정: 글로리어스·META",
+	type = 4,
+	display = "글로리어스·META의 능력을 상승시키는 아이템. META 연구실의 한계돌파에서 사용 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21048",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21048,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[21049] = {
+	open_directly = 0,
+	name = "结晶：江风namecode·META占坑",
+	type = 4,
+	display = "占坑",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/21049",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 21049,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[21101] = {
 	open_directly = 0,
 	name = "결정화 내열강",
@@ -26505,6 +26598,131 @@ _G.pg.base.item_data_statistics[30367] = {
 }
 
 
+_G.pg.base.item_data_statistics[30368] = {
+	open_directly = 1,
+	name = "장비 스킨 상자 (시사이드)",
+	type = 11,
+	display = "무작위로 장비 스킨 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhaibin",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30368",
+	id = 30368,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4167,
+			1
+		},
+		{
+			9,
+			4168,
+			1
+		},
+		{
+			9,
+			4169,
+			1
+		},
+		{
+			9,
+			4170,
+			1
+		},
+		{
+			9,
+			4171,
+			1
+		},
+		{
+			9,
+			4172,
+			1
+		},
+		{
+			9,
+			4173,
+			1
+		},
+		{
+			9,
+			4174,
+			1
+		},
+		{
+			9,
+			4175,
+			1
+		},
+		{
+			9,
+			4176,
+			1
+		},
+		{
+			9,
+			4177,
+			1
+		},
+		{
+			9,
+			4178,
+			1
+		},
+		{
+			9,
+			4179,
+			1
+		},
+		{
+			9,
+			4180,
+			1
+		},
+		{
+			9,
+			4181,
+			1
+		},
+		{
+			9,
+			4182,
+			1
+		},
+		{
+			9,
+			4183,
+			1
+		},
+		{
+			9,
+			4184,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "장비스킨 상자(월드 투어)",
@@ -27923,6 +28141,58 @@ _G.pg.base.item_data_statistics[30427] = {
 		{
 			9,
 			2096,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30428] = {
+	open_directly = 1,
+	name = "무작위 장비 스킨",
+	type = 11,
+	display = "크루즈 보상 장비 스킨을 무작위로 하나 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxshijiexunyou",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "111223",
+	id = 30428,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			2097,
+			1
+		},
+		{
+			9,
+			2098,
+			1
+		},
+		{
+			9,
+			2099,
+			1
+		},
+		{
+			9,
+			2100,
 			1
 		}
 	},
@@ -39193,6 +39463,219 @@ _G.pg.base.item_data_statistics[30554] = {
 }
 
 
+_G.pg.base.item_data_statistics[30555] = {
+	open_directly = 0,
+	name = "선택 장비 스킨 상자 (시사이드)",
+	type = 13,
+	display = "사용하면 장비 스킨(시사이드) 중 하나를 선택해서 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxhaibinzixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30555,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4167,
+			1
+		},
+		{
+			9,
+			4168,
+			1
+		},
+		{
+			9,
+			4169,
+			1
+		},
+		{
+			9,
+			4170,
+			1
+		},
+		{
+			9,
+			4171,
+			1
+		},
+		{
+			9,
+			4172,
+			1
+		},
+		{
+			9,
+			4173,
+			1
+		},
+		{
+			9,
+			4174,
+			1
+		},
+		{
+			9,
+			4175,
+			1
+		},
+		{
+			9,
+			4176,
+			1
+		},
+		{
+			9,
+			4177,
+			1
+		},
+		{
+			9,
+			4178,
+			1
+		},
+		{
+			9,
+			4179,
+			1
+		},
+		{
+			9,
+			4180,
+			1
+		},
+		{
+			9,
+			4181,
+			1
+		},
+		{
+			9,
+			4182,
+			1
+		},
+		{
+			9,
+			4183,
+			1
+		},
+		{
+			9,
+			4184,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4167,
+			1
+		},
+		{
+			9,
+			4168,
+			1
+		},
+		{
+			9,
+			4169,
+			1
+		},
+		{
+			9,
+			4170,
+			1
+		},
+		{
+			9,
+			4171,
+			1
+		},
+		{
+			9,
+			4172,
+			1
+		},
+		{
+			9,
+			4173,
+			1
+		},
+		{
+			9,
+			4174,
+			1
+		},
+		{
+			9,
+			4175,
+			1
+		},
+		{
+			9,
+			4176,
+			1
+		},
+		{
+			9,
+			4177,
+			1
+		},
+		{
+			9,
+			4178,
+			1
+		},
+		{
+			9,
+			4179,
+			1
+		},
+		{
+			9,
+			4180,
+			1
+		},
+		{
+			9,
+			4181,
+			1
+		},
+		{
+			9,
+			4182,
+			1
+		},
+		{
+			9,
+			4183,
+			1
+		},
+		{
+			9,
+			4184,
+			1
+		}
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30900] = {
 	open_directly = 0,
 	name = "지향형 부속T4",
@@ -42712,6 +43195,90 @@ _G.pg.base.item_data_statistics[40059] = {
 			2,
 			16502,
 			50
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40060] = {
+	open_directly = 1,
+	name = "전투 UI·시사이드 (기초)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·시사이드, 물자×1000 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4061",
+	id = 40060,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			204,
+			1
+		},
+		{
+			1,
+			1,
+			1000
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[40061] = {
+	open_directly = 1,
+	name = "전투 UI·시사이드 (럭셔리)",
+	type = 17,
+	display = "구매하면 전투 UI 테마·시사이드, 다이아×3060 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "OpenBox",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/ui5",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "4062",
+	id = 40061,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			31,
+			204,
+			1
+		},
+		{
+			1,
+			14,
+			3060
 		}
 	},
 	price = {},
@@ -88494,6 +89061,37 @@ _G.pg.base.item_data_statistics[59854] = {
 }
 
 
+_G.pg.base.item_data_statistics[59855] = {
+	open_directly = 0,
+	name = "八周年纪念币",
+	type = 1,
+	display = "八周年活动「TH8纪念签到」获取——八方碧海，大小通吃",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/59855",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 59855,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[59900] = {
 	open_directly = 0,
 	name = "코어 데이터",
@@ -97221,6 +97819,748 @@ _G.pg.base.item_data_statistics[60534] = {
 }
 
 
+_G.pg.base.item_data_statistics[60535] = {
+	open_directly = 0,
+	name = "여름의 초대장 2025",
+	type = 21,
+	display = "사용하면 대상 함선 중 1명을 골라 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60535,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3001,
+		3002,
+		3003,
+		3004,
+		3005,
+		3006,
+		3007,
+		3008
+	},
+	limit = {},
+	open_ui = {
+		"login_year",
+		"t_eighth"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60536] = {
+	open_directly = 0,
+	name = "다이호의 답례",
+	type = 1,
+	display = "초대에 대한 다이호의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60536,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60537] = {
+	open_directly = 0,
+	name = "소비에츠카야 벨로루시아의 답례",
+	type = 1,
+	display = "초대에 대한 소비에츠카야 벨로루시아의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60537,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60538] = {
+	open_directly = 0,
+	name = "포미더블의 답례",
+	type = 1,
+	display = "초대에 대한 포미더블의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60538,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60539] = {
+	open_directly = 0,
+	name = "U-81의 답례",
+	type = 1,
+	display = "초대에 대한 U-81의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60539,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60540] = {
+	open_directly = 0,
+	name = "일러스트리어스의 답례",
+	type = 1,
+	display = "초대에 대한 일러스트리어스의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60540,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60541] = {
+	open_directly = 0,
+	name = "그라프 체펠린의 답례",
+	type = 1,
+	display = "초대에 대한 그라프 체펠린의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60541,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60542] = {
+	open_directly = 0,
+	name = "볼티모어의 답례",
+	type = 1,
+	display = "초대에 대한 볼티모어의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60542,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60543] = {
+	open_directly = 0,
+	name = "차파예프의 답례",
+	type = 1,
+	display = "초대에 대한 차파예프의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60543,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60544] = {
+	open_directly = 0,
+	name = "훈련 보상 초대장",
+	type = 21,
+	display = "사용하면 대상 함선 중 1명을 골라 획득 가능",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_invitation",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 60544,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		3101,
+		3102
+	},
+	limit = {},
+	open_ui = {
+		"build_ur"
+	}
+}
+
+
+_G.pg.base.item_data_statistics[60545] = {
+	open_directly = 0,
+	name = "시나노의 답례",
+	type = 1,
+	display = "초대에 대한 시나노의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60545,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[60546] = {
+	open_directly = 0,
+	name = "뉴저지의 답례",
+	type = 1,
+	display = "초대에 대한 뉴저지의 답례",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/yaoqinghan",
+	order = 0,
+	rarity = 9,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 60546,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68063] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(沙滩的慵懒主宰)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>狮</color>换装<color=#92fc63FF>沙滩的慵懒主宰</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "905667",
+	id = 68063,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68066,
+			1
+		},
+		{
+			2,
+			68069,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68064] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(绮愿良宵)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:97}</color>换装<color=#92fc63FF>绮愿良宵</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "905668",
+	id = 68064,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68067,
+			1
+		},
+		{
+			2,
+			68070,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68065] = {
+	open_directly = 1,
+	name = "换装抵扣礼包(优哉游哉的龙神大人)",
+	type = 17,
+	display = "购买后可获得<color=#92fc63FF>{namecode:292}</color>换装<color=#92fc63FF>优哉游哉的龙神大人</color>的钻石抵扣券等道具",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/skin_ticket_package",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "905669",
+	id = 68065,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			68068,
+			1
+		},
+		{
+			2,
+			68071,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68066] = {
+	open_directly = 0,
+	name = "换装抵扣券(沙滩的慵懒主宰)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>狮</color>换装<color=#92fc63FF>沙滩的慵懒主宰</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年5月24日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68066,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71134
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68067] = {
+	open_directly = 0,
+	name = "换装抵扣券(绮愿良宵)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:97}</color>换装<color=#92fc63FF>绮愿良宵</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年5月24日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68067,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71140
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68068] = {
+	open_directly = 0,
+	name = "换装抵扣券(优哉游哉的龙神大人)",
+	type = 1,
+	display = "持有此道具时，购买<color=#92fc63FF>{namecode:292}</color>换装<color=#92fc63FF>优哉游哉的龙神大人</color>时可消耗此道具，并抵扣300钻石\n<color=#ff5c5c>道具有效期：自获得后～2025年5月24日23:59，过期后此道具将消失，并自动转化为300钻石</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_shop_discount",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skin_300",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68068,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		14,
+		300
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			71139
+		},
+		300
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68069] = {
+	open_directly = 0,
+	name = "换装体验券(沙滩的慵懒主宰)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>狮</color>换装<color=#92fc63FF>沙滩的慵懒主宰</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年5月24日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68069,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90342
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68070] = {
+	open_directly = 0,
+	name = "换装体验券(绮愿良宵)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:97}</color>换装<color=#92fc63FF>绮愿良宵</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年5月24日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68070,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90343
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[68071] = {
+	open_directly = 0,
+	name = "换装体验券(优哉游哉的龙神大人)",
+	type = 1,
+	display = "使用后可前往换装体验兑换界面，界面内可以选择兑换<color=#92fc63FF>{namecode:292}</color>换装<color=#92fc63FF>优哉游哉的龙神大人</color>的2天换装体验资格\n<color=#ff5c5c>道具有效期：自获得后～2025年5月24日23:59，过期后此道具将消失</color>",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_skin_exp",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/limit_skinticket",
+	order = 1,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 1,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 68071,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {
+		1,
+		0
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		90344
+	},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[70144] = {
 	open_directly = 0,
 	name = "「휴일 항로」 캐릭터 임의 선택",
@@ -98342,6 +99682,73 @@ _G.pg.base.item_data_statistics[81212] = {
 		}
 	},
 	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81213] = {
+	open_directly = 1,
+	name = "수영복 패키지(2025)·I",
+	type = 17,
+	display = "랜덤(랜덤 수영복 패키지(2025)·I의) 스킨, 상급 지향형 강화 유닛·7기×2, 다이아×2025, 성정 유닛×50, 성정 큐브×20, 가구 코인×100, 고속건조재×10을 획득할 수 있습니다.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai24",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998315",
+	id = 81213,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86213,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

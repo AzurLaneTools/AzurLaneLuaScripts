@@ -23,16 +23,16 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.initEvent = function(slot0)
-	if not slot0.handle and IsUnityEditor then
-		slot0.handle = UpdateBeat:CreateListener(slot0.OnUpdate, slot0)
+	if not slot0.handle then
+		slot0.handle = FixedUpdateBeat:CreateListener(slot0.OnUpdate, slot0)
 
-		UpdateBeat:AddListener(slot0.handle)
+		FixedUpdateBeat:AddListener(slot0.handle)
 	end
 
 	slot0:bind(WatermelonGameEvent.LEVEL_GAME, function (slot0, slot1, slot2)
 		if slot1 then
 			uv0:resumeGame()
-			uv0:onGameOver()
+			uv0:onGameOver(false)
 		else
 			uv0:resumeGame()
 		end
@@ -67,7 +67,7 @@ slot0.initEvent = function(slot0)
 		uv0:closeView()
 	end)
 	slot0:bind(WatermelonGameEvent.GAME_OVER, function (slot0, slot1, slot2)
-		uv0:onGameOver()
+		uv0:onGameOver(slot1)
 	end)
 	slot0:bind(WatermelonGameEvent.SHOW_RULE, function (slot0, slot1, slot2)
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
@@ -76,6 +76,7 @@ slot0.initEvent = function(slot0)
 		})
 	end)
 	slot0:bind(WatermelonGameEvent.SHOW_RANK, function (slot0, slot1, slot2)
+		uv0:getRankData()
 		uv0.popUI:showRank(true)
 	end)
 	slot0:bind(WatermelonGameEvent.READY_START, function (slot0, slot1, slot2)
@@ -94,6 +95,9 @@ slot0.initEvent = function(slot0)
 	slot0:bind(WatermelonGameEvent.ADD_SCORE, function (slot0, slot1, slot2)
 		uv0:addScore(slot1.num)
 		uv0.gameUI:addScore(slot1)
+	end)
+	slot0:bind(WatermelonGameEvent.UPDATE_NEXT_BALL, function (slot0, slot1, slot2)
+		uv0.gameUI:updateBallId(slot1)
 	end)
 end
 
@@ -218,8 +222,38 @@ slot0.timerStop = function(slot0)
 	slot0.gameScene:stop()
 end
 
+slot0.getRankData = function(slot0)
+	pg.m02:sendNotification(GAME.MINI_GAME_FRIEND_RANK, {
+		id = uv0.gameId,
+		callback = function (slot0)
+			slot1 = {}
+
+			for slot5 = 1, #slot0 do
+				slot6 = {}
+
+				for slot10, slot11 in pairs(slot0[slot5]) do
+					slot6[slot10] = slot11
+				end
+
+				table.insert(slot1, slot6)
+			end
+
+			table.sort(slot1, function (slot0, slot1)
+				if slot0.score ~= slot1.score then
+					return slot1.score < slot0.score
+				elseif slot0.time_data ~= slot1.time_data then
+					return slot1.time_data < slot0.time_data
+				else
+					return slot0.player_id < slot1.player_id
+				end
+			end)
+			uv0.popUI:updateRankData(slot1)
+		end
+	})
+end
+
 slot0.stepRunTimeData = function(slot0)
-	slot1 = Time.deltaTime
+	slot1 = Time.fixedDeltaTime
 	uv0.gameTime = uv0.gameTime - slot1
 	uv0.gameStepTime = uv0.gameStepTime + slot1
 	uv0.deltaTime = slot1
@@ -229,7 +263,7 @@ slot0.addScore = function(slot0, slot1)
 	uv0.scoreNum = uv0.scoreNum + slot1
 end
 
-slot0.onGameOver = function(slot0)
+slot0.onGameOver = function(slot0, slot1)
 	if slot0.settlementFlag then
 		return
 	end
@@ -248,6 +282,11 @@ slot0.onGameOver = function(slot0)
 		uv0.popUI:updateSettlementUI()
 		uv0.popUI:popSettlementUI(true)
 	end))
+	slot0:emit(BaseMiniGameMediator.GAME_FINISH_TRACKING, {
+		game_id = slot0._gameVo.gameId,
+		hub_id = slot0._gameVo.hubId,
+		isComplete = slot1 and 1 or 0
+	})
 end
 
 slot0.OnApplicationPaused = function(slot0)
@@ -306,7 +345,7 @@ end
 
 slot0.willExit = function(slot0)
 	if slot0.handle then
-		UpdateBeat:RemoveListener(slot0.handle)
+		FixedUpdateBeat:RemoveListener(slot0.handle)
 	end
 
 	if slot0._tf and LeanTween.isTweening(go(slot0._tf)) then

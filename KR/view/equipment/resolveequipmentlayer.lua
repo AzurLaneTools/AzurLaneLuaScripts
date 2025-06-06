@@ -1,4 +1,40 @@
 slot0 = class("ResolveEquipmentLayer", import("..base.BaseUI"))
+slot1 = "resolve_equipment_option_all"
+slot2 = {
+	SR = "SR",
+	SSR = "SSR",
+	ALL = "ALL",
+	R = "R",
+	N = "N"
+}
+slot3 = {
+	[slot2.N] = {
+		1,
+		2
+	},
+	[slot2.R] = {
+		3
+	},
+	[slot2.SR] = {
+		4
+	},
+	[slot2.SSR] = {
+		5
+	},
+	[slot2.ALL] = {
+		1,
+		2,
+		3,
+		4,
+		5
+	}
+}
+slot4 = {
+	ALL = 3,
+	PART = 2,
+	NONE = 1,
+	GREY = 0
+}
 
 slot0.getUIName = function(slot0)
 	return "ResolveEquipmentUI"
@@ -26,23 +62,35 @@ slot0.init = function(slot0)
 	slot0.mainPanel = slot0:findTF("main")
 
 	setActive(slot0.mainPanel, true)
+	setText(slot0.mainPanel:Find("top/title_list/infomation/title"), i18n("title_info"))
+	setText(slot0.mainPanel:Find("title/Text"), i18n("resolve_equip_tip"))
 
 	slot0.viewRect = slot0:findTF("main/frame/view"):GetComponent("LScrollRect")
 	slot0.backBtn = slot0:findTF("main/top/btnBack")
 	slot0.cancelBtn = slot0:findTF("main/cancel_btn")
+
+	setText(slot0.cancelBtn:Find("Image"), i18n("text_cancel"))
+
 	slot0.okBtn = slot0:findTF("main/ok_btn")
 
+	setText(slot0.okBtn:Find("Image"), i18n("text_confirm"))
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {})
 
 	slot0.selectedIds = {}
-	slot0.selecteAllTF = slot0:findTF("main/all_toggle")
-	slot0.selecteAllToggle = slot0.selecteAllTF:GetComponent(typeof(Toggle))
+	slot0.selectOptions = slot0:findTF("main/options")
+
+	setText(slot0.selectOptions:Find("ALL/Label"), i18n("word_equipment_all"))
+
+	slot0.optionStatus = {}
 	slot0.destroyConfirm = slot0:findTF("destroy_confirm")
 	slot0.destroyBonusList = slot0.destroyConfirm:Find("got/scrollview/list")
 	slot0.destroyBonusItem = slot0.destroyConfirm:Find("got/scrollview/item")
 
 	setActive(slot0.destroyConfirm, false)
 	setActive(slot0.destroyBonusItem, false)
+	setText(slot0.destroyConfirm:Find("got/title"), i18n("resolve_equip_title"))
+	setText(slot0.destroyConfirm:Find("actions/cancel_button/Image"), i18n("text_cancel"))
+	setText(slot0.destroyConfirm:Find("actions/destroy_button/Image"), i18n("text_confirm"))
 
 	slot0.equipDestroyConfirmWindow = EquipDestoryConfirmWindow.New(slot0._tf, slot0.event)
 end
@@ -50,10 +98,10 @@ end
 slot0.didEnter = function(slot0)
 	slot0:initEquipments()
 	onButton(slot0, slot0.backBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		uv0:SureExit()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.cancelBtn, function ()
-		uv0:emit(uv1.ON_CLOSE)
+		uv0:SureExit()
 	end, SFX_CANCEL)
 	onButton(slot0, slot0.okBtn, function ()
 		slot0 = {}
@@ -100,24 +148,72 @@ slot0.didEnter = function(slot0)
 			uv0:emit(ResolveEquipmentMediator.ON_RESOLVE, uv0.selectedIds)
 		end)
 	end, SFX_UI_EQUIPMENT_RESOLVE)
-	onToggle(slot0, slot0.selecteAllTF, function (slot0)
-		if uv0.isManual then
-			return
-		end
+	eachChild(slot0.selectOptions, function (slot0)
+		onButton(uv0, slot0, function ()
+			slot0 = uv0.name
+			slot2 = uv2[slot0]
 
-		if slot0 then
-			uv0:selecteAllEquips()
-		else
-			uv0:unselecteAllEquips()
-		end
-	end, SFX_PANEL)
+			switch(uv1.optionStatus[slot0], {
+				[uv3.GREY] = function ()
+				end,
+				[uv3.NONE] = function ()
+					uv0:selAllEquipsByRaritys(uv1)
+				end,
+				[uv3.PART] = function ()
+					uv0:unselAllEquipsByRaritys(uv1)
+				end,
+				[uv3.ALL] = function ()
+					uv0:unselAllEquipsByRaritys(uv1)
+				end
+			})
+		end, SFX_CANCEL)
+	end)
+end
+
+slot0.HideDestroyCondirm = function(slot0)
+	setActive(slot0.destroyConfirm, false)
 end
 
 slot0.OnResolveEquipDone = function(slot0)
-	setActive(slot0.destroyConfirm, false)
-	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
-	setActive(slot0.mainPanel, false)
-	slot0:unselecteAllEquips()
+	if slot0.optionStatus[uv0.ALL] == uv1.ALL then
+		slot0:emit(uv2.ON_CLOSE)
+	else
+		for slot4, slot5 in pairs(uv0) do
+			if slot0.optionStatus[slot5] == uv1.ALL then
+				slot0:SetLocalDataByOption(slot5, 1)
+			elseif slot6 == uv1.NONE then
+				slot0:SetLocalDataByOption(slot5, 0)
+			end
+		end
+
+		setActive(slot0.mainPanel, true)
+
+		slot1 = function(slot0)
+			for slot4, slot5 in ipairs(uv0.selectedIds) do
+				if slot5[1] == slot0 then
+					return slot5[2]
+				end
+			end
+
+			return 0
+		end
+
+		slot2 = {}
+
+		for slot6, slot7 in ipairs(slot0.equipmentVOs) do
+			slot8 = Clone(slot7)
+
+			if slot7.count - slot1(slot7.id) > 0 then
+				slot8.count = slot9
+
+				table.insert(slot2, slot8)
+			end
+		end
+
+		slot0:setEquipments(slot2)
+		slot0.viewRect:SetTotalCount(#slot0.equipmentVOs, -1)
+		slot0:selectedLocalRecordEquipment()
+	end
 end
 
 slot0.onBackPressed = function(slot0)
@@ -132,30 +228,47 @@ slot0.onBackPressed = function(slot0)
 	end
 end
 
-slot0.selectedLowRarityEquipment = function(slot0)
+slot0.selectedLocalRecordEquipment = function(slot0)
 	slot0.selectedIds = {}
 
-	for slot4, slot5 in ipairs(slot0.equipmentVOs) do
-		if slot5:getConfig("level") <= 1 and slot5:getConfig("rarity") < 4 then
-			slot0:selectEquip(slot5, slot5.count)
+	for slot4, slot5 in pairs(uv0) do
+		if slot0:GetLocalDataByOption(slot5) == 1 then
+			slot0:selAllEquipsByRaritys(uv1[slot5])
 		end
 	end
 
 	slot0:updateSelected()
 end
 
-slot0.selecteAllEquips = function(slot0)
-	slot0.selectedIds = {}
+slot0.GetLocalDataByOption = function(slot0, slot1)
+	slot2 = slot0.player.id .. uv0 .. slot1
 
-	for slot4, slot5 in ipairs(slot0.equipmentVOs) do
-		slot0:selectEquip(slot5, slot5.count)
+	if (slot1 == uv1.N or slot1 == uv1.R) and not PlayerPrefs.HasKey(slot2) then
+		slot0:SetLocalDataByOption(slot1, 1)
+	end
+
+	return PlayerPrefs.GetInt(slot0.player.id .. uv0 .. slot1, 0)
+end
+
+slot0.SetLocalDataByOption = function(slot0, slot1, slot2)
+	PlayerPrefs.SetInt(slot0.player.id .. uv0 .. slot1, slot2)
+	PlayerPrefs.Save()
+end
+
+slot0.selAllEquipsByRaritys = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0.equipmentVOs) do
+		if table.contains(slot1, slot6:getConfig("rarity")) then
+			slot0:selectEquip(slot6, slot6.count)
+		end
 	end
 
 	slot0:updateSelected()
 end
 
-slot0.unselecteAllEquips = function(slot0)
-	slot0.selectedIds = {}
+slot0.unselAllEquipsByRaritys = function(slot0, slot1)
+	slot0.selectedIds = underscore.select(slot0.selectedIds, function (slot0)
+		return not table.contains(uv1, uv0.equipmentVOByIds[slot0[1]]:getConfig("rarity"))
+	end)
 
 	slot0:updateSelected()
 end
@@ -253,7 +366,7 @@ slot0.initEquipments = function(slot0)
 	end
 
 	slot0.viewRect.onStart = function()
-		uv0:selectedLowRarityEquipment()
+		uv0:selectedLocalRecordEquipment()
 	end
 
 	slot0.cards = {}
@@ -262,6 +375,9 @@ slot0.initEquipments = function(slot0)
 end
 
 slot0.filterEquipments = function(slot0)
+	slot0:setEquipments(underscore.select(slot0.equipmentVOs, function (slot0)
+		return not slot0:isImportance()
+	end))
 	table.sort(slot0.equipmentVOs, CompareFuncs({
 		function (slot0)
 			return -slot0:getConfig("rarity")
@@ -294,6 +410,20 @@ slot0.onUpdateItem = function(slot0, slot1, slot2)
 	end
 
 	slot3:update(slot0.equipmentVOs[slot1 + 1], true)
+
+	slot5 = false
+	slot6 = 0
+
+	for slot10, slot11 in pairs(slot0.selectedIds) do
+		if slot3.equipmentVO.id == slot11[1] then
+			slot5 = true
+			slot6 = slot11[2]
+
+			break
+		end
+	end
+
+	slot3:updateSelected(slot5, slot6)
 end
 
 slot0.isSelectedAll = function(slot0)
@@ -351,12 +481,6 @@ slot0.selectEquip = function(slot0, slot1, slot2)
 	end
 
 	slot0:updateSelected()
-
-	slot0.isManual = true
-
-	triggerToggle(slot0.selecteAllTF, slot0:isSelectedAll())
-
-	slot0.isManual = nil
 end
 
 slot0.updateSelected = function(slot0)
@@ -377,6 +501,68 @@ slot0.updateSelected = function(slot0)
 			slot5:updateSelected(slot6, slot7)
 		end
 	end
+
+	slot0:updateOptionsStatus()
+end
+
+slot0.updateOptionsStatus = function(slot0)
+	slot0.optionStatus = {}
+
+	for slot4, slot5 in pairs(uv0) do
+		slot7 = slot0:GetOptionStatus(slot5)
+		slot0.optionStatus[slot5] = slot7
+
+		setGray(slot0.selectOptions:Find(slot5), slot7 == uv1.GREY, true)
+
+		GetOrAddComponent(slot6, "CanvasGroup").alpha = slot7 == uv1.GREY and 0.4 or 1
+
+		setActive(slot6:Find("Background/Checkmark"), slot7 == uv1.ALL)
+		setActive(slot6:Find("Background/Part"), slot7 == uv1.PART)
+	end
+end
+
+slot0.GetOptionStatus = function(slot0, slot1)
+	if slot1 == uv0.ALL then
+		if #slot0.selectedIds == 0 then
+			return uv1.NONE
+		elseif slot0:isSelectedAll() then
+			return uv1.ALL
+		else
+			return uv1.PART
+		end
+	else
+		slot2 = uv2[slot1]
+
+		if not underscore.any(slot0.equipmentVOs, function (slot0)
+			return table.contains(uv0, slot0:getConfig("rarity"))
+		end) then
+			return uv1.GREY
+		end
+
+		return slot0:isSelectedAllRaritys(slot2) and uv1.ALL or underscore.any(slot0.selectedIds, function (slot0)
+			return table.contains(uv1, uv0.equipmentVOByIds[slot0[1]]:getConfig("rarity"))
+		end) and uv1.PART or uv1.NONE
+	end
+end
+
+slot0.isSelectedAllRaritys = function(slot0, slot1)
+	for slot5, slot6 in pairs(slot0.equipmentVOByIds) do
+		if table.contains(slot1, slot6:getConfig("rarity")) then
+			slot8 = false
+
+			for slot12, slot13 in pairs(slot0.selectedIds) do
+				if slot13[1] == slot6.id and slot6.count == slot13[2] then
+					slot8 = true
+				end
+			end
+
+			if slot8 == false then
+				return false
+			end
+		end
+	end
+
+	return true
 end
 
 slot0.checkDestroyGold = function(slot0, slot1, slot2)
@@ -406,6 +592,15 @@ slot0.checkDestroyGold = function(slot0, slot1, slot2)
 	end
 
 	return true
+end
+
+slot0.SureExit = function(slot0)
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		content = i18n("sure_exit_resolve_equip"),
+		onYes = function ()
+			uv0:emit(uv1.ON_CLOSE)
+		end
+	})
 end
 
 slot0.willExit = function(slot0)

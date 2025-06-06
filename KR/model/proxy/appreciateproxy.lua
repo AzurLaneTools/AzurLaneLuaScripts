@@ -44,8 +44,10 @@ end
 slot0.checkMusicFileState = function(slot0)
 	slot1, slot2 = nil
 
-	for slot6, slot7 in ipairs(pg.music_collect_config.all) do
-		slot0.musicExistStateTable[slot7] = checkABExist(MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. pg.music_collect_config[slot7].music .. ".b")
+	for slot6, slot7 in pairs(pg.music_collect_config.get_id_list_by_album_name) do
+		for slot11, slot12 in ipairs(slot7) do
+			slot0.musicExistStateTable[slot12] = checkABExist(MusicCollectionConst.MUSIC_SONG_PATH_PREFIX .. pg.music_collect_config[slot12].music .. ".b")
+		end
 	end
 end
 
@@ -393,6 +395,46 @@ end
 
 slot0.isLikedByMusicID = function(slot0, slot1)
 	return table.contains(slot0.musicLikeIDList, slot1)
+end
+
+slot0.setMainPlayMusicAlbum = function(slot0, slot1)
+	slot0.mainMarkMusicId = slot1
+end
+
+slot0.getMainPlayerAlbumName = function(slot0)
+	if not slot0.mainMarkMusicId or slot0.mainMarkMusicId == 0 then
+		return "none"
+	elseif slot0.mainMarkMusicId == 999 then
+		return "favor"
+	else
+		return pg.music_collect_config[slot0.mainMarkMusicId].album_name
+	end
+end
+
+slot0.setMusicPlayerLoopType = function(slot0, slot1)
+	slot0.musicPlayerLoopType = slot1
+end
+
+slot1 = {
+	[0] = "list",
+	"random",
+	"one"
+}
+
+slot0.getMusicPlayerLoopType = function(slot0)
+	return uv0[slot0.musicPlayerLoopType]
+end
+
+slot0.getAlbumMusicList = function(slot0, slot1)
+	if slot1 == "favor" then
+		return underscore.to_array(slot0.musicLikeIDList)
+	else
+		return underscore.to_array(pg.music_collect_config.get_id_list_by_album_name[slot1] or {})
+	end
+end
+
+slot0.CanPlayMainMusicPlayer = function(slot0)
+	return getProxy(AppreciateProxy):getMainPlayerAlbumName() ~= "none" and #slot0:getAlbumMusicList(slot1) > 0
 end
 
 slot0.isGalleryHaveNewRes = function(slot0)

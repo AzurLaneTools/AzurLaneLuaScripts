@@ -4528,7 +4528,7 @@ pg.backyard_theme_template = {
 		name = "파라오의 비경",
 		desc = "금빛 대지에 발을 들이면, 먼 옛날의 잔향이 들려온다… 온다… 온다…",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -4568,7 +4568,7 @@ pg.backyard_theme_template = {
 		name = "스페이스 메디컬",
 		desc = "스페이스 메디컬 스테이션. 당신만을 위한 색다른 의료 서비스.",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -4608,7 +4608,7 @@ pg.backyard_theme_template = {
 		name = "튤리퍼 전원",
 		desc = "부드러운 바람에 실려오는 향긋한 꽃내음, 이것이야말로 전원 생활의 참맛!",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -4638,6 +4638,41 @@ pg.backyard_theme_template = {
 			321116,
 			321117,
 			321118
+		}
+	},
+	[122] = {
+		Cfg_1 = 5,
+		name = "시사이드",
+		desc = "백사장과 하얀 파도를 만끽하며 시사이드 바캉스를 느긋하게 즐기자!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 123,
+		id = 122,
+		icon = "hb2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			322001,
+			322002,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115
 		}
 	},
 	all = {
@@ -4747,6 +4782,7 @@ pg.backyard_theme_template = {
 		118,
 		119,
 		120,
-		121
+		121,
+		122
 	}
 }

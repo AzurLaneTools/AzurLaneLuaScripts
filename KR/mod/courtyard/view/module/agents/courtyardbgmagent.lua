@@ -107,6 +107,8 @@ slot0.Clear = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	slot0:Clear()
+
 	slot0.recoders = nil
 
 	slot0:RemoveTimer()

@@ -16,6 +16,10 @@ slot1 = {
 	{
 		id = "NG004",
 		condition = function ()
+			if pg.SeriesGuideMgr.GetInstance():IsNewVersion() then
+				return false
+			end
+
 			slot2 = false
 
 			if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_GUIDE_TASKS) and not slot0:isEnd() then
@@ -119,6 +123,10 @@ slot1 = {
 	{
 		id = "NG0037",
 		condition = function ()
+			if pg.SeriesGuideMgr.GetInstance():IsNewVersion() then
+				return false
+			end
+
 			return NewServerCarnivalScene.isShow()
 		end,
 		args = function ()
@@ -147,6 +155,15 @@ slot1 = {
 		id = "DORM3D_GUIDE_01",
 		condition = function ()
 			return not LOCK_DORM3D_SYSTEM and pg.SystemOpenMgr.GetInstance():isOpenSystem(getProxy(PlayerProxy):getData().level, "SelectDorm3DMediator")
+		end,
+		args = function ()
+			return {}
+		end
+	},
+	{
+		id = "JUUS_GUIDE01",
+		condition = function ()
+			return true
 		end,
 		args = function ()
 			return {}

@@ -47,7 +47,7 @@ return {
 			},
 			ui = {
 				pathIndex = -1,
-				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/normal/func_button",
+				path = "/OverlayCamera/Overlay/UIMain/top/LevelStageView(Clone)/bottom_stage/Normal/func_button",
 				triggerType = {
 					1
 				},

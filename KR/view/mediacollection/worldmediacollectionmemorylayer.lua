@@ -151,20 +151,30 @@ slot0.SwitchReddotMemory = function(slot0)
 	slot0:GetGroupLayer().buffer:SwitchReddotMemory()
 end
 
-slot0.ShowSubMemories = function(slot0, ...)
-	slot1 = slot0:GetDetailLayer()
+slot0.ShowSubMemories = function(slot0, slot1, slot2, slot3)
+	slot4 = slot0:GetDetailLayer()
 
-	slot1.buffer:Show()
-	slot1.buffer:ShowSubMemories(...)
-	slot0:HideGroupLayer()
+	slot4.buffer:Show()
+	slot4.buffer:ShowSubMemories(slot1, slot3)
+
+	if not slot2 then
+		slot0:HideGroupLayer()
+	end
 end
 
 slot0.Return2MemoryGroup = function(slot0)
-	if not slot0.contextData.memoryGroup then
+	slot1 = slot0.contextData.memoryGroup
+	slot2 = slot0:GetGroupLayer()
+
+	if slot2:GetCurrentMode() == slot2.LINE_MODE then
+		if not slot1 then
+			slot2:SwitchStoryLineMode(slot2.FORM_MODE)
+		else
+			slot2.storyLineView:TryPlayBGM()
+		end
+	elseif not slot1 then
 		return
 	end
-
-	slot2 = slot0:GetGroupLayer()
 
 	slot2.buffer:Show()
 	slot2.buffer:Return2MemoryGroup()
@@ -176,6 +186,9 @@ slot0.Return2MemoryGroup = function(slot0)
 	return true
 end
 
+slot0.Return2Line = function(slot0)
+end
+
 slot0.UpdateView = function(slot0)
 	slot1 = nil
 
@@ -184,6 +197,13 @@ slot0.UpdateView = function(slot0)
 	end
 
 	slot1.buffer:UpdateView()
+end
+
+slot0.WrapToStoryLine = function(slot0, slot1)
+	slot2 = slot0:GetGroupLayer()
+
+	slot2:SwitchStoryLineMode(slot2.LINE_MODE)
+	slot2.storyLineView:ShowNodeDetail(slot1)
 end
 
 slot0.OnDestroy = function(slot0)

@@ -120,7 +120,7 @@ slot0.updateRed = function(slot0)
 end
 
 slot0.checkNotice = function(slot0, slot1)
-	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "string" or slot1.paramType == 3 and type(slot1.param) == "number" or slot1.paramType == 4 and type(slot1.param) == "number" and pg.activity_banner_notice[slot1.param] ~= nil)
+	return slot1.type and slot1.type > 0 and slot1.type < 4 and (slot1.paramType == nil or slot1.paramType == 1 and type(slot1.param) == "string" or slot1.paramType == 2 and type(slot1.param) == "string" or slot1.paramType == 3 and type(slot1.param) == "number" or slot1.paramType == 4 and type(slot1.param) == "number" and pg.activity_banner_notice[slot1.param] ~= nil or slot1.paramType == 5)
 end
 
 slot0.initNotices = function(slot0, slot1)
@@ -315,6 +315,14 @@ slot0.setNoticeDetail = function(slot0, slot1)
 				slot0 = pg.activity_banner_notice[uv0.param].param
 
 				uv1:emit(NewBulletinBoardMediator.GO_SCENE, slot0[1], slot0[2])
+			elseif uv0.paramType == 5 then
+				if not pg.NewStoryMgr.GetInstance():IsPlayed("JIARIBIESHUCHOUBEIZHONG5") then
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.ACTIVITY, {
+						id = 5922
+					})
+				else
+					uv1:emit(NewBulletinBoardMediator.GO_SCENE, SCENE.HOLIDAY_VILLA_MAP)
+				end
 			end
 
 			uv1.contextData.defaultMainTab = uv1.currentMainTab

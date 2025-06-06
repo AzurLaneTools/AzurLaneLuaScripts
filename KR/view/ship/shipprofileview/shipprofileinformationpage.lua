@@ -198,7 +198,7 @@ end
 slot0.GetCvList = function(slot0, slot1)
 	slot2 = {}
 
-	return (not slot1 or (pg.ship_skin_template[slot0.skin.id].spine_use_live2d ~= 1 or pg.AssistantInfo.GetCVListForProfile(true)) and pg.AssistantInfo.GetCVListForProfile()) and ShipWordHelper.GetCVList()
+	return (not slot1 or (pg.ship_skin_template[slot0.skin.id].spine_use_live2d ~= 1 or pg.AssistantInfo.GetCVListForProfile(true, slot0.skin.id)) and pg.AssistantInfo.GetCVListForProfile(false, slot0.skin.id)) and ShipWordHelper.GetCVList()
 end
 
 slot0.UpdateCvList = function(slot0, slot1)

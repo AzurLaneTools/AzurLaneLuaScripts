@@ -1121,5 +1121,14 @@ pg.activity_const = {
 	},
 	HOLIDAY_ACT_ID = {
 		act_id = 5951
+	},
+	HOLIDAY_TASK_ID = {
+		act_id = 5952
+	},
+	HOLIDAY_TASK = {
+		act_id = 5968
+	},
+	HOLIDAY_ACT_PRE_ID = {
+		act_id = 5922
 	}
 }
