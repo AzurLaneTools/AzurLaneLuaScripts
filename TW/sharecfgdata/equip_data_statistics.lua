@@ -166596,6 +166596,134 @@ _G.pg.base.equip_data_statistics[150611] = {
 }
 
 
+_G.pg.base.equip_data_statistics[150660] = {
+	name = "我的寶貝鯨魚",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "150660",
+	value_1 = "200",
+	rarity = 4,
+	descrip = "可愛可愛可愛可愛大鯨魚~mua！",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 150660,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			60850,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150661] = {
+	id = 150661,
+	value_1 = "230",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150662] = {
+	id = 150662,
+	value_1 = "260",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150663] = {
+	id = 150663,
+	value_1 = "290",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150664] = {
+	id = 150664,
+	value_1 = "320",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150665] = {
+	id = 150665,
+	value_1 = "350",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150666] = {
+	id = 150666,
+	value_1 = "380",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150667] = {
+	id = 150667,
+	value_1 = "410",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150668] = {
+	id = 150668,
+	value_1 = "440",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150669] = {
+	id = 150669,
+	value_1 = "470",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150670] = {
+	id = 150670,
+	value_1 = "500",
+	base = 150660,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150671] = {
+	anti_siren = 100,
+	base = 150660,
+	id = 150671,
+	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[170001] = {
 	name = "专属弹幕-古比雪夫I",
 	tech = 1,

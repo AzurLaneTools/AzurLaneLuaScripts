@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"日不落的远征\n\n<size=45>光荣的又一日</size>",
+					"日不落的遠征\n\n<size=45>7.光榮的另一日</size>",
 					1
 				}
 			}
@@ -27,27 +27,27 @@ return {
 					0.5
 				},
 				{
-					"「6:30-7:00，晨间祷告」",
+					"「6:30-7:00，晨禱」",
 					1
 				},
 				{
-					"「7:00-7:30，早餐时间」",
+					"「7:00-7:30，早餐時間」",
 					1.5
 				},
 				{
-					"「8:00-10:00，文书工作」",
+					"「8:00-10:00，文書工作」",
 					2
 				},
 				{
-					"「10:30-11:30，战术模拟」",
+					"「10:30-11:30，戰術模擬」",
 					2.5
 				},
 				{
-					"「12:00-13:00，午餐时间」",
+					"「12:00-13:00，午餐時間」",
 					3
 				},
 				{
-					"「14:00-15:00，通讯联络（含下午茶）」",
+					"「14:00-15:00，通訊聯絡（含下午茶）」",
 					3.5
 				}
 			}
@@ -58,7 +58,7 @@ return {
 			bgmDelay = 2,
 			sequence = {
 				{
-					"？？？·作战指挥室",
+					"？？？·作戰指揮室",
 					1
 				},
 				{
@@ -79,12 +79,12 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			bgName = "star_level_bg_306",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不对劲……",
+			say = "不對勁……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,11 +111,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "监控焦点的数量开始增加了……？",
+			say = "監控焦點的數量開始增加了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,11 +125,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "长久以来稳定的通讯节点也出现了弱干扰现象……",
+			say = "長久以來穩定的通訊節點也出現了弱干擾現象……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,11 +139,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "难道沉睡的敌人正在活化……",
+			say = "難道沉睡的敵人正在活化……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
@@ -167,11 +167,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "在这个世界上还有什么能刺激到它们呢……？",
+			say = "在這個世界上還有什麼能刺激到它們呢……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,14 +182,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "沉寂多年的通讯器突然响起，打断了光荣的思路。",
+			say = "沉寂多年的通訊器突然響起，打斷了光榮的思緒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
@@ -201,36 +201,36 @@ return {
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——滋……我们……已经……收到……滋——",
+			say = "——滋……我們……已經……收到……滋——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——滋……正在……筹备……救援……滋——",
+			say = "——滋……正在……籌備……救援……滋——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "通讯器",
+			actorName = "通訊器",
 			side = 2,
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "——滋……坚持……滋——",
+			say = "——滋……堅持……滋——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "含混不清的通讯结束了，房间中再次回归寂静。",
+			say = "含混不清的通訊結束了，房間中再次回歸寂靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,11 +251,11 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这是…………回应吗？",
+			say = "這是…………回應嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,11 +265,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "终于…………有回应了吗？",
+			say = "終於…………有回應了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "光荣的眼前逐渐模糊，泪水的折射下，寂静的房间中仿佛重新变得热闹起来。",
+			say = "光榮的眼前逐漸模糊，淚水的折射下，寂靜的房間中彷彿重新變得熱鬧起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,13 +288,13 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			bgName = "star_level_bg_306",
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "一团糟、真是一团糟。",
+			say = "一團糟、真是一團糟。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,12 +326,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们各处的情报机关是怎么回事，那些东西是从哪里钻进来的？",
+			say = "我們各處的情報機關是怎麼回事，那些東西又是從哪裡鑽進來的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,12 +340,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "为什么此前我们没有收到一丝一毫的消息？！",
+			say = "為什麼先前我們沒有收到一絲一毫的消息？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,12 +355,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此事正在全力调查了，陛下。当务之急是必须重整防线。",
+			say = "此事正在全力調查了，陛下。當務之急是必須重整防線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -369,12 +369,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……确定驻守的铁血、鸢尾还有塞壬联合舰队已经全灭了么？",
+			say = "……確定駐守的鐵血、鳶尾還有塞壬聯合艦隊已經全滅了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
@@ -398,12 +398,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那就不能再添油过去了……",
+			say = "那就不能再添油過去了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -412,12 +412,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "联系各地舰队就近集结，然后都给本王回来！",
+			say = "聯絡各地艦隊就近集結，然後都給本王回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,10 +427,10 @@ return {
 			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在就要准备启用本土防线了么？",
+			say = "現在就要準備啟用本土防線了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,12 +439,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这批敌人来的诡异……第二防线被攻破后，第三防线也难说了。",
+			say = "這批敵人來的詭異……第二防線被攻破後，第三防線也難說了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,10 +454,10 @@ return {
 			actor = 205050,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "……我明白了，立刻去办。",
+			say = "……我明白了，立刻去辦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,12 +466,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "贝法，去联系各阵营代表，本王需要召开一次紧急会议。",
+			say = "貝法，去聯絡各陣營代表，本王需要召開緊急會議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,12 +480,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "然后，光荣，本王也要交给你一项重要任务。",
+			say = "然後，光榮，本王也要交給妳一項重要任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,12 +494,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们其实在暗中，有一批擅长应对这种情况的盟友。",
+			say = "我們其實在暗中，有一批擅長應付這種情況的盟友。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,12 +508,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本王这就拟一封求救信。「以永日之名」……她们一定会回应的。",
+			say = "本王這就擬一封求救信。 「以日不落之名」……她們一定會回應的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,12 +522,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 205010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你就守在通讯器前，一旦收到回复，立刻向本王直接报告。",
+			say = "妳就守在通訊器前，一旦收到回復，立刻向本王直接報告。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -536,7 +536,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			dir = 1,
 			actor = 207060,
 			nameColor = "#A9F548FF",
@@ -548,13 +548,13 @@ return {
 			}
 		},
 		{
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			side = 2,
 			bgName = "star_level_bg_306",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……这么多年过去了。",
+			say = "……這麼多年過去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -587,11 +587,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "现在……居然是现在……有了回应么……",
+			say = "現在……居然是現在……有了回應嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -601,10 +601,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "陛下，我的任务完成了……",
+			say = "陛下，我的任務完成了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -614,11 +614,11 @@ return {
 			expression = 7,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "可是，我该去哪里找您报告呢……",
+			say = "可是，我該去哪裡找您報告呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_306",
 			hidePaintObj = true,
-			say = "光荣摇了摇头，强行压下心中激荡的情绪，淡淡的微笑重新回到了她的脸上。",
+			say = "光榮搖了搖頭，強行壓下心中激盪的情緒，淡淡的微笑重新回到了她的臉上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -639,11 +639,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "我的错。",
+			say = "我的錯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -653,11 +653,11 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如今我便是皇家的象征，一举一行都代表着皇家的颜面。",
+			say = "如今我便是皇家的象徵，一舉一行都代表著皇家的顏面。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,10 +667,10 @@ return {
 			actor = 900487,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "可不能被人说失了礼数……",
+			say = "可不能被人說失了禮數……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,11 +680,11 @@ return {
 			expression = 6,
 			side = 2,
 			bgName = "star_level_bg_306",
-			factiontag = "日不落帝国",
+			factiontag = "日不落帝國",
 			actor = 900487,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "嗯……等本日的战斗结束后，就开始筹备接待客人的欢迎式吧……",
+			say = "嗯……等結束掉本日的戰鬥後，就開始做招待客人的準備吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=80>——未完待续</size>",
+					"——未完待續",
 					2
 				}
 			}

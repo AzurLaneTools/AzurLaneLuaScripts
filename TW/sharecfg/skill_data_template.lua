@@ -354,6 +354,7 @@ pg.skill_data_template = setmetatable({
 		60780,
 		60790,
 		60810,
+		60850,
 		7000,
 		9010,
 		9020,
@@ -12754,6 +12755,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "當伏波、飛雲、撫順裝備時，戰鬥中自身雷擊屬性提高5%，戰鬥開始30秒後，回復自身2%耐久",
 		id = 60810,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60850] = {
+		desc_get = "",
+		name = "我的寶貝鯨魚",
+		type = 0,
+		max_level = 0,
+		desc = "裝備後，可以改變戰鬥的BGM（同時裝備多個改變BGM的裝備時，將隨機播放其中一首BGM）",
+		id = 60850,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -86612,7 +86627,7 @@ pg.base.skill_data_template = {
 	},
 	[17360] = {
 		desc_get = "",
-		name = "關島跨隊佔用",
+		name = "戰況報告·現場放送",
 		type = 1,
 		max_level = 10,
 		desc = "跨隊效果佔用ID",
@@ -154311,7 +154326,7 @@ pg.base.skill_data_template = {
 		name = "櫻綻櫻舞",
 		type = 3,
 		max_level = 10,
-		desc = "战斗开始时，自身炮击、命中属性提升$1，队伍中每有一个重樱阵营角色，自身额外获得$2炮击、命中属性，最多叠加2层，并使这些角色在战斗中累计受到最大耐久值25%的伤害时，获得一枚可抵消自身耐久$3耐久的护盾，持续6秒（每名角色仅能触发1次）",
+		desc = "戰鬥開始時，自身炮擊、命中屬性提升$1，隊伍中每有一個重櫻陣營角色，自身額外獲得$2炮擊、命中屬性，最多疊加2層，並使這些角色在戰鬥中累積受到最大耐久值25%的傷害時，獲得一枚可抵消自身耐久$3耐久的護盾，持續6秒（每名角色僅能觸發1次）",
 		id = 801350,
 		system_transform = {},
 		world_death_mark = {
@@ -154459,10 +154474,10 @@ pg.base.skill_data_template = {
 	},
 	[801360] = {
 		desc_get = "",
-		name = "月虧月盈 ",
+		name = "月虧月盈",
 		type = 2,
 		max_level = 10,
-		desc = "战斗开始后，随机为一名先锋舰队角色赋予【月盈】状态，该角色炮击、雷击属性提升$1，该角色下次受到治疗效果时，额外获得相当于该角色自身耐久1%的回复效果，回复效果触发后，消除该角色的【月盈】状态并重新随机选择一名先锋舰队成员作为增益目标",
+		desc = "戰鬥開始後，隨機為一名先鋒艦隊角色賦予【月盈】狀態，該角色炮擊、雷擊屬性提升$1，該角色下次受到治療效果時，額外獲得相當於該角色自身耐久1%的回復效果，回復效果觸發後，消除該角色的【月盈】狀態並重新隨機選擇一名先鋒艦隊成員作為增益目標",
 		id = 801360,
 		system_transform = {},
 		world_death_mark = {
@@ -154520,10 +154535,10 @@ pg.base.skill_data_template = {
 	},
 	[801370] = {
 		desc_get = "",
-		name = "雨積雨散 ",
+		name = "雨織雨散",
 		type = 1,
 		max_level = 10,
-		desc = "战斗中自身主炮武器开火时，触发一轮特殊弹幕$1（弹幕样式在两种弹幕中随机，威力依据技能等级，战斗开始时，若队伍中没有其他重樱角色，特殊弹幕样式强化）",
+		desc = "戰鬥中自身主炮武器開火時，觸發一輪特殊彈幕$1（彈幕樣式在兩種彈幕中隨機，威力依據技能等級，戰鬥開始時，若隊伍中沒有其他重櫻角色，特殊彈幕樣式強化）",
 		id = 801370,
 		system_transform = {},
 		world_death_mark = {
@@ -154575,7 +154590,7 @@ pg.base.skill_data_template = {
 		name = "湮燼之核·{namecode:230}I",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低3%",
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低3%",
 		id = 801381,
 		system_transform = {
 			[51.0] = 801385
@@ -154591,7 +154606,7 @@ pg.base.skill_data_template = {
 		name = "湮燼之核·{namecode:230}II",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低8%",
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低8%",
 		id = 801382,
 		system_transform = {
 			[51.0] = 801387
@@ -154607,7 +154622,7 @@ pg.base.skill_data_template = {
 		name = "湮燼之核·{namecode:230}I",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低3%",
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低3%",
 		id = 801385,
 		system_transform = {
 			[51.0] = 801385
@@ -154623,7 +154638,7 @@ pg.base.skill_data_template = {
 		name = "湮燼之核·{namecode:230}II",
 		type = 3,
 		max_level = 1,
-		desc = "【大型作战效果】\n与精英舰队或BOSS舰队交战时，自身受到的所有伤害降低8%",
+		desc = "【大型作戰效果】\n與精英艦隊或BOSS艦隊交戰時，自身受到的所有傷害降低3%",
 		id = 801387,
 		system_transform = {
 			[51.0] = 801387

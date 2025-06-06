@@ -3875,6 +3875,17 @@ pg.fleet_tech_ship_class = {
 			970505
 		}
 	},
+	[970506] = {
+		shiptype = 5,
+		name = "長門·META",
+		t_level = 5,
+		id = 970506,
+		t_level_1 = 2,
+		nation = 97,
+		ships = {
+			970506
+		}
+	},
 	[970507] = {
 		shiptype = 5,
 		name = "朱利奧·凱撒·META",
@@ -4332,6 +4343,7 @@ pg.fleet_tech_ship_class = {
 		970503,
 		970504,
 		970505,
+		970506,
 		970507,
 		970601,
 		970602,

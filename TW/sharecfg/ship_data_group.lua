@@ -2183,6 +2183,9 @@ pg.ship_data_group = setmetatable({
 		[970106] = {
 			30036
 		},
+		[970506] = {
+			30037
+		},
 		[970405] = {
 			30038
 		},
@@ -2931,6 +2934,7 @@ pg.ship_data_group = setmetatable({
 			30034,
 			30035,
 			30036,
+			30037,
 			30038,
 			30039,
 			30040,
@@ -3665,6 +3669,7 @@ pg.ship_data_group = setmetatable({
 		30034,
 		30035,
 		30036,
+		30037,
 		30038,
 		30039,
 		30040,
@@ -26330,6 +26335,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"軍需商店兌換",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -26360,6 +26375,17 @@ pg.base.ship_data_group = {
 				"限時活動：破曉冰華",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -26835,6 +26861,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -26865,6 +26902,17 @@ pg.base.ship_data_group = {
 				"限時活動：破曉冰華",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行輕型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27017,6 +27065,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -27153,6 +27212,17 @@ pg.base.ship_data_group = {
 				"限時活動：破曉冰華",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行重型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -33207,6 +33277,41 @@ pg.base.ship_data_group = {
 					"METACHARACTER",
 					{
 						autoOpenShipConfigID = 9701061
+					}
+				},
+				0
+			}
+		}
+	},
+	[30037] = {
+		nationality = 97,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 3,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 970506,
+		index_id = 30037,
+		code = 30037,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"D",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：META研究室-資訊同步",
+				{
+					"METACHARACTER",
+					{
+						autoOpenShipConfigID = 9705061
 					}
 				},
 				0

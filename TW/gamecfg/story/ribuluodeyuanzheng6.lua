@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"日不落的远征\n\n<size=45>帝国议会</size>",
+					"日不落的遠征\n\n<size=45>6.帝國議會</size>",
 					1
 				}
 			}
@@ -24,11 +24,11 @@ return {
 			bgm = "theme-partydress",
 			sequence = {
 				{
-					"日不落帝国·首都",
+					"日不落帝國·首都",
 					1
 				},
 				{
-					"威斯敏斯特宫",
+					"西敏宮",
 					2
 				}
 			},
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_guild_blue",
-			say = "议会大厅内，一场参与人数不多，但依然热烈的会议正在进行中。",
+			say = "議會大廳內，一場參與人數不多，但依然熱烈的會議正在進行中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,12 +73,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "上议院大臣",
+			factiontag = "上議院大臣",
 			dir = 1,
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "注意秩序，绅士们，请注意秩序。",
+			say = "注意秩序，紳士們，請注意秩序。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,12 +88,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "上议院大臣",
+			factiontag = "上議院大臣",
 			dir = 1,
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们可以这样永无止境地吵下去，但事情总要有一个解决方案的。",
+			say = "我們可以這樣永無止境地吵下去，但事情總要有一個解決方案的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "红枫总督",
+			factiontag = "紅楓總督",
 			dir = 1,
 			actor = 205070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "何为解决方案，为何要有解决方案？汝等已经将那个恶作剧信号视为真实可靠的了么？",
+			say = "何為解決方案，為何要有解決方案？汝等已經將那個惡作劇訊號視為真實可靠的了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,12 +116,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "皇家女仆长",
+			factiontag = "皇家女僕長",
 			dir = 1,
 			actor = 202190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "女仆队可以为消息的来源做担保，那确实是来自外部世界的求救信号。",
+			say = "女僕隊可以為消息的來源做擔保，那確實是來自外部世界的求救訊號。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,12 +130,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "印第总督",
+			factiontag = "印第總督",
 			dir = 1,
 			actor = 205030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那消息本身的内容呢？",
+			say = "那消息本身的內容呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,12 +144,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "印第总督",
+			factiontag = "印第總督",
 			dir = 1,
 			actor = 205030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「以永日之名」……听上去和某种针对我们日不落帝国的定向诈骗一样。",
+			say = "「以永日之名」……聽起來跟某種針對我們日不落帝國的定向詐騙一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,12 +158,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "陆间海海域总督",
+			factiontag = "地中海海域總督",
 			dir = 1,
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但不管怎么说，这毕竟是我们在展开域外探索计划后收到的第一个成果。",
+			say = "但不管怎麼說，這畢竟是我們在展開域外探索計畫後收到的第一個成果。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -173,12 +173,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "陆间海海域总督",
+			factiontag = "地中海海域總督",
 			dir = 1,
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然确实和最初预计的零碎信息相比，有点……“大”。",
+			say = "雖然確實和最初預期的零碎資訊相比，有點……「大」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,12 +188,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "陆间海海域总督",
+			factiontag = "地中海海域總督",
 			dir = 1,
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但是我们不应该因此而踌躇不前呀？",
+			say = "但我們不應該因此而躊躇不前呀？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,12 +203,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "陆间海海域总督",
+			factiontag = "地中海海域總督",
 			dir = 1,
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "向域外探索，将日不落的光辉向外延伸，这些不正是我们启动这项计划的原因吗？",
+			say = "向域外探索，將日不落的光輝向外延伸，這些不正是我們啟動這項計畫的原因嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,12 +217,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "近卫骑士统领",
+			factiontag = "近衛騎士統領",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光辉女士说得不错，近卫骑士团支持对于这条求救信号进行回应。",
+			say = "光輝女士說得不錯，近衛騎士團支持對於這條求救訊號回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,12 +231,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "皇家骑士团团长",
+			factiontag = "皇家騎士團團長",
 			dir = 1,
 			actor = 205140,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "皇家骑士团复议。",
+			say = "皇家騎士團同意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,12 +245,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "印第总督",
+			factiontag = "印第總督",
 			dir = 1,
 			actor = 205030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我依然反对。",
+			say = "我依然反對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,12 +260,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "银地洋海域总督",
+			factiontag = "印度洋海域總督",
 			dir = 1,
 			actor = 205040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也反对对其进行明确回应。",
+			say = "我也反對對其進行明確回應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,12 +274,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "红枫总督",
+			factiontag = "紅楓總督",
 			dir = 1,
 			actor = 205070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "余自然亦反对。",
+			say = "余自然亦反對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,12 +288,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "红枫总督",
+			factiontag = "紅楓總督",
 			dir = 1,
 			actor = 205070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "假设情报内容为真，那可是一整个世界在火海中发出的求救信号……汝有决心承担起一个世界的重量么，威尔士？",
+			say = "假設情報內容為真，那可是一整個世界在火海中發出的求救訊號……汝有決心承擔起一個世界的重量嗎，威爾斯？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -302,12 +302,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "帝国首相",
+			factiontag = "帝國首相",
 			dir = 1,
 			actor = 205060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……至少，我们应当去看看。",
+			say = "……至少，我們該當去看看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,12 +316,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "亚特兰蒂洋海域总督",
+			factiontag = "亞特蘭提斯洋海域總督",
 			dir = 1,
 			actor = 205020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……如果只是派出调查队的话，我可以支持。",
+			say = "嗯……如果只是派出調查隊的話，我可以支持。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -330,12 +330,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "帝国首相",
+			factiontag = "帝國首相",
 			dir = 1,
 			actor = 205060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感谢您的支持，厌战女士。",
+			say = "感謝您的支持，厭戰女士。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,12 +345,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "帝国首相",
+			factiontag = "帝國首相",
 			dir = 1,
 			actor = 205060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在这件事上，我无意强迫诸位参与，或是依靠此事向诸位索取额外资源。",
+			say = "在這件事上，我無意強迫各位參與，或是依靠此事向各位索取額外資源。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,12 +359,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "帝国首相",
+			factiontag = "帝國首相",
 			dir = 1,
 			actor = 205060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只是想表达，面对如此求救，我们不应当无动于衷。",
+			say = "我只是想表達，面對如此求救，我們不應當無動於衷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,12 +374,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "帝国首相",
+			factiontag = "帝國首相",
 			dir = 1,
 			actor = 205060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这件事应当做，而且我们之中应当有人要去做。",
+			say = "這件事該做，而且我們當中應當有人要去做。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,12 +388,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "帕克菲克洋与安塔迪卡洋海域总督",
+			factiontag = "太平洋與南冰洋海域總督",
 			dir = 1,
 			actor = 207070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果你们决定派出探索队的话，我可以提供一部分资源支持。",
+			say = "如果妳們決定派出探索隊的話，我可以提供一部分資源支援。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,12 +402,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "澳洲与所罗门群岛总督",
+			factiontag = "澳洲與所羅門群島總督",
 			dir = 1,
 			actor = 205100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也是，而且——我想到了一个人。",
+			say = "我也是，而且——我想到了一個人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,12 +416,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "澳洲与所罗门群岛总督",
+			factiontag = "澳洲與所羅門群島總督",
 			dir = 1,
 			actor = 205100,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她肯定会对这个任务感兴趣，而她人今天又恰好没来呢？",
+			say = "她一定會對這個任務感興趣，而她人今天又剛好沒來呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,12 +430,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "红枫总督",
+			factiontag = "紅楓總督",
 			dir = 1,
 			actor = 205070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喔——余觉得不错。其有资源、有野心，还有执行域外探索所必需的设备。",
+			say = "喔——余覺得不錯。其有資源、有野心，還有執行域外探索所必需的設備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,12 +444,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "红枫总督",
+			factiontag = "紅楓總督",
 			dir = 1,
 			actor = 205070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "她最近不是正在四处炫耀其设备的先进性，以及想要一次真正的探索么？",
+			say = "她最近不是正在四處炫耀其設備的先進性，以及想要一次真正地探索麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "红枫总督",
+			factiontag = "紅楓總督",
 			dir = 1,
 			actor = 205070,
 			nameColor = "#A9F548FF",
@@ -472,12 +472,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "印第总督",
+			factiontag = "印第總督",
 			dir = 1,
 			actor = 205030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "尼罗河总督吗……呵呵，确实合适，我也投她一票。",
+			say = "尼羅河總督嗎……呵呵，確實合適，我也投她一票。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,12 +487,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "银地洋海域总督",
+			factiontag = "印度洋海域總督",
 			dir = 1,
 			actor = 205040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "附议。",
+			say = "同意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -501,12 +501,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "亚特兰蒂洋海域总督",
+			factiontag = "亞特蘭提斯洋海域總督",
 			dir = 1,
 			actor = 205020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也没意见，不过由她来负责的话……我们派出去的还会是单纯的调查队吗？",
+			say = "我也沒意見，不過由她來負責的話……我們派出去的還會是單純的調查隊嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,12 +515,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "红枫总督",
+			factiontag = "紅楓總督",
 			dir = 1,
 			actor = 205070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不论最后变成了什么样，诸位如果愿意参与的话，都只需按照派遣调查队所需资源进行提供就好。",
+			say = "不論最後變成了什麼樣，諸位如果願意參與的話，都只需按照派遣調查隊所需資源進行提供就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -529,12 +529,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "陆间海海域总督",
+			factiontag = "地中海海域總督",
 			dir = 1,
 			actor = 207030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果要组建远征军的话，陆间海舰队可以提供协助。",
+			say = "如果要組成遠征軍的話，地中海艦隊可以提供協助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -544,12 +544,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "近卫骑士统领",
+			factiontag = "近衛騎士統領",
 			dir = 1,
 			actor = 205130,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "非常感谢，光辉女士。有了您的帮助，本次行动一定会圆满成功的。",
+			say = "非常感謝，光輝女士。有了您的幫助，本次行動一定會圓滿成功的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,12 +559,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "上议院大臣",
+			factiontag = "上議院大臣",
 			dir = 1,
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "绅士们，还有人想要补充、或是想要质询的么？",
+			say = "紳士們，還有人想要補充、或是想要質疑的麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "上议院大臣",
+			factiontag = "上議院大臣",
 			dir = 1,
 			actor = 204030,
 			nameColor = "#A9F548FF",
@@ -588,12 +588,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "上议院大臣",
+			factiontag = "上議院大臣",
 			dir = 1,
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好，那此事就此决定了。",
+			say = "很好，那此事就此決定了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,12 +602,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_guild_blue",
-			factiontag = "上议院大臣",
+			factiontag = "上議院大臣",
 			dir = 1,
 			actor = 204030,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "休会——",
+			say = "休會——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

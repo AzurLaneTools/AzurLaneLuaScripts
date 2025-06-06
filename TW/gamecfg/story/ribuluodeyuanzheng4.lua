@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"日不落的远征\n\n<size=45>E女士</size>",
+					"日不落的遠征\n\n<size=45>4.E女士</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "theme-theempressIII",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "光芒消散后，映入眼帘的一座明亮的校园。",
+			say = "光芒消散後，映入眼簾的一座明亮的校園。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,11 +59,11 @@ return {
 			},
 			options = {
 				{
-					content = "这次不是教室了？",
+					content = "這次不是教室了？",
 					flag = 1
 				},
 				{
-					content = "地图拓展了？",
+					content = "地圖拓展了？",
 					flag = 2
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哟，这位同学看着有点面生啊，第一次来？",
+			say = "喲，這位同學看著有點面生啊，第一次來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "循声望去，一位白衣黑裙的少女优雅地向我点了点头。",
+			say = "循聲望去，一位白衣黑裙的少女優雅地向我點了點頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,7 +98,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "蓝色火焰般的发饰随风飘动，格外显眼。",
+			say = "藍色火焰般的髮飾隨風飄動，格外顯眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……你好？请问你是……？",
+			say = "……妳好？請問妳是……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,20 +124,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（等等……不对……这个声音我似乎在哪里听到过……）",
+			say = "（等等……不對……這個聲音我似乎在哪裡聽過……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "远方的声音",
+			actorName = "遠方的聲音",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			bgm = "story-antix-past",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没想到，这么快就追过来了。",
+			say = "……沒想到，這麼快就追過來了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,55 +167,55 @@ return {
 			}
 		},
 		{
-			actorName = "另一个声音",
+			actorName = "另一個聲音",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "计划的本质被察觉了？",
+			say = "計劃的本質被察覺了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "另一个声音",
+			actorName = "另一個聲音",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "还是说，它们的封锁包围比我们预测中更彻底？",
+			say = "還是說，它們的封鎖包圍比我們預測中更徹底？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "远方的声音",
+			actorName = "遠方的聲音",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "继续释放诱饵编队，引导它们分散追兵，前往错误的坐标。",
+			say = "繼續釋放誘餌編隊，引導它們分散追兵，前往錯誤的座標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "远方的声音",
+			actorName = "遠方的聲音",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "只要再离开这个世纪，我们就安全了。",
+			say = "只要再離開這個世紀，我們就安全了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "另一个声音",
+			actorName = "另一個聲音",
 			side = 2,
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
@@ -234,7 +234,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（她是当时的另一个人！）",
+			say = "（她是當時的另一個人！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "汝可称余为E女士（LadyE）哦~",
+			say = "汝可稱余為E女士（LadyE）哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（能出现在麦纪莎地盘上的E女士……）",
+			say = "（能出現在麥紀莎地盤上的E小姐……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你是女皇（Empress），还是皇帝（Emperor）？",
+			say = "你是女皇（Empress），還是皇帝（Emperor）？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -336,7 +336,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不过麦纪莎最近刚和恩普雷斯联手进行了一次大型行动……）",
+			say = "（不過麥紀莎最近剛和恩普雷斯聯手進行了一次大型行動……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -349,7 +349,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不，你不是皇帝（Emperor），你是女皇（Empress）——仲裁者·恩普雷斯·III，我没猜错吧？",
+			say = "不，你不是皇帝（Emperor），妳是女皇（Empress）——仲裁人·恩普雷斯·III，我猜錯吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（这么说来……当时那个不认识的声音是恩普雷斯，那个有些耳熟的声音……难道是……零？）",
+			say = "（這麼說來……當時那個不認識的聲音是恩普雷斯，那個有些耳熟的聲音……難道是……零？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -375,7 +375,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "哈哈哈~汝思维活跃，联想能力丰富，看来从余的名字中联想到了不少啊。",
+			say = "哈哈哈~汝思維活躍，聯想能力豐富，看來從余的名字中聯想到了不少啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "不过，事情并没有那么复杂，余在此处，就仅仅是E女士而已~",
+			say = "不過，事情並沒有那麼複雜，余在此處，就僅僅是E女士而已~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "好吧，E女士……麦纪莎这次又不在么？",
+			say = "好吧，E女士……麥紀莎這次又不在嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "麦纪莎是谁？汝莫非指的是M女士~？",
+			say = "麥紀莎是誰？汝莫非指的是M女士~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "说话间，黑裙少女俏皮地眨了眨眼睛，似乎在暗示着什么。",
+			say = "說話間，黑裙少女俏皮地眨了眨眼睛，似乎在暗示著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（难道……以代号相称是这片空间的某种规则？）",
+			say = "（難道……以代號相稱是這片空間的某種規則？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……？！你能听到我的心声？！）",
+			say = "（……？！妳聽得到我的心聲？！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -508,7 +508,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "哈哈哈~只是用了些小手段罢了，不用在意这些细节。",
+			say = "哈哈哈~只是用了些小手段罷了，不用在意這些細節。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -522,7 +522,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "不闹了，正经回答一下汝的问题。",
+			say = "不鬧了，正經回答汝的問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "余其实并不是很清楚M女士在这里做的事。",
+			say = "余其實並不是很清楚M女士在這裡所做的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "不过从经验上来看，她现在应该正在教室里上课。",
+			say = "不過從經驗來看，她現在應該正在教室裡上課。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "今天貌似还是一堂很重要的课，所以现在千万不要去打扰她哟。",
+			say = "今天似乎還是一堂很重要的課，所以現在千萬不要去打擾她喲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "重要的课……？你知道上课的学生是谁么？",
+			say = "重要的課……？妳知道上課的學生是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "嗯——汝见过她的。",
+			say = "嗯——汝見過她的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -602,7 +602,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "更多的消息我就不方便说了，毕竟那是她的学生不是余的。",
+			say = "更多的消息我就不方便說了，畢竟那是她的學生不是在下的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "汝不妨之后当面去问问看吧~",
+			say = "汝不妨之後當面去問問看~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			actor = 900480,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "该走了。",
+			say = "該走了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -643,7 +643,7 @@ return {
 			actor = 900480,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "时间太长了。",
+			say = "時間太長了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "跟随在E女士身后的白衣少女发起了催促。",
+			say = "跟隨在E女士身後的白衣少女發起了催促。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,20 +665,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "她的存在如此自然，仿佛自始至终一直站在那里一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_706",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（又是像这样突然出现了……！）",
+			say = "她的存在如此自然，彷彿自始至終一直站在那裡一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +678,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不过这次的她和上次见到的时候似乎有着截然不同的气质……）",
+			say = "（又是像這樣突然出現了……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +691,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（仿佛变得……阴郁了许多……？）",
+			say = "（不過這次的她和上次見到的時候似乎有著截然不同的氣質…）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_706",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "（彷彿變得……陰鬱了許多……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -717,7 +717,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "余不清楚M女士手底下学生的事哦。",
+			say = "余不清楚M女士手底下學生的事哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -731,7 +731,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "不过这个孩子嘛……性格是有些问题的。",
+			say = "不過這個孩子嘛……性格是有些問題的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -745,7 +745,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "明明这么小，却这么阴郁~所以余今天才带她出来走走。",
+			say = "明明這麼小，卻這麼陰鬱~所以余今天才帶她出來走走。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -758,7 +758,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actorName = "E女士",
-			say = "多晒晒太阳，说不定人也能变得阳光一些呢。",
+			say = "多曬曬太陽，說不定人也能變得陽光一些呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -772,7 +772,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "汝说对吧~？",
+			say = "汝說對吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -786,7 +786,7 @@ return {
 			actor = 900480,
 			actorName = "？？",
 			hidePaintObj = true,
-			say = "不对。",
+			say = "不對。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -800,7 +800,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "那听说与人交流对于性格改善也有帮助，现在正好有合适的人，汝也来多聊几句？",
+			say = "那聽說與人交流對於性格改善也有幫助，現在正好有合適的人，汝也來多聊幾句？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -825,7 +825,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "光是摇头还不够，少女将整个身体都缩在玩偶之后，表现出了强烈的抗拒。",
+			say = "光是搖頭還不夠，少女將整個身體縮在玩偶之後，表現出了強烈的抗拒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -839,7 +839,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "那算了，不管汝咯~",
+			say = "那算了，不管汝了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -850,20 +850,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
-			say = "再次意识到的时候，白衣少女已经消失了，就像从来不曾存在过一样。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_706",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "所以……今天到底是怎么回事。",
+			say = "再次意識到的時候，白衣少女已經消失了，就像從來不曾存在過一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -876,7 +863,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（这已经是第二次M女士把我拉过来，但是本人却不在的情况了……）",
+			say = "所以……今天到底是怎麼回事。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_706",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "（這已經是第二次M女士把我拉過來，但是本人卻不在的情況了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -890,7 +890,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "是呀，这样做确实很不礼貌呢。",
+			say = "是呀，這樣做確實很不禮貌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,18 +904,18 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "汝在这里干等着也没用，不如余送汝回去吧？",
+			say = "汝在這裡乾等也沒用，不如余送汝回去吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "那麻烦你了",
+					content = "那麻煩妳了",
 					flag = 1
 				},
 				{
-					content = "我还想在这里多看看",
+					content = "我還想在這裡多看看",
 					flag = 2
 				}
 			}
@@ -929,7 +929,7 @@ return {
 			actor = 900486,
 			actorName = "E女士",
 			hidePaintObj = true,
-			say = "不麻烦，不麻烦~",
+			say = "不麻煩，不麻煩~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -941,7 +941,7 @@ return {
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "黑裙少女微笑着挥了挥手，世界缓缓陷入了黑暗——",
+			say = "黑裙少女微笑著揮了揮手，世界緩緩陷入了黑暗——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -953,7 +953,7 @@ return {
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "黑裙少女只是微笑着挥了挥手，世界仿佛陡然间暗淡了下来。",
+			say = "黑裙少女只是微笑著揮了揮手，世界彷彿陡然間暗淡了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -965,7 +965,7 @@ return {
 			bgName = "star_level_bg_706",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "很显然，她刚才的那句话并不是疑问句——",
+			say = "很顯然，她剛才的那句話並不是疑問句——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

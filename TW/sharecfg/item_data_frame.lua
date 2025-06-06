@@ -459,6 +459,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「狐鳴鳳影，烈火浴心。雖為新生，亦續前緣。」</color>\n「喚醒蒼紅之炎」活動獲取",
 		scene = {}
 	},
+	[335] = {
+		name = "薔薇之誓",
+		gain_by = "",
+		time_second = 0,
+		id = 335,
+		time_limit_type = 0,
+		desc = "透過後續活動獲得",
+		scene = {}
+	},
 	[401] = {
 		name = "殿堂紀念：企業",
 		gain_by = "",
@@ -799,6 +808,7 @@ pg.item_data_frame = {
 		330,
 		331,
 		332,
+		335,
 		401,
 		402,
 		414,

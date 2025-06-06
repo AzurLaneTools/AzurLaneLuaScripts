@@ -206,6 +206,8 @@ pg.memory_group = setmetatable({
 		318,
 		322,
 		323,
+		326,
+		327,
 		501,
 		502,
 		503,
@@ -299,6 +301,7 @@ pg.memory_group = setmetatable({
 		593,
 		594,
 		595,
+		596,
 		601,
 		602,
 		1000,
@@ -4830,6 +4833,38 @@ pg.base.memory_group = {
 			4283
 		}
 	},
+	[326] = {
+		title = "假日別墅籌備中",
+		subtype = 2,
+		link_event = 5924,
+		type = 2,
+		id = 326,
+		icon = "title_event",
+		memories = {
+			4331,
+			4332,
+			4333,
+			4334,
+			4335
+		}
+	},
+	[327] = {
+		title = "日不落的遠征",
+		subtype = 1,
+		link_event = 5924,
+		type = 2,
+		id = 327,
+		icon = "title_event",
+		memories = {
+			4341,
+			4342,
+			4343,
+			4344,
+			4345,
+			4346,
+			4347
+		}
+	},
 	[501] = {
 		title = "{namecode:98}的委託",
 		subtype = 0,
@@ -6422,6 +6457,23 @@ pg.base.memory_group = {
 			3355,
 			3356,
 			3357
+		}
+	},
+	[596] = {
+		title = "消除疲勞的秘訣是？",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 596,
+		icon = "title_chara_shenghaxintuo",
+		memories = {
+			3421,
+			3422,
+			3423,
+			3424,
+			3425,
+			3426,
+			3427
 		}
 	},
 	[601] = {

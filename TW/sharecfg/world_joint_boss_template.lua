@@ -474,6 +474,7 @@ pg.world_joint_boss_template = {
 	{
 		name = "威奇塔·META",
 		boss_level_id = 211,
+		state = "stop",
 		item_id = 100000,
 		painting = "weiqita",
 		meta_id = 970304,
@@ -495,12 +496,44 @@ pg.world_joint_boss_template = {
 				"戰鬥的末端會啟用理事會制式MKXIII型外置軌道炮，對戰場全局造成巨額傷害。"
 			}
 		},
+		p_offset = {
+			10,
+			679.8,
+			1,
+			1
+		},
+		p_offset_other = {
+			615,
+			679.8,
+			1,
+			1
+		}
+	},
+	{
+		name = "長門·META",
+		boss_level_id = 226,
+		item_id = 100000,
+		painting = "changmen",
+		meta_id = 970506,
+		id = 16,
+		description = {
+			{
+				"月虧月盈",
+				1,
+				"整個海域會<color=#92fc63>週期性在月虧與月盈狀態之間切換</color>，每15秒輪換一次。\n月虧狀態下，長門META對我方造成的傷害降低20%，同時我方受到的治療效果降低50%。\n月盈狀態下，長門·META對我方造成的傷害提高20%，同時我方受到治療效果額外增加100%。"
+			},
+			{
+				"櫻花結界",
+				2,
+				"戰鬥中會出現櫻花結界，<color=#92fc63>結界的效果會跟隨月虧月盈的狀態改變</color>。\n月虧狀態下，我方角色身處於櫻花結界中時會持續損失耐久。\n月盈狀態下，我方角色身處於櫻花結界時會減少受到的傷害。"
+			}
+		},
 		state = {
 			{
 				{
 					2025,
-					3,
-					20
+					6,
+					5
 				},
 				{
 					0,
@@ -511,8 +544,8 @@ pg.world_joint_boss_template = {
 			{
 				{
 					2025,
-					6,
-					5
+					8,
+					21
 				},
 				{
 					23,
@@ -522,14 +555,14 @@ pg.world_joint_boss_template = {
 			}
 		},
 		p_offset = {
-			10,
-			679.8,
+			-50,
+			680,
 			1,
 			1
 		},
 		p_offset_other = {
-			615,
-			679.8,
+			630,
+			620,
 			1,
 			1
 		}
@@ -549,6 +582,7 @@ pg.world_joint_boss_template = {
 		12,
 		13,
 		14,
-		15
+		15,
+		16
 	}
 }

@@ -421,11 +421,6 @@ pg.painting_filte_map = {
 			"painting/aierbin_rw_tex",
 			"painting/aierbin_n_tex",
 			"painting/aierbin_n",
-			"painting/aierbin_3_tex",
-			"painting/aierbin_3_rw_tex",
-			"painting/aierbin_3_n_rw_tex",
-			"painting/aierbin_3_n",
-			"painting/aierbin_3",
 			"painting/aierbin"
 		}
 	},
@@ -437,6 +432,16 @@ pg.painting_filte_map = {
 			"painting/aierbin_2_n_tex",
 			"painting/aierbin_2_n",
 			"painting/aierbin_2"
+		}
+	},
+	aierbin_3 = {
+		key = "aierbin_3",
+		res_list = {
+			"painting/aierbin_3_tex",
+			"painting/aierbin_3_rw_tex",
+			"painting/aierbin_3_n_rw_tex",
+			"painting/aierbin_3_n",
+			"painting/aierbin_3"
 		}
 	},
 	aierbin_4 = {
@@ -4195,6 +4200,13 @@ pg.painting_filte_map = {
 		res_list = {
 			"painting/empress_tex",
 			"painting/empress"
+		}
+	},
+	enpuleisi = {
+		key = "enpuleisi",
+		res_list = {
+			"painting/enpuleisi_tex",
+			"painting/enpuleisi"
 		}
 	},
 	erdaimu = {
@@ -11119,6 +11131,22 @@ pg.painting_filte_map = {
 			"painting/npcgangyishawa_2_n"
 		}
 	},
+	npcgelunweier_alter = {
+		key = "npcgelunweier_alter",
+		res_list = {
+			"painting/npcgelunweier_alter_tex",
+			"painting/npcgelunweier_alter_rw_tex",
+			"painting/npcgelunweier_alter_n"
+		}
+	},
+	npcguangrong_alter = {
+		key = "npcguangrong_alter",
+		res_list = {
+			"painting/npcguangrong_alter_tex",
+			"painting/npcguangrong_alter_rw_tex",
+			"painting/npcguangrong_alter_n"
+		}
+	},
 	npchaitunhao_2 = {
 		key = "npchaitunhao_2",
 		res_list = {
@@ -13360,11 +13388,6 @@ pg.painting_filte_map = {
 		key = "shuixingjinian",
 		res_list = {
 			"painting/shuixingjinian_tex",
-			"painting/shuixingjinian_6_tex",
-			"painting/shuixingjinian_6_rw_tex",
-			"painting/shuixingjinian_6_n_rw_tex",
-			"painting/shuixingjinian_6_n",
-			"painting/shuixingjinian_6",
 			"painting/shuixingjinian"
 		}
 	},
@@ -13400,6 +13423,16 @@ pg.painting_filte_map = {
 			"painting/shuixingjinian_5_n_tex",
 			"painting/shuixingjinian_5_n",
 			"painting/shuixingjinian_5"
+		}
+	},
+	shuixingjinian_6 = {
+		key = "shuixingjinian_6",
+		res_list = {
+			"painting/shuixingjinian_6_tex",
+			"painting/shuixingjinian_6_rw_tex",
+			"painting/shuixingjinian_6_n_rw_tex",
+			"painting/shuixingjinian_6_n",
+			"painting/shuixingjinian_6"
 		}
 	},
 	shuixingjinian_alter = {

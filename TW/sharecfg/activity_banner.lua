@@ -1,31 +1,48 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		time = "stop",
-		type = 2,
+		param = "5922",
+		type = 3,
 		id = 1,
-		pic = "temp2",
-		param = {
-			"scene charge",
+		pic = "temp1",
+		time = {
 			{
-				wrap = 2
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					3
+				},
+				{
+					14,
+					59,
+					59
+				}
 			}
 		}
 	},
 	{
-		type = 2,
+		param = "5924",
+		type = 3,
 		id = 2,
-		pic = "temp3",
-		param = {
-			"scene skinshop",
-			{}
-		},
+		pic = "temp2",
 		time = {
 			{
 				{
 					2025,
-					5,
-					22
+					6,
+					5
 				},
 				{
 					0,
@@ -36,11 +53,11 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					5
+					7,
+					3
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -48,21 +65,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5921",
+		type = 3,
 		id = 3,
-		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
+		pic = "temp3",
 		time = {
 			{
 				{
 					2025,
-					5,
-					22
+					6,
+					5
 				},
 				{
 					0,
@@ -73,11 +85,11 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					5
+					7,
+					3
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -85,16 +97,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5871",
+		param = "5923",
 		type = 3,
 		id = 4,
-		pic = "temp5",
+		pic = "temp4",
 		time = {
 			{
 				{
 					2025,
-					5,
-					22
+					6,
+					5
 				},
 				{
 					0,
@@ -105,8 +117,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					5
+					7,
+					3
 				},
 				{
 					14,
@@ -272,7 +284,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					5
+					11
 				},
 				{
 					23,
@@ -673,10 +685,14 @@ pg.activity_banner = {
 		}
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
 			2,
 			3,
+			4,
+			1003
+		},
+		[2] = {
 			5,
 			6,
 			7,
@@ -705,10 +721,6 @@ pg.activity_banner = {
 			1022,
 			1023,
 			1024
-		},
-		[3] = {
-			4,
-			1003
 		},
 		[9] = {
 			90
