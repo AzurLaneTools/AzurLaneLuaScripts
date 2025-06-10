@@ -915,6 +915,16 @@ pg.item_usage_invitation = {
 		coin_id = 60534,
 		ship_id = 206081
 	},
+	[3101] = {
+		id = 3101,
+		coin_id = 60545,
+		ship_id = 307081
+	},
+	[3102] = {
+		id = 3102,
+		coin_id = 60546,
+		ship_id = 105171
+	},
 	all = {
 		101,
 		102,
@@ -1098,6 +1108,8 @@ pg.item_usage_invitation = {
 		2904,
 		2905,
 		2906,
-		2907
+		2907,
+		3101,
+		3102
 	}
 }
