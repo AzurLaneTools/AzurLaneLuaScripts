@@ -162,6 +162,8 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			303,
+			304,
 			100002,
 			100003,
 			100004,
@@ -3124,6 +3126,26 @@ pg.furniture_data_template = setmetatable({
 			320304,
 			320305,
 			320306
+		},
+		[122] = {
+			322001,
+			322002,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115,
+			322116
 		}
 	},
 	get_id_list_by_tag = {
@@ -5002,7 +5024,22 @@ pg.furniture_data_template = setmetatable({
 			320111,
 			320112,
 			320113,
-			320114
+			320114,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115
 		},
 		{
 			1108,
@@ -5343,7 +5380,9 @@ pg.furniture_data_template = setmetatable({
 			287,
 			289,
 			292,
-			296
+			296,
+			303,
+			304
 		},
 		[7] = {
 			223,
@@ -5525,7 +5564,8 @@ pg.furniture_data_template = setmetatable({
 			315113,
 			316123,
 			318305,
-			320115
+			320115,
+			322116
 		},
 		[4] = {
 			1001,
@@ -5626,7 +5666,8 @@ pg.furniture_data_template = setmetatable({
 			315001,
 			316001,
 			318001,
-			320001
+			320001,
+			322001
 		},
 		[3] = {
 			1002,
@@ -5728,7 +5769,8 @@ pg.furniture_data_template = setmetatable({
 			315002,
 			316002,
 			318002,
-			320002
+			320002,
+			322002
 		},
 		[5] = {
 			1301,
@@ -6168,7 +6210,8 @@ pg.furniture_data_template = setmetatable({
 			315002,
 			316002,
 			318002,
-			320002
+			320002,
+			322002
 		},
 		[7] = {
 			1,
@@ -6308,6 +6351,8 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			303,
+			304,
 			100002,
 			100004,
 			100005,
@@ -8215,7 +8260,23 @@ pg.furniture_data_template = setmetatable({
 			320112,
 			320113,
 			320114,
-			320115
+			320115,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115,
+			322116
 		},
 		[11] = {
 			131,
@@ -8384,7 +8445,8 @@ pg.furniture_data_template = setmetatable({
 			315001,
 			316001,
 			318001,
-			320001
+			320001,
+			322001
 		},
 		[5] = {
 			1101,
@@ -9184,6 +9246,8 @@ pg.furniture_data_template = setmetatable({
 		299,
 		300,
 		301,
+		303,
+		304,
 		100002,
 		100003,
 		100004,
@@ -11945,7 +12009,25 @@ pg.furniture_data_template = setmetatable({
 		320303,
 		320304,
 		320305,
-		320306
+		320306,
+		322001,
+		322002,
+		322101,
+		322102,
+		322103,
+		322104,
+		322105,
+		322106,
+		322107,
+		322108,
+		322109,
+		322110,
+		322111,
+		322112,
+		322113,
+		322114,
+		322115,
+		322116
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -19886,6 +19968,80 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[303] = {
+		can_rotate = 0,
+		describe = "仿照充能狀態薔薇塔製作的微縮模型，內建電路，夜晚可當落地燈使用。",
+		gain_by = "高塔上的薔薇",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/shixunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "薔薇塔微縮模型",
+		advice = 0,
+		icon = "shixunzhangicon",
+		id = 303,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		interAction_group = {}
+	},
+	[304] = {
+		can_rotate = 0,
+		describe = "以「攜手重建，共渡假日」為主題製作的雕像，紀念這場獨特的島嶼別墅渡假之旅。",
+		gain_by = "夏日重建！海島別墅渡假計畫！",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/sanjiujiuxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "假日重建紀念雕像",
+		advice = 0,
+		icon = "sanjiujiuxunzhangicon",
+		id = 304,
+		comfortable = 0,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -142590,6 +142746,913 @@ pg.base.furniture_data_template = {
 				"chuang5yi2",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[322001] = {
+		can_rotate = 0,
+		describe = "沙灘與浪花，享受海濱假日的悠閒時光吧~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/dibanhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "海濱假日地板",
+		advice = 0,
+		icon = "dibanhb2icon",
+		id = 322001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322002] = {
+		can_rotate = 0,
+		describe = "沙灘與浪花，享受海濱假日的悠閒時光吧~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "海濱假日壁紙",
+		advice = 0,
+		id = 322002,
+		icon = "qiangbihb2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbihb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322101] = {
+		can_rotate = 0,
+		describe = "海濱特色小屋，承載簡單美好的假日生活~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "海濱小屋",
+		advice = 0,
+		id = 322101,
+		icon = "xiaowuhb2icon",
+		comfortable = 4,
+		size = {
+			9,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaowuhb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322102] = {
+		can_rotate = 0,
+		describe = "海濱特色雙人椅，很適合搭配海濱下午茶使用哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/shuangrenyihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "海濱雙人椅",
+		advice = 0,
+		id = 322102,
+		icon = "shuangrenyihb2icon",
+		comfortable = 3,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-76,
+					10
+				},
+				{
+					1,
+					1
+				},
+				"hb2/shuangrenyihb2_using"
+			},
+			{
+				"sit",
+				{
+					49,
+					12
+				},
+				{
+					-1,
+					1
+				},
+				"hb2/shuangrenyihb2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322103] = {
+		can_rotate = 0,
+		describe = "陽光、海浪、躺椅，慵懶時光的完美寫照~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/tangyihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 2,
+		name = "章魚躺椅",
+		advice = 0,
+		id = 322103,
+		icon = "tangyihb2icon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					32,
+					5
+				},
+				{
+					1,
+					1
+				},
+				"hb2/tangyihb2_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322104] = {
+		can_rotate = 0,
+		describe = "章魚小桌，承載著渡假的每一杯椰汁飲料~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/xiaozhuozihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "章魚小桌",
+		advice = 0,
+		icon = "xiaozhuozihb2icon",
+		id = 322104,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322105] = {
+		can_rotate = 0,
+		describe = "享受海浪的擁抱與自由啾~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/yongquanjiuhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "航海啾",
+		advice = 0,
+		icon = "yongquanjiuhb2icon",
+		id = 322105,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322106] = {
+		can_rotate = 0,
+		describe = "遮陽避暑，涼亭下是渡假的舒適之地~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "liangtinghb2icon",
+		count = 1,
+		name = "海濱涼亭",
+		advice = 0,
+		id = 322106,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liangtinghb2B",
+				"normal"
+			},
+			{
+				"liangtinghb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322107] = {
+		can_rotate = 0,
+		describe = "海濱特色遮陽傘，傘下的陰涼為假日增添一份愜意~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "海濱遮陽傘",
+		advice = 0,
+		id = 322107,
+		icon = "zheyangsanhb2icon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zheyangsanhb2",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[322108] = {
+		can_rotate = 0,
+		describe = "海濱特色章魚地墊，踩上去不會打滑哦~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/didianhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "章魚地墊",
+		advice = 0,
+		icon = "didianhb2icon",
+		id = 322108,
+		comfortable = 1,
+		size = {
+			4,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322109] = {
+		can_rotate = 0,
+		describe = "清涼泳池，海風與水光交織的活力空間~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yongchihb2icon",
+		count = 1,
+		name = "海濱泳池",
+		advice = 0,
+		id = 322109,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			9,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yongchihb2B",
+				"normal"
+			},
+			{
+				"yongchihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322110] = {
+		can_rotate = 0,
+		describe = "神秘的漣漪，海面之下隱藏的究竟是……！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "謎之漣漪",
+		advice = 0,
+		id = 322110,
+		icon = "lianyihb2icon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"lianyihb2",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[322111] = {
+		can_rotate = 0,
+		describe = "海風輕拂，吊椅是入睡的最佳搖籃~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "diaoyihb2icon",
+		count = 1,
+		name = "海濱吊椅",
+		advice = 0,
+		id = 322111,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"diaoyihb2B",
+				"normal"
+			},
+			{
+				"diaoyihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[322112] = {
+		can_rotate = 0,
+		describe = "綠意盎然，海邊的盆栽點綴著自然的生氣~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/penzaihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 2,
+		name = "綠色盆栽",
+		advice = 0,
+		icon = "penzaihb2icon",
+		id = 322112,
+		comfortable = 1,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322113] = {
+		can_rotate = 0,
+		describe = "嘟嘟嘟~船停滿了，另尋他處吧~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/gangkouhb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "海濱港口",
+		advice = 0,
+		icon = "gangkouhb2icon",
+		id = 322113,
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322114] = {
+		can_rotate = 0,
+		describe = "方便隨時下海，可別忘了拿走哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "hb2/futihb2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 122,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "便利木梯",
+		advice = 0,
+		icon = "futihb2icon",
+		id = 322114,
+		comfortable = 2,
+		size = {
+			1,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[322115] = {
+		can_rotate = 0,
+		describe = "新鮮的椰子，要試試看嗎~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 122,
+		count = 1,
+		name = "海濱椰子樹",
+		advice = 0,
+		id = 322115,
+		icon = "yezishuhb2icon",
+		comfortable = 2,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yezishuhb2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[322116] = {
+		can_rotate = 0,
+		describe = "海濱特色滑梯，童趣與娛樂的完美結合~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 122,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "huatihb2icon",
+		count = 1,
+		name = "海濱滑梯",
+		advice = 0,
+		id = 322116,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			13,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huatihb2B",
+				"normal"
+			},
+			{
+				"huatihb2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit",
+						1,
+						"sit"
+					},
+					{
+						"dance1",
+						nil,
+						"sit"
+					},
+					{
+						"dance2",
+						1,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{
+				{
+					15,
+					176
+				},
+				{
+					405,
+					300
+				},
+				"hb2/huatihb2_mask"
+			},
+			{
+				-21.5,
+				-160.5
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	}

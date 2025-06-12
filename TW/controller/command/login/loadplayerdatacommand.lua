@@ -273,6 +273,10 @@ slot0.execute = function(slot0, slot1)
 		{
 			IslandProxy,
 			true
+		},
+		{
+			CommanderManualProxy,
+			true
 		}
 	})
 
@@ -303,7 +307,7 @@ slot0.execute = function(slot0, slot1)
 			pg.SdkMgr.GetInstance():CreateRole(slot2.id, slot2.name, slot2.level, slot2.registerTime, slot2:getTotalGem())
 		end
 
-		pg.SeriesGuideMgr.GetInstance():setPlayer(slot2)
+		pg.SeriesGuideMgr.GetInstance():Init(uv1, slot2)
 		WorldGuider.GetInstance():Init()
 
 		slot6 = getProxy(UserProxy):getData()

@@ -42,7 +42,15 @@ slot0.OnLoad = function(slot0, slot1)
 		uv1()
 
 		if uv0._initTriggerAction then
-			uv0:TriggerEvent(uv0._initTriggerAction)
+			for slot4, slot5 in ipairs(uv0._initTriggerAction) do
+				if uv0.live2dChar:checkActionExist(pg.AssistantInfo.assistantEvents[slot5].action) then
+					uv0.live2dChar:TriggerAction(slot6)
+
+					uv0._initTriggerAction = nil
+
+					break
+				end
+			end
 
 			uv0._initTriggerAction = nil
 		end
@@ -62,11 +70,7 @@ slot0.ResetState = function(slot0)
 end
 
 slot0.AdJustOrderInLayer = function(slot0, slot1)
-	if slot0.container:GetComponent(typeof(Canvas)) and slot2.overrideSorting and slot2.sortingOrder ~= 0 then
-		ReflectionHelp.RefSetProperty(typeof("Live2D.Cubism.Rendering.CubismRenderController"), "SortingOrder", slot1._go:GetComponent("Live2D.Cubism.Rendering.CubismRenderController"), slot2.sortingOrder)
-
-		slot0.isModifyOrder = true
-	end
+	slot1:setSortingLayer(-999)
 end
 
 slot0.ResetOrderInLayer = function(slot0)
@@ -229,9 +233,16 @@ end
 
 slot0.PlayChangeSkinActionIn = function(slot0, slot1)
 	if slot0.live2dChar:IsLoaded() then
-		slot0:TriggerEvent("event_login")
+		if slot0.live2dChar:checkActionExist("change_in") then
+			slot0:TriggerEvent("event_change_in")
+		else
+			slot0:TriggerEvent("event_login")
+		end
 	else
-		slot0._initTriggerAction = "event_login"
+		slot0._initTriggerAction = {
+			"event_change_in",
+			"event_login"
+		}
 	end
 
 	if slot1 and slot1.callback then
@@ -242,10 +253,37 @@ slot0.PlayChangeSkinActionIn = function(slot0, slot1)
 end
 
 slot0.PlayChangeSkinActionOut = function(slot0, slot1)
-	if slot1 and slot1.callback then
+	if slot0.live2dChar:IsLoaded() and slot0.live2dChar:checkActionExist("change_out") then
+		slot0:playSkinOut(slot1)
+	elseif slot1 and slot1.callback then
 		slot1.callback({
 			flag = true
 		})
+	end
+end
+
+slot0.playSkinOut = function(slot0, slot1)
+	slot2 = function()
+		if uv0 and uv0.callback then
+			uv0.callback({
+				flag = true
+			})
+		end
+	end
+
+	slot3 = slot0.live2dChar
+
+	if not slot3:TriggerAction("change_out", function ()
+	end, false, function ()
+		if uv0 then
+			uv0()
+
+			uv0 = nil
+		end
+	end) and slot2 then
+		slot2()
+
+		slot2 = nil
 	end
 end
 

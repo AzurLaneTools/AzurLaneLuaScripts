@@ -26,6 +26,7 @@ pg.pay_data_display = setmetatable({
 		73,
 		86,
 		87,
+		91,
 		2021,
 		2022,
 		2023,
@@ -42,6 +43,9 @@ pg.pay_data_display = setmetatable({
 		2045,
 		2046,
 		2047,
+		2050,
+		2051,
+		2052,
 		5001,
 		5002,
 		5003,
@@ -109,6 +113,7 @@ pg.pay_data_display = setmetatable({
 		4051,
 		4052,
 		4053,
+		4054,
 		4850,
 		4851,
 		4852,
@@ -2317,6 +2322,120 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[91] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將發送到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動轉換成等價的鑽石。",
+		type = 1,
+		name = "夏日禮盒（2025）",
+		first_pay_double = 0,
+		name_display = "夏日禮盒（2025）",
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "夏日禮盒（2025） ",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "fudai24",
+		skin_inquire_relation = 86213,
+		id_str = "com.hkmanjuu.azurlane.package55",
+		extra_service = 3,
+		id = 91,
+		airijp_id = "com.yostarjp.azurlane.diamond179",
+		extra_service_item = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86213,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81213,
+				1
+			}
+		}
+	},
 	[2021] = {
 		extra_gem = 0,
 		limit_group = 0,
@@ -3484,6 +3603,242 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40058,
+				1
+			}
+		}
+	},
+	[2050] = {
+		extra_gem = 0,
+		limit_group = 105,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "海濱假日主題禮包",
+		first_pay_double = 0,
+		name_display = "海濱假日主題禮包",
+		descrip = "可獲得戰鬥介面主題海濱假日*1",
+		subject = "海濱假日主題禮包",
+		money = 390,
+		limit_arg = 0,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui5",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui12",
+		extra_service = 3,
+		id = 2050,
+		airijp_id = "com.yostarjp.azurlane.ui12",
+		extra_service_item = {
+			{
+				31,
+				204,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				204,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2051] = {
+		extra_gem = 0,
+		limit_group = 105,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "海濱假日主題禮包（基礎版）",
+		first_pay_double = 0,
+		name_display = "海濱假日主題禮包（基礎版）",
+		descrip = "可獲得戰鬥介面主題海濱假日*1",
+		subject = "海濱假日主題禮包（基礎版）",
+		money = 390,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui5",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui13",
+		extra_service = 3,
+		id = 2051,
+		airijp_id = "com.yostarjp.azurlane.ui13",
+		extra_service_item = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				1,
+				1000
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40060,
+				1
+			}
+		}
+	},
+	[2052] = {
+		extra_gem = 0,
+		limit_group = 105,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		type = 0,
+		name = "海濱假日主題禮包（豪華版）",
+		first_pay_double = 0,
+		name_display = "海濱假日主題禮包（豪華版）",
+		descrip = "可獲得戰鬥介面主題海濱假日*1,3060鑽石",
+		subject = "海濱假日主題禮包（豪華版）",
+		money = 1320,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "uigift",
+		limit_type = 5,
+		type_order = 4,
+		picture = "ui5",
+		skin_inquire_relation = 0,
+		id_str = "com.hkmanjuu.azurlane.ui14",
+		extra_service = 3,
+		id = 2052,
+		airijp_id = "com.yostarjp.azurlane.ui14",
+		extra_service_item = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				204,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40061,
 				1
 			}
 		}
@@ -10465,6 +10820,120 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81019,
+				1
+			}
+		}
+	},
+	[4054] = {
+		extra_gem = 0,
+		limit_group = 0,
+		descrip_extra = "*福袋將會寄到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動替換成等價的鑽石。",
+		type = 1,
+		name = "夏日禮盒（2024）復刻",
+		first_pay_double = 0,
+		name_display = "夏日禮盒（2024）復刻",
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "夏日禮盒2024·復刻",
+		money = 990,
+		limit_arg = 1,
+		tag = 2,
+		gem = 0,
+		show_group = "",
+		limit_type = 2,
+		type_order = 2,
+		picture = "lihecn6ss_l",
+		skin_inquire_relation = 86009,
+		id_str = "com.hkmanjuu.azurlane.package56",
+		extra_service = 3,
+		id = 4054,
+		airijp_id = "com.hkmanjuu.azurlane.package56",
+		extra_service_item = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					2
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				69926,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81014,
 				1
 			}
 		}

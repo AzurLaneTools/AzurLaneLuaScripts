@@ -84,6 +84,18 @@ pg.item_data_battleui = {
 		icon = "203",
 		scene = {}
 	},
+	[204] = {
+		unlock = "海濱假日戰鬥主題禮包獲取",
+		name = "海濱假日",
+		key = "SkinElite_20250520",
+		display_icon = "ui_204",
+		is_unlock = 1,
+		rare = 4,
+		desc = "貝殼圖案點綴在海浪之間，輔以沙灘木牌等要素，營造出輕鬆悠閒的海濱渡假氛圍。",
+		id = 204,
+		icon = "204",
+		scene = {}
+	},
 	all = {
 		0,
 		101,
@@ -91,6 +103,7 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
-		203
+		203,
+		204
 	}
 }

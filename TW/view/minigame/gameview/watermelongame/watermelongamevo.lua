@@ -1,5 +1,5 @@
 slot0 = class("WatermelonGameVo")
-slot1 = 2
+slot1 = 1.4
 
 slot0.Ctor = function(slot0, slot1)
 	slot0.gameId = slot1
@@ -85,10 +85,12 @@ slot0.getTplItemFromPool = function(slot0, slot1, slot2)
 
 		setParent(slot3, slot2)
 
-		return slot3
+		return slot3, true
 	else
-		return table.remove(slot0.tplItemPool[slot1], #slot0.tplItemPool[slot1])
+		return table.remove(slot0.tplItemPool[slot1], #slot0.tplItemPool[slot1]), false
 	end
+
+	return nil, 
 end
 
 slot0.returnTplItem = function(slot0, slot1, slot2)

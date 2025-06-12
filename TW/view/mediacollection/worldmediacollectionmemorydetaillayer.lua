@@ -25,6 +25,8 @@ slot0.OnInit = function(slot0)
 	setActive(slot0:findTF("Item", slot0.memoryItemList), false)
 
 	slot0.loader = AutoLoader.New()
+	slot0.memoryItemViewport = slot0:findTF("Viewport", slot0.memoryItemList)
+	slot0.memoryItemsGrid = slot0:findTF("Viewport/Content", slot0.memoryItemList):GetComponent(typeof(GridLayoutGroup))
 
 	setText(slot0._tf:Find("ItemRect/ProgressDesc"), i18n("world_collection_2"))
 
@@ -102,16 +104,35 @@ slot0.PlayMemory = function(slot0, slot1)
 	end
 end
 
-slot0.ShowSubMemories = function(slot0, slot1)
+slot0.ShowSubMemories = function(slot0, slot1, slot2)
 	slot0.contextData.memoryGroup = slot1.id
 	slot0.memories = _.map(slot1.memories, function (slot0)
 		return pg.memory_template[slot0]
 	end)
+	slot3 = 0
 
-	slot0.memoryItemList:SetTotalCount(#slot0.memories, 0)
+	if slot2 then
+		slot4 = 0
 
-	slot2 = #slot0.memories
-	slot3 = _.reduce(slot0.memories, 0, function (slot0, slot1)
+		for slot8 = 1, #slot0.memories do
+			if slot0.memories[slot8].id == slot2 then
+				slot4 = slot8
+
+				break
+			end
+		end
+
+		if slot4 > 0 then
+			slot6 = slot0.memoryItemsGrid.cellSize.y + slot0.memoryItemsGrid.spacing.y
+			slot7 = slot0.memoryItemsGrid.constraintCount
+			slot3 = Mathf.Clamp01((slot6 * math.floor((slot4 - 1) / slot7) + slot0.memoryItemList.paddingFront) / (slot6 * math.ceil(#slot0.memories / slot7) - slot0.memoryItemViewport.rect.height))
+		end
+	end
+
+	slot0.memoryItemList:SetTotalCount(#slot0.memories, slot3)
+
+	slot4 = #slot0.memories
+	slot5 = _.reduce(slot0.memories, 0, function (slot0, slot1)
 		if slot1.is_open == 1 or pg.NewStoryMgr.GetInstance():IsPlayed(slot1.story, true) then
 			slot0 = slot0 + 1
 		end
@@ -119,18 +140,18 @@ slot0.ShowSubMemories = function(slot0, slot1)
 		return slot0
 	end)
 
-	setText(slot0._tf:Find("ItemRect/ProgressText"), slot3 .. "/" .. slot2)
+	setText(slot0._tf:Find("ItemRect/ProgressText"), slot5 .. "/" .. slot4)
 
-	slot5 = slot3 < slot2 and #_.filter(pg.re_map_template.all, function (slot0)
+	slot7 = slot5 < slot4 and #_.filter(pg.re_map_template.all, function (slot0)
 		return pg.re_map_template[slot0].memory_group == uv0.id
 	end) > 0
 
-	setActive(slot0._tf:Find("ItemRect/UnlockTip"), slot5)
+	setActive(slot0._tf:Find("ItemRect/UnlockTip"), slot7)
 
-	if slot5 then
-		slot8 = slot0._tf
+	if slot7 then
+		slot10 = slot0._tf
 
-		setText(slot8:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot4[1])), function (slot0)
+		setText(slot10:Find("ItemRect/UnlockTip"), i18n("levelScene_remaster_unlock_tip", slot1.title, table.concat(_.map(_.sort(Map.GetRearChaptersOfRemaster(slot6[1])), function (slot0)
 			return getProxy(ChapterProxy):getChapterById(slot0, true):getConfig("chapter_name")
 		end), "/")))
 	end

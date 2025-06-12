@@ -75,6 +75,7 @@ slot0.init = function(slot0)
 	slot0.leftProfile = slot0:findTF("adapt/profile_left_panel", slot0.blurPanel)
 	slot0.modelContainer = slot0:findTF("model", slot0.leftProfile)
 	slot0.live2DBtn = ShipProfileLive2dBtn.New(slot0:findTF("L2D_btn", slot0.blurPanel))
+	slot0.l2dBtnOn = false
 
 	GetComponent(slot0:findTF("L2D_btn", slot0.blurPanel), typeof(Image)):SetNativeSize()
 	GetComponent(slot0:findTF("L2D_btn/img", slot0.blurPanel), typeof(Image)):SetNativeSize()
@@ -163,6 +164,8 @@ slot0.didEnter = function(slot0)
 		if slot0 then
 			uv0:CreateLive2D()
 		end
+
+		uv0.l2dBtnOn = slot0
 
 		setActive(uv0.viewBtn, not slot0)
 		setActive(uv0.rotateBtn, not slot0)
@@ -566,7 +569,8 @@ slot0.CreateLive2D = function(slot0)
 		scale = Vector3(52, 52, 52),
 		position = (not pg.ship_skin_template[slot0.skin.id].live2d_offset_profile or type(slot2) == "string" or Vector3(0 + slot2[1], -40 + slot2[2], 100 + slot2[3])) and Vector3(0, -40, 100),
 		parent = slot0.l2dRoot
-	}), function ()
+	}), function (slot0)
+		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		uv0.live2DBtn:SetEnable(true)
 	end)
 
@@ -615,7 +619,7 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 			slot0 = uv1.l2d_action
 		end
 
-		if uv2.l2dChar and not uv2.l2dChar:enablePlayAction(slot0) then
+		if uv2.l2dBtnOn and uv2.l2dChar and not uv2.l2dChar:enablePlayAction(slot0) then
 			return
 		end
 
@@ -650,15 +654,18 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 				else
 					seriesAsync({
 						function (slot0)
-							slot1 = uv0
+							uv0:RemoveLive2DTimer()
 
-							slot1:RemoveLive2DTimer()
-
-							slot2 = uv0.l2dChar
-							uv0.l2dActioning = slot2:TriggerAction(uv1, slot0, nil, function (slot0)
-								uv0:PlayVoice(uv1, uv2)
-								uv0:ShowDailogue(uv1, uv2, uv3)
-							end)
+							if uv0.l2dChar:checkActionExist(uv1) then
+								slot2 = uv0.l2dChar
+								uv0.l2dActioning = slot2:TriggerAction(uv1, slot0, nil, function (slot0)
+									uv0:PlayVoice(uv1, uv2)
+									uv0:ShowDailogue(uv1, uv2, uv3)
+								end)
+							else
+								uv0:PlayVoice(uv2, uv3)
+								uv0:ShowDailogue(uv2, uv3, slot0)
+							end
 						end
 					}, function ()
 						uv0.l2dActioning = false
@@ -673,6 +680,16 @@ slot0.OnCVBtnClick = function(slot0, slot1)
 
 	if slot1.voice.key == "unlock" and slot0.haveOp then
 		slot0:playOpening(slot3)
+	elseif slot1.voice.resource_key == "get" then
+		if PaintingShowScene.GetSkinShowAble(slot1.skin.id) then
+			slot0:emit(ShipProfileMediator.OPEN_PAINTING_SHOW, slot4, function ()
+				onNextTick(function ()
+					uv0()
+				end)
+			end)
+		else
+			slot3()
+		end
 	else
 		slot3()
 	end

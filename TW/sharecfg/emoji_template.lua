@@ -1638,6 +1638,32 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[247] = {
+		achieve = 1,
+		index = 83,
+		pic = "247",
+		desc = "<color=#92fc63>[大大]</color>",
+		item_name = "聊天表情：別看",
+		item_desc = "聊天表情：別看，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 247,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[248] = {
+		achieve = 1,
+		index = 84,
+		pic = "248",
+		desc = "<color=#92fc63>[別看]</color>",
+		item_name = "聊天表情：大",
+		item_desc = "聊天表情：大大，可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 248,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	[301] = {
 		achieve = 0,
 		index = 970,
@@ -2275,6 +2301,45 @@ pg.emoji_template = {
 			1
 		}
 	},
+	[1042] = {
+		achieve = 1,
+		index = 88,
+		pic = "1042",
+		desc = "<color=#92fc63>[開工！ ]</color>",
+		item_name = "聊天表情：開工！",
+		item_desc = "聊天表情：開工！可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 1042,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1043] = {
+		achieve = 1,
+		index = 89,
+		pic = "1043",
+		desc = "<color=#92fc63>[使命必達！ ]</color>",
+		item_name = "聊天表情：使命必達！",
+		item_desc = "聊天表情：使命必達！可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 1043,
+		icon = "",
+		type = {
+			1
+		}
+	},
+	[1044] = {
+		achieve = 1,
+		index = 90,
+		pic = "1044",
+		desc = "<color=#92fc63>[已下線…]</color>",
+		item_name = "聊天表情：已下線……",
+		item_desc = "聊天表情：已下線…可以在表情選項的「預設」標籤中找到並發出此表情。",
+		id = 1044,
+		icon = "",
+		type = {
+			1
+		}
+	},
 	all = {
 		1,
 		2,
@@ -2402,6 +2467,8 @@ pg.emoji_template = {
 		244,
 		245,
 		246,
+		247,
+		248,
 		301,
 		302,
 		303,
@@ -2450,6 +2517,9 @@ pg.emoji_template = {
 		373,
 		374,
 		375,
-		1041
+		1041,
+		1042,
+		1043,
+		1044
 	}
 }

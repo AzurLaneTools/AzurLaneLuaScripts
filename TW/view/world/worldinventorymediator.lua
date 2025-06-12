@@ -82,10 +82,10 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == EquipmentProxy.EQUIPMENT_UPDATED then
 		slot0.viewComponent:setEquipment(slot3)
 	elseif slot2 == GAME.USE_ITEM_DONE then
-		if table.getCount(slot3) ~= 0 then
+		if #slot3.drops ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				animation = true,
-				items = slot3
+				items = slot3.drops
 			})
 		end
 	elseif slot2 == GAME.FRAG_SELL_DONE then

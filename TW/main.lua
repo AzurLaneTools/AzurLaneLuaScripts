@@ -268,9 +268,6 @@ seriesAsync({
 				pg.NewGuideMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)
-				pg.SeriesGuideMgr.GetInstance():Init(slot0)
-			end,
-			function (slot0)
 				pg.ToastMgr.GetInstance():Init(slot0)
 			end,
 			function (slot0)

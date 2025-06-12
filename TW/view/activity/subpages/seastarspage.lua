@@ -1,7 +1,7 @@
 slot0 = class("SeaStarsPage", import(".TemplatePage.NewFrameTemplatePage"))
 
 slot0.OnFirstFlush = function(slot0)
-	SetActive(slot0.switchBtn, fasle)
+	SetActive(slot0.switchBtn, false)
 
 	for slot4, slot5 in ipairs(slot0.phases) do
 		setActive(slot5, true)

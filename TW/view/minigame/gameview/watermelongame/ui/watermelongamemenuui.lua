@@ -10,8 +10,14 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.battleItems = {}
 	slot0.dropItems = {}
 	slot0.textLastTimes = findTF(slot0.menuUI, "lastTimes/desc")
+	slot0.btnRank = findTF(slot0.menuUI, "btnRank")
 	slot0.btnHome = findTF(slot0.menuUI, "btnHome")
+	slot4 = GetComponent(slot0.btnRank, typeof(Image))
+
+	slot4:SetNativeSize()
+
 	slot0.imgHelp = findTF(slot0.menuUI, "imgHelp")
+	slot0.highScore = findTF(slot0.menuUI, "highScore/text")
 
 	setActive(slot0.imgHelp, false)
 	onButton(slot0._event, findTF(slot0.menuUI, "rightPanelBg/arrowUp"), function ()
@@ -33,17 +39,26 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	end, SFX_CANCEL)
 	onButton(slot0._event, findTF(slot0.menuUI, "btnRule"), function ()
 		uv0._event:emit(WatermelonGameEvent.SHOW_RULE, true)
-		setActive(uv0.imgHelp, true)
 	end, SFX_CANCEL)
 	onButton(slot0._event, slot0.imgHelp, function ()
 		uv0._event:emit(WatermelonGameEvent.SHOW_RULE, false)
-		setActive(uv0.imgHelp, false)
 	end, SFX_CANCEL)
 
 	slot0.btnStart = findTF(slot0.menuUI, "btnStart")
 
 	onButton(slot0._event, slot0.btnStart, function ()
 		uv0._event:emit(WatermelonGameEvent.READY_START)
+	end, SFX_CANCEL)
+	onButton(slot0._event, slot0.btnRank, function ()
+		pg.m02:sendNotification(GAME.SEND_MINI_GAME_OP, {
+			hubid = uv0.mgHubData.id,
+			cmd = MiniGameOPCommand.CMD_SPECIAL_TRACK,
+			args1 = {
+				uv0._gameVo.gameId,
+				103
+			}
+		})
+		uv0._event:emit(WatermelonGameEvent.SHOW_RANK)
 	end, SFX_CANCEL)
 	onButton(slot0._event, slot0.btnHome, function ()
 		uv0._event:emit(WatermelonGameEvent.ON_HOME)
@@ -58,14 +73,21 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 		slot11.name = "battleItem_" .. slot9
 
 		setParent(slot11, findTF(slot0.menuUI, "battList/Viewport/Content"))
+		GetSpriteFromAtlasAsync(WatermelonGameConst.ui_atlas, "DAY" .. slot9, function (slot0)
+			if slot0 then
+				setImageSprite(findTF(uv0, "state_open/desc"), slot0, true)
+				setImageSprite(findTF(uv0, "state_clear/desc"), slot0, true)
+				setImageSprite(findTF(uv0, "state_current/desc"), slot0, true)
+				setImageSprite(findTF(uv0, "state_closed/desc"), slot0, true)
+			end
+		end)
 
-		slot12 = slot9
 		slot13 = findTF(slot11, "icon")
 
 		updateDrop(slot13, {
 			type = slot5[slot9][1],
 			id = slot5[slot9][2],
-			amount = slot5[slot9][3]
+			count = slot5[slot9][3]
 		})
 		onButton(slot0._event, slot13, function ()
 			uv0._event:emit(BaseUI.ON_DROP, uv1)
@@ -126,6 +148,7 @@ slot0.update = function(slot0, slot1)
 	end
 
 	scrollTo(slot0.battleScrollRect, 0, slot5)
+	setText(slot0.highScore, getProxy(MiniGameProxy):GetHighScore(slot0._gameVo.gameId) and #slot6 > 0 and slot6[1] or 0)
 end
 
 slot0.CheckGet = function(slot0)

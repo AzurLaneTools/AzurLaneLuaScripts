@@ -423,7 +423,17 @@ slot0.getNationPointList = function(slot0)
 end
 
 slot0.getNationPoint = function(slot0, slot1)
-	return slot0.nationToPoint[slot1]
+	if slot1 == 0 then
+		slot2 = 0
+
+		for slot6, slot7 in pairs(slot0.nationToPoint) do
+			slot2 = math.max(slot2, slot7)
+		end
+
+		return slot2
+	else
+		return slot0.nationToPoint[slot1]
+	end
 end
 
 slot0.getLeftTime = function(slot0)

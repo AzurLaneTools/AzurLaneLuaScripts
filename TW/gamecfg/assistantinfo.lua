@@ -77,6 +77,18 @@ slot1.assistantEvents = {
 	TouchSpecial = {
 		action = "touch_special",
 		dialog = "touch2"
+	},
+	event_change_in = {
+		action = "change_in",
+		dialog = ""
+	},
+	event_change_out = {
+		action = "change_out",
+		dialog = ""
+	},
+	event_change_get = {
+		action = "get",
+		dialog = ""
 	}
 }
 slot1.assistantTouchParts = {
@@ -130,35 +142,35 @@ slot1.action2Id = {
 	touch_drag19 = 120,
 	touch_drag30 = 131,
 	idle = 1,
-	main_3 = 4,
-	hp_warning = 32,
+	touch_drag4 = 105,
+	touch_drag7 = 108,
 	win_mvp = 29,
 	touch_drag6 = 107,
 	mission = 9,
 	touch_drag23 = 124,
-	touch_drag4 = 105,
+	battle = 28,
 	skill = 31,
 	touch_drag12 = 113,
 	touch_drag5 = 106,
 	touch_drag32 = 133,
 	touch_idle25 = 226,
-	touch_body = 13,
 	touch_drag3 = 104,
+	unlock = 20,
 	touch_idle2 = 203,
 	feeling5 = 26,
-	mission_complete = 10,
+	mail = 8,
 	touch_drag25 = 126,
 	touch_drag13 = 114,
-	mail = 8,
+	feeling1 = 22,
 	touch_drag33 = 134,
 	touch_idle26 = 227,
-	complete = 5,
+	touch_drag29 = 130,
 	touch_idle23 = 224,
-	battle = 28,
+	hp_warning = 32,
 	touch_idle8 = 209,
-	touch_drag34 = 135,
+	feeling2 = 23,
 	touch_drag2 = 103,
-	touch_drag39 = 140,
+	main_3 = 4,
 	touch_drag42 = 143,
 	touch_drag15 = 116,
 	touch_drag28 = 129,
@@ -167,82 +179,85 @@ slot1.action2Id = {
 	touch_special = 14,
 	touch_idle17 = 218,
 	touch_idle3 = 204,
-	touch_drag46 = 147,
+	touch_drag34 = 135,
 	main_2_ex = 302,
 	touch_drag43 = 144,
 	touch_drag8 = 109,
+	touch_drag46 = 147,
+	touch_drag47 = 148,
 	touch_drag49 = 150,
-	touch_drag50 = 151,
-	touch_idle = 201,
 	touch_drag18 = 119,
 	touch_drag = 101,
 	touch_drag38 = 139,
+	touch_drag50 = 151,
+	touch_idle = 201,
 	touch_idle1 = 202,
-	unlock = 20,
-	touch_drag44 = 145,
 	upgrade = 27,
 	touch_drag45 = 146,
-	touch_idle4 = 205,
+	mission_complete = 10,
 	main_3_ex = 303,
-	feeling1 = 22,
+	touch_idle4 = 205,
 	main_5 = 19,
-	touch_idle9 = 210,
+	touch_idle5 = 206,
 	touch_drag21 = 122,
-	touch_idle10 = 211,
-	touch_idle11 = 212,
+	touch_idle7 = 208,
+	touch_drag31 = 132,
 	detail = 21,
-	touch_idle13 = 214,
+	touch_idle9 = 210,
 	feeling3 = 24,
 	touch_idle27 = 228,
-	touch_idle16 = 217,
+	touch_idle11 = 212,
 	touch_drag48 = 149,
-	touch_drag40 = 141,
+	touch_idle13 = 214,
 	home = 7,
-	touch_idle18 = 219,
+	touch_idle15 = 216,
 	touch_idle14 = 215,
 	touch_drag11 = 112,
 	touch_drag24 = 125,
-	touch_drag31 = 132,
+	oil = 16,
 	feeling4 = 25,
 	lose = 30,
+	touch_idle16 = 217,
+	touch_drag39 = 140,
+	touch_idle18 = 219,
 	touch_idle19 = 220,
 	touch_idle20 = 221,
 	touch_idle22 = 223,
-	feeling2 = 23,
-	touch_idle24 = 225,
-	oil = 16,
 	touch_idle12 = 213,
 	touch_drag9 = 110,
 	touch_drag26 = 127,
 	touch_drag14 = 115,
 	touch_drag22 = 123,
 	diamond = 17,
-	touch_idle15 = 216,
-	touch_idle28 = 229,
-	touch_idle29 = 230,
-	touch_idle30 = 231,
+	touch_idle24 = 225,
+	touch_body = 13,
+	get = 35,
+	touch_idle10 = 211,
 	touch_drag41 = 142,
-	touch_drag47 = 148,
+	touch_idle28 = 229,
 	touch_drag27 = 128,
-	touch_idle7 = 208,
+	touch_idle29 = 230,
 	main_1 = 2,
 	touch_drag16 = 117,
 	gold = 15,
 	touch_drag36 = 137,
 	touch_idle21 = 222,
-	touch_special_ex = 311,
-	home_ex = 312,
+	touch_idle30 = 231,
+	touch_drag44 = 145,
 	touch_idle6 = 207,
+	touch_drag40 = 141,
+	touch_special_ex = 311,
 	main_2 = 3,
 	touch_drag17 = 118,
 	wedding = 11,
 	touch_drag37 = 138,
-	touch_drag7 = 108,
+	change_in = 33,
 	main_1_ex = 301,
 	touch_drag20 = 121,
-	touch_drag29 = 130,
+	complete = 5,
+	home_ex = 312,
 	main_4 = 18,
-	touch_idle5 = 206,
+	change_out = 34,
 	login = 6,
 	touch_head = 12,
 	touch_drag10 = 111
@@ -2143,20 +2158,24 @@ slot1.GetCvList = function()
 	return slot0
 end
 
-slot1.GetCVListForProfile = function(slot0)
-	slot1 = {}
+slot1.GetCVListForProfile = function(slot0, slot1)
+	slot2 = {}
 
-	for slot5, slot6 in pairs(uv0.character_voice) do
-		if not uv0.AssistantInfo.isDisableSpecialClick(slot5) and slot6.unlock_condition[1] >= 0 and slot6.l2d_action ~= "" then
-			if slot6.sp_trans_l2d == 1 then
-				if slot0 then
-					table.insert(slot1, slot6)
+	for slot6, slot7 in pairs(uv0.character_voice) do
+		if not uv0.AssistantInfo.isDisableSpecialClick(slot6) and slot7.unlock_condition[1] >= 0 and slot7.l2d_action ~= "" then
+			if slot7.l2d_action == "get" then
+				if PaintingShowScene.GetSkinShowAble(slot1) then
+					table.insert(slot2, slot7)
 				end
-			elseif slot6.sp_trans_l2d == 0 or not slot6.sp_trans_l2d then
-				table.insert(slot1, slot6)
+			elseif slot7.sp_trans_l2d == 1 then
+				if slot0 then
+					table.insert(slot2, slot7)
+				end
+			elseif slot7.sp_trans_l2d == 0 or not slot7.sp_trans_l2d then
+				table.insert(slot2, slot7)
 			end
 		end
 	end
 
-	return slot1
+	return slot2
 end

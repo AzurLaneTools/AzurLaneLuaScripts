@@ -1481,5 +1481,46 @@ pg.enemy_data_statistics_50 = {
 			100218,
 			100427
 		}
+	},
+	[9002] = {
+		cannon = 42,
+		name = "陽炎級量產型",
+		hit_growth = 160,
+		speed_growth = 0,
+		antiaircraft_growth = 920,
+		air = 0,
+		antisub = 0,
+		armor = 0,
+		rarity = 1,
+		antiaircraft = 80,
+		fog_fx = "",
+		dodge_growth = 0,
+		star = 2,
+		antisub_growth = 0,
+		air_growth = 0,
+		base = 90105,
+		durability = 560,
+		armor_growth = 0,
+		torpedo_growth = 3000,
+		speed = 15,
+		luck = 0,
+		id = 9002,
+		cannon_growth = 350,
+		pilot_ai_template_id = 20005,
+		reload = 150,
+		dodge = 0,
+		reload_growth = 0,
+		hit = 14,
+		torpedo = 80,
+		durability_growth = 8820,
+		luck_growth = 0,
+		battle_unit_type = 20,
+		appear_fx = {
+			"appearsmall"
+		},
+		equipment_list = {
+			100227,
+			100430
+		}
 	}
 }

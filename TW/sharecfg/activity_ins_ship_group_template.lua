@@ -3732,7 +3732,7 @@ pg.activity_ins_ship_group_template = {
 		ship_group = 39906,
 		name = "Shimanto",
 		background = "",
-		sculpture = "siwanshi_2",
+		sculpture = "siwanshi_3",
 		nationality = 0,
 		type = 1
 	},
@@ -4544,6 +4544,78 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[110201] = {
+		ship_group = 110201,
+		name = "De Zeven Provinciën",
+		background = "",
+		sculpture = "qisheng",
+		nationality = 11,
+		type = 1
+	},
+	[110101] = {
+		ship_group = 110101,
+		name = "Evertsen",
+		background = "",
+		sculpture = "aifosen",
+		nationality = 11,
+		type = 1
+	},
+	[70509] = {
+		ship_group = 70509,
+		name = "Kazan ",
+		background = "",
+		sculpture = "kashan",
+		nationality = 7,
+		type = 1
+	},
+	[70208] = {
+		ship_group = 70208,
+		name = "Oleg",
+		background = "",
+		sculpture = "aoliege",
+		nationality = 7,
+		type = 1
+	},
+	[20516] = {
+		ship_group = 20516,
+		name = "Lion",
+		background = "",
+		sculpture = "shi",
+		nationality = 2,
+		type = 1
+	},
+	[20138] = {
+		ship_group = 20138,
+		name = "Trafalgar",
+		background = "",
+		sculpture = "telafaerjia",
+		nationality = 2,
+		type = 1
+	},
+	[20235] = {
+		ship_group = 20235,
+		name = "Cleopatra",
+		background = "",
+		sculpture = "keliaopeitela",
+		nationality = 2,
+		type = 1
+	},
+	[20139] = {
+		ship_group = 20139,
+		name = "Gallant",
+		background = "",
+		sculpture = "yongqi",
+		nationality = 2,
+		type = 1
+	},
+	[20236] = {
+		ship_group = 20236,
+		name = "Trinidad",
+		background = "",
+		sculpture = "telinida",
+		nationality = 2,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5112,6 +5184,15 @@ pg.activity_ins_ship_group_template = {
 		10713,
 		10234,
 		10153,
-		10512
+		10512,
+		110201,
+		110101,
+		70509,
+		70208,
+		20516,
+		20138,
+		20235,
+		20139,
+		20236
 	}
 }

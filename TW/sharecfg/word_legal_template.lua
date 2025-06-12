@@ -76,6 +76,13 @@ temp = function()
 				}
 			}
 		},
+		["拉"] = {
+			["法"] = {
+				["加"] = {
+					this = true
+				}
+			}
+		},
 		["倫"] = {
 			["托"] = {
 				this = true,
@@ -252,6 +259,17 @@ temp = function()
 			["蒙"] = {
 				["梭"] = {
 					this = true
+				}
+			}
+		},
+		["麗"] = {
+			["奧"] = {
+				["佩"] = {
+					["脫"] = {
+						["拉"] = {
+							this = true
+						}
+					}
 				}
 			}
 		}
@@ -3014,7 +3032,12 @@ temp = function()
 	uv0["螢"] = {
 		["火"] = {
 			["蟲"] = {
-				this = true
+				this = true,
+				["."] = {
+					["改"] = {
+						this = true
+					}
+				}
 			}
 		}
 	}
@@ -3024,6 +3047,9 @@ temp()
 
 temp = function()
 	uv0["勇"] = {
+		["氣"] = {
+			this = true
+		},
 		["敢"] = {
 			this = true
 		}
@@ -3460,6 +3486,26 @@ end
 temp()
 
 temp = function()
+	uv0["千"] = {
+		["里"] = {
+			["達"] = {
+				this = true
+			}
+		},
+		["歲"] = {
+			this = true
+		},
+		["代"] = {
+			["田"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["倫"] = {
 		["敦"] = {
 			this = true,
@@ -3752,6 +3798,16 @@ end
 temp()
 
 temp = function()
+	uv0["獅"] = {
+		this = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["競"] = {
 		["技"] = {
 			["神"] = {
@@ -3843,7 +3899,18 @@ temp = function()
 			}
 		},
 		["榮"] = {
-			this = true
+			this = true,
+			["·"] = {
+				M = {
+					E = {
+						T = {
+							A = {
+								this = true
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -5009,21 +5076,6 @@ temp = function()
 		},
 		["騎"] = {
 			["兵"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["千"] = {
-		["歲"] = {
-			this = true
-		},
-		["代"] = {
-			["田"] = {
 				this = true
 			}
 		}

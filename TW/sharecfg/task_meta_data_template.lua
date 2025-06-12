@@ -272,6 +272,11 @@ pg.task_meta_data_template = setmetatable({
 		100383,
 		100384,
 		100385,
+		100431,
+		100432,
+		100433,
+		100434,
+		100435,
 		200001,
 		200002,
 		200003,
@@ -379,7 +384,11 @@ pg.task_meta_data_template = setmetatable({
 		200291,
 		200292,
 		200293,
-		200294
+		200294,
+		200341,
+		200342,
+		200343,
+		200344
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2544,6 +2553,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "使用博爾扎諾·META擊破等級＞100的敵方1次"
 	},
+	[100431] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100431,
+		target_num = 1,
+		desc = "使用光榮·META獲得1次勝利"
+	},
+	[100432] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100432,
+		target_num = 1,
+		desc = "使用光榮·META擊破等級＞30的敵方1次"
+	},
+	[100433] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100433,
+		target_num = 1,
+		desc = "使用光榮·META擊破等級＞55的敵方1次"
+	},
+	[100434] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100434,
+		target_num = 1,
+		desc = "使用光榮·META擊破等級＞80的敵方1次"
+	},
+	[100435] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970707",
+		id = 100435,
+		target_num = 1,
+		desc = "使用光榮·META擊破等級＞100的敵方1次"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3407,5 +3456,37 @@ pg.base.task_meta_data_template = {
 		id = 200294,
 		target_num = 1,
 		desc = "大型作戰內使用博爾扎諾·META擊破等級＞100的敵方1次"
+	},
+	[200341] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200341,
+		target_num = 1,
+		desc = "大型作戰內使用光榮·META獲得1次勝利"
+	},
+	[200342] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200342,
+		target_num = 1,
+		desc = "大型作戰內使用光榮·META擊破等級＞70的敵方1次"
+	},
+	[200343] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200343,
+		target_num = 1,
+		desc = "大型作戰內使用光榮·META擊破等級＞90的敵方1次"
+	},
+	[200344] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970707",
+		id = 200344,
+		target_num = 1,
+		desc = "大型作戰內使用光榮·META擊破等級＞100的敵方1次"
 	}
 }

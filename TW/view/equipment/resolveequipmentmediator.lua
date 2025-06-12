@@ -26,16 +26,18 @@ slot0.handleNotification = function(slot0, slot1)
 	slot3 = slot1:getBody()
 
 	if slot1:getName() == GAME.DESTROY_EQUIPMENTS_DONE then
-		slot0.viewComponent:OnResolveEquipDone()
+		slot0.viewComponent:HideDestroyCondirm()
 
 		if table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3,
 				title = AwardInfoLayer.TITLE.ITEM,
 				removeFunc = function ()
-					uv0.viewComponent:emit(BaseUI.ON_CLOSE)
+					uv0.viewComponent:OnResolveEquipDone()
 				end
 			})
+		else
+			slot0.viewComponent:OnResolveEquipDone()
 		end
 	elseif slot2 == GAME.CANCEL_LIMITED_OPERATION then
 		-- Nothing

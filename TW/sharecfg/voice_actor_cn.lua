@@ -1771,5 +1771,21 @@ pg.voice_actor_CN = {
 	[446] = {
 		actor_name = "橘杏咲",
 		code = 446
+	},
+	[451] = {
+		actor_name = "金澤舞",
+		code = 451
+	},
+	[452] = {
+		actor_name = "米澤圓",
+		code = 452
+	},
+	[453] = {
+		actor_name = "薄井友里",
+		code = 453
+	},
+	[454] = {
+		actor_name = "櫻木tsugumi",
+		code = 454
 	}
 }

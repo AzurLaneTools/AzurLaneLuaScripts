@@ -532,6 +532,7 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 			uv0:ClearL2dPainting()
 		end
 
+		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		pg.UIMgr.GetInstance():LoadingOff()
 	end)
 end

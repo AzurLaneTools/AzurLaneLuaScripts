@@ -140,7 +140,7 @@ slot0.updateSelectable = function(slot0, slot1, slot2, slot3, slot4)
 		id = slot1:getConfig("commodity_id_list_show")
 	}))
 	setActive(slot0.mask, false)
-	setActive(slot0.selloutTag, fasle)
+	setActive(slot0.selloutTag, false)
 
 	if slot0.limitPassTag then
 		setActive(slot0.limitPassTag, false)

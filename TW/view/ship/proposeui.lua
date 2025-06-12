@@ -1156,6 +1156,9 @@ slot0.createLive2D = function(slot0, slot1)
 
 		slot3 = nil
 		slot3 = (not uv0.reviewSkinID or uv0.reviewSkinID) and (not uv0.proposeSkin or uv0.proposeSkin.id) and uv0.shipVO.skinId
+
+		Live2D.SetL2dSortingLayer(slot0, -999)
+
 		slot2.localPosition = BuildVector3(pg.ship_skin_template[slot3].live2d_offset) + Vector3(0, 0, 100)
 		slot2.localScale = Vector3.Scale(Vector3(1, 1, 10), slot2.localScale)
 		uv0.l2dChar = GetComponent(slot0, "Live2dChar")

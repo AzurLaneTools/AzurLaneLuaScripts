@@ -22,7 +22,8 @@ slot0.register = function(slot0)
 		uv0.viewComponent:PlayOpenBox(slot3:getConfig("display_effect"), function ()
 			uv0:sendNotification(GAME.USE_ITEM, {
 				id = uv1,
-				count = uv2
+				count = uv2,
+				isEquipBox = uv3:getConfig("type") == Item.EQUIPMENT_BOX_TYPE_5
 			})
 		end)
 	end)

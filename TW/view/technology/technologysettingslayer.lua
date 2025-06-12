@@ -40,6 +40,7 @@ slot0.didEnter = function(slot0)
 	slot0:updateActCatchupBtn()
 	triggerButton(slot0.leftBtnList[1])
 	triggerToggle(slot0.showFinish, slot0.showFinishFlag == 1 and true or false)
+	getProxy(CommanderManualProxy):TaskProgressAdd(2024, 1)
 end
 
 slot0.willExit = function(slot0)

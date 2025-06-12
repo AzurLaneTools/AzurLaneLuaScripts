@@ -86,6 +86,12 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 12,
+		param = {
+			"holiday villa map"
+		}
+	},
 	all = {
 		1,
 		2,
@@ -97,6 +103,7 @@ pg.activity_banner_notice = {
 		8,
 		9,
 		10,
-		11
+		11,
+		12
 	}
 }

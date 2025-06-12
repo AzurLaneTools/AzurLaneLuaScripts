@@ -389,7 +389,9 @@ slot0.createLive2D = function(slot0)
 		scale = Vector3(75, 75, 75),
 		position = Vector3(0, 0, 0),
 		parent = slot0:findTF("frame/painting/live2d")
-	}))
+	}), function (slot0)
+		slot0:setSortingLayer(-999)
+	end)
 end
 
 slot0.checkBuyDone = function(slot0, slot1)

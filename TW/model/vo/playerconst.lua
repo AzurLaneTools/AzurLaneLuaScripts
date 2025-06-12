@@ -49,8 +49,20 @@ slot2 = function(slot0)
 		end
 	}
 
-	switch(slot0.type, uv0, function ()
-		assert(false)
+	switch(slot0.type, uv0, function (slot0)
+		if DROP_TYPE_USE_ACTIVITY_DROP < slot0.type then
+			if getProxy(ActivityProxy):getActivityById(pg.activity_drop_type[slot0.type].activity_id) and not slot1:isEnd() then
+				if slot0.count > 0 then
+					slot1:addVitemNumber(slot0.id, slot0.count)
+				elseif slot0.count < 0 then
+					slot1:subVitemNumber(slot0.id, -slot0.count)
+				end
+			end
+
+			getProxy(ActivityProxy):updateActivity(slot1)
+		else
+			assert(false, string.format("without drop_type_%d owner logic from id_%d", type, slot0.id))
+		end
 	end, slot0)
 end
 
@@ -63,6 +75,7 @@ end
 reducePlayerOwn = function(slot0)
 	slot0.count = -math.max(slot0.count, 0)
 
+	print(slot0.count)
 	uv0(slot0)
 end
 

@@ -410,14 +410,15 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			slot0:triggerAction()
 			slot0:stopDrag()
 		elseif slot0.actionTrigger.action_list then
-			slot5 = slot0:fillterAction(slot0.actionTrigger.action_list[slot0.actionListIndex].action)
 			slot4 = (not slot0.actionTriggerActive.active_list or slot0.actionListIndex > #slot0.actionTriggerActive.active_list or slot0.actionTriggerActive.active_list[slot0.actionListIndex]) and slot0.actionTriggerActive
 			slot6 = slot11.focus or true
 			slot7 = slot11.target or nil
 			slot10 = slot11.target_focus == 1 and true or false
 			slot8 = slot11.react or nil
 
-			slot0:triggerAction()
+			if slot0:fillterAction(slot0.actionTrigger.action_list[slot0.actionListIndex].action) and #slot5 > 0 then
+				slot0:triggerAction()
+			end
 
 			if slot0.actionListIndex == #slot0.actionTrigger.action_list then
 				slot0:stopDrag()
@@ -426,6 +427,8 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			else
 				slot0.actionListIndex = slot0.actionListIndex + 1
 			end
+
+			print("id = " .. slot0.id .. " action list index = " .. slot0.actionListIndex)
 		elseif not slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive

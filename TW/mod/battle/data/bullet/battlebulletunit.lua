@@ -622,7 +622,8 @@ slot11.generateAttachBuffList = function(slot0)
 			buff_id = slot7.buff_id,
 			level = slot7.buff_level,
 			rant = slot7.rant,
-			hit_ignore = slot7.hit_ignore
+			hit_ignore = slot7.hit_ignore,
+			group_level = slot7.group_level
 		})
 	end
 
@@ -766,7 +767,16 @@ slot11.InitSpeed = function(slot0, slot1)
 	end
 end
 
+slot11.InheritSpeed = function(slot0, slot1)
+	slot0._speed = Vector3(slot1.x, slot1.y, slot1.z)
+	slot0._speedInited = true
+end
+
 slot11.calcSpeed = function(slot0)
+	if slot0._speedInited then
+		return
+	end
+
 	slot2 = uv1.ConvertBulletSpeed(slot0._velocity * (1 + uv0.Battle.BattleAttr.GetCurrent(slot0, "bulletSpeedRatio")))
 	slot3 = math.deg2Rad * slot0._yAngle
 	slot0._speed = Vector3(slot2 * math.cos(slot3), 0, slot2 * math.sin(slot3))

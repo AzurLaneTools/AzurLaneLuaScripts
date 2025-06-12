@@ -251,10 +251,26 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == PlayerProxy.UPDATED then
 		slot0.viewComponent:setPlayer(slot3)
 	elseif slot2 == GAME.USE_ITEM_DONE then
-		if #slot3 > 0 then
+		if #slot3.drops > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_WORLD_ACHIEVE, {
 				animation = true,
-				items = slot3
+				items = slot3.drops,
+				removeFunc = function ()
+					if uv0.isEquipBox then
+						uv1:addSubLayers(Context.New({
+							viewComponent = ResolveEquipmentLayer,
+							mediator = ResolveEquipmentMediator,
+							data = {
+								Equipments = underscore.map(uv0.drops, function (slot0)
+									return Equipment.New({
+										id = slot0.id,
+										count = slot0.count
+									})
+								end)
+							}
+						}))
+					end
+				end
 			})
 		end
 	elseif slot2 == GAME.FRAG_SELL_DONE then
@@ -263,12 +279,6 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.canUpdate = true
 
 		slot0.viewComponent:setEquipmentUpdate()
-
-		if #slot3 > 0 then
-			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3
-			})
-		end
 	elseif slot2 == BagProxy.ITEM_UPDATED then
 		if slot0.canUpdate then
 			slot0.viewComponent:setItems(getProxy(BagProxy):getItemsByExclude())

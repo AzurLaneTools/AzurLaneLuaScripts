@@ -16,5 +16,7 @@ this.SUBMIT_GAME_SUCCESS = "submit game success"
 this.GAME_OVER = "game over"
 this.ADD_SCORE = "add score"
 this.CLICK_DOWN = "click down"
+this.UPDATE_NEXT_BALL = "update next ball"
+this.CLICK_MOVE = "click move"
 
 return this

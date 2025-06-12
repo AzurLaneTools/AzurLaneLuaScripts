@@ -298,17 +298,28 @@ slot0.didEnter = function(slot0)
 			end
 		end
 
-		slot4 = ScreenShooter.New(Screen.width, Screen.height, TextureFormat.ARGB32):TakePhoto(uv0.mainCamera)
-
-		(function (slot0)
+		slot1 = function(slot0)
 			warning("截图结果：" .. tostring(slot0))
-		end)(true)
-		(function (slot0, slot1)
+		end
+
+		slot2 = function(slot0, slot1)
 			uv0:emit(Dorm3dPhotoARMediator.SHARE_PANEL, slot1, slot0)
 			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCamera(uv0.groupId, 3, uv0.room:GetConfigID(), Dorm3dCameraAnim.New({
 				configId = uv0.animID
 			}):GetStateName()))
-		end)(Tex2DExtension.EncodeToJPG(slot4), slot4)
+		end
+
+		tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
+		ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
+			typeof(Camera),
+			typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
+		}, {
+			uv0.mainCamera,
+			UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
+				uv0(true)
+				uv1(Tex2DExtension.EncodeToJPG(slot0), slot0)
+			end)
+		})
 	end, "ui-dorm_photograph")
 
 	GetOrAddComponent(slot0._tf:Find("RightTop/Film"), typeof(CanvasGroup)).blocksRaycasts = false

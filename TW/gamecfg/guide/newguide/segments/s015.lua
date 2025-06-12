@@ -57,7 +57,7 @@ return {
 			}
 		},
 		{
-			alpha = 0,
+			alpha = 0.207,
 			waitScene = "EquipmentDesignLayer",
 			style = {
 				mode = 2,

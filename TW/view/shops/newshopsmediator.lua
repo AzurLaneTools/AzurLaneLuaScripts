@@ -255,9 +255,9 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == ActivityProxy.ACTIVITY_SHOP_SHOW_AWARDS then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3.awards, slot3.callback)
 	elseif slot2 == GAME.USE_ITEM_DONE then
-		if table.getCount(slot3) ~= 0 then
+		if #slot3.drops ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
-				items = slot3
+				items = slot3.drops
 			})
 		end
 	elseif slot2 == GAME.FRAG_SELL_DONE then

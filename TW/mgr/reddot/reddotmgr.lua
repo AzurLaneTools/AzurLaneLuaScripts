@@ -32,6 +32,7 @@ slot0.TYPES = {
 	TASK = 2,
 	DORM3D_FURNITURE = 24,
 	EDUCATE_NEW_CHILD = 26,
+	COMMANDER_MANUAL = 27,
 	MAIL = 3,
 	BUILD = 4,
 	SETTTING = 11,
@@ -111,8 +112,8 @@ slot0.BindConditions = function(slot0)
 		return RefluxTaskView.isAnyTaskCanGetAward() or RefluxPTView.isAnyPTCanGetAward() or RefluxShopView.isShowRedPot()
 	end)
 	slot0:BindCondition(uv0.TYPES.ACT_NEWBIE, function ()
-		slot0, slot1 = TrainingCampScene.isNormalActOn()
-		slot2, slot3 = TrainingCampScene.isTecActOn()
+		slot0, slot1 = TechnologyConst.isNormalActOn()
+		slot2, slot3 = TechnologyConst.isTecActOn()
 
 		return slot1 or slot3
 	end)
@@ -147,6 +148,11 @@ slot0.BindConditions = function(slot0)
 	end)
 	slot0:BindCondition(uv0.TYPES.EDUCATE_NEW_CHILD, function ()
 		return NewEducateHelper.IsShowNewChildTip()
+	end)
+	slot0:BindCondition(uv0.TYPES.COMMANDER_MANUAL, function ()
+		slot1, slot2 = TechnologyConst.isTecActOn()
+
+		return getProxy(CommanderManualProxy):ShouldShowTaskOrGuideTip() or slot2
 	end)
 end
 

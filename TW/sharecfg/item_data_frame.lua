@@ -63,6 +63,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有五年間持續奮鬥在港區的指揮官們</color>\n通過參與五週年限定活動獲取",
 		scene = {}
 	},
+	[110] = {
+		name = "八周年纪念",
+		gain_by = "",
+		time_second = 0,
+		id = 110,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>献给所有八年间持续奋斗在港区的指挥官们</color>\n通过参与八周年限定活动获取",
+		scene = {}
+	},
 	[201] = {
 		name = "限界的挑戰者",
 		gain_by = "",
@@ -461,11 +470,11 @@ pg.item_data_frame = {
 	},
 	[335] = {
 		name = "薔薇之誓",
-		gain_by = "",
+		gain_by = "高塔上的薔薇",
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
-		desc = "透過後續活動獲得",
+		desc = "<color=#ffffff>「停駐在高塔上的薔薇，守護著皇家最後的榮光」</color>\n「高塔上的薔薇」活動獲取",
 		scene = {}
 	},
 	[401] = {
@@ -601,6 +610,15 @@ pg.item_data_frame = {
 		id = 609,
 		time_limit_type = 0,
 		desc = "<color=#ffffff>「指揮官，感謝您參與促銷活動，請收好贈品喵~！」</color>透過參與「初春明石特賣會」活動獲取",
+		scene = {}
+	},
+	[610] = {
+		name = "別墅島渡假之證",
+		gain_by = "",
+		time_second = 0,
+		id = 610,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>在別墅島上度過一個完美假期吧！ </color>透過參與「夏日重建！海島別墅渡假計畫！」活動獲取",
 		scene = {}
 	},
 	[1001] = {
@@ -764,6 +782,7 @@ pg.item_data_frame = {
 		104,
 		105,
 		107,
+		110,
 		201,
 		202,
 		203,
@@ -824,6 +843,7 @@ pg.item_data_frame = {
 		606,
 		607,
 		609,
+		610,
 		1001,
 		1002,
 		1003,

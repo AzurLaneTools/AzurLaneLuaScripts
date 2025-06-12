@@ -682,7 +682,8 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20113,
-			20114
+			20114,
+			20139
 		}
 	},
 	[20106] = {
@@ -782,6 +783,17 @@ pg.fleet_tech_ship_class = {
 			20133
 		}
 	},
+	[20114] = {
+		shiptype = 1,
+		name = "戰鬥級",
+		t_level = 8,
+		id = 20114,
+		t_level_1 = 44,
+		nation = 2,
+		ships = {
+			20138
+		}
+	},
 	[20201] = {
 		shiptype = 2,
 		name = "利安得級",
@@ -832,7 +844,8 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20216,
-			20217
+			20217,
+			20236
 		}
 	},
 	[20205] = {
@@ -861,7 +874,8 @@ pg.fleet_tech_ship_class = {
 			20227,
 			20230,
 			20231,
-			20233
+			20233,
+			20235
 		}
 	},
 	[20207] = {
@@ -1099,6 +1113,17 @@ pg.fleet_tech_ship_class = {
 		nation = 2,
 		ships = {
 			20513
+		}
+	},
+	[20507] = {
+		shiptype = 5,
+		name = "獅級",
+		t_level = 9,
+		id = 20507,
+		t_level_1 = 64,
+		nation = 2,
+		ships = {
+			20516
 		}
 	},
 	[20601] = {
@@ -3985,6 +4010,17 @@ pg.fleet_tech_ship_class = {
 			970704
 		}
 	},
+	[970707] = {
+		shiptype = 7,
+		name = "光榮·META",
+		t_level = 3,
+		id = 970707,
+		t_level_1 = 17,
+		nation = 97,
+		ships = {
+			970707
+		}
+	},
 	[970801] = {
 		shiptype = 8,
 		name = "U-556·META",
@@ -4080,6 +4116,7 @@ pg.fleet_tech_ship_class = {
 		20111,
 		20112,
 		20113,
+		20114,
 		20201,
 		20202,
 		20203,
@@ -4106,6 +4143,7 @@ pg.fleet_tech_ship_class = {
 		20504,
 		20505,
 		20506,
+		20507,
 		20601,
 		20602,
 		20603,
@@ -4353,6 +4391,7 @@ pg.fleet_tech_ship_class = {
 		970702,
 		970703,
 		970704,
+		970707,
 		970801,
 		971201,
 		971301

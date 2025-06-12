@@ -162,9 +162,11 @@ return {
 		uv1:BugReport(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
 	end,
 	StoreReview = function ()
-		slot0 = uv0.GetPNInfo()
+		if uv0.GetIsPlatform() then
+			slot0 = uv0.GetPNInfo()
 
-		uv1:StoreReview(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
+			uv1:StoreReview(slot0.playerName, uv0.GetClientVer(), slot0.serverID, slot0.info)
+		end
 	end,
 	ShareImg = function (slot0)
 		uv0:ShareImg(slot0, "")

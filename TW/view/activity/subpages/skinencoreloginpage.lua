@@ -32,12 +32,12 @@ slot0.OnFirstFlush = function(slot0)
 			type = MSGBOX_TYPE_HELP,
 			helps = pg.gametip.SkinDiscountHelp_School.tip
 		})
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 	onButton(slot0, slot0.btnShop, function ()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.SKINSHOP, {
 			page = NewSkinShopScene.PAGE_RETURN
 		})
-	end, SFX_PANEl)
+	end, SFX_PANEL)
 
 	slot4 = function()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
@@ -45,7 +45,7 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end
 
-	slot5 = SFX_PANEl
+	slot5 = SFX_PANEL
 
 	onButton(slot0, slot0.btnGift, slot4, slot5)
 

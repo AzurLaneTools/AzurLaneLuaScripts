@@ -59,10 +59,10 @@ slot0.handleNotification = function(slot0, slot1)
 		slot0.viewComponent:updateSwitchBtnsTag()
 	elseif slot2 == GAME.SUBMIT_TASK_DONE then
 		slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot3)
-		slot0.viewComponent:setPhrase()
+		slot0.viewComponent:switchPageByMediator()
 		slot0.viewComponent:updateSwitchBtnsTag()
 	elseif slot2 == ActivityProxy.ACTIVITY_OPERATION_DONE then
-		slot0.viewComponent:tryShowTecFixTip()
+		slot0.viewComponent:tryShowTecFixTip(slot3)
 		slot0.viewComponent:switchPageByMediator()
 		slot0.viewComponent:updateSwitchBtnsTag()
 	end

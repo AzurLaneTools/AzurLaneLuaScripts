@@ -183,32 +183,30 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 		return 0
 	end
 
-	if not slot0:IsAlive() then
-		return 0
-	end
-
-	slot5 = slot2.isMiss
-	slot6 = slot2.isCri
-	slot8 = slot2.isShare
-	slot9 = slot2.attr
-	slot10 = slot2.damageReason
-	slot11 = slot2.font
-	slot12 = slot2.cldPos
-	slot13 = slot2.incorrupt
-	slot14 = nil
+	slot4 = slot2.isMiss
+	slot5 = slot2.isCri
+	slot7 = slot2.isShare
+	slot8 = slot2.attr
+	slot9 = slot2.damageReason
+	slot10 = slot2.font
+	slot11 = slot2.cldPos
+	slot12 = slot2.incorrupt
+	slot13 = slot2.isReflect
+	slot14, slot15 = nil
 
 	if not slot2.isHeal then
 		slot15 = {
 			damage = -slot1,
-			isShare = slot8,
-			miss = slot5,
-			cri = slot6,
+			isShare = slot7,
+			miss = slot4,
+			cri = slot5,
 			damageSrc = slot2.srcID,
-			damageAttr = slot9,
-			damageReason = slot10
+			damageAttr = slot8,
+			damageReason = slot9,
+			isReflect = slot13
 		}
 
-		if not slot8 then
+		if not slot7 then
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_BEFORE_TAKE_DAMAGE, slot15)
 
 			if slot15.capFlag then
@@ -237,48 +235,54 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 		end
 	else
 		slot14 = slot1
-		slot15 = {
+		slot16 = {
 			damage = slot1,
-			isHeal = slot7,
-			incorrupt = slot13
+			isHeal = slot6,
+			incorrupt = slot12
 		}
 
-		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot15)
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_TAKE_HEALING, slot16)
 
-		slot7 = slot15.isHeal
+		slot6 = slot16.isHeal
 
-		if math.max(0, slot0._currentHP + slot15.damage - slot0:GetMaxHP()) > 0 then
+		if math.max(0, slot0._currentHP + slot16.damage - slot0:GetMaxHP()) > 0 then
 			slot0:TriggerBuff(uv0.BuffEffectType.ON_OVER_HEALING, {
-				overHealing = slot16
+				overHealing = slot17
 			})
 		end
 	end
 
-	slot15 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
+	slot16 = math.min(slot0:GetMaxHP(), math.max(0, slot0._currentHP + slot1))
 
-	slot0:SetCurrentHP(slot15)
+	slot0:SetCurrentHP(slot16)
 
-	slot17 = {
+	slot18 = {
 		preShieldHP = slot14,
 		dHP = slot1,
-		validDHP = slot15 - slot0._currentHP,
-		isMiss = slot5,
-		isCri = slot6,
-		isHeal = slot7,
-		font = slot11
+		validDHP = slot16 - slot0._currentHP,
+		isMiss = slot4,
+		isCri = slot5,
+		isHeal = slot6,
+		font = slot10
 	}
 
-	if slot12 and not slot12:EqualZero() then
-		slot18 = slot0:GetPosition()
-		slot19 = slot0:GetBoxSize().x
-		slot22 = slot12:Clone()
-		slot22.x = Mathf.Clamp(slot22.x, slot18.x - slot19, slot18.x + slot19)
-		slot17.posOffset = slot18 - slot22
+	if not slot6 then
+		slot15.validDHP = slot17
+
+		slot0:TriggerBuff(uv0.BuffEffectType.ON_DAMAGE_CONCLUDE, slot15)
 	end
 
-	slot0:UpdateHPAction(slot17)
+	if slot11 and not slot11:EqualZero() then
+		slot19 = slot0:GetPosition()
+		slot20 = slot0:GetBoxSize().x
+		slot23 = slot11:Clone()
+		slot23.x = Mathf.Clamp(slot23.x, slot19.x - slot20, slot19.x + slot20)
+		slot18.posOffset = slot19 - slot23
+	end
 
-	if not slot0:IsAlive() and slot4 then
+	slot0:UpdateHPAction(slot18)
+
+	if not slot0:IsAlive() and slot3 then
 		slot0:SetDeathReason(slot2.damageReason)
 		slot0:SetDeathSrcID(slot2.srcID)
 		slot0:DeadAction()
@@ -288,7 +292,7 @@ slot9.UpdateHP = function(slot0, slot1, slot2)
 		slot0:TriggerBuff(uv0.BuffEffectType.ON_HP_RATIO_UPDATE, {
 			dHP = slot1,
 			unit = slot0,
-			validDHP = slot16
+			validDHP = slot17
 		})
 	end
 
@@ -971,19 +975,18 @@ slot9.AddBuff = function(slot0, slot1, slot2)
 	}
 
 	if slot0:GetBuff(slot3) then
-		slot6 = slot5:GetLv()
-		slot7 = slot1:GetLv()
-
 		if slot2 then
-			slot8 = slot0._buffStockList[slot3] or {}
+			slot6 = slot0._buffStockList[slot3] or {}
 
-			table.insert(slot8, slot1)
+			table.insert(slot6, slot1)
 
-			slot0._buffStockList[slot3] = slot8
+			slot0._buffStockList[slot3] = slot6
 		else
-			slot4.buff_level = math.max(slot6, slot7)
+			slot8 = slot5:GetGroupLevel()
+			slot9 = slot1:GetGroupLevel()
+			slot4.buff_level = math.max(slot5:GetLv(), slot1:GetLv())
 
-			if slot5:IsForceStack() or slot7 <= slot6 then
+			if slot5:IsForceStack() or slot9 <= slot8 then
 				slot5:Stack(slot0)
 
 				slot4.stack_count = slot5:GetStack()

@@ -2,6 +2,7 @@ slot0 = class("MainSequenceView")
 
 slot0.Ctor = function(slot0)
 	slot0.sequence = {
+		MainAwakeGuideSequence.New(),
 		MainRefundSequence.New(),
 		MainForcePlayerNameModificationSequence.New(),
 		MainRequestVoteInfoSequence.New(),

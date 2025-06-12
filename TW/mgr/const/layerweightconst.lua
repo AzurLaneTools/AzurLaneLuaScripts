@@ -5,6 +5,7 @@ LayerWeightConst = {
 	UI_TYPE_SYSTEM = "type_system",
 	UI_TYPE_SUB = "type_sub",
 	UI_TYPE_OVERLAY_FOREVER = "type_overlay_forever",
+	L2D_DEFAULT_LAYER = -999,
 	LOWER_LAYER = 50,
 	BASE_LAYER = 100,
 	SECOND_LAYER = 200,

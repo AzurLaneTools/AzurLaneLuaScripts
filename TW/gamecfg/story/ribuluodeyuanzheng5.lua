@@ -659,7 +659,7 @@ return {
 			hideOther = true,
 			dir = 1,
 			actor = 9705040,
-			actorName = "<color=#FFC960>伊丽莎白女王·META</color><color=#000000>&</color><color=#5CE6FF>伊丽莎白女王</color>",
+			actorName = "<color=#FFC960>伊莉莎白女王·META</color><color=#000000>&</color><color=#5CE6FF>伊莉莎白女王</color>",
 			hidePaintObj = true,
 			say = "…………",
 			typewriter = {

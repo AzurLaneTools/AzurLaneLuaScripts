@@ -2448,7 +2448,7 @@ pg.medal_template = {
 		name = "深谷病院調查紀念勳章",
 		target_num = 8,
 		type = 0,
-		is_out_of_print = 0,
+		is_out_of_print = 1,
 		count_inherit = 0,
 		desc = "恭喜，你成功調查了深谷病院的秘密，選擇了理想中的結局，此行，你還滿意嗎？",
 		next = 0,
@@ -2462,6 +2462,48 @@ pg.medal_template = {
 		rank = 1,
 		id = 200031,
 		explain1 = "「深谷來信」",
+		explain2 = "活動紀念"
+	},
+	[200051] = {
+		target_id = "5970",
+		name = "高塔薔薇紀念勳章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "高塔走向了毀滅，薔薇走向了新生。\n此行雖有波折、亦存險阻，所幸終得圓滿。可喜可賀，可賀可喜。",
+		next = 0,
+		icon = "9051",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9051",
+		condition = "收集8個「高塔上的薔薇」紀念貼紙。",
+		rank = 1,
+		id = 200051,
+		explain1 = "「高塔上的薔薇」",
+		explain2 = "活動紀念"
+	},
+	[200061] = {
+		target_id = "5971",
+		name = "別墅假日紀念勳章",
+		target_num = 7,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "沙灘與烈日、冷飲與冷氣。盡情享受這場獨屬於渡假別墅島的獨特體驗，度過一個完美假期吧~",
+		next = 0,
+		icon = "9061",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9061",
+		condition = "收集7個「夏日重建」紀念貼紙。",
+		rank = 1,
+		id = 200061,
+		explain1 = "「夏日重建」",
 		explain2 = "活動紀念"
 	},
 	all = {
@@ -2576,6 +2618,8 @@ pg.medal_template = {
 		100934,
 		100935,
 		200011,
-		200031
+		200031,
+		200051,
+		200061
 	}
 }

@@ -8,6 +8,7 @@ slot0.init = function(slot0)
 	slot0.recallBtn = slot0:findTF("Main/recall")
 	slot0.cryptolaliaBtn = slot0:findTF("Main/cryptolalia")
 	slot0.archiveBtn = slot0:findTF("Main/archive")
+	slot0.archiveLockTF = slot0.archiveBtn:Find("lock")
 	slot0.recordBtn = slot0:findTF("Main/record")
 	slot0.albumBtn = slot0:findTF("Main/album")
 
@@ -43,8 +44,21 @@ slot0.didEnter = function(slot0)
 			uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_CRYPTOLALIA)
 		end
 	end, SFX_PANEL)
+
+	slot1 = pg.SystemOpenMgr.GetInstance()
+	slot3 = getProxy(PlayerProxy)
+
+	setActive(slot0.archiveLockTF, not slot1:isOpenSystem(slot3:getRawData().level, "WorldMediator"))
 	onButton(slot0, slot0.archiveBtn, function ()
-		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_ARCHIVE)
+		if not uv0 then
+			slot0 = pg.open_systems_limited[19]
+
+			pg.TipsMgr.GetInstance():ShowTips(i18n("no_open_system_tip", slot0.name, slot0.level))
+
+			return
+		end
+
+		uv1:emit(WorldMediaCollectionEntranceMediator.OPEN_ARCHIVE)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.recordBtn, function ()
 		uv0:emit(WorldMediaCollectionEntranceMediator.OPEN_RECORD)

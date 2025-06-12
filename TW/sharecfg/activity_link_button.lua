@@ -1,7 +1,7 @@
 pg = pg or {}
 pg.activity_link_button = {
 	{
-		param = "5871",
+		param = "5941",
 		name = "event_all",
 		text_pic = "text_event_all",
 		type = 3,
@@ -11,7 +11,7 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5871
+			5941
 		}
 	},
 	{
@@ -37,31 +37,48 @@ pg.activity_link_button = {
 		order = 99
 	},
 	[10] = {
+		param = "0",
 		name = "event_map",
 		text_pic = "text_event_map",
-		type = 2,
+		type = 0,
 		pic = "event_map",
 		id = 10,
 		group_id = 2,
 		order = 1,
 		time = {
 			"default",
-			5871
-		},
-		param = {
-			"clue map"
+			5941
 		}
 	},
 	[20] = {
-		param = "0",
 		name = "event_minigame",
 		time = "stop",
 		text_pic = "text_event_minigame",
-		type = 0,
+		type = 2,
 		pic = "event_minigame",
 		id = 20,
 		group_id = 5,
-		order = 1
+		order = 1,
+		param = {
+			"holiday villa map"
+		}
+	},
+	[21] = {
+		name = "event_holidayVilla",
+		text_pic = "text_event_minigame",
+		type = 0,
+		pic = "event_minigame",
+		id = 21,
+		group_id = 5,
+		order = 1,
+		time = {
+			"default",
+			5951
+		},
+		param = {
+			"holiday villa map",
+			5922
+		}
 	},
 	[30] = {
 		param = "0",
@@ -298,6 +315,9 @@ pg.activity_link_button = {
 			1000,
 			108
 		},
+		event_holidayVilla = {
+			21
+		},
 		event_boss = {
 			30
 		},
@@ -347,6 +367,7 @@ pg.activity_link_button = {
 		9,
 		10,
 		20,
+		21,
 		30,
 		40,
 		60,

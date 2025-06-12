@@ -335,7 +335,7 @@ end
 
 eachChild = function(slot0, slot1)
 	for slot7 = tf(slot0).childCount - 1, 0, -1 do
-		slot1(slot2.GetChild(slot2, slot7))
+		slot1(slot2.GetChild(slot2, slot7), slot7)
 	end
 end
 

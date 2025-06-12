@@ -4281,7 +4281,7 @@ pg.backyard_theme_template = {
 		name = "深空醫療站",
 		desc = "深空醫療站，提供您獨特的新奇醫療體驗。",
 		deblocking = 1,
-		new = 1,
+		new = 0,
 		hot = 1,
 		Cfg_2 = 8,
 		is_view = 1,
@@ -4314,6 +4314,41 @@ pg.backyard_theme_template = {
 			320304,
 			320305,
 			320306
+		}
+	},
+	[122] = {
+		Cfg_1 = 5,
+		name = "海濱假日",
+		desc = "沙灘與浪花，享受海濱假日的悠閒時光吧~",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 123,
+		id = 122,
+		icon = "hb2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			322001,
+			322002,
+			322101,
+			322102,
+			322103,
+			322104,
+			322105,
+			322106,
+			322107,
+			322108,
+			322109,
+			322110,
+			322111,
+			322112,
+			322113,
+			322114,
+			322115
 		}
 	},
 	all = {
@@ -4416,6 +4451,7 @@ pg.backyard_theme_template = {
 		115,
 		116,
 		118,
-		120
+		120,
+		122
 	}
 }

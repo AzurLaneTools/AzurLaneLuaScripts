@@ -42,7 +42,7 @@ slot0.handleNotification = function(slot0, slot1)
 	end
 
 	if slot2 == GAME.USE_ITEM_DONE then
-		if #slot1:getBody() > 0 then
+		if #slot1:getBody().drops > 0 then
 			slot0.viewComponent:emit(BaseUI.ON_ACHIEVE, slot4)
 		end
 	elseif slot2 == PlayerProxy.UPDATED then

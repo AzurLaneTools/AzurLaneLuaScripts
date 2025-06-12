@@ -76,7 +76,7 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "story-richang-light",
+		default_bgm = "story-villaisland-night",
 		special_bgm = "",
 		bgm = "login"
 	},
@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "story-tempest-marching",
+		default_bgm = "theme-glorious-meta",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -1765,6 +1765,21 @@ pg.voice_bgm = {
 		special_bgm = "",
 		bgm = "story-richang-5"
 	},
+	FulankelinMainPage = {
+		default_bgm = "theme-hospital-deep",
+		special_bgm = "",
+		bgm = "theme-hospital-deep"
+	},
+	FulankelinPtPage = {
+		default_bgm = "theme-hospital-deep",
+		special_bgm = "",
+		bgm = "theme-hospital-deep"
+	},
+	ValleyMessageAlbumView = {
+		default_bgm = "theme-hospital-deep",
+		special_bgm = "",
+		bgm = "theme-hospital-deep"
+	},
 	ExpeditionSkinPage = {
 		default_bgm = "theme-camelot",
 		special_bgm = "",
@@ -1784,5 +1799,55 @@ pg.voice_bgm = {
 		default_bgm = "theme-designshipVI",
 		special_bgm = "",
 		bgm = "theme-designshipVI"
+	},
+	TrinidadMainPage = {
+		default_bgm = "theme-lion",
+		special_bgm = "",
+		bgm = "theme-lion"
+	},
+	RosePtPage = {
+		default_bgm = "story-egypt-mystic",
+		special_bgm = "",
+		bgm = "story-egypt-mystic"
+	},
+	HolidayVillaIslandMainPage = {
+		default_bgm = "story-villaisland-light",
+		special_bgm = "",
+		bgm = "story-villaisland-light"
+	},
+	HolidayVillaHotSpringScene = {
+		default_bgm = "theme-warmwinter-daily",
+		special_bgm = "",
+		bgm = "theme-warmwinter-daily"
+	},
+	UrExTrafalgarPage = {
+		default_bgm = "story-royalnavy-serious",
+		special_bgm = "",
+		bgm = "story-royalnavy-serious"
+	},
+	CelebrationPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	AnniversaryEightLoginPage = {
+		default_bgm = "story-musicanniversary-gorgeous",
+		special_bgm = "",
+		bgm = "story-musicanniversary-gorgeous"
+	},
+	CommanderManualLayer = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
+	},
+	TowerRoseMedalAlbumView = {
+		default_bgm = "theme-glorious-meta",
+		special_bgm = "",
+		bgm = "theme-glorious-meta"
+	},
+	HolidayVillaMedalAlbumView = {
+		default_bgm = "story-villaisland-light",
+		special_bgm = "",
+		bgm = "story-villaisland-light"
 	}
 }

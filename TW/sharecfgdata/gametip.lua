@@ -5261,7 +5261,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 			info = [[
 信標·META功能說明
 
-1. <color=#92fc63>2025.6.5-2025.8.21</color>期間限時開放「長門·META」的挑戰，在此期間指揮官可挑戰「長門·META」累計其同步值獲取<color=#92fc63>「長門·META」角色</colo r>及其他豐厚獎勵
+1. <color=#92fc63>2025.6.5-2025.8.21</color>期間限時開放「長門·META」的挑戰，在此期間指揮官可挑戰「長門·META」累計其同步值獲取<color=#92fc63>「長門·META」角色</color>及其他豐厚獎勵
 <color=#ff5c5c>注意：同步值將於時間結束後消失</color>
 
 2.「信標數據」獲得與解析
@@ -5270,7 +5270,7 @@ _G.pg.base.gametip.world_boss_help_meta = {
 ·每次解析「信標數據」所需量為<color=#92fc63>100</color>點
 
 3.挑戰自己解析的信標
-·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</colorfc63> 點逐漸減少至<color=#92fc63>0</color>點。(不會消耗挑戰次數)
+·第一次挑戰自己解析的信標不會消耗石油，從第二次開始，隨著挑戰次數的增加，每次挑戰消耗的石油會從<color=#92fc63>40</color> 點逐漸減少至<color=#92fc63>0</color>點。(不會消耗挑戰次數)
 ·當信標HP歸零後視為戰鬥勝利，指揮官可以領取大量角色同步值獎勵。
 ·每個被解析的信標只會存在<color=#92fc63>24小時</color>，過期後將會消失，記得向其他指揮官請求支援哦。
 ·每次挑戰成功後，信標的強度將會提升1階段，總計15階段。隨著階段提升，戰鬥獎勵也會提升。
@@ -6390,6 +6390,11 @@ _G.pg.base.gametip.word_shipNation_senran = {
 
 _G.pg.base.gametip.word_shipNation_tolove = {
 	tip = "To LOVE-Ru"
+}
+
+
+_G.pg.base.gametip.word_shipNation_yujinwangguo = {
+	tip = "鬱金王國"
 }
 
 
@@ -9037,6 +9042,11 @@ _G.pg.base.gametip.ship_remould_warning_107984 = {
 
 _G.pg.base.gametip.ship_remould_warning_201514 = {
 	tip = "此次改造操作後<color=#92fc63>【魚雷底座-1】</color> <color=#92fc63>【防空炮底座+1】</color>\n是否確認繼續操作？"
+}
+
+
+_G.pg.base.gametip.ship_remould_warning_201524 = {
+	tip = "此改造作業後<color=#92fc63>【主炮底座+1】</color>\n是否確認繼續操作？"
 }
 
 
@@ -12010,7 +12020,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船天城(最多4次)"
+	tip = "每累計建造200次可獲得海上傳奇艦船 獅(最多4次)"
 }
 
 
@@ -14492,7 +14502,7 @@ _G.pg.base.gametip.pray_build_help = {
 			info = "4.指揮官可以從中選擇2個角色作為祈願角色，其中僅能最多選擇1名<color=#ff5e39>海上傳奇艦船</color>角色"
 		},
 		{
-			info = "5.可選名單僅包含7月17日前常駐加入對應建造的角色"
+			info = "5.可選名單僅包含3月13日前常駐加入對應建造的角色"
 		},
 		{
 			info = "6.有建造解鎖條件的角色無法被選為祈願角色，\n不會在祈願建造中出現。"
@@ -27201,7 +27211,7 @@ _G.pg.base.gametip.ryza_task_help_tip = {
 
 
 _G.pg.base.gametip.hotspring_buff = {
-	tip = "露天溫泉|入浴艦船心情回复速度加快"
+	tip = "假日大浴場|入浴艦船心情回復速度加快"
 }
 
 
@@ -32662,6 +32672,11 @@ _G.pg.base.gametip.word_get_emoji = {
 }
 
 
+_G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
+	tip = "（<color=#92fc63>贈送$1</color>）"
+}
+
+
 _G.pg.base.gametip.skin_shop_buy_confirm = {
 	tip = "是否使用<color=$1>$2鑽石</color>購買<color=#92fc63FF>$3</color>"
 }
@@ -35621,7 +35636,7 @@ _G.pg.base.gametip.TW_build_chase_time = {
 
 
 _G.pg.base.gametip.ship_task_lottery_title = {
-	tip = "綻放於輝光之城活動期間累積通關「喚醒蒼紅之炎」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
+	tip = "高塔上的蔷薇活動期間累積通關「高塔上的蔷薇」關卡，可取得<color=#66b9ff>單次建造券</color>獎勵"
 }
 
 
@@ -36334,6 +36349,429 @@ _G.pg.base.gametip.grapihcs3d_setting_enable_dof = {
 }
 
 
+_G.pg.base.gametip.handbook_new_player_task_locked_by_section = {
+	tip = "完成上一階段所有任務後解鎖"
+}
+
+
+_G.pg.base.gametip.handbook_new_player_guide_locked_by_level = {
+	tip = "指揮官等級達$1後解鎖"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_level = {
+	tip = "指揮官等級達$1後解鎖"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_other_task = {
+	tip = "完成任務$1後解鎖"
+}
+
+
+_G.pg.base.gametip.handbook_task_locked_by_chapter = {
+	tip = "通關關卡$1後解鎖"
+}
+
+
+_G.pg.base.gametip.handbook_name = {
+	tip = "指揮官手冊"
+}
+
+
+_G.pg.base.gametip.handbook_process = {
+	tip = "未完成"
+}
+
+
+_G.pg.base.gametip.handbook_claim = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.handbook_finished = {
+	tip = "已完成"
+}
+
+
+_G.pg.base.gametip.handbook_unfinished = {
+	tip = "完成$1個任務後可領取"
+}
+
+
+_G.pg.base.gametip.handbook_gametip = {
+	tip = {
+		{
+			info = "「指揮官手冊」系統說明："
+		},
+		{
+			info = "「指揮官手冊」內有新手任務、研究任務、功能指引三個模組。"
+		},
+		{
+			info = [[
+<b>1.新手任務：</b>
+·面向新晉指揮官的系列任務。
+·任務共有9個階段，每個階段有若干任務。
+·完成上一階段的6個任務後可解鎖下一階段的任務，完成階段內全部任務則可領取階段獎勵。
+·完成第9階段全部任務後，可以獲得大獎「訓練獎勵邀請函」，使用訓練獎勵邀請函可以在<color=#92fc63>{namecode:182}</color>、<color=#92fc63>{namecode:199}</color>中自選一位獲取。]]
+		},
+		{
+			info = [[
+<b>2.科研任務：</b>
+·面向Lv達到30的玩家，快速獲得科研測試數據和定向藍圖的系列任務。
+·如果指揮官目前沒有正在進行的科研任務，則可以自選一期任務開始。
+·請注意：選定一期任務並開始後，將無法切換至其他期任務，直到完成該期所有研究任務。]]
+		},
+		{
+			info = "<b>3.功能指引：</b>\n·面向新晉指揮官的功能說明總結。\n·功能指引內依照各個系統切分為多個子模組，每個子模組內有相關功能的訓練任務和說明，完成每個子模組後可獲得心智魔方"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.handbook_research_confirm = {
+	tip = "開啟任務"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_desc_locked = {
+	tip = "完成$1所有科研任務後可解鎖本階段考核任務"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_locked = {
+	tip = "未完成"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_claim = {
+	tip = "領取"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_unfinished = {
+	tip = "未完成"
+}
+
+
+_G.pg.base.gametip.handbook_research_final_task_btn_finished = {
+	tip = "已領取"
+}
+
+
+_G.pg.base.gametip.handbook_ur_double_check = {
+	tip = "指揮官只能選擇一人贈予邀請函，\n是否確認贈予<color=#92fc63>$1</color>？ \n贈與後會獲得對應角色和回禮"
+}
+
+
+_G.pg.base.gametip.NewMusic_1 = {
+	tip = "收藏($1)"
+}
+
+
+_G.pg.base.gametip.NewMusic_2 = {
+	tip = "搜尋…"
+}
+
+
+_G.pg.base.gametip.NewMusic_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/music_help"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.NewMusic_3 = {
+	tip = "暫無符合條件的音樂"
+}
+
+
+_G.pg.base.gametip.NewMusic_4 = {
+	tip = "暫無符合條件的專輯"
+}
+
+
+_G.pg.base.gametip.NewMusic_5 = {
+	tip = "收藏的音樂"
+}
+
+
+_G.pg.base.gametip.NewMusic_6 = {
+	tip = "專輯列表"
+}
+
+
+_G.pg.base.gametip.NewMusic_7 = {
+	tip = "暫未收藏音樂"
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame1 = {
+	tip = "合成\"大\"艦船"
+}
+
+
+_G.pg.base.gametip.holiday_tip_minigame2 = {
+	tip = "啾啾打撈團"
+}
+
+
+_G.pg.base.gametip.holiday_tip_bath = {
+	tip = "假日大浴場"
+}
+
+
+_G.pg.base.gametip.holiday_tip_collection = {
+	tip = "別墅島收集冊"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task = {
+	tip = "重建任務"
+}
+
+
+_G.pg.base.gametip.holiday_tip_shop = {
+	tip = "重建補給站"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans = {
+	tip = "運輸碼頭"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_now = {
+	tip = "目前目標"
+}
+
+
+_G.pg.base.gametip.holiday_tip_finish = {
+	tip = "海島別墅的重建工作已<color=#5f984d>全部完工</color>，將多餘重建物資<color=#5f984d>轉換為重建幣</color>吧。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_get = {
+	tip = "完成重建任務可獲得更多運力"
+}
+
+
+_G.pg.base.gametip.holiday_tip_rebuild_not = {
+	tip = "材料不足，前往運輸碼頭獲取"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_not = {
+	tip = "運力不足，前往重建任務獲取"
+}
+
+
+_G.pg.base.gametip.holiday_tip_task_finish = {
+	tip = "完成海島別墅全部重建劇情"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_tip = {
+	tip = "運輸碼頭"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc1 = {
+	tip = "海島別墅的主碼頭，可供大型郵輪和運輸船停靠。入口處豎起一塊印著貓貓爪印的巨大歡迎牌，附帶方向指引。——終點果然是某綠頭貓咪的昂貴果汁攤。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_trans_desc2 = {
+	tip = "海島別墅的主碼頭，可供大型郵輪和運輸船停靠。入口處豎起一塊印著貓貓爪印的巨大歡迎牌，附帶方向指引。——終點果然是某綠頭貓咪的昂貴果汁攤。"
+}
+
+
+_G.pg.base.gametip.holiday_tip_gametip = {
+	tip = {
+		{
+			info = [[
+活動規則：
+<color=#92fc63>6.12-7.3維護</color>期間開啟限時活動「夏日重建！海島別墅渡假計畫！」
+◆夏日重建◆
+指揮官需要透過活動任務獲得「碼頭運力」，消耗「碼頭運力」可以在「貨物碼頭區」進行資源運輸，並獲得4種資源；
+消耗對應的資源可修復島上的6個區域，並解鎖對應區域的劇情。
+◆重建補給站◆
+參與活動可以獲得「重建幣」，消耗「重建幣」可以在「重建補給站」中兌換限定裝扮組、限定外觀在內的豐富獎勵。
+◆更多功能◆
+參與「合成『大』艦船」、「啾啾打撈團」小遊戲可以獲得豐富獎勵；
+指揮官可以邀請角色前往「假日大浴場」，可以提高入浴角色的心情回復速度。
+「合成『大』艦船」、「啾啾打撈團」、「假日大浴場」會隨著海島修復進度解鎖。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.holiday_tip_spring = {
+	tip = {
+		{
+			info = "活動規則：\n<color=#92fc63>6.12-7.3維護</color>期間限時開啟「假日大浴場」\n指揮官可以邀請角色前往「假日大浴場」，可以提高入浴角色的心情回復速度"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.activity_holiday_function_lock = {
+	tip = "隨著重建進度推進解鎖"
+}
+
+
+_G.pg.base.gametip.storyline_chapter0 = {
+	tip = "序章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter1 = {
+	tip = "第一章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter2 = {
+	tip = "第二章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter3 = {
+	tip = "第三章"
+}
+
+
+_G.pg.base.gametip.storyline_chapter4 = {
+	tip = "第四章"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch1 = {
+	tip = "搜尋劇情名"
+}
+
+
+_G.pg.base.gametip.storyline_memorysearch2 = {
+	tip = "搜尋…"
+}
+
+
+_G.pg.base.gametip.use_amount_prefix = {
+	tip = "使用數量："
+}
+
+
+_G.pg.base.gametip.sure_exit_resolve_equip = {
+	tip = "不進行任何操作，所有裝備會放入<color=#5f984d>倉庫</color>\n是否退出？"
+}
+
+
+_G.pg.base.gametip.resolve_equip_tip = {
+	tip = "請選擇需要拆解的裝備，未選的裝備將放入倉庫"
+}
+
+
+_G.pg.base.gametip.resolve_equip_title = {
+	tip = "將獲得以下材料:"
+}
+
+
+_G.pg.base.gametip.tec_catchup_0 = {
+	tip = "一期"
+}
+
+
+_G.pg.base.gametip.tec_catchup_confirm = {
+	tip = "確認進行本期科研任務？ \n確認後將開啟本期科研任務，完成本期所有任務後才可切換至其他研究任務。"
+}
+
+
+_G.pg.base.gametip.watermelon_minigame_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/watermelon_minigame"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
 _G.pg.base.gametip.breakout_tip = {
 	tip = "*突破之後將提升角色星級"
+}
+
+
+_G.pg.base.gametip.collection_book_lock_place = {
+	tip = "地點尚未解鎖"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_1 = {
+	tip = "區域\n紀錄"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_2 = {
+	tip = "渡假\n時光"
+}
+
+
+_G.pg.base.gametip.collection_book_tag_3 = {
+	tip = "特殊\n邂逅"
+}
+
+
+_G.pg.base.gametip.challenge_minigame_unlock = {
+	tip = "小遊戲未解鎖"
+}
+
+
+_G.pg.base.gametip.storyline_camp = {
+	tip = "登場陣營"
+}
+
+
+_G.pg.base.gametip.storyline_goto = {
+	tip = "查看回憶"
+}
+
+
+_G.pg.base.gametip.holiday_villa_locked = {
+	tip = "完成<color=#92fc63>假日別墅籌備中</color>活動後解鎖"
 }

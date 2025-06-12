@@ -28,11 +28,11 @@ slot0.init = function(slot0)
 	end)
 
 	slot2 = slot1:Find("content")
-	slot0.memoryView = Dorm3dMemorySubView.New(nil, slot0.event, slot0.contextData)
+	slot0.memoryView = Dorm3dMemorySubView.New(slot2, slot0.event, slot0.contextData)
 
 	slot0.memoryView:SetExtra(slot2:Find("memory"))
 
-	slot0.collectItemView = Dorm3dCollectionItemSubView.New(nil, slot0.event, slot0.contextData)
+	slot0.collectItemView = Dorm3dCollectionItemSubView.New(slot2, slot0.event, slot0.contextData)
 
 	slot0.collectItemView:SetExtra(slot2:Find("item"))
 	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {

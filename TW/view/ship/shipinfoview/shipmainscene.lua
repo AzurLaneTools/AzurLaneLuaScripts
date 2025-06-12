@@ -450,6 +450,7 @@ slot0.didEnter = function(slot0)
 	end)
 	onButton(slot0, slot0.energyTF, function ()
 		uv0:showEnergyDesc()
+		getProxy(CommanderManualProxy):TaskProgressAdd(2022, 1)
 	end)
 	pg.UIMgr.GetInstance():OverlayPanel(slot0.chat, {
 		groupName = LayerWeightConst.GROUP_SHIPINFOUI

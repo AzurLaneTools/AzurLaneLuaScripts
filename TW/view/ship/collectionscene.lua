@@ -232,11 +232,19 @@ slot0.didEnter = function(slot0)
 	slot0.helpBtn = slot0:findTF("help_btn", slot0.leftPanel)
 
 	onButton(slot0, slot0.helpBtn, function ()
-		pg.MsgboxMgr.GetInstance():ShowMsgBox({
-			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.collection_help.tip,
-			weight = LayerWeightConst.THIRD_LAYER
-		})
+		if uv0.contextData.toggle == uv1.MUSIC_INDEX then
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.NewMusic_help.tip,
+				weight = LayerWeightConst.THIRD_LAYER
+			})
+		else
+			pg.MsgboxMgr.GetInstance():ShowMsgBox({
+				type = MSGBOX_TYPE_HELP,
+				helps = pg.gametip.collection_help.tip,
+				weight = LayerWeightConst.THIRD_LAYER
+			})
+		end
 	end, SFX_PANEL)
 
 	slot1 = slot0:findTF("stamp", slot0.top)
@@ -297,7 +305,7 @@ slot0.didEnter = function(slot0)
 					if uv1 ~= uv2.MUSIC_INDEX then
 						if uv0.musicView and uv0.musicView:CheckState(BaseSubView.STATES.INITED) then
 							uv0.musicView:tryPauseMusic()
-							uv0.musicView:closeSongListPanel()
+							uv0.musicView:closeAlbumListPanel()
 						end
 
 						pg.BgmMgr.GetInstance():ContinuePlay()

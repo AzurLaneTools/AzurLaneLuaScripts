@@ -36,6 +36,10 @@ pg.gameset = {
 		description = "",
 		key_value = 300
 	},
+	catnest_expand_capacity = {
+		description = "",
+		key_value = 400
+	},
 	dorm_exp_ratio_by_1 = {
 		description = "",
 		key_value = 100
@@ -340,7 +344,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 431
+		key_value = 498
 	},
 	activity_lottery_rewards = {
 		key_value = 0,
@@ -1953,7 +1957,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 486
+		key_value = 507
 	},
 	order_pt_max = {
 		key_value = 0,

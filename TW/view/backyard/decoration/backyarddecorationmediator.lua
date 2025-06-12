@@ -46,15 +46,27 @@ slot0.register = function(slot0)
 
 		seriesAsync({
 			function (slot0)
-				uv0:sendNotification(uv1.START_TAKE_THEME_PHOTO)
+				slot1 = uv0
 
-				uv2 = BackYardThemeTempalteUtil.TakePhoto(uv3)
-				uv4 = BackYardThemeTempalteUtil.TakeIcon(uv3)
+				slot1:sendNotification(uv1.START_TAKE_THEME_PHOTO)
+				BackYardThemeTempalteUtil.TakePreview(uv2, function (slot0)
+					uv0 = slot0
 
-				uv0:sendNotification(uv1.END_TAKE_THEME_PHOTO)
-				slot0()
+					uv1()
+				end)
 			end,
 			function (slot0)
+				onNextTick(slot0)
+			end,
+			function (slot0)
+				BackYardThemeTempalteUtil.TakeIcon(uv0, function (slot0)
+					uv0 = slot0
+
+					uv1()
+				end)
+			end,
+			function (slot0)
+				uv0:sendNotification(uv1.END_TAKE_THEME_PHOTO)
 				onNextTick(slot0)
 			end,
 			function (slot0)

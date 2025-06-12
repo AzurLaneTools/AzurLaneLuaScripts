@@ -6,6 +6,7 @@ slot0.execute = function(slot0, slot1)
 	slot8 = getProxy(BagProxy):getItemById(slot2.id):getConfig("usage")
 	slot9 = slot2.skip_check
 	slot10 = slot2.callback
+	slot11 = slot2.isEquipBox
 
 	if slot2.count == 0 then
 		return
@@ -28,19 +29,19 @@ slot0.execute = function(slot0, slot1)
 			return
 		end
 	elseif slot8 == ItemUsage.SKIN_SHOP_DISCOUNT or slot8 == ItemUsage.USAGE_SHOP_DISCOUNT then
-		slot11, slot12 = slot7:GetConsumeForSkinShopDiscount(slot5[1])
-		slot13 = getProxy(PlayerProxy):getRawData():getResource(slot12)
+		slot12, slot13 = slot7:GetConsumeForSkinShopDiscount(slot5[1])
+		slot14 = getProxy(PlayerProxy):getRawData():getResource(slot13)
 
-		if slot11 > 0 and slot13 < slot11 then
+		if slot12 > 0 and slot14 < slot12 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_resource"))
 
 			return
 		end
 	end
 
-	slot11 = pg.ConnectionMgr.GetInstance()
+	slot12 = pg.ConnectionMgr.GetInstance()
 
-	slot11:Send(15002, {
+	slot12:Send(15002, {
 		id = slot3,
 		count = slot4,
 		arg = slot5
@@ -117,7 +118,10 @@ slot0.execute = function(slot0, slot1)
 				uv7(slot1)
 			end
 
-			uv4:sendNotification(GAME.USE_ITEM_DONE, slot1)
+			uv4:sendNotification(GAME.USE_ITEM_DONE, {
+				drops = slot1,
+				isEquipBox = uv8
+			})
 		else
 			if uv7 then
 				uv7({})

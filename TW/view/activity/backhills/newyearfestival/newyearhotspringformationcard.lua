@@ -61,6 +61,7 @@ slot0.flush = function(slot0)
 
 	setRectShipCardFrame(slot0.frame, slot4, slot5)
 	setFrameEffect(slot0.otherBg, slot6)
+	setImageSprite(slot0.shipType, GetSpriteFromAtlas("shiptype", shipType2print(slot0.shipVO:getShipType())))
 end
 
 slot0.updateProps = function(slot0, slot1)
