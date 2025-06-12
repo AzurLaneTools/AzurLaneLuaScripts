@@ -528,7 +528,7 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 	slot4 = nil
 	slot5 = Live2D.GenerateData({
 		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
-			id = 999,
+			noChangeSkin = true,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
 			skin_id = slot2
 		}),
@@ -573,7 +573,7 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
-			id = 999,
+			noChangeSkin = true,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
 			skin_id = slot2
 		}),

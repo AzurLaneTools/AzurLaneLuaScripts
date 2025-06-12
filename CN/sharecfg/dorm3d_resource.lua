@@ -1,5 +1,37 @@
 pg = pg or {}
-pg.dorm3d_resource = {
+pg.dorm3d_resource = setmetatable({
+	__name = "dorm3d_resource",
+	get_id_list_by_ship_group = {
+		[20220] = {
+			202201,
+			202202
+		},
+		[30221] = {
+			302211,
+			302212
+		},
+		[19903] = {
+			199031,
+			199032
+		},
+		[10517] = {
+			105171,
+			105173
+		}
+	},
+	all = {
+		202201,
+		202202,
+		302211,
+		302212,
+		199031,
+		199032,
+		105171,
+		105173
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.dorm3d_resource = {
 	[202201] = {
 		ship_group = 20220,
 		name = "天狼星",
@@ -45,7 +77,7 @@ pg.dorm3d_resource = {
 	},
 	[302211] = {
 		ship_group = 30221,
-		name = "能代常服",
+		name = "{namecode:50}常服",
 		type = 1,
 		animator = "",
 		picture = "regular",
@@ -63,7 +95,7 @@ pg.dorm3d_resource = {
 	},
 	[302212] = {
 		ship_group = 30221,
-		name = "能代泳装",
+		name = "{namecode:50}泳装",
 		type = 2,
 		animator = "",
 		picture = "regular",
@@ -131,7 +163,7 @@ pg.dorm3d_resource = {
 	},
 	[105171] = {
 		ship_group = 10517,
-		name = "新泽西常服",
+		name = "{namecode:199}常服",
 		type = 1,
 		animator = "",
 		picture = "regular",
@@ -155,7 +187,7 @@ pg.dorm3d_resource = {
 	},
 	[105173] = {
 		ship_group = 10517,
-		name = "新泽西兔女郎",
+		name = "{namecode:199}兔女郎",
 		type = 2,
 		animator = "",
 		picture = "regular",
@@ -176,40 +208,6 @@ pg.dorm3d_resource = {
 			16,
 			10517
 		},
-		hidden_part = {
-			{
-				1,
-				"skirthem",
-				"all/cloth_2_geo"
-			}
-		}
-	},
-	get_id_list_by_ship_group = {
-		[20220] = {
-			202201,
-			202202
-		},
-		[30221] = {
-			302211,
-			302212
-		},
-		[19903] = {
-			199031,
-			199032
-		},
-		[10517] = {
-			105171,
-			105173
-		}
-	},
-	all = {
-		202201,
-		202202,
-		302211,
-		302212,
-		199031,
-		199032,
-		105171,
-		105173
+		hidden_part = {}
 	}
 }

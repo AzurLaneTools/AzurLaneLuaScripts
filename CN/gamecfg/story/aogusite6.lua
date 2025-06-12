@@ -630,7 +630,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 499060,
-			say = "接下里，和我共赴星河吧。",
+			say = "接下来，和我共赴星河吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

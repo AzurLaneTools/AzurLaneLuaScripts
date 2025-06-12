@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿嘿~感觉怎模样？有没有对我怦然心动的感觉呢？{dorm3d}？",
+			say = "嘿嘿嘿~感觉怎么样？有没有对我怦然心动的感觉呢？{dorm3d}？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

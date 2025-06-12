@@ -446,7 +446,7 @@ pg.base.dorm3d_shop_template = {
 	},
 	{
 		rarity = 4,
-		name = "{namecode:68}咖啡馆邀请函",
+		name = "{namecode:199}咖啡馆邀请函",
 		type = 3,
 		room_id = 10517,
 		unlock = "",

@@ -14163,8 +14163,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0,
-			0.1
+			0.06,
+			0.6
 		}
 	},
 	[410911] = {
@@ -14214,8 +14214,8 @@ pg.dorm3d_ik_status = {
 		head_track = {
 			1,
 			0,
-			0,
-			0.1
+			0.06,
+			0.6
 		}
 	},
 	get_id_list_by_camera_group = {

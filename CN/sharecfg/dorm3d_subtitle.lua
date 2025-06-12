@@ -103,7 +103,11 @@ pg.dorm3d_subtitle = setmetatable({
 		11024,
 		11025,
 		11026,
-		11027
+		11027,
+		11028,
+		11029,
+		11030,
+		11031
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -515,5 +519,21 @@ pg.base.dorm3d_subtitle = {
 	[11027] = {
 		id = 11027,
 		subtitle = "Honey，感受到了吗……是青苹果味道的气泡哦~（亲吻的声音）"
+	},
+	[11028] = {
+		id = 11028,
+		subtitle = "唔！轻一点啦Honey~"
+	},
+	[11029] = {
+		id = 11029,
+		subtitle = "这样会碰到头的~"
+	},
+	[11030] = {
+		id = 11030,
+		subtitle = "呜呜……痛痛痛~"
+	},
+	[11031] = {
+		id = 11031,
+		subtitle = "好痒~Honey，怎么可以趁人之危~！"
 	}
 }

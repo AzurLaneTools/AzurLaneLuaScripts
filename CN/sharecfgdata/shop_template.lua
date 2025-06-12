@@ -96357,43 +96357,6 @@ _G.pg.base.shop_template[270302] = {
 }
 
 
-_G.pg.base.shop_template[270401] = {
-	group_type = 0,
-	resource_num = 180,
-	time_second = 0,
-	type = 26,
-	type_order = 0,
-	package_tag_open = 0,
-	package_tag = "",
-	desc = "宿舍180钻石购买滑梯",
-	group_limit = 0,
-	group_buy_count = 0,
-	tag = 0,
-	limit_args2 = "",
-	collaboration_skin_time = "",
-	order = 1,
-	akashi_pick = 0,
-	time = "always",
-	group = 0,
-	num = 1,
-	discount = 0,
-	resource_type = 14,
-	id = 270401,
-	genre = "dorm3d_gift",
-	discount_time = {},
-	limit_args = {
-		{
-			"count",
-			0,
-			1
-		}
-	},
-	effect_args = {
-		401
-	}
-}
-
-
 _G.pg.base.shop_template[271101] = {
 	group_type = 0,
 	resource_num = 480,

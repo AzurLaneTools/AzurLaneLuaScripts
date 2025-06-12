@@ -2025,7 +2025,7 @@ slot0.OutOfPending = function(slot0, slot1, slot2)
 		function (slot0)
 			uv0.shiftLady = uv1
 
-			uv0:ShiftZone(uv0.ladyBaseZone, slot0)
+			uv0:ShiftZone(uv0.ladyDict[uv1].ladyBaseZone, slot0)
 		end,
 		function (slot0)
 			uv0:DoTalk(uv1, slot0)

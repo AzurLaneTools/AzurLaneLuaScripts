@@ -3284,7 +3284,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "附近的商业街入驻了不少店家，可以解决你的需求",
-		ship_group = 10517,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 333,
@@ -3313,7 +3313,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "好啊，想逛什么？",
-		ship_group = 10517,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 336,
