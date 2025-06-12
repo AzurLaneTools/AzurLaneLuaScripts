@@ -75,6 +75,10 @@ slot0.ShowInvitePanel = function(slot0)
 			end)
 		end
 
+		table.insert(slot0, function (slot0)
+			getProxy(ApartmentProxy):SetRoomInviteList(uv0.room.id, uv0.selectIds)
+			slot0()
+		end)
 		seriesAsync(slot0, function ()
 			uv0:emit(Dorm3dInviteMediator.ON_DORM, {
 				roomId = uv0.room.id,

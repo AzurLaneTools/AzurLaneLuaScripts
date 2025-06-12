@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 10517,
+			actorName = 10517,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
@@ -63,12 +63,12 @@ return {
 			}
 		},
 		{
-			actorName = 10517,
+			actor = 0,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "我觉得喝果汁的新泽西就非常可爱了。",
+			say = "我觉得喝果汁的{namecode:199:新泽西}就非常可爱了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

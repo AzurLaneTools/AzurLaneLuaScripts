@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不要将目光移开哦，新泽西一定会让Honey大吃一惊的！",
+			say = "不要将目光移开哦，{namecode:199:新泽西}一定会让Honey大吃一惊的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

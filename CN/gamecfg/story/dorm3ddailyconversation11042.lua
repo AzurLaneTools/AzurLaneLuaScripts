@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "当然看不下去，因为吸引我的不只有{namecode:14:电}影。",
+			say = "当然看不下去，因为吸引我的不只有电影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

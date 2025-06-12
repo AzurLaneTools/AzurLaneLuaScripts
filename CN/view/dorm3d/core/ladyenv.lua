@@ -432,4 +432,16 @@ slot0.MoveToTarget = function(slot0, slot1)
 	slot0.characterController:Move(slot2.normalized * DormConst.LADY_MOVE_SPEED * Time.deltaTime)
 end
 
+slot0.SetCurrentIkTimelineStatus = function(slot0, slot1)
+	slot0.currentIkTimelineStatus = slot1
+end
+
+slot0.CheckIkTimelineStatus = function(slot0, slot1)
+	if not slot0.currentIkTimelineStatus then
+		return true
+	end
+
+	return slot0.currentIkTimelineStatus ~= slot1
+end
+
 return slot0

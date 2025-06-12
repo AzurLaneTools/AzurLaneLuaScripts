@@ -237,8 +237,6 @@ slot0.register = function(slot0)
 
 	if slot0.viewComponent.room:isPersonalRoom() then
 		slot0.viewComponent:SetApartment(getProxy(ApartmentProxy):getApartment(slot0.contextData.groupIds[1]))
-	else
-		getProxy(ApartmentProxy):SetRoomInviteList(slot0.contextData.roomId, slot0.contextData.groupIds)
 	end
 
 	Dorm3dFurniture.RecordLastTimelimitShopFurniture()

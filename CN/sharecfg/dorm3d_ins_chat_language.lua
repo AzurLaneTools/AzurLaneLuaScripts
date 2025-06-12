@@ -3673,12 +3673,12 @@ pg.base.dorm3d_ins_chat_language = {
 		option = {
 			{
 				3,
-				"我相信新泽西"
+				"我相信{namecode:199}"
 			}
 		}
 	},
 	{
-		param = "我相信新泽西",
+		param = "我相信{namecode:199}",
 		ship_group = 0,
 		option = "",
 		type = 1,

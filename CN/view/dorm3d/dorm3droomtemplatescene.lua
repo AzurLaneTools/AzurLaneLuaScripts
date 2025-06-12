@@ -452,10 +452,30 @@ slot0.initScene = function(slot0)
 	setActive(slot0.restrictedBox, false)
 
 	slot6 = slot0.cameras[uv0.CAMERA.PHOTO_FREE]:GetComponent(typeof(CharacterController)).radius
-	slot0.restrictedHeightRange = {
-		slot0.restrictedBox:Find("Floor").position.y + slot6,
-		slot0.restrictedBox:Find("Celling").position.y - slot6
-	}
+	slot0.isMultiFloor = slot0.restrictedBox.childCount > 2
+	slot7 = "Floor"
+	slot8 = "Celling"
+
+	if slot0.isMultiFloor then
+		slot0.restrictedHeightRange = {}
+
+		for slot12 = 0, math.floor(slot0.restrictedBox.childCount / 2) - 1 do
+			slot13 = slot12 == 0 and slot7 or slot7 .. "_" .. slot12
+			slot14 = slot12 == 0 and slot8 or slot8 .. "_" .. slot12
+
+			warning(slot13, slot14)
+			table.insert(slot0.restrictedHeightRange, {
+				slot0.restrictedBox:Find(slot13).position.y + slot6,
+				slot0.restrictedBox:Find(slot14).position.y - slot6
+			})
+		end
+	else
+		slot0.restrictedHeightRange = {
+			slot0.restrictedBox:Find(slot7).position.y + slot6,
+			slot0.restrictedBox:Find(slot8).position.y - slot6
+		}
+	end
+
 	slot0.ladyInterest = GameObject.Find("InterestProxy").transform
 	slot0.daynightCtrlComp = GameObject.Find("[MainBlock]").transform:GetComponent("DayNightCtrl")
 
@@ -965,7 +985,9 @@ slot0.didEnter = function(slot0)
 
 			slot7:emit(Dorm3dPhotoMediator.CAMERA_STICK_MOVE, slot3:Normalize())
 			onNextTick(function ()
-				uv0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(uv0.restrictedHeightRange[1], uv0.restrictedHeightRange[2], uv0.cameras[uv1.CAMERA.PHOTO_FREE].position.y))
+				slot1 = uv0:GetRestritedHeightRange()
+
+				uv0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(slot1[1], slot1[2], uv0.cameras[uv1.CAMERA.PHOTO_FREE].position.y))
 			end)
 		end
 	end, 1, -1)
@@ -1568,8 +1590,7 @@ slot0.ActiveCamera = function(slot0, slot1)
 end
 
 slot0.ActiveCameraByName = function(slot0, slot1)
-	slot2 = slot0.cameraRoot
-	slot2 = slot2:Find(slot1)
+	slot2 = slot0.cameraRoot:Find(slot1)
 
 	assert(slot2, "ActiveCameraByName: " .. slot1 .. " not found")
 	table.Foreach(slot0.cameras, function (slot0, slot1)
@@ -1577,7 +1598,7 @@ slot0.ActiveCameraByName = function(slot0, slot1)
 	end)
 	setActive(slot2, true)
 
-	slot0.cameras[uv0.CAMERA.CUSTOM] = slot2
+	slot0.cameras[uv0.CAMERA.CUSTOM] = slot2:GetComponent(typeof(Cinemachine.CinemachineVirtualCamera))
 end
 
 slot0.ShowBlackScreen = function(slot0, slot1, slot2)
@@ -2006,6 +2027,7 @@ end
 
 slot0.SetIKTimelineStatus = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	warning("Set IKStatus " .. (slot3 or "NIL"))
+	slot1:SetCurrentIkTimelineStatus(slot3)
 
 	slot0.enableIKTip = true
 
@@ -2112,6 +2134,8 @@ slot0.SetIKTimelineStatus = function(slot0, slot1, slot2, slot3, slot4, slot5)
 end
 
 slot0.ExitIKTimelineStatus = function(slot0, slot1, slot2)
+	slot1:SetCurrentIkTimelineStatus(nil)
+
 	slot0.enableIKTip = false
 
 	setActive(slot0.ikControlUI, false)
@@ -2620,10 +2644,11 @@ slot0.SwitchPhotoCamera = function(slot0)
 		slot5.Value = slot0:GetNearestAngle(slot3.x, slot5.m_MinValue, slot5.m_MaxValue)
 		slot2.m_VerticalAxis = slot5
 		slot6 = slot0.mainCameraTF.position
-		slot6.y = math.clamp(slot6.y, slot0.restrictedHeightRange[1], slot0.restrictedHeightRange[2])
+		slot7 = slot0:GetRestritedHeightRange()
+		slot6.y = math.clamp(slot6.y, slot7[1], slot7[2])
 		slot0.cameras[uv0.CAMERA.PHOTO_FREE].transform.position = slot6
 
-		slot0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(slot0.restrictedHeightRange[1], slot0.restrictedHeightRange[2], slot6.y))
+		slot0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(slot7[1], slot7[2], slot6.y))
 		slot0:ActiveCamera(slot0.cameras[uv0.CAMERA.PHOTO_FREE])
 	else
 		slot0:EnableJoystick(true)
@@ -2635,12 +2660,15 @@ slot0.SwitchPhotoCamera = function(slot0)
 end
 
 slot0.SetPhotoCameraHeight = function(slot0, slot1)
-	slot3 = slot0.cameras[uv0.CAMERA.PHOTO_FREE]
-	slot4 = slot3:GetComponent(typeof(UnityEngine.CharacterController))
+	slot2 = slot0.cameras[uv0.CAMERA.PHOTO_FREE]
+	slot3 = slot0:GetRestritedHeightRange()
+	slot5 = slot2:GetComponent(typeof(UnityEngine.CharacterController))
 
-	slot4:Move(Vector3.New(0, math.lerp(slot0.restrictedHeightRange[1], slot0.restrictedHeightRange[2], slot1) - slot3.position.y, 0))
+	slot5:Move(Vector3.New(0, math.lerp(slot3[1], slot3[2], slot1) - slot2.position.y, 0))
 	onNextTick(function ()
-		uv0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(uv0.restrictedHeightRange[1], uv0.restrictedHeightRange[2], uv1.position.y))
+		slot0 = uv0:GetRestritedHeightRange()
+
+		uv0:emit(Dorm3dPhotoMediator.CAMERA_LIFT_CHANGED, math.InverseLerp(slot0[1], slot0[2], uv1.position.y))
 	end)
 end
 
@@ -2775,7 +2803,9 @@ slot0.PlayTimeline = function(slot0, slot1, slot2)
 				TimelineIKStart = function ()
 					uv0.selectIndex = nil
 
-					uv2:SetIKTimelineStatus(uv2.ladyDict[uv2.apartment:GetConfigID()], uv3.gameObject, uv1.intParameter, uv4)
+					if uv2.ladyDict[uv2.apartment:GetConfigID()]:CheckIkTimelineStatus(uv1.intParameter) then
+						uv2:SetIKTimelineStatus(slot1, uv3.gameObject, slot0, uv4)
+					end
 				end,
 				TimelineEnd = function ()
 					uv0.finish = true
@@ -3333,6 +3363,20 @@ slot0.IsPointInSector = function(slot0, slot1)
 	end
 
 	return Vector3.Angle(Quaternion.Euler(unpack(slot0.Rotation)) * Vector3.forward, slot2) <= slot0.Angle / 2
+end
+
+slot0.GetRestritedHeightRange = function(slot0)
+	if not slot0.isMultiFloor then
+		return slot0.restrictedHeightRange
+	else
+		for slot4 = #slot0.restrictedHeightRange, 1, -1 do
+			if slot0.restrictedHeightRange[slot4][1] <= slot0.mainCameraTF.position.y then
+				return slot5
+			end
+		end
+
+		return slot0.restrictedHeightRange[1]
+	end
 end
 
 slot0.willExit = function(slot0)

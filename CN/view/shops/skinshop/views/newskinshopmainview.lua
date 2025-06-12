@@ -283,7 +283,7 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 	slot4 = slot2:IsSpine() or slot2:IsLive2d()
 
-	if LOCK_SKIN_SHOP_ANIM_PREVIEW then
+	if LOCK_SKIN_SHOP_ANIM_PREVIEW == "all" or LOCK_SKIN_SHOP_ANIM_PREVIEW and table.contains(LOCK_SKIN_SHOP_ANIM_PREVIEW, slot2.id) then
 		slot4 = false
 	end
 
