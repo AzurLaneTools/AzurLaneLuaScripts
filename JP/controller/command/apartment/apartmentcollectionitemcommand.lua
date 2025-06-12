@@ -28,28 +28,29 @@ slot0.execute = function(slot0, slot1)
 		ship_group = slot4
 	}, 28012, function (slot0)
 		if slot0.result == 0 then
-			uv0 = uv1:getRoom(uv2)
-			uv0.collectItemDic[uv3] = true
+			slot1 = uv0
 
-			uv1:updateRoom(uv0)
+			slot1:ModifyRoom(uv1, function (slot0)
+				slot0.collectItemDic[uv0] = true
+			end)
 
-			if uv4.award > 0 then
-				slot2, slot3 = uv1:triggerFavor(uv5, slot1)
+			if uv3.award > 0 then
+				slot2, slot3 = uv0:triggerFavor(uv4, slot1)
 
-				uv6:sendNotification(GAME.APARTMENT_TRIGGER_FAVOR_DONE, {
+				uv5:sendNotification(GAME.APARTMENT_TRIGGER_FAVOR_DONE, {
 					triggerId = slot1,
 					cost = slot3,
 					delta = slot2,
-					apartment = uv7
+					apartment = uv6
 				})
 			end
 
-			PlayerPrefs.SetInt("apartment_collection_item", uv3)
-			uv6:sendNotification(GAME.APARTMENT_COLLECTION_ITEM_DONE, {
+			PlayerPrefs.SetInt("apartment_collection_item", uv2)
+			uv5:sendNotification(GAME.APARTMENT_COLLECTION_ITEM_DONE, {
 				isNew = true,
-				itemId = uv3
+				itemId = uv2
 			})
-			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCollectionItem(uv3, 2))
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataCollectionItem(uv2, 2))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

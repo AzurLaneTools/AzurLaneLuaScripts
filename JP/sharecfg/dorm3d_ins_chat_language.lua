@@ -309,7 +309,84 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		305,
 		306,
 		307,
-		308
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
+		338,
+		339,
+		340,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361,
+		362,
+		363,
+		364,
+		365,
+		366,
+		367,
+		368,
+		369,
+		370,
+		371,
+		372,
+		373,
+		374,
+		375,
+		376,
+		377,
+		378,
+		379,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2992,5 +3069,676 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 308,
 		flag = 2
+	},
+	{
+		param = "さっきまでハニーの隣で、気持ちよく昼寝できたよ～",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 309,
+		flag = 0
+	},
+	{
+		param = "でもハニー……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 310,
+		flag = 0
+	},
+	{
+		param = "なんであたしが寝てる間に、こっそり仕事に戻っちゃうの〜！",
+		ship_group = 10517,
+		type = 1,
+		id = 311,
+		flag = 0,
+		option = {
+			{
+				1,
+				"――起こすのが可哀そうで"
+			}
+		}
+	},
+	{
+		param = "――気持ちよさそうに寝てたから、起こすのが可哀そうで",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 312,
+		flag = 1
+	},
+	{
+		param = "あたしの寝顔に見惚れてたんでしょ～？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 313,
+		flag = 1
+	},
+	{
+		param = "それに、うっかり寝ちゃったのもハニーと遊びすぎたからだし",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 314,
+		flag = 1
+	},
+	{
+		param = "まさかハニーはまだ仕事できる元気が残ってたなんて……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 315,
+		flag = 1
+	},
+	{
+		param = "二人でやるゲームだから、全力でやらないと！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 316,
+		flag = 1
+	},
+	{
+		param = "そして何より！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 317,
+		flag = 1
+	},
+	{
+		param = "今度は絶対にいなくならないこと！いい？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 318,
+		flag = 1
+	},
+	{
+		param = "目が覚めたときにハニーがいなかったら……今度悪夢を見ちゃいそう！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 319,
+		flag = 1
+	},
+	{
+		param = "65",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 320,
+		flag = 1
+	},
+	{
+		param = "こんな心配させないでよ！",
+		ship_group = 10517,
+		type = 1,
+		id = 321,
+		flag = 1,
+		option = {
+			{
+				2,
+				"――次は心配させないよ"
+			}
+		}
+	},
+	{
+		param = "――次は心配させないよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 322,
+		flag = 2
+	},
+	{
+		param = "目が覚めたとき、ハニーがそばにいてほしいな",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 323,
+		flag = 2
+	},
+	{
+		param = "これからもずーっとそばにいてよね、ハニー",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 324,
+		flag = 2
+	},
+	{
+		param = "さ、仕事なんてさっさと終わらせて、あたしのとこに戻ってきて～！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 325,
+		flag = 2
+	},
+	{
+		param = "ベッドで……待ってるからね",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 326,
+		flag = 2
+	},
+	{
+		param = "ちゅっ♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 327,
+		flag = 2
+	},
+	{
+		param = "ハニー！こっちこっち～♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 328,
+		flag = 0
+	},
+	{
+		param = "「BigJ」からのメッセージ爆撃を受ける準備はできてる～？",
+		ship_group = 10517,
+		type = 1,
+		id = 329,
+		flag = 0,
+		option = {
+			{
+				1,
+				"――元気そうだな"
+			}
+		}
+	},
+	{
+		param = "――元気そうだな。部屋の準備は順調？手伝おうか？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 330,
+		flag = 1
+	},
+	{
+		param = "順調順調～。ただ日用品がちょっと足りないから補充しないとって感じ……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 331,
+		flag = 1
+	},
+	{
+		param = "冷蔵庫もまだすっからかんだし……",
+		ship_group = 10517,
+		type = 1,
+		id = 332,
+		flag = 1,
+		option = {
+			{
+				2,
+				"商店街なら……"
+			}
+		}
+	},
+	{
+		param = "――商店街に行けばきっと必要なものは揃うはず",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 333,
+		flag = 2
+	},
+	{
+		param = "さすがハニー！気が効くー！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 334,
+		flag = 2
+	},
+	{
+		param = "せっかくだし一緒に買い物しない？",
+		ship_group = 10517,
+		type = 1,
+		id = 335,
+		flag = 2,
+		option = {
+			{
+				3,
+				"――いいよ。どこを見て回りたい？"
+			}
+		}
+	},
+	{
+		param = "――いいよ。どこを見て回りたい？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 336,
+		flag = 3
+	},
+	{
+		param = "もう予定は立ててあるの",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 337,
+		flag = 3
+	},
+	{
+		param = "まずは……お腹を満たすところから！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 338,
+		flag = 3
+	},
+	{
+		param = "30",
+		ship_group = 10517,
+		type = 4,
+		id = 339,
+		flag = 3,
+		option = {
+			{
+				4,
+				"――もしかして……アイス食べ放題？"
+			}
+		}
+	},
+	{
+		param = "――もしかして……アイス食べ放題？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 340,
+		flag = 4
+	},
+	{
+		param = "お！ナイスアイデア！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 341,
+		flag = 4
+	},
+	{
+		param = "ってハニーの目にはあたしがスイーツ女子に映ってるのー！？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 342,
+		flag = 4
+	},
+	{
+		param = "……まあ、当たってるけどね。えへへ♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 343,
+		flag = 4
+	},
+	{
+		param = "とにかく来てくれたらわかるから！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 344,
+		flag = 4
+	},
+	{
+		param = "商店街の入口で集合ね！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 345,
+		flag = 4
+	},
+	{
+		param = "今すぐ出発よっ！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 346,
+		flag = 4
+	},
+	{
+		param = "遅れたら……おしおきだからね♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 347,
+		flag = 4
+	},
+	{
+		param = "ハニー、こないだ一緒に観たアクション映画なんだけど〜",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 348,
+		flag = 0
+	},
+	{
+		param = "ハニー的に面白かった？よかったら続編も一緒に観ない？",
+		ship_group = 10517,
+		type = 1,
+		id = 349,
+		flag = 0,
+		option = {
+			{
+				1,
+				"アクション映画……？"
+			}
+		}
+	},
+	{
+		param = "――アクション映画……？どれのことだ？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 350,
+		flag = 1
+	},
+	{
+		param = "ほら、男女の主人公がそれぞれ謎の技を繰り出して、密着しながら戦ってたやつ！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 351,
+		flag = 1
+	},
+	{
+		param = "321",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 352,
+		flag = 1
+	},
+	{
+		param = "ん〜、でも……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 353,
+		flag = 1
+	},
+	{
+		param = "あたしがいちばん好きなのは、あのド派手な爆発シーンね！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 354,
+		flag = 1
+	},
+	{
+		param = "夜の闇を切り裂くブラックドラゴンの炎にも負けないくらい、カッコよかった〜！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 355,
+		flag = 1
+	},
+	{
+		param = "それと映画のラスト！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 356,
+		flag = 1
+	},
+	{
+		param = "主人公が変な魔法で……アイスクリームのボールになっちゃったね！",
+		ship_group = 10517,
+		type = 1,
+		id = 357,
+		flag = 1,
+		option = {
+			{
+				2,
+				"――脚本をやるべきだ！"
+			}
+		}
+	},
+	{
+		param = "――脚本をやるべきだ！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 358,
+		flag = 2
+	},
+	{
+		param = "――そんな展開、心からアイスを愛してないと思いつかないよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 359,
+		flag = 2
+	},
+	{
+		param = "えへへ〜、ハニーにもその魔法、かけてみたいな〜",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 360,
+		flag = 2
+	},
+	{
+		param = "もしハニーがアイスになっちゃったら……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 361,
+		flag = 2
+	},
+	{
+		param = "どんな味かな？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 362,
+		flag = 2
+	},
+	{
+		param = "メロン？スイカ？パイナップル？うーん、たぶんそんなのよりもっと美味しい味になると思う〜",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 363,
+		flag = 2
+	},
+	{
+		param = "ひとくち味見したくなっちゃった〜！ふふっ",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 364,
+		flag = 2
+	},
+	{
+		param = "ふふん……これはこれは～？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 365,
+		flag = 0
+	},
+	{
+		param = "ハニー、あたしの部屋でいろんなお宝を発見したみたいね～！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 366,
+		flag = 0
+	},
+	{
+		param = "さすがハニー、もうあたしのことを手に取るように分かってる♪",
+		ship_group = 10517,
+		type = 1,
+		id = 367,
+		flag = 0,
+		option = {
+			{
+				1,
+				"――ノートを見つけた……"
+			}
+		}
+	},
+	{
+		param = "――表紙に「恋愛作戦ノート」って書いてあるノートを見つけた",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 368,
+		flag = 1
+	},
+	{
+		param = "えっ、えぇ〜〜！？！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 369,
+		flag = 1
+	},
+	{
+		param = "そ、それは……こっそり隠してた秘密のノート！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 370,
+		flag = 1
+	},
+	{
+		param = "ハニー、まさか中身までは見てないよね！？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 371,
+		flag = 1
+	},
+	{
+		param = "早く言って！ぜったいに、ぜったいに見てないって〜！！！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 372,
+		flag = 1
+	},
+	{
+		param = "54",
+		ship_group = 10517,
+		type = 4,
+		id = 373,
+		flag = 1,
+		option = {
+			{
+				2,
+				"――元の場所に戻しておいたよ"
+			}
+		}
+	},
+	{
+		param = "――元の場所に戻しておいたよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 374,
+		flag = 2
+	},
+	{
+		param = "ハニー……大好き♡！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 375,
+		flag = 2
+	},
+	{
+		param = "でも……中身が…気にならなかったの？",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 376,
+		flag = 2
+	},
+	{
+		param = "もしかしてこっそりハニーの愚痴が書いてあるとか心配にならなかったの～？",
+		ship_group = 10517,
+		type = 1,
+		id = 377,
+		flag = 2,
+		option = {
+			{
+				3,
+				"――信じてるよ"
+			}
+		}
+	},
+	{
+		param = "――信じてるよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 378,
+		flag = 3
+	},
+	{
+		param = "……えへへ～安心していいよ、ハニー",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 379,
+		flag = 3
+	},
+	{
+		param = "あたしもハニーの素直さに100%の信頼で応えるよっ！",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 380,
+		flag = 3
+	},
+	{
+		param = "じゃあ、今日は特別に教えてあげちゃおうかな",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 381,
+		flag = 3
+	},
+	{
+		param = "恋ってね、目に見えない戦争みたいなものなの～♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 382,
+		flag = 3
+	},
+	{
+		param = "タイミングを見極めて、攻め時と引き時をちゃんと見定めて……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 383,
+		flag = 3
+	},
+	{
+		param = "そんな緊張感たっぷりの戦いで、たったひとつ変わらないルールが……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 384,
+		flag = 3
+	},
+	{
+		param = "「世界一素敵なハニー、あなたのことが大好き♡！」",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 385,
+		flag = 3
 	}
 }

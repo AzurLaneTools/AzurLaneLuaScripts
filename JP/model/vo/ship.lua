@@ -2004,7 +2004,11 @@ end
 
 slot0.RemapSkillId = function(slot0, slot1)
 	if slot0:GetSpWeapon() then
-		return slot2:RemapSkillId(slot1)
+		if table.contains(pg.ship_data_template[slot0.configId].hide_buff_list, slot1) then
+			return slot2:RemapHiddenSkillId(slot1)
+		else
+			return slot2:RemapSkillId(slot1)
+		end
 	end
 
 	return slot1

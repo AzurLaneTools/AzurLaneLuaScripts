@@ -19,7 +19,10 @@ pg.dorm3d_shop_template = setmetatable({
 		15,
 		16,
 		17,
-		18
+		18,
+		19,
+		20,
+		21
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -32,7 +35,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 121,
 		id = 1,
-		order = "6",
+		order = "8",
 		panel = {
 			2,
 			3,
@@ -53,7 +56,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 122,
 		id = 2,
-		order = "9",
+		order = "11",
 		panel = {
 			2,
 			3,
@@ -74,7 +77,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 221,
 		id = 3,
-		order = "7",
+		order = "9",
 		panel = {
 			1,
 			2,
@@ -96,7 +99,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 222,
 		id = 4,
-		order = "10",
+		order = "14",
 		panel = {
 			1,
 			2,
@@ -156,7 +159,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 321,
 		id = 7,
-		order = "8",
+		order = "10",
 		panel = {
 			1,
 			2,
@@ -178,7 +181,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 322,
 		id = 8,
-		order = "11",
+		order = "13",
 		panel = {
 			1,
 			2,
@@ -200,7 +203,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 2022001,
 		id = 9,
-		order = "13",
+		order = "16",
 		panel = {
 			2,
 			3,
@@ -221,7 +224,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 2022002,
 		id = 10,
-		order = "16",
+		order = "19",
 		panel = {
 			2,
 			3,
@@ -242,7 +245,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 3022101,
 		id = 11,
-		order = "14",
+		order = "17",
 		panel = {
 			2,
 			3,
@@ -263,7 +266,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1990301,
 		id = 12,
-		order = "15",
+		order = "18",
 		panel = {
 			2,
 			3,
@@ -284,7 +287,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1021002,
 		id = 13,
-		order = "17",
+		order = "998",
 		panel = {
 			5
 		},
@@ -307,7 +310,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 1021003,
 		id = 14,
-		order = "18",
+		order = "999",
 		panel = {
 			5
 		},
@@ -327,7 +330,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 4,
 		id = 15,
-		order = "3",
+		order = "4",
 		panel = {
 			2
 		},
@@ -347,7 +350,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 4,
 		id = 16,
-		order = "4",
+		order = "5",
 		panel = {
 			2
 		},
@@ -366,7 +369,7 @@ pg.base.dorm3d_shop_template = {
 		unlock = "",
 		item_id = 4,
 		id = 17,
-		order = "5",
+		order = "6",
 		panel = {
 			2
 		},
@@ -396,6 +399,68 @@ pg.base.dorm3d_shop_template = {
 		},
 		banners = {
 			"banner_gift3022102"
+		}
+	},
+	{
+		rarity = 4,
+		name = "星空のコーナー",
+		type = 1,
+		room_id = 10517,
+		unlock = "",
+		item_id = 1151,
+		id = 19,
+		order = "7",
+		panel = {
+			1,
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			271101
+		},
+		banners = {
+			"banner_furniture1151"
+		}
+	},
+	{
+		rarity = 4,
+		name = "水晶キャンディ",
+		type = 2,
+		room_id = 10517,
+		unlock = "",
+		item_id = 1051701,
+		id = 20,
+		order = "15",
+		panel = {
+			2,
+			3,
+			4
+		},
+		shop_id = {
+			260401
+		},
+		banners = {
+			"banner_gift1051701"
+		}
+	},
+	{
+		rarity = 4,
+		name = "カフェ招待状NJ",
+		type = 3,
+		room_id = 10517,
+		unlock = "",
+		item_id = 16,
+		id = 21,
+		order = "3",
+		panel = {
+			2
+		},
+		shop_id = {
+			270113
+		},
+		banners = {
+			"banner_cafe1"
 		}
 	}
 }

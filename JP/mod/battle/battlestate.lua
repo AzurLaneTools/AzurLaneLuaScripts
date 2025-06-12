@@ -228,6 +228,11 @@ slot2.ChangeState = function(slot0, slot1)
 		end
 	elseif slot1 == uv0.BATTLE_STATE_FIGHT then
 		slot0:ActiveAutoComponentTimer()
+
+		if not slot0._dataProxy:GetFleetLegal(uv1.Battle.BattleConfig.FRIENDLY_CODE, slot0:GetBattleType()) then
+			slot0._battleCommand:CalcStatistic()
+			slot0:BattleEnd()
+		end
 	elseif slot1 == uv0.BATTLE_STATE_REPORT then
 		-- Nothing
 	end

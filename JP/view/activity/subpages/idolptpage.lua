@@ -16,21 +16,7 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnDataSetting = function(slot0)
-	slot1 = uv0.super.OnDataSetting(slot0)
-	slot2 = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM)
-	slot0.linkAct = slot2
-
-	if slot2 and not slot2:isEnd() then
-		if slot0.RefreshTime <= pg.TimeMgr.GetInstance():GetServerTime() - (getProxy(ActivityProxy).requestTime[slot2.id] or 0) then
-			slot0:emit(ActivityMediator.FETCH_INSTARGRAM, {
-				activity_id = slot2.id
-			})
-		end
-
-		return slot4 or slot1
-	end
-
-	return slot1
+	return uv0.super.OnDataSetting(slot0)
 end
 
 slot0.OnFirstFlush = function(slot0)
@@ -57,17 +43,13 @@ slot0.OnFirstFlush = function(slot0)
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.linkBtn, function ()
-		if uv0.linkAct and not uv0.linkAct:isEnd() and uv0.linkAct:ExistMsg() then
-			uv0:emit(ActivityMediator.OPEN_LAYER, Context.New({
-				viewComponent = InstagramLayer,
-				mediator = InstagramMediator,
-				data = {
-					id = ActivityConst.IDOL_INS_ID
-				}
-			}))
-		else
-			pg.TipsMgr.GetInstance():ShowTips(i18n("challenge_end_tip"))
-		end
+		uv0:emit(ActivityMediator.OPEN_LAYER, Context.New({
+			viewComponent = InstagramLayer,
+			mediator = InstagramMediator,
+			data = {
+				id = ActivityConst.IDOL_INS_ID
+			}
+		}))
 	end)
 end
 

@@ -1,13 +1,42 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "7502",
+		type = 3,
 		id = 1,
-		pic = "temp3",
-		param = {
-			"scene skinshop",
-			{}
-		},
+		pic = "temp1",
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		param = "5994",
+		type = 3,
+		id = 2,
+		pic = "temp2",
 		time = {
 			{
 				{
@@ -37,46 +66,11 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
-		pic = "temp4",
-		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "BRSCoreActivityUI",
-		type = 16,
 		id = 3,
-		pic = "temp5",
+		pic = "temp8",
+		param = {
+			"scene dailylevel"
+		},
 		time = {
 			{
 				{
@@ -105,10 +99,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5990",
-		type = 3,
+		type = 2,
 		id = 4,
-		pic = "temp6",
+		pic = "temp9",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
 		time = {
 			{
 				{
@@ -139,9 +139,10 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 5,
-		pic = "temp8",
+		pic = "temp3",
 		param = {
-			"equip transform"
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
@@ -173,9 +174,12 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 6,
-		pic = "temp9",
+		pic = "temp4",
 		param = {
-			"game hall"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
@@ -205,15 +209,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "BRSCoreActivityUI",
+		type = 16,
 		id = 7,
-		pic = "temp1",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
+		pic = "temp5",
 		time = {
 			{
 				{
@@ -242,16 +241,11 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "5990",
 		time = "stop",
-		type = 2,
+		type = 3,
 		id = 8,
-		pic = "temp2",
-		param = {
-			"scene charge",
-			{
-				wrap = 1
-			}
-		}
+		pic = "temp6"
 	},
 	{
 		type = 2,
@@ -401,20 +395,20 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
 			2,
+			8
+		},
+		[2] = {
+			3,
+			4,
 			5,
 			6,
-			7,
-			8,
 			9
 		},
 		[16] = {
-			3
-		},
-		[3] = {
-			4
+			7
 		},
 		[9] = {
 			90,

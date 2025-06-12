@@ -22956,6 +22956,7 @@ pg.activity_template = {
 	},
 	[5924] = {
 		mark = 20250514,
+		time = "stop",
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
@@ -22991,33 +22992,6 @@ pg.activity_template = {
 			{
 				23553,
 				23554
-			}
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					5,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					18
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		page_info = {
@@ -23262,7 +23236,7 @@ pg.activity_template = {
 		type = 125,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 45,
+		is_show = 43,
 		title_res_tag = "xiarichongjian",
 		id = 5951,
 		page_core = "",
@@ -23835,7 +23809,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5958,
-		is_show = 47,
+		is_show = 45,
 		title_res_tag = "RosePt",
 		id = 5958,
 		page_core = "",
@@ -24039,12 +24013,12 @@ pg.activity_template = {
 				{
 					2025,
 					6,
-					12
+					18
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		},
@@ -24058,7 +24032,7 @@ pg.activity_template = {
 		type = 115,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 48,
+		is_show = 46,
 		title_res_tag = "urexchange",
 		id = 5963,
 		page_core = "",
@@ -24726,6 +24700,7 @@ pg.activity_template = {
 	[5973] = {
 		mark = 20250520,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -24736,33 +24711,6 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			21731
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5974] = {
@@ -24820,6 +24768,7 @@ pg.activity_template = {
 	[5975] = {
 		mark = 20250520,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -24828,34 +24777,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 5975,
-		page_core = "",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		page_core = ""
 	},
 	[5976] = {
 		mark = 20250520,
@@ -24946,6 +24868,7 @@ pg.activity_template = {
 	[5978] = {
 		mark = 20250529,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -24956,33 +24879,6 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			21754
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					5,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	[5979] = {
@@ -25632,7 +25528,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 48,
+		is_show = 44,
 		title_res_tag = "PlantNaximofu_main",
 		id = 5990,
 		page_core = "",
@@ -25793,6 +25689,142 @@ pg.activity_template = {
 					0,
 					0
 				}
+			}
+		}
+	},
+	[5993] = {
+		mark = 20250612,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5993,
+		page_core = "",
+		config_data = {
+			10195,
+			10196,
+			10197,
+			10198,
+			10199
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		}
+	},
+	[5994] = {
+		mark = 20250612,
+		type = 74,
+		login_pop = 0,
+		config_id = 5994,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "xiaodafeng_pt",
+		id = 5994,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleDaihoRePage",
+			ui_name = "LittleDaihoRePage"
+		}
+	},
+	[5995] = {
+		mark = 20250612,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5995,
+		page_core = "",
+		config_data = {
+			23845
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					16,
+					0,
+					0
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				23845
 			}
 		}
 	},
@@ -26731,6 +26763,71 @@ pg.activity_template = {
 		page_info = {
 			class_name = "DormSignPage",
 			ui_name = "DormSignPage"
+		}
+	},
+	[7502] = {
+		mark = 20250612,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 47,
+		config_client = "",
+		title_res_tag = "DormSignTwo",
+		id = 7502,
+		page_core = "",
+		config_data = {
+			{
+				23846
+			},
+			{
+				23847
+			},
+			{
+				23848
+			},
+			{
+				23849
+			},
+			{
+				23850
+			},
+			{
+				23851
+			},
+			{
+				23852
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormSignTwoPage",
+			ui_name = "DormSignTwoPage"
 		}
 	},
 	[8050] = {
@@ -31803,6 +31900,8 @@ pg.activity_template = {
 			5985,
 			5987,
 			5991,
+			5993,
+			5995,
 			1079,
 			1080,
 			1081,
@@ -31954,6 +32053,7 @@ pg.activity_template = {
 			5981,
 			5984,
 			5986,
+			5994,
 			1086,
 			6006,
 			6010,
@@ -32466,7 +32566,8 @@ pg.activity_template = {
 		},
 		[89] = {
 			5261,
-			7501
+			7501,
+			7502
 		},
 		[22] = {
 			5264
@@ -33326,6 +33427,9 @@ pg.activity_template = {
 		5990,
 		5991,
 		5992,
+		5993,
+		5994,
+		5995,
 		7011,
 		7012,
 		7013,
@@ -33341,6 +33445,7 @@ pg.activity_template = {
 		7023,
 		7104,
 		7501,
+		7502,
 		8050,
 		8051,
 		8052,

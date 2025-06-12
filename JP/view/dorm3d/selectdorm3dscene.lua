@@ -42,110 +42,30 @@ slot0.init = function(slot0)
 		ApartmentProxy.RefreshGiftDailyTip()
 	end
 
-	slot3 = slot0.rtMain
-
-	setActive(slot3:Find("btn_shop/tip"), Dorm3dShopUI.ShouldShowAllTip())
-
-	slot4 = slot0.rtMain
-
-	onButton(slot0, slot4:Find("btn_shop"), function ()
-		slot0 = uv0
-
-		slot0:emit(SelectDorm3DMediator.OPEN_SHOP_LAYER, function ()
+	setActive(slot0.rtMain:Find("btn_shop/tip"), Dorm3dShopUI.ShouldShowAllTip())
+	onButton(slot0, slot0.rtMain:Find("btn_shop"), function ()
+		uv0:emit(SelectDorm3DMediator.OPEN_SHOP_LAYER, function ()
 			setActive(uv0.rtMain:Find("btn_shop/tip"), Dorm3dShopUI.ShouldShowAllTip())
 		end)
 	end)
 
-	slot2 = slot0.rtMain
-	slot0.rtStamina = slot2:Find("stamina")
-	slot2 = slot0.rtMain
-	slot0.rtRes = slot2:Find("res")
+	slot0.rtStamina = slot0.rtMain:Find("stamina")
+	slot0.rtRes = slot0.rtMain:Find("res")
 
 	slot0:InitResBar()
 
-	slot2 = slot0.rtMain
-	slot0.rtWeekTask = slot2:Find("task")
+	slot0.rtWeekTask = slot0.rtMain:Find("task")
 
 	slot0:UpdateWeekTask()
 
-	slot2 = slot0._tf
-	slot0.rtLayer = slot2:Find("Layer")
-	slot2 = slot0.rtLayer
-	slot0.rtMgrPanel = slot2:Find("mgr_panel")
-	slot4 = slot0.rtMgrPanel
+	slot0.rtLayer = slot0._tf:Find("Layer")
+	slot0.floorData = _.keys(pg.dorm3d_rooms.get_id_list_by_in_map)
 
-	onButton(slot0, slot4:Find("bg"), function ()
-		uv0:HideMgrPanel()
-	end, SFX_CANCEL)
-
-	slot3 = slot0.rtMgrPanel
-
-	setText(slot3:Find("window/title/Text"), i18n("dorm3d_role_manage"))
-
-	slot2 = slot0.rtMgrPanel
-	slot0.rtMgrChar = slot2:Find("window/character")
-	slot3 = slot0.rtMgrChar
-
-	setText(slot3:Find("title"), i18n("dorm3d_role_manage_role"))
-
-	slot2 = slot0.rtMgrChar
-	slot2 = slot2:Find("container")
-	slot0.charRoomCardItemList = UIItemList.New(slot2, slot2:Find("tpl"))
-	slot3 = slot0.charRoomCardItemList
-
-	slot3:make(function (slot0, slot1, slot2)
-		slot1 = slot1 + 1
-
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.filterCharRoomIds[slot1]
-
-			setActive(slot2:Find("base"), slot3)
-			setActive(slot2:Find("empty"), not slot3)
-
-			if not slot3 then
-				slot2.name = "null"
-
-				setText(slot2:Find("empty/Text"), i18n("dorm3d_waiting"))
-			else
-				slot2.name = tostring(slot3)
-				uv0.cardDic[slot3] = slot2:Find("base")
-
-				uv0:InitCardTrigger(slot3)
-				uv0:UpdateCardState(slot3)
-
-				return
-			end
-		end
-	end)
-
-	slot3 = slot0.rtMgrPanel
-	slot0.rtMgrPublic = slot3:Find("window/public")
-	slot4 = slot0.rtMgrPublic
-
-	setText(slot4:Find("title"), i18n("dorm3d_role_manage_public_area"))
-
-	slot3 = slot0.rtMgrPublic
-	slot3 = slot3:Find("container")
-	slot0.publicRoomCardItemList = UIItemList.New(slot3, slot3:Find("tpl"))
-	slot4 = slot0.publicRoomCardItemList
-
-	slot4:make(function (slot0, slot1, slot2)
-		slot1 = slot1 + 1
-
-		if slot0 == UIItemList.EventUpdate then
-			slot3 = uv0.filterPublicRoomIds[slot1]
-			uv0.cardDic[slot3] = slot2
-
-			uv0:InitCardTrigger(slot3)
-			uv0:UpdateCardState(slot3)
-		end
-	end)
+	slot0:SetMapSwitch()
 end
 
 slot0.didEnter = function(slot0)
-	slot0.contextData.floorName = slot0.contextData.floorName or "floor_1"
-
-	slot0:SetFloor(slot0.contextData.floorName)
+	slot0:SetFloor(slot0.floorData[slot0.selectedFloorId])
 	slot0:UpdateStamina()
 	slot0:CheckGuide("DORM3D_GUIDE_02")
 	slot0:FlushInsBtn()
@@ -187,7 +107,7 @@ slot0.SetFloor = function(slot0, slot1)
 end
 
 slot0.FlushFloor = function(slot0)
-	slot0:SetFloor(slot0.contextData.floorName)
+	slot0:SetFloor(slot0.floorData[slot0.selectedFloorId])
 end
 
 slot0.InitIconTrigger = function(slot0, slot1)
@@ -210,6 +130,12 @@ slot0.InitIconTrigger = function(slot0, slot1)
 		slot0 = getProxy(ApartmentProxy):getRoom(uv0)
 
 		if pg.dorm3d_rooms[uv0].type == 1 then
+			if uv0 ~= 4 and not pg.NewStoryMgr.GetInstance():IsPlayed("DORM3D_GUIDE_06") then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_guide_tip2"))
+
+				return
+			end
+
 			if not slot0 then
 				uv1:emit(SelectDorm3DMediator.OPEN_ROOM_UNLOCK_WINDOW, uv0)
 			else
@@ -219,9 +145,7 @@ slot0.InitIconTrigger = function(slot0, slot1)
 					click = true,
 					roomId = uv0
 				}, function ()
-					slot0 = underscore.map(string.split(PlayerPrefs.GetString(string.format("room%d_invite_list", uv0), ""), "|"), function (slot0)
-						return tonumber(slot0)
-					end)
+					slot0 = ApartmentProxy.GetRoomInviteList(uv0)
 
 					if uv1:CheckGuide("DORM3D_GUIDE_06") then
 						slot0 = {}
@@ -307,9 +231,11 @@ slot0.ReplaceSpecialRoomIcon = function(slot0)
 
 	for slot5, slot6 in pairs(getProxy(ApartmentProxy):getRawData()) do
 		for slot10, slot11 in ipairs(slot6:getSpecialTalking()) do
-			slot1[slot12] = slot1[pg.dorm3d_dialogue_group[slot11].trigger_config[1]] or {}
+			if slot0.roomDic[pg.dorm3d_dialogue_group[slot11].trigger_config[1]] then
+				slot1[slot12] = slot1[slot12] or {}
 
-			table.insert(slot1[slot12], slot11)
+				table.insert(slot1[slot12], slot11)
+			end
 		end
 	end
 
@@ -348,103 +274,11 @@ slot0.ReplaceSpecialRoomIcon = function(slot0)
 	end
 end
 
-slot0.InitCardTrigger = function(slot0, slot1)
-	slot2 = getProxy(ApartmentProxy):getRoom(slot1)
-
-	assert(slot2)
-
-	slot3 = slot0.cardDic[slot1]
-
-	if slot2:isPersonalRoom() then
-		slot4 = slot2:getPersonalGroupId()
-
-		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_%d", Apartment.New({
-			ship_group = slot4
-		}):GetSkinModelID(slot2:getConfig("tag"))), "", slot3:Find("Image"))
-		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_apartment_name_%d", slot4), "", slot3:Find("name"))
-	else
-		GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_card_%s", string.lower(slot2:getConfig("assets_prefix"))), "", slot3:Find("Image"))
-	end
-
-	onButton(slot0, slot3, function ()
-		slot0 = uv0
-
-		slot0:TryDownloadResource({
-			click = true,
-			roomId = uv1
-		}, function ()
-			slot0 = uv0:getConfig("room")
-
-			if uv0:isPersonalRoom() then
-				slot0 = ShipGroup.getDefaultShipNameByGroupID(uv0:getPersonalGroupId())
-			end
-
-			pg.MsgboxMgr.GetInstance():ShowMsgBox({
-				content = i18n("dorm3d_role_assets_delete", slot0),
-				onYes = function ()
-					if IsUnityEditor then
-						pg.TipsMgr.GetInstance():ShowTips(i18n("common_no_open"))
-
-						return
-					end
-
-					if uv0:isPersonalRoom() then
-						DormGroupConst.DelRoom(string.lower(uv0:getConfig("resource_name")), {
-							"room",
-							"apartment"
-						})
-					else
-						DormGroupConst.DelRoom(string.lower(uv0:getConfig("resource_name")), {
-							"room"
-						})
-					end
-
-					pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_delete_finish"))
-					pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataDownload(uv0.id, 3))
-					uv1:DownloadUpdate(uv2, "delete")
-				end
-			})
-		end)
-	end, SFX_PANEL)
-end
-
-slot0.UpdateCardState = function(slot0, slot1)
-	slot2 = getProxy(ApartmentProxy):getRoom(slot1)
-	slot3 = slot0.cardDic[slot1]
-	slot4 = slot2:getState()
-
-	if slot2:isPersonalRoom() then
-		setActive(slot3:Find("lock"), slot4 ~= "complete")
-		setActive(slot3:Find("unlock"), slot4 == "complete")
-		setText(slot3:Find("favor_level/Text"), getProxy(ApartmentProxy):getApartment(slot2:getPersonalGroupId()) and slot5.level or "?")
-	end
-
-	eachChild(slot3:Find("operation"), function (slot0)
-		setActive(slot0, slot0.name == uv0)
-	end)
-
-	if DormGroupConst.DormDownloadLock and DormGroupConst.DormDownloadLock.roomId == slot1 then
-		slot0:UpdateCardProgess()
-	end
-
-	setActive(slot3:Find("mask"), slot4 ~= "complete")
-end
-
-slot0.UpdateCardProgess = function(slot0)
-	slot1 = DormGroupConst.DormDownloadLock
-
-	setSlider(slot0.cardDic[slot1.roomId]:Find("operation/loading"), 0, slot1.totalSize, slot1.curSize)
-end
-
 slot0.DownloadUpdate = function(slot0, slot1, slot2)
 	switch(slot2, {
 		start = function ()
 			if uv0.roomDic[uv1] then
 				uv0:UpdateIconState(uv1)
-			end
-
-			if uv0.cardDic and uv0.cardDic[uv1] then
-				uv0:UpdateCardState(uv1)
 			end
 		end,
 		loading = function ()
@@ -453,31 +287,17 @@ slot0.DownloadUpdate = function(slot0, slot1, slot2)
 
 				setSlider(uv0.roomDic[uv1]:Find("front/loading/progress"), 0, slot0.totalSize, slot0.curSize)
 			end
-
-			if uv0.cardDic and uv0.cardDic[uv1] then
-				uv0:UpdateCardProgess()
-			end
 		end,
 		finish = function ()
 			for slot3, slot4 in pairs(uv0.roomDic) do
 				uv0:UpdateIconState(slot3)
 			end
 
-			if uv0.cardDic then
-				for slot3, slot4 in pairs(uv0.cardDic) do
-					uv0:UpdateCardState(slot3)
-				end
-			else
-				uv0:CheckGuide("DORM3D_GUIDE_02")
-			end
+			uv0:CheckGuide("DORM3D_GUIDE_02")
 		end,
 		delete = function ()
 			if uv0.roomDic[uv1] then
 				uv0:UpdateIconState(uv1)
-			end
-
-			if uv0.cardDic and uv0.cardDic[uv1] then
-				uv0:UpdateCardState(uv1)
 			end
 		end
 	})
@@ -505,6 +325,7 @@ slot0.AfterRoomUnlock = function(slot0, slot1)
 		uv0:UpdateIconState(uv1)
 		uv0:TryDownloadResource(uv2)
 		uv0:CheckGuide("DORM3D_GUIDE_02")
+		uv0:SetMapSwitch()
 	end))
 end
 
@@ -531,44 +352,6 @@ end
 
 slot0.HideIconTipWindow = function(slot0)
 	setActive(slot0.rtIconTip, false)
-end
-
-slot0.ShowMgrPanel = function(slot0)
-	slot0.cardDic = {}
-	slot0.filterCharRoomIds = {}
-	slot0.filterPublicRoomIds = {}
-
-	slot4 = function(slot0)
-		return tobool(getProxy(ApartmentProxy):getRoom(slot0))
-	end
-
-	for slot4, slot5 in ipairs(underscore.filter(pg.dorm3d_rooms.all, slot4)) do
-		if pg.dorm3d_rooms[slot5].type == 1 then
-			table.insert(slot0.filterPublicRoomIds, slot5)
-		elseif slot6 == 2 then
-			table.insert(slot0.filterCharRoomIds, slot5)
-		else
-			assert(false)
-		end
-	end
-
-	slot0.charRoomCardItemList:align(#slot0.filterCharRoomIds)
-	slot0.publicRoomCardItemList:align(#slot0.filterPublicRoomIds)
-	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.rtMgrPanel, {
-		force = true,
-		pbList = {
-			slot0.rtMgrPanel:Find("window")
-		}
-	})
-	setActive(slot0.rtMgrPanel, true)
-end
-
-slot0.HideMgrPanel = function(slot0)
-	slot0.cardDic = nil
-
-	pg.UIMgr.GetInstance():UnblurPanel(slot0.rtMgrPanel, slot0.rtLayer)
-	setActive(slot0.rtMgrPanel, false)
-	slot0:CheckGuide("DORM3D_GUIDE_02")
 end
 
 slot0.TryDownloadResource = function(slot0, slot1, slot2)
@@ -602,7 +385,6 @@ slot0.InitResBar = function(slot0)
 	slot0.gemValue = slot0.rtRes:Find("gem/Text"):GetComponent(typeof(Text))
 
 	onButton(slot0, slot0.rtRes:Find("gold"), function ()
-		warning("debug test")
 		pg.playerResUI:ClickGold()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.rtRes:Find("oil"), function ()
@@ -703,10 +485,164 @@ slot0.CheckGuide = function(slot0, slot1)
 	end)
 end
 
+slot0.SetMapSwitch = function(slot0)
+	slot0.selectedFloorId = PlayerPrefs.GetInt("DORM_SELECTED_FLOOR_ID" .. getProxy(PlayerProxy):getRawData().id, 1)
+
+	if pg.NewGuideMgr.GetInstance():GetCurrentGuideName() == "DORM3D_GUIDE_01" then
+		slot0.selectedFloorId = 1
+	elseif PlayerPrefs.GetInt("DORM_SELECTED_NEW_ROOM_FLOOR" .. slot1 .. pg.dorm3d_set.drom3d_new_room_remind.key_value_int, 0) == 0 then
+		slot0.selectedFloorId = table.indexof(slot0.floorData, pg.dorm3d_rooms[slot2].in_map)
+
+		PlayerPrefs.SetInt("DORM_SELECTED_NEW_ROOM_FLOOR" .. slot1 .. slot2, 1)
+	end
+
+	slot2 = slot0._tf:Find("interludeAni")
+	slot3 = slot2:GetComponent(typeof(Animation))
+	slot4 = slot2:GetComponent(typeof(DftAniEvent))
+
+	onButton(slot0, slot0.rtMain:Find("btn_switch/left"), function ()
+		uv0:SetTriggerEvent(function ()
+			uv0:ChangeMap(uv0.selectedFloorId - 1)
+		end)
+		uv2:Play("anim_InterludeAni")
+	end)
+	onButton(slot0, slot0.rtMain:Find("btn_switch/right"), function ()
+		uv0:SetTriggerEvent(function ()
+			uv0:ChangeMap(uv0.selectedFloorId + 1)
+		end)
+		uv2:Play("anim_InterludeAni")
+	end)
+	setActive(slot0.rtMain:Find("btn_switch/switchPanel"), false)
+
+	slot5 = slot0.rtMain:Find("btn_switch/switchPanel"):GetComponent(typeof(Animation))
+
+	slot0.rtMain:Find("btn_switch/switchPanel"):GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+		setActive(uv0.rtMain:Find("btn_switch/switchPanel"), false)
+	end)
+	onButton(slot0, slot0.rtMain:Find("btn_switch/switch"), function ()
+		setActive(uv0.rtMain:Find("btn_switch/switchPanel"), true)
+	end)
+	onButton(slot0, slot0.rtMain:Find("btn_switch/switchPanel"), function ()
+		uv0:Play("anim_switchPanel_exit")
+	end)
+
+	slot7 = UIItemList.New(slot0.rtMain:Find("btn_switch/switchPanel/switchScrollView/Viewport/Content"), slot0.rtMain:Find("btn_switch/switchPanel/switchScrollView/Viewport/Content/floor"))
+
+	slot7:make(function (slot0, slot1, slot2)
+		if slot0 == UIItemList.EventUpdate then
+			for slot8 = #Clone(pg.dorm3d_rooms.get_id_list_by_in_map[uv0.floorData[slot1 + 1]]), 1, -1 do
+				if pg.dorm3d_rooms[slot4[slot8]].is_common == 1 then
+					table.remove(slot4, slot8)
+				end
+			end
+
+			setActive(slot2:Find("select"), slot1 + 1 == uv0.selectedFloorId)
+			setText(slot2:Find("name"), i18n("dorm3d_room_" .. slot3))
+			table.sort(slot4, CompareFuncs({
+				function (slot0)
+					return (getProxy(ApartmentProxy):getRoom(slot0) and slot1:getState() or "lock") == "complete" and 0 or 1
+				end,
+				function (slot0)
+					return pg.dorm3d_rooms[slot0].type == 2 and 0 or 1
+				end
+			}))
+
+			slot5 = UIItemList.New(slot2:Find("rooms"), slot2:Find("rooms/room"))
+
+			slot5:make(function (slot0, slot1, slot2)
+				if slot0 == UIItemList.EventUpdate then
+					slot3 = uv0[slot1 + 1]
+					slot4 = pg.dorm3d_rooms[slot3]
+					slot6 = getProxy(ApartmentProxy):getRoom(slot3) and slot5:getState() or "lock"
+
+					setActive(slot2:Find("lock"), slot6 ~= "complete")
+					setActive(slot2:Find("normal"), slot6 == "complete")
+
+					if slot6 == "complete" then
+						GetImageSpriteFromAtlasAsync(string.format("dorm3dselect/room_icon_%s", string.lower(slot4.assets_prefix)), "", slot2:Find("normal/mask/icon"), false)
+					end
+
+					setText(slot2:Find("roomId"), slot3)
+				end
+			end)
+			slot5:align(#slot4)
+			onButton(uv0, slot2, function ()
+				uv0:SetTriggerEvent(function ()
+					uv0:ChangeMap(uv1 + 1)
+				end)
+				uv3:Play("anim_InterludeAni")
+				uv4:Play("anim_switchPanel_exit")
+			end, SFX_PANEL)
+		end
+	end)
+	slot7:align(#slot0.floorData)
+	slot0:ChangeMap(slot0.selectedFloorId)
+end
+
+slot0.ChangeMap = function(slot0, slot1)
+	slot0.selectedFloorId = slot1
+
+	PlayerPrefs.SetInt("DORM_SELECTED_FLOOR_ID" .. getProxy(PlayerProxy):getRawData().id, slot0.selectedFloorId)
+	slot0:SetFloor(slot0.floorData[slot0.selectedFloorId])
+	setActive(slot0.rtMain:Find("btn_switch/left"), slot0.selectedFloorId > 1)
+	setActive(slot0.rtMain:Find("btn_switch/right"), slot0.selectedFloorId < #slot0.floorData)
+	setText(slot0.rtMain:Find("btn_switch/switch/currentName"), i18n("dorm3d_room_" .. slot0.floorData[slot0.selectedFloorId]))
+
+	for slot6 = 0, #slot0.floorData - 1 do
+		setActive(slot0.rtMain:Find("btn_switch/switchPanel/switchScrollView/Viewport/Content"):GetChild(slot6):Find("select"), slot6 + 1 == slot1)
+	end
+
+	slot0.floorTipFlag = {}
+	slot0.floorRoomTipFlag = {}
+
+	for slot6, slot7 in ipairs(slot0.floorData) do
+		slot8 = false
+		slot9 = {}
+
+		for slot14, slot15 in ipairs(pg.dorm3d_rooms.get_id_list_by_in_map[slot7]) do
+			if pg.dorm3d_rooms[slot15].is_common == 0 then
+				slot9[slot15] = false
+
+				if (getProxy(ApartmentProxy):getRoom(slot15) and slot16:getState() or "lock") == "complete" and slot16:isPersonalRoom() and getProxy(ApartmentProxy):getApartment(slot16:getPersonalGroupId()):getIconTip(slot16:GetConfigID()) then
+					slot8 = true
+					slot9[slot15] = true
+				end
+
+				if slot17 == "complete" and not slot16:isPersonalRoom() then
+					slot9[slot15] = PlayerPrefs.GetInt(slot2 .. "_dorm3dRoomInviteSuccess_" .. slot15, 1) == 0
+				end
+			end
+		end
+
+		table.insert(slot0.floorTipFlag, slot8)
+		table.insert(slot0.floorRoomTipFlag, slot9)
+	end
+
+	if slot0.selectedFloorId > 1 then
+		setActive(slot0.rtMain:Find("btn_switch/left/tip"), slot0.floorTipFlag[slot0.selectedFloorId - 1])
+	end
+
+	if slot0.selectedFloorId < #slot0.floorData then
+		setActive(slot0.rtMain:Find("btn_switch/right/tip"), slot0.floorTipFlag[slot0.selectedFloorId + 1])
+	end
+
+	setActive(slot0.rtMain:Find("btn_switch/switch/tip"), table.contains(slot0.floorTipFlag, true))
+
+	slot6 = "btn_switch/switchPanel/switchScrollView/Viewport/Content"
+
+	for slot6 = 0, slot0.rtMain:Find(slot6).childCount - 1 do
+		slot11 = "rooms"
+
+		for slot11 = 0, slot0.rtMain:Find("btn_switch/switchPanel/switchScrollView/Viewport/Content"):GetChild(slot6):Find(slot11).childCount - 1 do
+			slot12 = slot7:Find("rooms"):GetChild(slot11)
+
+			setActive(slot12:Find("normal/tip"), slot0.floorRoomTipFlag[slot6 + 1][tonumber(slot12:Find("roomId"):GetComponent(typeof(Text)).text)])
+		end
+	end
+end
+
 slot0.onBackPressed = function(slot0)
-	if isActive(slot0.rtMgrPanel) then
-		slot0:HideMgrPanel()
-	elseif isActive(slot0.rtIconTip) then
+	if isActive(slot0.rtIconTip) then
 		slot0:HideIconTipWindow()
 	else
 		uv0.super.onBackPressed(slot0)
@@ -714,10 +650,6 @@ slot0.onBackPressed = function(slot0)
 end
 
 slot0.willExit = function(slot0)
-	if isActive(slot0.rtMgrPanel) then
-		slot0:HideMgrPanel()
-	end
-
 	if isActive(slot0.rtIconTip) then
 		slot0:HideIconTipWindow()
 	end

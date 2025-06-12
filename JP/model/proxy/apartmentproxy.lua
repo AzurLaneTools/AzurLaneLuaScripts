@@ -3,6 +3,8 @@ slot0.UPDATE_APARTMENT = "ApartmentProxy.UPDATE_APARTMENT"
 slot0.UPDATE_ROOM = "ApartmentProxy.UPDATE_ROOM"
 slot0.UPDATE_GIFT_COUNT = "ApartmentProxy.UPDATE_GIFT_COUNT"
 slot0.ZERO_HOUR_REFRESH = "ApartmentProxy.ZERO_HOUR_REFRESH"
+slot0.UPDATE_ROOM_INVITE_LIST = "ApartmentProxy.UPDATE_ROOM_INVITE_LIST"
+slot0.UPDATE_SLIDE_INVITE_LIST = "ApartmentProxy.UPDATE_SLIDE_INVITE_LIST"
 
 slot0.register = function(slot0)
 	slot0.data = {}
@@ -88,6 +90,34 @@ slot0.updateRoom = function(slot0, slot1)
 	slot0.roomData[slot1.configId] = slot1:clone()
 
 	slot0:sendNotification(uv0.UPDATE_ROOM, slot1)
+end
+
+slot0.ModifyApartment = function(slot0, slot1, slot2)
+	assert(slot0.data[slot1], "apartment not exist")
+
+	if type(slot2) == "function" then
+		slot2(slot3)
+	elseif type(slot2) == "table" then
+		for slot7, slot8 in pairs(slot2) do
+			slot3[slot7] = slot8
+		end
+	end
+
+	slot0:sendNotification(uv0.UPDATE_APARTMENT, slot3:clone())
+end
+
+slot0.ModifyRoom = function(slot0, slot1, slot2)
+	assert(slot0.roomData[slot1], "room not exist")
+
+	if type(slot2) == "function" then
+		slot2(slot3)
+	elseif type(slot2) == "table" then
+		for slot7, slot8 in pairs(slot2) do
+			slot3[slot7] = slot8
+		end
+	end
+
+	slot0:sendNotification(uv0.UPDATE_ROOM, slot3:clone())
 end
 
 slot0.triggerFavor = function(slot0, slot1, slot2, slot3)
@@ -202,6 +232,43 @@ slot0.GetAccompanyTime = function(slot0)
 	return slot0.dormAccompanyTimeStamp
 end
 
+slot0.GetRoomInviteList = function(slot0)
+	return underscore.map(string.split(PlayerPrefs.GetString(string.format("room%d_invite_list", slot0), ""), "|"), function (slot0)
+		return tonumber(slot0)
+	end)
+end
+
+slot0.SetRoomInviteList = function(slot0, slot1, slot2, slot3)
+	slot4, slot5, slot6 = table.Diff(uv0.GetRoomInviteList(slot1), slot2)
+
+	PlayerPrefs.SetString(string.format("room%d_invite_list", slot1), table.concat(slot2, "|"))
+	slot0:sendNotification(uv0.UPDATE_ROOM_INVITE_LIST, {
+		roomId = slot1,
+		groupIds = slot2,
+		addIds = slot5,
+		removeIds = slot6,
+		callback = slot3
+	})
+end
+
+slot0.GetSlideInviteList = function()
+	return underscore.map(string.split(PlayerPrefs.GetString("slide_invite_list", ""), "|"), function (slot0)
+		return tonumber(slot0)
+	end) or {}
+end
+
+slot0.SetSlideInviteList = function(slot0, slot1, slot2)
+	slot3, slot4, slot5 = table.Diff(uv0.GetSlideInviteList(), slot1)
+
+	PlayerPrefs.SetString("slide_invite_list", table.concat(slot1, "|"))
+	slot0:sendNotification(uv0.UPDATE_SLIDE_INVITE_LIST, {
+		groupIds = slot1,
+		addIds = slot4,
+		removeIds = slot5,
+		callback = slot2
+	})
+end
+
 slot1 = {
 	6,
 	18
@@ -263,6 +330,11 @@ slot0.CheckUnlockConfig = function(slot0)
 		end,
 		function (slot0, slot1, slot2)
 			return getProxy(ApartmentProxy):getRoom(slot1) and slot3.unlockCharacter[slot2], i18n("dorm3d_skin_locked")
+		end,
+		function (slot0, slot1, slot2)
+			return getProxy(ApartmentProxy):getApartment(slot2) and _.detect(slot3.skinList, function (slot0)
+				return slot0 == uv0
+			end), i18n("dorm3d_skin_locked")
 		end
 	}, function (slot0)
 		return false, string.format("without unlock type:%d", slot0)

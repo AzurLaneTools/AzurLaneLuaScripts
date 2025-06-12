@@ -3,8 +3,9 @@ slot1 = pg.activity_ins_language
 slot2 = pg.activity_ins_npc_template
 
 slot0.register = function(slot0)
-	slot0.caches = {}
 	slot0.messages = {}
+	slot0.isReqNewInstagramData = false
+	slot0.isReqOldInstagramData = false
 	slot0.allReply = {}
 
 	slot1 = function(slot0)
@@ -33,32 +34,32 @@ slot0.register = function(slot0)
 	for slot5, slot6 in ipairs(uv1.all) do
 		slot0.allReply[slot6] = slot1(uv1[slot6])
 	end
+end
 
-	slot0:on(11700, function (slot0)
-		for slot4, slot5 in ipairs(slot0.ins_message_list) do
-			if pg.activity_ins_template[slot5.id].is_active == 1 then
-				slot6 = Instagram.New(slot5)
-				uv0.messages[slot6.id] = slot6
-			else
-				table.insert(uv0.caches, slot5)
-			end
-		end
-	end)
+slot0.IsReqOldInstagramData = function(slot0)
+	return slot0.isReqOldInstagramData
+end
+
+slot0.MarkOldInstagramData = function(slot0)
+	slot0.isReqOldInstagramData = true
+end
+
+slot0.IsReqNewInstagramData = function(slot0)
+	return slot0.isReqNewInstagramData
+end
+
+slot0.MarkNewInstagramData = function(slot0)
+	slot0.isReqNewInstagramData = true
+
+	slot0:AddInstagramTimer()
+end
+
+slot0.AddInstagram = function(slot0, slot1)
+	slot0.messages[slot1.id] = slot1
 end
 
 slot0.GetAllReply = function(slot0)
 	return slot0.allReply
-end
-
-slot0.InitLocalConfigs = function(slot0)
-	if #slot0.caches > 0 then
-		for slot4, slot5 in ipairs(slot0.caches) do
-			slot6 = Instagram.New(slot5)
-			slot0.messages[slot6.id] = slot6
-		end
-	end
-
-	slot0.caches = {}
 end
 
 slot0.GetMessages = function(slot0)
@@ -101,18 +102,89 @@ slot0.ShouldShowTip = function(slot0)
 	end)
 end
 
-slot0.ExistMsg = function(slot0)
-	return slot0.messages and table.getCount(slot0.messages) > 0 or slot0.caches and #slot0.caches > 0
-end
+slot0.GetNewInstagramBeginIdAndEndId = function()
+	slot0 = Mathf.Infinity
+	slot1 = Mathf.NegativeInfinity
 
-slot0.ExistGroup = function(slot0, slot1)
-	for slot5, slot6 in pairs(slot0.messages) do
-		if slot6:getConfig("group_id") == slot1 then
-			return true
+	for slot5, slot6 in ipairs(pg.activity_ins_template.all) do
+		if pg.activity_ins_template[slot6].is_active == 1 then
+			if slot6 < slot0 then
+				slot0 = slot6
+			end
+
+			if slot1 < slot6 then
+				slot1 = slot6
+			end
 		end
 	end
 
-	return false
+	return slot0, slot1
+end
+
+slot0.GetOldInstagramIds = function()
+	slot0 = {}
+
+	for slot4, slot5 in ipairs(pg.activity_ins_template.all) do
+		if pg.activity_ins_template[slot5].is_active == 0 then
+			table.insert(slot0, slot5)
+		end
+	end
+
+	return slot0
+end
+
+slot0.GetNextPushTime = function(slot0)
+	for slot5, slot6 in ipairs(pg.activity_ins_template.all) do
+		if pg.activity_ins_template[slot6].is_active == 1 and slot0:GetMessageById(slot6) == nil then
+			return dueTime, slot6
+		end
+	end
+end
+
+slot0.AddInstagramTimer = function(slot0, slot1)
+	slot0:RemoveInstagramTimer()
+
+	slot2, slot3 = slot0:GetNextPushTime()
+
+	if not slot2 then
+		return
+	end
+
+	slot4 = pg.TimeMgr.GetInstance()
+
+	slot5 = function()
+		pg.m02:sendNotification(GAME.ACT_INSTAGRAM_OP, {
+			cmd = ActivityConst.INSTAGRAM_OP_ACTIVE,
+			arg1 = uv0
+		})
+	end
+
+	if slot2 - slot4:GetServerTime() + math.Random(1, 3) <= 0 then
+		slot5()
+
+		return
+	end
+
+	slot0.timer = Timer.New(function ()
+		uv0:RemoveInstagramTimer()
+		uv1()
+	end, slot4, 1)
+
+	slot0.timer:Start()
+end
+
+slot0.RemoveInstagramTimer = function(slot0)
+	if slot0.timer then
+		slot0.timer:Stop()
+
+		slot0.timer = nil
+	end
+end
+
+slot0.remove = function(slot0)
+	slot0.isReqNewInstagramData = false
+
+	slot0:RemoveInstagramTimer()
 end
 
 return slot0

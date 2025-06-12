@@ -100,6 +100,56 @@ pg.dorm3d_ins_language = {
 		key = "ankeleiqi_2_2_1",
 		is_active = "0"
 	},
+	xinzexi_1 = {
+		value = "うぇぇ～……めっちゃ苦いやつを飲んじゃった……やっぱり試すんじゃなかったよ〜！",
+		key = "xinzexi_1",
+		is_active = "0"
+	},
+	xinzexi_1_1 = {
+		value = "大丈夫？一体何がそんなに…？",
+		key = "xinzexi_1_1",
+		is_active = "0"
+	},
+	xinzexi_1_1_1 = {
+		value = "大丈夫じゃないよぉ……苦すぎて死んじゃいそう～！ハニーに看病してもらわないと～！",
+		key = "xinzexi_1_1_1",
+		is_active = "0"
+	},
+	xinzexi_1_2 = {
+		value = "苦みを消すいい薬とかないかな？",
+		key = "xinzexi_1_2",
+		is_active = "0"
+	},
+	xinzexi_1_2_1 = {
+		value = "もちろんあるよ！ハニーがフルーツジュースを持ってきてくれて、それを一口飲めれば、苦味がぜ〜んぶ吹き飛ぶから！",
+		key = "xinzexi_1_2_1",
+		is_active = "0"
+	},
+	xinzexi_2 = {
+		value = "ハニーに何かしてあげたいな～、何がいいかなぁ〜？",
+		key = "xinzexi_2",
+		is_active = "0"
+	},
+	xinzexi_2_1 = {
+		value = "ニュージャージーが好きなこととか？",
+		key = "xinzexi_2_1",
+		is_active = "0"
+	},
+	xinzexi_2_1_1 = {
+		value = "うーん……やりたいことは、もう全部やっちゃったし、今はハニーと一緒にいる時間だからね～",
+		key = "xinzexi_2_1_1",
+		is_active = "0"
+	},
+	xinzexi_2_2 = {
+		value = "そばにいてくれるだけで十分だよ",
+		key = "xinzexi_2_2",
+		is_active = "0"
+	},
+	xinzexi_2_2_1 = {
+		value = "そばにいるだけじゃ全然足りないよ〜？もっと楽しくて、もっと意味のあることをしなくちゃ！たとえば…カップル旅行とか？",
+		key = "xinzexi_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -120,6 +170,16 @@ pg.dorm3d_ins_language = {
 		"ankeleiqi_1_1_1",
 		"ankeleiqi_1_2_1",
 		"ankeleiqi_2_1_1",
-		"ankeleiqi_2_2_1"
+		"ankeleiqi_2_2_1",
+		"xinzexi_1",
+		"xinzexi_1_1",
+		"xinzexi_1_1_1",
+		"xinzexi_1_2",
+		"xinzexi_1_2_1",
+		"xinzexi_2",
+		"xinzexi_2_1",
+		"xinzexi_2_1_1",
+		"xinzexi_2_2",
+		"xinzexi_2_2_1"
 	}
 }

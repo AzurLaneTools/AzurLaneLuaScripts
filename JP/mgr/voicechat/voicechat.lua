@@ -3,6 +3,8 @@ slot0 = class("VoiceChat")
 slot0.Ctor = function(slot0, slot1)
 	slot0.bgName = slot1.bgName
 	slot0.shipGroup = slot1.shipGroup
+	slot0.stopBgm = slot1.stopBgm or false
+	slot0.label = slot1.label
 	slot0.steps = {}
 	slot2 = ipairs
 	slot3 = slot1.scripts or {}
@@ -49,6 +51,18 @@ slot0.GetStepByIndex = function(slot0, slot1)
 	end
 
 	return slot2
+end
+
+slot0.HasBg = function(slot0)
+	return slot0.bgName ~= nil and slot0.bgName ~= ""
+end
+
+slot0.ShouldStopBgm = function(slot0)
+	return slot0.stopBgm
+end
+
+slot0.GetLabel = function(slot0)
+	return slot0.label
 end
 
 return slot0

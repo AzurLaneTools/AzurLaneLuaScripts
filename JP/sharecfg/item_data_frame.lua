@@ -717,7 +717,25 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1006,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>跳ねる波を追いかけて、嬉しい楽しい出会いのはじまりはじまり</color>\n「交流宿舎」でアンカレッジの親密度Lv報酬",
+		desc = "<color=#ffffff>跳ねる波を追いかけて、嬉しい楽しい出会いのはじまりはじまり</color>「交流宿舎」でアンカレッジの親密度Lv報酬",
+		scene = {}
+	},
+	[1007] = {
+		name = "星雪の寄り添い",
+		gain_by = "",
+		time_second = 0,
+		id = 1007,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>純白の星雪の下で寄り添っているうさぎたち。2匹は互いの温もりを守っている</color>\n「交流宿舎」ニュージャージーの親愛度Lv報酬",
+		scene = {}
+	},
+	[1008] = {
+		name = "スタイリッシュステップ",
+		gain_by = "",
+		time_second = 0,
+		id = 1008,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>スタイリッシュな光が煌めく中で踊るウサギ、その存在とは一体…？</color>\n「交流宿舎」ニュージャージーの親愛度Lv報酬",
 		scene = {}
 	},
 	[10001] = {
@@ -909,6 +927,8 @@ pg.item_data_frame = {
 		1004,
 		1005,
 		1006,
+		1007,
+		1008,
 		10001,
 		10002,
 		10003,

@@ -18,6 +18,10 @@ slot0.Unlock = function(slot0, slot1)
 	slot0.isLock = false
 end
 
+slot0.MarkRead = function(slot0)
+	slot0.isRead = true
+end
+
 slot0.bindConfigTable = function(slot0)
 	return pg.dorm3d_ins_telephone_group
 end
@@ -40,6 +44,20 @@ end
 
 slot0.GetContent = function(slot0)
 	return slot0:getConfig("content")
+end
+
+slot0.GetVideoData = function(slot0)
+	return {
+		roomId = slot0:GetContent()[1],
+		groupIds = {
+			slot0:getConfig("ship_group")
+		},
+		specialId = slot0:GetContent()[2]
+	}
+end
+
+slot0.GetType = function(slot0)
+	return slot0:getConfig("type")
 end
 
 slot0.GetDay = function(slot0)

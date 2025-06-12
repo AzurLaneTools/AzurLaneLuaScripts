@@ -72,7 +72,7 @@ end
 
 slot0.InitData = function(slot0)
 	slot0.roomDataDic = {}
-	slot0.roomDataList = getProxy(Dorm3dInsProxy):GetRoomList()
+	slot0.roomDataList = Clone(getProxy(Dorm3dInsProxy):GetRoomList())
 
 	for slot4, slot5 in ipairs(slot0.roomDataList) do
 		slot0.roomDataDic[slot5.id] = slot5
@@ -120,10 +120,15 @@ end
 
 slot0.SortRoomList = function(slot0)
 	table.sort(slot0.roomIdList, function (slot0, slot1)
-		slot2 = uv0.roomDataDic[slot0]:IsCare() and 1 or 0
-		slot3 = uv0.roomDataDic[slot1]:IsCare() and 1 or 0
+		if (uv0.roomDataDic[slot0]:IsCare() and 1 or 0) ~= (uv0.roomDataDic[slot1]:IsCare() and 1 or 0) then
+			return slot3 < slot2
+		end
 
-		return slot2 == slot3 and slot0 < slot1 or slot3 < slot2
+		if uv0.roomDataDic[slot0]:GetType() ~= uv0.roomDataDic[slot1]:GetType() then
+			return slot5 < slot4
+		end
+
+		return slot0 < slot1
 	end)
 end
 
@@ -157,7 +162,6 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0._tf:Find("left/btn_select"), function ()
 		uv0:OpenOrCloseSelectPanel()
 	end)
-	setActive(slot0._tf:Find("left/btn_select"), false)
 	onButton(slot0, slot0.selectPanel:Find("back"), function ()
 		uv0:OpenOrCloseSelectPanel()
 	end)

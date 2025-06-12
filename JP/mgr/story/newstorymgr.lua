@@ -878,6 +878,10 @@ slot0.OnSceneExit = function(slot0, slot1)
 end
 
 slot0.IsReView = function(slot0)
+	if getProxy(ContextProxy) == nil then
+		return false
+	end
+
 	slot1 = getProxy(ContextProxy):GetPrevContext(1)
 
 	return slot0.scenes[WorldMediaCollectionScene.__cname] == true or slot1 and slot1.mediator == WorldMediaCollectionMediator

@@ -11011,6 +11011,37 @@ _G.pg.base.item_data_statistics[15022] = {
 }
 
 
+_G.pg.base.item_data_statistics[15023] = {
+	open_directly = 0,
+	name = "カフェ開放チケット",
+	type = 100,
+	display = "カフェエリアを開放するチケット",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_undefined",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/15022",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "[]",
+	id = 15023,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[16001] = {
 	open_directly = 0,
 	name = "攻撃教科書T1",

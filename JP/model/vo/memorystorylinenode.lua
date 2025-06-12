@@ -48,6 +48,10 @@ slot0.GetWorldID = function(slot0)
 	return slot0:getConfig("world_id")
 end
 
+slot0.IsMemoryBlock = function(slot0)
+	return slot0:getConfig("memory_lock") == 1
+end
+
 slot0.MARK_NAME = {
 	"mark_blue",
 	"mark_red",

@@ -3872,8 +3872,8 @@ pg.gameset = {
 	act_npc_ship_id = {
 		key_value = 0,
 		description = {
-			5980,
-			5987
+			5987,
+			5995
 		}
 	}
 }

@@ -2214,5 +2214,15 @@ pg.voice_bgm = {
 		default_bgm = "story-tulipa",
 		special_bgm = "",
 		bgm = "story-tulipa"
+	},
+	LittleDaihoRePage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		bgm = "story-richang-7"
+	},
+	DormSignTwoPage = {
+		default_bgm = "story-room-newjersey",
+		special_bgm = "",
+		bgm = "story-room-newjersey"
 	}
 }

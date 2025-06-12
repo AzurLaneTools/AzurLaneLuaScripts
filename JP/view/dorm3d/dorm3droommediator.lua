@@ -13,6 +13,7 @@ slot0.OPEN_COLLECTION_LAYER = "Dorm3dRoomMediator.OPEN_COLLECTION_LAYER"
 slot0.OPEN_INVITE_WINDOW = "Dorm3dRoomMediator.OPEN_INVITE_WINDOW"
 slot0.OPEN_ACCOMPANY_WINDOW = "Dorm3dRoomMediator.OPEN_ACCOMPANY_WINDOW"
 slot0.OPEN_MINIGAME_WINDOW = "Dorm3dRoomMediator.OPEN_MINIGAME_WINDOW"
+slot0.OPEN_SKIN_SELECT_LAYER = "Dorm3dRoomMediator.OPEN_SKIN_SELECT_LAYER"
 slot0.ON_LEVEL_UP_FINISH = "Dorm3dRoomMediator.ON_LEVEL_UP_FINISH"
 slot0.ON_CLICK_FURNITURE_SLOT = "Dorm3dRoomMediator.ON_CLICK_FURNITURE_SLOT"
 slot0.OTHER_DO_TALK = "Dorm3dRoomMediator.OTHER_DO_TALK"
@@ -23,8 +24,11 @@ slot0.GUIDE_CHECK_GUIDE = "Dorm3dRoomMediator.GUIDE_CHECK_GUIDE"
 slot0.GUIDE_CHECK_LEVEL_UP = "Dorm3dRoomMediator.GUIDE_CHECK_LEVEL_UP"
 slot0.Camera_Pinch_Value_Change = "Dorm3dRoomMediator.Camera_Pinch_Value_Change"
 slot0.ENTER_VOLLEYBALL = "Dorm3dRoomMediator.ENTER_VOLLEYBALL"
+slot0.ENTER_DANCE = "Dorm3dRoomMediator.ENTER_DANCE"
 slot0.ON_DROP_CLIENT = "Dorm3dRoomMediator.ON_DROP_CLIENT"
 slot0.UPDATE_FAVOR_DISPLAY = "Dorm3dRoomMediator.UPDATE_FAVOR_DISPLAY"
+slot0.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE = "Dorm3dRoomMediator.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE"
+slot0.REFRESH_FURNITURE_AND_SLOTS_DONE = "Dorm3dRoomMediator.REFRESH_FURNITURE_AND_SLOTS_DONE"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.TRIGGER_FAVOR, function (slot0, slot1, slot2)
@@ -130,6 +134,26 @@ slot0.register = function(slot0)
 			uv0.viewComponent:TempHideUI(true)
 		end)
 	end)
+	slot0:bind(uv0.OPEN_SKIN_SELECT_LAYER, function (slot0, slot1, slot2, slot3, slot4, slot5)
+		slot6 = uv0
+
+		slot6:addSubLayers(Context.New({
+			viewComponent = Dorm3dSkinSelectLayer,
+			mediator = Dorm3dSkinSelectMediator,
+			data = {
+				groupId = slot1,
+				ladyEnv = slot2,
+				onSwitchSkin = slot3
+			},
+			onRemoved = slot5 and slot4 or function ()
+				uv0.viewComponent:SetAllBlackbloardValue("inLockLayer", false)
+				uv0.viewComponent:TempHideUI(false, uv1)
+			end
+		}), nil, not slot5 and function ()
+			uv0.viewComponent:SetAllBlackbloardValue("inLockLayer", true)
+			uv0.viewComponent:TempHideUI(true)
+		end)
+	end)
 	slot0:bind(uv0.OPEN_ACCOMPANY_WINDOW, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
 			viewComponent = Dorm3dAccompanyLayer,
@@ -164,6 +188,16 @@ slot0.register = function(slot0)
 			onRemoved = slot2
 		}))
 	end)
+	slot0:bind(uv0.ADD_EXTRA_SYSTEM_FURNITURE_SLIDE, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			viewComponent = FurnitureSlideExtraLayer,
+			mediator = FurnitureSlideExtraMediator,
+			data = slot1
+		}))
+	end)
+	slot0:bind(uv0.REFRESH_FURNITURE_AND_SLOTS_DONE, function (slot0)
+		uv0:sendNotification(uv1.REFRESH_FURNITURE_AND_SLOTS_DONE)
+	end)
 	slot0:bind(uv0.DO_TALK, function (slot0, slot1, slot2)
 		uv0:sendNotification(GAME.APARTMENT_DO_TALK, {
 			talkId = slot1,
@@ -191,6 +225,11 @@ slot0.register = function(slot0)
 			groupId = slot1
 		})
 	end)
+	slot0:bind(uv0.ENTER_DANCE, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.DORM3D_DANCE, {
+			groupId = slot1
+		})
+	end)
 	slot0:bind(uv0.ON_DROP_CLIENT, function (slot0, slot1)
 		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP_CLIENT, slot1)
 	end)
@@ -199,7 +238,7 @@ slot0.register = function(slot0)
 	if slot0.viewComponent.room:isPersonalRoom() then
 		slot0.viewComponent:SetApartment(getProxy(ApartmentProxy):getApartment(slot0.contextData.groupIds[1]))
 	else
-		PlayerPrefs.SetString(string.format("room%d_invite_list", slot0.contextData.roomId), table.concat(slot0.contextData.groupIds, "|"))
+		getProxy(ApartmentProxy):SetRoomInviteList(slot0.contextData.roomId, slot0.contextData.groupIds)
 	end
 
 	Dorm3dFurniture.RecordLastTimelimitShopFurniture()
@@ -311,6 +350,11 @@ slot0.initNotificationHandleDic = function(slot0)
 		end,
 		[uv0.UPDATE_FAVOR_DISPLAY] = function (slot0, slot1)
 			slot0.viewComponent:UpdateFavorDisplay()
+		end,
+		[ApartmentProxy.UPDATE_ROOM_INVITE_LIST] = function (slot0, slot1)
+			slot2 = slot1:getBody()
+
+			slot0.viewComponent:LoadCharacterAdditionally(slot2.addIds, slot2.callback)
 		end
 	}
 end

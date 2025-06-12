@@ -120,6 +120,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100303_icon"
 	},
+	[101101] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "余暇と平穏",
+		nighttime_res = "101101_bg_night",
+		daytime_res = "101101_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「余暇と平穏」にすることが可能",
+		unlock_text = "ニュージャージー宿舎親愛度Lv2で開放",
+		id = 101101,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101101_icon"
+	},
+	[101102] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "太陽と笑顔",
+		nighttime_res = "101102_bg_night",
+		daytime_res = "101102_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「太陽と笑顔」にすることが可能",
+		unlock_text = "ニュージャージー宿舎親愛度Lv7で開放",
+		id = 101102,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101102_icon"
+	},
+	[101103] = {
+		get_tips = "親愛度壁紙を入手しました",
+		name = "あまーい囁き",
+		nighttime_res = "101103_bg_night",
+		daytime_res = "101103_bg_day",
+		rarity = 3,
+		desc = "入手すると「母港」の壁紙を「あまーい囁き」にすることが可能",
+		unlock_text = "ニュージャージー宿舎親愛度Lv10で開放",
+		id = 101103,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101103_icon"
+	},
 	all = {
 		0,
 		100101,
@@ -130,6 +166,9 @@ pg.livingarea_cover = {
 		100203,
 		100301,
 		100302,
-		100303
+		100303,
+		101101,
+		101102,
+		101103
 	}
 }

@@ -17340,6 +17340,11 @@ _G.pg.base.gametip.msgbox_repair_painting = {
 }
 
 
+_G.pg.base.gametip.l2d_32xbanned_warning = {
+	tip = "現在の端末環境ではL2Dコンテンツを正常に表示できません"
+}
+
+
 _G.pg.base.gametip.word_no_cache = {
 	tip = "修復するアセットはありません"
 }
@@ -30878,7 +30883,7 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "■概要\n「熱烈の告白演習」とは、イベント開始時に仮加入した【大鳳ちゃん】の「友好度」を海域に出撃することで貯め、【大鳳ちゃん】を正式加入させるイベントになります。"
 		},
 		{
-			info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージまたはイベント海域（常設イベントを除く）の中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
+			info = "■遊び方\n1.イベント期間中、メイン海域（ノーマル）3章以降のステージの中枢艦隊を撃破すると、「友好度」を獲得する事ができます。獲得した「友好度」が一定の数値に到達すると、「友好度報酬」を入手することができます"
 		},
 		{
 			info = "2.【大鳳ちゃん】は、友好度報酬（7段階目）の「正式加入」を達成しない限り、ケッコンすることができず、また退役や強化・限界突破素材への選択をすることができません。"
@@ -30890,7 +30895,7 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "4.イベント終了までにイベントページの「友好度報酬」を最後まで受け取ると、【大鳳ちゃん】を「正式加入」させることができます（友好度が1000必要）。イベント終了時、「正式加入」していない【大鳳ちゃん】は母港からいなくなります。"
 		},
 		{
-			info = "5.友好度報酬は6/7（水）まで毎日1段階ずつ解放されます。"
+			info = "5.友好度報酬は6/18（水）まで毎日1段階ずつ解放されます。"
 		},
 		{
 			info = "6.仮加入状態の【大鳳ちゃん】はセイレーン作戦（META戦含む）に参加できず、またセイレーン作戦では友好度を獲得できません。"
@@ -37801,6 +37806,11 @@ _G.pg.base.gametip.dorm3d_guide_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_guide_tip2 = {
+	tip = "まずはビーチを見てみよう"
+}
+
+
 _G.pg.base.gametip.dorm3d_noshiro_table = {
 	tip = "広縁"
 }
@@ -37836,6 +37846,21 @@ _G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_xinzexi_table = {
+	tip = "ダイニング"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_chair = {
+	tip = "リビング"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_bed = {
+	tip = "寝室"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "親愛度が上限に達しています。プレゼントを贈っても親愛度は上昇しません。プレゼントを贈りますか？"
 }
@@ -37843,6 +37868,11 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 
 _G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
 	tip = "$1からの招待"
+}
+
+
+_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
+	tip = "$1からの通話"
 }
 
 
@@ -37951,6 +37981,11 @@ _G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+	tip = "ロフト"
+}
+
+
 _G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
 	tip = "今日"
 }
@@ -37982,7 +38017,7 @@ _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
-	tip = "通話記録"
+	tip = "ビデオ記録"
 }
 
 
@@ -37996,6 +38031,11 @@ _G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_video_call = {
+	tip = "ビデオ通話"
+}
+
+
 _G.pg.base.gametip.dorm3d_ins_no_msg = {
 	tip = "新着なし"
 }
@@ -38003,6 +38043,36 @@ _G.pg.base.gametip.dorm3d_ins_no_msg = {
 
 _G.pg.base.gametip.dorm3d_ins_no_topics = {
 	tip = "新着なし"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_confirm = {
+	tip = "適用確定"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_already = {
+	tip = "適用中"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_equip = {
+	tip = "$1に$2を適用しますか？"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_unlock = {
+	tip = "公共エリアでは衣装を変更できません"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_1 = {
+	tip = "ビーチ"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_2 = {
+	tip = "ロフト"
 }
 
 
@@ -38455,6 +38525,36 @@ _G.pg.base.gametip.dorm3d_shop_others = {
 
 _G.pg.base.gametip.dorm3d_shop_limit1 = {
 	tip = "今週限定"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
+	tip = "$1の即興ダンス"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame2 = {
+	tip = "$1の期待の瞬間を収めよう！"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
+	tip = "撮影完了"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame4 = {
+	tip = "もう一度"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
+	tip = "終了"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame6 = {
+	tip = "マッチ度：$1"
 }
 
 
@@ -39251,4 +39351,14 @@ _G.pg.base.gametip.brs_reward_tip_1 = {
 
 _G.pg.base.gametip.brs_reward_tip_2 = {
 	tip = "確認"
+}
+
+
+_G.pg.base.gametip.dorm3d_dance_button = {
+	tip = "ダンス"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_cafe = {
+	tip = "カフェ"
 }

@@ -31,8 +31,18 @@ slot0.didEnter = function(slot0)
 	onButton(slot0, slot0.confirmBtnTrans, function ()
 		if uv0.frameDic[uv0.selectFrameId] then
 			slot1 = pg.ShareMgr.GetInstance()
+			slot2 = slot0:Find("frame").sizeDelta
 
-			uv0:TakePhoto(pg.ShareMgr.TypeDorm3dPhoto, slot0:Find("frame").sizeDelta)
+			if pg.dorm3d_camera_photo_frame[uv0.selectFrameId].frameTfName == "WoodFrame" then
+				slot4 = slot0:Find("frame"):GetComponent("Image").sprite
+				slot7 = UnityEngine.Texture2D.New(slot4.rect.width, slot4.rect.height)
+
+				slot7:SetPixels(Object.Instantiate(slot4.texture):GetPixels(0, 0, slot4.rect.width, slot4.rect.height))
+				slot7:Apply()
+				uv0:TakePhoto(pg.ShareMgr.TypeDorm3dPhoto, slot2, slot7, slot0:Find("mask").sizeDelta)
+			else
+				uv0:TakePhoto(pg.ShareMgr.TypeDorm3dPhoto, slot2)
+			end
 		end
 	end, SFX_PANEL)
 	onButton(slot0, slot0._tf:Find("Mask"), function ()
@@ -178,26 +188,26 @@ slot0.LoadFrame = function(slot0, slot1, slot2, slot3)
 	end), true, true)
 end
 
-slot0.TakePhoto = function(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = {}
+slot0.TakePhoto = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = {}
-	slot6 = pg.share_template[slot1]
+	slot6 = {}
+	slot7 = {}
+	slot8 = pg.share_template[slot1]
 
-	assert(slot6, "share_template not exist: " .. slot1)
-	_.each(slot6.hidden_comps, function (slot0)
+	assert(slot8, "share_template not exist: " .. slot1)
+	_.each(slot8.hidden_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and slot1.activeSelf then
 			table.insert(uv0, slot1)
 			slot1:SetActive(false)
 		end
 	end)
-	_.each(slot6.show_comps, function (slot0)
+	_.each(slot8.show_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0)) and not slot1.activeSelf then
 			table.insert(uv0, slot1)
 			slot1:SetActive(true)
 		end
 	end)
-	_.each(slot6.move_comps, function (slot0)
+	_.each(slot8.move_comps, function (slot0)
 		if not IsNil(GameObject.Find(slot0.path)) then
 			table.insert(uv0, {
 				slot1,
@@ -211,17 +221,17 @@ slot0.TakePhoto = function(slot0, slot1, slot2)
 		end
 	end)
 
-	slot7 = GameObject.Find(slot6.camera)
-	slot7 = slot7:GetComponent(typeof(Camera))
-	slot8 = slot7.transform
-	slot8 = slot8:GetChild(0)
+	slot9 = GameObject.Find(slot8.camera)
+	slot9 = slot9:GetComponent(typeof(Camera))
+	slot10 = slot9.transform
+	slot10 = slot10:GetChild(0)
 
 	tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
 	ReflectionHelp.RefCallStaticMethodEx(typeof("BLHX.Rendering.HotUpdate.ScreenShooterPass"), "TakePhoto", {
 		typeof(Camera),
 		typeof("UnityEngine.Events.UnityAction`1[UnityEngine.Object]")
 	}, {
-		slot7,
+		slot9,
 		UnityEngine.Events.UnityAction_UnityEngine_Object(function (slot0)
 			_.each(uv0, function (slot0)
 				slot0:SetActive(true)
@@ -249,7 +259,25 @@ slot0.TakePhoto = function(slot0, slot1, slot2)
 
 			slot3:SetPixels(slot0:GetPixels((Screen.width - slot1) / 2, (Screen.height - slot2) / 2, slot1, slot2))
 			slot3:Apply()
-			YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToJPG(slot3), function (slot0, slot1)
+
+			if not uv5 then
+				YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToPNG(slot3), function (slot0, slot1)
+					if slot0 then
+						pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
+					end
+				end)
+
+				return
+			end
+
+			slot7 = uv5.x / uv4.sizeDelta.x * Screen.width
+			slot8 = uv5.y / uv4.sizeDelta.y * Screen.height
+			slot9 = slot1 - slot7
+			slot10 = slot2 - slot8
+			slot12 = uv6
+
+			slot12:SetPixels(slot9 / 2, slot10 / 2, slot7, slot8, slot3:GetPixels(slot9 / 2, slot10 / 2, slot7, slot8))
+			YSNormalTool.MediaTool.SaveImageWithBytes(Tex2DExtension.EncodeToPNG(uv6), function (slot0, slot1)
 				if slot0 then
 					pg.TipsMgr.GetInstance():ShowTips(i18n("word_save_ok"))
 				end

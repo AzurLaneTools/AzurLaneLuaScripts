@@ -798,6 +798,223 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[1101] = {
+		rarity = 3,
+		name = "うさうさクレイドル",
+		unlock_tips = "",
+		type = 4,
+		room_id = 11,
+		desc = "快適な眠り心地を追求したベッド。しっかりした構造で安定感もバツグン。\nふわふわのウサギ型クッションを抱いて眠れば、\n星空の下にあるにんじん農園の夢が見られる……かも？",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1101,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051730
+			}
+		},
+		shop_id = {}
+	},
+	[1102] = {
+		rarity = 3,
+		name = "アイスド・エイジ",
+		unlock_tips = "",
+		type = 6,
+		room_id = 11,
+		desc = "シンプルなシルエットで描かれた未来系デザイン。強力な冷却システムを搭載。\n酸素コーラをキンキンに冷やせば、\n日々のライフスタイルに爽快感と心地よさを提供してくれる。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1102,
+		target_slots = {
+			1110203
+		},
+		touch_id = {
+			{
+				10517,
+				1051710
+			}
+		},
+		shop_id = {}
+	},
+	[1103] = {
+		rarity = 3,
+		name = "おひさまアイランド",
+		unlock_tips = "",
+		type = 5,
+		room_id = 11,
+		desc = "クラシックなファブリックソファ。ふんわり柔らかな座り心地。\n午後の陽射しがそっと差し込むとき、\nここはうたた寝にぴったりな浮島になる。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1103,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051720
+			}
+		},
+		shop_id = {}
+	},
+	[1104] = {
+		rarity = 2,
+		name = "プラネットナイトライト",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "惑星をモチーフにしたランプ。夜になると、淡くぼんやりと光を放つ。\n深い宇宙のどこかに、きっとひとつ——\n君を静かに見守る、消えない星がある。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical03",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1104,
+		target_slots = {
+			1110101
+		},
+		shop_id = {}
+	},
+	[1105] = {
+		rarity = 2,
+		name = "ラインアートパネル",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "線が描き出すミニマリズム、重なり合う幾何学的が織りなす独特の美しさ。インテリアに躍動感のある雰囲気を醸し出す。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1105,
+		target_slots = {
+			1110301
+		},
+		shop_id = {}
+	},
+	[1106] = {
+		rarity = 2,
+		name = "サイレントブルー",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "スイッチをゆっくりひねると、やわらかな光が流れるように溢れ出す。\nクラゲの群れが深い青の虚空をゆらゆらと泳ぐ幻想の光景。\nこの夢のような海に想いを馳せたのは……いつからだっただろう。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_fishtank01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1106,
+		target_slots = {
+			1110302
+		},
+		shop_id = {}
+	},
+	[1107] = {
+		rarity = 2,
+		name = "電子レンジ",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "便利で手軽な加熱器具。朝食にもアフタヌーンティーにも熱々のものを提供してくれる。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical04",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1107,
+		target_slots = {
+			1110201
+		},
+		shop_id = {}
+	},
+	[1108] = {
+		rarity = 2,
+		name = "緑の盆栽",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "ビジュアル的に環境改善するだけでなく、空気も浄化してくれる。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_pottedplant01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture9",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1108,
+		target_slots = {
+			1110202
+		},
+		shop_id = {}
+	},
+	[1151] = {
+		rarity = 4,
+		name = "星空のコーナー",
+		type = 5,
+		room_id = 11,
+		desc = "未来感あふれる最新型シート。室温自動調整機能付き。\nいつでも冷えたドリンクが飲め、快適さとおもてなしの極みを体現してくれる空間。",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture1",
+		acesses = "",
+		id = 1151,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051740
+			}
+		},
+		shop_id = {
+			271101
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1151"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -835,6 +1052,17 @@ pg.dorm3d_furniture_template = {
 			307,
 			321,
 			322
+		},
+		[11] = {
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1151
 		}
 	},
 	all = {
@@ -868,6 +1096,15 @@ pg.dorm3d_furniture_template = {
 		306,
 		307,
 		321,
-		322
+		322,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1151
 	}
 }
