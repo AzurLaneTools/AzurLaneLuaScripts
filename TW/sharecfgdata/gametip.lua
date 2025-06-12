@@ -16310,6 +16310,11 @@ _G.pg.base.gametip.msgbox_repair_painting = {
 }
 
 
+_G.pg.base.gametip.l2d_32xbanned_warning = {
+	tip = "目前設備系統架構無法顯示live2D檔案，僅展示靜態檔案"
+}
+
+
 _G.pg.base.gametip.word_no_cache = {
 	tip = "沒有需要修復的資源"
 }
@@ -35606,7 +35611,7 @@ _G.pg.base.gametip.maintenance_message_stop_text = {
 
 
 _G.pg.base.gametip.task_get = {
-	tip = "领取"
+	tip = "領取 "
 }
 
 

@@ -17,7 +17,7 @@ slot0.GetDefaultValue = function(slot0)
 end
 
 slot0.OnSwitch = function(slot0, slot1)
-	if ShipGroup.GetChangeSkinData(slot0.ship.skinId) and true or false then
+	if (ShipGroup.GetChangeSkinData(slot0.ship.skinId) and true or false) and not Live2dConst.GetLive2DArm32MatchAble() then
 		getProxy(SettingsProxy):setCharacterSetting(slot0.ship.id, SHIP_FLAG_L2D, slot1)
 	end
 

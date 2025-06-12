@@ -445,7 +445,7 @@ return {
 			actor = 205160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼哼~$閣下，這可是太陽船所搭載的秘密兵器哦，原理請原諒我不能透露。",
+			say = "哼哼~{playername}閣下，這可是太陽船所搭載的秘密兵器哦，原理請原諒我不能透露。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

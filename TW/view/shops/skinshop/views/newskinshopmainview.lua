@@ -297,9 +297,17 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 		slot0.isToggleDynamic = false
 	elseif slot0.isToggleDynamic and not slot0.dynamicToggle:GetComponent(typeof(Toggle)).isOn then
-		triggerToggle(slot0.dynamicToggle, true)
+		if slot2:IsLive2d() and Live2dConst.GetLive2DArm32MatchAble() then
+			slot0.isToggleDynamic = false
 
-		slot0.isToggleDynamic = true
+			PlayerPrefs.SetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0)
+			PlayerPrefs.Save()
+			triggerToggle(slot0.dynamicToggle, false)
+		else
+			triggerToggle(slot0.dynamicToggle, true)
+
+			slot0.isToggleDynamic = true
+		end
 	end
 
 	if slot3 then
@@ -313,13 +321,20 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 	if slot2:IsSpine() or slot2:IsLive2d() then
 		onToggle(slot0, slot0.dynamicToggle, function (slot0)
-			uv0.isToggleDynamic = slot0
+			if slot0 and Live2dConst.GetLive2DArm32MatchAble() and uv0:IsLive2d() then
+				Live2dConst.ShowLive2DArm32Tips()
+				triggerToggle(uv1.dynamicToggle, false)
 
-			setActive(uv0.dynamicResToggle, slot0)
-			setActive(uv0.showBgToggle, not slot0 and uv1)
-			uv0:FlushPainting(uv2)
-			uv0:FlushDynamicPaintingResState(uv2)
-			uv0:RecordFlag(slot0)
+				return
+			end
+
+			uv1.isToggleDynamic = slot0
+
+			setActive(uv1.dynamicResToggle, slot0)
+			setActive(uv1.showBgToggle, not slot0 and uv2)
+			uv1:FlushPainting(uv3)
+			uv1:FlushDynamicPaintingResState(uv3)
+			uv1:RecordFlag(slot0)
 		end, SFX_PANEL)
 	end
 

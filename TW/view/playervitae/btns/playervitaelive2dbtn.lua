@@ -71,11 +71,29 @@ slot0.StartCheckUpdate = function(slot0, slot1)
 end
 
 slot0.GetDefaultValue = function(slot0)
+	slot1 = getProxy(SettingsProxy):getCharacterSetting(slot0.ship.id, SHIP_FLAG_L2D)
+
+	if Live2dConst.GetLive2DArm32MatchAble() then
+		if slot1 then
+			slot0:OnSwitch(false)
+		end
+
+		return false
+	end
+
 	return getProxy(SettingsProxy):getCharacterSetting(slot0.ship.id, SHIP_FLAG_L2D)
 end
 
 slot0.OnSwitch = function(slot0, slot1)
-	if ShipGroup.GetChangeSkinData(slot0.ship.skinId) and true or false then
+	slot2 = ShipGroup.GetChangeSkinData(slot0.ship.skinId) and true or false
+
+	if Live2dConst.GetLive2DArm32MatchAble() and slot1 then
+		Live2dConst.ShowLive2DArm32Tips()
+
+		return false
+	end
+
+	if slot2 then
 		getProxy(SettingsProxy):setCharacterSetting(slot0.ship.id, SHIP_FLAG_SP, slot1)
 	end
 

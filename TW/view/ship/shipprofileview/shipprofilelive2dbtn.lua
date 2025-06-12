@@ -13,6 +13,10 @@ slot0.Ctor = function(slot0, slot1)
 end
 
 slot0.Update = function(slot0, slot1, slot2)
+	if Live2dConst.GetLive2DArm32MatchAble() then
+		slot2 = false
+	end
+
 	slot0.paintingName = slot1
 	slot0.isOn = slot2
 	slot4 = HXSet.autoHxShiftPath("live2d/" .. slot1, nil, true)
@@ -77,6 +81,10 @@ slot0.OnUpdated = function(slot0, slot1, slot2)
 	setActive(slot0.live2dOn, slot2)
 	setActive(slot0.live2dOff, not slot2)
 	onButton(slot0, slot0.live2dBtn, function ()
+		if Live2dConst.GetLive2DArm32MatchAble() then
+			Live2dConst.ShowLive2DArm32Tips()
+		end
+
 		uv0:Update(uv0.paintingName, not uv0.isOn)
 	end, SFX_PANEL)
 

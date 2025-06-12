@@ -109,7 +109,18 @@ slot0.init = function(slot0)
 		slot0.itemToggle
 	}
 
-	slot0:createLive2D()
+	if Live2dConst.GetLive2DArm32MatchAble() then
+		slot8 = Ship.New({
+			configId = 312011
+		})
+		slot9 = slot8:getPainting()
+
+		LoadPaintingPrefabAsync(slot0.painting, slot9, slot9, "mainNormal", function ()
+			uv0.loading = false
+		end)
+	else
+		slot0:createLive2D()
+	end
 
 	slot0.live2dTimer = Timer.New(function ()
 		slot0 = pg.ChargeShipTalkInfo.Actions

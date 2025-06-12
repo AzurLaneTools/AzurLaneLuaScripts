@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			say = "陛下……這座小島的情況，看起來情況不妙。",
 			location = {
-				"？？？·列车停泊地",
+				"？？？·列車停泊地",
 				3
 			},
 			typewriter = {

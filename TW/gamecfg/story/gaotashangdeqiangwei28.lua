@@ -70,7 +70,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你猜到了？",
+			say = "妳猜到了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -2,7 +2,7 @@ pg = pg or {}
 pg.music_collect_config = {
 	{
 		music = "bgm-bsm-1",
-		name = "起航~Weigh Anchor~",
+		name = "災厄之始",
 		unlock_other = 0,
 		album_name = "鐵血、音符&誓言",
 		music_time = 108266,
@@ -17,7 +17,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-bsm-2",
-		name = "港區",
+		name = "過去的觀測者",
 		unlock_other = 0,
 		album_name = "鐵血、音符&誓言",
 		music_time = 126166,
@@ -32,7 +32,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-bsm-3",
-		name = "悠哉一刻",
+		name = "背水一戰",
 		unlock_other = 0,
 		album_name = "鐵血、音符&誓言",
 		music_time = 122000,
@@ -47,7 +47,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-bsm-9",
-		name = "日常",
+		name = "危機",
 		unlock_other = 0,
 		album_name = "鐵血、音符&誓言",
 		music_time = 65666,
@@ -62,7 +62,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-story-italy",
-		name = "思緒",
+		name = "神聖的悲喜劇",
 		unlock_other = 0,
 		album_name = "神聖的悲喜劇",
 		music_time = 118000,
@@ -77,7 +77,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-battle-italy",
-		name = "旅程",
+		name = "虛妄與榮光",
 		unlock_other = 0,
 		album_name = "神聖的悲喜劇",
 		music_time = 91633,
@@ -92,7 +92,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-battle-boss-italy",
-		name = "蔚藍之風",
+		name = "黃昏的祈禱",
 		unlock_other = 0,
 		album_name = "神聖的悲喜劇",
 		music_time = 98000,
@@ -107,7 +107,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-theme-bismark-reborn",
-		name = "所羅門之夜",
+		name = "浴火而行",
 		unlock_other = 0,
 		album_name = "空相交會點",
 		music_time = 128002,
@@ -122,7 +122,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-battle-siren-centraltower",
-		name = "激戰",
+		name = "自律式作戰系統",
 		unlock_other = 0,
 		album_name = "空相交會點",
 		music_time = 90000,
@@ -137,7 +137,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-battle-thedevilXV-control",
-		name = "決意",
+		name = "惡魔的裁決",
 		unlock_other = 0,
 		album_name = "空相交會點",
 		music_time = 91428,
@@ -152,7 +152,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-theme-thehermitIX",
-		name = "使命",
+		name = "仲裁者赫米忒",
 		unlock_other = 0,
 		album_name = "空相交會點",
 		music_time = 100645,
@@ -167,7 +167,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-theme-thetowerXVI",
-		name = "DISPOSE THE PAWNS",
+		name = "仲裁者托瓦",
 		unlock_other = 0,
 		album_name = "空相交會點",
 		music_time = 93333,
@@ -182,7 +182,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-theme-ulrich",
-		name = "誓約之時",
+		name = "智者與蜘蛛",
 		unlock_other = 0,
 		album_name = "空相交會點",
 		music_time = 139701,
@@ -197,7 +197,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-story-bismark-determination",
-		name = "櫻舞",
+		name = "鐵與血之路",
 		unlock_other = 0,
 		album_name = "空相交會點",
 		music_time = 62502,
@@ -212,7 +212,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-theme-SeaAndSun-image",
-		name = "危機",
+		name = "起航的冒險者",
 		unlock_other = 0,
 		album_name = "海風與夏日的無人島",
 		music_time = 90000,
@@ -227,7 +227,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-theme-SeaAndSun-soft",
-		name = "破曉",
+		name = "平靜的海",
 		unlock_other = 0,
 		album_name = "海風與夏日的無人島",
 		music_time = 89638,
@@ -242,7 +242,7 @@ pg.music_collect_config = {
 	},
 	{
 		music = "bgm-theme-tempest",
-		name = "意志",
+		name = "黃金鹿與白銀蛸",
 		unlock_other = 0,
 		album_name = "海風與夏日的無人島",
 		music_time = 151500,

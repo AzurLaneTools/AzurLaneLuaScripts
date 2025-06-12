@@ -11,7 +11,7 @@ return {
 			hidePaintObj = true,
 			say = "離開列車中的華麗車廂，眾人重新回到了荒蕪之中。",
 			location = {
-				"第五战区·目标建筑群废墟周边",
+				"第五戰區·目標建築群廢墟周邊",
 				3
 			},
 			typewriter = {

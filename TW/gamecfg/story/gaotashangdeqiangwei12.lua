@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			say = "在D小姐以及D小姐語音包的雙重提醒中，車門緩緩開啟。",
 			location = {
-				"银镜湖·「鲸鱼」内部",
+				"銀鏡湖·「鯨魚」內部",
 				3
 			},
 			typewriter = {

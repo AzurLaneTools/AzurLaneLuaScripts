@@ -155,7 +155,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "好，問吧。問完之後本王也有問題要問你們。",
+			say = "好，問吧。問完之後本王也有問題要問妳們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1029,7 +1029,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "呃……你們這個車內廣播，有些獨特啊。",
+			say = "呃……妳們這個車內廣播，有些獨特啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

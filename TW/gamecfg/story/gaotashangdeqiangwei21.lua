@@ -621,11 +621,11 @@ return {
 					flag = 1
 				},
 				{
-					content = "你是……？",
+					content = "妳是……？",
 					flag = 2
 				},
 				{
-					content = "你们是……？",
+					content = "妳們是……？",
 					flag = 3
 				}
 			}
