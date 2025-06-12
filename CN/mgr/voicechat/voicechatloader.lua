@@ -15,6 +15,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.respondBtn = slot0:findTF("front/btns/respond")
 	slot0.closeBtn = slot0:findTF("front/btns/close_btn")
 	slot0.optionPanel = slot0._tf:Find("front/options_panel")
+	slot0.bg = slot0._tf:Find("back")
 	slot0.bgImg = slot0._tf:Find("back/bg"):GetComponent(typeof(Image))
 	slot0.player = VoiceChatPlayer.New(slot0._go)
 	slot0.state = uv0
@@ -50,7 +51,7 @@ slot0.Play = function(slot0, slot1, slot2)
 	slot4 = {}
 
 	table.insert(slot4, function (slot0)
-		uv0:WaitForRespond(uv1, slot0)
+		uv0:WaitForRespond(uv1, slot0, uv2)
 	end)
 	table.insert(slot4, function (slot0)
 		uv0:StartAction(uv1)
@@ -85,10 +86,11 @@ slot0.InitAction = function(slot0, slot1)
 	removeOnButton(slot0.respondBtn)
 	removeOnButton(slot0.closeBtn)
 	setActive(slot0.optionPanel, false)
+	setActive(slot0.bg, slot1:HasBg())
 	slot0:Show()
 
-	if slot1:GetBgName() then
-		slot0.bgImg.sprite = LoadSprite("bg/" .. slot2)
+	if slot1:HasBg() then
+		slot0.bgImg.sprite = LoadSprite("bg/" .. slot1:GetBgName())
 
 		slot0.bgImg:SetNativeSize()
 	end
@@ -96,16 +98,27 @@ slot0.InitAction = function(slot0, slot1)
 	slot0.player:OnStart()
 end
 
-slot0.WaitForRespond = function(slot0, slot1, slot2)
+slot0.WaitForRespond = function(slot0, slot1, slot2, slot3)
 	setActive(slot0.respondBtn, true)
 	setActive(slot0.closeBtn, true)
 
-	slot0.stateTxt.text = i18n("dorm3d_VIDEO_CHAT_LABEL", slot1:GetShipName())
+	slot0.stateTxt.text = i18n(slot1:GetLabel(), slot1:GetShipName())
 	slot0.stateEnTxt.text = "P R I V A T E C H A T"
 
 	onButton(slot0, slot0.respondBtn, slot2, SFX_PANEL)
 	onButton(slot0, slot0.closeBtn, function ()
-		uv0:Stop()
+		slot0 = uv0.closeBtn
+		slot0 = slot0:GetComponent(typeof(Animation))
+
+		slot0:Play("anim_close_btn_hang")
+
+		slot1 = uv0.closeBtn
+		slot1 = slot1:GetComponent(typeof(DftAniEvent))
+
+		slot1:SetEndEvent(function ()
+			uv0:Stop()
+			existCall(uv1)
+		end)
 	end, SFX_PANEL)
 end
 
@@ -123,6 +136,10 @@ slot0.StartAction = function(slot0, slot1)
 		uv1.timeTxt.text = uv2(uv0)
 	end)
 	setActive(slot0.respondBtn, false)
+
+	if slot1:ShouldStopBgm() then
+		pg.BgmMgr.GetInstance():StopPlay()
+	end
 end
 
 slot0.WaitForHangUp = function(slot0, slot1)
@@ -137,6 +154,11 @@ slot0.EndAction = function(slot0)
 	slot0:RemoveWaitTimer()
 	slot0:RemoveTimer()
 	slot0:Hide()
+
+	if slot0.script:ShouldStopBgm() then
+		pg.BgmMgr.GetInstance():ContinuePlay()
+	end
+
 	slot0.player:OnEnd()
 
 	slot0.script = nil
@@ -170,6 +192,10 @@ slot0.OnDestroy = function(slot0)
 
 	slot0:RemoveWaitTimer()
 	slot0:RemoveTimer()
+
+	if slot0.player then
+		slot0.player:Clear()
+	end
 end
 
 slot0.AddTimer = function(slot0, slot1, slot2)

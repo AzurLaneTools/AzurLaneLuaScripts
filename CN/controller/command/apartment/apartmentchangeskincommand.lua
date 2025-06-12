@@ -3,11 +3,7 @@ slot0 = class("ApartmentChangeSkinCommand", pm.SimpleCommand)
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
 
-	if slot2.skinId == getProxy(ApartmentProxy):getApartment(slot2.groupId):getConfig("skin_model") then
-		slot4 = 0
-	end
-
-	if slot6.skinId == slot4 then
+	if getProxy(ApartmentProxy):getApartment(slot2.groupId).skinId == slot2.skinId then
 		return
 	end
 
@@ -18,11 +14,11 @@ slot0.execute = function(slot0, slot1)
 		skin = slot4
 	}, 28014, function (slot0)
 		if slot0.result == 0 then
-			uv0 = uv1:getApartment(uv2)
-			uv0.skinId = uv3
-
-			uv1:updateApartment(uv0)
-			uv4:sendNotification(GAME.APARTMENT_CHANGE_SKIN_DONE, uv0)
+			uv0:ModifyApartment(uv1, {
+				skinId = uv2
+			})
+			uv3:sendNotification(GAME.APARTMENT_CHANGE_SKIN_DONE, uv0:getApartment(uv1))
+			pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataChangeSkin(uv2))
 		else
 			pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 		end

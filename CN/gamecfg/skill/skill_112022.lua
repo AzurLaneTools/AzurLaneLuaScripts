@@ -6,7 +6,7 @@ return {
 	desc = "",
 	painting = 1,
 	id = 112022,
-	castCV = "",
+	castCV = "skill",
 	aniEffect = {
 		effect = "jineng",
 		offset = {

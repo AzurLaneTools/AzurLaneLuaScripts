@@ -25,6 +25,16 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				tag = "stuned"
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
 				tag = "MJDE1AIM"
 			}
 		}

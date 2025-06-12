@@ -26,8 +26,10 @@ end
 slot0.SetTopics = function(slot0, slot1)
 	slot0.topics = {}
 	slot0.allTopicIds = uv0.get_id_list_by_ship_group[slot0.characterId]
+	slot2 = ipairs
+	slot3 = slot0.allTopicIds or {}
 
-	for slot5, slot6 in ipairs(slot0.allTopicIds) do
+	for slot5, slot6 in slot2(slot3) do
 		if uv0[slot6].type == "1" then
 			slot7 = nil
 

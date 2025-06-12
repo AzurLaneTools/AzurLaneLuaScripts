@@ -175,13 +175,13 @@ slot0.execute = function(slot0, slot1)
 			slot0:sendNotification(TaskMediator.TASK_FILTER, "weekly")
 		end
 	elseif slot9 == 10 then
-		if (slot10 == 4 or slot10 == 5) and getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot11:isEnd() then
+		if slot10 == 4 or slot10 == 5 then
 			slot0:sendNotification(GAME.GO_SCENE, SCENE.MAINUI, {
 				subContext = Context.New({
 					viewComponent = InstagramLayer,
 					mediator = InstagramMediator,
 					data = {
-						id = slot11.id
+						id = act.id
 					}
 				})
 			})

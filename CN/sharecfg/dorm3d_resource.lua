@@ -6,33 +6,32 @@ pg.dorm3d_resource = {
 		type = 1,
 		animator = "",
 		picture = "regular",
+		shop_id = 0,
 		unlock = "",
 		unlock_text = "",
 		model_id = "tianlangxing_noshoes",
+		remarks = "",
+		switch_anim = "",
 		id = 202201,
 		head_Icon = "dorm3Dchar/tianlangxing",
-		unlock = {
-			1,
-			20220,
-			1
-		},
-		tags = {}
+		wear_anim = "",
+		tags = {},
+		hidden_part = {}
 	},
 	[202202] = {
 		ship_group = 20220,
 		name = "天狼星泳装",
-		type = 1,
+		type = 2,
 		animator = "",
 		picture = "regular",
+		shop_id = 270110,
 		unlock_text = "在沙滩中邀请天狼星解锁",
 		model_id = "tianlangxing_swim",
+		remarks = "",
+		switch_anim = "ganjin",
 		id = 202202,
 		head_Icon = "dorm3Dchar/tianlangxing",
-		unlock = {
-			1,
-			20220,
-			1
-		},
+		wear_anim = "diantou",
 		tags = {
 			"beach",
 			"touch"
@@ -41,7 +40,8 @@ pg.dorm3d_resource = {
 			5,
 			4,
 			20220
-		}
+		},
+		hidden_part = {}
 	},
 	[302211] = {
 		ship_group = 30221,
@@ -49,33 +49,32 @@ pg.dorm3d_resource = {
 		type = 1,
 		animator = "",
 		picture = "regular",
+		shop_id = 0,
 		unlock = "",
 		unlock_text = "",
 		model_id = "nengdai_noshoes",
+		remarks = "",
+		switch_anim = "",
 		id = 302211,
 		head_Icon = "dorm3Dchar/nengdai",
-		unlock = {
-			1,
-			30221,
-			1
-		},
-		tags = {}
+		wear_anim = "",
+		tags = {},
+		hidden_part = {}
 	},
 	[302212] = {
 		ship_group = 30221,
 		name = "能代泳装",
-		type = 1,
+		type = 2,
 		animator = "",
 		picture = "regular",
+		shop_id = 270111,
 		unlock_text = "在沙滩中邀请能代解锁",
 		model_id = "nengdai_swim",
+		remarks = "",
+		switch_anim = "shuohua_chuaishou",
 		id = 302212,
 		head_Icon = "dorm3Dchar/nengdai",
-		unlock = {
-			1,
-			30221,
-			1
-		},
+		wear_anim = "shuohua_sikao",
 		tags = {
 			"beach",
 			"touch"
@@ -84,7 +83,8 @@ pg.dorm3d_resource = {
 			5,
 			4,
 			30221
-		}
+		},
+		hidden_part = {}
 	},
 	[199031] = {
 		ship_group = 19903,
@@ -92,33 +92,32 @@ pg.dorm3d_resource = {
 		type = 1,
 		animator = "",
 		picture = "regular",
+		shop_id = 0,
 		unlock = "",
 		unlock_text = "",
 		model_id = "ankeleiqi_noshoes",
+		remarks = "",
+		switch_anim = "",
 		id = 199031,
 		head_Icon = "dorm3Dchar/ankeleiqi",
-		unlock = {
-			1,
-			19903,
-			1
-		},
-		tags = {}
+		wear_anim = "",
+		tags = {},
+		hidden_part = {}
 	},
 	[199032] = {
 		ship_group = 19903,
 		name = "安克雷奇泳装",
-		type = 1,
+		type = 2,
 		animator = "",
 		picture = "regular",
+		shop_id = 270112,
 		unlock_text = "在沙滩中邀请安克雷奇解锁",
 		model_id = "ankeleiqi_swim",
+		remarks = "",
+		switch_anim = "",
 		id = 199032,
 		head_Icon = "dorm3Dchar/ankeleiqi",
-		unlock = {
-			1,
-			19903,
-			1
-		},
+		wear_anim = "",
 		tags = {
 			"beach",
 			"touch"
@@ -127,6 +126,62 @@ pg.dorm3d_resource = {
 			5,
 			4,
 			19903
+		},
+		hidden_part = {}
+	},
+	[105171] = {
+		ship_group = 10517,
+		name = "新泽西常服",
+		type = 1,
+		animator = "",
+		picture = "regular",
+		shop_id = 0,
+		unlock = "",
+		unlock_text = "",
+		model_id = "xinzexi_noshoes",
+		remarks = "",
+		switch_anim = "",
+		id = 105171,
+		head_Icon = "dorm3Dchar/xinzexi",
+		wear_anim = "",
+		tags = {},
+		hidden_part = {
+			{
+				1,
+				"oversleeve",
+				"all/hoodie_geo"
+			}
+		}
+	},
+	[105173] = {
+		ship_group = 10517,
+		name = "新泽西兔女郎",
+		type = 2,
+		animator = "",
+		picture = "regular",
+		shop_id = 270113,
+		unlock_text = "在咖啡馆中购买角色皮肤",
+		model_id = "xinzexi_bunny",
+		remarks = "",
+		switch_anim = "",
+		id = 105173,
+		head_Icon = "dorm3Dchar/tianlangxing",
+		wear_anim = "",
+		tags = {
+			"cafe",
+			"touch"
+		},
+		unlock = {
+			5,
+			16,
+			10517
+		},
+		hidden_part = {
+			{
+				1,
+				"skirthem",
+				"all/cloth_2_geo"
+			}
 		}
 	},
 	get_id_list_by_ship_group = {
@@ -141,6 +196,10 @@ pg.dorm3d_resource = {
 		[19903] = {
 			199031,
 			199032
+		},
+		[10517] = {
+			105171,
+			105173
 		}
 	},
 	all = {
@@ -149,6 +208,8 @@ pg.dorm3d_resource = {
 		302211,
 		302212,
 		199031,
-		199032
+		199032,
+		105171,
+		105173
 	}
 }

@@ -120,6 +120,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100303_icon"
 	},
+	[101101] = {
+		get_tips = "获得了新的契合度封面",
+		name = "闲憩怡然",
+		nighttime_res = "101101_bg_night",
+		daytime_res = "101101_bg_day",
+		rarity = 3,
+		desc = "获得后可以在生活区封面功能中解锁闲憩怡然封面",
+		unlock_text = "新泽西宿舍契合度2级解锁",
+		id = 101101,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101101_icon"
+	},
+	[101102] = {
+		get_tips = "获得了新的契合度封面",
+		name = "暖阳欢颜",
+		nighttime_res = "101102_bg_night",
+		daytime_res = "101102_bg_day",
+		rarity = 3,
+		desc = "获得后可以在生活区封面功能中解锁暖阳欢颜封面",
+		unlock_text = "新泽西宿舍契合度7级解锁",
+		id = 101102,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101102_icon"
+	},
+	[101103] = {
+		get_tips = "获得了新的契合度封面",
+		name = "甜蜜絮语",
+		nighttime_res = "101103_bg_night",
+		daytime_res = "101103_bg_day",
+		rarity = 3,
+		desc = "获得后可以在生活区封面功能中解锁甜蜜絮语封面",
+		unlock_text = "新泽西宿舍契合度10级解锁",
+		id = 101103,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101103_icon"
+	},
 	all = {
 		0,
 		100101,
@@ -130,6 +166,9 @@ pg.livingarea_cover = {
 		100203,
 		100301,
 		100302,
-		100303
+		100303,
+		101101,
+		101102,
+		101103
 	}
 }

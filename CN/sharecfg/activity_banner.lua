@@ -1,8 +1,144 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		type = 2,
+		param = "7502",
+		type = 3,
 		id = 1,
+		pic = "temp1",
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		param = "5994",
+		type = 3,
+		id = 2,
+		pic = "temp2",
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp8",
+		param = {
+			"scene dailylevel"
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 4,
+		pic = "temp9",
+		param = {
+			"scene equip",
+			{
+				designPage = 2,
+				warp = "WARP_TO_DESIGN"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
 		pic = "temp3",
 		param = {
 			"scene skinshop",
@@ -37,7 +173,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
+		id = 6,
 		pic = "temp4",
 		param = {
 			"scene charge",
@@ -75,7 +211,7 @@ pg.activity_banner = {
 	{
 		param = "BRSCoreActivityUI",
 		type = 16,
-		id = 3,
+		id = 7,
 		pic = "temp5",
 		time = {
 			{
@@ -107,7 +243,7 @@ pg.activity_banner = {
 	{
 		param = "5990",
 		type = 3,
-		id = 4,
+		id = 8,
 		pic = "temp6",
 		time = {
 			{
@@ -127,148 +263,6 @@ pg.activity_banner = {
 					2025,
 					6,
 					19
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp8",
-		param = {
-			"equip transform"
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp9",
-		param = {
-			"game hall"
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp1",
-		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					5,
-					29
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					11
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp2",
-		param = {
-			"scene charge",
-			{
-				wrap = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					5,
-					20
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					12
 				},
 				{
 					12,
@@ -401,20 +395,20 @@ pg.activity_banner = {
 		pic = "winter"
 	},
 	get_id_list_by_type = {
-		[2] = {
+		[3] = {
 			1,
 			2,
+			8
+		},
+		[2] = {
+			3,
+			4,
 			5,
 			6,
-			7,
-			8,
 			9
 		},
 		[16] = {
-			3
-		},
-		[3] = {
-			4
+			7
 		},
 		[9] = {
 			90,

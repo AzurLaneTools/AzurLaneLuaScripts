@@ -100,6 +100,56 @@ pg.dorm3d_ins_language = {
 		key = "ankeleiqi_2_2_1",
 		is_active = "0"
 	},
+	xinzexi_1 = {
+		value = "喝到了过于苦涩的东西，果然不该去尝试的！",
+		key = "xinzexi_1",
+		is_active = "0"
+	},
+	xinzexi_1_1 = {
+		value = "喝到了什么这么苦，人没事吧？",
+		key = "xinzexi_1_1",
+		is_active = "0"
+	},
+	xinzexi_1_1_1 = {
+		value = "人有事，要被苦死了，需要Honey照顾我——",
+		key = "xinzexi_1_1_1",
+		is_active = "0"
+	},
+	xinzexi_1_2 = {
+		value = "有没有什么治疗苦涩的良药？",
+		key = "xinzexi_1_2",
+		is_active = "0"
+	},
+	xinzexi_1_2_1 = {
+		value = "那当然是Honey带的果汁，只要喝一口就能把苦味都冲下去的！",
+		key = "xinzexi_1_2_1",
+		is_active = "0"
+	},
+	xinzexi_2 = {
+		value = "该给Honey做点什么好呢~",
+		key = "xinzexi_2",
+		is_active = "0"
+	},
+	xinzexi_2_1 = {
+		value = "做点自己喜欢做的事吧？",
+		key = "xinzexi_2_1",
+		is_active = "0"
+	},
+	xinzexi_2_1_1 = {
+		value = "自己想做的事以前都做过啦，现在和以后都是和Honey在一起的时间~",
+		key = "xinzexi_2_1_1",
+		is_active = "0"
+	},
+	xinzexi_2_2 = {
+		value = "能有你陪在身边已经很好了",
+		key = "xinzexi_2_2",
+		is_active = "0"
+	},
+	xinzexi_2_2_1 = {
+		value = "只是陪伴可不够哦~应该做些更愉快、更有意义的事才对！比如双人旅行怎么样？",
+		key = "xinzexi_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -120,6 +170,16 @@ pg.dorm3d_ins_language = {
 		"ankeleiqi_1_1_1",
 		"ankeleiqi_1_2_1",
 		"ankeleiqi_2_1_1",
-		"ankeleiqi_2_2_1"
+		"ankeleiqi_2_2_1",
+		"xinzexi_1",
+		"xinzexi_1_1",
+		"xinzexi_1_1_1",
+		"xinzexi_1_2",
+		"xinzexi_1_2_1",
+		"xinzexi_2",
+		"xinzexi_2_1",
+		"xinzexi_2_1_1",
+		"xinzexi_2_2",
+		"xinzexi_2_2_1"
 	}
 }

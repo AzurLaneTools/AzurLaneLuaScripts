@@ -2350,3 +2350,13 @@ slot9.ActiveFreezeUnit = function(slot0, slot1)
 		slot2:ActiveFreezeUnit(slot1)
 	end
 end
+
+slot9.GetFleetLegal = function(slot0, slot1, slot2)
+	if slot2 == SYSTEM_DUEL or slot2 == SYSTEM_PERFORM or slot2 == SYSTEM_SUB_ROUTINE or slot2 == SYSTEM_CARDPUZZLE or slot2 == SYSTEM_PROLOGUE or slot2 == SYSTEM_DODGEM or slot2 == SYSTEM_SIMULATION or slot2 == SYSTEM_SUBMARINE_RUN or slot2 == SYSTEM_DEBUG or slot2 == SYSTEM_AIRFIGHT then
+		return true
+	elseif #slot0:GetFleetByIFF(slot1):GetScoutList() == 0 or not slot3:GetFlagShip():IsAlive() then
+		return false
+	else
+		return true
+	end
+end

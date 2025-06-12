@@ -798,6 +798,223 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[1101] = {
+		rarity = 3,
+		name = "兔兔摇篮",
+		unlock_tips = "",
+		type = 4,
+		room_id = 11,
+		desc = "注重体验的舒适大床，结构稳定，坚固耐用。抱着柔软的兔兔抱枕入睡，或许会梦见星河下的胡萝卜庄园？",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1101,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051730
+			}
+		},
+		shop_id = {}
+	},
+	[1102] = {
+		rarity = 3,
+		name = "极冰纪元",
+		unlock_tips = "",
+		type = 6,
+		room_id = 11,
+		desc = "以简约线条勾勒未来美学，搭载澎湃制冷系统。提供酸素可乐畅饮，为生活注入冰爽与惬意。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1102,
+		target_slots = {
+			1110203
+		},
+		touch_id = {
+			{
+				10517,
+				1051710
+			}
+		},
+		shop_id = {}
+	},
+	[1103] = {
+		rarity = 3,
+		name = "日光棉岛",
+		unlock_tips = "",
+		type = 5,
+		room_id = 11,
+		desc = "一款经典的布艺沙发，质感蓬松柔软。每当午后阳光洒落其上，这里就是最适合打盹的一小块漂浮陆地。",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1103,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051720
+			}
+		},
+		shop_id = {}
+	},
+	[1104] = {
+		rarity = 2,
+		name = "惑星夜灯",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "形似行星的台灯，在夜晚静静发出朦胧微光。深空之中，总有一颗不熄灭的星星在静静守候着你。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical03",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1104,
+		target_slots = {
+			1110101
+		},
+		shop_id = {}
+	},
+	[1105] = {
+		rarity = 2,
+		name = "装饰画",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "精美的装饰画，为咖啡店增添艺术气息和美感，让咖啡时光更具温馨。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1105,
+		target_slots = {
+			1110301
+		},
+		shop_id = {}
+	},
+	[1106] = {
+		rarity = 2,
+		name = "静谧深蓝",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "轻轻拧动开关，柔光如流水般漫溢而出，水母群浮游于深蓝色的虚空。是从何时……坠入了这如梦似幻的海洋？",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_fishtank01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1106,
+		target_slots = {
+			1110302
+		},
+		shop_id = {}
+	},
+	[1107] = {
+		rarity = 2,
+		name = "微波炉",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "方便快捷的加热工具，无论是早餐还是下午茶，都能让美食保持温暖，为每一餐增添一份贴心的关怀。",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical04",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1107,
+		target_slots = {
+			1110201
+		},
+		shop_id = {}
+	},
+	[1108] = {
+		rarity = 2,
+		name = "绿意盆栽",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "别小看它，美化环境的同时还能净化空气哦~",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_pottedplant01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture9",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1108,
+		target_slots = {
+			1110202
+		},
+		shop_id = {}
+	},
+	[1151] = {
+		rarity = 4,
+		name = "星空一隅",
+		type = 5,
+		room_id = 11,
+		desc = "未来感十足的新概念卡座，同步配置了智能控温功能。24小时供应冰镇饮品，诠释对服务和舒适的极致追求。",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture1",
+		acesses = "",
+		id = 1151,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051740
+			}
+		},
+		shop_id = {
+			271101
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1151"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -835,6 +1052,17 @@ pg.dorm3d_furniture_template = {
 			307,
 			321,
 			322
+		},
+		[11] = {
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1151
 		}
 	},
 	all = {
@@ -868,6 +1096,15 @@ pg.dorm3d_furniture_template = {
 		306,
 		307,
 		321,
-		322
+		322,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1151
 	}
 }

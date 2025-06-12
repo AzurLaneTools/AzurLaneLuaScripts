@@ -565,7 +565,7 @@ slot0.LoadPainting = function(slot0, slot1, slot2, slot3)
 	slot4, slot5, slot6, slot7 = slot0:GetSideTF(slot1:GetSide())
 	slot8, slot9 = slot1:GetPaintingAndName()
 
-	if slot1:IsLive2dPainting() and checkABExist("live2d/" .. slot9) then
+	if slot1:IsLive2dPainting() and checkABExist("live2d/" .. slot9) and not Live2dConst.GetLive2DArm32MatchAble() then
 		slot0:UpdateLive2dPainting(slot1, slot4, slot2, slot3)
 	elseif slot1:IsSpinePainting() and checkABExist("spinepainting/" .. slot9) then
 		slot0:UpdateSpinePainting(slot1, slot4, slot2, slot3)

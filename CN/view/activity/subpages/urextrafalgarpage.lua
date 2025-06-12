@@ -4,6 +4,7 @@ slot1 = pg.activity_holiday_site
 slot0.OnInit = function(slot0)
 	uv0.super.OnInit(slot0)
 
+	slot0.icon = slot0:findTF("AD/icon")
 	slot0.taskTypeDic = setmetatable({
 		[uv0.MINI_GAME] = function (slot0, slot1)
 			slot4 = getProxy(MiniGameProxy):GetHubByGameId(slot1[1]).count == 0
@@ -19,6 +20,18 @@ slot0.OnInit = function(slot0)
 	}, {
 		__index = slot0.taskTypeDic
 	})
+end
+
+slot0.OnFirstFlush = function(slot0)
+	uv0.super.OnFirstFlush(slot0)
+	setActive(slot0._tasksTF, false)
+	setActive(slot0.icon, false)
+	setActive(slot0._btnHelp, false)
+end
+
+slot0.OnUpdateFlush = function(slot0)
+	uv0.super.OnUpdateFlush(slot0)
+	setGray(slot0._btnExchange, true, true)
 end
 
 return slot0

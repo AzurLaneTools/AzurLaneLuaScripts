@@ -16797,6 +16797,11 @@ _G.pg.base.gametip.msgbox_repair_painting = {
 }
 
 
+_G.pg.base.gametip.l2d_32xbanned_warning = {
+	tip = "当前设备系统架构无法显示live2D资源，仅展示静态资源"
+}
+
+
 _G.pg.base.gametip.word_no_cache = {
 	tip = "没有需要修复的资源"
 }
@@ -30428,13 +30433,13 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "1.活动期间，玩家可获得临时NPC角色「小鹩」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
 		},
 		{
-			info = "2.活动期间，击破普通难度主线第三章及之后章节或活动地图旗舰，可获得「练习情书」，累计「练习情书」可提升临时NPC角色「小鹩」的友好度。（不包括大型作战）"
+			info = "2.活动期间，击破普通难度主线第三章及之后章节，可获得「练习情书」，累计「练习情书」可提升临时NPC角色「小鹩」的友好度。（不包括大型作战）"
 		},
 		{
 			info = "3.上阵「小鹩」参与战斗，且未被击沉，可获得双倍「练习情书」。"
 		},
 		{
-			info = "4.6月7日为止，每日解锁1个可达成的友好度阶段。"
+			info = "4.6月18日为止，每日解锁1个可达成的友好度阶段。"
 		},
 		{
 			info = "5.在活动结束前累计获得1000「练习情书」，达成7个友好度阶段，可领取奖励并将临时角色「小鹩」转化为永久角色。"
@@ -35243,7 +35248,7 @@ _G.pg.base.gametip.dorm3d_role_choose = {
 
 
 _G.pg.base.gametip.dorm3d_beach_buy = {
-	tip = "是否消耗<color=#39bfff>$1</color> 解锁 <color=#169fff>沙滩</color>"
+	tip = "是否消耗<color=#39bfff>$1</color> 解锁 <color=#169fff>$2</color>"
 }
 
 
@@ -37290,6 +37295,11 @@ _G.pg.base.gametip.dorm3d_guide_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_guide_tip2 = {
+	tip = "先去沙滩看看吧"
+}
+
+
 _G.pg.base.gametip.dorm3d_noshiro_table = {
 	tip = "餐厅"
 }
@@ -37325,6 +37335,21 @@ _G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_xinzexi_table = {
+	tip = "餐厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_bed = {
+	tip = "卧室"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "契合度已经到达上限，送礼将不会获得契合度，是否确认赠送？"
 }
@@ -37332,6 +37357,11 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 
 _G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
 	tip = "$1的视频邀请"
+}
+
+
+_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
+	tip = "$1的语音邀请"
 }
 
 
@@ -37440,6 +37470,11 @@ _G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+	tip = "汐语小筑"
+}
+
+
 _G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
 	tip = "今天"
 }
@@ -37471,7 +37506,7 @@ _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
-	tip = "通话记录"
+	tip = "视频记录"
 }
 
 
@@ -37485,6 +37520,11 @@ _G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_video_call = {
+	tip = "视频通话"
+}
+
+
 _G.pg.base.gametip.dorm3d_ins_no_msg = {
 	tip = "暂无新消息"
 }
@@ -37492,6 +37532,36 @@ _G.pg.base.gametip.dorm3d_ins_no_msg = {
 
 _G.pg.base.gametip.dorm3d_ins_no_topics = {
 	tip = "暂无新好友圈状态"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_confirm = {
+	tip = "确认更换"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_already = {
+	tip = "已装备"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_equip = {
+	tip = "是否立即给$1装备$2"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_unlock = {
+	tip = "公共房间无法更换服装"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_1 = {
+	tip = "听海之畔"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_2 = {
+	tip = "汐语小筑"
 }
 
 
@@ -37944,6 +38014,36 @@ _G.pg.base.gametip.dorm3d_shop_others = {
 
 _G.pg.base.gametip.dorm3d_shop_limit1 = {
 	tip = "本周限购"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
+	tip = "$1的即兴舞蹈"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame2 = {
+	tip = "抓拍$1期待的照片吧！"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
+	tip = "拍摄完成"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame4 = {
+	tip = "再来一次"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
+	tip = "离开舞台"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame6 = {
+	tip = "匹配度：$1"
 }
 
 
@@ -38728,4 +38828,14 @@ _G.pg.base.gametip.brs_reward_tip_1 = {
 
 _G.pg.base.gametip.brs_reward_tip_2 = {
 	tip = "前往"
+}
+
+
+_G.pg.base.gametip.dorm3d_dance_button = {
+	tip = "舞蹈 "
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_cafe = {
+	tip = "咖啡馆"
 }

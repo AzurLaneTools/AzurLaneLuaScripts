@@ -657,11 +657,11 @@ slot0.UpdateSpWeaponUpgradeInfo = function(slot0, slot1, slot2, slot3, slot4)
 		})
 	end
 
-	if slot3[2].skillId > 0 then
+	for slot12, slot13 in ipairs(slot3[2]) do
 		table.insert(slot8, {
 			isSkill = true,
 			name = i18n("spweapon_attr_skillupgrade"),
-			effect = slot3[2]
+			effect = slot13
 		})
 	end
 

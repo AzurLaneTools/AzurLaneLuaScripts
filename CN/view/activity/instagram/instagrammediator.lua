@@ -11,9 +11,6 @@ slot0.CLOSE_DETAIL = "InstagramMediator:CLOSE_DETAIL"
 slot0.BACK_PRESSED = "InstagramMediator:BACK_PRESSED"
 
 slot0.register = function(slot0)
-	slot1 = getProxy(InstagramProxy)
-
-	slot1:InitLocalConfigs()
 	slot0:bind(uv0.ON_READED, function (slot0, slot1)
 		uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
 			arg2 = 0,
@@ -60,10 +57,6 @@ slot0.register = function(slot0)
 			uv0.viewComponent:emit(uv1.ON_REPLY_UPDATE, slot1, slot2)
 		end
 	end)
-
-	slot1 = slot0.viewComponent
-
-	slot1:SetProxy(getProxy(InstagramProxy))
 	slot0:bind(uv0.CLOSE_ALL, function (slot0)
 		uv0:sendNotification(InstagramMainMediator.CLOSE_ALL)
 	end)

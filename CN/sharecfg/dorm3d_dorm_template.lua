@@ -24,9 +24,18 @@ pg.dorm3d_dorm_template = {
 		id = 19903,
 		default_appellation = "老师"
 	},
+	[10517] = {
+		skin_model = 105171,
+		name = "新泽西",
+		bind_room = 11,
+		asset_name = "Xinzexi_DB",
+		id = 10517,
+		default_appellation = "指挥官"
+	},
 	all = {
 		20220,
 		30221,
-		19903
+		19903,
+		10517
 	}
 }

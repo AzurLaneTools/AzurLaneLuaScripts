@@ -103,6 +103,47 @@ pg.dorm3d_collection_template = setmetatable({
 			37,
 			38,
 			39
+		},
+		[11] = {
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1109,
+			1110,
+			1111,
+			1112,
+			1113,
+			1114,
+			1115,
+			1116,
+			1117,
+			1118,
+			1119,
+			1120,
+			1121,
+			1122,
+			1123,
+			1124,
+			1125,
+			1126,
+			1127,
+			1128
+		},
+		[16] = {
+			1601,
+			1602,
+			1603,
+			1604,
+			1605,
+			1606,
+			1607,
+			1608,
+			1609
 		}
 	},
 	all = {
@@ -199,7 +240,44 @@ pg.dorm3d_collection_template = setmetatable({
 		125,
 		126,
 		127,
-		128
+		128,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1109,
+		1110,
+		1111,
+		1112,
+		1113,
+		1114,
+		1115,
+		1116,
+		1117,
+		1118,
+		1119,
+		1120,
+		1121,
+		1122,
+		1123,
+		1124,
+		1125,
+		1126,
+		1127,
+		1128,
+		1601,
+		1602,
+		1603,
+		1604,
+		1605,
+		1606,
+		1607,
+		1608,
+		1609
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2180,6 +2258,783 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/litmap_02/night/pre_db_towel01_group01/vfx_wupintishi01"
+		}
+	},
+	[1101] = {
+		name = "焦糖爆米花",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "刚从微波炉中取出的焦糖爆米花，裹着琥珀色的甜蜜糖衣，是她看电影时必备的零食。",
+		text = "dorm3d_xinzexi_table",
+		id = 1101,
+		icon = "3Ddrom_xinzexi_item1",
+		model = {
+			"fbx/litmap_01/pre_db_electrical18"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical18/vfx_wupintishi01"
+		}
+	},
+	[1102] = {
+		name = "爱心围裙",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "挂在厨房角落的围裙，正面点缀着可爱的兔头图案，款式简约休闲。\n无论是做饭还是打扫，她总是一副元气满满的样子。",
+		text = "dorm3d_xinzexi_table",
+		id = 1102,
+		icon = "3Ddrom_xinzexi_item2",
+		model = {
+			"fbx/litmap_01/pre_db_cloth05"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth05/vfx_wupintishi01"
+		}
+	},
+	[1103] = {
+		name = "榨汁机",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一台动力十足的榨汁机，每天清晨，她都会把各色水果投进去，转眼就变出色彩缤纷的新鲜果汁。",
+		text = "dorm3d_xinzexi_table",
+		id = 1103,
+		icon = "3Ddrom_xinzexi_item3",
+		model = {
+			"fbx/litmap_01/pre_db_electrical13"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical13/vfx_wupintishi01"
+		}
+	},
+	[1104] = {
+		name = "一碗草莓",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "水果碗里盛满了个头饱满的新鲜草莓，每一颗都挂满了晶莹的水珠，她的指尖悬在半空，在品尝前，先收藏这一刻的心动吧~",
+		text = "dorm3d_xinzexi_table",
+		id = 1104,
+		icon = "3Ddrom_xinzexi_item4",
+		model = {
+			"fbx/litmap_01/pre_db_fruit01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fruit01/vfx_wupintishi01"
+		}
+	},
+	[1105] = {
+		name = "油烟机",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "厨房里最不可或缺的油烟机，每当那熟悉的轰鸣声响起，就说明{namecode:199}正在大展厨艺。",
+		text = "dorm3d_xinzexi_table",
+		id = 1105,
+		icon = "3Ddrom_xinzexi_item5",
+		model = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_cupboard01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_cupboard01/vfx_wupintishi01"
+		}
+	},
+	[1106] = {
+		name = "清新柠檬水",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一瓶清凉解暑的柠檬水，酸甜恰好的滋味里，藏着几颗方糖的温柔。",
+		text = "dorm3d_xinzexi_table",
+		id = 1106,
+		icon = "3Ddrom_xinzexi_item6",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_tableware28_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_tableware28_group/vfx_wupintishi01"
+		}
+	},
+	[1107] = {
+		name = "日常外衣",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一件轻薄优雅的外套，{namecode:199}的日常着装。\n脱下外套丢在椅背上，永远是{namecode:199}回家后做的第一件事。",
+		text = "dorm3d_xinzexi_table",
+		id = 1107,
+		icon = "3Ddrom_xinzexi_item7",
+		model = {
+			"fbx/litmap_01/pre_db_cloth06"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth06/vfx_wupintishi01"
+		}
+	},
+	[1108] = {
+		name = "烤面包机",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "印有可爱图案的烤面包机，轻轻拨动按钮，就会跳出一片金黄的脆吐司。\n再涂上果酱、蜂蜜或者黄油……\n最完美的早餐就完成了~！",
+		text = "dorm3d_xinzexi_table",
+		id = 1108,
+		icon = "3Ddrom_xinzexi_item8",
+		model = {
+			"fbx/litmap_01/pre_db_electrical10_01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical10_01/vfx_wupintishi01"
+		}
+	},
+	[1109] = {
+		name = "丛林风潮",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一株挺拔的虎尾兰，在角落里静静舒展叶片。\n每一次呼吸间，都能感受到它带来的清新生机。",
+		text = "dorm3d_xinzexi_table",
+		id = 1109,
+		icon = "3Ddrom_xinzexi_item9",
+		model = {
+			"fbx/litmap_01/pre_db_bonsai13"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bonsai13/vfx_wupintishi01"
+		}
+	},
+	[1110] = {
+		name = "甜甜圈",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "{namecode:199}为下午茶准备的甜甜圈。\n“在和Honey分享前，当然要尝尝味道怎么样嘛~”\n她这么说着，舔了舔嘴角的糖霜。",
+		text = "dorm3d_xinzexi_table",
+		id = 1110,
+		icon = "3Ddrom_xinzexi_item10",
+		model = {
+			"fbx/litmap_01/pre_db_food16_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_food16_group/vfx_wupintishi01"
+		}
+	},
+	[1111] = {
+		name = "扫地机器人",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一台可爱的扫地机器人，是她打扫房间的好帮手，除了灰尘，还收集着整个家的生活痕迹。",
+		text = "dorm3d_xinzexi_chair",
+		id = 1111,
+		icon = "3Ddrom_xinzexi_item11",
+		model = {
+			"fbx/litmap_01/pre_db_electrical17"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical17/vfx_wupintishi01"
+		}
+	},
+	[1112] = {
+		name = "超清大电视",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "当55英寸屏幕亮起，她就拥有了穿越到任何世界的任意门——\n今天是要去观赏爆炸的艺术，还是看白鹰街头的雨中拥吻？",
+		text = "dorm3d_xinzexi_chair",
+		id = 1112,
+		icon = "3Ddrom_xinzexi_item12",
+		model = {
+			"fbx/litmap_01/pre_db_appliances06"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances06/vfx_wupintishi01"
+		}
+	},
+	[1113] = {
+		name = "时尚杂志",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "几本似乎翻阅过许多次的时尚杂志，正懒懒地躺在茶几上。\n这就是她的时尚补给站，灵感总是不期而遇。",
+		text = "dorm3d_xinzexi_chair",
+		id = 1113,
+		icon = "3Ddrom_xinzexi_item13",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_book05_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_book05_group/vfx_wupintishi01"
+		}
+	},
+	[1114] = {
+		name = "手包",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "被随手丢在一边的精致手包，装满了各种有用的小物件。\n今天也带它闯荡了不少地方呢……",
+		text = "dorm3d_xinzexi_chair",
+		id = 1114,
+		icon = "3Ddrom_xinzexi_item14",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_bag05"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_bag05/vfx_wupintishi01"
+		}
+	},
+	[1115] = {
+		name = "室外运动套装",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "配置齐全的室外运动套装，活力四射的{namecode:199}已经准备好要来一场激烈的有氧运动了。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1115,
+		icon = "3Ddrom_xinzexi_item15",
+		model = {
+			"fbx/litmap_01/pre_db_bag03_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bag03_group/vfx_wupintishi01"
+		}
+	},
+	[1116] = {
+		name = "Big J门牌",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "内有恶龙！\n未经允许，请勿擅闯哦！\n“……欸？是Honey来了吗？！快进来吧——”",
+		text = "dorm3d_xinzexi_bed",
+		id = 1116,
+		icon = "3Ddrom_xinzexi_item16",
+		model = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_billboard01_1"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_billboard01_1/vfx_wupintishi01"
+		}
+	},
+	[1117] = {
+		name = "衣帽架",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "站在为约会而准备的衣物前，每件衣服似乎都在对她说：选我！选我！\n这个甜蜜的选择题，比想象中更难作答。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1117,
+		icon = "3Ddrom_xinzexi_item17",
+		model = {
+			"fbx/litmap_01/pre_db_cloth07_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth07_group/vfx_wupintishi01"
+		}
+	},
+	[1118] = {
+		name = "透明手提包",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "装有各种化妆品和补妆灯的透明手提包，是她日常通勤和外出旅行的必备搭档，随时随地满足补妆的需求。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1118,
+		icon = "3Ddrom_xinzexi_item18",
+		model = {
+			"fbx/litmap_01/pre_db_bag06"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bag06/vfx_wupintishi01"
+		}
+	},
+	[1119] = {
+		name = "灵动兔耳",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一副颇具个性的兔耳朵头饰，会随着佩戴者的心情灵活摆动，是她最喜欢的装饰品。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1119,
+		icon = "3Ddrom_xinzexi_item19",
+		model = {
+			"fbx/litmap_01/pre_db_headgear01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_headgear01/vfx_wupintishi01"
+		}
+	},
+	[1120] = {
+		name = "空调",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "看出人类历史最伟大的发明之一，它总能让室温变得恰到好处，营造出最治愈的舒适角落。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1120,
+		icon = "3Ddrom_xinzexi_item21",
+		model = {
+			"fbx/litmap_01/pre_db_appliances01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances01/vfx_wupintishi01"
+		}
+	},
+	[1121] = {
+		name = "空气净化器",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "安静待在房间一角的净化器，用持续可靠的运转，让每个深呼吸都变成享受。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1121,
+		icon = "3Ddrom_xinzexi_item22",
+		model = {
+			"fbx/litmap_01/pre_db_appliances03"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances03/vfx_wupintishi01"
+		}
+	},
+	[1122] = {
+		name = "冷冻饮品",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "两杯正冒着冷气的冰淇淋和冷饮，无论是独自慢慢品尝，还是与重要的人分享，每一口都是幸福的形状。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1122,
+		icon = "3Ddrom_xinzexi_item23",
+		model = {
+			"fbx/litmap_01/pre_db_food03_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_food03_group/vfx_wupintishi01"
+		}
+	},
+	[1123] = {
+		name = "音响",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一台轻便时髦的音响，装着从古典乐到摇滚的万千旋律。\n无论何时，总有恰到好处的音符在等候。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1123,
+		icon = "3Ddrom_xinzexi_item24",
+		model = {
+			"fbx/litmap_01/pre_db_electrical03"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical03/vfx_wupintishi01"
+		}
+	},
+	[1124] = {
+		name = "兔子夜灯",
+		award = 0,
+		time = 2,
+		room_id = 11,
+		desc = "融合了兔兔造型的小夜灯，在黑暗中投下柔和的蓝晕，为{namecode:199}夜行的脚步，画出一条安全的路径。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1124,
+		icon = "3Ddrom_xinzexi_item25",
+		model = {
+			"fbx/litmap_01/night/pre_db_newjerseyhostel01_lamp01a_on"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_newjerseyhostel01_lamp01a_on/vfx_wupintishi01"
+		}
+	},
+	[1125] = {
+		name = "哑铃",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "一对重量适中的哑铃，完美贴合她的运动需求。\n在汗水折射出的彩虹里，藏着比昨天更优秀的自己。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1125,
+		icon = "3Ddrom_xinzexi_item26",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_sportinggoods06_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_sportinggoods06_group/vfx_wupintishi01"
+		}
+	},
+	[1126] = {
+		name = "卷发棒",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "造型时尚的卷发棒，打理发型时的好帮手。\n使用完一定要拔掉电源哦！",
+		text = "dorm3d_xinzexi_bed",
+		id = 1126,
+		icon = "3Ddrom_xinzexi_item27",
+		model = {
+			"fbx/litmap_01/pre_db_electrical15"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical15/vfx_wupintishi01"
+		}
+	},
+	[1127] = {
+		name = "黑色丝袜",
+		award = 0,
+		time = 2,
+		room_id = 11,
+		desc = "在她房间，每只丝袜都有自己想去的地方。\n这是她这个月弄丢的第7.5双了。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1127,
+		icon = "3Ddrom_xinzexi_item28",
+		model = {
+			"fbx/litmap_01/night/pre_db_sock01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_sock01/vfx_wupintishi01"
+		}
+	},
+	[1128] = {
+		name = "护肤套装",
+		award = 0,
+		time = 2,
+		room_id = 11,
+		desc = "这套功能全面的护肤产品，是{namecode:199}专属的美容试验场。\n在奇妙的碰撞中，总能调配出令人惊喜的焕肤配方。",
+		text = "dorm3d_xinzexi_bed",
+		id = 1128,
+		icon = "3Ddrom_xinzexi_item29",
+		model = {
+			"fbx/litmap_01/night/pre_db_cosmetic17"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_cosmetic17/vfx_wupintishi01"
+		}
+	},
+	[1601] = {
+		name = "招牌菜单",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "展示了丰富多样的饮品选择，可以快速了解咖啡店的特色~\n每一杯都充满创意与用心，可以满足各种独特口味~",
+		text = "dorm3d_collection_cafe",
+		id = 1601,
+		icon = "3Ddrom_cafe_item1",
+		model = {
+			"fbx/litmap_03/pre_db_billboard16_2"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_billboard16_2/vfx_wupintishi01"
+		}
+	},
+	[1602] = {
+		name = "简约指引牌",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "方便而简洁的指引，轻松找到温馨的咖啡角落，营造良好的第一印象~",
+		text = "dorm3d_collection_cafe",
+		id = 1602,
+		icon = "3Ddrom_cafe_item2",
+		model = {
+			"fbx/litmap_03/pre_db_billboard13"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_billboard13/vfx_wupintishi01"
+		}
+	},
+	[1603] = {
+		name = "暖光蜡烛",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "暖光柔和，温馨浪漫，为咖啡时光增添一份温暖。",
+		text = "dorm3d_collection_cafe",
+		id = 1603,
+		icon = "3Ddrom_cafe_item3",
+		model = {
+			"fbx/litmap_03/pre_db_desklamp06_1"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_desklamp06_1/vfx_wupintishi01"
+		}
+	},
+	[1604] = {
+		name = "收银台",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "触摸式电子屏，设计简洁服务贴心，选单付款皆可快速完成。",
+		text = "dorm3d_collection_cafe",
+		id = 1604,
+		icon = "3Ddrom_cafe_item4",
+		model = {
+			"fbx/litmap_03/pre_db_electrical19"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_electrical19/vfx_wupintishi01"
+		}
+	},
+	[1605] = {
+		name = "简约几何杯",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "每一瓶都精心设计，不论是外观还是实用性，都能为咖啡时光增添一份精致与享受。",
+		text = "dorm3d_collection_cafe",
+		id = 1605,
+		icon = "3Ddrom_cafe_item5",
+		model = {
+			"fbx/litmap_03/pre_db_drink03_1"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_drink03_1/vfx_wupintishi01"
+		}
+	},
+	[1606] = {
+		name = "巧克力甜甜圈",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "外酥里嫩的甜甜圈，美味可口的经典甜点。\n每一口都让人回味无穷，为味蕾带来极大的享受~",
+		text = "dorm3d_collection_cafe",
+		id = 1606,
+		icon = "3Ddrom_cafe_item6",
+		model = {
+			"fbx/litmap_03/pre_db_food07"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_food07/vfx_wupintishi01"
+		}
+	},
+	[1607] = {
+		name = "调酒组合",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "专业调制各种酒品，为夜晚增添一抹色彩~",
+		text = "dorm3d_collection_cafe",
+		id = 1607,
+		icon = "3Ddrom_cafe_item7",
+		model = {
+			"fbx/litmap_03/pre_db_frame23_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_frame23_group/vfx_wupintishi01"
+		}
+	},
+	[1608] = {
+		name = "餐巾纸",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "干净柔软的餐巾纸，随时满足清洁需求。",
+		text = "dorm3d_collection_cafe",
+		id = 1608,
+		icon = "3Ddrom_cafe_item8",
+		model = {
+			"fbx/litmap_03/pre_db_tableware30_4"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_tableware30_4/vfx_wupintishi01"
+		}
+	},
+	[1609] = {
+		name = "招牌雕塑",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "可爱的吉祥物，咖啡店的标志性雕塑。",
+		text = "dorm3d_collection_cafe",
+		id = 1609,
+		icon = "3Ddrom_cafe_item9",
+		model = {
+			"fbx/litmap_03/pre_db_publiccafe01_statue01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
 		}
 	}
 }

@@ -1880,6 +1880,11 @@ pg.player_resource = {
 		name = "heiyan_pt",
 		itemid = 65620
 	},
+	[513] = {
+		id = 513,
+		name = "xiaodafeng_youhao_pt_2",
+		itemid = 65621
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3449,6 +3454,9 @@ pg.player_resource = {
 		heiyan_pt = {
 			512
 		},
+		xiaodafeng_youhao_pt_2 = {
+			513
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4091,6 +4099,7 @@ pg.player_resource = {
 		510,
 		511,
 		512,
+		513,
 		950,
 		951,
 		952,

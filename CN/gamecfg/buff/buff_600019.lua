@@ -24,6 +24,16 @@ return {
 				"onRemove"
 			},
 			arg_list = {
+				tag = "stuned"
+			}
+		},
+		{
+			type = "BattleBuffAddTag",
+			trigger = {
+				"onAttach",
+				"onRemove"
+			},
+			arg_list = {
 				tag = "Zhuazi_mingzhong"
 			}
 		}
