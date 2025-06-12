@@ -309,7 +309,84 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		305,
 		306,
 		307,
-		308
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
+		338,
+		339,
+		340,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361,
+		362,
+		363,
+		364,
+		365,
+		366,
+		367,
+		368,
+		369,
+		370,
+		371,
+		372,
+		373,
+		374,
+		375,
+		376,
+		377,
+		378,
+		379,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2992,5 +3069,676 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 308,
 		flag = 2
+	},
+	{
+		param = "I had such a nice nap next to you, honey!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 309,
+		flag = 0
+	},
+	{
+		param = "But listen...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 310,
+		flag = 0
+	},
+	{
+		param = "Why'd you just go back to work while I was asleep?!",
+		ship_group = 10517,
+		type = 1,
+		id = 311,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I'd feel bad waking you up."
+			}
+		}
+	},
+	{
+		param = "You were sleeping so soundly that I couldn't bear to wake you.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 312,
+		flag = 1
+	},
+	{
+		param = "Was someone mesmerized by my cute sleeping face?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 313,
+		flag = 1
+	},
+	{
+		param = "Besides, I only fell asleep because we had so much fun together.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 314,
+		flag = 1
+	},
+	{
+		param = "I'm just amazed that you had enough energy left to work...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 315,
+		flag = 1
+	},
+	{
+		param = "We're supposed to be playing together, so don't flake on me!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 316,
+		flag = 1
+	},
+	{
+		param = "And most of all...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 317,
+		flag = 1
+	},
+	{
+		param = "Don't you disappear again next time, got it?!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 318,
+		flag = 1
+	},
+	{
+		param = "Waking up and not having you there, honey... that thought alone gives me nightmares!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 319,
+		flag = 1
+	},
+	{
+		param = "65",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 320,
+		flag = 1
+	},
+	{
+		param = "You can't worry delicate girls like me so much!",
+		ship_group = 10517,
+		type = 1,
+		id = 321,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I won't worry you again."
+			}
+		}
+	},
+	{
+		param = "I won't worry you again.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 322,
+		flag = 2
+	},
+	{
+		param = "When I wake up, I want you to be there with me.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 323,
+		flag = 2
+	},
+	{
+		param = "Stay with me together forever, okay, honey?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 324,
+		flag = 2
+	},
+	{
+		param = "Now, finish up that work and come back to me~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 325,
+		flag = 2
+	},
+	{
+		param = "I'll be waiting for you... in my soft, fluffy bed.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 326,
+		flag = 2
+	},
+	{
+		param = "Mwah♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 327,
+		flag = 2
+	},
+	{
+		param = "Honey! Check this out~♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 328,
+		flag = 0
+	},
+	{
+		param = "Are you ready to get hardcore spammed by Big J?",
+		ship_group = 10517,
+		type = 1,
+		id = 329,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Someone's excited…"
+			}
+		}
+	},
+	{
+		param = "Someone's excited. Is your room ready? Do you need any help?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 330,
+		flag = 1
+	},
+	{
+		param = "It's all good~ I just need to stock up on some daily necessities, is all...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 331,
+		flag = 1
+	},
+	{
+		param = "My fridge is basically empty...",
+		ship_group = 10517,
+		type = 1,
+		id = 332,
+		flag = 1,
+		option = {
+			{
+				2,
+				"Let's go shopping…"
+			}
+		}
+	},
+	{
+		param = "Let's go shopping downtown. I'm sure we can get everything you need.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 333,
+		flag = 2
+	},
+	{
+		param = "That's my honey! You're so thoughtful.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 334,
+		flag = 2
+	},
+	{
+		param = "Since we'll go out, how about we do some other stuff, too?",
+		ship_group = 10517,
+		type = 1,
+		id = 335,
+		flag = 2,
+		option = {
+			{
+				3,
+				"Sure. Where do you wanna go?"
+			}
+		}
+	},
+	{
+		param = "Sure. Where do you wanna go?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 336,
+		flag = 3
+	},
+	{
+		param = "Hehe, I've already made a whole plan!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 337,
+		flag = 3
+	},
+	{
+		param = "First order of business... Filling our tummies!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 338,
+		flag = 3
+	},
+	{
+		param = "30",
+		ship_group = 10517,
+		type = 4,
+		id = 339,
+		flag = 3,
+		option = {
+			{
+				4,
+				"Let me guess. Is it an ice cream buffet?"
+			}
+		}
+	},
+	{
+		param = "Let me guess. Is it an ice cream buffet?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 340,
+		flag = 4
+	},
+	{
+		param = "Ooh, good idea!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 341,
+		flag = 4
+	},
+	{
+		param = "Wait, do you just see me as nothing but a sweets-loving piggy?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 342,
+		flag = 4
+	},
+	{
+		param = "...Well, you're right, hehehe♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 343,
+		flag = 4
+	},
+	{
+		param = "Anyway, I'll let you know when you get here!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 344,
+		flag = 4
+	},
+	{
+		param = "See you at the corner of the shopping district!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 345,
+		flag = 4
+	},
+	{
+		param = "Aaaand off we go!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 346,
+		flag = 4
+	},
+	{
+		param = "By the way, you're getting punished if you're not on time~♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 347,
+		flag = 4
+	},
+	{
+		param = "Honey~ Remember that action movie we watched?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 348,
+		flag = 0
+	},
+	{
+		param = "Did you like it? Wanna go see the sequel?",
+		ship_group = 10517,
+		type = 1,
+		id = 349,
+		flag = 0,
+		option = {
+			{
+				1,
+				"Action movie...?"
+			}
+		}
+	},
+	{
+		param = "Action movie...? Which one?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 350,
+		flag = 1
+	},
+	{
+		param = "You know! The one where the hero and heroine both go all out with their special abilities, and then they clash, and it's just–",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 351,
+		flag = 1
+	},
+	{
+		param = "321",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 352,
+		flag = 1
+	},
+	{
+		param = "Hmm, buuut...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 353,
+		flag = 1
+	},
+	{
+		param = "The part I liked the most was that crazy explosion!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 354,
+		flag = 1
+	},
+	{
+		param = "It was almost as cool as the flames of the Black Dragon ripping through the night!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 355,
+		flag = 1
+	},
+	{
+		param = "And the ENDING!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 356,
+		flag = 1
+	},
+	{
+		param = "The way the main character was magically turned into a giant ball of ice cream?!",
+		ship_group = 10517,
+		type = 1,
+		id = 357,
+		flag = 1,
+		option = {
+			{
+				2,
+				"They should've put your name in the writing credits."
+			}
+		}
+	},
+	{
+		param = "They should've put your name in the writing credits.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 358,
+		flag = 2
+	},
+	{
+		param = "Nobody would come up with that unless they really loved ice cream deep down.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 359,
+		flag = 2
+	},
+	{
+		param = "Hehe~ I wanna cast a spell like that on you, honey~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 360,
+		flag = 2
+	},
+	{
+		param = "If you turned into an ice cream...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 361,
+		flag = 2
+	},
+	{
+		param = "What flavor would you be?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 362,
+		flag = 2
+	},
+	{
+		param = "Melon? Watermelon? Pineapple? Hmm, I bet you'd taste even better than all of them combined~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 363,
+		flag = 2
+	},
+	{
+		param = "Now I really want a taste♡ Hehehe...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 364,
+		flag = 2
+	},
+	{
+		param = "Heheheh... What have we here?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 365,
+		flag = 0
+	},
+	{
+		param = "Looks like you found my treasure hoard!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 366,
+		flag = 0
+	},
+	{
+		param = "That's my honey. You know me like the back of your hand!",
+		ship_group = 10517,
+		type = 1,
+		id = 367,
+		flag = 0,
+		option = {
+			{
+				1,
+				"I found a notebook…"
+			}
+		}
+	},
+	{
+		param = "I found a notebook. It says \"Notes on the War of Love.\"",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 368,
+		flag = 1
+	},
+	{
+		param = "WHAAAAT?!?!?!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 369,
+		flag = 1
+	},
+	{
+		param = "That's a secret! That's why it was hidden in the corner!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 370,
+		flag = 1
+	},
+	{
+		param = "You didn't read it, DID YOU?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 371,
+		flag = 1
+	},
+	{
+		param = "TELL ME! Tell me you totally have NOT read it!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 372,
+		flag = 1
+	},
+	{
+		param = "54",
+		ship_group = 10517,
+		type = 4,
+		id = 373,
+		flag = 1,
+		option = {
+			{
+				2,
+				"I put it back."
+			}
+		}
+	},
+	{
+		param = "Don't worry. I put it back.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 374,
+		flag = 2
+	},
+	{
+		param = "Honey... I love you so much!♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 375,
+		flag = 2
+	},
+	{
+		param = "But aren't you curious what I wrote in it?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 376,
+		flag = 2
+	},
+	{
+		param = "You're not worried that I'm secretly complaining about you?",
+		ship_group = 10517,
+		type = 1,
+		id = 377,
+		flag = 2,
+		option = {
+			{
+				3,
+				"I trust you, New Jersey."
+			}
+		}
+	},
+	{
+		param = "I trust you, New Jersey.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 378,
+		flag = 3
+	},
+	{
+		param = "Hehe... Don't you worry.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 379,
+		flag = 3
+	},
+	{
+		param = "I'll repay your honesty with 100% faith!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 380,
+		flag = 3
+	},
+	{
+		param = "Okay, for that, you get to know one secret...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 381,
+		flag = 3
+	},
+	{
+		param = "Love is like an invisible war~♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 382,
+		flag = 3
+	},
+	{
+		param = "You watch for the perfect time to attack, the perfect time to retreat...",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 383,
+		flag = 3
+	},
+	{
+		param = "Even in these tense battles of wits, though, there's one ironclad rule.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 384,
+		flag = 3
+	},
+	{
+		param = "\"My honey's the best in the world, and I love you more than anyone!♡\"",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 385,
+		flag = 3
 	}
 }

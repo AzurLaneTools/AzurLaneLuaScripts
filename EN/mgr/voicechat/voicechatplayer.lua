@@ -38,6 +38,7 @@ slot0.Play = function(slot0, slot1, slot2, slot3)
 			end
 
 			uv0:PlayVoice(uv2)
+			uv0:DispatcherEvent(uv2)
 			uv0:ReigsetEvent(uv2, slot0)
 		end,
 		function (slot0)
@@ -103,7 +104,7 @@ slot0.PlayVoice = function(slot0, slot1)
 			uv0.currentVoice = slot0.playback
 		end
 
-		assert(uv1:GetWaitForClickTime() < slot0:GetLength() * 0.001, "chatShowTime must > wait time")
+		assert(uv1:GetWaitForClickTime() < slot0:GetLength() * 0.001, string.format("chatShowTime must > wait time voice:%s voiceLenth:%f wait:%f", uv2, slot1, slot2))
 		uv0:AddTimeTriggerNextOne(slot1)
 	end)
 end
@@ -148,23 +149,100 @@ slot0.InitOptionIfNeed = function(slot0, slot1, slot2, slot3)
 			slot2:Find("content/Text"):GetComponent(typeof(Text)).text = uv0[slot1 + 1][1]
 
 			onButton(uv1, slot2, function ()
-				uv0:SetBranchCode(uv1[2])
-				uv2(uv1[2])
-				setActive(uv3.closeBtn, true)
+				if optionBlockOther then
+					return
+				end
+
+				slot0 = uv0:Find("selectAni")
+
+				setActive(slot0, true)
+				slot0:GetComponent(typeof(Animation)):Play("anim_selectAni_loop")
+
+				uv1.optionBlockOther = true
+
+				slot0:GetComponent(typeof(DftAniEvent)):SetEndEvent(function ()
+					uv0.optionBlockOther = false
+
+					setActive(uv1, false)
+					uv2:SetBranchCode(uv3[2])
+					uv4(uv3[2])
+					setActive(uv0.closeBtn, true)
+				end)
 			end)
 		end
 	end)
 	slot0.optionUIList:align(#slot2:GetOptions())
 end
 
+slot0.DispatcherEvent = function(slot0, slot1)
+	if not slot1:ExistDispatcher() then
+		return
+	end
+
+	slot2 = slot1:GetDispatcher()
+
+	pg.NewStoryMgr.GetInstance():ClearStoryEvent()
+	pg.m02:sendNotification(slot2.name, {
+		data = slot2.data,
+		callbackData = slot2.callbackData
+	})
+
+	if slot1:ShouldHideUI() then
+		setActive(slot0._tf, false)
+	end
+
+	if slot1:IsRecallDispatcher() then
+		slot0:CheckDispatcher(slot1)
+	end
+
+	return slot2.nextOne
+end
+
+slot0.CheckDispatcher = function(slot0, slot1)
+	slot2 = slot1:GetDispatcherRecallName()
+
+	slot0:ClearCheckDispatcher()
+
+	slot0.checkTimer = Timer.New(function ()
+		if pg.NewStoryMgr.GetInstance():CheckStoryEvent(uv0) then
+			if pg.NewStoryMgr.GetInstance():GetStoryEventArg(uv0) then
+				existCall(slot0.notifiCallback)
+			end
+
+			if slot0 and slot0.optionIndex then
+				uv1.skipOption = true
+			end
+
+			if uv2:ShouldHideUI() then
+				setActive(uv1._tf, true)
+			end
+
+			uv1:ClearCheckDispatcher()
+		end
+	end, 1, -1)
+
+	slot0.checkTimer:Start()
+	slot0.checkTimer.func()
+end
+
+slot0.ClearCheckDispatcher = function(slot0)
+	if slot0.checkTimer then
+		slot0.checkTimer:Stop()
+
+		slot0.checkTimer = nil
+	end
+end
+
 slot0.Clear = function(slot0, slot1, slot2)
 	slot0:ClearAnimation()
 	slot0:StopVoice()
+	slot0:ClearChatTimer()
+	slot0:ClearCheckDispatcher()
 	setActive(slot0.optionPanel, false)
 
 	slot0.callback = nil
 
-	slot2()
+	existCall(slot2)
 end
 
 slot0.OnPause = function(slot0)
@@ -191,6 +269,8 @@ end
 
 slot0.OnEnd = function(slot0, slot1)
 	pg.DelegateInfo.Dispose(slot0)
+	slot0:ClearChatTimer()
+	slot0:ClearCheckDispatcher()
 end
 
 return slot0

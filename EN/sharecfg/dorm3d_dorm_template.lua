@@ -24,9 +24,18 @@ pg.dorm3d_dorm_template = {
 		id = 19903,
 		default_appellation = "Teacher"
 	},
+	[10517] = {
+		skin_model = 105171,
+		name = "New Jersey",
+		bind_room = 11,
+		asset_name = "Xinzexi_DB",
+		id = 10517,
+		default_appellation = "Commander"
+	},
 	all = {
 		20220,
 		30221,
-		19903
+		19903,
+		10517
 	}
 }

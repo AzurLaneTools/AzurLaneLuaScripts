@@ -798,6 +798,223 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[1101] = {
+		rarity = 3,
+		name = "Rabbit's Cradle",
+		unlock_tips = "",
+		type = 4,
+		room_id = 11,
+		desc = "A bed designed for comfortable sleep. Its sturdy structure and stability are top-notch.\nIf you sleep here holding a soft, bunny-shaped cushion, you might just dream of a carrot farm under the stars…",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1101,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051730
+			}
+		},
+		shop_id = {}
+	},
+	[1102] = {
+		rarity = 3,
+		name = "Ice Age",
+		unlock_tips = "",
+		type = 6,
+		room_id = 11,
+		desc = "Sleek and next-gen in design, this unit features a powerful cooling system.\nChill some Oxy-cola in it, and it will bring refreshment and comfort to your life.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1102,
+		target_slots = {
+			1110203
+		},
+		touch_id = {
+			{
+				10517,
+				1051710
+			}
+		},
+		shop_id = {}
+	},
+	[1103] = {
+		rarity = 3,
+		name = "Sunlight Island",
+		unlock_tips = "",
+		type = 5,
+		room_id = 11,
+		desc = "A classic fabric sofa with a soft, fluffy texture.\nWhen the afternoon sunlight shines in, it becomes the perfect island for napping.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1103,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051720
+			}
+		},
+		shop_id = {}
+	},
+	[1104] = {
+		rarity = 2,
+		name = "Planet Nightlight",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "A lamp inspired by the shape of a planet. At night, it emits dim light.\nSomewhere in the starry sky, there must be some planet out there quietly watching over you.",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical03",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1104,
+		target_slots = {
+			1110101
+		},
+		shop_id = {}
+	},
+	[1105] = {
+		rarity = 2,
+		name = "Decorative Art",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "A minimalist painting featuring overlapping geometric shapes that create a unique beauty. It adds a lively touch to the room.",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1105,
+		target_slots = {
+			1110301
+		},
+		shop_id = {}
+	},
+	[1106] = {
+		rarity = 2,
+		name = "Silent Blue",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "Gently flip the switch, and a soft glow spills out. Jellyfish float in a dreamy blue void.\nHow long... has your imagination been immersed in this little ocean?",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_fishtank01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1106,
+		target_slots = {
+			1110302
+		},
+		shop_id = {}
+	},
+	[1107] = {
+		rarity = 2,
+		name = "Microwave",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "A quick and convenient heating tool, perfect for breakfast, afternoon tea, and more.",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical04",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1107,
+		target_slots = {
+			1110201
+		},
+		shop_id = {}
+	},
+	[1108] = {
+		rarity = 2,
+		name = "Potted Plant",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "It doesn't just make the place prettier – it purifies the air, too!",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_pottedplant01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture9",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1108,
+		target_slots = {
+			1110202
+		},
+		shop_id = {}
+	},
+	[1151] = {
+		rarity = 4,
+		name = "Starry Corner",
+		type = 5,
+		room_id = 11,
+		desc = "This cutting-edge seat has a futuristic aura and features smart temperature control.\nIt also comes with a 24/7 chilled drink supply, giving you a truly comfortable service experience.",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture1",
+		acesses = "",
+		id = 1151,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051740
+			}
+		},
+		shop_id = {
+			271101
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1151"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -835,6 +1052,17 @@ pg.dorm3d_furniture_template = {
 			307,
 			321,
 			322
+		},
+		[11] = {
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1151
 		}
 	},
 	all = {
@@ -868,6 +1096,15 @@ pg.dorm3d_furniture_template = {
 		306,
 		307,
 		321,
-		322
+		322,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1151
 	}
 }

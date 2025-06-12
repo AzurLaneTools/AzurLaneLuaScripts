@@ -383,3 +383,39 @@ table.CastToString = function(slot0)
 
 	return slot1 .. "}"
 end
+
+table.Diff = function(slot0, slot1, slot2)
+	slot2 = slot2 or function (slot0)
+		return slot0
+	end
+	slot3 = {}
+	slot4 = {}
+
+	for slot8, slot9 in ipairs(slot0) do
+		slot3[slot2(slot9)] = slot9
+	end
+
+	for slot8, slot9 in ipairs(slot1) do
+		slot4[slot2(slot9)] = slot9
+	end
+
+	slot5 = {}
+	slot6 = {}
+	slot7 = {}
+
+	for slot11, slot12 in pairs(slot4) do
+		if slot3[slot11] then
+			table.insert(slot5, slot12)
+		else
+			table.insert(slot6, slot12)
+		end
+	end
+
+	for slot11, slot12 in pairs(slot3) do
+		if not slot4[slot11] then
+			table.insert(slot7, slot12)
+		end
+	end
+
+	return slot5, slot6, slot7
+end

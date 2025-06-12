@@ -854,15 +854,7 @@ Angusjuu: 100 points
 Cape Bufflejuu: 200 points
 Bisonjuu: 300 points
 
-The game ends when the timer reaches 0 or when you tap the End Game button.
-
-When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
-· Refer to the following score-to-ticket values for each Credit spent:
-0-300 points: 180 Game Tickets
-301-600 points: 200 Game Tickets
-601-1500 points: 220 Game Tickets
-1501-3000 points: 240 Game Tickets
-Over 3000 points: 260 Game Tickets]]
+The game ends when the timer reaches 0 or when you tap the End Game button.]]
 			}
 		},
 		position = {
@@ -926,15 +918,7 @@ Over 3000 points: 260 Game Tickets]]
 · The curling stone's course will change if it bumps into an object.
 · When the curling stone comes to a stop, you will score points based on which circle it stopped inside. Stopping in the blue circle gives you 1,000 points, the yellow circle gives you 2,000 points, and the red circle gives you 3,000 points.
 
-The game ends when you finish the game or when you tap the End Game button.
-
-When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
-· Refer to the following score-to-ticket values for each Credit spent:
-0-1000 points: 180 Game Tickets
-1001-2000 points: 200 Game Tickets
-2001-3000 points: 220 Game Tickets
-3001-6000 points: 240 Game Tickets
-Over 6000 points: 260 Game Tickets]]
+The game ends when you finish the game or when you tap the End Game button.]]
 			}
 		},
 		position = {
@@ -1005,17 +989,7 @@ In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help he
 6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
 Defeating Nianjuu is worth 500 points.
 
-The game ends when you finish the game or when you tap the End Game button.
-
-The game ends when you finish the game or when you tap the End Game button.
-
-When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
-· Refer to the following score-to-ticket values for each Credit spent:
-0-1000 points: 180 Game Tickets
-1001-2000 points: 200 Game Tickets
-2001-3000 points: 220 Game Tickets
-3001-6000 points: 240 Game Tickets
-Over 6000 points: 260 Game Tickets]]
+The game ends when you finish the game or when you tap the End Game button.]]
 			}
 		},
 		position = {

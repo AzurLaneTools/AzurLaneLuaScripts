@@ -17,16 +17,13 @@ pg.activity_link_button = {
 	{
 		param = "5871",
 		name = "event_all",
+		time = "stop",
 		text_pic = "text_event_all",
 		type = 3,
 		pic = "event_all",
 		id = 2,
 		group_id = 1,
-		order = 2,
-		time = {
-			"default",
-			5871
-		}
+		order = 2
 	},
 	[9] = {
 		param = "0",
@@ -68,16 +65,13 @@ pg.activity_link_button = {
 	},
 	[21] = {
 		name = "event_holidayVilla",
+		time = "stop",
 		text_pic = "text_event_minigame",
 		type = 0,
 		pic = "event_minigame",
 		id = 21,
 		group_id = 5,
 		order = 1,
-		time = {
-			"default",
-			5951
-		},
 		param = {
 			"holiday villa map",
 			5922

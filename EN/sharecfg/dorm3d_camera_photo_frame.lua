@@ -1,5 +1,20 @@
 pg = pg or {}
-pg.dorm3d_camera_photo_frame = {
+pg.dorm3d_camera_photo_frame = setmetatable({
+	__name = "dorm3d_camera_photo_frame",
+	all = {
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.dorm3d_camera_photo_frame = {
 	[1001] = {
 		name = "Default",
 		rarity = 2,
@@ -140,13 +155,44 @@ pg.dorm3d_camera_photo_frame = {
 			0
 		}
 	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007
+	[1008] = {
+		name = "Walnut",
+		rarity = 3,
+		farme_path = "photo_frame_Wood",
+		frameTfName = "WoodFrame",
+		desc = "Unlocks the Walnut frame for the camera feature.",
+		unlock_text = "Unlocked at Intimacy Lv. 5 with New Jersey.",
+		id = 1008,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_Wood_small",
+		unlock = {
+			1,
+			10517,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1009] = {
+		name = "Lens",
+		rarity = 3,
+		farme_path = "photo_frame_Focus",
+		frameTfName = "FocusFrame",
+		desc = "Unlocks the Lens frame for the camera feature.",
+		unlock_text = "Unlocked at Intimacy Lv. 13 with New Jersey.",
+		id = 1009,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_Focus_small",
+		unlock = {
+			1,
+			10517,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
 	}
 }

@@ -219,6 +219,61 @@ pg.dorm3d_recall = {
 			1990301
 		}
 	},
+	[101] = {
+		story_id = 110510,
+		name = "Cute Adornment",
+		type = 1,
+		id = 101,
+		image = "recall_111",
+		unlock_text = "Unlocked at Intimacy Lv. 4.",
+		desc = "From her perspective, you're charming no matter what you wear.",
+		unlock = {
+			1,
+			10517,
+			4
+		}
+	},
+	[102] = {
+		story_id = 110520,
+		name = "Silly Pranks",
+		type = 1,
+		id = 102,
+		image = "recall_112",
+		unlock_text = "Unlocked at Intimacy Lv. 8.",
+		desc = "Don't worry about losing her – she'll always be by your side.",
+		unlock = {
+			1,
+			10517,
+			8
+		}
+	},
+	[103] = {
+		story_id = 110530,
+		name = "Frozen Goodness",
+		type = 1,
+		id = 103,
+		image = "recall_113",
+		unlock_text = "Unlocked at Intimacy Lv. 12.",
+		desc = "A cool, secret sweetness lingers where her lips once touched.",
+		unlock = {
+			1,
+			10517,
+			12
+		}
+	},
+	[104] = {
+		story_id = 110541,
+		name = "Sparkly Crystal",
+		type = 1,
+		id = 104,
+		image = "recall_114",
+		unlock_text = "赠送水晶糖后解锁",
+		desc = "What does this candy that shimmers like crystal taste like? Why not try it with her and see?",
+		unlock = {
+			3,
+			1051701
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -267,6 +322,18 @@ pg.dorm3d_recall = {
 		},
 		[30510] = {
 			51
+		},
+		[110510] = {
+			101
+		},
+		[110520] = {
+			102
+		},
+		[110530] = {
+			103
+		},
+		[110541] = {
+			104
 		}
 	},
 	all = {
@@ -285,6 +352,10 @@ pg.dorm3d_recall = {
 		41,
 		42,
 		43,
-		51
+		51,
+		101,
+		102,
+		103,
+		104
 	}
 }

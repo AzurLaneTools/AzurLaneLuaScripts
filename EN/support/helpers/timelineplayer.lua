@@ -54,8 +54,16 @@ slot0.Stop = function(slot0)
 	slot0.comDirector:Stop()
 end
 
+slot0.Resume = function(slot0)
+	slot0.comDirector:Resume()
+end
+
 slot0.SetSpeed = function(slot0, slot1)
 	setDirectorSpeed(slot0.comDirector, slot1)
+end
+
+slot0.GetTime = function(slot0)
+	return slot0.comDirector.time
 end
 
 slot0.SetTime = function(slot0, slot1)

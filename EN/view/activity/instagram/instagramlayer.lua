@@ -4,6 +4,15 @@ slot0.getUIName = function(slot0)
 	return "InstagramUI"
 end
 
+slot0.preload = function(slot0, slot1)
+	pg.m02:sendNotification(GAME.REQ_OLD_INSTAGRAM_DATA, {
+		callback = function ()
+			uv0:SetProxy(getProxy(InstagramProxy))
+			uv1()
+		end
+	})
+end
+
 slot0.SetProxy = function(slot0, slot1)
 	slot0.proxy = slot1
 	slot0.instagramVOById = slot1:GetData()

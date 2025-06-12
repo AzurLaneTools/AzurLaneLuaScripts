@@ -31036,7 +31036,7 @@ pg.activity_template = {
 		type = 125,
 		login_pop = 0,
 		config_id = 0,
-		is_show = 45,
+		is_show = 43,
 		title_res_tag = "xiarichongjian",
 		id = 5951,
 		page_core = "",
@@ -31081,7 +31081,7 @@ pg.activity_template = {
 				{
 					2025,
 					6,
-					11
+					18
 				},
 				{
 					23,
@@ -31609,7 +31609,7 @@ pg.activity_template = {
 		type = 74,
 		login_pop = 0,
 		config_id = 5958,
-		is_show = 47,
+		is_show = 45,
 		title_res_tag = "RosePt",
 		id = 5958,
 		page_core = "",
@@ -31769,7 +31769,7 @@ pg.activity_template = {
 				{
 					2025,
 					6,
-					11
+					18
 				},
 				{
 					23,
@@ -31788,7 +31788,7 @@ pg.activity_template = {
 		type = 115,
 		login_pop = 0,
 		config_id = 1,
-		is_show = 48,
+		is_show = 46,
 		title_res_tag = "urexchange",
 		id = 5963,
 		page_core = "",
@@ -33324,7 +33324,7 @@ pg.activity_template = {
 		type = 18,
 		login_pop = 0,
 		config_id = 3,
-		is_show = 48,
+		is_show = 44,
 		title_res_tag = "PlantNaximofu_main",
 		id = 5990,
 		page_core = "",
@@ -33485,6 +33485,142 @@ pg.activity_template = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	[5993] = {
+		mark = 20250612,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5993,
+		page_core = "",
+		config_data = {
+			10195,
+			10196,
+			10197,
+			10198,
+			10199
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[5994] = {
+		mark = 20250612,
+		type = 74,
+		login_pop = 0,
+		config_id = 5994,
+		is_show = 48,
+		config_client = "",
+		title_res_tag = "xiaodafeng_pt",
+		id = 5994,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LittleDaihoRePage",
+			ui_name = "LittleDaihoRePage"
+		}
+	},
+	[5995] = {
+		mark = 20250612,
+		page_info = "",
+		type = 13,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		title_res_tag = "",
+		id = 5995,
+		page_core = "",
+		config_data = {
+			23845
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		config_client = {
+			npc = {
+				"",
+				23845
 			}
 		}
 	},
@@ -34631,6 +34767,52 @@ pg.activity_template = {
 			ui_name = "SurveyPage"
 		}
 	},
+	[7108] = {
+		mark = 20250612,
+		type = 101,
+		login_pop = 0,
+		config_id = 1007,
+		is_show = 35,
+		config_client = "",
+		title_res_tag = "survey",
+		id = 7108,
+		page_core = "",
+		config_data = {
+			1,
+			30
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					18
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SurveyPage",
+			ui_name = "SurveyPage"
+		}
+	},
 	[7501] = {
 		mark = 20240926,
 		type = 89,
@@ -34694,6 +34876,71 @@ pg.activity_template = {
 		page_info = {
 			class_name = "DormSignPage",
 			ui_name = "DormSignPage"
+		}
+	},
+	[7502] = {
+		mark = 20250612,
+		type = 89,
+		login_pop = 99,
+		config_id = 0,
+		is_show = 47,
+		config_client = "",
+		title_res_tag = "DormSignTwo",
+		id = 7502,
+		page_core = "",
+		config_data = {
+			{
+				23846
+			},
+			{
+				23847
+			},
+			{
+				23848
+			},
+			{
+				23849
+			},
+			{
+				23850
+			},
+			{
+				23851
+			},
+			{
+				23852
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					12
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					12,
+					27
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DormSignTwoPage",
+			ui_name = "DormSignTwoPage"
 		}
 	},
 	[8009] = {
@@ -59978,6 +60225,7 @@ pg.activity_template = {
 			5981,
 			5984,
 			5986,
+			5994,
 			1086,
 			6006,
 			6010,
@@ -60170,6 +60418,8 @@ pg.activity_template = {
 			5985,
 			5987,
 			5991,
+			5993,
+			5995,
 			1079,
 			1080,
 			1081,
@@ -61178,7 +61428,8 @@ pg.activity_template = {
 		},
 		[89] = {
 			5261,
-			7501
+			7501,
+			7502
 		},
 		[22] = {
 			5264,
@@ -61267,7 +61518,8 @@ pg.activity_template = {
 			7101,
 			7103,
 			7106,
-			7107
+			7107,
+			7108
 		},
 		[119] = {
 			7104
@@ -62157,6 +62409,9 @@ pg.activity_template = {
 		5990,
 		5991,
 		5992,
+		5993,
+		5994,
+		5995,
 		7001,
 		7011,
 		7012,
@@ -62176,7 +62431,9 @@ pg.activity_template = {
 		7104,
 		7106,
 		7107,
+		7108,
 		7501,
+		7502,
 		8009,
 		8010,
 		8050,

@@ -492,17 +492,20 @@ slot0.updateNodes = function(slot0)
 	for slot4, slot5 in pairs(slot0.nodeDataDict) do
 		slot6 = slot5.nodeTF
 		slot7 = slot5.VO:GetNations()
-		slot8 = false
 
-		for slot12, slot13 in pairs(slot0.filterDict) do
-			if table.contains(slot7, slot12) then
-				slot8 = true
+		if not slot5.VO:IsMemoryBlock() then
+			slot8 = false
 
-				break
+			for slot12, slot13 in pairs(slot0.filterDict) do
+				if table.contains(slot7, slot12) then
+					slot8 = true
+
+					break
+				end
 			end
-		end
 
-		setActive(slot6:Find("info/selected_filter"), slot8)
+			setActive(slot6:Find("info/selected_filter"), slot8)
+		end
 	end
 
 	if slot0.selectedID then
@@ -545,31 +548,36 @@ slot0.updateNodeTree = function(slot0)
 
 	for slot7, slot8 in pairs(slot0.memoryNodeDict) do
 		for slot12, slot13 in ipairs(slot8) do
-			slot15 = cloneTplTo(slot0.nodeTpl, slot0.nodeContainer)
+			slot14 = {}
 
-			setActive(slot15, true)
-			LoadImageSpriteAsync("memorystoryline/" .. slot13:GetIcon(), slot15:Find("info/icon"), true)
-			setText(slot15:Find("info/name"), slot13:GetName())
+			setActive(cloneTplTo(slot0.nodeTpl, slot0.nodeContainer), true)
+
+			if slot13:IsMemoryBlock() then
+				LoadImageSpriteAtlasAsync("ui/worldmediacollectionmemoryui_atlas", "node_tail", slot15:Find("info/icon"))
+				setText(slot15:Find("info/name"), slot13:GetName())
+				setActive(slot15:Find("info/name"), false)
+				setActive(slot15:Find("info/mark"), false)
+			else
+				LoadImageSpriteAsync("memorystoryline/" .. slot13:GetIcon(), slot15:Find("info/icon"), true)
+				setText(slot15:Find("info/name"), slot13:GetName())
+				LoadImageSpriteAtlasAsync("ui/worldmediacollectionmemoryui_atlas", slot13:GetMark(), slot15:Find("info/mark"))
+				onButton(slot0, slot15, function ()
+					uv0:ShowNodeDetail(uv1:GetConfigID())
+				end)
+			end
 
 			slot2 = uv0.START_GAP + (slot7 - 1) * uv0.HRZ_GAP
 			slot16 = slot13:GetRow()
 			slot15.anchoredPosition = Vector2(slot2, -slot16 * 254)
 			slot1 = slot2 + uv0.END_GAP
+			slot14.nodeTF = slot15
+			slot14.row = slot16
+			slot14.col = slot7
+			slot14.linkData = {}
+			slot14.VO = slot13
 			slot0.nodeMap[slot7] = slot0.nodeMap[slot7] or {}
 			slot0.nodeMap[slot7][slot16] = true
-
-			LoadImageSpriteAtlasAsync("ui/worldmediacollectionmemoryui_atlas", slot13:GetMark(), slot15:Find("info/mark"))
-			onButton(slot0, slot15, function ()
-				uv0:ShowNodeDetail(uv1:GetConfigID())
-			end)
-
-			slot0.nodeDataDict[slot13:GetConfigID()] = {
-				nodeTF = slot15,
-				row = slot16,
-				col = slot7,
-				linkData = {},
-				VO = slot13
-			}
+			slot0.nodeDataDict[slot13:GetConfigID()] = slot14
 		end
 	end
 

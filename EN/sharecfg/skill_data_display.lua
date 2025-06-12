@@ -3207,6 +3207,14 @@ pg.skill_data_display = setmetatable({
 		1012401,
 		1013050,
 		1013051,
+		1010310,
+		1010311,
+		1010312,
+		1011870,
+		1011871,
+		1011872,
+		1011873,
+		1011874,
 		200002,
 		200005,
 		200008,
@@ -3504,6 +3512,7 @@ pg.skill_data_display = setmetatable({
 		1013021,
 		1013022,
 		1013023,
+		1013883,
 		1011560,
 		1011561,
 		1010960,
@@ -3515,6 +3524,10 @@ pg.skill_data_display = setmetatable({
 		1011154,
 		1012481,
 		1012482,
+		1010881,
+		1010883,
+		1011250,
+		1011251,
 		1090020,
 		1090042,
 		1090043,
@@ -5893,11 +5906,11 @@ pg.base.skill_data_display = {
 	},
 	[11870] = {
 		id = 11870,
-		name = "Divine Marksman+"
+		name = "Divine Marksman (R)"
 	},
 	[11871] = {
 		id = 11871,
-		name = "Divine Marksman+"
+		name = "Divine Marksman ®"
 	},
 	[11880] = {
 		id = 11880,
@@ -16411,6 +16424,38 @@ pg.base.skill_data_display = {
 		id = 1013051,
 		name = "Long Live the Revolution!+"
 	},
+	[1010310] = {
+		id = 1010310,
+		name = "Divine Marksman+"
+	},
+	[1010311] = {
+		id = 1010311,
+		name = "Royal Sword"
+	},
+	[1010312] = {
+		id = 1010312,
+		name = "Royal Sword"
+	},
+	[1011870] = {
+		id = 1011870,
+		name = "Divine Marksman (R)+"
+	},
+	[1011871] = {
+		id = 1011871,
+		name = "Divine Marksman (R)+"
+	},
+	[1011872] = {
+		id = 1011872,
+		name = "Divine Marksman (R)+"
+	},
+	[1011873] = {
+		id = 1011873,
+		name = "Divine Marksman (R)+"
+	},
+	[1011874] = {
+		id = 1011874,
+		name = "Divine Marksman (R)+"
+	},
 	[200002] = {
 		id = 200002,
 		name = "Air Armada Support"
@@ -17599,6 +17644,10 @@ pg.base.skill_data_display = {
 		id = 1013023,
 		name = "Lod Obstrel+"
 	},
+	[1013883] = {
+		id = 1013883,
+		name = "Iron Blood Falcon+"
+	},
 	[1011560] = {
 		id = 1011560,
 		name = "2,700 Pounds of Justice+"
@@ -17642,6 +17691,22 @@ pg.base.skill_data_display = {
 	[1012482] = {
 		id = 1012482,
 		name = "BALTIMORE!!!!!"
+	},
+	[1010881] = {
+		id = 1010881,
+		name = "Lucky Lou+"
+	},
+	[1010883] = {
+		id = 1010883,
+		name = "Lucky Lou+"
+	},
+	[1011250] = {
+		id = 1011250,
+		name = "Leyte Gulf's Blitz+"
+	},
+	[1011251] = {
+		id = 1011251,
+		name = "Leyte Gulf's Blitz+"
 	},
 	[1090020] = {
 		id = 1090020,

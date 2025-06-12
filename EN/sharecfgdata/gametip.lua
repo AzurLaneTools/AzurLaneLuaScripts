@@ -17197,6 +17197,11 @@ _G.pg.base.gametip.msgbox_repair_painting = {
 }
 
 
+_G.pg.base.gametip.l2d_32xbanned_warning = {
+	tip = "L2D content cannot be properly displayed on your device under the current circumstances."
+}
+
+
 _G.pg.base.gametip.word_no_cache = {
 	tip = "There are no assets to repair."
 }
@@ -30807,31 +30812,29 @@ _G.pg.base.gametip.notice_label_tip = {
 _G.pg.base.gametip.littleTaihou_npc = {
 	tip = {
 		{
-			info = "- Overview -\nDuring the event, Taihou-chan will provisionally join your fleet. Complete missions during the event to earn Practice Love Letters, which can be redeemed for Trust. Collect enough Trust to have Taihou-chan permanently join your fleet!"
+			info = "- Overview -\nDuring the event, Taihou-chan will provisionally join your fleet. Fight boss fleets to earn Trust. Collect enough Trust to have Taihou-chan permanently join your fleet!"
 		},
 		{
-			info = "- How to Play -\n· During the event period, you can earn Practice Love Letters by defeating the boss fleet in stages at or after Chapter 3 of the Campaign, or in event stages (excluding War Archives). You will be able to unlock rewards by reaching certain Trust milestones."
+			info = [[
+- How to Play -
+· Collect Trust during the event period to have Taihou-chan permanently join your fleet.
+· Trust can be gathered by defeating the boss fleet of campaign maps starting from Chapter 3 on normal difficulty and event maps (not including War Archives). If Taihou-chan is in the fleet that defeats the boss and she is still afloat, you'll receive double the amount of Trust.
+· The Trust you've collected can be turned in for additional rewards on the event banner.]]
 		},
 		{
-			info = "· When you defeat the boss of a stage that drops Practice Love Letters, you will earn twice as many Practice Love Letters if Taihou-chan is still afloat in one of the fleets at that time."
+			info = "· You will not be able to give a Promise Ring to Taihou-chan until you have formally recruited her to the fleet. You will also not be able to Retire her or use her as Enhancement or Limit Break material."
 		},
 		{
-			info = " You can redeem Practice Love Letters for Trust by tapping the bottom right button on the Passionate Confession Practice event banner. You will be able to collect rewards for accumulating a certain amount of Trust."
+			info = "· If Taihou-chan has not been formally recruited by the end of the event, she will leave the port."
 		},
 		{
-			info = "· You will not be able to give a Promise Ring to Taihou-chan until you have formally recruited her to the fleet. You will also not be able to Retire or use her as Enhancement or Limit Break material."
-		},
-		{
-			info = "· If Taihou-chan has not been formally recruited by the end of the event, she will leave the Port."
-		},
-		{
-			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day until June 7th."
+			info = "· Rewards for reaching certain amounts of Trust will unlock in phases, one phase per day up to June 18th."
 		},
 		{
 			info = "· Taihou-chan cannot participate in Operation Siren or META Showdowns until she has been formally recruited."
 		},
 		{
-			info = "· Taihou-chan cannot participate in Guild Bosses until she has been formally recruited."
+			info = "· Taihou-chan cannot participate in Guild Bosses until she has been formally recruited.￼"
 		}
 	}
 }
@@ -37625,6 +37628,11 @@ _G.pg.base.gametip.dorm3d_guide_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_guide_tip2 = {
+	tip = "Check out the beach first."
+}
+
+
 _G.pg.base.gametip.dorm3d_noshiro_table = {
 	tip = "Dining Area"
 }
@@ -37660,6 +37668,21 @@ _G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_xinzexi_table = {
+	tip = "Dining Area"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_chair = {
+	tip = "Living Area"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_bed = {
+	tip = "Bedroom"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "You have reached the maximum Intimacy level, and giving this gift won't increase Intimacy further, continue?"
 }
@@ -37667,6 +37690,11 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 
 _G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
 	tip = "Request From $1"
+}
+
+
+_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
+	tip = "Call from $1"
 }
 
 
@@ -37775,6 +37803,11 @@ _G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+	tip = "Loft"
+}
+
+
 _G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
 	tip = "Today"
 }
@@ -37806,7 +37839,7 @@ _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
-	tip = "Voice Call History"
+	tip = "Video Call History"
 }
 
 
@@ -37820,6 +37853,11 @@ _G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_video_call = {
+	tip = "Video Call"
+}
+
+
 _G.pg.base.gametip.dorm3d_ins_no_msg = {
 	tip = "Nothing New"
 }
@@ -37827,6 +37865,36 @@ _G.pg.base.gametip.dorm3d_ins_no_msg = {
 
 _G.pg.base.gametip.dorm3d_ins_no_topics = {
 	tip = "Nothing New"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_confirm = {
+	tip = "Confirm Change"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_already = {
+	tip = "Current"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_equip = {
+	tip = "Apply $2 to $1?"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_unlock = {
+	tip = "You cannot change clothes in a public area."
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_1 = {
+	tip = "Beach"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_2 = {
+	tip = "Loft"
 }
 
 
@@ -38278,6 +38346,36 @@ _G.pg.base.gametip.dorm3d_shop_others = {
 
 _G.pg.base.gametip.dorm3d_shop_limit1 = {
 	tip = "Weekly Limited"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
+	tip = "$1's Impromptu Dance"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame2 = {
+	tip = "Snap a Pic of $1!"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
+	tip = "Finish Shoot"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame4 = {
+	tip = "Again"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
+	tip = "Exit"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame6 = {
+	tip = "Match: $1"
 }
 
 
@@ -39064,4 +39162,14 @@ _G.pg.base.gametip.brs_reward_tip_1 = {
 
 _G.pg.base.gametip.brs_reward_tip_2 = {
 	tip = "Go"
+}
+
+
+_G.pg.base.gametip.dorm3d_dance_button = {
+	tip = "Dance"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_cafe = {
+	tip = "Café"
 }

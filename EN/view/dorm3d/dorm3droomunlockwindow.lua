@@ -65,7 +65,7 @@ slot0.didEnter = function(slot0)
 			slot1 = Drop.Create(slot0)
 
 			return string.format("%s*%d", slot1:getName(), slot1.count)
-		end)), "、"))
+		end)), slot1:getConfig("room")))
 
 		if slot1:needDownload() then
 			slot2, slot3 = slot1:getDownloadNeedSize()

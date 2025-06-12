@@ -25,6 +25,12 @@ pg.dorm3d_ins_chat_group = setmetatable({
 			19903106,
 			19903107,
 			19903108
+		},
+		[10517] = {
+			10517101,
+			10517102,
+			10517103,
+			10517104
 		}
 	},
 	all = {
@@ -45,7 +51,11 @@ pg.dorm3d_ins_chat_group = setmetatable({
 		19903105,
 		19903106,
 		19903107,
-		19903108
+		19903108,
+		10517101,
+		10517102,
+		10517103,
+		10517104
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -518,6 +528,120 @@ pg.base.dorm3d_ins_chat_group = {
 			306,
 			307,
 			308
+		}
+	},
+	[10517101] = {
+		ship_group = 10517,
+		name = "Waking Up Next to You",
+		unlock_desc = "Visit New Jersey's private quarters 1 time.",
+		type = "1",
+		id = 10517101,
+		content = {
+			309,
+			310,
+			311,
+			312,
+			313,
+			314,
+			315,
+			316,
+			317,
+			318,
+			319,
+			320,
+			321,
+			322,
+			323,
+			324,
+			325,
+			326,
+			327
+		}
+	},
+	[10517102] = {
+		ship_group = 10517,
+		name = "Scheduling Concerns",
+		unlock_desc = "Visit New Jersey's private quarters over 4 days.",
+		type = "1",
+		id = 10517102,
+		content = {
+			327,
+			328,
+			329,
+			330,
+			331,
+			332,
+			333,
+			334,
+			335,
+			336,
+			337,
+			338,
+			339,
+			340,
+			341,
+			342,
+			343,
+			344,
+			345,
+			346,
+			347
+		}
+	},
+	[10517103] = {
+		ship_group = 10517,
+		name = "Action Movie",
+		unlock_desc = "Visit New Jersey's private quarters over 7 days.",
+		type = "1",
+		id = 10517103,
+		content = {
+			348,
+			349,
+			350,
+			351,
+			352,
+			353,
+			354,
+			355,
+			356,
+			357,
+			358,
+			359,
+			360,
+			361,
+			362,
+			363,
+			364
+		}
+	},
+	[10517104] = {
+		ship_group = 10517,
+		name = "A Girl's Secrets",
+		unlock_desc = "Collect 20 items in New Jersey's private quarters.",
+		type = "1",
+		id = 10517104,
+		content = {
+			365,
+			366,
+			367,
+			368,
+			369,
+			370,
+			371,
+			372,
+			373,
+			374,
+			375,
+			376,
+			377,
+			378,
+			379,
+			380,
+			381,
+			382,
+			383,
+			384,
+			385
 		}
 	}
 }

@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 20066
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 5980
+		act_id = 5995
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -1082,6 +1082,9 @@ pg.activity_const = {
 	},
 	DORM_SIGN_ID = {
 		act_id = 7501
+	},
+	DORM_SIGN_ID_2 = {
+		act_id = 7502
 	},
 	TOLOVE_MINIGAME_TASK_ID = {
 		act_id = 5680

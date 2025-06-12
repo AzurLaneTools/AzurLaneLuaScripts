@@ -100,6 +100,56 @@ pg.dorm3d_ins_language = {
 		key = "ankeleiqi_2_2_1",
 		is_active = "0"
 	},
+	xinzexi_1 = {
+		value = "Bleeeck! I drank something really bitter. I knew I was wrong to try new things!",
+		key = "xinzexi_1",
+		is_active = "0"
+	},
+	xinzexi_1_1 = {
+		value = "Are you okay? What could possibly be that bad?",
+		key = "xinzexi_1_1",
+		is_active = "0"
+	},
+	xinzexi_1_1_1 = {
+		value = "Of course I'm not. It's so bitter, I'm gonna DIE! You need to nurse me back to health, honey!",
+		key = "xinzexi_1_1_1",
+		is_active = "0"
+	},
+	xinzexi_1_2 = {
+		value = "What kind of medicine can cure that bitterness?",
+		key = "xinzexi_1_2",
+		is_active = "0"
+	},
+	xinzexi_1_2_1 = {
+		value = "I know just the thing! The fruit juice YOU bring me. One sip will wash away all the bitterness!",
+		key = "xinzexi_1_2_1",
+		is_active = "0"
+	},
+	xinzexi_2 = {
+		value = "I wanna do something for you, honey~ Got any ideas?",
+		key = "xinzexi_2",
+		is_active = "0"
+	},
+	xinzexi_2_1 = {
+		value = "How about something you want to do?",
+		key = "xinzexi_2_1",
+		is_active = "0"
+	},
+	xinzexi_2_1_1 = {
+		value = "Hmm... I've already done everything I want, and I'm spending time with YOU!",
+		key = "xinzexi_2_1_1",
+		is_active = "0"
+	},
+	xinzexi_2_2 = {
+		value = "I'm happy as long as you're with me.",
+		key = "xinzexi_2_2",
+		is_active = "0"
+	},
+	xinzexi_2_2_1 = {
+		value = "That's not enough at all! We gotta do something more meaningful, more exciting! Like... How about a couple's vacation?",
+		key = "xinzexi_2_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -120,6 +170,16 @@ pg.dorm3d_ins_language = {
 		"ankeleiqi_1_1_1",
 		"ankeleiqi_1_2_1",
 		"ankeleiqi_2_1_1",
-		"ankeleiqi_2_2_1"
+		"ankeleiqi_2_2_1",
+		"xinzexi_1",
+		"xinzexi_1_1",
+		"xinzexi_1_1_1",
+		"xinzexi_1_2",
+		"xinzexi_1_2_1",
+		"xinzexi_2",
+		"xinzexi_2_1",
+		"xinzexi_2_1_1",
+		"xinzexi_2_2",
+		"xinzexi_2_2_1"
 	}
 }

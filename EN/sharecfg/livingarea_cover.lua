@@ -19,7 +19,7 @@ pg.livingarea_cover = {
 		daytime_res = "100101_bg_day",
 		rarity = 3,
 		desc = "Unlocks the Welcome wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 2 with Sirius.",
+		unlock_text = "Reach Sirius Intimacy Lv. 2",
 		id = 100101,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100101_icon"
@@ -31,7 +31,7 @@ pg.livingarea_cover = {
 		daytime_res = "100102_bg_day",
 		rarity = 3,
 		desc = "Unlocks the Chitchat wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 6 with Sirius.",
+		unlock_text = "Reach Sirius Intimacy Lv. 6",
 		id = 100102,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100102_icon"
@@ -43,7 +43,7 @@ pg.livingarea_cover = {
 		daytime_res = "100103_bg_day",
 		rarity = 3,
 		desc = "Unlocks the Cleaning the Bed wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 14 with Sirius.",
+		unlock_text = "Reach Sirius Intimacy Lv. 14",
 		id = 100103,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100103_icon"
@@ -55,7 +55,7 @@ pg.livingarea_cover = {
 		daytime_res = "100201_bg_day",
 		rarity = 3,
 		desc = "Unlocks the Waiting by the Window wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 2 with Noshiro.",
+		unlock_text = "Reach Noshiro Intimacy Lv. 2",
 		id = 100201,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100201_icon"
@@ -67,7 +67,7 @@ pg.livingarea_cover = {
 		daytime_res = "100202_bg_day",
 		rarity = 3,
 		desc = "Unlocks the Invitation to Afternoon Tea wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 7 with Noshiro.",
+		unlock_text = "Reach Noshiro Intimacy Lv. 7",
 		id = 100202,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100202_icon"
@@ -79,7 +79,7 @@ pg.livingarea_cover = {
 		daytime_res = "100203_bg_day",
 		rarity = 3,
 		desc = "Unlocks the A Moment of Respite wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 10 with Noshiro.",
+		unlock_text = "Reach Noshiro Intimacy Lv. 10",
 		id = 100203,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100203_icon"
@@ -91,7 +91,7 @@ pg.livingarea_cover = {
 		daytime_res = "100301_bg_day",
 		rarity = 3,
 		desc = "Unlocks the Delicious Amusement wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 2 with Anchorage.",
+		unlock_text = "Reach Anchorage Intimacy Lv. 2",
 		id = 100301,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100301_icon"
@@ -103,7 +103,7 @@ pg.livingarea_cover = {
 		daytime_res = "100302_bg_day",
 		rarity = 3,
 		desc = "Unlocks the Story Time wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 9 with Anchorage.",
+		unlock_text = "Reach Anchorage Intimacy Lv. 9",
 		id = 100302,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100302_icon"
@@ -115,10 +115,46 @@ pg.livingarea_cover = {
 		daytime_res = "100303_bg_day",
 		rarity = 3,
 		desc = "Unlocks the World of Drawing wallpaper for the port.",
-		unlock_text = "Unlocked at Intimacy Lv. 13 with Anchorage.",
+		unlock_text = "Reach Anchorage Intimacy Lv. 13",
 		id = 100303,
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100303_icon"
+	},
+	[101101] = {
+		get_tips = "You obtained an Intimacy wallpaper.",
+		name = "Leisure in Peace",
+		nighttime_res = "101101_bg_night",
+		daytime_res = "101101_bg_day",
+		rarity = 3,
+		desc = "Unlocks the Leisure in Peace wallpaper for the port.",
+		unlock_text = "Reach New Jersey Intimacy Lv. 2",
+		id = 101101,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101101_icon"
+	},
+	[101102] = {
+		get_tips = "You obtained an Intimacy wallpaper.",
+		name = "Sunny Smiles",
+		nighttime_res = "101102_bg_night",
+		daytime_res = "101102_bg_day",
+		rarity = 3,
+		desc = "Unlocks the Sunny Smiles wallpaper for the port.",
+		unlock_text = "Reach New Jersey Intimacy Lv. 7",
+		id = 101102,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101102_icon"
+	},
+	[101103] = {
+		get_tips = "You obtained an Intimacy wallpaper.",
+		name = "Sweet Whispers",
+		nighttime_res = "101103_bg_night",
+		daytime_res = "101103_bg_day",
+		rarity = 3,
+		desc = "Unlocks the Sweet Whispers wallpaper for the port.",
+		unlock_text = "Reach New Jersey Intimacy Lv. 10",
+		id = 101103,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101103_icon"
 	},
 	all = {
 		0,
@@ -130,6 +166,9 @@ pg.livingarea_cover = {
 		100203,
 		100301,
 		100302,
-		100303
+		100303,
+		101101,
+		101102,
+		101103
 	}
 }

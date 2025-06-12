@@ -68,10 +68,6 @@ slot0.init = function(slot0)
 	setActive(slot0.shareUI, false)
 
 	slot0.ysScreenShoter = slot0._tf:Find("Shoter"):GetComponent(typeof(YSTool.YSScreenShoter))
-	slot0.skinSelectPanel = slot0._tf:Find("SkinSelectPanel")
-
-	setActive(slot0.skinSelectPanel, false)
-
 	slot0.btnMenuSmall = slot0._tf:Find("Center/MenuSmall")
 	slot0.btnMenu = slot0._tf:Find("Center/Menu")
 
@@ -93,8 +89,6 @@ slot0.init = function(slot0)
 	setText(slot0.panelAction:Find("Layout/Title/Regular/Selected"), i18n("dorm3d_photo_regular_anim"))
 	setText(slot0.panelAction:Find("Layout/Title/Special/Name"), i18n("dorm3d_photo_special_anim"))
 	setText(slot0.panelAction:Find("Layout/Title/Special/Selected"), i18n("dorm3d_photo_special_anim"))
-	setText(slot0.skinSelectPanel:Find("BG/Scroll/Content/Unlock/Title/Text"), i18n("word_unlock"))
-	setText(slot0.skinSelectPanel:Find("BG/Scroll/Content/Lock/Title/Text"), i18n("word_lock"))
 
 	slot0.mainCamera = GameObject.Find("BackYardMainCamera"):GetComponent(typeof(Camera))
 	slot0.stopRecBtn = slot0:findTF("stopRec")
@@ -391,11 +385,9 @@ slot0.didEnter = function(slot0)
 		setActive(uv0.btnMenuSmall, true)
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnMenu, function ()
-		setActive(uv0.skinSelectPanel, true)
-		uv0:UpdateSkinList()
-	end, SFX_PANEL)
-	onButton(slot0, slot0.skinSelectPanel:Find("BG/Close"), function ()
-		setActive(uv0.skinSelectPanel, false)
+		uv0:emit(Dorm3dPhotoMediator.OPEN_SKIN_SELECT_LAYER, uv0.groupId, uv0.scene.ladyDict[uv0.groupId], function (slot0, slot1, slot2)
+			uv0:OnSwitchSkin(slot0, slot1, slot2)
+		end, not uv0.scene.room:isPersonalRoom())
 	end, SFX_PANEL)
 
 	slot0.activePanel = 1
@@ -1187,106 +1179,56 @@ slot0.UpdateLightingPanel = function(slot0)
 	setActive(slot0.panelLightning:Find("Layout/Filter/Slider"), false)
 end
 
-slot0.UpdateSkinList = function(slot0)
-	slot2 = slot0.scene.ladyDict[slot0.scene.apartment:GetConfigID()]
-	slot4 = slot2.skinId
-	slot5 = {}
-	slot6 = {}
+slot0.OnSwitchSkin = function(slot0, slot1, slot2, slot3)
+	seriesAsync({
+		function (slot0)
+			if uv0.settingHideCharacter then
+				uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
+			end
 
-	_.each(slot2.skinIdList, function (slot0)
-		if ApartmentProxy.CheckUnlockConfig(pg.dorm3d_resource[slot0].unlock) then
-			table.insert(uv0, slot0)
-		else
-			table.insert(uv1, slot0)
+			uv1:SwitchCharacterSkin(uv2, uv3, slot0)
+		end,
+		function (slot0)
+			setActive(uv0.ladySafeCollider, true)
+
+			if not uv1.animInfo then
+				return slot0()
+			end
+
+			for slot5 = #uv1.animInfo.animPlayList, 1, -1 do
+				if #slot1.animPlayList[slot5]:GetStartPoint() > 0 then
+					uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot7)
+
+					break
+				end
+
+				if slot5 == 1 then
+					uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", uv1.room:GetCameraZones()[uv1.zoneIndex]:GetWatchCameraName())
+				end
+			end
+
+			uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
+
+			slot2 = slot1.animPlayList[#slot1.animPlayList]
+
+			uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot2:GetStateName())
+			uv1.scene.ladyDict[uv2].ladyAnimator:Update(slot2:GetAnimTime())
+			uv1.timerAnim:Stop()
+
+			uv1.timerAnim = nil
+			uv1.animInfo = nil
+			uv1.animPlaying = nil
+
+			slot0()
+		end,
+		function ()
+			uv0:UpdateActionPanel()
+
+			if uv0.settingHideCharacter then
+				uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
+			end
 		end
-	end)
-
-	slot7 = function(slot0, slot1)
-		UIItemList.StaticAlign(slot0, slot0:GetChild(0), #(slot1 and uv0 or uv1), function (slot0, slot1, slot2)
-			if slot0 ~= UIItemList.EventUpdate then
-				return
-			end
-
-			setActive(slot2:Find("Selected"), uv0[slot1 + 1] == uv1)
-			setActive(slot2:Find("Lock"), not uv2)
-
-			if not uv2 then
-				setText(slot2:Find("Lock/Bar/Text"), pg.dorm3d_resource[slot3].unlock_text)
-			end
-
-			uv3.loader:GetSpriteQuiet(string.format("dorm3dselect/apartment_skin_%d", slot3), "", slot2:Find("Icon"))
-			onButton(uv3, slot2, function ()
-				if not uv0 then
-					slot0, slot1 = ApartmentProxy.CheckUnlockConfig(pg.dorm3d_resource[uv1].unlock)
-
-					pg.TipsMgr.GetInstance():ShowTips(slot1)
-
-					return
-				end
-
-				if uv1 == uv2 then
-					return
-				end
-
-				slot0 = uv1
-
-				seriesAsync({
-					function (slot0)
-						if uv0.settingHideCharacter then
-							uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "RevertCharacterBylayer")
-						end
-
-						uv0.scene:SwitchCharacterSkin(uv1, uv2, uv3, slot0)
-					end,
-					function (slot0)
-						setActive(uv0.ladySafeCollider, true)
-
-						if not uv1.animInfo then
-							return slot0()
-						end
-
-						for slot5 = #uv1.animInfo.animPlayList, 1, -1 do
-							if #slot1.animPlayList[slot5]:GetStartPoint() > 0 then
-								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", slot7)
-
-								break
-							end
-
-							if slot5 == 1 then
-								uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "ResetCurrentCharPoint", uv1.room:GetCameraZones()[uv1.zoneIndex]:GetWatchCameraName())
-							end
-						end
-
-						uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "SyncCurrentInterestTransform")
-
-						slot2 = slot1.animPlayList[#slot1.animPlayList]
-
-						uv1.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "PlayCurrentSingleAction", slot2:GetStateName())
-						uv1.scene.ladyDict[uv2].ladyAnimator:Update(slot2:GetAnimTime())
-						uv1.timerAnim:Stop()
-
-						uv1.timerAnim = nil
-						uv1.animInfo = nil
-						uv1.animPlaying = nil
-
-						slot0()
-					end,
-					function ()
-						uv0:UpdateActionPanel()
-
-						if uv0.settingHideCharacter then
-							uv0.scene:emit(Dorm3dRoomTemplateScene.PHOTO_CALL, "HideCharacterBylayer")
-						end
-
-						uv0:UpdateSkinList()
-					end
-				})
-			end, SFX_PANEL)
-		end)
-	end
-
-	slot7(slot0.skinSelectPanel:Find("BG/Scroll/Content/Unlock/List"), true)
-	slot7(slot0.skinSelectPanel:Find("BG/Scroll/Content/Lock/List"), false)
+	})
 end
 
 slot0.SetMute = function(slot0)
@@ -1308,12 +1250,6 @@ slot0.willExit = function(slot0)
 		slot0.timerAnim:Stop()
 
 		slot0.timerAnim = nil
-	end
-
-	slot2 = slot0.scene.ladyDict[slot0.scene.apartment:GetConfigID()]
-
-	if slot2.skinId ~= slot2.skinIdList[1] then
-		slot0.scene:SwitchCharacterSkin(slot2, slot1, slot3[1])
 	end
 
 	if slot0.animSpeed ~= 1 then

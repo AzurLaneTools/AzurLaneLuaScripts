@@ -78,7 +78,7 @@ end
 
 slot1.PushCache = function(slot0)
 	for slot4, slot5 in ipairs(uv0) do
-		YSNormalTool.NotificationTool.ScheduleNotification(slot4, slot5.title, slot5.content, slot5.offsetSecond * 1000)
+		YSNormalTool.NotificationTool.ScheduleNotification(slot4, slot5.title, slot5.content, slot5.offsetSecond * 1000, "ys_icon_notification")
 	end
 end
 

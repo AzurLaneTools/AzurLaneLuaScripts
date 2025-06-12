@@ -102,12 +102,30 @@ pg.survey_data_template = {
 			}
 		}
 	},
+	[1007] = {
+		ios_url = "https://usersurvey.wjx.cn/vm/wFx2bAQ.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		uo_url = "https://usersurvey.wjx.cn/vm/twi78ax.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6&##",
+		main_url = "https://survey.yostar.net/vm/Y5okrXt.aspx?q1=$1&q2=$2&q3=$3&q4=$4&q5=$5&sojumpparm=$6",
+		id = 1007,
+		name = "问卷第七期",
+		main_activity = "317390637",
+		ios_activity = "252629969",
+		uo_activity = "252629896",
+		bonus = {
+			{
+				2,
+				20001,
+				5
+			}
+		}
+	},
 	all = {
 		1001,
 		1002,
 		1004,
 		1003,
 		1005,
-		1006
+		1006,
+		1007
 	}
 }

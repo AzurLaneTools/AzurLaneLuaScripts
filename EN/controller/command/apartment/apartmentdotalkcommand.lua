@@ -24,10 +24,9 @@ slot0.execute = function(slot0, slot1)
 				PlayerPrefs.SetInt("apartment_collection_recall", uv0)
 			end
 
-			uv1 = uv2:getApartment(uv3)
-			uv1.talkDic[uv0] = true
-
-			uv2:updateApartment(uv1)
+			uv2:ModifyApartment(uv3, function (slot0)
+				slot0.talkDic[uv0] = true
+			end)
 
 			slot2 = PlayerConst.addTranDrop(slot0.drop_list)
 

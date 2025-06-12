@@ -29,6 +29,12 @@ slot0.Init = function(slot0)
 	setActive(slot0.loadDot, false)
 	setActive(slot0.loadLoading, false)
 	onButton(slot0, slot0._tf, function ()
+		if Live2dConst.GetLive2DArm32MatchAble() then
+			Live2dConst.ShowLive2DArm32Tips()
+
+			return
+		end
+
 		slot1 = pg.SettingsGroupMgr:GetInstance():GetState(uv0:GetDownloadGroup())
 
 		if uv0:isNeedUpdate() and slot1 ~= pg.SettingsGroupMgr.State.Updating then
@@ -55,13 +61,22 @@ slot0.InitPrefsBar = function(slot0)
 	slot0.hideTip = true
 
 	onToggle(slot0, slot0.prefsBar, function (slot0)
-		if slot0 == true then
-			GroupHelper.SetGroupPrefsByName(uv0, DMFileChecker.Prefs.Max)
-		else
-			GroupHelper.SetGroupPrefsByName(uv0, DMFileChecker.Prefs.Min)
+		if Live2dConst.GetLive2DArm32MatchAble() then
+			if slot0 then
+				Live2dConst.ShowLive2DArm32Tips()
+				triggerToggle(uv0.prefsBar, false)
+			end
+
+			return
 		end
 
-		if not uv1.hideTip then
+		if slot0 == true then
+			GroupHelper.SetGroupPrefsByName(uv1, DMFileChecker.Prefs.Max)
+		else
+			GroupHelper.SetGroupPrefsByName(uv1, DMFileChecker.Prefs.Min)
+		end
+
+		if not uv0.hideTip then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("group_prefs_switch_tip"))
 		end
 	end, SFX_PANEL)
