@@ -240,8 +240,28 @@ slot0.getBuildingBluePrint = function(slot0)
 	end
 end
 
+slot0.getAllBluePrintShipIds = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.bluePrintData) do
+		if slot6:isFetched() then
+			table.insert(slot1, slot6.shipId)
+		end
+	end
+
+	return slot1
+end
+
 slot0.GetBlueprint4Item = function(slot0, slot1)
 	return slot0.item2blueprint[slot1]
+end
+
+slot0.updatePhantomQuestProgress = function(slot0, slot1, slot2)
+	for slot6, slot7 in pairs(slot0.bluePrintData) do
+		if slot7:isFetched() and slot2[slot7.shipId] then
+			slot7:setPhantomQuestProgress(slot1, slot2[slot7.shipId])
+		end
+	end
 end
 
 slot0.getCatchupData = function(slot0, slot1)

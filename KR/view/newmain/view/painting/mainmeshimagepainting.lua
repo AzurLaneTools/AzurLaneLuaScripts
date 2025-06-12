@@ -268,7 +268,7 @@ slot0.OnLongPress = function(slot0)
 end
 
 slot0.OnDisplayWorld = function(slot0, slot1)
-	slot3, slot0.expression = ShipExpressionHelper.SetExpression(findTF(slot0.container, "fitter"):GetChild(0), slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship.skinId)
+	slot3, slot0.expression = ShipExpressionHelper.SetExpression(findTF(slot0.container, "fitter"):GetChild(0), slot0.paintingName, slot1, slot0.ship:getCVIntimacy(), slot0.ship:getSkinId())
 end
 
 slot0.OnTriggerEvent = function(slot0)
@@ -342,7 +342,7 @@ slot0.GetPaintingTransform = function(slot0)
 end
 
 slot0.GetPartScaleData = function(slot0)
-	return pg.ship_skin_template[slot0.ship.skinId].part_scale.paint
+	return pg.ship_skin_template[slot0.ship:getSkinId()].part_scale.paint
 end
 
 slot0.GetPartStateType = function(slot0)

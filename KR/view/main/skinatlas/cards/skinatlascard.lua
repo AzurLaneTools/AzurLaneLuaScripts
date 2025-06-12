@@ -27,16 +27,14 @@ slot0.Update = function(slot0, slot1, slot2)
 		uv0.icon.sprite = slot0
 	end)
 
-	slot4 = getProxy(BayProxy):findShipsByGroup(slot1:getConfig("ship_group"))
+	slot3 = slot1:getConfig("ship_group")
 
-	setActive(slot0.usingTr, #slot4 > 0 and _.any(slot4, function (slot0)
-		return ShipGroup.IsSameChangeSkinGroup(slot0.skinId, uv0.id) or slot0.skinId == uv0.id
-	end))
-	setActive(slot0.unavailableTr, #slot4 == 0 or getProxy(CollectionProxy).shipGroups[slot3] == nil)
+	setActive(slot0.usingTr, not slot1:WithoutUse())
+	setActive(slot0.unavailableTr, #getProxy(BayProxy):findShipsByGroup(slot3) == 0 or getProxy(CollectionProxy).shipGroups[slot3] == nil)
 
 	slot0.name.text = shortenString(slot1:getConfig("name"), 7)
 
-	setActive(slot0.changeSkinUI, ShipGroup.GetChangeSkinData(slot0.skin.id) and true or false)
+	setActive(slot0.changeSkinUI, ShipSkin.GetChangeSkinData(slot0.skin.id) and true or false)
 
 	if slot8 then
 		if not slot0.changeSkinToggle then
@@ -50,9 +48,9 @@ slot0.Update = function(slot0, slot1, slot2)
 end
 
 slot0.changeSkinNext = function(slot0)
-	if ShipGroup.GetChangeSkinData(slot0.skin.id) then
+	if ShipSkin.GetChangeSkinData(slot0.skin.id) then
 		slot0:Update(ShipSkin.New({
-			id = ShipGroup.GetChangeSkinNextId(slot0.skin.id)
+			id = ShipSkin.GetChangeSkinNextId(slot0.skin.id)
 		}), slot0.index)
 	end
 end

@@ -1379,6 +1379,9 @@ pg.ship_data_group = setmetatable({
 		[40315] = {
 			634
 		},
+		[40316] = {
+			697
+		},
 		[40401] = {
 			248
 		},
@@ -2813,6 +2816,7 @@ pg.ship_data_group = setmetatable({
 			546,
 			568,
 			634,
+			697,
 			248,
 			249,
 			543,
@@ -3605,6 +3609,7 @@ pg.ship_data_group = setmetatable({
 		546,
 		568,
 		634,
+		697,
 		248,
 		249,
 		543,
@@ -24389,6 +24394,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"이벤트: 공명의 Passion",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[697] = {
+		nationality = 4,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40316,
+		index_id = 462,
+		code = 697,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"한정 이벤트: 「심연의 나라의 지배자」",
 				{
 					""
 				},

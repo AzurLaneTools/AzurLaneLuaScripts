@@ -71,8 +71,8 @@ return {
 				slot1
 			}
 
-			if ShipGroup.IsChangeSkin(slot1) then
-				for slot7, slot8 in ipairs(ShipGroup.GetAllChangeSkinIds(slot1)) do
+			if ShipSkin.IsChangeSkin(slot1) then
+				for slot7, slot8 in ipairs(ShipSkin.GetAllChangeSkinIds(slot1)) do
 					if not table.contains(slot2, slot8) then
 						table.insert(slot2, slot8)
 					end

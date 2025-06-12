@@ -97,7 +97,7 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.GO_SNAPSHOT, function (slot0)
 		slot1 = uv0.viewComponent.bgView.ship
-		slot2 = slot1.skinId
+		slot2 = slot1:getSkinId()
 		slot3 = uv0.viewComponent.paintingView:IsLive2DState()
 		slot4 = nil
 
@@ -153,9 +153,6 @@ slot0.register = function(slot0)
 		uv0:addSubLayers(slot1)
 	end)
 	slot0:bind(uv0.CHANGE_SKIN_TOGGLE, function (slot0, slot1)
-		slot2 = ShipGroup.GetChangeSkinGroupId(slot1.skin_id)
-		slot3 = ShipGroup.GetChangeSkinNextId(slot1.ship_id)
-
 		uv0:sendNotification(GAME.CHANGE_SKIN_AB, slot1)
 	end)
 end

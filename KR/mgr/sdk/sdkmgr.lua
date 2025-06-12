@@ -480,6 +480,10 @@ slot0.EventTrack = function(slot0, slot1)
 	slot0:Call("EventTrack", slot1)
 end
 
+slot0.EventTrack = function(slot0, slot1)
+	slot0:Call("EventTrack", slot1)
+end
+
 slot0.IsBindFaceBook = function(slot0)
 	if PLATFORM_CODE == PLATFORM_CHT then
 		return slot0:Get("IsBindFaceBook")

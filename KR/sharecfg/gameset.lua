@@ -3813,5 +3813,13 @@ pg.gameset = {
 			},
 			10
 		}
+	},
+	technology_shadow_num = {
+		description = "",
+		key_value = 6
+	},
+	technology_shadow_unlock_lv = {
+		description = "",
+		key_value = 100
 	}
 }

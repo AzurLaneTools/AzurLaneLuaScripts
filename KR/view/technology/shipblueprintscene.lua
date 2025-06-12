@@ -112,7 +112,7 @@ slot0.init = function(slot0)
 	slot0.speedupBtn = slot0:findTF("main/speedup_btn")
 	slot0.taskListPanel = slot0:findTF("task_list", slot0.rightPanel)
 	slot0.taskContainer = slot0:findTF("task_list/scroll/content", slot0.rightPanel)
-	slot0.taskTpl = slot0:findTF("task_list/task_tpl", slot0.rightPanel)
+	slot0.taskTpl = slot0:findTF("task_tpl", slot0.taskContainer)
 	slot0.modPanel = slot0:findTF("mod_panel", slot0.rightPanel)
 	slot0.attrContainer = slot0:findTF("desc/atrrs", slot0.modPanel)
 	slot0.levelSlider = slot0:findTF("title/slider", slot0.modPanel):GetComponent(typeof(Slider))
@@ -120,6 +120,10 @@ slot0.init = function(slot0)
 	slot0.preLevelSlider = slot0:findTF("title/pre_slider", slot0.modPanel):GetComponent(typeof(Slider))
 	slot0.modLevel = slot0:findTF("title/level_bg/Text", slot0.modPanel):GetComponent(typeof(Text))
 	slot0.needLevelTxt = slot0:findTF("title/Text", slot0.modPanel):GetComponent(typeof(Text))
+	slot0.phantomPanel = slot0.rightPanel:Find("phantom_panel")
+	slot0.rtPhantomQuestContainer = slot0.phantomPanel:Find("desc/content")
+	slot0.questTpl = slot0.rtPhantomQuestContainer:GetChild(0)
+	slot0.btnPhantom = slot0.top:Find("phantomBtn")
 	slot0.calcPanel = slot0.modPanel:Find("desc/calc_panel")
 	slot0.calcMinusBtn = slot0.calcPanel:Find("calc/base/minus")
 	slot0.calcPlusBtn = slot0.calcPanel:Find("calc/base/plus")
@@ -300,6 +304,27 @@ slot0.didEnter = function(slot0)
 		uv0.svQuickExchange:ActionInvoke("Show")
 		uv0.svQuickExchange:ActionInvoke("UpdateBlueprint", uv0.contextData.shipBluePrintVO)
 	end)
+	setText(slot0.modPanel:Find("switch/Text"), i18n("tech_shadow_change_button_1"))
+	onButton(slot0, slot0.modPanel:Find("switch"), function ()
+		uv0:switchState(uv1, true, function ()
+			uv0.isPhantom = true
+
+			setActive(uv0.phantomPanel, uv0.isPhantom)
+			setActive(uv0.modPanel, not uv0.isPhantom)
+		end)
+	end, SFX_PANEL)
+	setText(slot0.phantomPanel:Find("switch/Text"), i18n("tech_shadow_change_button_2"))
+	onButton(slot0, slot0.phantomPanel:Find("switch"), function ()
+		uv0:switchState(uv1, true, function ()
+			uv0.isPhantom = false
+
+			setActive(uv0.phantomPanel, uv0.isPhantom)
+			setActive(uv0.modPanel, not uv0.isPhantom)
+		end)
+	end, SFX_PANEL)
+	onButton(slot0, slot0.btnPhantom, function ()
+		uv0:emit(ShipBluePrintMediator.OPEN_PHANTOM_LAYER, uv0.version)
+	end, SFX_PANEL)
 	pg.UIMgr.GetInstance():OverlayPanelPB(slot0.blurPanel, {
 		pbList = {
 			slot0.rightPanel:Find("task_list"),
@@ -442,6 +467,7 @@ slot0.switchHide = function(slot0)
 	setActive(slot0.stateInfo, slot1)
 	setActive(slot0.helpBtn, slot1)
 	setActive(slot0.exchangeBtn, slot1)
+	setActive(slot0.btnPhantom, slot1)
 	setImageAlpha(slot0.itemUnlockBtn, slot1 and 1 or 0)
 	setImageRaycastTarget(slot0.itemUnlockBtn, slot1)
 	setImageAlpha(slot0.speedupBtn, slot1 and 1 or 0)
@@ -472,7 +498,7 @@ slot0.switchState = function(slot0, slot1, slot2, slot3, slot4)
 		table.insert(slot5, function (slot0)
 			uv0.flag = true
 
-			if uv0.isFate then
+			if uv0.isFate or uv0.isPhantom then
 				uv0:switchUI(uv1, {
 					-uv0.leftPanle.rect.width - 400,
 					0,
@@ -733,8 +759,7 @@ slot0.setSelectedBluePrint = function(slot0)
 		end
 
 		slot0:updateMod()
-		setActive(slot0.taskListPanel, false)
-		setActive(slot0.attrDisableBtn, false)
+		slot0:updatePhantomQuest()
 	else
 		slot0.isFate = false
 
@@ -742,8 +767,9 @@ slot0.setSelectedBluePrint = function(slot0)
 		triggerToggle(slot0.initBtn, true)
 	end
 
+	setActive(slot0.phantomPanel, slot2 and slot0.isPhantom)
 	setActive(slot0.fittingPanel, slot2 and slot0.isFate)
-	setActive(slot0.modPanel, slot2 and not slot0.isFate)
+	setActive(slot0.modPanel, slot2 and not slot0.isFate and not slot0.isPhantom)
 	setActive(slot0.itemUnlockBtn, not slot2 and slot1:getUnlockItem())
 
 	if slot1:isDeving() then
@@ -1171,6 +1197,17 @@ slot0.updateModPanel = function(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.calcMaxBtn, not slot5)
 
+	slot12 = false
+
+	if not pg.NewStoryMgr.GetInstance():IsPlayed("PHANTOM_HELP") then
+		slot12 = true
+
+		pg.NewGuideMgr.GetInstance():Play("PHANTOM_HELP")
+		pg.m02:sendNotification(GAME.STORY_UPDATE, {
+			storyId = "PHANTOM_HELP"
+		})
+	end
+
 	if slot1:canFateSimulation() then
 		onButton(slot0, slot0.fittingBtn, function ()
 			if uv0.isSwitchAnim then
@@ -1201,21 +1238,23 @@ slot0.updateModPanel = function(slot0)
 		end, SFX_PANEL)
 		slot0:updateFittingPanel()
 
-		slot13 = pg.NewStoryMgr.GetInstance()
+		if not slot12 then
+			slot14 = pg.NewStoryMgr.GetInstance()
 
-		slot13:Play(slot1:getConfig("luck_story"), function (slot0)
-			if slot0 then
-				slot1 = uv0
+			slot14:Play(slot1:getConfig("luck_story"), function (slot0)
+				if slot0 then
+					slot1 = uv0
 
-				slot1:buildStartAni("fateStartWindow", function ()
-					triggerButton(uv0.fittingBtn)
-				end)
-			end
-		end)
+					slot1:buildStartAni("fateStartWindow", function ()
+						triggerButton(uv0.fittingBtn)
+					end)
+				end
+			end)
+		end
 	end
 
-	setActive(slot0.calcPanel, not slot12)
-	setActive(slot0.fittingBtn, slot12)
+	setActive(slot0.calcPanel, not slot13)
+	setActive(slot0.fittingBtn, slot13)
 	setActive(slot0.fittingBtnEffect, false)
 end
 
@@ -1732,7 +1771,11 @@ slot0.updateInfo = function(slot0)
 end
 
 slot0.updateTasksProgress = function(slot0)
-	for slot7 = slot0.progressContainer.childCount, #slot0.contextData.shipBluePrintVO:getTaskIds() do
+	if not slot0.contextData.shipBluePrintVO:isDeving() then
+		return
+	end
+
+	for slot7 = slot0.progressContainer.childCount, #slot1:getTaskIds() do
 		cloneTplTo(slot0.progressTpl, slot0.progressContainer)
 	end
 
@@ -1831,35 +1874,128 @@ slot0.updateProperty = function(slot0)
 end
 
 slot0.updateTaskList = function(slot0)
-	for slot7 = slot0.taskContainer.childCount, #slot0.contextData.shipBluePrintVO:getTaskIds() do
-		cloneTplTo(slot0.taskTpl, slot0.taskContainer)
-	end
+	slot1 = slot0.contextData.shipBluePrintVO
 
-	for slot7 = 1, slot0.taskContainer.childCount do
-		setActive(slot0.taskContainer:GetChild(slot7 - 1), slot7 <= #slot2)
+	UIItemList.StaticAlign(slot0.taskContainer, slot0.taskTpl, #slot1:getTaskIds(), function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
 
-		if slot0.taskTFs[slot7] then
-			slot0.taskTFs[slot7]:clear()
-		end
-
-		if slot7 <= #slot2 then
-			if not slot0.taskTFs[slot7] then
-				slot0.taskTFs[slot7] = slot0:createTask(slot8)
+		if slot0 == UIItemList.EventUpdate then
+			if uv0.taskTFs[slot1] then
+				uv0.taskTFs[slot1]:clear()
 			end
 
-			slot10 = slot0:getTaskById(slot2[slot7])
+			if slot1 <= #uv1 then
+				if not uv0.taskTFs[slot1] then
+					uv0.taskTFs[slot1] = uv0:createTask(slot2)
+				end
 
-			if slot1.duration > 0 then
-				slot10.leftTime = slot1:getTaskOpenTimeStamp(slot9) - slot1.duration
+				slot4 = uv0:getTaskById(uv1[slot1])
+
+				if uv2.duration > 0 then
+					slot4.leftTime = uv2:getTaskOpenTimeStamp(slot3) - uv2.duration
+				end
+
+				slot4.taskState = uv2:getTaskStateById(slot3)
+				slot4.dueTime = uv2:getTaskOpenTimeStamp(slot3)
+				slot4.index = slot1
+
+				uv0.taskTFs[slot1]:update(slot4)
+			end
+		end
+	end)
+end
+
+slot0.updatePhantomQuest = function(slot0)
+	slot2 = slot0.contextData.shipBluePrintVO:isUnlockShipPhantom()
+
+	setActive(slot0.phantomPanel:Find("title/bg"), slot2)
+	setActive(slot0.phantomPanel:Find("title/bg_lock"), not slot2)
+	setActive(slot0.phantomPanel:Find("desc/content"), slot2)
+	setActive(slot0.phantomPanel:Find("desc/lock_mask"), not slot2)
+	setText(slot0.phantomPanel:Find("desc/lock_mask/Text"), i18n("tech_shadow_limit_text", getGameset("technology_shadow_unlock_lv")[1]))
+
+	if not slot2 then
+		return
+	end
+
+	slot3 = slot1:getAllPhantomQuestInfo()
+	slot5 = slot0.phantomPanel
+
+	setText(slot5:Find("title/bg/Text"), string.format("%d/%d", #underscore.filter(slot3, function (slot0)
+		return slot0.unlocked
+	end), #slot3))
+	UIItemList.StaticAlign(slot0.rtPhantomQuestContainer, slot0.questTpl, #slot3, function (slot0, slot1, slot2)
+		slot1 = slot1 + 1
+
+		if slot0 == UIItemList.EventUpdate then
+			setActive(slot2:Find("title/bg"), uv0[slot1].config.type ~= 5)
+			setActive(slot2:Find("title/bg_1"), slot3.config.type == 5)
+			setActive(slot2:Find("title/complete"), slot3.unlocked)
+			setActive(slot2:Find("title/working"), not slot3.unlocked)
+			setText(slot2:Find("title/name"), slot3.config.name)
+			setText(slot2:Find("title/number"), slot1)
+			setSlider(slot2:Find("title/slider"), 0, slot3.config.target_num, slot3.unlocked and slot3.config.target_num or slot3.progress)
+			setActive(slot2:Find("title/slider/complete"), slot3.unlocked)
+			setActive(slot2:Find("title/tip"), not slot3.unlocked and slot3.config.target_num <= slot3.progress)
+
+			if slot3.config.type == 5 then
+				setText(slot2:Find("desc/info/Text"), stringInset(slot3.config.desc, slot3.config.target_num))
+			else
+				setText(slot2:Find("desc/info/Text"), slot3.config.desc)
 			end
 
-			slot10.taskState = slot1:getTaskStateById(slot9)
-			slot10.dueTime = slot1:getTaskOpenTimeStamp(slot9)
-			slot10.index = slot7
+			slot4 = string.format("%d", math.clamp(slot3.unlocked and slot3.config.target_num or slot3.progress, 0, slot3.config.target_num) * 100 / slot3.config.target_num)
 
-			slot0.taskTFs[slot7]:update(slot10)
+			setText(slot2:Find("desc/info/Text/progress"), slot4 .. "%")
+			setText(slot2:Find("desc/info/Text/progress/shadow"), slot4 .. "%")
+
+			slot5 = ShipBluePrint.getPhantomQuestCostDrop(slot3)
+
+			setActive(slot2:Find("desc/item_info/items"), slot5)
+
+			if slot5 then
+				updateDrop(slot2:Find("desc/item_info/items/item_tpl/award"), slot5)
+			end
+
+			setActive(slot2:Find("desc/commit_panel/commit_btn"), not canCommit)
+			setActive(slot2:Find("desc/commit_panel/lock_btn"), slot3.unlocked or slot3.progress < slot3.config.target_num)
+			onButton(uv1, slot2:Find("desc/commit_panel/commit_btn"), function ()
+				slot0 = {}
+
+				if uv0 then
+					table.insert(slot0, function (slot0)
+						pg.MsgboxMgr.GetInstance():ShowMsgBox({
+							content = i18n("tech_shadow_commit_tip", uv0:getName() .. "x" .. uv0.count),
+							onYes = slot0
+						})
+					end)
+				end
+
+				seriesAsync(slot0, function ()
+					uv0:emit(ShipBluePrintMediator.FINISH_PHANTOM_QUEST, uv1.id, uv2)
+				end)
+			end, SFX_CONFIRM)
+			onToggle(uv1, slot2, function (slot0)
+				if slot0 then
+					Canvas.ForceUpdateCanvases()
+
+					slot4 = 0
+
+					if uv0.rtPhantomQuestContainer.parent.transform:InverseTransformPoint(uv1.position).y - uv1.rect.height < uv0.rtPhantomQuestContainer.parent.transform.rect.yMin then
+						slot4 = slot3.yMin - slot2
+					end
+
+					if slot3.yMax < slot1 then
+						slot4 = slot3.yMax - slot1
+					end
+
+					slot5 = uv0.rtPhantomQuestContainer.localPosition
+					slot5.y = slot5.y + slot4
+					uv0.rtPhantomQuestContainer.localPosition = slot5
+				end
+			end, SFX_PANEL)
 		end
-	end
+	end)
 end
 
 slot0.createTask = function(slot0, slot1)
@@ -1884,8 +2020,8 @@ slot0.createTask = function(slot0, slot1)
 	slot2.lockBtn = slot0:findTF("desc/commit_panel/lock_btn", slot1)
 	slot3 = slot2.itemTpl
 	slot2.itemCount = slot3:Find("award/icon_bg/count")
-	slot2.progres = slot0:findTF("desc/commit_panel/progress", slot1)
-	slot2.progreshadow = slot0:findTF("title/shadow", slot1)
+	slot2.progres = slot0:findTF("desc/Text/progress", slot1)
+	slot2.progreshadow = slot0:findTF("desc/Text/progress/shadow", slot1)
 	slot2.check = findTF(slot1, "title/complete")
 	slot2.lock = findTF(slot1, "title/lock")
 	slot2.working = findTF(slot1, "title/working")
@@ -1913,7 +2049,6 @@ slot0.createTask = function(slot0, slot1)
 			slot5 = uv1.taskContainer.localPosition
 			slot5.y = slot5.y + slot4
 			uv1.taskContainer.localPosition = slot5
-			uv0.progreshadow.localPosition = Vector3(39, -(148 + uv0.desc.rect.height - 150))
 		end
 	end, SFX_PANEL)
 
@@ -2499,6 +2634,11 @@ slot0.checkStory = function(slot0)
 	})[slot0.version] and not slot0.storyMgr:IsPlayed(slot1[slot0.version]) then
 		slot0.storyMgr:Play(slot1[slot0.version])
 	end
+end
+
+slot0.changeEffectVisible = function(slot0, slot1)
+	setActive(slot0.fittingBtn, slot1)
+	setActive(slot0.initPanel, slot1)
 end
 
 return slot0

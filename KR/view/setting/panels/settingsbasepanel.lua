@@ -28,6 +28,12 @@ slot0.Load = function(slot0, slot1)
 	slot2 = PoolMgr.GetInstance()
 
 	slot2:GetUI(slot0:GetUIName(), true, function (slot0)
+		if uv0.exited then
+			PoolMgr.GetInstance():ReturnUI(uv0:GetUIName(), slot0)
+
+			return
+		end
+
 		uv0.state = uv1
 		uv0._go = slot0
 		uv0._tf = slot0.transform
@@ -47,6 +53,8 @@ slot0.InitTitle = function(slot0)
 end
 
 slot0.Dispose = function(slot0)
+	slot0.exited = true
+
 	pg.DelegateInfo.Dispose(slot0)
 
 	if uv0 <= slot0.state then

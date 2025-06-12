@@ -376,7 +376,7 @@ slot0.DisplayWord = function(slot0)
 			slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot4, ShipWordHelper.WORD_TYPE_UNLOCK)
 		end
 	else
-		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot0._shipVO.skinId, ShipWordHelper.WORD_TYPE_UNLOCK)
+		slot1, slot3, slot2 = ShipWordHelper.GetWordAndCV(slot0._shipVO:getSkinId(), ShipWordHelper.WORD_TYPE_UNLOCK)
 	end
 
 	setWidgetText(slot0._dialogue, SwitchSpecialChar(slot2, true), "Text")

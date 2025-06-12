@@ -43,6 +43,16 @@ TRACKING_FIRST_PASS_13_4 = "first_pass_13_4"
 TRACKING_CLASS_LEVEL_UP_8 = "class_level_up_8"
 TRACKING_CLASS_LEVEL_UP_9 = "class_level_up_9"
 TRACKING_CLASS_LEVEL_UP_10 = "class_level_up_10"
+TRACKING_GUIDE_COMPLETE = "stdhour1"
+TRACKING_EXP_LV_10 = "stdlevel10"
+TRACKING_EXP_LV_20 = "stdlevel20"
+TRACKING_EXP_LV_30 = "stdlevel30"
+TRACKING_STRIKE_FAILD = "stdexhausted"
+TRACKING_PAY_OIL = "stdstaminapurchase"
+TRACKING_PAY_FAILD = "stdrechargeprompt"
+TRACKING_PAY_SUCCESS = "stdrecharge"
+TRACKING_BUILD_OR_SKIN_FAILD = "stdlackofdiamonds"
+TRACKING_COST_300_D = "stdspend300"
 
 slot0.Ctor = function(slot0)
 	slot1 = nil

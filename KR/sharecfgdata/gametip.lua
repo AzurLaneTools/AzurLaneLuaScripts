@@ -11643,11 +11643,11 @@ DR 특별계획함
  ・「탄막 확인」을 탭하면, 해당 함선을 사용하는 모의전(이벤트 전투)이 시작됩니다. 
  ※ 모의전에서의 함선의 내구 및 장전 등의 성능은 실제 성능과 다릅니다. 
 
-의상 투영에 대해
- 1. 특별계획함이 레벨 100에 도달하면 「의상 투영」 기능을 개방할 수 있습니다.
- 2. 전용 임무를 수행하면 해당 특별계획함의 스킨을 적용할 수 있는 「의상 투영」을 제작할 수 있습니다.
- 3. 제작된 「의상 투영」은 메인 화면에 표시되는 「비서함 슬롯」에 배치할 수 있습니다.
- 4. 개발도크의 「투영 관리」 또는 캐릭터 상세 화면에서 해당 특별계획함의 의상 투영을 관리할 수 있습니다. 
+스킨 투영에 대해
+ 1. 특별계획함이 레벨 100에 도달하면 「스킨 투영」 기능을 개방할 수 있습니다.
+ 2. 전용 임무를 수행하면 해당 특별계획함의 스킨을 적용할 수 있는 「스킨 투영」을 제작할 수 있습니다.
+ 3. 제작된 「스킨 투영」은 메인 화면에 표시되는 「비서함 슬롯」에 배치할 수 있습니다.
+ 4. 개발도크의 「투영 관리」 또는 캐릭터 상세 화면에서 해당 특별계획함의 스킨 투영을 관리할 수 있습니다. 
 ]]
 		}
 	}
@@ -23981,6 +23981,11 @@ _G.pg.base.gametip.maid_task_tips1 = {
 3. 7일차에 히든 임무가 나타날 수도?]]
 		}
 	}
+}
+
+
+_G.pg.base.gametip.shop_akashi_pick_title = {
+	tip = "추천"
 }
 
 
@@ -38283,4 +38288,127 @@ _G.pg.base.gametip.storyline_goto = {
 
 _G.pg.base.gametip.holiday_villa_locked = {
 	tip = "이벤트 <color=#92fc63>「리조트 준비 중」</color> 클리어 시 오픈"
+}
+
+
+_G.pg.base.gametip.tech_shadow_change_button_1 = {
+	tip = "스킨 투영"
+}
+
+
+_G.pg.base.gametip.tech_shadow_change_button_2 = {
+	tip = "함선 개발"
+}
+
+
+_G.pg.base.gametip.tech_shadow_limit_text = {
+	tip = "레벨 $1 달성 시 오픈"
+}
+
+
+_G.pg.base.gametip.tech_shadow_commit_tip = {
+	tip = "<color=#92fc63>$1</color>(을)를 사용합니다. 계속하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.shadow_scene_name = {
+	tip = "스킨 투영"
+}
+
+
+_G.pg.base.gametip.shadow_unlock_tip = {
+	tip = "투영 제작 임무를 달성하면 제작할 수 있습니다."
+}
+
+
+_G.pg.base.gametip.shadow_skin_change_success = {
+	tip = "투영 의상을 변경했습니다."
+}
+
+
+_G.pg.base.gametip.add_skin_secretary_ship = {
+	tip = "비서함 슬롯에 배치"
+}
+
+
+_G.pg.base.gametip.add_skin_random_secretary_ship_list = {
+	tip = "랜덤 비서함에 추가"
+}
+
+
+_G.pg.base.gametip.choose_secretary_change_to_this_ship = {
+	tip = "배치 슬롯을 선택하세요."
+}
+
+
+_G.pg.base.gametip.random_ship_custom_mode_add_shadow_complete = {
+	tip = "랜덤 비서함 후보 목록에 추가했습니다."
+}
+
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_shadow_complete = {
+	tip = "랜덤 비서함 후보 목록에서 제외했습니다."
+}
+
+
+_G.pg.base.gametip.choose_secretary_change_title = {
+	tip = "비서함"
+}
+
+
+_G.pg.base.gametip.ship_random_secretary_tag = {
+	tip = "랜덤 비서함"
+}
+
+
+_G.pg.base.gametip.projection_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/projection_help1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.littleaijier_npc = {
+	tip = {
+		{
+			info = "■ 개요\n「심연의 나라의 지배자」는 이벤트 시작 시에 임시로 가입하는 [꼬마 에기르]의 「호감도」를 해역에 출격함으로써 쌓아, [꼬마 에기르]를 정식으로 가입시키는 이벤트입니다. "
+		},
+		{
+			info = "■ 플레이 방법\n1. 이벤트 기간 중에 특정 이벤트를 수행하면 「호감도」를 획득할 수 있습니다. 획득한 「호감도」가 일정 수치에 도달하면 「호감도 보상」을 획득할 수 있습니다."
+		},
+		{
+			info = "2. [꼬마 에기르]는 호감도 보상(7단계째)의 「정식 가입」을 달성하지 않으면 서약할 수 없으며, 퇴역 및 강화·한계 돌파 재료로 선택할 수 없습니다. "
+		},
+		{
+			info = "3. 이벤트 종료 시까지 이벤트 페이지의 「호감도 보상」을 마지막까지 수령하면, [꼬마 에기르]를 「정식 가입」시킬 수 있습니다. 이벤트 종료 시, 「정식 가입」하지 않은 [꼬마 에기르]는 모항에서 사라집니다. "
+		},
+		{
+			info = "4. 호감도 보상은 6/18(수)까지 매일 한 단계씩 오픈됩니다. "
+		},
+		{
+			info = "5. 임시 가입 상태인 [꼬마 에기르]는 대형 작전(META전 포함)에는 참여할 수 없습니다. "
+		},
+		{
+			info = "7. 임시 가입 상태인 [꼬마 에기르]는 대함대 작전에 참여할 수 없습니다."
+		}
+	}
 }

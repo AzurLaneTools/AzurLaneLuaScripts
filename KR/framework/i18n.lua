@@ -6,15 +6,7 @@ end
 
 i18n = function(slot0, ...)
 	if pg.gametip[slot0] then
-		slot2 = slot1.tip
-
-		for slot6, slot7 in ipairs({
-			...
-		}) do
-			slot2 = string.gsub(slot2, "$" .. slot6, slot7)
-		end
-
-		return slot2
+		return stringInset(slot1.tip, ...)
 	else
 		return i18n_not_find(slot0)
 	end

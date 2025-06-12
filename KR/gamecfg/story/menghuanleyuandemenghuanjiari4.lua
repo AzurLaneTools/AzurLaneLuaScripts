@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			say = "밤의 유원지. 워터파크 구역.",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -295,7 +295,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -308,7 +308,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			fontsize = 24,
 			actor = 900455,
@@ -323,7 +323,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -342,7 +342,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -355,7 +355,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -368,7 +368,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -397,7 +397,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
@@ -410,7 +410,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
@@ -422,7 +422,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 1,
 			actor = 307010,
@@ -437,7 +437,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
@@ -450,7 +450,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900455,
@@ -465,7 +465,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900455,
@@ -485,7 +485,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 307151,
 			nameColor = "#A9F548FF",
@@ -499,7 +499,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 307151,
 			nameColor = "#A9F548FF",
@@ -513,7 +513,7 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -526,7 +526,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -539,7 +539,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "고개를 끄덕인 후, 함께 옷을 갈아입고 워터파크 구역의 거대 미끄럼틀에 도전하기로 했다.",
 			typewriter = {
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			say = "워터파크 구역에서 마음껏 논 후, 머리를 말리고 깨끗한 옷으로 갈아입었다.",
 			typewriter = {
 				speed = 0.05,
@@ -578,7 +578,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -591,7 +591,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 302250,
 			nameColor = "#A9F548FF",
@@ -605,7 +605,7 @@ return {
 		{
 			actor = 302250,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -618,7 +618,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "그렇게 이번에는 다 함께 회전목마로 향했다.",
 			typewriter = {
@@ -629,7 +629,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "잔잔한 음악과 함께 돌고 있는 회전목마. 그리고 그 위에는 웬 아름다운 그림자가……",
 			typewriter = {
@@ -640,7 +640,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "――글로스터?",
@@ -652,7 +652,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -666,7 +666,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "글로스터는 가볍게 몸을 날려 착지한 후, 가볍게 인사를 건넸다.",
 			typewriter = {
@@ -677,7 +677,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -691,7 +691,7 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -704,7 +704,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "카가는 대담한 미소를 보이며 더욱 유연한 몸놀림으로 회전목마에 올라탔다.",
 			typewriter = {
@@ -715,7 +715,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -729,7 +729,7 @@ return {
 		{
 			actor = 307151,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -742,7 +742,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "――흠… 우린 그냥 평범하게 타자.",
@@ -754,7 +754,7 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -767,7 +767,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "다들 각자 회전목마에 몸을 실었다.",
 			typewriter = {
@@ -778,7 +778,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "이렇게 다시 돌기 시작한 회전목마에서 잔잔한 시간을 보내고…",
 			typewriter = {
@@ -789,7 +789,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "다음은 또 어떤 놀이기구를 탈지 고민하고 있는데, 밤하늘에 불꽃 한송이가 피어올랐다.",
 			typewriter = {
@@ -799,7 +799,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 302260,
 			nameColor = "#A9F548FF",
@@ -823,7 +823,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "아야세의 말에 호응이라도 하듯, 더 많은 불꽃이 차례로 밤하늘을 수놓았다.",
 			typewriter = {
@@ -834,7 +834,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "형형색색의 빛줄기가 밤하늘을 무상하게, 그리고 화려하게 물들였다.",
 			typewriter = {
@@ -845,7 +845,7 @@ return {
 		{
 			actor = 207025,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -858,7 +858,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "불꽃의 굉음에 발소리가 지워진 탓인지, 아크로열에 바로 옆에 다가올 때까지 전혀 눈치채지 못했다.",
 			typewriter = {
@@ -869,7 +869,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "――아크로열…? 날 찾고 있었어?",
@@ -880,7 +880,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 202340,
 			nameColor = "#A9F548FF",
@@ -904,7 +904,7 @@ return {
 		{
 			actor = 202340,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -916,7 +916,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 202340,
 			nameColor = "#A9F548FF",

@@ -4,10 +4,6 @@ slot0.setShip = function(slot0, slot1)
 	slot0.shipVO = slot1
 end
 
-slot0.setShipSkin = function(slot0, slot1)
-	slot0.shipVO.skinId = slot1
-end
-
 slot0.GetShareSkins = function(slot0)
 	slot1 = getProxy(ShipSkinProxy)
 
@@ -93,17 +89,18 @@ slot0.Flush = function(slot0, slot1)
 
 		slot16 = slot8.shop_id > 0 and pg.shop_template[slot8.shop_id] or nil
 		slot17 = slot16 and not pg.TimeMgr.GetInstance():inTime(slot16.time)
-		slot18 = slot8.id == slot0.shipVO.skinId
+		slot18 = slot8.id == slot0.shipVO:getSkinId()
 		slot19 = slot8.id == slot0.shipVO:getConfig("skin_id") or ((slot0.shipVO:proposeSkinOwned(slot8) or table.contains(slot0.skinList, slot8.id) or slot0.shipVO:getRemouldSkinId() == slot8.id and slot0.shipVO:isRemoulded()) and 1 or 0) >= 1 or slot8.skin_type == ShipSkin.SKIN_TYPE_OLD or slot2:hasSkin(slot8.id)
 		slot20 = getProxy(ShipSkinProxy):InForbiddenSkinListAndShow(slot8.id)
 
 		onToggle(slot0, slot10.hideObjToggleTF, function (slot0)
 			PlayerPrefs.SetInt("paint_hide_other_obj_" .. uv0.paintingName, slot0 and 1 or 0)
 			uv0:flushSkin()
-			uv1:emit(SwichSkinMediator.UPDATE_SKINCONFIG, uv1.shipVO.skinId)
+			uv1:emit(SwichSkinMediator.UPDATE_SKINCONFIG, uv1.shipVO:getSkinId())
 		end, SFX_PANEL)
 		onButton(slot0, slot10.changeSkinTF, function (slot0)
-			ShipGroup.SetShipChangeSkin(uv1.shipVO.id, ShipGroup.GetChangeSkinGroupId(uv0.id), ShipGroup.GetChangeSkinNextId(uv0.id), true)
+			ShipSkin.SetStoreChangeSkinId(ShipSkin.GetChangeSkinNextId(uv0.id))
+			pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, uv1.shipVO:GetShipPhantomMark())
 		end, SFX_PANEL)
 		onButton(slot0, slot9, function ()
 			if uv0 then
@@ -111,7 +108,7 @@ slot0.Flush = function(slot0, slot1)
 			elseif ShipSkin.IsShareSkin(uv1.shipVO, uv2.id) and not ShipSkin.CanUseShareSkinForShip(uv1.shipVO, uv2.id) then
 				-- Nothing
 			elseif uv3 then
-				uv1:emit(SwichSkinMediator.CHANGE_SKIN, uv1.shipVO.id, uv2.id == uv1.shipVO:getConfig("skin_id") and 0 or uv2.id)
+				uv1:emit(SwichSkinMediator.CHANGE_SKIN, uv1.shipVO:GetShipPhantomMark(), uv2.id == uv1.shipVO:getConfig("skin_id") and 0 or uv2.id)
 				uv1:back()
 			elseif uv4 then
 				if uv5 or uv6 then

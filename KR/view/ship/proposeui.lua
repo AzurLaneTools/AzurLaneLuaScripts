@@ -671,7 +671,7 @@ slot0.showProposePanel = function(slot0)
 				LoadImageSpriteAsync(uv0.bgName, uv0.storybg)
 
 				uv0.storybg.localScale = Vector3(1.2, 1.2, 1.2)
-				uv0.handId = pg.ship_skin_template[uv0.weddingReview and uv0.reviewSkinID or uv0.shipVO.skinId].hand_id
+				uv0.handId = pg.ship_skin_template[uv0.weddingReview and uv0.reviewSkinID or uv0.shipVO:getSkinId()].hand_id
 				slot2 = pg.TimeMgr.GetInstance():CurrentSTimeDesc("%Y%m%d", true)
 
 				if SPECIAL_PROPOSE and SPECIAL_PROPOSE[1] == slot2 then
@@ -921,7 +921,7 @@ end
 slot0.displayShipWord = function(slot0, slot1)
 	slot3, slot4, slot5 = ShipWordHelper.GetWordAndCV(ShipGroup.getDefaultSkin(slot0.shipGroupID).id, slot1)
 	slot6 = nil
-	slot7 = ShipWordHelper.GetL2dCvCalibrate((not slot0.reviewSkinID or slot0.reviewSkinID) and (not slot0.proposeSkin or slot0.proposeSkin.id) and slot0.shipVO.skinId, slot1)
+	slot7 = ShipWordHelper.GetL2dCvCalibrate((not slot0.reviewSkinID or slot0.reviewSkinID) and (not slot0.proposeSkin or slot0.proposeSkin.id) and slot0.shipVO:getSkinId(), slot1)
 
 	slot0:showStoryUI(slot5)
 
@@ -1155,7 +1155,10 @@ slot0.createLive2D = function(slot0, slot1)
 		slot0.transform:SetParent(uv0:findTF("live2d", uv0.targetActorTF), true)
 
 		slot3 = nil
-		slot3 = (not uv0.reviewSkinID or uv0.reviewSkinID) and (not uv0.proposeSkin or uv0.proposeSkin.id) and uv0.shipVO.skinId
+		slot3 = (not uv0.reviewSkinID or uv0.reviewSkinID) and (not uv0.proposeSkin or uv0.proposeSkin.id) and uv0.shipVO:getSkinId()
+
+		Live2D.SetL2dSortingLayer(slot0, -999)
+
 		slot2.localPosition = BuildVector3(pg.ship_skin_template[slot3].live2d_offset) + Vector3(0, 0, 100)
 		slot2.localScale = Vector3.Scale(Vector3(1, 1, 10), slot2.localScale)
 		uv0.l2dChar = GetComponent(slot0, "Live2dChar")

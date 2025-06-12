@@ -173706,6 +173706,45 @@ _G.pg.base.equip_data_statistics[180000] = {
 }
 
 
+_G.pg.base.equip_data_statistics[180001] = {
+	name = "小埃吉尔自带强化型副炮",
+	tech = 1,
+	speciality = "<[LOCK]>",
+	type = 2,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "默认装备",
+	nationality = 4,
+	ammo = 1,
+	value_3 = 0,
+	id = 180001,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		180001
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DD",
+		"MG",
+		"AP"
+	}
+}
+
+
 _G.pg.base.equip_data_statistics[594017] = {
 	name = "美系剧情海伦娜主炮",
 	speciality = "추적",

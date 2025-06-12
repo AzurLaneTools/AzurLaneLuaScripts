@@ -1,6 +1,300 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
+	[201380] = {
+		name = "트라팔가",
+		change_skin = "",
+		bg_sp = "",
+		desc = "배틀급 구축함 - 트라팔가",
+		illustrator2 = -1,
+		ship_group = 20138,
+		group_index = 0,
+		painting = "telafaerjia",
+		prefab = "telafaerjia",
+		hand_id = 1,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = -1,
+		get_showing = "",
+		id = 201380,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 452,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.438,
+					1.233,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.135,
+					0.135,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.839,
+					2.365,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.83,
+							2.516,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			{
+				-85.3,
+				166.8,
+				0
+			},
+			{
+				0.603
+			}
+		}
+	},
+	[201381] = {
+		name = "높은 봉우리와 바닷바람",
+		change_skin = "",
+		bg_sp = "",
+		desc = "바람이 참 좋네요. 지휘관님, 괜찮으시면 저랑 한잔하시겠어요? (영화에서 본 대로 했으니까 괜찮겠지…? 표정이 너무 굳어 있었나…?",
+		illustrator2 = -1,
+		ship_group = 20138,
+		group_index = 1,
+		painting = "telafaerjia_2",
+		prefab = "telafaerjia_2",
+		hand_id = 1,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		bg = "164",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		id = 201381,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71135,
+		voice_actor = 452,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			-73,
+			90,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.47,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.17,
+					0.03,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.78,
+					2.19,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.91,
+							2.55,
+							0
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			20138101,
+			20138102,
+			20138103,
+			20138104,
+			20138105,
+			20138106,
+			20138107,
+			20138108,
+			20138109,
+			20138110,
+			20138111,
+			20138112,
+			20138113
+		},
+		l2d_drag_rate = {
+			0.02,
+			0.04,
+			0.02
+		},
+		get_showing = {
+			show = 1,
+			paint_offset = {
+				-458,
+				186,
+				1.20625
+			},
+			data = {
+				{
+					854,
+					-738,
+					1.6,
+					-200,
+					55,
+					2
+				},
+				{
+					-491,
+					-484,
+					1.6,
+					100,
+					244,
+					2
+				},
+				{
+					-219,
+					360,
+					1.5,
+					126,
+					-303,
+					2.5
+				}
+			}
+		}
+	},
 	[201390] = {
 		name = "갤런트",
 		change_skin = "",
@@ -14593,236 +14887,6 @@ pg.base.ship_skin_template_5 = {
 						{
 							-0.414,
 							2.501,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203078] = {
-		name = "영백한 서약",
-		change_skin = "",
-		bg_sp = "",
-		desc = "이게 바로 영백한 서약<†퓨어 오스†>란 이름의 작전 유니폼<†배틀 수트†>인가요? 흐흥~ 모든 것은 운명의 계획이죠… 지휘관, 함께 이 세계를 바꿔봐요!",
-		illustrator2 = -1,
-		ship_group = 20307,
-		group_index = 8,
-		painting = "yueke_h",
-		prefab = "yueke_h",
-		hand_id = 13,
-		shop_type_id = 9998,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 1,
-		get_showing = "",
-		id = 203078,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 23,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.781,
-					0.877,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.619,
-					0.865,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.888,
-					1.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.639,
-							2.501,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[203079] = {
-		name = "요크·改 ",
-		change_skin = "",
-		bg_sp = "",
-		desc = "이는 단지 승격 <†업그레이드†>일 뿐만 아니라, 각성 <†어웨이크닝†>! 운명 따위, 제가 바꾸어 보이겠어요!",
-		illustrator2 = -1,
-		ship_group = 20307,
-		group_index = 9,
-		painting = "yueke_g",
-		prefab = "yueke_g",
-		hand_id = 13,
-		shop_type_id = 9997,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 2,
-		get_showing = "",
-		id = 203079,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 23,
-		spine_offset = "",
-		illustrator = 18,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.08,
-					0.9,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.03,
-					0.96,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.13,
-					0.18,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.14,
-					0.96,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.55,
-							2.37,
 							0
 						}
 					}

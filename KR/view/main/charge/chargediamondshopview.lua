@@ -86,6 +86,7 @@ slot0.confirm = function(slot0, slot1)
 
 			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
 				isChargeType = true,
+				infoTip = slot1:GetInfoTip(),
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
 				tipExtra = slot8,

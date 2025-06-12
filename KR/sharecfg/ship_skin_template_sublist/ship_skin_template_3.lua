@@ -3415,6 +3415,144 @@ pg.base.ship_skin_template_3 = {
 			}
 		}
 	},
+	[105093] = {
+		name = "노을의 카바티나",
+		change_skin = "",
+		bg_sp = "",
+		desc = "다른 동료들이랑 바다에 안 들어가고 여기서 나와 같이 일몰을 보기로 했다고…? 모처럼 바다에 왔는데 정말 괜찮은 건가? 아, 아니… 난 네가 좋다면야……",
+		illustrator2 = -1,
+		ship_group = 10509,
+		group_index = 3,
+		painting = "keluoladuo_4",
+		prefab = "keluoladuo_4",
+		hand_id = 1,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "179",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		id = 105093,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71142,
+		voice_actor = 152,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.824,
+					0.903,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.869,
+					0.916,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.786,
+					2.27,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.719,
+							2.256,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1031,
+					160,
+					2,
+					0,
+					100,
+					2
+				},
+				{
+					185,
+					370,
+					2,
+					100,
+					0,
+					2
+				},
+				{
+					-165,
+					-483,
+					2,
+					-70,
+					-70,
+					2
+				}
+			}
+		}
+	},
 	[105099] = {
 		name = "콜로라도·改",
 		change_skin = "",
@@ -3627,6 +3765,144 @@ pg.base.ship_skin_template_3 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[105102] = {
+		name = "진홍빛 드럼파이어",
+		change_skin = "",
+		bg_sp = "",
+		desc = "오, 지휘관. 너도 여기서 쉬고 있었나 보군. 괜찮아. 다른 녀석들한테는 여기 있다고 말 안 할 테니, 걱정하지 말고 불꽃놀이나 보라고.",
+		illustrator2 = -1,
+		ship_group = 10510,
+		group_index = 2,
+		painting = "malilan_3",
+		prefab = "malilan_3",
+		hand_id = 1,
+		shop_type_id = 6,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "149",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		id = 105102,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71141,
+		voice_actor = 162,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.719,
+					0.883,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.692,
+					0.883,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.664,
+					2.382,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.914,
+							2.328,
+							0
+						}
+					}
+				}
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-1324,
+					16,
+					2,
+					0,
+					100,
+					2
+				},
+				{
+					-491,
+					502,
+					2,
+					100,
+					0,
+					2
+				},
+				{
+					-209,
+					-433,
+					2,
+					0,
+					-100,
+					2
 				}
 			}
 		}
@@ -13750,210 +14026,6 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.63,
 							2.35,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107230] = {
-		name = "프린스턴",
-		change_skin = "",
-		bg_sp = "",
-		desc = "인디펜던스급 항공모함-프린스턴, 현호 CVL-23",
-		illustrator2 = -1,
-		ship_group = 10723,
-		group_index = 0,
-		painting = "pulinsidun",
-		prefab = "pulinsidun",
-		hand_id = 13,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = -1,
-		get_showing = "",
-		id = 107230,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 249,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.384,
-					0.917,
-					0
-				}
-			},
-			plane = {
-				{
-					1.439,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107231] = {
-		name = "해변의 특별 훈련",
-		change_skin = "",
-		bg_sp = "",
-		desc = "지휘관님, 수영하러 오셨나요? …저요? 해변이라고 해도 훈련할 만한 것이 많이 있어서 장비를 가져왔어요.",
-		illustrator2 = -1,
-		ship_group = 10723,
-		group_index = 1,
-		painting = "pulinsidun_2",
-		prefab = "pulinsidun_2",
-		hand_id = 13,
-		shop_type_id = 6,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "106",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 0,
-		get_showing = "",
-		id = 107231,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70433,
-		voice_actor = 249,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.176,
-					0.917,
-					0
-				}
-			},
-			plane = {
-				{
-					1.308,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
 							-0.25
 						}
 					}

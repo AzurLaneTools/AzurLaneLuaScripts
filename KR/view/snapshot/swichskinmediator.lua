@@ -19,8 +19,11 @@ slot0.register = function(slot0)
 		})
 	end)
 	slot0:bind(uv0.CHANGE_SKIN, function (slot0, slot1, slot2)
+		slot3, slot4 = ShipPhantom.UnpackMark(slot1)
+
 		uv0:sendNotification(GAME.SET_SHIP_SKIN, {
-			shipId = slot1,
+			shipId = slot3,
+			phantomId = slot4,
 			skinId = slot2
 		})
 	end)
@@ -42,7 +45,6 @@ slot0.listNotificationInterests = function(slot0)
 		ShipSkinProxy.SHIP_SKINS_UPDATE,
 		GAME.SKIN_SHOPPIGN_DONE,
 		GAME.SKIN_COUPON_SHOPPING_DONE,
-		BayProxy.SHIP_UPDATED,
 		GAME.CHANGE_SKIN_UPDATE
 	}
 end
@@ -63,14 +65,8 @@ slot0.handleNotification = function(slot0, slot1)
 	elseif slot2 == ShipSkinProxy.SHIP_SKINS_UPDATE then
 		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
 		slot0.viewComponent:openSelectSkinPanel()
-	elseif slot2 == BayProxy.SHIP_UPDATED then
-		if slot3.id == slot0.shipVO.id then
-			slot0.viewComponent:setShip(slot3)
-			slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
-			slot0.viewComponent:openSelectSkinPanel()
-		end
-	elseif slot2 == GAME.CHANGE_SKIN_UPDATE and slot3.id == slot0.shipVO.id then
-		slot0.viewComponent:setShip(slot3)
+	elseif slot2 == GAME.CHANGE_SKIN_UPDATE and slot3 == slot0.shipVO:GetShipPhantomMark() then
+		slot0.viewComponent:setShip(slot0.contextData.shipVO)
 		slot0.viewComponent:setSkinList(getProxy(ShipSkinProxy):getSkinList())
 		slot0.viewComponent:openSelectSkinPanel()
 	end

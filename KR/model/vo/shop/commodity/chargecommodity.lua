@@ -258,4 +258,20 @@ slot0.GetLimitDesc = function(slot0)
 	return ""
 end
 
+slot0.GetInfoTip = function(slot0)
+	if not slot0:isItemBox() or slot0:getConfig("tip_open") == 0 then
+		return ""
+	else
+		return slot0:getConfig("tip")
+	end
+end
+
+slot0.GetPackageTag = function(slot0)
+	if not slot0:isItemBox() or slot0:getConfig("package_tag_open") == 0 then
+		return ""
+	else
+		return slot0:getConfig("package_tag")
+	end
+end
+
 return slot0

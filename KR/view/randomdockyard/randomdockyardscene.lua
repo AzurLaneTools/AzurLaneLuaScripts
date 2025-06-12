@@ -11,9 +11,7 @@ slot0.OnChangeRandomShips = function(slot0)
 	slot0.randomFlagShips = nil
 	slot0.dockyardShips = nil
 
-	if slot0.mode ~= uv0.MODE_VIEW then
-		slot0:Switch(uv0.MODE_VIEW)
-	end
+	slot0:Switch(uv0.MODE_VIEW)
 end
 
 slot0.init = function(slot0)
@@ -39,6 +37,7 @@ slot0.init = function(slot0)
 	slot0.indexBtn = slot0:findTF("blur_panel/adapt/top/index_button")
 	slot0.indexBtnSel = slot0.indexBtn:Find("Image")
 	slot0.selectedCntTxt = slot0:findTF("blur_panel/select_panel/bottom_info/bg_input/count"):GetComponent(typeof(Text))
+	slot0.phantomToggle = slot0._tf:Find("toggle_phantom")
 	slot0.selectPanelFrame = slot0:findTF("blur_panel/select_panel/bottom_info/bg_input")
 
 	setActive(slot0.sortUp, false)
@@ -147,6 +146,10 @@ slot0.didEnter = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
+	slot0.scrollrect.onReturnItem = function(slot0, slot1)
+		uv0:onReturnItem(slot0, slot1)
+	end
+
 	onButton(slot0, slot0.backBtn, function ()
 		if uv0.mode ~= uv1.MODE_VIEW then
 			uv0:Switch(uv1.MODE_VIEW)
@@ -211,17 +214,26 @@ slot0.didEnter = function(slot0)
 			defaultIndex = uv0.indexDatas[uv0.mode]
 		})
 	end, SFX_PANEL)
+	setToggleEnabled(slot0.phantomToggle, false)
+	onButton(slot0, slot0.phantomToggle:Find("off"), function ()
+		uv0:emit(RandomDockYardMediator.OPEN_PHANTOM_LAYER)
+	end, SFX_PANEL)
 	slot0:Switch(uv0.MODE_VIEW)
 end
 
 slot0.GetRandomFlagShips = function(slot0)
 	if not slot0.randomFlagShips then
+		slot1 = getProxy(PlayerProxy):getRawData()
 		slot0.randomFlagShips = {}
-		slot2 = getProxy(BayProxy)
+		slot0.phantomCount = 0
 
-		for slot6, slot7 in ipairs(getProxy(PlayerProxy):getRawData():GetCustomRandomShipList()) do
-			if slot2:RawGetShipById(slot7) then
-				table.insert(slot0.randomFlagShips, slot8)
+		for slot6, slot7 in ipairs(getProxy(BayProxy):getRandomFlagShipPhantomMarks()) do
+			if slot2:GetShipPhantom(slot7) then
+				if slot8.phantomId == 0 then
+					table.insert(slot0.randomFlagShips, slot8)
+				else
+					slot0.phantomCount = slot0.phantomCount + 1
+				end
 			end
 		end
 	end
@@ -276,10 +288,12 @@ slot0.Switch = function(slot0, slot1)
 	slot0:FlushShipList(slot2)
 
 	if slot0.mode == uv0.MODE_VIEW then
-		slot0:UpdateSelectedCnt(slot2)
+		slot0:UpdateSelectedCnt(#slot2 + slot0.phantomCount)
 	else
-		slot0:UpdateSelectedCnt(slot0.selected)
+		slot0:UpdateSelectedCnt(table.getCount(slot0.selected))
 	end
+
+	setActive(slot0.phantomToggle, slot0.mode == uv0.MODE_VIEW)
 end
 
 slot0.UpdateModeStyle = function(slot0, slot1, slot2)
@@ -329,20 +343,14 @@ slot0.OnAll = function(slot0)
 	end
 
 	slot0.scrollrect:SetTotalCount(#slot0.displays)
-	slot0:UpdateSelectedCnt(slot0.selected)
+	slot0:UpdateSelectedCnt(table.getCount(slot0.selected))
 end
 
 slot0.UpdateSelectedCnt = function(slot0, slot1)
-	slot2 = 0
+	slot0.selectedCntTxt.text = slot1
 
-	for slot6, slot7 in pairs(slot1) do
-		slot2 = slot2 + 1
-	end
-
-	slot0.selectedCntTxt.text = slot2
-
-	setButtonEnabled(slot0.confirmBtn, slot2 > 0)
-	setActive(slot0.confirmBtnMask, slot2 <= 0)
+	setButtonEnabled(slot0.confirmBtn, slot1 > 0)
+	setActive(slot0.confirmBtnMask, slot1 <= 0)
 end
 
 slot1 = function(slot0)
@@ -375,7 +383,7 @@ slot0.OnItemUpdate = function(slot0, slot1)
 			uv0.selected[uv2.ship.id] = true
 		end
 
-		uv0:UpdateSelectedCnt(uv0.selected)
+		uv0:UpdateSelectedCnt(table.getCount(uv0.selected))
 		uv2:UpdateSelected(uv0.selected[uv2.ship.id])
 	end, SFX_PANEL)
 
@@ -392,6 +400,16 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	slot4 = slot0.displays[slot1 + 1]
 
 	slot3:Update(slot4, slot0.selected[slot4.id])
+end
+
+slot0.onReturnItem = function(slot0, slot1, slot2)
+	if slot0.exited then
+		return
+	end
+
+	if slot0.cards[slot2] then
+		slot3:Dispose()
+	end
 end
 
 slot0.FlushShipList = function(slot0, slot1)

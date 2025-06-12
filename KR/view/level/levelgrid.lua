@@ -6,7 +6,7 @@ slot0.init = function(slot0)
 	uv0.super.init(slot0)
 
 	slot0.levelCam = GameObject.Find("LevelCamera"):GetComponent(typeof(Camera))
-	GameObject.Find("LevelCamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder = ChapterConst.PriorityMin
+	GameObject.Find("LevelCamera/Canvas"):GetComponent(typeof(Canvas)).sortingOrder = ChapterConst.PriorityMin - 1
 	slot0.quadTws = {}
 	slot0.presentTws = {}
 	slot0.markTws = {}

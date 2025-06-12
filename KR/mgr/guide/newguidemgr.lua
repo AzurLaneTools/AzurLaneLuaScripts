@@ -84,10 +84,6 @@ slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	slot0:PlayScript(uv1(slot1), slot2, slot3, slot4, slot5)
 end
 
-slot0._Play = function(slot0, slot1, slot2, slot3, slot4)
-	slot0:PlayScript(Guide.New(slot1), slot2, slot3, slot4, onStep)
-end
-
 slot0.PlayScript = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	if not slot1 then
 		uv0("should exist guide file ")

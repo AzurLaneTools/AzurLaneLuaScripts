@@ -89,7 +89,7 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 		slot0.skin = slot2
 		slot0.own = slot3
 		slot0.skinId = slot0.skin.id
-		slot4 = ShipGroup.GetChangeSkinData(slot0.skin.id)
+		slot4 = ShipSkin.GetChangeSkinData(slot0.skin.id)
 
 		if slot3 and slot4 then
 			setActive(slot0.changeSkinTF, true)

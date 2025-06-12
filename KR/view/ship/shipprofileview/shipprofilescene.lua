@@ -204,8 +204,8 @@ slot0.didEnter = function(slot0)
 	slot1:Update(slot0.paintingName, false)
 	slot0:updateSpinePaintingState()
 	onButton(slot0, slot0.btnChangeSkin, function ()
-		if ShipGroup.IsChangeSkin(uv0.skin.id) then
-			uv0:showSkinProfile(uv0.contextData.skinIndex, pg.ship_skin_template[ShipGroup.GetChangeSkinNextId(slot0.id)], uv0.prevSkinBtn)
+		if ShipSkin.IsChangeSkin(uv0.skin.id) then
+			uv0:showSkinProfile(uv0.contextData.skinIndex, pg.ship_skin_template[ShipSkin.GetChangeSkinNextId(slot0.id)], uv0.prevSkinBtn)
 		end
 	end, SFX_CONFIRM)
 	setActive(slot0.bottomTF, false)
@@ -238,7 +238,7 @@ slot0.InitSkinList = function(slot0)
 end
 
 slot0.showSkinProfile = function(slot0, slot1, slot2, slot3)
-	slot4 = ShipGroup.IsChangeSkin(slot2.id) and true or false
+	slot4 = ShipSkin.IsChangeSkin(slot2.id) and true or false
 
 	setActive(slot0.btnChangeSkin, slot4)
 
@@ -569,7 +569,8 @@ slot0.CreateLive2D = function(slot0)
 		scale = Vector3(52, 52, 52),
 		position = (not pg.ship_skin_template[slot0.skin.id].live2d_offset_profile or type(slot2) == "string" or Vector3(0 + slot2[1], -40 + slot2[2], 100 + slot2[3])) and Vector3(0, -40, 100),
 		parent = slot0.l2dRoot
-	}), function ()
+	}), function (slot0)
+		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		uv0.live2DBtn:SetEnable(true)
 	end)
 

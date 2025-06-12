@@ -832,6 +832,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[67] = {
+		achieve = 1,
+		index = 1026,
+		pic = "zhaohe_4",
+		desc = "<color=#92fc63>[화났어! ]</color>",
+		item_name = "이모티콘: 화났어!",
+		item_desc = "이모티콘: 화났어! 채팅의 애니메이션 이모티콘 세트로 사용 가능",
+		id = 67,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2457,6 +2470,7 @@ pg.emoji_template = {
 		63,
 		65,
 		66,
+		67,
 		100,
 		101,
 		102,

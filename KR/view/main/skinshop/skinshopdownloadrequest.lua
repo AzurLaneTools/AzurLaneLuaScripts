@@ -1,11 +1,90 @@
 slot0 = class("SkinShopDownloadRequest")
+slot0.Live2DGroupName = "L2D"
+
+slot0.CalcListSize = function(slot0)
+	slot2 = GroupHelper.CalcSizeWithFileArr(uv0.Live2DGroupName, GroupHelper.CreateArrByLuaFileList(uv0.Live2DGroupName, slot0))
+
+	return slot2, HashUtil.BytesToString(slot2)
+end
 
 slot0.Ctor = function(slot0)
-	slot0.downloadui = GameObject.Find("/OverlayCamera/Overlay/UIMain/DialogPanel")
 end
 
 slot0.Start = function(slot0, slot1, slot2)
-	slot0:Refresh(true, slot1, slot2)
+	slot0.filePath = slot1
+	slot0.fileList = {
+		slot1
+	}
+	slot0.onSuccess = slot2
+	slot3, slot4 = uv0.CalcListSize({
+		slot1
+	})
+
+	if slot3 > 0 then
+		slot6 = function()
+			uv0:success()
+		end
+
+		pg.MsgboxMgr.GetInstance():ShowMsgBox({
+			modal = true,
+			locked = true,
+			type = MSGBOX_TYPE_NORMAL,
+			content = string.format(i18n("group_download_tip", slot4)),
+			onYes = function ()
+				uv0:Download()
+			end,
+			onNo = slot6,
+			onClose = slot6
+		})
+	else
+		slot0:success()
+	end
+end
+
+slot0.Download = function(slot0)
+	slot1 = BundleWizardUpdateInfo.New()
+
+	slot1:AddGroup(uv0.Live2DGroupName, slot0.fileList)
+
+	slot1.infoName = slot0.filePath
+
+	if BundleWizardUpdater.Inst:GetFileList(slot1).Count > 0 then
+		slot4 = BundleWizardUpdater.Inst
+
+		slot4:StartUpdate(slot1, nil, function (slot0, slot1)
+			if slot0 then
+				uv0:success()
+			else
+				uv0:error(uv0.filePath, "")
+			end
+		end, nil)
+	else
+		slot0:success()
+	end
+end
+
+slot0.success = function(slot0)
+	if slot0.onSuccess then
+		slot0.onSuccess(checkABExist(slot0.filePath))
+	end
+end
+
+slot0.error = function(slot0, slot1, slot2)
+	slot4 = function()
+		uv0:success()
+	end
+
+	pg.MsgboxMgr.GetInstance():ShowMsgBox({
+		modal = true,
+		locked = true,
+		content = i18n("file_down_mgr_error", slot1, slot2),
+		onYes = function ()
+			uv0:Download()
+		end,
+		onNo = slot4,
+		onClose = slot4,
+		weight = LayerWeightConst.TOP_LAYER
+	})
 end
 
 slot0.Refresh = function(slot0, slot1, slot2, slot3)

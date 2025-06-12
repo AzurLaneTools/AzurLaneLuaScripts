@@ -38,9 +38,142 @@ pg.activity_banner = {
 		}
 	},
 	{
-		time = "stop",
 		type = 2,
 		id = 2,
+		pic = "temp6",
+		param = {
+			"scene skinshop",
+			{}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					25
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 3,
+		pic = "temp7",
+		param = {
+			"crusing"
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					8
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		param = "5981",
+		type = 3,
+		id = 4,
+		pic = "temp8",
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		param = "5979",
+		type = 3,
+		id = 5,
+		pic = "temp9",
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 6,
 		pic = "temp2",
 		param = {
 			"scene charge",
@@ -51,7 +184,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 3,
+		id = 7,
 		pic = "temp3",
 		param = {
 			"scene skinshop",
@@ -86,7 +219,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 4,
+		id = 8,
 		pic = "temp4",
 		param = {
 			"scene charge",
@@ -118,124 +251,6 @@ pg.activity_banner = {
 					59,
 					59
 				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 5,
-		pic = "temp5",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 6,
-		pic = "temp6",
-		param = {
-			"crusing"
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					8
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 7,
-		pic = "temp7",
-		param = {
-			"scene court yard"
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		time = "stop",
-		type = 2,
-		id = 8,
-		pic = "temp8",
-		param = {
-			"scene get boat",
-			{
-				goToPray = true
 			}
 		}
 	},
@@ -357,11 +372,13 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
-			4,
-			5,
 			6,
 			7,
 			8
+		},
+		[3] = {
+			4,
+			5
 		},
 		[9] = {
 			90,

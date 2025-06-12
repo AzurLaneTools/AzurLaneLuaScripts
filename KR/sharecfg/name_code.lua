@@ -2856,6 +2856,13 @@ pg.name_code = {
 		code = "아드미랄 히퍼·META",
 		nation = 0
 	},
+	[544] = {
+		name = "꼬마 에기르",
+		type = 1,
+		id = 544,
+		code = "꼬마 에기르",
+		nation = 0
+	},
 	[10000] = {
 		name = "제로센 52형",
 		type = 2,

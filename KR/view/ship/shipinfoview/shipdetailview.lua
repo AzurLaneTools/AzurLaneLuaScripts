@@ -18,6 +18,8 @@ end
 slot0.OnInit = function(slot0)
 	slot0:InitDetail()
 	slot0:InitEvent()
+	setParent(slot0.randomFlagToggle, slot0._tf.parent)
+	setActive(slot0.randomFlagToggle, true)
 end
 
 slot0.InitDetail = function(slot0)
@@ -45,6 +47,7 @@ slot0.InitDetail = function(slot0)
 	slot0.evaluationBtn = slot0.detailPanel:Find("evaluation_btn")
 	slot0.profileBtn = slot0.detailPanel:Find("profile_btn")
 	slot0.fashionToggle = slot0.detailPanel:Find("fashion_toggle")
+	slot0.randomFlagToggle = slot0.detailPanel:Find("random_flag_toggle")
 	slot0.fashionTag = slot0.fashionToggle:Find("Tag")
 	slot0.commonTagToggle = slot0.detailPanel:Find("common_toggle")
 	slot0.spWeaponSlot = slot0.equipments:Find("SpSlot")
@@ -67,6 +70,7 @@ slot0.InitDetail = function(slot0)
 	setText(slot0.quickPanel:Find("title/text"), i18n("quick_equip_tip3"))
 	setText(slot0.quickPanel:Find("frame/emptyTitle/text"), i18n("quick_equip_tip4"))
 	setText(slot0.quickPanel:Find("frame/selectTitle/text"), i18n("quick_equip_tip5"))
+	setText(slot0.randomFlagToggle:Find("bg/Text"), i18n("ship_random_secretary_tag"))
 
 	slot0.equipmentProxy = getProxy(EquipmentProxy)
 	slot0.recordPanel = slot0.detailPanel:Find("record_panel")
@@ -133,7 +137,12 @@ slot0.InitEvent = function(slot0)
 		if uv0:GetShipVO().preferenceTag == Ship.PREFERENCE_TAG_COMMON ~= slot0 then
 			uv0:emit(ShipMainMediator.ON_TAG, uv0:GetShipVO().id, (slot1 ~= Ship.PREFERENCE_TAG_COMMON or Ship.PREFERENCE_TAG_NONE) and Ship.PREFERENCE_TAG_COMMON)
 		end
-	end)
+	end, SFX_CONFIGM)
+	onToggle(slot0, slot0.randomFlagToggle, function (slot0)
+		if uv0:GetShipVO():getRandomFlag() ~= slot0 then
+			uv0:emit(ShipMainMediator.CHANGE_RANDOM_FLAG, uv0:GetShipVO():GetShipPhantomMark(), slot0)
+		end
+	end, SFX_CONFIGM)
 	onButton(slot0, slot0.lockBtn, function ()
 		uv0:emit(ShipMainMediator.ON_LOCK, {
 			uv0:GetShipVO().id
@@ -440,6 +449,7 @@ slot0.UpdateUI = function(slot0)
 	slot0:UpdateEquipments(slot1)
 	slot0:UpdateLock()
 	slot0:UpdatePreferenceTag()
+	triggerToggle(slot0.randomFlagToggle, slot0:GetShipVO():getRandomFlag())
 end
 
 slot0.UpdateIntimacy = function(slot0, slot1)
@@ -877,6 +887,7 @@ slot0.clearListener = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	setParent(slot0.randomFlagToggle, slot0._tf)
 	slot0:clearListener()
 	removeAllChildren(slot0.equipmentsGrid)
 
