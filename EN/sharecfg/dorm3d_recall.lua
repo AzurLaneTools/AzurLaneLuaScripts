@@ -267,7 +267,7 @@ pg.dorm3d_recall = {
 		type = 1,
 		id = 104,
 		image = "recall_114",
-		unlock_text = "赠送水晶糖后解锁",
+		unlock_text = "Unlocked after gifting Sparkly Crystal.",
 		desc = "What does this candy that shimmers like crystal taste like? Why not try it with her and see?",
 		unlock = {
 			3,

@@ -199,7 +199,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517101] = {
-		text = "新泽西进入宿舍1天",
+		text = "Visit New Jersey's private quarters 1 time.",
 		trigger_num = 1,
 		trigger_id = 0,
 		type = 1,
@@ -208,7 +208,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 152
 	},
 	[10517102] = {
-		text = "新泽西解锁宿舍4天",
+		text = "Visit New Jersey's private quarters over 4 days.",
 		trigger_num = 4,
 		trigger_id = 0,
 		type = 1,
@@ -217,7 +217,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	[10517103] = {
-		text = "新泽西解锁宿舍7天",
+		text = "Visit New Jersey's private quarters over 7 days.",
 		trigger_num = 7,
 		trigger_id = 0,
 		type = 1,
@@ -226,7 +226,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 151
 	},
 	[10517104] = {
-		text = "新泽西可收集物品达到20个",
+		text = "Collect 20 items in New Jersey's private quarters.",
 		trigger_num = 20,
 		trigger_id = 0,
 		type = 1,
@@ -235,7 +235,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 153
 	},
 	[10517201] = {
-		text = "新泽西契合度5级",
+		text = "Reach New Jersey Intimacy Lv. 5",
 		trigger_num = 5,
 		trigger_id = 0,
 		type = 3,
@@ -244,7 +244,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517202] = {
-		text = "新泽西契合度10级",
+		text = "Reach New Jersey Intimacy Lv. 10",
 		trigger_num = 10,
 		trigger_id = 0,
 		type = 3,
@@ -253,7 +253,7 @@ pg.dorm3d_ins_unlock = {
 		trigger_type = 101
 	},
 	[10517301] = {
-		text = "新泽西进入宿舍1天",
+		text = "Visit New Jersey's private quarters 1 time.",
 		trigger_num = 1,
 		trigger_id = 0,
 		type = 2,

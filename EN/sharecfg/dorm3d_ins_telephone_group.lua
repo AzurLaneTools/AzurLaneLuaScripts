@@ -18,7 +18,7 @@ pg.base.dorm3d_ins_telephone_group = {
 		background = "voice_placeholder",
 		type = 1,
 		id = 10517301,
-		unlock_desc = "Obtain the character.",
+		unlock_desc = "Visit New Jersey's private quarters.",
 		content = {
 			11,
 			110602

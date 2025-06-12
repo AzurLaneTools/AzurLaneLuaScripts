@@ -967,7 +967,7 @@ pg.dorm3d_camera_zone_template = {
 		}
 	},
 	[16001] = {
-		name = "舞池",
+		name = "Stage",
 		record_time = 60,
 		room_id = 16,
 		id = 16001,

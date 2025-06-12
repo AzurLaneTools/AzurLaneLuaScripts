@@ -65,14 +65,14 @@ pg.dorm3d_ins_npc_template = {
 	},
 	{
 		ship_group = 10517,
-		message = "xinzexi_2_2_1",
+		message = "xinzexi_1_2_1",
 		time = 20,
 		npc_reply = "",
 		id = 10
 	},
 	{
 		ship_group = 10517,
-		message = "xinzexi_2_2_1",
+		message = "xinzexi_2_1_1",
 		time = 20,
 		npc_reply = "",
 		id = 11
