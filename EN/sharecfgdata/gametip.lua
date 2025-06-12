@@ -35743,7 +35743,7 @@ _G.pg.base.gametip.dorm3d_role_choose = {
 
 
 _G.pg.base.gametip.dorm3d_beach_buy = {
-	tip = "Would you like to spend <color=#39bfff>$1</color> to unlock the <color=#169fff>beach</color>?"
+	tip = "Would you like to spend <color=#39bfff>$1</color> to unlock the <color=#169fff>$2</color>?"
 }
 
 
