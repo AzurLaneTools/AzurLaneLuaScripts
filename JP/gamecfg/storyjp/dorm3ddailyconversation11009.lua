@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "アカデミーにいた頃、優等生の誰かさんがこれを着て講壇でスピーチしてる姿をよく見たの",
+			say = "優等生の誰かさんがこれを着て講壇でスピーチしてる姿をよく見たの",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

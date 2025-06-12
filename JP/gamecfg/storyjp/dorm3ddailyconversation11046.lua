@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "ふふ、アカデミーの頃の思い出ばっかりじゃつまらないでしょ",
+			say = "ふふ、昔の思い出ばっかりじゃつまらないでしょ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

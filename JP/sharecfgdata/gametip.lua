@@ -35819,7 +35819,7 @@ _G.pg.base.gametip.dorm3d_role_choose = {
 
 
 _G.pg.base.gametip.dorm3d_beach_buy = {
-	tip = "<color=#39bfff>$1</color>を消費して、 <color=#169fff>ビーチ</color>を開放しますか？"
+	tip = "<color=#39bfff>$1</color>を消費して、 <color=#169fff>$2</color>を開放しますか？"
 }
 
 

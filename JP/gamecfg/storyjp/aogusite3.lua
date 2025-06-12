@@ -440,11 +440,12 @@ return {
 		},
 		{
 			expression = 3,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_518",
-			hidePaintObj = true,
 			side = 2,
-			actor = 499060,
+			bgName = "star_level_bg_518",
+			portrait = "zhihuiguan",
+			actor = 0,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
 			say = "――アウグストの安全も守らないといけないし",
 			typewriter = {
 				speed = 0.05,

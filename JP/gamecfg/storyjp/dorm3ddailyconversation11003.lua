@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "あ！アカデミーの時のミックスジュース！",
+			say = "あ！アカデミーにいた頃、大好きだったミックスジュース！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

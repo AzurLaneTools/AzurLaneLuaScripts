@@ -64,7 +64,7 @@ return {
 			}
 		},
 		{
-			actorName = "ニュージャージー",
+			actorName = 10517,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

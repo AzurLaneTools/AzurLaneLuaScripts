@@ -3284,7 +3284,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "――商店街に行けばきっと必要なものは揃うはず",
-		ship_group = 10517,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 333,
@@ -3313,7 +3313,7 @@ pg.base.dorm3d_ins_chat_language = {
 	},
 	{
 		param = "――いいよ。どこを見て回りたい？",
-		ship_group = 10517,
+		ship_group = 0,
 		option = "",
 		type = 1,
 		id = 336,

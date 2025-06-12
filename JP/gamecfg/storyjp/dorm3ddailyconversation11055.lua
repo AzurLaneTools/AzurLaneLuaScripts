@@ -12,7 +12,7 @@ return {
 	},
 	scripts = {
 		{
-			actorName = 10517,
+			actor = 0,
 			side = 2,
 			hidePaintObj = true,
 			dir = 1,

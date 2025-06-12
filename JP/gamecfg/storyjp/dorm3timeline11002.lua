@@ -27,7 +27,7 @@ return {
 							options = {
 								{
 									{
-										content = "新泽西……？奇怪，不在吗？"
+										content = "ニュージャージー？あれ…いない？"
 									}
 								}
 							},

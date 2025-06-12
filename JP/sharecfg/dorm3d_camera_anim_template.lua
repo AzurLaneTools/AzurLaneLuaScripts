@@ -2143,7 +2143,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400110",
 		room = 11,
 		id = 11101,
-		icon = "camera_action32"
+		icon = "camera_action13"
 	},
 	[11102] = {
 		anim_time = 5,
@@ -2158,7 +2158,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400110",
 		room = 11,
 		id = 11102,
-		icon = "camera_action33"
+		icon = "camera_action14"
 	},
 	[11103] = {
 		anim_time = 5,
@@ -2173,7 +2173,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400110",
 		room = 11,
 		id = 11103,
-		icon = "camera_action34"
+		icon = "camera_action15"
 	},
 	[11104] = {
 		anim_time = 5,
@@ -2188,7 +2188,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400110",
 		room = 11,
 		id = 11104,
-		icon = "camera_action36"
+		icon = "camera_action16"
 	},
 	[11201] = {
 		anim_time = 5,
@@ -2248,7 +2248,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400210",
 		room = 11,
 		id = 11204,
-		icon = "camera_action33"
+		icon = "camera_action36"
 	},
 	[11301] = {
 		anim_time = 5,
@@ -2263,7 +2263,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400310",
 		room = 11,
 		id = 11301,
-		icon = "camera_action13"
+		icon = "camera_action25"
 	},
 	[11302] = {
 		anim_time = 5,
@@ -2278,7 +2278,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400310",
 		room = 11,
 		id = 11302,
-		icon = "camera_action16"
+		icon = "camera_action26"
 	},
 	[11303] = {
 		anim_time = 5,
@@ -2293,7 +2293,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400310",
 		room = 11,
 		id = 11303,
-		icon = "camera_action18"
+		icon = "camera_action27"
 	},
 	[11304] = {
 		anim_time = 5,
@@ -2308,7 +2308,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400310",
 		room = 11,
 		id = 11304,
-		icon = "camera_action19"
+		icon = "camera_action28"
 	},
 	[11401] = {
 		anim_time = 5,
@@ -2323,7 +2323,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400410",
 		room = 11,
 		id = 11401,
-		icon = "camera_action13"
+		icon = "camera_action32"
 	},
 	[11402] = {
 		anim_time = 5,
@@ -2338,7 +2338,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400410",
 		room = 11,
 		id = 11402,
-		icon = "camera_action16"
+		icon = "camera_action33"
 	},
 	[11403] = {
 		anim_time = 5,
@@ -2353,7 +2353,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400410",
 		room = 11,
 		id = 11403,
-		icon = "camera_action18"
+		icon = "camera_action34"
 	},
 	[11404] = {
 		anim_time = 5,
@@ -2368,7 +2368,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400410",
 		room = 11,
 		id = 11404,
-		icon = "camera_action19"
+		icon = "camera_action36"
 	},
 	[11405] = {
 		anim_time = 5,
@@ -2383,7 +2383,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400412",
 		room = 11,
 		id = 11405,
-		icon = "camera_action15"
+		icon = "camera_action32"
 	},
 	[11406] = {
 		anim_time = 5,
@@ -2398,7 +2398,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400412",
 		room = 11,
 		id = 11406,
-		icon = "camera_action25"
+		icon = "camera_action33"
 	},
 	[11407] = {
 		anim_time = 5,
@@ -2413,7 +2413,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400412",
 		room = 11,
 		id = 11407,
-		icon = "camera_action26"
+		icon = "camera_action34"
 	},
 	[11408] = {
 		anim_time = 5,
@@ -2428,7 +2428,7 @@ pg.dorm3d_camera_anim_template = {
 		staypoint = "Pos400412",
 		room = 11,
 		id = 11408,
-		icon = "camera_action27"
+		icon = "camera_action36"
 	},
 	[16001] = {
 		anim_time = 0,

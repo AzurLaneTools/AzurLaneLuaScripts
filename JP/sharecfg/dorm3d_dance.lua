@@ -2,7 +2,7 @@ pg = pg or {}
 pg.dorm3d_dance = {
 	[10517] = {
 		default_camera = "dance_camera1",
-		song_name = "迷乱奇遇",
+		song_name = "魅惑的な奇遇",
 		director_name = "[sequence]",
 		timeline_scene = "Dance",
 		id = 10517,
@@ -30,9 +30,9 @@ pg.dorm3d_dance = {
 			"dance_camera3"
 		},
 		camera_names = {
-			"镜头1",
-			"镜头2",
-			"镜头3"
+			"カット1",
+			"カット2",
+			"カット3"
 		}
 	},
 	all = {

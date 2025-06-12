@@ -52,7 +52,7 @@ return {
 			}
 		},
 		{
-			actor = 0,
+			actorName = 10517,
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,

@@ -726,7 +726,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 1007,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>純白の星雪の下で寄り添っているうさぎたち。2匹は互いの温もりを守っている</color>\n「交流宿舎」ニュージャージーの親愛度Lv報酬",
+		desc = "<color=#ffffff>純白の星雪の下で寄り添っているうさぎたち。2匹は互いの温もりを守っている</color>「交流宿舎」ニュージャージーの親愛度Lv報酬",
 		scene = {}
 	},
 	[1008] = {
