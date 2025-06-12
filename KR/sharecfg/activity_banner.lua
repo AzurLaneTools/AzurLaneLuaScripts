@@ -7,7 +7,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				wrap = 4
 			}
 		},
 		time = {
@@ -224,7 +224,7 @@ pg.activity_banner = {
 		param = {
 			"scene charge",
 			{
-				wrap = 2
+				wrap = 4
 			}
 		},
 		time = {
