@@ -36519,7 +36519,7 @@ _G.pg.base.gametip.dorm3d_accompany_locked = {
 
 
 _G.pg.base.gametip.dorm3d_role_locked = {
-	tip = "キャラを開放しておく必要があります"
+	tip = "コンテンツを開放しておく必要があります"
 }
 
 

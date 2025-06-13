@@ -44,11 +44,17 @@ slot6 = tostring
 slot7 = next
 
 print_r = function(slot0)
+	if uv0(slot0) ~= "table" then
+		uv1("root is not table")
+
+		return
+	end
+
 	slot1 = {
 		[slot0] = "."
 	}
 
-	uv7((function (slot0, slot1, slot2)
+	uv1((function (slot0, slot1, slot2)
 		slot3 = {}
 
 		for slot7, slot8 in uv0(slot0) do
