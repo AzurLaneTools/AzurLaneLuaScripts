@@ -29114,6 +29114,11 @@ _G.pg.base.gametip.islandshop_tips4 = {
 }
 
 
+_G.pg.base.gametip.island_shop_limit_error = {
+	tip = "該道具已經達到持有上限，無法兌換"
+}
+
+
 _G.pg.base.gametip.haidaojudian_upgrade_limit = {
 	tip = "當前建築暫時不能繼續升級，指揮官先去升級其他建築吧~"
 }

@@ -63,15 +63,6 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>獻給所有五年間持續奮鬥在港區的指揮官們</color>\n通過參與五週年限定活動獲取",
 		scene = {}
 	},
-	[110] = {
-		name = "八周年纪念",
-		gain_by = "",
-		time_second = 0,
-		id = 110,
-		time_limit_type = 0,
-		desc = "<color=#ffffff>献给所有八年间持续奋斗在港区的指挥官们</color>\n通过参与八周年限定活动获取",
-		scene = {}
-	},
 	[201] = {
 		name = "限界的挑戰者",
 		gain_by = "",
@@ -782,7 +773,6 @@ pg.item_data_frame = {
 		104,
 		105,
 		107,
-		110,
 		201,
 		202,
 		203,
