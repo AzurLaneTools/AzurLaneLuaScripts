@@ -11,6 +11,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.content = slot0.tr:Find("content")
 	slot0.bgImage = slot0.content:Find("bg"):GetComponent(typeof(Image))
 	slot0.paintingTr = slot0.content:Find("ship_icon/painting")
+	slot0.paintingDefaultAngle = slot0.paintingTr.localEulerAngles
 	slot0.detailTF = slot0.content:Find("detail")
 	slot0.lvTxtTF = slot0.detailTF:Find("top/level")
 	slot0.lvTxt = slot0.lvTxtTF:GetComponent(typeof(Text))
@@ -70,7 +71,10 @@ slot0.flush = function(slot0)
 		slot0.UIlist:align(slot2:getMaxStar())
 		setScrollText(slot0.nameTxt, slot2:GetColorName())
 		slot0:updateProps({})
-		setPaintingPrefabAsync(slot0.paintingTr, slot2:getPainting(), "biandui")
+		setPaintingPrefabAsync(slot0.paintingTr, slot2:getPainting(), "biandui", nil, {
+			skinID = slot2:getSkinId(),
+			rotateZ = slot0.paintingDefaultAngle.z
+		})
 
 		slot5 = slot0.shipVO:rarity2bgPrint()
 

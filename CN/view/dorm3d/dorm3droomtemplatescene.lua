@@ -3190,36 +3190,21 @@ slot0.RevertCameraSettings = function(slot0)
 end
 
 slot0.SetVolumeProfile = function(slot0, slot1, slot2)
-	slot3 = slot0.globalVolume:GetComponent(typeof(UnityEngine.Rendering.Volume))
-	slot0.activeProfileWeight = slot2
-
-	if slot0.activeProfileName ~= slot1 then
-		slot0.activeProfileName = slot1
-		slot4 = slot0.loader
-
-		slot4:LoadReference("dorm3d/scenesres/res/common", slot1, nil, function (slot0)
-			uv0.profile = slot0
-			uv0.weight = uv1.activeProfileWeight
-
-			if uv1.activeCameraSettings then
-				uv1:SettingCamera(uv1.activeCameraSettings)
-			end
-		end, "VolumeProfile")
-	else
-		slot3.weight = slot0.activeProfileWeight
+	if slot0.cameraVolume then
+		slot0:RevertVolumeProfile()
 	end
+
+	slot3 = slot0.loader
+
+	slot3:GetPrefab("dorm3d/effect/volume/" .. slot1, "", function (slot0)
+		uv0.cameraVolume = slot0
+	end)
 end
 
 slot0.RevertVolumeProfile = function(slot0)
-	slot1 = slot0.globalVolume:GetComponent(typeof(UnityEngine.Rendering.Volume))
-	slot1.profile = slot0.originalVolume.profile
-	slot1.weight = slot0.originalVolume.weight
+	slot0.loader:ReturnPrefab(slot0.cameraVolume)
 
-	if slot0.activeCameraSettings then
-		slot0:SettingCamera(slot0.activeCameraSettings)
-	end
-
-	slot0.activeProfileName = nil
+	slot0.cameraVolume = nil
 end
 
 slot0.RecordCharacterLight = function(slot0)
