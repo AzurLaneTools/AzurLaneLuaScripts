@@ -5626,8 +5626,8 @@ _G.pg.base.gametip.world_boss_help_meta = {
 	tip = {
 		{
 			info = [[
-<color=#92fc63>2025.3.27 ~ 2025.6.19</color>
-META전 호넷·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
+<color=#92fc63>2025.6.19 ~ 2025.9.18</color>
+META전 카와카제·META가 진행 중입니다. META전에서는 동기화 수치를 모아 META 함선을 획득할 수 있습니다. 
 (※<color=#ff5c5c>동기화 수치 및 동기화 수치 획득 합계 보상은 진행 기간이 종료된 후에 초기화됩니다.</color>)
 
 ■ META전에 대해
@@ -6768,6 +6768,11 @@ _G.pg.base.gametip.word_shipNation_tolove = {
 
 _G.pg.base.gametip.word_shipNation_yujinwangguo = {
 	tip = "HNLMS"
+}
+
+
+_G.pg.base.gametip.word_shipNation_brs = {
+	tip = "BLACK★ROCK SHOOTER"
 }
 
 
@@ -21294,7 +21299,7 @@ META 연구실에서는 다음 조작을 실시할 수 있습니다.
 ・동기화 수치가 일정 수준에 도달하면 「META 함선」을 획득할 수 있습니다. 
 ・「META」 함선을 이미 획득한 상태라면, 함선의 조작 화면에서 「정보 동기화」로 동기화 수치 관련 정보를 확인할 수 있습니다. 
 
-※<color=#92fc63>2025.3.27 ~ 2025.6.19</color> 호넷·META의 META전 오픈 기간 동안에는 「호넷·META」의 동기화 수치를 획득할 수 있습니다. 
+※<color=#92fc63>2025.6.19 ~ 2025.9.18</color>카와카제·META META전 오픈 기간 동안에는 「카와카제·META」의 동기화 수치를 획득할 수 있습니다. 
  동기화 수치 및 동기화 수치 총 획득 수 보상은 진행 기간 종료 후에 초기화됩니다. 
 
 ■ 「META」 함선의 의장 강화
@@ -38411,4 +38416,29 @@ _G.pg.base.gametip.littleaijier_npc = {
 			info = "7. 임시 가입 상태인 [꼬마 에기르]는 대함대 작전에 참여할 수 없습니다."
 		}
 	}
+}
+
+
+_G.pg.base.gametip.brs_main_tip = {
+	tip = "이벤트에 참여하여 한정 보상을 획득하자!"
+}
+
+
+_G.pg.base.gametip.brs_expedition_tip = {
+	tip = "챌린지 스테이지를 클리어하면 한정 보상 획득 가능!"
+}
+
+
+_G.pg.base.gametip.brs_dmact_tip = {
+	tip = "총 격퇴 수"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_1 = {
+	tip = "획득 방법"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_2 = {
+	tip = "확인"
 }

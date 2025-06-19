@@ -1848,6 +1848,13 @@ pg.name_code = {
 		code = "다이센",
 		nation = 0
 	},
+	[300] = {
+		name = "카와카제·META",
+		type = 1,
+		id = 300,
+		code = "카와카제·META",
+		nation = 0
+	},
 	[400] = {
 		name = "Z1",
 		type = 1,

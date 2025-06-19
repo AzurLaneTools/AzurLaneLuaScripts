@@ -14224,5 +14224,113 @@ pg.base.ship_skin_template_1 = {
 			0.5,
 			0.5
 		}
+	},
+	[102058] = {
+		name = "순백의 기적",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지휘관, 어, 어때…? 잘 어울려…? 이런 옷을 입을 날이, 이렇게 행복한 순간이 올 줄은 정말 꿈에도 몰랐어…. 정말… 고마워….",
+		illustrator2 = -1,
+		ship_group = 10205,
+		group_index = 8,
+		painting = "hailunna_h",
+		prefab = "hailunna_h",
+		hand_id = 13,
+		shop_type_id = 9998,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 1,
+		get_showing = "",
+		id = 102058,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 34,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.771,
+					0.975,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.777,
+					0.983,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.969,
+					1.128,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.825,
+							1.901,
+							0
+						}
+					}
+				}
+			}
+		}
 	}
 }

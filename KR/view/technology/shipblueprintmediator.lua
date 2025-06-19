@@ -145,6 +145,7 @@ slot0.register = function(slot0)
 			},
 			onRemoved = function ()
 				uv0.viewComponent:changeEffectVisible(true)
+				uv0.viewComponent:updateMod()
 			end
 		}))
 		uv0.viewComponent:changeEffectVisible(false)

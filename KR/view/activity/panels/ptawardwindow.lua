@@ -80,6 +80,7 @@ end
 
 slot0.Show = function(slot0, slot1)
 	slot6 = slot1.resId
+	slot0.blur = slot1.blur
 	slot0.resIcon = nil
 
 	slot0:UpdateTitle(slot1.type)
@@ -91,6 +92,10 @@ slot0.Show = function(slot0, slot1)
 
 	Canvas.ForceUpdateCanvases()
 	setActive(slot0._tf, true)
+
+	if slot0.blur then
+		pg.UIMgr.GetInstance():BlurPanel(slot0._tf)
+	end
 end
 
 slot0.UpdateTitle = function(slot0, slot1)
@@ -136,10 +141,16 @@ slot0.updateResIcon = function(slot0, slot1, slot2, slot3)
 		else
 			setActive(slot0.ptIcon, false)
 		end
+	else
+		setActive(slot0.ptIcon, false)
 	end
 end
 
 slot0.Hide = function(slot0)
+	if slot0.blur then
+		pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
+	end
+
 	setActive(slot0._tf, false)
 end
 

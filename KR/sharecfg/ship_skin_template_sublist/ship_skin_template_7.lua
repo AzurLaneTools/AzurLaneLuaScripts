@@ -1,513 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_7 = {
-	[207054] = {
-		name = "로큰 알코올",
-		change_skin = "",
-		bg_sp = "",
-		desc = "휴우… 가위를 겨우 집었네…… 지, 지휘관님?! 왜 벌써 오신 거죠!? 어서 문을 닫고 나가주…… 아, 아니지! 리본 푸는 것 좀 도와주세요!",
-		illustrator2 = -1,
-		ship_group = 20705,
-		group_index = 4,
-		painting = "kewei_5",
-		prefab = "kewei_5",
-		hand_id = 13,
-		shop_type_id = 16,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "145",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 0,
-		get_showing = "",
-		id = 207054,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71083,
-		voice_actor = 89,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.847,
-					2.104,
-					0
-				}
-			},
-			plane = {
-				{
-					0.914,
-					1.057,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.264,
-							2.231,
-							-1.47
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			{
-				-13.5,
-				126.3,
-				0
-			},
-			{
-				0.77
-			}
-		}
-	},
-	[207055] = {
-		name = "애니버서리 메모리즈",
-		change_skin = "",
-		bg_sp = "",
-		desc = "지휘관님을 향한 영원한 사랑과 감사의 마음을 전하기 위해, 그리고 함께 보낸 소중한 날들을 기념하기 위해… 이렇게 새로운 모습으로 모항의 기념식에 참석했습니다. …어머, 지휘관님? 어서 축사 뒷부분도 알려주셔야죠~!",
-		illustrator2 = -1,
-		ship_group = 20705,
-		group_index = 5,
-		painting = "kewei_6",
-		prefab = "kewei_6",
-		hand_id = 13,
-		shop_type_id = 7,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		gyro = 0,
-		bg = "107",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 0,
-		id = 207055,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71147,
-		voice_actor = 89,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		lip_sync_gain = 0,
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		live2d_offset_profile = {
-			50,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					0.666,
-					2.176,
-					0
-				}
-			},
-			plane = {
-				{
-					0.752,
-					1.084,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.869,
-							2.258,
-							-1.47
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		l2d_para_range = {
-			ParamAngleX = {
-				-10,
-				20
-			}
-		},
-		ship_l2d_id = {
-			20705501,
-			20705502,
-			20705503,
-			20705504,
-			20705505,
-			20705506,
-			20705507,
-			20705508,
-			20705509,
-			20705510,
-			20705511,
-			20705512,
-			20705513,
-			20705514,
-			20705515,
-			20705516,
-			20705517,
-			20705518,
-			20705519,
-			20705520
-		},
-		get_showing = {
-			show = 1,
-			paint_offset = {
-				-508,
-				-168,
-				1
-			},
-			data = {
-				{
-					1368,
-					56,
-					2,
-					-168,
-					211,
-					2.5
-				},
-				{
-					-1380,
-					-10,
-					1.8,
-					222,
-					-192,
-					2.5
-				},
-				{
-					40,
-					564,
-					2,
-					139,
-					-237,
-					2.5
-				},
-				{
-					45,
-					-1011,
-					3,
-					39,
-					257,
-					3
-				}
-			}
-		}
-	},
-	[207060] = {
-		name = "글로리어스",
-		change_skin = "",
-		bg_sp = "",
-		desc = "글로리어스급 항공모함 글로리어스 (HMS Glorious)",
-		illustrator2 = -1,
-		ship_group = 20706,
-		group_index = 0,
-		painting = "guangrong",
-		prefab = "guangrong",
-		hand_id = 1,
-		shop_type_id = 0,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = -1,
-		get_showing = "",
-		id = 207060,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 113,
-		spine_offset = "",
-		illustrator = 39,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.18,
-					0.7,
-					0
-				}
-			},
-			plane = {
-				{
-					1.12,
-					1.44,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.28,
-							2.43,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[207061] = {
-		name = "영광스런 학원 생활",
-		change_skin = "",
-		bg_sp = "",
-		desc = "학원 생활이라는 것도 가끔은… 좋은 것 같네요. 지휘관, 이 아이의 무늬, 예쁜…가요?",
-		illustrator2 = -1,
-		ship_group = 20706,
-		group_index = 1,
-		painting = "Guangrong_2",
-		prefab = "Guangrong_2",
-		hand_id = 1,
-		shop_type_id = 4,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "103",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 0,
-		get_showing = "",
-		id = 207061,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70065,
-		voice_actor = 113,
-		spine_offset = "",
-		illustrator = 39,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					-0.11,
-					0.77,
-					0
-				}
-			},
-			plane = {
-				{
-					1.12,
-					1.44,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.51,
-							2.25,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[207062] = {
 		name = "시원한 밤의 향설",
 		change_skin = "",
@@ -3068,13 +2561,12 @@ pg.base.ship_skin_template_7 = {
 		spine_action_offset = false,
 		part_scale = "",
 		skin_type = 0,
-		get_showing = "",
 		id = 237030,
 		voice_actor_2 = -1,
 		l2d_ignore_drag = 0,
 		l2d_se = "",
 		main_UI_FX = "",
-		shop_id = 0,
+		shop_id = 71150,
 		voice_actor = 6,
 		illustrator = -1,
 		rarity_bg = "",
@@ -3085,7 +2577,8 @@ pg.base.ship_skin_template_7 = {
 		show_skin = "stand",
 		l2d_voice_calibrate = "",
 		tag = {
-			6
+			6,
+			2
 		},
 		live2d_offset = {
 			0,
@@ -3174,6 +2667,35 @@ pg.base.ship_skin_template_7 = {
 			},
 			{
 				0.38
+			}
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					71,
+					16,
+					2,
+					-80,
+					40,
+					2
+				},
+				{
+					-218,
+					513,
+					2,
+					-100,
+					0,
+					2
+				},
+				{
+					-529,
+					-400,
+					2,
+					0,
+					-100,
+					2
+				}
 			}
 		}
 	},
@@ -14470,6 +13992,587 @@ pg.base.ship_skin_template_7 = {
 						{
 							-0.97,
 							2.41,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301322] = {
+		name = "사탕 축제!",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지휘관, 얘기했던 대로 유카타 입었다구! 히히. 이제 {namecode:33} 데리고 축제에 가줘~ {namecode:33}는 축제 사탕이 잔뜩 먹고 싶어!",
+		illustrator2 = -1,
+		ship_group = 30132,
+		group_index = 2,
+		painting = "muyue_3",
+		prefab = "muyue_3",
+		hand_id = 6,
+		shop_type_id = 10,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "114",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		get_showing = "",
+		id = 301322,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70224,
+		voice_actor = 49,
+		spine_offset = "",
+		illustrator = 34,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.202,
+					0.948,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.194,
+					0.915,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.16,
+					0.881,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.667,
+							2.351,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301323] = {
+		name = "달콤달콤 설날!",
+		change_skin = "",
+		bg_sp = "",
+		desc = "오늘 한 번 더 '새해 복 마니 받아~'라고 하면 조은 거 받을 수 있대! 에헤헤… 사탕, 마니 받았으면 조케따…!",
+		illustrator2 = -1,
+		ship_group = 30132,
+		group_index = 3,
+		painting = "muyue_4",
+		prefab = "muyue_4",
+		hand_id = 6,
+		shop_type_id = 3,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "127",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		get_showing = "",
+		id = 301323,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 49,
+		spine_offset = "",
+		illustrator = 34,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.194,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.19,
+					0.97,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.667,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301324] = {
+		name = "솜사탕과 어른의 꿈",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지히간~ 정신 바짝 차려야 해. 우리, 이짜나~ 케이크 먹구, 바께서 핫도그도 먹구, 커피컵도 타구, 유령의 집에도 가구… 또 뭐가 있드라…? 에헤헤, 손 잡고 빨리 가자~♪",
+		illustrator2 = -1,
+		ship_group = 30132,
+		group_index = 4,
+		painting = "muyue_5",
+		prefab = "muyue_5",
+		hand_id = 6,
+		shop_type_id = 26,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "182",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		get_showing = "",
+		id = 301324,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 49,
+		spine_offset = "",
+		illustrator = 34,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.16,
+					1.06,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.194,
+					0.99,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.19,
+					0.97,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.667,
+							2.21,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301329] = {
+		name = "무츠키·改",
+		change_skin = "",
+		bg_sp = "",
+		desc = "지히간, 무츠키 개조 완료~! 사탕 주께! 웅? 지히간은 무츠키한테 상냥하니까, 무츠키의 사탕 지히간한테 주께!",
+		illustrator2 = -1,
+		ship_group = 30132,
+		group_index = 9,
+		painting = "muyue_g",
+		prefab = "muyue_g",
+		hand_id = 6,
+		shop_type_id = 9997,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 2,
+		get_showing = "",
+		id = 301329,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 49,
+		spine_offset = "",
+		illustrator = 34,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.711,
+					0.658,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.641,
+					0.614,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.09,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.641,
+					0.614,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.665,
+							2.175,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[301330] = {
+		name = "키사라기",
+		change_skin = "",
+		bg_sp = "",
+		desc = "무츠키형 구축함 2번함·키사라기",
+		illustrator2 = -1,
+		ship_group = 30133,
+		group_index = 0,
+		painting = "ruyue",
+		prefab = "ruyue",
+		hand_id = 6,
+		shop_type_id = 0,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		l2d_animations = "",
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = -1,
+		get_showing = "",
+		id = 301330,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 49,
+		spine_offset = "",
+		illustrator = 34,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.27,
+					0.57,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.27,
+					0.57,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.09,
+					0.1,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.27,
+					0.57,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.43,
 							0
 						}
 					}

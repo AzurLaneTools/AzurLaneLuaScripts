@@ -166,6 +166,7 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
+			307,
 			100002,
 			100003,
 			100004,
@@ -261,7 +262,11 @@ pg.furniture_data_template = setmetatable({
 			12201,
 			12202,
 			54104,
-			54105
+			54105,
+			323001,
+			323002,
+			323101,
+			323102
 		},
 		{
 			209,
@@ -5817,7 +5822,8 @@ pg.furniture_data_template = setmetatable({
 			296,
 			302,
 			303,
-			304
+			304,
+			307
 		},
 		[7] = {
 			213,
@@ -6017,7 +6023,9 @@ pg.furniture_data_template = setmetatable({
 			319117,
 			320115,
 			321114,
-			322116
+			322116,
+			323101,
+			323102
 		},
 		[4] = {
 			1001,
@@ -6126,7 +6134,8 @@ pg.furniture_data_template = setmetatable({
 			319001,
 			320001,
 			321001,
-			322001
+			322001,
+			323001
 		},
 		[3] = {
 			1002,
@@ -6236,7 +6245,8 @@ pg.furniture_data_template = setmetatable({
 			319002,
 			320002,
 			321002,
-			322002
+			322002,
+			323002
 		},
 		[5] = {
 			1301,
@@ -6714,7 +6724,8 @@ pg.furniture_data_template = setmetatable({
 			319002,
 			320002,
 			321002,
-			322002
+			322002,
+			323002
 		},
 		[7] = {
 			1,
@@ -6858,6 +6869,7 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
+			307,
 			100002,
 			100004,
 			100005,
@@ -8934,7 +8946,8 @@ pg.furniture_data_template = setmetatable({
 			322113,
 			322114,
 			322115,
-			322116
+			322116,
+			323101
 		},
 		[11] = {
 			131,
@@ -8988,7 +9001,8 @@ pg.furniture_data_template = setmetatable({
 			312115,
 			316112,
 			316121,
-			317107
+			317107,
+			323102
 		},
 		[14] = {
 			214,
@@ -9121,7 +9135,8 @@ pg.furniture_data_template = setmetatable({
 			319001,
 			320001,
 			321001,
-			322001
+			322001,
+			323001
 		},
 		[5] = {
 			1101,
@@ -9987,6 +10002,7 @@ pg.furniture_data_template = setmetatable({
 		302,
 		303,
 		304,
+		307,
 		100002,
 		100003,
 		100004,
@@ -13005,7 +13021,11 @@ pg.furniture_data_template = setmetatable({
 		322113,
 		322114,
 		322115,
-		322116
+		322116,
+		323001,
+		323002,
+		323101,
+		323102
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21170,6 +21190,49 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[307] = {
+		can_rotate = 0,
+		describe = "환상의 경계를 넘어 세상을 넘나드는 새로운 이야기――콜라보레이션 이벤트 참가 보상.",
+		gain_by = "환상의 미혹자",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		name = "어둠을 가르고",
+		advice = 0,
+		id = 307,
+		icon = "brsxunzhangicon",
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
+		},
+		spine = {
+			{
+				"brsxunzhang",
+				"normal"
+			}
 		},
 		interAction_group = {}
 	},
@@ -156250,6 +156313,234 @@ pg.base.furniture_data_template = {
 		followBone = {
 			"char",
 			-1
+		},
+		interAction_group = {}
+	},
+	[323001] = {
+		can_rotate = 0,
+		describe = "흑과 백이 교차하는 또 다른 「세상」.",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "brs/dibanbrs",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "흑백 세상",
+		advice = 0,
+		icon = "dibanbrsicon",
+		id = 323001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[323002] = {
+		can_rotate = 0,
+		describe = "흑과 백이 교차하는 또 다른 「세상」.",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "brs/qiangbibrs",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "흑백 세상",
+		advice = 0,
+		icon = "qiangbibrsicon",
+		id = 323002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[323101] = {
+		can_rotate = 0,
+		describe = "대형 포격 플랫폼. 어느 소녀에게서 영감을 받아 설계되었다고 한다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "dapaobrsicon",
+		count = 1,
+		name = "인세인 아머먼트",
+		advice = 0,
+		id = 323101,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			7,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"dapaobrsB",
+				"normal"
+			},
+			{
+				"dapaobrsT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-11.7,
+					128.13
+				},
+				{
+					194,
+					268
+				},
+				"brs/dapaobrs_mask"
+			},
+			{
+				-2.9,
+				-65
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[323102] = {
+		can_rotate = 0,
+		describe = "공중 부양 타일. 이동 편의성은 부족해도, 그 창의성만큼은 인정받고 있다.",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "liandaobrsicon",
+		count = 1,
+		name = "떠도는 인연",
+		advice = 0,
+		id = 323102,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liandaobrs",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			},
+			0.8
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	}

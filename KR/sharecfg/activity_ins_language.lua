@@ -6727,7 +6727,40 @@ pg.activity_ins_language = setmetatable({
 		"ins_op_567_1_1",
 		"op_reply_567_1_1",
 		"ins_op_567_1_2",
-		"op_reply_567_1_2"
+		"op_reply_567_1_2",
+		"ins_568",
+		"ins_discuss_568_1",
+		"ins_reply_568_1_1",
+		"ins_reply_568_1_2",
+		"ins_reply_568_1_3",
+		"ins_reply_568_1_4",
+		"ins_reply_568_1_5",
+		"ins_reply_568_1_6",
+		"ins_discuss_568_2",
+		"ins_reply_568_2_1",
+		"ins_reply_568_2_2",
+		"ins_reply_568_2_3",
+		"ins_reply_568_2_4",
+		"ins_op_568_1_1",
+		"op_reply_568_1_1",
+		"ins_op_568_1_2",
+		"op_reply_568_1_2",
+		"ins_569",
+		"ins_discuss_569_1",
+		"ins_reply_569_1_1",
+		"ins_reply_569_1_2",
+		"ins_reply_569_1_3",
+		"ins_reply_569_1_4",
+		"ins_discuss_569_2",
+		"ins_reply_569_2_1",
+		"ins_reply_569_2_2",
+		"ins_reply_569_2_3",
+		"ins_reply_569_2_4",
+		"ins_reply_569_2_5",
+		"ins_op_569_1_1",
+		"op_reply_569_1_1",
+		"ins_op_569_1_2",
+		"op_reply_569_1_2"
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -26908,6 +26941,105 @@ pg.base.activity_ins_language = {
 		value = ""
 	},
 	op_reply_567_1_2 = {
+		value = ""
+	},
+	ins_568 = {
+		value = ""
+	},
+	ins_discuss_568_1 = {
+		value = ""
+	},
+	ins_reply_568_1_1 = {
+		value = ""
+	},
+	ins_reply_568_1_2 = {
+		value = ""
+	},
+	ins_reply_568_1_3 = {
+		value = ""
+	},
+	ins_reply_568_1_4 = {
+		value = ""
+	},
+	ins_reply_568_1_5 = {
+		value = ""
+	},
+	ins_reply_568_1_6 = {
+		value = ""
+	},
+	ins_discuss_568_2 = {
+		value = ""
+	},
+	ins_reply_568_2_1 = {
+		value = ""
+	},
+	ins_reply_568_2_2 = {
+		value = ""
+	},
+	ins_reply_568_2_3 = {
+		value = ""
+	},
+	ins_reply_568_2_4 = {
+		value = ""
+	},
+	ins_op_568_1_1 = {
+		value = ""
+	},
+	op_reply_568_1_1 = {
+		value = ""
+	},
+	ins_op_568_1_2 = {
+		value = ""
+	},
+	op_reply_568_1_2 = {
+		value = ""
+	},
+	ins_569 = {
+		value = ""
+	},
+	ins_discuss_569_1 = {
+		value = ""
+	},
+	ins_reply_569_1_1 = {
+		value = ""
+	},
+	ins_reply_569_1_2 = {
+		value = ""
+	},
+	ins_reply_569_1_3 = {
+		value = ""
+	},
+	ins_reply_569_1_4 = {
+		value = ""
+	},
+	ins_discuss_569_2 = {
+		value = ""
+	},
+	ins_reply_569_2_1 = {
+		value = ""
+	},
+	ins_reply_569_2_2 = {
+		value = ""
+	},
+	ins_reply_569_2_3 = {
+		value = ""
+	},
+	ins_reply_569_2_4 = {
+		value = ""
+	},
+	ins_reply_569_2_5 = {
+		value = ""
+	},
+	ins_op_569_1_1 = {
+		value = ""
+	},
+	op_reply_569_1_1 = {
+		value = ""
+	},
+	ins_op_569_1_2 = {
+		value = ""
+	},
+	op_reply_569_1_2 = {
 		value = ""
 	}
 }

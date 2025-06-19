@@ -1,114 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_2 = {
-	[102058] = {
-		name = "순백의 기적",
-		change_skin = "",
-		bg_sp = "",
-		desc = "지휘관, 어, 어때…? 잘 어울려…? 이런 옷을 입을 날이, 이렇게 행복한 순간이 올 줄은 정말 꿈에도 몰랐어…. 정말… 고마워….",
-		illustrator2 = -1,
-		ship_group = 10205,
-		group_index = 8,
-		painting = "hailunna_h",
-		prefab = "hailunna_h",
-		hand_id = 13,
-		shop_type_id = 9998,
-		bgm = "",
-		special_effects = "",
-		lip_smoothing = 0,
-		l2d_animations = "",
-		gyro = 0,
-		ship_l2d_id = "",
-		bg = "",
-		l2d_drag_rate = "",
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		part_scale = "",
-		skin_type = 1,
-		get_showing = "",
-		id = 102058,
-		voice_actor_2 = -1,
-		l2d_ignore_drag = 0,
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 34,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.771,
-					0.975,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.777,
-					0.983,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.969,
-					1.128,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.825,
-							1.901,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[102059] = {
 		name = "헬레나·改",
 		change_skin = "",
@@ -13877,6 +13769,131 @@ pg.base.ship_skin_template_2 = {
 			1031651
 		}
 	},
+	[103168] = {
+		name = "산들바람이 불 때",
+		change_skin = "",
+		bg_sp = "",
+		desc = "이런 날에 함께 풍경을 바라보니까 더 아름다워 보이는군…… 응? 무슨 날이냐고…? 그, 그야 우리 서, 서약 날…… 지휘관! 장난 좀 치지 마……!",
+		illustrator2 = -1,
+		ship_group = 10316,
+		group_index = 8,
+		painting = "baerdimo_h",
+		prefab = "baerdimo_h",
+		hand_id = 13,
+		shop_type_id = 9998,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		bg = "530",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 1,
+		get_showing = "",
+		id = 103168,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 191,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.15,
+					0.87,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.13,
+					0.94,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.009,
+					0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.955,
+							2.152,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		ship_l2d_id = {
+			1031651
+		}
+	},
 	[103240] = {
 		name = "브레머튼",
 		change_skin = "",
@@ -14354,6 +14371,157 @@ pg.base.ship_skin_template_2 = {
 			ParamAngleY = {
 				-15,
 				15
+			}
+		}
+	},
+	[103244] = {
+		name = "릴렉스 휴식 타임",
+		change_skin = "",
+		bg_sp = "",
+		desc = "브레머튼의 고민 상담실에 온 걸 환영해! 사실은 오늘 하루 동안 고생한 지휘관을 위해… 짜자잔! 커플 룸웨어 준비해왔지롱♪",
+		illustrator2 = -1,
+		ship_group = 10324,
+		group_index = 4,
+		painting = "bulaimodun_5",
+		prefab = "bulaimodun_5",
+		hand_id = 13,
+		shop_type_id = 20,
+		bgm = "",
+		special_effects = "",
+		lip_smoothing = 0,
+		gyro = 0,
+		ship_l2d_id = "",
+		bg = "109",
+		l2d_drag_rate = "",
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		part_scale = "",
+		skin_type = 0,
+		get_showing = "",
+		id = 103244,
+		voice_actor_2 = -1,
+		l2d_ignore_drag = 0,
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70774,
+		voice_actor = 134,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		tag = {
+			1,
+			2
+		},
+		live2d_offset = {
+			57,
+			65,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.202,
+					1.03,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.22,
+					1.132,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.009,
+					-0.004,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.47,
+							2.213,
+							0.14
+						}
+					}
+				}
+			}
+		},
+		l2d_animations = {
+			"idle",
+			"main_1",
+			"main_2",
+			"main_3",
+			"mission",
+			"mission_complete",
+			"complete",
+			"login",
+			"home",
+			"mail",
+			"touch_body",
+			"touch_head"
+		},
+		l2d_voice_calibrate = {
+			use_event = true
+		},
+		l2d_para_range = {
+			ParamAngleX = {
+				-20,
+				20
+			},
+			ParamAngleY = {
+				-15,
+				15
+			},
+			ParamBodyAngleX = {
+				-8,
+				8
+			},
+			ParamBodyAngleY = {
+				-8,
+				4
+			},
+			ParamEyeBallX = {
+				-0.1,
+				0.1
+			},
+			ParamEyeBallY = {
+				-0.1,
+				0.1
 			}
 		}
 	}

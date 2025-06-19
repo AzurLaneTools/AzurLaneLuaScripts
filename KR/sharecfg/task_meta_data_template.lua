@@ -307,6 +307,11 @@ pg.task_meta_data_template = setmetatable({
 		100433,
 		100434,
 		100435,
+		100441,
+		100442,
+		100443,
+		100444,
+		100445,
 		200001,
 		200002,
 		200003,
@@ -442,7 +447,11 @@ pg.task_meta_data_template = setmetatable({
 		200341,
 		200342,
 		200343,
-		200344
+		200344,
+		200351,
+		200352,
+		200353,
+		200354
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2887,6 +2896,46 @@ pg.base.task_meta_data_template = {
 		target_num = 1,
 		desc = "글로리어스·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
 	},
+	[100441] = {
+		target_id = "0",
+		sub_type = 180,
+		target_id_2 = "970108",
+		id = 100441,
+		target_num = 1,
+		desc = "카와카제·META를 편성한 함대로 전투에서 1회 승리"
+	},
+	[100442] = {
+		target_id = "30",
+		sub_type = 180,
+		target_id_2 = "970108",
+		id = 100442,
+		target_num = 1,
+		desc = "카와카제·META를 편성한 함대로 전투에서 Lv30 이상의 적 함대 격파"
+	},
+	[100443] = {
+		target_id = "55",
+		sub_type = 180,
+		target_id_2 = "970108",
+		id = 100443,
+		target_num = 1,
+		desc = "카와카제·META를 편성한 함대로 전투에서 Lv55 이상의 적 함대 격파"
+	},
+	[100444] = {
+		target_id = "80",
+		sub_type = 180,
+		target_id_2 = "970108",
+		id = 100444,
+		target_num = 1,
+		desc = "카와카제·META를 편성한 함대로 전투에서 Lv80 이상의 적 함대 격파"
+	},
+	[100445] = {
+		target_id = "100",
+		sub_type = 180,
+		target_id_2 = "970108",
+		id = 100445,
+		target_num = 1,
+		desc = "카와카제·META를 편성한 함대로 전투에서 Lv100 이상의 적 함대 격파"
+	},
 	[200001] = {
 		target_id = "0",
 		sub_type = 302,
@@ -3974,5 +4023,37 @@ pg.base.task_meta_data_template = {
 		id = 200344,
 		target_num = 1,
 		desc = "대형작전에서 글로리어스·META를 포함한 함대로 Lv100 이상의 적 격파"
+	},
+	[200351] = {
+		target_id = "0",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200351,
+		target_num = 1,
+		desc = "대형작전에서 카와카제·META를 포함한 함대로 1회 승리"
+	},
+	[200352] = {
+		target_id = "70",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200352,
+		target_num = 1,
+		desc = "대형작전에서 카와카제·META를 포함한 함대로 Lv70 이상의 적 격파"
+	},
+	[200353] = {
+		target_id = "90",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200353,
+		target_num = 1,
+		desc = "대형작전에서 카와카제·META를 포함한 함대로 Lv90 이상의 적 격파"
+	},
+	[200354] = {
+		target_id = "100",
+		sub_type = 302,
+		target_id_2 = "970108",
+		id = 200354,
+		target_num = 1,
+		desc = "대형작전에서 카와카제·META를 포함한 함대로 Lv100 이상의 적 격파"
 	}
 }

@@ -3,19 +3,17 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 1,
-		pic = "temp1",
+		pic = "temp3",
 		param = {
-			"scene charge",
-			{
-				wrap = 4
-			}
+			"scene skinshop",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					6,
-					5
+					19
 				},
 				{
 					0,
@@ -26,8 +24,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					25
+					7,
+					2
 				},
 				{
 					23,
@@ -40,17 +38,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 2,
-		pic = "temp6",
+		pic = "temp4",
 		param = {
-			"scene skinshop",
-			{}
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					6,
-					5
+					19
 				},
 				{
 					0,
@@ -61,8 +61,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					25
+					7,
+					2
 				},
 				{
 					23,
@@ -73,18 +73,82 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "BRSCoreActivityUI",
+		type = 16,
 		id = 3,
-		pic = "temp7",
+		pic = "temp5",
+		time = {
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		param = "5990",
+		type = 3,
+		id = 4,
+		pic = "temp6",
+		time = {
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 5,
+		pic = "temp8",
 		param = {
-			"crusing"
+			"equip transform"
 		},
 		time = {
 			{
 				{
 					2025,
 					6,
-					8
+					19
 				},
 				{
 					0,
@@ -95,8 +159,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					26
+					7,
+					3
 				},
 				{
 					12,
@@ -107,120 +171,43 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5981",
-		type = 3,
-		id = 4,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "5979",
-		type = 3,
-		id = 5,
-		pic = "temp9",
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					12,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		time = "stop",
 		type = 2,
 		id = 6,
-		pic = "temp2",
+		pic = "temp9",
 		param = {
-			"scene charge",
+			"game hall"
+		},
+		time = {
 			{
-				wrap = 1
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					3
+				},
+				{
+					12,
+					0,
+					0
+				}
 			}
 		}
 	},
 	{
 		type = 2,
 		id = 7,
-		pic = "temp3",
-		param = {
-			"scene skinshop",
-			{}
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					5
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					6,
-					25
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		type = 2,
-		id = 8,
-		pic = "temp4",
+		pic = "temp1",
 		param = {
 			"scene charge",
 			{
@@ -232,7 +219,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					5
+					12
 				},
 				{
 					0,
@@ -251,6 +238,18 @@ pg.activity_banner = {
 					59,
 					59
 				}
+			}
+		}
+	},
+	{
+		time = "stop",
+		type = 2,
+		id = 8,
+		pic = "temp2",
+		param = {
+			"scene charge",
+			{
+				wrap = 1
 			}
 		}
 	},
@@ -264,7 +263,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					5
+					19
 				},
 				{
 					0,
@@ -275,8 +274,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					25
+					7,
+					2
 				},
 				{
 					23,
@@ -310,7 +309,7 @@ pg.activity_banner = {
 				{
 					2025,
 					6,
-					5
+					12
 				},
 				{
 					0,
@@ -371,14 +370,16 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
-			3,
+			5,
 			6,
 			7,
 			8
 		},
+		[16] = {
+			3
+		},
 		[3] = {
-			4,
-			5
+			4
 		},
 		[9] = {
 			90,

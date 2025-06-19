@@ -402,6 +402,17 @@ slot0.updateActivityData = function(slot0, slot1, slot2, slot3, slot4)
 		elseif slot1.cmd == 2 and slot5 == ActivityConst.ACTIVITY_TYPE_BUILDING_BUFF_2 then
 			slot3:RecordLastRequestTime()
 		end
+	elseif slot5 == ActivityConst.ACTIVITY_TYPE_BOSSSINGLE then
+		if slot1.cmd == 2 then
+			table.insert(slot3.data2_list, slot1.arg1)
+			slot0:sendNotification(GAME.FINISH_STAGE_DONE, {
+				statistics = slot1.statistics,
+				score = slot1.statistics._battleScore,
+				system = SYSTEM_REWARD_PERFORM
+			})
+
+			return slot3
+		end
 	elseif slot5 == ActivityConst.ACTIVITY_TYPE_EXPEDITION then
 		if slot1.cmd == 0 then
 			return slot3

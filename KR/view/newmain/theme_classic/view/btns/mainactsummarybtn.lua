@@ -49,12 +49,12 @@ slot0.CollectActivity = function(slot0)
 	slot1 = 0
 	slot2 = nil
 
-	for slot8, slot9 in pairs(getProxy(ActivityProxy):getRawData()) do
-		if not slot9:isEnd() and slot9:isShow() and slot9:readyToAchieve() then
+	for slot7, slot8 in pairs(getProxy(ActivityProxy):getPanelActivities()) do
+		if slot8:readyToAchieve() then
 			slot1 = slot1 + 1
 
-			if not slot2 or slot2 and slot9.id < slot2.id then
-				slot2 = slot9
+			if not slot2 or slot2 and slot8.id < slot2.id then
+				slot2 = slot8
 			end
 		end
 	end

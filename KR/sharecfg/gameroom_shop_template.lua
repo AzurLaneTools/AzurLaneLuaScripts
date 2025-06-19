@@ -12,7 +12,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 1,
 		drop_type = 7,
-		order = 3,
+		order = 4,
 		goods = {
 			201221
 		},
@@ -55,7 +55,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 2,
 		drop_type = 7,
-		order = 4,
+		order = 5,
 		goods = {
 			302081
 		},
@@ -528,7 +528,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 13,
 		drop_type = 7,
-		order = 1,
+		order = 2,
 		goods = {
 			101291
 		},
@@ -571,7 +571,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 14,
 		drop_type = 7,
-		order = 2,
+		order = 3,
 		goods = {
 			301571
 		},
@@ -1032,6 +1032,264 @@ pg.gameroom_shop_template = {
 			}
 		}
 	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 1,
+		type = 6,
+		price = 7500,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 5,
+		goods_name = "新年的LittleKnight",
+		goods_type = 1,
+		id = 25,
+		drop_type = 7,
+		order = 1,
+		goods = {
+			202072
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外观装备箱(2022春节)",
+		goods_type = 1,
+		id = 26,
+		drop_type = 2,
+		order = 96,
+		goods = {
+			30332
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外观装备箱(红月)",
+		goods_type = 1,
+		id = 27,
+		drop_type = 2,
+		order = 97,
+		goods = {
+			30333
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外观装备箱(东煌时尚)",
+		goods_type = 1,
+		id = 28,
+		drop_type = 2,
+		order = 98,
+		goods = {
+			30334
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外观装备箱(童话世界)",
+		goods_type = 1,
+		id = 29,
+		drop_type = 2,
+		order = 99,
+		goods = {
+			30335
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		goods_icon = "",
+		goods_purchase_limit = 10,
+		type = 2,
+		price = 1200,
+		num = 1,
+		month_re = 0,
+		goods_rarity = 4,
+		goods_name = "外观装备箱(舞蹈)",
+		goods_type = 1,
+		id = 30,
+		drop_type = 2,
+		order = 100,
+		goods = {
+			30336
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					5
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2034,
+					8,
+					8
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1056,6 +1314,12 @@ pg.gameroom_shop_template = {
 		21,
 		22,
 		23,
-		24
+		24,
+		25,
+		26,
+		27,
+		28,
+		29,
+		30
 	}
 }

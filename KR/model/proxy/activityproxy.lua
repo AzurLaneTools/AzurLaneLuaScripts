@@ -397,7 +397,7 @@ slot0.getPanelActivities = function(slot0)
 	slot1 = function(slot0)
 		slot1 = slot0:getConfig("type")
 
-		if slot0:isShow() and not slot0:isAfterShow() then
+		if slot0:isShow() and not slot0:isAfterShow() and slot0:isCorePage("") then
 			if slot1 == ActivityConst.ACTIVITY_TYPE_CHARGEAWARD then
 				slot2 = slot0.data2 == 0
 			elseif slot1 == ActivityConst.ACTIVITY_TYPE_PROGRESSLOGIN then
@@ -412,6 +412,27 @@ slot0.getPanelActivities = function(slot0)
 
 	for slot6, slot7 in pairs(slot0.data) do
 		if slot1(slot7) then
+			table.insert(slot2, slot7)
+		end
+	end
+
+	table.sort(slot2, CompareFuncs({
+		function (slot0)
+			return -slot0:getConfig("login_pop")
+		end,
+		function (slot0)
+			return slot0.id
+		end
+	}))
+
+	return slot2
+end
+
+slot0.getCorePanelActivity = function(slot0, slot1)
+	slot2 = {}
+
+	for slot6, slot7 in pairs(slot0.data) do
+		if slot7:isShow() and slot7:isCorePage(slot1) then
 			table.insert(slot2, slot7)
 		end
 	end
@@ -473,7 +494,7 @@ slot0.findNextAutoActivity = function(slot0)
 	slot3 = pg.TimeMgr.GetInstance():GetServerTime()
 
 	for slot7, slot8 in ipairs(slot0:getPanelActivities()) do
-		if slot8:isShow() and not slot8.autoActionForbidden then
+		if not slot8.autoActionForbidden then
 			if slot8:getConfig("type") == ActivityConst.ACTIVITY_TYPE_7DAYSLOGIN then
 				if slot8.data1 < #pg.activity_7_day_sign[slot8:getConfig("config_id")].front_drops and not slot2:IsSameDay(slot3, slot8.data2) and slot8.data2 < slot3 then
 					slot1 = slot8
