@@ -27133,6 +27133,16 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Merit Shop",
+				{
+					"SHOP",
+					{
+						warp = "supplies"
+					}
+				},
+				0
 			}
 		}
 	},
@@ -27292,6 +27302,17 @@ pg.base.ship_data_group = {
 				"Event: Aquilifer's Ballade",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27474,6 +27495,17 @@ pg.base.ship_data_group = {
 				"Event: Aquilifer's Ballade",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Light ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "light",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27729,6 +27761,17 @@ pg.base.ship_data_group = {
 					""
 				},
 				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
+				},
+				0
 			}
 		}
 	},
@@ -27887,6 +27930,17 @@ pg.base.ship_data_group = {
 				"Event: Aquilifer's Ballade",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Heavy Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "heavy",
+						page = 1
+					}
 				},
 				0
 			}
@@ -28205,6 +28259,17 @@ pg.base.ship_data_group = {
 				"Event: Aquilifer's Ballade",
 				{
 					""
+				},
+				0
+			},
+			{
+				"Special Ship Construction",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}

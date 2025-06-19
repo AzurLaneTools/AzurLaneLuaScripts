@@ -12,7 +12,12 @@ slot0.Load = function(slot0, slot1, slot2, slot3)
 		ship = Ship.New({
 			configId = 312011
 		}),
-		scale = Vector3(75, 75, 75),
+		offset = {
+			nil,
+			nil,
+			nil,
+			72
+		},
 		position = Vector3(0, 0, 0),
 		parent = slot0.live2dContainer
 	}), function (slot0)

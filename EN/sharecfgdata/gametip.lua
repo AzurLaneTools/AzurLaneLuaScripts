@@ -12885,22 +12885,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Lion guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Get Bismarck Zwei guaranteed with every 200 event builds (can be done up to 4 times)!"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "Vanguard, Revenge added to standard build pool!"
+	tip = "Roma and Bolzano added to the standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "Jervis added to standard build pool!"
+	tip = "Giuseppe Garibaldi and Alfredo Oriani added to the standard build pool!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "Vanguard, Indomitable added to standard build pool!"
+	tip = "Leonardo da Vinci added to the standard build pool!"
 }
 
 

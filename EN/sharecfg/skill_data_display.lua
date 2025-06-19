@@ -1834,8 +1834,6 @@ pg.skill_data_display = setmetatable({
 		151180,
 		151191,
 		151192,
-		151200,
-		151210,
 		151211,
 		151224,
 		151262,
@@ -10931,14 +10929,6 @@ pg.base.skill_data_display = {
 	[151192] = {
 		id = 151192,
 		name = "Glowworm Breakthrough!"
-	},
-	[151200] = {
-		id = 151200,
-		name = "禁!止!通!行!"
-	},
-	[151210] = {
-		id = 151210,
-		name = "Dogged Pursuit"
 	},
 	[151211] = {
 		id = 151211,

@@ -490,7 +490,7 @@ slot0.SetMapSwitch = function(slot0)
 
 	if pg.NewGuideMgr.GetInstance():GetCurrentGuideName() == "DORM3D_GUIDE_01" then
 		slot0.selectedFloorId = 1
-	elseif PlayerPrefs.GetInt("DORM_SELECTED_NEW_ROOM_FLOOR" .. slot1 .. pg.dorm3d_set.drom3d_new_room_remind.key_value_int, 0) == 0 then
+	elseif not DORM_LOCK_SELECT_NEW and PlayerPrefs.GetInt("DORM_SELECTED_NEW_ROOM_FLOOR" .. slot1 .. pg.dorm3d_set.drom3d_new_room_remind.key_value_int, 0) == 0 then
 		slot0.selectedFloorId = table.indexof(slot0.floorData, pg.dorm3d_rooms[slot2].in_map)
 
 		PlayerPrefs.SetInt("DORM_SELECTED_NEW_ROOM_FLOOR" .. slot1 .. slot2, 1)

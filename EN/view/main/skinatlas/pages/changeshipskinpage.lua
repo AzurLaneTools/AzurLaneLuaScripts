@@ -146,7 +146,8 @@ slot0.ShowAdmiral = function(slot0)
 			if slot3 then
 				uv0.paintingInfo[slot1] = {
 					paintingName = pg.ship_skin_template[slot3:getSkinId()].painting or "unknown",
-					painting = slot2:Find("Style_card/bg/mask/painting")
+					painting = slot2:Find("Style_card/bg/mask/painting"),
+					skinID = slot4
 				}
 
 				uv0:loadPainting(uv0.paintingInfo[slot1])
@@ -258,7 +259,10 @@ end
 slot0.loadPainting = function(slot0, slot1)
 	slot2 = checkABExist("painting/" .. slot1.paintingName .. "_n")
 
-	setPaintingPrefabAsync(slot1.painting, slot1.paintingName, "pifu")
+	setPaintingPrefabAsync(slot1.painting, slot1.paintingName, "pifu", nil, {
+		rotateZ = 0,
+		skinID = slot1.skinID
+	})
 end
 
 slot0.clearPainting = function(slot0, slot1)

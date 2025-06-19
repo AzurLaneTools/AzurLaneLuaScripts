@@ -66,8 +66,24 @@ slot0.GenerateData = function(slot0)
 		SetData = function (slot0, slot1)
 			slot0.ship = slot1.ship
 			slot0.parent = slot1.parent
-			slot0.scale = slot1.scale
-			slot2 = slot0:GetShipSkinConfig().live2d_offset
+			slot3 = slot0:GetShipSkinConfig().live2d_offset
+			slot4 = nil
+			slot4 = (not slot1.offset or #slot2 < 4 or Vector3(slot2[4], slot2[4], slot2[4])) and (not slot3 or #slot3 < 4 or Vector3(slot3[4], slot3[4], slot3[4])) and Vector3(52, 52, 52)
+			slot5 = nil
+			slot5 = (not slot2 or #slot2 < 3 or (not slot2[1] or not slot2[2] or not slot2[3] or {
+				slot2[1],
+				slot2[2],
+				slot2[3]
+			}) and slot0:GetShipSkinConfig().live2d_offset) and slot0:GetShipSkinConfig().live2d_offset
+			slot6 = nil
+
+			if slot1.position then
+				slot6 = slot1.position
+			else
+				slot1.position = Vector3(0, 0, 0)
+			end
+
+			slot0.scale = slot4
 			slot0.gyro = slot0:GetShipSkinConfig().gyro or 0
 			slot0.shipL2dId = slot0:GetShipSkinConfig().ship_l2d_id
 			slot0.skinId = slot0:GetShipSkinConfig().id
@@ -77,7 +93,7 @@ slot0.GenerateData = function(slot0)
 				slot0.spineUseLive2d = pg.ship_skin_template[slot0.skinId].spine_use_live2d == 1
 			end
 
-			slot0.position = slot1.position + BuildVector3(slot2)
+			slot0.position = slot6 + BuildVector3(slot5)
 			slot0.l2dDragRate = slot0:GetShipSkinConfig().l2d_drag_rate
 			slot0.loadPrefs = slot1.loadPrefs
 		end,
@@ -886,6 +902,25 @@ slot0.Reset = function(slot0)
 	slot0:setIgnoreActions({})
 
 	slot0.ableFlag = nil
+end
+
+slot0.setPurchaseOffset = function(slot0, slot1)
+	if not slot0.live2dData.ship:GetSkinConfig().purchase_offset or #slot2 < 3 then
+		return
+	end
+
+	if slot1 then
+		if slot2 and #slot2 >= 3 then
+			slot0._tf.localPosition = Vector3(slot2[1], slot2[2], slot2[3])
+		end
+
+		if slot2 and #slot2 >= 4 then
+			slot0._tf.localScale = Vector3(slot2[4], slot2[4], slot2[4])
+		end
+	else
+		slot0._tf.localScale = slot0.live2dData.scale
+		slot0._tf.localPosition = slot0.live2dData.position
+	end
 end
 
 slot0.offsetL2dPositonDelay = function(slot0, slot1, slot2, slot3)
