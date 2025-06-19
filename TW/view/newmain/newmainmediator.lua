@@ -7,6 +7,7 @@ slot0.OPEN_COMMISION = "NewMainMediator:OPEN_COMMISION"
 slot0.OPEN_CHATVIEW = "NewMainMediator:OPEN_CHATVIEW"
 slot0.SKIP_SCENE = "NewMainMediator:SKIP_SCENE"
 slot0.SKIP_ACTIVITY = "NewMainMediator:SKIP_ACTIVITY"
+slot0.SKIP_CORE_ACTIVITY = "NewMainMediator:SKIP_CORE_ACTIVITY"
 slot0.SKIP_SHOP = "NewMainMediator:SKIP_SHOP"
 slot0.GO_MINI_GAME = "NewMainMediator:GO_MINI_GAME"
 slot0.SKIP_ACTIVITY_MAP = "NewMainMediator:SKIP_ACTIVITY_MAP"
@@ -86,6 +87,11 @@ slot0.register = function(slot0)
 			id = slot1
 		})
 	end)
+	slot0:bind(uv0.SKIP_CORE_ACTIVITY, function (slot0, slot1)
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.CORE_ACTIVITY, {
+			coreName = slot1
+		})
+	end)
 	slot0:bind(uv0.SKIP_SCENE, function (slot0, slot1)
 		uv0:sendNotification(GAME.GO_SCENE, slot1[1], slot1[2])
 	end)
@@ -97,7 +103,7 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.GO_SNAPSHOT, function (slot0)
 		slot1 = uv0.viewComponent.bgView.ship
-		slot2 = slot1.skinId
+		slot2 = slot1:getSkinId()
 		slot3 = uv0.viewComponent.paintingView:IsLive2DState()
 		slot4 = nil
 
@@ -153,9 +159,6 @@ slot0.register = function(slot0)
 		uv0:addSubLayers(slot1)
 	end)
 	slot0:bind(uv0.CHANGE_SKIN_TOGGLE, function (slot0, slot1)
-		slot2 = ShipGroup.GetChangeSkinGroupId(slot1.skin_id)
-		slot3 = ShipGroup.GetChangeSkinNextId(slot1.ship_id)
-
 		uv0:sendNotification(GAME.CHANGE_SKIN_AB, slot1)
 	end)
 end
@@ -203,7 +206,8 @@ slot0.listNotificationInterests = function(slot0)
 		NewMainMediator.ON_AWRADS,
 		NewMainMediator.FOLD_PANEL,
 		NewMainMediator.HIDE_PANEL,
-		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION
+		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION,
+		GAME.REQ_NEW_INSTAGRAM_DATA_DONE
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do

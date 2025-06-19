@@ -103,7 +103,7 @@ slot0.openResultView = function(slot0)
 		correctNumToEXValue = slot0:GetMGData():getConfig("simple_config_data").correct_value,
 		scoreLevel = slot0:GetMGData():getConfig("simple_config_data").score_level,
 		onSubmit = function (slot0)
-			uv0:SendSuccess(uv0.score)
+			uv0:SendSuccess(uv0.packageData.score and uv0.packageData.score or 0)
 
 			uv0.score = 0
 			uv0.countTime = nil

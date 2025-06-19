@@ -204,8 +204,8 @@ slot0.didEnter = function(slot0)
 	slot1:Update(slot0.paintingName, false)
 	slot0:updateSpinePaintingState()
 	onButton(slot0, slot0.btnChangeSkin, function ()
-		if ShipGroup.IsChangeSkin(uv0.skin.id) then
-			uv0:showSkinProfile(uv0.contextData.skinIndex, pg.ship_skin_template[ShipGroup.GetChangeSkinNextId(slot0.id)], uv0.prevSkinBtn)
+		if ShipSkin.IsChangeSkin(uv0.skin.id) then
+			uv0:showSkinProfile(uv0.contextData.skinIndex, pg.ship_skin_template[ShipSkin.GetChangeSkinNextId(slot0.id)], uv0.prevSkinBtn)
 		end
 	end, SFX_CONFIRM)
 	setActive(slot0.bottomTF, false)
@@ -238,7 +238,7 @@ slot0.InitSkinList = function(slot0)
 end
 
 slot0.showSkinProfile = function(slot0, slot1, slot2, slot3)
-	slot4 = ShipGroup.IsChangeSkin(slot2.id) and true or false
+	slot4 = ShipSkin.IsChangeSkin(slot2.id)
 
 	setActive(slot0.btnChangeSkin, slot4)
 
@@ -562,6 +562,7 @@ slot0.CreateLive2D = function(slot0)
 	slot3 = nil
 	slot0.l2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
+			noChangeSkin = true,
 			configId = slot0.shipGroup:getShipConfigId(),
 			skin_id = slot0.skin.id,
 			propose = slot0.shipGroup.married
@@ -886,6 +887,7 @@ slot0.CreateSpinePainting = function(slot0)
 		slot1 = slot0.shipGroup
 		slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 			ship = Ship.New({
+				noChangeSkin = true,
 				configId = slot1:getShipConfigId(),
 				skin_id = slot0.skin.id
 			}),

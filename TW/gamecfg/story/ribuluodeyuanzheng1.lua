@@ -2085,7 +2085,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFC960",
-			say = "然後，以所有人都按難以想像的速度創造出了仲裁者麥紀莎的AI人格以及某個與之配套的設備。",
+			say = "然後，以所有人都難以想像的速度創造出了仲裁者麥紀莎的AI人格以及某個與之配套的設備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

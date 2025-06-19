@@ -739,4 +739,66 @@ slot0.isPursuingCostTip = function(slot0)
 	return slot0:isPursuing() and slot0:isUnlock() and not slot0:isMaxIntensifyLevel() and not slot0:isShipModMaxIntensifyLevel(getProxy(BayProxy):getShipById(slot0.shipId)) and getProxy(TechnologyProxy):calcPursuingCost(slot0, 1) == 0
 end
 
+slot0.setPhantomQuestProgress = function(slot0, slot1, slot2)
+	slot0.phantomQuestProgress = slot0.phantomQuestProgress or {}
+	slot0.phantomQuestProgress[slot1] = slot2
+end
+
+slot0.getPhantomQuestCostDrop = function(slot0)
+	if slot0.config.type == 5 then
+		return Drop.New({
+			type = DROP_TYPE_RESOURCE,
+			id = PlayerConst.ResDiamond,
+			count = slot0.config.target_num
+		})
+	else
+		return nil
+	end
+end
+
+slot0.getPhantomQuestProgress = function(slot0, slot1)
+	assert(slot0.shipId)
+
+	return switch(slot1, {
+		function ()
+			return getProxy(BayProxy):getShipById(uv0.shipId).level
+		end,
+		function ()
+			return uv0.level + (uv0.level < uv0:getMaxLevel() and 0 or uv0.fateLevel)
+		end,
+		function ()
+			return uv0.phantomQuestProgress[3] or 0
+		end,
+		function ()
+			return getProxy(BayProxy):getShipById(uv0.shipId).propose and 1 or 0
+		end,
+		function ()
+			return Drop.New({
+				type = DROP_TYPE_RESOURCE,
+				id = PlayerConst.ResDiamond
+			}):getOwnedCount()
+		end
+	})
+end
+
+slot0.getPhantomQuestInfo = function(slot0, slot1)
+	slot2 = pg.technology_shadow_unlock[slot1]
+
+	return {
+		config = slot2,
+		progress = slot0:getPhantomQuestProgress(slot2.type),
+		unlocked = tobool(getProxy(BayProxy):getShipById(slot0.shipId).phantomDic[slot1])
+	}
+end
+
+slot0.getAllPhantomQuestInfo = function(slot0)
+	return underscore.map(pg.technology_shadow_unlock.all, function (slot0)
+		return uv0:getPhantomQuestInfo(slot0)
+	end)
+end
+
+slot0.isUnlockShipPhantom = function(slot0)
+	return slot0:isFetched() and getGameset("technology_shadow_unlock_lv")[1] <= getProxy(BayProxy):getShipById(slot0.shipId).level
+end
+
 return slot0

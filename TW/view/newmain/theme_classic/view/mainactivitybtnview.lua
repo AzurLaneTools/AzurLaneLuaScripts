@@ -16,6 +16,7 @@ end
 slot0.InitBtns = function(slot0)
 	slot0.activityBtns = {
 		MainActSummaryBtn.New(slot0.actBtnTpl, slot0.event, true),
+		MainCoreActivityBtn.New(slot0.actBtnTpl, slot0.event, false),
 		MainActEscortBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActMapBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActBossBtn.New(slot0.actBtnTpl, slot0.event),
@@ -55,6 +56,9 @@ end
 slot0.Register = function(slot0)
 	slot0:bind(GAME.REMOVE_LAYERS, function (slot0, slot1)
 		uv0:OnRemoveLayer(slot1.context)
+	end)
+	slot0:bind(GAME.REQ_NEW_INSTAGRAM_DATA_DONE, function (slot0)
+		uv0:OnInstagramDataUpdate()
 	end)
 	slot0:bind(MiniGameProxy.ON_HUB_DATA_UPDATE, function (slot0)
 		uv0:Refresh()
@@ -106,6 +110,12 @@ slot0.OnRemoveLayer = function(slot0, slot1)
 
 	if slot2 and slot2:InShowTime() then
 		slot2:OnInit()
+	end
+end
+
+slot0.OnInstagramDataUpdate = function(slot0)
+	if slot0:GetBtn(MainActInsBtn) and slot1:InShowTime() then
+		slot1:OnInit()
 	end
 end
 

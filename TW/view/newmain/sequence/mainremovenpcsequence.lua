@@ -1,22 +1,22 @@
 slot0 = class("MainRemoveNpcSequence")
 
 slot0.Execute = function(slot0, slot1)
-	slot2 = getProxy(ActivityProxy):getActivityById(ActivityConst.ACT_NPC_SHIP_ID)
+	if not getProxy(BayProxy).isClearNpc then
+		slot3 = getProxy(ActivityProxy)
 
-	if not getProxy(BayProxy).isClearNpc and (not slot2 or slot2:isEnd()) then
-		for slot8, slot9 in pairs(slot3:getRawData()) do
-			if slot9:isActivityNpc() then
-				slot10 = slot9:clone()
+		for slot7, slot8 in pairs(slot2:getRawData()) do
+			if slot8:isActivityNpc() and not slot3:IsActivityNotEnd(slot8.activityNpc) then
+				slot9 = slot8:clone()
 
-				slot0:UnloadEquipments(slot10)
-				slot0:CheckChapters(slot10)
-				slot0:CheckFormations(slot10)
-				slot0:CheckNavTactics(slot10)
-				slot3:removeShipById(slot10.id)
+				slot0:UnloadEquipments(slot9)
+				slot0:CheckChapters(slot9)
+				slot0:CheckFormations(slot9)
+				slot0:CheckNavTactics(slot9)
+				slot2:removeShipById(slot9.id)
 			end
 		end
 
-		slot3.isClearNpc = true
+		slot2.isClearNpc = true
 	end
 
 	slot1()

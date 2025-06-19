@@ -72,6 +72,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.dynamicResDownaload = slot0._tf:Find("overlay/right/toggles/l2d_res_state/downloaded")
 	slot0.dynamicResUnDownaload = slot0._tf:Find("overlay/right/toggles/l2d_res_state/undownload")
 	slot0.paintingTF = slot0._tf:Find("painting/paint")
+	slot0.defaultPaintingPosition = slot0.paintingTF.anchoredPosition
 	slot0.live2dContainer = slot0._tf:Find("painting/paint/live2d")
 	slot0.spTF = slot0._tf:Find("painting/paint/spinePainting")
 	slot0.spBg = slot0._tf:Find("painting/paintBg/spinePainting")
@@ -92,17 +93,15 @@ end
 
 slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, function (slot0, slot1)
-		setAnchoredPosition(uv0.paintingTF, {
-			x = slot1 and -440 or -120
-		})
+		uv0:AdjustPainting(slot1)
 		setActive(uv0.overlay, not slot1)
 	end)
 	slot0:bind(uv0.EVT_ON_PURCHASE, function (slot0, slot1)
 		uv0:OnClickBtn(uv0:GetObtainBtnState(slot1), slot1)
 	end)
 	onButton(slot0, slot0.changeSkinUI, function ()
-		if ShipGroup.IsChangeSkin(uv0.skinId) then
-			uv0.changeSkinId = ShipGroup.GetChangeSkinNextId(uv0.skinId)
+		if ShipSkin.IsChangeSkin(uv0.skinId) then
+			uv0.changeSkinId = ShipSkin.GetChangeSkinNextId(uv0.skinId)
 
 			uv0:Flush(uv0.commodity)
 		end
@@ -118,8 +117,8 @@ slot0.Flush = function(slot0, slot1)
 
 	slot0:FlushStyle(false)
 
-	slot3 = ShipGroup.IsChangeSkin(slot0.skinId)
 	slot0.skinId = slot1:getSkinId()
+	slot3 = ShipSkin.IsChangeSkin(slot0.skinId)
 
 	slot0:FlushChangeSkin(slot1)
 
@@ -149,14 +148,14 @@ slot0.Flush = function(slot0, slot1)
 end
 
 slot0.FlushChangeSkin = function(slot0, slot1)
-	setActive(slot0.changeSkinUI, ShipGroup.IsChangeSkin(slot0.skinId) and true or false)
+	setActive(slot0.changeSkinUI, ShipSkin.IsChangeSkin(slot0.skinId) and true or false)
 
 	if slot3 then
-		slot4 = ShipGroup.GetChangeSkinGroupId(slot2)
+		slot4 = ShipSkin.GetChangeSkinGroupId(slot2)
 
 		if not slot0.changeSkinId then
 			slot0.changeSkinId = slot2
-		elseif ShipGroup.GetChangeSkinGroupId(slot0.changeSkinId) == slot4 then
+		elseif ShipSkin.GetChangeSkinGroupId(slot0.changeSkinId) == slot4 then
 			slot0.skinId = slot0.changeSkinId
 		else
 			slot0.changeSkinId = slot0.skinId
@@ -284,7 +283,7 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 	slot4 = slot2:IsSpine() or slot2:IsLive2d()
 
-	if LOCK_SKIN_SHOP_ANIM_PREVIEW then
+	if LOCK_SKIN_SHOP_ANIM_PREVIEW == "all" or LOCK_SKIN_SHOP_ANIM_PREVIEW and table.contains(LOCK_SKIN_SHOP_ANIM_PREVIEW, slot2.id) then
 		slot4 = false
 	end
 
@@ -431,7 +430,7 @@ end
 
 slot0.FlushPainting = function(slot0, slot1)
 	slot3 = pg.ship_skin_template[slot0.skinId].painting
-	slot4 = ShipGroup.GetChangeSkinData(slot0.skinId) and true or false
+	slot4 = ShipSkin.GetChangeSkinData(slot0.skinId) and true or false
 
 	if slot0:GetPaintingState(slot1) == uv0 and not slot0:ExistL2dRes(slot3) or slot2 == uv1 and not slot0:ExistSpineRes(slot3) then
 		slot2 = uv2
@@ -457,6 +456,8 @@ slot0.FlushPainting = function(slot0, slot1)
 		showBg = slot0.isToggleShowBg,
 		purchaseFlag = slot1.buyCount
 	}
+
+	slot0:AdjustPainting(false)
 end
 
 slot0.ClearPainting = function(slot0)
@@ -527,7 +528,7 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 	slot4 = nil
 	slot5 = Live2D.GenerateData({
 		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
-			id = 999,
+			noChangeSkin = true,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
 			skin_id = slot2
 		}),
@@ -549,6 +550,10 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 
 		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		pg.UIMgr.GetInstance():LoadingOff()
+
+		if uv2:getSkinId() == 299024 then
+			slot0:setPosition(Vector3(150, 40, 0))
+		end
 	end)
 end
 
@@ -568,7 +573,7 @@ slot0.LoadSpinePainting = function(slot0, slot1)
 
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
 		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
-			id = 999,
+			noChangeSkin = true,
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
 			skin_id = slot2
 		}),
@@ -1122,12 +1127,35 @@ slot0.ClosePurchaseView = function(slot0)
 	end
 end
 
+slot0.AdjustPainting = function(slot0, slot1)
+	slot2 = slot0.paintingTF
+
+	if pg.ship_skin_newmainui_shift[slot0.skinId] then
+		slot4 = slot3.skin_shop_shift
+
+		if slot1 then
+			slot2.anchoredPosition = Vector2(slot4[1] - 440, slot4[2] + slot0.defaultPaintingPosition.y)
+		else
+			slot2.anchoredPosition = Vector2(slot4[1] + slot0.defaultPaintingPosition.x, slot4[2] + slot0.defaultPaintingPosition.y)
+		end
+
+		slot5 = slot4[4]
+		slot2.localScale = Vector3(slot5, slot5, 1)
+	end
+end
+
 slot0.Dispose = function(slot0)
 	slot0.exited = true
 
 	pg.DelegateInfo.Dispose(slot0)
 	slot0:ClearSwitchBgAnim()
 	pg.DynamicBgMgr.GetInstance():ClearBg(slot0:getUIName())
+
+	if slot0.live2dChar then
+		slot0.live2dChar:Dispose()
+
+		slot0.live2dChar = nil
+	end
 
 	if slot0.voucherMsgBox then
 		slot0.voucherMsgBox:Destroy()

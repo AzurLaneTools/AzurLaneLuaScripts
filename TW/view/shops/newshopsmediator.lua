@@ -1,4 +1,5 @@
 slot0 = class("NewShopsMediator", import("..base.ContextMediator"))
+slot0.FAST_BUILD_ITEM_ID = 61004
 slot0.ON_SHOPPING = "NewShopsMediator:ON_SHOPPING"
 slot0.REFRESH_STREET_SHOP = "NewShopsMediator:REFRESH_STREET_SHOP"
 slot0.REFRESH_MILITARY_SHOP = "NewShopsMediator:REFRESH_MILITARY_SHOP"

@@ -19,6 +19,7 @@ slot0.execute = function(slot0, slot1)
 
 	if pg.SeriesGuideMgr.GetInstance():isEnd() then
 		pg.TrackerMgr.GetInstance():Tracking(TRACKING_TUTORIAL_COMPLETE_1)
+		pg.TrackerMgr.GetInstance():Tracking(TRACKING_GUIDE_COMPLETE)
 	end
 
 	if slot4 then

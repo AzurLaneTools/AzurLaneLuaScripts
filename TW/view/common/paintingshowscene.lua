@@ -217,7 +217,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 
 		slot8 = slot4:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, uv0.StaticGetPaintingName(slot8), "mainNormal", function ()
+		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, slot8, "mainNormal", function ()
 			uv0.loading = false
 
 			uv1()
@@ -245,7 +245,7 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 
 		slot8 = slot4:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, uv0.StaticGetPaintingName(slot8), "mainNormal", function ()
+		LoadPaintingPrefabAsync(slot0.paintingContainer, slot8, slot8, "mainNormal", function ()
 			uv0.loading = false
 		end)
 	end
@@ -256,9 +256,7 @@ slot0.updateL2dSortMode = function(slot0, slot1)
 end
 
 slot0.StaticGetPaintingName = function(slot0)
-	if checkABExist("painting/" .. slot0 .. "_n") and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot1, 0) ~= 0 then
-		slot1 = slot1 .. "_n"
-	end
+	slot1 = slot0
 
 	if HXSet.isHx() then
 		return slot1

@@ -281,7 +281,7 @@ return {
 			actor = 799020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "根據我們的監測，獨家島嶼週邊海海溫度已超過27℃，表層海水鹽度驟降，低空開始形成渦旋……",
+			say = "根據我們的監測，渡假島嶼週邊海海溫度已超過27℃，表層海水鹽度驟降，低空開始形成渦旋……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

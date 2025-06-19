@@ -13,9 +13,6 @@ slot8 = 1
 slot0.Ctor = function(slot0, slot1, slot2)
 	slot0.live2dData = slot2
 	slot0.frameRate = Application.targetFrameRate or 60
-
-	print("drag id " .. slot1.id .. "初始化")
-
 	slot0.id = slot1.id
 	slot0.drawAbleName = slot1.draw_able_name or ""
 	slot0.parameterName = slot1.parameter
@@ -349,7 +346,7 @@ end
 
 slot0.setParameterCom = function(slot0, slot1)
 	if not slot1 then
-		print("live2dDrag id:" .. tostring(slot0.id) .. "设置了null的组件(该打印非报错)")
+		-- Nothing
 	end
 
 	slot0._parameterCom = slot1

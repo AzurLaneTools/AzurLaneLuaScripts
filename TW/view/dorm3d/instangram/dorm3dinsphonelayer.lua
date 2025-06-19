@@ -59,8 +59,25 @@ slot0.UpdateVoiceItem = function(slot0, slot1, slot2)
 			return
 		end
 
-		uv1.player:ExecuteAction("Play", uv2:GetContent())
+		if uv1:GetType() == 1 then
+			uv2:emit(Dorm3dInsPhoneMediator.ON_DORM, uv1:GetVideoData())
+		elseif uv1:GetType() == 2 then
+			uv2.player:ExecuteAction("Play", uv1:GetContent())
+		end
+
+		if uv1:ShouldTip() then
+			uv2:emit(Dorm3dInsPhoneMediator.MARK_READ, {
+				groupId = uv2.contextData.groupId,
+				id = uv1.id
+			})
+		end
+
+		pg.m02:sendNotification(GAME.APARTMENT_TRACK, Dorm3dTrackCommand.BuildDataPhone(uv2.contextData.groupId, uv1:GetType(), uv1.id))
 	end)
+end
+
+slot0.willExit = function(slot0)
+	slot0.player:Destroy()
 end
 
 return slot0

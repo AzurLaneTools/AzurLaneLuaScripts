@@ -249,7 +249,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			say = "夢幻樂園·夜間·水上樂園區域",
 			typewriter = {
 				speed = 0.05,
@@ -276,7 +276,7 @@ return {
 		{
 			expression = 5,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -295,7 +295,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -308,7 +308,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			fontsize = 24,
 			actor = 900455,
@@ -323,7 +323,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -342,7 +342,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -355,7 +355,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -368,7 +368,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900455,
 			nameColor = "#A9F548FF",
@@ -397,7 +397,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
@@ -410,7 +410,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
@@ -422,7 +422,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 1,
 			actor = 307010,
@@ -437,7 +437,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
@@ -450,7 +450,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900455,
@@ -465,7 +465,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			optionFlag = 2,
 			actor = 900455,
@@ -485,7 +485,7 @@ return {
 		{
 			expression = 4,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 307150,
 			nameColor = "#A9F548FF",
@@ -499,7 +499,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 307150,
 			nameColor = "#A9F548FF",
@@ -513,7 +513,7 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -526,7 +526,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -539,7 +539,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "衝一臉期待的少女們點了點頭後，便和她們走向了泳池中央的巨大溜滑梯。",
 			typewriter = {
@@ -551,7 +551,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			say = "在水上樂園盡情玩完後，一行人擦乾了頭髮，換上了乾淨衣服。",
 			typewriter = {
 				speed = 0.05,
@@ -578,7 +578,7 @@ return {
 		{
 			actor = 307010,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -591,7 +591,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 302250,
 			nameColor = "#A9F548FF",
@@ -605,7 +605,7 @@ return {
 		{
 			actor = 302250,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -618,7 +618,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "在徵求了大家的意見後，果斷朝著旋轉木馬的方向繼續前進。",
 			typewriter = {
@@ -629,7 +629,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "伴隨著悅耳的音樂，能看到旋轉木馬在燈光下緩緩旋轉，以及旋轉木馬上的身影——",
 			typewriter = {
@@ -640,7 +640,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "格洛斯特？",
@@ -652,7 +652,7 @@ return {
 		{
 			expression = 1,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -666,7 +666,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "格洛斯特說著，輕巧地從旋轉木馬上翻身躍下，穩穩地降落到我面前，行了個禮。",
 			typewriter = {
@@ -677,7 +677,7 @@ return {
 		{
 			expression = 3,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -691,7 +691,7 @@ return {
 		{
 			actor = 307020,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -704,7 +704,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "少女微微一笑，以更加輕靈的方式躍上了旋轉木馬。",
 			typewriter = {
@@ -715,7 +715,7 @@ return {
 		{
 			expression = 2,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 900457,
 			nameColor = "#A9F548FF",
@@ -729,7 +729,7 @@ return {
 		{
 			actor = 307150,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -742,7 +742,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "我們就還是以普通一點的方式來搭乘旋轉木馬吧。",
@@ -754,7 +754,7 @@ return {
 		{
 			actor = 305050,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -767,7 +767,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "待設施安全停下來後，大家陸續坐上了旋轉木馬。",
 			typewriter = {
@@ -778,7 +778,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "之後隨著重新啟動的木馬緩緩轉動，享受這溫馨的時刻。",
 			typewriter = {
@@ -789,7 +789,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "一圈結束，就在大家思考接下來要去何處時，夜空中綻放出第一朵煙火。",
 			typewriter = {
@@ -799,7 +799,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 302260,
 			nameColor = "#A9F548FF",
@@ -823,7 +823,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "綾瀨的話音剛落，更多的煙火接連升空。",
 			typewriter = {
@@ -834,7 +834,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "五彩繽紛的光芒交織在一起，將夜空裝點得如夢似幻。",
 			typewriter = {
@@ -845,7 +845,7 @@ return {
 		{
 			actor = 207025,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -858,7 +858,7 @@ return {
 		{
 			side = 2,
 			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			say = "腳步聲被淹沒在煙火綻放時所發出的巨響之中，我完全沒注意到皇家方舟的靠近。",
 			typewriter = {
@@ -869,7 +869,7 @@ return {
 		{
 			actor = 0,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			say = "妳在找我們？",
@@ -880,7 +880,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 202340,
 			nameColor = "#A9F548FF",
@@ -904,7 +904,7 @@ return {
 		{
 			actor = 202340,
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
@@ -916,7 +916,7 @@ return {
 		},
 		{
 			side = 2,
-			bgName = "star_level_bg_707",
+			bgName = "star_level_bg_610",
 			dir = 1,
 			actor = 202340,
 			nameColor = "#A9F548FF",

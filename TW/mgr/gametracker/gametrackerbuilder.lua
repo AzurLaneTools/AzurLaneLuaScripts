@@ -182,4 +182,10 @@ slot0.BuildGuide = function(slot0, slot1, slot2, slot3, slot4)
 	end
 end
 
+slot0.BuildPhantom = function(slot0)
+	return uv0(31, {
+		slot0
+	}, {})
+end
+
 return slot0

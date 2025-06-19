@@ -89,17 +89,17 @@ updateSpWeaponInfo = function(slot0, slot1, slot2)
 		})
 	end
 
-	if slot2[2].skillId > 0 then
-		slot5 = getSkillDesc(slot2[2].skillId, slot2[2].lv)
+	for slot8, slot9 in ipairs(slot2[2]) do
+		slot10 = getSkillDesc(slot9.skillId, slot9.lv)
 
-		if not slot2[2].unlock then
-			slot5 = setColorStr(i18n("spweapon_tip_skill_locked") .. slot5, "#a2a2a2")
+		if not slot9.unlock then
+			slot10 = setColorStr(i18n("spweapon_tip_skill_locked") .. slot10, "#a2a2a2")
 		end
 
 		table.insert(slot4, {
 			name = i18n("spweapon_attr_skillupgrade"),
-			value = setColorStr(getSkillName(slot2[2].skillId), slot2[2].unlock and "#FFDE00FF" or "#A2A2A2"),
-			desc = slot5
+			value = setColorStr(getSkillName(slot9.skillId), slot9.unlock and "#FFDE00FF" or "#A2A2A2"),
+			desc = slot10
 		})
 	end
 

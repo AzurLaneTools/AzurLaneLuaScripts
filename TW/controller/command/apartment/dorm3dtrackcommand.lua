@@ -16,6 +16,9 @@ slot0.TYPE_DORM_ACCOMPANY = 14
 slot0.TYPE_DORM_MINIGAME = 15
 slot0.TYPE_DORM_GUIDE = 16
 slot0.TYPE_DORM_GRAPHICS = 17
+slot0.TYPE_DORM_SKIN = 32
+slot0.TYPE_DORM_DANCE = 33
+slot0.TYPE_DORM_PHONE = 34
 
 slot0.execute = function(slot0, slot1)
 	print("TRACK DORM3D\n", table.CastToString(slot1.body))
@@ -289,6 +292,39 @@ slot0.BuildDataGraphics = function(slot0)
 		strs = {
 			SystemInfo.deviceModel,
 			Count = 1
+		}
+	}
+end
+
+slot0.BuildDataChangeSkin = function(slot0)
+	return {
+		trackType = uv0.TYPE_DORM_SKIN,
+		args = {
+			slot0,
+			Count = 1
+		}
+	}
+end
+
+slot0.BuildDataDance = function(slot0, slot1)
+	return {
+		trackType = uv0.TYPE_DORM_DANCE,
+		args = {
+			slot0,
+			slot1,
+			Count = 2
+		}
+	}
+end
+
+slot0.BuildDataPhone = function(slot0, slot1, slot2)
+	return {
+		trackType = uv0.TYPE_DORM_PHONE,
+		args = {
+			slot0,
+			slot1,
+			slot2,
+			Count = 3
 		}
 	}
 end

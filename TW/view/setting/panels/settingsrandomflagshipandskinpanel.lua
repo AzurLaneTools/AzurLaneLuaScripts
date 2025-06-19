@@ -51,7 +51,7 @@ slot0.InitToggles = function(slot0)
 end
 
 slot0.UpdateShipRandomMode = function(slot0, slot1)
-	if slot1 == uv0.COUSTOM and not slot0.refreshFlag and #getProxy(PlayerProxy):getRawData():GetCustomRandomShipList() == 0 then
+	if slot1 == uv0.COUSTOM and not slot0.refreshFlag and #getProxy(BayProxy):getRandomFlagShipPhantomMarks() == 0 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_custom_mode_empty"))
 	end
 

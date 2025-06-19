@@ -243,10 +243,8 @@ slot0.OwnShip = function(slot0)
 end
 
 slot0.WithoutUse = function(slot0)
-	slot2 = getProxy(BayProxy):findShipsByGroup(slot0:getConfig("ship_group"))
-
-	return #slot2 > 0 and _.all(slot2, function (slot0)
-		return slot0.skinId ~= uv0.id
+	return #getProxy(BayProxy):CanUseShareSkinPhantoms(slot0.id) > 0 and underscore.all(slot1, function (slot0)
+		return slot0:getSkinId() ~= uv0.id and not uv1.IsSameChangeSkinGroup(slot0:getSkinId(), uv0.id)
 	end)
 end
 
@@ -262,12 +260,8 @@ slot0.IsProposeSkin = function(slot0)
 	return slot0:getConfig("skin_type") == uv0.SKIN_TYPE_PROPOSE
 end
 
-slot0.IsChangeSkin = function(slot0)
-	return table.contains(slot0:getConfig("tag"), uv0.WITH_CHANGE)
-end
-
 slot0.IsChangeSkinMainIndex = function(slot0)
-	if slot0:IsChangeSkin() then
+	if uv0.IsChangeSkin(slot0.id) then
 		return slot0:getConfig("change_skin").index == 1
 	end
 
@@ -275,7 +269,7 @@ slot0.IsChangeSkinMainIndex = function(slot0)
 end
 
 slot0.MatchChangeSkinMain = function(slot0)
-	if slot0:IsChangeSkin() and not slot0:IsChangeSkinMainIndex() then
+	if uv0.IsChangeSkin(slot0.id) and not slot0:IsChangeSkinMainIndex() then
 		return false
 	end
 
@@ -361,6 +355,111 @@ slot0.GetRewardListDesc = function(slot0)
 			slot0.count
 		}
 	end))
+end
+
+slot0.GetShareGroupIds = function(slot0)
+	slot1 = slot0:getConfig("ship_group")
+
+	return slot1, underscore.to_array(pg.ship_data_group[pg.ship_data_group.get_id_list_by_group_type[slot1][1]].share_group_id)
+end
+
+slot0.GetAllChangeSkinIds = function(slot0)
+	if not uv0.GetChangeSkinMainId(slot0) then
+		return {
+			slot0
+		}
+	end
+
+	slot2 = {
+		uv0.GetChangeSkinMainId(slot0)
+	}
+	slot3 = slot0
+
+	for slot7 = 1, 10 do
+		if not table.contains(slot2, uv0.GetChangeSkinNextId(slot3)) then
+			table.insert(slot2, slot8)
+		end
+
+		if uv0.GetChangeSkinIndex(slot8) == 1 then
+			return slot2
+		end
+	end
+
+	return slot2
+end
+
+slot0.IsChangeSkin = function(slot0)
+	return table.contains(pg.ship_skin_template[slot0].tag, uv0.WITH_CHANGE)
+end
+
+slot0.GetChangeSkinMainId = function(slot0)
+	if not uv0.IsChangeSkin(slot0) then
+		return slot0
+	end
+
+	while uv0.GetChangeSkinIndex(slot0) ~= 1 do
+		slot0 = uv0.GetChangeSkinNextId(slot0)
+	end
+
+	return slot0
+end
+
+slot0.GetChangeSkinData = function(slot0)
+	if not uv0.IsChangeSkin(slot0) then
+		return nil
+	end
+
+	if pg.ship_skin_template[slot0] and slot1.change_skin and slot1.change_skin ~= "" then
+		return slot1.change_skin
+	end
+
+	return nil
+end
+
+slot0.IsSameChangeSkinGroup = function(slot0, slot1)
+	if not uv0.IsChangeSkin(slot0) or not uv0.IsChangeSkin(slot1) then
+		return false
+	end
+
+	return uv0.GetChangeSkinGroupId(slot0) == uv0.GetChangeSkinGroupId(slot1)
+end
+
+slot0.GetChangeSkinGroupId = function(slot0)
+	return uv0.GetChangeSkinData(slot0) and slot1.group or nil
+end
+
+slot0.GetChangeSkinNextId = function(slot0)
+	return uv0.GetChangeSkinData(slot0) and slot1.next or nil
+end
+
+slot0.GetChangeSkinIndex = function(slot0)
+	return uv0.GetChangeSkinData(slot0) and slot1.index or nil
+end
+
+slot0.GetChangeSkinState = function(slot0)
+	return uv0.GetChangeSkinData(slot0) and slot1.state or nil
+end
+
+slot0.GetChangeSkinAction = function(slot0)
+	return uv0.GetChangeSkinData(slot0) and slot1.action or nil
+end
+
+slot0.GetStoreChangeSkinId = function(slot0)
+	if PlayerPrefs.GetInt(uv0.GetStoreChangeSkinPrefsName(slot0), 0) == 0 then
+		return nil
+	else
+		return slot2
+	end
+end
+
+slot0.SetStoreChangeSkinId = function(slot0)
+	PlayerPrefs.SetInt(uv0.GetStoreChangeSkinPrefsName(uv0.GetChangeSkinGroupId(slot0)), slot0)
+end
+
+slot0.GetStoreChangeSkinPrefsName = function(...)
+	return string.format("change_skin_group_%s", table.concat({
+		...
+	}, "_"))
 end
 
 return slot0

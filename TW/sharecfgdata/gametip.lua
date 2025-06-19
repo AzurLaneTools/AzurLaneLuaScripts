@@ -6398,6 +6398,11 @@ _G.pg.base.gametip.word_shipNation_yujinwangguo = {
 }
 
 
+_G.pg.base.gametip.word_shipNation_brs = {
+	tip = "BLACK★ROCK SHOOTER"
+}
+
+
 _G.pg.base.gametip.word_reset = {
 	tip = "重置"
 }
@@ -11182,43 +11187,49 @@ _G.pg.base.gametip.help_shipblueprintui = {
 			info = [[
 
 開始研究
-1.  開始方案艦的研究之前，需要滿足對應方案艦的研究前置條件
+1.開始方案艦的研究之前，需要滿足對應方案艦的研究前置條件
 2. 研究前置條件會顯示在畫面中央
-3.  當滿足前置條件後，點選開始研究按鈕，即可開始研究
+3. 當滿足前置條件後，點擊開始研究按鈕，即可開始研究
 4. 方案艦同時只能研究一艘
 
 研究任務
-1.  開始研究後，需要完成指定方案艦的所有研究任務才能獲得該方案艦
-2 . 研究任務每24小時解鎖一個
+1. 開始研究後，需要完成指定方案艦的所有研究任務才能獲得該方案艦
+2. 研究任務每24小時解鎖一個
 3. 第一個研究任務在開始研究後默認解鎖
-4.  部分研究任務有前置任務，必須完成前置任務後才能展開後續的任務
+4. 部分研究任務有前置任務，必須完成前置任務後才能開展後續的任務
 
 切換研究對象
 1. 在研究過程中，可以切換研究其他方案艦
-2.  切換後，原先的方案艦的研究任務解鎖進度、任務完成進度會被暫停
+2. 切換後，原先的方案艦的研究任務解鎖進度、任務完成進度會被暫停
 3. 切換研究對象後，需要等待24小時後才能再次切換研究對象
 
 完成研究
-1.  當完成方案艦的所有研究任務後，即可獲得該方案艦，並解鎖該方案艦的開發功能
+1. 當完成方案艦的所有研究任務後，即可獲得該方案艦，並解鎖該方案艦的開發功能
 2. 完成研究後，需要手動指定新的研究對象
 
 進行開發
-1.  獲得方案艦後，會解鎖該方案艦的開發功能
+1. 獲得方案艦後，會解鎖該方案艦的開發功能
 2. 通常情況下，開發需要消耗對應方案艦的藍圖，當沒有藍圖時無法進行開發
-3.  藍圖主要在軍部科研室中透過完成科研項目獲得
-4. 開發可以提高方案艦的能力，當開發等級達到指定等級後，還能解鎖開發加成能力
+3. 藍圖主要在軍部科研室中透過完成科研項目獲得
+4. 開發可以提升方案艦的能力，到開發等級達到指定等級後，還能解鎖開發加成能力
 
 物資追趕
-1.  方案艦角色開放達到一定時間後，將會解鎖物資追趕功能
-2.  解鎖物資追趕功能的方案艦，當沒有藍圖可以進行開發時，可以使用物資替代藍圖進行開發，根據稀有度不同所需物資價格不同 
-3.  物資追趕每日有折扣次數，依方案艦稀有度分別計數
+1. 方案艦角色開放達到一定時間後，將會解鎖物資追趕功能
+2. 解鎖物資追趕功能的方案艦，當沒有藍圖可以進行開發時，可以使用物資替代藍圖進行開發，根據稀有度不同所需物資價格不同
+3. 物資追趕每日有折扣次數，依據方案艦稀有度分別計數
 
 最高方案
-免費-2次，1折-2次，2折-3次，4折-3次，7  折-5次
+免費-2次，1折-2次，2折-3次，4折-3次，7折-5次
 決戰方案
 免費-2次，1折-4次，2折-4次，5折-5次
  *折扣次數所有同稀有度的方案艦共享，每日凌晨4點重置
-4.  《天運擬合》系統同樣可使用物資取代藍圖提升完成度，折扣次數與通常開發共用
+4. 《天運擬合》系統同樣可使用物資代替藍圖提升完成度，折扣次數與通常開發共用
+
+5. 換裝投影
+1.換裝投影是針對方案艦研發的新功能，目前只有方案艦可以使用；
+2.投影可以加入秘書組，可以共享方案艦的所有已擁有換裝，方便指揮官同時展示方案艦的多種換裝；
+3.完成投影製作任務即可獲得投影；
+4.投影管理介面有兩個入口，分別在角色換裝介面和開發船塢介面。
 ]]
 		}
 	}
@@ -23297,6 +23308,11 @@ _G.pg.base.gametip.maid_task_tips1 = {
 }
 
 
+_G.pg.base.gametip.shop_akashi_pick_title = {
+	tip = "明石的精選"
+}
+
+
 _G.pg.base.gametip.shop_diamond_title = {
 	tip = "購買鑽石"
 }
@@ -27241,7 +27257,7 @@ _G.pg.base.gametip.random_ship_custom_mode_main_tip1 = {
 
 
 _G.pg.base.gametip.random_ship_custom_mode_main_tip2 = {
-	tip = "角色總數："
+	tip = "總數："
 }
 
 
@@ -32683,7 +32699,7 @@ _G.pg.base.gametip.word_get_emoji = {
 
 
 _G.pg.base.gametip.word_show_extra_reward_at_fudai_dialog = {
-	tip = "（<color=#92fc63>贈送$1</color>）"
+	tip = "（<color=#92fc63>贈送$1</color> ）"
 }
 
 
@@ -36784,4 +36800,155 @@ _G.pg.base.gametip.storyline_goto = {
 
 _G.pg.base.gametip.holiday_villa_locked = {
 	tip = "完成<color=#92fc63>假日別墅籌備中</color>活動後解鎖"
+}
+
+
+_G.pg.base.gametip.tech_shadow_change_button_1 = {
+	tip = "換裝投影"
+}
+
+
+_G.pg.base.gametip.tech_shadow_change_button_2 = {
+	tip = "艦船開發"
+}
+
+
+_G.pg.base.gametip.tech_shadow_limit_text = {
+	tip = "$1級後開啟"
+}
+
+
+_G.pg.base.gametip.tech_shadow_commit_tip = {
+	tip = "需要提交<color=#92fc63>$1</color>，是否確認提交？"
+}
+
+
+_G.pg.base.gametip.shadow_scene_name = {
+	tip = "換裝投影"
+}
+
+
+_G.pg.base.gametip.shadow_unlock_tip = {
+	tip = "請完成投影製作任務解鎖該欄位"
+}
+
+
+_G.pg.base.gametip.shadow_skin_change_success = {
+	tip = "投影換裝更換成功！"
+}
+
+
+_G.pg.base.gametip.add_skin_secretary_ship = {
+	tip = "更換同時加入秘書組"
+}
+
+
+_G.pg.base.gametip.add_skin_random_secretary_ship_list = {
+	tip = "加入隨機秘書艦列表"
+}
+
+
+_G.pg.base.gametip.choose_secretary_change_to_this_ship = {
+	tip = "請選擇需要放入的位置"
+}
+
+
+_G.pg.base.gametip.random_ship_custom_mode_add_shadow_complete = {
+	tip = "已加入隨機秘書組"
+}
+
+
+_G.pg.base.gametip.random_ship_custom_mode_remove_shadow_complete = {
+	tip = "已從隨機秘書組移除"
+}
+
+
+_G.pg.base.gametip.choose_secretary_change_title = {
+	tip = "秘書組"
+}
+
+
+_G.pg.base.gametip.ship_random_secretary_tag = {
+	tip = "隨機秘書組"
+}
+
+
+_G.pg.base.gametip.projection_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/projection_help1"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.littleaijier_npc = {
+	tip = {
+		{
+			info = "「深淵之國」的締造者說明："
+		},
+		{
+			info = "1.活動期間，玩家可獲得臨時npc角色「{namecode:544}」，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
+		},
+		{
+			info = "2.活動期間，完成活動任務，可獲得臨時npc角色「{namecode:544}」的友好度。"
+		},
+		{
+			info = "3.6月25日為止，每日解鎖1個可達成的友好度階段。"
+		},
+		{
+			info = "4.在活動結束前累積獲得10000點友好度，可領取獎勵並將臨時角色「{namecode:544}」轉化為永久角色。"
+		},
+		{
+			info = "5.在活動結束後，未完成轉化的臨時角色「{namecode:544}」將離開港區，不返還已經消耗的強化、突破等培養材料。"
+		},
+		{
+			info = "6.npc角色無法參與大型作戰。"
+		},
+		{
+			info = "7.npc角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.brs_main_tip = {
+	tip = "期間參與活動，獲得限定獎勵"
+}
+
+
+_G.pg.base.gametip.brs_expedition_tip = {
+	tip = "活動期間完成挑戰關卡，可獲得限定獎勵"
+}
+
+
+_G.pg.base.gametip.brs_dmact_tip = {
+	tip = "累計擊沉敵人"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_1 = {
+	tip = "獲取途徑"
+}
+
+
+_G.pg.base.gametip.brs_reward_tip_2 = {
+	tip = "前往"
 }

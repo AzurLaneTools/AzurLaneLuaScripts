@@ -39,6 +39,10 @@ slot0.initUI = function(slot0)
 	slot0:updateScrollRect()
 end
 
+slot0.GetViewSkinWrap = function(slot0)
+	return ChargeScene.TYPE_GIFT
+end
+
 slot0.initScrollRect = function(slot0, slot1, slot2, slot3)
 	slot0.chargeCardTable = {}
 
@@ -74,7 +78,7 @@ slot0.initScrollRect = function(slot0, slot1, slot2, slot3)
 			if #slot0 <= 0 or #slot0 ~= #slot1 then
 				uv1:emit(BaseUI.ON_DROP, uv0.goods:GetSkinProbabilityItem())
 			else
-				uv1:emit(ChargeMediator.VIEW_SKIN_PROBABILITY, uv0.goods.id)
+				uv1:emit(ChargeMediator.VIEW_SKIN_PROBABILITY, uv0.goods.id, uv1:GetViewSkinWrap())
 			end
 		end, SFX_PANEL)
 
@@ -123,6 +127,7 @@ slot0.confirm = function(slot0, slot1)
 
 			slot0:emit(ChargeMediator.OPEN_CHARGE_ITEM_PANEL, {
 				isChargeType = true,
+				infoTip = slot1:GetInfoTip(),
 				icon = "chargeicon/" .. slot1:getConfig("picture"),
 				name = slot1:getConfig("name_display"),
 				tipExtra = slot8,
@@ -204,15 +209,20 @@ slot0.updateGiftGoodsVOList = function(slot0)
 	slot1 = RefluxShopView.getAllRefluxPackID()
 
 	for slot6, slot7 in pairs(pg.pay_data_display.all) do
-		if not table.contains(slot1, slot7) and (slot2[slot7].extra_service == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
-			shop_id = slot7
-		}, Goods.TYPE_CHARGE)) then
-			table.insert(slot0.giftGoodsVOList, slot10)
+		if not table.contains(slot1, slot7) then
+			slot8 = slot2[slot7]
+			slot9 = slot8.extra_service
+
+			if not (slot8.akashi_pick == 1) and (slot9 == Goods.ITEM_BOX or slot9 == Goods.PASS_ITEM) and slot0:filterLimitTypeGoods(Goods.Create({
+				shop_id = slot7
+			}, Goods.TYPE_CHARGE)) then
+				table.insert(slot0.giftGoodsVOList, slot11)
+			end
 		end
 	end
 
 	for slot6, slot7 in pairs(pg.shop_template.get_id_list_by_genre.gift_package) do
-		if not table.contains(slot1, slot7) then
+		if not (pg.shop_template[slot7].akashi_pick == 1) and not table.contains(slot1, slot7) then
 			table.insert(slot0.giftGoodsVOList, Goods.Create({
 				shop_id = slot7
 			}, Goods.TYPE_GIFT_PACKAGE))

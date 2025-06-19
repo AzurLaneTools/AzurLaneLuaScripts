@@ -172873,6 +172873,31 @@ _G.pg.base.item_virtual_data_statistics[65619] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65620] = {
+	drop_gold_max = 0,
+	name = "友好度-BLACK★ROCK SHOOTER",
+	display = "用於「幻影迷途者」活動提升角色好感，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/65620",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65620,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "木料",
@@ -172925,7 +172950,7 @@ _G.pg.base.item_virtual_data_statistics[66002] = {
 
 _G.pg.base.item_virtual_data_statistics[66003] = {
 	drop_gold_max = 0,
-	name = "鋼材",
+	name = "钢材",
 	display = "重要的重建物資之一，全力打造海邊堡壘",
 	type = 0,
 	is_world = 0,
@@ -172950,7 +172975,7 @@ _G.pg.base.item_virtual_data_statistics[66003] = {
 
 _G.pg.base.item_virtual_data_statistics[66004] = {
 	drop_gold_max = 0,
-	name = "電子元件",
+	name = "电子元件",
 	display = "重要的重建物資之一，改變渡假方式的科技加持",
 	type = 0,
 	is_world = 0,
@@ -172975,7 +173000,7 @@ _G.pg.base.item_virtual_data_statistics[66004] = {
 
 _G.pg.base.item_virtual_data_statistics[66005] = {
 	drop_gold_max = 0,
-	name = "重建幣",
+	name = "重建币",
 	display = "每一分重建幣都應該花在刀刃上！",
 	type = 0,
 	is_world = 0,
@@ -173000,7 +173025,7 @@ _G.pg.base.item_virtual_data_statistics[66005] = {
 
 _G.pg.base.item_virtual_data_statistics[66006] = {
 	drop_gold_max = 0,
-	name = "碼頭運力",
+	name = "码头运力",
 	display = "開足馬力，務必確保重建物資順利送達！",
 	type = 0,
 	is_world = 0,
@@ -173015,6 +173040,31 @@ _G.pg.base.item_virtual_data_statistics[66006] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 66006,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[68081] = {
+	drop_gold_max = 0,
+	name = "友好度-{namecode:544}",
+	display = "用於「『深淵之國』的締造者」活動提升角色好感，活動結束後將會消失",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xiaoaijierPT",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 68081,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -182447,6 +182497,70 @@ _G.pg.base.item_virtual_data_statistics[86203] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[86205] = {
+	drop_gold_max = 0,
+	name = "隨機換裝",
+	display = [[
+從如下換裝中隨機獲得1件換裝(如果該換裝已擁有，則會自動轉化為該換裝等價的鑽石) 
+包含的換裝和機率如下：
+（<color=#92fc63>13.0%</color>）羅恩換裝 蒼翠的安眠曲<color=#92fc63>Live 2d</color>）；
+（<color=#92fc63>15.0%</color>）豪換裝 奢華之夜宴；
+（<color=#92fc63>15.0%</color>）鐵必制換裝 獨秀的冰華；
+（<color=#92fc63>15.0%</color>）華盛頓換裝 微笑嘉年華；
+（<color=#92fc63>14.0%</color>）波夕換裝 翠玉的海人魚；
+（<color=#92fc63>14.0%</color>）{namecode:103}換裝 水墨麗色；
+（<color=#92fc63>14.0%</color>）威嚴換裝 別樣的品茶時光；
+ ]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86205,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			299034,
+			1250
+		},
+		{
+			403102,
+			1250
+		},
+		{
+			701043,
+			1250
+		},
+		{
+			305082,
+			1250
+		},
+		{
+			202332,
+			1800
+		},
+		{
+			703022,
+			1700
+		},
+		{
+			137031,
+			1500
+		}
+	}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[86206] = {
 	drop_gold_max = 0,
 	name = "隨機夢幻樂園換裝",
@@ -182684,6 +182798,60 @@ _G.pg.base.item_virtual_data_statistics[86213] = {
 		{
 			202351,
 			2000
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86214] = {
+	drop_gold_max = 0,
+	name = "隨機換裝",
+	display = "不會被看到",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86214,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {
+		{
+			207055,
+			1400
+		},
+		{
+			403142,
+			1400
+		},
+		{
+			299024,
+			1400
+		},
+		{
+			502043,
+			1400
+		},
+		{
+			705042,
+			1580
+		},
+		{
+			105102,
+			1410
+		},
+		{
+			105093,
+			1410
 		}
 	}
 }

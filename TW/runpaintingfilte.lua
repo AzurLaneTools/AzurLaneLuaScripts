@@ -199,8 +199,10 @@ end
 slot0.GetNPCShipConfigIDList = function()
 	slot0 = {}
 
-	if pg.activity_const.ACT_NPC_SHIP_ID.act_id and IsNumber(slot1) and uv0.IsActMatchTime(slot1) then
-		table.insert(slot0, pg.task_data_template[pg.activity_template[slot1].config_data[1]].award_display[1][2])
+	for slot4, slot5 in ipairs(getGameset("act_npc_ship_id")[2]) do
+		if uv0.IsActMatchTime(slot5) then
+			table.insert(slot0, pg.task_data_template[pg.activity_template[slot5].config_data[1]].award_display[1][2])
+		end
 	end
 
 	return slot0
@@ -221,8 +223,8 @@ slot0.GetNormalShopSkinIDList = function()
 				table.insert(slot0, slot6)
 			end
 
-			if ShipGroup.IsChangeSkin(slot6) then
-				for slot11, slot12 in ipairs(ShipGroup.GetAllChangeSkinIds(slot6)) do
+			if ShipSkin.IsChangeSkin(slot6) then
+				for slot11, slot12 in ipairs(ShipSkin.GetAllChangeSkinIds(slot6)) do
 					if not table.contains(slot0, slot12) then
 						table.insert(slot0, slot12)
 					end
@@ -249,8 +251,8 @@ slot0.GetActShopSkinIDList = function()
 				table.insert(slot0, slot6)
 			end
 
-			if ShipGroup.IsChangeSkin(slot6) then
-				for slot11, slot12 in ipairs(ShipGroup.GetAllChangeSkinIds(slot6)) do
+			if ShipSkin.IsChangeSkin(slot6) then
+				for slot11, slot12 in ipairs(ShipSkin.GetAllChangeSkinIds(slot6)) do
 					if not table.contains(slot0, slot12) then
 						table.insert(slot0, slot12)
 					end

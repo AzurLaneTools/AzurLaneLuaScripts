@@ -38,16 +38,11 @@ pg.activity_banner = {
 		}
 	},
 	{
+		param = "BRSCoreActivityUI",
 		time = "stop",
-		type = 2,
+		type = 16,
 		id = 2,
-		pic = "temp2",
-		param = {
-			"scene charge",
-			{
-				wrap = 1
-			}
-		}
+		pic = "temp2"
 	},
 	{
 		type = 2,
@@ -160,7 +155,7 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5962",
+		param = "5979",
 		type = 3,
 		id = 6,
 		pic = "temp6",
@@ -226,15 +221,10 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5981",
+		type = 3,
 		id = 8,
 		pic = "temp8",
-		param = {
-			"scene get boat",
-			{
-				goToPray = true
-			}
-		},
 		time = {
 			{
 				{
@@ -326,6 +316,20 @@ pg.activity_banner = {
 			}
 		}
 	},
+	[91] = {
+		param = "",
+		time = "stop",
+		type = 9,
+		id = 91,
+		pic = "temp98"
+	},
+	[95] = {
+		param = "",
+		time = "stop",
+		type = 11,
+		id = 95,
+		pic = "temp100"
+	},
 	[99] = {
 		param = "",
 		type = 12,
@@ -359,18 +363,18 @@ pg.activity_banner = {
 		}
 	},
 	[100] = {
-		param = "愛心巧克力|濃濃的愛意和巧克力更般配哦~<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		param = "饺子|广受欢迎的传统特色食物！<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		time = "stop",
 		type = 10,
 		id = 100,
-		pic = "chocolate"
+		pic = "dumpling"
 	},
 	[101] = {
-		param = "粽子|端午節當然要吃粽子啦！ <color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
+		param = "镜饼|要开了才能吃哦？<color=#6dd329>（提高经验加成5%，持续60分钟）</color>",
 		time = "stop",
 		type = 10,
 		id = 101,
-		pic = "zongzi"
+		pic = "jingbing"
 	},
 	[102] = {
 		param = "桂花糕|用相傳從月宮裡摘下來的桂花製成的糕點，香甜可口！<color=#6dd329>（提高經驗加成5%，持續60分鐘）</color>",
@@ -719,12 +723,10 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
-			2,
 			3,
 			4,
 			5,
 			7,
-			8,
 			1000,
 			1001,
 			1002,
@@ -749,13 +751,21 @@ pg.activity_banner = {
 			1023,
 			1024
 		},
+		[16] = {
+			2
+		},
 		[3] = {
 			6,
+			8,
 			9,
 			1003
 		},
 		[9] = {
-			90
+			90,
+			91
+		},
+		[11] = {
+			95
 		},
 		[12] = {
 			99
@@ -792,6 +802,8 @@ pg.activity_banner = {
 		8,
 		9,
 		90,
+		91,
+		95,
 		99,
 		100,
 		101,

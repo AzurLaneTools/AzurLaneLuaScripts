@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "story-villaisland-night",
+		default_bgm = "brs-1",
 		special_bgm = "",
-		bgm = "login"
+		bgm = "brs-1"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -1849,5 +1849,40 @@ pg.voice_bgm = {
 		default_bgm = "story-villaisland-light",
 		special_bgm = "",
 		bgm = "story-villaisland-light"
+	},
+	ChangFengSkinPage = {
+		default_bgm = "china-party",
+		special_bgm = "",
+		bgm = "china-party"
+	},
+	XiaoAiJiErPage = {
+		default_bgm = "story-richang-12",
+		special_bgm = "",
+		bgm = "story-richang-12"
+	},
+	WillOfDeathPage = {
+		default_bgm = "brs-1-inst",
+		special_bgm = "",
+		bgm = "brs-1-inst"
+	},
+	BRSMainPage = {
+		default_bgm = "brs-1",
+		special_bgm = "",
+		bgm = "brs-1"
+	},
+	HeiYanPtPage = {
+		default_bgm = "brs-1-inst",
+		special_bgm = "",
+		bgm = "brs-1-inst"
+	},
+	HeiYanAwardPage = {
+		default_bgm = "brs-1-inst",
+		special_bgm = "",
+		bgm = "brs-1-inst"
+	},
+	BRSStagePage = {
+		default_bgm = "brs-1-inst",
+		special_bgm = "",
+		bgm = "brs-1-inst"
 	}
 }

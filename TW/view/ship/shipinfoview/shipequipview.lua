@@ -481,18 +481,26 @@ slot0.UpdateSpWeaponPanel = function(slot0, slot1)
 
 			setScrollText(slot0:Find("value/Text"), getSkillName(slot1))
 		end)()
-		(function ()
-			slot0 = uv0:GetChild(1)
 
-			setText(slot0:Find("tag"), i18n("spweapon_ui_skill_tag"))
-			setActive(slot0, uv1:GetActiveUpgradableSkill(uv2) and slot1 > 0)
+		slot10 = function(slot0)
+			slot1 = uv0:GetChild(1)
 
-			if not slot1 or slot1 <= 0 then
+			setText(slot1:Find("tag"), i18n("spweapon_ui_skill_tag"))
+			setActive(slot1, slot0 and slot0 > 0)
+
+			if not slot0 or slot0 <= 0 then
 				return
 			end
 
-			setScrollText(slot0:Find("value/Text"), getSkillName(slot1))
-		end)()
+			setScrollText(slot1:Find("value/Text"), getSkillName(slot0))
+		end
+
+		if #slot1:GetActiveUpgradableSkillList(slot5) == 0 then
+			setActive(slot8:GetChild(1), false)
+		else
+			slot10(slot11[1].mapSkillID)
+		end
+
 		onButton(slot0, slot2, function ()
 			uv0:emit(BaseUI.ON_SPWEAPON, {
 				type = SpWeaponInfoLayer.TYPE_SHIP,

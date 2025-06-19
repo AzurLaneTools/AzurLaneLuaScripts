@@ -4,6 +4,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.go = slot1
 	slot0.tr = slot1.transform
 	slot0.painting = findTF(slot0.tr, "bg/mask/painting")
+	slot0.paintingDefaultAngle = slot0.painting.localEulerAngles
 	slot0.nameBar = findTF(slot0.tr, "bg/desc/name_bar")
 	slot0.name = findTF(slot0.nameBar, "name")
 	slot0.effectBar = findTF(slot0.tr, "bg/desc/effect_bar")
@@ -89,7 +90,7 @@ slot0.updateData = function(slot0, slot1, slot2, slot3)
 		slot0.skin = slot2
 		slot0.own = slot3
 		slot0.skinId = slot0.skin.id
-		slot4 = ShipGroup.GetChangeSkinData(slot0.skin.id)
+		slot4 = ShipSkin.GetChangeSkinData(slot0.skin.id)
 
 		if slot3 and slot4 then
 			setActive(slot0.changeSkinTF, true)
@@ -208,7 +209,10 @@ slot0.loadPainting = function(slot0)
 
 	slot0.hideObjToggle.isOn = PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0.paintingName, 0) ~= 0
 
-	setPaintingPrefabAsync(slot0.painting, slot0.paintingName, "pifu")
+	setPaintingPrefabAsync(slot0.painting, slot0.paintingName, "pifu", nil, {
+		skinID = slot0.skin.id,
+		rotateZ = slot0.paintingDefaultAngle
+	})
 end
 
 slot0.clear = function(slot0)

@@ -2,6 +2,7 @@ slot0 = class("ChargeScene", import("...base.BaseUI"))
 slot0.TYPE_DIAMOND = 1
 slot0.TYPE_GIFT = 2
 slot0.TYPE_ITEM = 3
+slot0.TYPE_PICK = 4
 
 slot0.getUIName = function(slot0)
 	return "ChargeShopUI"
@@ -89,6 +90,8 @@ slot0.init = function(slot0)
 	slot0.giftToggle = slot0:findTF("toggle_list/gift_toggle", slot0.viewContainer)
 	slot0.diamondToggle = slot0:findTF("toggle_list/diamond_toggle", slot0.viewContainer)
 	slot0.giftTip = slot0:findTF("tip", slot0.giftToggle)
+	slot0.pickToggle = slot0:findTF("toggle_list/pick_toggle", slot0.viewContainer)
+	slot0.pickTip = slot0:findTF("tip", slot0.pickToggle)
 	slot0.chargeTipWindow = ChargeTipWindow.New(slot0._tf, slot0.event)
 
 	setText(slot0:findTF("light/title", slot0.diamondToggle), i18n("shop_diamond_title"))
@@ -97,25 +100,29 @@ slot0.init = function(slot0)
 	setText(slot0:findTF("dark/title", slot0.giftToggle), i18n("shop_gift_title"))
 	setText(slot0:findTF("light/title", slot0.itemToggle), i18n("shop_item_title"))
 	setText(slot0:findTF("dark/title", slot0.itemToggle), i18n("shop_item_title"))
+	setText(slot0:findTF("light/title", slot0.pickToggle), i18n("shop_akashi_pick_title"))
+	setText(slot0:findTF("dark/title", slot0.pickToggle), i18n("shop_akashi_pick_title"))
 
 	slot0.linkTitle = {
 		slot0:findTF("title/title_diamond", slot0.top),
 		slot0:findTF("title/title_gift", slot0.top),
-		slot0:findTF("title/title_item", slot0.top)
+		slot0:findTF("title/title_item", slot0.top),
+		slot0:findTF("title/title_pick", slot0.top)
 	}
 	slot0.toggleList = {
 		slot0.diamondToggle,
 		slot0.giftToggle,
-		slot0.itemToggle
+		slot0.itemToggle,
+		slot0.pickToggle
 	}
 
 	if Live2dConst.GetLive2DArm32MatchAble() then
-		slot8 = Ship.New({
+		slot10 = Ship.New({
 			configId = 312011
 		})
-		slot9 = slot8:getPainting()
+		slot11 = slot10:getPainting()
 
-		LoadPaintingPrefabAsync(slot0.painting, slot9, slot9, "mainNormal", function ()
+		LoadPaintingPrefabAsync(slot0.painting, slot11, slot11, "mainNormal", function ()
 			uv0.loading = false
 		end)
 	else
@@ -222,11 +229,13 @@ slot0.initSubView = function(slot0)
 	slot0.diamondShopView = ChargeDiamondShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.giftShopView = ChargeGiftShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.itemShopView = ChargeItemShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
+	slot0.pickShopView = ChargePickShopView.New(slot0.subViewContainer, slot0.event, slot0.contextData)
 	slot0.curSubViewNum = 0
 	slot0.subViewList = {
 		[ChargeScene.TYPE_DIAMOND] = slot0.diamondShopView,
 		[ChargeScene.TYPE_GIFT] = slot0.giftShopView,
-		[ChargeScene.TYPE_ITEM] = slot0.itemShopView
+		[ChargeScene.TYPE_ITEM] = slot0.itemShopView,
+		[ChargeScene.TYPE_PICK] = slot0.pickShopView
 	}
 end
 
@@ -401,12 +410,12 @@ slot0.createLive2D = function(slot0)
 		position = Vector3(0, 0, 0),
 		parent = slot0:findTF("frame/painting/live2d")
 	}), function (slot0)
-		slot0:setSortingLayer(-999)
+		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 	end)
 end
 
 slot0.checkBuyDone = function(slot0, slot1)
-	if not slot0.live2dChar then
+	if not slot0.live2dChar or slot0.live2dChar:IsLoaded() then
 		return
 	end
 

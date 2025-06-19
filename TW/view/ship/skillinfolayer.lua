@@ -23,6 +23,12 @@ slot0.init = function(slot0)
 	setText(slot0:findTF("Image", slot0.metaBtn), i18n("meta_skillbtn_tactics"))
 	setText(slot0:findTF("panel/top/title_list/infomation/title"), i18n("words_information"))
 	setText(slot0.buttonList:Find("ok_button/Image"), i18n("text_confirm"))
+
+	if PLATFORM_CODE == PLATFORM_JP then
+		setText(slot0.buttonList:Find("level_button/Image"), i18n("msgbox_text_noPos_intensify"))
+	else
+		setText(slot0.buttonList:Find("level_button/Image"), i18n("msgbox_text_upgrade"))
+	end
 end
 
 slot0.didEnter = function(slot0)

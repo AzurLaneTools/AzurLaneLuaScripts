@@ -185,7 +185,7 @@ slot0.updateRankSelfTf = function(slot0, slot1, slot2)
 		score = getProxy(MiniGameProxy):GetHighScore(uv0),
 		display = {
 			icon = slot5:getConfig("id"),
-			skinId = slot5.skinId,
+			skinId = slot5:getSkinId(),
 			proposeTime = slot5.proposeTime
 		}
 	}

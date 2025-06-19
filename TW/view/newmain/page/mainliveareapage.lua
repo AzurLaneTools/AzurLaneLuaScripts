@@ -220,12 +220,11 @@ slot0.Hide = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	slot0:Hide()
 	slot0.coverPage:Destroy()
 
 	slot0.coverPage = nil
 	slot0.cover = nil
-
-	slot0:Hide()
 end
 
 return slot0

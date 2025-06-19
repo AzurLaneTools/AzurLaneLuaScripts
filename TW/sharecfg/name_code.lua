@@ -2828,6 +2828,13 @@ pg.name_code = {
 		code = "弗里茨·魯梅 ",
 		nation = 0
 	},
+	[544] = {
+		name = "小埃吉爾",
+		type = 1,
+		id = 544,
+		code = "小埃吉爾",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戰五二型",
 		type = 2,

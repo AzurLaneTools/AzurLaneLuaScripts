@@ -41715,6 +41715,209 @@ _G.pg.base.equip_data_statistics[16473] = {
 }
 
 
+_G.pg.base.equip_data_statistics[16480] = {
+	name = "双联装76mmRF火炮Mk37",
+	speciality = "<[SRG]>",
+	type = 6,
+	attribute_3 = "hit",
+	tech = 0,
+	value_2 = 50,
+	icon = "16480",
+	attribute_2 = "antiaircraft",
+	rarity = 6,
+	damage = "56<[WAVE]>",
+	nationality = 1,
+	descrip = "说明未填写",
+	ammo = 5,
+	value_3 = 15,
+	id = 16480,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		1,
+		2,
+		6,
+		10
+	},
+	weapon_id = {
+		16480
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		1,
+		2,
+		3,
+		4,
+		5,
+		6,
+		10,
+		12,
+		13,
+		18,
+		19,
+		20,
+		21
+	},
+	equip_parameters = {},
+	label = {
+		"USS",
+		"ST",
+		"AA"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16481] = {
+	id = 16481,
+	damage = "64<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16481
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16482] = {
+	id = 16482,
+	damage = "72<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16482
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16483] = {
+	id = 16483,
+	damage = "80<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16483
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16484] = {
+	id = 16484,
+	damage = "88<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16484
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16485] = {
+	id = 16485,
+	damage = "96<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16485
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16486] = {
+	id = 16486,
+	damage = "104<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16486
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16487] = {
+	id = 16487,
+	damage = "112<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16487
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16488] = {
+	id = 16488,
+	damage = "122<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16488
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16489] = {
+	id = 16489,
+	damage = "132<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16489
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16490] = {
+	id = 16490,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	weapon_id = {
+		16490
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16491] = {
+	anti_siren = 100,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	id = 16491,
+	weapon_id = {
+		16491
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16492] = {
+	anti_siren = 200,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	id = 16492,
+	weapon_id = {
+		16492
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[16493] = {
+	anti_siren = 300,
+	damage = "142<[WAVE]>",
+	base = 16480,
+	id = 16493,
+	weapon_id = {
+		16493
+	}
+}
+
+
 _G.pg.base.equip_data_statistics[17000] = {
 	name = "F2A水牛",
 	tech = 1,
@@ -168238,6 +168441,61 @@ _G.pg.base.equip_data_statistics[170722] = {
 }
 
 
+_G.pg.base.equip_data_statistics[170761] = {
+	name = "逐光之焰-格倫維爾I",
+	tech = 1,
+	speciality = "<[NA]>",
+	type = 1,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	value_1 = "0",
+	descrip = "技能彈幕",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 170761,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		170761
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		1,
+		19,
+		20,
+		21
+	},
+	part_sub = {
+		2,
+		3,
+		4,
+		5,
+		8,
+		13,
+		18
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[170762] = {
+	name = "逐光之焰-格倫維爾II",
+	base = 170761,
+	id = 170762,
+	weapon_id = {
+		170762
+	},
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[170771] = {
 	name = "专属弹幕-克利奥佩特拉I",
 	tech = 1,
@@ -168345,6 +168603,45 @@ _G.pg.base.equip_data_statistics[170782] = {
 		61762
 	},
 	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[180001] = {
+	name = "小埃吉爾自備強化型副炮",
+	tech = 1,
+	speciality = "<[LOCK]>",
+	type = 2,
+	rarity = 1,
+	value_2 = 0,
+	icon = "1",
+	descrip = "預設裝備",
+	nationality = 4,
+	ammo = 1,
+	value_3 = 0,
+	id = 180001,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {
+		2
+	},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		180001
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		3
+	},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"KMS",
+		"DD",
+		"MG",
+		"AP"
+	}
 }
 
 
@@ -171066,6 +171363,42 @@ _G.pg.base.equip_data_statistics[3276003] = {
 		6,
 		7,
 		10
+	},
+	equip_parameters = {},
+	label = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3279401] = {
+	name = "【2025黑岩聯動 劇情戰】死亡主宰空襲飛機",
+	tech = 3,
+	speciality = "<[BOMB]>",
+	type = 7,
+	rarity = 5,
+	value_2 = 0,
+	icon = "1",
+	descrip = "說明未填寫",
+	nationality = 0,
+	ammo = 5,
+	value_3 = 0,
+	id = 3279401,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {},
+	weapon_id = {
+		3279401
+	},
+	skill_id = {},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7
+	},
+	part_sub = {
+		6,
+		7
 	},
 	equip_parameters = {},
 	label = {}

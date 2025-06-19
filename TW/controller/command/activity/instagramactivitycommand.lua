@@ -8,41 +8,28 @@ slot0.execute = function(slot0, slot1)
 	slot3 = getProxy(InstagramProxy)
 
 	if ActivityConst.INSTAGRAM_OP_ACTIVE == slot2.cmd then
-		slot5 = getProxy(ActivityProxy):getActivityById(slot2.activity_id)
-		slot6 = pg.ConnectionMgr.GetInstance()
+		slot4 = pg.ConnectionMgr.GetInstance()
 
-		slot6:Send(11202, {
+		slot4:Send(11701, {
 			cmd = 1,
-			activity_id = slot2.activity_id,
-			arg1 = slot2.arg1 or 0,
-			arg2 = slot2.arg2 or 0,
-			arg3 = slot2.arg3 or 0,
-			arg_list = {}
-		}, 11203, function (slot0)
+			id = slot2.arg1
+		}, 11702, function (slot0)
 			if slot0.result == 0 then
-				uv0:UpdateMessage(Instagram.New(slot0.ins_message))
-				uv1:UpdateActiveCnt()
-				uv2:updateActivity(uv1)
-				uv3:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
-					activity = uv1
-				})
-				uv3:sendNotification(GAME.ACT_INSTAGRAM_OP_DONE, {
-					cmd = uv4.cmd,
-					id = uv4.arg1
+				uv0:UpdateMessage(Instagram.New(slot0.data))
+				uv0:AddInstagramTimer()
+				uv1:sendNotification(GAME.ACT_INSTAGRAM_OP_DONE, {
+					cmd = uv2.cmd,
+					id = uv2.arg1
 				})
 
-				if uv4.callback then
-					uv4.callback()
+				if uv2.callback then
+					uv2.callback()
 				end
 			else
 				pg.TipsMgr.GetInstance():ShowTips(ERROR_MESSAGE[slot0.result] .. slot0.result)
 			end
 		end)
-
-		return
-	end
-
-	if ActivityConst.INSTAGRAM_OP_LIKE == slot2.cmd or ActivityConst.INSTAGRAM_OP_MARK_READ == slot2.cmd or ActivityConst.INSTAGRAM_OP_UPDATE == slot2.cmd or ActivityConst.INSTAGRAM_OP_SHARE == slot2.cmd then
+	elseif ActivityConst.INSTAGRAM_OP_LIKE == slot2.cmd or ActivityConst.INSTAGRAM_OP_MARK_READ == slot2.cmd or ActivityConst.INSTAGRAM_OP_UPDATE == slot2.cmd or ActivityConst.INSTAGRAM_OP_SHARE == slot2.cmd then
 		slot4 = pg.ConnectionMgr.GetInstance()
 
 		slot4:Send(11701, {

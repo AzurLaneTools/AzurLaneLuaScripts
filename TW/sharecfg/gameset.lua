@@ -3808,5 +3808,20 @@ pg.gameset = {
 	juuschat_dialogue_trigger_time = {
 		description = "",
 		key_value = 3000
+	},
+	technology_shadow_num = {
+		description = "",
+		key_value = 6
+	},
+	technology_shadow_unlock_lv = {
+		description = "",
+		key_value = 100
+	},
+	act_npc_ship_id = {
+		key_value = 0,
+		description = {
+			5980,
+			5987
+		}
 	}
 }

@@ -1,5 +1,18 @@
 pg = pg or {}
-pg.dorm3d_camera_photo_frame = {
+pg.dorm3d_camera_photo_frame = setmetatable({
+	__name = "dorm3d_camera_photo_frame",
+	all = {
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.dorm3d_camera_photo_frame = {
 	[1001] = {
 		name = "預設",
 		rarity = 2,
@@ -139,14 +152,5 @@ pg.dorm3d_camera_photo_frame = {
 			0,
 			0
 		}
-	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007
 	}
 }

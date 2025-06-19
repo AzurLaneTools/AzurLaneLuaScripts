@@ -26511,6 +26511,53 @@ _G.pg.base.item_data_statistics[30426] = {
 }
 
 
+_G.pg.base.item_data_statistics[30429] = {
+	open_directly = 1,
+	name = "死亡的支配者",
+	type = 11,
+	display = "可以獲得死亡的支配者（魚雷）、死亡的支配者（戰鬥）、死亡的支配者（轟炸）外觀裝備各一件",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Equips/97032",
+	order = 0,
+	rarity = 3,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "906206",
+	id = 30429,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			1472,
+			1
+		},
+		{
+			9,
+			1473,
+			1
+		},
+		{
+			9,
+			1474,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30501] = {
 	open_directly = 0,
 	name = "定向外觀裝備箱(夏末)",
@@ -84599,6 +84646,73 @@ _G.pg.base.item_data_statistics[81213] = {
 		{
 			2,
 			86213,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81214] = {
+	open_directly = 1,
+	name = "慶典禮盒（2025）",
+	type = 17,
+	display = "購買禮包可獲得隨機換裝*1，鑽石*2025，心智單元*50，心智魔方*20，高級定向藍圖·七期*2，快速完成工具*10，傢俱幣*100",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai15",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998316",
+	id = 81214,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86214,
 			1
 		},
 		{

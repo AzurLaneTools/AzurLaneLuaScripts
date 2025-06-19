@@ -208,7 +208,9 @@ pg.dorm3d_rooms = {
 				"Nengdai"
 			}
 		},
-		furniture_zones = {},
+		furniture_zones = {
+			4005
+		},
 		recall_list = {},
 		invite_cost = {
 			{

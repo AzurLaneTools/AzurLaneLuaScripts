@@ -3,39 +3,42 @@ slot0.SKIN_UPDATED = "skin updated"
 
 slot0.execute = function(slot0, slot1)
 	slot2 = slot1:getBody()
-	slot5 = slot2.hideTip
-	slot6 = pg.ConnectionMgr.GetInstance()
+	slot3 = slot2.shipId
+	slot4 = slot2.phantomId
+	slot6 = slot2.hideTip
 
-	slot6:Send(12202, {
-		ship_id = slot2.shipId,
-		skin_id = ShipGroup.GetChangeSkinMainId(slot2.skinId)
+	if slot2.skinId ~= 0 then
+		slot5 = ShipSkin.GetChangeSkinMainId(slot5)
+	end
+
+	slot7 = pg.ConnectionMgr.GetInstance()
+
+	slot7:Send(12202, {
+		ship_id = slot3,
+		skin_id = slot5,
+		skin_shadow = slot4
 	}, 12203, function (slot0)
 		if slot0.result == 0 then
-			slot2 = getProxy(BayProxy):getShipById(uv0)
+			slot1 = getProxy(BayProxy)
 
-			if (uv1 or 0) == 0 then
-				slot3 = slot2:getConfig("skin_id")
+			slot1:updateShipSkin(uv0, uv1, uv2)
+
+			if getProxy(PlayerProxy):getData():GetFlagShipPhantomMark() == slot1:GetShipPhantom(ShipPhantom.PackMark(uv0, uv1)):GetShipPhantomMark() then
+				slot4.skinId = slot2:getSkinId()
+
+				slot3:updatePlayer(slot4)
 			end
 
-			if not slot3 or slot3 == 0 then
-				slot3 = slot2:getConfig("skin_id")
-			end
-
-			slot2:updateSkinId(slot3)
-			slot1:updateShip(slot2)
-
-			if getProxy(PlayerProxy):getData().character == uv0 then
-				slot5.skinId = slot2:getSkinId()
-
-				slot4:updatePlayer(slot5)
-			end
-
-			uv2:sendNotification(uv3.SKIN_UPDATED, {
+			uv3:sendNotification(uv4.SKIN_UPDATED, {
 				ship = slot2
 			})
 
-			if not uv4 then
-				pg.TipsMgr.GetInstance():ShowTips(i18n("ship_set_skin_success"))
+			if not uv5 then
+				if uv1 == 0 then
+					pg.TipsMgr.GetInstance():ShowTips(i18n("ship_set_skin_success"))
+				else
+					pg.TipsMgr.GetInstance():ShowTips(i18n("shadow_skin_change_success"))
+				end
 			end
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("ship_set_skin_error", slot0.result))

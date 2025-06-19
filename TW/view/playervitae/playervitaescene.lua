@@ -27,8 +27,8 @@ end
 slot0.OnShipSkinChanged = function(slot0, slot1)
 	slot0:UpdatePainting()
 
-	if slot0.shipsPage and slot0.shipsPage:GetLoaded() and slot0.shipsPage:isShowing() then
-		slot0.shipsPage:UpdateCard(slot1.id)
+	if slot0.shipsPage and slot0.shipsPage:isShowing() then
+		slot0.shipsPage:UpdateCard(slot1)
 	end
 end
 
@@ -228,7 +228,7 @@ slot0.UpdatePainting = function(slot0, slot1)
 		end
 	end
 
-	if not slot0.displaySkinID or slot0.displaySkinID ~= slot2.skinId or slot1 then
+	if not slot0.displaySkinID or slot0.displaySkinID ~= slot2:getSkinId() or slot1 then
 		slot0:ReturnPainting()
 
 		slot5 = slot2:getPainting()
@@ -239,7 +239,7 @@ slot0.UpdatePainting = function(slot0, slot1)
 
 		setActive(slot0.switchSkinBtn, not HXSet.isHxSkin() and getProxy(ShipSkinProxy):HasFashion(slot2) and not isa(slot2, VirtualEducateCharShip))
 
-		slot0.displaySkinID = slot2.skinId
+		slot0.displaySkinID = slot2:getSkinId()
 	end
 
 	setActive(slot0.cryptolaliaBtn, getProxy(PlayerProxy):getRawData():ExistCryptolalia(slot2:getGroupId()))
@@ -293,7 +293,7 @@ slot0.checkShowResetL2dBtn = function(slot0)
 		if uv0:GetFlagShip() then
 			slot0 = uv0:GetFlagShip()
 
-			Live2dConst.ClearLive2dSave(slot0.skinId, slot0.id)
+			Live2dConst.ClearLive2dSave(slot0:getSkinId(), slot0.id)
 		end
 	end, SFX_CONFIRM)
 end

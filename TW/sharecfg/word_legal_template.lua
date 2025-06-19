@@ -1721,6 +1721,13 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["埃"] = {
+			["吉"] = {
+				["爾"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -6856,6 +6863,76 @@ temp = function()
 			["洛"] = {
 				["夫"] = {
 					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0.B = {
+		L = {
+			A = {
+				C = {
+					K = {
+						["★"] = {
+							R = {
+								O = {
+									C = {
+										K = {
+											[" "] = {
+												S = {
+													H = {
+														O = {
+															O = {
+																T = {
+																	E = {
+																		R = {
+																			this = true
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0.D = {
+		E = {
+			A = {
+				D = {
+					[" "] = {
+						M = {
+							A = {
+								S = {
+									T = {
+										E = {
+											R = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		}

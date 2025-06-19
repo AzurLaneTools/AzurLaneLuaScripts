@@ -641,7 +641,6 @@ return {
 			}
 		},
 		{
-			expression = 1,
 			side = 2,
 			bgName = "bg_story_italy",
 			dir = 1,

@@ -47,33 +47,42 @@ end
 
 slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 	slot0.goodsVO = slot1
+	slot7 = false
 
 	setActive(slot0.mask, not slot5 or slot0.goodsVO:CheckCntLimit() and not slot0.goodsVO:CheckArgLimit())
-	setActive(slot0.selloutTag, not slot5)
+	setActive(slot0.selloutTag, false)
 
 	if slot0.limitPassTag then
 		setActive(slot0.limitPassTag, false)
 	end
 
+	setActive(slot0.unexchangeTag, false)
 	removeOnButton(slot0.mask)
 
 	if slot6 then
-		slot7, slot8, slot9 = slot0.goodsVO:CheckArgLimit()
+		slot8, slot9, slot10 = slot0.goodsVO:CheckArgLimit()
 
-		if slot8 == "pass" then
+		if slot9 == "pass" then
 			setActive(slot0.limitPassTag, true)
-			setText(findTF(slot0.limitPassTag, "Text"), i18n("eventshop_unlock_info", slot9))
+			setText(findTF(slot0.limitPassTag, "Text"), i18n("eventshop_unlock_info", slot10))
 			onButton(slot0, slot0.mask, function ()
 				pg.TipsMgr.GetInstance():ShowTips(i18n("eventshop_unlock_hint", uv0))
 			end, SFX_PANEL)
 		else
-			setText(slot0.unexchangeTag, slot9)
+			setText(slot0.unexchangeTag, slot10)
 
-			slot10 = ""
+			slot11 = ""
 
-			setText(slot0.unexchangeTag:Find("sellout_tag_en"), slot8 == ShopArgs.LIMIT_ARGS_SALE_START_TIME and "LOCK" or "LIMIT")
-			setActive(slot0.unexchangeTag, true)
+			setText(slot0.unexchangeTag:Find("sellout_tag_en"), slot9 == ShopArgs.LIMIT_ARGS_SALE_START_TIME and "LOCK" or "LIMIT")
+
+			slot7 = true
 		end
+	end
+
+	if not slot5 then
+		setActive(slot0.selloutTag, true)
+	elseif slot7 then
+		setActive(slot0.unexchangeTag, true)
 	end
 
 	updateDrop(slot0.itemTF, Drop.New({
@@ -84,11 +93,11 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 	setActive(slot0.limitTimeSellTF, false)
 
 	if slot5 then
-		slot8, slot9, slot10 = slot0.goodsVO:CheckTimeLimit()
+		slot9, slot10, slot11 = slot0.goodsVO:CheckTimeLimit()
 
-		setActive(slot0.limitTimeSellTF, slot8 and slot9)
+		setActive(slot0.limitTimeSellTF, slot9 and slot10)
 
-		if slot8 and not slot9 then
+		if slot9 and not slot10 then
 			setActive(slot0.mask, true)
 			setActive(slot0.sellEndTag, true)
 			removeOnButton(slot0.mask)
@@ -109,17 +118,17 @@ slot0.updateSingle = function(slot0, slot1, slot2, slot3, slot4)
 
 	slot0.countTF.text = slot1:getConfig("resource_num")
 
-	setText(slot0.nameTxt, shortenString(slot7:getName() or "??", 6, 1))
+	setText(slot0.nameTxt, shortenString(slot8:getName() or "??", 6, 1))
 
 	if slot1:getConfig("num_limit") == 0 then
 		slot0.limitCountTF.text = i18n("common_no_limit")
 	else
-		slot0.limitCountTF.text = math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot9
+		slot0.limitCountTF.text = math.max(slot1:GetPurchasableCnt(), 0) .. "/" .. slot10
 	end
 
-	slot10 = uv0.Color[slot2] or uv0.DefaultColor
-	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot10))
-	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot10))
+	slot11 = uv0.Color[slot2] or uv0.DefaultColor
+	slot0.limitCountTF.color = slot3 or Color.New(unpack(slot11))
+	slot0.limitCountLabelTF.color = slot3 or Color.New(unpack(slot11))
 	slot4 = slot4 or Color.New(0, 0, 0, 1)
 
 	if GetComponent(slot0.limitCountTF, typeof(Outline)) then

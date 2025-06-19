@@ -39,7 +39,6 @@ slot0.OnLoad = function(slot0, slot1)
 		parent = slot0.live2dContainer
 	}), function (slot0)
 		uv0:AdJustOrderInLayer(slot0)
-		uv1()
 
 		if uv0._initTriggerAction then
 			for slot4, slot5 in ipairs(uv0._initTriggerAction) do
@@ -54,6 +53,8 @@ slot0.OnLoad = function(slot0, slot1)
 
 			uv0._initTriggerAction = nil
 		end
+
+		uv1()
 	end)
 	slot0.shipGroup = getProxy(CollectionProxy):getShipGroup(slot0.ship.groupId)
 
@@ -70,7 +71,7 @@ slot0.ResetState = function(slot0)
 end
 
 slot0.AdJustOrderInLayer = function(slot0, slot1)
-	slot1:setSortingLayer(-999)
+	slot1:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 end
 
 slot0.ResetOrderInLayer = function(slot0)
@@ -220,7 +221,7 @@ slot0.PlayCV = function(slot0, slot1, slot2, slot3, slot4)
 		slot0.seTimer:Start()
 	end
 
-	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship.skinId)), slot3, slot2, slot4)
+	slot0.cvLoader:Load(pg.CriMgr.GetCVBankName(ShipWordHelper.RawGetCVKey(slot0.ship:getSkinId())), slot3, slot2, slot4)
 end
 
 slot0.RemoveSeTimer = function(slot0)
@@ -306,7 +307,6 @@ slot0.OnUpdateShip = function(slot0, slot1)
 end
 
 slot0.SetContainerVisible = function(slot0, slot1)
-	setActive(slot0.live2dContainer, slot1)
 end
 
 slot0.OnResume = function(slot0)

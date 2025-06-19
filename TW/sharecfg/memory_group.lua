@@ -210,6 +210,9 @@ pg.memory_group = setmetatable({
 		327,
 		328,
 		329,
+		330,
+		331,
+		332,
 		501,
 		502,
 		503,
@@ -5156,6 +5159,47 @@ pg.base.memory_group = {
 			4414,
 			4415,
 			4416
+		}
+	},
+	[330] = {
+		title = "天青勝玉",
+		subtype = 3,
+		link_event = 5979,
+		type = 2,
+		id = 330,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4417
+		}
+	},
+	[331] = {
+		title = "幻影迷途者-「關卡篇」",
+		subtype = 2,
+		link_event = 5985,
+		type = 2,
+		id = 331,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4431,
+			4432,
+			4433,
+			4434,
+			4435
+		}
+	},
+	[332] = {
+		title = "幻影迷途者-「日常篇」",
+		subtype = 2,
+		link_event = 5985,
+		type = 2,
+		id = 332,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4421,
+			4422
 		}
 	},
 	[501] = {

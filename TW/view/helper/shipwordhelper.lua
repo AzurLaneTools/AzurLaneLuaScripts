@@ -454,20 +454,21 @@ slot0.GetCvDataForShip = function(slot0, slot1)
 		return nil
 	end
 
-	slot2 = slot0:getCVIntimacy()
-	slot4, slot5, slot6, slot7, slot8, slot9 = nil
+	slot2 = slot0:getSkinId()
+	slot3 = slot0:getCVIntimacy()
+	slot5, slot6, slot7, slot8, slot9, slot10 = nil
 
 	if string.split(slot1, "_")[1] == "main" then
-		slot4, slot6, slot5 = ShipWordHelper.GetWordAndCV(slot0.skinId, slot3[1], tonumber(slot3[2]), nil, slot2)
-		slot7 = ShipWordHelper.GetL2dCvCalibrate(slot0.skinId, slot3[1], tonumber(slot3[2]))
-		slot8 = ShipWordHelper.GetL2dSoundEffect(slot0.skinId, slot3[1], tonumber(slot3[2]))
+		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot2, slot4[1], tonumber(slot4[2]), nil, slot3)
+		slot8 = ShipWordHelper.GetL2dCvCalibrate(slot2, slot4[1], tonumber(slot4[2]))
+		slot9 = ShipWordHelper.GetL2dSoundEffect(slot2, slot4[1], tonumber(slot4[2]))
 	else
-		slot4, slot6, slot5 = ShipWordHelper.GetWordAndCV(slot0.skinId, slot1, nil, , slot2)
-		slot7 = ShipWordHelper.GetL2dCvCalibrate(slot0.skinId, slot1)
-		slot8 = ShipWordHelper.GetL2dSoundEffect(slot0.skinId, slot1)
+		slot5, slot7, slot6 = ShipWordHelper.GetWordAndCV(slot2, slot1, nil, , slot3)
+		slot8 = ShipWordHelper.GetL2dCvCalibrate(slot2, slot1)
+		slot9 = ShipWordHelper.GetL2dSoundEffect(slot2, slot1)
 	end
 
-	return slot4, slot6, slot5, slot7, slot8, slot7 == -1
+	return slot5, slot7, slot6, slot8, slot9, slot8 == -1
 end
 
 return slot0

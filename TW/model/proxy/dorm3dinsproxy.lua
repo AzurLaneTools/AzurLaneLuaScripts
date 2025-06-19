@@ -87,7 +87,7 @@ slot0.UnlockInstagram = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.AnyInstagramShouldTip = function(slot0, slot1)
-	return _.any(slot0:GetInstagramList(slot1), function (slot0)
+	return _.any(slot0:GetInstagramList(slot1) or {}, function (slot0)
 		return slot0:ShouldTip()
 	end)
 end

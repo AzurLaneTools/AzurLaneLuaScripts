@@ -47,6 +47,12 @@ slot0.init = function(slot0)
 			uv0.isSpecial = pg.dorm3d_furniture_template[uv0.contextData.drop.configId].is_special == 1
 
 			setActive(uv0._tf:Find("Window/Title/furniture"), true)
+		end,
+		Dorm3dSkin = function ()
+			uv0.unlockTips = pg.dorm3d_resource[uv0.contextData.drop.configId].unlock_tips or {}
+			uv0.unlockBanners = pg.dorm3d_resource[uv0.contextData.drop.configId].unlock_banners or {}
+
+			setActive(uv0._tf:Find("Window/Title/skin"), true)
 		end
 	})
 end

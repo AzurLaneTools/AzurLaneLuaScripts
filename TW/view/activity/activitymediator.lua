@@ -51,10 +51,9 @@ slot0.GO_CHANGE_SHOP = "go Change shop"
 slot0.GO_Activity_level = "go Activity level"
 slot0.ON_ADD_SUBLAYER = "ActivityMediator.ON_ADD_SUBLAYER"
 slot0.GO_SPECIAL_EXERCISE = "go Special exercise"
+slot0.GO_SINGLE_PRECOMBAT = "ActivityMediator.GO_SINGLE_PRECOMBAT"
 
 slot0.register = function(slot0)
-	slot0.UIAvalibleCallbacks = {}
-
 	slot0:bind(uv0.GO_MONOPOLY2024, function (slot0, slot1, slot2)
 		uv0:addSubLayers(Context.New({
 			mediator = MonopolyCar2024Mediator,
@@ -400,20 +399,28 @@ slot0.register = function(slot0)
 			}
 		})
 	end)
-	slot0.viewComponent:setActivities(getProxy(ActivityProxy):getPanelActivities())
+	slot0:bind(uv0.GO_SINGLE_PRECOMBAT, function (slot0, slot1)
+		uv0:addSubLayers(Context.New({
+			mediator = BossSinglePreCombatLiteMediator,
+			viewComponent = BossSinglePreCombatLiteLayer,
+			data = {
+				system = slot1.system,
+				stageId = slot1.stageId,
+				actId = slot1.activityID,
+				fleets = slot1.fleets
+			}
+		}))
+	end)
+	slot0.viewComponent:setActivities(slot0:getDisplayActivity())
 
-	slot3 = getProxy(PlayerProxy):getRawData()
+	slot2 = getProxy(PlayerProxy):getRawData()
 
-	slot0.viewComponent:setPlayer(slot3)
-	slot0.viewComponent:setFlagShip(getProxy(BayProxy):getShipById(slot3.character))
+	slot0.viewComponent:setPlayer(slot2)
+	slot0.viewComponent:setFlagShip(getProxy(BayProxy):getShipById(slot2.character))
 end
 
-slot0.onUIAvalible = function(slot0)
-	slot0.UIAvalible = true
-
-	_.each(slot0.UIAvalibleCallbacks, function (slot0)
-		slot0()
-	end)
+slot0.getDisplayActivity = function(slot0)
+	return getProxy(ActivityProxy):getPanelActivities()
 end
 
 slot0.initNotificationHandleDic = function(slot0)
@@ -585,7 +592,7 @@ slot0.initNotificationHandleDic = function(slot0)
 			slot3 = slot0.viewComponent
 
 			slot3:emit(BaseUI.ON_ACHIEVE, slot1:getBody().awards, function ()
-				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE) and not slot0:isShow() then
+				if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_UR_EXCHANGE) and not slot0:isShow() and slot0:isCorePage(uv0.contextData.coreName) then
 					uv0.viewComponent:removeActivity(slot0.id)
 				end
 

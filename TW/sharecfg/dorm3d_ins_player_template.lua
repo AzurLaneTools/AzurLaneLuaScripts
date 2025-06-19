@@ -72,6 +72,42 @@ pg.dorm3d_ins_player_template = {
 			8
 		}
 	},
+	{
+		id = 9,
+		message = {
+			"xinzexi_1_1"
+		},
+		npc_reply = {
+			9
+		}
+	},
+	{
+		id = 10,
+		message = {
+			"xinzexi_1_2"
+		},
+		npc_reply = {
+			10
+		}
+	},
+	{
+		id = 11,
+		message = {
+			"xinzexi_2_1"
+		},
+		npc_reply = {
+			11
+		}
+	},
+	{
+		id = 12,
+		message = {
+			"xinzexi_2_2"
+		},
+		npc_reply = {
+			12
+		}
+	},
 	all = {
 		1,
 		2,
@@ -80,6 +116,10 @@ pg.dorm3d_ins_player_template = {
 		5,
 		6,
 		7,
-		8
+		8,
+		9,
+		10,
+		11,
+		12
 	}
 }

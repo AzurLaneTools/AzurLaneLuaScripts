@@ -1,8 +1,8 @@
 slot0 = class("MainRandomFlagShipSequence")
 
 slot0.Execute = function(slot0, slot1)
-	if #getProxy(SettingsProxy):GetRandomFlagShipList() > 0 and _.all(slot2, function (slot0)
-		return getProxy(BayProxy):RawGetShipById(slot0) == nil
+	if #getProxy(SettingsProxy):GetRandomFlagShipList() > 0 and underscore.all(slot2, function (slot0)
+		return getProxy(BayProxy):GetShipPhantom(slot0) == nil
 	end) then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("random_ship_off_0"))
 		getProxy(SettingsProxy):UpdateRandomFlagShipList({})
@@ -76,45 +76,38 @@ slot3 = function(slot0, slot1)
 			table.insert(slot1, slot2.groupId)
 		end
 
-		table.insert(slot0[slot2.groupId], slot2.id)
+		table.insert(slot0[slot2.groupId], slot2:GetShipPhantomMark())
 	end
 
-	slot3 = {}
-
-	if slot0 == SettingsRandomFlagShipAndSkinPanel.COUSTOM then
-		for slot7, slot8 in ipairs(getProxy(PlayerProxy):getRawData():GetCustomRandomShipList()) do
-			if getProxy(BayProxy):RawGetShipById(slot8) then
-				table.insert(slot3, slot9)
-			end
-		end
-	else
-		slot3 = getProxy(BayProxy):getRawData()
-	end
-
-	slot4 = {}
-	slot5 = {}
+	slot3 = getProxy(BayProxy)
+	slot4 = nil
+	slot4 = (slot0 ~= SettingsRandomFlagShipAndSkinPanel.COUSTOM or slot3:getRandomFlagShipPhantomMarks()) and slot3:getAllShipPhantomMarks()
 	slot6 = {}
 	slot7 = {}
+	slot8 = {}
+	slot9 = {}
 
-	for slot11, slot12 in pairs(slot3) do
-		if uv0(slot0, slot12) then
-			if slot1[slot12.groupId] then
-				slot2(slot6, slot7, slot12)
+	for slot13, slot14 in pairs(slot3:getShipPhantomList(slot4)) do
+		if uv0(slot0, slot14) then
+			if slot1[slot14.groupId] then
+				slot2(slot8, slot9, slot14)
 			else
-				slot2(slot4, slot5, slot12)
+				slot2(slot6, slot7, slot14)
 			end
 		end
 	end
 
-	return slot4, slot5, slot6, slot7
+	return slot6, slot7, slot8, slot9
 end
 
 slot4 = function(slot0)
 	slot1 = {}
 
 	for slot5, slot6 in ipairs(slot0) do
-		if getProxy(BayProxy):RawGetShipById(slot6) then
-			slot1[slot7.groupId] = true
+		slot7, slot8 = ShipPhantom.UnpackMark(slot6)
+
+		if getProxy(BayProxy):RawGetShipById(slot7) then
+			slot1[slot9.groupId] = true
 		end
 	end
 

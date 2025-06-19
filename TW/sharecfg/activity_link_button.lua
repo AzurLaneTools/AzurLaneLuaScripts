@@ -10,20 +10,46 @@ pg.activity_link_button = {
 		group_id = 1,
 		order = 1,
 		time = {
-			"default",
-			5941
+			"timer",
+			{
+				{
+					2025,
+					6,
+					19
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					3
+				},
+				{
+					14,
+					59,
+					59
+				}
+			}
 		}
 	},
 	{
-		param = "0",
+		param = "5871",
 		name = "event_all",
-		time = "stop",
 		text_pic = "text_event_all",
 		type = 3,
-		pic = "event_all_1",
+		pic = "event_all",
 		id = 2,
 		group_id = 1,
-		order = 2
+		order = 2,
+		time = {
+			"default",
+			5871
+		}
 	},
 	[9] = {
 		param = "0",
@@ -161,24 +187,32 @@ pg.activity_link_button = {
 	[90] = {
 		param = "0",
 		name = "event_series",
-		time = "stop",
-		text_pic = "text_event_series",
+		text_pic = "",
 		type = 0,
 		pic = "event_series",
 		id = 90,
 		group_id = 4,
-		order = 1
+		order = 1,
+		time = {
+			"default",
+			5888
+		}
 	},
 	[100] = {
-		param = "45060",
 		name = "event_medal",
-		time = "stop",
 		text_pic = "text_event_medal",
-		type = 3,
+		type = 2,
 		pic = "event_medal",
 		id = 100,
 		group_id = 10,
-		order = 1
+		order = 1,
+		time = {
+			"default",
+			5093
+		},
+		param = {
+			"SENRANKAGURA_MEDAL"
+		}
 	},
 	[101] = {
 		name = "event_senran",
@@ -247,10 +281,10 @@ pg.activity_link_button = {
 		order = 1,
 		time = {
 			"default",
-			5629
+			5765
 		},
 		param = {
-			68
+			73
 		}
 	},
 	[106] = {
@@ -299,6 +333,20 @@ pg.activity_link_button = {
 		},
 		param = {
 			"firework and spring"
+		}
+	},
+	[109] = {
+		param = "BRSCoreActivityUI",
+		name = "event_core",
+		text_pic = "text_event_brs",
+		type = 16,
+		pic = "event_brs",
+		id = 109,
+		group_id = 1,
+		order = 1,
+		time = {
+			"default",
+			5985
 		}
 	},
 	get_id_list_by_name = {
@@ -359,6 +407,9 @@ pg.activity_link_button = {
 		},
 		event_tolove = {
 			107
+		},
+		event_core = {
+			109
 		}
 	},
 	all = {
@@ -383,6 +434,7 @@ pg.activity_link_button = {
 		105,
 		106,
 		107,
-		108
+		108,
+		109
 	}
 }

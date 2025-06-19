@@ -32,10 +32,7 @@ slot0.preload = function(slot0, slot1)
 			end
 
 			if not PoolMgr.GetInstance():HasCacheUI("ShipDetailView") then
-				slot1:GetUI(slot2, true, function (slot0)
-					uv0:ReturnUI(uv1, slot0)
-					uv2()
-				end)
+				slot1:PreloadUI(slot2, slot0)
 			else
 				slot0()
 			end
@@ -73,7 +70,7 @@ slot0.setShip = function(slot0, slot1)
 	setActive(slot0.npcFlagTF, slot1:isActivityNpc())
 	slot0:setToggleEnable()
 
-	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO.skinId].rarity_bg and slot3.rarity_bg ~= ""
+	slot0.isSpBg = pg.ship_skin_template[slot0.shipVO:getSkinId()].rarity_bg and slot3.rarity_bg ~= ""
 
 	slot0:updatePreference(slot1)
 	slot0.shipDetailView:ActionInvokeExclusive("UpdateUI")
@@ -464,6 +461,8 @@ slot0.didEnter = function(slot0)
 		slot0:displayShipWord(slot0:getInitmacyWords())
 		slot0:checkMaxLevelHelp()
 	end
+
+	slot0:changePaintingSortLayer(true)
 end
 
 slot0.openHelpPage = function(slot0, slot1)
@@ -672,7 +671,7 @@ slot0.displayShipWord = function(slot0, slot1, slot2)
 			ShipExpressionHelper.SetExpression(findTF(slot0.nowPainting, "fitter"):GetChild(0), slot0.paintingCode, slot1, slot3)
 		end
 
-		slot4, slot5, slot6 = ShipWordHelper.GetWordAndCV(slot0.shipVO.skinId, slot1, nil, , slot3)
+		slot4, slot5, slot6 = ShipWordHelper.GetWordAndCV(slot0.shipVO:getSkinId(), slot1, nil, , slot3)
 		slot7 = slot0.chatText:GetComponent(typeof(Text))
 
 		if PLATFORM_CODE ~= PLATFORM_US then
@@ -877,7 +876,7 @@ slot0.switchToPage = function(slot0, slot1, slot2)
 		uv0:blurPage(slot0, slot1)
 
 		if slot0 ~= ShipViewConst.PAGE.FASHION then
-			uv0.fashionSkinId = uv0.shipVO.skinId
+			uv0.fashionSkinId = uv0.shipVO:getSkinId()
 
 			uv0:loadPainting(uv0.shipVO:getPainting())
 		end
@@ -886,6 +885,7 @@ slot0.switchToPage = function(slot0, slot1, slot2)
 
 		if uv0.bgEffect[uv0.shipVO:getRarity()] then
 			setActive(slot3, slot0 ~= ShipViewConst.PAGE.REMOULD and uv0.shipVO.bluePrintFlag and uv0.shipVO.bluePrintFlag == 0)
+			uv0:changePaintingSortLayer(true)
 		end
 
 		setActive(uv0.helpBtn, slot2)
@@ -1175,6 +1175,8 @@ slot0.loadSkinBg = function(slot0, slot1, slot2, slot3, slot4)
 						setActive(slot0, not ShipViewConst.IsSubLayerPage(ShipViewConst.currentPage))
 					end)
 				end
+
+				slot0:changePaintingSortLayer(true)
 			end
 		end
 
@@ -1183,6 +1185,35 @@ slot0.loadSkinBg = function(slot0, slot1, slot2, slot3, slot4)
 				setImageSprite(uv0.background, slot0)
 			end
 		end)
+	end
+end
+
+slot0.changePaintingSortLayer = function(slot0, slot1)
+	slot2 = nil
+	slot2 = slot1 and 12 or -1
+
+	for slot6, slot7 in ipairs(slot0.tablePainting) do
+		GetComponent(slot7, typeof(Canvas)).sortingOrder = slot2
+	end
+
+	if slot1 then
+		slot3 = slot0.shipVO:getRarity()
+
+		if slot0.isDesign and slot0.designBg then
+			setActive(slot0.designBg, true)
+		elseif slot0.bgEffect and slot3 and slot0.bgEffect[slot3] then
+			setActive(slot0.bgEffect[slot3], true)
+		end
+	else
+		if slot0.designBg then
+			setActive(slot0.designBg, false)
+		end
+
+		if slot0.bgEffect then
+			for slot6, slot7 in pairs(slot0.bgEffect) do
+				setActive(slot7, false)
+			end
+		end
 	end
 end
 

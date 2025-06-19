@@ -845,6 +845,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[67] = {
+		achieve = 1,
+		index = 1026,
+		pic = "zhaohe_4",
+		desc = "<color=#92fc63>[怒了！ ]</color>",
+		item_name = "聊天表情：怒了！",
+		item_desc = "聊天表情：怒了！可以在表情選項的「動態」標籤中找到並發出此表情。",
+		id = 67,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2406,6 +2419,7 @@ pg.emoji_template = {
 		63,
 		64,
 		65,
+		67,
 		100,
 		101,
 		102,

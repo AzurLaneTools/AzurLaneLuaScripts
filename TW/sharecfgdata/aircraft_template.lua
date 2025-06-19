@@ -85968,6 +85968,376 @@ _G.pg.base.aircraft_template[167990] = {
 }
 
 
+_G.pg.base.aircraft_template[168041] = {
+	name = "死亡主宰技能剑鱼",
+	max_hp = 35,
+	accuracy = 23,
+	model_ID = "feiji_dm",
+	ACC_growth = 0,
+	crash_DMG = 306,
+	dodge = 1.11,
+	attack_power = 2,
+	dodge_limit = 4,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feiji_dm",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 112,
+	hp_growth = 1338,
+	speed = 45,
+	id = 168041,
+	scale = 1,
+	weapon_ID = {
+		168051
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.52,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[168042] = {
+	id = 168042,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 40,
+	hp_growth = 1538,
+	weapon_ID = {
+		168052
+	}
+}
+
+
+_G.pg.base.aircraft_template[168043] = {
+	id = 168043,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 45,
+	hp_growth = 1739,
+	weapon_ID = {
+		168053
+	}
+}
+
+
+_G.pg.base.aircraft_template[168044] = {
+	id = 168044,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 50,
+	hp_growth = 1940,
+	weapon_ID = {
+		168054
+	}
+}
+
+
+_G.pg.base.aircraft_template[168045] = {
+	id = 168045,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 56,
+	hp_growth = 2140,
+	weapon_ID = {
+		168055
+	}
+}
+
+
+_G.pg.base.aircraft_template[168046] = {
+	id = 168046,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 61,
+	hp_growth = 2341,
+	weapon_ID = {
+		168056
+	}
+}
+
+
+_G.pg.base.aircraft_template[168047] = {
+	id = 168047,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 66,
+	hp_growth = 2541,
+	weapon_ID = {
+		168057
+	}
+}
+
+
+_G.pg.base.aircraft_template[168048] = {
+	id = 168048,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 71,
+	hp_growth = 2742,
+	weapon_ID = {
+		168058
+	}
+}
+
+
+_G.pg.base.aircraft_template[168049] = {
+	id = 168049,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 77,
+	hp_growth = 2943,
+	weapon_ID = {
+		168059
+	}
+}
+
+
+_G.pg.base.aircraft_template[168050] = {
+	id = 168050,
+	spawn_brownian = 1,
+	base = 168041,
+	max_hp = 82,
+	hp_growth = 3143,
+	weapon_ID = {
+		168060
+	}
+}
+
+
+_G.pg.base.aircraft_template[168091] = {
+	name = "死亡主宰集束雷剑鱼",
+	max_hp = 35,
+	accuracy = 23,
+	model_ID = "feiji_dm",
+	ACC_growth = 0,
+	crash_DMG = 306,
+	dodge = 1.11,
+	attack_power = 2,
+	dodge_limit = 4,
+	type = 2,
+	AP_growth = 2000,
+	icon = "feiji_dm",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 112,
+	hp_growth = 1338,
+	speed = 45,
+	id = 168091,
+	scale = 1,
+	weapon_ID = {
+		168101
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.68,
+				-0.667,
+				0
+			},
+			{
+				0.97,
+				0.584,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0.52,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[168092] = {
+	id = 168092,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 40,
+	hp_growth = 1538,
+	weapon_ID = {
+		168102
+	}
+}
+
+
+_G.pg.base.aircraft_template[168093] = {
+	id = 168093,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 45,
+	hp_growth = 1739,
+	weapon_ID = {
+		168103
+	}
+}
+
+
+_G.pg.base.aircraft_template[168094] = {
+	id = 168094,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 50,
+	hp_growth = 1940,
+	weapon_ID = {
+		168104
+	}
+}
+
+
+_G.pg.base.aircraft_template[168095] = {
+	id = 168095,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 56,
+	hp_growth = 2140,
+	weapon_ID = {
+		168105
+	}
+}
+
+
+_G.pg.base.aircraft_template[168096] = {
+	id = 168096,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 61,
+	hp_growth = 2341,
+	weapon_ID = {
+		168106
+	}
+}
+
+
+_G.pg.base.aircraft_template[168097] = {
+	id = 168097,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 66,
+	hp_growth = 2541,
+	weapon_ID = {
+		168107
+	}
+}
+
+
+_G.pg.base.aircraft_template[168098] = {
+	id = 168098,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 71,
+	hp_growth = 2742,
+	weapon_ID = {
+		168108
+	}
+}
+
+
+_G.pg.base.aircraft_template[168099] = {
+	id = 168099,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 77,
+	hp_growth = 2943,
+	weapon_ID = {
+		168109
+	}
+}
+
+
+_G.pg.base.aircraft_template[168100] = {
+	id = 168100,
+	spawn_brownian = 1,
+	base = 168091,
+	max_hp = 82,
+	hp_growth = 3143,
+	weapon_ID = {
+		168110
+	}
+}
+
+
 _G.pg.base.aircraft_template[200101] = {
 	name = "【大舰队米德维BOSS】执棋者 轰炸机",
 	max_hp = 202,
@@ -269270,6 +269640,393 @@ _G.pg.base.aircraft_template[3276003] = {
 			{
 				0.48,
 				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3279201] = {
+	name = "【2025黑岩联动SP2】BOSS 死亡主宰 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "feiji_dm",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_dm",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3279201,
+	scale = 0.75,
+	weapon_ID = {
+		3279203
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3279202] = {
+	name = "【2025黑岩联动SP2】BOSS 死亡主宰 轰炸机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "feiji_dm",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_dm",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3279202,
+	scale = 0.75,
+	weapon_ID = {
+		3279204
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3279307] = {
+	name = "【2025黑岩联动SP3】BOSS 死亡主宰 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "feiji_dm",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_dm",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3279307,
+	scale = 0.75,
+	weapon_ID = {
+		3279309
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3279308] = {
+	name = "【2025黑岩联动SP3】BOSS 死亡主宰 轰炸机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "feiji_dm",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_dm",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3279308,
+	scale = 0.75,
+	weapon_ID = {
+		3279310
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3279401] = {
+	name = "【2025黑岩联动 剧情战】死亡主宰空袭飞机",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "feiji_dm",
+	ACC_growth = 0,
+	crash_DMG = 10,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_dm",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 60,
+	id = 3279401,
+	scale = 1,
+	weapon_ID = {
+		59793,
+		59813,
+		3279402
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
 				0
 			}
 		}

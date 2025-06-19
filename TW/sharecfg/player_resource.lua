@@ -1855,6 +1855,36 @@ pg.player_resource = {
 		name = "skinTicket93",
 		itemid = 65619
 	},
+	[508] = {
+		id = 508,
+		name = "limit_skinticket25",
+		itemid = 68078
+	},
+	[509] = {
+		id = 509,
+		name = "limit_skinticket26",
+		itemid = 68079
+	},
+	[510] = {
+		id = 510,
+		name = "limit_skinticket27",
+		itemid = 68080
+	},
+	[511] = {
+		id = 511,
+		name = "xiaoaijier_pt",
+		itemid = 68081
+	},
+	[512] = {
+		id = 512,
+		name = "heiyan_pt",
+		itemid = 65620
+	},
+	[513] = {
+		id = 513,
+		name = "xiaodafeng_youhao_pt_2",
+		itemid = 65621
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -2110,6 +2140,11 @@ pg.player_resource = {
 		name = "synchronize_dahuangfeng",
 		itemid = 21918
 	},
+	[3020] = {
+		id = 3020,
+		name = "synchronize_jiangfeng",
+		itemid = 21919
+	},
 	[3106] = {
 		id = 3106,
 		name = "twhongran_pt",
@@ -2229,6 +2264,11 @@ pg.player_resource = {
 		id = 4022,
 		name = "Battlepass_22",
 		itemid = 65086
+	},
+	[4023] = {
+		id = 4023,
+		name = "Battlepass_23",
+		itemid = 65100
 	},
 	[4186] = {
 		id = 4186,
@@ -3499,6 +3539,24 @@ pg.player_resource = {
 		skinTicket93 = {
 			507
 		},
+		limit_skinticket25 = {
+			508
+		},
+		limit_skinticket26 = {
+			509
+		},
+		limit_skinticket27 = {
+			510
+		},
+		xiaoaijier_pt = {
+			511
+		},
+		heiyan_pt = {
+			512
+		},
+		xiaodafeng_youhao_pt_2 = {
+			513
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -3652,6 +3710,9 @@ pg.player_resource = {
 		synchronize_dahuangfeng = {
 			3019
 		},
+		synchronize_jiangfeng = {
+			3020
+		},
 		twhongran_pt = {
 			3106
 		},
@@ -3723,6 +3784,9 @@ pg.player_resource = {
 		},
 		Battlepass_22 = {
 			4022
+		},
+		Battlepass_23 = {
+			4023
 		},
 		skin_rerun_pt1 = {
 			4186
@@ -4190,6 +4254,12 @@ pg.player_resource = {
 		505,
 		506,
 		507,
+		508,
+		509,
+		510,
+		511,
+		512,
+		513,
 		950,
 		951,
 		952,
@@ -4241,6 +4311,7 @@ pg.player_resource = {
 		3017,
 		3018,
 		3019,
+		3020,
 		3106,
 		3137,
 		4001,
@@ -4265,6 +4336,7 @@ pg.player_resource = {
 		4020,
 		4021,
 		4022,
+		4023,
 		4186,
 		4276,
 		4599,

@@ -12,7 +12,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 1,
 		drop_type = 7,
-		order = 3,
+		order = 4,
 		goods = {
 			201221
 		},
@@ -55,7 +55,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 2,
 		drop_type = 7,
-		order = 4,
+		order = 5,
 		goods = {
 			302081
 		},
@@ -528,7 +528,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 13,
 		drop_type = 7,
-		order = 1,
+		order = 2,
 		goods = {
 			101291
 		},
@@ -571,7 +571,7 @@ pg.gameroom_shop_template = {
 		goods_type = 1,
 		id = 14,
 		drop_type = 7,
-		order = 2,
+		order = 3,
 		goods = {
 			301571
 		},

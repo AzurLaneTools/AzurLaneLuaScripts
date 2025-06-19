@@ -614,7 +614,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "這個產品渡假島……和港區的差別在哪裡？",
+			say = "這個渡假島……和港區的差別在哪裡？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

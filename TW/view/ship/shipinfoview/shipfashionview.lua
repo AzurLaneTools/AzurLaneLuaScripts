@@ -24,7 +24,13 @@ slot0.InitFashion = function(slot0)
 	setText(findTF(slot0.hideObjToggleTF, "Label"), i18n("paint_hide_other_obj_tip"))
 
 	slot0.shareBtn = findTF(slot0._tf, "share_btn")
+	slot1 = slot0._tf
+	slot0.phantomBtn = slot1:Find("phantom_btn")
 
+	onButton(slot0, slot0.phantomBtn, function ()
+		uv0:emit(ShipMainMediator.OPEN_PHANTOM_LAYER, getProxy(TechnologyProxy):getBluePrintById(uv0:GetShipVO().groupId) and slot0:getConfig("blueprint_version") or nil)
+	end, SFX_PANEL)
+	setParent(slot0.phantomBtn, slot0._tf.parent)
 	setActive(slot0.stylePanel, true)
 	setActive(slot0.styleCard, false)
 
@@ -64,6 +70,7 @@ end
 slot0.UpdateUI = function(slot0)
 	triggerToggle(slot0.shareBtn, slot0.isShareSkinFlag)
 	setActive(slot0.shareBtn, #slot0:GetShareSkins(slot0:GetShipVO()) > 0)
+	setActive(slot0.phantomBtn, slot0:GetShipVO():isBluePrintShip())
 end
 
 slot0.OnSelected = function(slot0, slot1)
@@ -125,14 +132,10 @@ slot0.UpdateAllFashion = function(slot0, slot1)
 			slot12:updateData(slot0:GetShipVO(), slot10, slot0:GetShipVO():proposeSkinOwned(slot10) or table.contains(slot0.skinList, slot10.id) or slot0:GetShipVO():getRemouldSkinId() == slot10.id and slot0:GetShipVO():isRemoulded() or slot10.skin_type == ShipSkin.SKIN_TYPE_OLD or getProxy(ShipSkinProxy):hasSkin(slot10.id))
 			slot12:updateUsing(slot0:GetShipVO():useSkin(slot10.id))
 			onButton(slot0, slot12.changeSkinTF, function (slot0)
-				slot1 = ShipGroup.GetChangeSkinNextId(uv0.id)
-				slot2 = ShipGroup.GetChangeSkinGroupId(uv0.id)
-				slot3 = uv1:GetShipVO().id
+				ShipSkin.SetStoreChangeSkinId(ShipSkin.GetChangeSkinNextId(uv0.id))
 
-				if uv2 then
-					ShipGroup.SetShipChangeSkin(slot3, slot2, slot1, true)
-				else
-					ShipGroup.SetShipChangeSkin(slot3, slot2, slot1, false)
+				if uv1 then
+					pg.m02:sendNotification(GAME.CHANGE_SKIN_UPDATE, uv2:GetShipVO():GetShipPhantomMark())
 				end
 			end, SFX_PANEL)
 			onButton(slot0, slot11, function ()
@@ -148,7 +151,7 @@ slot0.UpdateAllFashion = function(slot0, slot1)
 		end
 	end
 
-	slot0.fashionSkinId = slot0:GetShipVO().skinId
+	slot0.fashionSkinId = slot0:GetShipVO():getSkinId()
 	slot4 = slot0.styleContainer:GetChild(0)
 
 	for slot8, slot9 in ipairs(slot0.fashionSkins) do
@@ -187,7 +190,7 @@ slot0.clickCell = function(slot0, slot1, slot2)
 		slot9 = slot0.fashionCellMap[slot0.styleContainer:GetChild(slot6 - 1)]
 
 		slot9:updateSelected(slot7.id == slot0.fashionSkinId)
-		slot9:updateUsing(slot0:GetShipVO().skinId == slot7.id)
+		slot9:updateUsing(slot0:GetShipVO():getSkinId() == slot7.id)
 	end
 
 	slot4 = checkABExist("painting/" .. slot2.painting .. "_n")
@@ -279,7 +282,7 @@ slot0.UpdateFashionDetail = function(slot0, slot1)
 	setActive(slot2.buy, false)
 	setActive(slot2.experience, false)
 
-	if slot1.id == slot0:GetShipVO().skinId and slot10 and slot10:isExpireType() then
+	if slot1.id == slot0:GetShipVO():getSkinId() and slot10 and slot10:isExpireType() then
 		setGray(slot2.confirm, false)
 		setActive(slot2.experience, true)
 	elseif slot8 then
@@ -301,7 +304,7 @@ slot0.UpdateFashionDetail = function(slot0, slot1)
 
 	onButton(slot0, slot2.confirm, function ()
 		if uv0 then
-			if ShipGroup.IsChangeSkin(uv1.id) then
+			if ShipSkin.IsChangeSkin(uv1.id) then
 				if uv2.clickCellTime and Time.realtimeSinceStartup - uv2.clickCellTime <= 0.35 then
 					return
 				end
@@ -359,6 +362,8 @@ slot0.RegisterShareToggle = function(slot0)
 end
 
 slot0.OnDestroy = function(slot0)
+	setParent(slot0.phantomBtn, slot0._tf)
+
 	if slot0.fashionDetailWrapper then
 		slot1 = slot0.fashionDetailWrapper
 
