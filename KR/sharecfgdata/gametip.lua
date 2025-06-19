@@ -17428,12 +17428,12 @@ _G.pg.base.gametip.undermist_tip = {
 
 
 _G.pg.base.gametip.retire_1 = {
-	tip = "한계돌파 3회 달성한 동명의 함선 <color=#92fc63>「보유」</color> 시, <color=#92fc63>퇴역 조건에 부합</color>한 동명의 함선을 몇 척 보류"
+	tip = "한계돌파 3회 달성한 함선 <color=#92fc63>「보유」</color> 시, <color=#92fc63>퇴역 대상</color>인 동명의 함선 보호"
 }
 
 
 _G.pg.base.gametip.retire_2 = {
-	tip = "한계돌파 3회 달성한 동명의 함선 <color=#ff5c5c>「미보유」</color> 시, <color=#92fc63>퇴역 조건에 부합</color>한 동명의 함선을 몇 척 보류"
+	tip = "한계돌파 3회 달성한 함선 <color=#ff5c5c>「미보유」</color> 시, <color=#92fc63>퇴역 대상</color>인 동명의 함선 보호"
 }
 
 

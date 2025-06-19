@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "换装投影功能已开启，点这里进入换装投影制作界面吧！",
+				text = "의상 교체 투영 기능 개방! 여기를 터치하면 투영을 제작할 수 있어요!",
 				mode = 1,
 				char = "char",
 				posY = 234.52,
@@ -22,7 +22,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "制作换装投影可以方便指挥官同时展示方案舰的多种换装！",
+				text = "제작한 투영에 의상 교체를 적용할 수 있어요!",
 				mode = 1,
 				char = "char",
 				posY = 17.36,
@@ -35,7 +35,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "这里是换装投影管理界面的入口，指挥官可以随时点击进入调整哦！",
+				text = "여기가 의상 교체 투영 관리 화면의 입구입니다. 언제든지 여기서 변경할 수 있어요!",
 				mode = 1,
 				char = "char",
 				posY = 223.97,
