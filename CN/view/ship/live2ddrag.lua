@@ -394,7 +394,7 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 		if slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
-			slot6 = slot0.actionTrigger.focus or false
+			slot6 = slot0.actionTrigger.focus == 1 and true or false
 			slot7 = slot0.actionTrigger.target or nil
 			slot10 = slot0.actionTrigger.target_focus == 1 and true or false
 
@@ -408,7 +408,7 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			slot0:stopDrag()
 		elseif slot0.actionTrigger.action_list then
 			slot4 = (not slot0.actionTriggerActive.active_list or slot0.actionListIndex > #slot0.actionTriggerActive.active_list or slot0.actionTriggerActive.active_list[slot0.actionListIndex]) and slot0.actionTriggerActive
-			slot6 = slot11.focus or true
+			slot6 = slot11.focus == 1 and true or false
 			slot7 = slot11.target or nil
 			slot10 = slot11.target_focus == 1 and true or false
 			slot8 = slot11.react or nil
@@ -429,7 +429,7 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 		elseif not slot0.actionTrigger.action then
 			slot5 = slot0:fillterAction(slot0.actionTrigger.action)
 			slot4 = slot0.actionTriggerActive
-			slot6 = slot0.actionTrigger.focus or false
+			slot6 = slot0.actionTrigger.focus == 1 and true or false
 			slot7 = slot0.actionTrigger.target or nil
 			slot10 = slot0.actionTrigger.target_focus == 1 and true or false
 			slot8 = slot0.actionTrigger.react or nil
@@ -465,6 +465,10 @@ slot0.onEventCallback = function(slot0, slot1, slot2, slot3)
 			if not slot5 then
 				slot0.revertResetFlag = true
 			end
+		end
+
+		if slot6 then
+			slot0:setTriggerActionFlag(false)
 		end
 
 		slot2 = {
@@ -1199,7 +1203,9 @@ end
 slot0.checkClickAction = function(slot0)
 	if slot0.firstActive then
 		if slot0.actionTrigger.down then
-			if not slot0.l2dIsPlaying then
+			if slot0.actionTrigger.focus == 1 and slot0.l2dIsPlaying then
+				return true
+			elseif not slot0.l2dIsPlaying then
 				return true
 			end
 		else
@@ -1209,9 +1215,16 @@ slot0.checkClickAction = function(slot0)
 		slot1 = math.abs(slot0.mouseInputUp.x - slot0.mouseInputDown.x) < 30 and math.abs(slot0.mouseInputUp.y - slot0.mouseInputDown.y) < 30
 		slot2 = slot0.mouseInputUpTime - slot0.mouseInputDownTime < 0.5
 
-		if not slot0.actionTrigger.down and slot1 and slot2 and not slot0.l2dIsPlaying then
-			slot0.clickTriggerTime = 0.01
-			slot0.clickApplyFlag = true
+		if not slot0.actionTrigger.down and slot1 and slot2 then
+			if slot0.actionTrigger.focus == 1 and slot0.l2dIsPlaying then
+				if slot0.l2dPlayActionName == slot0.actionTrigger.action then
+					slot0.clickTriggerTime = 0.01
+					slot0.clickApplyFlag = true
+				end
+			elseif not slot0.l2dIsPlaying then
+				slot0.clickTriggerTime = 0.01
+				slot0.clickApplyFlag = true
+			end
 		else
 			slot0:setAbleWithFlag(false)
 		end

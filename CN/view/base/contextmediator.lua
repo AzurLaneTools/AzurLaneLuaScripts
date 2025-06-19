@@ -430,7 +430,8 @@ slot0.commonBind = function(slot0)
 			slot0:addSubLayers(Context.New({
 				mediator = EquipmentInfoMediator,
 				viewComponent = EquipmentInfoLayer,
-				data = slot2
+				data = slot2,
+				onRemoved = slot2 and slot2.onRemoved or nil
 			}))
 		end,
 		[BaseUI.ON_NEW_DROP] = function (slot0, slot1, slot2)

@@ -111,7 +111,7 @@ slot0.updateState = function(slot0)
 	setActive(slot0.resetBtn, uv1 < slot0.stateType)
 	setActive(slot0.saveBtn, uv1 < slot0.stateType)
 
-	slot0.bgImage.enabled = slot0.stateType ~= uv0
+	slot0.bgImage.enabled = slot0.stateType ~= uv0 and slot0.stateType ~= uv1
 
 	if slot0.stateType > 0 then
 		if slot0.stateType == uv1 then

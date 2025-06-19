@@ -1010,45 +1010,48 @@ slot5.GetBulletResource = function(slot0, slot1)
 	return slot2
 end
 
-slot5.GetAircraftResource = function(slot0, slot1, slot2)
-	slot3 = {}
-	slot4 = uv0.GetAircraftTmpDataFromID(slot0)
-	slot5, slot6, slot7, slot8 = nil
+slot5.GetAircraftResource = function(slot0, slot1, slot2, slot3)
+	slot4 = {}
+	slot5 = uv0.GetAircraftTmpDataFromID(slot0)
+	slot6, slot7, slot8, slot9 = nil
 
 	if (slot2 or 0) ~= 0 then
-		slot5, slot10, slot7, slot8 = uv0.GetEquipSkin(slot2)
+		slot6, slot11, slot8, slot9 = uv0.GetEquipSkin(slot2)
 
-		if slot10 ~= "" then
-			slot3[#slot3 + 1] = uv1.GetBulletPath(slot6)
-		end
-
-		if slot7 ~= "" then
-			slot3[#slot3 + 1] = uv1.GetBulletPath(slot7)
+		if slot11 ~= "" then
+			slot4[#slot4 + 1] = uv1.GetBulletPath(slot7)
 		end
 
 		if slot8 ~= "" then
-			slot3[#slot3 + 1] = uv1.GetBulletPath(slot8)
+			slot4[#slot4 + 1] = uv1.GetBulletPath(slot8)
+		end
+
+		if slot9 ~= "" then
+			slot4[#slot4 + 1] = uv1.GetBulletPath(slot9)
 		end
 	else
-		slot5 = slot4.model_ID
+		slot6 = slot5.model_ID
 	end
 
-	slot3[#slot3 + 1] = uv1.GetCharacterGoPath(slot5)
-	slot3[#slot3 + 1] = uv1.GetAircraftIconPath(slot4.model_ID)
+	slot4[#slot4 + 1] = uv1.GetCharacterGoPath(slot6)
 
-	if type(slot1 or slot4.weapon_ID) == "table" then
-		for slot13, slot14 in ipairs(slot9) do
-			for slot19, slot20 in ipairs(uv1.GetWeaponResource(slot14)) do
-				slot3[#slot3 + 1] = slot20
+	if slot3 then
+		slot4[#slot4 + 1] = uv1.GetAircraftIconPath(slot5.model_ID)
+	end
+
+	if type(slot1 or slot5.weapon_ID) == "table" then
+		for slot14, slot15 in ipairs(slot10) do
+			for slot20, slot21 in ipairs(uv1.GetWeaponResource(slot15)) do
+				slot4[#slot4 + 1] = slot21
 			end
 		end
 	else
-		for slot14, slot15 in ipairs(uv1.GetWeaponResource(slot9)) do
-			slot3[#slot3 + 1] = slot15
+		for slot15, slot16 in ipairs(uv1.GetWeaponResource(slot10)) do
+			slot4[#slot4 + 1] = slot16
 		end
 	end
 
-	return slot3
+	return slot4
 end
 
 slot5.GetCommanderResource = function(slot0)
@@ -1134,7 +1137,7 @@ slot5.GetStageResource = function(slot0)
 
 			if slot13.airFighter ~= nil then
 				for slot17, slot18 in pairs(slot13.airFighter) do
-					for slot23, slot24 in ipairs(uv1.GetAircraftResource(slot18.templateID, slot18.weaponID)) do
+					for slot23, slot24 in ipairs(uv1.GetAircraftResource(slot18.templateID, slot18.weaponID, true)) do
 						slot2[#slot2 + 1] = slot24
 					end
 				end

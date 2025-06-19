@@ -34,7 +34,6 @@ slot0.OnLoad = function(slot0, slot1)
 	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
 		loadPrefs = true,
 		ship = slot0.ship,
-		scale = Vector3(52, 52, 52),
 		position = Vector3(0, 0, 100),
 		parent = slot0.live2dContainer
 	}), function (slot0)

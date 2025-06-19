@@ -579,7 +579,12 @@ slot0.UpdateLive2dPainting = function(slot0, slot1, slot2, slot3, slot4)
 		GetOrAddComponent(uv2._go, typeof(CanvasGroup)).blocksRaycasts = false
 		uv2.live2dChars[uv1] = Live2D.New(Live2D.GenerateData({
 			ship = uv0:GetVirtualShip(),
-			scale = Vector3(70, 70, 70),
+			offset = {
+				0,
+				0,
+				0,
+				70
+			},
 			position = uv0:GetLive2dPos() or Vector3(0, 0, 0),
 			parent = uv1:Find("live2d")
 		}), function (slot0)

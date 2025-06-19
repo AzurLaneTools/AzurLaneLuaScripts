@@ -12426,22 +12426,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 狮(最多4次)"
+	tip = "每累计建造200次可获得海上传奇舰船 {namecode:514}(最多4次)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "前卫、复仇 建造追加！"
+	tip = "罗马、博尔扎诺 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "贾维斯 建造追加！"
+	tip = "朱塞佩·加里波第、阿尔弗雷多·奥里亚尼 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "前卫、不挠 建造追加！"
+	tip = "莱昂纳多·达·芬奇 建造追加！"
 }
 
 
@@ -30433,7 +30433,7 @@ _G.pg.base.gametip.littleTaihou_npc = {
 			info = "1.活动期间，玩家可获得临时NPC角色「小鹩」，临时角色不可誓约、不可退役、不可被选为强化突破材料。"
 		},
 		{
-			info = "2.活动期间，击破普通难度主线第三章及之后章节，可获得「练习情书」，累计「练习情书」可提升临时NPC角色「小鹩」的友好度。（不包括大型作战）"
+			info = "2.活动期间，击破普通难度主线第三章及之后章节或活动地图旗舰，可获得「练习情书」，累计「练习情书」可提升临时NPC角色「小鹩」的友好度。（不包括大型作战）"
 		},
 		{
 			info = "3.上阵「小鹩」参与战斗，且未被击沉，可获得双倍「练习情书」。"
