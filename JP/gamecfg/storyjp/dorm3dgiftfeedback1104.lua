@@ -12,7 +12,7 @@ return {
 	scripts = {
 		{
 			nameColor = "#FFFFFF",
-			actorName = 19903,
+			actorName = 10517,
 			say = "ワオ！あたしの大好きなシュワシュワフルーツキャンディじゃない！",
 			typewriter = {
 				speed = 0.05,
@@ -47,7 +47,7 @@ return {
 		},
 		{
 			nameColor = "#FFFFFF",
-			actorName = 19903,
+			actorName = 10517,
 			say = "わざわざ選んでくれたの？パッケージまで可愛い！サンキュー！",
 			typewriter = {
 				speed = 0.05,

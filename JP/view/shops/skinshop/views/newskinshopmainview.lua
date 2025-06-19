@@ -95,6 +95,25 @@ slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, function (slot0, slot1)
 		uv0:AdjustPainting(slot1)
 		setActive(uv0.overlay, not slot1)
+
+		if uv0.live2dChar then
+			uv0.live2dChar:setPurchaseOffset(slot1)
+		end
+
+		if uv0.spineChar then
+			if slot1 then
+				if pg.ship_skin_template[uv0.skinId].purchase_offset and #slot2 >= 3 then
+					uv0.spineChar.localPosition = Vector3(slot2[1], slot2[2], slot2[3])
+				end
+
+				if slot2 and #slot2 >= 4 then
+					uv0.spineChar.localScale = Vector3(slot2[4], slot2[4], slot2[4])
+				end
+			else
+				uv0.spineChar.localScale = Vector3(0.9, 0.9, 1)
+				uv0.spineChar.localPosition = Vector3(0, 0, 0)
+			end
+		end
 	end)
 	slot0:bind(uv0.EVT_ON_PURCHASE, function (slot0, slot1)
 		uv0:OnClickBtn(uv0:GetObtainBtnState(slot1), slot1)
@@ -526,15 +545,16 @@ end
 
 slot0.LoadL2dPainting = function(slot0, slot1)
 	slot4 = nil
+	slot4 = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
+		noChangeSkin = true,
+		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
+		skin_id = slot2
+	})
 	slot5 = Live2D.GenerateData({
-		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
-			noChangeSkin = true,
-			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
-			skin_id = slot2
-		}),
-		scale = Vector3(52, 52, 52),
+		ship = slot4,
 		position = Vector3(0, 0, -1),
-		parent = slot0.live2dContainer
+		parent = slot0.live2dContainer,
+		offset = slot4:GetSkinConfig().shop_offset
 	})
 	slot5.shopPreView = true
 
@@ -550,10 +570,6 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 
 		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
 		pg.UIMgr.GetInstance():LoadingOff()
-
-		if uv2:getSkinId() == 299024 then
-			slot0:setPosition(Vector3(150, 40, 0))
-		end
 	end)
 end
 
@@ -568,18 +584,20 @@ end
 
 slot0.LoadSpinePainting = function(slot0, slot1)
 	slot4 = nil
+	slot4 = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
+		noChangeSkin = true,
+		configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
+		skin_id = slot2
+	})
 
 	pg.UIMgr.GetInstance():LoadingOn()
 
 	slot0.spinePainting = SpinePainting.New(SpinePainting.GenerateData({
-		ship = (pg.ship_skin_template[slot0.skinId].skin_type ~= ShipSkin.SKIN_TYPE_TB or VirtualEducateCharShip.New(NewEducateHelper.GetSecIdBySkinId(slot2))) and Ship.New({
-			noChangeSkin = true,
-			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot2].ship_group).id,
-			skin_id = slot2
-		}),
+		ship = slot4,
 		position = Vector3(0, 0, 0),
 		parent = slot0.spTF,
-		effectParent = slot0.spBg
+		effectParent = slot0.spBg,
+		offset = slot4:GetSkinConfig().shop_offset
 	}), function (slot0)
 		if uv0.paintingState and uv0.paintingState.id ~= uv1.id then
 			uv0:ClearSpinePainting()
@@ -830,7 +848,9 @@ slot0.FlushObtainBtn = function(slot0, slot1)
 							uv0:emit(NewSkinShopMediator.OPEN_ACTIVITY, slot0)
 						end
 					end,
-					onNo = slot0
+					onNo = function ()
+						uv0()
+					end
 				})
 			end)
 		end

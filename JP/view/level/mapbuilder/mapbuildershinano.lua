@@ -135,6 +135,10 @@ end
 
 slot0.UpdateButtons = function(slot0)
 	uv0.super.UpdateButtons(slot0)
+	slot0:UpdateCustomButtons()
+end
+
+slot0.UpdateCustomButtons = function(slot0)
 	setActive(slot0._tf:Find("rumeng"), false)
 	setActive(slot0._tf:Find("huigui"), false)
 

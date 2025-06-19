@@ -225,7 +225,6 @@ slot0.loadShowPaint = function(slot0, slot1, slot2, slot3)
 	elseif slot5 == MainPaintingView.STATE_L2D then
 		slot0.live2dChar = Live2D.New(Live2D.GenerateData({
 			ship = slot4,
-			scale = Vector3(52, 52, 52),
 			position = Vector3(0, 0, -1),
 			parent = slot0.l2dContainner
 		}), function (slot0)

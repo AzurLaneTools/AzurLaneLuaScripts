@@ -161609,8 +161609,8 @@ _G.pg.base.item_virtual_data_statistics[59609] = {
 
 _G.pg.base.item_virtual_data_statistics[59610] = {
 	drop_gold_max = 0,
-	name = "陸奧モデル",
-	display = "三笠大先輩の蒐集品の一つ。戦艦「陸奧」のモデル",
+	name = "陸奥モデル",
+	display = "三笠大先輩の蒐集品の一つ。戦艦「陸奥」のモデル",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -162009,8 +162009,8 @@ _G.pg.base.item_virtual_data_statistics[59629] = {
 
 _G.pg.base.item_virtual_data_statistics[59630] = {
 	drop_gold_max = 0,
-	name = "陸奧モデル",
-	display = "三笠大先輩の蒐集品の一つ。戦艦「陸奧」のモデル",
+	name = "陸奥モデル",
+	display = "三笠大先輩の蒐集品の一つ。戦艦「陸奥」のモデル",
 	type = 0,
 	is_world = 0,
 	shop_id = -1,
@@ -173053,6 +173053,106 @@ _G.pg.base.item_virtual_data_statistics[65621] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65621,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65623] = {
+	drop_gold_max = 0,
+	name = "訓練Pt",
+	display = "「作戦準備・鉄血」報酬交換用アイテム。イベント終了後に削除される。",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_d",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65623,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65624] = {
+	drop_gold_max = 0,
+	name = "記録の砂金",
+	display = "「覆天せし万象の塵」報酬交換用アイテム。イベント終了後に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/bisimaiz_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65624,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65625] = {
+	drop_gold_max = 0,
+	name = "建造支援チケット",
+	display = "イベント「覆天せし万象の塵」で入手できる期間限定建造チケット。イベント終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50001,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65625,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65626] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2025.6.25まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2025.6.25まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65626,
 	display_icon = {},
 	price = {},
 	index = {},

@@ -259,6 +259,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100462,
 		2100471,
 		2100472,
+		2100481,
+		2100482,
+		2100491,
+		2100492,
 		2200000,
 		2200010,
 		2200020,
@@ -3807,7 +3811,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1720001",
 		default_background = "",
-		on_activity = 4853,
+		on_activity = 50003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -3900,7 +3904,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1720002",
 		default_background = "",
-		on_activity = 4853,
+		on_activity = 50003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -3993,7 +3997,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1720001",
 		default_background = "",
-		on_activity = 4853,
+		on_activity = 50003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -4086,7 +4090,7 @@ pg.base.expedition_data_by_map = {
 		guide_id = "",
 		ani_name = "Map_1720002",
 		default_background = "",
-		on_activity = 4853,
+		on_activity = 50003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -4180,7 +4184,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1720003",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4853,
+		on_activity = 50003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -4230,7 +4234,7 @@ pg.base.expedition_data_by_map = {
 		ani_name = "Map_1720004",
 		ani_controller = "",
 		default_background = "",
-		on_activity = 4853,
+		on_activity = 50003,
 		map_name = "",
 		cloud_suffix = "",
 		story_inactive_color = "",
@@ -15767,6 +15771,206 @@ pg.base.expedition_data_by_map = {
 					2100476,
 					"map_1650003"
 				}
+			}
+		}
+	},
+	[2100481] = {
+		map = 2100481,
+		name = "鋼鷲の冒険譚·前編|| ||CHAPTER EX||E.X.",
+		bgm = "story-roma-outside",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIONGYINGDEXUSHIGE1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1660001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1660001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100491,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100482] = {
+		map = 2100482,
+		name = "鋼鷲の冒険譚·後編|| ||CHAPTER EX||E.X.",
+		bgm = "story-roma-inside",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIONGYINGDEXUSHIGE17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1660002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1660002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100492,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100491] = {
+		map = 2100491,
+		name = "鋼鷲の冒険譚·前編|| ||CHAPTER EX||E.X.",
+		bgm = "story-roma-outside",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIONGYINGDEXUSHIGE1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1660003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1660003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100481,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2100492] = {
+		map = 2100492,
+		name = "鋼鷲の冒険譚·後編|| ||CHAPTER EX||E.X.",
+		bgm = "story-roma-inside",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "XIONGYINGDEXUSHIGE17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1660004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1660004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100482,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
 			}
 		}
 	},

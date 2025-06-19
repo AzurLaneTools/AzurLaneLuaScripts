@@ -495,6 +495,321 @@ pg.music_collect_config = {
 		},
 		unlock_cost = {}
 	},
+	{
+		music = "bgm-theme-yixian-soft-loop",
+		name = "清茶馥郁",
+		unlock_other = 0,
+		album_name = "清茶馥郁",
+		music_time = 124998,
+		id = 34,
+		cover = "MusicCover6",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-yixian-pv-loop",
+		name = "鮮逸如初",
+		unlock_other = 0,
+		album_name = "清茶馥郁",
+		music_time = 117750,
+		id = 35,
+		cover = "MusicCover6",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-haitian-soft-loop",
+		name = "糸路弥音",
+		unlock_other = 0,
+		album_name = "天女の如く",
+		music_time = 154666,
+		id = 36,
+		cover = "MusicCover7",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-kerguelen",
+		name = "ケルゲレンの風",
+		unlock_other = 0,
+		album_name = "黙示の遺構",
+		music_time = 45333,
+		id = 37,
+		cover = "MusicCover8",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-vichy-church",
+		name = "聖堂",
+		unlock_other = 0,
+		album_name = "黙示の遺構",
+		music_time = 101649,
+		id = 38,
+		cover = "MusicCover8",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-vichy-revelation",
+		name = "審判の象徴",
+		unlock_other = 0,
+		album_name = "黙示の遺構",
+		music_time = 130669,
+		id = 39,
+		cover = "MusicCover8",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-vichy-slaughter",
+		name = "審判武装機構",
+		unlock_other = 0,
+		album_name = "黙示の遺構",
+		music_time = 119999,
+		id = 40,
+		cover = "MusicCover8",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-elizabeth-andmeta",
+		name = "黙示の遺構",
+		unlock_other = 0,
+		album_name = "黙示の遺構",
+		music_time = 88615,
+		id = 41,
+		cover = "MusicCover8",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-battle-whaling-normal",
+		name = "電脳のアビータ",
+		unlock_other = 0,
+		album_name = "黙示の遺構",
+		music_time = 151048,
+		id = 42,
+		cover = "MusicCover8",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-ssss-az-pv",
+		name = "World-Spanning Arclight",
+		unlock_other = 0,
+		album_name = "弧光",
+		music_time = 123806,
+		id = 43,
+		cover = "MusicCover9",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-ssss-az-story",
+		name = "Piano and Guitar",
+		unlock_other = 0,
+		album_name = "弧光",
+		music_time = 121199,
+		id = 44,
+		cover = "MusicCover9",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-ssss-az-battle",
+		name = "All This Siren",
+		unlock_other = 0,
+		album_name = "弧光",
+		music_time = 123428,
+		id = 45,
+		cover = "MusicCover9",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-ssss-az-battle-boss",
+		name = "Shining Electronic Beating",
+		unlock_other = 0,
+		album_name = "弧光",
+		music_time = 114705,
+		id = 46,
+		cover = "MusicCover9",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-clemenceau",
+		name = "Attendre et espérer.",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 121876,
+		id = 47,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-story-french1",
+		name = "砕かれる光",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 138459,
+		id = 48,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-level-french1",
+		name = "神聖なる白百合のように",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 125373,
+		id = 49,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-story-french",
+		name = "自由の意思",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 105566,
+		id = 50,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-battle-underholyflag",
+		name = "アイリスの旗の元で",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 112133,
+		id = 51,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-irisangel",
+		name = "神聖奪還",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 89006,
+		id = 52,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-theme-richelieu",
+		name = "アイリス麗人",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 147814,
+		id = 53,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
+	{
+		music = "bgm-story-musicanniversary-gorgeous",
+		name = "式典と金色の楽章",
+		unlock_other = 0,
+		album_name = "燃ゆる聖都の回想曲",
+		music_time = 96363,
+		id = 54,
+		cover = "MusicCover10",
+		illustrate = "",
+		unlock_level = {
+			1,
+			0
+		},
+		unlock_cost = {}
+	},
 	get_id_list_by_album_name = {
 		["黒鉄の楽章、誓の海"] = {
 			1,
@@ -538,6 +853,37 @@ pg.music_collect_config = {
 			31,
 			32,
 			33
+		},
+		["清茶馥郁"] = {
+			34,
+			35
+		},
+		["天女の如く"] = {
+			36
+		},
+		["黙示の遺構"] = {
+			37,
+			38,
+			39,
+			40,
+			41,
+			42
+		},
+		["弧光"] = {
+			43,
+			44,
+			45,
+			46
+		},
+		["燃ゆる聖都の回想曲"] = {
+			47,
+			48,
+			49,
+			50,
+			51,
+			52,
+			53,
+			54
 		}
 	}
 }

@@ -15,13 +15,15 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.Init = function(slot0, slot1)
+	slot2 = slot0.ship
+
 	setActive(slot0.live2dContainer, true)
 
 	slot0.live2dChar = Live2D.New(Live2D.GenerateData({
-		ship = slot0.ship,
-		scale = Vector3(52, 52, 52),
+		ship = slot2,
 		position = Vector3(0, 0, -100),
-		parent = slot0.live2dContainer
+		parent = slot0.live2dContainer,
+		offset = slot2:GetSkinConfig().shop_offset
 	}), function (slot0)
 		uv0.inited = true
 

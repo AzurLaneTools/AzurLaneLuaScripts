@@ -1010,7 +1010,7 @@ return {
 			portrait = 305060,
 			side = 2,
 			bgName = "bg_unnamearea_0",
-			actorName = "陸奧",
+			actorName = "陸奥",
 			dir = 1,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,

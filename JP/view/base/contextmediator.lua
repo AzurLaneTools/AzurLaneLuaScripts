@@ -286,7 +286,8 @@ slot0.onRegister = function(slot0)
 		uv0:addSubLayers(Context.New({
 			mediator = SpWeaponInfoMediator,
 			viewComponent = SpWeaponInfoLayer,
-			data = slot1
+			data = slot1,
+			onRemoved = slot1 and slot1.onRemoved or nil
 		}))
 	end)
 	slot0:commonBind()
@@ -420,7 +421,8 @@ slot0.commonBind = function(slot0)
 			slot0:addSubLayers(Context.New({
 				mediator = EquipmentInfoMediator,
 				viewComponent = EquipmentInfoLayer,
-				data = slot2
+				data = slot2,
+				onRemoved = slot2 and slot2.onRemoved or nil
 			}))
 		end,
 		[BaseUI.ON_NEW_DROP] = function (slot0, slot1, slot2)

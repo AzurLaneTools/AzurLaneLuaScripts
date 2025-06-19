@@ -7193,6 +7193,16 @@ end
 temp()
 
 temp = function()
+	uv0["陸"] = {
+		["奥"] = {
+			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["土"] = {
 		["佐"] = {
 			this = true

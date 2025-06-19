@@ -562,6 +562,12 @@ slot0.CreateLive2D = function(slot0)
 	end
 
 	slot3 = nil
+	slot3 = pg.ship_skin_template[slot0.skin.id].live2d_offset_profile and #slot2 >= 3 and slot2 or {
+		0,
+		0,
+		0,
+		52
+	}
 	slot0.l2dChar = Live2D.New(Live2D.GenerateData({
 		ship = Ship.New({
 			noChangeSkin = true,
@@ -569,8 +575,8 @@ slot0.CreateLive2D = function(slot0)
 			skin_id = slot0.skin.id,
 			propose = slot0.shipGroup.married
 		}),
-		scale = Vector3(52, 52, 52),
-		position = (not pg.ship_skin_template[slot0.skin.id].live2d_offset_profile or type(slot2) == "string" or Vector3(0 + slot2[1], -40 + slot2[2], 100 + slot2[3])) and Vector3(0, -40, 100),
+		position = Vector3(0, 0, 0),
+		offset = slot2,
 		parent = slot0.l2dRoot
 	}), function (slot0)
 		slot0:setSortingLayer(LayerWeightConst.L2D_DEFAULT_LAYER)
@@ -579,11 +585,11 @@ slot0.CreateLive2D = function(slot0)
 
 	if isHalfBodyLive2D(slot0.skin.prefab) then
 		setAnchoredPosition(slot0.l2dRoot, {
-			y = -37 - (slot0.painting.rect.height - slot0.l2dRoot.rect.height * 1.5) / 2
+			y = -77 - (slot0.painting.rect.height - slot0.l2dRoot.rect.height * 1.5) / 2
 		})
 	else
 		setAnchoredPosition(slot0.l2dRoot, {
-			y = 0
+			y = -40
 		})
 	end
 
@@ -895,6 +901,7 @@ slot0.CreateSpinePainting = function(slot0)
 			}),
 			position = Vector3(0, 0, 0),
 			parent = slot0.spinePaintingRoot,
+			offset = pg.ship_skin_template[slot0.skin.id].spine_offset_profile,
 			effectParent = slot0.spinePaintingBgRoot
 		}), function ()
 		end)

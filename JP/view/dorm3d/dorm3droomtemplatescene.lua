@@ -2978,35 +2978,43 @@ slot0.ResetSceneItemAnimators = function(slot0, slot1)
 end
 
 slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
+	slot7 = function(slot0)
+		if uv0 and slot0:GetComponent(typeof(Animator)) then
+			slot1:Play(uv0)
+		end
+	end
+
 	slot1.extraItems = slot1.extraItems or {}
 
 	if slot1.extraItems[slot2] then
+		slot7(slot1.extraItems[slot2].trans)
+
 		return
 	end
 
-	slot7 = nil
+	slot8 = nil
 
 	if slot3 == "" then
-		slot7 = slot1.lady
+		slot8 = slot1.lady
 	elseif slot3 == "scene_root" then
-		slot7 = slot0.modelRoot
+		slot8 = slot0.modelRoot
 	else
-		slot9 = slot1.lady
+		slot10 = slot1.lady
 
-		table.IpairsCArray(slot9:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
+		table.IpairsCArray(slot10:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
 			if slot1.name == uv0 then
 				uv1 = slot1
 			end
 		end)
 	end
 
-	if not slot7 then
+	if not slot8 then
 		return
 	end
 
-	slot8 = slot0.loader
+	slot9 = slot0.loader
 
-	slot8:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
+	slot9:GetPrefab(string.lower("dorm3d/" .. slot2), "", function (slot0)
 		setParent(slot0, uv0)
 
 		if uv1 then
@@ -3017,9 +3025,7 @@ slot0.LoadCharacterExtraItem = function(slot0, slot1, slot2, slot3, slot4, slot5
 			setLocalRotation(slot0, uv2)
 		end
 
-		if uv3 and slot0:GetComponent(typeof(Animator)) then
-			slot1:Play(uv3)
-		end
+		uv3(slot0)
 
 		uv4.extraItems[uv5] = {
 			trans = slot0.transform,
@@ -3202,9 +3208,11 @@ slot0.SetVolumeProfile = function(slot0, slot1, slot2)
 end
 
 slot0.RevertVolumeProfile = function(slot0)
-	slot0.loader:ReturnPrefab(slot0.cameraVolume)
+	if slot0.cameraVolume then
+		slot0.loader:ReturnPrefab(slot0.cameraVolume)
 
-	slot0.cameraVolume = nil
+		slot0.cameraVolume = nil
+	end
 end
 
 slot0.RecordCharacterLight = function(slot0)
