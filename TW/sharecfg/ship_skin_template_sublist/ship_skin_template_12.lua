@@ -3169,11 +3169,11 @@ pg.base.ship_skin_template_12 = {
 		}
 	},
 	[403142] = {
-		name = "夏日防晒计划",
+		name = "夏日防曬計劃",
 		change_skin = "",
 		ship_group = 40314,
 		illustrator2 = -1,
-		desc = "我的指挥官？准备好了吗？现在就把我全部交给你，请你细致、温柔地涂抹充满“爱”的防晒霜好吗？",
+		desc = "我的指揮官？準備好了嗎？現在就把我全部交給你，請你細緻、溫柔地塗抹充滿「愛」的防曬乳好嗎？",
 		group_index = 2,
 		id = 403142,
 		painting = "feiteliekaer_3",
@@ -3483,7 +3483,7 @@ pg.base.ship_skin_template_12 = {
 		}
 	},
 	[403160] = {
-		name = "小{namecode:480}",
+		name = "小埃吉爾",
 		change_skin = "",
 		ship_group = 40316,
 		illustrator2 = -1,

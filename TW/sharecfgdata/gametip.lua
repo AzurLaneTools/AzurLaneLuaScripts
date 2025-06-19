@@ -35637,12 +35637,12 @@ _G.pg.base.gametip.task_get = {
 
 
 _G.pg.base.gametip.notify_clock_tip = {
-	tip = "未开启闹钟权限，无法进行通知"
+	tip = "未開啟鬧鐘權限，無法進行通知"
 }
 
 
 _G.pg.base.gametip.notify_clock_button = {
-	tip = "开启闹钟权限"
+	tip = "開啟鬧鐘權限"
 }
 
 
@@ -35857,6 +35857,11 @@ _G.pg.base.gametip.dorm3d_guide_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_guide_tip2 = {
+	tip = "先去沙灘看看吧"
+}
+
+
 _G.pg.base.gametip.dorm3d_noshiro_table = {
 	tip = "餐廳"
 }
@@ -35877,8 +35882,248 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
+	tip = "娱乐区"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
+	tip = "卧室"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_table = {
+	tip = "餐厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_chair = {
+	tip = "客厅"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_bed = {
+	tip = "卧室"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "契合度已經到達上限，送禮將不會獲得契合度，是否確認贈送？"
+}
+
+
+_G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
+	tip = "$1的视频邀请"
+}
+
+
+_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
+	tip = "$1的语音邀请"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_favor = {
+	tip = "契合度"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_furniture = {
+	tip = "拥有家具"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit = {
+	tip = "上次拜访"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time = {
+	tip = "$1天前"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
+	tip = "未入住"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_gift = {
+	tip = "专属礼物"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_chat = {
+	tip = "短信"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
+	tip = "有新的消息"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_messages = {
+	tip = "暂无新消息"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_phone = {
+	tip = "通信"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_calls = {
+	tip = "有新的通话"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
+	tip = "暂无新通话"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_topics = {
+	tip = "好友圈"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_ins = {
+	tip = "好友圈"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_new_topics = {
+	tip = "$1更新了好友圈状态 "
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
+	tip = "暂无新好友圈状态"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_beach = {
+	tip = "沙滩、泳装、排球，尽情在海风中玩耍吧~ "
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_character = {
+	tip = "可邀请角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
+	tip = "请先下载相应房间资源"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_all = {
+	tip = "全部房间"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
+	tip = "听海之畔"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+	tip = "汐语小筑"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
+	tip = "今天"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_guide = {
+	tip = "请先前往沙滩"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_room_download = {
+	tip = "请先下载$1相关资源"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone = {
+	tip = "暂未开放，敬请期待"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_welcome = {
+	tip = "邀请角色"
+}
+
+
+_G.pg.base.gametip.dorm3d_gift_favor_exceed = {
+	tip = "赠送后会溢出$1点契合度，是否确定赠送"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
+	tip = "视频记录"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_call = {
+	tip = "语音通话"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
+	tip = "未查看"
+}
+
+
+_G.pg.base.gametip.dorm3d_privatechat_video_call = {
+	tip = "视频通话"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_msg = {
+	tip = "暂无新消息"
+}
+
+
+_G.pg.base.gametip.dorm3d_ins_no_topics = {
+	tip = "暂无新好友圈状态"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_confirm = {
+	tip = "確認更換"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_already = {
+	tip = "已裝備"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_equip = {
+	tip = "是否立即給$1裝備$2"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_unlock = {
+	tip = "公共房間無法更換服裝"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_1 = {
+	tip = "聽海之畔 "
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_2 = {
+	tip = "汐语小筑"
 }
 
 

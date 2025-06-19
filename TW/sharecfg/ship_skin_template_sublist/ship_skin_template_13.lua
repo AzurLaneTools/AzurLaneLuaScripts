@@ -3111,11 +3111,11 @@ pg.base.ship_skin_template_13 = {
 		}
 	},
 	[501082] = {
-		name = "天青胜玉",
+		name = "天青勝玉",
 		change_skin = "",
 		ship_group = 50108,
 		illustrator2 = -1,
-		desc = "指挥官，这就是我新购入的汝瓷茶具，很漂亮吧~我想着美好的事物第一次使用时肯定要和最重要的人分享，所以就邀请了你过来呢~",
+		desc = "指揮官，這就是我新購入的汝窯茶具，很漂亮吧~我想著美好的事物第一次使用時肯定要和最重要的人分享，所以就邀請了你過來呢~",
 		group_index = 2,
 		id = 501082,
 		painting = "changfeng_3",
@@ -6631,7 +6631,7 @@ pg.base.ship_skin_template_13 = {
 		change_skin = "",
 		ship_group = 50204,
 		illustrator2 = -1,
-		desc = "哎呀……是指挥官吗？您来得可真是时候呢~我还以为能在这里偷得半日闲……既然如此，不如和我一起在泳池里休息一下如何？",
+		desc = "哎呀……是指揮官嗎？您來得可真是時候呢~我還以為能在這裡偷得半日閒……既然如此，不如和我一起在泳池裡休息一下如何？",
 		group_index = 3,
 		id = 502043,
 		painting = "yingrui_4",

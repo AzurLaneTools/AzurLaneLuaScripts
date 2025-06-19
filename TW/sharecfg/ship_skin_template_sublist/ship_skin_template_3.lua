@@ -4052,11 +4052,11 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105093] = {
-		name = "夕阳的咏叹调",
+		name = "夕陽的詠嘆調 ",
 		change_skin = "",
 		ship_group = 10509,
 		illustrator2 = -1,
-		desc = "明明可以和大家一起去海里玩，却选择在这里和我一起看日落...？难得来到海边，这样真的没问题？啊，不，只要你无所谓就好...",
+		desc = "明明可以跟大家一起去海裡玩，卻選擇在這裡和我一起看日落……？難得來到海邊，這樣真的沒問題？啊，不，只要你無所謂就好……",
 		group_index = 3,
 		id = 105093,
 		painting = "keluoladuo_4",
@@ -4409,11 +4409,11 @@ pg.base.ship_skin_template_3 = {
 		}
 	},
 	[105102] = {
-		name = "真红鼓手",
+		name = "真紅鼓手",
 		change_skin = "",
 		ship_group = 10510,
 		illustrator2 = -1,
-		desc = "哟，指挥官，你也躲到这里找清闲来了？安心，我不会告诉其他人你在这里的，一起看烟花吧。",
+		desc = "喲，指揮官，你也躲到這裡找清閒了嗎？安心，我不會告訴其他人你在這裡的，一起看煙火吧。",
 		group_index = 2,
 		id = 105102,
 		painting = "malilan_3",
