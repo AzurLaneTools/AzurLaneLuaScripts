@@ -520,8 +520,12 @@ slot0.UpdateSpWeaponPanel = function(slot0, slot1)
 		onButton(slot0, slot2, function ()
 			uv0:emit(BaseUI.ON_SPWEAPON, {
 				type = SpWeaponInfoLayer.TYPE_SHIP,
-				shipId = uv1.id
+				shipId = uv1.id,
+				onRemoved = function ()
+					uv0:setEquipDescVisible(true)
+				end
 			})
+			uv0:setEquipDescVisible(false)
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 
 		return

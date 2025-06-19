@@ -1137,7 +1137,9 @@ slot5.GetStageResource = function(slot0)
 
 			if slot13.airFighter ~= nil then
 				for slot17, slot18 in pairs(slot13.airFighter) do
-					for slot23, slot24 in ipairs(uv1.GetAircraftResource(slot18.templateID, slot18.weaponID, true)) do
+					slot23 = true
+
+					for slot23, slot24 in ipairs(uv1.GetAircraftResource(slot18.templateID, slot18.weaponID, nil, slot23)) do
 						slot2[#slot2 + 1] = slot24
 					end
 				end
