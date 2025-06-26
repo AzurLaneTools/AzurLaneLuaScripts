@@ -995,7 +995,7 @@ In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help he
 · Tap the button on the bottom left of the screen to jump.
 · Tap the button on the bottom right of the screen to attack.
 · Coming in contact with a Nianjuu will hurt you for 1 health point.
-· When you run out of health points, fall off, or use the \""End Game\"" button, the minigame is done.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
 · You may come across useful items as you play through the minigame. These include:
 1. Coin - Worth 50 points
 2. Amulet - Worth 300 points
