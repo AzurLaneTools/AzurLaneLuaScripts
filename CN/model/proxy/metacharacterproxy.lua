@@ -139,7 +139,7 @@ slot0.getRedTag = function(slot0, slot1)
 	return slot0.redTagTable[slot1][2] == false and slot2[1] == true
 end
 
-slot0.isHaveVaildMetaProgressVO = function(slot0)
+slot0.isHaveValidMetaProgressVO = function(slot0)
 	for slot5, slot6 in ipairs(slot0:getMetaProgressVOList()) do
 		if slot6:isShow() then
 			return true

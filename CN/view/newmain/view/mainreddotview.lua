@@ -85,6 +85,7 @@ slot0.GetNotifyType = function(slot0)
 			[pg.RedDotMgr.TYPES.COMMISSION] = {
 				PlayerProxy.UPDATED,
 				GAME.EVENT_LIST_UPDATE,
+				GAME.EVENT_FINISH_UPDATE,
 				GAME.CANCEL_LEARN_TACTICS_DONE
 			},
 			[pg.RedDotMgr.TYPES.SERVER] = {
@@ -95,7 +96,8 @@ slot0.GetNotifyType = function(slot0)
 				GAME.REMOVE_LAYERS
 			},
 			[pg.RedDotMgr.TYPES.EVENT] = {
-				GAME.EVENT_LIST_UPDATE
+				GAME.EVENT_LIST_UPDATE,
+				GAME.EVENT_FINISH_UPDATE
 			},
 			[pg.RedDotMgr.TYPES.ACT_NEWBIE] = {
 				GAME.REMOVE_LAYERS

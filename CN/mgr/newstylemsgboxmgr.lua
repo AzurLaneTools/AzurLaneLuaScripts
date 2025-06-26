@@ -139,6 +139,14 @@ slot1.DoShow = function(slot0, slot1, slot2)
 end
 
 slot1.Hide = function(slot0, slot1)
+	if slot0.previewer then
+		slot0.previewer:Destroy()
+
+		slot0.previewer = nil
+
+		return
+	end
+
 	if not slot0._tf then
 		return
 	end
@@ -343,6 +351,32 @@ slot1.DisplaySetting = function(slot0, slot1, slot2)
 					})
 				end, SFX_PANEL)
 			end
+
+			slot9 = slot1.type == DROP_TYPE_COMBAT_UI_STYLE
+
+			setActive(slot2:Find("extra_info/combat_skin"), slot9)
+			setActive(slot2:Find("left/placeholder"), slot9)
+
+			if slot9 then
+				slot12 = UIItemList.New(slot2:Find("extra_info/combat_skin/elementList"), slot2:Find("extra_info/combat_skin/elementList/main"))
+
+				slot12:make(function (slot0, slot1, slot2)
+					if slot0 == UIItemList.EventUpdate then
+						GetImageSpriteFromAtlasAsync("ui/combatskinrare", CombatSkinConst.TYPE_ICON_NAME[uv0[slot1 + 1]], slot2:Find("icon"), true)
+						setScrollText(slot2:Find("TextMask/Text"), i18n("battleui_display" .. uv0[slot1 + 1]))
+					end
+				end)
+				slot12:align(#uv1.item_data_battleui[slot1.id].rare_display)
+				onButton(uv0, slot10:Find("play"), function ()
+					uv0.previewer = CombatPreviewLayer.New(uv1.UIMgr.GetInstance().OverlayMain)
+
+					uv0.previewer:ExecuteAction("Show", uv2.id, function ()
+						uv0.previewer:Destroy()
+
+						uv0.previewer = nil
+					end)
+				end, SFX_PANEL)
+			end
 		end,
 		[uv0.TYPE_COMMON_ITEMS] = function (slot0)
 			slot1 = uv0._tf:Find("window/middle")
@@ -487,3 +521,5 @@ end
 slot1.closeView = function(slot0)
 	slot0:hide()
 end
+
+return slot1

@@ -1,16 +1,18 @@
 slot0 = class("EventStartCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
-	slot2 = slot1:getBody()
-	slot4 = slot2.shipIds
+	slot3 = slot1:getBody().event
+	slot4 = slot3.id
+	slot5 = slot3.shipIds
+	slot6 = getProxy(EventProxy)
 
-	if not getProxy(EventProxy):findInfoById(slot2.id):IsActivityType() and slot5.maxFleetNums <= slot5.busyFleetNums then
+	if not slot3:IsActivityType() and not slot6:CanStartEvent() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("event_fleet_busy"))
 
 		return
 	end
 
-	slot8, slot9 = slot5:CanJoinEvent(slot6)
+	slot8, slot9 = slot6:CanJoinEvent(slot3)
 
 	if not slot8 then
 		if slot9 then
@@ -26,7 +28,8 @@ slot0.execute = function(slot0, slot1)
 				arg2 = 0,
 				cmd = ActivityConst.COLLETION_EVENT_OP_JOIN,
 				arg1 = uv2,
-				arg_list = uv3
+				arg_list = uv3,
+				event = uv4
 			})
 		else
 			pg.ConnectionMgr.GetInstance():Send(13003, {
@@ -42,7 +45,7 @@ slot0.execute = function(slot0, slot1)
 		end
 	end
 
-	if slot6:getOilConsume() > 0 then
+	if slot3:getOilConsume() > 0 then
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			content = i18n("event_oil_consume", slot11),
 			onYes = slot10
@@ -55,18 +58,19 @@ end
 slot0.OnStart = function(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("event_start_success"))
 
-	slot2 = getProxy(EventProxy):findInfoById(slot0)
-	slot3 = getProxy(PlayerProxy)
-	slot4 = slot3:getData()
-	slot2.finishTime = pg.TimeMgr.GetInstance():GetServerTime() + slot2.template.collect_time
-	slot2.state = EventInfo.StateActive
+	slot2 = getProxy(PlayerProxy)
+	slot3 = slot2:getData()
 
-	slot4:consume({
-		oil = slot2:getOilConsume()
+	slot3:consume({
+		oil = slot0:getOilConsume()
 	})
-	slot3:updatePlayer(slot4)
-	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-	pg.m02:sendNotification(GAME.EVENT_LIST_UPDATE)
+	slot2:updatePlayer(slot3)
+
+	slot0.finishTime = pg.TimeMgr.GetInstance():GetServerTime() + slot0.template.collect_time
+
+	getProxy(EventProxy):updateInfoList({
+		slot0
+	})
 end
 
 return slot0

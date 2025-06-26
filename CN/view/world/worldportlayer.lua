@@ -110,7 +110,7 @@ slot0.init = function(slot0)
 end
 
 slot0.didEnter = function(slot0)
-	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, {
+	pg.UIMgr.GetInstance():BlurPanel(slot0._tf, false, {
 		groupName = slot0:getGroupNameFromData()
 	})
 	onButton(slot0, slot0.btnBack, function ()

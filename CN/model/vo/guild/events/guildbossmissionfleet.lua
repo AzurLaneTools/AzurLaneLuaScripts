@@ -4,8 +4,8 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.id = slot1.fleet_id
 	slot0.userShips = {}
 	slot0.commanders = {}
-	slot0.invaildShips = {}
-	slot0.invaildCommanders = {}
+	slot0.invalidShips = {}
+	slot0.invalidCommanders = {}
 
 	if slot1.ships then
 		slot0:Flush(slot1)
@@ -14,16 +14,16 @@ end
 
 slot0.Flush = function(slot0, slot1)
 	slot0.userShips = {}
-	slot0.invaildShips = {}
+	slot0.invalidShips = {}
 
 	for slot5, slot6 in ipairs(slot1.ships) do
-		if slot0:IsVaildShip({
+		if slot0:IsValidShip({
 			uid = slot6.user_id,
 			id = slot6.ship_id
 		}) then
 			table.insert(slot0.userShips, slot7)
 		else
-			table.insert(slot0.invaildShips, slot7)
+			table.insert(slot0.invalidShips, slot7)
 		end
 	end
 
@@ -34,7 +34,7 @@ slot0.Flush = function(slot0, slot1)
 		if slot2[slot8.id] and slot8.pos then
 			slot3[slot8.pos] = slot9
 		else
-			table.insert(slot0.invaildCommanders, slot8.id)
+			table.insert(slot0.invalidCommanders, slot8.id)
 		end
 	end
 
@@ -53,7 +53,7 @@ slot0.ExistMember = function(slot0, slot1)
 	return getProxy(GuildProxy):getRawData() and slot2:getMemberById(slot1)
 end
 
-slot0.IsVaildShip = function(slot0, slot1)
+slot0.IsValidShip = function(slot0, slot1)
 	return slot0:ExistMember(slot1.uid) and (function (slot0)
 		slot1 = getProxy(GuildProxy):getRawData()
 
@@ -68,12 +68,12 @@ slot0.IsVaildShip = function(slot0, slot1)
 end
 
 slot0.ExistInvailShips = function(slot0)
-	if #slot0.invaildShips > 0 then
+	if #slot0.invalidShips > 0 then
 		return true
 	end
 
 	if _.any(slot0.userShips, function (slot0)
-		return not uv0:IsVaildShip(slot0)
+		return not uv0:IsValidShip(slot0)
 	end) then
 		return true
 	end
@@ -81,11 +81,11 @@ slot0.ExistInvailShips = function(slot0)
 	return false
 end
 
-slot0.ClearInvaildShip = function(slot0)
-	slot0.invaildShips = {}
+slot0.ClearInvalidShip = function(slot0)
+	slot0.invalidShips = {}
 
 	for slot4 = #slot0.userShips, 1, -1 do
-		if not slot0:IsVaildShip(slot0.userShips[slot4]) then
+		if not slot0:IsValidShip(slot0.userShips[slot4]) then
 			table.remove(slot0.userShips, slot4)
 		end
 	end
@@ -270,7 +270,7 @@ slot0.IsLegal = function(slot0)
 	end
 
 	if slot2 > 3 or slot3 > 3 or slot4 > 3 then
-		return false, i18n("guild_boss_fleet_cnt_invaild")
+		return false, i18n("guild_boss_fleet_cnt_invalid")
 	end
 
 	slot10 = nil
@@ -455,8 +455,8 @@ slot0.ExistCommander = function(slot0, slot1)
 	return false
 end
 
-slot0.ExistInvaildCommanders = function(slot0)
-	if #slot0.invaildCommanders > 0 then
+slot0.ExistInvalidCommanders = function(slot0)
+	if #slot0.invalidCommanders > 0 then
 		return true
 	end
 
@@ -471,7 +471,7 @@ slot0.ExistInvaildCommanders = function(slot0)
 	return false
 end
 
-slot0.RemoveInvaildCommanders = function(slot0)
+slot0.RemoveInvalidCommanders = function(slot0)
 	slot2 = getProxy(CommanderProxy)
 
 	for slot6, slot7 in pairs(slot0:getCommanders()) do
@@ -480,7 +480,7 @@ slot0.RemoveInvaildCommanders = function(slot0)
 		end
 	end
 
-	slot0.invaildCommanders = {}
+	slot0.invalidCommanders = {}
 end
 
 slot0.getCommandersAddition = function(slot0)

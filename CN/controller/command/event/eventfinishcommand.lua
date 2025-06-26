@@ -5,7 +5,7 @@ slot0.execute = function(slot0, slot1)
 	slot4 = slot2.callback
 	slot5 = slot2.onConfirm
 	slot6 = getProxy(EventProxy)
-	slot8, slot9 = slot6:CanFinishEvent(slot6:findInfoById(slot2.id))
+	slot8, slot9 = slot6:CanFinishEvent(slot6:getEventInfo(slot2.id))
 
 	if not slot8 then
 		if slot9 then
@@ -35,7 +35,7 @@ slot0.execute = function(slot0, slot1)
 			id = slot3
 		}, 13006, function (slot0)
 			if slot0.result == 0 then
-				getProxy(EventProxy):findInfoById(uv0):SavePrevFormation()
+				getProxy(EventProxy):getEventInfo(uv0):SavePrevFormation()
 				uv1.OnFinish(uv0, slot0, uv2)
 
 				if uv3 then
@@ -62,7 +62,7 @@ slot0.OnFinish = function(slot0, slot1, slot2)
 	if slot1.exp > 0 then
 		slot6 = getProxy(BayProxy)
 
-		for slot11, slot12 in ipairs(slot3:findInfoById(slot0).shipIds) do
+		for slot11, slot12 in ipairs(slot3:getEventInfo(slot0).shipIds) do
 			if slot6:getShipById(slot12) then
 				slot14 = Clone(slot13)
 
@@ -97,14 +97,16 @@ slot0.OnFinish = function(slot0, slot1, slot2)
 
 	slot8:updatePlayer(slot9)
 
-	slot10, slot11 = slot3:findInfoById(slot0)
+	slot10 = slot3:getEventInfo(slot0)
 
-	table.remove(slot3.eventList, slot11)
 	_.each(slot1.new_collection, function (slot0)
-		table.insert(uv0.eventList, EventInfo.New(slot0))
+		table.insert(uv0, EventInfo.New(slot0))
 	end)
-	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-	pg.m02:sendNotification(GAME.EVENT_LIST_UPDATE)
+	slot3:updateInfoList({
+		{
+			id = slot0
+		}
+	})
 	pg.m02:sendNotification(GAME.EVENT_SHOW_AWARDS, {
 		eventId = slot0,
 		oldShips = slot4,

@@ -61,13 +61,6 @@ slot0.register = function(slot0)
 
 		uv0:refreshActivityBuffs()
 
-		for slot4, slot5 in pairs(uv0.data) do
-			uv0:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
-				isInit = true,
-				activity = slot5
-			})
-		end
-
 		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_CHALLENGE) and not slot1:isEnd() then
 			uv0:sendNotification(GAME.CHALLENGE2_INFO, {})
 		end
@@ -80,9 +73,7 @@ slot0.register = function(slot0)
 			uv0:InitActivityBossData(uv0.data[slot3.id])
 		end
 
-		slot4 = pg.ShipFlagMgr.GetInstance()
-
-		slot4:UpdateFlagShips("inElite")
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inElite")
 		(function ()
 			if not uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK) then
 				return
@@ -90,6 +81,10 @@ slot0.register = function(slot0)
 
 			uv0:sendNotification(GAME.REQUEST_ATELIER, slot0.id)
 		end)()
+
+		if uv0:getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot5:isEnd() then
+			getProxy(EventProxy):CheckAddActivityEvent()
+		end
 	end)
 	slot0:on(11201, function (slot0)
 		slot1 = Activity.Create(slot0.activity_info)

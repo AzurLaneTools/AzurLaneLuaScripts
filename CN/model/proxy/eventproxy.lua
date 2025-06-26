@@ -1,87 +1,91 @@
 slot0 = class("EventProxy", import(".NetProxy"))
 
 slot0.register = function(slot0)
-	slot0.eventList = {}
+	slot0.eventDic = {}
+	slot0.countDownList = {}
+	slot0.lastFlushTime = 0
 
 	slot0:on(13002, function (slot0)
 		uv0.maxFleetNums = slot0.max_team
 
-		uv0:updateInfo(slot0.collection_list)
+		uv0:updateAll(slot0.collection_list)
 	end)
 	slot0:on(13011, function (slot0)
-		for slot4, slot5 in ipairs(slot0.collection) do
-			slot6 = EventInfo.New(slot5)
-			slot7, slot8 = uv0:findInfoById(slot5.id)
+		slot1 = uv0
 
-			if slot8 == -1 then
-				table.insert(uv0.eventList, slot6)
-
-				uv0.eventForMsg = slot6
-			else
-				uv0.eventList[slot8] = slot6
+		slot1:updateInfoList(underscore.map(slot0.collection, function (slot0)
+			if not uv0:existEvent(EventInfo.New(slot0).id) then
+				uv0.eventForMsg = slot1
 			end
-		end
+
+			return slot1
+		end))
 
 		uv0.virgin = true
-
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-		uv0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
 	end)
 end
 
 slot0.timeCall = function(slot0)
 	return {
-		[ProxyRegister.DayCall] = function (slot0)
-			if not getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) or slot1:isEnd() then
-				return
-			end
-
-			slot2, slot3 = uv0:GetEventByActivityId(slot1.id)
-
-			if not slot2 or slot2 and not slot2:IsStarting() then
-				if slot2 and slot3 then
-					table.remove(uv0.eventList, slot3)
-				end
-
-				slot4 = slot1:getConfig("config_data")
-
-				if slot1:getDayIndex() > 0 and slot5 <= #slot4 then
-					uv0:AddActivityEvent(EventInfo.New({
-						finish_time = 0,
-						over_time = 0,
-						id = slot4[slot5],
-						ship_id_list = {},
-						activity_id = slot1.id
-					}))
-				end
-
-				pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-				uv0:sendNotification(GAME.EVENT_LIST_UPDATE)
-			end
-		end,
 		[ProxyRegister.SecondCall] = function (slot0)
 			uv0:updateTime()
 		end
 	}
 end
 
-slot0.remove = function(slot0)
-end
-
-slot0.updateInfo = function(slot0, slot1)
-	slot0.eventList = {}
+slot0.updateAll = function(slot0, slot1)
+	slot0.eventDic = {}
+	slot0.countDownList = {}
+	slot0.lastFlushTime = pg.TimeMgr.GetInstance():GetServerTime()
 
 	for slot5, slot6 in ipairs(slot1) do
-		table.insert(slot0.eventList, EventInfo.New(slot6))
+		slot7 = EventInfo.New(slot6)
+		slot0.eventDic[slot7.id] = slot7
+
+		if slot7:GetState() == EventInfo.StateActive then
+			table.insert(slot0.countDownList, slot7.id)
+		end
 	end
 
-	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-	slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
+	table.sort(slot0.countDownList, CompareFuncs({
+		function (slot0)
+			return uv0.eventDic[slot0].finishTime
+		end
+	}))
+
+	if not slot0:CheckAddActivityEvent() then
+		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
+		slot0.facade:sendNotification(GAME.EVENT_LIST_UPDATE)
+	end
 end
 
-slot0.updateNightInfo = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot1) do
-		table.insert(slot0.eventList, EventInfo.New(slot6))
+slot0.updateInfoList = function(slot0, slot1)
+	if #slot1 == 0 then
+		return
+	end
+
+	slot2 = false
+
+	for slot6, slot7 in ipairs(slot1) do
+		if not instanceof(slot7, EventInfo) or slot7:GetState() == EventInfo.StateExpire then
+			slot0.eventDic[slot7.id] = nil
+		else
+			slot0.eventDic[slot7.id] = slot7
+
+			if slot7:GetState() == EventInfo.StateActive then
+				slot2 = true
+
+				table.insert(slot0.countDownList, slot7.id)
+			end
+		end
+	end
+
+	if slot2 then
+		table.sort(slot0.countDownList, CompareFuncs({
+			function (slot0)
+				return uv0.eventDic[slot0].finishTime
+			end
+		}))
 	end
 
 	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
@@ -91,8 +95,8 @@ end
 slot0.getActiveShipIds = function(slot0)
 	slot1 = {}
 
-	for slot5, slot6 in ipairs(slot0.eventList) do
-		if slot6.state ~= EventInfo.StateNone then
+	for slot5, slot6 in pairs(slot0.eventDic) do
+		if slot6:GetState() ~= EventInfo.StateNone then
 			for slot10, slot11 in ipairs(slot6.shipIds) do
 				table.insert(slot1, slot11)
 			end
@@ -102,21 +106,19 @@ slot0.getActiveShipIds = function(slot0)
 	return slot1
 end
 
-slot0.findInfoById = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.eventList) do
-		if slot6.id == slot1 then
-			return slot6, slot5
-		end
-	end
+slot0.existEvent = function(slot0, slot1)
+	return slot0.eventDic[slot1] and slot0.eventDic[slot1]:GetState() ~= EventInfo.StateExpire
+end
 
-	return nil, -1
+slot0.getEventInfo = function(slot0, slot1)
+	return Clone(slot0.eventDic[slot1])
 end
 
 slot0.countByState = function(slot0, slot1)
 	slot2 = 0
 
-	for slot6, slot7 in ipairs(slot0.eventList) do
-		if slot7.state == slot1 then
+	for slot6, slot7 in pairs(slot0.eventDic) do
+		if slot7:GetState() == slot1 then
 			slot2 = slot2 + 1
 		end
 	end
@@ -133,8 +135,8 @@ end
 slot0.countBusyFleetNums = function(slot0)
 	slot1 = 0
 
-	for slot5, slot6 in ipairs(slot0.eventList) do
-		if not slot6:IsActivityType() and slot6.state ~= EventInfo.StateNone then
+	for slot5, slot6 in pairs(slot0.eventDic) do
+		if not slot6:IsActivityType() and EventInfo.StateNone < slot6:GetState() then
 			slot1 = slot1 + 1
 		end
 	end
@@ -145,32 +147,29 @@ end
 slot0.updateTime = function(slot0)
 	slot1 = false
 
-	for slot5, slot6 in pairs(slot0.eventList) do
-		if slot6:updateTime() then
-			slot1 = true
-		end
+	while #slot0.countDownList > 0 and slot0.eventDic[slot0.countDownList[1]]:GetState() == EventInfo.StateFinish do
+		slot1 = true
+
+		table.remove(slot0.countDownList, 1)
 	end
 
 	if slot1 then
-		pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-		slot0:sendNotification(GAME.EVENT_LIST_UPDATE)
+		slot0:sendNotification(GAME.EVENT_FINISH_UPDATE)
 	end
 end
 
 slot0.getEventList = function(slot0)
-	return Clone(slot0.eventList)
+	return underscore(slot0.eventDic):chain():values():filter(function (slot0)
+		return slot0:GetState() ~= EventInfo.StateExpire
+	end):map(function (slot0)
+		return Clone(slot0)
+	end):value()
 end
 
 slot0.getActiveEvents = function(slot0)
-	slot1 = {}
-
-	for slot5, slot6 in ipairs(slot0.eventList) do
-		if pg.TimeMgr.GetInstance():GetServerTime() <= slot6.finishTime then
-			table.insert(slot1, slot6)
-		end
-	end
-
-	return slot1
+	return underscore(slot0.eventDic):chain():values():filter(function (slot0)
+		return slot0:GetState() == EventInfo.StateActive
+	end):value()
 end
 
 slot0.fillRecommendShip = function(slot0, slot1)
@@ -186,31 +185,19 @@ slot0.fillRecommendShipLV1 = function(slot0, slot1)
 end
 
 slot0.checkNightEvent = function(slot0)
-	return (pg.gameset.night_collection_begin.key_value <= pg.TimeMgr.GetInstance():GetServerHour() and slot1 < 24 or slot1 >= 0 and slot1 < pg.gameset.night_collection_end.key_value) and not _.any(slot0.eventList, function (slot0)
+	slot1 = pg.TimeMgr.GetInstance():GetServerHour()
+
+	return (slot1 == math.clamp(slot1, getGameset("night_collection_begin")[1], getGameset("night_collection_end")[1] + 24 - 1) or slot1 + 24 == math.clamp(slot1 + 24, slot2, slot3 + 24 - 1)) and not underscore.any(underscore.values(slot0.eventDic), function (slot0)
 		slot1 = slot0:GetCountDownTime()
 
 		return slot0.template.type == EventConst.EVENT_TYPE_NIGHT and (not slot1 or slot1 > 0)
 	end)
 end
 
-slot0.AddActivityEvents = function(slot0, slot1, slot2)
-	for slot6 = #slot0.eventList, 1, -1 do
-		if slot0.eventList[slot6]:IsActivityType() and slot7:BelongActivity(slot2) then
-			table.remove(slot0.eventList, slot6)
-		end
-	end
+slot0.checkZeroHourEvent = function(slot0)
+	slot1 = pg.TimeMgr.GetInstance()
 
-	for slot6, slot7 in ipairs(slot1) do
-		print("add collection-----------", slot7.id)
-		table.insert(slot0.eventList, slot7)
-	end
-
-	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-end
-
-slot0.AddActivityEvent = function(slot0, slot1)
-	print("zero add collection-----------", slot1.id)
-	table.insert(slot0.eventList, slot1)
+	return slot1:GetTimeToNextTime(slot0.lastFlushTime) <= slot1:GetServerTime()
 end
 
 slot0.CanJoinEvent = function(slot0, slot1)
@@ -226,7 +213,7 @@ slot0.CanJoinEvent = function(slot0, slot1)
 		return false, i18n("event_type_unreached")
 	end
 
-	if not slot1:IsActivityType() and slot0.maxFleetNums <= slot0.busyFleetNums then
+	if not slot1:IsActivityType() and not slot0:CanStartEvent() then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("event_fleet_busy"))
 
 		return
@@ -276,41 +263,82 @@ slot0.CanFinishEvent = function(slot0, slot1)
 end
 
 slot0.GetEventByActivityId = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot0.eventList) do
+	for slot5, slot6 in pairs(slot0.eventDic) do
 		if slot6:BelongActivity(slot1) then
-			return slot6, slot5
+			return slot6
 		end
 	end
 end
 
 slot0.GetEventListForCommossionInfo = function(slot0)
+	slot1 = 0
 	slot2 = 0
 	slot3 = 0
-	slot4 = 0
 
 	_.each(slot0:getEventList(), function (slot0)
 		if slot0:IsActivityType() then
-			if slot0.state == EventInfo.StateNone then
-				uv0 = uv0 + 1
-			elseif slot0.state == EventInfo.StateActive then
-				uv1 = uv1 + 1
-			elseif slot0.state == EventInfo.StateFinish then
-				uv2 = uv2 + 1
-			end
-		elseif slot0.state == EventInfo.StateNone then
-			-- Nothing
-		elseif slot0.state == EventInfo.StateActive then
-			uv3 = uv3 + 1
+			switch(slot0:GetState(), {
+				[EventInfo.StateNone] = function ()
+					uv0 = uv0 + 1
+				end,
+				[EventInfo.StateActive] = function ()
+					uv0 = uv0 + 1
+				end,
+				[EventInfo.StateFinish] = function ()
+					uv0 = uv0 + 1
+				end
+			})
+		else
+			switch(slot0:GetState(), {
+				[EventInfo.StateNone] = function ()
+				end,
+				[EventInfo.StateActive] = function ()
+					uv0 = uv0 + 1
 
-			table.insert(uv4, slot0)
-		elseif slot0.state == EventInfo.StateFinish then
-			uv5 = uv5 + 1
+					table.insert(uv1, uv2)
+				end,
+				[EventInfo.StateFinish] = function ()
+					uv0 = uv0 + 1
 
-			table.insert(uv4, slot0)
+					table.insert(uv1, uv2)
+				end
+			})
 		end
 	end)
 
-	return {}, slot2 + 0, slot3 + 0, slot0.maxFleetNums - (slot2 + slot3) + 0
+	return {}, slot1 + 0, slot2 + 0, slot0.maxFleetNums - (slot1 + slot2) + 0
+end
+
+slot0.CheckAddActivityEvent = function(slot0)
+	slot1 = {}
+
+	for slot5, slot6 in pairs(slot0.eventDic) do
+		if slot6:IsActivityType() then
+			slot1[slot6.activityId] = slot1[slot6.activityId] or {}
+
+			table.insert(slot1[slot6.activityId], {
+				id = slot6.id
+			})
+		end
+	end
+
+	slot2 = {}
+	slot6 = ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT
+
+	for slot6, slot7 in ipairs(getProxy(ActivityProxy):getActivitiesByType(slot6)) do
+		if slot7 and not slot7:isEnd() then
+			table.insertto(slot2, slot1[slot7.id] or {})
+			table.insertto(slot2, slot7:GetCollectionList())
+		end
+	end
+
+	slot0:updateInfoList(slot2)
+
+	return #slot2 > 0
+end
+
+slot0.CanStartEvent = function(slot0)
+	return slot0:countBusyFleetNums() < slot0.maxFleetNums
 end
 
 return slot0

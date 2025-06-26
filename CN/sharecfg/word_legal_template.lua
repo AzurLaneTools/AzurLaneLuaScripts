@@ -874,6 +874,11 @@ temp = function()
 				}
 			}
 		},
+		["丝"] = {
+			["特"] = {
+				this = true
+			}
+		},
 		["姆"] = {
 			["登"] = {
 				this = true
@@ -3617,6 +3622,9 @@ temp = function()
 	uv0["泽"] = {
 		["西"] = {
 			this = true
+		},
+		["特"] = {
+			this = true
 		}
 	}
 end
@@ -6096,6 +6104,9 @@ temp = function()
 			["1"] = {
 				this = true
 			},
+			["3"] = {
+				this = true
+			},
 			["6"] = {
 				this = true
 			},
@@ -6603,6 +6614,24 @@ end
 temp()
 
 temp = function()
+	uv0["曾"] = {
+		["克"] = {
+			["海"] = {
+				["军"] = {
+					["上"] = {
+						["将"] = {
+							this = true
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["俾"] = {
 		["斯"] = {
 			["麦"] = {
@@ -6761,6 +6790,9 @@ temp = function()
 								}
 							}
 						}
+					},
+					["2"] = {
+						this = true
 					}
 				},
 				["2"] = {
@@ -6842,6 +6874,9 @@ temp = function()
 							}
 						}
 					}
+				},
+				["妮"] = {
+					this = true
 				}
 			}
 		},

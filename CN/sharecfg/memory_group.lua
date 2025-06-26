@@ -239,6 +239,7 @@ pg.memory_group = setmetatable({
 		330,
 		331,
 		332,
+		333,
 		501,
 		502,
 		503,
@@ -5856,6 +5857,27 @@ pg.base.memory_group = {
 		memories = {
 			4421,
 			4422
+		}
+	},
+	[333] = {
+		title = "迷彩都市的寻踪者",
+		subtype = 2,
+		link_event = 50013,
+		type = 2,
+		id = 333,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4451,
+			4452,
+			4453,
+			4454,
+			4455,
+			4456,
+			4457,
+			4458,
+			4459,
+			4460
 		}
 	},
 	[501] = {

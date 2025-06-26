@@ -1186,17 +1186,17 @@ slot0.flush = function(slot0)
 	slot0:updateEliteLimit()
 	slot0:updateEliteASValue()
 
-	slot0.lastFleetVaildStatus = slot0.lastFleetVaildStatus or {}
+	slot0.lastFleetValidStatus = slot0.lastFleetValidStatus or {}
 	slot1 = {
 		not slot0:IsListOfFleetEmpty(1) or nil,
 		not slot0:IsListOfFleetEmpty(2) or nil
 	}
 
-	if slot0.dutyTabEnabled and table.getCount(slot0.lastFleetVaildStatus) == 2 and table.getCount(slot1) == 1 then
+	if slot0.dutyTabEnabled and table.getCount(slot0.lastFleetValidStatus) == 2 and table.getCount(slot1) == 1 then
 		pg.TipsMgr.GetInstance():ShowTips(i18n("autofight_change_tip"))
 	end
 
-	slot0.lastFleetVaildStatus = slot1
+	slot0.lastFleetValidStatus = slot1
 
 	slot0:updateEliteFleets()
 	slot0:UpdateEliteSonarRange()

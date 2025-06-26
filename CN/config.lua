@@ -448,6 +448,7 @@ ShareCfg = {
 	["ShareCfg.dorm3d_graphic_setting"] = true,
 	["ShareCfg.dorm3d_ins_telephone_group"] = true,
 	["ShareCfg.task_data_template"] = true,
+	["ShareCfg.music_album"] = true,
 	["ShareCfg.emoji_small_template"] = true,
 	["ShareCfg.chapter_model_multistageboss"] = true,
 	["ShareCfg.expedition_island_template"] = true,

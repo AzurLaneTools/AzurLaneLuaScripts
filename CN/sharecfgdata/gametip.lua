@@ -12426,7 +12426,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累计建造200次可获得海上传奇舰船 {namecode:514}(最多4次)"
+	tip = "{namecode:545}、{namecode:546} 建造概率UP！"
 }
 
 
@@ -37230,11 +37230,11 @@ _G.pg.base.gametip.help_starLightAlbum = {
 		{
 			info = [[
 1. 回忆页面内新增「纪念手册」系统入口。
-2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动纪念章家具和活动勋章。
+2. 活动期间，指挥官可通过完成活动任务收集对应<color=#92fc63>「纪念贴纸」</color>兑换获得活动勋章。
  ※ 活动进行时，指挥官可在<color=#92fc63>活动页面或回忆界面</color>通过指定入口进入「纪念贴纸」收集页面；
  ※ 活动结束后指挥官将只能通过<color=#92fc63>回忆界面</color>指定入口进入「纪念贴纸」收集页面；
  ※ 「纪念贴纸」可以通过完成对应活动任务获取；
- ※ 奖励领取界面将延长至6月18日24时；]]
+ ※ 奖励领取界面将延长至7月16日24时；]]
 		}
 	}
 }
@@ -38838,4 +38838,112 @@ _G.pg.base.gametip.dorm3d_dance_button = {
 
 _G.pg.base.gametip.dorm3d_collection_cafe = {
 	tip = "咖啡馆"
+}
+
+
+_G.pg.base.gametip.zengke_series_help = {
+	tip = {
+		{
+			info = [[
+<b>活动时间：</b>
+·<color=#92fc63>6.26-7.10维护；</color>
+·活动期间开启限时活动「迷彩都市的寻踪者」。
+
+<b>活动说明：</b>
+·本次作战分为<color=#92fc63>【作战模式】</color>和<color=#92fc63>【剧情模式】</color>。
+·在【作战模式】中，指挥官可上阵多只队伍按照顺序分别挑战各个关卡，完成关卡内全部挑战后视为关卡通关并获得奖励。
+·同时，部分关卡可切换<color=#92fc63>「单队连战」</color>、<color=#92fc63>「多队出击」</color>两种模式：
+--「单队连战」为单只队伍挑战各个关卡。选择「单队连战」模式时，每个关卡开始前角色耐久值及各类状态均将重置。
+--「多队出击」为不同队伍挑战各个关卡。选择「多队出击」模式时，可获得额外奖励。
+
+·指挥官可以通过作战模式获取「都市电影票」，累计收集「都市电影票」可获得角色<color=#92fc63>「{namecode:498}」</color>、装备<color=#92fc63>「试作型三联装305mmSKC39主炮」</color>在内的大量奖励。
+
+·完成【剧情模式】的全部内容后，可获得限定纪念外观<color=#92fc63>「都市探照头罩」</color>。]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.zengke_series_pt = {
+	tip = "累积PT"
+}
+
+
+_G.pg.base.gametip.zengke_series_pt_small = {
+	tip = "PT REWARD"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank = {
+	tip = "排行榜"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank_small = {
+	tip = "RANKING"
+}
+
+
+_G.pg.base.gametip.zengke_series_task = {
+	tip = "活动任务"
+}
+
+
+_G.pg.base.gametip.zengke_series_task_small = {
+	tip = "TASK"
+}
+
+
+_G.pg.base.gametip.zengke_series_confirm = {
+	tip = "立即前往"
+}
+
+
+_G.pg.base.gametip.zengke_story_reward_count = {
+	tip = "通关全部剧情后可以获得限定纪念外观："
+}
+
+
+_G.pg.base.gametip.zengke_series_easy = {
+	tip = "简单"
+}
+
+
+_G.pg.base.gametip.zengke_series_normal = {
+	tip = "普通"
+}
+
+
+_G.pg.base.gametip.zengke_series_hard = {
+	tip = "困难"
+}
+
+
+_G.pg.base.gametip.zengke_series_sp = {
+	tip = "S.P"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex = {
+	tip = "E.X"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex_confirm = {
+	tip = "返回"
+}
+
+
+_G.pg.base.gametip.battleui_display1 = {
+	tip = "全新界面"
+}
+
+
+_G.pg.base.gametip.battleui_display2 = {
+	tip = "丰富特效"
+}
+
+
+_G.pg.base.gametip.battleui_display3 = {
+	tip = "暂停栏"
 }

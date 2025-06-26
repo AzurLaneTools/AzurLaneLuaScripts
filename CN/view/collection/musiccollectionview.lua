@@ -33,14 +33,17 @@ end
 slot0.initData = function(slot0)
 	slot0.bgmMgr = pg.BgmMgr.GetInstance()
 	slot0.appreciateProxy = getProxy(AppreciateProxy)
-	slot0.albumNames = underscore.keys(pg.music_collect_config.get_id_list_by_album_name)
+	slot0.albumNames = underscore.to_array(pg.music_album.all)
 
 	table.sort(slot0.albumNames, CompareFuncs({
 		function (slot0)
-			return pg.music_collect_config.get_id_list_by_album_name[slot0][1]
+			return -pg.music_album[slot0].order
 		end
 	}))
 
+	slot0.albumNames = underscore.map(slot0.albumNames, function (slot0)
+		return pg.music_album[slot0].album_name
+	end)
 	slot0.plateTFList = {}
 	slot0.albumTFList = {}
 	slot0.likeDic = {}
@@ -402,16 +405,10 @@ slot0.updatePlateListPanel = function(slot0)
 end
 
 slot0.updatePlateTF = function(slot0, slot1, slot2)
-	slot3 = slot0.likeValue == MusicCollectionConst.Filte_Like_Value
-	slot5 = slot3 and slot0.likeIds or slot0.appreciateProxy:getAlbumMusicList(slot0.tempPlateList[slot2])
 	slot6 = nil
 
-	if slot3 then
-		if #slot5 > 0 then
-			slot6 = pg.music_collect_config[slot5[#slot5]].cover
-		end
-	else
-		slot6 = pg.music_collect_config[slot5[1]].cover
+	if #(slot0.likeValue == MusicCollectionConst.Filte_Like_Value and slot0.likeIds or slot0.appreciateProxy:getAlbumMusicList(slot0.tempPlateList[slot2])) > 0 then
+		slot6 = pg.music_album[pg.music_collect_config[slot5[#slot5]].album_id].cover
 	end
 
 	setText(slot1:Find("PlateImg/empty/Text"), i18n("NewMusic_7"))
@@ -592,9 +589,9 @@ slot0.updateAlbumTF = function(slot0, slot1, slot2)
 
 	setText(slot1:Find("index"), string.format("%02d", slot2))
 
-	slot5 = pg.music_collect_config[slot0.appreciateProxy:getAlbumMusicList(slot3)[1]].cover
+	slot6 = pg.music_album[pg.music_collect_config[slot0.appreciateProxy:getAlbumMusicList(slot3)[1]].album_id].cover
 
-	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot5, slot5, slot1:Find("icon/face"), false)
+	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot6, slot6, slot1:Find("icon/face"), false)
 	changeToScrollText(slot1:Find("name"), slot3)
 	setActive(slot1:Find("icon/main"), slot3 == slot0.appreciateProxy:getMainPlayerAlbumName())
 	setActive(slot1:Find("playing"), slot0.musicPlayer and slot0.musicPlayer.albumName == slot3)
@@ -625,9 +622,9 @@ end
 
 slot0.updatePlayPanel = function(slot0, slot1)
 	slot3 = pg.music_collect_config[slot0.musicPlayer:GetCurrentMusicId()]
-	slot4 = slot3.cover
+	slot5 = pg.music_album[slot3.album_id].cover
 
-	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot4, slot4, slot0.songImg, false)
+	slot0.resLoader:LoadSprite(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. slot5, slot5, slot0.songImg, false)
 	changeToScrollText(slot0.playPanelNameText, slot3.name)
 	setActive(slot0.likeOnImg, slot0.likeDic[slot3.id])
 	setActive(slot0.playBtn, false)

@@ -2870,6 +2870,41 @@ pg.name_code = {
 		code = "小埃格妮丝",
 		nation = 0
 	},
+	[545] = {
+		name = "U-552",
+		type = 1,
+		id = 545,
+		code = "优可可妮",
+		nation = 0
+	},
+	[546] = {
+		name = "曾克海军上将",
+		type = 1,
+		id = 546,
+		code = "泽特",
+		nation = 0
+	},
+	[547] = {
+		name = "曾克",
+		type = 1,
+		id = 547,
+		code = "泽特",
+		nation = 0
+	},
+	[548] = {
+		name = "U552",
+		type = 1,
+		id = 548,
+		code = "优可可妮",
+		nation = 0
+	},
+	[549] = {
+		name = "U37",
+		type = 1,
+		id = 549,
+		code = "优米娜",
+		nation = 0
+	},
 	[10000] = {
 		name = "零战五二型",
 		type = 2,
