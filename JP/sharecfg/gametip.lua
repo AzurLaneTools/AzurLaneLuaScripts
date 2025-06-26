@@ -29698,7 +29698,7 @@ cs.gametip = {
 	},
 	zengke_series_serverinfo = {
 		1219287,
-		100,
+		101,
 		true
 	}
 }

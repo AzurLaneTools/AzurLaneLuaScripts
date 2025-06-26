@@ -44957,7 +44957,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				2,
-				"[晕头转向]"
+				"[スタンプ：[迷子]]"
 			}
 		}
 	},

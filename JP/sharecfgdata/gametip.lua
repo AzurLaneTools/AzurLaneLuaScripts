@@ -39472,5 +39472,5 @@ _G.pg.base.gametip.battleui_display3 = {
 
 
 _G.pg.base.gametip.zengke_series_serverinfo = {
-	tip = "サーバー"
+	tip = "サーバー:"
 }
