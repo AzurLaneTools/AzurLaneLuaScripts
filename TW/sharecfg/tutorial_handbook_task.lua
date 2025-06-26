@@ -1177,6 +1177,38 @@ pg.tutorial_handbook_task = {
 			}
 		}
 	},
+	[202701] = {
+		name = "養成計劃",
+		type = 2,
+		lock_name = "Lv.30",
+		eng_name = "HANDBOOK",
+		id = 202701,
+		pt = 68925,
+		unlock = {
+			23505
+		},
+		task_list = {
+			{
+				{
+					23089,
+					23090
+				},
+				{}
+			}
+		},
+		target = {
+			2
+		},
+		drop_client = {
+			{
+				{
+					2,
+					20001,
+					2
+				}
+			}
+		}
+	},
 	[202801] = {
 		name = "指揮喵",
 		type = 2,
@@ -1442,6 +1474,7 @@ pg.tutorial_handbook_task = {
 		202401,
 		202501,
 		202601,
+		202701,
 		202801,
 		202901,
 		203001,
