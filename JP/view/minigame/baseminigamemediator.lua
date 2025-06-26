@@ -25,9 +25,17 @@ slot0.register = function(slot0)
 	end
 
 	slot0:bind(BaseMiniGameMediator.MINI_GAME_SUCCESS, function (slot0, ...)
+		if table.contains(getGameset("live_streaming26_data1")[2], uv0.miniGameId) then
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildFushunAdventure())
+		end
+
 		uv0:OnMiniGameSuccess(...)
 	end)
 	slot0:bind(BaseMiniGameMediator.MINI_GAME_FAILURE, function (slot0, ...)
+		if table.contains(getGameset("live_streaming26_data1")[2], uv0.miniGameId) then
+			pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildFushunAdventure())
+		end
+
 		uv0:OnMiniGameFailure(...)
 	end)
 	slot0:bind(BaseMiniGameMediator.MINI_GAME_OPERATOR, function (slot0, ...)

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TBが演算抑制のためのリソース調整を始めたのを察知してか、密集していた敵が一斉にこちらへと襲いかかってきた。",

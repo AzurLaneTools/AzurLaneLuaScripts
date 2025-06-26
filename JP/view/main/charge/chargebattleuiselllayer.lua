@@ -5,6 +5,8 @@ slot0.getUIName = function(slot0)
 end
 
 slot0.init = function(slot0)
+	slot0.loader = AutoLoader.New()
+
 	slot0:InitData()
 	slot0:InitUI()
 	slot0:updateGiftWindow()
@@ -16,6 +18,8 @@ slot0.didEnter = function(slot0)
 end
 
 slot0.willExit = function(slot0)
+	slot0.loader:Clear()
+	UpdateBeat:RemoveListener(slot0.handle)
 	slot0:ClearPreviewer()
 	pg.UIMgr.GetInstance():UnblurPanel(slot0._tf)
 end
@@ -42,7 +46,7 @@ end
 
 slot0.InitUI = function(slot0)
 	slot0.bg = slot0:findTF("BG")
-	slot0.titleText = slot0:findTF("mainPanel/topBar/left/titleText")
+	slot0.titleText = slot0:findTF("mainPanel/topBar/left/nameMask/name")
 	slot0.tipText = slot0:findTF("mainPanel/topBar/left/tipText")
 	slot0.middleText = slot0:findTF("mainPanel/topBar/middle/Text")
 	slot0.closeBtn = slot0:findTF("mainPanel/topBar/right")
@@ -60,15 +64,14 @@ slot0.InitUI = function(slot0)
 	slot0.normalList = UIItemList.New(slot0:findTF("list", slot0.normalWindow), slot0.itemTpl)
 	slot0.specialList = UIItemList.New(slot0:findTF("list", slot0.specialWindow), slot0.itemTpl)
 
-	setText(slot0.titleText, "")
+	setScrollText(slot0.titleText, "")
 	setText(slot0.tipText, i18n("ui_pack_tip1"))
 	setText(slot0.normalText, i18n("ui_pack_tip2"))
 	setText(slot0.specialText, i18n("ui_pack_tip3"))
 
 	slot0.preview = slot0:findTF("mainPanel/main/preview")
 	slot0.sea = slot0:findTF("sea", slot0.preview)
-	slot4 = slot0.sea
-	slot0.rawImage = slot4:GetComponent("RawImage")
+	slot0.rawImage = slot0.sea:GetComponent("RawImage")
 
 	setActive(slot0.preview, false)
 	setActive(slot0.rawImage, false)
@@ -80,6 +83,27 @@ slot0.InitUI = function(slot0)
 		uv0:ClearPreviewer()
 		uv0:closeView()
 	end, SFX_PANEL)
+
+	slot0.tipsGo = slot0:findTF("mainPanel/topBar/left/tips")
+	slot0.tipsText = slot0:findTF("mainPanel/topBar/left/tips/text")
+	slot0.toggleList = UIItemList.New(slot0:findTF("mainPanel/topBar/left/elementList"), slot0:findTF("mainPanel/topBar/left/elementList/main_toggle"))
+	slot0.handle = UpdateBeat:CreateListener(slot0.UpdateClick, slot0)
+
+	UpdateBeat:AddListener(slot0.handle)
+end
+
+slot0.ShowTips = function(slot0, slot1)
+	setActive(slot0.tipsGo, slot1)
+end
+
+slot0.UpdateClick = function(slot0)
+	if UnityEngine.Input.GetMouseButtonDown(0) then
+		slot1 = slot0.toggleList
+
+		slot1:each(function (slot0, slot1)
+			GetComponent(slot1, typeof(Toggle)).isOn = false
+		end)
+	end
 end
 
 slot0.updateGiftWindow = function(slot0)
@@ -115,6 +139,7 @@ slot0.updateGiftWindow = function(slot0)
 		if slot0 == UIItemList.EventUpdate then
 			slot4 = uv0:findTF("Container", slot2):GetChild(0)
 			slot6 = uv1[slot1 + 1]
+			slot6.notPlay = true
 
 			updateDrop(slot4, slot6)
 			onButton(uv0, slot4, function ()
@@ -123,7 +148,7 @@ slot0.updateGiftWindow = function(slot0)
 			setScrollText(uv0:findTF("TextMask/Text", slot2), slot6:getName())
 
 			if uv0.titleText:GetComponent(typeof(Text)).text == "" then
-				setText(uv0.titleText, slot6:getName())
+				setScrollText(uv0.titleText, slot6:getName())
 			end
 		end
 	end)
@@ -141,6 +166,9 @@ slot0.updateGiftWindow = function(slot0)
 			slot6 = uv1[slot1 + 1]
 
 			updateDrop(slot4, slot6)
+
+			slot6.notPlay = true
+
 			onButton(uv0, slot4, function ()
 				uv0:emit(BaseUI.ON_DROP, uv1)
 			end, SFX_PANEL)
@@ -148,6 +176,7 @@ slot0.updateGiftWindow = function(slot0)
 		end
 	end)
 	slot0.specialList:align(#slot1)
+	slot0:InitTitle(slot1)
 end
 
 slot0.InitBattleShow = function(slot0)
@@ -230,6 +259,32 @@ slot0.InitBattleShow = function(slot0)
 		end)
 	end, SFX_PANEL)
 	triggerButton(slot0.startShowBtn)
+end
+
+slot0.InitTitle = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot1) do
+		if slot6.type == DROP_TYPE_COMBAT_UI_STYLE then
+			setScrollText(slot0.titleText, slot6:getName())
+
+			slot8 = pg.item_data_battleui[slot6.id]
+
+			slot0.loader:GetSpriteQuiet("ui/combatskinrare", string.format("rare_%s", slot8.rare), slot0:findTF("mainPanel/topBar/left/rareImage"))
+			slot0.toggleList:make(function (slot0, slot1, slot2)
+				if slot0 == UIItemList.EventUpdate then
+					slot3 = uv0.rare_display[slot1 + 1]
+
+					uv1.loader:GetSpriteQuiet("ui/combatskinrare", CombatSkinConst.TYPE_ICON_NAME[slot3], findTF(slot2, "on"))
+					uv1.loader:GetSpriteQuiet("ui/combatskinrare", string.format("%s_unselected", CombatSkinConst.TYPE_ICON_NAME[slot3]), findTF(slot2, "off"))
+					onToggle(uv1, slot2, function (slot0)
+						setText(uv0.tipsText, i18n("battleui_display" .. uv1))
+						setLocalPosition(uv0.tipsGo, uv0:findTF("mainPanel/topBar/left"):InverseTransformPoint(uv2.transform.position) + Vector3(-20, 46, 0))
+						uv0:ShowTips(slot0)
+					end, SFX_CONFIGM)
+				end
+			end)
+			slot0.toggleList:align(#slot8.rare_display)
+		end
+	end
 end
 
 slot0.ClearPreviewer = function(slot0)

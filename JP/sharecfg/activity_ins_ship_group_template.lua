@@ -4664,6 +4664,30 @@ pg.activity_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[40407] = {
+		ship_group = 40407,
+		name = "Admiral Zenker",
+		background = "",
+		sculpture = "zengkehaijunshangjiang",
+		nationality = 4,
+		type = 1
+	},
+	[40814] = {
+		ship_group = 40814,
+		name = "U.B.552",
+		background = "",
+		sculpture = "U552",
+		nationality = 4,
+		type = 1
+	},
+	[40113] = {
+		ship_group = 40113,
+		name = "AAAZielplanerin13",
+		background = "",
+		sculpture = "Z13",
+		nationality = 4,
+		type = 1
+	},
 	all = {
 		30701,
 		30702,
@@ -5247,6 +5271,9 @@ pg.activity_ins_ship_group_template = {
 		10511,
 		10121,
 		10122,
-		30149
+		30149,
+		40407,
+		40814,
+		40113
 	}
 }

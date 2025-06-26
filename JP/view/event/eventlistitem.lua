@@ -43,11 +43,11 @@ slot0.UpdateTime = function(slot0)
 
 	slot1 = pg.TimeMgr.GetInstance():GetServerTime()
 
-	if slot0.event.state == EventInfo.StateNone then
+	if slot0.event:GetState() == EventInfo.StateNone then
 		slot0.labelTime.gameObject:SetActive(true)
 
 		slot0.labelTime.text = pg.TimeMgr.GetInstance():DescCDTime(slot0.event.template.collect_time)
-	elseif slot0.event.state == EventInfo.StateActive then
+	elseif slot2 == EventInfo.StateActive then
 		slot0.labelTime.gameObject:SetActive(true)
 
 		if slot1 <= slot0.event.finishTime then
@@ -55,26 +55,26 @@ slot0.UpdateTime = function(slot0)
 		else
 			slot0.labelTime.text = "00:00:00"
 		end
-	elseif slot0.event.state == EventInfo.StateFinish then
+	elseif slot2 == EventInfo.StateFinish then
 		slot0.labelTime.gameObject:SetActive(false)
 	end
 
-	if slot0.event:GetCountDownTime() and slot2 >= 0 then
+	if slot0.event:GetCountDownTime() and slot3 >= 0 then
 		slot0.timeLimit:SetActive(true)
 
-		slot0.labelLimitTime.text = pg.TimeMgr.GetInstance():DescCDTime(slot2)
+		slot0.labelLimitTime.text = pg.TimeMgr.GetInstance():DescCDTime(slot3)
 	else
 		slot0.timeLimit:SetActive(false)
 	end
 
-	SetActive(slot0.mark, slot0.event.state == EventInfo.StateFinish)
+	SetActive(slot0.mark, slot2 == EventInfo.StateFinish)
 end
 
 slot0.Flush = function(slot0)
 	slot0.bgNormal:SetActive(slot0.event.template.type ~= 2)
 	slot0.bgEmergence:SetActive(slot0.event.template.type == 2)
 
-	if slot0.event.state == EventInfo.StateFinish then
+	if slot0.event:GetState() == EventInfo.StateFinish then
 		slot0.iconTip:SetActive(true)
 	else
 		slot0.iconTip:SetActive(false)
@@ -91,7 +91,7 @@ slot0.Flush = function(slot0)
 	slot0.label.color = slot1 and Color.New(0.9411764705882353, 0.803921568627451, 1, 1) or Color.New(0.6431372549019608, 0.8117647058823529, 0.9725490196078431, 1)
 
 	eachChild(slot0.iconState, function (slot0)
-		setActive(slot0, slot0.gameObject.name == tostring(uv0.event.state))
+		setActive(slot0, slot0.gameObject.name == tostring(uv0.event:GetState()))
 	end)
 
 	slot0.labelLv.text = "" .. slot0.event.template.lv

@@ -337,6 +337,14 @@ slot0.commonBind = function(slot0)
 						id = slot2.cfg.id
 					}
 				}))
+			elseif slot2.type == DROP_TYPE_COMBAT_UI_STYLE and not slot2.notPlay then
+				slot0:addSubLayers(Context.New({
+					mediator = CombatSkinInfoMediator,
+					viewComponent = CombatSkinInfoLayer,
+					data = {
+						skinID = slot2:getConfig("id")
+					}
+				}))
 			else
 				pg.MsgboxMgr.GetInstance():ShowMsgBox({
 					type = MSGBOX_TYPE_SINGLE_ITEM,

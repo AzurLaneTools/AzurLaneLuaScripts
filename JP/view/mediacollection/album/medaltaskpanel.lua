@@ -47,25 +47,26 @@ slot0.UpdateList = function(slot0, slot1)
 	slot0.UIlist:make(function (slot0, slot1, slot2)
 		if slot0 == UIItemList.EventUpdate then
 			slot3 = uv0[slot1 + 1]
-			slot6 = slot2:Find("frame/awards")
-			slot8 = slot2:Find("frame/get_btn")
-			slot10 = slot2:Find("frame/go_btn")
+			slot7 = slot2:Find("frame/awards")
+			slot9 = slot2:Find("frame/get_btn")
+			slot11 = slot2:Find("frame/go_btn")
 
 			setText(slot2:Find("frame/desc"), slot3:getConfig("desc"))
 
-			slot11, slot12 = uv1:getTaskProgress(slot3)
-			slot13, slot14 = uv1:getTaskTarget(slot3)
-			slot2:Find("frame/slider"):GetComponent(typeof(Slider)).value = slot11 / slot13
+			slot12, slot13 = uv1:getTaskProgress(slot3)
+			slot14, slot15 = uv1:getTaskTarget(slot3)
+			slot2:Find("frame/slider"):GetComponent(typeof(Slider)).value = slot12 / slot14
 
-			setText(slot2:Find("frame/progress"), slot12 .. "/" .. slot14)
-			uv1:updateAwards(slot3:getConfig("award_display"), slot6, slot6:GetChild(0))
+			setText(slot2:Find("frame/progress"), slot13)
+			setText(slot2:Find("frame/progress_1"), "/" .. slot15)
+			uv1:updateAwards(slot3:getConfig("award_display"), slot7, slot7:GetChild(0))
 			setActive(slot2:Find("frame/got_btn"), slot3:getTaskStatus() == 2)
-			setActive(slot8, slot3:getTaskStatus() == 1)
-			setActive(slot10, slot3:getTaskStatus() == 0)
-			onButton(uv1, slot10, function ()
+			setActive(slot9, slot3:getTaskStatus() == 1)
+			setActive(slot11, slot3:getTaskStatus() == 0)
+			onButton(uv1, slot11, function ()
 				uv0._parent:emit(MedalAlbumTemplateMediator.ON_TASK_GO, uv1)
 			end, SFX_PANEL)
-			onButton(uv1, slot8, function ()
+			onButton(uv1, slot9, function ()
 				uv0._parent:emit(MedalAlbumTemplateMediator.ON_TASK_SUBMIT, uv1)
 			end, SFX_PANEL)
 		end

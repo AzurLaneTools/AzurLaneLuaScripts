@@ -175,6 +175,7 @@ pg.furniture_data_template = setmetatable({
 			303,
 			304,
 			307,
+			308,
 			100002,
 			100003,
 			100004,
@@ -3423,6 +3424,28 @@ pg.furniture_data_template = setmetatable({
 			322114,
 			322115,
 			322116
+		},
+		[123] = {
+			324001,
+			324002,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118
 		}
 	},
 	get_id_list_by_tag = {
@@ -5442,7 +5465,24 @@ pg.furniture_data_template = setmetatable({
 			322112,
 			322113,
 			322114,
-			322115
+			322115,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117
 		},
 		{
 			1108,
@@ -5707,6 +5747,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			308,
 			100002,
 			100003,
 			100004,
@@ -6053,7 +6094,8 @@ pg.furniture_data_template = setmetatable({
 			321114,
 			322116,
 			323101,
-			323102
+			323102,
+			324118
 		},
 		[4] = {
 			1001,
@@ -6163,7 +6205,8 @@ pg.furniture_data_template = setmetatable({
 			320001,
 			321001,
 			322001,
-			323001
+			323001,
+			324001
 		},
 		[3] = {
 			1002,
@@ -6274,7 +6317,8 @@ pg.furniture_data_template = setmetatable({
 			320002,
 			321002,
 			322002,
-			323002
+			323002,
+			324002
 		},
 		[5] = {
 			1301,
@@ -6757,7 +6801,8 @@ pg.furniture_data_template = setmetatable({
 			320002,
 			321002,
 			322002,
-			323002
+			323002,
+			324002
 		},
 		[7] = {
 			1,
@@ -8979,7 +9024,24 @@ pg.furniture_data_template = setmetatable({
 			322114,
 			322115,
 			322116,
-			323101
+			323101,
+			324101,
+			324102,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118
 		},
 		[11] = {
 			143,
@@ -8988,6 +9050,7 @@ pg.furniture_data_template = setmetatable({
 			244,
 			281,
 			282,
+			308,
 			100003,
 			100008,
 			100021,
@@ -9533,7 +9596,8 @@ pg.furniture_data_template = setmetatable({
 			320001,
 			321001,
 			322001,
-			323001
+			323001,
+			324001
 		},
 		[5] = {
 			1101,
@@ -9684,7 +9748,8 @@ pg.furniture_data_template = setmetatable({
 			309105,
 			310101,
 			316107,
-			321115
+			321115,
+			324103
 		},
 		[3] = {
 			1108,
@@ -10058,6 +10123,7 @@ pg.furniture_data_template = setmetatable({
 		303,
 		304,
 		307,
+		308,
 		100002,
 		100003,
 		100004,
@@ -13087,7 +13153,27 @@ pg.furniture_data_template = setmetatable({
 		323001,
 		323002,
 		323101,
-		323102
+		323102,
+		324001,
+		324002,
+		324101,
+		324102,
+		324103,
+		324104,
+		324105,
+		324106,
+		324107,
+		324108,
+		324109,
+		324110,
+		324111,
+		324112,
+		324113,
+		324114,
+		324115,
+		324116,
+		324117,
+		324118
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21588,6 +21674,93 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
+	[308] = {
+		can_rotate = 0,
+		describe = "ルーフにはプロの撮影機材を搭載、複雑な地形でもスムーズに撮影可能！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "sheyingcheicon",
+		count = 1,
+		name = "黒い高級中継車",
+		advice = 0,
+		id = 308,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingcheB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"sheyingcheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-8,
+					15.8
+				},
+				{
+					120,
+					100
+				},
+				"chuanmo/sheyingche_mask"
+			},
+			{
+				5.8,
+				-13.6
+			},
+			{
+				1,
+				1
+			},
+			0.4
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		can_rotate = 0,
 		describe = "ゆゆゆ友情パワーだぴょぴょぴょぴょ………",
@@ -26633,7 +26806,7 @@ pg.base.furniture_data_template = {
 	},
 	[100074] = {
 		can_rotate = 0,
-		describe = "我是一个小幽灵~看不见的小幽灵~",
+		describe = "わたしは幽霊～誰にも見えない小さな幽霊なの～",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -26652,7 +26825,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		icon = "yinshendoupengicon",
 		count = 1,
-		name = "幽灵隐身衣",
+		name = "幽霊スーツ",
 		advice = 0,
 		id = 100074,
 		tag = 6,
@@ -157272,6 +157445,917 @@ pg.base.furniture_data_template = {
 				1
 			},
 			0.8
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324001] = {
+		can_rotate = 0,
+		describe = "列車に乗って、レールのリズムと車窓の風景を感じよう",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/dibancz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "鉄道の旅床",
+		advice = 0,
+		icon = "dibanczicon",
+		id = 324001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324002] = {
+		can_rotate = 0,
+		describe = "列車に乗って、レールのリズムと車窓の風景を感じよう",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "鉄道の旅壁",
+		advice = 0,
+		id = 324002,
+		icon = "qiangbiczicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324101] = {
+		can_rotate = 0,
+		describe = "よくある駅のベンチ、待ち時間のひと休みにどうぞ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 123,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "changyiczicon",
+		count = 1,
+		name = "駅ホームベンチ",
+		advice = 0,
+		id = 324101,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changyicz",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324102] = {
+		can_rotate = 0,
+		describe = "旅の疲れはソファでごろりと癒やそう",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/shafacz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 2,
+		name = "列車用ソファ",
+		advice = 0,
+		id = 324102,
+		icon = "shafaczicon",
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					23.2,
+					18.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324103] = {
+		can_rotate = 0,
+		describe = "ふかふかのカーペット、足取りも軽やかに！",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/ditancz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "列車用カーペット",
+		advice = 0,
+		icon = "ditanczicon",
+		id = 324103,
+		comfortable = 2,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324104] = {
+		can_rotate = 0,
+		describe = "ピポッ——お客さん、何か買いますか？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "駅ホーム自販機",
+		advice = 0,
+		id = 324104,
+		icon = "fanmaijiczicon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fanmaijicz",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324105] = {
+		can_rotate = 1,
+		describe = "関係者以外立ち入り禁止ですよ～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/fengsuodaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "立入禁止テープ",
+		advice = 0,
+		icon = "fengsuodaiczicon",
+		id = 324105,
+		comfortable = 1,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324106] = {
+		can_rotate = 0,
+		describe = "本列車へのご乗車、誠にありがとうございますピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "車掌饅頭",
+		advice = 0,
+		id = 324106,
+		icon = "jiashijiuczicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiashijiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324107] = {
+		can_rotate = 0,
+		describe = "乗務員だけの持ち場！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/jiashitaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "乗務員席",
+		advice = 0,
+		icon = "jiashitaiczicon",
+		id = 324107,
+		comfortable = 3,
+		size = {
+			4,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324108] = {
+		can_rotate = 0,
+		describe = "丁寧に整備された車両、ピカピカで新品も同然！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "列車車両",
+		advice = 0,
+		id = 324108,
+		icon = "liecheqiangmianczicon",
+		comfortable = 2,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liecheqiangmiancz",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324109] = {
+		can_rotate = 0,
+		describe = "手すりにつかまって、足元にご注意を～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "駅ホーム階段",
+		advice = 0,
+		id = 324109,
+		icon = "louticzicon",
+		comfortable = 3,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"louticz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324110] = {
+		can_rotate = 1,
+		describe = "これで発車時間を逃さずに済む……はず？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "駅ホーム時計",
+		advice = 0,
+		id = 324110,
+		icon = "shizhongczicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongcz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324111] = {
+		can_rotate = 0,
+		describe = "荷物はカートにお任せあれ",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/tuichecz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "駅のカート",
+		advice = 0,
+		icon = "tuicheczicon",
+		id = 324111,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324112] = {
+		can_rotate = 0,
+		describe = "コンパクトで実用的、ふかふかクッションで快適な旅を！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/xiaodengzicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "列車用椅子",
+		advice = 0,
+		id = 324112,
+		icon = "xiaodengziczicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.5,
+					51.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324113] = {
+		can_rotate = 0,
+		describe = "すべての場所の安全を確認するピョ！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "巡回駅員饅頭",
+		advice = 0,
+		id = 324113,
+		icon = "xunluojiuczicon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324114] = {
+		can_rotate = 0,
+		describe = "運行状況が一目でわかる！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhanpaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "駅の案内板",
+		advice = 0,
+		icon = "zhanpaiczicon",
+		id = 324114,
+		comfortable = 2,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324115] = {
+		can_rotate = 0,
+		describe = "旅の疲れは座ってひと休み～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuoyi1cz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "列車用座席1",
+		advice = 0,
+		id = 324115,
+		icon = "zhuoyi1czicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-44.2,
+					12.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324116] = {
+		can_rotate = 0,
+		describe = "旅の疲れは座ってひと休み～",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuoyi2cz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "列車用座席2",
+		advice = 0,
+		icon = "zhuoyi2czicon",
+		id = 324116,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324117] = {
+		can_rotate = 0,
+		describe = "旅の途中でも、美味しい食事をしっかり楽しもう！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuozicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "列車用テーブル",
+		advice = 0,
+		icon = "zhuoziczicon",
+		id = 324117,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324118] = {
+		can_rotate = 0,
+		describe = "駅でトランクを開けて、何を探してるのかな？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 123,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "xinglixiangczicon",
+		count = 1,
+		name = "大型トランク",
+		advice = 0,
+		id = 324118,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xinglixiangczB",
+				"normal"
+			},
+			{
+				"xinglixiangczT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						nil,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"stand2",
+						"stand2",
+						false,
+						true
+					}
+				},
+				{
+					0
+				},
+				{
+					{
+						"walk2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
 		},
 		followBone = {
 			"char",

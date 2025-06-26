@@ -26524,6 +26524,131 @@ _G.pg.base.item_data_statistics[30368] = {
 }
 
 
+_G.pg.base.item_data_statistics[30369] = {
+	open_directly = 1,
+	name = "装備外装箱(鉄道の旅)",
+	type = 11,
+	display = "ランダムの装備外装を入手可能",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtiedao",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30369",
+	id = 30369,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "ランダム装備外装",
@@ -39746,6 +39871,219 @@ _G.pg.base.item_data_statistics[30555] = {
 		{
 			9,
 			4184,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30556] = {
+	open_directly = 0,
+	name = "選択装備外装箱（鉄道の旅）",
+	type = 13,
+	display = "使用すると、装備外装（鉄道の旅）から任意の装備外装を1個選択して入手できます",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtiedaozixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30556,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
 			1
 		}
 	},

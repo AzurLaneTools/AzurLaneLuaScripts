@@ -660,6 +660,183 @@ pg.activity_medal_template = {
 		id = 597107,
 		medal_asset = "ActivityMedal/597107"
 	},
+	[5002101] = {
+		activity_medal_desc = "夜が更け、黒服が出動。次のターゲットは──誰だ？",
+		next_medal = 0,
+		item = 65632,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "1",
+		task_id = 21777,
+		activity_medal_name = "ステッカー：謎の黒服",
+		id = 5002101,
+		medal_asset = "ActivityMedal/5002101"
+	},
+	[5002102] = {
+		activity_medal_desc = "こっちに……容疑者発見！",
+		next_medal = 0,
+		item = 65633,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "2",
+		task_id = 21778,
+		activity_medal_name = "ステッカー：逮捕状",
+		id = 5002102,
+		medal_asset = "ActivityMedal/5002102"
+	},
+	[5002103] = {
+		activity_medal_desc = "旗についてきて！他の観光客の質問には答えちゃダメ、絶対！",
+		next_medal = 0,
+		item = 65634,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "3",
+		task_id = 21779,
+		activity_medal_name = "ステッカー：ガイド旗",
+		id = 5002103,
+		medal_asset = "ActivityMedal/5002103"
+	},
+	[5002104] = {
+		activity_medal_desc = "こいつとスピード勝負したいって？",
+		next_medal = 0,
+		item = 65635,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "4",
+		task_id = 21780,
+		activity_medal_name = "ステッカー：マシン",
+		id = 5002104,
+		medal_asset = "ActivityMedal/5002104"
+	},
+	[5002105] = {
+		activity_medal_desc = "ウサウサセキュリティ、現場に到着ですわ♪気を付けてね～捜査の応援に来ましたから！",
+		next_medal = 0,
+		item = 65636,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "5",
+		task_id = 21781,
+		activity_medal_name = "ステッカー：ウサウサ巡査",
+		id = 5002105,
+		medal_asset = "ActivityMedal/5002105"
+	},
+	[5002106] = {
+		activity_medal_desc = "制帽を被って、条例を復唱せよ……忘れたら十回書き取りの刑！",
+		next_medal = 0,
+		item = 65637,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "6",
+		task_id = 21782,
+		activity_medal_name = "ステッカー：制帽",
+		id = 5002106,
+		medal_asset = "ActivityMedal/5002106"
+	},
+	[5002107] = {
+		activity_medal_desc = "ずーっと見てるよ……ずっと……見てるからね……",
+		next_medal = 0,
+		item = 65638,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "7",
+		task_id = 21783,
+		activity_medal_name = "ステッカー：逃げ場なし",
+		id = 5002107,
+		medal_asset = "ActivityMedal/5002107"
+	},
+	[5002108] = {
+		activity_medal_desc = "真実はいつもひとつ！犯人は……お前だ！",
+		next_medal = 0,
+		item = 65639,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "8",
+		task_id = 21784,
+		activity_medal_name = "記念ステッカー：調査映像",
+		id = 5002108,
+		medal_asset = "ActivityMedal/5002108"
+	},
+	get_id_list_by_group = {
+		[5711] = {
+			571101,
+			571102,
+			571103,
+			571104,
+			571105,
+			571106,
+			571107,
+			571108
+		},
+		[5769] = {
+			576901,
+			576902,
+			576903,
+			576904,
+			576905,
+			576906,
+			576907,
+			576908
+		},
+		[5812] = {
+			581201,
+			581202,
+			581203,
+			581204,
+			581205,
+			581206,
+			581207,
+			581208
+		},
+		[5875] = {
+			587501,
+			587502,
+			587503,
+			587504,
+			587505,
+			587506,
+			587507,
+			587508
+		},
+		[5913] = {
+			591301,
+			591302,
+			591303,
+			591304,
+			591305,
+			591306,
+			591307,
+			591308
+		},
+		[5970] = {
+			597001,
+			597002,
+			597003,
+			597004,
+			597005,
+			597006,
+			597007,
+			597008
+		},
+		[5971] = {
+			597101,
+			597102,
+			597103,
+			597104,
+			597105,
+			597106,
+			597107
+		},
+		[50021] = {
+			5002101,
+			5002102,
+			5002103,
+			5002104,
+			5002105,
+			5002106,
+			5002107,
+			5002108
+		}
+	},
 	all = {
 		571101,
 		571102,
@@ -715,6 +892,14 @@ pg.activity_medal_template = {
 		597104,
 		597105,
 		597106,
-		597107
+		597107,
+		5002101,
+		5002102,
+		5002103,
+		5002104,
+		5002105,
+		5002106,
+		5002107,
+		5002108
 	}
 }

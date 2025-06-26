@@ -7,7 +7,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			soundeffect = "event:/battle/boom2",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "ドォォォン！！",

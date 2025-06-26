@@ -27,7 +27,7 @@ end
 
 slot0.OnLoaded = function(slot0)
 	slot0.closeBtn = slot0:findTF("top/close")
-	slot0.sea = slot0:findTF("sea"):GetComponent(typeof(RawImage))
+	slot0.sea = slot0:findTF("bg/sea"):GetComponent(typeof(RawImage))
 	slot0.titleTxt = slot0:findTF("top/title/Text"):GetComponent(typeof(Text))
 	slot0.logBtn = slot0:findTF("bottom/log_btn")
 	slot0.formationBtn = slot0:findTF("bottom/formationBtn")

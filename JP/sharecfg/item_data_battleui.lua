@@ -1,148 +1,190 @@
 pg = pg or {}
 pg.item_data_battleui = {
 	[0] = {
-		unlock = "デフォルト",
 		name = "オリジナル",
 		key = "Standard",
 		display_icon = "ui_0",
+		unlock = "デフォルト",
 		is_unlock = 0,
 		rare = 2,
 		desc = "思い出溢れるオリジナル戦闘UI。数え切れない戦いを一緒に経験してきただけあって、実用性は十分",
 		id = 0,
 		icon = "0",
-		scene = {}
+		scene = {},
+		rare_display = {}
 	},
 	[101] = {
-		unlock = "デフォルト",
 		name = "リメイク",
 		key = "SkinNormal_20240701",
 		display_icon = "ui_101",
+		unlock = "デフォルト",
 		is_unlock = 0,
 		rare = 2,
 		desc = "カラーリングやデザインを工夫したリメイクUI、より躍動感ある体験を指揮官にお届け",
 		id = 101,
 		icon = "101",
-		scene = {}
+		scene = {},
+		rare_display = {}
 	},
 	[102] = {
-		unlock = "クルーズパス19期報酬",
 		name = "サイバー",
 		key = "SkinNormal_20240912",
 		display_icon = "ui_102",
+		unlock = "クルーズパス19期報酬",
 		is_unlock = 1,
 		rare = 3,
 		desc = "サイバー風のUI。アニメーションやライティングなどの演出が随所にあり、SF好きな指揮官に没入体験を提供する",
 		id = 102,
 		icon = "102",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[103] = {
-		unlock = "ショップ購入",
 		name = "レインボー",
 		key = "SkinNormal_20240913",
 		display_icon = "ui_103",
+		unlock = "ショップ購入",
 		is_unlock = 1,
 		rare = 4,
 		desc = "表現力豊かで調和の取れた色合いのUI。リズムに合わせて躍動する指揮画面は、ポップな雰囲気を好む指揮官に最適",
 		id = 103,
 		icon = "103",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[104] = {
-		unlock = "クルーズパス20期報酬",
 		name = "ネオン",
 		key = "SkinNormal_20241107",
 		display_icon = "ui_104",
+		unlock = "クルーズパス20期報酬",
 		is_unlock = 1,
 		rare = 3,
 		desc = "煌めくネオンにリズミックなビーム演出で流れるような体験をもたらす",
 		id = 104,
 		icon = "104",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[105] = {
-		unlock = "クルーズパス21期報酬",
 		name = "ライト",
 		key = "SkinNormal_20250123",
 		display_icon = "ui_105",
+		unlock = "クルーズパス21期報酬",
 		is_unlock = 1,
 		rare = 3,
 		desc = "神聖、重厚、煌びやか。指揮官の全ての戦闘をよりエピックに",
 		id = 105,
 		icon = "105",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[106] = {
-		unlock = "クルーズパス22期報酬",
 		name = "デビル",
 		key = "SkinNormal_20250327",
 		display_icon = "ui_106",
+		unlock = "クルーズパス22期報酬",
 		is_unlock = 1,
 		rare = 3,
 		desc = "悪魔的な雰囲気が溢れ出る指揮インターフェイス。血色のフレームと魔法陣がデンジャラスでダークな世界へと誘う",
 		id = 106,
 		icon = "106",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[107] = {
-		unlock = "クルーズパス23期報酬",
 		name = "ステラ",
 		key = "SkinNormal_20250529",
 		display_icon = "ui_107",
+		unlock = "クルーズパス23期報酬",
 		is_unlock = 1,
 		rare = 3,
 		desc = "星々の輝きが煌き、ミステリアスな模様が銀河の輪郭を映し出し、一つ一つの細部が宇宙への探求と冒険を物語っている。",
 		id = 107,
 		icon = "107",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1
+		}
 	},
 	[201] = {
-		unlock = "ショップ購入（戦闘UI・クリスマス）",
 		name = "クリスマス",
 		key = "SkinNormal_20241209",
 		display_icon = "ui_201",
+		unlock = "ショップ購入（戦闘UI・クリスマス）",
 		is_unlock = 1,
 		rare = 4,
 		desc = "舞い散る雪と霜が描き出すおとぎ話の景色。冬の雰囲気を愛する指揮官にもたらす戦場のウィンターロマンス",
 		id = 201,
 		icon = "201",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[202] = {
-		unlock = "ショップ購入（戦闘UI・ファラオ）",
 		name = "ファラオ",
 		key = "SkinNormal_20250227",
 		display_icon = "ui_202",
+		unlock = "ショップ購入（戦闘UI・ファラオ）",
 		is_unlock = 1,
 		rare = 4,
 		desc = "古の文字に黄金の模様。ナイル文明の悠久なる伝説を物語っている",
 		id = 202,
 		icon = "202",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[203] = {
-		unlock = "ショップ購入（戦闘UI・ジーン）",
 		name = "ジーン",
 		key = "SkinElite_20250327",
 		display_icon = "ui_203",
+		unlock = "ショップ購入（戦闘UI・ジーン）",
 		is_unlock = 1,
 		rare = 4,
 		desc = "未来的な指揮インターフェイス。白いパネルと血色の回路が緻密的かつ緊張感あふれる雰囲気を醸し出す",
 		id = 203,
 		icon = "203",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	[204] = {
-		unlock = "ショップ購入（戦闘UI・シーサイド）",
 		name = "シーサイド",
 		key = "SkinElite_20250520",
 		display_icon = "ui_204",
+		unlock = "ショップ購入（戦闘UI・シーサイド）",
 		is_unlock = 1,
 		rare = 4,
 		desc = "砂浜に立てられた木の板、貝殻に飾られる白波――海辺でのバカンスはゆったり、のんびり",
 		id = 204,
 		icon = "204",
-		scene = {}
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
 	},
 	all = {
 		0,

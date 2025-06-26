@@ -40,18 +40,19 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		uv0:onFuncClick()
 	end, SFX_PANEL)
 	onButton(slot0, slot0.recommentBtn, function ()
-		slot0 = getProxy(BayProxy)
-		slot2 = slot0:getDelegationRecommendShipsLV1(uv0.event)
-
-		if #slot0:getDelegationRecommendShips(uv0.event) == 0 and #slot2 > 0 then
+		if #getProxy(BayProxy):getDelegationRecommendShips(uv0.event) > 0 then
+			table.insertto(uv0.event.shipIds, slot1)
+			uv0:Flush()
+		elseif #slot0:getDelegationRecommendShipsLV1(uv0.event) > 0 then
 			pg.MsgboxMgr.GetInstance():ShowMsgBox({
 				content = i18n("event_recommend_level1"),
 				onYes = function ()
-					uv0.dispatch(EventConst.EVENT_RECOMMEND_LEVEL1, uv0.event)
+					table.insertto(uv0.event.shipIds, uv1)
+					uv0:Flush()
 				end
 			})
-		else
-			uv0.dispatch(EventConst.EVENT_RECOMMEND, uv0.event)
+		elseif not uv0.event:reachNum() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("event_recommend_fail"))
 		end
 	end)
 	onButton(slot0, slot0.usePrevFormationBtn, function ()
@@ -68,18 +69,46 @@ end
 
 slot0.UsePrevFormation = function(slot0)
 	if slot0.event and slot0.event:ExistPrevFormation() then
-		slot0.dispatch(EventConst.EVEN_USE_PREV_FORMATION, slot0.event, slot0.event:GetPrevFormation())
+		slot2 = {}
+		slot3 = false
+		slot4 = false
+		slot8 = slot0.event:GetPrevFormation()
+
+		for slot8, slot9 in ipairs(getProxy(BayProxy):getShipList(slot8)) do
+			if slot9 then
+				slot10, slot11 = ShipStatus.ShipStatusConflict("inEvent", slot9)
+
+				if slot10 == ShipStatus.STATE_CHANGE_FAIL then
+					slot3 = true
+				elseif slot10 == ShipStatus.STATE_CHANGE_CHECK then
+					slot4 = true
+				else
+					table.insert(slot2, slot9.id)
+				end
+			end
+		end
+
+		if slot3 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip"))
+		end
+
+		if slot4 then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("collect_tip2"))
+		end
+
+		slot0.event:setShipIds(slot2)
+		slot0:Flush()
 	end
 end
 
 slot0.Flush = function(slot0)
-	setActive(slot0.usePrevFormationBtn, slot0.event:ExistPrevFormation() and slot0.event.state == EventInfo.StateNone and slot0.event:CanRecordPrevFormation())
+	setActive(slot0.usePrevFormationBtn, slot0.event:ExistPrevFormation() and slot0.event:GetState() == EventInfo.StateNone and slot0.event:CanRecordPrevFormation())
 	eachChild(slot0.btn, function (slot0)
-		if uv0.event.state == EventInfo.StateNone and slot0.name == "start" then
+		if uv0.event:GetState() == EventInfo.StateNone and slot0.name == "start" then
 			SetActive(slot0, true)
-		elseif uv0.event.state == EventInfo.StateActive and slot0.name == "giveup" then
+		elseif slot1 == EventInfo.StateActive and slot0.name == "giveup" then
 			SetActive(slot0, true)
-		elseif uv0.event.state == EventInfo.StateFinish and slot0.name == "finish" then
+		elseif slot1 == EventInfo.StateFinish and slot0.name == "finish" then
 			SetActive(slot0, true)
 		else
 			SetActive(slot0, false)
@@ -91,7 +120,7 @@ slot0.Flush = function(slot0)
 
 	SetActive(slot0.disabeleBtn, not slot0.event:reachLevel() or not slot2 or not slot3)
 
-	slot4 = slot0.event.ships
+	slot4 = slot0.event:getShipList()
 	slot5 = slot0.event.template
 
 	setScrollText(slot0.condition1, slot0:setConditionStr(i18n("event_condition_ship_level", slot5.ship_lv), slot1))
@@ -126,7 +155,7 @@ slot0.Flush = function(slot0)
 		end
 	end
 
-	if slot0.event.state == EventInfo.StateNone then
+	if slot0.event:GetState() == EventInfo.StateNone then
 		SetActive(slot0.recommentBtn, true)
 		SetActive(slot0.recommentDisable, false)
 	else
@@ -144,25 +173,24 @@ slot0.Clear = function(slot0)
 end
 
 slot0.onChangeClick = function(slot0)
-	if slot0.event.state == EventInfo.StateNone then
+	if slot0.event:GetState() == EventInfo.StateNone then
 		slot0.dispatch(EventConst.EVENT_OPEN_DOCK, slot0.event)
 	end
 end
 
 slot0.onRemoveClick = function(slot0, slot1)
-	if slot0.event.state == EventInfo.StateNone then
+	if slot0.event:GetState() == EventInfo.StateNone then
 		table.remove(slot0.event.shipIds, slot1)
-		table.remove(slot0.event.ships, slot1)
 		slot0:Flush()
 	end
 end
 
 slot0.onFuncClick = function(slot0)
-	if slot0.event.state == EventInfo.StateNone then
+	if slot0.event:GetState() == EventInfo.StateNone then
 		slot0.dispatch(EventConst.EVENT_START, slot0.event)
-	elseif slot0.event.state == EventInfo.StateActive then
+	elseif slot1 == EventInfo.StateActive then
 		slot0.dispatch(EventConst.EVENT_GIVEUP, slot0.event)
-	elseif slot0.event.state == EventInfo.StateFinish then
+	elseif slot1 == EventInfo.StateFinish then
 		slot0.dispatch(EventConst.EVENT_FINISH, slot0.event)
 	end
 end

@@ -90,16 +90,6 @@ slot0.didEnter = function(slot0)
 
 		uv0:showExitTip()
 	end, SFX_CANCEL)
-	onButton(slot0, slot0.selectPanel, function ()
-		uv0:closeSelectPanel()
-	end, SFX_PANEL)
-
-	slot1 = getProxy(SettingsProxy)
-
-	onToggle(slot0, slot0.flagShipToggle, function (slot0)
-		uv0.flagShipMark = slot0
-	end, SFX_PANEL)
-	triggerToggle(slot0.flagShipToggle, slot1:GetSetFlagShip())
 	onButton(slot0, slot0.changeSkinBtn, function ()
 		if NewEducateHelper.IsUnlockDefaultShip(NewEducateHelper.GetSecIdBySkinId(uv0.contextData.skinId)) then
 			uv0.hideExitTip = true
@@ -134,7 +124,7 @@ slot0.willExit = function(slot0)
 		slot0.loadedCVBankName = nil
 	end
 
-	slot0:closeSelectPanel()
+	slot0.selectShipPage:Destroy()
 	cameraPaintViewAdjust(false)
 end
 

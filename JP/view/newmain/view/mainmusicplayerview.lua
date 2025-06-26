@@ -114,7 +114,7 @@ slot0.Show = function(slot0, slot1)
 end
 
 slot0.UpdatePlayerDisplay = function(slot0)
-	GetImageSpriteFromAtlasAsync(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. pg.music_collect_config[slot0.musicPlayer:GetCurrentMusicId()].cover, "", slot0.rtContainer:Find("icon/face"), false)
+	GetImageSpriteFromAtlasAsync(MusicCollectionConst.MUSIC_COVER_PATH_PREFIX .. pg.music_album[pg.music_collect_config[slot0.musicPlayer:GetCurrentMusicId()].album_id].cover, "", slot0.rtContainer:Find("icon/face"), false)
 	setActive(slot0.rtContainer:Find("LikeBtn/On"), slot0.isLike)
 end
 

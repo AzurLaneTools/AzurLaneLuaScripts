@@ -2870,6 +2870,41 @@ pg.name_code = {
 		code = "エーギルちゃん",
 		nation = 0
 	},
+	[545] = {
+		name = "U-552",
+		type = 1,
+		id = 545,
+		code = "U-552",
+		nation = 0
+	},
+	[546] = {
+		name = "アドミラル・ツェンカー",
+		type = 1,
+		id = 546,
+		code = "アドミラル・ツェンカー",
+		nation = 0
+	},
+	[547] = {
+		name = "アドミラル・ツェンカー",
+		type = 1,
+		id = 547,
+		code = "アドミラル・ツェンカー",
+		nation = 0
+	},
+	[548] = {
+		name = "U-552",
+		type = 1,
+		id = 548,
+		code = "U-552",
+		nation = 0
+	},
+	[549] = {
+		name = "U37",
+		type = 1,
+		id = 549,
+		code = "优米娜",
+		nation = 0
+	},
 	[10000] = {
 		name = "零戦五二型",
 		type = 2,

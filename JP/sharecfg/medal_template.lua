@@ -2569,6 +2569,27 @@ pg.medal_template = {
 		explain1 = "「盛夏再び！」",
 		explain2 = "イベント"
 	},
+	[200071] = {
+		target_id = "50021",
+		name = "都市探索記念章",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "君こそネオンシティで最も鋭い探索者。あらゆる場所に君の足跡が残され、あらゆる謎が君の手で解決した。おめでとう！",
+		next = 0,
+		icon = "9071",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9071",
+		condition = "「ネオンシティの探索者」記念ステッカーを7つ集める",
+		rank = 1,
+		id = 200071,
+		explain1 = "「ネオンシティの探索者」",
+		explain2 = "イベント"
+	},
 	all = {
 		10011,
 		10012,
@@ -2686,6 +2707,7 @@ pg.medal_template = {
 		200031,
 		200041,
 		200051,
-		200061
+		200061,
+		200071
 	}
 }

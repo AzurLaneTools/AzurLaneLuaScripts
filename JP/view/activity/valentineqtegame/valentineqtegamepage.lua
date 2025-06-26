@@ -380,7 +380,7 @@ slot0.CheckAndGenItem = function(slot0)
 	end
 end
 
-slot0.IsVaildItemPos = function(slot0, slot1)
+slot0.IsValidItemPos = function(slot0, slot1)
 	slot2 = slot0.slider.sizeDelta.x + 80
 
 	for slot6, slot7 in ipairs(slot0.items) do
@@ -399,7 +399,7 @@ slot0.RandomItemPosition = function(slot0, slot1)
 
 	slot3 = math.random(1, 2) % 2 == 0 and slot0.itemGenMinArea or slot0.itemGenMaxArea
 
-	if slot0:IsVaildItemPos(math.random(slot3.x, slot3.y)) then
+	if slot0:IsValidItemPos(math.random(slot3.x, slot3.y)) then
 		slot0.genItemTime = slot0.time
 		slot5 = slot0.itemPoolMgr:Dequeue()
 
