@@ -3,6 +3,7 @@ slot0.SHARE_PANEL = "Dorm3dPhotoMediator:SHARE_PANEL"
 slot0.CAMERA_LIFT_CHANGED = "CAMERA_LIFT_CHANGED"
 slot0.CAMERA_STICK_MOVE = "CAMERA_STICK_MOVE"
 slot0.GO_AR = "Dorm3dPhotoMediator:GO_AR"
+slot0.OPEN_SKIN_SELECT_LAYER = "Dorm3dPhotoMediator:OPEN_SKIN_SELECT_LAYER"
 
 slot0.register = function(slot0)
 	slot1 = slot0.contextData.view
@@ -71,6 +72,18 @@ slot0.register = function(slot0)
 				PermissionHelper.RequestCamera(uv0, uv1)
 			end
 		})
+	end)
+	slot0:bind(uv0.OPEN_SKIN_SELECT_LAYER, function (slot0, slot1, slot2, slot3, slot4)
+		uv0:addSubLayers(Context.New({
+			viewComponent = Dorm3dSkinSelectLayer,
+			mediator = Dorm3dSkinSelectMediator,
+			data = {
+				groupId = slot1,
+				ladyEnv = slot2,
+				onSwitchSkin = slot3,
+				isPublicRoom = slot4
+			}
+		}))
 	end)
 end
 

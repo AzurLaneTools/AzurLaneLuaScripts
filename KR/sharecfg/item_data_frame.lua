@@ -447,7 +447,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 329,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「빙산을 넘고 설원을 지나, 자아를 정의하고 미래를 증명하라」</color>\n「설경미종」 이벤트로 획득",
+		desc = "이벤트에서 획득 가능",
 		scene = {}
 	},
 	[330] = {
@@ -483,7 +483,7 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 333,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「천지 만물이 별빛의 주시 아래 있나니」</color>\n「별빛 아래의 석양」 이벤트로 획득",
+		desc = "추후 진행 예정인 이벤트에서 획득 가능",
 		scene = {}
 	},
 	[334] = {
@@ -492,16 +492,16 @@ pg.item_data_frame = {
 		time_second = 0,
 		id = 334,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「붓을 들어 자기만의 신의 빛을 그려보자~」</color>\n「새장에 갇힌 신의 빛」 이벤트로 획득",
+		desc = "추후 진행 예정 이벤트에서 획득 가능",
 		scene = {}
 	},
 	[335] = {
 		name = "장미의 서약",
-		gain_by = "높은 탑의 장미",
+		gain_by = "高塔上的蔷薇",
 		time_second = 0,
 		id = 335,
 		time_limit_type = 0,
-		desc = "<color=#ffffff>「높은 탑 위에 머무는 장미, 왕실의 마지막 영광을 수호하노라」</color>\n「높은 탑의 장미」 이벤트로 획득",
+		desc = "추후 진행되는 이벤트에서 획득 가능",
 		scene = {}
 	},
 	[401] = {
@@ -693,6 +693,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>밀려 드는 파도를 쫓으며 시작되는 기쁘고도 즐거운 만남</color>\n「교류 숙소」에서의 앵커리지 호감도 Lv 보상",
 		scene = {}
 	},
+	[1007] = {
+		name = "별과 눈속의 온기",
+		gain_by = "",
+		time_second = 0,
+		id = 1007,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>별밤, 새하얀 눈을 맞으며 기댄 토끼들. 두 마리는 서로의 온기를 지켜주고 있다.</color>「교류 숙소」에서의 뉴저지 친밀도 Lv 보상",
+		scene = {}
+	},
+	[1008] = {
+		name = "스타일리시 스텝",
+		gain_by = "",
+		time_second = 0,
+		id = 1008,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>스타일리시한 빛을 받으며 춤추는 토끼. 그 존재의 정체는 뭘까…? </color>\n「교류 숙소」에서의 뉴저지 친밀도 Lv 보상",
+		scene = {}
+	},
 	[10001] = {
 		name = "한계 챌린지·쌍둥이 자리",
 		gain_by = "",
@@ -879,6 +897,8 @@ pg.item_data_frame = {
 		1004,
 		1005,
 		1006,
+		1007,
+		1008,
 		10001,
 		10002,
 		10003,

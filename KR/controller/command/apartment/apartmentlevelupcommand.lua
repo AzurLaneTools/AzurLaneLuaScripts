@@ -14,24 +14,22 @@ slot0.execute = function(slot0, slot1)
 		ship_group = slot3
 	}, 28006, function (slot0)
 		if slot0.result == 0 then
-			slot1 = uv1
-			uv0 = slot1:getApartment(uv2)
 			slot1 = uv0
 
-			slot1:addLevel()
+			slot1:ModifyApartment(uv1, function (slot0)
+				slot0:addLevel()
+			end)
 
-			slot1 = uv1
-
-			slot1:updateApartment(uv0)
-
+			slot1 = uv0
+			uv2 = slot1:getApartment(uv1)
 			slot2 = uv3
 
 			slot2:sendNotification(GAME.APARTMENT_LEVEL_UP_DONE, {
-				apartment = uv0,
+				apartment = uv2,
 				award = PlayerConst.addTranDrop(slot0.drop_list)
 			})
 
-			slot2 = uv0
+			slot2 = uv2
 			slot2 = slot2:getLevel()
 
 			_.each(pg.dorm3d_collection_template.all, function (slot0)

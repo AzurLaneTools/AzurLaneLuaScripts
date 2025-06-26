@@ -24,9 +24,18 @@ pg.dorm3d_ins_ship_group_template = {
 		nationality = 0,
 		type = 1
 	},
+	[10517] = {
+		ship_group = 10517,
+		name = "BlackDragon",
+		background = "",
+		sculpture = "xinzexi_4",
+		nationality = 0,
+		type = 1
+	},
 	all = {
 		20220,
 		30221,
-		19903
+		19903,
+		10517
 	}
 }

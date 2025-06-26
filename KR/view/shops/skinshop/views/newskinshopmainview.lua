@@ -72,6 +72,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.dynamicResDownaload = slot0._tf:Find("overlay/right/toggles/l2d_res_state/downloaded")
 	slot0.dynamicResUnDownaload = slot0._tf:Find("overlay/right/toggles/l2d_res_state/undownload")
 	slot0.paintingTF = slot0._tf:Find("painting/paint")
+	slot0.defaultPaintingPosition = slot0.paintingTF.anchoredPosition
 	slot0.live2dContainer = slot0._tf:Find("painting/paint/live2d")
 	slot0.spTF = slot0._tf:Find("painting/paint/spinePainting")
 	slot0.spBg = slot0._tf:Find("painting/paintBg/spinePainting")
@@ -92,9 +93,7 @@ end
 
 slot0.RegisterEvent = function(slot0)
 	slot0:bind(uv0.EVT_SHOW_OR_HIDE_PURCHASE_VIEW, function (slot0, slot1)
-		setAnchoredPosition(uv0.paintingTF, {
-			x = slot1 and -440 or -120
-		})
+		uv0:AdjustPainting(slot1)
 		setActive(uv0.overlay, not slot1)
 	end)
 	slot0:bind(uv0.EVT_ON_PURCHASE, function (slot0, slot1)
@@ -284,7 +283,7 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 	slot4 = slot2:IsSpine() or slot2:IsLive2d()
 
-	if LOCK_SKIN_SHOP_ANIM_PREVIEW then
+	if LOCK_SKIN_SHOP_ANIM_PREVIEW == "all" or LOCK_SKIN_SHOP_ANIM_PREVIEW and table.contains(LOCK_SKIN_SHOP_ANIM_PREVIEW, slot2.id) then
 		slot4 = false
 	end
 
@@ -297,9 +296,17 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 		slot0.isToggleDynamic = false
 	elseif slot0.isToggleDynamic and not slot0.dynamicToggle:GetComponent(typeof(Toggle)).isOn then
-		triggerToggle(slot0.dynamicToggle, true)
+		if slot2:IsLive2d() and Live2dConst.GetLive2DArm32MatchAble() then
+			slot0.isToggleDynamic = false
 
-		slot0.isToggleDynamic = true
+			PlayerPrefs.SetInt("skinShop#l2dPreViewToggle" .. getProxy(PlayerProxy):getRawData().id, 0)
+			PlayerPrefs.Save()
+			triggerToggle(slot0.dynamicToggle, false)
+		else
+			triggerToggle(slot0.dynamicToggle, true)
+
+			slot0.isToggleDynamic = true
+		end
 	end
 
 	if slot3 then
@@ -313,13 +320,20 @@ slot0.FlushPaintingToggle = function(slot0, slot1)
 
 	if slot2:IsSpine() or slot2:IsLive2d() then
 		onToggle(slot0, slot0.dynamicToggle, function (slot0)
-			uv0.isToggleDynamic = slot0
+			if slot0 and Live2dConst.GetLive2DArm32MatchAble() and uv0:IsLive2d() then
+				Live2dConst.ShowLive2DArm32Tips()
+				triggerToggle(uv1.dynamicToggle, false)
 
-			setActive(uv0.dynamicResToggle, slot0)
-			setActive(uv0.showBgToggle, not slot0 and uv1)
-			uv0:FlushPainting(uv2)
-			uv0:FlushDynamicPaintingResState(uv2)
-			uv0:RecordFlag(slot0)
+				return
+			end
+
+			uv1.isToggleDynamic = slot0
+
+			setActive(uv1.dynamicResToggle, slot0)
+			setActive(uv1.showBgToggle, not slot0 and uv2)
+			uv1:FlushPainting(uv3)
+			uv1:FlushDynamicPaintingResState(uv3)
+			uv1:RecordFlag(slot0)
 		end, SFX_PANEL)
 	end
 
@@ -442,6 +456,8 @@ slot0.FlushPainting = function(slot0, slot1)
 		showBg = slot0.isToggleShowBg,
 		purchaseFlag = slot1.buyCount
 	}
+
+	slot0:AdjustPainting(false)
 end
 
 slot0.ClearPainting = function(slot0)
@@ -1108,6 +1124,23 @@ end
 slot0.ClosePurchaseView = function(slot0)
 	if slot0.purchaseView and slot0.purchaseView:GetLoaded() then
 		slot0.purchaseView:Hide()
+	end
+end
+
+slot0.AdjustPainting = function(slot0, slot1)
+	slot2 = slot0.paintingTF
+
+	if pg.ship_skin_newmainui_shift[slot0.skinId] then
+		slot4 = slot3.skin_shop_shift
+
+		if slot1 then
+			slot2.anchoredPosition = Vector2(slot4[1] - 440, slot4[2] + slot0.defaultPaintingPosition.y)
+		else
+			slot2.anchoredPosition = Vector2(slot4[1] + slot0.defaultPaintingPosition.x, slot4[2] + slot0.defaultPaintingPosition.y)
+		end
+
+		slot5 = slot4[4]
+		slot2.localScale = Vector3(slot5, slot5, 1)
 	end
 end
 

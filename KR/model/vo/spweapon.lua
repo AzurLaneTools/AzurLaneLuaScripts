@@ -103,6 +103,10 @@ slot0.GetUpgradableSkillIds = function(slot0)
 	return slot0:getConfig("skill_upgrade")
 end
 
+slot0.GetUpgradableHiddenSkillIds = function(slot0)
+	return slot0:getConfig("hide_buff_upgrade")
+end
+
 slot0.GetNextUpgradeID = function(slot0)
 	return slot0:getConfig("next")
 end
@@ -146,48 +150,70 @@ slot0.GetSkillInfo = function(slot0)
 end
 
 slot0.GetUpgradableSkillInfo = function(slot0)
-	slot1 = 0
-	slot2 = 1
-	slot3 = false
+	slot2 = {}
+	slot3, slot4 = nil
 
 	if slot0:GetShipId() then
-		slot6, slot7 = slot0:GetActiveUpgradableSkill(getProxy(BayProxy):getShipById(slot4))
+		slot4 = slot0:GetActiveUpgradableSkillList(getProxy(BayProxy):getShipById(slot1))
+	end
 
-		if slot6 then
-			slot1 = slot6
+	for slot8, slot9 in ipairs(slot0:GetUpgradableSkillIds()) do
+		slot10 = slot9[2]
+		slot11 = 1
+		slot12 = false
 
-			if slot5 and slot5.skills[slot7] then
-				slot2 = slot8.level or slot2
+		if slot3 then
+			for slot16, slot17 in ipairs(slot4) do
+				if slot17.mapSkillID == slot9[2] and slot17.originalSkillID == slot9[1] then
+					slot11 = slot3.skills[slot17.originalSkillID] and slot18.level or 1
+					slot12 = true
+
+					break
+				end
 			end
-
-			slot3 = true
+		else
+			slot12 = slot12 or slot9[1] ~= 0
 		end
+
+		table.insert(slot2, {
+			skillId = slot10,
+			lv = slot11,
+			unlock = slot12
+		})
 	end
 
-	if slot1 == 0 and slot0:GetUpgradableSkillIds()[1] and slot5[2] then
-		slot1 = slot5[2]
-		slot3 = slot5[1] ~= 0
-	end
-
-	return {
-		skillId = slot1,
-		lv = slot2,
-		unlock = slot3
-	}
+	return slot2
 end
 
-slot0.GetActiveUpgradableSkill = function(slot0, slot1)
-	for slot5, slot6 in ipairs(slot1:getSkillList()) do
-		slot7, slot8 = slot0:RemapSkillId(slot6)
+slot0.GetActiveUpgradableSkillList = function(slot0, slot1)
+	slot2 = {}
 
-		if slot8 then
-			return slot7, slot6
+	for slot6, slot7 in ipairs(slot1:getSkillList()) do
+		slot8, slot9 = slot0:RemapSkillId(slot7)
+
+		if slot9 then
+			table.insert(slot2, {
+				mapSkillID = slot8,
+				originalSkillID = slot7
+			})
 		end
 	end
+
+	return slot2
 end
 
 slot0.RemapSkillId = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0:GetUpgradableSkillIds()) do
+		if slot6[1] == slot1 then
+			return slot6[2], true
+		end
+	end
+
+	return slot1, false
+end
+
+slot0.RemapHiddenSkillId = function(slot0, slot1)
+	for slot5, slot6 in ipairs(slot0:GetUpgradableHiddenSkillIds()) do
 		if slot6[1] == slot1 then
 			return slot6[2], true
 		end

@@ -798,6 +798,223 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/bedroom"
 		}
 	},
+	[1101] = {
+		rarity = 3,
+		name = "토끼 요람",
+		unlock_tips = "",
+		type = 4,
+		room_id = 11,
+		desc = "편안한 수면을 추구하는 침대. 견고한 구조로 안정감도 뛰어나다. \n복슬복슬한 토끼 쿠션을 안고 잠들면\n당근 농장 꿈을 꿀 수 있을지도… 모른다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture1",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1101,
+		target_slots = {
+			1110102
+		},
+		touch_id = {
+			{
+				10517,
+				1051730
+			}
+		},
+		shop_id = {}
+	},
+	[1102] = {
+		rarity = 3,
+		name = "아이스 에이지",
+		unlock_tips = "",
+		type = 6,
+		room_id = 11,
+		desc = "심플한 실루엣의 미래형 디자인. 강력한 냉각 시스템 탑재. \n산소 콜라를 차갑게 식혀 마시면,\n일상에 상쾌함과 쾌적함이 더해진다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture2",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1102,
+		target_slots = {
+			1110203
+		},
+		touch_id = {
+			{
+				10517,
+				1051710
+			}
+		},
+		shop_id = {}
+	},
+	[1103] = {
+		rarity = 3,
+		name = "선라이트 아일랜드",
+		unlock_tips = "",
+		type = 5,
+		room_id = 11,
+		desc = "부드럽고 푹신한 질감의 클래식한 패브릭 소파. \n오후 햇살이 비추면 이곳은 낮잠을 자기에\n아주 완벽한 섬이 된다.",
+		is_exclusive = 0,
+		model = "",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture3",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1103,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051720
+			}
+		},
+		shop_id = {}
+	},
+	[1104] = {
+		rarity = 2,
+		name = "플래닛 야간등",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "행성을 모티브로 한 램프. 밤이 되면 은은하고 부드러운 빛을 내뿜는다. \n깊은 우주 어딘가에서 당신을 지켜보는,\n사라지지 않는 별이 있다.",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical03",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture6",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1104,
+		target_slots = {
+			1110101
+		},
+		shop_id = {}
+	},
+	[1105] = {
+		rarity = 2,
+		name = "라인 아트 패널",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "선이 그려내는 미니멀리즘, 겹쳐지는 기하학이 자아내는 독특한 아름다움. 인테리어에 생동감 있는 분위기를 더해준다.",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_billboard01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture5",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1105,
+		target_slots = {
+			1110301
+		},
+		shop_id = {}
+	},
+	[1106] = {
+		rarity = 2,
+		name = "사일런트 블루",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "스위치를 천천히 돌리면 부드러운 빛이 흐르듯 흘러나온다. \n해파리 떼가 깊고 푸른 허공을 둥실둥실 떠다니는 환상적인 풍경. \n이 꿈같은 바다에…… 얼마나 오래 잠겨있던 걸까?",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_fishtank01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture7",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1106,
+		target_slots = {
+			1110302
+		},
+		shop_id = {}
+	},
+	[1107] = {
+		rarity = 2,
+		name = "전자레인지",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "편리하고 간편한 조리 기구. 아침 식사뿐만 아니라 애프터눈 티도 따뜻하게 데워준다.",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_electrical04",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture8",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1107,
+		target_slots = {
+			1110201
+		},
+		shop_id = {}
+	},
+	[1108] = {
+		rarity = 2,
+		name = "초록 분재",
+		unlock_tips = "",
+		type = 3,
+		touch_id = "",
+		room_id = 11,
+		desc = "시각적으로 환경을 개선할 뿐만 아니라, 공기까지 정화해 준다.",
+		is_exclusive = 0,
+		model = "Pay_Newjerseyhostel/pre_db_njh_pottedplant01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_CommonFurniture9",
+		scene_hides = "",
+		unlock_banners = "",
+		acesses = "",
+		id = 1108,
+		target_slots = {
+			1110202
+		},
+		shop_id = {}
+	},
+	[1151] = {
+		rarity = 4,
+		name = "별빛 코너",
+		type = 5,
+		room_id = 11,
+		desc = "미래 스타일의 최신식 시트. 실내 온도 자동 조절 기능 탑재. \n언제든 차가운 음료를 즐길 수 있어, 쾌적한 서비스를 극한까지 느낄 수 있다.",
+		is_exclusive = 1,
+		model = "Pay_Newjerseyhostel/pre_db_njh_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_xinzexi_PremiumFurniture1",
+		acesses = "",
+		id = 1151,
+		target_slots = {
+			1110303
+		},
+		touch_id = {
+			{
+				10517,
+				1051740
+			}
+		},
+		shop_id = {
+			271101
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture1151"
+		},
+		scene_hides = {
+			"no_bake_pay_prop/livingroom"
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1,
@@ -835,6 +1052,17 @@ pg.dorm3d_furniture_template = {
 			307,
 			321,
 			322
+		},
+		[11] = {
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1151
 		}
 	},
 	all = {
@@ -868,6 +1096,15 @@ pg.dorm3d_furniture_template = {
 		306,
 		307,
 		321,
-		322
+		322,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1151
 	}
 }

@@ -309,7 +309,84 @@ pg.dorm3d_ins_chat_language = setmetatable({
 		305,
 		306,
 		307,
-		308
+		308,
+		309,
+		310,
+		311,
+		312,
+		313,
+		314,
+		315,
+		316,
+		317,
+		318,
+		319,
+		320,
+		321,
+		322,
+		323,
+		324,
+		325,
+		326,
+		327,
+		328,
+		329,
+		330,
+		331,
+		332,
+		333,
+		334,
+		335,
+		336,
+		337,
+		338,
+		339,
+		340,
+		341,
+		342,
+		343,
+		344,
+		345,
+		346,
+		347,
+		348,
+		349,
+		350,
+		351,
+		352,
+		353,
+		354,
+		355,
+		356,
+		357,
+		358,
+		359,
+		360,
+		361,
+		362,
+		363,
+		364,
+		365,
+		366,
+		367,
+		368,
+		369,
+		370,
+		371,
+		372,
+		373,
+		374,
+		375,
+		376,
+		377,
+		378,
+		379,
+		380,
+		381,
+		382,
+		383,
+		384,
+		385
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2992,5 +3069,676 @@ pg.base.dorm3d_ins_chat_language = {
 		type = 1,
 		id = 308,
 		flag = 2
+	},
+	{
+		param = "방금까지 허니 곁에서 기분 좋게 낮잠 잤어~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 309,
+		flag = 0
+	},
+	{
+		param = "그런데 말이야, 허니……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 310,
+		flag = 0
+	},
+	{
+		param = "왜 내가 자는 동안에 슬쩍 일하러 간 거야?!",
+		ship_group = 10517,
+		type = 1,
+		id = 311,
+		flag = 0,
+		option = {
+			{
+				1,
+				"깨우기 미안해서…"
+			}
+		}
+	},
+	{
+		param = "――너무 기분 좋게 자고 있길래, 깨우기가 미안했어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 312,
+		flag = 1
+	},
+	{
+		param = "내 자는 얼굴에 반해서 그런 거 아니고~?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 313,
+		flag = 1
+	},
+	{
+		param = "애초에 낮잠 잔 건 허니랑 너무 신나게 놀아서 그런 건데…",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 314,
+		flag = 1
+	},
+	{
+		param = "허니한테 아직 일할 힘이 남아 있었다니…",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 315,
+		flag = 1
+	},
+	{
+		param = "둘이서 하는 게임인데, 전력으로 했어야지!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 316,
+		flag = 1
+	},
+	{
+		param = "아무튼…!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 317,
+		flag = 1
+	},
+	{
+		param = "다음에는 절대로 도망가기 없기야! 알았지?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 318,
+		flag = 1
+	},
+	{
+		param = "눈 떴을 때 내 곁에 허니가 없으면…… 악몽을 꿀지도 모른다고!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 319,
+		flag = 1
+	},
+	{
+		param = "65",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 320,
+		flag = 1
+	},
+	{
+		param = "이런 걱정 시키지 마!",
+		ship_group = 10517,
+		type = 1,
+		id = 321,
+		flag = 1,
+		option = {
+			{
+				2,
+				"다음엔 걱정하게 하지 않을게"
+			}
+		}
+	},
+	{
+		param = "――다음엔 걱정하게 하지 않을게.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 322,
+		flag = 2
+	},
+	{
+		param = "눈 떴을 때 허니가 늘 곁에 있었으면 해.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 323,
+		flag = 2
+	},
+	{
+		param = "앞으로도 쭉~ 내 곁에 있어 줘, 허니.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 324,
+		flag = 2
+	},
+	{
+		param = "자, 어서 일 같은 건 얼른 끝내고, 내 품으로 돌아와~!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 325,
+		flag = 2
+	},
+	{
+		param = "침대에서…… 기다릴게.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 326,
+		flag = 2
+	},
+	{
+		param = "쪽♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 327,
+		flag = 2
+	},
+	{
+		param = "허니! 여기야, 여기♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 328,
+		flag = 0
+	},
+	{
+		param = "「Big J」의 메시지 폭격을 받을 준비, 됐어~?",
+		ship_group = 10517,
+		type = 1,
+		id = 329,
+		flag = 0,
+		option = {
+			{
+				1,
+				"오늘도 활기차네"
+			}
+		}
+	},
+	{
+		param = "――오늘도 활기차네… 방 준비는 어때? 도와줄까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 330,
+		flag = 1
+	},
+	{
+		param = "잘 되고 있어! 다만 생활용품이 좀 부족해서 보충해야 할 것 같긴 해…",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 331,
+		flag = 1
+	},
+	{
+		param = "냉장고도 텅텅 비었고……",
+		ship_group = 10517,
+		type = 1,
+		id = 332,
+		flag = 1,
+		option = {
+			{
+				2,
+				"상점가에 가면……"
+			}
+		}
+	},
+	{
+		param = "――상점가에 가면 웬만한 건 다 있을 거야.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 333,
+		flag = 2
+	},
+	{
+		param = "역시 허니야! 똑똑하다니까!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 334,
+		flag = 2
+	},
+	{
+		param = "이왕이면 같이 갈래?",
+		ship_group = 10517,
+		type = 1,
+		id = 335,
+		flag = 2,
+		option = {
+			{
+				3,
+				"좋아. 어디부터 가볼까?"
+			}
+		}
+	},
+	{
+		param = "――좋아. 어디부터 가볼까?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 336,
+		flag = 3
+	},
+	{
+		param = "이미 계획을 세워뒀지.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 337,
+		flag = 3
+	},
+	{
+		param = "우선은…… 배부터 채우자!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 338,
+		flag = 3
+	},
+	{
+		param = "30",
+		ship_group = 10517,
+		type = 4,
+		id = 339,
+		flag = 3,
+		option = {
+			{
+				4,
+				"설마… 아이스크림 뷔페?!"
+			}
+		}
+	},
+	{
+		param = "――설마… 아이스크림 뷔페?!",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 340,
+		flag = 4
+	},
+	{
+		param = "오! 좋은 생각이야!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 341,
+		flag = 4
+	},
+	{
+		param = "잠깐, 허니… 내가 무슨 아이스크림이면 사족을 못 쓰는 줄 알아?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 342,
+		flag = 4
+	},
+	{
+		param = "……뭐, 사실 그렇기는 해. 에헤헤♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 343,
+		flag = 4
+	},
+	{
+		param = "아무튼 어디 갈지는 오면 알아!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 344,
+		flag = 4
+	},
+	{
+		param = "상점가 입구에서 만나자!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 345,
+		flag = 4
+	},
+	{
+		param = "바로 출발할 거야!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 346,
+		flag = 4
+	},
+	{
+		param = "늦으면… 혼내줄 거야♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 347,
+		flag = 4
+	},
+	{
+		param = "허니, 얼마 전에 본 그 액션 영화 말인데~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 348,
+		flag = 0
+	},
+	{
+		param = "재밌었어? 마음에 들면 속편도 같이 볼까 하는데.",
+		ship_group = 10517,
+		type = 1,
+		id = 349,
+		flag = 0,
+		option = {
+			{
+				1,
+				"액션 영화…?"
+			}
+		}
+	},
+	{
+		param = "――액션 영화……? 어떤 거?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 350,
+		flag = 1
+	},
+	{
+		param = "있잖아~ 남녀 주인공이 이상한 기술을 막 쓰면서, 서로 밀착한 채로 싸우던 거~!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 351,
+		flag = 1
+	},
+	{
+		param = "321",
+		ship_group = 10517,
+		option = "",
+		type = 4,
+		id = 352,
+		flag = 1
+	},
+	{
+		param = "음~ 그래도……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 353,
+		flag = 1
+	},
+	{
+		param = "내가 가장 마음에 든 건 그 화려한 폭발 장면이야!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 354,
+		flag = 1
+	},
+	{
+		param = "밤하늘을 가르는 블랙 드래곤의 불꽃에 지지 않을 정도로 아주 멋졌지~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 355,
+		flag = 1
+	},
+	{
+		param = "그리고 마지막 장면!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 356,
+		flag = 1
+	},
+	{
+		param = "주인공이 이상한 마법에 걸려서…… 아이스크림 볼이 되어버렸지?!",
+		ship_group = 10517,
+		type = 1,
+		id = 357,
+		flag = 1,
+		option = {
+			{
+				2,
+				"각본가가 되어 보는 건 어때?"
+			}
+		}
+	},
+	{
+		param = "――뉴저지가 각본가가 되어 보는 건 어때?",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 358,
+		flag = 2
+	},
+	{
+		param = "――그런 전개는 진정으로 아이스크림을 사랑하지 않으면 절대 못 떠올릴 것 같은데.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 359,
+		flag = 2
+	},
+	{
+		param = "에헤헤~ 허니한테도 그 마법, 부려보고 싶다~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 360,
+		flag = 2
+	},
+	{
+		param = "만약 허니가 아이스크림이 되면……",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 361,
+		flag = 2
+	},
+	{
+		param = "어떤 맛일까?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 362,
+		flag = 2
+	},
+	{
+		param = "멜론? 수박? 파인애플? 음~ 그런 것보다 훨씬 맛있을 것 같아~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 363,
+		flag = 2
+	},
+	{
+		param = "한번 맛보고 싶네~ 후훗…",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 364,
+		flag = 2
+	},
+	{
+		param = "후훗…… 이게 뭐야~?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 365,
+		flag = 0
+	},
+	{
+		param = "허니, 내 방에서 보물을 잔뜩 발견한 모양이네~!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 366,
+		flag = 0
+	},
+	{
+		param = "역시 허니야. 이제 날 훤히 들여다보는 것 같다니까♪",
+		ship_group = 10517,
+		type = 1,
+		id = 367,
+		flag = 0,
+		option = {
+			{
+				1,
+				"노트를 찾았어"
+			}
+		}
+	},
+	{
+		param = "――표지에 「연애 작전 노트」라고 적힌 노트를 찾았어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 368,
+		flag = 1
+	},
+	{
+		param = "뭐, 뭐라고~?!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 369,
+		flag = 1
+	},
+	{
+		param = "그, 그건…… 몰래 숨겨둔 비밀 노트인데…!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 370,
+		flag = 1
+	},
+	{
+		param = "허니, 설마 안에 내용까진 안 봤지?!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 371,
+		flag = 1
+	},
+	{
+		param = "빨리 말해! 절대… 절대 안 봤다고 말이야!!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 372,
+		flag = 1
+	},
+	{
+		param = "54",
+		ship_group = 10517,
+		type = 4,
+		id = 373,
+		flag = 1,
+		option = {
+			{
+				2,
+				"제자리에 돌려놨어"
+			}
+		}
+	},
+	{
+		param = "――원래 있던 자리에 돌려놨어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 374,
+		flag = 2
+	},
+	{
+		param = "허니…… 사랑해♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 375,
+		flag = 2
+	},
+	{
+		param = "그래도…… 내용, 궁금하진 않았어?",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 376,
+		flag = 2
+	},
+	{
+		param = "몰래 허니에 대한 불만 같은 걸 적어놨을 수도 있잖아?",
+		ship_group = 10517,
+		type = 1,
+		id = 377,
+		flag = 2,
+		option = {
+			{
+				3,
+				"뉴저지를 믿어"
+			}
+		}
+	},
+	{
+		param = "――난 뉴저지를 믿어.",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 378,
+		flag = 3
+	},
+	{
+		param = "……헤헤헤, 걱정하지 마. 허니.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 379,
+		flag = 3
+	},
+	{
+		param = "난 말이지, 허니의 정직함에는 100%의 신뢰로 보답할 거야!",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 380,
+		flag = 3
+	},
+	{
+		param = "그럼… 오늘은 특별히 알려줘 버릴까~",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 381,
+		flag = 3
+	},
+	{
+		param = "사랑이란 말이지, 눈에 보이지 않는 전쟁 같은 거야~♪",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 382,
+		flag = 3
+	},
+	{
+		param = "타이밍을 잘 보고, 공격할 때와 물러날 때를 잘 구분해야 해.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 383,
+		flag = 3
+	},
+	{
+		param = "그런 긴장감 넘치는 전투 속에서도 단 하나 변하지 않는 규칙이 있어.",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 384,
+		flag = 3
+	},
+	{
+		param = "그건 바로… 세상에서 제일 멋진 허니를 내가 너무 사랑한다는 거야♡",
+		ship_group = 10517,
+		option = "",
+		type = 1,
+		id = 385,
+		flag = 3
 	}
 }

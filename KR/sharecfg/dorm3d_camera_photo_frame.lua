@@ -1,5 +1,20 @@
 pg = pg or {}
-pg.dorm3d_camera_photo_frame = {
+pg.dorm3d_camera_photo_frame = setmetatable({
+	__name = "dorm3d_camera_photo_frame",
+	all = {
+		1001,
+		1002,
+		1003,
+		1004,
+		1005,
+		1006,
+		1007,
+		1008,
+		1009
+	}
+}, confHX)
+pg.base = pg.base or {}
+pg.base.dorm3d_camera_photo_frame = {
 	[1001] = {
 		name = "디폴트",
 		rarity = 2,
@@ -140,13 +155,44 @@ pg.dorm3d_camera_photo_frame = {
 			0
 		}
 	},
-	all = {
-		1001,
-		1002,
-		1003,
-		1004,
-		1005,
-		1006,
-		1007
+	[1008] = {
+		name = "호두",
+		rarity = 3,
+		farme_path = "photo_frame_Wood",
+		frameTfName = "WoodFrame",
+		desc = "획득하면 카메라 기능에서 「호두」 프레임 적용 가능",
+		unlock_text = "뉴저지 친밀도 Lv5 달성 시 오픈",
+		id = 1008,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_Wood_small",
+		unlock = {
+			1,
+			10517,
+			5
+		},
+		watermark_location = {
+			0,
+			0
+		}
+	},
+	[1009] = {
+		name = "포토",
+		rarity = 3,
+		farme_path = "photo_frame_Focus",
+		frameTfName = "FocusFrame",
+		desc = "획득하면 카메라 기능에서 「포토」 프레임 적용 가능",
+		unlock_text = "뉴저지 친밀도 Lv13 달성 시 오픈",
+		id = 1009,
+		icon = "Props/drom3d_camera1002",
+		farme_small_path = "photo_frame_Focus_small",
+		unlock = {
+			1,
+			10517,
+			13
+		},
+		watermark_location = {
+			0,
+			0
+		}
 	}
 }

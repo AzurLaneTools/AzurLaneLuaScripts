@@ -206,7 +206,8 @@ slot0.listNotificationInterests = function(slot0)
 		NewMainMediator.ON_AWRADS,
 		NewMainMediator.FOLD_PANEL,
 		NewMainMediator.HIDE_PANEL,
-		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION
+		MusicPlayer.NO_PLAY_MUSIC_NOTIFICATION,
+		GAME.REQ_NEW_INSTAGRAM_DATA_DONE
 	}
 
 	for slot5, slot6 in pairs(pg.redDotHelper:GetNotifyType()) do

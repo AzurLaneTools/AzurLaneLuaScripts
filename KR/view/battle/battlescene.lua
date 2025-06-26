@@ -49,9 +49,19 @@ slot0.init = function(slot0)
 	slot0.skillRoot = slot0:findTF("Skill_Activation/Root")
 	slot0.skillTpl = slot0:findTF("Skill_Activation/mask").gameObject
 	slot0._skillFloatPool = pg.Pool.New(slot0.skillRoot, slot0.skillTpl, 15, 10, true, false):InitSize()
+
+	slot0._skillFloatPool:SetRecycleFuncs(function (slot0)
+		slot0.transform:GetComponent(typeof(DftAniEvent)):OnDestroy()
+	end)
+
 	slot0.skillCMDRoot = slot0:findTF("Skill_Activation/Root_cmd")
 	slot0.skillCMDTpl = slot0:findTF("Skill_Activation/mask_cmd").gameObject
 	slot0._skillFloatCMDPool = pg.Pool.New(slot0.skillCMDRoot, slot0.skillCMDTpl, 2, 4, true, false):InitSize()
+
+	slot0._skillFloatCMDPool:SetRecycleFuncs(function (slot0)
+		slot0.transform:GetComponent(typeof(DftAniEvent)):OnDestroy()
+	end)
+
 	slot0.popupTpl = slot0:getTpl("popup")
 
 	SetActive(slot0._go, false)
@@ -437,6 +447,9 @@ slot0.didEnter = function(slot0)
 
 	slot0._skillFloatPool = pg.Pool.New(slot0.skillRoot, slot0.skillTpl, 0 + slot6(slot0.contextData.battleData.MainUnitList) + slot6(slot0.contextData.battleData.VanguardUnitList) + slot6(slot0.contextData.battleData.SubUnitList) + 4, 10, true, false):InitSize()
 
+	slot0._skillFloatPool:SetRecycleFuncs(function (slot0)
+		slot0.transform:GetComponent(typeof(DftAniEvent)):OnDestroy()
+	end)
 	slot0:emit(BattleMediator.ENTER)
 	slot0:initPauseWindow()
 
@@ -713,6 +726,10 @@ end
 
 slot0.clear = function(slot0)
 	slot0._preSkillTF = nil
+
+	slot0._skillFloatPool:AllRecycle()
+	slot0._skillFloatCMDPool:AllRecycle()
+
 	slot0._preCommanderSkillTF = nil
 	slot0._commanderSkillList = nil
 	slot0._skillPaintings = nil

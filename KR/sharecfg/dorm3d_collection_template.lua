@@ -103,6 +103,47 @@ pg.dorm3d_collection_template = setmetatable({
 			37,
 			38,
 			39
+		},
+		[11] = {
+			1101,
+			1102,
+			1103,
+			1104,
+			1105,
+			1106,
+			1107,
+			1108,
+			1109,
+			1110,
+			1111,
+			1112,
+			1113,
+			1114,
+			1115,
+			1116,
+			1117,
+			1118,
+			1119,
+			1120,
+			1121,
+			1122,
+			1123,
+			1124,
+			1125,
+			1126,
+			1127,
+			1128
+		},
+		[16] = {
+			1601,
+			1602,
+			1603,
+			1604,
+			1605,
+			1606,
+			1607,
+			1608,
+			1609
 		}
 	},
 	all = {
@@ -199,7 +240,44 @@ pg.dorm3d_collection_template = setmetatable({
 		125,
 		126,
 		127,
-		128
+		128,
+		1101,
+		1102,
+		1103,
+		1104,
+		1105,
+		1106,
+		1107,
+		1108,
+		1109,
+		1110,
+		1111,
+		1112,
+		1113,
+		1114,
+		1115,
+		1116,
+		1117,
+		1118,
+		1119,
+		1120,
+		1121,
+		1122,
+		1123,
+		1124,
+		1125,
+		1126,
+		1127,
+		1128,
+		1601,
+		1602,
+		1603,
+		1604,
+		1605,
+		1606,
+		1607,
+		1608,
+		1609
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -2206,6 +2284,811 @@ pg.base.dorm3d_collection_template = {
 		},
 		vfx_prefab = {
 			"fbx/litmap_02/night/pre_db_towel01_group01/vfx_wupintishi01"
+		}
+	},
+	[1101] = {
+		name = "캐러멜 팝콘",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "전자레인지에서 갓 꺼낸 캐러멜 팝콘. \n호박색의 달콤한 캐러멜이 듬뿍 입혀져 있으며,\n그녀가 영화를 볼 때 반드시 챙기는 간식이다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1101,
+		icon = "3Ddrom_xinzexi_item1",
+		model = {
+			"fbx/litmap_01/pre_db_electrical18"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical18/vfx_wupintishi01"
+		}
+	},
+	[1102] = {
+		name = "하트 앞치마",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "주방 한켠에 걸려 있는 앞치마. \n정면에는 심플하면서도 귀여운 토끼 무늬가 장식되어 있다. \n요리든 청소든 그녀는 늘 활기찬 모습으로 임한다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1102,
+		icon = "3Ddrom_xinzexi_item2",
+		model = {
+			"fbx/litmap_01/pre_db_cloth05"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth05/vfx_wupintishi01"
+		}
+	},
+	[1103] = {
+		name = "믹서기",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "강력한 성능을 가진 믹서기. \n매일 아침 그녀는 다양한 과일을 넣어\n순식간에 다채롭고 신선한 주스를 만들어낸다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1103,
+		icon = "3Ddrom_xinzexi_item3",
+		model = {
+			"fbx/litmap_01/pre_db_electrical13"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical13/vfx_wupintishi01"
+		}
+	},
+	[1104] = {
+		name = "딸기 그릇",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = [[
+그릇 안에 크고 신선한 딸기가 가득하다. 
+한 알 한 알에 반짝이는 이슬이 맺혀 있다. 
+그녀의 손끝이 딸기에 닿기 전…
+이 순간의 설렘을 조용히 간직하자.]],
+		text = "dorm3d_xinzexi_table",
+		id = 1104,
+		icon = "3Ddrom_xinzexi_item4",
+		model = {
+			"fbx/litmap_01/pre_db_fruit01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_fruit01/vfx_wupintishi01"
+		}
+	},
+	[1105] = {
+		name = "주방 후드",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "주방에서 빼놓을 수 없는 후드. \n후드에서 울리는 익숙한 흡입음은\n뉴저지가 솜씨를 발휘하고 있다는 뜻이다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1105,
+		icon = "3Ddrom_xinzexi_item5",
+		model = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_cupboard01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_cupboard01/vfx_wupintishi01"
+		}
+	},
+	[1106] = {
+		name = "레몬수",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "차갑고 상큼한 레몬수가 담긴 피처. \n단맛과 신맛이 적절히 균형을 이루어,\n각설탕 같은 부드러움이 은은하게 녹아 있다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1106,
+		icon = "3Ddrom_xinzexi_item6",
+		model = {
+			"no_bake_pay_prop/kitchen/pre_db_tableware28_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/kitchen/pre_db_tableware28_group/vfx_wupintishi01"
+		}
+	},
+	[1107] = {
+		name = "데일리 재킷",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "뉴저지의 평상복인 가볍고 세련된 재킷. \n벗은 재킷이 의자에 가볍게 걸쳐져 있다면\n그녀가 집에 돌아왔다는 의미다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1107,
+		icon = "3Ddrom_xinzexi_item7",
+		model = {
+			"fbx/litmap_01/pre_db_cloth06"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth06/vfx_wupintishi01"
+		}
+	},
+	[1108] = {
+		name = "토스터",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = [[
+귀여운 무늬가 새겨진 토스터. 
+스위치를 누르면 먹음직스러운 갈색 토스트가 튀어나온다. 
+거기에 잼, 꿀, 버터를 올리면……
+완벽한 아침 식사가 완성된다.]],
+		text = "dorm3d_xinzexi_table",
+		id = 1108,
+		icon = "3Ddrom_xinzexi_item8",
+		model = {
+			"fbx/litmap_01/pre_db_electrical10_01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical10_01/vfx_wupintishi01"
+		}
+	},
+	[1109] = {
+		name = "정글 브리즈",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "곧게 뻗은 산세베리아 화분. \n방 구석에서 조용히 펼친 잎에서는\n숨 쉴 때마다 넘치는 생명력이 전해진다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1109,
+		icon = "3Ddrom_xinzexi_item9",
+		model = {
+			"fbx/litmap_01/pre_db_bonsai13"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bonsai13/vfx_wupintishi01"
+		}
+	},
+	[1110] = {
+		name = "사과 타르트",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "뉴저지가 티타임을 위해 준비한 사과 타르트. \n「허니와 먹기 전에 먼저 맛을 봐야 한다」며,\n그녀는 입가에 묻은 아이싱을 핥았다.",
+		text = "dorm3d_xinzexi_table",
+		id = 1110,
+		icon = "3Ddrom_xinzexi_item10",
+		model = {
+			"fbx/litmap_01/pre_db_food16_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_food16_group/vfx_wupintishi01"
+		}
+	},
+	[1111] = {
+		name = "청소 로봇",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "방을 깨끗이 청소하는 귀여운 로봇. \n먼지뿐만 아니라 일상 생활의 흔적까지도 꼼꼼히 모은다.",
+		text = "dorm3d_xinzexi_chair",
+		id = 1111,
+		icon = "3Ddrom_xinzexi_item11",
+		model = {
+			"fbx/litmap_01/pre_db_electrical17"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical17/vfx_wupintishi01"
+		}
+	},
+	[1112] = {
+		name = "울트라 HD TV",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = [[
+55인치 화면은 그녀에게 있어서
+어디로든 갈 수 있는 문이나 다름없다. 
+오늘은 화려한 폭발 액션일까? 아니면… 
+이글 유니온의 비 오는 거리에서 펼쳐지는 키스 장면일까?]],
+		text = "dorm3d_xinzexi_chair",
+		id = 1112,
+		icon = "3Ddrom_xinzexi_item12",
+		model = {
+			"fbx/litmap_01/pre_db_appliances06"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances06/vfx_wupintishi01"
+		}
+	},
+	[1113] = {
+		name = "패션 잡지",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = [[
+여러 번 다시 읽은 패션 잡지 몇 권이
+거실 테이블 위에 쌓여 있다. 
+이곳은 그녀의 「패션 보급소」이다. 
+영감은 늘 갑자기 찾아오는 법이다.]],
+		text = "dorm3d_xinzexi_chair",
+		id = 1113,
+		icon = "3Ddrom_xinzexi_item13",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_book05_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_book05_group/vfx_wupintishi01"
+		}
+	},
+	[1114] = {
+		name = "핸드백",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "무심하게 놓인 고급스러운 핸드백. \n그 안에는 다양한 소지품이 가득하다. \n오늘도 이 가방과 함께 여러 곳을 모험한 듯하다.",
+		text = "dorm3d_xinzexi_chair",
+		id = 1114,
+		icon = "3Ddrom_xinzexi_item14",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_bag05"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_bag05/vfx_wupintishi01"
+		}
+	},
+	[1115] = {
+		name = "아웃도어 의류",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "야외 스포츠 의류 세트. \n늘 활기찬 뉴저지는 언제든 \n격렬한 유산소 운동에 나설 준비가 되어 있다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1115,
+		icon = "3Ddrom_xinzexi_item15",
+		model = {
+			"fbx/litmap_01/pre_db_bag03_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bag03_group/vfx_wupintishi01"
+		}
+	},
+	[1116] = {
+		name = "Big J 이름판",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "드래곤 거주지! \n허가 없이 출입 금지! \n「……응? 허니 왔어! ? 자, 어서 들어와~! 」",
+		text = "dorm3d_xinzexi_bed",
+		id = 1116,
+		icon = "3Ddrom_xinzexi_item16",
+		model = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_billboard01_1"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_newjerseyhostel01_billboard01_1/vfx_wupintishi01"
+		}
+	},
+	[1117] = {
+		name = "행거 랙",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "데이트용 옷을 고를 때마다\n옷들이 자기를 고르라며 호소하는 듯하다. \n행복한 고민이지만 생각보다 훨씬 어렵다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1117,
+		icon = "3Ddrom_xinzexi_item17",
+		model = {
+			"fbx/litmap_01/pre_db_cloth07_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_cloth07_group/vfx_wupintishi01"
+		}
+	},
+	[1118] = {
+		name = "투명 토트백",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "화장품과 메이크업 조명이 담긴 투명 토트백. \n그녀의 출퇴근 및 여행 필수품으로,\n언제 어디서든 화장을 고칠 수 있게 해준다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1118,
+		icon = "3Ddrom_xinzexi_item18",
+		model = {
+			"fbx/litmap_01/pre_db_bag06"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_bag06/vfx_wupintishi01"
+		}
+	},
+	[1119] = {
+		name = "깡충깡충 토끼 귀",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "착용자의 기분에 맞춰 깡충깡충 움직이는 개성 넘치는 토끼 귀 액세서리. \n그녀가 가장 좋아하는 액세서리 중 하나다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1119,
+		icon = "3Ddrom_xinzexi_item19",
+		model = {
+			"fbx/litmap_01/pre_db_headgear01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_headgear01/vfx_wupintishi01"
+		}
+	},
+	[1120] = {
+		name = "에어컨",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "인류 역사상 최고의 발명품 중 하나로 평가받는 기기. \n실내 온도를 쾌적하게 유지하며,\n마음과 몸을 치유하는 최상의 휴식 공간을 만든다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1120,
+		icon = "3Ddrom_xinzexi_item21",
+		model = {
+			"fbx/litmap_01/pre_db_appliances01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances01/vfx_wupintishi01"
+		}
+	},
+	[1121] = {
+		name = "공기 청정기",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "방 한켠에서 조용히 작동하는 공기 청정기. \n멈추지 않는 안정적인 가동으로\n호흡 활동을 보다 쾌적하게 만들어 준다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1121,
+		icon = "3Ddrom_xinzexi_item22",
+		model = {
+			"fbx/litmap_01/pre_db_appliances03"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_appliances03/vfx_wupintishi01"
+		}
+	},
+	[1122] = {
+		name = "쿨 드링크",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = [[
+시원한 두 개의 아이스크림과 음료. 
+혼자서 천천히 즐겨도,
+소중한 사람과 나눠 마셔도 좋다.
+한 모금 한 모금이 행복의 형태를 이룬다.]],
+		text = "dorm3d_xinzexi_bed",
+		id = 1122,
+		icon = "3Ddrom_xinzexi_item23",
+		model = {
+			"fbx/litmap_01/pre_db_food03_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_food03_group/vfx_wupintishi01"
+		}
+	},
+	[1123] = {
+		name = "오디오 기기",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "스타일리시하며 휴대하기 편한 스피커. \n클래식부터 록까지 다양한 음악이 내장되어\n언제 어디서나 적절한 BGM을 연주할 수 있다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1123,
+		icon = "3Ddrom_xinzexi_item24",
+		model = {
+			"fbx/litmap_01/pre_db_electrical03"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical03/vfx_wupintishi01"
+		}
+	},
+	[1124] = {
+		name = "토끼 야간등",
+		award = 0,
+		time = 2,
+		room_id = 11,
+		desc = [[
+토끼 모티브의 작고 귀여운 야간등. 
+희미한 파란 빛을 내며,
+어둠 속에서 발밑을 부드럽게 밝히고
+밤을 조용히 인도한다.]],
+		text = "dorm3d_xinzexi_bed",
+		id = 1124,
+		icon = "3Ddrom_xinzexi_item25",
+		model = {
+			"fbx/litmap_01/night/pre_db_newjerseyhostel01_lamp01a_on"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_newjerseyhostel01_lamp01a_on/vfx_wupintishi01"
+		}
+	},
+	[1125] = {
+		name = "덤벨",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = [[
+적당한 무게의 덤벨 한 쌍. 
+그녀의 운동에 적합한 아이템으로, 
+땀 한 방울을 흘릴 때마다
+어제보다 성장한 자신을 만날 수 있다.]],
+		text = "dorm3d_xinzexi_bed",
+		id = 1125,
+		icon = "3Ddrom_xinzexi_item26",
+		model = {
+			"no_bake_pay_prop/livingroom/pre_db_sportinggoods06_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"no_bake_pay_prop/livingroom/pre_db_sportinggoods06_group/vfx_wupintishi01"
+		}
+	},
+	[1126] = {
+		name = "고데기",
+		award = 0,
+		time = 0,
+		room_id = 11,
+		desc = "세련된 디자인의 컬링 고데기. \n헤어 스타일링의 든든한 파트너다. \n사용 후에는 반드시 전원을 꺼야 한다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1126,
+		icon = "3Ddrom_xinzexi_item27",
+		model = {
+			"fbx/litmap_01/pre_db_electrical15"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/pre_db_electrical15/vfx_wupintishi01"
+		}
+	},
+	[1127] = {
+		name = "검은 스타킹",
+		award = 0,
+		time = 2,
+		room_id = 11,
+		desc = "그녀 방에는 발이 달린 스타킹이 많다. \n이것은 이번 달에 「7번째」로 잃어버린 스타킹이다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1127,
+		icon = "3Ddrom_xinzexi_item28",
+		model = {
+			"fbx/litmap_01/night/pre_db_sock01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_sock01/vfx_wupintishi01"
+		}
+	},
+	[1128] = {
+		name = "스킨케어 세트",
+		award = 0,
+		time = 2,
+		room_id = 11,
+		desc = "기능성이 뛰어난 스킨케어 아이템 세트. \n뉴저지의 꿀피부 실험장이라 불리는 세트로, \n다양한 아이템의 조합으로 누구도 예상 못한 스킨 케어 비결이 탄생하고는 한다.",
+		text = "dorm3d_xinzexi_bed",
+		id = 1128,
+		icon = "3Ddrom_xinzexi_item29",
+		model = {
+			"fbx/litmap_01/night/pre_db_cosmetic17"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_01/night/pre_db_cosmetic17/vfx_wupintishi01"
+		}
+	},
+	[1601] = {
+		name = "간판 메뉴",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "다양한 음료 메뉴가 한눈에 들어오는 간판. \n개성이 가득 담긴 음료들이 어떤 독특한 취향도 만족시켜 준다.",
+		text = "dorm3d_collection_cafe",
+		id = 1601,
+		icon = "3Ddrom_cafe_item1",
+		model = {
+			"fbx/litmap_03/pre_db_billboard16_2"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_billboard16_2/vfx_wupintishi01"
+		}
+	},
+	[1602] = {
+		name = "안내 보드",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "실용적인 표식이 아늑한 카페 내부로 안내한다. 어떤 상황에서든 첫인상이 가장 중요한 법이다.",
+		text = "dorm3d_collection_cafe",
+		id = 1602,
+		icon = "3Ddrom_cafe_item2",
+		model = {
+			"fbx/litmap_03/pre_db_billboard13"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_billboard13/vfx_wupintishi01"
+		}
+	},
+	[1603] = {
+		name = "따뜻한 캔들",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "부드러운 불빛이 은은하게 로맨틱한 분위기를 연출한다. 커피 타임에 어울리는 따뜻한 느낌을 준다.",
+		text = "dorm3d_collection_cafe",
+		id = 1603,
+		icon = "3Ddrom_cafe_item3",
+		model = {
+			"fbx/litmap_03/pre_db_desklamp06_1"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_desklamp06_1/vfx_wupintishi01"
+		}
+	},
+	[1604] = {
+		name = "계산 카운터",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "모니터에 터치스크린이 장착되어 심플하면서도 기능적으로 설계되어 있다. 주문과 계산 모두 신속하게 처리한다.",
+		text = "dorm3d_collection_cafe",
+		id = 1604,
+		icon = "3Ddrom_cafe_item4",
+		model = {
+			"fbx/litmap_03/pre_db_electrical19"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_electrical19/vfx_wupintishi01"
+		}
+	},
+	[1605] = {
+		name = "기하학 보틀",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "하나하나 정성을 담아 만든 보틀. 아름다움과 실용성을 겸비해 커피 타임을 더욱 우아하게 꾸며준다.",
+		text = "dorm3d_collection_cafe",
+		id = 1605,
+		icon = "3Ddrom_cafe_item5",
+		model = {
+			"fbx/litmap_03/pre_db_drink03_1"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_drink03_1/vfx_wupintishi01"
+		}
+	},
+	[1606] = {
+		name = "초콜릿 도넛",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "겉은 바삭하고 속은 쫀득한 인기 디저트. \n한입 베어 먹을 때마다 깊은 여운을 남기는 맛으로 미각에 최고의 기쁨을 선사한다.",
+		text = "dorm3d_collection_cafe",
+		id = 1606,
+		icon = "3Ddrom_cafe_item6",
+		model = {
+			"fbx/litmap_03/pre_db_food07"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_food07/vfx_wupintishi01"
+		}
+	},
+	[1607] = {
+		name = "칵테일 세트",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "전문가의 손길로 완성된 칵테일이 밤을 아름답게 수놓는다.",
+		text = "dorm3d_collection_cafe",
+		id = 1607,
+		icon = "3Ddrom_cafe_item7",
+		model = {
+			"fbx/litmap_03/pre_db_frame23_group"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_frame23_group/vfx_wupintishi01"
+		}
+	},
+	[1608] = {
+		name = "냅킨",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "언제든 사용자의 필요를 충족시켜 주는 부드러운 냅킨.",
+		text = "dorm3d_collection_cafe",
+		id = 1608,
+		icon = "3Ddrom_cafe_item8",
+		model = {
+			"fbx/litmap_03/pre_db_tableware30_4"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_tableware30_4/vfx_wupintishi01"
+		}
+	},
+	[1609] = {
+		name = "마스코트 조각상",
+		award = 0,
+		time = 0,
+		room_id = 16,
+		desc = "카페 마스코트의 조각상.",
+		text = "dorm3d_collection_cafe",
+		id = 1609,
+		icon = "3Ddrom_cafe_item9",
+		model = {
+			"fbx/litmap_03/pre_db_publiccafe01_statue01"
+		},
+		unlock = {
+			1,
+			10517,
+			1
+		},
+		vfx_prefab = {
+			"fbx/litmap_03/pre_db_publiccafe01_statue01/vfx_wupintishi01"
 		}
 	}
 }

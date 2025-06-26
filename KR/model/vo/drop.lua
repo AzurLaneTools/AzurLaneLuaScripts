@@ -751,16 +751,6 @@ slot0.InitSwitch = function()
 						slot0:updateActivity(slot1)
 					end
 				end,
-				[10] = function ()
-					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_INSTAGRAM) and not slot1:isEnd() then
-						slot1.data1 = slot1.data1 + uv0.count
-
-						slot0:updateActivity(slot1)
-						pg.m02:sendNotification(GAME.ACTIVITY_BE_UPDATED, {
-							activity = slot1
-						})
-					end
-				end,
 				[11] = function ()
 					if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_RED_PACKETS) and not slot1:isEnd() then
 						slot1.data1 = slot1.data1 + uv0.count
@@ -994,20 +984,20 @@ slot0.InitSwitch = function()
 		end,
 		[DROP_TYPE_DORM3D_FURNITURE] = function (slot0)
 			slot1 = getProxy(ApartmentProxy)
-			slot2 = slot1:getRoom(slot0:getConfig("room_id"))
 
-			slot2:AddFurnitureByID(slot0.id)
-			slot1:updateRoom(slot2)
+			slot1:ModifyRoom(slot0:getConfig("room_id"), function (slot0)
+				slot0:AddFurnitureByID(uv0.id)
+			end)
 		end,
 		[DROP_TYPE_DORM3D_GIFT] = function (slot0)
 			getProxy(ApartmentProxy):changeGiftCount(slot0.id, slot0.count)
 		end,
 		[DROP_TYPE_DORM3D_SKIN] = function (slot0)
 			slot1 = getProxy(ApartmentProxy)
-			slot2 = slot1:getApartment(slot0:getConfig("ship_group"))
 
-			slot2:addSkin(slot0.id)
-			slot1:updateApartment(slot2)
+			slot1:ModifyApartment(slot0:getConfig("ship_group"), function (slot0)
+				slot0:addSkin(uv0.id)
+			end)
 		end,
 		[DROP_TYPE_LIVINGAREA_COVER] = function (slot0)
 			slot2 = LivingAreaCover.New({

@@ -41,6 +41,19 @@ slot1.GetBlackboradValue = function(slot0, slot1, slot2)
 	return (slot2 or slot0.mainBlackboard):GetVariable(slot1).value
 end
 
+slot1.CopyAllBlackBoardValue = function(slot0, slot1, slot2)
+	slot4 = ReflectionHelp.RefGetProperty(typeof("NodeCanvas.Framework.IBlackboard"), "variables", slot1):GetEnumerator()
+
+	while slot4:MoveNext() do
+		slot5 = slot4.Current
+		slot6 = slot5.Key
+
+		if type(slot5.Value.value) ~= "number" then
+			slot0:SetBlackboradValue(slot6, slot7, slot2)
+		end
+	end
+end
+
 slot1.SendEvent = function(slot0, slot1, slot2, slot3)
 	slot3 = slot3 or slot0.mainOwner
 
@@ -57,6 +70,14 @@ end
 
 slot1.RegisterFunc = function(slot0, slot1, slot2)
 	slot0.functionDic[slot1] = slot2
+end
+
+slot1.UnregisterFunc = function(slot0, slot1)
+	if slot0.functionDic[slot1] then
+		slot0.functionDic[slot1] = nil
+	else
+		warning("NodeCanvasMgr UnregisterFunc not found:" .. slot1)
+	end
 end
 
 slot1.CallFunc = function(slot0, slot1, ...)

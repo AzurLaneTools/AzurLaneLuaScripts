@@ -779,6 +779,240 @@ pg.dorm3d_camera_zone_template = {
 			100
 		}
 	},
+	[11001] = {
+		name = "침실",
+		record_time = 60,
+		room_id = 11,
+		id = 11001,
+		watch_camera = "Bed",
+		regular_anim = {
+			{
+				10517,
+				{
+					11001,
+					11002,
+					11003,
+					11004,
+					11005,
+					11006,
+					11007,
+					11008,
+					11009,
+					11010,
+					11011,
+					11012,
+					11013,
+					11014
+				}
+			}
+		},
+		special_furniture = {
+			{
+				1101,
+				1110102
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	},
+	[11002] = {
+		name = "식당",
+		record_time = 60,
+		room_id = 11,
+		id = 11002,
+		watch_camera = "Table",
+		regular_anim = {
+			{
+				10517,
+				{
+					11001,
+					11002,
+					11003,
+					11004,
+					11005,
+					11006,
+					11007,
+					11008,
+					11009,
+					11010,
+					11011,
+					11012,
+					11013,
+					11014
+				}
+			}
+		},
+		special_furniture = {
+			{
+				1102,
+				1110203
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	},
+	[11003] = {
+		name = "거실",
+		record_time = 60,
+		room_id = 11,
+		id = 11003,
+		watch_camera = "Chair",
+		regular_anim = {
+			{
+				10517,
+				{
+					11001,
+					11002,
+					11003,
+					11004,
+					11005,
+					11006,
+					11007,
+					11008,
+					11009,
+					11010,
+					11011,
+					11012,
+					11013,
+					11014
+				}
+			}
+		},
+		special_furniture = {
+			{
+				1103,
+				1110303
+			},
+			{
+				1151,
+				1110303
+			}
+		},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	},
+	[16001] = {
+		name = "스테이지",
+		record_time = 60,
+		room_id = 16,
+		id = 16001,
+		watch_camera = "xinzexi",
+		regular_anim = {
+			{
+				10517,
+				{
+					16001,
+					16002,
+					16003,
+					16004,
+					16005
+				}
+			}
+		},
+		special_furniture = {},
+		anim_speeds = {
+			0.2,
+			0.5,
+			1,
+			1.5,
+			2
+		},
+		focus_distance = {
+			0.1,
+			5
+		},
+		blur_strength = {
+			-2,
+			2
+		},
+		exposure = {
+			-3,
+			3
+		},
+		contrast = {
+			-100,
+			100
+		},
+		saturation = {
+			-100,
+			100
+		}
+	},
 	get_id_list_by_room_id = {
 		{
 			1001,
@@ -799,6 +1033,14 @@ pg.dorm3d_camera_zone_template = {
 			4001,
 			4002,
 			4003
+		},
+		[11] = {
+			11001,
+			11002,
+			11003
+		},
+		[16] = {
+			16001
 		}
 	},
 	all = {
@@ -813,6 +1055,10 @@ pg.dorm3d_camera_zone_template = {
 		3003,
 		4001,
 		4002,
-		4003
+		4003,
+		11001,
+		11002,
+		11003,
+		16001
 	}
 }

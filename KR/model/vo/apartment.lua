@@ -11,6 +11,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.setCallTimeStamp = pg.TimeMgr.GetInstance():GetServerTime()
 	slot0.visitTime = slot1.visit_time
 	slot0.skinList = {}
+	slot0.hiddenInfo = {}
 
 	table.insert(slot0.skinList, slot0:getConfig("skin_model"))
 
@@ -19,6 +20,23 @@ slot0.Ctor = function(slot0, slot1)
 
 	for slot5, slot6 in slot2(slot3) do
 		table.insert(slot0.skinList, slot6)
+	end
+
+	slot2 = ipairs
+	slot3 = slot1.hidden_parts or {}
+
+	for slot5, slot6 in slot2(slot3) do
+		table.insert(slot0.hiddenInfo, {
+			skin_id = slot6.id,
+			hidden_parts = {}
+		})
+
+		slot7 = ipairs
+		slot8 = slot6.hidden_parts or {}
+
+		for slot10, slot11 in slot7(slot8) do
+			table.insert(slot0.hiddenInfo[#slot0.hiddenInfo].hidden_parts, slot11)
+		end
 	end
 
 	table.sort(slot0.skinList)
@@ -98,7 +116,7 @@ slot0.addSkin = function(slot0, slot1)
 	table.sort(slot0.skinList)
 end
 
-slot0.getSkinId = function(slot0)
+slot0.GetCurSkinId = function(slot0)
 	if slot0.skinId == 0 then
 		return slot0:getConfig("skin_model")
 	else
@@ -128,6 +146,29 @@ slot0.GetSetCallCd = function(slot0)
 	end
 
 	return slot0.setCallCd - pg.TimeMgr.GetInstance():GetServerTime()
+end
+
+slot0.GetHiddenParts = function(slot0, slot1)
+	if not underscore.detect(slot0.hiddenInfo, function (slot0)
+		return slot0.skin_id == uv0
+	end) then
+		return {}
+	end
+
+	return slot2.hidden_parts or {}
+end
+
+slot0.SetHiddenParts = function(slot0, slot1, slot2)
+	if not underscore.detect(slot0.hiddenInfo, function (slot0)
+		return slot0.skin_id == uv0
+	end) then
+		table.insert(slot0.hiddenInfo, {
+			skin_id = slot1,
+			hidden_parts = slot2
+		})
+	else
+		slot3.hidden_parts = slot2
+	end
 end
 
 slot0.getTalkingList = function(slot0, slot1)
@@ -287,6 +328,10 @@ slot0.getGroupConfig = function(slot0, slot1)
 	end
 
 	return nil
+end
+
+slot0.GetAllModelIds = function(slot0)
+	return pg.dorm3d_resource.get_id_list_by_ship_group[slot0.configId] or {}
 end
 
 return slot0

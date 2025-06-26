@@ -44,20 +44,6 @@ slot0.getUIName = function(slot0)
 	return "Dorm3dVolleyballUI"
 end
 
-slot0.forceGC = function(slot0)
-	return true
-end
-
-slot0.loadingQueue = function(slot0)
-	return function (slot0)
-		slot1 = pg.SceneAnimMgr.GetInstance()
-
-		slot1:Dorm3DSceneChange(function (slot0)
-			return uv0(slot0)
-		end)
-	end
-end
-
 slot0.lowerAdpter = function(slot0)
 	return true
 end

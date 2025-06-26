@@ -172651,6 +172651,31 @@ _G.pg.base.item_virtual_data_statistics[65620] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65621] = {
+	drop_gold_max = 0,
+	name = "다이호의 러브레터",
+	display = "「뜨거운 고백 연습」에서 획득할 수 있는 이벤트 Pt. 이벤트 화면의 「수령」을 탭하면 호감도로 변환할 수 있습니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/little_taihou_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65621,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "목재",

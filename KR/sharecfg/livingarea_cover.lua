@@ -26,11 +26,11 @@ pg.livingarea_cover = {
 	},
 	[100102] = {
 		get_tips = "친밀도 벽지를 획득했습니다",
-		name = "잠자리 청소",
+		name = "잡담",
 		nighttime_res = "100102_bg_night",
 		daytime_res = "100102_bg_day",
 		rarity = 3,
-		desc = "획득하면 「모항」의 벽지를 「잠자리 청소」로 적용 가능",
+		desc = "획득하면 「모항」의 벽지를 「잡담」으로 적용 가능",
 		unlock_text = "시리우스의 친밀도 Lv6 달성 시 오픈",
 		id = 100102,
 		icon = "Props/drom3d_camera1003",
@@ -38,11 +38,11 @@ pg.livingarea_cover = {
 	},
 	[100103] = {
 		get_tips = "친밀도 벽지를 획득했습니다",
-		name = "잡담",
+		name = "잠자리 청소",
 		nighttime_res = "100103_bg_night",
 		daytime_res = "100103_bg_day",
 		rarity = 3,
-		desc = "획득하면 「모항」의 벽지를 「잡담」으로 적용 가능",
+		desc = "획득하면 「모항」의 벽지를 「잠자리 청소」로 적용 가능",
 		unlock_text = "시리우스의 친밀도 Lv14 달성 시 오픈",
 		id = 100103,
 		icon = "Props/drom3d_camera1003",
@@ -120,6 +120,42 @@ pg.livingarea_cover = {
 		icon = "Props/drom3d_camera1003",
 		icon_res = "100303_icon"
 	},
+	[101101] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "여유와 평온",
+		nighttime_res = "101101_bg_night",
+		daytime_res = "101101_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「여유와 평온」으로 적용 가능",
+		unlock_text = "뉴저지의 숙소 친밀도 Lv2 달성 시 오픈",
+		id = 101101,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101101_icon"
+	},
+	[101102] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "태양과 미소",
+		nighttime_res = "101102_bg_night",
+		daytime_res = "101102_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「태양과 미소」로 적용 가능",
+		unlock_text = "뉴저지의 숙소 친밀도 Lv7 달성 시 오픈",
+		id = 101102,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101102_icon"
+	},
+	[101103] = {
+		get_tips = "친밀도 벽지를 획득했습니다",
+		name = "달콤한 속삭임",
+		nighttime_res = "101103_bg_night",
+		daytime_res = "101103_bg_day",
+		rarity = 3,
+		desc = "획득하면 「모항」의 벽지를 「달콤한 속삭임」로 적용 가능",
+		unlock_text = "뉴저지의 숙소 친밀도 Lv10 달성 시 오픈",
+		id = 101103,
+		icon = "Props/drom3d_camera1003",
+		icon_res = "101103_icon"
+	},
 	all = {
 		0,
 		100101,
@@ -130,6 +166,9 @@ pg.livingarea_cover = {
 		100203,
 		100301,
 		100302,
-		100303
+		100303,
+		101101,
+		101102,
+		101103
 	}
 }

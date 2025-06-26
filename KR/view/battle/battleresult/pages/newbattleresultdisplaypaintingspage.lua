@@ -10,6 +10,7 @@ slot0.OnLoaded = function(slot0)
 	slot0.slots = {
 		slot0:findTF("tpl")
 	}
+	slot0.defaultPaintingPosition = slot0:findTF("tpl/mask/painting").anchoredPosition
 end
 
 slot0.StaticGetFinalExpandPosition = function(slot0)
@@ -104,6 +105,7 @@ slot0.InitSubFleetShips = function(slot0, slot1)
 
 	for slot7 = 1, #slot2 - uv0 do
 		if slot0.slots[slot7] then
+			slot0:RevertPainting(slot0.slots[slot7])
 			retPaintingPrefab(slot0.slots[slot7]:Find("mask/painting"), slot2[slot7]:getPainting())
 		end
 	end
@@ -120,7 +122,8 @@ slot0.InitSubFleetShips = function(slot0, slot1)
 		slot9.localPosition = slot0:GetExpandPosition(#slot2, slot8)
 
 		table.insert(slot4, function (slot0)
-			setPaintingPrefabAsync(uv0:Find("mask/painting"), uv1:getPainting(), "biandui", slot0)
+			uv0:AdjustPainting(uv1, uv2)
+			setPaintingPrefabAsync(uv1:Find("mask/painting"), uv2:getPainting(), "biandui", slot0)
 		end)
 	end
 
@@ -311,10 +314,32 @@ slot0.InitMainFleetShips = function(slot0, slot1)
 			end
 
 			setPaintingPrefabAsync(uv1:Find("mask/painting"), uv2:getPainting(), "biandui", slot0)
+			uv0:AdjustPainting(uv1, uv2)
 		end)
 	end
 
 	parallelAsync(slot4, slot1)
+end
+
+slot0.AdjustPainting = function(slot0, slot1, slot2)
+	slot3 = slot0:findTF("mask/painting", slot1)
+
+	if pg.ship_skin_newmainui_shift[slot2:getSkinId()] then
+		slot5 = slot4.battle_result_display_shift
+		slot6 = slot3:GetComponent(typeof(RectTransform))
+		slot6.anchoredPosition = Vector2(slot5[1] + slot0.defaultPaintingPosition.x, slot5[2] + slot0.defaultPaintingPosition.y)
+		slot7 = slot5[4]
+		slot6.localScale = Vector3(slot7, slot7, 1)
+		slot8 = slot6.localEulerAngles
+		slot6.localEulerAngles = Vector3(slot8.x, slot8.y, slot5[5] and slot5[5] or 0)
+	end
+end
+
+slot0.RevertPainting = function(slot0, slot1)
+	slot3 = slot0:findTF("mask/painting", slot1):GetComponent(typeof(RectTransform))
+	slot3.anchoredPosition = slot0.defaultPaintingPosition
+	slot3.localScale = Vector3(1, 1, 1)
+	slot3.localEulerAngles = Vector3(0, 0, 0)
 end
 
 slot0.OnDestroy = function(slot0)
@@ -330,6 +355,7 @@ slot0.OnDestroy = function(slot0)
 
 	for slot5, slot6 in slot2(slot3) do
 		if slot6 and slot6:Find("mask/painting") and slot1[slot5] and slot7:Find("fitter").childCount > 0 then
+			slot0:RevertPainting(slot6)
 			retPaintingPrefab(slot7, slot1[slot5]:getPainting())
 		end
 

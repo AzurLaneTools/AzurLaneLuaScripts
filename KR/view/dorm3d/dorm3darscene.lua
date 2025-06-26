@@ -108,12 +108,12 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 			slot2 = uv2.loader
 
 			slot2:GetPrefab(string.format("dorm3d/character/%s/prefabs/%s", uv0, uv1), "", function (slot0)
-				uv0.ladyGameobject = slot0
+				uv0.ladyGameObject = slot0
 
 				setActive(slot0.transform, false)
 
 				uv1.skinDict[uv2] = {
-					ladyGameobject = slot0
+					ladyGameObject = slot0
 				}
 
 				uv3()
@@ -125,7 +125,7 @@ slot0.LoadCharacter = function(slot0, slot1, slot2)
 end
 
 slot0.InitCharacter = function(slot0, slot1)
-	slot0.lady = slot0.ladyGameobject.transform
+	slot0.lady = slot0.ladyGameObject.transform
 	slot2 = slot0.lady
 
 	slot2:SetParent(slot0.mainCameraTF)

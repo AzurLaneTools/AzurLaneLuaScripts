@@ -795,54 +795,12 @@ slot0.InitActivityBossData = function(slot0, slot1)
 	end
 end
 
-slot0.AddInstagramTimer = function(slot0, slot1)
-	slot0:RemoveInstagramTimer()
-
-	slot3, slot4 = slot0.data[slot1]:GetNextPushTime()
-
-	if slot3 then
-		slot5 = pg.TimeMgr.GetInstance()
-
-		slot7 = function()
-			uv0:sendNotification(GAME.ACT_INSTAGRAM_OP, {
-				arg2 = 0,
-				activity_id = uv1,
-				cmd = ActivityConst.INSTAGRAM_OP_ACTIVE,
-				arg1 = uv2
-			})
-		end
-
-		if slot3 - slot5:GetServerTime() <= 0 then
-			slot7()
-		else
-			slot0.instagramTimer = Timer.New(function ()
-				uv0()
-				uv1:RemoveInstagramTimer()
-			end, slot6, 1)
-
-			slot0.instagramTimer:Start()
-		end
-	end
-end
-
-slot0.RemoveInstagramTimer = function(slot0)
-	if slot0.instagramTimer then
-		slot0.instagramTimer:Stop()
-
-		slot0.instagramTimer = nil
-	end
-end
-
 slot0.RegisterRequestTime = function(slot0, slot1, slot2)
 	if not slot1 or slot1 <= 0 then
 		return
 	end
 
 	slot0.requestTime[slot1] = slot2
-end
-
-slot0.remove = function(slot0)
-	slot0:RemoveInstagramTimer()
 end
 
 slot0.addActivityParameter = function(slot0, slot1)
@@ -897,33 +855,33 @@ slot0.getBuildPoolActivity = function(slot0, slot1)
 end
 
 slot0.getEnterReadyActivity = function(slot0)
-	slot3 = {}
-
-	for slot7, slot8 in ipairs(_.keys({
-		[ActivityConst.ACTIVITY_TYPE_ZPROJECT] = false,
-		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function (slot0)
-			return not slot0:checkBattleTimeInBossAct()
+	slot1 = {
+		[ActivityConst.ACTIVITY_TYPE_ZPROJECT] = function (slot0)
+			return true
 		end,
-		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = false,
-		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = false,
-		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = false
-	})) do
-		slot3[slot8] = 0
-	end
+		[ActivityConst.ACTIVITY_TYPE_BOSS_BATTLE_MARK_2] = function (slot0)
+			return slot0:checkBattleTimeInBossAct()
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSSRUSH] = function (slot0)
+			return true
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE] = function (slot0)
+			return true
+		end,
+		[ActivityConst.ACTIVITY_TYPE_BOSSSINGLE_VARIABLE] = function (slot0)
+			return true
+		end
+	}
 
-	for slot7, slot8 in pairs(slot0.data) do
-		if slot3[slot8:getConfig("type")] and not slot8:isEnd() and not existCall(slot1[slot9], slot8) then
-			slot3[slot9] = math.max(slot3[slot9], slot7)
+	for slot5, slot6 in pairs(slot0.data) do
+		if switch(slot6:getConfig("type"), slot1, function (slot0)
+			return false
+		end) and not slot6:isEnd() and tobool(slot6:getConfig("config_client").entrance_bg) then
+			return slot6
 		end
 	end
 
-	table.sort(slot2)
-
-	for slot7, slot8 in ipairs(slot2) do
-		if slot3[slot8] > 0 then
-			return slot0.data[slot3[slot8]]
-		end
-	end
+	return nil
 end
 
 slot0.AtelierActivityAllSlotIsEmpty = function(slot0)

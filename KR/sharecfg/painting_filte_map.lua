@@ -5507,6 +5507,7 @@ pg.painting_filte_map = {
 		key = "guanghui_8",
 		res_list = {
 			"painting/guanghui_8_tex",
+			"painting/guanghui_8_shophx_tex",
 			"painting/guanghui_8_rw_tex",
 			"painting/guanghui_8_n_rw_tex",
 			"painting/guanghui_8_n",

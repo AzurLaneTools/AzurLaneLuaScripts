@@ -236,6 +236,10 @@ slot0.SetPagesActive = function(slot0, slot1)
 end
 
 slot0.ShowTaskPage = function(slot0)
+	if not slot0.taskItemAnimTime then
+		slot0.taskItemAnimTime = {}
+	end
+
 	slot1 = UIItemList.New(slot0:findTF("subPageScroll/Viewport/Content", slot0.taskPage), slot0:findTF("subPageScroll/Viewport/Content/subPageBtn", slot0.taskPage))
 	slot2 = UIItemList.New(slot0:findTF("page/scroll/Viewport/Content", slot0.taskPage), slot0:findTF("page/scroll/Viewport/Content/tpl", slot0.taskPage))
 
@@ -326,7 +330,11 @@ slot0.ShowTaskPage = function(slot0)
 								setActive(slot13, true)
 							end
 
-							slot2:GetComponent(typeof(Animation)):Play("anim_CommanderManualUI_tpl_update")
+							if not uv1.taskItemAnimTime[slot3] or Time.realtimeSinceStartup - uv1.taskItemAnimTime[slot3] > 1 then
+								slot2:GetComponent(typeof(Animation)):Play("anim_CommanderManualUI_tpl_update")
+
+								uv1.taskItemAnimTime[slot3] = Time.realtimeSinceStartup
+							end
 						end
 					end)
 					uv3:align(#uv0.taskIdList)

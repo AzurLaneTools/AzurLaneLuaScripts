@@ -20,10 +20,9 @@ slot0.execute = function(slot0, slot1)
 			return
 		end
 
-		slot1 = getProxy(ApartmentProxy):getRoom(uv1)
-
-		slot1:ReplaceFurnitures(uv2)
-		getProxy(ApartmentProxy):updateRoom(slot1)
+		getProxy(ApartmentProxy):ModifyRoom(uv1, function (slot0)
+			slot0:ReplaceFurnitures(uv0)
+		end)
 		pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_furniture_save_success"))
 		uv0:sendNotification(GAME.APARTMENT_REPLACE_FURNITURE_DONE)
 	end)

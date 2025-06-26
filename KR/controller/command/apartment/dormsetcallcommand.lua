@@ -14,13 +14,12 @@ slot0.execute = function(slot0, slot1)
 		name = slot2.callName
 	}, 28022, function (slot0)
 		if slot0.result == 0 then
-			uv0 = uv1:getApartment(uv2.groupId)
-			uv0.callName = uv2.callName
-			uv0.setCallCd = pg.TimeMgr.GetInstance():GetServerTime() + 172800
-
-			uv1:updateApartment(uv0)
-			uv3:sendNotification(GAME.DORM_SET_CALL_DONE, {
-				apartment = uv0
+			uv0:ModifyApartment(uv1.groupId, {
+				callName = uv1.callName,
+				setCallCd = pg.TimeMgr.GetInstance():GetServerTime() + 172800
+			})
+			uv2:sendNotification(GAME.DORM_SET_CALL_DONE, {
+				apartment = uv0:getApartment(uv1.groupId)
 			})
 		else
 			pg.TipsMgr.GetInstance():ShowTips(errorTip("dorm3d set call name error: ", slot0.result))

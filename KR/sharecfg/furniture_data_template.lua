@@ -26281,7 +26281,7 @@ pg.base.furniture_data_template = {
 	},
 	[100074] = {
 		can_rotate = 0,
-		describe = "我是一个小幽灵~看不见的小幽灵~",
+		describe = "나는야 꼬마 유령~ 안 보이는 꼬마 유령이지롱~",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -26300,7 +26300,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		icon = "yinshendoupengicon",
 		count = 1,
-		name = "幽灵隐身衣",
+		name = "유령 은신복",
 		advice = 0,
 		id = 100074,
 		tag = 6,

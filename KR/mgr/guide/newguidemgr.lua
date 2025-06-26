@@ -81,6 +81,9 @@ slot0.Play = function(slot0, slot1, slot2, slot3, slot4, slot5)
 	end
 
 	uv0("play guide : " .. slot1)
+
+	slot0.currentGuideName = slot1
+
 	slot0:PlayScript(uv1(slot1), slot2, slot3, slot4, slot5)
 end
 
@@ -149,6 +152,8 @@ slot0.OnStart = function(slot0)
 end
 
 slot0.OnEnd = function(slot0, slot1)
+	slot0.currentGuideName = nil
+
 	slot0.uiLongPress.onLongPressed:RemoveAllListeners()
 	pg.DelegateInfo.Dispose(slot0)
 
@@ -261,6 +266,10 @@ end
 
 slot0.ExistScene = function(slot0, slot1)
 	return table.contains(slot0.sceneRecords, slot1)
+end
+
+slot0.GetCurrentGuideName = function(slot0)
+	return slot0.currentGuideName
 end
 
 slot0.Exit = function(slot0)

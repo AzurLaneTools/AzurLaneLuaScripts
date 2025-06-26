@@ -1114,7 +1114,7 @@ return {
 			blackBg = true,
 			sequence = {
 				{
-					"——「虚像世界的迷途者・关卡篇」·END",
+					"——「허상 세계의 미혹자」·END",
 					2
 				}
 			}

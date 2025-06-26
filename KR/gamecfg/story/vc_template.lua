@@ -1,7 +1,9 @@
 return {
-	id = "ACTRUYUE01",
 	shipGroup = 20220,
 	bgName = "bg_bianzhihua_cg4",
+	id = "ACTRUYUE01",
+	label = "dorm3d_VIDEO_TELEPHONE_LABEL",
+	stopBgm = true,
 	scripts = {
 		{
 			voice = "event:/dorm/drom3d_noshiro_other/drom3d_Noshiro_hello1",

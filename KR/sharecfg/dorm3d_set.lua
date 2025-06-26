@@ -189,6 +189,16 @@ pg.dorm3d_set = {
 		key = "drom3d_shop_product_panel_num",
 		key_value_int = 3
 	},
+	drom3d_new_room_remind = {
+		key_value_varchar = "",
+		key = "drom3d_new_room_remind",
+		key_value_int = 11
+	},
+	dorm3d_furniture_slide = {
+		key_value_varchar = "",
+		key = "dorm3d_furniture_slide",
+		key_value_int = 401
+	},
 	all = {
 		"favor_level",
 		"stage",
@@ -221,6 +231,8 @@ pg.dorm3d_set = {
 		"drom3d_shop_product_panel_min1",
 		"drom3d_shop_product_panel_min2",
 		"drom3d_shop_product_panel_min3",
-		"drom3d_shop_product_panel_num"
+		"drom3d_shop_product_panel_num",
+		"drom3d_new_room_remind",
+		"dorm3d_furniture_slide"
 	}
 }

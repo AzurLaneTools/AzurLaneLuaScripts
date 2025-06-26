@@ -7,7 +7,6 @@ slot0.GetType2Class = function()
 	end
 
 	uv0 = {
-		[ActivityConst.ACTIVITY_TYPE_INSTAGRAM] = InstagramActivity,
 		[ActivityConst.ACTIVITY_TYPE_HITMONSTERNIAN] = BeatMonterNianActivity,
 		[ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT] = CollectionEventActivity,
 		[ActivityConst.ACTIVITY_TYPE_RETURN_AWARD] = ReturnerActivity,
@@ -729,6 +728,7 @@ slot0.IsShowTipById = function(slot0)
 		[ActivityConst.JIUJIU_YOYO_ID] = JiujiuYoyoPage.IsShowRed,
 		[ActivityConst.SENRANKAGURA_TRAIN_ACT_ID] = SenrankaguraTrainScene.IsShowRed,
 		[ActivityConst.DORM_SIGN_ID] = DormSignPage.IsShowRed,
+		[ActivityConst.DORM_SIGN_ID_2] = DormSignTwoPage.IsShowRed,
 		[ActivityConst.GOASTSTORYACTIVITY_ID] = GhostSkinPageLayer.IsShowRed
 	}
 	slot1 = uv0.ShowTipTableById[slot0.id]
@@ -780,7 +780,8 @@ slot0.isShow = function(slot0)
 			return slot0 + getProxy(ShopsProxy):getActivityShopById(uv0.shopId):GetCommodityById(slot1):GetPurchasableCnt()
 		end)
 	elseif slot0:getConfig("type") == ActivityConst.ACTIVITY_TYPE_TASK_RYZA and table.contains({
-		ActivityConst.DORM_SIGN_ID
+		ActivityConst.DORM_SIGN_ID,
+		ActivityConst.DORM_SIGN_ID_2
 	}, slot0:getConfig("id")) then
 		return #getProxy(ActivityProxy):getActivityById(slot0:getConfig("id")):getConfig("config_data") ~= #getProxy(ActivityTaskProxy):getFinishTaskById(slot0:getConfig("id"))
 	end

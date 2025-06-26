@@ -340,6 +340,7 @@ pg.memory_group = setmetatable({
 		608,
 		609,
 		610,
+		611,
 		1000,
 		1001,
 		1002,
@@ -7894,6 +7895,26 @@ pg.base.memory_group = {
 			4325,
 			4326,
 			4327
+		},
+		group_id = {
+			10000
+		}
+	},
+	[611] = {
+		title = "마녀와 운명의 밤",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 611,
+		icon = "title_chara_aogusite",
+		memories = {
+			4441,
+			4442,
+			4443,
+			4444,
+			4445,
+			4446,
+			4447
 		},
 		group_id = {
 			10000

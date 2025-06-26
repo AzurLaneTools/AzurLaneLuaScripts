@@ -4099,7 +4099,7 @@ _G.pg.base.gametip.ship_formationUI_quest_remove = {
 
 
 _G.pg.base.gametip.ship_newShipLayer_get = {
-	tip = "<color=#92fc63>$1</color> - <color=#92fc63>$2</color>을(를) 획득"
+	tip = "<color=#92fc63>$1</color> - <color=#92fc63>$2</color> 획득"
 }
 
 
@@ -10107,7 +10107,7 @@ _G.pg.base.gametip.chapter_tip_bp_ammo = {
 
 
 _G.pg.base.gametip.build_ship_tip = {
-	tip = "$2을(를) <color=#ff5c5c>$1척</color> 건조하기 위해 다음의 아이템이 사용됩니다.\n<color=$5>$3 물자</color>와 <color=$5>성정큐브 $4개</color>"
+	tip = "$2을(를) <color=#ff5c5c>$1척</color>을 건조하기 위해 다음의 아이템이 사용됩니다.\n<color=$5>$3 물자</color>와 <color=$5>성정큐브 $4개</color>"
 }
 
 
@@ -16822,6 +16822,11 @@ _G.pg.base.gametip.msgbox_repair_l2d = {
 
 _G.pg.base.gametip.msgbox_repair_painting = {
 	tip = "일러스트 복원 "
+}
+
+
+_G.pg.base.gametip.l2d_32xbanned_warning = {
+	tip = "현재 기기 환경에서는 L2D 콘텐츠를 정상적으로 표시할 수 없습니다."
 }
 
 
@@ -30188,28 +30193,28 @@ _G.pg.base.gametip.notice_label_tip = {
 _G.pg.base.gametip.littleTaihou_npc = {
 	tip = {
 		{
-			info = "'뜨거운 고백 연습' 설명:"
+			info = "■ 개요\n「뜨거운 고백 연습」은 이벤트 시작 시에 임시로 가입하는 [꼬마 다이호]의 「호감도」를 해역에 출격함으로써 쌓아, [꼬마 다이호]를 정식으로 가입시키는 이벤트입니다. "
 		},
 		{
-			info = "1. 이벤트 기간 동안 플레이어는 임시 npc 캐릭터인 '꼬마 다이호'를 획득할 수 있습니다. 임시 캐릭터는 서약 불가, 전역 불가, 강화 돌파 재료로 사용할 수 없습니다.},{info='2. 이벤트 기간 동안 메인 스토리(일반 난이도) 3장 및 이후 스테이지 또는 이벤트 맵 기함 격파 시 임시 npc 캐릭터인 '꼬마 다이호'의 호감도를 높일 수 있습니다.(대형 작전 제외)"
+			info = "■ 플레이 방법\n1. 이벤트 기간 중에 메인 해역(보통) 3장 이후 스테이지의 보스 함대를 격퇴하면 「호감도」를 획득할 수 있습니다. 획득한 「호감도」가 일정 수치에 도달하면 「호감도 보상」을 획득할 수 있습니다."
 		},
 		{
-			info = "3. '꼬마 다이호'를 전투에 참여시킨 후 격침되지 않을 경우, 호감도가 2배 상승합니다."
+			info = "2. [꼬마 다이호]는 호감도 보상(7단계째)의 「정식 가입」을 달성하지 않으면 서약할 수 없으며, 퇴역 및 강화·한계 돌파 재료로 선택할 수 없습니다. "
 		},
 		{
-			info = "4. 6월 21일까지 매일 1개의 호감도 단계가 잠금 해제됩니다."
+			info = "3. [꼬마 다이호]를 편성한 함대로 상기 스테이지의 보스 함대를 격퇴하고, 승리 시에 [꼬마 다이호]가 전투 가능한 상태라면 획득하는 「호감도」가 두 배가 됩니다. "
 		},
 		{
-			info = "5. 이벤트 종료 전 누적 호감도 1,000포인트 달성 시 보상을 획득할 수 있고, 임시 캐릭터 '꼬마 다이호'를 영구 캐릭터로 전환시킬 수 있습니다."
+			info = "4. 이벤트 종료 시까지 이벤트 페이지의 「호감도 보상」을 마지막까지 수령하면, [꼬마 다이호]를 「정식 가입」시킬 수 있습니다(호감도 1,000 필요). 이벤트 종료 시, 「정식 가입」하지 않은 [꼬마 다이호]는 모항에서 사라집니다. "
 		},
 		{
-			info = "6. 이벤트 종료 후 전환 실패한 임시 캐릭터 '꼬마 다이호'는 모항을 떠나며, 강화, 돌파 등 이미 소모된 육성 재료는 반환되지 않습니다."
+			info = "5. 호감도 보상은 7/2(수)까지 매일 한 단계씩 오픈됩니다. "
 		},
 		{
-			info = "7. npc 캐릭터는대형 작전에 참여할 수 없습니다."
+			info = "6. 임시 가입 상태인 [꼬마 다이호]는 대형 작전(META전 포함)에는 참여할 수 없으며, 대형 작전을 통한 호감도 획득 또한 불가능합니다. "
 		},
 		{
-			info = "8. npc 캐릭터는 대함대 작전의 사건 파견과 공방대, 수령전에 참여할 수 없습니다."
+			info = "7. 임시 가입 상태인 [꼬마 다이호]는 대함대 작전에 참여할 수 없습니다. "
 		}
 	}
 }
@@ -35065,7 +35070,7 @@ _G.pg.base.gametip.dorm3d_role_choose = {
 
 
 _G.pg.base.gametip.dorm3d_beach_buy = {
-	tip = "<color=#39bfff>$1</color>을 소비하여 <color=#169fff>해변</color>을 오픈하시겠습니까?"
+	tip = "<color=#39bfff>$1</color>을(를) 소비하여 <color=#169fff>$2</color>을(를) 오픈하시겠습니까?"
 }
 
 
@@ -37002,6 +37007,11 @@ _G.pg.base.gametip.dorm3d_guide_tip = {
 }
 
 
+_G.pg.base.gametip.dorm3d_guide_tip2 = {
+	tip = "우선 해변을 둘러보자"
+}
+
+
 _G.pg.base.gametip.dorm3d_noshiro_table = {
 	tip = "툇마루"
 }
@@ -37037,6 +37047,21 @@ _G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_xinzexi_table = {
+	tip = "식당"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_chair = {
+	tip = "거실"
+}
+
+
+_G.pg.base.gametip.dorm3d_xinzexi_bed = {
+	tip = "침실"
+}
+
+
 _G.pg.base.gametip.dorm3d_gift_favor_max = {
 	tip = "친밀도가 최대치에 달했습니다. 선물을 줘도 친밀도는 상승하지 않습니다. 선물하시겠습니까?"
 }
@@ -37044,6 +37069,11 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 
 _G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
 	tip = "$1의 초대"
+}
+
+
+_G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
+	tip = "$1에게 온 통화"
 }
 
 
@@ -37152,6 +37182,11 @@ _G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
+	tip = "로프트"
+}
+
+
 _G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
 	tip = "오늘"
 }
@@ -37183,7 +37218,7 @@ _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
-	tip = "통화 기록"
+	tip = "영상 기록"
 }
 
 
@@ -37197,6 +37232,11 @@ _G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
 }
 
 
+_G.pg.base.gametip.dorm3d_privatechat_video_call = {
+	tip = "영상 통화"
+}
+
+
 _G.pg.base.gametip.dorm3d_ins_no_msg = {
 	tip = "새로운 메시지 없음"
 }
@@ -37204,6 +37244,36 @@ _G.pg.base.gametip.dorm3d_ins_no_msg = {
 
 _G.pg.base.gametip.dorm3d_ins_no_topics = {
 	tip = "새로운 게시물이 없습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_confirm = {
+	tip = "적용 확정"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_already = {
+	tip = "적용 중"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_equip = {
+	tip = "$1에게 $2(을)를 적용하시겠습니까?"
+}
+
+
+_G.pg.base.gametip.dorm3d_skin_unlock = {
+	tip = "공공 구역에서는 의상을 변경할 수 없습니다."
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_1 = {
+	tip = "해변"
+}
+
+
+_G.pg.base.gametip.dorm3d_room_floor_2 = {
+	tip = "로프트"
 }
 
 
@@ -37655,6 +37725,36 @@ _G.pg.base.gametip.dorm3d_shop_others = {
 
 _G.pg.base.gametip.dorm3d_shop_limit1 = {
 	tip = "이번 주 한정"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame1 = {
+	tip = "$1의 즉흥 댄스"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame2 = {
+	tip = "$1의 설레는 순간을 담자!"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame3 = {
+	tip = "촬영 완료"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame4 = {
+	tip = "한 번 더"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame5 = {
+	tip = "종료"
+}
+
+
+_G.pg.base.gametip.dorm3d_cafe_minigame6 = {
+	tip = "매칭도: $1"
 }
 
 
@@ -38441,4 +38541,14 @@ _G.pg.base.gametip.brs_reward_tip_1 = {
 
 _G.pg.base.gametip.brs_reward_tip_2 = {
 	tip = "확인"
+}
+
+
+_G.pg.base.gametip.dorm3d_dance_button = {
+	tip = "댄스"
+}
+
+
+_G.pg.base.gametip.dorm3d_collection_cafe = {
+	tip = "카페"
 }

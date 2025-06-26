@@ -44,10 +44,9 @@ slot0.execute = function(slot0, slot1)
 				reducePlayerOwn(slot5)
 			end
 
-			slot1 = uv1:getRoom(uv2)
-			slot1.unlockCharacter[uv3] = true
-
-			uv1:updateRoom(slot1)
+			uv1:ModifyRoom(uv2, function (slot0)
+				slot0.unlockCharacter[uv0] = true
+			end)
 			uv4:sendNotification(GAME.APARTMENT_ROOM_INVITE_UNLOCK_DONE, {
 				roomId = uv2,
 				groupId = uv3
