@@ -1136,6 +1136,11 @@ temp = function()
 		["容"] = {
 			this = true
 		},
+		["王"] = {
+			["星"] = {
+				this = true
+			}
+		},
 		["豚"] = {
 			["號"] = {
 				this = true
@@ -1143,11 +1148,6 @@ temp = function()
 		},
 		["咲"] = {
 			this = true
-		},
-		["王"] = {
-			["星"] = {
-				this = true
-			}
 		}
 	}
 end
@@ -1708,6 +1708,13 @@ temp = function()
 				this = true
 			}
 		},
+		["埃"] = {
+			["吉"] = {
+				["爾"] = {
+					this = true
+				}
+			}
+		},
 		["腓"] = {
 			["特"] = {
 				["烈"] = {
@@ -1718,13 +1725,6 @@ temp = function()
 		["齊"] = {
 			["柏"] = {
 				["林"] = {
-					this = true
-				}
-			}
-		},
-		["埃"] = {
-			["吉"] = {
-				["爾"] = {
 					this = true
 				}
 			}
@@ -6505,10 +6505,101 @@ end
 temp()
 
 temp = function()
+	uv0["奥"] = {
+		["列"] = {
+			["格"] = {
+				this = true
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["奇"] = {
+		["尔"] = {
+			["沙"] = {
+				["治"] = {
+					this = true
+				}
+			}
+		},
 		["爾"] = {
 			["沙"] = {
 				["治"] = {
+					this = true
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0.B = {
+		L = {
+			A = {
+				C = {
+					K = {
+						["★"] = {
+							R = {
+								O = {
+									C = {
+										K = {
+											[" "] = {
+												S = {
+													H = {
+														O = {
+															O = {
+																T = {
+																	E = {
+																		R = {
+																			this = true,
+																			["（"] = {
+																				["后"] = {
+																					["排"] = {
+																						["）"] = {
+																							this = true
+																						}
+																					}
+																				},
+																				["前"] = {
+																					["排"] = {
+																						["）"] = {
+																							this = true
+																						}
+																					}
+																				}
+																			}
+																		}
+																	}
+																}
+															}
+														}
+													}
+												}
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["死"] = {
+		["亡"] = {
+			["主"] = {
+				["宰"] = {
 					this = true
 				}
 			}
@@ -6814,6 +6905,34 @@ end
 temp()
 
 temp = function()
+	uv0.D = {
+		E = {
+			A = {
+				D = {
+					[" "] = {
+						M = {
+							A = {
+								S = {
+									T = {
+										E = {
+											R = {
+												this = true
+											}
+										}
+									}
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
 	uv0["出"] = {
 		["雲"] = {
 			this = true
@@ -6863,76 +6982,6 @@ temp = function()
 			["洛"] = {
 				["夫"] = {
 					this = true
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0.B = {
-		L = {
-			A = {
-				C = {
-					K = {
-						["★"] = {
-							R = {
-								O = {
-									C = {
-										K = {
-											[" "] = {
-												S = {
-													H = {
-														O = {
-															O = {
-																T = {
-																	E = {
-																		R = {
-																			this = true
-																		}
-																	}
-																}
-															}
-														}
-													}
-												}
-											}
-										}
-									}
-								}
-							}
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0.D = {
-		E = {
-			A = {
-				D = {
-					[" "] = {
-						M = {
-							A = {
-								S = {
-									T = {
-										E = {
-											R = {
-												this = true
-											}
-										}
-									}
-								}
-							}
-						}
-					}
 				}
 			}
 		}

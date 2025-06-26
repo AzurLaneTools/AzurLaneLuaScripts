@@ -1885,6 +1885,16 @@ pg.player_resource = {
 		name = "xiaodafeng_youhao_pt_2",
 		itemid = 65621
 	},
+	[514] = {
+		id = 514,
+		name = "bisimaiz_pt",
+		itemid = 65624
+	},
+	[515] = {
+		id = 515,
+		name = "skinTicket94",
+		itemid = 65626
+	},
 	[950] = {
 		id = 950,
 		name = "yisegefuke_pt1",
@@ -3557,6 +3567,12 @@ pg.player_resource = {
 		xiaodafeng_youhao_pt_2 = {
 			513
 		},
+		bisimaiz_pt = {
+			514
+		},
+		skinTicket94 = {
+			515
+		},
 		yisegefuke_pt1 = {
 			950
 		},
@@ -4260,6 +4276,8 @@ pg.player_resource = {
 		511,
 		512,
 		513,
+		514,
+		515,
 		950,
 		951,
 		952,

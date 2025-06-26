@@ -15,7 +15,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哈！被你们看到本涂鸦艺术大师的创作过程了！",
+			say = "哈！被你們看到本塗鴉藝術大師的創作過程了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这是在画什么……？",
+			say = "這是在畫什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这可是要让这个无聊的小镇焕然一新的艺术作品！",
+			say = "這可是要讓這個無聊的小鎮煥然一新的藝術作品！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样？是不是很有叛逆精神？嘿嘿~",
+			say = "怎麼樣？是不是很有叛逆精神？嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,9 +85,9 @@ return {
 			bgName = "star_level_bg_704",
 			nameColor = "#A9F548FF",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "这些画确实很特别……",
+			say = "這些畫確實很特別…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,18 +101,18 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "什么啊，你那犹犹豫豫的语气……该不会是在小看我吧？！",
+			say = "什麼啊，妳那猶猶豫豫的語氣……該不會是在小看我吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "这样到处涂鸦不太好吧？",
+					content = "這樣到處塗鴉不太好吧？",
 					flag = 1
 				},
 				{
-					content = "这些画得不错！",
+					content = "這些畫得很好！",
 					flag = 2
 				}
 			}
@@ -125,7 +125,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这样到处涂鸦，不太好吧？",
+			say = "這樣到處塗鴉不太好吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "切，这种墨守成规的想法最无趣了！",
+			say = "切，這種墨守成規的想法最無聊了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "艺术就是要打破常规！要让这个小镇的每个角落都充满个性！",
+			say = "藝術就是要打破常規！要讓這個小鎮的每個角落都充滿個性！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,9 +168,9 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "{tb}，你看，这些颜色搭配得确实很漂亮呢。",
+			say = "{tb}，你看，這些顏色搭配得確實很漂亮呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂！你这种说法是在敷衍我吗？！这可是艺术！",
+			say = "喂！妳這種說法是在敷衍我嗎？！這可是藝術！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再说了，看到我的艺术创作……指、指挥官心情也会变好的吧！",
+			say = "再說了，看到我的藝術創作……指、指揮官心情也會變好的吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
 			optionFlag = 1,
-			say = "少女气势汹汹的话语突然变得有些磕磕绊绊。",
+			say = "少女氣勢洶洶的話語突然變得有些磕磕絆絆。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些画得不错！而且构图也很独特！",
+			say = "這些畫得很好！而且構圖也很獨特！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那是当然！这可是我独创的风格！",
+			say = "那是當然！這可是我獨創的風格！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要不要我教你们几手？……当、当然，不是说我很期待你们来学！",
+			say = "要不要我教你們幾手？……當、當然，不是說我很期待你們來學！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,9 +269,9 @@ return {
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "{tb}觉得怎么样？我是感觉很有意思哦，而且凶猛小姐好像也很期待。",
+			say = "{tb}覺得怎麼樣？我是感覺很有意思哦，而且兇猛小姐好像也很期待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 701120,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你、你这家伙……！",
+			say = "妳、妳這傢伙……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "笑着摇了摇头，抬手摸了摸两位少女的发顶。",
+			say = "笑著搖了搖頭，抬手摸了摸兩位少女的髮頂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "那今天就一起进行“艺术创作”吧！",
+			say = "那今天就一起進行「藝術創作」吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -335,7 +335,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "之后和凶猛度过了一起肆意挥洒创意的时光。",
+			say = "之後和兇猛度過了一起肆意揮灑創意的時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_704",
 			hidePaintObj = true,
-			say = "离开时，娜比娅似乎受到了新的启发。",
+			say = "離開時，娜比婭似乎受到了新的啟發。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

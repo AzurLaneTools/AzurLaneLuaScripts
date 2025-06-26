@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "商店功能现已开启！",
+				text = "商店功能現已開啟！",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可看到新增的商店地点",
+				text = "點擊「出遊」按鈕，即可看到新增的商店地點",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在请点击「商店」",
+				text = "現在請點擊「商店」",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -68,7 +68,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "商店每回合会自动更新商品，这里出售各类增加属性和状态的道具",
+				text = "商店每回合會自動更新商品，這裡出售各類增加屬性和狀態的道具",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -81,7 +81,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在商店进行购物时，不会消耗行动力",
+				text = "在商店進行購物時，不會消耗行動力",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "还请善用商店资源，更加有效地帮助娜比娅的成长吧",
+				text = "也請善用商店資源，更有效地幫助娜比婭的成長吧",
 				mode = 2,
 				char = 1,
 				posY = 0,

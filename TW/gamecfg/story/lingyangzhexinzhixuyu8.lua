@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "今天的作业有道好难的题哦……我完全不会做……",
+			say = "今天的作業有道好難的題目哦……我完全不會做……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,10 +47,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			important = true,
 			hidePaintObj = true,
-			say = "{tb}，能帮我看看要怎么做吗？",
+			say = "{tb}，能幫我看看要怎麼做嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,12 +58,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我们一起分析解题思路吧",
+					content = "我們一起分析解題思路吧",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "要不先玩一会儿再做题吧！",
+					content = "還是先玩一下再做題吧！",
 					type = 2
 				}
 			}
@@ -76,7 +76,7 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
 			say = "太好了~",
 			typewriter = {
@@ -92,9 +92,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "要是能搞懂解题思路的话，下次遇到难题也不怕啦。",
+			say = "要是能搞懂解題思路的話，下次遇到難題也不怕啦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,9 +108,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "{tb}的意思是要放松一下大脑吗？",
+			say = "{tb}的意思是放鬆一下大腦嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,9 +123,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "不过确实玩一会儿的话就不会那么烦躁了……",
+			say = "不過確實玩一下的話就不會那麼煩躁了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,9 +139,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "我等下再来做题吧~",
+			say = "我等下再來做題吧~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

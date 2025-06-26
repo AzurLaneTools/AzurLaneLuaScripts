@@ -27231,6 +27231,88 @@ pg.activity_template = {
 			}
 		}
 	},
+	[5990] = {
+		mark = 20250626,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 44,
+		title_res_tag = "PlantNaximofu_main",
+		id = 5990,
+		page_core = "",
+		config_data = {
+			{
+				21769
+			},
+			{
+				21770
+			},
+			{
+				21771
+			},
+			{
+				21772
+			},
+			{
+				21773
+			},
+			{
+				21774
+			},
+			{
+				21775
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "PlantNaximofuPage",
+			ui_name = "PlantNaximofuPage"
+		},
+		config_client = {
+			story = {
+				{},
+				{},
+				{},
+				{},
+				{},
+				{},
+				{}
+			},
+			displayDay = {
+				0,
+				1,
+				3,
+				5,
+				7
+			}
+		}
+	},
 	[5991] = {
 		mark = 20250619,
 		page_info = "",
@@ -67247,6 +67329,7 @@ pg.activity_template = {
 			5924,
 			5979,
 			5982,
+			5990,
 			6000,
 			6001,
 			6002,
@@ -69418,6 +69501,7 @@ pg.activity_template = {
 		5987,
 		5988,
 		5989,
+		5990,
 		5991,
 		7104,
 		7501,

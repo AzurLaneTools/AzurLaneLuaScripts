@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "自从在实践课上被这个领域深深吸引，毕业后的娜比娅便一头扎进了机械维修的世界。",
+			say = "自從在實作課上被這個領域深深吸引，畢業後的娜比婭便一頭栽進了機械維修的世界。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg37",
-			say = "在堆满各式机械零件的器材库里，娜比娅正大大咧咧地坐在工作台前。",
+			say = "在堆滿各式機械零件的器材庫裡，娜比婭正大大咧咧地坐在工作台前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
-			say = "她的两只手中都捏着设计图纸，似乎是在比对哪一份是最优解。",
+			say = "她的兩隻手中都捏著設計圖紙，似乎在比對哪一份是最優解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,14 +81,14 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "每次找你，你都在这里啊。",
+			say = "每次找妳，妳都在這裡啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
@@ -104,19 +104,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
-			say = "因为叼着扳手的缘故，她有些口齿不清。",
+			say = "因為叼著扳手的緣故，她有些口齒不清。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哎呀~{tb}是特意来找我的吗？",
+			say = "哎呀~{tb}是特意來找我的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,43 +129,43 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯，就是想来看看你。",
+			say = "嗯，就是想來看看妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真拿你没办法呢~那{tb}就乖乖在一边坐好吧，不许打扰我工作。",
+			say = "真拿你沒辦法呢~那{tb}就乖乖在一邊坐好吧，不許打擾我工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，有{tb}陪着的话，我会稍微~工作得更卖力一点的！",
+			say = "不過，有{tb}陪著的話，我會稍微~工作得更賣力一點的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg37",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你可不要等太久就哭鼻子哦？人家会心疼的呢~",
+			say = "你可不要等太久就哭鼻子哦？人家會心疼的呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

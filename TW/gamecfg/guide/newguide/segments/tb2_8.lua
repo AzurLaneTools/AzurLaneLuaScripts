@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "这里是行程计划界面，指挥官每回合可为娜比娅安排最多5项课程",
+				text = "這裡是行程計畫介面，指揮官每回合可為娜比婭安排最多5項課程",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -20,7 +20,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "完成安排后，点击此处即可上课并进入下一回合",
+				text = "完成安排後，點擊此處即可上課並進入下一回合",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -39,7 +39,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "注意：此处显示本阶段的属性目标总值",
+				text = "注意：此處顯示本階段的屬性目標總值",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "各项属性之和达到此数值即为达成目标",
+				text = "各項屬性之和達到此數值即為達成目標",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "请根据娜比娅的天赋和您的规划选择合适的课程",
+				text = "請根據娜比婭的天賦和您的規劃選擇合適的課程",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -96,7 +96,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "此外，娜比娅的心情将影响课程效果：心情越好，获得的数值越高",
+				text = "此外，娜比婭的心情將影響課程效果：心情越好，獲得的數值越高",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -115,7 +115,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "而心情低落时，能从课程中获得的数值则会减少",
+				text = "而心情低落時，能從課程中獲得的數值則會減少",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -134,7 +134,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.3,
 			style = {
-				text = "现在，试着为娜比娅安排课程吧！",
+				text = "現在，試著為娜比婭安排課程吧！",
 				mode = 2,
 				char = 1,
 				posY = 0,

@@ -9,7 +9,7 @@ return {
 			bgm = "story-richang-1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "距离上次{namecode:98:明石}说很快就能搞定之后，又过去了五天。",
+			say = "距離上次明石說很快就能搞定之後，又過了五天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,89 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在一边确认着之后的日程，一边调整计划时，一个眼熟的装置被放到了桌子上。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "这是之前帮TB培养个性的时候用到的那个沉浸式终端么？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 312010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "没错喵~！里面还是指挥官熟悉的那个梦幻小镇哦~",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 312010,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "啊对了，这次还有一点和之前有一点小小的区别喵。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 312010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "领航员小姐想知道的是“言传身教”的影响嘛……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 312010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "所以这次特意拜托了一些个性比较鲜明的伙伴来帮忙。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 3,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 312010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "指挥官到时候可以在小镇里拜访她们喵！",
+			say = "就在一邊確認著之後的行程，一邊調整計劃時，一個眼熟的裝置被放到了桌子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,21 +61,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等……拜访？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_task_2",
-			dir = 1,
-			actor = 312010,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "等到功能开放的时候指挥官自然就知道了喵！",
+			say = "這是之前幫TB培養個性的時候用到的那個沉浸式終端機？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +75,103 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "总之快把终端戴上吧！别让本次的培养对象等急了喵！",
+			say = "沒錯喵~！裡面還是指揮官熟悉的那個夢幻小鎮喔~",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 312010,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "啊對了，這次還有一點和之前有一點小小的差別喵。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "領航員小姐想知道的是「言教」的影響嘛……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "所以這次特意拜託了一些個性比較鮮明的夥伴來幫忙。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官到時候可以在小鎮拜訪她們喵！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "等等……拜訪？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "等到功能開放的時候指揮官自然就知道喵了！",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 3,
+			side = 2,
+			bgName = "bg_story_task_2",
+			dir = 1,
+			actor = 312010,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "總之快把終端戴上吧！別讓本次的培養對象等急了喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "点点头将终端戴上后，{namecode:98:明石}举着电脑走到了我面前。",
+			say = "點點頭將終端戴上後，明石舉著電腦走到了我面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "屏幕上的TB冲我点了点头。",
+			say = "螢幕上的TB對我點了點頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +207,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "系统确认：本次培养对象已设定完成。目标对象：领洋者-娜比娅。",
+			say = "系統確認：本次培養對象已設定完成。目標對象：領洋者-娜比婭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "执行请求：将培养任务移交指挥官。",
+			say = "執行請求：將培養任務移交指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_1104",
-			say = "在又一阵熟悉的炫目白光闪过之后——",
+			say = "在又一陣熟悉的炫目白光閃過之後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -14,9 +14,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-4",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "我看天气预报说明天是个大晴天，那今晚的星星应该很好看呢~",
+			say = "我看天氣預報說明天是大晴天，那今晚的星星應該很好看呢~~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,10 +46,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			important = true,
 			hidePaintObj = true,
-			say = "{tb}，要不然晚上带我去天台上看星星吧~？",
+			say = "{tb}，不然晚上帶我去天台上看星星吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,12 +57,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "找个安全的地方看星星吧",
+					content = "找個安全的地方看星星吧",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "我知道个好地方",
+					content = "我知道個好地方",
 					type = 2
 				}
 			}
@@ -75,9 +75,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "胆小鬼！一点冒险精神都没有……",
+			say = "膽小鬼！一點冒險精神都沒有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阳台就能看到很多星星。",
+			say = "陽台就能看到很多星星。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,9 +105,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "哼！真是个无聊的笨蛋！",
+			say = "哼！真是個無聊的笨蛋！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,9 +121,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "哦~？没想到笨蛋{tb}也有点冒险精神呢~",
+			say = "哦~？沒想到笨蛋{tb}也有點冒險精神呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,9 +137,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "那就交给你咯~",
+			say = "那就交給你了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

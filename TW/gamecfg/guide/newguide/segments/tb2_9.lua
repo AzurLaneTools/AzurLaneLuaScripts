@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "根据指挥官对娜比娅的培养选择，她将迎来不同的成长结局",
+				text = "根據指揮官對娜比婭的培養選擇，她將迎來不同的成長結局",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "请点击此处查看结局和要求",
+				text = "請點擊此處查看結局和要求",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -41,7 +41,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「结局」",
+				text = "點擊「結局」",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -64,7 +64,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "娜比娅共有15种不同的成长结局",
+				text = "娜比婭共有15種不同的成長結局",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -77,7 +77,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处查看各结局的解锁条件",
+				text = "點擊此處查看各結局的解鎖條件",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -104,7 +104,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "达成相应的数值条件即可解锁结局，若同时满足多个结局条件，则可同时解锁多个结局",
+				text = "達成對應的數值條件即可解鎖結局，若同時滿足多個結局條件，則可同時解鎖多個結局",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -117,7 +117,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击空白处关闭",
+				text = "點擊空白處關閉",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -138,7 +138,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击返回主页",
+				text = "點擊返回主頁",
 				mode = 2,
 				char = 1,
 				posY = 400,

@@ -38,11 +38,41 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "BRSCoreActivityUI",
-		time = "stop",
-		type = 16,
+		type = 2,
 		id = 2,
-		pic = "temp2"
+		pic = "temp2",
+		param = {
+			"scene charge",
+			{
+				wrap = 2
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
 	},
 	{
 		type = 2,
@@ -117,22 +147,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5990",
+		type = 3,
 		id = 5,
 		pic = "temp5",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
 		time = {
 			{
 				{
 					2025,
 					6,
-					12
+					26
 				},
 				{
 					0,
@@ -144,10 +168,44 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					3
+					9
 				},
 				{
-					14,
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 6,
+		pic = "temp9",
+		param = {
+			"NEW_EDUCATE_SELECT"
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
 					59,
 					59
 				}
@@ -157,7 +215,7 @@ pg.activity_banner = {
 	{
 		param = "5979",
 		type = 3,
-		id = 6,
+		id = 7,
 		pic = "temp6",
 		time = {
 			{
@@ -188,7 +246,7 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 7,
+		id = 8,
 		pic = "temp7",
 		param = {
 			"scene court yard"
@@ -221,48 +279,18 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5981",
-		type = 3,
-		id = 8,
-		pic = "temp8",
-		time = {
-			{
-				{
-					2025,
-					6,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					3
-				},
-				{
-					14,
-					59,
-					59
-				}
-			}
-		}
-	},
-	{
-		param = "5941",
-		type = 3,
+		type = 2,
 		id = 9,
-		pic = "temp9",
+		pic = "temp8",
+		param = {
+			"game hall"
+		},
 		time = {
 			{
 				{
 					2025,
 					6,
-					12
+					26
 				},
 				{
 					0,
@@ -274,10 +302,10 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					3
+					9
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -723,10 +751,12 @@ pg.activity_banner = {
 	get_id_list_by_type = {
 		[2] = {
 			1,
+			2,
 			3,
 			4,
-			5,
-			7,
+			6,
+			8,
+			9,
 			1000,
 			1001,
 			1002,
@@ -751,13 +781,9 @@ pg.activity_banner = {
 			1023,
 			1024
 		},
-		[16] = {
-			2
-		},
 		[3] = {
-			6,
-			8,
-			9,
+			5,
+			7,
 			1003
 		},
 		[9] = {

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "随机事件功能已解锁！",
+				text = "隨機事件功能已解鎖！",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击「出行」按钮，即可查看可触发的随机事件",
+				text = "點擊「出行」按鈕，即可查看可觸發的隨機事件",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -45,7 +45,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "在这里你可以查看随机事件，并选择是否消耗行动力来激活它们",
+				text = "在這裡你可以查看隨機事件，並選擇是否消耗行動力來啟動它們",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -58,7 +58,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "通过参与随机事件，可以获得各种状态效果",
+				text = "透過參與隨機事件，可以獲得各種狀態效果",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -71,7 +71,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可随时查看获得的状态详情",
+				text = "點擊此處隨時查看獲得的狀態詳情",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "包括效果说明和持续时间等",
+				text = "包括效果說明和持續時間等",
 				mode = 2,
 				char = 1,
 				posY = 0,

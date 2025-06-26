@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在一切尘埃落定之后，娜比娅选择了继续升学的道路。",
+			say = "在一切塵埃落定之後，娜比婭選擇了繼續升學的道路。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -36,12 +36,12 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我觉得……自己还需要学习更多东西。",
+			say = "我覺得……我還需要學習更多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -65,12 +65,12 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "想要多了解一些知识，做更充分的准备。",
+			say = "想要多了解一些知識，做更充分的準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "图书馆里，阳光透过高大的玻璃窗洒落进来。",
+			say = "圖書館裡，陽光透過高大的玻璃窗灑落進來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "娜比娅跪坐在书架前，专注地翻阅着最下层的书籍。",
+			say = "娜比婭跪坐在書架前，專注地翻閱最下層的書籍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "她的身边已经摆了一摞挑选好的书本，而她依然在认真地寻找着。",
+			say = "她的身邊已經擺了一疊挑選好的書本，而她依然在認真地尋找著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -114,19 +114,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "正当我想上前帮忙时，她察觉到了我的存在。",
+			say = "正當我想上前幫忙時，她察覺到了我的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，{tb}来了吗？",
+			say = "啊，{tb}來了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
-			say = "也许是因为找书的过程并不顺利，她的表情还有些困惑。",
+			say = "也許是因為找書的過程並不順利，她的表情還有些困惑。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,31 +150,31 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "要找什么？我帮你一起？",
+			say = "要找什麼？我幫妳一起找？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我在找一些有趣的书……",
+			say = "我在找一些有趣的書……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg23",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "因为想多了解不同的领域，所以就想先看看有什么能引起我兴趣的。",
+			say = "因為想多了解不同的領域，所以就想先看看有什麼能引起我興趣的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "多看看总是好的，我也帮你一起找吧。",
+			say = "多看看總是好的，我也幫你一起找吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_room3",
-			say = "就这样，娜比娅开始了她的升学准备。",
+			say = "就這樣，娜比婭開始了她的升學準備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "这份对知识的渴望，一定能指引她找到属于自己的方向吧。",
+			say = "這份對知識的渴望，一定能指引她找到屬於自己的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

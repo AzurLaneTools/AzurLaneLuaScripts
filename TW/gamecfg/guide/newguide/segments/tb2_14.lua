@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，可以查看各项课程的升级条件",
+				text = "現在，可以查看各項課程的升級條件",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "点击此处按钮，可切换显示该课程的升级条件",
+				text = "點擊此處按鈕，可切換顯示該課程的升級條件",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -49,7 +49,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "当升级条件达成时，该课程将会自动升级",
+				text = "當升級條件達成時，該課程將會自動升級",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -62,7 +62,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "升级后的课程可以获得更多属性数值",
+				text = "升級後的課程可以獲得更多屬性數值",
 				mode = 2,
 				char = 1,
 				posY = 0,

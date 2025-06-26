@@ -21247,6 +21247,142 @@ _G.pg.base.equip_data_statistics[3931] = {
 }
 
 
+_G.pg.base.equip_data_statistics[3940] = {
+	name = "航空整備小組",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "air",
+	value_2 = 0,
+	icon = "3940",
+	value_1 = "18",
+	rarity = 4,
+	descrip = "為航空支援做好了萬全的檢查，起飛的稍許延遲就用更佳的戰果來抵消吧！",
+	nationality = 0,
+	ammo = 10,
+	value_3 = 0,
+	id = 3940,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			60380,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {
+		6,
+		7,
+		10
+	},
+	part_sub = {
+		6,
+		7,
+		10
+	},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[3941] = {
+	id = 3941,
+	value_1 = "22",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3942] = {
+	id = 3942,
+	value_1 = "26",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3943] = {
+	id = 3943,
+	value_1 = "30",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3944] = {
+	id = 3944,
+	value_1 = "34",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3945] = {
+	id = 3945,
+	value_1 = "39",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3946] = {
+	id = 3946,
+	value_1 = "43",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3947] = {
+	id = 3947,
+	value_1 = "47",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3948] = {
+	id = 3948,
+	value_1 = "51",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3949] = {
+	id = 3949,
+	value_1 = "55",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3950] = {
+	id = 3950,
+	value_1 = "60",
+	base = 3940,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[3951] = {
+	anti_siren = 100,
+	base = 3940,
+	id = 3951,
+	value_1 = "65",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[3960] = {
 	name = "博覽會紀念票",
 	tech = 0,
@@ -155247,7 +155383,7 @@ _G.pg.base.equip_data_statistics[91220] = {
 	value_2 = 25,
 	icon = "51220",
 	attribute_2 = "air",
-	descrip = "說明未填寫",
+	descrip = "鳶尾以D.520戰鬥機為基礎嘗試研發的艦載機型",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -155535,7 +155671,7 @@ _G.pg.base.equip_data_statistics[91240] = {
 	value_2 = 45,
 	icon = "51240",
 	attribute_2 = "air",
-	descrip = "說明未填寫",
+	descrip = "鳶尾以BR.690攻擊機為基礎嘗試研發的艦載機型，採用了雙發設計",
 	nationality = 8,
 	ammo = 5,
 	value_3 = 0,
@@ -155926,7 +156062,7 @@ _G.pg.base.equip_data_statistics[91260] = {
 	attribute_2 = "dodge",
 	rarity = 5,
 	nationality = 10,
-	descrip = "說明未填寫",
+	descrip = "戰鬥天使的羽翼，象徵著無畏、奉獻與忠誠。",
 	ammo = 10,
 	value_3 = 0,
 	attribute_1 = "air",

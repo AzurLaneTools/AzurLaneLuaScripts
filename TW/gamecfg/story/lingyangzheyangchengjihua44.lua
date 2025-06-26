@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "娜比娅毕业后选择了成为一名护士。",
+			say = "娜比婭畢業後選擇了成為護士。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "今天，我像往常一样来医院接她回家。",
+			say = "今天，我像往常一樣來醫院接她回家。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg35",
-			say = "病房的帘子被拉起，把这片区域与外界隔开。",
+			say = "病房的簾子被拉起，把這區域與外界隔開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,55 +79,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg35",
 			hidePaintObj = true,
-			say = "娜比娅穿着整洁的护士服，从病床上方俯视着我。",
+			say = "娜比婭穿著整潔的護士服，從病床上方俯視我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg35",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "哼哼~{tb}，让我练习打针吧！",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg35",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "等一下，让你练习打针是什么情况……？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg35",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "怎么，平时不是老说要支持我的工作嘛？现在想逃？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg35",
-			hidePaintObj = true,
-			say = "她得意洋洋地晃了晃手中的针管，灌得满满的液体从针尖滴落。",
+			say = "哼哼~{tb}，讓我練習打針吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +104,30 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这跟支持工作是两码事……",
+			say = "等一下，讓妳練習打針是什麼狀況……？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "娜比婭",
+			side = 2,
+			bgName = "bg_project_oceana_cg35",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "怎麼，平常不是老說要支持我的工作嘛？現在想逃？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg35",
+			hidePaintObj = true,
+			say = "她得意洋洋地晃了晃手中的針管，灌得滿滿的液體從針尖滴落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,31 +140,44 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "况且我也没生病，为什么要打针？",
+			say = "這跟支援工作是兩碼事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
-			side = 2,
+			actor = 0,
+			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg35",
 			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "所以这是我特别配制的营养剂哦？没有病也能打~是特意为你准备的呢。",
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "況且我也沒生病，為什麼要打針？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg35",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要是敢逃跑的话，以后就天天给你打针哦~？",
+			say = "所以這是我特別配製的營養劑哦？沒有病也能打~是特意為你準備的呢。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "娜比婭",
+			side = 2,
+			bgName = "bg_project_oceana_cg35",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "要是敢逃跑的話，以後就天天給你打針哦~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -188,7 +188,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg35",
 			hidePaintObj = true,
-			say = "她用单手托着我的下巴，以甜腻的语气威胁道。",
+			say = "她用單手托著我的下巴，以甜膩的語氣威脅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

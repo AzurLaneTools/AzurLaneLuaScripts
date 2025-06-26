@@ -6,7 +6,7 @@ return {
 			delay = 0.5,
 			alpha = 0.3,
 			style = {
-				text = "已选择的天赋可在此处查看",
+				text = "已選擇的天賦可在此處查看",
 				mode = 2,
 				char = 1,
 				posY = 0,

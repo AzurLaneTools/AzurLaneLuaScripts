@@ -14,9 +14,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-3",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "我今天看了一个纸雕的制作教程，好想试试看哦。",
+			say = "我今天看了一個紙雕的製作教程，好想試試看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,10 +46,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			important = true,
 			hidePaintObj = true,
-			say = "不过层次稍微有点复杂呢……",
+			say = "不過層次稍微有點複雜呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,12 +57,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我们按照教程慢慢来吧？",
+					content = "我們按照教學慢慢來吧？",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "不如自己设计新样式？",
+					content = "不如自己設計新樣式？",
 					type = 2
 				}
 			}
@@ -74,9 +74,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "好呀，跟着教程耐心地做应该不会有问题。",
+			say = "好呀，跟著教學耐心地做應該不會有問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,9 +90,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "而且还有{tb}陪着我一起做，那我就更放心啦~",
+			say = "而且還有{tb}陪我一起做，那我就更放心~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -106,9 +106,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "自己设计的话……也不是不行呢。",
+			say = "自己設計的話……也不是不行呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "也许能做出最特别的纸雕送给{tb}……想想就很期待呢。",
+			say = "也許能做出最特別的紙雕送給{tb}……想想就很期待呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

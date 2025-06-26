@@ -116,6 +116,7 @@ pg.pay_data_display = setmetatable({
 		4053,
 		4054,
 		4055,
+		4056,
 		4850,
 		4851,
 		4852,
@@ -11709,6 +11710,125 @@ pg.base.pay_data_display = {
 			{
 				2,
 				81214,
+				1
+			}
+		}
+	},
+	[4056] = {
+		picture = "fudai14",
+		name = "慶典禮盒（2024）復刻 ",
+		type = 1,
+		limit_arg = 1,
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "慶典禮盒（2024）復刻 ",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將會寄到信箱，請注意查收。\n*重複獲得已擁有的換裝時，則自動替換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao137",
+		extra_gem = 0,
+		id = 4056,
+		airijp_id = "com.hkmanjuu.azurlane.libao137",
+		name_display = "慶典禮盒（2024）復刻 ",
+		akashi_pick = 1,
+		skin_inquire_relation = 86205,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					6,
+					26
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86205,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81205,
 				1
 			}
 		}

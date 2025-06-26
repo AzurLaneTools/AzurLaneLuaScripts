@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-4",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "那、那个……{tb}……",
+			say = "那、那個……{tb}……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "我稍微超支了一点点……",
+			say = "我稍微超支了一點點……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,10 +62,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			important = true,
 			hidePaintObj = true,
-			say = "可以提前预支下个月的零花钱吗？我会乖乖的哦~",
+			say = "可以提前預支下個月的零用錢嗎？我會乖乖的哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,12 +73,12 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "让我们一起算算账",
+					content = "讓我們一起算帳",
 					type = 1
 				},
 				{
 					flag = 2,
-					content = "说说看想要多少？",
+					content = "說說看想要多少？",
 					type = 2
 				}
 			}
@@ -91,9 +91,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "欸？是要一起写明细的意思吗……？",
+			say = "欸？是要一起寫明細的意思嗎…？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然。这样更容易养成管理零花钱的意识。",
+			say = "當然。這樣更容易養成管理零用錢的意識。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,9 +121,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "真是麻烦……不过为了零花钱只好听话了……",
+			say = "真是麻煩……不過為了零用錢只好聽話了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,9 +137,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "欸？这么痛快？{tb}居然是这么好说话的人啊~",
+			say = "欸？這麼痛快？{tb}居然是這麼好說話的人啊~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			dynamicBgType = -2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然。不过要答应我好好规划使用哦。",
+			say = "當然。不過要答應我好好規劃使用哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,9 +167,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "规划什么的……哎呀~",
+			say = "規劃什麼的……哎呀~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,9 +183,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "总之先把零花钱给人家吧~",
+			say = "總之先把零用錢給人家吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

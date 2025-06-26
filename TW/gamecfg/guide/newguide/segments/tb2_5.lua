@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "除了日常交流之外，娜比娅偶尔也会向指挥官寻求建议",
+				text = "除了日常交流之外，娜比婭偶爾也會向指揮官尋求建議",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -18,7 +18,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "此时，指挥官的选择有可能将会影响娜比娅的性格发展",
+				text = "此時，指揮官的選擇有可能將會影響娜比婭的性格發展",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -31,7 +31,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "是会让娜比娅更加叛逆，还是会让娜比娅更加乖巧",
+				text = "是會讓娜比婭更加叛逆，還是會讓娜比婭更加乖巧",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -44,7 +44,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "都取决于指挥官做出的选择",
+				text = "都取決於指揮官所做的選擇",
 				mode = 2,
 				char = 1,
 				posY = 0,

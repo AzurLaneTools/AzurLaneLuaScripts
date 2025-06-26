@@ -173000,7 +173000,7 @@ _G.pg.base.item_virtual_data_statistics[66004] = {
 
 _G.pg.base.item_virtual_data_statistics[66005] = {
 	drop_gold_max = 0,
-	name = "重建币",
+	name = "重建幣 ",
 	display = "每一分重建幣都應該花在刀刃上！",
 	type = 0,
 	is_world = 0,

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "像这样，完成日常交流可提升与娜比娅的好感度",
+				text = "像這樣，完成日常交流可提升與娜比婭的好感度",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -29,7 +29,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "点击此处可确认当前好感度等级",
+				text = "按此確認目前好感度等級",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -49,7 +49,7 @@ return {
 			delay = 0.5,
 			alpha = 0.4,
 			style = {
-				text = "此后每升一级，都可以获取额外奖励",
+				text = "此後每升一級，都可以獲得額外獎勵",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -62,7 +62,7 @@ return {
 			is3dDorm = false,
 			alpha = 0.4,
 			style = {
-				text = "现在，请点击空白处关闭弹窗吧",
+				text = "現在，請點選空白處關閉跳窗吧",
 				mode = 2,
 				char = 1,
 				posY = 0,

@@ -5,7 +5,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "指挥官，这是「 养成计划2.0」中新增的天赋系统",
+				text = "指揮官，這是「 養成計畫2.0」新增的天賦系統",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -24,7 +24,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "天赋作为强力增益，对娜比娅的各项属性的影响十分巨大",
+				text = "天賦作為強力增益，對娜比婭的各項屬性的影響十分巨大",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -43,7 +43,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "系统会在第1、6、11、16回合随机生成天赋供指挥官选择，最多可同时拥有4项天赋",
+				text = "系統會在第1、6、11、16回合隨機產生天賦供指揮官選擇，最多可同時擁有4項天賦",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -56,7 +56,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "每项天赋都有特定的生效条件，多项天赋的效果可以叠加，让娜比娅获得更强的综合提升",
+				text = "每項天賦都有特定的生效條件，多項天賦的效果可以疊加，讓娜比婭獲得更強的綜合提升",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -75,7 +75,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "如果对生成的某项天赋效果不满意，可以点击此处的按钮重新随机",
+				text = "如果對產生的某項天賦效果不滿意，可以點擊此處的按鈕重新隨機",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -94,7 +94,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "天赋按稀有度从低到高分为蓝、紫、金、彩四种，稀有度越高，天赋通常越强力",
+				text = "天賦依稀有度由低到高分為藍、紫、金、彩四種，稀有度越高，天賦通常越強力",
 				mode = 2,
 				char = 1,
 				posY = 0,
@@ -107,7 +107,7 @@ return {
 			is3dDorm = false,
 			alpha = 0,
 			style = {
-				text = "现在，请指挥官从中选择想要的天赋吧！",
+				text = "現在，請指揮官從中選擇想要的天賦吧！",
 				mode = 2,
 				char = 1,
 				posY = 0,

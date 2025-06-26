@@ -15,9 +15,9 @@ return {
 			dynamicBgType = -2,
 			bgm = "qe-ova-4",
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "{tb}~看在你最近还算努力的份上，我准备了这个特调果汁哦~",
+			say = "{tb}~看在你最近還算努力的份上，我準備了這個特調果汁哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,9 +47,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "虽然颜色有点奇怪……但是味道肯定很不错！",
+			say = "雖然顏色有點奇怪……但是味道肯定很不錯！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,9 +62,9 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "是人家自己调制的独家配方哦♪",
+			say = "是人家自己調製的獨家配方哦♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,10 +77,10 @@ return {
 			nameColor = "#A9F548FF",
 			dynamicBgType = -2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			important = true,
 			hidePaintObj = true,
-			say = "要不要来一口？保证你终身难忘哦~",
+			say = "要不要來一口？保證你終身難忘哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			options = {
 				{
 					flag = 1,
-					content = "我觉得普通果汁就挺好的",
+					content = "我覺得普通果汁就蠻好的",
 					type = 1
 				},
 				{
@@ -106,9 +106,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 1,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "欸……{tb}真无趣。",
+			say = "欸……{tb}真無趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,9 +122,9 @@ return {
 			dynamicBgType = -2,
 			optionFlag = 2,
 			actor = -2,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "哎呀~看来今天会很有意思呢♪",
+			say = "哎呀~看來今天會很有趣呢♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -34964,6 +34964,339 @@ _G.pg.base.gametip.dorm3d_purchase_weekly_limit = {
 }
 
 
+_G.pg.base.gametip.child2_cur_round = {
+	tip = "第$1回合"
+}
+
+
+_G.pg.base.gametip.child2_assess_round = {
+	tip = "考核： $1回合後"
+}
+
+
+_G.pg.base.gametip.child2_assess_target = {
+	tip = "總屬性：$1/$2"
+}
+
+
+_G.pg.base.gametip.child2_ending_stage = {
+	tip = "結局階段"
+}
+
+
+_G.pg.base.gametip.child2_reset_stage = {
+	tip = "數據匯總"
+}
+
+
+_G.pg.base.gametip.child2_main_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help7"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help8"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help9"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help10"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help11"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help12"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_personality_title = {
+	tip = "性格"
+}
+
+
+_G.pg.base.gametip.child2_attr_title = {
+	tip = "屬性"
+}
+
+
+_G.pg.base.gametip.child2_talent_title = {
+	tip = "天賦"
+}
+
+
+_G.pg.base.gametip.child2_status_title = {
+	tip = "狀態"
+}
+
+
+_G.pg.base.gametip.child2_talent_unlock_tip = {
+	tip = "第$1回合解鎖"
+}
+
+
+_G.pg.base.gametip.child2_status_time1 = {
+	tip = "$1回合"
+}
+
+
+_G.pg.base.gametip.child2_status_time2 = {
+	tip = "永久"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip = {
+	tip = "$1回合後<color=#393a3c>開始考核</color>"
+}
+
+
+_G.pg.base.gametip.child2_assess_tip_target = {
+	tip = "總屬性達到<color=#39bfff>$1</color>"
+}
+
+
+_G.pg.base.gametip.child2_site_exit = {
+	tip = "離開"
+}
+
+
+_G.pg.base.gametip.child2_shop_limit_cnt = {
+	tip = "限購"
+}
+
+
+_G.pg.base.gametip.child2_unlock_site_cnt = {
+	tip = "距離解鎖下一等級還剩$1次"
+}
+
+
+_G.pg.base.gametip.child2_unlock_site_round = {
+	tip = "距離解鎖下一等級還剩$1回合"
+}
+
+
+_G.pg.base.gametip.child2_unlock_site_attr = {
+	tip = "…還需達到以下屬性"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_add = {
+	tip = "$1提高$2 ▶ $3 增加了$4"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_reduce = {
+	tip = "$1降低$2 ▶ $3 減少了$4"
+}
+
+
+_G.pg.base.gametip.child2_site_drop_item = {
+	tip = "獲得狀態「$1」"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag1 = {
+	tip = "乖巧"
+}
+
+
+_G.pg.base.gametip.child2_personal_tag2 = {
+	tip = "叛逆"
+}
+
+
+_G.pg.base.gametip.child2_personal_change = {
+	tip = "性格改變"
+}
+
+
+_G.pg.base.gametip.child2_ship_upgrade_favor = {
+	tip = "娜比婭與$1的熟稔度提升到$2級"
+}
+
+
+_G.pg.base.gametip.child2_plan_title_front = {
+	tip = "第"
+}
+
+
+_G.pg.base.gametip.child2_plan_title_back = {
+	tip = "回合"
+}
+
+
+_G.pg.base.gametip.child2_plan_upgrade_condition = {
+	tip = "[升級條件]"
+}
+
+
+_G.pg.base.gametip.child2_plan_type1 = {
+	tip = "學習課程"
+}
+
+
+_G.pg.base.gametip.child2_plan_type2 = {
+	tip = "其他安排"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_on = {
+	tip = "查看職業圖鑑"
+}
+
+
+_G.pg.base.gametip.child2_endings_toggle_off = {
+	tip = "查看解鎖條件"
+}
+
+
+_G.pg.base.gametip.child2_game_cnt = {
+	tip = "第$1週目"
+}
+
+
+_G.pg.base.gametip.child2_enter = {
+	tip = "進入養成計劃"
+}
+
+
+_G.pg.base.gametip.child2_select_help = {
+	tip = {
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help1"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help2"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help3"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help4"
+			}
+		},
+		{
+			icon = {
+				path = "",
+				atlas = "helpbg/educate_tb_help5"
+			}
+		},
+		disableScroll = true,
+		pageMode = true,
+		defaultpage = 1,
+		ImageMode = true,
+		windowSize = {
+			x = 1263,
+			y = 873
+		},
+		windowPos = {
+			y = -70
+		},
+		helpSize = {
+			x = 1176,
+			y = 1024
+		}
+	}
+}
+
+
+_G.pg.base.gametip.child2_map_continue_tip = {
+	tip = "存在未完成的大地圖內容，請前往完成。"
+}
+
+
+_G.pg.base.gametip.child2_not_start = {
+	tip = "尚未進行"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip = {
+	tip = "存在未安排的行程，是否確認進入下一回合？"
+}
+
+
+_G.pg.base.gametip.child2_reset_sure_tip = {
+	tip = "重置後將從第一回合重新開始，是否重置？"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip2 = {
+	tip = "存在未消耗的行動力，是否確認進入下一回合？"
+}
+
+
+_G.pg.base.gametip.child2_schedule_sure_tip3 = {
+	tip = "存在未消耗的行動力和未安排的行程，是否確認進入下一回合？"
+}
+
+
+_G.pg.base.gametip.child2_assess_start_tip = {
+	tip = "開始考核"
+}
+
+
+_G.pg.base.gametip.child2_site_again = {
+	tip = "再來一次"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure = {
+	tip = "目前已持有此狀態，剩餘$1回合，繼續購買將更新持續時間，是否繼續？"
+}
+
+
+_G.pg.base.gametip.child2_shop_benefit_sure2 = {
+	tip = "目前已持有此狀態，繼續購買不會產生效果，是否繼續？"
+}
+
+
 _G.pg.base.gametip.world_file_tip = {
 	tip = "※上下滑動查看，點選空白處關閉"
 }
@@ -36132,6 +36465,26 @@ _G.pg.base.gametip.please_input_1_99 = {
 }
 
 
+_G.pg.base.gametip.child2_empty_plan = {
+	tip = "暫無行程"
+}
+
+
+_G.pg.base.gametip.child2_replay_tip = {
+	tip = "偵測到遊戲中斷，請確認是否繼續？（若出現卡死狀況可選擇取消）"
+}
+
+
+_G.pg.base.gametip.child2_replay_clear = {
+	tip = "取消"
+}
+
+
+_G.pg.base.gametip.child2_replay_continue = {
+	tip = "繼續"
+}
+
+
 _G.pg.base.gametip.firework_2025_level = {
 	tip = "$1級"
 }
@@ -36187,6 +36540,51 @@ _G.pg.base.gametip.firework_2025_tip = {
 			info = "3.活動期間，指揮官可於「慶典廣場」邀請角色，可提升對應角色的心情回復速度。「慶典廣場」初始可邀請4位角色，透過累積「新春煙火會氛圍值」可最多邀請10位角色。"
 		}
 	}
+}
+
+
+_G.pg.base.gametip.secretary_special_character_unlock = {
+	tip = "參與此角色的<color=#39bfff>「養成計畫」</color>後即可解鎖"
+}
+
+
+_G.pg.base.gametip.secretary_special_character_buy_unlock = {
+	tip = "尚未獲得此角色，參與此角色的<color=#39bfff>「養成計劃」</color>後即可解鎖"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc1 = {
+	tip = "當前心情階段：鬱鬱寡歡 <color=#ee4a4a>收益減少40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc2 = {
+	tip = "當前心情階段：心情不佳 <color=#ff6767>收益減少20%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc3 = {
+	tip = "當前心情階段：心平氣和 沒有額外效果"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc4 = {
+	tip = "當前心情階段：心花怒放 <color=#00c79b>收益增加40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_mood_desc5 = {
+	tip = "當前心情階段：心花怒放 <color=#00c79b>收益增加40%%</color>"
+}
+
+
+_G.pg.base.gametip.child2_schedule_target = {
+	tip = "總屬性需求："
+}
+
+
+_G.pg.base.gametip.child2_shop_point_sure = {
+	tip = "購買後行動力將超出上限，是否繼續購買"
 }
 
 

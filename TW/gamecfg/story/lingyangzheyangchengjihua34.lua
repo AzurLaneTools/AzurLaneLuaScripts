@@ -9,7 +9,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "毕业后，娜比娅意外地爱上了调酒这门艺术。",
+			say = "畢業後，娜比婭意外地愛上了調酒這門藝術。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "在积累了一段时间的经验后，如今的她已是一位技艺精湛的调酒师。",
+			say = "在累積了一段時間的經驗後，如今的她已是一位技藝精湛的調酒師。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg25",
-			say = "夜晚的酒吧内，灯光柔和暧昧。",
+			say = "夜晚的酒吧內，燈光柔和曖昧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
-			say = "穿着合身的调酒师制服的娜比娅，此刻正坐在光滑的吧台之上。",
+			say = "穿著合身的調酒師制服的娜比婭，此刻正坐在光滑的吧台之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,31 +87,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
-			say = "她手中那只盛满酒液的高脚杯，正被她轻巧地放在身旁反扣的冰桶上。",
+			say = "她手中那隻盛滿酒液的高腳杯，正被她輕巧地放在身旁反扣的冰桶上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "虽然你要的酒我已经调好了……",
+			say = "雖然你要的酒我已經調好了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "但是这么轻易就给你的话，也太没意思了呢？",
+			say = "但是這麼輕易就給你的話，也太沒意思了呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,12 +131,12 @@ return {
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "欸~在我这里可不讲这种规矩哦。",
+			say = "欸~在我這裡可不講這種規矩哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -147,19 +147,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
-			say = "她晃了晃悬空的双腿，得意地看向站在吧台前的我。",
+			say = "她晃了晃懸空的雙腿，得意地看向站在吧台前的我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg25",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "想要的话，就乖乖求我吧~",
+			say = "想要的話，就乖乖求我吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

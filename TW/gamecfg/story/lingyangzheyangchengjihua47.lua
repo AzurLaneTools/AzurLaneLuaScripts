@@ -13,7 +13,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			bgm = "story-richang-1",
-			say = "港区·指挥室",
+			say = "港區·指揮室",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -24,7 +24,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我望着窗外，思索着这段时间的经历。",
+			say = "我望著窗外，思索著這段時間的經歷。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -37,7 +37,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（虽然按计划完成了培养……但总觉得还能做得更好。）",
+			say = "（雖然照計畫完成了培養……但總覺得還能做得更好。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喵呼呼~指挥官在这里呀，看来已经准备好接受表彰了喵？",
+			say = "喵呼呼~指揮官在這裡呀，看來已經準備好接受表彰了喵？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:98:明石}？！你怎么……",
+			say = "明石？！妳怎麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "等等，表彰又是怎么一回事？",
+			say = "等等，表揚又是怎麼一回事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			actor = 312010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哎呀，其实就是来请关键人物来总结一下成果喵！",
+			say = "哎呀，其實就是來請關鍵人物來總結一下成果喵！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "分析模块同步中：本次培养过程的数据变化非常有趣。",
+			say = "分析模組同步中：本次培養過程的數據變化非常有趣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "通过观察互动产生的影响，让我对“个性”有了新的认知。",
+			say = "透過觀察互動產生的影響，讓我對「個性」有了新的認知。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过，我认为还可以收集更多数据。",
+			say = "不過，我認為還可以收集更多數據。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,9 +149,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "听起来是要继续呢~？",
+			say = "聽起來是要繼續呢~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -165,9 +165,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "正好，人家还有很多想试试的事情呢~",
+			say = "正好，人家還有很多想試試的事情呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以这不是结束，而是新的开始？",
+			say = "所以這不是結束，而是新的開始？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,9 +193,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2000,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "真聪明！就是这样哦~",
+			say = "真聰明！就是這樣哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,9 +209,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "而且，每一次的相遇，对我来说都是独一无二的哦？",
+			say = "而且，每一次的相遇，對我來說都是獨一無二的哦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "确认。所有培养数据都会被完整保存。",
+			say = "確認。所有培養資料都會完整保存。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			actor = 900284,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这些珍贵的记录，都将帮助我更好地理解“个性”。",
+			say = "這些珍貴的紀錄，都將幫助我更理解「個性」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,9 +254,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "那就继续吧！",
+			say = "那就繼續吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,20 +270,20 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "{tb}，准备好和我一起创造更多回忆了吗？",
+			say = "{tb}，準備好和我一起創造更多回憶了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "准备好了。",
+					content = "準備好了。",
 					flag = 1
 				},
 				{
-					content = "一起创造更多回忆吧。",
+					content = "一起創造更多回憶吧。",
 					flag = 2
 				}
 			}
@@ -296,9 +296,9 @@ return {
 			paintingNoise = true,
 			tbActor = true,
 			actor = 2000,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "哼哼，就知道你会这么说~",
+			say = "哼哼，就知道你會這麼說~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "新的故事即将开始，而这一次，又会是怎样的邂逅呢？",
+			say = "新的故事即將開始，而這一次，又會是怎樣的邂逅呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

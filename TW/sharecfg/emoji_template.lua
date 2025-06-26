@@ -845,7 +845,20 @@ pg.emoji_template = {
 			2
 		}
 	},
-	[67] = {
+	{
+		achieve = 0,
+		index = 1024,
+		pic = "xixue",
+		desc = "<color=#92fc63>[鬼脸]</color>",
+		item_name = "",
+		item_desc = "",
+		id = 66,
+		icon = "",
+		type = {
+			2
+		}
+	},
+	{
 		achieve = 1,
 		index = 1026,
 		pic = "zhaohe_4",
@@ -2419,6 +2432,7 @@ pg.emoji_template = {
 		63,
 		64,
 		65,
+		66,
 		67,
 		100,
 		101,

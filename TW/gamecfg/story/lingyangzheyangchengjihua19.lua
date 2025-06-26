@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-3",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当港区的繁忙工作终于告一段落时，又是深夜。",
+			say = "當港區的繁忙工作終於告一段落時，又是深夜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（呼……希望娜比娅今天没有熬夜看小说。）",
+			say = "（呼……希望娜比婭今天沒有熬夜看小說。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_3",
 			hidePaintObj = true,
-			say = "在发现娜比娅的不良习惯后，我就和她谈过话了，虽然她保证不会再偷偷看小说，但……",
+			say = "在發現娜比婭的不良習慣後，我就和她談過話了，雖然她保證不會再偷偷看小說，但……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（还是回去看一眼吧。）",
+			say = "（還是回去看一眼吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "戴上终端回去后，果然看到了她房间的门缝中透出的微弱的光。",
+			say = "戴上終端機回去後，果然看到了她房間的門縫中透出的微弱的光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "轻轻敲了两下门，却发现门并没有关严实。",
+			say = "輕輕敲了兩下門，卻發現門並沒有關好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "手掌不经意地一碰，门便缓缓打开了。",
+			say = "手掌不經意地一碰，門便緩緩打開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg13",
-			say = "娜比娅穿着睡衣坐在书桌前，正专注地在一本厚厚的本子上写着什么。",
+			say = "娜比婭穿著睡衣坐在書桌前，正專注地在一本厚厚的本子上寫著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,31 +155,31 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "桌上零散地撕下了几张纸，借着台灯的光，能看到上面密密麻麻的字迹。",
+			say = "桌上零散地撕下了幾張紙，藉著檯燈的光，能看到上面密密麻麻的字跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{tb}？我以为你今天不回来了……",
+			say = "{tb}？我以為你今天不回來了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊，我不是在看小说……我只是……",
+			say = "啊，我不是看小說……我只是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "她慌忙用手去遮挡本子上的内容，脸上泛起了淡淡的红晕。",
+			say = "她慌忙用手去遮擋本子上的內容，臉上泛起了淡淡的紅暈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -203,30 +203,19 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这么晚了还不睡，在写什么呢？",
+			say = "這麼晚了還不睡，在寫什麼呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那、那个……就是……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_project_oceana_cg13",
-			hidePaintObj = true,
-			say = "虽然她用手盖住了大部分的内容，但是我从一旁撕下的纸张上瞥见了内容。",
+			say = "那、那個……就是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,19 +226,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "——记录的是和我相处的点点滴滴，字迹工整，还画着可爱的小涂鸦。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actorName = "娜比娅",
-			side = 2,
-			bgName = "bg_project_oceana_cg13",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "我是在写日记……不过我保证以后不会半夜偷偷写了。",
+			say = "雖然她用手蓋住了大部分的內容，但是我從一旁撕下的紙張上瞥見了內容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +237,30 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg13",
 			hidePaintObj = true,
-			say = "她低着头，小声地做出了保证。",
+			say = "——紀錄的是和我相處的點點滴滴，字跡工整，還畫著可愛的小塗鴉。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actorName = "娜比婭",
+			side = 2,
+			bgName = "bg_project_oceana_cg13",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "我是在寫日記……不過我保證以後不會半夜偷偷寫了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_project_oceana_cg13",
+			hidePaintObj = true,
+			say = "她低著頭，小聲地做出了保證。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task",
-			say = "替她收拾好散落的纸张，目送她乖乖钻回被窝后。",
+			say = "替她收拾散落的紙張，目送她乖乖鑽回被窩後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我关掉台灯，轻轻带上了她的房门。",
+			say = "我關掉檯燈，輕輕帶了她的房門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "月光从窗外洒落在她卧室门前的走廊上，为这个夜晚画上一个平静的句号。",
+			say = "月光從窗外灑落在她臥室門前的走廊上，為這個夜晚畫上一個平靜的句點。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

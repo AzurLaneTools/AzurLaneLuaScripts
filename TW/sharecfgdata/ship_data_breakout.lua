@@ -11374,8 +11374,8 @@ _G.pg.base.ship_data_breakout[201132] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
-		108,
-		108
+		107,
+		107
 	}
 }
 
@@ -12647,8 +12647,8 @@ _G.pg.base.ship_data_breakout[201392] = {
 	level = 30,
 	use_item = {},
 	weapon_ids = {
-		108,
-		108
+		107,
+		107
 	}
 }
 

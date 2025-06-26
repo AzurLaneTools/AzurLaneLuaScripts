@@ -10,7 +10,7 @@ return {
 			bgm = "qe-ova-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "娜比娅在家中“巡视”了一圈后，满意地来到了沙发上坐下。",
+			say = "娜比婭在家中「巡視」了一圈後，滿意地來到了沙發上坐下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,9 +40,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "哦~笨蛋大人把房间收拾得还不错呢。",
+			say = "喔~笨蛋大人把房間收拾得還不錯呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就一定要这样叫我么？",
+			say = "就一定要這樣叫我嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
 			say = "也不是。",
 			typewriter = {
@@ -83,9 +83,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "只是不管叫“喂”还是“监护人”都很没有针对性。",
+			say = "只是不管叫「喂」還是「監護人」都很沒有針對性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,9 +98,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "笨蛋大人就很明确~",
+			say = "笨蛋大人就很明確~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -112,9 +112,9 @@ return {
 			bgName = "bg_project_oceana_room1",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "不过笨蛋大人要是想换一个称呼，我也可以勉为其难地同意哦。",
+			say = "不過笨蛋大人要是想換一個稱呼，我也可以勉為其難地同意哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,9 +127,9 @@ return {
 			nameColor = "#A9F548FF",
 			tbActor = true,
 			actor = 2001,
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			hidePaintObj = true,
-			say = "就让你选一个方便使唤的代号吧。",
+			say = "就讓你選一個方便使喚的代號吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

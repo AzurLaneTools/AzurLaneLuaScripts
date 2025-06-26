@@ -12,7 +12,7 @@ return {
 			bgm = "qe-ova-4",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "成为爆破大师的娜比娅，总算找到了最适合自己的舞台。",
+			say = "成為爆破大師的娜比婭，總算找到了最適合自己的舞台。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_room3",
 			hidePaintObj = true,
-			say = "每一次精确的爆破作业，都让她愈发热爱这份充满刺激的工作。",
+			say = "每一次精確的爆破作業，都讓她愈發熱愛這份充滿刺激的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_project_oceana_cg27",
-			say = "废弃建筑在爆破声中轰然倒塌。",
+			say = "廢棄建築在爆破聲中轟然倒塌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
-			say = "橙红色的火光冲天而起，照亮了整片荒野。",
+			say = "橙紅色的火光沖天而起，照亮了整片荒野。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
-			say = "娜比娅踏着轻快的步伐向前走去，脸上挂着张扬的笑容。",
+			say = "娜比婭踏著輕快的步伐向前走去，臉上掛著張揚的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,43 +103,43 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你还真是乐在其中啊……",
+			say = "妳真是樂在其中……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊哈~废柴{tb}你说对了哦~",
+			say = "啊哈~廢柴{tb}你說對了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "毕竟整个世界上也就只有人家能把毁灭变成这么棒的艺术呢。",
+			say = "畢竟整個世界也就只有人家能把毀滅變成這麼棒的藝術。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么样，是不是被我的才能震惊到说不出话了？",
+			say = "怎麼樣，是不是被我的才能震驚到說不出話了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,19 +150,19 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
-			say = "身后的火光映衬着她格外闪亮的双眸。",
+			say = "身後的火光映襯著她格外閃亮的雙眸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "娜比娅",
+			actorName = "娜比婭",
 			side = 2,
 			bgName = "bg_project_oceana_cg27",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "这份工作，简直就是为人家量身定做的呢！超完美~♪",
+			say = "這份工作，簡直就是為人家量身訂做的呢！超完美~♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

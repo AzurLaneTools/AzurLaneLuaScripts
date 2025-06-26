@@ -69,8 +69,7 @@ slot0.InitTransformMapBtn = function(slot0, slot1, slot2, slot3)
 	end)
 end
 
-slot0.UpdateButtons = function(slot0)
-	uv0.super.UpdateButtons(slot0)
+slot0.UpdateCustomButtons = function(slot0)
 	setActive(slot0.buttonUp, false)
 	setActive(slot0.effectUp, false)
 	setActive(slot0.buttonDown, false)
