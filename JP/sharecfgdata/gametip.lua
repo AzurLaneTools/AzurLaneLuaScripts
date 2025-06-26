@@ -39469,3 +39469,8 @@ _G.pg.base.gametip.battleui_display2 = {
 _G.pg.base.gametip.battleui_display3 = {
 	tip = "一時停止枠"
 }
+
+
+_G.pg.base.gametip.zengke_series_serverinfo = {
+	tip = "サーバー"
+}

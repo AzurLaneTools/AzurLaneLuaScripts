@@ -462,7 +462,10 @@ temp = function()
 					["ォ"] = {
 						["ー"] = {
 							["ム"] = {
-								this = true
+								this = true,
+								["改"] = {
+									this = true
+								}
 							}
 						}
 					}
@@ -5610,22 +5613,6 @@ temp = function()
 								}
 							}
 						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["萤"] = {
-		["火"] = {
-			["虫"] = {
-				["."] = {
-					["改"] = {
-						this = true
 					}
 				}
 			}

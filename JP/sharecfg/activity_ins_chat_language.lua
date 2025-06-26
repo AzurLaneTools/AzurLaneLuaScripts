@@ -32062,7 +32062,7 @@ pg.base.activity_ins_chat_language = {
 		option = {
 			{
 				3,
-				"[发呆]"
+				"[えー]"
 			}
 		}
 	},
