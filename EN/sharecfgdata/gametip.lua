@@ -12885,7 +12885,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "Get Bismarck Zwei guaranteed with every 200 event builds (can be done up to 4 times)!"
+	tip = "Rate UP for Admiral Zenker and U-552!"
 }
 
 
@@ -39172,4 +39172,116 @@ _G.pg.base.gametip.dorm3d_dance_button = {
 
 _G.pg.base.gametip.dorm3d_collection_cafe = {
 	tip = "Café"
+}
+
+
+_G.pg.base.gametip.zengke_series_help = {
+	tip = {
+		{
+			info = [[
+- Overview -
+The Neon City Investigator event is available between <color=#92fc63>June 26th and July 9th</color>!
+Complete missions, dispatch your fleets, and clear event stages to collect Neon City Movie Tickets and receive rewards!
+
+1. Tap the button in the bottom left corner to switch between Story Mode and Battle Mode.
+2. Battle Mode presents a series of stages which you can challenge with your fleets to earn Neon City Movie Tickets.
+Before going into battle, you can decide whether you'd like to fight in a joint sortie or a solo sortie.
+· In a solo sortie, you will challenge each stage with only a single fleet. In this mode, all your shipgirls recover all their health at the start of the battle.
+· In a joint sortie, you will instead send out multiple fleets to battle on each stage. Completing the challenge in this mode will grant you additional rewards.
+3. You will receive rewards for collecting enough Neon City Movie Tickets, including <color=#92fc63>Elite DD Z13</color> and a <color=#92fc63>Prototype Triple 305mm SK C/39 Main Gun Mount</color>.
+4. There are special missions available during the event. Complete these to receive additional rewards.
+5. There's a special story available in Story Mode. Read it in its entirety to receive a commemorative gear skin.
+]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.zengke_series_pt = {
+	tip = "Total"
+}
+
+
+_G.pg.base.gametip.zengke_series_pt_small = {
+	tip = "TOTAL"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank = {
+	tip = "Ranking"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank_small = {
+	tip = "RANKING"
+}
+
+
+_G.pg.base.gametip.zengke_series_task = {
+	tip = "Missions"
+}
+
+
+_G.pg.base.gametip.zengke_series_task_small = {
+	tip = "MISSIONS"
+}
+
+
+_G.pg.base.gametip.zengke_series_confirm = {
+	tip = "Sortie"
+}
+
+
+_G.pg.base.gametip.zengke_story_reward_count = {
+	tip = "Read the whole story to receive a limited gear skin:"
+}
+
+
+_G.pg.base.gametip.zengke_series_easy = {
+	tip = "Easy"
+}
+
+
+_G.pg.base.gametip.zengke_series_normal = {
+	tip = "Normal"
+}
+
+
+_G.pg.base.gametip.zengke_series_hard = {
+	tip = "Hard"
+}
+
+
+_G.pg.base.gametip.zengke_series_sp = {
+	tip = "SP"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex = {
+	tip = "EX"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex_confirm = {
+	tip = "Return"
+}
+
+
+_G.pg.base.gametip.battleui_display1 = {
+	tip = "Icon"
+}
+
+
+_G.pg.base.gametip.battleui_display2 = {
+	tip = "Effect"
+}
+
+
+_G.pg.base.gametip.battleui_display3 = {
+	tip = "Pause Bar"
+}
+
+
+_G.pg.base.gametip.zengke_series_serverinfo = {
+	tip = "Server"
 }

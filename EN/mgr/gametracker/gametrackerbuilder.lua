@@ -188,4 +188,14 @@ slot0.BuildPhantom = function(slot0)
 	}, {})
 end
 
+slot0.BuildFushunAdventure = function()
+	return uv0(35, {}, {})
+end
+
+slot0.BuildAllCollection = function(slot0, slot1)
+	return uv0(slot0, {
+		slot1
+	}, {})
+end
+
 return slot0

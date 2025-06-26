@@ -26417,6 +26417,131 @@ _G.pg.base.item_data_statistics[30368] = {
 }
 
 
+_G.pg.base.item_data_statistics[30369] = {
+	open_directly = 1,
+	name = "Gear Skin Box (Rail)",
+	type = 11,
+	display = "Contains a random Rail-themed gear skin.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtiedao",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "30369",
+	id = 30369,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
+			1
+		}
+	},
+	price = {
+		1,
+		7000
+	},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[30401] = {
 	open_directly = 1,
 	name = "Random Gear Skin Box",
@@ -39639,6 +39764,219 @@ _G.pg.base.item_data_statistics[30555] = {
 		{
 			9,
 			4184,
+			1
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[30556] = {
+	open_directly = 0,
+	name = "Selection Gear Skin Box (Rail)",
+	type = 13,
+	display = "Can be opened to receive 1 Rail-themed gear skin of your choosing.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_appointed",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/appearanceboxtiedaozixuan",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 30556,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		{
+			9,
+			4186,
+			1
+		},
+		{
+			9,
+			4187,
+			1
+		},
+		{
+			9,
+			4188,
+			1
+		},
+		{
+			9,
+			4189,
+			1
+		},
+		{
+			9,
+			4190,
+			1
+		},
+		{
+			9,
+			4191,
+			1
+		},
+		{
+			9,
+			4192,
+			1
+		},
+		{
+			9,
+			4193,
+			1
+		},
+		{
+			9,
+			4194,
+			1
+		},
+		{
+			9,
+			4195,
+			1
+		},
+		{
+			9,
+			4196,
+			1
+		},
+		{
+			9,
+			4197,
+			1
+		},
+		{
+			9,
+			4198,
+			1
+		},
+		{
+			9,
+			4199,
+			1
+		},
+		{
+			9,
+			4200,
+			1
+		},
+		{
+			9,
+			4201,
+			1
+		},
+		{
+			9,
+			4202,
+			1
+		},
+		{
+			9,
+			4203,
 			1
 		}
 	},
@@ -103826,6 +104164,73 @@ _G.pg.base.item_data_statistics[81425] = {
 			7,
 			237030,
 			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_data_statistics[81426] = {
+	open_directly = 1,
+	name = "Office Cabinet Lucky Box",
+	type = 17,
+	display = "Contains 1x random skin, 2x Special General Blueprints - Series 7, 2025x Gems, 50x Cognitive Chips, 20x Wisdom Cubes, 100x Decor Tokens, and 10x Quick Finishers.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai96",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	limit = "[]",
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998553",
+	id = 81426,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86416,
+			1
+		},
+		{
+			1,
+			14,
+			2025
+		},
+		{
+			2,
+			42066,
+			2
+		},
+		{
+			2,
+			15008,
+			50
+		},
+		{
+			2,
+			20001,
+			20
+		},
+		{
+			2,
+			15003,
+			10
+		},
+		{
+			1,
+			6,
+			100
 		}
 	},
 	price = {},

@@ -737,6 +737,14 @@ slot0.IsShowTipById = function(slot0)
 end
 
 slot0.isShow = function(slot0)
+	if LOCK_SKIN_US then
+		slot2 = pg.gameset.levellimit_skinstory.description
+
+		if getProxy(PlayerProxy):getRawData().level <= pg.gameset.levellimit_skinstory.key_value and table.contains(slot2, slot0.id) then
+			return false
+		end
+	end
+
 	slot1 = slot0:getConfig("page_info")
 
 	if slot0:getConfig("is_show") <= 0 then

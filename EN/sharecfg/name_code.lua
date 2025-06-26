@@ -2870,6 +2870,41 @@ pg.name_code = {
 		code = "Little Ägir",
 		nation = 0
 	},
+	[545] = {
+		name = "U-552",
+		type = 1,
+		id = 545,
+		code = "U-552",
+		nation = 0
+	},
+	[546] = {
+		name = "Admiral Zenker",
+		type = 1,
+		id = 546,
+		code = "Zenker",
+		nation = 0
+	},
+	[547] = {
+		name = "Zenker",
+		type = 1,
+		id = 547,
+		code = "Zenker",
+		nation = 0
+	},
+	[548] = {
+		name = "U-552",
+		type = 1,
+		id = 548,
+		code = "U-552",
+		nation = 0
+	},
+	[549] = {
+		name = "U-37",
+		type = 1,
+		id = 549,
+		code = "U-37",
+		nation = 0
+	},
 	[10000] = {
 		name = "Type 0 Fighter Model 52",
 		type = 2,

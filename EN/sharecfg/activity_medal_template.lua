@@ -660,6 +660,183 @@ pg.activity_medal_template = {
 		id = 597107,
 		medal_asset = "ActivityMedal/597107"
 	},
+	[5002101] = {
+		activity_medal_desc = "The infiltrator could be any of us. It could be you! It could be me! It could even be...",
+		next_medal = 0,
+		item = 65632,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "1",
+		task_id = 21777,
+		activity_medal_name = "Sticker: City Investigator",
+		id = 5002101,
+		medal_asset = "ActivityMedal/5002101"
+	},
+	[5002102] = {
+		activity_medal_desc = "Yeah, yeah. Save it for when we're back at the police station.",
+		next_medal = 0,
+		item = 65633,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "2",
+		task_id = 21778,
+		activity_medal_name = "Sticker: Handcuffs",
+		id = 5002102,
+		medal_asset = "ActivityMedal/5002102"
+	},
+	[5002103] = {
+		activity_medal_desc = "The best tour guide of the year, with not a single negative review! ...Or, even a single tour given?",
+		next_medal = 0,
+		item = 65634,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "3",
+		task_id = 21779,
+		activity_medal_name = "Sticker: Guide's Flag",
+		id = 5002103,
+		medal_asset = "ActivityMedal/5002103"
+	},
+	[5002104] = {
+		activity_medal_desc = "Convenient, compact, and ready to drift.",
+		next_medal = 0,
+		item = 65635,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "4",
+		task_id = 21780,
+		activity_medal_name = "Sticker: Scooter",
+		id = 5002104,
+		medal_asset = "ActivityMedal/5002104"
+	},
+	[5002105] = {
+		activity_medal_desc = "Officer Bunneptune has arrived on the scene!",
+		next_medal = 0,
+		item = 65636,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "5",
+		task_id = 21781,
+		activity_medal_name = "Sticker: Officer Bunneptune",
+		id = 5002105,
+		medal_asset = "ActivityMedal/5002105"
+	},
+	[5002106] = {
+		activity_medal_desc = "Order only exists if it is respected!",
+		next_medal = 0,
+		item = 65637,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "6",
+		task_id = 21782,
+		activity_medal_name = "Sticker: Symbol of Order",
+		id = 5002106,
+		medal_asset = "ActivityMedal/5002106"
+	},
+	[5002107] = {
+		activity_medal_desc = "I'm always watching you... Always.",
+		next_medal = 0,
+		item = 65638,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "7",
+		task_id = 21783,
+		activity_medal_name = "Sticker: Nowhere to Hide",
+		id = 5002107,
+		medal_asset = "ActivityMedal/5002107"
+	},
+	[5002108] = {
+		activity_medal_desc = "Order only exists if it is respected!",
+		next_medal = 0,
+		item = 65639,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "8",
+		task_id = 21784,
+		activity_medal_name = "Sticker: Outside Perspective",
+		id = 5002108,
+		medal_asset = "ActivityMedal/5002108"
+	},
+	get_id_list_by_group = {
+		[5711] = {
+			571101,
+			571102,
+			571103,
+			571104,
+			571105,
+			571106,
+			571107,
+			571108
+		},
+		[5769] = {
+			576901,
+			576902,
+			576903,
+			576904,
+			576905,
+			576906,
+			576907,
+			576908
+		},
+		[5812] = {
+			581201,
+			581202,
+			581203,
+			581204,
+			581205,
+			581206,
+			581207,
+			581208
+		},
+		[5875] = {
+			587501,
+			587502,
+			587503,
+			587504,
+			587505,
+			587506,
+			587507,
+			587508
+		},
+		[5913] = {
+			591301,
+			591302,
+			591303,
+			591304,
+			591305,
+			591306,
+			591307,
+			591308
+		},
+		[5970] = {
+			597001,
+			597002,
+			597003,
+			597004,
+			597005,
+			597006,
+			597007,
+			597008
+		},
+		[5971] = {
+			597101,
+			597102,
+			597103,
+			597104,
+			597105,
+			597106,
+			597107
+		},
+		[50021] = {
+			5002101,
+			5002102,
+			5002103,
+			5002104,
+			5002105,
+			5002106,
+			5002107,
+			5002108
+		}
+	},
 	all = {
 		571101,
 		571102,
@@ -715,6 +892,14 @@ pg.activity_medal_template = {
 		597104,
 		597105,
 		597106,
-		597107
+		597107,
+		5002101,
+		5002102,
+		5002103,
+		5002104,
+		5002105,
+		5002106,
+		5002107,
+		5002108
 	}
 }

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "Seemingly sensing TB's attempt to gather computing resources, the dense swarm of enemies charged frantically toward the team.",

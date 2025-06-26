@@ -12,7 +12,7 @@ slot0.SetMedalGroupData = function(slot0, slot1)
 
 	slot0.medalDetailView:SetMedalGroup(slot0.currentMedalGroup)
 
-	slot2 = slot0.currentMedalGroup:getConfig("activity_medal_ids")
+	slot2 = slot0.currentMedalGroup:GetMedalIds()
 
 	for slot6 = 1, slot0.MEDAL_COUNT do
 		slot7 = slot2[slot6]
@@ -132,25 +132,26 @@ slot0.showTaskView = function(slot0)
 end
 
 slot0.UpdateView = function(slot0)
-	slot1 = slot0.currentMedalGroup:GetMedalList()
+	slot1 = slot0.currentMedalGroup:GetMedalIds()
+	slot2 = slot0.currentMedalGroup:GetMedalList()
 
-	for slot5 = 1, slot0.MEDAL_COUNT do
-		slot7 = slot0.slots[slot5]
+	for slot6 = 1, slot0.MEDAL_COUNT do
+		slot8 = slot0.slots[slot6]
 
-		if slot1[slot0.currentMedalGroup:getConfig("activity_medal_ids")[slot5]].timeStamp then
-			setActive(slot7.active, true)
+		if slot2[slot1[slot6]].timeStamp then
+			setActive(slot8.active, true)
 		else
-			setActive(slot7.active, false)
+			setActive(slot8.active, false)
 		end
 	end
 
-	slot3 = getProxy(TaskProxy):getTaskById(slot0.currentMedalGroup:getConfig("activity_link")[1][3][1])
+	slot4 = getProxy(TaskProxy):getTaskById(slot0.currentMedalGroup:getConfig("activity_link")[1][3][1])
 
 	if slot0.trophyLock then
-		slot0.trophyLock:GetComponent(typeof(Image)).enabled = slot3 ~= nil
+		slot0.trophyLock:GetComponent(typeof(Image)).enabled = slot4 ~= nil
 	end
 
-	slot0.medalLock:GetComponent(typeof(Image)).enabled = slot3 ~= nil
+	slot0.medalLock:GetComponent(typeof(Image)).enabled = slot4 ~= nil
 
 	setActive(slot0.taskBtn, slot0.currentMedalGroup:GetMedalGroupState() == ActivityMedalGroup.STATE_ACTIVE)
 end

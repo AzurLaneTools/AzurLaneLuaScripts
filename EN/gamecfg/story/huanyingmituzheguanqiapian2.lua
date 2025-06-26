@@ -26,7 +26,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			soundeffect = "event:/battle/boom2",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "BANG! CLANG!",
@@ -722,7 +722,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "With a sudden blast, a wall up ahead shattered. Amidst the dust, a girl in black rolled out from the breach.",

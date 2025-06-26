@@ -2249,5 +2249,20 @@ pg.voice_bgm = {
 		default_bgm = "theme-bismark-reborn",
 		special_bgm = "",
 		bgm = "theme-bismark-reborn"
+	},
+	ZengKeMainPage = {
+		default_bgm = "story-spycity-fashion",
+		special_bgm = "",
+		bgm = "story-spycity-fashion"
+	},
+	ZengKePtPage = {
+		default_bgm = "story-spycity-fashion",
+		special_bgm = "",
+		bgm = "story-spycity-fashion"
+	},
+	CamouflageCityMedalAlbumView = {
+		default_bgm = "story-spycity-fashion",
+		special_bgm = "",
+		bgm = "story-spycity-fashion"
 	}
 }

@@ -7,7 +7,7 @@ return {
 			mode = 1,
 			stopbgm = true,
 			asideType = 3,
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			sequence = {
 				{
 					"V?rt??l Tower",

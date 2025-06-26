@@ -29,7 +29,19 @@ slot0.ResUISettings = function(slot0)
 end
 
 slot0.GetAllCommodity = function(slot0)
-	return getProxy(ShipSkinProxy):GetAllSkins()
+	slot1 = getProxy(ShipSkinProxy):GetAllSkins()
+
+	if LOCK_SKIN_US then
+		slot3 = pg.gameset.levellimit_skintype.description
+
+		if getProxy(PlayerProxy):getData().level <= pg.gameset.levellimit_skintype.key_value then
+			slot1 = _.filter(slot1, function (slot0)
+				return table.contains(uv0, pg.ship_skin_template[slot0:getSkinId()].shop_type_id)
+			end)
+		end
+	end
+
+	return slot1
 end
 
 slot0.GetPlayer = function(slot0)

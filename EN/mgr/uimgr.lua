@@ -432,6 +432,10 @@ slot0.BlurCamera = function(slot0, slot1, slot2, slot3)
 			slot4.enabled = true
 			slot4.staticBlur = true
 		else
+			if slot4.enabled == true and slot4.staticBlur == true then
+				slot4.enabled = false
+			end
+
 			slot4.enabled = true
 			slot4.staticBlur = false
 		end

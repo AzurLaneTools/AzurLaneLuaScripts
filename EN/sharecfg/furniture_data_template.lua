@@ -165,6 +165,7 @@ pg.furniture_data_template = setmetatable({
 			303,
 			304,
 			307,
+			308,
 			100002,
 			100003,
 			100004,
@@ -225,6 +226,7 @@ pg.furniture_data_template = setmetatable({
 			100063,
 			100064,
 			100065,
+			100066,
 			100073,
 			100074,
 			200001,
@@ -3425,6 +3427,28 @@ pg.furniture_data_template = setmetatable({
 			322114,
 			322115,
 			322116
+		},
+		[123] = {
+			324001,
+			324002,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118
 		}
 	},
 	get_id_list_by_tag = {
@@ -5455,7 +5479,24 @@ pg.furniture_data_template = setmetatable({
 			322112,
 			322113,
 			322114,
-			322115
+			322115,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117
 		},
 		{
 			1108,
@@ -5717,6 +5758,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			308,
 			100002,
 			100003,
 			100004,
@@ -5777,6 +5819,7 @@ pg.furniture_data_template = setmetatable({
 			100063,
 			100064,
 			100065,
+			100066,
 			100073,
 			100074,
 			31101,
@@ -6052,7 +6095,8 @@ pg.furniture_data_template = setmetatable({
 			321114,
 			322116,
 			323101,
-			323102
+			323102,
+			324118
 		},
 		[4] = {
 			1001,
@@ -6163,7 +6207,8 @@ pg.furniture_data_template = setmetatable({
 			320001,
 			321001,
 			322001,
-			323001
+			323001,
+			324001
 		},
 		[3] = {
 			1002,
@@ -6275,7 +6320,8 @@ pg.furniture_data_template = setmetatable({
 			320002,
 			321002,
 			322002,
-			323002
+			323002,
+			324002
 		},
 		[5] = {
 			1301,
@@ -6760,7 +6806,8 @@ pg.furniture_data_template = setmetatable({
 			320002,
 			321002,
 			322002,
-			323002
+			323002,
+			324002
 		},
 		[7] = {
 			1,
@@ -8982,7 +9029,24 @@ pg.furniture_data_template = setmetatable({
 			322114,
 			322115,
 			322116,
-			323101
+			323101,
+			324101,
+			324102,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118
 		},
 		[11] = {
 			131,
@@ -8992,6 +9056,7 @@ pg.furniture_data_template = setmetatable({
 			233,
 			281,
 			282,
+			308,
 			100003,
 			100008,
 			100021,
@@ -9001,6 +9066,7 @@ pg.furniture_data_template = setmetatable({
 			100042,
 			100063,
 			100064,
+			100066,
 			100073,
 			30123,
 			35128,
@@ -9170,7 +9236,8 @@ pg.furniture_data_template = setmetatable({
 			320001,
 			321001,
 			322001,
-			323001
+			323001,
+			324001
 		},
 		[5] = {
 			1101,
@@ -9318,7 +9385,8 @@ pg.furniture_data_template = setmetatable({
 			309105,
 			310101,
 			316107,
-			321115
+			321115,
+			324103
 		},
 		[3] = {
 			1108,
@@ -10050,6 +10118,7 @@ pg.furniture_data_template = setmetatable({
 		303,
 		304,
 		307,
+		308,
 		100002,
 		100003,
 		100004,
@@ -10110,6 +10179,7 @@ pg.furniture_data_template = setmetatable({
 		100063,
 		100064,
 		100065,
+		100066,
 		100073,
 		100074,
 		200001,
@@ -13089,7 +13159,27 @@ pg.furniture_data_template = setmetatable({
 		323001,
 		323002,
 		323101,
-		323102
+		323102,
+		324001,
+		324002,
+		324101,
+		324102,
+		324103,
+		324104,
+		324105,
+		324106,
+		324107,
+		324108,
+		324109,
+		324110,
+		324111,
+		324112,
+		324113,
+		324114,
+		324115,
+		324116,
+		324117,
+		324118
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21087,6 +21177,93 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[308] = {
+		can_rotate = 0,
+		name = "Luxurious Black Camera Car",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 0,
+		icon = "sheyingcheicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "State-of-the-art equipment is attached to the hood of the car, allowing you to get professional shots even in the roughest terrain!",
+		advice = 0,
+		id = 308,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingcheB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"sheyingcheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-8,
+					15.8
+				},
+				{
+					120,
+					100
+				},
+				"chuanmo/sheyingche_mask"
+			},
+			{
+				5.8,
+				-13.6
+			},
+			{
+				1,
+				1
+			},
+			0.4
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
 	[100002] = {
 		name = "Air Pump of Friendship",
 		gain_by = "",
@@ -25351,6 +25528,53 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		},
 		interAction_group = {}
 	},
+	[100066] = {
+		can_rotate = 0,
+		name = "Data 857 (Replica)",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 6,
+		icon = "bulisituoerjiqirenicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 0,
+		count = 1,
+		describe = "\"Activate recording function! ...What do you mean that hasn't been added yet?\"",
+		advice = 0,
+		id = 100066,
+		deblocking = 1,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bulisituoerjiqiren",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
 	[100073] = {
 		can_rotate = 0,
 		name = "Manjuu Surfboard",
@@ -25429,7 +25653,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 	},
 	[100074] = {
 		can_rotate = 0,
-		name = "幽灵隐身衣",
+		name = "Ghost Cloak",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -25448,7 +25672,7 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 		canputon = 0,
 		deblocking = 1,
 		count = 1,
-		describe = "我是一个小幽灵~看不见的小幽灵~",
+		describe = "I'm a ghost~ A ghost so small, nobody can see me~",
 		advice = 0,
 		id = 100074,
 		tag = 6,
@@ -156787,6 +157011,917 @@ Its tones soar, just as the elegant apsaras who plucks its strings.n
 				1
 			},
 			0.8
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324001] = {
+		can_rotate = 0,
+		name = "Rail Flooring",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 4,
+		icon = "dibanczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/dibancz",
+		canputon = 0,
+		count = 1,
+		describe = "Hop on the train, feel the rhythm of the rails, and gaze at the wondrous view out the window!",
+		advice = 0,
+		deblocking = 1,
+		id = 324001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324002] = {
+		can_rotate = 0,
+		name = "Rail Wallpaper",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		size = "",
+		is_get_time_note = 0,
+		belong = 0,
+		rarity = 4,
+		is_3d_obj = 0,
+		tag = 3,
+		icon = "qiangbiczicon",
+		spine_extra = "",
+		level = 5,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Hop on the train, feel the rhythm of the rails, and gaze at the wondrous view out the window!",
+		advice = 0,
+		id = 324002,
+		deblocking = 1,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324101] = {
+		can_rotate = 0,
+		name = "Platform Bench",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		themeId = 123,
+		icon = "changyiczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "A common sight at train stations, offering a brief rest for those waiting for their train.",
+		advice = 0,
+		id = 324101,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changyicz",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324102] = {
+		can_rotate = 0,
+		name = "Train Couch",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shafaczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "cz/shafacz",
+		canputon = 0,
+		themeId = 123,
+		count = 2,
+		describe = "Very cozy. You feel your eyelids getting heavy from the gentle rocking of the train...",
+		advice = 0,
+		id = 324102,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					23.2,
+					18.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324103] = {
+		can_rotate = 0,
+		name = "Train Carpet",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "ditanczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/ditancz",
+		canputon = 0,
+		count = 1,
+		describe = "Feels nice and soft under your feet.",
+		advice = 0,
+		deblocking = 1,
+		id = 324103,
+		comfortable = 2,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324104] = {
+		can_rotate = 0,
+		name = "Station Vending Machine",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "fanmaijiczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Popular drinks at reasonable prices! By vending machine standards, at least!",
+		advice = 0,
+		id = 324104,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fanmaijicz",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324105] = {
+		can_rotate = 1,
+		name = "Keep Out Tape",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "fengsuodaiczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/fengsuodaicz",
+		canputon = 0,
+		count = 1,
+		describe = "It emits a brain signal that subconsciously makes you obey it. Or is that just your instinct to stay out of trouble kicking in?",
+		advice = 0,
+		deblocking = 1,
+		id = 324105,
+		comfortable = 1,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324106] = {
+		can_rotate = 0,
+		name = "Conductor Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jiashijiuczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Being a conductor is nice, except for always having to clarify which one you mean.",
+		advice = 0,
+		id = 324106,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiashijiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324107] = {
+		can_rotate = 0,
+		name = "Driver's Console",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "jiashitaiczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/jiashitaicz",
+		canputon = 0,
+		count = 1,
+		describe = "Only for the driver to use!",
+		advice = 0,
+		deblocking = 1,
+		id = 324107,
+		comfortable = 3,
+		size = {
+			4,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324108] = {
+		can_rotate = 0,
+		name = "Train Car",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "liecheqiangmianczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Please stand clear of the closing doors!",
+		advice = 0,
+		id = 324108,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liecheqiangmiancz",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324109] = {
+		can_rotate = 0,
+		name = "Station Escalator",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "louticzicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Please hold the handrail and watch your step.",
+		advice = 0,
+		id = 324109,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"louticz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324110] = {
+		can_rotate = 1,
+		name = "Station Clock",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "shizhongczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "This should stop you from missing your departure time. Hopefully.",
+		advice = 0,
+		id = 324110,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongcz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324111] = {
+		can_rotate = 0,
+		name = "Luggage Cart",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "tuicheczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/tuichecz",
+		canputon = 0,
+		count = 1,
+		describe = "It's leagues better than hauling your luggage yourself.",
+		advice = 0,
+		deblocking = 1,
+		id = 324111,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324112] = {
+		can_rotate = 0,
+		name = "Train Stool",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xiaodengziczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "cz/xiaodengzicz",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Compact, practical, and cushy. Have a pleasant journey!",
+		advice = 0,
+		id = 324112,
+		deblocking = 1,
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.5,
+					51.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324113] = {
+		can_rotate = 0,
+		name = "Station Officer Manjuu",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 3,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "xunluojiuczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Here for your and everyone else's safety!",
+		advice = 0,
+		id = 324113,
+		deblocking = 1,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324114] = {
+		can_rotate = 0,
+		name = "Station Information Board",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zhanpaiczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/zhanpaicz",
+		canputon = 0,
+		count = 1,
+		describe = "All the departure information you need to know with just one glance.",
+		advice = 0,
+		deblocking = 1,
+		id = 324114,
+		comfortable = 2,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324115] = {
+		can_rotate = 0,
+		name = "Train Seat 1",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zhuoyi1czicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "cz/zhuoyi1cz",
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		describe = "Been on a long journey? Come and rest, traveler.",
+		advice = 0,
+		id = 324115,
+		deblocking = 1,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-44.2,
+					12.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324116] = {
+		can_rotate = 0,
+		name = "Train Seat 2",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 2,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zhuoyi2czicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/zhuoyi2cz",
+		canputon = 0,
+		count = 1,
+		describe = "Been on a long journey? Come and rest, traveler.",
+		advice = 0,
+		deblocking = 1,
+		id = 324116,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324117] = {
+		can_rotate = 0,
+		name = "Train Table",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 1,
+		is_3d_obj = 0,
+		tag = 1,
+		icon = "zhuoziczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		themeId = 123,
+		spine_action_replace = "",
+		picture = "cz/zhuozicz",
+		canputon = 0,
+		count = 1,
+		describe = "You can still have a nice meal on the way to your destination.",
+		advice = 0,
+		deblocking = 1,
+		id = 324117,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324118] = {
+		can_rotate = 0,
+		name = "Pile of Suitcases",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		is_get_time_note = 0,
+		belong = 1,
+		rarity = 4,
+		is_3d_obj = 0,
+		themeId = 123,
+		icon = "xinglixiangczicon",
+		spine_extra = "",
+		level = 1,
+		effect = "",
+		spine_action_replace = "",
+		picture = "",
+		canputon = 0,
+		deblocking = 1,
+		count = 1,
+		describe = "Someone left their cases open. What were they looking for?",
+		advice = 0,
+		id = 324118,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xinglixiangczB",
+				"normal"
+			},
+			{
+				"xinglixiangczT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						nil,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"stand2",
+						"stand2",
+						false,
+						true
+					}
+				},
+				{
+					0
+				},
+				{
+					{
+						"walk2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
 		},
 		followBone = {
 			"char",

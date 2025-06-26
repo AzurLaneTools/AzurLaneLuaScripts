@@ -118,6 +118,10 @@ slot0.OnInit = function(slot0)
 		uv0:OnUpdateItem(slot0, slot1)
 	end
 
+	slot0.scolrect.onReturnItem = function(slot0, slot1)
+		uv0:OnReturnItem(slot0, slot1)
+	end
+
 	slot0.cards = {}
 	slot0.descPanel = AttireDescPanel.New(slot0:findTF("desc_panel"))
 	slot0.totalCount = slot0:findTF("total_count/Text"):GetComponent(typeof(Text))
@@ -135,6 +139,9 @@ slot0.OnUpdateItem = function(slot0, slot1, slot2)
 	end
 
 	slot3:Update(slot0.displayVOs[slot1 + 1], slot0.playerVO, slot1 < slot0.scolrect.content:GetComponent(typeof(GridLayoutGroup)).constraintCount, slot1, slot5.constraintCount)
+end
+
+slot0.OnReturnItem = function(slot0, slot1, slot2)
 end
 
 slot0.Update = function(slot0, slot1, slot2)

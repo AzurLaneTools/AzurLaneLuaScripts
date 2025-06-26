@@ -32,10 +32,10 @@ slot6.SetBound = function(slot0, slot1, slot2)
 	slot0._top = slot1
 	slot0._bottom = slot2
 
-	if slot0._tmpData.spawn_brownian then
-		slot0._speedZ = (math.random() - 0.5) * 0.5
-	else
+	if slot0._tmpData.spawn_brownian == -1 then
 		slot0._speedZ = 0
+	else
+		slot0._speedZ = (math.random() - 0.5) * 0.5
 	end
 
 	slot0:SetTargetZ()

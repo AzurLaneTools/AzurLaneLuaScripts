@@ -681,6 +681,328 @@ May your inner child always be with you.]],
 			0.8
 		}
 	},
+	[3001] = {
+		oil = 0,
+		name = "Filming Location: Main Road",
+		type = 1,
+		pre_chapter = 0,
+		chapter_name = "Easy",
+		pos_x = "0.10703125",
+		pos_y = "0.157291667",
+		count = 0,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "[Filming Location: Main Road] / Mainly used for filming car chases and sometimes intense shootout scenes. / Long as your hand's on the throttle, the road goes on, baby.",
+		whether_singlefight = 0,
+		id = 3001,
+		limitation = {},
+		expedition_id = {
+			1930101
+		},
+		boss_icon = {
+			{
+				"u37_3",
+				8
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				516,
+				40
+			},
+			{
+				2,
+				200480,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54012,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[3002] = {
+		oil = 0,
+		name = "Filming Location: Downtown",
+		type = 1,
+		pre_chapter = 3001,
+		chapter_name = "Normal",
+		pos_x = "0.34609375",
+		pos_y = "0.347916667",
+		count = 0,
+		ex_count = "",
+		profiles = "[Filming Location: Downtown] / Mainly used for filming dining and shopping scenes, with the odd high-stakes murder scene every now and then. / Dining scenes are absolute cinema! Give us more!",
+		whether_singlefight = 1,
+		id = 3002,
+		limitation = {},
+		expedition_id = {
+			1930201,
+			1930202
+		},
+		boss_icon = {
+			{
+				"u37_3",
+				8
+			},
+			{
+				"wuqi_3",
+				18
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				516,
+				140
+			},
+			{
+				2,
+				200481,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				516,
+				25
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		}
+	},
+	[3003] = {
+		oil = 0,
+		name = "Filming Location: Railcar",
+		type = 1,
+		pre_chapter = 3002,
+		chapter_name = "Hard",
+		pos_x = "0.50546875",
+		pos_y = "0.080208333",
+		count = 0,
+		ex_count = "",
+		profiles = "[Filming Location: Railcar] / Mainly used for filming travel and panoramic scenes, and occasionally bomb disposal scenes. / One's red, one's blue. Pick a favorite and cut it.",
+		whether_singlefight = 1,
+		id = 3003,
+		limitation = {},
+		expedition_id = {
+			1930301,
+			1930302,
+			1930303
+		},
+		boss_icon = {
+			{
+				"u37_3",
+				8
+			},
+			{
+				"u552_2",
+				8
+			},
+			{
+				"zengkehaijunshangjiang_2",
+				4
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				516,
+				360
+			},
+			{
+				2,
+				200482,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54017,
+				0
+			}
+		},
+		additional_awards_display = {
+			{
+				1,
+				516,
+				60
+			},
+			{
+				1,
+				1,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			25,
+			16
+		}
+	},
+	[3004] = {
+		oil = 0,
+		name = "Filming Location: Business District",
+		type = 2,
+		pre_chapter = 3003,
+		chapter_name = "S.P",
+		pos_x = "0.60546875",
+		pos_y = "0.446875",
+		count = 1,
+		ex_count = "",
+		additional_awards_display = "",
+		profiles = "[Filming Location: Business District] / Mainly used for filming day-to-day scenes and, rarely, tense chase scenes. / Don't. There are tons of cops outside.",
+		whether_singlefight = 0,
+		id = 3004,
+		limitation = {},
+		expedition_id = {
+			1930401,
+			1930402,
+			1930403,
+			1930404
+		},
+		boss_icon = {
+			{
+				"haiwangxing_4",
+				2
+			},
+			{
+				"z13_2",
+				1
+			},
+			{
+				"zengkehaijunshangjiang_2",
+				4
+			},
+			{
+				"wuqi_3",
+				18
+			}
+		},
+		pass_awards_display = {
+			{
+				1,
+				516,
+				800
+			},
+			{
+				2,
+				200483,
+				0
+			},
+			{
+				2,
+				59001,
+				0
+			},
+			{
+				2,
+				54016,
+				0
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			40,
+			16
+		}
+	},
+	[3005] = {
+		oil = 0,
+		name = "Filming Location: Police Station",
+		type = 3,
+		pre_chapter = 3004,
+		chapter_name = "E.X",
+		pos_x = "0.6265625",
+		pos_y = "0.15625",
+		count = 0,
+		additional_awards_display = "",
+		profiles = "[Filming Location: Police Station] / Mainly used for filming investigations and interrogations, with occasional intricate spy dramas to spice things up. / Are you the infiltrator?",
+		pass_awards_display = "",
+		whether_singlefight = 0,
+		id = 3005,
+		limitation = {},
+		expedition_id = {
+			1930501,
+			1930502,
+			1930503,
+			1930504,
+			1930505
+		},
+		boss_icon = {
+			{
+				"z13_2",
+				1
+			},
+			{
+				"u552_2",
+				8
+			},
+			{
+				"zengkehaijunshangjiang_2",
+				4
+			},
+			{
+				"haiwangxing_4",
+				2
+			},
+			{
+				"diguo_3",
+				7
+			}
+		},
+		defeat_story = {},
+		defeat_story_count = {},
+		use_oil_limit = {
+			0,
+			0
+		},
+		ex_count = {
+			8000,
+			20,
+			0.2,
+			1000,
+			0.8
+		}
+	},
 	all = {
 		1001,
 		1002,
@@ -691,6 +1013,11 @@ May your inner child always be with you.]],
 		2002,
 		2003,
 		2004,
-		2005
+		2005,
+		3001,
+		3002,
+		3003,
+		3004,
+		3005
 	}
 }

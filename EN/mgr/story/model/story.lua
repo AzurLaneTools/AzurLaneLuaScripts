@@ -93,7 +93,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3, slot4, slot5, slot6)
 	slot11 = slot1.scripts or {}
 
 	for slot13, slot14 in slot10(slot11) do
-		if uv0.GetStoryStepCls(slot14.mode or slot0.mode).New(slot14):IsVaild(slot6) then
+		if uv0.GetStoryStepCls(slot14.mode or slot0.mode).New(slot14):IsValid(slot6) then
 			if slot17:IsDialogueMode() and slot0:IsDialogueStyle2() then
 				slot17:SetDefaultSide()
 			end

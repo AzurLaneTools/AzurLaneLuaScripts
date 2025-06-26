@@ -118,7 +118,7 @@ slot1.RemoveAllBattleTimer = function(slot0)
 end
 
 slot1.RealtimeSinceStartup = function(slot0)
-	return math.ceil(Time.realtimeSinceStartup)
+	return math.floor(Time.realtimeSinceStartup)
 end
 
 slot1.SetServerTime = function(slot0, slot1, slot2)

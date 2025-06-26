@@ -2569,6 +2569,27 @@ pg.medal_template = {
 		explain1 = "Villa Resort",
 		explain2 = "Event"
 	},
+	[200071] = {
+		target_id = "50021",
+		name = "Neon City Investigator's Medal",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "You are the sharpest investigator in Neon City. You've left footprints in many places and solved numerous mysteries with your own hands. Congratulations!",
+		next = 0,
+		icon = "9071",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9071",
+		condition = "Collect 8 stickers in The Neon City Investigator.",
+		rank = 1,
+		id = 200071,
+		explain1 = "The Neon City Investigator Medal",
+		explain2 = "Event"
+	},
 	all = {
 		10011,
 		10012,
@@ -2686,6 +2707,7 @@ pg.medal_template = {
 		200031,
 		200041,
 		200051,
-		200061
+		200061,
+		200071
 	}
 }

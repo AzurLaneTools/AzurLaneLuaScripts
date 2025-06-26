@@ -101,7 +101,7 @@ slot0.CheckFleetShipState = function(slot0)
 		slot1:GetMainFleet(),
 		slot1:GetSubFleet()
 	}) do
-		if slot8:ExistInvailShips() or slot8:ExistInvaildCommanders() then
+		if slot8:ExistInvailShips() or slot8:ExistInvalidCommanders() then
 			table.insert(slot3, slot8)
 		end
 	end

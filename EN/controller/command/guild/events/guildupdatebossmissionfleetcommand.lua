@@ -57,8 +57,8 @@ slot0.execute = function(slot0, slot1)
 			end
 		end
 
-		slot12:ClearInvaildShip()
-		slot12:RemoveInvaildCommanders()
+		slot12:ClearInvalidShip()
+		slot12:RemoveInvalidCommanders()
 		table.insert(slot7, slot0:WarpData(slot12))
 	end
 

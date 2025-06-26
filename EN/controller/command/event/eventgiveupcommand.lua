@@ -1,7 +1,7 @@
 slot0 = class("EventGiveUpCommand", pm.SimpleCommand)
 
 slot0.execute = function(slot0, slot1)
-	if getProxy(EventProxy):findInfoById(slot1:getBody().id):IsActivityType() then
+	if getProxy(EventProxy):getEventInfo(slot1:getBody().id):IsActivityType() then
 		slot0:sendNotification(GAME.ACT_COLLECTION_EVENT_OP, {
 			arg2 = 0,
 			cmd = ActivityConst.COLLETION_EVENT_OP_GIVE_UP,
@@ -26,11 +26,14 @@ end
 slot0.OnCancel = function(slot0)
 	pg.TipsMgr.GetInstance():ShowTips(i18n("event_giveup_success"))
 
-	slot2, slot3 = getProxy(EventProxy):findInfoById(slot0)
-	slot2.state = EventInfo.StateNone
+	slot1 = getProxy(EventProxy)
+	slot2 = slot1:getEventInfo(slot0)
+	slot2.finishTime = 0
+	slot2.shipIds = {}
 
-	pg.ShipFlagMgr.GetInstance():UpdateFlagShips("inEvent")
-	pg.m02:sendNotification(GAME.EVENT_LIST_UPDATE)
+	slot1:updateInfoList({
+		slot2
+	})
 end
 
 return slot0

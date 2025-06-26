@@ -81,6 +81,10 @@ return {
 			}
 		},
 		isShow = function ()
+			if LOCK_SKIN_US and getProxy(PlayerProxy):getRawData().level <= pg.gameset.levellimit_skinentrance.key_value then
+				return false
+			end
+
 			return pg.activity_banner.get_id_list_by_type[GAMEUI_BANNER_12] and #slot0 > 0 and _.any(slot0, function (slot0)
 				return pg.TimeMgr.GetInstance():inTime(pg.activity_banner[slot0].time)
 			end)

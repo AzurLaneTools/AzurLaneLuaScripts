@@ -334,7 +334,11 @@ pg.ship_skin_words_extra = setmetatable({
 		207055,
 		11200010,
 		11200020,
-		103160
+		103160,
+		404070,
+		408140,
+		401130,
+		408100
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -23435,6 +23439,283 @@ pg.base.ship_skin_words_extra = {
 			{
 				1100,
 				"Phew... I'm tired, Commander. Let me lean on you... Hm? Am I getting too relaxed around you? I-I mean, we're married, and all! Now you're getting me all nervous again..."
+			}
+		}
+	},
+	[404070] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 404070,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"According to the schedule, we have reports first... B-but first, can I have a minute of your time for a... a hug?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, you're home later than expected. Did you run into any issues? I-I was worried about you... Heehee, you did come home safe, so I'll get back to work."
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Wait, my hair's not done yet... U-umm, okay, you can touch it..."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Did you learn a new trick?! If I learned this, I could take the enemy by surprise and land another... Oh, not you, of course. After all, you're my... Urk, you already know what I want to say..."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, you've been working long enough... Take a break while you have time. I'll make you a cup of coffee.|...Tickets for the exhibition this weekend? Yes, I'd love to join you... Oh, but I had plans for Saturday. Hmm... I've changed my plans. I did it the moment you invited me!|Commander, where's that pen I gave you? It was definitely here before... Huh? You take it everywhere with you? I see... That's great!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Your next plan is... a date with me... I haven't made detailed plans, so it's up to you to decide what happens... Okay?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Following your heart instead of a plan... is nice once in a while."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"I take pride in my maturity and reason, but they don't help at all when I'm with you... Now I find myself HOPING for little surprises. Thank you, Commander... You made me realize that the most important thing in life isn't the perfect plan, but time with the people you love."
+			}
+		}
+	},
+	[408140] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 408140,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Whew. Perfect timing, Commander. I just found a sweet place to lie down. Wanna go there with me? It's way more refreshing than coffee, I guarantee it."
+			}
+		},
+		home = {
+			{
+				1100,
+				"I'm getting some solid work done, aren't I? It's cause I'm doing it in the most efficient way. Anyway, as a reward, let me rest on your shoulder!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Hey. You said you'd let me rest today... Then again, your hands are really warm. I guess you could keep going for just a little while."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"I'm a pro when it comes to saving energy, but I have tons of it to spend just on you. Don't go around telling people that, though."
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I moved your couch so the sun can shine on us both. Come here and we'll have a relaxing afternoon together.|Were you spying on me sleeping AGAIN? Heh. If you're tired, just say it. I can give you a lap pillow at least every once in a while.|I've been feeling so incredibly at ease when you're around lately. It's probably 'cause... Never mind. It's too embarrassing to say out loud!"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"Commander, you wanna get lazy with me?"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Commander, I know we're an item, but... you know, it's just... Like, at least... Hey! That's not what I'm getting at!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Did you know that my favorite part of the day isn't naptime, but rather the time I spend staring while you work? As much as I think you need to ease off, seeing you in action always moves my heart."
+			}
+		}
+	},
+	[401130] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		mission = "",
+		id = 401130,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Commander, based on the latest findings in residential environment research, we should move your desk about 20 centimeters closer to your window. It'll give you just the right amount of sunlight. You just sit back and relax and I'll do it!"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Commander, I made coffee for you. Just remember that while coffee does keep you awake, you shouldn't drink too much of it. I've been studying nutritional science and I know a thing or two, so I'm gonna start making healthy, refreshing drinks for you every day!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"According to theories on emotional management, patting someone's head like this makes them... Mmh... Your hand feels so nice I totally forgot what I was gonna say."
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Oh, Commander! I'm just researching the behavioral science of love here. Heehee – it so happens I'm on the part about lust, and there's a surprising amount of depth to it. How about we both read it and see if all the theories hold up in practice? Heheh♡"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"Commander, you need an optimal recovery position to get the most out of your rest. There's an easy one, actually – just lie down, then place your head in my lap... There we go!|You want everyone at the port to get more friendly? Okay, then you'll have to work on improving cross-field integration! There are lots of ways to do it, but in short, make them share more meals. If you'll be present, let me know when in advance and I'll come with you!|My outfit's pretty good, don't you think? It's made to strictly comply with the rule of thirds and color theory. Hm? It's \"puppy-like\" on the whole? Heheh, maybe you like puppies like me, then, huh?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"A massage? Yeah, of course! If I give you advice, I sure as heckfire can give you a... Hm? You want to give ME a massage?"
+			}
+		},
+		expedition = {
+			{
+				1100,
+				"Commander, the commission fleet is back! Allow me to handle the resource management side of things."
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"No need to hold yourself back – you can go a little further. Through the lens of love in practice, this is a perfectly normal thing!"
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander! I've come up with a plan to manage our relationship. Firstly, we have to share a hug every day to uphold our intimacy; secondly, we need to express our love to one another to stay holden to our commitment; thirdly, we need to engage in... activities to maintain our passion. I think you get what I'm hinting at!"
+			}
+		}
+	},
+	[408100] = {
+		feeling3 = "",
+		win_mvp = "",
+		upgrade = "",
+		expedition = "",
+		mission = "",
+		id = 408100,
+		skill = "",
+		unlock = "",
+		mail = "",
+		lose = "",
+		feeling4 = "",
+		feeling1 = "",
+		hp_warning = "",
+		main = "",
+		profile = "",
+		mission_complete = "",
+		feeling2 = "",
+		battle = "",
+		login = {
+			{
+				1100,
+				"Heehee, you're under arrest! I've been lyin' here in wait for you! Whaddya think? The deep sea hunter really caught ya off guard, eh?"
+			}
+		},
+		home = {
+			{
+				1100,
+				"Ya know what I look forward to the most while out at sea? Returning to the port and getting my hands on you! Heehee!"
+			}
+		},
+		headtouch = {
+			{
+				1100,
+				"Heh, you can ruffle it up if ya want. Feels chummy, and I like that!"
+			}
+		},
+		detail = {
+			{
+				1100,
+				"Did ya know that when someone's partner is a loose cannon, that means said person's pretty dangerous, too?"
+			}
+		},
+		main_extra = {
+			{
+				1100,
+				"I sure as hell ain't raring to do any work, but since you're bustin' your ass, I gotta put in some effort, too! And as thanks, you gotta gimme all your break time!|You wouldn't believe what's out there under the sea! Sometimes you even run into glowy deep-sea creatures! Wanna see some? Alright, you and me, let's go!|We've known each other for ages now, and you're still fascinated by my tail? C'mon, don'tcha wanna touch my nice, warm skin instead of my cold tail?"
+			}
+		},
+		touch = {
+			{
+				1100,
+				"You checkin' my body temp? Heh, I'm not one to get sick easily... Ah-ah-achoo!"
+			}
+		},
+		touch2 = {
+			{
+				1100,
+				"Well, if you love it that much... Heh. Be ready for some payback."
+			}
+		},
+		feeling5 = {
+			{
+				1100,
+				"Commander, y'know what gets me more excited than anything else? It's workin' out the perfect ambush with you and catchin' the baddies with their pants down! But, before we set out, we'll need to do a \"strategy briefing\" first. Get what I mean?"
 			}
 		}
 	}

@@ -4818,6 +4818,43 @@ pg.backyard_theme_template = {
 			322115
 		}
 	},
+	[123] = {
+		Cfg_1 = 5,
+		name = "Journey by Rail",
+		desc = "Hop on the train, feel the rhythm of the rails, and gaze at the wondrous view out the window!",
+		deblocking = 1,
+		new = 1,
+		hot = 1,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 124,
+		id = 123,
+		icon = "czthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			324001,
+			324002,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117
+		}
+	},
 	all = {
 		1,
 		2,
@@ -4928,6 +4965,7 @@ pg.backyard_theme_template = {
 		119,
 		120,
 		121,
-		122
+		122,
+		123
 	}
 }

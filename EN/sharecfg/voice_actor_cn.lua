@@ -1771,5 +1771,17 @@ pg.voice_actor_CN = {
 	[459] = {
 		actor_name = "Kana Hanazawa",
 		code = 459
+	},
+	[460] = {
+		actor_name = "Yuuki Hirose ",
+		code = 460
+	},
+	[461] = {
+		actor_name = "Azusa Aoi",
+		code = 461
+	},
+	[462] = {
+		actor_name = "Rie Hikisaka",
+		code = 462
 	}
 }

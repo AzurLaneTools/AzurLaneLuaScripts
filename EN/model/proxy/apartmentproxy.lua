@@ -400,4 +400,20 @@ slot0.CheckDeviceRAMEnough = function()
 	return SystemInfo.systemMemorySize == 0 or getDorm3dGameset("drom3d_memory_limit")[1] < slot0
 end
 
+slot0.CheckAllRoomInviteAll = function(slot0)
+	for slot4, slot5 in ipairs(pg.dorm3d_rooms.all) do
+		if slot5 ~= 5 then
+			if not slot0.roomData[slot5] then
+				return false
+			end
+
+			if not slot0.roomData[slot5]:isPersonalRoom() and not slot0.roomData[slot5]:unlockAllInvite() then
+				return false
+			end
+		end
+	end
+
+	return true
+end
+
 return slot0

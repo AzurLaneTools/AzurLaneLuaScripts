@@ -1845,6 +1845,16 @@ pg.skill_data_display = setmetatable({
 		151293,
 		151302,
 		151312,
+		151321,
+		151341,
+		151342,
+		151343,
+		151344,
+		151345,
+		151351,
+		151352,
+		151361,
+		151362,
 		18010,
 		18040,
 		18041,
@@ -2505,6 +2515,8 @@ pg.skill_data_display = setmetatable({
 		30442,
 		30461,
 		30462,
+		30485,
+		30486,
 		39000,
 		39001,
 		39002,
@@ -10974,6 +10986,46 @@ pg.base.skill_data_display = {
 		id = 151312,
 		name = "By This Power, Shall Duty be Done"
 	},
+	[151321] = {
+		id = 151321,
+		name = "Threshold Computation"
+	},
+	[151341] = {
+		id = 151341,
+		name = "Bespoke Tactics!"
+	},
+	[151342] = {
+		id = 151342,
+		name = "Bespoke Tactics!"
+	},
+	[151343] = {
+		id = 151343,
+		name = "Bespoke Tactics!"
+	},
+	[151344] = {
+		id = 151344,
+		name = "Bespoke Tactics!"
+	},
+	[151345] = {
+		id = 151345,
+		name = "Bespoke Tactics!"
+	},
+	[151351] = {
+		id = 151351,
+		name = "Consultant's Gotta Strut!"
+	},
+	[151352] = {
+		id = 151352,
+		name = "Consultant's Gotta Strut!"
+	},
+	[151361] = {
+		id = 151361,
+		name = "Roter Teufel"
+	},
+	[151362] = {
+		id = 151362,
+		name = "Roter Teufel"
+	},
 	[18010] = {
 		id = 18010,
 		name = "MKV-Class AP Shells 194/160+"
@@ -13613,6 +13665,14 @@ pg.base.skill_data_display = {
 	[30462] = {
 		id = 30462,
 		name = "All Out Assault II"
+	},
+	[30485] = {
+		id = 30485,
+		name = "All Out Assault – U-552 I"
+	},
+	[30486] = {
+		id = 30486,
+		name = "All Out Assault – U-552 II"
 	},
 	[39000] = {
 		id = 39000,

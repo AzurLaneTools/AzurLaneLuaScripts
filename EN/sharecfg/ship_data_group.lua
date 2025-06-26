@@ -1256,6 +1256,9 @@ pg.ship_data_group = setmetatable({
 		[40111] = {
 			673
 		},
+		[40113] = {
+			696
+		},
 		[40116] = {
 			564
 		},
@@ -1400,6 +1403,9 @@ pg.ship_data_group = setmetatable({
 		[40406] = {
 			648
 		},
+		[40407] = {
+			694
+		},
 		[40501] = {
 			250
 		},
@@ -1477,6 +1483,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[40812] = {
 			528
+		},
+		[40814] = {
+			695
 		},
 		[50101] = {
 			253
@@ -2766,6 +2775,7 @@ pg.ship_data_group = setmetatable({
 			379,
 			672,
 			673,
+			696,
 			564,
 			346,
 			264,
@@ -2814,6 +2824,7 @@ pg.ship_data_group = setmetatable({
 			544,
 			566,
 			648,
+			694,
 			250,
 			251,
 			529,
@@ -2840,6 +2851,7 @@ pg.ship_data_group = setmetatable({
 			386,
 			344,
 			528,
+			695,
 			253,
 			254,
 			255,
@@ -3556,6 +3568,7 @@ pg.ship_data_group = setmetatable({
 		379,
 		672,
 		673,
+		696,
 		564,
 		346,
 		264,
@@ -3604,6 +3617,7 @@ pg.ship_data_group = setmetatable({
 		544,
 		566,
 		648,
+		694,
 		250,
 		251,
 		529,
@@ -3630,6 +3644,7 @@ pg.ship_data_group = setmetatable({
 		386,
 		344,
 		528,
+		695,
 		253,
 		254,
 		255,
@@ -22980,6 +22995,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[696] = {
+		nationality = 4,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40113,
+		index_id = 421,
+		code = 696,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"A",
+			"E",
+			"A",
+			"D",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Neon City Investigator",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[564] = {
 		nationality = 4,
 		type = 1,
@@ -24921,6 +24968,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[694] = {
+		nationality = 4,
+		type = 4,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40407,
+		index_id = 469,
+		code = 694,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"D",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Neon City Investigator",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[250] = {
 		nationality = 4,
 		type = 5,
@@ -26022,6 +26101,38 @@ pg.base.ship_data_group = {
 					{
 						warp = "supplies"
 					}
+				},
+				0
+			}
+		}
+	},
+	[695] = {
+		nationality = 4,
+		type = 8,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40814,
+		index_id = 497,
+		code = 695,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"Event: The Neon City Investigator",
+				{
+					""
 				},
 				0
 			}
