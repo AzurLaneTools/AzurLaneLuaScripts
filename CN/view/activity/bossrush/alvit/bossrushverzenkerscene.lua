@@ -236,8 +236,9 @@ slot0.UpdateView = function(slot0)
 		slot0:UpdateBattle()
 	else
 		slot0:UpdateStory()
-		slot0:UpdateStoryTask()
 	end
+
+	slot0:UpdateStoryTask()
 
 	slot2 = slot0:getBG()
 
@@ -245,6 +246,8 @@ slot0.UpdateView = function(slot0)
 		setActive(slot0, slot0.name == uv0 or slot0.name == "FX")
 	end)
 	slot0:PlayBGM()
+	setText(slot0.ptText, slot0.ptActivity.data1)
+	setActive(slot0.ptTip, Activity.IsActivityReady(slot0.ptActivity))
 
 	slot3 = slot0.contextData.displayMode
 
@@ -346,10 +349,6 @@ slot0.UpdateBattle = function(slot0)
 			uv3:emit(BossRushVerZenkerMediator.ON_FLEET_SELECT, uv1)
 		end, SFX_PANEL)
 	end
-
-	setText(slot0.ptText, slot0.ptActivity.data1)
-	setActive(slot0.ptTip, Activity.IsActivityReady(slot0.ptActivity))
-	setActive(slot0.switchToggle:Find("Story/new"), slot0.storyTask and slot0.storyTask:getTaskStatus() ~= 2)
 end
 
 slot0.UpdateStory = function(slot0)
@@ -460,6 +459,7 @@ slot0.UpdateStoryTask = function(slot0)
 		id = slot1
 	})
 
+	setActive(slot0.switchToggle:Find("Story/new"), slot0.storyTask and slot0.storyTask:getTaskStatus() ~= 2)
 	setActive(slot0.taskTip, Activity.IsActivityReady(getProxy(ActivityProxy):getActivityById(ActivityConst.ZENGKEHAIJUNSHANGJIANG_TASK_ACT_ID)))
 
 	slot4 = slot0.storyAward:Find("award_bg")

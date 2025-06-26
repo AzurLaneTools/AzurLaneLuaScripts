@@ -94,6 +94,7 @@ slot0.loadUI = function(slot0)
 	slot6 = slot0._tf:Find("share")
 
 	setText(slot6:Find("name/value"), slot1 and slot1.name or "")
+	setText(slot6:Find("server"), i18n("zengke_series_serverinfo"))
 	setText(slot6:Find("server/value"), slot3 and slot3.name or "")
 	setText(slot6:Find("lv/value"), slot1.level)
 end
