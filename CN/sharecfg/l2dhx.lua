@@ -24,5 +24,6 @@ pg.l2dhx = {
 	aijier_3 = {},
 	z23 = {},
 	ankeleiqi_2 = {},
-	sitelasibao_2 = {}
+	sitelasibao_2 = {},
+	wuqi_3 = {}
 }
