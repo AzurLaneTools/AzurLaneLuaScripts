@@ -611,120 +611,6 @@ pg.base.ship_skin_template_5 = {
 			1
 		}
 	},
-	[201354] = {
-		name = "檯球桌上的猫與“兔”",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "沒事的，雅努斯，小猫們很快就會離開的……欸？！ 指、指揮官已經來了嗎？ 對、對不起，雅努斯不是故意爬上檯球桌的……可是小猫……嗚嗚……",
-		group_index = 4,
-		purchase_offset = "",
-		painting = "yanusi_6",
-		ship_group = 20135,
-		bg_sp = "1102",
-		shop_type_id = 16,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "608",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 201354,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "yanusi_6",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 71084,
-		voice_actor = 345,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.948,
-					1.048,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.762,
-					2.179,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.09,
-							2.31,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
 	[201358] = {
 		name = "曙色誓言",
 		shop_offset = "",
@@ -14804,6 +14690,160 @@ pg.base.ship_skin_template_5 = {
 							0
 						}
 					}
+				}
+			}
+		}
+	},
+	[202361] = {
+		name = "更衣室裡的捕獵者",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "哎呀……這麼快就被發現了嗎？本來想在換好泳裝後給你個驚喜的……不過既然被發現了，要不要一起去游泳呢？放心，我可是很溫柔的「游泳教練」哦♪",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "telinida_2",
+		ship_group = 20236,
+		bg_sp = "",
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 202361,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "telinida_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 71138,
+		voice_actor = 454,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.25,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.26,
+					1.013,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.857,
+					2.225,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.795,
+							2.466,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			-34.58,
+			8.6,
+			0,
+			0.453
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					391,
+					-836,
+					2.2,
+					-200,
+					0,
+					2
+				},
+				{
+					-468,
+					434,
+					1.7,
+					77,
+					-186,
+					2
+				},
+				{
+					-43,
+					-434,
+					2.2,
+					-123,
+					196,
+					2.5
 				}
 			}
 		}

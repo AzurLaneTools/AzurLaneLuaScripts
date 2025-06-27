@@ -20660,14 +20660,14 @@ _G.pg.base.gametip.meta_help = {
 		{
 			info = [[
 ·META研究室是進行META角色獲取、養成的專用系統
-·META角色擁有<color=#92fc63>「能量啟動」</color>、<color=#92fc63>「戰術研習」</color>、<co lor=#92fc63>「艦裝強化」</color>、<color=#92fc63>「資訊同步」</color>4個系統模組
+·META角色擁有<color=#92fc63>「能量啟動」</color>、<color=#92fc63>「戰術研習」</color>、<color=#92fc63>「艦裝強化」</color>、<color=#92fc63>「資訊同步」</color>4個系統模組
 ·重複取得的META角色將會自動轉換為1個對應的角色結晶，可用於在<color=#92fc63>「能量啟動」</color>中使用。
 ]]
 		},
 		{
 			info = [[
 1.<color=#92fc63>資訊同步</color>
-·<color=#92fc63>2025.6.5-2025.8.21</colo r>期間限時開放「長門·META」的「資訊同步」，透過「信標長門·META」戰鬥取得其同步值，達到一定同步值可以獲得<color=#92fc63>「長門·META」角色</color>
+·<color=#92fc63>2025.6.5-2025.8.21</color>期間限時開放「長門·META」的「資訊同步」，透過「信標長門·META」戰鬥取得其同步值，達到一定同步值可以獲得<color=#92fc63>「長門·META」角色</color>
 ·獲得META角色後可以透過角色的<color=#92fc63>「資訊同步」</color>模組在<color=#92fc63>上述時間</color>內繼續取得包含養成材料在內的豐厚獎勵
 ·注意：<color=#ff5c5c>「長門·META」的「資訊同步」將在時間結束後暫時關閉，已累積的同步值也會消失。</color>
 

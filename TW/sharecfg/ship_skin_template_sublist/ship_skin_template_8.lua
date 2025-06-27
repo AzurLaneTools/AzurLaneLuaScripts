@@ -1,127 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_8 = {
-	[301261] = {
-		name = "女僕練習生",
-		shop_offset = "",
-		change_skin = "",
-		illustrator2 = -1,
-		desc = "一介女僕{namecode:32}，此刻起，將生涯奉獻給姐姐和指揮官大人——呀啊，裙、裙子被吹起來了！",
-		group_index = 1,
-		purchase_offset = "",
-		painting = "Ximu_2",
-		ship_group = 30126,
-		bg_sp = "",
-		shop_type_id = 17,
-		l2d_ignore_drag = 0,
-		hand_id = 14,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "104",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		skin_type = 0,
-		ship_l2d_id = "",
-		id = 301261,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "Ximu_2",
-		l2d_se = "",
-		no_showing = "0",
-		main_UI_FX = "",
-		shop_id = 70063,
-		voice_actor = 51,
-		spine_offset = "",
-		illustrator = 27,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.599,
-					1.178,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.561,
-					1.13,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.753,
-					0.08,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.571,
-					1.13,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				40,
-				{
-					{
-						"smoke",
-						{
-							-0.47,
-							2.29,
-							-0.99
-						}
-					}
-				}
-			}
-		}
-	},
 	[301262] = {
 		name = "夕暮春華",
 		shop_offset = "",
@@ -14474,6 +14353,125 @@ pg.base.ship_skin_template_8 = {
 							0.56,
 							2.57,
 							-0.58
+						}
+					}
+				}
+			}
+		}
+	},
+	[302051] = {
+		name = "童話之夜",
+		shop_offset = "",
+		change_skin = "",
+		illustrator2 = -1,
+		desc = "萬聖夜會有很多的幽靈鬼怪……我，我才不害怕啦！……那個，能，能牽著我的手嗎？",
+		group_index = 1,
+		purchase_offset = "",
+		painting = "wushiling_2",
+		ship_group = 30205,
+		bg_sp = "",
+		shop_type_id = 8,
+		l2d_ignore_drag = 0,
+		hand_id = 6,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		skin_type = 0,
+		ship_l2d_id = "",
+		id = 302051,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "wushiling_2",
+		l2d_se = "",
+		no_showing = "0",
+		main_UI_FX = "",
+		shop_id = 70114,
+		voice_actor = 82,
+		spine_offset = "",
+		illustrator = 2,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.85,
+					1.23,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.72,
+					1.14,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.21,
+					0.08,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.77,
+					1.22,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.51,
+							2.32,
+							-0.16
 						}
 					}
 				}
