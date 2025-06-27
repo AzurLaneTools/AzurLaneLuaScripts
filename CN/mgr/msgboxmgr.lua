@@ -295,21 +295,24 @@ slot8 = function(slot0, slot1)
 	SetActive(slot0._sigleItemPanel:Find("ship_group"), false)
 	SetActive(slot0._singleItemshipTypeTF, false)
 	SetActive(slot0._sigleItemPanel:Find("left/detail"), false)
+	setActive(slot0._sigleItemPanel:Find("combat_skin"), false)
 
-	slot2 = slot0.singleItemIntro
+	slot2 = slot0._sigleItemPanel:Find("display_panel"):GetComponent(typeof(RectTransform))
+	slot2.sizeDelta = Vector2(slot2.sizeDelta.x, -114.5)
+	slot3 = slot0.singleItemIntro
 
-	SetActive(slot2, true)
-	setText(slot2, slot1.content or "")
+	SetActive(slot3, true)
+	setText(slot3, slot1.content or "")
 
-	slot3 = slot0._sigleItemPanel:Find("left/IconTpl")
+	slot4 = slot0._sigleItemPanel:Find("left/IconTpl")
 
-	setText(slot3:Find("icon_bg/count"), "")
-	SetActive(slot3:Find("icon_bg/startpl"), false)
-	SetCompomentEnabled(slot3:Find("icon_bg"), typeof(Image), not slot1.hideIconBG)
-	SetCompomentEnabled(slot3:Find("icon_bg/frame"), typeof(Image), not slot1.hideIconBG)
-	setFrame(slot3:Find("icon_bg/frame"), slot1.frame or 1)
-	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (slot1.frame or 1), slot3:Find("icon_bg"))
-	GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot3:Find("icon_bg/icon"))
+	setText(slot4:Find("icon_bg/count"), "")
+	SetActive(slot4:Find("icon_bg/startpl"), false)
+	SetCompomentEnabled(slot4:Find("icon_bg"), typeof(Image), not slot1.hideIconBG)
+	SetCompomentEnabled(slot4:Find("icon_bg/frame"), typeof(Image), not slot1.hideIconBG)
+	setFrame(slot4:Find("icon_bg/frame"), slot1.frame or 1)
+	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (slot1.frame or 1), slot4:Find("icon_bg"))
+	GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot4:Find("icon_bg/icon"))
 	setText(slot0._sigleItemPanel:Find("display_panel/name_container/name/Text"), slot1.name or "")
 	slot0:Loaded(slot1)
 end
