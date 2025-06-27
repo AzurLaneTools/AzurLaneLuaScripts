@@ -19594,7 +19594,7 @@ _G.pg.base.gametip.guild_event_info_desc2 = {
 
 
 _G.pg.base.gametip.guild_join_member_cnt = {
-	tip = "Participants:"
+	tip = "participate:"
 }
 
 
@@ -37594,7 +37594,7 @@ _G.pg.base.gametip.word_got_pt = {
 
 
 _G.pg.base.gametip.word_activity_not_open = {
-	tip = "Event has not started yet"
+	tip = "Event unavailable"
 }
 
 
