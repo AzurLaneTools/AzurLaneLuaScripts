@@ -1626,11 +1626,11 @@ pg.base.ship_skin_template_11 = {
 		},
 		l2d_para_range = {
 			ParamAngleX = {
-				-5,
+				-15,
 				15
 			},
 			ParamAngleY = {
-				-5,
+				-15,
 				15
 			}
 		},
@@ -1653,7 +1653,9 @@ pg.base.ship_skin_template_11 = {
 			40113116,
 			40113117,
 			40113118,
-			40113119
+			40113119,
+			40113120,
+			40113121
 		},
 		get_showing = {
 			show = 1,
