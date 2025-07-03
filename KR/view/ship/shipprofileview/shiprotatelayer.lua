@@ -45,6 +45,13 @@ slot0.SetPainting = function(slot0, slot1, slot2)
 	setPaintingPrefabAsync(slot0.painting, slot3, "chuanwu")
 
 	slot0.paintingName = slot3
+	slot4 = slot0.painting.localEulerAngles
+
+	setLocalEulerAngles(slot0.painting, {
+		z = 90,
+		x = slot4.x,
+		y = slot4.y
+	})
 end
 
 slot0.RecyclePainting = function(slot0)

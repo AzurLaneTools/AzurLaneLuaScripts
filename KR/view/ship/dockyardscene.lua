@@ -260,6 +260,7 @@ slot0.SwitchContainerDisplay = function(slot0)
 	setActive(slot0.sortBtn, not slot0.isRemouldOrUpgradeMode and not slot0.isPhantomMode)
 	setActive(slot0._tf:Find("main/ship_container"), not slot0.isPhantomMode)
 	setActive(slot0._tf:Find("main/phantom_container"), slot0.isPhantomMode)
+	setActive(slot0.preferenceBtn, not slot0.isPhantomMode)
 	slot0:updateBarInfo()
 	setActive(slot0.helpPhantom, slot0.contextData.mode == uv0.MODE_SHIP_PHANTOM)
 
@@ -331,9 +332,6 @@ slot0.SwitchContainerDisplay = function(slot0)
 
 			uv0.scrollPhantoms = {}
 			uv0.phantomGroupDic = {}
-
-			setActive(uv0.preferenceBtn, false)
-
 			slot3 = 0
 
 			if uv0.contextData.techVersion and #underscore.filter(uv0.shipBluePrints, function (slot0)
@@ -405,7 +403,6 @@ slot0.SwitchContainerDisplay = function(slot0)
 			end
 
 			uv0:updateIndexDatas()
-			setActive(uv0.preferenceBtn, true)
 			triggerToggle(uv0.preferenceBtn, uv0.commonTag == Ship.PREFERENCE_TAG_COMMON)
 			uv0:initIndexPanel()
 

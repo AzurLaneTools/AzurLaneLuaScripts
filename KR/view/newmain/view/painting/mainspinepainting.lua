@@ -32,7 +32,7 @@ slot0.OnLoad = function(slot0, slot1)
 			uv0._initTriggerEvent = nil
 		elseif getProxy(PlayerProxy):getFlag("login") then
 			getProxy(PlayerProxy):setFlag("login", nil)
-			uv0:PrepareTriggerAction("event_login")
+			uv0:TriggerEvent("event_login")
 		end
 
 		uv0:InitScalePart()

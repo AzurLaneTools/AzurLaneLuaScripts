@@ -406,7 +406,12 @@ slot0.createLive2D = function(slot0)
 		ship = Ship.New({
 			configId = 312011
 		}),
-		scale = Vector3(75, 75, 75),
+		offset = {
+			0,
+			0,
+			0,
+			75
+		},
 		position = Vector3(0, 0, 0),
 		parent = slot0:findTF("frame/painting/live2d")
 	}), function (slot0)

@@ -325,8 +325,12 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 				type = EquipmentInfoMediator.TYPE_SHIP,
 				shipId = uv1.id,
 				pos = uv2,
-				LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER
+				LayerWeightMgr_weight = LayerWeightConst.SECOND_LAYER,
+				onRemoved = function ()
+					uv0:setEquipDescVisible(true)
+				end
 			})
+			uv0:setEquipDescVisible(false)
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 	else
 		onButton(slot0, slot4, function ()
@@ -342,6 +346,18 @@ slot0.UpdateEquipmentPanel = function(slot0, slot1, slot2, slot3)
 				uv1:emit(ShipMainMediator.ON_SELECT_EQUIPMENT, uv2)
 			end
 		end, SFX_UI_DOCKYARD_EQUIPADD)
+	end
+end
+
+slot0.setEquipDescVisible = function(slot0, slot1)
+	if not slot0.equipmentPanels then
+		return
+	end
+
+	for slot5 = 1, #slot0.equipmentPanels do
+		if slot0.equipmentPanels[slot5] and GetComponent(slot6:Find("info/cont/name_mask/name"), typeof(ScrollText)) then
+			slot8:SetVisible(slot1)
+		end
 	end
 end
 
@@ -504,8 +520,12 @@ slot0.UpdateSpWeaponPanel = function(slot0, slot1)
 		onButton(slot0, slot2, function ()
 			uv0:emit(BaseUI.ON_SPWEAPON, {
 				type = SpWeaponInfoLayer.TYPE_SHIP,
-				shipId = uv1.id
+				shipId = uv1.id,
+				onRemoved = function ()
+					uv0:setEquipDescVisible(true)
+				end
 			})
+			uv0:setEquipDescVisible(false)
 		end, SFX_UI_DOCKYARD_EQUIPADD)
 
 		return

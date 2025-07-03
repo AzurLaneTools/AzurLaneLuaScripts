@@ -52,7 +52,6 @@ slot0.LoadL2dPainting = function(slot0, slot1)
 			configId = ShipGroup.getDefaultShipConfig(pg.ship_skin_template[slot1].ship_group).id,
 			skin_id = slot1
 		}),
-		scale = Vector3(52, 52, 52),
 		position = Vector3(0, 0, -1),
 		parent = slot0.live2dContainer
 	})

@@ -166,6 +166,7 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
+			306,
 			307,
 			100002,
 			100003,
@@ -5682,6 +5683,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			306,
 			100002,
 			100003,
 			100004,
@@ -6869,6 +6871,7 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
+			306,
 			307,
 			100002,
 			100004,
@@ -10002,6 +10005,7 @@ pg.furniture_data_template = setmetatable({
 		302,
 		303,
 		304,
+		306,
 		307,
 		100002,
 		100003,
@@ -21190,6 +21194,98 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			1
+		},
+		interAction_group = {}
+	},
+	[306] = {
+		can_rotate = 1,
+		describe = "다 먹고 손가락까지 쪽쪽 빨아먹어야 제맛!",
+		gain_by = "",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "ahuatianyugangicon",
+		count = 1,
+		name = "오발틴 딥소스 비스킷",
+		advice = 0,
+		id = 306,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"ahuatianyugangB",
+				"normal"
+			},
+			{
+				"ahuatianyugangT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"wash2",
+						nil,
+						"wash"
+					}
+				},
+				{
+					[3] = {
+						"wash1",
+						"wash"
+					},
+					[4] = wash
+				},
+				{
+					1
+				}
+			},
+			{
+				{
+					3,
+					169.6
+				},
+				{
+					257.3,
+					362.7
+				},
+				"chuanmo/ahuatianyugang_mask"
+			},
+			{
+				3.71,
+				-162.9
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
 		},
 		interAction_group = {}
 	},

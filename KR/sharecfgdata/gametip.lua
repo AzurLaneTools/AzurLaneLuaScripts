@@ -12458,22 +12458,22 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「라이온」 100% 획득 가능! (최대 4척까지)"
+	tip = "기간 한정 건조를 총 200회 실시하면, 「비스마르크 Zwei」 100% 획득 가능! (최대 4척까지)"
 }
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「뱅가드」, 「리벤지」 상시 건조 추가!"
+	tip = "「로마」, 「볼차노」 상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「저비스」 상시 건조 추가!"
+	tip = "「주세페 가리발디」, 「알프레도 오리아니」  상시 건조 추가!"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "「뱅가드」, 「인도미터블」 상시 건조 추가!"
+	tip = "「레오나르도 다 빈치」 상시 건조 추가!"
 }
 
 

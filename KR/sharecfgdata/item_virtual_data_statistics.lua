@@ -172676,6 +172676,106 @@ _G.pg.base.item_virtual_data_statistics[65621] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65623] = {
+	drop_gold_max = 0,
+	name = "훈련 PT",
+	display = "「작전 준비·메탈 블러드」 보상 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/xunliandianshu_d",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65623,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65624] = {
+	drop_gold_max = 0,
+	name = "교차하는 파편",
+	display = "「오엽각 교차점」 이벤트 복각 교환용 아이템. 이벤트 종료 후에 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/bisimaiz_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65624,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65625] = {
+	drop_gold_max = 0,
+	name = "1회 건조권",
+	display = "「오엽각 교차점」 이벤트 한정 복각 중 획득 가능. 기간 한정 건조를 1회 무료로 진행 가능합니다. (이벤트 종료 후 사라짐)",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50001,
+	icon = "Props/buildTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 22,
+	id = 65625,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65626] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권 ",
+	display = "「한정 스킨 상점」에서 한정 스킨으로 교환가능합니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65626,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[66001] = {
 	drop_gold_max = 0,
 	name = "목재",

@@ -136,7 +136,7 @@ end
 slot0.GetNextPushTime = function(slot0)
 	for slot5, slot6 in ipairs(pg.activity_ins_template.all) do
 		if pg.activity_ins_template[slot6].is_active == 1 and slot0:GetMessageById(slot6) == nil then
-			return dueTime, slot6
+			return pg.TimeMgr.GetInstance():parseTimeFromConfig(slot7.time), slot6
 		end
 	end
 end

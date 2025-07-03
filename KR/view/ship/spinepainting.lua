@@ -8,15 +8,28 @@ slot0.GenerateData = function(slot0)
 			slot0.parent = slot1.parent
 			slot0.effectParent = slot1.effectParent
 			slot2 = slot0:GetShipSkinConfig()
-			slot0.pos = slot1.position + BuildVector3(slot2.spine_offset[1])
-			slot3 = slot2.spine_offset[2][1]
-			slot0.scale = Vector3(slot3, slot3, slot3)
+			slot3, slot4 = nil
+			slot4 = (not slot1.offset or #slot1.offset < 4 or slot1.offset[4]) and (not slot2.spine_offset or #slot2.spine_offset < 4 or slot2.spine_offset[4]) and 1
+			slot0.pos = slot1.position + ((not slot1.offset or #slot1.offset < 3 or BuildVector3({
+				slot1.offset[1],
+				slot1.offset[2],
+				slot1.offset[3]
+			})) and (not slot2.spine_offset or #slot2.spine_offset < 3 or BuildVector3({
+				slot2.spine_offset[1],
+				slot2.spine_offset[2],
+				slot2.spine_offset[3]
+			})) and BuildVector3({
+				0,
+				0,
+				0
+			}))
+			slot0.scale = Vector3(slot4, slot4, slot4)
 
 			if #slot2.special_effects > 0 then
 				slot0.bgEffectName = slot2.special_effects[1]
 				slot0.bgEffectPos = slot1.position + BuildVector3(slot2.special_effects[2])
-				slot4 = slot2.special_effects[3][1]
-				slot0.bgEffectScale = Vector3(slot4, slot4, slot4)
+				slot5 = slot2.special_effects[3][1]
+				slot0.bgEffectScale = Vector3(slot5, slot5, slot5)
 			end
 		end,
 		GetShipName = function (slot0)
