@@ -162,6 +162,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			302,
 			303,
 			304,
 			307,
@@ -3132,6 +3133,28 @@ pg.furniture_data_template = setmetatable({
 			320305,
 			320306
 		},
+		[121] = {
+			321001,
+			321002,
+			321101,
+			321102,
+			321103,
+			321104,
+			321105,
+			321106,
+			321107,
+			321108,
+			321109,
+			321110,
+			321111,
+			321112,
+			321113,
+			321114,
+			321115,
+			321116,
+			321117,
+			321118
+		},
 		[122] = {
 			322001,
 			322002,
@@ -5030,6 +5053,23 @@ pg.furniture_data_template = setmetatable({
 			320112,
 			320113,
 			320114,
+			321101,
+			321102,
+			321103,
+			321104,
+			321105,
+			321106,
+			321107,
+			321108,
+			321109,
+			321110,
+			321111,
+			321112,
+			321113,
+			321115,
+			321116,
+			321117,
+			321118,
 			322101,
 			322102,
 			322103,
@@ -5386,6 +5426,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			292,
 			296,
+			302,
 			303,
 			304,
 			307
@@ -5571,6 +5612,7 @@ pg.furniture_data_template = setmetatable({
 			316123,
 			318305,
 			320115,
+			321114,
 			322116,
 			323101,
 			323102
@@ -5675,6 +5717,7 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			318001,
 			320001,
+			321001,
 			322001,
 			323001
 		},
@@ -5779,6 +5822,7 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			318002,
 			320002,
+			321002,
 			322002,
 			323002
 		},
@@ -6221,6 +6265,7 @@ pg.furniture_data_template = setmetatable({
 			316002,
 			318002,
 			320002,
+			321002,
 			322002,
 			323002
 		},
@@ -6362,6 +6407,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
+			302,
 			303,
 			304,
 			307,
@@ -8273,6 +8319,22 @@ pg.furniture_data_template = setmetatable({
 			320113,
 			320114,
 			320115,
+			321101,
+			321102,
+			321103,
+			321104,
+			321105,
+			321106,
+			321107,
+			321108,
+			321109,
+			321110,
+			321111,
+			321112,
+			321113,
+			321114,
+			321117,
+			321118,
 			322101,
 			322102,
 			322103,
@@ -8343,7 +8405,8 @@ pg.furniture_data_template = setmetatable({
 			100019,
 			100037,
 			303103,
-			303113
+			303113,
+			321116
 		},
 		[15] = {
 			251
@@ -8460,6 +8523,7 @@ pg.furniture_data_template = setmetatable({
 			316001,
 			318001,
 			320001,
+			321001,
 			322001,
 			323001
 		},
@@ -8600,7 +8664,8 @@ pg.furniture_data_template = setmetatable({
 			308104,
 			309105,
 			310101,
-			316107
+			316107,
+			321115
 		},
 		[3] = {
 			1108,
@@ -9261,6 +9326,7 @@ pg.furniture_data_template = setmetatable({
 		299,
 		300,
 		301,
+		302,
 		303,
 		304,
 		307,
@@ -12026,6 +12092,26 @@ pg.furniture_data_template = setmetatable({
 		320304,
 		320305,
 		320306,
+		321001,
+		321002,
+		321101,
+		321102,
+		321103,
+		321104,
+		321105,
+		321106,
+		321107,
+		321108,
+		321109,
+		321110,
+		321111,
+		321112,
+		321113,
+		321114,
+		321115,
+		321116,
+		321117,
+		321118,
 		322001,
 		322002,
 		322101,
@@ -19988,6 +20074,43 @@ pg.base.furniture_data_template = {
 		canputonGrid = {},
 		can_trigger = {
 			0
+		},
+		interAction_group = {}
+	},
+	[302] = {
+		can_rotate = 0,
+		describe = "鬱金王國王室頒發的勳章，紀念這次成功的啟航之旅。",
+		gain_by = "揚起鬱金之旗",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/helanxunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鬱金王室勳章",
+		advice = 0,
+		icon = "helanxunzhangicon",
+		id = 302,
+		comfortable = 0,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -142809,6 +142932,920 @@ pg.base.furniture_data_template = {
 				"chuang5yi2",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[321001] = {
+		can_rotate = 0,
+		describe = "柔風與花香，這就是美妙的田園生活啊~",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/dibanxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "鬱金田園地板",
+		advice = 0,
+		icon = "dibanxc2icon",
+		id = 321001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321002] = {
+		can_rotate = 0,
+		describe = "柔風與花香，這就是美妙的田園生活啊~",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "鬱金田園壁紙",
+		advice = 0,
+		id = 321002,
+		icon = "qiangbixc2icon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbixc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321101] = {
+		can_rotate = 0,
+		describe = "樹蔭下是乘涼的好去處~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/shuxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "田園綠樹",
+		advice = 0,
+		icon = "shuxc2icon",
+		id = 321101,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321102] = {
+		can_rotate = 0,
+		describe = "隨風轉動的風車，真是休閒自在的生活~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "田園風車",
+		advice = 0,
+		id = 321102,
+		icon = "fengchexc2icon",
+		comfortable = 4,
+		size = {
+			5,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fengchexc2",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321103] = {
+		can_rotate = 0,
+		describe = "田園間的蔬果，既新鮮又美味！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "田園蔬果堆",
+		advice = 0,
+		id = 321103,
+		icon = "xiangziduixc2icon",
+		comfortable = 2,
+		size = {
+			2,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiangziduixc2",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321104] = {
+		can_rotate = 0,
+		describe = "隨風搖曳的鬱金香花叢，散發著淡淡的清香。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "鬱金香花叢1",
+		advice = 0,
+		id = 321104,
+		icon = "yujinxiang1xc2icon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujinxiang1xc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321105] = {
+		can_rotate = 0,
+		describe = "隨風搖曳的鬱金香花叢，散發著淡淡的清香。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "鬱金香花叢2",
+		advice = 0,
+		id = 321105,
+		icon = "yujinxiang2xc2icon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujinxiang2xc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321106] = {
+		can_rotate = 0,
+		describe = "隨風搖曳的鬱金香花叢，散發著淡淡的清香。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "鬱金香花叢3",
+		advice = 0,
+		id = 321106,
+		icon = "yujinxiang3xc2icon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yujinxiang3xc2",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[321107] = {
+		can_rotate = 0,
+		describe = "田園派畫師，別有風情啾~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "田園繪畫啾",
+		advice = 0,
+		id = 321107,
+		icon = "huahuajiuxc2icon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"huahuajiuxc2",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321108] = {
+		can_rotate = 0,
+		describe = "田園編織藤桌，很適合放甜點下午茶~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/zhuozixc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "田園藤桌",
+		advice = 0,
+		icon = "zhuozixc2icon",
+		id = 321108,
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321109] = {
+		can_rotate = 0,
+		describe = "田園編織藤椅，搭配柔軟靠墊，坐著很安心！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/yizi1xc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "田園藤椅1",
+		advice = 0,
+		id = 321109,
+		icon = "yizi1xc2icon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					23.2,
+					18.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321110] = {
+		can_rotate = 0,
+		describe = "田園編織藤椅，搭配柔軟靠墊，坐著很安心！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/yizi2xc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "田園藤椅2",
+		advice = 0,
+		icon = "yizi2xc2icon",
+		id = 321110,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321111] = {
+		can_rotate = 0,
+		describe = "鬱金鄉村小屋，煙囪冒出裊裊炊煙，那就是生活的氣息啊~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 1,
+		name = "鬱金民居",
+		advice = 0,
+		id = 321111,
+		icon = "xiaowuxc2icon",
+		comfortable = 4,
+		size = {
+			6,
+			9
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaowuxc2",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[321112] = {
+		can_rotate = 0,
+		describe = "日常搬運的好幫手，能裝很多花！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 121,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "tuichexc2icon",
+		count = 1,
+		name = "田園推車",
+		advice = 0,
+		id = 321112,
+		tag = 1,
+		comfortable = 2,
+		size = {
+			3,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"tuichexc2",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[321113] = {
+		can_rotate = 0,
+		describe = "田園灌木叢，粗放帶著一抹精緻。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/guanmuxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "田園灌木叢",
+		advice = 0,
+		icon = "guanmuxc2icon",
+		id = 321113,
+		comfortable = 1,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321114] = {
+		can_rotate = 0,
+		describe = "鬱金特色花船，行駛中花瓣會紛紛揚揚地灑落，真是浪漫~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 121,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "chuanxc2icon",
+		count = 1,
+		name = "鬱金花船",
+		advice = 0,
+		id = 321114,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			24,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"chuanxc2B",
+				"normal"
+			},
+			{
+				"chuanxc2T"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep2",
+						nil,
+						"sleep"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"sleep1",
+						"sleep",
+						false,
+						true
+					}
+				},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			},
+			{
+				1,
+				1
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[321115] = {
+		can_rotate = 0,
+		describe = "柔軟的花瓣地毯，觸感像雲朵一般，光腳踩上去也很舒服~",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/ditanxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "花瓣地毯",
+		advice = 0,
+		icon = "ditanxc2icon",
+		id = 321115,
+		comfortable = 3,
+		size = {
+			8,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321116] = {
+		can_rotate = 0,
+		describe = "嘎嘎嘎~嘎嘎嘎~",
+		gain_by = "",
+		type = 14,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 121,
+		count = 2,
+		name = "小小鴨",
+		advice = 0,
+		id = 321116,
+		icon = "xiaoyaxc2icon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xiaoyaxc2",
+				"normal"
+			},
+			[3] = {
+				{
+					-161,
+					9
+				},
+				"walk"
+			}
+		},
+		interAction_group = {}
+	},
+	[321117] = {
+		can_rotate = 0,
+		describe = "花架上擺滿了各種花盆，五彩斑斕的鬱金香很漂亮。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/huajiaxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "鬱金花架",
+		advice = 0,
+		icon = "huajiaxc2icon",
+		id = 321117,
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[321118] = {
+		can_rotate = 0,
+		describe = "上面的花飾才是點睛之筆！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "xc2/langanxc2",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 121,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 3,
+		name = "鬱金圍欄",
+		advice = 0,
+		icon = "langanxc2icon",
+		id = 321118,
+		comfortable = 1,
+		size = {
+			5,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
 		},
 		interAction_group = {}
 	},

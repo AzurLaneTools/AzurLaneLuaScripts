@@ -28,9 +28,11 @@ end
 
 slot0.GetList = function(slot0)
 	assert(slot0.list, "why ???")
-	table.sort(slot0.list, function (slot0, slot1)
-		return slot1.state < slot0.state
-	end)
+	table.sort(slot0.list, CompareFuncs({
+		function (slot0)
+			return -slot0:GetState()
+		end
+	}))
 
 	return slot0.list, 4
 end
@@ -90,7 +92,7 @@ slot0.UpdateListItem = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.UpdateEventInfo = function(slot0, slot1, slot2)
-	if (slot2 and slot2.state or EventInfo.StateNone) == EventInfo.StateNone then
+	if (slot2 and slot2:GetState() or EventInfo.StateNone) == EventInfo.StateNone then
 		setText(slot1:Find("unlock/name_bg/Text"), i18n("commission_idle"))
 		onButton(slot0, slot1:Find("unlock/leisure/go_btn"), function ()
 			uv0:OnSkip()
@@ -146,7 +148,7 @@ slot0.RemoveTimer = function(slot0, slot1)
 end
 
 slot0.UpdateStyle = function(slot0, slot1, slot2, slot3)
-	slot4 = slot3 and slot3.state or EventInfo.StateNone
+	slot4 = slot3 and slot3:GetState() or EventInfo.StateNone
 	slot5 = "icon_1"
 	slot6 = "icon_4"
 	slot7 = "icon_3"
@@ -200,7 +202,7 @@ slot0.OnFinishAll = function(slot0)
 	slot2 = 0
 
 	_.each(slot0.list, function (slot0)
-		if slot0.state == EventInfo.StateFinish then
+		if slot0:GetState() == EventInfo.StateFinish then
 			table.insert(uv0, function (slot0)
 				uv0:emit(CommissionInfoMediator.FINISH_EVENT, uv1, uv2, slot0)
 			end)
@@ -208,7 +210,7 @@ slot0.OnFinishAll = function(slot0)
 	end)
 
 	if getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_COLLECTION_EVENT) and not slot3:isEnd() then
-		if getProxy(EventProxy):GetEventByActivityId(slot3.id) and slot4.state == EventInfo.StateFinish then
+		if getProxy(EventProxy):GetEventByActivityId(slot3.id) and slot4:GetState() == EventInfo.StateFinish then
 			table.insert(slot1, function (slot0)
 				uv0:emit(CommissionInfoMediator.FINISH_EVENT, uv1, uv2, slot0)
 			end)

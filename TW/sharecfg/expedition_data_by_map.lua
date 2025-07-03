@@ -350,6 +350,9 @@ pg.expedition_data_by_map = setmetatable({
 		1870002,
 		1870003,
 		1870004,
+		1910001,
+		1910002,
+		1910003,
 		1920001,
 		1920002,
 		1920011,
@@ -443,6 +446,7 @@ pg.expedition_data_by_map = setmetatable({
 		2200080,
 		2200090,
 		2200100,
+		2200110,
 		5100000,
 		5100001,
 		5100010,
@@ -19449,6 +19453,231 @@ pg.base.expedition_data_by_map = {
 			106
 		}
 	},
+	[1910001] = {
+		map = 1910001,
+		name = "揚起鬱金之旗|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tulipa",
+		type = 4,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1910002",
+		default_background = "star_level_bg_545",
+		on_activity = 5901,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1910002",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 1910001,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1910023,
+					"map_1910001",
+					"effect_1910001"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				1910001,
+				1910021
+			},
+			{
+				1910002,
+				1910022
+			},
+			{
+				1910003,
+				1910023
+			}
+		},
+		story_id = {
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
+		}
+	},
+	[1910002] = {
+		map = 1910002,
+		name = "揚起鬱金之旗|| ||CHAPTER EX||E.X.",
+		bgm = "theme-tulipa",
+		type = 5,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1910002",
+		default_background = "star_level_bg_545",
+		on_activity = 5901,
+		map_name = "levelscene_mapselect_normal",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1910002",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 1910002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		ani_controller = {
+			{
+				2,
+				{
+					1910023,
+					"map_1910001",
+					"effect_1910001"
+				}
+			}
+		},
+		chapterGroups = {
+			{
+				1910001,
+				1910021
+			},
+			{
+				1910002,
+				1910022
+			},
+			{
+				1910003,
+				1910023
+			}
+		},
+		story_id = {
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
+		}
+	},
+	[1910003] = {
+		map = 1910003,
+		name = "揚起鬱金之旗·SP|| ||CHAPTER EX||E.X.",
+		bgm = "battle-tulipa",
+		type = 8,
+		anchor = "",
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1910003",
+		ani_controller = "",
+		default_background = "star_level_bg_545",
+		on_activity = 5901,
+		map_name = "levelscene_mapselect_sp",
+		cloud_suffix = "",
+		story_inactive_color = "162443",
+		ui_type = 10,
+		bg = "Map_1910003",
+		destory_icon_suffix = "blue",
+		default_bgm = "story-ironblood-light",
+		uifx = "",
+		bind_map = 1910002,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		chapterGroups = {
+			{
+				1910041
+			}
+		},
+		story_id = {
+			181,
+			182,
+			183,
+			184,
+			185,
+			186,
+			187,
+			188
+		}
+	},
 	[1920001] = {
 		map = 1920001,
 		name = "高塔上的薔薇·上篇|| ||CHAPTER EX||EX",
@@ -24248,6 +24477,56 @@ pg.base.expedition_data_by_map = {
 		story_inactive_color = "",
 		ui_type = 1,
 		bg = "Map_1330001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 0,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		}
+	},
+	[2200110] = {
+		map = 2200110,
+		name = "劃破海空之翼|| ||CHAPTER SP||S.P.",
+		bgm = "level",
+		type = 3,
+		anchor = "",
+		title = "SP",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "",
+		animtor = 0,
+		guide_id = "",
+		ani_name = "",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1360001",
 		story_id = "",
 		chapterGroups = "",
 		destory_icon_suffix = "blue",

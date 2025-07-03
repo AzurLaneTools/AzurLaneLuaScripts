@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "當TB開始調配資源準備進行算力壓制時，密集的敵人像察覺到了什麼，向著眾人瘋狂進攻而來。",

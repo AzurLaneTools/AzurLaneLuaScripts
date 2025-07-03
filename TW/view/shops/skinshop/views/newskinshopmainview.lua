@@ -73,6 +73,7 @@ slot0.Ctor = function(slot0, slot1, slot2, slot3)
 	slot0.dynamicResUnDownaload = slot0._tf:Find("overlay/right/toggles/l2d_res_state/undownload")
 	slot0.paintingTF = slot0._tf:Find("painting/paint")
 	slot0.defaultPaintingPosition = slot0.paintingTF.anchoredPosition
+	slot0.defaultPaintingScale = slot0.paintingTF.localScale
 	slot0.live2dContainer = slot0._tf:Find("painting/paint/live2d")
 	slot0.spTF = slot0._tf:Find("painting/paint/spinePainting")
 	slot0.spBg = slot0._tf:Find("painting/paintBg/spinePainting")
@@ -1161,6 +1162,9 @@ slot0.AdjustPainting = function(slot0, slot1)
 
 		slot5 = slot4[4]
 		slot2.localScale = Vector3(slot5, slot5, 1)
+	else
+		slot2.anchoredPosition = Vector2(slot0.defaultPaintingPosition.x, slot0.defaultPaintingPosition.y)
+		slot2.localScale = slot0.defaultPaintingScale
 	end
 end
 

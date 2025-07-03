@@ -192,6 +192,102 @@ pg.activity_medal_template = {
 		id = 587508,
 		medal_asset = "ActivityMedal/587508"
 	},
+	[591301] = {
+		activity_medal_desc = "綠意輪迴於手杖間，摘去舊葉，新芽自生。",
+		next_medal = 0,
+		item = 65594,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21703,
+		activity_medal_name = "紀念貼紙：新綠手杖",
+		id = 591301,
+		medal_asset = "ActivityMedal/591301"
+	},
+	[591302] = {
+		activity_medal_desc = "鬱金王國的嶄新未來，自此開始。",
+		next_medal = 0,
+		item = 65595,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21704,
+		activity_medal_name = "紀念貼紙：致未來的花束",
+		id = 591302,
+		medal_asset = "ActivityMedal/591302"
+	},
+	[591303] = {
+		activity_medal_desc = "不必害怕，尖牙利爪是白熊守護小孩的工具。",
+		next_medal = 0,
+		item = 65596,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21705,
+		activity_medal_name = "紀念貼紙：熊的庇​​護",
+		id = 591303,
+		medal_asset = "ActivityMedal/591303"
+	},
+	[591304] = {
+		activity_medal_desc = "藤蔓編織自然，生命重建家園。",
+		next_medal = 0,
+		item = 65597,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21706,
+		activity_medal_name = "紀念貼紙：藤蔓魔法",
+		id = 591304,
+		medal_asset = "ActivityMedal/591304"
+	},
+	[591305] = {
+		activity_medal_desc = "具有夜視、無線通訊、雙重濾光、發射炸彈等功能的天才發明，可不是什麼普通的裝飾品喲~",
+		next_medal = 0,
+		item = 65598,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21707,
+		activity_medal_name = "紀念貼紙：全頻域黑喵強襲護目鏡",
+		id = 591305,
+		medal_asset = "ActivityMedal/591305"
+	},
+	[591306] = {
+		activity_medal_desc = "即便是新生的嫩芽，也蘊含著不遜磐石的堅韌力量。",
+		next_medal = 0,
+		item = 65599,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21708,
+		activity_medal_name = "紀念貼紙：綠脈共生",
+		id = 591306,
+		medal_asset = "ActivityMedal/591306"
+	},
+	[591307] = {
+		activity_medal_desc = "窮兇極惡、形似雜魚……不對，鯊魚的超·無畏級根除武裝「福爾尼德」。",
+		next_medal = 0,
+		item = 65600,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21709,
+		activity_medal_name = "紀念貼紙：新型戰鬥兵器「福爾尼德」",
+		id = 591307,
+		medal_asset = "ActivityMedal/591307"
+	},
+	[591308] = {
+		activity_medal_desc = "散發鬱金芳香的精緻書籤，魔法工藝，永久保鮮。",
+		next_medal = 0,
+		item = 65601,
+		remake_task_id = 0,
+		group = 5913,
+		prefab_node = "8",
+		task_id = 21710,
+		activity_medal_name = "紀念貼紙：鬱金花籤",
+		id = 591308,
+		medal_asset = "ActivityMedal/591308"
+	},
 	[597001] = {
 		activity_medal_desc = "纏繞著薔薇的高塔，承載著皇家最後的光榮。",
 		next_medal = 0,
@@ -372,6 +468,57 @@ pg.activity_medal_template = {
 		id = 597107,
 		medal_asset = "ActivityMedal/597107"
 	},
+	get_id_list_by_group = {
+		[5769] = {
+			576901,
+			576902,
+			576903,
+			576904,
+			576905,
+			576906,
+			576907,
+			576908
+		},
+		[5875] = {
+			587501,
+			587502,
+			587503,
+			587504,
+			587505,
+			587506,
+			587507,
+			587508
+		},
+		[5913] = {
+			591301,
+			591302,
+			591303,
+			591304,
+			591305,
+			591306,
+			591307,
+			591308
+		},
+		[5970] = {
+			597001,
+			597002,
+			597003,
+			597004,
+			597005,
+			597006,
+			597007,
+			597008
+		},
+		[5971] = {
+			597101,
+			597102,
+			597103,
+			597104,
+			597105,
+			597106,
+			597107
+		}
+	},
 	all = {
 		576901,
 		576902,
@@ -389,6 +536,14 @@ pg.activity_medal_template = {
 		587506,
 		587507,
 		587508,
+		591301,
+		591302,
+		591303,
+		591304,
+		591305,
+		591306,
+		591307,
+		591308,
 		597001,
 		597002,
 		597003,

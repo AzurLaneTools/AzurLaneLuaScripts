@@ -564,6 +564,7 @@ slot17 = function(slot0, slot1)
 
 	slot0._tf.localScale = slot0.live2dData.scale
 	slot0._tf.localPosition = slot0.live2dData.position
+	slot0._l2dPosition = slot0._tf.position
 	slot0.liveCom = slot1:GetComponent(typeof(Live2dChar))
 	slot0._animator = slot1:GetComponent(typeof(Animator))
 	slot0.cubismModelCom = slot1:GetComponent("Live2D.Cubism.Core.CubismModel")
@@ -700,13 +701,17 @@ slot0.SetVisible = function(slot0, slot1)
 		end
 
 		slot0:setReactPos(false)
-		slot0:loadLive2dData()
 
 		slot0._animator.speed = 1
 
 		uv0(slot0, true)
+
+		if Live2dConst.GetLive2dDirty(slot0.live2dData.ship:getSkinId(), slot0.live2dData.ship.id, true) then
+			slot0:resetL2dData()
+		end
 	else
 		slot0:saveLive2dData()
+		slot0:loadLive2dData()
 
 		if slot0._stopCallback then
 			slot0._stopCallback()
@@ -925,10 +930,9 @@ end
 
 slot0.offsetL2dPositonDelay = function(slot0, slot1, slot2, slot3)
 	if slot0._tf and LeanTween.isTweening(go(slot0._tf)) then
-		return
+		LeanTween.cancel(go(slot0._tf))
 	end
 
-	slot0._l2dPosition = slot0._tf.position
 	slot0._tf.position = Vector3(slot0._l2dPosition.x + 300, 0, 0)
 	slot0._animator.speed = slot2
 

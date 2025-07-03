@@ -22,7 +22,7 @@ pg.activity_const = {
 		act_id = 171
 	},
 	ACT_NPC_SHIP_ID = {
-		act_id = 5980
+		act_id = 5910
 	},
 	SANLI_7DAYS_LOGIN = {
 		act_id = 274
@@ -1145,5 +1145,14 @@ pg.activity_const = {
 	},
 	HOLIDAY_ACT_PRE_ID = {
 		act_id = 5922
+	},
+	ZENGKEHAIJUNSHANGJIANG_PT_ACT_ID = {
+		act_id = 50015
+	},
+	ZENGKEHAIJUNSHANGJIANG_TASK_ACT_ID = {
+		act_id = 50017
+	},
+	ZENGKEHAIJUNSHANGJIANG_BOSS_RUSH_ID = {
+		act_id = 50013
 	}
 }

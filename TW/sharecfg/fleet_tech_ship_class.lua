@@ -2977,7 +2977,8 @@ pg.fleet_tech_ship_class = {
 		t_level_1 = 132,
 		nation = 7,
 		ships = {
-			70202
+			70202,
+			70208
 		}
 	},
 	[70203] = {
@@ -3072,6 +3073,17 @@ pg.fleet_tech_ship_class = {
 		nation = 7,
 		ships = {
 			70506
+		}
+	},
+	[70504] = {
+		shiptype = 5,
+		name = "喀山",
+		t_level = 8,
+		id = 70504,
+		t_level_1 = 131,
+		nation = 7,
+		ships = {
+			70509
 		}
 	},
 	[70701] = {
@@ -3469,6 +3481,28 @@ pg.fleet_tech_ship_class = {
 		nation = 9,
 		ships = {
 			90701
+		}
+	},
+	[110101] = {
+		shiptype = 1,
+		name = "海軍上將級",
+		t_level = 3,
+		id = 110101,
+		t_level_1 = 1,
+		nation = 11,
+		ships = {
+			110101
+		}
+	},
+	[110201] = {
+		shiptype = 2,
+		name = "七省級",
+		t_level = 8,
+		id = 110201,
+		t_level_1 = 1,
+		nation = 11,
+		ships = {
+			110201
 		}
 	},
 	[960001] = {
@@ -4307,6 +4341,7 @@ pg.fleet_tech_ship_class = {
 		70501,
 		70502,
 		70503,
+		70504,
 		70701,
 		70702,
 		70703,
@@ -4342,6 +4377,8 @@ pg.fleet_tech_ship_class = {
 		90501,
 		90502,
 		90701,
+		110101,
+		110201,
 		960001,
 		960002,
 		960003,

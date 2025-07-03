@@ -151,6 +151,19 @@ pg.dorm3d_recall = {
 			3022101
 		}
 	},
+	[32] = {
+		story_id = 20530,
+		name = "能量修復儀",
+		type = 1,
+		id = 32,
+		image = "recall_32",
+		unlock_text = "贈送能量修復儀後解鎖",
+		desc = "修復心靈共振回憶， 探索能量注入動力。",
+		unlock = {
+			3,
+			3022102
+		}
+	},
 	get_id_list_by_story_id = {
 		[10010] = {
 			1
@@ -184,6 +197,9 @@ pg.dorm3d_recall = {
 		},
 		[29991] = {
 			31
+		},
+		[20530] = {
+			32
 		}
 	},
 	all = {
@@ -197,6 +213,7 @@ pg.dorm3d_recall = {
 		21,
 		22,
 		23,
-		31
+		31,
+		32
 	}
 }

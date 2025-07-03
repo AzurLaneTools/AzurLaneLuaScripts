@@ -1,20 +1,10 @@
 pg = pg or {}
 pg.activity_medal_group = {
 	[5769] = {
-		entrance_picture = "medalAlbum/5769",
 		id = 5769,
+		entrance_picture = "medalAlbum/5769",
 		group_name = "华裳巧展喜事长",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			576901,
-			576902,
-			576903,
-			576904,
-			576905,
-			576906,
-			576907,
-			576908
-		},
 		activity_link = {
 			{
 				1,
@@ -46,20 +36,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5875] = {
-		entrance_picture = "medalAlbum/5875",
 		id = 5875,
+		entrance_picture = "medalAlbum/5875",
 		group_name = "深谷来信",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			587501,
-			587502,
-			587503,
-			587504,
-			587505,
-			587506,
-			587507,
-			587508
-		},
 		activity_link = {
 			{
 				1,
@@ -94,21 +74,50 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[5913] = {
+		id = 5913,
+		entrance_picture = "medalAlbum/5913",
+		group_name = "揚起鬱金之旗",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				5913,
+				{
+					21711,
+					21703,
+					21704,
+					21705,
+					21706,
+					21707,
+					21708,
+					21709,
+					21710
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "TulipKingdomMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{
+				5,
+				302,
+				1
+			},
+			{
+				8,
+				65593,
+				1
+			}
+		}
+	},
 	[5970] = {
-		entrance_picture = "medalAlbum/5970",
 		id = 5970,
+		entrance_picture = "medalAlbum/5970",
 		group_name = "高塔上的蔷薇",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			597001,
-			597002,
-			597003,
-			597004,
-			597005,
-			597006,
-			597007,
-			597008
-		},
 		activity_link = {
 			{
 				1,
@@ -144,19 +153,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5971] = {
-		entrance_picture = "medalAlbum/5971",
 		id = 5971,
+		entrance_picture = "medalAlbum/5971",
 		group_name = "夏日重建",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			597101,
-			597102,
-			597103,
-			597104,
-			597105,
-			597106,
-			597107
-		},
 		activity_link = {
 			{
 				1,
@@ -193,6 +193,7 @@ pg.activity_medal_group = {
 	all = {
 		5769,
 		5875,
+		5913,
 		5970,
 		5971
 	}

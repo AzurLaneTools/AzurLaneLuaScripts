@@ -2615,7 +2615,7 @@ pg.backyard_theme_template = {
 		desc = "在銀裝素裹的小鎮裡度過特別的一夜吧！",
 		deblocking = 1,
 		new = 0,
-		hot = 1,
+		hot = 0,
 		Cfg_2 = 8,
 		is_view = 1,
 		discount = 0,
@@ -4316,6 +4316,43 @@ pg.backyard_theme_template = {
 			320306
 		}
 	},
+	[121] = {
+		Cfg_1 = 5,
+		name = "鬱金田園",
+		desc = "柔風與花香，這就是美妙的田園生活啊~",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 122,
+		id = 121,
+		icon = "xc2themeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			321001,
+			321002,
+			321101,
+			321102,
+			321103,
+			321104,
+			321105,
+			321106,
+			321107,
+			321108,
+			321109,
+			321110,
+			321111,
+			321112,
+			321113,
+			321115,
+			321116,
+			321117,
+			321118
+		}
+	},
 	[122] = {
 		Cfg_1 = 5,
 		name = "海濱假日",
@@ -4452,6 +4489,7 @@ pg.backyard_theme_template = {
 		116,
 		118,
 		120,
+		121,
 		122
 	}
 }

@@ -294,6 +294,7 @@ slot0.checkShowResetL2dBtn = function(slot0)
 			slot0 = uv0:GetFlagShip()
 
 			Live2dConst.ClearLive2dSave(slot0:getSkinId(), slot0.id)
+			Live2dConst.SetLive2dDirty(slot0:getSkinId(), slot0.id)
 		end
 	end, SFX_CONFIRM)
 end

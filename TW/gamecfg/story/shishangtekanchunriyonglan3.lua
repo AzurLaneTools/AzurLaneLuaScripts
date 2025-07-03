@@ -15,7 +15,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "春意盎然的午后，我受邀前往埃佛森的房间。",
+			say = "春意盎然的午後，我受邀前往埃佛森的房間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -46,7 +46,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "房门是虚掩的，在轻敲几声却没有得到反馈后，我带着一丝担忧推开了门。",
+			say = "房門是虛掩的，在輕敲幾聲卻沒有得到回饋後，我帶著一絲擔憂推開了門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "嗯，协同进化学说么……",
+			say = "嗯， 協同演化嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "两个物种的形状特征，会在长期的相互作用中不断调整进化，彼此影响……",
+			say = "兩個物種的形狀特徵，會在長期的互動中不斷調整演化，彼此影響……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "……最终，形成一种相互适应的关系。",
+			say = "……最終，形成一種相互適應的關係。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "埃佛森背对着我坐在洒满阳光的窗台，正在专注地看着什么。",
+			say = "埃佛森背對著我坐在灑滿陽光的窗台，專注地看著什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "她的发梢沾着阳光的气息，飞舞的尘埃却对我从背后接近的小动作保持缄默。",
+			say = "她的髮梢沾著陽光的氣息，飛舞的塵埃卻對我從背後接近的小動作保持緘默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -133,7 +133,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "直到我对她正在阅读的理论，给出了自己的理解。",
+			say = "直到我對她正在閱讀的理論，給了自己的理解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "很像我们之间的相处模式。",
+			say = "很像我們之間的相處模式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "指挥官对我的影响，远比我对指挥官的要多……咦？",
+			say = "指揮官對我的影響，遠比我對指揮官的還要多……咦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "埃佛森惊讶地回过头。",
+			say = "埃佛森驚訝地回過頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "你怎么……啊，已经到约好的时间了吗？",
+			say = "你怎麼……啊，已經到約好的時間了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "抱歉，是我看得太入迷了，没听到敲门声……也没想到你会从背后偷袭……",
+			say = "抱歉，是我看得太入迷了，沒聽到敲門聲……也沒想到你會從背後偷襲……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "……还有，距离……有点太近了。",
+			say = "……還有，距離……有點太近了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "……坐下吧。我面前的座位，是特地为你留的。",
+			say = "……坐下吧。我面前的座位，是特地為你留的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "我曾做过相关研究，当人们面对面时，更容易对彼此产生奇妙的感情。",
+			say = "我曾做過相關研究，當人們面對面時，更容易對彼此產生奇妙的感情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "就像一起跳舞的两个人，需要默契配合对方的动作。",
+			say = "就像兩個一起跳舞的人，需要默契配合對方的動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "前进、后撤、改变方向……只有在“注视着”彼此的时候，才能知道如何调整节奏。",
+			say = "前進、後退、改變方向……只有在「注視著」彼此的時候，才能知道如何調整節奏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "……总之，指挥官，我想从正面看着你，就这么简单。",
+			say = "……總之，指揮官，我想從正面看著你，就這麼簡單。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "你呢？你也是如此，还是……不满足于这样简单的互动？",
+			say = "你呢？你也是如此，還是……不滿足於這樣簡單的互動？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -313,7 +313,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "虽然表达方式格外直白，但她略显急促的呼吸和逐渐发烫的耳尖，却传递出不一样的讯息。",
+			say = "雖然表達方式格外直白，但她略顯急促的呼吸和逐漸發燙的耳尖，卻傳遞出不一樣的訊息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "于是，我顺势在她对面坐下，并对她伸出了手。",
+			say = "於是，我順勢在她對面坐下，並對她伸出了手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -342,7 +342,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "埃佛森，能把手给我一会儿么？",
+			say = "埃佛森，能把手給我一下嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -356,7 +356,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "嗯？这么做的用意是什么……",
+			say = "嗯？這麼做的用意是什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "虽然还保留着疑惑，她却顺从地将双手完全交给了我——那双因为害羞而不自觉轻颤的手。",
+			say = "雖然還保留著疑惑，她卻順從地將雙手完全交給了我——那雙因為害羞而不自覺輕顫的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -384,7 +384,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "明显，埃佛森还没察觉到自己有多紧张，但我不能放任她以这个状态进行下去。",
+			say = "明顯，埃佛森還沒察覺到自己有多緊張，但我不能放任她以這個狀態進行下去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "你呼吸过速了。",
+			say = "妳呼吸太快了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "还记得你刚才说的协同进化学说么？现在正是实践它的场合呢。",
+			say = "還記得妳剛才說的協同演化嗎？現在正是實踐它的場合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "来，握住我的手，跟随我的引导，慢慢深呼吸……对，就是这样。",
+			say = "來，握住我的手，跟隨我的引導，慢慢深呼吸……對，就是這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "我引导着埃佛森呼吸的节奏，直到她胸口起伏的幅度逐渐放缓。",
+			say = "我引導著埃佛森呼吸的節奏，直到她胸口起伏的幅度逐漸放緩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "好些了么？",
+			say = "好點了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "嗯……果然，把自己完全托付给指挥官，是正确的选择。",
+			say = "嗯……果然，把自己完全託付給指揮官，是正確的選擇。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "那么……",
+			say = "那麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "少女突然反客为主，在我毫无防备的时候将我推倒在窗台上。",
+			say = "少女突然反客為主，在我毫無防備的時候將我推倒在窗台上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 			hideRecordIco = true,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "沐浴在金色阳光之下的她，似乎想用这样直接的行动诉说内心的情愫。",
+			say = "沐浴在金色陽光下的她，似乎想用這樣直接的行動訴說內心的情愫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -559,7 +559,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "互相影响、不断进化……",
+			say = "互相影響、不斷進化……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,7 +572,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "最终，形成默契的、完美的配合。",
+			say = "最終，形成默契的、完美的配合。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,7 +586,7 @@ return {
 			dir = 1,
 			actor = 1101011,
 			nameColor = "#A9F548FF",
-			say = "指挥官愿意遵循协同进化的理论……让我来，引导你一次吗？",
+			say = "指揮官願意遵循協同演化的理論……讓我來，引導你一次嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

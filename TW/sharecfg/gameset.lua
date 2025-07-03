@@ -344,7 +344,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 498
+		key_value = 490
 	},
 	activity_lottery_rewards = {
 		key_value = 0,
@@ -1957,7 +1957,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 507
+		key_value = 491
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3842,8 +3842,35 @@ pg.gameset = {
 	act_npc_ship_id = {
 		key_value = 0,
 		description = {
-			5980,
-			5987
+			5910
+		}
+	},
+	music_Version = {
+		description = "",
+		key_value = 4
+	},
+	music_AutoScrollIndex = {
+		description = "",
+		key_value = 1
+	},
+	music_NewCount = {
+		description = "",
+		key_value = 21
+	},
+	live_streaming26_data1 = {
+		key_value = 0,
+		description = {
+			21,
+			37,
+			73,
+			1001
+		}
+	},
+	live_streaming26_data2 = {
+		key_value = 0,
+		description = {
+			5913,
+			9999
 		}
 	}
 }

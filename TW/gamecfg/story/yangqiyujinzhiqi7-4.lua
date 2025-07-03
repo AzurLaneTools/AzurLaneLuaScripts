@@ -12,7 +12,7 @@ return {
 			bgm = "battle-tulipa",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "终于，海岸回归了寂静。",
+			say = "終於，海岸回歸了寂靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "破晓的第一缕光芒洒下，新的一天开始了——",
+			say = "破曉的第一道光芒灑下，新的一天開始了——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

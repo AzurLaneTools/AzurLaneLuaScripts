@@ -12031,7 +12031,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "每累計建造200次可獲得海上傳奇艦船 獅(最多4次)"
+	tip = "七省、埃佛森 建造機率UP "
 }
 
 
@@ -12046,7 +12046,7 @@ _G.pg.base.gametip.buildship_light_tip = {
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "英仙座、鷹 建造追加！"
+	tip = "普林斯頓 建造追加！"
 }
 
 
@@ -36835,6 +36835,36 @@ _G.pg.base.gametip.SuperBulin2_help = {
 
 _G.pg.base.gametip.SuperBulin2_lock_tip = {
 	tip = "線索收集完成即可解鎖特別關卡~"
+}
+
+
+_G.pg.base.gametip.xiaoankeleiqi_npc = {
+	tip = {
+		{
+			info = "「畫出漫天小星星」活動說明："
+		},
+		{
+			info = "1. 活動期間，玩家可獲得臨時 npc 角色「小安克拉治」，臨時角色不可誓約、不可退役、不可被選為強化突破材料。"
+		},
+		{
+			info = "2. 活動期間，通關指定關卡可累積暫時 npc 角色「小安克拉治」的友好度。"
+		},
+		{
+			info = "3.7 月 10 日為止，每日解鎖 1 個可達成的友好度階段。"
+		},
+		{
+			info = "4. 在活動結束前累積獲得 1000 點友好度，可領取獎勵並將臨時角色「小安克拉治」轉化為永久角色。"
+		},
+		{
+			info = "5. 在活動結束後，未完成轉化的臨時角色「小安克拉治」將離開港區，不返還已經消耗的強化、突破等培養材料。"
+		},
+		{
+			info = "6.npc 角色無法參與大型作戰。"
+		},
+		{
+			info = "7.npc 角色無法參與大艦隊作戰中的事件派遣、攻堅隊和首領戰。"
+		}
+	}
 }
 
 

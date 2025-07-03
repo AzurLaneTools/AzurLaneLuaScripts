@@ -237,6 +237,36 @@ pg.dorm3d_gift = {
 			}
 		}
 	},
+	[3022102] = {
+		display = "修復心靈共振回憶， 探索能量注入動力。",
+		name = "能量修復儀",
+		unlock_dialogue_id = 20530,
+		rarity = 4,
+		ship_group_id = 30221,
+		favor_trigger_id = 1004,
+		id = 3022102,
+		icon = "dorm3dicon/3Ddrom_nengdai_FancyGift2",
+		reply_dialogue_id = {
+			{
+				30221,
+				20305
+			}
+		},
+		shop_id = {
+			260322
+		},
+		unlock_tips = {
+			4
+		},
+		unlock_banners = {
+			{
+				30221,
+				{
+					"banner_gift3022102"
+				}
+			}
+		}
+	},
 	get_id_list_by_ship_group_id = {
 		[0] = {
 			1021001,
@@ -248,7 +278,8 @@ pg.dorm3d_gift = {
 			2022002
 		},
 		[30221] = {
-			3022101
+			3022101,
+			3022102
 		}
 	},
 	all = {
@@ -257,6 +288,7 @@ pg.dorm3d_gift = {
 		1021003,
 		2022001,
 		2022002,
-		3022101
+		3022101,
+		3022102
 	}
 }

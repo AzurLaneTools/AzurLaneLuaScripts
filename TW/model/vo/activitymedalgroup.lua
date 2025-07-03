@@ -15,11 +15,15 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.configId = slot1
 	slot0.medalList = {}
 
-	for slot6, slot7 in ipairs(slot0:getConfig("activity_medal_ids")) do
+	for slot6, slot7 in ipairs(slot0:GetMedalIds()) do
 		slot0.medalList[slot7] = {
 			id = slot7
 		}
 	end
+end
+
+slot0.GetMedalIds = function(slot0)
+	return pg.activity_medal_template.get_id_list_by_group[slot0.configId]
 end
 
 slot0.IsMedalGroupCollectionGrey = function(slot0)
@@ -80,12 +84,14 @@ slot0.UpdateMedal = function(slot0, slot1, slot2)
 	slot0.medalList[slot1].timeStamp = slot2
 end
 
+slot0.GetAll = function(slot0)
+	return underscore.all(slot0:GetMedalIds(), function (slot0)
+		return uv0.medalList[slot0] and uv0.medalList[slot0].timeStamp and uv0.medalList[slot0].timeStamp ~= 0
+	end)
+end
+
 slot0.GetGroupIDByMedalID = function(slot0)
-	for slot4, slot5 in pairs(pg.activity_medal_group.all) do
-		if table.contains(slot5.activity_medal_ids, slot0) then
-			return slot4.id
-		end
-	end
+	return pg.activity_medal_group[slot0].group
 end
 
 return slot0

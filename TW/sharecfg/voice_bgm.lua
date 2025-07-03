@@ -76,9 +76,9 @@ pg.voice_bgm = {
 		bgm = "main"
 	},
 	LoginScene = {
-		default_bgm = "brs-1",
+		default_bgm = "login",
 		special_bgm = "",
-		bgm = "brs-1"
+		bgm = "login"
 	},
 	NewMainScene = {
 		default_bgm = "main",
@@ -1779,6 +1779,31 @@ pg.voice_bgm = {
 		default_bgm = "theme-hospital-deep",
 		special_bgm = "",
 		bgm = "theme-hospital-deep"
+	},
+	HeLanMainPage = {
+		default_bgm = "theme-tulipa",
+		special_bgm = "",
+		bgm = "theme-tulipa"
+	},
+	HeLanPtPage = {
+		default_bgm = "story-tulipa-pv",
+		special_bgm = "",
+		bgm = "story-tulipa-pv"
+	},
+	XiaoAnKeLeiPtPage = {
+		default_bgm = "story-richang-flexible",
+		special_bgm = "",
+		bgm = "story-richang-flexible"
+	},
+	SpringMagazinePage = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
+	},
+	TulipKingdomMedalAlbumView = {
+		default_bgm = "story-tulipa",
+		special_bgm = "",
+		bgm = "story-tulipa"
 	},
 	ExpeditionSkinPage = {
 		default_bgm = "theme-camelot",

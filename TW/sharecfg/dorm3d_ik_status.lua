@@ -9313,6 +9313,67 @@ pg.dorm3d_ik_status = {
 			}
 		}
 	},
+	[299993] = {
+		ik_camera = "Cam299992",
+		character_action = "ND_FFliwu_2_03-1-loop",
+		base = 299993,
+		camera_group = 29993,
+		skin_id = 302212,
+		character_position = "Pos299992",
+		hide_scene_item = "",
+		enter_extra_item = "",
+		id = 299993,
+		character_id = 30221,
+		ik_id = {
+			{
+				29999300,
+				0,
+				{
+					2,
+					0
+				}
+			},
+			{
+				29999301,
+				0,
+				{
+					2,
+					0
+				}
+			}
+		},
+		touch_data = {},
+		use_cloth = {
+			0,
+			0,
+			1,
+			1,
+			1,
+			1,
+			1
+		},
+		cloth_colliders = {
+			{
+				"R_Clavicle_Collider",
+				1,
+				0.087,
+				0.033
+			},
+			{
+				"Bra_Collider",
+				1,
+				0.113,
+				0.113
+			}
+		},
+		head_track = {
+			1,
+			0,
+			0,
+			0.1
+		},
+		enter_scene_anim = {}
+	},
 	get_id_list_by_camera_group = {
 		{
 			2,
@@ -9606,6 +9667,9 @@ pg.dorm3d_ik_status = {
 		},
 		[29992] = {
 			299992
+		},
+		[29993] = {
+			299993
 		}
 	},
 	get_id_list_by_base = {
@@ -9917,6 +9981,9 @@ pg.dorm3d_ik_status = {
 		},
 		[299992] = {
 			299992
+		},
+		[299993] = {
+			299993
 		}
 	},
 	all = {
@@ -10058,6 +10125,7 @@ pg.dorm3d_ik_status = {
 		210621,
 		210631,
 		299991,
-		299992
+		299992,
+		299993
 	}
 }

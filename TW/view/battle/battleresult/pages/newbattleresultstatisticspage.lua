@@ -119,7 +119,13 @@ end
 
 slot0.PlayEnterAnimation = function(slot0, slot1)
 	if not getProxy(SettingsProxy):IsDisplayResultPainting() then
-		slot1()
+		if slot0.resultPaintingData == nil then
+			slot1()
+
+			return
+		end
+
+		slot0.animation:ZoomPainting(slot0.resultPaintingData, slot1)
 
 		return
 	end

@@ -15,6 +15,7 @@ slot0.Ctor = function(slot0)
 	slot0.timer = CoTimer.New(function ()
 		uv0:Dispatcher()
 	end, 1, -1)
+	slot0.loginMark = nil
 end
 
 slot0.AddProxy = function(slot0, slot1, slot2, ...)
@@ -39,12 +40,16 @@ slot0.RgisterProxy = function(slot0, slot1, slot2)
 	for slot6, slot7 in ipairs(slot0.data) do
 		slot1:registerProxy(slot7)
 	end
+
+	slot0.loginMark = {}
 end
 
 slot0.RemoveProxy = function(slot0, slot1)
 	for slot5, slot6 in ipairs(slot0.data) do
 		slot1:removeProxy(slot6.__cname)
 	end
+
+	slot0.loginMark = nil
 end
 
 slot0.Start = function(slot0)

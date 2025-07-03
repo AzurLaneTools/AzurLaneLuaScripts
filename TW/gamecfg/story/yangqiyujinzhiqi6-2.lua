@@ -13,7 +13,7 @@ return {
 			bgm = "battle-tulipa",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "随着时间推移，郁金王国舰队在经过一开始的生涩后，逐渐进入状态。",
+			say = "隨著時間推移，鬱金王國艦隊在經過一開始的生澀後，逐漸進入狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "原本就有优势的战线，已然成为了摧枯拉朽之势。",
+			say = "原本就有優勢的戰線，已然成為了摧枯拉朽之勢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……曾经对我们来说危险重重的塞壬镜面海域，现在也可以依靠实力进行碾压式平推了。",
+			say = "……曾經對我們來說危險重重的塞壬鏡面海域，現在也可以依靠實力進行碾壓式平推了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们出动的甚至都不是一支主力舰队……",
+			say = "我們出動的甚至不是一隻主力艦隊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们实力……真的由量变到质变了呢。",
+			say = "我們實力……真的由量變到質變了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "现在才意识到？",
+			say = "現在才意識到？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -177,7 +177,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒是早就有所感觉了，毕竟纸面数据摆在那里……",
+			say = "倒是早就有所感覺了，畢竟紙面資料擺在那裡……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "但是我们的舰队变强了，面对的敌人也变强了……一直以来这种提升的感觉都不明显。",
+			say = "但是我們的艦隊變強了，面對的敵人也變強了……一直以來這種提升的感覺都不明顯。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这次就不同了~哼哼，对面还是熟悉的配方，我们却已经焕然一新了。",
+			say = "這次就不同了~哼哼，對面還是熟悉的配方，我們卻已經煥然一新了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "算上搜索时间，12小时内就能彻底结束战斗。",
+			say = "算上搜尋時間，12小時內就能徹底結束戰鬥。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -232,7 +232,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "返航速度快点的话，我们还能回锚地吃午饭呢~",
+			say = "返航速度快點的話，我們還能回錨地吃午餐呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（是啊，目前看来战斗十分顺利，郁金王国舰队也已走上正轨。）",
+			say = "（是啊，目前看來戰鬥十分順利，鬱金王國艦隊也已走上正軌。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -258,7 +258,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（但是，一切报告都不如亲眼所见，她们身上果然有特殊性……）",
+			say = "（但是，一切報告都不如親眼所見，她們身上果然有特殊性……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（那些凭空而出的藤蔓与飘荡的绿意……难道是某种心念具现化力量的苗头？）",
+			say = "（那些憑空而出的藤蔓與飄蕩的綠意……難道是某種心念具現化力量的苗頭？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（这种特殊的力量呈现方式……一定与那批特殊的心智魔方有关。）",
+			say = "（這種特殊的力量呈現方式……一定與那批特殊的心智魔方有關。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（密室行动后，彼时北方联合所携带的所有心智魔方都发生了某种未知的正向性变化。）",
+			say = "（密室行動後，彼時北方聯合所攜帶的所有心智魔方都發生了某種未知的正向變化。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（北方联合的研究员对这一现象产生的原因众说纷纭。）",
+			say = "（北方聯合的研究員對此現象產生的原因眾說紛紜。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（有些说与密室中的特殊环境有关，有些说与我的心智魔方适应性有关，也有的说是我的心智魔方亲和与密室特殊环境的双重作用。）",
+			say = "（有些說與密室中的特殊環境有關，有些說與我的心智魔方適應性有關，也有的說是我的心智魔方親和與密室特殊環境的雙重作用。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不论如何，这一现象再也没有被复现过。）",
+			say = "（不論如何，這現象再也沒有被復現過。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -389,7 +389,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不仅如此，这虽然是一项秘密研究，不过北方联合在制造新舰船的时候，也在暗中使用过这些特殊心智魔方。）",
+			say = "（不僅如此，這雖然是一項秘密研究，不過北方聯合在製造新艦船的時候，也在暗中使用過這些特殊心智魔方。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（结果却是没有任何异常，这些特殊心智魔方就如同普通心智魔方一样完成了自己的任务，一点不少，也一点不多。）",
+			say = "（結果卻是沒有任何異常，這些特殊心智魔方就如同普通心智魔方一樣完成了自己的任務，一點不少，也一點不多。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -415,7 +415,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（反而是在郁金王国这里出现了令人惊奇的变化……）",
+			say = "（反而是在鬱金王國這裡出現了令人驚奇的變化……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -428,7 +428,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（如果能搞清楚这一现象背后的原因……）",
+			say = "（如果能搞清楚這現象背後的原因……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（我们世界的整体实力，或许就能向前更进一步了……！）",
+			say = "（我們世界的整體實力，或許就能向前更進一步了……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

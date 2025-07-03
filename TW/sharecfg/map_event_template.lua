@@ -21059,6 +21059,60 @@ pg.map_event_template = {
 		},
 		effect = {}
 	},
+	[927] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 3,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 1,
+		animation = "",
+		id = 927,
+		icon = "qisheng_boss",
+		address = {
+			6,
+			1
+		},
+		effect = {}
+	},
+	[928] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 3,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 1,
+		animation = "",
+		id = 928,
+		icon = "qisheng_boss",
+		address = {
+			6,
+			1
+		},
+		effect = {}
+	},
+	[929] = {
+		grid_color = "",
+		memory = 0,
+		ship_prefab = "",
+		type = 3,
+		gametip = "",
+		c_type = 0,
+		round_gametip = "",
+		preinstall = 1,
+		animation = "",
+		id = 929,
+		icon = "qisheng_boss",
+		address = {
+			2,
+			1
+		},
+		effect = {}
+	},
 	all = {
 		20,
 		21,
@@ -21944,6 +21998,9 @@ pg.map_event_template = {
 		917,
 		918,
 		919,
-		920
+		920,
+		927,
+		928,
+		929
 	}
 }

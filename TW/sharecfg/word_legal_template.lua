@@ -429,6 +429,11 @@ temp = function()
 					}
 				}
 			}
+		},
+		["列"] = {
+			["格"] = {
+				this = true
+			}
 		}
 	}
 end
@@ -687,6 +692,11 @@ temp = function()
 		},
 		["吉"] = {
 			["爾"] = {
+				this = true
+			}
+		},
+		["佛"] = {
+			["森"] = {
 				this = true
 			}
 		}
@@ -1726,6 +1736,15 @@ temp = function()
 			["柏"] = {
 				["林"] = {
 					this = true
+				}
+			}
+		},
+		["安"] = {
+			["克"] = {
+				["拉"] = {
+					["治"] = {
+						this = true
+					}
 				}
 			}
 		}
@@ -6099,6 +6118,9 @@ temp = function()
 					}
 				}
 			}
+		},
+		["山"] = {
+			this = true
 		}
 	}
 end
@@ -6984,6 +7006,16 @@ temp = function()
 					this = true
 				}
 			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["七"] = {
+		["省"] = {
+			this = true
 		}
 	}
 end

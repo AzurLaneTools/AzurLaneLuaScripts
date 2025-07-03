@@ -29,6 +29,7 @@ slot0.CampIds = {
 	8,
 	9,
 	10,
+	11,
 	12
 }
 slot0.CampNames = {
@@ -43,6 +44,7 @@ slot0.CampNames = {
 	"word_shipNation_ziyou",
 	"word_shipNation_weixi",
 	"word_shipNation_mot",
+	"word_shipNation_yujinwangguo",
 	"word_shipNation_other"
 }
 

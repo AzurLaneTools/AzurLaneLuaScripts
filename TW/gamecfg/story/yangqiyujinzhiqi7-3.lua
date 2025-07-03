@@ -13,7 +13,7 @@ return {
 			bgm = "battle-tulipa",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
-			say = "指挥官~大型作战一别后好久不见！",
+			say = "指揮官~大型作戰一陣後好久不見！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			side = 2,
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
-			say = "皇家海军驱逐舰格伦维尔，带领游击舰队前来支援！",
+			say = "皇家海軍驅逐艦格倫維爾，帶領遊擊艦隊前來支援！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "很好，战斗损害还没有扩大，看来我们来得正是时候呢。",
+			say = "很好，戰鬥損害還沒擴大，看來我們來得正是時候。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			bgName = "bg_yujin_3",
 			nameColor = "#A9F548FF",
 			dir = 1,
-			say = "指挥官同志，我们已经完成了善后工作，现在与皇家舰队一同前来增援！",
+			say = "指揮官同志，我們已經完成了善後工作，現在與皇家艦隊一同前來增援！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -127,7 +127,7 @@ return {
 			bgName = "bg_yujin_3",
 			side = 2,
 			actor = 702080,
-			say = "哎哟，那些大家伙我还是第一次见呢！",
+			say = "哎喲，那些大傢伙我還是第一次看到呢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -139,7 +139,7 @@ return {
 			bgName = "bg_yujin_3",
 			side = 2,
 			actor = 702080,
-			say = "嘿嘿嘿……好想拆开残骸分析一下！",
+			say = "嘿嘿嘿……好想拆開殘骸分析一下！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 201360,
-			say = "那我们还等什么呢？冲冲冲——！",
+			say = "那我們還在等什麼呢？衝衝衝——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

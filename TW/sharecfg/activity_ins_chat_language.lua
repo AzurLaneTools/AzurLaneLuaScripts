@@ -1393,6 +1393,355 @@ pg.activity_ins_chat_language = setmetatable({
 		3415,
 		3416,
 		3417,
+		3537,
+		3538,
+		3539,
+		3540,
+		3541,
+		3542,
+		3543,
+		3544,
+		3545,
+		3546,
+		3547,
+		3548,
+		3549,
+		3550,
+		3551,
+		3552,
+		3553,
+		3554,
+		3555,
+		3556,
+		3557,
+		3558,
+		3559,
+		3560,
+		3561,
+		3562,
+		3563,
+		3564,
+		3565,
+		3566,
+		3567,
+		3568,
+		3569,
+		3570,
+		3571,
+		3572,
+		3573,
+		3574,
+		3575,
+		3576,
+		3577,
+		3578,
+		3579,
+		3580,
+		3581,
+		3582,
+		3583,
+		3584,
+		3585,
+		3586,
+		3587,
+		3588,
+		3589,
+		3590,
+		3591,
+		3592,
+		3593,
+		3594,
+		3595,
+		3596,
+		3597,
+		3598,
+		3599,
+		3600,
+		3601,
+		3602,
+		3603,
+		3604,
+		3605,
+		3606,
+		3607,
+		3608,
+		3609,
+		3610,
+		3611,
+		3612,
+		3613,
+		3614,
+		3615,
+		3616,
+		3617,
+		3618,
+		3619,
+		3620,
+		3621,
+		3622,
+		3623,
+		3624,
+		3625,
+		3626,
+		3627,
+		3628,
+		3629,
+		3630,
+		3631,
+		3632,
+		3633,
+		3634,
+		3635,
+		3636,
+		3637,
+		3638,
+		3639,
+		3640,
+		3641,
+		3642,
+		3643,
+		3644,
+		3645,
+		3646,
+		3647,
+		3648,
+		3649,
+		3650,
+		3651,
+		3652,
+		3653,
+		3654,
+		3655,
+		3656,
+		3657,
+		3658,
+		3659,
+		3660,
+		3661,
+		3662,
+		3663,
+		3664,
+		3665,
+		3666,
+		3667,
+		3668,
+		3669,
+		3670,
+		3671,
+		3672,
+		3673,
+		3674,
+		3675,
+		3676,
+		3677,
+		3678,
+		3679,
+		3680,
+		3681,
+		3682,
+		3683,
+		3684,
+		3685,
+		3686,
+		3687,
+		3688,
+		3689,
+		3690,
+		3691,
+		3692,
+		3693,
+		3694,
+		3695,
+		3696,
+		3697,
+		3698,
+		3699,
+		3700,
+		3701,
+		3702,
+		3703,
+		3704,
+		3705,
+		3706,
+		3707,
+		3708,
+		3709,
+		3710,
+		3711,
+		3712,
+		3713,
+		3714,
+		3715,
+		3716,
+		3717,
+		3718,
+		3719,
+		3720,
+		3721,
+		3722,
+		3723,
+		3724,
+		3725,
+		3726,
+		3727,
+		3728,
+		3729,
+		3730,
+		3731,
+		3732,
+		3733,
+		3734,
+		3735,
+		3736,
+		3737,
+		3738,
+		3739,
+		3740,
+		3741,
+		3742,
+		3743,
+		3744,
+		3745,
+		3746,
+		3747,
+		3748,
+		3749,
+		3750,
+		3751,
+		3752,
+		3753,
+		3754,
+		3755,
+		3756,
+		3757,
+		3758,
+		3759,
+		3760,
+		3761,
+		3762,
+		3763,
+		3764,
+		3765,
+		3766,
+		3767,
+		3768,
+		3769,
+		3770,
+		3771,
+		3772,
+		3773,
+		3774,
+		3775,
+		3776,
+		3777,
+		3778,
+		3779,
+		3780,
+		3781,
+		3782,
+		3783,
+		3784,
+		3785,
+		3786,
+		3787,
+		3788,
+		3789,
+		3790,
+		3791,
+		3792,
+		3793,
+		3794,
+		3795,
+		3796,
+		3797,
+		3798,
+		3799,
+		3800,
+		3801,
+		3802,
+		3803,
+		3804,
+		3805,
+		3806,
+		3807,
+		3808,
+		3809,
+		3810,
+		3811,
+		3812,
+		3813,
+		3814,
+		3815,
+		3816,
+		3817,
+		3818,
+		3819,
+		3820,
+		3821,
+		3822,
+		3823,
+		3824,
+		3825,
+		3826,
+		3827,
+		3828,
+		3829,
+		3830,
+		3831,
+		3832,
+		3833,
+		3834,
+		3835,
+		3836,
+		3837,
+		3838,
+		3839,
+		3840,
+		3841,
+		3842,
+		3843,
+		3844,
+		3845,
+		3846,
+		3847,
+		3848,
+		3849,
+		3850,
+		3851,
+		3852,
+		3853,
+		3854,
+		3855,
+		3856,
+		3857,
+		3858,
+		3859,
+		3860,
+		3861,
+		3862,
+		3863,
+		3864,
+		3865,
+		3866,
+		3867,
+		3868,
+		3869,
+		3870,
+		3871,
+		3872,
+		3873,
+		3874,
+		3875,
+		3876,
+		3877,
+		3878,
+		3879,
+		3880,
+		3881,
+		3882,
+		3883,
+		3884,
+		3885,
 		3996,
 		3997,
 		3998,
@@ -14127,6 +14476,3225 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 3417,
 		flag = 10
+	},
+	[3537] = {
+		param = "晚安",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3537,
+		flag = 0
+	},
+	[3538] = {
+		param = "我剛剛經過指揮室發現燈還是亮的",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3538,
+		flag = 0
+	},
+	[3539] = {
+		param = "這麼晚了還在工作嗎…？",
+		ship_group = 110201,
+		type = 1,
+		id = 3539,
+		flag = 0,
+		option = {
+			{
+				1,
+				"沒錯！"
+			},
+			{
+				2,
+				"是的……"
+			}
+		}
+	},
+	[3540] = {
+		param = "沒錯！我還在處理一些收尾工作！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3540,
+		flag = 1
+	},
+	[3541] = {
+		param = "是啊……還有一些工作需要在今天處理完畢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3541,
+		flag = 2
+	},
+	[3542] = {
+		param = "指揮官的工作真的很辛苦呢……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3542,
+		flag = 0
+	},
+	[3543] = {
+		param = "每天的壓力都很大吧？",
+		ship_group = 110201,
+		type = 1,
+		id = 3543,
+		flag = 0,
+		option = {
+			{
+				3,
+				"嗯，是這樣的……"
+			},
+			{
+				4,
+				"沒有，我熱愛工作！"
+			}
+		}
+	},
+	[3544] = {
+		param = "嗯，是這樣的…… ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3544,
+		flag = 3
+	},
+	[3545] = {
+		param = "沒有，我熱愛工作！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3545,
+		flag = 4
+	},
+	[3546] = {
+		param = "妳呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3546,
+		flag = 0
+	},
+	[3547] = {
+		param = "我的話，在港區每天都很開心！",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3547,
+		flag = 0
+	},
+	[3548] = {
+		param = "就算偶爾有壓力了，也可以去跟科萊克潔聊聊天~",
+		ship_group = 110201,
+		type = 1,
+		id = 3548,
+		flag = 0,
+		option = {
+			{
+				5,
+				"科萊克潔是……？"
+			}
+		}
+	},
+	[3549] = {
+		param = "科萊克潔是……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3549,
+		flag = 5
+	},
+	[3550] = {
+		param = "是我養的一盆植物哦~",
+		ship_group = 110201,
+		type = 1,
+		id = 3550,
+		flag = 5,
+		option = {
+			{
+				6,
+				"好特別的名字"
+			}
+		}
+	},
+	[3551] = {
+		param = "好特別的名字",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3551,
+		flag = 6
+	},
+	[3552] = {
+		param = "對吧~我也是這麼認為的！",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3552,
+		flag = 6
+	},
+	[3553] = {
+		param = "指揮官，這孩子說，想要跟你問好呢~",
+		ship_group = 110201,
+		type = 1,
+		id = 3553,
+		flag = 6,
+		option = {
+			{
+				7,
+				"妳是怎麼跟植物交流的？"
+			}
+		}
+	},
+	[3554] = {
+		param = "妳是怎麼跟植物交流的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3554,
+		flag = 7
+	},
+	[3555] = {
+		param = "雖然植物不會說話，但它們和我能夠感受彼此的心意哦",
+		ship_group = 110201,
+		type = 1,
+		id = 3555,
+		flag = 7,
+		option = {
+			{
+				8,
+				"那也替我向它問好"
+			}
+		}
+	},
+	[3556] = {
+		param = "那也替我向它問好 ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3556,
+		flag = 8
+	},
+	[3557] = {
+		param = "12",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3557,
+		flag = 8
+	},
+	[3558] = {
+		param = "哼哼哼~這孩子很喜歡指揮官你呢~",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3558,
+		flag = 8
+	},
+	[3559] = {
+		param = "不過它也很擔心你的作息，希望你能早點休息~",
+		ship_group = 110201,
+		type = 1,
+		id = 3559,
+		flag = 8,
+		option = {
+			{
+				9,
+				"多謝妳和科萊克潔的關心"
+			}
+		}
+	},
+	[3560] = {
+		param = "多謝妳和科萊克潔的關心",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3560,
+		flag = 9
+	},
+	[3561] = {
+		param = "我會早點休息的！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3561,
+		flag = 9
+	},
+	[3562] = {
+		param = "那就，提前晚安啦！",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3562,
+		flag = 9
+	},
+	[3563] = {
+		param = "指揮官，晚安~",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3563,
+		flag = 9
+	},
+	[3564] = {
+		param = "指揮官，工作進度還順利嗎？",
+		ship_group = 110201,
+		type = 1,
+		id = 3564,
+		flag = 0,
+		option = {
+			{
+				1,
+				"[加班]"
+			}
+		}
+	},
+	[3565] = {
+		param = "365",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3565,
+		flag = 1
+	},
+	[3566] = {
+		param = "一直這樣忙個不停可不行呢……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3566,
+		flag = 1
+	},
+	[3567] = {
+		param = "就讓我來為指揮官準備下午茶，好好放鬆吧~",
+		ship_group = 110201,
+		type = 1,
+		id = 3567,
+		flag = 1,
+		option = {
+			{
+				2,
+				"[吃的！]"
+			}
+		}
+	},
+	[3568] = {
+		param = "30",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3568,
+		flag = 2
+	},
+	[3569] = {
+		param = "有了，除了泡茶之外，我再來給你做些點心吧~",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3569,
+		flag = 2
+	},
+	[3570] = {
+		param = "例如美味的蜂蜜焦糖鬆餅~",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3570,
+		flag = 2
+	},
+	[3571] = {
+		param = "我記得從敦克爾克小姐那裡借來的超厲害的新工具在……",
+		ship_group = 110201,
+		type = 1,
+		id = 3571,
+		flag = 2,
+		option = {
+			{
+				3,
+				"等等……！"
+			}
+		}
+	},
+	[3572] = {
+		param = "等等……！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3572,
+		flag = 3
+	},
+	[3573] = {
+		param = "……糟糕",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3573,
+		flag = 3
+	},
+	[3574] = {
+		param = "七省，妳還在嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3574,
+		flag = 3
+	},
+	[3575] = {
+		param = "……妳的新工具還好嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3575,
+		flag = 3
+	},
+	[3576] = {
+		param = "……七省？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3576,
+		flag = 3
+	},
+	[3577] = {
+		param = "62",
+		ship_group = 110201,
+		option = "",
+		type = 4,
+		id = 3577,
+		flag = 3
+	},
+	[3578] = {
+		param = "為什麼……會冒煙了呢……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3578,
+		flag = 3
+	},
+	[3579] = {
+		param = "我明明看了好幾遍說明書了……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3579,
+		flag = 3
+	},
+	[3580] = {
+		param = "不是說，這個用起來很方便的嗎……？",
+		ship_group = 110201,
+		type = 1,
+		id = 3580,
+		flag = 3,
+		option = {
+			{
+				4,
+				"快切斷電源！"
+			}
+		}
+	},
+	[3581] = {
+		param = "快切斷電源！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3581,
+		flag = 4
+	},
+	[3582] = {
+		param = "好的……我找找！",
+		ship_group = 110201,
+		type = 1,
+		id = 3582,
+		flag = 4,
+		option = {
+			{
+				5,
+				"怎么样，战况如何？"
+			}
+		}
+	},
+	[3583] = {
+		param = "怎麼樣，戰況如何？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3583,
+		flag = 5
+	},
+	[3584] = {
+		param = "妳成功切斷電源了嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3584,
+		flag = 5
+	},
+	[3585] = {
+		param = "…………",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3585,
+		flag = 5
+	},
+	[3586] = {
+		param = "……七省？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3586,
+		flag = 5
+	},
+	[3587] = {
+		param = "戰鬥失敗了……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3587,
+		flag = 5
+	},
+	[3588] = {
+		param = "地上都是蛋液，我滑倒了……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3588,
+		flag = 5
+	},
+	[3589] = {
+		param = "然後我就想著先清理地板……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3589,
+		flag = 5
+	},
+	[3590] = {
+		param = "然後更多的機器冒煙了……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3590,
+		flag = 5
+	},
+	[3591] = {
+		param = "嗚嗚嗚，廚房完全變成一團糟了……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3591,
+		flag = 5
+	},
+	[3592] = {
+		param = "309",
+		ship_group = 110201,
+		option = "",
+		type = 4,
+		id = 3592,
+		flag = 5
+	},
+	[3593] = {
+		param = "怎麼辦……指揮官！",
+		ship_group = 110201,
+		type = 1,
+		id = 3593,
+		flag = 5,
+		option = {
+			{
+				6,
+				"總之……"
+			}
+		}
+	},
+	[3594] = {
+		param = "總之，妳先去找一個安全的地方，等我過來！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3594,
+		flag = 6
+	},
+	[3595] = {
+		param = "我已經在聯絡夕張去斷掉總閘了，別慌！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3595,
+		flag = 6
+	},
+	[3596] = {
+		param = "好的，我已經跑到廚房外，把門關上了",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3596,
+		flag = 6
+	},
+	[3597] = {
+		param = "等等，我是不是，忘了關烤箱……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3597,
+		flag = 6
+	},
+	[3598] = {
+		param = "……剛剛好像爆炸了……好在我不在旁邊",
+		ship_group = 110201,
+		type = 1,
+		id = 3598,
+		flag = 6,
+		option = {
+			{
+				7,
+				"……妳不是卡在打蛋的那一步了嗎？"
+			}
+		}
+	},
+	[3599] = {
+		param = "……妳不是卡在打蛋的那一步了嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3599,
+		flag = 7
+	},
+	[3600] = {
+		param = "……為什麼會啟動烤箱？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3600,
+		flag = 7
+	},
+	[3601] = {
+		param = "我想著先讓它熱熱身嘛……",
+		ship_group = 110201,
+		type = 1,
+		id = 3601,
+		flag = 7,
+		option = {
+			{
+				8,
+				"……站在原地不要動任何東西了！"
+			}
+		}
+	},
+	[3602] = {
+		param = "……站在原地不要動任何東西了！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3602,
+		flag = 8
+	},
+	[3603] = {
+		param = "我快要到了！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3603,
+		flag = 8
+	},
+	[3604] = {
+		param = "知道了，我等你……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3604,
+		flag = 8
+	},
+	[3605] = {
+		param = "317",
+		ship_group = 110201,
+		option = "",
+		type = 4,
+		id = 3605,
+		flag = 8
+	},
+	[3606] = {
+		param = "指揮官，你現在有空嗎？",
+		ship_group = 110201,
+		type = 1,
+		id = 3606,
+		flag = 0,
+		option = {
+			{
+				1,
+				"[休息中]"
+			}
+		}
+	},
+	[3607] = {
+		param = "203",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3607,
+		flag = 1
+	},
+	[3608] = {
+		param = "正好在休息中，有心事？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3608,
+		flag = 1
+	},
+	[3609] = {
+		param = "嗯……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3609,
+		flag = 1
+	},
+	[3610] = {
+		param = "果然什麼事都瞞不過指揮官呢",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3610,
+		flag = 1
+	},
+	[3611] = {
+		param = "那個……其實……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3611,
+		flag = 1
+	},
+	[3612] = {
+		param = "是關於我們的孩子的事情……",
+		ship_group = 110201,
+		type = 1,
+		id = 3612,
+		flag = 1,
+		option = {
+			{
+				2,
+				"？？？？"
+			},
+			{
+				3,
+				"[！？]"
+			}
+		}
+	},
+	[3613] = {
+		param = "？？？？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3613,
+		flag = 2
+	},
+	[3614] = {
+		param = "25",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3614,
+		flag = 3
+	},
+	[3615] = {
+		param = "等等……什麼的孩子？？？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3615,
+		flag = 0
+	},
+	[3616] = {
+		param = "我們的孩子呀？",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3616,
+		flag = 0
+	},
+	[3617] = {
+		param = "這些玫瑰花種子是我和你一起種下的，當然就算我們的孩子了",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3617,
+		flag = 0
+	},
+	[3618] = {
+		param = "自從種下去之後我就在苦惱，到底要為孩子們取什麼名字好呢？",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3618,
+		flag = 0
+	},
+	[3619] = {
+		param = "可是它們馬上就要誕生到這世上了，我還是沒有好主意……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3619,
+		flag = 0
+	},
+	[3620] = {
+		param = "好焦慮……",
+		ship_group = 110201,
+		type = 1,
+		id = 3620,
+		flag = 0,
+		option = {
+			{
+				4,
+				"……"
+			}
+		}
+	},
+	[3621] = {
+		param = "……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3621,
+		flag = 4
+	},
+	[3622] = {
+		param = "沒關係的，給孩子們取名是大事，你也不要有太大的壓力",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3622,
+		flag = 4
+	},
+	[3623] = {
+		param = "我只是想聽聽你的想法做個參考啦！",
+		ship_group = 110201,
+		type = 1,
+		id = 3623,
+		flag = 4,
+		option = {
+			{
+				5,
+				"好吧……"
+			}
+		}
+	},
+	[3624] = {
+		param = "好吧……關於這些玫瑰花的名字……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3624,
+		flag = 5
+	},
+	[3625] = {
+		param = "是因為數量太多嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3625,
+		flag = 5
+	},
+	[3626] = {
+		param = "嗯……大概有二、三十個孩子呢",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3626,
+		flag = 5
+	},
+	[3627] = {
+		param = "因為是同一品種的，之後顏色也一定差不多……",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3627,
+		flag = 5
+	},
+	[3628] = {
+		param = "322",
+		ship_group = 110201,
+		type = 4,
+		id = 3628,
+		flag = 5,
+		option = {
+			{
+				6,
+				"小紅，我記得是叫科萊若德……"
+			}
+		}
+	},
+	[3629] = {
+		param = "小紅，我記得是叫科萊若德，沒錯吧？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3629,
+		flag = 6
+	},
+	[3630] = {
+		param = "沒錯沒錯~",
+		ship_group = 110201,
+		type = 1,
+		id = 3630,
+		flag = 6,
+		option = {
+			{
+				7,
+				"（試試武器編號法）"
+			}
+		}
+	},
+	[3631] = {
+		param = "假設有20株的話，依序叫科萊若德、科萊若德MKII，一直到科萊若德MKXX",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3631,
+		flag = 7
+	},
+	[3632] = {
+		param = "妳看如何！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3632,
+		flag = 7
+	},
+	[3633] = {
+		param = "……好像，有點怪怪的",
+		ship_group = 110201,
+		type = 1,
+		id = 3633,
+		flag = 7,
+		option = {
+			{
+				8,
+				"唔……"
+			}
+		}
+	},
+	[3634] = {
+		param = "唔……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3634,
+		flag = 8
+	},
+	[3635] = {
+		param = "不然拓展一下思路，不拘泥於形狀或顏色呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3635,
+		flag = 8
+	},
+	[3636] = {
+		param = "例如其中一株叫科萊瓦根斯，妳覺得怎麼樣？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3636,
+		flag = 8
+	},
+	[3637] = {
+		param = "是「小豬豬」的意思",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3637,
+		flag = 8
+	},
+	[3638] = {
+		param = "好棒的名字……之前我怎麼沒想到……！",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3638,
+		flag = 8
+	},
+	[3639] = {
+		param = "那我再去想一些可愛的字！",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3639,
+		flag = 8
+	},
+	[3640] = {
+		param = "等這些孩子們長大了，一定會很喜歡的~",
+		ship_group = 110201,
+		option = "",
+		type = 1,
+		id = 3640,
+		flag = 8
+	},
+	[3641] = {
+		param = "370",
+		ship_group = 110201,
+		option = "",
+		type = 4,
+		id = 3641,
+		flag = 8
+	},
+	[3642] = {
+		param = "指揮官，今天在工作上有什麼特別的感受嗎？",
+		ship_group = 110101,
+		type = 1,
+		id = 3642,
+		flag = 0,
+		option = {
+			{
+				1,
+				"指揮室裡，多了一些植物……"
+			}
+		}
+	},
+	[3643] = {
+		param = "指揮室裡，多了一些植物……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3643,
+		flag = 1
+	},
+	[3644] = {
+		param = "沒錯",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3644,
+		flag = 1
+	},
+	[3645] = {
+		param = "在生活環境中佈置綠色植物對身心健康有好處，所以我放了一些在指揮室",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3645,
+		flag = 1
+	},
+	[3646] = {
+		param = "今天在工作中已經多少感覺到空氣的不同了吧~",
+		ship_group = 110101,
+		type = 1,
+		id = 3646,
+		flag = 1,
+		option = {
+			{
+				2,
+				"確實如此，但是……"
+			}
+		}
+	},
+	[3647] = {
+		param = "確實如此，但是……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3647,
+		flag = 2
+	},
+	[3648] = {
+		param = "現在指揮室裡的植物數量，是不是有點太多了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3648,
+		flag = 2
+	},
+	[3649] = {
+		param = "像一片……叢林",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3649,
+		flag = 2
+	},
+	[3650] = {
+		param = "這些都是我精心挑選的室內植物",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3650,
+		flag = 2
+	},
+	[3651] = {
+		param = "你看到那個葉片形狀像鹿角的植物了嗎？那是鹿角蕨",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3651,
+		flag = 2
+	},
+	[3652] = {
+		param = "有淨化空氣，吸收有害物質的功能",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3652,
+		flag = 2
+	},
+	[3653] = {
+		param = "牆邊那個有心型葉片的植物，則是綠蘿",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3653,
+		flag = 2
+	},
+	[3654] = {
+		param = "綠蘿翠綠的葉片能夠緩解辦公時的焦慮",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3654,
+		flag = 2
+	},
+	[3655] = {
+		param = "這裡的每一株綠植都是這樣，有各自獨特的功效",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3655,
+		flag = 2
+	},
+	[3656] = {
+		param = "和我的實驗室相比，數量並不算多",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3656,
+		flag = 2
+	},
+	[3657] = {
+		param = "我完全了解每一種植物，所以，不需要擔心綠植放置合理性的問題",
+		ship_group = 110101,
+		type = 1,
+		id = 3657,
+		flag = 2,
+		option = {
+			{
+				3,
+				"原来如此……"
+			}
+		}
+	},
+	[3658] = {
+		param = "原來如此……辛苦妳了！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3658,
+		flag = 3
+	},
+	[3659] = {
+		param = "不辛苦，都是我該做的",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3659,
+		flag = 3
+	},
+	[3660] = {
+		param = "另外，今後我需要每天造訪指揮室",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3660,
+		flag = 3
+	},
+	[3661] = {
+		param = "想要讓植物保持活力，日常的專業維護是必須的",
+		ship_group = 110101,
+		type = 1,
+		id = 3661,
+		flag = 3,
+		option = {
+			{
+				4,
+				"有空的時候……"
+			}
+		}
+	},
+	[3662] = {
+		param = "有空的時候，也教教我怎麼照顧植物吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3662,
+		flag = 4
+	},
+	[3663] = {
+		param = "沒有問題",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3663,
+		flag = 4
+	},
+	[3664] = {
+		param = "接下來的時間就打擾了",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3664,
+		flag = 4
+	},
+	[3665] = {
+		param = "指揮官",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3665,
+		flag = 0
+	},
+	[3666] = {
+		param = "不好了",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3666,
+		flag = 0
+	},
+	[3667] = {
+		param = "出事了",
+		ship_group = 110101,
+		type = 1,
+		id = 3667,
+		flag = 0,
+		option = {
+			{
+				1,
+				"發生什麼事了？"
+			}
+		}
+	},
+	[3668] = {
+		param = "發生什麼事了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3668,
+		flag = 1
+	},
+	[3669] = {
+		param = "指揮室的仙人掌，枯萎了",
+		ship_group = 110101,
+		type = 1,
+		id = 3669,
+		flag = 1,
+		option = {
+			{
+				2,
+				"[发呆]"
+			}
+		}
+	},
+	[3670] = {
+		param = "55",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3670,
+		flag = 2
+	},
+	[3671] = {
+		param = "難道是因為，我昨天給仙人掌澆了水……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3671,
+		flag = 2
+	},
+	[3672] = {
+		param = "但我明明是按照妳教學的手法操作的……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3672,
+		flag = 2
+	},
+	[3673] = {
+		param = "原來如此",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3673,
+		flag = 2
+	},
+	[3674] = {
+		param = "看來，仙人掌枯萎的原因是澆水過量",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3674,
+		flag = 2
+	},
+	[3675] = {
+		param = "指揮官你的操作的確是正確的",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3675,
+		flag = 2
+	},
+	[3676] = {
+		param = "只不過",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3676,
+		flag = 2
+	},
+	[3677] = {
+		param = "昨天早上我就已經澆水了",
+		ship_group = 110101,
+		type = 1,
+		id = 3677,
+		flag = 2,
+		option = {
+			{
+				3,
+				"糟糕……"
+			}
+		}
+	},
+	[3678] = {
+		param = "糟糕，我當時應該注意一下土壤的濕潤情況的……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3678,
+		flag = 3
+	},
+	[3679] = {
+		param = "62",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3679,
+		flag = 3
+	},
+	[3680] = {
+		param = "沒事",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3680,
+		flag = 3
+	},
+	[3681] = {
+		param = "我已經用魔法讓它恢復活力了",
+		ship_group = 110101,
+		type = 1,
+		id = 3681,
+		flag = 3,
+		option = {
+			{
+				4,
+				"？"
+			},
+			{
+				4,
+				"不愧是鬱金王國！"
+			}
+		}
+	},
+	[3682] = {
+		param = "……？不愧是鬱金王國！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3682,
+		flag = 4
+	},
+	[3683] = {
+		param = "太神奇了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3683,
+		flag = 4
+	},
+	[3684] = {
+		param = "我還會更神奇的魔法呢，想看嗎？",
+		ship_group = 110101,
+		type = 1,
+		id = 3684,
+		flag = 4,
+		option = {
+			{
+				5,
+				"想看！"
+			},
+			{
+				6,
+				"[点头]"
+			}
+		}
+	},
+	[3685] = {
+		param = "想看！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3685,
+		flag = 5
+	},
+	[3686] = {
+		param = "48",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3686,
+		flag = 6
+	},
+	[3687] = {
+		param = "溫室等你",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3687,
+		flag = 0
+	},
+	[3688] = {
+		param = "不見不散哦",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3688,
+		flag = 0
+	},
+	[3689] = {
+		param = "指揮官，不在指揮室嗎？",
+		ship_group = 110101,
+		type = 1,
+		id = 3689,
+		flag = 0,
+		option = {
+			{
+				1,
+				"對，我剛出來透氣"
+			}
+		}
+	},
+	[3690] = {
+		param = "對，我剛出來透氣",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3690,
+		flag = 1
+	},
+	[3691] = {
+		param = "午後的陽光很不錯呢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3691,
+		flag = 1
+	},
+	[3692] = {
+		param = "你已經開始本日維護了？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3692,
+		flag = 1
+	},
+	[3693] = {
+		param = "嗯，我在檢查指揮室綠植的狀況",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3693,
+		flag = 1
+	},
+	[3694] = {
+		param = "綠蘿的葉子最近精神了不少",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3694,
+		flag = 1
+	},
+	[3695] = {
+		param = "指揮官有在用心照顧呢",
+		ship_group = 110101,
+		type = 1,
+		id = 3695,
+		flag = 1,
+		option = {
+			{
+				2,
+				"[Excellent]"
+			}
+		}
+	},
+	[3696] = {
+		param = "231",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3696,
+		flag = 2
+	},
+	[3697] = {
+		param = "其實我今天來找你還有件事",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3697,
+		flag = 2
+	},
+	[3698] = {
+		param = "待會等我養護結束後，有沒有興趣跟我去一趟植物園？",
+		ship_group = 110101,
+		type = 1,
+		id = 3698,
+		flag = 2,
+		option = {
+			{
+				3,
+				"今天要觀察什麼？"
+			}
+		}
+	},
+	[3699] = {
+		param = "沒問題，今天要觀察什麼？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3699,
+		flag = 3
+	},
+	[3700] = {
+		param = "昆蟲",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3700,
+		flag = 3
+	},
+	[3701] = {
+		param = "植物園在辦昆蟲展，想和你一起觀察銀線蜉蝣的產卵過程",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3701,
+		flag = 3
+	},
+	[3702] = {
+		param = "感覺會很浪漫",
+		ship_group = 110101,
+		type = 1,
+		id = 3702,
+		flag = 3,
+		option = {
+			{
+				4,
+				"浪漫……嗎？"
+			},
+			{
+				5,
+				"很浪漫"
+			}
+		}
+	},
+	[3703] = {
+		param = "浪漫……么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3703,
+		flag = 4
+	},
+	[3704] = {
+		param = "很浪漫",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3704,
+		flag = 4
+	},
+	[3705] = {
+		param = "確實很浪漫！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3705,
+		flag = 5
+	},
+	[3706] = {
+		param = "就知道你會懂的！",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3706,
+		flag = 5
+	},
+	[3707] = {
+		param = "沒問題，我陪妳",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3707,
+		flag = 0
+	},
+	[3708] = {
+		param = "好高興",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3708,
+		flag = 0
+	},
+	[3709] = {
+		param = "我想，指揮官也能在那裡得到放鬆的",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3709,
+		flag = 0
+	},
+	[3710] = {
+		param = "等等……",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3710,
+		flag = 0
+	},
+	[3711] = {
+		param = "表情包",
+		ship_group = 110101,
+		option = "",
+		type = 4,
+		id = 3711,
+		flag = 0
+	},
+	[3712] = {
+		param = "指揮官，發生了不可思議的事呢",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3712,
+		flag = 0
+	},
+	[3713] = {
+		param = "指揮室的那盆仙人掌開花了",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3713,
+		flag = 0
+	},
+	[3714] = {
+		param = "這是相當少見的奇景……特別是在室內養護的情況下",
+		ship_group = 110101,
+		type = 1,
+		id = 3714,
+		flag = 0,
+		option = {
+			{
+				6,
+				"仙人掌原來是會開花的嗎？"
+			}
+		}
+	},
+	[3715] = {
+		param = "仙人掌原來是會開花的嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3715,
+		flag = 6
+	},
+	[3716] = {
+		param = "沒錯，但仙人掌開花有嚴格的環境要求，包括光照、溫度、水分和養分的配合",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3716,
+		flag = 6
+	},
+	[3717] = {
+		param = "任何一個條件不滿足，仙人掌都可能不會開花",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3717,
+		flag = 6
+	},
+	[3718] = {
+		param = "看來，仙人掌也在期待著本日的浪漫",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3718,
+		flag = 6
+	},
+	[3719] = {
+		param = "指揮官，植物養護結束了，我要去哪裡找你？",
+		ship_group = 110101,
+		type = 1,
+		id = 3719,
+		flag = 6,
+		option = {
+			{
+				7,
+				"公園裡之前妳觀察苔蘚的地方"
+			}
+		}
+	},
+	[3720] = {
+		param = "公園裡之前妳觀察苔蘚的地方",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3720,
+		flag = 7
+	},
+	[3721] = {
+		param = "明白~",
+		ship_group = 110101,
+		option = "",
+		type = 1,
+		id = 3721,
+		flag = 7
+	},
+	[3722] = {
+		param = "指揮官，午餐準備好了~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3722,
+		flag = 0
+	},
+	[3723] = {
+		param = "是熱氣騰騰的燉肉~我還加了萵苣哦",
+		ship_group = 70509,
+		type = 1,
+		id = 3723,
+		flag = 0,
+		option = {
+			{
+				1,
+				"令人期待！"
+			}
+		}
+	},
+	[3724] = {
+		param = "味道一定很不錯，令人期待！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3724,
+		flag = 1
+	},
+	[3725] = {
+		param = "呵呵~不過先不要心急哦，還需要再等等",
+		ship_group = 70509,
+		type = 1,
+		id = 3725,
+		flag = 1,
+		option = {
+			{
+				2,
+				"難道還有什麼未完成的步驟？"
+			}
+		}
+	},
+	[3726] = {
+		param = "難道還有什麼未完成的步驟？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3726,
+		flag = 2
+	},
+	[3727] = {
+		param = "嗯~在把飯菜送到指揮室之前，需要先冷卻呢",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3727,
+		flag = 2
+	},
+	[3728] = {
+		param = "我來試試溫度",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3728,
+		flag = 2
+	},
+	[3729] = {
+		param = "不行，還有些燙……",
+		ship_group = 70509,
+		type = 1,
+		id = 3729,
+		flag = 2,
+		option = {
+			{
+				3,
+				"其實熱一點也沒關係……"
+			}
+		}
+	},
+	[3730] = {
+		param = "其實熱一點也沒關係的，吃飯前多等一下就好",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3730,
+		flag = 3
+	},
+	[3731] = {
+		param = "那怎麼能行呢，指揮官工作已經很辛苦了",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3731,
+		flag = 3
+	},
+	[3732] = {
+		param = "好不容易到了午休時間，還要花時間等飯菜降溫實在是太浪費了",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3732,
+		flag = 3
+	},
+	[3733] = {
+		param = "好了，現在飯菜的溫度正合適，暖暖的又不會燙到舌頭",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3733,
+		flag = 3
+	},
+	[3734] = {
+		param = "我裝到保溫便當盒裡面了~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3734,
+		flag = 3
+	},
+	[3735] = {
+		param = "然後是餐具圍裙和毛巾……",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3735,
+		flag = 3
+	},
+	[3736] = {
+		param = "也準備好了~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3736,
+		flag = 3
+	},
+	[3737] = {
+		param = "好了，指揮官，我準備出發了~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3737,
+		flag = 3
+	},
+	[3738] = {
+		param = "乖乖在指揮室裡等午餐~",
+		ship_group = 70509,
+		type = 1,
+		id = 3738,
+		flag = 3,
+		option = {
+			{
+				4,
+				"好的！"
+			},
+			{
+				5,
+				"好的，媽媽！"
+			}
+		}
+	},
+	[3739] = {
+		param = "好的！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3739,
+		flag = 4
+	},
+	[3740] = {
+		param = "好的，妈妈！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3740,
+		flag = 5
+	},
+	[3741] = {
+		param = "不好了，指揮官你看天氣預報了嗎？",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3741,
+		flag = 0
+	},
+	[3742] = {
+		param = "今天大降溫了！",
+		ship_group = 70509,
+		type = 1,
+		id = 3742,
+		flag = 0,
+		option = {
+			{
+				1,
+				"毛毯在……"
+			}
+		}
+	},
+	[3743] = {
+		param = "毛毯在沙發左側抽屜，暖手器已經充好電，熱咖啡也煮好了，溫度不燙不涼",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3743,
+		flag = 1
+	},
+	[3744] = {
+		param = "欸欸？！室內防寒的注意事項指揮官你已經清楚了啊……",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3744,
+		flag = 1
+	},
+	[3745] = {
+		param = "不過我記得你下午還要出門參加會議……",
+		ship_group = 70509,
+		type = 1,
+		id = 3745,
+		flag = 1,
+		option = {
+			{
+				2,
+				"我已經準備好了……"
+			}
+		}
+	},
+	[3746] = {
+		param = "我已經準備保暖內衣，暖手器就在制服口袋裡，衣帽架上還有加厚外套",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3746,
+		flag = 2
+	},
+	[3747] = {
+		param = "呼……太好了，這樣就萬無一失了呢",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3747,
+		flag = 2
+	},
+	[3748] = {
+		param = "不過總覺得還缺點什麼……",
+		ship_group = 70509,
+		type = 1,
+		id = 3748,
+		flag = 2,
+		option = {
+			{
+				3,
+				"……還缺點什麼？"
+			}
+		}
+	},
+	[3749] = {
+		param = "……還缺點什麼？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3749,
+		flag = 3
+	},
+	[3750] = {
+		param = "嗯……還沒想到",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3750,
+		flag = 3
+	},
+	[3751] = {
+		param = "但是這麼冷的天，你出門一定會冷的",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3751,
+		flag = 3
+	},
+	[3752] = {
+		param = "到底還缺點什麼呢……",
+		ship_group = 70509,
+		type = 1,
+		id = 3752,
+		flag = 3,
+		option = {
+			{
+				4,
+				"不，已經不缺了！"
+			}
+		}
+	},
+	[3753] = {
+		param = "不，我覺得已經不缺了！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3753,
+		flag = 4
+	},
+	[3754] = {
+		param = "可是今天大降溫，如果沒有做好準備的話……真的會冷的",
+		ship_group = 70509,
+		type = 1,
+		id = 3754,
+		flag = 4,
+		option = {
+			{
+				5,
+				"有一種冷叫……"
+			}
+		}
+	},
+	[3755] = {
+		param = "有一種冷叫……喀山覺得你冷？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3755,
+		flag = 5
+	},
+	[3756] = {
+		param = "對，沒錯，就是這個！",
+		ship_group = 70509,
+		type = 1,
+		id = 3756,
+		flag = 5,
+		option = {
+			{
+				6,
+				"……?"
+			}
+		}
+	},
+	[3757] = {
+		param = "……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3757,
+		flag = 6
+	},
+	[3758] = {
+		param = "指揮官，你缺少了喀山呀！",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3758,
+		flag = 6
+	},
+	[3759] = {
+		param = "下午開會的時候我跟你一起去，這樣不管路上天氣怎麼變，你都不會冷了！",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3759,
+		flag = 6
+	},
+	[3760] = {
+		param = "我去做些準備，待會指揮室見~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3760,
+		flag = 6
+	},
+	[3761] = {
+		param = "指揮官，今天外面好冷呢",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3761,
+		flag = 0
+	},
+	[3762] = {
+		param = "我送了毛毯來給你暖暖身體~",
+		ship_group = 70509,
+		type = 1,
+		id = 3762,
+		flag = 0,
+		option = {
+			{
+				1,
+				"指揮室裡的毛毯已經……"
+			}
+		}
+	},
+	[3763] = {
+		param = "不用擔心我，指揮室裡的毛毯已經堆成小山了……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3763,
+		flag = 1
+	},
+	[3764] = {
+		param = "倒是妳，也要注意保暖哦",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3764,
+		flag = 1
+	},
+	[3765] = {
+		param = "居然被指揮官反過來提醒了……",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3765,
+		flag = 1
+	},
+	[3766] = {
+		param = "哼哼，不用擔心，我不但穿了大衣，還裹了一層厚厚的毛毯呢",
+		ship_group = 70509,
+		type = 1,
+		id = 3766,
+		flag = 1,
+		option = {
+			{
+				2,
+				"用自己搬運毛毯？"
+			}
+		}
+	},
+	[3767] = {
+		param = "用自己搬運毛毯？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3767,
+		flag = 2
+	},
+	[3768] = {
+		param = "一舉兩得對吧~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3768,
+		flag = 2
+	},
+	[3769] = {
+		param = "唔，雪越下越大了，等到指揮室就不想回去了",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3769,
+		flag = 2
+	},
+	[3770] = {
+		param = "指揮官，我今晚可以留下過夜嗎？",
+		ship_group = 70509,
+		type = 1,
+		id = 3770,
+		flag = 2,
+		option = {
+			{
+				3,
+				"可以……"
+			}
+		}
+	},
+	[3771] = {
+		param = "指揮室裡屋有床，可以睡開",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3771,
+		flag = 3
+	},
+	[3772] = {
+		param = "不過我晚上走之後，你要鎖好門哦",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3772,
+		flag = 3
+	},
+	[3773] = {
+		param = "指揮官晚上居然要冒雪回宿舍嗎？！",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3773,
+		flag = 3
+	},
+	[3774] = {
+		param = "很冷很危險的！",
+		ship_group = 70509,
+		type = 1,
+		id = 3774,
+		flag = 3,
+		option = {
+			{
+				4,
+				"好像是哦……"
+			}
+		}
+	},
+	[3775] = {
+		param = "好像是哦……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3775,
+		flag = 4
+	},
+	[3776] = {
+		param = "那我晚上也留下來？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3776,
+		flag = 4
+	},
+	[3777] = {
+		param = "當然啦~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3777,
+		flag = 4
+	},
+	[3778] = {
+		param = "今晚，就暫時把指揮室當成我們的小家吧~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3778,
+		flag = 4
+	},
+	[3779] = {
+		param = "反正指揮室裡生活用品齊全，已經和宿舍幾乎沒有差別了呢",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3779,
+		flag = 4
+	},
+	[3780] = {
+		param = "不過食材還是用新鮮的比較好……",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3780,
+		flag = 4
+	},
+	[3781] = {
+		param = "順路再買些食材好了~",
+		ship_group = 70509,
+		type = 1,
+		id = 3781,
+		flag = 4,
+		option = {
+			{
+				5,
+				"……裹著毛毯去買嗎？"
+			}
+		}
+	},
+	[3782] = {
+		param = "……裹著毛毯去買嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3782,
+		flag = 5
+	},
+	[3783] = {
+		param = "沒錯~等買了東西之後還能變成購物袋呢~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3783,
+		flag = 5
+	},
+	[3784] = {
+		param = "等今晚吃完飯之後再洗個熱水澡~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3784,
+		flag = 5
+	},
+	[3785] = {
+		param = "然後，在溫暖的被窩裡聽我來講睡前故事吧？",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3785,
+		flag = 5
+	},
+	[3786] = {
+		param = "我準備了很多北方聯合的小故事呢，你一定會喜歡的~",
+		ship_group = 70509,
+		type = 1,
+		id = 3786,
+		flag = 5,
+		option = {
+			{
+				6,
+				"已經開始期待了……"
+			}
+		}
+	},
+	[3787] = {
+		param = "已經開始期待了……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3787,
+		flag = 6
+	},
+	[3788] = {
+		param = "呵呵~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3788,
+		flag = 6
+	},
+	[3789] = {
+		param = "今晚，會是個很長很長的雪夜呢~",
+		ship_group = 70509,
+		option = "",
+		type = 1,
+		id = 3789,
+		flag = 6
+	},
+	[3790] = {
+		param = "指揮官在嗎！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3790,
+		flag = 0
+	},
+	[3791] = {
+		param = "我剛剛完成了新的機械發明哦！要不要來體驗看看？",
+		ship_group = 70208,
+		type = 1,
+		id = 3791,
+		flag = 0,
+		option = {
+			{
+				1,
+				"好奇"
+			}
+		}
+	},
+	[3792] = {
+		param = "好奇，是什麼樣的機械發明？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3792,
+		flag = 1
+	},
+	[3793] = {
+		param = "鏘鏘！其名為全自動防止打瞌睡重型機器人！",
+		ship_group = 70208,
+		type = 1,
+		id = 3793,
+		flag = 1,
+		option = {
+			{
+				2,
+				"[惊]"
+			}
+		}
+	},
+	[3794] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3794,
+		flag = 2
+	},
+	[3795] = {
+		param = "每一個字我都懂，連起來就不懂了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3795,
+		flag = 2
+	},
+	[3796] = {
+		param = "所謂全自動，指的是它可以透過多種內建感測器自動監控使用者的狀態自動變換對應的模式，無需額外操作",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3796,
+		flag = 2
+	},
+	[3797] = {
+		param = "所謂防打瞌睡，我在裡面內建了從燒水加熱到咖啡豆研磨再到攪拌混合成品輸出的全套流程",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3797,
+		flag = 2
+	},
+	[3798] = {
+		param = "有了咖啡，自然就可以實現防打瞌睡的設計意圖了",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3798,
+		flag = 2
+	},
+	[3799] = {
+		param = "所謂重型，自然指的是功率和體積！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3799,
+		flag = 2
+	},
+	[3800] = {
+		param = "我不但設置了500L的清水箱、200L的咖啡液儲存箱，還有四輪驅動的底盤和六個機械手臂哦！",
+		ship_group = 70208,
+		type = 1,
+		id = 3800,
+		flag = 2,
+		option = {
+			{
+				3,
+				"……"
+			},
+			{
+				4,
+				"[惊]"
+			}
+		}
+	},
+	[3801] = {
+		param = "…………",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3801,
+		flag = 3
+	},
+	[3802] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3802,
+		flag = 4
+	},
+	[3803] = {
+		param = "聽起來像是一個可以追著人跑的巨型全自動咖啡機？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3803,
+		flag = 0
+	},
+	[3804] = {
+		param = "嗯……不管怎麼說，泡咖啡給人喝的核心功能確實是沒問題",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3804,
+		flag = 0
+	},
+	[3805] = {
+		param = "哼哼哼~指揮官以為泡出來的咖啡只是用來喝的嗎？",
+		ship_group = 70208,
+		type = 1,
+		id = 3805,
+		flag = 0,
+		option = {
+			{
+				5,
+				"……難道不是嗎？"
+			}
+		}
+	},
+	[3806] = {
+		param = "……難道不是嗎？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3806,
+		flag = 5
+	},
+	[3807] = {
+		param = "如果使用者睏到連自己拿咖啡的力氣都沒有了呢？",
+		ship_group = 70208,
+		type = 1,
+		id = 3807,
+		flag = 5,
+		option = {
+			{
+				6,
+				"是個問題……"
+			}
+		}
+	},
+	[3808] = {
+		param = "是個問題……所以這台機器還有自動遞送咖啡的功能？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3808,
+		flag = 6
+	},
+	[3809] = {
+		param = "原來如此，所以才要有機械手臂啊",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3809,
+		flag = 6
+	},
+	[3810] = {
+		param = "不，當遇到這種情況的時候，機械就會自動泡好咖啡，然後潑到使用者臉上！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3810,
+		flag = 6
+	},
+	[3811] = {
+		param = "而六個機械手臂，最高支援同時服務六位使用者哦！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3811,
+		flag = 6
+	},
+	[3812] = {
+		param = "當然了，如果使用者實在太睏，六個機械手臂一起服務一位使用者也是可以的！",
+		ship_group = 70208,
+		type = 1,
+		id = 3812,
+		flag = 6,
+		option = {
+			{
+				7,
+				"簡直太提神了……！"
+			},
+			{
+				8,
+				"[惊]"
+			}
+		}
+	},
+	[3813] = {
+		param = "簡直太提神了……！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3813,
+		flag = 7
+	},
+	[3814] = {
+		param = "哼哼~我也是這麼認為的！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3814,
+		flag = 7
+	},
+	[3815] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3815,
+		flag = 8
+	},
+	[3816] = {
+		param = "指揮官已經驚訝到目瞪口呆了？很好！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3816,
+		flag = 8
+	},
+	[3817] = {
+		param = "既然指揮官喜歡，那就趕緊親自體驗一下效果吧！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3817,
+		flag = 0
+	},
+	[3818] = {
+		param = "我馬上把機器人送去指揮室！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3818,
+		flag = 0
+	},
+	[3819] = {
+		param = "等不及想要看到你的體驗報告了~",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3819,
+		flag = 0
+	},
+	[3820] = {
+		param = "指揮官，今天天氣不錯，我們一起去撿垃圾吧！",
+		ship_group = 70208,
+		type = 1,
+		id = 3820,
+		flag = 0,
+		option = {
+			{
+				1,
+				"[疑惑]"
+			}
+		}
+	},
+	[3821] = {
+		param = "58",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3821,
+		flag = 1
+	},
+	[3822] = {
+		param = "因為零件都用完了嘛！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3822,
+		flag = 1
+	},
+	[3823] = {
+		param = "從明石訂購性價比又有點低……所以乾脆去回收站找找有沒有合適的！",
+		ship_group = 70208,
+		type = 1,
+		id = 3823,
+		flag = 1,
+		option = {
+			{
+				2,
+				"我記得……"
+			}
+		}
+	},
+	[3824] = {
+		param = "我記得妳上週末是不是才去撿了不少……？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3824,
+		flag = 2
+	},
+	[3825] = {
+		param = "是啊，但是做兩棲代步大龍蝦都用完了嘛",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3825,
+		flag = 2
+	},
+	[3826] = {
+		param = "接下來我想做一個全地形代步大蜈蚣，零件缺口巨大！",
+		ship_group = 70208,
+		type = 1,
+		id = 3826,
+		flag = 2,
+		option = {
+			{
+				3,
+				"要不考慮做一條代步機械龍？"
+			}
+		}
+	},
+	[3827] = {
+		param = "要不考慮做一條代步機械龍？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3827,
+		flag = 3
+	},
+	[3828] = {
+		param = "這樣就只用做四條腿了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3828,
+		flag = 3
+	},
+	[3829] = {
+		param = "機械龍做的人太多了！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3829,
+		flag = 3
+	},
+	[3830] = {
+		param = "而且我不太懂空氣動力學，專業對不上！",
+		ship_group = 70208,
+		type = 1,
+		id = 3830,
+		flag = 3,
+		option = {
+			{
+				4,
+				"這麼說來……"
+			}
+		}
+	},
+	[3831] = {
+		param = "這麼說來，妳一直以來做的都是陸上機械呢",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3831,
+		flag = 4
+	},
+	[3832] = {
+		param = "沒錯，被你發現了！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3832,
+		flag = 4
+	},
+	[3833] = {
+		param = "我就喜歡這種大型機械運轉時的轟鳴聲~",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3833,
+		flag = 4
+	},
+	[3834] = {
+		param = "當然，水陸兩棲也勉強在我的發明喜好範圍內哦",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3834,
+		flag = 4
+	},
+	[3835] = {
+		param = "例如前幾天的那把兩棲代步大龍蝦",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3835,
+		flag = 4
+	},
+	[3836] = {
+		param = "主體材料我用了一些廢棄的渦輪引擎和回收鋼材，結構強度沒的說！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3836,
+		flag = 4
+	},
+	[3837] = {
+		param = "水陸兩用，自動駕駛，氮氣加速——搭乘體驗堪比超級跑車！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3837,
+		flag = 4
+	},
+	[3838] = {
+		param = "自動迴避系統還可以自動識別地形並調整行車模式！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3838,
+		flag = 4
+	},
+	[3839] = {
+		param = "內部甚至還有智慧伏特加供應機，保證駕駛者可以隨時隨地來一口！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3839,
+		flag = 4
+	},
+	[3840] = {
+		param = "你說，這麼好的發明！基洛夫為什麼堅決不讓我開它上路呢！",
+		ship_group = 70208,
+		type = 1,
+		id = 3840,
+		flag = 4,
+		option = {
+			{
+				5,
+				"……"
+			},
+			{
+				6,
+				"[惊]"
+			}
+		}
+	},
+	[3841] = {
+		param = "…………",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3841,
+		flag = 5
+	},
+	[3842] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3842,
+		flag = 6
+	},
+	[3843] = {
+		param = "算啦~到時候開全地形代步大蜈蚣上街就是了",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3843,
+		flag = 0
+	},
+	[3844] = {
+		param = "指揮官，我們快出發去垃圾場吧！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3844,
+		flag = 0
+	},
+	[3845] = {
+		param = "萬一被人搶先了可就沒的撿了！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3845,
+		flag = 0
+	},
+	[3846] = {
+		param = "指揮官！上次給你的發明，你都體驗過了嗎？",
+		ship_group = 70208,
+		type = 1,
+		id = 3846,
+		flag = 0,
+		option = {
+			{
+				1,
+				"關於上次的發明……"
+			}
+		}
+	},
+	[3847] = {
+		param = "關於上次的發明，那個叫靠枕壁虎的還不錯",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3847,
+		flag = 1
+	},
+	[3848] = {
+		param = "一到午睡的時候就會自動爬到椅背上，很方便",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3848,
+		flag = 1
+	},
+	[3849] = {
+		param = "嘿嘿~就知道你會喜歡！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3849,
+		flag = 1
+	},
+	[3850] = {
+		param = "不過靠枕壁虎的用途可沒有這麼簡單哦……它還內建了自動禦敵系統呢！",
+		ship_group = 70208,
+		type = 1,
+		id = 3850,
+		flag = 1,
+		option = {
+			{
+				2,
+				"……"
+			},
+			{
+				3,
+				"[惊]"
+			}
+		}
+	},
+	[3851] = {
+		param = "…………",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3851,
+		flag = 2
+	},
+	[3852] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3852,
+		flag = 3
+	},
+	[3853] = {
+		param = "我不要這個，很危險，快拆掉",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3853,
+		flag = 0
+	},
+	[3854] = {
+		param = "哎~可是人在睡著的時候防範會大幅降低欸！",
+		ship_group = 70208,
+		type = 1,
+		id = 3854,
+		flag = 0,
+		option = {
+			{
+				4,
+				"所以……"
+			}
+		}
+	},
+	[3855] = {
+		param = "所以，妳這個會爆炸的靠枕壁虎就會顯得格外危險",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3855,
+		flag = 4
+	},
+	[3856] = {
+		param = "哎呀，這隻壁虎絕對不會爆炸！",
+		ship_group = 70208,
+		type = 1,
+		id = 3856,
+		flag = 4,
+		option = {
+			{
+				5,
+				"理由？"
+			}
+		}
+	},
+	[3857] = {
+		param = "理由？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3857,
+		flag = 5
+	},
+	[3858] = {
+		param = "會爆炸的在給你之前都炸乾淨了！",
+		ship_group = 70208,
+		type = 1,
+		id = 3858,
+		flag = 5,
+		option = {
+			{
+				6,
+				"……"
+			},
+			{
+				7,
+				"[惊]"
+			}
+		}
+	},
+	[3859] = {
+		param = "…………",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3859,
+		flag = 6
+	},
+	[3860] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3860,
+		flag = 7
+	},
+	[3861] = {
+		param = "事實勝於雄辯，它到現在不也沒爆炸嗎~",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3861,
+		flag = 0
+	},
+	[3862] = {
+		param = "所以放心吧！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3862,
+		flag = 0
+	},
+	[3863] = {
+		param = "另外那個電鍋烏龜呢，好用嗎？",
+		ship_group = 70208,
+		type = 1,
+		id = 3863,
+		flag = 0,
+		option = {
+			{
+				8,
+				"好用是好用但是……"
+			}
+		}
+	},
+	[3864] = {
+		param = "好用是好用但是……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3864,
+		flag = 8
+	},
+	[3865] = {
+		param = "除了全自動（實體意義）煮飯之外，妳還給它加了什麼我不知道的功能？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3865,
+		flag = 8
+	},
+	[3866] = {
+		param = "如果加了任何能引發爆炸的防禦模組，請立刻拆掉",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3866,
+		flag = 8
+	},
+	[3867] = {
+		param = "說的好像不加防禦模組我就沒辦法讓它爆炸似的……",
+		ship_group = 70208,
+		type = 1,
+		id = 3867,
+		flag = 8,
+		option = {
+			{
+				9,
+				"？"
+			}
+		}
+	},
+	[3868] = {
+		param = "？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3868,
+		flag = 9
+	},
+	[3869] = {
+		param = "我的意思是！放心吧！電鍋烏龜我只額外增加了一個全自動澆花的功能！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3869,
+		flag = 9
+	},
+	[3870] = {
+		param = "下次有空的時候不妨試試看！",
+		ship_group = 70208,
+		type = 1,
+		id = 3870,
+		flag = 9,
+		option = {
+			{
+				10,
+				"[发呆]"
+			}
+		}
+	},
+	[3871] = {
+		param = "55",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3871,
+		flag = 10
+	},
+	[3872] = {
+		param = "哎呀~不知不覺，已經給指揮官準備了這麼多發明了……！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3872,
+		flag = 10
+	},
+	[3873] = {
+		param = "不過今天，我還有一個發明想要讓指揮官體驗！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3873,
+		flag = 10
+	},
+	[3874] = {
+		param = "這件發明……我可是特意訂做的全新零件，和之前的都不一樣哦！",
+		ship_group = 70208,
+		type = 1,
+		id = 3874,
+		flag = 10,
+		option = {
+			{
+				11,
+				"[疑惑]"
+			}
+		}
+	},
+	[3875] = {
+		param = "58",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3875,
+		flag = 11
+	},
+	[3876] = {
+		param = "這是一個——按照我的樣子做的小型機器人，名叫小奧列格！！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3876,
+		flag = 11
+	},
+	[3877] = {
+		param = "這個機器人內建了視訊通話、遠端遙控、生活小助手等功能",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3877,
+		flag = 11
+	},
+	[3878] = {
+		param = "有了它，我就能一直陪在指揮官身邊啦！",
+		ship_group = 70208,
+		type = 1,
+		id = 3878,
+		flag = 11,
+		option = {
+			{
+				12,
+				"這個會爆炸嗎？"
+			}
+		}
+	},
+	[3879] = {
+		param = "这个会爆炸么？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3879,
+		flag = 12
+	},
+	[3880] = {
+		param = "不會！！！",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3880,
+		flag = 12
+	},
+	[3881] = {
+		param = "大概",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3881,
+		flag = 12
+	},
+	[3882] = {
+		param = "也許",
+		ship_group = 70208,
+		option = "",
+		type = 1,
+		id = 3882,
+		flag = 12
+	},
+	[3883] = {
+		param = "可能",
+		ship_group = 70208,
+		type = 1,
+		id = 3883,
+		flag = 12,
+		option = {
+			{
+				13,
+				"……"
+			},
+			{
+				14,
+				"[惊]"
+			}
+		}
+	},
+	[3884] = {
+		param = "…………",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 3884,
+		flag = 13
+	},
+	[3885] = {
+		param = "41",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 3885,
+		flag = 14
 	},
 	[3996] = {
 		param = "指揮官，有件事需要提醒你一下",

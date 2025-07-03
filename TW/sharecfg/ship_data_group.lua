@@ -293,6 +293,9 @@ pg.ship_data_group = setmetatable({
 		[10325] = {
 			478
 		},
+		[10329] = {
+			693
+		},
 		[10401] = {
 			617
 		},
@@ -1649,6 +1652,9 @@ pg.ship_data_group = setmetatable({
 		[70202] = {
 			434
 		},
+		[70208] = {
+			688
+		},
 		[70206] = {
 			498
 		},
@@ -1690,6 +1696,9 @@ pg.ship_data_group = setmetatable({
 		},
 		[70508] = {
 			628
+		},
+		[70509] = {
+			685
 		},
 		[70701] = {
 			538
@@ -1816,6 +1825,12 @@ pg.ship_data_group = setmetatable({
 		},
 		[90701] = {
 			555
+		},
+		[110101] = {
+			687
+		},
+		[110201] = {
+			686
 		},
 		[960001] = {
 			571
@@ -2325,6 +2340,7 @@ pg.ship_data_group = setmetatable({
 			575,
 			619,
 			478,
+			693,
 			617,
 			52,
 			53,
@@ -2777,6 +2793,7 @@ pg.ship_data_group = setmetatable({
 			627,
 			262,
 			434,
+			688,
 			498,
 			435,
 			588,
@@ -2791,6 +2808,7 @@ pg.ship_data_group = setmetatable({
 			536,
 			587,
 			628,
+			685,
 			538,
 			539,
 			348,
@@ -2833,6 +2851,8 @@ pg.ship_data_group = setmetatable({
 			604,
 			418,
 			555,
+			687,
+			686,
 			571,
 			613,
 			610,
@@ -3075,6 +3095,7 @@ pg.ship_data_group = setmetatable({
 		575,
 		619,
 		478,
+		693,
 		617,
 		52,
 		53,
@@ -3527,6 +3548,7 @@ pg.ship_data_group = setmetatable({
 		627,
 		262,
 		434,
+		688,
 		498,
 		435,
 		588,
@@ -3541,6 +3563,7 @@ pg.ship_data_group = setmetatable({
 		536,
 		587,
 		628,
+		685,
 		538,
 		539,
 		348,
@@ -3583,6 +3606,8 @@ pg.ship_data_group = setmetatable({
 		604,
 		418,
 		555,
+		687,
+		686,
 		571,
 		613,
 		610,
@@ -8113,6 +8138,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[693] = {
+		nationality = 1,
+		type = 3,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 10329,
+		index_id = 98,
+		code = 693,
+		share_group_id = {},
+		property_hexagon = {
+			"A",
+			"C",
+			"E",
+			"C",
+			"C",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：畫出漫天小星星",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[617] = {
 		nationality = 1,
 		type = 4,
@@ -9931,6 +9988,17 @@ pg.base.ship_data_group = {
 				"限時活動：劃破海空之翼",
 				{
 					""
+				},
+				0
+			},
+			{
+				"進行特型艦建造",
+				{
+					"GETBOAT",
+					{
+						projectName = "special",
+						page = 1
+					}
 				},
 				0
 			}
@@ -27078,6 +27146,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[688] = {
+		nationality = 7,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70208,
+		index_id = 565,
+		code = 688,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"D",
+			"E",
+			"C",
+			"C",
+			"B"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：揚起鬱金之旗",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[498] = {
 		nationality = 7,
 		type = 2,
@@ -27606,6 +27706,38 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：雪境迷蹤",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[685] = {
+		nationality = 7,
+		type = 5,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 70509,
+		index_id = 580,
+		code = 685,
+		share_group_id = {},
+		property_hexagon = {
+			"S",
+			"E",
+			"E",
+			"D",
+			"C",
+			"S"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：揚起鬱金之旗",
 				{
 					""
 				},
@@ -29212,6 +29344,70 @@ pg.base.ship_data_group = {
 		description = {
 			{
 				"限時活動：來自鳶尾的天使",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[687] = {
+		nationality = 11,
+		type = 1,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 110101,
+		index_id = 623,
+		code = 687,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"B",
+			"E",
+			"A",
+			"C",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：揚起鬱金之旗",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
+	[686] = {
+		nationality = 11,
+		type = 2,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 110201,
+		index_id = 624,
+		code = 686,
+		share_group_id = {},
+		property_hexagon = {
+			"C",
+			"C",
+			"E",
+			"B",
+			"S",
+			"A"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"限時活動：揚起鬱金之旗",
 				{
 					""
 				},

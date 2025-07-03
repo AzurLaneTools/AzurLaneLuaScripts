@@ -26,7 +26,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			soundeffect = "event:/battle/boom2",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "——哐！——錚！！！",
@@ -722,7 +722,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "一聲巨響後，前方一處封閉區域的牆壁突然爆炸。從形成的大洞中，伴隨著滾滾沙塵，全身黑衣的少女翻滾而出。",

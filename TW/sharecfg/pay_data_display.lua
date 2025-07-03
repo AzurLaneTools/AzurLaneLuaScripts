@@ -4184,6 +4184,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao108",
 		name_display = "特賣禮包I",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4198,32 +4199,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					11
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -4273,6 +4248,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao109",
 		name_display = "特賣禮包II",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4282,32 +4258,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				200
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -4352,6 +4302,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao110",
 		name_display = "特賣禮包III",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4366,32 +4317,6 @@ pg.base.pay_data_display = {
 				2,
 				30114,
 				5
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					13
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -4441,6 +4366,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao111",
 		name_display = "特賣禮包IV",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4455,32 +4381,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					14
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -4530,6 +4430,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao112",
 		name_display = "特賣禮包V",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4539,32 +4440,6 @@ pg.base.pay_data_display = {
 				2,
 				16502,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					15
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -4609,6 +4484,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao113",
 		name_display = "特賣禮包VI",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4623,32 +4499,6 @@ pg.base.pay_data_display = {
 				2,
 				15003,
 				5
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					16
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -4698,6 +4548,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao114",
 		name_display = "特賣禮包VII",
 		akashi_pick = 1,
+		time = "stop",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4712,32 +4563,6 @@ pg.base.pay_data_display = {
 				1,
 				14,
 				60
-			}
-		},
-		time = {
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2024,
-					4,
-					17
-				},
-				{
-					23,
-					59,
-					59
-				}
 			}
 		},
 		display = {
@@ -4787,6 +4612,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao129",
 		name_display = "特賣禮包I",
 		akashi_pick = 1,
+		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4841,7 +4667,6 @@ pg.base.pay_data_display = {
 				60
 			}
 		},
-		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {
@@ -4876,6 +4701,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao130",
 		name_display = "特賣禮包II",
 		akashi_pick = 1,
+		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -4920,7 +4746,6 @@ pg.base.pay_data_display = {
 				200
 			}
 		},
-		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {
@@ -4955,6 +4780,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao131",
 		name_display = "特賣禮包III",
 		akashi_pick = 1,
+		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -5009,7 +4835,6 @@ pg.base.pay_data_display = {
 				200
 			}
 		},
-		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {
@@ -5044,6 +4869,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao132",
 		name_display = "特賣禮包IV",
 		akashi_pick = 1,
+		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -5098,7 +4924,6 @@ pg.base.pay_data_display = {
 				60
 			}
 		},
-		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {
@@ -5133,6 +4958,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao133",
 		name_display = "特賣禮包V",
 		akashi_pick = 1,
+		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -5177,7 +5003,6 @@ pg.base.pay_data_display = {
 				60
 			}
 		},
-		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {
@@ -5212,6 +5037,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao134",
 		name_display = "特賣禮包VI",
 		akashi_pick = 1,
+		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -5266,7 +5092,6 @@ pg.base.pay_data_display = {
 				5
 			}
 		},
-		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {
@@ -5301,6 +5126,7 @@ pg.base.pay_data_display = {
 		airijp_id = "com.hkmanjuu.azurlane.libao135",
 		name_display = "特賣禮包VII",
 		akashi_pick = 1,
+		sub_display = "",
 		skin_inquire_relation = 0,
 		extra_service = 3,
 		show_group = "",
@@ -5355,7 +5181,6 @@ pg.base.pay_data_display = {
 				60
 			}
 		},
-		sub_display = {},
 		ignorePlatform = {},
 		limit_args = {},
 		drop_item = {

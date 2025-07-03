@@ -295,21 +295,24 @@ slot8 = function(slot0, slot1)
 	SetActive(slot0._sigleItemPanel:Find("ship_group"), false)
 	SetActive(slot0._singleItemshipTypeTF, false)
 	SetActive(slot0._sigleItemPanel:Find("left/detail"), false)
+	setActive(slot0._sigleItemPanel:Find("combat_skin"), false)
 
-	slot2 = slot0.singleItemIntro
+	slot2 = slot0._sigleItemPanel:Find("display_panel"):GetComponent(typeof(RectTransform))
+	slot2.sizeDelta = Vector2(slot2.sizeDelta.x, -114.5)
+	slot3 = slot0.singleItemIntro
 
-	SetActive(slot2, true)
-	setText(slot2, slot1.content or "")
+	SetActive(slot3, true)
+	setText(slot3, slot1.content or "")
 
-	slot3 = slot0._sigleItemPanel:Find("left/IconTpl")
+	slot4 = slot0._sigleItemPanel:Find("left/IconTpl")
 
-	setText(slot3:Find("icon_bg/count"), "")
-	SetActive(slot3:Find("icon_bg/startpl"), false)
-	SetCompomentEnabled(slot3:Find("icon_bg"), typeof(Image), not slot1.hideIconBG)
-	SetCompomentEnabled(slot3:Find("icon_bg/frame"), typeof(Image), not slot1.hideIconBG)
-	setFrame(slot3:Find("icon_bg/frame"), slot1.frame or 1)
-	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (slot1.frame or 1), slot3:Find("icon_bg"))
-	GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot3:Find("icon_bg/icon"))
+	setText(slot4:Find("icon_bg/count"), "")
+	SetActive(slot4:Find("icon_bg/startpl"), false)
+	SetCompomentEnabled(slot4:Find("icon_bg"), typeof(Image), not slot1.hideIconBG)
+	SetCompomentEnabled(slot4:Find("icon_bg/frame"), typeof(Image), not slot1.hideIconBG)
+	setFrame(slot4:Find("icon_bg/frame"), slot1.frame or 1)
+	GetImageSpriteFromAtlasAsync("weaponframes", "bg" .. (slot1.frame or 1), slot4:Find("icon_bg"))
+	GetImageSpriteFromAtlasAsync(slot1.iconPath[1], slot1.iconPath[2] or "", slot4:Find("icon_bg/icon"))
 	setText(slot0._sigleItemPanel:Find("display_panel/name_container/name/Text"), slot1.name or "")
 	slot0:Loaded(slot1)
 end
@@ -320,62 +323,80 @@ slot9 = function(slot0, slot1)
 	setActive(slot0._sigleItemPanel:Find("left/IconTpl"):Find("timelimit"), slot1.drop.type == DROP_TYPE_SKIN_TIMELIMIT)
 	updateDrop(slot2, slot1.drop)
 	setActive(slot0._singleItemshipTypeTF, slot1.drop.type == DROP_TYPE_SHIP)
+	setActive(slot0._sigleItemPanel:Find("combat_skin"), false)
+
+	slot3 = slot0._sigleItemPanel:Find("display_panel"):GetComponent(typeof(RectTransform))
+	slot3.sizeDelta = Vector2(slot3.sizeDelta.x, -114.5)
 
 	if slot1.drop.type == DROP_TYPE_SHIP then
 		GetImageSpriteFromAtlasAsync("shiptype", shipType2print(slot1.drop:getConfig("type")), slot0._singleItemshipTypeTF, false)
+	elseif slot1.drop.type == DROP_TYPE_COMBAT_UI_STYLE then
+		slot3.sizeDelta = Vector2(slot3.sizeDelta.x, -170.5)
+		slot5 = UIItemList.New(slot0._sigleItemPanel:Find("combat_skin/elementList"), slot0._sigleItemPanel:Find("combat_skin/elementList/main"))
+
+		slot5:make(function (slot0, slot1, slot2)
+			if slot0 == UIItemList.EventUpdate then
+				slot3 = uv0[slot1 + 1]
+
+				GetImageSpriteFromAtlasAsync("ui/combatskinrare", CombatSkinConst.TYPE_ICON_NAME[slot3], slot2:Find("icon"), true)
+				setScrollText(slot2:Find("TextMask/Text"), i18n("battleui_display" .. slot3))
+			end
+		end)
+		slot5:align(#uv0.item_data_battleui[slot1.drop.id].rare_display)
+		setActive(slot0._sigleItemPanel:Find("combat_skin"), true)
 	end
 
-	slot3 = slot1.drop.type == DROP_TYPE_SHIP
+	slot4 = slot1.drop.type == DROP_TYPE_SHIP
 
-	SetActive(slot0._sigleItemPanel:Find("ship_group"), slot3)
+	SetActive(slot0._sigleItemPanel:Find("ship_group"), slot4)
 
-	if slot3 then
-		slot5 = tobool(getProxy(CollectionProxy):getShipGroup(uv0.ship_data_template[slot1.drop.id].group_type))
+	if slot4 then
+		slot6 = tobool(getProxy(CollectionProxy):getShipGroup(uv0.ship_data_template[slot1.drop.id].group_type))
 
-		SetActive(slot4:Find("unlocked"), slot5)
-		SetActive(slot4:Find("locked"), not slot5)
+		SetActive(slot5:Find("unlocked"), slot6)
+		SetActive(slot5:Find("locked"), not slot6)
 	end
 
 	if slot1.windowSize then
 		slot0._window.sizeDelta = Vector2(slot1.windowSize.x or slot0._defaultSize.x, slot1.windowSize.y or slot0._defaultSize.y)
 	end
 
-	slot6 = slot0._singleItemSubIntroTF
+	slot7 = slot0._singleItemSubIntroTF
 
 	setActive(slot0._countDescTxt, slot0.settings.numUpdate ~= nil)
-	SetActive(slot0.singleItemIntro, slot7 == nil)
+	SetActive(slot0.singleItemIntro, slot8 == nil)
 	setText(slot0._sigleItemPanel:Find("display_panel/name_container/name/Text"), slot1.name or slot1.drop:getConfig("name") or "")
 	UpdateOwnDisplay(slot0._sigleItemPanel:Find("left/own"), slot1.drop)
 	RegisterDetailButton(slot0, slot0._sigleItemPanel:Find("left/detail"), slot1.drop)
 
 	if slot1.iconPreservedAspect then
-		slot9 = slot2:Find("icon_bg/icon")
-		slot10 = slot9:GetComponent(typeof(Image))
-		slot9.pivot = Vector2(0.5, 1)
-		slot11 = slot9.rect.width
-		slot9.sizeDelta = Vector2(-4, slot10.preferredHeight / slot10.preferredWidth * slot11 - slot11 - 4)
-		slot9.anchoredPosition = Vector2(0, -2)
+		slot10 = slot2:Find("icon_bg/icon")
+		slot11 = slot10:GetComponent(typeof(Image))
+		slot10.pivot = Vector2(0.5, 1)
+		slot12 = slot10.rect.width
+		slot10.sizeDelta = Vector2(-4, slot11.preferredHeight / slot11.preferredWidth * slot12 - slot12 - 4)
+		slot10.anchoredPosition = Vector2(0, -2)
 	end
 
 	if slot1.content and slot1.content ~= "" then
-		setText(slot5, slot1.content)
+		setText(slot6, slot1.content)
 	elseif slot1.drop.type == DROP_TYPE_WORLD_COLLECTION then
-		slot1.drop:MsgboxIntroSet(slot1, slot5, slot0._sigleItemPanel:Find("name_mode/name_mask/name"))
+		slot1.drop:MsgboxIntroSet(slot1, slot6, slot0._sigleItemPanel:Find("name_mode/name_mask/name"))
 	else
-		slot1.drop:MsgboxIntroSet(slot1, slot5)
+		slot1.drop:MsgboxIntroSet(slot1, slot6)
 	end
 
 	if slot1.intro then
-		setText(slot5, slot1.intro)
+		setText(slot6, slot1.intro)
 	end
 
-	setText(slot6, slot1.subIntro or slot1.extendDesc or "")
+	setText(slot7, slot1.subIntro or slot1.extendDesc or "")
 
 	if slot1.enabelYesBtn ~= nil then
-		slot9 = slot0._btnContainer:GetChild(1)
+		slot10 = slot0._btnContainer:GetChild(1)
 
-		setButtonEnabled(slot9, slot1.enabelYesBtn)
-		eachChild(slot9, function (slot0)
+		setButtonEnabled(slot10, slot1.enabelYesBtn)
+		eachChild(slot10, function (slot0)
 			GetOrAddComponent(slot0, typeof(CanvasGroup)).alpha = uv0.enabelYesBtn and 1 or 0.3
 		end)
 	end
@@ -1293,3 +1314,5 @@ end
 slot1.closeView = function(slot0)
 	slot0:hide()
 end
+
+return slot1

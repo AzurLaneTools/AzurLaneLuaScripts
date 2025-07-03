@@ -81,6 +81,10 @@ return {
 			}
 		},
 		isShow = function ()
+			if LOCK_SKIN_US and getProxy(PlayerProxy):getRawData().level <= pg.gameset.levellimit_skinentrance.key_value then
+				return false
+			end
+
 			return pg.activity_banner.get_id_list_by_type[GAMEUI_BANNER_12] and #slot0 > 0 and _.any(slot0, function (slot0)
 				return pg.TimeMgr.GetInstance():inTime(pg.activity_banner[slot0].time)
 			end)
@@ -301,19 +305,19 @@ return {
 		end
 	},
 	{
-		banner = "meta_entrance_970304",
+		banner = "meta_entrance_970506",
 		event = ActivityMediator.EVENT_GO_SCENE,
 		data = {
 			SCENE.METACHARACTER,
 			{
-				autoOpenShipConfigID = 9703041
+				autoOpenShipConfigID = 970506
 			}
 		},
 		isShow = function ()
-			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970304) and slot1:isInAct()
+			return getProxy(MetaCharacterProxy):getMetaProgressVOByID(970506) and slot1:isInAct()
 		end,
 		isTip = function ()
-			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970304):isPassType() then
+			if getProxy(MetaCharacterProxy):getMetaProgressVOByID(970506):isPassType() then
 				return false
 			end
 

@@ -1,6 +1,7 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
+		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
@@ -9,32 +10,6 @@ pg.activity_banner = {
 			{
 				wrap = 2
 			}
-		},
-		time = {
-			{
-				{
-					2025,
-					6,
-					12
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					2
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
 		}
 	},
 	{
@@ -42,17 +17,15 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
-					6,
-					26
+					7,
+					3
 				},
 				{
 					0,
@@ -86,8 +59,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					12
+					7,
+					3
 				},
 				{
 					0,
@@ -99,7 +72,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					2
+					16
 				},
 				{
 					23,
@@ -114,17 +87,14 @@ pg.activity_banner = {
 		id = 4,
 		pic = "temp4",
 		param = {
-			"scene charge",
-			{
-				wrap = 2
-			}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
-					6,
-					12
+					7,
+					3
 				},
 				{
 					0,
@@ -136,10 +106,10 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					2
+					17
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -147,16 +117,22 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5990",
-		type = 3,
+		type = 2,
 		id = 5,
 		pic = "temp5",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
 		time = {
 			{
 				{
 					2025,
-					6,
-					26
+					7,
+					3
 				},
 				{
 					0,
@@ -168,10 +144,10 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					9
+					17
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -181,16 +157,16 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 6,
-		pic = "temp9",
+		pic = "temp6",
 		param = {
-			"NEW_EDUCATE_SELECT"
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2025,
-					6,
-					26
+					7,
+					3
 				},
 				{
 					0,
@@ -202,7 +178,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					9
+					16
 				},
 				{
 					23,
@@ -213,16 +189,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5979",
+		param = "5901",
 		type = 3,
 		id = 7,
-		pic = "temp6",
+		pic = "temp7",
 		time = {
 			{
 				{
 					2025,
-					6,
-					12
+					7,
+					3
 				},
 				{
 					0,
@@ -234,7 +210,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					3
+					17
 				},
 				{
 					14,
@@ -247,16 +223,19 @@ pg.activity_banner = {
 	{
 		type = 2,
 		id = 8,
-		pic = "temp7",
+		pic = "temp8",
 		param = {
-			"scene court yard"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
-					6,
-					12
+					7,
+					3
 				},
 				{
 					0,
@@ -268,7 +247,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					2
+					16
 				},
 				{
 					23,
@@ -279,18 +258,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5909",
+		type = 3,
 		id = 9,
-		pic = "temp8",
-		param = {
-			"game hall"
-		},
+		pic = "temp9",
 		time = {
 			{
 				{
 					2025,
-					6,
-					26
+					7,
+					3
 				},
 				{
 					0,
@@ -302,10 +279,10 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					9
+					17
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -321,8 +298,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					12
+					7,
+					3
 				},
 				{
 					0,
@@ -334,7 +311,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					2
+					16
 				},
 				{
 					23,
@@ -367,8 +344,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					12
+					7,
+					3
 				},
 				{
 					0,
@@ -380,7 +357,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					2
+					16
 				},
 				{
 					23,
@@ -754,9 +731,9 @@ pg.activity_banner = {
 			2,
 			3,
 			4,
+			5,
 			6,
 			8,
-			9,
 			1000,
 			1001,
 			1002,
@@ -782,8 +759,8 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
-			5,
 			7,
+			9,
 			1003
 		},
 		[9] = {

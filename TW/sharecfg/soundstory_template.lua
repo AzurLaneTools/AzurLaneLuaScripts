@@ -137,9 +137,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					4,
-					18
+					2025,
+					7,
+					3
 				},
 				{
 					0,
@@ -149,9 +149,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					4,
-					24
+					2025,
+					7,
+					9
 				},
 				{
 					23,
@@ -190,9 +190,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					4,
-					18
+					2025,
+					7,
+					3
 				},
 				{
 					0,
@@ -202,9 +202,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					4,
-					24
+					2025,
+					7,
+					9
 				},
 				{
 					23,
@@ -613,6 +613,112 @@ pg.soundstory_template = {
 			3
 		}
 	},
+	[22] = {
+		story_pic = "",
+		name = "甜湯中的心意",
+		story_resource_JP = "soundStory22_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "ss-50207-1",
+		CV_JP = "伊達朱里紗",
+		audition_resource_JP = "ss-50207-2",
+		overview = "海天端著自己精心燉煮的甜湯，輕手輕腳地推開指揮官辦公室的門。\n然而海天不慎摔倒，甜湯灑在了她的身上……",
+		order = 2,
+		audition_text = "嗯……指揮官……這個感覺有、有點突然……",
+		ship_id = 50207,
+		id = 22,
+		captions_color = "#182a5d",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[23] = {
+		story_pic = "",
+		name = "桑拿房中的耐力訓練！……？",
+		story_resource_JP = "soundStory23_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "日野麻裡",
+		audition_resource_JP = "ss-90107-1",
+		overview = "指揮官為幫助莫加多爾提升對高溫的忍耐能力，設計了一場特別的訓練。\n在桑拿房蒸騰的熱氣中，一場「嚴苛」？的耐熱訓練正在進行……",
+		order = 2,
+		audition_text = "我快要受不了了……這種懲罰……對我來說實在太難熬了……",
+		ship_id = 90107,
+		id = 23,
+		captions_color = "#61422b",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					3
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					9
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -628,6 +734,8 @@ pg.soundstory_template = {
 		13,
 		14,
 		20,
-		21
+		21,
+		22,
+		23
 	}
 }

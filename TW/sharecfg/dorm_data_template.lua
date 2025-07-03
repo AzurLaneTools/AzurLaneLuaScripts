@@ -57,7 +57,7 @@ pg.dorm_data_template = {
 		capacity = 40000,
 		consume = 5,
 		id = 2,
-		comfortable = 5,
+		comfortable = 10,
 		fix_ship_number = 6,
 		limit = {
 			24,
@@ -106,7 +106,7 @@ pg.dorm_data_template = {
 		capacity = 40000,
 		consume = 5,
 		id = 3,
-		comfortable = 10,
+		comfortable = 20,
 		fix_ship_number = 6,
 		limit = {
 			28,
@@ -155,7 +155,7 @@ pg.dorm_data_template = {
 		capacity = 40000,
 		consume = 5,
 		id = 4,
-		comfortable = 15,
+		comfortable = 30,
 		fix_ship_number = 6,
 		limit = {
 			34,

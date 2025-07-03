@@ -126,6 +126,7 @@ slot0.listNotificationInterests = function(slot0)
 		PlayerProxy.UPDATED,
 		GAME.HARVEST_RES_DONE,
 		GAME.EVENT_LIST_UPDATE,
+		GAME.EVENT_FINISH_UPDATE,
 		GAME.EVENT_SHOW_AWARDS,
 		GAME.CANCEL_LEARN_TACTICS_DONE,
 		GAME.FINISH_TECHNOLOGY_DONE,
@@ -148,7 +149,7 @@ slot0.handleNotification = function(slot0, slot1)
 		end
 
 		pg.TipsMgr.GetInstance():ShowTips(i18n("commission_get_award", slot4, slot3.outPut))
-	elseif slot2 == GAME.EVENT_LIST_UPDATE then
+	elseif slot2 == GAME.EVENT_LIST_UPDATE or slot2 == GAME.EVENT_FINISH_UPDATE then
 		slot4 = getProxy(EventProxy)
 
 		slot0.viewComponent:OnUpdateEventInfo()

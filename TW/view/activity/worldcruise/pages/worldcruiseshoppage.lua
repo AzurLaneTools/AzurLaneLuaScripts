@@ -59,7 +59,6 @@ end
 slot0.OnInit = function(slot0)
 	slot0.unlockPhase = pg.gameset.battlepass_level.key_value
 	slot0.paintingList = {}
-	slot0.idx2Painting = {}
 end
 
 slot0.Flush = function(slot0, slot1)
@@ -103,20 +102,17 @@ slot0.UpdateSkinItem = function(slot0, slot1, slot2)
 	setText(slot2:Find("buy/Text"), slot3:GetPrice())
 
 	slot8 = slot2:Find("icon_mask/painting")
+	slot9 = slot4:getConfig("painting")
 
-	if slot0.idx2Painting[slot1] ~= slot4:getConfig("painting") then
-		retPaintingPrefab(slot8, slot9, "pifu")
-		setPaintingPrefabAsync(slot8, slot9, "pifu", function ()
-			setLocalPosition(uv0, {
-				x = 0,
-				y = 40
-			})
+	retPaintingPrefab(slot8, slot9, "pifu")
+	setPaintingPrefabAsync(slot8, slot9, "pifu", function ()
+		setLocalPosition(uv0, {
+			x = 0,
+			y = 40
+		})
 
-			uv1.paintingList[uv2] = uv0
-			uv1.idx2Painting[uv3] = uv2
-		end)
-	end
-
+		uv1.paintingList[uv2] = uv0
+	end)
 	setActive(slot2:Find("mask"), not slot3:canPurchase())
 	onButton(slot0, slot2, function ()
 		if not uv0 then
