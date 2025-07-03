@@ -55030,7 +55030,7 @@ pg.furniture_shop_template = {
 				{
 					2025,
 					7,
-					5
+					3
 				},
 				{
 					0,

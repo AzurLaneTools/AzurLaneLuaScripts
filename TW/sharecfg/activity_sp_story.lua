@@ -3178,7 +3178,7 @@ pg.activity_sp_story = {
 	},
 	[182] = {
 		story_type = 1,
-		name = "EPS-2 NA海域净化战",
+		name = "EPS-2 NA海域淨化戰",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-1",
 		change_background = "star_level_bg_188",
@@ -3197,7 +3197,7 @@ pg.activity_sp_story = {
 	},
 	[183] = {
 		story_type = 1,
-		name = "EPS-3 「新港」海军锚地",
+		name = "EPS-3 「新港」海軍錨地",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-2",
 		change_background = "bg_yujin_1",
@@ -3216,7 +3216,7 @@ pg.activity_sp_story = {
 	},
 	[184] = {
 		story_type = 1,
-		name = "EPS-4 补充情报",
+		name = "EPS-4 補充情報",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-3",
 		change_background = "bg_yujin_2",
@@ -3235,7 +3235,7 @@ pg.activity_sp_story = {
 	},
 	[185] = {
 		story_type = 1,
-		name = "EPS-5 扬帆起航",
+		name = "EPS-5 揚帆起航",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-4",
 		change_background = "bg_yujin_cg1",
@@ -3254,7 +3254,7 @@ pg.activity_sp_story = {
 	},
 	[186] = {
 		story_type = 2,
-		name = "EPS-6 郁金首战·其一",
+		name = "EPS-6 鬱金首戰·其一",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-5",
 		change_background = "bg_yujin_3",
@@ -3273,7 +3273,7 @@ pg.activity_sp_story = {
 	},
 	[187] = {
 		story_type = 2,
-		name = "EPS-7 郁金首战·其二",
+		name = "EPS-7 鬱金首戰·其二",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-6",
 		change_background = "bg_yujin_cg2",
@@ -3292,7 +3292,7 @@ pg.activity_sp_story = {
 	},
 	[188] = {
 		story_type = 1,
-		name = "EPS-8 烈火与新芽",
+		name = "EPS-8 烈火與新芽",
 		change_prefab = "",
 		unlock_conditions = "完成EPS-7",
 		change_background = "bg_yujin_2",
