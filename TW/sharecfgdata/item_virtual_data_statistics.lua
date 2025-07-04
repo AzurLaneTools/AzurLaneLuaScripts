@@ -172475,7 +172475,7 @@ _G.pg.base.item_virtual_data_statistics[65589] = {
 
 _G.pg.base.item_virtual_data_statistics[65591] = {
 	drop_gold_max = 0,
-	name = "友善度-小安克拉治",
+	name = "友好度-小安克拉治",
 	display = "用於「畫出漫天小星星 」活動提升角色好感，活動結束後將會消失",
 	type = 98,
 	is_world = 0,
