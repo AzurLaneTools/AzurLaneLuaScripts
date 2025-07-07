@@ -180,7 +180,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……？！可是、我們到目前為止都見過什麼新型兵器啊？！",
+			say = "……？！可是、我們到目前為止都沒見過什麼新型兵器啊？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

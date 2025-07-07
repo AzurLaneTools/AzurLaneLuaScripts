@@ -625,7 +625,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "埃佛森小姐……塞壬實驗機關已經潰敗，妳們也有了艦船艦隊，以未來會變好的。",
+			say = "埃佛森小姐……塞壬實驗機關已經潰敗，妳們也有了艦船艦隊，未來會變好的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
