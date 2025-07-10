@@ -3817,7 +3817,7 @@ pg.ship_data_blueprint = {
 		},
 		gain_item_id = {},
 		normal_display = {
-			"主炮底座+1"
+			"Main Gun base +1"
 		}
 	},
 	[49910] = {
@@ -4184,7 +4184,7 @@ pg.ship_data_blueprint = {
 		},
 		gain_item_id = {},
 		normal_display = {
-			"空袭航空属性Lv.1"
+			"Bombing Raid Lv. 1"
 		}
 	},
 	all = {

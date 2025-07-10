@@ -9951,7 +9951,7 @@ _G.pg.base.item_data_statistics[13053] = {
 
 _G.pg.base.item_data_statistics[13054] = {
 	open_directly = 0,
-	name = "Prototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount T0 Design",
+	name = "Prototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount T0 Design",
 	type = 9,
 	display = "Prototype Triple 180mm B-1-P Model 1932 (Impr.) Main Gun Mount T0 Design",
 	other_resource_cost = "[]",
