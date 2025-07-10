@@ -105,6 +105,23 @@ return {
 					"TRI-DUO"
 				}
 			}
+		},
+		{
+			type = "BattleBuffCastSkill",
+			trigger = {
+				"onAttach"
+			},
+			arg_list = {
+				skill_id = 538,
+				maxWeaponNumber = 1,
+				minWeaponNumber = 1,
+				check_weapon = true,
+				target = "TargetSelf",
+				label = {
+					"TP",
+					"DUO-DUO"
+				}
+			}
 		}
 	}
 }

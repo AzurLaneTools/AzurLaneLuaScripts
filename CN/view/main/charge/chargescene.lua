@@ -420,7 +420,7 @@ slot0.createLive2D = function(slot0)
 end
 
 slot0.checkBuyDone = function(slot0, slot1)
-	if not slot0.live2dChar or slot0.live2dChar:IsLoaded() then
+	if not slot0.live2dChar or not slot0.live2dChar:IsLoaded() then
 		return
 	end
 

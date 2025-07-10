@@ -8,6 +8,12 @@ slot2 = {
 	N = "N"
 }
 slot3 = {
+	N = "N",
+	SR = "SR",
+	SSR = "SSR",
+	R = "R"
+}
+slot4 = {
 	[slot2.N] = {
 		1,
 		2
@@ -29,7 +35,7 @@ slot3 = {
 		5
 	}
 }
-slot4 = {
+slot5 = {
 	ALL = 3,
 	PART = 2,
 	NONE = 1,
@@ -175,17 +181,17 @@ slot0.HideDestroyCondirm = function(slot0)
 end
 
 slot0.OnResolveEquipDone = function(slot0)
-	if slot0.optionStatus[uv0.ALL] == uv1.ALL then
-		slot0:emit(uv2.ON_CLOSE)
-	else
-		for slot4, slot5 in pairs(uv0) do
-			if slot0.optionStatus[slot5] == uv1.ALL then
-				slot0:SetLocalDataByOption(slot5, 1)
-			elseif slot6 == uv1.NONE then
-				slot0:SetLocalDataByOption(slot5, 0)
-			end
+	for slot4, slot5 in pairs(uv0) do
+		if slot0.optionStatus[slot5] == uv1.ALL then
+			slot0:SetLocalDataByOption(slot5, 1)
+		elseif slot6 == uv1.NONE then
+			slot0:SetLocalDataByOption(slot5, 0)
 		end
+	end
 
+	if slot0.optionStatus[uv2.ALL] == uv1.ALL then
+		slot0:emit(uv3.ON_CLOSE)
+	else
 		setActive(slot0.mainPanel, true)
 
 		slot1 = function(slot0)

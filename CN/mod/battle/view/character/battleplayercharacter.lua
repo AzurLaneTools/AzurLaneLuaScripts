@@ -43,6 +43,7 @@ slot5.AddUnitEvent = function(slot0)
 	slot0._unitData:RegisterEventListener(slot0, uv1.WILL_DIE, slot0.onWillDie)
 	slot0._unitData:RegisterEventListener(slot0, uv1.INIT_COOL_DOWN, slot0.onInitWeaponCD)
 	slot0._unitData:RegisterEventListener(slot0, uv1.WEAPON_SECTOR, slot0.onActiveWeaponSector)
+	slot0._unitData:RegisterEventListener(slot0, uv1.CREATE_POINT_AIR_STRIKE, slot0.onCreatePointAirStrike)
 
 	if slot0._unitData:GetFleetRangeAAWeapon() then
 		slot0:RegisterWeaponListener(slot0._unitData:GetFleetRangeAAWeapon())
@@ -74,6 +75,7 @@ slot5.RemoveUnitEvent = function(slot0)
 
 	slot0._unitData:UnregisterEventListener(slot0, uv0.WILL_DIE)
 	slot0._unitData:UnregisterEventListener(slot0, uv0.INIT_COOL_DOWN)
+	slot0._unitData:UnregisterEventListener(slot0, uv0.CREATE_POINT_AIR_STRIKE)
 	uv1.super.RemoveUnitEvent(slot0)
 end
 
@@ -355,6 +357,10 @@ slot5.onActiveWeaponSector = function(slot0, slot1)
 
 		slot0._weaponSectorList[slot4] = nil
 	end
+end
+
+slot5.onCreatePointAirStrike = function(slot0, slot1)
+	slot0:InitChargeWeapon(slot1.Data.weapon)
 end
 
 slot5.OnAnimatorTrigger = function(slot0)

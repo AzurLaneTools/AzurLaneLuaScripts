@@ -1222,6 +1222,9 @@ temp = function()
 					this = true
 				}
 			}
+		},
+		["狮"] = {
+			this = true
 		}
 	}
 end
@@ -4672,6 +4675,18 @@ temp = function()
 	uv0["梅"] = {
 		this = {
 			this = true
+		},
+		["克"] = {
+			["伦"] = {
+				["堡"] = {
+					this = true
+				}
+			},
+			["琳"] = {
+				["达"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -7244,6 +7259,17 @@ temp = function()
 									this = true
 								}
 							}
+						},
+						["库"] = {
+							["尼"] = {
+								["贝"] = {
+									["尔"] = {
+										["蒂"] = {
+											this = true
+										}
+									}
+								}
+							}
 						}
 					}
 				}
@@ -7738,6 +7764,23 @@ temp = function()
 					}
 				}
 			}
+		},
+		["米"] = {
+			["特"] = {
+				["里"] = {
+					["·"] = {
+						["顿"] = {
+							["斯"] = {
+								["科"] = {
+									["伊"] = {
+										this = true
+									}
+								}
+							}
+						}
+					}
+				}
+			}
 		}
 	}
 end
@@ -8067,6 +8110,18 @@ temp = function()
 				["斯"] = {
 					this = true
 				}
+			}
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["堪"] = {
+		["萨"] = {
+			["斯"] = {
+				this = true
 			}
 		}
 	}

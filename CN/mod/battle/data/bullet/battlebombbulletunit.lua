@@ -90,6 +90,15 @@ slot3.SetExplodePosition = function(slot0, slot1)
 	slot0._explodePos.y = uv0.BombDetonateHeight
 end
 
+slot3.SetShiftInfo = function(slot0, slot1, slot2)
+	uv0.super.SetShiftInfo(slot0, slot1, slot2)
+
+	if slot0:GetTemplate().extra_param.currentdrop then
+		slot0._explodePos.x = slot0._explodePos.x + slot0._offsetX
+		slot0._explodePos.z = slot0._explodePos.z + slot0._offsetZ
+	end
+end
+
 slot3.SetTemplateData = function(slot0, slot1)
 	uv0.super.SetTemplateData(slot0, slot1)
 

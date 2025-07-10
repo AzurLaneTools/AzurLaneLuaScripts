@@ -198,6 +198,33 @@ slot0.settings = {
 		isShow = 1
 	}
 }
+slot0.volumeSettings = {
+	{
+		parentId = 11,
+		settingType = 2,
+		playerPrefsname = "volume_bloom_intensity",
+		settingName = "grapihcs3d_setting_bloom",
+		isShow = 1,
+		optionNames = {
+			"grapihcs3d_setting_bloom_optionname0",
+			"grapihcs3d_setting_bloom_optionname1"
+		},
+		options = {
+			0,
+			1
+		},
+		OnSetting = function ()
+			tolua.loadassembly("Yongshi.BLHotUpdate.Runtime.Rendering")
+			ReflectionHelp.RefCallStaticMethod(typeof("BLHX.Rendering.HotUpdate.BloomIntensity"), "SetEnabled", {
+				typeof("System.Boolean")
+			}, {
+				PlayerPrefs.GetInt("volume_bloom_intensity", 0) == 1
+			})
+		end
+	}
+}
+slot0.TYPE_GLOBAL_QUALITY = 1
+slot0.TYPE_VOLUME = 2
 
 slot0.InitDefautQuality = function()
 	if PlayerPrefs.GetInt("dorm3d_graphics_settings_new", 0) == 0 then
@@ -237,21 +264,23 @@ slot0.SettingQuality = function()
 
 	if slot0 ~= 4 then
 		BLHX.Rendering.GlobalQualitySettings.SetOverrideQualitySettings(slot2)
+	else
+		for slot6, slot7 in ipairs(uv0.settings) do
+			if PlayerPrefs.GetInt(slot7.playerPrefsname, -1) ~= -1 then
+				if slot7.settingType == uv0.SettingType.toggle then
+					slot8 = slot8 == 1 and true or false
+				end
 
-		return
-	end
-
-	for slot6, slot7 in ipairs(uv0.settings) do
-		if PlayerPrefs.GetInt(slot7.playerPrefsname, -1) ~= -1 then
-			if slot7.settingType == uv0.SettingType.toggle then
-				slot8 = slot8 == 1 and true or false
+				slot2[slot7.Cname] = slot8
 			end
-
-			slot2[slot7.Cname] = slot8
 		end
+
+		BLHX.Rendering.GlobalQualitySettings.SetOverrideQualitySettings(slot2)
 	end
 
-	BLHX.Rendering.GlobalQualitySettings.SetOverrideQualitySettings(slot2)
+	_.each(uv0.volumeSettings, function (slot0)
+		slot0.OnSetting()
+	end)
 end
 
 slot0.ClearPlayerPrefs = function()
