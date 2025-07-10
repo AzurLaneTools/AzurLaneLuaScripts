@@ -45,36 +45,37 @@ slot0.Ctor = function(slot0, slot1, slot2)
 	end, SFX_CANCEL)
 
 	slot3 = findTF(slot0.menuUI, "tplBattleItem")
-	slot4 = uv0.drop
 
-	for slot8 = 1, 7 do
-		slot9 = slot8
-		slot10 = tf(instantiate(slot3))
-		slot10.name = "battleItem_" .. slot8
+	if uv0.drop and #slot4 > 0 then
+		for slot8 = 1, 7 do
+			slot9 = slot8
+			slot10 = tf(instantiate(slot3))
+			slot10.name = "battleItem_" .. slot8
 
-		setParent(slot10, findTF(slot0.menuUI, "battList/Viewport/Content"))
-		GetSpriteFromAtlasAsync(uv0.ui_atlas, "battleDesc" .. slot8, function (slot0)
-			if slot0 then
-				setImageSprite(findTF(uv0, "state_open/desc"), slot0, true)
-				setImageSprite(findTF(uv0, "state_clear/desc"), slot0, true)
-				setImageSprite(findTF(uv0, "state_current/desc"), slot0, true)
-				setImageSprite(findTF(uv0, "state_closed/desc"), slot0, true)
-			end
-		end)
+			setParent(slot10, findTF(slot0.menuUI, "battList/Viewport/Content"))
+			GetSpriteFromAtlasAsync(uv0.ui_atlas, "battleDesc" .. slot8, function (slot0)
+				if slot0 then
+					setImageSprite(findTF(uv0, "state_open/desc"), slot0, true)
+					setImageSprite(findTF(uv0, "state_clear/desc"), slot0, true)
+					setImageSprite(findTF(uv0, "state_current/desc"), slot0, true)
+					setImageSprite(findTF(uv0, "state_closed/desc"), slot0, true)
+				end
+			end)
 
-		slot12 = findTF(slot10, "icon")
+			slot12 = findTF(slot10, "icon")
 
-		updateDrop(slot12, {
-			type = slot4[slot8][1],
-			id = slot4[slot8][2],
-			amount = slot4[slot8][3]
-		})
-		onButton(slot0._event, slot12, function ()
-			uv0._event:emit(BaseUI.ON_DROP, uv1)
-		end, SFX_PANEL)
-		table.insert(slot0.dropItems, slot12)
-		setActive(slot10, true)
-		table.insert(slot0.battleItems, slot10)
+			updateDrop(slot12, {
+				type = slot4[slot8][1],
+				id = slot4[slot8][2],
+				amount = slot4[slot8][3]
+			})
+			onButton(slot0._event, slot12, function ()
+				uv0._event:emit(BaseUI.ON_DROP, uv1)
+			end, SFX_PANEL)
+			table.insert(slot0.dropItems, slot12)
+			setActive(slot10, true)
+			table.insert(slot0.battleItems, slot10)
+		end
 	end
 end
 
@@ -86,10 +87,15 @@ slot0.update = function(slot0, slot1)
 	setText(slot0.lastText, uv0.GetGameTimes())
 
 	slot0.mgHubData = slot1
+
+	if #slot0.battleItems <= 0 then
+		return
+	end
+
 	slot2 = slot0:getGameUsedTimes(slot1)
 	slot3 = slot0:getGameTimes(slot1)
 
-	for slot7 = 1, 7 do
+	for slot7 = 1, #slot0.battleItems do
 		setActive(findTF(slot0.battleItems[slot7], "state_open"), false)
 		setActive(findTF(slot0.battleItems[slot7], "state_closed"), false)
 		setActive(findTF(slot0.battleItems[slot7], "state_clear"), false)

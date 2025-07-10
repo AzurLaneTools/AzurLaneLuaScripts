@@ -335,7 +335,7 @@ slot0.LoadSkinBg = function(slot0, slot1)
 				slot0.transform:SetSiblingIndex(1)
 
 				if slot0:GetComponent("Canvas") then
-					slot1.sortingOrder = -90
+					slot1.sortingOrder = LayerWeightConst.PAINTING_RARITY_DESIGN_LAYER
 				end
 
 				setActive(slot0, true)

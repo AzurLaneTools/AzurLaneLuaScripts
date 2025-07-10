@@ -160,6 +160,10 @@ pg.pay_data_display = setmetatable({
 		2050,
 		2051,
 		2052,
+		2053,
+		2054,
+		2055,
+		2056,
 		5001,
 		5002,
 		5003,
@@ -15715,6 +15719,256 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40061,
+				1
+			}
+		}
+	},
+	[2053] = {
+		picture = "tech5_display",
+		name = "PR特別計画艦パック·Ⅴ期",
+		type = 0,
+		limit_arg = 0,
+		descrip = "特別計画艦・Ⅴ期と交換できるアイテムなどを入手できます",
+		subject = "PR特別計画艦パック・Ⅴ期",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2000,
+		descrip_extra = "此处不会被看到",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.keyan",
+		extra_gem = 0,
+		id = 2053,
+		airijp_id = "com.yostarjp.azurlane.tech",
+		name_display = "PR特別計画艦パック·Ⅴ期",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2054] = {
+		picture = "tech5_promotion",
+		name = "PR艦船Ⅴ期交換アイテム＋強化ユニットセット",
+		type = 0,
+		limit_arg = 1,
+		descrip = "内容",
+		subject = "PR艦船Ⅴ期交換アイテム＋強化ユニットセット",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 2000,
+		descrip_extra = "*既にPR艦船・Ⅴ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.keyan13",
+		extra_gem = 0,
+		id = 2054,
+		airijp_id = "com.yostarjp.azurlane.tech13",
+		name_display = "PR艦船Ⅴ期交換アイテム\n＋強化ユニットセット",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40062,
+				1
+			}
+		}
+	},
+	[2055] = {
+		picture = "tech5_normal",
+		name = "PR艦船Ⅴ期交換アイテム",
+		type = 0,
+		limit_arg = 2,
+		descrip = "内容",
+		subject = "PR艦船Ⅴ期交換アイテム",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1200,
+		descrip_extra = "*既にPR艦船・Ⅴ期をすべて所持している場合、使用時にアイテムに変換されます（アイコンタップで確認）",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.keyan14",
+		extra_gem = 0,
+		id = 2055,
+		airijp_id = "com.yostarjp.azurlane.tech14",
+		name_display = "PR艦船Ⅴ期交換アイテム",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40063,
+				1
+			}
+		}
+	},
+	[2056] = {
+		picture = "tech5_promotion",
+		name = "PR特別計画艦Ⅴ期強化ユニットセット",
+		type = 0,
+		limit_arg = 3,
+		descrip = "内容",
+		subject = "強化ユニット",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1000,
+		descrip_extra = "購入すると指向型強化ユニット・Ⅴ期×343個を入手可能",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.bilibili.blhx.keyan15",
+		extra_gem = 0,
+		id = 2056,
+		airijp_id = "com.yostarjp.azurlane.tech15",
+		name_display = "強化ユニット",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40064,
 				1
 			}
 		}

@@ -206,18 +206,19 @@ end
 slot0.updateSettlementUI = function(slot0)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
-	slot3 = uv0.scoreNum
-	slot4 = uv0.GetMiniGameData():GetRuntimeData("elements") and #slot2 > 0 and slot2[1] or 0
+	slot2 = uv0.scoreNum
+	slot3 = nil
+	slot3 = (uv0.GetMiniGameData():getConfig("game_room") <= 0 or getProxy(GameRoomProxy):getRoomScore(uv0.GetMiniGameData():getConfig("game_room"))) and (uv0.GetMiniGameData():GetRuntimeData("elements") and #slot4 > 0 and slot4[1] or 0)
 
-	setActive(findTF(slot0.settlementUI, "ad/new"), slot4 < slot3)
+	setActive(findTF(slot0.settlementUI, "ad/new"), slot3 < slot2)
 
-	if slot4 < slot3 then
-		slot0._event:emit(SimpleMGEvent.STORE_SERVER, slot3)
+	if slot3 < slot2 then
+		slot0._event:emit(SimpleMGEvent.STORE_SERVER, slot2)
 	end
 
-	setText(findTF(slot0.settlementUI, "ad/highText"), slot4)
-	setText(findTF(slot0.settlementUI, "ad/currentText"), slot3)
-	slot0._event:emit(SimpleMGEvent.SUBMIT_GAME_SUCCESS)
+	setText(findTF(slot0.settlementUI, "ad/highText"), slot3)
+	setText(findTF(slot0.settlementUI, "ad/currentText"), slot2)
+	slot0._event:emit(SimpleMGEvent.SUBMIT_GAME_SUCCESS, slot2)
 end
 
 slot0.backPressed = function(slot0)

@@ -11992,7 +11992,7 @@ DR特別計画艦について：
 (new!)・一部の特別計画艦は、「強化ユニット」を所持していない時でも、代わりに資金を消費して竜骨編纂を進捗させることができます。
 
 弾幕確認機能とは
- ・特別計画艦Ⅱ期・Ⅲ期・Ⅳ期・Ⅴ期・Ⅵ期・Ⅶ期の「弾幕仕様」を確認できる機能になります。
+ ・特別計画艦Ⅱ期・Ⅲ期・Ⅳ期・Ⅴ期・Ⅵ期・Ⅶ期・Ⅷ期の「弾幕仕様」を確認できる機能になります。
  ・「弾幕確認」をタップすると、該当の艦を使用した模擬戦（イベントバトル）が始まります。
  ※模擬戦における艦の耐久・装填などの性能は実際の性能とは異なります。
 
@@ -14805,6 +14805,71 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79902 = {
 試作型艦上式La-9
 試作型艦上式La-9
 試作型VIT-2（モードチェンジ）
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型406mm/45三連装砲MK7
+127mm連装両用砲MK12
+四連装ボフォース40mm機関砲
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型305mm四連装砲SKC39
+127mmKM40連装砲
+試作型55mm Gerät 58対空砲
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+135mm連装砲Model1938
+試作型533mm四連装魚雷Si 270
+試作型20mmScotti六連装機関 Model1941
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型180mm三連装砲B-1-P Model1932改
+550mm三連装魚雷発射管
+二連装57mm/L60ボフォース対空機関砲 Mle1951
+</color></size>]]
+}
+
+
+_G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
+	tip = [[
+<size=28>
+弾幕確認機能（模擬戦）を起動しますか？
+<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+使用兵装：<color=#92fc63>
+試作型283mm/54.5三連装砲
+100mm二連装九八式高角砲改
+二連装57mm/L60ボフォース対空機関砲 Mle1951
 </color></size>]]
 }
 
@@ -39473,4 +39538,19 @@ _G.pg.base.gametip.battleui_display3 = {
 
 _G.pg.base.gametip.zengke_series_serverinfo = {
 	tip = "サーバー:"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom = {
+	tip = "ブルーム"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
+	tip = "高"
+}
+
+
+_G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
+	tip = "低"
 }

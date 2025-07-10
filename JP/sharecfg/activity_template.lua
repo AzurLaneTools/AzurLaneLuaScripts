@@ -25215,6 +25215,7 @@ pg.activity_template = {
 	[50012] = {
 		mark = 20250626,
 		page_info = "",
+		time = "stop",
 		type = 1,
 		login_pop = 0,
 		config_id = 4,
@@ -25223,37 +25224,11 @@ pg.activity_template = {
 		title_res_tag = "",
 		id = 50012,
 		page_core = "",
-		config_data = {},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
+		config_data = {}
 	},
 	[50013] = {
 		mark = 20250626,
+		time = "stop",
 		type = 93,
 		login_pop = 0,
 		config_id = 0,
@@ -25267,33 +25242,6 @@ pg.activity_template = {
 			3003,
 			3004,
 			3005
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		},
 		page_info = {
 			class_name = "ZengKeMainPage",
@@ -25476,6 +25424,7 @@ pg.activity_template = {
 	[50016] = {
 		mark = 20250626,
 		page_info = "",
+		time = "stop",
 		type = 60,
 		login_pop = 0,
 		config_id = 0,
@@ -25489,38 +25438,12 @@ pg.activity_template = {
 			571,
 			572,
 			573
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50017] = {
 		mark = 20250626,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -25541,38 +25464,12 @@ pg.activity_template = {
 			23891,
 			23892,
 			23893
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50018] = {
 		mark = 20250626,
 		page_info = "",
+		time = "stop",
 		type = 13,
 		login_pop = 0,
 		config_id = 0,
@@ -25583,33 +25480,6 @@ pg.activity_template = {
 		page_core = "",
 		config_data = {
 			23888
-		},
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					10
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
 		}
 	},
 	[50019] = {
@@ -25655,6 +25525,7 @@ pg.activity_template = {
 	[50020] = {
 		mark = 20250626,
 		page_info = "",
+		time = "stop",
 		type = 27,
 		login_pop = 0,
 		config_id = 1,
@@ -25663,34 +25534,7 @@ pg.activity_template = {
 		config_client = "",
 		title_res_tag = "",
 		id = 50020,
-		page_core = "",
-		time = {
-			"timer",
-			{
-				{
-					2025,
-					6,
-					26
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					9
-				},
-				{
-					23,
-					59,
-					59
-				}
-			}
-		}
+		page_core = ""
 	},
 	[50021] = {
 		mark = 20250626,

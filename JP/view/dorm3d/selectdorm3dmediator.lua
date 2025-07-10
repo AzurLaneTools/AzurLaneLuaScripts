@@ -6,6 +6,7 @@ slot0.OPEN_INVITE_LAYER = "SelectDorm3DMediator.OPEN_INVITE_LAYER"
 slot0.OPEN_ROOM_UNLOCK_WINDOW = "SelectDorm3DMediator.OPEN_ROOM_UNLOCK_WINDOW"
 slot0.OPEN_INS_LAYER = "SelectDorm3DMediator.OPEN_INS_LAYER"
 slot0.OPEN_SHOP_LAYER = "SelectDorm3DMediator.OPEN_SHOP_LAYER"
+slot0.OPEN_SETTING_LAYER = "SelectDorm3DMediator.OPEN_SETTING_LAYER"
 
 slot0.register = function(slot0)
 	slot0:bind(uv0.ON_DORM, function (slot0, slot1)
@@ -56,6 +57,12 @@ slot0.register = function(slot0)
 			viewComponent = Dorm3dShopUI,
 			mediator = Dorm3dShopMediator,
 			onRemoved = slot1
+		}))
+	end)
+	slot0:bind(uv0.OPEN_SETTING_LAYER, function (slot0)
+		uv0:addSubLayers(Context.New({
+			viewComponent = Dorm3dSettingScene,
+			mediator = NewSettingsMediator
 		}))
 	end)
 

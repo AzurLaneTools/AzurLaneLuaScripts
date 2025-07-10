@@ -817,14 +817,16 @@ slot8.fireChargeWeapon = function(slot0, slot1, slot2, slot3)
 		end)
 	end
 
-	if slot2 then
-		if slot0._IFF == uv0.FRIENDLY_CODE then
-			slot0._chargeWeaponVO:PlayCutIn(slot4, 1 / uv0.FOCUS_MAP_RATE)
+	if slot1:GetType() == uv0.EquipmentType.POINT_AIR_STRIKE then
+		slot1:Fire(slot3)
+	elseif slot2 then
+		if slot0._IFF == uv1.FRIENDLY_CODE then
+			slot0._chargeWeaponVO:PlayCutIn(slot4, 1 / uv1.FOCUS_MAP_RATE)
 		end
 
 		slot0._chargeWeaponVO:PlayFocus(slot4, slot5)
 	else
-		if slot0._IFF == uv0.FRIENDLY_CODE then
+		if slot0._IFF == uv1.FRIENDLY_CODE then
 			slot0._chargeWeaponVO:PlayCutIn(slot4, 1)
 		end
 

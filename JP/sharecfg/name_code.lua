@@ -2899,10 +2899,17 @@ pg.name_code = {
 		nation = 0
 	},
 	[549] = {
-		name = "U37",
+		name = "U-37",
 		type = 1,
 		id = 549,
-		code = "优米娜",
+		code = "U-37",
+		nation = 0
+	},
+	[550] = {
+		name = "メークレンブルク",
+		type = 1,
+		id = 550,
+		code = "メークレンブルク",
 		nation = 0
 	},
 	[10000] = {

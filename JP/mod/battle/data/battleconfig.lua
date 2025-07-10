@@ -417,6 +417,7 @@ slot0.FLEET_ATTR_CAP = {
 	huohun = 5,
 	shenpanzhijian = 6,
 	ReisalinAP = 99,
+	KansasSP = 3,
 	Judgement = 12,
 	yuanchou = 9
 }

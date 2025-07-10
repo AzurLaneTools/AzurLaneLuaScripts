@@ -679,11 +679,6 @@ slot0.SetVisible = function(slot0, slot1)
 		return
 	end
 
-	Input.gyro.enabled = PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
-
-	slot0:setReactPos(true)
-	slot0:Reset()
-
 	if slot1 then
 		slot0._readlyToStop = false
 
@@ -702,6 +697,7 @@ slot0.SetVisible = function(slot0, slot1)
 			slot0:resetL2dData()
 		end
 	else
+		slot0:setReactPos(true)
 		slot0:saveLive2dData()
 		slot0:loadLive2dData()
 

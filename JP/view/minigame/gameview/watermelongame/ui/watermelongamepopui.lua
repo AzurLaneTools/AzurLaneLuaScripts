@@ -202,10 +202,11 @@ slot0.updateSettlementUI = function(slot0)
 	GetComponent(findTF(slot0.settlementUI, "ad"), typeof(Animator)):Play("settlement", -1, 0)
 
 	slot2 = slot0._gameVo.scoreNum
+	slot3 = nil
 
-	setActive(findTF(slot0.settlementUI, "ad/new"), (getProxy(MiniGameProxy):GetHighScore(slot0._gameVo.gameId) and #slot3 > 0 and slot3[1] or 0) < slot2)
+	setActive(findTF(slot0.settlementUI, "ad/new"), ((slot0._gameVo.mgData:getConfig("game_room") <= 0 or getProxy(GameRoomProxy):getRoomScore(slot0._gameVo.mgData:getConfig("game_room"))) and (getProxy(MiniGameProxy):GetHighScore(slot0._gameVo.gameId) and #slot4 > 0 and slot4[1] or 0)) < slot2)
 
-	if slot2 > 0 and slot4 < slot2 then
+	if slot2 > 0 and slot3 < slot2 then
 		slot0._event:emit(WatermelonGameEvent.STORE_SERVER, {
 			slot2,
 			1
@@ -213,8 +214,8 @@ slot0.updateSettlementUI = function(slot0)
 	end
 
 	setText(findTF(slot0.settlementUI, "ad/currentText"), slot2)
-	setText(findTF(slot0.settlementUI, "ad/highText"), slot4)
-	slot0._event:emit(WatermelonGameEvent.SUBMIT_GAME_SUCCESS)
+	setText(findTF(slot0.settlementUI, "ad/highText"), slot3)
+	slot0._event:emit(WatermelonGameEvent.SUBMIT_GAME_SUCCESS, slot2)
 end
 
 slot0.backPressed = function(slot0)

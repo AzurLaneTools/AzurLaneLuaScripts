@@ -28,7 +28,7 @@ slot0.handleNotification = function(slot0, slot1)
 	if slot1:getName() == GAME.DESTROY_EQUIPMENTS_DONE then
 		slot0.viewComponent:HideDestroyCondirm()
 
-		if table.getCount(slot3) ~= 0 then
+		if getProxy(ContextProxy):getCurrentContext() and slot4.mediator.__cname ~= "EquipmentMediator" and table.getCount(slot3) ~= 0 then
 			slot0.viewComponent:emit(BaseUI.ON_AWARD, {
 				items = slot3,
 				title = AwardInfoLayer.TITLE.ITEM,

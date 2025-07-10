@@ -90,11 +90,7 @@ slot0.initEvent = function(slot0)
 		getProxy(MiniGameProxy):UpdataHighScore(uv0.game_id, slot1)
 	end)
 	slot0:bind(PipeGameEvent.SUBMIT_GAME_SUCCESS, function (slot0, slot1, slot2)
-		if not uv0.sendSuccessFlag then
-			uv0.sendSuccessFlag = true
-
-			uv0:SendSuccess(uv1.scoreNum)
-		end
+		uv0:SendSuccess(uv1.scoreNum)
 	end)
 	slot0:bind(PipeGameEvent.ADD_SCORE, function (slot0, slot1, slot2)
 		uv0:addScore(slot1.num)

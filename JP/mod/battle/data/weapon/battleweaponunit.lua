@@ -236,6 +236,10 @@ slot9.SetHostData = function(slot0, slot1)
 
 		slot0.outOfFireRange = slot0.IsOutOfSquare
 		slot0.IsOutOfFireArea = slot0.IsOutOfSquare
+	elseif slot0._tmpData.search_type == uv0.STRIKE then
+		slot0:cacheSquareData()
+
+		slot0.outOfFireRange = slot0.IsOutOfSquare
 	end
 
 	if slot0:GetDirection() == uv1.UnitDir.RIGHT then
@@ -329,8 +333,12 @@ slot9.UpdateReload = function(slot0)
 end
 
 slot9.CheckPreCast = function(slot0)
-	for slot4, slot5 in pairs(slot0:GetFilteredList()) do
-		return true
+	if slot0._tmpData.search_type == uv0.STRIKE then
+		return not slot0:IsPointOutOfSquare(slot0._host:GetStrikePoint())
+	else
+		for slot4, slot5 in pairs(slot0:GetFilteredList()) do
+			return true
+		end
 	end
 
 	return false
@@ -362,11 +370,15 @@ slot9.TrackingFunc = {
 }
 
 slot9.Tracking = function(slot0)
+	if slot0._tmpData.search_type == uv0.STRIKE then
+		return nil
+	end
+
 	slot2 = nil
 	slot3 = slot0:GetFilteredList()
 
-	if (not uv0.GetCurrentTargetSelect(slot0._host) or (not uv1.TrackingFunc[slot1] or slot4(slot0, slot3)) and slot0:TrackingTag(slot3, slot1)) and slot0:TrackingNearest(slot3) and uv0.GetCurrentGuardianID(slot2) then
-		slot4 = uv0.GetCurrentGuardianID(slot2)
+	if (not uv1.GetCurrentTargetSelect(slot0._host) or (not uv2.TrackingFunc[slot1] or slot4(slot0, slot3)) and slot0:TrackingTag(slot3, slot1)) and slot0:TrackingNearest(slot3) and uv1.GetCurrentGuardianID(slot2) then
+		slot4 = uv1.GetCurrentGuardianID(slot2)
 
 		for slot8, slot9 in ipairs(slot3) do
 			if slot9:GetUniqueID() == slot4 then
@@ -589,18 +601,22 @@ slot9.IsOutOfSector = function(slot0, slot1)
 end
 
 slot9.IsOutOfSquare = function(slot0, slot1)
-	slot3 = false
-	slot4 = (slot1:GetPosition().x - slot0._hostPos.x) * slot0:GetDirection()
+	return slot0:IsPointOutOfSquare(slot1:GetPosition())
+end
+
+slot9.IsPointOutOfSquare = function(slot0, slot1)
+	slot2 = false
+	slot3 = (slot1.x - slot0._hostPos.x) * slot0:GetDirection()
 
 	if slot0._backRange < 0 then
-		if slot4 > 0 and slot4 <= slot0._frontRange and math.abs(slot0._backRange) <= slot4 then
-			slot3 = true
+		if slot3 > 0 and slot3 <= slot0._frontRange and math.abs(slot0._backRange) <= slot3 then
+			slot2 = true
 		end
-	elseif slot4 > 0 and slot4 <= slot0._frontRange or slot4 < 0 and math.abs(slot4) < slot0._backRange then
-		slot3 = true
+	elseif slot3 > 0 and slot3 <= slot0._frontRange or slot3 < 0 and math.abs(slot3) < slot0._backRange then
+		slot2 = true
 	end
 
-	if not slot3 then
+	if not slot2 then
 		return true
 	else
 		return false
@@ -897,7 +913,7 @@ end
 
 slot9.Spawn = function(slot0, slot1, slot2)
 	slot3 = nil
-	slot4 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot2 ~= nil or Vector3.zero) and (slot2:GetBeenAimedPosition() or slot2:GetPosition()))
+	slot4 = slot0._dataProxy:CreateBulletUnit(slot1, slot0._host, slot0, (slot0._tmpData.search_type ~= uv0.STRIKE or slot0._host:GetStrikePoint()) and (slot2 ~= nil or Vector3.zero) and (slot2:GetBeenAimedPosition() or slot2:GetPosition()))
 
 	slot0:setBulletSkin(slot4, slot1)
 	slot0:setBulletOrb(slot4)

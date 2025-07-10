@@ -305,6 +305,18 @@ slot3.onAllInStrikeSteady = function(slot0, slot1, slot2, slot3)
 	slot0:onFire(slot1, slot2, slot3)
 end
 
+slot3.onPointStrikeReady = function(slot0, slot1, slot2, slot3)
+	slot0:onFire(slot1, slot2, slot3)
+end
+
+slot3.onPointStrikeSteady = function(slot0, slot1, slot2, slot3)
+	slot0:onFire(slot1, slot2, slot3)
+end
+
+slot3.onPointStrike = function(slot0, slot1, slot2, slot3)
+	slot0:onFire(slot1, slot2, slot3)
+end
+
 slot3.onWeaonInterrupt = function(slot0, slot1, slot2, slot3)
 	slot0:onTrigger(slot1, slot2)
 end

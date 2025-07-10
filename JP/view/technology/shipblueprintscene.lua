@@ -1197,17 +1197,6 @@ slot0.updateModPanel = function(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.calcMaxBtn, not slot5)
 
-	slot12 = false
-
-	if not pg.NewStoryMgr.GetInstance():IsPlayed("PHANTOM_HELP") then
-		slot12 = true
-
-		pg.NewGuideMgr.GetInstance():Play("PHANTOM_HELP")
-		pg.m02:sendNotification(GAME.STORY_UPDATE, {
-			storyId = "PHANTOM_HELP"
-		})
-	end
-
 	if slot1:canFateSimulation() then
 		onButton(slot0, slot0.fittingBtn, function ()
 			if uv0.isSwitchAnim then
@@ -1238,10 +1227,10 @@ slot0.updateModPanel = function(slot0)
 		end, SFX_PANEL)
 		slot0:updateFittingPanel()
 
-		if not slot12 then
-			slot14 = pg.NewStoryMgr.GetInstance()
+		if not inGuide then
+			slot13 = pg.NewStoryMgr.GetInstance()
 
-			slot14:Play(slot1:getConfig("luck_story"), function (slot0)
+			slot13:Play(slot1:getConfig("luck_story"), function (slot0)
 				if slot0 then
 					slot1 = uv0
 
@@ -1253,8 +1242,8 @@ slot0.updateModPanel = function(slot0)
 		end
 	end
 
-	setActive(slot0.calcPanel, not slot13)
-	setActive(slot0.fittingBtn, slot13)
+	setActive(slot0.calcPanel, not slot12)
+	setActive(slot0.fittingBtn, slot12)
 	setActive(slot0.fittingBtnEffect, false)
 end
 
