@@ -167537,8 +167537,7 @@ _G.pg.base.ship_data_template[199061] = {
 		4
 	},
 	equip_2 = {
-		1,
-		2
+		1
 	},
 	equip_3 = {
 		6,
@@ -167587,8 +167586,7 @@ _G.pg.base.ship_data_template[199062] = {
 		4
 	},
 	equip_2 = {
-		1,
-		2
+		1
 	},
 	equip_3 = {
 		6,
@@ -167638,8 +167636,7 @@ _G.pg.base.ship_data_template[199063] = {
 		4
 	},
 	equip_2 = {
-		1,
-		2
+		1
 	},
 	equip_3 = {
 		6,
@@ -167689,8 +167686,7 @@ _G.pg.base.ship_data_template[199064] = {
 		4
 	},
 	equip_2 = {
-		1,
-		2
+		1
 	},
 	equip_3 = {
 		6,
