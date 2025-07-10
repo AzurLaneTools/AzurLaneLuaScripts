@@ -2569,6 +2569,27 @@ pg.medal_template = {
 		explain1 = "「다시 돌아온 한여름! 」",
 		explain2 = "이벤트"
 	},
+	[200071] = {
+		target_id = "50021",
+		name = "도시 탐색 기념장",
+		target_num = 8,
+		type = 0,
+		is_out_of_print = 0,
+		count_inherit = 0,
+		desc = "당신이야말로 네온 시티에서 가장 예리한 탐색자. 도시 곳곳에 당신의 발자취가 남았고, 모든 수수께끼는 당신의 손에 의해 해결되었다. 축하한다!",
+		next = 0,
+		icon = "9071",
+		page = 2,
+		target_type = 131,
+		start = 0,
+		hide = 0,
+		label = "l_9071",
+		condition = "「네온 시티의 탐색자」 기념 스티커 7개 수집",
+		rank = 1,
+		id = 200071,
+		explain1 = "「네온 시티의 탐색자」",
+		explain2 = "이벤트"
+	},
 	all = {
 		10011,
 		10012,
@@ -2686,6 +2707,7 @@ pg.medal_template = {
 		200031,
 		200041,
 		200051,
-		200061
+		200061,
+		200071
 	}
 }

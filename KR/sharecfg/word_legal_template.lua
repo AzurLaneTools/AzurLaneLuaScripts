@@ -1248,6 +1248,11 @@ temp = function()
 									}
 								}
 							}
+						},
+						["젠"] = {
+							["커"] = {
+								this = true
+							}
 						}
 					}
 				}
@@ -3443,7 +3448,18 @@ temp = function()
 		["와"] = {
 			["카"] = {
 				["제"] = {
-					this = true
+					this = true,
+					["·"] = {
+						M = {
+							E = {
+								T = {
+									A = {
+										this = true
+									}
+								}
+							}
+						}
+					}
 				}
 			}
 		},
@@ -5741,6 +5757,9 @@ temp = function()
 			["1"] = {
 				this = true
 			},
+			["3"] = {
+				this = true
+			},
 			["6"] = {
 				this = true
 			},
@@ -6046,6 +6065,9 @@ temp = function()
 								}
 							}
 						}
+					},
+					["2"] = {
+						this = true
 					}
 				},
 				["2"] = {
@@ -6968,25 +6990,9 @@ end
 temp()
 
 temp = function()
-	uv0["海"] = {
-		["王"] = {
-			["星"] = {
-				this = true
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["奇"] = {
-		["尔"] = {
-			["沙"] = {
-				["治"] = {
-					this = true
-				}
-			}
+	uv0["넵"] = {
+		["튠"] = {
+			this = true
 		}
 	}
 end
@@ -7120,24 +7126,6 @@ end
 temp()
 
 temp = function()
-	uv0["茳"] = {
-		["·"] = {
-			M = {
-				E = {
-					T = {
-						A = {
-							this = true
-						}
-					}
-				}
-			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
 	uv0["준"] = {
 		["요"] = {
 			["·"] = {
@@ -7151,16 +7139,6 @@ temp = function()
 					}
 				}
 			}
-		}
-	}
-end
-
-temp()
-
-temp = function()
-	uv0["넵"] = {
-		["튠"] = {
-			this = true
 		}
 	}
 end

@@ -26,7 +26,7 @@ return {
 			side = 2,
 			bgName = "star_level_bg_650",
 			soundeffect = "event:/battle/boom2",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "―――!!!",
@@ -722,7 +722,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "갑자기 통로 끝의 벽이 폭발하듯 날아가 생긴 큰 구멍에서, 모래 먼지와 함께 검은 옷을 입은 소녀 하나가 굴러 나왔다.",

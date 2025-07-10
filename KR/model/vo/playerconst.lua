@@ -358,4 +358,27 @@ slot0.MergeSameDrops = function(slot0)
 	return slot1
 end
 
+slot0.CheckMedalAllCollectionTrack = function()
+	slot0, slot1 = unpack(getGameset("live_streaming26_data2")[2])
+	slot2 = 0
+	slot3 = getProxy(PlayerProxy):getRawData()
+
+	for slot7, slot8 in pairs(pg.activity_medal_template.get_id_list_by_group) do
+		if slot7 == math.clamp(slot7, slot0, slot1) then
+			if not slot3.activityMedalGroupList[slot7] or not slot3.activityMedalGroupList[slot7]:GetAll() then
+				slot2 = -1
+
+				break
+			else
+				slot2 = slot2 + 1
+			end
+		end
+	end
+
+	if PlayerPrefs.GetInt("MEDAL_ALL_COLLECTION:" .. getProxy(PlayerProxy):getRawData().id, 0) < slot2 then
+		PlayerPrefs.SetInt("MEDAL_ALL_COLLECTION:" .. slot4, slot2)
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAllCollection(20001, slot2))
+	end
+end
+
 return slot0

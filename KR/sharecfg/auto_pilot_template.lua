@@ -11101,6 +11101,204 @@ pg.auto_pilot_template = {
 			}
 		}
 	},
+	[70291] = {
+		id = 70291,
+		name = "2025曾克SP活动 帝国警视长 第二波 全屏陆基飞机1",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = 30
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70292] = {
+		id = 70292,
+		name = "2025曾克SP活动 帝国警视长 第二波 全屏陆基飞机2",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = 18
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70293] = {
+		id = 70293,
+		name = "2025曾克SP活动 帝国警视长 第二波 全屏陆基飞机3",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = 6
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70294] = {
+		id = 70294,
+		name = "2025曾克SP活动 帝国警视长 第二波 全屏陆基飞机4",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = -6
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70295] = {
+		id = 70295,
+		name = "2025曾克SP活动 帝国警视长 第二波 全屏陆基飞机5",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = -18
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
+	[70296] = {
+		id = 70296,
+		name = "2025曾克SP活动 帝国警视长 第二波 全屏陆基飞机6",
+		default = 1,
+		list = {
+			{
+				index = 1,
+				to = 2,
+				type = 2,
+				param = {
+					x = 0,
+					z = -30
+				}
+			},
+			{
+				index = 2,
+				to = 3,
+				type = 2,
+				param = {
+					x = -150,
+					z = 0
+				}
+			},
+			{
+				index = 3,
+				to = 1,
+				type = 0,
+				param = {
+					duration = -1
+				}
+			}
+		}
+	},
 	[75001] = {
 		id = 75001,
 		name = "弹幕挑战1boss",

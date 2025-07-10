@@ -395,6 +395,12 @@ slot0.getShips = function(slot0)
 	return slot1
 end
 
+slot0.getShipList = function(slot0, slot1)
+	return underscore.map(slot1, function (slot0)
+		return uv0.data[slot0] or false
+	end)
+end
+
 slot0.getRawShipCount = function(slot0)
 	slot1 = 0
 

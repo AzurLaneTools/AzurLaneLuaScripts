@@ -660,6 +660,183 @@ pg.activity_medal_template = {
 		id = 597107,
 		medal_asset = "ActivityMedal/597107"
 	},
+	[5002101] = {
+		activity_medal_desc = "밤이 깊어지면 검은 옷을 입은 자가 움직인다. 다음 타깃은 과연 누구일까?",
+		next_medal = 0,
+		item = 65632,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "1",
+		task_id = 21777,
+		activity_medal_name = "스티커: 수수께끼의 검은 옷",
+		id = 5002101,
+		medal_asset = "ActivityMedal/5002101"
+	},
+	[5002102] = {
+		activity_medal_desc = "저쪽이다! 용의자 발견!",
+		next_medal = 0,
+		item = 65633,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "2",
+		task_id = 21778,
+		activity_medal_name = "스티커: 체포 영장",
+		id = 5002102,
+		medal_asset = "ActivityMedal/5002102"
+	},
+	[5002103] = {
+		activity_medal_desc = "이 깃발만 따라와! 다른 관광객의 질문에는 대답하면 안 돼! 절대로!",
+		next_medal = 0,
+		item = 65634,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "3",
+		task_id = 21779,
+		activity_medal_name = "스티커: 가이드 깃발",
+		id = 5002103,
+		medal_asset = "ActivityMedal/5002103"
+	},
+	[5002104] = {
+		activity_medal_desc = "이 녀석이랑 속도를 겨루고 싶다고?",
+		next_medal = 0,
+		item = 65635,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "4",
+		task_id = 21780,
+		activity_medal_name = "스티커: 순찰용 차량",
+		id = 5002104,
+		medal_asset = "ActivityMedal/5002104"
+	},
+	[5002105] = {
+		activity_medal_desc = "토끼 경찰이 현장에 도착했답니다♪ 수사를 지원하러 왔으니 다들 조심하세요~",
+		next_medal = 0,
+		item = 65636,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "5",
+		task_id = 21781,
+		activity_medal_name = "스티커: 토끼 순경",
+		id = 5002105,
+		medal_asset = "ActivityMedal/5002105"
+	},
+	[5002106] = {
+		activity_medal_desc = "모자를 쓰고 조례를 복창하라! 까먹었으면 10번 받아쓰기 시킬 거야!",
+		next_medal = 0,
+		item = 65637,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "6",
+		task_id = 21782,
+		activity_medal_name = "스티커: 제복 모자",
+		id = 5002106,
+		medal_asset = "ActivityMedal/5002106"
+	},
+	[5002107] = {
+		activity_medal_desc = "계속 지켜보고 있어…… 계속…… 계속 말이야……",
+		next_medal = 0,
+		item = 65638,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "7",
+		task_id = 21783,
+		activity_medal_name = "스티커: 도망칠 수 없어",
+		id = 5002107,
+		medal_asset = "ActivityMedal/5002107"
+	},
+	[5002108] = {
+		activity_medal_desc = "진실은 언제나 하나뿐! 범인은…… 바로 너야!",
+		next_medal = 0,
+		item = 65639,
+		remake_task_id = 0,
+		group = 50021,
+		prefab_node = "8",
+		task_id = 21784,
+		activity_medal_name = "기념 스티커: 조사 영상",
+		id = 5002108,
+		medal_asset = "ActivityMedal/5002108"
+	},
+	get_id_list_by_group = {
+		[5711] = {
+			571101,
+			571102,
+			571103,
+			571104,
+			571105,
+			571106,
+			571107,
+			571108
+		},
+		[5769] = {
+			576901,
+			576902,
+			576903,
+			576904,
+			576905,
+			576906,
+			576907,
+			576908
+		},
+		[5812] = {
+			581201,
+			581202,
+			581203,
+			581204,
+			581205,
+			581206,
+			581207,
+			581208
+		},
+		[5875] = {
+			587501,
+			587502,
+			587503,
+			587504,
+			587505,
+			587506,
+			587507,
+			587508
+		},
+		[5913] = {
+			591301,
+			591302,
+			591303,
+			591304,
+			591305,
+			591306,
+			591307,
+			591308
+		},
+		[5970] = {
+			597001,
+			597002,
+			597003,
+			597004,
+			597005,
+			597006,
+			597007,
+			597008
+		},
+		[5971] = {
+			597101,
+			597102,
+			597103,
+			597104,
+			597105,
+			597106,
+			597107
+		},
+		[50021] = {
+			5002101,
+			5002102,
+			5002103,
+			5002104,
+			5002105,
+			5002106,
+			5002107,
+			5002108
+		}
+	},
 	all = {
 		571101,
 		571102,
@@ -715,6 +892,14 @@ pg.activity_medal_template = {
 		597104,
 		597105,
 		597106,
-		597107
+		597107,
+		5002101,
+		5002102,
+		5002103,
+		5002104,
+		5002105,
+		5002106,
+		5002107,
+		5002108
 	}
 }

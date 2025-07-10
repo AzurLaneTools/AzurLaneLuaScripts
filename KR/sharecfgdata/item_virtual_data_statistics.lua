@@ -172628,8 +172628,8 @@ _G.pg.base.item_virtual_data_statistics[65619] = {
 
 _G.pg.base.item_virtual_data_statistics[65620] = {
 	drop_gold_max = 0,
-	name = "호감도 - BLACK★ROCK SHOOTER",
-	display = "「환상의 미혹자」의 콜라보 캐릭터 호감도. 이벤트 종료 후에는 제거된다.",
+	name = "호감도 - 블랙★록 슈터",
+	display = "「환영 속 방황자」의 콜라보 캐릭터 호감도. 이벤트 종료 후에는 제거된다.",
 	type = 98,
 	is_world = 0,
 	shop_id = -1,
@@ -172768,6 +172768,281 @@ _G.pg.base.item_virtual_data_statistics[65626] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65626,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65630] = {
+	drop_gold_max = 0,
+	name = "시티 영화 티켓",
+	display = "「네온 시티의 탐색자」 보상 교환용 아이템. 이벤트 종료 후에는 제거된다.",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/zengkehaijunshangjiang_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	display_icon = "",
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65630,
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65631] = {
+	drop_gold_max = 0,
+	name = "도시 탐색 기념장",
+	display = "당신이야말로 네온 시티에서 가장 예리한 탐색자. 도시 곳곳에 당신의 발자취가 남았고, 모든 수수께끼는 당신의 손에 의해 해결되었다. 축하한다!",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Medal/9071",
+	order = 0,
+	rarity = 5,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65631,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65632] = {
+	drop_gold_max = 0,
+	name = "스티커: 수수께끼의 검은 옷",
+	display = "밤이 깊어지면 검은 옷을 입은 자가 움직인다. 다음 타깃은 과연 누구일까?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002101",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65632,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65633] = {
+	drop_gold_max = 0,
+	name = "스티커: 체포 영장",
+	display = "저쪽이다! 용의자 발견!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002102",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65633,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65634] = {
+	drop_gold_max = 0,
+	name = "스티커: 가이드 깃발",
+	display = "이 깃발만 따라와! 다른 관광객의 질문에는 대답하면 안 돼! 절대로!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002103",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65634,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65635] = {
+	drop_gold_max = 0,
+	name = "스티커: 순찰용 차량",
+	display = "이 녀석이랑 속도를 겨루고 싶다고?",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002104",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65635,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65636] = {
+	drop_gold_max = 0,
+	name = "스티커: 토끼 순경",
+	display = "토끼 경찰이 현장에 도착했답니다♪ 수사를 지원하러 왔으니 다들 조심하세요~",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002105",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65636,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65637] = {
+	drop_gold_max = 0,
+	name = "스티커: 제복 모자",
+	display = "모자를 쓰고 조례를 복창하라! 까먹었으면 10번 받아쓰기 시킬 거야!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002106",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65637,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65638] = {
+	drop_gold_max = 0,
+	name = "스티커: 도망칠 수 없어",
+	display = "계속 지켜보고 있어…… 계속…… 계속 말이야……",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002107",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65638,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65639] = {
+	drop_gold_max = 0,
+	name = "기념 스티커: 조사 영상",
+	display = "진실은 언제나 하나뿐! 범인은…… 바로 너야!",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "ActivityMedal/5002108",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65639,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65640] = {
+	drop_gold_max = 0,
+	name = "스킨 체험권 (2025.7.23까지)",
+	display = "「스킨 체험」 대상의 스킨을 일정 시간 동안 사용할 수 있는 티켓. 이벤트 종료(2025.7.23까지) 시 제거됩니다.",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65640,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -218027,4 +218302,208 @@ _G.pg.base.item_virtual_data_statistics[200479] = {
 			1
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200480] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200480,
+	display_icon = {
+		{
+			2,
+			10052,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			33,
+			1
+		},
+		{
+			2,
+			30,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200481] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200481,
+	display_icon = {
+		{
+			2,
+			10052,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			10079,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200482] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200482,
+	display_icon = {
+		{
+			2,
+			11018,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			10079,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200483] = {
+	drop_gold_max = 0,
+	name = "랜덤 설계도",
+	display = "일정 확률로 다음 설계도를 획득할 수 있습니다.",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200483,
+	display_icon = {
+		{
+			2,
+			11018,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			10079,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }

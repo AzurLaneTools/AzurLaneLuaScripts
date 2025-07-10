@@ -1,333 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_4 = {
-	[107232] = {
-		name = "롤리팝·캔디랜드",
-		change_skin = "",
-		desc = "드디어 왔군요?... 크흠! 저... 사실 저도 얼마나 기다리든지 상관 없어요. 그럼... 가시죠.",
-		illustrator2 = -1,
-		ship_group = 10723,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "pulinsidun_3",
-		bg_sp = "1102",
-		skin_type = 5,
-		shop_type_id = 4,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "108",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 107232,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "pulinsidun_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70503,
-		voice_actor = 249,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.126,
-					0.999,
-					0
-				}
-			},
-			plane = {
-				{
-					1.14,
-					1.005,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		},
-		time = {
-			{
-				2021,
-				2,
-				14
-			},
-			{
-				0,
-				0,
-				0
-			}
-		}
-	},
-	[107233] = {
-		name = "루돌프의 선물",
-		change_skin = "",
-		desc = "갈아입고는 왔는데…… 이게 진짜 '루돌프' 의상이라고? 좀 너무 대담한 느낌이…… 아, 지휘관님. 마침 잘 오셨네요. 여기, 제 크리스마스 선물이에요.",
-		illustrator2 = -1,
-		ship_group = 10723,
-		group_index = 3,
-		purchase_offset = "",
-		painting = "pulinsidun_4",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 1,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "125",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 107233,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "pulinsidun_4",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70792,
-		voice_actor = 249,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			4
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.33,
-					1.27,
-					0
-				}
-			},
-			plane = {
-				{
-					1.439,
-					0.955,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.573,
-							2.346,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
-	[107270] = {
-		name = "랭글리Ⅱ",
-		change_skin = "",
-		desc = "인디펜던스급 경항공모함—랭글리II, 현호 CVL-27",
-		illustrator2 = -1,
-		ship_group = 10727,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "lanliII",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 107270,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "lanliII",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 50,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			antiaircraft = {
-				{
-					1.16,
-					1.25,
-					0
-				}
-			},
-			plane = {
-				{
-					1.1,
-					0.9,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.53,
-							2.225,
-							-0.25
-						}
-					}
-				}
-			}
-		}
-	},
 	[107271] = {
 		name = "베케이션 온 타임",
 		change_skin = "",
@@ -14478,6 +14151,523 @@ pg.base.ship_skin_template_4 = {
 					126,
 					-303,
 					2.5
+				}
+			}
+		}
+	},
+	[201390] = {
+		name = "갤런트",
+		change_skin = "",
+		desc = "G급 구축함 - 갤런트",
+		illustrator2 = -1,
+		ship_group = 20139,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "yongqi",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 201390,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yongqi",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 451,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.38,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.7,
+					2.59,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.85,
+							2.55,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[201391] = {
+		name = "마음의 특급 배송",
+		change_skin = "",
+		desc = "지휘관, 나 보여~? 주문한 음식이랑 소포 들고 왔어! 바깥에 위험 요소가 없는 건 확인했고… 자, 여기 신분증도 있어! 직원 규정대로 잘 챙겼지! 자, 어서 안심하고 문 열어!",
+		illustrator2 = -1,
+		ship_group = 20139,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "yongqi_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 20,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "168",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 201391,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		prefab = "yongqi_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 71137,
+		voice_actor = 451,
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			6,
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.51,
+					1.01,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.03,
+					2.75,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.76,
+							2.46,
+							0
+						}
+					}
+				}
+			}
+		},
+		spine_offset = {
+			15.7,
+			-870.1,
+			0,
+			0.642
+		},
+		get_showing = {
+			show = 1,
+			data = {
+				{
+					-190,
+					-153,
+					1,
+					0,
+					200,
+					2
+				},
+				{
+					-140,
+					964,
+					1.8,
+					-200,
+					0,
+					1.5
+				},
+				{
+					-440,
+					177,
+					2.5,
+					0,
+					-287,
+					2
+				}
+			}
+		}
+	},
+	[202010] = {
+		name = "리엔더",
+		change_skin = "",
+		desc = "리엔더급 경순양함·리엔더 (HMS Leander)",
+		illustrator2 = -1,
+		ship_group = 20201,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "liande",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 202010,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "liande",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 66,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.53,
+					1.332,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.106,
+					0.916,
+					0
+				},
+				{
+					0.726,
+					0.325,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.651,
+					0.454,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.53,
+					1.332,
+					0
+				},
+				{
+					0.87,
+					0.242,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.647,
+							0.505,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.456,
+							0.279,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[202019] = {
+		name = "리엔더·改 ",
+		change_skin = "",
+		desc = "평안하십니까, 지휘관님. 앞으로 지도편달 잘 부탁드립니다. ……응? 어머머… 저, 리엔더라구요? ",
+		illustrator2 = -1,
+		ship_group = 20201,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "liande_g",
+		bg_sp = "",
+		skin_type = 2,
+		shop_type_id = 9997,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 202019,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "liande_g",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 66,
+		spine_offset = "",
+		illustrator = 1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.11,
+					1.12,
+					0
+				}
+			},
+			vicegun = {
+				{
+					-0.11,
+					1.12,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.03,
+					0.07,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					-0.11,
+					1.12,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				40,
+				{
+					{
+						"smoke",
+						{
+							-0.44,
+							2.45,
+							0
+						}
+					}
 				}
 			}
 		}

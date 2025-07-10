@@ -113,4 +113,46 @@ slot0.MAIN_TASK_ID_2 = 102
 slot0.FORCE_SKIP_PLAN_PERFORM = false
 slot0.SECRETARY_TYPE_SP = 7
 
+slot0.CheckAllCollectionTrack = function()
+	slot0 = 0
+	slot1 = {}
+
+	for slot5, slot6 in ipairs(getProxy(EducateProxy):GetMemories()) do
+		slot1[slot6] = true
+	end
+
+	for slot5, slot6 in ipairs(pg.child_memory.all) do
+		slot7 = pg.child_memory[slot6]
+
+		if not slot1[slot6] then
+			slot0 = -1
+
+			break
+		else
+			slot0 = slot0 + 1
+		end
+	end
+
+	if slot0 < 0 then
+		return
+	end
+
+	slot2 = pg.NewStoryMgr.GetInstance()
+
+	for slot6, slot7 in ipairs(pg.child2_memory.all) do
+		if not slot2:IsPlayed(pg.child2_memory[slot7].lua) then
+			slot0 = -1
+
+			break
+		else
+			slot0 = slot0 + 1
+		end
+	end
+
+	if PlayerPrefs.GetInt("EDUCATE_ALL_COLLECTION:" .. getProxy(PlayerProxy):getRawData().id, 0) < slot0 then
+		PlayerPrefs.SetInt("EDUCATE_ALL_COLLECTION:" .. slot3, slot0)
+		pg.GameTrackerMgr.GetInstance():Record(GameTrackerBuilder.BuildAllCollection(20003, slot0))
+	end
+end
+
 return slot0

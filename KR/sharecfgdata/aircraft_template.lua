@@ -276227,6 +276227,1415 @@ _G.pg.base.aircraft_template[3279401] = {
 }
 
 
+_G.pg.base.aircraft_template[3284401] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 战斗机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "g50",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "g50",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3284401,
+	scale = 0.75,
+	weapon_ID = {
+		3284403
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3284402] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 轰炸机",
+	max_hp = 86,
+	accuracy = 23,
+	model_ID = "re2001",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "re2001",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3284402,
+	scale = 0.75,
+	weapon_ID = {
+		3284404
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3284407] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 第二波 全屏陆基飞机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "SM79",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "SM79",
+	spawn_brownian = -1,
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3284407,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70291
+	},
+	weapon_ID = {
+		3284413,
+		3284414
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3284408] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 第二波 全屏陆基飞机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "SM79",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "SM79",
+	spawn_brownian = -1,
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3284408,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70292
+	},
+	weapon_ID = {
+		3284413,
+		3284414
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3284409] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 第二波 全屏陆基飞机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "SM79",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "SM79",
+	spawn_brownian = -1,
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3284409,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70293
+	},
+	weapon_ID = {
+		3284413,
+		3284414
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3284410] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 第二波 全屏陆基飞机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "SM79",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "SM79",
+	spawn_brownian = -1,
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3284410,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70294
+	},
+	weapon_ID = {
+		3284413,
+		3284414
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3284411] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 第二波 全屏陆基飞机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "SM79",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "SM79",
+	spawn_brownian = -1,
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3284411,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70295
+	},
+	weapon_ID = {
+		3284413,
+		3284414
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3284412] = {
+	name = "【2025曾克SP活动】BOSS 帝国警视长 第二波 全屏陆基飞机",
+	max_hp = 106,
+	accuracy = 23,
+	model_ID = "SM79",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "SM79",
+	spawn_brownian = -1,
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 33,
+	id = 3284412,
+	scale = 0.75,
+	funnel_behavior = {
+		AI = 70296
+	},
+	weapon_ID = {
+		3284413,
+		3284414
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289065] = {
+	name = "【2025曾克SP活动】航母轰炸机 Lv1",
+	max_hp = 64,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 36,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1680,
+	speed = 33,
+	id = 3289065,
+	scale = 0.75,
+	weapon_ID = {
+		3289075
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289066] = {
+	name = "【2025曾克SP活动】航母轰炸机 Lv2",
+	max_hp = 88,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 48,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 1960,
+	speed = 33,
+	id = 3289066,
+	scale = 0.75,
+	weapon_ID = {
+		3289076
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289067] = {
+	name = "【2025曾克SP活动】航母轰炸机 Lv3",
+	max_hp = 112,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 62,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2240,
+	speed = 33,
+	id = 3289067,
+	scale = 0.75,
+	weapon_ID = {
+		3289077
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289068] = {
+	name = "【2025曾克SP活动】航母轰炸机 Lv4",
+	max_hp = 136,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 78,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2520,
+	speed = 33,
+	id = 3289068,
+	scale = 0.75,
+	weapon_ID = {
+		3289078
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289069] = {
+	name = "【2025曾克SP活动】航母轰炸机 Lv5",
+	max_hp = 160,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 98,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 3,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2800,
+	speed = 33,
+	id = 3289069,
+	scale = 0.75,
+	weapon_ID = {
+		3289079
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.71,
+				-1.73,
+				0
+			},
+			{
+				0.82,
+				2.04,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289070] = {
+	name = "【2025曾克SP活动】航母战斗机 Lv1",
+	max_hp = 80,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 65,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2280,
+	speed = 30,
+	id = 3289070,
+	scale = 0.75,
+	weapon_ID = {
+		3289080,
+		1005675
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289071] = {
+	name = "【2025曾克SP活动】航母战斗机 Lv2",
+	max_hp = 110,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 85,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 2660,
+	speed = 30,
+	id = 3289071,
+	scale = 0.75,
+	weapon_ID = {
+		3289081,
+		1005676
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289072] = {
+	name = "【2025曾克SP活动】航母战斗机 Lv3",
+	max_hp = 140,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 110,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3040,
+	speed = 30,
+	id = 3289072,
+	scale = 0.75,
+	weapon_ID = {
+		3289082,
+		1005677
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289073] = {
+	name = "【2025曾克SP活动】航母战斗机 Lv4",
+	max_hp = 170,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 140,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3420,
+	speed = 30,
+	id = 3289073,
+	scale = 0.75,
+	weapon_ID = {
+		3289083,
+		1005678
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
+_G.pg.base.aircraft_template[3289074] = {
+	name = "【2025曾克SP活动】航母战斗机 Lv5",
+	max_hp = 200,
+	accuracy = 23,
+	model_ID = "feiji_diezhan",
+	ACC_growth = 0,
+	crash_DMG = 175,
+	dodge = 1,
+	attack_power = 2,
+	dodge_limit = 0,
+	type = 1,
+	AP_growth = 2000,
+	icon = "feiji_diezhan",
+	spawn_brownian = 1,
+	funnel_behavior = "",
+	nationality = 3,
+	hp_growth = 3800,
+	speed = 30,
+	id = 3289074,
+	scale = 0.75,
+	weapon_ID = {
+		3289084,
+		1005679
+	},
+	position_offset = {
+		0,
+		5,
+		0
+	},
+	cld_box = {
+		1,
+		1,
+		1
+	},
+	cld_offset = {
+		0,
+		0,
+		0
+	},
+	bound_bone = {
+		weapon = {
+			{
+				0.56,
+				-0.76,
+				0
+			},
+			{
+				0.48,
+				0.99,
+				0
+			}
+		}
+	},
+	fx_container = {
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		},
+		{
+			0,
+			0,
+			0
+		}
+	}
+}
+
+
 if rawget(uv0[slot1], "base") ~= nil then
 	rawset(slot2, "base", nil)
 	setmetatable(slot2, {

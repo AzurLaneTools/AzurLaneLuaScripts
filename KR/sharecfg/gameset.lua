@@ -343,7 +343,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 514
+		key_value = 516
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1914,7 +1914,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 515
+		key_value = 518
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -3828,5 +3828,49 @@ pg.gameset = {
 			5987,
 			5995
 		}
+	},
+	music_Version = {
+		description = "",
+		key_value = 4
+	},
+	music_AutoScrollIndex = {
+		description = "",
+		key_value = 1
+	},
+	music_NewCount = {
+		description = "",
+		key_value = 21
+	},
+	live_streaming26_data1 = {
+		key_value = 0,
+		description = {
+			21,
+			37,
+			73,
+			1001
+		}
+	},
+	live_streaming26_data2 = {
+		key_value = 0,
+		description = {
+			5913,
+			9999
+		}
+	},
+	levellimit_skintype = {
+		key_value = 15,
+		description = {
+			9,
+			19,
+			9999
+		}
+	},
+	levellimit_skinentrance = {
+		description = "",
+		key_value = 15
+	},
+	levellimit_skinstory = {
+		key_value = 15,
+		description = {}
 	}
 }

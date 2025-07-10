@@ -497,5 +497,12 @@ pg.ship_spine_shift = {
 			0,
 			-60
 		}
+	},
+	z13 = {
+		spine = "z13",
+		mainui_shift = {
+			31,
+			-28
+		}
 	}
 }

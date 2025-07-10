@@ -77,15 +77,13 @@ pg.ship_data_create_material = {
 		icon = "build_4",
 		exchange_count = 2,
 		rate_tip = {
-			"<color=#ffde38>SSR</color>: 7%",
-			"<color=#d797ff>SR</color>: 12%",
-			"<color=#3dc6ff>R</color>: 51%",
-			"노멀: 30%",
-			"<color=#ffde38>드 제번 프로빈시엔</color>: 2.0%<color=#92FC63>(up!)</color>",
+			"<color=#ffde38>SSR</color>：7%",
+			"<color=#d797ff>SR</color>：12%",
+			"<color=#3dc6ff>R</color>：51%",
+			"N：30%",
+			"<color=#ffde38>아드미랄 젠커</color>：2.0%<color=#92FC63>(up!)</color>",
 			" ",
-			"<color=#ffde38>카잔</color>: 0.5%",
-			" ",
-			"<color=#d797ff>에버트센</color>: 2.5%<color=#92FC63>(up!)</color>"
+			"<color=#ffde38>U-552</color>：2.0%<color=#92FC63>(up!)</color>"
 		}
 	},
 	{

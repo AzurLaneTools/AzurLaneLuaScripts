@@ -150,7 +150,7 @@ slot5.ClearCharRes = function(slot0, slot1)
 end
 
 slot5.ClearPaintingRes = function(slot0, slot1)
-	PoolMgr.GetInstance():ReturnPainting(uv0.GetResName(slot0), slot1)
+	PoolMgr.GetInstance():ReturnPainting(uv0.GetPaintingName(uv0.GetResName(slot0)), slot1)
 end
 
 slot5.DestroyOb = function(slot0, slot1)
@@ -534,9 +534,7 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 				uv3()
 			end)
 		elseif string.find(slot9, "painting/") then
-			slot12 = false
-
-			PoolMgr.GetInstance():GetPainting(slot11 .. ((PlayerPrefs.GetInt(BATTLE_HIDE_BG, 1) <= 0 or checkABExist("painting/" .. slot11 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot11, 0) ~= 0 and checkABExist("painting/" .. slot11 .. "_n") and "_n" or ""), true, function (slot0)
+			PoolMgr.GetInstance():GetPainting(uv1.GetPaintingName(slot11), true, function (slot0)
 				if slot0 == nil then
 					originalPrint("资源预加载失败，检查以下目录：>>" .. uv0 .. "<<")
 				else
@@ -623,6 +621,12 @@ slot5.StartPreload = function(slot0, slot1, slot2)
 	end
 
 	return slot4
+end
+
+slot5.GetPaintingName = function(slot0)
+	slot1 = false
+
+	return slot0 .. ((PlayerPrefs.GetInt(BATTLE_HIDE_BG, 1) <= 0 or checkABExist("painting/" .. slot0 .. "_n")) and PlayerPrefs.GetInt("paint_hide_other_obj_" .. slot0, 0) ~= 0 and checkABExist("painting/" .. slot0 .. "_n") and "_n" or "")
 end
 
 slot6 = Vector3(0, 10000, 0)

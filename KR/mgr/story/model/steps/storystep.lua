@@ -46,7 +46,7 @@ slot0.Ctor = function(slot0, slot1)
 	slot0.optionIndex = 0
 end
 
-slot0.IsVaild = function(slot0, slot1)
+slot0.IsValid = function(slot0, slot1)
 	if slot0.code == -1 then
 		return true
 	end

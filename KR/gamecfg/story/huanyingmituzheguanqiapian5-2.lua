@@ -6,7 +6,7 @@ return {
 		{
 			mode = 1,
 			asideType = 3,
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			sequence = {
 				{
 					"환상? 탑",

@@ -23,9 +23,9 @@ slot0.OnInit = function(slot0, slot1)
 	slot0.substituteActions = {}
 	slot0.actions = {}
 	slot0.loop = false
-	slot0.vaild = tobool(slot1[3]) and tobool(slot1[3][3])
+	slot0.valid = tobool(slot1[3]) and tobool(slot1[3][3])
 
-	if slot0.vaild then
+	if slot0.valid then
 		slot0.actions = slot1[3][2]
 
 		if (slot1[3][3][2] or uv0) == true then
@@ -105,7 +105,7 @@ slot0.GetOwnerSubstituteAction = function(slot0, slot1)
 end
 
 slot0.IsEmpty = function(slot0)
-	return uv0.super.IsEmpty(slot0) and slot0.vaild
+	return uv0.super.IsEmpty(slot0) and slot0.valid
 end
 
 slot0.GetScale = function(slot0)

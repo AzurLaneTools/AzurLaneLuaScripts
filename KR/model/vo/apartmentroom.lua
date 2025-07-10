@@ -306,4 +306,16 @@ slot0.getMiniGames = function(slot0)
 	return underscore.rest(pg.dorm3d_minigame.get_id_list_by_room_id[slot0.configId] or {}, 1)
 end
 
+slot0.unlockAllInvite = function(slot0)
+	slot4 = "character_pay"
+
+	for slot4, slot5 in ipairs(slot0:getConfig(slot4)) do
+		if not slot0.unlockCharacter[slot5] then
+			return false
+		end
+	end
+
+	return true
+end
+
 return slot0

@@ -41,7 +41,7 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		uv0:UpdateMedal()
 	end)
 	onButton(slot0, slot0._nextBtn, function ()
-		uv0._currentIndex = math.min(uv0._currentIndex + 1, #uv0._medalGroup:getConfig("activity_medal_ids"))
+		uv0._currentIndex = math.min(uv0._currentIndex + 1, #uv0._medalGroup:GetMedalIds())
 
 		uv0:UpdateMedal()
 	end)
@@ -56,7 +56,7 @@ slot0.SetCurrentIndex = function(slot0, slot1)
 end
 
 slot0.UpdateMedal = function(slot0)
-	slot1 = slot0._medalGroup:getConfig("activity_medal_ids")[slot0._currentIndex]
+	slot1 = slot0._medalGroup:GetMedalIds()[slot0._currentIndex]
 	slot0._medal = slot0._medalGroup:GetMedalList()[slot1]
 	slot2 = pg.activity_medal_template[slot1]
 
@@ -93,7 +93,7 @@ slot0.UpdateMedal = function(slot0)
 
 	SetActive(slot0._stateText, slot4 ~= ActivityMedalGroup.STATE_ACTIVE)
 	SetActive(slot0._prevBtn, slot0._currentIndex ~= 1)
-	SetActive(slot0._nextBtn, slot0._currentIndex ~= #slot0._medalGroup:getConfig("activity_medal_ids"))
+	SetActive(slot0._nextBtn, slot0._currentIndex ~= #slot0._medalGroup:GetMedalIds())
 end
 
 slot0.SetActive = function(slot0, slot1)

@@ -1,236 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_3 = {
-	[103245] = {
-		name = "필로 컨설팅",
-		change_skin = "",
-		desc = "지휘관, 움직이지 마~ 지금 자세에서는 힘을 안 빼면 나도 움직이기 힘들다구. 순순히 지친 몸을 나한테 맡겨… 좋아, 손에서 팔, 목덜미에서 어깨까지 꾹꾹 눌러줄게!",
-		illustrator2 = -1,
-		ship_group = 10324,
-		group_index = 5,
-		purchase_offset = "",
-		painting = "bulaimodun_6",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 26,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "180",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103245,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bulaimodun_6",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71055,
-		voice_actor = 134,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			6,
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.9,
-					0.662,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.874,
-					0.639,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.367,
-							2.469,
-							0.14
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			2,
-			-369,
-			0,
-			0.37
-		}
-	},
-	[103248] = {
-		name = "행복의 궤적",
-		change_skin = "",
-		desc = "하나, 둘, 셋, 얍~! 지휘관, 부케 던지는 거 잘 찍었어? 아하핫, 다음 쥬스타그램 포스팅은 이걸로 정했으니까, 지휘관도 똑같은 걸로 올려줘야 돼. 그건 우리들의 또다른… '사랑의 맹세'니까♪",
-		illustrator2 = -1,
-		ship_group = 10324,
-		group_index = 8,
-		purchase_offset = "",
-		painting = "bulaimodun_h",
-		bg_sp = "",
-		skin_type = 1,
-		shop_type_id = 9998,
-		l2d_ignore_drag = 0,
-		hand_id = 13,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 103248,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "bulaimodun_h",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 134,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					0.716,
-					0.874,
-					0
-				}
-			},
-			vicegun = {
-				{
-					0.72,
-					0.875,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.361,
-							2.431,
-							0.14
-						}
-					}
-				}
-			}
-		}
-	},
 	[103250] = {
 		name = "볼티모어(μ장비)",
 		change_skin = "",
@@ -14403,6 +14173,333 @@ pg.base.ship_skin_template_3 = {
 						{
 							-0.573,
 							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107232] = {
+		name = "롤리팝·캔디랜드",
+		change_skin = "",
+		desc = "드디어 왔군요?... 크흠! 저... 사실 저도 얼마나 기다리든지 상관 없어요. 그럼... 가시죠.",
+		illustrator2 = -1,
+		ship_group = 10723,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "pulinsidun_3",
+		bg_sp = "1102",
+		skin_type = 5,
+		shop_type_id = 4,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "108",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107232,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "pulinsidun_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70503,
+		voice_actor = 249,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.126,
+					0.999,
+					0
+				}
+			},
+			plane = {
+				{
+					1.14,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		},
+		time = {
+			{
+				2021,
+				2,
+				14
+			},
+			{
+				0,
+				0,
+				0
+			}
+		}
+	},
+	[107233] = {
+		name = "루돌프의 선물",
+		change_skin = "",
+		desc = "갈아입고는 왔는데…… 이게 진짜 '루돌프' 의상이라고? 좀 너무 대담한 느낌이…… 아, 지휘관님. 마침 잘 오셨네요. 여기, 제 크리스마스 선물이에요.",
+		illustrator2 = -1,
+		ship_group = 10723,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "pulinsidun_4",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 1,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "125",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107233,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "pulinsidun_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70792,
+		voice_actor = 249,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			4
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.33,
+					1.27,
+					0
+				}
+			},
+			plane = {
+				{
+					1.439,
+					0.955,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.573,
+							2.346,
+							-0.25
+						}
+					}
+				}
+			}
+		}
+	},
+	[107270] = {
+		name = "랭글리Ⅱ",
+		change_skin = "",
+		desc = "인디펜던스급 경항공모함—랭글리II, 현호 CVL-27",
+		illustrator2 = -1,
+		ship_group = 10727,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "lanliII",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 5,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 107270,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "lanliII",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 50,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			antiaircraft = {
+				{
+					1.16,
+					1.25,
+					0
+				}
+			},
+			plane = {
+				{
+					1.1,
+					0.9,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.53,
+							2.225,
 							-0.25
 						}
 					}

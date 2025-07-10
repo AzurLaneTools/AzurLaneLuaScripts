@@ -489,6 +489,159 @@ pg.activity_series_enemy_story = {
 			37
 		}
 	},
+	[39] = {
+		pos_x = "",
+		name = "CH-1 심상치 않은 폭발",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE2",
+		line = 0,
+		pass_awards = 0,
+		id = 39,
+		icon = "",
+		trigger_type = {
+			1
+		},
+		trigger_value = {
+			0
+		}
+	},
+	[40] = {
+		pos_x = "",
+		name = "CH-2 토끼 순경 조사 중",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE3",
+		line = 0,
+		pass_awards = 0,
+		id = 40,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			39
+		}
+	},
+	[41] = {
+		pos_x = "",
+		name = "CH-3 전략적 데이트 솔루션",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE4",
+		line = 0,
+		pass_awards = 0,
+		id = 41,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			40
+		}
+	},
+	[42] = {
+		pos_x = "",
+		name = "CH-4 도로안전팀 출동!",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE5",
+		line = 0,
+		pass_awards = 0,
+		id = 42,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			41
+		}
+	},
+	[43] = {
+		pos_x = "",
+		name = "CH-5 문제의 핵심",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE6",
+		line = 0,
+		pass_awards = 0,
+		id = 43,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			42
+		}
+	},
+	[44] = {
+		pos_x = "",
+		name = "CH-6 이러쿵저러쿵",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE7",
+		line = 0,
+		pass_awards = 0,
+		id = 44,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			43
+		}
+	},
+	[45] = {
+		pos_x = "",
+		name = "CH-7 상담 교실",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE8",
+		line = 0,
+		pass_awards = 0,
+		id = 45,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			44
+		}
+	},
+	[46] = {
+		pos_x = "",
+		name = "CH-8 네온 시티의 밤",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE9",
+		line = 0,
+		pass_awards = 0,
+		id = 46,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			45
+		}
+	},
+	[47] = {
+		pos_x = "",
+		name = "CH-9 스파이의 정체",
+		type = 1,
+		pos_y = "",
+		story = "MICAIDUSHIDEXUNZONGZHE10",
+		line = 0,
+		pass_awards = 0,
+		id = 47,
+		icon = "",
+		trigger_type = {
+			3
+		},
+		trigger_value = {
+			46
+		}
+	},
 	all = {
 		1,
 		2,
@@ -518,6 +671,15 @@ pg.activity_series_enemy_story = {
 		35,
 		36,
 		37,
-		38
+		38,
+		39,
+		40,
+		41,
+		42,
+		43,
+		44,
+		45,
+		46,
+		47
 	}
 }

@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "TB가 연산 억제를 위해 리소스를 조정하기 시작하자, 밀집해 있던 적들이 일제히 일행 쪽으로 덤벼들었다.",

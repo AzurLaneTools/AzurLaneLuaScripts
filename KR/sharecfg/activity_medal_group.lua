@@ -1,20 +1,10 @@
 pg = pg or {}
 pg.activity_medal_group = {
 	[5711] = {
-		entrance_picture = "medalAlbum/5711",
 		id = 5711,
+		entrance_picture = "medalAlbum/5711",
 		group_name = "별빛 아래의 석양",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			571101,
-			571102,
-			571103,
-			571104,
-			571105,
-			571106,
-			571107,
-			571108
-		},
 		activity_link = {
 			{
 				1,
@@ -50,20 +40,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5769] = {
-		entrance_picture = "medalAlbum/5769",
 		id = 5769,
+		entrance_picture = "medalAlbum/5769",
 		group_name = "봄맞이 패션 협주곡",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			576901,
-			576902,
-			576903,
-			576904,
-			576905,
-			576906,
-			576907,
-			576908
-		},
 		activity_link = {
 			{
 				1,
@@ -95,20 +75,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5812] = {
-		entrance_picture = "medalAlbum/5812",
 		id = 5812,
+		entrance_picture = "medalAlbum/5812",
 		group_name = "새장에 갇힌 신의 빛",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			581201,
-			581202,
-			581203,
-			581204,
-			581205,
-			581206,
-			581207,
-			581208
-		},
 		activity_link = {
 			{
 				1,
@@ -144,20 +114,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5875] = {
-		entrance_picture = "medalAlbum/5875",
 		id = 5875,
+		entrance_picture = "medalAlbum/5875",
 		group_name = "병원 탐방",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			587501,
-			587502,
-			587503,
-			587504,
-			587505,
-			587506,
-			587507,
-			587508
-		},
 		activity_link = {
 			{
 				1,
@@ -193,20 +153,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5913] = {
-		entrance_picture = "medalAlbum/5913",
 		id = 5913,
-		group_name = "",
+		entrance_picture = "medalAlbum/5913",
+		group_name = "튤리퍼의 바다로",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			591301,
-			591302,
-			591303,
-			591304,
-			591305,
-			591306,
-			591307,
-			591308
-		},
 		activity_link = {
 			{
 				1,
@@ -242,20 +192,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5970] = {
-		entrance_picture = "medalAlbum/5970",
 		id = 5970,
+		entrance_picture = "medalAlbum/5970",
 		group_name = "높은 탑의 장미",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			597001,
-			597002,
-			597003,
-			597004,
-			597005,
-			597006,
-			597007,
-			597008
-		},
 		activity_link = {
 			{
 				1,
@@ -291,19 +231,10 @@ pg.activity_medal_group = {
 		}
 	},
 	[5971] = {
-		entrance_picture = "medalAlbum/5971",
 		id = 5971,
+		entrance_picture = "medalAlbum/5971",
 		group_name = "다시 돌아온 한여름!",
 		is_out_of_print = 0,
-		activity_medal_ids = {
-			597101,
-			597102,
-			597103,
-			597104,
-			597105,
-			597106,
-			597107
-		},
 		activity_link = {
 			{
 				1,
@@ -337,6 +268,41 @@ pg.activity_medal_group = {
 			}
 		}
 	},
+	[50021] = {
+		id = 50021,
+		entrance_picture = "MedalAlbum/50021",
+		group_name = "네온 시티의 탐색자",
+		is_out_of_print = 0,
+		activity_link = {
+			{
+				1,
+				50021,
+				{
+					21776,
+					21777,
+					21778,
+					21779,
+					21780,
+					21781,
+					21782,
+					21783,
+					21784
+				}
+			}
+		},
+		ui_prefab = {
+			scene = "CamouflageCityMedalAlbumView",
+			mediator = "MedalAlbumTemplateMediator"
+		},
+		item_show = {
+			{},
+			{
+				8,
+				65631,
+				1
+			}
+		}
+	},
 	all = {
 		5711,
 		5769,
@@ -344,6 +310,7 @@ pg.activity_medal_group = {
 		5875,
 		5913,
 		5970,
-		5971
+		5971,
+		50021
 	}
 }

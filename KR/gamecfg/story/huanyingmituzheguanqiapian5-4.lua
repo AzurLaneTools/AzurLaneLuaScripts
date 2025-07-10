@@ -6,7 +6,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_650",
-			bgm = "battle-ods-onstage",
+			bgm = "battle-DOS-onstage",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			say = "그리고 드디어 TB로부터 낭보가 도착했다.",

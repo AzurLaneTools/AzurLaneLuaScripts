@@ -131,7 +131,7 @@ slot0.getComfortable = function(slot0, slot1)
 		end
 	end
 
-	slot2 = slot2 + (slot0.level - 1) * 10
+	slot2 = slot2 + slot0:getConfig("comfortable")
 
 	if slot0:isUnlockFloor(2) then
 		slot2 = slot2 + uv0.DORM_2_FLOOR_COMFORTABLE_ADDITION
@@ -182,7 +182,7 @@ slot0.levelUp = function(slot0)
 	slot0.configId = slot0.configId + 1
 	slot0.id = slot0.configId
 	slot0.level = slot0.configId
-	slot0.comfortable = (slot0.level - 1) * 10
+	slot0.comfortable = slot0:getConfig("comfortable")
 end
 
 slot0.consumeFood = function(slot0, slot1)

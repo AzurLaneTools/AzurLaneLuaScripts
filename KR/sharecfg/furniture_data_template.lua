@@ -166,8 +166,8 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
-			306,
 			307,
+			308,
 			100002,
 			100003,
 			100004,
@@ -3407,6 +3407,28 @@ pg.furniture_data_template = setmetatable({
 			322114,
 			322115,
 			322116
+		},
+		[123] = {
+			324001,
+			324002,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118
 		}
 	},
 	get_id_list_by_tag = {
@@ -5426,7 +5448,24 @@ pg.furniture_data_template = setmetatable({
 			322112,
 			322113,
 			322114,
-			322115
+			322115,
+			324101,
+			324102,
+			324103,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117
 		},
 		{
 			1108,
@@ -5683,7 +5722,7 @@ pg.furniture_data_template = setmetatable({
 			299,
 			300,
 			301,
-			306,
+			308,
 			100002,
 			100003,
 			100004,
@@ -6027,7 +6066,8 @@ pg.furniture_data_template = setmetatable({
 			321114,
 			322116,
 			323101,
-			323102
+			323102,
+			324118
 		},
 		[4] = {
 			1001,
@@ -6137,7 +6177,8 @@ pg.furniture_data_template = setmetatable({
 			320001,
 			321001,
 			322001,
-			323001
+			323001,
+			324001
 		},
 		[3] = {
 			1002,
@@ -6248,7 +6289,8 @@ pg.furniture_data_template = setmetatable({
 			320002,
 			321002,
 			322002,
-			323002
+			323002,
+			324002
 		},
 		[5] = {
 			1301,
@@ -6727,7 +6769,8 @@ pg.furniture_data_template = setmetatable({
 			320002,
 			321002,
 			322002,
-			323002
+			323002,
+			324002
 		},
 		[7] = {
 			1,
@@ -6871,7 +6914,6 @@ pg.furniture_data_template = setmetatable({
 			302,
 			303,
 			304,
-			306,
 			307,
 			100002,
 			100004,
@@ -8950,7 +8992,24 @@ pg.furniture_data_template = setmetatable({
 			322114,
 			322115,
 			322116,
-			323101
+			323101,
+			324101,
+			324102,
+			324104,
+			324105,
+			324106,
+			324107,
+			324108,
+			324109,
+			324110,
+			324111,
+			324112,
+			324113,
+			324114,
+			324115,
+			324116,
+			324117,
+			324118
 		},
 		[11] = {
 			131,
@@ -8959,6 +9018,7 @@ pg.furniture_data_template = setmetatable({
 			233,
 			281,
 			282,
+			308,
 			100003,
 			100008,
 			100021,
@@ -9139,7 +9199,8 @@ pg.furniture_data_template = setmetatable({
 			320001,
 			321001,
 			322001,
-			323001
+			323001,
+			324001
 		},
 		[5] = {
 			1101,
@@ -9284,7 +9345,8 @@ pg.furniture_data_template = setmetatable({
 			309105,
 			310101,
 			316107,
-			321115
+			321115,
+			324103
 		},
 		[3] = {
 			1108,
@@ -10005,8 +10067,8 @@ pg.furniture_data_template = setmetatable({
 		302,
 		303,
 		304,
-		306,
 		307,
+		308,
 		100002,
 		100003,
 		100004,
@@ -13029,7 +13091,27 @@ pg.furniture_data_template = setmetatable({
 		323001,
 		323002,
 		323101,
-		323102
+		323102,
+		324001,
+		324002,
+		324101,
+		324102,
+		324103,
+		324104,
+		324105,
+		324106,
+		324107,
+		324108,
+		324109,
+		324110,
+		324111,
+		324112,
+		324113,
+		324114,
+		324115,
+		324116,
+		324117,
+		324118
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -21197,98 +21279,6 @@ pg.base.furniture_data_template = {
 		},
 		interAction_group = {}
 	},
-	[306] = {
-		can_rotate = 1,
-		describe = "다 먹고 손가락까지 쪽쪽 빨아먹어야 제맛!",
-		gain_by = "",
-		type = 7,
-		dir = 0,
-		dorm_id = 0,
-		picture = "",
-		is_get_time_note = 0,
-		deblocking = 1,
-		effect = "",
-		is_3d_obj = 0,
-		themeId = 0,
-		spine_extra = "",
-		level = 1,
-		rarity = 4,
-		spine_action_replace = "",
-		belong = 1,
-		canputon = 0,
-		icon = "ahuatianyugangicon",
-		count = 1,
-		name = "오발틴 딥소스 비스킷",
-		advice = 0,
-		id = 306,
-		tag = 6,
-		comfortable = 2,
-		size = {
-			2,
-			4
-		},
-		offset = {},
-		canputonGrid = {},
-		can_trigger = {
-			0
-		},
-		spine = {
-			{
-				"ahuatianyugangB",
-				"normal"
-			},
-			{
-				"ahuatianyugangT"
-			},
-			{
-				{
-					0,
-					0
-				},
-				{
-					{
-						"wash2",
-						nil,
-						"wash"
-					}
-				},
-				{
-					[3] = {
-						"wash1",
-						"wash"
-					},
-					[4] = wash
-				},
-				{
-					1
-				}
-			},
-			{
-				{
-					3,
-					169.6
-				},
-				{
-					257.3,
-					362.7
-				},
-				"chuanmo/ahuatianyugang_mask"
-			},
-			{
-				3.71,
-				-162.9
-			},
-			{
-				1,
-				1
-			}
-		},
-		followBone = {
-			"char",
-			-1
-		},
-		interAction_group = {}
-	},
 	[307] = {
 		can_rotate = 0,
 		describe = "환상의 경계를 넘어 세상을 넘나드는 새로운 이야기――콜라보레이션 이벤트 참가 보상.",
@@ -21329,6 +21319,93 @@ pg.base.furniture_data_template = {
 				"brsxunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[308] = {
+		can_rotate = 0,
+		describe = "루프에 프로급 촬영 장비 탑재! 복잡한 지형에서도 매끄럽게 촬영 가능!",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 0,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "sheyingcheicon",
+		count = 1,
+		name = "검은 고급 중계차",
+		advice = 0,
+		id = 308,
+		tag = 6,
+		comfortable = 2,
+		size = {
+			4,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"sheyingcheB",
+				"normal",
+				nil,
+				1
+			},
+			{
+				"sheyingcheT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{
+				{
+					-8,
+					15.8
+				},
+				{
+					120,
+					100
+				},
+				"chuanmo/sheyingche_mask"
+			},
+			{
+				5.8,
+				-13.6
+			},
+			{
+				1,
+				1
+			},
+			0.4
+		},
+		followBone = {
+			"char",
+			1
 		},
 		interAction_group = {}
 	},
@@ -25880,7 +25957,7 @@ pg.base.furniture_data_template = {
 	},
 	[100066] = {
 		can_rotate = 0,
-		describe = "레코드 재생, 작동! ……뭐? 이 기능이 아직 실장되지 않았다고? ！ ",
+		describe = "「레코드 재생 기능, 작동! ……뭐?! 아직 구현이 안 됐다고?!」",
 		gain_by = "",
 		type = 11,
 		dir = 0,
@@ -25899,7 +25976,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		themeId = 0,
 		count = 1,
-		name = "DATA-857(모조품)",
+		name = "DATA-857 (레플리카)",
 		advice = 0,
 		id = 100066,
 		icon = "bulisituoerjiqirenicon",
@@ -26377,7 +26454,7 @@ pg.base.furniture_data_template = {
 	},
 	[100074] = {
 		can_rotate = 0,
-		describe = "나는야 꼬마 유령~ 안 보이는 꼬마 유령이지롱~",
+		describe = "나는 유령이야~ 아무도 못 보는 작은 유령이야~",
 		gain_by = "",
 		type = 7,
 		dir = 0,
@@ -26396,7 +26473,7 @@ pg.base.furniture_data_template = {
 		canputon = 0,
 		icon = "yinshendoupengicon",
 		count = 1,
-		name = "유령 은신복",
+		name = "유령 슈트",
 		advice = 0,
 		id = 100074,
 		tag = 6,
@@ -156633,6 +156710,917 @@ pg.base.furniture_data_template = {
 				1
 			},
 			0.8
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324001] = {
+		can_rotate = 0,
+		describe = "열차에 몸을 싣고 선로에서 울리는 리듬과 창밖 풍경을 만끽하자.",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/dibancz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "철도 여행 바닥",
+		advice = 0,
+		icon = "dibanczicon",
+		id = 324001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324002] = {
+		can_rotate = 0,
+		describe = "열차에 몸을 싣고 선로에서 울리는 리듬과 창밖 풍경을 만끽하자.",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "철도 여행 벽",
+		advice = 0,
+		id = 324002,
+		icon = "qiangbiczicon",
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"qiangbicz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324101] = {
+		can_rotate = 0,
+		describe = "흔히 볼 수 있는 역 벤치. 기다리는 동안 앉아서 쉴 수 있다.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 123,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "changyiczicon",
+		count = 1,
+		name = "역 플랫폼 벤치",
+		advice = 0,
+		id = 324101,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"changyicz",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sleep"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[324102] = {
+		can_rotate = 0,
+		describe = "여행의 피로는 소파에 누워서 달래자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/shafacz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 2,
+		name = "열차용 소파",
+		advice = 0,
+		id = 324102,
+		icon = "shafaczicon",
+		comfortable = 2,
+		size = {
+			5,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					23.2,
+					18.3
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324103] = {
+		can_rotate = 0,
+		describe = "푹신푹신한 카펫 위에서는 발걸음도 가볍게!",
+		gain_by = "",
+		type = 5,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/ditancz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "열차용 카펫",
+		advice = 0,
+		icon = "ditanczicon",
+		id = 324103,
+		comfortable = 2,
+		size = {
+			10,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324104] = {
+		can_rotate = 0,
+		describe = "삑. 손님, 무엇을 구매하시겠습니까?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "역 플랫폼 자판기",
+		advice = 0,
+		id = 324104,
+		icon = "fanmaijiczicon",
+		comfortable = 3,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"fanmaijicz",
+				"normal",
+				{
+					"action1",
+					false,
+					{
+						"action2",
+						"action3"
+					}
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324105] = {
+		can_rotate = 1,
+		describe = "관계자 이외에는 출입 금지입니다~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/fengsuodaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "출입 금지 테이프",
+		advice = 0,
+		icon = "fengsuodaiczicon",
+		id = 324105,
+		comfortable = 1,
+		size = {
+			1,
+			11
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324106] = {
+		can_rotate = 0,
+		describe = "저희 열차를 이용해주셔서 대단히 감사합니다 쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "차장 만쥬",
+		advice = 0,
+		id = 324106,
+		icon = "jiashijiuczicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"jiashijiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324107] = {
+		can_rotate = 0,
+		describe = "승무원만 사용할 수 있는 전용 자리!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/jiashitaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "승무원 좌석",
+		advice = 0,
+		icon = "jiashitaiczicon",
+		id = 324107,
+		comfortable = 3,
+		size = {
+			4,
+			8
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324108] = {
+		can_rotate = 0,
+		describe = "꼼꼼히 정비되어 새것처럼 반짝반짝한 차량!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "열차 차량",
+		advice = 0,
+		id = 324108,
+		icon = "liecheqiangmianczicon",
+		comfortable = 2,
+		size = {
+			24,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"liecheqiangmiancz",
+				"normal",
+				{
+					"action2",
+					true,
+					nil,
+					nil,
+					nil,
+					"action1"
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[324109] = {
+		can_rotate = 0,
+		describe = "난간을 꼭 잡고 발밑을 조심할 것!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "역 플랫폼 계단",
+		advice = 0,
+		id = 324109,
+		icon = "louticzicon",
+		comfortable = 3,
+		size = {
+			8,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"louticz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324110] = {
+		can_rotate = 1,
+		describe = "이것만 있으면 출발 시간을 놓칠 걱정은 없…겠지?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "역 플랫폼 시계",
+		advice = 0,
+		id = 324110,
+		icon = "shizhongczicon",
+		comfortable = 2,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"shizhongcz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324111] = {
+		can_rotate = 0,
+		describe = "무거운 짐은 카트를 이용하세요~",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/tuichecz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "역 카트",
+		advice = 0,
+		icon = "tuicheczicon",
+		id = 324111,
+		comfortable = 2,
+		size = {
+			3,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324112] = {
+		can_rotate = 0,
+		describe = "간편하고 실용적! 푹신푹신한 쿠션으로 여행을 쾌적하게!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/xiaodengzicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "열차용 의자",
+		advice = 0,
+		id = 324112,
+		icon = "xiaodengziczicon",
+		comfortable = 1,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					19.5,
+					51.1
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324113] = {
+		can_rotate = 0,
+		describe = "모든 구역의 안전을 확인하는 중이다 쥬쥬!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "순찰 역무원 만쥬",
+		advice = 0,
+		id = 324113,
+		icon = "xunluojiuczicon",
+		comfortable = 3,
+		size = {
+			2,
+			2
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xunluojiucz",
+				"normal"
+			}
+		},
+		interAction_group = {}
+	},
+	[324114] = {
+		can_rotate = 0,
+		describe = "운행 정보를 한눈에 확인할 수 있다!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhanpaicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "역 안내판",
+		advice = 0,
+		icon = "zhanpaiczicon",
+		id = 324114,
+		comfortable = 2,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324115] = {
+		can_rotate = 0,
+		describe = "앉아서 여행의 피로를 잠깐이나마 풀자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuoyi1cz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 123,
+		count = 1,
+		name = "열차용 좌석 1",
+		advice = 0,
+		id = 324115,
+		icon = "zhuoyi1czicon",
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-44.2,
+					12.7
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324116] = {
+		can_rotate = 0,
+		describe = "앉아서 여행의 피로를 잠깐이나마 풀자.",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuoyi2cz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "열차용 좌석 2",
+		advice = 0,
+		icon = "zhuoyi2czicon",
+		id = 324116,
+		comfortable = 2,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324117] = {
+		can_rotate = 0,
+		describe = "여행 중에도 맛있는 식사는 놓칠 수 없지!",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "cz/zhuozicz",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 1,
+		themeId = 123,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "열차용 테이블",
+		advice = 0,
+		icon = "zhuoziczicon",
+		id = 324117,
+		comfortable = 1,
+		size = {
+			2,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[324118] = {
+		can_rotate = 0,
+		describe = "역에서 트렁크를 열고 뭘 찾고 있는 걸까?",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 123,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "xinglixiangczicon",
+		count = 1,
+		name = "대형 트렁크",
+		advice = 0,
+		id = 324118,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"xinglixiangczB",
+				"normal"
+			},
+			{
+				"xinglixiangczT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"walk1",
+						nil,
+						"walk"
+					}
+				},
+				{
+					nil,
+					1,
+					{
+						"stand2",
+						"stand2",
+						false,
+						true
+					}
+				},
+				{
+					0
+				},
+				{
+					{
+						"walk2"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
 		},
 		followBone = {
 			"char",

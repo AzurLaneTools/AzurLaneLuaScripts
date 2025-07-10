@@ -12458,7 +12458,7 @@ _G.pg.base.gametip.commander_skill_point_noengough = {
 
 
 _G.pg.base.gametip.buildship_new_tip = {
-	tip = "기간 한정 건조를 총 200회 실시하면, 「비스마르크 Zwei」 100% 획득 가능! (최대 4척까지)"
+	tip = "「U-552」, 「아드미랄 젠커」 등장 확률 UP!"
 }
 
 
@@ -38551,4 +38551,116 @@ _G.pg.base.gametip.dorm3d_dance_button = {
 
 _G.pg.base.gametip.dorm3d_collection_cafe = {
 	tip = "카페"
+}
+
+
+_G.pg.base.gametip.zengke_series_help = {
+	tip = {
+		{
+			info = [[
+플레이 방법:
+<color=#92fc63>7.10 ~ 7.24 점검</color>까지 기간 한정 이벤트 「네온 시티의 탐색자」가 진행됩니다! 
+한정 임무를 완수하고, 함대를 편성해 한정 스테이지를 클리어하여 「시티 영화 티켓」을 모으면, 보상을 획득할 수 있습니다! 
+
+① 화면 좌측 하단의 버튼으로 「탐색 이야기(스토리)와 「특별 전투」 화면을 전환할 수 있습니다. 
+② 「특별 전투」에서는 함대를 편성하여 SP 스테이지에 도전할 수 있으며, 수집 Pt 아이템인 「시티 영화 티켓」을 획득할 수 있습니다.
+출격 시에 출격하는 함대 수가 다른 <color=#92fc63>「단독 출격」</color>, <color=#92fc63>「협동 출격」</color>을 선택할 수 있습니다.
+・단독 출격에서는 함대 하나로 각 스테이지에 연속으로 도전할 수 있습니다(전투 시작 시에 함대 내구가 모두 회복됨).
+・협동 출격에서는 스테이지에 따라 각각 함대를 편성하여 출격시키며, 전투를 각 함대로 실시합니다. 협동 출격으로 클리어하면 추가 보상을 획득할 수 있습니다.
+
+③ 「시티 영화 티켓」은 총 획득 수 보상으로 SR 함선 <color=#92fc63>「Z13」</color>, <color=#92fc63>「시제형 305mm SKC39 3연장포」</color> 등을 획득할 수 있습니다.
+④ 「한정 임무」에서는 이벤트 진행 기간에 등장하는 이벤트 임무를 확인하거나, 보상을 수령할 수 있습니다. 
+④ 「탐색 이야기」에서는 특별한 스토리를 감상할 수 있습니다. 스토리를 모두 감상한 후에는 기념 장비 스킨을 획득할 수 있습니다.]]
+		}
+	}
+}
+
+
+_G.pg.base.gametip.zengke_series_pt = {
+	tip = "합계"
+}
+
+
+_G.pg.base.gametip.zengke_series_pt_small = {
+	tip = "PT REWARD"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank = {
+	tip = "순위"
+}
+
+
+_G.pg.base.gametip.zengke_series_rank_small = {
+	tip = "RANKING"
+}
+
+
+_G.pg.base.gametip.zengke_series_task = {
+	tip = "한정 임무"
+}
+
+
+_G.pg.base.gametip.zengke_series_task_small = {
+	tip = "TASK"
+}
+
+
+_G.pg.base.gametip.zengke_series_confirm = {
+	tip = "출격"
+}
+
+
+_G.pg.base.gametip.zengke_story_reward_count = {
+	tip = "모든 스토리를 감상하면 한정 장비 스킨 획득:"
+}
+
+
+_G.pg.base.gametip.zengke_series_easy = {
+	tip = "쉬움"
+}
+
+
+_G.pg.base.gametip.zengke_series_normal = {
+	tip = "보통"
+}
+
+
+_G.pg.base.gametip.zengke_series_hard = {
+	tip = "어려움"
+}
+
+
+_G.pg.base.gametip.zengke_series_sp = {
+	tip = "S.P"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex = {
+	tip = "E.X"
+}
+
+
+_G.pg.base.gametip.zengke_series_ex_confirm = {
+	tip = "돌아가기"
+}
+
+
+_G.pg.base.gametip.battleui_display1 = {
+	tip = "아이콘"
+}
+
+
+_G.pg.base.gametip.battleui_display2 = {
+	tip = "이펙트"
+}
+
+
+_G.pg.base.gametip.battleui_display3 = {
+	tip = "일시 정지 칸"
+}
+
+
+_G.pg.base.gametip.zengke_series_serverinfo = {
+	tip = "서버"
 }
