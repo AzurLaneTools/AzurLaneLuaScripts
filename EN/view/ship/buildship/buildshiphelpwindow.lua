@@ -34,13 +34,16 @@ slot0.Show = function(slot0, slot1, slot2, slot3)
 	})
 
 	slot0.isSupport = slot2 == "support"
+	slot4 = slot0:findTF("window/rateList/title/Text")
 
 	if slot0.isSupport then
-		setText(slot0:findTF("window/rateList/title/Text"), i18n("support_rate_title"))
+		setText(slot4, i18n("support_rate_title"))
 	else
-		setText(slot0:findTF("window/rateList/title/Text"), i18n("build_rate_title"))
+		setText(slot4, i18n("build_rate_title"))
 	end
 
+	setActive(slot4, false)
+	setActive(slot4, true)
 	slot0:OnShow(slot1, slot3)
 	setActiveViaLayer(slot0._tf, true)
 	slot0:PlayOpenAnimation()

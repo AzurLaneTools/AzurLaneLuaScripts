@@ -2111,6 +2111,18 @@ pg.skill_data_display = setmetatable({
 		19870,
 		19871,
 		19872,
+		19891,
+		19892,
+		19911,
+		19912,
+		19921,
+		19941,
+		19942,
+		19943,
+		19981,
+		19986,
+		19993,
+		20007,
 		20011,
 		20012,
 		20021,
@@ -2517,6 +2529,8 @@ pg.skill_data_display = setmetatable({
 		30462,
 		30485,
 		30486,
+		30501,
+		30502,
 		39000,
 		39001,
 		39002,
@@ -2888,6 +2902,12 @@ pg.skill_data_display = setmetatable({
 		112072,
 		112073,
 		112074,
+		190001,
+		190002,
+		190003,
+		190011,
+		190012,
+		190013,
 		200026,
 		200203,
 		600031,
@@ -3609,7 +3629,10 @@ pg.skill_data_display = setmetatable({
 		1090407,
 		1090408,
 		1090409,
-		1090410
+		1090410,
+		1090420,
+		1090421,
+		1090422
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -12050,6 +12073,54 @@ pg.base.skill_data_display = {
 		id = 19872,
 		name = "Blessings and Purity"
 	},
+	[19891] = {
+		id = 19891,
+		name = "Ultimatum: Flügelsturm"
+	},
+	[19892] = {
+		id = 19892,
+		name = "Ultimatum: Flügelsturm"
+	},
+	[19911] = {
+		id = 19911,
+		name = "Overlimit: Unbreakable Barrier"
+	},
+	[19912] = {
+		id = 19912,
+		name = "Overlimit: Unbreakable Barrier"
+	},
+	[19921] = {
+		id = 19921,
+		name = "Starfall"
+	},
+	[19941] = {
+		id = 19941,
+		name = "Spiritual Echoes"
+	},
+	[19942] = {
+		id = 19942,
+		name = "Spiritual Echoes"
+	},
+	[19943] = {
+		id = 19943,
+		name = "Spiritual Echoes"
+	},
+	[19981] = {
+		id = 19981,
+		name = "Chargeburst"
+	},
+	[19986] = {
+		id = 19986,
+		name = "Chargeburst"
+	},
+	[19993] = {
+		id = 19993,
+		name = "Bladebreaker's Bastion"
+	},
+	[20007] = {
+		id = 20007,
+		name = "Chargeburst"
+	},
 	[20011] = {
 		id = 20011,
 		name = "All Out Assault Ⅰ"
@@ -13674,6 +13745,14 @@ pg.base.skill_data_display = {
 		id = 30486,
 		name = "All Out Assault – U-552 II"
 	},
+	[30501] = {
+		id = 30501,
+		name = "All Out Assault I"
+	},
+	[30502] = {
+		id = 30502,
+		name = "All Out Assault II"
+	},
 	[39000] = {
 		id = 39000,
 		name = "Optimize I"
@@ -15157,6 +15236,30 @@ pg.base.skill_data_display = {
 	[112074] = {
 		id = 112074,
 		name = "Trial of Death+"
+	},
+	[190001] = {
+		id = 190001,
+		name = "Steelsurge Concerto"
+	},
+	[190002] = {
+		id = 190002,
+		name = "Steelsurge Concerto"
+	},
+	[190003] = {
+		id = 190003,
+		name = "Steelsurge Concerto"
+	},
+	[190011] = {
+		id = 190011,
+		name = "Winter Survival Rules"
+	},
+	[190012] = {
+		id = 190012,
+		name = "Winter Survival Rules"
+	},
+	[190013] = {
+		id = 190013,
+		name = "Winter Survival Rules"
 	},
 	[200026] = {
 		id = 200026,
@@ -18045,5 +18148,17 @@ pg.base.skill_data_display = {
 	[1090410] = {
 		id = 1090410,
 		name = "Tactical Record: Jöttun's Jaws"
+	},
+	[1090420] = {
+		id = 1090420,
+		name = "Full Firepower - Grozny"
+	},
+	[1090421] = {
+		id = 1090421,
+		name = "Full Firepower - Grozny"
+	},
+	[1090422] = {
+		id = 1090422,
+		name = "Full Firepower - Grozny"
 	}
 }

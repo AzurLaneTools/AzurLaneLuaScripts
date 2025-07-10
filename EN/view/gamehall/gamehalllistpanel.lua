@@ -27,6 +27,10 @@ slot0.Ctor = function(slot0, slot1, slot2)
 		end
 	end
 
+	table.sort(slot0.gameRoomDatas, function (slot0, slot1)
+		return slot0.order < slot1.order
+	end)
+
 	for slot6 = 1, #slot0.gameRoomDatas do
 		slot7 = tf(instantiate(go(slot0.listTpl)))
 		slot8 = slot0.gameRoomDatas[slot6]

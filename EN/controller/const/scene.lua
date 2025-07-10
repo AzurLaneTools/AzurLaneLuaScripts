@@ -1381,6 +1381,7 @@ slot1 = {
 		slot4 = getProxy(ApartmentProxy)
 
 		slot4:InitGiftDaily()
+		GraphicSettingConst.SettingQuality()
 
 		slot4 = slot0.context.onRemoved
 

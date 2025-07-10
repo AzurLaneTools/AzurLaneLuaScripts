@@ -14,6 +14,7 @@ slot0.OPEN_INVITE_WINDOW = "Dorm3dRoomMediator.OPEN_INVITE_WINDOW"
 slot0.OPEN_ACCOMPANY_WINDOW = "Dorm3dRoomMediator.OPEN_ACCOMPANY_WINDOW"
 slot0.OPEN_MINIGAME_WINDOW = "Dorm3dRoomMediator.OPEN_MINIGAME_WINDOW"
 slot0.OPEN_SKIN_SELECT_LAYER = "Dorm3dRoomMediator.OPEN_SKIN_SELECT_LAYER"
+slot0.OPEN_SETTING_LAYER = "Dorm3dRoomMediator.OPEN_SETTING_LAYER"
 slot0.ON_LEVEL_UP_FINISH = "Dorm3dRoomMediator.ON_LEVEL_UP_FINISH"
 slot0.ON_CLICK_FURNITURE_SLOT = "Dorm3dRoomMediator.ON_CLICK_FURNITURE_SLOT"
 slot0.OTHER_DO_TALK = "Dorm3dRoomMediator.OTHER_DO_TALK"
@@ -232,6 +233,12 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.ON_DROP_CLIENT, function (slot0, slot1)
 		pg.NewStyleMsgboxMgr.GetInstance():Show(pg.NewStyleMsgboxMgr.TYPE_DROP_CLIENT, slot1)
+	end)
+	slot0:bind(uv0.OPEN_SETTING_LAYER, function (slot0)
+		uv0:addSubLayers(Context.New({
+			viewComponent = Dorm3dSettingScene,
+			mediator = NewSettingsMediator
+		}))
 	end)
 	slot0.viewComponent:SetRoom(getProxy(ApartmentProxy):getRoom(slot0.contextData.roomId))
 

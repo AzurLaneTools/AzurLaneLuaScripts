@@ -184,6 +184,10 @@ pg.pay_data_display = setmetatable({
 		2050,
 		2051,
 		2052,
+		2053,
+		2054,
+		2055,
+		2056,
 		5011,
 		5012,
 		5013,
@@ -18312,6 +18316,256 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40061,
+				1
+			}
+		}
+	},
+	[2053] = {
+		picture = "tech5_display",
+		name = "PR Construction Pack - Series 5",
+		type = 0,
+		limit_arg = 0,
+		descrip = "Contains one PR Voucher - Series 5 and 343 General Blueprints - Series 5.",
+		subject = "PR Construction Pack - Series 5",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1599,
+		descrip_extra = "",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack30",
+		extra_gem = 0,
+		id = 2053,
+		airijp_id = "com.yostaren.azurlane.pack30",
+		name_display = "PR Construction Pack - Series 5",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {}
+	},
+	[2054] = {
+		picture = "tech5_promotion",
+		name = "PR Voucher & Blueprint Bundle - Series 5",
+		type = 0,
+		limit_arg = 1,
+		descrip = "Contains:",
+		subject = "PR Voucher & Blueprint Bundle - Series 5",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1599,
+		descrip_extra = "If you've already built all Series 5 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack30",
+		extra_gem = 0,
+		id = 2054,
+		airijp_id = "com.yostaren.azurlane.pack30",
+		name_display = "PR Voucher & Blueprint \n         Bundle - Series 5",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			},
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40062,
+				1
+			}
+		}
+	},
+	[2055] = {
+		picture = "tech5_normal",
+		name = "PR Voucher - Series 5",
+		type = 0,
+		limit_arg = 2,
+		descrip = "Contains:",
+		subject = "PR Voucher - Series 5",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 999,
+		descrip_extra = "If you've already built all Series 5 PRs, the contents will be exchanged for other items. Tap the icon to view the item table.",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack28",
+		extra_gem = 0,
+		id = 2055,
+		airijp_id = "com.yostaren.azurlane.pack28",
+		name_display = "PR Voucher Pack - Series 5",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		display = {
+			{
+				2,
+				40140,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40063,
+				1
+			}
+		}
+	},
+	[2056] = {
+		picture = "tech5_promotion",
+		name = "PR Blueprint Pack - Series 5",
+		type = 0,
+		limit_arg = 3,
+		descrip = "Contains:",
+		subject = "PR Blueprint Pack - Series 5",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 699,
+		descrip_extra = "Buy to receive 343 General Blueprints - Series 5.",
+		limit_group = 5,
+		package_tag = "",
+		type_order = 0,
+		limit_type = 3,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.yostaren.azurlane.pack29",
+		extra_gem = 0,
+		id = 2056,
+		airijp_id = "com.yostaren.azurlane.pack29",
+		name_display = "PR Blueprint Pack - Series 5",
+		akashi_pick = 1,
+		time = "always",
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "tech",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		display = {
+			{
+				2,
+				42040,
+				343
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {
+			{
+				"level",
+				30
+			}
+		},
+		drop_item = {
+			{
+				2,
+				40064,
 				1
 			}
 		}

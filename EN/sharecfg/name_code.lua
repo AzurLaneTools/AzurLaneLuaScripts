@@ -2905,6 +2905,13 @@ pg.name_code = {
 		code = "U-37",
 		nation = 0
 	},
+	[550] = {
+		name = "Mecklenburg",
+		type = 1,
+		id = 550,
+		code = "Mecklenburg",
+		nation = 0
+	},
 	[10000] = {
 		name = "Type 0 Fighter Model 52",
 		type = 2,

@@ -26,7 +26,7 @@ slot0.init = function(slot0)
 
 	SetActive(slot3, slot5 ~= 1)
 	SetActive(slot4, slot5 == 1)
-	setImageSprite(PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot4 or slot3, LoadSprite("loadingbg/bg_" .. math.random(1, BG_RANDOM_RANGE)))
+	setImageSprite(PlayerPrefs.GetInt("bgFitMode", 0) == 1 and slot4 or slot3, LoadSprite((LOADING_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOADING_HX_LV.key_value and "loadingbg_hx/bg_" or "loadingbg/bg_") .. math.random(1, BG_RANDOM_RANGE)))
 
 	slot0._tipsText = slot1:Find("tipsText"):GetComponent(typeof(Text))
 end

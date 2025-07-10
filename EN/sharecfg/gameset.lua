@@ -2680,7 +2680,9 @@ pg.gameset = {
 			42050,
 			42056,
 			42060,
-			42066
+			42066,
+			42070,
+			42076
 		}
 	},
 	submarine_chapter_activate_time = {
@@ -3884,5 +3886,13 @@ pg.gameset = {
 	levellimit_skinstory = {
 		key_value = 15,
 		description = {}
+	},
+	LOADING_HX_LV = {
+		description = "",
+		key_value = 15
+	},
+	LOGIN_HX_LV = {
+		description = "",
+		key_value = 15
 	}
 }

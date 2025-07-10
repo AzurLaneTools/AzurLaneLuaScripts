@@ -2768,6 +2768,192 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 			}
 		}
 	},
+	[19980] = {
+		desc_get = "",
+		id = 19980,
+		desc = [[
+[Operation Siren]
+When this ship fires her Main Guns, the final volley prioritizes humanoid enemies (this effect is not affected by the Tolls of War debuff). Every 8s: gives this ship 1 stack of Charge (can be stacked up to 3 times); increases her AA by $1 for each stack she has.
+When this ship fires her Main Guns: spends all Charge and increases this ship's FP by $1 for 5s per each Charge spent and fires a $2 special barrage (DMG is based on the skill's level); when this effect activates, the following effects apply for 5s based on the number of Charge stacks spent:
+1) 1+ spent: increases this ship's Main Gun Crit Rate by $3;
+2) 2+ spent: increases this ship's DMG dealt by $4;
+3) 3 spent: improves the special barrage and increases this ship's Crit DMG by $3.]],
+		desc_get_add = {
+			{
+				"1.5%",
+				"6.0%"
+			},
+			{
+				"Lv.1",
+				"Lv.10"
+			},
+			{
+				"5.0%",
+				"15.0%"
+			},
+			{
+				"1.0%",
+				"10.0%"
+			}
+		},
+		desc_add = {
+			{
+				{
+					"1.5%",
+					"+0.5%"
+				},
+				{
+					"2.0%",
+					"+0.5%"
+				},
+				{
+					"2.5%",
+					"+0.5%"
+				},
+				{
+					"3.0%",
+					"+0.5%"
+				},
+				{
+					"3.5%",
+					"+0.5%"
+				},
+				{
+					"4.0%",
+					"+0.5%"
+				},
+				{
+					"4.5%",
+					"+0.5%"
+				},
+				{
+					"5.0%",
+					"+0.5%"
+				},
+				{
+					"5.5%",
+					"+0.5%"
+				},
+				{
+					"6.0%"
+				}
+			},
+			{
+				{
+					"Lv.1"
+				},
+				{
+					"Lv.2"
+				},
+				{
+					"Lv.3"
+				},
+				{
+					"Lv.4"
+				},
+				{
+					"Lv.5"
+				},
+				{
+					"Lv.6"
+				},
+				{
+					"Lv.7"
+				},
+				{
+					"Lv.8"
+				},
+				{
+					"Lv.9"
+				},
+				{
+					"Lv.10"
+				}
+			},
+			{
+				{
+					"5.0%",
+					"+1.1%"
+				},
+				{
+					"6.1%",
+					"+1.1%"
+				},
+				{
+					"7.2%",
+					"+1.1%"
+				},
+				{
+					"8.3%",
+					"+1.1%"
+				},
+				{
+					"9.4%",
+					"+1.1%"
+				},
+				{
+					"10.5%",
+					"+1.1%"
+				},
+				{
+					"11.6%",
+					"+1.1%"
+				},
+				{
+					"12.7%",
+					"+1.1%"
+				},
+				{
+					"13.8%",
+					"+1.2%"
+				},
+				{
+					"15.0%"
+				}
+			},
+			{
+				{
+					"1.0%",
+					"+1.0%"
+				},
+				{
+					"2.0%",
+					"+1.0%"
+				},
+				{
+					"3.0%",
+					"+1.0%"
+				},
+				{
+					"4.0%",
+					"+1.0%"
+				},
+				{
+					"5.0%",
+					"+1.0%"
+				},
+				{
+					"6.0%",
+					"+1.0%"
+				},
+				{
+					"7.0%",
+					"+1.0%"
+				},
+				{
+					"8.0%",
+					"+1.0%"
+				},
+				{
+					"9.0%",
+					"+1.0%"
+				},
+				{
+					"10.0%"
+				}
+			}
+		}
+	},
 	[105010] = {
 		desc_get = "",
 		id = 105010,
@@ -3522,6 +3708,7 @@ This ship gains a special CA Main Gun. When this CA Main Gun hits the same enemy
 		150760,
 		19260,
 		19510,
+		19980,
 		105010,
 		105020,
 		800790,

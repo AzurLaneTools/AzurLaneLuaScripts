@@ -1023,6 +1023,492 @@ Over 6000 points: 260 Game Tickets]]
 			-200
 		}
 	},
+	[21] = {
+		id = 21,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1022,
+		icon = "guanggao",
+		order = 22,
+		unlock_time = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
+Defeating Nianjuu is worth 500 points.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-1000 points: 180 Game Tickets
+1001-2000 points: 200 Game Tickets
+2001-3000 points: 220 Game Tickets
+3001-6000 points: 240 Game Tickets
+Over 6000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-200
+		}
+	},
+	[22] = {
+		id = 22,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1023,
+		icon = "daxigua",
+		order = 23,
+		unlock_time = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
+Defeating Nianjuu is worth 500 points.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-1000 points: 180 Game Tickets
+1001-2000 points: 200 Game Tickets
+2001-3000 points: 220 Game Tickets
+3001-6000 points: 240 Game Tickets
+Over 6000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-200
+		}
+	},
+	[23] = {
+		id = 23,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1024,
+		icon = "yinyue",
+		order = 24,
+		unlock_time = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
+Defeating Nianjuu is worth 500 points.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-1000 points: 180 Game Tickets
+1001-2000 points: 200 Game Tickets
+2001-3000 points: 220 Game Tickets
+3001-6000 points: 240 Game Tickets
+Over 6000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			-773,
+			-432
+		}
+	},
+	[24] = {
+		id = 24,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1025,
+		icon = "duomaomao",
+		order = 25,
+		unlock_time = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
+Defeating Nianjuu is worth 500 points.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-1000 points: 180 Game Tickets
+1001-2000 points: 200 Game Tickets
+2001-3000 points: 220 Game Tickets
+3001-6000 points: 240 Game Tickets
+Over 6000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-200
+		}
+	},
+	[25] = {
+		id = 25,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1026,
+		icon = "bingjiling",
+		order = 26,
+		unlock_time = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
+Defeating Nianjuu is worth 500 points.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-1000 points: 180 Game Tickets
+1001-2000 points: 200 Game Tickets
+2001-3000 points: 220 Game Tickets
+3001-6000 points: 240 Game Tickets
+Over 6000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			0
+		}
+	},
+	[26] = {
+		id = 26,
+		type = 11,
+		add_base = 200,
+		add_type = 12,
+		coin_max = 5,
+		game_id = 1027,
+		icon = "shuishang",
+		order = 27,
+		unlock_time = {
+			{
+				2026,
+				4,
+				18
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		add_num = {
+			{
+				6001,
+				1.3
+			},
+			{
+				3001,
+				1.2
+			},
+			{
+				2001,
+				1.1
+			},
+			{
+				1001,
+				1
+			},
+			{
+				0,
+				0.9
+			}
+		},
+		game_help = {
+			{
+				info = [[
+- Overview -
+In the Fu Shun's Great Adventure V minigame, take control of Fu Shun and help her avoid obstacles and pitfalls while defeating enemies to rack up points.
+
+- How to Play -
+· Tap the button on the bottom left of the screen to jump.
+· Tap the button on the bottom right of the screen to attack.
+· Coming in contact with a Nianjuu will hurt you for 1 health point.
+· When you run out of health points, fall off, or use the "End Game" button, the minigame is done.
+· You may come across useful items as you play through the minigame. These include:
+1. Coin - Worth 50 points
+2. Amulet - Worth 300 points
+3. Power Juice - Increases your movement speed and jump height and lets you defeat Nianjuus by stomping them
+4. Missiles - Upgrades your regular attack into a missile strike
+5. Magnet - Attracts nearby items
+6. Shield - Negates 1 point of damage (up to 3 shields can be held at a time)
+Defeating Nianjuu is worth 500 points.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+The game ends when you finish the game or when you tap the End Game button.
+
+When completing the game, you will earn Game Tickets depending on the number of Credits used, as well as your score.
+· Refer to the following score-to-ticket values for each Credit spent:
+0-1000 points: 180 Game Tickets
+1001-2000 points: 200 Game Tickets
+2001-3000 points: 220 Game Tickets
+3001-6000 points: 240 Game Tickets
+Over 6000 points: 260 Game Tickets]]
+			}
+		},
+		position = {
+			0,
+			-200
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1037,6 +1523,12 @@ Over 6000 points: 260 Game Tickets]]
 		11,
 		18,
 		19,
-		20
+		20,
+		21,
+		22,
+		23,
+		24,
+		25,
+		26
 	}
 }

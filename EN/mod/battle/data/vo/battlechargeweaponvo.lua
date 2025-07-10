@@ -24,6 +24,8 @@ slot4.GetCurrentWeaponIconIndex = function(slot0)
 		return 10
 	elseif slot2 == uv0.MANUAL_METEOR then
 		return 11
+	elseif slot2 == uv0.POINT_AIR_STRIKE then
+		return 12
 	end
 end
 

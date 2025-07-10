@@ -125,10 +125,15 @@ slot3.SpwanAircraft = function(slot0, slot1)
 	end
 
 	slot4 = math.deg2Rad * (slot0:GetBaseAngle() + slot1)
+	slot5 = Vector3(math.cos(slot4), 0, math.sin(slot4))
 
 	slot0:TriggerBuffWhenSpawnAircraft(slot2)
 
-	return slot2, Vector3(math.cos(slot4), 0, math.sin(slot4))
+	if slot0._strikePoint then
+		slot2:SetStrikePoint(slot0._strikePoint)
+	end
+
+	return slot2, slot5
 end
 
 slot3.TriggerBuffWhenSpawnAircraft = function(slot0, slot1)
@@ -136,6 +141,14 @@ slot3.TriggerBuffWhenSpawnAircraft = function(slot0, slot1)
 		aircraft = slot1,
 		equipIndex = slot0._equipmentIndex
 	})
+end
+
+slot3.SetStrikePoint = function(slot0, slot1)
+	slot0._strikePoint = slot1
+end
+
+slot3.GetStrikePoint = function(slot0)
+	return slot0._strikePoint
 end
 
 slot3.GetATKAircraftList = function(slot0)

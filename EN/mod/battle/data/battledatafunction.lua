@@ -237,31 +237,23 @@ slot3.GetResFromBuff = function(slot0, slot1, slot2, slot3)
 			uv0.getWeaponResource(slot16, slot4)
 		end
 
+		if slot11.arg_list.aircraft_id_list then
+			for slot21, slot22 in ipairs(slot17) do
+				uv0.getWeaponResource(slot22, slot4)
+			end
+		end
+
 		if slot11.arg_list.skin_id then
-			for slot22, slot23 in ipairs(uv1.Battle.BattleResourceManager.GetEquipSkinBulletRes(slot17)) do
-				slot4[#slot4 + 1] = slot23
+			for slot23, slot24 in ipairs(uv1.Battle.BattleResourceManager.GetEquipSkinBulletRes(slot18)) do
+				slot4[#slot4 + 1] = slot24
 			end
 		end
 
 		if slot11.arg_list.ship_skin_id then
-			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetCharacterPath(uv0.GetPlayerShipSkinDataFromID(slot18).prefab)
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetCharacterPath(uv0.GetPlayerShipSkinDataFromID(slot19).prefab)
 		end
 
 		if slot11.arg_list.buff_id then
-			slot24 = slot3
-
-			for slot24, slot25 in ipairs(uv0.GetResFromBuff(slot19, slot1, slot2, slot24)) do
-				if type(slot25) == "string" then
-					slot4[#slot4 + 1] = slot25
-				elseif type(slot25) == "table" then
-					for slot29, slot30 in ipairs(slot25) do
-						slot4[#slot4 + 1] = slot30
-					end
-				end
-			end
-		end
-
-		if slot11.arg_list.buff_skin_id then
 			slot25 = slot3
 
 			for slot25, slot26 in ipairs(uv0.GetResFromBuff(slot20, slot1, slot2, slot25)) do
@@ -275,8 +267,22 @@ slot3.GetResFromBuff = function(slot0, slot1, slot2, slot3)
 			end
 		end
 
+		if slot11.arg_list.buff_skin_id then
+			slot26 = slot3
+
+			for slot26, slot27 in ipairs(uv0.GetResFromBuff(slot21, slot1, slot2, slot26)) do
+				if type(slot27) == "string" then
+					slot4[#slot4 + 1] = slot27
+				elseif type(slot27) == "table" then
+					for slot31, slot32 in ipairs(slot27) do
+						slot4[#slot4 + 1] = slot32
+					end
+				end
+			end
+		end
+
 		if slot11.arg_list.effect then
-			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot21)
+			slot4[#slot4 + 1] = uv1.Battle.BattleResourceManager.GetFXPath(slot22)
 		end
 	end
 
