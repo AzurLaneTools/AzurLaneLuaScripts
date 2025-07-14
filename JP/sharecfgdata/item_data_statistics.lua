@@ -9889,7 +9889,7 @@ _G.pg.base.item_data_statistics[13052] = {
 
 _G.pg.base.item_data_statistics[13053] = {
 	open_directly = 0,
-	name = "試作型533mm四連装Si 270魚雷T0設計図",
+	name = "試作型533mm四連装Si 270魚雷T0設計図",
 	type = 9,
 	display = "試作型533mm四連装Si 270魚雷T0設計図",
 	other_resource_cost = "[]",
@@ -9920,7 +9920,7 @@ _G.pg.base.item_data_statistics[13053] = {
 
 _G.pg.base.item_data_statistics[13054] = {
 	open_directly = 0,
-	name = "試作型180mm三連装砲B-1-P Model1932改T0設計図",
+	name = "試作型180mm三連装砲B-1-P Model1932改T0設計図",
 	type = 9,
 	display = "試作型180mm三連装砲B-1-P Model1932改T0設計図",
 	other_resource_cost = "[]",

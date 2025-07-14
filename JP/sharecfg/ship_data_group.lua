@@ -1475,6 +1475,9 @@ pg.ship_data_group = setmetatable({
 		[40807] = {
 			400
 		},
+		[40814] = {
+			695
+		},
 		[40804] = {
 			386
 		},
@@ -1483,9 +1486,6 @@ pg.ship_data_group = setmetatable({
 		},
 		[40812] = {
 			528
-		},
-		[40814] = {
-			695
 		},
 		[50101] = {
 			253
@@ -2881,10 +2881,10 @@ pg.ship_data_group = setmetatable({
 			416,
 			492,
 			400,
+			695,
 			386,
 			344,
 			528,
-			695,
 			253,
 			254,
 			255,
@@ -3685,10 +3685,10 @@ pg.ship_data_group = setmetatable({
 		416,
 		492,
 		400,
+		695,
 		386,
 		344,
 		528,
-		695,
 		253,
 		254,
 		255,
@@ -25965,6 +25965,38 @@ pg.base.ship_data_group = {
 			}
 		}
 	},
+	[695] = {
+		nationality = 4,
+		type = 8,
+		trans_type = 0,
+		handbook_type = 0,
+		redirect_id = 101,
+		trans_skin = 0,
+		hide = 0,
+		group_type = 40814,
+		index_id = 494,
+		code = 695,
+		share_group_id = {},
+		property_hexagon = {
+			"D",
+			"S",
+			"E",
+			"D",
+			"E",
+			"D"
+		},
+		trans_radar_chart = {},
+		trans_skill = {},
+		description = {
+			{
+				"イベント：ネオンシティの探索者",
+				{
+					""
+				},
+				0
+			}
+		}
+	},
 	[386] = {
 		nationality = 4,
 		type = 8,
@@ -25974,7 +26006,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40804,
-		index_id = 494,
+		index_id = 495,
 		code = 386,
 		share_group_id = {},
 		property_hexagon = {
@@ -26026,7 +26058,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40803,
-		index_id = 495,
+		index_id = 496,
 		code = 344,
 		share_group_id = {},
 		property_hexagon = {
@@ -26078,7 +26110,7 @@ pg.base.ship_data_group = {
 		trans_skin = 0,
 		hide = 0,
 		group_type = 40812,
-		index_id = 496,
+		index_id = 497,
 		code = 528,
 		share_group_id = {},
 		property_hexagon = {
@@ -26106,38 +26138,6 @@ pg.base.ship_data_group = {
 					{
 						warp = "supplies"
 					}
-				},
-				0
-			}
-		}
-	},
-	[695] = {
-		nationality = 4,
-		type = 8,
-		trans_type = 0,
-		handbook_type = 0,
-		redirect_id = 101,
-		trans_skin = 0,
-		hide = 0,
-		group_type = 40814,
-		index_id = 497,
-		code = 695,
-		share_group_id = {},
-		property_hexagon = {
-			"D",
-			"S",
-			"E",
-			"D",
-			"E",
-			"D"
-		},
-		trans_radar_chart = {},
-		trans_skill = {},
-		description = {
-			{
-				"イベント：ネオンシティの探索者",
-				{
-					""
 				},
 				0
 			}

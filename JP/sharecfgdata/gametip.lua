@@ -14813,7 +14813,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_19906 = {
 	tip = [[
 <size=28>
 弾幕確認機能（模擬戦）を起動しますか？
-<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+(<color=#ff5c5c>※実際の艦の性能と異なります</color>）
 使用兵装：<color=#92fc63>
 試作型406mm/45三連装砲MK7
 127mm連装両用砲MK12
@@ -14826,7 +14826,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_49910 = {
 	tip = [[
 <size=28>
 弾幕確認機能（模擬戦）を起動しますか？
-<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+(<color=#ff5c5c>※実際の艦の性能と異なります</color>）
 使用兵装：<color=#92fc63>
 試作型305mm四連装砲SKC39
 127mmKM40連装砲
@@ -14839,7 +14839,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_69903 = {
 	tip = [[
 <size=28>
 弾幕確認機能（模擬戦）を起動しますか？
-<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+(<color=#ff5c5c>※実際の艦の性能と異なります</color>）
 使用兵装：<color=#92fc63>
 135mm連装砲Model1938
 試作型533mm四連装魚雷Si 270
@@ -14852,7 +14852,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_79903 = {
 	tip = [[
 <size=28>
 弾幕確認機能（模擬戦）を起動しますか？
-<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+(<color=#ff5c5c>※実際の艦の性能と異なります</color>）
 使用兵装：<color=#92fc63>
 試作型180mm三連装砲B-1-P Model1932改
 550mm三連装魚雷発射管
@@ -14865,7 +14865,7 @@ _G.pg.base.gametip.blueprint_simulation_confirm_119901 = {
 	tip = [[
 <size=28>
 弾幕確認機能（模擬戦）を起動しますか？
-<color=#ff5c5c>※実際の艦の性能と異なります</color>）
+(<color=#ff5c5c>※実際の艦の性能と異なります</color>）
 使用兵装：<color=#92fc63>
 試作型283mm/54.5三連装砲
 100mm二連装九八式高角砲改
