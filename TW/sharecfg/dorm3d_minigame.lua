@@ -20,7 +20,7 @@ pg.dorm3d_minigame = {
 		ship_id = 30221
 	},
 	[75] = {
-		name = "猜拳游戏",
+		name = "猜拳遊戲",
 		action = "",
 		id = 75,
 		room_id = 3,

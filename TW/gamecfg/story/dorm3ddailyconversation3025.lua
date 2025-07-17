@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……游乐园，想去！",
+			say = "安克拉治……遊樂園，想去！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……高高的，摩天轮，最顶端，看港区！",
+			say = "……高高的，摩天輪，最頂端，看港區！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "然后，然后……鬼屋……{dorm3d}不怕，对吧？",
+			say = "然後，然後……鬼屋……{dorm3d}不怕，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，紧紧抓住{dorm3d}的手……鬼屋，吓不到安克雷奇！",
+			say = "安克拉治，緊緊抓住{dorm3d}的手……鬼屋，嚇不到安克拉治！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和{dorm3d}……游乐园……开心！",
+			say = "和{dorm3d}……遊樂園……開心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

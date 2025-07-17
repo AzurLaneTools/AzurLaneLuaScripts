@@ -12036,17 +12036,17 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "蘇維埃白俄羅斯、塔林 建造追加！"
+	tip = "福煦 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "基洛夫、摩爾曼斯克、雷鳴 建造追加！"
+	tip = "不屈、企業 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_special_tip = {
-	tip = "普林斯頓 建造追加！"
+	tip = "霞飛 建造追加！"
 }
 
 
@@ -36216,32 +36216,32 @@ _G.pg.base.gametip.dorm3d_guide_beach_tip = {
 
 
 _G.pg.base.gametip.dorm3d_Ankeleiqi_entertainmentarea = {
-	tip = "娱乐区"
+	tip = "娛樂區"
 }
 
 
 _G.pg.base.gametip.dorm3d_Ankeleiqi_chair = {
-	tip = "客厅"
+	tip = "客廳"
 }
 
 
 _G.pg.base.gametip.dorm3d_Ankeleiqi_bed = {
-	tip = "卧室"
+	tip = "臥室"
 }
 
 
 _G.pg.base.gametip.dorm3d_xinzexi_table = {
-	tip = "餐厅"
+	tip = "餐廳"
 }
 
 
 _G.pg.base.gametip.dorm3d_xinzexi_chair = {
-	tip = "客厅"
+	tip = "客廳"
 }
 
 
 _G.pg.base.gametip.dorm3d_xinzexi_bed = {
-	tip = "卧室"
+	tip = "臥室"
 }
 
 
@@ -36251,12 +36251,12 @@ _G.pg.base.gametip.dorm3d_gift_favor_max = {
 
 
 _G.pg.base.gametip.dorm3d_VIDEO_CHAT_LABEL = {
-	tip = "$1的视频邀请"
+	tip = "$1的視頻邀請"
 }
 
 
 _G.pg.base.gametip.dorm3d_VIDEO_TELEPHONE_LABEL = {
-	tip = "$1的语音邀请"
+	tip = "$1的語音邀請"
 }
 
 
@@ -36266,12 +36266,12 @@ _G.pg.base.gametip.dorm3d_privatechat_favor = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_furniture = {
-	tip = "拥有家具"
+	tip = "擁有傢俱"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_visit = {
-	tip = "上次拜访"
+	tip = "上次拜訪"
 }
 
 
@@ -36286,12 +36286,12 @@ _G.pg.base.gametip.dorm3d_privatechat_no_visit_time = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_gift = {
-	tip = "专属礼物"
+	tip = "專屬禮物"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_chat = {
-	tip = "短信"
+	tip = "簡訊"
 }
 
 
@@ -36301,7 +36301,7 @@ _G.pg.base.gametip.dorm3d_privatechat_nonew_messages = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_new_messages = {
-	tip = "暂无新消息"
+	tip = "暫無新消息"
 }
 
 
@@ -36311,12 +36311,12 @@ _G.pg.base.gametip.dorm3d_privatechat_phone = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_new_calls = {
-	tip = "有新的通话"
+	tip = "有新的通話"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_nonew_calls = {
-	tip = "暂无新通话"
+	tip = "暫無新通話"
 }
 
 
@@ -36331,42 +36331,42 @@ _G.pg.base.gametip.dorm3d_privatechat_ins = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_new_topics = {
-	tip = "$1更新了好友圈状态 "
+	tip = "$1更新了好友圈狀態"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_nonew_topics = {
-	tip = "暂无新好友圈状态"
+	tip = "暫無新好友圈狀態"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_room_beach = {
-	tip = "沙滩、泳装、排球，尽情在海风中玩耍吧~ "
+	tip = "沙灘、泳裝、排球，盡情在海風中玩耍吧~"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_room_character = {
-	tip = "可邀请角色"
+	tip = "可邀請角色"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_room_unlock = {
-	tip = "请先下载相应房间资源"
+	tip = "請先下載相應房間資源"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_screen_all = {
-	tip = "全部房间"
+	tip = "全部房間"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_screen_floor_1 = {
-	tip = "听海之畔"
+	tip = "聽海之畔"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_screen_floor_2 = {
-	tip = "汐语小筑"
+	tip = "汐語小築"
 }
 
 
@@ -36376,37 +36376,37 @@ _G.pg.base.gametip.dorm3d_privatechat_visit_time_now = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_room_guide = {
-	tip = "请先前往沙滩"
+	tip = "請先前往沙灘"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_room_download = {
-	tip = "请先下载$1相关资源"
+	tip = "請先下載$1相關資源"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_telephone = {
-	tip = "暂未开放，敬请期待"
+	tip = "暫未開放，敬請期待"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_welcome = {
-	tip = "邀请角色"
+	tip = "邀請角色"
 }
 
 
 _G.pg.base.gametip.dorm3d_gift_favor_exceed = {
-	tip = "赠送后会溢出$1点契合度，是否确定赠送"
+	tip = "贈送後會溢出$1點契合度，是否確定贈送"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_telephone_calllog = {
-	tip = "视频记录"
+	tip = "影片紀錄"
 }
 
 
 _G.pg.base.gametip.dorm3d_privatechat_telephone_call = {
-	tip = "语音通话"
+	tip = "語音通話"
 }
 
 
@@ -36416,17 +36416,17 @@ _G.pg.base.gametip.dorm3d_privatechat_telephone_noviewed = {
 
 
 _G.pg.base.gametip.dorm3d_privatechat_video_call = {
-	tip = "视频通话"
+	tip = "視頻通話"
 }
 
 
 _G.pg.base.gametip.dorm3d_ins_no_msg = {
-	tip = "暂无新消息"
+	tip = "暫無新消息"
 }
 
 
 _G.pg.base.gametip.dorm3d_ins_no_topics = {
-	tip = "暂无新好友圈状态"
+	tip = "暫無新好友圈狀態"
 }
 
 
@@ -36456,7 +36456,7 @@ _G.pg.base.gametip.dorm3d_room_floor_1 = {
 
 
 _G.pg.base.gametip.dorm3d_room_floor_2 = {
-	tip = "汐语小筑"
+	tip = "汐語小築"
 }
 
 
@@ -36605,6 +36605,11 @@ _G.pg.base.gametip["2025Valentine_minigame_b"] = {
 
 _G.pg.base.gametip["2025Valentine_minigame_c"] = {
 	tip = "欸……這個味道真的可以嗎？作為皇家女僕做成這樣，實在是太失態了……指揮官，讓我重新做一份吧！"
+}
+
+
+_G.pg.base.gametip.rps_game_take_card = {
+	tip = "確認出牌"
 }
 
 

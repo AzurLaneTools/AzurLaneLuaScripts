@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "点心，安克雷奇，之前不会做……但，安克雷奇偷偷学习了！",
+			say = "點心，安克拉治，之前不會做……但，安克拉治偷偷學習了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "做给{dorm3d}吃！{dorm3d}，喜欢什么？",
+			say = "做給{dorm3d}吃！{dorm3d}，喜歡什麼？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,18 +69,18 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "马卡龙、蒙布朗……还有，柠檬塔、拿破仑……",
+			say = "馬卡龍、蒙布朗……還有，檸檬塔、拿破崙……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "种类好丰盛！",
+					content = "種類好豐盛！",
 					flag = 1
 				},
 				{
-					content = "安克雷奇好厉害！",
+					content = "安克拉治好厲害！",
 					flag = 1
 				}
 			}
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "唔……那些……安克雷奇都不会……！食谱很难……曲奇，安克雷奇，可以！",
+			say = "嗯……那些……安克拉治都不會……！食譜很難……餅乾，安克拉治，可以！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "硬邦邦，曲奇！{dorm3d}，尝一尝！",
+			say = "硬邦邦，餅乾！{dorm3d}，吃一口！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

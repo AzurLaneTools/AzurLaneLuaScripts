@@ -353,6 +353,7 @@ pg.skill_data_template = setmetatable({
 		60770,
 		60780,
 		60790,
+		60800,
 		60810,
 		60840,
 		60850,
@@ -12802,6 +12803,20 @@ pg.base.skill_data_template = {
 		max_level = 0,
 		desc = "戰鬥中會發出特殊的光芒！",
 		id = 60790,
+		system_transform = {},
+		world_death_mark = {
+			1
+		},
+		desc_get_add = {},
+		desc_add = {}
+	},
+	[60800] = {
+		desc_get = "",
+		name = "曼非斯之藍",
+		type = 0,
+		max_level = 0,
+		desc = "當特定角色裝備時，戰鬥開始後20秒，為隨機一名先鋒艦隊成員添加一枚可以抵消該成員耐久2%傷害的護盾，持續20秒",
+		id = 60800,
 		system_transform = {},
 		world_death_mark = {
 			1
@@ -102993,7 +103008,7 @@ pg.base.skill_data_template = {
 	},
 	[151040] = {
 		desc_get = "",
-		name = "靈愈之盾",
+		name = "靈癒之盾",
 		type = 2,
 		max_level = 10,
 		desc = "戰鬥開始時，自身炮擊屬性提升$1，戰鬥中自身裝備的魚雷武器開火時，生成一枚可以阻擋$2枚子彈的護盾（護盾持續5秒，護盾存續期間，每秒為先鋒艦隊耐久百分比最低的成員回復1%耐久，發動後進入10秒冷卻）",

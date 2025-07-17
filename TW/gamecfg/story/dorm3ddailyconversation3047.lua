@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}！明天……安克雷奇，也能看到……{dorm3d}吗？",
+			say = "{dorm3d}！明天……安克拉治，也看得到……{dorm3d}嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "明天的明天……也可以？还有，很多个……明天，都能吗？",
+			say = "明天的明天…也可以？還有，很多……明天，都能嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，能和安克雷奇，约定吗？",
+			say = "{dorm3d}，能和安克拉治，約定嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不……不是每天都见面的约定……",
+			say = "不……不是每天都見面的約定……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "是……{dorm3d}……没来，安克雷奇……也会等着{dorm3d}……的约定！",
+			say = "是……{dorm3d}……沒來，安克拉治……也會等著{dorm3d}……的約定！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

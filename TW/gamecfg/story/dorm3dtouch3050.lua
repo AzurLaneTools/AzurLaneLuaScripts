@@ -18,7 +18,7 @@ return {
 			voice = "event:/dorm/drom3d_Anchorage_other/drom3d_Anchorage_ik_gift5_tone1",
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "这里……奇怪？嗯……？不奇怪？安克雷奇，不懂……！",
+			say = "這裡……奇怪？嗯……？不奇怪？安克拉治，不懂……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

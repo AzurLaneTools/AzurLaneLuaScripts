@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"领域外的归途\n\n<size=45>九　趋向性重组</size>",
+					"領域外的歸途\n\n<size=45>9 趨向性重組</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "story-ironblood-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "星空之下，钢铁在轰鸣中燃烧着。",
+			say = "星空之下，鋼鐵在轟鳴中燃燒著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "——硝烟未尽，海上的战斗才刚结束不久。",
+			say = "——硝煙未盡，海上的戰鬥才剛結束不久。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "这是出现在我脑海中的第一个念头。",
+			say = "這是出現在我腦海中的第一個念頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "我是……{playername}——这是出现在我脑海中的第二个念头。",
+			say = "我是……{playername}——這是出現在我腦海中的第二個念頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "至于此处为何处，我又为什么会出现在这里……没有答案。",
+			say = "至於此處為何處，我為什麼會出現在這裡……沒有答案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "努力回忆，精神仿佛进入了一个充斥着浓雾的迷宫。",
+			say = "努力回憶，精神彷彿進入了一個充滿濃霧的迷宮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,20 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "有些记忆清晰，有些暧昧，而有些则是完全无法回想。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_595",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "我能确定，我是……{playername}。",
+			say = "有些記憶十分清晰，有些十分曖昧，有些則是完全無法想起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +118,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我也认识这身衣服，这是军队高级指挥人员所穿的军服。",
+			say = "我能確定，我是……{playername}。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +131,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "什么军队任职……记不清。来自何处……记不清。",
+			say = "我也認識這套衣服，這是軍隊高級指揮人員所穿的軍服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +144,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "作战战术相关……印象深刻。兵器装备知识……印象深刻。",
+			say = "什麼軍隊任職……記不清。來自何處……記不清。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +157,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "舰船资料……印象深刻。塞壬、安蒂克丝、未知X……记忆鲜明。",
+			say = "作戰戰術相關……印象深刻。兵器裝備知識……印象深刻。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +170,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "实验场α、安洁、奥斯塔、零……存在记忆。",
+			say = "艦船資料……印象深刻。塞壬、安蒂克絲、未知X……記憶鮮明。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +183,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这个手帕与胸针来自何处……没印象。",
+			say = "實驗場α、安潔、奧斯塔、零……存在記憶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +196,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "可恶……难道真的失忆了？",
+			say = "這個手帕與胸針來自何處……沒印象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +209,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "为什么会发生这种事……",
+			say = "可惡……難道真的失憶了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +222,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "难道……和之前遇到的那个紫发女人有关？",
+			say = "為什麼會發生這種事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -248,7 +235,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "她的名字叫……记不清了。",
+			say = "難道……和之前遇到的紫髮女子有關？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +248,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我是在什么时候在哪里遇到她的？……没印象。",
+			say = "她的名字叫……記不清了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_595",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "我是在什麼時候在哪裡遇到她的？……沒印象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "一边在笔记本上勾勾画画，一边探索记忆迷宫。",
+			say = "一邊在筆記本上勾勾畫畫，一邊探索記憶迷宮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "经过一段时间后，我终于凭借脑海中的琐碎信息，成功拼出了一副破碎的身份画。",
+			say = "經過一段時間後，我終於帶著腦海中的瑣碎訊息，成功拼出了一副破碎的身份畫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -304,31 +304,31 @@ return {
 			},
 			sequence = {
 				{
-					"我的名字叫{playername}，来自一个名为实验场α的世界。",
+					"我的名字叫{playername}，來自一個名為實驗場α的世界。",
 					1
 				},
 				{
-					"我的身份是安洁的助手，奥斯塔的协助者。",
+					"我的身分是安潔的助手，奧斯塔的協助者。",
 					2
 				},
 				{
-					"参与过多项与舰船和安蒂克丝有关的研究计划。",
+					"曾參與多項與艦船和安蒂克絲有關的研究計畫。",
 					3
 				},
 				{
-					"曾经担任教师，担任过实验员，如今加入了军队并任职高层。",
+					"曾經擔任教師，擔任實驗員，如今加入了軍隊並任職高層。",
 					4
 				},
 				{
-					"之后……指挥过多场成功的战役？",
+					"之後……指揮過多場成功的戰役？",
 					5
 				},
 				{
-					"然后……对抗过META，对抗过……未知X？",
+					"然後……對抗過META，對抗過……未知X？",
 					6
 				},
 				{
-					"再之后……就完全记不清了。",
+					"再之後……就完全記不清了。",
 					7
 				}
 			}
@@ -340,7 +340,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "嗯——虽然远称不上完整，不过至少有了一些探寻的方向。",
+			say = "嗯——雖然遠稱不上完整，不過至少有了一些探尋的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -353,7 +353,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "就是关于此地的情报没有回忆起分毫……",
+			say = "就是關於此地的情報沒有回憶起分毫……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "安全性上来说，应该尽快脱离此地比较好。",
+			say = "安全性上來說，應該盡快脫離此地比較好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过要如何做呢……",
+			say = "不過要如何做呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "尝试摆弄着身上携带的通讯器，可惜通讯器中没有记录任何频道。",
+			say = "試著擺弄著身上攜帶的通訊器，可惜通訊器中沒有記錄任何頻道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "就在一筹莫展之际，一个身影划破火焰，来到了我的面前。",
+			say = "就在一籌莫展之際，一個身影劃破火焰，來到了我的面前。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,18 +442,18 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "这里怎么会有个人……？",
+			say = "這裡怎麼會有個人……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "……{namecode:426:希佩尔}？",
+					content = "……希佩爾？",
 					flag = 1
 				},
 				{
-					content = "……{namecode:426:希佩尔}！",
+					content = "……希佩爾！",
 					flag = 2
 				}
 			}
@@ -464,7 +464,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "嗯？你认得我？",
+			say = "嗯？你認得我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,7 +476,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "我们在哪里见过么？",
+			say = "我們在哪裡見過嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -489,7 +489,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我不记得了。",
+			say = "……我不記得了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "那你是怎么认识我的？",
+			say = "那你是怎麼認識我的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "抱歉，我也不记得了。",
+			say = "抱歉，我也不記得了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "……那你还记得是怎么来的么？",
+			say = "……那你還記得是怎麼來的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也不记得……我或许是失忆了。",
+			say = "也不記得……我或許是失憶了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……行吧。",
+			say = "……好吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -566,7 +566,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你知道这里是什么地方么？",
+			say = "妳知道這裡是什麼地方嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -578,7 +578,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "说了你也不知道。",
+			say = "說了你也不知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -591,7 +591,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "在这里老实等着吧，会有人来救你的。",
+			say = "在這裡老實等著吧，會有人來救你的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……来救我的人？是谁？",
+			say = "……來救我的人？是誰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -616,7 +616,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "说了你也不知道。",
+			say = "說了你也不知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -629,7 +629,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……{namecode:426:希佩尔}小姐，我是真的失忆了。",
+			say = "……希佩爾小姐，我真的失憶了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -654,7 +654,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			nameColor = "#FFC960",
-			say = "我信，毕竟见到我不害怕的你还是第一个。",
+			say = "我信，畢竟見到我不害怕的你還是第一個。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -667,7 +667,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "为什么见到你要害怕？啊……别说说了我也不知道。",
+			say = "為什麼見到妳要害怕？啊……別說說了我也不知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……说了你也不知道！",
+			say = "說了你也不知道。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -704,7 +704,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "少女来了一个潇洒的转身，而后头也不回的离开了。",
+			say = "少女來了一個瀟灑的轉身，而後頭也不回的離開了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -730,7 +730,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来没办法……只能继续等待了。",
+			say = "看來沒辦法……只能繼續等了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -743,7 +743,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "也好……趁着这段时间再梳理一下脑中的情报吧。",
+			say = "也好……趁著這段時間再梳理一下腦中的情報。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,7 +756,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这究竟算是……什么事啊！",
+			say = "這究竟算是……什麼事啊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -790,7 +790,7 @@ return {
 			},
 			sequence = {
 				{
-					"<size=60>——「领域外的归途」·完</size>",
+					"——「領域外的歸途」·完",
 					2
 				}
 			}

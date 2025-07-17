@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "童话故事，安克雷奇，喜欢！最喜欢，公主的故事！",
+			say = "童話故事，安克拉治，喜歡！最喜歡，公主的故事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "七个好朋友，头发长！长着鱼尾巴，被王子……吻……嘿嘿……",
+			say = "七個好朋友，頭髮長！長著魚尾巴，被王子……吻……嘿嘿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,14 +41,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "然后，寻找丢掉的，7颗星星圆球！",
+			say = "然後，尋找丟掉的，7顆星星圓球！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "后面好像混进了奇怪的故事……",
+					content = "後面好像混進了奇怪的故事……",
 					flag = 1
 				}
 			},
@@ -88,14 +88,14 @@ return {
 			optionFlag = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "欸……？安克雷奇……不明白！",
+			say = "欸……？安克拉治……不明白！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "安克雷奇也想成为公主吗？",
+					content = "安克拉治也想成為公主嗎？",
 					flag = 1
 				}
 			}
@@ -106,7 +106,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，想成为……公主！不过，安克雷奇，更喜欢{dorm3d}！",
+			say = "安克拉治，想成為……公主！不過，安克拉治，更喜歡{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……要找到7颗星星圆球，把{dorm3d}变成……童话王子！",
+			say = "安克拉治……要找到7顆星星圓球，把{dorm3d}變成……童話王子！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}……安克雷奇……肚子咕咕叫……！",
+			say = "{dorm3d}……安克拉治……肚子咕咕叫……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "安克雷奇……去抓鱼……烤海鲜！",
+			say = "安克拉治……去抓魚……烤海鮮！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……很幸福……！",
+			say = "安克拉治……很幸福……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

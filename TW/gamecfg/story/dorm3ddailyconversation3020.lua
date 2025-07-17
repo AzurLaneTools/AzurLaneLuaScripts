@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，安克雷奇，外面看到了，三叶草！",
+			say = "{dorm3d}，安克拉治，外面看到了，三葉草！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "安克雷奇，运气好！……{dorm3d}也要，运气好！把三叶草，给{dorm3d}！",
+			say = "安克拉治，運氣好！……{dorm3d}也要，運氣好！把三葉草，給{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还找到，一片叶子的……和三叶草组合！",
+			say = "還找到，一片葉子的……和三葉草組合！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "等于，四叶草！{dorm3d}，和安克雷奇，有四份幸福！",
+			say = "等於，四葉草！{dorm3d}，和安克拉治，有四份幸福！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

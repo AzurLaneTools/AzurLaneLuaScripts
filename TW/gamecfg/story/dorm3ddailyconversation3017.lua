@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "最近，做噩梦，睡不好……没精神……",
+			say = "最近，做惡夢，睡不好……沒精神……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "梦里……{dorm3d}，讨厌安克雷奇……梦，和现实，相反！",
+			say = "夢裡……{dorm3d}，討厭安克拉治……夢，和現實，相反！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，喜欢安克雷奇！",
+			say = "{dorm3d}，喜歡安克拉治！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇不想做，那种梦……",
+			say = "安克拉治不想做，那種夢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天睡觉前……安克雷奇要贴贴！",
+			say = "今天睡覺前……安克拉治要貼貼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

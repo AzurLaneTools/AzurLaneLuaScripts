@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}！烟花，好看！和{dorm3d}，船上看过！摇摇晃晃，摇摇晃晃……",
+			say = "{dorm3d}！煙火，好看！和{dorm3d}，船上看過！搖搖晃晃，搖搖晃晃……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗖，飞上天……噼啪，炸开！",
+			say = "咻，飛上天……劈啪，炸開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，还想再看！这次，要自己放烟花！转圈圈！",
+			say = "安克拉治，還想再看！這次，要自己放煙火！轉圈圈！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "烟火大会！和喜欢的人，一起……{dorm3d}，下次一起放烟花！",
+			say = "煙火大會！和喜歡的人，一起…{dorm3d}，下次一起放煙火！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

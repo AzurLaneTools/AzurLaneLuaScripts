@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>四　慢节拍升温</size>",
+					"激蕩的荒海之神\n\n<size=45>4 慢節拍升溫</size>",
 					1
 				}
 			}
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "看向少女伏案工作的身影，我不禁开始思考前几天史特拉赛提出的那个建议。",
+			say = "看向少女伏案工作的身影，我不禁開始思考前幾天史特拉塞提出的那個建議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（精致的小东西么……{namecode:480:埃吉尔}到底会喜欢什么样的首饰呢？）",
+			say = "（精緻的小東西嗎……埃吉爾到底會喜歡什麼樣的首飾呢？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官？",
+			say = "指揮官？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -89,7 +89,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（既要符合{namecode:480:埃吉尔}的气质，又不能喧宾夺主……）",
+			say = "（既要符合埃吉爾的氣質，又不能喧賓奪主……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……？居然在我{namecode:480:埃吉尔}的面前走神了，真有胆子……",
+			say = "指揮官……？居然在我埃吉爾的面前恍神了，真有膽子……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -118,7 +118,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "就在我专心思考着该送{namecode:480:埃吉尔}什么首饰才好时，她不知何时已经来到我的身旁。",
+			say = "就在我專心思考該送埃吉爾什麼首飾才好時，她不知何時已經來到我的身旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "直到她下落的银灰色发丝为脸颊带来一丝痒意，我才意识到她的到来。",
+			say = "直到她下落的銀灰色髮絲為臉頰帶來一絲癢意，我才意識到她的到來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然在给文件签名的时候走神……你在想什么呢？",
+			say = "居然在幫文件簽名的時候恍神……你在想什麼呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -153,11 +153,11 @@ return {
 			},
 			options = {
 				{
-					content = "在想关于{namecode:480:埃吉尔}的事情",
+					content = "在想關於埃吉爾的事情",
 					flag = 1
 				},
 				{
-					content = "在想关于后续工作的事情",
+					content = "在想關於後續工作的事情",
 					flag = 2
 				}
 			}
@@ -169,7 +169,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "没什么，在想关于约会的事情。",
+			say = "沒什麼，在想關於約會的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,7 +184,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这、这种事情居然想的入神了，你就这么期待吗？！",
+			say = "這、這種事情居然想的入神了，你就這麼期待嗎？！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -206,7 +206,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "嗯……我不想让{namecode:480:埃吉尔}工作得太辛苦，所以你可以再多依靠我一些。",
+			say = "嗯……我不想讓埃吉爾工作得太辛苦，所以妳可以再多依靠我一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在、在说什么呢，指挥官才是！尽管依靠我就可以了，我可是荒海之神，别小看我！",
+			say = "在、在說什麼呢，指揮官才是！儘管依靠我就可以了，我可是荒海之神，別小看我！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "说完这句话后，{namecode:480:埃吉尔}很快就低下了头，掩盖了脸上的红霞。",
+			say = "說完這句話後，埃吉爾很快就低下了頭，掩蓋了臉上的紅霞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳……那个，之前我们约好休息日去约会的事情，我改主意了。",
+			say = "咳……那個，之前我們約好休息日去約會的事情，我改主意了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "少女重新抬头看向我，语气有些不自然。",
+			say = "少女重新抬頭看向我，語氣有些不自然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯？{namecode:480:埃吉尔}不想约会了么？",
+			say = "嗯？埃吉爾不想約會了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不是不想约会！只是我想换个时间换个地点！",
+			say = "不是不想約會！只是我想換個時間換個地點！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -319,7 +319,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比如……今天下班后！一起去海边散散步什么的！",
+			say = "例如……今天下班後！一起去海邊散散步什麼的！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -337,7 +337,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，指挥官可得快点处理完工作，不然可能就要面对荒海之神的愤怒了哦？",
+			say = "所以，指揮官可得快點處理完工作，不然可能就要面對荒海之神的憤怒了哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -353,7 +353,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "好，既然是荒海之神的要求，那我会速战速决的。",
+			say = "好，既然是荒海之神的要求，那我會速戰速決的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_story_task_2",
-			say = "因为有{namecode:480:埃吉尔}做好分类的缘故，今天的工作早早就结束了。",
+			say = "因為有埃吉爾做好分類的緣故，今天的工作早早就結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -394,7 +394,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们走吧，现在正好是海风最舒服的时间，也没有晒人的太阳。",
+			say = "我們走吧，現在正好是海風最舒服的時間，也沒有曬人的太陽。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呼……好，我们走吧。",
+			say = "呼……好，我們走吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "我拿起自己的外套后跟着{namecode:480:埃吉尔}离开了指挥室。",
+			say = "我拿起自己的外套後跟著埃吉爾離開了指揮室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

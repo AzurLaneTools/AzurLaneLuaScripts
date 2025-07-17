@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>六　月光下的她</size>",
+					"與天使的約會\n\n<size=45>6 月光下的她</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			bgm = "story-richang-8",
-			say = "在离开码头之后，和霞飞开始了真正的约会行程。",
+			say = "離開碼頭後，和霞飛開始了真正的約會行程。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "我们去了水族馆，看了电影，又去了游乐园乘坐摩天轮。",
+			say = "我們去了水族館，看了電影，又去了遊樂園搭乘摩天輪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "一直到代表闭园信号的烟花绽放，我和她才从游乐园准备离开。",
+			say = "一直到代表閉園訊號的煙火綻放，我和她才從遊樂園準備離開。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "怎么样，今天还尽兴么？",
+			say = "怎麼樣，今天還盡興嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯。没想到能和您一起做这么多事……我已经很满足了。",
+			say = "嗯。沒想到能和您一起做這麼多事……我已經很滿足了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -83,7 +83,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "那这样一来，你的“罪”也算是赎清了吧！",
+			say = "那這樣一來，妳的「罪」也算是贖清了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "是，感激不尽。不过……",
+			say = "是，感激不盡。不過……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -113,7 +113,7 @@ return {
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过？",
+			say = "不過？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "即便赎清了之前的罪责，但我也不再拥有能够公正的、裁决您的“罪恶”的资格。",
+			say = "即便贖清了先前的罪責，但我也不再擁有能夠公正的、裁決您的「罪惡」的資格。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -137,11 +137,11 @@ return {
 			},
 			options = {
 				{
-					content = "为什么这么说？",
+					content = "為什麼這麼說？",
 					flag = 1
 				},
 				{
-					content = "有点难理解……",
+					content = "有點難理解……",
 					flag = 2
 				}
 			}
@@ -153,7 +153,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "嗯？为什么这么说？",
+			say = "嗯？為什麼這麼說？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为……",
+			say = "因為……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "呃，这个说法有点难理解啊……",
+			say = "呃，這個說法有點難懂啊……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "容许我向您解释。",
+			say = "容許我向您解釋。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -217,7 +217,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "身为裁决罪恶之人，需要不存私心，以此保障绝对的公正。",
+			say = "身為裁決罪惡之人，需要不存私心，以此保障絕對的公正。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -234,7 +234,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而今天的我，不但在您的面前犯下了罪，同时也在这趟“赎罪”的约会中，诞生了更多的私心。",
+			say = "而今天的我，不但在您的面前犯下了罪，同時也在這趟「贖罪」的約會中，誕生了更多的私心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -252,7 +252,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我无法在您的面前保持这份公正，所以失去了裁决的资格。",
+			say = "我無法在您的面前保持這份公正，所以我失去了裁決的資格。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -270,7 +270,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为……我心中的天平会无限向您倾斜。",
+			say = "因為……我心中的天平會無限向您傾斜。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -285,7 +285,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "少女一边说着，羽翼在这瞬间突然张开，将我拢入其中。",
+			say = "少女一邊說著，羽翼在這瞬間突然張開，將我攏入其中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -299,7 +299,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "虽然失去了制裁您的资格，但我……还拥有着爱您的资格。",
+			say = "雖然失去了制裁您的資格，但我……還擁有著愛您的資格。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -317,7 +317,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而我也会好好利用起这份资格，让您感受到我的心意。",
+			say = "而我也會好好利用這份資格，讓您感受到我的心意。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -332,7 +332,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "少女银灰色的发丝在月色下泛着淡淡的辉光。",
+			say = "少女銀灰色的髮絲在月色下泛著淡淡的輝光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -343,7 +343,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_108",
 			hidePaintObj = true,
-			say = "即使四下灯火通明，但我的眼中却只能看见属于她的光芒。",
+			say = "即使四下燈火通明，但我的眼中卻只能看見屬於她的光芒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

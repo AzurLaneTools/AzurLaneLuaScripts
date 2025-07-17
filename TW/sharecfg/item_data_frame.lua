@@ -459,6 +459,15 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>「狐鳴鳳影，烈火浴心。雖為新生，亦續前緣。」</color>\n「喚醒蒼紅之炎」活動獲取",
 		scene = {}
 	},
+	[333] = {
+		name = "天外星光",
+		gain_by = "星光下的餘暉",
+		time_second = 0,
+		id = 333,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>「天地萬物，皆在星光的注視之下」</color>\n「星光下的餘暉」活動獲取",
+		scene = {}
+	},
 	[335] = {
 		name = "薔薇之誓",
 		gain_by = "高塔上的薔薇",
@@ -648,6 +657,24 @@ pg.item_data_frame = {
 		desc = "<color=#ffffff>浪漫的紙傘下，是誰的思緒悄悄飛遠？ </color>\n透過提升「宿舍計畫」中能代的契合度等級獲取",
 		scene = {}
 	},
+	[1005] = {
+		name = "天使的星輝",
+		gain_by = "",
+		time_second = 0,
+		id = 1005,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>天使的光環上是星芒在閃閃發亮，散發著純潔的光。</color>\n透過提升「宿舍計畫」中安克拉治的契合度等級獲取",
+		scene = {}
+	},
+	[1006] = {
+		name = "藍海奇遇",
+		gain_by = "",
+		time_second = 0,
+		id = 1006,
+		time_limit_type = 0,
+		desc = "<color=#ffffff>追逐這跳躍的浪花，開啟一段充滿歡樂與驚喜的奇遇。</color>\n透過提升「宿舍計畫」中安克拉治的契合度等級獲取",
+		scene = {}
+	},
 	[10001] = {
 		name = "限界的挑戰者·雙子座",
 		gain_by = "",
@@ -817,6 +844,7 @@ pg.item_data_frame = {
 		330,
 		331,
 		332,
+		333,
 		335,
 		401,
 		402,
@@ -838,6 +866,8 @@ pg.item_data_frame = {
 		1002,
 		1003,
 		1004,
+		1005,
+		1006,
 		10001,
 		10002,
 		10003,

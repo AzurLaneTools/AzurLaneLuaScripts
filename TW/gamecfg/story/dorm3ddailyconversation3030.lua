@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，会不会在哪里，有一片花海呢？",
+			say = "{dorm3d}，會不會在哪裡，有一片花海呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "安克雷奇，可以编花环！还可以送给{dorm3d}！",
+			say = "安克拉治，可以編花環！還可以送給{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}适合……哪种花呢？闻起来，很暖……淡淡的，清香！",
+			say = "{dorm3d}適合……哪種花呢？聞起來，很溫暖……淡淡的，清香！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "还有一股，特殊的味道……安克雷奇，想不到……",
+			say = "還有一股，特殊的味道……安克拉治，想不到……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "没关系，一定有适合{dorm3d}的，特别的花！",
+			say = "沒關係，一定有適合{dorm3d}的，特別的花！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

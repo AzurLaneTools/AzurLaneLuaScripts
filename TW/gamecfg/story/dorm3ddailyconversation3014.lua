@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "今天{dorm3d}，工作，辛苦，很累……安克雷奇，要帮{dorm3d}！",
+			say = "今天{dorm3d}，工作，辛苦，很累……安克拉治，要幫{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "安克雷奇，帮{dorm3d}分担……{dorm3d}，多休息！",
+			say = "安克拉治，幫{dorm3d}分擔……{dorm3d}，多休息！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，太难的，不行……简单的，可以！",
+			say = "不過，太難的，不行……簡單的，可以！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯，总之，先把那个……邮件？仓库？全部……清空！",
+			say = "嗯，總之，先把那個……郵件？倉庫？全部……清空！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

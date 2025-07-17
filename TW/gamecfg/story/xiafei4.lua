@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>四　“约定”的真相</size>",
+					"與天使的約會\n\n<size=45>4 「約定」的真相</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			bgm = "story-richang-6",
-			say = "在彻底用光游戏币后，霞飞和我在街边的长椅上坐下。",
+			say = "在徹底用光遊戲幣後，霞飛和我在街邊的長椅上坐下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,18 +30,18 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "她用手中的“指挥官”娃娃挡着脸，似乎还没从试炼失败的阴影之中走出来。",
+			say = "她用手中的「指揮官」娃娃擋著臉，似乎還沒從試煉失敗的陰影之中走出來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "试着用语言安慰她",
+					content = "試著用語言安慰她",
 					flag = 1
 				},
 				{
-					content = "试着用行动安慰她",
+					content = "試著用行動安慰她",
 					flag = 2
 				}
 			}
@@ -53,7 +53,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "刚开始出现这样的情况是很正常的。",
+			say = "剛開始出現這樣的情況是很正常的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -66,7 +66,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（而且这个娃娃机明显出自{namecode:98:明石}的手笔，抓不上来反而才正常……）",
+			say = "（而且這個娃娃機明顯出自明石的手筆，抓不上來反而才正常……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也就是说，您对我其实并没有什么期待？",
+			say = "也就是說，您對我其實沒有什麼期待？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -98,7 +98,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "我不是这个意思。能不能抓到娃娃，其实还是运气主导的。",
+			say = "我不是這個意思。能不能抓到娃娃，其實還是運氣主導的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "伸手摸了摸霞飞的头顶。",
+			say = "伸手摸了摸霞飛的頭頂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -142,7 +142,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "抓娃娃就是很看运气的一件事，不用因此气馁。",
+			say = "抓娃娃就是很看運氣的一件事，不用因此氣餒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "运气么……",
+			say = "運氣嗎……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -173,7 +173,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果不是指挥官最后出手，我今天可能就真的颗粒无收了呢。",
+			say = "如果不是指揮官最後出手，我今天可能就真的顆粒無收了呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -191,7 +191,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您也不需要用“运气”这种词汇来安慰我……我想，这一定也是上天对我的惩罚之一。",
+			say = "您也不需要用「運氣」這個詞彙來安慰我……我想，這一定也是上帝對我的懲罰之一。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -207,7 +207,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "惩罚？",
+			say = "懲罰？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我对您撒了谎。",
+			say = "我對您撒了謊。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -238,7 +238,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "昨晚，您并没有与我立下什么重要的约定。",
+			say = "昨晚，您並沒有與我立下任何重要的約定。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -256,7 +256,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我之所以会去指挥室，只是想看看您是否在那里，打算直接约您出来……",
+			say = "我之所以會去指揮室，只是想看看您是否在那裡，打算直接約您出來……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -273,7 +273,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "但早上看到您那副尚未清醒的模样，情不自禁就那么做了。",
+			say = "但早上看到您那副尚未清醒的模樣，情不自禁就那麼做了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -291,7 +291,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不得不说，您那时的反应十分有趣……呵呵。",
+			say = "不得不說，您那時的反應十分有趣……呵呵。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -318,7 +318,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "在你说不出约定内容的时候，我就大致猜到了。",
+			say = "在妳說不出約定內容的時候，我就大致猜到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "我早就有这个猜测，只是没想到你这么快就会承认……",
+			say = "我早就有這個猜測，但沒想到妳這麼快就會承認……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱歉……我要向您忏悔。",
+			say = "抱歉……我要向您懺悔。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -363,7 +363,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为制裁罪恶之人的我，自己却犯下了罪。",
+			say = "作為制裁罪惡之人的我，自己卻犯了罪。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -379,7 +379,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（看来抓不到娃娃对霞飞的打击真的很大啊……）",
+			say = "（看來抓不到娃娃對霞飛的打擊真的很大啊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "咳，接下来就及时回归初衷吧，将它认真做完，就是一种“赎罪”。",
+			say = "咳，接下來就及時回歸初衷吧，將它認真做完，就是一種「贖罪」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -405,7 +405,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "可我想做的是与您约会……这件事无论如何都无法和赎罪产生关联吧？",
+			say = "但我想做的是與您約會……這件事無論如何都無法和贖罪產生關聯吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -421,7 +421,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你及时承认了自己的谎言，又取得了我这个当事人的谅解……",
+			say = "妳及時承認了自己的謊言，又取得了我這個當事人的諒解……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -433,7 +433,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "现在立刻回归初衷重头来过的话，这点微不足道的“罪孽”应该很快就能赎请了！",
+			say = "現在立刻回歸初衷重頭來過的話，這點微不足道的「罪孽」應該很快就能贖清了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……您说的好像有几分道理。",
+			say = "……您說的好像有幾分道理。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -465,7 +465,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那么，为了让您看到我赎罪的决意，接下来的约会我会全力以赴的。",
+			say = "那麼，為了讓您看到我贖罪的決意，接下來的約會我會全力以赴的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -492,7 +492,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "要牵手？",
+			say = "要牽手？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，当然。毕竟是赎罪的约会……所以，从牵手起步也会比较好吧。",
+			say = "嗯，當然。畢竟是贖罪的約會……所以，從牽手起步也會比較好吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -521,7 +521,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "在牵起霞飞的手后，跟随着少女明显变得轻快起来的步伐离开了商业街。",
+			say = "在牽起霞飛的手後，跟著少女明顯變得輕快起來的步伐離開了商業街。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

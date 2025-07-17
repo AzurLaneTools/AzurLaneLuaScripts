@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"领域外的归途\n\n<size=45>二　金狐之策</size>",
+					"領域外的歸途\n\n<size=45>2 金狐狸之策</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "map-longgong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "原本作为仪式阵法核心的龙宫城，此刻已经沉入了深海之中。",
+			say = "原本作為儀式陣法核心的龍宮城，此刻已經沉入了深海之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -50,7 +50,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "金色、蓝色与堇色交织而成的虚幻天空下，一行少女正在各自忙碌着。",
+			say = "金色、藍色與堇色交織而成的虛幻天空下，一行少女正在各自忙碌著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -64,7 +64,7 @@ return {
 			actor = 302250,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "诸位，伴随仪式出现的残存之敌已全部清理完毕了。",
+			say = "諸位，伴隨儀式出現的殘存之敵已全部清理完畢了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -77,7 +77,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "城内安全了。",
+			say = "城內安全了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -90,7 +90,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我这边关于龙宫城内的损失评估也完成了。",
+			say = "我這邊關於龍宮城內的損失評估也完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -103,7 +103,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "外层损失约三点五成，中层损失约二点四成，内层损失约一点六成。",
+			say = "外層損失約三點五成，中層損失約二點四成，內層損失約一點六成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +117,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "比预想中要严重不少呢。",
+			say = "比預想中嚴重不少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯……所幸城内储备物资足够，无需花时间再从外部调动资源了。",
+			say = "嗯……所幸城內儲備物資足夠，無需花時間再從外部調動資源了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "维修所需时间呢？",
+			say = "維修所需時間呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大约三天。",
+			say = "大約三天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三天么……大结界受到奈落的侵蚀严重，只能希望这三天内别再出什么事了。",
+			say = "三天嗎……大結界受到奈落的侵蝕嚴重，只能希望這三天內別再出什麼事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -184,21 +184,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "如果是这样的话，我可以先开始布置次级阵枢？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_daofeng_4",
-			dir = 1,
-			actor = 399060,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这样等{namecode:152:伊吹}那边完成修复后，我这边也差不多布置好了。",
+			say = "如果是這樣的話，我可以先開始佈置次級陣樞？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +198,21 @@ return {
 			actor = 399060,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "之后我们可以一同执行仪式，直接利用龙宫城的力量开展大结界的修复工作。",
+			say = "這樣等伊吹那邊完成修復後，我這邊也差不多佈置好了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_daofeng_4",
+			dir = 1,
+			actor = 399060,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "之後我們可以一同執行儀式，直接利用龍宮城的力量進行大結界的修復工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嗯，就如此办吧。",
+			say = "嗯，就如此辦吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "一束流光从空中落下。光华流转，凝聚成了一位少女的虚影。",
+			say = "一束流光從空中落下。光華流轉，凝聚成了少女的虛影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:294:云仙}大人？！",
+			say = "雲仙大人？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -264,7 +264,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，诸位辛苦了。",
+			say = "呵呵，諸位辛苦了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -278,7 +278,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:83:大和}大人有话要对诸位说。",
+			say = "大和大人有話要對各位說。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
 			side = 2,
-			say = "虚影之中金光闪现，少女的身形虽然没有改变，不过气质已经大不相同了。",
+			say = "虛影之中金光閃現，少女的身形雖然沒有改變，不過氣質已經大不相同了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -309,7 +309,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「龙宫城如何？」",
+			say = "「龍宮城如何？」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:83:大和}大人，龙宫城的损失比预期要严重，预计三日后才能开始大结界的修复工作。",
+			say = "大和大人，龍宮城的損失比預期嚴重，預計三日後才能開始大結界的修復工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -364,7 +364,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那边已经安排妥当，正在顺利回收中。",
+			say = "那邊已經安排妥當，正在順利回收。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "「拼合完毕后，将蟒蛇一同放入返魂仪式的阵枢中。」",
+			say = "「拼合完畢後，將蟒蛇一同放入返魂儀式的陣樞中。」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好啦，{namecode:83:大和}大人已经去专心准备返魂仪式了，我也不打扰了。",
+			say = "好啦，大和大人已經去專心準備返魂儀式了，我也不打擾了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -417,7 +417,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_daofeng_4",
 			hidePaintObj = true,
-			say = "少女随手一挥，声音与身影伴随四散的光华一同消失了。",
+			say = "少女隨手一揮，聲音與身影伴隨四散的光華一同消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 399070,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呼……为了确保返魂仪式的顺利进行，我们必须尽快修复大结界才行。",
+			say = "呼……為了確保返魂儀式的順利進行，我們必須盡快修復大結界才行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "诸位，继续工作吧——",
+			say = "諸位，繼續工作吧——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

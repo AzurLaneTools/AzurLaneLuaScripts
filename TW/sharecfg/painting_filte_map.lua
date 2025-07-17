@@ -17042,9 +17042,6 @@ pg.painting_filte_map = {
 			"painting/xipeierhaijunshangjiang_tex",
 			"painting/xipeierhaijunshangjiang_hx_tex",
 			"painting/xipeierhaijunshangjiang_hx",
-			"painting/xipeierhaijunshangjiang_alter_tex",
-			"painting/xipeierhaijunshangjiang_alter_rw_tex",
-			"painting/xipeierhaijunshangjiang_alter",
 			"painting/xipeierhaijunshangjiang"
 		}
 	},
@@ -17055,6 +17052,14 @@ pg.painting_filte_map = {
 			"painting/xipeierhaijunshangjiang_3_n_tex",
 			"painting/xipeierhaijunshangjiang_3_n",
 			"painting/xipeierhaijunshangjiang_3"
+		}
+	},
+	xipeierhaijunshangjiang_alter = {
+		key = "xipeierhaijunshangjiang_alter",
+		res_list = {
+			"painting/xipeierhaijunshangjiang_alter_tex",
+			"painting/xipeierhaijunshangjiang_alter_rw_tex",
+			"painting/xipeierhaijunshangjiang_alter"
 		}
 	},
 	xishao = {

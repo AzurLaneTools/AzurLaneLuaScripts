@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "巧克力酱，美味！甜甜的，一点点苦，好吃！",
+			say = "巧克力醬，美味！甜甜的，一點點苦，好吃！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "虽然会沾到身上，但是，想吃！",
+			say = "雖然會沾到身上，但是，想吃！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "清理，麻烦……{dorm3d}帮忙！",
+			say = "清理，麻煩……{dorm3d}幫忙！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

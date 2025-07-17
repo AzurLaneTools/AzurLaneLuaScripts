@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "刚刚有……特别的云……在天上……像{dorm3d}！",
+			say = "剛剛有……特別的雲……在天上……像{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哪里像……？",
+			say = "哪裡像……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……唔……是哪里呢……",
+			say = "嗯……唔……哪裡呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……想到了！那片云……很高大，像{dorm3d}！嘿嘿……",
+			say = "……想到了！那片雲……很高大，像{dorm3d}！嘿嘿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

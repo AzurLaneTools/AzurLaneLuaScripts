@@ -11,7 +11,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"领域外的归途\n\n<size=45>七　未尽之火</size>",
+					"領域外的歸途\n\n<size=45>7 未盡之火</size>",
 					1
 				}
 			}
@@ -22,7 +22,7 @@ return {
 			bgm = "theme-akagi-meta",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "奈落的烟尘中，红黑色的身影静静注视着指挥官一行人身影消失的地方。",
+			say = "奈落的煙塵中，紅黑色的身影靜靜注視著指揮官一行人身影消失的地方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#BDBDBD",
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
 			say = "……",
 			typewriter = {
@@ -65,8 +65,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:91}·META",
-			say = "“继续逆转下去，直到出现一个再无任何悲伤的完美世界”……么。",
+			actorName = "赤城·META",
+			say = "「繼續逆轉下去，直到出現一個再無任何悲傷的完美世界」……嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			bgName = "star_level_bg_595",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰——————！",
+			say = "轟——————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
-			say = "夜幕下，几个单薄的身影在火海中摇曳着。",
+			say = "夜幕下，幾個單薄的身影在火海中搖曳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,7 +159,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……坚持住，我们就快回到风暴中了！",
+			say = "……撐住，我們就快回到風暴中了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "围剿部队明显有备而来。",
+			say = "圍剿部隊明顯有備而來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "就算撤回风暴区中，我们今日恐怕也无法脱身了。",
+			say = "就算撤回風暴區中，我們今日恐怕也無法脫身了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……可恶！",
+			say = "……可惡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真是荒唐啊……摆出这么大的阵势，“演习”这个借口恐怕行不通了。",
+			say = "真是荒唐啊……擺出這麼大的陣勢，「演習」這個藉口恐怕行不通了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "他们这次又打算以什么名义对世人掩盖过去呢？",
+			say = "她們這次又打算以什麼名義對世人掩蓋過去呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……现在这些事都不重要吧！",
+			say = "……現在這些事都不重要吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "他们早就设伏在此……我们的计划恐怕暴露了！",
+			say = "她們早就設伏在此……我們的計劃恐怕暴露了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 307020,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不光是我们，还有其他人！",
+			say = "不光是我們，還有其他人！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "这一点的话，你不用担心。",
+			say = "這一點的話，妳不用擔心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "从火力密度来看，我们这边明显受到的是重点关照。",
+			say = "從火力密度來看，我們這邊明顯受到的是重點關照。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -306,7 +306,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "或许是因为我们这边的“大人物”比较多吧？",
+			say = "或許是因為我們這邊的「大人物」比較多吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "可惜，就算缺了我们，“火炬”也一定能顺利成立。",
+			say = "可惜，就算缺了我們，「火炬」一定能順利成立。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "只是……我们看不到火炬散发出光芒的那一天了。",
+			say = "只是……我們看不見火炬散發出光芒的那一天了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "将我们创造出来，将我们当成兵器……擅自期望……又擅自恐惧……",
+			say = "將我們創造出來，將我們當成兵器……擅自期望……又擅自恐懼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如今……竟还要赶尽杀绝。",
+			say = "如今……竟還要趕盡殺絕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -401,7 +401,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们本以真诚待世界，可是结果呢？",
+			say = "我們本以真誠待世界，可是結果呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -426,7 +426,7 @@ return {
 			bgName = "star_level_bg_595",
 			hidePaintObj = true,
 			side = 2,
-			say = "火焰之中，绽放出一朵朵血色的彼岸花。",
+			say = "火焰之中，綻放出一朵朵血色的彼岸花。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			bgName = "star_level_bg_595",
 			nameColor = "#FFC960",
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
 			say = "呵……呵呵……呵呵呵……",
 			typewriter = {
@@ -458,7 +458,7 @@ return {
 			bgName = "star_level_bg_595",
 			nameColor = "#FFC960",
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
 			say = "死……",
 			typewriter = {
@@ -472,7 +472,7 @@ return {
 			bgName = "star_level_bg_595",
 			nameColor = "#FFC960",
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
 			say = "所有人都要死……",
 			typewriter = {
@@ -486,9 +486,9 @@ return {
 			bgName = "star_level_bg_595",
 			nameColor = "#FFC960",
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
-			say = "今天来的所有人，都要与我们陪葬！",
+			say = "今天來的所有人，都要與我們陪葬！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			bgName = "star_level_bg_595",
 			nameColor = "#FFC960",
 			actor = 900451,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
 			say = "啊哈哈哈哈哈哈哈哈——",
 			typewriter = {
@@ -514,9 +514,9 @@ return {
 			nameColor = "#BDBDBD",
 			bgName = "bg_canghongzhiyan_1",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
-			say = "虽然我记不得你究竟是谁。",
+			say = "雖然我記不得你究竟是誰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,8 +545,8 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:91}·META",
-			say = "但是我知道，这些悲剧与你无关。",
+			actorName = "赤城·META",
+			say = "但我知道，這些悲劇與你無關。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -558,9 +558,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#BDBDBD",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
-			say = "你只是……没能阻止而已。",
+			say = "你只是……沒能阻止而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -572,9 +572,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#BDBDBD",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
-			say = "该死的人有很多，但是其中不包括“你”。",
+			say = "該死的人很多，但是其中不包括「你」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -586,9 +586,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#BDBDBD",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
-			say = "……你想要通过逆转，达成完美的结局么。",
+			say = "……你想要透過逆轉，達成完美的結局嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -600,7 +600,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			side = 2,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			say = "好。",
 			typewriter = {
 				speed = 0.05,
@@ -613,9 +613,9 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			nameColor = "#BDBDBD",
 			actor = 900448,
-			actorName = "{namecode:91}·META",
+			actorName = "赤城·META",
 			hidePaintObj = true,
-			say = "那就让我们拭目以待吧。",
+			say = "那就讓我們拭目以待吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -626,7 +626,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "一个风铃出现在少女手中。",
+			say = "一個風鈴出現在少女手中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -638,7 +638,7 @@ return {
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/fengling",
-			say = "挥手轻摇，清脆的铃音伴随涟漪扩散而出。",
+			say = "揮手輕搖，清脆的鈴音伴隨漣漪擴散而出。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -649,7 +649,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_canghongzhiyan_1",
-			say = "涟漪消散后，少女的身影随之消失了。",
+			say = "漣漪消散後，少女的身影隨之消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -677,7 +677,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_canghongzhiyan_1",
 			hidePaintObj = true,
-			say = "失去了全部观测者的奈落开始卷曲、折叠，很快也一同消失了。",
+			say = "失去了全部觀測者的奈落開始捲曲、折疊，很快也一同消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

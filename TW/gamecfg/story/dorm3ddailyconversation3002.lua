@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}！安克雷奇……刚刚许了愿，想要……见到{dorm3d}！",
+			say = "{dorm3d}！安克拉治……剛剛許了願，想要……見到{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "愿望，真的实现了……难道，有魔法？",
+			say = "願望，真的實現了……難道，有魔法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "那，安克雷奇也要……帮{dorm3d}，许愿！",
+			say = "那，安克拉治也要……幫{dorm3d}，許願！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

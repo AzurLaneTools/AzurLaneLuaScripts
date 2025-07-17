@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，今天吹气球！很努力，但吹不大……",
+			say = "安克拉治，今天吹氣球！很努力，但吹不大……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "吹起来，一会儿，变小！再吹起来，还是，变小！",
+			say = "吹起來，一下子，變小！再吹起來，還是，變小！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,18 +81,18 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "唔，好难……",
+			say = "唔，好難……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是忘了扎起来？",
+					content = "是忘了綁起來？",
 					flag = 1
 				},
 				{
-					content = "是漏气了？",
+					content = "是漏氣了？",
 					flag = 1
 				}
 			},
@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不知道……安克雷奇玩累了……！",
+			say = "不知道……安克拉治玩累了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "和{dorm3d}一起……接下来一整天！",
+			say = "和{dorm3d}一起……接下來一整天！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

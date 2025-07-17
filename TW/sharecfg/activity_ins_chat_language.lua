@@ -15832,7 +15832,7 @@ pg.base.activity_ins_chat_language = {
 			},
 			{
 				6,
-				"[点头]"
+				"[點頭]"
 			}
 		}
 	},
@@ -16069,7 +16069,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 0
 	},
 	[3711] = {
-		param = "表情包",
+		param = "17",
 		ship_group = 110101,
 		option = "",
 		type = 4,
@@ -16335,7 +16335,7 @@ pg.base.activity_ins_chat_language = {
 		flag = 4
 	},
 	[3740] = {
-		param = "好的，妈妈！",
+		param = "好的，媽媽！",
 		ship_group = 0,
 		option = "",
 		type = 1,

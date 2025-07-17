@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>三　娃娃机的“试炼”</size>",
+					"與天使的約會\n\n<size=45>3 娃娃機的「試煉」</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			bgm = "story-richang-6",
-			say = "离开祷告堂后，和霞飞来到了港区的商业街附近。",
+			say = "離開禱告堂後，和霞飛來到了港區的商業街附近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "街边最显眼的地方不知何时摆上了一排有着猫爪印记的娃娃机。",
+			say = "街邊最顯眼的地方不知何時擺上了一排有著貓爪印記的娃娃機。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这不会是{namecode:98:明石}搞出来的新花样吧……）",
+			say = "（這不會是明石搞出來的新花樣吧……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "霞飞看着那一排娃娃机，随即停下了脚步。",
+			say = "霞飛看著那一排娃娃機，隨即停下了腳步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这是……？",
+			say = "這是……？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,14 +82,14 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "……看来她是第一次看到这种机器。",
+			say = "……看來她是第一次看到這種機器。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "鸢尾的日常事务很忙碌吗？",
+					content = "鳶尾的日常事務很忙嗎？",
 					flag = 1
 				},
 				{
@@ -105,7 +105,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（——这种问题如果真的问出口了，未免太煞风景。）",
+			say = "（——這種問題如果真的問出口了，未免太煞風景。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -118,7 +118,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "（此时此刻最好的做法，就是教霞飞一起玩。）",
+			say = "（此時此刻最好的做法，就是教霞飛一起玩。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "机会难得，要不要一起玩？",
+			say = "機會難得，要不要一起玩？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "你看，这是操作面板，这里是投币口，用这个控制里面的钩爪。",
+			say = "妳看，這是操作面板，這裡是投幣口，用這個控制裡面的鉤爪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "当你觉得时机成熟之后，就按下这个按钮。钩爪在合适的位置降下去后，就会抓到想要的娃娃了。",
+			say = "當妳覺得時機成熟之後，就按下這個按鈕。鉤爪在適當的位置降下去後，就會抓到想要的娃娃了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "先这样……再按这里……我明白了。",
+			say = "先這樣……再按這裡……我明白了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -202,7 +202,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（说起来，这娃娃机里面的娃娃，怎么都是我的形象啊？）",
+			say = "（說起來，這娃娃機裡面的娃娃，怎麼都是我的形像啊？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,7 +214,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:98:明石}到底在搞什么……）",
+			say = "（明石到底在搞什麼……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -228,7 +228,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我现在应该已经掌握了抓娃娃的方法。指挥官，我们是否可以开始行动？",
+			say = "我現在應該已經掌握了抓娃娃的方法。指揮官，我們是否可以開始行動？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -244,7 +244,7 @@ return {
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "啊先等一下，我去兑换下游戏币。",
+			say = "啊先等一下，我去兌換一下遊戲幣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_171",
-			say = "在用物资以非常不合理的比例兑换了一堆游戏币后，和霞飞开始了今日的首次挑战。",
+			say = "在用物資以非常不合理的比例兌換了一堆遊戲幣後，和霞飛開始了今天的首次挑戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "调整角度……把握时机……",
+			say = "調整角度……把握時機……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -301,7 +301,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_171",
 			hidePaintObj = true,
-			say = "钩爪缓缓下降，眼看着就要抓住目标，但结果却只从旁边掠过。",
+			say = "鉤爪緩緩下降，眼看著就要抓住目標，但結果卻只從旁邊掠過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没想到竟然如此困难。",
+			say = "……沒想到竟然如此困難。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，我可以再试一次吗？",
+			say = "指揮官，我可以再試一次嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -344,11 +344,11 @@ return {
 			},
 			options = {
 				{
-					content = "当然",
+					content = "當然",
 					flag = 1
 				},
 				{
-					content = "（直接向霞飞展示刚刚兑换的一大桶游戏币）",
+					content = "（直接向霞飛展示剛剛兌換的一大桶遊戲幣）",
 					flag = 2
 				}
 			}
@@ -360,7 +360,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "这桶里的都是游戏币，你可以慢慢试。",
+			say = "這桶裡的都是遊戲幣，你可以慢慢試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有这么多次机会的话，不获得点战绩就说不过去了呢。",
+			say = "有這麼多次機會的話，不獲得點戰績就說不過去了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -426,7 +426,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这一定是上天给予我的试炼……我不能轻易放弃。",
+			say = "這一定是上帝給我的試煉……我不能輕易放棄。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -479,7 +479,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "再来一次……！",
+			say = "再來一次……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -494,7 +494,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_171",
-			say = "桶里的游戏币逐渐见底，而霞飞依然没能在娃娃机的试炼中取得胜利。",
+			say = "桶子裡的遊戲幣逐漸見底，而霞飛依然沒能在娃娃機的試煉中取得勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

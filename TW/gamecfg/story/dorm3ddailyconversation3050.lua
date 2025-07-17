@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "安克雷奇，喜欢绘本……所以，最近想画……一本，新的！",
+			say = "安克拉治，喜歡繪本……所以，最近想畫……一本，新的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "主角是{dorm3d}……和智慧的安克雷奇！",
+			say = "主角是{dorm3d}……和智慧的安克拉治！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过，故事的类型……还没决定……",
+			say = "不過，故事的類型……還沒決定……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "从现在开始画……还不晚……！之后，还会发生，很多精彩的故事！",
+			say = "從現在開始畫……還不晚……！之後，還會發生，很多精彩的故事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

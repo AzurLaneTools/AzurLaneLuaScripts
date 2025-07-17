@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}……安克雷奇……想要……秘密基地！",
+			say = "{dorm3d}……安克拉治……想要……秘密基地！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "谁都找不到……藏满{dorm3d}，和安克雷奇的，故事！",
+			say = "誰都找不到……藏滿{dorm3d}，和安克拉治的，故事！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "哪里，比较好？床底……？还是，帐篷？",
+			say = "哪裡，比較好？床底……？還是，帳篷？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "嗯……做，大大的树屋！",
+			say = "嗯……做，大大的樹屋！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，和{dorm3d}，偷偷的……做什么都可以！嘿嘿~",
+			say = "安克拉治，和{dorm3d}，偷偷的……做什麼都可以！嘿嘿~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

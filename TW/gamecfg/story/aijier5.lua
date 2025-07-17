@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>五　海神的邀约</size>",
+					"激蕩的荒海之神\n\n<size=45>5 海神的邀約</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-5",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "离开指挥室后，我和{namecode:480:埃吉尔}一同来到了海边。",
+			say = "離開指揮室後，我和埃吉爾一同來到了海邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -47,7 +47,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "她的步伐略快，走在我的身前，以颇为悠闲地姿态享受着脚下的沙滩和海风的轻拂。",
+			say = "她的步伐略快，走在我的身前，以頗為悠閒地姿態享受著腳下的沙灘和海風的輕拂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "望着少女放松的姿态，不由得露出了一个笑容。",
+			say = "望著少女放鬆的姿態，不禁露出了一個笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -72,7 +72,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你突然笑什么？",
+			say = "指揮官，你突然笑什麼？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "脸上的笑容还未来得及收回，{namecode:480:埃吉尔}就在这时突然转过了身。",
+			say = "臉上的笑容還未來得及收回，埃吉爾就在這時突然轉過身了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯……因为看着{namecode:480:埃吉尔}的身影就很开心。",
+			say = "嗯……因為看著埃吉爾的身影就很開心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -113,7 +113,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哦？指挥官，你不会是对我着迷了吧？",
+			say = "哦？指揮官，你不會是對我著迷了吧？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -124,7 +124,7 @@ return {
 			},
 			options = {
 				{
-					content = "确实着迷了",
+					content = "確實著迷了",
 					flag = 1
 				}
 			}
@@ -135,7 +135,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "嗯，我确实对你着迷了。",
+			say = "嗯，我確實對妳著迷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你你你、你认真的？！这样有点太犯规了吧！居然直接说了！",
+			say = "你你你、你認真的？！這樣有點太犯規了吧！居然直接說了！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -169,7 +169,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}转身，没有继续看着我。",
+			say = "埃吉爾轉身，沒有繼續看著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,14 +181,14 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（现在应该做的是……）",
+			say = "（現在應該做的是……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "与{namecode:480:埃吉尔}并肩",
+					content = "與埃吉爾並肩",
 					flag = 1
 				}
 			}
@@ -198,7 +198,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "往前走了几步，到{namecode:480:埃吉尔}的身侧与她并肩而行。",
+			say = "往前走了幾步，到埃吉爾的身側與她並肩而行。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "少女依旧保持着不自然的沉默，但她的手却贴了上来，与我紧扣。",
+			say = "少女依舊保持著不自然的沉默，但她的手卻貼了上來，與我緊扣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "——纤细柔软，却又不允许被拒绝。",
+			say = "——纖細柔軟，卻又不允許被拒絕。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵呵，指挥官，你要小心，不要被汹涌的海潮吞噬哦？",
+			say = "呵呵，指揮官，你要小心，不要被洶湧的海潮吞噬哦？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "被吞噬也没关系，我相信{namecode:480:埃吉尔}会拉住我的。",
+			say = "被吞噬也沒關係，我相信埃吉爾會拉住我的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼……！那你到时候就再好好的向荒海之神恳求吧！",
+			say = "哼……！那你到時候就再好好的向荒海之神懇求吧！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -278,7 +278,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "原本就紧紧相扣的手指，再次被她用力握紧。",
+			say = "原本就緊緊相扣的手指，再次被她用力握緊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -289,7 +289,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_106",
 			hidePaintObj = true,
-			say = "之后，就这样，迎着海风一路行进。",
+			say = "之後，就這樣，迎著海風一路行進。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

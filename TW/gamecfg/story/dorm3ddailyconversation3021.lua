@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "离{dorm3d}很近……安克雷奇，能听到心跳！",
+			say = "離{dorm3d}很近……安克拉治，能聽到心跳！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "咚咚~咚咚~……和{dorm3d}近，听得清楚！",
+			say = "咚咚~咚咚~……跟{dorm3d}近，聽得清楚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……{dorm3d}……现在，心跳快了！咚咚咚！",
+			say = "……{dorm3d}……現在，心跳快了！咚咚咚！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……也在咚咚咚~！{dorm3d}靠近，听听！",
+			say = "安克拉治……也在咚咚咚~！{dorm3d}靠近，聽聽！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇种了，种子，小小的……！",
+			say = "安克拉治種了，種子，小小的……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "会长出什么东西呢……种子？",
+			say = "會長出什麼東西呢……種子？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "甜甜的糖果……？超级大的蔬菜……？",
+			say = "甜甜的糖果……？超級大的蔬菜……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……可能会长出来，绘本！",
+			say = "唔……可能會長出來，繪本！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "等它长出来，安克雷奇，第一个告诉{dorm3d}！",
+			say = "等它長出來，安克拉治，第一個告訴{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

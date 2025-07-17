@@ -17,7 +17,7 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "安克雷奇……决定了！要……“黑化”！",
+			say = "安克拉治……決定了！要……「黑化」！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -28,7 +28,7 @@ return {
 					flag = 1
 				},
 				{
-					content = "“黑化”……？",
+					content = "「黑化」……？",
 					flag = 1
 				}
 			},
@@ -67,7 +67,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇听港区的同伴说……“黑化”会变酷！",
+			say = "安克拉治聽到港區的同伴說……「黑化」會變酷！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……头发，可以不黑吗？",
+			say = "安克拉治……頭髮，可以不黑嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

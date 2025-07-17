@@ -201,6 +201,7 @@ pg.memory_group = setmetatable({
 		309,
 		310,
 		311,
+		312,
 		316,
 		317,
 		318,
@@ -309,6 +310,8 @@ pg.memory_group = setmetatable({
 		594,
 		595,
 		596,
+		597,
+		599,
 		601,
 		602,
 		1000,
@@ -4965,6 +4968,26 @@ pg.base.memory_group = {
 			4058
 		}
 	},
+	[312] = {
+		title = "領域外的歸途",
+		subtype = 1,
+		link_event = 5699,
+		type = 2,
+		id = 312,
+		icon = "title_event",
+		group_id = "",
+		memories = {
+			4071,
+			4072,
+			4073,
+			4074,
+			4075,
+			4076,
+			4077,
+			4078,
+			4079
+		}
+	},
 	[316] = {
 		title = "港區時尚特刊：祥蛇賀春[3]",
 		subtype = 3,
@@ -7127,6 +7150,46 @@ pg.base.memory_group = {
 			3425,
 			3426,
 			3427
+		},
+		group_id = {
+			10000
+		}
+	},
+	[597] = {
+		title = "與天使的約會",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 597,
+		icon = "title_chara_xiafei",
+		memories = {
+			3481,
+			3482,
+			3483,
+			3484,
+			3485,
+			3486,
+			3487
+		},
+		group_id = {
+			10000
+		}
+	},
+	[599] = {
+		title = "激蕩的荒海之神",
+		subtype = 0,
+		link_event = 0,
+		type = 3,
+		id = 599,
+		icon = "title_chara_aijier",
+		memories = {
+			3671,
+			3672,
+			3673,
+			3674,
+			3675,
+			3676,
+			3677
 		},
 		group_id = {
 			10000

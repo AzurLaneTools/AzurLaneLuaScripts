@@ -457,6 +457,150 @@ pg.dorm3d_touch_data = {
 			215110
 		}
 	},
+	[1990310] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1990310,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300210
+		}
+	},
+	[1990320] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1990320,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300310
+		}
+	},
+	[1990330] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1990330,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300110
+		}
+	},
+	[1990340] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1990340,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300410
+		}
+	},
+	[1990350] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1990350,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			300510
+		}
+	},
+	[1990390] = {
+		default_favor = 1001,
+		finish_action = "Idle",
+		id = 1990390,
+		heartbeat_enter_anim = "",
+		heartbeat_enable = 0,
+		heartbeat_favor = {
+			{
+				0,
+				1011
+			},
+			{
+				50,
+				1012
+			},
+			{
+				100,
+				1013
+			}
+		},
+		ik_status = {
+			310910
+		}
+	},
 	all = {
 		101,
 		102,
@@ -476,6 +620,12 @@ pg.dorm3d_touch_data = {
 		2200410,
 		2200510,
 		2200610,
-		2210110
+		2210110,
+		1990310,
+		1990320,
+		1990330,
+		1990340,
+		1990350,
+		1990390
 	}
 }

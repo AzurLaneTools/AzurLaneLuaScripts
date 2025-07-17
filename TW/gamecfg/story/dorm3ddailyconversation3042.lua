@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "安克雷奇，最近学了……健康体操！{dorm3d}，好奇，健康体操？",
+			say = "安克拉治，最近學了……健康體操！{dorm3d}，好奇，健康體操？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "健康体操……动作一……",
+			say = "健康體操…動作一……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "唔……忘记了……",
+			say = "嗯……忘記了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "不过没关系……！最后一步……记得！",
+			say = "不過沒關係……！最後一步……記得！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……抱抱{dorm3d}！",
+			say = "安克拉治……抱抱{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

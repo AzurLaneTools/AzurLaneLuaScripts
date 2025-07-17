@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}，之前不小心，受伤……安克雷奇……帮忙，治疗！",
+			say = "{dorm3d}，之前不小心，受傷……安克拉治……幫忙，治療！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "没关系，伤口已经处理好了。",
+			say = "沒關係，傷口已經處理好了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，会特别的……治疗方式！像这样……",
+			say = "安克拉治，會特別的…治療方式！像這樣…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "呼呼……痛痛飞……呼呼……痛痛飞！",
+			say = "呼呼……痛痛飛……呼呼……痛痛飛！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "怎么样！{dorm3d}……伤口，变好了吗？",
+			say = "怎麼樣！{dorm3d}……傷口，變好了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

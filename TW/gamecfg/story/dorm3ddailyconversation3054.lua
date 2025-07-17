@@ -56,7 +56,7 @@ return {
 			side = 2,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "是想之后一起来海边晨跑吗？",
+			say = "是想之後一起來海邊晨跑嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嗯……！安克雷奇……和{dorm3d}……一起跑！",
+			say = "嗯……！安克拉治……和{dorm3d}……一起跑！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果累了……安克雷奇……背{dorm3d}……继续跑！",
+			say = "如果累了……安克拉治……背{dorm3d}……繼續跑！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

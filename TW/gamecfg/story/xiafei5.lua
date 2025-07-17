@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>五　天使与飞鸟</size>",
+					"與天使的約會\n\n<size=45>5 天使與飛鳥</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			bgm = "story-richang-8",
-			say = "我们牵着手漫无目的地走着，直至来到了一处码头附近。",
+			say = "我們牽著手漫無目的地走著，直至來到了一處碼頭附近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -33,7 +33,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们去下面走走吧，吹一吹海风。",
+			say = "我們去下面走走吧，吹一吹海風。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "一群海鸥自海面扑腾着起飞，激起的水珠飞向四面八方。",
+			say = "一群海鷗自海面撲騰著起飛，激起的水珠飛向四面八方。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "而霞飞则在第一时间用身后的翅膀帮我挡住了飞溅而来的水花。",
+			say = "而霞飛則在第一時間用身後的翅膀幫我擋住了飛濺而來的水花。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "看着在日光下张开双翼的霞飞，我不禁再一次发出了这样的感慨。",
+			say = "看著在日光下張開雙翼的霞飛，我不禁再一次發出了這樣的感慨。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "大家的确是这么称呼我的。",
+			say = "大家的確是這麼稱呼我的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -125,7 +125,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "说起来，指挥官觉得真正的天使应该是什么样子的呢？",
+			say = "說起來，指揮官覺得真正的天使應該是什麼樣子的呢？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,7 +141,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "呃……应该有羽翼，穿着纯白的衣服，然后也有光环什么的？",
+			say = "呃……應該要有羽翼，穿著純白的衣服，然後也有光環什麼的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过在我看来，霞飞和真正的天使之间并没有什么区别。",
+			say = "不過在我看來，霞飛和真正的天使之間並沒有什麼差別。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -167,7 +167,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……？您得出这条观点的理由，我想听听看。",
+			say = "嗯……？您得出這條觀點的理由，我想聽聽看。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -183,7 +183,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "真正的天使也是圣洁和正直的化身，将神圣的讯息带给陷入困境之中的人。",
+			say = "真正的天使也是聖潔和正直的化身，將神聖的訊息帶給陷入困境的人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -195,7 +195,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "霞飞不也是同样的么？",
+			say = "霞飛不也是同樣的嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "伸手放在霞飞唇畔，示意她先安静下来继续听我说完。",
+			say = "伸手放在霞飛唇畔，示意她先安靜下來繼續聽我說完。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我知道你想说什么，不过——",
+			say = "我知道妳想說什麼，但——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "裁定罪恶，是为了将公正与良善带回世间。",
+			say = "裁定罪惡，是為了將公正與良善帶回世間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -259,7 +259,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "努力战斗，也是为了更美好的明天。",
+			say = "努力戰鬥，也是為了更美好的明天。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +271,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "所以，对我来说，霞飞就是真正的天使。",
+			say = "所以，對我來說，霞飛就是真正的天使。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "我很喜欢，也很欣赏这样的霞飞。",
+			say = "我很喜歡，也很欣賞這樣的霞飛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -315,7 +315,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，您刚刚所说的这些话，简直就像告白一样呢。",
+			say = "指揮官，您剛剛所說的這些話，簡直就像告白一樣呢。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -333,7 +333,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……能听到您说这些，我真的很开心。",
+			say = "不過……能聽到您說這些，我真的很開心。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -348,7 +348,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "少女的脸上浮现出笑意，随即将她的头轻轻靠在了我的肩上。",
+			say = "少女的臉上浮現出笑意，隨即將她的頭輕輕靠在了我的肩上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "不远处飞走的海鸥群又再度飞回，两两结伴，互相依偎。",
+			say = "不遠處飛走的海鷗群又再度飛回，兩兩結伴，互相依偎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_700",
 			hidePaintObj = true,
-			say = "就像此时此刻的我与霞飞。",
+			say = "就像此時此刻的我與霞飛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

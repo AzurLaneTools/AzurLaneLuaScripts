@@ -13,7 +13,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 19903,
-			say = "颜料……！安克雷奇……要好好用……！",
+			say = "顏料……！安克拉治……要好好用……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 		{
 			nameColor = "#FFFFFF",
 			actorName = 19903,
-			say = "嗯！安克雷奇……画最喜欢的{dorm3d}！嘿嘿……",
+			say = "嗯！安克拉治……畫最喜歡的{dorm3d}！嘿嘿……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -17,15 +17,14 @@ pg.activity_banner = {
 		id = 2,
 		pic = "temp2",
 		param = {
-			"scene Cryptolalia",
-			{}
+			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					3
+					17
 				},
 				{
 					0,
@@ -36,8 +35,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					9
+					8,
+					13
 				},
 				{
 					23,
@@ -52,15 +51,14 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene skinshop",
-			{}
+			"scene level"
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					3
+					17
 				},
 				{
 					0,
@@ -71,8 +69,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					16
+					8,
+					13
 				},
 				{
 					23,
@@ -83,18 +81,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5699",
+		type = 3,
 		id = 4,
 		pic = "temp4",
-		param = {
-			"dorm 3d select"
-		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					3
+					17
 				},
 				{
 					0,
@@ -105,11 +101,11 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					17
+					8,
+					13
 				},
 				{
-					14,
+					23,
 					59,
 					59
 				}
@@ -117,29 +113,11 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5700",
+		type = 3,
 		id = 5,
 		pic = "temp5",
-		param = {
-			"scene get boat",
-			{
-				projectName = "new",
-				page = 1
-			}
-		},
 		time = {
-			{
-				{
-					2025,
-					7,
-					3
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
 			{
 				{
 					2025,
@@ -147,7 +125,19 @@ pg.activity_banner = {
 					17
 				},
 				{
-					14,
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
 					59,
 					59
 				}
@@ -155,18 +145,16 @@ pg.activity_banner = {
 		}
 	},
 	{
-		type = 2,
+		param = "5698",
+		type = 3,
 		id = 6,
 		pic = "temp6",
-		param = {
-			"scene court yard"
-		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					3
+					17
 				},
 				{
 					0,
@@ -177,8 +165,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					16
+					8,
+					13
 				},
 				{
 					23,
@@ -730,9 +718,6 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
-			4,
-			5,
-			6,
 			8,
 			1000,
 			1001,
@@ -759,6 +744,9 @@ pg.activity_banner = {
 			1024
 		},
 		[3] = {
+			4,
+			5,
+			6,
 			7,
 			9,
 			1003

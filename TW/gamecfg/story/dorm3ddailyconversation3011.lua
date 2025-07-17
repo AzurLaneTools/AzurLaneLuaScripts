@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "蹦蹦！安克雷奇，是兔兔！",
+			say = "蹦蹦！安克拉治，是兔兔！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,14 +29,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "{dorm3d}，兔兔安克雷奇，可爱……{dorm3d}，夸夸！",
+			say = "{dorm3d}，兔兔安克拉治，可愛……{dorm3d}，誇誇！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "兔兔很可爱！",
+					content = "兔兔很可愛！",
 					flag = 1
 				},
 				{
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿，{dorm3d}喜欢……！",
+			say = "嘿嘿，{dorm3d}喜歡……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，开心……兔兔会比平时，还听话！",
+			say = "安克拉治，開心……兔兔會比平常，還聽話！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

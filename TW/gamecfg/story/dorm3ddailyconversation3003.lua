@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，不明白……{dorm3d}，教安克雷奇……",
+			say = "安克拉治，不明白……{dorm3d}，教安克拉治……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "有{dorm3d}在，安克雷奇……变厉害！",
+			say = "有{dorm3d}在，安克拉治……變厲害！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

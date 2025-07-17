@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……买了小鸭子……！",
+			say = "安克拉治……買了小鴨子……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "放进浴缸，游来游去……发出，声音！像，真的！",
+			say = "放進浴缸，游來游去……發出，聲音！像，真的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "洗澡，一定开心！{dorm3d}，来和安克雷奇，一起玩~",
+			say = "洗澡，一定開心！{dorm3d}，來和安克拉治，一起玩~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

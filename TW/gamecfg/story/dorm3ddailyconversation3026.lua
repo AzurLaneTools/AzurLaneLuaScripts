@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "……安克雷奇，做错了事……颜料……弄脏{dorm3d}的文件……",
+			say = "……安克拉治，做錯了事……顏料……弄髒{dorm3d}的文件……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，不好……{dorm3d}，惩罚安克雷奇吧……",
+			say = "安克拉治，不好……{dorm3d}，懲罰安克拉治吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "打手心……还是……打，别的……？",
+			say = "打手心……還是……打，別的……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇，接受惩罚，然后，继续努力！",
+			say = "安克拉治，接受懲罰，然後，繼續努力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

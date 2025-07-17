@@ -21913,6 +21913,220 @@ pg.activity_template = {
 		id = 5694,
 		page_core = ""
 	},
+	[5698] = {
+		mark = 20250717,
+		type = 69,
+		login_pop = 0,
+		config_id = 29,
+		is_show = 44,
+		title_res_tag = "Georgia_catchup",
+		id = 5698,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "NewPlymouthTecCatchupPage",
+			ui_name = "NewPlymouthTecCatchupPage"
+		},
+		config_client = {
+			itemid = 42043
+		}
+	},
+	[5699] = {
+		mark = 20250717,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 43,
+		title_res_tag = "lingyuwaideguitu",
+		id = 5699,
+		page_core = "",
+		config_data = {
+			{
+				20916,
+				20917
+			},
+			{
+				20918,
+				20919
+			},
+			{
+				20920,
+				20921
+			},
+			{
+				20922,
+				20923
+			},
+			{
+				20924,
+				20925
+			},
+			{
+				20926,
+				20927
+			},
+			{
+				20928,
+				20929
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DeXiV6TaskPage",
+			ui_name = "DeXiV6TaskPage"
+		},
+		config_client = {
+			story = {
+				"LINGYUWAIDEGUITU1",
+				"LINGYUWAIDEGUITU3",
+				"LINGYUWAIDEGUITU4",
+				"LINGYUWAIDEGUITU5",
+				"LINGYUWAIDEGUITU6",
+				"LINGYUWAIDEGUITU7",
+				"LINGYUWAIDEGUITU8"
+			},
+			specialstory = {
+				"LINGYUWAIDEGUITU2",
+				"LINGYUWAIDEGUITU9"
+			}
+		}
+	},
+	[5700] = {
+		mark = 20250717,
+		type = 87,
+		login_pop = 0,
+		config_id = 25,
+		is_show = 42,
+		config_client = "",
+		title_res_tag = "activity",
+		id = 5700,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DexiV6FramePage",
+			ui_name = "DexiV6FramePage"
+		}
+	},
+	[5701] = {
+		mark = 20250717,
+		page_info = "",
+		type = 58,
+		login_pop = 0,
+		config_id = 34,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 5701,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[5702] = {
 		mark = 20250410,
 		page_info = "",
@@ -68053,6 +68267,7 @@ pg.activity_template = {
 			5581,
 			5583,
 			5625,
+			5699,
 			5922,
 			5924,
 			5979,
@@ -68886,6 +69101,7 @@ pg.activity_template = {
 			5318,
 			5511,
 			5550,
+			5698,
 			5921,
 			40400,
 			40489,
@@ -68919,6 +69135,7 @@ pg.activity_template = {
 			5340,
 			5513,
 			5552,
+			5700,
 			5923,
 			40724,
 			40783,
@@ -68955,6 +69172,7 @@ pg.activity_template = {
 			5506,
 			5514,
 			5553,
+			5701,
 			5925,
 			40178,
 			40201,
@@ -70140,6 +70358,10 @@ pg.activity_template = {
 		5692,
 		5693,
 		5694,
+		5698,
+		5699,
+		5700,
+		5701,
 		5702,
 		5703,
 		5704,

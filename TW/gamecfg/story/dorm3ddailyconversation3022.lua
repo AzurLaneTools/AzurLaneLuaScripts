@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "安克雷奇喜欢彩虹……！闪闪发光……桥一样！",
+			say = "安克拉治喜歡彩虹……！閃閃發光……橋一樣！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "高高的桥，一边是安克雷奇……另一边，是{dorm3d}！",
+			say = "高高的橋，一邊是安克拉治……另一邊，是{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}，也发光！",
+			say = "{dorm3d}，也發光！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "安克雷奇想念{dorm3d}的时候，{dorm3d}会从，彩虹另一侧，来找安克雷奇吗？",
+			say = "安克拉治想念{dorm3d}的時候，{dorm3d}會從，彩虹另一側，來找安克拉治嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -121,7 +121,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "如果{dorm3d}很忙……安克雷奇……会去赶到{dorm3d}身边！",
+			say = "如果{dorm3d}很忙……安克拉治……會去趕到{dorm3d}身邊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

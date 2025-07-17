@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "{dorm3d}！安克雷奇，变了吗？……有没有，成长？",
+			say = "{dorm3d}！安克拉治，變了嗎？……有沒有，成長？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,7 +29,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "多喝牛奶，会长大！安克雷奇，喝很多！",
+			say = "多喝牛奶，會長大！安克拉治，喝很多！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -69,7 +69,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "变大一点，{dorm3d}喜欢，对吗？",
+			say = "變大一點，{dorm3d}喜歡，對嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇……还在成长期！",
+			say = "安克拉治……還在成長期！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

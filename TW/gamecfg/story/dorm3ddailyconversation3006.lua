@@ -17,7 +17,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "休息时间……！{dorm3d}……和安克雷奇……在宿舍里……放下工作！",
+			say = "休息時間……！{dorm3d}……和安克拉治……在宿舍裡……放下工作！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -29,14 +29,14 @@ return {
 			dir = 1,
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
-			say = "安克雷奇……准备了……好吃的点心！",
+			say = "安克拉治……準備了……好吃的點心！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "是安克雷奇亲手做的吗？",
+					content = "是安克拉治親手做的嗎？",
 					flag = 1
 				}
 			},
@@ -75,7 +75,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "安克雷奇不会做……{dorm3d}……对不起……",
+			say = "安克拉治不會做……{dorm3d}……對不起……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "不过……点心很好吃！尝尝……{dorm3d}！",
+			say = "不過……點心很好吃！吃吃……{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

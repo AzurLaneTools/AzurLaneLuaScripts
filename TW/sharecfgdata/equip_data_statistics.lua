@@ -167118,6 +167118,134 @@ _G.pg.base.equip_data_statistics[150573] = {
 }
 
 
+_G.pg.base.equip_data_statistics[150580] = {
+	name = "曼非斯之藍",
+	tech = 0,
+	type = 10,
+	speciality = "<[NA]>",
+	attribute_1 = "durability",
+	value_2 = 0,
+	icon = "150580",
+	value_1 = "200",
+	rarity = 4,
+	descrip = "曼非斯隨身攜帶的手帕，名字是自己努力繡上去的。",
+	nationality = 1,
+	ammo = 10,
+	value_3 = 0,
+	id = 150580,
+	torpedo_ammo = 0,
+	property_rate = {},
+	ammo_icon = {},
+	ammo_info = {},
+	equip_info = {
+		6
+	},
+	weapon_id = {},
+	skill_id = {
+		{
+			60800,
+			1
+		}
+	},
+	hidden_skill_id = {},
+	part_main = {},
+	part_sub = {},
+	equip_parameters = {},
+	label = {
+		"DEV"
+	}
+}
+
+
+_G.pg.base.equip_data_statistics[150581] = {
+	id = 150581,
+	value_1 = "230",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150582] = {
+	id = 150582,
+	value_1 = "260",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150583] = {
+	id = 150583,
+	value_1 = "290",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150584] = {
+	id = 150584,
+	value_1 = "320",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150585] = {
+	id = 150585,
+	value_1 = "350",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150586] = {
+	id = 150586,
+	value_1 = "380",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150587] = {
+	id = 150587,
+	value_1 = "410",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150588] = {
+	id = 150588,
+	value_1 = "440",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150589] = {
+	id = 150589,
+	value_1 = "470",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150590] = {
+	id = 150590,
+	value_1 = "500",
+	base = 150580,
+	hidden_skill_id = {}
+}
+
+
+_G.pg.base.equip_data_statistics[150591] = {
+	anti_siren = 100,
+	base = 150580,
+	id = 150591,
+	value_1 = "530",
+	hidden_skill_id = {}
+}
+
+
 _G.pg.base.equip_data_statistics[150600] = {
 	name = "伏波的計劃書",
 	tech = 0,

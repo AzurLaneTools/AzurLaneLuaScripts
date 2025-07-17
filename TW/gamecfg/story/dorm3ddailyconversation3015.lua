@@ -17,7 +17,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "天气预报……好神奇！为什么知道，明天的天气？",
+			say = "天氣預報……好神奇！為什麼知道，明天的天氣？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -57,7 +57,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……难道是，预知未来？",
+			say = "……難道是，預知未來？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "向安克雷奇解释了天气预报的原理。",
+			say = "向安克拉治解釋了天氣預報的原理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -79,7 +79,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "……好复杂……{dorm3d}，知道，明天的天气吗？",
+			say = "……好複雜……{dorm3d}，知道，明天的天氣嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -91,7 +91,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#FFFFFF",
-			say = "{dorm3d}知道……安克雷奇，问{dorm3d}！",
+			say = "{dorm3d}知道……安克拉治，問{dorm3d}！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			nameColor = "#FFFFFF",
 			hidePaintObj = true,
 			dir = 1,
-			say = "嘿嘿~安克雷奇，聪明！",
+			say = "嘿嘿~安克拉治，聰明！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

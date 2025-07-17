@@ -110,7 +110,7 @@ pg.dorm3d_accompany = {
 	},
 	[32] = {
 		sceneInfo = "map_beach_02|Beach",
-		name = "休闲相伴",
+		name = "休閒相伴",
 		performance_time = 20,
 		image = "tianlangxing_accompany_beach",
 		ship_id = 19903,
@@ -154,7 +154,7 @@ pg.dorm3d_accompany = {
 	},
 	[112] = {
 		sceneInfo = "map_publiccafe_02|Publiccafe",
-		name = "休闲相伴",
+		name = "休閒相伴",
 		performance_time = 20,
 		image = "cafe_accompany",
 		ship_id = 10517,

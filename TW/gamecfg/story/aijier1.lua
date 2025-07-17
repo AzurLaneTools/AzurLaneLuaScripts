@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"激荡的荒海之神\n\n<size=45>一　文件大雪崩</size>",
+					"激蕩的荒海之神\n\n<size=45>1 文件大雪崩</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgm = "story-richang-2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥室内，{namecode:480:埃吉尔}正在和我一起处理今天工作需要用的文件。",
+			say = "指揮室內，埃吉爾正在和我一起處理今天工作所需使用的文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -49,7 +49,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "已经整理完的我放在这里了。",
+			say = "已經整理完的我放在這裡了。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -67,7 +67,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过……我说啊，今天的工作是不是有点太多了？",
+			say = "不過……我說啊，今天的工作是不是有點太多了？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -82,7 +82,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}一边说着，一边皱着眉看向桌面上的文件。",
+			say = "埃吉爾一邊說著，一邊皺著眉看向桌面上的文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,19 +93,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "顺着她的视线看去，演习报告、会议资料、仓库清单……等等，已经堆到了一人多高。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "这也是没办法的事情，毕竟今天是周一……",
+			say = "順著她的視線看去，演習報告、會議資料、倉庫清單……等等，已經堆到了一人多高。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -117,7 +105,19 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "不过，居然一口气就到了这么恐怖的量，也有点出乎我的预料了。",
+			say = "這也是沒辦法的事情，畢竟今天是星期一……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "不過，居然一口氣就到了這麼恐怖的量，也有點出乎我的預料了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,7 +131,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真是悲惨……没办法，就让我来帮你吧，指挥官。",
+			say = "真是悲慘……沒辦法，就讓我來幫你吧，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -148,7 +148,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "记得要好好感激我，呵呵呵呵呵~",
+			say = "記得要好好感激我，呵呵呵呵呵~",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -163,7 +163,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}抬手将长发别在耳后，随后优雅地坐回到办公桌前，开始了她的工作。",
+			say = "埃吉爾抬手將長髮別在耳後，隨後優雅地坐回到辦公桌前，開始了她的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,30 +174,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
-			say = "虽然刚开始有些小插曲，但{namecode:480:埃吉尔}很快便上手了秘书舰的工作。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（就像今天，如果没有她在的话，这些文件想必可以让我工作到天明吧……）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task_2",
-			hidePaintObj = true,
-			say = "无言地望了望那一摞混杂着无数硬壳合订本的文件山。",
+			say = "雖然剛開始有些小插曲，但埃吉爾很快便上手了秘書艦的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +186,30 @@ return {
 			bgName = "bg_story_task_2",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……还得再快一点。）",
+			say = "（就像今天，如果沒有她在的話，這些文件想必可以讓我工作到天明吧……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			say = "無言地望了望那一疊混雜著無數硬殼合訂本的文件山。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task_2",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "（嗯……還得再快一點。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			bgm = "story-richang-8",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "许久之后，直至夜色将窗外笼罩，桌上的文件数量依然还有许多。",
+			say = "許久之後，直到夜色將窗外籠罩，桌上的文件數量依然還有許多。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -250,7 +250,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这个工作量不加班是不可能了，不过对我来讲也是常事。）",
+			say = "（這個工作量不加班是不可能了，不過對我來講也是常事。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（但是{namecode:480:埃吉尔}那边……）",
+			say = "（但是埃吉爾那邊……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}并未察觉到我的视线，她伸了个懒腰后打了个哈欠。",
+			say = "埃吉爾並未察覺到我的視線，她伸了個懶腰後打了個哈欠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +284,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "一整天的工作似乎让她很是疲倦。",
+			say = "一整天的工作似乎讓她很疲倦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:480:埃吉尔}，辛苦了。你先回去休息吧，接下来交给我自己处理就好。",
+			say = "埃吉爾，辛苦了。妳先回去休息吧，接下來交給我自己處理就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官，你是在和我开玩笑么？",
+			say = "指揮官，你是在跟我開玩笑嗎？",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -325,7 +325,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "眼前的少女挑了挑眉，用锐利的视线看向我，让人感受到那属于深海之神的威压。",
+			say = "眼前的少女挑了挑眉，用銳利的視線看向我，讓人感受到那屬於深海之神的威壓。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -339,7 +339,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在的情况我怎么可能安心离开？我去给你泡一杯咖啡，我们继续。",
+			say = "現在的情況我怎麼可能安心離開？我去幫你泡一杯咖啡，我們繼續。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -355,7 +355,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（果然拗不过她么……）",
+			say = "（果然拗不過她嗎……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "无奈地冲她点点头，算是同意了她的“加班申请”。",
+			say = "無奈地對她點點頭，算是同意了她的「加班申請」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -377,7 +377,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女随即便从座椅上起身，准备去泡咖啡。然而，就在这时出现了意外——",
+			say = "少女隨即便從座椅上起身，準備去泡咖啡。然而，就在這時出現了意外——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -388,7 +388,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "不知道是因为{namecode:480:埃吉尔}起身时低着头，导致角的边缘撞到了文件的缘故，还是因为别的什么……",
+			say = "不知道是因為埃吉爾起身時低著頭，導致角的邊緣撞到了文件的緣故，還是因為別的什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,52 +399,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "那堆夹杂着硬壳文件夹的文件堆开始了它的崩塌。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			side = 2,
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			nameColor = "#A9F548FF",
-			say = "（不好，这样会砸到{namecode:480:埃吉尔}！）",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			say = "身体比意识先一步动作，将{namecode:480:埃吉尔}拉入了怀中。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			say = "大量的文件崩落，虽然这意味着等下又要重新整理一遍，但……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "bg_story_task",
-			hidePaintObj = true,
-			say = "还好，这些东西没有砸到她。",
+			say = "那堆夾雜著硬殼文件夾的文件堆開始了它的崩塌。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +411,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:480:埃吉尔}，没事吧？",
+			say = "（不好，這樣會砸到埃吉爾！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +422,52 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "虽然在文件崩塌之前就已经把{namecode:480:埃吉尔}拉过来了，但还是下意识追问了一句。",
+			say = "身體比意識先一步動作，將埃吉爾拉入了懷中。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			say = "大量的文件崩落，雖然這意味著等下又要重新整理一遍，但……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			say = "還好，這些東西沒有砸到她。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			side = 2,
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			nameColor = "#A9F548FF",
+			say = "埃吉爾，沒事吧？",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "bg_story_task",
+			hidePaintObj = true,
+			say = "雖然在文件崩塌之前就已經把埃吉爾拉過來了，但還是下意識追問了一句。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,7 +496,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "怀中的少女一脸迷茫，似乎是完全没反应过来发生了什么。",
+			say = "懷中的少女一臉迷茫，似乎完全沒反應過來發生了什麼事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -507,7 +507,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "此时此刻，她因为被拉住时的惯性作用，整个人半躺在我的怀中。",
+			say = "此時此刻，她因為被拉住時的慣性作用，整個人半躺在我的懷抱中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -518,7 +518,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "能够清楚地看到她急促呼吸时胸前的起伏，以及正在飞快染上红晕的皮肤。",
+			say = "能夠清楚地看到她急促呼吸時胸前的起伏，以及正在飛快染上紅暈的皮膚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -532,7 +532,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指、指挥官，你、你你你……！",
+			say = "指、指揮官，你、你你你……！",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -552,7 +552,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在短暂的呆愣过后，她立刻从怀抱中挣脱了出来，飞也似地去到了沙发的另一边。",
+			say = "在短暫的呆愣過後，她立刻從懷抱中掙脫了出來，飛也似地去到了沙發的另一邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -564,7 +564,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（这是在害羞……么？不对，现在不是感叹这个的时候。）",
+			say = "（這是在害羞……嗎？不對，現在不是感嘆這個的時候。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -575,7 +575,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "我低头看向地上散落的文件，捡起一份摆回了桌子上。",
+			say = "我低頭看向地上散落的文件，拿起一份擺回了桌子上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -604,7 +604,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "在害羞的情绪消褪后，{namecode:480:埃吉尔}沉默地看着我捡起文件的动作。",
+			say = "在害羞的情緒消褪後，埃吉爾沉默地看著我撿起文件的動作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -615,7 +615,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "很遗憾，原本勉强排列好的文件因为崩塌的缘故全部被打乱，根本不知道一开始归属于哪个文档。",
+			say = "很遺憾，原本勉強排列好的文件因為崩塌的緣故全部被打亂，根本不知道一開始歸屬於哪個文檔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -627,7 +627,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "没关系，{namecode:480:埃吉尔}没事就行……当务之急是把文件理起来。",
+			say = "沒關係，埃吉爾沒事就行……當務之急是把文件整理起來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -641,7 +641,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我来吧。这种程度而已，我一个人就能处理好。",
+			say = "我來吧。這種程度而已，我一個人就能處理好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -658,7 +658,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "反而是指挥官你现在看起来可是疲惫不堪啊~？不过我理解，工作太多也是没办法的事呢。",
+			say = "反而是指揮官你現在看起來可是疲憊不堪~？不過我理解，工作太多也是沒辦法的事。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -673,7 +673,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "少女故作轻松地“嘲笑”着我。",
+			say = "少女故作輕鬆地「嘲笑」著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -687,7 +687,7 @@ return {
 			actor = 499050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "所以，你还是去休息比较好。再说了，这本来就是我的责任。",
+			say = "所以，你還是去休息比較好。再說了，這本來就是我的責任。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -702,7 +702,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "{namecode:480:埃吉尔}说完后，摆出了不容拒绝的态度，把我赶到了沙发上。",
+			say = "埃吉爾說完後，擺出了不容拒絕的態度，把我趕到了沙發上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -713,7 +713,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "她则开始努力收拾起那些散落的文件。",
+			say = "她則開始努力收拾那些散落的文件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			bgName = "bg_story_task",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（{namecode:480:埃吉尔}……这是在自责吧？）",
+			say = "（埃吉爾……這是在自責吧？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

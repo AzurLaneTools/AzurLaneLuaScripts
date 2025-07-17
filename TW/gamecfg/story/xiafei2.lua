@@ -8,7 +8,7 @@ return {
 			stopbgm = true,
 			sequence = {
 				{
-					"与天使的约会\n\n<size=45>二　“赎罪”的祈祷</size>",
+					"與天使的約會\n\n<size=45>2 「贖罪」的祈禱</size>",
 					1
 				}
 			}
@@ -19,7 +19,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			bgm = "theme-clemenceau",
-			say = "和霞飞一起来到了祷告堂。",
+			say = "和霞飛一起來到了禱告堂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -30,7 +30,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "虽说是“一起做祷告”，但实际上我只是坐在长椅上看着她而已。",
+			say = "雖說是「一起做禱告」，但實際上我只是坐在長椅上看著她而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……愿鸢尾的祝福常伴。",
+			say = "……願鳶尾的祝福常伴。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -76,7 +76,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "少女跪坐在地，双手交握于胸前。阳光透过上方的窗户倾泄而下，照亮她的半身。",
+			say = "少女跪坐在地，雙手交握在胸前。陽光透過上方的窗戶傾洩而下，照亮她的半身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "这圣洁又虔诚的一幕让人下意识地屏息，生怕惊扰了眼前紧闭双眸的“天使”。",
+			say = "這聖潔又虔誠的一幕讓人下意識地屏息，生怕驚擾了眼前緊閉雙眸的「天使」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……好了。接下来轮到您了，指挥官。",
+			say = "嗯……好了。接下來輪到您了，指揮官。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
-			say = "她睁开眼看向我的方向。",
+			say = "她睜開眼看向我的方向。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "考虑到您对祷告一事并不熟练，所以，我会仔细地指导您的。",
+			say = "考慮到您對禱告一事並不熟練，所以，我會仔細地指導您的。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -141,11 +141,11 @@ return {
 			},
 			options = {
 				{
-					content = "果然还是算了",
+					content = "果然還是算了",
 					flag = 1
 				},
 				{
-					content = "（点点头）",
+					content = "（點點頭）",
 					flag = 2
 				}
 			}
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 1,
-			say = "祷告这种事……果然还是算了。",
+			say = "禱告這種事……果然還是算了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好吧，您不习惯的话，我不会勉强您。",
+			say = "好吧，您不習慣的話，我不會勉強您。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "刚点头同意，手腕便被少女拉住了。",
+			say = "剛點頭同意，手腕便被少女拉住了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -202,7 +202,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "请您像这样，双手合十。",
+			say = "請您像這樣，雙手合十。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -218,7 +218,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "她将双手覆上我的手背，在教导我双手合十时，纤细的手指先一步与我紧扣。",
+			say = "她將雙手覆上我的手背，在教導我雙手合十時，纖細的手指先一步與我緊扣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -233,7 +233,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……您在自己双手紧握时，记得保持现在的这个力度就好。",
+			say = "嗯…當您在自己雙手緊握時，記得保持現在的這個力道就好。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -249,7 +249,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "她浅淡的嗓音听不出其它情绪。",
+			say = "她淺淡的嗓音聽不出其它情緒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "接下来是……",
+			say = "接下來是……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -279,7 +279,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "她走到我身后，纤细的手指抚上了我的面颊，然后用掌心将我的双眼捂住。",
+			say = "她走到我身後，纖細的手指撫上了我的臉頰，然後用掌心將我的雙眼摀住。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "还请您闭上双眼，然后和我一起念出祷告词。",
+			say = "也請您閉上雙眼，然後和我一起念出禱告詞。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -323,7 +323,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "只要微微后仰，便能感受到身后少女的体温，以及某些柔软的存在。",
+			say = "只要微微後仰，就能感受到身後少女的體溫，以及某些柔軟的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "以鸢尾之名……",
+			say = "以鳶尾之名……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -354,7 +354,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "不知为何，霞飞微微俯下了身。",
+			say = "不知為何，霞飛微微俯下了身。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			optionFlag = 2,
-			say = "感受到肌肤相贴时传递而来的温热，教人开始无暇关注她口中所念的句子。",
+			say = "感受到肌膚相貼時傳遞而來的溫熱，教人開始無暇關注她口中所念的句子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -381,7 +381,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "您不专心呢……",
+			say = "您不專心呢……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -410,7 +410,7 @@ return {
 			optionFlag = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "禁锢在眼前的手掌不知何时撤离，而霞飞则是一副若有所思的模样。",
+			say = "禁錮在眼前的手掌不知何時撤離，而霞飛則是一副若有所思的模樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -441,7 +441,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来以后得想办法让您习惯……",
+			say = "看來以後得想辦法讓您習慣……",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -458,7 +458,7 @@ return {
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
 			optionFlag = 2,
-			say = "习惯晨间祷告？",
+			say = "習慣晨間禱告？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -473,7 +473,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯，您就当是这样吧。",
+			say = "嗯，您就當是這樣吧。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -491,7 +491,7 @@ return {
 			actor = 907010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嗯……那接下来我们就去别的地方吧，请您跟我来。",
+			say = "嗯……那接下來我們就去別的地方吧，請您跟我來。",
 			painting = {
 				alpha = 0.3,
 				time = 1
@@ -519,7 +519,7 @@ return {
 			bgName = "star_level_bg_507",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "（嗯……霞飞今天果然很不对劲。）",
+			say = "（嗯……霞飛今天果然很不對勁。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
