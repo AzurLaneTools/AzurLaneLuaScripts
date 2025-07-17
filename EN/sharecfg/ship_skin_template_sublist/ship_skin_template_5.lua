@@ -1,528 +1,6 @@
 pg = pg or {}
 pg.base = pg.base or {}
 pg.base.ship_skin_template_5 = {
-	[201371] = {
-		name = "Normal Potion Maker",
-		change_skin = "",
-		desc = "I'm Nubian, the master concocter of magic potions! What kind of potion do you want, Commander? ...Huh? It's been so long since you visited a normal potion maker who brews using a cauldron so you don't know what to order? ...Come again?",
-		illustrator2 = -1,
-		ship_group = 20137,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "nubiyaren_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 24,
-		l2d_ignore_drag = 0,
-		hand_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "500",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 201371,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "nubiyaren_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 70987,
-		voice_actor = 402,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.6,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.48,
-					1.272,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.513,
-							2.111,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201372] = {
-		name = "The Modern-Day Clumsy Maid Escapade",
-		change_skin = "",
-		desc = "Uh, teehee! I was trying to make chocolate, then I slipped for some reason! ...Hang on a minute! How did I slip? Even a modern clumsy maid wouldn't blunder like that... Would she?!",
-		illustrator2 = -1,
-		ship_group = 20137,
-		group_index = 2,
-		purchase_offset = "",
-		painting = "nubiyaren_3",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 17,
-		l2d_ignore_drag = 0,
-		hand_id = 7,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "166",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 201372,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "nubiyaren_3",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 402,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {
-			2
-		},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.6,
-					1.01,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0,
-					0,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.48,
-					1.272,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.513,
-							2.111,
-							0
-						}
-					}
-				}
-			}
-		}
-	},
-	[201380] = {
-		name = "Trafalgar",
-		change_skin = "",
-		desc = "Battle-class destroyer – Trafalgar.",
-		illustrator2 = -1,
-		ship_group = 20138,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "telafaerjia",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 201380,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "telafaerjia",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 452,
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.438,
-					1.233,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.135,
-					0.135,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.839,
-					2.365,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.83,
-							2.516,
-							0
-						}
-					}
-				}
-			}
-		},
-		spine_offset = {
-			-85.3,
-			166.8,
-			0,
-			0.603
-		}
-	},
-	[201381] = {
-		name = "Sea Breeze, Moonlit Talks",
-		change_skin = "",
-		desc = "The breeze is nice, isn't it? Do you want to have a drink with me? (This is exactly how my movies go, so this should work... Is my face too stiff?)",
-		illustrator2 = -1,
-		ship_group = 20138,
-		group_index = 1,
-		purchase_offset = "",
-		painting = "telafaerjia_2",
-		bg_sp = "",
-		skin_type = 0,
-		shop_type_id = 6,
-		l2d_ignore_drag = 0,
-		hand_id = 1,
-		lip_smoothing = 0,
-		bgm = "",
-		special_effects = "",
-		bg = "164",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		id = 201381,
-		voice_actor_2 = -1,
-		part_scale = "",
-		prefab = "telafaerjia_2",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 71135,
-		voice_actor = 452,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		tag = {
-			1,
-			2
-		},
-		live2d_offset = {
-			-73,
-			90,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.47,
-					1.14,
-					0
-				}
-			},
-			torpedo = {
-				{
-					-0.17,
-					0.03,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					0.78,
-					2.19,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.91,
-							2.55,
-							0
-						}
-					}
-				}
-			}
-		},
-		l2d_animations = {
-			"idle",
-			"main_1",
-			"main_2",
-			"main_3",
-			"mission",
-			"mission_complete",
-			"complete",
-			"login",
-			"home",
-			"mail",
-			"touch_body",
-			"touch_head"
-		},
-		l2d_voice_calibrate = {
-			use_event = true
-		},
-		ship_l2d_id = {
-			20138101,
-			20138102,
-			20138103,
-			20138104,
-			20138105,
-			20138106,
-			20138107,
-			20138108,
-			20138109,
-			20138110,
-			20138111,
-			20138112,
-			20138113
-		},
-		l2d_drag_rate = {
-			0.02,
-			0.04,
-			0.02
-		},
-		get_showing = {
-			show = 1,
-			paint_offset = {
-				-458,
-				186,
-				1.20625
-			},
-			data = {
-				{
-					854,
-					-738,
-					1.6,
-					-200,
-					55,
-					2
-				},
-				{
-					-491,
-					-484,
-					1.6,
-					100,
-					244,
-					2
-				},
-				{
-					-219,
-					360,
-					1.5,
-					126,
-					-303,
-					2.5
-				}
-			}
-		}
-	},
 	[201390] = {
 		name = "Gallant",
 		change_skin = "",
@@ -15217,6 +14695,613 @@ pg.base.ship_skin_template_5 = {
 						{
 							0.502,
 							0.433,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203071] = {
+		name = "Truth Seeker",
+		change_skin = "",
+		desc = "The school has recently been consumed by a series of Mysteries... there must be some Mastermind lurking behind the scenes. Yes, another Tribulation awaits me! I shall part the veil and reveal all Truths!",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 1,
+		purchase_offset = "",
+		painting = "yueke_2",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 4,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "103",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 203071,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yueke_2",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70250,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.666,
+					0.998,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.638,
+					1,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.003,
+					0.011,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.614,
+					0.999,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203072] = {
+		name = "Summoner from the Azure Depths ",
+		change_skin = "",
+		desc = "O Unfathomable King of the slumbering depths, hear the call of my Force and step into this world through the Azur Gate! ...Huh, Commander? Why did you show up? ",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 2,
+		purchase_offset = "",
+		painting = "yueke_3",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 6,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "133",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 203072,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yueke_3",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 70401,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.829,
+					0.877,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.823,
+					0.865,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.806,
+					0.835,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.414,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203078] = {
+		name = "Oath of Purity",
+		change_skin = "",
+		desc = "Whoa... Is this my Uniform for the ceremony known as the Oath of Purity? Hohoho... This must be fate. Join me, Commander, and we shall make the world right once more!",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 8,
+		purchase_offset = "",
+		painting = "yueke_h",
+		bg_sp = "",
+		skin_type = 1,
+		shop_type_id = 9998,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 203078,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yueke_h",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					0.781,
+					0.877,
+					0
+				}
+			},
+			vicegun = {
+				{
+					0.619,
+					0.865,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0,
+					0,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.888,
+					1.005,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.639,
+							2.501,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203079] = {
+		name = "York (Retrofit)",
+		change_skin = "",
+		desc = "This is no mere Upgrade, this is an Awakening! I will alter the course of fate itself!",
+		illustrator2 = -1,
+		ship_group = 20307,
+		group_index = 9,
+		purchase_offset = "",
+		painting = "yueke_g",
+		bg_sp = "",
+		skin_type = 2,
+		shop_type_id = 9997,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 203079,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "yueke_g",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 23,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.08,
+					0.9,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.03,
+					0.96,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.13,
+					0.18,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.14,
+					0.96,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.55,
+							2.37,
+							0
+						}
+					}
+				}
+			}
+		}
+	},
+	[203080] = {
+		name = "Exeter",
+		change_skin = "",
+		desc = "York-class heavy cruiser - Exeter, Hull Number 68!",
+		illustrator2 = -1,
+		ship_group = 20308,
+		group_index = 0,
+		purchase_offset = "",
+		painting = "aikesaite",
+		bg_sp = "",
+		skin_type = -1,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 1,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 203080,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "aikesaite",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 8,
+		spine_offset = "",
+		illustrator = 18,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					-0.212,
+					0.847,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.082,
+					0.144,
+					0
+				}
+			},
+			torpedo = {
+				{
+					0.5,
+					0.281,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					1.082,
+					0.144,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				70,
+				{
+					{
+						"smoke",
+						{
+							-0.556,
+							0.649,
+							0
+						}
+					}
+				}
+			},
+			{
+				30,
+				{
+					{
+						"smoke",
+						{
+							0.644,
+							0.505,
 							0
 						}
 					}

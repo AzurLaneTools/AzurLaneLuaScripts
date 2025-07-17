@@ -252,6 +252,15 @@ pg.dorm3d_ins_unlock = {
 		content = 10517202,
 		trigger_type = 101
 	},
+	[10517203] = {
+		text = "Reach New Jersey Intimacy Lv. 11",
+		trigger_num = 11,
+		trigger_id = 0,
+		type = 3,
+		id = 10517203,
+		content = 10517203,
+		trigger_type = 101
+	},
 	[10517301] = {
 		text = "Visit New Jersey's private quarters 1 time.",
 		trigger_num = 1,
@@ -260,6 +269,15 @@ pg.dorm3d_ins_unlock = {
 		id = 10517301,
 		content = 10517301,
 		trigger_type = 152
+	},
+	[10517302] = {
+		text = "Reach New Jersey Intimacy Lv. 12",
+		trigger_num = 12,
+		trigger_id = 0,
+		type = 2,
+		id = 10517302,
+		content = 10517302,
+		trigger_type = 101
 	},
 	get_id_list_by_type = {
 		{
@@ -287,7 +305,8 @@ pg.dorm3d_ins_unlock = {
 			10517104
 		},
 		{
-			10517301
+			10517301,
+			10517302
 		},
 		[3] = {
 			19,
@@ -295,7 +314,8 @@ pg.dorm3d_ins_unlock = {
 			21,
 			22,
 			10517201,
-			10517202
+			10517202,
+			10517203
 		}
 	},
 	all = {
@@ -327,6 +347,8 @@ pg.dorm3d_ins_unlock = {
 		10517104,
 		10517201,
 		10517202,
-		10517301
+		10517203,
+		10517301,
+		10517302
 	}
 }

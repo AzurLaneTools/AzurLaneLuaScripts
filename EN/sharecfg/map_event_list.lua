@@ -5579,6 +5579,86 @@ pg.map_event_list = {
 		},
 		help_pictures = {}
 	},
+	[2100501] = {
+		help_open = 1,
+		chapter_id = 2100501,
+		event_list = {
+			714,
+			715,
+			716,
+			717
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[2100504] = {
+		help_open = 0,
+		chapter_id = 2100504,
+		event_list = {
+			718,
+			719,
+			720,
+			721
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[2100506] = {
+		help_open = 0,
+		chapter_id = 2100506,
+		event_list = {
+			709,
+			710,
+			711,
+			712
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
+	[2100511] = {
+		help_open = 1,
+		chapter_id = 2100511,
+		event_list = {
+			722,
+			723,
+			724,
+			725
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[2100514] = {
+		help_open = 0,
+		chapter_id = 2100514,
+		event_list = {
+			726,
+			727,
+			728,
+			729
+		},
+		event_list_loop = {},
+		help_pictures = {
+			"helpbg/battle_gonghai"
+		}
+	},
+	[2100516] = {
+		help_open = 0,
+		chapter_id = 2100516,
+		event_list = {
+			709,
+			710,
+			711,
+			712
+		},
+		event_list_loop = {},
+		help_pictures = {}
+	},
 	[2200071] = {
 		help_open = 1,
 		chapter_id = 2200071,
@@ -6018,6 +6098,12 @@ pg.map_event_list = {
 		2100454,
 		2100455,
 		2100456,
+		2100501,
+		2100504,
+		2100506,
+		2100511,
+		2100514,
+		2100516,
 		2200071,
 		2200072,
 		2200073,

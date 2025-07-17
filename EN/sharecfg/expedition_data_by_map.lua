@@ -508,6 +508,10 @@ pg.expedition_data_by_map = setmetatable({
 		2100482,
 		2100491,
 		2100492,
+		2100501,
+		2100502,
+		2100511,
+		2100512,
 		2200000,
 		2200010,
 		2200020,
@@ -28362,6 +28366,218 @@ pg.base.expedition_data_by_map = {
 				0,
 				-465
 			}
+		}
+	},
+	[2100501] = {
+		map = 2100501,
+		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "theme-highseasfleet",
+		type = 4,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640001",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630001",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100511,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100502] = {
+		map = 2100502,
+		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "battle-highseasfleet-reborn",
+		type = 4,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640002",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630002",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100512,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100511] = {
+		map = 2100511,
+		name = "Rondo at Rainbow's End - Pt. 1|| ||CHAPTER EX||E.X.",
+		bgm = "theme-highseasfleet",
+		type = 5,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU1",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640003",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630003",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100501,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
+		}
+	},
+	[2100512] = {
+		map = 2100512,
+		name = "Rondo at Rainbow's End - Pt. 2|| ||CHAPTER EX||E.X.",
+		bgm = "battle-highseasfleet-reborn",
+		type = 5,
+		title = "EX",
+		drop_by_map_display = "",
+		level_limit = 1,
+		enter_story = "HONGCAIDEZHONGMUQU17",
+		animtor = 1,
+		guide_id = "",
+		ani_name = "Map_1640004",
+		ani_controller = "",
+		default_background = "",
+		on_activity = 0,
+		map_name = "",
+		cloud_suffix = "",
+		story_inactive_color = "",
+		ui_type = 1,
+		bg = "Map_1630004",
+		story_id = "",
+		chapterGroups = "",
+		destory_icon_suffix = "blue",
+		default_bgm = "",
+		uifx = "",
+		bind_map = 2100502,
+		clouds_pos = {
+			{
+				332,
+				271
+			},
+			{
+				896,
+				110
+			},
+			{
+				-280,
+				0
+			},
+			{
+				990,
+				-90
+			},
+			{
+				0,
+				-465
+			}
+		},
+		anchor = {
+			0.5,
+			0.5
 		}
 	},
 	[2200000] = {

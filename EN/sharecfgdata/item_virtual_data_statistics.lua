@@ -169707,6 +169707,31 @@ _G.pg.base.item_virtual_data_statistics[65550] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65551] = {
+	drop_gold_max = 0,
+	name = "Skin Coupon (Bunny Girl)",
+	display = "During the campaign, this coupon can used to gain a discount of 300 Gems when buying a Bunny Girl series skin in the Shop.\nValid until 2025.8.13 23:59:59 (UTC-7).",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50034,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65551,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65561] = {
 	drop_gold_max = 0,
 	name = "Tenko Group Badge",
@@ -180904,6 +180929,61 @@ _G.pg.base.item_virtual_data_statistics[86214] = {
 			1410
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86215] = {
+	drop_gold_max = 0,
+	name = "Random Skin",
+	display = [[
+Purchase to receive 1 of the following skins you do not yet own, chosen at random (if you already own all the listed skins, you will receive Gems x680 instead); all skins have an equal probability of being chosen:
+
+Astoria - Black Bunny Carnival;
+Stephen Potter - Chillaxation Station;
+Morrison - Sleeping Bunny;
+Acasta - Monochromatic Marvel;
+Kinu - Token and Ghost;
+San Francisco - Funny Bunny!;
+New Jersey - Exhilarating Steps!;
+Ticonderoga - Show Stopper!;
+Archerfish - Coquettish Bunny;
+I19 - Blossoming Bunny;
+Ardent - Master Ardent?;
+Ingraham - Fixin' for a Mixin';
+Nautilus - Afternoon Stretches;
+Umikaze - Soft and Fluffy Therapy;
+Yamakaze - Now for a Magic Trick!;
+Laffey II - Sleepy on a Busy Day;
+Black Prince - Addled Attendant?;
+Isuzu - Accidental Overheat?;
+Yura - We are Succubi?;
+Katsuragi - Night-Illuminating Festival;
+New Orleans - Evening Agricole;
+Houston II - Ready to Serve!;
+Louisville - An Order of Dreams;
+Constellation - Galaxy's Finest;
+San Jacinto - Flavor of the Day;
+Hindenburg - Delirious Duel;
+Fleuret - Up All Knight to Get Lucky;
+Épée - Poor, Lonely Knight;]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86215,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

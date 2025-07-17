@@ -103860,6 +103860,138 @@ _G.pg.base.item_data_statistics[81214] = {
 }
 
 
+_G.pg.base.item_data_statistics[81215] = {
+	open_directly = 1,
+	name = "Bunny Girl Return Lucky Bag",
+	type = 17,
+	display = "Purchase to obtain 1 random unowned skin among the listed options (if you already own all the skins, you will receive Gems x680 instead), Coins x2,000, Oil x1,000, and Cognitive Chips x20.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop_random_skin",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "Props/fudai26",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	id = 81215,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			86215,
+			1
+		},
+		{
+			1,
+			1,
+			2000
+		},
+		{
+			1,
+			2,
+			1000
+		},
+		{
+			2,
+			15008,
+			20
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	usage_arg = {
+		998317,
+		680,
+		{
+			103082,
+			101461,
+			101471,
+			201023,
+			302082,
+			103141,
+			105171,
+			107141,
+			108061,
+			308013,
+			201032,
+			101481,
+			108071,
+			301471,
+			301481,
+			101511,
+			202244,
+			302053,
+			302071,
+			307121,
+			103121,
+			102311,
+			103271,
+			104011,
+			107301,
+			499091,
+			901051,
+			901061
+		}
+	},
+	limit = {}
+}
+
+
+_G.pg.base.item_data_statistics[81216] = {
+	open_directly = 1,
+	name = "Bunny Girl Return Gift Pack",
+	type = 17,
+	display = "Purchase to obtain a Skin Coupon (Bunny Girl), Augment Module Core x15, and Augment Module Stone T2 x30.",
+	other_resource_cost = "[]",
+	replace_item = 0,
+	usage = "usage_drop",
+	display_effect = "",
+	link_id = 0,
+	is_world = 0,
+	icon = "ChargeIcon/boxSkindiscount",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	time_limit = 0,
+	virtual_type = 0,
+	other_item_cost = "[]",
+	usage_arg = "998557",
+	id = 81216,
+	compose_number = 0,
+	target_id = 0,
+	display_icon = {
+		{
+			2,
+			65551,
+			1
+		},
+		{
+			2,
+			15014,
+			15
+		},
+		{
+			2,
+			15016,
+			30
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {},
+	limit = {}
+}
+
+
 _G.pg.base.item_data_statistics[81400] = {
 	open_directly = 1,
 	name = "Cyber City Lucky Box",

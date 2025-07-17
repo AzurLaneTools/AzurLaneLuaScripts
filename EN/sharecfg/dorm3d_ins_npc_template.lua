@@ -84,6 +84,20 @@ pg.dorm3d_ins_npc_template = {
 		npc_reply = "",
 		id = 12
 	},
+	{
+		ship_group = 10517,
+		message = "xinzexi_3_1_1",
+		time = 30,
+		npc_reply = "",
+		id = 13
+	},
+	{
+		ship_group = 10517,
+		message = "xinzexi_3_2_1",
+		time = 30,
+		npc_reply = "",
+		id = 14
+	},
 	all = {
 		1,
 		2,
@@ -96,6 +110,8 @@ pg.dorm3d_ins_npc_template = {
 		9,
 		10,
 		11,
-		12
+		12,
+		13,
+		14
 	}
 }
