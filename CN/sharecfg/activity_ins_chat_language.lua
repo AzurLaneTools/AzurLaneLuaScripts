@@ -4715,7 +4715,130 @@ pg.activity_ins_chat_language = setmetatable({
 		4712,
 		4713,
 		4714,
-		4715
+		4715,
+		4716,
+		4717,
+		4718,
+		4719,
+		4720,
+		4721,
+		4722,
+		4723,
+		4724,
+		4725,
+		4726,
+		4727,
+		4728,
+		4729,
+		4730,
+		4731,
+		4732,
+		4733,
+		4734,
+		4735,
+		4736,
+		4737,
+		4738,
+		4739,
+		4740,
+		4741,
+		4742,
+		4743,
+		4744,
+		4745,
+		4746,
+		4747,
+		4748,
+		4749,
+		4750,
+		4751,
+		4752,
+		4753,
+		4754,
+		4755,
+		4756,
+		4757,
+		4758,
+		4759,
+		4760,
+		4761,
+		4762,
+		4763,
+		4764,
+		4765,
+		4766,
+		4767,
+		4768,
+		4769,
+		4770,
+		4771,
+		4772,
+		4773,
+		4774,
+		4775,
+		4776,
+		4777,
+		4778,
+		4779,
+		4780,
+		4781,
+		4782,
+		4783,
+		4784,
+		4785,
+		4786,
+		4787,
+		4788,
+		4789,
+		4790,
+		4791,
+		4792,
+		4793,
+		4794,
+		4795,
+		4796,
+		4797,
+		4798,
+		4799,
+		4800,
+		4801,
+		4802,
+		4803,
+		4804,
+		4805,
+		4806,
+		4807,
+		4808,
+		4809,
+		4810,
+		4811,
+		4812,
+		4813,
+		4814,
+		4815,
+		4816,
+		4817,
+		4818,
+		4819,
+		4820,
+		4821,
+		4822,
+		4823,
+		4824,
+		4825,
+		4826,
+		4827,
+		4828,
+		4829,
+		4830,
+		4831,
+		4832,
+		4833,
+		4834,
+		4835,
+		4836,
+		4837,
+		4838
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -46942,5 +47065,1100 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 4715,
 		flag = 0
+	},
+	[4716] = {
+		param = "指挥官，还在忙吗？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4716,
+		flag = 0
+	},
+	[4717] = {
+		param = "我路过指挥室门口的时候，看到里面的灯还亮着",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4717,
+		flag = 0
+	},
+	[4718] = {
+		param = "已经这么晚了，还在工作吗？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4718,
+		flag = 0
+	},
+	[4719] = {
+		param = "偶尔休息一下吧",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4719,
+		flag = 0
+	},
+	[4720] = {
+		param = "我放了一盘小点心在你的门口",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4720,
+		flag = 0
+	},
+	[4721] = {
+		param = "是我亲手做的哦",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4721,
+		flag = 0
+	},
+	[4722] = {
+		param = "没有敲门，因为怕打扰你",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4722,
+		flag = 0
+	},
+	[4723] = {
+		param = "请不要介意",
+		ship_group = 90401,
+		type = 1,
+		id = 4723,
+		flag = 0,
+		option = {
+			{
+				1,
+				"专程为我做的点心吗？"
+			}
+		}
+	},
+	[4724] = {
+		param = "专程为我做的点心吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4724,
+		flag = 1
+	},
+	[4725] = {
+		param = "14",
+		ship_group = 90401,
+		option = "",
+		type = 4,
+		id = 4725,
+		flag = 1
+	},
+	[4726] = {
+		param = "没有啦！",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4726,
+		flag = 1
+	},
+	[4727] = {
+		param = "是我晚上突然想吃些点心",
+		ship_group = 90401,
+		type = 1,
+		id = 4727,
+		flag = 1,
+		option = {
+			{
+				2,
+				"然后顺便路过了指挥室？"
+			}
+		}
+	},
+	[4728] = {
+		param = "然后顺便路过了指挥室？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4728,
+		flag = 2
+	},
+	[4729] = {
+		param = "顺便看到我还没睡，顺便给我也送了点心？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4729,
+		flag = 2
+	},
+	[4730] = {
+		param = "……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4730,
+		flag = 2
+	},
+	[4731] = {
+		param = "好吧……是我专程为你做的",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4731,
+		flag = 2
+	},
+	[4732] = {
+		param = "很简单的小点心，不是什么高级甜品",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4732,
+		flag = 2
+	},
+	[4733] = {
+		param = "但……味道应该不会太差！",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4733,
+		flag = 2
+	},
+	[4734] = {
+		param = "我对这个部分还是有点自信的",
+		ship_group = 90401,
+		type = 1,
+		id = 4734,
+		flag = 2,
+		option = {
+			{
+				3,
+				"我已经品尝过了"
+			}
+		}
+	},
+	[4735] = {
+		param = "我已经品尝过了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4735,
+		flag = 3
+	},
+	[4736] = {
+		param = "味道怎么样？",
+		ship_group = 90401,
+		type = 1,
+		id = 4736,
+		flag = 3,
+		option = {
+			{
+				4,
+				"有点甜"
+			},
+			{
+				5,
+				"还想再来一盘！"
+			}
+		}
+	},
+	[4737] = {
+		param = "有点甜",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4737,
+		flag = 4
+	},
+	[4738] = {
+		param = "怎么会这样……？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4738,
+		flag = 4
+	},
+	[4739] = {
+		param = "我明明把控了糖分",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4739,
+		flag = 4
+	},
+	[4740] = {
+		param = "点心很好吃，我是说你专门来送点心这件事",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4740,
+		flag = 4
+	},
+	[4741] = {
+		param = "很甜",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4741,
+		flag = 4
+	},
+	[4742] = {
+		param = "好吃到还想再来一盘！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4742,
+		flag = 5
+	},
+	[4743] = {
+		param = "呵呵~",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4743,
+		flag = 5
+	},
+	[4744] = {
+		param = "那明天继续？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4744,
+		flag = 5
+	},
+	[4745] = {
+		param = "请务必明天再顺便来一趟！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4745,
+		flag = 5
+	},
+	[4746] = {
+		param = "44",
+		ship_group = 90401,
+		option = "",
+		type = 4,
+		id = 4746,
+		flag = 0
+	},
+	[4747] = {
+		param = "你能喜欢，就再好不过了",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4747,
+		flag = 0
+	},
+	[4748] = {
+		param = "点心本来就是为了让人感到幸福的",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4748,
+		flag = 0
+	},
+	[4749] = {
+		param = "如果今晚你真的因此感到开心，那我就安心了",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4749,
+		flag = 0
+	},
+	[4750] = {
+		param = "但也要答应我，吃完早点休息哦？",
+		ship_group = 90401,
+		type = 1,
+		id = 4750,
+		flag = 0,
+		option = {
+			{
+				6,
+				"这次一定！"
+			}
+		}
+	},
+	[4751] = {
+		param = "这次一定！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4751,
+		flag = 6
+	},
+	[4752] = {
+		param = "指挥官，你现在方便回消息吗",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4752,
+		flag = 0
+	},
+	[4753] = {
+		param = "没有急事，只是……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4753,
+		flag = 0
+	},
+	[4754] = {
+		param = "想请教你一个有些微妙的问题",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4754,
+		flag = 0
+	},
+	[4755] = {
+		param = "52",
+		ship_group = 90401,
+		type = 4,
+		id = 4755,
+		flag = 0,
+		option = {
+			{
+				1,
+				"什么问题？"
+			}
+		}
+	},
+	[4756] = {
+		param = "什么问题？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4756,
+		flag = 1
+	},
+	[4757] = {
+		param = "我每次做完甜点，身上总是会留下味道",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4757,
+		flag = 1
+	},
+	[4758] = {
+		param = "但并不是每次都来得及回去换衣服、洗澡",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4758,
+		flag = 1
+	},
+	[4759] = {
+		param = "你知道的，奶油、香草、橙皮那些气味",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4759,
+		flag = 1
+	},
+	[4760] = {
+		param = "可能闻起来甜腻腻的吧……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4760,
+		flag = 1
+	},
+	[4761] = {
+		param = "自己闻久了其实不太会察觉",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4761,
+		flag = 1
+	},
+	[4762] = {
+		param = "但被别人注意到的话……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4762,
+		flag = 1
+	},
+	[4763] = {
+		param = "62",
+		ship_group = 90401,
+		type = 4,
+		id = 4763,
+		flag = 1,
+		option = {
+			{
+				2,
+				"注意到了"
+			},
+			{
+				3,
+				"没太注意……"
+			}
+		}
+	},
+	[4764] = {
+		param = "其实我注意到了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4764,
+		flag = 2
+	},
+	[4765] = {
+		param = "那种味道，就像你做的点心一样",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4765,
+		flag = 2
+	},
+	[4766] = {
+		param = "闻到的时候，会让人觉得心情变好了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4766,
+		flag = 2
+	},
+	[4767] = {
+		param = "欸？这样啊……你是第一个这么说的",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4767,
+		flag = 2
+	},
+	[4768] = {
+		param = "谢谢你",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4768,
+		flag = 2
+	},
+	[4769] = {
+		param = "能让你觉得心情变好的话",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4769,
+		flag = 2
+	},
+	[4770] = {
+		param = "那大概也算是一种，值得保留的香气吧？",
+		ship_group = 90401,
+		type = 1,
+		id = 4770,
+		flag = 2,
+		option = {
+			{
+				4,
+				"以后只要闻到这种香气…"
+			}
+		}
+	},
+	[4771] = {
+		param = "我没特别注意，但现在回想一下……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4771,
+		flag = 3
+	},
+	[4772] = {
+		param = "好像每次你靠近的时候，的确有闻到过",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4772,
+		flag = 3
+	},
+	[4773] = {
+		param = "不张扬，但很舒服，像是刚出炉没多久的烘焙香气",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4773,
+		flag = 3
+	},
+	[4774] = {
+		param = "原来……真的会被记住啊",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4774,
+		flag = 3
+	},
+	[4775] = {
+		param = "我不是特意想让谁记住这些味道的",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4775,
+		flag = 3
+	},
+	[4776] = {
+		param = "不过，如果那个记住的人是你",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4776,
+		flag = 3
+	},
+	[4777] = {
+		param = "那我想，我不会觉得尴尬",
+		ship_group = 90401,
+		type = 1,
+		id = 4777,
+		flag = 3,
+		option = {
+			{
+				4,
+				"以后只要闻到这种香气…"
+			}
+		}
+	},
+	[4778] = {
+		param = "以后只要闻到这种香气，就知道你在附近了！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4778,
+		flag = 4
+	},
+	[4779] = {
+		param = "欸？还可以起到这样的作用吗？",
+		ship_group = 90401,
+		type = 1,
+		id = 4779,
+		flag = 4,
+		option = {
+			{
+				5,
+				"当然"
+			}
+		}
+	},
+	[4780] = {
+		param = "当然",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4780,
+		flag = 5
+	},
+	[4781] = {
+		param = "对我来说，这种味道已经和你绑定在一起了",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4781,
+		flag = 5
+	},
+	[4782] = {
+		param = "说起来……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4782,
+		flag = 5
+	},
+	[4783] = {
+		param = "这样算不算是一种特别的 专属标记 呢？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4783,
+		flag = 5
+	},
+	[4784] = {
+		param = "这样的话，以后我做完甜点……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4784,
+		flag = 5
+	},
+	[4785] = {
+		param = "就不用刻意洗掉味道了吧？",
+		ship_group = 90401,
+		type = 1,
+		id = 4785,
+		flag = 5,
+		option = {
+			{
+				6,
+				"[惊了]"
+			}
+		}
+	},
+	[4786] = {
+		param = "33",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4786,
+		flag = 6
+	},
+	[4787] = {
+		param = "开玩笑的啦",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4787,
+		flag = 6
+	},
+	[4788] = {
+		param = "不过，说实话……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4788,
+		flag = 6
+	},
+	[4789] = {
+		param = "我其实也并不讨厌自己身上留着点甜甜的香气",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4789,
+		flag = 6
+	},
+	[4790] = {
+		param = "毕竟，能让指挥官记住、甚至喜欢上的香气……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4790,
+		flag = 6
+	},
+	[4791] = {
+		param = "对我来说，好像比甜点本身还要重要一些呢",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4791,
+		flag = 6
+	},
+	[4792] = {
+		param = "指挥官，你还没睡？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4792,
+		flag = 0
+	},
+	[4793] = {
+		param = "现在几点了你知道吗",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4793,
+		flag = 0
+	},
+	[4794] = {
+		param = "5",
+		ship_group = 90401,
+		type = 4,
+		id = 4794,
+		flag = 0,
+		option = {
+			{
+				1,
+				"你怎么知道的？"
+			}
+		}
+	},
+	[4795] = {
+		param = "你怎么知道的？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4795,
+		flag = 1
+	},
+	[4796] = {
+		param = "……只是诈一下你，没想到你真的还没睡",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4796,
+		flag = 1
+	},
+	[4797] = {
+		param = "看你白天那么忙，估计晚上肯定要加班了",
+		ship_group = 90401,
+		type = 1,
+		id = 4797,
+		flag = 1,
+		option = {
+			{
+				2,
+				"其实有点失眠"
+			}
+		}
+	},
+	[4798] = {
+		param = "没在加班，其实是有点失眠",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4798,
+		flag = 2
+	},
+	[4799] = {
+		param = "怎么了？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4799,
+		flag = 2
+	},
+	[4800] = {
+		param = "脑子太乱？难道还在想工作吗",
+		ship_group = 90401,
+		type = 1,
+		id = 4800,
+		flag = 2,
+		option = {
+			{
+				3,
+				"或许……"
+			},
+			{
+				4,
+				"不知道……"
+			}
+		}
+	},
+	[4801] = {
+		param = "或许……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4801,
+		flag = 3
+	},
+	[4802] = {
+		param = "不知道……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4802,
+		flag = 4
+	},
+	[4803] = {
+		param = "要不要我讲个睡前故事？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4803,
+		flag = 0
+	},
+	[4804] = {
+		param = "有点无聊但是很温柔的那种",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4804,
+		flag = 0
+	},
+	[4805] = {
+		param = "听完后能做个好梦",
+		ship_group = 90401,
+		type = 1,
+		id = 4805,
+		flag = 0,
+		option = {
+			{
+				5,
+				"好啊"
+			}
+		}
+	},
+	[4806] = {
+		param = "好啊",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4806,
+		flag = 5
+	},
+	[4807] = {
+		param = "一只小羊，穿着围裙走进厨房",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4807,
+		flag = 5
+	},
+	[4808] = {
+		param = "它在搅奶油，还偷吃糖",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4808,
+		flag = 5
+	},
+	[4809] = {
+		param = "两只小羊，在阳台上跳舞",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4809,
+		flag = 5
+	},
+	[4810] = {
+		param = "跳得很笨，撞在了一起",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4810,
+		flag = 5
+	},
+	[4811] = {
+		param = "三只小羊，偷偷溜进指挥室",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4811,
+		flag = 5
+	},
+	[4812] = {
+		param = "说想陪着指挥官，永远待在里面",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4812,
+		flag = 5
+	},
+	[4813] = {
+		param = "正在输入中",
+		ship_group = 1,
+		type = 5,
+		id = 4813,
+		flag = 5,
+		option = {
+			{
+				6,
+				"然后呢？"
+			}
+		}
+	},
+	[4814] = {
+		param = "然后呢？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4814,
+		flag = 6
+	},
+	[4815] = {
+		param = "啊！",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4815,
+		flag = 6
+	},
+	[4816] = {
+		param = "差点睡着了……",
+		ship_group = 90401,
+		type = 1,
+		id = 4816,
+		flag = 6,
+		option = {
+			{
+				7,
+				"你先睡吧"
+			},
+			{
+				8,
+				"故事很有效"
+			}
+		}
+	},
+	[4817] = {
+		param = "你先睡吧",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4817,
+		flag = 7
+	},
+	[4818] = {
+		param = "不行哦，怎么可以说这种话呢",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4818,
+		flag = 7
+	},
+	[4819] = {
+		param = "看来你的故事很有效",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4819,
+		flag = 8
+	},
+	[4820] = {
+		param = "只对我有效可不行啊……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4820,
+		flag = 8
+	},
+	[4821] = {
+		param = "明明是我在哄你睡觉……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4821,
+		flag = 0
+	},
+	[4822] = {
+		param = "指挥官，下次要是再睡不着",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4822,
+		flag = 0
+	},
+	[4823] = {
+		param = "干脆早点告诉我好了",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4823,
+		flag = 0
+	},
+	[4824] = {
+		param = "我们可以试着一起数羊",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4824,
+		flag = 0
+	},
+	[4825] = {
+		param = "或者随便说说话",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4825,
+		flag = 0
+	},
+	[4826] = {
+		param = "总之，我会陪着你的",
+		ship_group = 90401,
+		type = 1,
+		id = 4826,
+		flag = 0,
+		option = {
+			{
+				9,
+				"下次一定"
+			}
+		}
+	},
+	[4827] = {
+		param = "下次一定",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4827,
+		flag = 9
+	},
+	[4828] = {
+		param = "你不许再发消息了，看着我发的消息就好",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4828,
+		flag = 9
+	},
+	[4829] = {
+		param = "把手收进被子里，酝酿睡意",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4829,
+		flag = 9
+	},
+	[4830] = {
+		param = "我们继续来数羊",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4830,
+		flag = 9
+	},
+	[4831] = {
+		param = "四只小羊，溜进你的被窝",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4831,
+		flag = 9
+	},
+	[4832] = {
+		param = "帮你暖床，快快睡着",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4832,
+		flag = 9
+	},
+	[4833] = {
+		param = "五只小羊，去",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4833,
+		flag = 9
+	},
+	[4834] = {
+		param = "正在输入中",
+		ship_group = 1,
+		type = 5,
+		id = 4834,
+		flag = 9,
+		option = {
+			{
+				10,
+				"……敦刻尔克？"
+			}
+		}
+	},
+	[4835] = {
+		param = "……敦刻尔克？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4835,
+		flag = 10
+	},
+	[4836] = {
+		param = "睡着了吗？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4836,
+		flag = 10
+	},
+	[4837] = {
+		param = "晚安",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4837,
+		flag = 10
+	},
+	[4838] = {
+		param = "做个美梦",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4838,
+		flag = 10
 	}
 }

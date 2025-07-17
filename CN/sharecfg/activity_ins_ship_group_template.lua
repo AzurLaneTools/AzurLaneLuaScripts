@@ -453,7 +453,7 @@ pg.activity_ins_ship_group_template = {
 		name = "gateaumistress",
 		background = "",
 		sculpture = "dunkeerke",
-		nationality = 0,
+		nationality = 9,
 		type = 1
 	},
 	[10707] = {

@@ -160,8 +160,8 @@ pg.activity_template = {
 			{
 				{
 					2025,
-					1,
-					3
+					7,
+					18
 				},
 				{
 					0,
@@ -172,8 +172,8 @@ pg.activity_template = {
 			{
 				{
 					2025,
-					1,
-					12
+					7,
+					24
 				},
 				{
 					23,
@@ -25840,6 +25840,324 @@ pg.activity_template = {
 			}
 		}
 	},
+	[50030] = {
+		mark = 20250717,
+		type = 126,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 1,
+		config_client = "",
+		title_res_tag = "daily_challenge_up_activity",
+		id = 50030,
+		page_core = "",
+		config_data = {
+			{
+				201,
+				{
+					2,
+					54016,
+					5
+				}
+			},
+			{
+				301,
+				{
+					2,
+					54006,
+					2
+				}
+			},
+			{
+				401,
+				{
+					2,
+					54034,
+					2
+				}
+			},
+			{
+				601,
+				{
+					2,
+					15008,
+					50
+				}
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					18
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "DailyLevelPage",
+			ui_name = "DailyLevelPage"
+		}
+	},
+	[50031] = {
+		mark = 20250717,
+		type = 124,
+		login_pop = 0,
+		config_id = 998555,
+		is_show = 49,
+		title_res_tag = "SkinDiscount_School",
+		id = 50031,
+		page_core = "",
+		config_data = {
+			{
+				95
+			},
+			{
+				70527,
+				70548,
+				70551,
+				70549,
+				70550,
+				70546,
+				70543,
+				70544,
+				70545,
+				70547,
+				70584,
+				70586,
+				70587,
+				70595,
+				70596,
+				70937,
+				70597,
+				70598,
+				70594,
+				70591,
+				70625,
+				70944,
+				70941,
+				70938,
+				70940,
+				70959,
+				71008,
+				71009
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "SkinEncoreLoginRePage",
+			ui_name = "SkinEncoreLoginRePage"
+		},
+		config_client = {
+			item_id = 65551,
+			sub_act_id = 50032
+		}
+	},
+	[50032] = {
+		mark = 20250717,
+		page_info = "",
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50032,
+		page_core = "",
+		config_data = {
+			{
+				21785
+			},
+			{
+				21786
+			},
+			{
+				21787
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	[50033] = {
+		mark = 20250717,
+		type = 18,
+		login_pop = 0,
+		config_id = 3,
+		is_show = 46,
+		config_client = "",
+		title_res_tag = "LuXieErSkin",
+		id = 50033,
+		page_core = "",
+		config_data = {
+			{
+				23896,
+				23897
+			},
+			{
+				23898,
+				23899
+			},
+			{
+				23900,
+				23901
+			},
+			{
+				23902,
+				23903
+			},
+			{
+				23904,
+				23905
+			},
+			{
+				23906,
+				23907
+			},
+			{
+				23908,
+				23909
+			}
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		page_info = {
+			class_name = "LuXieErSkinPage",
+			ui_name = "LuXieErSkinPage"
+		}
+	},
+	[50034] = {
+		mark = 20250717,
+		page_info = "",
+		type = 68,
+		login_pop = 0,
+		config_id = 0,
+		is_show = 0,
+		config_client = "",
+		title_res_tag = "",
+		id = 50034,
+		page_core = "",
+		config_data = {},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					13
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	[7011] = {
 		mark = 20230525,
 		time = "stop",
@@ -34530,6 +34848,8 @@ pg.activity_template = {
 			5982,
 			5990,
 			50000,
+			50032,
+			50033,
 			6000,
 			6001,
 			6002,
@@ -35216,16 +35536,21 @@ pg.activity_template = {
 			5702
 		},
 		[68] = {
-			5850
+			5850,
+			50034
 		},
 		[124] = {
-			5852
+			5852,
+			50031
 		},
 		[123] = {
 			5871
 		},
 		[125] = {
 			5951
+		},
+		[126] = {
+			50030
 		},
 		[54] = {
 			7011,
@@ -36062,6 +36387,11 @@ pg.activity_template = {
 		50019,
 		50020,
 		50021,
+		50030,
+		50031,
+		50032,
+		50033,
+		50034,
 		7011,
 		7012,
 		7013,

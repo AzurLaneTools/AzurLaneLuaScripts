@@ -54,7 +54,16 @@ slot0.Ctor = function(slot0, slot1)
 
 	slot0.seaCameraGO = GameObject.Find("BarrageCamera")
 	slot0.seaCamera = slot0.seaCameraGO:GetComponent(typeof(Camera))
-	slot0.seaCamera.targetTexture = slot0.rawImage.texture
+	slot2 = slot0.rawImage.texture
+
+	slot2:Release()
+
+	slot2.width = 1920
+	slot2.height = 1080
+
+	slot2:Create()
+
+	slot0.seaCamera.targetTexture = slot2
 	slot0.seaCamera.enabled = true
 end
 

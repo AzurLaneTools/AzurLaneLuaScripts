@@ -5805,6 +5805,11 @@ _G.pg.base.gametip.dailyLevel_opened = {
 }
 
 
+_G.pg.base.gametip.dailyLevel_bonus_activity = {
+	tip = "限时up奖励"
+}
+
+
 _G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
 	tip = "该船已经是秘书舰"
 }
@@ -12431,12 +12436,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "罗马、博尔扎诺 建造追加！"
+	tip = "{namecode:461}、{namecode:460}、{namecode:457} 建造追加！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "朱塞佩·加里波第、阿尔弗雷多·奥里亚尼 建造追加！"
+	tip = "{namecode:448}、{namecode:449} 建造追加！"
 }
 
 
@@ -39031,4 +39036,23 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
 	tip = "弱"
+}
+
+
+_G.pg.base.gametip.SkinDiscountHelp_Carnival = {
+	tip = {
+		{
+			info = "1.活动期间，以<color=#92fc63>原价</color>（不使用换装折扣券）购买一件「嘉年华」系列换装或一个换装礼盒(嘉年华)时，可领取一张<color=#92fc63>换装折扣券（嘉年华）</color>\n2.<color=#92fc63>换装折扣券（嘉年华）</color>可用于购买「嘉年华」系列内任意换装时抵扣300钻石（购买福袋时不可抵扣）\n3.未使用的<color=#92fc63>换装折扣券（嘉年华）</color>将会在活动结束后（2025年8月13日23:59:59）消失"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.open_today = {
+	tip = "今日开放："
+}
+
+
+_G.pg.base.gametip.daily_level_go = {
+	tip = "前往"
 }
