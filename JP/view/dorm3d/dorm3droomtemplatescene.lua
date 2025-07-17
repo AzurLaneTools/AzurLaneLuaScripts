@@ -2286,9 +2286,17 @@ end
 slot0.SettingHeadAimIK = function(slot0, slot1, slot2, slot3)
 	slot4 = nil
 
-	if slot2[1] == 1 then
+	if slot2[1] == 0 then
+		slot0:EnableHeadIK(slot1, false)
+
+		return
+	elseif slot2[1] == 1 then
+		slot0:EnableHeadIK(slot1, true)
+
 		slot4 = slot0.mainCameraTF:Find("AimTarget")
 	elseif slot2[1] == 2 then
+		slot0:EnableHeadIK(slot1, true)
+
 		slot6 = slot1.lady
 
 		table.IpairsCArray(slot6:GetComponentsInChildren(typeof(Transform), true), function (slot0, slot1)
@@ -2312,6 +2320,8 @@ slot0.SettingHeadAimIK = function(slot0, slot1, slot2, slot3)
 end
 
 slot0.ResetHeadAimIK = function(slot0, slot1)
+	slot0:EnableHeadIK(slot1, true)
+
 	slot1.ladyHeadIKComp.AimTarget = slot0.mainCameraTF:Find("AimTarget")
 	slot1.ladyHeadIKComp.HeadWeight = slot1.ladyHeadIKData.HeadWeight
 	slot1.ladyHeadIKComp.BodyWeight = slot1.ladyHeadIKData.BodyWeight
@@ -2896,10 +2906,6 @@ end
 
 slot0.PlayFaceAnim = function(slot0, slot1, slot2, slot3)
 	slot1:PlayFaceAnim(slot2, slot3)
-end
-
-slot0.GetCurrentAnim = function(slot0)
-	return slot0.ladyDict[slot0.apartment:GetConfigID()]:GetCurrentAnim()
 end
 
 slot0.RegisterAnimCallback = function(slot0, slot1, slot2)

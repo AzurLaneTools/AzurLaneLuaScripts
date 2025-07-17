@@ -6499,6 +6499,11 @@ _G.pg.base.gametip.dailyLevel_opened = {
 }
 
 
+_G.pg.base.gametip.dailyLevel_bonus_activity = {
+	tip = "限定ボーナス"
+}
+
+
 _G.pg.base.gametip.playerinfo_ship_is_already_flagship = {
 	tip = "既に秘書艦です"
 }
@@ -12803,12 +12808,12 @@ _G.pg.base.gametip.buildship_new_tip = {
 
 
 _G.pg.base.gametip.buildship_heavy_tip = {
-	tip = "「ローマ」「ボルツァーノ」常設実装！"
+	tip = "「リュッツォウ」「ザイドリッツ」「ヨルク」常設実装！"
 }
 
 
 _G.pg.base.gametip.buildship_light_tip = {
-	tip = "「ジュゼッペ・ガリバルディ」「アルフレード・オリアーニ」常設実装！"
+	tip = "「エムデン」「エルビング」常設実装！"
 }
 
 
@@ -39553,4 +39558,23 @@ _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname0 = {
 
 _G.pg.base.gametip.grapihcs3d_setting_bloom_optionname1 = {
 	tip = "低"
+}
+
+
+_G.pg.base.gametip.SkinDiscountHelp_Carnival = {
+	tip = {
+		{
+			info = "1.キャンペーン期間中、<color=#92fc63>クーポンを使用せずに</color>「バニー」シリーズ着せ替えを購入するか、着せ替えパック（バニー）を購入した場合、キャンペーンページにて<color=#92fc63>着せ替えクーポン（バニー）</color>を入手できます\n2.<color=#92fc63>着せ替えクーポン（バニー）</color>は「バニー」シリーズの着せ替えを購入する際に、ダイヤ×300分割引になります（お得パックを購入する時には使用できません）\n3.キャンペーン終了時【2025年8月13日（水）23:59:59】、未使用の<color=#92fc63>着せ替えクーポン（バニー）</color>は削除されます"
+		}
+	}
+}
+
+
+_G.pg.base.gametip.open_today = {
+	tip = "本日開放"
+}
+
+
+_G.pg.base.gametip.daily_level_go = {
+	tip = "確認"
 }

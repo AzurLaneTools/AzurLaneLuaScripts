@@ -150,6 +150,31 @@ pg.dorm3d_ins_language = {
 		key = "xinzexi_2_2_1",
 		is_active = "0"
 	},
+	xinzexi_3 = {
+		value = "リズミカルな音楽を聴くと、やっぱり気分がガラッと変わるよね〜♪♪",
+		key = "xinzexi_3",
+		is_active = "0"
+	},
+	xinzexi_3_1 = {
+		value = "まさかヘビーメタル？",
+		key = "xinzexi_3_1",
+		is_active = "0"
+	},
+	xinzexi_3_1_1 = {
+		value = "んなわけないでしょ？ほら、ハニーも一緒に聴いてみよっ！きっとあたしとの音楽タイムにハマっちゃうよ〜！",
+		key = "xinzexi_3_1_1",
+		is_active = "0"
+	},
+	xinzexi_3_2 = {
+		value = "今の気分は？",
+		key = "xinzexi_3_2",
+		is_active = "0"
+	},
+	xinzexi_3_2_1 = {
+		value = "うーん、なんかムズムズする〜！こんなユニークなリズムもあるんだね！",
+		key = "xinzexi_3_2_1",
+		is_active = "0"
+	},
 	all = {
 		"tianlangxing_1",
 		"nengdai_1",
@@ -180,6 +205,11 @@ pg.dorm3d_ins_language = {
 		"xinzexi_2_1",
 		"xinzexi_2_1_1",
 		"xinzexi_2_2",
-		"xinzexi_2_2_1"
+		"xinzexi_2_2_1",
+		"xinzexi_3",
+		"xinzexi_3_1",
+		"xinzexi_3_1_1",
+		"xinzexi_3_2",
+		"xinzexi_3_2_1"
 	}
 }

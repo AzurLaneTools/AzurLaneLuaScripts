@@ -90,6 +90,21 @@ pg.dorm3d_ins_template = {
 			12
 		}
 	},
+	[10517203] = {
+		ship_group = 10517,
+		name = "BlackDragon",
+		sculpture = "xinzexi_4",
+		picture = "Ins_105173",
+		message = "xinzexi_3",
+		background = "Ins_199032_bg",
+		id = 10517203,
+		group_id = 1,
+		npc_discuss = "",
+		discuss = {
+			13,
+			14
+		}
+	},
 	get_id_list_by_ship_group = {
 		[20220] = {
 			20220201
@@ -103,7 +118,8 @@ pg.dorm3d_ins_template = {
 		},
 		[10517] = {
 			10517201,
-			10517202
+			10517202,
+			10517203
 		}
 	},
 	all = {
@@ -112,6 +128,7 @@ pg.dorm3d_ins_template = {
 		19903201,
 		19903202,
 		10517201,
-		10517202
+		10517202,
+		10517203
 	}
 }

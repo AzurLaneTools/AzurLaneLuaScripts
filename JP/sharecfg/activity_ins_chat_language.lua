@@ -4715,7 +4715,130 @@ pg.activity_ins_chat_language = setmetatable({
 		4712,
 		4713,
 		4714,
-		4715
+		4715,
+		4716,
+		4717,
+		4718,
+		4719,
+		4720,
+		4721,
+		4722,
+		4723,
+		4724,
+		4725,
+		4726,
+		4727,
+		4728,
+		4729,
+		4730,
+		4731,
+		4732,
+		4733,
+		4734,
+		4735,
+		4736,
+		4737,
+		4738,
+		4739,
+		4740,
+		4741,
+		4742,
+		4743,
+		4744,
+		4745,
+		4746,
+		4747,
+		4748,
+		4749,
+		4750,
+		4751,
+		4752,
+		4753,
+		4754,
+		4755,
+		4756,
+		4757,
+		4758,
+		4759,
+		4760,
+		4761,
+		4762,
+		4763,
+		4764,
+		4765,
+		4766,
+		4767,
+		4768,
+		4769,
+		4770,
+		4771,
+		4772,
+		4773,
+		4774,
+		4775,
+		4776,
+		4777,
+		4778,
+		4779,
+		4780,
+		4781,
+		4782,
+		4783,
+		4784,
+		4785,
+		4786,
+		4787,
+		4788,
+		4789,
+		4790,
+		4791,
+		4792,
+		4793,
+		4794,
+		4795,
+		4796,
+		4797,
+		4798,
+		4799,
+		4800,
+		4801,
+		4802,
+		4803,
+		4804,
+		4805,
+		4806,
+		4807,
+		4808,
+		4809,
+		4810,
+		4811,
+		4812,
+		4813,
+		4814,
+		4815,
+		4816,
+		4817,
+		4818,
+		4819,
+		4820,
+		4821,
+		4822,
+		4823,
+		4824,
+		4825,
+		4826,
+		4827,
+		4828,
+		4829,
+		4830,
+		4831,
+		4832,
+		4833,
+		4834,
+		4835,
+		4836,
+		4837,
+		4838
 	}
 }, confHX)
 pg.base = pg.base or {}
@@ -46932,5 +47055,1100 @@ pg.base.activity_ins_chat_language = {
 		type = 4,
 		id = 4715,
 		flag = 0
+	},
+	[4716] = {
+		param = "指揮官、まだお仕事中かしら？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4716,
+		flag = 0
+	},
+	[4717] = {
+		param = "さっき執務室の前を通った時、中の明かりがついてたから",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4717,
+		flag = 0
+	},
+	[4718] = {
+		param = "こんな遅い時間なのに、まだ残業…？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4718,
+		flag = 0
+	},
+	[4719] = {
+		param = "休憩はしっかり取ってね",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4719,
+		flag = 0
+	},
+	[4720] = {
+		param = "ドアの前にちょっとしたお菓子を置いておいたわ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4720,
+		flag = 0
+	},
+	[4721] = {
+		param = "私の手作りよ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4721,
+		flag = 0
+	},
+	[4722] = {
+		param = "邪魔しちゃいけないと思ってノックしなかったけど",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4722,
+		flag = 0
+	},
+	[4723] = {
+		param = "気にしないでちょうだい",
+		ship_group = 90401,
+		type = 1,
+		id = 4723,
+		flag = 0,
+		option = {
+			{
+				1,
+				"自分のためにわざわざお菓子を？"
+			}
+		}
+	},
+	[4724] = {
+		param = "自分のためにわざわざお菓子を？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4724,
+		flag = 1
+	},
+	[4725] = {
+		param = "14",
+		ship_group = 90401,
+		option = "",
+		type = 4,
+		id = 4725,
+		flag = 1
+	},
+	[4726] = {
+		param = "わざわざってほどでもないわ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4726,
+		flag = 1
+	},
+	[4727] = {
+		param = "急にお菓子が食べたくなったから",
+		ship_group = 90401,
+		type = 1,
+		id = 4727,
+		flag = 1,
+		option = {
+			{
+				2,
+				"それでたまたま執務室の前に？"
+			}
+		}
+	},
+	[4728] = {
+		param = "それでたまたま執務室の前に？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4728,
+		flag = 2
+	},
+	[4729] = {
+		param = "たまたま自分がまだ仕事中なのを目撃して、たまたま持っていたお菓子をおすそ分けに…？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4729,
+		flag = 2
+	},
+	[4730] = {
+		param = "……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4730,
+		flag = 2
+	},
+	[4731] = {
+		param = "……本当は指揮官のために作ったの",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4731,
+		flag = 2
+	},
+	[4732] = {
+		param = "とっても簡単なお菓子よ。別に手の込んだ高級品じゃないわ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4732,
+		flag = 2
+	},
+	[4733] = {
+		param = "味は……まあまあのはずよ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4733,
+		flag = 2
+	},
+	[4734] = {
+		param = "そこは自信があるから",
+		ship_group = 90401,
+		type = 1,
+		id = 4734,
+		flag = 2,
+		option = {
+			{
+				3,
+				"もう食べたよ"
+			}
+		}
+	},
+	[4735] = {
+		param = "もう食べたよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4735,
+		flag = 3
+	},
+	[4736] = {
+		param = "どうだった？",
+		ship_group = 90401,
+		type = 1,
+		id = 4736,
+		flag = 3,
+		option = {
+			{
+				4,
+				"ちょっと甘い感じ"
+			},
+			{
+				5,
+				"おかわりが欲しい！"
+			}
+		}
+	},
+	[4737] = {
+		param = "ちょっと甘い感じ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4737,
+		flag = 4
+	},
+	[4738] = {
+		param = "そんな……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4738,
+		flag = 4
+	},
+	[4739] = {
+		param = "ちゃんと砂糖を量ったはずなのに……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4739,
+		flag = 4
+	},
+	[4740] = {
+		param = "違う違う。お菓子じゃなくてダンケルクのこと",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4740,
+		flag = 4
+	},
+	[4741] = {
+		param = "わざわざお菓子を差し入れてくれて…甘い気持ちになった",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4741,
+		flag = 4
+	},
+	[4742] = {
+		param = "おかわりが欲しくなるくらい美味しかった！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4742,
+		flag = 5
+	},
+	[4743] = {
+		param = "ふふふ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4743,
+		flag = 5
+	},
+	[4744] = {
+		param = "じゃあ、明日も持ってこようかしら？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4744,
+		flag = 5
+	},
+	[4745] = {
+		param = "ぜひ、明日も「たまたま」通ってほしい！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4745,
+		flag = 5
+	},
+	[4746] = {
+		param = "44",
+		ship_group = 90401,
+		option = "",
+		type = 4,
+		id = 4746,
+		flag = 0
+	},
+	[4747] = {
+		param = "気に入ってくれたならよかったわ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4747,
+		flag = 0
+	},
+	[4748] = {
+		param = "お菓子って、食べた人を幸せにするものだから",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4748,
+		flag = 0
+	},
+	[4749] = {
+		param = "私のお菓子で幸せを感じてくれたら嬉しいもの",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4749,
+		flag = 0
+	},
+	[4750] = {
+		param = "でも約束して、食べたらちゃんと休んでね？",
+		ship_group = 90401,
+		type = 1,
+		id = 4750,
+		flag = 0,
+		option = {
+			{
+				6,
+				"わかった！"
+			}
+		}
+	},
+	[4751] = {
+		param = "わかった！",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4751,
+		flag = 6
+	},
+	[4752] = {
+		param = "指揮官、今大丈夫かしら？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4752,
+		flag = 0
+	},
+	[4753] = {
+		param = "急な用事、ってほどのことでもないけれど…………",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4753,
+		flag = 0
+	},
+	[4754] = {
+		param = "ちょっとだけ、聞きたいことがあって",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4754,
+		flag = 0
+	},
+	[4755] = {
+		param = "52",
+		ship_group = 90401,
+		type = 4,
+		id = 4755,
+		flag = 0,
+		option = {
+			{
+				1,
+				"どうした？"
+			}
+		}
+	},
+	[4756] = {
+		param = "どうした？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4756,
+		flag = 1
+	},
+	[4757] = {
+		param = "お菓子を作ったあとって、どうしても体に香りが染み付いてしまうの",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4757,
+		flag = 1
+	},
+	[4758] = {
+		param = "でも毎回着替えたりシャワーを浴びたりする余裕はないし…",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4758,
+		flag = 1
+	},
+	[4759] = {
+		param = "ほら、生クリーム、バニラやオレンジピールとかの香り……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4759,
+		flag = 1
+	},
+	[4760] = {
+		param = "だいぶ甘ったるい感じなんだけどわかる？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4760,
+		flag = 1
+	},
+	[4761] = {
+		param = "慣れちゃってるから、あまり気づけないけど",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4761,
+		flag = 1
+	},
+	[4762] = {
+		param = "でももしほかの子に気づかれたらと思うと……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4762,
+		flag = 1
+	},
+	[4763] = {
+		param = "62",
+		ship_group = 90401,
+		type = 4,
+		id = 4763,
+		flag = 1,
+		option = {
+			{
+				2,
+				"気づいてたよ"
+			},
+			{
+				3,
+				"特に気にしてなかったけど"
+			}
+		}
+	},
+	[4764] = {
+		param = "実は気づいてたよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4764,
+		flag = 2
+	},
+	[4765] = {
+		param = "ダンケルクが作ったお菓子とよく似た香りだったから",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4765,
+		flag = 2
+	},
+	[4766] = {
+		param = "ふっと香るたび、なんだか気分も和らぐんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4766,
+		flag = 2
+	},
+	[4767] = {
+		param = "そ、そう……？そんなふうに言われたのは初めてよ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4767,
+		flag = 2
+	},
+	[4768] = {
+		param = "ありがとう",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4768,
+		flag = 2
+	},
+	[4769] = {
+		param = "指揮官がそういう風に思ってくれるのなら",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4769,
+		flag = 2
+	},
+	[4770] = {
+		param = "この香りを残しておいてもいいのかもね",
+		ship_group = 90401,
+		type = 1,
+		id = 4770,
+		flag = 2,
+		option = {
+			{
+				4,
+				"そういう香りがしたときは……"
+			}
+		}
+	},
+	[4771] = {
+		param = "特に気にしてなかったけど、今思えば……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4771,
+		flag = 3
+	},
+	[4772] = {
+		param = "ダンケルクがそばに来るたび、そういう香りがしてた気がする",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4772,
+		flag = 3
+	},
+	[4773] = {
+		param = "さりげないけど心地よくて、まるで焼きたてのお菓子のような",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4773,
+		flag = 3
+	},
+	[4774] = {
+		param = "ほんとに……そう感じてくれてたんだ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4774,
+		flag = 3
+	},
+	[4775] = {
+		param = "別にそういう印象を残そうと思ったことはないけど",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4775,
+		flag = 3
+	},
+	[4776] = {
+		param = "でも、指揮官となると話が変わるわ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4776,
+		flag = 3
+	},
+	[4777] = {
+		param = "ちょっと、嬉しいかも",
+		ship_group = 90401,
+		type = 1,
+		id = 4777,
+		flag = 3,
+		option = {
+			{
+				4,
+				"そういう香りがしたときは……"
+			}
+		}
+	},
+	[4778] = {
+		param = "そういう香りがしたときはダンケルクが近くにいるってわかるな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4778,
+		flag = 4
+	},
+	[4779] = {
+		param = "え？私が……？",
+		ship_group = 90401,
+		type = 1,
+		id = 4779,
+		flag = 4,
+		option = {
+			{
+				5,
+				"もちろん"
+			}
+		}
+	},
+	[4780] = {
+		param = "もちろん",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4780,
+		flag = 5
+	},
+	[4781] = {
+		param = "だってこの香りって、もうダンケルクの一部みたいなものだからな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4781,
+		flag = 5
+	},
+	[4782] = {
+		param = "だったら……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4782,
+		flag = 5
+	},
+	[4783] = {
+		param = "これってある意味、特別な「シンボル」だったりするのかしら？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4783,
+		flag = 5
+	},
+	[4784] = {
+		param = "今後もお菓子を作り終わったら……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4784,
+		flag = 5
+	},
+	[4785] = {
+		param = "わざわざ香りを落とさなくてもいいわね？",
+		ship_group = 90401,
+		type = 1,
+		id = 4785,
+		flag = 5,
+		option = {
+			{
+				6,
+				"[びっくり]"
+			}
+		}
+	},
+	[4786] = {
+		param = "33",
+		ship_group = 0,
+		option = "",
+		type = 4,
+		id = 4786,
+		flag = 6
+	},
+	[4787] = {
+		param = "ふふ、冗談よ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4787,
+		flag = 6
+	},
+	[4788] = {
+		param = "でも正直に言うと……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4788,
+		flag = 6
+	},
+	[4789] = {
+		param = "甘い香りが残るのは別に嫌いじゃないわ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4789,
+		flag = 6
+	},
+	[4790] = {
+		param = "だって、指揮官が覚えてくれて、好きになってくれた香りだもの",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4790,
+		flag = 6
+	},
+	[4791] = {
+		param = "もう、お菓子そのものよりずっと大切に思えてくるわ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4791,
+		flag = 6
+	},
+	[4792] = {
+		param = "指揮官、ひょっとしてまだ起きてたりする？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4792,
+		flag = 0
+	},
+	[4793] = {
+		param = "もう、何時だと思ってるの…？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4793,
+		flag = 0
+	},
+	[4794] = {
+		param = "5",
+		ship_group = 90401,
+		type = 4,
+		id = 4794,
+		flag = 0,
+		option = {
+			{
+				1,
+				"なんでわかったの？"
+			}
+		}
+	},
+	[4795] = {
+		param = "なんでわかったの？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4795,
+		flag = 1
+	},
+	[4796] = {
+		param = "……ちょっと鎌をかけたつもりだったのに、本当に起きてたなんて",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4796,
+		flag = 1
+	},
+	[4797] = {
+		param = "昼間あんなに忙しそうだったから、夜は残業してるんじゃないかって思ったら、案の定ね",
+		ship_group = 90401,
+		type = 1,
+		id = 4797,
+		flag = 1,
+		option = {
+			{
+				2,
+				"実はちょっと寝つけなくて"
+			}
+		}
+	},
+	[4798] = {
+		param = "残業じゃないけど、ちょっと寝つけなくて……",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4798,
+		flag = 2
+	},
+	[4799] = {
+		param = "あら、どうしたの？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4799,
+		flag = 2
+	},
+	[4800] = {
+		param = "頭の使いすぎでごちゃごちゃになった？もしかして、まだ仕事のことを考えてるのかしら",
+		ship_group = 90401,
+		type = 1,
+		id = 4800,
+		flag = 2,
+		option = {
+			{
+				3,
+				"かもしれない"
+			},
+			{
+				4,
+				"自分でもよくわからないんだ"
+			}
+		}
+	},
+	[4801] = {
+		param = "かもしれない",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4801,
+		flag = 3
+	},
+	[4802] = {
+		param = "自分でもよくわからないんだ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4802,
+		flag = 4
+	},
+	[4803] = {
+		param = "じゃあ、寝物語でも聞かせてあげようか？",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4803,
+		flag = 0
+	},
+	[4804] = {
+		param = "ちょっと退屈だけど、優しいお話よ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4804,
+		flag = 0
+	},
+	[4805] = {
+		param = "聞いたら、きっといい夢が見れるわ",
+		ship_group = 90401,
+		type = 1,
+		id = 4805,
+		flag = 0,
+		option = {
+			{
+				5,
+				"お願いしようかな"
+			}
+		}
+	},
+	[4806] = {
+		param = "お願いしようかな",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4806,
+		flag = 5
+	},
+	[4807] = {
+		param = "子羊が一匹、エプロンをつけてキッチンに入りました",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4807,
+		flag = 5
+	},
+	[4808] = {
+		param = "生クリームを混ぜながら、こっそり口に砂糖をひとつまみ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4808,
+		flag = 5
+	},
+	[4809] = {
+		param = "子羊がニ匹、ベランダでダンスを踊って…",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4809,
+		flag = 5
+	},
+	[4810] = {
+		param = "ちょっと不器用だから、ぽんぽんとぶつかっちゃって",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4810,
+		flag = 5
+	},
+	[4811] = {
+		param = "子羊が三匹、そっと執務室に忍び込んで…",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4811,
+		flag = 5
+	},
+	[4812] = {
+		param = "指揮官のそばに、ずっと一緒にいたいって",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4812,
+		flag = 5
+	},
+	[4813] = {
+		param = "【入力中】",
+		ship_group = 1,
+		type = 5,
+		id = 4813,
+		flag = 5,
+		option = {
+			{
+				6,
+				"それで？"
+			}
+		}
+	},
+	[4814] = {
+		param = "それで？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4814,
+		flag = 6
+	},
+	[4815] = {
+		param = "あっ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4815,
+		flag = 6
+	},
+	[4816] = {
+		param = "ごめんなさい。ちょっと寝ちゃうところだったわ……",
+		ship_group = 90401,
+		type = 1,
+		id = 4816,
+		flag = 6,
+		option = {
+			{
+				7,
+				"先に寝てていいよ"
+			},
+			{
+				8,
+				"寝物語、ちゃんと効いたな…"
+			}
+		}
+	},
+	[4817] = {
+		param = "先に寝てていいよ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4817,
+		flag = 7
+	},
+	[4818] = {
+		param = "ダメよ。そんなこと言っちゃ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4818,
+		flag = 7
+	},
+	[4819] = {
+		param = "寝物語、ちゃんと効いたな…",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4819,
+		flag = 8
+	},
+	[4820] = {
+		param = "でも私だけに効いても意味ないわ……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4820,
+		flag = 8
+	},
+	[4821] = {
+		param = "あなたを寝かしつけたかったのに……",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4821,
+		flag = 0
+	},
+	[4822] = {
+		param = "指揮官、次また眠れないときは",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4822,
+		flag = 0
+	},
+	[4823] = {
+		param = "私に連絡してちょうだい",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4823,
+		flag = 0
+	},
+	[4824] = {
+		param = "一緒に羊を数えるのもいいし",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4824,
+		flag = 0
+	},
+	[4825] = {
+		param = "他愛ないおしゃべりでもいいから",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4825,
+		flag = 0
+	},
+	[4826] = {
+		param = "なんでも、付き合ってあげるからね",
+		ship_group = 90401,
+		type = 1,
+		id = 4826,
+		flag = 0,
+		option = {
+			{
+				9,
+				"ああ。約束だ"
+			}
+		}
+	},
+	[4827] = {
+		param = "ああ。約束だ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4827,
+		flag = 9
+	},
+	[4828] = {
+		param = "もう返事しちゃダメよ。私のメッセージだけ読んでてね",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4828,
+		flag = 9
+	},
+	[4829] = {
+		param = "お布団に手を入れて、寝る準備をして",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4829,
+		flag = 9
+	},
+	[4830] = {
+		param = "引き続き羊を数えるわよ",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4830,
+		flag = 9
+	},
+	[4831] = {
+		param = "子羊が四匹、あなたのお布団に忍び込んで",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4831,
+		flag = 9
+	},
+	[4832] = {
+		param = "早く眠れるように、お布団をぽかぽかにしてくれて",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4832,
+		flag = 9
+	},
+	[4833] = {
+		param = "子羊が五匹、おでか",
+		ship_group = 90401,
+		option = "",
+		type = 1,
+		id = 4833,
+		flag = 9
+	},
+	[4834] = {
+		param = "【入力中】",
+		ship_group = 1,
+		type = 5,
+		id = 4834,
+		flag = 9,
+		option = {
+			{
+				10,
+				"……ダンケルク？"
+			}
+		}
+	},
+	[4835] = {
+		param = "……ダンケルク？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4835,
+		flag = 10
+	},
+	[4836] = {
+		param = "寝ちゃったのかな？",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4836,
+		flag = 10
+	},
+	[4837] = {
+		param = "おやすみ",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4837,
+		flag = 10
+	},
+	[4838] = {
+		param = "いい夢を",
+		ship_group = 0,
+		option = "",
+		type = 1,
+		id = 4838,
+		flag = 10
 	}
 }

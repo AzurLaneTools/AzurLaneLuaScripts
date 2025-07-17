@@ -2755,6 +2755,10 @@ slot0.didEnterCheck = function(slot0)
 		slot0:DoTalk(slot0.contextData.specialId, function ()
 			uv0:closeView()
 		end)
+
+		if slot0.contextData.isVideoTalk then
+			slot0.contextData.hasEnterCheck = true
+		end
 	elseif not slot0.contextData.hasEnterCheck and slot0.apartment then
 		slot5 = slot0.room
 		slot6 = slot5

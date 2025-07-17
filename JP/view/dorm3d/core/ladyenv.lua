@@ -236,9 +236,7 @@ slot0.HideCharacterPart = function(slot0, slot1, slot2)
 end
 
 slot0.GetCurrentAnim = function(slot0)
-	slot1 = slot0
-
-	return slot1.animNameMap[slot1.ladyAnimator:GetCurrentAnimatorStateInfo(slot1.ladyAnimBaseLayerIndex).shortNameHash]
+	return slot0.ladyAnimator:GetCurrentAnimatorStateInfo(slot0.ladyAnimBaseLayerIndex).shortNameHash
 end
 
 slot0.EnableCloth = function(slot0, slot1, slot2)
@@ -295,8 +293,6 @@ slot0.PlaySingleAction = function(slot0, slot1, slot2)
 	existCall(slot3.animExtraItemCallback)
 
 	slot3.animExtraItemCallback = nil
-	slot3.animNameMap = slot3.animNameMap or {}
-	slot3.animNameMap[slot3.ladyAnimator.StringToHash(slot1)] = slot1
 	slot8 = _.detect(pg.dorm3d_anim_extraitem.get_id_list_by_ship_id[slot0:GetBlackboardValue("groupId")] or {}, function (slot0)
 		return pg.dorm3d_anim_extraitem[slot0].anim == uv0
 	end) and pg.dorm3d_anim_extraitem[slot7]
@@ -379,8 +375,6 @@ slot0.SwitchAnim = function(slot0, slot1, slot2)
 	existCall(slot3.animExtraItemCallback)
 
 	slot3.animExtraItemCallback = nil
-	slot3.animNameMap = slot3.animNameMap or {}
-	slot3.animNameMap[slot3.ladyAnimator.StringToHash(slot1)] = slot1
 	slot6 = {}
 
 	table.insert(slot6, function (slot0)

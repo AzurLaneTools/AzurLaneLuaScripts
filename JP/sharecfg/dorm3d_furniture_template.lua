@@ -496,6 +496,40 @@ pg.dorm3d_furniture_template = {
 			"fbx/no_bake_pay_prop/diningroom"
 		}
 	},
+	[223] = {
+		rarity = 4,
+		name = "安らぎの時間",
+		type = 5,
+		room_id = 2,
+		desc = "柔らかなクッションが疲れた体を包み込み、姿勢を優しく支えてくれる。\n 忙しい一日で最も優しいこの場所に人はハマってしまう。",
+		is_exclusive = 1,
+		model = "Pay_Noshirohostel/pre_db_nh_livingroom01",
+		is_special = 0,
+		icon = "dorm3dIcon/3Ddrom_nengdai_PremiumFurniture3",
+		acesses = "",
+		id = 223,
+		target_slots = {
+			120303
+		},
+		touch_id = {
+			{
+				30221,
+				2200710
+			}
+		},
+		shop_id = {
+			270203
+		},
+		unlock_tips = {
+			3
+		},
+		unlock_banners = {
+			"banner_furniture223"
+		},
+		scene_hides = {
+			"fbx/no_bake_pay_prop/livingroom"
+		}
+	},
 	[151] = {
 		rarity = 5,
 		name = "聖夜のソリソファ",
@@ -1040,6 +1074,7 @@ pg.dorm3d_furniture_template = {
 			210,
 			221,
 			222,
+			223,
 			251
 		},
 		{
@@ -1086,6 +1121,7 @@ pg.dorm3d_furniture_template = {
 		210,
 		221,
 		222,
+		223,
 		151,
 		251,
 		301,

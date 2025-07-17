@@ -4461,7 +4461,7 @@ pg.activity_shop_extra = {
 		commodity_id = 301892,
 		end_by_maintenance = 0,
 		id = 135,
-		order = 10,
+		order = 17,
 		scene = {
 			"crusing",
 			{}
@@ -4563,6 +4563,43 @@ pg.activity_shop_extra = {
 					16,
 					0,
 					0
+				}
+			}
+		}
+	},
+	[138] = {
+		num_limit = 1,
+		activity = 50033,
+		commodity_type = 7,
+		num = 1,
+		commodity_id = 403023,
+		end_by_maintenance = 0,
+		scene = "",
+		id = 138,
+		order = 16,
+		time = {
+			{
+				{
+					2025,
+					7,
+					17
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					31
+				},
+				{
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -4696,7 +4733,8 @@ pg.activity_shop_extra = {
 			133,
 			135,
 			136,
-			137
+			137,
+			138
 		}
 	},
 	all = {
@@ -4827,6 +4865,7 @@ pg.activity_shop_extra = {
 		133,
 		135,
 		136,
-		137
+		137,
+		138
 	}
 }

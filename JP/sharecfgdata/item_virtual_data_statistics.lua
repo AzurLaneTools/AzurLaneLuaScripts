@@ -171802,6 +171802,31 @@ _G.pg.base.item_virtual_data_statistics[65550] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65551] = {
+	drop_gold_max = 0,
+	name = "着せ替えクーポン（バニー）",
+	display = "キャンペーン期間中、ショップで「バニー」シリーズの着せ替えを購入時、ダイヤ×300分割引になります",
+	type = 0,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50034,
+	icon = "Props/skin_300_school",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 13,
+	id = 65551,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65561] = {
 	drop_gold_max = 0,
 	name = "天狐グループバッジ",
@@ -181804,6 +181829,60 @@ _G.pg.base.item_virtual_data_statistics[86214] = {
 			1410
 		}
 	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[86215] = {
+	drop_gold_max = 0,
+	name = "ランダム着せ替え",
+	display = [[
+購入すると当該着せ替えの中からランダムで未所持の着せ替え1着（すべての着せ替えを所持している場合は自動でダイヤ×680に変換されます）。各着せ替えは同じ確率で出現します;
+アストリア「黒うさかーにばる！」;
+ステフェン・ポッター「セーフハウス・ヘア」;
+モリソン「クマちゃんは整備中」;
+アカスタ「ラブリー・モノクロミック」;
+鬼怒「トークンとゴースト」;
+サンフランシスコ「Funny Bunny！」;
+ニュージャージー「リッピング・ステッピング！」;
+タイコンデロガ「グランドステージ・ショー！」;
+アーチャーフィッシュ「キャッツィバニィ！」;
+伊19「ブロッサム・バニー」;
+アーデント「マスター・アーデント？」;
+イングラハム「ドリンクもお手の物！」;
+ノーチラス「ちょっびり、背伸び～」;
+海風「もこもこふんわり」;
+山風「奇術タイムスタンバイ！」;
+ラフィーⅡ「うとうとビジーデー」;
+ブラック・プリンス「ぼんやり世話焼き？」;
+五十鈴「オーバーヒート？」;
+由良「ふたりはさきゅばす？」;
+葛城「夜明輝祭」;
+ニューオリンズ「アグリコールの夜」;
+ヒューストンⅡ「レディ・トゥ・サービス！」;
+ルイビル「オーダー・ディリュージョン」;
+コンステレーション「セレクト・ギャラクシー」;
+サン・ジャシント「レコメンデッド・テースト」;
+ヒンデンブルク「パラリティク・バーサス」;
+フルーレ「ラッキー・ホーリー・ナイト」;
+エペ「ひとりぼっちのロンリーナイト」;]],
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/clothIcon",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 86215,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
 }
 
 

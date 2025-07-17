@@ -136,9 +136,9 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-glorious-meta",
+		default_bgm = "main",
 		special_bgm = "",
-		bgm = "theme-glorious-meta"
+		bgm = "main"
 	},
 	BuildShipScene = {
 		default_bgm = "main",
@@ -2264,5 +2264,20 @@ pg.voice_bgm = {
 		default_bgm = "story-spycity-fashion",
 		special_bgm = "",
 		bgm = "story-spycity-fashion"
+	},
+	SkinEncoreLoginRePage = {
+		default_bgm = "story-dazy-style",
+		special_bgm = "",
+		bgm = "story-dazy-style"
+	},
+	DailyLevelPage = {
+		default_bgm = "level",
+		special_bgm = "",
+		bgm = "level"
+	},
+	LuXieErSkinPage = {
+		default_bgm = "story-richang-7",
+		special_bgm = "",
+		bgm = "story-richang-7"
 	}
 }

@@ -11254,6 +11254,126 @@ pg.base.ship_skin_template_11 = {
 			}
 		}
 	},
+	[403023] = {
+		name = "待っていて放課後☆",
+		change_skin = "",
+		desc = "にゃは☆やっぱり指揮官なら絶対迎えに来てくれるって思ってたよ〜！次からはそんなに急がなくていいからね？ブリュッヒャーはいくらでも待ってあげるし、大大大好きな指揮官が疲れちゃうのはダメだからね！",
+		illustrator2 = -1,
+		ship_group = 40302,
+		group_index = 3,
+		purchase_offset = "",
+		painting = "bulvxieer_4",
+		bg_sp = "",
+		skin_type = 0,
+		shop_type_id = 0,
+		l2d_ignore_drag = 0,
+		hand_id = 13,
+		lip_smoothing = 0,
+		l2d_animations = "",
+		bgm = "",
+		special_effects = "",
+		bg = "147",
+		gyro = 0,
+		spine_use_live2d = 0,
+		spine_action_offset = false,
+		spine_offset_profile = "",
+		shop_offset = "",
+		ship_l2d_id = "",
+		id = 403023,
+		voice_actor_2 = -1,
+		l2d_drag_rate = "",
+		part_scale = "",
+		get_showing = "",
+		prefab = "bulvxieer_4",
+		l2d_se = "",
+		main_UI_FX = "",
+		shop_id = 0,
+		voice_actor = 132,
+		spine_offset = "",
+		illustrator = -1,
+		rarity_bg = "",
+		time = "",
+		l2d_para_range = "",
+		lip_sync_gain = 0,
+		live2d_offset_profile = "",
+		show_skin = "stand",
+		l2d_voice_calibrate = "",
+		tag = {
+			2
+		},
+		live2d_offset = {
+			0,
+			0,
+			0
+		},
+		fx_container = {
+			{
+				0,
+				1.99185,
+				1.15
+			},
+			{
+				0,
+				0,
+				0
+			},
+			{
+				0,
+				0.75,
+				-1.299
+			},
+			{
+				0,
+				0,
+				0
+			}
+		},
+		bound_bone = {
+			cannon = {
+				{
+					1.075,
+					0.829,
+					0
+				}
+			},
+			vicegun = {
+				{
+					1.127,
+					0.922,
+					0
+				}
+			},
+			torpedo = {
+				{
+					-0.278,
+					-0.064,
+					0
+				}
+			},
+			antiaircraft = {
+				{
+					0.852,
+					2.133,
+					0
+				}
+			}
+		},
+		smoke = {
+			{
+				50,
+				{
+					{
+						"smoke",
+						{
+							-0.568,
+							2.259,
+							-0.081
+						}
+					}
+				}
+			}
+		}
+	},
 	[403030] = {
 		name = "プリンツ・オイゲン",
 		change_skin = "",
@@ -15170,124 +15290,6 @@ pg.base.ship_skin_template_11 = {
 			-408,
 			0,
 			0.3
-		}
-	},
-	[403120] = {
-		name = "プリンツ・オイゲンちゃん",
-		change_skin = "",
-		desc = "アドミラル・ヒッパー級重巡洋艦-プリンツ・オイゲンちゃん",
-		illustrator2 = -1,
-		ship_group = 40312,
-		group_index = 0,
-		purchase_offset = "",
-		painting = "ougen_younv",
-		bg_sp = "",
-		skin_type = -1,
-		shop_type_id = 0,
-		l2d_ignore_drag = 0,
-		hand_id = 5,
-		lip_smoothing = 0,
-		l2d_animations = "",
-		bgm = "",
-		special_effects = "",
-		bg = "",
-		gyro = 0,
-		spine_use_live2d = 0,
-		spine_action_offset = false,
-		spine_offset_profile = "",
-		shop_offset = "",
-		ship_l2d_id = "",
-		id = 403120,
-		voice_actor_2 = -1,
-		l2d_drag_rate = "",
-		part_scale = "",
-		get_showing = "",
-		prefab = "ougen_younv",
-		l2d_se = "",
-		main_UI_FX = "",
-		shop_id = 0,
-		voice_actor = 21,
-		spine_offset = "",
-		illustrator = -1,
-		rarity_bg = "",
-		time = "",
-		l2d_para_range = "",
-		lip_sync_gain = 0,
-		live2d_offset_profile = "",
-		show_skin = "stand",
-		l2d_voice_calibrate = "",
-		tag = {},
-		live2d_offset = {
-			0,
-			0,
-			0
-		},
-		fx_container = {
-			{
-				0,
-				1.99185,
-				1.15
-			},
-			{
-				0,
-				0,
-				0
-			},
-			{
-				0,
-				0.75,
-				-1.299
-			},
-			{
-				0,
-				0,
-				0
-			}
-		},
-		bound_bone = {
-			cannon = {
-				{
-					1.821,
-					1.446,
-					0
-				}
-			},
-			vicegun = {
-				{
-					1.51,
-					1.193,
-					0
-				}
-			},
-			torpedo = {
-				{
-					0.021,
-					0.01,
-					0
-				}
-			},
-			antiaircraft = {
-				{
-					1.387,
-					1.609,
-					0
-				}
-			}
-		},
-		smoke = {
-			{
-				50,
-				{
-					{
-						"smoke",
-						{
-							-0.528,
-							2.096,
-							0
-						}
-					}
-				}
-			}
 		}
 	}
 }
