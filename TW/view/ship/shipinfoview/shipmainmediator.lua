@@ -452,6 +452,7 @@ slot0.nextPage = function(slot0, slot1, slot2)
 			-- Nothing
 		end
 
+		slot0.viewComponent:gotoPage(slot7)
 		slot0.viewComponent:switchToPage(slot7, true)
 	end
 

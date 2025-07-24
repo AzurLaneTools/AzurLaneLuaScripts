@@ -15,7 +15,7 @@ return {
 			bgm = "bar-soft",
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "……剪刀，拿到了！呼……好像有些难够到……唔……嗯……？",
+			say = "……剪刀，拿到了！呼……好像有些難夠到……唔……嗯……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "指、指挥官？！你怎么就已经到了？！已经到和可畏约好的时间了么？！",
+			say = "指、指揮官？！你怎麼已經到了？！已經到和可畏約好的時間了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "走入可畏的“秘密基地”，率先映入眼中的，便是这样的画面——",
+			say = "走入可畏的「秘密基地」，率先映入眼中的，便是這樣的畫面——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女的腿被彩带束缚着高高挂起，身体有些失衡地坐在床上摇摆着。",
+			say = "少女的腿被彩帶束縛著高高掛起，身體有些失衡地坐在床上搖擺著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她的手上还拿着把锋利的剪刀，因为情绪的起伏而在她手中乱晃。",
+			say = "她的手上還拿著把鋒利的剪刀，因為情緒的起伏而在她手中亂晃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -98,18 +98,18 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "别、别看了，先出去！把、把门也关好！",
+			say = "別、別看了，先出去！把、把門也關好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "担心留下",
+					content = "擔心留下",
 					flag = 1
 				},
 				{
-					content = "听话离开",
+					content = "聽話離開",
 					flag = 2
 				}
 			}
@@ -122,7 +122,7 @@ return {
 			optionFlag = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "摇了摇头，走进房间后将门关上，然后朝可畏走去。",
+			say = "搖了搖頭，走進房間後將門關上，然後朝著可畏走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			optionFlag = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "你在做什么啊！都说了你先出去了！不要再靠近了——！我、我要生气了哦！",
+			say = "你在做什麼啊！都說了你先出去了！不要再靠近了——！我、我要生氣了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -153,7 +153,7 @@ return {
 			hideRecordIco = true,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "剪刀给我，我来帮你。你这样万一伤到了自己怎么办？",
+			say = "剪刀給我，我來幫妳。妳這樣萬一傷到了自己怎麼辦？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			optionFlag = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "……什么嘛，原来是在担心可畏啊。",
+			say = "……什麼嘛，原來是在擔心可畏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			optionFlag = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "好、好吧……剪刀给你，快帮我解开吧……",
+			say = "好、好吧……剪刀給你，快幫我解開吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			hideRecordIco = true,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "（想来可畏也不想让我看见这么失态的一面，那就听她的，先离开吧。）",
+			say = "（想來可畏也不想讓我看見這麼失態的一面，那就聽她的，先離開吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "依照可畏的话，退出房间，就在准备把门关上时——",
+			say = "依照可畏的話，退出房間，就在準備把門關上時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "……指、指挥官？！你怎么真的走了！",
+			say = "……指、指揮官？！你怎麼真的走了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "快来帮可畏解开彩带！要不然的话……可畏就一辈子不理你了！",
+			say = "快來幫可畏解開彩帶！不然的話……可畏就一輩子不理你了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -256,7 +256,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "摇了摇头，走进房间后将门关上，然后朝可畏走去。",
+			say = "搖了搖頭，走進房間後將門關上，然後朝著可畏走去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "哼……哼！这还差不多！快帮我解开啦！那样的话，我就考虑原谅你！",
+			say = "哼……哼！這還差不多！快幫我解開！那樣的話，我就考慮原諒你！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "接过可畏手中的剪刀，上前扶住她被高高挂起的腿。",
+			say = "接過可畏手中的剪刀，上前扶住她被高高掛起的腿。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女紧绷的身体微微发烫。",
+			say = "少女緊繃的身體微微發燙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hideRecordIco = true,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "稍微放松一点？尽量让缠着你的彩带跟你有点空隙，我怕剪刀划伤你。",
+			say = "稍微放鬆一點？盡量讓纏著你的彩帶跟妳有點空隙，我怕剪刀劃傷妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "这种情况还要我放松是不是有点太强人所难了……！",
+			say = "這種情況還要我放鬆是不是有點太強人所難了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "可畏嘴上抱怨着，但仍是按我所说，尝试着放松了身体。",
+			say = "可畏嘴上抱怨著，但仍是照我所說，嘗試著放鬆了身體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "对了！指挥官，你再靠过来一点啦！",
+			say = "對了！指揮官，你再靠過來一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "让可畏把腿靠在你身上借下力啦，一直这么挂着，腿好酸哦！",
+			say = "讓可畏把腿靠在你身上借下力啦，一直這麼掛著，腿好酸！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "依言向可畏靠近后，她慢慢地放松，纤细修长的腿轻轻地搭在我的肩膀上。",
+			say = "依言向可畏靠近後，她慢慢地放鬆，纖細修長的腿輕輕地搭在我的肩膀上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -406,7 +406,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "彼此间的距离拉得更近，她稀碎而紊乱的呼吸声越发清晰。",
+			say = "彼此間的距離拉得更近，她稀碎而紊亂的呼吸聲越發清晰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hideRecordIco = true,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "你别乱动，我现在剪。",
+			say = "妳別亂動，我現在剪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "小心翼翼地剪断了束缚着可畏的彩带，托着她的脚踝，将她的腿放下。",
+			say = "小心翼翼地剪斷了束縛著可畏的彩帶，托著她的腳踝，將她的腿放下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -449,7 +449,7 @@ return {
 			fontsize = 24,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "……谢、谢谢。",
+			say = "……謝、謝謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -478,7 +478,7 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "没听到就算了！可畏不会说第二次的啦！",
+			say = "沒聽到就算了！可畏不會說第二次的囉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -493,7 +493,7 @@ return {
 			hideRecordIco = true,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "好吧……话说回来，你怎么把自己弄成刚刚那样的？",
+			say = "好吧……話說回來，妳怎麼把自己弄成剛剛那樣的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,7 +521,7 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "……算了！都已经让你看到这么狼狈的一面了，把事情告诉你也没关系了。",
+			say = "……算了！都已經讓你看到這麼狼狽的一面了，把事情告訴你也沒關係了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -535,7 +535,7 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "本来只是想给秘密演出增加一些氛围装饰，不小心就被缠住了……",
+			say = "本來只是想為秘密演出增加一些氛圍裝飾，不小心就被纏住了…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -549,18 +549,18 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "唔……实在太丢脸了……你不准说出去哦！最好是给我统统忘掉！",
+			say = "嗯……實在太丟臉了……你不准說出去哦！最好是給我統統忘掉！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "我不会说出去的。",
+					content = "我不會說出去的。",
 					flag = 1
 				},
 				{
-					content = "忘不了这么可爱的可畏。",
+					content = "忘不了這麼可愛的可畏。",
 					flag = 2
 				}
 			}
@@ -575,7 +575,7 @@ return {
 			hideRecordIco = true,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "放心吧，我不会说出去的。",
+			say = "放心吧，我不會說出去的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -590,7 +590,7 @@ return {
 			optionFlag = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "那就约好了！哼~！",
+			say = "那就約好了！哼~！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -606,7 +606,7 @@ return {
 			hideRecordIco = true,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "不过……也很难忘记就是了。",
+			say = "不過……也很難忘記就是了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			optionFlag = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "什么嘛！不准记住这些奇怪的事情！",
+			say = "什麼嘛！不准記住這些奇怪的事情！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -636,7 +636,7 @@ return {
 			optionFlag = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "明明还有更重要的事情要记住吧！",
+			say = "明明還有更重要的事情要記住吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -650,7 +650,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "听到我的打趣后，少女的脸颊上立刻有红晕蔓延。",
+			say = "聽到我的打趣後，少女的臉頰上立刻有紅暈蔓延。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -665,7 +665,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "肉、肉麻死了！以后不准乱学这种！",
+			say = "肉、肉麻死了！以後不准亂學這種！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "……但、但是，我破例同意你把可爱的可畏好好记住！",
+			say = "……但、但是，我破例同意你把可愛的可畏好好記住！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -695,7 +695,7 @@ return {
 			optionFlag = 2,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "而且，接下来的更要牢牢记住不准忘！",
+			say = "而且，接下來的更要牢牢記住不准忘！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -708,7 +708,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女拿起了一旁的电吉他，郑重其事地抱在怀中。",
+			say = "少女拿起了一旁的電吉他，鄭重其事地抱在懷中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -722,7 +722,7 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "刚刚那只是一个意外的小插曲，接下来才是专门为你准备的秘密加演。",
+			say = "剛剛那只是一個意外的小插曲，接下來才是專門為你準備的秘密加演。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -736,7 +736,7 @@ return {
 			dir = 1,
 			actor = 207054,
 			nameColor = "#A9F548FF",
-			say = "要好好看着可畏哦，指挥官！",
+			say = "要好好看著可畏哦，指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -113,6 +113,13 @@ temp = function()
 			["雷"] = {
 				this = true
 			}
+		},
+		["伊"] = {
+			["斯"] = {
+				["堡"] = {
+					this = true
+				}
+			}
 		}
 	}
 end
@@ -5196,6 +5203,9 @@ temp = function()
 	uv0.Z = {
 		["1"] = {
 			this = true,
+			["1"] = {
+				this = true
+			},
 			["6"] = {
 				this = true
 			},
@@ -5229,6 +5239,9 @@ temp = function()
 			["8"] = {
 				this = true
 			}
+		},
+		["9"] = {
+			this = true
 		},
 		["3"] = {
 			["5"] = {
@@ -5265,6 +5278,11 @@ temp = function()
 						}
 					}
 				}
+			}
+		},
+		["5"] = {
+			["2"] = {
+				this = true
 			}
 		}
 	}
@@ -5323,6 +5341,17 @@ temp = function()
 								["兵"] = {
 									["裝"] = {
 										[")"] = {
+											this = true
+										}
+									}
+								}
+							}
+						},
+						["·"] = {
+							M = {
+								E = {
+									T = {
+										A = {
 											this = true
 										}
 									}
@@ -7016,6 +7045,24 @@ temp = function()
 	uv0["七"] = {
 		["省"] = {
 			this = true
+		}
+	}
+end
+
+temp()
+
+temp = function()
+	uv0["弗"] = {
+		["里"] = {
+			["茨"] = {
+				["·"] = {
+					["魯"] = {
+						["梅"] = {
+							this = true
+						}
+					}
+				}
+			}
 		}
 	}
 end

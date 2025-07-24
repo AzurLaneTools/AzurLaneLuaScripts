@@ -12,7 +12,7 @@ return {
 			bgm = "story-ironblood-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三日的时间转瞬即逝，到了出击的时候了。",
+			say = "三日的時間轉瞬即逝，到了出擊的時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"基地周边·舰队集结海域",
+				"基地週邊·艦隊集結海域",
 				3
 			}
 		},
@@ -47,7 +47,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，根据鲁梅女士的命令，这支舰队由你作为指挥官负责指挥。",
+			say = "{playername}閣下，根據魯梅女士的命令，這支艦隊由你作為指揮官負責指揮。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -61,7 +61,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鉴于这是你的首次作战，所以由我作为副官从旁协助，这样安排可以么？",
+			say = "鑑於這是你的首次作戰，所以由我作為副官從旁協助，這樣安排可以嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "自然没问题。",
+			say = "自然沒問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -85,7 +85,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "不论是对于此处海况的了解，还是对于天外之兽的作战经验，{namecode:541:杜伊斯堡}无疑都拥有比我丰富的经验。",
+			say = "不論是對於此處海況的了解，還是對於天外之獸的作戰經驗，杜伊斯堡無疑都擁有比我豐富的經驗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_597",
 			hidePaintObj = true,
-			say = "作为首次作战来说，有这样一位副官从旁协助真是再好不过了。",
+			say = "作為首次作戰來說，有這樣一位副官從旁協助真是再好不過了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "嘿嘿，我会尽力而为的~",
+			say = "嘿嘿，我會盡力而為的~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目前{namecode:540:Z52}带领的侦察舰队先行前往了ID-AX-108至110一线，鲁梅女士带领主力舰队也已经起航。",
+			say = "目前Z52帶領的偵察艦隊先行前往了ID-AX-108至110一線，魯梅女士已經帶領主力艦隊也已經起航。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "登陆舰队和护航舰队还在待命中。",
+			say = "登陸艦隊和護航艦隊還在待命中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们作为猎杀舰队，任务是配合其余舰队在基地至ID-AX-104海域的运输线周边巡逻，消灭见到的每一个敌人，并回收其生物质。",
+			say = "我們作為獵殺艦隊，任務是配合其餘艦隊在基地至ID-AX-104海域的運輸線週邊巡邏，消滅見到的每一個敵人，並回收其生物質。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "真没想到，天外之兽的生物质会有一天成为升级净化装置不可或缺的材料呢。",
+			say = "真沒想到，天外之獸的生物質會有一天成為升級淨化裝置不可或缺的材料。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不用担心~这片区域虽然广阔，不过历来都是相对安全的。",
+			say = "不用擔心~這片區域雖然廣闊，不過歷來都是相對安全的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "八小时前进行的战前侦察也显示情况无变化。",
+			say = "八小時前進行的戰前偵察也顯示情況無變化。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（只要海域安全，如此分散兵力倒确实是效率最大化的方式。）",
+			say = "（只要海域安全，如此分散兵力倒確實是效率最大化的方式。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "那么，指挥官，我们也出发吧~",
+			say = "那麼，指揮官，我們也出發吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

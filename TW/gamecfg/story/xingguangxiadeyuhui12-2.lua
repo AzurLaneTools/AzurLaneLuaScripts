@@ -13,7 +13,7 @@ return {
 			soundeffect = "event:/battle/boom2",
 			bgm = "story-ironblood-strong",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,12 +75,12 @@ return {
 				}
 			},
 			location = {
-				"ID-AX-92号海域",
+				"ID-AX-92號海域",
 				3
 			}
 		},
 		{
-			actorName = "天外之兽群",
+			actorName = "天外之獸群",
 			side = 2,
 			bgName = "star_level_bg_596",
 			nameColor = "#A9F548FF",
@@ -207,7 +207,7 @@ return {
 			actor = 401520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "真难缠啊……又有一批追上来了！",
+			say = "真難纏啊……又有一批追上來了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……追兵比上一批更强了。",
+			say = "……追兵比上一批更強了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "鲁梅，这批天外之兽似乎正在试探中消耗我们。",
+			say = "魯梅，這批天外之獸似乎正在試探中消耗我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "基地的进攻也在这一时间……我担心它们有了一个更高级的全局指挥者。",
+			say = "基地的攻擊也在這一時間……我擔心它們有了一個更高級的全局指揮者。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -265,7 +265,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我们现在的航线太容易被预测了，应该调整。",
+			say = "我們現在的航線太容易被預測了，應該要調整。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -280,7 +280,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "领袖级的天外之兽么……自从塞壬消失之后，这种类型的天外之兽就逐渐消失了。",
+			say = "領袖級的天外之獸嗎……自從塞壬消失之後，這種類型的天外之獸就逐漸消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -295,7 +295,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至今已经有几十年没有出现过了，或许是你多心了。",
+			say = "至今已經有幾十年沒有出現過了，或許是你多心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "现在距离已经过半了，舰队损伤却忽略不计。",
+			say = "現在距離已經過半了，艦隊損傷卻忽略不計。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我知道你是谨慎型的指挥官，只是……在舰队离开后，基地十分空虚。",
+			say = "我知道你是謹慎型的指揮官，只是……在艦隊離開後，基地十分空虛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "二者相比，我们必须承担更高的风险……继续前进！",
+			say = "二者相比，我們必須承擔更高的風險……繼續前進！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

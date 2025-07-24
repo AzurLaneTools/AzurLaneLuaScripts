@@ -16,7 +16,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之兽*/",
+			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之獸*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -48,7 +48,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ŇýĐÇśřŔ´/*引星而来*/",
+			say = "——ŇýĐÇśřŔ´/*引星而來*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĐŻĐÇśřČĽ/*携星而去*/",
+			say = "——ĐŻĐÇśřČĽ/*攜星而去*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -78,7 +78,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĚěľŘÎŰ×Ç/*天地污浊*/",
+			say = "——ĚěľŘÎŰ×Ç/*天地汙濁*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -93,7 +93,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ËéśřşóÉú/*碎而后生*/",
+			say = "——ËéśřşóÉú/*碎而後生*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -104,7 +104,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_1104",
-			say = "天地万物仿佛在白色的光芒中徐徐瓦解。",
+			say = "天地萬物彷彿在白色的光芒中徐許瓦解。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "耳边，似乎传来了洗牌的声音——",
+			say = "耳邊，似乎傳來了洗牌的聲音——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -4239,6 +4239,38 @@ pg.backyard_theme_template = {
 			316305
 		}
 	},
+	[117] = {
+		Cfg_1 = 5,
+		name = "荒野庇護所",
+		desc = "危機四伏的荒野之上，僅有此處可以稍作休息。",
+		deblocking = 1,
+		new = 1,
+		hot = 0,
+		Cfg_2 = 8,
+		is_view = 1,
+		discount = 0,
+		order = 118,
+		id = 117,
+		icon = "ftthemeicon",
+		comfortable = 0,
+		discount_time = "",
+		ids = {
+			317001,
+			317002,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317108,
+			317109,
+			317110,
+			317301,
+			317302,
+			317303
+		}
+	},
 	[118] = {
 		Cfg_1 = 5,
 		name = "踏雪尋梅",
@@ -4487,6 +4519,7 @@ pg.backyard_theme_template = {
 		114,
 		115,
 		116,
+		117,
 		118,
 		120,
 		121,

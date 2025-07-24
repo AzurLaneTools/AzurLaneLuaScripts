@@ -44,25 +44,24 @@ slot0.initOpenUISwich = function(slot0)
 			uv0.gameController:PauseGame()
 		end,
 		result = function ()
-			slot1 = uv0.gameController.point
-			slot2 = (uv0:GetMGData():GetRuntimeData("elements") or {})[1] or 0
+			slot0 = uv0:GetMGData():GetRuntimeData("elements") or {}
 
-			setActive(uv0.rtTitlePage:Find("result"):Find("window/now/new"), slot2 < slot1)
+			setActive(uv0.rtTitlePage:Find("result"):Find("window/now/new"), getProxy(GameRoomProxy):getRoomScore(uv0:getGameRoomData().id) < uv0.gameController.point)
 
 			if slot2 <= slot1 then
 				slot2 = slot1
 				slot0[1] = slot1
 			end
 
-			uv0:SaveDataChange(slot0)
+			uv0:StoreDataToServer({
+				slot2
+			})
 			setText(slot3:Find("window/high/Text"), slot2)
 			setText(slot3:Find("window/now/Text"), slot1)
 
 			slot4 = uv0:GetMGHubData()
 
-			if (not uv0:getShowSide() or uv0.stageIndex == slot4.usedtime + 1) and slot4.count > 0 then
-				uv0:SendSuccess(slot1)
-			end
+			uv0:SendSuccess(slot1)
 		end
 	}
 end

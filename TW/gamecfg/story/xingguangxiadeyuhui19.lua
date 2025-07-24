@@ -14,15 +14,15 @@ return {
 			bgm = "battle-xinnong-image",
 			sequence = {
 				{
-					"撒丁帝国",
+					"薩丁帝國",
 					1
 				},
 				{
-					"原博览会会场",
+					"原博覽會會場",
 					2
 				},
 				{
-					"四季花馆",
+					"四季花館",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_111",
-			say = "又过了两日，终于到返魂仪式启动的时间了。",
+			say = "又過了兩日，終於到返魂儀式啟動的時間了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "四季花馆中的众人已经做完了所有能做的事，此刻只能屏气凝神，静静等待着。",
+			say = "四季花館中的眾人已經做完了所有能做的事，此刻只能屏氣凝神，靜靜等待。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			side = 2,
-			say = "金色的蝴蝶伴随着流光出现，在空中翩然纷飞。",
+			say = "金色的蝴蝶伴隨著流光出現，在空中翩然紛飛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "被蝴蝶触碰过的结界亦一层层开始运转，如同一台正在苏醒的机器。",
+			say = "被蝴蝶觸碰過的結界亦一層層開始運轉，如同一台正在甦醒的機器。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -99,7 +99,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "这样的场景在万里之外的龙宫城中亦同时发生着。",
+			say = "這樣的場景在萬里之外的龍宮城中亦同時發生著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "经过改造的四季花馆，俨然已经成为了仪式分会场一般的存在。",
+			say = "經過改造的四季花館，儼然已經成為如同儀式的分會場一般的存在。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -124,7 +124,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这就是重樱的……“仪式”，看上去……比电影里的特效厉害多了。",
+			say = "這就是重櫻的……「儀式」，看起來……比電影裡的特效厲害多了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -138,7 +138,7 @@ return {
 			actor = 102050,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我能感受到一种奇妙的力量在身边流动，仿佛能够触碰灵魂一样……",
+			say = "我能感受到一種奇妙的力量在身邊流動，彷彿在觸碰靈魂一樣……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			side = 2,
-			say = "紫色蝴蝶从流光中诞生，与金色蝴蝶相伴而飞。",
+			say = "紫色蝴蝶從流光中誕生，與金色蝴蝶相伴而飛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "在二色蝴蝶的交织中，众人仿佛看到了荒芜的大地绿意盎然、破碎的楼宇光鲜如初、逝去的灵魂重现笑颜。",
+			say = "在二色蝴蝶的交織中，眾人彷彿看到了荒蕪的大地綠意盎然、破碎的樓宇光鮮如初、逝去的靈魂重現笑顏。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 307080,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……{namecode:84:武藏}，汝回来了啊。",
+			say = "……武藏，汝回來了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -192,7 +192,7 @@ return {
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "太好了，{namecode:91:赤城}，仪式顺利进行了呢。",
+			say = "太好了，赤城，儀式順利進行了呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_111",
 			hidePaintObj = true,
-			say = "光华流转，凝聚成了一位少女的虚影。",
+			say = "光華流轉，凝聚成了少女的虛影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:83:大和}大人托我向诸位问好。",
+			say = "大和大人託我向諸位問好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，{namecode:84:武藏}大人已经复生，并且知晓了接下来要做的事。",
+			say = "此刻，武藏大人已經復生，並且知曉了接下來要做的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -261,7 +261,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "仪式的影响力也已经扩展至全球，该启动寻觅指挥官的法阵了。",
+			say = "儀式的影響力也已經擴展至全球，該啟動尋覓指揮官的法陣了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			side = 2,
-			say = "蓝色的蝴蝶从光芒中诞生，与金色蝴蝶和紫色蝴蝶相伴而飞。",
+			say = "藍色的蝴蝶從光芒中誕生，與金色蝴蝶和紫色蝴蝶相伴而飛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "在三色蝴蝶的交织下，四季花馆的地面与墙壁快速消失着。",
+			say = "在三色蝴蝶的交織下，四季花館的地面與牆壁在快速消失。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -314,7 +314,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "不久后，众人仿佛立于一片星空之中，唯有一环又一环形态各异的法阵依然在精密运作着。",
+			say = "不久後，眾人彷彿立於一片星空之中，唯有一環又一環形態各異的法陣依然在精密運作著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很好，作为“追踪指针”的人选好了么？",
+			say = "很好，作為「追蹤指針」的人選好了嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -340,7 +340,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "追踪指针，顾名思义为寻觅法阵中用于找到指挥官方位之人。",
+			say = "追蹤指針，顧名思義為尋覓法陣中用來找出指揮官方位之人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -351,7 +351,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "在法阵执行期间，追踪指针需要一直位于阵枢，引导法阵的力量驱散幕后黑手在世间留下的认知干扰影响。",
+			say = "在法陣執行期間，追蹤指針需要一直位於陣樞，引導法陣的力量驅散幕後黑手在世間留下的認知干擾影響。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -362,7 +362,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "也因此，其需要承受庞大力量的反复冲刷，还要从随之而来的海量信息中一寸一寸寻找指挥官存在的痕迹。",
+			say = "也因此，其需要承受龐大力量的反覆沖刷，還要從隨之而來的海量資訊中一寸一寸尋找指揮官存在的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -386,7 +386,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "选好了，指针由我来。",
+			say = "選好了，指針由我來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			nameColor = "#A9F548FF",
-			say = "{namecode:91:赤城}，如果撑不住了就出来，别逞强，还有姐姐呢。",
+			say = "赤城，如果撐不住了就出來，別逞強，還有姊姊呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -411,7 +411,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "……嗯，放心吧。",
+			say = "……嗯，放心。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我虽然没有如姐姐一般的神石亲和性，不过我拥有神石网络的权限，这种仪式还伤不到我。",
+			say = "我雖然沒有如姐姐一般的神石親和性，不過我擁有神石網路的權限，這種儀式還傷不到我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -439,7 +439,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "作为“引导标记”的人选呢？",
+			say = "作為「引導標記」的人選呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -450,7 +450,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "引导标记，顾名思义为能够依靠标记进行定位，加快指针寻找目标的人员。",
+			say = "引導標記，顧名思義為能夠依靠標記來定位，加快指針尋找目標的人員。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -461,20 +461,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
-			say = "原本的仪式中是没有这样一个位置的，不过{namecode:83:大和}在得知了孟菲斯赠送指挥官手帕的事之后，临时调整了阵法。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 102160,
-			side = 2,
-			bgName = "star_level_bg_589",
-			hidePaintObj = true,
-			dir = 1,
-			nameColor = "#A9F548FF",
-			say = "指挥官身上带着的是我的手帕，也只能由我来了。",
+			say = "原本的儀式中是沒有這樣一個位置的，不過大和在得知了曼非斯贈送指揮官手帕的事之後，臨時調整了陣法。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +474,20 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家放心，我一定会成功把指挥官带回来的！",
+			say = "指揮官身上帶著的是我的手帕，也只能由我來了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 102160,
+			side = 2,
+			bgName = "star_level_bg_589",
+			hidePaintObj = true,
+			dir = 1,
+			nameColor = "#A9F548FF",
+			say = "大家放心，我一定會成功把指揮官帶回來的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +502,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "既然如此，请两位入阵吧。",
+			say = "既然如此，請兩位入陣吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			side = 2,
-			say = "{namecode:91:赤城}与孟菲斯分别踏入了星空之中的两处阵枢。",
+			say = "赤城與曼非斯分別踏入了星空之中的兩處陣樞。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,7 +547,7 @@ return {
 			bgName = "star_level_bg_589",
 			hidePaintObj = true,
 			side = 2,
-			say = "而后，飞舞中的三色蝴蝶逐渐构成了三道快速旋转的圆环，将二人包裹在内。",
+			say = "而後，飛舞中的三色蝴蝶逐漸構成了三道快速旋轉的圓環，將兩人包裹在內。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -571,7 +571,7 @@ return {
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（指挥官……等我。）",
+			say = "（指揮官……等我。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -599,7 +599,7 @@ return {
 			actor = 303190,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阵起，寻踪——！",
+			say = "陣起，尋蹤——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

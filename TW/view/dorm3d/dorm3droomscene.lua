@@ -48,6 +48,9 @@ slot0.init = function(slot0)
 			roomId = uv0.room:GetConfigID()
 		})
 	end, SFX_PANEL)
+	onButton(slot0, slot1:Find("top/setting"), function ()
+		uv0:emit(Dorm3dRoomMediator.OPEN_SETTING_LAYER)
+	end)
 	onButton(slot0, slot1:Find("left/btn_photograph"), function ()
 		if #uv0.contextData.groupIds == 0 then
 			pg.TipsMgr.GetInstance():ShowTips(i18n("dorm3d_photo_no_role"))
@@ -2752,6 +2755,10 @@ slot0.didEnterCheck = function(slot0)
 		slot0:DoTalk(slot0.contextData.specialId, function ()
 			uv0:closeView()
 		end)
+
+		if slot0.contextData.isVideoTalk then
+			slot0.contextData.hasEnterCheck = true
+		end
 	elseif not slot0.contextData.hasEnterCheck and slot0.apartment then
 		slot5 = slot0.room
 		slot6 = slot5

@@ -30,7 +30,7 @@ slot0.OnFirstFlush = function(slot0)
 	onButton(slot0, slot0.btnHelp, function ()
 		pg.MsgboxMgr.GetInstance():ShowMsgBox({
 			type = MSGBOX_TYPE_HELP,
-			helps = pg.gametip.SkinDiscountHelp_School.tip
+			helps = uv0:GetTips()
 		})
 	end, SFX_PANEL)
 	onButton(slot0, slot0.btnShop, function ()
@@ -41,7 +41,7 @@ slot0.OnFirstFlush = function(slot0)
 
 	slot4 = function()
 		uv0:emit(ActivityMediator.EVENT_GO_SCENE, SCENE.CHARGE, {
-			wrap = ChargeScene.TYPE_GIFT
+			wrap = uv0:GetGiftShopType()
 		})
 	end
 
@@ -95,8 +95,20 @@ slot0.OnUpdateFlush = function(slot0)
 		count = slot0.couponGet
 	}))
 	setActive(slot0.rtSkinCoupon:Find("icon/get"), slot0.couponGet > 0)
-	setText(slot0.rtSkinCoupon:Find("count"), i18n("SkinDiscount_Got", slot0.couponCount))
+	setText(slot0.rtSkinCoupon:Find("count"), i18n("SkinDiscount_Got", slot0:GetCouponCountText()))
 	setActive(slot0.rtSkinCoupon:Find("icon/get"), slot0.couponGet > 0)
+end
+
+slot0.GetTips = function(slot0)
+	return pg.gametip.SkinDiscountHelp_School.tip
+end
+
+slot0.GetCouponCountText = function(slot0)
+	return slot0.couponCount
+end
+
+slot0.GetGiftShopType = function(slot0)
+	return ChargeScene.TYPE_GIFT
 end
 
 return slot0

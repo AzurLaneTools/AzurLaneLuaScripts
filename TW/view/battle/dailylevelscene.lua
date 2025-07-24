@@ -4,7 +4,7 @@ slot2 = 4
 slot3 = 101
 
 slot0.getUIName = function(slot0)
-	return "dailylevelui"
+	return "DailyLevelUI"
 end
 
 slot0.ResUISettings = function(slot0)
@@ -50,6 +50,10 @@ end
 
 slot0.setDailyCounts = function(slot0, slot1)
 	slot0.dailyCounts = slot1
+end
+
+slot0.setActivity = function(slot0, slot1)
+	slot0.bonusActivity = slot1
 end
 
 slot0.setShips = function(slot0, slot1)
@@ -275,9 +279,27 @@ slot0.initDailyLevel = function(slot0, slot1)
 	setText(findTF(slot3, "name"), slot2.title)
 	setActive(findTF(slot3, "time"), false)
 
-	slot5 = findTF(slot3, "icon")
+	if slot0.bonusActivity and not slot0.bonusActivity:isEnd() then
+		slot5 = checkExist(underscore.detect(slot0.bonusActivity:getConfig("config_data"), function (slot0)
+			return slot0[1] == uv0
+		end), {
+			2
+		})
 
-	PoolMgr.GetInstance():GetPrefab("dailyui/" .. slot2.pic, "", true, function (slot0)
+		setText(slot3:Find("bonus/Text"), i18n("dailyLevel_bonus_activity"))
+		setActive(slot3:Find("bonus"), tobool(slot5))
+
+		if slot5 then
+			updateDrop(slot3:Find("bonus/IconTpl"), Drop.Create(slot5))
+		end
+	else
+		setActive(slot3:Find("bonus"), false)
+	end
+
+	slot5 = findTF(slot3, "icon")
+	slot6 = PoolMgr.GetInstance()
+
+	slot6:GetPrefab("dailyui/" .. slot2.pic, "", true, function (slot0)
 		slot0 = tf(slot0)
 
 		slot0:SetParent(uv0, false)

@@ -1197,17 +1197,6 @@ slot0.updateModPanel = function(slot0)
 	end, SFX_PANEL)
 	setActive(slot0.calcMaxBtn, not slot5)
 
-	slot12 = false
-
-	if not pg.NewStoryMgr.GetInstance():IsPlayed("PHANTOM_HELP") then
-		slot12 = true
-
-		pg.NewGuideMgr.GetInstance():Play("PHANTOM_HELP")
-		pg.m02:sendNotification(GAME.STORY_UPDATE, {
-			storyId = "PHANTOM_HELP"
-		})
-	end
-
 	if slot1:canFateSimulation() then
 		onButton(slot0, slot0.fittingBtn, function ()
 			if uv0.isSwitchAnim then
@@ -1238,10 +1227,10 @@ slot0.updateModPanel = function(slot0)
 		end, SFX_PANEL)
 		slot0:updateFittingPanel()
 
-		if not slot12 then
-			slot14 = pg.NewStoryMgr.GetInstance()
+		if not inGuide then
+			slot13 = pg.NewStoryMgr.GetInstance()
 
-			slot14:Play(slot1:getConfig("luck_story"), function (slot0)
+			slot13:Play(slot1:getConfig("luck_story"), function (slot0)
 				if slot0 then
 					slot1 = uv0
 
@@ -1253,8 +1242,8 @@ slot0.updateModPanel = function(slot0)
 		end
 	end
 
-	setActive(slot0.calcPanel, not slot13)
-	setActive(slot0.fittingBtn, slot13)
+	setActive(slot0.calcPanel, not slot12)
+	setActive(slot0.fittingBtn, slot12)
 	setActive(slot0.fittingBtnEffect, false)
 end
 
@@ -1946,8 +1935,8 @@ slot0.updatePhantomQuest = function(slot0)
 
 			slot4 = string.format("%d", math.clamp(slot3.unlocked and slot3.config.target_num or slot3.progress, 0, slot3.config.target_num) * 100 / slot3.config.target_num)
 
-			setText(slot2:Find("desc/info/Text/progress"), slot4 .. "%")
-			setText(slot2:Find("desc/info/Text/progress/shadow"), slot4 .. "%")
+			setText(slot2:Find("desc/info/progress"), slot4 .. "%")
+			setText(slot2:Find("desc/info/progress/shadow"), slot4 .. "%")
 
 			slot5 = ShipBluePrint.getPhantomQuestCostDrop(slot3)
 
@@ -2001,7 +1990,7 @@ end
 slot0.createTask = function(slot0, slot1)
 	slot2 = {
 		title = slot0:findTF("title/name", slot1),
-		desc = slot0:findTF("desc/Text", slot1),
+		desc = slot0:findTF("desc/info/Text", slot1),
 		timerTF = slot0:findTF("title/timer", slot1),
 		timerTFTxt = slot0:findTF("title/timer/Text", slot1),
 		timerOpen = slot0:findTF("title/timer/open", slot1),
@@ -2020,8 +2009,8 @@ slot0.createTask = function(slot0, slot1)
 	slot2.lockBtn = slot0:findTF("desc/commit_panel/lock_btn", slot1)
 	slot3 = slot2.itemTpl
 	slot2.itemCount = slot3:Find("award/icon_bg/count")
-	slot2.progres = slot0:findTF("desc/Text/progress", slot1)
-	slot2.progreshadow = slot0:findTF("desc/Text/progress/shadow", slot1)
+	slot2.progres = slot0:findTF("desc/info/progress", slot1)
+	slot2.progreshadow = slot0:findTF("desc/info/progress/shadow", slot1)
 	slot2.check = findTF(slot1, "title/complete")
 	slot2.lock = findTF(slot1, "title/lock")
 	slot2.working = findTF(slot1, "title/working")

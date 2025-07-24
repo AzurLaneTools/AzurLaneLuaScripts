@@ -12,7 +12,7 @@ return {
 			bgm = "battle-ironblood-defence",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "两小时后——",
+			say = "兩小時後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"能量塔·内部",
+				"能量塔·內部",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "在净化装置有条不紊的运作下，第一批能源金晶已经完成了净化处理。",
+			say = "在淨化裝置有條不紊的運作下，第一批能源金晶已經完成了淨化處理。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "{namecode:542:弗里茨·鲁梅}和{namecode:541:杜伊斯堡}已经与{namecode:426:希佩尔}·META一同来到了能源塔中，其他人则在镜面海域内侧清理着过于靠近基地的敌人。",
+			say = "弗里茨·魯梅和杜伊斯堡已經與希佩爾·META一同來到了能源塔中，其他人則在鏡面海域內測清理著過於靠近基地的敵人。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……用这东西给我提升战斗力？",
+			say = "……用這東西給我提升戰鬥力？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "你认真的？",
+			say = "你認真的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,42 +92,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "不出所料，{namecode:426:希佩尔}在看到能源金晶后露出了疑惑的表情。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_301",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "现在还不行，我需要再加工处理一下。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_301",
-			hidePaintObj = true,
-			say = "所谓加工，就是设法激活神石的性质，将常人无法直接使用的能源金晶转化{namecode:426:希佩尔}·META能够使用的，增幅自身战斗力的物品。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_301",
-			hidePaintObj = true,
-			say = "不过重樱的这一套方法实在是难以言传，还是直接行动，用结果来说服众人吧。",
+			say = "不出所料，希佩爾在看到能源金晶後露出了疑惑的表情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +105,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（要专注于这是赠送给{namecode:426:希佩尔}所使用的礼物这一心念么……）",
+			say = "現在還不行，我需要再加工處理一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +116,42 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "根据{namecode:91:赤城}的方法，我拿出一块净化打磨后的能源金晶块，贴近额头静静感受着。",
+			say = "所謂加工，就是設法啟動神石的性質，將常人無法直接使用的能源金晶轉化希佩爾·META能夠使用的，增幅自身戰鬥力的物品。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_301",
+			hidePaintObj = true,
+			say = "不過重櫻的這套方法實在是難以言傳，還是直接行動，用結果來說服眾人吧。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_301",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "（要專注於這是送給希佩爾所使用的禮物這一心念嗎……）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_301",
+			hidePaintObj = true,
+			say = "根據赤城的方法，我拿出一塊淨化打磨後的能源金晶塊，貼近額頭靜靜感受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgm = "story-startravel",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "恍然间，我来到了这片空间。",
+			say = "恍然間，我來到了這片空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "无垠、广袤、虚无，方位与时间似乎在此处失去了意义。",
+			say = "無垠、廣袤、虛無，方位與時間似乎在此處失去了意義。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -204,7 +204,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "这种感觉……有些似曾相识？",
+			say = "這種感覺……有些似曾相識？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -217,7 +217,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			blackBg = true,
-			say = "……难道是最初遇到罗德尼·META的地方？",
+			say = "……難道是最初遇到羅德尼·META的地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "我的意识开始被拉扯，被溶解……缓缓消逝在这片无垠的广袤与虚无中。",
+			say = "我的意識開始被拉扯，被溶解……緩緩消逝在這片無垠的廣袤與虛無中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			soundeffect = "event:/ui/fengling",
 			stopbgm = true,
 			hidePaintObj = true,
-			say = "就在意识将要消散之际……耳边响起了熟悉的风铃声。",
+			say = "就在意識將要消散之際……耳邊響起了熟悉的風鈴聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -287,7 +287,7 @@ return {
 			actor = 403010,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "哈？要送我的礼物为什么要来问我？！",
+			say = "哈？要送我的禮物為什麼要來問我？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -318,7 +318,7 @@ return {
 			actor = 403010,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "你真是笨蛋么？！",
+			say = "你真是笨蛋呢？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			actor = 403010,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "哼，下不为例，可不是为了帮你哦！",
+			say = "哼，下不為例，可不是為了幫你哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（刚刚……发生了什么？）",
+			say = "（剛剛……發生了什麼事？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "明明是一瞬之前的记忆，却顷刻间烟消云散。",
+			say = "明明是一瞬之前的記憶，卻在傾刻間煙消雲散。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -398,7 +398,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "我茫然地抬起头，迎来的是众人更加茫然的目光。",
+			say = "我茫然的抬起頭，迎來的是眾人更茫然的目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，你居然……真的成功了？",
+			say = "{playername}閣下，你居然……真的成功了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "没用到任何机器，也没有任何处理流程……就一贴脸，能源金晶就变成其他东西了……？",
+			say = "沒用到任何機器，也沒有任何處理流程……就一貼臉，能源金晶就變成其他東西了……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,7 +452,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这不科学吧。",
+			say = "……這不科學吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -465,7 +465,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……不愧是天外来客，真恐怖。",
+			say = "……不愧是天外來客，真恐怖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -476,20 +476,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_301",
 			hidePaintObj = true,
-			say = "这时我才注意到，原本被我握在手中的能源金晶，此刻已经变为了一个包装精美的小巧礼盒。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_301",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "（这就是神石……？）",
+			say = "這時我才注意到，原本被我握在手中的能源金晶，此刻已經變成了一個包裝精美的小巧禮盒。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -502,7 +489,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（虽然转换过程无法理解，不过真的得到了想要的结果……？）",
+			say = "（這就是神石……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +502,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（礼盒么……原来如此。）",
+			say = "（雖然轉換過程無法理解，不過真的得到了想要的結果……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -528,7 +515,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:426:希佩尔}，这个送给你。",
+			say = "（禮盒嗎……原來如此。）",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_301",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "希佩爾，這個送給妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -541,7 +541,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……礼盒中有能提升我战斗力的物品？",
+			say = "……禮盒中有能提升我戰鬥力的物品？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -554,7 +554,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "礼盒之中装载的是未知，而未知之中，蕴含着名为希望的力量。",
+			say = "禮盒之中裝載的是未知，而未知之中，蘊含著名為希望的力量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,7 +567,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "命运不是既定的，能决定我们命运的，只应该是我们自己。",
+			say = "命運不是既定的，能決定我們命運的，只應該是我們自己。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -580,7 +580,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "所以，我们今日不会毁灭，这个世界亦然。",
+			say = "所以，我們今日不會毀滅，這個世界亦然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -593,7 +593,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "利用这份力量取得胜利，然后亲自打开礼盒，迎接充满希望的未来吧。",
+			say = "利用這份力量取得勝利，然後親自打開禮盒，迎接充滿希望的未來吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "不过……还是多谢你的礼物了~",
+			say = "不過……還是多謝你的禮物了~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -630,7 +630,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_yuhui_3",
-			say = "再之后，我与{namecode:542:弗里茨·鲁梅}争分夺秒对于基地的防御体系进行了最后的部署。",
+			say = "再之後，我與弗里茨·魯梅爭分奪秒對於基地的防禦體系進行了最後的部署。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -658,7 +658,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "而后我独自前往了一号永恒之星，操作第三座控制台将镜面海域转为了防御模式。",
+			say = "而後我獨自前往了一號永恆之星，操作第三座控制台將鏡面海域轉為了防禦模式。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "星之兽……我已经做好了能做的一切——一决胜负吧。",
+			say = "星之獸……我已經做好了能做的一切——一決勝負吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

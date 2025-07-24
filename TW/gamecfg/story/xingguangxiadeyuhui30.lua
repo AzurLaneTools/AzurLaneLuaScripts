@@ -28,7 +28,7 @@ return {
 			bgm = "story-startravel",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "几日中，蓝发少女一直注视着眼前的面板，推进着各项任务的进展。",
+			say = "幾日中，藍髮少女一直注視著眼前的面板，推進各項任務的進展。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "面板上的内容显示，针对实验场β的重新定位将在一个系统时内完成。",
+			say = "面板上的內容顯示，針對實驗場β的重新定位將在一個系統時內完成。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -67,7 +67,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "而对于幻象实验场核心装置的捕获工作则在三个系统时前就圆满结束了。",
+			say = "而對於幻象實驗場核心裝置的捕獲工作則在三個系統時前就圓滿結束了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "总感觉，有些过于顺利了……",
+			say = "總感覺，有些過於順利了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -95,7 +95,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "D小姐在实验场β出现过的消息不是绝密，麦纪莎肯定是有意识留下这么明显的漏洞的……",
+			say = "D小姐在實驗場β出現過的消息不是絕密，麥紀莎肯定是有意識留下這麼明顯的漏洞的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -109,7 +109,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "为了定位实验场β的位置，塔与卡美洛之庭必须一直保持通讯连接状态。",
+			say = "為了定位實驗場β的位置，塔與卡美洛之庭必須一直保持通訊連接狀態。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "这段时间明明是最好的出手时机……",
+			say = "這段時間明明是最好的出手時機……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "它到底在等什么……",
+			say = "它到底在等什麼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "总不会只是单纯为了把我支开几天，自己在全神贯注布局吧……",
+			say = "總不會只是單純為了把我支開幾天，自己在全神貫注佈局吧……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
 			soundeffect = "event:/ui/alarm",
-			say = "滴——（警报音）",
+			say = "滴——（警報音）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "似乎是聆听到了少女的心声，变故终于如期而至了。",
+			say = "似乎是聆聽到了少女的心聲，變故終於如期而至了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "突如其来的强烈冲击从四面八方袭来，转瞬间击碎了海伦娜早就准备好的诱饵目标。",
+			say = "突然出現強烈的衝擊從四面八方襲來，轉瞬間擊碎了海倫娜早就準備好的誘餌目標。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……就这点水平？",
+			say = "……就這點水平？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不对……原来如此，它的目标原本就不是塔，而是想扰乱空间，拖延我与实验场β恢复联系的时间么。",
+			say = "不對……原來如此，它的目標原本就不是塔，而是想擾亂空間，拖延我與實驗場β恢復連結的時間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "观察者，你那边处理好了没？",
+			say = "觀察者，妳那邊處理好了沒？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -241,7 +241,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我才刚选定主机塔的架设位置，哪有这么快！",
+			say = "我才剛選定主機塔的架設位置，哪有這麼快！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "也是，那先暂停吧。",
+			say = "也是，那先暫停吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你不会是想让我去打麦纪莎吧？",
+			say = "……妳不會是想讓我去打麥紀莎吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我？打仲裁机关……？真的假的？",
+			say = "我？打仲裁機關……？真的假的？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -297,7 +297,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……我的意思是让你快停机躲起来，别莫名其妙成了别人的傀儡。",
+			say = "……我的意思是讓妳快停機躲起來，別莫名其妙成為了別人的傀儡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "到时候我还得把你清理掉。",
+			say = "到時候我還得把妳清理掉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -325,7 +325,7 @@ return {
 			actor = 900232,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "嘶……告辞！",
+			say = "嘶……告辭！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "申请访问——安蒂克丝备份数据库仲裁机关系统资料库。",
+			say = "申請權限——安蒂克絲備份資料庫仲裁機關系統資料庫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "调用仲裁机关备份数据——IV号至XIV号——同步构建模拟机体。",
+			say = "呼叫仲裁機關備份資料——IV號至XIV號——同步建構模擬機體。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -404,7 +404,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "麦纪莎……早看你不顺眼了。",
+			say = "麥紀莎……早看妳不順眼了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -418,7 +418,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "接下来——该我出招了！",
+			say = "接下來——該我出招了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

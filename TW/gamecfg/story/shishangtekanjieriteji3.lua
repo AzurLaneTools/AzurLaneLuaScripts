@@ -38,7 +38,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
-			say = "敲响了{namecode:541:杜伊斯堡}所在的休息室的门。",
+			say = "敲響了杜伊斯堡所在的休息室的門。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			withoutPainting = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "指挥官？明明还没有到约定的时间……啊~就这么心急想要见到我么？哼哼~",
+			say = "指揮官？明明還沒到約定的時間……啊~就這麼心急想要見到我嗎？哼哼~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			withoutPainting = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "等、等等……这、这是……？！",
+			say = "等等、等等……這、這是……？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -111,7 +111,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:541:杜伊斯堡}骤然变得有些慌乱的语气让我有些担心，在直接推门而入后——",
+			say = "杜伊斯堡驟然變得有些慌亂的語氣讓我有些擔心，在直接推門而入後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_136",
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "指、指挥官，您怎么就进来了？",
+			say = "指、指揮官，您怎麼就進來了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:541:杜伊斯堡}有些拘谨地跪坐在柔软的沙发上，匆忙地垂眼掩饰其中的慌张。",
+			say = "杜伊斯堡有些拘謹地跪坐在柔軟的沙發上，匆忙地垂眼掩飾其中的慌張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "你没事吧？发生了什么？",
+			say = "妳沒事吧？發生了什麼事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "没什么，只是、嗯……只是我差点打翻了水杯而已。",
+			say = "沒什麼，只是、嗯……只是我差點打翻了水杯而已。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "尽管少女这样说了，但她的周围并没有任何水渍，也没有所谓的“水杯”。",
+			say = "儘管少女這樣說了，但她的周圍並沒有任何水漬，也沒有所謂的「水杯」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "（既然她不想直说……算了，暂且不问吧。）",
+			say = "（既然她不想直說……算了，暫且不問吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -225,7 +225,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "无关紧要的事情就让它过去吧。眼下还是正事要紧呢。",
+			say = "無關緊要的事情就讓它過去吧。眼下還是正事要緊呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "既然指挥官提前来了，那我们就快点开始今天的特训吧~？",
+			say = "既然指揮官提前來了，那我們就快點開始今天的特訓吧~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,7 +254,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "虽说答应陪你特训，但我其实还是不知道具体要陪你特训什么内容。",
+			say = "雖說答應陪妳特訓，但我其實還是不知道具體要陪你特訓什麼內容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -268,7 +268,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "嗯……主要想要特训一下“如何更好地服务主人”呢~",
+			say = "嗯……主要想要特訓一下「如何更好地服務主人」呢~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -282,7 +282,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "因为我还是第一次担任“服务生”这样的工作，还是有些没把握。",
+			say = "因為我還是第一次擔任「服務生」這樣的工作，還是有些沒把握。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "所以想着约指挥官来陪我特训的话，在店里我就能够更加得心应手一些吧~",
+			say = "所以想著約指揮官來陪我特訓的話，在店裡我就能夠更加得心應手一些吧~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "原来是这样，那就开始吧。",
+			say = "原來是這樣，那就開始吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -338,7 +338,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女轻轻呼出一口气，但身体似乎仍是僵硬着、没有松懈下来。",
+			say = "少女輕輕呼出一口氣，但身體似乎仍是僵硬、沒有鬆懈下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -352,7 +352,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "主、主人，欢迎回来，今天就由{namecode:541:杜伊斯堡}来服侍您~",
+			say = "主、主人，歡迎回來，今天就由杜伊斯堡來服事您~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -365,7 +365,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女不似平时那般游刃有余，有些不安地摩挲着自己的双臂。",
+			say = "少女不似平常那般游刃有餘，有些不安地摩挲著自己的雙臂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "淡色的红晕浮现在脸颊上，连耳朵都带上了粉色。",
+			say = "淡色的紅暈浮現在臉頰上，連耳朵都帶著粉紅色了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -391,7 +391,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "……不、不行，穿着这身衣服果然还是……！",
+			say = "……不、不行，穿著這身衣服果然還是……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -407,7 +407,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "（衣服？不过仔细一看的话，{namecode:541:杜伊斯堡}的这身衣服确实不像店中的制服……）",
+			say = "（衣服？不過仔細一看的話，杜伊斯堡的這套衣服確實不像店裡的制服……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -422,14 +422,14 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "（难道说……）",
+			say = "（難道說……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "{namecode:541:杜伊斯堡}穿错衣服了？",
+					content = "杜伊斯堡穿錯衣服了？",
 					flag = 1
 				}
 			}
@@ -443,7 +443,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "{namecode:541:杜伊斯堡}，你穿的不是店里的制服吧……？是穿错了么？",
+			say = "杜伊斯堡，妳穿的不是店裡的制服吧……？是穿錯了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -457,7 +457,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "果然这种程度瞒不过指挥官……",
+			say = "果然這種程度瞞不過指揮官…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -471,7 +471,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "这一身是准备以后再用到的衣服啦……！",
+			say = "這一套是準備以後再用到的衣服啦……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -485,7 +485,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "结果包装和店里的制服盒子太像，我就拿错了……",
+			say = "結果包裝和店裡的制服盒子太像，我就拿錯了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "不、不过，就算只有我和指挥官两个人……在外面穿成这样还是会害羞呀！",
+			say = "不、不過，就算只有我和指揮官兩個人……在外面穿成這樣還是會害羞呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -512,7 +512,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女的视线移向一边，故意避开了我的目光。",
+			say = "少女的視線移向一邊，故意避開了我的目光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "还有就是，这里也没有镜子，也不知道上身效果怎么样，如果不好看的话……",
+			say = "還有就是，這裡也沒有鏡子，也不知道上身效果怎麼樣，如果不好看的話……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,18 +540,18 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "我还是不希望您看见我不好看的一面呢……",
+			say = "我還是不希望您看見我不好看的一面呢……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "明明很适合你",
+					content = "明明很適合妳",
 					flag = 1
 				},
 				{
-					content = "穿在你身上非常好看",
+					content = "穿在妳身上非常好看",
 					flag = 2
 				}
 			}
@@ -566,7 +566,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "这身衣服明明很适合你，不用那么紧张。",
+			say = "這套衣服明明很適合妳，不用那麼緊張。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -582,7 +582,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "穿成这样的{namecode:541:杜伊斯堡}很好看。",
+			say = "穿成這樣的杜伊斯堡很好看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -598,7 +598,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "这件衣服穿在你身上非常好看。",
+			say = "這件衣服穿在妳身上非常好看。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,7 +644,7 @@ return {
 			hideRecordIco = true,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "如果还是很在意的话……我们可以先暂停特训，我陪你去把衣服换回来。",
+			say = "如果還是很在意的話……我們可以先暫停特訓，我陪妳去把衣服換回來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,7 +657,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "听指挥官您这么说，我突然感觉松了口气呢。",
+			say = "聽指揮官您這麼說，我突然覺得鬆了一口氣呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -671,7 +671,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "好像也不那么紧张了~？",
+			say = "好像也不那麼緊張了~？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -685,7 +685,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "至于特训……",
+			say = "至於特訓……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -698,7 +698,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "短暂的思考过后，{namecode:541:杜伊斯堡}轻轻地摇了摇头。",
+			say = "短暫的思考過後，杜伊斯堡輕輕搖了搖頭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -711,7 +711,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她一直紧紧环抱在身前的双手，也随着紧张情绪的消散，终于放松了下来。",
+			say = "她一直緊緊環抱在身前的雙手，也隨著緊張情緒的消散，終於放鬆了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -725,7 +725,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "既然主人您并不讨厌这身装扮……",
+			say = "既然主人您並不討厭這套裝扮……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -738,7 +738,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:541:杜伊斯堡}说着朝我的方向靠近了些，房间中暖色的灯光为她镀上了旖旎的光。",
+			say = "杜伊斯堡說著朝我的方向靠近了些，房間中暖色的燈光為她鍍上了旖旎的光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -752,7 +752,7 @@ return {
 			dir = 1,
 			actor = 402111,
 			nameColor = "#A9F548FF",
-			say = "那不如就让我以这样的姿态，继续服侍您吧~♥",
+			say = "那不如就讓我以這樣的姿態，繼續服侍您吧~♥",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

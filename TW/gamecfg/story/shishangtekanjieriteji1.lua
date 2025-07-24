@@ -43,7 +43,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_501",
-			say = "依照约定来到鲁梅设置的临时办公室后，被眼前的景象小小的震惊了一下。",
+			say = "依照約定來到魯梅設置的臨時辦公室後，被眼前的景像小小的震驚了一下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -56,7 +56,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "复古的装饰、长剑、猎枪、散落在地的道具纸钞……",
+			say = "復古的裝飾、長劍、獵槍、散落在地的道具紙鈔……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（说起来，之前她倒是一直在看黑帮电影，难道是电影看太多导致的……？）",
+			say = "（說起來，之前她倒是一直在看黑幫電影，難道是電影看太多導致的……？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			live2d = "main2",
 			dir = 1,
 			side = 2,
-			say = "坐吧，指挥官。",
+			say = "坐吧，指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -96,7 +96,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她的话语将我的思绪拉回，依言在她身旁坐下后，",
+			say = "她的話語將我的思緒拉回，依言在她身旁坐下後，",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她便从一旁的小几上拿起了一份文件递给了我。",
+			say = "她便從一旁的小桌上拿起了一份文件遞給了我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "指挥官，今天特地约你来，主要是想做个体验调研。",
+			say = "指揮官，今天特地約你來，主要是想做個體驗研究。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "体验调研？",
+			say = "體驗調查？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "嗯，毕竟店铺经营期间，由我担任这里的店长，也就是“Boss兔”。",
+			say = "嗯，畢竟店鋪經營期間，由我擔任這裡的店長，也就是「Boss兔」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -164,7 +164,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "关注唯一且重要的顾客的体验，也是我作为店长的本职工作。",
+			say = "關注唯一且重要的顧客的體驗，也是我身為店長的本職工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -179,7 +179,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "所以这份文件，是调研问卷么？",
+			say = "所以這份文件，是研究問卷嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +193,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不。这份文件是我草拟的新店规，我打算结合口头调研，征询你的意见和感受。",
+			say = "不。這份文件是我草擬的新店規，我打算結合口頭調查，徵詢你的意見和感受。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -206,7 +206,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "你可以看看是否到位……如果有不够严格的部分，我会立刻修改。",
+			say = "你可以看看是否到位……如果有不夠嚴格的部分，我會立刻修改。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -220,7 +220,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "面向你的一切必须精益求精。",
+			say = "面向你的一切必須精益求精。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -247,7 +247,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "打开这份草拟的新店规开始翻看后——",
+			say = "打開這份草擬的新店規開始翻看後——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -262,7 +262,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "上下班必须打卡，禁止以“迷路”和“太困了”作为理由迟到早退……？",
+			say = "上下班必須打卡，禁止以「迷路」和「太睏了」當理由遲到早退……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			live2d = "login",
 			dir = 1,
 			side = 2,
-			say = "我认为考勤问题是一店之本，如果员工不能按时到岗，就无法对指挥官提供服务。",
+			say = "我認為考勤問題是一店之本，如果員工不能準時到崗，就無法對指揮官提供服務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -290,7 +290,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那这一条，工作时间严格禁止展开与工作无关的活动的后面……",
+			say = "那這一條，工作時間嚴格禁止展開與工作無關的活動的後面……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "为什么还有个括号标注“无论是自愿还是非自愿”？",
+			say = "為什麼還有個括號標註「無論是自願或非自願」？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -319,7 +319,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "很简单，无论是主动摸鱼，还是因为其它特殊情况——比如和猫咪对峙而导致的招待不周……",
+			say = "很簡單，無論是主動摸魚，還是因為其它特殊情況——比如和貓咪對峙而導致的招待不周……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "都不应该在店内出现。前者完全不应该出现，后者完全可以通过向其他人求助从而摆脱困境。",
+			say = "都不應該在店內出現。前者完全不應該出現，後者完全可以透過向其他人求助而擺脫困境。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -344,7 +344,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "少女振振有辞，伴随着话语最后的尾音落下，她怀中的装饰剑的剑柄重重砸在了地毯上。",
+			say = "少女振振有辭，伴隨著話語最後的尾音落下，她懷中的裝飾劍的劍柄重重砸在了地毯上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "嗯……作为“规矩”来说，没什么问题。",
+			say = "嗯……作為「規矩」來說，沒什麼問題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过，我觉得更自由些、考虑到其他同伴的感受会更好。",
+			say = "不過，我覺得更自由、考慮到其他同伴的感受會更好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			live2d = "main3",
 			dir = 1,
 			side = 2,
-			say = "不行，宽松自由怎么能给你提供最好的服务！",
+			say = "不行，寬鬆自由怎麼能提供你最好的服務！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -402,7 +402,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "比起这个，我更希望你不那么紧绷。",
+			say = "比起這個，我更希望妳不要那麼緊繃。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -431,7 +431,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我希望你能够更重视自己的感受，就像你重视我的感受一样。",
+			say = "我希望妳能夠更重視自己的感受，就像妳重視我的感受一樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -444,7 +444,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "鲁梅的目光中罕见的染上了一丝茫然。",
+			say = "魯梅的目光中罕見的染上了一絲茫然。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我希望在我身边的你，不被任何“规矩”、“规则”所束缚。",
+			say = "我希望在我身邊的妳，不被任何「規矩」、「規則」束縛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "开心的、自由的，与我一同享受这段时光。",
+			say = "開心的、自由的，與我一同享受這段時光。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "少女的表情出现了细微的松动，一向处变不惊的眼中透着几分动摇。",
+			say = "少女的表情出現了細微的鬆動，一向處變不驚的眼中透著幾分動搖。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -499,7 +499,7 @@ return {
 			live2d = "mission",
 			dir = 1,
 			side = 2,
-			say = "你的意思是，希望我不那么严守纪律，而是去尝试享受这段时光？",
+			say = "你的意思是，希望我不要那麼嚴守紀律，而是去嘗試享受這段時光？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -514,7 +514,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "是的。而且……店规的事情我也希望你先放到一边，维持现状就好。",
+			say = "是的。而且……店規的事情我也希望妳先放到一邊，維持現狀就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -526,7 +526,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她思索片刻，长呼出一口气。",
+			say = "她思索片刻，長呼出一口氣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -539,7 +539,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "好，我会认真考虑你的意见的……",
+			say = "好，我會認真考慮你的意見的……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -553,7 +553,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不过……",
+			say = "不過……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -567,18 +567,18 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = "mission_complete",
-			say = "我应该怎么做会比较好？我不大擅长享受闲暇时光这种事情……",
+			say = "我該怎麼做會比較好？我不大擅長享受閒暇時光這種事……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "总之，先笑一个？",
+					content = "總之，先笑一個？",
 					flag = 1
 				},
 				{
-					content = "放飞自我吧！",
+					content = "放飛自我吧！",
 					flag = 2
 				}
 			}
@@ -593,7 +593,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "总之，先笑一个？从刚才开始，你的表情就一直很严肃。",
+			say = "總之，先笑一個？從剛才開始，妳的表情就一直很嚴肅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……我试试。",
+			say = "……我試試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -621,7 +621,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			optionFlag = 1,
-			say = "鲁梅有些僵硬地拉扯着唇角，笨拙得有些可爱。",
+			say = "魯梅有些僵硬地拉扯著唇角，笨拙得有些可愛。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -637,7 +637,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "不用考虑那么多，直接放飞自我就好！",
+			say = "不用考慮那麼多，直接放飛自我就好！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -652,7 +652,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……放飞自我？",
+			say = "……放飛自我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -668,7 +668,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我开玩笑的。",
+			say = "我開玩笑的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -683,7 +683,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "其实不用过多考虑我的建议。这种时候，做你自己想做的就好。",
+			say = "其實不用過度考慮我的建議。這種時候，做妳自己想做的就好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,7 +697,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "做我自己想做的？",
+			say = "做我自己想做的事？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -709,7 +709,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "鲁梅微微垂眸，罕见的、淡色的红晕飞上她素来清冷的脸颊。",
+			say = "魯梅微微垂眸，罕見的、淡色的紅暈飛上她素來清冷的臉頰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -721,7 +721,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "她紧绷端正的身体松懈下来，手自然而然地落于身侧，尾指与我轻轻相触。",
+			say = "她緊繃端正的身體鬆懈下來，手自然而然地落於身側，尾指與我輕輕相觸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			bgName = "star_level_bg_501",
 			live2d = true,
 			withoutActorName = true,
-			say = "指尖接触的瞬间，她轻轻颤动了一下，在短暂的停顿片刻过后，又勾住了我的手指。",
+			say = "指尖接觸的瞬間，她輕輕顫動了一下，在短暫的停頓片刻過後，又勾住了我的手指。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -747,7 +747,7 @@ return {
 			actor = 407041,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "那现在，我就暂时放下秩序与工作，只是陪伴在你身边，也是可以的吧？",
+			say = "那現在，我就暫時放下秩序與工作，只是陪伴在你身邊，也是可以的吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

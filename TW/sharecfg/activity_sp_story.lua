@@ -1868,7 +1868,7 @@ pg.activity_sp_story = {
 	},
 	[108] = {
 		story_type = 1,
-		name = "EP1-2 增进了解",
+		name = "EP1-2 增進了解",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-1",
 		change_background = "bg_yuhui_cg_1",
@@ -1887,7 +1887,7 @@ pg.activity_sp_story = {
 	},
 	[109] = {
 		story_type = 1,
-		name = "EP1-3 抵抗军的领袖",
+		name = "EP1-3 抵抗軍的領袖",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-2",
 		change_background = "bg_yuhui_cg_2",
@@ -1906,7 +1906,7 @@ pg.activity_sp_story = {
 	},
 	[110] = {
 		story_type = 1,
-		name = "EP1-4 落日下的基地",
+		name = "EP1-4 落日的基地",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-3",
 		change_background = "star_level_bg_597",
@@ -1925,7 +1925,7 @@ pg.activity_sp_story = {
 	},
 	[111] = {
 		story_type = 2,
-		name = "EP1-5 沉没于海",
+		name = "EP1-5 沉沒於海",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-4",
 		change_background = "bg_port_chongdong",
@@ -1944,7 +1944,7 @@ pg.activity_sp_story = {
 	},
 	[112] = {
 		story_type = 1,
-		name = "EPS1-1 遥远的博弈",
+		name = "EPS1-1 遙遠的博弈",
 		change_prefab = "",
 		unlock_conditions = "完成EP1-5",
 		change_background = "star_level_bg_111",
@@ -1963,7 +1963,7 @@ pg.activity_sp_story = {
 	},
 	[113] = {
 		story_type = 1,
-		name = "EPS1-2 四季花馆的准备",
+		name = "EPS1-2 四季花館的準備",
 		change_prefab = "",
 		unlock_conditions = "完成EPS1-1",
 		change_background = "star_level_bg_147",
@@ -2001,7 +2001,7 @@ pg.activity_sp_story = {
 	},
 	[115] = {
 		story_type = 1,
-		name = "EP2-1 第二次机会",
+		name = "EP2-1 第二次機會",
 		change_prefab = "",
 		unlock_conditions = "完成EPS1-3",
 		change_background = "bg_yuhui_1",
@@ -2022,7 +2022,7 @@ pg.activity_sp_story = {
 	},
 	[116] = {
 		story_type = 1,
-		name = "EP2-2 修复永恒之星",
+		name = "EP2-2 修復永恆之星",
 		change_prefab = "",
 		unlock_conditions = "完成EP2-1",
 		change_background = "bg_story_chuansong",
@@ -2060,7 +2060,7 @@ pg.activity_sp_story = {
 	},
 	[118] = {
 		story_type = 2,
-		name = "EP2-4 亡于猎杀",
+		name = "EP2-4 亡於獵殺",
 		change_prefab = "",
 		unlock_conditions = "完成EP2-3",
 		change_background = "bg_port_chongdong",
@@ -2079,7 +2079,7 @@ pg.activity_sp_story = {
 	},
 	[119] = {
 		story_type = 1,
-		name = "EPS2-1 间接定位法",
+		name = "EPS2-1 間接定位法",
 		change_prefab = "",
 		unlock_conditions = "完成EP2-4",
 		change_background = "star_level_bg_111",
@@ -2098,7 +2098,7 @@ pg.activity_sp_story = {
 	},
 	[120] = {
 		story_type = 1,
-		name = "EPS2-2 关于指挥官的事",
+		name = "EPS2-2 關於指揮官的事",
 		change_prefab = "",
 		unlock_conditions = "完成EPS2-1",
 		change_background = "star_level_bg_147",
@@ -2117,7 +2117,7 @@ pg.activity_sp_story = {
 	},
 	[121] = {
 		story_type = 1,
-		name = "EPS2-3 思考与探讨",
+		name = "EPS2-3 思考與探討",
 		change_prefab = "",
 		unlock_conditions = "完成EPS2-2",
 		change_background = "bg_story_chuansong",
@@ -2136,7 +2136,7 @@ pg.activity_sp_story = {
 	},
 	[122] = {
 		story_type = 1,
-		name = "EP3-1 提前准备",
+		name = "EP3-1 提前準備",
 		change_prefab = "",
 		unlock_conditions = "完成EPS2-3",
 		change_background = "bg_yuhui_3",
@@ -2195,7 +2195,7 @@ pg.activity_sp_story = {
 	},
 	[125] = {
 		story_type = 1,
-		name = "EPS3-1 阵中寻踪",
+		name = "EPS3-1 陣尋蹤",
 		change_prefab = "",
 		unlock_conditions = "完成EP3-3",
 		change_background = "star_level_bg_147",
@@ -2214,7 +2214,7 @@ pg.activity_sp_story = {
 	},
 	[126] = {
 		story_type = 1,
-		name = "EPS3-2 可能性的极限",
+		name = "EPS3-2 可能性的極限",
 		change_prefab = "",
 		unlock_conditions = "完成EPS3-1",
 		change_background = "bg_yuhui_3",
@@ -2233,7 +2233,7 @@ pg.activity_sp_story = {
 	},
 	[127] = {
 		story_type = 1,
-		name = "EP4-1 全力备战",
+		name = "EP4-1 全戰",
 		change_prefab = "",
 		unlock_conditions = "完成EPS3-2",
 		change_background = "bg_yuhui_cg_6",
@@ -2253,7 +2253,7 @@ pg.activity_sp_story = {
 	},
 	[128] = {
 		story_type = 2,
-		name = "EP4-2 功亏一篑",
+		name = "EP4-2 功虧一簣",
 		change_prefab = "",
 		unlock_conditions = "完成EP4-1",
 		change_background = "bg_yuhui_4",
@@ -2291,7 +2291,7 @@ pg.activity_sp_story = {
 	},
 	[130] = {
 		story_type = 1,
-		name = "EPS4-2 于此刻相连",
+		name = "EPS4-2 於此刻相連",
 		change_prefab = "",
 		unlock_conditions = "完成EPS4-1",
 		change_background = "bg_yuhui_3",
@@ -2310,7 +2310,7 @@ pg.activity_sp_story = {
 	},
 	[131] = {
 		story_type = 1,
-		name = "EP5-1 另一个计划",
+		name = "EP5-1 另一個計劃",
 		change_prefab = "",
 		unlock_conditions = "完成EPS4-2",
 		change_background = "star_level_bg_499",
@@ -2330,7 +2330,7 @@ pg.activity_sp_story = {
 	},
 	[132] = {
 		story_type = 1,
-		name = "EP5-2 随心而变",
+		name = "EP5-2 隨心而變",
 		change_prefab = "",
 		unlock_conditions = "完成EP5-1",
 		change_background = "bg_yuhui_cg_7",
@@ -2349,7 +2349,7 @@ pg.activity_sp_story = {
 	},
 	[133] = {
 		story_type = 2,
-		name = "EP5-3 并肩而行",
+		name = "EP5-3 並肩而行",
 		change_prefab = "",
 		unlock_conditions = "完成EP5-2",
 		change_background = "bg_yuhui_cg_11",
@@ -2387,7 +2387,7 @@ pg.activity_sp_story = {
 	},
 	[135] = {
 		story_type = 1,
-		name = "EP5-5 尾声",
+		name = "EP5-5 尾聲",
 		change_prefab = "",
 		unlock_conditions = "完成EP5-4",
 		change_background = "bg_port_chongdong",
@@ -2425,7 +2425,7 @@ pg.activity_sp_story = {
 	},
 	[137] = {
 		story_type = 1,
-		name = "EX-2 分别，而后走向未来",
+		name = "EX-2 分別，而後走向未來",
 		change_prefab = "",
 		unlock_conditions = "完成EX-1",
 		change_background = "star_level_bg_589",
@@ -2463,7 +2463,7 @@ pg.activity_sp_story = {
 	},
 	[139] = {
 		story_type = 1,
-		name = "EX-4 受选之人",
+		name = "EX-4 受選之人",
 		change_prefab = "",
 		unlock_conditions = "完成EX-3",
 		change_background = "bg_yuhui_2",

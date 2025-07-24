@@ -15,7 +15,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = "login",
-			say = "指挥官，选张唱片放上吧，要好听点的。",
+			say = "指揮官，選張唱片放上吧，要好聽點的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -45,7 +45,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "刚回到休息室就立刻躺倒在单人沙发上的{namecode:480:埃吉尔}，开始了新一轮的“使唤”。",
+			say = "剛回到休息室就立刻躺倒在單人沙發上的埃吉爾，開始了新一輪的「使喚」。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "放上了唱片，待悠扬的旋律响起后，我走到了咖啡机旁。",
+			say = "放上了唱片，待悠揚的旋律響起後，我走到了咖啡機旁。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -88,7 +88,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "（等下还有工作要处理，就来杯黑咖提神吧。）",
+			say = "（等下還有工作要處理，就來杯黑咖啡提神吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "就在接好了咖啡，准备开口问{namecode:480:埃吉尔}要不要也来一杯时——",
+			say = "就在接好了咖啡，準備開口問埃吉爾要不要也來一杯時——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -143,7 +143,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "无奈地将手中的黑咖调成{namecode:480:埃吉尔}需要的口味，放到她身旁的小几上后。",
+			say = "無奈地將手中的黑咖調成埃吉爾需要的口味，放到她身旁的小幾上後。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = "headtouch",
-			say = "指挥官。",
+			say = "指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:480:埃吉尔}的声音再度落入耳中，伴随而来的，还有落在我膝盖上的、如同白玉雕琢的脚。",
+			say = "埃吉爾的聲音再度落入耳中，伴隨而來的，還有落在我膝蓋上的、如同白玉雕琢的腳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -183,7 +183,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她不知何时踢掉了一只脚上的高跟鞋，此刻正用脚尖不轻不重地点着我的膝盖。",
+			say = "她不知何時踢掉了一隻腳上的高跟鞋，此刻正用腳尖不輕不重地點著我的膝蓋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "怎么了？",
+			say = "怎麼了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "没怎么，我只是在想，指挥官居然全程这么“听话”……",
+			say = "沒怎麼，我只是在想，指揮官居然全程這麼「聽話」……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -226,7 +226,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "呵呵呵呵，莫非这次是折服在深渊之神的威光之下了么。",
+			say = "呵呵呵呵，莫非這次是折服在深淵之神的威光之下了嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -254,18 +254,18 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "见我无动于衷，{namecode:480:埃吉尔}更加肆无忌惮，足尖沿着我的腿游移向上，颇有些挑衅的意味。",
+			say = "見我無動於衷，埃吉爾更加肆無忌憚，足尖沿著我的腿游移向上，頗有些挑釁的意味。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "抓住她的脚踝",
+					content = "抓住她的腳踝",
 					flag = 1
 				},
 				{
-					content = "制止{namecode:480:埃吉尔}",
+					content = "制止埃吉爾",
 					flag = 2
 				}
 			}
@@ -277,7 +277,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "抓住了{namecode:480:埃吉尔}的脚踝，让她不再乱动。",
+			say = "抓住了埃吉爾的腳踝，讓她不再亂動。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -310,7 +310,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "放、放开！",
+			say = "放、放開！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -323,7 +323,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:480:埃吉尔}窘迫而慌乱地出声，试图把脚缩回去。",
+			say = "埃吉爾窘迫而慌亂地出聲，試圖把腳縮回去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -337,7 +337,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我、我不戏弄你了！松手……呀！",
+			say = "我、我不戲弄你了！放手……呀！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -350,7 +350,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "看到{namecode:480:埃吉尔}这副模样，我松开了抓住她脚踝的手。",
+			say = "看到埃吉爾這副模樣，我鬆開了抓住她腳踝的手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -363,7 +363,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:480:埃吉尔}迅速将脚收了回去，红着脸别开了眼。",
+			say = "埃吉爾迅速將腳收了回去，紅著臉別開了眼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -376,7 +376,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "像是为了缓解刚刚的尴尬，小啜一口咖啡后，她再度开了口。",
+			say = "像是為了緩解剛剛的尷尬，小啜一口咖啡後，她再度開了口。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……你一直站在那里不累么？过来坐着！",
+			say = "……你一直站在那裡不累嗎？過來坐著！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -403,7 +403,7 @@ return {
 			live2d = true,
 			dir = 1,
 			side = 2,
-			say = "你看，我位置都给你腾好了。",
+			say = "你看，我位置都挪出一些給你了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,18 +416,18 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "她逞强似的拍了拍身边那一块小小的空位。",
+			say = "她逞強似的拍了拍身邊那一塊小小的空位。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "到沙发上坐下",
+					content = "到沙發上坐下",
 					flag = 1
 				},
 				{
-					content = "沙发是不是太小了？",
+					content = "沙發是不是太小了？",
 					flag = 2
 				}
 			}
@@ -442,7 +442,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "这是单人沙发，是不是有点太小了？两个人挤在一起，可能你会不舒服。",
+			say = "這是單人沙發，是不是有點太小了？兩個人擠在一起，可能妳會不舒服。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -458,7 +458,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我还是……",
+			say = "我還是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -472,7 +472,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "我都不在意这些，你在意什么！",
+			say = "我都不在意這些，你在乎什麼！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -487,7 +487,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "别不动了！快过来！",
+			say = "別不動了！快過來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -500,7 +500,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "起身靠近{namecode:480:埃吉尔}，她红着脸，目光游离地往沙发内侧靠了靠。",
+			say = "起身靠近埃吉爾，她紅著臉，目光遊離地往沙發內側靠了靠。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -513,7 +513,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "由于单人沙发的空间狭窄，彼此的身体只能紧密相贴。",
+			say = "由於單人沙發的空間狹窄，彼此的身體只能緊密相貼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -527,7 +527,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "算、算了……你被我使唤了这么久，还是你坐着，我起来吧！",
+			say = "算、算了……你被我使喚了這麼久，還是你坐著，我起來吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -540,7 +540,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "少女说着，有些慌张地起身，却因过于慌乱而失去平衡。",
+			say = "少女說著，有些慌張地起身，卻因過於慌亂而失去平衡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -568,7 +568,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "柔软而温暖的身体狼狈地落入了我的怀中。",
+			say = "柔軟而溫暖的身體狼狽地落入了我的懷抱。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -581,7 +581,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她的长发垂落，轻柔地扫过我的鼻端，带来一阵若有似无的幽香。",
+			say = "她的長髮垂落，輕輕地掃過我的鼻端，帶來一陣若有似無的幽香。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -596,7 +596,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "……呜！？",
+			say = "……嗚！？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -609,7 +609,7 @@ return {
 			live2d = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她埋在我的怀中，用羞怯、不甘的声音自暴自弃。",
+			say = "她埋在我的懷抱中，用羞怯、不甘心的聲音自暴自棄。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -623,7 +623,7 @@ return {
 			actor = 499053,
 			nameColor = "#A9F548FF",
 			live2d = true,
-			say = "仅此一次……就这样吧！",
+			say = "僅此一次……就這樣吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

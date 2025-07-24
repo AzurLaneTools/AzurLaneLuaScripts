@@ -1,7 +1,6 @@
 pg = pg or {}
 pg.activity_banner = {
 	{
-		time = "stop",
 		type = 2,
 		id = 1,
 		pic = "temp1",
@@ -10,21 +9,13 @@ pg.activity_banner = {
 			{
 				wrap = 2
 			}
-		}
-	},
-	{
-		type = 2,
-		id = 2,
-		pic = "temp2",
-		param = {
-			"dorm 3d select"
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -36,7 +27,41 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp2",
+		param = {
+			"scene skinshop"
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
 				},
 				{
 					23,
@@ -51,14 +76,17 @@ pg.activity_banner = {
 		id = 3,
 		pic = "temp3",
 		param = {
-			"scene level"
+			"scene charge",
+			{
+				wrap = 2
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -70,7 +98,7 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					6
 				},
 				{
 					23,
@@ -102,10 +130,10 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					7
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -134,10 +162,10 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					7
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -145,16 +173,22 @@ pg.activity_banner = {
 		}
 	},
 	{
-		param = "5698",
-		type = 3,
+		type = 2,
 		id = 6,
 		pic = "temp6",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -166,10 +200,10 @@ pg.activity_banner = {
 				{
 					2025,
 					8,
-					13
+					7
 				},
 				{
-					23,
+					14,
 					59,
 					59
 				}
@@ -186,7 +220,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					3
+					24
 				},
 				{
 					0,
@@ -197,8 +231,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					17
+					8,
+					7
 				},
 				{
 					14,
@@ -213,17 +247,14 @@ pg.activity_banner = {
 		id = 8,
 		pic = "temp8",
 		param = {
-			"scene shop",
-			{
-				warp = "shopstreet"
-			}
+			"scene court yard"
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					3
+					24
 				},
 				{
 					0,
@@ -234,8 +265,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					16
+					8,
+					6
 				},
 				{
 					23,
@@ -287,7 +318,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					3
+					24
 				},
 				{
 					0,
@@ -298,8 +329,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					16
+					8,
+					6
 				},
 				{
 					23,
@@ -333,7 +364,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					3
+					24
 				},
 				{
 					0,
@@ -344,8 +375,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					16
+					8,
+					6
 				},
 				{
 					23,
@@ -427,7 +458,7 @@ pg.activity_banner = {
 	},
 	[202] = {
 		param = "",
-		time = "always",
+		time = "stop",
 		type = 13,
 		id = 202,
 		pic = "winter"
@@ -441,7 +472,7 @@ pg.activity_banner = {
 	},
 	[204] = {
 		param = "",
-		time = "stop",
+		time = "always",
 		type = 13,
 		id = 204,
 		pic = "summer"
@@ -549,7 +580,8 @@ pg.activity_banner = {
 		param = {
 			"scene get boat",
 			{
-				projectName = "new"
+				projectName = "new",
+				page = 1
 			}
 		}
 	},
@@ -718,6 +750,7 @@ pg.activity_banner = {
 			1,
 			2,
 			3,
+			6,
 			8,
 			1000,
 			1001,
@@ -746,7 +779,6 @@ pg.activity_banner = {
 		[3] = {
 			4,
 			5,
-			6,
 			7,
 			9,
 			1003

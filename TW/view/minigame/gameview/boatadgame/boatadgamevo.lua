@@ -9,6 +9,7 @@ slot0.rule_tip = "BoatAdGame_minigame_help"
 slot0.frameRate = Application.targetFrameRate or 60
 slot0.ui_atlas = "ui/minigameui/boatadgameui_atlas"
 slot0.game_ui = "BoatAdGameUI"
+slot0.game_room_ui = "GameRoomBoatAdUI"
 slot0.SFX_COUNT_DOWN = "event:/ui/ddldaoshu2"
 slot0.SFX_SOUND_SHIBAI = "event:/ui/shibai"
 slot0.SFX_SOUND_GREAT = "event:/ui/mini_great"

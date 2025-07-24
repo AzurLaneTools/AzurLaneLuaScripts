@@ -286,11 +286,17 @@ slot3.Charge = function(slot0, slot1)
 
 	slot0._chargingList[#slot0._chargingList + 1] = slot1
 
+	table.sort(slot0._chargingList, function (slot0, slot1)
+		return slot0:GetReloadFinishTimeStamp() < slot1:GetReloadFinishTimeStamp()
+	end)
+
 	if #slot0._readyList == 0 then
 		slot0._max = math.max(slot0._GCD, slot0:GetNextTimeStamp() - pg.TimeMgr.GetInstance():GetCombatTime())
 
 		slot0:resetCurrent()
 	end
+
+	slot0:DispatchCountChange()
 end
 
 slot3.ReloadBoost = function(slot0, slot1, slot2)

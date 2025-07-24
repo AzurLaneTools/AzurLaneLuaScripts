@@ -12,7 +12,7 @@ return {
 			bgm = "theme-starbeast",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天空之上，蓝色的星光冷漠地俯瞰着。",
+			say = "天空之上，藍色的星光冷漠的俯瞰著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -44,7 +44,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "没想到真的出现了……主宰级天外之兽。",
+			say = "沒想到真的出現了……主宰級天外之獸。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "镜面海域屏障正在发生变化，看来{playername}阁下的想法也成功了。",
+			say = "鏡面海域屏障正在發生變化，看來{playername}閣下的想法也成功了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 401090,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……真的能撑得住么。",
+			say = "……真的撐得住嗎。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -89,7 +89,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们无路可退，唯有全力一战。",
+			say = "我們無路可退，唯有全力一戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -100,7 +100,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_yuhui_cg_3",
-			say = "无数根触手如同缝合线，连接着天空与大海，试图将二者间的距离一寸寸拉近。",
+			say = "無數根觸手如同縫合線，連接著天空與大海，試圖將二者間的距離一寸寸拉近。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -128,7 +128,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "然而永恒之星向高空射出密集的弹幕，残破的触手碎片如同冰雹般崩落。",
+			say = "然而永恆之星向高空射出密集的彈幕，殘破的觸手碎片如同冰雹般崩落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,7 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_3",
 			hidePaintObj = true,
-			say = "一阵又一阵奇异的响声传来，但其蕴含的能量都被一层不可见的屏障阻挡在外。",
+			say = "一陣又一陣奇異的響聲傳來，但其蘊含的能量都被一層不可見的屏障所阻擋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "看来计划有效。",
+			say = "看來計劃有效。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -180,7 +180,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵……你这东西也有今天，不是一向无往不利么？",
+			say = "呵……你這東西也有今天，不是一向無往不利嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -194,7 +194,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "终于有报仇的机会了……",
+			say = "終於有報仇的機會了……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -209,7 +209,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{namecode:426:希佩尔}，别冲动，按计划行事。",
+			say = "希佩爾，別衝動，按計畫行事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "不过……屏障未必能拦住它。",
+			say = "不過……屏障未必能攔住它。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -252,7 +252,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "多撑一时，就多一分胜算。",
+			say = "多撐一時，就多一分勝算。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "集中火力攻击那些触手，延缓星之兽的降临！",
+			say = "集中火力攻擊那些觸手，延緩星之獸的降臨！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

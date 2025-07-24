@@ -10,7 +10,13 @@ slot6 = slot1.UnitDir.RIGHT
 
 slot4.CreateBattleBulletData = function(slot0, slot1, slot2, slot3, slot4)
 	slot5 = uv0.GetBulletTmpDataFromID(slot1)
-	slot7, slot8 = uv0.generateBulletFuncs[slot5.type](slot0, slot5, slot2, slot3, slot4)
+	slot6 = slot5.type
+
+	if slot5.extra_param.currentdrop then
+		slot4 = slot2:GetPosition()
+	end
+
+	slot7, slot8 = uv0.generateBulletFuncs[slot6](slot0, slot5, slot2, slot3, slot4)
 
 	slot7:SetTemplateData(slot5)
 	slot7:SetAttr(slot2._attr)

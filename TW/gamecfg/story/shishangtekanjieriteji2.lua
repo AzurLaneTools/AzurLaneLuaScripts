@@ -11,7 +11,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			bgm = "story-nonightcity",
-			say = "接到了{namecode:540:Z52}确认位置的来电后，刚走到电梯井就看见她风风火火跑出来的身影。",
+			say = "接到了Z52確認位置的來電後，剛走到電梯井就看見她風風火火跑出來的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -41,7 +41,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "她一手拿着正与我通话的手机，一手拉扯着滑落的袜子。",
+			say = "她一手拿著正與我通話的手機，一手拉扯著滑落的襪子。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -54,7 +54,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "指挥官，我出电梯……",
+			say = "指揮官，我出電梯……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "……啊！指挥官你来接我啦！",
+			say = "……啊！指揮官你來接我啦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "发现我的到来后，她挂断了电话，欢快地招手。",
+			say = "發現我的到來後，她掛斷了電話，歡快地招手。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "而随着她抬手的动作，少女身前的衣物骤然失去了夹紧的作用力，开始了滑落。",
+			say = "而隨著她抬手的動作，少女身前的衣物驟然失去了夾緊的作用力，開始了滑落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -132,7 +132,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "指挥官，等等哦！我、我找一下防滑贴……",
+			say = "指揮官，等等哦！我、我找一下防滑貼……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,7 +145,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "咦……我放哪儿了？明明就是因为跑去买这个才快迟到的……怎么找不到了？",
+			say = "咦……我放哪裡了？明明就是因為跑去買這個才快遲到的……怎麼找不到了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "我来帮你找？",
+			say = "我來幫妳找？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,7 +174,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "哎呀不用不用，本来就让你等了我这么久！",
+			say = "哎呀不用不用，本來就讓你等了我這麼久！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			spine = true,
 			dir = 1,
 			side = 2,
-			say = "没想到这身衣服这么不防滑……早知道就先试穿一下了！",
+			say = "沒想到這身衣服這麼不防滑……早知道就先試穿一下了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -201,7 +201,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "今天穿着的时候就一直感觉它往下掉，再加上赶过来的时候~风呼呼的——",
+			say = "今天穿著的時候就一直感覺它往下掉，再加上趕過來的時候~風呼呼的——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -214,18 +214,18 @@ return {
 			withoutActorName = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "{namecode:540:Z52}分享着此前的经历，手上翻找的动作也跟着停了下来。",
+			say = "Z52分享著先前的經歷，手上翻找的動作也跟著停了下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			options = {
 				{
-					content = "不如先把防滑贴找出来？",
+					content = "不如先把防滑貼找出來？",
 					flag = 1
 				},
 				{
-					content = "先把手上的东西给我吧？",
+					content = "先把手上的東西給我吧？",
 					flag = 2
 				}
 			}
@@ -240,7 +240,7 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "不如先把防滑贴找出来，把衣服粘好，我们再继续聊？",
+			say = "不如先把防滑貼找出來，把衣服黏好，我們再繼續聊？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -255,7 +255,7 @@ return {
 			optionFlag = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "噢！对噢！我已经翻到了！",
+			say = "噢！對噢！我已經翻到了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -269,7 +269,7 @@ return {
 			optionFlag = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "我来粘一下……",
+			say = "我來黏一下……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -285,7 +285,7 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "把手上的东西也给我吧？我帮你拿着。",
+			say = "把手上的東西也給我吧？我幫妳拿著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -301,7 +301,7 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "先把手上的东西给我吧？我帮你拿着，这样你找防滑贴也方便。",
+			say = "先把手上的東西給我吧？我幫妳拿著，這樣妳找防滑貼也方便。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "总之把衣服处理好再说吧。",
+			say = "總之把衣服處理好再說吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			optionFlag = 2,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "防滑贴我已经找到了~！不过既然指挥官要帮我拿东西嘛，那就……",
+			say = "防滑貼我已經找到~了！不過既然指揮官要幫我拿東西嘛，那就……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "欸嘿嘿~谢谢指挥官！",
+			say = "欸嘿嘿~謝謝指揮官！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,7 +359,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:540:Z52}将手提袋递给了我，开始在袜子与衣服的内侧粘贴着防滑贴。",
+			say = "Z52將手提袋地遞給了我，開始在襪子與衣服的內側貼上防滑貼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -372,7 +372,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "原本有些松垮的黑色布料被防滑贴粘牢，在少女的肌肤上勒出浅浅的痕迹。",
+			say = "原本有些鬆垮的黑色布料被防滑貼黏牢，在少女的肌膚上勒出淺淺的痕跡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:540:Z52}原地跳了跳，确认衣物不再滑落后，露出了明媚的笑容。",
+			say = "Z52原地跳了跳，確認衣物不再滑落後，露出了明媚的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "没问题了，指挥官，我们快去店里玩吧！",
+			say = "沒問題了，指揮官，我們快去店裡玩吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "把被我迟到浪费掉的时间全都补回来！",
+			say = "把被我遲到浪費掉的時間全都補回來！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "好，刚才我已经用手机提前下好单，给你点好了蛋糕和饮品了。",
+			say = "好，剛才我已經用手機提前下好單，幫妳點了蛋糕和飲料了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -456,7 +456,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "好耶~！指挥官，我们快跑步前进——！",
+			say = "好耶~！指揮官，我們快跑前進——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -469,7 +469,7 @@ return {
 			spine = true,
 			withoutActorName = true,
 			side = 2,
-			say = "{namecode:540:Z52}抓过我的手，带着大大咧咧的笑容拉着我向前跑去。",
+			say = "Z52抓過我的手，帶著大大咧咧的笑容拉著我向前跑去。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -483,7 +483,7 @@ return {
 			dir = 1,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "大家开的店是这个方向吧，指挥官？",
+			say = "大家開的店是這個方向吧，指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -498,7 +498,7 @@ return {
 			hideRecordIco = true,
 			actor = 401521,
 			nameColor = "#A9F548FF",
-			say = "咳，其实是那边。",
+			say = "咳，其實是那邊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

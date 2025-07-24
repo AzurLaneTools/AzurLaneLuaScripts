@@ -13,7 +13,7 @@ return {
 			bgm = "main-christmas",
 			actor = 0,
 			nameColor = "#A9F548FF",
-			say = "……{namecode:435:俾斯麦}？",
+			say = "……俾斯麥？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "踏入用于暂时存放礼物的、原本应该无人的房间后，看到了熟悉的身影。",
+			say = "踏入用於暫時存放禮物的、原本應該無人的房間後，看到了熟悉的身影。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -53,7 +53,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "指挥官，你怎么过来了？！",
+			say = "指揮官，你怎麼過來了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -63,7 +63,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "{namecode:435:俾斯麦}露出了错愕的神情，咬着的头绳也因为她开口说话而滑落。",
+			say = "俾斯麥露出了錯愕的神情，咬著的頭繩也因為她開口說話而滑落。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -75,7 +75,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我原本是过来拆礼物的，不过现在是不是不大方便……？我先出去？",
+			say = "我原本是來拆禮物的，不過現在是不是不大方便……？我先出去？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "这里本来就是指挥官用来存放礼物的房间，没跟你提前打招呼，是我的失误。",
+			say = "這裡本來就是指揮官用來存放禮物的房間，沒跟你事先打招呼，是我的失誤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（“忘记提前打招呼”这种失误，在{namecode:435:俾斯麦}身上不可能发生……）",
+			say = "（「忘記提前打招呼」這種失誤，在俾斯麥身上不可能發生…）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（是她想偷偷进来放礼物，结果被我撞破了么……）",
+			say = "（是她想偷偷進來放禮物，結果被我撞破了……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -150,7 +150,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "看指挥官的表情，是觉得撞破了我为你准备的惊喜么？",
+			say = "看指揮官的表情，是覺得撞破了我為你準備的驚喜呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -162,7 +162,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……还真是瞒不过你。",
+			say = "……還真是瞞不過妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -175,7 +175,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "呵呵，我也想说同样的话。",
+			say = "呵呵，我也想說同樣的話。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -187,7 +187,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "不过虽然这样一来会影响你的准备，但……",
+			say = "不過雖然這樣一來會影響你的準備，但……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "既然我已经在这里了，你可以把礼物亲手交给我？",
+			say = "既然我已經在這裡了，妳可以把禮物親手交給我？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -212,7 +212,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "亲、亲手交给你……？",
+			say = "親、親手交給你……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -222,7 +222,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "她欲言又止，脸颊染上了红晕，向我投来的目光难得带着些许羞怯和无措。",
+			say = "她欲言又止，臉頰染上了紅暈，向我投來的目光難得帶著些許羞怯和無措。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "其实我是想将自己作为……",
+			say = "其實我是想將自己當作……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,7 +245,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "{namecode:435:俾斯麦}将头侧到了一遍，顺着她偏移的视线，我这才注意到被她压在身下的礼物包装纸。",
+			say = "俾斯麥將頭側到了一遍，順著她偏移的視線，我這才注意到被她壓在身下的禮物包裝紙。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -257,7 +257,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "难道说……礼物就是{namecode:435:俾斯麦}自己么？",
+			say = "難道說……禮物就是俾斯麥自己嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -270,7 +270,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "咳……这其实是{namecode:428:欧根}的建议。",
+			say = "咳……這其實是歐根的建議。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -283,7 +283,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "她说在这种节日，如果不擅表现感情，那就更应该多用行动来展示……我采纳了。",
+			say = "她說在這種節日，如果不擅表現感情，那就更應該多用行動來展示……我採納了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -293,7 +293,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "少女垂下眼帘，少见的有些局促。",
+			say = "少女垂下眼簾，少見的有些局促。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "她伸手将身旁的酒杯稍稍推远了些。在发现我的视线后，她便开始了解释。",
+			say = "她伸手將身旁的酒杯稍稍推遠了些。在發現我的視線後，她便開始了解釋。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "毕竟是第一次做这样的事，我就喝了点，想借着醉意表现得更自然些。",
+			say = "畢竟是第一次做這樣的事，我就喝了點，想藉著醉意表現得更自然些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -329,7 +329,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "不过好像用处也不大……",
+			say = "不過好像用處也不大……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "并不是这样。",
+			say = "並不是這樣。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "指挥官？",
+			say = "指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -366,7 +366,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "“惊喜行动”在过程上因为我的突然出现失败了，但就结果而言，还是成功的。",
+			say = "「驚喜行動」在過程上因為我的突然出現而失敗了，但就結果而言，還是成功的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -378,7 +378,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "{namecode:435:俾斯麦}的心意，我已经收到了，谢谢你。",
+			say = "俾斯麥的心意，我已經收到了，謝謝妳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -390,7 +390,7 @@ return {
 			bgName = "star_level_bg_151",
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "在这样难得的节日里，与你在一起，便是一种惊喜。",
+			say = "在這樣難得的節日里，與妳在一起，便是一種驚喜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "{namecode:435:俾斯麦}的眼眸渐渐被点亮，然后露出了欣喜而温柔的笑容。",
+			say = "俾斯麥的眼眸漸漸被點亮，然後露出了欣喜而溫柔的笑容。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "窗外火树银花，映在她身后的落地窗中。",
+			say = "窗外火樹銀花，映在她身後的落地窗。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -420,7 +420,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "——却不及少女靠近我时，眸中闪烁的光彩。",
+			say = "——卻不如少女靠近我時，眸中閃爍的光彩。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -430,7 +430,7 @@ return {
 			side = 2,
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_151",
-			say = "轻柔的呼吸落在耳畔。",
+			say = "輕柔的呼吸落在耳畔。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -443,7 +443,7 @@ return {
 			side = 2,
 			dir = 1,
 			actor = 405013,
-			say = "指挥官，圣诞快乐。",
+			say = "指揮官，聖誕快樂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

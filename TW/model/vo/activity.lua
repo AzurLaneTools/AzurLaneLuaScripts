@@ -654,6 +654,9 @@ slot0.readyToAchieve = function(slot0)
 		end,
 		[ActivityConst.ACTIVITY_TYPE_SKIN_COUPON_COUNTING] = function (slot0)
 			return slot0:getData1() > 0
+		end,
+		[ActivityConst.ACTIVITY_TYPE_DAILY_STAGE_BONUS] = function (slot0)
+			return slot0:NeedLoginRedPoint()
 		end
 	}
 
@@ -1025,6 +1028,26 @@ end
 
 slot0.IsActivityReady = function(slot0)
 	return slot0 and not slot0:isEnd() and slot0:readyToAchieve()
+end
+
+slot0.NeedLoginRedPoint = function(slot0)
+	return PlayerPrefs.GetString(slot0:GetLoginRedPointKey(), "") ~= slot0:GetLoginRedPointValue()
+end
+
+slot0.SetLoginRedPoint = function(slot0)
+	PlayerPrefs.SetString(slot0:GetLoginRedPointKey(), slot0:GetLoginRedPointValue())
+end
+
+slot0.GetLoginRedPointValue = function(slot0)
+	return pg.TimeMgr.GetInstance():STimeDescC(pg.TimeMgr.GetInstance():GetServerTime(), "%Y/%m/%d")
+end
+
+slot0.GetLoginRedPointKey = function(slot0)
+	return string.format("%s_%s", slot0:GetPlayerID(), slot0.id)
+end
+
+slot0.GetPlayerID = function(slot0)
+	return getProxy(PlayerProxy):getPlayerId()
 end
 
 return slot0

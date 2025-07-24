@@ -12,7 +12,7 @@ return {
 			bgm = "story-ironblood-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "理应瓦解天地万物的光束终于遇到了对手，一股更加柔和的力量正在一寸寸将其中和着。",
+			say = "理應瓦解天地萬物的光束終於遇到了對手，一股更加柔和的力量正在一寸寸將其中和著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "天地在此刻无声，万物在此刻沉寂。",
+			say = "天地在此刻無聲，萬物在此刻沉寂。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_1104",
 			hidePaintObj = true,
-			say = "就这样过了许久——",
+			say = "就這樣過了許久——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_yuhui_2",
-			say = "终于，光芒逐渐消散，星之兽也随之一同消失了。",
+			say = "終於，光芒逐漸消散，星之獸也隨之一同消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -92,7 +92,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "我们……胜利了？",
+			say = "我們……勝利了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -107,7 +107,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "完美胜利哦。",
+			say = "完美勝利哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 403020,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "吼呀~姐妹同心，其利断金！",
+			say = "吼呀~姊妹同心，其利斷金！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -135,7 +135,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "简直像做梦一样……我们胜利了啊。",
+			say = "簡直像做夢一樣……我們勝利了啊。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -148,7 +148,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "{namecode:450:布吕歇尔}，{namecode:428:欧根}……？！你们这是……复活了么？！",
+			say = "布呂歇爾，歐根…？！妳們這是……復活了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "好久不见啊，鲁梅，连你都变成抵抗军的领袖了呢。",
+			say = "好久不見啊，魯梅，連妳都變成抵抗軍的領袖了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -178,7 +178,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "很遗憾，我们这不能算复活，顶多算随着心念而诞生的一现昙花呢。",
+			say = "很遺憾，我們這不能算復活，頂多算隨著心念而誕生的曇花一現呢。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "昙花一现……你们要走了么？！",
+			say = "曇花一現……妳們要走了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -205,7 +205,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "嗯，既然你所期望的未来已经出现，我们也该功成身退了。",
+			say = "嗯，既然妳所期望的未來已經出現，我們也該功成身退了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……这样啊，能知道你们还以这种方式存在着，我就放心了。",
+			say = "……這樣啊，能知道妳們還以這種方式存在著，我就放心了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "我什么时候能去找你们？",
+			say = "我什麼時候能去找妳們？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -246,7 +246,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "嗯——好好保重身体，然后等你变得更强一些？",
+			say = "嗯——好好保重身體，然後等妳變的更強？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,7 +260,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "或许这样你就能找到我们了~亦或许，你会意识到——我们其实从未分离过。",
+			say = "或許這樣妳就能找到我們了~也或許，你會意識到——我們其實從未分離過。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -273,7 +273,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "……虽然我不太懂，但我一定会好好保重身体，继续变强，然后找到你们的！",
+			say = "……雖然我不太懂，但我一定會好好保重身體，繼續變強，然後找到妳們的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -303,7 +303,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "也别忘了好好补充营养哦，姐姐~",
+			say = "也別忘了好好補充營養哦，姐姐~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -316,7 +316,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "哼，用你说！",
+			say = "哼，還用妳說！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -327,7 +327,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "一阵海风吹过，{namecode:427:欧根亲王}和{namecode:450:布吕歇尔}的幻影似乎又淡了一些。",
+			say = "一陣海風吹過，歐根親王和布呂歇爾的幻影似乎又淡了一些。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -341,7 +341,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "时间差不多了~非常感谢一直以来诸位对于姐姐的照顾，从今往后，姐姐也继续拜托你们了哦~",
+			say = "時間差不多了~非常感謝一直以來諸位對於姐姐的照顧，從今往後，姐姐也繼續拜託妳們了哦~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -355,7 +355,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "放心吧，{namecode:428:欧根}，我们一定会取得这场战争的最终胜利的！",
+			say = "放心吧，歐根，我們一定會取得這場戰爭的最終勝利的！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -370,7 +370,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "我相信你们。",
+			say = "我相信妳們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "耳边传来了洗牌的声音。这一次的声音又轻又慢，仿佛在刻意留出时间，让人做好准备一般。",
+			say = "耳邊傳來了洗牌的聲音。這次的聲音又輕又慢，彷彿刻意留出時間，讓人做好準備一般。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,20 +421,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_2",
 			hidePaintObj = true,
-			say = "我知道，离别的时间要到了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yuhui_2",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "诸位，我们一同取得了一场伟大的胜利。",
+			say = "我知道，離別的時間要到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +434,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "今天之后，星之兽将不再是一柄悬在世界头上的利剑，而是一个胜利的符号，一个希望的象征。",
+			say = "諸位，我們一同取得了一場偉大的勝利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -460,7 +447,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "恭喜你，{namecode:542:弗里茨·鲁梅}女士，你的反攻行动迈出了坚实的第一步。",
+			say = "今天之後，星之獸將不再是一柄懸在世界頭上的利劍，而是一個勝利的符號，一個希望的象徵。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yuhui_2",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "恭喜妳，弗里茨·魯梅女士，妳的反攻行動邁出了堅實的第一步。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -474,7 +474,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "指挥官……多谢。",
+			say = "指揮官……多謝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -488,7 +488,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，你也要走了么？！",
+			say = "{playername}閣下，你也要走了嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -515,7 +515,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们还有机会再见么？",
+			say = "我們還有機會再見嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -542,7 +542,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，你永远是铁血抵抗军的指挥官，一路保重。",
+			say = "{playername}閣下，你永遠是鐵血抵抗軍的指揮官，一路保重。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -557,7 +557,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "呵呵——指挥官。",
+			say = "呵呵——指揮官。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -588,7 +588,7 @@ return {
 			actor = 403030,
 			nameColor = "#5CFFC0",
 			hidePaintObj = true,
-			say = "我该说好久不见——还是回头再见呢？",
+			say = "我該說好久不見——還是回頭再見呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

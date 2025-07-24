@@ -12,7 +12,7 @@ return {
 			bgm = "theme-richard",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无垠星空中，传来了一阵悦耳的歌声。",
+			say = "無垠星空中，傳來了一陣悅耳的歌聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -42,7 +42,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "La la la-la la la~ 来唱首欢乐歌♪",
+			say = "La la la-la la la~ 來唱一首歡樂歌♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "La la la-la la la~ 来唱上一整天♪",
+			say = "La la la-la la la~ 來唱上一整天♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -68,7 +68,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "和我一起来~尽可能简单♪",
+			say = "跟我一起來~盡量簡單♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -81,7 +81,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "当你感到忧郁时~那就微笑吧♪",
+			say = "當你感到憂鬱時~那就微笑吧♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "La la la-la la la~我一定要把你们抓住♪",
+			say = "La la la-la la la~我一定要把你們抓住♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "这是我最想做的事情♪",
+			say = "這是我最想做的事♪",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -198,7 +198,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "这是什么东西……？",
+			say = "這是什麼東西……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "好像有点意思……",
+			say = "好像有點意思……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#BDBDBD",
-			say = "啊，好玩的东西，你别跑！",
+			say = "啊，好玩的東西，妳別跑！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -237,7 +237,7 @@ return {
 			actor = 900322,
 			nameColor = "#BDBDBD",
 			hidePaintObj = true,
-			say = "别跑——！",
+			say = "別跑——！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

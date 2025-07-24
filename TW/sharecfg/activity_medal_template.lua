@@ -1,5 +1,101 @@
 pg = pg or {}
 pg.activity_medal_template = {
+	[571101] = {
+		activity_medal_desc = "鐵血抵抗軍的領袖，嚴肅認真，一絲不苟。她在看著你，總是在看著你。",
+		next_medal = 0,
+		item = 65501,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "1",
+		task_id = 21035,
+		activity_medal_name = "紀念貼紙：魯梅女士",
+		id = 571101,
+		medal_asset = "ActivityMedal/571101"
+	},
+	[571102] = {
+		activity_medal_desc = "沒有人知道它是什麼，只知道它是從遙遠的星空而來。",
+		next_medal = 0,
+		item = 65502,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "2",
+		task_id = 21036,
+		activity_medal_name = "紀念貼紙：星之獸",
+		id = 571102,
+		medal_asset = "ActivityMedal/571102"
+	},
+	[571103] = {
+		activity_medal_desc = "星空不總是明亮的。但是在星之獸降臨的那一夜，星空比往日最明亮的時候還明亮。",
+		next_medal = 0,
+		item = 65503,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "3",
+		task_id = 21037,
+		activity_medal_name = "紀念貼紙：星光",
+		id = 571103,
+		medal_asset = "ActivityMedal/571103"
+	},
+	[571104] = {
+		activity_medal_desc = "從天外之獸的殘軀中收集的生物質，分類上屬於化學原料，請勿食用。",
+		next_medal = 0,
+		item = 65504,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "4",
+		task_id = 21038,
+		activity_medal_name = "紀念貼紙：天外生物質",
+		id = 571104,
+		medal_asset = "ActivityMedal/571104"
+	},
+	[571105] = {
+		activity_medal_desc = "被鏡面海域和永恆之星雙重保護的抵抗軍基地，居住條件有限，但安全又強大。",
+		next_medal = 0,
+		item = 65505,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "5",
+		task_id = 21039,
+		activity_medal_name = "紀念貼紙：落日基地",
+		id = 571105,
+		medal_asset = "ActivityMedal/571105"
+	},
+	[571106] = {
+		activity_medal_desc = "天外之獸來勢洶洶，我們也做好了萬全準備。混亂的一夜，通往希望的一夜。",
+		next_medal = 0,
+		item = 65506,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "6",
+		task_id = 21040,
+		activity_medal_name = "紀念貼紙：混戰之夜",
+		id = 571106,
+		medal_asset = "ActivityMedal/571106"
+	},
+	[571107] = {
+		activity_medal_desc = "——ÎáÄËĐÇÖŽĘŢŇýĐÇśřŔ´ĐŻĐÇśřČĽłźˇţÓÚÎáÔŢÎáÖŽĂű×ńÎáëˇĂü",
+		next_medal = 0,
+		item = 65507,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "7",
+		task_id = 21041,
+		activity_medal_name = "紀念貼紙：來自星間之物",
+		id = 571107,
+		medal_asset = "ActivityMedal/571107"
+	},
+	[571108] = {
+		activity_medal_desc = "這裡是標靶，請認準這個圖案，並往這裡打。",
+		next_medal = 0,
+		item = 65508,
+		remake_task_id = 0,
+		group = 5711,
+		prefab_node = "8",
+		task_id = 21042,
+		activity_medal_name = "紀念貼紙：冰壺標靶",
+		id = 571108,
+		medal_asset = "ActivityMedal/571108"
+	},
 	[576901] = {
 		activity_medal_desc = "「繡羅衣裳照暮春，蹙金孔雀銀麒麟。」",
 		next_medal = 0,
@@ -469,6 +565,16 @@ pg.activity_medal_template = {
 		medal_asset = "ActivityMedal/597107"
 	},
 	get_id_list_by_group = {
+		[5711] = {
+			571101,
+			571102,
+			571103,
+			571104,
+			571105,
+			571106,
+			571107,
+			571108
+		},
 		[5769] = {
 			576901,
 			576902,
@@ -520,6 +626,14 @@ pg.activity_medal_template = {
 		}
 	},
 	all = {
+		571101,
+		571102,
+		571103,
+		571104,
+		571105,
+		571106,
+		571107,
+		571108,
 		576901,
 		576902,
 		576903,

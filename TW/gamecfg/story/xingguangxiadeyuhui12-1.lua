@@ -12,13 +12,13 @@ return {
 			bgm = "story-ironblood-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，舰队正以直线距离向基地方向全速行驶着。",
+			say = "此刻，艦隊正以直線距離向基地方向全速行駛著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"ID-AX-98号海域",
+				"ID-AX-98號海域",
 				3
 			},
 			flashout = {
@@ -47,7 +47,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲁梅女士，指挥官，如果继续直线行驶的话，舰队将会驶入高危海域中。",
+			say = "魯梅女士，指揮官，如果繼續直線行駛的話，艦隊將會駛入高危險海域。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……高危海域？）",
+			say = "（……高危險海域？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "高危海域对于我们主力舰队的危险程度如何？",
+			say = "高危險海域對於我們主力艦隊的危險程度如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有一定威胁，但是能应对。",
+			say = "有一定威脅，但是能應付。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "那我们接下来……？",
+			say = "那我們接下來……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "情况危急，我们必须尽快赶回去……航线不变。",
+			say = "情況危急，我們必須盡快趕回去……航線不變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

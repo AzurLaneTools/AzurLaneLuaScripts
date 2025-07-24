@@ -136,7 +136,7 @@ pg.voice_bgm = {
 		bgm = "idol-BlueSpirit-inst"
 	},
 	NewShopsScene = {
-		default_bgm = "theme-glorious-meta",
+		default_bgm = "main",
 		special_bgm = "",
 		bgm = "main"
 	},
@@ -1714,6 +1714,61 @@ pg.voice_bgm = {
 		default_bgm = "story-richang-refreshing",
 		special_bgm = "",
 		bgm = "main"
+	},
+	DeXiV6TaskPage = {
+		default_bgm = "theme-akagi-meta",
+		special_bgm = "",
+		bgm = "theme-akagi-meta"
+	},
+	DexiV6FramePage = {
+		default_bgm = "story-ironblood-strong",
+		special_bgm = "",
+		bgm = "story-ironblood-strong"
+	},
+	NewPlymouthTecCatchupPage = {
+		default_bgm = "theme-designshipVI",
+		special_bgm = "",
+		bgm = "theme-designshipVI"
+	},
+	ActiveStarlightHomepage = {
+		default_bgm = "story-ironblood-strong",
+		special_bgm = "",
+		bgm = "story-ironblood-strong"
+	},
+	StarlightAccumulate = {
+		default_bgm = "story-ironblood-light",
+		special_bgm = "",
+		bgm = "story-ironblood-light"
+	},
+	NewYearShrinePage2025 = {
+		default_bgm = "newyear2",
+		special_bgm = "",
+		bgm = "newyear2"
+	},
+	UrExchangeZ52Page = {
+		default_bgm = "story-richang-partynight",
+		special_bgm = "",
+		bgm = "story-richang-partynight"
+	},
+	SkinMagazinePage6 = {
+		default_bgm = "story-richang-light",
+		special_bgm = "",
+		bgm = "story-richang-light"
+	},
+	StarLightMedalAlbumView = {
+		default_bgm = "theme-starbeast",
+		special_bgm = "",
+		bgm = "theme-starbeast"
+	},
+	USChristmas2024Page = {
+		default_bgm = "main-christmas",
+		special_bgm = "",
+		bgm = "main-christmas"
+	},
+	CurlingGameView = {
+		default_bgm = "bar-soft",
+		special_bgm = "",
+		bgm = "bar-soft"
 	},
 	HuaShangQiaoPage = {
 		default_bgm = "theme-china-jianwu",

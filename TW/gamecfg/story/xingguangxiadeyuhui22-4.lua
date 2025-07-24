@@ -13,7 +13,7 @@ return {
 			bgm = "theme-starbeast",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -83,7 +83,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这个声音是……能量塔发生了爆炸？！",
+			say = "這個聲音是……能量塔發生了爆炸？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "糟糕……屏障没被突破，能量塔先过载爆炸了么！",
+			say = "糟糕……屏障沒被突破，能量塔先過載爆炸了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "你们已经尽力了。",
+			say = "妳們已經盡力了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -123,7 +123,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "接下来，我去和它堂堂正正打一场。",
+			say = "接下來，我去和它堂堂正正打一場。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -136,7 +136,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "妹妹们的仇……就由我来报！",
+			say = "妹妹們的仇……就由我來報！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -149,7 +149,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			actor = 9703050,
-			say = "我已经不是当年弱小的我了……！",
+			say = "我已經不是當年弱小的我了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -163,7 +163,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "成为{namecode:425:希佩尔海军上将}级最辉煌的战果吧！",
+			say = "成為希佩爾將軍級最輝煌的戰果吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -191,7 +191,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_4",
 			hidePaintObj = true,
-			say = "娇小的少女对着浩瀚的星空发起了开战宣言。",
+			say = "嬌小的少女對著浩瀚的星空發動了開戰宣言。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -221,7 +221,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÓŠťđÖŽšâ/*萤火之光*/",
+			say = "——ÓŠťđÖŽšâ/*螢火之光*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -236,7 +236,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——°˛ÓëČşĐÇŐůťÔ/*安与群星争辉*/",
+			say = "——°˛ÓëČşĐÇŐůťÔ/*安與群星爭輝*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -251,7 +251,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之兽*/",
+			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之獸*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -266,7 +266,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ŇýĐÇśřŔ´/*引星而来*/",
+			say = "——ŇýĐÇśřŔ´/*引星而來*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĐŻĐÇśřČĽ/*携星而去*/",
+			say = "——ĐŻĐÇśřČĽ/*攜星而去*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -296,7 +296,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——łźˇţÓÚÎá/*臣服于吾*/",
+			say = "——łźˇţÓÚÎá/*臣服於吾*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -311,7 +311,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÔŢÎáÖŽĂű/*赞吾之名*/",
+			say = "——ÔŢÎáÖŽĂű/*贊吾之名*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -354,7 +354,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……你做梦！",
+			say = "……你做夢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -399,7 +399,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÄÇąăťŮĂđ/*那便毁灭*/",
+			say = "——ÄÇąăťŮĂđ/*那便毀滅*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

@@ -12,7 +12,7 @@ return {
 			bgm = "story-ironblood-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三日的时间转瞬即逝，到了出击的时候了。",
+			say = "三日的時間轉瞬即逝，到了出擊的時候了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -40,7 +40,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "这一次，依照调整后的计划，众人如同预料一般及时发现了天外之兽的主力，并在集中力量后顺利将其消灭。",
+			say = "這次，依照調整後的計劃，眾人如同預料一般及時發現了天外之獸的主力，並在集中力量後順利將其消滅。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -51,7 +51,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_596",
 			hidePaintObj = true,
-			say = "唯一有些意外的是，本次作战同时获取了大量天外之兽的生物质，原本已经推迟的任务竟在此时一并完成了。",
+			say = "唯一有些意外的是，這次作戰同時獲取了大量天外之獸的生化物質，原本已經推遲的任務在此時竟一併完成了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -62,7 +62,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "此刻，主力舰队顺利推进至了斯贝尔腾岛之上。",
+			say = "此刻，主力艦隊順利推進至了斯貝爾騰島之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -94,7 +94,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "由于没有分出登陆舰队和护航舰队，本次任务不包括对于岛屿进行实际控制和设置大规模开采站。",
+			say = "由於沒有分出登陸艦隊和護航艦隊，本次任務不包括對於島嶼進行實際控制和設置大規模開採站。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -105,7 +105,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "舰队只会在扫清岛屿周边的威胁后，由主力舰队成员使用自动开采站开采少部分足够支持现有设备升级的资源。",
+			say = "艦隊只會在清除島嶼週邊的威脅後，由主力艦隊成員使用自動開採站開採少部分足夠支援現有設備升級的量。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "这也是修改后的作战计划相较于之前的一项重要改动。",
+			say = "這也是修改後的作戰計畫相較於先前的一項重要改變。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -129,7 +129,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "大家注意~已经可以看见采集地了哦！",
+			say = "大家注意~已經可以看見採集地了哦！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "{namecode:540:Z52}指向了一座位于岛屿边缘的高山。",
+			say = "Z52指向了一座位於島嶼邊緣的高山。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -151,35 +151,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "高山之上寸草不生，无数残骸层层叠叠地镶嵌在其中，令整座山散发着金属的光泽。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 1,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			dir = 1,
-			actor = 407040,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "呵呵，之前听到矿物，是不是以为我们会前往一个矿坑？",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 2,
-			side = 2,
-			bgName = "bg_story_chuansong",
-			dir = 1,
-			actor = 407040,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "这种矿物名为能源金晶，是一种从金属残骸之中生长出的特殊矿物，同时也是生产能源魔方的主要材料之一。",
+			say = "高山之上寸草不生，無數殘骸層層疊疊的鑲嵌在其中，令整座山散發著金屬的光澤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -193,7 +165,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在过去，各大阵营利用由人工大规模培育的高纯度能源金晶，生产出了无穷无尽的能源魔方。",
+			say = "呵呵，之前聽到礦物，是不是以為我們會前往一個礦坑？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -207,7 +179,35 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "正是这些无穷无尽的能源，撑起了过去那个文明的黄金时代……相比之下，我们现在只能算落日余晖了。",
+			say = "這種礦物名為能源金晶，是一種從金屬殘骸中生長出的特殊礦物，同時也是生產能源魔方的主要材料之一。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 1,
+			side = 2,
+			bgName = "bg_story_chuansong",
+			dir = 1,
+			actor = 407040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "在過去，各大陣營利用人工大規模培育的高純度能源金晶，生產出了無窮無盡的能源魔方。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 2,
+			side = 2,
+			bgName = "bg_story_chuansong",
+			dir = 1,
+			actor = 407040,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "正是這些無窮無盡的能源，撐起了過去那個文明的黃金時代……相較之下，我們現在只能算落日餘暉了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -218,7 +218,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "说到此处，{namecode:542:弗里茨·鲁梅}不禁苦笑了一声。",
+			say = "說到此處，弗里茨·魯梅不禁苦笑了一聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -242,7 +242,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_134",
-			say = "浩瀚的汪洋中，忽如鳞光一闪，情报如同鱼群般蓬勃而现。",
+			say = "浩瀚的汪洋中，忽如鱗光一閃，情報如同魚群般蓬勃而現。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -277,23 +277,23 @@ return {
 					1
 				},
 				{
-					"「魔方」标准大会在今日结束了最后一天日程并公开了会议讨论结果。",
+					"「魔方」標準大會在今日結束了最後一天日程並公開了會議討論結果。",
 					2
 				},
 				{
-					"大会规定魔方的正式名称：「能源魔方」（「ε-cube」），简称为「魔方」。",
+					"大會規定魔方的正式名稱：「能源魔方」（「ε-cube」），簡稱「魔方」。",
 					3
 				},
 				{
-					"同时提供了一系列能源魔方生产应用中的各项标准。",
+					"同時提供了一系列能源魔方生產應用中的各項標準。",
 					4
 				},
 				{
-					"与常规能源不同，生产能源魔方最关键的是制作一种成分复杂的特殊合成材料容器。",
+					"與常規能源不同，生產能源魔方最關鍵的是製作一種成分複雜的特殊合成材料容器。",
 					5
 				},
 				{
-					"容器生产过程中的各项参数不同将会直接影响生产出能源魔方的质量。",
+					"容器生產過程中各項參數的不同將會直接影響生產出能源魔方的品質。",
 					6
 				},
 				{
@@ -312,23 +312,23 @@ return {
 					1
 				},
 				{
-					"本团队在能源魔方材料结构的研究上取得了飞跃性进展。",
+					"本團隊在能源魔方材料結構的研究上取得了飛躍式的進展。",
 					2
 				},
 				{
-					"能源魔方这一存在并不会原封不动的继承其构成材料的特性，而是会在这一基础上加以变化。",
+					"能源魔方這一存在並不會原封不動的繼承其構成材料的特性，而是會在這一基礎上加以變化。",
 					3
 				},
 				{
-					"简单的来说，能源魔方并不简单的等于构成魔方所有部件的总和。",
+					"簡單的來說，能源魔方並不簡單的等於構成魔方所有零件的總和。",
 					4
 				},
 				{
-					"根据实验结果，钢与纸都不是制作能源魔方的理想材料。",
+					"根據實驗結果，鋼與紙都不是製作能源魔方的理想材料。",
 					5
 				},
 				{
-					"不过根据这一性质，在能源魔方的外壳材料实验上我们重新拥有了无数种未知的可能性……",
+					"不過根據這性質，在能源魔方的外殼材料實驗上我們重新擁有了無數種未知的可能性……",
 					6
 				},
 				{
@@ -344,7 +344,7 @@ return {
 			actor = 0,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "（这些……是我的记忆？）",
+			say = "（這些……是我的記憶？）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -374,7 +374,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（原来这就是能源魔方……而这个世界的人，是在用能源金晶生产能源魔方。）",
+			say = "（原來這就是能源魔方……而這個世界的人，是在用能源金晶生產能源魔方。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（能源金晶……？和记忆中的情报不符。）",
+			say = "（能源金晶……？和記憶中的情報不符。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（在能源魔方的生产标准中，最重要的是一种成分复杂的合成材料……）",
+			say = "（在能源魔方的生產標準中，最重要的是一種成分複雜的合成材料……）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -413,7 +413,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（难道是这种矿物的上级加工品么？)",
+			say = "（難道是這種礦物的上級加工品嗎？)",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -425,7 +425,7 @@ return {
 			bgm = "story-ironblood-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "三个小时过去了，情报没有再次出现，思考也没有得出有意义的结论。",
+			say = "三個小時過去了，情報沒有再出現，思考也沒有得出有意義的結論。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -453,7 +453,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_chuansong",
 			hidePaintObj = true,
-			say = "在此期间，{namecode:542:弗里茨·鲁梅}等人已经在指定区域布设了矿物采集器，采集机器人们正在热火朝天地工作着。",
+			say = "在此期間，弗里茨·魯梅等人已經在指定區域佈設了礦物採集器，採集機器人們正在熱火朝天的工作。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,7 +466,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "有了这批战略物资，抵抗军的反攻计划就算是开了个好头了。",
+			say = "有了這批戰略物資，抵抗軍的反攻計畫就算是開了個好頭了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -479,7 +479,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "呼……总算是度过一劫。",
+			say = "呼……總算是度過一劫。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -491,7 +491,7 @@ return {
 			bgName = "bg_story_chuansong",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			hidePaintObj = true,
 			say = "滴——",
 			typewriter = {
@@ -508,7 +508,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲁梅女士！紧急呼叫，能听到么，鲁梅女士！",
+			say = "魯梅女士！緊急呼叫，能聽到嗎，魯梅女士！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -523,7 +523,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我在，出什么事了？",
+			say = "我在，出什麼事了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -537,7 +537,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不好了！鲁梅女士，天外之兽突然对基地发起了大规模——",
+			say = "不好了！魯梅女士，天外之獸突然對基地發起了大規模——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -547,11 +547,11 @@ return {
 			portrait = "tongxunqi",
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -605,7 +605,7 @@ return {
 			actor = 401110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "——大规模袭击！",
+			say = "——大規模襲擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -619,7 +619,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……不惜代价坚持住，我们立刻返航。",
+			say = "……不惜代價堅持住，我們立刻返航。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -644,11 +644,11 @@ return {
 			portrait = "tongxunqi",
 			side = 2,
 			bgName = "bg_story_chuansong",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -714,7 +714,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……大家都听到了。",
+			say = "……大家都聽到了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -728,7 +728,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当前任务终止，所有人立刻返航！",
+			say = "目前任務終止，所有人立刻返航！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

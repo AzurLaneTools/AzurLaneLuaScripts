@@ -4,6 +4,7 @@ slot0.THEME_MELLOW = 2
 slot0.OPEN_LIVEAREA = "NewMainScene:OPEN_LIVEAREA"
 slot0.UPDATE_COVER = "NewMainScene:UPDATE_COVER"
 slot0.FOLD = "NewMainScene:FOLD"
+slot0.HIDE = "NewMainScene:HIDE"
 slot0.CHAT_STATE_CHANGE = "NewMainScene:CHAT_STATE_CHANGE"
 slot0.ON_CHANGE_SKIN = "NewMainScene:ON_CHANGE_SKIN"
 slot0.ON_BUFF_DESC = "NewMainScene:ON_BUFF_DESC"
@@ -121,6 +122,15 @@ end
 slot0.didEnter = function(slot0)
 	slot0:bind(uv0.FOLD, function (slot0, slot1)
 		uv0:FoldPanels(slot1)
+
+		if not uv0.paintingView.ship then
+			return
+		end
+
+		uv0.calibrationPage:ExecuteAction("ShowOrHide", slot1, uv0.bgView.ship, uv0.theme:GetPaintingOffset(slot2), uv0.theme:GetCalibrationBG())
+	end)
+	slot0:bind(uv0.HIDE, function (slot0, slot1)
+		uv0:HidePanel(slot1)
 
 		if not uv0.paintingView.ship then
 			return

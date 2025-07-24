@@ -24,6 +24,8 @@ pg.pay_data_display = setmetatable({
 		65,
 		67,
 		73,
+		82,
+		83,
 		86,
 		87,
 		91,
@@ -40,6 +42,9 @@ pg.pay_data_display = setmetatable({
 		2032,
 		2033,
 		2034,
+		2037,
+		2038,
+		2039,
 		2040,
 		2045,
 		2046,
@@ -2207,6 +2212,244 @@ pg.base.pay_data_display = {
 			}
 		}
 	},
+	[82] = {
+		picture = "fudai19",
+		name = "港區遊戲之夜禮盒·I",
+		type = 1,
+		limit_arg = 1,
+		descrip = "可獲得一件角色換裝，2025鑽，和大量其他獎勵",
+		subject = "港區遊戲之夜禮盒·I",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*禮盒將會寄到信箱，請注意查收。\n*重複取得已擁有的換裝時，則自動置換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao139",
+		extra_gem = 0,
+		id = 82,
+		airijp_id = "com.yostarjp.azurlane.diamond170",
+		name_display = "港區遊戲之夜禮盒·I",
+		akashi_pick = 1,
+		skin_inquire_relation = 86208,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86208,
+				1
+			},
+			{
+				1,
+				14,
+				2025
+			},
+			{
+				2,
+				42066,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81208,
+				1
+			}
+		}
+	},
+	[83] = {
+		picture = "fudai9",
+		name = "絢爛繽紛夜福袋·I復刻",
+		type = 1,
+		limit_arg = 1,
+		descrip = "可獲得一件角色換裝，2024鑽，和大量其他獎勵",
+		subject = "絢爛繽紛夜福袋·I復刻",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 990,
+		descrip_extra = "*福袋將會寄到信箱，請注意查收。\n*重複取得已擁有的換裝時，則自動置換成等價的鑽石。",
+		limit_group = 0,
+		package_tag = "",
+		type_order = 2,
+		limit_type = 2,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.libao140",
+		extra_gem = 0,
+		id = 83,
+		airijp_id = "com.yostarjp.azurlane.diamond171",
+		name_display = "絢爛繽紛夜福袋·I復刻",
+		akashi_pick = 1,
+		skin_inquire_relation = 86200,
+		extra_service = 3,
+		show_group = "",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			},
+			{
+				2,
+				15008,
+				50
+			},
+			{
+				2,
+				20001,
+				20
+			},
+			{
+				2,
+				15003,
+				10
+			},
+			{
+				1,
+				6,
+				100
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				2,
+				86200,
+				1
+			},
+			{
+				1,
+				14,
+				2024
+			},
+			{
+				2,
+				42056,
+				2
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				81200,
+				1
+			}
+		}
+	},
 	[86] = {
 		picture = "fudai21",
 		name = "2025年春節福袋·I",
@@ -2582,7 +2825,7 @@ pg.base.pay_data_display = {
 		limit_type = 2,
 		tip = "",
 		tip_open = 0,
-		id_str = "com.hkmanjuu.azurlane.libao137",
+		id_str = "com.bilibili.blhx.zuanshi193",
 		extra_gem = 0,
 		id = 93,
 		airijp_id = "com.yostarjp.azurlane.diamond181",
@@ -3550,6 +3793,247 @@ pg.base.pay_data_display = {
 			{
 				2,
 				40049,
+				1
+			}
+		}
+	},
+	[2037] = {
+		picture = "ui2",
+		name = "聖誕雪地主題禮包",
+		type = 0,
+		limit_arg = 0,
+		descrip = "可獲得戰鬥介面主題聖誕雪境*1",
+		subject = "聖誕雪地主題禮包",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "此處不會被看到",
+		limit_group = 102,
+		package_tag = "",
+		type_order = 4,
+		limit_type = 5,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui3",
+		extra_gem = 0,
+		id = 2037,
+		airijp_id = "com.yostarjp.azurlane.ui3",
+		name_display = "聖誕雪地主題禮包",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {}
+	},
+	[2038] = {
+		picture = "ui2",
+		name = "聖誕雪境主題禮包（基礎版）",
+		type = 0,
+		limit_arg = 1,
+		descrip = "可獲得戰鬥介面主題聖誕雪境*1",
+		subject = "聖誕雪境主題禮包（基礎版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 390,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 102,
+		package_tag = "",
+		type_order = 4,
+		limit_type = 5,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui4",
+		extra_gem = 0,
+		id = 2038,
+		airijp_id = "com.yostarjp.azurlane.ui4",
+		name_display = "聖誕雪境主題禮包（基礎版）",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40051,
+				1
+			}
+		}
+	},
+	[2039] = {
+		picture = "ui2",
+		name = "聖誕雪境主題禮包（豪華版）",
+		type = 0,
+		limit_arg = 1,
+		descrip = "可獲得戰鬥介面主題聖誕雪境*1,3060鑽石",
+		subject = "聖誕雪境主題禮包（豪華版）",
+		first_pay_double = 0,
+		gem = 0,
+		tag = 2,
+		money = 1320,
+		descrip_extra = "*禮包將會寄到信箱，請注意查收。",
+		limit_group = 102,
+		package_tag = "",
+		type_order = 4,
+		limit_type = 5,
+		tip = "",
+		tip_open = 0,
+		id_str = "com.hkmanjuu.azurlane.ui5",
+		extra_gem = 0,
+		id = 2039,
+		airijp_id = "com.yostarjp.azurlane.ui5",
+		name_display = "聖誕雪境主題禮包（豪華版）",
+		akashi_pick = 1,
+		skin_inquire_relation = 0,
+		extra_service = 3,
+		show_group = "uigift",
+		package_tag_open = 0,
+		extra_service_item = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		time = {
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		},
+		display = {
+			{
+				31,
+				201,
+				1
+			},
+			{
+				1,
+				14,
+				3060
+			}
+		},
+		sub_display = {},
+		ignorePlatform = {},
+		limit_args = {},
+		drop_item = {
+			{
+				2,
+				40052,
 				1
 			}
 		}

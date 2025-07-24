@@ -68,20 +68,20 @@ slot0.init = function(slot0)
 		SettingsOtherPage.New(slot1, slot0.event, slot0.contextData),
 		SettingsOptionPage.New(slot1, slot0.event, slot0.contextData),
 		SettingsBattlePage.New(slot1, slot0.event, slot0.contextData),
-		SettingsResPage.New(slot1, slot0.event, slot0.contextData),
-		Settings3DPage.New(slot1, slot0.event, slot0.contextData)
+		SettingsResPage.New(slot1, slot0.event, slot0.contextData)
 	}
 	slot0.toggles = {
 		slot0:findTF("blur_panel/adapt/left_length/other"),
 		slot0:findTF("blur_panel/adapt/left_length/options"),
 		slot0:findTF("blur_panel/adapt/left_length/battle_ui"),
-		slot0:findTF("blur_panel/adapt/left_length/resources"),
-		slot0:findTF("blur_panel/adapt/left_length/threeD")
+		slot0:findTF("blur_panel/adapt/left_length/resources")
 	}
 	slot0.otherTip = slot0.toggles[1]:Find("tip")
 	slot0.logoutBtn = slot0:findTF("blur_panel/adapt/left_length/logout")
 	slot0.helpBtn = slot0:findTF("blur_panel/adapt/left_length/help_us")
 	slot0.descWindow = SettingsMsgBosPage.New(slot0._tf, slot0.event)
+
+	setActive(slot0:findTF("blur_panel/adapt/left_length/threeD"), false)
 end
 
 slot0.didEnter = function(slot0)

@@ -12,7 +12,7 @@ return {
 			bgm = "battle-ironblood-defence",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "激荡的海面上，{namecode:540:Z52}潇洒地游走在天外之兽间。",
+			say = "在激蕩的海面上，Z52瀟灑地遊走在天外之獸間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"永恒之星·内部",
+				"永恆之星·內部",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "我也放弃了量产型指挥舰，选择乘坐浮空快艇与{namecode:540:Z52}一同高速冲刺着。",
+			say = "我也放棄了量產型指揮艦，選擇乘坐浮空快艇與Z52一同高速衝刺著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -58,7 +58,7 @@ return {
 			actor = 401520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "雷火之心爆燃模式，开启！",
+			say = "雷火之心爆燃模式，開啟！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			bgName = "bg_yuhui_cg_6",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -120,7 +120,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "似乎是对战场的变化有所察觉，天外之兽群咆哮着伸出了触手，试图在水面之上构建阻碍屏障。",
+			say = "似乎是對戰場的變化有所察覺，天外之獸群咆哮著伸出了觸手，試圖在水面之上建造阻礙屏障。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -160,7 +160,7 @@ return {
 			bgName = "bg_yuhui_cg_6",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "尚未成型的阻碍顷刻间被突破了。",
+			say = "尚未成型的阻礙頃刻間被突破了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -234,7 +234,7 @@ return {
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
 			shakeTime = 2,
-			say = "空间中出现了某种奇异的响声，心跳、甚至浮空快艇的引擎都因此停转了一拍。",
+			say = "空間中出現了某種奇怪的響聲，心跳、甚至浮空快艇的引擎都停轉了一拍。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -245,20 +245,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "不过这种感觉转瞬间便消失了。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			actor = 0,
-			nameColor = "#A9F548FF",
-			bgName = "bg_yuhui_cg_6",
-			hidePaintObj = true,
-			side = 2,
-			portrait = "zhihuiguan",
-			say = "哦？急了么……",
+			say = "不過這種感覺轉瞬間便消失了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -271,7 +258,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "看来作战策略是没错的……",
+			say = "哦？急了嗎……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -284,7 +271,20 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "你先别急，马上来会会你。",
+			say = "看來作戰策略是沒錯的……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			actor = 0,
+			nameColor = "#A9F548FF",
+			bgName = "bg_yuhui_cg_6",
+			hidePaintObj = true,
+			side = 2,
+			portrait = "zhihuiguan",
+			say = "你先別急，馬上來會會你。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -298,7 +298,7 @@ return {
 			actor = 401520,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "目标近在咫尺，飞剑龙群——出击！",
+			say = "目標近在咫尺，飛劍龍群——出擊！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -326,7 +326,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_6",
 			hidePaintObj = true,
-			say = "飞剑龙无人机群扫清了最后的障碍，带我径直飞进了入口中。",
+			say = "飛劍龍無人機群掃清了最後的障礙，帶我徑直飛入了入口中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -416,7 +416,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "接下来……该回去与大部队汇合了。",
+			say = "接下來……該回去與大部隊匯合了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -429,7 +429,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "希望你的计划能成功……",
+			say = "希望你的計劃能成功……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -442,7 +442,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "指挥官——加油！",
+			say = "指揮官——加油！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

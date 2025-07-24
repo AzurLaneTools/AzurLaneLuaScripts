@@ -13,7 +13,8 @@ slot1.ICON_BY_INDEX = {
 	"switch",
 	"special",
 	"aamissile",
-	"meteor"
+	"meteor",
+	"pointairstrike"
 }
 
 slot1.Ctor = function(slot0)

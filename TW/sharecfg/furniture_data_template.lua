@@ -156,6 +156,7 @@ pg.furniture_data_template = setmetatable({
 			290,
 			291,
 			292,
+			293,
 			296,
 			297,
 			298,
@@ -3084,6 +3085,25 @@ pg.furniture_data_template = setmetatable({
 			316308,
 			316309
 		},
+		[117] = {
+			317001,
+			317002,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317107,
+			317108,
+			317109,
+			317110,
+			317111,
+			317301,
+			317302,
+			317303,
+			317304
+		},
 		[118] = {
 			318001,
 			318002,
@@ -5024,6 +5044,16 @@ pg.furniture_data_template = setmetatable({
 			316120,
 			316121,
 			316122,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317107,
+			317108,
+			317109,
+			317110,
 			318101,
 			318102,
 			318103,
@@ -5425,6 +5455,7 @@ pg.furniture_data_template = setmetatable({
 			287,
 			289,
 			292,
+			293,
 			296,
 			302,
 			303,
@@ -5610,6 +5641,7 @@ pg.furniture_data_template = setmetatable({
 			314113,
 			315113,
 			316123,
+			317111,
 			318305,
 			320115,
 			321114,
@@ -5715,6 +5747,7 @@ pg.furniture_data_template = setmetatable({
 			314001,
 			315001,
 			316001,
+			317001,
 			318001,
 			320001,
 			321001,
@@ -5820,6 +5853,7 @@ pg.furniture_data_template = setmetatable({
 			314002,
 			315002,
 			316002,
+			317002,
 			318002,
 			320002,
 			321002,
@@ -6151,6 +6185,10 @@ pg.furniture_data_template = setmetatable({
 			316307,
 			316308,
 			316309,
+			317301,
+			317302,
+			317303,
+			317304,
 			318301,
 			318302,
 			318303,
@@ -6263,6 +6301,7 @@ pg.furniture_data_template = setmetatable({
 			314002,
 			315002,
 			316002,
+			317002,
 			318002,
 			320002,
 			321002,
@@ -6401,6 +6440,7 @@ pg.furniture_data_template = setmetatable({
 			289,
 			290,
 			292,
+			293,
 			296,
 			297,
 			298,
@@ -8290,6 +8330,16 @@ pg.furniture_data_template = setmetatable({
 			316120,
 			316122,
 			316123,
+			317101,
+			317102,
+			317103,
+			317104,
+			317105,
+			317106,
+			317108,
+			317109,
+			317110,
+			317111,
 			318101,
 			318102,
 			318103,
@@ -8398,6 +8448,7 @@ pg.furniture_data_template = setmetatable({
 			312115,
 			316112,
 			316121,
+			317107,
 			323102
 		},
 		[14] = {
@@ -8521,6 +8572,7 @@ pg.furniture_data_template = setmetatable({
 			314001,
 			315001,
 			316001,
+			317001,
 			318001,
 			320001,
 			321001,
@@ -9117,6 +9169,10 @@ pg.furniture_data_template = setmetatable({
 			316307,
 			316308,
 			316309,
+			317301,
+			317302,
+			317303,
+			317304,
 			318301,
 			318302,
 			318303,
@@ -9320,6 +9376,7 @@ pg.furniture_data_template = setmetatable({
 		290,
 		291,
 		292,
+		293,
 		296,
 		297,
 		298,
@@ -12047,6 +12104,23 @@ pg.furniture_data_template = setmetatable({
 		316307,
 		316308,
 		316309,
+		317001,
+		317002,
+		317101,
+		317102,
+		317103,
+		317104,
+		317105,
+		317106,
+		317107,
+		317108,
+		317109,
+		317110,
+		317111,
+		317301,
+		317302,
+		317303,
+		317304,
 		318001,
 		318002,
 		318101,
@@ -19846,6 +19920,43 @@ pg.base.furniture_data_template = {
 				"tolovexunzhang",
 				"normal"
 			}
+		},
+		interAction_group = {}
+	},
+	[293] = {
+		can_rotate = 0,
+		describe = "仿照鐵血抵抗軍總部大樓製作的微縮模型，內建電路，夜晚可當落地燈使用。",
+		gain_by = "星光下的餘暉",
+		type = 7,
+		dir = 0,
+		dorm_id = 0,
+		picture = "chuanmo/fulicixunzhang",
+		is_get_time_note = 1,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 8,
+		spine_extra = "",
+		level = 1,
+		rarity = 5,
+		themeId = 0,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "抵抗軍總部大樓",
+		advice = 0,
+		icon = "fulicixunzhangicon",
+		id = 293,
+		comfortable = 0,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			1
 		},
 		interAction_group = {}
 	},
@@ -140836,6 +140947,862 @@ pg.base.furniture_data_template = {
 		comfortable = 0,
 		size = {
 			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317001] = {
+		can_rotate = 0,
+		describe = "在倒下之前，好好休息一番吧。",
+		gain_by = "",
+		type = 4,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/dibanft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 4,
+		size = "",
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "庇護所地板",
+		advice = 0,
+		icon = "dibanfticon",
+		id = 317001,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317002] = {
+		can_rotate = 0,
+		describe = "在倒下之前，好好休息一番吧。",
+		gain_by = "",
+		type = 1,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/qiangbift",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 3,
+		size = "",
+		spine_extra = "",
+		level = 5,
+		rarity = 4,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 0,
+		canputon = 0,
+		count = 1,
+		name = "庇護所壁紙",
+		advice = 0,
+		icon = "qiangbifticon",
+		id = 317002,
+		comfortable = 4,
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317101] = {
+		can_rotate = 0,
+		describe = "明明是佈滿鏽跡的床，睡上去卻格外安穩呢。",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/chuangft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "鐵鏽之床",
+		advice = 0,
+		id = 317101,
+		icon = "chuangftcion",
+		comfortable = 3,
+		size = {
+			5,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sleep",
+				{
+					21,
+					28
+				},
+				{
+					1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317102] = {
+		can_rotate = 0,
+		describe = "經過改裝的房車，不光是家，也是最後的堡壘！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/fangcheft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "房車居所",
+		advice = 0,
+		id = 317102,
+		icon = "fangchefticon",
+		comfortable = 4,
+		size = {
+			6,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-108.9,
+					-124
+				},
+				{
+					-1,
+					1
+				},
+				"ft/fangcheft_using"
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317103] = {
+		can_rotate = 0,
+		describe = "這裡能創造出拯救世界的武器嗎？不過要小心被檯燈刺傷眼睛哦！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "求生工作台",
+		advice = 0,
+		id = 317103,
+		icon = "gongzuotaifticon",
+		comfortable = 3,
+		size = {
+			6,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gongzuotaift",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317104] = {
+		can_rotate = 0,
+		describe = "看著升起的炊煙，感覺眼皮越來越沉了……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "庇護所篝火",
+		advice = 0,
+		id = 317104,
+		icon = "gouhuofticon",
+		comfortable = 4,
+		size = {
+			4,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"gouhuoft",
+				"normal",
+				{
+					"action",
+					true
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317105] = {
+		can_rotate = 0,
+		describe = "小心被彈簧戳到屁股！",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/shafaft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "庇護所沙發",
+		advice = 0,
+		id = 317105,
+		icon = "shafafticon",
+		comfortable = 3,
+		size = {
+			2,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-12,
+					-2.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317106] = {
+		can_rotate = 0,
+		describe = "隨處可見的椅子，或許也能成為趁手的武器？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/yizift",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 3,
+		name = "庇護所椅子",
+		advice = 0,
+		id = 317106,
+		icon = "yizifticon",
+		comfortable = 2,
+		size = {
+			1,
+			1
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"sit",
+				{
+					-15.7,
+					29.8
+				},
+				{
+					-1,
+					1
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317107] = {
+		can_rotate = 0,
+		describe = "裝載汽油和武器的越野車，是你最忠誠的坐騎！",
+		gain_by = "",
+		type = 11,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 117,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "yueyechefticon",
+		count = 1,
+		name = "野獸越野車",
+		advice = 0,
+		id = 317107,
+		tag = 1,
+		comfortable = 4,
+		size = {
+			5,
+			7
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"yueyecheftB",
+				"normal",
+				nil,
+				true
+			},
+			{
+				"yueyecheftT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"sit"
+					}
+				},
+				{},
+				{
+					1
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[317108] = {
+		can_rotate = 0,
+		describe = "要小心別被人趁機蓋上了桶蓋……",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/zaotongft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "庇護所泡澡桶",
+		advice = 0,
+		id = 317108,
+		icon = "zaotongfticon",
+		comfortable = 3,
+		size = {
+			3,
+			3
+		},
+		offset = {},
+		canputonGrid = {},
+		interAction = {
+			{
+				"wash",
+				{
+					-19.1,
+					-100.8
+				},
+				{
+					-1,
+					1
+				},
+				"ft/zaotongft_using",
+				0,
+				{
+					{
+						0.5,
+						143.7
+					},
+					{
+						232,
+						200
+					},
+					"ft/zaotongft_mask"
+				}
+			}
+		},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317109] = {
+		can_rotate = 0,
+		describe = "裡面說不定藏著意想不到的驚喜哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/zawuxiangft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 1,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		count = 1,
+		name = "庇護所雜物堆1",
+		advice = 0,
+		icon = "zawuxiangfticon",
+		id = 317109,
+		comfortable = 3,
+		size = {
+			3,
+			6
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317110] = {
+		can_rotate = 0,
+		describe = "裡面說不定藏著意想不到的驚喜哦？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 117,
+		spine_extra = "",
+		level = 1,
+		rarity = 3,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "zawuduifticon",
+		count = 1,
+		name = "庇護所雜物堆2",
+		advice = 0,
+		id = 317110,
+		tag = 1,
+		comfortable = 3,
+		size = {
+			4,
+			5
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"zawuduift",
+				"normal"
+			},
+			{},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance1",
+						nil,
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				},
+				{
+					{
+						"dance1",
+						"dance2",
+						"dance3"
+					}
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			-1
+		},
+		interAction_group = {}
+	},
+	[317111] = {
+		can_rotate = 0,
+		describe = "這套先進的太陽能系統與周圍的破敗格格不入，據說是從某種武器上拆卸下來的……？",
+		gain_by = "",
+		type = 2,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		themeId = 117,
+		spine_extra = "",
+		level = 1,
+		rarity = 4,
+		spine_action_replace = "",
+		belong = 1,
+		canputon = 0,
+		icon = "taiyangnengdianchifticon",
+		count = 1,
+		name = "雷神太陽能係統",
+		advice = 0,
+		id = 317111,
+		tag = 7,
+		comfortable = 4,
+		size = {
+			7,
+			4
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"taiyangnengdianchiftB",
+				"normal"
+			},
+			{
+				"taiyangnengdianchiftT"
+			},
+			{
+				{
+					0,
+					0
+				},
+				{
+					{
+						"dance"
+					}
+				},
+				{
+					nil,
+					1
+				},
+				{
+					0
+				}
+			},
+			{},
+			{
+				0,
+				0
+			}
+		},
+		followBone = {
+			"char",
+			1
+		},
+		interAction_group = {}
+	},
+	[317301] = {
+		can_rotate = 0,
+		describe = "需要磨練求生技能嗎？試試這個吧！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "練習標靶1",
+		advice = 0,
+		id = 317301,
+		icon = "bazi1fticon",
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bazi1ft",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317302] = {
+		can_rotate = 0,
+		describe = "需要磨練求生技能嗎？試試這個吧！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		themeId = 117,
+		count = 1,
+		name = "練習標靶2",
+		advice = 0,
+		id = 317302,
+		icon = "bazi2fticon",
+		comfortable = 2,
+		size = {
+			2,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		spine = {
+			{
+				"bazi2ft",
+				"normal",
+				{
+					"action",
+					false
+				}
+			}
+		},
+		interAction_group = {}
+	},
+	[317303] = {
+		can_rotate = 0,
+		describe = "可以讓你的工具井然有序，它們就是你最好的朋友！",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/gongjujiaft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 3,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "求生工具架",
+		advice = 0,
+		icon = "gongjujiafticon",
+		id = 317303,
+		comfortable = 3,
+		size = {
+			6,
+			0
+		},
+		offset = {},
+		canputonGrid = {},
+		can_trigger = {
+			0
+		},
+		interAction_group = {}
+	},
+	[317304] = {
+		can_rotate = 0,
+		describe = "牆上的塗鴉和殘缺的海報，會讓你回想起那個已經消逝的世界嗎？",
+		gain_by = "",
+		type = 6,
+		dir = 0,
+		dorm_id = 0,
+		picture = "ft/haibaoft",
+		is_get_time_note = 0,
+		deblocking = 1,
+		effect = "",
+		is_3d_obj = 0,
+		tag = 5,
+		spine_extra = "",
+		level = 5,
+		rarity = 2,
+		themeId = 117,
+		spine_action_replace = "",
+		belong = 2,
+		canputon = 0,
+		count = 1,
+		name = "庇護所塗鴉牆",
+		advice = 0,
+		icon = "haibaofticon",
+		id = 317304,
+		comfortable = 2,
+		size = {
+			6,
 			0
 		},
 		offset = {},

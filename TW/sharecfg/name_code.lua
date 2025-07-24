@@ -2814,11 +2814,32 @@ pg.name_code = {
 		code = "Z43",
 		nation = 0
 	},
+	[538] = {
+		name = "Z9",
+		type = 1,
+		id = 538,
+		code = "Z9",
+		nation = 0
+	},
+	[539] = {
+		name = "Z11",
+		type = 1,
+		id = 539,
+		code = "Z11",
+		nation = 0
+	},
 	[540] = {
 		name = "Z52",
 		type = 1,
 		id = 540,
 		code = "Z52",
+		nation = 0
+	},
+	[541] = {
+		name = "杜伊斯堡",
+		type = 1,
+		id = 541,
+		code = "杜伊斯堡",
 		nation = 0
 	},
 	[542] = {

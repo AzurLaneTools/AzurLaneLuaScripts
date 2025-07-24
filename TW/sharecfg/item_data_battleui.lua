@@ -88,6 +88,23 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[201] = {
+		name = "聖誕雪境",
+		key = "SkinNormal_20241209",
+		display_icon = "ui_201",
+		unlock = "聖誕雪境戰鬥主題禮包獲取",
+		is_unlock = 1,
+		rare = 4,
+		desc = "這款介面為喜愛冬季氣氛的指揮官打造，讓指揮官在駕馭戰場的同時，感受浪漫的冬日氛圍。",
+		id = 201,
+		icon = "201",
+		scene = {},
+		rare_display = {
+			1,
+			2,
+			3
+		}
+	},
 	[203] = {
 		name = "基因之源",
 		key = "SkinElite_20250327",
@@ -129,6 +146,7 @@ pg.item_data_battleui = {
 		103,
 		104,
 		105,
+		201,
 		203,
 		204
 	}

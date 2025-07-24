@@ -20009,6 +20009,131 @@ pg.activity_ins_template = {
 			5210
 		}
 	},
+	[518] = {
+		ship_group = 40704,
+		name = "Fritz Rumey",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "fulici",
+		id = 518,
+		group_id = 518,
+		order = 62,
+		time = {
+			{
+				2025,
+				7,
+				24
+			},
+			{
+				15,
+				30,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[519] = {
+		ship_group = 40211,
+		name = "Duisburg",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "duyisibao",
+		id = 519,
+		group_id = 519,
+		order = 62,
+		time = {
+			{
+				2025,
+				7,
+				25
+			},
+			{
+				14,
+				45,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[520] = {
+		ship_group = 40152,
+		name = "Blitz-Z52",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Z52",
+		id = 520,
+		group_id = 520,
+		order = 62,
+		time = {
+			{
+				2025,
+				7,
+				26
+			},
+			{
+				10,
+				13,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[521] = {
+		ship_group = 40109,
+		name = "Wolke9",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Z9",
+		id = 521,
+		group_id = 521,
+		order = 62,
+		time = {
+			{
+				2025,
+				7,
+				27
+			},
+			{
+				15,
+				20,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
+	[522] = {
+		ship_group = 40111,
+		name = "Z11_Spielefan",
+		message_persist = "",
+		picture_persist = "",
+		is_active = 1,
+		sculpture = "Z11",
+		id = 522,
+		group_id = 522,
+		order = 62,
+		time = {
+			{
+				2025,
+				7,
+				28
+			},
+			{
+				11,
+				35,
+				17
+			}
+		},
+		time_persist = {},
+		npc_discuss_persist = {}
+	},
 	[531] = {
 		ship_group = 50210,
 		name = "Hai Yung",
@@ -20606,9 +20731,9 @@ pg.activity_ins_template = {
 	[552] = {
 		ship_group = 110201,
 		name = "De Zeven Provinci?n",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_552",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_552.png",
+		is_active = 0,
 		sculpture = "qisheng",
 		id = 552,
 		group_id = 552,
@@ -20625,15 +20750,29 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				7,
+				3
+			},
+			{
+				12,
+				6,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5795,
+			5802
+		}
 	},
 	[553] = {
 		ship_group = 110101,
 		name = "Evertsen",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_553",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_553.png",
+		is_active = 0,
 		sculpture = "aifosen",
 		id = 553,
 		group_id = 553,
@@ -20650,15 +20789,30 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				7,
+				4
+			},
+			{
+				13,
+				28,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5812,
+			5819,
+			5823
+		}
 	},
 	[554] = {
 		ship_group = 70208,
 		name = "Oleg",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_554",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_554.png",
+		is_active = 0,
 		sculpture = "aoliege",
 		id = 554,
 		group_id = 554,
@@ -20675,15 +20829,30 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				7,
+				5
+			},
+			{
+				17,
+				44,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5834,
+			5839,
+			5845
+		}
 	},
 	[555] = {
 		ship_group = 70509,
 		name = "Kazan ",
-		message_persist = "",
-		picture_persist = "",
-		is_active = 1,
+		message_persist = "ins_555",
+		picture_persist = "https://blhxstatic.azurlane.tw/pics/ins_555.png",
+		is_active = 0,
 		sculpture = "kashan",
 		id = 555,
 		group_id = 555,
@@ -20700,8 +20869,22 @@ pg.activity_ins_template = {
 				17
 			}
 		},
-		time_persist = {},
-		npc_discuss_persist = {}
+		time_persist = {
+			{
+				2025,
+				7,
+				6
+			},
+			{
+				11,
+				17,
+				17
+			}
+		},
+		npc_discuss_persist = {
+			5855,
+			5860
+		}
 	},
 	[556] = {
 		ship_group = 70202,
@@ -21681,6 +21864,11 @@ pg.activity_ins_template = {
 		515,
 		516,
 		517,
+		518,
+		519,
+		520,
+		521,
+		522,
 		531,
 		532,
 		533,

@@ -28,7 +28,7 @@ return {
 			bgm = "story-startravel",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "巨舰之中，蓝发少女凝视着眼前的星河，眼眸之中光华流转。",
+			say = "巨艦之中，藍髮少女凝視著眼前的星河，眼眸之中光華流轉。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -59,7 +59,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……奈落连通着NA海域的奇异点，指挥官也确实进入了其中，这一段行程确认无误。",
+			say = "……奈落連通著NA海域的奇異點，指揮官也確實進入了其中，這段行程確認無誤。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -73,7 +73,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "但是……NA奇异点的出口被人做了手脚。",
+			say = "但是……NA奇異點的出口被人做了手腳。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,7 +87,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "离开出口后，孟菲斯等人进入了另一个实验场，而指挥官不知所踪……",
+			say = "離開出口後，曼非斯等人進入了另一個實驗場，而指揮官不知所蹤……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -101,7 +101,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……连整座实验场β都变为了幻象。",
+			say = "……連整座實驗場β都變成幻象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -115,7 +115,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……搜索不到，到底藏到哪里去了。",
+			say = "……搜索不到，到底藏到哪裡去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -126,7 +126,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "光华流动的速度加快了，少女冷淡的表情中也多了一抹痛苦的神色。",
+			say = "光華流動的速度加快了，少女冷淡的表情中也多了一抹痛苦的神情。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……被动观测，定期扫描都无异常，被动防御无预警，主动防御也无反应。",
+			say = "……被動觀測，定期掃描都無異常，被動防禦無預警，主動防禦也無反應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -154,7 +154,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "如果不是我调用塔有意识地进行主动观测，根本无法识破实验场β之上布设的伪装。",
+			say = "如果不是我召喚塔有意識的進行主動觀測，根本無法識破實驗場β之上佈設的偽裝。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -168,7 +168,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "真正的实验场β……早已被不留痕迹地转移了。",
+			say = "真正的實驗場β……早已被不留痕跡的轉移了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -182,7 +182,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "变更坐标的能力、如此规模的幻象，还有这种连塔的观测都能干扰的手段……",
+			say = "變更座標的能力、如此規模的幻象，還有這種連塔的觀測都能干擾的手段……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……错不了。",
+			say = "……錯不了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -210,7 +210,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "仲裁者·恩普雷斯·III，以及……仲裁者·麦纪莎·I。",
+			say = "仲裁者·恩普雷斯·III，以及……仲裁者·麥紀莎·I。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -224,7 +224,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "女皇和魔术师……你们倒是凑在一起去了。",
+			say = "女皇和魔術師……妳們倒是湊在一起去了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -235,7 +235,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_port_chongdong",
 			hidePaintObj = true,
-			say = "蓝发少女的眼中划过一丝冷意。",
+			say = "藍髮少女的眼中劃過一絲冷意。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -249,7 +249,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "觊觎指挥官，在阴暗之中行动的游魂们……",
+			say = "覬覦指揮官，在陰暗之中行動的遊魂們……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -263,7 +263,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "也好，新仇加旧怨……那就斗一斗吧。",
+			say = "也好，新仇加舊怨……那就鬥一鬥吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -275,7 +275,7 @@ return {
 			bgName = "bg_port_chongdong",
 			nameColor = "#A9F548FF",
 			soundeffect = "event:/ui/didi",
-			actorName = "通讯器",
+			actorName = "通訊器",
 			hidePaintObj = true,
 			say = "滴——",
 			typewriter = {
@@ -291,7 +291,7 @@ return {
 			actor = 900315,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "{namecode:39:神通}，能听到么——",
+			say = "神通，能聽到嗎——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

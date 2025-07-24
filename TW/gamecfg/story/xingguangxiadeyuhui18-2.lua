@@ -13,7 +13,7 @@ return {
 			bgm = "theme-starbeast",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -80,7 +80,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_4",
 			hidePaintObj = true,
-			say = "一颗颗炮弹如同萤火，消失在浩瀚的星光中。",
+			say = "一顆炮彈如同螢火，消失在浩瀚的星光中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -110,7 +110,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÓŠťđÖŽšâ/*萤火之光*/",
+			say = "——ÓŠťđÖŽšâ/*螢火之光*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -125,7 +125,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——°˛ÓëČşĐÇŐůťÔ/*安与群星争辉*/",
+			say = "——°˛ÓëČşĐÇŐůťÔ/*安與群星爭輝*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -140,7 +140,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之兽*/",
+			say = "——ÎáÄËĐÇÖŽĘŢ/*吾乃星之獸*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -155,7 +155,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ŇýĐÇśřŔ´/*引星而来*/",
+			say = "——ŇýĐÇśřŔ´/*引星而來*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -170,7 +170,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ĐŻĐÇśřČĽ/*携星而去*/",
+			say = "——ĐŻĐÇśřČĽ/*攜星而去*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——łźˇţÓÚÎá/*臣服于吾*/",
+			say = "——łźˇţÓÚÎá/*臣服於吾*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -200,7 +200,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÔŢÎáÖŽĂű/*赞吾之名*/",
+			say = "——ÔŢÎáÖŽĂű/*贊吾之名*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -229,7 +229,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "呵呵……",
+			say = "呵呵…",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -243,7 +243,7 @@ return {
 			actor = 9703050,
 			nameColor = "#FFC960",
 			hidePaintObj = true,
-			say = "……你做梦！",
+			say = "……你做夢！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -288,7 +288,7 @@ return {
 			actor = 900468,
 			nameColor = "#FF9B93",
 			hidePaintObj = true,
-			say = "——ÄÇąăťŮĂđ/*那便毁灭*/",
+			say = "——ÄÇąăťŮĂđ/*那便毀滅*/",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

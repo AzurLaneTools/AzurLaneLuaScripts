@@ -35,7 +35,7 @@ return {
 				}
 			},
 			location = {
-				"总部大楼·休息室",
+				"總部大樓·休息室",
 				3
 			}
 		},
@@ -44,7 +44,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "昨日到达抵抗军基地后，因为天色已晚，我直接前往了总部大楼中安排好的房间内休息。",
+			say = "昨天到達抵抗軍基地後，因為天色已晚，我直接前往了總部大樓中安排好的房間內休息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -55,7 +55,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_story_task",
 			hidePaintObj = true,
-			say = "原定在次日午餐时间与抵抗军的领袖{namecode:542:弗里茨·鲁梅}见面……不过在清晨时分，{namecode:541:杜伊斯堡}传来了一个新消息。",
+			say = "原定在隔天午餐時間與抵抗軍的領袖弗里茨·魯梅見面……不過在清晨時分，杜伊斯堡傳來了一個新消息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -70,7 +70,7 @@ return {
 			paintingNoise = true,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下，这里是{namecode:541:杜伊斯堡}在留言。",
+			say = "{playername}閣下，這裡是杜伊斯堡在留言。",
 			effects = {
 				{
 					active = true,
@@ -107,7 +107,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "工程部门在昨日的战利品中发现了一些宝贵的设备模块。",
+			say = "工程部門在昨日的戰利品中發現了一些寶貴的設備模組。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -122,7 +122,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "拜此所赐，我们的辐射净化装置终于可以开始维修了！",
+			say = "拜此所賜，我們的輻射淨化裝置終於可以開始維修了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -137,7 +137,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不仅如此，我们还在一个科研船的数据核心中找到了一份辐射净化装置的改良方案。",
+			say = "不僅如此，我們還在一個科研船的資料核心中找到了輻射淨化裝置的改良方案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -152,7 +152,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "经过评估，这份改良方案……十分具有可行性。",
+			say = "經過評估，這份改良方案……十分具有可行性。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -166,7 +166,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "鲁梅女士原本就打算在净化装置维修完成后，立刻开始外围据点的夺回作战。",
+			say = "魯梅女士原本就打算在淨化裝置維修完成後，立刻開始外圍據點的奪回作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -181,7 +181,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为这个新情况，她已经连夜修改了计划，具体内容将会在今天正午时分的公开演讲中公布。",
+			say = "因為這個新情況，她已經連夜修改了計劃，具體內容將會在今天正午時分的公開演講中公佈。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -196,7 +196,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如果有兴趣的话，希望你能来听听哦。",
+			say = "如果有興趣的話，希望你能來聽聽看哦。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于会面的话，需要稍微延后一些，等到演讲结束后，我接你去鲁梅女士的办公室~",
+			say = "至於會面的話，需要稍微延後一些，等到演講結束後，我接你去魯梅女士的辦公室~",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -223,7 +223,7 @@ return {
 			bgm = "battle-ironblood-defence",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "于是，正午时分——",
+			say = "於是，正午時分——",
 			effects = {
 				{
 					active = false,
@@ -252,7 +252,7 @@ return {
 				}
 			},
 			location = {
-				"抵抗军基地-中心广场",
+				"抵抗軍基地-中心廣場",
 				3
 			}
 		},
@@ -261,7 +261,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "中心广场上，人山人海，旗帜飘扬。",
+			say = "中心廣場上，人山人海，旗幟飄揚。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -272,7 +272,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_1",
 			hidePaintObj = true,
-			say = "而在高台之上，一位身披军大衣，英姿飒爽的女性格外引人瞩目。",
+			say = "而在高台之上，一位身披軍大衣，英姿颯爽的女性格外引人注目。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -286,7 +286,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "同胞们，中午好。",
+			say = "同胞們，中午好。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -317,7 +317,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "相信诸位已经知道了前日临近海域出现V级残骸潮的事。",
+			say = "相信諸位已經知道了前日臨近海域出現V級殘骸潮的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -331,7 +331,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "就在昨日，先遣队已经顺利返回，并带回了第一批战利品。",
+			say = "就在昨日，先遣隊已經順利返回，並帶回了第一批戰利品。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -345,7 +345,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "其中回收到的设备，足够修好我们现在损坏的三台天外辐射净化装置。",
+			say = "其中回收的設備，足以修好我們現在損壞的三台天外輻射淨化設備。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -359,19 +359,19 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们——终于可以开始夺回沦陷的外围据点了！",
+			say = "我們——終於可以開始奪回淪陷的外圍據點了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "广场人群",
+			actorName = "廣場人群",
 			side = 2,
 			bgName = "bg_yuhui_cg_1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "—————！（人群的欢呼声）",
+			say = "—————！（人群的歡呼聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -393,7 +393,7 @@ return {
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "如同一碗水撒入热油锅，沉默的人群在此刻沸腾了。",
+			say = "如同一碗水撒入熱油鍋中，沉默的人群在此刻沸騰了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -410,7 +410,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "高挑的身影摆了摆手，示意人群安静下来。",
+			say = "高挑的身影擺了擺手，示意人群安靜下來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -424,7 +424,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好消息不仅如此。",
+			say = "好消息不僅如此。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -438,7 +438,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在回收到的数据核心中，我们找到了自行生产净化装置的图纸，以及一整套可行的净化装置升级方案。",
+			say = "在回收的資料核心中，我們找到了自行生產淨化設備的圖紙，以及一整套可行的淨化設備升級方案。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -452,19 +452,19 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "从今往后，我们不但可以夺回失地，还拥有了向着大陆沦陷区进军，夺回故土的能力！",
+			say = "從今往後，我們不但可以奪回失地，還擁有了向著大陸淪陷區進軍，奪回故土的能力！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "广场人群",
+			actorName = "廣場人群",
 			side = 2,
 			bgName = "bg_yuhui_cg_1",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "—————！（人群的欢呼声）",
+			say = "—————！（人群的歡呼聲）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -486,7 +486,7 @@ return {
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
 			side = 2,
-			say = "回应鲁梅话语的，是一阵更热烈的欢呼声。",
+			say = "回應魯梅話語的，是一陣更熱烈的歡呼聲。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -506,7 +506,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因此，我决定，在三日后展开夺回失地的第一次作战。",
+			say = "因此，我決定，在三日後展開奪回失地的第一次作戰。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -520,7 +520,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "本次作战的目标为ID-AX-104号海域中，在过去有着“银星”之美名的斯贝尔腾岛。",
+			say = "這次作戰的目標為ID-AX-104號海域中，在過去有著「銀星」之美名的斯貝爾騰島。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们需要物理夺回、建立控制，并长期确保该岛至基地的运输线。",
+			say = "我們需要物理奪回、建立控制，並長期確保島嶼至基地的運輸線。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -548,7 +548,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "该岛屿之上，拥有升级净化装置所必须的矿物资源。",
+			say = "在島嶼之上，擁有升級淨化設備所必須的礦物資源。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -562,7 +562,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "夺回该岛，将为今后的大规模反击行动打下一块良好的基石——",
+			say = "奪回該島，將為未來的大規模反擊行動打下一塊良好的基石——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -573,7 +573,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "{namecode:542:弗里茨·鲁梅}的演讲还在继续着。",
+			say = "弗里茨·魯梅的演講還在繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -584,7 +584,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "不过在不知不觉间，演讲演变为了具体的任务分配，在场的绝大多数人都分到了属于自己的任务。",
+			say = "不過在不知不覺間，演講變變為了具體的任務分配，在場的絕大多數人都分到了屬於自己的任務。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -595,7 +595,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_cg_1",
 			hidePaintObj = true,
-			say = "这一情况最初有些令人意外，不过细想之下，倒也在情理之中。",
+			say = "這情況最初有些令人意外，不過細想之下，倒也在情理之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -608,7 +608,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（毕竟是位于前线的抵抗军基地……么。）",
+			say = "（畢竟是位於前線的抵抗軍基地……嗎。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -620,7 +620,7 @@ return {
 			bgm = "story-ironblood-light",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "待到演讲结束后，{namecode:541:杜伊斯堡}如约带我来到了抵抗军领袖的办公室之中。",
+			say = "待到演講結束後，杜伊斯堡如約帶我來到了抵抗軍領袖的辦公室。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -648,13 +648,13 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			say = "我得到了一个与这位英姿飒爽的抵抗军领袖面对面谈话的机会。",
+			say = "我得到了一個與這位英姿颯爽的抵抗軍領袖面對面談話的機會。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			},
 			location = {
-				"抵抗军基地-首领办公室",
+				"抵抗軍基地-首領辦公室",
 				3
 			}
 		},
@@ -666,7 +666,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "天外来客，{playername}阁下，对吧？",
+			say = "天外來客，{playername}閣下，對吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -680,7 +680,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你的事情我已经听说了，在来了一日之后，失忆症状有好转么？",
+			say = "你的事情我已經聽說了，在來了一日之後，失憶症狀有好轉嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -691,7 +691,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_300",
 			hidePaintObj = true,
-			say = "这位领袖有些出乎意料的，直接进入了正题。",
+			say = "這位領袖有些出乎意料的，直接進入了正題。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -705,7 +705,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抵抗军的现状相信阁下已经看到了，当前的我们需要一切帮助。",
+			say = "抵抗軍的現狀相信閣下已經看到了，目前的我們需要一切幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -719,7 +719,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而阁下天外来客的身份……我认为一定能帮到我们。",
+			say = "而閣下天外來客的身份……我認為一定能幫到我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -733,7 +733,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "相信阁下也有很多暂时不方便透露的秘密吧？",
+			say = "相信閣下也有很多暫時不方便透露的秘密吧？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -746,7 +746,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "由于物资匮乏，我给不出太多的利益交换条件。",
+			say = "由於物資匱乏，我給不太多的利益交換條件。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -760,7 +760,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我能保证，如果阁下能与我们合作，我们会将你真正视为战友，从今往后与你坚定地站在一起。",
+			say = "不過我能保證，如果閣下能與我們合作，我們會將你真正視為戰友，從今往後與你堅定的站在一起。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -774,7 +774,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "听说阁下还是一位出色的指挥官？",
+			say = "聽說閣下還是一位出色的指揮官？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -788,7 +788,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我也会给予阁下最大程度的信任，和尽情发挥的空间的。",
+			say = "我也會給予閣下最大程度的信任，和盡情發揮的空間的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -802,7 +802,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "当然……如果阁下坚持要去其他势力的话，我们也可以提供便利。",
+			say = "當然……如果閣下堅持要去其他勢力的話，我們也可以提供便利。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -816,7 +816,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过出于私心，我真心希望阁下能够留下来帮助我们。",
+			say = "不過出於私心，我真心希望閣下能留下來幫助我們。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -830,7 +830,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "阁下意下如何？",
+			say = "閣下意下如何？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -843,7 +843,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……简单直白，开门见山。）",
+			say = "（……簡單直白，開門見山。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -856,7 +856,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（这位抵抗军领袖，有些意思啊——）",
+			say = "（這位抵抗軍領袖，有些意思啊——）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

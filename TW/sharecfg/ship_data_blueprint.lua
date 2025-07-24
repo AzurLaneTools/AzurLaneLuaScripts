@@ -1,15 +1,16 @@
 pg = pg or {}
 pg.ship_data_blueprint = {
 	[29901] = {
+		unlock_word = "皇家先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		name = "海王星",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK29901",
 		strengthen_item = 42001,
-		unlock_word = "皇家先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		blueprint_version = 1,
 		id = 29901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60011
 		},
@@ -104,15 +105,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29902] = {
+		unlock_word = "皇家主力角色圖鑒登錄數達到<color=#92fc63>10</color>個以上",
 		name = "君主",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK29902",
 		strengthen_item = 42002,
-		unlock_word = "皇家主力角色圖鑒登錄數達到<color=#92fc63>10</color>個以上",
 		blueprint_version = 1,
 		id = 29902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60021
 		},
@@ -207,15 +209,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39901] = {
+		unlock_word = "重櫻先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		name = "伊吹",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK39901",
 		strengthen_item = 42003,
-		unlock_word = "重櫻先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		blueprint_version = 1,
 		id = 39901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60031
 		},
@@ -310,15 +313,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39902] = {
+		unlock_word = "重櫻主力角色圖鑒登錄數達到<color=#92fc63>10</color>個以上",
 		name = "出云",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK39902",
 		strengthen_item = 42004,
-		unlock_word = "重櫻主力角色圖鑒登錄數達到<color=#92fc63>10</color>個以上",
 		blueprint_version = 1,
 		id = 39902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60041
 		},
@@ -413,15 +417,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49901] = {
+		unlock_word = "鐵血先鋒角色圖鑒登錄數達到<color=#92fc63>7</color>個以上",
 		name = "罗恩",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK49901",
 		strengthen_item = 42005,
-		unlock_word = "鐵血先鋒角色圖鑒登錄數達到<color=#92fc63>7</color>個以上",
 		blueprint_version = 1,
 		id = 49901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60051
 		},
@@ -516,15 +521,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89901] = {
+		unlock_word = "白鷹先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		name = "路易九世",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 0,
 		luck_story = "LUCK89901",
 		strengthen_item = 42006,
-		unlock_word = "白鷹先鋒角色圖鑒登錄數達到<color=#92fc63>20</color>個以上",
 		blueprint_version = 1,
 		id = 89901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60061
 		},
@@ -619,15 +625,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19901] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>",
 		name = "西雅图",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9907,
 		luck_story = "LUCK19901",
 		strengthen_item = 42011,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>",
 		blueprint_version = 2,
 		id = 19901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60071
 		},
@@ -722,15 +729,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19902] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>810</color>",
 		name = "佐治亚",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9908,
 		luck_story = "LUCK19902",
 		strengthen_item = 42012,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>810</color>",
 		blueprint_version = 2,
 		id = 19902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60081
 		},
@@ -825,15 +833,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39903] = {
+		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>780</color>",
 		name = "北风",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9909,
 		luck_story = "LUCK39903",
 		strengthen_item = 42013,
-		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>780</color>",
 		blueprint_version = 2,
 		id = 39903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60091
 		},
@@ -928,15 +937,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39904] = {
+		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>900</color>",
 		name = "吾妻",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9910,
 		luck_story = "LUCK39904",
 		strengthen_item = 42014,
-		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>900</color>",
 		blueprint_version = 2,
 		id = 39904,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60101
 		},
@@ -1033,15 +1043,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49902] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>630</color>",
 		name = "腓特烈大帝",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9911,
 		luck_story = "LUCK49902",
 		strengthen_item = 42015,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>630</color>",
 		blueprint_version = 2,
 		id = 49902,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60111
 		},
@@ -1138,15 +1149,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99901] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、鐵血陣營科技點數達到<color=#92fc63>420</color>",
 		name = "加斯科涅",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9912,
 		luck_story = "LUCK99901",
 		strengthen_item = 42016,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、鐵血陣營科技點數達到<color=#92fc63>420</color>",
 		blueprint_version = 2,
 		id = 99901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60120,
 			60121
@@ -1242,15 +1254,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29903] = {
+		unlock_word = "皇家陣營科技點數達到<color=#92fc63>700</color>",
 		name = "柴郡",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9913,
 		luck_story = "LUCK29903",
 		strengthen_item = 42021,
-		unlock_word = "皇家陣營科技點數達到<color=#92fc63>700</color>",
 		blueprint_version = 3,
 		id = 29903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60131
 		},
@@ -1345,15 +1358,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29904] = {
+		unlock_word = "皇家陣營科技點數達到<color=#92fc63>820</color>",
 		name = "德雷克",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 1,
 		simulate_dungeon = 9914,
 		luck_story = "LUCK29904",
 		strengthen_item = 42022,
-		unlock_word = "皇家陣營科技點數達到<color=#92fc63>820</color>",
 		blueprint_version = 3,
 		id = 29904,
-		price = 6000,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60141
 		},
@@ -1450,15 +1464,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49903] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>550</color>",
 		name = "美因茨",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9915,
 		luck_story = "LUCK49903",
 		strengthen_item = 42023,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>550</color>",
 		blueprint_version = 3,
 		id = 49903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60151
 		},
@@ -1553,15 +1568,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[49904] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>",
 		name = "奥丁",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9916,
 		luck_story = "LUCK49904",
 		strengthen_item = 42024,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>",
 		blueprint_version = 3,
 		id = 49904,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60161
 		},
@@ -1656,15 +1672,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[89902] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、皇家陣營科技點數達到<color=#92fc63>700</color>",
 		name = "香槟",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9917,
 		luck_story = "LUCK89902",
 		strengthen_item = 42025,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、皇家陣營科技點數達到<color=#92fc63>700</color>",
 		blueprint_version = 3,
 		id = 89902,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60170,
 			60171
@@ -1760,15 +1777,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[19903] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>850</color>",
 		name = "安克雷奇",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9918,
 		luck_story = "LUCK19903",
 		strengthen_item = 42031,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>850</color>",
 		blueprint_version = 4,
 		id = 19903,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60181
 		},
@@ -1863,15 +1881,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[39905] = {
+		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>950</color>",
 		name = "白龙",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9919,
 		luck_story = "LUCK39905",
 		strengthen_item = 42032,
-		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>950</color>",
 		blueprint_version = 4,
 		id = 39905,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60191
 		},
@@ -1968,15 +1987,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49905] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>700</color>",
 		name = "埃吉尔",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9920,
 		luck_story = "",
 		strengthen_item = 42033,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>700</color>",
 		blueprint_version = 4,
 		id = 49905,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60201
 		},
@@ -2058,15 +2078,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49906] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>",
 		name = "奥古斯特·冯·帕塞瓦尔",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9921,
 		luck_story = "LUCK49906",
 		strengthen_item = 42034,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>",
 		blueprint_version = 4,
 		id = 49906,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60211
 		},
@@ -2161,15 +2182,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[69901] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>、皇家陣營科技點數達到<color=#92fc63>700</color>",
 		name = "马可波罗",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 1,
 		simulate_dungeon = 9922,
 		luck_story = "LUCK69901",
 		strengthen_item = 42035,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>600</color>、皇家陣營科技點數達到<color=#92fc63>700</color>",
 		blueprint_version = 4,
 		id = 69901,
-		price = 1500,
-		is_pursuing = 1,
 		unlock_task_open_condition = {
 			60220,
 			60221
@@ -2265,15 +2287,16 @@ pg.ship_data_blueprint = {
 		}
 	},
 	[29905] = {
+		unlock_word = "皇家陣營科技點數達到<color=#92fc63>900</color>",
 		name = "普利茅斯",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9923,
 		luck_story = "",
 		strengthen_item = 42041,
-		unlock_word = "皇家陣營科技點數達到<color=#92fc63>900</color>",
 		blueprint_version = 5,
 		id = 29905,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60231
 		},
@@ -2355,15 +2378,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49907] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>700</color>",
 		name = "鲁普雷希特亲王",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9924,
 		luck_story = "LUCK49907",
 		strengthen_item = 42042,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>700</color>",
 		blueprint_version = 5,
 		id = 49907,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60241
 		},
@@ -2456,15 +2480,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[59901] = {
+		unlock_word = "東煌陣營科技點數達到<color=#92fc63>160</color>",
 		name = "哈尔滨",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9925,
 		luck_story = "LUCK59901",
 		strengthen_item = 42043,
-		unlock_word = "東煌陣營科技點數達到<color=#92fc63>160</color>",
 		blueprint_version = 5,
 		id = 59901,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60251
 		},
@@ -2557,15 +2582,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[79901] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、薩丁帝國陣營科技點數達到<color=#92fc63>300</color>",
 		name = "契卡洛夫",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9926,
 		luck_story = "LUCK79901",
 		strengthen_item = 42044,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>760</color>、薩丁帝國陣營科技點數達到<color=#92fc63>300</color>",
 		blueprint_version = 5,
 		id = 79901,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60260,
 			60261
@@ -2659,15 +2685,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[89903] = {
+		unlock_word = "自由鳶尾陣營科技點數達到<color=#92fc63>250</color>",
 		name = "布雷斯特",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9927,
 		luck_story = "",
 		strengthen_item = 42045,
-		unlock_word = "自由鳶尾陣營科技點數達到<color=#92fc63>250</color>",
 		blueprint_version = 5,
 		id = 89903,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60271
 		},
@@ -2749,15 +2776,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19904] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>1000</color>",
 		name = "奇尔沙治",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9928,
 		luck_story = "",
 		strengthen_item = 42051,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>1000</color>",
 		blueprint_version = 6,
 		id = 19904,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60281
 		},
@@ -2839,15 +2867,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39906] = {
+		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>900</color>",
 		name = "四万十",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9929,
 		luck_story = "",
 		strengthen_item = 42052,
-		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>900</color>",
 		blueprint_version = 6,
 		id = 39906,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60291
 		},
@@ -2929,15 +2958,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49908] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>850</color>",
 		name = "菲利克斯·舒尔茨",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9930,
 		luck_story = "",
 		strengthen_item = 42053,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>850</color>",
 		blueprint_version = 6,
 		id = 49908,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60301
 		},
@@ -3019,15 +3049,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[49909] = {
+		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>950</color>",
 		name = "兴登堡",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9931,
 		luck_story = "",
 		strengthen_item = 42054,
-		unlock_word = "鐵血陣營科技點數達到<color=#92fc63>950</color>",
 		blueprint_version = 6,
 		id = 49909,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60311
 		},
@@ -3109,15 +3140,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[99902] = {
+		unlock_word = "維希教廷陣營科技點數達到<color=#92fc63>180</color>、鐵血陣營科技點數達到<color=#92fc63>800</color>",
 		name = "弗兰德尔",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9932,
 		luck_story = "",
 		strengthen_item = 42055,
-		unlock_word = "維希教廷陣營科技點數達到<color=#92fc63>180</color>、鐵血陣營科技點數達到<color=#92fc63>800</color>",
 		blueprint_version = 6,
 		id = 99902,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60320,
 			60321
@@ -3200,15 +3232,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[19905] = {
+		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>950</color>",
 		name = "哈尔福德",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9933,
 		luck_story = "",
 		strengthen_item = 42061,
-		unlock_word = "白鷹陣營科技點數達到<color=#92fc63>950</color>",
 		blueprint_version = 7,
 		id = 19905,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60331
 		},
@@ -3290,15 +3323,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[39907] = {
+		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>950</color>",
 		name = "大山",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9934,
 		luck_story = "",
 		strengthen_item = 42062,
-		unlock_word = "重櫻陣營科技點數達到<color=#92fc63>950</color>",
 		blueprint_version = 7,
 		id = 39907,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60341
 		},
@@ -3380,15 +3414,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[69902] = {
+		unlock_word = "薩丁帝國陣營科技點數達到<color=#92fc63>300</color>、北方聯合陣營科技點數達到<color=#92fc63>200</color>",
 		name = "那不勒斯",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9935,
 		luck_story = "",
 		strengthen_item = 42063,
-		unlock_word = "薩丁帝國陣營科技點數達到<color=#92fc63>300</color>、北方聯合陣營科技點數達到<color=#92fc63>200</color>",
 		blueprint_version = 7,
 		id = 69902,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60350,
 			60351
@@ -3471,15 +3506,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[79902] = {
+		unlock_word = "北方聯合陣營科技點數達到<color=#92fc63>300</color>、薩丁帝國陣營科技點數達到<color=#92fc63>200</color>",
 		name = "纳希莫夫",
+		normal_display = "",
+		price = 6000,
+		is_pursuing = 0,
 		simulate_dungeon = 9936,
 		luck_story = "",
 		strengthen_item = 42064,
-		unlock_word = "北方聯合陣營科技點數達到<color=#92fc63>300</color>、薩丁帝國陣營科技點數達到<color=#92fc63>200</color>",
 		blueprint_version = 7,
 		id = 79902,
-		price = 6000,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60360,
 			60361
@@ -3562,15 +3598,16 @@ pg.ship_data_blueprint = {
 		gain_item_id = {}
 	},
 	[89904] = {
+		unlock_word = "自由鳶尾陣營科技點數達到<color=#92fc63>230</color>",
 		name = "贝亚德",
+		normal_display = "",
+		price = 1500,
+		is_pursuing = 0,
 		simulate_dungeon = 9937,
 		luck_story = "",
 		strengthen_item = 42065,
-		unlock_word = "自由鳶尾陣營科技點數達到<color=#92fc63>230</color>",
 		blueprint_version = 7,
 		id = 89904,
-		price = 1500,
-		is_pursuing = 0,
 		unlock_task_open_condition = {
 			60371
 		},

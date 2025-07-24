@@ -30,7 +30,9 @@ slot0.preload = function(slot0, slot1)
 			end
 		end)
 	else
-		LoadSpriteAsync("loadingbg/" .. slot0.bgPath, function (slot0)
+		slot2 = LOGIN_HX and PlayerProxy.GetDeviceMaxPlayerLevel() <= pg.gameset.LOGIN_HX_LV.key_value
+
+		LoadSpriteAsync((slot2 and "loadingbg_hx/" or "loadingbg/") .. slot0.bgPath, function (slot0)
 			uv0.staticBgSprite = slot0
 
 			if uv1 then

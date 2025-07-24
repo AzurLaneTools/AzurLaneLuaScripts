@@ -101,6 +101,15 @@ pg.activity_banner_notice = {
 			}
 		}
 	},
+	{
+		id = 14,
+		param = {
+			"scene charge",
+			{
+				wrap = 4
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -114,6 +123,7 @@ pg.activity_banner_notice = {
 		10,
 		11,
 		12,
-		13
+		13,
+		14
 	}
 }

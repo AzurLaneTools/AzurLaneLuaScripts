@@ -14,15 +14,15 @@ return {
 			bgm = "theme-akagi-meta",
 			sequence = {
 				{
-					"撒丁帝国",
+					"薩丁帝國",
 					1
 				},
 				{
-					"原博览会会场",
+					"原博覽會會場",
 					2
 				},
 				{
-					"四季花馆",
+					"四季花館",
 					3
 				}
 			}
@@ -32,7 +32,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "star_level_bg_5",
-			say = "三色蝴蝶构成的圆环隔绝了内外，其中似乎形成了一处独立的空间。",
+			say = "三色蝴蝶構成的圓環隔絕了內外，其中似乎形成了一處獨立的空間。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_port_niuyue",
-			say = "港口中，一艘艘货船忙碌地穿梭着。",
+			say = "港口中，一艘艘貨船忙碌地穿梭。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -87,12 +87,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这是，NY港？",
+			say = "……這是，NY港？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,12 +102,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们来到NY港了？！",
+			say = "我們來到NY港了？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,12 +116,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_port_niuyue",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "并非如此，这只是我们从阵法之中看到的景象。",
+			say = "並非如此，這只是我們從陣法中看到的景象。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -131,12 +131,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "{playername}阁下与白鹰的关系匪浅，我们先从这里开始找。",
+			say = "{playername}閣下與白鷹的關係匪淺，我們先從這裡開始找。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -145,12 +145,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_port_niuyue",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "如何，心中有感应么？",
+			say = "如何，心中有感應嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -159,12 +159,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_port_niuyue",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我什么都没感觉出来……",
+			say = "我什麼都沒感覺出來……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -174,12 +174,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_port_niuyue",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也罢，总得一个一个试。",
+			say = "也罷，總得一個一個試。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -190,7 +190,7 @@ return {
 			bgName = "star_level_bg_5",
 			hidePaintObj = true,
 			side = 2,
-			say = "一股金光从天而降，而后以{namecode:91:赤城}为中心向外形成了一道向外扩散的冲击波。",
+			say = "一股金光從天而降，而後以赤城為中心向外形成了一道向外擴散的衝擊波。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -211,7 +211,7 @@ return {
 			bgName = "star_level_bg_5",
 			hidePaintObj = true,
 			side = 2,
-			say = "转瞬间，忙碌的NY港就如同泡沫般消散了。",
+			say = "轉瞬間，忙碌的NY港就如同泡沫般消散了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -231,7 +231,7 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
@@ -245,12 +245,12 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "因为搜索结束，我把区域被排除了而已……",
+			say = "因為搜尋結束，我把區域被排除了而已……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -260,12 +260,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你什么事都要一惊一乍么？",
+			say = "妳什麼事都要大呼小叫的呢？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -274,7 +274,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
@@ -289,12 +289,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "哼，继续吧！",
+			say = "哼，繼續吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -305,7 +305,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_xiangting_3",
-			say = "混乱的天象在这片海域中肆虐着。",
+			say = "混亂的天像在這片海域中肆虐著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,12 +332,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我们来到百慕大海域了！",
+			say = "我們來到百慕達海域了！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -347,12 +347,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_xiangting_3",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有感应么？",
+			say = "有感應嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -361,12 +361,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_xiangting_3",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……没有。",
+			say = "……沒有。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -379,7 +379,7 @@ return {
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "继续。",
+			say = "繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			bgName = "bg_luoxuan_2",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "薄暮中，岛屿上的亮光闪烁着。",
+			say = "薄暮中，島嶼上的亮光閃爍著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -437,12 +437,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "居然连AF基地都能看到……你们这也太夸张了吧？！",
+			say = "居然連AF基地都能看到……妳們這也太誇張了吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -451,12 +451,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "要是以后再有军事调动……",
+			say = "要是以後再有軍事調動……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -466,12 +466,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……还做不做正事了。",
+			say = "……還做不做正事了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -481,12 +481,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_luoxuan_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "抱、抱歉……还是没有感应。",
+			say = "抱、抱歉……還是沒有感應。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -496,12 +496,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这么下去太慢了。",
+			say = "……這麼下去太慢了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -521,12 +521,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你想做什么……？",
+			say = "你想做什麼……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -545,7 +545,7 @@ return {
 		{
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
@@ -560,12 +560,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_5",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……先从整片帕克菲克洋开始吧。",
+			say = "……先從整片太平洋開始吧。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -576,7 +576,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_tieyiqingfeng_2",
-			say = "高空下，帕克菲克洋诸{namecode:18:岛风}光一览无余。",
+			say = "高空下，帕克菲克洋諸島風光一覽無遺。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -603,7 +603,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
@@ -628,12 +628,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "喂，你这也太乱来了吧！",
+			say = "喂，妳這也太亂來了吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -642,12 +642,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你的脸色好差，没事吧？！",
+			say = "……妳的臉色好差，沒事吧？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -657,12 +657,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳、没事。",
+			say = "咳、沒事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -682,12 +682,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "你这都吐血了啊，先休息一下吧！",
+			say = "妳這都吐血了啊，先休息一下吧！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -697,12 +697,12 @@ return {
 			expression = 3,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "少废话，死不了。",
+			say = "少廢話，死不了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -712,12 +712,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "怎么样，这次有反应么？",
+			say = "怎麼樣，這次有反應嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -727,12 +727,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有、有了一点！",
+			say = "有、有了一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -741,12 +741,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "在哪里！",
+			say = "在哪裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -756,12 +756,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不在这里，要更靠北一些！",
+			say = "不在這裡，要更北一點！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -771,12 +771,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "更靠北……难道和极地有关？",
+			say = "更靠北……難道和極地有關？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -785,7 +785,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_tieyiqingfeng_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
@@ -811,7 +811,7 @@ return {
 			bgName = "bg_map_northsea",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "凌冽的寒风裹挟着冰霜肆虐着。",
+			say = "凌冽的寒風裹挾著冰霜肆虐。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -848,7 +848,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_map_northsea",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
@@ -863,12 +863,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_map_northsea",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感应变强了，就在这里！",
+			say = "感應變強了，就在這裡！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -877,12 +877,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_map_northsea",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "缩小范围继续找！",
+			say = "縮小範圍繼續找！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -904,7 +904,7 @@ return {
 			bgm = "deepblue-image",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "幽蓝下，冰块般的巨大立方体静静陈列在海床上。",
+			say = "幽藍下，冰塊般的巨大立方體靜靜陳列在海床上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -940,12 +940,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……这里是什么地方？",
+			say = "……這裡是什麼地方？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -955,12 +955,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我只缩小了范围没有更换区域……这里还是极地。",
+			say = "我只縮小了範圍沒有更換區域……這裡還是極地。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -969,12 +969,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "难道是水面下的镜面海域……？",
+			say = "難道是水面下的鏡面海域……？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -984,12 +984,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "啊，指挥官的感应变得更强了……！",
+			say = "啊，指揮官的感應變得更強了……！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1008,12 +1008,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_cccpv2_2",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咳、看来是找对地方了……继续。",
+			say = "咳、看來是找對地方了……繼續。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1031,13 +1031,13 @@ return {
 		},
 		{
 			side = 2,
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			bgName = "bg_cccpv2_10",
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "咦……这次周围没有发生变化！",
+			say = "咦……這次周圍沒有改變！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1064,12 +1064,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "而且……这些光芒是？！",
+			say = "而……這些光芒是？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1079,12 +1079,12 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "有力量正在与法阵对抗……",
+			say = "有力量正在與法陣對抗……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1093,12 +1093,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "呵……让我看看下面究竟藏了些什么东西。",
+			say = "呵……讓我看看下面究竟藏了些什麼。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1108,12 +1108,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "给我开门……",
+			say = "給我開門……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1137,12 +1137,12 @@ return {
 		{
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开门、！",
+			say = "開門、！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1167,12 +1167,12 @@ return {
 			expression = 4,
 			side = 2,
 			bgName = "bg_cccpv2_10",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "开门————！",
+			say = "開門————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1199,7 +1199,7 @@ return {
 			bgm = "story-ironblood-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "星光下，战火熊熊燃烧着。",
+			say = "星光下，戰火熊熊燃燒著。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1236,12 +1236,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "bg_yuhui_4",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "感应愈发强烈了，我能感觉到指挥官就在附近！",
+			say = "感應愈發強烈了，我能感覺到指揮官就在附近！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1250,7 +1250,7 @@ return {
 		{
 			side = 2,
 			bgName = "bg_yuhui_4",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",
@@ -1267,7 +1267,7 @@ return {
 			bgm = "theme-themagiciani",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "明亮的阳光洒在桌椅上，带来了温暖的气息。",
+			say = "明亮的陽光灑在桌椅上，帶來了溫暖的氣息。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1294,12 +1294,12 @@ return {
 			expression = 2,
 			side = 2,
 			bgName = "star_level_bg_147",
-			factiontag = "引导标记",
+			factiontag = "引導標記",
 			dir = 1,
 			actor = 102160,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这里是……",
+			say = "這裡是……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -1309,7 +1309,7 @@ return {
 			expression = 1,
 			side = 2,
 			bgName = "star_level_bg_147",
-			factiontag = "追踪指针",
+			factiontag = "追蹤指針",
 			dir = 1,
 			actor = 307010,
 			nameColor = "#A9F548FF",

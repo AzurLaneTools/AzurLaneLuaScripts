@@ -68,7 +68,6 @@ slot0.GenerateData = function(slot0)
 			slot0.parent = slot1.parent
 			slot3 = slot0:GetShipSkinConfig().live2d_offset
 			slot4 = nil
-			slot4 = (not slot1.offset or #slot2 < 4 or Vector3(slot2[4], slot2[4], slot2[4])) and (not slot3 or #slot3 < 4 or Vector3(slot3[4], slot3[4], slot3[4])) and Vector3(52, 52, 52)
 			slot5 = nil
 			slot5 = (not slot2 or #slot2 < 3 or (not slot2[1] or not slot2[2] or not slot2[3] or {
 				slot2[1],
@@ -76,14 +75,8 @@ slot0.GenerateData = function(slot0)
 				slot2[3]
 			}) and slot0:GetShipSkinConfig().live2d_offset) and slot0:GetShipSkinConfig().live2d_offset
 			slot6 = nil
-
-			if slot1.position then
-				slot6 = slot1.position
-			else
-				slot1.position = Vector3(0, 0, 0)
-			end
-
-			slot0.scale = slot4
+			slot6 = (not slot1.position or slot1.position) and Vector3(0, 0, 0)
+			slot0.scale = (not slot1.offset or #slot2 < 4 or Vector3(slot2[4], slot2[4], slot2[4])) and (not slot3 or #slot3 < 4 or Vector3(slot3[4], slot3[4], slot3[4])) and Vector3(52, 52, 52)
 			slot0.gyro = slot0:GetShipSkinConfig().gyro or 0
 			slot0.shipL2dId = slot0:GetShipSkinConfig().ship_l2d_id
 			slot0.skinId = slot0:GetShipSkinConfig().id
@@ -564,7 +557,6 @@ slot17 = function(slot0, slot1)
 
 	slot0._tf.localScale = slot0.live2dData.scale
 	slot0._tf.localPosition = slot0.live2dData.position
-	slot0._l2dPosition = slot0._tf.position
 	slot0.liveCom = slot1:GetComponent(typeof(Live2dChar))
 	slot0._animator = slot1:GetComponent(typeof(Animator))
 	slot0.cubismModelCom = slot1:GetComponent("Live2D.Cubism.Core.CubismModel")
@@ -687,11 +679,6 @@ slot0.SetVisible = function(slot0, slot1)
 		return
 	end
 
-	Input.gyro.enabled = PlayerPrefs.GetInt(GYRO_ENABLE, 1) == 1
-
-	slot0:setReactPos(true)
-	slot0:Reset()
-
 	if slot1 then
 		slot0._readlyToStop = false
 
@@ -710,6 +697,7 @@ slot0.SetVisible = function(slot0, slot1)
 			slot0:resetL2dData()
 		end
 	else
+		slot0:setReactPos(true)
 		slot0:saveLive2dData()
 		slot0:loadLive2dData()
 
@@ -933,12 +921,13 @@ slot0.offsetL2dPositonDelay = function(slot0, slot1, slot2, slot3)
 		LeanTween.cancel(go(slot0._tf))
 	end
 
-	slot0._tf.position = Vector3(slot0._l2dPosition.x + 300, 0, 0)
+	slot0._tf.localPosition = Vector3(30000, 0, 0)
 	slot0._animator.speed = slot2
 
 	LeanTween.delayedCall(go(slot0._tf), slot1, System.Action(function ()
 		if uv0._tf then
-			uv0._tf.position = uv0._l2dPosition
+			uv0:resetPosition()
+
 			uv0._animator.speed = 1
 		end
 
@@ -1066,6 +1055,10 @@ end
 
 slot0.setPosition = function(slot0, slot1)
 	slot0._tf.localPosition = slot1
+end
+
+slot0.resetPosition = function(slot0)
+	slot0._tf.localPosition = slot0.live2dData.position
 end
 
 slot0.updateDragsSateData = function(slot0)

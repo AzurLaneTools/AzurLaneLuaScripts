@@ -13,7 +13,7 @@ return {
 			bgm = "story-ironblood-strong",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -76,7 +76,7 @@ return {
 			}
 		},
 		{
-			actorName = "天外之兽群",
+			actorName = "天外之獸群",
 			side = 2,
 			bgName = "star_level_bg_504",
 			nameColor = "#A9F548FF",
@@ -199,7 +199,7 @@ return {
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
 			side = 2,
-			say = "天外之兽的兽群规模快速地扩张着，或是来自于云层，或是来自于水下。",
+			say = "天外之獸的獸群規模快速的擴張著，或是來自於雲層，或是來自於水下。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -216,7 +216,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "战局在短时间内彻底陷入了绝望。",
+			say = "戰局在短時間內徹底陷入了絕望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "虽然尽了最大的努力，但是通讯频道中能够回应的人正在变得越来越少。",
+			say = "雖然盡了最大的努力，但通訊頻道中能夠回應的人正在變得越來越少。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -238,74 +238,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "撤退，也变为了彻底的奢望。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 4,
-			side = 2,
-			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			dir = 1,
-			actor = 402110,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "怎么会这样……这种规模的敌人，为什么会在今天出现。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			dir = 1,
-			actor = 402110,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "怎么可能……为什么会这样……",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			say = "一次志在必得的行动，却以这样的惨局收场。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			side = 2,
-			nameColor = "#A9F548FF",
-			bgName = "star_level_bg_504",
-			hidePaintObj = true,
-			say = "通讯器中的{namecode:541:杜伊斯堡}微微颤抖着，吐露出无尽的痛苦与不甘。",
-			typewriter = {
-				speed = 0.05,
-				speedUp = 0.01
-			}
-		},
-		{
-			expression = 5,
-			side = 2,
-			bgName = "star_level_bg_504",
-			paintingNoise = true,
-			dir = 1,
-			actor = 402110,
-			nameColor = "#A9F548FF",
-			hidePaintObj = true,
-			say = "指挥官……看来我们今天注定无法全身而退了。",
+			say = "撤退，也變成徹底的奢望。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +253,74 @@ return {
 			actor = 402110,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……抱歉将你也卷进来，我——",
+			say = "怎麼會這樣……這種規模的敵人，為什麼會在今天出現。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_504",
+			paintingNoise = true,
+			dir = 1,
+			actor = 402110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "怎麼可能……為什麼會這樣……",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			say = "一次志在必得的行動，卻以這樣的慘局收場。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			side = 2,
+			nameColor = "#A9F548FF",
+			bgName = "star_level_bg_504",
+			hidePaintObj = true,
+			say = "通訊器中的杜伊斯堡微微顫抖著，吐露出無盡的痛苦與不甘。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 5,
+			side = 2,
+			bgName = "star_level_bg_504",
+			paintingNoise = true,
+			dir = 1,
+			actor = 402110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "指揮官……看來我們今天注定無法全身而退了。",
+			typewriter = {
+				speed = 0.05,
+				speedUp = 0.01
+			}
+		},
+		{
+			expression = 4,
+			side = 2,
+			bgName = "star_level_bg_504",
+			paintingNoise = true,
+			dir = 1,
+			actor = 402110,
+			nameColor = "#A9F548FF",
+			hidePaintObj = true,
+			say = "……抱歉將你也捲進來，我——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -332,7 +332,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -382,7 +382,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "star_level_bg_504",
 			hidePaintObj = true,
-			say = "通讯频道陷入了死一般的寂静。",
+			say = "通訊頻道陷入了死一般的寂靜。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -408,7 +408,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……我的生命就要结束了？",
+			say = "……我的生命就要結束了？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -421,7 +421,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "……如此轻易又草率？",
+			say = "……如此輕易又草率？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -434,7 +434,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我还什么都没开始做……甚至连记忆都没能找回……",
+			say = "我還什麼都沒開始做……甚至連記憶都沒能找回……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -447,7 +447,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这种结局实在是……",
+			say = "這種結局實在……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -459,7 +459,7 @@ return {
 			bgName = "star_level_bg_504",
 			soundeffect = "event:/battle/boom2",
 			hidePaintObj = true,
-			say = "轰————！",
+			say = "轟————！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -510,7 +510,7 @@ return {
 			bgm = "theme-themagiciani",
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "象征量产舰被摧毁的爆炸声中，我的意识逐渐陷入沉寂。",
+			say = "在象徵量產艦被摧毀的爆炸聲中，我的意識逐漸陷入沉默。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -534,7 +534,7 @@ return {
 			}
 		},
 		{
-			actorName = "奇怪的声音",
+			actorName = "奇怪的聲音 ",
 			side = 2,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
@@ -551,7 +551,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			blackBg = true,
-			say = "耳边，似乎传来了洗牌的声音——",
+			say = "耳邊，似乎傳來了洗牌的聲音——",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

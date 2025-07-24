@@ -46,7 +46,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "亭台楼阁，鳞次栉比。",
+			say = "亭台樓閣，鱗次櫛比。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -60,7 +60,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在陆地之上。",
+			say = "我行走在陸地之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -74,7 +74,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "群山叠嶂，飞流横渡。",
+			say = "群山疊嶂，飛流橫渡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -102,7 +102,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "无垠白滩，无垠白浪。",
+			say = "無垠白灘，無垠白浪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -116,7 +116,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在云端之上。",
+			say = "我行走在雲端之上。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "迎着纯白的阳光，世界变为了纯白色。",
+			say = "迎著純白的陽光，世界變成了純白色。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在纯白之中。",
+			say = "我行走在純白之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -158,7 +158,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "我行走在天国之中。",
+			say = "我行走在天國之中。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -172,7 +172,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "祂的目光注视着我。",
+			say = "祂的目光注視著我。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -186,7 +186,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "齐颂之声在我的耳边回荡。",
+			say = "齊頌之聲在我的耳邊迴盪。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -197,8 +197,8 @@ return {
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
 			nameColor = "#BDBDBD",
-			actorName = "齐颂之音",
-			say = "ÓŕÄËşŁÂĺˇŇĚŘąüłÖšľÍ¨ĚáłŤ˝ťÁ÷ĘÜŃĄÖŽČËŔ´ÓŕÉíąßşĎÓŕÖŽľŔËĚÓŕÖŽĂű",
+			actorName = "齊頌之音",
+			say = "ÓŕÄËşŁÂĺˇŇĚŘąüłÖšľÍ¨ĚáłŤ˝ťÁ÷ĘÜŃĄÖŽČËŔ´ÓŕÉíąşĎÓŕ",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -239,7 +239,7 @@ return {
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
@@ -258,14 +258,14 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……「秉持沟通，提倡交流」",
+			say = "……「秉持溝通，提倡交流」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
@@ -284,14 +284,14 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……「受选之人，来余身边」",
+			say = "……「受選之人，來余身邊」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
 			}
 		},
 		{
-			actorName = "齐颂之音",
+			actorName = "齊頌之音",
 			side = 2,
 			bgName = "bg_underheaven_0",
 			hidePaintObj = true,
@@ -310,7 +310,7 @@ return {
 			actor = 699010,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……「合余之道，颂余之名」",
+			say = "……「合余之道，頌余之名」",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01

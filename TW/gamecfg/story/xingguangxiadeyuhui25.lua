@@ -41,7 +41,7 @@ return {
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
 			bgName = "bg_yuhui_3",
-			say = "透过量产型上的窗户，海面上的战火清晰可见。",
+			say = "透過量產型上的窗戶，海面上的戰火清晰可見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -71,7 +71,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（……回来了么。）",
+			say = "（……回來了嗎。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -84,7 +84,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（如果不着急启动米德加尔特之壁的话，星之兽还需要五个小时才能降临。）",
+			say = "（如果不急著啟動米德加爾特之壁的話，星之獸還需要五個小時才能降臨。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -97,7 +97,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（希望能有足够时间执行计划吧。）",
+			say = "（希望有足夠時間執行計劃吧。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -108,7 +108,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "抬头望去，{namecode:542:弗里茨·鲁梅}刚刚将侦察机放了出去，想来很快就能知道{namecode:426:希佩尔}·META前来支援的消息了。",
+			say = "抬頭望去，弗里茨·魯梅剛剛將偵察機放了出去，想來很快就能知道希佩爾·META前來支援的消息了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -119,7 +119,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "我按照之前的方式让鲁梅相信了星之兽即将进攻的事，并确定了争取{namecode:426:希佩尔}·META一同作战的行动方针。",
+			say = "我按照之前的方式讓魯梅相信了星之獸即將進攻的事，並確定了爭取希佩爾·META一同作戰的行動方針。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -130,7 +130,7 @@ return {
 			nameColor = "#A9F548FF",
 			bgName = "bg_yuhui_3",
 			hidePaintObj = true,
-			say = "不过接下来的部署，就与此前截然不同了。",
+			say = "不過接下來的部署，就與先前截然不同了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -144,7 +144,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你想利用能源金晶增幅{namecode:426:希佩尔}·META的力量？",
+			say = "……你想利用能源金晶增幅希佩爾META的力量？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -157,7 +157,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "没错。这边世界有过类似的先例么？",
+			say = "沒錯。這邊世界有過類似的先例嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -171,7 +171,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "据我所知没有……",
+			say = "據我所知沒有……",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -185,7 +185,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不对……等等，虽然我没听说过直接使用能源金晶增幅舰船战斗力的事。",
+			say = "不對……等等，雖然我沒聽過直接使用能源金晶增幅艦船戰鬥力的事。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -199,7 +199,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不过我听说过一种在黄金年代使用过的便携式高速舰装维修剂，能源金晶就是其中的制造原料之一。",
+			say = "不過我聽說過一種在黃金時代使用過的便攜式高速艦裝維修劑，能源金晶就是其中的製造原料之一。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -213,7 +213,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "这种高速维修剂不但可以在战斗中快速修复受损的舰装，甚至连躯体的损伤和一定程度内的心智魔方损伤都能修复。",
+			say = "這種高速維修劑不但可以在戰鬥中快速修復受損的艦裝，甚至連軀體的損傷和一定程度內的心智魔方損傷都能修復。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -227,7 +227,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "也算是一种间接提升方式了。",
+			say = "也算是一種間接提升方式了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -240,7 +240,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "能够修复心智魔方的损伤……？那遭受META化侵蚀的心智魔方呢？！",
+			say = "能夠修復心智魔方的損傷……？那遭受META化侵蝕的心智魔方呢？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -253,7 +253,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这种维修剂你还有么？！",
+			say = "這種維修劑你還有嗎？！",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -267,7 +267,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "很遗憾，我也是在过去偶然间入手了一批而已，早就已经用完了。",
+			say = "很遺憾，我也是在過去偶然間入手了一批而已，早就已經用完了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -281,7 +281,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "至于能否修复遭受META化侵蚀的魔方，我就不清楚了。",
+			say = "至於能否修復遭受META化侵蝕的魔方，我就不清楚了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -294,7 +294,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "这样啊……真遗憾。",
+			say = "這樣啊……真遺憾。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -307,7 +307,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（不过……这倒是一个极好的思路……！）",
+			say = "（不過……這倒是一個極好的思路……！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -320,7 +320,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（回去之后让星海顺着这个方向进行研究吧！）",
+			say = "（回去之後讓星海順著這個方向進行研究吧！）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -333,7 +333,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "（错不了，能够直接影响心智魔方……这个所谓的能源金晶，一定与神石存在某种关系。）",
+			say = "（錯不了，能夠直接影響心智魔方……這個所謂的能源金晶，一定與神石有某種關係。）",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -346,7 +346,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "我要去查看一下采集好的能源金晶。",
+			say = "我要去查看採集好的能源金晶。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -360,7 +360,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "不行，现在矿物上有残留的辐射污染，你直接接触会有危险的。",
+			say = "不行，現在礦物上有殘留的輻射汙染，你直接接觸會有危險的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -373,7 +373,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "能立刻开始净化么？",
+			say = "能立刻開始淨化嗎？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -387,7 +387,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "倒是已经修好一台净化装置了，不过设备在基地的能量塔里。",
+			say = "倒是已經修好一台淨化設備了，不過設備在基地的能量塔裡。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -400,7 +400,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "你是想现在赶工升级一台净化装置？",
+			say = "你是想現在趕工升級一台淨化裝置？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -414,7 +414,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "行不通的，按照图纸来说，升级设备至少需要半个月，而且净化装置对于同天外之兽的战斗也没什么帮助。",
+			say = "行不通的，按照圖來說，升級設備至少需要半個月，而且淨化設備對於同天外之獸的戰鬥也沒什麼幫助。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -427,7 +427,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "并非如此，我只是需要一批完成净化的能源金晶罢了。",
+			say = "並非如此，我只是需要一批完成淨化的能源金晶罷了。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -440,7 +440,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "之后决战中有大用。",
+			say = "之後決戰有大用。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -454,7 +454,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "……你手里真有用能源金晶增幅舰船战斗力的方法？",
+			say = "……你手上真有用能源金晶增幅艦船戰鬥力的方法？",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -467,7 +467,7 @@ return {
 			hidePaintObj = true,
 			side = 2,
 			portrait = "zhihuiguan",
-			say = "类似。时间紧迫，之后我会向你解释的。",
+			say = "類似。時間緊迫，之後我會向妳解釋的。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -480,7 +480,7 @@ return {
 			hidePaintObj = true,
 			dir = 1,
 			nameColor = "#A9F548FF",
-			say = "我先带一半舰队护送矿物回能源塔，你带另一半舰队把{namecode:426:希佩尔}·META叫过来。",
+			say = "我先帶一半艦隊護送礦物回能源塔，你帶另一半艦隊把希佩爾·META叫過來。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
@@ -494,7 +494,7 @@ return {
 			actor = 407040,
 			nameColor = "#A9F548FF",
 			hidePaintObj = true,
-			say = "好，希望你的方案有用，能源塔见。",
+			say = "好，希望你的方案有用，能源塔見。",
 			typewriter = {
 				speed = 0.05,
 				speedUp = 0.01
