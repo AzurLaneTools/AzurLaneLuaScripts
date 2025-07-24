@@ -1,138 +1,14 @@
 pg = pg or {}
 pg.activity_ryza_recipe = {
-	{
-		rarity = 3,
-		display = "採取しやすいように改良されたこの鎌は、まるで風のように静かに軽やかに草や花を刈り取る",
-		name = "サイレントシックル",
-		type = 3,
-		item_num = 1,
-		id = 1,
-		icon = "props/ryza_item_4",
-		item_id = {
-			1001,
-			4
-		},
-		recipe_circle = {
-			10,
-			12,
-			13,
-			14,
-			15,
-			16,
-			19,
-			17,
-			11,
-			18
-		}
-	},
-	{
-		rarity = 3,
-		display = "切れ味や重さを細かく調整し改良を施されたため、普通の斧よりもラクに木材も薪も作れる",
-		name = "ゴールデンアックス",
-		type = 3,
-		item_num = 1,
-		id = 2,
-		icon = "props/ryza_item_3",
-		item_id = {
-			1001,
-			3
-		},
-		recipe_circle = {
-			20,
-			23,
-			24,
-			25,
-			27,
-			28,
-			21,
-			29,
-			1,
-			22,
-			26
-		}
-	},
-	{
-		rarity = 3,
-		display = "フラムロッドの強化版。先端の宝玉を青い物に変えたため、以前よりも効率的に岩や水晶を破壊することが可能となった",
-		name = "ブルーフラムロッド",
-		type = 3,
-		item_num = 1,
-		id = 3,
-		icon = "props/ryza_item_2",
-		item_id = {
-			1001,
-			2
-		},
-		recipe_circle = {
-			30,
-			31,
-			35,
-			32,
-			33,
-			34,
-			36,
-			37,
-			38,
-			39,
-			2
-		}
-	},
-	{
-		rarity = 3,
-		display = "釣り竿の強化版。強化したことにより、魚が警戒せずに寄ってくるように改良されている",
-		name = "神竿バルムヘル",
-		type = 3,
-		item_num = 1,
-		id = 4,
-		icon = "props/ryza_item_1",
-		item_id = {
-			1001,
-			1
-		},
-		recipe_circle = {
-			40,
-			42,
-			43,
-			45,
-			47,
-			49,
-			41,
-			44,
-			46,
-			48,
-			50,
-			51
-		}
-	},
-	{
-		rarity = 3,
-		display = "強大な握力と推力、そして灼熱の採掘レーザーを発射できるセイレーンのメカニカルアーム――錬金術の素材を採取するのに使えるかも？",
-		name = "レーザーアーム",
-		type = 3,
-		item_num = 1,
-		id = 5,
-		icon = "props/ryza_item_5",
-		item_id = {
-			1001,
-			5
-		},
-		recipe_circle = {
-			60,
-			62,
-			63,
-			64,
-			66,
-			67,
-			65,
-			61
-		}
-	},
 	[10] = {
 		rarity = 4,
 		display = "ライザリン・シュタウトの特殊装備。強い輝きを放つ杖。何かしなくても、常に眩しく輝き続けている。その光を浴びると、装備者だけでなく、周囲の人間も心が明るくなったように感じる",
-		name = "スパークルレヴァリエ",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "スパークルレヴァリエ",
+		version = 1,
+		shape = 0,
 		id = 10,
 		icon = "equips/10360",
 		item_id = {
@@ -156,9 +32,12 @@ pg.activity_ryza_recipe = {
 	[20] = {
 		rarity = 4,
 		display = "クラウディア・バレンツの特殊装備。放たれた矢が暗闇の中で星のように輝くことから名づけられた弓。暗闇の中でこんな弓に狙われた日にはたまったものじゃないだろう",
-		name = "アストルムノクス",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "アストルムノクス",
+		version = 1,
+		shape = 0,
 		id = 20,
 		icon = "equips/10380",
 		item_id = {
@@ -182,9 +61,12 @@ pg.activity_ryza_recipe = {
 	[30] = {
 		rarity = 4,
 		display = "パトリツィア・アーベルハイムの特殊装備。意思があり、剣自体が使い手を選ぶと言われている。使用者が気高き魂を持っていない限り、どんな達人であろうと使いこなせないという",
-		name = "エーデルシュヴァルト",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "エーデルシュヴァルト",
+		version = 1,
+		shape = 0,
 		id = 30,
 		icon = "equips/10400",
 		item_id = {
@@ -209,9 +91,12 @@ pg.activity_ryza_recipe = {
 	[40] = {
 		rarity = 4,
 		display = "リラ・ディザイアスの特殊装備。かつてオーレン族が使用していた伝統武器の一つ。身につけるだけで周りの自然に宿る精霊が力を与えてくれるという",
-		name = "オーレンへルディン",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "オーレンへルディン",
+		version = 1,
+		shape = 0,
 		id = 40,
 		icon = "equips/10420",
 		item_id = {
@@ -238,9 +123,12 @@ pg.activity_ryza_recipe = {
 	[50] = {
 		rarity = 4,
 		display = "セリ・グロースの特殊装備。「花の賢者」と呼ばれた人物が付けていたとされる腕輪。着用者が歩くだけで周囲の花が咲き誇るため、「花の賢者」の周りは常に花畑となっていたようだ",
-		name = "グランデフロラシオン",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "グランデフロラシオン",
+		version = 1,
+		shape = 0,
 		id = 50,
 		icon = "equips/10440",
 		item_id = {
@@ -265,9 +153,12 @@ pg.activity_ryza_recipe = {
 	[60] = {
 		rarity = 4,
 		display = "異様な形のウォーハンマー。平たい部分の逆側はただオシャレな形になっているだけ",
-		name = "エルダーリリー",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "エルダーリリー",
+		version = 1,
+		shape = 0,
 		id = 60,
 		icon = "equips/10460",
 		item_id = {
@@ -294,9 +185,12 @@ pg.activity_ryza_recipe = {
 	[70] = {
 		rarity = 4,
 		display = "絶大な威力を持つ火属性爆弾。敵にダメージを与える",
-		name = "グランフラム",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "グランフラム",
+		version = 1,
+		shape = 0,
 		id = 70,
 		icon = "equips/89420",
 		item_id = {
@@ -324,9 +218,12 @@ pg.activity_ryza_recipe = {
 	[80] = {
 		rarity = 4,
 		display = "絶大な威力を持つ氷属性爆弾。敵にダメージを与える",
-		name = "クライスタルレヘルン",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "クライスタルレヘルン",
+		version = 1,
+		shape = 0,
 		id = 80,
 		icon = "equips/89440",
 		item_id = {
@@ -354,9 +251,12 @@ pg.activity_ryza_recipe = {
 	[90] = {
 		rarity = 4,
 		display = "絶大な威力を持つ雷属性爆弾。敵にダメージを与える",
-		name = "ラウトプラジグ",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "ラウトプラジグ",
+		version = 1,
+		shape = 0,
 		id = 90,
 		icon = "equips/89460",
 		item_id = {
@@ -384,9 +284,12 @@ pg.activity_ryza_recipe = {
 	[100] = {
 		rarity = 4,
 		display = "絶大な威力を持つ風属性爆弾。敵にダメージを与える",
-		name = "ヴィアベールルフト",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "ヴィアベールルフト",
+		version = 1,
+		shape = 0,
 		id = 100,
 		icon = "equips/89480",
 		item_id = {
@@ -413,9 +316,12 @@ pg.activity_ryza_recipe = {
 	[110] = {
 		rarity = 4,
 		display = "おもいきり打ち付けることで、大地を激しく揺らすことができる槌。大地が揺れる際に空気が震え、天がいななくことが創世を思わせるため、このような名がついた",
-		name = "創世の槌",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "創世の槌",
+		version = 1,
+		shape = 0,
 		id = 110,
 		icon = "equips/89580",
 		item_id = {
@@ -444,9 +350,12 @@ pg.activity_ryza_recipe = {
 	[120] = {
 		rarity = 4,
 		display = "銃身を必要としない弾丸。先端を対象に向けて弾くと、弾は上空を飛び回ったのち、対象に一直線に向かっていき、着弾すると同時に爆発する",
-		name = "泡雲の弾丸",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "泡雲の弾丸",
+		version = 1,
+		shape = 0,
 		id = 120,
 		icon = "equips/89600",
 		item_id = {
@@ -478,9 +387,12 @@ pg.activity_ryza_recipe = {
 	[130] = {
 		rarity = 4,
 		display = "絶大な威力を持つ爆弾。敵の防御力を下げることができる",
-		name = "Ｎ／Ａ",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "Ｎ／Ａ",
+		version = 1,
+		shape = 0,
 		id = 130,
 		icon = "equips/89560",
 		item_id = {
@@ -509,9 +421,12 @@ pg.activity_ryza_recipe = {
 	[140] = {
 		rarity = 4,
 		display = "絶大な威力を持つアイテム。敵のステータスを下げることができるが、使用時に使用者の耐久を消費する",
-		name = "アポカリプス",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "アポカリプス",
+		version = 1,
+		shape = 0,
 		id = 140,
 		icon = "equips/89540",
 		item_id = {
@@ -548,9 +463,12 @@ pg.activity_ryza_recipe = {
 	[150] = {
 		rarity = 4,
 		display = "神秘的な色合いを持つ羽衣。透き通るほど薄い布だが、広げることによりありとあらゆる攻撃から身を守ることができる",
-		name = "神秘の羽衣",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "神秘の羽衣",
+		version = 1,
+		shape = 0,
 		id = 150,
 		icon = "equips/89520",
 		item_id = {
@@ -585,9 +503,12 @@ pg.activity_ryza_recipe = {
 	[160] = {
 		rarity = 4,
 		display = "あらゆるケガ、病気の治療はもちろん、死すらも凌駕する超強力な薬。一握りの錬金術士にしか作ることのできない、錬金術の究極技術の一つとされている",
-		name = "エリキシル剤",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "エリキシル剤",
+		version = 1,
+		shape = 0,
 		id = 160,
 		icon = "equips/89500",
 		item_id = {
@@ -620,9 +541,12 @@ pg.activity_ryza_recipe = {
 	[170] = {
 		rarity = 4,
 		display = "意思が形となって音を奏でるハーモニカ。吹く者はもちろん、その音色を聞く者に対しても様々な力を与えてくれる",
-		name = "エネルジアニカ",
+		prop_type = "",
 		type = 1,
 		item_num = 1,
+		name = "エネルジアニカ",
+		version = 1,
+		shape = 0,
 		id = 170,
 		icon = "equips/89620",
 		item_id = {
@@ -645,14 +569,17 @@ pg.activity_ryza_recipe = {
 	[180] = {
 		rarity = 4,
 		display = "ランダムの装備外装を入手可能",
-		name = "装備外装箱（コラボ）",
+		prop_type = "",
 		type = 2,
 		item_num = 10,
+		name = "装備外装箱（コラボ）",
+		version = 1,
+		shape = 0,
 		id = 180,
 		icon = "props/appearanceboxlaisha",
 		item_id = {
 			2,
-			30340
+			30373
 		},
 		recipe_circle = {
 			1800,
@@ -676,9 +603,12 @@ pg.activity_ryza_recipe = {
 	[190] = {
 		rarity = 3,
 		display = "錬金術で4本の鍵を融合させて作り出した、カードキーのような装置。中枢エリアの「扉」にある挿入口に差し込められそうだ",
-		name = "遺跡の鍵・中枢の拠",
+		prop_type = "",
 		type = 2,
 		item_num = 1,
+		name = "遺跡の鍵・中枢の拠",
+		version = 1,
+		shape = 0,
 		id = 190,
 		icon = "props/ryza_item_31",
 		item_id = {
@@ -696,9 +626,12 @@ pg.activity_ryza_recipe = {
 	[200] = {
 		rarity = 4,
 		display = "この素晴らしき冒険の旅を記念するため、遺跡から回収した素材で作った彫刻。——「錬金術士と謎の遺跡群島」イベント記念「……うん、これもたるだね！」    ",
-		name = "遺跡冒険記念",
+		prop_type = "",
 		type = 2,
 		item_num = 1,
+		name = "遺跡冒険記念",
+		version = 1,
+		shape = 0,
 		id = 200,
 		icon = "furnitureicon/chuanmo/lianjinxunzhangicon",
 		item_id = {
@@ -729,9 +662,12 @@ pg.activity_ryza_recipe = {
 	[210] = {
 		rarity = 2,
 		display = "錬金術により人工的に造りだされた精霊の力を、封じ込めた小瓶。あらゆる属性に対して適性を持つ反面、扱うには高い技術が必要とされる",
-		name = "精霊の小瓶",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "精霊の小瓶",
+		version = 1,
+		shape = 0,
 		id = 210,
 		icon = "props/ryza_item_21",
 		item_id = {
@@ -747,9 +683,12 @@ pg.activity_ryza_recipe = {
 	[220] = {
 		rarity = 3,
 		display = "錬金術の調合に頻繁に出てくる基本薬。赤い液体で、火属性の素材と相性がよい",
-		name = "中和剤・赤",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剤・赤",
+		version = 1,
+		shape = 0,
 		id = 220,
 		icon = "props/ryza_item_22",
 		item_id = {
@@ -766,9 +705,12 @@ pg.activity_ryza_recipe = {
 	[230] = {
 		rarity = 3,
 		display = "錬金術の調合に頻繁に出てくる基本薬。青い液体で、氷属性の素材と相性がよい",
-		name = "中和剤・青",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剤・青",
+		version = 1,
+		shape = 0,
 		id = 230,
 		icon = "props/ryza_item_23",
 		item_id = {
@@ -785,9 +727,12 @@ pg.activity_ryza_recipe = {
 	[240] = {
 		rarity = 3,
 		display = "錬金術の調合に頻繁に出てくる基本薬。黄色い液体で、雷属性の素材と相性がよい",
-		name = "中和剤・黄",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剤・黄",
+		version = 1,
+		shape = 0,
 		id = 240,
 		icon = "props/ryza_item_25",
 		item_id = {
@@ -804,9 +749,12 @@ pg.activity_ryza_recipe = {
 	[250] = {
 		rarity = 3,
 		display = "錬金術の調合に頻繁に出てくる基本薬。緑の液体で、風属性の素材と相性がよい",
-		name = "中和剤・緑",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "中和剤・緑",
+		version = 1,
+		shape = 0,
 		id = 250,
 		icon = "props/ryza_item_24",
 		item_id = {
@@ -823,9 +771,12 @@ pg.activity_ryza_recipe = {
 	[260] = {
 		rarity = 4,
 		display = "４種のエレメントコアから作られる最上位素材の一つ。全属性と高い属性値を持ち、高度な調合をする際に役に立つ",
-		name = "クリスタルエレメント",
+		prop_type = "",
 		type = 4,
 		item_num = -1,
+		name = "クリスタルエレメント",
+		version = 1,
+		shape = 0,
 		id = 260,
 		icon = "props/ryza_item_26",
 		item_id = {
@@ -843,9 +794,12 @@ pg.activity_ryza_recipe = {
 	[270] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「火力・航空・雷装ステータスUP」効果が付与される",
-		name = "攻撃力向上コア",
+		prop_type = "",
 		type = 2,
 		item_num = 2,
+		name = "攻撃力向上コア",
+		version = 1,
+		shape = 0,
 		id = 270,
 		icon = "props/ryza_item_34",
 		item_id = {
@@ -867,9 +821,12 @@ pg.activity_ryza_recipe = {
 	[280] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「受けるダメージを軽減する」効果が付与される",
-		name = "防御力向上コア",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "防御力向上コア",
+		version = 1,
+		shape = 0,
 		id = 280,
 		icon = "props/ryza_item_35",
 		item_id = {
@@ -891,9 +848,12 @@ pg.activity_ryza_recipe = {
 	[290] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、耐久がゆっくり回復する」効果が付与される",
-		name = "自動回復コア",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "自動回復コア",
+		version = 1,
+		shape = 0,
 		id = 290,
 		icon = "props/ryza_item_36",
 		item_id = {
@@ -915,9 +875,12 @@ pg.activity_ryza_recipe = {
 	[300] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「味方艦船の耐久が20％を下回った場合一度だけ回復する」効果が付与される",
-		name = "緊急回復コア",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "緊急回復コア",
+		version = 1,
+		shape = 0,
 		id = 300,
 		icon = "props/ryza_item_37",
 		item_id = {
@@ -939,9 +902,12 @@ pg.activity_ryza_recipe = {
 	[310] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、支援弾幕が出現する」効果が付与される",
-		name = "爆燃支援攻撃コア",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "爆燃支援攻撃コア",
+		version = 1,
+		shape = 0,
 		id = 310,
 		icon = "props/ryza_item_38",
 		item_id = {
@@ -963,9 +929,12 @@ pg.activity_ryza_recipe = {
 	[320] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘中、命中した敵の被ダメージを一定時間UPさせる支援弾幕が出現する」効果が付与される",
-		name = "破砕支援攻撃コア",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "破砕支援攻撃コア",
+		version = 1,
+		shape = 0,
 		id = 320,
 		icon = "props/ryza_item_39",
 		item_id = {
@@ -987,9 +956,12 @@ pg.activity_ryza_recipe = {
 	[330] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘で獲得する経験値がUP」効果が付与される",
-		name = "経験値効率向上コア",
+		prop_type = "",
 		type = 2,
 		item_num = 3,
+		name = "経験値効率向上コア",
+		version = 1,
+		shape = 0,
 		id = 330,
 		icon = "props/ryza_item_40",
 		item_id = {
@@ -1011,9 +983,12 @@ pg.activity_ryza_recipe = {
 	[340] = {
 		rarity = 4,
 		display = "「錬金術士と謎の遺跡群島」コラボイベント海域で使用可能。使用すると、当該ステージでは味方に「戦闘での好感度上昇値がUP」効果が付与される",
-		name = "好感度上昇率向上コア",
+		prop_type = "",
 		type = 2,
 		item_num = 1,
+		name = "好感度上昇率向上コア",
+		version = 1,
+		shape = 0,
 		id = 340,
 		icon = "props/ryza_item_41",
 		item_id = {
@@ -1035,9 +1010,12 @@ pg.activity_ryza_recipe = {
 	[350] = {
 		rarity = 3,
 		display = "特殊装備を製造・変化（強化）時に使用する素材",
-		name = "特殊装備強化石T2",
+		prop_type = "",
 		type = 2,
 		item_num = 100,
+		name = "特殊装備強化石T2",
+		version = 1,
+		shape = 0,
 		id = 350,
 		icon = "props/15016",
 		item_id = {
@@ -1050,12 +1028,596 @@ pg.activity_ryza_recipe = {
 			3503
 		}
 	},
+	[1001] = {
+		rarity = 3,
+		display = "銃撃と打撃の威力を最大限に引き出すことを目的として作られた杖銃。凝縮したマナが光源のランプがついている",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "エフェメラルレコード",
+		version = 2,
+		shape = 1,
+		id = 1001,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14320
+		},
+		recipe_circle = {
+			10001,
+			10002,
+			10003,
+			10004,
+			10005,
+			10006,
+			10007
+		}
+	},
+	[1002] = {
+		rarity = 3,
+		display = "穂先が宝石の槍。例え穂先が折れてもいつでも交換できるようになっている",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "秘槍トリアイナ",
+		version = 2,
+		shape = 1,
+		id = 1002,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14340
+		},
+		recipe_circle = {
+			10011,
+			10012,
+			10013,
+			10014,
+			10015,
+			10016,
+			10017
+		}
+	},
+	[1003] = {
+		rarity = 3,
+		display = "使いやすいサイズの短銃とダガー。ダガーは軽くて切れ味抜群で、短銃は威力があるものの反動がそこそこ強い",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "ハントレス",
+		version = 2,
+		shape = 1,
+		id = 1003,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14360
+		},
+		recipe_circle = {
+			10021,
+			10022,
+			10023,
+			10024,
+			10025,
+			10026,
+			10027
+		}
+	},
+	[1004] = {
+		rarity = 3,
+		display = "斬るというより、ノコギリのように切り裂く武器。切られた傷が治りにくいだけでなく、傷跡も残りやすい",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "黄泉之蟷螂",
+		version = 2,
+		shape = 1,
+		id = 1004,
+		icon = "props/ryza_item_4",
+		item_id = {
+			21,
+			14380
+		},
+		recipe_circle = {
+			10031,
+			10032,
+			10033,
+			10034,
+			10035,
+			10036,
+			10037
+		}
+	},
+	[1011] = {
+		rarity = 3,
+		display = "火と雷の力を纏わせた双頭剣。使いこなせば２つの力をすぐに振るうことができる",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "エンデメテオ",
+		version = 2,
+		shape = 1,
+		id = 1011,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150720
+		},
+		recipe_circle = {
+			10041,
+			10042,
+			10043,
+			10044,
+			10045,
+			10046,
+			10047
+		}
+	},
+	[1012] = {
+		rarity = 3,
+		display = "強力な風の力を封じ込めた魔導書。本を開けば中の力を解放できる",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "スペリオルグリモア",
+		version = 2,
+		shape = 1,
+		id = 1012,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150700
+		},
+		recipe_circle = {
+			10051,
+			10052,
+			10053,
+			10054,
+			10055,
+			10056,
+			10057
+		}
+	},
+	[1013] = {
+		rarity = 3,
+		display = "虹色の輝きを放つ大剣。あらゆる力を兼ね備えている",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "グランシャイン",
+		version = 2,
+		shape = 1,
+		id = 1013,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150680
+		},
+		recipe_circle = {
+			10061,
+			10062,
+			10063,
+			10064,
+			10065,
+			10066,
+			10067
+		}
+	},
+	[1014] = {
+		rarity = 3,
+		display = "美しい花畑と青空を映し出す水晶玉。すべての傷を癒す効果を持つ",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "パナケイアスフィア",
+		version = 2,
+		shape = 1,
+		id = 1014,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150740
+		},
+		recipe_circle = {
+			10071,
+			10072,
+			10073,
+			10074,
+			10075,
+			10076,
+			10077
+		}
+	},
+	[1015] = {
+		rarity = 3,
+		display = "再生の力を有する天球儀。中心の宝石には癒しの力が秘められている",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "天恵のアーミラリ",
+		version = 2,
+		shape = 1,
+		id = 1015,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150780
+		},
+		recipe_circle = {
+			10081,
+			10082,
+			10083,
+			10084,
+			10085,
+			10086,
+			10087
+		}
+	},
+	[1016] = {
+		rarity = 3,
+		display = "太古の恐ろしい魔物を封印しているキューブ。解くのはやめたほうがいいよ",
+		prop_type = "",
+		type = 1,
+		item_num = 1,
+		name = "アンフェルキューブ",
+		version = 2,
+		shape = 1,
+		id = 1016,
+		icon = "props/ryza_item_4",
+		item_id = {
+			3,
+			150760
+		},
+		recipe_circle = {
+			10091,
+			10092,
+			10093,
+			10094,
+			10095,
+			10096,
+			10097
+		}
+	},
+	[1017] = {
+		rarity = 3,
+		display = "天穹の塔のエナジーを調整するための専用設備。レベル1。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "エナジー調整装置Ⅰ",
+		version = 2,
+		shape = 3,
+		id = 1017,
+		icon = "props/yumia_item_28",
+		item_id = {
+			1001,
+			134
+		},
+		recipe_circle = {
+			10101,
+			10102,
+			10103,
+			10104,
+			10105,
+			10106,
+			10107,
+			10108
+		}
+	},
+	[1018] = {
+		rarity = 3,
+		display = "天穹の塔のエナジーを調整するための専用設備。レベル2。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "エナジー調整装置Ⅱ",
+		version = 2,
+		shape = 3,
+		id = 1018,
+		icon = "props/yumia_item_29",
+		item_id = {
+			1001,
+			135
+		},
+		recipe_circle = {
+			10111,
+			10112,
+			10113,
+			10114,
+			10115,
+			10116,
+			10117,
+			10118
+		}
+	},
+	[1019] = {
+		rarity = 3,
+		display = "天穹の塔のエナジーを調整するための専用設備。レベル3。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "エナジー調整装置Ⅲ",
+		version = 2,
+		shape = 3,
+		id = 1019,
+		icon = "props/yumia_item_30",
+		item_id = {
+			1001,
+			136
+		},
+		recipe_circle = {
+			10121,
+			10122,
+			10123,
+			10124,
+			10125,
+			10126,
+			10127,
+			10128
+		}
+	},
+	[1020] = {
+		rarity = 3,
+		display = "天穹の塔のエナジーを調整するための専用設備。レベル4。",
+		prop_type = "",
+		type = 2,
+		item_num = 1,
+		name = "エナジー調整装置Ⅳ",
+		version = 2,
+		shape = 3,
+		id = 1020,
+		icon = "props/yumia_item_31",
+		item_id = {
+			1001,
+			137
+		},
+		recipe_circle = {
+			10131,
+			10132,
+			10133,
+			10134,
+			10135,
+			10136,
+			10137,
+			10138
+		}
+	},
+	[1021] = {
+		rarity = 3,
+		display = "錬金術で頻繁に使用する基本的な薬剤。赤い中和剤は火属性と相性がよい",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剤・赤",
+		version = 2,
+		shape = 2,
+		id = 1021,
+		icon = "props/yumia_item_23",
+		item_id = {
+			1001,
+			129
+		},
+		recipe_circle = {
+			10141,
+			10142,
+			10143
+		}
+	},
+	[1022] = {
+		rarity = 3,
+		display = "錬金術で頻繁に使用する基本的な薬剤。青い中和剤は氷属性と相性がよい",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剤・青",
+		version = 2,
+		shape = 2,
+		id = 1022,
+		icon = "props/yumia_item_24",
+		item_id = {
+			1001,
+			130
+		},
+		recipe_circle = {
+			10151,
+			10152,
+			10153
+		}
+	},
+	[1023] = {
+		rarity = 3,
+		display = "錬金術で頻繁に使用する基本的な薬剤。黄色い中和剤は雷属性と相性がよい",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剤・黄",
+		version = 2,
+		shape = 2,
+		id = 1023,
+		icon = "props/yumia_item_25",
+		item_id = {
+			1001,
+			131
+		},
+		recipe_circle = {
+			10161,
+			10162,
+			10163
+		}
+	},
+	[1024] = {
+		rarity = 3,
+		display = "錬金術で頻繁に使用する基本的な薬剤。緑色の中和剤は風属性と相性がよい",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剤・緑",
+		version = 2,
+		shape = 2,
+		id = 1024,
+		icon = "props/yumia_item_26",
+		item_id = {
+			1001,
+			132
+		},
+		recipe_circle = {
+			10171,
+			10172,
+			10173
+		}
+	},
+	[1025] = {
+		rarity = 3,
+		display = "錬金術で頻繁に使用する基本的な薬剤。改良され、あらゆる素材と相性が良くなるよう作られた万能中和剤である",
+		prop_type = "",
+		type = 2,
+		item_num = -1,
+		name = "中和剤・虹",
+		version = 2,
+		shape = 2,
+		id = 1025,
+		icon = "props/yumia_item_27",
+		item_id = {
+			1001,
+			133
+		},
+		recipe_circle = {
+			10181,
+			10182,
+			10183,
+			10184,
+			10185
+		}
+	},
+	[1026] = {
+		rarity = 3,
+		display = "ランダムの装備外装を入手可能",
+		prop_type = "",
+		type = 2,
+		item_num = 5,
+		name = "装備外装箱（ユミアのアトリエ）",
+		version = 2,
+		shape = 3,
+		id = 1026,
+		icon = "Props/appearanceboxyoumiya",
+		item_id = {
+			2,
+			30372
+		},
+		recipe_circle = {
+			10191,
+			10192,
+			10193,
+			10194
+		}
+	},
+	[1027] = {
+		rarity = 3,
+		display = "特殊装備を製造・変化（強化）時に使用する素材",
+		prop_type = "",
+		type = 2,
+		item_num = 100,
+		name = "特殊装備強化石T2",
+		version = 2,
+		shape = 3,
+		id = 1027,
+		icon = "props/15016",
+		item_id = {
+			2,
+			15016
+		},
+		recipe_circle = {
+			10201,
+			10202,
+			10203,
+			10204
+		}
+	},
+	[1028] = {
+		rarity = 3,
+		display = "拠点建設に使用される汎用材料。木製のオブジェクトの設置に使用される",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "汎用建設木材",
+		version = 2,
+		shape = 3,
+		id = 1028,
+		icon = "Props/65653",
+		item_id = {
+			1001,
+			138
+		},
+		recipe_circle = {
+			10211,
+			10212,
+			10213
+		}
+	},
+	[1029] = {
+		rarity = 3,
+		display = "拠点建設に使用される汎用材料。石製のオブジェクトの設置に使用される",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "汎用建設石材",
+		version = 2,
+		shape = 3,
+		id = 1029,
+		icon = "Props/65654",
+		item_id = {
+			1001,
+			139
+		},
+		recipe_circle = {
+			10221,
+			10222,
+			10223
+		}
+	},
+	[1030] = {
+		rarity = 3,
+		display = "拠点建設に使用される汎用材料。金属製のオブジェクトの設置に使用される",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "汎用建設金属",
+		version = 2,
+		shape = 3,
+		id = 1030,
+		icon = "Props/65655",
+		item_id = {
+			1001,
+			140
+		},
+		recipe_circle = {
+			10231,
+			10232,
+			10233
+		}
+	},
+	[1031] = {
+		rarity = 3,
+		display = "拠点建設に使用される汎用材料。植物のオブジェクトの設置に使用される",
+		prop_type = "",
+		type = 2,
+		item_num = 30,
+		name = "汎用建設植物",
+		version = 2,
+		shape = 3,
+		id = 1031,
+		icon = "Props/65656",
+		item_id = {
+			1001,
+			141
+		},
+		recipe_circle = {
+			10241,
+			10242,
+			10243
+		}
+	},
 	all = {
-		1,
-		2,
-		3,
-		4,
-		5,
 		10,
 		20,
 		30,
@@ -1090,6 +1652,31 @@ pg.activity_ryza_recipe = {
 		320,
 		330,
 		340,
-		350
+		350,
+		1001,
+		1002,
+		1003,
+		1004,
+		1011,
+		1012,
+		1013,
+		1014,
+		1015,
+		1016,
+		1017,
+		1018,
+		1019,
+		1020,
+		1021,
+		1022,
+		1023,
+		1024,
+		1025,
+		1026,
+		1027,
+		1028,
+		1029,
+		1030,
+		1031
 	}
 }

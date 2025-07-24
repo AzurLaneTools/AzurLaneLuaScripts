@@ -6,15 +6,23 @@ slot0.OnInit = function(slot0)
 end
 
 slot0.OnFirstFlush = function(slot0)
-	slot2 = getProxy(ActivityProxy)
-	slot1 = _.detect(slot2:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-		return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
-	end)
-
 	onButton(slot0, slot0.shop, function ()
+		if not configClinet.shopLinkActID or not getProxy(ActivityProxy):getActivitiesById(configClinet.shopLinkActID) then
+			slot1 = getProxy(ActivityProxy)
+			slot0 = underscore.detect(slot1:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+				return not slot0:isEnd()
+			end)
+		end
+
+		if not slot0 or slot0:isEnd() then
+			pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+			return
+		end
+
 		uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 			warp = NewShopsScene.TYPE_ACTIVITY,
-			actId = uv1 and uv1.id
+			actId = slot0.id
 		})
 	end)
 end

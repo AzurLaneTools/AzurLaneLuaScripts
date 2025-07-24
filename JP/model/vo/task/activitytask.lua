@@ -52,7 +52,7 @@ slot0.getProgress = function(slot0)
 		if getProxy(ActivityProxy):getActivityById(tonumber(slot0:getConfig("target_id_2"))) then
 			slot1 = slot3.data1 or 0
 		else
-			warning("找不到活动数据中物品得的数量")
+			warning("找不到活动数据中物品得的数量", slot0.id)
 
 			slot1 = 0
 		end

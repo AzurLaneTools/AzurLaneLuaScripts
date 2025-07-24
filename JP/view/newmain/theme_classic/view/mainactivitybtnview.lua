@@ -33,7 +33,8 @@ slot0.InitBtns = function(slot0)
 		MainActBoatAdBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActBlackFridaySalesBtn.New(slot0.actBtnTpl, slot0.event),
 		MainActToLoveBtn.New(slot0.actBtnTpl, slot0.event),
-		MainActHolidayVillaBtn.New(slot0.actBtnTpl, slot0.event)
+		MainActHolidayVillaBtn.New(slot0.actBtnTpl, slot0.event),
+		MainCoreActivityBtn2.New(slot0.actBtnTpl, slot0.event)
 	}
 	slot0.specailBtns = {
 		MainActInsBtn.New(slot0._tf, slot0.event),
@@ -137,9 +138,11 @@ slot0.FilterActivityBtns = function(slot0)
 		end
 	end
 
-	table.sort(slot1, function (slot0, slot1)
-		return slot0.config.group_id < slot1.config.group_id
-	end)
+	table.sort(slot1, CompareFuncs({
+		function (slot0)
+			return slot0.config.group_id
+		end
+	}))
 
 	return slot1, slot2
 end

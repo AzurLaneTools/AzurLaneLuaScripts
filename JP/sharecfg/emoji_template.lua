@@ -858,6 +858,19 @@ pg.emoji_template = {
 			2
 		}
 	},
+	[68] = {
+		achieve = 1,
+		index = 1027,
+		pic = "yingrui_4",
+		desc = "<color=#92fc63>[こっちよ！]</color>",
+		item_name = "スタンプ：こっちよ！",
+		item_desc = "スタンプ：こっちよ！チャットのアニメスタンプセットで使用可能",
+		id = 68,
+		icon = "",
+		type = {
+			2
+		}
+	},
 	[100] = {
 		achieve = 0,
 		index = 2001,
@@ -2420,6 +2433,7 @@ pg.emoji_template = {
 		65,
 		66,
 		67,
+		68,
 		100,
 		101,
 		102,

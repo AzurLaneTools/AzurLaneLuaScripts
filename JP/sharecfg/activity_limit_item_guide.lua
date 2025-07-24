@@ -1594,6 +1594,690 @@ pg.activity_limit_item_guide = {
 			}
 		}
 	},
+	[101] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 101,
+		drop_id = 89420,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[102] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 102,
+		drop_id = 89440,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[103] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 103,
+		drop_id = 89460,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[104] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 104,
+		drop_id = 89480,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[105] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 105,
+		drop_id = 89500,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[106] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 106,
+		drop_id = 89520,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[107] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 107,
+		drop_id = 89540,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[108] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 108,
+		drop_id = 89560,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[109] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 109,
+		drop_id = 89580,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[110] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 110,
+		drop_id = 89600,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[111] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 111,
+		drop_id = 89620,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[112] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 112,
+		drop_id = 95108,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[113] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 113,
+		drop_id = 95113,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[114] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 114,
+		drop_id = 95115,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[116] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 116,
+		drop_id = 95127,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[117] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 117,
+		drop_id = 95128,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[118] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 118,
+		drop_id = 95132,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[120] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 120,
+		drop_id = 95140,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[122] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 5,
+		order = 0,
+		id = 122,
+		drop_id = 95142,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50049,
+				"「ぷにの異世界旅行」イベント報酬"
+			}
+		}
+	},
+	[123] = {
+		is_new = 0,
+		activity = 50064,
+		count = 10,
+		type = 5,
+		order = 0,
+		id = 123,
+		drop_id = 95144,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[124] = {
+		is_new = 0,
+		activity = 50064,
+		count = 4,
+		type = 9,
+		order = 0,
+		id = 124,
+		drop_id = 1218,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50044,
+				"「依頼任務」任務報酬"
+			}
+		}
+	},
+	[125] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 125,
+		drop_id = 10360,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[126] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 126,
+		drop_id = 10380,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[127] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 127,
+		drop_id = 10400,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[128] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 128,
+		drop_id = 10420,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[129] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 129,
+		drop_id = 10440,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[130] = {
+		is_new = 0,
+		activity = 50064,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 130,
+		drop_id = 10460,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50055,
+				"調合で入手可能"
+			}
+		}
+	},
+	[131] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 131,
+		drop_id = 150680,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[132] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 132,
+		drop_id = 150700,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[133] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 133,
+		drop_id = 150720,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[134] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 134,
+		drop_id = 150740,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[135] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 135,
+		drop_id = 150760,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[136] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 136,
+		drop_id = 150780,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[137] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 3,
+		order = 0,
+		id = 137,
+		drop_id = 150800,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50058,
+				"「蒼穹の塵」累計入手数報酬"
+			}
+		}
+	},
+	[138] = {
+		is_new = 1,
+		activity = 50066,
+		count = 5,
+		type = 5,
+		order = 0,
+		id = 138,
+		drop_id = 325110,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"イベント任務報酬"
+			}
+		}
+	},
+	[139] = {
+		is_new = 1,
+		activity = 50066,
+		count = 4,
+		type = 9,
+		order = 0,
+		id = 139,
+		drop_id = 1499,
+		count_storage = 0,
+		link_params = {
+			{
+				2,
+				{
+					"scene task"
+				},
+				"イベント任務報酬"
+			}
+		}
+	},
+	[140] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 140,
+		drop_id = 14320,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[141] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 141,
+		drop_id = 14340,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[142] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 142,
+		drop_id = 14360,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
+	[143] = {
+		is_new = 1,
+		activity = 50066,
+		count = 1,
+		type = 21,
+		order = 0,
+		id = 143,
+		drop_id = 14380,
+		count_storage = 0,
+		link_params = {
+			{
+				3,
+				50043,
+				"調合で入手可能"
+			}
+		}
+	},
 	get_id_list_by_activity = {
 		[4937] = {
 			1,
@@ -1684,6 +2368,50 @@ pg.activity_limit_item_guide = {
 			97,
 			98,
 			99
+		},
+		[50064] = {
+			101,
+			102,
+			103,
+			104,
+			105,
+			106,
+			107,
+			108,
+			109,
+			110,
+			111,
+			112,
+			113,
+			114,
+			116,
+			117,
+			118,
+			120,
+			122,
+			123,
+			124,
+			125,
+			126,
+			127,
+			128,
+			129,
+			130
+		},
+		[50066] = {
+			131,
+			132,
+			133,
+			134,
+			135,
+			136,
+			137,
+			138,
+			139,
+			140,
+			141,
+			142,
+			143
 		}
 	},
 	all = {
@@ -1770,6 +2498,46 @@ pg.activity_limit_item_guide = {
 		96,
 		97,
 		98,
-		99
+		99,
+		101,
+		102,
+		103,
+		104,
+		105,
+		106,
+		107,
+		108,
+		109,
+		110,
+		111,
+		112,
+		113,
+		114,
+		116,
+		117,
+		118,
+		120,
+		122,
+		123,
+		124,
+		125,
+		126,
+		127,
+		128,
+		129,
+		130,
+		131,
+		132,
+		133,
+		134,
+		135,
+		136,
+		137,
+		138,
+		139,
+		140,
+		141,
+		142,
+		143
 	}
 }

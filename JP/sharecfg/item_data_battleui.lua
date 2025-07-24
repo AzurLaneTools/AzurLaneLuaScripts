@@ -118,6 +118,21 @@ pg.item_data_battleui = {
 			1
 		}
 	},
+	[108] = {
+		name = "ネイチャー",
+		key = "SkinNormal_20250724",
+		display_icon = "ui_108",
+		unlock = "クルーズパス24期報酬",
+		is_unlock = 1,
+		rare = 3,
+		desc = "樹海を飛ぶ鳥たち、そして流れる水が織りなす生き生きとしたネイチャーの律動",
+		id = 108,
+		icon = "108",
+		scene = {},
+		rare_display = {
+			1
+		}
+	},
 	[201] = {
 		name = "クリスマス",
 		key = "SkinNormal_20241209",
@@ -195,6 +210,7 @@ pg.item_data_battleui = {
 		105,
 		106,
 		107,
+		108,
 		201,
 		202,
 		203,

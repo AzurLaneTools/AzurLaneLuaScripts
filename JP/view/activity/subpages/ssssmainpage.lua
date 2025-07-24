@@ -44,11 +44,17 @@ slot0.OnFirstFlush = function(slot0)
 
 	onButton(slot0, slot0.shopBtn, function ()
 		uv0:PlayClickEffect(uv0.shopBtn, function ()
+			if (not configClinet.shopLinkActID or not getProxy(ActivityProxy):getActivitiesById(configClinet.shopLinkActID)) and not underscore.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
+				return not slot0:isEnd()
+			end) or slot0:isEnd() then
+				pg.TipsMgr.GetInstance():ShowTips(i18n("common_activity_end"))
+
+				return
+			end
+
 			uv0:emit(ActivityMediator.GO_SHOPS_LAYER, {
 				warp = NewShopsScene.TYPE_ACTIVITY,
-				actId = _.detect(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_SHOP), function (slot0)
-					return slot0:getConfig("config_client").pt_id == pg.gameset.activity_res_id.key_value
-				end) and slot0.id
+				actId = slot0.id
 			})
 		end)
 	end, SFX_PANEL)

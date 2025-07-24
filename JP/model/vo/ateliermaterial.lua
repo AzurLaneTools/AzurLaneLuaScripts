@@ -65,6 +65,18 @@ slot0.GetVoices = function(slot0)
 	return slot0:getConfig("got_voice")
 end
 
+slot0.GetCategory = function(slot0)
+	return slot0:getConfig("prop_type")
+end
+
+slot0.GetVersion = function(slot0)
+	return slot0:getConfig("version")
+end
+
+slot0.IsShow = function(slot0)
+	return slot0:getConfig("is_show")
+end
+
 slot1 = {
 	1,
 	1,

@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-7",
 			stopbgm = true,
 			say = "遺跡の鏡面海域・「異界の森」",
 			flashout = {

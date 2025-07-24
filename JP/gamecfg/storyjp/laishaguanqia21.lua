@@ -10,7 +10,7 @@ return {
 			nameColor = "#A9F548FF",
 			side = 2,
 			bgName = "bg_ryza_1",
-			bgm = "ryza-az-theme",
+			bgm = "ryza-12",
 			stopbgm = true,
 			say = "夕方、海底の探索を終え、戦利品をたっぷり持ち帰った一行は「始まりの地」に戻った。",
 			flashout = {

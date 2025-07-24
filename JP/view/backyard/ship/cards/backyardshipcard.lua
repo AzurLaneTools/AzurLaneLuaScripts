@@ -36,8 +36,9 @@ slot0.OnFlush = function(slot0)
 	slot3 = slot1:getLevelExpConfig()
 	slot4 = slot0:CalcShipAddExpSpeed()
 	slot5 = {}
+	slot6 = getProxy(ActivityProxy)
 
-	table.Foreach(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING), function (slot0, slot1)
+	table.Foreach(slot6:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING), function (slot0, slot1)
 		if slot1 and not slot1:isEnd() then
 			slot2 = slot1:getConfig("config_data")[1][4]
 
@@ -46,7 +47,10 @@ slot0.OnFlush = function(slot0)
 			end)
 		end
 	end)
-	table.Foreach(getProxy(ActivityProxy):getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING_2), function (slot0, slot1)
+
+	slot7 = getProxy(ActivityProxy)
+
+	table.Foreach(slot7:getActivitiesByType(ActivityConst.ACTIVITY_TYPE_HOTSPRING_2), function (slot0, slot1)
 		if slot1 and not slot1:isEnd() then
 			slot2 = slot1:getConfig("config_data")[1]
 
@@ -59,7 +63,7 @@ slot0.OnFlush = function(slot0)
 	slot8 = 0
 	slot9 = 0
 
-	for slot13, slot14 in ipairs(getProxy(ActivityProxy):getBackyardEnergyActivityBuffs()) do
+	for slot13, slot14 in ipairs(BuffHelper.GetBackYardEnergyBuffs()) do
 		slot9 = slot9 + tonumber(slot14:getConfig("benefit_effect"))
 	end
 

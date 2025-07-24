@@ -355,5 +355,21 @@ return {
 	end,
 	GetPassGamePoint = function (slot0)
 		return math.floor(10000 / math.log(slot0))
+	end,
+	ReSetDir = function (slot0)
+		if slot0.x ~= 0 and slot0.y ~= 0 then
+			slot1 = math.sign(slot0.x)
+			slot2 = math.sign(slot0.y)
+
+			if math.abs(slot0.y) < math.abs(slot0.x) then
+				slot0.x = math.ceil(slot3) * slot1
+				slot0.y = 0
+			else
+				slot0.x = 0
+				slot0.y = math.ceil(slot4) * slot2
+			end
+		end
+
+		return slot0
 	end
 }

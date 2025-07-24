@@ -295,9 +295,9 @@ pg.soundstory_template = {
 			"timer",
 			{
 				{
-					2024,
-					1,
-					30
+					2025,
+					7,
+					24
 				},
 				{
 					12,
@@ -307,9 +307,9 @@ pg.soundstory_template = {
 			},
 			{
 				{
-					2024,
-					2,
-					6
+					2025,
+					7,
+					30
 				},
 				{
 					23,
@@ -1115,6 +1115,112 @@ pg.soundstory_template = {
 			}
 		}
 	},
+	{
+		story_pic = "",
+		name = "「コレクション」の手入れ方法",
+		story_resource_JP = "soundStory24_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "陽向葵ゅか",
+		audition_resource_JP = "ss-960003-1",
+		overview = "ゴールデン・ハインドはコレクションの手入れをどうしているか――指揮官にそう聞かれた彼女は、一番「大事なもの」で実演してみせることにした……",
+		order = 2,
+		audition_text = "ふふ…またこんなにビクンビクンってしちゃって。かわいいかわいい私の「コレクション」、まだ寒いなら、ぎゅっとしがみついていいわよぉ？",
+		ship_id = 960003,
+		id = 24,
+		captions_color = "#57515e",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		story_pic = "",
+		name = "今度もデートだ！",
+		story_resource_JP = "soundStory25_JP",
+		story_resource_CN = "",
+		audition_resource_CN = "",
+		CV_JP = "新井里美",
+		audition_resource_JP = "ss-40152-1",
+		overview = "指揮官と1日中遊んだZ52。やがて横になる時間が訪れた。ベッドでリラックスする彼女は、指揮官に一緒に横になるように誘い…",
+		order = 2,
+		audition_text = "んん～、いい気持ち…指揮官も突っ立ってないで、一緒にベッドに飛び込もうよ！",
+		ship_id = 40152,
+		id = 25,
+		captions_color = "#4c4240",
+		CV_CN = "",
+		cost1 = {
+			1,
+			14,
+			120
+		},
+		cost2 = {
+			1,
+			15,
+			3
+		},
+		time = {
+			"timer",
+			{
+				{
+					2025,
+					7,
+					24
+				},
+				{
+					12,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					7,
+					30
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
 	all = {
 		1,
 		2,
@@ -1138,6 +1244,8 @@ pg.soundstory_template = {
 		20,
 		21,
 		22,
-		23
+		23,
+		24,
+		25
 	}
 }

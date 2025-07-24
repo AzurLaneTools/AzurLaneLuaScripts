@@ -419,6 +419,8 @@ slot0.FLEET_ATTR_CAP = {
 	ReisalinAP = 99,
 	KansasSP = 3,
 	Judgement = 12,
+	YumiaMANA = 100,
+	YumiaManaFlow = 10,
 	yuanchou = 9
 }
 slot0.TARGET_SELECT_PRIORITY = {
@@ -458,3 +460,7 @@ slot0.ALCHEMIST_AP_UI = {
 	109
 }
 slot0.ALCHEMIST_AP_NAME = "ReisalinAP"
+slot0.YUMIA_MANA_UI = {
+	113
+}
+slot0.YUMIA_MANA_NAME = "YumiaMANA"

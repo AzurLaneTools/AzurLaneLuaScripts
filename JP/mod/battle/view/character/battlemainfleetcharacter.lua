@@ -12,7 +12,7 @@ end
 
 slot3.Update = function(slot0)
 	uv0.super.Update(slot0)
-	slot0:UpdateArrowBarPostition()
+	slot0:UpdateArrowBarPosition()
 end
 
 slot3.AddArrowBar = function(slot0, slot1)

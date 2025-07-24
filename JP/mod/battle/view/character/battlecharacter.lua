@@ -812,7 +812,7 @@ end
 slot9 = Vector3(-1, 1, 1)
 slot10 = Vector3(1, 1, 1)
 
-slot6.UpdateArrowBarPostition = function(slot0)
+slot6.UpdateArrowBarPosition = function(slot0)
 	if not slot0._cameraUtil:GetCharacterArrowBarPosition(slot0._referenceVector, slot0._arrowVector) then
 		if not slot0._inViewArea then
 			slot0._inViewArea = true

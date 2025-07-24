@@ -146,7 +146,7 @@ end
 
 slot2.MakeArrowBar = function(slot0, slot1)
 	slot1:AddArrowBar(slot0:GetSceneMediator():InstantiateCharacterComponent(slot0.ARROW_BAR_NAME))
-	slot1:UpdateArrowBarPostition()
+	slot1:UpdateArrowBarPosition()
 end
 
 slot2.MakeCastClock = function(slot0, slot1)

@@ -170464,6 +170464,31 @@ _G.pg.base.item_virtual_data_statistics[65100] = {
 }
 
 
+_G.pg.base.item_virtual_data_statistics[65101] = {
+	drop_gold_max = 0,
+	name = "進捗Pt",
+	display = "キャンペーン「シーズン任務」で累計獲得数報酬を入手するための任務Ptアイテム。キャンペーン終了後に削除されます",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 7024,
+	icon = "props/battlepass_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 21,
+	id = 65101,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
 _G.pg.base.item_virtual_data_statistics[65500] = {
 	drop_gold_max = 0,
 	name = "レジスタンス記念勲章",
@@ -173585,6 +173610,206 @@ _G.pg.base.item_virtual_data_statistics[65640] = {
 	drop_oil_max = 0,
 	virtual_type = 0,
 	id = 65640,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65651] = {
+	drop_gold_max = 0,
+	name = "母港評判",
+	display = "「依頼任務」での任務をこなすと入手できる母港の評判ポイント。コラボイベント終了時に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/ryza_mission_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65651,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65652] = {
+	drop_gold_max = 0,
+	name = "遺跡水晶クラスター",
+	display = "「錬金術士と謎の遺跡群島」報酬交換用。イベント終了後に削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/ryza_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65652,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65653] = {
+	drop_gold_max = 0,
+	name = "汎用建設木材",
+	display = "拠点建設に使用される汎用材料。木製のオブジェクトの設置に使用される",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50043,
+	icon = "Props/65653",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 65653,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65654] = {
+	drop_gold_max = 0,
+	name = "汎用建設石材",
+	display = "拠点建設に使用される汎用材料。石製のオブジェクトの設置に使用される",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50043,
+	icon = "Props/65654",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 65654,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65655] = {
+	drop_gold_max = 0,
+	name = "汎用建設金属",
+	display = "拠点建設に使用される汎用材料。金属製のオブジェクトの設置に使用される",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50043,
+	icon = "Props/65655",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 65655,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65656] = {
+	drop_gold_max = 0,
+	name = "汎用建設植物",
+	display = "拠点建設に使用される汎用材料。植物のオブジェクトの設置に使用される",
+	type = 0,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 50043,
+	icon = "Props/65656",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 99,
+	id = 65656,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65662] = {
+	drop_gold_max = 0,
+	name = "試着貸出チケット（2025.8.6まで）",
+	display = "「試着貸出」対象になった着せ替えを一定時間内使用可能にするチケット。イベント終了（2025.8.6まで）で削除されます",
+	type = 98,
+	is_world = 0,
+	shop_id = 1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/skinTicket",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65662,
+	display_icon = {},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[65663] = {
+	drop_gold_max = 0,
+	name = "蒼穹の塵",
+	display = "「錬金術士と天空邂逅の塔」の交換Ptアイテム。イベント終了時に削除される",
+	type = 98,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/yumia_pt",
+	order = 0,
+	rarity = 2,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 65663,
 	display_icon = {},
 	price = {},
 	index = {},
@@ -218880,4 +219105,2738 @@ _G.pg.base.item_virtual_data_statistics[200483] = {
 	index = {},
 	shiptrans_id = {},
 	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200484] = {
+	drop_gold_max = 0,
+	name = "装備外装箱（ユミアのアトリエ）",
+	display = "ランダムの装備外装を入手可能",
+	type = 99,
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/equipskin_drop_display",
+	order = 0,
+	rarity = 4,
+	max_num = 0,
+	drop_oil_max = 0,
+	virtual_type = 0,
+	id = 200484,
+	display_icon = {
+		{
+			9,
+			1481,
+			1
+		},
+		{
+			9,
+			1482,
+			1
+		},
+		{
+			9,
+			1483,
+			1
+		},
+		{
+			9,
+			1484,
+			1
+		},
+		{
+			9,
+			1485,
+			1
+		},
+		{
+			9,
+			1486,
+			1
+		},
+		{
+			9,
+			1487,
+			1
+		},
+		{
+			9,
+			1488,
+			1
+		},
+		{
+			9,
+			1489,
+			1
+		},
+		{
+			9,
+			1490,
+			1
+		},
+		{
+			9,
+			1491,
+			1
+		},
+		{
+			9,
+			1492,
+			1
+		},
+		{
+			9,
+			1493,
+			1
+		},
+		{
+			9,
+			1494,
+			1
+		},
+		{
+			9,
+			1495,
+			1
+		},
+		{
+			9,
+			1496,
+			1
+		},
+		{
+			9,
+			1497,
+			1
+		},
+		{
+			9,
+			1498,
+			1
+		}
+	},
+	price = {},
+	index = {},
+	shiptrans_id = {},
+	combination_display = {}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200485] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200485,
+	display_icon = {
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			26,
+			1
+		},
+		{
+			2,
+			11,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200486] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200486,
+	display_icon = {
+		{
+			2,
+			10015,
+			1
+		},
+		{
+			2,
+			10055,
+			1
+		},
+		{
+			2,
+			68,
+			1
+		},
+		{
+			2,
+			46,
+			1
+		},
+		{
+			2,
+			3,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200487] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200487,
+	display_icon = {
+		{
+			2,
+			10052,
+			1
+		},
+		{
+			2,
+			10059,
+			1
+		},
+		{
+			2,
+			10064,
+			1
+		},
+		{
+			2,
+			19,
+			1
+		},
+		{
+			2,
+			45,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200488] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200488,
+	display_icon = {
+		{
+			2,
+			10041,
+			1
+		},
+		{
+			2,
+			10054,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200489] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200489,
+	display_icon = {
+		{
+			2,
+			11047,
+			1
+		},
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200490] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200490,
+	display_icon = {
+		{
+			2,
+			11014,
+			1
+		},
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10060,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200491] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200491,
+	display_icon = {
+		{
+			2,
+			11005,
+			1
+		},
+		{
+			2,
+			10015,
+			1
+		},
+		{
+			2,
+			10055,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200492] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200492,
+	display_icon = {
+		{
+			2,
+			11018,
+			1
+		},
+		{
+			2,
+			10052,
+			1
+		},
+		{
+			2,
+			10059,
+			1
+		},
+		{
+			2,
+			10064,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200493] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200493,
+	display_icon = {
+		{
+			2,
+			11013,
+			1
+		},
+		{
+			2,
+			10041,
+			1
+		},
+		{
+			2,
+			10054,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200494] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200494,
+	display_icon = {
+		{
+			2,
+			11047,
+			1
+		},
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200495] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200495,
+	display_icon = {
+		{
+			2,
+			11047,
+			1
+		},
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200496] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200496,
+	display_icon = {
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			26,
+			1
+		},
+		{
+			2,
+			11,
+			1
+		},
+		{
+			2,
+			5,
+			1
+		},
+		{
+			2,
+			4,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200497] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200497,
+	display_icon = {
+		{
+			2,
+			10015,
+			1
+		},
+		{
+			2,
+			10055,
+			1
+		},
+		{
+			2,
+			68,
+			1
+		},
+		{
+			2,
+			46,
+			1
+		},
+		{
+			2,
+			3,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200498] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200498,
+	display_icon = {
+		{
+			2,
+			10052,
+			1
+		},
+		{
+			2,
+			10059,
+			1
+		},
+		{
+			2,
+			10064,
+			1
+		},
+		{
+			2,
+			19,
+			1
+		},
+		{
+			2,
+			45,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200499] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200499,
+	display_icon = {
+		{
+			2,
+			10041,
+			1
+		},
+		{
+			2,
+			10054,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		},
+		{
+			2,
+			2,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200500] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200500,
+	display_icon = {
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200501] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200501,
+	display_icon = {
+		{
+			2,
+			10043,
+			1
+		},
+		{
+			2,
+			10106,
+			1
+		},
+		{
+			2,
+			10060,
+			1
+		},
+		{
+			2,
+			10003,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200502] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200502,
+	display_icon = {
+		{
+			2,
+			10015,
+			1
+		},
+		{
+			2,
+			10055,
+			1
+		},
+		{
+			2,
+			10010,
+			1
+		},
+		{
+			2,
+			10009,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200503] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200503,
+	display_icon = {
+		{
+			2,
+			10052,
+			1
+		},
+		{
+			2,
+			10059,
+			1
+		},
+		{
+			2,
+			10064,
+			1
+		},
+		{
+			2,
+			10011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200504] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200504,
+	display_icon = {
+		{
+			2,
+			10041,
+			1
+		},
+		{
+			2,
+			10054,
+			1
+		},
+		{
+			2,
+			10053,
+			1
+		},
+		{
+			2,
+			10002,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200505] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200505,
+	display_icon = {
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200506] = {
+	drop_gold_max = 0,
+	name = "ランダム設計図",
+	display = "一定の確率で下記の設計図を入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = -1,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/55000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200506,
+	display_icon = {
+		{
+			2,
+			10067,
+			1
+		},
+		{
+			2,
+			10088,
+			1
+		},
+		{
+			2,
+			10070,
+			1
+		},
+		{
+			2,
+			10008,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200507] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200507,
+	display_icon = {
+		{
+			4,
+			203071,
+			1
+		},
+		{
+			4,
+			203011,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200508] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200508,
+	display_icon = {
+		{
+			4,
+			201141,
+			1
+		},
+		{
+			4,
+			401021,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200509] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200509,
+	display_icon = {
+		{
+			4,
+			202111,
+			1
+		},
+		{
+			4,
+			102131,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200510] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200510,
+	display_icon = {
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			105111,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200511] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200511,
+	display_icon = {
+		{
+			4,
+			11300021,
+			1
+		},
+		{
+			4,
+			201231,
+			1
+		},
+		{
+			4,
+			107021,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200512] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200512,
+	display_icon = {
+		{
+			4,
+			11300021,
+			1
+		},
+		{
+			4,
+			203071,
+			1
+		},
+		{
+			4,
+			203011,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200513] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200513,
+	display_icon = {
+		{
+			4,
+			11300021,
+			1
+		},
+		{
+			4,
+			201141,
+			1
+		},
+		{
+			4,
+			401021,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200514] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200514,
+	display_icon = {
+		{
+			4,
+			11300021,
+			1
+		},
+		{
+			4,
+			202111,
+			1
+		},
+		{
+			4,
+			102131,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200515] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200515,
+	display_icon = {
+		{
+			4,
+			11300021,
+			1
+		},
+		{
+			4,
+			204011,
+			1
+		},
+		{
+			4,
+			105111,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200516] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200516,
+	display_icon = {
+		{
+			4,
+			11300021,
+			1
+		},
+		{
+			4,
+			201231,
+			1
+		},
+		{
+			4,
+			107021,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
+}
+
+
+_G.pg.base.item_virtual_data_statistics[200517] = {
+	drop_gold_max = 0,
+	name = "ランダムキャラ",
+	display = "一定の確率で下記のキャラを入手できます",
+	type = 99,
+	index = "",
+	is_world = 0,
+	shop_id = 0,
+	replace_item = 0,
+	combination_display = "",
+	time_limit = 0,
+	link_id = 0,
+	icon = "Props/54000",
+	price = "",
+	order = 0,
+	rarity = 1,
+	max_num = 0,
+	drop_oil_max = 0,
+	shiptrans_id = "",
+	virtual_type = 0,
+	id = 200517,
+	display_icon = {
+		{
+			4,
+			11300021,
+			1
+		},
+		{
+			4,
+			201231,
+			1
+		},
+		{
+			4,
+			107021,
+			1
+		},
+		{
+			4,
+			101091,
+			1
+		},
+		{
+			4,
+			101121,
+			1
+		},
+		{
+			4,
+			301131,
+			1
+		},
+		{
+			4,
+			105071,
+			1
+		},
+		{
+			4,
+			102031,
+			1
+		},
+		{
+			4,
+			201071,
+			1
+		},
+		{
+			4,
+			101131,
+			1
+		},
+		{
+			4,
+			102111,
+			1
+		},
+		{
+			4,
+			101041,
+			1
+		},
+		{
+			4,
+			101031,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			101141,
+			1
+		},
+		{
+			4,
+			101071,
+			1
+		},
+		{
+			4,
+			303031,
+			1
+		},
+		{
+			4,
+			302091,
+			1
+		},
+		{
+			4,
+			301181,
+			1
+		},
+		{
+			4,
+			105011,
+			1
+		},
+		{
+			4,
+			206011,
+			1
+		},
+		{
+			4,
+			107041,
+			1
+		},
+		{
+			4,
+			107011,
+			1
+		}
+	}
 }

@@ -343,7 +343,7 @@ pg.gameset = {
 	},
 	activity_res_id = {
 		description = "",
-		key_value = 516
+		key_value = 528
 	},
 	chapter_move_speed_1 = {
 		description = "",
@@ -1927,7 +1927,7 @@ pg.gameset = {
 	},
 	skin_ticket = {
 		description = "",
-		key_value = 518
+		key_value = 527
 	},
 	order_pt_max = {
 		key_value = 0,
@@ -2595,7 +2595,7 @@ pg.gameset = {
 		}
 	},
 	dayandnight_bgm = {
-		key_value = 5679,
+		key_value = 50063,
 		description = {
 			{
 				{
@@ -2603,7 +2603,7 @@ pg.gameset = {
 					5
 				},
 				"bg_main_night",
-				"tl-theme-2"
+				"yumia-44"
 			},
 			{
 				{
@@ -2611,7 +2611,7 @@ pg.gameset = {
 					8
 				},
 				"bg_main_twilight",
-				"tl-theme-1"
+				"yumia-43"
 			},
 			{
 				{
@@ -2619,7 +2619,7 @@ pg.gameset = {
 					16
 				},
 				"bg_main_day",
-				"tl-theme-1"
+				"yumia-43"
 			},
 			{
 				{
@@ -2627,7 +2627,7 @@ pg.gameset = {
 					19
 				},
 				"bg_main_twilight",
-				"tl-theme-1"
+				"yumia-43"
 			},
 			{
 				{
@@ -2635,7 +2635,7 @@ pg.gameset = {
 					24
 				},
 				"bg_main_night",
-				"tl-theme-2"
+				"yumia-44"
 			}
 		}
 	},
@@ -3904,6 +3904,55 @@ pg.gameset = {
 		description = {
 			5913,
 			9999
+		}
+	},
+	yumia_buff_mapping = {
+		key_value = 0,
+		description = {
+			{
+				300201,
+				300202,
+				300203,
+				300204,
+				300205,
+				300206,
+				300207,
+				300208,
+				300209,
+				300210,
+				300211,
+				300212,
+				300213,
+				300214,
+				300215,
+				300216,
+				300217,
+				300218,
+				300219,
+				300220
+			},
+			{
+				300001,
+				300002,
+				300003,
+				300004,
+				300005,
+				300006,
+				300007,
+				300008,
+				300009,
+				300010,
+				300011,
+				300012,
+				300013,
+				300014,
+				300015,
+				300016,
+				300017,
+				300018,
+				300019,
+				300020
+			}
 		}
 	}
 }

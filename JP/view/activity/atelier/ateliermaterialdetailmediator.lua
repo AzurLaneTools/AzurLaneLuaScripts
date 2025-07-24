@@ -9,14 +9,10 @@ slot0.register = function(slot0)
 	end)
 	slot0:bind(uv0.GO_RECIPE, function (slot0, slot1)
 		uv0.viewComponent:closeView()
-
-		if getProxy(ContextProxy):getCurrentContext():getContextByMediator(AtelierCompositeMediator) then
-			uv0:sendNotification(AtelierCompositeMediator.OPEN_FORMULA, slot1)
-		else
-			uv0:sendNotification(GAME.GO_SCENE, SCENE.ATELIER_COMPOSITE, {
-				formulaId = slot1
-			})
-		end
+		uv0:sendNotification(GAME.GO_SCENE, SCENE.ATELIER_COMPOSITE, {
+			formulaId = slot1,
+			activityID = getProxy(ActivityProxy):getActivityByType(ActivityConst.ACTIVITY_TYPE_ATELIER_LINK).id
+		})
 	end)
 end
 

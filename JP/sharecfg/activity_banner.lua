@@ -13,7 +13,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -24,8 +24,46 @@ pg.activity_banner = {
 			{
 				{
 					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 2,
+		pic = "temp3",
+		param = {
+			"scene get boat",
+			{
+				projectName = "new",
+				page = 1
+			}
+		},
+		time = {
+			{
+				{
+					2025,
 					7,
 					24
+				},
+				{
+					0,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					7
 				},
 				{
 					16,
@@ -37,12 +75,12 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 2,
-		pic = "temp3",
+		id = 3,
+		pic = "temp4",
 		param = {
-			"scene charge",
+			"scene core activity",
 			{
-				wrap = 4
+				coreName = "ALYCoreActivityUI"
 			}
 		},
 		time = {
@@ -50,7 +88,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -61,40 +99,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "50031",
-		type = 3,
-		id = 3,
-		pic = "temp4",
-		time = {
-			{
-				{
-					2025,
-					7,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					24
+					8,
+					7
 				},
 				{
 					16,
@@ -119,7 +125,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -130,13 +136,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					6
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -146,14 +152,14 @@ pg.activity_banner = {
 		id = 5,
 		pic = "temp1",
 		param = {
-			"dorm 3d select"
+			"crusing"
 		},
 		time = {
 			{
 				{
 					2025,
-					7,
-					17
+					8,
+					1
 				},
 				{
 					0,
@@ -164,40 +170,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
-				},
-				{
-					16,
-					0,
-					0
-				}
-			}
-		}
-	},
-	{
-		param = "50033",
-		type = 3,
-		id = 6,
-		pic = "temp7",
-		time = {
-			{
-				{
-					2025,
-					7,
-					17
-				},
-				{
-					0,
-					0,
-					0
-				}
-			},
-			{
-				{
-					2025,
-					7,
-					24
+					8,
+					14
 				},
 				{
 					16,
@@ -209,17 +183,20 @@ pg.activity_banner = {
 	},
 	{
 		type = 2,
-		id = 7,
-		pic = "temp8",
+		id = 6,
+		pic = "temp7",
 		param = {
-			"scene level"
+			"scene shop",
+			{
+				warp = "shopstreet"
+			}
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					18
+					24
 				},
 				{
 					0,
@@ -230,8 +207,45 @@ pg.activity_banner = {
 			{
 				{
 					2025,
+					8,
+					6
+				},
+				{
+					23,
+					59,
+					59
+				}
+			}
+		}
+	},
+	{
+		type = 2,
+		id = 7,
+		pic = "temp8",
+		param = {
+			"scene core activity",
+			{
+				coreName = "RyzaCoreActivityUI"
+			}
+		},
+		time = {
+			{
+				{
+					2025,
 					7,
-					24
+					26
+				},
+				{
+					10,
+					0,
+					0
+				}
+			},
+			{
+				{
+					2025,
+					8,
+					7
 				},
 				{
 					16,
@@ -259,14 +273,15 @@ pg.activity_banner = {
 		id = 9,
 		pic = "temp6",
 		param = {
-			"scene level"
+			"scene Cryptolalia",
+			{}
 		},
 		time = {
 			{
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -278,12 +293,12 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					24
+					30
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -298,7 +313,7 @@ pg.activity_banner = {
 				{
 					2025,
 					7,
-					17
+					24
 				},
 				{
 					0,
@@ -309,13 +324,13 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					24
+					8,
+					6
 				},
 				{
-					16,
-					0,
-					0
+					23,
+					59,
+					59
 				}
 			}
 		}
@@ -343,8 +358,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					6,
-					26
+					7,
+					24
 				},
 				{
 					0,
@@ -355,8 +370,8 @@ pg.activity_banner = {
 			{
 				{
 					2025,
-					7,
-					9
+					8,
+					6
 				},
 				{
 					23,
@@ -405,15 +420,13 @@ pg.activity_banner = {
 		[2] = {
 			1,
 			2,
+			3,
 			4,
 			5,
+			6,
 			7,
 			8,
 			9
-		},
-		[3] = {
-			3,
-			6
 		},
 		[9] = {
 			90,

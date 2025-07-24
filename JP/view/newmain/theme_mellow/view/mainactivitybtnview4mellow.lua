@@ -5,6 +5,8 @@ slot0.Ctor = function(slot0, slot1, slot2)
 
 	slot0.mapEventTr = slot1:Find("right/1/act/act_battle")
 	slot0.mapBtn = MainActivityBtnMellowAdapt.New(MainActMapBtn.New(slot0.mapEventTr, slot0.event, true, true))
+	slot0.mapSubEventTr = slot1:Find("right/1/act/act_sub_battle")
+	slot0.mapSubBtn = MainActivityBtnMellowAdapt.New(MainActSubMapBtn.New(slot0.mapSubEventTr, slot0.event, true, true))
 end
 
 slot0.InitBtns = function(slot0)
@@ -67,6 +69,12 @@ slot0.Flush = function(slot0)
 	else
 		slot0.mapBtn:Clear()
 	end
+
+	if slot0.mapSubBtn:InShowTime() then
+		slot0.mapSubBtn:Init()
+	else
+		slot0.mapSubBtn:Clear()
+	end
 end
 
 slot0.GetDirection = function(slot0)
@@ -78,6 +86,10 @@ slot0.Dispose = function(slot0)
 	slot0.mapBtn:Dispose()
 
 	slot0.mapBtn = nil
+
+	slot0.mapSubBtn:Dispose()
+
+	slot0.mapSubBtn = nil
 end
 
 return slot0

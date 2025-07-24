@@ -61,14 +61,14 @@ slot0.GetSpeed = function(slot0)
 end
 
 slot0.SpeedDistance = {
-	[0] = 1.5,
-	2,
-	2.5,
-	3,
-	3.5,
+	[0] = 3.5,
 	4,
 	4.5,
-	5
+	5,
+	5.5,
+	6,
+	6.3,
+	6.5
 }
 
 slot0.GetSpeedDis = function(slot0)
